@@ -1,13 +1,13 @@
---- 
+---
 title: " Door machine learning aangestuurde productaanbevelingen configureren"
 description: Deze procedure vernieuwt de gegevens in de Entiteitopslag die wordt gebruikt door het leersysteem van de machine dat productaanbevelingen genereert, en schakelt productaanbevelingen op POS-clients in.
 author: ashishmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BIMeasurementDeployManagementEntityStore, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 700af913f18e23c66db53a92033def06818af1ec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 277ffb879b80fe57deeaa2b52c1543baaf820274
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348521"
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a> Door machine learning aangestuurde productaanbevelingen configureren
 
@@ -41,5 +41,4 @@ Deze procedure vernieuwt de gegevens in de Entiteitopslag die wordt gebruikt doo
     * Als u het bericht "Kan de aanbevelingsmodellen niet ophalen" ziet, komt dat doordat u de entiteitopslag zeer onlangs hebt vernieuwd en het systeem mogelijk niet gereed is met het assimileren van de nieuwe gegevens. Wacht 2-3 uur en probeer het opnieuw.  
 9. Klik op Opslaan.
 10. Sluit de pagina.
-
 

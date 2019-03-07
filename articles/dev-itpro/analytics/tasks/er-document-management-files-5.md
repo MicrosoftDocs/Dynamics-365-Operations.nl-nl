@@ -1,13 +1,13 @@
---- 
+---
 title: 'ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 5: Indeling aanpassen en uitvoeren)'
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de Documentbeheerbestanden (bijlagen) in ER-uitvoer.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERComponentTypeDropDialog, ERExpressionDesignerFormula, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 23e91b6aee62157da9141cc7b6c4fae39c19ce32
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329178"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format"></a>ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 5: Indeling aanpassen en uitvoeren)
 
@@ -31,7 +31,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 
 Om deze stappen uit te voeren, moet u eerst de stappen in de procedure "ER Documentbeheerbestanden gebruiken in indelingsuitvoer (deel 4: indeling uitvoeren)".
 
-Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
 
 ## <a name="modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format"></a>De indeling voor het vullen van bijlagen aanpassen zodat berichten in binaire indeling worden gegenereerd
@@ -96,5 +96,4 @@ Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Opera
 6. Klik op OK.
 7. Klik op OK.
     * Controleer de gegenereerde uitvoer. Merk op dat naast het factuurbericht in XML-indeling, voor elke bijlage één bestand is gemaakt. De bijlagebestanden worden gevuld met de gecomprimeerde uitvoer in binaire indeling.  
-
 

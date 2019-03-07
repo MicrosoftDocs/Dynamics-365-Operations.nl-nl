@@ -1,13 +1,13 @@
---- 
+---
 title: Elektronische ER-documenten genereren voor betalingen met een indelingsconfiguratie
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken om elektronische documenten te genereren voor de verwerking van betalingen.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: cf2ae8fb451eba1054bb94edbce009dcfa8c872c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348314"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Elektronische ER-documenten genereren voor betalingen met een indelingsconfiguratie
 
@@ -81,5 +81,4 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een 
 24. Klik op OK.
 25. Klik op OK.
     * Analyseer het gemaakte betalingsbestand in XML-indeling. Vergelijken het met de ontworpen documentindeling en de gedefinieerde kenmerken van de betalingstransactie.  
-
 

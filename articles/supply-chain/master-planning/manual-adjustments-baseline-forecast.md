@@ -5,9 +5,9 @@ author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7c7d1fcaaeef7a01b43886e4d69458dbd942439
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 543a88a8df4252e5bf1b6b27b5209650c1ceca0b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315884"
 ---
-
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Handmatige correcties aanbrengen in de basislijnprognose
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,7 @@ Op de pagina **Details van vraagprognose** wordt de volgende informatie in grafi
 **Opmerkingen:**
 
 -   Het betrouwbaarheidsinterval dat in de sectie **Prognose** van de pagina wordt weergegeven is het verschil tussen de betrouwbaarheidsintervalbovengrens en de betrouwbaarheidsintervalondergrens. Om de waarden voor de boven- en ondergrens te zien, beweegt u de cursor over de grafiek in de **Historische vraag en prognose grafisch weergegeven**.
--   Als u de Microsoft Azure Machine Learning-service Vraagprognose in Dynamics 365 for Finance and Operations gebruikt, kunt u het percentage van het vertrouwensniveau opgeven dat de gegenereerde prognose moet hebben. Een waarschijnlijkheidsinterval bestaat uit een waardebereik dat als goede ramingen voor de vraagprognose fungeert. Een waarschijnlijkheidspercentage van 95% geeft aan dat er een kans van 5% is dat de vraagprognose valt buiten het bereik van het waarschijnlijkheidsinterval.
+-   Als u de Microsoft Azure Machine Learning-service Vraagprognose van Finance and Operations gebruikt, kunt u het percentage van het vertrouwensniveau opgeven dat de gegenereerde prognose moet hebben. Een waarschijnlijkheidsinterval bestaat uit een waardebereik dat als goede ramingen voor de vraagprognose fungeert. Een waarschijnlijkheidspercentage van 95% geeft aan dat er een kans van 5% is dat de vraagprognose valt buiten het bereik van het waarschijnlijkheidsinterval.
 
 U kunt ook handmatige aanpassingen uitvoeren aan de prognose op de pagina **Details van vraagprognose** door de waarden in de rij **Prognose** te wijzigen in de sectie **Prognose**.
 
@@ -82,7 +81,6 @@ U kunt ook handmatige aanpassingen uitvoeren aan de prognose op de pagina **Deta
 [Nauwkeurigheid van vraagprognose bewaken](monitor-forecast-accuracy.md)
 
 [Statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
-
 
 
 

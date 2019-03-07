@@ -1,13 +1,13 @@
---- 
+---
 title: 'ER: onderdelen van de nieuwe indeling toewijzen aan gegevensmodelelementen (november 2016)'
 description: In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder of de ER-ontwikkelaar elementen van gegevensmodellen kan toewijzen aan onderdelen van de gemaakte ER-configuratie, waarin een elektronisch document voor het zakelijk domein van betalingen wordt gedefinieerd.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a24ef0e091379f14a163a6385be988143a1ec608
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323543"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER: onderdelen van de nieuwe indeling toewijzen aan gegevensmodelelementen (november 2016)
 
@@ -113,5 +113,4 @@ In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder
 ## <a name="restrict-access-to-created-format-from-companies"></a>Toegang tot gemaakte indeling van bedrijven beperken
 1. Vouw de sectie ISO-land-/regiocodes uit.
     * Elke indelingstoegang kan worden beperkt door bepaalde landen/regio's te identificeren waarin een indeling van toepassing is. Als de lijst met landen/regio's voor een specifieke indeling leeg is, kan deze indeling worden gebruikt in elk bedrijf. Als enkele ISO-land-/regiocodes worden ingevoegd in de lijst met landen/regio's, kan deze indeling alleen in bedrijven worden gebruikt waarvan het primaire adres in de land-/regiocode uit die lijst is gelegen.  
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Incassogegevens controleren
 description: Deze procedure begeleidt u door het controleren van incassogegevens en verschillende instellingsopties en incassotransacties.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb0866505702ec5d047b6c8f3f0657aae787bedc
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349096"
 ---
 # <a name="review-collections-information"></a>Incassogegevens controleren
 
@@ -131,5 +131,4 @@ Deze procedure begeleidt u door het controleren van incassogegevens en verschill
     * Een incassoaanvraag selecteren die is toegewezen aan de klant, of dit veld leeg laten. Als er een aanvraag is geselecteerd, worden alleen transacties en activiteiten die aan de aanvraag zijn gekoppeld, in dit formulier weergegeven.  
 8. Klik op Lijst weergeven.
     * Een klantrekening selecteren of de standaardinvoer accepteren. Standaard is dit de geselecteerde klantrekening op de lijstpagina of in het formulier van waaruit u dit formulier hebt geopend. Als u het formulier vanuit een lijstpagina hebt geopend, zijn de klanten in de lijst de klanten die in de incassoverzameling zijn opgenomen die op de lijstpagina wordt gebruikt.  
-
 

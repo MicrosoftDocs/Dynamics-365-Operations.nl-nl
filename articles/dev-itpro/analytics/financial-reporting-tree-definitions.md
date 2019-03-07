@@ -1,13 +1,13 @@
 ---
-title: "Rapportagestructuurdefinities in financiële rapporten"
-description: "Dit artikel bevat informatie over rapportagestructuurdefinities. Een rapportagestructuurdefinitie is een rapportonderdeel, of bouwsteen, die helpt bij het definiëren van de structuur en de hiërarchie van uw organisatie."
+title: Rapportagestructuurdefinities in financiële rapporten
+description: Dit artikel bevat informatie over rapportagestructuurdefinities. Een rapportagestructuurdefinitie is een rapportonderdeel, of bouwsteen, die helpt bij het definiëren van de structuur en de hiërarchie van uw organisatie.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316942"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Rapportagestructuurdefinities in financiële rapporten
 
 [!include [banner](../includes/banner.md)]
@@ -49,9 +48,9 @@ U kunt een onbeperkt aantal rapportagestructuren maken om de gegevens van uw org
 ## <a name="create-a-reporting-tree-definition"></a>Een rapportagestructuurdefinitie maken
 Een rapportagestructuurdefinitie bevat de kolommen die in de volgende tabel worden omschreven.
 
-| Rapportagestructuurkolom | Omschrijving |
+| Rapportagestructuurkolom | Beschrijving |
 |-----------------------|-------------|
-| Bedrijf               | De naam van het bedrijf voor de rapportage-eenheid. De waarde **@ANY**, die meestal alleen aan het overzichtsniveau is toegewezen, zorgt ervoor dat de rapportagestructuur voor alle bedrijven kan worden gebruikt. Aan alle onderliggende vertakkingen is een bedrijf toegewezen. |
+| Bedrijf               | De naam van het bedrijf voor de rapportage-eenheid. Door middel van de waarde **@ANY**, die normaal gesproken alleen op overzichtsniveau wordt toegewezen, kan de rapporteringsstructuur worden gebruikt voor alle bedrijven. Aan alle onderliggende vertakkingen is een bedrijf toegewezen. |
 | Naam van eenheid             | De code die deze rapportage-eenheid identificeert in de grafische rapportagestructuur. Zorg ervoor dat u een unieke code vaststelt die consistent is en die gemakkelijk te begrijpen is voor gebruikers. |
 | Omschrijving van eenheid      | De titel van de rapportage-eenheid wordt weergegeven in de kop- of voettekst van het rapport als u **UnitDesc** opgeeft als een code in het tabblad **Kop- en voetteksten** van de rapportdefinitie. De titel verschijnt in de omschrijving van de rapportrij als u **UnitDesc** opgeeft in de cel **Omschrijving** van de rijdefinitie. |
 | Dimensies            | Een rapportage-eenheid die informatie rechtstreeks uit de financiële gegevens haalt. Deze definieert de logische plaatsing en de lengte voor de rekening en de gerelateerde segmenten. Elke rapportage-eenheidrij moet een dimensie in deze kolom hebben. U kunt ook een dimensie opnemen in een samenvattingseenheidrij (bijvoorbeeld voor uitgaven die rechtstreeks zijn gerelateerd aan die eenheid). Als u een dimensie invoert in een samenvattingseenheidrij, mogen rekeningen die in bovenliggende eenheden worden gebruikt niet in onderliggende eenheden worden gebruikt. Anders kunnen er dubbele bedragen ontstaan. |
@@ -166,9 +165,9 @@ U kunt voorkomen dat bepaalde gebruikers en groepen een rapportage-eenheid opene
 3. Selecteer in het dialoogvenster **Eenheidbeveiliging** een naam en klik vervolgens op **Verwijderen**.
 4. Klik tot slot op **OK**.
 
-### <a name="link-to-reports"></a>Koppelen aan rapporten
+### <a name="link-toreports"></a>Koppelen aan rapporten
 
-Nadat u een **rapportkolom** hebt gemaakt in de rijdefinitie en het rapport hebt opgegeven voor opname in het rapport, moet u de rapportagestructuur bijwerken met de gekoppelde kolom en de informatie over het rapport. Een rapport kan worden geïmporteerd in elke eenheid in de rapportagestructuur.
+Nadat u een  **rapport**kolom hebt gemaakt in de rijdefinitie en het rapport hebt opgegeven voor opname in het rapport, moet u de rapportagestructuur bijwerken met de gekoppelde kolom en de informatie over het rapport. Een rapport kan worden geïmporteerd in elke eenheid in de rapportagestructuur.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Het rapport identificeren in een rapportagestructuur
 
@@ -222,4 +221,3 @@ De volgende voorbeelden geven mogelijke informatie weer die worden gebruikt in e
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
-

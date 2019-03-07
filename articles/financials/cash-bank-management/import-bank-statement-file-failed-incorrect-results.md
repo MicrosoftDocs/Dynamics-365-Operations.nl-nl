@@ -1,13 +1,13 @@
 ---
 title: Problemen oplossen met importeren van bankafschriftbestanden
-description: "Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de indeling die Microsoft Dynamics 365 for Finance and Operations ondersteunt. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen."
+description: Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de indeling die Microsoft Dynamics 365 for Finance and Operations ondersteunt. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a4006bf35673e3bb61bcf11619ecc68d295f29eb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c408f30c783d58766ab93b13c589079c3ef375de
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324440"
 ---
-
 # <a name="bank-statement-file-import-troubleshooting"></a>Problemen oplossen met importeren van bankafschriftbestanden
 
 [!include [banner](../includes/banner.md)]
@@ -99,7 +98,6 @@ In de onderstaande tabel ziet u voorbeelden van de technische indelingsdefinitie
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
-
 
 
 

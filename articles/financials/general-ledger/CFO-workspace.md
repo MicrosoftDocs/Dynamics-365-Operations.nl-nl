@@ -1,14 +1,14 @@
 ---
-title: "Financiële dimensies toevoegen aan het CFO-werkgebied"
-description: "In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het werkgebied CFO zodat ze kunnen worden gebruikt voor grootboek- en budgetrapporten."
+title: Financiële dimensies toevoegen aan het CFO-werkgebied
+description: In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het werkgebied CFO zodat ze kunnen worden gebruikt voor grootboek- en budgetrapporten.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a15414eff99751d4e77e5b3bf315a556efb7ad5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5faefe5da8c3a64987a38ebef92eb87049ebe874
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332674"
 ---
-
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Financiële dimensies toevoegen aan het CFO-werkgebied
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het werkgebied CFO (Chief Financial Officer) zodat ze kunnen worden gebruikt voor grootboek- en budgetrapporten. Het CFO-werkgebied omvat een tabblad **Overzicht** en een tabblad **Financieel**. De rapporten op deze twee tabbladen worden ondersteund door twee maateenheden: LedgerActivityMeasure en BudgetActivityMeasure. In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017) is een relatie tussen deze twee maateenheden en de DimensionCombinationEntity-entiteit. Daarom kunt u alle dimensies selecteren.
+In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het werkgebied CFO (Chief Financial Officer) zodat ze kunnen worden gebruikt voor grootboek- en budgetrapporten. Het CFO-werkgebied omvat een tabblad **Overzicht** en een tabblad **Financieel**. De rapporten op deze twee tabbladen worden ondersteund door twee maateenheden: LedgerActivityMeasure en BudgetActivityMeasure. In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017), is er een relatie tussen deze twee afmetingen en de DimensionCombinationEntity-entiteit. Daarom kunt u alle dimensies selecteren.
 
 1. Werk in Finance and Operations op de pagina **Entiteitopslag** de maateenheden **LedgerActivityMeasure** en **BudgetActivityMeasure** bij.
 2. Open Toepassingsverkenner in Microsoft Visual Studio en zoek naar **LedgerCFO**.
@@ -57,4 +56,3 @@ In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het we
 16. Stel het project samen en open vervolgens de toepassing om de resultaten weer te geven.
 
     [![Voltooid werkgebied](./media/workspace.png)](./media/workspace.png)
-

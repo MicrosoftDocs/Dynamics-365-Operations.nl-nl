@@ -1,13 +1,13 @@
---- 
+---
 title: Een sjabloon voor vrije-tekstfacturen maken
 description: In deze procedure wordt beschreven hoe u een sjabloon voor een terugkerende vrije-tekstfactuur maakt.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 91f2ec2f8ab21616c6a1b886ee89d6faf84023e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f69505f0c6137121cae92d42d052b244326c8436
-ms.openlocfilehash: 9b7ce8ba180f67c4a52439f4e03b59f07a71323d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 06/28/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310778"
 ---
 # <a name="create-a-free-text-invoice-template"></a>Een sjabloon voor vrije-tekstfacturen maken
 
@@ -68,4 +68,3 @@ Gebruik voor deze procedure het demobedrijf USMF. Deze procedure is bedoeld voor
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Een vrije-tekstfactuur opslaan als een sjabloon
 U kunt ook een bestaande vrije-tekstfactuur als een sjabloon opslaan. Wanneer u Opslaan in sjabloon selecteert op het tabblad Factuur, moet u een naam en beschrijving voor de sjabloon opgeven. Als er al een sjabloon met deze naam bestaat, wordt dit in een melding aangegeven. U kunt nog steeds op OK klikken om deze sjabloon te vervangen. 
-

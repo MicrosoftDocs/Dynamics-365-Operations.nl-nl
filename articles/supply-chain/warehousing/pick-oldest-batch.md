@@ -5,9 +5,9 @@ author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3a592425ed28f591783ec45bdfd61574bb889557
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 929c55559f1eac9681e632572ffee71bf83158de
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320599"
 ---
-
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>Oudste batch verzamelen op een mobiel apparaat
 
 [!include [banner](../includes/banner.md)]
@@ -42,4 +41,3 @@ Voor artikelen die zijn ingesteld op gebruik van bestaand werk kan **Oudste batc
 **Waarschuwing** en **Forceren**: Een lijst van de batch(es) met de oudste vervaldatum verschijnt boven het batchbesturingselement wanneer de werknemer een batch selecteert. Als de locatie wordt aangestuurd via nummerplaten, wordt een lijst met nummerplaten die de oudste batch bevatten weergegeven boven het besturingselement nummerplaat. 
 -   **Waarschuwing**: Als een werknemer een nummerplaat of een batch kiest die niet in de weergegeven lijst staat, wordt het besturingselement blanco gemaakt en een waarschuwing getoond dat er een oudere batch is die moet worden geselecteerd. Om te kunnen doorgaan met het werk, mag de werknemer dezelfde nummerplaat of batch opnieuw selecteren.  
 -   **Forceren**: Werknemers blijven het bericht ontvangen dat er een oudere batch is, die moet worden verzameld.
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Informatie over letsel en ziekten instellen
 description: Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden vanwege aan gevaren op de werkplek.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjurySetup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fcc924e11ac17b561c5f5840a4fe1b183a8232d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316022"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Informatie over letsel en ziekten instellen
 
@@ -64,5 +64,4 @@ Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden
 22. Klik op het tabblad Rapporteringsinstanties.
     * De rapporteringsinstantie is de instantie waarbij het incident moet worden gerapporteerd. Schakel het selectievakje in voor de instantie die de standaardinstantie is waaraan u letsel en ziekte rapporteert.  
 23. Klik op Opslaan.
-
 

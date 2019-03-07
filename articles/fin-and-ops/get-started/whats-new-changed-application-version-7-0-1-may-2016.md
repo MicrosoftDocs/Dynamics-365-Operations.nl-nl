@@ -1,13 +1,13 @@
 ---
-title: Nieuwe of gewijzigde functies in Dynamics AX versie 7.0.1 (mei 2016)
+title: Wat is nieuw of gewijzigd in Dynamics AX-toepassingsversie 7.0.1 (mei 2016)
 description: In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie 7.0.1 nieuw of gewijzigd zijn. Deze versie werd uitgebracht in mei 2016 en heeft een buildnummer van 7.0.1265.23014.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314504"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Nieuwe of gewijzigde functies in Dynamics AX versie 7.0.1 (mei 2016)
+# <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX-toepassingsversie 7.0.1 (mei 2016)
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,7 +39,7 @@ In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie
 | Configureer een ER-rapport voor het invoeren van gegevens in dynamisch gegenereerde kolommen van een elektronisch document dat is gemaakt in OPENXML-werkbladindeling. | Een ER-rapport kan gegevens invoeren in een OPENXML-werkblad dat wordt gegenereerd via het horizontaal repliceren van kolommen. Daarom kan dezelfde ER-rapportconfiguratie opnieuw worden gebruikt voor het genereren van elektronische documenten met een verschillend aantal dynamisch gegenereerde kolommen. |
 | Configureer ER-bestemmingen zodat het resultaat van de uitvoer van een indeling wordt omgeleid naar een specifieke bestemming: bestand, e-mailadres of archief (Microsoft SharePoint-map of Microsoft Azure-opslag). | Voorheen, wanneer u een ER-configuratie uitvoerde, werd er een bericht weergegeven waarin gebruikersactie werd vereist voor het opslaan of openen van een bestand. U kunt nu apart een bestemming vooraf configureren voor elke indelingsconfiguratie en voor elk uitvoeronderdeel (een map of een bestand). Gebruikers die over de juiste toegangsrechten beschikken, kunnen tevens bestemmingsinstellingen wijzigen tijdens de uitvoering. |
 
-## <a name="pos--microsoft-dynamics-ax-retail"></a>POS - Microsoft Dynamics AX Retail
+## <a name="pos--microsoft-dynamics-ax-retail"></a>POS – Microsoft Dynamics AX Retail
 
 | Wat kunt u doen? | Waarom is dit belangrijk? |
 |------------------|------------------------|
@@ -107,4 +106,3 @@ In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie
 [Wat is nieuw of gewijzigd](whats-new-changed.md)
 
 [Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)](new-updated-task-guides-available-may-2016.md)
-

@@ -5,28 +5,27 @@ author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341529"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>Afhandeling van veiligheidsvoorraad voor artikelen
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ De prioriteit van het afhandelen van transacties voor de vereiste van de veiligh
 Tijdens de behoefteplanningsfase van de hoofdplanning geldt de lagere prioriteit voor aanvulling van de veiligheidsvoorraad niet meer. Voorhanden voorraad kan worden gebruikt vóór alle andere vraagsoorten. Tijdens de berekening van vertraging wordt er nieuwe logica toegevoegd om de vertraagde verkoopregels, stuklijstregelbehoeften en alle andere soorten vraag te analyseren en te bepalen of een tijdige levering mogelijk is als de veiligheidsvoorraad wordt gebruikt. Als wordt vastgesteld dat vertragingen kunnen worden beperkt met veiligheidsvoorraad, wordt veiligheidsvoorraad gebruikt om te voorzien in de behoeften op de verkoop- of stuklijstregels en wordt vervolgens de veiligheidsvoorraad aangevuld.
 
 Als het plan of artikel niet is ingesteld voor de berekening van vertraging, heeft de beperking van veiligheidsvoorraad dezelfde prioriteit als andere soorten vraag. Dit betekent dat er een reserve voor voorhanden voorraad en andere beschikbare voorraad bestaat voor andere soorten vraag.
-

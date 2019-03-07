@@ -5,9 +5,9 @@ author: perlynne
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325406"
 ---
-
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Magazijnwerk beheren met werksjablonen en locatierichtlijnen
 
 [!include [banner](../includes/banner.md)]
@@ -163,4 +162,3 @@ Selecteer deze optie om batchstrategieën voor de artikelen te gebruiken die voo
 Voor dit voorbeeld kijken we naar een inkooporderproces waar de locatie-instructie vrije capaciteit in een magazijn moet zoeken voor voorraadartikelen die zojuist zijn geregistreerd in het ontvangende dok. Eerst moet u we beschikbare capaciteit in het magazijn vinden door te consolideren met bestaande voorhanden voorraad. Als consolidatie niet mogelijk is, moet u een lege locatie zoeken. 
 
 Voor dit scenario moet u twee locatie-instructieacties definiëren. De eerste actie in de reeks moet de **consolidatie**-strategie gebruiken, de tweede de **Lege locatie met geen inkomend werk**-strategie. Tenzij u een derde actie definieert om een overloopscenario te dekken, zijn er twee resultaten mogelijk wanneer er geen capaciteit meer is in het magazijn: werk kan worden gemaakt zonder dat er locaties worden gedefinieerd of het werkaanmaakproces mislukt. Het resultaat wordt gedefinieerd door de instellingen op de pagina **Fouten bij locatie-instructie**, waar u kunt kiezen om de optie **Werk stoppen bij fout van locatie-instructie** voor elk type werkorder te selecteren.
-

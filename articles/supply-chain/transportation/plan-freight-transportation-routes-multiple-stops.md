@@ -1,13 +1,13 @@
 ---
 title: Vrachttransportroutes met meerdere tussenstops plannen
-description: Dit artikel beschrijft de verschillende elementen die u kunt gebruiken voor het plannen van transportroutes in Microsoft Dynamics 365 for Finance and Operations.
+description: Dit artikel beschrijft de verschillende elementen die u kunt gebruiken voor het plannen van transportroutes in Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328304"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Vrachttransportroutes met meerdere tussenstops plannen
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Een geplande route is een vooraf gedefinieerd routeplan met een planning voor de
 
 ## <a name="load-building-workbench"></a>Workbench voor ladingopbouw
 De workbench voor ladingopbouw maakt gebruik van de adressen van klanten en de leveringsdatums van verkooporders en de geplande routes die beschikbaar zijn om een lading voor te stellen. Standaard worden de waarden van de route ingevoerd in de workbench. U kunt echter een 'van'-datum selecteren die eerder valt dan de 'van'-datum op de route. Wanneer een lading wordt voorgesteld, worden het afleveradres en de leveringsdatum van alle openstaande verkooporders gecontroleerd. Als de postcode van het afleveradres overeenkomt met de postcode van een hub in het routeplan, en de leveringsdatum binnen het bereik ligt dat is geselecteerd in de criteria, wordt de verkooporder voorgesteld voor de lading. Ook wordt rekening gehouden met de capaciteit van de ladingsjabloon. Er wordt telkens slechts één lading tegelijk voorgesteld. Als u een verkooporder hebt die niet is opgenomen, is het mogelijk dat u een andere ladingsjabloon gebruikt (bijvoorbeeld een ladingsjabloon voor een grotere vrachtwagen of container) of een extra levering plant.
-
 
 
 

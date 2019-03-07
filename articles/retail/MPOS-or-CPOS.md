@@ -5,27 +5,26 @@ author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336239"
 ---
-
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Kiezen tussen Retail Modern POS (MPOS) en Cloud POS
 
 [!include [banner](includes/banner.md)]
@@ -43,7 +42,7 @@ Retail ondersteunt de volgende POS-opties:
 - Retail Modern POS (MPOS) voor Microsoft Windows
 - MPOS voor Microsoft Windows Phone
 - MPOS voor Apple iPad of Google Android-tablet
-- Cloud POS (CPOS), waarin de browsers Microsoft Edge, Internet Explorer en Google Chrome worden ondersteund
+- Cloud POS (CPOS), dat ondersteuning biedt voor de browers Microsoft Edge, Internet Explorer en Google Chrome
 
 In alle gevallen deelt de POS (MPOS en CPOS) dezelfde kerntoepassingscode. Dit punt is belangrijk om de volgende redenen:
 
@@ -61,7 +60,7 @@ Hoewel MPOS en CPOS grotendeels identiek zijn, zijn er enkele belangrijke versch
 MPOS op een Windows-, iOS- of Android-apparaat is een toepassing die wordt verpakt voor en geïnstalleerd en onderhouden op dat apparaat.
 
 - **Windows**: de MPOS-toepassing voor Windows bevat alle toepassingscode en de ingesloten CRT (commerce runtime). 
-- **iOS/Android**: op deze platforms fungeert de toepassing als host voor de CPOS-toepassingscode. Met andere woorden, de toepassingscode is afkomstig van de CPOS-server op Microsoft Azure of RSSU (Retail Store Scale Unit). Zie voor meer informatie [Overzicht voor schaaleenheid voor Retail-winkels](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android**: op deze platforms fungeert de toepassing als host voor de CPOS-toepassingscode. Met andere woorden, de toepassingscode wordt opgehaald van de server CPOS op Microsoft Azure of de Retail Store Scale Unit (RSSU). Zie voor meer informatie [Retail Store Scale Unit -overzicht](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -75,7 +74,7 @@ Naast een platform en vormfactor moeten detailhandelaren ook een implementatieop
 |-------------------------|---------------|-------------------|
 | MPOS voor Windows        | Cloud of RSSU | Ja               |
 | MPOS voor iOS of Android | Cloud of RSSU | Nee                |
-| Cloud POS               | Cloud of RSSU | Nee                |
+| Cloud-POS               | Cloud of RSSU | Nee                |
 
 #### <a name="retail-server"></a>Detailhandelserver
 
@@ -106,4 +105,3 @@ Houd bij het plannen van de POS-implementatie in uw winkels rekening met het vol
 - **Hardwareapparaten/randapparaten**: een belangrijk aspect van een Retail POS-systeem is de mogelijkheid om POS-randapparatuur, zoals printers, kassalades en betalingsterminals, te gebruiken. Hoewel met alle beschikbare POS-opties randapparatuur kan worden gebruikt, ondersteunt alleen MPOS voor Windows deze direct. Voor alle andere toepassingen zijn een of meer hardwarestations vereist. Hoewel deze benadering flexibiliteit toevoegt, moeten er aanvullende onderdelen worden geïmplementeerd, geconfigureerd en onderhouden.
 - **Systeemvereisten**: de systeemvereisten voor de POS-toepassing variëren. Zorg ervoor dat u over de meest recente informatie beschikt voordat u uw keuze maakt. Omdat CPOS wordt uitgevoerd in een browser, ondersteunt dit bijvoorbeeld een groter aantal besturingssystemen. Zie [Systeemvereisten voor cloudimplementaties](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements) voor meer informatie over systeemvereisten.
 - **Implementatie en onderhoud**: de complexiteit van de implementatie- en onderhoudsvereisten kan variëren, afhankelijk van de toepassing en implementatieopties. Voor een cloudgehoste CPOS-implementatie hoeft u bijvoorbeeld geen installaties en updates uit te voeren op elk apparaat. Deze benadering leidt dus tot een sterke verlaging van de complexiteit en kosten. Als u MPOS op elke kassa implementeert en de offlinemodus inschakelt, en u daarnaast gedeelde hardwarestations implementeert, vergroot u het aantal te beheren eindpunten aanzienlijk.
-

@@ -5,27 +5,26 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a183e17749c04b407eb17155ecb1363e96ade18a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: acbf7432c9487cbefaf24a2a98772c8f0ec7ffe6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317172"
 ---
-
 # <a name="accruing-subscriptions"></a>Toerekenen van abonnementen 
 
 [!include [banner](../includes/banner.md)]
@@ -151,6 +150,5 @@ U kunt het aantal grootboektransacties beperken dat wordt gemaakt wanneer u tran
 [Abonnementsopbrengsten samenvoegen](accrue-subscription-revenue.md)
 
   
-
 
 

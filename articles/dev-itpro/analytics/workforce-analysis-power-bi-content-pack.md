@@ -1,13 +1,13 @@
 ---
-title: Power BI-inhoud voor metrische gegevens over personeel
+title: Power BI-inhoud Metrische gegevens personeel
 description: In dit onderwerp wordt de Power BI-inhoud Metrische gegevens personeel besproken. U vindt hier een uitleg hoe u toegang krijgt tot de rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345784"
 ---
-
-# <a name="workforce-metrics-power-bi-content"></a>Power BI-inhoud voor metrische gegevens over personeel
+# <a name="workforce-metrics-power-bi-content"></a>Power BI-inhoud Metrische gegevens personeel
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de Microsoft Power BI-inhoud **Metrische gegevens personeel** besproken. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt de Power BI-inhoud **Metrische gegevens personeel** besproken. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
+## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 De Power BI-inhoud **Metrische gegevens personeel** wordt weergegeven in het werkgebied **Personeelsbeheer** als u een van deze producten gebruikt:
 
 - Microsoft Dynamics 365 for Finance and Operations
@@ -59,7 +58,7 @@ De volgende tabel bevat de metrische gegevens die in elk rapport worden weergege
 
 U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-Let erop dat u de Power BI-inhoud **Metrische gegevens personeel** downloadt die geldt voor de versie van Microsoft Dynamics 365 die u gebruikt.
+Let erop dat u de Power BI-inhoud **Metrische gegevens personeel** downloadt die van toepassing is voor de versie van Microsoft Dynamics 365 die u gebruikt.
 
 > [!NOTE]
 > De .pbix-bestanden die beschikbaar zijn in Lifecycle Services, zijn alleen van toepassing op Finance and Operations.
@@ -88,4 +87,3 @@ De volgende tabel bevat de entiteiten waarop de inhoud is gebaseerd.
 | Trend werknemer           | Werknemers in de loop van de tijd, personeelsbezetting, bedrijf en positie                                 | Bedrijf, Geografische locatie, Werknemersnaam, Rapporteert aan, Kalender-offset, Datum, Werknemertitel, Demografische gegevens, Aanstelling, Functie |
 | Project voor massaal aanstellen        | Aantal projecten voor massaal aanstellen, projecteigenaar en projectstatus                     | Bedrijf, Regel voor massaal aanstellen. |
 | Regel voor massaal aanstellen           | Afdeling, type dienstverband en positie                                           | Datum, Functie, Project voor massaal aanstellen |
-

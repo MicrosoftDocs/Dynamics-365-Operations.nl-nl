@@ -5,26 +5,25 @@ author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330305"
 ---
-
-# <a name="dual-currency"></a>Dubbele valuta
+# <a name="dual-currency"></a>Twee valuta's
 
 [!include [banner](../includes/banner.md)]
 
@@ -184,4 +183,3 @@ Bovendien zijn belangrijke wijzigingen aangebracht in het afschrijvingsproces. D
     - Als een transactietype voor afschrijving wordt ingevoerd in het vaste-activajournaal, worden de aangiftevalutabedragen in de nieuwe kolommen weergegeven. Deze bedragen kunnen worden gewijzigd.
     - Als de boekhoudingsvaluta en de rapportagevaluta's in het grootboek hetzelfde zijn, worden de bedragen synchroon gehouden. Als u het **Credit**-bedrag wijzigt, wordt het bedrag **Credit in aangiftevaluta** automatisch gewijzigd zodat het ermee overeenkomt.
     - Als een ander transactietype is ingevoerd in het vaste-activajournaal, worden de bedragen **Debet in aangiftevaluta** en **Credit in aangiftevaluta** nooit weergegeven, niet vóór en niet na de boeking. De boekhoudingsvaluta- en aangiftevalutabedragen zijn nog steeds beschikbaar in het boekstuk dat naar het grootboek wordt geboekt.
-

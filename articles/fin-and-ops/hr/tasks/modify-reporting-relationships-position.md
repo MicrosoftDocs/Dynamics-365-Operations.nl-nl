@@ -1,13 +1,13 @@
---- 
+---
 title: Rapporteringsrelaties voor een positie wijzigen
 description: Deze procedure toont hoe u de rapporteringsrelatie voor een werknemer wijzigt.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e779a337ff8f8e0199a60e094f4bec9eba49e701
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322692"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Rapporteringsrelaties voor een positie wijzigen
 
@@ -43,5 +43,4 @@ Deze procedure toont hoe u de rapporteringsrelatie voor een werknemer wijzigt. D
     * Voorbeeld: Project  
 12. Typ of selecteer een waarde in het veld Verantwoording aan positie.  Voorbeeld: 000437
 13. Klik op Opslaan.
-
 

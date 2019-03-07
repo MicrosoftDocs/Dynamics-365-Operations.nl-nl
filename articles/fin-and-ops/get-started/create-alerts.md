@@ -5,9 +5,9 @@ author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: cbf4917424e72a70a6d513b5daf45f6bf9cd57c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 78e1e6f7be04e1d4fecae080cbd4a285358590fb
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329408"
 ---
-
 # <a name="create-alert-rules"></a>Waarschuwingsregels maken
 
 [!include [banner](../includes/banner.md)]
@@ -84,4 +83,3 @@ Geef op het sneltabblad **Waarschuwing voor wie** van het dialoogvenster **Waars
 7. Accepteer op het sneltabblad **Waarschuw mij met** in het veld **Onderwerp** de standaard onderwerpkoptekst voor het e-mailbericht of voer een nieuw onderwerp in. De tekst wordt gebruikt als de onderwerpkoptekst voor het e-mailbericht dat u ontvangt als er een waarschuwing wordt geactiveerd.
 8. Voer desgewenst een bericht in het veld **Bericht** in. De tekst wordt gebruikt als het bericht dat u ontvangt als er een waarschuwing wordt geactiveerd.
 9. Selecteer **OK** om de instellingen op te slaan en de waarschuwingsregel te maken.
-

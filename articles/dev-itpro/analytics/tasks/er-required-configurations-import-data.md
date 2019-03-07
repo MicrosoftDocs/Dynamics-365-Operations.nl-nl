@@ -1,13 +1,13 @@
---- 
+---
 title: 'ER: vereiste configuraties maken voor het importeren van gegevens uit een extern bestand'
-description: "In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de toepassing Dynamics 365 for Finance and Operations, Enterprise edition kunnen worden geïmporteerd."
+description: In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de Dynamics 365 for Finance and Operations Enterprise Edition-toepassing kunnen worden geïmporteerd.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6675f35c9ec163a620e63af32ecdbff02197d3c3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "337366"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER: vereiste configuraties maken voor het importeren van gegevens uit een extern bestand
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de toepassing Dynamics 365 for Finance and Operations, Enterprise edition kunnen worden geïmporteerd. In dit voorbeeld maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de Taakbegeleiding 'ER Een configuratieprovider maken en deze als actief markeren'. Deze stappen kunnen worden voltooid met de USMF-gegevensset. U moet ook de volgende bestanden downloaden vanaf de koppelingen in het overzichtsonderwerp Electronic Reporting (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de Dynamics 365 for Finance and Operations Enterprise Edition-toepassing kunnen worden geïmporteerd. In dit voorbeeld maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de Taakbegeleiding 'ER Een configuratieprovider maken en deze als actief markeren'. Deze stappen kunnen worden voltooid met de USMF-gegevensset. U moet ook de volgende bestanden downloaden vanaf de koppelingen in het overzichtsonderwerp Electronic Reporting (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
     * ER biedt zakelijke gebruikers de mogelijkheid om het proces te configureren voor de import van externe gegevensbestanden in tabellen in Dynamics 365 for Finance and Operations, Enterprise edition, in de indeling .XML of .TXT. Allereerst moet u een abstract gegevensmodel en een configuratie voor een ER-gegevensmodel opzetten, om de gegevens te vertegenwoordigen die u wilt importeren. Vervolgens moet u de structuur definiëren van het bestand dat u wilt importeren en de methode die u gebruikt om de gegevens van het bestand over te zetten naar het abstracte gegevensmodel. De ER-indelingsconfiguratie die de toewijzing naar het door u ontworpen gegevensmodel bevat, moet voor dat abstracte gegevensmodel worden gemaakt. Vervolgens moet u de gegevensmodelconfiguratie uitbreiden met een toewijzing die beschrijft hoe de geïmporteerde gegevens permanent worden gemaakt als gegevens in het abstracte gegevensmodel en hoe ze worden gebruikt voor het bijwerken van tabellen in Dynamics 365 for Finance and Operations, Enterprise edition.  Aan de gegevensmodelconfiguratie van ER moet een nieuwe modeltoewijzing worden toegevoegd, die de binding van het gegevensmodel aan de bestemmingen van de toepassing beschrijft.  
     * In het volgende scenario worden de mogelijkheden van ER voor gegevensimport getoond. Dit omvat leverancierstransacties die extern worden bijgehouden en vervolgens geïmporteerd in Dynamics 365 for Finance and Operations, Enterprise edition, zodat ze later worden gerapporteerd in de Vereffening van leverancier voor 1099-aangiften.   
@@ -36,7 +36,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembe
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf ‘Litware, inc.‘ beschikbaar is en als actief gemarkeerd. Als u deze configuratieprovider niet ziet, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" uitvoeren.   
 2. Klik op Rapportconfiguraties.
-    * U hoeft niet een nieuw model te maken ter ondersteuning van de gegevensimport; u laadt het bestand 1099model.xml, dat u eerder hebt gedownload. Dit bestand bevat het aangepaste gegevensmodel voor leverancierstransacties. Dit gegevensmodel is toegewezen aan de gegevensonderdelen van Dynamics 365 for Finance and Operations, Enterprise edition die zich bevinden in de AOT-gegevensentiteit.   
+    * U hoeft niet een nieuw model te maken ter ondersteuning van de gegevensimport; u laadt het bestand 1099model.xml, dat u eerder hebt gedownload. Dit bestand bevat het aangepaste gegevensmodel voor leverancierstransacties. Dit gegevensmodel is toegewezen aan de Dynamics 365 for Finance and Operations, Enterprise edition-gegevensonderdelen die onderdeel zijn van de AOT-gegevensentiteit.   
 3. Klik op Uitwisselen.
 4. Klik op Laden uit XML-bestand.
     * Klik op Bladeren en navigeer naar het bestand 1099model.xml, dat u eerder hebt gedownload.  
@@ -177,17 +177,16 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembe
 18. Sluit de pagina.
 19. Sluit de pagina.
 20. Klik op Bewerken.
-    * Als u de hotfix “KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 for Finance and Operations, Enterprise edition” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) hebt geïnstalleerd, voert u de volgende stap 'Turn the flag ‘Default for model mapping’ on' uit voor de opgegeven indelingsconfiguratie. Sla anders de volgende stap over.  
+    * Als u de hotfix “KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 for Finance and Operations, Enterprise Edition” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ) hebt geïnstalleerd, voert u de volgende stap “Turn the flag ‘Default for model mapping’ on” uit voor de opgegeven indelingsconfiguratie. Sla anders de volgende stap over.  
 21. Selecteer in het veld Standaard voor modeltoewijzing de waarde Ja.
 22. Selecteer in de structuur '1099 Payments model'.
 23. Klik op Ontwerper.
 24. Klik op Model toewijzen aan gegevensbron.
 25. Klik op Uitvoeren.
-    * Als u de hotfix “KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 for Finance and Operations. Enterprise edition“ (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) hebt geïnstalleerd, selecteert u de gewenste modeltoewijzing in het zoekveld. Als u de hotfix nog niet hebt geïnstalleerd, gaat u door met de volgende stap, omdat de toewijzing is al geselecteerd door de definitie van de standaardindelingsconfiguratie.  
+    * Als u de hotfix “KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 for Finance and Operations. Enterprise edition“ (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ) hebt geïnstalleerd, selecteert u de gewenste modeltoewijzing in het zoekveld. Als u de hotfix nog niet hebt geïnstalleerd, gaat u door met de volgende stap, omdat de toewijzing is al geselecteerd door de definitie van de standaardindelingsconfiguratie.  
     * Als u de hotfix KB 4012871 niet hebt geïnstalleerd, ziet u dat het dialoogvenster een extra vraag bevat voor de modeltoewijzing die wordt gebruikt om het te importeren bestand te parseren. De gegevens worden vervolgens vanuit het dialoogvenster overgezet naar het gegevensmodel. U kunt op dit moment kiezen welke toewijzingsindeling moet worden gebruikt, afhankelijk van het type bestand dat u wilt importeren.  
     * Als u van plan bent om deze modeltoewijzing aan te roepen vanuit een punt in Dynamics 365 for Finance and Operations, Enterprise edition, dat speciaal is ontworpen voor de actie, moeten de ER-bestemming en de indelingstoewijzing zijn gemarkeerd als onderdeel van de integratie.  
 26. Klik op Annuleren.
 27. Sluit de pagina.
 28. Sluit de pagina.
-
 

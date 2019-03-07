@@ -5,28 +5,27 @@ author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314412"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Zoeken in voorraad op het verkooppunt (POS)
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ Met Zoeken in voorraad in het verkooppunt kunnen detailhandelaren operationele s
 
 Een nauwkeurige realtime weergave van de voorraad binnen een organisatie helpt het winkelpersoneel om op tijd een uitstekende klantenservice te bieden. Het moment dat er het meest toe doet, is het tijdstip waarop de klant is gereed om een aankoopbeslissing te nemen. Het is belangrijk dat kassiers in de winkel realtime voorraadinformatie bij de hand hebben zodat ze correct een levering van producten kunnen beloven.
 
-U kunt de pagina **Zoeken in voorraad** open vanuit het werkgebied **Retail Modern POS** of **Retail Cloud POS**.
+U kunt de pagina **Zoeken in voorraad** openen vanuit het werkgebied **Retail Modern POS** of **Retail Cloud POS**.
 
 ![Tegel Zoeken in voorraad op POS-startpagina](media/POSHomepage.png)
 
@@ -116,4 +115,3 @@ De volgende tabel bevat meer informatie over de aanvullende acties die beschikba
 | Beschikbaarheid         | Geef de ATP-informatie voor de geselecteerde combinatie van varianten voor de geselecteerde locatie weer. |
 | Alle locaties weergeven   | Schakel over naar de standaardzoekweergave voor voorraad en markeer de voorraadbeschikbaarheidsgegevens voor de artikelvariant voor alle winkels in de winkellocatorgroep, en ook in distributiecentra van de het type **Standaard**. |
 | Productgegevens weergeven | Stuur de gebruiker door naar de pagina **Productdetails** van het gekoppelde productmodel. |
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Verlof beheren
 description: Deze procedure doorloopt het maken van de records van het werknemerverlof.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmEmploymentLeave
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 7687d31fbf73a02b1b924d092e77ac28b573e694
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337964"
 ---
 # <a name="manage-leave-of-absence"></a>Verlof beheren
 
@@ -46,5 +46,4 @@ Deze procedure doorloopt het maken van de records van het werknemerverlof. U kun
 11. Voer in het veld Opmerking een omschrijving in.
     * Bijvoorbeeld: Verlof voor adoptie  
 12. Klik op Opslaan.
-
 

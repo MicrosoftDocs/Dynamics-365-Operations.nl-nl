@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 12/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
-ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329247"
 ---
-
 # <a name="removed-or-deprecated-features"></a>Verwijderde of afgeschafte functies
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden functies beschreven die zijn verwijderd uit of afgeschaft voor Microsoft Dynamics 365 for Finance and Operations.
+In dit onderwerp worden de functies beschreven die zijn verwijderd of afgeschaft voor Dynamics 365 for Finance and Operations.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
@@ -64,7 +63,7 @@ Functie voor het configureren van bestandsindelingen .txt en .xml van aangiften.
 | **Vervangen door een andere functie?**   | Ja. |
 | **Betrokken productgebieden**         | Grootboek |
 | **Implementatieoptie**              | Alles |
-| **Status**                         | Verwijderd in Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Aanmaker van financiële rapporten voor Rusland
 Een hulpmiddel om gegevensverzameling in te stellen voor boekhouding en belastingaangiften, en gegevens te exporteren naar XLS- en DOC-rapportsjablonen. Functionele onderdelen: gegevens exporteren naar XLS- en DOC-rapportsjablonen, query's, vaste vereisten worden verwijderd. 
@@ -75,7 +74,7 @@ Een hulpmiddel om gegevensverzameling in te stellen voor boekhouding en belastin
 | **Vervangen door een andere functie?**   | Ja. De gebruikersinterface voor de instelling van financiële rapportage moet worden gebruikt voor het instellen van regels voor het verzamelen van gegevens door grootboekrekeningen of belastingregisters. Exportgegevens in verschillende bestandstypen, vaste vereisten en queryregels voor het verzamelen van gegevens moeten worden geconfigureerd in Elektronische rapportage. |
 | **Betrokken productgebieden**         | Grootboek. |
 | **Implementatieoptie**              | Alles |
-| **Status**                         | Verwijderd in Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integratie met externe providers voor het verzenden via communicatiekanalen van elektronische rapportage voor Rusland
 Functie voor het exporteren van gegenereerde elektronische aangiftebestanden naar de map voor doorsturen naar officiële aanbieders van elektronische rapportage en het importeren van de status.
@@ -86,7 +85,7 @@ Functie voor het exporteren van gegenereerde elektronische aangiftebestanden naa
 | **Vervangen door een andere functie?**   | Ja.  |
 | **Betrokken productgebieden**         | Grootboek, Belasting |
 | **Implementatieoptie**              | Alles |
-| **Status**                         | Verwijderd in Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Wizard voor winstbelastingregister
@@ -94,19 +93,19 @@ Functie voor het maken van sjablonen voor nieuwe winstbelastingregisters. Met de
 
 |   |  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | De functie is niet compatibel met het Dynamics 365 for Finance and Operations-rekbaarheidsmodel. |
+| **Reden voor afschaffing/verwijdering** | Functie is niet compatibel met het Dynamics 365 for Finance and Operations uitbreidbare model. |
 | **Vervangen door een andere functie?**   | Nee |
 | **Betrokken productgebieden**         | Btw |
 | **Implementatieoptie**              | Alles |
-| **Status**                         | Verwijderd in Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 met platformupdate 15
 Er zijn geen onderdelen verwijderd of vervangen in deze versie. Platformupdate 15 is cumulatief en bevat nieuwe of gewijzigde functies van platformupdate 13, platformupdate 14 en platformupdate 15.
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise-editie 7.3 met platformupdate 12
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise edition 7.3 met platformupdate 12
 
-### <a name="personalized-product-recommendations"></a>Persoonlijke productaanbevelingen 
+### <a name="personalized-product-recommendations"></a>Gepersonaliseerde productaanbevelingen 
 Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie [Persoonlijke productaanbevelingen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations) voor meer informatie.  
 
 |   |  |
@@ -115,7 +114,7 @@ Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevel
 | **Vervangen door een andere functie?**   | Nr. Na het voorjaar van 2018 komen we echter met een nieuwe aanbevelingsservice.   |
 | **Betrokken productgebieden**         | Persoonlijke productaanbevelingen in POS.                                                    |
 | **Implementatieoptie**              | Alles                                                                                      |
-| **Status**                         |Verwijderd sinds 15 februari 2018. Dit heeft invloed op klanten met Dynamics 365 for Operations 1611 en hoger.  |
+| **Status**                         |Verwijderd sinds 15 februari 2018. Dit geldt voor klanten met Dynamics 365 for Operations 1611 en hoger.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Uitbreiding van de lijst met functies voor elektronische rapportage (ER)
 De mogelijkheid om aangepaste functies te introduceren voor gebruik in de ER-opbouwfunctie (zie voor meer informatie [De lijst met functies voor elektronische rapportage uitbreiden](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) wordt niet meer ondersteund. Als gevolg van wijzigingen in de ER-API's is de API voor het aanroepen van ingebouwde functies vanuit de ER-opbouwfunctie nu een interne API die niet meer kan worden uitgebreid.
@@ -126,7 +125,7 @@ De mogelijkheid om aangepaste functies te introduceren voor gebruik in de ER-opb
 | **Vervangen door een andere functie?**   | Geen. Wanneer u een nieuwe ingebouwde functie nodig hebt, moet u een nieuwe uitbreidingsaanvraag richten aan het team van het ER-framework.<br><br>Als tijdelijke oplossing terwijl de aangevraagde functie wordt ontwikkeld door het ER-team kan de vereiste logica worden geprogrammeerd als een methode van een aangepaste toepassingsklasse. Deze methode kan in een ER-expressie worden geopend als een eigenschap van de toegevoegde ER-gegevensbron van het type **Toepassing\Klasse** dat naar die aangepaste toepassingsklasse verwijst.  |
 | **Betrokken productgebieden**         | Framework voor elektronische rapportage                                                      |
 | **Implementatieoptie**              | Alles                                                                                      |
-| **Status**                         | Verwijderd sinds Dynamics 365 for Finance and Operations, Enterprise-editie 7.3.    |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Finance and Operations, Enterprise edition 7.3.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>De rapporten Voorraad op naar ouderdom gerangschikte artikelengroep en Voorraad op naar ouderdom gerangschikte voorraaddimensie
 
@@ -140,13 +139,13 @@ Deze twee rapporten worden niet meer ondersteund in Finance and Operations. In p
 | **Implementatieoptie**        | Alles|
 | **Status**                       | Afgeschaft: de menu-items voor de twee rapporten zijn verwijderd in versie 7.3. De code voor de rapporten blijft echter in het product. Het plan is om de code in een toekomstige versie te verwijderen. |
 
-### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI-inhoudpakketten beschikbaar op AppSource
-De inhoudpakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, die beschikbaar zijn op de site [Microsoft AppSource](https://appsource.microsoft.com), zijn afgeschaft als gevolg van productupdates in Microsoft Power BI. Systeembeheerformulieren voor het implementeren van deze inhoudpakketten op PowerBI.com worden ook afgeschaft in Finance and Operations.
+### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI-inhoudspakketten beschikbaar op AppSource
+De inhoudspakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, die beschikbaar zijn op de site [Microsoft AppSource](https://appsource.microsoft.com), zijn afgeschaft als gevolg van productupdates in Microsoft Power BI. Systeembeheerformulieren voor het implementeren van deze inhoudpakketten op PowerBI.com worden ook afgeschaft in Finance and Operations.
 
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Productupdates in Microsoft Power BI. |
-| **Vervangen door een andere functie?**   | De inhoudpakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, beschikbaar op de site [AppSource](https://appsource.microsoft.com), worden vervangen door analytische toepassingen die oplossingsintegratie op databaseniveau mogelijk maken. Zie voor meer informatie over analytische toepassingen [Ingesloten Power BI in werkgebieden](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Vervangen door een andere functie?**   | De inhoudspakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, beschikbaar op de site [AppSource](https://appsource.microsoft.com), worden vervangen door analytische toepassingen die oplossingsintegratie op databaseniveau mogelijk maken. Zie voor meer informatie over analytische toepassingen [Ingesloten Power BI in werkgebieden](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Betrokken productgebieden**         | Kostenbeheer, Finance en Retail                                                                                               |
 | **Implementatieoptie**              | Alleen cloud (integratie met PowerBI.com wordt niet ondersteund in on-premises implementaties.)                                                                                                            |
 | **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor het tweede kwartaal van 2018.    |
@@ -211,7 +210,7 @@ Gebruikers kunnen dit certificaat downloaden vanuit de overheidsportal.
 
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
-### <a name="personalized-product-recommendations"></a>Persoonlijke productaanbevelingen 
+### <a name="personalized-product-recommendations"></a>Gepersonaliseerde productaanbevelingen 
 Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie [Persoonlijke productaanbevelingen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations) voor meer informatie.  
 
 |   |  |
@@ -220,10 +219,10 @@ Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevel
 | **Vervangen door een andere functie?**   | Nr. Na het voorjaar van 2018 komen we echter met een nieuwe aanbevelingsservice.   |
 | **Betrokken productgebieden**         | Persoonlijke productaanbevelingen in POS.                                                    |
 | **Implementatieoptie**              | Alles                                                                                      |
-| **Status**                         |Verwijderd sinds 15 februari 2018. Dit heeft invloed op klanten met Dynamics 365 for Retail 7.2 en hoger. |
+| **Status**                         |Verwijderd sinds 15 februari 2018. Dit geldt voor klanten met Dynamics 365 for Retail 7.2 en hoger. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise-editie 2017 (juli) met platformupdate 8
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise edition juli 2017 met platformupdate 8
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Omrekening van valuta voor boekhouding en rapportage van valuta's
 
@@ -244,7 +243,7 @@ Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onde
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Dubbele functionaliteit.       |
-| **Vervangen door een andere functie?**   | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie [Microsoft Dynamics 365 for Finance and Operations - Warehousing installeren en configureren](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app) voor meer informatie over instellingen en vereisten. |
+| **Vervangen door een andere functie?**   | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie voor meer informatie over instellingen en vereisten, [installeren en configureren van Microsoft Dynamics 365 for Finance and Operations - magazijnbeheer](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Betrokken productgebieden**         | Magazijnbeheer, Transportbeheer     |
 | **Implementatieoptie**              | Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onderdeel dat is bedoeld voor on-premises zelfimplementatie.               |
 | **Status**                         | Afgeschaft: doeltijd voor verwijdering van de functionaliteit is kwartaal 4 van 2019.   |
@@ -353,7 +352,7 @@ EDIVAT is een verouderde Belgische standaard voor elektronische aangifte via bev
 
 ### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a>eGiro Edifact CREMUL-importindeling voor betalingen in Noorwegen
 
-eGiro is gebaseerd op de internationale UN-standaard EDIFACT CREMUL (Multiple Credit Advice Message) die voor het automatisch boeken van klantbetalingen wordt gebruikt. In Microsoft Dynamics AX wordt eGiro uitgevoerd als importindeling van klantbetalingen.
+eGiro is gebaseerd op de internationale UN-standaard EDIFACT CREMUL (Multiple Credit Advice Message) die voor het automatisch boeken van klantbetalingen wordt gebruikt. In Microsoft Dynamics AX is eGiro geïmplementeerd als importindeling voor klantbetalingen.
 
 |   |  |
 |------------|--------------------|
@@ -481,7 +480,7 @@ Salarisgegevens in Human Resources
 | **Reden voor afschaffing/verwijdering** | Deze functionaliteit is vervangen door basispagina´s van Salarisadministratie en Human Resources.  |
 | **Vervangen door een andere functie?**   | **Vergoedingen**, **Inkomsten** en andere gerelateerde pagina's die eerder deel uitmaakten van Salaris VS, zijn opnieuw geconfigureerd en maken nu deel uit van de basisconfiguratie van Human Resources en helpen externe loonlijstverwerking te ondersteunen. Deze functionaliteit is toegankelijk door de configuratiesleutel **Human Resources 1** \> **Salaris** te gebruiken. |
 | **Betrokken productgebieden**         | Human Resources, Salaris   |
-| **Status**                         | Verwijderd sinds versie 1611 van Dynamics 365 for Operations.    |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Operations-versie 1611.    |
 
 ### <a name="performance-management-goal-workflow"></a>Werkstroom doel prestatiebeheer
 
@@ -492,7 +491,7 @@ Prestatiebeheer omvat het beheren van het doel en integratie met beoordelingsges
 | **Reden voor afschaffing/verwijdering** | Prestatiebeheer is opnieuw opgezet en het aantal doelpagina's is verminderd om het proces te vereenvoudigen.                 |
 | **Vervangen door een andere functie?**   | Nr. De doelen zijn zichtbaar voor managers via de portal Selfservice manager, en kunnen door de manager worden gewijzigd en weergegeven. |
 | **Betrokken productgebieden**         | Human Capital-beheer       |
-| **Status**                         | Verwijderd sinds versie 1611 van Dynamics 365 for Operations.    |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Operations-versie 1611.    |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>De betalingsindelingen Postgirot en Utland Postgirot van Zweden
 
@@ -545,7 +544,7 @@ De namen van de manager en de algemene boekhouder van een bedrijf kunnen in de b
 | **Reden voor afschaffing/verwijdering** | Dubbele functionaliteit.   |
 | **Vervangen door een andere functie?**   | Gedeeltelijk vervangen door Transportbeheer |
 | **Betrokken productgebieden**         | Verkoop en marketing, Voorraadbeheer  |
-| **Status**                         | Verwijderd sinds versie 1611 van Dynamics 365 for Operations.  |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Operations-versie 1611.  |
 
 ### <a name="telepay-payment-formats-for-norway"></a>Betalingsindelingen voor Telepay voor Noorwegen
 
@@ -573,10 +572,10 @@ Twee indelingen voor het exporteren van betalingen zijn beschikbaar voor Finland
 
 |   |  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | De oplossing Magazijnbeheer II (WMS II) die beschikbaar was in de module **Voorraadbeheer** dupliceert functionaliteit in de module **Magazijnbeheer** die is gepubliceerd in Microsoft Dynamics AX 2012 R3.                                                                         |
+| **Reden voor afschaffing/verwijdering** | De oplossing Magazijnbeheer II (WMS II) die beschikbaar was in de module **Voorraadbeheer** dupliceert functionaliteit in de module **Magazijnbeheer** die werd gepubliceerd in Microsoft Dynamics AX 2012 R3.                                                                         |
 | **Vervangen door een andere functie?**   | De module **Magazijnbeheer** die is gepubliceerd in AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 en Dynamics AX 2012 R3 CU9 vervangt de functies van Magazijnbeheer II De nieuwe module heeft meer geavanceerde functies en flexibelere magazijnbeheerprocessen dan Magazijnbeheer II. |
 | **Betrokken productgebieden**         | Voorraadbeheer, Verkoop en marketing, Inkoop en sourcing   |
-| **Status**                         | Verwijderd sinds versie 1611 van Dynamics 365 for Operations.    |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Operations-versie 1611.    |
 
 ### <a name="worker-reminders-in-human-resources"></a>Herinneringen voor werknemers in Human Resources
 
@@ -587,7 +586,7 @@ Salarisgegevens in Human Resources
 | **Reden voor afschaffing/verwijdering** | Laag gebruik                                                           |
 | **Vervangen door een andere functie?**   | Nee                                                                  |
 | **Betrokken productgebieden**         | Human Resources                                                     |
-| **Status**                         | Verwijderd sinds versie 1611 van Dynamics 365 for Operations |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Operations-versie 1611 |
 
 ### <a name="workflow-for-creating-goals"></a>Workflow voor het maken van doelen
 
@@ -595,10 +594,10 @@ Een workflow voor het beheren van het maken van werknemerdoelstellingen is een v
 
 |   |  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Het prestatiebeheer is volledig opnieuw ontworpen in Microsoft Dynamics 365 for Finance and Operations.     |
+| **Reden voor afschaffing/verwijdering** | Prestatiebeheer is volledig opnieuw ontworpen in Microsoft Dynamics 365 for Finance and Operations.     |
 | **Vervangen door een andere functie?**   | De functie Prestatiebeheer is volledig opnieuw ontworpen en geeft meer controle over de inhoud van de doelen, de metingen die worden gebruikt om de voortgang bij te houden en het bijvoegen van ondersteunende documentatie. Doelen kunnen als sjablonen worden opgeslagen en opnieuw worden gebruikt. Deze functie kan u helpen om sneller extra doelen voor uw werknemers op te zetten. |
 | **Betrokken productgebieden**         | Human Capital-beheer                 |
-| **Status**                         | Verwijderd sinds versie 1611 van Dynamics 365 for Operations. |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Operations-versie 1611. |
 
 ## <a name="dynamics-ax-70"></a>Dynamics AX 7.0 
 
@@ -609,7 +608,7 @@ Een workflow voor het beheren van het maken van werknemerdoelstellingen is een v
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Prestatieverbeteringen        |
 | **Vervangen door een andere functie?**   | Nee                             |
-| **Betrokken productgebieden**         | Crediteuren               |
+| **Betrokken productgebieden**         | Leveranciers               |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0. |
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integraties met AIF, AxD en AxBC
@@ -674,7 +673,7 @@ Deze mobiele toepassing laat gebruikers belangrijke zakelijke maatstaven control
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De functionaliteit is vervangen door een andere functie.   |
-| **Vervangen door een andere functie?**   | Het inhoudpakket Financiële prestaties controleren voor Microsoft Power BI bevat belangrijke financiële maatstaven die eerder beschikbaar waren in Business Analyzer. |
+| **Vervangen door een andere functie?**   | Het inhoudspakket Financiële prestaties controleren voor Microsoft Power BI bevat belangrijke financiële maatstaven die eerder beschikbaar waren in Business Analyzer. |
 | **Betrokken productgebieden**         | Grootboek      |
 | **Status**                         | Afgeschaft: Bedrijfsanalyse is afgeschaft.    |
 
@@ -695,7 +694,7 @@ De instelling van query's voor zakelijke statistieken waarmee u de prestaties va
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Laag gebruik                                                               |
 | **Vervangen door een andere functie?**   | Ja. De documentdatum op de geboekte leverancierstransactie kan worden gewijzigd. |
-| **Betrokken productgebieden**         | Crediteuren                                                        |
+| **Betrokken productgebieden**         | Leveranciers                                                        |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.                                          |
 
 ### <a name="clieop03-payment-format-for-the-netherlands"></a>Betalingsindeling ClieOp03 voor Nederland
@@ -725,7 +724,7 @@ Deze tool is gebruikt om belangrijke gegevens van Microsoft Dynamics CRM te inte
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De functionaliteit is vervangen door een andere functie. |
-| **Vervangen door een andere functie?**   | Common Data Service                                      |
+| **Vervangen door een andere functie?**   | Common data service                                      |
 | **Betrokken productgebieden**         | Connector voor Microsoft Dynamics                         |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.                           |
 
@@ -814,7 +813,7 @@ In Dynamics AX 2012 R3 kan Retail Modern POS direct verbinding maken met de afze
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Voor een directe databaseverbinding waren lagere beveiligingsprotocollen vereist en deze methode werd voornamelijk gebruikt voor het behalen van optimale prestaties. Door de prestatie- en beveiligingsverbeteringen in Dynamics 365 for Finance and Operations levert deze functionaliteit nu meer problemen op dan ermee worden opgelost. |
 | **Vervangen door een andere functie?**   | Nr. Alleen standaard Retail Server-communicatie wordt nu ondersteund.  |
-| **Betrokken productgebieden**         | Afzetkanaal DB/Retail Modern POS   |
+| **Betrokken productgebieden**         | Afzetkanaal-DB/Retail Modern POS   |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.  |
 
 ### <a name="dutch-swift-mt940"></a>Nederlandse SWIFT MT940
@@ -975,7 +974,7 @@ In Microsoft Dynamics AX 2012 beheerde, niet-gerealiseerde btw door specifiek vo
 | **Betrokken productgebieden**         | Btw   |
 | **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie. |
 
-### <a name="microsoft-outlook-integration"></a>Microsoft Outlook-integratie
+### <a name="microsoft-outlook-integration"></a>Integratie Microsoft Outlook
 
 
 |   |  |
@@ -1037,7 +1036,7 @@ In Dynamics AX 2012 R3 kon de Retail Server functioneren met behulp van HTTP-com
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Als gevolg van nieuwe beveiligingsvereisten, wordt nu alleen beveiligde communicatie via TLS 1.2 (of hoger, indien beschikbaar) ondersteund. Het installatieprogramma Self-service configureert automatisch de computer voor deze communicatie. |
 | **Vervangen door een andere functie?**   | Nr. Alleen standaard HTTPS-communicatie wordt nu ondersteund. |
-| **Betrokken productgebieden**         | Retail-server  |
+| **Betrokken productgebieden**         | Detailhandelserver  |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0. |
 
 ### <a name="role-center-pages"></a>Pagina's van rollencentrums
@@ -1084,7 +1083,7 @@ Met Sites Services kunt u websites maken die uw bedrijfsprocessen naar internet 
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Laag gebruik. Deze functionaliteit is vervangen door het factuurjournaal dat workflowfunctionaliteit heeft. |
 | **Vervangen door een andere functie?**   | Workflowmogelijkheden van het factuurjournaal.     |
-| **Betrokken productgebieden**         | Crediteuren |
+| **Betrokken productgebieden**         | Leveranciers |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.    |
 
 
@@ -1127,5 +1126,4 @@ De Windows 8-tabletapp leverde functionaliteit voor het invoeren van onkosten en
 |  <strong>Vervangen door een andere functie?</strong>  | Management Reporter (in de huidige versie van Dynamics AX aangeduid als <strong>Financiële rapportage</strong>) |
 |     <strong>Betrokken productgebieden</strong>     |                                              Grootboek                                              |
 |             <strong>Status</strong>             |                                      Verwijderd sinds Dynamics AX 2012                                      |
-
 

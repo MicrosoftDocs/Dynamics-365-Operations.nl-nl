@@ -5,26 +5,25 @@ author: robinarh
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations
 ms.custom: 89563
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
+ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 596cfa056c6f2e64f554b643bb5a61d09c7bf20c
-ms.openlocfilehash: 58bba3dead4d2a8ed3ae424694377e410df16f4c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313975"
 ---
-
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Vergelijking van functies tussen cloud en on-premises
 
 [!include [banner](../includes/banner.md)]
@@ -43,10 +42,10 @@ De volgende tabellen bevatten de productgebieden. Ondersteuning voor cloud en on
 | Conformiteit en certificaten | | Ja | Ja |
 | | SOC 1-certificering van type 1 | Ja | Nee |
 | Kostprijsboekhouding | | Ja | Ja |
-| | Inhoudpakket Kostprijsboekhouding voor Power BI | Ja | Nee |
+| | Power BI-inhoudpakket - kostprijsboekhouding | Ja | Nee |
 | | Werkgebied Kostprijsboekhouding voor mobiele app | Ja | Nee |
 | Kostenbeheer | | Ja | Ja |
-| | Inhoudpakket Kostenbeheer voor Power BI | Ja | Nee |
+| | Inhoudpakket voor Power BI - kostenbeheer | Ja | Nee |
 | Gegevensbeheer en -integratie | | Ja | Ja |
 | | Uitbreiding op configuratiebasis | Ja | Nee |
 | | Gegevens exporteren naar uw eigen datawarehouse | Ja | Ja |
@@ -78,14 +77,14 @@ De volgende tabellen bevatten de productgebieden. Ondersteuning voor cloud en on
 | | Automatische overmaking | Ja | Nee |
 | Inkoopbeheer | | Ja | Ja |
 | | Punch-out naar externe catalogus vanuit opdracht tot inkoop | Ja | Nee |
-| | Power BI-rapporten met analyses van inkoopuitgaven | Ja | Nee |
+| | Power BI-rapporten - inkoop- en uitgavenanalyse | Ja | Nee |
 | Productgegevensbeheer | | Ja | Ja |
 | Producthoofdgegevens | | Ja | Ja |
 | Productie | | Ja | Ja |
-| | Power BI-rapporten over productieprestaties | Ja | Nee |
+| | Power BI-rapporten - productieprestaties | Ja | Nee |
 | Projectbeheer en boekhouding | | Ja | Ja |
 | Verkoop | | Ja | Ja |
-| | Power BI-rapporten over prestaties op het gebied van verkoop en winstgevendheid | Ja | Nee |
+| | Power BI-rapporten - verkoop- en winstgevendheidsprestaties | Ja | Nee |
 | Beveiliging | | Ja | Ja |
 | Servicebeheer | | Ja | Ja |
 | Supply chain management | | Ja | Ja |
@@ -93,7 +92,7 @@ De volgende tabellen bevatten de productgebieden. Ondersteuning voor cloud en on
 | Leverancierssamenwerking | | Ja | Nee |
 | Magazijnbeheer | | Ja | Ja |
 | | Mobiele magazijnapp | Ja | Ja |
-| | Power BI-rapporten over magazijnen | Ja | Nee |
+| | Power BI-rapporten - magazijnbeheer | Ja | Nee |
 | Webclient | | Ja | Ja |
 | | Taakregistratie: taakregistraties opslaan of laden uit de BPM-bibliotheek | Ja | Nee |
 | Ondersteuning | | Ja | Ja |
@@ -111,7 +110,7 @@ De volgende tabellen bevatten de productgebieden. Ondersteuning voor cloud en on
 | | Service-omgevingen | Ja | Nee |
 | Traceparser en PerfTimer | | Ja | Nee |
 | Upgraden | | Ja | Ja |
-| | Upgraden | Ja | Nee |
+| | Bijwerken | Ja | Nee |
 | | Upgrade en ondersteuning voor eerdere versies | Ja | Nee |
 | Visual Studio-ontwikkeling | | Ja | Ja |
 
@@ -127,4 +126,3 @@ Als u een lijst wilt zien van de retailmogelijkheden die beschikbaar in on-premi
 ## <a name="additional-resources"></a>Aanvullende resources
 
 - [Functies die niet zijn geïmplementeerd in On-premises implementaties](features-not-implemented-on-prem.md)
-

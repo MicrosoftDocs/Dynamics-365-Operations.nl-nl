@@ -1,13 +1,13 @@
 ---
 title: Talent inrichten
-description: In dit onderwerp wordt u door het proces van het inrichten van een nieuwe omgeving voor Microsoft Dynamics 365 for Talent geleid.
+description: In dit onderwerp wordt u door het proces van het inrichten van een nieuwe omgeving voor Dynamics 365 for Talent geleid.
 author: rschloma
 manager: AnnBe
 ms.date: 09/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303942"
 ---
 # <a name="provision-talent"></a>Talent inrichten
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt u door het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 for Talent geleid. In dit onderwerp wordt ervan uitgegaan dat u Talent hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). Als u een bestaande Microsoft Dynamics 365-licentie hebt waarin het Talent-serviceabonnement al is opgenomen en u de stappen in dit onderwerp niet kunt voltooien, neemt u contact op met de ondersteuning.
+In dit onderwerp wordt u door het proces van het inrichten van een nieuwe productieomgeving voor Dynamics 365 for Talent geleid. In dit onderwerp wordt ervan uitgegaan dat u Talent hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). Als u een bestaande Microsoft Dynamics 365-licentie hebt waarin het Talent-serviceabonnement al is opgenomen en u de stappen in dit onderwerp niet kunt voltooien, neemt u contact op met de ondersteuning.
 
 Om te beginnen, moet de globale beheerder zich aanmelden bij [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) en een nieuw Talent-project maken. Tenzij u vanwege een licentieprobleem Talent niet kunt inrichten, hebt u geen ondersteuning van vertegenwoordigers van de ondersteuning of DSE (Dynamics Service Engineering) nodig.
 
@@ -38,7 +38,7 @@ Als u LCS wilt gebruiken om Talent-omgevingen te beheren, moet u eerst een LCS-p
 1. Meld u aan bij [LCS](https://lcs.dynamics.com/Logon/Index) met de account waarmee u zich hebt geabonneerd op Talent.
 2. Selecteer het plusteken (**+**) om een project te maken.
 3. Selecteer **Microsoft Dynamics 365 for Talent** als de productnaam en -versie.
-4. Selecteer de methodologie **Dynamics 365 for Talent**.
+4. Selecteer de **Dynamics 365 for Talent**-methodologie.
 5. Selecteer **Maken**.
 
 Zie de methodologie **Talent** die u hebt gemaakt in het nieuwe project voor informatie over hoe u aan de slag gaat met Talent. Wanneer u het project hebt gemaakt, voert u de volgende procedure uit om uw Talent-omgeving in te richten.
@@ -79,7 +79,7 @@ Gebruik de volgende richtlijnen bij het bepalen in welke PowerApps-omgeving u Ta
  
    **Standaard PowerApps-omgevingen** Hoewel elke tenant automatisch een standaard PowerApps-omgeving heeft, wordt gebruik niet aanbevolen met Talent omdat alle tenantgebruikers toegang hebben tot de PowerApps-omgeving. Ze kunnen bij het testen en verkennen van de PowerApps- of Flow-integraties per ongeluk productiegegevens beschadigen.
    
-   <strong>TestDrive-omgevingen</strong> Omgevingen met een naam als 'TestDrive: alias@domain' worden gemaakt met een vervalperiode van 60 dagen en verlopen na die tijd, waardoor de omgeving automatisch wordt verwijderd.
+   <strong>TestDrive-omgevingen</strong> met een naam als 'TestDrive - alias@domein' worden gemaakt met een vervalperiode van 60 dagen en verlopen na die tijd, waardoor de omgeving automatisch wordt verwijderd.
    
    **Niet-ondersteunde regio's** Momenteel wordt Talent alleen ondersteund in de volgende gebieden: Verenigde Staten, Europa en Australië.
   
@@ -87,5 +87,4 @@ Gebruik de volgende richtlijnen bij het bepalen in welke PowerApps-omgeving u Ta
  
 ## <a name="grant-access-to-the-environment"></a>Toegang verlenen tot de omgeving
 Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot deze omgeving. Aan alle overige gebruikers van de toepassing moet echter uitdrukkelijk toestemming worden verleend. U kunt toegang verlenen door [gebruikers toe te voegen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) en [de juiste rollen aan deze gebruikers toe te wijzen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) in de Core HR-omgeving. De globale beheerder die Talent heeft geïmplementeerd, moet ook de toepassingen Attract en Onboard starten om de initialisatie te voltooien en toegang in te schakelen voor andere tenantgebruikers.  Totdat dit gebeurt, kunnen andere gebruikers geen toegang krijgen tot de toepassingen Attract en Onboard en krijgen ze toegangsovertredingsfouten.
-
 

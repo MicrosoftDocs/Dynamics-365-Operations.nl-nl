@@ -1,13 +1,13 @@
---- 
+---
 title: Aanvraagtypen en scoringscriteria maken voor offerteaanvragen
 description: Deze handleiding laat zien hoe u een verzoektype kunt maken en dit kunt koppelen aan een scoringsmethode.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 14fd7d0bfa17427883f97c5e0a72044016d4965e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344611"
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>Aanvraagtypen en scoringscriteria maken voor offerteaanvragen
 
@@ -51,5 +51,4 @@ Deze handleiding laat zien hoe u een verzoektype kunt maken en dit kunt koppelen
 7. Typ of selecteer een waarde in het veld Scoringsmethode.
 8. Klik op OK.
 9. Sluit de pagina.
-
 

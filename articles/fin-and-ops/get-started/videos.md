@@ -1,35 +1,34 @@
 ---
 title: Video's voor Finance and Operations
-description: Op deze pagina worden door Microsoft gemaakte procedures en Tech-talkvideo's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.
+description: Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.
 author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/17/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317816"
 ---
-
 # <a name="videos-for-finance-and-operations"></a>Video's voor Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-Op deze pagina worden door Microsoft gemaakte procedures en Tech-talkvideo's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.
+Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.
 
 ## <a name="dynamics-365-youtube-channel"></a>Dynamics 365 YouTube-kanaal
 
@@ -40,11 +39,11 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 #### <a name="data-integration"></a>Gegevensintegratie
 
 - [Integratie van prospect tot contant geld](https://youtu.be/AVV9x5x-XCg)
-- [Een werkorder tussen Dynamics 365 for Field Service en Finance and Operations synchroniseren](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Een werkorder synchroniseren tussen Dynamics 365 for Field Service en Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Gegevensbeheer
 
-- [Gegevensentiteiten en gegevenspakketten in Dynamics 365 for Finance and Operations gebruiken](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
+- [Gegevensentiteiten en gegevenspakketten gebruiken in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
 #### <a name="development"></a>Ontwikkeling
 
@@ -67,7 +66,7 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 
 #### <a name="intelligence"></a>Intelligence
 
-- [Bring Your Own Database (BYOD) naar Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Uw eigen database gebruiken (BYOD) voor Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Power BI-inhoud Kostenbeheer in Dynamics 365 gebruiken](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -80,23 +79,23 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 - [Code in een sandbox-omgeving implementeren](https://www.youtube.com/watch?v=5azLeOO078k)
 - [Code in een productieomgeving implementeren](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
 - [Implementatieprojecten in Lifecycle Services](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
-- [De code-upgrade en het functieproces in Dynamics 365 for Finance and Operations beheren](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
+- [De code-upgrade en het functieproces beheren in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
 - [Bedrijfsprocesbibliotheken in Lifecycle Services beheren](https://www.youtube.com/watch?v=S5msxj-2-x0)
 - [Methodologieën in Lifecycle Services](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
 - [Een Dynamics 365 for Finance and Operations-productieomgeving aanvragen](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
 - [Gegevens vernieuwen in een productieomgeving](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [Opname van een nieuw Dynamics 365 for Finance and Operations-platformrelease na Platform update 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [Opname van een nieuwe Dynamics 365 for Finance and Operations-platformrelease na platformupdate 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Telemetrie gebruiken om belangrijke prestatietellers te controleren in Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
 #### <a name="office-integration"></a>Office-integratie
 
-- [Een Excel-sjabloon maken voor koptekst- en regelpatronen in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+- [Een Excel-sjabloon voor koptekst- en regelpatronen maken in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
 #### <a name="organization-administration"></a>Organisatiebeheer
 
 - [Documentbeheer](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
-#### <a name="procurement-and-sourcing"></a>Inkoop en sourcing
+#### <a name="procurement-and-sourcing"></a>Inkoopbeheer
 
 - [Inkooporders goedkeuren op een mobiel apparaat](https://youtu.be/gZ-gOlJe7H8)
 - [Een nieuwe leverancier onboarden](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
@@ -151,7 +150,7 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 
 - [CDS-gegevensintegrator (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Integratie (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Integratie tussen Dynamics 365 for Sales and Dynamics 365 for Finance & Operations via CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Integratie tussen Dynamics 365 for Sales en Dynamics 365 for Finance & Operations via CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Integration Framework in Dynamics 365 for Finance & Operations (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Taakautomatiseringsframework voor gegevensbeheer (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
 
@@ -173,17 +172,17 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 #### <a name="retail"></a>Retail
 
 - [Dynamics 365 for Retail POS-uitbreidbaarheid: diepgravend (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Retail-architectuur en schaaleenheid voor Retail-winkels (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Retail-architectuur en Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Nieuwe functies in Dynamics 365 for Retail POS-uitbreidbaarheid (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>Ondersteuning
 
 - [Service (VIR805PAL)](https://infopedia.eventbuilder.com/event?eventid=c2k8k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="upgrade-and-migration"></a>Upgrade en migratie
+#### <a name="upgrade-and-migration"></a>​Upgrade en migratie
 
 - [Functies voor migratie van AX 2009 naar Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [AX 2009-migratiefuncties (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Functies voor migratie van AX 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Upgrade van AX 2012 naar Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Upgraden naar 7.2 (juli 2017) vanaf 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Azure DevOps-setup (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
@@ -196,4 +195,3 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 - [Orderverzamelproces per stuk (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Visuele planning voor productieorders en kanbans (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Magazijnintegratie met productie (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Mobiele app voor magazijnbeheer (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

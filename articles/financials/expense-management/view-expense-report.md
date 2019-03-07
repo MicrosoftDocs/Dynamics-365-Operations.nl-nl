@@ -5,9 +5,9 @@ author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e88af5a815803d20cf97f21f6ae50bcf98539b83
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6397ca01ef100b6149c70a335ce854bc0439aff2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316390"
 ---
-
 # <a name="view-an-expense-report"></a>Een onkostennota weergeven
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ Voor onkostennota's kunt u vanuit een transactie inzoomen op de oorspronkelijke 
 Als u wilt inzoomen naar de oorspronkelijke onkostennota met de transactie, selecteert u de transactie en vervolgens het **oorspronkelijke document**.
 
 Als u afzonderlijke transacties weergeeft, kunt u ook alle aanvullende gegevens weergeven die aan een transactie zijn gekoppeld. U kunt bijvoorbeeld voor de gespecificeerde onkosten voor een hotel een gedetailleerde lijst met onkosten weergeven, zoals internetgebruik, telefoongesprekken en roomservice.
-

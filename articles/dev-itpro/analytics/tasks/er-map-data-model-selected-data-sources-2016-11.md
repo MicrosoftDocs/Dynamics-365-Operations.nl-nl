@@ -1,13 +1,13 @@
---- 
+---
 title: Er Wjis gegevensmodel toe aan geselecteerde gegevensbronnen
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan toewijzen aan geselecteerde Dynamics 365 for Finance and Operations, Enterprise edition-gegevensbronnen.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 249bf3f3806ed43eccf39086bdf9697a3e879c27
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331547"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>Er Wjis gegevensmodel toe aan geselecteerde gegevensbronnen
 
@@ -146,5 +146,4 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 4. Klik op OK.
 5. Selecteer de ingevulde versie van de huidige configuratie.
     * Merk op dat de gemaakte configuratie wordt opgeslagen als voltooide versie 1.  
-
 

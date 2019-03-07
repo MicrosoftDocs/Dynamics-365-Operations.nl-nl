@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327453"
 ---
-
 # <a name="build-a-product-configuration-model"></a>Een productconfiguratiemodel maken
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,7 @@ Tabelbeperkingen kunnen door de gebruiker of door het systeem zijn gedefinieerd.
 
 Een door de gebruiker gedefinieerde tabelbeperking wordt gemaakt door de gebruiker. De gebruiker selecteert een combinatie van kenmerktypen om de kolommen van de tabel weer te geven, en voert vervolgens waarden uit de domeinen van het geselecteerde kenmerktype in om de rijen in de tabelbeperking te vormen.  
 
-Een door het systeem gedefinieerde tabelbeperking wordt gedefinieerd door te selecteren welke Microsoft Dynamics 365 for Finance and Operations-tabel als referentie wordt gebruikt, en vervolgens velden in deze tabel te selecteren om de kolommen te vormen in de beperking. De rijen van de tabelbeperking zijn de rijen van de Finance and Operations-tabel die aanwezig zijn tijdens de configuratie.  
+Een door het systeem gedefinieerde tabelbeperking wordt gedefinieerd door te selecteren welke Microsoft Dynamics 365 for Finance and Operations-tabel als referentie wordt gebruikt en vervolgens velden in deze tabel te selecteren om de kolommen te vormen in de beperking. De rijen van de tabelbeperking zijn de rijen van de Finance and Operations-tabel die aanwezig zijn tijdens de configuratie.  
 
 Een tabelbeperking wordt opgenomen in een model voor productconfiguratie door naar de definitie van de tabelbeperking te verwijzen en de betreffende kenmerken in het model toe te wijzen aan de kolommen in de tabelbeperking.
 
@@ -158,7 +157,6 @@ Het doel van de configuratie is een aparte variant van het product te maken die 
 ### <a name="multiple-sites-and-intercompany"></a>Meerdere sites en intercompany
 
 Als de configuratie op een locatie of zelfs een bedrijf wordt uitgevoerd dat verschilt van de locatie of het bedrijf waar productie optreedt, worden de stuklijst en de route gemaakt voor en geplaatst op de locatie van de leverancier in het leverende bedrijf. De productvariant wordt in alle bedrijven zijn vrijgegeven die aan de leveringsketen deelnemen.
-
 
 
 

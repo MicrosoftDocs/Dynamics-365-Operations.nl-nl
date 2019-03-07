@@ -5,10 +5,10 @@ author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303937"
 ---
-
 # <a name="email-templates"></a>E-mailsjablonen
 [!include[banner](../includes/banner.md)]
 
@@ -69,7 +68,7 @@ Het veld **Naar** voor een sjabloon kan niet worden bewerkt, omdat u de ontvange
 
 U kunt persoonlijkheden zoals **Werver** of **Aanstellend manager** toevoegen aan de regel Cc (carbon copy). Wanneer de e-mail wordt verzonden, worden deze rollen automatisch vervangen door de desbetreffende gebruikers op basis van de context van de functie.
 
-De onderwerpregel en hoofdtekst ondersteunen tijdelijke aanduidingen. U kunt tijdelijke aanduidingen invoegen door **\#** te typen en vervolgens de desbetreffende tijdelijke aanduiding te selecteren in de automatisch aangevulde vervolgkeuzelijst. De lijst met beschikbare tijdelijke aanduidingen wordt weergegeven aan de rechterkant van de pagina. Wanneer de e-mail wordt verzonden, worden de tijdelijke aanduidingen automatisch vervangen, op basis van de context van de functie en de ontvanger. Een sjabloon voor een e-mail die wordt verzonden naar kandidaten, bevat bijvoorbeeld de tijdelijke aanduiding \#{Kandidaat\_naam}. Wanneer de e-mail wordt verzonden aan een kandidaat die Cameron heet, wordt deze tijdelijke aanduiding vervangen door de naam Cameron.
+De onderwerpregel en hoofdtekst ondersteunen tijdelijke aanduidingen. U kunt tijdelijke aanduidingen invoegen door **\#** te typen en vervolgens de desbetreffende tijdelijke aanduiding te selecteren in de automatisch aangevulde vervolgkeuzelijst. De lijst met beschikbare tijdelijke aanduidingen wordt weergegeven aan de rechterkant van de pagina. Wanneer de e-mail wordt verzonden, worden de tijdelijke aanduidingen automatisch vervangen, op basis van de context van de functie en de ontvanger. Een sjabloon voor een e-mail die wordt verzonden naar kandidaten, bevat bijvoorbeeld de tijdelijke aanduiding \#{Naam\_kandidaat}. Wanneer de e-mail wordt verzonden aan een kandidaat die Cameron heet, wordt deze tijdelijke aanduiding vervangen door de naam Cameron.
 
 De hoofdteksteditor is een uitgebreide teksteditor waarmee u tekst een stijl en opmaak kunt geven. U kunt er ook hyperlinks en ankers mee invoegen.
 
@@ -81,4 +80,3 @@ Wanneer het aanstellend team een e-mailbericht verzendt, kan het gebruikmaken va
 
 > [!NOTE] 
 > Voor e-mailberichten die automatisch worden verzonden, kunnen meerdere sjablonen worden gemaakt. Slechts één sjabloon kan echter worden ingesteld als de actieve sjabloon. Omdat dit proces wordt geactiveerd door gebeurtenissen, kan alleen de beheerder bepalen welke sjabloon moet worden gebruikt, op basis van de combinatie van badges **Standaard** en **Automatisch verzonden** in de sjabloonbibliotheek.
-

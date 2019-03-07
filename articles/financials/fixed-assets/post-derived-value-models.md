@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff1dbf67a53a5639e448da707898b55cd00cba94
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 94eb82936da2a51a25105b26723088fb7dee9ae5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339137"
 ---
-
 # <a name="post-with-derived-books"></a>Boeken met afgeleide boeken
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ Wanneer een verwerving wordt geboekt voor een vast activum met boek VM 1, wordt 
 > Als u geen afgeleide boeken gebruikt, moet u de verwerving van de vaste activa voor zowel boek VM 1 als voor boek VM 2 afschrijven.
 
 Zie voor meer informatie [Afgeleide boeken](derived-books.md).
-
 
 
 

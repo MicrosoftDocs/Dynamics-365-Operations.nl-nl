@@ -5,27 +5,26 @@ author: Darinkramer
 manager: AnnBe
 ms.date: 10/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
 ms.openlocfilehash: 97820cd25ece48dc0b8045d9ba509d0971ca5aad
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303869"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-1-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (1 oktober 2018)
 
 [!include [banner](includes/banner.md)]
@@ -59,4 +58,3 @@ Organisaties kennen vrije tijd verschillend toe, afhankelijk van wanneer werknem
 ## <a name="known-issue"></a>Bekend probleem
 
 -   **Probleem:** als een nieuwe bijlage wordt toegevoegd aan een werknemer, zijn de knoppen **Nieuw** en **Bewerken** niet beschikbaar. **Oplossing:** voordat u de pagina van de bijlage opent, controleert u of de feitenvakken op de pagina **Werknemer** zijn gesloten. Als de feitenvakken zijn gesloten wanneer de pagina **Werknemer** wordt geladen, worden de knoppen **Bijlagen** ingeschakeld. (Dit probleem wordt opgelost in de volgende platformupdate.)
-

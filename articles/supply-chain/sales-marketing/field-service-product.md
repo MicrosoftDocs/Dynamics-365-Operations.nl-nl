@@ -1,37 +1,36 @@
 ---
 title: Producten van Finance and Operations synchroniseren met producten in Field Service
-description: In dit onderwerp komen de sjablonen en onderliggende taak aan de orde voor het synchroniseren van producten vanuit Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Field Service.
+description: In dit onderwerp worden de sjablonen besproken en de onderliggende taak die wordt gebruikt om producten van Microsoft Dynamics 365 for Finance and Operations te synchroniseren met Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 3f26240ec289f5ddcc2682e598bbf93f516b99af
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: bf5de13fee6db1b467c1cf4d5cc65b46c67b29fe
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316321"
 ---
-
 # <a name="synchronize-products-in-finance-and-operations-to-products-in-field-service"></a>Producten van Finance and Operations synchroniseren met producten in Field Service
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp komen de sjablonen en onderliggende taak aan de orde voor het synchroniseren van producten vanuit Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Field Service.
+In dit onderwerp worden de sjablonen besproken en de onderliggende taak die wordt gebruikt om producten van Microsoft Dynamics 365 for Finance and Operations te synchroniseren met Microsoft Dynamics 365 for Field Service.
 
 De gebruikte sjabloon **Field Service-producten (Fin and Ops naar Field Service)** is gebaseerd op de sjabloon **Producten (Fin and Ops naar Sales) - Direct** van Prospect naar contant geld. Zie voor meer informatie [Producten (Fin and Ops naar Sales) - Direct](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
@@ -74,4 +73,3 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="field-service-products-fin-and-ops-to-field-service-products---products"></a>Field Service-producten (Fin en Ops aan Field Service): Producten - Producten
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSProduct.png)](./media/FSProduct.png)
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Een productieorder plannen
 description: Deze procedure toont hoe u een productieorder plant.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 20e7ee023f39cc5d02b0f5b80fbb3ae3ad0c9774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 6cbbf509c9e60040e08ab7932fcb0e8eed5ddd22
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346359"
 ---
 # <a name="schedule-a-production-order"></a>Een productieorder plannen
 
@@ -54,5 +54,4 @@ Deze procedure toont hoe u een productieorder plant. Het bedrijf van de demogege
     * De pagina Capaciteitsbelasting toont de capaciteit die is gereserveerd via taakplanning, het totale aantal uren dat momenteel is gereserveerd voor de resource en het aantal uren dat beschikbaar is voor taakplanning voor de resource.  
 6. Sluit de pagina.
 7. Sluit de pagina.
-
 

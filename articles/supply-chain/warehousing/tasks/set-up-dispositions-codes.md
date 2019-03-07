@@ -1,13 +1,13 @@
---- 
+---
 title: Beschikkingscodes instellen
 description: Deze procedure is gericht op de instelling van een beschikkingscode die op een mobiel apparaat kan worden gebruikt voor het ontvangstproces van retourorders.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324118"
 ---
 # <a name="set-up-dispositions-codes"></a>Beschikkingscodes instellen
 
@@ -39,5 +39,4 @@ Deze procedure is gericht op de instelling van een beschikkingscode die op een m
     * Optioneel: selecteer een werksjablooncode die aan een retourorder is gekoppeld. Als geen waarde is opgegeven, wordt de werksjabloon opgelost met de standaardregels die in uw systeem zijn geconfigureerd. Een werksjabloon selecteren beperkt de processen waarmee deze beschikkingscode kan worden gebruikt. Als een beschikkingscode bijvoorbeeld een werksjabloon met een werkorder van het type inkooporder heeft, kan deze niet worden gebruikt om artikelen te registreren die door klanten worden geretourneerd.  
 6. Typ een waarde in het veld Beschikkingscode retourneren.
     * De retourbeschikkingscode definieert de rest van het retourorderproces voor de geregistreerde artikelen. In dit voorbeeld moet de klant een creditnota ontvangen. Voeg een retourbeschikkingscode toe die een actiecredit bevat.  
-
 

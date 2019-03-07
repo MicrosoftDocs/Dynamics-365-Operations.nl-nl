@@ -1,13 +1,13 @@
 ---
-title: Magazijnbeheer upgraden van Microsoft Dynamics AX 2012 naar Finance and Operations
+title: Een upgrade van magazijnbeheer uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
 description: Dit onderwerp biedt een overzicht van opties voor het migreren van product- en magazijnbeheer.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,22 +18,21 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324463"
 ---
-
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Magazijnbeheer upgraden van Microsoft Dynamics AX 2012 naar Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Een upgrade van magazijnbeheer uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van het proces voor het upgraden van Microsoft Dynamics AX 2012 R3, met de module WMSII, naar Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp bevat een overzicht van het proces voor het upgraden van Microsoft DynamicsAX 2012 R3, waarvoor de module WMSII wordt uitgevoerd, naar Microsoft Dynamics 365 for Finance and Operations.
 
-Finance and Operations ondersteunt niet meer de verouderde module **WMSII** van Microsoft Dynamics AX 2012. In plaats daarvan kunt u de module **Magazijnbeheer** gebruiken. In de WMSII-module kunnen de voorraaddimensies Locatie en Pallet-ID worden geselecteerd voor financiële voorraad, maar de voorraaddimensie Pallet-ID kan niet worden gebruikt voor financiële voorraad in Finance and Operations.
+Finance and Operations ondersteunt de verouderde module **WMSII** van Microsoft Dynamics AX 2012 niet meer. In plaats daarvan kunt u de module **Magazijnbeheer** gebruiken. In de WMSII-module kunnen de voorraaddimensies Locatie en Pallet-ID worden geselecteerd voor financiële voorraad, maar de voorraaddimensie Pallet-ID kan niet worden gebruikt voor financiële voorraad in Finance and Operations.
 
 Tijdens een upgrade worden alle producten die zijn gekoppeld aan een opslagdimensiegroep waarbij de voorraaddimensie Pallet-ID wordt geïdentificeerd, gemarkeerd als geblokkeerd en niet verwerkt voor een upgrade.
 
@@ -84,4 +83,3 @@ Voordat u vrijgegeven producten in de module **Magazijnbeheer** kunt gebruiken, 
 6.  Voeg op de pagina **Opslagdimensiegroep voor artikelen wijzigen** de artikelnummers, opslagdimensiegroepen en eenheidvolgordegroepen toe. U kunt deze stap rechtstreeks op de pagina uitvoeren met behulp van de Microsoft Office-integratie of door middel van het gegevensentiteitsproces in [Gegevensbeheer](../../dev-itpro/data-entities/data-entities.md).
 7.  Valideer de wijzigingen. Als onderdeel van het validatieproces worden verschillende validaties van gegevensintegriteit uitgevoerd. Als onderdeel van een groter upgradeproces moeten mogelijk problemen die optreden worden gecorrigeerd in de bron-implementatie. In dit geval is een aanvullende gegevensupgrade vereist.
 8.  Verwerk de wijzigingen. Het bijwerken van alle voorraaddimensies kan even duren. U kunt de voortgang controleren met behulp van de taken voor batchtaken.
-

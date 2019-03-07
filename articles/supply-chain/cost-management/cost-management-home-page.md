@@ -5,28 +5,27 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: b1513e5a7cb3a19fd3743a5aac8efd211aa02ce8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333939"
 ---
-
 # <a name="cost-management-home-page"></a>Startpagina Kostenbeheer
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Via Productieboekhouding kunt u de [kostprijsberekening via taakorders](producti
 
 De [Power BI-inhoud voor Kostenbeheer](../../dev-itpro/analytics/cost-management-content-pack.md) biedt het management inzicht in de voorraad en OHW-voorraad (onderhanden werk) en hoe de voortgang van de kosten hierin per categorie in de loop van de tijd verloopt. De informatie kan ook worden gebruikt als een uitgebreide aanvulling op het financiële overzicht.
 
-### <a name="additional-resources"></a>Aanvullende resources
+### <a name="additional-resources"></a>Aanvullende bronnen
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
@@ -67,9 +66,8 @@ In [Stuklijstberekening aan de hand van kostprijsberekening](https://mbs.microso
 
 
 #### <a name="blogs"></a>Weblogs
-U vindt meningen, nieuws en andere informatie over Kostenbeheer in de [blog van het R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) en [de blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Kostenbeheer, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
+U vindt meningen, nieuws en andere informatie over Kostenbeheer in de [blog van het R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) en de [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Kostenbeheer, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
 
 #### <a name="task-guides"></a>Taakbegeleidingen
 Extra help is beschikbaar als taakbegeleidingen binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
-
 

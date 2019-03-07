@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323635"
 ---
-
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
 
 [!include [banner](../includes/banner.md)]
@@ -387,10 +386,10 @@ U kunt een rij beperken tot een bestaande boekcode. De kolomdefinitie moet ten m
 Sommige boekhoudsystemen ondersteunen rekeningkenmerken en transactiekenmerken in de financiële gegevens. Deze kenmerken functioneren als virtuele accountsegmenten en kunnen extra informatie over de rekening of transactie dragen. Deze extra informatie kan het volgende zijn: rekening-id's, batch-id's, postcodes of andere kenmerken. Als uw boekhoudsysteem kenmerken ondersteunt, kunt u rekeningkenmerken of transactiekenmerken gebruiken als rijmodificators in de rijdefinitie. Raadpleeg de sectie 'Een kolomdefinitie negeren' eerder in dit artikel voor informatie over hoe u rij-informatie negeert.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Een cel Koppeling naar financiële dimensies opgeven
-De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financiële gegevens die in elke rij van een rapport moeten worden opgenomen. Deze cel bevat dimensiewaarden, maar u kunt in plaats daarvan cellen in een Microsoft Excel-werkblad opgeven, of daarnaast segmentwaarden of dimensiewaarden. Om het dialoogvenster **Dimensies** te openen, dubbelklikt u op de cel **Koppeling naar financiële dimensies**.
+De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financiële gegevens die in elke rij van een rapport moeten worden opgenomen. Deze cel bevat dimensiewaarden, maar u kunt in plaats van (of in aanvulling op) de segmentwaarden of dimensiewaarden ook cellen in een Microsoft Excel-werkblad specificeren. Om het dialoogvenster **Dimensies** te openen, dubbelklikt u op de cel **Koppeling naar financiële dimensies**.
 
 > [!NOTE]
-> Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. Om informatie voor een rij op te geven die zich al in de rijdefinitie bevindt, voegt u de informatie toe aan de cel **Koppeling naar financiële dimensies**. Om nieuwe rijen toe te voegen die naar de financiële gegevens koppelen, gebruikt u het dialoogvenster **Rijen invoegen van** om nieuwe rijen in de rapportdefinitie te maken. De kolomtitel wijzigt, afhankelijk van hoe de kolom is geconfigureerd, zoals weergegeven in de volgende tabel.
+> Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. Als u informatie voor een rij wilt opgeven die al aanwezig is in de rijdefinitie, voegt u de informatie toe aan de cel **Koppeling naar financiële dimensies**. Om nieuwe rijen toe te voegen die naar de financiële gegevens koppelen, gebruikt u het dialoogvenster **Rijen invoegen van** om nieuwe rijen in de rapportdefinitie te maken. De kolomtitel wijzigt, afhankelijk van hoe de kolom is geconfigureerd, zoals weergegeven in de volgende tabel.
 
 | Koppelingstype dat is ingeschakeld       | De omschrijving van de Koppelingskolom wijzigt hiernaar |
 |----------------------------------|----------------------------------------------------|
@@ -456,10 +455,10 @@ Om de monetaire bedragen in één rekening op te tellen bij of af te trekken van
 | Trek een bereik van segmentwaarden af.                                                     | -Account=\[1200:1205\]                                                                                       |
 | Trek een bereik van segmentwaarden af die jokertekens bevatten.                    | -Account=\[120?:130?\]                                                                                       |
 
-Hoewel u de rekeningen rechtstreeks kunt wijzigen, kunt u ook het dialoogvenster **Dimensies** gebruiken om de juiste opmaak toe te passen op uw koppelingen naar financiële gegevens. Alle waarden mogen jokertekens bevatten (? of \*). Report Designer kan echter geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende voorbehouden tekens bevatten: &, \*, \[, \], {, of }.
+Hoewel u de rekeningen rechtstreeks kunt wijzigen, kunt u ook het dialoogvenster **Dimensies** gebruiken om de juiste opmaak toe te passen op uw koppelingen naar financiële gegevens. Alle waarden mogen jokertekens bevatten (? of \*). Report Designer kan echter geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }.
 
 > [!NOTE]
-> Om waarden af te trekken, moet u deze waarden tussen haakjes plaatsen. Als u bijvoorbeeld **450?-(4509)** invoert, wordt dit weergegeven als **+Account=\[4509\]-Account=\[450?\]** en draagt u Report Designer op om het bedrag voor rekeningsegment 4509 af te trekken van het bedrag voor elk rekeningsegment dat begint met 450.
+> Als u waarden wilt aftrekken, plaatst u deze waarden tussen haakjes. Als u bijvoorbeeld **450?-(4509)** invoert, wordt dit weergegeven als **+Account=\[4509\]-Account=\[450?\]** en draagt u Report Designer op om het bedrag voor rekeningsegment 4509 af te trekken van het bedrag voor elk rekeningsegment dat begint met 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Rekeningen optellen bij of aftrekken van andere rekeningen
 
@@ -533,4 +532,3 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
-

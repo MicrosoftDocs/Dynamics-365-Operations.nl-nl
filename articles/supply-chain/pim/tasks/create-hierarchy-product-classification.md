@@ -1,13 +1,13 @@
---- 
-title: "Een hiërarchie van productclassificatie maken"
-description: "Deze procedure laat zien hoe u een nieuwe categoriehiërarchie maakt en een type hiërarchie van basisproductcodes toewijst."
+---
+title: Een hiërarchie van productclassificatie maken
+description: Deze procedure laat zien hoe u een nieuwe categoriehiërarchie maakt en een type hiërarchie van basisproductcodes toewijst.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fb49f5f3f8a5a788cb4c6d1be69534ba808e3675
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0c107c9d15e0e023de51891f23c2d2360c3b8e7f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346819"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Een hiërarchie van productclassificatie maken
 
@@ -67,5 +67,4 @@ Deze procedure laat zien hoe u een nieuwe categoriehiërarchie maakt en een type
 7. Zoek en selecteer het gewenste record in de lijst.
 8. Klik in de lijst op de koppeling in de geselecteerde rij.
 9. Sluit de pagina.
-
 

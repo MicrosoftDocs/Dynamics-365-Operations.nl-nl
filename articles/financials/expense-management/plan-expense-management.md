@@ -1,13 +1,13 @@
 ---
 title: Onkostenbeheer configureren
-description: In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert In Microsoft Dynamics 365 for Finance and Operations.
+description: In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert in Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322025"
 ---
-
 # <a name="configure-expense-management"></a>Onkostenbeheer configureren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert In Microsoft Dynamics 365 for Finance and Operations. In Onkostenbeheer kunt u onder andere informatie over betalingsmethoden, reisaanvragen, onkostennota's en beleid opslaan.
+In dit onderwerp worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert in Microsoft Dynamics 365 for Finance and Operations. In Onkostenbeheer kunt u onder andere informatie over betalingsmethoden, reisaanvragen, onkostennota's en beleid opslaan.
 
 Omdat veel van de beslissingen die u neemt wanneer u uw configuratie voor Onkostenbeheer plant, zijn gebaseerd op de hiërarchie en financiële structuur van uw organisatie, moet u naar de planningsdocumenten voor die gebieden verwijzen.
 
@@ -163,4 +162,3 @@ U kunt beleid voor onkostennota's maken zodat uw organisatie tijd en geld kan b
 - Wanneer verloopt het beleid?
 - Wat is de beleidsregel?
 - Wat is de uitkomt van de beleidsregel?
-

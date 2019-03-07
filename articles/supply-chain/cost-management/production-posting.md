@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0b44d57fe89ef7ae3def835865e4da80c260f907
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 413bf76b40ec1e6d00322605900a71f163c9396c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332398"
 ---
-
 # <a name="production-posting"></a>Productieboeking
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ In **Parameters van productiecontrole** kunt u het veld **Boeking in grootboek**
 -   **Productiegroepen** - Gebruik de grootboekrekeningen die zijn ingesteld op de productiegroepen voor zowel materiaal- als tijdverbruik. De productiegroepen worden gekoppeld aan de vrijgegeven producten en gekopieerd naar de productieorders wanneer deze orders worden gemaakt. Het boeken op de productieorders zal dan de productiegroepen volgen die aan de productieorder zijn gekoppeld.
 
 **Opmerking:** Als de standaardmethode voor het berekenen van de kosten van het afgewerkte artikel werd gebruikt, komt dit terug in de definitieve transacties. Is de werkelijke kosten en de kosten die met de standaardmethode zijn berekend verschillen, wordt het verschil geboekt naar de rekening waarop de winst of het verlies is te zien.
-
 
 
 

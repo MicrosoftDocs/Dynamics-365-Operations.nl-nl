@@ -1,13 +1,13 @@
 ---
 title: Vereffening configureren
-description: "Hoe en wanneer de transacties worden vereffend, kunnen complexe onderwerpen zijn. Daarom is het belangrijk dat u parameters begrijpt en de parameters kunt definiëren om aan uw bedrijfsbehoeften te voldoen. In dit onderwerp worden de parameters beschreven die voor leveranciers en klanten worden gebruikt voor vereffening."
+description: Hoe en wanneer de transacties worden vereffend, kunnen complexe onderwerpen zijn. Daarom is het belangrijk dat u parameters begrijpt en de parameters kunt definiëren om aan uw bedrijfsbehoeften te voldoen. In dit onderwerp worden de parameters beschreven die voor leveranciers en klanten worden gebruikt voor vereffening.
 author: kweekley
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
 ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319265"
 ---
-
 # <a name="configure-settlement"></a>Vereffening configureren
 
 [!include [banner](../includes/banner.md)]
 
 Hoe en wanneer de transacties worden vereffend, kunnen complexe onderwerpen zijn. Daarom is het belangrijk dat u parameters begrijpt en de parameters kunt definiëren om aan uw bedrijfsbehoeften te voldoen. In dit onderwerp worden de parameters beschreven die voor leveranciers en klanten worden gebruikt voor vereffening. 
 
-De volgende parameters zijn van invloed op de wijze waarop vereffeningen worden verwerkt in Microsoft Dynamics 365 for Finance and Operations. Vereffening is het proces van het vereffenen van een factuur met een betaling of creditnota. Deze parameters bevinden zich in het gebied **Vereffening** van de pagina´s **Parameters van module Klanten** en **Parameters van module Leveranciers** .
+De volgende parameters zijn van invloed op hoe vereffeningen worden verwerkt in Microsoft Dynamics 365 for Finance and Operations. Vereffening is het proces van het vereffenen van een factuur met een betaling of creditnota. Deze parameters bevinden zich in het gebied **Vereffening** van de pagina´s **Parameters van module Klanten** en **Parameters van module Leveranciers** .
 
 - **Automatische vereffening**: stel deze optie in op **Ja** als een transactie automatisch met andere openstaande transacties moet worden vereffend wanneer deze wordt geboekt. Als deze optie is ingesteld op **Nee**, kunnen gebruikers transacties handmatig vereffenen wanneer ze betalingen invoeren, of later met behulp van de pagina **Transacties vereffenen**.
 - **Administratie voor contantkorting**: geef op hoe een [contantkorting wordt verwerkt wanneer te veel wordt betaald voor een factuur](cash-discount-handling-overpayments.md). Voor een te veel betaald bedrag kan de contantkorting worden verlaagd, kan deze worden behandeld als een verschil of kan deze op de rekening van de leverancier of de klant blijven staan.
@@ -68,4 +67,3 @@ Om de extra boekhoudingsposten te voorkomen, de debet en de credit naar dezelfde
 
 -   Organisaties gebruiken vaak vaste dimensies om een financiële dimensie die niet vereist is op nul in te stellen. Dit is meestal het geval voor balansrekeningen, zoals rekeningen van klanten/leveranciers. Rekeningstructuren kunnen worden gebruikt om financiële dimensies niet te traceren, die meestal met nullen worden gevuld.  U kunt de financiële dimensie voor de balansrekeningen verwijderen, waardoor geen vaste dimensie meer nodig is.
 -   Als uw organisatie vaste dimensies vereist voor de hoofdrekening van klanten/leveranciers, zoekt u een manier om de vaste dimensie standaard te maken voor de betaling, zodat de waarde van de vaste dimensie wordt opgeslagen in de leverancierstransactie voor de betaling. Hierdoor kan het systeem de hoofdrekening van klanten/leveranciers reconstrueren en de vaste-dimensiewaarden opnemen. De vaste-dimensiewaarde kan worden gedefinieerd als standaard voor leveranciers of de journaalnaam voor het betalingsjournaal.
-

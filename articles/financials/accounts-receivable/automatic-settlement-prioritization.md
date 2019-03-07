@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 775ce10cdba5e38fbb5fc058c6df297143229f79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318966"
 ---
-
 # <a name="automatic-settlement-and-prioritization"></a>Automatische vereffening en prioriteitstelling
 
 [!include [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
 
-U hebt twee opties wanneer u betalingen met facturen en andere transacties vereffent. U kunt de te vereffenen transacties handmatig selecteren of Microsoft Dynamics 365 for Finance and Operations kan de transacties automatisch selecteren door de functie Automatische vereffeningen te gebruiken. U kunt ook aanpassen hoe automatische vereffeningen worden verwerkt door de optie **Prioriteit van vereffening** te gebruiken. Al deze opties maken deel uit van de vereffeningparameters die zijn gedefinieerd op de pagina **Parameters van module Klanten**. De manier waarop transacties automatisch worden vereffend kan verschillen, afhankelijk van de methode die u voor automatische vereffening gebruikt. De volgende methoden zijn beschikbaar:
+U hebt twee opties wanneer u betalingen met facturen en andere transacties vereffent. U kunt de te vereffenen transacties handmatig selecteren of u kunt de transacties in Microsoft Dynamics 365 for Finance and Operations automatisch laten selecteren door de functie Automatische vereffeningen te gebruiken. U kunt ook aanpassen hoe automatische vereffeningen worden verwerkt door de optie **Prioriteit van vereffening** te gebruiken. Al deze opties maken deel uit van de vereffeningparameters die zijn gedefinieerd op de pagina **Parameters van module Klanten**. De manier waarop transacties automatisch worden vereffend kan verschillen, afhankelijk van de methode die u voor automatische vereffening gebruikt. De volgende methoden zijn beschikbaar:
 
 -   Door gebruiker gedefinieerde prioriteit van vereffening
 -   Standaard automatische vereffening
@@ -42,10 +41,10 @@ De volgende secties beschrijven hoe transacties worden vereffend voor elke metho
 ## <a name="example-transactions"></a>Voorbeelden van transacties
 De voorbeelden van vereffeningen verderop in dit artikel zijn gebaseerd op de volgende transacties. Alle transacties zijn voor klant 2050.
 
-| Transactie   | Datum        | Bedrag | Voorwaarden voor contantkorting | Datum voor contantkorting | Commentaar                                                                                                                                                                                      |
+| Transactie   | Datum        | Bedrag | Voorwaarden voor contantkorting | Datum voor contantkorting | Opmerkingen                                                                                                                                                                                      |
 |---------------|-------------|--------|---------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Factuur 1     | 15 augustus   | 100,00 | 2%14, Net 30        | 29 augustus          |                                                                                                                                                                                               |
-| Factuur 2     | 1 september | 250,00 | 2%14, Net 30        | 15 september       |                                                                                                                                                                                               |
+| Factuur 1     | 15 augustus   | 100,00 | 2%14, netto 30        | 29 augustus          |                                                                                                                                                                                               |
+| Factuur 2     | 1 september | 250,00 | 2%14, netto 30        | 15 september       |                                                                                                                                                                                               |
 | Factuur 3     | 15 oktober  | 500,00 | 2% 14/Net 30        | 29 oktober         |                                                                                                                                                                                               |
 | Rentenota | 15 oktober  | 7,00   |                     |                    | Deze rentenota is voor factuur 1 en factuur 2. Het bedrag wordt berekend als rente van 2 procent op bedragen van meer dan 30 dagen na de vervaldatum. Bijvoorbeeld: 0,02 × (100,00 + 250,00) = 7,00. |
 
@@ -79,7 +78,6 @@ Als er geen vereffeningsprioriteit voor de gebruiker gedefinieerd is, worden tra
 | Factuur 2     | 9/1/2015   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
 | Factuur 3     | 10/15/2015 |         | 500,00                         | 350,00           | 150,00  | USD      |
 | Rentenota | 10/15/2015 |         | 7,00                           | 0,00             | 0,00    | USD      |
-
 
 
 

@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9695a7a3f98220f48627e85a51bc6dae5adb35c2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345669"
 ---
-
 # <a name="manage-recruiting-processes"></a>Wervingsprocessen beheren
 
 [!include [banner](../includes/banner.md)]
@@ -105,4 +104,3 @@ Als een sollicitatie moet worden geëvalueerd door verschillende werknemers, kun
 ## <a name="hiring-applicants"></a>Sollicitanten aannemen
 
 Gebruik de pagina **Sollicitaties** om een sollicitant aan te stellen. Wanneer u een sollicitant aanneemt, heeft de sollicitatierecord de status **Aangesteld** en wordt de persoonlijke registratie voor het globale adresboek van de sollicitant gekoppeld aan de nieuwe werknemerregistratie. Wijzigingen in de globale adresboekgegevens voor nieuwe werknemersregistratie worden tevens weergegeven in de sollicitatieregistratie. Dit kan helpen bij het verminderen van gegevensinvoer als de nieuwe werknemer weer solliciteert voor een andere baan binnen uw onderneming. Om een bestaande werknemer voor een andere positie aan te werven, klikt u op **Positie wijzigen** in de vervolgkeuzelijst **Sollicitatiestatus** om het overdrachtsproces te starten.
-

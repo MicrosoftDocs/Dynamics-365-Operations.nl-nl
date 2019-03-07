@@ -5,28 +5,26 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 05/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
 ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343806"
 ---
-
-
 # <a name="service-management"></a>Servicebeheer 
 
 [!include [banner](../includes/banner.md)]
@@ -72,5 +70,4 @@ Servicebeheer kan worden geïntegreerd met de volgende modules:
   - [HRM](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   
-
 

@@ -1,13 +1,13 @@
 ---
 title: Lijstpagina met klanttransacties
-description: Dit onderwerp biedt informatie over de lijstpagina met klanttransacties voor Microsoft Dynamics 365 for Finance and Operations.
+description: Dit onderwerp bevat informatie over de pagina met klanttransactielijsten voor Microsoft Dynamics 365 for Finance and Operations.
 author: mikefalkner
 manager: aolson
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
+ms.openlocfilehash: b9936a66cc8c8abb24601dae91dcfca77e4f58a4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 1b359939c867ba0a0c14859c83f0560afe6ba5be
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341690"
 ---
-
 # <a name="customer-transactions-list-page"></a>Lijstpagina met klanttransacties
 
 [!include [banner](../includes/banner.md)]
@@ -40,10 +39,10 @@ De knop **Vereffeningen weergeven** in het actievenster biedt snelle toegang tot
 
 4. In het dialoogvenster kunt u verschillende taken uitvoeren. Selecteer een of meer boekstukken en selecteer een van de volgende knoppen:
 
-    - **Gerelateerde weergeven**: alle betalingsjournaaltransacties weergeven die zijn gemaakt in het betalingsjournaal dat is gerelateerd aan het geselecteerde document. Bovendien worden alle vereffeningen weergegeven die zijn gerelateerd aan deze betalingen. Terwijl u gerelateerde betalingen weergeeft, wordt het label van deze knop gewijzigd in **Vereffeningen weergeven**. Selecteer **Vereffeningen weergeven** om alleen de transacties te tonen die werden weergegeven toen u voor het eerst het dialoogvenster **Vereffeningen weergeven** opende.
+    - **Bijbehorende weergeven** : de journaaltransacties voor betaling en algemene journaaltransacties weergeven voor de klanten die zijn gemaakt in de journalen waarin de documenten weergegeven in de lijst zijn gemaakt. Bijvoorbeeld: als een betaling wordt weergegeven, worden alle betalingen in het betalingsjournaal waarin deze is gemaakt weergegeven. Als een factuur of betaling wordt weergegeven en deze is gemaakt in een algemeen journaal, worden alle documenten in het algemene journaal waarin deze is gemaakt weergegeven. Alle vereffeningen die zijn gerelateerd aan de lijst van documenten worden ook weergegeven. Terwijl u gerelateerde betalingen weergeeft, wordt het label van deze knop gewijzigd in **Vereffeningen weergeven**. Selecteer **Vereffeningen weergeven** om alleen de transacties te tonen die werden weergegeven toen u voor het eerst het dialoogvenster **Vereffeningen weergeven** opende.
     - **Historie weergeven**: de vereffeningshistorie voor de boekstukken weergeven. Selecteer **Sluiten** om het dialoogvenster te sluiten.
     - **Boekhouding weergeven**: alle boekstukken weergeven die zijn gerelateerd aan de geselecteerde documenten. Selecteer **Sluiten** om het dialoogvenster te sluiten.
-    - **Exporteren** : de geselecteerde boekstukken naar Microsoft Excel exporteren.
+    - **Exporteren**: de geselecteerde boekstukken naar Microsoft Excel exporteren.
     - **Transacties vereffenen**: deze knop wordt alleen weergegeven als het oorspronkelijk geselecteerde document niet volledig is vereffend. Wanneer u deze knop selecteert, verschijnt het dialoogvenster **Transacties vereffenen**. Hierin kunt u transacties voor vereffening selecteren.
     - **Vereffening ongedaan maken**: deze knop wordt alleen weergegeven als het oorspronkelijk geselecteerde document volledig is vereffend. Wanneer u deze knop selecteert, verschijnt het dialoogvenster **Vereffening ongedaan maken**. Hierin kunt u de vereffeningen ongedaan maken die zijn uitgevoerd voor dat document.
 
@@ -98,4 +97,3 @@ Elk veld heeft een ander effect op de transactie als u dit bewerkt:
 - **De voorwaarden voor contantkorting bewerken:** de contantkortingen worden gewijzigd, op basis van de basisdatum en de voorwaarden voor contantkorting.
 
 Wanneer u klaar bent met het bewerken van de betalingsinstellingen, selecteert u **Sluiten** om uw wijzigingen op te slaan.
-

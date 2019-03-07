@@ -1,13 +1,13 @@
 ---
-title: "Detailhandelskanalen definiëren en onderhouden"
-description: "Dit onderwerp biedt een overzicht van het proces voor het opzetten van fysieke winkels, waarnaar in Microsoft Dynamics 365 for Retail als detailhandelwinkels wordt verwezen. Het bevat informatie over de taken die u vóór en na het opzetten van een detailhandelwinkel moet uitvoeren."
+title: Detailhandelskanalen definiëren en onderhouden
+description: Dit onderwerp biedt een overzicht van het proces voor het opzetten van fysieke winkels, waarnaar in Microsoft Dynamics 365 for Retail als detailhandelwinkels wordt verwezen. Het bevat informatie over de taken die u vóór en na het opzetten van een detailhandelwinkel moet uitvoeren.
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
 ms.reviewer: josaw
@@ -19,25 +19,24 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318621"
 ---
-
 # <a name="define-and-maintain-retail-channels"></a>Detailhandelskanalen definiëren en onderhouden
 
 [!include [banner](includes/banner.md)]
 
 Dit onderwerp biedt een overzicht van het proces voor het opzetten van fysieke winkels, waarnaar in Microsoft Dynamics 365 for Retail als detailhandelwinkels wordt verwezen. Het bevat informatie over de taken die u vóór en na het opzetten van een detailhandelwinkel moet uitvoeren.
 
-Dynamics 365 for Retail ondersteunt meerdere retailkanalen, zoals onlinewinkels, fysieke winkels en call centers. Een fysieke winkel wordt een detailhandelswinkel genoemd. Iedere detailhandelwinkel kan zijn eigen betalingsmethoden, prijsgroepen, verkooppuntkassa's (POS), inkomsten- en uitgavenrekeningen en personeel hebben. U moet al deze elementen voor een detailhandel instellen voordat u deze maakt. Nadat u de detailhandelswinkel hebt gemaakt, wijst u de producten toe die u wilt verkopen. U moet ook werknemers, kassa's en klanten aan de winkel toewijzen. Tot slot voegt u de nieuwe winkel toe aan een organisatiehiërarchie.
+Dynamics 365 for Retail ondersteunt meerdere retailkanalen, zoals onlinewinkels, callcenters en fysieke winkels. Een fysieke winkel wordt een detailhandelswinkel genoemd. Iedere detailhandelwinkel kan zijn eigen betalingsmethoden, prijsgroepen, verkooppuntkassa's (POS), inkomsten- en uitgavenrekeningen en personeel hebben. U moet al deze elementen voor een detailhandel instellen voordat u deze maakt. Nadat u de detailhandelswinkel hebt gemaakt, wijst u de producten toe die u wilt verkopen. U moet ook werknemers, kassa's en klanten aan de winkel toewijzen. Tot slot voegt u de nieuwe winkel toe aan een organisatiehiërarchie.
 
 ## <a name="setting-up-retail-stores"></a>Detailhandelwinkels instellen
 
-Voordat u een detailhandelswinkel kunt instellen, moet u in Dynamics 365 for Retail enkele vereiste taken uitvoeren. U kunt de detailhandel vervolgens maken en gegevens toevoegen.
+Voordat u een detailhandel kunt instellen in Dynamics 365 for Retail, moet u enkele vereiste taken uitvoeren. U kunt de detailhandel vervolgens maken en gegevens toevoegen.
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -86,4 +85,3 @@ Nadat u de gegevens voor de detailhandelswinkel hebt ingevoerd, voert u deze tak
 ## <a name="organization-hierarchies"></a>Organisatiehiërarchieën
 
 Retail gebruikt organisatiehiërarchieën om detailhandelkanalen structuur te geven. Met organisatiehiërarchieën worden de relaties aangegeven tussen de organisaties waaruit het bedrijf bestaat. Bij het instellen van winkels, kunt u ze toevoegen aan een organisatiehiërarchie. De winkels delen vervolgens gegevens die wordt gebruikt voor assortimenten, aanvulling en rapportering.
-

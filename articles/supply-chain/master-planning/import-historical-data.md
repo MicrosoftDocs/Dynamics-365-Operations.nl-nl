@@ -5,9 +5,9 @@ author: roxanadiaconu
 manager: AnnBe
 ms.date: 05/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 018694c79c6dd64e19b010848aad8acd36b0a9a8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e7975003620d951717c66144c8d0521de0f69158
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328603"
 ---
-
 # <a name="import-historical-data-for-demand-forecasts"></a>Historische gegevens voor vraagprognoses importeren
 
 [!include [banner](../includes/banner.md)]
 
-Om te helpen de nauwkeurigheid van vraagprognoses te garanderen moet u zoveel mogelijk historische vraaggegevens hebben per artikel of artikeltoewijzingssleutel. Als de historische vraag niet al is geïmporteerd, gebruikt u de gegevensentiteit **Historische externe vraag** (ReqDemPlanHistoricalExternalDemandEntity) in Microsoft Dynamics 365 for Finance and Operations om deze te importeren.
+Om te helpen de nauwkeurigheid van vraagprognoses te garanderen moet u zoveel mogelijk historische vraaggegevens hebben per artikel of artikeltoewijzingssleutel. Als de historische vraaggegevens niet al zijn geïmporteerd, gebruikt u de gegevensentiteit **Historische externe vraag** (ReqDemPlanHistoricalExternalDemandEntity) in Microsoft Dynamics 365 for Finance and Operations om deze te importeren.
 
 In het werkgebied **Gegevensbeheer** ziet u een overzicht van alle velden in de entiteit.
 
@@ -60,4 +59,3 @@ Nadat u de historische vraaggegevens hebt geïmporteerd, kunt u een vraagprognos
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
-

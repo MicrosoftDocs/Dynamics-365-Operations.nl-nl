@@ -1,13 +1,13 @@
 ---
-title: "Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations – Warehousing"
-description: "In dit onderwerp wordt uitgelegd hoe u Dynamics 365 for Finance and Operations – Warehousing instelt voor het scannen van streepjescodes met een camera op een mobiel apparaat."
+title: Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations - Warehousing
+description: In dit onderwerp wordt uitgelegd hoe u Dynamics 365 for Finance and Operations – Warehousing instelt voor het scannen van streepjescodes met een camera op een mobiel apparaat.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSMobileAppField
 audience: Application User
 ms.reviewer: josaw
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: e78d0a82d3ca66a6912ea1a9517296ca241edf1c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: f7fe3ab07578b09822fbfeaa4b07331b79f13610
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/09/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319426"
 ---
-
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations – Warehousing
+# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations - Warehousing
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,5 +54,4 @@ De camerapagina wordt gestart op elke pagina waarop Scannen is ingesteld als de 
 Wanneer u op de pagina Camera op de knop Camera klikt, wordt deze grijs weergegeven terwijl wordt geprobeerd een streepjescode te identificeren. Als niet binnen vijf seconden een streepjescode wordt geïdentificeerd, vindt er een procestime-out plaats en wordt de knop Camera weer beschikbaar. Vervolgens kunt u opnieuw proberen een streepjescode te scannen.
 
 Wanneer u de camera op een streepjescode richt, krijgt u de beste resultaten als u de streepjescode uitgelijnd binnen de haakjes houdt. Wanneer een streepjescode is gescand, wordt het resultaat verwerkt en gaat u verder met de volgende stap. Als de volgende stap weer een invoerveld met Scannen als geprefereerde invoermodus omvat, wordt de pagina Camera opnieuw gestart. Als de volgende stap geen scanveld omvat, wordt de pagina Camera niet gestart.
-
 

@@ -5,9 +5,9 @@ author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318437"
 ---
-
 # <a name="warehouse-configuration"></a>Magazijnconfiguratie
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ In dit artikel wordt beschreven hoe u een magazijn configureert. Er wordt aangeg
 **Opmerking:** dit artikel is van toepassing op de functies in de module **Magazijnbeheer** (geavanceerde magazijnen). Het is niet van toepassing op magazijnfuncties in de module **Voorraadbeheer**.
 
 ## <a name="warehouse-layout"></a>Magazijnindeling
-Het magazijnbeheersysteem in Microsoft Dynamics 365 for Finance and Operations biedt u flexibele manieren om uw magazijnindeling te definiëren voor wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
+Het magazijnbeheersysteem in Microsoft Dynamics 365 for Finance and Operations biedt u flexibele manieren om uw magazijnindeling te definiëren voor het wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
 
 -   U kunt opslaggebieden met hoge prioriteit en lage prioriteit ontwikkelen voor optimale plaatsing van goederen.
 -   U kunt uw magazijn in zones verdelen voor verschillende opslagbehoeften, zoals temperatuurvereisten of diverse omzettarieven voor artikelen.
@@ -116,7 +115,6 @@ Om het gemakkelijker en sneller te maken om de acties te definiëren die zijn ge
 --------
 
 [Locaties in een WMS-magazijn configureren](tasks/configure-locations-wms-enabled-warehouse.md) (taakbegeleider)
-
 
 
 

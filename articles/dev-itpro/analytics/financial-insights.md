@@ -1,13 +1,13 @@
 ---
 title: Financial Insights
-description: "Financial Insights gebruikt Microsoft Power BI om KPI's, grafieken en financiële overzichten samen te voegen."
+description: Financial Insights gebruikt Microsoft Power BI om KPI's, grafieken en financiële overzichten samen te voegen.
 author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,15 +16,14 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308846"
 ---
-
 # <a name="financial-insights"></a>Financial Insights
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,7 @@ De gegevens in ingesloten Power BI-rapporten kunnen momenteel niet worden beperk
 |-----------------------------------------|-------|------------|
 | Werkgebied CFO-overzicht weergeven             | CFO (Chief Financial Officer) | Deze functie biedt toegang tot de werkruimte CFO-overzicht. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt echter alle rechtspersonen toevoegen, ongeacht of de gebruiker toegang tot de andere rechtspersonen heeft. |
 | Financiële inzichten voor huidig bedrijf weergeven | <ul><li>Accountant</li><li>Accountingmanager</li><li>Supervisor boekhouding</li><li>Accountant</li><li>Budgetbeheerder</li><li>President-directeur</li><li>Hoofdmedewerker financiën</li><li>Financieel controller</li></ul> | Deze functie geeft toegang tot Financial Insights. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt geen andere rechtspersonen toevoegen. |
-| Financiële inzichten voor geheel bedrijf weergeven   | In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, is deze functie niet toegewezen aan een rol. In de volgende versie wordt deze functie toegewezen aan de rol van CFO. | Deze functie biedt toegang tot de menuoptie voor de werkruimte CFO-overzicht. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt echter alle rechtspersonen toevoegen, ongeacht of de gebruiker toegang tot de andere rechtspersonen heeft. |
+| Financiële inzichten voor geheel bedrijf weergeven   | In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 is deze functie niet toegewezen aan een rol. In de volgende versie wordt deze functie toegewezen aan de rol van CFO. | Deze functie biedt toegang tot de menuoptie voor de werkruimte CFO-overzicht. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt echter alle rechtspersonen toevoegen, ongeacht of de gebruiker toegang tot de andere rechtspersonen heeft. |
 
 
 ## <a name="financial-reporting-vs-finanical-insights"></a>Financiële rapportage versus Financial Insights
@@ -123,10 +122,10 @@ Naast de gebruikersinterface in het oorspronkelijke werkgebied **CFO-overzicht**
 - Verkopen per klant
 
 ## <a name="edit-visuals"></a>Visuele elementen bewerken
-In de eerste versie van **Financial Insights** kan geen van de visuele elementen worden bewerkt. In toekomstige versies kunnen gebruikers met de juiste beveiliging nieuwe visuele elementen maken, bestaande visuele elementen kopiëren en visuele elementen bewerken. Hoewel de .pbix-bestanden die de rapporten bevatten als resources beschikbaar zijn, wordt niet aanbevolen dat u de standaardrapporten bewerkt. Er worden aanvullende wijzigingen aangebracht in de visuele elementen gegevensmodel, standaardrapporten en aangepaste financiële overzichten die worden gebruikt om de financiële overzichten te maken. Dus als u wilt profiteren van nieuwe functies en wijzigingen aan het gegevensmodel in de volgende versie, moet u eventuele wijzigingen die u hebt aangebracht aan de standaardrapporten via Microsoft Power BI-bureaublad opnieuw aanbrengen.
+In de eerste versie van **Financial Insights** kan geen van de visuele elementen worden bewerkt. In toekomstige versies kunnen gebruikers met de juiste beveiliging nieuwe visuele elementen maken, bestaande visuele elementen kopiëren en visuele elementen bewerken. Hoewel de .pbix-bestanden die de rapporten bevatten als resources beschikbaar zijn, wordt niet aanbevolen dat u de standaardrapporten bewerkt. Er worden aanvullende wijzigingen aangebracht in de visuele elementen gegevensmodel, standaardrapporten en aangepaste financiële overzichten die worden gebruikt om de financiële overzichten te maken. Dus als u wilt profiteren van nieuwe functies en wijzigingen in het gegevensmodel in de volgende versie, moet u eventuele wijzigingen die u hebt aangebracht in de standaardrapporten via Microsoft Power BI Desktop opnieuw aanbrengen.
 
 ## <a name="filtering"></a>Filteren
-Gebruikers kunnen het rapport filteren met behulp van het deelvenster **Filter** aan de linkerzijde. Dit venster is het hetzelfde venster dat beschikbaar is via Power BI-bureaublad. Er zijn verschillende niveaus van filteren, waarvan sommige mogelijk niet beschikbaar zijn, afhankelijk van wat u hebt geselecteerd op een pagina (tabblad) en of u de detailanalysemogelijkheden gebruikt:
+Gebruikers kunnen het rapport filteren met behulp van het deelvenster **Filter** aan de linkerzijde. Dit venster is het hetzelfde venster dat beschikbaar is via Power BI Desktop. Er zijn verschillende niveaus van filteren, waarvan sommige mogelijk niet beschikbaar zijn, afhankelijk van wat u hebt geselecteerd op een pagina (tabblad) en of u de detailanalysemogelijkheden gebruikt:
 
 - **Filters op rapportniveau**: deze filters worden toegepast op alle visuele elementen op alle pagina's (tabbladen).
 - **Filters op paginaniveau**: deze filters worden toegepast op alle visuele elementen op het actieve tabblad. Deze filters worden toegepast boven op filters op rapportniveau.
@@ -243,11 +242,10 @@ Als het maximum wordt overschreden, zijn de totalen die worden weergegeven in he
 Power BI bevat geen optie om lege rijen te verbergen en weer te geven. Als een rij geen gegevens bevat, wordt de rij niet weergegeven in het visuele element.
 
 
-## <a name="additional-resources-for-power-bi"></a>Extra resources voor Power BI
+## <a name="additional-resources-for-power-bi"></a>Aanvullende bronnen voor Power BI
 
 De informatie in de volgende bronnen is niet vereist is om de ingesloten rapporten voor de werkruimte **CFO overzicht** of **Financial Insights** in te schakelen in een productieomgeving. In plaats daarvan zijn ze handig voor ontwikkelaarsmachines en als u uw eigen rapporten Power BI-rapporten wilt insluiten in Finance and Operations.
 
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

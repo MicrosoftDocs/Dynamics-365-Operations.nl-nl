@@ -1,13 +1,13 @@
 ---
 title: Maken en werken met aangepaste velden
-description: In dit onderwerp wordt beschreven hoe Microsoft Dynamics 365 for Finance and Operations sommige gebruikers toestaat aangepaste velden te maken om de toepassing aan te passen aan hun bedrijf.
+description: Dit onderwerp beschrijft hoe sommige gebruikers met Microsoft Dynamics 365 for Finance and Operations aangepaste velden kunnen maken om de toepassing aan te passen aan hun bedrijf.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348015"
 ---
-
 # <a name="create-and-work-with-custom-fields"></a>Maken en werken met aangepaste velden
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ Microsoft Dynamics 365 for Finance and Operations biedt een uitgebreide reeks ka
 
 De mogelijkheid om aangepaste velden toe te voegen, is beschikbaar in platformupdate 13 en hoger.
 
-Deze video laat zien hoe gemakkelijk het is een aangepast veld toe te voegen aan een pagina: [Aangepaste velden toevoegen in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
+In deze video wordt getoond hoe gemakkelijk het is een aangepast veld toe te voegen aan een pagina: [Aangepaste velden toevoegen in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
 ## <a name="creating-custom-fields"></a>Aangepaste velden maken
 
@@ -160,4 +159,3 @@ Omwille van prestaties en technische redenen kunnen momenteel alleen aangepaste 
 - De tabel kan niet een andere tabel uitbreiden.
 - De tabel kan niet zijn gemarkeerd als een systeemtabel.
 - De tabel kan geen tijdelijke tabel zijn.
-

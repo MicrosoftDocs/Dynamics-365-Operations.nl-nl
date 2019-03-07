@@ -5,33 +5,32 @@ author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
-ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
-ms.contentlocale: nl-nl
-ms.lasthandoff: 06/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324095"
 ---
-
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het synchroniseren van werkorders in Microsoft Dynamics 365 for Field Service met verkooporders in Microsoft Dynamics 365 for Finance and Operations.
+In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt om werkorders in Microsoft Dynamics 365 for Field Service te synchroniseren met verkooporders in Microsoft Dynamics 365 for Finance and Operations.
 
 [![Synchronisatie van zakelijke processen tussen Finance and Operations en Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -273,4 +272,3 @@ Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en ((msdyn_linestatus eq 690970001) of (msdynce_headersystemstatus eq 690970004) of (msdyn_allocated ne true))
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-

@@ -5,9 +5,9 @@ author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 39503d051e3b4686bbaa0130fe5be7cb980fbcb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312181"
 ---
-
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>Rapporten genereren door inhoud toe te voegen als onbewerkte XML
 
 [!include[banner](../includes/banner.md)]
@@ -39,4 +38,3 @@ U kunt het nieuwe indelingselement **RAW XML** gebruiken om ER-indelingen te ont
 > Houd er rekening mee dat het raamwerk niet bepaalt of de XML-inhoud die in het gegenereerde document wordt geplaatst met behulp van het indelingselement **RAW XML**, juist is.
 
 Als u meer wilt weten over deze functie, speelt u de taakbegeleidingen **ER onbewerkte XML-gegevens gebruiken om XML-rapporten te genereren (deel 1: Ontwerpgegevensmodel)** en **ER onbewerkte XML-gegevens gebruiken om XML-rapporten te genereren (deel 2: Rapport ontwerpen en uitvoeren)** af, die deel uitmaken van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** en kunnen worden gedownload uit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=874684). Deze taakbegeleidingen begeleiden u door het proces van het configureren van een ER-indeling om onbewerkte XML-gegevens in gegenereerde bestanden in te voegen.
-

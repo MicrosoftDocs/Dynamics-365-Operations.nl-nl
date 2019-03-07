@@ -1,13 +1,13 @@
 ---
-title: "Financiële dimensies en hoofdrekeningen in talen die van rechts naar links worden geschreven"
-description: "In dit onderwerp worden enkele implementatiebeslissingen beschreven waarmee u rekening moet houden wanneer u een van rechts naar links geschreven taal gebruikt. Daarnaast wordt aangegeven hoe u financiële dimensies en hoofdrekeningen instelt."
+title: Financiële dimensies en hoofdrekeningen in talen die van rechts naar links worden geschreven
+description: In dit onderwerp worden enkele implementatiebeslissingen beschreven waarmee u rekening moet houden wanneer u een van rechts naar links geschreven taal gebruikt. Daarnaast wordt aangegeven hoe u financiële dimensies en hoofdrekeningen instelt.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 9609c052083dc3157618584da9311211ea036eba
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340195"
 ---
-
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Financiële dimensies en hoofdrekeningen in talen die van rechts naar links worden geschreven
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,6 @@ Financiële dimensies en hoofdrekeningen zijn belangrijke onderdelen van de plan
 -   Gebruik niet het geselecteerde scheidingsteken voor rekeningschema's in waarden voor financiële dimensie en hoofdrekeningen.
 
 Door deze aanbevolen procedures te volgen, zorgt u ervoor dat de door de gebruiker gedefinieerd volgorde consistent wordt weergegeven in het systeem.
-
 
 
 

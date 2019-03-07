@@ -1,13 +1,13 @@
 ---
 title: Tijd- en aanwezigheidsbeheer in Retail
-description: In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beheer van tijd en aanwezigheid in Microsoft Dynamics 365 for Retail.
+description: In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beheer van Tijd en aanwezigheid in Microsoft Dynamics 365 for Retail.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321266"
 ---
-
 # <a name="time-and-attendance-management-in-retail"></a>Tijd- en aanwezigheidsbeheer in Retail
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beheer van tijd en aanwezigheid in Microsoft Dynamics 365 for Retail.
+In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beheer van Tijd en aanwezigheid in Microsoft Dynamics 365 for Retail.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Het instellen en inplannen van medewerkers beheren
 
@@ -126,7 +125,7 @@ Op POS:
 
 ## <a name="process-and-manage-time-registrations"></a>Tijdregistraties verwerken en beheren
 
-Een gebruiker in Dynamics 365 for Retail volgt de werkstroom om tijdregistraties te berekenen, goed te keuren en naar de salarisadministratie over te brengen.
+Een Dynamics 365 for Retail-gebruiker volgt de werkstroom om tijdregistraties te berekenen, goed te keuren en naar salaris over te brengen.
 
 ### <a name="primary-operations"></a>Primaire bewerkingen
 
@@ -140,4 +139,3 @@ Een gebruiker in Dynamics 365 for Retail volgt de werkstroom om tijdregistraties
 - Verzuim registreren
 
 Zie [Registraties van procestijd en -aanwezigheid](https://technet.microsoft.com/library/aa573180.aspx) voor meer informatie over het verwerken van tijd- en aanwezigheidsregistraties.
-

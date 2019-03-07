@@ -1,13 +1,13 @@
---- 
+---
 title: Een ER-configuratie vanuit Lifecycle Services importeren
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe versie van een ER-configuratie uit Microsoft Lifecycle Services (LCS) kan importeren.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 036d7e7e3f79e0945d6fef866a30edd41e688c07
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337251"
 ---
-
 # <a name="er-import-a-configuration-from-lifecycle-services"></a>Een ER-configuratie vanuit Lifecycle Services importeren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -70,5 +69,4 @@ In dit voorbeeld selecteert u de gewenste versie van de ER-configuratie en impor
 11. Zoek en selecteer de gewenste record in de lijst.
     * Selecteer de versie van deze configuratie die de status ‘Gedeeld’ heeft.  
     * De gedeelde versie 1 van de geselecteerde gegevensmodelconfiguratie is nu ook beschikbaar.  
-
 

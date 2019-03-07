@@ -1,13 +1,13 @@
---- 
+---
 title: Transacties corrigeren
 description: In deze taakbegeleiding wordt beschreven hoe u een transactie voor een project corrigeert.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 922914a50932fcf91e80c80333d7ab0b4a66f089
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 94942b4dc499c225fd636e7080ef253d5370b96e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344496"
 ---
 # <a name="adjust-project-transactions"></a>Projecttransacties corrigeren
 
@@ -44,4 +44,3 @@ In deze taakbegeleiding wordt beschreven hoe u een transactie voor een project c
 13. Markeer in de lijst de geselecteerde rij. 
 14. Voer in het veld Kostprijs een getal in. 
 15. Klik op Boeken. 
-

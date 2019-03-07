@@ -1,13 +1,13 @@
---- 
+---
 title: Verkoopoffertes massaal maken
-description: "Deze procedure toont hoe u efficiënt offertes maakt met een reeks producten of services die naar meerdere klanten moeten worden verzonden."
+description: Deze procedure toont hoe u efficiënt offertes maakt met een reeks producten of services die naar meerdere klanten moeten worden verzonden.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e0e9ddf38106fce3ed6a6f908826f2196c97a45a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1fcb2c4d47f0c8e701be025e0554ed476693d732
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332007"
 ---
 # <a name="mass-create-sales-quotations"></a>Verkoopoffertes massaal maken
 
@@ -100,5 +100,4 @@ Deze procedure toont hoe u efficiënt offertes maakt met een reeks producten of 
 10. Klik op OK.
 11. Ga naar Verkoop en marketing > Verkoopoffertes > Alle offertes.
     * Controleer of er offertes zijn gemaakt voor alle klanten die in de routine voor groepsgewijs bijwerken zijn opgegeven, op basis van de geselecteerde sjabloon.  
-
 

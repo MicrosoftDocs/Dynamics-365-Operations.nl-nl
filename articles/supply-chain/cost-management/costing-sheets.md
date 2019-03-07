@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostSheetDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1421049adb86916202ad6f7ee748c8525fd55fa8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3988bd478cfad791b5d4c73d28a86c9cfb68288f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312756"
 ---
-
 # <a name="costing-sheets"></a>Kostprijsberekeningsbladen
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Twee blokkeringsbeleidsregels voor een kostprijsberekeningsversie bepalen of kos
 Nadat u de indeling voor het kostenblad en de berekeningen voor de indirecte kosten hebt gedefinieerd, moet u een extra stap uitvoeren om de gegevens te valideren en op te slaan. Het kostenblad is een indeling voor het hele bedrijf die ervoor moet zorgen dat de informatie over de kosten van verkochte goederen consistent wordt weergegeven. 
 
 Het kostenblad wordt weergegeven als onderdeel van de pagina **Artikelkosten berekenen**. Het kostenblad kan worden weergegeven voor de berekende kostenrecord van een gefabriceerd artikel op de pagina **Artikelprijs** of voor een orderspecifieke berekeningsrecord op de pagina **Resultaten stuklijstberekening**. Het kostenblad wordt ook weergegeven als onderdeel van de pagina **Prijsberekening** voor een productieorder.
-
 
 
 

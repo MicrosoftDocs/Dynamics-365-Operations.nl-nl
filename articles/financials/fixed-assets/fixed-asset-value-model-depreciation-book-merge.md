@@ -1,13 +1,13 @@
 ---
 title: Samenvoeging van waardemodellen en afschrijvingsboeken voor vaste activa
-description: "In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In versie 1611 van Microsoft Dynamics 365 for Operations zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept dat de naam boek draagt."
+description: 'In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In versie 1611 van Microsoft Dynamics 365 for Operations zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept dat de naam boek draagt.'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 26f4b73f67064a83eb7b3d57f2dc98d90602c254
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ef31b63dd253ab5b436a65385e248c4753abf1e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342518"
 ---
-
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Samenvoeging van waardemodellen en afschrijvingsboeken voor vaste activa
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ Query's en rapporten ondersteunen alle boeken. Rapporten die niet in de volgende
 
 ## <a name="upgrade"></a>Bijwerken
 Met het upgradeproces verplaatst u uw bestaande instellingen en alle uw bestaande transacties naar de nieuwe boekstructuur. De waardemodellen worden in de huidige vorm behouden, in de vorm van een boek dat boekt naar het grootboek. Afschrijvingsboeken worden echter naar een boek verplaatst waarvoor de optie **Boeken naar grootboek** is ingesteld op **Nee**. De journaalnamen van afschrijvingsboeken worden verplaatst naar een grootboekjournaalnaam, waarvoor de boekingslaag is ingesteld op **Geen**.
-
 
 
 

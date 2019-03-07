@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 665c58fd29fb986bf51e10f5814c4793940c0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1c19cb68df5be5245722da43f3ef9c2072873a34
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317770"
 ---
-
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Rentepercentages instellen voor een rentecode
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,6 @@ U stelt de bereikinformatie als volgt in.
 Rentecodes zijn geldig op bepaalde datums. Als u de rentevoet wilt wijzigen, kunt u een **nieuwe versie** maken die vanaf een toekomstige datum geldig is.
 
 Als u verschillende versies wilt bekijken, kunt u de menukeuze **Begindatum** gebruiken om de afsluitdatum te selecteren. U kunt ook **Alle records weergeven** selecteren om alle rentecodes op de pagina weer te geven.
-
 
 
 

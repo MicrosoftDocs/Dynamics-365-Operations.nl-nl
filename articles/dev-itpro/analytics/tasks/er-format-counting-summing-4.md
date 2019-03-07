@@ -1,13 +1,13 @@
---- 
+---
 title: 'ER Indeling configureren voor tellen en totaliseren (deel 4: Indeling uitvoeren)'
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken voor tellen en totaliseren op basis van gegevens van de reeds gegenereerde tekstuitvoer.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, IntrastatParameters, Intrastat, InventItemIdLookupSimple, IntrastatCommodityLookup, ERFormatMappingRunLogTable, DocuView
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 17989b7fa2baf14472ec19a041cb5ce7e5c0380d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336193"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4-run-format"></a>ER Indeling configureren voor tellen en totaliseren (deel 4: Indeling uitvoeren)
 
@@ -31,7 +31,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeemb
 
 Als u deze stappen wilt uitvoeren, voert u eerst de stappen uit in de procedure "ER Indeling configureren voor tellen en totaliseren (Deel 3: Berekeningen gebruiken om de uitvoer te maken)".
 
-Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
 
 ## <a name="test-this-configuration-for-generation-of-the-intrastat-reports"></a>Test deze configuratie voor het genereren van de Intrastat-rapporten
@@ -103,5 +103,4 @@ Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Opera
 20. Klik op Koppelen.
 21. Klik op Openen.
     * Controleer het gemaakte XML-bestand dat de tellings- en totaliseringsgegevens bevat die tijdens de uitvoering van de geselecteerde configuratie zijn verzameld.  
-
 

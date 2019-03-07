@@ -1,13 +1,13 @@
 ---
 title: Mobiele factuurgoedkeuringen
-description: Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's in Dynamics 365 for Finance and Operations, door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen.
+description: Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's in Dynamics 365 for Finance and Operations door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314389"
 ---
-
 # <a name="mobile-invoice-approvals"></a>Mobiele factuurgoedkeuringen
 
 [!include [banner](../includes/banner.md)]
 
-Met mobiele mogelijkheden in Microsoft Dynamics 365 for Finance and Operations kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
+Met de mobiele mogelijkheden in Microsoft Dynamics 365 for Finance and Operations kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
 
 <a name="prerequisites"></a>Vereisten
 -------------
@@ -37,7 +36,7 @@ Met mobiele mogelijkheden in Microsoft Dynamics 365 for Finance and Operations k
 | Vereiste                                                                                            | Omschrijving                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Vooraf gelezen mobiel handboek                                                                                |[Mobiel platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| Dynamics 365 for Finance en Operations                                                                             | Een omgeving met Microsoft Dynamics 365 for Operations versie 1611 en Microsoft Dynamics 365 for Operations-platform update 3 (november 2016)                   |
+| Dynamics 365 for Finance and Operations                                                                             | Een omgeving met Microsoft Dynamics 365 for Operationsversie 1611 en Microsoft Dynamics for Operations, platform update 3 (november 2016)                   |
 | Installeer hotfix KB 3204341.                                                                              | Taakrecorder kan onterecht twee Sluiten-opdrachten voor vervolgkeuzelijstdialoogvensters registreren. Dit is opgenomen in het Dynamics 365 for Operations-platform update 3 (update van november 2016). |
 | Installeer hotfix KB 3207800.                                                                              | Met deze hotfix kunnen bijlagen worden weergegeven op de mobiele client. Dit is opgenomen in het Dynamics 365 for Operations-platform update 3 (update van november 2016).           |
 | Installeer hotfix KB 3208224.                                                                              | De toepassingscode voor de mobiele toepassing voor leveranciersfactuurgoedkeuring. Dit is opgenomen in de Microsoft Dynamics AX-toepassing 7.0.1 (mei 2016).                          |
@@ -126,7 +125,7 @@ Zorg er als algemene richtlijn voor dat u tijdens het werken met de mobiele ontw
 ### <a name="create-the-workspace"></a>Het werkgebied maken
 
 1.  Open in een browser Finance and Operations en meld u aan.
-2.  Nadat u bent aangemeld, voegt u **& mode=mobile** toe aan de URL, zoals weergegeven in het volgende voorbeeld, en vernieuwt u de pagina: https://&lt;yoururl&gt;/? cmp=usmf&mi=DefaultDashboard **&mode=mobile**
+2.  Nadat u bent aangemeld, voegt u **&mode=mobile** toe aan de URL, zoals weergegeven in het volgende voorbeeld, en vernieuwt u de pagina: https://&lt;yoururl&gt;/? cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Klik op de knop **Instellingen** (tandwiel) in de rechterbovenhoek van de pagina en klik op **Mobiele app**. De ontwerper van de mobiele app moet worden weergegeven meteen wanneer de taakrecorder verschijnt.
 4.  Klik op **Toevoegen** om een nieuw werkgebied te maken. Geef voor dit voorbeeld het werkgebied de naam **Mijn goedkeuringen**.
 5.  Voer een omschrijving in.
@@ -488,7 +487,6 @@ De volgende variaties kunnen worden uitgevoerd voor scenario 1, op basis van de 
     3.  In het ideale geval moeten de verdelingen worden weergegeven in de context van een factuurregel in dit scenario. Zorg er daarom voor dat de gebruiker kan inzoomen op een regel om de pagina Verdelingen te bekijken. Gebruik de paginakoppelingmogelijkheid om het inzoomen in te stellen, net als u voor de koptekst en detailpagina's in scenario 1 hebt gedaan.
 
 2.  Omdat meer dan één bedragtype wordt verwacht voor de verdelingen in scenario 2 (btw, toeslagen, enzovoort), is het nuttig om de omschrijving van het bedragtype weer te geven. (We hebben deze informatie in scenario 1 weggelaten.)
-
 
 
 

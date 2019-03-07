@@ -1,13 +1,13 @@
 ---
 title: Voordat u koopt
-description: Gebruik deze stapsgewijze instructies als u overweegt om Dynamics 365 for Finance and Operations aan te schaffen.
+description: Stapsgewijze instructies om te gebruiken wanneer u het kopen van Dynamics 365 for Finance and Operations overweegt.
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,27 +16,26 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345462"
 ---
-
 # <a name="before-you-buy"></a>Voordat u gaat kopen
 
 [!include [banner](../includes/banner.md)]
 
-Nieuw bij Dynamics 365 for Finance and Operations? We hebben stapsgewijze instructies opgesteld voor als u Finance and Operations nog evalueert of al klaar bent om tot aanschaf over te gaan.
+Onbekend met Dynamics 365 for Finance and Operations? We hebben stapsgewijze instructies opgesteld voor als u Finance and Operations nog evalueert of al klaar bent om tot aanschaf over te gaan.
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Stap één: probeer Finance and Operations gratis 30 dagen uit
 
-U kunt Dynamics 365 for Finance and Operations 30 dagen lang uitproberen via een eenvoudige e-aanmelding. De evaluatieversie van Finance and Operations bevat de taakhandleiding Aan de slag met stapsgewijze instructies waarmee u specifieke scenario's in actie kunt weergeven. Het product is beschikbaar voor het verkennen en uitvoeren van scenario's, maar kan niet worden aangepast. Demonstratiegegevens zijn opgenomen om het gebruik van het product te vereenvoudigen en de ervaring duidelijker te maken. Per e-mail ontvangt u 3 dagen vóór de afloop van de evaluatie een herinnering. Meer informatie vindt u op [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+U kunt Dynamics 365 for Finance and Operations 30 dagen uitproberen via een eenvoudige e-mailaanmelding. De evaluatieversie van Finance and Operations bevat de taakhandleiding Aan de slag met stapsgewijze instructies waarmee u specifieke scenario's in actie kunt weergeven. Het product is beschikbaar voor het verkennen en uitvoeren van scenario's, maar kan niet worden aangepast. Demonstratiegegevens zijn opgenomen om het gebruik van het product te vereenvoudigen en de ervaring duidelijker te maken. Per e-mail ontvangt u 3 dagen vóór de afloop van de evaluatie een herinnering. Meer informatie vindt u op [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Stap twee: Kies een optie voor implementatie
 
-U kunt nu Microsoft Dynamics 365 for Finance and Operations in de cloud of on-premises implementeren. Cloudimplementaties omvatten een ERP-service die volledig wordt beheerd door Microsoft, terwijl implementaties on-premises lokaal zijn geïmplementeerd in datacenter van een klant.
+U kunt nu Microsoft Dynamics 365 for Finance and Operations implementeren in de cloud of on-premises. Cloudimplementaties omvatten een ERP-service die volledig wordt beheerd door Microsoft, terwijl implementaties on-premises lokaal zijn geïmplementeerd in datacenter van een klant.
 
 De volgende overwegingen moeten in acht worden genomen wanneer u on-premises kiest als implementatieoptie:
 
@@ -46,7 +45,7 @@ De volgende overwegingen moeten in acht worden genomen wanneer u on-premises kie
 - [Minimale vereisten voor de infrastructuur](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> On-premises implementaties van Microsoft Dynamics 365 for Finance and Operations worden niet ondersteund in openbare cloudinfrastructuren, inclusief Azure.
+> On-premises implementaties van Microsoft Dynamics 365 for Finance and Operations worden niet ondersteund op een openbare cloud-infrastructuur, met inbegrip van Azure.
 
 Zie [Implementatieopties](../../dev-itpro/deployment/choose-deployment-type.md) voor meer informatie.
 
@@ -54,7 +53,7 @@ Zie [Implementatieopties](../../dev-itpro/deployment/choose-deployment-type.md) 
 
 Als u de abonnementsopties wilt bekijken, gaat u naar de [Dynamics 365](https://www.microsoft.com/dynamics365/pricing)-pagina met prijzen. Deze pagina bevat diverse regelingen die passen bij de behoeften van uw organisatie.
 
-Er bestaan veel manieren om een abonnement te kopen op Microsoft Dynamics 365 for Finance and Operations:
+Er zijn tal van manieren voor het kopen van een abonnement op Dynamics 365 for Finance and Operations:
 
 - Kopen via een partner en volumelicenties gebruiken (cloud of on-premises)
 - Kopen via een provider van cloudoplossingen (alleen cloud)
@@ -79,7 +78,7 @@ Een Microsoft Cloud Solution Provider werkt nauw met u samen om de behoeften van
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Kopen via een Dynamics-partner (on-premises)
 
-Werk samen met een partner om Finance and Operations on-premises aan te schaffen. Zie voor meer informatie [Dynamics 365 for Finance and Operations (on-premises) aanschaffen](purchase-on-premises.md)
+Werk samen met een partner om Finance and Operations on-premises aan te schaffen. Voor meer informatie, zie [Kopen van Dynamics 365 for Finance and Operations (on-premises)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Kies uw ondersteuningsoptie
 
@@ -96,5 +95,4 @@ Microsoft FastTrack for Dynamics 365 is onze succesvolle klantenservice die is b
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Als u een upgrade uitvoert van Dynamics AX 2012 of migreert van AX 2009
 
-Als u een upgrade uitvoert van Microsoft Dynamics AX 2012 of migreert van Microsoft Dynamics AX 2009, is het mogelijk dat u in aanmerking voor een langere evaluatieperiode. Neem contact op <daxcf@microsoft.com> voor meer informatie.
-
+Als u een upgrade uitvoert van Microsoft Dynamics AX 2012 of migreert van Microsoft Dynamics AX 2009, is het mogelijk dat u in aanmerking komt voor een langere evaluatieperiode. Neem contact op <daxcf@microsoft.com> voor meer informatie.

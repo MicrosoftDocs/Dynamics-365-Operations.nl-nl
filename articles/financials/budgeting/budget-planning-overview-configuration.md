@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329914"
 ---
-
 # <a name="budget-planning-overview"></a>Overzicht budgetplanning
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,7 @@ U kunt budgetplanning gebruiken om de volgende taken uit te voeren:
 -   De budgetplannen automatisch doorsturen samen met werkbladen, verantwoordingsdocumenten en andere bijlagen voor beoordeling en goedkeuring.
 -   Meerdere budgetplannen van een lager niveau van de organisatie samenvoegen in één bovenliggend budgetplan op een hoger niveau van de organisatie. U kunt ook een enkel budgetplan ontwikkelen op een hoger niveau in de organisatie en de budgetten toewijzen aan lagere niveaus van de organisatie.
 
-Budgetplanning wordt geïntegreerd met andere Microsoft Dynamics 365 for Finance and Operations-modules. Zo kunt u informatie van vorige budgetten, werkelijke uitgaven, vaste activa en Human Resources gebruiken. Omdat budgetplanning ook is geïntegreerd met Microsoft Excel en Microsoft Word, kunt u deze programma's gebruiken om met budgetplanningsgegevens te werken. Een budgetbeheerder kan bijvoorbeeld de budgetaanvraag van een afdeling importeren vanuit een budgetplanscenario in een Excel-werkblad. De gegevens kunnen worden geanalyseerd, bijgewerkt en uitgezet in het werkblad en vervolgens terug naar de budgetplanregels worden gepubliceerd.
+Budgetplanning is geïntegreerd met andere Microsoft Dynamics 365 for Finance and Operations-modules. Zo kunt u informatie van vorige budgetten, werkelijke uitgaven, vaste activa en Human Resources gebruiken. Omdat budgetplanning ook geïntegreerd is in Microsoft Excel en Microsoft Word kunt u deze programma's gebruiken om de budgetplanningsgegevens te gebruiken. Een budgetbeheerder kan bijvoorbeeld de budgetaanvraag van een afdeling importeren vanuit een budgetplanscenario in een Excel-werkblad. De gegevens kunnen worden geanalyseerd, bijgewerkt en uitgezet in het werkblad en vervolgens terug naar de budgetplanregels worden gepubliceerd.
 
 ## <a name="configuring-budget-planning"></a>Budgetplanning configureren
 De pagina **Budgetplanningsconfiguratie** bevat de meeste instellingen die u nodig hebt om budgetplanning in te stellen. In de volgende secties wordt een aantal belangrijke factoren beschreven waarmee u rekening dient te houden wanneer u budgetplanning configureert. Nadat u de configuratie hebt voltooid, stelt u budgetplanningsprocessen in.
@@ -188,7 +187,6 @@ In het menu **Acties** kunt u ook een nieuw proces maken door een bestaand proce
 Een andere nuttige opdracht in het menu **Acties** is **Budgetprocesstatus weergeven**. Met deze opdracht worden de budgetplannen in een proces grafisch weergegeven, samen met relevante gegevens, zoals de workflowstatus van de plannen, overzichten per bedrag en per eenheid en navigatie naar de budgetplannen zelf via één keer klikken.
 
 [![Status van budgetplanningproces](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
 
 
 

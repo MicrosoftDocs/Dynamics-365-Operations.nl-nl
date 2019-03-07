@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: db6d04a64821b3b02679056f787092dc40ef4423
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344197"
 ---
-
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO met fysieke waarde en markering
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,7 @@ De nieuwe lopende gemiddelde kostprijs weerspiegelt het gemiddelde van de financ
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unit-prijs.
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@Eenheidsprijs.
 - Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
@@ -98,7 +97,7 @@ In de volgende afbeelding worden de effecten van het LIFO-voorraadmodel voor dez
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unit-prijs.
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@Eenheidsprijs.
 - Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
@@ -140,14 +139,13 @@ In het volgende afbeelding worden de effecten van het LIFO-voorraadmodel op deze
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unit-prijs.
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@Eenheidsprijs.
 - Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
 - Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 - Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
 - Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
-
 
 
 

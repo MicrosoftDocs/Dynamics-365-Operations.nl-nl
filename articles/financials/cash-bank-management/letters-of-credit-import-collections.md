@@ -1,13 +1,13 @@
 ---
-title: "Kredietbrieven en importincasso´s"
+title: Kredietbrieven en importincasso´s
 description: Dit artikel geeft algemene informatie over kredietbrieven en importincasso's. Beide typen bankdocumenten worden vaak gebruikt voor de inkoop en verkoop van goederen in binnen- en buitenland.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323037"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>Kredietbrieven en importincasso´s
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Een kredietbrief kan **herroepelijk** of **onherroepelijk** zijn. De aard van ee
 Een importincasso is een overeenkomst tussen de bank en de exporteur (verkoper) waarin de bank akkoord gaat om de verzendingsdocumentatie aan de internationale importeur (koper) te leveren. Van de bank wordt verwacht dat ze de verzendingsdocumentatie levert na ontvangst van betaling voor de verzonden goederen in contant geld of bij ontvangst van een ondertekend concept van betaling. 
 
 Een importincasso helpt te waarborgen dat de verkoper wordt betaald wanneer de koper de verzendingsdocumenten ophaalt om de levering van de geïmporteerde goederen in ontvangst te nemen.
-
 
 
 

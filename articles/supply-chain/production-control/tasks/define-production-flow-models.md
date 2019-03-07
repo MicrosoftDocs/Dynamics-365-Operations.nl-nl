@@ -1,13 +1,13 @@
---- 
-title: "Modellen voor productiestroom definiëren"
+---
+title: Modellen voor productiestroom definiëren
 description: De modellen voor productiestromen beschrijven hoe de capaciteit van werkcellen voor lean manufacturing wordt berekend en onderhouden.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336722"
 ---
 # <a name="define-production-flow-models"></a>Modellen voor productiestroom definiëren
 
@@ -45,5 +45,4 @@ De modellen voor productiestromen beschrijven hoe de capaciteit van werkcellen v
     * De time fence voor de planning beschrijft het aantal dagen waarin de capaciteitsreserveringen voor de gerelateerde werkcellen kunnen worden gemaakt. Voer in Time fence voor de planning het aantal dagen in.   De taken van het kanbanproces die buiten deze periode vallen, worden niet gepland met automatische planning. De time fence voor planning is gewoonlijk tweemaal de gemiddelde voorraadlevertijd van de producten die in een productiestroom of werkcel worden geproduceerd. De EPE-cyclus mag niet meer dan de helft van de time fence voor planning zijn.     
 8. Selecteer een optie in het veld Reactie bij capaciteitstekort.
     * De opties zijn: Uitstellen - Stel de volledige vraag van de planningsgebeurtenis uit naar de volgende beschikbare productiedag, met beschikbare doorvoer. Annuleren - Beëindig de automatische planning voor de planningsgebeurtenis en laat de verwante taken ongepland.   Toevoegen aan de aangevraagde dag - Plan de aangevraagde taken voor de opgegeven periode. Hierdoor wordt de cel voor deze dag overbelast en moet de planner dit controleren en een handmatige interactie ondernemen.   Verdelen naar beschikbare perioden - Verdeel de verschillende taken van de planningsgebeurtenis over alle beschikbare productiedagen en begin met de eerste beschikbare dag. De minimale distributiehoeveelheid is de kanbantaakhoeveelheid. De verdeling wijst de minimale planningshoeveelheid (kanbanhoeveelheid) toe aan elke dag met voldoende beschikbare doorvoer.  
-
 

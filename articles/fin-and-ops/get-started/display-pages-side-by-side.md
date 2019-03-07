@@ -1,13 +1,13 @@
 ---
 title: Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
-description: In dit artikel wordt uitgelegd hoe u pagina's naast elkaar weergeeft in Microsoft Dynamics 365 for Finance and Operations.
+description: In dit artikel wordt uitgelegd hoe u pagina's naast elkaar kunt weergeven Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 09/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df9b091735a4971446c5b5d0e054076260040683
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 8e3ef29618f11b0f247999e3a24e54bff44bf51a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330167"
 ---
-
 # <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt uitgelegd hoe u pagina's naast elkaar weergeeft in Microsoft Dynamics 365 for Finance and Operations.
+In dit artikel wordt uitgelegd hoe u pagina's naast elkaar kunt weergeven Microsoft Dynamics 365 for Finance and Operations.
 
-Microsoft Dynamics 365 for Finance and Operations helpt u om taken efficiënt uit te voeren. In sommige gevallen kunt u meerdere pagina's naast elkaar bekijken om taken snel te voltooien. Als voorbeeld kunt u regels in meer dan één journaal bijvoorbeeld valideren of invoeren. Doorgaans, om dit te doen moet u vooruit en terug gaan naar de pagina die een lijst met journalen weergeeft, en de pagina die regels voor een bepaald journaal weergeeft. Echter, met de functie **Openen in nieuw venster** kunt u deze pagina's naast elkaar weergeven zodat u snel uw taken kunt uitvoeren.
+Met Microsoft Dynamics 365 for Finance and Operations kunt u efficiënt taken uitvoeren. In sommige gevallen kunt u meerdere pagina's naast elkaar bekijken om taken snel te voltooien. Als voorbeeld kunt u regels in meer dan één journaal bijvoorbeeld valideren of invoeren. Doorgaans, om dit te doen moet u vooruit en terug gaan naar de pagina die een lijst met journalen weergeeft, en de pagina die regels voor een bepaald journaal weergeeft. Echter, met de functie **Openen in nieuw venster** kunt u deze pagina's naast elkaar weergeven zodat u snel uw taken kunt uitvoeren.
 
 Om door te gaan met het bovenstaande voorbeeld, klikt u tijdens het weergeven van de regels op het pictogram **Openen in nieuw venster**.
 
@@ -50,4 +49,3 @@ Voordat u de functie **Openen in nieuw venster** kunt gebruiken, moet u de pop-u
 De functie **Openen in nieuw venster** is alleen beschikbaar wanneer er meer dan een pagina is geopend in het venster. Het pop-upvenster wordt ook automatisch gesloten wanneer er geen pagina's meer open zijn (dat wil zeggen wanneer de laatste pagina in dat venster wordt gesloten). Finance and Operations sluit ook open pagina´s wanneer u navigeert naar een ander gedeelte in de toepassing. Als u dus open pop-upvensters hebt en naar een ander gedeelte in de toepassing navigeert, worden de pop-upvensters automatisch afgesloten omdat de pagina's in die venster door het systeem werden gesloten.
 
 De bovenste balk in de pop-upvensters tonen informatie over het bedrijf waarin de pagina is geopend en is alleen-lezen. De pop-upvensters zijn ook afhankelijk van het Finance and Operations-browservenster. Als het hoofdvenster wordt gesloten of vernieuwd, worden alle openstaande pop-upvensters alleen-lezen. Dit betekent dat u de informatie in deze vensters kunt nog steeds kunt bekijken, maar er is geen interactie mogelijk.
-

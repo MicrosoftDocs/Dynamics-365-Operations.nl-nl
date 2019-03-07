@@ -1,13 +1,13 @@
 ---
 title: Vooruitbetalingsfacturen versus vooruitbetalingen
-description: "In dit onderwerp worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen). Bij één methode kunt u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Bij de andere methode kunt u journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren."
+description: In dit onderwerp worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen). Bij één methode kunt u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Bij de andere methode kunt u journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c81045b72d15f4474d82040d7725740cff5eba91
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310134"
 ---
-
 # <a name="prepayment-invoices-vs-prepayments"></a>Vooruitbetalingsfacturen versus vooruitbetalingen
 
 [!include [banner](../includes/banner.md)]
@@ -39,20 +38,20 @@ Organisaties kunnen aanbetalingen (vooruitbetalingen) verzenden naar leverancier
 | Vooruitbetalingsfacturering                                                                | Vooruitbetalingen                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Definieer een vooruitbetalingswaarde op de inkooporder.                                    | Er is geen vooruitbetalingswaarde op de inkooporder gedefinieerd.                    |
-| Belangrijk: Een vooruitbetalingsfactuur en een definitieve factuur moeten worden geboekt.                       | Er moet geen vooruitbetalingsfactuur worden geboekt.                                    |
+| Belangrijk: Een vooruitbetalingsfactuur en een definitieve factuur moeten worden geboekt.                       | Er moet geen vooruitbetalingsfactuur worden geboekt.                                    |
 | Aansprakelijkheid voor de vooruitbetaling maakt deel uit van de vooruitbetalingsrekening, niet de leveranciersrekening. | Aansprakelijkheid voor de vooruitbetaling maakt deel uit van de leveranciersrekening.                  |
 | Het leverancierssaldo weerspiegelt niet de vooruitbetalingswaarde in het hele proces.     | Het leverancierssaldo weerspiegelt de vooruitbetalingswaarde in het hele proces. |
 | Vooruitbetalingsfacturering is alleen beschikbaar in Leveranciers.                         | Vooruitbetalingen zijn beschikbaar in Klanten en Leveranciers.    |
 
 ## <a name="overview-of-the-prepayment-process"></a>Overzicht van het vooruitbetalingsproces
-Bij de boekhouding in veel landen/regio's is het vereist dat vooruitbetalingen van een klant of aan een leverancier niet naar de gewone totaalrekeningen voor de klant of de leverancier worden geboekt. In plaats daarvan worden deze vooruitbetalingen geboekt naar speciale grootboekrekeningen voor vooruitbetalingen. Wanneer een verkooporder of inkooporder wordt gemaakt, wordt een factuur naar de klant of van de leverancier gestuurd. Wanneer de factuur wordt betaald, wordt het vooruitbetalingsboekstuk voor de vooruitbetaling en btw op de vooruitbetalingsgrootboekrekeningen omgekeerd, en de factuurbedragen worden automatisch naar de gewone totaalrekeningen geboekt. Volg deze stappen om een vooruitbetaling te maken.
+Bij de boekhouding in veel landen/regio´s is het vereist dat vooruitbetalingen van een klant of aan een leverancier niet naar de gewone totaalrekeningen voor de klant of de leverancier worden geboekt. In plaats daarvan worden deze vooruitbetalingen geboekt naar speciale grootboekrekeningen voor vooruitbetalingen. Wanneer een verkooporder of inkooporder wordt gemaakt, wordt een factuur naar de klant of van de leverancier gestuurd. Wanneer de factuur wordt betaald, wordt het vooruitbetalingsboekstuk voor de vooruitbetaling en btw op de vooruitbetalingsgrootboekrekeningen omgekeerd, en de factuurbedragen worden automatisch naar de gewone totaalrekeningen geboekt. Volg deze stappen om een vooruitbetaling te maken.
 
 1.  Stel boekingsprofielen voor vooruitbetalingen in.
 2.  Selecteer in Parameters van module Klanten en Parameters van module Leveranciers onder **Grootboek en btw** het nieuwe boekingsprofiel door de parameter **Boekingsprofiel voor betalingsjournaal met vooruitbetaling** te gebruiken.
-3.  Maak een betalingsjournaal, en vervolgens de nieuwe betaling.
-4.  U kunt de betaling als vooruitbetaling markeren. Als een betaling als vooruitbetaling wordt gemarkeerd, wordt de betaling geboekt naar de grootboekrekeningen die zijn gedefinieerd in het boekingsprofiel dat u in stap 1 en 2 hebt ingesteld. Bovendien, als de betaling als vooruitbetaling wordt gemarkeerd, wordt de btw berekend. Sommige overheidsinstellingen vereisen dat de btw wordt betaald wanneer een vooruitbetaling wordt geregistreerd, zelfs als er geen factuur is.
+3.  Maak een betalingsjournaal, en vervolgens de nieuwe betaling.
+4.  U kunt de betaling als vooruitbetaling markeren. Als een betaling als vooruitbetaling wordt gemarkeerd, wordt de betaling geboekt naar de grootboekrekeningen die zijn gedefinieerd in het boekingsprofiel dat u in stap 1 en 2 hebt ingesteld. Bovendien, als de betaling als vooruitbetaling wordt gemarkeerd, wordt de btw berekend. Sommige overheidsinstellingen vereisen dat de btw wordt betaald wanneer een vooruitbetaling wordt geregistreerd, zelfs als er geen factuur is.
 5.  Boek de vooruitbetaling.
-6.  Optioneel: U kunt de vooruitbetaling vereffenen met de inkooporder of verkooporder voordat u de factuur maakt. Gebruik op de verkooporder- of inkooporderpagina in het actievenster **Transacties vereffenen**.
+6.  Optioneel: u kunt de vooruitbetaling vereffenen met de inkooporder of verkooporder voordat u de factuur maakt. Gebruik op de verkooporder- of inkooporderpagina in het actievenster **Transacties vereffenen**.
 7.  Nadat de leverancier de goederen of services heeft geleverd, registreert u de factuur. Als u de vooruitbetaling voor de inkooporder of de verkooporder in stap 6 hebt vereffend, wordt de vooruitbetaling automatisch vereffend voor de factuur die u hebt gemaakt. Als u de vooruitbetaling niet voor de inkooporder of de verkooporder hebt vereffend, kunt u deze handmatig vereffenen voor de factuur door **Transacties vereffenen** op de klant- of leverancierspagina te gebruiken. Het vooruitbetalingsbedrag wordt vervolgens teruggeboekt uit de tijdelijke klant- of leveranciersgrootboekrekening. Bovendien, als btw is berekend, wordt deze teruggeboekt, omdat de factuur de werkelijke btw heeft.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Overzicht van het vooruitbetalingsfactureringsproces
@@ -63,7 +62,6 @@ Vooruitbetalingsfacturen worden veel in het bedrijfsleven gebruikt. Een leveranc
 3.  De leverancierscoördinator registreert de vooruitbetalingsfactuur tegen de inkooporder en vervolgens wordt de vooruitbetalingsfactuur betaald.
 4.  Nadat de leverancier de goederen of services heeft geleverd en de bijbehorende leveranciersfacturen zijn ontvangen, past de leverancierscoördinator het vooruitbetalingsbedrag toe dat al is betaald voor de factuur.
 5.  De leverancierscoördinator betaalt en vereffent het resterende bedrag van de factuur.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Standaardorderinstellingen voor dimensies en productvarianten
-description: "Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte."
+description: Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemOrderSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326372"
 ---
-
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Standaard orderinstellingen voor dimensies en productvarianten
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Met standaardorderinstellingen in Microsoft Dynamics 365 for Finance and Operations worden de locatie en het magazijn gedefinieerd waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag en de methode voor orderbelofte. Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, transferorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders. Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.
+Standaardorderinstellingen in Microsoft Dynamics 365 for Finance and Operations definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte. Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, transferorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders. Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.
 
 U definieert de standaardinstellingen voor orders op de pagina **Standaard orderinstellingen**. U opent deze pagina als volgt: ga naar **Productgegevensbeheer** &gt; **Producten** &gt; **Vrijgegeven producten** &gt; **selecteer een vrijgegeven product** &gt; in het actievenster **Plannen** of **Voorraadbeheer** &gt; **Orderinstellingen** &gt; **Standaard orderinstellingen**.
 
@@ -170,7 +169,6 @@ Als het systeem van regels voor de standaardorderinstellingen te omslachtig word
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 De rang is in dit geval niet echt van belang, en u kunt ervoor kiezen om dit te verbergen. Deze oplossing brengt mogelijk problemen op gebied van onderhoud met zich mee. Het kan echter zinvol zijn om deze configuratie te overwegen, als u bijvoorbeeld ook een integratie met systemen voor productlevenscyclusbeheer als optie ziet.
-
 
 
 

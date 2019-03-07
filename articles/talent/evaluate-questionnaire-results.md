@@ -5,9 +5,9 @@ author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 9fd4af5589cfab2a92c913639f1192029eb7c592
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303957"
 ---
-
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>De resultaten van vragenlijsten bekijken en evalueren
 
 [!include [banner](includes/banner.md)]
@@ -46,7 +45,7 @@ U kunt ook verschillende rapporten genereren om resultaten gesorteerd op persoon
 -   Feedback-analyse
 
 ## <a name="answer-session-results"></a>Antwoordsessieresultaten
-Nadat de respondenten een vragenlijst hebben ingevuld, kunt u de resultaten van de voltooide antwoordsessies bekijken. Een antwoordsessie is de reactie van een gebruiker op een vragenlijst. U kunt details over voltooide antwoordsessies bekijken op de pagina **Antwoorden**. De antwoordsessies die op de pagina **Antwoorden** zijn opgenomen worden gefilterd op diverse manieren, afhankelijk van hoe u de pagina opent:
+Nadat de respondenten een vragenlijst hebben ingevuld, kunt u de resultaten van de voltooide antwoordsessies bekijken. Een antwoordsessie is de reactie van een gebruiker op een vragenlijst. U kunt details over voltooide antwoordsessies bekijken op de pagina **Antwoorden**. De antwoordsessies die op de pagina **Antwoorden** zijn opgenomen worden gefilterd op diverse manieren, afhankelijk van hoe u de pagina opent:
 
 -   Alle vragenlijsten
 -   Een specifieke vragenlijst
@@ -54,9 +53,9 @@ Nadat de respondenten een vragenlijst hebben ingevuld, kunt u de resultaten van 
 
 Via de pagina **Antwoorden** kunt u details bekijken over antwoorden, verdiende punten, antwoorden van een respondent in elke resultaatgroep en de vraaghiërarchie die voor de geselecteerde vragenlijst werd gebruikt, indien een vraaghiërarchie werd gebruikt. U kunt ook de volgende rapporten genereren en afdrukken:
 
--   **Resultatenrapport** - Dit rapport geeft een grafische weergave van de punten die per resultaatgroep voor de geselecteerde antwoordsessie zijn behaald.
+-   **Resultatenrapport** - Dit rapport geeft een grafische weergave van de punten die per resultaatgroep voor de geselecteerde antwoordsessie zijn behaald.
 -   **Antwoordrapport** - Dit rapport geeft de antwoorden die de respondent voor elke vraag in de vragenlijst heeft geselecteerd.
--   **Incorrecte antwoorden** – Dit rapport geeft informatie over de onjuiste antwoorden die de respondent heeft geselecteerd.
+-   **Incorrecte antwoorden** – Dit rapport geeft informatie over de onjuiste antwoorden die de respondent heeft geselecteerd.
 
 **Opmerking:** het rapport **Resultaten** is alleen beschikbaar als u resultatengroepen op de vragenlijst gebruikt en u **Vragenlijsten** hebt geselecteerd op de pagina **Vragenlijsten**. Het rapport **Antwoord** en het rapport **Incorrecte antwoorden** zijn alleen beschikbaar als u **Antwoordrapport** hebt geselecteerd op de pagina **Vragenlijsten**.
 
@@ -81,5 +80,4 @@ De instellingen die u definieert, worden opgeslagen en kunnen worden gebruikt om
 [Vragenlijsten gebruiken](questionnaires.md)
 
 [Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)
-
 

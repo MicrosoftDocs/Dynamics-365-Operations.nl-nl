@@ -1,13 +1,13 @@
---- 
+---
 title: Een btw-betaling maken
 description: De taak Btw vereffenen en boeken vereffent btw-saldi op de btw-rekeningen en tegenboekt ze naar de btw-vereffeningsrekening voor een bepaalde periode.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b0d72c88d6ba851e96ca07b896630549690e9396
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6ee84da7fd055c8b0b50c43f134c0fc048ecfaeb
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321749"
 ---
 # <a name="create-a-sales-tax-payment"></a>Een btw-betaling maken
 
@@ -36,5 +36,4 @@ De taak Btw vereffenen en boeken vereffent btw-saldi op de btw-rekeningen en teg
     * Als de optie Correcties opnemen niet op de pagina Grootboekparameters is geselecteerd, kan de vereffening voor verschillende versies worden verwerkt. Oorspronkelijk is de eerste vereffening voor een periode-interval en kan slechts eenmaal worden verwerkt voor een periode-interval. Laatste correcties vereffenen btw-transacties die zijn geboekt nadat de oorspronkelijke versie is gemaakt.   
 5. Voer in het veld Transactiedatum een datum in.
 6. Klik op OK.
-
 

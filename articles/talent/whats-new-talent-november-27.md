@@ -5,25 +5,25 @@ author: Darinkramer
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-27
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
 ms.openlocfilehash: 6bd049bfe4639136276ab2f14e6310e45d1254f2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303849"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-27-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (27 november 2018)
 
@@ -64,4 +64,3 @@ Met deze update worden ontslagen werknemers die opnieuw worden aangenomen slecht
 
 - **Probleem**: bij het toevoegen van een nieuwe bijlage aan een werknemer zijn de knoppen **Nieuw** en **Bewerken** niet beschikbaar. 
 - **Tijdelijke oplossing:** voordat u de bijlagepagina opent, controleert u of de feitenvakken op de pagina **Werknemer** zijn gesloten. Als de feitenvakken worden gesloten wanneer de pagina **Werknemer** wordt geladen, worden de bijlageknoppen ingeschakeld. (Dit probleem wordt opgelost in de volgende platformupdate.)
-

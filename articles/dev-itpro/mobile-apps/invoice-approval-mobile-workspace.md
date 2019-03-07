@@ -5,9 +5,9 @@ author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: ff726670e0fd7566a74e6def73555a7c53b86f97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326993"
 ---
-
 # <a name="invoice-approvals-mobile-workspace"></a>Mobiel werkgebied Goedkeuring van facturen
 
 [!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Goedkeuring van facturen**. Dit werkgebied geeft een lijst met facturen die aan u zijn toegewezen via het workflowproces voor de koptekst van de leveranciersfactuur. 
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations.
+Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Overzicht
 
@@ -49,7 +48,7 @@ Voordat u dit mobiele werkgebied kunt gebruiken, moet aan de volgende voorwaarde
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations moet zijn geïmplementeerd in uw organisatie.</td>
+<td>Microsoft Dynamics 365 for Finance and Operations moet worden geïmplementeerd in uw organisatie.</td>
 <td>Systeembeheerder</td>
 <td>Zie <a href="../deployment/deploy-demo-environment.md">Een demo-omgeving implementeren</a>
 </td>
@@ -72,7 +71,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 ## <a name="sign-in-to-the-mobile-app"></a>Aanmelden bij de mobiele app
 
 1.  Start de app op uw mobiele apparaat.
-2.  Voer uw Microsoft Dynamics 365-URL in.
+2.  Voer uw URL voor Microsoft Dynamics365 in.
 3.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
@@ -88,4 +87,3 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 7.  Selecteer **Bijlagen** om eventuele notities of bestanden weer te geven, die zijn gekoppeld aan de factuur.
 8.  Selecteer op de pagina **Factuurdetails** de juiste workflowactie uit om uw beoordelingsproces te voltooien.
 9.  Selecteer **Gereed**.
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Streepjescodetypen onderhouden
 description: Deze procedure toont hoe u een nieuwe definitie van streepjescodes instelt die u vervolgens kunt gebruiken als onderdeel van het rapport van orderverzamellijst.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BarcodeSetup, InventParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a0d7092228f078f528ec1cb9ac56d7034c44bccf
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349694"
 ---
 # <a name="maintain-barcode-types"></a>Streepjescodetypen onderhouden
 
@@ -45,5 +45,4 @@ Deze procedure toont hoe u een nieuwe definitie van streepjescodes instelt die u
     * Selecteer de instelling van streepjescodes die u eerder hebt gemaakt, maar houd er rekening mee dat de indeling van streepjescodes moet overeenkomen met de indeling van de unieke identificatie van het registratietype die in het proces wordt gebruikt. Voor orderverzamelroutes moet de indeling van streepjescodes bijvoorbeeld overeenkomen met de indeling van de verwijzing van de orderverzamelroute, die meestal een nummerreeks is.  
 12. Klik op Opslaan.
 13. Sluit de pagina.
-
 

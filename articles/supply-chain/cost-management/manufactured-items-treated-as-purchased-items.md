@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a910b5782c8f15cfdd4cf93ea883bc28a5ce8e1a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5ed8c93c13746249605ad8742549c23bb1e0e10
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "338447"
 ---
-
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Producten instellen die kunnen worden geproduceerd of kunnen worden aangeschaft
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,6 @@ Multi-sourcing wordt meestal gebruikt voor een ingekocht artikel dat soms wordt 
 Wanneer u standaardkosten gebruikt, kan de kostprijsrecord voor het gefabriceerde artikel worden berekend. De kostprijsrecord komt echter mogelijk niet overeen met de gewenste standaardkosten voor inkoopdoeleinden. In dat geval moeten de standaardkosten handmatig voor de artikelkostprijsrecord worden ingevoerd en geactiveerd. Overweeg voor de kostenberekening het gebruik van een speciale stuklijst en route die de leveringsmix van het product in de loop van een boekperiode vertegenwoordigen, om de afwijkingen in de loop der tijd te minimaliseren. Bovendien kan een artikel dat op de ene site wordt gefabriceerd, naar een andere worden overgebracht. Dat betekent dat de kosten van het artikel handmatig moeten worden ingevoerd en geactiveerd voor de site waarnaar het artikel wordt overgebracht. Als u een gefabriceerd artikel gebruikt als onderdeel van een product op hoger niveau, moeten de kosten van dat onderdeel worden behandeld als een ingekocht product. Deze richtlijn geldt, ongeacht of de kosten van het onderdeel zijn berekend of handmatig ingevoerd. Dat wil zeggen dat bij een stuklijstberekening de artikelkosten moeten worden behandeld als een ingekocht onderdeel in plaats van de stuklijst- en routegegevens van het artikel te gebruiken om kosten te berekenen. 
 
 U kunt voorkomen dat deze berekening wordt uitgevoerd door de markering **Explosie stoppen** in te schakelen die is ingesloten in de stuklijstberekeningsgroep die aan het artikel is toegewezen. U kunt explosievereisten buiten hoofdplanningsberekeningen via het artikel voorkomen door de time fence van explosie op 0 (nul) dagen in te stellen in artikelbehoefteplanning of in de dekkingsgroep. Bij de hoofdplanningsberekening wordt het artikel dan behandeld als ingekocht artikel en worden er geen verdere berekeningen uitgevoerd voor de stuklijst- en routegegevens van het artikel.
-
 
 
 

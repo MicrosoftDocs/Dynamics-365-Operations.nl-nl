@@ -5,10 +5,10 @@ author: rschloma
 manager: AnnBe
 ms.date: 04/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303877"
 ---
-
 # <a name="access-preview-features-in-talent"></a>Toegang tot voorbeeldfuncties in Talent
 
 [!include[banner](../includes/banner.md)]
@@ -36,16 +35,16 @@ In dit onderwerp wordt beschreven hoe een beheerder voorbeeldfuncties kan inscha
 
 ## <a name="enable-or-disable-preview-features"></a>Voorbeeldfuncties in- of uitschakelen
 
-U kunt de instelling **Voorbeeldfuncties** in Microsoft Dynamics 365 voor Talent-beheercentrum gebruiken om voorbeeldfuncties in en uit te schakelen. De instelling is standaard uitgeschakeld. De actie om voorbeeldfuncties in of uit te schakelen is specifiek voor de omgeving.
+U kunt de instelling **Voorbeeldfuncties** in het Microsoft Dynamics 365 for Talent-beheercentrum gebruiken om voorbeeldfuncties in en uit te schakelen. De instelling is standaard uitgeschakeld. De actie om voorbeeldfuncties in of uit te schakelen is specifiek voor de omgeving.
 
 > [!IMPORTANT]
 > Als u de instelling **Voorbeeldfuncties** inschakelt, kunt u voorbeeldfuncties inschakelen voor alle gebruikers in uw organisatie die zich in die omgeving bevinden. Als u de instelling uitschakelt, schakelt u de voorbeeldfuncties uit en zijn ze niet toegankelijk voor uw gebruikers. Voorbeeldfuncties hebben beperkte ondersteuning in Talent. Ze hebben mogelijk minder privacy- en beveiligingsmaatregelen en zijn niet opgenomen in de serviceovereenkomst voor Talent. U moet de voorbeeldfuncties niet gebruiken voor de verwerking van persoonsgegevens (dat wil zeggen informatie die uw identiteit aangeeft) of andere gegevens die onderworpen zijn aan wettelijke of bestuursrechtelijke conformiteitsvereisten.
 
 ### <a name="enable-or-disable-preview-features-for-your-organization"></a>Voorbeeldfuncties voor uw organisatie in- of uitschakelen
 
-#### <a name="attract"></a>Attract
+#### <a name="attract"></a>Aantrekken
 
-1. Meld u aan bij Microsoft Dynamics 365 for Talent: Attract.
+1. Aanmelden bij Microsoft Dynamics 365 for Talent: Attract.
 2. Selecteer in het menu **Instellen** (het tandwielsymbool) in de rechterbovenhoek **Beheerinstellingen**.
 3. Selecteer op het tabblad **Functiebeheer** de optie naast **Voorbeeldfuncties** zodat deze blauw wordt.
 4. Desgewenst kunt u afzonderlijke functies beheren door specifieke functies in of uit te schakelen op deze pagina.
@@ -92,4 +91,3 @@ Vermeld geen persoonlijke gegevens (gegevens die uw identiteit vrijgeven) als u 
 
 > [!TIP]
 > Maak een bladwijzer van dit onderwerp en controleer het regelmatig om op de hoogte te blijven van nieuwe voorbeeldfuncties die door ons worden uitgegeven.
-

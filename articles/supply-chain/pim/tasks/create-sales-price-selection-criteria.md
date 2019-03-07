@@ -1,13 +1,13 @@
---- 
+---
 title: Selectiecriteria voor verkoopprijs maken
 description: Deze procedure laat zien hoe u een selectiecriterium voor de verkoopprijs maakt voor op kenmerk gebaseerde verkoopprijsmodellen.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelSelectionCriteria, SysQueryForm, SysQueryTableLookUp, SysQueryFieldLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1ce4388cc4bea8314e131690409ad181c9174bcc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 59f6a4131f6a27c0089a1259e3f849f91a47bc87
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336055"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Selectiecriteria voor verkoopprijs maken
 
@@ -53,5 +53,4 @@ Deze procedure laat zien hoe u een selectiecriterium voor de verkoopprijs maakt 
     * In dit voorbeeld wordt een specifieke klantengroep voor de selectiecriteria gebruikt.  
 4. Selecteer Klantengroep 10 in het veld Criteria. 
 5. Klik op OK.
-
 

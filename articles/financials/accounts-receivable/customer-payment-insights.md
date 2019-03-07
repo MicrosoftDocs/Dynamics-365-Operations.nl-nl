@@ -1,28 +1,27 @@
 ---
 title: Inzichten in klantbetalingen (preview)
-description: "In dit onderwerp wordt beschreven hoe Inzichten in klantbetalingen kan helpen voorspellen wanneer een factuur wordt betaald en organisaties helpen optimalisatiestrategieën op te stellen ter verbetering van de kans op tijdige betaling."
+description: In dit onderwerp wordt beschreven hoe Inzichten in klantbetalingen kan helpen voorspellen wanneer een factuur wordt betaald en organisaties helpen optimalisatiestrategieën op te stellen ter verbetering van de kans op tijdige betaling.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-04-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 9e722db6302d7ef51c01601cde245d4f4a333eba
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344657"
 ---
-
 # <a name="customer-payment-insights-preview"></a>Inzichten in klantbetalingen (preview)
 
 [!include[banner](../includes/banner.md)]
@@ -78,4 +77,3 @@ Als u geïnteresseerd bent in het uitproberen van Inzichten in klantbetalingen (
 ## <a name="privacy-statement"></a>Privacyverklaring
 
 Previews van opgeslagen klantgegevens in de Verenigde Staten Daarnaast geldt dat previews (1) mogelijk minder privacy- en beveiligingsmaatregelen bieden dan de service Dynamics 365 for Finance and Operations, (2) mogelijk niet worden opgenomen in de serviceovereenkomst voor deze service, (3) niet mogen worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) slechts beperkt wordt ondersteund.
-

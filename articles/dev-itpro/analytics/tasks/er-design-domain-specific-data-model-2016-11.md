@@ -1,13 +1,13 @@
---- 
+---
 title: ER Ontwerp domeinspecifiek gegevensmodel
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken die een gegevensmodel voor elektronische betalingsdocumenten bevat.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERDataContainerDescriptorReferenceSwitchDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0debb7276c4f3e41c2e85ce6bc63b8df5bc159f8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348406"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Ontwerp domeinspecifiek gegevensmodel
 
@@ -211,5 +211,4 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf, Litware, In
     * De naam PaymentModel is afgestemd op vooraf gedefinieerde interfaces van betalingsformulieren.  
 65. Klik op Opslaan.
 66. Sluit de pagina.
-
 

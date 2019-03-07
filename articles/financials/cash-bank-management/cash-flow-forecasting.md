@@ -1,13 +1,13 @@
 ---
 title: Cashflowprognose
-description: "Dit onderwerp bevat een overzicht van het cashflowprognoseproces. Ook wordt uitgelegd hoe cashflowprognoses worden geïntegreerd met andere modules in het systeem."
+description: Dit onderwerp bevat een overzicht van het cashflowprognoseproces. Ook wordt uitgelegd hoe cashflowprognoses worden geïntegreerd met andere modules in het systeem.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 681817f2879034d65b53666a9d56ec00cc175ad8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324486"
 ---
-
 # <a name="cash-flow-forecasting"></a>Cashflowprognose
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,7 @@ Het werkgebied **Overzicht van contant geld - alle bedrijven** bevat analyses va
 
 Het werkgebied **Overzicht van contant geld - huidig bedrijf** bevat analyses van cashflowprognoses in de gedefinieerde valuta voor boekhouding van het bedrijf. De valuta voor boekhouding die wordt gebruikt voor de analyses wordt gedefinieerd op de pagina **Grootboek**. Dit werkgebied bevat een overzicht van cashflowprognoses en bankrekeningsaldi voor het huidige bedrijf. Een diagram van de kasinkomsten en -uitgaven bevat een overzicht van toekomstige verplaatsingen van contant geld en saldi in de valuta voor boekhouding, samen met gedetailleerde informatie over de voorspelde transacties. U kunt ook de voorspelde valutasaldi bekijken.
 
-Zie het onderwerp Power BI-inhoud Overzicht van contant geld voor meer informatie over de analyses van cashflowprognoses.
+Zie het onderwerp Power BI-inhoud - overzicht van contant geld voor meer informatie over de analyses van cashflowprognoses.
 
 Bovendien kunt u gegevens van cashflowprognoses weergeven voor specifieke accounts, orders en artikelen op de volgende pagina's:
 
@@ -138,5 +137,4 @@ Bovendien kunt u gegevens van cashflowprognoses weergeven voor specifieke accoun
 - **Alle inkooporders**: selecteer op het tabblad **Factuur** **Cashflowprognoses** om het voorspelde effect van de geselecteerde inkooporder op contant geld weer te geven.
 - **Aanbodprognose**: selecteer **Cashflowprognoses** om de toekomstige cashflows die zijn gekoppeld aan de geselecteerde aanbodprognose van items weer te geven.
 - **Vraagprognose**: selecteer **Cashflowprognoses** om de toekomstige cashflows die zijn gekoppeld aan de geselecteerde vraagprognose van items weer te geven.
-
 

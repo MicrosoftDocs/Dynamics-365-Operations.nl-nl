@@ -5,9 +5,9 @@ author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e2a99476da7ce3feab1d2c37e8510f0042cf4b63
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 735a25d625774892ff71d4799932f15c258dfbfa
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335595"
 ---
-
 # <a name="inventory-on-hand-mobile-workspace"></a>Mobiel werkgebied voorhanden voorraad
 
 [!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Voorhanden voorraad**. Met dit mobiele werkgebied kunt u altijd en overal inzichten verkrijgen in gereserveerde en beschikbare voorraad.
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations.
+Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Overzicht
 Normaal gesproken hebben bedrijven elke dag meerdere verzendingen en meerdere ontvangsten van voorraad. Deze verplaatsingen veranderen voortdurend de status van de voorhanden voorraad. Met het mobiele werkgebied **Voorhanden voorraad** kunt u de status van de voorhanden voorraad voor meerdere bedrijven bekijken, zodat u de meest recente inzichten in de voorraadgegevens op het mobiele apparaat van uw keuze kunt verkrijgen. Ongeacht of u werkzaam bent in het magazijn of voor inkoop, verkoop, productie of beheer of andere rollen vervult, u hebt altijd en overal toegang tot de gegevens over de voorhanden voorraad. 
@@ -62,8 +61,8 @@ De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 d
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
 Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Voorhanden voorraad** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger gebruikt.
-Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder aan de volgende vereisten voldoen. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Microsoft Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
+Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
 
 <table>
 <thead>
@@ -80,7 +79,7 @@ Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of 
 
 <td>KB 4013633 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Voorhanden voorraad</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4013633.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">De metagegevenshotfix van Microsoft Dynamics Lifecycle Services (LCS) downloaden</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Metagegevens-hotfix downloaden uit  Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">De metagegevenshotfix installeren</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Het implementeerbare pakket toepassen</a></li>
@@ -131,4 +130,3 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
     -   Op basis van fysieke voorraad (deze weergave geeft de totale hoeveelheid.)
     -   Op basis van fysieke gereserveerde voorraad (deze weergave geeft de gereserveerde hoeveelheid.)
     -   Op basis van beschikbare fysieke voorraad (deze weergave geeft de beschikbare hoeveelheid waarvoor geen reserveringen zijn.)
-

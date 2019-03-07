@@ -1,13 +1,13 @@
---- 
+---
 title: Gebruikers toestaan om e-mailberichten te ontvangen die betrekking hebben op de werkstroom
 description: U kunt het systeem configureren voor het verzenden van e-mailberichten aan werknemers als er werkstroom-gerelateerde zaken optreden.
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6800d02878123388611d35760123d0215e9d539f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1ff7de584631563939104c87b00fdc26bdb1a3cb
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344588"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Gebruikers toestaan om e-mailberichten te ontvangen die betrekking hebben op de werkstroom
 
@@ -39,5 +39,4 @@ U kunt het systeem configureren voor het verzenden van e-mailberichten aan werkn
     * Als u wilt dat de gebruiker meldingen ontvangt in de client, vinkt u het selectievakje Meldingen verzenden in e-mail aan.  
 6. Klik op Opslaan.
 7. Sluit de pagina.
-
 

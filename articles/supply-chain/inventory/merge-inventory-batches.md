@@ -1,13 +1,13 @@
 ---
 title: Voorraadbatches samenvoegen
-description: "Dit artikel bevat informatie over het consolideren van twee of meer voorraadbatches in één samengevoegde batch."
+description: Dit artikel bevat informatie over het consolideren van twee of meer voorraadbatches in één samengevoegde batch.
 author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319817"
 ---
-
 # <a name="merge-inventory-batches"></a>Voorraadbatches samenvoegen
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Ja, er zijn bepaalde zaken die u moet instellen voordat u de gereedschappen kunt
 <td>Vrijgegeven producten</td>
 <td>De aanbevolen instellingen voor het artikel zijn:
 <ul>
-<li>Als u automatisch batchnummers wilt genereren voor samengevoegde batches, moet u het vrijgegeven product toewijzen aan een batchnummergroep. U kunt ook handmatig een batchnummer invoeren wanneer u een samengevoegde batch maakt, of een bestaand batchnummer selecteren. Als u een bestaand nummer selecteert, moet u ervoor zorgen dat de geselecteerde batch niet is opgenomen in voorraadtransacties.</li>
+<li>Als u automatisch batchnummers wilt genereren voor samengevoegde batches, moet u het vrijgegeven product toewijzen aan een batchnummergroep. U kunt ook handmatig een batchnummer invoeren wanneer u een samengevoegde batch maakt, of een bestaand batchnummer selecteren. Als u een bestaand batchnummer selecteert, moet u ervoor zorgen dat de geselecteerde batch niet is opgenomen in voorraadtransacties.</li>
 <li>Als u de houdbaarheid of de uiterste houdbaarheidsdatum gebruikt voor het vrijgegeven product, worden de datums voor een samengevoegde batch berekend op basis van de selectie van het veld <strong>Berekening datum van batchsamenvoeging</strong>. De volgende opties zijn beschikbaar:
 <ul>
 <li><strong>Vroegste</strong> – De berekening is gebaseerd op de vroegste datum die is opgegeven voor een bronbatch die is geselecteerd voor de batchsamenvoeging.</li>
@@ -141,4 +140,3 @@ U kunt het voorraadjournaal goedkeuren voor de batchsamenvoeging vanaf de lijstp
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Waarom kan ik de informatie over variabel gewicht niet zien in het voorraadjournaal nadat ik een artikel met variabel gewicht heb samengevoegd?
 U kunt batches van catch weight-artikels samenvoegen, net zoals alle andere artikels. De catch weight-informatie wordt echter niet weergegeven op het voorraadjournaal. Wij raden u aan de catch weight-informatie na te gaan voordat u de batchsamenvoeging overdraagt naar het voorraadjournaal.
-

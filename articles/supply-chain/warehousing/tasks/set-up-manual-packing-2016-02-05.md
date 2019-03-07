@@ -1,13 +1,13 @@
---- 
+---
 title: Handmatige verpakking instellen (februari en mei 2016)
 description: In het verpakkingsproces kunt u producten valideren en verpakken in containers.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347716"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Handmatige verpakking instellen (februari en mei 2016)
 
@@ -94,5 +94,4 @@ In het verpakkingsproces kunt u producten valideren en verpakken in containers. 
     * Dit is de locatie waarnaar producten worden verplaatst nadat de containers zijn gesloten. Voor deze locatie moet een locatieprofiel zijn gedefinieerd in de magazijnparameters.  
 8. Typ of selecteer een waarde in het veld Gewichtseenheid.
 9. Klik op Opslaan.
-
 

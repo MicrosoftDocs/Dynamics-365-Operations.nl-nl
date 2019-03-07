@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1ba80e48c8b3b5ed94b9e03302788099a1d31909
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328971"
 ---
-
 # <a name="payment-methods"></a>Betalingsmethoden
 
 [!include [banner](includes/banner.md)]
@@ -50,4 +49,3 @@ Voor het instellen van betalingsmethoden moet u de volgende taken voltooien.
 2. Kaarttypen en kaartnummers voor de hele organisatie maken. Als creditcards of betaalpassen worden geaccepteerd, moet u één betalingsmethode maken voor kaarten en vervolgens de typen kaarten en kaartnummers voor de organisatie maken.
 3. Betalingsmethoden voor winkels instellen. Koppel betalingsmethoden aan elke winkel en voer vervolgens de winkelspecifieke instellingen in voor elke betalingsmethode.
 4. Betalingsmethoden via kaart instellen voor winkels. Voltooi de kaartinstellingen voor alle kaartbetalingsmethoden die door de winkel worden geaccepteerd.
-

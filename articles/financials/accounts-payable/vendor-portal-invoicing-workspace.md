@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 5520012a00e918e8748b974773eeaf2450f0c55e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2368fae3913f67d9d2ce0bbe6b2e0bee7968bb15
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340517"
 ---
-
 # <a name="vendor-collaboration-invoicing-workspace"></a>Werkgebied voor samenwerkingsfacturering van leveranciers
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u leveranciersfacturen kunt weergeven en facturen indient vanuit het samenwerkingswerkgebied voor leveranciersfacturering.
 
-Het werkgebied **Leverancierssamenwerkingsfacturen** kan worden gebruikt om leveranciersfactuurinformatie weer te geven en facturen te verzenden naar Microsoft Dynamics 365 for Finance and Operations met workflowmogelijkheden.
+Het werkgebied **Leverancierssamenwerkingsfacturen** kan worden gebruikt om leveranciersfactuurinformatie weer te geven en facturen te verzenden naar Microsoft Dynamics 365 for Finance and Operations met werkstroommogelijkheden.
 
 
 <a name="vendor-collaboration-invoicing-workspace"></a>Werkgebied voor samenwerkingsfacturering van leveranciers
@@ -60,7 +59,6 @@ Een nieuwe factuur maken van een inkooporder
 U kunt een nieuwe leveranciersfactuur maken door **Nieuwe** actie te selecteren in het werkgebied **Samenwerkingsfacturering van leveranciers**. Het inkoopordernummer en het factuurnummer moeten door de leverancier worden opgegeven. Standaard worden alle regels van de inkooporder van de leverancier op de nieuwe factuur weergegeven. Gegevens over de hoeveelheid en de kostprijs kunnen worden bewerkt vóór het verzenden van de leveranciersfactuur naar de workflow. U kunt bestanden, notities, afbeeldingen en URL's aan een factuur koppelen voordat deze wordt verzenden.
 
 Zie voor meer informatie [Leverancierssamenwerking met externe leveranciers](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md).
-
 
 
 

@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e671fe6e7c99bfb6d66f3b00560c3b0c404d2343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9bf79af6eea6f899158fc3c8d523587cb11c90ad
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332996"
 ---
-
 # <a name="project-time-entry-mobile-workspace"></a>Tijdinvoer voor project voor mobiel werkgebied
 
 [!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Projecttijdinvoer**. In dit werkgebied kunnen gebruikers tijd invoeren en opslaan voor een project met behulp van hun mobiele apparaat.
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations. 
+Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile. 
 
 ## <a name="overview"></a>Overzicht
 Als onderdeel van hun dagelijkse werkzaamheden zijn projectresources vaak on-site of onderweg. Het mobiele werkgebied **Invoer van projecturen** stelt gebruikers in staat hun factureerbaar of niet-factureerbare tijd voor een project in te voeren op het mobiele apparaat van hun keuze. Daarom kunnen projectresources altijd en overal tijdinvoer vastleggen. Zij kunnen ook tijdinvloer bekijken die al is geregistreerd. 
@@ -51,8 +50,8 @@ De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 d
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt
 Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Projecttijdinvoer** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger gebruikt.
-Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder aan de volgende vereisten voldoen. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Microsoft Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
+Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
 
 <table>
 <thead>
@@ -69,7 +68,7 @@ Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of 
 <td>Systeembeheerder</td>
 <td>KB 4018050 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Invoer van projecturen</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4018050.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">De metagegevenshotfix van Microsoft Dynamics Lifecycle Services (LCS) downloaden</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Metagegevens-hotfix downloaden uit  Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">De metagegevenshotfix installeren</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Maak een implementeerbaar pakket</a> dat de <strong>ApplicationSuite</strong> en <strong>ProjectMobile</strong>-modellen bevat en upload het implementeerbare pakket vervolgens naar LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Het implementeerbare pakket toepassen</a></li>
@@ -114,4 +113,3 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 11. Selecteer de regeleigenschap.
 12. Optioneel: voer eventueel externe en interne opmerkingen toe.
 13. Selecteer **Gereed**.
-

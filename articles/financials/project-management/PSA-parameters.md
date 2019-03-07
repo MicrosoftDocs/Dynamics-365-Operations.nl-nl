@@ -1,13 +1,13 @@
 ---
 title: Parameters van Project Service Automation-integratie
-description: In dit onderwerp wordt uitgelegd hoe u kunt configureren hoe standaardgegevens worden ingevoerd bij integratie van Microsoft Dynamics 365 for Project Service Automation met Microsoft Dynamics 365 for Finance and Operations.
+description: In dit onderwerp wordt uitgelegd hoe u kunt configureren hoe standaardgegevens worden ingevoerd wanneer u Microsoft Dynamics 365 for Project Service Automation met Microsoft Dynamics 365 for Finance and Operations integreert.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 33960a97f69d6bcc70a3035d4d68095ca6993a10
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347049"
 ---
-
-# <a name="project-service-automation-integration-parameters"></a>Parameters van Project Service Automation-integratie
+# <a name="project-service-automation-integration-parameters"></a>Project Service Automation-integratieparameters
 
 [!include[banner](../includes/banner.md)]
 
-Op de pagina **Project Service Automation-integratieparameters** kunt u configureren hoe standaardgegevens worden ingevoerd bij integratie van Microsoft Dynamics 365 for Project Service Automation met Microsoft Dynamics 365 for Finance and Operations. Als u projecten met succes wilt synchroniseren vanuit Project Service Automation met Finance and Operations, moet u de volgende velden instellen.
+Op de pagina **Integratieparameters Project Service Automation** kunt u configureren hoe standaardgegevens worden ingevoerd wanneer u Microsoft Dynamics 365 for Project Service Automation integreert met Microsoft Dynamics 365 for Finance and Operations. Als u projecten met succes wilt synchroniseren vanuit Project Service Automation met Finance and Operations, moet u de volgende velden instellen.
 
 > [!NOTE]
-> - Projecttaakintegratie, onkostentransactiecategorieën, uurramingen, onkostenramingen en functionaliteitvergrendeling zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations, versie 8.0.
-> - Integratie van werkelijke waarden is beschikbaar in Microsoft Dynamics 365 for Finance and Operations versie 8.01 of hoger.
+> - Projecttaakintegratie, onkostentransactiecategorieën, uurramingen, onkostenramingen en functionaliteitvergrendeling zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations versie 8.0.
+> - Integratie van werkelijke waarden is mogelijk in Microsoft Dynamics 365 for Finance and Operations versie 8.0.1 of hoger.
 > - Als u Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, 7.3.0 gebruikt, kunt u nadat u KB 4132657 en KB 4132660 hebt geïnstalleerd, de sjablonen gebruiken om projecttaken, onkostentransactiecategorieën, geraamde uren, geraamde onkosten en werkelijke waarden te integreren en om functionaliteitvergrendeling te configureren. Als u de boekhoudingsverdelingen opnieuw instellen moet, wordt u aangeraden ook KB 4131710 te installeren.
 
 | Tabblad                    | Veld                | Omschrijving |
@@ -46,4 +45,3 @@ Op de pagina **Project Service Automation-integratieparameters** kunt u configur
 | Standaardwaarden voor factureringstype  | Factureringstype         | Klik op **Nieuw** om een rij toe te voegen waarin u het factureringstype kunt selecteren waarvoor de standaardregeleigenschap wordt ingesteld. Een bepaald factureringstype kan slechts één keer worden geselecteerd in de configuratie. |
 |                        | Regeleigenschap        | Selecteer de standaardregeleigenschap voor het geselecteerde factureringstype. Wanneer nieuwe uurramingen, nieuwe onkostenramingen of nieuwe werkelijke waarden worden gesynchroniseerd vanuit Project Service Automation, wordt het veld **Regeleigenschap** ingesteld op de standaardwaarde voor het factureringstype. |
 | Functionaliteit vergrendelen  | Niet van toepassing       | Selecteer de uit te schakelen functionaliteit in Finance and Operations voor projecten en contracten die afkomstig zijn uit Project Service Automation. U kunt bijvoorbeeld de mogelijkheid uitschakelen om contracten en projecten te bewerken, structuren voor werkspecificaties te maken en urenstaten in te voeren in Finance and Operations. Boekhoudinggerelateerde velden blijven ingeschakeld, zelfs als ze niet beschikbaar zijn gemaakt met de parameterinstelling. Standaard zijn alle functies ingeschakeld. |
-

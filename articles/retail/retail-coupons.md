@@ -5,27 +5,26 @@ author: scott-tucker
 manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336584"
 ---
-
 # <a name="set-up-coupons-for-retail-sales"></a>Coupons voor detailhandelverkoop instellen
 
 [!include [banner](includes/banner.md)]
@@ -38,10 +37,10 @@ Elke coupon is gekoppeld aan één detailhandelkorting. De prijsgroepen die aan 
 
 In wezen zijn coupons extra validatie naast de detailhandelkortingen. De coupon levert de couponcodes en de streepjescodes die vereist zijn, samen met de datumbereiken voor deze codes. De coupon biedt ook optioneel beperkingen voor gebruik en vereiste klanteigenschappen. De korting omvat de set van producten waarvoor de coupon geldig is. De prijsgroepen voor de korting omvatten de set van klanten, afzetkanalen of catalogi waarvoor de coupon geldig is.
 
-Om een coupon te maken, maakt u de korting en de coupon afzonderlijk. U koppelt ze vervolgens door de korting te selecteren op de couponpagina in Microsoft Dynamics 365 for Retail.
+Om een coupon te maken, maakt u de korting en de coupon afzonderlijk. U koppelt ze vervolgens door de korting op de couponpagina te selecteren in Microsoft Dynamics 365 for Retail.
 
 > [!NOTE]
-> Nadat een coupon is gekoppeld aan een korting, worden verschillende velden op de kortingspagina in Microsoft Dynamics 365 for Retail alleen-lezen, omdat deze worden beheerd door de instellingen van de coupon. Deze velden zijn de velden voor de status en de standaarddatumbereiken.
+> Nadat een coupon is koppeld aan een korting, worden verschillende velden op de kortingspagina in Microsoft Dynamics 365 for Retail alleen-lezen, omdat deze worden beheerd door de instellingen van de coupon. Deze velden zijn de velden voor de status en de standaarddatumbereiken.
 
 ### <a name="limited-use-coupons"></a>Coupons met gebruiksbeperkingen
 
@@ -81,4 +80,3 @@ De couponfunctionaliteit omvat meerdere afzonderlijke functies in Dynamics 365 f
 - **HQ wordt gedeeltelijk bijgewerkt, maar detailhandelserver en POS worden niet bijgewerkt.** In een HQ-update worden de pagina's Coupon en Korting bijgewerkt en de detailhandelprijsengine wordt ook bijgewerkt. Als slechts een van deze twee onderdelen wordt bijgewerkt, komen sommige pagina's in Retail niet overeen met de gegevens voor prijsberekening. Daardoor kunnen onverwachte kortingsberekeningen of -fouten optreden tijdens het berekenen van kortingen.
 - **HQ wordt bijgewerkt, maar detailhandelserver en POS worden niet bijgewerkt (N-1).** Omdat niet alle winkels tegelijkertijd kunnen worden bijgewerkt, wordt aangeraden om HQ bij te werken voordat u de winkels bijwerkt. In het scenario N-1 is nieuwe functionaliteit die is gerelateerd aan coupons niet beschikbaar in winkels die nog niet zijn bijgewerkt. De couponfunctionaliteit kan bijvoorbeeld uitsluitingsregels introduceren. Als u uitsluitingsregels gebruikt bij een korting, worden deze niet toegepast in een winkel die een oudere versie uitvoert.
 - **HQ wordt niet bijgewerkt, maar detailhandelserver en POS worden wel bijgewerkt (N+1).** Omdat de bijgewerkte prijsengine in detailhandelserver oudere kortingscodes kan verwerken tijdens prijsberekeningen, zou de update geen functionele invloed moeten hebben in dit scenario.
-

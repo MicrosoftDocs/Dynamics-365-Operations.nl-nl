@@ -1,13 +1,13 @@
 ---
-title: "Een vergoedingenprogramma definiëren en beheren"
+title: Een vergoedingenprogramma definiëren en beheren
 description: Human resources biedt een reeks hulpmiddelen die kunnen worden gebruikt om vergoedingen, kortingen en compensatieplannen van werknemers die een organisatie zijn werknemers biedt in te stellen en onderhouden. Dit artikel biedt informatie over het instellen en beheren van vergoedingen.
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: fc325b519299098a4f8257c013bce0842237f9ea
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303932"
 ---
-
 # <a name="define-and-manage-a-benefits-program"></a>Een vergoedingenprogramma definiëren en beheren
 
 [!include [banner](includes/banner.md)]
@@ -70,7 +69,6 @@ Op dezelfde manier kunt u met massale verlenging van vergoedingen de vervaldatum
 --------
 
 [Beleid voor geschiktheid vergoedingen](benefit-eligibility-policies.md)
-
 
 
 

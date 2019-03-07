@@ -5,27 +5,26 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335135"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>Kostprijs retour en retourpartij-id        
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,7 @@ Dit is de aanbevolen methode om retourregels te maken. Gebruik de kosten van de 
 
 3.  Selecteer in het formulier **Retourorder maken** een klantrekening en klik vervolgens op **OK**.
 
-4.  Klik in het formulier **Retourorder - RMA-nummer: %1, %2** in het **Actievenster** op **Verkooporder zoeken**.
+4.  Klik in het formulier **Retourorder - RMA-nummer: %1, %2** in het **Actievenster** op **Verkooporder** zoeken.
 
 5.  Selecteer in het formulier **Verkooporder zoeken** de te retourneren factuurregel en klik vervolgens op **OK**.
     
@@ -94,7 +93,7 @@ Wanneer u het veld **Kostprijs retour** op een retourorderregel gebruikt om de r
 
 4.  Maak een retourorder maken voor de klant. Selecteer in het formulier **Verkooporder zoeken** de factuurregel en klik vervolgens op **OK**.
 
-5.  Controleer in het formulier **Retourorder - RMA-nummer: %1, %2** of een retourorder wordt gegenereerd om het artikel Test te retourneren. De hoeveelheid van de retourorder wordt ingesteld op-5,00.
+5.  Controleer in het formulier **Retourorder - RMA-nummer: %1, %2** of een retourorder wordt gegenereerd om het testartikel te retourneren. De hoeveelheid van de retourorder wordt ingesteld op-5,00.
     
     Het veld **Retourpartij-id** bevat een partij-ID. Deze partij-ID is overgenomen uit de oorspronkelijke verkooporder van het artikel dat aan de klant is verkocht. Het veld **Kostprijs retour** bevat de kostprijs van de oorspronkelijke verkoopregel.
 
@@ -109,7 +108,6 @@ Wanneer u het veld **Kostprijs retour** op een retourorderregel gebruikt om de r
 10. Gebruik in voorraad- en magazijnbeheer het formulier **Afsluiten en corrigeren** om de procedure **3. Sluiten** uit te voeren.
     
     Met deze actie worden de kosten gecorrigeerd op de oorspronkelijke verkoopregel waarvan de kostprijs was berekend op -35,00 (5 stuks \* 7,00) naar -30,00 (5 stuks \* 6,00). Dit is omdat de voorraadmodelgroep First in, First out (FIFO gebruikt) en 6,00 per stuk de FIFO-kosten van de eerste inkooporder is. De actie past bovendien de kosten op de retourverkoopregel aan naar de kostprijs per stuk op de oorspronkelijke verkoopregel. Dus wordt de kostprijs van de retourregel aangepast van 35,00 naar 30,00.
-
 
 
 

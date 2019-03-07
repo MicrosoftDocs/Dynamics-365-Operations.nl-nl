@@ -5,9 +5,9 @@ author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 722c52c22a98317dd67887f50fc95f3e3764ed83
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344772"
 ---
-
 # <a name="reconcile-freight-in-transportation-management"></a>Vracht afstemmen in transportbeheer
 
 [!include [banner](../includes/banner.md)]
@@ -41,11 +40,10 @@ Vrachttarieven worden berekend door de tarief-engine die is gekoppeld aan de des
 [![Vrachtafstemmingsproces](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Handmatige afstemming
-Als u vracht handmatig afstemt, moet u elke factuurregel vereffenen met de regel of regels van de vrachtfactuur voor de lading die wordt gefactureerd. U doet dit vereffenen op de pagina **Vrachtfactuur en factuurvereffening**. Als het bedrag op de factuur niet overeenkomt met het bedrag op de vrachtfactuur, moet u een reden voor afstemming selecteren voor het verschil. Als er meerdere redenen voor afstemming zijn, kunt u het niet-afgestemde bedrag hierover verdelen. De reden voor afstemming bepaalt hoe de verschilbedragen in het grootboek worden geboekt. Als de afstemming van het volledige factuurbedrag administratief wordt verwerkt, wordt het ingediend voor goedkeuring, waarna het dagboek wordt geboekt. De volgende afbeelding toont hoe u een vrachtfactuur kunt genereren en vrachtafstemming kunt uitvoeren in Microsoft Dynamics 365 for Finance and Operations. 
+Als u vracht handmatig afstemt, moet u elke factuurregel vereffenen met de regel of regels van de vrachtfactuur voor de lading die wordt gefactureerd. U doet dit vereffenen op de pagina **Vrachtfactuur en factuurvereffening**. Als het bedrag op de factuur niet overeenkomt met het bedrag op de vrachtfactuur, moet u een reden voor afstemming selecteren voor het verschil. Als er meerdere redenen voor afstemming zijn, kunt u het niet-afgestemde bedrag hierover verdelen. De reden voor afstemming bepaalt hoe de verschilbedragen in het grootboek worden geboekt. Als de afstemming van het volledige factuurbedrag administratief wordt verwerkt, wordt het ingediend voor goedkeuring, waarna het dagboek wordt geboekt. De volgende afbeelding toont hoe u een vrachtfactuur genereert en vrachtafstemming uitvoert in Microsoft Dynamics 365 for Finance and Operations. 
 [![Vrachtafstemmingstaken in Dynamics AX](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>Automatische afstemming
 Als u automatische afstemming wilt gebruiken, moet u het schema voor afstemming en de facturen en te gebruiken vervoerders opgeven. De afstemming de factuurregels en vrachtfacturen vindt plaats volgens de instelling van het controlemodel en type vrachtfactuur. Nadat u de automatische afstemming hebt uitgevoerd, moet u alle facturen afhandelen die niet door het systeem kunnen worden afgestemd. U moet deze facturen vervolgens handmatig verwerken voordat u alle facturen kunt boeken voor betaling.
-
 
 
 

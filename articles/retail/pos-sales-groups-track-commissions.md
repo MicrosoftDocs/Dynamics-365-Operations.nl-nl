@@ -5,9 +5,9 @@ author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325107"
 ---
-
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Provisie bijhouden op het verkooppunt (POS) via verkoopgroepen
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ In POS kunnen gebruikers knoppenrasters configureren, die deel uitmaken van sche
 ## <a name="calculating-commissions"></a>Provisies berekenen
 
 Provisie wordt berekend voor de medewerkers in de opgegeven verkoopgroepen tijdens het boeken van overzichten of van verkooporders. Het provisiebedrag wordt bepaald op basis van het provisieaandeel van medewerker, zoals is gedefinieerd in de verkoopgroep en de bijbehorende instellingen voor provisieberekening voor de klant en/of producten in de transactie.
-

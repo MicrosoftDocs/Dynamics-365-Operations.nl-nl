@@ -1,13 +1,13 @@
---- 
+---
 title: Volgorde voor productietaken bepalen voor procesfabricage
 description: In deze procedure worden als voorbeeld verfproducten gebruikt om aan te geven hoe u geplande orders op basis van de prioriteit van kleur en pakketgrootte kunt ordenen.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4e064f55ed451d44f58e60ba0aa722166981c129
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a25a4575ca1600b07b2dac5949c8775bcd162650
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312250"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Volgorde voor productietaken bepalen voor procesfabricage
 
@@ -70,5 +70,4 @@ In deze procedure worden als voorbeeld verfproducten gebruikt om aan te geven ho
 7. Klik in de lijst op de koppeling in de geselecteerde rij.
 8. Gebruik het snelfilter om te filteren op het veld Artikelnummer met de waarde 'P300'.
     * De orders worden nu geordend op basis van de prioriteit van grootte en kleur en het begin van de geplande orders op de vroegste orderdatum en leveringsdatum. Valideer de kolom Orderdatum of de begindatum in het feitenvak Schemadetails.  
-
 

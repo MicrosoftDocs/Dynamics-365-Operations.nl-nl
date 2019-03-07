@@ -1,13 +1,13 @@
---- 
+---
 title: Gebruikers aan beveiligingsrollen toewijzen
-description: Voor toegang tot Microsoft Dynamics 365 for Finance and Operations, Enterprise edition moeten gebruikers worden toegewezen aan beveiligingsrollen.
+description: Voor toegang tot Microsoft Dynamics 365 for Finance and Operations moeten gebruikers zijn toegewezen aan beveiligingsrollen.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
 ms.reviewer: margoc
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349947"
 ---
 # <a name="assign-users-to-security-roles"></a>Gebruikers aan beveiligingsrollen toewijzen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Voor toegang tot Microsoft Dynamics 365 for Finance and Operations, Enterprise edition moeten gebruikers worden toegewezen aan beveiligingsrollen. In deze procedure wordt beschreven hoe systeembeheerders gebruikers automatisch aan rollen kunnen toewijzen op basis van bedrijfsgegevens. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+Voor toegang tot Microsoft Dynamics 365 for Finance and Operations moeten gebruikers zijn toegewezen aan beveiligingsrollen. In deze procedure wordt beschreven hoe systeembeheerders gebruikers automatisch aan rollen kunnen toewijzen op basis van bedrijfsgegevens. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Gebruikers automatisch aan rollen toewijzen
@@ -52,5 +52,4 @@ Voor toegang tot Microsoft Dynamics 365 for Finance and Operations, Enterprise e
     * Selecteer een gebruiker.  
 6. Klik op Uitsluiten van rol.
     * Klik op Uitsluiten van rol om de geselecteerde gebruikers van de rol uit te sluiten. Om uitsluitingen te verwijderen, selecteert u de gebruikers voor wie u uitsluitingen wilt verwijderen. Vervolgens klikt u op Status opnieuw instellen. Wanneer u een uitsluiting verwijdert door de status van de gebruiker opnieuw in te stellen, wordt de rol van de gebruiker automatisch opnieuw toegewezen. De gebruiker wordt echter niet onmiddellijk aan de rol toegewezen of van de rol uitgesloten wanneer u de status opnieuw instelt. In plaats daarvan wordt de gebruiker de volgende keer dat de regels voor automatische roltoewijzing worden uitgevoerd, aan de rol toegewezen of van de rol verwijderd.  
-
 

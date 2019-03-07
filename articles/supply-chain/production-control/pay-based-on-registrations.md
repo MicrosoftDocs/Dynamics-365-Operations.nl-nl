@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: f36c411ce24dfd8cceacda3d4659ec9a98fd5aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321105"
 ---
-
 # <a name="pay-based-on-registrations"></a>Salaris op basis van registraties
 
 [!include [banner](../includes/banner.md)]
@@ -600,4 +599,3 @@ Als de medewerker op een werkdag niet komt opdagen voor het werk en er geen gepl
 - Verzuim automatisch invoegen
 
 Wanneer de dagelijkse registraties worden berekend voor een medewerker waarvoor flexibele uren zijn ingeschakeld, wordt de verzuimcode opgegeven in het veld **Flextijd automatisch invoegen-** gebruikt als een standaardverzuimcode. Als voor de medewerker flexibele uren niet zijn ingeschakeld, wordt de verzuimcode gebruikt die is opgegeven in het veld **Verzuim automatisch invoegen**. Als in een bedrijf medewerkers met en zonder flexibele uren actief zijn, moeten beide parameters worden ingesteld.
-

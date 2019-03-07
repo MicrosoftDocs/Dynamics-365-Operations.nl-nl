@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdJournalTransJob, ProdJournalTransProd, ProdJournalTransRoute, ProdParmReportFinished, ProdRouteOprOverview
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 61c12ee3a831abcb46af18645eba55fe100c99c9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 80a882e51332d87835bdfb41a1bb1fcda2471f02
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315815"
 ---
-
 # <a name="report-production-orders-as-finished"></a>Productieorders als voltooid melden
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ De hoeveelheid wordt gerapporteerd aan de uitvoerlocatie. Magazijnwerk wordt dan
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Een productieorder instellen op Gereedgemeld
 U kunt een productieorder instellen op **Gereedgemeld** via de standaardfunctie voor het bijwerken van productieorders of via de route- en taakkaartjournalen of via het journaal **Gereedmelden**. U kunt de fase ook bijwerken naar **Gereedgemeld** via de pagina's Taakkaartterminal en Apparaat voor taakkaarten, wanneer u over de laatste taak van de productieorder rapporteert. Tenslotte kunt u de optie **Gereedmelden** inschakelen als een proces voor de oplossing met handbediende magazijnapparaten.  
-
 
 
 

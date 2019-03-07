@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile, AssetGroupBookSetup, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: be8e05a386178b9172a906109e015269dc72b32e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f545b0a9abbd7c797afead67917cf80f4cbe0dae
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331110"
 ---
-
 # <a name="depreciation-methods-and-conventions"></a>Afschrijvingsmethoden en conventies
 
 [!include [banner](../includes/banner.md)]
@@ -89,7 +88,6 @@ U kunt uit de volgende afschrijvingsmethoden kiezen.
 [Degressieve afschrijving van 175 procent](175-percent-reducing-balance-depreciation.md)
 
 [Degressieve afschrijving van 200 procent](200-percent-reducing-balance-depreciation.md)
-
 
 
 

@@ -5,9 +5,9 @@ author: saraschi2
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a63293dbf24c27733f8013947aeab5792fa0db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8f78eb06930eab26d300fba6fd28333a5ce39cf8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320162"
 ---
-
 # <a name="175-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 175 procent
 
 [!include [banner](../includes/banner.md)]
@@ -80,13 +79,12 @@ Bij de methode 175% degressieve afschrijvingsmethode wordt 175 procent door het 
 
 | Periode | Berekening van het jaarlijkse afschrijvingsbedrag | Boekwaarde                  | Nettoboekwaarde aan het einde van het jaar |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| Jaar 1 | (11.000 – 1000) × 35% = 3500                | 11.000 – 3500 = 7500      | 11.000 – 1000 – 3500 = 6500        |
-| Jaar 2 | 6500 × 35% = 2275                           | 7500 – 2275 = 5225       | 6500 – 2275 = 4225                 |
-| Jaar 3 | 4225 × 35% = 1478,75                        | 5225 – 1478,75 = 3746,25 | 4225 – 1478,75 = 2746,25           |
+| Jaar 1 | (11.000 – 1000) × 35% = 3500                | 11.000 – 3500 = 7500      | 11.000 – 1000 – 3500 = 6500        |
+| Jaar 2 | 6500 × 35% = 2275                           | 7500 – 2275 = 5225       | 6500 – 2275 = 4225                 |
+| Jaar 3 | 4225 × 35% = 1478,75                        | 5225 – 1478,75 = 3746,25 | 4225 – 1478,75 = 2746,25           |
 
 > [!NOTE] 
 > Wanneer het bedrag dat wordt berekend met de methode voor 175% degressieve afschrijving lager is dan het bedrag dat wordt berekend door de lineaire methode te gebruiken, vindt er doorgaans een conversie naar de lineaire methode plaats voor de resterende levensduur.
-
 
 
 

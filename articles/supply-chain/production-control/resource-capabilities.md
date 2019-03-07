@@ -5,9 +5,9 @@ author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 533faf78e4cc9a091d64f7c6a0f82d14158710c8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319288"
 ---
-
 # <a name="resource-capabilities"></a>Bronmogelijkheden
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ In dit voorbeeld kunnen beide machines worden geselecteerd door de planningsengi
 
 ## <a name="competencies-for-human-resources"></a>Competenties voor human resources
 Als u bronnen voor bedrijfsactiviteiten van het type **Human resources** hebt die aan werknemers in Human resources zijn gekoppeld, kunt u uit de competenties van werknemers ook voordeel halen wanneer u de bronbehoeften voor een productieroute definieert. Met andere woorden, kunt u ook vereisten voor specifieke vaardigheden, cursussen, certificaten of functies opgeven. De planningsengine kan vervolgens resources selecteren die aan werknemers worden gekoppeld, en de selectie wordt gebaseerd op de competenties van die werknemers. De competenties worden ingesteld in Human resources, niet op de pagina **Bronmogelijkheden**. Wanneer u vaardigheden, cursussen, certificeringen, of titels definieert als bronbehoeften, moet u met de functie Human resources elke bron van het type **Human resources** koppelen aan een bijbehorende werknemer. Als u de functionaliteit Human resources niet gebruikt, kunt u mogelijkheden definiëren op de pagina **Bronmogelijkheden** die lijken op of duplicaten zijn van de competenties van Human resources. De pagina **Bronmogelijkheden** bevat echter niet de functionaliteit die vereist is om vaardigheden, cursussen, certificeringen of functies te onderhouden.
-
 
 
 

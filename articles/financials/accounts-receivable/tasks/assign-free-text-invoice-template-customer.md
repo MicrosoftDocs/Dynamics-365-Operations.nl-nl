@@ -1,13 +1,13 @@
---- 
+---
 title: Sjabloon voor vrije-tekstfacturen toewijzen aan een klant
 description: Deze taak geeft aan hoe u een sjabloon voor een vrije-tekstfactuur kunt toewijzen aan een klant.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318920"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>Sjabloon voor vrije-tekstfacturen toewijzen aan een klant
 
@@ -48,5 +48,4 @@ Deze taak geeft aan hoe u een sjabloon voor een vrije-tekstfactuur kunt toewijze
 10. Selecteer het terugkeerpatroon.
     * Dagelijks: selecteer deze optie en geef het aantal dagen op in het veld Per. Als u bijvoorbeeld 15 invoert, wordt elke vijftien dagen een factuur gegenereerd voor deze klant.  Wekelijks: selecteer deze optie en geef het aantal weken op in het veld Per. Als u bijvoorbeeld 2 invoert, wordt elke twee weken een factuur gegenereerd voor deze klant.  Maandelijks: selecteer deze optie en geef het aantal maanden op in het veld Per. Als u bijvoorbeeld 6 invoert, wordt elke zes maanden een factuur gegenereerd voor deze klant.  Jaar: selecteer deze optie en geef het aantal jaren op in het veld Per. Als u bijvoorbeeld 2 invoert, wordt elke twee jaar een factuur gegenereerd voor deze klant.  
 11. Voer een getal in het veld Per in.
-
 

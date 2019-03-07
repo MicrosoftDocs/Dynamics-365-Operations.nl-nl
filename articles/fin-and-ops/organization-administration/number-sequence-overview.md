@@ -1,13 +1,13 @@
 ---
 title: Nummerreeksen
-description: "Nummerreeksen worden gebruikt om leesbare, unieke id´s te maken voor hoofdgegevensregistraties en transactieregistraties die deze nodig hebben."
+description: Nummerreeksen worden gebruikt om leesbare, unieke id´s te maken voor hoofdgegevensregistraties en transactieregistraties die deze nodig hebben.
 author: MargoC
 manager: AnnBe
 ms.date: 08/17/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7dadbe811e385ea6d5802c03381093d6693b23ba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5f4ff7eb8ee9b87b9d90af4d215743596555fd73
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328442"
 ---
-
 # <a name="number-sequences"></a>Nummerreeksen
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ Tenzij er een regelgevende vereiste is die doorlopende nummerreeksen gebruikt, b
 Bij een stroomuitval, een toepassingsfout of andere onverwachte storting, kan het systeem nummers niet automatisch opnieuw gebruiken voor doorlopende nummerreeksen. U kunt het opschoonproces handmatig of automatisch uitvoeren om de verloren nummers te herstellen.
 
 Overweeg zorgvuldig het servergebruik wanneer u het opschoonproces plant. Het is aan te raden het opschonen als batchtaak uit te voeren tijdens de daluren.
-

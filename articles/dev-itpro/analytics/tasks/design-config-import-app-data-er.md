@@ -1,13 +1,13 @@
---- 
+---
 title: ER-configuraties ontwerpen voor het parseren van inkomende documenten
 description: Deze procedure toont aan hoe u ER-configuraties (Elektronische rapportage) ontwerpt om een inkomend elektronisch document te parseren.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326096"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>ER-configuraties ontwerpen voor het parseren van inkomende documenten
 
@@ -35,7 +35,7 @@ Deze stappen kunnen worden voltooid met elke dataset. Voordat u begint, download
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als Actief. Als u deze configuratieprovider niet ziet, voert u eerst de stappen uit in de procedure 'Een configuratieprovider maken en deze als actief markeren'.  
 2. Klik op Rapportconfiguraties.
-    * Het volgende scenario wordt gebruikt voor het weergeven van de parseermogelijkheden van inkomende elektronische documenten in de XML-indeling: ERP-toepassing (Dynamics 365 for Finance and Operations) vraagt gegevens op van de webservice (bijvoorbeeld http://efsta.org/ fiscale EFSTA-service) en parseert de inkomende antwoorden om de toepassingsgegevens dienovereenkomstig bij te werken. Er wordt één ER-indeling gebruikt om zo efficiënt mogelijk te parseren, ondanks de verschillende structuur van de verwachte inkomende documenten in XML-indeling.   
+    * Het volgende scenario wordt gebruikt voor het weergeven van de parseermogelijkheden van inkomende elektronische documenten in de XML-indeling: ERP-toepassing (Dynamics 365 for Finance and Operations)vraagt gegevens op van de webservice (bijvoorbeeld http://efsta.org/fiscale EFSTA-service) en parseert de inkomende antwoorden om de toepassingsgegevens dienovereenkomstig bij te werken. Er wordt één ER-indeling gebruikt om zo efficiënt mogelijk te parseren, ondanks de verschillende structuur van de verwachte inkomende documenten in XML-indeling.   
 
 ## <a name="import-and-review-er-configurations"></a>ER-configuraties importeren en controleren
 Importeer de ER-modelconfiguratie waarin het voorbeeldgegevensmodel is ontworpen voor het opslaan van de details van het inkomende bestand.  
@@ -110,5 +110,4 @@ U kunt de gemaakte modeltoewijzing uitvoeren voor testdoeleinden om te zien hoe 
     * Klik op Bladeren en selecteer het Response4.xml-bestand.  
 16. Klik op OK.
     * Controleer de gegenereerde uitvoer. Merk op dat het antwoordtype nu correct is herkend net als voor Response1.xml-bestand.  
-
 

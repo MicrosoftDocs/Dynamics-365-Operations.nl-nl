@@ -5,9 +5,9 @@ author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0736d63c9a582948d197dc267f9941cbbd3e3c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333088"
 ---
-
 # <a name="elimination-rules"></a>Schrappingsregels
 
 [!include [banner](../includes/banner.md)]
@@ -153,7 +152,6 @@ Er zijn twee manieren om schrappingstransacties te verwerken, tijdens het online
 Selecteer in een bedrijf dat is gedefinieerd als een eliminatiebedrijf **Schrappingsjournaal** in de module consolidaties. Klik op **Regels** als u de journaalnaam hebt geselecteerd. U kunt het voorstel uitvoeren door het menu **Voorstellen** en vervolgens **Schrappingsvoorstel** te selecteren.
 
 Selecteer het bedrijf dat de bron is van de geconsolideerde gegevens en kies vervolgens de regel die u wilt verwerken. Voer een begindatum in waarop de zoekopdracht naar schrappingsbedragen moet beginnen, en een einddatum voor het beëindigen van de zoekdatum voor schrappingsbedragen. Voer in het veld **Boekingsdatum GB** de datum in waarop het journaal naar het grootboek moet worden geboekt. Nadat u op **OK** hebt geklikt, kunt u de bedragen bekijken en het journaal boeken.
-
 
 
 

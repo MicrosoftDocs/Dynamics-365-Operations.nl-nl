@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341759"
 ---
-
 # <a name="human-resources"></a>Human Resources
 
 [!include [banner](../includes/banner.md)]
@@ -95,4 +94,3 @@ U kunt vragenlijsten ontwerpen en laten invullen om informatie te verzamelen die
 - [Een vragenlijst ontwerpen](../../talent/design-questionnaires.md)
 - [Een vragenlijst verspreiden en invullen](../../talent/distribute-questionnaires.md)
 - [De resultaten van een vragenlijst bekijken en evalueren](../../talent/evaluate-questionnaire-results.md)
-

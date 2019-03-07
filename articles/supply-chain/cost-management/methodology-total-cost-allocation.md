@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341575"
 ---
-
 # <a name="total-cost-allocation-method"></a>Methode voor totale kostentoewijzing
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Het veld **Kostentoewijzing bijproduct** op de pagina **Coproducten** is een ops
 -   **Percentage**: het kostenbedrag wordt berekend als percentage van de totale kosten van grondstoffen die worden verbruikt in de productie. Het percentage dat wordt gebruikt voor de berekening, wordt ingevoerd in het veld.
 -   **Per reeks**: het kostenbedrag wordt berekend als een bedrag per standaardbatchgrootte van de productieorder. Dit bedrag is onafhankelijk van de gerapporteerde hoeveelheid in de productie. Het bedrag dat wordt gebruikt voor de berekening, wordt ingevoerd in het veld.
 -   **Per hoeveelheid**: het kostenbedrag wordt berekend als een bedrag per gerapporteerde hoeveelheid van het formuleartikel in de productie. Het bedrag dat wordt gebruikt voor de berekening, wordt ingevoerd in het veld.
-
 
 
 

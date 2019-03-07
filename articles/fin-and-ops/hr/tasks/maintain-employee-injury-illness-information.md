@@ -1,13 +1,13 @@
---- 
+---
 title: Informatie over verwondingen en ziekte bij werknemers bijhouden
 description: Het is raadzaam om eerst de taakbegeleiding 'Instelling van letsel en ziekte' te voltooien, want een deel van informatie wordt hier gebruikt.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332605"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Informatie over verwondingen en ziekte bij werknemers bijhouden
 
@@ -92,5 +92,4 @@ Deze taakregistratie behandelt de basisstappen voor het maken van een letsel- of
     * Voorbeeld: röntgenfoto's bevestigen breuk, spalk dragen  
 36. Klik op Opslaan.
     * De casestatus kan op elk moment worden bijgewerkt.  Stel de case in op In behandeling, als de verwerking van het letsel of de ziekte in behandeling is.  Zodra u het incident afsluit, kunt u alleen kosten, behandelingen of registraties toevoegen of verwijderen die met het incident te maken hebben.  Om andere informatie te wijzigen, opent u de case opnieuw.  
-
 

@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303963"
 ---
 # <a name="get-started-with-talent"></a>Aan de slag met Talent
 
@@ -31,10 +31,10 @@ ms.lasthandoff: 08/08/2018
 In Microsoft Dynamics 365 for Talent past u de gebruikersinterface gemakkelijk aan en stelt u eenvoudig opties in om de software intuïtiever te maken voor uw behoeften. Dit onderwerp bevat koppelingen naar onderwerpen met informatie over het aanpassen van de gebruikersinterface aan uw voorkeuren. Het onderwerp bevat ook koppelingen naar informatie waarmee u gegevens in het systeem efficiënter en nauwkeuriger kunt vinden. 
 
 > [!NOTE] 
-> De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
+> De volgende drie producten hangen nauw samen: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail de productnaam Dynamics 365 for Retail gebruikt. In onderwerpen die voornamelijk zijn gerelateerd aan Talent, is de productnaam Dynamics 365 for Talent en in onderwerpen die voornamelijk betrekking hebben op HR, is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
 
 ## <a name="personalizing-talent"></a>Talent aanpassen 
-In de volgende onderwerpen wordt laten zien hoe veel functies in Dynamics 365 for Talent zo kunnen worden ingesteld dat het gemakkelijker voor u wordt om u uw werk sneller te doen. 
+In de volgende onderwerpen wordt getoond hoe veel functies in Dynamics 365 for Talent zo kunnen worden ingesteld dat het gemakkelijker voor u wordt om u uw werk sneller te doen. 
 
 -   [De gebruikerservaring aanpassen](../fin-and-ops/get-started/personalize-user-experience.md) - In dit onderwerp worden de verschillende manieren uitgelegd waarop u Talent en delen van het product kunt aanpassen aan uw voorkeuren.
 
@@ -55,15 +55,14 @@ In de volgende onderwerpen wordt uitgelegd hoe u zoekopdrachten en de functies v
 
 -   [Actiezoekopdracht](../fin-and-ops/get-started/action-search.md) - In dit onderwerp wordt de actiezoekopdracht beschreven. Met een actiezoekopdracht kunt u zoeken naar acties op een pagina en deze uitvoeren. De pagina's in Talent bevatten voornamelijk opdrachten in actiedeelvensters, zowel in het standaardactievenster dat boven aan de pagina wordt weergegeven als op de werkbalken die in verschillende gedeelten van de pagina worden weergegeven.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 ### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) om te zien welke nieuwe functies zijn vrijgegeven en welke nieuwe functies in ontwikkeling zijn.
 
 ### <a name="blogs"></a>Weblogs
-U kunt adviezen, nieuws en andere informatie over Leveranciers en andere oplossingen vinden op de [Dynamics 365 for Talent-pagina](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
+U kunt adviezen, nieuws en andere informatie over Leveranciers en andere oplossingen vinden in [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
 ### <a name="videos"></a>Video's
 Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 

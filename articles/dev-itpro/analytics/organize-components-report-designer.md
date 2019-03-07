@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323934"
 ---
-
 # <a name="organize-report-components-in-report-designer"></a>Rapportonderdelen indelen in Report Designer
 
 [!include [banner](../includes/banner.md)]
@@ -117,7 +116,7 @@ De volgende tabel bevat beschrijvingen van de besturingselementen op het tabblad
 </tr>
 <tr>
 <td>Alle aangiftevaluta opnemen</td>
-<td>Alle extra aangiftevaluta's die in uw Microsoft Dynamics ERP-systeem zijn geconfigureerd, worden deze hier vermeld. Schakel dit selectievakje in om extra rapporten te genereren in de valuta's die worden aangegeven. Deze rapporten kunnen vervolgens in de Web Viewer worden bekeken door te klikken op de knop <strong>Valuta</strong> en dan een valuta te selecteren.</td>
+<td>Alle extra aangiftevaluta's die in uw Microsoft Dynamics ERP-systeem zijn geconfigureerd, worden hier vermeld. Schakel dit selectievakje in om extra rapporten te genereren in de valuta's die worden aangegeven. Deze rapporten kunnen vervolgens in de Web Viewer worden bekeken door te klikken op de knop <strong>Valuta</strong> en dan een valuta te selecteren.</td>
 </tr>
 <tr>
 <td>Datumgegevens die niet zijn opgeslagen met rapportdefinitie</td>
@@ -150,4 +149,3 @@ Alleen standaardinstellingen voor de basisperiode worden opgeslagen met de rappo
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
-

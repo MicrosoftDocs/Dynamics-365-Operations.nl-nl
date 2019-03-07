@@ -1,13 +1,13 @@
---- 
+---
 title: Btw-groepen en artikel-btw-groepen instellen
 description: Deze taakregistratie doorloopt de instelling van btw-groepen en btw-groepen voor artikelen.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ec5bbe37aa06f18172c417e903538cadc8a6f312
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4d7f1093edcfff65fd466fa8138b1bb5203648b3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320047"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Btw-groepen en artikel-btw-groepen instellen
 
@@ -49,5 +49,4 @@ Deze taakregistratie doorloopt de instelling van btw-groepen en btw-groepen voor
 18. Klik in het veld Btw-code op de vervolgkeuzeknop om de zoekopdracht te openen.
 19. Klik in de lijst op de koppeling in de geselecteerde rij.
 20. Klik op Opslaan.
-
 

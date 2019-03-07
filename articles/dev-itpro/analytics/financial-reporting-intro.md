@@ -1,13 +1,13 @@
 ---
-title: "Financiële rapportage"
-description: "Financiële rapportage voor Finance and Operations stelt financiële en bedrijfsprofessionals in staat om financiële overzichten te maken, te beheren, te gebruiken en weer te geven. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen op efficiënte verschillende typen rapporten te ontwerpen."
+title: Financiële rapportage
+description: Financiële rapportage voor Finance and Operations stelt financiële en bedrijfsprofessionals in staat om financiële overzichten te maken, te beheren, te gebruiken en weer te geven. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen op efficiënte verschillende typen rapporten te ontwerpen.
 author: aprilolson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323773"
 ---
-
 # <a name="financial-reporting"></a>Financiële rapportage
 
 [!include [banner](../includes/banner.md)]
@@ -98,4 +97,3 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 
 ## <a name="additional-resources"></a>Aanvullende resources
 [Een financieel rapport genereren](generate-financial-report.md)
-

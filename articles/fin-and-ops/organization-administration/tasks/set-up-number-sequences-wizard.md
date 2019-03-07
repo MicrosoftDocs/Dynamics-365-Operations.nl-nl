@@ -1,13 +1,13 @@
---- 
+---
 title: Nummerreeksen instellen met een wizard
 description: Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die deze nodig hebben.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1808ab9240ab291f9d203893a634bd390f16e2e7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96c1bc711350b447611977c3f2070fbc08fbae0f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328235"
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a>Nummerreeksen instellen met een wizard
 
@@ -36,5 +36,4 @@ Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor h
     * Selecteer de optie Continu niet als u vooraf nummers moet toewijzen voor de nummerreeks.     Om een bereiksegment toe te voegen aan de notatie van een nummerreeks selecteert u de notatie in de lijst en klikt u op Bereik opnemen in notatie.     Om een bereiksegment te verwijderen uit de notatie van een nummerreeks selecteert u de notatie in de lijst en klikt u op Bereik verwijderen uit notatie.     Om een bereiksegment uit te sluiten bij het automatisch genereren selecteert u de nummerreeks in de lijst en klikt u op Verwijderen.  
 4. Klik op Volgende.
 5. Klik op Voltooien.
-
 

@@ -5,9 +5,9 @@ author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309996"
 ---
-
 # <a name="demand-forecasting-overview"></a>Overzicht vraagprognose
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Het volgende schema geeft de basisstroom voor vraagprognose weer.
 
 [![Diagram Inleiding op vraagprognoses](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-Het genereren van vraagprognoses begint in Finance and Operations. De historische transactiegegevens uit de Finance and Operations-transactiedatabase worden verzameld en ingevuld in een faseringstabel. Deze faseringstabel wordt later ingevoerd voor een Machine Learning-service. Door minimale aanpassing uit te voeren kunt u verschillende gegevensbronnen in de faseringstabel invoeren. De gegevensbronnen kunnen Microsoft Excel-bestanden, bestanden met door komma's gescheiden waarden (CSV) en gegevens uit Microsoft Dynamics AX 2009 en Microsoft Dynamics AX 2012 bevatten. U kunt daarom vraagprognoses genereren waarin historische gegevens worden meegenomen die over meerdere systemen worden verspreid. De hoofdgegevens, zoals artikelnamen en maateenheden, moeten echter hetzelfde zijn over de diverse gegevensbronnen.
+Het genereren van vraagprognoses begint in Finance and Operations. De historische transactiegegevens uit de Finance and Operations-transactiedatabase worden verzameld en ingevuld in een faseringstabel. Deze faseringstabel wordt later ingevoerd voor een Machine Learning-service. Door minimale aanpassing uit te voeren kunt u verschillende gegevensbronnen in de faseringstabel invoeren. De gegevensbronnen kunnen Microsoft Excel-bestanden bevatten, CSV-bestanden (bestanden met door komma's gescheiden waarden) en gegevens uit Microsoft Dynamics AX 2009 en Microsoft Dynamics AX 2012. U kunt daarom vraagprognoses genereren waarin historische gegevens worden meegenomen die over meerdere systemen worden verspreid. De hoofdgegevens, zoals artikelnamen en maateenheden, moeten echter hetzelfde zijn over de diverse gegevensbronnen.
 
 Als u de Machine Learning-vraagprognose-experimenten van Finance and Operations gebruikt, wordt tussen vijf tijdreeksprognosemethoden gezocht naar de meest geschikte methode om een basislijnprognose te berekenen. De parameters voor deze prognosemethoden worden beheerd in Finance and Operations. 
 
@@ -88,7 +87,6 @@ Vraagprognoses in Finance and Operations zijn een hulpmiddel dat klanten helpt b
 [Verwijder uitschieters uit historische transactiegegevens bij het berekenen van een vraagprognose](remove-historical-outliers-calculating-demand-forecast.md)
 
 [De functie voor vraagprognose uitbreiden](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
 
 
 

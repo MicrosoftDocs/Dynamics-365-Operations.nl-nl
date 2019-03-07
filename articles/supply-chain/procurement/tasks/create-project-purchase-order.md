@@ -1,13 +1,13 @@
---- 
+---
 title: Projectinkooporder maken
 description: Deze procedure laat zien hoe u een projectinkooporder maakt.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, PurchCreateOrder, PurchTable, InventItemIdLookupPurchase
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0fa5f60abafb1200a61e1c9d8013fb9e28e28f48
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5023ca589b3ab25d808a52a9162f27430bd69241
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315217"
 ---
 # <a name="create-project-purchase-order"></a>Projectinkooporder maken
 
@@ -47,5 +47,4 @@ Deze procedure laat zien hoe u een projectinkooporder maakt. In deze taak wordt 
 13. Klik op het tabblad Project.
     * Controleer of de verkoop- en kostprijzen beschikbaar zijn. Als deze niet beschikbaar zijn maar wel zijn vereist, moet u de informatie invoeren.  
 14. Klik op Opslaan.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Financiële rapporten weergeven en ontwerpen"
-description: "Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Finance and Operations kunt weergeven en maken."
+title: Financiële rapporten weergeven en ontwerpen
+description: Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Finance and Operations kunt weergeven en maken.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReportingSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 9d2d9bef0b70d5f645e358a970750aefef890ec1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343875"
 ---
-
 # <a name="view-and-design-financial-reports"></a>Financiële rapporten weergeven en ontwerpen
 
 [!include [banner](../includes/banner.md)]
@@ -199,4 +198,3 @@ In deze oefening maakt u een nieuw rapport. Het rapport is een afdelingsinkomens
 [Financiële rapporten weergeven](../../financials/general-ledger/view-financial-reports.md)
 
 [Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-

@@ -1,13 +1,13 @@
 ---
 title: Aanvulling
-description: "Dit onderwerp beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer."
+description: Dit onderwerp beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer.
 author: Mirzaab
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344519"
 ---
-
 # <a name="replenishment"></a>Aanvulling
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,7 @@ Vraagaanvulling wordt ondersteund voor verkooporders, transferorders, productieo
 ## <a name="minmax-replenishment"></a>Min/Max aanvulling
 In Min/Max aanvulling wordt voorraad aangevuld zodat deze tussen de minimale en maximale limieten blijft die zijn ingesteld. Dit proces gebeurt meestal eenmaal per dag om te garanderen dat alle orderverzamellocaties tot het maximumniveau zijn gevuld voordat het orderverzamelen van start gaat. 
 
-De minimale en maximale hoeveelheden worden ingesteld in een aanvullingssjabloon. Veel van de andere instellingen in de sjabloon lijken op de instellingen in sjablonen die worden gebruikt in Aanvulling voor wave-vraag. De e sjabloon moet een regel bevatten voor elk artikel en elke locatie. Wanneer u aanvulling uitvoert door de batchtaak te gebruiken, controleert Microsoft Dynamics 365 for Finance and Operations of aanvulling vereist is in de volgorde waarin de regels zijn ingedeeld. 
+De minimale en maximale hoeveelheden worden ingesteld in een aanvullingssjabloon. Veel van de andere instellingen in de sjabloon lijken op de instellingen in sjablonen die worden gebruikt in Aanvulling voor wave-vraag. De e sjabloon moet een regel bevatten voor elk artikel en elke locatie. Wanneer u aanvulling uitvoert door de batchtaak te gebruiken, controleert Microsoft Dynamics 365 for Finance and Operations of aanvulling is vereist bij gebruik van de volgorde waarin de regels zijn ingedeeld. 
 
 Houd er rekening mee dat met de strategie van Min/Max-aanvulling geen lege locatie kan worden aangevuld tenzij de locatie is ingesteld als de vaste locatie voor het artikel. Als de locatie die moet worden aangevuld geen vaste locatie is, kan het systeem niet bepalen welk artikel moet worden aangevuld. Daarom is ten minste enige voorhanden voorraad vereist voordat aanvulling plaatsvindt.
 
@@ -77,5 +76,4 @@ In plaats van het totaal van de vraag aan het einde van een toewijzingsproces te
 |    Locatieprofielen    |                                                                                                        Locatieprofielen zijn vereist om locaties te maken.                                                                                                        |
 |   Instructielocatie   |                                                       Locatie-instructies zijn vereist om het werk naar de locaties te leiden waar de aanvulling vereist is en naar de locaties waaruit voorraad afkomstig is.                                                        |
 |     Werksjablonen      |                                                   Werksjablonen van het type <strong>Aanvulling</strong> zijn vereist voor het maken van aanvullingswerk zodat de voorraad kan worden verplaatst naar de gewenste locaties.                                                    |
-
 

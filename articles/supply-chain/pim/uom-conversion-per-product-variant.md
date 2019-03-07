@@ -5,10 +5,10 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 12/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
 ms.openlocfilehash: 9d5d6fd65717cd886f1c6576aabf2bc59ca4fcaf
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345922"
 ---
-
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversie van maateenheid per productvariant
 
 [!include [banner](../includes/banner.md)]
@@ -94,4 +93,3 @@ Voor de vrijgegeven productvarianten Small, Medium en Large geldt dezelfde eenhe
 Als een product veel productvarianten met verschillende eenheidconversies heeft, is het verstandig om de eenheidconversies van de pagina **Eenheidsomrekening** te exporteren naar een Excel-werkblad, de conversies bij te werken en deze vervolgens weer te publiceren naar Finance and Operations.
 
 De optie voor het exporteren naar Excel en het publiceren van de bewerkingen naar Finance and Operations kan worden ingeschakeld via het menu-item **Openen in Microsoft Office** in het actievenster op de pagina **Eenheidsomrekening**.
-

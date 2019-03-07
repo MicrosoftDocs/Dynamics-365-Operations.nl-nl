@@ -1,13 +1,13 @@
 ---
-title: "Financiële dimensies en boeken"
+title: Financiële dimensies en boeken
 description: Wanneer u een rekeningschema plant en instelt, moet u overwegen hoe de verschillende onderdelen samenwerken bij het boeken van een document of journaal. Deze onderdelen omvatten rekeningstructuren, geavanceerde regels, en salderende en vaste dimensies. In dit onderwerp wordt uitgelegd wat elk onderdeel is en hoe de onderdelen samenwerken.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327936"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>Financiële dimensies en boeken 
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Wanneer u een rekeningschema plant en instelt, moet u overwegen hoe de verschill
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Rekeningschema en onderdelen van financiële dimensie
 
-Microsoft Dynamics 365 for Finance and Operations bevat een uitgebreid, op regels gebaseerd systeem om geldige combinaties van hoofdrekeningen en financiële dimensiewaarden te definiëren. Deze sectie bevat een kort overzicht van de functionaliteit van elk onderdeel en uitlegt waar u het onderdeel kunt vinden.
+Microsoft Dynamics 365 for Finance and Operations heef een uitgebreid, op regels gebaseerd systeem voor het definiëren van geldige combinaties van hoofdrekeningen en financiële dimensiewaarden. Deze sectie bevat een kort overzicht van de functionaliteit van elk onderdeel en uitlegt waar u het onderdeel kunt vinden.
 
 ### <a name="account-structures"></a>Rekeningstructuren
 
@@ -128,4 +127,3 @@ Enkele van de volgende bronnen verwijzen naar een eerdere versie van Finance and
 [Standaardinstellingen voor dimensies in boekhoudingsverdelingen](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Standaardinstellingen voor dimensies in dimensieraamwerk](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

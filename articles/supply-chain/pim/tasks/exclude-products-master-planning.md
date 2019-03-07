@@ -1,13 +1,13 @@
---- 
+---
 title: Een status voor de productlevenscyclus maken om producten uit te sluiten van Hoofdplanning
 description: Deze procedure laat zien hoe u een nieuwe status van de productlevenscyclus maakt die de producten uitsluit van de hoofdplanning en berekening op stuklijstniveau.
 author: cvocph
 manager: AnnBe
 ms.date: 12/05/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 156972cdbf4ffb02b01b00972cc83d003d941378
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 1685e8eb706e29ef5b195e9163bf19345fee78b6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326349"
 ---
 # <a name="create-a-product-lifecycle-state-to-exclude-products-from-master-planning"></a>Een status voor de productlevenscyclus maken om producten uit te sluiten van Hoofdplanning
 
@@ -43,5 +43,4 @@ Deze procedure laat zien hoe u een nieuwe status van de productlevenscyclus maak
 4. Klik op Bewerken.
 5. Markeer in de lijst de geselecteerde rij.
 6. Typ of selecteer een waarde in het veld Levenscyclusstatus van product.
-
 

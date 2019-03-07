@@ -1,13 +1,13 @@
 ---
-title: "Rapportdefinities in Ontwerper financiële rapporten"
+title: Rapportdefinities in Ontwerper financiële rapporten
 description: Dit artikel bevat informatie over rapportdefinities. Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken. Een rapportdefinitie bevat ook opties en instellingen voor het aanpassen van een rapport.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 322f1cca32053224e1cd6dbaf29c098b983b5e1f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327338"
 ---
-
 # <a name="report-definitions-in-financial-report-designer"></a>Rapportdefinities in Ontwerper financiële rapporten
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,7 @@ Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van
 - Financieel en Rekening
 - Financieel, Rekening en Transactie
 
-Afhankelijk van hoe de gegevens in het Microsoft Dynamics ERP-systeem worden opgeslagen, zijn transactiedetails mogelijk niet beschikbaar in rapporten.
+Afhankelijk van de wijze waarop gegevens worden opgeslagen in het Microsoft Dynamics ERP-systeem, zijn de transactiedetails misschien niet beschikbaar in de rapporten.
 
 ## <a name="create-a-report-definition"></a>Een rapportdefinitie maken
 1. Klik in Report Designer in het menu **Bestand** op **Nieuw** en selecteer **Rapportdefinitie**.
@@ -86,4 +85,3 @@ In de volgende tabel worden de tabbladen in een rapportdefinitie beschreven en h
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
-

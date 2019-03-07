@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f1f97981c33c72c71e055848e874002dad73813
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f44099c2ce30d917838733af072721dd79148d27
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337412"
 ---
-
 # <a name="cost-groups"></a>Kostengroepen
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Aan een kostengroep kunnen een kostengroeptype en gedrag voor extra segmentatie 
 
 -   **Kostengroeptype** − aan elke kostengroep moet een kostengroeptype worden toegewezen, waarmee wordt aangegeven dat de kostengroep van toepassing is op directe materialen, directe productie of directe outsourcing of om aan te geven dat deze indirect of ongedefinieerd is. Een kostengroep waarvoor is aangegeven dat directe materialen aan artikelen kunnen worden toegewezen. Een kostengroep voor directe productie kan aan kostencategorieën worden toegewezen. Een kostengroep directe outsourcing kan aan een producttype service worden toegewezen, zodat u kosten kunt classificeren die aan de inkoop van services voor uitbestedingsactiviteiten zijn gekoppeld. Een indirecte-kostengroep kan worden toegewezen aan indirecte kosten voor toeslagen of tarieven. Een kostengroep die is ingesteld als ongedefinieerd, kan worden toegewezen aan artikelen, kostencategorieën of indirecte kosten. Een kostengroeptype wordt toegewezen voor verschillende doeleinden. Allereerst kunnen er minder kostengroepen worden toegewezen en wordt een lijst met toepasselijke kostengroepen weergegeven. Ten tweede biedt de toewijzing extra segmentatie voor rapportagedoeleinden. Tot slot kan toewijzing worden gebruikt om grootboekrekeningen voor afwijkingen toe te wijzen.
 -   **Gedrag** − aan elke kostengroep kan desgewenst een gedrag worden toegewezen om aan te geven dat de kostengroep geldt voor vaste of variabele kosten. Kostengroepen met een null-waarde voor gedrag worden beschouwd als variabele kosten. Een gedrag wordt alleen toegewezen voor rapportagedoeleinden. Kosten kunnen bijvoorbeeld worden weergegeven met segmentatie van vaste en variabele kosten in de kostprijsberekening en op de pagina **Kostenvergaring per kostengroep**. Als u een winstinstellingspercentage aan elke kostengroep toewijst, bevat de stuklijstberekening een voorgestelde verkoopprijs op basis van de kostprijs plus een opslagpercentage.
-
 
 
 

@@ -5,35 +5,34 @@ author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303917"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>Functies maken, goedkeuren en boeken in Attract
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp beschrijft de elementen van een functie in Microsoft Dynamics 365 for Talent: Attract. Ook wordt uitgelegd hoe u een functie maakt.
+In dit onderwerp worden de elementen van een functie in Microsoft Dynamics 365 for Talent: Attract beschreven. Ook wordt uitgelegd hoe u een functie maakt.
 
-## <a name="job-creation"></a>Functies maken
+## <a name="job-creation"></a>Taak maken
 
 Beheerders, wervers en aanstellend managers kunnen functies maken. Wanneer u een functie maakt, wordt u gevraagd uw rol in het proces te selecteren: aanstellend manager of werver. Nadat u een rol hebt geselecteerd, wordt u gevraagd een processjabloon te selecteren. Als u **Overslaan** selecteert, wordt de standaardsjabloon gebruikt. Zie voor meer informatie over processjablonen [Een processjabloon maken in Attract](./process-templates-attract.md).
 
@@ -45,7 +44,7 @@ Het tabblad **Functiedetails** bevat details over de verantwoordelijkheden en ke
 
 Standaard is het veld **Aantal personen** ingesteld op **1**. U kunt de waarde echter wijzigen. Wanneer een aanbieding is voorbereid voor een functie, wordt de waarde van het veld **Aantal personen** verlaagd.
 
-Als positiebeheer is ingeschakeld in het beheercentrum, is de zoekopdracht **Posities bijwerken** beschikbaar. Deze zoekactie leest de entiteit JobPosition in de Common Data Service voor Apps en retourneert een lijst met posities die kunnen worden geselecteerd voor de functie. Als het aantal posities dat u selecteert, het aantal vacatures overschrijdt, ontvangt u een waarschuwing. U krijgt ook een waarschuwing als een positie wordt gebruikt in meerdere functies.
+Als positiebeheer is ingeschakeld in het beheercentrum, is de zoekopdracht **Posities bijwerken** beschikbaar. Met deze zoekactie wordt de entiteit JobPosition in Common Data Service voor Apps gelezen en wordt een lijst geretourneerd met posities die kunnen worden geselecteerd voor de functie. Als het aantal posities dat u selecteert, het aantal vacatures overschrijdt, ontvangt u een waarschuwing. U krijgt ook een waarschuwing als een positie wordt gebruikt in meerdere functies.
 
 > [!NOTE]
 > Positiebeheer is beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen.
@@ -75,7 +74,7 @@ Zie voor meer informatie over activiteiten die kunnen worden toegevoegd aan het 
 
 ## <a name="postings"></a>Boekingen
 
-Nadat een functie is geactiveerd, kan deze worden geplaatst. Alleen wervers en beheerders kunnen functies plaatsen. De functie kan worden geplaatst op Talent Loopbanen (een Microsoft Dynamics 365 for Talent-carrièresite) of LinkedIn. 
+Nadat een functie is geactiveerd, kan deze worden geplaatst. Alleen wervers en beheerders kunnen functies plaatsen. De functie kan worden geplaatst op Talent Loopbanen (een Microsoft Dynamics 365 for Talent-vacaturesite) of LinkedIn. 
 
 > [!NOTE]
 > U moet met drie belangrijke dingen rekening houden met betrekking tot het publiceren van personeelsadvertenties op LinkedIn.
@@ -127,7 +126,7 @@ Nadat een functie is opgeslagen, kan deze ter goedkeuring worden ingediend. De v
 
 In de functielijst kunt u filteren op de status van de functie.
 
-Goedkeuringen kunnen worden verzonden naar alle Microsoft Azure Active Directory (Azure AD)-gebruikers in het bedrijf. De goedkeuringen worden parallel verzonden naar alle personen die zijn vermeld als fiatteurs. Nadat een functie is goedgekeurd, kan deze worden geactiveerd.
+Goedkeuringen kunnen worden verzonden naar elke Microsoft Azure Active Directory-gebruiker (Azure AD) in het bedrijf. De goedkeuringen worden parallel verzonden naar alle personen die zijn vermeld als fiatteurs. Nadat een functie is goedgekeurd, kan deze worden geactiveerd.
 
 De mensen die worden vermeld als fiatteurs, ontvangen een melding in Attract om hen te informeren dat er een item moet worden goedgekeurd. Er wordt ook een goedkeuringsitem weergegeven in de sectie **Aan u toegewezen** op het dashboard. Nadat iemand een functie accepteert of goedkeurt, ontvangt het aanstellend team een melding. Ten slotte ontvangt het aanstellend team een melding wanneer de functie is goedgekeurd.
 
@@ -169,4 +168,3 @@ Volg deze stappen om een functie te maken.
 
 13. Als u de functie wilt activeren, selecteert u **Activeren**.
 14. Als u de functie wilt plaatsen, gaat u naar **Boekingen** en selecteert u vervolgens **Nu plaatsen** onder Talent Loopbanen of LinkedIn.
-

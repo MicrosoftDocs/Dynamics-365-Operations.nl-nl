@@ -1,13 +1,13 @@
 ---
-title: "Uw organisatiehiërarchie plannen"
-description: "Voordat u de installatieorganisaties en -hiërarchieën instelt, moet u begrijpen hoe u uw bedrijf het beste modelleert."
+title: Uw organisatiehiërarchie plannen
+description: Voordat u de installatieorganisaties en -hiërarchieën instelt, moet u begrijpen hoe u uw bedrijf het beste modelleert.
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331984"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>Uw organisatiehiërarchie plannen
 
 [!include [banner](../includes/banner.md)]
 
-Voordat u de installatieorganisaties en organisatiehiërarchieën instelt in Microsoft Dynamics 365 for Finance and Operations, moet u plannen hoe uw bedrijf wordt gemodelleerd. Het organisatiemodel heeft een aanzienlijk effect op de implementatie van Finance and Operations en op bedrijfsprocessen.
+Voordat u de installatieorganisaties en organisatiehiërarchieën in Microsoft Dynamics 365 for Finance and Operations instelt, moet u plannen hoe uw bedrijf wordt gemodelleerd. Het organisatiemodel heeft een aanzienlijk effect op de implementatie van Finance and Operations en op bedrijfsprocessen.
 
 Met organisatiehiërarchieën worden de relaties aangegeven tussen de organisaties waaruit een bedrijf bestaat. Daarom is de structuur van uw bedrijf de meest belangrijke beslissing wanneer u organisaties modelleert. We bevelen u aan om organisatiestructuren te definiëren op basis van de feedback van leidinggevenden en topmanagers uit functiegebieden zoals Finance en Accounting, Human resources, Operations en Verkoop en marketing.
 
-Wanneer u hiërarchieën plant, is het ook van belang om de relatie tussen de organisatiehiërarchie en de financiële dimensies te overwegen. U kunt meerdere organisatiehiërarchieën instellen die verschillende weergaven van het bedrijf weerspiegelen. Via financiële dimensies kunt u rapporten maken die op deze weergaven worden gebaseerd. Stel in samenwerking met uw Microsoft Dynamics 365 for Finance and Operations-partner hiërarchieën op die zowel aan zakelijke als wettelijke rapportagevereisten voldoen.
+Wanneer u hiërarchieën plant, is het ook van belang om de relatie tussen de organisatiehiërarchie en de financiële dimensies te overwegen. U kunt meerdere organisatiehiërarchieën instellen die verschillende weergaven van het bedrijf weerspiegelen. Via financiële dimensies kunt u rapporten maken die op deze weergaven worden gebaseerd. Werk met uw Microsoft Dynamics 365 for Finance and Operations-partner om hiërarchieën te maken die zowel aan zakelijke als wettelijke rapportagevereisten voldoen.
 
 > [!NOTE]
 > Hoewel u financiële dimensies kunt gebruiken om rechtspersonen te vertegenwoordigen zonder de entiteiten in Finance and Operations te maken, zijn financiële dimensies niet bedoeld om de operationele of zakelijke belangen van rechtspersonen af te handelen. De boekhouding tussen eenheden-functie in Finance and Operations is ontworpen om alleen met de boekhoudkundige vermeldingen te werken die door de transactie worden gemaakt.
@@ -168,7 +167,7 @@ De operationele eenheden gebruiken de context van het land van de hoofdrechtsper
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Als de organisatie als rechtspersoon is gemodelleerd
 
-Voor landen/regio's die ondersteund worden door Finance and Operations kunnen de meeste wettelijke rapporten worden gemaakt. Voor informatie over welke rapporten voor elk land/regio beschikbaar zijn, zie [Microsoft Dynamics Localization Portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) voor Finance and Operations. (Een CustomerSource-aanmelding is vereist.)
+Voor landen/regio's die ondersteund worden door Finance and Operations kunnen de meeste wettelijke rapporten worden gemaakt. Zie voor informatie over welke rapporten voor elk land/regio beschikbaar zijn, het [Microsoft Dynamics Localization Portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) voor Finance and Operations. (Een CustomerSource-aanmelding is een verplicht.)
 
 > [!NOTE]
 > In Finance and Operations stelt een boekingslaag in het grootboek u in staat aanpassingsvermeldingen in een moederbedrijf te maken dat een andere norm voor boekhouden hanteert dan het dochterbedrijf. Bijvoorbeeld, voor een bedrijf dat algemeen geaccepteerde boekhoudkundige praktijken in het Verenigd Koninkrijk (UK GAAP) gebruikt, kunt u aanpassingsvermeldingen maken in de boekingslaag. Deze boekingen kunnen in een moederbedrijf worden geconsolideerd dat algemeen geaccepteerde boekhoudprincipes (GAAP) in de Verenigde Staten gebruikt. De wijzigingsvermeldingen beïnvloeden Britse GAAP-rapportage niet.
@@ -243,4 +242,3 @@ Houd rekening met de volgende beste praktijken wanneer u een organisatiehiërarc
 - Voordat u belangrijke herstructureringsscenario´s modelleert, gebruikt u de ingangsdatums van de hiërarchie om een impactanalyse en een validatietest uit te voeren.
 - Gebruik conceptmodus om een hiërarchie te wijzigen voordat u een nieuwe versie in een productieomgeving publiceert.
 - Beperk het aantal mensen met machtigingen om organisaties toe te voegen of te verwijderen uit een hiërarchie in een productieomgeving. Een kleiner aantal beperkt de kans dat kostbare fouten optreden en correcties moeten worden uitgevoerd.
-

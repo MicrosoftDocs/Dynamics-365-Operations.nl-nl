@@ -5,27 +5,26 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAReasonCodeTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 906325ddc7c5873a3050745100ceef6a6b8a8aa0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f80a858ac92bfa7825bef85ef941f29cc6de1c49
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310893"
 ---
-
 # <a name="create-reason-codes"></a>Redencodes maken    
 
 [!include [banner](../includes/banner.md)]
@@ -40,6 +39,5 @@ ms.lasthandoff: 05/08/2018
 Wanneer u wordt u gevraagd een redencode op te geven voor het bijwerken van een serviceorderfase, kunt u een van de redencodes selecteren die u hier maakt.
 
   
-
 
 

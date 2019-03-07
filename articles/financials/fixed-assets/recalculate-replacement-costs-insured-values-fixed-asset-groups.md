@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0756287406ad12237632ffbd455dbc6ba15d9915
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: eb3db5863bf2fcca31b6af878e7324b079f1c630
-ms.openlocfilehash: ad706a9ee441858a6f4a128ff978e24efb6ecfce
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/12/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324371"
 ---
-
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Vervangingskosten en verzekerde waarden voor vaste-activagroepen herberekenen
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ De volgende dag vertelt uw manager u dat de computers zijn verlaagd met 8 procen
 
 > [!NOTE]  
 > U kunt de factor -10 niet omkeren door de positieve factor 10 (of de factor 2, het verschil tussen -10 en -8) in te voeren, omdat de bedragen niet worden berekend zoals u bedoelt. 
-
 
 
 

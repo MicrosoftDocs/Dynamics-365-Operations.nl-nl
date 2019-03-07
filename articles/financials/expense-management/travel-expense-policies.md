@@ -1,13 +1,13 @@
 ---
-title: "Onkostenbeleid definiëren"
-description: "U kunt onkostenbeleid definiëren waaraan uw werknemers zich moeten houden bij het invoeren en indienen van onkostennota's en reisaanvragen in Microsoft Dynamics 365 for Finance and Operations."
+title: Onkostenbeleid definiëren
+description: In Microsoft Dynamics 365 for Finance and Operations kunt u een beleid of regels definiëren waaraan uw werknemers zich moeten houden bij het invoeren en indienen van onkostennota's en reisopdrachten.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342426"
 ---
-
 # <a name="expense-policies"></a>Onkostenbeleid
 
 [!include [banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ U kunt drie typen beleidsregels definiëren:
   mogelijk hogere tarieven voor vluchten tussen Denemarken en New York. U kunt een regel definiëren dat voor ticketkosten naar New York een limiet      
   van DKK 5000 geldt en u kunt opgeven dat deze regel geldt van 15 mei      
   tot 15 september.
-

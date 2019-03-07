@@ -1,14 +1,14 @@
 ---
 title: Beheerinstellingen in Attract
 description: In dit onderwerp wordt uitgelegd hoe u functionaliteit inschakelt voor organisaties en gebruikers in Attract.
-author: 
+author: ''
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303883"
 ---
-
 # <a name="admin-settings-in-attract"></a>Beheerinstellingen in Attract
 [!include[banner](../includes/banner.md)]
 
@@ -69,4 +68,3 @@ U kunt ook opties configureren die zijn gerelateerd aan de kandidaatervaring. Me
 U kunt ook een verloopdatum instellen en afdwingen voor aanbiedingen. Als u de optie **Een vervaldatum vereisen voor alle aanbiedingen** instelt op **Ja**, vervallen aanbiedingen na het aantal uren of dagen dat u opgeeft.
 
 Zie voor meer informatie over aanbiedingsbeheer [Aanbiedingsbeheer instellen](./offer-setup.md).
-

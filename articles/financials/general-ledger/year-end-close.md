@@ -5,9 +5,9 @@ author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ec2316dd259cd12a5cab187b08dbd17ca100572
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf9d0a6ab0fcf7d6f5a31813d68f0bd452ce1019
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347877"
 ---
-
 # <a name="year-end-close"></a>Jaarafsluiting
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ Als u een vorige jaarafsluiting voor het geselecteerde boekjaar ongedaan wilt ma
 Het jaarafsluitingsproces wordt standaard in de batchmodus uitgevoerd. Het is raadzaam om het proces in de batchmodus uit te voeren, zodat de gebruiker kan teruggaan naar de andere activiteiten. Het veld **Datum van laatste jaarafsluiting** wordt bijgewerkt met de sessiedatum nadat het jaarafsluitingsproces is voltooid.
 
 Zie [Het grootboek aan het einde van de periode afsluiten](close-general-ledger-at-period-end.md) en [Het boekjaar afsluiten](tasks/close-fiscal-year.md) voor meer informatie.
-
 
 
 

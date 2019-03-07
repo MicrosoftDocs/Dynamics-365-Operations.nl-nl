@@ -1,13 +1,13 @@
---- 
+---
 title: Configuratie van ISO20022-kredietoverdracht importeren
 description: In deze procedure ziet u hoe u een configuratie voor elektronische rapportage van leveranciersbetalingen importeert.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3fbd2e39f488696ebe8db5579ed88595e246ce97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 71c0175178203006e297466c4a37cd3e6319b6ea
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337343"
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>Configuratie van ISO20022-kredietoverdracht importeren
 
@@ -31,7 +31,7 @@ In deze procedure ziet u hoe u een configuratie voor elektronische rapportage va
 
 Deze taak is gemaakt met het demobedrijf DEMF, maar u kunt elk bedrijf uit de demogegevens gebruiken om deze taak uit te voeren.
 
-Dit is de eerste van vijf taken die samen het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+Dit is de eerste van vijf taken die samen het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties. Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
 2. Selecteer in de lijst met beschikbare configuratieproviders de waarde Microsoft.
@@ -44,5 +44,4 @@ Dit is de eerste van vijf taken die samen het leveranciersbetalingproces toelich
 8. Klik op Importeren.
     * Als de knop Importeren niet beschikbaar is, betekent dit dat deze configuratie al is geïmporteerd.  
 9. Klik op Ja.
-
 

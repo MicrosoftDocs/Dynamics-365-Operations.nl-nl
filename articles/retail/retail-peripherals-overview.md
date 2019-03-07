@@ -3,11 +3,11 @@ title: Randapparatuur detailhandel
 description: In dit onderwerp worden de concepten beschreven die verband houden met detailhandelrandapparaten.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/16/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347854"
 ---
-
 # <a name="retail-peripherals"></a>Randapparatuur detailhandel
 
 [!include [banner](includes/banner.md)]
@@ -40,13 +39,13 @@ Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen*
 
 ### <a name="devices"></a>Apparaten
 
-Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Apparaten**. Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa. Bij het maken van een apparaat, wordt het toegewezen aan een POS-kassa. De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat. Apparaten kunnen worden toegewezen aan de volgende toepassingstypen: Retail Modern POS, Retail Cloud-POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android en Retail Modern POS – iOS.
+Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Apparaten**. Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa. Bij het maken van een apparaat, wordt het toegewezen aan een POS-kassa. De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat. Apparaten kunnen worden toegewezen aan de volgende toepassingstypen: Retail Modern POS, Detailhandelcloud-POS, Retail Modern POS - Windows Phone, Retail Modern POS - Android en Retail Modern POS - iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
 Modern POS is het POS-programma voor Microsoft Windows. Het kan worden geïmplementeerd op de besturingssystemen Windows 10.
 
-### <a name="cloud-pos"></a>Cloud POS
+### <a name="cloud-pos"></a>Cloud-POS
 
 Cloud POS is een versie van het programma Modern POS, die kan worden geopend in een webbrowser.
 
@@ -56,7 +55,7 @@ Modern POS voor iOS is een iOS-versie van het Modern POS-programma dat kan worde
 
 ### <a name="modern-pos-for-android"></a>Modern POS voor Android
 
-Modern POS voor Android is een Android-versie van het Modern POS-programma dat kan worden geïmplementeerd op Android-apparaten.
+Modern POS voor Android is een Android-versie van het Modern POS-programma die kan worden geïmplementeerd op Android-apparaten.
 
 ### <a name="pos-peripherals"></a>POS-randapparaten
 
@@ -117,9 +116,9 @@ Ondersteuning voor betalingsapparaten wordt geïmplementeerd via de betalingscon
 
 ### <a name="opos"></a>OPOS
 
-Om te kunnen garanderen dat het grootste aantal apparaten kan worden gebruikt met Microsoft Dynamics 365 for Retail, is de industrienorm OLE voor POS het primaire platform voor detailhandelrandapparaten dat wordt ondersteund in Microsoft Dynamics 365 for Retail. De OLE voor POS-norm is opgesteld door de National Retail Federation (NRF), die communicatieprotocollen voor detailhandelrandapparatuur opstelt die de norm in de branche zijn. OPOS is een algemeen geaccepteerde implementatie van de OLE voor POS-norm. Deze is ontwikkeld in de jaren 1990 en sinds die tijd verschillende malen geactualiseerd. OPOS biedt een apparaatstuurprogramma-architectuur die eenvoudige integratie van POS-hardware met Windows-gebaseerde POS-systemen mogelijk maakt. OPOS-besturingselementen handelen de communicatie af tussen hardware en de POS-software. Een OPOS-besturingselement bestaat uit twee onderdelen:
+Om te garanderen dat het grootste aantal apparaten kan worden gebruikt met Microsoft Dynamics 365 for Retail is de industriestandaard OLE voor POS het primaire platform voor detailhandelrandapparaten dat wordt ondersteund in Microsoft Dynamics 365 for Retail. De OLE voor POS-norm is opgesteld door de National Retail Federation (NRF), die communicatieprotocollen voor detailhandelrandapparatuur opstelt die de norm in de branche zijn. OPOS is een algemeen geaccepteerde implementatie van de OLE voor POS-norm. Deze is ontwikkeld in de jaren 1990 en sinds die tijd verschillende malen geactualiseerd. OPOS biedt een apparaatstuurprogramma-architectuur die eenvoudige integratie van POS-hardware met Windows-gebaseerde POS-systemen mogelijk maakt. OPOS-besturingselementen handelen de communicatie af tussen hardware en de POS-software. Een OPOS-besturingselement bestaat uit twee onderdelen:
 
-- **Control object**: Het control object voor een apparaatklasse (zoals een regelweergave) biedt de interface voor het softwareprogramma. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) biedt een gestandaardiseerde reeks OPOS Control objects aan, die bekend staan als de Common Control Objects (CCO's). Met de CCO's wordt de POS-component van Microsoft Dynamics 365 for Retail getest. Daarom helpt het testen te garanderen dat, als Microsoft Dynamics 365 for Retail een apparaatklasse via OPOS ondersteunt, vele typen apparaten worden ondersteund, indien de fabrikant een serviceobject levert dat is samengesteld voor OPOS. U hoeft niet expliciet elk apparaattype te testen.
+- **Control object**: Het control object voor een apparaatklasse (zoals een regelweergave) biedt de interface voor het softwareprogramma. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) biedt een gestandaardiseerde reeks OPOS Control objects aan, die bekend staan als de Common Control Objects (CCO's). De CCO's worden gebruikt voor het testen van de POS-component van Microsoft Dynamics 365 for Retail. Daarom helpt het testen te garanderen dat, als Microsoft Dynamics 365 for Retail een apparaatklasse via OPOS ondersteunt, vele typen apparaten worden ondersteund, indien de fabrikant een serviceobject levert dat is samengesteld voor OPOS. U hoeft niet expliciet elk apparaattype te testen.
 - **Serviceobject**: Het serviceobject verzorgt de communicatie tussen het Control Object (CCO) en het apparaat. Meestal wordt voor fysieke apparaten het serviceobject geleverd door de fabrikant van het apparaat. In sommige gevallen moet u misschien het serviceobject downloaden vanaf de website van de fabrikant. Er kan bijvoorbeeld een meer recente serviceobject beschikbaar zijn. Het adres van de website van de fabrikant vindt u in de documentatie bij uw hardware.
 
 [![Controleobject en serviceobject](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -127,7 +126,7 @@ Om te kunnen garanderen dat het grootste aantal apparaten kan worden gebruikt me
 Door de ondersteuning voor de OPOS-implementatie van OLE voor POS kunnen POS-systemen en ondersteunde apparaten samenwerken, zelfs als ze daarvoor niet samen zijn getest, als de apparaatfabrikanten en POS-uitgevers de standaard correct implementeren.
 
 > [!NOTE]
-> OPOS-ondersteuning garandeert niet de ondersteuning voor alle apparaten met OPOS-stuurprogramma's. Microsoft Dynamics 365 for Retail moet eerst dat type of die klasse van het apparaat ondersteunen met OPOS. Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's. Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.
+> OPOS-ondersteuning garandeert niet de ondersteuning voor alle apparaten met OPOS-stuurprogramma's. Microsoft Dynamics 365 for Retail moet eerst ondersteuning voor dat apparaattype of klasse bieden via OPOS. Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's. Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.
 
 ### <a name="windows"></a>Windows
 
@@ -223,7 +222,7 @@ In de volgende tabel ziet u de ondersteunde topologieën en implementatiescenari
 | Client      | IPC-hardwarestation | ISS-hardwarestation |
 |-------------|----------------------|----------------------|
 | Windows-app | Ja                  | Ja                  |
-| Cloud POS   | Nee                   | Ja                  |
+| Cloud-POS   | Nee                   | Ja                  |
 | Android     | Nee                   | Ja                  |
 | iOS         | Nee                   | Ja                  |
 
@@ -234,7 +233,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 | Client      | IPC-hardwarestation | ISS-hardwarestation |
 |-------------|----------------------|----------------------|
 | Windows-app | Ja                  | Ja                  |
-| Cloud POS   | Nee                   | Ja                  |
+| Cloud-POS   | Nee                   | Ja                  |
 | Android     | Nee                   | Ja                  |
 | iOS         | Nee                   | Ja                  |
 
@@ -296,7 +295,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Netwerk
-<blockquote>[!NOTE] U kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
+<blockquote>OPMERKING: u kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
 </li>
 </ul>
 </td>
@@ -307,7 +306,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Netwerk
-<blockquote>[!NOTE] U kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
+<blockquote>OPMERKING: u kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
 </li>
 </ul>
 </td>
@@ -375,7 +374,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Windows-stuurprogramma
-<blockquote>[!NOTE] Bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</blockquote>
+<blockquote>OPMERKING: bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</blockquote>
 </li>
 <li>Netwerk</li>
 </ul>
@@ -405,7 +404,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Netwerk
-<blockquote>[!NOTE] U kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
+<blockquote>OPMERKING: u kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
 </li>
 </ul>
 </td>
@@ -470,7 +469,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Windows-stuurprogramma
-<blockquote>[!NOTE] Bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</blockquote>
+<blockquote>OPMERKING: bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</blockquote>
 </li>
 <li>Netwerk</li>
 </ul>
@@ -492,7 +491,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Netwerk
-<blockquote>[!NOTE] U kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
+<blockquote>OPMERKING: u kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
 </li>
 </ul>
 </td>
@@ -523,7 +522,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 Zie voor meer informatie over het maken van hardwareprofielen het onderwerp [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Voor Microsoft Dynamics 365 for Retail, versie 1611, wordt het hardwarestationprofiel niet meer gebruikt. Kenmerken die u hebt ingesteld in het hardwarestationprofiel maken nu deel uit van het hardwarestation zelf.
+> Voor Microsoft Dynamics 365 for Retail versie 1611 wordt het hardwarestationprofiel niet meer gebruikt. Kenmerken die u hebt ingesteld in het hardwarestationprofiel maken nu deel uit van het hardwarestation zelf.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS voor Windows met een IPC-hardwarestation (geïntegreerd)
 
@@ -564,7 +563,7 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients met een hardw
 5. Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 6. Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 7. Installeer het hardwarestation. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).
-8. Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS het onderwerp [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).
+8. Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).
 9. Meld u aan bij Modern POS en selecteer **Niet-ladebewerkingen uitvoeren**.
 10. Start de bewerking **Hardwarestations beheren**.
 11. Klik op **Beheren**.
@@ -593,7 +592,7 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients die hardwares
 6. Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 7. Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 8. Installeer het hardwarestation op elke hostcomputer die u in stap 2 en 3 hebt ingesteld. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).
-9. Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS het onderwerp [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).
+9. Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).
 10. Meld u aan bij Modern POS en selecteer **Niet-ladebewerkingen uitvoeren**.
 11. Start de bewerking **Hardwarestations beheren**.
 12. Klik op **Beheren**.
@@ -743,7 +742,6 @@ De volgende randapparaten zijn getest met een specifiek (niet-gedeeld) IIS-hardw
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Aangepast    | Aangesloten via netwerk     |
-| Star         | TSP100   | OPOS      | Vereist TSP650II-stuurprogramma's |
 | HP           | F7M67AA  | OPOS      | USB met voeding               |
 
 #### <a name="bar-code-scanner"></a>Streepjescodelezer
@@ -818,7 +816,6 @@ De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Aangepast    | Aangesloten via netwerk     |
-| Star         | TSP100   | OPOS      | Vereist TSP650II-stuurprogramma's |
 | HP           | F7M67AA  | OPOS      | USB met voeding               |
 
 #### <a name="payment-terminal"></a>Betalingsterminal 
@@ -845,7 +842,7 @@ De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen
 - De computer waarop de Modern POS draait, vertrouwt het certificaat dat wordt gebruikt op de computer waarop het hardwarestation draait.
 
     - Om deze configuratie te controleren, gaat u in een webbrowser naar de volgende URL: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.
-    - Deze URL gebruikt een ping om te verifiëren dat toegang tot de computer mogelijk is en de browser geeft aan of het certificaat vertrouwd wordt. In Internet Explorer bijvoorbeeld wordt een pictogram van een hangslot weergegeven in de adresbalk. Wanneer u op dit pictogram klikt, controleert Internet Explorer of het certificaat momenteel vertrouwd wordt. U kunt het certificaat installeren op de lokale computer aan de hand van de details van het certificaat dat wordt weergegeven.
+    - Deze URL gebruikt een ping om te verifiëren dat toegang tot de computer mogelijk is en de browser geeft aan of het certificaat vertrouwd wordt. (In Internet Explorer bijvoorbeeld wordt een pictogram van een hangslot weergegeven in de adresbalk. Wanneer u op dit pictogram klikt, controleert Internet Explorer of het certificaat momenteel vertrouwd wordt. U kunt het certificaat installeren op de lokale computer aan de hand van de details van het certificaat dat wordt weergegeven.
 
 - Op de computer waarop het hardwarestation draait, wordt de poort die het hardwarestation gebruikt in de firewall geopend.
 - Het hardwarestation heeft de verkopersaccountgegevens correct geïnstalleerd via het hulpprogramma Verkopersgegevens installeren, dat wordt uitgevoerd aan het einde van het installatieprogramma voor het hardwarestation.
@@ -894,4 +891,3 @@ De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Randapparatuursimulator voor detailhandel](dev-itpro/retail-peripheral-simulator.md)
-

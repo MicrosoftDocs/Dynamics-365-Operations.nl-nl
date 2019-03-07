@@ -1,13 +1,13 @@
---- 
+---
 title: Voorraadniveaus in het magazijn aanpassen (basale magazijnen)
 description: Deze procedure begeleidt u door het proces voor het maken en boeken van een voorraadcorrectiejournaal om voorraadniveaus te corrigeren van producten in het magazijn.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventJournalCreate, InventLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 330ebacf4a036b2df6ca22728477cae5b347354d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9ca5841fe857990cae8d9551ccf79c3c0fd490ae
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317448"
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Voorraadniveaus in het magazijn aanpassen (basale magazijnen)
 
@@ -59,5 +59,4 @@ Deze procedure begeleidt u door het proces voor het maken en boeken van een voor
 4. Klik op OK.
 5. Het formulier sluiten.
 6. Sluit de pagina.
-
 

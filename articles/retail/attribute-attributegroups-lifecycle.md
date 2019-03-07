@@ -5,33 +5,32 @@ author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326234"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>Kenmerken en kenmerkgroepen
 
 [!include [banner](includes/banner.md)]
 
-*Kenmerken* bieden een manier om een product en de bijbehorende kenmerken te beschrijven via door de gebruiker gedefinieerde velden (zoals **Geheugengrootte**, **Capaciteit van vaste schijf**, **Is EnergyStar**, enzovoort). In Microsoft Dynamics 365 for Finance and Operations kunnen kenmerken met verschillende detailhandelsentiteiten zoals productcategorieën en detailhandelskanalen zijn gekoppeld, en de standaardwaarden kunnen daarvoor zijn ingesteld. De producten erven de kenmerken en standaardwaarden wanneer ze gekoppeld zijn met de productcategorieën of detailhandelskanalen. De standaardwaarden kunnen worden overschreven op het afzonderlijke productniveau, op het niveau van het detailhandelskanaal of in een detailshandelscatalogus.
+*Kenmerken* bieden een manier om een product en de bijbehorende kenmerken te beschrijven via door de gebruiker gedefinieerde velden (zoals **Geheugengrootte**, **Capaciteit van vaste schijf**, **Is EnergyStar**, enzovoort). In Microsoft Dynamics 365 for Finance and Operations kunnen de attributen met verschillende kleinhandelsentiteiten zoals productcategorieën en kleinhandelskanalen zijn gekoppeld, en de standaardwaarden kunnen voor hen zijn ingesteld. De producten erven de kenmerken en standaardwaarden wanneer ze gekoppeld zijn met de productcategorieën of detailhandelskanalen. De standaardwaarden kunnen worden overschreven op het afzonderlijke productniveau, op het niveau van het detailhandelskanaal of in een detailshandelscatalogus.
 
 Een normaal televisieproduct kan bijvoorbeeld de volgende kenmerken hebben.
 
@@ -257,4 +256,3 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
 
     > [!NOTE]
     > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
-

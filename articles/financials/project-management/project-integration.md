@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-04
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 48feb0182c623714b2acffafc42016c0471ba6c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317471"
 ---
-
 # <a name="microsoft-project-client-integration"></a>Microsoft Project-clientintegratie
 
 [!include [banner](../includes/banner.md)]
@@ -33,17 +32,17 @@ ms.lasthandoff: 03/26/2018
 Een projectplanning plannen en onderhouden kan complex zijn, dus hebben projectmanagers hulpmiddelen nodig waarmee ze deze taak kunnen beheren. Integratie met Microsoft Project-client biedt ondersteuning voor het openen en beheren van een projectstructuur voor werkspecificatie. De projectmanager kan wijzigingen terug publiceren naar de projectstructuur voor werkspecificatie van Finance and Operations.
 
 > [!NOTE]
-> Als u werkt met de update voor juli van Microsoft Dynamics 365 for Finance and Operations, moet u KB 4054797 en 4055884 installeren.
+> Als u Microsoft Dynamics 365 for Finance and Operations, update van juli gebruikt, moet u KB 4054797 en 4055884 installeren.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>De invoegtoepassing voor de Microsoft Project-client configureren
-Om integratie met de Microsoft project-client mogelijk te maken is installatie van een Microsoft Dynamics 365-invoegtoepassing vereist in de Microsoft Project-clienttoepassing van de gebruiker. Dit wordt gedaan door de **werkruimte Projectbeheer** te openen.
+Om integratie met de Microsoft Project-client mogelijk te maken, is installatie van een Microsoft Dynamics 365-invoegtoepassing vereist in de Microsoft Project-clienttoepassing van de gebruiker. Dit wordt gedaan door de **werkruimte Projectbeheer** te openen.
 
 •   Klik op **De invoegtoepassing voor de Microsoft Project-client configureren** vanuit het gedeelte **Koppelingen** > **Instelling** van de werkruimte.
 
 •   Klik op **openen** en klik vervolgens op **Uitvoeren** wanneer dat wordt gevraagd.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Een bestaand concept van een structuur voor werkspecificatie openen en bewerken in de Microsoft project-client
-Als een project in Finance and Operations al een structuur voor werkspecificatie heeft gemaakt, kan de structuur voor werkspecificatie worden geopend in de Microsoft Project-clienttoepassing als de structuur voor werkspecificatie de conceptstatus heeft. Om te openen vanuit de pagina **Project**, klikt u op de koppeling **Openen in Microsoft Project** vanaf het tabblad **Plan**. Deze pagina kan ook worden geopend vanuit de clienttoepassing van Microsoft Project door te klikken op **Openen** op het tabblad **Microsoft Dynamics 365**. Selecteer de **rechtspersoon** en het **project** in de lijst.
+Als een project in Finance and Operations al een structuur voor werkspecificatie heeft gemaakt, kan de structuur voor werkspecificatie worden geopend in de Microsoft Project-clienttoepassing als de structuur voor werkspecificatie de conceptstatus heeft. Om te openen vanuit de pagina **Project**, klikt u op de koppeling **Openen in Microsoft Project** vanaf het tabblad **Plan**. Deze pagina kan ook worden geopend vanuit de clienttoepassing van Microsoft Project door te klikken op **Openen** op het tabblad **Microsoft Dynamics 365**. Selecteer de **Rechtspersoon** en het **Project** in de lijst.
 
 > [!NOTE]
 > Als u Internet Explorer als browser gebruikt, moet u klikken op **Opslaan** om handmatig te openen vanuit de locatie waarnaar het bestand is gedownload. Of klik op **Opslaan en openen** om het bestand te openen in de Microsoft project-client. Wijzig de bestandsnaam niet bij het opslaan.
@@ -89,7 +88,7 @@ Als u een nieuwe structuur voor werkspecificatie wilt maken met Microsoft Projec
 
 4.  Selecteer het **Project**.
 
-5.  Klik op **Uitchecken** op het tabblad **Microsoft Dynamics 365**.
+5.  Klik op **Uitchecken** op het tabblad **Microsoft Dynamics365**.
 
 6.  Als u klaar bent om te publiceren naar Finance and Operations, klikt u op **Inchecken** op het tabblad **Microsoft Dynamics 365**.
 
@@ -128,4 +127,3 @@ Als u een nieuwe structuur voor werkspecificatie wilt maken met behulp van de Mi
 8.  Selecteer de **kalender** die voor resourcing moet worden gebruikt.
 
 11. Klik tot slot op **OK**.
-

@@ -1,13 +1,13 @@
 ---
 title: Magazijnmedewerkers beheren
-description: In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
+description: In dit artikel wordt beschreven hoe u Dynamics 365 for Finance and Operations kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310985"
 ---
-
 # <a name="manage-warehouse-workers"></a>Magazijnmedewerkers beheren
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ De analyse van de tijd die wordt gebruikt om werkitems te verwerken, kan helpen 
 
 -   **Arbeid door gebruiker** - Dit rapport bevat werknemersproductiviteit op basis van werkelijke tijden, vergeleken met verwachte tijden.
 -   **Transactietype voor arbeid door werk** U kunt dit rapport gebruiken om ondoelmatigheden in specifieke magazijnprocessen te onderzoeken. U ziet bijvoorbeeld dat verzamelingen voor transferorders deze week langer duren dan in vorige weken. U kunt deze informatie vervolgens gebruiken voor verder onderzoek.
-
 
 
 

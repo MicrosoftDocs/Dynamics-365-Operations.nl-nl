@@ -5,9 +5,9 @@ author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: be5e512dcb23ce525439f11b7674cc35d7306159
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5caa5620db428f18d451fdfe2aeae9e2a76a24f8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322784"
 ---
-
 # <a name="inventory-statuses"></a>Voorraadstatussen
 
 [!include [banner](../includes/banner.md)]
@@ -50,4 +49,3 @@ Gebruik voor uitgaand werk artikelen met een beschikbare voorraadstatus. Als u a
 Nadat u voorraadstatussen hebt in gesteld, kunt u de standaardvoorraadstatus voor een locatie, artikel en magazijn instellen. U kunt ook een standaardstatus instellen voor verkoop-, transfer- en inkooporders. Voor de standaardstatus voor verkooporders en uitgaande transferorder kan niet de optie **Voorraadblokkering** zijn ingesteld op **Ja**. De voorraadstatus die wordt overgenomen van de standaardinstellingen op een locatie, magazijn, artikel, inkooporder, transferorder of verkooporder kan wordt gewijzigd met behulp van het mobiele apparaat of op de inkooporder-, verkooporder- of transferorderregel.
 
 Als u behoefteplanning voor artikelen wilt plannen met een beschikbare voorraadstatus, selecteert u de optie **In behoefteplan opnemen volgens dimensie** voor een opslagdimensie op de pagina **Opslagdimensiegroepen**. Wanneer u de wizard **Artikelbehoefteplanning** opent, worden artikelen met een beschikbare status op de pagina **Status** weergegeven. Om instellingen voor deze artikelen te maken, selecteer de ID van de voorraadstatus voor de beschikbare voorraadstatussen. Op basis van de instellingen, kunt u de artikelbehoeften berekenen en de vraag en aanbod van beschikbare artikelen maken tijdens de hoofdplanning. U kunt geen instelling voor artikelbehoefteplanning maken met een geblokkeerde voorraadstatus. U kunt ook de pagina **Artikelbehoefteplanning** gebruiken om de parameters voor de artikelbehoefteplanning te maken of te wijzigen.
-

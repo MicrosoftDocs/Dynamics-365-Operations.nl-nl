@@ -1,13 +1,13 @@
 ---
 title: Callcentercatalogi
-description: In dit onderwerp wordt de callcenterspecifieke functionaliteit voor catalogi beschreven in Microsoft Dynamics 365 for Retail.
+description: In dit onderwerp wordt de callcenterspecifieke functionaliteit voor catalogi in Microsoft Dynamics 365 for Retail beschreven.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322738"
 ---
-
 # <a name="call-center-catalogs"></a>Callcentercatalogi
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt de callcenterspecifieke functionaliteit, gekoppeld aan de catalogusmogelijkheden, beschreven in Microsoft Dynamics 365 for Retail.
+In dit onderwerp wordt de callcenterspecifieke functionaliteit beschreven die is gekoppeld aan de catalogusmogelijkheden in Microsoft Dynamics 365 for Retail.
 
 De catalogusfuncties van Dynamics 365 for Retail kunnen worden gebruikt voor meerdere doeleinden. De catalogusfuncties zijn in eerste instantie gemaakt ter ondersteuning van e-commerce-integraties van derden. Met catalogusinstelling konden bedrijven een groepering van producten en kenmerken maken die extern kunnen worden gepubliceerd voor gebruik door een e-commerceoplossing van derden.
 
@@ -102,4 +101,3 @@ Op het tabblad **Catalogi** zijn ook opties beschikbaar voor het configureren va
 ## <a name="additional-notes"></a>Verdere notities
 
 Momenteel, wanneer een broncode-ID wordt toegepast op een verkooporder in een callcenter, wordt deze gebruikt voor prijzen, promoties, scripts en upsells/cross-sells die catalogusspecifiek zijn. Het systeem verbiedt of voorkomt niet dat een product dat niet in de catalogus staat, wordt besteld op de verkooporder. Als een artikel wordt besteld dat geen deel uitmaakt van de catalogus, probeert het systeem eerst de **prijsgroep** te gebruiken die is gedefinieerd in het callcenterkanaal (**Detailhandel** \> **Afzetkanalen** \> **Callcenters** \> **Alle callcenters**) voor artikelprijs of promoties. Als er geen specifieke kanaalprijs wordt gevonden, wordt de basisverkoopprijs van het artikel gebruikt.
-

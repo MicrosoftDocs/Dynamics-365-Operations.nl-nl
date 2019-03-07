@@ -5,27 +5,26 @@ author: Darinkramer
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: cdf0893835c1ee9edd89c43b3c5c842d89e6d526
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303941"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (augustus 2018)
 
 [!include [banner](includes/banner.md)]
@@ -78,7 +77,7 @@ Met deze functie kunt u de basis van de toerekeningsperiode instellen op het pla
 
 Wanneer het inschrijvingsproces is geconfigureerd voor gebruik van specifieke werknemersdatums, wordt daarin de opgegeven datum gebruikt voor het berekenen van de toerekeningsperioden. De basis van de toerekeningsperiode wordt ook weergegeven in de planinschrijving van de werknemer zodat u beter begrijpt wat er wordt gebruikt tijdens het toerekeningsproces.
 
-## <a name="microsoft-word-integration"></a>Microsoft Word-integratie
+## <a name="microsoft-word-integration"></a>Integratie Microsoft Word
 
 Documentsjablonen zijn ingeschakeld in de gehele Core HR. Met deze functie kunt brieven en rapporten maken op basis van Word-sjablonen die u maakt.
 
@@ -88,4 +87,3 @@ Aanvullende informatie over deze functie is beschikbaar in de [Zelfstudie Office
 ## <a name="other-fixes"></a>Andere correcties
 
 Deze versie bevat een aantal correcties, de toevoeging van nieuwe entiteiten, correcties voor bestaande entiteiten en gelokaliseerde labelwijzigingen.
-

@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60c8b9b3a5aebed7e1a999335aab0baf83ea952a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ac64ece82abe75f3cba437b1ec1af499fbbce8e4
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337895"
 ---
-
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Een gedeeltelijke klantenbetaling met meerdere kortingsperioden vereffenen
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,6 @@ Het factuursaldo is nu 0,00. Arnie bekijkt de informatie op de pagina **Klanttra
 | DISC-10030 |  Contantkorting   | 6/28/2015 |         |                                      | 6,00                                  | 0,00    | USD      |
 | ARP-10031  |  Betaling         | 8-7-2015  |         |                                      | 693,00                                | 0,00    | USD      |
 | DISC-1031  |  Contantkorting   | 8-7-2015  |         |                                      | 7,00                                  | 0,00    | USD      |
-
 
 
 

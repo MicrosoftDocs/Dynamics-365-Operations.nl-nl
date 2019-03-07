@@ -1,13 +1,13 @@
---- 
+---
 title: Inkooporder maken
 description: Deze procedure laat zien hoe u een inkooporder handmatig maakt.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 50bf9927626a2a78a5f007b0b73d338585bbf9ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27ed15e6d9a376c4203e5446d056f221bd3eb730
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330903"
 ---
 # <a name="create-a-purchase-order"></a>Inkooporder maken
 
@@ -75,5 +75,4 @@ Deze procedure laat zien hoe u een inkooporder handmatig maakt. Het is gebruikel
     * Dit dialoogvenster bevat totalen voor de gehele order.  
     * Met het veld Selectie kunt u de basis wijzigen van de manier waarop totalen worden berekend. U kunt bijvoorbeeld Productontvangstbonhoeveelheid kiezen om totalen te tonen die gerelateerd zijn aan het bedrag van het product of de producten die is of zijn ontvangen, of u kunt Bestelde hoeveelheid kiezen om het bedrag van het bestelde product weer te geven.  
 2. Klik op OK.
-
 

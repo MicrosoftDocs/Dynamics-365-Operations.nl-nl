@@ -1,13 +1,13 @@
 ---
-title: Nieuwe of gewijzigde functies in Dynamics AX 7.0 (februari 2016)
-description: In dit artikel worden de functies beschreven die in de huidige uitgave van Microsoft Dynamics AX 7.0 nieuw of gewijzigd zijn. Deze versie bevat zowel platform- als toepassingsfuncties en werd uitgebracht in februari 2016.
+title: Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
+description: In dit artikel worden de functies beschreven die in Microsoft Dynamics AX 7.0 nieuw of gewijzigd zijn. Deze versie bevat zowel platform- als toepassingsfuncties en werd uitgebracht in februari 2016.
 author: sericks007
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334882"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nieuwe of gewijzigde functies in Dynamics AX 7.0 (februari 2016)
+# <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel worden de functies beschreven die in de huidige uitgave van Microsoft Dynamics AX 7.0 nieuw of gewijzigd zijn. Deze versie bevat zowel platform- als toepassingsfuncties en werd uitgebracht in februari 2016.
+In dit artikel worden de functies beschreven die in Microsoft Dynamics AX 7.0 nieuw of gewijzigd zijn. Deze versie bevat zowel platform- als toepassingsfuncties en werd uitgebracht in februari 2016.
 
 ## <a name="cost-management"></a>Kostenbeheer
 
@@ -213,7 +212,7 @@ Deze functie werkt onafhankelijk van kostprijsberekeningmethodes die aan het gep
 <td>U kunt financiële rapporten nu bekijken zonder daarvoor een andere client/toepassing te openen.</td>
 </tr>
 <tr>
-<td>Druk financiële rapporten (Management Reporter) af vanuit de Microsoft Dynamics AX-client.</td>
+<td>Financiële rapporten (Management Reporter) van de Microsoft Dynamics AX-client afdrukken.</td>
 <td>Bij het afdrukken van een rapport werden de afdrukopties van de browser gebruikt voor afdrukken en werd alleen afgedrukt wat gebruikers op het scherm kunnen zien.</td>
 <td>De gebruiker kan het detailniveau en de pagina-instelling voor een rapport kiezen via de optie Afdrukken in het financiële rapport in de Dynamics AX-client.</td>
 <td>Afgedrukte rapporten worden afgedrukt op de manier die gebruikers verwachten in plaats van dat een webpagina wordt afgedrukt.</td>
@@ -221,7 +220,7 @@ Deze functie werkt onafhankelijk van kostprijsberekeningmethodes die aan het gep
 <td>Analyseer financiële gegevens met het Power BI-inhoudpakket 'Financiële prestaties controleren'.</td>
 <td>Niet beschikbaar</td>
 <td>Selecteer in PowerBI.com <strong>Get Data</strong> en selecteer vervolgens het inhoudpakket <strong>Dynamics AX - Financial performance</strong>. Voer de URL voor uw Dynamics AX-eindpunt in om uw gegevens in het dashboard te bekijken.</td>
-<td>Met drie tot vier muisklikken kunnen organisaties een Power BI-dashboard met belangrijke financiële gegevens implementeren. De inhoud kan door de organisatie worden gepersonaliseerd.</td>
+<td>Met drie tot vier muisklikken kunnen organisaties een Power BI-dashboard met belangrijke financiële gegevens uitrollen. De inhoud kan door de organisatie worden gepersonaliseerd.</td>
 </tr>
 <tr>
 <td>Afsluitingsprocessen voor financiële periodes volgen</td>
@@ -500,7 +499,7 @@ Geen nieuwe functies zijn toegevoegd.
 <tr>
 <td>(EU) Betalingsadvies, bijbehorende notitie en beheerrapporten voor betalingen.</td>
 <td>Al deze rapporten zijn geïmplementeerd en SSRS-rapporten.</td>
-<td>Deze rapporten zijn geïmplementeerd als OpenXML-sjablonen voor gebruik in Microsoft Excel.</td>
+<td>Deze rapporten zijn geïmplementeerd als OpenXML-sjablonen voor gebruik in Microsoft Excell.</td>
 <td>Configuraties voor elektronische betaling bevatten instellingen en sjablonen voor betalingsbestandsindelingen. Hierdoor krijgen gebruikers alle voordelen en vrijheid in rapportaanpassingen geboden door het gebruik van Elektronische rapportage.</td>
 </tr>
 <tr>
@@ -550,7 +549,7 @@ Geen nieuwe functies zijn toegevoegd.
 | Waarschuw de gebruiker als een verkooporder of productieorder niet op de geplande datum gereed is voor levering. | De waarschuwingen die worden gemaakt door de hoofdplanning worden *vertragingsberichten* (futures messages) genoemd. Een *Futures* is een contract tussen twee partijen om een activum te kopen of te verkopen voor een prijs die vandaag is vastgesteld (de *futuresprijs*), maar waarvoor levering en betaling op een toekomstig tijdstip plaatsvinden (de *leveringsdatum*). | *Vertragingsberichten* en *Vertragingsdatums* worden nu respectievelijk *berekende vertragingen* en *vertragingsdatums* genoemd. | De terminologie die in AX 2012 werd gebruikt, is onnauwkeurig en leidde tot onjuiste vertalingen. |
 | Krijg snel inzicht in de status van een hoofdplanning, urgente geplande orders en geplande orders die vertragingen opleveren. | De informatie is beschikbaar, maar is verspreid over meerdere formulieren. | De werkruimte **Hoofdplanning** biedt in één oogopslag informatie over wanneer de laatste hoofdplanning is voltooid, of er fouten zijn opgetreden, welke urgent geplande orders er zijn en welke geplande orders vertragingen opleveren. | U profiteert van het overzicht dat de werkruimte biedt. Relevante informatie wordt samengebracht om de hoofdplanning te leiden en productiviteit te vergroten. |
 | Vraagprognoses bijwerken met Excel. | Niet beschikbaar | U kunt profiteren van naadloze integratie met Excel wanneer u vraagprognoses invoert, updates uitvoert en vraagprognoses verwijdert. | Dit helpt efficiëntie en de productiviteit te verhogen. |
-| Raam de toekomstige vraag en stel vraagprognoses op, aan de hand van historische transactiegegevens. | In Microsoft Dynamics AX 2012 R3 worden de prognosemodellen in Microsoft SQL Server Analysis Service gebruikt om de vraagprognose op te stellen. | Raam de toekomstige vraag dankzij de kracht en uitbreidbaarheid van een Microsoft Azure-cloudservice voor Machine Learning. Het is gemakkelijk in het gebruik en breidt de prognosemodellen in Machine Learning uit om te voldoen aan de behoeften van klanten. De service voert modelselectie op basis van best match uit en biedt Key Performance Indicators (KPI's) die kunnen worden gebruikt om de prognosenauwkeurigheid te berekenen. | Genereer nauwkeurigere prognoses met de Machine Learning-technieken. |
+| Raam de toekomstige vraag en stel vraagprognoses op, aan de hand van historische transactiegegevens. | In Microsoft Dynamics AX 2012 R3 worden de prognosemodellen in Microsoft SQL Server Analysis Service gebruikt voor het maken van de vraagprognosevoorspellingen. | Raam de toekomstige vraag dankzij de kracht en uitbreidbaarheid van een Microsoft Azure-cloudservice voor Machine Learning. Het is gemakkelijk in het gebruik en breidt de prognosemodellen in Machine Learning uit om te voldoen aan de behoeften van klanten. De service voert modelselectie op basis van best match uit en biedt Key Performance Indicators (KPI's) die kunnen worden gebruikt om de prognosenauwkeurigheid te berekenen. | Genereer nauwkeurigere prognoses met de Machine Learning-technieken. |
 | De orderdatum en -hoeveelheid optimaliseren, op basis van een visueel overzicht van verwante acties uit de uitvoering van de hoofdplanning. | De grafiek voor overzicht van acties is beschikbaar maar geeft alle verwante acties weer. Wanneer de acties worden toegepast, verdwijnen ze onmiddellijk uit de weergave. | De actiegrafiek bevat een beter overzicht. Het bevat opties waarmee u alleen toegepaste acties en direct verwante acties kunt weergeven. Wanneer de acties worden toegepast, worden ze lichter gekleurd maar nog steeds weergegeven. Daarmee behoudt u het overzicht. Aanvullende informatie wordt toegevoegd aan de actiegrafiek om de gegevens op één pagina weer te geven. | U ondervindt productiviteitsverbetering, omdat u zich alleen op de relevante acties hoeft te richten. |
 
 ## <a name="procurement-and-sourcing"></a>Inkoopbeheer
@@ -559,7 +558,7 @@ Geen nieuwe functies zijn toegevoegd.
 |------------------|------------------|-----------------|------------------------|
 | Gebruik de werkruimte **Voorbereiding van inkooporder** om snel inzicht te krijgen in de status van inkooporders die worden voorbereid. | Niet ondersteund | De werkruimte **Voorbereiding van inkooporder** biedt een overzicht van orders vanaf de tijd dat ze als concept worden gemaakt en getraceerd, door de statussen van de workflowgoedkeuring tot het moment van bevestiging. | Uw inkoopafdeling hoeft niet meer gegevens van meerdere pagina's op te vragen, maar profiteert nu van het overzicht dat de werkruimte biedt. |
 | Gebruik de werkruimte **Ontvangst en opvolging van inkooporders** om snel inzicht te krijgen in inkooporders die in afwachting van ontvangst zijn, om te helpen met het opvolgen. | Niet ondersteund | De werkruimte **Ontvangst en opvolging van inkooporders** geeft een overzicht van bevestigde inkooporders die in afwachting zijn van ontvangsten of verzendingen. De werkruimte bevat lijsten met uitstaande of in behandeling zijnde ontvangsten, die helpen bij pro-actieve controle opvolging door de leverancier. De werkruimte bevat ook lijsten met inkooporders waarvoor de aankomstregistratie in het magazijn is gebeurd, wat helpt waarborgen dat de ontvangst is geboekt. Retouren voor inkooporders die nog niet zijn verzonden, zijn ook beschikbaar voor controle. | Uw inkoopafdeling profiteert van het overzicht dat de werkruimte biedt. Relevante informatie wordt samengebracht om opvolging te leiden en productiviteit te vergroten. |
-| Verzend inkooporders ter bevestiging naar een leveranciersportal die wordt uitgevoerd in de Dynamics AX-client. De leverancier deze laten bevestigen of afwijzen. | Niet ondersteund | De leveranciersportalinterface laat leveranciers inkooporders ontvangen voor bevestiging of afwijzing. Het biedt ook de leverancier een overzicht van alle bevestigde inkooporders voor een account. De inkoper kan een inkooporder verzenden en bevestiging van de leverancier verzoeken. De leverancier moet een geregistreerde Microsoft Azure Active Directory-gebruiker (Azure AD) in Dynamics AX zijn, een contactpersoon voor de leverancier en een specifieke beveiligingsrol hebben. | Uw inkoopafdeling profiteert van minder papierwerk het handmatig volgen van antwoorden op inkooporders, aangezien deze rechtstreeks het systeem in worden gestuurd. Dankzij één bron voor de feiten kunnen minder misverstanden ontstaan tussen klant en leverancier. |
+| Verzend inkooporders ter bevestiging naar een leveranciersportal die wordt uitgevoerd in de Dynamics AX-client. De leverancier deze laten bevestigen of afwijzen. | Niet ondersteund | De leveranciersportalinterface laat leveranciers inkooporders ontvangen voor bevestiging of afwijzing. Het biedt ook de leverancier een overzicht van alle bevestigde inkooporders voor een account. De inkoper kan een inkooporder verzenden en bevestiging van de leverancier verzoeken. De leverancier moet een geregistreerde Microsoft Azure Active Directory (Azure AD)-gebruiker in Dynamics AX zijn, een contactpersoon voor de leverancier en een specifieke beveiligingsrol hebben. | Uw inkoopafdeling profiteert van minder papierwerk het handmatig volgen van antwoorden op inkooporders, aangezien deze rechtstreeks het systeem in worden gestuurd. Dankzij één bron voor de feiten kunnen minder misverstanden ontstaan tussen klant en leverancier. |
 
 ## <a name="projects"></a>Projecten
 
@@ -571,7 +570,7 @@ Geen nieuwe functies zijn toegevoegd.
 
 ### <a name="retail-hq"></a>Retail HQ
 
-Het in Microsoft Azure gehoste Retail HQ biedt gecentraliseerd beheer van en volledige zichtbaarheid in alle aspecten van commerciële handelingen door middel van een webclient.
+Microsoft Azure gehoste Retail HQ biedt gecentraliseerd beheer van en volledige zichtbaarheid in alle aspecten van commerciële handelingen door middel van een webclient.
 
 <table>
 <thead>
@@ -624,7 +623,7 @@ De werkruimte <strong>Catalogusbeheer</strong> maakt de volgende functionaliteit
 <ul>
 <li>Nieuwe kanalen en gerelateerde entiteiten maken en configureren.</li>
 <li>Dagelijkse winkelactiviteiten beheren.</li>
-<li>De detailhandelstransacties verwerken in Microsoft Dynamics AX, detailhandelsoverzichten genereren en gegevens voor financiën en vooraad in Microsoft Dynamics AX bijwerken.</li>
+<li>Detailhandelstransacties verwerken in Microsoft Dynamics AX, overzichten van detailhandel genereren en bijwerken van Microsoft Dynamics AX-voorraad en financiële gegevens.</li>
 </ul>
 </td>
 <td>In de werkruimte <strong>Afzetkanaalimplementatie</strong> kunt u de volgende taken uitvoeren:
@@ -680,7 +679,7 @@ De werkruimte <strong>Catalogusbeheer</strong> maakt de volgende functionaliteit
 <td>Verkoopgegevens van detailhandelkanalen analyseren door middel van het Power BI-inhoudpakket Monitor Retail Channel Performance.</td>
 <td>Niet beschikbaar</td>
 <td>Selecteer op PowerBI.com <strong>Get Data</strong> en selecteer vervolgens het inhoudpakket <strong>Dynamics AX - Retail Channel performance</strong>. Voer de URL voor uw Dynamics AX-eindpunt in om uw gegevens in het dashboard te bekijken.</td>
-<td>Met drie tot vier muisklikken kunnen organisaties een Power BI-dashboard met belangrijke financiële gegevens implementeren. De inhoud kan door de organisatie worden gepersonaliseerd. Daarnaast kunnen gebruikers dashboardtegels van Power BI in hun gepersonaliseerde werkruimten in Dynamics AX integreren, zodat zij analytische informatie in een oogopslag kunnen overzien.</td>
+<td>Met drie tot vier muisklikken kunnen organisaties een Power BI-dashboard met belangrijke financiële gegevens uitrollen. De inhoud kan door de organisatie worden gepersonaliseerd. Daarnaast kunnen gebruikers dashboardtegels van Power BI in hun gepersonaliseerde werkruimten in Dynamics AX integreren, zodat zij analytische informatie in een oogopslag kunnen overzien.</td>
 </tr>
 <tr>
 <td>Consumentenmachtigingen configureren.</td>
@@ -734,13 +733,13 @@ Met Retail Server en gegevensbeheer kunt klanten en bedrijven een shoppingervari
 <td>Het biedt gehoste en schaalbare e-commerceservices aan, die kunnen worden gebruikt met externe online winkels.</td>
 </tr>
 <tr>
-<td>Gegevens overzenden tussen de Microsoft Dynamics AX-backoffice en afzetkanalen door Commerce Data Exchange te gebruiken.</td>
-<td>Commerce Data Exchange is een systeem dat gegevens overzet tussen Microsoft Dynamics AX en afzetkanalen voor detailhandel, zoals online winkels of fysieke winkels. Voor meer informatie, zie <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Verplaatsen van gegevens tussen de Microsoft Dynamics AX-back-office en -kanalen met Commerce Data Exchange.</td>
+<td>Commerce Data Exchange is een systeem dat de gegevensoverdracht tussen Microsoft Dynamics AX en detailhandelkanalen, zoals onlinewinkels of fysieke winkels. Zie voor meer informatie <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Er is functionele pariteit met Microsoft Dynamics AX 2012 CU8. Houd echter rekening met het volgende:
 <ul>
 <li>Commerce Data Exchange is opnieuw ontworpen voor de cloud.</li>
 <li>De Async-service maakt gebruik van rechtstreekse databasetoegang tot de database van het afzetkanaal.</li>
-<li>Commerce Data Exchange: Real-time Service wordt gehost als een aangepaste Microsoft Dynamics AX-service.</li>
+<li>Commerce Data Exchange: Real-time Service wordt gehost als een Microsoft Dynamics AX aangepaste service.</li>
 <li>MPOS beheert synchronisatie tussen offlinedatabases en Retail Server.</li>
 </ul></td>
 <td>Commerce Data Exchange is opnieuw ontworpen voor het cloudplatform. Het beheert nog steeds het overzetten van gegevens tussen Microsoft Dynamics AX en afzetkanalen voor detailhandel, zoals online winkels of fysieke winkels.</td>
@@ -758,11 +757,11 @@ Met Retail Server en gegevensbeheer kunt klanten en bedrijven een shoppingervari
 <td>Hiermee kan de klant betaaltransacties met creditcards of betaalpassen verwerken.</td>
 </tr>
 <tr>
-<td>Activeer apparaten door een Microsoft-account te gebruiken (Microsoft Azure Active Directory (Azure AD)).</td>
+<td>Apparaten activeren met behulp van een Microsoft-account (Microsoft Azure Active Directory (Azure AD)).</td>
 <td>Niet beschikbaar</td>
 <td>De volgende functionaliteit is beschikbaar:
 <ul>
-<li>Verbeterde beveiliging door activering op basis van Azure AD voor de cloud.</li>
+<li>Verbeterde beveiliging door Azure AD-gebaseerde activering voor de cloud.</li>
 <li>Verbeterde beveiliging voor tokenbeheer.</li>
 <li>Betere betrouwbaarheid, probleemoplossing en verzending van foutberichten tijdens de activering</li>
 <li>Vereenvoudigde IT-beheertaken die verband houden met activering.</li>
@@ -928,7 +927,7 @@ Een op detailhandel en commerce gerichte configuratieoptie helpt bij het strooml
 <li>Pre-triggers en post-triggers waarmee u gemakkelijk een workflow kunt verlengen.</li>
 <li>Triggers voor toepassingen en bewerkingen.</li>
 </ul>
-Daarnaast is een raamwerk beschikbaar waarmee u deze componenten kunt maken en verpakken door MSBuild te gebruiken, en uw aanpassing vervolgens naadloos kunt implementeren via LCS (Microsoft Dynamics Lifecycle Services).</td>
+Daarnaast is een raamwerk beschikbaar waarmee u deze componenten kunt maken en verpakken door MSBuild te gebruiken, en uw aanpassing vervolgens naadloos kunt implementeren via Microsoft Dynamics Lifecycle Services (LCS).</td>
 <td>Detailhandelaren hebben zeer specifieke vereisten die zijn gebaseerd op verticalen en geografieën van hun activiteiten. Door een eenvoudig een uitbreidbaar platform te bieden, maken we mogelijk om dit te gebruiken voor de verschillende verticalen en markten. Omdat Retail ook een zeer gedistribueerde architectuur heeft, vergroot de mogelijkheid om voor naadloze implementatie de productiviteit aanzienlijk.</td>
 </tr>
 </tbody>
@@ -1034,4 +1033,3 @@ Geen nieuwe functies zijn toegevoegd.
 [Wat is nieuw of gewijzigd](whats-new-changed.md)
 
 [Nieuwe taakbegeleidingen beschikbaar (februari 2016)](new-task-guides-available-february-2016.md)
-

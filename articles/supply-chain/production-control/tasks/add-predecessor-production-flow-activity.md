@@ -1,13 +1,13 @@
---- 
+---
 title: Een voorafgaande taak toevoegen aan een productiestroomactiviteit
 description: In een productiestroomversie moeten alle activiteiten worden gerangschikt.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9acb1c2672af70f535f3dce1c8f5a97e8d479158
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d19fb20e8cc941daeaa506e4bf1cb0c7031cf2ee
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343668"
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>Een voorafgaande taak toevoegen aan een productiestroomactiviteit
 
@@ -51,5 +51,4 @@ Zie voor meer informatie de whitepaper "Production flows and activities in lean 
 4. Voer in het veld Cyclusduurverhouding een nummer in.
     * De standaard cyclusduurverhouding van een activiteitrelatie is 1. Hierbij wordt ervan uitgegaan dat beide activiteiten op dezelfde snelheid of takttijd worden uitgevoerd. Als de voorafgaande taak met een hoger tempo (lagere takttijd) wordt uitgevoerd, moet de verhouding lager zijn dan 1. Als de voorafgaande taak met een langzamer tempo (hogere takttijd) wordt uitgevoerd, is de cyclusduurverhouding groter is dan 1.  
 5. Klik op OK.
-
 

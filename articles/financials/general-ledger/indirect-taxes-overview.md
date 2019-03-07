@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11fe694af6180419460ba5dbf4c55f760a38f987
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311353"
 ---
-
 # <a name="sales-tax-overview"></a>Btw-overzicht
 
 [!include [banner](../includes/banner.md)]
@@ -73,7 +72,7 @@ Voor elke transactie (verkoop-/inkoopdocumentregels, journalen, enzovoort) moet 
 Voor elke transactie kunt u de berekende btw opzoeken door de pagina **Btw-transactie** te openen. U kunt de btw voor een documentregel of voor het hele document opzoeken. Voor bepaalde documenten (bijvoorbeeld leveranciersfacturen en algemene journalen) kunt u de berekende btw aanpassen als het oorspronkelijke document afwijkende bedragen bevat.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Btw-vereffening en -aangifte
-Btw moet regelmatig (maandelijks, per kwartaal, enzovoort) worden aangegeven bij en betaald aan btw-diensten. Microsoft Dynamics 365 for Finance and Operations biedt een functionaliteit waarmee u belastingrekeningen voor het interval kunt vereffenen en de saldi kunt boeken naar de btw-vereffeningsrekening, zoals opgegeven in de grootboekboekingsgroepen. U hebt toegang tot deze functionaliteit op de pagina **Btw vereffenen en boeken**. U moet de btw-vereffeningsperiode opgeven waarvoor btw moet worden vereffend. 
+Btw moet regelmatig (maandelijks, per kwartaal, enzovoort) worden aangegeven bij en betaald aan btw-diensten. Microsoft Dynamics 365 for Finance and Operations biedt een functie waarmee u belastingrekeningen voor het interval kunt vereffenen en de saldi kunt boeken naar de btw-vereffeningsrekening, zoals opgegeven in de grootboekboekingsgroepen. U hebt toegang tot deze functionaliteit op de pagina **Btw vereffenen en boeken**. U moet de btw-vereffeningsperiode opgeven waarvoor btw moet worden vereffend. 
 
 Nadat de btw is betaald, moet het saldo op de btw-vereffeningsrekening worden verrekend met de bankrekening. Als de btw-dienst die is opgegeven voor de btw-vereffeningsperiode aan een leveranciersrekening is gekoppeld, wordt het btw-saldo geboekt als openstaande leveranciersfactuur en kan deze in het normale betalingsvoorstel worden opgenomen.
 
@@ -97,4 +96,3 @@ Echter, als u een voorwaardelijke BTW gebruikt, hoeft u pas met de belastingdien
 
 
 Zie [Bronbelasting instellen](tasks/set-up-withholding-tax.md) voor meer informatie.
-

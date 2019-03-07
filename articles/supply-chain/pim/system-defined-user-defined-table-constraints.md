@@ -1,13 +1,13 @@
 ---
 title: Tabelbeperkingen door de gebruiker of door het systeem gedefinieerd
-description: "Dit artikel beschrijft de twee typen tabelbeperkingen voor onderdelen in een productconfiguratiemodel: gedefinieerd door de gebruiker en gedefinieerd door het systeem. Tabelbeperkingen vertegenwoordigen matrixen van de toegestane kenmerkcombinaties, waarbij elke rij één set van mogelijke kenmerkwaarden definieert."
+description: 'Dit artikel beschrijft de twee typen tabelbeperkingen voor onderdelen in een productconfiguratiemodel: gedefinieerd door de gebruiker en gedefinieerd door het systeem. Tabelbeperkingen vertegenwoordigen matrixen van de toegestane kenmerkcombinaties, waarbij elke rij één set van mogelijke kenmerkwaarden definieert.'
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2c29adc87b9ef435b714a46ba1a96ef8226759b6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: cd5fc329877bbb1f8f4ec26191e66914da29d034
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314987"
 ---
-
 # <a name="system-defined-and-user-defined-table-constraints"></a>Tabelbeperkingen door de gebruiker of door het systeem gedefinieerd
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ Voordat een tabelbeperking op een productconfiguratiemodel van kracht kan worden
 --------
 
 [Belangrijkste concepten in productconfiguratiemodellen](product-configuration-models.md)
-
 
 
 

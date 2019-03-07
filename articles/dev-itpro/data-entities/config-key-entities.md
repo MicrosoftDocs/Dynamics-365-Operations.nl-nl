@@ -1,13 +1,13 @@
 ---
 title: Configuratiesleutels en gegevensentiteiten
-description: Dit onderwerp beschrijft de relatie tussen configuratiesleutels en gegevensentiteiten in Microsoft Dynamics 365 for Finance and Operations.
+description: In dit onderwerp wordt de relatie tussen configuratiesleutels en gegevensentiteiten in Microsoft Dynamics 365 for Finance and Operations beschreven.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336469"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>Configuratiesleutels en gegevensentiteiten
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ Met de configuratiesleutelmetagegevens die worden gemaakt tijdens het vernieuwen
 Elke keer dat u configuratiesleutels bijwerkt op entiteit-, tabel- of veldniveau, moet de entiteitslijst in het gegevensbeheerframework worden vernieuwd. Dit proces zorgt ervoor dat het framework de meest recente configuratiesleutelinstellingen gebruikt. Totdat de entiteitslijst is vernieuwd, wordt de volgende waarschuwing weergegeven op de entiteitslijstpagina. De bijgewerkte configuratiesleutelwijzigingen gaan direct in nadat de entiteitslijst is vernieuwd. Het wordt aangeraden om bestaande gegevensprojecten en taken te valideren om zeker te weten dat ze werken zoals verwacht nadat de configuratiesleutelwijzigingen zijn ingegaan.
 
 ![Doelvelden](./media/Target_fields_3.png)
-

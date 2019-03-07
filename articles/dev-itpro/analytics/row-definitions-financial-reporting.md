@@ -1,13 +1,13 @@
 ---
-title: "Rijdefinities in Ontwerper financiële rapporten"
+title: Rijdefinities in Ontwerper financiële rapporten
 description: Een rijdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van elke rij in een financieel rapport wordt gespecificeerd. Een rijdefinitie kan worden gecombineerd met kolomdefinities, rapportagestructuurdefinities en rapportdefinities om een bouwsteengroep te maken die door meerdere bedrijven kan worden gebruikt.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350430"
 ---
-
 # <a name="row-definitions-in-financial-report-designer"></a>Rijdefinities in Ontwerper financiële rapporten
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Een rijdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van el
 Een rijdefinitie kan maximaal 20.000 financiële dimensierijen bevatten en kan de volgende informatie bevatten:
 
 - Beschrijvende tekst die betekenis geeft aan het rapport door sectiekopteksten, regels en spaties te maken, zoals **Contant geld** of **Totale opbrengst**
-- Koppelingen naar financiële gegevens die dimensiewaarden in Microsoft Dynamics 365 for Finance and Operations kunnen omvatten
+- Koppelingen naar financiële gegevens, die dimensiewaarden in Microsoft Dynamics 365 for Finance and Operations kunnen omvatten
 
     > [!NOTE]
     > U kunt een rijdefinitie configureren om elke keer dat het rapport wordt gegenereerd, gegevens op te halen uit het financiële dimensiesysteem.
@@ -158,7 +157,7 @@ U kunt lettertypen maken en wijzigen voor uw rapport. U kunt deze stijlen vervol
 
 ### <a name="format-row-text"></a>Tekst van rij opmaken
 
-De opmaak die in de rijdefinitie is opgegeven negeert de opmaak die in de kolomdefinitie en de rapportdefinitie is opgegeven. U kunt de tekstopmaak wijzigen met behulp van de besturingselementen op de werkbalk Opmaak. Deze besturingselementen zijn standaardbesturingselementen van Microsoft Windows.
+De opmaak die in de rijdefinitie is opgegeven negeert de opmaak die in de kolomdefinitie en de rapportdefinitie is opgegeven. U kunt de tekstopmaak wijzigen met behulp van de besturingselementen op de werkbalk Opmaak. Deze besturingselementen zijn standaard Microsoft Windows-besturingselementen.
 
 1. Open in Report Designer de rijdefinitie die u wilt wijzigen.
 2. Selecteer de cellen die u wilt opmaken. Als u meerdere cellen wilt selecteren, houdt u Ctrl ingedrukt terwijl u de cellen selecteert.
@@ -189,4 +188,3 @@ Om het gemakkelijker te maken om de kolommen waarin u werkt in de rijdefinitie w
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
-

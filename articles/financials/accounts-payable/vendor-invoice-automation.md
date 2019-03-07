@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6ea483a82b8215f0e6d8f420c007da349313daa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324509"
 ---
 # <a name="vendor-invoice-automation"></a>Automatisering van leveranciersfacturen
 
@@ -232,4 +232,3 @@ De volgende rollen bieden alleen-lezentoegang of tot de bijlageviewer voor deze 
 + **Leveranciersmedewerker** en **Leveranciersmanager** : de functie Leveranciersfacturen onderhouden is toegewezen aan deze rollen.
 
 Als de gebruikersrol bewerkingsrechten op een pagina biedt, heeft de gebruiker standaard ook bewerkingsrechten voor de bijlagenviewer voor de acties markeren, blokkeren en aantekeningen. Als er echter scenario's zijn waarin een specifieke rol moet beschikken over bewerkingsrechten voor de pagina, maar niet voor de bijlageviewer, kunnen de betreffende bevoegdheden uit de voorgaande lijst worden gebruikt om te voldoen aan de use-case.
-

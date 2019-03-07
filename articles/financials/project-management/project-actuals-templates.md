@@ -1,13 +1,13 @@
 ---
 title: Werkelijke projectwaarden rechtstreeks vanuit Project Service Automation synchroniseren met het projectintegratiejournaal in Finance and Operations
-description: In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om werkelijke projectwaarden rechtstreeks vanuit Microsoft Dynamics 365 for Project Service Automation te synchroniseren met Microsoft Dynamics 365 for Finance and Operations.
+description: Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebruikt om werkelijke waarden van projecten rechtstreeks van Microsoft Dynamics 365 for Project Service Automation naar Microsoft Dynamics 365 for Finance and Operations te synchroniseren.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343346"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Werkelijke projectwaarden rechtstreeks vanuit Project Service Automation synchroniseren met het projectintegratiejournaal in Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om werkelijke projectwaarden rechtstreeks vanuit Microsoft Dynamics 365 for Project Service Automation te synchroniseren met Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebruikt om werkelijke waarden van projecten rechtstreeks van Microsoft Dynamics 365 for Project Service Automation naar Microsoft Dynamics 365 for Finance and Operations te synchroniseren.
 
 De sjabloon synchroniseert transacties vanuit Project Service Automation in een faseringstabel in Finance and Operations. Nadat de synchronisatie is voltooid, **moet** u de gegevens importeren uit de faseringstabel naar het integratiejournaal.
 
 > [!NOTE]
-> - Werkelijke projectwaarden zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations versie 8.01 of hoger.
+> - Integratie van werkelijke waarden van het project is mogelijk in Microsoft Dynamics 365 for Finance and Operations versie 8.0.1 of hoger.
 > - Als u Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, 7.3.0 gebruikt, kunt u nadat u KB 4132657 en KB 4132660 hebt geïnstalleerd, de sjablonen gebruiken om projecttaken, onkostentransactiecategorieën, geraamde uren, geraamde onkosten en werkelijke waarden te integreren en om functionaliteitvergrendeling te configureren. Als u de boekhoudingsverdelingen opnieuw instellen moet, wordt u aangeraden ook KB 4131710 te installeren.
 > - Als u gebruikmaakt van Finance and Operations 7.3.0 en u bijzondere-kostentransacties overbrengt vanuit Project Service Automation, moet u KB 4345320 installeren om deze kosten op te nemen in de projectfactuur.
 > - Als u btw-bedragen op tijd invoert of onkostentransacties in Project Service Automation, moet u Project Service Automation Update 7 installeren. Anders worden de werkelijke btw-waarden niet gekoppeld aan de bijbehorende werkelijke tijd- of onkostenwaarden en worden zij niet gesynchroniseerd met Finance and Operations. Neem voor meer informatie contact op met de ondersteuning.
@@ -50,7 +50,7 @@ De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen 
 
 ### <a name="template-and-tasks"></a>Sjabloon en taken
 
-Verkrijg toegang tot de beschikbare sjablonen door in het Microsoft PowerApps-beheercentrum de optie **Projecten** te selecteren en vervolgens in de rechterbovenhoek **Nieuw project** te selecteren om openbare sjablonen te kiezen.
+Selecteer voor toegang tot de beschikbare sjablonen in het Microsoft PowerApps-beheercentrum de optie **Projecten** en selecteer vervolgens in de rechterbovenhoek de optie **Nieuw project** om openbare sjablonen te selecteren.
 
 De volgende sjabloon en onderliggende taken worden gebruikt voor het synchroniseren van werkelijke projectwaarden vanuit Project Service Automation naar Finance and Operations:
 
@@ -140,4 +140,3 @@ In de volgende afbeeldingen ziet u voorbeelden van de sjabloontaaktoewijzingen i
 [![Sjabloontoewijzing](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Sjabloontoewijzing](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

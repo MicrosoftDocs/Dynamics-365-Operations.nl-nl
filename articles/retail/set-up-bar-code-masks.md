@@ -5,9 +5,9 @@ author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340609"
 ---
-
 # <a name="set-up-bar-code-masks"></a>Streepjescodemaskers instellen
 
 [!include [banner](includes/banner.md)]
@@ -51,7 +50,7 @@ Streepjescodemaskers worden gebruikt om streepjescodes te maken en snel streepje
 | Werknemer         | Geeft het segment in de streepjescode aan met het id-nummer van werknemers, dat wordt gebruikt bij POS-aanmelding via streepjescode. |
 | Klant         | Geeft het segment met het klant-ID in de streepjescode aan. |
 | Gegevensinvoer       | *Nog niet geïmplementeerd.* |
-| Kortingscode    | *Afgeschaft* vanaf Dynamics 365 for Retail, versie lente 2017. Voorheen: Geeft de kortingscode aan voor een streepjescode die wordt gebruikt om een korting toe te voegen aan een POS-transactie. |
+| Kortingscode    | *Afgeschaft* vanaf de Dynamics 365 for Retail versie lente 2017. Voorheen: Geeft de kortingscode aan voor een streepjescode die wordt gebruikt om een korting toe te voegen aan een POS-transactie. |
 | Couponcode      | Geeft een couponcode voor een streepjescode aan, waarmee een korting wordt toegevoegd aan een detailhandelorder. Deze code vervangt de kortingscode. |
 | Geschenkbon        | Geeft een geschenkbonnummer aan bij de uitgifte van een geschenkbon of betaling daarmee. |
 | Loyaliteitskaart     | Voegt een loyaliteitsklant aan de transactie toe en kan worden gebruikt wanneer met een loyaliteitskaart wordt betaald. |
@@ -79,9 +78,8 @@ Streepjescodemaskers moeten worden toegewezen aan streepjescodes voordat ze kunn
 
 1. Ga naar **Organisatiebeheer** &gt; **Instellen** &gt; **Streepjescodes**. Klik op **Nieuw** om een nieuwe streepjescode te maken.
 2. Voer waarden in de velden **Instelling** **van streepjescodes** en **Instellen** in.
-3. Selecteer in de sectie **Algemeen** in het veld **Type streepjescode** de waarde 'Code 39'. Selecteer in het veld **Masker-****id** het masker 'Product' dat u eerder hebt gemaakt.
+3. Selecteer in de sectie **Algemeen** in het veld **Type streepjescode** de waarde 'Code 39'. Selecteer in het veld **Masker-id** het masker 'Product' dat u eerder hebt gemaakt.
 4. Voer onder **Grootte** de waarde '12' in.
 5. Klik op **Opslaan**.
 
 Het streepjescodemasker kan nu worden gebruikt voor het maken van streepjescodes voor producten. De bovenstaande stappen zijn voorbeelden van het maken van streepjescodemaskers voor producten, maar ze laten ook zien hoe u streepjescodemaskers maakt voor de andere ondersteunde typen streepjescode. U moet streepjescodemaskers, -typen en -lengte aanpassen voor gebruik in uw eigen omgeving.
-

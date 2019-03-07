@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 66e79389bba4566176330914ace462110cd0aa22
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0a57baa3ecae727721f62477cfc5fa41f60ad06d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336101"
 ---
-
 # <a name="configure-line-item-workflows"></a>Workflows voor regelitems configureren
 
 [!include [banner](../includes/banner.md)]
@@ -56,4 +55,3 @@ Volg deze stappen om op te geven of dezelfde workflow wordt gebruikt om alle reg
     6. Klik op **Testen** om te controleren of de door u ingevoerde set voorwaarden correct is ingesteld. Seelecteer op de pagina **Workflowvoorwaarde testen** in het gebied **Voorwaarde valideren** een record en klik op **Testen**. Het systeem evalueert de registratie en bepaalt of het voldoet aan de voorwaarden die u hebt gedefinieerd. Klik op **OK** of **Annuleren** om terug te gaan naar de pagina **Eigenschappen**.
 
     Selecteer op het tabblad **Workflow** de workflow die u wilt gebruiken om regelartikelen te verwerken die aan de set voorwaarden voldoen die u hebt gedefinieerd.
-

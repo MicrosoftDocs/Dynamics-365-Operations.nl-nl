@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350016"
 ---
-
 # <a name="vendor-collaboration-with-external-vendors"></a>Leverancierssamenwerking met externe leveranciers
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ De module **Leverancierssamenwerking** is bedoeld voor leveranciers die geen EDI
 Meer informatie over wat externe leveranciers kunnen doen in de interface voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> De informatie in dit onderwerp over leverancierssamenwerking geldt alleen voor de huidige versie van Finance and Operations. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Zie [Samenwerken met leveranciers met behulp van de leveranciersportal](collaborate-vendors-vendor-portal.md) voor informatie over de module **Leveranciersportal**.
+> De informatie in dit onderwerp over leverancierssamenwerking geldt alleen voor de huidige versie van Finance and Operations. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Zie [Samenwerken met leveranciers met behulp van de leveranciersportal](collaborate-vendors-vendor-portal.md) voor informatie over de module **Leveranciersportal**.
 
 Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
 
@@ -106,7 +105,7 @@ De inkooporder die naar de leverancier is verzonden en de status <strong>Externe
 </tr>
 <tr class="even">
 <td>De leverancier <strong>wijst de order af</strong>.</td>
-<td>Het leveranciersantwoord wordt geregistreerd als <strong>Afgewezen</strong>, maar de inkooporder behoudt de status <strong>Externe controle</strong>. De afwijzing wordt ontvangen samen met de leveranciersnotitie.</td>
+<td>Het leveranciersantwoord wordt geregistreerd als <strong>Afgewezen</strong>, maar de inkooporder behoudt de status <strong>Externe controle</strong>. De afwijzing wordt ontvangen met de leveranciersnotitie.</td>
 </tr>
 <tr class="odd">
 <td>De leverancier <strong>accepteert</strong> de order <strong>met wijzigingen</strong>. Wijzigingen worden voorgesteld op regelniveau. De leverancier kan afzonderlijke regels accepteren of afwijzen. Hier volgen enkele andere wijzigingen die de leverancier kan voorstellen:
@@ -260,4 +259,3 @@ De gebruiker die parameters voor het proces voor offerteaanvragen instelt, kan m
 - %createddate%
 
 Als een aanpassing vereist is en wordt verzonden nadat de offerteaanvraag is verzonden, wordt de offerteaanvraag opnieuw verzonden naar alle uitgenodigde leveranciers. Het gepubliceerde document wordt ook bijgewerkt op de pagina **Gepubliceerde offerteaanvragen openen**.
-

@@ -1,13 +1,13 @@
---- 
-title: "Bronmogelijkheden definiëren"
+---
+title: Bronmogelijkheden definiëren
 description: Resourcecapaciteiten beschrijven wat resources voor bedrijfsactiviteiten kunnen doen.
 author: sorenva
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0940883d0e9edf56e61b5ecd817062aac5e0f8a6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 99c230c0e6a580f77d863b6f0be298615966c479
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340149"
 ---
 # <a name="define-resource-capabilities"></a>Bronmogelijkheden definiëren
 
@@ -48,5 +48,4 @@ Resourcecapaciteiten beschrijven wat resources voor bedrijfsactiviteiten kunnen 
     * Wanneer u taken en bewerkingen plant, kunt u opgeven of u resources op prioriteit wilt selecteren. Als u dit kiest, en er meer dan één resource de taak of de bewerking op de gevraagde datum kan uitvoeren, wordt de resource met de laagste prioriteit met betrekking tot de vereiste capaciteit geselecteerd.  
 5. Voer een nummer in het veld Niveau in.
     * Wanneer u opgeeft dat een taak of bewerking een bepaalde capaciteit vereist, kunt u ook het minimum niveau opgeven dat nodig is. Gebruik het capaciteitsniveau om resources te onderscheiden die dezelfde taak kunnen uitvoeren, maar met verschillende snelheden, sterke punten, grootte, enzovoort.  
-
 

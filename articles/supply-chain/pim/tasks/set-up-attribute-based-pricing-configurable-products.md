@@ -1,13 +1,13 @@
---- 
+---
 title: Op kenmerken gebaseerde prijzen instellen voor configureerbare producten
 description: Deze procedure laat zien hoe u op kenmerken gebaseerde prijsdetails instelt.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8568b5f4933ae58bc2d55a169c798668e03bed2a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 88402bef6fd5dad38a74795cd31a4046085d6db7
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333778"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Op kenmerken gebaseerde prijzen instellen voor configureerbare producten
 
@@ -58,5 +58,4 @@ Deze procedure laat zien hoe u op kenmerken gebaseerde prijsdetails instelt. Als
     * Typ bijvoorbeeld 50.  
 9. Sluit de pagina.
 10. Sluit de pagina.
-
 

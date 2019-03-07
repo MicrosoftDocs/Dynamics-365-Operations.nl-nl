@@ -5,9 +5,9 @@ author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
+ms.openlocfilehash: 90bee2925f135b3d626ba898a0e9995b5b8437ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ae5ee60238b951779c7790870e6c6adfba55d7d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341069"
 ---
-
 # <a name="vendor-rebates"></a>Leverancierskortingen
 [!include [banner](../includes/banner.md)]
 
@@ -159,4 +158,3 @@ Het proces voor het verwerken van leverancierskortingen omvat meerdere, vaak saa
 - Nauwkeurige kortingsclaims genereren
 - De verwachte te ontvangen en tussentijdse winst boeken in het grootboek
 - Het saldo van de leverancier en het inkomstenoverzicht bijwerken met de vergoeding die verschuldigd is
-

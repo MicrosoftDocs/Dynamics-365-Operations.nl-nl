@@ -1,13 +1,13 @@
---- 
+---
 title: Geplande kanbantaken verplaatsen
 description: Deze procedure is gericht bij het verplaatsen van geplande proceskanbantaken naar een andere periode.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 11/07/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: f791c9048ef6efe1585c991f998099cd1fc12df7
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310847"
 ---
-
 # <a name="move-scheduled-kanban-jobs"></a>Geplande kanbantaken verplaatsen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -63,4 +62,3 @@ Deze procedure is gericht bij het verplaatsen van geplande proceskanbantaken naa
 2. Klik op **Vooruit**. Merk op dat de taak één regel omlaag in de lijst wordt verplaatst. 
 
 3. Klik op **Achteruit**. Merk op dat de taak één regel omhoog in de lijst wordt verplaatst.
-

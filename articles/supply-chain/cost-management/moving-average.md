@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348061"
 ---
-
 # <a name="moving-average"></a>Zwevend gemiddelde
 
 [!include [banner](../includes/banner.md)]
@@ -113,8 +112,7 @@ In dit voorbeeld van zwevend gemiddelde wordt het voorraadwaarderapport afgedruk
 | 8 oktober        | 8 oktober    | Herwaardering zwevend gemiddelde |          | 4,00   | 16,00             |
 |                  | 31 oktober   | Totaal                      | 2        | 32,00  | 16,00             |
 
- **Opmerking:** u kunt het grootboek niet op de voorraad afstemmen met de sorteeroptie **Transactietijd**. Het rapport moet worden afgedrukt met behulp van de optie **Boekingsdatum** .
-
+ **Opmerking:** u kunt het grootboek niet op de voorraad afstemmen met de sorteeroptie **Transactietijd**. Het rapport moet worden afgedrukt met behulp van de optie **Boekingsdatum** .
 
 
 

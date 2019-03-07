@@ -1,13 +1,13 @@
---- 
-title: "Nieuwe afdelingen definiëren"
+---
+title: Nieuwe afdelingen definiëren
 description: Afdelingen zijn operationele eenheden die een functioneel gebied van een bedrijf vertegenwoordigen, zoals verkoop of boekhouding.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6dedddf305e303de5b284b34420cd0eda5170ed1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342840"
 ---
 # <a name="define-new-departments"></a>Nieuwe afdelingen definiëren
 
@@ -51,5 +51,4 @@ Afdelingen zijn operationele eenheden die een functioneel gebied van een bedrijf
     * Bij het publiceren van de afdelingshiërarchie kunt u selecteren wanneer de wijzigingen van kracht worden. De wijzigingen kunnen in de toekomst worden uitgevoerd. U weet bijvoorbeeld misschien dat u aan het begin van uw fiscaal jaar een extra afdeling zult toevoegen. U kunt uw ingangsdatum instellen op het begin van het boekjaar. De wijzigingen aan de hiërarchie worden dan op de opgegeven datum van kracht.  
 16. Typ een waarde in het veld Wijzigingen omschrijven.
 17. Klik op Publiceren.
-
 

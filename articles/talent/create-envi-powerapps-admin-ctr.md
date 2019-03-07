@@ -5,26 +5,25 @@ author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 6f9b7ceef6895b295e6ae5a50d8ac7970497efe5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303949"
 ---
-
 # <a name="cant-create-an-environment-in-the-powerapps-admin-center"></a>Kan geen omgeving maken in het PowerApps-beheercentrum
 
 [!include [banner](includes/banner.md)]
@@ -41,10 +40,9 @@ Zorg ervoor dat de tenantbeheerder een geldige PowerApps P2-licentie heeft toege
 | Algemene product-SKU       | PowerApps P2-serviceplan  |
 |------------------------------------------------|----------------------------|
 | Microsoft Dynamics 365 for Operations          | PowerApps for Dynamics 365 |
-| Microsoft Dynamics 365-plan, Enterprise Edition | PowerApps for Dynamics 365 |
+| Microsoft Dynamics 365 Plan Enterprise Edition | PowerApps for Dynamics 365 |
 
 Houd er rekening mee dat verschillende Microsoft Office-SKU's ook dit recht verlenen, samen met zelfstandige PowerApps Plan 2-SKU's. Het belangrijkste is dat een van deze SKU's aanwezig moet zijn.
 
 1. Ga naar [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
 2. Maak de omgeving door de instructies in [Talent inrichten](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent) te volgen.
-

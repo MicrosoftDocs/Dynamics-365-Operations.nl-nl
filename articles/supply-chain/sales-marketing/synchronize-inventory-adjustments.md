@@ -1,48 +1,47 @@
 ---
 title: Voorraadoverboekingen en -correcties vanuit Field Service synchroniseren naar Finance and Operations
-description: In dit onderwerp komen de sjablonen en onderliggende taken voor het synchroniseren van voorraadcorrecties en -overboekingen vanuit Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Field Service aan de orde.
+description: In dit onderwerp worden de sjablonen en de onderliggende taken besproken die worden gebruikt om informatie over voorraadcorrecties en -overboekingen te synchroniseren van Microsoft Dynamics 365 for Finance and Operations met Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2018
+ms.date: 01/14/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
+ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
-ms.openlocfilehash: 79a1cfac3fa94223cc9af73e758ce95fd47065c9
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/20/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308363"
 ---
-
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>Voorraadcorrecties vanuit Field Service synchroniseren naar Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp komen de sjablonen en onderliggende taken voor het synchroniseren van voorraadcorrecties en -overboekingen vanuit Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Field Service aan de orde.
+In dit onderwerp worden de sjablonen en de onderliggende taken besproken die worden gebruikt om informatie over voorraadcorrecties en -overboekingen te synchroniseren van Microsoft Dynamics 365 for Finance and Operations met Microsoft Dynamics 365 for Field Service.
 
 [![Synchronisatie van zakelijke processen tussen Finance and Operations en Field Service](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
-De volgende sjabloon en onderliggende taken worden gebruikt voor het synchroniseren van voorraadcorrecties en -overboekingen vanuit Microsoft Dynamics 365 for Field Service naar Microsoft Dynamics 365 for Finance and Operations.
+De volgende sjabloon en onderliggende taken worden gebruikt om voorraadcorrecties en -overboekingen te synchroniseren van Microsoft Dynamics 365 for Field Service met Microsoft Dynamics 365 for Finance and Operations.
 
-**Naam van de sjablonen in Gegevensintegratie:**
+**Sjablonen in Gegevensintegratie**
 - Voorraadcorrectie (Field Service naar Finance and Operations)
 - Voorraadoverboekingen (Field Service naar Finance and Operations)
 
-**Namen van de taken in de projecten Gegevensintegratie:**
+**Taak in het project Gegevensintegratie**
 - Voorraadcorrecties
 - Voorraadoverboekingen
 
@@ -53,20 +52,20 @@ De volgende sjabloon en onderliggende taken worden gebruikt voor het synchronise
 | msdyn_inventoryadjustmentproducts | Kopteksten en regels van journaalnamen voor CDS-voorraadoverboeking   |
 
 ## <a name="entity-flow"></a>Entiteitstroom
-Voorraadcorrecties en -overboekingen die worden uitgevoerd in Field Service worden gesynchroniseerd naar Finance and Operations wanneer **Boekstatus** van Gemaakt is gewijzigd in Geboekt. Wanneer dit gebeurt, wordt de correctie- of overboekingsorder vergrendeld en alleen-lezen, aangezien correcties en overboekingen in Finance and Operations kunnen worden geboekt en dus niet kunnen worden gewijzigd.
-In Finance and Operations kunt u een batchverwerking instellen om automatisch de correcties te boeken en de voorraadjournalen over te boeken die zijn gegenereerd bij de integratie. Zie de vereiste hieronder voor meer informatie over het inschakelen van de batchtaak.
+Voorraadcorrecties en -overboekingen die worden uitgevoerd in Field Service, worden gesynchroniseerd met Finance and Operations nadat **Boekstatus** van **Gemaakt** is gewijzigd in **Geboekt**. Als dit gebeurt, wordt de correctie- of overboekingsorder vergrendeld en wordt deze alleen-lezen. Dit betekent dat correcties en overboekingen in Finance and Operations kunnen worden geboekt, maar niet kunnen worden gewijzigd. In Finance and Operations kunt u een batchtaak instellen om automatisch de correcties te boeken en overboekingsvoorraadjournalen over te boeken die zijn gegenereerd bij de integratie. Zie de volgende vereisten voor meer informatie over het inschakelen van de batchtaak.
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM-oplossing 
-Het veld Voorraadeenheid is toegevoegd aan de entiteit Product. Dit veld is vereist omdat de verkoop- en voorraadeenheid niet altijd overeenkomen in Operations en voor de magazijnvoorraad in Operations de voorraadeenheid nodig is.
-Wanneer u het product voor een voorraadcorrectieproduct instelt voor zowel voorraadcorrecties als voorraadoverboekingen, wordt de eenheid gebaseerd op het voorraadproduct. Als een waarde wordt gevonden, wordt het veld Eenheid vergrendeld voor het voorraadcorrectieproduct
+Het veld **Voorraadeenheid** is toegevoegd aan de entiteit **Product**. Dit veld is vereist omdat de verkoop- en voorraadeenheid niet altijd overeenkomt in Finance and Operations en de voorraadeenheid is nodig voor de magazijnvoorraad in Finance and Operations.
+Wanneer u het product voor een voorraadcorrectieproduct instelt voor zowel voorraadcorrecties als voorraadoverboekingen, wordt de eenheid gebaseerd op de voorraadproductwaarde. Als een waarde wordt gevonden, wordt het veld **Eenheid** vergrendeld voor het voorraadcorrectieproduct
 
-Het veld Boekstatus is toegevoegd aan de entiteit Voorraadcorrectie en de entiteit Voorraadoverdracht. Dit veld wordt gebruikt als een filter voor wanneer een correctie of overboeking wordt verzonden naar Operations. Het veld wordt standaard ingesteld op Gemaakt (1) en wordt vervolgens niet verzonden naar Operations. Wanneer u dit wijzigt in Geboekt (2), wordt dit verzonden naar Operations. In dat geval kunt u niets meer wijzigen in de correctie of overboeking of nieuwe regels toevoegen.
-Het veld Nummerreeks is toegevoegd aan de entiteit Voorraadcorrectieproduct. Hierdoor heeft de integratie een uniek nummer op basis waarvan kan worden bepaald of iets moet worden gemaakt of bijgewerkt. Wanneer u uw eerste voorraadcorrectieproduct maakt, wordt er een nieuwe record gemaakt in de P2C-entiteit Automatisch nummeren om de nummerreeks en het gebruikte voorvoegsel te behouden.
+Het veld **Boekstatus** is toegevoegd aan zowel de entiteit **Voorraadcorrectie** als de entiteit **Voorraadoverboeking**. Dit veld wordt gebruikt als een filter wanneer een correctie of overboeking wordt verzonden naar Finance and Operations. De standaardwaarde voor dit veld is Gemaakt (1), maar wordt niet verzonden naar Finance and Operations. Wanneer u de waarde wijzigt in Geboekt (2), wordt deze verzonden naar Finance and Operations, maar daarna kunt u de correctie of overboeking niet wjzigen of nieuwe regels toevoegen.
+
+Het veld **Nummerreeks** is toegevoegd aan de entiteit **Voorraadcorrectieproduct**. Dit veld zorgt ervoor dat de integratie een uniek nummer heeft, zodat de correctie kan worden gemaakt en bijgewerkt met de integratie. Wanneer u uw eerste voorraadcorrectieproduct maakt, wordt er een nieuwe record gemaakt in de P2C-entiteit **Automatisch nummeren** om de nummerreeks en het gebruikte voorvoegsel te behouden.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Vereisten en instellingen voor toewijzing
 
-### <a name="in-finance-and-operations"></a>In Finance and Operations
-De integratievoorraadjournalen die worden gegenereerd door de integratie kunnen automatisch worden geboekt met een batchtaak. Dit wordt ingeschakeld via: Voorraadbeheer > Periodieke taken > CDS-integratie > Voorraadjournalen voor integratie boeken
+### <a name="finance-and-operations"></a>Finance en Operations
+De integratievoorraadjournalen die worden gegenereerd door de integratie, kunnen automatisch worden geboekt met een batchtaak. Dit wordt ingeschakeld via **Voorraadbeheer > Periodieke taken > CDS-integratie > Voorraadjournalen voor integratie boeken**.
 
 ## <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
 
@@ -80,4 +79,3 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>Voorraadoverboeking (Field Service naar Finance and Operations): Voorraadoverboeking
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSTrans1.png)](./media/FSTrans1.png)
-

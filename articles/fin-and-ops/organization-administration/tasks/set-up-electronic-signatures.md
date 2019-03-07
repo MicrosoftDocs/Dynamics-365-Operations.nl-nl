@@ -1,13 +1,13 @@
---- 
+---
 title: Elektronische handtekeningen instellen
 description: Gebruik deze procedure om elektronische handtekeningen in te stellen.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysConfiguration, SIGParameters, SIGReasonCode, SIGProcSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: eb6bf529b1e94d598e219482f182140402f2928a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 11fee0b2358e6a2b84c221f8eb06e32c888e5f44
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318575"
 ---
 # <a name="set-up-electronic-signatures"></a>Elektronische handtekeningen instellen
 
@@ -77,5 +77,4 @@ Gebruik deze procedure om elektronische handtekeningen in te stellen. Met een el
     * Geef op wanneer een handtekening is vereist.     Selecteer Altijd als een handtekening vereist is wanneer de gegevens in het veld worden gewijzigd.     Selecteer Alleen als een handtekening alleen onder bepaalde voorwaarden vereist is. Als u Alleen selecteert, moet u een van de volgende opties ook selecteren: Wanneer een record wordt ingevoegd, Wanneer een record wordt bijgewerkt of Wanneer een record wordt verwijderd.  
 10. Klik op Opslaan.
 11. Sluit de pagina.
-
 

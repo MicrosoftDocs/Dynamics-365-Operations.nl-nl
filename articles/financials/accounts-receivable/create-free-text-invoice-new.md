@@ -1,13 +1,13 @@
---- 
+---
 title: Vrije-tekstfacturen maken
 description: In dit onderwerp wordt uitgelegd hoe u vrije-tekstfacturen maakt.
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
 ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332237"
 ---
-
 # <a name="create-free-text-invoices"></a>Vrije-tekstfacturen maken
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ Nadat u de regels hebt gekopieerd, kunt u de gegevens zo nodig bewerken.
 U kunt een vrije-tekstfactuur maken op basis van een sjabloon. Wanneer u **Nieuw van sjabloon** op het tabblad **Factuur** selecteert, kunt u een sjabloonnaam en de klantrekening voor de nieuwe vrije-tekstfactuur selecteren. Standaardwaarden, zoals de betalingsvoorwaarden en betalingsmethode, kunnen automatisch van de klant worden overgenomen, of u kunt de waarden gebruiken die zijn opgeslagen in de sjabloon.
 
 Er wordt een nieuwe vrije-tekstfactuur gemaakt en u kunt de waarden indien nodig bewerken.
-

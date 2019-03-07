@@ -5,9 +5,9 @@ author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346911"
 ---
-
 # <a name="my-team-mobile-workspace"></a>Mobiel werkgebied Mijn team
 
 [!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Mijn team**. In deze werkruimte kunnen managers hun directe ondergeschikten en uitgebreide personeel weergeven. Ze kunnen ook lof versturen voor personen in hun rapportageketen.
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations.
+Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Overzicht 
 Managers kunnen in het mobiele werkgebied **Mijn team** de volgende taken uitvoeren:
@@ -78,7 +77,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 ## <a name="sign-in-to-the-mobile-app"></a>Aanmelden bij de mobiele app
 1.  Start de app op uw mobiele apparaat.
-2.  Voer uw Microsoft Dynamics 365-URL in.
+2.  Voer uw URL voor Microsoft Dynamics365 in.
 3.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
@@ -99,4 +98,3 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 1.  Selecteer **Lovende kritiek verzenden**. 
 1. Voer de tekst in van de lovende kritiek die u wilt verzenden. 
 1. Selecteer **Gereed**.
-

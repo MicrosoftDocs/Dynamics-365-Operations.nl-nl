@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 7ccd5ce3e2ed58db8f13eebbcfa6fe5fb544d6c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75c0f5bcff0aae63aa8c7dae9b0767f8c7e6a81c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329454"
 ---
-
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Constante kosten voor een gefabriceerd artikel afschrijven
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ De hoeveelheid van de partijgrootte voor kostprijsberekening wordt gebruikt in e
 -   Opgegeven berekeningshoeveelheid in een orderspecifieke stuklijstberekening - Een orderspecifieke stuklijstberekening kan worden uitgevoerd voor een regelartikel op een verkooporder, verkoopofferte of serviceorder. De opgegeven berekeningshoeveelheid gebruikt de hoeveelheid van het oorspronkelijke regelartikel, maar de standaardhoeveelheid kan worden overschreven. U kunt selecteren of u wilt dat de orderspecifieke stuklijstberekening een Maken naar order-explosiemodus of een explosiemodus voor meerdere niveaus gebruikt.
 
 Het berekende bedrag van de afgeschreven constante kosten van een gefabriceerd artikel wordt toeslagen genoemd.
-
 
 
 

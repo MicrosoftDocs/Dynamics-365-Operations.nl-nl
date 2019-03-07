@@ -5,9 +5,9 @@ author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: a9578a0784d4f4fbfca27ec4093a3f61d1068a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 91713a4492ad82520f7dde611c17a5ea168ed80d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314964"
 ---
-
 # <a name="set-up-assortments"></a>Assortimenten instellen
 
 [!include [banner](includes/banner.md)]
@@ -56,4 +55,3 @@ Na het voltooien van de vereisten kunt u een assortiment maken en dit aan uw det
 2. Selecteer de detailhandelkanalen of de groepen detailhandelkanalen op hoog niveau waarop het assortiment van toepassing is.
 3. Productcategorieën, individuele producten of productvarianten toevoegen aan het assortiment. U kunt alle producten in een specifieke categorie plaatsen of u kunt geselecteerde producten uitsluiten van een categorie die is opgenomen in het assortiment.
 4. Assortiment publiceren. Wanneer u een assortiment publiceert, wordt de planner van het detailhandelassortiment automatisch uitgevoerd. Dit proces genereert de lijst van producten. Na het uitvoeren van dit proces, worden deze producten beschikbaar voor de detailhandelkanalen waar het productassortiment aan is toegewezen. Als wijzigingen zijn aangebracht aan een gepubliceerd assortiment of aan de detailhandelkanalen waar het assortiment aan is toegewezen, moet het assortiment worden bijgewerkt. Om het assortiment bij te werken wanneer wijzigingen worden aangebracht, kunt u de detailhandelassortimentplanner uitvoeren als batchtaak.
-
