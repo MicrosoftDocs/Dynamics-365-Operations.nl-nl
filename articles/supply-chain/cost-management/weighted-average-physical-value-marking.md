@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc70b9cffd8716bc1d90cdb611076b4fc0bf6b30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355674"
 ---
-
 # <a name="weighted-average-with-physical-value-and-marking"></a>Gewogen gemiddelde met fysieke waarde en markering
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@Eenheidsprijs.
 - Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
@@ -111,7 +110,7 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@Eenheidsprijs.
 - Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
@@ -140,7 +139,7 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@Eenheidsprijs.
 - Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
@@ -173,7 +172,7 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@Eenheidsprijs.
 - Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
@@ -221,14 +220,13 @@ In het volgende diagram wordt voor deze reeks transacties het effect geïllustre
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven of onder elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@"Unitprice".
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@"Eenheidsprijs".
 - Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
 - Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 - Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
 - Vereffeningen door voorraadafsluitingen worden aangegeven met rode stippelpijlen die diagonaal van een ontvangst naar een uitgifte lopen.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Een inkoopretourorder maken
-description: "Deze procedure laat zien hoe u een inkoopretourorder kunt maken door de actie Creditnota te gebruiken om regels van een leveranciersfactuurdocument naar een nieuwe inkooporder te kopiëren."
+description: Deze procedure laat zien hoe u een inkoopretourorder kunt maken door de actie Creditnota te gebruiken om regels van een leveranciersfactuurdocument naar een nieuwe inkooporder te kopiëren.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e080252006d889e2f27db2bccb7b541f3ee4cf9e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9124100f84afb13acc2ac9dda7b9483afb01754
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354133"
 ---
 # <a name="create-a-purchase-return-order"></a>Een inkoopretourorder maken
 
@@ -77,5 +77,4 @@ Deze procedure laat zien hoe u een inkoopretourorder kunt maken door de actie Cr
     * Dit veld wordt gebruikt om een verwijzing in te voeren die als boekstuk voor het productontvangstbonjournaal wordt gebruikt.  
 5. Klik op OK.
     * De goederen zijn nu geregistreerd als verzonden voor de inkoopretourorder, en er is een productontvangstbonjournaal gemaakt. U kunt de actie Productontvangstbon gebruiken om de journalen te controleren die voor de inkooporder zijn gemaakt en om te zien wat is ontvangen of geretourneerd, en wanneer.  
-
 

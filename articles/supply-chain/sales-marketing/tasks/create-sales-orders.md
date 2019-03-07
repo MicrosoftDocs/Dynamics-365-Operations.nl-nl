@@ -1,13 +1,13 @@
---- 
+---
 title: Verkooporders maken
 description: Deze procedure laat zien hoe u een verkooporder maakt.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8af0333d979ba3a4e12d4f22b1225f3b72d66a7a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4ccd2c4ace41f07dce14498031e3cc29ecb61b1c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352109"
 ---
 # <a name="create-sales-orders"></a>Verkooporders maken
 
@@ -68,5 +68,4 @@ Deze procedure laat zien hoe u een verkooporder maakt. U kunt deze procedure met
 2. Klik op Totalen.
     * De pagina Totalen bevat details over de gehele order. Dit omvat het subtotaalbedrag, wat een som is van alle regelnettobedragen, aangepast voor uiteindelijke regelkortingen, het totale factuurbedrag, dat een subtotaalbedrag is, aangepast voor uiteindelijke korting op orderniveau, toeslagen, btw, de situatie van de kredietlimiet van de klant, en meer.  Het factuurbedrag is het bedrag dat op het factuurdocument van de klant wordt weergegeven.  
 3. Klik op OK.
-
 

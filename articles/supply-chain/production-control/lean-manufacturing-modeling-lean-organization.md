@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 254616174d3f3c449e2a55dfc5f080d6276105b0
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350982"
 ---
-
 # <a name="modeling-a-lean-organization"></a>Een lean organisatie modelleren
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ In productiescenario's die zijn gebaseerd op productieorders, worden materialen 
 
 Om de leveringsdoorlooptijden te verkorten en overmatige voorraad die wordt veroorzaakt door batchproductie tussen werkplaatsen te reduceren, introduceert lean manufacturing kanbanaanvulling en supermarkten in productie en magazijnaanvulling. Deze functies onderbreken meestal de productie van gedeeltelijk onafhankelijke kanbancycli. De aanvulling van een kanban voor een halffabricaat wordt niet meer geactiveerd door een order voor een eindproduct. 
 
-Om een productie- en kostprijscontext te maken voor de verschillende kanbanscenario's die worden voorgesteld in Microsoft Dynamics 365 for Finance and Operations zijn activiteitgebaseerde productiestromen geïntroduceerd als de basis van lean manufacturing. Alle kanbanregels verwijzen naar deze vooraf gedefinieerde structuur. Het op activiteit gebaseerde model ondersteunt de instelling van een grote verscheidenheid aan scenario's. Dit model voegt echter geen complexiteit toe voor de werkvloerwerknemers, omdat alle scenario's gebruikmaken van dezelfde op activiteiten gebaseerde gebruikersinterface.
+Om een productie- en kostprijs-context te maken voor de verschillende kanbanscenario's die worden voorgesteld in Microsoft Dynamics 365 for Finance and Operations, zijn de activiteitgebaseerde productiestromen geïntroduceerd als de basis van lean manufacturing. Alle kanbanregels verwijzen naar deze vooraf gedefinieerde structuur. Het op activiteit gebaseerde model ondersteunt de instelling van een grote verscheidenheid aan scenario's. Dit model voegt echter geen complexiteit toe voor de werkvloerwerknemers, omdat alle scenario's gebruikmaken van dezelfde op activiteiten gebaseerde gebruikersinterface.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Halffabricaten (niet-stuklijstniveaus)
 Lean manufacturing integreert kanbans voor geïnventariseerde producten en halffabricaten in één raamwerk, en biedt daarmee een uniforme gebruikerservaring voor alle aanvragen. Vanwege deze architectuur, hoeven geen extra stuklijstniveaus meer te worden opgegeven om het gebruik van kanbans mogelijk te maken voor halffabricaten. Deze architectuur helpt tevens de voorraadtransacties tot een minimum te beperken.
@@ -65,7 +64,6 @@ Om u doorlopende betere ondersteuning te kunnen bieden, worden de productiestrom
 
 ## <a name="simplicity"></a>Eenvoud
 Voor de implementatie van Lean Manufacturing hebben we een productiestroom- en -activiteitbenadering gekozen die modellering mogelijk maakt van eenvoudige en complexe productiescenario's in één schaalbare architectuur. Een nauwkeuriger blik op het concept activiteit toont een nieuwe eenvoud voor de gebruikers die dit nodig hebben: de werkvloer en de logistiekwerknemers. Door op basis van op activiteit gebaseerde taken te rapporteren in plaats van op voorraadtransacties, verplaatst een gecombineerde gebruikersinterface voor alle lean manufacturing-varianten de bedrijfscomplexiteit van de gebruikersinterface naar waar deze thuishoort: de productiestroom als backbone van lean manufacturing.
-
 
 
 

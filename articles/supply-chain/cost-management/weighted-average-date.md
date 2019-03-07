@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355398"
 ---
-
 # <a name="weighted-average-date"></a>Datum gewogen gemiddelde
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Als er slechts één ontvangst heeft plaatsgevonden op of vóór de datum, hoeft
 
 De kostprijsberekeningsmethode datum gewogen gemiddelde wordt berekend met behulp van de volgende formule: 
 
-Gewogen gemiddelde = (\[KW1 × P1\] + \[KW2 × P2\] + \[KW*n* × P*n*\]) ÷ (KW1 + KW2 + KW*n*) 
+Gewogen gemiddelde = (\[KW1 × P1\] + \[KW2 × P2\] + \[KW*n* × P*n*\]) ÷ (KW1 + KW2 + KW*n*) 
 
 Tijdens de voorraadafsluiting wordt de berekening elke dag via de afsluitperiode uitgevoerd, zoals in de volgende afbeelding wordt weergegeven. 
 
@@ -54,7 +53,7 @@ Voorraadtransacties die de voorraad verlaten, zoals verkooporders, voorraadjourn
 
 Vereffeningen zijn voorraadafsluitingsboekingen die de uitgiften vanaf de sluitingsdatum bijwerken met het juiste gewogen gemiddelde. 
 
-**Notitie:** Voor meer informatie over voorraadafsluitingen raadpleegt u het artikel over voorraadafsluiting. De volgende voorbeelden laten het effect zien van het gebruik van gewogen gemiddelden bij vijf configuraties:
+**Notitie:** Voor meer informatie over voorraadafsluitingen raadpleegt u het artikel over voorraadafsluiting. De volgende voorbeelden laten het effect zien van het gebruik van gewogen gemiddelden bij vijf configuraties:
 
 -   Datum gewogen gemiddelde directe vereffening zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt
 -   Datum gewogen gemiddelde samengevatte vereffening zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt
@@ -168,7 +167,7 @@ De afdeling Klantenservice heeft een spoedorder van een belangrijke klant aangen
 U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie wordt geboekt. U kunt dit doen vanaf een verkooporderregel op de pagina **Details verkooporder**. U kunt de openstaande ontvangsttransacties bekijken op de pagina **Markering**. U kunt een uitgiftetransactie aan een ontvangst koppelen nadat de transactie is geboekt. U kunt een uitgiftetransactie voor een openstaande ontvangsttransactie voor een geïnventariseerd artikel afstemmen of markeren vanuit een geboekt voorraadcorrectiejournaal. De volgende afbeelding geeft deze transacties weer:
 
 -   1a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
--   1b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
+-   1a. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
 -   2a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 20,00 per stuk.
 -   2b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een prijs van USD 20,00 per stuk.
 -   3a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 25,00 per stuk.
@@ -195,7 +194,6 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en 
 -   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 -   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
 -   Vereffeningen door voorraadafsluitingen worden weergegeven met rode stippelpijlen die diagonaal van een ontvangst naar een uitgifte lopen.
-
 
 
 

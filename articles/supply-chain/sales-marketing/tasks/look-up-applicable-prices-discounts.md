@@ -1,13 +1,13 @@
---- 
+---
 title: Van toepassing zijnde prijzen en kortingen opzoeken
 description: Deze procedure laat zien hoe u de prijs en/of de korting vindt voor een product dat momenteel geldig is voor een specifieke klant, zonder een verkooporder te maken.
 author: omulvad
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ba95e651898da0e0fbd1221f61436ffac59db09e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 7ef63151f352b3664bccd7a59e7417dfddc7470b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/02/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359860"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Van toepassing zijnde prijzen en kortingen opzoeken
 
@@ -59,5 +59,4 @@ Deze procedure laat zien hoe u de prijs en/of de korting vindt voor een product 
 3. Klik op Regelkorting weergeven.
     * Er zijn twee regelkortingovereenkomsten voor product T0012, die een korting van 5% opgeven voor een orderregelhoeveelheid van 1 tot 10, en een korting van 7% voor orderhoeveelheden boven 10. Merk op dat de kortingen worden toegepast op een groep producten, in dit voorbeeld groepscode 01, waarvan product T0012 lid is.  
 4. Sluit de pagina.
-
 

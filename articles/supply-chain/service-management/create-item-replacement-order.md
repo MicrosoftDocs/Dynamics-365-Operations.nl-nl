@@ -1,30 +1,29 @@
 ---
 title: Een order maken voor het vervangen van een artikel
-description: "Artikelvervangingsorders worden meestal gemaakt wanneer een product is geretourneerd en geïnspecteerd."
+description: Artikelvervangingsorders worden meestal gemaakt wanneer een product is geretourneerd en geïnspecteerd.
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 784a2522c27e8131f211ffc52319552b3b928cc3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f0cd629658972f98e2233dfa287940c4444b82a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355007"
 ---
-
 # <a name="create-an-item-replacement-order"></a>Een order maken voor het vervangen van een artikel 
 
 [!include [banner](../includes/banner.md)]
@@ -66,6 +65,5 @@ Artikelvervangingsorders worden meestal gemaakt wanneer een product is geretourn
     
     Als de id van de verkoopovereenkomst automatisch wordt weergegeven in het veld **Verkoopovereenkomst-ID**, is de verkoopovereenkomst gekoppeld aan de koptekst van de verkooporder voor het vervangingsorder voor het artikel. Als er een verbintenis van toepassing is in de verkoopovereenkomst die nog niet is voldaan en de verkooporder wordt gemaakt voordat de verkoopovereenkomst verloopt, wordt een koppeling gemaakt tussen de verkoopovereenkomstregel en de verkooporderregel. Daarom wordt informatie van de verkoopovereenkomst, zoals artikelprijs, gekopieerd naar de nieuwe verkooporderregel. 
   
-
 
 

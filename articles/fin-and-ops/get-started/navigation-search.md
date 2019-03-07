@@ -1,13 +1,13 @@
 ---
 title: Navigatiezoekfunctie
-description: In dit onderwerp wordt beschreven hoe u de zoekfunctionaliteit gebruikt om naar pagina's in Microsoft Dynamics 365 for Finance and Operations te navigeren.
+description: In dit onderwerp wordt uitgelegd hoe u met de zoekfunctionaliteit naar pagina's navigeert in Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353006"
 ---
-
 # <a name="navigation-search"></a>Navigatiezoekfunctie
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u de zoekfunctionaliteit gebruikt om naar pagina's in Microsoft Dynamics 365 for Finance and Operations te navigeren.
+In dit onderwerp wordt uitgelegd hoe u met de zoekfunctionaliteit naar pagina's navigeert in Microsoft Dynamics 365 for Finance and Operations.
 
 Finance and Operations bevat functionaliteit voor een uitgebreid aantal bedrijfstakken en verticalen. De toepassing bevat een aantal gebieden en pagina's waarmee u verschillende taken kunt uitvoeren. Met de navigatiezoekfunctie kunt u snel de pagina's vinden die u nodig hebt om uw taken uit te voeren.
 
@@ -64,4 +63,3 @@ De lijst van de zoekresultaten is beperkt tot 10 items. Als in de resultaten nie
 ## <a name="development"></a>Ontwikkeling
 
 Vanuit ontwikkelingsperspectief is de navigatiezoekfunctionaliteit heel handig te leveren omdat er vrijwel geen vertraging is tussen de levering van menuopdrachten en het vermogen te verschijnen in de zoekresultaten. Zolang de menu-items aan het navigatievenster of het dashboard zijn gekoppeld, worden ze automatisch doorzoekbaar.
-

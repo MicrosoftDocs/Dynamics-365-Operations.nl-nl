@@ -5,9 +5,9 @@ author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 431d654aaffc27d54fd590dc7d5d2ab6c2313908
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361654"
 ---
-
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Fiscale kalenders, boekjaren en boekperioden
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ Budgetcycli geven aan hoelang een budget wordt gebruikt. Budgetcycli kunnen een 
 
 ## <a name="maintain-periods-for-your-organization"></a>Perioden voor uw organisatie onderhouden
 Met de pagina Grootboekkalender kunt u de details bekijken van de fiscale kalender, boekjaren en boekperioden die door uw organisatie worden gebruikt. U kunt ook de status van de perioden wijzigen en selecteren welke gebruikers boekhoudtransacties naar perioden kunnen boeken. Aan het begin van een nieuwe periode wilt u misschien dat een groep gebruikers het boeken van financiële transacties in de voorgaande periode kan afmaken, terwijl andere groepen alleen in de nieuwe periode kunnen werken.
-
 
 
 

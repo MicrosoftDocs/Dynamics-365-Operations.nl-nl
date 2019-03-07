@@ -5,9 +5,9 @@ author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360205"
 ---
-
 # <a name="data-import-and-export-jobs"></a>Gegevensimport- en exporttaken
 
 [!include [banner](../includes/banner.md)]
 
-Als u gegevensimport- en exporttaken wilt maken en beheren in Microsoft Dynamics 365 for Finance and Operations, gebruikt u het werkgebied **Gegevensbeheer**. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
+Gebruik het werkgebied **Gegevensbeheer** in Microsoft Dynamics 365 for Finance and Operations om taken voor het importeren en exporteren van gegevens te maken en te beheren. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
 
 > [!NOTE]
 > Dit onderwerp gaat ervanuit dat u vertrouwd bent met [gegevensentiteiten](data-entities.md).
@@ -158,4 +157,3 @@ U kunt faseringstabellen opschonen met de functie **Fasering opschonen** in het 
 - **Gegevensprojecten**: als alleen een gegevensproject is geselecteerd, worden alle records voor alle entiteiten en in alle taken voor het geselecteerde gegevensproject verwijderd.
 
 U kunt de opties ook combineren om verder te beperken welke recordset wordt verwijderd.
-

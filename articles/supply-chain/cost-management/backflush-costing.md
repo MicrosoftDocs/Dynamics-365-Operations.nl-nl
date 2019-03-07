@@ -1,13 +1,13 @@
 ---
 title: Kostprijsberekening via terugwaarts afboeken
-description: "In dit onderwerp wordt het concept van kostprijsberekening via terugwaarts afboeken geïntroduceerd dat wordt gebruikt voor Lean manufacturing."
+description: In dit onderwerp wordt het concept van kostprijsberekening via terugwaarts afboeken geïntroduceerd dat wordt gebruikt voor Lean manufacturing.
 author: cvocph
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9fe717752da4c697cf0d896c0d40832330f0d118
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352707"
 ---
-
 # <a name="backflush-costing"></a>Kostprijsberekening via terugwaarts afboeken
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Voor producten die uit een productiestroom zijn geleverd, moet de stuklijstberek
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Berekening die is gebaseerd op de productiestroom
 
-Lean manufacturing voor Microsoft Dynamics 365 for Finance and Operations is onafhankelijk van routes. De kostenberekening voor producten die worden geleverd vanuit een productiestroom kan worden gebaseerd op de productiestroom zelf. Voordat de berekening kan worden uitgevoerd, moet een kanbanregel worden gemaakt die het product levert vanuit de productiestroom. Als een product op de berekeningsdatum uit meerdere productiestromen op dezelfde locatie kan worden geleverd, kunt u de productiestroom voor de stuklijstberekening selecteren. Op de pagina **Standaardproductiestroom** kunt u een standaardproductiestroom configureren voor elk artikel. Als er meerdere kanbanregels bestaan voor hetzelfde product in dezelfde productiestroom die actief is op de berekeningsdatum, selecteert de berekening de eerste kanbanregel die actief is voor de berekening.
+Lean manufacturing voor Microsoft Dynamics 365 for Finance and Operations is niet afhankelijk van routes. De kostenberekening voor producten die worden geleverd vanuit een productiestroom kan worden gebaseerd op de productiestroom zelf. Voordat de berekening kan worden uitgevoerd, moet een kanbanregel worden gemaakt die het product levert vanuit de productiestroom. Als een product op de berekeningsdatum uit meerdere productiestromen op dezelfde locatie kan worden geleverd, kunt u de productiestroom voor de stuklijstberekening selecteren. Op de pagina **Standaardproductiestroom** kunt u een standaardproductiestroom configureren voor elk artikel. Als er meerdere kanbanregels bestaan voor hetzelfde product in dezelfde productiestroom die actief is op de berekeningsdatum, selecteert de berekening de eerste kanbanregel die actief is voor de berekening.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Berekening die is gebaseerd op de route
 
@@ -122,7 +121,6 @@ U moet kostprijsberekening via terugwaarts afboeken uitvoeren om periodiek de wa
     -   Alle indirecte kosten die zijn berekend voor het verbruikte materiaal binnen de periode wordt berekend en afgetrokken van het OHW. De resterende indirecte kosten worden geboekt als een afwijking.
 
 5.  Bereken de productieafwijkingen van standaardkosten. De afwijking wordt berekend per kostengroep.
-
 
 
 

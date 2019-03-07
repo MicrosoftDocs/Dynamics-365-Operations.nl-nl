@@ -1,13 +1,13 @@
 ---
-title: Analyses aan werkgebieden toevoegen met behulp van Power BI Embedded
+title: Analyses aan werkgebieden toevoegen met Power BI Embedded
 description: In dit onderwerp wordt beschreven hoe u een Power BI-rapport insluit op het tabblad Analyses van een werkgebied.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355214"
 ---
-
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met behulp van Power BI Embedded
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +34,7 @@ In dit onderwerp wordt beschreven hoe u een Microsoft Power BI-rapport insluit o
 
 ## <a name="prerequisites"></a>Vereisten
 + Open een ontwikkelaaromgeving waarop Platformupdate 8 of hoger wordt uitgevoerd.
-+ Een analyserapport (.pbix-bestand) dat is gemaakt met Microsoft Power BI-bureaublad en dat een gegevensmodel bevat dat de entiteitsopslagdatabase als bron heeft.
++ Een analyserapport (.pbix-bestand) dat is gemaakt met Microsoft Power BI Desktop-bureaublad en dat een gegevensmodel bevat dat de entiteitsopslagdatabase als bron heeft.
 
 ## <a name="overview"></a>Overzicht
 Of u een bestaand werkgebied van de toepassing uitbreidt of een nieuw werkgebied introduceert, u kunt in beide de ingesloten analytische weergaven gebruiken om begrijpelijke en interactieve weergaven van uw zakelijke gegevens te maken. Het proces voor het toevoegen van een analytisch werkgebiedtabblad bestaat uit vier stappen.
@@ -46,12 +45,12 @@ Of u een bestaand werkgebied van de toepassing uitbreidt of een nieuw werkgebied
 4. Optioneel: voeg extensies toe om de weergave aan te passen.
 
 > [!NOTE]
-> Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Deze pagina bevat veel inzichten waarmee u aantrekkelijke analytische rapportoplossingen kunt maken.
+> Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI Desktop-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Deze pagina bevat veel inzichten waarmee u aantrekkelijke analytische rapportoplossingen kunt maken.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Een .pbix-bestand toevoegen als een resource
-Voordat u begint, moet u het Power BI-rapport dat u in het werkgebied wilt insluiten, maken of ophalen. Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Voordat u begint, moet u het Power BI-rapport dat u in het werkgebied wilt insluiten, maken of ophalen. Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI Desktop-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
 
-Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio projectartefact.
+Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio-projectartefact.
 
 1. Maak een nieuw project in het juiste model.
 2. Selecteer het project in Solution Explorer, klik met de rechtermuisknop en selecteer **Toevoegen** \> **Nieuw artikel**.
@@ -177,4 +176,3 @@ public static void initializeReportControl(
 | showFilterPane   | Een Booleaanse waarde die aangeeft of het filtervenster moet worden weergegeven (**true**) of verborgen (**false**).     |
 | showNavPane      | Een Booleaanse waarde die aangeeft of het navigatievenster moet worden weergegeven (**true**) of verborgen (**false**). |
 | defaultFilters   | De standaardfilters voor het Power BI-rapport.                                                                 |
-

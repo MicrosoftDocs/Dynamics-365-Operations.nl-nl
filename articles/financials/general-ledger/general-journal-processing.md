@@ -1,13 +1,13 @@
 ---
 title: Algemene journaalverwerking
-description: In dit onderwerp worden de mogelijkheden in Microsoft Dynamics 365 for Finance and Operations beschreven waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.
+description: Dit onderwerp beschrijft capaciteiten in Microsoft Dynamics 365 for Finance and Operations die kunnen helpen algemene journaalverwerking eenvoudiger te maken en dat ook kan helpen waarborgen dat de juiste gegevens worden vastgelegd en dat geen inbreuk wordt gemaakt op de interne controle.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358434"
 ---
-
 # <a name="general-journal-processing"></a>Algemene journaalverwerking
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de mogelijkheden in Microsoft Dynamics 365 for Finance and Operations beschreven waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.  
+Dit onderwerp beschrijft capaciteiten in Microsoft Dynamics 365 for Finance and Operations die kunnen helpen algemene journaalverwerking eenvoudiger te maken en dat ook kan helpen waarborgen dat de juiste gegevens worden vastgelegd en dat geen inbreuk wordt gemaakt op de interne controle.  
 
 ## <a name="journal-names"></a>Journaalnamen
 
@@ -97,4 +96,3 @@ Zie de volgende onderwerpen voor meer informatie:
 U kunt **Boeking simuleren** voor de meeste journalen vinden in het menu **Valideren**. Wanneer u een journaal valideert met de functie **Valideren**, wordt het journaal getest op specifieke foutvoorwaarden. Als u de functie **Boeking simuleren** gebruikt, worden dezelfde processen uitgevoerd als tijdens het boeken (zonder het journaal daadwerkelijk te boeken). Vervolgens kunt u de weergegeven boekingsberichten controleren, eventuele fouten corrigeren en op het menu **Boeken** klikken om het journaal te boeken. 
 
 **Boeking simuleren** is niet beschikbaar voor batchverwerking. Er is echter code beschikbaar om boekingen in batch te simuleren en ontwikkelaars kunnen de code uitbreiden om die functionaliteit toe te voegen.  
-

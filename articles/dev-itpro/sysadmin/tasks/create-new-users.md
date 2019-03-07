@@ -1,13 +1,13 @@
---- 
+---
 title: Nieuwe gebruikers maken
 description: Gebruikers zijn interne werknemers van uw organisatie of externe klanten en leveranciers, die toegang nodig hebben tot het systeem om hun taken uit te voeren.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 12cf223d262c4e0f2a195e95c83a00fc1a3f07e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5936196d4772c8fcfcc8a00767d17268f6609cde
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361953"
 ---
 # <a name="create-new-users"></a>Nieuwe gebruikers maken
 
@@ -55,5 +55,4 @@ Gebruikers zijn interne werknemers van uw organisatie of externe klanten en leve
 2. Markeer in de lijst de geselecteerde rij.
 3. Klik op Gebruikers importeren.
 4. Klik op Sluiten.
-
 

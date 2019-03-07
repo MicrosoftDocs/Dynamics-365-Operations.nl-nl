@@ -1,13 +1,13 @@
---- 
-title: "Financiële dimensies definiëren"
-description: "Deze taakhandleiding toont het toevoegen van een door een entiteit ondersteunde financiële dimensie en een aangepaste financiële dimensie."
+---
+title: Financiële dimensies definiëren
+description: Deze taakhandleiding toont het toevoegen van een door een entiteit ondersteunde financiële dimensie en een aangepaste financiële dimensie.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionDetails,  DimensionAttributeTableExtensionActivate, DimensionValueDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0b72acf763f0f6dbc64c3e00986bc9eb0e366bb5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353788"
 ---
 # <a name="define-financial-dimensions"></a>Financiële dimensies definiëren
 
@@ -60,5 +60,4 @@ Deze taakhandleiding toont het toevoegen van een door een entiteit ondersteunde 
 8. Klik op Nieuw.
 9. Typ in het veld Dimensiewaarde een naam om uw waarde van financiële dimensie te beschrijven.
 10. Typ in het veld Beschrijving een beschrijving die uw waarde van financiële dimensie beschrijft.
-
 

@@ -5,9 +5,9 @@ author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 0b86388efab113af605d62c6ad76c8169d9c4643
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355375"
 ---
-
 # <a name="payment-methods-in-call-centers"></a>Betalingsmethoden in callcenters
 
 [!include [banner](includes/banner.md)]
@@ -54,4 +53,3 @@ Wanneer betalingsmethoden worden gedefinieerd, moeten ze worden gekoppeld aan ee
 Voor de verwerking van de restitutiescenario's gebruikt het callcenter verder betalingsmethoden die worden gedefinieerd in de module Klanten. Als u deze betalingsmethoden configureert, gaat u naar **Retail** \> **Kanaalinstelling** \> **Instellingen van callcenter** \> **Restitutiemethoden van callcenter**. U kunt deze configuratie voltooien om cheques voor terugbetalingen aan klanten uit te voeren. Bijvoorbeeld: als een klant oorspronkelijk voor een order heeft betaald met contant geld of een cheque, wil de gebruiker misschien een restitutiecheque verzenden via de module Klanten. In dit geval moeten de kas- en chequebetalingstypen in het callcenter worden toegewezen aan de juiste betalingsmethode in de module Klanten om te zorgen dat de restitutie correct wordt s verwerkt.
 
 Bovendien als een gebruiker een retourorder verwerkt als een callcentergebruiker in Retail, maar de retour niet kan worden gekoppeld aan een oorspronkelijke verkoop, moet de betalingsmethode **Retour** worden gedefinieerd in de callcenterparameters. Ga naar **Retail** \> **Kanaalinstelling** \> **Instellingen van callcenter** \> **Parameters van callcenter** en zorg dat op het tabblad **Retourorder/Retour** in het veld **Betalingsmethode** een betalingsmethode is gedefinieerd. De betalingsmethode is de betalingsmethode die wordt gebruikt voor terugbetalingen. Deze wordt normaal gesproken gedefinieerd als een chequemethode of een klantbetalingsmethode.
-

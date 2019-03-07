@@ -1,13 +1,13 @@
---- 
+---
 title: " Een overzicht maken, berekenen en boeken voor een detailhandelwinkel"
 description: Deze procedure doorloopt de handmatige stappen voor het maken, berekenen en boeken van een overzicht voor een winkel.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354386"
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Een overzicht maken, berekenen en boeken voor een detailhandelwinkel
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Deze procedure doorloopt de handmatige stappen voor het maken, berekenen en boeken van een overzicht voor een winkel. Er zijn ook batchtaken die voor dezelfde taken kunnen worden geconfigureerd. De stappen voor het configureren en uitvoeren van de batchtaken kunnen in andere onderwerpen worden gevonden. Als u deze procedure wilt voltooien, moet u transacties hebben die in POS zijn voltooid en vervolgens in Dynamics AX zijn opgehaald. Deze registratie gebruikt het demobedrijf USRT. In deze procedure kan worden verwezen naar Microsoft Dynamics AX. Houd er rekening mee dat Dynamics AX nu Microsoft Dynamics 365 for Operations wordt genoemd.
+Deze procedure doorloopt de handmatige stappen voor het maken, berekenen en boeken van een overzicht voor een winkel. Er zijn ook batchtaken die voor dezelfde taken kunnen worden geconfigureerd. De stappen voor het configureren en uitvoeren van de batchtaken kunnen in andere onderwerpen worden gevonden. Als u deze procedure wilt voltooien, moet u transacties hebben die in POS zijn voltooid en vervolgens in Dynamics AX zijn opgehaald. Deze registratie gebruikt het demobedrijf USRT. Deze procedure kan verwijzen naar Microsoft Dynamics AX. Houd er rekening mee dat Dynamics AX nu Microsoft Dynamics 365 for Operations wordt genoemd.
 
 1. Ga naar Alle werkgebieden > .. > Financiën van detailhandelwinkel.
 2. Klik op Nieuw overzicht.
@@ -47,5 +47,4 @@ Deze procedure doorloopt de handmatige stappen voor het maken, berekenen en boek
 10. Klik op Sluiten.
 11. Ga naar Detailhandel en commerce > Kanalen > Financiën van detailhandelwinkel.
 12. Klik op het tabblad Geboekte overzichten.
-
 

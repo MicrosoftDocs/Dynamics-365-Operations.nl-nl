@@ -1,13 +1,13 @@
---- 
+---
 title: Een productieorder plannen met bewerkingen en taakplanning
 description: Deze procedure is gericht op het plannen van een productieorder met bewerkingsplanning en taakplanning.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdSchedule, ProdTable, ProdRouteJob
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 00698e9cd2ed0481e5fed301c8a8c2e98690a5db
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d4aac437876862e9f776264fc81f246c820bdf45
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352454"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>Een productieorder plannen met bewerkingen en taakplanning
 
@@ -63,5 +63,4 @@ Deze procedure is gericht op het plannen van een productieorder met bewerkingspl
 6. Klik in het actievenster op Productieorder.
 7. Klik op Alle taken.
     * Merk op dat op basis van de actieve route, 5 taken worden gemaakt met taakplanning.  
-
 

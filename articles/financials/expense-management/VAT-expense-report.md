@@ -5,9 +5,9 @@ author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359561"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>Btw-restitutie in Onkostenbeheer
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ Wanneer Arnie gereed is om de gegevens van de onkostennota te verzenden naar de 
 Arnie moet controleren of de transacties op de onkostennota in aanmerking komen voor btw-restitutie en of de digitale betaalbewijzen aan de nota's zijn toegevoegd. Om de verwerking van de onkosten voor nationale restitutie te starten, opent Arnie de pagina **Onkosten belastinginning** en selecteert hij de onkostennota die gecontroleerd moet worden. Hij controleert of de betaalbewijzen op naam van het bedrijf staan in plaats van de werknemer. De btw-restitutie moeten de betaalbewijzen op naam van het bedrijf staan. Arnie controleert vervolgens of de juiste btw-groep en btw-codes voor artikel zijn toegepast.
 
 Wanneer Arnie de papieren betaalbewijzen ontvangt, verandert hij de status van de onkostennota naar **klaar voor terugvordering**. Hij kan vervolgens de restitutie bij de juiste belastingdienst indienen. In dit geval is de juiste belastingdienst in de VS de Internal Revenue Service (IRS).
-

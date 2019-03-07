@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 675a7a8b0da228e789ee37ca8fe1d0c0ea01c283
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358756"
 ---
-
 # <a name="purchasing-policies"></a>Inkoopbeleid
 
 [!include [banner](../includes/banner.md)]
@@ -148,7 +147,6 @@ De regels voor het maken van inkooporders en consolidatie van de vraag bepaalt d
     -   **Vraagconsolidatie niet toestaan** - Geen goedgekeurde regels in opdrachten tot inkoop komen in aanmerking voor consolidatie van de vraag. Deze optie wordt standaard geselecteerd en is alleen van toepassing op regels van een opdracht tot inkoop waarvoor handmatige verwerking is vereist bij het maken van inkooporders.
     -   **Vraagconsolidatie altijd toestaan** - Alle goedgekeurde regels in opdrachten tot inkoop komen in aanmerking voor consolidatie van de vraag. **Opmerking:** Als u de optie **Vraagconsolidatie altijd toestaan** op het tabblad **Vraagconsolidatie** selecteert, maar ook de optie **Automatisch inkooporders maken** op het tabblad **Handmatig inkooporders maken**, worden alle opdrachten tot inkoop vastgehouden voor handmatige verwerking.
     -   **Vraagconsolidatie toestaan in deze omstandigheden** - Definieer de criteria die bepalen of goedgekeurde regels op opdrachten tot inkoop in aanmerking komen voor consolidatie van de vraag. U kunt de criteria per aanschaffingscategorie en leverancier instellen voor elke type regel van een opdracht tot inkoop. Als u **Vraagconsolidatie toestaan in deze omstandigheden** selecteert, kunt u de criteria per aanschaffingscategorie en leverancier instellen voor elke type regel van een opdracht tot inkoop. Wanneer u een aanschaffingscategorie selecteert, worden alle subcategorieën voor deze categorie eveneens geselecteerd. Als u de optie **Alle** selecteert voor een bepaald regeltype, komen alle regels van de opdracht tot inkoop met dit regeltype in aanmerking voor vraagconsolidatie.
-
 
 
 

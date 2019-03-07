@@ -1,13 +1,13 @@
---- 
+---
 title: ER-expressies ontwerpen om methoden voor toepassingsklassen aan te roepen
 description: Deze handleiding bevat informatie over het opnieuw gebruiken van de bestaande toepassingslogica in ER-configuraties (elektronische rapportage) door vereiste methoden van toepassingsklassen aan te roepen in ER-expressies.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357238"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER-expressies ontwerpen om methoden voor toepassingsklassen aan te roepen
 
@@ -103,7 +103,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "ER E
     * Toewijzen aan gegevensmodel  
 6. Klik op Opslaan.
 7. Klik op Ontwerper.
-8. Selecteer in de structuur 'Dynamics 365 for Operations\Class'.
+8. Selecteer in de structuur 'Dynamics 365 for OperationsKlasse'.
 9. Klik op Basis toevoegen.
     * Een nieuwe gegevensbron om de bestaande toepassingslogica aan te roepen voor validatie van IBAN-codes.  
 10. Typ 'check_codes' in het veld Naam.
@@ -157,5 +157,4 @@ Voer voor testdoeleinden de toewijzing van de indeling uit met behulp van het Sa
     * Klik op Bladeren en navigeer naar het bestand SampleIncomingMessage.txt, dat u eerder hebt gedownload.  
 2. Klik op OK.
     * Bekijk de uitvoer in XML-indeling, die de gegevens vertegenwoordigt die zijn geïmporteerd vanuit het geselecteerde bestand en overgezet naar het gegevensmodel. Slechts 3 regels van het geïmporteerde TXT-bestand zijn verwerkt. De ongeldige IBAN-code op regel 4 is overgeslagen en een foutbericht wordt weergegeven in het infologboek.  
-
 

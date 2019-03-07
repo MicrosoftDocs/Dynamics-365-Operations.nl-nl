@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358641"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>Mobiel werkgebied Leverancierssamenwerking
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp vindt u informatie over het mobiele werkgebied **Leverancierssamenwerking**. Met dit werkgebied kunnen uw leveranciers op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen.
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations.
+Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Overzicht 
-Het mobiele werkgebied **Leverancierssamenwerking** informeert leveranciers over nieuwe inkooporders, zodat ze inkooporders kunnen zien en erop kunnen reageren in de webclient van Microsoft Dynamics 365 for Finance and Operations. 
+Het mobiele werkgebied **Leverancierssamenwerking** houdt leveranciers op de hoogte van nieuwe inkooporders, zodat ze inkooporders in de Microsoft Dynamics 365 for Finance and Operations-webclient kunnen zien en er vervolgens op kunnen reageren. 
 
 >[!NOTE]
 > Het mobiele werkgebied moet worden gebruikt als aanvulling op de webinterface voor leverancierssamenwerking, niet als vervanging daarvan. 
@@ -58,13 +57,13 @@ In het werkgebied **Leverancierssamenwerking** kan een leverancier deze taken ui
 -   Informatie weergeven voor en de status volgen van een gebruikersaanvraag die is ingediend door de leverancier. (Deze taak vereist een aanvullende beveiligingsrol)
 
 ## <a name="prerequisites"></a>Vereisten
-De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 for Finance and Operations die voor uw organisatie is geïmplementeerd.
+De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
 Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Leverancierssamenwerking** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten voor gebruik van Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger.
-Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Microsoft Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
+Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
 
 <table>
 <thead>
@@ -80,7 +79,7 @@ Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of 
 <td>Systeembeheerder</td>
 <td>KB 3216943 is een binaire update die is vereist als u platformupdate 3 gebruikt. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van deze KB.
 <ol>
-<li>KB 3216943 downloaden van Microsoft Dynamics Lifecycle Services (LCS).</li>
+<li>Download KB 3216943 uit Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>De binaire update installeren, die als een implementeerbaar pakket is geleverd. Zie voor informatie over het toepassen van een implementeerbaar pakket <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Een implementeerbaar pakket toepassen</a>.</li>
 </ol></td>
 </tr>
@@ -120,7 +119,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 ## <a name="sign-in-to-the-mobile-app"></a>Aanmelden bij de mobiele app
 1.  Start de app op uw mobiele apparaat.
-2.  Voer uw Microsoft Dynamics 365-URL in.
+2.  Voer uw URL voor Microsoft Dynamics365 in.
 4.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 5.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
@@ -171,4 +170,3 @@ Alle wijzigingen die zijn aangebracht in de orderregelreactie worden hier weerge
 
 ### <a name="open-confirmed-orders"></a>Openstaande bevestigde orders
 Wanneer de inkooporder is bevestigd door de klant (wat inhoudt dat de inkooporder is gewijzigd naar de status **Bevestigd**) wordt hij weergegeven als openstaande bevestigde order. Hij blijft in de lijst staan, totdat hij wordt geregistreerd als ontvangen door de klant.
-

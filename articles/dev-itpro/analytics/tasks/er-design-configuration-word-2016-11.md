@@ -1,13 +1,13 @@
---- 
+---
 title: ER-configuraties ontwerpen om rapporten in Word-indeling te genereren
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met een rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-indeling (elektronische rapportage) kan configureren, waarmee rapporten in de vorm van Microsoft Word-bestanden worden gegenereerd.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362344"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER-configuraties ontwerpen om rapporten in Word-indeling te genereren
 
@@ -35,7 +35,7 @@ Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de taakbeg
 - [Gebonden sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266)
 
 
-Deze procedure is voor een functie die in versie 1611 van Microsoft Dynamics 365 for Operations is toegevoegd.
+Deze procedure is voor een functie die is toegevoegd in Microsoft Dynamics 365 for Operations, versie 1611.
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>De bestaande ER-rapportconfiguratie selecteren
@@ -99,5 +99,4 @@ Deze procedure is voor een functie die in versie 1611 van Microsoft Dynamics 365
 16. Klik op OK.
 17. Klik op OK.
     * Analyseer de gegenereerde uitvoer. Merk op dat de uitvoer wordt weergegeven in Word-indeling en de details van de verwerkte betalingen bevat.  
-
 

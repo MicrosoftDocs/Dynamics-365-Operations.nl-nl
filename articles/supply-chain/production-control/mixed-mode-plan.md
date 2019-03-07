@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e6a896b2a073e189b956ef189f63908f08606ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358227"
 ---
-
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,6 @@ Voor werk dat onafhankelijk is van een leveringsbeleid hoeft u geen informatie t
 
 ## <a name="process-manufacturing--the-production-type"></a>Procesfabricage - het productietype
 Voor volledige flexibiliteit in de gemengde modus wordt u aangeraden het productietype stuklijsten te gebruiken voor alle producten. Vervolgens kunt u productieorders, kanbans, transferorders of inkooporders voor het leveren van een product gebruiken. Voor procesfabricage moet u het productietype **Formule**, **Coproduct**, **Bijproduct** of **Planningsartikel** gebruiken. Kanbans en productieorders kunnen niet voor deze productietypen worden gebruikt.
-
 
 
 

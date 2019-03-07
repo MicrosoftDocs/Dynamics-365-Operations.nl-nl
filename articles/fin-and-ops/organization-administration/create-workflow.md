@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353351"
 ---
-
 # <a name="create-workflows"></a>Workflows maken
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ In dit onderwerp wordt uitgelegd hoe u een workflow maakt.
 
 ## <a name="open-the-workflow-editor"></a>Open de workfloweditor
 
-De Microsoft Dynamics 365 for Finance and Operations-module waarin u werkt, bepaalt de workflowtypen die u kunt maken. Volg deze stappen om het workflowtype te selecteren dat u wilt maken en open de workfloweditor.
+De Microsoft Dynamics 365 for Finance and Operations-module waarin u werkt, bepaalt de typen werkstroom die u kunt maken. Volg deze stappen om het workflowtype te selecteren dat u wilt maken en open de workfloweditor.
 
 1. Open de module waarvoor u een nieuwe workflow wilt maken. Als u bijvoorbeeld een workflow voor opdrachten tot inkoop wilt maken, klikt u op **Inkoopbeheer**.
 2. Klik op **Instellen** &gt; **\[Naam van module\] workflows**.
@@ -85,4 +84,3 @@ Wanneer u klaar bent om de workflow op te slaan en te activeren, volgt u deze st
 
     - Om deze versie van de workflow te activeren, klikt u op **De nieuwe versie activeren**. Wanneer een workflow actief is, kunnen gebruiker documenten ter verwerking bij de workflow aanbieden.
     - Als u deze versie niet wilt activeren, klikt op **De nieuwe versie niet activeren**. U kunt de workflow later activeren.
-

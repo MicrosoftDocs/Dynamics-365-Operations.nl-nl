@@ -1,13 +1,13 @@
 ---
 title: Projecten voor massaal aanstellen
-description: "Met massale aanstellingsprojecten kunnen resourcespecialisten meerdere functies maken en efficiënt medewerkers in die functies aanstellen."
+description: Met massale aanstellingsprojecten kunnen resourcespecialisten meerdere functies maken en efficiënt medewerkers in die functies aanstellen.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMMassHireProject
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: e4c1bd382fa803f90a251c8c45acc556bee627d1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361539"
 ---
-
 # <a name="mass-hire-projects"></a>Projecten voor massaal aanstellen
 
 [!include [banner](../includes/banner.md)]
@@ -83,4 +82,3 @@ Klik op de pagina **Project voor massaal aanstellen** op **Project openen** of *
 </tr>
 </tbody>
 </table>
-

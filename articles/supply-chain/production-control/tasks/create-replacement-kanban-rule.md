@@ -1,13 +1,13 @@
---- 
+---
 title: Een vervangende kanbanregel maken
 description: Deze procedure is gericht op het vervangen van een bestaande kanbanregel met een nieuwe kanbanregel op een specifieke datum.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c8a9367d4796999857e473bcbe36a709d534f3b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e5b27200a8d56192d473887f01076eced0f92e4c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362275"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Een vervangende kanbanregel maken
 
@@ -55,5 +55,4 @@ Deze procedure is gericht op het vervangen van een bestaande kanbanregel met een
 ## <a name="modify-maximum-quantity-for-the-replacement-kanban-rule"></a>Maximumhoeveelheid voor de vervangingskanbanregel wijzigen
 1. Stel Maximumhoeveelheid in op '100'.
     * Vouw het sneltabblad Hoeveelheden uit om het veld Maximumhoeveelheid te bekijken. Als u de maximale hoeveelheid wijzigt in 100, kunnen maximaal 100 kanbans worden verwerkt.    Dit is de laatste stap in deze taak.  
-
 

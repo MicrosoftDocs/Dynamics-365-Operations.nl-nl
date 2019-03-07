@@ -5,10 +5,10 @@ author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,15 +17,14 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362137"
 ---
-
-# <a name="retail-sales-price-management"></a>Verkoopprijsbeheer detailhandel
+# <a name="retail-sales-price-management"></a>Verkoopprijsbeheer van detailhandel
 
 [!include [banner](includes/banner.md)]
 
@@ -232,4 +231,3 @@ Bovendien ondersteunt de adviseprijsengine **alleen** de volgende prijsbepalings
 
 - De prijs is gebaseerd op de productdimensies in volgorde van de meest specifieke variantprijs naar de minst specifieke variantprijs voor de modelproductprijs. Een prijs die wordt ingesteld via twee productdimensies (bijvoorbeeld kleur en grootte) wordt gebruikt vóór een prijs die is ingesteld via slechts één productdimensie (bijvoorbeeld grootte).
 - Dezelfde prijsgroep kan worden gebruikt om prijzen en kortingen te bepalen.
-

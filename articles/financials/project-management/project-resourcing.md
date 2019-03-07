@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351649"
 ---
-
 # <a name="project-resourcing"></a>Resources plannen voor projecten
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp vindt u informatie over het plannen van resources voor projecten.
 
-Een van de uitdagingen voor projectmanagers en resourcemanagers tijdens de projectplanningsfase is resourcetoewijzing, waarin ze de juiste resources moetn definiëren en reserveren voor werk aan een project. In Microsoft Dynamics 365 for Finance and Operations kunt u met de capaciteiten voor projectresourcing rollen definiëren die worden behandeld als tijdelijke resources. Die kunt u reserveren voor een specifieke taak, ofwel een gedeelte van een taak. Met dit type resourcing kunnen projectmanagers en resourcemanagers de volgende taken uitvoeren:
+Een van de uitdagingen voor projectmanagers en resourcemanagers tijdens de projectplanningsfase is resourcetoewijzing, waarin ze de juiste resources moetn definiëren en reserveren voor werk aan een project. In Microsoft Dynamics 365 for Finance and Operations kunt u met de capaciteiten voor projectresourcing rollen definiëren die worden behandeld als tijdelijke resources. Die kunt u reserveren voor een specifieke taak of een gedeelte van een taak. Met dit type resourcing kunnen projectmanagers en resourcemanagers de volgende taken uitvoeren:
 
 - Een rol definiëren met de vereiste competenties om het afstemmen van resources te vergemakkelijken.
 - Met behulp van rollen een initiële taakplanning definiëren op basis van resourcereserveringen.
@@ -351,4 +350,3 @@ Nadat u deze taken hebt voltooid, kunt u zo nodig de volgende taken uitvoeren:
 ## <a name="monitor-project-teams"></a>Projectteams bewaken
 1. Selecteer op de pagina **Alle projecten** de koppeling **Project-ID** voor het project **XYZ-upgrade Fase 2**.
 2. Controleer op het sneltabblad **Projectteam en planning** of de daar vermelde projectresources correct zijn.
-

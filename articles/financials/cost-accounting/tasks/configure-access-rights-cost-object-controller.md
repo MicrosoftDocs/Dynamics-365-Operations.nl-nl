@@ -1,13 +1,13 @@
---- 
+---
 title: Toegangsrechten configureren voor een controller voor kostenobjecten
 description: Gebruik deze procedure om toegangsrechten te configureren voor een controller voor kostenobjecten.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6b7018f9d4926321341af94efd13911e2c69f5f5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b0647e1ec55d23607d07f38105e42af498ad1174
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351166"
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>Toegangsrechten configureren voor een controller voor kostenobjecten
 
@@ -68,5 +68,4 @@ Gebruik deze procedure om toegangsrechten te configureren voor een controller vo
 8. Selecteer Ja in het veld Gepubliceerd.
     * Als u Ja selecteert, kan een gebruiker die aan een van de volgende vier rollen is toegewezen, de rapporten zien in het werkgebied voor kostenbeheer: accounting manager, kostenaccountant, assistent kostenaccountant en controller voor kostenobjecten. Als u Nee selecteert, kan alleen een gebruiker die aan een van de volgende rollen is toegewezen, de rapporten zien: manager van kostprijsboekhouding, kostenaccountant en assistent kostenaccountant.    
 9. Klik op Opslaan.
-
 

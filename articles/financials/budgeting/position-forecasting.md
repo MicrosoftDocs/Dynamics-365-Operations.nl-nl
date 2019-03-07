@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bcd7363ba50f1c3a20d9823333df65eab9868d67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356157"
 ---
-
 # <a name="position-forecasting"></a>Prognosepositie
 
 [!include [banner](../includes/banner.md)]
@@ -216,7 +215,6 @@ Voor zowel het genereer- als het selectieproces bepaalt de begindatum op de budg
 Budgetplanregels tonen de bron van de budgetbedragen (het nummer van de prognosepositie), maar zijn niet gekoppeld. Daarom worden wijzigingen in de prognosepositie niet weergegeven op de regel van het budgetplan en worden wijzigingen in de regel van het budgetplan weergegeven in de prognosepositie. Als u een prognosepositie wijzigt en wilt dat de updates worden opgenomen in een budgetplan, moet u de prognosepositie weer in het plan opnemen. Dit proces verwijdert echter alle regels waar die prognosepositie wordt toegewezen. Daarom worden alle wijzigingen die u hebt aangebracht in die regels verwijderd. 
 
 Om te zien in welke budgetplannen een prognosepositie is opgenomen, kunt u in het rapport **Prognoseposities per budgetplan** genereren. Als alternatief kunt u op de prognosepositie het feitenvak **Gekoppelde budgetplannen** openen om de plannen weer te geven.
-
 
 
 

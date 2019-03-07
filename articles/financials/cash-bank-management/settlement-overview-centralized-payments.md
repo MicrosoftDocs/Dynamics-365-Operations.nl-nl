@@ -1,13 +1,13 @@
 ---
 title: Vereffeningsoverzicht voor gecentraliseerde betalingen
-description: In dit onderwerp wordt de vereffening van gecentraliseerde betalingen voor Microsoft Dynamics 365 for Finance and Operations beschreven.
+description: Dit onderwerp beschrijft vereffening voor gecentraliseerde betalingen voor Microsoft Dynamics 365 for Finance and Operations.
 author: abruer
 manager: AnnBe
 ms.date: 08/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
 ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358572"
 ---
-
 # <a name="settlement-overview-for-centralized-payments"></a>Vereffeningsoverzicht voor gecentraliseerde betalingen
 
 [!include [banner](../includes/banner.md)]
@@ -109,4 +108,3 @@ Voor betalingen aan leveranciers gebruiken de transacties bestemd voor en afkoms
 
 ## <a name="withholding-tax"></a>Bronbelasting
 De leveranciersrekening die aan de factuur is gekoppeld, wordt gebruikt om te bepalen of de bronbelasting berekend moet worden. Als bronbelasting van toepassing is, wordt deze berekend in de rechtspersoon die aan de factuur is gekoppeld. Als de rechtspersonen verschillende valuta gebruiken, wordt de wisselkoers gebruikt van de rechtspersoon die aan de factuur is gekoppeld.
-
