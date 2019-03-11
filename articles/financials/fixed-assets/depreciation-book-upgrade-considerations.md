@@ -1,13 +1,13 @@
 ---
 title: Upgradeoverzicht van afschrijvingsboeken
-description: "In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In Microsoft Dynamics 365 for Operations (1611) zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept met de naam boek. Dit onderwerp bevat enkele overwegingen voor de upgrade."
+description: 'In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In Microsoft Dynamics 365 for Operations (1611) zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept dat de naam boek draagt. Dit onderwerp bevat enkele overwegingen voor de upgrade.'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e95fa9dd15dfe5e6b26de61b5dbc1a9a6c0d768d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359308"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>Upgradeoverzicht van afschrijvingsboeken
 
 [!include [banner](../includes/banner.md)]
 
-In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In Microsoft Dynamics 365 for Operations (1611) zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept met de naam boek. Dit onderwerp bevat enkele overwegingen voor de upgrade. 
+In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In Microsoft Dynamics 365 for Operations (1611) zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept dat de naam boek draagt. Dit onderwerp bevat enkele overwegingen voor de upgrade. 
 
 Met het upgradeproces verplaatst u uw bestaande instellingen en alle bestaande transacties naar de nieuwe boekstructuur. De waardemodellen worden in de huidige vorm behouden, in de vorm van een boek dat boekt naar het grootboek. Afschrijvingsboeken worden naar een boek verplaatst waarvoor de optie **Boeken naar grootboek** is ingesteld op **Nee**. De journaalnamen van afschrijvingsboeken worden verplaatst naar een grootboekjournaalnaam, waarbij de boekingslaag is ingesteld op **Geen**. Afschrijvingsboektransacties worden verplaatst naar Vaste-activatransacties. 
 
@@ -81,7 +80,6 @@ Wanneer u de methode van de door het systeem gegenereerde nummerreeks gebruikt (
 Bij gebruik van de door de gebruiker gedefinieerde nummerreeks (optie 2) wordt tijdens de gegevensupgrade gecontroleerd of de nummerreeks met het opgegeven bereik in de database bestaat voor alle partities en bedrijven met afschrijvingsboektransacties. Als deze bestaat, wordt in de upgrade verwerking per rij gebruikt om de boekstuknummers toe te wijzen zoals is opgegeven door de nummerreeks die het nummerreeksraamwerk gebruikt. Als de nummerreeks niet bestaat voor het opgegeven bereik, wordt in de upgrade de methode van de standaard door het systeem gedefinieerde nummerreeks gebruikt voor het toewijzen van de boekstuknummers en wordt een nieuwe nummerreeks met de opgegeven standaardparameters na de toewijzing gemaakt.
 
 Bij beide methoden wordt in het gegevensupgradescript ook de nummerreeks voor het veld **Boekstuknummering** gebruikt voor de nieuwe grootboekjournaalnamen die zijn gemaakt voor de voormalige afschrijvingsboekjournaalnamen.
-
 
 
 

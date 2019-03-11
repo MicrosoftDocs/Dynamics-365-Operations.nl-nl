@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 06/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9b840f5511f6a0df0e9ce3db4be69a0ab4ec3261
-ms.openlocfilehash: 8d7b07027443d1ca3894ccb7ed7f3cf49a4dc3e3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 06/21/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351281"
 ---
-
 # <a name="requests-for-quotation-rfqs"></a>Offerteaanvragen
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,7 @@ U kunt een offerteaanvraagcase maken op basis van geplande orders, een opdracht 
 
 Nadat u de offerteaanvraagcase hebt voorbereid en leveranciers hebt toegevoegd, selecteert u **Verzenden** (**Verzenden en publiceren** voor de openbare sector) op de offerteaanvraagcase. Er wordt een offerteaanvraagjournaal gemaakt voor elke leverancier waarnaar u een offerteaanvraag verzendt. U kunt afdrukopties configureren voor de actie Verzenden om een rapport voor elke leverancier af te drukken naar een archief of om een rapport te verzenden naar het e-mailadres van elke leverancier. Bovendien kunt u het offerteaanvraagjournaal voor elke leverancier gebruiken om een rapport te genereren dat u later kunt verzenden of opnieuw kunt verzenden naar een leverancier. U kunt de actie Verzenden ook zo configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.
 
-Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers biedingen rechtstreeks invoeren in Microsoft Dynamics 365 for Finance and Operations. Meer informatie vindt u in [Leverancierssamenwerking met klanten](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
+Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Microsoft Dynamics 365 for Finance and Operations. Meer informatie vindt u in [Leverancierssamenwerking met klanten](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
 
 Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de offerteaanvraag na voltooiing opnieuw verzenden naar leveranciers met de twee aanpassingsacties: Maken en Voltooien.+
 
@@ -58,7 +57,7 @@ Wanneer u biedingen per e-mail ontvangt, moet u deze biedingen verwerken via de 
 Als een tweede herhaling van een antwoord vereist is van een leverancier, selecteert u **Retour** op de pagina **Reactie offerteaanvraag**. De actie Retour genereert een nieuw journaal en een rapport dat wordt afgedrukt, gearchiveerd en verzonden, afhankelijk van uw afdrukinstellingen.
 
 > [!NOTE]
-> De naam van de pagina **Offerteaanvraag** is gewijzigd. Deze pagina heeft in eerdere versies van Dynamics 365 for Finance and Operations de titel **Aanvraag voor offerteantwoord**.
+> De naam van de pagina **Offerteaanvraag** is gewijzigd. In eerdere versies van Dynamics 365 for Finance and Operations heet deze pagina **Aanvraag voor offerteantwoord**.
 
 Als u scoringscriteria aan uw offerteaanvraagcase hebt toegevoegd, heeft de offerteaanvraag een scorepaneel waarin u de scores kunt invoeren. De totale scores op de offerteaanvraag worden weergegeven wanneer u de antwoorden op de pagina **Antwoorden vergelijken** vergelijkt. Op de pagina **Antwoorden vergelijken** kunt u tevens andere antwoordgegevens vergelijken, zoals de regelprijs, leverdatum en totale prijs.
 
@@ -268,5 +267,4 @@ In het voorbeeld hieronder ziet u de hoogste en laagste status op de offerteaanv
 |------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------|-------------------------------------------------|----------------------------------------------|-----------------------------------------------|
 | Accepteer een van de biedingen. (of ten minste één regel) |                          Ontvangen                           |                           Geaccepteerd                           |                    Ontvangen                    |                    Geaccepteerd                     |                   Ontvangen                   |                   Geaccepteerd                    |
 |           Wijs alle andere biedingen af.           |                          Afgewezen                           |                           Geaccepteerd                           |                    Afgewezen                    |                    Geaccepteerd                     |                   Afgewezen                   |                   Geaccepteerd                    |
-
 

@@ -1,13 +1,13 @@
 ---
 title: Intercompany-boekhouding instellen
-description: "In dit onderwerp wordt uitgelegd hoe u intercompany-boekhouding kunt instellen zodat u intercompany-journalen voor grootboektoewijzingen en financiële journalen, zoals dagelijkse journalen, factuurjournalen van leveranciers en betalingsjournalen, kunt gebruiken."
+description: In dit onderwerp wordt uitgelegd hoe u intercompany-boekhouding kunt instellen zodat u intercompany-journalen voor grootboektoewijzingen en financiële journalen, zoals dagelijkse journalen, factuurjournalen van leveranciers en betalingsjournalen, kunt gebruiken.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ce07a29d7aa5057d0b61c7fcc6bb87a0a2755fc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48e0b00e2a9bd1a1387780747e1976bd386200eb
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363977"
 ---
-
 # <a name="intercompany-accounting-setup"></a>Intercompany-boekhouding instellen
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Selecteer **Debetrekening (te ontvangen van)** en **Creditrekening (te betalen a
 Selecteer ten slotte welke rechtspersoon de boekhouding voor ondersteuningsbedragen ontvangt, zoals contantkorting of gerealiseerde winsten of verliezen voor gecentraliseerde betalingen. 
 
 Een wederkerige relatie kan eenvoudig worden ingesteld op de pagina **Intercompany-boekhouding** met behulp van de knop **Wederkerigheidsrelatie maken** nadat het eerste paar van rechtspersonen is gemaakt. Wanneer het wederkerige paar is gemaakt, wordt de informatie voor het doelbedrijf gekopieerd naar het oorspronkelijke bedrijf en vice versa. Het journaal dat is gedefinieerd voor het doelbedrijf blijft aanwezig. De meeste organisaties gebruiken de dezelfde naamgevingsconventie voor hun journaalnamen, zodat de journaalnaam hetzelfde is. Als de journaalnaam verschilt, wordt een waarschuwing in het veld weergegeven om u te informeren dat het journaal niet bestaat en een ander journaal kan worden geselecteerd.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00002 Een vrachtadres opgeven voor een intracommunautaire transactie
 description: Deze procedure laat zien hoe u een vrachtadres opgeeft voor een intracommunautaire handelstransactie.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, TransportationDocument, LogisticsPostalAddress, SysLookupMultiSelectGrid,  VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,19 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4db22444bee1590770a47ca5946941b530ae85ce
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371377"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Een vrachtadres opgeven voor een intracommunautaire transactie
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een vrachtadres opgeeft voor een intracommunautaire handelstransactie. Bijvoorbeeld een Duits bedrijf bestelt artikelen bij een leverancier met een adres in Duitsland. Deze leverancier heeft een magazijn in Italië en verzendt de artikelen vandaaruit. Deze levering moet in Intrastat worden gerapporteerd. Hetzelfde gedrag geldt voor klantretouren.
-Deze procedure is van toepassing op alle Europese landen/regio's. De taak werd gemaakt met het demobedrijf DEMF met een primair adres in Duitsland. Voordat u deze procedure kunt uitvoeren, moet u Intrastat-rapporten configureren. Deze procedure is alleen bedoeld voor accountants. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+Deze procedure is van toepassing op alle Europese landen/regio's. De taak werd gemaakt met het demobedrijf DEMF met een primair adres in Duitsland. Voordat u deze procedure kunt uitvoeren, moet u Intrastat-rapporten configureren. Deze procedure is alleen bedoeld voor accountants. Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
 1. Ga naar Leveranciers > Inkooporders > Alle inkooporders.
 2. Klik op Nieuw.
@@ -72,5 +72,4 @@ Deze procedure is van toepassing op alle Europese landen/regio's. De taak werd g
 36. Klik op OK.
 37. Klik op het tabblad Algemeen.
     * Zoek een nieuwe regel en controleer of de afzender de goederen uit Italië heeft verzonden.  
-
 

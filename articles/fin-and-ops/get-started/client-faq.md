@@ -1,13 +1,13 @@
 ---
 title: Veelgestelde vragen over Finance and Operations-client
-description: Dit artikel bevat antwoorden op veelgestelde vragen over de Microsoft Dynamics 365 for Finance and Operations-client.
+description: Dit artikel biedt antwoorden op veelgestelde vragen over de Microsoft Dynamics 365 for Finance and Operations-client.
 author: jasongre
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316712"
 ---
-
 # <a name="finance-and-operations-client-faq"></a>Veelgestelde vragen over Finance and Operations-client
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel bevat antwoorden op veelgestelde vragen over de Microsoft Dynamics 365 for Finance and Operations-client.
+Dit artikel biedt antwoorden op veelgestelde vragen over de Microsoft Dynamics 365 for Finance and Operations-client.
 
 ## <a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>Waarom worden er geen symbolen geladen wanneer ik Finance and Operations gebruik?
 
@@ -56,4 +55,3 @@ De optie **Details weergeven** is beschikbaar op een paar manieren:
 
 - Als een besturingselement mogelijkheden voor **Details weergeven** heeft, en als het besturingselement een waarde heeft, wordt die waarde weergegeven als hyperlink. U kunt op de hyperlink klikken om een pagina te openen die aanvullende informatie bevat.
 - **Details weergeven** is ook een optie in de snelmenu's van Finance and Operations. Zie het vorige sectie gedeelte meer informatie over wanneer de snelmenu's van Finance and Operations worden weergegeven wanneer u met de rechtermuisknop klikt.
-

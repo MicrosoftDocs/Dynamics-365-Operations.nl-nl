@@ -1,32 +1,31 @@
 ---
-title: "Dimensiehiërarchie"
-description: "Dit onderwerp bevat informatie over dimensiehiërarchieën. U gebruikt een dimensiehiërarchie om de rapportagestructuur, het kostenbeleid en de beveiligingsinstelling in Kostprijsboekhouding te definiëren."
+title: Dimensiehiërarchie
+description: Dit onderwerp bevat informatie over dimensiehiërarchieën. U gebruikt een dimensiehiërarchie om de rapportagestructuur, het kostenbeleid en de beveiligingsinstelling in Kostprijsboekhouding te definiëren.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320208"
 ---
-
 # <a name="dimension-hierarchy"></a>Dimensiehiërarchie
 
 [!include [banner](../includes/banner.md)]
@@ -329,9 +328,8 @@ De instellingen voor de hiërarchie van toegangslijsten worden gebruikt om de ge
 - Power BI:
 
     - Gegevens die worden weergegeven in Power BI-visualisaties
-    - Gegevens van Power BI-visualisaties die worden ingesloten in Microsoft Dynamics 365 for Finance and Operations, client
+    - Power BI-gegevensvisualisaties die zijn ingesloten in de Microsoft Dynamics 365 for Finance and Operations-client
 
 > [!NOTE] 
 > - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md) voor meer informatie.
 > - De hiërarchie van toegangslijsten helpen de export van gegevens naar Excel niet beveiligen. Daarom moet die rapportagefunctie alleen worden gebruikt door kostenaccountants en managers die volledige toegang moeten hebben om de gegevens weer te geven.
-

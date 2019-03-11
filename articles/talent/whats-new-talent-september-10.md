@@ -5,27 +5,26 @@ author: Darinkramer
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 7d4a049a44374276655dce696b5bbbe2e6f9fba9
 ms.openlocfilehash: b41ce93c8ae93054d2b0d71340b99e0910d4510f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303946"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (10 september 2018)
 
 [!include [banner](includes/banner.md)]
@@ -101,4 +100,3 @@ Deze versie bevat verschillende aanvullende correcties:
 - Wanneer een contractant wordt aangesteld, moet het tabblad **Compensatie** niet beschikbaar zijn op de aanvraag-/actiepagina.
 - Tijdens het proces voor het aanvragen van ontslag kunt u pas doorgaan als alle vereiste velden gegevens bevatten.
 - Problemen met de sorteervolgorde en weergave van datums in de analyses in Personeelsbeheer zijn opgelost.
-

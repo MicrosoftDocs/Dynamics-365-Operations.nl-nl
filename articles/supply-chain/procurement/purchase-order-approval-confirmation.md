@@ -5,9 +5,9 @@ author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -15,18 +15,17 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336952"
 ---
-
 # <a name="approve-and-confirm-purchase-orders"></a>Inkooporders goedkeuren en bevestigen
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Nadat een inkooporder (IO) is gemaakt, moet deze mogelijk een goedkeuringsproces
 ## <a name="approval-of-purchase-orders"></a>Goedkeuring van inkooporders
 IO's die geen gebruikmaken van wijzigingsbeheer hebben de status **Goedgekeurd** zodra zij worden gemaakt, terwijl IO's die wel gebruikmaken van wijzigingsbeheer de status **Concept** hebben meteen nadat zij zijn gemaakt. Een IO die is gemaakt door een geplande order uit de hoofdplanning te bevestigen, wordt altijd ingesteld op de status **Goedgekeurd**, ongeacht de instellingen voor wijzigingsbeheer. Een IO maakt alleen voorraadtransacties als deze de status **Goedgekeurd** bereikt. Daarom wordt die voorraad pas weergegeven als beschikbaar voor reservering of markering nadat de order is geaccepteerd.  
 
-U schakelt wijzigingsbeheer voor IO's in door de optie **Wijzigingsbeheer activeren** in te stellen op de pagina **Parameters voor inkoopbeheer**. Als wijzigingsbeheer is ingeschakeld, moeten IO's een goedkeuringsworkflow doorlopen nadat zij zijn voltooid. Microsoft Dynamics 365 for Finance and Operations beschikt over een workflowproceseditor waar u een workflow voor het goedkeuringsproces kunt definiëren. Deze workflow kan regels bevatten voor automatische goedkeuring, regels om te bepalen wie wordt aangewezen voor het goedkeuren van bepaalde IO's en regels voor het escaleren van een workflow die al lange tijd wacht op goedkeuring. U kunt het proces voor veranderingenbeheer inschakelen voor alle leveranciers of voor specifieke leveranciers. U kunt ook het proces instellen zodat dit kan worden overschreven voor afzonderlijke IO's.  
+U schakelt wijzigingsbeheer voor IO's in door de optie **Wijzigingsbeheer activeren** in te stellen op de pagina **Parameters voor inkoopbeheer**. Als wijzigingsbeheer is ingeschakeld, moeten IO's een goedkeuringsworkflow doorlopen nadat zij zijn voltooid. Microsoft Dynamics 365 for Finance and Operations heeft een werkstroomverwerkingseditor waarin u een werkstroom voor het goedkeuringsproces kunt definiëren. Deze workflow kan regels bevatten voor automatische goedkeuring, regels om te bepalen wie wordt aangewezen voor het goedkeuren van bepaalde IO's en regels voor het escaleren van een workflow die al lange tijd wacht op goedkeuring. U kunt het proces voor veranderingenbeheer inschakelen voor alle leveranciers of voor specifieke leveranciers. U kunt ook het proces instellen zodat dit kan worden overschreven voor afzonderlijke IO's.  
 
 Als wijzigingsbeheer is ingeschakeld, doorlopen IO's zes goedkeuringsstatussen, van **Concept** tot **Voltooid**. Nadat een order is goedgekeurd, moeten gebruikers die deze willen wijzigen de actie **Wijziging aanvraag** gebruiken.
 
@@ -86,7 +85,6 @@ Nadat eeen order is bevestigd, kunt u deze niet langer verwijderen. U kunt echte
 [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
 
 [Overzicht van leveranciersfacturen](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

@@ -5,28 +5,27 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe3ebe3c27c380d95cbc12b864264e9538d433f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320921"
 ---
-
 # <a name="replenishment-with-withdrawal-kanbans"></a>Aanvulling met opnamekanbans
 
 [!include [banner](../includes/banner.md)]
@@ -87,5 +86,4 @@ In het volgende scenario is de overboekingsactiviteit van de opnamekanban geconf
 6.  Productieproces
 
 Nadat een kanban is verbruikt bij de productie-invoerlocatie, wordt de kanban afgemeld als 'leeg' en een nieuwe kanban wordt toegevoegd aan de stroom. Wanneer de kanban wordt gemaakt, wordt een waveregel toegevoegd aan een kanbanwave. Wanneer de kanbanwave wordt verwerkt, wordt magazijnwerk voor het kanbanorderverzamelen gemaakt. De magazijnmedewerker verwerkt het werk voor het kanbanorderverzamelen en wordt door het werk aangestuurd om het materiaal voor de kanban te verzamelen op een magazijnlocatie. Als deze magazijnmedewerker het verzamelen bevestigt, wordt de kanban wordt automatisch voltooid en de magazijnmedewerker wordt geïnstrueerd om het materiaal naar de productie-invoerlocatie te brengen.
-
 

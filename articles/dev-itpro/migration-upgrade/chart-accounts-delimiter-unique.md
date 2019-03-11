@@ -1,13 +1,13 @@
 ---
 title: Het scheidingsteken in het rekeningschema uniek maken
-description: In Dynamics 365 for Finance and Operations is niet toegestaan dat hetzelfde scheidingsteken wordt gebruikt voor het rekeningschema en dimensiewaarden. Na de upgrade moet u het scheidingsteken wijzigen.
+description: In Dynamics 365 for Finance and Operations, is het niet mogelijk hetzelfde scheidingsteken te gebruiken voor het rekenschema en dimensiewaarden. Na de upgrade moet u het scheidingsteken wijzigen.
 author: ryansandness
 manager: AnnBe
 ms.date: 03/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: e197a1b44e038a97b8bf6db692dcc2eef2bc5f7b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335848"
 ---
-
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Het scheidingsteken in het rekeningschema uniek maken
 
 [!include [banner](../includes/banner.md)]
 
-In Microsoft Dynamics AX 2012 kunt u hetzelfde scheidingsteken gebruiken voor het rekeningschema en dimensiewaarden. In Dynamics 365 for Finance and Operations is niet toegestaan dat hetzelfde scheidingsteken wordt gebruikt voor het rekeningschema en dimensiewaarden. Als er een dubbele scheidingsteken is, kunt u dit wijzigen na de upgrade. 
+In Microsoft Dynamics AX 2012 kunt u hetzelfde scheidingsteken gebruiken voor het rekeningschema en dimensiewaarden. In Dynamics 365 for Finance and Operations, is het niet mogelijk hetzelfde scheidingsteken te gebruiken voor het rekenschema en dimensiewaarden. Als er een dubbele scheidingsteken is, kunt u dit wijzigen na de upgrade. 
 
 Deze functie is beschikbaar in:
 - Dynamics 365 for Finance and Operations versie 8.0
@@ -43,4 +42,3 @@ Als er een conflict is met het rekeningschema, kan het scheidingsteken voor het 
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Bepalen of uw omgeving bijgewerkte scheidingstekens vereist 
 Als scheidingstekens in uw bijgewerkte omgeving conflicten veroorzaken, kan het instabiel zijn wanneer u waarden invoert in een besturingselement voor het invoeren van segmenten of dimensies. Dit houdt in dat u altijd zoekopdrachten of een flyout-menu moet gebruiken voor het invoeren van combinaties van rekeningen en dimensies.
-

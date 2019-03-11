@@ -1,13 +1,13 @@
 ---
-title: Power BI-inhoud Crediterings- en aanmaningsbeheer
-description: In dit onderwerp wordt beschreven wat er is opgenomen in de Power BI-inhoud Crediterings- en aanmaningsbeheer. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+title: Power BI-inhoud - Crediterings- en aanmaningsbeheer
+description: In dit onderwerp wordt beschreven wat er is opgenomen in de Power BI-inhoud Crediterings- en aanmaningsbeheer. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325176"
 ---
-
-# <a name="credit-and-collections-management-power-bi-content"></a>Power BI-inhoud Crediterings- en aanmaningsbeheer
+# <a name="credit-and-collections-management-power-bi-content"></a>Power BI-inhoud - Crediterings- en aanmaningsbeheer
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat er is opgenomen in de Microsoft Power BI-inhoud **Crediterings- en aanmaningsbeheer**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt beschreven wat er is opgenomen in de Microsoft Power BI-inhoud - **crediterings- en aanmaningsbeheer**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 
@@ -43,8 +42,8 @@ Alle bedragen worden weergegeven in de systeemvaluta. U kunt de systeemvaluta in
 
 Standaard worden de gegevens over crediteringen en aanmaningen voor het huidige bedrijf weergegeven. Als u de gegevens voor alle bedrijven wilt bekijken, wijst u de taak **CustCollectionsBICrossCompany** aan de rol toe.
 
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-De Power BI-inhoud **Klantcrediteringen- en aanmaningsbeheer** wordt weergegeven in het werkgebied **Klantcrediteringen en aanmaningen**.
+## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
+De Power BI-inhoud **Crediterings- en aanmaningsbeheer** wordt weergegeven in het werkgebied **Klantcrediteringen en aanmaningen**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud
 
@@ -63,11 +62,11 @@ De Power BI-inhoud **CustCollectionsBICrossCompany** bevat een rapport dat uit e
 | Aanmaningsstatus          | <ul><li>Betwist</li><li>Belofte om te betalen geschonden</li><li>Beloofd te betalen</li><li>Details aanmaningsstatus</li><li>Bedragen aanmaningsstatus</li><li>Openstaande cases</li><li>Openstaande activiteiten</li></ul> |
 | Aanmaningen         | <ul><li>Verzamelingscodebedragen</li><li>Details bedragen aanmaningscode</li><li>Bedrag aanmaningen per bedrijf</li><li>Bedrag aanmaningen per klantengroep</li><li>Bedrag aanmaningen per regio</li></ul> |
 
-De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over het filteren en vastmaken in Power BI het onderwerp [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). U kunt ook de functionaliteit voor het exporteren van onderliggende gegevens gebruiken om de onderliggende gegevens te exporteren die worden samengevat in een visualisatie.
+De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). U kunt ook de functionaliteit voor het exporteren van onderliggende gegevens gebruiken om de onderliggende gegevens te exporteren die worden samengevat in een visualisatie.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 
-De volgende gegevens worden gebruikt om het rapport in de Power BI-inhoud **Finance and Operations** in te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
+De volgende gegevens worden gebruikt om het rapport in de Power BI-inhoud **Crediterings- en aanmaningsbeheer** in te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
 
 
 |                   Entiteit                    |      Belangrijke samengevoegde metingen      |             Gegevensbron              |                           Veld                            |                                    Omschrijving                                     |
@@ -88,5 +87,4 @@ De volgende gegevens worden gebruikt om het rapport in de Power BI-inhoud **Fina
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Het aantal rentenota´s dat is gemaakt.                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              VerkoopTabel              |                       Count(SalesId)                       |                 Het aantal totale verkooporders dat geblokkeerd is.                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                De som van transacties die zijn afgeschreven.                 |
-
 

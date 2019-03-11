@@ -1,13 +1,13 @@
---- 
+---
 title: Indelingen maken voor gebruik van documentbeheerbestanden in ER-uitvoer
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de documentbeheerbestanden in ER-uitvoer.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1815a0004eee6734b3c7d2c2f9e75ce5fe16af1c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362942"
 ---
-
 # <a name="create-formats-to-use-document-management-files-in-er-output"></a>Indelingen maken voor gebruik van documentbeheerbestanden in ER-uitvoer
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -32,7 +31,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 
 Als u deze stappen wilt uitvoeren, voert u eerst de stappen uit in de procedure "ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (Deel 2: Gegevensmodel uitbreiden)".
 
-Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
 
 ## <a name="create-a-format-to-process-invoices"></a>Maak een indeling om facturen te verwerken
@@ -120,5 +119,4 @@ Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Opera
 22. Klik op Binden.
 23. Klik op Opslaan.
 24. Sluit de pagina.
-
 

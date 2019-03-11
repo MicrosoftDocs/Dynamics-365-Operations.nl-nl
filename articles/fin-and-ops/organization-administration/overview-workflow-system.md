@@ -1,13 +1,13 @@
 ---
 title: Workflowsysteem
-description: In dit onderwerp wordt het workflowsysteem in Microsoft Dynamics 365 for Finance and Operations beschreven.
+description: In dit onderwerp wordt het werkstroomsysteem in Microsoft Dynamics 365 for Finance and Operations beschreven.
 author: sericks007
 manager: AnnBe
 ms.date: 08/17/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 770796b42e79ad616b469e1dbf5149789bff0788
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308639"
 ---
-
 # <a name="workflow-system"></a>Workflowsysteem
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt het workflowsysteem in Microsoft Dynamics 365 for Finance and Operations beschreven.
+In dit onderwerp wordt het werkstroomsysteem in Microsoft Dynamics 365 for Finance and Operations beschreven.
 
 ## <a name="what-is-workflow"></a>Wat is een workflow?
 
@@ -72,4 +71,3 @@ Als uw organisatie werkt met het werkstroomsysteem, levert dat tal van voordelen
 + [Een parallelle activiteit in een workflow configureren](configure-parallel-activity-workflow.md)
 + [Een parallelle vertakking in een workflow configureren](configure-parallel-branch-workflow.md)
 + [Een workflow voor regelartikelen configureren](configure-line-item-workflow.md)
-

@@ -1,51 +1,50 @@
 ---
-title: Praktijkbeheerder - Power BI-inhoud
-description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor Praktijkbeheerder. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
+title: Power BI-inhoud Praktijkbeheerder
+description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Praktijkbeheerder. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367795"
 ---
-
-# <a name="practice-manager-power-bi-content"></a>Praktijkbeheerder - Power BI-inhoud
+# <a name="practice-manager-power-bi-content"></a>Power BI-inhoud Praktijkbeheerder
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud voor **Praktijkbeheerder**. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Praktijkbeheerder**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 
-De **Praktijkbeheerder** Power BI-inhoud is gemaakt voor praktijkbeheerders en projectmanagers. Het biedt essentiële metrische gegevens die zijn gerelateerd aan de projecten waaraan de organisatie werkt. Het dashboard bevat een overzicht van de projecten en gerelateerde klanten. Een filter op rapportniveau kan worden gebruikt om te rapporteren over specifieke rechtspersonen. Deze Power BI-inhoud haalt gegevens uit het samengevoegde metingen uit de projectboekhouding.
+De Power BI-inhoud **Praktijkbeheerder** is gemaakt voor praktijkbeheerders en projectmanagers. Het biedt essentiële metrische gegevens die zijn gerelateerd aan de projecten waaraan de organisatie werkt. Het dashboard bevat een overzicht van de projecten en gerelateerde klanten. Een filter op rapportniveau kan worden gebruikt om te rapporteren over specifieke rechtspersonen. Deze Power BI-inhoud haalt gegevens uit de samengevoegde metingen uit de projectboekhouding.
 
 De Power BI-inhoud **Praktijkbeheerder** bevat vijf rapportpagina's: één overzichtspagina en vier pagina's met details van projectkosten, opbrengsten, beheer van verdiende waarde en metrische uurgegevens die worden gesegmenteerd en verdeeld over verschillende dimensies.
 
 Alle bedragen in de inhoud worden weergegeven in de systeemvaluta. U kunt de systeemvaluta instellen op de pagina **Systeemparameters**.
 
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
+## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 
 De Power BI-inhoud **Praktijkbeheerder** wordt weergegeven in het werkgebied **Projectbeheer**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud
 
-De volgende tabel bevat informatie over de metrische gegevens op elke rapportpagina in de **Praktijkbeheerder** Power BI-inhoud.
+De volgende tabel bevat informatie over de metrische gegevens op elke rapportpagina in de Power BI-inhoud **Praktijkbeheerder**.
 
 | Rapportpagina       | Metrische gegevens |
 |-------------------|---------|
@@ -119,4 +118,3 @@ In de volgende secties worden de samengevoegde metingen uitgelegd die worden geb
 | Belangrijke samengevoegde meting       | Veld               | Omschrijving |
 |---------------------------------|---------------------|-------------|
 | Geplande kosten voltooide activiteit | Sum(TotalCostPrice) | De totale kostprijs in ramingen voor alle projecttransactietypen met voltooide taken. |
-

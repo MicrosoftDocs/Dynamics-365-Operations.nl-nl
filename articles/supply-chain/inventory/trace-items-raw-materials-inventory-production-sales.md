@@ -5,9 +5,9 @@ author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310065"
 ---
-
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Artikelen en grondstoffen in voorraad, productie en verkoop traceren
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,7 @@ Als u in de huidige versie van Microsoft Dynamics AX de optie **Nieuw achterwaar
 U kunt de informatie op het tabblad <strong>Details</strong> opslaan als XML-bestand door op <strong>Exporteren</strong> in het actievenster onder de actie *<strong><em>Tracering</em></strong>* te klikken. Naast de traceringsdetails bevat het XML-bestand de traceringscriteria, het bovenliggende knooppunt en de voorhanden hoeveelheid. Het opslaan van de details van een tracering is handig, bijvoorbeeld als u de gegevens aan een kwaliteitsorder of andere conformiteitsdocumentatie wilt koppelen. U kunt opgeven waar het bestand wordt opgeslagen. Als u het bestand meteen wilt weergeven, schakelt u het selectievakje <strong>Document weergeven</strong> in. <strong>Opmerking:</strong> Het bestand wordt altijd opgeslagen, zelfs als u het alleen wilt weergeven. Standaard opent het XML-bestand in een browservenster. U kunt echter met de rechtermuisknop op het bestand klikken, <strong>Openen met</strong> selecteren en vervolgens het programma selecteren om de inhoud weer te geven.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Kan ik een saldo voor een bepaald artikel of een ingrediënt berekenen?
-U kunt de informatie van de overzichtspagina's exporteren naar Microsoft Excel. Open de relevante pagina, klik op het pictogram **Openen in Microsoft Office**, en selecteer vervolgens **Exporteren naar Microsoft Excel**. Dit is vooral nuttig wanneer u een massasaldo voor een artikel of een ingrediënt van de pagina **Overzicht van transacties** wilt berekenen. Op de pagina **Overzicht van transacties** kunt u desgewenst op het artikel of het ingrediënt en de batch filteren en vervolgens de informatie naar Excel exporteren. In Excel kunt u bijvoorbeeld de voorhanden hoeveelheid isoleren, de hoeveelheid die is verkocht, en de hoeveelheid die in productie is gebruikt.
+U kunt de informatie van de overzichtspagina´s exporteren naar Microsoft Excel. Open de relevante pagina, klik op het pictogram **Openen in Microsoft Office** en selecteer vervolgens **Exporteren naar Microsoft Excel**. Dit is vooral nuttig wanneer u een massasaldo voor een artikel of een ingrediënt van de pagina **Overzicht van transacties** wilt berekenen. Op de pagina **Overzicht van transacties** kunt u desgewenst op het artikel of het ingrediënt en de batch filteren en vervolgens de informatie naar Excel exporteren. In Excel kunt u bijvoorbeeld de voorhanden hoeveelheid isoleren, de hoeveelheid die is verkocht, en de hoeveelheid die in productie is gebruikt.
 
 ## <a name="can-i-investigate-whether-there-is-a-history-of-issues-with-items-or-raw-materials"></a>Kan ik onderzoeken of er een historie van problemen met artikelen of onbewerkte materialen is?
 De traceringsdetails bevatten informatie over kwaliteitsorders en niet-conformeringen betreffende het artikel of de grondstof. U kunt een overzicht van kwaliteitsorders en niet-conformeringen weergeven door op **Kwaliteitsorders** of **Niet-conformeringen** te klikken in het Actievenster. **Opmerking**: Destructieve kwaliteitsorders kunnen meer dan één keer voorkomen in de traceringsdetails. Als een destructieve kwaliteitsorder voor een document wordt aangemaakt, zoals een inkooporder, wordt het weergegeven voor elke transactie voor dat document.
@@ -141,4 +140,3 @@ U kunt het rapport **Verzonden naar klanten** genereren om de hoeveelheid van he
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Kan ik co- en bijproducten traceren?
 U kunt co-producten traceren, maar u kunt een bijproduct niet traceren omdat traceringsdimensies meestal niet aan hen zijn toegewezen. Wanneer u een artikel traceert, bevatten de traceringsdetails alle gerelateerde co-producten. Een knooppunt dat een coproduct bevat, bevat het woord "coproduct" in de details. U kunt details over een co-product ook weergeven door het knooppunt in de traceringsdetails te selecteren, en vervolgens het sneltabblad **Productie** te openen.
-

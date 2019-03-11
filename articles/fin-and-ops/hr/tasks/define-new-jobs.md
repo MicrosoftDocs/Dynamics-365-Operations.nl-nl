@@ -1,13 +1,13 @@
---- 
-title: "Nieuwe taken definiëren"
+---
+title: Nieuwe taken definiëren
 description: Deze taak is gericht op het maken van een nieuwe taak.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347923"
 ---
 # <a name="define-new-jobs"></a>Nieuwe taken definiëren
 
@@ -57,7 +57,7 @@ Deze taak is gericht op het maken van een nieuwe taak. Het wordt voltooid met ha
 21. Zoek en selecteer de gewenste record in de lijst.
 22. Klik in de lijst op de koppeling in de geselecteerde rij.
 23. Schakel de uitbreiding van de sectie Vaardigheden om.
-    * Merk op dat de velden in de sneltabbladen Vaardigheden, Opleiding en Certificaten leeg zijn. Na het kopiëren van gegevens van een taaksjabloon, wordt de informatie in deze velden in één stap ingevoerd.   
+    * Merk op dat de velden in de sneltabbladen Vaardigheden, Opleiding en Certificaten leeg zijn. Na het kopiëren van gegevens van een taaksjabloon, wordt de informatie in deze velden in één stap ingevoerd.   
 24. Klik op Opslaan.
 25. Klik op Kopiëren van.
 26. Klik op Kopiëren uit sjabloon.
@@ -70,5 +70,4 @@ Deze taak is gericht op het maken van een nieuwe taak. Het wordt voltooid met ha
 32. Schakel de uitbreiding van de sectie Certificaten om.
 33. Schakel de uitbreiding van de sectie Opleiding om.
 34. Klik op Opslaan.
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Salaris-/compensatiestructuur en -plan ontwikkelen
 description: Deze taakbegeleiding doorloopt het proces voor het maken van een vastecompensatieplan en het mogelijk maken dat werknemers worden geregistreerd in het plan via geschiktheidsregels.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332766"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>Salaris-/compensatiestructuur en -plan ontwikkelen
 
@@ -74,5 +74,4 @@ Deze taakbegeleiding doorloopt het proces voor het maken van een vastecompensati
     * Selecteer de criteria waaraan een werknemer moet voldoen om in aanmerking te komen voor het compensatieplan. De criteria kunnen zijn: Afdeling, Vakbond, Locatie (Compensatieregio), Taak, Functie, Taaktype of Compensatieniveau. De werknemer moet aan alle criteria voldoen om in aanmerking te komen voor het compensatieplan. Als er geen criteria bestaan, komen alle werknemers in aanmerking voor het compensatieplan. Als een werknemer niet voldoet aan de criteria die in de regel voor geschiktheid worden opgegeven, of er geen regel voor geschiktheid voor een compensatieplan is opgegeven, wordt het compensatieplan niet in de zoekopdracht bij het maken van een vaste-compensatierecord voor een werknemer weergegeven.  
 7. Sluit de pagina.
 8. Sluit de pagina.
-
 

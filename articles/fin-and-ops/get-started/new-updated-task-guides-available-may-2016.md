@@ -1,13 +1,13 @@
 ---
 title: Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)
-description: In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
+description: In dit artikel worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,28 +17,27 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341345"
 ---
-
 # <a name="new-or-updated-task-guides-may-2016"></a>Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht. 
+In dit artikel worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht. 
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Taakbegeleidingen in de APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX
 
-De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help bij de update voor mei 2016 van Microsoft Dynamics AX en de release van Microsoft Dynamics AX voor februari 2016. Gelokaliseerde versies van de taakbegeleidingen die zijn uitgebracht in de APQC Unified Library (februari 2016) zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
+De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld om te worden gebruikt voor de Help bij Microsoft Dynamics AX versie mei 2016 en de Microsoft Dynamics AX release van februari 2016. Gelokaliseerde versies van de taakbegeleidingen die zijn uitgebracht in de APQC Unified Library (februari 2016) zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
 
 > [!NOTE]
 > Een sterretje (\*) naast de titel van een BPM-regel (Business Process Modeler) geeft aan dat de taakbegeleiding voor dat bedrijfsproces is gemaakt voor de update van Microsoft Dynamics AX van mei 2016 en niet wordt ondersteund in eerdere versies van Microsoft Dynamics AX.
 
-### <a name="countryregion-functionality"></a>Land-/regio-functionaliteit
+### <a name="countryregion-functionality"></a>Functionaliteit land/regio
 
 | BPM-regel                                                                 | Land/regio                    |
 |--------------------------------------------------------------------------|-----------------------------------|
@@ -195,4 +194,3 @@ De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld v
 [Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Nieuwe of bijgewerkte taakbegeleidingen (november 2016)](new-task-guides-november-2016.md)
-

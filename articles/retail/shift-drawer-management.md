@@ -5,9 +5,9 @@ author: jblucher
 manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313009"
 ---
-
 # <a name="shift-and-cash-drawer-management"></a>Ploeg- en kasladebeheer
 
 [!include [banner](includes/banner.md)]
@@ -70,7 +69,7 @@ Als u gedeelde ploegen in een winkel wilt gebruiken, moet de kassalade worden ge
 
 ## <a name="shift-and-drawer-operations"></a>Ploeg- en kassaladebeheer
 
-U kunt verschillende acties ondernemen om de status van een ploeg te wijzigen of het geldbedrag in de kassalade te verhogen of te verlagen. In deze sectie worden deze bewerkingen voor ploegen in Microsoft Dynamics 365 for Retail Modern POS en Cloud POS beschreven.
+U kunt verschillende acties ondernemen om de status van een ploeg te wijzigen of het geldbedrag in de kassalade te verhogen of te verlagen. Deze sectie beschrijft deze ploegbewerkingen voor Microsoft Dynamics 365 for Retail Modern POS en Cloud POS.
 
 ### <a name="open-shift"></a>Ploeg openen
 
@@ -159,4 +158,3 @@ Ga naar **Retail \> Afzetkanalen \> Detailhandelwinkels \> Alle detailhandelwin
 Met deze instelling zorgt u ervoor dat backoffice-overzichten dezelfde transacties als ploegen bevatten in het POS en dat de gegevens worden samengevat op basis van die ploegen.
 
 Zie [Winkelconfiguraties voor detailhandeloverzichten](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements) voor meer informatie over overzichten en afsluitingsmethoden.
-

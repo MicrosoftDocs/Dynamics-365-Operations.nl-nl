@@ -1,30 +1,29 @@
 ---
-title: "Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio"
-description: "In dit onderwerp wordt uitgelegd hoe u een probleem oplost waarbij namen van personen en posities worden afgekapt wanneer klanten de positiehiërarchie weergeven in Microsoft Dynamics 365 for Talent. Tekstafbreking kan het moeilijk maken om een schermopname te maken of de hiërarchie af te drukken."
+title: Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
+description: In dit onderwerp wordt uitgelegd hoe u een probleem oplost waarbij namen van personen en posities worden afgekapt wanneer klanten de positiehiërarchie weergeven in Microsoft Dynamics 365 for Talent. Tekstafbreking kan het moeilijk maken om een schermopname te maken of de hiërarchie af te drukken.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: b688a396e3b384aedb06c470b1634150ae7aa038
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303862"
 ---
-
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
 
 [!include [banner](includes/banner.md)]
@@ -41,7 +40,7 @@ Dit is zo ontworpen.
 
 **Resolutie**
 
-Helaas kunnen gebruikers de grootte van de tekst niet gemakkelijk wijzigen. U kunt de positiehiërarchie echter uit Talent exporteren en vervolgens importeren in Microsoft Visio. Hoewel het volgende artikel is geschreven voor Microsoft Dynamics AX 2012, is het proces ook van toepassing op Talent: [een positiehiërarchie exporteren naar Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
+Helaas kunnen gebruikers de grootte van de tekst niet gemakkelijk wijzigen. U kunt de positiehiërarchie echter uit Talent exporteren en vervolgens importeren in Microsoft Visio. Hoewel het volgende artikel is geschreven voor Microsoft Dynamics AX 2012, is het proces ook van toepassing op [Talent: een positiehiërarchie exporteren naar Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
 Volg deze stappen om te exporteren naar Visio.
 
@@ -107,4 +106,3 @@ Op basis van de velden die u hebt geselecteerd voor het diagram worden voor elk 
 **Aanvullende optie**
 
 In Talent kunt u mogelijk ook het werkgebied **Mensen** gebruiken om bepaalde hiërarchiegerelateerde informatie weer te geven.
-

@@ -1,13 +1,13 @@
 ---
-title: Power BI-inhoud Werknemerontwikkeling
-description: In dit onderwerp wordt de Power BI-inhoud Werknemerontwikkeling besproken.
+title: Werknemersontwikkeling Power BI-inhoud
+description: In dit onderwerp wordt de Werknemersontwikkeling Power BI-inhoud besproken.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,22 +15,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347164"
 ---
-
-# <a name="employee-development-power-bi-content"></a>Power BI-inhoud Werknemerontwikkeling
+# <a name="employee-development-power-bi-content"></a>Werknemersontwikkeling Power BI-inhoud
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de Microsoft Power BI-inhoud **Werknemerontwikkeling** besproken.
+In dit onderwerp wordt de **Werknemersontwikkeling** Microsoft Power BI-inhoud.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud
-De rapporten die zijn opgenomen in de Power BI-inhoud **Werknemerontwikkeling** bevatten diagrammen en tabellen met aanvullende informatie. De onderstaande tabel geeft een overzicht van de rapporten.
+De rapporten die zijn opgenomen in de **Werknemersontwikkeling** Power BI-inhoud bevatten diagrammen en tabellen met aanvullende informatie. De onderstaande tabel geeft een overzicht van de rapporten.
 
 | Rapport                        | Inhoud |
 |-------------------------------|----------|
@@ -42,7 +41,7 @@ De rapporten die zijn opgenomen in de Power BI-inhoud **Werknemerontwikkeling** 
 | Prestatiebeoordelingsanalyse   | Werknemers op basis van laagste en hoogste beoordeling per functie, werknemersbeoordelingen per afdeling, werknemers per beoordeling en positietype en hoogste en laagste beoordelingen per positie |
 | Werknemersprestatieanalyse | Werknemersbeoordelingen voor geselecteerde beoordeling door manager |
 
-U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over het filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 
@@ -70,4 +69,3 @@ U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en te
 | Vaardigheidsanalyse werknemer  | Gecertificeerd, niveau, niveaudatum en vaardigheid                                                                    | Werknemernaam, Vaardigheid |
 | Prestaties              | Classificatie, beschrijving en classificatiemodel                                                                      | Huidige werknemer, Huidige positie, Trend werknemer, Voorkeursvaardigheid functie, Toewijzing eerdere positie, Trend positie, Ontslagen werknemer |
 | Vaardigheid                    | Vaardigheid, vaardigheidstype en classificatie                                                                              | Vaardigheidsanalyse werknemer, Voorkeursvaardigheid functie |
-

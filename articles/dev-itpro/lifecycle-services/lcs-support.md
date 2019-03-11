@@ -1,13 +1,13 @@
 ---
 title: Ondersteuning krijgen voor Finance and Operations of Lifecycle Services (LCS)
-description: In dit artikel wordt uitgelegd hoe u ondersteuning kunt krijgen bij Microsoft Dynamics 365 for Finance and Operations of Microsoft Dynamics Lifecycle Services (LCS).
+description: Dit artikel legt uit hoe u ondersteuning kunt krijgen bij Microsoft Dynamics 365 for Finance and Operations of Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
 ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/21/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334767"
 ---
-
 # <a name="get-support-for-finance-and-operations-or-lifecycle-services-lcs"></a>Ondersteuning krijgen voor Finance and Operations of Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Gebruik de bronnen in de volgende tabel als u ondersteuning nodig hebt voor Fina
 </colgroup>
 <thead>
 <tr class="header">
-<th>Taak</th>
+<th>Opdracht</th>
 <th>Meer informatie</th>
 </tr>
 </thead>
@@ -70,12 +69,12 @@ Opmerking: Microsoft Premier-klanten en Partners kunnen ook Premier-ondersteunin
 </tr>
 <tr class="even">
 <td>Een ondersteuningsticket openen met het ondersteuningsteam van Finance and Operations.</td>
-<td>Als u problemen hebt wanneer u een ticket probeert in te dienen naar Microsoft via de tegel <strong>Ondersteuning</strong> in LCS, raadpleegt u <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Neem contact op met Microsoft Business Solutions Support</span></a> voor informatie over contact met een Microsoft Dynamics Regional Operations Center. Het ondersteuningsteam kunt u helpen bij het oplossen van de volgende typen technische problemen:
+<td>Als u problemen hebt wanneer u een ticket probeert in te dienen bij Microsoft via de tegel <strong>Ondersteuning</strong> in LCS, raadpleegt u <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Neem contact op met Microsoft Business Solutions Support</span></a> voor informatie over contact met een Microsoft Dynamics Regional Operations Center. Het ondersteuningsteam kunt u helpen bij het oplossen van de volgende typen technische problemen:
 <ul>
 <li>Fouten die optreden bij het gebruik van LCS of problemen bij het toegang krijgen tot LCS.</li>
 <li>Fouten die optreden bij gebruik van Finance and Operations.</li>
 </ul>
-Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSource, e-learning, Zoeken, Knowledge Base, downloaden van bestanden en pagina- of systeemfouten, gaat u naar <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">de website Ondersteuning</span></a>.</td>
+Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSource, e-learning, Zoeken, Knowledge Base, het downloaden van bestanden en pagina- of systeemfouten gaat u naar <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Website-ondersteuning</span></a>.</td>
 </tr>
 <tr class="odd">
 <td>Hulp bij vragen over licenties voor Finance and Operations.</td>
@@ -89,9 +88,8 @@ Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSour
 </table>
 
 
-## <a name="additional-resources"></a>Aanvullende resources
-- [Ondersteuning krijgen voor Dynamics 365 for Retail](../../retail/retail-support.md)
-- [Ondersteuning krijgen voor Dynamics 365 for Talent](../../talent/talent-support.md)
-- Voor meer informatie over ondersteuningsmogelijkheden van Microsoft Dynamics zie [Microsoft Dynamics Online ondersteuning](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
-
+## <a name="additional-resources"></a>Aanvullende bronnen
+- [Ondersteuning voor Dynamics 365 for Retail](../../retail/retail-support.md)
+- [Ondersteuning voor Dynamics 365 for Talent](../../talent/talent-support.md)
+- Voor meer informatie over Microsoft Dynamics-ondersteuning, zie [Microsoft Dynamics on line ondersteuning](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 

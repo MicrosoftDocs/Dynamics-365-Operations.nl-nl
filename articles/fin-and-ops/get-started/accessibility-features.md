@@ -1,33 +1,32 @@
 ---
 title: Toegankelijkheidsfuncties
-description: Dit onderwerp beschrijft de functionaliteit die is ontworpen om gebruikers met verschillende beperkingen te helpen Dynamics 365 for Finance and Operations, Dynamics 365 for Retail, en Dynamics 365 for Talent te gebruiken.
+description: In dit onderwerp wordt de functionaliteit beschreven die is ontworpen om gebruikers met verschillende handicaps te helpen Dynamics 365 for Finance and Operations, Dynamics 365 for Retail en Dynamics 365 for Talent te gebruiken.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363402"
 ---
-
 # <a name="accessibility-features"></a>Toegankelijkheidsopties
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft de functionaliteit die is ontworpen om gebruikers met verschillende beperkingen te helpen Dynamics 365 for Finance and Operations, Dynamics 365 for Retail, en Dynamics 365 for Talent te gebruiken. Er zijn bijvoorbeeld functies voor mensen die zichtondersteunende technologieën zoals Microsoft Windows Verteller gebruiken.
+In dit onderwerp wordt de functionaliteit beschreven die is ontworpen om gebruikers met verschillende handicaps te helpen Dynamics 365 for Finance and Operations, Dynamics 365 for Retail en Dynamics 365 for Talent te gebruiken. Er zijn bijvoorbeeld functies voor mensen die zichtondersteunende technologieën zoals Microsoft Windows Verteller gebruiken.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Verteller en toegang op basis van alleen het toetsenbord
 
@@ -97,4 +96,3 @@ Het product is ontworpen voor gebruik op verschillende apparaten en vormfactoren
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Richtlijnen om ontwikkelaars en klanten toegankelijk denken in hun aanpassingen te laten verwerken
 
 Zie [Toegankelijkheid in formulieren, producten en besturingselementen](../../dev-itpro/user-interface/enable-accessibility.md) voor meer informatie over best practices van Microsoft om de toegankelijkheid te vergroten.
-

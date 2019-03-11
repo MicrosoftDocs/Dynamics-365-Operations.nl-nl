@@ -1,13 +1,13 @@
---- 
+---
 title: ER Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indelingsconfiguratie kan onderhouden voor elektronische rapportage (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342265"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen
 
@@ -108,7 +108,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedures "Een
     * Merk op dat de gemaakte configuratie wordt opgeslagen als voltooide versie 1.1.1. Dit houdt in dat het versie 1 van de aangepaste BACS-indeling (UK fictief en aangepast) is, die is gebaseerd op versie 1 van de BACS-indeling (UK fictief), die is gebaseerd op versie 1 van het gegevensmodel Betalingen (vereenvoudigd model).  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>De aangepaste indeling testen om betalingsbestanden te genereren
-    * Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle sessie van Dynamics 365 for Finance and Operations, Enterprise edition. Selecteer de indeling BACS (UK fictief) in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist geïntroduceerde XML-knooppunt bevat dat de IBAN-code in overeenstemming met regionale vereisten weergeeft.  
+    * Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle Dynamics 365 for Finance and Operations-Enterprise edition-sessie. Selecteer de indeling BACS (UK fictief) in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist geïntroduceerde XML-knooppunt bevat dat de IBAN-code in overeenstemming met regionale vereisten weergeeft.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>De bestaande landspecifieke configuratie bijwerken
     * Litware, Inc. moet de configuratie BACS (UK fictief) bijwerken en nieuwe landvereisten aannemen voor het beheren van de indeling van het elektronische document. Later wordt deze in een nieuwe versie van deze configuratie ingesloten die wordt aangeboden voor serviceabonnees, inclusief Proseware, Inc.  
@@ -198,6 +198,5 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedures "Een
     * De gemaakte configuratie wordt als voltooide versie 1.2.2 opgeslagen: versie 2 van de basisindeling BACS (UK fictief en aangepast), die is gebaseerd op versie 2 van basisindeling BACS (UK fictief), die is gebaseerd op versie 1 van het gegevensmodel Betalingen (vereenvoudigd model).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>De aangepaste indeling testen om betalingsbestanden te genereren
-    * Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle sessie van Dynamics 365 for Finance and Operations, Enterprise edition. Selecteer de gemaakte indeling BACS (UK fictief en aangepast) in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist door Proseware, Inc. geïntroduceerde XML-knooppunt bevat dat de IBAN-rekeningcode in overeenstemming met regionale vereisten weergeeft. Het bestand moet ook het onlangs door Litware, Inc. geïntroduceerde XML-knooppunt met de SWIFT-bankcode bevatten conform de landvereisten.  
-
+    * Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle Dynamics 365 for Finance and Operations-Enterprise edition-sessie. Selecteer de gemaakte indeling BACS (UK fictief en aangepast) in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist door Proseware, Inc. geïntroduceerde XML-knooppunt bevat dat de IBAN-rekeningcode in overeenstemming met regionale vereisten weergeeft. Het bestand moet ook het onlangs door Litware, Inc. geïntroduceerde XML-knooppunt met de SWIFT-bankcode bevatten conform de landvereisten.  
 

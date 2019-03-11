@@ -5,9 +5,9 @@ author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f7af5413376a98c3b2b7ded46c757c9156a3fadf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ec88d799c44e035b6490861383557f8c3beda41
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362712"
 ---
-
 # <a name="125-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 125 procent
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ Bij de methode 125% degressieve afschrijvingsmethode, wordt 125 procent door het
 
 > [!NOTE] 
 > Wanneer het bedrag dat wordt berekend met de methode voor 125% degressieve afschrijving lager is dan het bedrag dat wordt berekend door de lineaire methode te gebruiken, vindt er doorgaans een conversie naar de lineaire methode plaats voor de resterende levensduur.
-
 
 
 

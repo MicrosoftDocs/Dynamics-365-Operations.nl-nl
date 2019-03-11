@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: b6cdb69f32de2118e685c149605d50b78105c098
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 39578744654215795f43fec8dcc70c264b66fb0b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317563"
 ---
-
 # <a name="cost-controlling-mobile-workspace"></a>Mobiel werkgebied voor kostenbeheer
 
 [!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie over het mobiele werkgebied **Kostenbeheer**. Via dit werkgebied kunnen kostenplaatsmanagers altijd en overal informatie over de prestaties van hun kostenplaats bekijken.
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations.
+Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Overzicht
 Het mobiele werkgebied **Kostenbeheer** biedt een directe weergave van de huidige prestaties van kostenplaatsen door werkelijke kosten ten opzichte van de gebudgetteerde kosten te vergelijken. U kunt inzoomen op de status van afzonderlijke kostenelementen.
@@ -79,10 +78,10 @@ Het mobiele werkgebied **Kostenbeheer** bevat de volgende acties, weergaven en k
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt
-Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd voor uw organisatie, moet de systeembeheerder het mobiele werkgebied **Kostenbeheer** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Kostenbeheer** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger gebruikt.
-Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder aan de volgende vereisten voldoen.
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Microsoft Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
+Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren.
 
 <table>
 <thead>
@@ -99,7 +98,7 @@ Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of 
 
 <td>KB 4013633 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Kostenbeheer</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4013633.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">De metagegevenshotfix van Microsoft Dynamics Lifecycle Services (LCS) downloaden</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Metagegevens-hotfix downloaden uit  Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">De metagegevenshotfix installeren</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Het implementeerbare pakket toepassen</a></li>
@@ -144,5 +143,4 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 10. Selecteer de koppeling **Details voor huidige periode**.
 11. Geef de prestaties van afzonderlijke kostenelementen weer.
 12. U kunt ook zoeken naar specifieke kostenelementen.
-
 

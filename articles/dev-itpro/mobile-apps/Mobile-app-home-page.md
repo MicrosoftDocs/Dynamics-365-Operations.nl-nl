@@ -1,13 +1,13 @@
 ---
 title: Startpagina voor Dynamics 365 for Unified Operations Mobile-app
-description: In dit onderwerp wordt de mobiele app voor Microsoft Dynamics 365 for Unified Operations beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen deze toe te passen in uw organisatie.
+description: In dit onderwerp wordt de app voor Microsoft Dynamics 365 for Unified Operations Mobile beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen deze toe te passen in uw organisatie.
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321381"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Startpagina voor Dynamics 365 for Unified Operations Mobile-app
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de mobiele app voor Microsoft Dynamics 365 for Unified Operations beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen deze toe te passen in uw organisatie.
+In dit onderwerp wordt de app voor Microsoft Dynamics 365 for Unified Operations Mobile beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen deze toe te passen in uw organisatie.
 
 > [!NOTE]
-> De mobiele toepassing heette voorheen *Microsoft Dynamics 365 for Finance and Operations*.
+> De mobiele app heette voorheen *Microsoft Dynamics 365 for Finance and Operations*.
 
 <a name="overview"></a>Overzicht
 --------
@@ -90,7 +89,7 @@ De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de im
 <tr class="even">
 <td>2</td>
 <td>Systeembeheerder</td>
-<td><strong>Als u Microsoft Dynamics 365 for Operations, versie 1611, gebruikt:</strong> Download en installeer de KB's die de door Microsoft geleverde mobiele werkgebieden inschakelen.</td>
+<td><strong>Als u Microsoft Dynamics 365 for Operations versie 1611 gebruikt:</strong> Download en installeer KB's waarmee de mobiele werkgebieden die door Microsoft worden geleverd worden ingeschakeld.</td>
 <td>Zie de volgende onderwerpen voor meer informatie:
 <ul>
 
@@ -153,4 +152,3 @@ De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de im
 </tr>
 </tbody>
 </table>
-

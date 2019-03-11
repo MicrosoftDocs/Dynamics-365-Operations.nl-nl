@@ -1,13 +1,13 @@
 ---
-title: Opties voor vaste-activatransacties
-description: In dit artikel worden de beschikbare methoden vor het maken van vaste-activatransacties beschreven.
+title: Transactieopties voor vaste activa
+description: In dit onderwerp worden de beschikbare methoden voor het maken van vaste-activatransacties beschreven.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377177"
 ---
-
-# <a name="fixed-asset-transaction-options"></a>Opties voor vaste-activatransacties
+# <a name="fixed-asset-transaction-options"></a>Transactieopties voor vaste activa
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel worden de beschikbare methoden vor het maken van vaste-activatransacties beschreven.
+In dit onderwerp worden de beschikbare methoden voor het maken van vaste-activatransacties beschreven.
 
 U kunt vaste activa instellen voor integratie met crediteuren, debiteuren, inkoop en sourcing en grootboek. Ook kunt u artikelen in voorraadbeheer overbrengen naar vaste activa als u deze items intern gebruikt.
 
@@ -66,9 +65,6 @@ Elk type vaste-activatransactie kan worden geboekt op de Algemeen journaal. Ook 
 | ** **                               | Klanten        | Vrije-tekstfactuur                         |
 
 
+De resterende waarde van de afschrijvingsperioden van het vaste activum wordt niet bijgewerkt wanneer een regel van een journaal van het type afschrijvingstransactie handmatig wordt gemaakt of wordt geïmporteerd door middel van een gegevensentiteit. Deze waarde wordt bijgewerkt wanneer het afschrijvingsvoorstelproces wordt gebruikt om de journaalregel te maken.
 
 Zie [Integratie vaste activa](fixed-asset-integration.md) voor meer informatie.
-
-
-
-

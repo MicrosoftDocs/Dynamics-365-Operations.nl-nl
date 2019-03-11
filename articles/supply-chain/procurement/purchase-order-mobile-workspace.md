@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348843"
 ---
-
 # <a name="purchase-order-approval-mobile-workspace"></a>Mobiel werkgebied Goedkeuring van inkooporder
 
 [!include [banner](../includes/banner.md)]
@@ -42,10 +41,10 @@ In het mobiele werkgebied **Goedkeuring van inkooporders** kunt u eenvoudig op u
 De vereisten verschillen, afhankelijk van de versie van Finance and Operations die voor uw organisatie is geïmplementeerd.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
-Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Goedkeuring van inkooporders** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Goedkeuring van inkooporder** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten voor gebruik van Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger.
-Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Microsoft Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
+Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
 
 <table>
 <thead>
@@ -61,7 +60,7 @@ Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of 
 <td>Systeembeheerder</td>
 <td>KB 4017918 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Goedkeuring van inkooporders</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4017918.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">De metagegevenshotfix van Microsoft Dynamics Lifecycle Services (LCS) downloaden</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Metagegevens-hotfix downloaden uit  Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">De metagegevenshotfix installeren</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Het implementeerbare pakket toepassen</a></li>
@@ -76,7 +75,7 @@ Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of 
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
-Download en installeer de mobiele app voor Microsoft Dynamics 365 for Unified Operations:
+Download en installeer de app Microsoft Dynamics 365 for Unified Operations Mobile:
 
 - [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -85,7 +84,7 @@ Download en installeer de mobiele app voor Microsoft Dynamics 365 for Unified Op
 ## <a name="sign-in-to-the-mobile-app"></a>Aanmelden bij de mobiele app
 
 1. Start de app op uw mobiele apparaat.
-2. Voer uw Microsoft Dynamics 365-URL in.
+2. Voer uw URL voor Microsoft Dynamics365 in.
 3. De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4. Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
@@ -116,4 +115,3 @@ Nadat u de inkooporder die aan u is toegewezen hebt bekeken en de workflowinstru
 5. Selecteer de gewenste actie.
 6. Voer op de pagina **Taak voltooien** een opmerking in. Houd er rekening mee dat als u de actie **Delegeren** kiest, u een gebruiker moet selecteren aan wie de taak wordt gedelegeerd.
 7. Selecteer **Gereed**. Nadat u uw werkruimte hebt vernieuwd, staat de inkooporder niet meer in de lijst. 
-

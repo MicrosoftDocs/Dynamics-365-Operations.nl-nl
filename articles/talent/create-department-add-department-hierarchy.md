@@ -1,13 +1,13 @@
 ---
-title: "Afdelingen maken en deze opnemen in de afdelingenhiërarchie"
+title: Afdelingen maken en deze opnemen in de afdelingenhiërarchie
 description: Een afdeling is een operationele eenheid die een categorie of functioneel onderdeel van een organisatie voorstelt. Een afdeling is verantwoordelijk voor een specifiek gebied van de organisatie, zoals verkoop, boekhouding of HR. U kunt afdelingen gebruiken om te rapporteren over functiegebieden. Afdelingen zijn mogelijk verantwoordelijk voor winst en verlies.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 14e0acb2ea16641eecb81bcf23c8b7d778b2b208
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303878"
 ---
-
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Afdelingen maken en deze opnemen in de afdelingenhiërarchie
 
 [!include [banner](includes/banner.md)]
@@ -57,4 +56,3 @@ Als u een afdeling wilt toevoegen aan de afdelingshiërarchie, volgt u deze stap
 
 ## <a name="steps-for-creating-a-department"></a>Stappen voor het maken van een afdeling
 Raadpleeg het onderwerp [Nieuwe afdelingen definiëren](../fin-and-ops/hr/tasks/define-new-departments.md) voor de stapsgewijze procedure voor het maken van een nieuwe afdeling. 
-

@@ -1,33 +1,32 @@
 ---
 title: Werk uitbesteden
-description: In dit onderwerp maakt u een procedure voor het uitbesteden van werk in productie in Microsoft Dynamics 365 for Finance and Operations.
+description: Dit onderwerp helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Microsoft Dynamics 365 for Finance and Operations.
 author: christophernread
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: ade3f4ad9878c9e885afc5034334e41897512871
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 55b516f928eadea9b7ddbb1192db79f3ab7fa204
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336699"
 ---
-
 # <a name="subcontracting"></a>Werk uitbesteden
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp maakt u een procedure voor het uitbesteden van werk in productie in Microsoft Dynamics 365 for Finance and Operations. In het eerste deel van dit onderwerp wordt beschreven hoe u de gegevens instelt. In het tweede deel doorloopt u de stappen in de procedure.
+Dit onderwerp helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Microsoft Dynamics 365 for Finance and Operations. In het eerste deel van dit onderwerp wordt beschreven hoe u de gegevens instelt. In het tweede deel doorloopt u de stappen in de procedure.
 
 ## <a name="target-audience"></a>Doelgroep
 
@@ -304,4 +303,3 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
     ![Kostenvergelijkingsdiagrammen](./media/subcontract35_cost-comparison-charts.png)
 
 Ontbrekende instellingen in gegevens.
-

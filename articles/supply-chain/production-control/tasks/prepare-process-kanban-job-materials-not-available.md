@@ -1,13 +1,13 @@
---- 
+---
 title: Een proceskanbantaak voorbereiden wanneer de materialen niet beschikbaar zijn voor de werkcel
 description: Deze procedure is gericht op het voorbereiden van een proceskanbantaak wanneer bepaalde materialen niet beschikbaar zijn voor de werkcel. Daarom is het noodzakelijk om materialen in het magazijn te verzamelen.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f7e7eb46bda13ef7e72189f921686a9889a8773c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5a47af6910a9686e74ab6d1069dd02079e60cb8a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339896"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a>Een proceskanbantaak voorbereiden wanneer de materialen niet beschikbaar zijn voor de werkcel
 
@@ -51,5 +51,4 @@ Deze procedure is gericht op het voorbereiden van een proceskanbantaak wanneer b
     * Het artikel P0002 is nu beschikbaar in de orderverzamellijst voor de kanbantaak. Dit betekent dat we de kanban kunnen voorbereiden met alle benodigde materialen.  
 6. Klik op Voorbereiden.
     * Merk op dat een pictogram in de Taakstatus aangeeft dat de taak nu gereed is.  
-
 

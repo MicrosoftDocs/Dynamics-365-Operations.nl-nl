@@ -1,30 +1,29 @@
 ---
 title: Ondersteunde standaarden voor elektronische facturering in Europa
-description: In dit onderwerp wordt het dekkingsniveau toegelicht voor elektronisch factureren in Microsoft Dynamics 365 for Finance and Operations in de Europese regio.
+description: In dit onderwerp wordt het dekkingsniveau toegelicht voor elektronisch factureren in Microsoft Dynamics 365 for Finance and Operations in Europa.
 author: mrolecki
 manager: AnnBe
 ms.date: 07/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10274
 ms.search.region: Austria, Denmark, Italy, Norway, Spain, France, Belgium, Netherlands
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 366e67415b82c6bbc6b066b4ce44e4654bd93103
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 354b9fd50dbd628b91fd4d77c4cb323ddc36428f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371368"
 ---
-
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Ondersteunde standaarden voor elektronische facturering in Europa
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,7 @@ Elektronische facturering is gebaseerd op [elektronische rapportage](../../dev-i
 -   Projectfactuur (ES)
 -   Projectfactuur (IT)
 
-De elektronische facturen en creditnota's die u genereert, bevatten vereiste gegevens zoals een EAN-nummer (European Article Numbering), de contactpersoon, het dimensierekeningnummer en adresgegevens van de klant. Er worden validatieregels worden toegepast wanneer facturen worden gegenereerd om te controleren of de juiste gegevens zijn ingevoerd. De set met vereiste gegevens kan verschillen van land tot land. Vanwege de vereiste en de ondersteunde landen en indelingen kunnen veranderen, moet u altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben.
+De elektronische facturen en creditnota's die u genereert, bevatten vereiste gegevens zoals een EAN-nummer (European Article Numbering), de contactpersoon, het dimensierekeningnummer en adresgegevens van de klant. Er worden validatieregels worden toegepast wanneer facturen worden gegenereerd om te controleren of de juiste gegevens zijn ingevoerd. De set met vereiste gegevens kan verschillen van land tot land. Omdat de vereiste en de ondersteunde landen en indelingen kunnen veranderen, moet u altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben.
 
 ## <a name="additional-information"></a>Aanvullende gegevens
 Voor meer informatie over het instellen van elektronische facturen, kunt u de volgende [Taakbegeleidingen](../../fin-and-ops/get-started/help-overview.md#task-guides) afspelen in het Help-venster:
@@ -78,4 +77,3 @@ Voor meer informatie over het instellen van elektronische facturen, kunt u de vo
 
 > [!NOTE] 
 > Hoewel deze Taakbegeleidingen zijn gemaakt voor de specifieke Deense e-factuurindeling *OIOUBL*, zijn ze met kleine afwijkingen van toepassing op andere ondersteunde landen.
-

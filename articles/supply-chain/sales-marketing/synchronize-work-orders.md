@@ -1,37 +1,36 @@
 ---
-title: Werkorders vanuit Finance and Operations synchroniseren naar Field Service
-description: In dit onderwerp komen de sjablonen en onderliggende taak voor het synchroniseren van werkorders met een projectnummer vanuit Microsoft Dynamics 365 for Field Service naar Microsoft Dynamics 365 for Finance and Operations aan de orde.
+title: Werkorders met project vanuit Field Service synchroniseren naar Finance and Operations
+description: Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om werkorders met een projectnummer te synchroniseren van Microsoft Dynamics 365 for Field Service naar Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 12/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
+ms.openlocfilehash: 6b61411a5a235e2d0aad8bb25ae4a3bfcf1248d1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
-ms.openlocfilehash: f5bd6b8c554688d0d1b2bfd93a34a60a95412bf3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/20/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329845"
 ---
-
 # <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>Werkorders met project vanuit Field Service synchroniseren naar Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp komen de sjablonen en onderliggende taak voor het synchroniseren van werkorders met een projectnummer vanuit Microsoft Dynamics 365 for Field Service naar Microsoft Dynamics 365 for Finance and Operations aan de orde.
+Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om werkorders met een projectnummer te synchroniseren van Microsoft Dynamics 365 for Field Service naar Microsoft Dynamics 365 for Finance and Operations.
 
 [![Synchronisatie van zakelijke processen tussen Finance and Operations en Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
@@ -76,4 +75,3 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderservice"></a>Werkorders met project (Field Service naar Finance and Operations): WorkOrderService
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWOP4.png)](./media/FSWOP4.png)
-

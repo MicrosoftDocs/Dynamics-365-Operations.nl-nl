@@ -1,13 +1,13 @@
---- 
+---
 title: Definities voor gegevensmodel selecteren tijdens het maken van indelingen
 description: Als u de stappen in deze procedure wilt uitvoeren, moet u eerst de stappen in de procedure 'ER Een configuratieprovider maken en deze als actief markeren' voltooien.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334491"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Definities voor gegevensmodel selecteren tijdens het maken van indelingen
 
@@ -98,5 +98,4 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
 4. Typ of selecteer een waarde in het veld Definitie gegevensmodel.
     * Houd er rekening mee dat nu slechts één basisitem beschikbaar is voor toewijzing aan de gegevensbronnen van de toepassing. Wanneer ten minste één modeltoewijzing wordt geïntroduceerd, kunnen alleen de basisitems van het model die aan toepassingsgegevensbronnen zijn toegewezen, als modeldefinitie worden geselecteerd terwijl de ER-indeling wordt toegevoegd.   
 5. Sluit de pagina.
-
 

@@ -5,9 +5,9 @@ author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9105e1de86ed2834b04f75c7d08c4021402bcfda
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9310508082ff710cd040b74519044f5a90c23988
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364000"
 ---
-
 # <a name="income-statement-financial-report"></a>Financieel rapport inkomensoverzicht
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ De kolomdefinities bevatten verschillende typen kolommen om verschillende detail
 [Financiële rapporten weergeven](view-financial-reports.md)
 
 [Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
 
 
 

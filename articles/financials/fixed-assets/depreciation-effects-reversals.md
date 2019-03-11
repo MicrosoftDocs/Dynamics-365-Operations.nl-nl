@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d624fa998329680d9fa471fa325f6fcfd3920c6a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fbef7cb9a9fb18809dff96d4a44454d0dc6a31fc
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320139"
 ---
-
 # <a name="depreciation-effects-with-reversals"></a>Afschrijvingseffecten met omkeringen
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,6 @@ De afschrijving is 16,95 (983,62 - 966,67) te laag.
 --------
 
 [Afschrijving vaste activa](fixed-asset-depreciation.md)
-
 
 
 

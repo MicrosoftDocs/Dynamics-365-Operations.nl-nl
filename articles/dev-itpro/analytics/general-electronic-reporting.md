@@ -5,9 +5,9 @@ author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
 ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310801"
 ---
-
 # <a name="electronic-reporting-er"></a>Elektronische rapportage (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -36,16 +35,16 @@ ER is een hulpprogramma dat u kunt gebruiken voor het configureren van indelinge
 
 De ER-engine is gericht op zakelijke gebruikers in plaats van ontwikkelaars. Aangezien u indelingen configureert in plaats van code, verlopen de processen voor het maken en aanpassen van indelingen voor elektronische documenten sneller en gemakkelijker.
 
-ER ondersteunt op dit moment de indelingen TEKST, XML, Microsoft Word-document en OPENXML-werkblad. Een extensie-interface biedt echter ondersteuning voor andere indelingen.
+ER ondersteunt op dit moment de werkbladindelingen TEXT, Microsoft Word-document en OPENXML. Een extensie-interface biedt echter ondersteuning voor andere indelingen.
 
 ## <a name="capabilities"></a>Mogelijkheden
 De ER-engine biedt de volgende mogelijkheden:
 
-- De engine vertegenwoordigt een enkel, gedeeld hulpmiddel voor elektronische rapportage in verschillende domeinen en vervangt meer dan 20 verschillende engines waarmee op enigerlei wijz elektronische rapportage voor Microsoft Dynamics 365 for Finance and Operations wordt uitgevoerd.
+- De engine vertegenwoordigt een enkel gedeeld hulpmiddel voor elektronische rapportage in verschillende domeinen en vervangt meer dan 20 verschillende engines waarmee elektronische rapportage van welke aard dan ook voor Microsoft Dynamics 365 for Finance and Operations wordt uitgevoerd.
 - De engine zorgt ervoor dat de indeling van een rapport losstaat van de huidige implementatie van Finance and Operations. Met andere woorden, de indeling is van toepassing op verschillende versies van Dynamics 365 for Finance and Operations.
 - De engine ondersteunt het maken van een aangepaste indeling die is gebaseerd op een oorspronkelijke indeling. Dit omvat ook mogelijkheden voor het automatisch uitvoeren van een upgrade van de aangepaste indeling wanneer er wijzigingen in de oorspronkelijke indeling optreden wegens vereisten voor localisatie of aanpassing.
 - Het wordt het primaire standaardhulpmiddel voor ondersteuning van lokalisatiebehoeften bij elektronische rapportage, zowel voor Microsoft als voor Microsoft-partners;
-- Het ondersteunt de mogelijkheid om indelingen te verspreiden onder partners en klanten via Microsoft Dynamics-Lifecycle Services (LCS).
+- Het ondersteunt de mogelijkheid om indelingen te verspreiden onder partners en klanten via Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="key-concepts"></a>Belangrijke concepten
 ### <a name="components"></a>Componenten
@@ -170,7 +169,7 @@ Een opslagplaats **Operations-resources** biedt toegang tot de lijst met configu
 
 Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd in de fase van registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige Dynamics 365 for Finance and Operations-exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van Dynamics 365 for Finance and Operations.
 
-Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuraties die zich als XML-bestanden bevinden in de opgegeven map van het lokale bestandssysteem op de computer waarop de AOS-service wordt gehost. Vereiste map is geselecteerd in de fase van opslagplaatsregistratie. U kunt configuraties importeren vanuit een opslagplaats **Bestandssysteem** in het huidige exemplaar van Finance and Operations. Dit type opslagplaats is toegankelijk in de volgende Dynamics 365 for Finance and Operations-omgevingen:
+Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuraties die zich als XML-bestanden bevinden in de opgegeven map van het lokale bestandssysteem op de computer waarop de AOS-service wordt gehost. Vereiste map is geselecteerd in de fase van opslagplaatsregistratie. U kunt configuraties importeren vanuit een opslagplaats **Bestandssysteem** in het huidige exemplaar van Finance and Operations. Houd er rekening mee dat dit type opslagplaats toegankelijk is in de volgende Dynamics 365 for Finance and Operations-omgevingen:
 - cloudomgevingen geïmplementeerd voor ontwikkelingsdoeleinden (met testmodellen van ingesloten suites)
 - lokaal geïmplementeerde omgevingen (on-premise of lokale implementatie van zakelijke gegevens)
 
@@ -381,4 +380,3 @@ Met ER kunt u automatisch wijzigingen in de meest recente versie van het basison
 [Lokalisatievereisten – Een configuratie voor elektronische rapportage maken](electronic-reporting-configuration.md)
 
 [De levenscyclus van de configuratie van elektronische rapportage beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
-

@@ -5,9 +5,9 @@ author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303838"
 ---
-
 # <a name="performance-management"></a>Prestatiebeheer
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ Wanneer het prestatiejournaal wordt geopend via de **ESS**-werkruimte, kunt u op
 
 U kunt het prestatiejournaal ook koppelen aan een externe website door de URL van deze site op te slaan. Als het journaal samenhangt met doelstellingen of prestatiebeoordelingen, kunt u het ook aan een of meer van deze items koppelen. Wanneer het prestatiejournaal wordt geopend vanuit de **MSS**-pagina, kunt u dezelfde informatie invoeren als voor het journaal van de werknemer. Bovendien kunt u de werknemer opgeven voor wie het journaal is gemaakt. U kunt kiezen of u het managerjournaal wilt delen met uw werknemer.
 
-### <a name="praise"></a>Lovende kritiek
+### <a name="send-feedback"></a>Feedback verzenden
 
-Het prestatiejournaal bevat een extra functie met de naam Lovende kritiek. Wanneer u op **Lovende kritiek verzenden** klikt, kunt u een werknemer selecteren en via e-mail feedback aan de werknemer geven. Het bericht wordt verzonden aan de werknemer die wordt geprezen, de manager van de werknemer, de werknemer die u de lovende kritiek verzendt en de manager van die werknemer. Er wordt in het prestatiejournaal een post gemaakt voor elke persoon die het bericht met lovende kritiek ontvangt.
+Het prestatiejournaal bevat een extra functie met de naam Feedback. Wanneer u op **Feedback verzenden** klikt, kunt u een werknemer selecteren en via e-mail feedback aan de werknemer geven. Het bericht wordt verzonden aan de werknemer die de feedback ontvangt, de manager van de werknemer, de werknemer die u de feedback verzendt en de manager van die werknemer. Er wordt in het prestatiejournaal een post gemaakt voor elke persoon die het bericht met de feedback ontvangt.
 
 ## <a name="goals"></a>Doelstellingen
 De pagina **Prestatiedoelstellingen** helpt u om de doelstellingen bij te houden die u en uw manager voor u hebben gemaakt. U kunt een onbeperkt aantal doelstellingen maken en deze doelstellingen kunnen gelden voor verschillende perioden en prestatiebeoordelingen. U kunt ook eenvoudige of complexe doelstellingen maken, afhankelijk van de hoeveelheid gegevens die u wilt invoeren over de doelstelling. Doelstellingen zijn niet vereist voor prestatiebeoordelingen. 
@@ -151,7 +150,6 @@ Brontypen prestatiejournaal beschrijven de herkomst van de prestatiejournalen. U
 ### <a name="review-types"></a>Controletypen
 
 Met de typen voor prestatiebeoordelingen kunt u de werking van een beoordeling bepalen. U kunt de werkstroom voor een beoordeling in- of uitschakelen. Als de beoordeling niet gebruikmaakt van de werkstroom, kunt u de standaardstatus definiëren die wordt gebruikt bij het maken van de beoordeling. U kunt ook bepalen of de werknemer, de manager of beide de beoordeling moeten afmelden.
-
 
 
 

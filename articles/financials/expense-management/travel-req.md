@@ -5,9 +5,9 @@ author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e69cf1112dcb4fd31c79592bf0d7a2ecd4a21adf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 135d787d03fe6d3ec3ca8d2324ac3055b72f2962
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339712"
 ---
-
 # <a name="travel-requisitions"></a>Reisaanvragen
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ Wellicht vereist uw onderneming dat een reisopdracht wordt ingediend voordat een
 Reisopdrachten en beleidsregels inzake reizen kunnen helpen bij het budgetbeheer. Als uw organisatie bijvoorbeeld aan een vaste-prijsproject werkt waarvoor moet worden gereisd, moeten de reiskosten van de leden van het projectteam binnen het budget voor het project passen. Vereisen dat reiskosten worden goedgekeurd voordat ze ontstaan kan ervoor zorgen dat het project binnen het budget blijft.
 
 Op de pagina **Reisaanvraag** kunt u beleidsregels instellen voor reisopdrachten.
-

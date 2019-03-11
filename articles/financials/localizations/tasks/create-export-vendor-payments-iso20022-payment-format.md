@@ -1,13 +1,13 @@
---- 
+---
 title: Leveranciersbetalingen maken en exporteren met de ISO20022-betalingsindeling
 description: In deze procedure ziet u hoe betalingsregels voor SEPA-kredietoverdracht kunnen worden gemaakt in het betalingsjournaal van de leverancier en hoe een bestand met leveranciersbetalingen kan worden gegenereerd door middel van het ISO2022-kredietoverdrachtvoorbeeld.
 author: mrolecki
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 01/17/2019
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,41 +16,37 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b589d64a4446420164175b41f435cf48daac01a9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cc90bc86cd489b124a806c480632dd53ba47f3f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340540"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Leveranciersbetalingen maken en exporteren met de ISO20022-betalingsindeling
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In deze procedure ziet u hoe betalingsregels voor SEPA-kredietoverdracht kunnen worden gemaakt in het betalingsjournaal van de leverancier en hoe een bestand met leveranciersbetalingen kan worden gegenereerd door middel van het ISO2022-kredietoverdrachtvoorbeeld. 
+In dit onderwerp ziet u hoe betalingsregels voor SEPA-kredietoverdracht kunnen worden gemaakt in het betalingsjournaal van de leverancier en hoe een bestand met leveranciersbetalingen kan worden gegenereerd door middel van het ISO2022-kredietoverdrachtvoorbeeld.
 
-Het demobedrijf dat wordt gebruikt om deze procedure te maken is DEMF.
+Dit is de vijfde van vijf taken die het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties. Gebruik de DEMF-demogegevens om dit voorbeeld te voltooien.
 
-Dit is de vijfde van vijf taken die het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+## <a name="example"></a>Voorbeeld
 
-
-## <a name="create-payment-lines"></a>Betalingsregels maken
-1. Ga naar Leveranciers > Betalingen > Betalingsjournaal.
-2. Klik op Nieuw.
-3. Markeer in de lijst de geselecteerde rij.
-4. Typ of selecteer een waarde in het veld Naam.
-5. Klik op Regels.
-6. Klik op Betalingsvoorstel.
-7. Klik op Betalingsvoorstel maken.
-8. Breid de sectie Op te nemen records uit.
-9. Klik op Filter.
-10. Selecteer in de lijst de rij voor de tabel Leveranciers en het veld Leveranciersrekening.
-11. Typ of selecteer een waarde in het veld Criteria.
-    * U kunt willekeurige criteria toepassen om van leverancierstransacties te selecteren; gebruik in dit voorbeeldgebruik DE-001 als leveranciersrekening.  
-12. Klik op OK.
-13. Klik op OK.
-14. Klik op Betalingen maken.
-
-## <a name="generate-an-iso20022-payment-file"></a>Een ISO20022-betalingsbestand genereren
-
+1.  Ga naar **Leveranciers > Betalingen > Betalingsjournaal**.
+2.  Klik op **Nieuw**.
+3.  Typ of selecteer een waarde in het veld **Naam**.
+4.  Klik op **Regels > Betalingsvoorstel > Betalingsvoorstel maken**.
+5.  Vouw de sectie **Op te nemen records** uit.
+6.  Klik op **Filter**.
+7.  Selecteer in de lijst de rij voor de **tabel Leveranciers** en het **veld Leveranciersrekening**.
+8.  Typ of selecteer een waarde in het veld **Criteria**. U kunt willekeurige criteria toepassen om van leverancierstransacties te selecteren; gebruik in dit voorbeeldgebruik DE-001 als leveranciersrekening.
+12. Klik tot slot op **OK**.
+13. Klik tot slot op **OK**.
+14. Klik op **Betalingen maken**.
+15. Een ISO20022-betalingsbestand genereren.
+    1.  Klik op **Betalingen genereren.**
+    2.  Typ of selecteer een waarde in het veld **Betalingsmethode.**
+    3.  Typ een waarde in het veld **Bestandsnaam**. In dit voorbeeld is vanwege de EUR-betaling het gegenereerde bestand compatibel is met SEPA. ISO20022 kredietoverdracht alsmede andere indelingen voor betalingen van leverancier kunnen ook worden gebruikt voor het genereren van betalingen in andere valuta's.
+    4.  Typ of selecteer een waarde in het veld **Bankrekening**.
 

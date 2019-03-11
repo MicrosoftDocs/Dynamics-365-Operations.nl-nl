@@ -5,9 +5,9 @@ author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367450"
 ---
-
 # <a name="alerts"></a>Waarschuwingen
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>Informatie over waarschuwingen
-Waarschuwingen vormen een meldingssysteem voor kritieke gebeurtenissen in Microsoft Dynamics 365 for Finance and Operations. U kunt waarschuwingen gebruiken om op de hoogte te blijven over de gebeurtenissen die u wilt bijhouden tijdens de werkdag. U kunt eenvoudig uw eigen set met waarschuwingsregels maken, zodat u wordt gewaarschuwd bij leveringen die te laat zijn, orders die zijn verwijderd, prijzen die veranderen of andere gebeurtenissen waarop u moet reageren.
+Meldingen vormen een waarschuwingssysteem voor kritieke gebeurtenissen in Microsoft Dynamics 365 for Finance and Operations. U kunt waarschuwingen gebruiken om op de hoogte te blijven over de gebeurtenissen die u wilt bijhouden tijdens de werkdag. U kunt eenvoudig uw eigen set met waarschuwingsregels maken, zodat u wordt gewaarschuwd bij leveringen die te laat zijn, orders die zijn verwijderd, prijzen die veranderen of andere gebeurtenissen waarop u moet reageren.
 
 In Enterprise Resource Planning (ERP) zijn er verschillende typische scenario's waarin de waarschuwingsfunctie in Finance and Operations kan worden gebruikt. Hieronder vindt u enkele voorbeelden.
 
@@ -78,4 +77,3 @@ Een waarschuwingsregel heeft vijf onderdelen:
 ## <a name="email-notifications-from-alerts"></a>E-mailmeldingen van waarschuwingen
 
 E-mailmeldingen van waarschuwingen zijn nog niet ingeschakeld. Deze worden in een toekomstige update ingeschakeld.
-

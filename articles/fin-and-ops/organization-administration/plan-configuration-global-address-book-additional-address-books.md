@@ -1,13 +1,13 @@
 ---
 title: Het globale adresboek en andere adresboeken plannen
-description: "In dit onderwerp worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken, voordat u het globale adresboek en eventuele aanvullende adresboeken instelt en configureert In Microsoft Dynamics 365 for Finance and Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie."
+description: In dit onderwerpen worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u het globaal adresboek en enige aanvullende adresboeken instelt en configureert in Microsoft Dynamics 365 for Finance and Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 20795cb8dd752a32f6c57fdb8f369691e41139b3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332651"
 ---
-
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Het globale adresboek en andere adresboeken plannen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken, voordat u het globale adresboek en eventuele aanvullende adresboeken instelt en configureert In Microsoft Dynamics 365 for Finance and Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie.
+In dit onderwerpen worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u het globaal adresboek en enige aanvullende adresboeken instelt en configureert in Microsoft Dynamics 365 for Finance and Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie.
 
 ## <a name="global-address-book"></a>Algemeen adresboek
 
@@ -67,4 +66,3 @@ U kunt adresboeken op elk moment maken en u kunt ook op elk moment beveiligingsp
 **Beslissing:**
 
 - Welke teams moeten toegang hebben tot elk nieuw adresboek dat u maakt?
-

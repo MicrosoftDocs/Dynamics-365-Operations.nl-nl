@@ -1,37 +1,36 @@
 ---
 title: Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations
-description: In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het synchroniseren van overeenkomstfacturen in Microsoft Dynamics 365 for Field Service met vrije-tekstfacturen in Microsoft Dynamics 365 for Finance and Operations.
+description: Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van facturen in Microsoft Dynamics 365 for Field Service voor vrije-tekstfacturen in Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333249"
 ---
-
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het synchroniseren van overeenkomstfacturen in Microsoft Dynamics 365 for Field Service met vrije-tekstfacturen in Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van facturen in Microsoft Dynamics 365 for Field Service voor vrije-tekstfacturen in Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 
@@ -107,4 +106,3 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Overeenkomstfacturen (Field Service aan Fin en Ops): factuurregels
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-

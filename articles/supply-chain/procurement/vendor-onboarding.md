@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322140"
 ---
-
 # <a name="onboard-vendors"></a>Leveranciers onboarden
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +34,7 @@ Het proces bestaat uit de volgende stappen, waarbij verschillende rollen acties 
 
 1. **OData-gegevensbeheer** – Entiteitimport: de eerste aanvraag is de registratieaanvraag van de potentiële leverancier. Deze aanvraag is gewoonlijk afkomstig van een bron die anonieme toegang toestaat, zoals een door een klant gehoste website. Leveranciers kunnen zich aanmelden door algemene gegevens op te geven, zoals de naam van de leverancier, een verantwoording, het organisatienummer en de naam en het e-mailadres van de contactpersoon. De aanvragen worden geïmporteerd via de interface Gegevensbeheer.
 2. **Lijstpagina Aanvraag voor registratie van potentiële leverancier**: op basis van de informatie die is opgegeven in de aanvraag voor registratie van de potentiële leverancier, besluit de inkoopmedewerker of de leverancier moet worden ingewerkt. De inkoopmedewerker analyseert de inkomende aanvraag op de lijstpagina **Aanvragen voor registratie van potentiële leverancier** in Finance and Operations.
-3. **Workflow Gebruikersbevoegdheden toekennen**: wanneer een inkoopmedewerker de informatie in de inkomende aanvraag heeft geverifieerd en heeft besloten om door te gaan met het onboarding-proces, ontvangt de nieuwe gebruiker gebruikersbevoegdheden op basis van de workflow voor gebruikersaanvragen en wordt per e-mail een uitnodiging verzonden om de contactpersoon als een geverifieerde gebruiker van Microsoft Dynamics 365 te accepteren.
+3. **Workflow Gebruikersbevoegdheden toekennen**: wanneer een inkoopmedewerker de informatie in de inkomende aanvraag heeft geverifieerd en heeft besloten om door te gaan met het onboardingproces, ontvangt de nieuwe gebruiker gebruikersbevoegdheden op basis van de workflow voor gebruikersaanvragen en wordt per e-mail een uitnodiging verzonden om de contactpersoon als een geverifieerde gebruiker van Microsoft Dynamics 365 te accepteren.
 4. **Wizard Leveranciersregistratie**: de contactpersoon van de leverancier meldt zich met de nieuwe gebruikersaccount aan bij Finance and Operations. Hij of zij voltooit een wizard voor het registreren van leveranciers om informatie, zoals adressen, bedrijfsinformatie, inkoopcategorieën en antwoorden op vragenlijst, te verstrekken.
 5. **Goedkeuringsworkflow**: er wordt een leverancieraanvraag met de registratie-informatie gemaakt. Deze leverancieraanvraag wordt verzonden naar een workflow en ter controle en goedkeuring doorgestuurd.
 6. **Een leveranciermodel maken en gebruikersrol wijzigen**: als de leverancieraanvraag wordt goedgekeurd, wordt er een leveranciersrecord gemaakt. De gebruikersaccount van de contactpersoon van de leverancier krijgt toestemming voor leverancierssamenwerking of wordt uitgeschakeld.
@@ -49,7 +48,7 @@ In de volgende tabel worden de stappen en rollen beschreven die betrokken zijn b
 | Beheerder            | | | Maak een gebruiker in Finance and Operations en Microsoft Azure. | | | |
 | Contactpersoon van leverancier    | | | Verzend e-mail naar de contactpersoon. | Registreer leveranciersgegevens. | | |
 
-Voor een snelle demonstratie van het leveranciersonboardingproces, bekijkt u deze korte YouTube-video: [Een nieuwe leverancier onboarden in Dynamics 365 for Finance and Operations] (https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Bekijk deze korte YouTube-video voor een snelle demonstratie van het onboardingproces voor leveranciers: [Een nieuwe leverancier onboarden in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>De aanvraag voor registratie van potentiële leveranciers importeren
 
@@ -77,7 +76,7 @@ Als de aanvraag voor registratie van potentiële leveranciers is geïmporteerd, 
 
 Het doel van een gebruikersaanvraag voor potentiële leverancier is om de persoon die de eerste aanvraag heeft ingediend, te voorzien van gebruikersbevoegdheden zodat hij of zij zich bij Finance and Operations kan aanmelden via het e-mailaccount dat is opgegeven in de aanvraag voor registratie van potentiële leveranciers.
 
-De aanvraag voor registratie van potentiële leveranciers wordt verwerkt door de werkstroom voor gebruikersaanvragen. Deze workflow communiceert door middel van Azure AD B2B-samenwerking. In Finance and Operations wordt een gebruiker gemaakt die over de juiste beveiligingsinstellingen beschikt.
+De aanvraag voor registratie van potentiële leveranciers wordt verwerkt door de werkstroom voor gebruikersaanvragen. Deze werkstroom communiceert door middel van Azure AD B2B-samenwerking. In Finance and Operations wordt een gebruiker gemaakt die over de juiste beveiligingsinstellingen beschikt.
 
 Voor nieuwe gebruikers worden de volgende beveiligingsrollen ingesteld:
 
@@ -174,5 +173,4 @@ Met de actie **Verwijderen** in de registratieaanvraag van de potentiële levera
 |  Leverancieraanvraag gemaakt  |                                                                     De wizard voor leveranciersregistratie is voltooid.                                                                      | Er wordt een verzoek gemaakt om de gebruiker te deactiveren en de aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.<blockquote>[!NOTE]<br>U kunt de actie <strong>Verwijderen</strong> niet verwijderen wanneer de leverancieraanvraag zich in een controleproces in de workflow bevindt.</blockquote> |
 |         Goedgekeurd         |                                                                               De leverancieraanvraag is goedgekeurd.                                                                               |                                                                                                   De aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.                                                                                                    |
 |         Afgewezen         |                                                                               De leverancieraanvraag is afgewezen.                                                                               |                                                                                                   De aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.                                                                                                    |
-
 

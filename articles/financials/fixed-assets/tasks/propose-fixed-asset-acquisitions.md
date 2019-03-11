@@ -1,13 +1,13 @@
---- 
+---
 title: Aanschaf van vaste activa voorstellen
 description: In deze procedure ziet u hoe u een vast activum bijboekt met het verwervingsvoorstel in het vaste-activajournaal.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1891206bb266b126eccfa789b8c8062c9bfa688b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c1c08bb05b7f6b57cfc8c86a1d0c0d1a7cc2ce5a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350637"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Aanschaf van vaste activa voorstellen
 
@@ -46,5 +46,4 @@ In deze procedure ziet u hoe u een vast activum bijboekt met het verwervingsvoor
     * Alleen vaste activa waarvoor de verwervingsdatum en aanschafprijs zijn ingesteld in het boek worden in het bijboekingsvoorstel opgenomen.  
 13. Klik op het tabblad Boeken.
 14. Klik op Boeken.
-
 

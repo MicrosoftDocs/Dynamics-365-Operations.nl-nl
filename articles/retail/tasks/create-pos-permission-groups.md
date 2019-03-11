@@ -1,13 +1,13 @@
---- 
+---
 title: " POS-machtigingsgroepen maken"
 description: Deze procedure laat zien hoe u een POS-machtigingengroep maakt.
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1b30c9a1d7fe4598695423ba700ebc88a794a49c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: bcda7c3a5c2cc97fbc6e4945e4d5f0ec42a7a478
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354455"
 ---
 # <a name="create-pos-permission-groups"></a> POS-machtigingsgroepen maken
 
@@ -54,5 +54,4 @@ Deze procedure laat zien hoe u een POS-machtigingengroep maakt. Het demobedrijf 
     * Alle werknemers in posities voor deze taak gebruiken de instellingen van deze POS-machtigingsgroep tenzij de POS-machtigingen van de werknemers zijn overschreven op hun positieniveau.  
 19. Klik op Opslaan.
     * Nadat uw wijzigingen zijn opgeslagen, moet u de personeelsdistributieplanning uitvoeren om de wijzigingen naar detailhandelkanalen te pushen.  
-
 

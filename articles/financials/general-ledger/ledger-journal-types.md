@@ -1,13 +1,13 @@
 ---
 title: Grootboekjournaaltypen
-description: "Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële journalen."
+description: Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële journalen.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308662"
 ---
-
 # <a name="ledger-journal-types"></a>Grootboekjournaaltypen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u kunt gebruiken in heel Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u in heel Microsoft Dynamics 365 for Finance and Operations kunt gebruiken.
 
 | Type journaal                      | Doel                       | Transacties invoeren op deze pagina                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -64,7 +63,6 @@ Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële 
 | Registratie van leveranciersfactuur          | Leveranciersfacturen in een journaal boeken.                                                                                                                                                                                                                                                                                                                 | Factuurjournaal                                                |
 | Door leverancier hertrokken promesse     | Een promesse te hertrekken die eerder is gehonoreerd door de bank van uw organisatie.                                                                                                                                                                                                                                                                      | Journaal met hertrokken promessen                                 |
 | Door leverancier afgerekende promesse     | Transacties voor door leverancier afgerekende promessen maken.                                                                                                                                                                                                                                                                                                          | Journaal met afgerekende promessen                                 |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: Business intelligence (BI) en startpagina rapportage
-description: In dit onderwerp wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de business intelligence en rapportagehulpmiddelen die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations.
+title: Startpagina BI en rapportage
+description: In dit onderwerp wordt verwezen naar bronnen die u kunt gebruiken om meer te weten te komen over de BI- en rapportagehulpmiddelen die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302103"
 ---
-
-# <a name="business-intelligence-bi-and-reporting-home-page"></a>Business intelligence (BI) en startpagina rapportage
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>Startpagina BI en rapportage
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de business intelligence (BI) en rapportagehulpmiddelen die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations.
+In dit onderwerp wordt verwezen naar bronnen die u kunt gebruiken om meer te weten te komen over de BI- en rapportagehulpmiddelen die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="get-started"></a>Aan de slag
 - [Informatietoegang en -rapportage](information-access-reporting.md)
@@ -37,7 +36,7 @@ In dit onderwerp wordt verwezen naar resources die u kunt gebruiken om meer te w
 - [Finance and Operations: Business intelligence](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blog)
 
 ## <a name="analytical-workspaces"></a>Analytische werkgebieden
-Finance and Operations levert interactieve rapporten die naadloos zijn geïntegreerd in toepassingswerkgebieden. Werkgebieden kunnen gebruikmaken van uitgebreide infographics en visuals die worden ondersteund door Microsoft Power BI. Deze infographics en visuals bevatten veel besturingselementen die worden geleverd door derden. Werkgebieden kunnen daarom een zeer visuele, interactieve ervaring bieden voor gebruikers.
+Finance and Operations levert interactieve rapporten die naadloos zijn geïntegreerd in toepassingswerkgebieden. In werkgebieden kan worden gebruikgemaakt van uitgebreide infographics en visuals die worden ondersteund door Microsoft Power BI. Deze infographics en visuals bevatten veel besturingselementen die worden geleverd door derden. Werkgebieden kunnen daarom een zeer visuele, interactieve ervaring bieden voor gebruikers.
 
 Gebruikers kunnen interacties aangaan met gegevens door te klikken of visuele elementen op de pagina aan te raken. Ze zien oorzaak en gevolg en voeren eenvoudige wat-als-bewerkingen uit zonder het werkgebied te verlaten. Dankzij verbluffende, interactieve visuele elementen beleven uw gebruikers plezier aan het verkennen van gegevens en het ontdekken van verborgen trends.
 
@@ -45,7 +44,7 @@ Gebruikers kunnen interacties aangaan met gegevens door te klikken of visuele el
 
 Zie de volgende onderwerpen voor meer informatie:
 
-- [Embedded Power BI in werkgebieden](embed-power-bi-workspaces.md)
+- [Ingesloten Power BI in werkgebieden](embed-power-bi-workspaces.md)
 - [Integratie met Power BI Embedded](power-bi-embedded-integration.md)
 - [Analyses aan werkgebieden toevoegen met Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Analytische werkgebieden en rapporten beveiligen met Power BI Embedded](secure-analytical-workspaces.md)
@@ -91,4 +90,3 @@ De volgende rapporten bevatten naslaginformatie over de objecten in Finance and 
 - [Rapport Licentiecodes en configuratiesleutels](../sysadmin/license-codes-configuration-keys-report.md)
 - [Rapport SQL Server Reporting Services-rapporten](SSRS-report.md)
 - [Rapport over workflowtypen](../../fin-and-ops/organization-administration/workflow-types-report.md)
-

@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e14f38baaef32c72761594147feca8d08651a050
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aeb23f78d9bec93cf92214470e9ace3cd88b92c3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312020"
 ---
-
 # <a name="running-average-cost-price"></a>Lopend gemiddelde kostprijs
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,6 @@ Als uw bedrijfsmodel echter de volgende procedures toestaat, kunt u deze gebruik
 -   Als u de optie **Fysieke waarde opnemen** voor een artikel *niet* selecteert, schakelt u het selectievakje **Fysieke negatieve voorraad** op de pagina **Artikelmodelgroepen** uit.
 
 Houd er ook rekening mee dat de maximumtegenboeking in uw fysieke voorraadwaarde wordt beperkt door het aantal fysieke transacties en door het verschil tussen fysieke en financiële prijzen. Zolang alle fysieke transacties uiteindelijk financieel worden bijgewerkt, kan de fysieke waarde niet extreem hoog worden. Bovendien blijft het verhogende effect aanzienlijk beperkt wanneer de cumulatieve tegenboeking wordt verdeeld over een aantal voorhanden eenheden in plaats van deze toe te wijzen aan één eenheid.
-
 
 
 

@@ -5,9 +5,9 @@ author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308777"
 ---
-
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Randapparaten aansluiten op het verkooppunt (POS)
 
 [!include [banner](includes/banner.md)]
@@ -188,4 +187,3 @@ Meer informatie met betrekking tot activering omvat de werknemer die de activeri
 ### <a name="client-data-synchronization"></a>Synchronisatie van clientgegevens
 
 Alle wijzigingen in een POS-client, met uitzondering van de wijzigingen in de status van de apparaatactivering, worden pas van kracht na synchronisatie met de kanaaldatabase. Om wijzigingen te synchroniseren met de kanaaldatabase, gaat u naar **Detailhandel** &gt; **IT detailhandel** &gt; **Distributieplanning** en voert u de vereiste distributieplanning uit. Voor clientwijzigingen moet u de distributieplanningen 'Kassa's' en 'Kanaalconfiguratie' uitvoeren.
-

@@ -1,13 +1,13 @@
---- 
+---
 title: " Winkelconfiguraties voor detailhandeloverzichten"
 description: Deze procedure doorloopt configuraties voor de detailhandelwinkel die van invloed zijn op hoe detailhandelsoverzichten worden gemaakt en geboekt.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fddeb8434d916df1613d61da88110dec8fb4465
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cac676c9c6ebb6769fe7e30ac08a2c8334befc24
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354708"
 ---
 # <a name="store-configurations-for-retail-statements"></a> Winkelconfiguraties voor detailhandeloverzichten
 
@@ -47,5 +47,4 @@ Deze procedure doorloopt configuraties voor de detailhandelwinkel die van invloe
     * Selecteer 'Ja' als transacties die na middernacht plaatsvinden, als onderdeel van de vorige dag moeten worden geboekt.  
     * Selecteer 'Ja' om overzichten te laten maken voor elke gedefinieerde overzichtsmethode. Dat kan nuttig zijn als de prestaties van de boeking moeten worden verbeterd voor winkels met grote transactievolumes, aangezien er veel kleinere overzichten worden gemaakt die parallel kunnen worden verwerkt.  
     * In het veld Standaardklant kunt u de klantrekening selecteren om te gebruiken voor verkoop aan inloopklanten.  
-
 

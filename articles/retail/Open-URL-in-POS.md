@@ -3,34 +3,33 @@ title: URL openen in POS
 description: Dit onderwerp biedt een overzicht van verbeteringen die zijn aangebracht in de functies voor het zoeken van producten en klanten in Microsoft Dynamics 365 for Retail.
 author: AamirAllaq
 manager: AnnBe
-ms.date: 11/14/2018
+ms.date: 01/28/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b07406b4e218b45bdde87c4a579814fe0edbc286
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: d2b692ac86244eca31780a558112167391fc6d77
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327085"
 ---
-
 # <a name="open-url-in-pos"></a>URL openen in POS
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een knop in Retail POS kunt configureren zodat hiermee een URL wordt geopend. Hiervoor hoeft geen code te worden aangepast en dit kan worden geconfigureerd door iemand die geen ontwikkelaar is.
+In dit onderwerp wordt beschreven hoe u een knop in Retail POS kunt configureren zodat hiermee een URL wordt geopend. Hiervoor hoeft geen code te worden aangepast en dit kan worden geconfigureerd door iemand die geen ontwikkelaar is. Deze functie is beschikbaar als onderdeel van Dynamics 365 for Finance and Operations versie 8.1.3 release (build 8.1.227.10014) en hoger. 
 
 Met deze functie kan een knop in POS zo worden geconfigureerd dat via de ontwerpfunctie van het knoppenraster een URL wordt geopend. Dit wordt op dit moment ondersteund in de volgende configuraties:
 
@@ -62,7 +61,7 @@ Windows, iOS en Android bieden ook ondersteuning voor een vloeiendere methode vo
 - Raadpleeg voor iOS [Universal Links for Developers](https://developer.apple.com/ios/universal-links/).
 - Raadpleeg voor Android [Handling Android App Links](https://developer.android.com/training/app-links/).
 
-| Client                | Openen in nieuw venster | Native app openen | Openen in POS | Details                           |
+| Klant                | Openen in nieuw venster | Native app openen | Openen in POS | Details                           |
 |-----------------------|--------------------|-----------------|-----------------|-----------------------------------|
 | Modern POS in Windows | ✓\*                | ✓               | ✓              | \* Wordt geopend in nieuw Modern POS-venster |
 | Cloud-POS             | ✓\*                | ✓               | X              | \* Wordt geopend op nieuw browsertabblad        |
@@ -84,4 +83,3 @@ Als u een URL wilt configureren om in POS te worden geopend, voert u de volgende
 5. Selecteer **URL openen** als de actie.
 6. Voer de URL in die u wilt gebruiken.
 7. Configureer of de URL in een nieuw venster wordt geopend.
-

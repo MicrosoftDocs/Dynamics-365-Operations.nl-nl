@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311330"
 ---
-
 # <a name="project-management-and-accounting"></a>Projectbeheer en boekhouding
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,7 @@ Hieronder staan enkele manieren waarop u de resourceplanningsfunctionaliteit kun
 -   U kunt resourcetoewijzingen aanpassen voor verschillende tijdseenheden, zoals een dag, week of maand om de inzet van werknemers te optimaliseren.
 
 ## <a name="execute-the-project"></a>Het project uitvoeren
-Tijdens het uitvoeren van projecten registreren teamleden of managers de werkzaamheden en de gemaakte onkosten met behulp van urenstaten, onkostennota's en andere bedrijfsdocumenten. Projectmanagers hebben tools waarmee ze het verbruik van gebudgetteerde bedragen voor het project controleren. Projectmanagers kunnen ook materialen voor projecten bestellen, verzamelen of inkopen met behulp van inkooporders en andere bedrijfsdocumenten. Facturen worden voorbereid en goedgekeurd, zodat klanten voor lopende werkzaamheden kunnen worden gefactureerd. Tot slot wordt de opbrengst verantwoord tijdens dit proces om financiële items van de organisatie te beïnvloeden.
+Tijdens het uitvoeren van projecten registreren teamleden of managers de werkzaamheden en de gemaakte onkosten met behulp van urenstaten, onkostennota's en andere bedrijfsdocumenten. Projectmanagers hebben tools waarmee ze het verbruik van gebudgetteerde bedragen voor het project controleren. Projectmanagers kunnen ook materialen voor projecten bestellen, verzamelen of inkopen met behulp van inkooporders en andere bedrijfsdocumenten. Facturen worden voorbereid en goedgekeurd, zodat klanten voor lopende werkzaamheden kunnen worden gefactureerd. Tot slot wordt de opbrengst verantwoord tijdens dit proces om financiële items van de organisatie te beïnvloeden.
 
 ### <a name="manage-work-breakdown-structures"></a>Structuren voor werkspecificatie beheren
 
@@ -206,7 +205,7 @@ U kunt artikelen bestellen uit de voorraad van het bedrijf voor verbruik in een 
 
 De manier waarop u artikelen bestelt, is afhankelijk van waar u ze bestelt:
 
--   Als u artikelen wilt bestellen uit de voorraad van het bedrijf, moet u de order invoeren als een artikelbehoefte. Als u het formulier **Artikelbehoeften** gebruikt, kunt u de behoefte zo instellen dat u artikelen ontvangt als gedeeltelijke leveringen. Zo kunt u het verbruik van een hoeveelheid van de artikelen uitstellen totdat de artikelen nodig zijn.
+-   Als u artikelen wilt bestellen uit de voorraad van het bedrijf, moet u de order invoeren als een artikelbehoefte. Als u het formulier **Artikelbehoeften** gebruikt, kunt u de behoefte zo instellen dat u artikelen ontvangt als gedeeltelijke leveringen. Zo kunt u het verbruik van een hoeveelheid van de artikelen uitstellen totdat de artikelen nodig zijn.
 -   Als u artikelen bij een externe leverancier wilt bestellen, moet u de order als een inkooporder maken in het formulier **Inkooporder**.
 
 > [!NOTE] 
@@ -233,7 +232,7 @@ Zie [Projectfacturering](../accounts-payable/project-invoicing.md) voor meer inf
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>De kosten berekenen om een project te voltooien
 
-Wanneer u een raming maakt, kunt u de methode aangeven waarmee de kosten voor het voltooien van het project moeten worden berekend. U selecteert een methode in het veld **Methode Kosten voor voltooien** op de pagina **Raming maken**. De methode die u kiest wordt afzonderlijk op elke kostenregel in de kostenraming toegepast. Wanneer een regel de status **Gemaakt** heeft, kunt u de methode wijzigen die erop is toegepast op de pagina **Kostenraming**. 
+Wanneer u een raming maakt, kunt u de methode aangeven waarmee de kosten voor het voltooien van het project moeten worden berekend. U selecteert een methode in het veld **Methode Kosten voor voltooien** op de pagina **Raming maken**. De methode die u kiest wordt afzonderlijk op elke kostenregel in de kostenraming toegepast. Wanneer een regel de status **Gemaakt** heeft, kunt u de methode wijzigen die erop is toegepast op de pagina **Kostenraming**. 
 
 In de volgende tabel worden de methoden beschreven voor berekening van de kosten om een project te voltooien.
 
@@ -301,7 +300,7 @@ Op basis van uw instellingen kunt u de kasontvangsten voor een geselecteerd proj
 -   **Projectdatum:** 5 maart 2012.
 -   **Factuurdatum:** 31 maart 2012. Deze datum wordt bepaald op basis van factuurfrequentie. Voor dit voorbeeld stelt u de factuurfrequentie op de huidige maand in. Dit betekent dat alle transacties die in de maand maart zijn geboekt, op de laatste dag van de maand worden gefactureerd.
 -   **Vervaldatum:** 14 April 2012. Deze datum wordt bepaald op basis van de betalingsvoorwaarden die voor het project zijn ingesteld. Voor dit voorbeeld hebt u betalingsvoorwaarden van 14 dagen geselecteerd. Daarom worden 14 dagen toegevoegd aan de factuurdatum om op een vervaldatum van 14 april 2012 uit te komen.
--   **Verwachte betalingsdatum verkoop:** 27 april 2012. Deze datum wordt berekend door het aantal dagen in het veld **Algemene bufferdagen** op de pagina **Projectbeheer- en boekhoudingsparameters** toe te voegen aan het aantal dagen in het veld **Afzonderlijke bufferdagen** op de pagina **Projectcontracten**, en dan het totaal op te tellen bij het aantal dagen in het veld **Vervaldatum**. Voor dit voorbeeld hebt u **3** ingevoerd in het veld **Algemene bufferdagen** en **10** in het veld **Afzonderlijke bufferdagen**. Daarom worden 13 dagen toegevoegd aan de vervaldatum om uit te komen op een verwachte betalingsdatum verkoop van 27 april 2012.
+-   **Verwachte betalingsdatum verkoop:** 27 april 2012. Deze datum wordt berekend door het aantal dagen in het veld **Algemene bufferdagen** op de pagina **Projectbeheer- en boekhoudingsparameters**  toe te voegen aan het aantal dagen in het veld **Afzonderlijke bufferdagen** op de pagina **Projectcontracten**, en dan het totaal op te tellen bij het aantal dagen in het veld **Vervaldatum**. Voor dit voorbeeld hebt u **3** ingevoerd in het veld **Algemene bufferdagen** en **10** in het veld **Afzonderlijke bufferdagen**. Daarom worden 13 dagen toegevoegd aan de vervaldatum om uit te komen op een verwachte betalingsdatum verkoop van 27 april 2012.
 
 De algemene bufferdagen kunnen de afzonderlijke bufferdagen vervangen of worden toegevoegd aan de afzonderlijke bufferdagen:
 
@@ -372,7 +371,7 @@ Als **Resterend budget** is geselecteerd als de kostenbeheermethode op de pagina
 -   **Resterend budget**: het bedrag van het oorspronkelijke gebudgetteerde bedrag dat nog steeds beschikbaar is voor de geselecteerde kostenregel. Het resterende budgetbedrag wordt berekend op de pagina **Voorbeeld grootboek**.
 -   **Totale kosten**: de som van de werkelijke kosten, toegezegde kosten en bedragen aan resterend budget.
 
-Op de pagina **Kostenbeheer** op het tabblad **Afwijking** kunt u een vergelijking bekijken van de totale verwachte kosten met het oorspronkelijke budget. Bij deze vergelijking worden eventuele verschillen tussen deze bedragen getoond. Daarom kunt u zien waar de gegevens niet overeenkomen. De afwijkende bedragen worden als volgt berekend:
+Op de pagina **Kostenbeheer**op het tabblad **Afwijking** kunt u een vergelijking bekijken van de totale verwachte kosten met het oorspronkelijke budget. Bij deze vergelijking worden eventuele verschillen tussen deze bedragen getoond. Daarom kunt u zien waar de gegevens niet overeenkomen. De afwijkende bedragen worden als volgt berekend:
 
 -   **Oorspronkelijk budget**: het bedrag dat oorspronkelijk is begroot voor de geselecteerde kostenregel. Het oorspronkelijke budgetbedrag wordt berekend op de pagina **Voorbeeld grootboek**.
 -   **Totale kosten**: de som van de werkelijke kosten, toegezegde kosten en het resterend budget, zoals aangegeven op het tabblad **Algemeen**.
@@ -419,7 +418,7 @@ Op de pagina **Uurverbruik** kunt u, naast de totale bezettingsgraad van een wer
 
 -   **Niet-opgenomen uren**: deze uren zijn niet opgenomen in de bezettingsgraad per uur.
 -   **Opgenomen uren**: deze uren worden berekend door de bezettingsuren en lasturen bij elkaar op te tellen. Deze uren worden opgenomen in de bezettingsgraad.
--   **Lasturen**: als u een factureerbaar tarief berekent, zijn deze uren hetzelfde als uren niet-toerekenbare uren. Als u een efficiëntiepercentage berekent, zijn deze uren gelijk aan niet-productieve uren.
+-   **Lasturen**: als u een factureerbaar tarief berekent, zijn deze uren hetzelfde als uren niet-toerekenbare uren. Als u een efficiëntiepercentage berekent, zijn deze uren gelijk aan niet-productieve uren.
 -   **Verbruiksuren**: als u een factureerbaar tarief berekent, zijn deze uren gelijk aan toerekenbare uren. Als u een efficiëntiepercentage berekent, zijn deze uren gelijk aan productieve uren.
 
 Bij de berekening van de bezettingsgraad van een werknemer kunt u normuren of opgenomen uren gebruiken. Als u opgenomen uren gebruikt, moet u ervoor zorgen dat werknemers al hun werktijd voor de urenstaatperioden registreren, omdat de berekening als een percentage wordt uitgedrukt van uren die worden ingevoerd. Bij het berekenen van de bezettingsgraad van een uur voor een project, projectcontract, klantregistratie of categorie, moet u de opgenomen uren gebruiken voor de berekening.
@@ -441,4 +440,3 @@ Nadat het overzicht is berekend, kunt u de volgende gegevens over de verschillen
 -   **Verbruik**: gegevens over het verbruik van uren, artikelen, onkosten en salaristransacties
 -   **Factuur**: gegevens over facturen en a conto-facturering
 -   **Uurtarief**: de uurtarieven voor uren die op opbrengsten- en kostenrekeningen zijn geboekt
-

@@ -1,13 +1,13 @@
 ---
-title: "Kostencategorieën die in productieroutering worden gebruikt"
-description: "Dit artikel geeft informatie over kostencategorieën die van toepassing zijn op productieomgevingen die routering gebruiken."
+title: Kostencategorieën die in productieroutering worden gebruikt
+description: Dit artikel geeft informatie over kostencategorieën die van toepassing zijn op productieomgevingen die routering gebruiken.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90177a6b8dd277ba1180073c9cf416f857c5d730
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53e038183a10b8732a9a5e0f25aac440c224400e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315792"
 ---
-
 # <a name="cost-categories-used-in-production-routing"></a>Kostencategorieën die in productieroutering worden gebruikt
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ De kostenrecord voor een kostencategorie kan alleen voor de locatie of voor het 
 Een routeringsbewerking neemt in het algemeen de kostencategorieën over die aan de bron voor bedrijfsactiviteiten of hoofdbewerking zijn toegewezen. Als er een productieorder is gemaakt, wordt de geselecteerde routeversie weerspiegeld in de routeringsbewerkingen binnen de productieroute. U kunt de kostencategorieën negeren die aan de bewerkingen binnen de productieroute zijn toegewezen. 
 
 Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecturen en rapportage. In een dergelijk geval is een kostencategorie vereist voor productie- en projectdoeleinden. Als een kostencategorie is gemarkeerd voor gebruik in projecten, moeten aanvullende projectgerelateerde gegevens worden gedefinieerd.
-
 
 
 

@@ -5,9 +5,9 @@ author: abruer
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
+ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360941"
 ---
-
 # <a name="project-timesheets-on-a-mobile-device"></a>Urenstaten voor projecten op een mobiel apparaat
 
 [!include [banner](../includes/banner.md)]
@@ -33,8 +32,8 @@ Met **Mijn urenstaten (geoptimaliseerd voor mobiel)** kunnen werknemers urenstat
 
 Met **Urenstaten voor mijn controle (geoptimaliseerd voor mobiel)** kunnen projectmanagers met goedkeuringsrechten voor urenstaten projecturenstaten op een mobiel apparaat controleren en goedkeuren. Het bewerken of bekijken van financiële dimensie-informatie wordt niet ondersteund in de mobiele toepassing. **Urenstaten voor mijn controle (geoptimaliseerd voor mobiel)** kan worden geopend via de webbrowser op uw mobiele apparaat.
 
-Dit mobiele toepassing is compatibel voor iPhone met Dynamics 365 voor Finance and Operations platformupdate 15.
-Android is compatibel met platformupdate 16, zodra dit beschikbaar wordt.
+Deze mobiele toepassing is compatibel voor iPhone met Dynamics 365 for Finance and Operations platformupdate 15.
+Android Android zal compatibel zijn met platformupdate 16, zodra deze beschikbaar wordt.
 
 <a name="create-a-project-timesheet-on-your-mobile-device"></a>Een projecturenstaat maken op het mobiele apparaat
 ------------------------------------------------
@@ -66,4 +65,3 @@ Android is compatibel met platformupdate 16, zodra dit beschikbaar wordt.
 13. Optioneel: voer extra urenstaatregels in.
 
 14. Nadat u klaar bent met het invoeren van de urenstaatregels, selecteert u de actie **Werkstroom** \> **Indienen** om aan uw urenstaat in te dienen voor het werkstroomproces voor goedkeuring.
-

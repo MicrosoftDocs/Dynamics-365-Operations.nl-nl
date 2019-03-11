@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration, BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6129a5431cba22ea656e4d6f473a4e93a81131ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3e3c86bd32a05a392fcb82a86f2c461cc3abfb03
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331708"
 ---
-
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>Een budget maken op basis van transactierekeningen en totaalrekeningen.
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,6 @@ Wanneer een budget wordt gebruikt bij rapportage, zoals in een financieel overzi
 -   Het budgetbedrag dat direct op de totaalrekening is ingevoerd.
 
 Zo kunt u afzonderlijke budgetten voor de belangrijkste transactierekeningen binnen het interval van de totaalrekening maken en het beschikbare budgetbedrag vervolgens toevoegen aan de totaalrekening.
-
 
 
 

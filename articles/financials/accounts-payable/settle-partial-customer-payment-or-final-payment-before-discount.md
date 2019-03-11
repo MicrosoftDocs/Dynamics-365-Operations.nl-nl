@@ -1,13 +1,13 @@
 ---
-title: "Een gedeeltelijke klantenbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum"
+title: Een gedeeltelijke klantenbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum
 description: Dit artikel geeft scenario's die laten zien hoe gedeeltelijke betalingen voor een klant worden vastgelegd en hoe contantkortingen worden verkregen in de contantkortingsperiode.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3154c109f3d6ba3af1ff88682fb9ff51bc3d0d70
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 655cc2b67eabac99460c00a2ddab059335fd74f8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326326"
 ---
-
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Een gedeeltelijke klantenbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum
 
 [!include [banner](../includes/banner.md)]
@@ -145,7 +144,6 @@ Arnie boekt dit journaal en controleert de klanttransacties op de pagina **Klant
 | DISC-10010 | Contantkorting    | 01-07-2015  |         |                                      | 5,00                                  | 0,00    | USD      |
 | ARP-10011  | Betaling          | 8-7-2015  |         |                                      | 495,00                                | 0,00    | USD      |
 | DISC-10011 | Contantkorting    | 8-7-2015  |         |                                      | 5,00                                  | 0,00    | USD      |
-
 
 
 

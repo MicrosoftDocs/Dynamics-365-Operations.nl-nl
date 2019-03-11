@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 32a416a79802a9f1d7a6e79705c3fd088124a141
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b48accdc7aaaa65b4c620777546b20056038905b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357215"
 ---
-
 # <a name="set-up-bank-reconciliation-matching-rules"></a>Afstemmingsregels voor bankafstemming instellen
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe afstemmingsregels en sets afstemmingsregels kunnen worden ingesteld om het bankafstemmingsproces te vereenvoudigen. Afstemmingsregels zijn een reeks criteria die worden gebruikt om regels van bankafschriften en bankdocumentregels te filteren tijdens het afstemmingsproces.
 
-U kunt afstemmingsregels en sets afstemmingsregels instellen om het bankafstemmingsproces te vereenvoudigen. Een afstemmingsregel is een reeks criteria die worden gebruikt om regels van bankafschriften en banktransactieregels van Microsoft Dynamics 365 for Finance and Operations te filteren tijdens het afstemmingsproces. Gebruik de pagina **Afstemmingsregels** om de afstemmingsregels in te stellen. U kunt meerdere afstemmingsregels instellen en vervolgens een afstemmingsregelset maken op de pagina **Afstemmingsregelsets**. 
+U kunt afstemmingsregels en sets afstemmingsregels instellen om het bankafstemmingsproces te vereenvoudigen. Een afstemmingsregels is een reeks criteria die worden gebruikt om regels van bankafschriften en Microsoft Dynamics 365 for Finance and Operations-banktransactieregels te filteren tijdens het afstemmingsproces. Gebruik de pagina **Afstemmingsregels** om de afstemmingsregels in te stellen. U kunt meerdere afstemmingsregels instellen en vervolgens een afstemmingsregelset maken op de pagina **Afstemmingsregelsets**. 
 
 > [!NOTE] 
 > Bankafstemmingsregels worden gebruikt als u een elektronisch bankafschrift afstemt met behulp van geavanceerde bankafstemming. 
@@ -48,7 +47,6 @@ Op de pagina **Afstemmingsregels** kunt u selecteren welke acties en selectiecri
 | **Afstemmen met bankdocument**       | Maak criteria om op te geven hoe de bankdocumenten en bankafschriftregels worden afgestemd wanneer de afstemmingsregel wordt uitgevoerd vanuit de pagina **Werkblad voor bankafstemming**. De transactieregels worden geselecteerd in overeenstemming met de aanvullende criteria die zijn ingesteld op de sneltabbladen.                                | **Stap 1: de afstemmingsregel definiëren**: selecteer criteria om op te geven welke bankafschriften met Finance and Operations-banktransacties moeten worden afgestemd. **Stap 2 (optioneel): selecteer de overzichtregels ten opzichte waarvan afstemmingsregels moeten worden uitgevoerd:** Pas een filter toe op de afschriftregel ten opzichte waarvan de regels moeten worden uitgevoerd.                                                                                                                                                                                                                                                                                                               |
 | **Terugboekingsregels op een afschrift wissen** | Maak criteria om op te geven hoe terugboekingsregels moeten worden verwijderd van de pagina **Werkblad voor bankafstemming** wanneer de afstemmingsregel wordt uitgevoerd. Deze optie wordt gebruikt wanneer de bank een fout maakt en er twee bankafschriftregels moeten worden weergegeven in het geïmporteerde bankafschrift en de regels moeten worden afgestemd. | **Stap 1**:**terugboekingsregels op afschrift zoeken**: voeg selectiecriteria toe om terugboekingsregels van het bankafschrift te selecteren. Als u bijvoorbeeld alleen cheques wilt selecteren, selecteert u de **Banktransactiecode**, selecteert u het plusteken (+) in het veld **Operator** en voert u vervolgens **Cheques** in het veld Waarde in. **Stap 2: oorspronkelijke afschriftregels zoeken**: u kunt selectiecriteria toevoegen om bankdocumentregels af te stemmen op bankafschriftregels. **Stap 3: Finance and Operations-banktransacties zoeken**: u kunt selectiecriteria toevoegen om banktransacties van Finance and Operations af te stemmen met bankafschriftregels. |
 | **Nieuwe transacties markeren**          | Maak criteria om op te geven hoe nieuwe transacties moeten worden gemarkeerd op de pagina **Werkblad voor bankafstemming** wanneer de afstemmingsregel wordt uitgevoerd.                                                                                                                                                                 | **Stap 1: afschriftregels zoeken**: voeg selectievelden toe om op te geven welke bankafschriftregels moeten worden geselecteerd op de pagina **Bankafstemmingswerkblad**. **Stap 2: Finance and Operations-banktransacties zoeken**: u kunt selectiecriteria toevoegen om bankdocumentregels te zoeken. Als er geen bankdocument wordt gevonden, wordt een afschriftregel als een nieuwe transactie gemarkeerd.                                                                                                                                                                                                                                             |
-
 
 
 

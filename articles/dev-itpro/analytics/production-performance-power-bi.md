@@ -1,13 +1,13 @@
 ---
 title: Power BI-inhoud Productieprestaties
-description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Productieprestaties. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Productieprestaties. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365955"
 ---
-
 # <a name="production-performance-power-bi-content"></a>Power BI-inhoud Productieprestaties
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Productieprestaties**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Productieprestaties**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 
@@ -42,7 +41,7 @@ Met deze Power BI-inhoud kunt u ook productieafwijkingen analyseren. Productieaf
 
 De Power BI-inhoud **Productieprestaties** bevat gegevens die afkomstig zijn uit productieorders en batchorders. De rapporten bevatten geen gegevens die zijn gerelateerd aan kanbanproductie.
 
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
+## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 De Power BI-inhoud **Productieprestaties** wordt weergegeven op de pagina **Productieprestaties** (**Productiebeheer** \> **Query's en rapporten** \> **Productieprestatieanalyse** \> **Productieprestaties**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
@@ -63,7 +62,7 @@ In de volgende tabel vindt u een overzicht van de visualisaties die worden meege
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 
-De volgende gegevens wordt gebruikt voor de rapportpagina's in de Power BI-inhoud **Productieprestaties**. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie over de entiteitopslag, [Power BI-integratie met de Entiteitopslag](power-bi-integration-entity-store.md).
+De volgende gegevens worden gebruikt voor de rapportpagina's in de Power BI-inhoud **Productieprestaties**. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie over de entiteitopslag, [Power BI-integratie met de Entiteitopslag](power-bi-integration-entity-store.md).
 
 In de volgende tabel ziet u de belangrijke geaggregeerde metingen die worden gebruikt als basis voor de Power BI-inhoud.
 
@@ -130,4 +129,3 @@ In de volgende tabel ziet u de belangrijke dimensies die worden gebruikt als fil
 | Entiteiten                  | Id en Naam                                                   |
 | Resources                 | Resource-id, Resourcenaam, Resourcetype en Resourcegroep |
 | Producten                  | Productnummer, Productnaam, Artikel-id en Artikelgroep         |
-

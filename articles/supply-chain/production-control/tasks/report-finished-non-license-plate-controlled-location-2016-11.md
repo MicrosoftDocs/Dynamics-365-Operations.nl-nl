@@ -1,13 +1,13 @@
---- 
+---
 title: Gereedmelden bij een locatie waar nummerplaten niet worden gecontroleerd (toepassing, mei 2016)
 description: Deze taakbegeleiding toont een voorbeeld van gereedmelding bij een locatie waar geen nummerplaten worden gecontroleerd.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdParmCostEstimation, ProdParmStartUp, ProdParmReportFinished, WHSWorkTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4da6868a2184a76c435efe824f4670504e1134e7
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344542"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Gereedmelden bij een locatie waar nummerplaten niet worden gecontroleerd (toepassing, mei 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze taakbegeleiding toont een voorbeeld van gereedmelding bij een locatie waar geen nummerplaten worden gecontroleerd. Een toepasselijk werkbeleid is de vereiste voor deze taak. Een vorige taakbegeleiding liet zien hoe het werkbeleid wordt ingesteld. Voor deze taakbegeleiding is de toepassing Dynamics AX 7.0.1 of later vereist.
+Deze taakbegeleiding toont een voorbeeld van gereedmelding bij een locatie waar geen nummerplaten worden gecontroleerd. Een toepasselijk werkbeleid is de vereiste voor deze taak. Een vorige taakbegeleiding liet zien hoe het werkbeleid wordt ingesteld. Voor deze taakbegeleiding is de toepassing Dynamics AX 7.0.1 of hoger vereist.
 
 
 
@@ -61,5 +61,4 @@ Deze taakbegeleiding toont een voorbeeld van gereedmelding bij een locatie waar 
 17. Klik in het actievenster op Magazijn.
 18. Klik op Werkdetails.
     * Toen de productieorder gereedgemeld werd, is er geen werk gegenereerd voor wegzetten. Dit komt doordat er een werkbeleid is gedefinieerd waarmee wordt voorkomen dat werk wordt gegenereerd wanneer product L0101 wordt gereedgemeld bij locatie 001.  
-
 

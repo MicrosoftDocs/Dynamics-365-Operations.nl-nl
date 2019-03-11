@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00011 Genereren van het rapport ICL-lijst.
 description: Deze procedure begeleidt u bij het genereren van het rapport van de EU-verkooplijst.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  EUSalesList, EUSalesListSelection, SysQueryForm, SysLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371424"
 ---
 # <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 Genereren van het rapport ICL-lijst.
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure begeleidt u bij het genereren van het rapport van de EU-verkooplijst. Dit omvat het overboeken van intracommunautaire handelstransacties naar de EU-verkooplijst en het uitvoeren van het rapport. Deze procedure omvat ook het maken van een intracommunautair handelstransactie voor demodoeleinden. Raadpleeg voor meer informatie over EU-verkooplijstrapportage, met inbegrip van vereisten, de Help bij Dynamics 365 for Finance and Operations.
+Deze procedure begeleidt u bij het genereren van het rapport van de EU-verkooplijst. Dit omvat het overboeken van intracommunautaire handelstransacties naar de EU-verkooplijst en het uitvoeren van het rapport. Deze procedure omvat ook het maken van een intracommunautair handelstransactie voor demodoeleinden. Raadpleeg voor meer informatie over EU-verkooplijstrapportage, met inbegrip van vereisten, de Dynamics 365 for Finance and Operations Help.
 
 Deze procedure is van toepassing op alle Europese landen/regio's. De procedure werd gemaakt met de demogegevens van het bedrijf DEMF en dus Duitsland als voorbeeld voor land/regio. De procedure maakt ook gebruik van Portugal als voorbeeld van EU-land/-regio. Voordat u deze procedure kunt uitvoeren, moet u het rapporteren van de EU-verkooplijst configureren.
 
@@ -100,5 +100,4 @@ Deze procedure is alleen bedoeld voor accountants.
     * U kunt ook extra filters op intracommunautair handelstransacties opgeven om te markeren als Afgesloten.  
 7. Klik op OK.
 8. Selecteer 'Afgesloten' in het veld Selectie.
-
 

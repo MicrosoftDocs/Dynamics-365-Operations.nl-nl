@@ -1,13 +1,13 @@
 ---
-title: Power BI-inhoud Compensatie
-description: In dit onderwerp wordt de Power BI-inhoud voor Compensatie besproken. U vindt hier een uitleg hoe u toegang krijgt tot de rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+title: Compensatie Power BI-inhoud
+description: In dit onderwerp wordt Power BI-inhoud voor Compensatie besproken. U vindt hier een uitleg hoe u toegang krijgt tot de rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,28 +16,27 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 8457182fee49e28256f2a1102ba77b2b4e89d5b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 93c005d4b85b56f77ddd488c91e477970f4ccd07
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347279"
 ---
-
-# <a name="compensation-power-bi-content"></a>Power BI-inhoud Compensatie
+# <a name="compensation-power-bi-content"></a>Compensatie Power BI-inhoud
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de Microsoft Power BI-inhoud voor **Compensatie** besproken. U vindt hier een uitleg hoe u toegang krijgt tot de rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt de **Compensatie** Microsoft Power BI-inhoud besproken. U vindt hier een uitleg hoe u toegang krijgt tot de rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-De Power BI-inhoud **Compensatie** wordt weergegeven in het werkgebied **Compensatiebeheer** als u een van de volgende producten gebruikt:
+## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
+De **Compensatie** Power BI-inhoud wordt weergegeven in het werkgebied **Compensatiebeheer** als u een van de volgende producten gebruikt:
 
 - Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud
-De rapporten die zijn opgenomen in de Power BI-inhoud **Compensatie** bevatten diagrammen en tabellen met aanvullende informatie. De onderstaande tabel geeft een overzicht van de rapporten.
+De rapporten die zijn opgenomen in **Compensatie** de Power BI-inhoud bevatten diagrammen en tabellen met aanvullende informatie. De onderstaande tabel geeft een overzicht van de rapporten.
 
 | Rapport                     | Inhoud |
 |----------------------------|----------|
@@ -46,10 +45,10 @@ De rapporten die zijn opgenomen in de Power BI-inhoud **Compensatie** bevatten d
 | Positiesalarisanalyse      | Hoogste en laagste betaling per uur en salaris, posities met het hoogste en laagste salaris en fulltime en parttime posities |
 | Compensatieplananalyse | Werknemersinschrijving op basis van geselecteerde vergoeding |
 
-U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over het filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-De volgende gegevens worden gebruikt om de rapporten in de Power BI-inhoud **Compensatie** in te vullen. Deze tabel bevat de entiteiten waarop de inhoud is gebaseerd.
+De volgende gegevens worden gebruikt om de rapporten in de **Compensatie** Power BI-inhoud in te vullen. Deze tabel bevat de entiteiten waarop de inhoud is gebaseerd.
 
 | Entiteit                   | Inhoud                                                                                                   | Relaties met andere entiteiten |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -73,4 +72,3 @@ De volgende gegevens worden gebruikt om de rapporten in de Power BI-inhoud **Com
 | Naam van werknemer            | Voornaam, achternaam en volledige naam                                                                       | Huidige werknemer, Ontslagen werknemer, Trend werknemer |
 | Werknemertitel           | Titel en anciënniteitsdatum                                                                                   | Huidige werknemer, Ontslagen werknemer, Trend werknemer |
 | Trend werknemer           | Werknemers in de loop van de tijd, personeelsbezetting, bedrijf en positie                                                        | Bedrijf, Compensatie, Geografische locatie, Werknemersnaam, Rapporteert aan, Kalender-offset, Datum, Werknemertitel, Demografische gegevens, Aanstelling, Functie, Vergoedingen |
-

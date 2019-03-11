@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 942b48170d7c164e16d2b8f5544b8777668adab3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371414"
 ---
-
 # <a name="invoice-issue-deadline"></a>Deadline voor uitgeven van facturen
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Gebruik de pagina **Berekening instellen voor vervaldatum factuuruitgifte** om e
 U kunt datumcontroleparameters instellen om ervoor te zorgen dat klantfacturen en creditnota's voor klanttransacties in de opgegeven periode worden gegenereerd nadat de levering is uitgevoerd. U kunt deze parameters vinden in het gebied **Controle van factuurdatums** van de pagina **Parameters van module Klanten**.
 
 ## <a name="example"></a>Voorbeeld
-Als u Microsoft Dynamics 365 for Finance and Operations wilt instellen op de berekening van vervaldatums voor factuuruitgifte voor zendingen in de EU op de vijftiende dag van de maand nadat de levering is uitgevoerd, maakt u een datumintervalcode en een berekeningsregel met de volgende instellingen.
+Als u Microsoft Dynamics 365 for Finance and Operations wilt instellen op de berekening van vervaldatums voor factuuruitgifte voor zendingen in de EU op vijftiende dag de dag van de maand nadat de levering is uitgevoerd, maakt u een datumintervalcode en een berekeningsregel met de volgende instellingen.
 
 ### <a name="date-interval-code"></a>Datumintervalcode
 
@@ -118,7 +117,6 @@ Als u geen toegang hebt tot de pagina's waarmee de in dit artikel vermelde taken
 </tr>
 </tbody>
 </table>
-
 
 
 

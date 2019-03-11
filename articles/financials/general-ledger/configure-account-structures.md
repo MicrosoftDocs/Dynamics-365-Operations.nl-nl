@@ -1,13 +1,13 @@
 ---
 title: Rekeningstructuren configureren
-description: "Dit onderwerp biedt informatie over rekeningstructuren en financiële dimensies."
+description: Dit onderwerp biedt informatie over rekeningstructuren en financiële dimensies.
 author: aprilolson
 manager: AnnBe
 ms.date: 05/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 8435389a523d8393e9d4daa0cb1244203c0dbb12
 ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351718"
 ---
-
 # <a name="configure-account-structures"></a>Rekeningstructuren configureren
 
 [!include[banner](../includes/banner.md)]
@@ -100,4 +99,3 @@ Bij het instellen van uw rekeningstructuren zijn er enkele aanbevelingen die u k
 Wanneer u tevreden bent met uw nieuwe instellingen of een wijziging in de rekeningstructuur, moet u deze activeren. Als een rekeningstructuur is toegewezen aan een grootboek, kan deze activering een langdurig proces zijn, omdat alle niet-geboekte transacties in het systeem moeten worden gesynchroniseerd met de nieuwe structuur. Geboekte transacties worden niet beïnvloed door wijzigingen in de rekeningstructuur.
 
 Zie voor meer informatie [Uw rekeningschema plannen](plan-chart-of-accounts.md), [Financiële dimensies](financial-dimensions.md) en [Rekening- en dimensiecombinaties invoeren (gesegmenteerd invoerbesturingselement)](enter-account-dimension-combinations-segmented-entry-control.md).
-

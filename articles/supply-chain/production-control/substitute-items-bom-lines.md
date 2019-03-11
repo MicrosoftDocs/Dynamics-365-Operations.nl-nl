@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327614"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>Materiaalvervanging in productie
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ U kunt materialen alleen tijdens de planning vervangen wanneer u formules gebrui
 
 ## <a name="substituting-material-during-production"></a>Materiaal vervangen tijdens productie
 Bekijk het volgende scenario: Voor een lasbewerking is een stukje metalen plaat nodig. Tijdens de bewerking meldt een magazijnwerknemer de machineoperator dat de plaat niet in voorraad is. Er is echter besloten dat de plaat kan worden vervangen door een plaat die iets dikker is. Op die manier kan de bewerking worden voltooid. Materiaal kan aan de stuklijst voor een openstaande productieorder worden toegevoegd. Als de productieorder de status **Gestart** heeft, moeten gebruikers de order opnieuw ramen wanneer ze een nieuw artikel aan de productiestuklijst toevoegen. Nadat het materiaal is toegevoegd, kan een nieuwe orderverzamellijst voor het nieuwe artikel worden gemaakt. U hoeft het nieuwe materiaal niet aan de productiestuklijst toe te voegen. In plaats daarvan kunt u dit direct aan de productieorderverzamellijst toevoegen. Wanneer de orderverzamellijst is geboekt, voegt het systeem het materiaal aan de productiestuklijst toe.
-
 
 
 

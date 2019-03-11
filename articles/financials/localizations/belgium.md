@@ -1,13 +1,13 @@
 ---
-title: "België"
-description: "In dit onderwerp vindt u een overzicht van de specifieke functionaliteit voor België."
+title: België
+description: In dit onderwerp vindt u een overzicht van de specifieke functionaliteit voor België.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: belgium
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: c8ea2de3c4ccdf7e94aeddebc7d0aacfee029ab8
 ms.openlocfilehash: f622644ca7858bd858ec5f669b0d0eb8fa8884fc
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371381"
 ---
-
 # <a name="belgium"></a>België
 
 [!include[banner](../includes/banner.md)]
@@ -45,10 +44,9 @@ Voor informatie over het instellen en maken van de INTERVAT-belastingaangifte vo
 |Rapport Belgisch Luxemburgs Wissel Instituut (BLWI)|**Btw** > **Aangiften** > **Buitenlandse handel** > **BLWI** | Als u de BLWI-informatie wilt instellen, raadpleegt u [Betalingssaldi instellen](tasks/be-00011-set-up-payment-balance-reporting.md). Als u het BLWI-rapport wilt genereren, raadpleegt u [Transacties maken en overboeken naar het BLWI](tasks/be-00011-create-transfer-blwi.md).| 
 |PRODCOM-rapport|**Btw** > **Aangiften** > **Buitenlandse handel** > **PRODCOM**|Fabrikanten van industriële producten verzenden het PRODCOM-rapport aan het Nationaal Instituut voor de Statistiek (NIS) in reactie op het jaarlijkse PRODCOM-onderzoek. Het PRODCOM-rapport bevat productiestatistieken voor industriële producten die worden vervaardigd door productiebedrijven die in België gevestigd zijn. Dit rapport wordt meestal gebruikt door accountants en boekhoudmanagers. Zie voor meer informatie [PRODCOM instellen en onderhouden](emea-bel-prodcom-report.md). |
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Microsoft Dynamics Localization Portal: Rapport België](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/Belgium.html) (CustomerSource-account vereist)
 - [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Lokalisatie en wettelijk voorgeschreven functies](../../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)
-

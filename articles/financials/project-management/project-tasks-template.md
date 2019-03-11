@@ -1,13 +1,13 @@
 ---
 title: Projecttaken rechtstreeks vanuit Project Service Automation synchroniseren met Finance and Operations
-description: In dit onderwerp worden de sjabloon en onderliggende taak beschreven die worden gebruikt om projecttaken rechtstreeks vanuit Microsoft Dynamics 365 for Project Service Automation te synchroniseren met Microsoft Dynamics 365 for Finance and Operations.
+description: Dit onderwerp bespreekt de sjabloon en de onderliggende taak die worden gebruikt om projecttaken rechtstreeks van Microsoft Dynamics 365 for Project Service Automation naar Microsoft Dynamics 365 for Finance and Operations te synchroniseren.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 53e4eab0d455af4ac1e17754f31d46458db742c3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355168"
 ---
-
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projecttaken rechtstreeks vanuit Project Service Automation synchroniseren met Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjabloon en onderliggende taak beschreven die worden gebruikt om projecttaken rechtstreeks vanuit Microsoft Dynamics 365 for Project Service Automation te synchroniseren met Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp bespreekt de sjabloon en de onderliggende taak die worden gebruikt om projecttaken rechtstreeks van Microsoft Dynamics 365 for Project Service Automation naar Microsoft Dynamics 365 for Finance and Operations te synchroniseren.
 
 > [!NOTE]
-> - Projecttaakintegratie, onkostentransactiecategorieën, uurramingen, onkostenramingen en functionaliteitvergrendeling zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations, versie 8.0.
+> - Projecttaakintegratie, onkostentransactiecategorieën, uurramingen, onkostenramingen en functionaliteitvergrendeling zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations versie 8.0.
 > - Als u Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, 7.3.0 gebruikt, kunt u nadat u KB 4132657 en KB 4132660 hebt geïnstalleerd, de sjablonen gebruiken om projecttaken, onkostentransactiecategorieën, geraamde uren, geraamde onkosten en werkelijke waarden te integreren en om functionaliteitvergrendeling te configureren. Als u de boekhoudingsverdelingen opnieuw instellen moet, wordt u aangeraden ook KB 4131710 te installeren.
-> - Integratie van werkelijke waarden is beschikbaar in Microsoft Dynamics 365 for Finance and Operations versie 8.01 of hoger.
+> - Integratie van werkelijke waarden is mogelijk in Microsoft Dynamics 365 for Finance and Operations versie 8.0.1 of hoger.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Gegevensstroom voor Project Service Automation naar Finance and Operations
 
@@ -84,4 +83,3 @@ Als u Power Query moet gebruiken, volgt u deze richtlijn:
 In de volgende afbeelding ziet u een voorbeeld van sjabloontaaktoewijzingen in Gegevensintegratie. Aan de hand van de toewijzing kunt u zien welke veldgegevens vanuit Project Service Automation naar Finance and Operations worden gesynchroniseerd.
 
 [![Sjabloontoewijzing](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-

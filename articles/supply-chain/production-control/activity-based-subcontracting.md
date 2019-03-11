@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350039"
 ---
-
 # <a name="activity-based-subcontracting"></a>Werkuitbesteding op basis van een activiteit
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt tot in detail beschreven hoe u uitbestede activiteiten in een productiestroom voor lean manufacturing kunt gebruiken.
 
-Microsoft Dynamics 365 for Finance and Operations bevat twee methoden voor uitbesteding: productieorders en lean manufacturing. In de lean manufacturing-methode worden de uitbestedingswerkzaamheden gemodelleerd als een service die is gerelateerd aan een activiteit van een productiestroom. Een speciaal soort kostengroeptype met de naam **Rechtstreekse uitbesteding** is geïntroduceerd, en de uitbestedingsservices zijn niet langer onderdeel van een stuklijst. De kostprijsboekhouding van uitbesteed werk is volledig geïntegreerd in de kostprijsberekeningsoplossing voor lean manufacturing.
+In Microsoft Dynamics 365 for Finance and Operations zijn er twee manieren voor uitbesteding: productieorders en lean manufacturing. In de lean manufacturing-methode worden de uitbestedingswerkzaamheden gemodelleerd als een service die is gerelateerd aan een activiteit van een productiestroom. Een speciaal soort kostengroeptype met de naam **Rechtstreekse uitbesteding** is geïntroduceerd, en de uitbestedingsservices zijn niet langer onderdeel van een stuklijst. De kostprijsboekhouding van uitbesteed werk is volledig geïntegreerd in de kostprijsberekeningsoplossing voor lean manufacturing.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Productiestromen die betrekking hebben op toeleveranciers
 Het basisprincipe van een productiestroom verandert niet wanneer activiteiten worden uitbesteed. Materiaal wordt nog steeds verplaatst tussen vestigingen, met procesactiviteiten wordt materiaal omgezet in producten en met overboekingsactiviteiten worden producten of materiaal van de ene locatie naar de andere verplaatst. U kunt locaties en werkcellen modelleren als door een leverancier beheerd door de leverancierrekening aan een magazijn of aan een resource van een resourcegroep toe te wijzen.  
@@ -75,7 +74,7 @@ Deze vereiste zorgt ervoor dat het gebruik van het FIFO-voorraadmodel (First In,
 Als u een procesactiviteit wilt configureren als een uitbestede activiteit, voert u de volgende stappen uit.
 
 1.  Configureer een uitbestede werkcel. Als u een werkcel wilt configureren als uitbesteed, moet u een resource van het type **Leverancier** maken en deze koppelen aan de werkcel (resourcegroep). Aan de werkcel moet een runtime kostencategorie van het kostengroeptype **Rechtstreekse uitbesteding** worden toegewezen. De kostencategorieën voor instelling en hoeveelheid zijn niet verplicht.
-2.  Nadat een procesactiviteit is gemaakt en is verbonden aan een uitbestede werkcel, moet u een service voor de activiteit configureren voordat de productiestroomversie kan worden geactiveerd. U voert deze stap uit op de pagina **Activiteit****gegevens**. Voor activiteiten die zijn gekoppeld aan een uitbestede werkcel, wordt het sneltabblad **Servicevoorwaarden** weergegeven. Voeg op dit sneltabblad een standaardservice toe die geldig is voor alle uitvoerartikelen. Als specifieke uitvoerartikelen verschillende services of verschillende parameters voor serviceberekening vereisen (bijvoorbeeld een andere serviceverhouding), kunt u andere services toevoegen aan de activiteit.
+2.  Nadat een procesactiviteit is gemaakt en is verbonden aan een uitbestede werkcel, moet u een service voor de activiteit configureren voordat de productiestroomversie kan worden geactiveerd. U voert deze stap uit op de pagina **Activiteit** **gegevens**. Voor activiteiten die zijn gekoppeld aan een uitbestede werkcel, wordt het sneltabblad **Servicevoorwaarden** weergegeven. Voeg op dit sneltabblad een standaardservice toe die geldig is voor alle uitvoerartikelen. Als specifieke uitvoerartikelen verschillende services of verschillende parameters voor serviceberekening vereisen (bijvoorbeeld een andere serviceverhouding), kunt u andere services toevoegen aan de activiteit.
 
 ## <a name="subcontracted-transfer-activities"></a>Uitbestede overboekingsactiviteiten
 Een overboekingsactiviteit wordt geconfigureerd als een uitbestede activiteit, afhankelijk van de instelling **Bevracht door** van de overboekingsactiviteit. De volgende opties zijn beschikbaar:
@@ -84,12 +83,12 @@ Een overboekingsactiviteit wordt geconfigureerd als een uitbestede activiteit, a
 -   **Ontvanger** : de activiteit wordt uitbesteed als de overboeking naar het magazijn wordt beheerd door een leverancier (zoals gedefinieerd door een eigenschap van het magazijn). Alle geselecteerde inkoopovereenkomsten voor services moeten dezelfde leverancier-ID hebben als het magazijn.
 -   **Vervoerder** : de activiteit wordt uitbesteed aan een leverancier die de service verleent. Een vervoerder is alleen geldig als deze voor magazijnbeheer wordt gemaakt en als deze een leverancierrekening krijgt toegewezen.
 
-Net als voor procesactiviteiten moet u een standaardservice voor uitbestede overboekingsactiviteiten configureren op het sneltabblad **Servicevoorwaarden** van de pagina **Activiteit****gegevens**.
+Net als voor procesactiviteiten moet u een standaardservice voor uitbestede overboekingsactiviteiten configureren op het sneltabblad **Servicevoorwaarden** van de pagina **Activiteit** **gegevens**.
 
 ## <a name="service-quantity-calculation"></a>Berekening van servicehoeveelheid
 Het gehele inkoopproces is gebaseerd op een artikelverwijzing voor een service. De artikelverwijzing wordt gemeten in een maateenheid voor een service. Services worden meestal gemeten in het aantal services (eenheden) of in tijd. Voor het berekenen van de servicehoeveelheid op basis van de geregistreerde voltooiing van kanbantaken, kunt u de volgende methoden gebruiken:
 
--   **Berekening op basis van het aantal taken**: één kanbantaak is gelijk aan *n* service-eenheden, ongeacht de producthoeveelheid die wordt geleverd. In lean manfacturing correspondeert één taak met één materiaalverwerkingseenheid. Deze berekeningsmethode geldt voor alle services met een vaste prijs per materiaalverwerkingseenheid. Daarom is deze methode meestal van toepassing op overboekingsactiviteiten. Deze methode kan echter ook worden toegepast op procesactiviteiten waarmee gehele materiaalverwerkingseenheden worden verwerkt.
+-   **Berekening op basis van het aantal taken** : één kanbantaak is gelijk aan *n* service-eenheden, ongeacht de producthoeveelheid die wordt geleverd. In lean manfacturing correspondeert één taak met één materiaalverwerkingseenheid. Deze berekeningsmethode geldt voor alle services met een vaste prijs per materiaalverwerkingseenheid. Daarom is deze methode meestal van toepassing op overboekingsactiviteiten. Deze methode kan echter ook worden toegepast op procesactiviteiten waarmee gehele materiaalverwerkingseenheden worden verwerkt.
 -   **Berekening op basis van de producthoeveelheid** : de servicehoeveelheid is gerelateerd aan de producthoeveelheid die is gepland of geleverd. Wanneer de geleverde producthoeveelheid wordt berekend, kunnen slechte hoeveelheden worden opgenomen of uitgesloten. Deze berekeningsmethode geldt voor alle gevallen waarin de prijs per eenheid voor de service van het verwerkte product is overeengekomen.
 -   **Berekening op basis van de activiteitstijd**: de theoretische activiteitstijden worden berekend op basis van de verwerkingstijd van de activiteit, de totale verwerkte hoeveelheid en de doorvoerverhouding van het verwerkte product. Deze berekeningsmethode is van toepassing op services die per uur worden betaald en een afwijking in tijd per verwerkt product hebben.
 
@@ -104,7 +103,6 @@ Transport wordt vaak gezien als niet-productief en zonder toegevoegde waarde. Al
 Met uitbesteding op basis van een activiteit in lean manufacturing kunt u vervoerders en transportleveranciers integreren die materiaal en producten tussen de locaties van een productiestroom verplaatsen. U kunt een vervoerder of leverancier toewijzen door een overboekingsactiviteit te modelleren. De overboekingsactiviteiten/-taak zijn gebaseerd op een service- en inkoopovereenkomst en u kunt inkooporders en ontvangstadviezen maken op basis van de werkelijke overboekingstaken. Deze functionaliteit is hetzelfde als de functionaliteit voor uitbestede procesactiviteiten.  
 
 Daarom wordt Finance and Operations nu stuklijstberekening ondersteund waarin transportservices, het maken van gerelateerde inkooporders, geïntegreerde ontvangstregistratie en de integratie van transportservicekosten zijn opgenomen in de kostprijsberekening van de productiestroom.
-
 
 
 

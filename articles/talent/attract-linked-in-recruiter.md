@@ -5,28 +5,27 @@ author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303843"
 ---
-
 # <a name="sourcing-with-linkedin-recruiter"></a>Aanstelling met LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
@@ -142,4 +141,3 @@ Als u notitiehistorie wilt weergeven, gaat u naar het profiel van een kandidaat,
 Het InMail-stubprofiel is beschikbaar met toegang op contractniveau met LinkedIn Recruiter. Als kandidaten ermee instemmen hun LinkedIn-profiel te delen met een gebruiker in uw organisatie, kunt u de kandidaten in Attract bijhouden en wordt een nieuwe kandidaatrecord voor elke kandidaat gemaakt. U kunt het e-mailadres van de kandidaat weergeven als de kandidaat al in het systeem bestaat met een e-mailadres of ervoor heeft gekozen om zijn of haar adres te delen met de werver.
 
 Als u de lijst met kandidaten wilt weergeven, gaat u naar **Talentenpools** om een door het systeem gemaakte LinkedIn-talentenpool te zien. Deze talentenpool bevat de lijst met kandidaten en hun stubprofielen, zoals ontvangen van LinkedIn, met de voornaam en achternaam van de kandidaat. De e-mail-id van de kandidaat wordt weergegeven als de kandidaat ervoor heeft gekozen zijn of haar e-mailadres te delen.
-

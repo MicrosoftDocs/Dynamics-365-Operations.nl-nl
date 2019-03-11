@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c6cec76ebc8328f221ecb6c30ae93716bd9bfe9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ff59250b836a73986848109ce48f843fed1d71a9
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358204"
 ---
-
 # <a name="advanced-bank-reconciliation-overview"></a>Overzicht van geavanceerde bankafstemming
 
 [!include [banner](../includes/banner.md)]
@@ -40,14 +39,13 @@ Met de functie voor geavanceerde bankafstemming kunt u bankafschriften importere
     -   De functionaliteit kan naar iedere indeling worden uitgebreid.
 
 2.  Stel een nummerreeks in die moet worden gebruikt voor geavanceerde bankafstemming en definieer de afstemmingsregels voor bankafstemming.
-    -   Een afstemmingsregel is een reeks criteria die worden gebruikt om regels van bankafschriften en banktransactieregels van Microsoft Dynamics 365 for Finance and Operations te filteren tijdens het afstemmingsproces. Afhankelijk van uw bedrijfspraktijk kunt u meerdere afstemmingsregels instellen om uw afstemmingsproces te automatiseren en te optimaliseren.
+    -   Een afstemmingsregels is een reeks criteria die worden gebruikt om regels van bankafschriften en Microsoft Dynamics 365 for Finance and Operations-banktransactieregels te filteren tijdens het afstemmingsproces. Afhankelijk van uw bedrijfspraktijk kunt u meerdere afstemmingsregels instellen om uw afstemmingsproces te automatiseren en te optimaliseren.
 
 3.  Stem bankafschriften af met de banktransacties van Finance and Operations.
     -   Voer automatische afstemming en het maken van afstemmingsjournalen uit.
     -   Geef bankafschriften en banktransacties van Finance and Operations naast elkaar weer.
     -   Boek banktransacties van Finance and Operations automatisch als deze op een bankafschrift worden weergegeven, maar niet in Finance and Operations.
     -   Genereer een afstemmingsafschrift.
-
 
 
 

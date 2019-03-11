@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00015 Een btw-id instellen
 description: Deze procedure beschrijft de vereisten voor het registreren van de btw-id, zoals het instellen van een registratietype en het toewijzen ervan aan een registratiecategorie.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxRegistrationType, TaxRegistrationTypeCreate, TaxRegistrationLegislationTypes
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 66ee7215dc21921f9d8e405c3f77d9b5e0b89a9e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371398"
 ---
 # <a name="eur-00015-set-up-vat-id"></a>EUR-00015 Een btw-id instellen
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/14/2018
 
 Deze procedure beschrijft de vereisten voor het registreren van de btw-id, zoals het instellen van een registratietype en het toewijzen ervan aan een registratiecategorie. U kunt extra informatie over registratie-id's en de verwerking van registratie-id, waaronder de vereisten, vinden in het Help-onderwerp Registratie-id's. 
 
-Deze informatie is van toepassing op alle Europese landen/regio's. De taak werd gemaakt met het demobedrijf DEMF met een primair adres van een rechtspersoon in Duitsland. Deze taak is bedoeld voor systeembeheerders. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+Deze informatie is van toepassing op alle Europese landen/regio's. De taak werd gemaakt met het demobedrijf DEMF met een primair adres van een rechtspersoon in Duitsland. Deze taak is bedoeld voor systeembeheerders. Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
 1. Ga naar Organisatiebeheer > Globaal adresboek > Registratietypen > Registratietypen.
 2. Klik op Nieuw om het verwijderdialoogvenster te openen.
@@ -60,5 +60,4 @@ Deze informatie is van toepassing op alle Europese landen/regio's. De taak werd 
 21. Selecteer Btw-id in het veld Registratiecategorie.
     * Wijs het registratietype dat u hebt gemaakt toe aan een vooraf gedefinieerde registratiecategorie.  
 22. Klik op Opslaan.
-
 

@@ -5,9 +5,9 @@ author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333387"
 ---
-
 # <a name="import-currency-exchange-rates"></a>Valutawisselkoersen importeren
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ U kunt wisselkoersen importeren vanuit de bron van wisselkoersproviders en ze in
 | **Benodigde valutaparen maken**    | Met dit selectievakje wordt het automatisch maken van valutaparen beheerd, als de valutaparen die worden geïmporteerd, niet aanwezig zijn. Deze optie is mogelijk niet beschikbaar voor sommige providers.                                                                                                                                                                                               |
 | **Bestaande wisselkoersen overschrijven**   | Met dit selectievakje wordt het bijwerken van de bestaande wisselkoers voor een valutapaar beheerd als de wisselkoers voor een bepaalde datum al bestaat. Als u dit selectievakje niet inschakelt, wordt de wisselkoers voor de specifieke datums niet geïmporteerd als er al een andere wisselkoers bestaat.                                                                                       |
 | **Importeren op nationale feestdag voorkomen** | Met dit selectievakje wordt de import van de wisselkoers beheerd voor een datum die een feestdag betreft. Bijvoorbeeld: als u dit selectievakje inschakelt en de Europese Centrale Bank als de wisselkoersprovider gebruikt, wordt de wisselkoers op een feestdag die is gerelateerd aan de huidige rechtspersoon niet bijgewerkt. Deze optie is mogelijk niet beschikbaar voor sommige providers. |
-
 
 
 

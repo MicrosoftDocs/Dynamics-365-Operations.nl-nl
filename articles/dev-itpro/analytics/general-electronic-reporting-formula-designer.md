@@ -5,9 +5,9 @@ author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331271"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formuleontwerper in elektronische rapportage (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rappo
 
 ER ondersteunt de Formuleontwerper. Daarom kunt u tijdens het ontwerpen expressies configureren die kunnen worden gebruikt voor de volgende taken in runtime:
 
-- Gegevens transformeren uit een Microsoft Dynamics 365 for Finance and Operations-database, die moeten worden ingevoerd in een ER-gegevensmodel dat is bedoeld als gegevensbron voor ER-indelingen. (Deze transformaties kunnen bijvoorbeeld filteren, groeperen en conversie van gegevenstype omvatten.)
+- Het transformeren van gegevens die zijn ontvangen van een Microsoft Dynamics 365 for Finance and Operations-database en die moeten worden ingevoerd in een ER-gegevensmodel dat is ontworpen als een gegevensbron voor Emergency Recovery-indelingen. (Deze transformaties kunnen bijvoorbeeld filteren, groeperen en conversie van gegevenstype omvatten.)
 - Gegevens opmaken die moet worden verzonden naar een genererend elektronisch document conform de indeling en de voorwaarden van een specifieke ER-indeling. (Bijvoorbeeld de opmaak kan worden uitgevoerd in overeenstemming met de aangevraagde taal of cultuur, of de codering.)
 - Het proces van het maken van elektronische documenten beheren. (Bijvoorbeeld de expressies kunnen de uitvoer van specifieke elementen van de indeling inschakelen of uitschakelen, afhankelijk van de verwerking van gegevens. Ze kunnen ook het proces voor het maken van documenten onderbreken of berichten aan gebruikers tonen.)
 
@@ -625,8 +624,8 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </ul></li>
 <li>Finance and Operations-label SYS18389, met de volgende tekst:
 <ul>
-<li><strong>Voor de taal EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Voor de taal NL:</strong> &quot;Klant %1 is gestopt voor %2.&quot;</li>
+<li><strong>Voor de taal EN-US:</strong> &quot;Customer %1 is stopped for %2&quot;</li>
+<li><strong>Voor de taal DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Hier is de formule die kan worden ontworpen:</p>
@@ -692,7 +691,7 @@ Wanneer deze gegevensbronnen zijn gedefinieerd, kunt u een expressie zoals <stro
 <tr>
 <td>JSONVALUE (id, pad)</td>
 <td>Parseren van gegevens in de indeling JavaScript Object Notation (JSON), die wordt bereikt met het opgegeven pad, om een scalaire waarde te extraheren die is gebaseerd op de opgegeven id.</td>
-<td>De gegevensbron <strong>$JsonField</strong> bevat de volgende gegevens in JSON-indeling: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Voor deze gegevensbron retourneert </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> de waarde <strong>7.3.1234.1</strong> van het gegevenstype <strong>String</strong>.</td>
+<td>De gegevensbron <strong>$JsonField</strong> bevat de volgende gegevens in JSON-indeling: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;,&quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Voor deze gegevensbron retourneert </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> de waarde <strong>7.3.1234.1</strong> van het gegevenstype <strong>String</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -731,7 +730,7 @@ Wanneer deze gegevensbronnen zijn gedefinieerd, kunt u een expressie zoals <stro
 | FA\_BALANCE (code vast activum, waardemodelcode, aangiftejaar, aangiftedatum) | Retourneert de voorbereide gegevenscontainer van het vaste-activasaldo. Het rapportjaar moet zijn opgegeven als een waarde van de opsomming **AssetYear** in Finance and Operations. | **FA\_SUM ("COMP-000001", “Current”, AxEnumAssetYear.ThisYear, SESSIONTODAY ())** retourneert de voorbereide gegevenscontainer met saldi voor het vaste activum **"COMP-000001"** met het waardemodel **"Current"** op de datum van de huidige Finance and Operations-sessie. |
 | TABLENAME2ID (tekenreeks) | Retourneert een integer-representatie van een tabel-id voor de opgegeven tabelnaam. | **TABLENAME2ID ("Intrastat")** retourneert **1510**. |
 | ISVALIDCHARACTERISO7064 (tekenreeks) | Retourneert de Booleaanse waarde **TRUE** wanneer de opgegeven tekenreeks staat voor een geldig internationaal bankrekeningnummer (IBAN). Anders de Booleaanse waarde **FALSE** retourneren. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** retourneert **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** retourneert **FALSE**. |
-| NUMSEQVALUE (getalreekscode, bereik, bereik-id) | De nieuw gegenereerde waarde van een getalreeks retourneren, op basis van de opgegeven getalreekscode, het bereik en de bereik-id. Het bereik moet worden opgegeven als een waarde van de opsomming **ERExpressionNumberSequenceScopeType** (**Gedeeld**, **Rechtspersoon** of **Bedrijf**). Geef voor het bereik **Gedeeld** een lege tekenreeks als de bereik-id op. Geef voor de bereiken **Bedrijf** en **Rechtspersoon** de bedrijfscode op als de bereik-id. Als u voor de bereiken **Bedrijf** en **Rechtspersoon** een lege tekenreeks opgeeft als de bereik-id, wordt de huidige bedrijfscode gebruikt. | U definieert de volgende gegevensbronnen in uw modeltoewijzing:<ul><li>**enumScope** (type **Dynamics 365 for Operations-opsomming**), die verwijst naar de opsomming **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (type **Berekend veld**) die de expressie **NUMSEQVALUE ("Gene\_1" , enumScope.Company, "")** bevat</li></ul>Wanneer de gegevensbron **NumSeq** wordt aangeroepen, retourneert deze de nieuw gegenereerde waarde van de getalreeks **Gene\_1**, die is geconfigureerd voor het bedrijf dat de context levert waarin de ER-indeling wordt uitgevoerd. |
+| NUMSEQVALUE (getalreekscode, bereik, bereik-id) | De nieuw gegenereerde waarde van een getalreeks retourneren, op basis van de opgegeven getalreekscode, het bereik en de bereik-id. Het bereik moet worden opgegeven als een waarde van de opsomming **ERExpressionNumberSequenceScopeType** (**Gedeeld**, **Rechtspersoon** of **Bedrijf**). Geef voor het bereik **Gedeeld** een lege tekenreeks als de bereik-id op. Geef voor de bereiken **Bedrijf** en **Rechtspersoon** de bedrijfscode op als de bereik-id. Als u voor de bereiken **Bedrijf** en **Rechtspersoon** een lege tekenreeks opgeeft als de bereik-id, wordt de huidige bedrijfscode gebruikt. | U definieert de volgende gegevensbronnen in uw modeltoewijzing:<ul><li>**enumScope** (type **Dynamics 365 for Operations -opsomming**), die verwijst naar de opsomming **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (type **Berekend veld**) die de expressie **NUMSEQVALUE ("Gene\_1" , enumScope.Company, "")** bevat</li></ul>Wanneer de gegevensbron **NumSeq** wordt aangeroepen, retourneert deze de nieuw gegenereerde waarde van de getalreeks **Gene\_1**, die is geconfigureerd voor het bedrijf dat de context levert waarin de ER-indeling wordt uitgevoerd. |
 | NUMSEQVALUE (getalreekscode) | De nieuw gegenereerde waarde van een getalreeks retourneren op basis van de opgegeven getalreeks, het bereik **Bedrijf** en (als de bereik-id) de code van het bedrijf dat de context levert waarin de ER-indeling wordt uitgevoerd. | U definieert de volgende gegevensbron in uw modeltoewijzing: **NumSeq** (type **Berekend veld**). Deze gegevensbron bevat de expressie **NUMSEQVALUE ("Gene\_1")**. Wanneer de gegevensbron **NumSeq** wordt aangeroepen, retourneert deze de nieuw gegenereerde waarde van de getalreeks **Gene\_1**, die is geconfigureerd voor het bedrijf dat de context levert waarin de ER-indeling wordt uitgevoerd. |
 | NUMSEQVALUE (getalreeksrecord-id) | De nieuw gegenereerde waarde van een getalreeks retourneren, op basis van de opgegeven getalreeksrecord-id. | U definieert de volgende gegevensbronnen in uw modeltoewijzing:<ul><li>**LedgerParms** (type **Tabel** type), dat verwijst naar de tabel LedgerParameters</li><li>**NumSeq** (type **Berekend veld** type), dat de expressie **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)** bevat</li></ul>Wanneer de gegevensbron **NumSeq** wordt aangeroepen, retourneert deze de nieuw gegenereerde waarde van de getalreeks die is geconfigureerd in de grootboekparameters voor het bedrijf dat de context levert waarin de ER-indeling wordt uitgevoerd. Deze getalreeks vormt een unieke identificatie van journalen en fungeert als batchnummer dat de transacties aan elkaar koppelt. |
 
@@ -743,4 +742,3 @@ MET ER kunt u de lijst met functies uitbreiden die in ER-expressies worden gebru
 
 - [Overzicht van elektronische rapportage](general-electronic-reporting.md)
 - [De lijst met functies voor elektronische rapportage (ER) uitbreiden](general-electronic-reporting-formulas-list-extension.md)
-

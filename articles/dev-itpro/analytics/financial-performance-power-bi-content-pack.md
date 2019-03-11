@@ -1,13 +1,13 @@
 ---
-title: "Financiële prestatieoplossing PowerBI.com"
-description: "In dit onderwerp wordt de financiële prestatieoplossing PowerBI.com besproken."
+title: Financiële prestatieoplossing PowerBI.com
+description: In dit onderwerp wordt de financiële prestatieoplossing PowerBI.com besproken.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,20 +17,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315102"
 ---
-
 # <a name="financial-performance-powerbicom-solution"></a>Financiële prestatieoplossing PowerBI.com
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Deze oplossing PowerBI.com is verouderd, zoals gedocumenteerd in [Power BI-inhoudspakketten beschikbaar op AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Deze PowerBI.com-oplossing is verouderd, zoals gedocumenteerd in [Power BI-inhoudspakketten beschikbaar op AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 In dit onderwerp wordt de **financiële prestatie**-oplossing PowerBI.com besproken. In dit onderwerp wordt een beschrijving gegeven van het dashboard en de rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de oplossing is samengesteld.
 
@@ -71,7 +70,7 @@ Elke tegel wordt ondersteund door een ondersteunend rapport. Deze rapporten beva
 | Onkostenanalyse            | Totale onkosten; werkelijke tegen gebudgetteerde totale onkosten op rechtspersoon; werkelijke en gebudgetteerde totale onkosten op kwartaal; totale onkosten op rekeningcategorie; verhouding exploitatiekosten |
 | Analyse gefactureerde omzet     | Totaal klanten; totaal klanten per rechtspersoon; totaal klanten per kwartaal en saldi voor klantrekeningen<blockquote>[!NOTE] De informatie bevat geen beginsaldi voor de grootboekrekeningen van klanten. Wel wordt het totaal van nieuwe transacties weergegeven die zijn geboekt naar Klanten.</blockquote> |
 
-De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over het filteren en vastmaken in Power BI het onderwerp [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 De volgende entiteiten zijn gebruikt als basis voor de **financiële prestatie**-oplossing PowerBI.com:
@@ -89,5 +88,4 @@ De volgende entiteiten zijn gebruikt als basis voor de **financiële prestatie**
 - Ledgers
 - ChartofAccounts
 
-Deze entiteiten zijn gebruikt om berekende eenheden in het gegevensmodel te maken. De berekende eenheden worden vervolgens gebruikt om de Key Performance Indicators (KPI's) en rapporten te berekenen, die in de inhoud worden gebruikt. Standaard levert de inhoud gegevens voor drie voorafgaande jaren en één jaar in de toekomst. Om extra berekeningen op te nemen in uw rapporten en dashboard, kunt u de [Microsoft Excel-werkmap](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi) wijzigen. Deze werkmap is het standaardgegevensmodel, dat is gebruikt om de inhoud te maken.
-
+Deze entiteiten zijn gebruikt om berekende eenheden in het gegevensmodel te maken. De berekende eenheden worden vervolgens gebruikt om de Key Performance Indicators (KPI's) en rapporten te berekenen, die in de inhoud worden gebruikt. Standaard levert de inhoud gegevens voor drie voorafgaande jaren en één jaar in de toekomst. Om extra berekeningen op te nemen in uw rapporten en dashboard, kunt u de [Microsoft Excel-werkmap wijzigen](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Deze werkmap is het standaardgegevensmodel, dat is gebruikt om de inhoud te maken.

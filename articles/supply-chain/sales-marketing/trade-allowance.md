@@ -1,13 +1,13 @@
 ---
 title: Beheer van handelstoeslag
-description: In dit onderwerp wordt het handelstoeslagbeheer voor Microsoft Dynamics 365 for Finance and Operations beschreven.
+description: In dit onderwerp wordt handelstoelagebeheer beschreven voor Microsoft Dynamics 365 for Finance and Operations.
 author: t-benebo
 manager: AnnBe
 ms.date: 08/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: c3794535cf9230389d7da3f9dbde010e5c48cf2f
 ms.openlocfilehash: 907d59f850d8d761e2dd4e04bd288a696f00964d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318805"
 ---
-
 # <a name="trade-allowance-management"></a>Beheer van handelstoeslag
 
 [!include [banner](../includes/banner.md)]
@@ -199,5 +198,4 @@ Het tabblad **Terugbetalingkredieten** bevat de details van afzonderlijke terugb
 Als u een meer analytisch overzicht van de verschillende prestatiemetingen voor de promotie wilt, kunt u de analyseweergave gebruiken. Als u naar de analyseweergave wilt gaan, klikt u op **Verkoop en marketing** \> **Handelstoeslagen** \> **Handelstoeslagovereenkomsten**. Klik in het actievenster op **Analyse**.  
 
 Als u een meer analytisch overzicht van de verschillende prestatiemetingen voor de promotie wilt, kunt u de analyseweergave gebruiken. Als u naar de analyseweergave wilt gaan, klikt u op **Verkoop en marketing** \> **Handelstoeslagen** \> **Handelstoeslagovereenkomsten**. Klik in het actievenster op **Analyse**. 
-
 

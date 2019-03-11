@@ -5,9 +5,9 @@ author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a0722f057c1613fdc03281ca68a90608a701aef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328350"
 ---
-
 # <a name="find-information-by-using-lookups"></a>Informatie vinden met zoekopdrachten
 
 [!include [banner](../includes/banner.md)]
@@ -85,4 +84,3 @@ In plaats daarvan moet de gebruiker de waarde in het lookup-besturingselement wi
 Nadat het filter is toegepast (zie de onderstaande afbeelding), kan de gebruiker de rij zoals gebruikelijk zoeken en selecteren.
 
 ![gefilterdartikellookup](./media/filtereditemlookup.png)
-

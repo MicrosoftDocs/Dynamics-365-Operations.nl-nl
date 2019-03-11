@@ -1,35 +1,34 @@
 ---
 title: Gegevens importeren vanuit Excel-sjablonen voor gegevensentiteiten die meerdere werkbladen bevatten
-description: In dit onderwerp wordt beschreven hoe u gegevens met Excel-sjablonen voor gegevensentiteiten importeert in Microsoft Dynamics 365 for Finance and Operations.
+description: In dit onderwerp wordt beschreven hoe u gegevens importeert met Excel-gegevensentiteitsjablonen in Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351258"
 ---
-
 # <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Gegevens importeren vanuit Excel-sjablonen voor gegevensentiteiten die meerdere werkbladen bevatten
 
 [!include [banner](../includes/banner.md)]
 
-Gegevensbeheer in Microsoft Dynamics 365 for Finance and Operations ondersteunt Microsoft Excel-sjablonen voor gegevensentiteiten. Deze sjablonen kunnen een of meer werkbladen bevatten. Sjablonen met meerdere werkbladen worden vaak gebruikt wanneer het handig is om gegevens in één bestand te beheren en in verschillende gegevensentiteiten te importeren. Een voorbeeld hiervan zijn locaties en magazijnen.
+Gegevensbeheer in Microsoft Dynamics 365 for Finance and Operations ondersteunt Microsoft Excel-gebaseerde sjablonen voor gegevensentiteiten. Deze sjablonen kunnen een of meer werkbladen bevatten. Sjablonen met meerdere werkbladen worden vaak gebruikt wanneer het handig is om gegevens in één bestand te beheren en in verschillende gegevensentiteiten te importeren. Een voorbeeld hiervan zijn locaties en magazijnen.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Een bestand eenmaal uploaden en toewijzen aan alle entiteiten
 We bekijken hier het voorbeeld van een Excel-bestand met de werkbladen **Locaties** en **Magazijnen**. Om het gegevensimportproject in te stellen, moet u de eerste gegevensentiteit **Locaties** toevoegen en het bestand vervolgens uploaden. U kunt **Locaties** als het werkblad voor deze entiteit selecteren.
@@ -51,4 +50,3 @@ In gevallen waarin een nieuwe versie van hetzelfde bestand of een volledig nieuw
 ## <a name="upload-a-file-using-run-project"></a>Een bestand uploaden met Project uitvoeren
 
 U kunt een Excel-bestand uploaden met de optie **Project uitvoeren** om een importproject uit te voeren. Upload alleen bestanden met dezelfde werkbladen als de bestaande toewijzingen voor de gegevensentiteiten in het gegevensproject. Als een werkblad in het onlangs geüpload bestand niet wordt gevonden, wordt er een fout weergegeven en wordt er gestopt met importeren. Als de toewijzing aan het werkblad moet worden gewijzigd voor een entiteit, moeten de toewijzingen in het gegevensproject vanuit het gegevensproject worden bijgewerkt voordat u het bestand in de ervaring **Project uitvoeren** gebruikt.
-

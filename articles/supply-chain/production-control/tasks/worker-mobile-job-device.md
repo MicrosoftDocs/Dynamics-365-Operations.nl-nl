@@ -1,13 +1,13 @@
---- 
+---
 title: Een medewerker configureren met het mobiele taakapparaat
 description: Deze procedure toont hoe u de juiste rollen toewijst aan de gebruikersaccount van een medewerker, en de medewerker vervolgens de mogelijk biedt om werkvloerregistraties te doen.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1bb4d806810660e55ef13a9ff21c07e0ce194496
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: f9de2f79c68fead5ede714ff05bba97118874aad
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327384"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>Een medewerker configureren met het mobiele taakapparaat
 
@@ -69,5 +69,4 @@ Deze procedure toont hoe u de juiste rollen toewijst aan de gebruikersaccount va
 5. Klik op Bewerken.
 6. In het veld Productie-eenheid kunt u het standaardfilter voor de medewerker instellen. Dit zorgt ervoor dat alleen productietaken voor de geselecteerde productie-eenheid worden weergegeven wanneer de medewerker zich bij het apparaat aanmeldt.
 7. Sluit de pagina.
-
 

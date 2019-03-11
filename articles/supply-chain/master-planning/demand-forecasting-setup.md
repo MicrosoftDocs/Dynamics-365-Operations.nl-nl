@@ -5,9 +5,9 @@ author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330443"
 ---
-
 # <a name="demand-forecasting-setup"></a>Instelling van vraagprognose
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ Een artikel en de dimensies ervan moeten onderdeel zijn van slechts één artike
 Als u een voorraadeenheid (SKU) aan een artikeltoewijzingssleutel wilt toevoegen, gaat u naar **Hoofdplanning** &gt; **Instellen** &gt; **Vraagprognose** &gt; **Artikeltoewijzingssleutels**. Gebruik de pagina **Artikelen toewijzen** om een artikel aan een toewijzingssleutel toe te wijzen.
 
 ## <a name="intercompany-planning-groups"></a>Intercompany-planningsgroepen
-Vraagprognoses genereren cross-company prognoses. In Microsoft Dynamics 365 for Finance and Operations worden bedrijven die samen worden gepland, gegroepeerd in één intercompany-planningsgroep. Om per bedrijf op te geven welke artikeltoewijzingssleutels moeten worden meegenomen voor de vraagprognoses , koppelt u een artikeltoewijzingssleutel met het lid van de intercompany-planningsgroep door naar **Hoofdplanning** &gt; **Instellen** &gt; **Intercompany-planningsgroepen** te gaan. 
+Vraagprognoses genereren cross-company prognoses. In Microsoft Dynamics 365 for Finance and Operations worden bedrijven die samen worden gepland, gegroepeerd in één intercompany-planninggroep. Om per bedrijf op te geven welke artikeltoewijzingssleutels moeten worden meegenomen voor de vraagprognoses , koppelt u een artikeltoewijzingssleutel met het lid van de intercompany-planningsgroep door naar **Hoofdplanning** &gt; **Instellen** &gt; **Intercompany-planningsgroepen** te gaan. 
 
 Als geen artikeltoewijzingssleutels aan leden van intercompany-planningsgroepen worden toegewezen, wordt standaard een vraagprognose berekend voor alle artikelen die worden toegewezen aan alle artikeltoewijzingssleutels vanuit alle Finance and Operations-bedrijven. Extra filteropties voor bedrijven en artikeltoewijzingssleutels zijn beschikbaar op de pagina **Statistische basislijnprognose maken**. 
 
@@ -86,7 +85,6 @@ Als u de parameters die kunnen worden geconfigureerd voor de Finance and Operati
 [Statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
 
 [Handmatige correcties aanbrengen in de basislijnprognose](manual-adjustments-baseline-forecast.md)
-
 
 
 

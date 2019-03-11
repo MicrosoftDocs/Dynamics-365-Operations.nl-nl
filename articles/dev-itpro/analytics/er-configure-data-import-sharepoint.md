@@ -1,13 +1,13 @@
 ---
-title: Gegevens importeren uit SharePoint configureren
+title: Gegevensimport uit SharePoint configureren
 description: In dit onderwerp wordt uitgelegd hoe u gegevens importeert uit Microsoft SharePoint.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
 ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331087"
 ---
-# <a name="configure-data-import-from-sharepoint"></a>Gegevens importeren uit SharePoint configureren
+# <a name="configure-data-import-from-sharepoint"></a>Gegevensimport uit SharePoint configureren
 
 [!include[banner](../includes/banner.md)]
 
-Om gegevens te importeren uit een binnenkomend bestand met behulp van het raamwerk voor elektronische aangifte (ER), moet u een ER-indeling configureren die de import ondersteunt en vervolgens een modeltoewijzing van het type **Tot bestemming** uitvoeren die deze indeling als gegevensbron gebruikt. Om gegevens te importeren moet u navigeren naar het bestand dat u wilt importeren. Het inkomende bestand kan handmatig worden geselecteerd door de gebruiker. Met de nieuwe ER-mogelijkheid ter ondersteuning van het importeren van gegevens uit Microsoft SharePoint, kan dit proces worden geconfigureerd als zonder toezicht. U kunt ER-configuraties gebruiken om gegevens te importeren uit bestanden die zijn opgeslagen in Microsoft SharePoint-mappen. In dit onderwerp wordt uitgelegd hoe u het importeren van SharePoint naar Microsoft Dynamics 365 for Finance and Operations voltooit. De voorbeelden gebruiken leverancierstransacties als zakelijke gegevens.
+Om gegevens te importeren uit een binnenkomend bestand met behulp van het raamwerk voor elektronische aangifte (ER), moet u een ER-indeling configureren die de import ondersteunt en vervolgens een modeltoewijzing van het type **Tot bestemming** uitvoeren die deze indeling als gegevensbron gebruikt. Om gegevens te importeren moet u navigeren naar het bestand dat u wilt importeren. Het inkomende bestand kan handmatig worden geselecteerd door de gebruiker. Met de nieuwe ER-mogelijkheid ter ondersteuning van het importeren van gegevens uit Microsoft SharePoint, kan dit proces worden geconfigureerd als zonder toezicht. U kunt ER-configuraties gebruiken om gegevens te importeren uit bestanden die zijn opgeslagen in Microsoft SharePoint-mappen. In dit onderwerp wordt uitgelegd hoe u de import van SharePoint naar Microsoft Dynamics 365 for Finance and Operations kunt voltooien. De voorbeelden gebruiken leverancierstransacties als zakelijke gegevens.
 
 ## <a name="prerequisites"></a>Vereisten
 Om de voorbeelden in dit onderwerp te kunnen voltooien, moet u toegang tot het volgende hebben:
@@ -43,7 +43,7 @@ Om de voorbeelden in dit onderwerp te kunnen voltooien, moet u toegang tot het v
 - ER-indeling en modelconfiguraties voor 1099-betalingen.
 
 ### <a name="create-required-er-configurations"></a>Vereiste ER-configuraties maken
-Speel de taakbegeleidingen **ER-gegevens importeren uit een Microsoft Excel-bestand** af, die deel uitmaken van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)**. Deze taakbegeleidingen begeleiden u bij het ontwerpen en gebruiken van ER-configuraties om interactief leverancierstransacties te importeren uit Microsoft Excel-bestanden. Zie voor meer informatie [Inkomende documenten in Microsoft Excel parseren](parse-incoming-documents-excel.md). Nadat u de taakbegeleidingen hebt voltooid, hebt u het volgende ingesteld.
+Speel de taakbegeleidingen **ER-gegevens importeren uit een Microsoft Excel-bestand** af, die deel uitmaken van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)**. Deze taakbegeleidingen begeleiden u bij het ontwerpen en gebruiken van ER-configuraties om interactief leverancierstransacties te importeren uit Microsoft Excel-bestanden. Zie voor meer informatie [Inkomende documenten parseren in Microsoft Excel](parse-incoming-documents-excel.md). Nadat u de taakbegeleidingen hebt voltooid, hebt u het volgende ingesteld.
 
 #### <a name="er-configurations"></a>ER-configuraties
 
@@ -56,13 +56,13 @@ Speel de taakbegeleidingen **ER-gegevens importeren uit een Microsoft Excel-best
 
 - Excel-bestand **1099import-data.xlsx**, met leverancierstransacties die moeten worden geïmporteerd in Finance and Operations.
 
-![Voorbeeld van Microsoft Excel-bestand voor het importeren van SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
+![Voorbeeld Microsoft Excel-bestand voor het importeren uit SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > De indeling voor het importeren van leverancierstransacties is geselecteerd als de standaardmodeltoewijzing. Dus als u een modeltoewijzing uitvoert van het **1099 Payments model** en die modeltoewijzing van het type **Tot bestemming** is, voert de modeltoewijzing deze indeling uit om gegevens uit externe bestanden te importeren. Vervolgens worden deze gegevens gebruikt om toepassingstabellen bij te werken.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>Toegang tot SharePoint voor opslag van bestanden configureren
-Als u elektronische rapportbestanden op een SharePoint-locatie wilt opslaan, moet u de toegang tot het SharePoint Server-exemplaar configureren dat wordt gebruikt door het huidige bedrijf. In dit voorbeeld is het bedrijf USMF. Zie [SharePoint-oplag configureren](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage) voor instructies.
+Als u elektronische rapportbestanden op een SharePoint-locatie wilt opslaan, moet u de toegang tot het SharePoint Server-exemplaar configureren dat wordt gebruikt door het huidige bedrijf. In dit voorbeeld is het bedrijf USMF. Zie voor instructies [SharePoint-oplag configureren](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
 1. Voer de stappen in [SharePoint-opslag configureren](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage) uit.
 2. Open de geconfigureerde SharePoint-site.
@@ -117,7 +117,7 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>Gegevens importeren uit Excel-bestanden die zich in een SharePoint-map bevinden
 1. Upload in SharePoint het Microsoft Excel-bestand **1099import-data.xlsx** dat leverancierstransacties bevat, naar de SharePoint-map **Bron voor importeren van bestanden (hoofd)** die u eerder hebt gemaakt.
 
-    [![SharePoint-inhoud – Microsoft Excel-bestand voor importeren](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![SharePoint-inhoud: Microsoft Excel -bestand voor het importeren](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. Selecteer in Finance and Operations op de pagina **Bestandsstatus voor de bronnen** de optie **Vernieuwen** om de pagina te vernieuwen. Het Excel-bestand dat was geüpload naar SharePoint, werd op deze pagina weergegeven met de status **Gereed**. De volgende statussen worden momenteel ondersteund:
 
@@ -129,7 +129,7 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 
     [![ER-bestand vermeldt pagina voor de geselecteerde bronnen](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
-## <a name="import-data-from-sharepoint-files"></a>Gegevens importeren uit SharePoint-bestanden
+## <a name="import-data-from-sharepoint-files"></a>Gegevens importeren vanuit SharePoint-bestanden
 1. Open de ER-configuratiestructuur, selecteer het **1099 Payment model** en vouw de lijst met ER-modelcomponenten uit.
 2. Selecteer de naam van de modeltoewijzing om de lijst van modeltoewijzingen van de geselecteerde ER-modelconfiguratie te openen.
 
@@ -165,7 +165,7 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 ## <a name="prepare-an-excel-file-for-import"></a>Een Excel-bestand voor import voorbereiden
 1. Open het Excel-bestand dat u eerder hebt gebruikt. Voeg in rij 3, kolom 1 een leverancierscode toe die niet in de toepassing bestaat. Voeg extra onware leveranciersgegevens toe aan de rij.
 
-    [![Voorbeeld Microsoft Excel-bestand voor het importeren van SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![Voorbeeld Microsoft Excel-bestand voor het importeren uit SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Upload het bijgewerkte Excel-bestand met leverancierstransacties naar de SharePoint-map **Bron voor importeren van bestanden (hoofd)**.
 3. Open in Finance and Operations de ER-configuratiestructuur, selecteer het **1099 Payment model** en vouw de lijst met ER-modelcomponenten uit.
@@ -192,4 +192,3 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 11. Selecteer in Finance and Operations **Crediteuren** \> **Periodieke taken** \> **1099-belasting** \> **Vereffening van leverancier voor 1099-aangiften**, voer de juiste waarden in de velden **Datum vanaf** en **Datum tot** in en selecteer vervolgens **Handmatige 1099-transacties**.
 
     Alleen transacties voor boekstuk V-00001 zijn beschikbaar. Er zijn geen transacties voor boekstuk V-00002 beschikbaar, hoewel de fout voor de laatste geïmporteerde transactie in het Excel-bestand is gevonden.
-

@@ -1,13 +1,13 @@
 ---
 title: Gepostdateerde cheques
-description: "Dit artikel biedt informatie over ondersteuning voor gepostdateerde cheques in Microsoft Dynamics 365 for Finance and Operations. Gepostdateerde cheques zijn cheques die worden uitgegeven om betalingen op een datum in de toekomst uit te voeren en te ontvangen. Daarom kan de cheque pas op de opgegeven datum worden geïnd."
+description: Dit artikel biedt informatie over ondersteuning voor gepostdateerde cheques in Microsoft Dynamics 365 for Finance and Operations. Gepostdateerde cheques zijn cheques die worden uitgegeven om betalingen op een datum in de toekomst uit te voeren en te ontvangen. Daarom kan de cheque pas op de opgegeven datum worden geïnd.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362919"
 ---
-
 # <a name="postdated-checks"></a>Gepostdateerde cheques
 
 [!include [banner](../includes/banner.md)]
@@ -97,7 +96,6 @@ Zie de volgende onderwerpen voor meer informatie:
 [Een gepostdateerde cheque voor een leverancier registreren en boeken](tasks/register-post-postdated-check-vendor.md) 
 
 [Een gepostdateerde cheque voor een leverancier vereffenen](tasks/settle-postdated-check-vendor.md)
-
 
 
 

@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326579"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>Uitbesteed werk in productie beheren
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,6 @@ Halffabrikaten vormen een uitzondering op deze regel. Als u halffabricaten wilt 
 **Opmerking:** een productieroute voor een afzonderlijke productieorder kan niet meerdere locaties omvatten. Deze regel geldt ook voor het uitbestede werk. Daarom moeten de magazijnen die de door de leverancier beheerde materiaallocaties vertegenwoordigen op dezelfde locatie worden gedefinieerd als de interne resources die in de route worden gebruikt. Hoewel productiestromen meerdere locaties kunnen omvatten, kunnen ze geen halffabricaten van de ene locatie naar de ander locatie vervoeren, omdat die bewerking een wijziging van de kostprijscontext inhoudt.  
 
 Het uitvoermagazijn en de uitvoerlocatie van een uitbestede resourcegroep worden doorgaans rechtstreeks toegewezen aan het magazijn en de locatie van de volgende stap van de bewerking in de route of productiestroom. Deze instelling zorgt ervoor dat de hoeveelheid taakrapportage minder wordt of het aantal overdrachtsbewerkingen die moeten worden gemodelleerd.
-
 
 
 

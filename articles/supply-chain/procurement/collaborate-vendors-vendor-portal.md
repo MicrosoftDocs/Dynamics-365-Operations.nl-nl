@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339873"
 ---
-
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samenwerken met leveranciers met behulp van de leveranciersportal
 
 [!include [banner](../includes/banner.md)]
@@ -75,7 +74,7 @@ Orders die voor een antwoord naar de leverancier zijn verzonden en de status **E
 
 Leveranciers hoeven de inkooporder niet in de leveranciersportal te bevestigen. Ze kunnen ook een e-mailbericht verzenden of hun acceptatie van een inkooporder via andere kanalen laten weten. U kunt de order vervolgens handmatig in Dynamics AX bevestigen. In dit geval ontvangt u een waarschuwing dat de order wordt bevestigd zelfs als er geen antwoord van de leverancier is. De inkooporder wordt vervolgens in de bevestigingshistorie in de leveranciersportal weergegeven als een openstaande bevestigde order die geen antwoorden heeft. Daarnaast heeft de leverancier niet meer de mogelijkheid om de inkooporder te bevestigen of af te wijzen.  
 
-**Opmerking:** de versie van de inkooporder die beschikbaar is voor andere processen in Dynamics AX, is altijd de laatste versie zelfs als deze versie nog niet is geregistreerd.
+**Opmerking**: de versie van de inkooporder die beschikbaar is voor andere processen in Dynamics AX, is altijd de laatste versie zelfs als deze versie nog niet is geregistreerd.
 
 ### <a name="change-management"></a>Wijzigingsbeheer
 
@@ -102,7 +101,6 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 [Configuratie van de beveiliging voor gebruikers van de leveranciersportal](configure-security-vendor-portal-users.md)
 
 [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
-
 
 
 

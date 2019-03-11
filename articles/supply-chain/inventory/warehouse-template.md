@@ -5,28 +5,27 @@ author: perlynne
 manager: AnnBe
 ms.date: 11/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338056"
 ---
-
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Een magazijn instellen op basis van een magazijnconfiguratiesjabloon
 
 [!include [banner](../includes/banner.md)]
@@ -94,9 +93,8 @@ U kunt een zipbestand voor het gegevenspakket downloaden. Dit bestand bevat alle
 
 Met **Uitvoeringslogboek weergeven** kunt u gedetailleerde informatie weergeven over elk gegevensitem dat wordt geïmporteerd. U kunt de weergave Faseringsgegevens gebruiken om snel naar de doelgegevens te gaan. Op deze manier ziet u hoe de geïmporteerde gegevens eruitzien op de gerelateerde pagina's in de toepassing. Wanneer u de standaardgegevenssjablonen gebruikt, werkt de importvolgorde voor elke gegevensentiteit op de vooraf gedefinieerde manier om ervoor te zorgen dat alle afhankelijke gegevens eerst worden geïmporteerd. Als aangepaste gegevensentiteiten deel uitmaken van het project, moet u ervoor zorgen dat de juiste volgorde is gedefinieerd. Zie [Gegevenssjablonen voor configuratie](../../dev-itpro/data-entities/configuration-data-templates.md) voor meer informatie.
 
-Als u meer wilt weten over het gebruik van een magazijnsjabloon om de configuratie van een magazijn van het ene bedrijf naar een nieuw bedrijf binnen hetzelfde exemplaar te kopiëren, bekijkt u deze video van 3 minuten op YouTube: [Magazijnsjabloon gebruiken om configuratie te kopiëren in Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Bekijk deze video van 3 minuten op YouTube: [Het magazijnsjabloon gebruiken om configuratie te kopiëren in Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs) voor meer informatie over het gebruik van magazijnsjablonen om de configuratie van een magazijn van het ene bedrijf naar een nieuw bedrijf in dezelfde instantie te kopiëren.
 
 ## <a name="related-topic"></a>Verwant onderwerp
 
 [Gegevenssjablonen voor configuratie](../../dev-itpro/data-entities/configuration-data-templates.md)
-

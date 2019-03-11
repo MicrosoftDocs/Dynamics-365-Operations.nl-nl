@@ -5,28 +5,27 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314780"
 ---
-
 # <a name="master-planning-home-page"></a>Startpagina Hoofdplanning
 
 [!include [banner](../includes/banner.md)]
@@ -66,13 +65,13 @@ Het volgende leertraject toont de belangrijkste concepten en taken die het raamw
 - [Overzicht vraagprognose](introduction-demand-forecasting.md)
 - [Reductiesleutels](reduction-keys.md)
                                   
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 ### <a name="roadmaps"></a>Routekaarten
 Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om te zien welke nieuwe functies zijn vrijgegeven en welke nieuwe functies in ontwikkeling zijn.
 
 ### <a name="blogs"></a>Weblogs
-U vindt meningen, nieuws en andere informatie over Hoofdplanning en andere oplossingen in de [blog van het R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) en [de blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+U vindt meningen, nieuws en andere informatie over Hoofdplanning en andere oplossingen in het [blog van het R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) en het [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Taakbegeleidingen
 Extra help is beschikbaar als taakbegeleidingen binnen Finance and Operations. U kunt op elke pagina op de knop **Help** klikken als u een taakbegeleiding wilt openen.
@@ -84,7 +83,6 @@ Extra help is beschikbaar als taakbegeleidingen binnen Finance and Operations. U
 -  [De functie voor vraagprognose uitbreiden](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Hoofdplanning - tips en trucs voor het oplossen van prestatieproblemen](https://youtu.be/7v8BPmEs9Dg)
 -  [Help! MRP is traag!](https://youtu.be/RLXybx20B5o)
-
 
 
 

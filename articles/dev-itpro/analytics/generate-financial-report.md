@@ -1,13 +1,13 @@
 ---
-title: "Financiële rapporten genereren"
+title: Financiële rapporten genereren
 description: Dit onderwerp biedt informatie over het genereren van een financieel rapport.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340885"
 ---
-
 # <a name="generate-financial-reports"></a>Financiële rapporten genereren
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ Wanneer u een rapport genereert, worden de opties gebruikt die u op de tabbladen
 
 ## <a name="generate-a-financial-report"></a>Een financieel rapport maken
 
-Als u een financieel rapport wilt genereren met Microsoft Dynamics 365 for Finance and Operations, gaat u naar **Grootboek** \> **Query's en rapporten** \> **Financiële rapporten**.
+Voor het genereren van een financieel rapport met Microsoft Dynamics 365 for Finance and Operations, gaat u naar **Grootboek** \> **Query's en rapporten** \> **Financiële rapporten**.
 
 - Selecteer het rapport dat u wilt genereren en klik op **Genereren**.
 - Vul het veld **Rapportdatum** in en klik op **OK**.
@@ -115,7 +114,7 @@ Er worden ontbrekende rekeningen bepaald door de laagste en hoogste waarden te g
 > [!TIP]
 > Dit proces moet voor validatiedoeleinden worden uitgevoerd voordat u maandelijkse rapporten genereert en wanneer u nieuwe bouwstenen maakt.
 
-Rapporten die waardebereiken hebben minder kans om ontbrekende rekeningen te hebben. Wanneer mogelijk, gebruik bereiken in de bouwsteen om nieuwe rekeningen te omvatten wanneer deze worden gemaakt. Als er een rapportdefinitie is ingesteld op @ANY bedrijf, dan kunt u zich bij een specifiek bedrijf aanmelden en een ontbrekende rekeninganalyse voor dat bedrijf uitvoeren.
+Rapporten die waardebereiken hebben minder kans om ontbrekende rekeningen te hebben. Wanneer mogelijk, gebruik bereiken in de bouwsteen om nieuwe rekeningen te omvatten wanneer deze worden gemaakt. Als een rapportdefinitie is ingesteld op de bedrijfswaarde @ANY, kunt u zich vervolgens aanmelden bij een specifiek bedrijf en een analyse uitvoeren naar ontbrekende rekeningen voor dat bedrijf.
 
 > [!NOTE]
 > Als een nieuw bedrijf is toegevoegd, moet u het nieuwe bedrijf aan de rapportagestructuren in eventuele bestaande rapporten toevoegen of het bedrijf zal niet opgenomen worden in de ontbrekende rekeninganalyse.
@@ -158,4 +157,3 @@ Wanneer u een ontbrekende rekeninganalyse uitvoert, zijn de volgende sneltoetsen
 [Financiële rapportage](financial-reporting-intro.md)
 
 [De Report Designer-interface](report-designer-interface.md)
-

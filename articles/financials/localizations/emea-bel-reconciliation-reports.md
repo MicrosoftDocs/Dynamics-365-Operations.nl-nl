@@ -1,13 +1,13 @@
 ---
-title: "Afstemmingsrapporten voor België"
+title: Afstemmingsrapporten voor België
 description: In dit onderwerp worden de standaardrapporten beschreven die Microsoft Dynamics 365 for Finance and Operations biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Belgium
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
+ms.openlocfilehash: b22edc7c3ace39f7dd818e3ff423edfd57618676
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b6268775c707a777a8391bcb41b061c1635b8942
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371380"
 ---
-
 # <a name="reconciliation-reports-for-belgium"></a>Afstemmingsrapporten voor België
 
 [!include [banner](../includes/banner.md)]
@@ -88,7 +87,6 @@ De parameters voor dit rapport bieden u veel flexibiliteit. U kunt een zeer nauw
 
 ## <a name="purchase-sales-tax-transactions"></a>Btw-inkooptransacties
 Het rapport **btw-transacties voor inkoop** bevat transacties met een inkoopheffing. De inkoopheffing wordt berekend en geboekt samen met btw-betalingen. Inkoopheffingen en btw worden beide aangegeven voor de vereffeningsperiode. De vereffeningsperiode wordt gedefinieerd per btw-dienst op de pagina **Btw-vereffeningsperioden**. De informatie in het koptekstdeel van het rapport bevat relevante gegevens zoals btw-nummer, ondernemingsnummer en periode. De informatie in de detailsectie omvat journaal, boekstuk, datum, leveranciersrekening, naam, bedrag inclusief btw en btw-aangiftecodes. Dit rapport is een extern rapport. De boekhouder of accountingmanager genereert en dient dit periodiek in bij de desbetreffende instanties. Als u het rapport **Btw-transacties voor inkoop** wilt afdrukken, klikt u op **Btw** &gt; **Query's en rapporten** &gt; **Btw-aangiften** &gt;  **Btw-transacties voor inkoop**.
-
 
 
 

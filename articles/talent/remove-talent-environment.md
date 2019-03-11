@@ -1,13 +1,13 @@
 ---
 title: Talent-omgevingen verwijderen
-description: In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Microsoft Dynamics 365 for Talent geleid.
+description: In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Dynamics 365 for Talent geleid.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303975"
 ---
 # <a name="remove-talent-environments"></a>Talent-omgevingen verwijderen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Microsoft Dynamics 365 for Talent geleid.
+In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Dynamics 365 for Talent geleid.
 
 ## <a name="removing-a-test-drive-environment"></a>Een testdrive-omgeving verwijderen
 
@@ -36,7 +36,7 @@ Talent-testdrives zijn zo ingesteld dat ze na 60 dagen verlopen. Eigenaren van t
 
 1. Navigeer naar het [PowerApps-beheercentrum](https://admin.businessplatform.microsoft.com/).
 2. Selecteer **Omgevingen**.
-3. Selecteer de testdrive-omgeving die een naampatroon heeft zoals: TestDrive - alias@domain
+3. Selecteer de testdrive-omgeving die een naampatroon heeft zoals: TestDrive - alias@domein
 4. Selecteer **Verwijderen** en bevestig de beslissing. 
 
 De bestaande testdrive-omgeving wordt verwijderd. Wanneer deze is verwijderd, kunt u zich aanmelden voor een nieuwe testdrive-omgeving. 
@@ -73,5 +73,4 @@ Als u een Talent-omgeving wilt verwijderen uit een bestaande PowerApps-omgeving,
 6. Selecteer in uw LCS-project de tegel **Beheer Talent-app**. 
 7. Selecteer het exemplaar dat u wilt verwijderen. Dit zou gemarkeerd moeten zijn met de implementatiestatus **Mislukt**.
 8. Selecteer **Exemplaar verwijderen** en bevestig uw keuze. 
-
 

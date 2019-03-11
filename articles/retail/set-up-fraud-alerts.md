@@ -1,13 +1,13 @@
 ---
 title: Fraudewaarschuwingen van callcenters instellen en gebruiken
-description: "Dit onderwerp wordt beschreven hoe u regels instelt om klantenservice medewerkers van potentieel frauduleuze informatie te waarschuwen wanneer bestellingen zijn verwerkt. U kunt speciale codes definiëren die automatisch of handmatig worden gebruikt om verdachte orders in de wachtstand te zetten."
+description: Dit onderwerp wordt beschreven hoe u regels instelt om klantenservice medewerkers van potentieel frauduleuze informatie te waarschuwen wanneer bestellingen zijn verwerkt. U kunt speciale codes definiëren die automatisch of handmatig worden gebruikt om verdachte orders in de wachtstand te zetten.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361493"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Fraudewaarschuwingen van callcenters instellen en gebruiken
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ De order wordt opgeslagen, maar de vlag **Niet verwerken** wordt ervoor ingestel
 Als u de orders wilt weergeven en beheren die in de wachtstand staan voor fraudecontrole, gaat u naar **Detailhandel** \> **Klanten** \> **Orderwachtstanden**. Selecteer op de pagina **Orderwachtstanden** een item in de lijst en klik vervolgens op **Orderwachtstand** om een gedetailleerdere weergave te zien met informatie over de reden voor de blokkering. Op het sneltabblad **Fraudedetails** ziet u de systematische fraudecriteria die als overeenkomst zijn gevonden voor de order en de scores die zijn toegepast. Als de order handmatig in de wachtstand is geplaatst, kunt u eventuele opmerkingen beoordelen die zijn ingevoerd door de gebruiker die de order in de wachtstand plaatste door te kijken naar het gedeelte **Fraudenotities** op het sneltabblad **Notities**.
 
 Zie voor meer informatie over hoe u werkt met orders in de wachtstand [Orderwachtstanden](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-

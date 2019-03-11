@@ -1,13 +1,13 @@
---- 
+---
 title: Een prestatiebeoordeling maken
 description: In deze procedure ziet u hoe u een prestatiebeoordeling maakt, met een beschrijving van het doel van elke sectie van de beoordeling.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338470"
 ---
 # <a name="create-a-performance-review"></a>Een prestatiebeoordeling maken
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In deze procedure ziet u hoe u een prestatiebeoordeling maakt, met een beschrijving van het doel van elke sectie van de beoordeling. Deze procedure is gemaakt met het demogegevensbedrijf USMF. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+In deze procedure ziet u hoe u een prestatiebeoordeling maakt, met een beschrijving van het doel van elke sectie van de beoordeling. Deze procedure is gemaakt met het demogegevensbedrijf USMF. Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
 1. Klik op Selfservice werknemer.
 2. Klik op Nieuwe controle (Nieuwe beoordelign) om een nieuwe beoordeling aan te maken.
@@ -79,5 +79,4 @@ In deze procedure ziet u hoe u een prestatiebeoordeling maakt, met een beschrijv
     * Bij elke status waarin de beoordeling zich bevindt, kunnen de werknemer en de manager opmerkingen toevoegen voor iedere doelstelling of competentie.  
 42. Klik op het tabblad Afmeldingen.
     * De medewerker en manager kunnen de beoordeling ter afmelding ondertekenen. Wanneer alle vereiste afmeldingen zijn uitgevoerd, wordt de status gewijzigd naar Voltooid en zijn geen wijzigingen meer mogelijk.  
-
 

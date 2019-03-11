@@ -1,13 +1,13 @@
 ---
-title: "Leveranciers kopiëren met behulp van gedeelde nummerreeksen"
-description: "In dit onderwerp wordt uitgelegd hoe u gedeelde nummerreeksen kunt gebruiken om een leverancier te kopiëren naar een andere rechtspersoon, maar met behoud van dezelfde leverancier-id."
+title: Leveranciers kopiëren met behulp van gedeelde nummerreeksen
+description: In dit onderwerp wordt uitgelegd hoe u gedeelde nummerreeksen kunt gebruiken om een leverancier te kopiëren naar een andere rechtspersoon, maar met behoud van dezelfde leverancier-id.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302139"
 ---
-
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Leveranciers kopiëren met behulp van gedeelde nummerreeksen
 
 [!include [banner](../includes/banner.md)]
@@ -66,4 +65,3 @@ U kunt leveranciers ook kopiëren met de functie Btw-nummer zoeken die u vindt i
 
 1. De optie **Leverancier kopiëren** wordt weergegeven. Standaard is deze optie ingesteld op **Nee**. Als u de leverancier naar de huidige rechtspersoon wilt kopiëren, zet u de optie op **Ja**.
 2. Selecteer **Selecteren**. De leverancier wordt gemaakt.
-

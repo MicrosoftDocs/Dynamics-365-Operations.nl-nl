@@ -1,13 +1,13 @@
 ---
 title: Uitgebreide aanmeldingsfunctionaliteit instellen voor MPOS en Cloud POS
-description: Dit onderwerp gaat over uw opties voor het instellen van de uitgebreide aanmelding voor Cloud POS en Retail moderne POS (MPOS).
+description: Dit onderwerp gaat over uw opties voor het instellen van de uitgebreide aanmelding voor Cloud POS en Retail Modern POS (MPOS).
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: c5771146723b791eb0b3eb5f571ef012cfaadcb9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317908"
 ---
-
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Uitgebreide aanmeldingsfunctionaliteit instellen voor MPOS en Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp gaat over uw opties voor het instellen van de uitgebreide aanmelding voor Cloud POS en Retail moderne POS (MPOS).
+Dit onderwerp gaat over uw opties voor het instellen van de uitgebreide aanmelding voor Cloud POS en Retail Modern POS (MPOS).
 
 ## <a name="setting-up-extended-logon"></a>Uitgebreide aanmelding instellen
 
@@ -68,4 +67,3 @@ De aanmeldservice kan worden uitgebreid om extra aanmeldenapparaten, zoals uitge
 ## <a name="using-extended-logon"></a>Uitgebreide aanmelding gebruiken
 
 Wanneer de uitgebreide aanmelding is geconfigureerd, en een werknemer een streepjescode of een magneetstrip is toegewezen, moet de werknemer enkel zijn of haar kaart doorhalen wanneer de POS-aanmeldpagina wordt weergegeven. Als een wachtwoord ook vereist is voordat aanmelding kan plaatsvinden, wordt de werknemer gevraagd zijn of haar wachtwoord in te voeren.
-

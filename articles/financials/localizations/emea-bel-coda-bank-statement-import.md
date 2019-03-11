@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, BankCodaAccountStatement, BankCodaAccountStatementLines, BankCodaParameters, BankCodaTrans, BankCodaTransCategory, BankCodaTransDefTable, BankCodaTransFamily
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Belgium
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7195e9e9a45137b959be2e08736ec2ba88df4ef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 07788dab44cd45c163097a4e9b357a76c9d5ea00
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371388"
 ---
-
 # <a name="coda-bank-statement"></a>CODA-bankafschrift
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,6 @@ Voer de volgende stappen uit om de bankafschrifttransacties te verwerken.
 4. Nadat alle transacties in het bankafschrift zijn vereffend, kunnen ze worden overgeboekt naar het grootboekjournaal (<strong>CODA</strong> &gt; <strong>Overboeken naar grootboek</strong>). Voor de bankrekening moeten journaalinstellingen worden opgegeven. Journalen kunnen worden geopend op de pagina <strong>Bankrekeningen** voor de geselecteerde record door te klikken op **Instellen</strong> &gt; <strong>CODA-journaal</strong>.
 
 Nadat bankafschrifttransacties zijn verwerkt, wordt een nieuw grootboekjournaal gemaakt en is deze gereed voor boeking.
-
 
 
 

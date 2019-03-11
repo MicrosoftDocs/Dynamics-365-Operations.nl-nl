@@ -1,13 +1,13 @@
 ---
 title: Instellingsproces van geavanceerde bankafstemming
-description: Met geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations.  In dit artikel worden de instellingsregels voor afstemming uitgelegd.
+description: Met Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations.  In dit artikel worden de instellingsregels voor afstemming uitgelegd.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357330"
 ---
-
 # <a name="advanced-bank-reconciliation-setup-process"></a>Instellingsproces van geavanceerde bankafstemming
 
 [!include [banner](../includes/banner.md)]
 
-Met geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations.  In dit artikel worden de instellingsregels voor afstemming uitgelegd.  
+Met Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations.  In dit artikel worden de instellingsregels voor afstemming uitgelegd.  
 
 Er moet een aantal onderdelen worden ingesteld voordat u de functie voor geavanceerde bankafstemming kunt gebruiken. Zie voor meer informatie over het instellen van de import van bankafschriften [Het importproces van bankafschriften instellen](set-up-advanced-bank-reconciliation-import-process.md).  Vereisten voor het instellen van het afstemmingsproces worden hieronder gedetailleerd beschreven.
 
@@ -59,7 +58,6 @@ Met de functionaliteit **Bankafschriften gebruiken als bevestiging van elektroni
 Het veld **Bankrekeningnaam op afschriften** is de naam die wordt gebruikt voor de bankrekening op uw elektronische bankafschriften.  Deze naam wordt gebruikt wanneer wordt bepaald welke transacties voor een bankrekening moeten worden geïmporteerd van een overzicht dat informatie kan bevatten voor meerdere bankrekeningen. 
 
 Met de optie **Afstemmen na importeren** wordt automatisch het bankafschrift gevalideerd, worden een nieuwe bankafstemming en werkblad gemaakt en wordt de standaardset met afstemmingsregels uitgevoerd.  Met deze functionaliteit wordt het proces geautomatiseerd tot het moment dat de transacties handmatig moeten worden afgestemd.  De instelling op de bankrekening wordt standaard overgenomen bij het importeren.
-
 
 
 

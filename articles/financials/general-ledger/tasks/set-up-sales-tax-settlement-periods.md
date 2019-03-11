@@ -1,13 +1,13 @@
---- 
+---
 title: Btw-vereffeningsperioden instellen
 description: Btw-vereffeningsperioden bevatten info over de periode-intervallen waarvoor btw moet worden aangegeven en betaald.
 author: twheeloc
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326188"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Btw-vereffeningsperioden instellen
 
@@ -60,5 +60,4 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 20. Klik op Nieuw periode-interval.
     * Als het eerste periode-interval is ingevoerd, kunnen nieuwe perioden automatisch worden gemaakt. U kunt later nieuwe periode-intervallen toevoegen.  
 21. Sluit de pagina.
-
 

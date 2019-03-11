@@ -5,9 +5,9 @@ author: NickSelin
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
 ms.reviewer: kfend
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8707f7b184bb66648edd0e48672c5514a0a5caf1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313653"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Indelingen voor elektronische rapportage wijzigen door Excel-sjablonen opnieuw toe te passen
 
@@ -34,4 +34,3 @@ Het hulpmiddel Elektronische rapportage (ER) wordt gebruikt voor het genereren v
 Het ER-hulpmiddel kan worden gebruikt om bedrijfsdocumenten als Microsoft Excel-bestanden te genereren. U kunt een Excel-document als sjabloon gebruiken voor deze documenten. U geeft de documentindeling in de ER-ontwerper op door in de opgegeven ER-indeling de inhoud te importeren van het Excel-document dat u wilt gebruiken als sjabloon. Speel de taakbegeleiding **ER Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling** (onderdeel van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)) af voor meer informatie en en om te oefenen met dit scenario.
 
 Als u het Excel-document bewerkt dat wordt gebruikt als een sjabloon voor een bedrijfsdocument, kunt u met nieuwe ER-functionaliteit de bijgewerkte sjabloon opnieuw toepassen op de ER-indeling. De ER-indeling wordt vervolgens bijgewerkt zodat deze in overeenstemming is met de bijgewerkte sjabloon. Speel de taakbegeleiding **Een indeling voor elektronische aangifte wijzigen door een Excel-sjabloon opnieuw toe te passen** (onderdeel van het bedrijfsproces 7.5.5.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10683)) af voor meer informatie over deze functionaliteit. Als onderdeel van de taakbegeleidingsstap voor het importeren van een bijgewerkte sjabloon gebruikt u de gewijzigde sjabloon van het Excel-bestand met het betalingsrapport (SampleVendPaymWsReport2) als sjabloon.
-

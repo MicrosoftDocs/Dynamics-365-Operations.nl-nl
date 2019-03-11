@@ -1,13 +1,13 @@
 ---
-title: Power BI-inhoud Compensatie en vergoedingen
-description: In dit onderwerp wordt Power BI-inhoud Compensatie en vergoedingen van Finance and Operations beschreven.
+title: Power BI-inhoud - compensatie en vergoedingen
+description: In dit onderwerp wordt Power BI-inhoud - compensatie en vergoedingen van Finance and Operations beschreven.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6834940b16749461066e8f1000cbb7c2d4371109
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327430"
 ---
-
-# <a name="compensation-and-benefits-power-bi-content"></a>Power BI-inhoud Compensatie en vergoedingen
+# <a name="compensation-and-benefits-power-bi-content"></a>Power BI-inhoud - compensatie en vergoedingen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt Power BI-inhoud Compensatie en vergoedingen van Finance and Operations beschreven. 
+In dit onderwerp wordt Power BI-inhoud - compensatie en vergoedingen van Finance and Operations beschreven. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Rapporten die zijn opgenomen in het inhoudpakket
 Nadat u het inhoudpakket aan uw Finance and Operations-gegevens hebt gekoppeld, geven de rapporten de gegevens van uw organisatie weer. Als u Microsoft Power BI nog niet eerder hebt gebruikt, raadpleegt u de pagina [Guided Learning for Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). De rapporten die zijn opgenomen in het inhoudpakket, bevatten diagrammen en tabellen met aanvullende informatie. De onderstaande tabel geeft een overzicht van de rapporten.
@@ -39,7 +38,7 @@ Nadat u het inhoudpakket aan uw Finance and Operations-gegevens hebt gekoppeld, 
 | Analyse Compensatie en vergoedingen | Werknemers met als instelling Uurtarief of Salaris op basis van bedrijf, gemiddeld uurtarief, gemiddeld salaris, werknemers per type dienstverband en inschrijving voor plan |
 | Werknemersvergoedingen          | Werknemersinschrijving op basis van geselecteerde vergoeding                                                                                               |
 
-U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over het filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 Gegevens in Finance and Operations worden gebruikt om de rapporten te vullen in het inhoudpakket Compensatie en vergoedingen. De volgende tabel bevat de entiteiten waarop het inhoudpakket is gebaseerd.
@@ -68,4 +67,3 @@ Gegevens in Finance and Operations worden gebruikt om de rapporten te vullen in 
 | Workforce\_WorkerName             | Voornaam, achternaam en volledige naam                                                                       | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Workforce\_WorkerTitle            | Titel en anciënniteitsdatum                                                                                   | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Workforce\_WorkerTrend            | Werknemers in de loop van de tijd, personeelsbezetting, bedrijf en positie                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job, Workforce\_WorkerBenefit |
-

@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6b1dcd6ad0ca05a94409d5d23039ccefe53392e3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f35981396c782b530737adac8ad62d0ff4b0f77e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351833"
 ---
-
 # <a name="set-up-credit-and-collections"></a>Crediteringen en aanmaningen configureren
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Stel de journaalnamen in die worden gebruikt wanneer transacties op de pagina **
 De standaardredencode die wordt gebruikt wanneer transacties worden afgeschreven op de pagina **Aanmaningen**. U kunt de code tijdens het afschrijvingsproces wijzigen.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Een map instellen voor e-mailbijlagen en e-mailsjablonen maken
-Als u e-mailberichten van de pagina **Aanmaningen** verzendt met Microsoft Excel-bestanden als bijlage, kunt u optioneel e-mailsjablonen voor deze berichten maken.
+Als u e-mailberichten vanaf de pagina **Aanmaningen** verzendt met Microsoft Excel-bestanden als bijlage, kunt u optioneel e-mailsjablonen voor deze berichten maken.
 
 ## <a name="set-up-accounts-receivable-parameters-for-collections"></a>Parameters van de module Klanten instellen voor aanmaningen
 Stel de parameters voor klanten in, die worden getoond op het tabbland **Aanmaningen**.
@@ -77,7 +76,7 @@ Stel de afschrijvingsrekening in die wordt gebruikt voor de afschrijvingsvermeld
 Werk de bankrekeningen bij, zodat deze het juiste journaal hebben wanneer NSF-betalingen worden geïdentificeerd op de pagina **Aanmaningen**. Selecteer een betalingsjournaal op het tabblad **Valutabeheer** in het veld **Journaal met betalingen met ontoereikend saldo**.
 
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Outlook-instellingen instellen voor gebruikers van de pagina Incasso's
-Voordat werknemers activiteiten kunnen maken of e-mailberichten kunnen verzenden door middel van de pagina **Incasso's**, moet u verifiëren of de configuratiesleutel **Synchronisatie Microsoft Outlook** is geselecteerd en dat de Outlook-synchronisatie is ingesteld voor deze werknemers.
+Voordat werknemers activiteiten kunnen maken of e-mailberichten kunnen verzenden door middel van de pagina **Incasso's**, moet u verifiëren of de **Microsoft Outlook configuratiesleutel Synchronisatie** is geselecteerd en dat de Outlook-synchronisatie is ingesteld voor deze werknemers.
 
 ## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>E-mail- en adresinstellingen instellen voor de contactpersoon voor incasso's voor de klant
 Stel e-mailadressen voor klantcontactpersonen in als u e-mailberichten naar deze contactpersonen wilt verzenden vanaf de pagina **Incasso's**. De contactpersoon voor incasso's wordt als de standaard contactpersoon gebruikt op de pagina **Aanmaningen**. U kunt een adres voor het overzicht voor de klant instellen als overzichten een ander adres dan het primaire adres moeten gebruiken. 
@@ -100,5 +99,4 @@ Zie de volgende onderwerpen voor meer informatie:
  - [Aanmaningen verwerken](tasks/process-collection-letters.md)
 
  - [Incassogegevens controleren](tasks/review-collections-information.md)
-
 

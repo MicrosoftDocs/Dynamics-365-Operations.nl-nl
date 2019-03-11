@@ -5,9 +5,9 @@ author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations, Retail
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
 ms.openlocfilehash: d353baf67540b64168f29be3506d73e721e73523
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354363"
 ---
-
 # <a name="configure-online-stores"></a>Online winkels configureren
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ De onderwerpen in de volgende tabel helpen u bij de configuratie van Retail-onde
 
 ## <a name="configure-online-store-products"></a>Producten van online winkels configureren
 
-| Taak                                 | Details                                                                                                                                           | Onderwerp                                                                                                                                                                                                                                                                            |
+| Opdracht                                 | Details                                                                                                                                           | Onderwerp                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Assortimenten toevoegen aan de online winkel | Voeg de assortimenten toe die de producten bevatten die u in een online winkel aanbiedt.                                                                  | [Een online winkel instellen](https://technet.microsoft.com/en-us/library/jj682095.aspx) (TechNet-onderwerpen voor AX 2012)                                                                                                                                              |
 | Catalogi beheren                     | Gebruik productcatalogi voor de identificatie van de producten die u in uw online winkels wilt aanbieden.                                                              | [Belangrijke taken: detailhandelproductcatalogi maken](https://technet.microsoft.com/en-us/library/jj728712.aspx) (TechNet-onderwerpen voor AX 2012)                                                                                                                           |
@@ -56,10 +55,9 @@ De onderwerpen in de volgende tabel helpen u bij de configuratie van Retail-onde
 
 ## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>U kunt gegevensuitwisseling tussen Microsoft Dynamics 365 for Retail en de online winkel instellen.
 
-| Taak                                 | Details                                                                                                                               | Onderwerp                                                                                                                                                                                                                                                                                  |
+| Opdracht                                 | Details                                                                                                                               | Onderwerp                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kanaalintegratieprofielen instellen | Met profielen kunnen de onderdelen van Retail met elkaar communiceren. U kunt profielen instellen voordat u instellingen voor het uitwisselen van gegevens configureert. | [Een real-time serviceprofiel instellen](https://technet.microsoft.com/en-us/library/hh580631.aspx) (TechNet-onderwerpen voor AX 2012) [Een kanaalprofiel instellen](https://technet.microsoft.com/en-us/library/jj677402.aspx) (TechNet-onderwerpen voor AX 2012) |
-
 
 
 

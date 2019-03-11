@@ -1,13 +1,13 @@
---- 
+---
 title: Afleveringsschema maken
 description: Deze procedure toont hoe een afleveringsschema voor een verkooporder wordt gemaakt.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesDeliverySchedule, SalesEditLines,  SrsReportViewerForm
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: d99dfae5e045262d34daf3529a6a3f4716b4afe3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327959"
 ---
 # <a name="create-delivery-schedule"></a>Afleveringsschema maken
 
@@ -65,5 +65,4 @@ Deze procedure toont hoe een afleveringsschema voor een verkooporder wordt gemaa
 22. Klik op OK.
 23. Klik op Ja.
 24. Sluit de pagina.
-
 

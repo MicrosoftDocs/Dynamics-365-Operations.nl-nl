@@ -5,27 +5,26 @@ author: mkirknel
 manager: AnnBe
 ms.date: 03/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
-ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362022"
 ---
-
 # <a name="import-vendor-catalogs"></a>Leverancierscatalogi importeren
 [!include[banner](../includes/banner.md)]
 
@@ -33,7 +32,7 @@ ms.lasthandoff: 04/26/2018
 
 In Microsoft Dynamics 365 for Finance and Operations kunnen inkoopprofessionals catalogi maken en onderhouden die werknemers van het bedrijf kunnen gebruiken wanneer ze artikelen en services voor intern gebruik bestellen. Wanneer u een aanschaffingscatalogus maakt, kunt u de artikelen en diensten toevoegen die u beschikbaar wilt maken voor werknemers door de gegevens van de productcatalogus te importeren of door de gegevens van de productcatalogus handmatig aan het productmodel toe te voegen. 
 
-U kunt catalogusgegevens die zijn ingediend door een leverancier uploaden uit de Microsoft Dynamics 365-client.
+U kunt catalogusgegevens die zijn ingediend door een leverancier uploaden vanuit de Microsoft Dynamics 365-client.
 
 De productgegevens die een leverancier bij u indient in het formulier van een CMR-bestand (Catalog Maintenance Request) moeten de XML-bestandsindeling hebben. Het CMR-bestand moet gegevens bevatten voor de producten die de leveranciers aan uw bedrijf levert.
 
@@ -69,5 +68,4 @@ De sjabloon voor het catalogusimportbestand is een XSD-bestand dat u kunt gebrui
 
 3. Selecteer in het dialoogvenster **Opslaan als** de locatie waar u de sjabloon voor het catalogusbestand wilt opslaan, waarna u het bestand opslaat.
 
-Voor meer informatie en voorbeelden verwijzen we naar dit blogbericht: [Leverancierscatalogi in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
-
+Voor meer informatie en voorbeelden verwijzen we naar dit blogbericht: [Leverancierscatalogi in Dynamics AX.](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)

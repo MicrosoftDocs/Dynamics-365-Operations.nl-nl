@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36e7e684e207e13baffa7eefd13e8e4a29d99914
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01c9dcebe82544624c6dd0feb3672d1c5bdfe2d1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325222"
 ---
-
 # <a name="reimburse-customers"></a>Klanten terugbetalen
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Wanneer u terugbetalingstransacties maakt, wordt een leveranciersfactuur gemaakt
     De creditbedragen worden overgebracht naar de leveranciersrekeningen van de klanten en worden verwerkt als normale betalingen. Als een klant geen leverancierrekening heeft, wordt automatisch een eenmalige leverancierrekening voor de klant gemaakt.
 3.  Als u de terugbetalingstransacties wilt weergeven die zijn gemaakt, gebruikt u de pagina **Terugbetaling**.
 4.  In Leveranciers maakt u een betaling voor de leveranciersfacturen die met het terugbetalingsproces zijn gemaakt.
-
 
 
 

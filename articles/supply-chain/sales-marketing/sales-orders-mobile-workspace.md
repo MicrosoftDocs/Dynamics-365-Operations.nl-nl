@@ -5,9 +5,9 @@ author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365058"
 ---
-
 # <a name="sales-orders-mobile-workspace"></a>Mobiel werkgebied voor verkooporders
 
 [!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Verkooporders**. Via dit werkgebied kunt u overal en altijd op de hoogte blijven van uw verkooporders. 
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations.
+Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Overzicht
 In het mobiele werkgebied **Verkooporders** kunt u gedetailleerde informatie over elke verkooporder weergeven. Deze informatie omvat de status van de order, contactgegevens voor de klant en contactgegevens voor degene die de order aanneemt. Het mobiele werkgebied **Verkooporders** geeft een direct overzicht van verkooporders. U kunt alle verkooporders weergeven, verkooporders per klant weergeven of informatie weergeven over een specifieke verkooporder. 
@@ -87,8 +86,8 @@ De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 d
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
 Als Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Verkooporders** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten voor gebruik van Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger.
-Als Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
+Als Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
 
 <table>
 <thead>
@@ -105,7 +104,7 @@ Als Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor
 
 <td>KB 4013633 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Verkooporders</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4013633.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">De metagegevenshotfix van Microsoft Dynamics Lifecycle Services (LCS) downloaden</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Metagegevens-hotfix downloaden uit  Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">De metagegevenshotfix installeren</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Het implementeerbare pakket toepassen</a></li>
@@ -143,4 +142,3 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 4.  Selecteer de gewenste klant.
 5.  Selecteer **Contactgegevens** of **Verkooporders**. Als u **Verkooporders** selecteert, wordt een lijst met verkooporders voor de klant weergegeven.
 6.  Selecteer **Verkooporders**. U kunt nu informatie over de verkooporderregels, informatie over verzendingen, contactgegevens voor de klant en contactgegevens voor de ordermedewerker weergeven.
-

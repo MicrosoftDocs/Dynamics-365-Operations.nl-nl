@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351925"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Vereisten voor een standaardkostprijsconversie
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Voer de volgende handelingen uit voordat u een standaardkostprijsconversie uitvo
 
         Bij een actieve kostenanalyse wordt de kostengroepsegmentatie door het inschakelen van de kosten van een gefabriceerd artikel in de kostenrecord van het artikel opgeslagen. Als u geen waarde in het veld **Kostenanalyse** plaatst, wordt de kostengroepsegmentatie niet onderhouden voor standaardkostenartikelen. Dit wil zeggen dat de standaardkosten van een gefabriceerd artikel worden berekend en onderhouden als één bedrag zonder kostengroepsegmentatie, en worden de kostenbijdragen van gefabriceerde onderdelen samengevoegd in het enkele bedrag.
     -   Gebruik het veld **Afwijkingen van standaard** om Samengevat of Per kostengroep te selecteren. Als u Per kostengroep selecteert, kunt u inkoopprijsafwijkingen en productieafwijkingen per kostengroep identificeren. U kunt dan ook de vier typen productieafwijkingen identificeren: partijgrootte, hoeveelheid, prijs en vervanging. Als u Samengevat selecteert, kunt u geen afwijkingen per kostengroep identificeren en kunt u niet de vier typen productieafwijkingen identificeren. U kunt alleen een samengevatte productieafwijking weergeven. Het beleid voor afwijking op standaardkosten is onafhankelijk van het kostenanalysebeleid. U kunt dus een kostenanalysebeleid van geen selecteren, en afwijkingen per kostengroep selecteren, zodat productieafwijkingen per kostengroep toch worden geregistreerd.
-
 
 
 

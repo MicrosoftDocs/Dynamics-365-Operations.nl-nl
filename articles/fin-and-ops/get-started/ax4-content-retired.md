@@ -1,36 +1,34 @@
 ---
-title: Inhoud van AX 4.0 die buiten gebruik is gesteld
+title: AX 4.0-inhoud die buiten gebruik is gesteld
 description: De inhoud van Dynamics AX 4.0 op TechNet en MSDN is teruggetrokken.
 author: margoc
 manager: AnnBe
 ms.date: 04/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: AX 2012
 ms.custom: 62303
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2018-04-10
 ms.dyn365.ops.version: AX 2012
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7455a10f3e2fc603b6699d77127376cde12f2144
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359262"
 ---
-
-# <a name="ax-40-content-that-has-been-retired"></a>Inhoud van AX 4.0 die buiten gebruik is gesteld
+# <a name="ax-40-content-that-has-been-retired"></a>AX 4.0-inhoud die buiten gebruik is gesteld
 
 [!include[banner](../includes/banner.md)]
 
-De inhoud van Microsoft Dynamics AX 4.0 is teruggetrokken van TechNet en MSDN. Ga voor meer informatie naar:
+De inhoud van Microsoft Dynamics AX 4.0 op TechNet en MSDN is teruggetrokken. Ga voor meer informatie naar:
 
 - [Microsoft Lifecycle-beleid](https://support.microsoft.com/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0)
 - [Ondersteunde upgradepaden naar Dynamics AX 2012](https://technet.microsoft.com/library/dd362093.aspx)
-

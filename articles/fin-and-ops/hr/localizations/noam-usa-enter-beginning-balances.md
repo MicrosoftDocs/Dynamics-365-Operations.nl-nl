@@ -5,9 +5,9 @@ author: kherr75
 manager: AnnBe
 ms.date: 07/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1e7bdfca55e1bdaba0b5ebdf55b46744e584ab2c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312986"
 ---
-
 # <a name="enter-payroll-beginning-balances"></a>Beginsaldi voor salarisadministratie invoeren
 
 [!include [banner](../../includes/banner.md)]
@@ -168,4 +167,3 @@ U kunt transacties ongedaan maken en opnieuw invoeren. Als u een transactie onge
 2. Klik op **Ja** als het bericht "Als u dit salarisoverzicht omkeert, wordt een omgekeerd salarisoverzicht gemaakt als tegenboeking voor dit salarisoverzicht. Geen van beide salarisoverzichten kan worden bewerkt. Wilt u dit salarisoverzicht omkeren? wordt getoond. 
 
 Na het omkeren van het salarisoverzicht kunt u een nieuw salarisoverzicht genereren voor de werknemer uit het inkomstenoverzicht dat u eerder hebt gemaakt. Zorg ervoor dat u onjuiste regels uit het inkomstenoverzicht corrigeert voordat u het nieuwe salarisoverzicht genereert en genereer vervolgens nieuwe salarisoverzichten met de juiste bedragen. 
-

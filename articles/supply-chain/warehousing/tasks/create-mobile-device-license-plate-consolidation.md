@@ -1,13 +1,13 @@
---- 
+---
 title: Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie
 description: Deze procedure laat zien hoe u een menuoptie maakt voor een mobiel apparaat voor het werken aan de nummerplaatconsolidatie.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bfe07426e9ff11c60c5f703b810ba09d6c863399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7b8d20561ff092bd64c17c5d9335e9f54a1d191b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343645"
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u een menuoptie maakt voor een mobiel apparaat voor het werken aan de nummerplaatconsolidatie. Dit stelt magazijnmedewerkers in staat om artikelen op één nummerplaat te consolideren met artikelen op een andere nummerplaat binnen dezelfde locatie. Ze kunnen dit bijvoorbeeld gebruiken als de volgende stappen hetzelfde zijn voor beide werkorders, zodat het werk slechts eenmaal moet worden uitgevoerd voor de samengevoegde artikelen. U kunt deze procedure gebruiken in het demobedrijf USMF. De taak wordt meestal uitgevoerd door een magazijnmanager. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+Deze procedure laat zien hoe u een menuoptie maakt voor een mobiel apparaat voor het werken aan de nummerplaatconsolidatie. Dit stelt magazijnmedewerkers in staat om artikelen op één nummerplaat te consolideren met artikelen op een andere nummerplaat binnen dezelfde locatie. Ze kunnen dit bijvoorbeeld gebruiken als de volgende stappen hetzelfde zijn voor beide werkorders, zodat het werk slechts eenmaal moet worden uitgevoerd voor de samengevoegde artikelen. U kunt deze procedure gebruiken in het demobedrijf USMF. De taak wordt meestal uitgevoerd door een magazijnmanager. Deze procedure is voor een functie die in Dynamics 365 for Operations, versie 1611 is toegevoegd.
 
 1. Ga naar Magazijnbeheer > Instellingen > Mobiel apparaat > Menuopties voor mobiel apparaat.
 2. Klik op Nieuw.
@@ -36,5 +36,4 @@ Deze procedure laat zien hoe u een menuoptie maakt voor een mobiel apparaat voor
 4. Typ een waarde in het veld Titel.
 5. Selecteer Indirect in het veld Modus.
 6. Selecteer Nummerplaten consolideren in het veld Activiteitscode.
-
 

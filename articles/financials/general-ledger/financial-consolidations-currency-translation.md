@@ -1,14 +1,14 @@
 ---
-title: "Financiële consolidaties en valutaomzetting"
-description: "Dit onderwerp beschrijft financiële consolidaties en valutaomrekening in het grootboek."
+title: Financiële consolidaties en valutaomzetting
+description: Dit onderwerp beschrijft financiële consolidaties en valutaomrekening in het grootboek.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: 8427d53bac3216d362b2bf8983a847f069351b3b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353995"
 ---
-
 # <a name="financial-consolidations-and-currency-translation"></a>Financiële consolidaties en valutaomzetting
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp maakt u kennis met de benadering die zowel in Microsoft Dynamics 365 for Finance and Operations als in Financiële rapportage wordt gebruikt voor consolidaties. Het beschrijft scenario's voor het rapporteren van meerdere bedrijven, aggregatie, schrapping en minderheidsbelang. Ook wordt uitgelegd hoe u speciale situaties kunt afhandelen, zoals scenario's waarin rechtspersonen verschillende fiscale perioden of verschillende rekeningschema's hebben.
+In dit onderwerp maakt u kennis met de benadering die Microsoft Dynamics 365 for Finance and Operations en financiële rapportage gebruiken voor consolidaties. Het beschrijft scenario's voor het rapporteren van meerdere bedrijven, aggregatie, schrapping en minderheidsbelang. Ook wordt uitgelegd hoe u speciale situaties kunt afhandelen, zoals scenario's waarin rechtspersonen verschillende fiscale perioden of verschillende rekeningschema's hebben.
 
 Dit onderwerp is geschreven voor gebruikers en functionele consultants en er wordt vanuit gegaan dat lezers een algemeen begrip van Finance and Operations en Financiële rapportage hebben. Basisinstellingen worden niet behandeld.
 
@@ -181,4 +180,3 @@ Hier volgen enkele consolidatiescenario's die in Financiële rapportage worden o
 
 ## <a name="generating-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 Zie voor informatie over scenario's waarin u mogelijk geconsolideerde financiële overzichten genereert [Geconsolideerde financiële overzichten genereren](./generating-consolidated-financial-statements.md).
-

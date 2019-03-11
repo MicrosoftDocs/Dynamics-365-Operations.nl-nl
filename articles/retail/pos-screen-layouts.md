@@ -1,13 +1,13 @@
 ---
 title: Schermindelingen voor het verkooppunt (POS)
-description: Dit onderwerp biedt informatie over schermindelingen voor Microsoft Dynamics 365 for Retail POS.
+description: Dit onderwerp biedt informatie over schermindelingen voor Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321887"
 ---
-
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Schermindelingen voor het verkooppunt (POS)
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp biedt informatie over schermindelingen voor Microsoft Dynamics 365 for Retail POS.
+Dit onderwerp biedt informatie over schermindelingen voor Microsoft Dynamics 365 for Retail.
 
 De gebruikersinterface van Retail POS kan worden geconfigureerd met een combinatie van weergaveprofielen en schermindelingen die worden toegewezen aan winkels, kassa's en/of gebruikers.
 
@@ -51,7 +50,7 @@ Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de weergav
 - **Beschrijving**: u kunt een beschrijvende naam opgeven om het juiste profiel voor uw situatie te identificeren.
 - **Thema**: u kunt kiezen tussen de lichte en donkere toepassingthema's. Het thema heeft invloed op de tekst- en achtergrondkleuren in de toepassing.
 - **Accentkleur**: de accentkleur wordt overal in het POS gebruikt om bepaalde weergave-elementen, zoals tegels, opdrachtknoppen en hyperlinks, te onderscheiden of te markeren. Deze elementen zijn doorgaans uitvoerbaar.
-- **Koptekstkleur**: u kunt de kleur van de koptekst van de pagina configureren om te voldoen aan de huisstijlvereisten van de detailhandelaar. Deze functie is alleen beschikbaar in versie 1611 van Microsoft Dynamics 365 for Retail.
+- **Koptekstkleur**: u kunt de kleur van de koptekst van de pagina configureren om te voldoen aan de huisstijlvereisten van de detailhandelaar. Deze functie is alleen beschikbaar Microsoft Dynamics 365 for Retail versie 1611.
 - **Aanmeldingsachtergrond**: u kunt een achtergrondafbeelding opgeven voor het aanmeldingsscherm. De bestandsgrootte van achtergrondafbeeldingen moet zo klein mogelijk worden gehouden omdat het opslaan en laden van grote bestanden het gedrag en de prestaties van de toepassing kunnen beïnvloeden.
 - **Achtergrond van de toepassing**: u kunt een achtergrondafbeelding kiezen om in de hele toepassing te gebruiken in plaats van de effen themakleur. Voor aanmeldingsachtergronden moet de bestandsgrootte zo klein mogelijk worden gehouden.
 
@@ -194,4 +193,3 @@ In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kun
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [De Retail POS-indelingsontwerper installeren](install-pos-layout-designer.md)
-

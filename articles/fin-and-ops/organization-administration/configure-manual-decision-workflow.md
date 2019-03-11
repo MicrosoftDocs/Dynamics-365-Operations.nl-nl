@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341391"
 ---
-
 # <a name="configure-manual-decisions-in-a-workflow"></a>Handmatige beslissingen configureren in een workflow
 
 [!include [banner](../includes/banner.md)]
@@ -372,4 +371,3 @@ Volg deze stappen als de beslissing binnen een opgegeven tijd moet worden genome
     - **Jaren**: selecteer de dag, week en maand waarop de beslissing uiterlijk moet zijn genomen. U kunt bijvoorbeeld aangeven dat de beslissing uiterlijk op de vrijdag in de derde week van december moet zijn genomen.
 
 4. Als de tijdslimiet is overschreden, dan neemt het systeem automatisch de beslissing. Selecteer in de lijst **Actie** de optie die het systeem moet selecteren.
-

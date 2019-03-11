@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dfb6b9c2f4bad95c165a8d8a1e888e7a67e66c69
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326487"
 ---
-
 # <a name="inventory-close"></a>Voorraad sluiten
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ Er kunnen omstandigheden zijn waarin het niet mogelijk is om iets aan de waarsch
 Soms zult u een voltooide voorraadafsluiting moeten omkeren en de vereffeningen weer moeten instellen zoals deze waren voordat er correcties werden doorgevoerd. Wanneer u een voltooide voorraadafsluiting omkeert, wordt de voorraad opnieuw geopend en kan die in de periode die door de voorraadafsluiting wordt gedekt, worden geboekt. U kunt ook gerelateerde wijzigingen maken in het grootboek. Nadat u de aanpassingen hebt gemaakt, kunt u de voorraadafsluiting nogmaals uitvoeren voor de periode waarmee u werkt. 
 
 **Opmerking:** alleen de laatste afgesloten voorraadperiode kan opnieuw worden geopend. Als u een eerdere voorraadafsluiting wilt omkeren, moet u de volgende voorraadafsluitingen een voor een omkeren, te beginnen met de meest recente afsluiting.
-
 
 
 

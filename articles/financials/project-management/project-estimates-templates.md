@@ -1,13 +1,13 @@
 ---
 title: Projectramingen rechtstreeks vanuit Project Service Automation synchroniseren met Finance and Operations
-description: In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om ramingen van projecturen en projectkosten rechtstreeks vanuit Microsoft Dynamics 365 for Project Service Automation te synchroniseren met Microsoft Dynamics 365 for Finance and Operations.
+description: Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebruikt om projectuurschattingen en projectonkostenschattingen rechtstreeks van Microsoft Dynamics 365 for Project Service Automation naar Microsoft Dynamics 365 for Finance and Operations te synchroniseren.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 21338b889e0377dbfd5adfd461ea81b39a75baf8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353949"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projectramingen rechtstreeks vanuit Project Service Automation synchroniseren met Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om ramingen van projecturen en projectkosten rechtstreeks vanuit Microsoft Dynamics 365 for Project Service Automation te synchroniseren met Dynamics 365 for Finance and Operations.
+Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebruikt om projectuurschattingen en projectonkostenschattingen rechtstreeks van Microsoft Dynamics 365 for Project Service Automation naar Dynamics 365 for Finance and Operations te synchroniseren.
 
 > [!NOTE]
-> - Projecttaakintegratie, onkostentransactiecategorieën, uurramingen, onkostenramingen en functionaliteitvergrendeling is beschikbaar in Microsoft Dynamics 365 for Finance and Operations, versie 8.0.
-> - Integratie van werkelijke waarden is beschikbaar in Microsoft Dynamics 365 for Finance and Operations versie 8.01 of hoger.
+> - Projecttaakintegratie, onkostentransactiecategorieën, uurramingen, onkostenramingen en functionaliteitvergrendeling is beschikbaar in Microsoft Dynamics 365 for Finance and Operations versie 8.0.
+> - Integratie van werkelijke waarden is mogelijk in Microsoft Dynamics 365 for Finance and Operations versie 8.0.1 of hoger.
 > - Als u Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, 7.3.0 gebruikt, kunt u nadat u KB 4132657 en KB 4132660 hebt geïnstalleerd, de sjablonen gebruiken om projecttaken, onkostentransactiecategorieën, geraamde uren, geraamde onkosten en werkelijke waarden te integreren en om functionaliteitvergrendeling te configureren. Als u de boekhoudingsverdelingen opnieuw instellen moet, wordt u aangeraden ook KB 4131710 te installeren.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Gegevensstroom voor Project Service Automation naar Finance and Operations
@@ -47,7 +47,7 @@ De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen 
 
 ### <a name="template-and-tasks"></a>Sjabloon en taken
 
-Verkrijg toegang tot de beschikbare sjablonen door in het Microsoft PowerApps-beheercentrum de optie **Projecten** te selecteren en vervolgens in de rechterbovenhoek **Nieuw project** te selecteren om openbare sjablonen te kiezen.
+Selecteer voor toegang tot de beschikbare sjablonen in het Microsoft PowerApps-beheercentrum de optie **Projecten** en selecteer vervolgens in de rechterbovenhoek de optie **Nieuw project** om openbare sjablonen te selecteren.
 
 De volgende sjabloon en onderliggende taken worden gebruikt voor het synchroniseren van projectuurramingen vanuit Project Service Automation naar Finance and Operations:
 
@@ -171,4 +171,3 @@ In de volgende afbeeldingen ziet u voorbeelden van de sjabloontaaktoewijzingen i
 [![Sjabloontoewijzing](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Sjabloontoewijzing](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
-

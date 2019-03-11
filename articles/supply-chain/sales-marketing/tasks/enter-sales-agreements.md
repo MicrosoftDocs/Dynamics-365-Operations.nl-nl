@@ -1,13 +1,13 @@
---- 
+---
 title: Verkoopovereenkomsten invoeren
 description: Deze procedure toont hoe u een verkoopovereenkomst maakt waarmee een van uw klanten toezegt in een bepaalde periode een product voor een bepaald bedrag te kopen in ruil voor speciale kortingen.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 025c9fe2f769f37b63bd79c6c3afedc31a955310
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346865"
 ---
 # <a name="enter-sales-agreements"></a>Verkoopovereenkomsten invoeren
 
@@ -66,5 +66,4 @@ Deze procedure toont hoe u een verkoopovereenkomst maakt waarmee een van uw klan
 13. Klik op OK.
 14. Sluit de pagina.
     * De overeenkomst is nu van kracht en u kunt de orders van de klant beginnen te koppelen aan de overeenkomst voor het starten, om het toegezegde doel te verrekenen.  
-
 

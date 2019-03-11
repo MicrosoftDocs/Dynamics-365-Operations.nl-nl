@@ -5,9 +5,9 @@ author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cae6334cd39a91eaf3a2a79f30edc705f484bc8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333571"
 ---
-
 # <a name="budget-planning-justification-documents"></a>Verantwoordingsdocumenten voor budgetplanning
 
 [!include [banner](../includes/banner.md)]
@@ -34,15 +33,15 @@ Verantwoordingsdocumenten bieden een beschrijving voor degenen die een budget aa
 
 Een budgetplansjabloon wordt gemaakt door de budgetmanager in Microsoft Word en toegewezen aan het huidige budgetplanningsproces. Budgeteigenaren kunnen de sjabloon vervolgens openen en gegevens automatisch in Word laten invullen op basis van hun budgetaanvraag. Vervolgens kunnen ze extra tekst of gegevens toevoegen voordat hun gepersonaliseerde verantwoordingsdocument wordt opgeslagen en gekoppeld aan hun budgetplan.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Microsoft Dynamics Office-invoegtoepassing instellen voor Microsoft Word
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Instellen van Microsoft Dynamics Office-invoegtoepassing voor Microsoft Word
 
-1.  Open een nieuw Microsoft Word-document.
+1.  Een nieuw Microsoft Word-document openen.
 2.  Klik op **Invoegen** in het lint en klik vervolgens op **Opslag**.
 3.  Zoek naar Microsoft Dynamics Office-invoegtoepassing en klik op **Toevoegen**.
 4.  Klik in Word in het rechterdeelvenster op **Servergegevens toevoegen**.
 5.  Typ of plak de URL van de server en klik op **OK**.
 
-##### <a name="define-the-justification-template-in-microsoft-word"></a>De sjabloon Reden definiëren in Microsoft Word
+##### <a name="define-the-justification-template-in-microsoft-word"></a>De Redensjabloon definiëren in Microsoft Word
 
 1.  Klik op **Ontwerp** in de Microsoft Dynamics Office-invoegtoepassing nadat u zich hebt aangemeld.
 2.  Gebruik voor koptekstgegevens de knop **Velden toevoegen**.
@@ -69,7 +68,6 @@ Een budgetplansjabloon wordt gemaakt door de budgetmanager in Microsoft Word en 
 1.  Maak in Finance and Operations een nieuw budgetplan of open een bestaand budgetplan.
 2.  Selecteer in het vervolgkeuzemenu **Reden** **Nieuwe verantwoording maken**.
 3.  Geef na het invullen van de details aan dat u het aangepaste document wilt uploaden in het vervolgkeuzemenu **Reden**.
-
 
 
 

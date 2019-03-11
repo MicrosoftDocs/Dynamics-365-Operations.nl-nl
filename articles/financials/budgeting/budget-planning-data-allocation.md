@@ -1,13 +1,13 @@
 ---
 title: Gegevenstoewijzing voor budgetplanning
-description: In dit artikel worden de verschillende toewijzingsmethoden beschreven die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations en hoe ze kunnen worden gebruikt.
+description: Dit artikel beschrijft de verschillende toewijzingsmethoden die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations en hoe ze kunnen worden gebruikt.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 430040f7b3706aa1ad913d70c0dbcab9249ea222
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352500"
 ---
-
 # <a name="budget-planning-data-allocation"></a>Gegevenstoewijzing voor budgetplanning
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel worden de verschillende toewijzingsmethoden beschreven die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations en hoe ze kunnen worden gebruikt.  
+Dit artikel beschrijft de verschillende toewijzingsmethoden die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations en hoe ze kunnen worden gebruikt.  
 
 U kunt de gegevens in een budgetplan op verschillende manieren verspreiden om de verwachte bedragen nauwkeurig af te beelden.
 
@@ -72,7 +71,6 @@ Maak vervolgens een fasetoewijzing op de pagina **Configuratie budgetplanning**.
 Voeg tot slot een geautomatiseerde taak toe voor de toewijzing van de budgetplanningsfase op de gewenste workflowfase. In het volgende voorbeeld zijn twee toewijzingen van de budgetplanningsfase (in rood aangegeven) ingevoegd in de workflow.
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
-
 
 
 

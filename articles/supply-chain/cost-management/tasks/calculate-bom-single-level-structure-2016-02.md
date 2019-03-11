@@ -1,13 +1,13 @@
---- 
-title: "Een stuklijst berekenen met behulp van een structuur met één niveau (februari 2016)"
+---
+title: Een stuklijst berekenen met behulp van een structuur met één niveau (februari 2016)
 description: Deze procedure laat zien hoe u de kostprijs van een eindproduct berekent door middel van explosiemodus op een enkel niveau, die is gebaseerd op de kostprijsberekening.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: f74f8e4efc4474693f0a5b543c1300c3b64ecda0
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361585"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Een stuklijst berekenen met behulp van een structuur met één niveau (februari 2016)
 
@@ -43,5 +43,4 @@ Deze procedure laat zien hoe u de kostprijs van een eindproduct berekent door mi
 8. Klik op Berekeningsdetails weergeven.
     * Mogelijk moet u op de drie puntjes (...) klikken om deze optie in het bovenste menu weer te laten geven.    Zo zijn de kosten samengesteld: • 10 is afgeleid van ITEM_A, 10 van ITEM_B, 10 van BOM_2. In dit geval zijn er geen details voor Artikel_2, omdat deze is ingevoerd als een standaardkostprijs van 10, maar niet is verkregen door berekening.  •  7 is afgeleid van de insteltijd, die een constante kostenfactor is, en nog eens 7 is afgeleid van de uitvoeringstijdbewerking (Proces).  •  Daarnaast zijn er nog andere bedragen, die met de indirecte kosten overeenkomen.  
 9. @SysTaskRecorder:_RequestClose
-
 

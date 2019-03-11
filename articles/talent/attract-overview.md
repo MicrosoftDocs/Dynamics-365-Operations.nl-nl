@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303896"
 ---
 # <a name="attract-features-and-capabilities"></a>Functies en voorzieningen van Attract
 
@@ -46,4 +46,3 @@ Attract biedt een vooraf gedefinieerd aanstellingsproces dat vier algemene fasen
 
 ## <a name="candidate-app"></a>Kandidaatapp
 Kandidaten ontvangen zodra ze zijn toegevoegd aan een functie een e-mail met een koppeling om de webapp te downloaden. De app biedt kandidaten meer informatie en wordt gebruikt om te communiceren met het aanstellend team. Kandidaten kunnen deze ook gebruiken om hun beschikbaarheid voor gesprekken aan te geven.
-

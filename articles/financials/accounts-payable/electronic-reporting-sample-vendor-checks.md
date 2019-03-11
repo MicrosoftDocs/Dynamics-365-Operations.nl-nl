@@ -5,25 +5,24 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 6cae0ce1ec88f0500f8d281d314d59dc7001a384
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359676"
 ---
-
 [!include [banner](../includes/banner.md)]
 
 # <a name="electronic-reporting-sample-check-formats"></a>Voorbeeldcheque-indelingen voor elektronische rapportage
@@ -34,7 +33,7 @@ U kunt elektronische rapportage (ER) gebruiken voor het opmaken van cheques voor
 
 U moet altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de huidige lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben. In het volgende gedeelte, 'Wat moet ik instellen?', vindt u een koppeling naar een onderwerp waarin wordt uitgelegd hoe u een LCS-opslagplaats maakt zodat u beschikbare configuraties kunt bekijken en geselecteerde configuraties kunt importeren.
 
-Microsoft Dynamics 365 for Finance and Operations bevat een voorbeeldindeling waarbij de cheque bovenaan staat, gevolgd door twee remisesecties. Het bevat bovendien een voorbeeldindeling waarin de cheque in het midden staat, tussen twee remisesecties. Deze voorbeeldindelingen komen overeen met Deluxe-bedrijfscheque-indelingen.
+Microsoft Dynamics 365 for Finance and Operations bevat bovendien een voorbeeldindeling waarin de cheque bovenaan staat, gevolgd door twee remisesecties. Het bevat bovendien een voorbeeldindeling waarin de cheque in het midden staat, tussen twee remisesecties. Deze voorbeeldindelingen komen overeen met Deluxe-bedrijfscheque-indelingen.
 
 ## <a name="what-do-i-have-to-set-up"></a>Wat moet ik instellen?
 
@@ -45,4 +44,3 @@ Microsoft Dynamics 365 for Finance and Operations bevat een voorbeeldindeling wa
 - Wanneer u betalingen genereert voor de geconfigureerde bankrekening in het betalingsjournaal, worden de cheques afgedrukt met behulp van de opgegeven indeling.
 
 Zie [Een indeling voor elektronische aangifte wijzigen](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md) voor meer informatie.
-

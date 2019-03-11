@@ -1,13 +1,13 @@
 ---
 title: De gebruikerservaring aanpassen
-description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations kunt aanpassen.
+description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations aanpast.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363471"
 ---
-
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations kunt aanpassen.
+In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations aanpast.
 
 Er bestaan drie basisklassen met aanpassingen in Finance and Operations.
 
@@ -171,4 +170,3 @@ Wanneer u de instellingen van de voorraaddimensies op een pagina wilt aanpassen,
 De **Weergave van dimensies**-instellingen zijn van toepassing op alle pagina's en hebben voorrang op aangepaste instellingen van voorraaddimensievelden op afzonderlijke pagina's.
 
 Als u daarom in het vorige voorbeeld niet wilt dat de kolom voor de voorraaddimensie Batchnummer wordt weergegeven, moet u die dimensie uitschakelen als onderdeel van de optie **Weergave van dimensies** voor de tabel. Deze wijziging zal uiteindelijk niet alleen op een bepaalde pagina gelden, maar voor alle pagina's.
-

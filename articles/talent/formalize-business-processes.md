@@ -1,13 +1,13 @@
 ---
 title: Bedrijfsprocessen formaliseren
-description: "In dit onderwerp wordt uitgelegd hoe u de functie Bedrijfsproces kunt gebruiken om een sjabloon voor bedrijfsprocessen te maken voor processen die moeten worden voltooid in uw organisatie."
+description: In dit onderwerp wordt uitgelegd hoe u de functie Bedrijfsproces kunt gebruiken om een sjabloon voor bedrijfsprocessen te maken voor processen die moeten worden voltooid in uw organisatie.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303953"
 ---
 # <a name="formalize-business-processes"></a>Bedrijfsprocessen formaliseren
 
@@ -43,7 +43,7 @@ Voor elk bedrijfsproces kunt u een proceseigenaar opgeven. De eigenaar van het p
 De eigenaar van een proces kan geen nieuwe bedrijfsprocessen of sjablonen voor bedrijfsprocessen maken of actieve bedrijfsprocessen of sjablonen voor bedrijfsproces verwijderen.
 
 ## <a name="tasks"></a>Opdrachten
-Een bedrijfsproces bestaat vaak uit meerdere taken. Sommige taken, zoals het beoordelen van het interne cursusaanbod, kunnen worden uitgevoerd in Microsoft Dynamics 365 for Talent. In dit geval is een optie geselecteerd in het veld **Taakkoppeling**. Bij andere taken kan het gaan om het controleren of invullen van pagina's op een website. In dit geval is **URL** geselecteerd in het veld **Taakkoppeling** en kan het webadres worden ingevoerd. U kunt URL's invoeren voor externe en interne locaties. U kunt ook taken maken voor activiteiten die u handmatig uitvoert, zoals een controle van de toegankelijkheid van alle structuren. In dit geval is een taakkoppeling niet vereist. Dankzij deze flexibiliteit kunt u meerdere soorten taken volgen in een uitgebreid proces.
+Een bedrijfsproces bestaat vaak uit meerdere taken. Sommige taken, zoals het beoordelen van het interne cursusaanbod, kunnen worden uitgevoerd in Microsoft Dynamics 365 for Talent[?]. In dit geval is een optie geselecteerd in het veld **Taakkoppeling**. Bij andere taken kan het gaan om het controleren of invullen van pagina's op een website. In dit geval is **URL** geselecteerd in het veld **Taakkoppeling** en kan het webadres worden ingevoerd. U kunt URL's invoeren voor externe en interne locaties. U kunt ook taken maken voor activiteiten die u handmatig uitvoert, zoals een controle van de toegankelijkheid van alle structuren. In dit geval is een taakkoppeling niet vereist. Dankzij deze flexibiliteit kunt u meerdere soorten taken volgen in een uitgebreid proces.
 
 Taken kunnen worden toegewezen aan een specifieke werknemer of aan een positie. De manager Compensatie en vergoedingen is bijvoorbeeld altijd de persoon die een controle van verzekeringspremies uitvoert. Selecteer bij het maken van deze taak daarom **Positie** bij **Toewijzingstype** en selecteer vervolgens **Manager Compensatie en vergoedingen** in de lijst **Positie**. Wanneer het bedrijfsproces wordt gestart, wordt de taak toegewezen aan de werknemer die de positie **Manager Compensatie en vergoedingen** bekleedt. Als u een taak aan een specifieke werknemer wilt toewijzen, selecteert u **Werknemer** in het veld **Toewijzingstype** en selecteert u de betreffende persoon.
 
@@ -74,5 +74,4 @@ Als u een sjabloon voor bedrijfsprocessen wilt maken of kopiëren, of een bedrij
 - Selecteer **Proces starten** om het geselecteerde bedrijfsproces te starten, taken toe te wijzen en vervaldatums te berekenen.
 
 Als u actieve processen en bijbehorende taken wilt weergeven, opent u het werkgebied **Bedrijfsprocessen**.
-
 

@@ -5,27 +5,26 @@ author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313584"
 ---
-
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 
 [!include [banner](includes/banner.md)]
@@ -91,7 +90,7 @@ De traditionele zoekopdracht voor klanten kan tijdrovend zijn, omdat er meerdere
 
 ![Snelkoppelingen voor het zoeken naar klanten](./media/SearchShortcutsPOS.png "Snelkoppelingen voor het zoeken naar klanten")
 
-Voor het instellen van zoekcriteria als snelkoppelingen moet de beheerder moet de pagina **Detailhandelparameters** open in Microsoft Dynamics 365 for Finance and Operations en vervolgens op het tabblad **POS-zoekcriteria** klikken en alle criteria selecteren die moeten worden weergegeven als snelkoppelingen.
+Voor het instellen van zoekcriteria als snelkoppelingen moet de beheerder de pagina **Detailhandelparameters** openen in Microsoft Dynamics 365 for Finance and Operations en vervolgens op het tabblad **POS-zoekcriteria** klikken en alle criteria selecteren die moeten worden weergegeven als snelkoppelingen.
 
 ![Snelkoppelingen voor zoeken configureren](./media/ConfigureShortcutsAX.png "Snelkoppelingen voor zoeken configureren")
 
@@ -102,4 +101,3 @@ Het veld **Weergavevolgorde** bepaalt de volgorde waarin de snelkoppelingen word
 
 > [!NOTE]
 > Een aangepaste eigenschap die wordt toegevoegd aan de enum heeft geen invloed op het standaardzoekalgoritme voor klanten. Het klantzoekalgoritme zoekt dus niet in de aangepaste eigenschap. Gebruikers kunnen alleen een aangepaste eigenschap gebruiken voor zoekopdrachten als die aangepaste eigenschap is toegevoegd als een snelkoppeling of als het standaardzoekalgoritme is overschreven.
-

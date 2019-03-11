@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmRelease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 400c2786d80681827829286e6e9667b4d51612c4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9b9009c714445871c15363c26829da812e56c688
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339367"
 ---
-
 # <a name="release-production-orders"></a>Productieorders vrijgeven
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Werkzaamheden voor het verzamelen van grondstoffen worden gegenereerd tijdens de
 -   Een locatierichtlijn voor het verzamelen van grondstoffen die bepaalt op welke magazijnlocatie de materialen moeten worden verzameld
 -   Een wavesjabloon voor grondstoffen, waarin het beleid voor de uitvoering van magazijnwerkzaamheden is geconfigureerd
 -   Een productie-invoerlocatie die bepaalt waar de materialen worden geplaatst
-
 
 
 

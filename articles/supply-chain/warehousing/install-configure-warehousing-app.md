@@ -1,13 +1,13 @@
 ---
-title: Microsoft Dynamics 365 for Finance and Operations - Warehousing installeren en configureren
-description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations - Warehousing installeert en configureert.
+title: Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing installeren en configureren
+description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations - Warehousing kunt installeren en configureren.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
-ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316114"
 ---
-
-# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Finance and Operations - Warehousing installeren en configureren
+# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing installeren en configureren
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +35,7 @@ ms.lasthandoff: 12/04/2018
 > In dit onderwerp wordt beschreven hoe u magazijnbeheer voor cloudimplementaties configureert. Als u wilt weten hoe u magazijnbeheer configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations - Warehousing installeert en configureert.
+In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations - Warehousing kunt installeren en configureren.
 
 Finance and Operations - Warehousing is een app die beschikbaar is via Google Play Store en Windows Store. Voor de huidige versie van Finance and Operations wordt deze app geleverd als een zelfstandig onderdeel. Dit betekent dat u het zelf moet implementeren op apparaten die worden gebruikt voor magazijntaken. Om de app in uw Finance and Operations-omgeving te kunnen gebruiken, moet u de app downloaden op elk apparaat en configureren om verbinding te maken met uw Finance and Operations-omgeving. In dit onderwerp wordt beschreven hoe u de app op uw apparaten installeert. Ook wordt uitgelegd hoe u de app configureert om verbinding te maken met uw Finance and Operations-omgeving.
 
@@ -47,17 +46,19 @@ De app is beschikbaar op Android- en Windows-besturingssystemen. Als u deze toep
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (alle versies)                                                                                                                                                   |
-| Finance en Operations | Microsoft Dynamics 365 for Operations, versie 1611 <br>– of – <br>Microsoft Dynamics AX, versie 7.0/7.0.1 en Microsoft Dynamics AX-platform, update 2 met hotfix KB 3210014 |
+| Finance en Operations | Microsoft Dynamics 365 for Operations, versie 1611 <br>– of – <br>Microsoft Dynamics AX versie 7.0/7.0.1 en Microsoft Dynamics AX platform update 2 met hotfix KB 3210014 |
 
 ## <a name="get-the-app"></a>De app verkrijgen
 -   Windows (UWP)
      - [Finance and Operations - Warehousing via Windows Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 -   Android
     - [Finance and Operations - Warehousing in de Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
-    - [Finance and Operations - Warehousing in de Zebra App Gallery](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
 
-## <a name="create-a-web-service-application-in-azure-active-directory"></a>Een webservicetoepassing maken in Azure Active Directory
-Als u de app wilt laten samenwerken met een specifieke Finance and Operations-server, moet u een webservicetoepassing registreren in een Azure Active Directory voor de Finance and Operations-tenant. Uit veiligheidsoverwegingen wordt aangeraden dat u een webservicetoepassing maakt voor elk apparaat dat u gebruikt. Als u een webservicetoepassing wilt maken in Azure Active Directory (Azure AD), voert u de volgende stappen uit:
+> [!NOTE]
+> De Zebra App Gallery is buiten gebruik gesteld, wat betekent dat de app Finance and Operations - Warehousing niet meer kan worden gedownload vanaf die locatie.
+
+## <a name="create-a-web-service-application-in-azure-active-directory"></a>Een webservicetoepassing in Azure Active Directory maken
+Als u de app wilt inschakelen voor een specifieke Finance and Operations-server, moet u een webservicetoepassing registreren in een Azure Active Directory voor de Finance and Operations-tenant. Uit veiligheidsoverwegingen wordt aangeraden dat u een webservicetoepassing maakt voor elk apparaat dat u gebruikt. Als u een webservicetoepassing in Azure Active Directory (Azure AD) wilt maken, voert u de volgende stappen uit:
 
 1.  Ga in een webbrowser naar <https://portal.azure.com>.
 2.  Voer de naam en het wachtwoord in voor de gebruiker die toegang heeft tot het Azure-abonnement.
@@ -72,14 +73,14 @@ Als u de app wilt laten samenwerken met een specifieke Finance and Operations-se
 11. Klik op **Opslaan** en kopieer de sleutel. Naar deze sleutel wordt later verwezen als **Clientgeheim**. [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Een gebruikersaccount in Finance and Operations maken en configureren
-Om ervoor te zorgen dat Finance and Operations uw Azure AD-toepassing kan gebruiken, moet u de volgende configuratiestappen uitvoeren:
+Als u Finance and Operations wilt inschakelen voor gebruik van uw Azure AD-toepassing, moet u de volgende configuratiestappen uitvoeren:
 
 1.  Maak een Finance and Operations-gebruiker die met de gebruikersreferenties van de app Warehousing overeenkomt.
     1.  Ga in Finance and Operations naar **Systeembeheer** &gt; **Algemeen** &gt; **Gebruikers**.
     2.  Maak een nieuwe gebruiker.
     3.  Wijs de gebruiker van het mobiele apparaat voor Magazijnbeheer toe, zoals in de volgende schermopname wordt weergegeven. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-2.  Koppel uw Azure Active Directory-toepassing aan de gebruiker van de app Magazijnbeheer.
+2.  Koppel uw Azure Active Directory-toepassing aan de gebruiker van de app voor magazijnbeheer.
     1.  Ga in Finance and Operations naar **Systeembeheer** &gt; **Instellen** &gt; **Azure Active Directory-toepassingen**.
     2.  Maak een nieuwe regel.
     3.  Voer de **Client-ID** in (verkregen in het laatste gedeelte), geef deze een naam en selecteer de eerder gemaakte gebruiker. Het is raadzaam al uw apparaten te labelen, zodat u eenvoudig de toegang ervan tot Finance and Operations van deze pagina kunt verwijderen voor het geval u ze kwijt raakt. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
@@ -92,13 +93,13 @@ U moet de app configureren op het apparaat om verbinding te maken met de Finance
 3.  Voer de volgende gegevens in: 
     + **Client-id Azure Active Directory**: De client-id wordt verkregen in stap 9 in "Een webservicetoepassing maken in Active Directory". 
     + **Clientgeheim Azure Active Directory**: Het clientgeheim wordt verkregen in stap 11 in "Een webservicetoepassing maken in Active Directory". 
-    + **Resource Azure Active Directory**: De resource van Azure AD toont de hoofd-URL van Finance and Operations. **Opmerking**: dit veld mag niet met een slash (/) worden afgesloten. 
+    + **Resource Azure Active Directory**: de resource van Azure AD toont de hoofd-URL van Finance and Operations. **Opmerking**: dit veld mag niet met een slash (/) worden afgesloten. 
     + **Tenant Azure Active Directory**: de Azure AD-tenant die wordt gebruikt met de Finance and Operations-server: `https://login.windows.net/your-AD-tenant-ID`. Bijvoorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Opmerking**: dit veld mag niet met een slash (/) worden afgesloten. 
     + **Bedrijf**: Voer de rechtspersoon in Finance and Operations in waarmee de toepassing verbinding moet maken. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Selecteer de knop **Terug** in de linkerbovenhoek van de toepassing. De toepassing maakt nu verbinding met uw Finance and Operations-server en het aanmeldingsscherm wordt voor de magazijnmedewerker weergegeven. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
-Zie voor informatie over het instellen van Dynamics 365 for Finance and Operations – Magazijnbeheer voor het scannen van streepjescodes met behulp van een camera op een mobiel apparaat [Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations – Warehousing](scan-bar-codes-using-a-camera.md)
+Raadpleeg voor meer informatie over het instellen van Dynamics 365 for Finance and Operations – Warehousing om streepjescodes te scannen met behulp van een camera op een mobiel apparaat [Streepjescodes  scannen met een camera in Dynamics 365 for Finance and Operations – Warehousing](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>Toegang voor een apparaat verwijderen
 In geval van een verloren of beschadigd apparaat moet u de toegang tot Finance and Operations voor het apparaat verwijderen. In de volgende stappen wordt het aanbevolen proces beschreven om toegang uit te schakelen.
@@ -111,4 +112,3 @@ In geval van een verloren of beschadigd apparaat moet u de toegang tot Finance a
 6.  Zorg ervoor dat de **client-id** van de toepassing hetzelfde is als bij stap 2 in deze sectie.
 7.  Klik op de knop **Verwijderen** in het bovenste deelvenster.
 8.  Klik op **Ja** in het bevestigingsbericht.
-

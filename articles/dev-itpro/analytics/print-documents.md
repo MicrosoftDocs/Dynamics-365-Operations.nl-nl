@@ -5,9 +5,9 @@ author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362045"
 ---
-
 # <a name="document-printing"></a>Documenten afdrukken
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ In Microsoft Dynamics 365 for Finance and Operations kunt u documenten afdrukken
 
 ## <a name="printing-overview"></a>Afdrukoverzicht
 
-Microsoft Dynamics 365 for Finance and Operations biedt geïntegreerde services en clienttoepassingen waarmee u eenvoudig documenten kunt genereren, opslaan en distribueren die de bedrijfsactiviteiten ondersteunen. In Finance and Operations kunt u documenten afdrukken met behulp van een lokale printer of een netwerkapparaat. U kunt bovendien de pagina's en rapporten van Finance and Operations rechtstreeks exporteren vanaf de client als PDF-bestanden of Microsoft Office-documenten. Ten slotte zorgt de gedistribueerde werkbelasting dat bedrijfsdocumenten rechtstreeks kunt afdrukken vanaf een mobiel apparaat met behulp van netwerkbronnen. Ook al variëren de afdrukeisen, in alle bedrijfstakken zijn gewoonlijk papieren exemplaren nodig van zakelijke documenten via Finance and Operations. Het afdrukken van documenten op netwerkapparaten via gehoste toepassingen vormt een unieke uitdaging. Hieronder vindt u enkele voorbeelden:
+Microsoft Dynamics 365 for Finance and Operations biedt geïntegreerde services en clienttoepassingen die het gemakkelijk maken om documenten die bedrijfsactiviteit ondersteunen, te genereren, op te slaan en te distribueren. In Finance and Operations kunt u documenten afdrukken met behulp van een lokale printer of een netwerkapparaat. U kunt bovendien de pagina's en rapporten van Finance and Operations rechtstreeks exporteren vanaf de client als PDF-bestanden of Microsoft Office-documenten. Ten slotte zorgt de gedistribueerde werkbelasting dat bedrijfsdocumenten rechtstreeks kunt afdrukken vanaf een mobiel apparaat met behulp van netwerkbronnen. Ook al variëren de afdrukeisen, in alle bedrijfstakken zijn gewoonlijk papieren exemplaren nodig van zakelijke documenten via Finance and Operations. Het afdrukken van documenten op netwerkapparaten via gehoste toepassingen vormt een unieke uitdaging. Hieronder vindt u enkele voorbeelden:
 
 - Printerstuurprogramma's zijn mogelijk niet beschikbaar op het apparaat van de gebruiker.
 - Het apparaat van de gebruiker kan niet worden verbonden met het bedrijfsnetwerk.
@@ -76,4 +75,3 @@ Het volgende diagram toont de basisonderdelen voor het ondersteunen van netwerka
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Houd er rekening mee dat één printer kan worden geregistreerd met meerdere documentrouteringsagents. Om te voldoen aan de printervoorkeuren gebruikt de gehoste service het netwerkpad dat een unieke identificatie is voor elke netwerkprinter. Hierdoor wordt zelfs een printer die door meerdere clients is geregistreerd, als één selectie weergegeven in de lijst met printers die beschikbaar zijn in toepassingen van Finance and Operations.
-

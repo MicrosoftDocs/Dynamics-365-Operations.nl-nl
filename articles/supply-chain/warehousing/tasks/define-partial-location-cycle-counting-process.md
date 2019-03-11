@@ -1,13 +1,13 @@
---- 
-title: "Gedeeltelijk locatieproces voor cyclustelling definiëren "
+---
+title: 'Gedeeltelijk locatieproces voor cyclustelling definiëren '
 description: Wanneer u cyclustellingsplannen gebruikt om telwerk te maken, kunt u de werkelijke telbewerkingen leiden door aan te vragen dat alleen specifieke producten en productvarianten worden geteld in plaats van alle voorhanden voorraad op de locatie.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3aafb42cea1664b0629f57fe4492736601902cc1
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 030f0f75d64c97f1109f36c9fd38283c2d1fa7b0
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373392"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Gedeeltelijk locatieproces voor cyclustelling definiëren  
 
@@ -71,5 +71,4 @@ Wanneer u cyclustellingsplannen gebruikt om telwerk te maken, kunt u de werkelij
 13. Typ of selecteer een waarde in het veld Criteria.
 14. Klik op OK.
 15. Sluit de pagina.
-
 

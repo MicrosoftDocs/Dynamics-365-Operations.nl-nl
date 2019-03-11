@@ -1,13 +1,13 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Operations, versie 1611 (november 2016 )
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Operations, versie 1611.
+title: Wat is nieuw of gewijzigd in Dynamics 365 for Operations versie 1611 (november 2016)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Operations versie 1611.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339068"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Operations, versie 1611 (november 2016 )
+# <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Operations versie 1611 (november 2016)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Operations, versie 1611.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Operations versie 1611.
 
 ## <a name="cost-accounting"></a>Kostprijsboekhouding
 
@@ -101,7 +100,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 </tr>
 <tr>
 <td>Rapporten maken met Excel.
-<blockquote>[!NOTE] U moet Microsoft Excel 2016 gebruiken.</blockquote>
+<blockquote>[!NOTE] U moet Microsoft Excel 2016 uitvoeren.</blockquote>
 </td>
 <td>U kunt kostprijsboekhoudinggegevens rechtstreeks naar Excel exporteren via gegevensentiteiten met Microsoft PivotTable rapporten maken.</td>
 </tr>
@@ -344,7 +343,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 <li>Zweden</li>
 </ul>
 </td>
-<td>Dynamics 365 voor Operations is beschikbaar in 18 extra landen. In het kader van onze inzet om lokalisatie gemakkelijker en meer configureerbaar te maken, zijn de functies voor wettelijke elektronische rapportage geconverteerd naar ER-configuraties (Electronic Reporting). Ook zijn enkele wettelijk verplichte Microsoft SQL Server Reporting Services-rapporten (SSRS-rapporten) geconverteerd naar ER-configuraties op basis van Excel-sjablonen. Deze geconverteerde functies worden specifiek vermeld verderop in deze tabel.</td>
+<td>Dynamics 365 for Operations is beschikbaar in 18 andere landen omvat. In het kader van onze inzet om lokalisatie gemakkelijker en meer configureerbaar te maken, zijn de functies voor wettelijke elektronische rapportage geconverteerd naar ER-configuraties (Electronic Reporting). Ook zijn enkele wettelijk verplichte Microsoft SQL Server Reporting Services-rapporten (SSRS-rapporten) geconverteerd naar ER-configuraties op basis van Excel-sjablonen. Deze geconverteerde functies worden specifiek vermeld verderop in deze tabel.</td>
 </tr>
 <tr>
 <td>Japan: vaste activa groeperen wanneer u formulier 26 en de toegevoegde tabellen afdrukt.</td>
@@ -624,7 +623,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 | ER-rapporten configureren voor het genereren van elektronische documenten in Excel-, Microsoft Word- of PDF-indeling. | Met één configuratie kunnen ER-rapporten elektronische documenten genereren in drie verschillende indelingen: OpenXML-werkblad (Excel), Word en XML Forms Data Format (XFDF, PDF). Gebruikers kunnen een indeling selecteren door een indelingssjabloon toe te voegen aan een ER-rapport als een Excel-, Word-, of PDF-document. |
 | ER-rapporten configureren voor het invoegen van gegevens in kop- en -voetteksten van elektronische documenten die in OpenXML-werkbladindeling worden gegenereerd en voor het controleren van pagina-einden. | ER-rapporten kunnen zakelijke gegevens invoegen in paginakopteksten en -voetteksten en ook bepalen waar pagina-einden worden geplaatst. Zo kunnen de rapporten de statische secties ondersteunen boven- en onderaan pagina's van elektronische documenten die worden gegenereerd. Ze kunnen ook specifieke paginering van documenten ondersteunen, zodat deze voldoen aan wettelijke vereisten. |
 | De bestemming van ER-rapporten configureren, zodat de uitvoer als e-mail wordt verzonden en zakelijke gegevens en ER-logica (expressies) kunnen worden gebruikt om tijdens uitvoeringstijd aan te geven welk e-mailadres wordt gebruikt. | Voorheen kon u bij het configureren van een ER-bestemming het e-mailadres van de ontvanger definiëren tijdens het ontwerpen. U kunt nu een expressie in de ER-indeling configureren. Deze expressie kan vervolgens in een bestemming apart worden geselecteerd als de bron van het e-mailadres voor elke indelingsconfiguratie en elke uitvoercomponent (map of bestand). Zo kan bij het uitvoeren van een ER-rapport elk gegenereerde bestand naar een andere ontvanger worden verzonden, en het e-mailadres kan worden gedefinieerd op basis van ER-logica en zakelijke gegevens. |
-| De bestemming van ER-rapporten configureren, zodat de uitvoer wordt verzonden naar de Microsoft SharePoint-map als een nieuw, benoemd bestand of een nieuwe versie van het bestaande bestand, en zodat de bedrijfsgegevens kunnen worden gebruikt in het Microsoft Power BI-framework als een gegevensset of als een rapport. | Wanneer u ER-rapporten configureert, kunt u nu eenvoudig (zonder code te gebruiken) de vereiste zakelijke gegevens voorbereiden, zodat deze door het Power BI-framework kunnen worden gebruikt. Wanneer u deze ER-rapporten uitvoert, kunt u de juiste, reeds beschikbare bedrijfsgegevens en/of Excel-rapporten leveren aan het Power BI-framework. Als u het rapport instelt voor periodieke uitvoering, kunt u de geplande push van bedrijfsgegevens vanuit Dynamics 365 for Operations laten aansluiten op de updateplanning van de op Power BI gebaseerde rapporten. |
+| De bestemming van ER-rapporten configureren, zodat de uitvoer wordt verzonden naar de Microsoft SharePoint-map als een nieuw, benoemd bestand of een nieuwe versie van het bestaande bestand, en zodat de bedrijfsgegevens kunnen worden gebruikt in het Microsoft Power BI-framework als een gegevensset of als een rapport. | Wanneer u ER-rapporten configureert, kunt u nu eenvoudig (zonder code te gebruiken) de vereiste zakelijke gegevens voorbereiden, zodat deze door het Power BI-framework kunnen worden gebruikt. Wanneer u deze ER-rapporten uitvoert, kunt u de juiste, reeds beschikbare bedrijfsgegevens en/of Excel-rapporten leveren aan het Power BI-framework. Als u het rapport instelt voor periodieke uitvoering, kunt u de geplande push van bedrijfsgegevens vanuit Dynamics 365 for Operations naar Power BI laten aansluiten op de updateplanning van de op Power BI gebaseerde rapporten. |
 | ER-rapporten configureren om een reeds gegenereerd deel van een elektronisch document te gebruiken als gegevensbron voor de rest van het document. | U kunt de ER-rapporten configureren die de uitvoer in tekstindeling aanmaken om het aantal regels in het document te tellen. Deze informatie kan vervolgens in andere delen van het document worden gebruikt om regels te maken die samenvattingsdetails geven. De samenvattingsinformatie (totalen en getallen) kan worden berekend en uitgevoerd naar de elektronische documenten die worden gegenereerd zonder dat de gegevens nog een keer moeten worden omgezet. Deze functie helpt zo de prestaties van de rapportuitvoering te verbeteren en vereenvoudigt toekomstig onderhoud van de geconfigureerde ER-indeling. |
 | ER-rapporten configureren om de bestandsnaamextensie op te geven voor elektronische documenten die in tekstindeling worden gegenereerd. | U kunt ER-rapporten configureren om de uitvoer in tekstindeling te maken, zodat dit kan worden opgeslagen als een bestand met een specifieke extensie. Naast de standaardextensie .txt kunt u extensies zoals .csv en .prn configureren volgens de indelingsspecificaties. |
 | Nieuwe ER-rapporten maken die zijn gebaseerd op een specifieke versie van een ER-model. | Voorheen kon u bij het aanmaken van een nieuwe ER-indeling alleen de meest recente versie van het geselecteerde ER-model gebruiken als de gegevensbronlocatie van de indeling. U kunt nu elke beschikbare versie van het geselecteerde ER-model selecteren. Met deze functie kunt u ER-rapporten voor het huidige jaar aanhouden en daarnaast al een nieuwe versie van het ER-model voor het volgende jaar ontwerpen. |
@@ -764,7 +763,7 @@ Naadloze handel over meerdere kanalen verwijst naar beheer en orderverwerken in 
 
 | Wat u kunt doen | Waarom dit belangrijk is |
 |-----------------|-----------------------|
-| Bekijk persoonlijke productaanbevelingen op meerdere contactpunten op POS om te bepalen waarin een klant geïnteresseerd kan zijn op basis van hun inkoophistorie, artikelen op hun wensenlijst en artikelen die andere klanten online en in fysieke winkels hebben gekocht. | Bij detailhandelaren met grote catalogi kunnen persoonlijke aanbevelingen de klant bijstaan in het ontdekken van producten en stellen winkelmedewerkers in staat beter te werken door intelligente clienteling. Door producten te belichten die zijn gericht op de interesses van een klant en diens koopgewoontes, kunnen productaanbevelingen detailhandelaren helpen met upsell en klantenbinding. Productaanbevelingen worden in Microsoft Dynamics 365 for Retail aangestuurd door cognitieve services en Microsoft Azure Machine Learning. |
+| Bekijk persoonlijke productaanbevelingen op meerdere contactpunten op POS om te bepalen waarin een klant geïnteresseerd kan zijn op basis van hun inkoophistorie, artikelen op hun wensenlijst en artikelen die andere klanten online en in fysieke winkels hebben gekocht. | Bij detailhandelaren met grote catalogi kunnen persoonlijke aanbevelingen de klant bijstaan in het ontdekken van producten en stellen winkelmedewerkers in staat beter te werken door intelligente clienteling. Door producten te belichten die zijn gericht op de interesses van een klant en diens koopgewoontes, kunnen productaanbevelingen detailhandelaren helpen met upsell en klantenbinding. In Microsoft Dynamics 365 for Retail worden productaanbevelingen aangestuurd door Cognitieve services en Microsoft Azure Machine Learning. |
 
 ### <a name="pos-task-recorder"></a>POS-taakregistratie
 
@@ -801,7 +800,7 @@ Store system is een implementatiekeuze die detailhandelaars helpt een set winkel
 | Een detailhandelaar kan beveiligde communicatie tussen het lokale Store system en HQ hebben. | De detailhandelaar kan met beveiliging communiceren vanuit Store system, als er verbinding is. |
 | De IT-beheerder en Microsoft Operations kunnen op het lokale Store system bewaken en erover rapporteren (diagnostiek en wijzigingen rapporteren). | De IT-beheerder Microsoft Operations kunnen Store system met beveiliging bewaken en efficiënt problemen oplossen. |
 
-### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>App voor Universeel Windows Platform voor Retail Modern POS
+### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Universele Windows-platformapp voor Retail Modern POS
 
 Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing voor desktop-pc's en tablets, en in de vorm van Cloud POS voor browsers op desktop-pc's en tablets. In deze versie is Retail Modern POS omgezet in een app voor het universeel Windows-platform (UWP). Dankzij deze wijziging kan Retail Modern POS worden uitgevoerd op elk Windows 10-apparaat (desktop, tablet of telefoon) en zelfs schakelen tussen weergaven voor apparaten die geschikt zijn voor Continuum.
 
@@ -819,7 +818,7 @@ Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing
 | Als leverancier: informatie ophalen over de hoeveelheid geconsigeerde voorraadartikelen die naar de klant wordt overgeboekt. | Om een klant te kunnen factureren, moet de leverancier informatie hebben over de grondstoffen die van de consignatievoorraad zijn gekocht en de datum van inkoop. De leverancier kan ook de voorhanden voorraad op de klantlocatie bewaken via de interface voor leverancierssamenwerking. |
 | Voorraad in eigendom van de leverancier verplaatsen door middel van een overboekingsjournaal. | Als u de fysieke positie van de voorraad in eigendom van de leverancier wilt bijhouden, moet u de positie in het systeem kunnen registreren. Als u gebruik maakt van een overboekingsjournaal, kunt u de fysieke verplaatsing van voorraad registreren, zoals een verplaatsing van de ene plek in een magazijn naar een andere locatie in dat magazijn. |
 | Voorraad in eigendom van de leverancier aanpassen door middel van een tellijst. | Het is belangrijk om de in het systeem geregistreerde voorhanden voorraad synchroon te houden met de daadwerkelijke fysieke voorraad. De voorraad in eigendom van de leverancier kan voor in- en uitgaande mutaties worden gecorrigeerd door middel van telprocessen zoals hoeveelheidscorrecties en tellijstprocessen. |
-| Meer te weten komen over ondersteuning voor consignatie in Dynamics 365 for Operations. | Voor meer informatie over de ondersteuning voor consignatieprocessen zie [Consignatie](../../supply-chain/inventory/consignment.md), [Consignatie instellen](../../supply-chain/inventory/set-up-consignment.md), [Een nieuwe consignatieaanvullingsorder maken (taakbegeleiding)](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) en [Het eigendom van consignatievoorraad wijzigen op basis van de productievraag (taakbegeleiding)](../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Meer informatie over ondersteuning voor consignatie in Dynamics 365 for Operations | Voor meer informatie over de ondersteuning voor consignatieprocessen zie [Consignatie](../../supply-chain/inventory/consignment.md), [Consignatie instellen](../../supply-chain/inventory/set-up-consignment.md), [Een nieuwe consignatieaanvullingsorder maken (taakbegeleiding)](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) en [Het eigendom van consignatievoorraad wijzigen op basis van de productievraag (taakbegeleiding)](../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Leverancierssamenwerking (voorheen bekend als de Leveranciersportal)
 
@@ -828,7 +827,7 @@ Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing
 | Leveranciers in staat stellen om op elke inkooporderregel te reageren en wijzigingen voor te stellen. | In sommige gevallen willen leveranciers sommige inkooporderregels accepteren maar andere afwijzen. Leveranciers kunnen nu individuele inkooporderregels beheren. Elke regel kan worden worden afgewezen, geaccepteerd of geaccepteerd met wijzigingen. Bijvoorbeeld kunnen leveranciers de leveringsdatum wijzigen, de levering en hoeveelheid splitsen, of een alternatief artikel voorstellen. |
 | Leveranciers in staat stellen om gegevens van contactpersonen te beheren. | Leveranciers kunnen gegevens voor contactpersonen voor hun bedrijf beheren. Deze informatie omvat namen, e-mailadressen en telefoonnummers. De toegang tot deze functie wordt verleend door middel van een specifieke beveiligingsrol. |
 | Documenten die gerelateerd zijn aan inkooporders delen met leveranciers. | Wanneer u een document met een leverancier moet delen, zoals een document over vereisten, is het handig om het document aan de relevante inkooporder te koppelen. De leverancier kan dan opmerkingen en bijlagen delen met de klant, door het document te koppelen aan zijn of haar antwoord op de inkooporder. Documentbeheer is het onderliggende ondersteunende raamwerk. Alleen opmerkingen en bijlagen die zijn geclassificeerd als 'extern' kunnen met leveranciers worden gedeeld. |
-| Nieuwe gebruikers van leveranciers inrichten. | Als uw leveranciers de leverancierssamenwerkingsinterface gebruiken, hebben ze een naadloze manier om nieuwe gebruikersaccounts aan te vragen wanneer nieuwe contactpersonen toegang tot leverancierssamenwerking nodig hebben. Inkoopmedewerkers kunnen een aanvraag voor een gebruikersaccount voor een contactpersoon van de leveranciersorganisatie indienen. Een contactpersoon van een leverancier die al een gebruiker is in Leverancierssamenwerking, kan dit type aanvraag ook indienen. Deze aanvraag maakt uiteindelijk een nieuwe gebruiker aan in Dynamics 365 for Operations met leverancierspecifieke beveiligingsrollen. Het verstuurt ook een aanvraag aan de Microsoft Azure B2B-portal om voor de gebruiker een nieuwe gebruikersaccount in Azure Active Directory (AAD) in te richten. Leveranciers kunnen ook verzoeken om specifieke leveranciersgebruikersaccounts te deactiveren of de beveiligingsrollen aan te passen. |
+| Nieuwe gebruikers van leveranciers inrichten. | Als uw leveranciers de leverancierssamenwerkingsinterface gebruiken, hebben ze een naadloze manier om nieuwe gebruikersaccounts aan te vragen wanneer nieuwe contactpersonen toegang tot leverancierssamenwerking nodig hebben. Inkoopmedewerkers kunnen een aanvraag voor een gebruikersaccount voor een contactpersoon van de leveranciersorganisatie indienen. Een contactpersoon van een leverancier die al een gebruiker is in Leverancierssamenwerking, kan dit type aanvraag ook indienen. Deze aanvraag maakt uiteindelijk een nieuwe gebruiker aan in Dynamics 365 for Operations met leverancierspecifieke beveiligingsrollen. Het vergemakkelijkt ook een aanvraag bij het Microsoft Azure B2B-portal om de gebruiker te voorzien van een nieuw Azure Active Directory (Azure AD) gebruikersaccount. Leveranciers kunnen ook verzoeken om specifieke leveranciersgebruikersaccounts te deactiveren of de beveiligingsrollen aan te passen. |
 | Meer te weten komen over ondersteuning voor leverancierssamenwerking in Dynamics 365 for Operations. | Meer informatie over leverancierssamenwerking vindt u in [Leverancierssamenwerking met externe leveranciers](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md), [Leverancierssamenwerking met klanten](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md), [Leverancierssamenwerkingsgebruikers beheren](../../supply-chain/procurement/manage-vendor-collaboration-users.md), [Leverancierssamenwerking instellen en onderhouden](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md) en [Het werkgebied Leverancierssamenwerkingsfacturen](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). |
 
 ### <a name="intercompany-order-processing"></a>Intercompany-orders verwerken
@@ -885,7 +884,7 @@ Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing
 | Wat u kunt doen | Waarom dit belangrijk is |
 |-----------------|-----------------------|
 | Verschillende containertypen modelleren. | U gebruikt mogelijk verschillende containertypen in uw magazijn om opslag te optimaliseren en voor andere redenen. De nieuwe entiteit Containertype heeft de fysieke kenmerken van de containertypen. U kunt nu nummerplaten koppelen aan een bepaald containertype en de locatieopslaglimieten gebruiken. U kunt bijvoorbeeld met deze functie bepalen hoeveel pallets (of andere containertypen) op een specifieke locatie zijn toegestaan. Containertypen zijn ook toegevoegd aan de eenheidvolgordegroepen om standaardcontainertypen voor het ontvangende proces toe te voegen. Containertypen kunnen worden gebruikt met inkomende en uitgaande locatie-instructies. Ze kunnen ook in de weergave van de voorhanden voorraad worden gebruikt om u te helpen om te bepalen hoeveel containertypen momenteel op voorraad zijn opgeslagen. Meer informatie vindt u in het blogbericht [Gebruik van nummerplaten gekoppeld aan een containertype voor de uitvoering van processen voor magazijnbeheer](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/) Dit blogbericht beschrijft weliswaar een update voor Microsoft Dynamics AX 2012, maar dezelfde ondersteuning is nu toegevoegd aan Dynamics 365 for Operations. |
-| Leveringen omkeren. | In een magazijn moet u wijzigingen op het laatste moment kunnen verwerken. Sommige goederen zijn bijvoorbeeld beschadigd, zodat u ze niet kunt verzenden. Of een klant kan op het laatste moment een aanvraag indienen om een order te annuleren of te wijzigen. Met Dynamics 365 for Operations kunt u nu een levering omkeren. U kunt dan een pakbon annuleren, zodat u deze later met de correcte hoeveelheden kunt bijwerken. Op dezelfde manier kunt u in de inbound flow productontvangstbonnen annuleren, zodat een bijgewerkte versie kan worden gemaakt. |
+| Leveringen omkeren. | In een magazijn moet u wijzigingen op het laatste moment kunnen verwerken. Sommige goederen zijn bijvoorbeeld beschadigd, zodat u ze niet kunt verzenden. Of een klant kan op het laatste moment een aanvraag indienen om een order te annuleren of te wijzigen. Met Dynamics 365 for Operations kunt nu een zending omkeren. U kunt dan een pakbon annuleren, zodat u deze later met de correcte hoeveelheden kunt bijwerken. Op dezelfde manier kunt u in de inbound flow productontvangstbonnen annuleren, zodat een bijgewerkte versie kan worden gemaakt. |
 | Pallets met gemengde artikelen gebruiken. | U kunt nu een 'gemengd' pallet ontvangen en registreren. Een gemengde pallet bestaat uit verschillende artikelen die voor een of meer inkooporders of -regels op één pallet zijn samengebracht. Alle registraties kunnen worden samengevat in een doelnummerplaat. Dit proces wordt ingeschakeld via het mobiele apparaat van het magazijn. Wanneer bijvoorbeeld de pallet met gemengde artikelen in het magazijn aankomt, identificeert de ontvangstmedewerker de artikelen en hoeveelheden op de pallet, voordat de pallet wordt verplaatst naar specifieke opslaglocaties. De opslaglocaties worden geïdentificeerd door werksjablonen en locatie-instructies. Als de opslaglocaties zijn verdeeld over verschillende artikelen met vaste locaties, maakt deze functie net zoveel regels voor neerzetwerk aan als er verschillende artikelen in de gemengde pallet zijn. Deze functie maakt het sneller en flexibeler om de ontvangen pallets met gemengde artikelen te registreren en weg te zetten. Meer informatie vindt u in het blogbericht [Ontvangen en registreren van een pallet met gemengde brondocumentregels met één nummerplaat](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) en de informatie voor ondersteuning voor gemengde pallets in de [aankondiging van de recente cumulatieve update](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Dit blogbericht beschrijft weliswaar een update voor AX 2012, maar dezelfde ondersteuning is nu toegevoegd aan Dynamics 365 for Operations. |
 
 ### <a name="minor-feature-enhancements-in-supply-chain-management"></a>Kleinere functieverbeteringen in Supply Chain Management
@@ -946,4 +945,3 @@ Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Wat is nieuw of gewijzigd](whats-new-changed.md)
-

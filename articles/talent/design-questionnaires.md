@@ -5,9 +5,9 @@ author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303902"
 ---
-
 # <a name="design-questionnaires"></a>Vragenlijsten ontwerpen
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ De nummerreekscodes worden gebruikt voor het ordenen van vragen en antwoorden. O
 Definieer eerst alle parameters voordat u uw gegevens gaat maken. U kunt de instellingen van de vragenlijst op elk gewenst moment wijzigen.
 
 ## <a name="questionnaire-components"></a>Vragenlijstonderdelen
-Vragenlijsten bestaat uit drie hoofdelementen: antwoordgroepen die de antwoorden voor meerkeuzevragen bevatten, en de vragenlijst zelf. U kunt de vragen in een vragenlijst desgewenst in resultaatgroepen groeperen. Met resultaatgroepen kunt u vragen categoriseren en hebt u een nadere analyse op de vragenlijst. 
+Vragenlijsten bestaat uit drie hoofdelementen: antwoordgroepen die de antwoorden voor meerkeuzevragen bevatten, en de vragenlijst zelf. U kunt de vragen in een vragenlijst desgewenst in resultaatgroepen groeperen. Met resultaatgroepen kunt u vragen categoriseren en hebt u een nadere analyse op de vragenlijst. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -111,7 +110,7 @@ Antwoordgroepen en antwoorden zijn onderdelen van de hoeveelheid informatie waar
 
 U kunt een antwoordgroep gebruiken voor meer dan één vraag in dezelfde vragenlijst en in meer dan één vragenlijst. 
 
-**Opmerking:** als u antwoordtekst in antwoordgroepen aanpast die al is gebruikt op ingevulde vragenlijsten, kunnen de gegevens moeilijk te beoordelen worden, en zijn de vragenlijstresultaten mogelijk niet meer lang geldig. Als u een antwoordgroep moet wijzigen, overweeg dan om een nieuwe antwoordgroep te maken in plaats van het een bestaande te wijzigen. U kunt geen antwoordgroepen verwijderen die aan een vraag of antwoord zijn gekoppeld, of die zijn beantwoord.
+**Opmerking:** als u antwoordtekst in antwoordgroepen aanpast die al is gebruikt op ingevulde vragenlijsten, kunnen de gegevens moeilijk te beoordelen worden, en zijn de vragenlijstresultaten mogelijk niet meer lang geldig. Als u een antwoordgroep moet wijzigen, overweeg dan om een nieuwe antwoordgroep te maken in plaats van het een bestaande te wijzigen. U kunt geen antwoordgroepen verwijderen die aan een vraag of antwoord zijn gekoppeld, of die zijn beantwoord.
 
 ### <a name="questions"></a>Vragen
 
@@ -226,7 +225,7 @@ Voor het gebruiken van voorwaardelijke vragen voor het maken van een vraaghiëra
 
 #### <a name="examples"></a>Voorbeelden
 
-Een rechtspersoon biedt zowel artikelen als services aan zijn klanten. Zoals meestal gebeurt in zulke gevallen kopen sommige klanten alleen artikelen of alleen diensten af en andere nemen beide af. Wanneer de rechtspersoon dus een klanttevredenheidsonderzoek houdt, wordt er een voorwaardelijke structuur toegepast op de vragenlijst om te voorkomen dat klanten die alleen diensten afnemen vragen moeten beantwoorden over artikelen. 
+Een rechtspersoon biedt zowel artikelen als services aan zijn klanten. Zoals meestal gebeurt in zulke gevallen kopen sommige klanten alleen artikelen of alleen diensten af en andere nemen beide af. Wanneer de rechtspersoon dus een klanttevredenheidsonderzoek houdt, wordt er een voorwaardelijke structuur toegepast op de vragenlijst om te voorkomen dat klanten die alleen diensten afnemen vragen moeten beantwoorden over artikelen. 
 
 U kunt een vragenlijst ook zo opzetten dat als een respondent antwoord A selecteert voor vraag 1, vraag 2 de volgende vraag in de vragenreeks is. Als de respondent echter antwoord B voor vraag 1 selecteert, dan is vraag 5 de volgende vraag.
 
@@ -238,5 +237,4 @@ U kunt een vragenlijst ook zo opzetten dat als een respondent antwoord A selecte
 [Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)
 
 [De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)
-
 

@@ -1,13 +1,13 @@
 ---
 title: Structuren voor werkspecificatie
-description: "Een structuur voor werkspecificatie (WBS) is een omschrijving van de werkzaamheden die voor een project worden uitgevoerd. Dit is een hiërarchie van taken die het projectteam inzicht geeft in de samenstelling van de werkzaamheden, de grootte, kosten en de duur van elke component of taak."
+description: Een structuur voor werkspecificatie (WBS) is een omschrijving van de werkzaamheden die voor een project worden uitgevoerd. Dit is een hiërarchie van taken die het projectteam inzicht geeft in de samenstelling van de werkzaamheden, de grootte, kosten en de duur van elke component of taak.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358894"
 ---
-
 # <a name="work-breakdown-structures"></a>Structuren voor werkspecificatie
 
 [!include [banner](../includes/banner.md)]
@@ -90,7 +89,7 @@ U kunt de volgende hiërarchiebewerkingen uitvoeren om het maken van een werkhi�
 
 **Nieuwe taak** Elke nieuwe taak die u maakt wordt automatisch toegevoegd onder het hoofdknooppunt, en een WBS-nummer wordt automatisch toegewezen aan de taak. Het WBS-nummer vertegenwoordigt het niveau van de taak in de hiërarchie. Voor taken in het eerste niveau onder de taak van de projecthoofdmap, wordt een nummeringsplan van 1, 2, 3, enz. gebruikt. Voor taken onder het eerste niveau wordt een nummeringsplan van 1.1, 1.2, 1.3, enz. gebruikt. Voor elk niveau dat onder een vorig niveau wordt toegevoegd, wordt een nieuwe gestippelde reeks nummers toegevoegd. 
 
-Momenteel kunt u de WBS-nummering niet aanpassen. 
+Momenteel kunt u de WBS-nummering niet aanpassen. 
 
 **Inspringingtaak** Wanneer u een taak inspringt, wordt deze een onderliggend item van de taak die eraan voorafgaat. Het WBS-nummer van de onderliggende nieuwe taak wordt automatisch opnieuw berekend op basis van het WBS-nummer van het bijbehorende nieuwe bovenliggende item. De bovenliggende taak is nu een overzicht of containertaak en wordt daarom een samenvoeging van de integrale taken. 
 
@@ -314,7 +313,6 @@ Inspanning = aaantal resources × duur × aantal uren in een standaardwerkdag
 U kunt alle planningsfouten tegelijk corrigeren door te klikken op **Alle planningsfouten oplossen**. 
 
 Als alternatief kunt u afzonderlijk planningsfouten corrigeren door op het waarschuwingspictogram voor elke taak te klikken.
-
 
 
 

@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303958"
 ---
-
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Bedrijfsspecifieke HR-parameters instellen
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ De instellingen van bepaalde parameters van Human Resources (HR) worden in alle 
 Twee pagina's worden gebruikt om de parameters voor Human resources (HR) in te stellen. Voor parameters die door bedrijven worden gedeeld, gebruikt u de pagina **Gedeelde Human resources-parameters**. Voor parameters die bedrijfsspecifiek zijn (met andere woorden, de instellingen gelden voor één bedrijf), gebruikt u de pagina **Parameters personeel**. Op de **Human resources-parameters** pagina, zijn de instellingen verdeeld over zes tabbladen:
 
 -   Algemeen
--   Werving: dit maakt geen deel uit van Dynamics 365 for Talent
+-   Werving - dit is niet opgenomen in Dynamics 365 for Talent
 -   Compensatie
 -   Nummerreeksen
 -   Family and Medical Leave Act (FMLA)
@@ -61,7 +60,6 @@ De instellingen op het tabblad **FMLA** bepalen hoeveel uren een werknemer moet 
 --------
 
 [HR-parameters instellen voor rechtspersonen](set-up-hr-parameters-across-legal-entities.md)
-
 
 
 

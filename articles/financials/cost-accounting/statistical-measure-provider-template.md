@@ -5,28 +5,27 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360297"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statistische dimensieleden en sjablonen van provider van statistische maateenheden
 
 [!include [banner](../includes/banner.md)]
@@ -73,7 +72,7 @@ Hier volgen enkele voorbeelden van gangbare statistische dimensieleden.
 
 ## <a name="statistical-measure-provider-template"></a>Sjabloon van provider van statistische maateenheden
 
-Statistische maateenheden kunnen afkomstig zijn van allerlei bronnen. Microsoft Dynamics 365 for Finance and Operations is een fantastische bron voor statistische maateenheden. U kunt met een sjabloon van een statistische maateenheidprovider makkelijk de statistische maateenheden configureren die u wilt extraheren.
+Statistische maateenheden kunnen afkomstig zijn van allerlei bronnen. Microsoft Dynamics 365 for Finance and Operations is een uitstekende bron om statistische metingen uit te halen. U kunt met een sjabloon van een statistische maateenheidprovider makkelijk de statistische maateenheden configureren die u wilt extraheren.
 
 De definitie van een sjabloon van de provider van statistische maateenheden is algemeen en kan in meerdere statistische dimensieleden worden gebruikt.
 
@@ -347,4 +346,3 @@ Als de toewijzingsbasis voor het voorgedefinieerde dimensielid Elektriciteit wor
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Toewijzingsgrondslagen](allocation-bases.md)
-

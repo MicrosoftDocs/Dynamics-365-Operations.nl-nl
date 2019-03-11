@@ -1,13 +1,13 @@
---- 
+---
 title: Kanbantaakstatus terugdraaien
 description: Deze procedure is gericht op het terugdraaien van een onjuiste kanbantaakstatus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 27874f89cede151b52b869fa0d58e320d548e6d3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d359232da5f3087b1e6baed182a20da09aeff7
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352086"
 ---
 # <a name="revert-kanban-job-status"></a>Kanbantaakstatus terugdraaien
 
@@ -48,11 +48,10 @@ Deze procedure is gericht op het terugdraaien van een onjuiste kanbantaakstatus.
     * Selecteer de eerste taak die was voorbereid.  
 2. Klik in het actievenster op Fabriceren.
 3. Klik op Status herstellen
-    * U kunt een andere kanbanregel gebruiken wanneer aan de volgende voorwaarden wordt voldaan: - De aanvullingsstrategie is dezelfde voor beide regels.  - De versie van de productiestroom is dezelfde voor beide regels.  - Het product dat is geleverd is hetzelfde voor beide regels.  - Eventuele downstream activiteiten die voor de laatste activiteit van de kanbanregels zijn geconfigureerd, moeten dezelfde zijn voor beide regels.  - Dezelfde geleverde voorraaddimensies moeten voor beide regels zijn geconfigureerd.  - De status van de verwerkingseenheid moet Niet toegewezen zijn.  - De configuratie voor gebeurteniskanbans moet dezelfde zijn.  
+    * U kunt een andere kanbanregel gebruiken wanneer aan de volgende voorwaarden wordt voldaan: - De aanvullingsstrategie is dezelfde voor beide regels.  - De versie van de productiestroom is dezelfde voor beide regels.  - Het product dat is geleverd is hetzelfde voor beide regels.  - Eventuele downstream activiteiten die voor de laatste activiteit van de kanbanregels zijn geconfigureerd, moeten dezelfde zijn voor beide regels.  - Dezelfde geleverde voorraaddimensies moeten voor beide regels zijn geconfigureerd.  - De status van de verwerkingseenheid moet Niet toegewezen zijn.  - De configuratie voor gebeurteniskanbans moet dezelfde zijn.  
     * Zorg ervoor dat de nieuwe status Gepland is.  
 4. Klik op OK.
 5. Maak in de lijst de markering van de geselecteerde rij ongedaan.
     * Selecteer dezelfde taak.  
     * De taakstatus voor de kanbantaak is terug Gepland, wat wordt aangeduid door een leeg kanbanpictogram.  
-
 

@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368048"
 ---
-
 # <a name="configure-approval-steps-in-a-workflow"></a>Goedkeuringsstappen configureren in een workflow
 
 [!include [banner](../includes/banner.md)]
@@ -278,4 +277,3 @@ Als een gebruiker niet binnen de toegekende tijd actie onderneemt op een documen
 
 5. Herhaal stappen 3 tot en met 4 voor elke gebruiker die u aan het escalatiepad wilt toevoegen. U kunt de volgorde van de gebruikers wijzigen.
 6. Als de gebruikers in het escalatiepad niet binnen de gestelde tijd op het document reageren, onderneemt het systeem automatisch actie op het document. Om de actie in te stellen die het systeem moet uitvoeren, selecteert u de rij **Actie** en klikt u op het tabblad **Actie beëindigen**. Selecteer hier een actie.
-

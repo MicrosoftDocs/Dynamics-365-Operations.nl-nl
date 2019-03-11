@@ -1,13 +1,13 @@
---- 
+---
 title: Een doelstelling maken
 description: U kunt doelstellingen maken, activiteiten toevoegen aan doelstellingen, metingen volgen, en de doelstellingen koppelen aan een beoordeling.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350706"
 ---
 # <a name="create-a-goal"></a>Een doelstelling maken
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-U kunt doelstellingen maken, activiteiten toevoegen aan doelstellingen, metingen volgen, en de doelstellingen koppelen aan een beoordeling. Deze procedure is gemaakt met het demogegevensbedrijf USMF. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+U kunt doelstellingen maken, activiteiten toevoegen aan doelstellingen, metingen volgen, en de doelstellingen koppelen aan een beoordeling. Deze procedure is gemaakt met het demogegevensbedrijf USMF. Deze procedure is voor een functie die in Dynamics 365 for Operations, versie 1611 is toegevoegd.
 
 1. Ga naar Alle werkgebieden > Selfservice werknemer.
 2. Klik op Alle doelen weergeven
@@ -59,5 +59,4 @@ U kunt doelstellingen maken, activiteiten toevoegen aan doelstellingen, metingen
     * Vaak zijn er doelstellingen die hetzelfde of vergelijkbaar zijn voor teamleden of alle werknemers.     Uw HR-beheerder of -manager kan hiervoor doelstellingsjablonen maken. U kunt een doelstelling toevoegen op basis van een sjabloon en deze dan aanpassen voor uw tijdslijnen.  
     * Vaak zijn meerdere doelstellingen hetzelfde of vergelijkbaar voor teamleden of alle werknemers.     Uw HR-beheerder of -manager kan doelstellingsgroepen maken die een of meer doelsjablonen bevatten. U kunt doelstellingen toevoegen vanuit een doelstellingsgroep en deze dan aanpassen voor uw tijdslijnen.  
     * Wanneer u een beoordeling maakt, kunt u daaraan doelstellingen toevoegen. In de taakhandleiding voor beoordelingen wordt uitgelegd hoe u doelstellingen aan uw beoordelingen toevoegt.  
-
 

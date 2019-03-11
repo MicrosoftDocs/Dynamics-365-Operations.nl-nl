@@ -1,13 +1,13 @@
---- 
-title: "Transacties maken en overboeken naar het BLWI (België)"
-description: "Deze procedure begeleidt u bij het maken van een BLWI-rapport voor België."
+---
+title: Transacties maken en overboeken naar het BLWI (België)
+description: Deze procedure begeleidt u bij het maken van een BLWI-rapport voor België.
 author: v-oloski
 manager: AnnBe
 ms.date: 07/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 147a2bf84459a5b67ffe633d5a7dd24b31bf10da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a6e6a58fecad57673508f428f041009147125dc0
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371417"
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Transacties maken en overboeken naar het BLWI (België)
 
@@ -50,5 +50,4 @@ Klant- of leverancierstransacties gemarkeerd met een van de gekozen betalingsdoe
 16. Voer een datum in het veld Datum in.
 17. Klik op OK.
 18. Sluit de pagina.
-
 

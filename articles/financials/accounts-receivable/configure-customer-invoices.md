@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
 ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365265"
 ---
-
 # <a name="create-a-customer-invoice"></a>Een klantfactuur maken
 
 [!include [banner](../includes/banner.md)]
@@ -93,14 +92,14 @@ De volgende velden wijzigen het gedrag van het boekingsproces.
 <li><strong>Verzameld</strong>: selecteer alle hoeveelheden die zijn verzameld.</li>
 <li><strong>Alle</strong>: selecteer alle hoeveelheden op de verkooporder die nog niet zijn bijgewerkt door het huidige documenttype.</li>
 <li><strong>Pakbon</strong>: selecteer alle hoeveelheden die zijn bijgewerkt door een pakbon.</li>
-<li><strong>Verzamelde hoeveelheid en producten niet opgeslagen</strong>: selecteer alle hoeveelheden die zijn verzameld en alle producthoeveelheden die niet zijn opgeslagen.</li>
+<li><strong>Gepickt aantal en producten niet in voorraad</strong>: selecteer alle hoeveelheden die zijn gepickt en alle producthoeveelheden die niet in voorraad zijn.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Boeking</td>
 <td><ul>
 <li>Selecteer deze optie om de verkooporder te journaliseren.</li>
-<li>Schakel deze optie uit om een pro forma-verkooporder af te drukken. <strong>Opmerking:</strong> als u een overeenkomst voor een betalingsschema hebt gesloten, wordt het betalingsschema niet weergegeven op de pro forma-verkooporder. Betalingsschema´s worden alleen weergegeven op echte verkooporders.</li>
+<li>Schakel deze optie uit om een pro forma-verkooporder af te drukken. <strong>Opmerking</strong>: als u een overeenkomst voor een betalingsschema hebt gesloten, wordt het betalingsschema niet weergegeven op de pro forma-verkooporder. Betalingsschema´s worden alleen weergegeven op echte verkooporders.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -163,7 +162,6 @@ De volgende velden wijzigen het gedrag van het boekingsproces.
 </tr>
 </tbody>
 </table>
-
 
 
 

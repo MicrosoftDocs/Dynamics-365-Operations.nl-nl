@@ -5,27 +5,26 @@ author: ashishmsft
 manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: e5351086c56d13ef98937aec066be00cdf88fd37
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354064"
 ---
-
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Orders verzenden vanuit een andere winkel met behulp van de verzendfunctie Toeslag
 
 [!include [banner](includes/banner.md)]
@@ -43,4 +42,3 @@ Met de verzendfunctie Toeslag worden de volgende POS-bewerkingen gebruikt: Alle 
 De mogelijkheid om afleveradressen te selecteren, blijft ongewijzigd.
 
 De verzendmethoden die kunnen worden gebruikt om te voldoen aan de orderregel zijn gebaseerd op de configuratie van geldige leveringsmethoden voor producten en adressen. Omdat de regels over geldige leveringsmethoden alleen worden beheerd in Detailhandel Hoofdkantoor, voert de POS-client een real-time aanroep uit om de geldige leveringsmethoden voor een verzendregel op te halen.
-

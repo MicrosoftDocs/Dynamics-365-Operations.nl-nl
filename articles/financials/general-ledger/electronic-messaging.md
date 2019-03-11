@@ -1,33 +1,32 @@
 ---
 title: Elektronische berichten
-description: Dit onderwerp biedt een overzicht en informatie over instellingen voor elektronische berichten in Microsoft Dynamics 365 for Finance and Operations.
+description: Dit onderwerp biedt overzichts- en instellingsinformatie voor elektronische berichten in Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357928"
 ---
-
 # <a name="electronic-messaging"></a>Elektronische berichten
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht en informatie over instellingen voor elektronische berichten in Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp biedt overzichts- en instellingsinformatie voor elektronische berichten in Microsoft Dynamics 365 for Finance and Operations.
 
 De overheden en wetgevende instanties van verschillende landen en regio's wereldwijd hebben onlang rapportagevereisten geïmplementeerd voor bedrijven die in deze landen of regio's zijn geregistreerd. Het doel van de vereisten is ervoor zorgen dat gegevens in elektronische indeling van die bedrijven worden verkregen, rechtstreeks van de systemen waarin deze zijn berekend, opgeslagen en verwerkt.
 
@@ -452,4 +451,3 @@ U kunt de status van het bericht nu verwijderen of bijwerken. Als u de berichtst
 ![De berichtstatus bijwerken](media/update-status.png)
 
 De berichtstatus wordt bijgewerkt naar **Voorbereid** en u kunt het rapport nu genereren door **Rapport genereren** te selecteren. Het rapport wordt gegenereerd en de berichtstatus en het actielogboek worden bijgewerkt. Als u het gegenereerde rapport wilt weergeven, selecteert u de knop **Bijlage** in het actievenster.
-

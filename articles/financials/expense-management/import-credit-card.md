@@ -1,13 +1,13 @@
 ---
 title: Creditcardtransacties importeren en onderhouden
-description: "In dit onderwerp wordt uitgelegd hoe u onkostengerelateerde creditcardtransacties importeert en onderhoudt. Deze transacties kunt u zo instellen dat deze automatisch periodiek worden geïmporteerd of u kunt de transacties handmatig invoeren wanneer dit nodig is."
+description: In dit onderwerp wordt uitgelegd hoe u onkostengerelateerde creditcardtransacties importeert en onderhoudt. Deze transacties kunt u zo instellen dat deze automatisch periodiek worden geïmporteerd of u kunt de transacties handmatig invoeren wanneer dit nodig is.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322646"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>Creditcardtransacties importeren en onderhouden
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ Zie [Gegevensentiteiten](../../dev-itpro/data-entities/data-entities.md) voor me
 Nadat een werknemerrecord is beëindigd, wordt de AD DS-account (Active Directory Domain Services) van die werknemer uitgeschakeld. Er kunnen echter nog actieve creditcardtransacties zijn die nog moeten worden opgevoerd en vergoed. Via de pagina **Creditcardtransacties** kunt u de werknemer voor een creditcardtransactie opnieuw toewijzen, als de oorspronkelijke werknemer niet meer bij het bedrijf werkt.
 
 Selecteer een of meer creditcardtransacties en selecteer vervolgens **Transacties opnieuw toewijzen**. Vervolgens selecteert u een andere werknemer om de creditcardtransacties aan toe te wijzen. Nadat de creditcardtransacties opnieuw zijn toegewezen, kunnen deze voor een onkostennota worden geselecteerd en worden betaald via het normale proces voor terugbetaling van onkosten.
-

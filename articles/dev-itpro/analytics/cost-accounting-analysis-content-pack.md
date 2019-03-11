@@ -1,13 +1,13 @@
 ---
-title: Power BI-inhoud voor analyse van kostprijsboekhouding
-description: In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor kostprijsboekhoudingsanalyse. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+title: Analyse van kostprijsboekhouding Power BI-inhoud
+description: In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor de analyse van kostprijsboekhouding. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d0b563044843157940f456b07479bbd6006a42f9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347440"
 ---
-
-# <a name="cost-accounting-analysis-power-bi-content"></a>Power BI-inhoud voor analyse van kostprijsboekhouding
+# <a name="cost-accounting-analysis-power-bi-content"></a>Analyse van kostprijsboekhouding Power BI-inhoud
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat wordt opgenomen in de Microsoft Power BI-inhoud **Analyse kostprijsboekhouding**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor **Analyse kostprijsboekhouding**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 
@@ -43,8 +42,8 @@ Zie voor meer informatie over kostprijsboekhouding [Startpagina kostprijsboekhou
 
 Als u beveiliging op toegangsniveau in kostprijsboekhouding definieert en combineert met beveiliging op rijniveau in Power BI, kunt u alle kostenobjecteigenaren toegang verlenen tot de Power BI-inhoud voor **Analyse kostprijsboekhouding**. Alle gegevens in de visualisaties worden vervolgens gefilterd op basis van het toegangsniveau dat in de kostprijsboekhouding wordt beheerd. Zie voor meer informatie over beveiliging op toegangsniveau en beveiliging op rijniveau [Beveiliging instellen voor kostprijsboekhoudingsinhoud voor Power BI](setup-security-cost-accounting-content-pack.md).
 
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-U vindt de Power BI-inhoud voor **Kostprijsboekhouding** in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
+U vindt de Power BI-inhoud voor **Analyse kostprijsboekhouding** in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
@@ -127,4 +126,3 @@ De volgende belangrijke dimensies worden gebruikt als filters voor het segmenter
 | Fiscale kalenders                   | Kalender, kalenderomschrijving                                                                                       |
 | Boekjaren                       | Kalenderjaar                                                                                                        |
 | Boekperioden                     | Kalenderjaarperiode                                                                                                 |
-

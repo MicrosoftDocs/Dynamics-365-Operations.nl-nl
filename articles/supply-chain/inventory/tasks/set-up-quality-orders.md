@@ -1,13 +1,13 @@
---- 
+---
 title: Kwaliteitsorders instellen
-description: "Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarbij inkomende voorraad onmiddellijk na aankomstregistratie moet worden geïnspecteerd."
+description: Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarbij inkomende voorraad onmiddellijk na aankomstregistratie moet worden geïnspecteerd.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters, InventTestReportSetup, InventTestTable, DefaultDashboard, InventTestVariable, InventTestVariableOutcome, InventItemSampling, InventTestQualityGroup, InventTestItemQualityGroupAdd, SysQueryForm, InventTestItemQualityGroup, InventTestGroup, InventTestAssociationTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5a073de7bdfd2ef597c09a8066ff2b6a7721ca62
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 73981313fc662094ee4f8bb15a88271e16d41193
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356985"
 ---
 # <a name="set-up-quality-orders"></a>Kwaliteitsorders instellen
 
@@ -143,5 +143,4 @@ Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarb
 15. Zoek en selecteer het gewenste record in de lijst.
 16. Klik op Opslaan.
 17. Sluit de pagina.
-
 

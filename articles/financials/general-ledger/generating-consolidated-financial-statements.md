@@ -1,14 +1,14 @@
 ---
-title: "Geconsolideerde financiële overzichten genereren"
-description: "Dit onderwerp beschrijft de verschillende scenario's waarin u geconsolideerde financiële overzichten kunt genereren."
+title: Geconsolideerde financiële overzichten genereren
+description: Dit onderwerp beschrijft de verschillende scenario's waarin u geconsolideerde financiële overzichten kunt genereren.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 2a9ceb774a8f205e39abe6a12a0deb69dd4cb69b
 ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355191"
 ---
-
 # <a name="generate-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 
 [!include [banner](../includes/banner.md)]
@@ -225,4 +224,3 @@ Om correct omgerekende bedragen te verkrijgen als valuta's worden gebruikt, word
 Zie het bovenliggende onderwerp van dit onderwerp [Financiële consolidaties en valutaomrekening](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
 
 Zie voor informatie over het invoeren van details van online consolidaties [Online consolideren](./consolidate-online.md).
-

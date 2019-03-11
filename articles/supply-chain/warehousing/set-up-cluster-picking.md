@@ -5,9 +5,9 @@ author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2ec0890963b2b01407acac8003453faf370894b4
-ms.openlocfilehash: 1c23421ddfda8c5f6fa27a31831a00ead6094db9
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/11/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364092"
 ---
-
 [!include[banner](../includes/banner.md)]
 
 # <a name="set-up-cluster-picking"></a>Clusterverzameling instellen
@@ -35,7 +34,7 @@ In dit onderwerp wordt beschreven hoe u werknemers in staat kunt stellen hun mob
 
 Nadat werkorders worden vrijgegeven aan het magazijn, kan de werknemer een mobiel apparaat gebruiken om de orders toe te wijzen aan een cluster. De cluster zal het verzamelwerk organiseren voor de werknemer. Wanneer een werkorder wordt toegewezen aan een cluster, moet de werknemer clusterverzameling gebruiken om het verzamelwerk voor de order uit te voeren. De werknemer kan geen andere verzamelmethodes gebruiken. Als een werkorder per ongeluk wordt toegewezen aan een cluster, moet de werknemer de cluster opbreken en opnieuw maken.
 
-Indien nodig kan een werknemer een cluster doorgeven aan een andere werknemer. Dit verandert de clusterstatus naar Doorgegeven. Wanneer de werknemer een mobiel apparaat gebruikt om aan te geven dat het verzamel- en wegzetwerk is voltooid, moet de zending of de lading worden bevestigd in de Dynamics 365 for Finance and Operations-client.
+Indien nodig kan een werknemer een cluster doorgeven aan een andere werknemer. Dit verandert de clusterstatus naar Doorgegeven. Wanneer de medewerker een mobiel apparaat gebruikt om aan te geven dat het picken en opslaan is voltooid, moet de zending of lading worden bevestigd in de Dynamics 365 for Finance and Operations-client.
 
 ## <a name="set-up-cluster-picking"></a>Clusterverzameling instellen
 
@@ -81,4 +80,3 @@ Wanneer clusterverzameling wordt toegepast, is artikelbevestiging van groot bela
 1.  Open in een menu-item voor mobiele apparaten het instellingsformulier voor werkbevestiging: **Magazijnbeheer** \> **Magazijnbeheer** \> **Instellingen** \> **Mobiel apparaat** \> **Menuopties voor mobiel apparaat**.
 
 2.  Open in de menuoptie voor het mobiele apparaat **Werkbevestigingsinstellingen**. Met de optie **Productbevestiging** kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren.
-

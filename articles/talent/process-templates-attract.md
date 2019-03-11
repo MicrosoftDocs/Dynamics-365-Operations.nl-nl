@@ -5,9 +5,9 @@ author: hasrivas
 manager: AnnBe
 ms.date: 10/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: 2b9cac68093be65584192757229c20b1a1546342
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "303891"
 ---
-
 # <a name="create-a-process-template-in-attract"></a>Een processjabloon maken in Attract
 
 [!include [banner](includes/banner.md)]
 
-Een *aanstellingsprocessjabloon* bevat alle activiteiten die moeten worden opgenomen als onderdeel van het aanstellingsproces voor een functie. Dit onderwerp beschrijft de elementen van een processjabloon in Microsoft Dynamics 365 for Talent: Attract. Ook wordt uitgelegd hoe u een sjabloon maakt.
+Een *aanstellingsprocessjabloon* bevat alle activiteiten die moeten worden opgenomen als onderdeel van het aanstellingsproces voor een functie. In dit onderwerp worden de elementen van een processjabloon in Microsoft Dynamics 365 for Talent: Attract beschreven. Ook wordt uitgelegd hoe u een sjabloon maakt.
 
 > [!NOTE]
 > Sjabloon maken maakt deel uit van de Uitgebreide invoegtoepassing voor aanstellingen voor Attract.
@@ -72,4 +71,3 @@ Volg deze stappen om een aanstellingsprocessjabloon te maken.
     - Als u een activiteit wilt verwijderen, vouwt u deze uit en selecteert u de prullenbakknop in de koptekst van de activiteit.
 
 8. Selecteer **Opslaan**.
-

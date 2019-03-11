@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e9b77e2b510a72d1e3fe3c68c997d58245a86a27
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368025"
 ---
-
 # <a name="report-designer-interface"></a>Interface van Report Designer
 
 [!include [banner](../includes/banner.md)]
@@ -139,7 +138,7 @@ Het menu **Extra** is beschikbaar voor alle gebruikers, maar sommige opdrachten 
 |-------------------------------|-------------|
 | Beveiligen                       | Een wachtwoord toepassen op de huidige bouwsteen. Deze opdracht is beschikbaar voor gebruikers met de rol **Ontwerper** of **Beheerder**. |
 | Status van de rapportwachtrij           | Het dialoogvenster **Status van de rapportwachtrij** openen, waarin u alle recent gegenereerde rapporten en de details voor elk rapport kunt zien. |
-| Informatie over het bronsysteem     | De instellingen weergeven voor uw Microsoft Dynamics ERP-systeem. Deze opdracht is beschikbaar voor gebruikers met de rol **Ontwerper** of **Beheerder**. |
+| Bronsysteeminformatie     | De instellingen weergeven voor uw Microsoft Dynamics ERP-systeem. Deze opdracht is beschikbaar voor gebruikers met de rol **Ontwerper** of **Beheerder**. |
 | Uitgecheckte artikelen             | De rijdefinities, kolomdefinities, rapportagestructuurdefinities en rapportdefinities weergeven die momenteel geopend zijn. Deze opdracht is beschikbaar voor gebruikers met de rol **Ontwerper** of **Beheerder**. |
 | In cache opgeslagen financiële gegevens vernieuwen | De gegevens in de kolom Financiële dimensies bijwerken. |
 | Opties                       | Het dialoogvenster **Opties** openen, waarin u gebruikersvoorkeuren voor Report Designer kunt wijzigen. |
@@ -229,4 +228,3 @@ De werkbalk van Report Designer biedt snelle toegang tot opdrachten voor het nav
 [Financiële rapportage](financial-reporting-intro.md)
 
 [Een financieel rapport genereren](generate-financial-report.md)
-

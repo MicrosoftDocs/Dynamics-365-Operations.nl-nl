@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3e0a13d0b1882e6160a05925d97ecd85f1edfbaa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/23/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303897"
 ---
-
 # <a name="set-up-training-courses"></a>Trainingen instellen
 
 [!include [banner](includes/banner.md)]
@@ -135,7 +134,6 @@ Cursusdeelnemers zijn werknemers, sollicitanten of contactpersonen die deelnemen
 --------
 
 Werknemers die zich voor een cursus via registreren de pagina **Selfservice werknemer** kunnen hun inschrijving laten routeren via de workflow voor goedkeuring.  Een workflow kan worden toegewezen aan een cursus op het sneltabblad **Algemeen** van de pagina **Cursussen**.
-
 
 
 

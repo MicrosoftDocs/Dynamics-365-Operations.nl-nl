@@ -1,13 +1,13 @@
---- 
+---
 title: Een rentecode met een bereik maken
 description: U kunt rentecodes instellen om verschillende rentebedragen te berekenen op basis van een waardebereik.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2d76ae320ee43a473b64afe311876cc94b953b20
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367634"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Een rentecode met een bereik maken
 
@@ -51,5 +51,4 @@ U kunt rentecodes instellen om verschillende rentebedragen te berekenen op basis
 20. Voer 7 in voor de volgende Vanaf waarde. Dit is de volgende maand waarin u een nieuw rentebedrag berekent.
 21. Voer het rentepercentage per maand in dat wordt gebruikt om de rente te berekenen vanaf maand 7. In dit voorbeeld is dit 2,5.
 22. Klik op Sluiten om de instelling te beëindigen.
-
 

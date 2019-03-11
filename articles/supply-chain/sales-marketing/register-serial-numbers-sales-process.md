@@ -5,9 +5,9 @@ author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350407"
 ---
-
 # <a name="register-serial-numbers-in-the-sales-process"></a>Serienummers registreren in het verkoopproces
 
 [!include [banner](../includes/banner.md)]
@@ -58,8 +57,8 @@ Als een serienummer niet kan worden gelezen of worden gescand, kunt u een lege r
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Kan ik de serienummers die ik heb geregistreerd voor een verkooporder corrigeren of wijzigen?
 Ja, u kunt serienummers corrigeren als aan de volgende voorwaarden wordt voldaan:
--   **Facturen** – U kunt de serienummers wijzigen voor artikelen die u nog niet hebt gefactureerd. De pakbon wordt dan eveneens bijgewerkt. Echter, als een verkooporderregel is gecorrigeerd door een negatieve hoeveelheid te registreren, kunt u geen serienummers wijzigen voor de verkooporderregel.
--   **Pakbonnen** – U kunt geen pakbonregel gedeeltelijk corrigeren die artikelen met serienummers bevat. U moet de volledige hoeveelheid voor de regel omkeren. Als een pakbon is geannuleerd of gecorrigeerd, moet u de teruggeboekte serienummers niet opnieuw registreren wanneer u een nieuwe pakbon voor dezelfde artikelen met serienummer maakt. De nummers die zijn geregistreerd, worden gebruikt.
+-   **Facturen** – U kunt de serienummers wijzigen voor artikelen die u nog niet hebt gefactureerd. De pakbon wordt dan eveneens bijgewerkt. Echter, als een verkooporderregel is gecorrigeerd door een negatieve hoeveelheid te registreren, kunt u geen serienummers wijzigen voor de verkooporderregel.
+-   **Pakbonnen** – U kunt geen pakbonregel gedeeltelijk corrigeren die artikelen met serienummers bevat. U moet de volledige hoeveelheid voor de regel omkeren. Als een pakbon is geannuleerd of gecorrigeerd, moet u de teruggeboekte serienummers niet opnieuw registreren wanneer u een nieuwe pakbon voor dezelfde artikelen met serienummer maakt. De nummers die zijn geregistreerd, worden gebruikt.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Kan ik de serienummers bekijken die samen met een specifieke pakbon zijn verzonden of die in een factuur zijn opgenomen?
 Ja, u kunt een zoekopdracht uitvoeren op de pakbonjournaalregel of de factuurjournaalregel om een lijst van alle serienummers te bekijken die in het document zijn opgenomen.
@@ -78,7 +77,6 @@ Ja, het verkooppunt voor de detailhandel (POS) vraagt de gebruiker om een serien
 Deze functionaliteit is beschikbaar voor alle rollen die verkooppakbonnen en verkoopfacturen kunnen beheren. Met de volgende taken kunnen werknemers serienummers corrigeren en lege invoeren registreren voor serienummers die niet kunnen worden gelezen of worden gescand:
 -   Correcties van serienummers beheren
 -   Registraties van onleesbare serienummers onderhouden
-
 
 
 

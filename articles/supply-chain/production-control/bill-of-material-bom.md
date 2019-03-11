@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0833143722df5402a17e4f8f456a923792c478a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 430e2ab0c4438222ceb9102c011940af803acfbc
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317103"
 ---
-
 # <a name="bills-of-materials-and-formulas"></a>Stuklijsten en formules
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Selecteer het regeltype **Getraceerd aanbod** wanneer u een subproductie maakt, 
 Selecteer het regeltype **Leverancier** als in het productieproces een toeleverancier wordt gebruikt en u automatisch een subproductie of inkooporder wilt maken voor de toeleverancier.  
 
 **Opmerking over uitbestede bewerkingen in een stuklijst:** de service die wordt verleend of het werk dat wordt uitgevoerd door de toeleverancier, moet als serviceartikel worden gemaakt dat in voorraad wordt bijgehouden. U moet het serviceartikel koppelen aan het bovenliggende artikel als een stuklijstregel. De route dient een bewerking te bevatten die is toegewezen aan de bron voor bedrijfsactiviteiten van de toeleverancier.
-
 
 
 

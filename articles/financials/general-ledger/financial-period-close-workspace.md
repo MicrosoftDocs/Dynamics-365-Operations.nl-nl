@@ -1,13 +1,13 @@
 ---
-title: "Werkgebied voor afsluiten van financiële periode"
-description: "Dit artikel geeft een overzicht van het werkgebied Afgesloten financiële periode en de bijbehorende configuratie."
+title: Werkgebied voor afsluiten van financiële periode
+description: Dit artikel geeft een overzicht van het werkgebied Afgesloten financiële periode en de bijbehorende configuratie.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326901"
 ---
-
 # <a name="financial-period-close-workspace"></a>Werkgebied voor afsluiten van financiële periode
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Twee indicatoren worden gebruikt voor taken:
 -   Een uitroepteken geeft aan dat de taak achterstallig is. Voor taken die achterstallig zijn, wordt de vervaldatum bovendien in rood gemarkeerd.
 -   Een hangslot geeft aan dat de taak afhankelijk is van andere taken die nog niet zijn uitgevoerd. Een taak die wordt geblokkeerd door afhankelijkheden, kan niet als voltooid worden gemarkeerd. U kunt afhankelijkheden voor een taak instellen met behulp van de actie **Afhankelijkheid instellen**.
 
-De taaknaam is een hyperlink naar de Microsoft Dynamics 365 for Operations-pagina of een andere webpagina waar de gebruiker naartoe moet gaan om het werk uit te voeren. U kunt deze hyperlink instellen met behulp van het veld **Taakkoppeling** wanneer u een taak maakt of bewerkt. 
+De naam van de taak is een hyperlink naar de Microsoft Dynamics 365 for Operations-pagina of een andere webpagina waar de gebruiker naartoe moet gaan om het werk te voltooien. U kunt deze hyperlink instellen met behulp van het veld **Taakkoppeling** wanneer u een taak maakt of bewerkt. 
 
 U kunt bestanden, notities, afbeeldingen en URL's aan een taak koppelen met behulp van de actie **Bijlagen**. U kunt bijvoorbeeld journaalnummers aangeven die worden gebruikt als onderdeel van een taak, u kunt opmerkingen toevoegen over een specifieke taak of u kunt een rapportbestand koppelen dat voor een taak is afgedrukt. Er verschijnt een pictogram in de kolom **Bijlage** voor de taak als er een bijlage aanwezig is. 
 
@@ -63,7 +62,7 @@ De optie **Taak voltooid** moet handmatig worden geselecteerd nadat de taak is v
 U kunt alle huidige en vorige taken voor het afsluiten van de periode weergeven via de lijstpagina **Alle taken voor het afsluiten van de financiële periode**. Deze lijstpagina kan het beste worden gebruikt voor een historische analyse van het afsluitingsproces omdat deze informatie over de geplande vervaldatum bevat, de werkelijke voltooiingsdatum en de persoon die de taak heeft voltooid. U kunt de informatie op deze lijstpagina eenvoudig exporteren naar Microsoft Excel voor rapportage- en controledoeleinden.
 
 ## <a name="financial-period-close-configuration-page"></a>Pagina Configuratie van afgesloten financiële periode
-Voordat u het werkgebied **Afgesloten financiële periode** kunt gebruiken, moet u het proces in Microsoft Dynamics 365 for Finance and Operations configureren via de pagina **Configuratie van afgesloten financiële periode**. (Klik op **Grootboek** &gt; **Afgesloten periode** &gt; **Configuratie van afgesloten financiële periode**.)
+Voordat u de werkruimte **Afgesloten financiële periode** kunt gebruiken, moet u het proces in Microsoft Dynamics 365 for Finance and Operations configureren via de pagina **Configuratie van afgesloten financiële periode**. (Klik op **Grootboek** &gt; **Afgesloten periode** &gt; **Configuratie van afgesloten financiële periode**.)
 
 ### <a name="resources"></a>Bronnen
 
@@ -106,7 +105,6 @@ Wijs de kalender aan die geschikt is voor de planning van de afsluiting om de we
 U moet ook de bedrijven definiëren die worden gekoppeld aan de afsluitingsplanning. Als sjabloontaken worden toegewezen aan meerdere bedrijven, worden er afzonderlijke taken gemaakt voor elk bedrijf dat zich in de afsluitingsplanning bevindt en worden deze toegewezen aan de sjabloontaak. 
 
 Nadat een afsluitingsplanning is voltooid, schakelt u de optie **Afgesloten** in. De taakhistorie blijft nog steeds beschikbaar via de lijstpagina **Alle taken voor het afsluiten van de financiële periode**, maar de afsluitingsplanning wordt verwijderd uit het werkgebied. Nadat een afsluitingsplanning is gemarkeerd als **Afgesloten**, kunt u er mogelijk geen taken aan toevoegen, taken bewerken of taken eruit verwijderen.
-
 
 
 

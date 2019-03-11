@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314918"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -35,9 +34,9 @@ U kunt een bestemming voor elke ER-indelingsconfiguratie (Elektronische Rapporta
 Indelingconfiguraties voor Elektronische rapportage (ER) bevatten meestal minimaal één uitvoeronderdeel: een bestand. Configuraties bevatten gewoonlijk meerdere onderdelen voor bestandsuitvoer van verschillende typen (bijvoorbeeld XML, TXT of XLSX) die zijn gegroepeerd in een enkele map of in meerdere mappen. ER-bestemmingsbeheer stelt u in staat vooraf te configureren wat er gebeurt wanneer elk onderdeel wordt uitgevoerd. Wanneer een configuratie wordt uitgevoerd, wordt standaard een dialoogvenster weergegeven waarin de gebruiker het bestand kan opslaan of openen. Hetzelfde gedrag wordt ook gebruikt wanneer u een ER-configuratie importeert en geen specifieke bestemmingen hiervoor configureert. Nadat u een bestemming voor een hoofduitvoeronderdeel hebt gemaakt, overschrijft die bestemming het standaardgedrag en wordt de map of het bestand verzonden op basis van de instellingen van de bestemming.
 
 ## <a name="availability-and-general-prerequisites"></a>Beschikbaarheid en algemene vereisten
-De functionaliteit ER-bestemmingen is niet beschikbaar in de versie van Microsoft Dynamics AX 7.0 (februari 2016). Daarom moet u Microsoft Dynamics 365 for Operations versie 1611 (november 2016) installeren om gebruik te kunnen maken van alle functies die in dit onderwerp worden beschreven. U kunt ook een van de volgende vereisten installeren. Houd er echter rekening mee dat dit alternatief een beperktere versie van ER-bestemmingen biedt.
+De functionaliteit ER-bestemmingen is niet beschikbaar in de versie van Microsoft Dynamics AX 7.0 (februari 2016). Daarom moet u Microsoft Dynamics 365 for Operations versie 1611 (november 2016) installeren om gebruik te kunnen maken van de functies die in dit onderwerp worden beschreven. U kunt ook een van de volgende vereisten installeren. Houd er echter rekening mee dat dit alternatief een beperktere versie van ER-bestemmingen biedt.
 
-- Microsoft Dynamics AX-toepassing versie 7.0.1 (mei 2016)
+- Microsoft Dynamics AX-toepassingsversie 7.0.1 (mei 2016)
 - [Toepassingshotfix](https://fix.lcs.dynamics.com/issue/results/?q=3160213) voor ER-bestemmingsbeheer
 
 U kunt alleen bestemmingen instellen voor ER-configuraties die zijn geïmporteerd en voor de indelingen die beschikbaar zijn op de pagina **Configuraties van elektronische rapportage**.
@@ -123,7 +122,7 @@ Als u **Ingeschakeld** instelt op **Ja**, wordt een voorbeeld van de uitvoer gem
 
 ### <a name="power-bi-destination"></a>Power BI-bestemming
 
-Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om gegevens van uw exemplaar van Finance and Operations over te dragen aan Microsoft Power BI-services. De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint Server-exemplaar dat voor dit doel moet worden geconfigureerd. Zie [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Finance and Operations te voorzien](general-electronic-reporting-report-configuration-get-data-powerbi.md) voor meer informatie.
+Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om gegevens van uw exemplaar van Finance and Operations over te dragen aan Microsoft Power BI-services. De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint Server-exemplaar dat voor dit doel moet worden geconfigureerd. Zie [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Finance and Operations te voorzien voor meer informatie](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Als u het standaardgedrag wilt negeren (dat wil zeggen het dialoogvenster voor een configuratie), kunt u een bestemmingsverwijzing en een bestandsbestemming voor het hoofduitvoeronderdeel maken en vervolgens alle bestemmingen uitschakelen.
@@ -165,4 +164,3 @@ Voorwaarde is dat uw indeling beschikbaar moet zijn in de ER-configuraties. Als 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van elektronische rapportage](general-electronic-reporting.md)
-

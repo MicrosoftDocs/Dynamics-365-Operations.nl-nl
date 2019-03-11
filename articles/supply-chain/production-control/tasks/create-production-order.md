@@ -1,13 +1,13 @@
---- 
+---
 title: Een productieorder maken
 description: Deze procedure laat zien hoe u een productieorder maakt.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, ProdTable, ProdBOM, ProdRoute
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 468465e3e82ff608d7d290b71f058cd790a0f013
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 4db56f76c7f8ce0cccf85ab04024d9a1e88a8822
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363839"
 ---
 # <a name="create-a-production-order"></a>Een productieorder maken
 
@@ -70,5 +70,4 @@ Deze procedure laat zien hoe u een productieorder maakt. Het bedrijf van de demo
     * Het wijzigen van de verwerkingstijd is van invloed op het geraamde routeverbruik en de kosten van de productieorder.  
 6. Klik op Opslaan.
 7. Sluit de pagina.
-
 

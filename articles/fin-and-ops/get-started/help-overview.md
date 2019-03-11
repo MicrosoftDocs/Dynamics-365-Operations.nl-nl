@@ -5,9 +5,9 @@ author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350729"
 ---
-
 # <a name="finance-and-operations-help-system"></a>Help-systeem voor Finance and Operations
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 12/18/2018
 Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
+> De volgende drie producten hangen nauw samen: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail de productnaam Dynamics 365 for Retail gebruikt. In onderwerpen die voornamelijk zijn gerelateerd aan Talent, is de productnaam Dynamics 365 for Talent en in onderwerpen die voornamelijk betrekking hebben op HR, is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
 
 Het Help-systeem wordt gedeeld door de volgende producten:
 
@@ -158,7 +157,7 @@ Voer op de pagina **Systeemparameters** de volgende stappen uit:
 2. Selecteer het project Lifecycle Services om verbinding mee te maken.
 3. Selecteer de BPM-bibliotheken (in het geselecteerde project) waaruit u taakregistraties wilt ophalen.
 
-    - Voor Finance and Operations selecteert u voor Microsoft-inhoud de 2017 februari QPC Unified Library voor Microsoft Dynamics 365 for Finance and Operations.
+    - Voor Finance and Operations voor Microsoft-inhoud selecteert u de QPC Unified Library voor Microsoft Dynamics 365 for Finance and Operations van februari 2017.
     - Voor Retail brengen we in juli een bibliotheek uit.
     - U hoeft geen bibliotheek te selecteren voor Talent: de verbinding met de juiste bibliotheek wordt voor u ingesteld.
 
@@ -194,10 +193,9 @@ In de volgende tabel worden onze websites weergegeven. Sites die een sterretje (
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com](/dynamics365/)                                                            | Host of koppelt naar alle productdocumentatie voor Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | De gratis eLearning-site van Microsoft. |
-| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Biedt werkruimte voor samenwerking in de cloud die klanten en hun partners kunnen gebruiken om Finance and Operations-projecten te beheren van pre-sales tot implementatie en operations. Deze site is handig in alle fasen van een implementatie. |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Biedt een ruimte voor samenwerking in de cloud die klanten en hun partners kunnen gebruiken om Dynamics 365 for Finance and Operations-projecten te beheren van pre-sales naar implementatie en bewerkingen. Deze site is handig in alle fasen van een implementatie. |
 | [Ondersteuningsblog](http://aka.ms/AXSupportBlog)                                                    | Geeft tips en trucs die door het Dynamics 365 for Finance and Operations-ondersteuningsteam worden geplaatst. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Host inhoud uit eerdere versies. |
 | [Dynamics Community](https://community.dynamics.com/)                                          | Host blogs, forums en video's. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Biedt evaluatie- en verkoopinformatie. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Host sommige trainingsresources voor Finance and Operations, downloadbare rapporten en whitepapers en is de primaire ondersteuningssite voor serviceplanhouders. Kan een serviceplan vereisen om toegang te krijgen tot bepaalde bronnen op de site. |
-

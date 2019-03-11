@@ -1,13 +1,13 @@
 ---
-title: Power BI-inhoud voor rapporten voor werknemercompetenties en -ontwikkeling
+title: Power BI-inhoud Competenties en ontwikkeling van werknemer
 description: In dit onderwerp wordt de Power BI-inhoud Werknemercompetenties en -ontwikkeling van Finance and Operations beschreven.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352914"
 ---
-
-# <a name="employee-competencies-and-development-power-bi-content"></a>Power BI-inhoud voor rapporten voor werknemercompetenties en -ontwikkeling
+# <a name="employee-competencies-and-development-power-bi-content"></a>Power BI-inhoud Competenties en ontwikkeling van werknemer
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,7 +39,7 @@ Nadat u het inhoudpakket aan uw Finance and Operations-gegevens hebt gekoppeld, 
 | Vaardigheidsprofiel                     | Vaardigheidsprofiel voor de geselecteerde werknemer                |
 | Vaardigheidsanalyse                    | Vaardigheden per type en classificatie                              |
 
-U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over het filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 Gegevens in Finance and Operations worden gebruikt om de rapporten te vullen in het inhoudpakket Werknemercompetenties en -ontwikkeling. De volgende tabel bevat de entiteiten waarop het inhoudpakket is gebaseerd.
@@ -71,4 +70,3 @@ Gegevens in Finance and Operations worden gebruikt om de rapporten te vullen in 
 | Workforce\_WorkerName             | Voornaam, achternaam en volledige naam                                                                       | |
 | Workforce\_WorkerTitle            | Titel en anciënniteitsdatum                                                                                   | |
 | Workorce\_WorkerTrend             | Werknemers in de loop van de tijd, personeelsbezetting, bedrijf en positie                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job |
-

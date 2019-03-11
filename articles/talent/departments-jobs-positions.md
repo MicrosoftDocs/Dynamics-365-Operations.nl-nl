@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374392"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Uw werknemers organiseren met afdelingen, taken en posities
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Afdelingen, taken en functies zijn organisatie-elementen die worden onderhouden in Human resources. Dit onderwerp bevat conceptuele informatie over deze elementen. 
 
@@ -165,7 +163,6 @@ Voor sommige records, kunt u toekomstige wijzigingen aan de record opgeven. De v
 </table>
 
 U kunt de gegevens vermeld in de vorige tabel wijzigen voor een functie of een taak en een datum opgeven waarop de wijzigingen in de positie of de taak moeten ingaan. Een positie kan bijvoorbeeld alleen worden toegewezen aan één werknemer, maar Sanjay Patel, die is toegewezen aan de positie Boekhouder A, vertrekt binnen twee weken. Joe Healy vervangt Sanjay Patel wanneer hij vertrekt. Hoewel Sanjay nog steeds aan zijn positie is toegewezen, kunt u Joe Healy zo toewijzen aan dezelfde positie dat de toewijzing slechts ingaat na de laatste dag van Sanjay.
-
 
 
 

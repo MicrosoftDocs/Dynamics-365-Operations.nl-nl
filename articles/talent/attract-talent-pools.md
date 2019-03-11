@@ -1,31 +1,30 @@
 ---
 title: Kandidaten vinden met behulp van talentenpools
 description: In dit onderwerp wordt uitgelegd hoe u talentenpools maakt en instelt in Attract.
-author: 
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303885"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>Kandidaten vinden met behulp van talentenpools
 
 [!include[banner](../includes/banner.md)]
@@ -71,7 +70,7 @@ De eigenaar en de bijdragers aan de talentenpool kunnen kandidaten toevoegen aan
 
     - Als u een interne kandidaat wilt toevoegen, kunt u de persoon zoeken op e-mailadres. Na een succesvolle zoekactie worden het e-mailadres, de voornaam en de achternaam van de kandidaat ingevuld. Als u het cv van de kandidaat hebt of gerelateerde documenten over de kandidaat, kunt u deze nu uploaden. Selecteer vervolgens **Toevoegen** om de kandidaat toe te voegen aan de talentenpool.
     - Als u een externe kandidaat wilt toevoegen, voert u handmatig zijn of haar e-mailadres, voornaam en achternaam in. Als u het cv van de kandidaat hebt of gerelateerde documenten, kunt u deze nu uploaden. Selecteer vervolgens **Toevoegen** om de kandidaat toe te voegen aan de talentenpool.
-    - Als u meerdere kandidaten wilt toevoegen, selecteert u het tabblad **Vanuit Excel**. U kunt vervolgens de juiste Microsoft Excel-sjabloon downloaden, de details voor de kandidaten invoeren, het Excel-werkblad opslaan en het uploaden naar de sollicitatie.
+    - Als u meerdere kandidaten wilt toevoegen, selecteert u het tabblad **Vanuit Excel.** U kunt vervolgens de juiste Microsoft Excel-sjabloon downloaden, de details voor de kandidaten invoeren, het Excel-werkblad opslaan en het uploaden naar de sollicitatie.
 
         Als er fouten zijn gevonden in het werkblad, ontvangt u hier berichten over. U kunt vervolgens de fouten corrigeren en opnieuw proberen het werkblad te uploaden. Wanneer er geen fouten meer worden gevonden, selecteert u **Toevoegen** om het werkblad te uploaden. Het werkblad wordt op de achtergrond verwerkt en u wordt geïnformeerd wanneer alle kandidaten zijn toegevoegd aan de talentenpool.
 
@@ -108,7 +107,7 @@ Alle gebruikers hebben een gemeenschappelijke weergave van de kandidaatprofielen
 
 - Het tabblad **Documenten** bevat documenten die de kandidaat heeft toegevoegd vanuit zijn of haar profiel of tijdens sollicitaties. Dit tabblad kan worden gebruikt voor het beheren van cv's, begeleidende schrijvens, portfoliowerk enzovoort van de kandidaat. U kunt dit tabblad ook gebruiken om documenten toe te voegen.
 
-    Als u een document wilt weergeven, selecteert u de documentnaam in de lijst van documenten. U kunt Microsoft Word-documenten in de sollicitatie weergeven met behulp van Microsoft Office 365. U kunt ook de documenten downloaden naar uw lokale computer met behulp van de optie **Downloaden** voor elk document.
+    Als u een document wilt weergeven, selecteert u de documentnaam in de lijst van documenten. U kunt Microsoft Word-documenten in de toepassing bekijken met behulp van Microsoft Office 365. U kunt ook de documenten downloaden naar uw lokale computer met behulp van de optie **Downloaden** voor elk document.
 
 - Het tabblad **LinkedIn** bevat de LinkedIn-informatie van de kandidaat. Als u dit tabblad wilt gebruiken, moet u uw LinkedIn-account in de gebruikersinstellingen verbinden en moet de LinkedIn Recruiter-verbinding van uw omgeving tot stand zijn gebracht. Zie voor meer informatie [Aanstelling met LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
@@ -139,4 +138,3 @@ Vaak worden verschillende goede kandidaten voor een functie niet geselecteerd, m
 1. Selecteer op de sollicitatiepagina **Toevoegen aan talentenpool**. Er wordt een lijst weergegeven met talentenpools waartoe u toegang hebt.
 
 1. Selecteer of zoek de talentenpool en selecteer vervolgens **Toevoegen** om de kandidaat toe te voegen aan die talentenpool.
-

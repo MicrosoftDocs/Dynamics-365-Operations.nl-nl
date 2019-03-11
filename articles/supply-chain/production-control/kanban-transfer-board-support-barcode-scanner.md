@@ -5,9 +5,9 @@ author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e63a33af63144b78d0c375022b9802e11c255598
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a8393efd51032271d3023f1e0569425a16222cc3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319449"
 ---
-
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Ondersteuning van kanbanoverboekingsbord voor streepjescodescanners
 
 [!include [banner](../includes/banner.md)]
@@ -45,11 +44,11 @@ Op het sneltabblad **Scannerregistratie** kunt u de registratiemodus selecteren 
 | Leeg                 | Registreert de materiaalverwerkingseenheid waarnaar door een kanbankaart wordt verwezen als leeg.              |
 | Selecteren                | Registreert een kanbankaartnummer en selecteert automatisch de taak waarnaar wordt verwezen in de kanbanlijst. |
 
- 
-<a name="registration-mode-select"></a>Registratiemodus Selecteren
+ 
+Registratiemodus Selecteren
 ------------------------
 
-Wanneer u een streepjescodelezer gebruikt om een taak te selecteren, wordt de weergavemodus van het kanbanbord gewijzigd. In deze modus gelden de volgende voorwaarden:
+Wanneer u een streepjescodelezer gebruikt om een taak te selecteren, wordt de weergavemodus van het kanbanbord gewijzigd. In deze modus gelden de volgende voorwaarden:
 
 -   Alleen de gescande kanbantaak wordt weergegeven.
 -   De details van de geselecteerde taak worden weergegeven op het sneltabblad **Details**.
@@ -188,7 +187,6 @@ De status van de geselecteerde taak en de status van alle getraceerde taken voor
 </tr>
 </tbody>
 </table>
-
 
 
 

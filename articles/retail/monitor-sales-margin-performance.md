@@ -5,9 +5,9 @@ author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailSales
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: e2b3591f6403542c79457d12ae850ad40d9253a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e1d4f693fa9712585593b9d3de43c3603588531c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357261"
 ---
-
 # <a name="monitor-sales-and-margin-performance"></a>Verkoop- en margeprestaties bewaken
 
 [!include [banner](includes/banner.md)]
@@ -50,4 +49,3 @@ Daarnaast kunnen gebruikers met twee unieke rapporten, die gebruik maken van hiÃ
 - Werkgebied **Categorie- en productbeheer** &gt; **Retail** &gt; **Product en categorieÃ«n** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**
 - Werkgebied **Prijzen- en kortingsbeheer** &gt; **Retail** &gt; **Prijzen en kortingen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**
 - Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten**
-

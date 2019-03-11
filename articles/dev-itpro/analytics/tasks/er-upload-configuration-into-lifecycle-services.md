@@ -1,13 +1,13 @@
---- 
+---
 title: Een ER-configuratie naar Lifecycle Services uploaden
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken en uploaden.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 19ae8820e5d4a798a5789e9632edb431fe9fede4
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335089"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>Een ER-configuratie naar Lifecycle Services uploaden
 
@@ -94,5 +94,4 @@ In dit voorbeeld maakt u een configuratie en uploadt u deze naar LCS voor het vo
     * Selecteer de LCS-opslagplaats en open deze.  
     * De geselecteerde configuratie wordt getoond als een activum van het geselecteerde LCS-project.  
     * LCS openen met https://lcs.dynamics.com. Open een project dat eerder is gebruikt voor opslagplaatsregistratie, open de ‘Activabibliotheek’ van dit project en vouw de inhoud van het activumtype ‘GER-configuratie’ uit; de geüploade ER-configuratie is beschikbaar. De geüploade LCS-configuratie kan naar een ander Microsoft Dynamics 365 for Finance and Operations, Enterprise edition-exemplaar worden geïmporteerd als providers toegang tot dit LCS-project hebben.  
-
 

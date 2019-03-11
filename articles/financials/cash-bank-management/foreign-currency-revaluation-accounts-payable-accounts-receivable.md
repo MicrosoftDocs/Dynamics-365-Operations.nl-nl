@@ -1,13 +1,13 @@
 ---
 title: Herwaardering van vreemde valuta voor Leveranciers en Klanten
-description: "Schommelingen in wisselkoersen leiden ertoe dat de theoretische waarde (boekwaarde) van openstaande transacties in vreemde valuta in de loop van de tijd variëren. Dit artikel bevat informatie over de herwaardering van vreemde valuta die u kunt uitvoeren om de waarde van openstaande transacties in Leveranciers en Klanten bij te werken."
+description: Schommelingen in wisselkoersen leiden ertoe dat de theoretische waarde (boekwaarde) van openstaande transacties in vreemde valuta in de loop van de tijd variëren. Dit artikel bevat informatie over de herwaardering van vreemde valuta die u kunt uitvoeren om de waarde van openstaande transacties in Leveranciers en Klanten bij te werken.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: da1aee4c678cb4786d52abc81b787edceaa5aa38
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 259b487b0f11b19af9609d63f12114dcaa61be52
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341322"
 ---
-
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Herwaardering van vreemde valuta voor Leveranciers en Klanten
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Telkens wanneer u een herwaardering van vreemde valuta uitvoert, wordt een regis
     -   **Geen** – Er worden geen financiële dimensies geboekt. Als u een verplichte financiële dimensie hebt in uw rekeningstructuur, wordt het herwaarderingsproces nog steeds uitgevoerd en worden boekhoudvermeldingen gemaakt die geen financiële dimensies hebben. U ontvangt eerst een waarschuwingsbericht, zodat u de herwaardering kunt annuleren.
     -   **Tabel** – De financiële dimensies van de klantrekening of leveranciersrekening worden geboekt op de herwaarderingstransacties voor vreemde valuta's.
     -   **Boeking** – De financiële dimensies van de geherwaardeerde transactie wordt geboekt op de herwaarderingstransacties voor vreemde valuta's. Standaard worden de financiële dimensies van de klant- of leveranciersgrootboekrekening van de oorspronkelijke transactie gebruikt voor de klant-/leveranciershoofdrekening van de herwaarderingtransactie, en worden de financiële dimensies van de grootboekrekening voor onkosten/activa/opbrengsten van de oorspronkelijke transactie gebruikt voor de hoofdrekening voor niet-gerealiseerde winst/niet-gerealiseerd verlies.
-
 
 
 

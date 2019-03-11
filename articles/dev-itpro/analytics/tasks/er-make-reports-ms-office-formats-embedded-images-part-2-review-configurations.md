@@ -1,13 +1,13 @@
---- 
+---
 title: Configuraties beoordelen voor het genereren van rapporten in Office-indeling die ingesloten afbeeldingen bevatten
-description: 'Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleiding ''ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: Parameters instellen)''.'
+description: "Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleiding 'ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: Parameters instellen)'."
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331409"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Configuraties beoordelen voor het genereren van rapporten in Office-indeling die ingesloten afbeeldingen bevatten
 
@@ -91,5 +91,4 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
 14. Vouw in de structuur 'labels: Container' uit.
     * Sommige labels die worden weergegeven in het voorgedrukte chequeformulier, worden in het rapport opgenomen wanneer het wordt gemaakt voor testdoeleinden. Deze labels worden echter niet afgedrukt tijdens het echte afdrukken, omdat het voorgedrukte formulier deze al bevat.  
 15. Sluit de pagina.
-
 

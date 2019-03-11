@@ -5,9 +5,9 @@ author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f1c463ee54512b07f5e45c4df995aefed6110cb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 60486002b520fdf347ed2537cefa0a45e06d6271
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366392"
 ---
-
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Groepen met consolidatierekeningen en aanvullende consolidatierekeningen
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt informatie gegeven over groepen met consolidatierekeningen en aanvullende consolidatierekeningen en wordt uitgelegd hoe deze worden gebruikt in Microsoft Dynamics 365 for Finance and Operations.
 
-<a name="consolidation-account-groups"></a>Consolidatierekeninggroepen
+<a name="consolidation-account-groups"></a>Groepen met consolidatierekeningen
 ----------------------------
 
 Met groepen consolidatierekeningen kunt u groepen maken van de rekeningen die u wilt gebruiken om gegevens te consolideren. Meestal wordt met een groep consolidatierekeningen een door de overheid voorgeschreven rekeningschema vertegenwoordigd of worden rekeningen aan een groep toegewezen die door het hoofdkantoor van het bedrijf is gedefinieerd. U vindt groepen consolidatierekeningen in het gebied **Instellen** van de module **Consolidaties**. Wanneer u een nieuwe groep toevoegt, voert u een unieke ID en een naam in voor de rekeninggroep.
@@ -52,7 +51,6 @@ Wanneer u de groepen consolidatierekeningen en aanvullende consolidatierekeninge
 
 
 Zie [Consolidatiegroepen en extra consolidatierekeningen maken](../general-ledger/tasks/create-consolidation-groups.md) voor meer informatie. 
-
 
 
 

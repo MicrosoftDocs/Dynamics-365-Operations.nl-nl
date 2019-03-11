@@ -1,13 +1,13 @@
---- 
+---
 title: Modeltoewijzingsconfiguraties gebruiken voor samengevoegde berekeningen op databaseniveau gebruiken
-description: "Deze procedure bevat informatie voor het ontwerpen van een nieuwe ER-modeltoewijzingsconfiguratie (elektronische aangifte) en past de ingebouwde ER-functies toe voor efficiënte statistische berekeningen."
+description: Deze procedure bevat informatie voor het ontwerpen van een nieuwe ER-modeltoewijzingsconfiguratie (elektronische aangifte) en past de ingebouwde ER-functies toe voor efficiënte statistische berekeningen.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313630"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Modeltoewijzingsconfiguraties gebruiken voor samengevoegde berekeningen op databaseniveau gebruiken
 
@@ -116,5 +116,4 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembehee
 67. Vouw in de structuur 'Basisproductrecord(Intrastat)' uit.
 68. Klik op Opslaan.
     * Het veld 'Uitvoering in' geeft aan dat deze groepering in runtime in het geheugen wordt uitgevoerd, hoewel er geen aggregaties zijn gedefinieerd en de geselecteerde gegevensbron van het type 'Tabelrecords' naar dezelfde Intrastat-tabel verwijst. Dit komt doordat de gegevensbron een aantal berekende velden bevat die nog niet kunnen worden omgezet naar het niveau van de SQL-database.  
-
 

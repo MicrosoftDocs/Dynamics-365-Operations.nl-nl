@@ -1,13 +1,13 @@
 ---
 title: Welkom bij Dynamics 365 for Talent
-description: Talent stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Deze processen zijn werven en behouden van werknemers, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer.
+description: Talent stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Deze processen zijn het werven en behouden van werknemers, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer.
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302101"
 ---
-
 # <a name="welcome-to-dynamics-365-for-talent"></a>Welkom bij Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Deze processen zijn werven en behouden van werknemers, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer. Het biedt tevens een kader voor het personeel van Human resources voor het beheren van gebieden van toezicht.
+Microsoft Dynamics 365 for Talent stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Deze processen zijn het werven en behouden van werknemers, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer. Het biedt tevens een kader voor het personeel van Human resources voor het beheren van gebieden van toezicht.
 
 Met Talent kunt u deze taken uitvoeren:
 
@@ -46,7 +45,7 @@ Kennismaken met Dynamics 365 for Talent door te kijken naar de video [Aan de sla
 
 
 > [!NOTE] 
-> Dynamics 365 for Talent hangt nauw samen met Human Resources in Dynamics 365 for Finance and Operations. Dezelfde functionaliteit kan in beide producten voorkomen. In onderwerpen die hoofdzakelijk zijn gerelateerd aan Human Resources, wordt de productnaam Dynamics 365 for Finance and Operations gebruikt, terwijl in onderwerpen die voornamelijk betrekking hebben op Talent, de productnaam Dynamics 365 for Talent is. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
+> Dynamics 365 for Talent hangt nauw samen met Human resources in Dynamics 365 for Finance and Operations. Dezelfde functionaliteit kan in beide producten voorkomen. In onderwerpen die hoofdzakelijk zijn gerelateerd aan Human Resources, wordt de productnaam Dynamics 365 for Finance and Operations gebruikt terwijl de productnaam Dynamics 365 for Talent is in onderwerpen die voornamelijk betrekking hebben op Talent. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Een strategie ontwikkelen voor het beheren van human resources
 ---------------------------------------------------------
@@ -63,7 +62,7 @@ Tijdens het werken met Talent kunt u bepalen hoe u uw organisatie wilt structure
 
 ## <a name="staffing-your-organization"></a>Personeelswerving in uw organisatie
 
-Dynamics 365 for Talent bevat de app Attract, waarmee u kandidaten kunt helpen identificeren, sollicitatiegesprekken voeren en nieuwe medewerkers aanstellen waarin de kwalificaties in de behoeften van uw organisatie voorzien. Terwijl u van werving naar inhuur gaat, kan de app Onboard u helpen uw nieuwe werknemer in uw organisatie op te nemen door nauwkeurig aan te geven welke verwachtingen er worden gesteld, informatie te verstrekken die zij nodig hebben om aan de slag te gaan met collega's en hen voor te bereiden voor succes in hun nieuwe rol.  
+Dynamics 365 for Talent bevat de app Attract, waarmee u kandidaten kunt identificeren, sollicitatiegesprekken kunt voeren en nieuwe medewerkers kunt aanstellen die beschikken over de vaardigheden die uw organisatie nodig heeft. Terwijl u van werving naar inhuur gaat, kan de app Onboard u helpen uw nieuwe werknemer in uw organisatie op te nemen door nauwkeurig aan te geven welke verwachtingen er worden gesteld, informatie te verstrekken die zij nodig hebben om aan de slag te gaan met collega's en hen voor te bereiden voor succes in hun nieuwe rol.  
 
 - [Overzicht van Attract](attract-overview.md)
 - [Overzicht van Onboard](create-onboarding-experience.md)
@@ -89,7 +88,7 @@ U kunt doelen instellen, prestatiebeoordelingen uitvoeren en feedback volgen om 
 
 ## <a name="create-and-maintain-benefits"></a>Vergoedingen maken en onderhouden
 
-Naast compensatie van uw personeel via lonen, salarissen en bonussen, kunt u vergoedingsprogramma's ontwikkelen zoals een ziektekostenverzekering en pensioenplannen. U kunt ook vergoedingen beheren zoals leenprogramma's, waarbij uw bedrijf artikelen, zoals computers en telefoons, uitleent aan haar werknemers.
+Naast compensatie van uw personeel via lonen, salarissen en bonussen, kunt u vergoedingsprogramma's ontwikkelen, zoals een ziektekostenverzekering en pensioenplannen. U kunt ook vergoedingen beheren zoals leenprogramma's, waarbij uw bedrijf artikelen, zoals computers en telefoons, uitleent aan haar werknemers.
 
 -   [Een vergoedingsprogramma beheren](manage-benefit-program.md)
 -   [Beleid voor geschiktheid vergoedingen](benefit-eligibility-policies.md)
@@ -111,4 +110,3 @@ U kunt vragenlijsten ontwerpen en laten invullen om informatie te verzamelen die
 -   [Een vragenlijst ontwerpen](design-questionnaires.md)
 -   [Een vragenlijst verspreiden en invullen](distribute-questionnaires.md)
 -   [De resultaten van een vragenlijst bekijken en evalueren](evaluate-questionnaire-results.md)
-

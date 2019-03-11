@@ -3,26 +3,26 @@ title: Startpagina On-premises implementaties
 description: Dit onderwerp bevat informatie en koppelingen naar inhoud over on-premises implementaties.
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373272"
 ---
 # <a name="on-premises-deployments-home-page"></a>Startpagina On-premises implementaties
 
@@ -60,9 +60,10 @@ U kunt Microsoft Dynamics 365 for Finance and Operations (on-premises) implement
 - [Retail-mogelijkheden die beschikbaar zijn in on-premises implementaties](../../retail/retail-onprem.md)
 - [Installatiestappen voor onderdelen van detailhandelskanaal in een on-premises omgeving](deploy-retail-onprem.md)
 - [Retail Modern POS (MPOS) configureren, installeren en activeren](../../retail/retail-modern-pos-device-activation.md)
-- [Retail Store Scale Unit configureren en installeren](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Retail Store Scale UnitMPOS configureren en installeren](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>Bijwerken
+- [Intern upgradeproces voor on-premises omgevingen](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Overige bronnen
 - [Problemen oplossen met on-premises implementaties](troubleshoot-on-prem.md)
@@ -71,4 +72,3 @@ U kunt Microsoft Dynamics 365 for Finance and Operations (on-premises) implement
 - [Verwijderde of verouderde functies](../migration-upgrade/deprecated-features.md)
 - [Lifecycle-beleid voor software en on-premises versies](../migration-upgrade/on-prem-version-update-policy.md)
  
-

@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: abbeb1bb4481139dff902916362a479f94fb96e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 63562cde3f2813fdcfc9df7ccbfc623aa2fbe9b1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365725"
 ---
-
 # <a name="ledger-allocation-rules"></a>Grootboektoewijzingsregels
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Elke toewijzingsregel bestaat uit vier onderdelen: algemeen, bron, doel en tegen
 -   **Doel** – Via dit onderdeel bepaalt u hoe het resultaat van de toewijzingsberekening moet worden verdeeld en verantwoord. Er kan bijvoorbeeld één doelregel voor elke afdeling zijn.
 -   **Tegenrekenen** - Deze component bepaalt hoe hoofdrekeningen en dimensies moeten worden bepaald voor de tegenrekeningsitems die de doelitems in overeenstemming brengen. Door de gebruiker gedefinieerde opties worden meestal gebruikt in plaats van rekeningen en dimensies die zijn gebaseerd op de bron. Wanneer **Gegevensbron** is ingesteld op **Vaste waarde**, kan **Bron** niet als optie worden gebruikt.
 -   **Basisregels voor grootboektoewijzing** - Deze regels gebruiken hun eigen bronfiltercriteria om te bepalen welke grootboeksaldi voor toewijzing (bijvoorbeeld de opbrengsten per afdeling) moeten worden gebruikt. Elke toewijzingsbasisregel kan met meerdere toewijzingsregels worden gebruikt.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Budgetplanning bijwerken
-description: Er zijn belangrijke verschillen in budgetplanning tussen Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Finance and Operations. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.
+description: Er zijn belangrijke verschillen in de budgetplanning tussen Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Finance and Operations. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.
 author: ryansandness
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a39f516bb6d023ea18492ba3dfe721bd1127c60e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342955"
 ---
-
 # <a name="upgrade-budget-planning"></a>Budgetplanning bijwerken
 
 [!include [banner](../includes/banner.md)]
 
-Er zijn belangrijke verschillen in budgetplanning tussen Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Finance and Operations. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.  
+Er zijn belangrijke verschillen in de budgetplanning tussen Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Finance and Operations. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.  
 
-De budgetplanning in Microsoft Dynamics 365 for Finance and Operations kent vele verbeteringen die niet beschikbaar waren in Microsoft Dynamics AX 2012. In dit onderwerp worden de wijzigingen uitgelegd die klanten moeten uitvoeren bij een upgrade. Ook wordt verwezen naar de nieuwe functies die in overweging moeten worden genomen in het upgradeproces. Vanwege de omvang van de wijzigingen, kunnen eventuele bestaande budgetplannen pas worden geopend nadat de wijzigingen zie doorgevoerd die in dit onderwerp worden beschreven. Rapporten moeten echter blijven werken en mogen geen extra wijzigingen vereisen.
+Budgetplanning in Microsoft Dynamics 365 for Finance and Operations heeft veel verbeteringen die niet beschikbaar waren Microsoft Dynamics AX 2012. In dit onderwerp worden de wijzigingen uitgelegd die klanten moeten uitvoeren bij een upgrade. Ook wordt verwezen naar de nieuwe functies die in overweging moeten worden genomen in het upgradeproces. Vanwege de omvang van de wijzigingen, kunnen eventuele bestaande budgetplannen pas worden geopend nadat de wijzigingen zie doorgevoerd die in dit onderwerp worden beschreven. Rapporten moeten echter blijven werken en mogen geen extra wijzigingen vereisen.
 
 ## <a name="overview-of-changes"></a>Overzicht van wijzigingen
 Er zijn veel belangrijke wijzigingen aangebracht in budgettering voor Finance and Operations. Deze wijzigingen zijn bedoeld om ervoor te zorgen dat budgetplanning gemakkelijker te configureren en bruikbaarder wordt, zodat onderhoud en instelling van jaar tot jaar afnemen. De volgende gebieden in AX 2012 bestaan niet langer in Finance and Operations:
@@ -41,7 +40,7 @@ Er zijn veel belangrijke wijzigingen aangebracht in budgettering voor Finance an
 -   Scenariobeperkingen (budgetplanningsconfiguratie)
 -   Sjablonen voor regels en sjablonen voor budgetplanningsfasen (budgetplanningsproces)
 -   Matrixvelden voor werkbladsjablonen
--   Wizard Sjabloon voor budgetplan in Microsoft Excel
+-   Microsoft Excel-sjabloonwizard voor budgetplan
 
 Sommige nieuwe concepten kunnen niet rechtstreeks worden bijgewerkt vanuit de eerdere functionaliteit. Daarom moet u bepaalde onderdelen opnieuw configureren om te kunnen voorzien in deze nieuwe concepten. In de volgende secties worden de concepten beschreven die de items in de bovenstaande lijst hebben vervangen.
 
@@ -160,7 +159,6 @@ Verscheidene gegevensentiteiten zijn toegevoegd om snelle implementatie van de b
 -   Prioriteiten budgetplan
 -   Budgetplankolommen
 -   Indelingselementen van budgetplan
-
 
 
 

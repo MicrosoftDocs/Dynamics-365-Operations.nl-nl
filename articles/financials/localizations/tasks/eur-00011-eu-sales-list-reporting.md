@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00011 Rapport van ICL-lijst instellen
 description: Deze taak begeleidt u door een overzicht van de vereisten voor rapportage van de EU-verkooplijst.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, SysQueryForm, SysQueryFieldLookUp,  TaxTable, TaxGroup, TaxItemGroup, TaxCountryRegionParameters, TaxVATNumTable, IntrastatParameters, CustTable, DirPartyQuickCreateForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: aef1d19aabb7937fcd961a9657b8ca65c064b0b1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371366"
 ---
 # <a name="eur-00011-set-up-eu-sales-list-reporting"></a>EUR-00011 Rapport van ICL-lijst instellen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze taak begeleidt u door een overzicht van de vereisten voor rapportage van de EU-verkooplijst. Raadpleeg voor meer informatie over EU-verkooplijstrapportage, met inbegrip van vereisten, de Help bij Dynamics 365 for Finance and Operations.
+Deze taak begeleidt u door een overzicht van de vereisten voor rapportage van de EU-verkooplijst. Raadpleeg voor meer informatie over EU-verkooplijstrapportage, met inbegrip van vereisten, de Dynamics 365 for Finance and Operations Help.
 
 Deze taak is van toepassing op alle Europese landen/regio's. De handleiding werd gemaakt met de demogegevens van het bedrijf DEMF en dus Duitsland als voorbeeld voor land/regio. De handleiding maakt ook gebruik van Portugal als voorbeeld van EU-land/-regio.
 
@@ -128,5 +128,4 @@ Deze taken zijn bedoeld voor systeembeheerders.
 7. Selecteer 'PT12345' in het veld Nummers van belastingvrijstelling.
 8. Typ 'PRT' in het veld Land/regio.
 9. Klik op Opslaan.
-
 

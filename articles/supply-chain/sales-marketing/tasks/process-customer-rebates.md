@@ -1,13 +1,13 @@
---- 
+---
 title: Klantkortingen genereren en verwerken
 description: Deze procedure demonstreert hoe u klantkortingen verwerkt van het genereren van de claim tot het doorgeven ervan als toerekeningen aan Debiteuren.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336446"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Klantkortingen genereren en verwerken
 
@@ -83,5 +83,4 @@ Deze procedure demonstreert hoe u klantkortingen verwerkt van het genereren van 
 9. Typ of selecteer een waarde in het veld Klant.
 10. Klik op OK.
     * Een bericht geeft aan dat de korting met succes is verwerkt en dat de status van de claims is gewijzigd in Markeren. Dit betekent dat als gevolg van een geboekt kortingstoenamejournaal: a) de claims nu als inhoudingen zijn overgedragen naar het tijdelijke klantsaldo; b) de kortingstoenamerekening is gecrediteerd in verband met de toekomstige aansprakelijkheid naar de klant; en c) de kortingskostenrekening is gedebiteerd voor de gemaakte kosten in verband met de verkoop.   
-
 

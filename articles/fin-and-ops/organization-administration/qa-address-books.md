@@ -1,13 +1,13 @@
 ---
 title: Veelgestelde vragen over adresboeken
-description: Dit onderwerp bevat antwoorden op veelgestelde vragen over adresboeken in Microsoft Dynamics 365 for Finance and Operations.
+description: Dit onderwerp bevat antwoorden op veelgestelde vragen met betrekking tot de adresboeken in Microsoft Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: bb0239fd9bd80ae15bd2cca08d5a5f5258aef638
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337803"
 ---
-
 # <a name="address-books-faq"></a>Veelgestelde vragen over adresboeken
 
 [!include [banner](../includes/banner.md)]
@@ -69,4 +68,3 @@ U kunt partijregistraties invoeren in het algemene adresboek of op de pagina van
 ## <a name="can-i-translate-address-information-for-party-records"></a>Kan ik adresgegevens voor partijregistraties vertalen?
 
 U kunt vertalingen van adresgegevens zo instellen dat u de gegevens in uw gebruikerstaal (systeemtaal) kunt bekijken in Microsoft Dynamics 365 for Finance and Operations, terwijl de gegevens in documenten, zoals verkooporders, in een andere taal worden weergegeven. U kunt vertalingen invoeren voor landen/regionamen, adresdoeleinden en naamvolgordes. Stel dat uw systeemtaal Deens is en u een verkooporder voor een klant in Frankrijk maakt. In dit geval kunt u de klantregistratie in het programma in het Deens weergeven, maar worden de adresgegevens in het Frans weergegeven op de afgedrukte verkooporder. Als u vertalingen instelt, moet u een vertaling voor elk artikel in de lijst invoeren. Elk artikel waarvoor u geen vertaling invoert, verschijnt in de systeemtaal. Als uw systeemtaal bijvoorbeeld Deens is, en u verstuurd een document naar een klant in Spanje. Als u geen Spaanse (ESP) vertalingen voor de adresgegevens hebt ingevoerd, worden die gegevens zowel in het programma als op het afgedrukte document in het Deens weergegeven.
-

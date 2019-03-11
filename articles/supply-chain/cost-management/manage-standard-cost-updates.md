@@ -1,13 +1,13 @@
 ---
 title: Updates voor standaardkosten beheren
-description: "Updates van standaardkostengegevens kunnen worden beheerd met twee verschillende benaderingen: de benadering met één versie en de benadering met twee versies."
+description: 'Updates van standaardkostengegevens kunnen worden beheerd met twee verschillende benaderingen: de benadering met één versie en de benadering met twee versies.'
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e72d4e90ac83787ed7c58d91c2102696acfac68
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b64d9e53736fd3b81ee997ed28ccfa62ed7e9ce6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367542"
 ---
-
 # <a name="manage-standard-cost-updates"></a>Updates voor standaardkosten beheren
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Het volgende voorbeeld illustreert hoe de methoden met één versie en met twee 
 -   **Methode met twee versies voor updates van kostengegevens** − De methode met twee versies vereist een extra kostprijsberekeningsversie die alleen de kostenupdates bevat. De id voor deze versie is 2016-STD-WIJZIGINGEN. Kostenupdates worden in 2016-STD-WIJZIGINGEN vastgelegd en hun status wordt ingesteld op “In behandeling.” Bij de methode met twee kostprijsberekeningsversies vereisen de stuklijstberekeningen van wachtende kosten voor gefabriceerde artikelen een terugvalgegevensbron. Dit is zo omdat de extra kostprijsberekeningsversie 2016-STD-WIJZIGINGEN alleen een subset van kostengegevens bevat. De terugval kan worden uitgedrukt als de actieve kosten, of als de opgegeven kostprijsberekeningsversie 2016-STD, omdat beide de bron van kostengegevens identificeren wanneer die niet bestaat in 2016-STD-WIJZIGINGEN. Nadat de wachtende kosten zijn geactiveerd, zal de oorspronkelijke kostprijsberekeningsversie 2016-STD-WIJZIGINGEN opnieuw alle huidige actieve kosten bevatten die de updates weergeven, terwijl de oorspronkelijke kostprijsberekeningsversie 2016-STD niet wordt beïnvloed. Bij de methode met twee kostprijsberekeningsversies worden updates voorkomen door blokkeringsbeleid voor de oorspronkelijke kostprijsberekeningsversie. De extra kostprijsberekeningsversie moet precies hetzelfde blokkeringsbeleid hebben als de oorspronkelijke kostprijsberekeningsversie, met uitzondering van de opgegeven begindatum en het selectieve gebruik van blokkeringsbeleid om updates toe te staan. De opgegeven begindatum moet bij elke batch wijzigingen worden bijgewerkt om de geplande activeringsdatum te reflecteren.
 
 In het voorgaande voorbeeld werd één extra kostprijsberekeningsversie gebruikt om updates tijdens het jaar 2016 te beheren. Er kan meer dan een extra kostprijsberekeningsversie worden gebruikt, bijvoorbeeld een aparte versie voor elke batch met updates. Wanneer meer dan één extra kostprijsberekening wordt gebruikt, dan moet de terugval worden uitgedrukt als de actieve kosten, omdat de actieve kosten over meerdere kostprijsberekeningsversies zijn verdeeld.
-
 
 
 

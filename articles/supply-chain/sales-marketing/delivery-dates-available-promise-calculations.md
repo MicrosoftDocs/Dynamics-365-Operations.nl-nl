@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312342"
 ---
-
 # <a name="order-promising"></a>Orderbelofte
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ U maakt een verkooporderregel aan voor het product en voert als hoeveelheid **15
 Omdat de controlemethode voor de leveringsdatum ATP is, worden de vrijevoorraadgegevens berekend om de vroegst mogelijke verzenddatum te bepalen. Op basis van de instellingen worden de uitgestelde inkooporder en verkooporder meegenomen en is de resulterende hoeveelheid vrije voorraad voor de huidige datum 0. Morgen, wanneer de uitgestelde inkooporder naar verwachting wordt ontvangen, wordt de hoeveelheid vrije voorraad berekend als meer dan 0 (in dit geval wordt deze berekend als 125). Echter, 10 dagen vanaf nu, wanneer de aanvullende inkooporder voor 100 stuks naar verwachting wordt ontvangen, wordt de hoeveelheid vrije voorraad meer dan 150.  
 
 Daarom wordt de verzenddatum ingesteld op 10 dagen vanaf nu, gebaseerd op de berekening van de vrije voorraad. U kunt de klant daarom vertellen dat het gevraagde aantal kan worden geleverd binnen 10 dagen na nu.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Continuïteitsprogramma's instellen voor callcenters"
-description: "In dit artikel wordt beschreven hoe u een continuïteitsprogramma instelt voor een callcenter."
+title: Continuïteitsprogramma's instellen voor callcenters
+description: In dit artikel wordt beschreven hoe u een continuïteitsprogramma instelt voor een callcenter.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 369856f33c6da49b6c6b3f51f42c99a8f07fe777
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 9952785afd8e5d1877e96239ee23f9de1c332bcf
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320967"
 ---
-
 # <a name="set-up-continuity-programs-for-call-centers"></a>Continuïteitsprogramma's instellen voor callcenters
 
 [!include [banner](includes/banner.md)]
@@ -51,4 +50,3 @@ Nadat u een continuïteitsprogramma hebt ingesteld zoals hierboven beschreven , 
 - **Continuïteitsregels uitbreiden** (indien nodig): breid het aantal keren uit dat een continuïteitsgebeurtenis kan worden herhaald. De herhaling van zendingen kan vervolgens worden uitgebreid buiten de limiet die is ingesteld in het veld **Drempel voor continuïteitsherhaling** in de parameters van het callcenter.
 - **Een continuïteitsupdate uitvoeren** (indien nodig): synchroniseer wijzigingen tussen het continuïteitsprogramma en de bovenliggende continuïteitsverkooporders.
 - **Bovenliggende continuïteitsregels en -orders sluiten**: sluit continuïteitsorders.
-

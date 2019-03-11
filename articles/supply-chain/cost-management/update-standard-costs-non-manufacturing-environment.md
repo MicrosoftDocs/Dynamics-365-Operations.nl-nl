@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4fa545aa6903bd6f789dda20ab5755ffe9a12b88
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0386ca1e5e7bf6e578ba2abf1b2c9eefe4dd2a02
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323014"
 ---
-
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Standaardkosten in een niet-productieomgeving bijwerken
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Als u de standaardkosten voor nieuwe artikelen wilt corrigeren, aanpassen of bij
 4.  Gebruik het formulier **Onderhoud kostprijsberekeningsversie** om de blokkeringsvlag te wijzigen om activering toe te staan van kostenrecords die in behandeling zijn en die zijn ingesloten in de tweede kostprijsberekeningsversie.
 5.  Gebruik de pagina **Prijzen activeren** (die u opent vanaf de pagina **Onderhoud kostprijsberekeningsversie**) om alle artikelkostenrecords die in behandeling zijn en die zijn ingesloten in de tweede kostprijsberekeningsversie, te activeren. U kunt ook de kostenrecords die in behandeling zijn voor afzonderlijke artikelen, activeren door op de knop **Activeren** te klikken op de pagina **Artikelprijs**.
 6.  Gebruik de pagina **Instellingen kostprijsberekeningsversie** om de blokkeringsvlaggen te wijzigen die zijn ingesloten in de tweede kostprijsberekeningsversie. Met het blokkeringsbeleid voorkomt u de invoer van nieuwe kosten die in behandeling zijn en de activering van kosten die in behandeling zijn.
-
 
 
 

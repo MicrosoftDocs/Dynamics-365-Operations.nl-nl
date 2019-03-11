@@ -1,13 +1,13 @@
---- 
+---
 title: Een consignatieaanvullingsorder maken
 description: Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d3e33008d04ea8bb7d145c7b63cec23a4a45dd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f7f8005ec9e723c94d53e6ab81f04ee388c83faa
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315493"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Een consignatieaanvullingsorder maken
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren. Het laat ook zien hoe u een ontvangst van producten registreert zodat de consignatievoorraad als voorhanden voorraad wordt geregistreerd die eigendom is van de leverancier. Deze procdure wordt gewoonlijk uitgevoerd door een inkoper. U kunt deze begeleiding gebruiken in het demobedrijf USMF. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren. Het laat ook zien hoe u een ontvangst van producten registreert zodat de consignatievoorraad als voorhanden voorraad wordt geregistreerd die eigendom is van de leverancier. Deze procdure wordt gewoonlijk uitgevoerd door een inkoper. U kunt deze begeleiding gebruiken in het demobedrijf USMF. Deze procedure is voor een functie die in Dynamics 365 for Operations, versie 1611 is toegevoegd.
 
 
 
@@ -71,5 +71,4 @@ Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de
     * De artikelen die zijn ontvangen als consignatievoorraad en die eigendom zijn van de leverancier, zijn voorhanden in de voorraad. De resterende hoeveelheid op de consignatieaanvullingsorder wordt weergegeven in het veld Totaal van order.  
 4. Sluit de pagina.
 5. Klik op Sluiten.
-
 

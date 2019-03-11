@@ -3,26 +3,26 @@ title: Aanbiedingsbeheer instellen
 description: In dit onderwerp wordt beschreven hoe u aanbiedingen instelt in Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
+ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "376502"
 ---
 # <a name="set-up-offer-management"></a>Aanbiedingsbeheer instellen 
 
@@ -203,5 +203,7 @@ Er zijn verschillende onderdelen van het proces voor het maken van een aanbiedin
 
     - ESign: dit is de standaardoptie, die kant en klaar wordt geleverd, waarmee de gebruiker een aanbod kan ondertekenen door zijn/haar naam en initialen te typen.
 
-Als u meer wilt weten over het maken van aanbiedingen, raadpleegt u [Aanbiedingen maken, goedkeuren en ondertekenen](./creating-offers.md).
+>[!NOTE]
+> Ga voor Adobe Sign-licenties en een gratis proefversie deze [koppeling](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+Als u meer wilt weten over het maken van aanbiedingen, raadpleegt u [Aanbiedingen maken, goedkeuren en ondertekenen](./creating-offers.md).

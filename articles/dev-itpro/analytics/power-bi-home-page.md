@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 1a391c0111ad39cb8c4ec809eccb3eb7cfb18687
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316689"
 ---
-
 # <a name="powerbicom-solutions-home-page"></a>Startpagina van oplossingen voor PowerBI.com
 
 [!include [banner](../includes/banner.md)]
 
-De volgende PowerBI.com-oplossingen zijn beschikbaar voor Dynamics 365 voor omgevingen met Finance and Operations.
+De volgende PowerBI.com-oplossingen zijn beschikbaar voor Dynamics 365 for Finance and Operations-omgevingen.
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>PowerBI.com-oplossingen beschikbaar vanuit Lifecycle Services (LCS)
 
@@ -59,7 +58,7 @@ De volgende PowerBI.com-oplossingen zijn beschikbaar in de bibliotheek Gedeelde 
 
 ## <a name="powerbicom-solutions-available-from-appsource"></a>PowerBI.com-oplossingen beschikbaar via AppSource
 
-De volgende PowerBI.com-oplossingen zijn beschikbaar van [Microsoft AppSource](https://appsource.microsoft.com).
+De volgende PowerBI.com-oplossingen zijn beschikbaar via [Microsoft AppSource](https://appsource.microsoft.com).
 
 > [!NOTE]
 > Deze oplossingen zijn verouderd, zoals gedocumenteerd in [Power BI-inhoudpakketten beschikbaar op AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -67,4 +66,3 @@ De volgende PowerBI.com-oplossingen zijn beschikbaar van [Microsoft AppSource](h
 - Kostenbeheer
 - [Financiële prestaties](financial-performance-power-bi-content-pack.md)
 - [Prestaties detailhandelafzetkanaal ](retail-channel-performance-dashboard-power-bi-data.md)
-

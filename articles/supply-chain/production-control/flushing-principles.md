@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358296"
 ---
-
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Het grondstoffenverbruik beheren door middel van wisprincipes
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ Het wisprincipe Voltooien geeft aan dat materiaal automatisch worden verbruikt w
 
 ### <a name="available-at-location"></a>Beschikbaar op locatie
 Het wisprincipe Beschikbaar op locatie geeft aan dat het materiaal automatisch wordt verbruikt wanneer het wordt geregistreerd als gepickt voor productie. Het materiaal is geregistreerd als gepickt vanaf locatie, wanneer het verzamelen van de grondstoffen is voltooid of wanneer materiaal beschikbaar is op de productie-invoerlocatie en de materiaalregel wordt vrijgegeven voor het magazijn. De orderverzamellijst die wordt gegenereerd tijdens het proces wordt geboekt in een batchtaak. Dit principe is relevant als u bijvoorbeeld veel orderverzamelactiviteiten voor één productieorder hebt. In dit geval hoeft u de orderverzamellijst niet handmatig bij te werken en krijgt u een actuele weergave van het OHW-saldo.
-

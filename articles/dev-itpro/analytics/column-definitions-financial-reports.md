@@ -1,13 +1,13 @@
 ---
-title: "Kolomdefinities in financiële rapporten"
+title: Kolomdefinities in financiële rapporten
 description: Dit artikel bevat informatie over kolomdefinities. Een kolomdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van kolommen in een financieel rapport wordt gedefinieerd. Net zoals bij rijdefinities kunnen de basisdefinities van kolommen worden gebruikt in meerdere rapporten.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356341"
 ---
-
 # <a name="column-definitions-in-financial-reports"></a>Kolomdefinities in financiële rapporten
 
 [!include [banner](../includes/banner.md)]
@@ -121,11 +120,11 @@ De volgende tabel beschrijft de codes voor kolombeperking.
 | ADJ                     | Beperk de bedragen in de kolom tot bedragen van de periodecorrectie, als deze bedragen beschikbaar zijn. |
 | XAD                     | Beperk de bedragen in de kolom, zodat bedragen van de periodecorrectie worden uitgesloten. |
 | GT                      | Beperk de bedragen in de kolom, zodat alleen geboekte transacties worden opgenomen, als deze transacties beschikbaar zijn. |
-| UPT                     | Beperk de bedragen in de kolom, zodat alleen niet-geboekte transacties worden opgenomen, als deze transacties beschikbaar zijn.<blockquote>[!NOTE] Niet-geboekte transacties worden niet door alle gegevensproviders ondersteund. Raadpleeg <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>handleiding voor gegevensintegratie</a> voor uw Microsoft Dynamics ERP-systeem voor meer informatie.</blockquote> |
+| UPT                     | Beperk de bedragen in de kolom, zodat alleen niet-geboekte transacties worden opgenomen, als deze transacties beschikbaar zijn.<blockquote>[!NOTE] Niet-geboekte transacties worden niet door alle gegevensproviders ondersteund. Zie de <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>handleiding gegevensintegratie</a> voor uw Microsoft Dynamics ERP-systeem voor meer informatie.</blockquote> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Een kolom beperken tot een rapportage-eenheid
 
-1. Open in Report Designer de kolomdefinitie die u wilt wijzigen.
+1. Open in Rapportontwerper de kolomdefinitie die u wilt wijzigen.
 2. Dubbelklik op de cel **Rapportage-eenheid** zodat de kolom wordt beperkt.
 3. Selecteer een structuur in het dialoogvenster **Selectie van rapportage-eenheid** in de lijst **Rapportagestructuur**.
 4. Vouw de lijst van eenheden uit of samen, selecteer een rapportage-eenheid en klik op **OK**.
@@ -171,26 +170,26 @@ U kunt het dialoogvenster **Kolomkoptekst** gebruiken om kopteksten toe te voege
 
 ### <a name="create-an-automatically-generated-header"></a>Een automatisch gegenereerde koptekst maken
 
-Report Designer kan kolomkoppen automatisch genereren op basis van AutoTekstcodes. De AutoTekstcodes zok, variabelen die altijd worden bijgewerkt wanneer een rapport wordt gegenereerd. Elke kolomkop kan deze codes bevatten om rapportinformatie op te geven die kan verschillen, zoals datums of periodenummers. Daarom kunt u één kolomdefinitie gebruiken voor meerdere rapportdefinities, perioden en rapportagestructuren. Omdat AutoTekstcodes zich baseren op de kalendergegevens van de rijen met details van de kolomdefinitie, worden deze alleen ondersteund voor **CALC**-, **FD**- en **WKS**-kolommen. De manier waarop een AutoTekstcode in de kolomkopcel wordt weergegeven bepaalt hoe die informatie op het rapport wordt weergegeven. In het dialoogvenster **Kolomkop** worden AutoTekstcodes weergegeven in zowel hoofdletters als kleine letters. Daarom wordt tekst op het rapport in zowel hoofdletters als kleine letters weergegeven. In een standaardkalenderjaar wordt met **@CalMonthLong** bijvoorbeeld maand **7** omgezet in **Juli**. Als de naam van de maand in hoofdletters moet zijn (bijvoorbeeld **JULI**), typt u de AutoTekst-code in hoofdletters in het veld **Kolomkoptekst**. Voer bijvoorbeeld **@CALMONTHLONG** in. U kunt codes en tekst mengen. U voert bijvoorbeeld de volgende koptekst in: **periode @FiscalPeriod-@FiscalYear van @StartDate tot @EndDate**. De rapportkop die wordt gegenereerd lijkt op de volgende tekst: **Periode 1-02 van 01/01/02 tot 31/01/02**.
+Report Designer kan kolomkoppen automatisch genereren op basis van AutoTekstcodes. De AutoTekstcodes zok, variabelen die altijd worden bijgewerkt wanneer een rapport wordt gegenereerd. Elke kolomkop kan deze codes bevatten om rapportinformatie op te geven die kan verschillen, zoals datums of periodenummers. Daarom kunt u één kolomdefinitie gebruiken voor meerdere rapportdefinities, perioden en rapportagestructuren. Omdat AutoTekstcodes zich baseren op de kalendergegevens van de rijen met details van de kolomdefinitie, worden deze alleen ondersteund voor **CALC**-, **FD**- en **WKS**-kolommen. De manier waarop een AutoTekstcode in de kolomkopcel wordt weergegeven bepaalt hoe die informatie op het rapport wordt weergegeven. In het dialoogvenster **Kolomkop** worden AutoTekstcodes weergegeven in zowel hoofdletters als kleine letters. Daarom wordt tekst op het rapport in zowel hoofdletters als kleine letters weergegeven. Bijvoorbeeld, in een standaardkalenderjaar zet **@CalMonthLong** **7** om in **juli**. Als de naam van de maand in het rapport in hoofdletters moet worden weergegeven (bijvoorbeeld **JULI**), voert u de AutoTekst-code in in het veld **Kolomkoptekst** ook in hoofdletters, bijvoorbeeld @CALMONTHLONG. Voer bijvoorbeeld **@CALMONTHLONG** in. U kunt codes en tekst mengen. U voert bijvoorbeeld de volgende koptekst in: **Periode @FiscalPeriod-@FiscalYear van @StartDate tot @EndDate**. De rapportkop die wordt gegenereerd lijkt op de volgende tekst: **Periode 1-02 van 01/01/02 tot 31/01/02**.
 
 > [!NOTE]
 > De indeling van bepaalde tekst, zoals de lange datumnotatie, is afhankelijk van uw landinstellingen op de Finance and Operations-server. Als u deze instellingen wilt wijzigen, klikt u op de knop **Start**, klikt u op **Configuratiescherm** en vervolgens op **Regio en Taal**. In de volgende tabel vindt u de beschikbare AutoTekst-opties voor kolomkoppen.
 
 
-| AutoTekst-optie en -code                | Omschrijving |
+| AutoTekst-optie en -code                | Beschrijving |
 |-----------------------------------------|-------------|
-| Maandnaam (@CalMonthLong)              | Druk de naam van de huidige maand af in de kolomkop. Als u de bedragen in het rapport wilt afronden op duizend, miljoen of miljard, of als u de kolombreedte op het rapport instelt op minder dan negen tekens, wordt de naam van de maand tot de eerste drie tekens afgekort. |
-| Afgekorte maandnaam (@CalMonthShort) | Druk de afgekorte naam van de maand af voor de geselecteerde boekperiode. |
-| Periodenummer (@FiscalPeriod)           | Druk de numerieke vorm van de boekperiode af die voor die kolom is geïdentificeerd. Als de kolom meerdere boekperioden bevat, wordt de laatste periode in het bereik afgedrukt. |
-| Periodeomschrijving (@FiscalPeriodName)  | Druk de omschrijving van de boekperiode af die in de financiële gegevens is geïdentificeerd. |
-| Boekjaar (@FiscalYear)               | Druk het fiscaal jaar voor de kolom af in numerieke vorm. |
+| Naam van maand (@CalMonthLong)              | Druk de naam van de huidige maand af in de kolomkop. Als u de bedragen in het rapport wilt afronden op duizend, miljoen of miljard, of als u de kolombreedte op het rapport instelt op minder dan negen tekens, wordt de naam van de maand tot de eerste drie tekens afgekort. |
+| Afgekorte naam van maand (@CalMonthShort) | Druk de afgekorte naam van de maand af voor de geselecteerde boekperiode. |
+| Nummer van periode (@FiscalPeriod)           | Druk de numerieke vorm van de boekperiode af die voor die kolom is geïdentificeerd. Als de kolom meerdere boekperioden bevat, wordt de laatste periode in het bereik afgedrukt. |
+| Beschrijving van periode (@FiscalPeriodName)  | Druk de omschrijving van de boekperiode af die in de financiële gegevens is geïdentificeerd. |
+| Fiscaal jaar (@FiscalYear)               | Druk het fiscaal jaar voor de kolom af in numerieke vorm. |
 | Kalenderjaar (@CalYear)                | Druk het kalenderjaar voor de kolom af in numerieke vorm. |
 | Begindatum (@StartDate)                 | Druk de begindatum voor de kolom af. |
 | Einddatum (@EndDate)                     | Druk de einddatum voor de kolom af. |
-| Eenheidnaam van structuur (@UnitName)         | Als u een kolom beperkt tot een specifieke eenheid uit de rapportagestructuur, drukt u de naam van de eenheid af in de kolomkop. |
+| Eenheidnaam uit structuur (@UnitName)         | Als u een kolom beperkt tot een specifieke eenheid uit de rapportagestructuur, drukt u de naam van de eenheid af in de kolomkop. |
 | Omschrijving van eenheid (@UnitDesc)            | Als u een kolom beperkt tot een specifieke eenheid uit de rapportagestructuur, drukt u de omschrijving van de eenheid af in de kolomkop. |
 | Boekcode (@BookCode)                   | Druk de boekcode af die is opgegeven in de kolom. |
-| Lege regel (@Blank)                     | Voeg in de kolomkop een lege regel in. |
+| Blanco regel (@Blank)                     | Voeg in de kolomkop een lege regel in. |
 
 ### <a name="create-a-conditional-spanning-header"></a>Een voorwaardelijke spanningkoptekst maken
 
@@ -218,7 +217,7 @@ Phyllis maakt een rapport voor een dynamische halfjaarlijkse prognose. Ze wil da
 
 |                     |  A   | B             | C             | D             | E             | F             | G             | H             | I             | J             | K             | L             | M             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Koptekst 1            |      | Huidige        | Budget        |               |               |               |               |               |               |               |               |               |               |
+| Koptekst 1            |      | Werkelijk        | Budget        |               |               |               |               |               |               |               |               |               |               |
 | Koptekst 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | Koptekst 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
 | Kolomtype         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
@@ -612,4 +611,3 @@ U kunt het bedrag in een kolom delen door een opgegeven aantal perioden. De form
 [Rijdefinities in financiële rapportage](row-definitions-financial-reporting.md)
 
 [Geavanceerde opmaakopties in financiële rapportage](advanced-formatting-options-financial-reporting.md)
-

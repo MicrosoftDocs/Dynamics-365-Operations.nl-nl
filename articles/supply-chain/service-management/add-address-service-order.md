@@ -5,33 +5,32 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 05/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 58188be6f82b6587011188379e5370b81f8fd114
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e6dfa27b2101e84fbab678e781c26126cf1db898
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311905"
 ---
-
 # <a name="add-an-address-to-a-service-order"></a>Een adres aan een serviceorder toevoegen    
 
 [!include [banner](../includes/banner.md)]
 
 
-Dit onderwerp beschrijft hoe u een klantadres aan de serviceorder toe te voegen. Wanneer u een serviceorder maakt, worden de adresgegevens overgedragen vanuit het project waaraan de serviceorder is gekoppeld. U kunt echter een alternatieve locatie uit adressen selecteren die al in Microsoft Dynamics AX zijn ingevoerd voor klanten, leveranciers, locaties, magazijnen, serviceorders en projecten.
+Dit onderwerp beschrijft hoe u een klantadres aan de serviceorder toe te voegen. Wanneer u een serviceorder maakt, worden de adresgegevens overgedragen vanuit het project waaraan de serviceorder is gekoppeld. U kunt echter een alternatieve locatie uit adressen selecteren die al in Microsoft Dynamics AX voor klanten, leveranciers, locaties, magazijnen, serviceorders en projecten worden ingevoerd.
 
 U kunt ook nieuw adres maken. Standaard, wordt het nieuwe adres naar het project overgeboekt. Echter, u kunt opgeven dat het nieuwe adres alleen voor dit exemplaar van de service relevant is. Als u dit doet, wordt het nieuwe adres niet naar het project overgeboekt.
 
@@ -74,6 +73,5 @@ Om een alternatief adres aan een serviceorder toe te voegen, volgt u deze stappe
 
 
   
-
 
 

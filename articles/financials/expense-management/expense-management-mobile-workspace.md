@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344335"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Mobiel werkgebied voor onkostenbeheer
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 03/26/2018
 Dit onderwerp bevat informatie over het mobiele werkgebied voor **Onkostenbeheer**. Via dit werkgebied kunnen gebruikers een ontvangstbewijs vastleggen en uploaden, zodat zij dit later aan een onkostennota kunnen koppelen. Gebruikers kunnen ook snel een onkostenregel maken met behulp van een bijgevoegd ontvangstbewijs en hun onkostennota's beheren. Fiatteurs kunnen bovendien het mobiele werkgebied **Onkostenbeheer** gebruiken voor het weergeven van onkostenrapporten die aan hen zijn toegewezen, en deze goedkeuren of afwijzen.
 
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations.
+Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile.
 
 
 ## <a name="overview"></a>Overzicht
@@ -42,11 +41,11 @@ Veel organisaties vereisen dat een kopie van een ontvangstbewijs aan een reisger
 
 Gebruikers kunnen met het mobiele werkgebied **Onkostenbeheer** de volgende taken uitvoeren:
 
-- Een foto maken van een ontvangstbewijs en deze uploaden naar Microsoft Dynamics 365 for Finance and Operations. U kunt vervolgens deze foto later aan een onkostennota koppelen.
+- Maak een foto van een ontvangstbewijs en upload die naar Microsoft Dynamics 365 for Finance and Operations. U kunt vervolgens deze foto later aan een onkostennota koppelen.
 - Een bestand uploaden als een vastgelegd ontvangstbewijs. U kunt vervolgens dat bestand later aan een onkostennota koppelen.
 - Een nieuwe onkostenregel maken met behulp van een bijgevoegd ontvangstbewijs. U kunt vervolgens later het regelartikel toevoegen aan een onkostennota en deze indienen voor goedkeuring en terugbetaling.
 
-Als u werkt met Microsoft Dynamics 365 for Finance and Operations, kunt u ook deze functies gebruiken:
+Als u gebruikmaakt van Microsoft Dynamics 365 for Finance and Operations, kunt u ook deze functies gebruiken:
 
 - Een nieuwe onkostennota maken.
 - Creditcardtransacties en overige eerder gemaakte kosten koppelen aan een onkostennota.
@@ -63,8 +62,8 @@ De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 d
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
 Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Onkostenbeheer** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger gebruikt.
-Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder aan de volgende vereisten voldoen. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Microsoft Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
+Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
 
 <table>
 <thead>
@@ -80,7 +79,7 @@ Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of 
 <td>Systeembeheerder</td>
 <td>KB 4019015 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Onkostenbeheer</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4019015.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">De metagegevenshotfix van Microsoft Dynamics Lifecycle Services (LCS) downloaden</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Metagegevens-hotfix downloaden uit  Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">De metagegevenshotfix installeren</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a> dat de <strong>ApplicationSuite</strong> en <strong>ExpenseMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Het implementeerbare pakket toepassen</a></li>
@@ -94,7 +93,7 @@ Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of 
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>De mobiele app voor Dynamics 365 for Operations downloaden en installeren
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Download en installeer de Dynamics 365 for Operations mobiele app.
 Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 - [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
@@ -243,4 +242,3 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 22. Selecteer **Indienen**.
 23. Voer opmerkingen in voor de fiatteur.
 24. Selecteer **Gereed**.
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen
 description: Wanneer u een factuur ontvangt van een leverancier voor goederen of services op een inkooporder, hanteert het bedrijf misschien een beleid waarbij de goederen of services moeten zijn ontvangen voordat de factuur kan worden goedgekeurd voor betaling.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5d7458c62b3b71adf981a1ce5a7260da9bfdbcd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a64413ac1840ef535252bd2d9752d52b26ccade1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330213"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen
 
@@ -64,5 +64,4 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt. De leveranciersmanager o
 9. Klik op OK.
 10. Klik in het actievenster op Controleren.
 11. Klik op Vereffeningsgegevens.
-
 

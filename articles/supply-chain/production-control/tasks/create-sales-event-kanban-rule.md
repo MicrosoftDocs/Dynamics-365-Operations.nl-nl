@@ -1,13 +1,13 @@
---- 
+---
 title: Een kanbanregel voor verkoopgebeurtenis maken
 description: Deze procedure is gericht op de instellingen die nodig is voor het maken van een kanbanregel die tijdens het maken van een verkooporder wordt geactiveerd.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d2bee6e81acd029406c95237f0b4ba4ab2565ea1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f1f66157b2e74ad1b490e10112cbc121ac9826fb
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342012"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Een kanbanregel voor verkoopgebeurtenis maken
 
@@ -73,5 +73,4 @@ Deze procedure is gericht op de instellingen die nodig is voor het maken van een
 1. Klik op Product en voorraad.
 2. Klik op Behoeftetraceringsstructuur weergeven.
     * Er wordt een kanban gemaakt met dezelfde hoeveelheid als de verkoopregel. U kunt ook de materiaaluitgiften zien die nodig zijn om L0050 te produceren. Dit is de laatste stap in deze procedure.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Detailhandelhiërarchieën"
-description: "In dit artikel worden detailhandelhiërarchieën in Microsoft Dynamics 365 for Retail beschreven."
+title: Detailhandelhiërarchieën
+description: In dit artikel worden detailhandelhiërarchieën in Microsoft Dynamics 365 for Retail beschreven.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e94b59540c9ef188a07e2e24ef4a04829b9d37f8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341897"
 ---
-
 # <a name="retail-hierarchies"></a>Detailhandelhiërarchieën
 
 [!include [banner](includes/banner.md)]
@@ -46,4 +45,3 @@ In de volgende tabel worden de beschikbare typen detailhandelcategoriehiërarchi
 | Detailhandelnavigatiehiërarchie   | Gebruik dit hiërarchietype om producten te groeperen en organiseren in categorieën zodat u online of in POS in producten kunt bladeren. |
 
 U kunt gebruikmaken van een detailhandelcategoriehiërarchie voor het structureren van uw producten, zodat u productkenmerken en -eigenschappen kunt instellen en onderhouden op het categorieniveau. Deze kenmerken en eigenschappen omvatten instellingen voor productdimensies en POS-instellingen. Alle producten die u aan de categorieën toewijst, nemen de kenmerken en eigenschappen die u definieert automatisch over. Het is ook mogelijk om de eigenschapinstellingen van een product naar meerdere producten tegelijk in een geselecteerde categorie te kopiëren.
-

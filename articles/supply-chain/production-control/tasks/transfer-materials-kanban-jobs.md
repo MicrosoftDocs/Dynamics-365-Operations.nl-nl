@@ -1,13 +1,13 @@
---- 
+---
 title: Materialen overboeken met kanbantaken
 description: Deze procedure richt zich op het uitvoeren van een opnamekanbantaak om materialen te boeken.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a2db7b9fb960beb5b4a851aabb9f28a0f9e3d3da
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367427"
 ---
 # <a name="transfer-materials-with-kanban-jobs"></a>Materialen overboeken met kanbantaken
 
@@ -65,5 +65,4 @@ Deze procedure richt zich op het uitvoeren van een opnamekanbantaak om materiale
     * Nu worden twee overboekingstaken geselecteerd op rij 4 en 5.  
 2. Klik op Voltooien.
     * Hiermee wordt de overboeking van beide taken voltooid.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid
-description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Verkoop- en winstgevendheidsprestaties. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+title: Power BI-inhoud Verkoop- en winstgevendheidsprestaties
+description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Verkoop- en winstgevendheidsprestaties. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360412"
 ---
-
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI-inhoud Verkoop- en winstgevendheidsprestaties
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Verkoop- en winstgevendheidsprestaties**. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Verkoop- en winstgevendheidsprestaties**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 
@@ -49,10 +48,10 @@ Winstgevendheid kan worden geanalyseerd op de volgende manieren:
 - Wijziging brutowinst wijziging, jaar op jaar
 - Winstgevendheid klant (op opbrengst versus brutomarge)
 
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
+## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** wordt weergegeven op de pagina **Verkoop- en winstgevendheidsprestaties** (**Verkoop en marketing** \> **Query's en rapporten** \> **Verkoopprestatieanalyse** \> **Verkoop- en winstgevendheidsprestaties**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
+## <a name="metricsthat-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties die in de inhoud worden gebruikt.
 
 | Rapportpagina            | Diagrammen                                     | Tegels                                                   |
@@ -78,9 +77,9 @@ De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** bevat een rapport 
 \* Opbrengst dit jaar en vorig jaar en groei per verkoopcategorie.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
+De volgende gegevens worden gebruikt om de rapportpagina's in de Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
 
-De samengevoegde metingen in deze inhoud zijn de subset van de geaggregeerde metingen die beschikbaar waren in de Verkoop-cube in Microsoft Microsoft Dynamics AX 2012 en Microsoft Dynamics AX 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI integration with Entity Store in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
+De samengevoegde metingen in dit inhoudpakket zijn de subset van de geaggregeerde metingen die beschikbaar waren in de Verkoop-cube in Microsoft Dynamics AX 2012 en Microsoft Dynamics AX 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI-integratie met entiteitopslag in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 
 De volgende belangrijke samengevoegde metingen van de entiteit Factuurregels worden gebruikt als basis voor de inhoud.
 
@@ -109,4 +108,3 @@ De volgende belangrijke dimensies in de Verkoop-cube worden gebruikt als filters
 | Datums            | Datums                                                |
 
 Standaard worden gegevens in de inhoud weergegeven voor het huidige kalenderjaar. U kunt echter het datumfilter in de sectie rapportfilters wijzigen. U kunt ook het bedrijfsfilter wijzigen.
-

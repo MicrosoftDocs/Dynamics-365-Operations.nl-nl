@@ -1,14 +1,14 @@
 ---
 title: Activiteiten in de processen
 description: Dit onderwerp biedt informatie over de verschillende soorten activiteiten die kunnen worden gebruikt in het aanstellingsproces.
-author: 
+author: ''
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374752"
 ---
-
 # <a name="activities-in-the-hiring-processes"></a>Activiteiten in de aanstellingsprocessen
 
 [!include[banner](../includes/banner.md)]
@@ -43,31 +42,9 @@ De activiteit Prospect bepaalt of prospects kunnen worden toegevoegd aan een fun
 
 De activiteit Sollicitatie is vereist in de aanstellingsprocessjabloon. Als u e-mail naar kandidaten wilt verzenden wanneer ze hun sollicitatie indienen of worden toegevoegd aan de fase Sollicitatie, stelt u de optie **Mail aan kandidaat verzenden** in op **Aan**.
 
-## <a name="scheduler-activity"></a>Planneractiviteit
+## <a name="interview-schedule-and-feedback-activity"></a>Planning van sollicitatiegesprekken en feedbackactiviteit
 
-De planneractiviteit is optioneel. Deze activiteit bestaat uit twee onderdelen: Beschikbaarheid van kandidaat en Planning. Met de component Beschikbaarheid van kandidaat kunt u e-mail gebruiken om te informeren naar de beschikbaarheid van een kandidaat. De component Planning biedt de mogelijkheid sollicitatiegesprekken met de kandidaat en het aanstellend team te plannen. In de planneractiviteit kunnen de volgende opties worden geconfigureerd: **Beschikbaarheid van kandidaat aanvragen**, **Online vergadering** en **Mail aan kandidaat verzenden**.
-
-- Als u e-mail aan kandidaten wilt verzenden om te informeren naar hun beschikbaarheid, stelt u de optie **Beschikbaarheid van kandidaat aanvragen** in op **Aan**. Als u de optie instelt op **Uit**, wordt deze stap niet weergegeven in het aanstellingsproces voor de functie.
-- Als u een live-stream of een telefonische vergadering wilt houden met Skype voor Bedrijven, stelt u het veld **Online vergadering** in op **Skype voor Bedrijven**. De juiste **Deelnemen aan Skype-vergadering**-koppeling wordt dan toegevoegd aan het interviewvergaderverzoek dat naar interviewers wordt verzonden.
-- Als u e-mail aan kandidaten wilt verzenden om de planning te voltooien, stelt u de optie **Mail aan kandidaat verzenden** in op **Aan**. Als u de optie instelt op **Uit**, ontvangen kandidaten de planning van het sollicitatiegesprek alleen wanneer ze zich aanmelden bij de kandidaatportal.
-
-## <a name="feedback-activity"></a>Activiteit Feedback
-
-De feedbackactiviteit is optioneel. Met deze activiteit kunnen deelnemers aan sollicitatiegesprekken aanbevelingen voor een sollicitant invoeren. Ze kunnen ook eventuele opmerkingen met feedback invoeren. Als u de optie **Feedback deelnemers overnemen van aanstellingsteam** inschakelt, worden de werver, de aanstellend manager en de interviewers automatisch ingevoerd in de feedbackactiviteit. Organisaties kunnen interviewers toestaan de feedback van anderen weer te geven voordat ze hun eigen feedback indienen. Organisaties kunnen interviewers ook toestaan hun feedback te bewerken nadat zij deze hebben ingediend.
-
-## <a name="interview-activity"></a>Interviewactiviteit
-
-De interviewactiviteit is optioneel. Deze activiteit bestaat uit drie onderdelen: Beschikbaarheid van kandidaat, Planning en Feedback. Met de component Beschikbaarheid van kandidaat kunt u e-mail gebruiken om te informeren naar de beschikbaarheid van een kandidaat. De component Planning biedt de mogelijkheid sollicitatiegesprekken met de kandidaat en het aanstellend team te plannen. In de planneractiviteit kunnen de volgende opties worden geconfigureerd: **Beschikbaarheid van kandidaat aanvragen**, **Online vergadering** en **Mail aan kandidaat verzenden**.
-
-- Als u e-mail aan kandidaten wilt verzenden om te informeren naar hun beschikbaarheid, stelt u de optie **Beschikbaarheid van kandidaat aanvragen** in op **Aan**. Als u de optie instelt op **Uit**, wordt deze stap niet weergegeven in het aanstellingsproces voor de functie.
-- Als u een live-stream of een telefonische vergadering wilt houden met Skype voor Bedrijven, stelt u het veld **Online vergadering** in op **Skype voor Bedrijven**. De juiste **Deelnemen aan Skype-vergadering**-koppeling wordt dan toegevoegd aan het interviewvergaderverzoek.
-- Als u e-mail aan kandidaten wilt verzenden om de planning te voltooien, stelt u de optie **Mail aan kandidaat verzenden** in op **Aan**. Als u de optie instelt op **Uit**, ontvangen kandidaten de planning van het sollicitatiegesprek alleen wanneer ze zich aanmelden bij de kandidaatportal.
-
->[!NOTE]
-> - Voor alle 1-op-1-gesprekken worden elke 24 uur herinneringen verzonden naar de interviewers als de interviewer niet geeft gereageerd op het interviewverzoek (geaccepteerd of geweigerd).
-> - Voor alle panelgesprekken worden er geen geautomatiseerde herinneringen verzonden om te reageren op interviewverzoeken. Als u handmatig een herinnering wilt activeren, bewerkt u het gesprek en gebruikt u de optie **Bijwerken en verzenden** om het verzoek terug te sturen naar de interviewers.
-
-Met de component Feedback kunnen mensen aanbevelingen voor een sollicitant doen. Ze kunnen ook eventuele opmerkingen met feedback invoeren. Als u de optie **Feedback deelnemers overnemen van aanstellingsteam** inschakelt, worden de werver, de aanstellend manager en de interviewers automatisch ingevoerd in het onderdeel Feedback. Organisaties kunnen interviewers toestaan de feedback van anderen weer te geven voordat ze hun eigen feedback indienen. Organisaties kunnen interviewers ook toestaan hun feedback te bewerken nadat zij deze hebben ingediend.
+Deze activiteit bestaat uit drie onderdelen: Beschikbaarheid van kandidaat aanvragen, Planning en Feedback. Gebruik de sollicitatiegesprekactiviteit in de taaksjabloon als u de beschikbaarheidsaanvraag van de kandidaat, de planning en feedback wilt opnemen als onderdeel van het proces in plaats van deze afzonderlijk als onderdeel van het aanstellingsproces te gebruiken. Zie voor meer informatie [Plannen van sollicitatiegesprekken en feedback](interview-scheduling-feedback.md).
 
 ## <a name="powerapps-activity"></a>Activiteit PowerApps
 
@@ -82,24 +59,23 @@ Als u de optie **Toevoegen van deelnemers aan deze activiteit toestaan** inschak
 
 ## <a name="youtube-activity"></a>YouTube-activiteit
 
-Met de activiteit YouTube kunt u een YouTube-video delen als onderdeel van uw aanstellingsproces. Als u de activiteit YouTube wilt opslaan in het aanstellingsproces, moet u de URL van de YouTube-video opgeven. Net als bij de activiteit PowerApps kunt u toestaan dat deelnemers worden toegevoegd aan de activiteit. Als u de optie **Alleen aan kandidaat tonen** inschakelt, wordt de video alleen weergegeven als onderdeel van de kandidaatervaring. De video wordt niet weergegeven in het aanstellingsproces in Attract.
+Met de YouTube-activiteit kunt u een YouTube-video delen als onderdeel van uw aanstellingsproces. Als u de YouTube-activiteit wilt opslaan in het aanstellingsproces, moet u de URL van de YouTube-video opgeven. Net als bij de activiteit PowerApps kunt u toestaan dat deelnemers worden toegevoegd aan de activiteit. Als u de optie **Alleen aan kandidaat tonen** inschakelt, wordt de video alleen weergegeven als onderdeel van de kandidaatervaring. De video wordt niet weergegeven in het aanstellingsproces in Attract.
 
 > [!NOTE]
-> De activiteit YouTube is alleen beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen.
+> De YouTube-activiteit is alleen beschikbaar met de uitgebreide invoegtoepassing voor aanstellingen.
 
 ## <a name="web-content-activity"></a>Activiteit Webinhoud
 
-Met de activiteit Webinhoud kunt u online inhoud in uw aanstellingsproces insluiten. Als u de activiteit Webinhoud wilt opslaan in het aanstellingsproces, moet u de URL van de content opgeven. Net als bij de activiteit PowerApps en YouTube kunt u toestaan dat deelnemers worden toegevoegd aan de activiteit. Als u de optie **Alleen aan kandidaat tonen** inschakelt, wordt de inhoud alleen weergegeven als onderdeel van de kandidaatervaring. De video wordt niet weergegeven in het aanstellingsproces in Attract. U kunt de grootte selecteren van de inhoud die wordt weergegeven.
+Met de activiteit Webinhoud kunt u online inhoud in uw aanstellingsproces insluiten. Als u de activiteit Webinhoud wilt opslaan in het aanstellingsproces, moet u de URL van de content opgeven. Net als bij de PowerApps- en YouTube-activiteiten kunt u toestaan dat deelnemers worden toegevoegd aan de activiteit. Als u de optie **Alleen aan kandidaat tonen** inschakelt, wordt de inhoud alleen weergegeven als onderdeel van de kandidaatervaring. De video wordt niet weergegeven in het aanstellingsproces in Attract. U kunt de grootte selecteren van de inhoud die wordt weergegeven.
 
 > [!NOTE]
 > De activiteit Webinhoud is alleen beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen.
 
 ## <a name="microsoft-forms-activity"></a>Activiteit Microsoft Forms
 
-Met de activiteit Microsoft Forms kunt u een Microsoft Forms-formulier insluiten in uw aanstellingsproces. Met Microsoft Forms kunt u quizzen, enquêtes en opiniepeilingen maken. Als u de activiteit Microsoft Forms wilt opslaan in het aanstellingsproces, moet u de URL van het formulier opgeven. Net als bij de activiteit PowerApps, YouTube en Webinhoud kunt u toestaan dat deelnemers worden toegevoegd aan de activiteit. Als u de optie **Alleen aan kandidaat tonen** inschakelt, wordt het formulier alleen weergegeven als onderdeel van de kandidaatervaring. De video wordt niet weergegeven in het aanstellingsproces in Attract.
+Met de activiteit Microsoft Forms kunt u een Microsoft Forms-formulier insluiten in uw aanstellingsproces. Met Microsoft Forms kunt u quizzen, enquêtes en opiniepeilingen maken. Als u de activiteit Microsoft Forms wilt opslaan in het aanstellingsproces, moet u de URL van het formulier opgeven. Net als bij de PowerApps-, YouTube en Webinhoud-activiteiten kunt u toestaan dat deelnemers worden toegevoegd aan de activiteit. Als u de optie **Alleen aan kandidaat tonen** inschakelt, wordt het formulier alleen weergegeven als onderdeel van de kandidaatervaring. De video wordt niet weergegeven in het aanstellingsproces in Attract.
 
 In Microsoft Forms kunnen auteurs hun instellingen wijzigen om gebruikers buiten hun organisatie te laten antwoorden op hun quiz of enquête. In dit geval dienen gebruikers antwoorden anoniem in. Als u wilt zien wie uw enquête of quiz heeft ingevuld, kunt u vereisen dat respondenten hun naam invoeren als onderdeel van de enquête of quiz.
 
 > [!NOTE]
 > De activiteit Microsoft Forms is alleen beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen.
-

@@ -5,9 +5,9 @@ author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
 ms.openlocfilehash: 19e0528b95952de8e5503c361efcfeca4c529caf
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359998"
 ---
-
 # <a name="manage-international-bank-account-number-iban-validation"></a>IBAN-validatie (International Bank Account Number) beheren
 
 [!include [banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ Informatie over de structuur van het IBAN wordt opgeslagen in Microsoft Dynamics
     Met de validatie wordt ook geverifieerd of het bankrekeningnummer overeenkomt met het deel van het IBAN waarmee het bankrekeningnummer wordt vertegenwoordigd. Als het bankrekeningnummer niet overeenkomt, ontvangt u een waarschuwingsbericht. Dit bericht is slechts een waarschuwing. U kunt toch verdergaan, ook als het bankrekeningnummer niet overeenkomt.
 
     Met de validatie wordt ook geverifieerd of het bankrouteringsnummer overeenkomt met het deel van het IBAN waarmee het bankrouteringsnummer wordt vertegenwoordigd. Het routenummer bevat een banknummer en vaak een aanvullend filiaalnummer. Als het bankrouteringsnummer niet overeenkomt, ontvangt u een waarschuwingsbericht. Dit bericht is slechts een waarschuwing. U kunt toch verdergaan, ook als het bankrouteringsnummer niet overeenkomt.
-

@@ -1,13 +1,13 @@
---- 
-title: "ER Financiële dimensies gebruiken als gegevensbron (deel 2: Modeltoewijzing)"
-description: "In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan configureren om financiële dimensies te gebruiken als bron voor ER-rapporten."
+---
+title: 'ER Financiële dimensies gebruiken als gegevensbron (deel 2: Modeltoewijzing)'
+description: In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan configureren om financiële dimensies te gebruiken als bron voor ER-rapporten.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319587"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER Financiële dimensies gebruiken als gegevensbron (Deel 2: modeltoewijzing)
 
@@ -143,5 +143,4 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 3. Klik op Status wijzigen.
 4. Klik op Voltooien.
 5. Klik op OK.
-
 

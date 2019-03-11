@@ -5,9 +5,9 @@ author: ChrisGarty
 manager: AnnBe
 ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340632"
 ---
-
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Entiteitsgegevens in Excel openen en bijwerken via de Excel-invoegtoepassing
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens bekijken, bijwerken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. Om de entiteitsgegevens te openen, kunt u beginnen vanuit Excel of Microsoft Dynamics 365 for Finance and Operations.
+In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens bekijken, bijwerken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. Om de entiteitsgegevens te openen, kunt u starten vanuit Excel of Microsoft Dynamics 365 for Finance and Operations.
 
-Door entiteitsgegevens in Excel te openen, kunt u deze snel en eenvoudig bekijken en bewerken met de Excel-invoegtoepassing. Voor deze invoegtoepassing is Microsoft Excel 2016 vereist.
+Door entiteitsgegevens in Excel te openen, kunt u deze snel en eenvoudig bekijken en bewerken met de Excel-invoegtoepassing. Deze invoegtoepassing vereist Microsoft Excel 2016
 
 > [!NOTE]
-> Als uw Microsoft Azure AD-tenant (Azure Active Directory) is geconfigureerd voor het gebruik van Active Directory Federation Services (AD FS), moet u ervoor zorgen dat de Office-update van mei 2016 is toegepast, zodat u correct kunt worden aangemeld voor de Excel-invoegtoepassing.
+> Als uw Microsoft Azure Active Directory (Azure AD)-tenant is geconfigureerd voor het gebruik van Active Directory Federation Services (AD FS), moet u ervoor zorgen dat de Office-update van mei 2016 is toegepast, zodat u correct kunt worden aangemeld voor de Excel-invoegtoepassing.
 
 Voor meer informatie over het gebruik van de Excel-invoegtoepassing, bekijkt u de korte video [Een Excel-sjabloon maken voor koptekst- en regelpatronen in Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
@@ -125,4 +124,3 @@ Er zijn enkele problemen die kunnen worden opgelost met enkele eenvoudige stappe
 - **De knop Applets laden wordt getoond**: als de Excel-invoegtoepassing een knop **Applets laden** bevat nadat u zich hebt aangemeld, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, selecteert u deze en meldt u zich af en vervolgens weer aan met de juiste gebruiker.
 - **U ontvangt een melding 'Verboden'**: als u het foutbericht 'Verboden' krijgt wanneer de Excel-invoegtoepassing metagegevens laadt, is de account die is aangemeld bij de Excel-invoegtoepassing niet gemachtigd om de beoogde service, instantie of database te gebruiken. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, selecteert u deze en meldt u zich af en vervolgens weer aan met de juiste gebruiker.
 - **Een lege webpagina wordt weergegeven via Excel**: als een lege webpagina wordt geopend tijdens het aanmelden, vereist de account AD FS maar is de versie van Excel waarin u de invoegtoepassing uitvoert niet recent genoeg om het aanmeldingsvenster weer te geven. Werk Excel bij naar een meer recente versie. Als u de versie van Excel wilt bijwerken wanneer u werkt in een onderneming die zich op het Deferred-kanaal bevindt, wijzigt u met het [hulpprogramma Office Deployment](https://technet.microsoft.com/library/jj219422.aspx) van [het Deferred-kanaal naar het Current-kanaal](https://technet.microsoft.com/library/mt455210.aspx).
-

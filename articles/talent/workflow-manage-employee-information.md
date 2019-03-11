@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0ffae206ae1956e5dc41487f04561ed2c48bd20b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: cf2200057053f5a6d4754d37111ebe34849bb99d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303828"
 ---
-
 # <a name="use-workflows-to-manage-employee-information"></a>Informatie over werknemers beheren met behulp van workflows
 
 [!include [banner](includes/banner.md)]
@@ -69,7 +68,6 @@ Voer de volgende stappen uit om een eenvoudige workflow te configureren die word
 10. Ga naar **Human Resources** &gt; **Posities** &gt; **Positiehiërarchietypen**.
 11. Selecteer **Matrix**.
 12. Voeg de workflow **Identificatienummer van werknemer** aan de lijst toe.
-
 
 
 

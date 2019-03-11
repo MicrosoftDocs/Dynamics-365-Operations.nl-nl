@@ -1,13 +1,13 @@
---- 
+---
 title: Indelingen wijzigen door Excel-sjablonen opnieuw toe te passen
 description: Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling voltooien.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327108"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Indelingen wijzigen door Excel-sjablonen opnieuw toe te passen
 
@@ -83,5 +83,4 @@ In deze procedure wordt uitgelegd hoe u een elektronische rapportage (ER)-indeli
 
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>De gewijzigde conceptversie van de ER-indeling gebruiken voor betalingsjournaalverwerking
     * Controleer het gemaakte werkblad, inclusief nieuwe details van betalingsregels: betalingsdatum.  
-
 

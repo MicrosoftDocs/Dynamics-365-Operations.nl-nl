@@ -1,13 +1,13 @@
---- 
+---
 title: Configuraties voor toewijzing van model voor elektronische rapportage (ER) maken
-description: "Gebruik deze procedure voor het ontwerpen van een nieuwe ER-modeltoewijzingsconfiguratie (elektronische aangifte) en pas de ingebouwde ER-functies toe voor efficiënte statistische berekeningen."
+description: Gebruik deze procedure voor het ontwerpen van een nieuwe ER-modeltoewijzingsconfiguratie (elektronische aangifte) en pas de ingebouwde ER-functies toe voor efficiënte statistische berekeningen.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 614ef06fcf5761f1cf2afb6e7655558d2858d763
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357169"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Configuraties voor toewijzing van model voor elektronische rapportage (ER) maken
 
@@ -65,5 +65,4 @@ Deze stappen kunnen worden voltooid met elke dataset. Als u deze stappen wilt ui
 4. Typ 'Voorbeeldtoewijzing Intrastat' in het veld Naam.
     * Voorbeeldtoewijzing van Intrastat  
 5. Klik op Configuratie maken.
-
 

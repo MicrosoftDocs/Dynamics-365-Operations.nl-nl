@@ -1,13 +1,13 @@
---- 
+---
 title: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage ER-modeltoewijzingen (Electronic Reporting) kan beheren in aparte ER-configuraties.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349142"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
 
@@ -161,5 +161,4 @@ Omdat ER-configuraties worden gedeeld tussen bedrijven, kunt u deze taakbegeleid
 6. Klik op Uitvoeren.
 7. Klik op OK.
     * Houd er rekening mee dat de standaardmodeltoewijzingsconfiguratie door deze indelingsconfiguratie wordt gebruikt voor het genereren van het elektronische document (de gemaakte uitvoer bevat de bedrijfscode).  
-
 

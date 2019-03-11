@@ -1,13 +1,13 @@
 ---
 title: FIFO met fysieke waarde en markering
-description: "FIFO (First in, First out) is een voorraadmodel waarin de eerste ontvangsten het eerst worden uitgegeven. Financieel bijgewerkte uitgiften uit de voorraad worden vereffend met de eerste financieel bijgewerkte ontvangsten in de voorraad op basis van de financiële datum van de voorraadtransactie."
+description: FIFO (First in, First out) is een voorraadmodel waarin de eerste ontvangsten het eerst worden uitgegeven. Financieel bijgewerkte uitgiften uit de voorraad worden vereffend met de eerste financieel bijgewerkte ontvangsten in de voorraad op basis van de financiële datum van de voorraadtransactie.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c24ce4dab179f439521c22e196b0b190821bc60f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2d3a6c412e497952c0c7f5b113990bbe693b0f22
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348820"
 ---
-
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO met fysieke waarde en markering
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ De nieuwe lopende gemiddelde kostprijs staat voor het gemiddelde van de bijgewer
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@Eenheidsprijs.
 - Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
@@ -92,7 +91,7 @@ Transactie 5b wordt vereffend met ontvangsttransactie 1b. Er wordt een correctie
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@Eenheidsprijs.
 - Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
@@ -122,14 +121,13 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en 
 - Voorraadtransacties worden aangegeven met verticale pijlen.
 - Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 - Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
-- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@Eenheidsprijs.
 - Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 - Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 - Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
 - Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 - Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
 - Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
-
 
 
 

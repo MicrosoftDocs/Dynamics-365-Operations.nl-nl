@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c418c6412e4bd300616eed4577e2b1d3f3d181
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fb55f4b0b06019891c2e490eda837cfad882e6db
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359193"
 ---
-
 # <a name="sepa-direct-debit-overview"></a>Overzicht SEPA-automatische overschrijvingen
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ U kunt elektronische betalingsbestanden genereren voor automatische incasso's va
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Hoe werken restituties en teruggaven bij SEPA-incasso's?
 Onder beide Automatische incassoschema's van SEPA hebben klanten bepaalde rechten op restituties. De klant kan elke geautoriseerde transactie tijdens een periode van acht weken na de vervaldatum intrekken, zonder daarvoor een reden geven. In het geval van ongeautoriseerde transacties is de periode uitgebreid tot 13 maanden na de vervaldatum. Gedane betalingen maakt u handmatig ongedaan met de knop Betaling annuleren op de pagina Klanttransacties.
-
 
 
 

@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a693529b55b66eb940f8215a336d5c4ae0acedd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332812"
 ---
-
 # <a name="organization-administration-home-page"></a>Startpagina Organisatiebeheer
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp verwijst naar inhoud die hoofdgebruikers en beheerders helpt om Microsoft Dynamics 365 for Finance and Operations te configureren. Op basis van deze inhoud kunnen ze het systeem configureren om vloeiend en effectief te werken voor uw organisatie en zakelijke activiteiten.
+Dit onderwerp verwijst naar de inhoud die hoofdgebruikers en beheerders helpt met het configureren van Microsoft Dynamics 365 for Finance and Operations. Op basis van deze inhoud kunnen ze het systeem configureren om vloeiend en effectief te werken voor uw organisatie en zakelijke activiteiten.
 
 Veel van de hier vermelde informatie is van toepassing op functies in de module **Organisatiebeheer**. Er zijn echter enkele taken, zoals het maken en gebruiken van een recordsjabloon, die in elke module kunnen worden uitgevoerd om uw organisatie efficiënter te laten werken.
 
@@ -103,4 +102,3 @@ Met recordsjablonen kunt u sneller records maken. U kunt een recordsjabloon make
 - [Documentbeheer configureren](configure-document-management.md)
 - [E-mail configureren en verzenden](configure-email.md)
 - [Datum-/tijdgegevens en tijdzones](date-time-zones.md)
-

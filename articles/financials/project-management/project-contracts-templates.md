@@ -1,13 +1,13 @@
 ---
 title: Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren met Finance and Operations
-description: In dit onderwerp worden de sjabloon en onderliggende taken beschreven die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Microsoft Dynamics 365 for Project Service Automation te synchroniseren met Microsoft Dynamics 365 for Finance and Operations.
+description: In dit onderwerp worden de sjabloon en de onderliggende taken besproken die worden gebruikt om projectcontracten en projecten rechtstreeks van Microsoft Dynamics 365 for Project Service Automation met Microsoft Dynamics 365 for Finance and Operations te synchroniseren.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,27 +17,26 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312112"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren met Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjabloon en onderliggende taken beschreven die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Microsoft Dynamics 365 for Project Service Automation te synchroniseren met Microsoft Dynamics 365 for Finance and Operations.
+In dit onderwerp worden de sjabloon en de onderliggende taken besproken die worden gebruikt om projectcontracten en projecten rechtstreeks van Microsoft Dynamics 365 for Project Service Automation met Microsoft Dynamics 365 for Finance and Operations te synchroniseren.
 
 > [!NOTE] 
-> Als u werkt met Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3.0, moet u KB 4074835 installeren.
+> Als u Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3.0 gebruikt, moet u KB 4074835 installeren.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Gegevensstroom voor Project Service Automation naar Finance and Operations
 
 > [!NOTE]
-> Voordat u de oplossing Project Service Automation-integratie met Finance and Operations gebruiken kunt, moet u bekend zijn met de functie Gegevensintegratie van Microsoft Dynamics 365.
+> Voordat u de oplossing Project Service Automation-integratie met Finance and Operations kunt gebruiken, moet u bekend zijn met de functie Gegevensintegratie van Microsoft Dynamics 365.
 
 De oplossing Project Service Automation-integratie met Finance and Operations gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Project Service Automation en Finance and Operations. De integratiesjabloon die beschikbaar is met de functie voor gegevensintegratie maakt de stroom van projectuurcontracten, projecten, projectcontractregels en projectcontractregelmijlpalen van Project Service Automation naar Finance and Operations mogelijk.
 
@@ -47,7 +46,7 @@ De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen 
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 
-Verkrijg toegang tot de beschikbare sjablonen door in het Microsoft PowerApps-beheercentrum de optie **Projecten** te selecteren en vervolgens in de rechterbovenhoek **Nieuw project** te selecteren om openbare sjablonen te kiezen.
+Selecteer voor toegang tot de beschikbare sjablonen in het Microsoft PowerApps-beheercentrum de optie **Projecten** en selecteer vervolgens in de rechterbovenhoek de optie **Nieuw project** om openbare sjablonen te selecteren.
 
 De volgende sjabloon en onderliggende taken worden gebruikt voor het synchroniseren van projectcontracten en projecten vanuit Project Service Automation naar Finance and Operations:
 
@@ -111,7 +110,7 @@ Wanneer de oplossing Project Service Automation-integratie naar Finance and Oper
 
 U moet Microsoft Power Query voor Excel gebruiken om gegevens te filteren als aan de volgende voorwaarden wordt voldaan:
 
-- Er zijn verkooporders in Microsoft Dynamics 365 for Sales.
+- U hebt verkooporders in Microsoft Dynamics 365 for Sales.
 - U hebt meerdere organisatie-eenheden in Project Service Automation en deze organisatie-eenheden worden toegewezen aan meerdere rechtspersonen in Finance and Operations.
 
 Als u Power Query moet gebruiken, volgt u deze richtlijnen:
@@ -135,4 +134,3 @@ In de volgende afbeeldingen ziet u voorbeelden van de sjabloontaaktoewijzingen i
 [![Sjabloontoewijzing](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![Sjabloontoewijzing](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

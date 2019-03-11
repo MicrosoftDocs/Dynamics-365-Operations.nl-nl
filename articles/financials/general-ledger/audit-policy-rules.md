@@ -1,13 +1,13 @@
 ---
 title: Controlebeleidsregels
-description: "U kunt een auditbeleid gebruiken om onkostenrapporten, leveranciersfacturen en inkooporders te beoordelen om zeker te zijn dat ze de beleidsregels die u maakt naleven. Alle regels die aan een auditbeleid zijn gekoppeld, worden in batchmodus uitgevoerd volgens een planning die u opgeeft.  Elke beleidsregel is een instantie van een beleidsregeltype. Voor elk beleidsregeltype, kan slechts één beleidsregel tegelijkertijd actief zijn."
+description: U kunt een auditbeleid gebruiken om onkostenrapporten, leveranciersfacturen en inkooporders te beoordelen om zeker te zijn dat ze de beleidsregels die u maakt naleven. Alle regels die aan een auditbeleid zijn gekoppeld, worden in batchmodus uitgevoerd volgens een planning die u opgeeft.  Elke beleidsregel is een instantie van een beleidsregeltype. Voor elk beleidsregeltype, kan slechts één beleidsregel tegelijkertijd actief zijn.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 18b8a1649a26ebacc34b828ed25ec9646dd438a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6bebe9ce83c4b979ffbb7c86ef67ad03a650e0c2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310226"
 ---
-
 # <a name="audit-policy-rules"></a>Controlebeleidsregels
 
 [!include [banner](../includes/banner.md)]
@@ -100,6 +99,5 @@ Alle beleidsregels voor een specifiek auditbeleid delen dezelfde batchparameters
 
 [Overtredingen van controlebeleid en voorbeelden](audit-policy-violations-cases.md)
 [Auditbeleid voor brondocumenten definiëren](tasks/define-audit-policies-source-documents.md)
-
 
 

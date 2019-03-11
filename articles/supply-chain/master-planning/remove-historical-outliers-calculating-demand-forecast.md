@@ -5,9 +5,9 @@ author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastParameters, ReqDemPlanOutlierQuerySetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ce8ebaf32b30c57b307f0d8799660ba6b42365a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b4805d343518a880ad0d6e6568c5493583a17783
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323612"
 ---
-
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Verwijder uitschieters uit historische transactiegegevens bij het berekenen van een vraagprognose
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ U kunt uitschieters uitsluiten om de prognosenauwkeurigheid te verbeteren. Deze 
 [Inleiding op vraagprognoses](introduction-demand-forecasting.md)
 
 [Nauwkeurigheid van vraagprognose bewaken](monitor-forecast-accuracy.md)
-
 
 
 

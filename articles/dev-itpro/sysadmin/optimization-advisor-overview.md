@@ -1,37 +1,36 @@
 ---
 title: Optimization advisor
-description: In dit onderwerp wordt beschreven hoe u Optimization advisor gebruiken om een optimale configuratie van Microsoft Dynamics 365 Finance and Operations te garanderen
+description: In dit onderwerp wordt beschreven hoe u Optimization advisor kunt gebruiken om een optimale configuratie van Microsoft Dynamics 365 Finance and Operations te garanderen
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335618"
 ---
-
-# <a name="optimization-advisor"></a>Optimization advisor
+# <a name="optimization-advisor"></a>Optimalisatie-advies
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u Optimization advisor gebruiken om een optimale configuratie van Microsoft Dynamics 365 Finance and Operations te garanderen
+In dit onderwerp wordt beschreven hoe u Optimization advisor kunt gebruiken om een optimale configuratie van Microsoft Dynamics 365 Finance and Operations te garanderen
 
 ## <a name="overview"></a>Overzicht
 
@@ -39,7 +38,7 @@ Een onjuiste configuratie en instellingen van een module hebben een negatief eff
 
 Het werkgebied **Optimization advisor** is een hulpprogramma waarmee hoofdgebruikers, analisten, functionele consultants en IT-ondersteuning problemen in de moduleconfiguratie en zakelijke gegevens kunnen vaststellen. Optimization advisor suggereert aanbevolen procedures voor de configuratie van de module en zakelijke gegevens die verouderd of onjuist zijn.
 
-Optimization advisor voert regelmatig een set best practice-regels uit. Een standaardset met regels wordt samen met Microsoft Dynamics 365 for Finance and Operations versie 8.0 (april 2018) uitgebracht. Gebruikers kunnen echter ook regels maken die specifiek zijn voor hun aanpassingen, oplossingen van onafhankelijke softwareleveranciers (ISV's) en hun zakelijke gegevens. Zie [Nieuwe regels maken](./create-rules-optimization-advisor.md) voor meer informatie over het maken van regels.
+Optimization advisor voert regelmatig een set best practice-regels uit. Een reeks regels is vrijgegeven samen met Microsoft Dynamics 365 for Finance and Operations versie 8.0 (april 2018). Gebruikers kunnen echter ook regels maken die specifiek zijn voor hun aanpassingen, oplossingen van onafhankelijke softwareleveranciers (ISV's) en hun zakelijke gegevens. Zie [Nieuwe regels maken](./create-rules-optimization-advisor.md) voor meer informatie over het maken van regels.
 
 Wanneer een overtreding van een regel wordt gevonden, wordt een optimalisatiemogelijkheid gegenereerd die wordt weergegeven in het werkgebied **Optimization advisor**. Een gebruiker kan correctieve actie ondernemen vanuit het werkgebied **Optimization advisor**.
 
@@ -49,7 +48,7 @@ Standaardbeveiligingsbeleid is van toepassing op optimalisatiemogelijkheden. Bij
 
 Wanneer u actie onderneemt voor sommige verkoopkansen, berekent het systeem de impact van de mogelijkheid als vermindering van de runtime van bedrijfsprocessen. Helaas is deze functie niet beschikbaar voor alle optimalisatiemogelijkheden.
 
-Voor meer informatie over Optimization advisor, bekijkt u de korte video [Optimization advisor in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Voor meer informatie over Optimization advisor, bekijk de korte [Optimization advisor in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ) video.
 
 ## <a name="optimization-rules"></a>Optimalisatieregels
 
@@ -91,9 +90,8 @@ Als u een mogelijkheid niet van toepassing is op uw rol, selecteert u **Verberge
 
 Als u de evaluatie van specifieke regels wilt deactiveren, selecteert u de mogelijkheid die is gegenereerd door de regel en vervolgens **Analyse deactiveren**.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Nieuwe regels maken](./create-rules-optimization-advisor.md)
 
-[Optimization advisor in Dynamics 365 for Finance and Operations (Video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+[Optimization advisor in Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

@@ -1,13 +1,13 @@
 ---
 title: Klantorders in Retail Modern POS (MPOS)
-description: Dit onderwerp biedt informatie over klantorders in Retail Modern POS (MPOS). Klantorders worden ook wel speciale orders genoemd. In dit onderwerp worden de gerelateerde parameters en transactiestromen besproken.
+description: Dit onderwerp bevat informatie over klantorders in Retail Modern POS (MPOS). Klantorders worden ook wel speciale orders genoemd. In dit onderwerp worden de gerelateerde parameters en transactiestromen besproken.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: b54f39cc7896871d77f9371e6197bf6dbaac51de
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336607"
 ---
-
 # <a name="customer-orders-in-retail-modern-pos-mpos"></a>Klantorders in Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp biedt informatie over klantorders in Retail Modern POS (MPOS). Klantorders worden ook wel speciale orders genoemd. In dit onderwerp worden de gerelateerde parameters en transactiestromen besproken.
+Dit onderwerp bevat informatie over klantorders in Retail Modern POS (MPOS). Klantorders worden ook wel speciale orders genoemd. In dit onderwerp worden de gerelateerde parameters en transactiestromen besproken.
 
 Veel detailhandelaren bieden de optie van klantorders, oftewel speciale orders, om aan verschillende product- en afhandelingsbehoeften te voldoen. Hierna vindt u enkele typische scenario's:
 
@@ -97,9 +96,8 @@ Klantorders kunnen worden gemaakt via de POS-client (point of sale) in synchrone
 1. Klik op **Retail** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profiel** &gt; **Functionaliteitsprofielen**.
 2. Stel op het sneltabblad **Algemeen** de optie **Klantorder maken in asynchrone modus** in op **Ja**.
 
-Wanneer de optie **Klantorder maken in asynchrone modus** is ingesteld op **Ja**, worden klantorders altijd in de asynchrone modus gemaakt, zelfs als RTS (Retail Transaction Service) beschikbaar is. Als u deze optie instelt op **Nee**, worden klantorders altijd gemaakt in de synchrone modus via RTS. Wanneer klantorders in de asynchrone modus worden gemaakt, worden ze opgehaald en ingevoegd in Retail door taken op te vragen met Pull (P). De bijbehorende verkooporders worden gemaakt in Retail wanneer **Orders synchroniseren** handmatig of via een batchproces wordt uitgevoerd.
+Wanneer de optie **Klantorder maken in asynchrone modus** is ingesteld op **Ja**, worden klantorders altijd in de asynchrone modus gemaakt, zelfs als Retail Transaction Service (RTS) beschikbaar is. Als u deze optie instelt op **Nee**, worden klantorders altijd gemaakt in de synchrone modus via RTS. Wanneer klantorders in de asynchrone modus worden gemaakt, worden ze opgehaald en ingevoegd in Retail door taken op te vragen met Pull (P). De bijbehorende verkooporders worden gemaakt in Retail wanneer **Orders synchroniseren** handmatig of via een batchproces wordt uitgevoerd.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Hybride klantorders](hybrid-customer-orders.md)
-

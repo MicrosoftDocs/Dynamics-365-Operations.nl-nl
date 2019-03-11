@@ -5,28 +5,27 @@ author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: afd542a652abdf6e45c83a6097dc8f0d36efa905
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/23/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335411"
 ---
-
 # <a name="product-identifiers"></a>Product-id's 
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ In veel gevallen is het productnummer oorspronkelijk niet gemaakt in Finance and
 
 Wanneer u Finance and Operations implementeert, moet u extra aandacht aan uw strategie voor productnummers besteden. Een goed nummeringssysteem verbetert de logistieke stromen en kan fouten helpen voorkomen. Een goede product-id bestaat uit maximaal 15 tekens. In het ideale geval bestaat de id uit minder dan 10 tekens en bevat deze niet meer dan vijf classificerende tekens. U kunt ook zoeknamen gebruiken om snelle zoekacties mogelijk te maken. Een zoeknaam is een extra naam die de classificaties van een product vertegenwoordigt.
 
-Wanneer u CDS (Common Data Service) gebruikt, is het productnummer in Finance and Operations ook het productnummer in CDS. Productvarianten worden als aparte producten naar CDS gesynchroniseerd.
+Wanneer u Common Data Service (CDS) gebruikt, is het productnummer in Finance and Operations ook het productnummer in CDS. Productvarianten worden als aparte producten naar CDS gesynchroniseerd.
 
 ## <a name="item-number-and-product-dimensions"></a>Artikelnummer en productdimensies
 
@@ -186,4 +185,3 @@ Nu kunt u de gegevensentiteiten **Entiteit voor Common Data Service-id voor prod
 ## <a name="related-topic"></a>Verwant onderwerp
 
 [Producten en productvarianten zoeken tijdens orderinvoer](search-products-product-variants.md)
-

@@ -1,13 +1,13 @@
 ---
 title: PRODCOM instellen en onderhouden
-description: In dit onderwerp wordt uitgelegd hoe u PRODCOM in Microsoft Dynamics 365 for Finance and Operations kunt instellen en beheren.
+description: In dit onderwerp wordt uitgelegd hoe u PRODCOM instelt en onderhoudt in Microsoft Dynamics 365 for Finance and Operations.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: IntrastatToProdcom, InventProdComLineDetail, InventProdComLineWithCode, InventProdComParameters, InventProdComTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Belgium
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 78ee1f5f0ed45c1ff9c719becabae86acc30cb00
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 3b376a33ff4f08e9c0b588e59bb3dacea9b85c5b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/14/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371370"
 ---
-
 # <a name="set-up-and-maintain-prodcom"></a>PRODCOM instellen en onderhouden
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u PRODCOM in Microsoft Dynamics 365 for Finance and Operations kunt instellen en beheren. 
+In dit onderwerp wordt uitgelegd hoe u PRODCOM instelt en onderhoudt in Microsoft Dynamics 365 for Finance and Operations. 
 
 Fabrikanten van industriële producten zijn volgens de wet verplicht de hoeveelheden en waarden van de verkochte producten evenals bepaalde werknemersgegevens door te geven aan het Nationaal Instituut voor de Statistiek (NIS) in reactie op het jaarlijkse PRODCOM-onderzoek. De meeste producenten dienen maandelijks een gespecificeerd PRODCOM-rapport bij het NIS in middels een van de zes standaardrapportindelingen. Het NIS bepaalt de rapportindeling, afhankelijk van de aard van de geproduceerde materialen. Het PRODCOM-rapport bevat productiestatistieken voor industriële producten die worden vervaardigd door productiebedrijven die in België gevestigd zijn. Dit rapport wordt meestal gebruikt door accountants en boekhoudmanagers.
 
@@ -61,7 +60,6 @@ Gebruik de pagina **Conversie van Intrastat naar PRODCOM** om PRODCOM-codes toe 
 
 ## <a name="use-prodcom"></a>PRODCOM gebruiken
 Gebruik de pagina **PRODCOM** om PRODCOM-perioden te maken en verkoopregels naar het PRODCOM-rapport over te boeken. Nadat u de datums voor de aangifteperiode hebt ingevoerd en vervolgens de sectiecodes invoert, kunt u de verkoopregels overboeken naar het PRODCOM-rapport. Nadat u de verkoopregels naar het rapport hebt overgeboekt, kunt u de producten op de PRODCOM-lijst bekijken en bewerken en vervolgens het rapport afdrukken.
-
 
 
 

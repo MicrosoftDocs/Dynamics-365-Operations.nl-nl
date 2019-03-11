@@ -1,32 +1,31 @@
 ---
 title: Formules en formuleversies
-description: "Dit onderwerp biedt informatie over formules en formuleversies. Een formule bepaalt de materialen, ingrediënten en uitkomsten van een bepaald proces in procesfabricage. Formules worden gebruikt voor de planning en productie van producten in procesfabricage."
+description: Dit onderwerp biedt informatie over formules en formuleversies. Een formule bepaalt de materialen, ingrediënten en uitkomsten van een bepaald proces in procesfabricage. Formules worden gebruikt voor de planning en productie van producten in procesfabricage.
 author: cvocph
 manager: AnnBe
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbffc298ff5d2442092f8f0c987b7e79a7934a84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350108"
 ---
-
 # <a name="formulas-and-formula-versions"></a>Formules en formuleversies
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ De functie Schaalbaar is alleen beschikbaar als alle artikelonderdelen in de for
 
 ## <a name="use-step-consumption"></a>Stapverbruik gebruiken
 Bij stapverbruik hoeft u geen hoeveelheid op het tabblad **formuleregel** op te geven voor een ingrediënt. In plaats daarvan is Stapverbruik zo geconfigureerd dat er waarden voor **Van serie** en **Hoeveelheid** moeten worden opgegeven. Op basis van de informatie in de record Stap per reeks wordt gegarandeerd dat de hoeveelheid in de batchorder wordt geselecteerd. Stapverbruik is handig als het materiaalverbruik niet lineair is met betrekking tot de grootte van de batchorder en de vereiste alleen wordt verhoogd als een specifieke drempelhoeveelheid wordt bereikt. Als u deze functie wilt inschakelen voor een nieuwe formule, wijzigt u onder de groep **Verbruiksberekening** de formule-instelling voor het desbetreffende ingrediënt van **Standaard** in **Stap**. U geeft deze verbruiksmethode op het tabblad **Instelling** van de pagina **Formuleregel** op.
-

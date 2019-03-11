@@ -5,9 +5,9 @@ author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d3bae68c9daf7aaaee1802e1def64d04ccea01b8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b7d4530ecccf18d9370d84ff2b61be1514b80192
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338148"
 ---
-
 # <a name="bom-designer-functionality"></a>Functionaliteit van stuklijstontwikkelaar
 
 [!include [banner](../includes/banner.md)]
@@ -117,7 +116,6 @@ Klik op **Instellingen** om de gegevens aan te passen die in de structuurweergav
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stuklijst         | Gebruik de selectievakjes om de criteria te selecteren die in de boomstructuur worden weergegeven. In de stuklijstontwikkelaar worden de geselecteerde criteria onder aan beide tabbladen weergegeven. |
 | route       | Gebruik de selectievakjes om de criteria te selecteren die voor de routes worden weergegeven.                                                                                    |
-
 
 
 

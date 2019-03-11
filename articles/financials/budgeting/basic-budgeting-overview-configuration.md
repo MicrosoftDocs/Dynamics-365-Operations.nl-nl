@@ -1,13 +1,13 @@
 ---
 title: Budgetteringsoverzicht
-description: "Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 for Finance and Operations, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation te kunnen maken of budgetten te kunnen laden vanuit een programma van derden."
+description: Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 for Finance and Operations, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332306"
 ---
-
 # <a name="budgeting-overview"></a>Budgetteringsoverzicht 
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ De budgetmanager kan de huidige status van een budget controleren in de werkruim
 Op de querypagina **Werkelijk vs. budget** kunt u inzoomen op de details de budgetbedragen in vergelijking met de werkelijke bedragen. Selecteer een regel op de querypagina, en klik vervolgens op **Periodesaldi** om budgetbedragen en werkelijke bedragen te bekijken verdeeld over boekperioden. De pagina **Budgetjournaalregels** bevat detailanalyse aan de details van het budgetbedrag in budgetregisterregels. De pagina **Algemeen journaalposten** opent de grootboektransacties die zijn opgenomen in het berekende bedrag voor **Werkelijke kosten**. 
 
 Een bedrijf dat budgetplanningsfunctionaliteit gebruikt, kan *budgetprognoses* maken en gebruiken in de werkruimte **Grootboekbudgetten en prognoses**.
-
 
 
 

@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7a04517de6e7695cd27bbc6e6a825e1ccaac7306
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334560"
 ---
-
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Het importproces voor geavanceerde bankafstemming instellen
 
 [!include [banner](../includes/banner.md)]
@@ -176,7 +175,6 @@ De laatste stap is testen of u uw bankafschrift kunt importeren.
 8.  Klik tot slot op **OK**.
 
 Als het importeren is voltooid, ontvangt u een bericht waarin wordt gemeld dat het afschrift is geïmporteerd. Als de import niet is gelukt, zoekt u de taak in de werkruimte **Gegevensbeheer** in de sectie **Taakgeschiedenis**. Klik op **Uitvoeringsdetails** voor de taak om de pagina **Uitvoeringsoverzicht** en klik vervolgens op **Uitvoeringslogboek weergeven** om de importfouten te bekijken.
-
 
 
 

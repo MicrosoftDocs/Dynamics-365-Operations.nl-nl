@@ -1,13 +1,13 @@
---- 
+---
 title: Waveverwerking configureren
 description: In deze begeleiding wordt beschreven hoe u de criteria instelt die bepalen wat voor werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337504"
 ---
 # <a name="configure-wave-processing"></a>Waveverwerking configureren
 
@@ -68,5 +68,4 @@ In deze begeleiding wordt beschreven hoe u de criteria instelt die bepalen wat v
 24. Selecteer een optie in het veld Vrijgave naar magazijn.
     * Bij verkooporders en kanbanorders moet de voorraad zijn gereserveerd voordat de order aan het magazijn wordt vrijgegeven. Anders kunnen artikelen of toewijzingsregels niet in een golf worden verwerkt. Voor productieorders hebt u ook de mogelijkheid om Gedeeltelijke reservering toestaan te kiezen. Dit is bijvoorbeeld handig als u de materialen hebt die u nodig hebt om een productie te starten. U kunt dan wachten totdat de extra materialen beschikbaar worden om het proces te voltooien. Als u deze optie selecteert, moet u de vrijgave naar het magazijnproces handmatig herhalen wanneer de aanvullende materialen beschikbaar worden.  
 25. Sluit de pagina.
-
 

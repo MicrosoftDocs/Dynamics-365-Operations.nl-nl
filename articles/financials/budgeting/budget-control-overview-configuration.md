@@ -1,13 +1,13 @@
 ---
 title: Overzicht van budgetbeheer
-description: "Dit artikel bevat een inleiding tot budgetbeheer en biedt informatie om u te helpen bij het configureren van budgetbeheer in Microsoft Dynamics 365 for Finance and Operations zodat u financiële middelen kunt beheren."
+description: Dit artikel bevat een inleiding tot budgetbeheer en biedt informatie om u te helpen bij het configureren van budgetbeheer in Microsoft Dynamics 365 for Finance and Operations zodat u financiële middelen kunt beheren.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308524"
 ---
-
-# <a name="budget-control-overview"></a>Overzicht voor budgetbeheer 
+# <a name="budget-control-overview"></a>Overzicht budgetbeheer
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +34,7 @@ Dit artikel bevat een inleiding tot budgetbeheer en biedt informatie om u te hel
 <a name="overview"></a>Overzicht
 --------
 
-Budgetbeheer in Microsoft Dynamics 365 for Finance and Operations ondersteunt het beheer van de financiële middelen van een organisatie door middel van rekeningschema´s, workflows, gebruikersgroepen, brondocumenten en journalen, configureerbare berekening van beschikbare fondsen, budgetcycli en drempels. Wanneer de juiste controles plaatsvinden, kan een organisatie de financiële middelen het hele fiscale jaar door plannen, meten, beheren en voorspellen. 
+Budgetbeheer in Microsoft Dynamics 365 for Finance and Operations ondersteunt het beheer van de financiële middelen van een organisatie door middel van rekeningschema, workflows, gebruikersgroepen, brondocumenten en journalen, configureerbare berekening van beschikbare fondsen, budgetcycli en drempels. Wanneer de juiste controles plaatsvinden, kan een organisatie de financiële middelen het hele fiscale jaar door plannen, meten, beheren en voorspellen. 
 
 Nadat de budgetten zijn goedgekeurd in Finance and Operations, kunt u budgetplannen gebruiken om budgetjournaalposten te genereren voor het registreren van het uitgavebudget voor een organisatie. Als alternatief kunt u budgetjournaalposten maken of importeren met software van derden in plaats van de budgetplanningsfunctionaliteit te gebruiken. 
 
@@ -128,4 +127,3 @@ Nadat budgetbeheer is ingeschakeld, ontvangen gebruikers waarschuwings- en foutb
 Vanaf deze pagina kunnen gebruikers op de pagina **Statistieken voor budgetbeheer per periode** de details en reserveringen voor budgetbeschikbaarheid bekijken voor een geselecteerde combinatie van budgetbeheerdimensies. Gebruikers kunnen ook inzoomen op de pagina **Budgetbeheerstatistiek** om de budgetbeschikbaarheid te bekijken voor alle dimensies van financiële dimensies die worden gebruikt in budgetbeheer. 
 
 Als budgetbeheer is ingeschakeld voor inkooporders, kan de budgetbeheerder de werkruimte **Grootboekbudgetten en prognoses** gebruiken om de wachtrij te bekijken van alle niet-bevestigde inkooporders met budgetcontrolewaarschuwingen en -fouten. Als de budgetbeheerder machtigingen om over budget te gaan heeft geconfigureerd, kan hij of zij inkooporders rechtstreeks in de werkruimte bevestigen.    
-

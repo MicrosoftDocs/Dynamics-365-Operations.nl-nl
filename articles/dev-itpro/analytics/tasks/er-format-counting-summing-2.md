@@ -1,13 +1,13 @@
---- 
+---
 title: 'ER Indeling configureren voor tellen en totaliseren (deel 2: Berekeningen configureren)'
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken voor tellen en totaliseren op basis van gegevens van de reeds gegenereerde tekstuitvoer.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4ef657b13bc1f7f4a84676821e4175ace32c069a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338907"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2-configure-computations"></a>ER Indeling configureren voor tellen en totaliseren (deel 2: Berekeningen configureren)
 
@@ -31,7 +31,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeemb
 
 Als u deze stappen wilt uitvoeren, voert u eerst de stappen uit in de procedure "ER Indeling configureren voor tellen en totaliseren (Deel 1: Indeling maken)".
 
-Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
 
 ## <a name="create-a-format-configuration-to-add-counting-and-summing-details"></a>Maak een indelingsconfiguratie om tellen en totaliseren van details toe te voegen
@@ -139,5 +139,4 @@ Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Opera
 82. Sluit de pagina.
 83. Klik op Opslaan.
 84. Sluit de pagina.
-
 

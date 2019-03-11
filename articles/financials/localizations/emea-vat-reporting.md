@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 5c5cd61c45eb7cbc6f040f054a99d9a54e1ee854
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371396"
 ---
-
 # <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
 [!include [banner](../includes/banner.md)]
@@ -273,7 +272,6 @@ Het btw-overzicht voor elk land moet voldoen aan de vereisten van de wetgeving v
 | Litouwen      | [Details btw-overzicht voor Litouwen](emea-ltu-vat-statement-details.md)         |
 | Nederland    |                                                                                 |
 | Zweden         |                                                                                 |
-
 
 
 

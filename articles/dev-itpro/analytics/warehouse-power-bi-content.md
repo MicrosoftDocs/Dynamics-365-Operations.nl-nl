@@ -1,13 +1,13 @@
 ---
-title: Power BI-inhoud voor magazijnprestaties
-description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor magazijnprestaties. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+title: Power BI-inhoud Magazijnprestaties
+description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor magazijnprestaties. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,35 +18,34 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365357"
 ---
-
-# <a name="warehouse-performance-power-bi-content"></a>Power BI-inhoud voor magazijnprestaties
+# <a name="warehouse-performance-power-bi-content"></a>Power BI-inhoud Magazijnprestaties
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Magazijnprestaties**. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt beschreven wat is opgenomen in de **Magazijnprestaties** Power BI-inhoud. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 
 De Power BI-inhoud **Magazijnprestaties** is gemaakt zodat magazijnbeheerder en operations managers belangrijke inkomende en uitgaande metrische gegevens en voorraadgegevens kunnen controleren. Er wordt gebruikgemaakt van magazijnbeheer-, product- en andere transactionele gegevens uit uw systeem en er wordt zowel een samengevoegde weergave van magazijnprestaties als een onderverdeling voor leveranciers, productgroepen en producten, en locaties en magazijnen geboden.
 
-Magazijnbeheerders kunnen gebruikmaken van de Power BI-inhoud voor **magazijnprestaties** om de volgende drie gebieden te meten:
+Magazijnbeheerders kunnen gebruikmaken van de Power BI-inhoud **Magazijnprestaties** om de volgende drie gebieden te meten:
 
 - **Inkomende prestatie**: hierbij wordt gemeten hoe goed een leverancier presteert ten opzicht van vereisten van de klant (dat wil zeggen, leveringsprestaties) als ook wegzetprestaties, zodat u problemen met betrekking tot werknemers of artikelen gedurende een periode kunt identificeren. Het is belangrijk dat u weet of leveranciers op tijd, vroeg of laat leveren, zodat u kunt bepalen hoe de leveranciersprestaties de algehele wegzetprestaties beïnvloeden. Wanneer een leverancier buiten de overeengekomen datums levert, kan dit voor extra druk in het magazijn zorgen vanwege onverwacht werk en kan de gemiddelde wegzettijd toenemen.
 - **Verzendprestaties**: hierbij wordt gemeten of het magazijn volledig en op tijd levert aan klanten (met andere woorden meting van de prestaties bij uitgaande verzending en levering), zodat u eventuele problemen met betrekking tot producten, locaties of magazijnen of specifieke klanten kunt identificeren. Als u vaststelt dat u te laat levert aan specifieke gebieden of steden, moet u wellicht meer aandacht besteden aan vervoer of accountmanagement.
-- **Voorraadnauwkeurigheid per locatie**: de voorraadnauwkeurigheid is belangrijke interne bedrijfsinformatie (BI) voor magazijnen. Het is erg belangrijk dat u bepaalt hoe nauwkeurig u in het algemeen bent bij het tellen. Het is echter ook belangrijk dat u bepaalt hoe nauwkeurig u bent bij het opslaan van artikelen op de juiste locaties en of dat u afwijkingsgegevens markeert, zodat u betere posities voor artikelen kunt vinden of de totale telling van specifieke artikelen kunt starten. (Momenteel de nieuwe artikelgebaseerde telfunctie geleverd als hotfix.) Als u deze Power BI-inhoud gebruikt om de juistheid van gegevens van de voorhanden voorraad per locatie te bepalen, kunt u ook diefstal identificeren in uw winkels. U kunt ook bepalen of bepaalde locaties voorhanden hoeveelheden hebben die verschillen van ERP-gegevens (Enterprise Resource Planning). Deze locaties zijn mogelijk te groot of zijn onmogelijk om te tellen. Ook is mogelijk in sommige gevallen de fysieke plaatsing slecht, zodat het moeilijk is één type artikel synchroon te houden met de gegevens over voorhanden voorraad.
+- **Voorraadnauwkeurigheid per locatie**: de voorraadnauwkeurigheid is belangrijke interne bedrijfsinformatie (BI) voor magazijnen. Het is erg belangrijk dat u bepaalt hoe nauwkeurig u in het algemeen bent bij het tellen. Het is echter ook belangrijk dat u bepaalt hoe nauwkeurig u bent bij het opslaan van artikelen op de juiste locaties en of dat u afwijkingsgegevens markeert, zodat u betere posities voor artikelen kunt vinden of de totale telling van specifieke artikelen kunt starten. (Momenteel wordt de nieuwe artikelgebaseerde telfunctie geleverd als hotfix.) Als u deze Power BI-inhoud gebruikt om de juistheid van gegevens van de voorhanden voorraad per locatie te bepalen, kunt u ook diefstal identificeren in uw winkels. U kunt ook bepalen of bepaalde locaties voorhanden hoeveelheden hebben die verschillen van ERP-gegevens (Enterprise Resource Planning). Deze locaties zijn mogelijk te groot of zijn onmogelijk om te tellen. Ook is mogelijk in sommige gevallen de fysieke plaatsing slecht, zodat het moeilijk is één type artikel synchroon te houden met de gegevens over voorhanden voorraad.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Toegang tot het Power BI-inhoudpakket
 De Power BI-inhoud **Magazijnprestaties** wordt weergegeven op de pagina **Magazijnprestaties** (**Magazijnbeheer** \> **Query's en rapporten** \> **Magazijnprestatieanalyse** \> **Magazijnprestaties**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
-De Power BI-inhoud voor **magazijnprestaties** bevat een rapport. Dit rapport bestaat uit een set metrische gegevens die worden gevisualiseerd als diagrammen, tegels en tabellen. De volgende tabel bevat een overzicht van de visualisaties in de Power BI-inhoud voor **magazijnprestaties**.
+De Power BI-inhoud **Magazijnprestaties** bevat een rapport. Dit rapport bestaat uit een set metrische gegevens die worden gevisualiseerd als diagrammen, tegels en tabellen. De volgende tabel bevat een overzicht van de visualisaties in de Power BI-inhoud **Magazijnprestaties**.
 
 | Rapportpagina                 | Diagrammen                                   | Omschrijving |
 |-----------------------------|------------------------------------------|-------------|
@@ -113,4 +112,3 @@ De volgende belangrijke samengevoegde metingen worden gebruikt als de basis van 
 | Verzendprestaties        | Verzonden per product                       | CustPackingSlipOnTimeStatus           | Vroeg, Op tijd en Laat (zie de beschrijvingen eerder in deze tabel). |
 | Verzendprestaties        | Verzonden per klant                      | CustPackingSlipOnTimeStatus           | Vroeg, Op tijd en Laat (zie de beschrijvingen eerder in deze tabel). |
 | Verzendprestaties        | Verzonden per locatie/magazijn              | CustPackingSlipOnTimeStatus           | Vroeg, Op tijd en Laat (zie de beschrijvingen eerder in deze tabel). |
-

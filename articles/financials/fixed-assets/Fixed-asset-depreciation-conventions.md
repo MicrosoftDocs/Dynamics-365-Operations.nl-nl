@@ -5,9 +5,9 @@ author: saraschi2
 manager: AnnBe
 ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff8575749a33321450ea61fe1f01105c005e9092
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337435"
 ---
-
 # <a name="fixed-asset-depreciation-conventions"></a>Afschrijvingsconventies voor vaste activa
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ Afschrijvingsconventies kunnen worden toegewezen aan de instelling voor een boek
 | Midden maand (15e van de maand) |                                                                                                                                                        Voor het berekenen van de inhoudingsafschrijving voor het jaar wanneer u het eigendom in gebruik neemt, vermenigvuldigt u de afschrijving voor een heel jaar met een breuk. De teller (bovenste getal) van deze breuk is het aantal volledige maanden in het jaar dat het eigendom in gebruik is genomen, plus 1/2 of (0,5). De noemer (onderste getal) is 12. Als u het eigendom vóór het einde van de afschrijvingsperiode afstoot, moet u dezelfde methode gebruiken voor het berekenen van de afschrijvingsaftrek voor het jaar van afstoting.                                                                                                                                                        |
 | Half jaar (begin van het jaar) |                                                                                                                                                                                                                                                          Activa met een datum <strong>In gebruik genomen</strong> in de eerste helft van het jaar beginnen met afschrijven op de eerste dag van het jaar (hele jaar). Activa met een datum <strong>In gebruik genomen</strong> in de tweede helft van het jaar beginnen met afschrijven midden in het jaar.                                                                                                                                                                                                                                                          |
 |   Halfjaar (volgend jaar)   |                                                            Activa met een datum <strong>In gebruik genomen</strong> in de eerste helft van het jaar beginnen met afschrijven op de eerste dag van het jaar (hele jaar). Activa met een datum <strong>In gebruik genomen</strong> in de tweede helft van het jaar beginnen met afschrijven op de eerste dag van het volgende jaar. Activa die zijn afgestoten in de eerste helft van het jaar, worden beschouwd als afgestoten voor afschrijvingsdoeleinden op de laatste dag van het vorige jaar. De afschrijving die is geboekt in het huidige jaar, moet worden omgekeerd of aangepast. Activa die zijn ingetrokken in de tweede helft van het jaar, worden beschouwd als afgestoten voor afschrijvingsdoeleinden op de laatste dag van het jaar van afstoten.                                                            |
-
 

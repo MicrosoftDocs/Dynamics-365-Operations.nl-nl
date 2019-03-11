@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
-ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356686"
 ---
-
 # <a name="manage-vendor-collaboration-users"></a>Gebruikers van leverancierssamenwerking beheren
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,7 @@ Voordat u een aanvraag voor de inrichting van een nieuwe gebruiker kunt indienen
 4. Schakel in het gedeelte **Gebruikersrollen toewijzen** het selectievakje **Toewijzen** in voor de beveiligingsrollen die de nieuwe gebruiker moet hebben.
 5. Klik op **Aanbieden**.
 
-Wanneer de leveranciersgebruikersaanvraag wordt ingediend, wordt het veld **Toegang tot leverancierssamenwerking toegestaan** ingesteld op **Ja** voor de geselecteerde leveranciersrekening en wordt er een gebruikersaanvraagworkflow gestart. Als onderdeel van de werkstroom wordt een nieuwe gebruiker gemaakt in Finance and Operations en worden er beveiligingsrollen toegewezen. Daarnaast wordt een Azure B2B-service geactiveerd die interactie met de Azure-portal initieert en een nieuwe of bestaande AAD-account koppelt aan de Finance and Operations-gebruikersaccount. Zie voor meer informatie [Wat is Azure AD B2B-samenwerking?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Wanneer de leveranciersgebruikersaanvraag wordt ingediend, wordt het veld **Toegang tot leverancierssamenwerking toegestaan** ingesteld op **Ja** voor de geselecteerde leveranciersrekening en wordt er een gebruikersaanvraagworkflow gestart. Als onderdeel van de werkstroom wordt een nieuwe gebruiker gemaakt in Finance and Operations en worden er beveiligingsrollen toegewezen. Daarnaast wordt een Azure B2B-service geactiveerd die interactie met de Azure-portal initieert en een nieuwe of bestaande AAD-account koppelt aan de Finance and Operations-gebruikersaccount. Zie voor meer informatie Wat is [Azure Azure AD B2B-samenwerking?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Een gebruiker inactief maken
 
@@ -91,7 +90,6 @@ Een wijziging in de beveiligingsrollen van een gebruiker aanvragen:
 2.  Schrijf een opmerking in het veld **Zakelijke reden**.
 3.  Selecteer in het gedeelte **Gebruikersrollen onderhouden** de beveiligingsrollen die u wilt toewijzen of deselecteer de rollen die u wilt verwijderen.
 4.  Klik op **Aanbieden**.
-
 
 
 

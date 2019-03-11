@@ -1,13 +1,13 @@
 ---
 title: Veldnamen in magazijnapp configureren
-description: "In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Finance and Operations."
+description: In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0162014189ed6bffb17e6718a67eecfd55c334a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d029481d31a0064a193e2cb9eeaf79df28bfa159
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351327"
 ---
-
 # <a name="configure-app-field-names-in-warehousing-app"></a>Veldnamen in magazijnapp configureren
 
 [!include [banner](../includes/banner.md)]
@@ -140,11 +139,10 @@ Op basis van de instellingen van de veldprioriteit van de magazijnapp in de bove
 
 De resterende metagegevens, bijvoorbeeld Locatie, worden niet weergegeven op de taakpagina, maar worden op een detailpagina weergegeven. Raadpleeg voor meer informatie en voorbeelden van de gebruikersinterface het blogbericht [Finance and Operations - Magazijnbeheer aankondigen](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-<a name="additional-resources"></a>Aanvullende resources
+<a name="additional-resources"></a>Aanvullende bronnen
 --------
 
-[Microsoft Dynamics 365 for Finance and Operations - Warehousing installeren en configureren](install-configure-warehousing-app.md)
-
+[Microsoft Dynamics 365 for Finance and Operations installeren en configureren – Magazijnbeheer](install-configure-warehousing-app.md)
 
 
 

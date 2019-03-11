@@ -1,13 +1,13 @@
---- 
+---
 title: Informatie over ouderdom van klanten instellen en genereren
 description: Deze taakbegeleiding helpt u bij de instelling van een ouderdomsperiodedefinitie, ouderdom van klantsaldi te berekenen en saldi weer te geven in de lijst Ouderdomssaldi en de pagina Aanmaningen.
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fd8738cfd3466464c9fec1760e9a369ff3a4a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e9f393acaa47d485a583b99ace459474f30be6a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334629"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Informatie over ouderdom van klanten instellen en genereren
 
@@ -61,5 +61,4 @@ Deze taakbegeleiding helpt u bij de instelling van een ouderdomsperiodedefinitie
 2. Selecteer een klant met een saldo.
 3. Vouw het feitenvakgebied Ouderdomsrangschikking uit als u de ouderdomssaldi wilt weergeven.
     * De ouderdomsperiodedefinitie voor het feitenvak is afkomstig van de standaardouderdomsperiodedefinitie die wordt opgegeven in de parameters. U kunt deze wijzigen met het menu Incasso.  
-
 

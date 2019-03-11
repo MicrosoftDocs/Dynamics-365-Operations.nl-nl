@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 576ce368b2a8672aa39116eb0cc6e3d3f2a06bb3
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328465"
 ---
-
 # <a name="configure-workflow-properties"></a>Workfloweigenschappen configureren
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Voer de volgende stappen uit om opmerkingen in te voeren over de wijzigingen die
 2. Voer in het veld **Opmerkingen over de workflow invoeren** uw opmerkingen in.
 3. Uw opmerkingen controleren. Nadat u opmerkingen hebt toegevoegd, kunt u deze niet meer wijzigen.
 4. Klik op **Toevoegen** om uw opmerkingen aan het gebied **Opmerkingshistorie** toe te voegen.
-

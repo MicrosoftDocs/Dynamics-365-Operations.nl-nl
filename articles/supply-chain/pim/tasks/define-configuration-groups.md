@@ -1,13 +1,13 @@
---- 
-title: "Configuratiegroepen definiëren"
+---
+title: Configuratiegroepen definiëren
 description: Deze procedure laat zien hoe u productconfiguratiegroepen definieert door twee groepen te maken in het demobedrijf USMF.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConfigGroup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a8abcb5b56d695fbb466556f638ae19e9b2ad4fa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6cb4803cc862d4eb508316ac49f1ea92b910f43a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364851"
 ---
 # <a name="define-configuration-groups"></a>Configuratiegroepen definiëren
 
@@ -39,5 +39,4 @@ Deze procedure laat zien hoe u productconfiguratiegroepen definieert door twee g
     * Typ een naam voor de configuratiegroep die voor de stuklijstregels wordt gebruikt.  
 7. Typ een waarde in het veld Naam.
 8. Sluit de pagina.
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Leveranciers en bankrekeningen voor leveranciers voor ISO20022-kredietoverdrachten instellen
 description: Deze procedure laat zien hoe u de leverancier- en leverancierspecifieke bankrekeninggegevens kunt instellen voor het genereren van bestanden voor ISO20022-kredietoverdracht of andere vormen van leveranciersbetalingen.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 13b3c37f5d013dd896a456018813f20e5e70350b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f01947840553a65af4aba1309d89f9b3e9ced872
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311606"
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>Leveranciers en bankrekeningen voor leveranciers voor ISO20022-kredietoverdrachten instellen
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 Deze procedure laat zien hoe u de leverancier- en leverancierspecifieke bankrekeninggegevens kunt instellen voor het genereren van bestanden voor ISO20022-kredietoverdracht of andere vormen van leveranciersbetalingen. 
 
 Het demobedrijf dat wordt gebruikt om deze procedure te maken is DEMF.
-Dit is de vierde van vijf taken die het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+Dit is de vierde van vijf taken die het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties. Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
 
 ## <a name="set-up-bank-details"></a>Bankgegevens instellen
@@ -51,5 +51,4 @@ Dit is de vierde van vijf taken die het leveranciersbetalingproces toelichten do
 3. Klik in het veld Betalingsmethode op de vervolgkeuzeknop om de zoekopdracht te openen.
 4. Klik in de lijst op de koppeling in de rij SEPA CT.
 5. Klik op Opslaan.
-
 

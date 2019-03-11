@@ -1,13 +1,13 @@
---- 
+---
 title: Voorwaarden voor klantbetalingen vaststellen
 description: Deze procedure definieert een contantkorting en een instelling voor vervaldatum.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 49f4047ab4bff6bdfbe8326a6680f9d8f9762c95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e0e43962bea3ff1c3adafa73da4ce3862963a51
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312480"
 ---
 # <a name="establish-customer-payment-terms"></a>Voorwaarden voor klantbetalingen vaststellen
 
@@ -66,5 +66,4 @@ Deze procedure definieert een contantkorting en een instelling voor vervaldatum.
     * Als u Rekeningen op de factuurregels selecteert, wordt de contantkorting geboekt naar dezelfde activa-/hoofdrekening als in de regels van de leveranciersfactuur staat vermeld. Als u Hoofdrekening voor leveranciersfacturen gebruiken selecteert, wordt de contantkorting geboekt naar de hoofdrekening die u definieert in Hoofdrekening voor leveranciersfacturen. Voor dit voorbeeld selecteert u "Hoofdrekening voor leveranciersfacturen gebruiken".  
 26. Voer de hoofdrekening in waaraan de contantkorting wordt geboekt voor leveranciersfacturen.
 27. Klik op Opslaan.
-
 

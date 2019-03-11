@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329132"
 ---
-
 # <a name="set-up-vendor-accounts"></a>Leveranciersaccounts instellen
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,7 @@ U kunt leverancierscontactpersonen helemaal nieuw aanmaken. Maar kunt u ook deta
 
 U kunt een contactpersoon niet verwijderen als in een document naar deze contactpersoon wordt verwezen. In plaats daarvan kunt u de contactpersoon inactief maken.  
 
-U kunt contactpersonen aan uw persoonlijke contacten in Microsoft Office 365 toevoegen. U moet echter eerst de synchronisatie instellen tussen Finance and Operations en Office 365, zowel in de Microsoft Exchange Server-synchronisatie als ook in de Microsoft Outlook-installatiewizard.
+U kunt contactpersonen aan uw persoonlijke contacten in Microsoft Office 365 toevoegen. U moet echter eerst de synchronisatie instellen tussen Finance and Operations en Office 365, zowel in de Microsoft Exchange Server-synchronisatie als in de Microsoft Outlook-installatiewizard.
 
 ## <a name="vendors-in-different-legal-entities"></a>Leveranciers in verschillende rechtspersonen
 Als een leverancier voor slechts één rechtspersoon in uw organisatie is geregistreerd en andere rechtspersonen dezelfde leverancier moeten registreren, kunt u op de pagina **Leverancier toevoegen aan andere rechtspersoon** de leverancier configureren om zaken te doen met een andere rechtspersoon. U moet een leveranciersgroep, valuta en wachtstand voor de leverancier selecteren in de geselecteerde rechtspersoon.  
@@ -116,7 +115,6 @@ Als u betalingen op een bankrekening van een leverancier moet overmaken, kunt u 
 U kunt de standaardrekeningen opgeven die automatisch in leveranciersfacturenjournalen voor de gespecificeerde leverancier worden weergegeven. Deze functionaliteit is handig als u normaal gesproken betalingen uitvoert voor dezelfde typen artikelen van dezelfde leveranciers. Wanneer u een standaardrekening opgeeft, kunt u journaalposten in het factuurjournaal snel en efficiënt invoeren. De opgegeven standaardrekeningen worden niet gebruikt voor inkooporders, of voor leveranciersfacturen die worden ingevoerd op de pagina **Leveranciersfactuur**.  
 
 U selecteert standaardrekeningen op de pagina **Instellen van standaardaccount**. Deze opent u vanaf het tabblad **Factuur** in de leveranciersrecord. De in dit deelvenster geselecteerde rekeningen worden weergegeven in de gefilterde lijst met rekeningen voor de leverancieraccount, wanneer u een journaalpost invoert. U kunt een van de rekeningen instellen als de standaardrekening.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Een werknemer inschrijven voor een variabele honoreringsregeling
 description: De manager Compensatie en emolumenten kan werknemers inschrijven op plannen voor variabele compensatie inschrijven om contante en niet-contante toekenningen voor werknemers te berekenen.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 6ab2533293b5c8cb37953427893b75a98ddf3976
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329569"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Een werknemer inschrijven voor een variabele honoreringsregeling
 
@@ -42,5 +42,4 @@ De manager Compensatie en emolumenten kan werknemers inschrijven op plannen voor
     * Als aan de werknemer een vast bedrag voor hun toekenningen moet worden verstrekt, kan het bedrag hier worden ingesteld.  
 8. Schakel de uitbreiding van de sectie Organisatieoverschrijvingen om.
     * Als rekening moeten worden gehouden met de prestaties van de werknemer kunnen de prestaties van verschillende afdelingen of een andere afdeling dan de afdeling die is toegewezen aan de functie van de werknemer worden overschreven. De kolom Percentage met 100 in totaal zijn.  
-
 

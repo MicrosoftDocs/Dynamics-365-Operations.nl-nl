@@ -1,13 +1,13 @@
---- 
+---
 title: Verkoopprovisies registreren
 description: Deze procedure toont hoe verkoopprovisies worden berekend en geregistreerd.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CommissionTrans, LedgerTransVoucher
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2c39b2fcf521106dfb58466bc45a316c0b506345
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 5535f1627526b97ddc9ca2c210db4e332782d656
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355145"
 ---
 # <a name="register-sales-commissions"></a>Verkoopprovisies registreren
 
@@ -73,5 +73,4 @@ Noteer de klant- en artikelnummers die u voor het provisieproces hebt geselectee
 5. Sluit de pagina.
 6. Klik op Boekstuk.
     * U kunt de boekstuktransacties voor de provisiebedragen controleren die op de vooraf gedefinieerde rekeningen voor provisie-uitgave en te betalen provisie zijn geboekt.  
-
 

@@ -5,30 +5,30 @@ author: sarvanisathish
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 166d419f16866f699b96013222ce8da147a5ec21
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315125"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>SQL Server Reporting Services configureren voor on-premises implementaties
 
 [!include [banner](../includes/banner.md)]
 
-Gebruik de stappen in dit onderwerp voor het configureren van SQL Server Reporting Services (SSRS) voor uw implementatie van Microsoft Dynamics 365 for Finance and Operations (on-premises).
+Volg de stappen in dit onderwerp om SQL Server Reporting Services (SSRS) te configureren voor uw (on-premises) implementatie van Microsoft Dynamics 365 for Finance and Operations.
 
 1. Open de toepassing Reporting Services Configuration Manager.
 2. Laat de standaard **servernaam**, gewoonlijk de naam van de huidige computer, en de **Naam van rapportserverexemplaar** **MSSQLSERVER** staan.
@@ -94,4 +94,3 @@ Gebruik de stappen in dit onderwerp voor het configureren van SQL Server Reporti
 13. Klik op **Afsluiten** om de **Reporting Services Configuration Manager** te sluiten.
 
     [![Reporting Services Configuration Manager sluiten](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
-

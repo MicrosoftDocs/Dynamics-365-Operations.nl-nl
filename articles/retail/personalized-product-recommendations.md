@@ -1,13 +1,13 @@
 ---
-title: Persoonlijke productaanbevelingen
+title: Gepersonaliseerde productaanbevelingen
 description: Dit onderwerp bevat informatie over de Dynamics 365 for Retail-productaanbevelingen die kunnen worden weergegeven op het POS-apparaat (Point Of Sale).
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326464"
 ---
-
 # <a name="personalized-product-recommendations"></a>Persoonlijke productaanbevelingen
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 > [!NOTE]
 > We verwijderen de huidige versie van de productaanbevelingsservice aangezien we deze opnieuw willen ontwerpen met een beter algoritme en nieuwe mogelijkheden voor detailhandelaren. Zie voor meer informatie [Verwijderde of verouderde functies](../dev-itpro/migration-upgrade/deprecated-features.md).
 
-In Dynamics 365 for Retail kunnen productaanbevelingen op het POS-apparaat (Point of Sale) worden weergegeven. Aanbevelingen zijn items waarin uw klanten mogelijk geïnteresseerd zijn op basis van hun inkoophistorie, items in hun verlanglijst en items die andere klanten online en in fysieke winkels hebben gekocht. Voor detailhandelaren met grote catalogi helpen aanbevelingen de klant producten te ontdekken. Door producten te belichten die zijn gericht op de interesses van een klant en diens koopgewoontes, kunnen productaanbevelingen detailhandelaren helpen met bij- en meerverkoop en klantenbinding. Productaanbevelingen worden in Dynamics 365 for Retail aangestuurd door cognitieve services en Microsoft Azure Machine Learning.
+In Dynamics 365 for Retail kunnen productaanbevelingen op het POS-apparaat (Point of Sale) worden weergegeven. Aanbevelingen zijn items waarin uw klanten mogelijk geïnteresseerd zijn op basis van hun inkoophistorie, items in hun verlanglijst en items die andere klanten online en in fysieke winkels hebben gekocht. Voor detailhandelaren met grote catalogi helpen aanbevelingen de klant producten te ontdekken. Door producten te belichten die zijn gericht op de interesses van een klant en diens koopgewoontes, kunnen productaanbevelingen detailhandelaren helpen met bij- en meerverkoop en klantenbinding. In Dynamics 365 for Retail worden productaanbevelingen aangestuurd door Cognitieve services en Microsoft Azure Machine Learning.
 
 ## <a name="scenarios"></a>Scenario's
 
@@ -63,7 +62,7 @@ Productaanbevelingen zijn ingeschakeld voor de volgende POS-scenario's. Ze zijn 
 
     [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
-## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Dynamics 365 for Retail configureren voor POS-aanbevelingen
+## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Dynamics 365 for Retail configureren om aanbevelingen voor POS in te schakelen
 
 Ga als volgt te werk om productaanbevelingen te configureren:
 
@@ -77,7 +76,7 @@ Ga als volgt te werk om productaanbevelingen te configureren:
 
 Wanneer u de **entiteitsopslag** vernieuwt, worden de volgende acties uitgevoerd.
 
-- Gegevens in de door Cognitieve services vereiste indeling worden opgehaald uit de operationele database Dynamics 365 for Retail en naar de entiteitsopslag gezonden.
+- Gegevens in de door Cognitieve services vereiste indeling worden opgehaald uit de operationele database van Dynamics 365 for Retail en naar de entiteitsopslag gezonden.
 - De gegevens worden gebruikt door Azure Data Factory (ADF) om de gegevens om de gegevens op te schonen, door middel van Hive-scripts in het kader van de ADF-activiteiten. Opgeschoonde gegevens worden opgeslagen in de blob-opslag.
 - Gegevens uit de blob-opslag worden gebruikt door de API voor cognitieve services om een aanbevelingsmodel te trainen.
 
@@ -94,4 +93,3 @@ Wanneer u **Aanbevelingen inschakelen** activeert en de configuratietaken uitvoe
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Een besturingselement voor aanbevelingen toevoegen aan de transactiepagina op een POS-apparaat](add-recommendations-control-pos-screen.md)
-

@@ -5,9 +5,9 @@ author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFColor, WHSRFColorPicker, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 16f332da00d2230ecb4cebc526b6456314564e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328028"
 ---
-
 # <a name="warehouse-mobile-device-display-settings"></a>Weergave-instellingen voor mobiel apparaat magazijn
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,7 @@ U kunt de pagina **Tekstkleuren voor mobiel apparaat** gebruiken om de diverse k
 Om de kleur te selecteren, klikt u op **Kleur selecteren**, in het palet of typt u een hexadecimale kleurencode.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Definieer de te gebruiken datumindeling op mobiele apparaten
-U kunt de lijst met geaccepteerde datumindelingen uitbreiden voor elke installatie. Deze mogelijkheid kan bijvoorbeeld nuttig zijn als u een indeling wilt opgeven die het voor een werknemer gemakkelijker maakt datums in te voeren op een mobiel apparaat. De standaardindeling wordt bepaald door de standaardtaal voor de gebruiker, die in het veld op **Taal** de pagina **Gebruikersopties** wordt opgegeven. (Dezelfde pagina wordt ook gebruikt om een werknemer te koppelen aan een specifieke magazijnwerkgebruiker.) **Opmerking:** de magazijnportal voor mobiele apparaten maakt geen gebruik van de instelling van het veld **Datum-, tijd- en getalnotatie** op de pagina **Voorkeuren voor gebruikerstaal en regio**. Om een datumnotatie te wijzigen, moet u bekend zijn met normale expressies in het Microsoft .NET Framework. Zie voor meer informatie [Normale .NET Framework-expressies](http://go.microsoft.com/fwlink/?LinkId=391260). Als u datumnotaties wilt definiëren, bewerkt u het bestand Dates.ini-bestand dat u kunt vinden in Content\\Settings\\Dates.ini. op de server van de magazijnportal voor mobiele apparaten. Dit bestand gebruikt .NET normale expressies om de datumnotatie te bepalen. De normale expressie moet subexpressies omvatten die benoemde groepen vormen voor dag, maand en jaar (DDMMJJ), zoals getoond in het volgende voorbeeld:
+U kunt de lijst met geaccepteerde datumindelingen uitbreiden voor elke installatie. Deze mogelijkheid kan bijvoorbeeld nuttig zijn als u een indeling wilt opgeven die het voor een werknemer gemakkelijker maakt datums in te voeren op een mobiel apparaat. De standaardindeling wordt bepaald door de standaardtaal voor de gebruiker, die in het veld op **Taal** de pagina **Gebruikersopties** wordt opgegeven. (Dezelfde pagina wordt ook gebruikt om een werknemer te koppelen aan een specifieke magazijnwerkgebruiker.) **Opmerking:** de magazijnportal voor mobiele apparaten maakt geen gebruik van de instelling van het veld **Datum-, tijd- en getalnotatie** op de pagina **Voorkeuren voor gebruikerstaal en regio**. Om een gegevensformaat te wijzigen, moet u bekend zijn met normale expressies in het Microsoft .NET Framework. Zie voor meer informatie [Normale .NET Framework-expressies](http://go.microsoft.com/fwlink/?LinkId=391260). Als u datumnotaties wilt definiëren, bewerkt u het bestand Dates.ini-bestand dat u kunt vinden in Content\\Settings\\Dates.ini. op de server van de magazijnportal voor mobiele apparaten. Dit bestand gebruikt .NET normale expressies om de datumnotatie te bepalen. De normale expressie moet subexpressies omvatten die benoemde groepen vormen voor dag, maand en jaar (DDMMJJ), zoals getoond in het volgende voorbeeld:
 
 ^(?&lt;dag&gt;\\d{2})(?&lt;maand&gt;\\d{2})(?&lt;jaar&gt;\\d{2})$
 
@@ -101,7 +100,6 @@ U kunt meerdere expressie in hetzelfde bestand opgeven. Elke expressie moet op e
 --------
 
 [Configuratie van mobiele apparaten voor magazijnwerk](configure-mobile-devices-warehouse.md)
-
 
 
 

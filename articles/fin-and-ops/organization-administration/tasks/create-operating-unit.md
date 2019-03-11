@@ -1,13 +1,13 @@
---- 
+---
 title: Een operationele eenheid maken
 description: Een operationele eenheid is een organisatie die wordt gebruikt om het beheer van economische middelen en operationele processen in een bedrijf te verdelen.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9c49000b09fdbac10dfa952718453bf82cbb1498
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 838d1c2d5d1ab2524e9f4be423fbf529b89f5f59
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332628"
 ---
 # <a name="create-an-operating-unit"></a>Een operationele eenheid maken
 
@@ -42,5 +42,4 @@ Een operationele eenheid is een organisatie die wordt gebruikt om het beheer van
     * Vouw de sectie Contactgegevens uit indien nodig.  
     * Voer informatie in over communicatiemethoden, zoals e-mailadressen, URL's en telefoonnummers. Als u een nieuwe communicatierecord wilt invoeren, klikt u op Nieuw. Als u een bestaande communicatierecord wilt wijzigen, klikt u op Meer opties > Geavanceerd.   
 6. Klik op Opslaan.
-
 

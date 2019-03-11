@@ -5,9 +5,9 @@ author: perlynne
 manager: AnnBe
 ms.date: 04/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361677"
 ---
-
 # <a name="inventory-journals"></a>Voorraadjournalen
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 
 In dit onderwerp wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken.
 
-De voorraadjournalen in Microsoft Dynamics 365 for Finance and Operations worden gebruikt om fysieke voorraadtransacties van diverse typen te boeken, zoals het boeken van uitgiften en ontvangsten, voorraadmutaties, het maken van stuklijsten (BOMs), en de afstemming van fysieke voorraad. Al deze voorraadjournalen worden gebruikt op een vergelijkbare manier, maar ze worden onderscheiden in verschillende typen.
+De voorraadjournalen in Microsoft Dynamics 365 for Finance and Operations worden gebruikt om fysieke voorraadtransacties van diverse typen te boeken, zoals het boeken van uitgiften en ontvangsten, voorraadmutaties, het maken van stuklijsten (BOM's), en de afstemming van fysieke voorraad. Al deze voorraadjournalen worden gebruikt op een vergelijkbare manier, maar ze worden onderscheiden in verschillende typen.
 
 ## <a name="types-of-inventory-journals"></a>Typen voorraadjournalen
 De volgende voorraadjournaaltypen zijn beschikbaar:
@@ -120,4 +119,3 @@ Deze twee voorraadjournalen ondersteunen alleen het scenario *Voorraad initialis
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Gegevensentiteiten](../../dev-itpro/data-entities/data-entities.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Kostprijsberekeningsversies
-description: "Dit artikel bevat informatie over kostprijsberekeningsversies, hoe u deze onderhoudt en de typen gegevens die u hierin kunt opnemen. Een kostprijsberekeningsversie is primair bedoeld om kostenrecords te bevatten over artikelen, kostencategorieën en berekeningsformules voor indirecte kosten."
+description: Dit artikel bevat informatie over kostprijsberekeningsversies, hoe u deze onderhoudt en de typen gegevens die u hierin kunt opnemen. Een kostprijsberekeningsversie is primair bedoeld om kostenrecords te bevatten over artikelen, kostencategorieën en berekeningsformules voor indirecte kosten.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb8e8193b3312a63042a44cb082a33a196cbc1be
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330144"
 ---
-
 # <a name="costing-versions"></a>Kostprijsberekeningsversies
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ De belangrijkste reden voor het inschakelen van inkoopprijsgegevens is het defin
 Als u inkoopprijsinhoud wilt inschakelen, definieert u eerst een stuklijstberekeningsgroep die een kostprijsmodel voor de inkoopprijs voor het artikel bevat en vervolgens wijst u de stuklijstberekeningsgroep toe aan ingekochte artikelen. Vervolgens gebruikt u een kostprijsmodel voor de stuklijstberekeningsgroep wanneer u stuklijstberekeningen met geplande kosten uitvoert om de verkoopprijs van gefabriceerde artikelen te berekenen. 
 
 De inkoopprijsrecords voor artikelen worden ook gebruikt als verwijzingsinformatie. Door de status van de inkoopprijsrecord van een artikel te wijzigen van **In behandeling** in **Actief**, kunt u de basisinkoopprijs van het artikel bijwerken. De basisinkoopprijs is echter niet sitespecifiek en kan handmatig worden overschreven. De basisinkoopprijs van het artikel wordt gebruikt als standaardinkoopprijs op inkooporders.
-
 
 
 
