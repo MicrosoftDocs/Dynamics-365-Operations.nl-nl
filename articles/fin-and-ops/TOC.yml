@@ -35,12 +35,6 @@ items:
     - name: Wat is nieuw of gewijzigd
       href: get-started/whats-new-changed.md
       items:
-      - name: Veelgestelde vragen over updates van service met één versie
-        href: get-started/one-version.md
-      - name: Lifecycle-beleid voor software en cloudversies
-        href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-      - name: Lifecycle-beleid voor software en on-premises versies
-        href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
       - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
         href: get-started/mainstream-support-ax-2009-2012.md
       - name: Verwijderde of verouderde functies
@@ -49,10 +43,14 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: Functies die niet worden geïmplementeerd in on-premises implementaties
         href: get-started/features-not-implemented-on-prem.md
+      - name: Preview van functies in Finance and Operations versie 10.0.1 (april 2019)
+        href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations versie 10.0 (april 2019)
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations versie 8.1.3 (januari 2019)
         href: get-started/whats-new-changed-8-1-3.md
+      - name: Preview van functies in Finance and Operations platform update 25 (april 2019)
+        href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (maart 2019)
         href: get-started/whats-new-platform-update-24.md
       - name: Platform update 23 (januari 2019)
@@ -202,6 +200,29 @@ items:
       href: get-started/move-lcs-implementation-project-tenant.md
     - name: Meerdere LCS-projecten en productieomgevingen op één Azure AD-tenant
       href: get-started/implement-multiple-projects-aad-tenant.md
+  - name: Updates van service met één versie
+    href: ../dev-itpro/lifecycle-services/oneversion-overview.md
+    items:
+    - name: Veelgestelde vragen over updates van service met één versie
+      href: get-started/one-version.md
+    - name: Lifecycle-beleid voor software - cloud
+      href: ../dev-itpro/migration-upgrade/versions-update-policy.md
+    - name: Lifecycle-beleid voor software - on-premises
+      href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
+    - name: Standaard- en First Release-serviceupdates
+      href: get-started/public-preview-releases.md
+    - name: Updates toepassen op cloudomgevingen
+      href: ../dev-itpro/deployment/apply-deployable-package-system.md
+    - name: Serviceupdates configureren
+      href: ../dev-itpro/lifecycle-services/configure-service-updates.md
+    - name: Serviceupdates onderbreken
+      href: ../dev-itpro/lifecycle-services/pause-service-updates.md
+    - name: Bericht ontvangen over serviceupdates
+      href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
+    - name: Automatisering van gegevenstaak
+      href: ../dev-itpro/data-entities/data-task-automation.md
+    - name: Regression Suite Automation Tool
+      href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
   - name: Zakelijke gebeurtenissen
     href: ../dev-itpro/business-events/home-page.md
     items:
@@ -401,7 +422,7 @@ items:
             href: ../supply-chain/sales-marketing/synchronize-project-list.md
           - name: Magazijnen van Finance and Operations synchroniseren met Field Service
             href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-          - name: Werkorders van Finance and Operations synchroniseren met Field Service
+          - name: Werkorders synchroniseren met project van Field Service naar Finance and Operations
             href: ../supply-chain/sales-marketing/synchronize-work-orders.md
         - name: Project Service Automation-integratie configureren
           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
@@ -1416,6 +1437,8 @@ items:
           href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
         - name: NF-e-parameters instellen voor een fiscale instelling
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+      - name: SPED ECD
+        href: ../financials/localizations/latam-bra-sped-ecd.md
       - name: Btw-overzicht SPED-Reinf
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: Parameters voor rechtspersonen
@@ -2236,6 +2259,8 @@ items:
           href: ../financials/localizations/rus-sales-books-purchase-books.md
       - name: Vaste activa
         items:
+        - name: Vaste activa instellen
+          href: ../financials/localizations/rus-set-up-fixed-assets.md
         - name: Vaste activa verwerven en in werking stellen
           href: ../financials/localizations/rus-fixed-asset-acquisition.md
         - name: Verwervingen van vaste activa registreren
@@ -2262,10 +2287,22 @@ items:
           href: ../financials/localizations/rus-depreciation-setup.md
         - name: Afschrijvingsmethoden
           href: ../financials/localizations/rus-depreciation-methods.md
-        - name: Bonusafschrijving
+        - name: Afschrijvingsbonussen
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: Afschrijving berekenen
           href: ../financials/localizations/rus-depreciation-calculation.md
+      - name: Leveranciers en Klanten
+        items:
+        - name: Facturen voor betaling
+          href: ../financials/localizations/rus-invoice-payment.md
+        - name: Dimensiecontrole voor vereffeningen instellen
+          href: ../financials/localizations/rus-transactions-settlement-date.md
+        - name: Cashflowbeheer
+          href: ../financials/localizations/rus-cash-flow.md
+      - name: Rapportage
+        items:
+        - name: Financiële rapportage
+          href: ../financials/localizations/rus-financial-reports.md
       - name: Bedrijfsdivisies
         href: ../financials/localizations/rus-company-divisions.md
       - name: Wisselkoersen instellen voor valutatransacties
@@ -2280,8 +2317,10 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: Financiële rapportage
         href: ../financials/localizations/rus-financial-reports.md
-      - name: Een inkoopboek maken
-        href: ../financials/localizations/rus-sales-books-purchase-books.md
+      - name: Boekhoudrapporten in elektronische opmaak
+        href: ../financials/localizations/rus-accounting-reporting.md
+      - name: Cashflowbeheer
+        href: ../financials/localizations/rus-cash-flow.md
     - name: Saudi-Arabië
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2367,6 +2406,8 @@ items:
         href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
       - name: Btw-groepen instellen voor een omgekeerde toeslag
         href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+      - name: Belasting digitaal maken voor btw
+        href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
     - name: Verenigde Staten
       href: ../financials/localizations/united-states.md
       items:
@@ -2827,6 +2868,8 @@ items:
           href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
         - name: Wijzigingen in API voor raamwerk voor elektronische aangifte in toepassingsupdate 7.3
           href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+        - name: Een aangepaste opslag opgeven voor gegenereerde documenten
+          href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
     - name: Ingesloten analytische oplossingen
       items:
       - name: Ingesloten Power BI in werkgebieden
@@ -3281,6 +3324,8 @@ items:
         href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
       - name: Rapport over workflowtypen
         href: organization-administration/workflow-types-report.md
+      - name: Veelgestelde vragen over workflows
+        href: organization-administration/workflow-FAQ.md
     - name: Waarschuwingen
       href: get-started/alerts-overview.md
       items:
@@ -3799,8 +3844,6 @@ items:
         href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
       - name: Verkoopovereenkomsten afhandelen
         href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
-      - name: Een nieuwe handelsovereenkomst maken
-        href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
       - name: Klantkortingen genereren en verwerken
         href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
       - name: Kortingen voor betaling verwerken
@@ -3827,12 +3870,14 @@ items:
         href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
     - name: Handelstoeslag
       href: ../supply-chain/sales-marketing/trade-allowance.md
+    - name: Een nieuwe handelsovereenkomst maken
+      href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
   - name: Servicebeheer
     href: ../supply-chain/service-management/service-management-home-page.md
     items:
     - name: Klantenservice instellen
       items:
-      - name: Servicelevelovereenkomsten instellen
+      - name: Serviceovereenkomsten instellen
         href: ../supply-chain/service-management/service-agreement-groups.md
         items:
         - name: Serviceovereenkomsten maken
@@ -4241,9 +4286,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: cb58a9f8fa8305a3d8b956804ef74bef86ca04b9
-ms.sourcegitcommit: 7e0097bdd835e04521bffbce2fd802e6381dde0d
+ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "376913"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836391"
