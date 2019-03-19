@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302125"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "380011"
 ---
 # <a name="distributed-order-management-dom"></a>Gedistribueerd orderbeheer
 
@@ -63,7 +63,7 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
 
         1. Open de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services, selecteer **Model** als activatype en download het bestand met de **DOM-licentie**.
         2. Start Microsoft IIS-beheer (Internet Information Services), klik met de rechtermuisknop op **AOSService-website** en selecteer **Verkennen**. Windows Verkenner wordt geopend met **\<Hoofdmap van AOS-service\>\\webroot**. Noteer of onthoud het pad naar de \<hoofdmap van de AOS-service\>. U gebruikt dit pad in de volgende stap.
-        3. Kopieer het configuratiebestand in de map **\<Hoofdmap van AOS-service\>\\PackagesLocalDirectory\\DOM\\bin**.
+        3. Kopieer het configuratiebestand in de map **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** directory.
         4. Ga naar Retail Headquarters en open de pagina **DOM-parameters**. Selecteer op het tabblad **Oplossing** in het veld **Type oplossing** de optie **Productieoplossing** en controleer of er geen foutberichten worden weergegeven.
 
         > [!NOTE]
