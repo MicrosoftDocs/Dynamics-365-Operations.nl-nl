@@ -3,7 +3,7 @@ title: Verwerking van catch weight-producten bij magazijnbeheer
 description: In dit onderwerp wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt gedaan in het magazijn.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5161860e3b1c5b0ae795d109159268be085ec5af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
+ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334054"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "777267"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
-[!include [preview banner](../../includes/preview-banner.md)]
+
 [!include [banner](../includes/banner.md)]
 
-**Functieblootstelling**
+## <a name="feature-exposure"></a>Functieblootstelling
 
 Als u magazijnbeheer wilt gebruiken om catch weight-producten te verwerken, moet u een licentieconfiguratiesleutel gebruiken om de functionaliteit in te schakelen. (Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**. Klik vervolgens op het tabblad **Configuratiesleutels**, vouw **Handel \> Magazijn en transportmanagement** uit en selecteer het selectievakje **Catch weight voor magazijn**.)
 
 > [!NOTE]
-> De licentieconfiguratiesleutel **Magazijn en transportmanagement** en de licentieconfiguratiesleutel **Procesdistributie catch weight-** moeten ook zijn ingeschakeld.
+> De licentieconfiguratiesleutel **Magazijn en transportbeheer** en de licentieconfiguratiesleutel **Procesdistributie \> catch weight** moeten ook zijn ingeschakeld.
 
 Nadat de licentieconfiguratiesleutel is ingeschakeld en u een vrijgegeven product maakt, kunt u **Catch weight-** selecteren. U kunt ook het vrijgegeven product koppelen aan een opslagdimensiegroep waarvoor de **Magazijnanagementprocessen gebruiken**-parameter voor is geselecteerd.
 

@@ -3,7 +3,7 @@ title: Factuurvereffening voor leveranciers
 description: Factuurmatching in Klanten is het proces van het vergelijken van de leverancierfactuur-, inkooporder- en productontvangstgegevens.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6d1582d268be759cd1f1686c9e80f6cf7eeb2da8
+ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310272"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "389928"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Factuurvereffening voor leveranciers
 
@@ -49,7 +49,7 @@ U kunt de volgende typen Factuurvergelijking voor leveranciers gebruiken:
 
 Vergelijkingen op twee en drie manieren vergelijken altijd prijsgegevens met de prijs per eenheid. U kunt dit overeenstemmingsbeleid tevens dusdanig configureren dat prijsgegevens met de totaalprijs worden vergeleken.
 -   Netto prijs per eenheid vergelijken – Vergelijk prijsgegevens voor vergelijken op drie manieren door de netto prijs per eenheid voor iedere regel op de factuur te vergelijken met de betreffende netto prijs per eenheid op de inkooporder. De netto prijs per eenheid wordt bepaald met behulp van de volgende formule: netto bedrag van de regel / hoeveelheid van de regel.
--   Prijstotalen vergelijken – Vergelijk prijsgegevens voor vergelijken op drie manieren door het netto bedrag (totaalprijs) voor iedere regel op de factuur te vergelijken met het betreffende netto bedrag op de inkooporder. Het netto bedrag wordt bepaald met behulp van de volgende formule: (prijs per eenheid \* regelkwaliteit) + regelkosten - regelkortingen
+-   Prijstotalen vergelijken – Vergelijk prijsgegevens voor vergelijken op drie manieren door het netto bedrag (totaalprijs) voor iedere regel op de factuur te vergelijken met het betreffende netto bedrag op de inkooporder. Het nettobedrag wordt bepaald met behulp van de volgende formule: *(prijs per eenheid \* regelkwaliteit) + regelkosten - regelkortingen*. Bij het vergelijken van prijstotalen op basis van percentage, worden waarden met behulp van de transactievaluta vergeleken. Bij het vergelijken van prijstotalen op basis van bedrag, worden de waarden met behulp van de valuta voor boekhouding vergeleken.
 
 Berekeningen van de factuurvergelijking worden automatisch uitgevoerd wanneer u leveranciersfacturen bewerkt op de pagina Leveranciersfactuur. Factuurvergelijking kan eventueel ook worden uitgevoerd op aanvraag, wanneer vereist. Factuurvergelijking op aanvraag wordt geregeld voor de rechtspersoon door de status Status factuurkoptekst automatisch bijwerken ´Aan´ op de pagina Parameters van module Leveranciers, in het tabblad Factuurvalidatie. Factuurvergelijking kan tevens worden uitgevoerd als onderdeel van een beoordelingsproces van een factuur. U kunt de resultaten van factuurvergelijking op de pagina Leverancierfactuur en gerelateerde factuurvergelijkingsformulieren bekijken.
 

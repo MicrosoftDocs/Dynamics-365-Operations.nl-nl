@@ -1,9 +1,9 @@
 ---
 title: Financiële rapporten weergeven
-description: In dit artikel wordt beschreven hoe u financiële rapporten in Microsoft Dynamics 365 for Finance and Operations kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
+description: In dit onderwerp wordt beschreven hoe u financiële rapporten in Microsoft Dynamics 365 for Finance and Operations kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 author: kweekley
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
+ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312940"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791436"
 ---
 # <a name="view-financial-reports"></a>Financiële rapporten weergeven
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u financiële rapporten in Microsoft Dynamics 365 for Finance and Operations kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
+In dit onderwerp wordt beschreven hoe u financiële rapporten in Microsoft Dynamics 365 for Finance and Operations kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 
 <a name="financial-reporting-overview"></a>Overzicht van financiële rapportage
 ----------------------------
@@ -67,18 +67,15 @@ Een financieel rapport kan op elk gewenst moment in een willekeurige valuta word
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Een overzichtsweergave van het financiële rapport weergeven
 Een financieel rapport kan detailregels en overzichtsregels bevatten. De detailregels zijn regels die hoofdrekeningen of dimensies bevatten. De overzichtsregels zijn omschrijvings-, totaal- en berekeningsregels. Als u alleen de overzichtsregels van een rapport wilt weergeven, klikt u op **Weergeven** en vervolgens op **Alleen overzichtsregels**. Het rapport wordt samengevouwen en alleen de overzichtsregels worden weergegeven. Als u de detailregels samen met de overzichtsregels wilt weergeven, klik u op **Weergeven** en vervolgens op **Alleen overzichtsregels**.
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>Een financieel rapport van een vorige maand openen
-U kunt rapporten voor de huidige maand of vorige maanden weergeven zonder het rapport opnieuw te genereren. Als u het rapport voor een vorige maand wilt openen, klikt u op **Weergeven** en vervolgens op **Vorige rapporten**. Er wordt een lijst van de vorige maanden weergegeven waarvoor het rapport is gegenereerd. Vouw de maand uit waarvoor u het rapport wilt weergeven, selecteer de datum en klik vervolgens op **OK**. Het rapport voor de vorige dag wordt weergegeven. Als u wilt terugkeren naar het rapport van de huidige maand, klikt u op **Annuleren**.
-
 ## <a name="print-a-financial-report"></a>Een financieel rapport afdrukken
-Als u een financieel rapport wilt afdrukken, klikt u in het actievenster op **Afdrukken** en voert u vervolgens een of meer van de volgende stappen uit om de afdrukopties in te stellen:
+Als een financieel rapport wordt afgedrukt, wordt een PDF-bestand gemaakt dat vervolgens handmatig kan worden afgedrukt. Als u een afdrukbaar financieel rapport wilt maken, klikt u in het actievenster op **Afdrukken** en voert u vervolgens een of meer van de volgende stappen uit om de afdrukopties in te stellen:
 
 -   Als u de verschillende detailniveaus in het afgedrukte rapport wilt opnemen, stelt u de schuifregelaar in op **Ja** of **Nee**. Als een rapportagestructuur wordt gebruikt in een rapport, kunt u ervoor kiezen alle rapportage-eenheden of alleen de huidige rapportage-eenheid op te nemen.
 -   Als u het paginaformaat wilt instellen, selecteert u een paginaformaat in de lijst.
 -   Als u de pagina-indeling wilt instellen, selecteert u een indeling in de lijst. Als u de rapportinhoud wilt aanpassen aan de door u geselecteerde breedte, stelt u de schuifregelaar in op **Ja**.
 -   Als u de paginamarges wilt instellen, typt u de grootte van de boven-, onder-, linker- en rechtermarges in inches.
 
-Wanneer u klaar bent met het instellen van de afdrukopties, klikt u op **Afdrukken** om het rapport af te drukken. Als u besluit het rapport niet af te drukken, klikt u in plaats daarvan op **Annuleren**. Een voorbeeld van het afgedrukte rapport wordt weergegeven. U kunt de printer selecteren waarnaar u het rapport wilt verzenden en u kunt ook de afdrukopties aanpassen.
+Nadat u klaar bent met het instellen van de afdrukopties, klikt u op **Afdrukken** om door te gaan en wordt u gevraagd of u het bestand wilt downloaden of het bestand wilt opslaan naar OneDrive of SharePoint. Als u besluit dat u niet wilt doorgaan, klikt u in plaats daarvan op **Annuleren**. Als u doorgaat, wordt het rapport op de server weergegeven en wordt u gevraagd het rapport in PDF-indeling te downloaden. Nu kunt u het rapport weergeven in uw PDF-viewer en hier kunt u de printer selecteren waarnaar u het rapport wilt verzenden en kunt u eventuele verdere aanpassingen doorvoeren voor de afdrukopties.
 
 ## <a name="export-a-financial-report"></a>Een financieel rapport exporteren
 Als u een financieel rapport wilt exporteren, klikt u in het actievenster op **Exporteren**. Het rapport wordt geëxporteerd naar Microsoft Excel en in uw browser wordt u gevraagd of u het geëxporteerde bestand wilt openen of opslaan. De exportinstellingen die in het rapportontwerp zijn gedefinieerd, worden toegepast op het geëxporteerde rapport.    
@@ -86,7 +83,7 @@ Als u een financieel rapport wilt exporteren, klikt u in het actievenster op **E
 <a name="additional-resources"></a>Aanvullende bronnen
 --------
 
-[Financiële rapportage voor Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Financiële rapportage](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

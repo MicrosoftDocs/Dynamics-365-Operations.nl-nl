@@ -3,7 +3,7 @@ title: Fiscale kalenders, boekjaren en boekperioden
 description: In dit artikel worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361654"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778196"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Fiscale kalenders, boekjaren en boekperioden
 
@@ -43,7 +43,7 @@ Een afsluitperiode wordt gebruikt voor grootboektransacties die worden gegeneree
 Als u een afsluitperiode maakt, selecteert u een periode met de status Open die de gewenste datums bevat. De begin- en einddatum van de afsluitperiode worden uit de huidige periode gekopieerd. De oorspronkelijke periode blijft bestaan. Stel dat u Periode 12 selecteert, de laatste periode in het boekjaar, die de datums van 1 augustus tot en met 31 augustus bevat. U geeft een naam voor de afsluitperiode op, bijvoorbeeld Afsluiting. Nadat u de nieuwe afsluitperiode hebt gemaakt, beschikt u over de oorspronkelijke periode en de afsluitperiode. Beide perioden beginnen op 1 augustus en eindigen op 31 augustus.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Fiscale kalenders selecteren voor grootboeken, vaste activa en budgetcycli
-Fiscale kalenders worden gebruikt voor afschrijving van vaste activa, financiële transacties en budgetcycli. Wanneer u een fiscale kalender maakt, kunt u deze voor meerdere doeleinden gebruiken. U kunt een fiscale kalender voor een waardemodel of afschrijvingsboek selecteren om er een kalender voor vaste activa van te maken. U kunt een fiscale kalender voor een grootboek selecteren om er een grootboekkalender van te maken. En u kunt een fiscale kalender voor een budgetcyclus selecteren om er een budgetkalender van te maken. U kunt hiervoor dezelfde fiscale kalender gebruiken.
+Fiscale kalenders worden gebruikt voor afschrijving van vaste activa, financiële transacties en budgetcycli. Wanneer u een fiscale kalender maakt, kunt u deze voor meerdere doeleinden gebruiken. U kunt een fiscale kalender voor een boek voor vaste activa selecteren om er een kalender voor vaste activa van te maken. U kunt een fiscale kalender voor een grootboek selecteren om er een grootboekkalender van te maken. En u kunt een fiscale kalender voor een budgetcyclus selecteren om er een budgetkalender van te maken. U kunt hiervoor dezelfde fiscale kalender gebruiken.
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>Een fiscale kalender voor uw rechtspersoon selecteren
 
@@ -51,7 +51,7 @@ Selecteer in het formulier Grootboek de fiscale kalender die u wilt gebruiken vo
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>Een fiscale kalender voor vaste activa selecteren
 
-U kunt een fiscale kalender voor een waardemodel of afschrijvingsboek selecteren. Die fiscale kalender wordt gebruikt door de vaste activa die het geselecteerde waardemodel of afschrijvingsboek gebruiken. U kunt een selectie maken uit alle fiscale kalenders die op de pagina Fiscale kalenders zijn gedefinieerd.
+U kunt een fiscale kalender voor een boek voor vaste activa selecteren. Die fiscale kalender wordt gebruikt door de vaste activa die het geselecteerde boek gebruiken. U kunt een selectie maken uit alle fiscale kalenders die op de pagina Fiscale kalenders zijn gedefinieerd.
 
 ### <a name="define-budget-cycle-time-spans"></a>Budgetcyclusduren definiëren
 

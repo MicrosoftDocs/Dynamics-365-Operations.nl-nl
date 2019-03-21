@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d636e77888fff383849b3a91bf643475a6d516ac
-ms.sourcegitcommit: 383a344deb5abf48584ea2ee7774b8dbbbec49b3
+ms.openlocfilehash: efda4e39f63155785386ecec6d21973e01a0f69f
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "377873"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770888"
 ---
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>Integratie met Microsoft Dynamics 365 for Field Service
 
@@ -75,7 +75,7 @@ De aanvullende functionaliteit in deze tweede fase is erop gericht om technici i
 ### <a name="system-requirements-for-finance-and-operations"></a>Systeemvereisten voor Finance and Operations
 Field Service-integratie ondersteunt de volgende versies:
 
-- Dynamics 365 for Finance and Operations versie 8.1.2 (december 2019) is uitgebracht in december 2019 en heeft een toepassingsbuildnummer 8.1.195 met Platform Update 22 (7.0.5095). 
+- Dynamics 365 for Finance and Operations versie 8.1.2 (december 2018) is uitgebracht in december 2018 en heeft een toepassingsbuildnummer 8.1.195 met Platform Update 22 (7.0.5095). 
 
 ### <a name="system-requirements-for-field-service"></a>Systeemvereisten voor Field Service
 Als u de oplossing Field Service-integratie wilt gebruiken, moet u de volgende onderdelen installeren:

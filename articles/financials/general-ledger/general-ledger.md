@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0b6683107f4b2dbe36af78749612ce950ea19582
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363356"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403232"
 ---
 # <a name="general-ledger"></a>Grootboek 
 
@@ -51,23 +51,21 @@ Bovendien moeten de regels periodiek worden bijgewerkt wanneer de belastingdiens
  - [Btw-betalingen en afrondingsregels](round-sales-tax-payments.md)
 
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="whats-new"></a>Wat is er nieuw
+#### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
-Ga naar [Opmerkingen bij release](https://docs.microsoft.com/en-us/business-applications-release-notes/) om te zien welke nieuwe functies beschikbaar zijn. 
+Ga naar [Microsoft Dynamics 365-releaseopmerkingen](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies zijn gepland. 
+
+#### <a name="blogs"></a>Weblogs
+
+U kunt meningen, nieuws en andere informatie op het [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en het [blog Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials) vinden.
+
+De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
 
 ### <a name="videos"></a>Video's
 
 Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-### <a name="blogs"></a>Weblogs
-
-U kunt adviezen, nieuws en andere informatie over Leveranciers en andere oplossingen vinden in het [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-Er zijn veel berichten over Grootboek beschikbaar in het blog van het [Microsoft Dynamics AX-productteam](https://blogs.msdn.microsoft.com/dax/). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Grootboek, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
-
-Het [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
 
 #### <a name="community-blogs"></a>Community-blogs
 

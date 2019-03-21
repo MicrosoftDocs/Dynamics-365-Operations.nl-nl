@@ -3,7 +3,7 @@ title: Oplossingsstrategie voor productconfiguratie
 description: In dit onderwerp wordt beschreven hoe u oplossingsstrategie kunt gebruiken voor het verbeteren van de prestaties van productconfiguratie.
 author: cvocph
 manager: AnnBe
-ms.date: 01/02/2018
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
+ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351143"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "403911"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Oplossingsstrategie voor productconfiguratie
 
@@ -62,8 +62,8 @@ De volgende tabel geeft aanbevelingen over de oplossingsstrategie die moet worde
 | Oplossingsstrategie      | De strategie in dit scenario gebruiken |
 |----------------------|-----------------------------------|
 | Standaard              | De **standaard** strategie is geoptimaliseerd om modellen op te lossen die afhankelijk zijn van tabelbeperkingen. Klantimplementatieonderzoeken hebben uitgewezen dat deze strategie het efficiëntst is in scenario's waarin tabelbeperkingen veel worden gebruikt. |
-| Minimale domeinen eerst | De strategieën **Minimale domein eerst** en **Van boven naar beneden** zijn nauw verwant. Klantimplementatieonderzoeken hebben uitgewezen dat de strategie **Van boven naar beneden**, die in CU8 is geïntroduceerd, beter presteert dan de strategie **Minimale domein eerst**. De strategie **Minimale domein eerst** wordt echter in het product aangehouden voor achterwaartse compatibiliteit. Beide oplossingsstrategieën zijn efficiënter gebleken bij het oplossen van modellen die meerdere rekenkundige expressies bevatten waarin geen tabelbeperkingen worden gebruikt. In sommige gevallen presteert de strategie **Standaard** echter beter dan deze twee strategieën. Daarom moet u elke strategie proberen. |
-| Van boven naar beneden             | De strategieën **Minimale domein eerst** en **Van boven naar beneden** zijn nauw verwant. Klantimplementatieonderzoeken hebben uitgewezen dat de strategie **Van boven naar beneden**, die in CU8 is geïntroduceerd, beter presteert dan de strategie **Minimale domein eerst**. De strategie **Minimale domein eerst** wordt echter in het product aangehouden voor achterwaartse compatibiliteit. Beide oplossingsstrategieën zijn efficiënter gebleken bij het oplossen van modellen die meerdere rekenkundige expressies bevatten waarin geen tabelbeperkingen worden gebruikt. In sommige gevallen presteert de strategie **Standaard** echter beter dan deze twee strategieën. Daarom moet u elke strategie proberen. |
+| Minimale domeinen eerst | De strategieën **Minimale domeinen eerst** en **Van boven naar beneden** zijn nauw verwant. Klantimplementatieonderzoeken hebben uitgewezen dat de strategie **Van boven naar beneden** beter presteert dan de strategie **Minimale domeinen eerst**. De strategie **Minimale domeinen eerst** wordt echter in het product aangehouden voor achterwaartse compatibiliteit. Beide oplossingsstrategieën zijn efficiënter gebleken bij het oplossen van modellen die meerdere rekenkundige expressies bevatten waarin geen tabelbeperkingen worden gebruikt. In sommige gevallen presteert de strategie **Standaard** echter beter dan deze twee strategieën. Daarom moet u elke strategie proberen. |
+| Van boven naar beneden             | De strategieën **Minimale domeinen eerst** en **Van boven naar beneden** zijn nauw verwant. Klantimplementatieonderzoeken hebben uitgewezen dat de strategie **Van boven naar beneden** beter presteert dan de strategie **Minimale domeinen eerst**. De strategie **Minimale domeinen eerst** wordt echter in het product aangehouden voor achterwaartse compatibiliteit. Beide oplossingsstrategieën zijn efficiënter gebleken bij het oplossen van modellen die meerdere rekenkundige expressies bevatten waarin geen tabelbeperkingen worden gebruikt. In sommige gevallen presteert de strategie **Standaard** echter beter dan deze twee strategieën. Daarom moet u elke strategie proberen. |
 | Z3                   | Wij raden aan dat u de strategie **Z3** als de standaardoplossingsstrategie gebruikt. Als u zich zorgen maakt over prestaties en schaalbaarheid, kunt u de andere strategieën evalueren. |
 
 ## <a name="additional-resources"></a>Aanvullende resources

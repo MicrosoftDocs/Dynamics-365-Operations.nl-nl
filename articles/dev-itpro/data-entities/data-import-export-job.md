@@ -3,7 +3,7 @@ title: Gegevensimport- en exporttaken
 description: Gebruik het werkgebied Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
+ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360205"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "834655"
 ---
 # <a name="data-import-and-export-jobs"></a>Gegevensimport- en exporttaken
 
@@ -128,6 +128,9 @@ Een taak kan tegelijkertijd op basis van rollen, gebruikers en rechtspersoon wor
 
 ## <a name="run-the-import-or-export-job"></a>De import- of exporttaak uitvoeren
 U kunt één taak tegelijk uitvoeren door de knop **Importeren** of **Exporteren** te selecteren nadat u de taak hebt gedefinieerd. Als u een terugkerende taak wilt instellen, selecteert u **Terugkerende gegevenstaak maken**.
+
+[!NOTE]
+Een import- of een exporttaak kan asynchroon worden uitgevoerd door de knop **Importeren** of **Exporteren** te selecteren. Bij een asynchrone uitvoering wordt het asynchrone framework in Finance and Operations gebruikt, dat verschilt van het batchframework. Voor het asynchrone framework kan echter net als het batchframework beperking optreden waardoor de taak niet onmiddellijk kan worden uitgevoerd. De taken kunnen ook synchroon worden uitgevoerd door **Nu importeren** of **Nu exporteren** te selecteren. Hiermee wordt de taak onmiddellijk gestart en dit is handig als het asynchrone of batchframework niet wordt gestart vanwege beperking. De taken kunnen ook in een batch worden uitgevoerd door de optie **Uitvoeren in batch** te kiezen. Batchresources zijn onderworpen aan beperking, waardoor de batchtaak niet onmiddellijk wordt gestart. De asynchrone optie is handig wanneer gebruikers rechtstreeks met de gebruikersinterface communiceren en geen hoofdgebruikers hoeven te zijn om batchplanning te begrijpen. Gebruik van een batch is een alternatieve optie als grote hoeveelheden moeten worden geëxporteerd of geïmporteerd. Batchtaken kunnen worden gepland voor uitvoering in een specifieke batchgroep, zodat u meer controle hebt vanuit taakverdelingsperspectief. Als voor zowel asynchrone als batchframeworks beperking geldt vanwege hoog resourcegebruik in het systeem, kan als een directe oplossing de synchrone versie van import/export worden gebruikt. De synchrone optie wordt onmiddellijk gestart en hiermee wordt de gebruikersinterface geblokkeerd omdat deze synchroon wordt uitgevoerd. Tijdens de uitvoering van de synchrone bewerking moet het browservenster open blijven.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Controleren of de taak naar verwachting is uitgevoerd
 De taakhistorie is beschikbaar voor het oplossen van problemen bij import- en exporttaken. Historische taakuitvoeringen worden ingedeeld op tijd.

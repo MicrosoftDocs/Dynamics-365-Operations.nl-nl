@@ -3,7 +3,7 @@ title: Wettelijk voorgeschreven updates
 description: Dit onderwerp bevat een lijst van geplande updates en vrijgegeven wettelijke updates voor Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/25/2019
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9dcf958165cffa3e3cd62b88a71295eefae9cf8f
-ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "375985"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832096"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -40,6 +40,14 @@ Wanneer een maand wordt gebruikt in de datumkolom, wordt de wettelijke update ge
 |      2019 maart          |   10.0.0      | Oostenrijk      |   Wijzigingen in Kammerumlage 2019 (inkoopheffing)    |
 |      2019 maart          |   10.0.0      |   Brazilië    |     SPED EFD-bijdragen - indeling 004 en 005  |
 |      2019 maart          |   10.0.0      |    Maleisië     |Maleisië vervangt GST door SST, Sales & Services Tax        |
+|      2019 april          |   10.0.1      |    Oostenrijk     |Detailhandel - Fiscale integratie         |
+|      2019 april          |   10.0.1      |    Europa     |E-facturering - Export van klantfacturen in de indeling PEPPOL BIS 3         |
+|      2019 april          |   10.0.1      |    Europa     |E-facturering - Import van leveranciersfacturen in de indeling PEPPOL BIS 3         |
+|      2019 april          |   10.0.1      |   Duitsland     |E-facturering - Export van klantfacturen in de indeling xRechnung 1.1         |
+|      2019 april          |   10.0.1      |    Verenigd Koninkrijk     |[Wijziging in indiening van btw-aangifte (belasting digitaal maken)](emea-gbr-mtd-vat-integration.md)    |    
+|      2019 april          |   10.0.1      |    Brazilië     |NF-e nieuw NT 2018.005         |
+|      2019 april          |   10.0.1      |    Rusland     |Wijzigingen van indeling btw-aangifte van 2019         |
+|      2019 april          |   10.0.1      |    Rusland     |Wijzigingen van indeling btw-aangifte van 2019 (indelingen van verkoop- en inkoopboeken)  |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 - Zoeken naar alle geplande en wettelijke updates op [Lifecycle Service - probleem zoeken](https://lcs.dynamics.com/Logon/Index) (aanmelden vereist).

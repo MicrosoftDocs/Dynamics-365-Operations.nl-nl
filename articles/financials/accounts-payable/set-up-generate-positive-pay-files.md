@@ -1,9 +1,9 @@
 ---
 title: Positieve betalingsbestanden instellen en genereren
-description: Dit artikel beschrijft hoe u positieve betalingsbestanden instelt en genereert.
+description: In dit onderwerp wordt uitgelegd hoe u positieve betalingsbestanden instelt en genereert.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dbc512c6d214dc8cf2527ac23103529111896ec5
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346083"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778173"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Positieve betalingsbestanden instellen en genereren
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel beschrijft hoe u positieve betalingsbestanden instelt en genereert. 
+In dit onderwerp wordt uitgelegd hoe u positieve betalingsbestanden instelt en genereert. 
 
 U kunt positief betalen gebruiken om een electronische lijst met cheques te genereren die aan de bank wordt gegeven. Wanneer vervolgens een cheque aan de bank wordt gepresenteerd, vergelijkt de bank deze met de lijst met cheques. Als de cheque overeenkomt met wat de bank op de lijst heeft, keert de bank de cheque uit. Als de cheque niet overeenkomt met een cheque in de lijst, gaat de bank de cheque controleren.
 
@@ -94,7 +94,7 @@ Positieve betalingsbestanden worden gemaakt door gegevensentiteiten te gebruiken
           <xsl:value-of select="'
     '" />
           <!--Header End-->
-          <xsl:for-each select="Document/BankPositivePayExportEntity">
+          <xsl:for-each select="Document/BANKPOSITIVEPAYEXPORTENTITY">
             <!--Cheque Detail begin-->
             <xsl:value-of select='RECIPIENTACCOUNTNUM/text()'/>
             <xsl:value-of select="','" />

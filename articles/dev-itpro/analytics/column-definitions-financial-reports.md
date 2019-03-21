@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356341"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832143"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolomdefinities in financiële rapporten
 
@@ -62,7 +62,7 @@ Een kolomdefinitie kan twee tot 255 kolommen bevatten.
 Een kolomdefinitie bevat de volgende informatie:
 
 - Een kolom van de omschrijvingen voor de rijdefinitie
-- Bedragkolommen die gegevens uit de financiële gegevens, een Microsoft Excel-werkblad of berekeningen weergeven die op andere gegevens in de kolomdefinitie zijn gebaseerd
+- Bedragkolommen die gegevens uit de financiële gegevens of berekeningen weergeven die op andere gegevens in de kolomdefinitie zijn gebaseerd
 - Opmaakkolommen
 - Kenmerkkolommen
 
@@ -170,7 +170,7 @@ U kunt het dialoogvenster **Kolomkoptekst** gebruiken om kopteksten toe te voege
 
 ### <a name="create-an-automatically-generated-header"></a>Een automatisch gegenereerde koptekst maken
 
-Report Designer kan kolomkoppen automatisch genereren op basis van AutoTekstcodes. De AutoTekstcodes zok, variabelen die altijd worden bijgewerkt wanneer een rapport wordt gegenereerd. Elke kolomkop kan deze codes bevatten om rapportinformatie op te geven die kan verschillen, zoals datums of periodenummers. Daarom kunt u één kolomdefinitie gebruiken voor meerdere rapportdefinities, perioden en rapportagestructuren. Omdat AutoTekstcodes zich baseren op de kalendergegevens van de rijen met details van de kolomdefinitie, worden deze alleen ondersteund voor **CALC**-, **FD**- en **WKS**-kolommen. De manier waarop een AutoTekstcode in de kolomkopcel wordt weergegeven bepaalt hoe die informatie op het rapport wordt weergegeven. In het dialoogvenster **Kolomkop** worden AutoTekstcodes weergegeven in zowel hoofdletters als kleine letters. Daarom wordt tekst op het rapport in zowel hoofdletters als kleine letters weergegeven. Bijvoorbeeld, in een standaardkalenderjaar zet **@CalMonthLong** **7** om in **juli**. Als de naam van de maand in het rapport in hoofdletters moet worden weergegeven (bijvoorbeeld **JULI**), voert u de AutoTekst-code in in het veld **Kolomkoptekst** ook in hoofdletters, bijvoorbeeld @CALMONTHLONG. Voer bijvoorbeeld **@CALMONTHLONG** in. U kunt codes en tekst mengen. U voert bijvoorbeeld de volgende koptekst in: **Periode @FiscalPeriod-@FiscalYear van @StartDate tot @EndDate**. De rapportkop die wordt gegenereerd lijkt op de volgende tekst: **Periode 1-02 van 01/01/02 tot 31/01/02**.
+Report Designer kan kolomkoppen automatisch genereren op basis van AutoTekstcodes. De AutoTekstcodes zok, variabelen die altijd worden bijgewerkt wanneer een rapport wordt gegenereerd. Elke kolomkop kan deze codes bevatten om rapportinformatie op te geven die kan verschillen, zoals datums of periodenummers. Daarom kunt u één kolomdefinitie gebruiken voor meerdere rapportdefinities, perioden en rapportagestructuren. Omdat AutoTekstcodes zich baseren op de kalendergegevens van de rijen met details van de kolomdefinitie, worden deze alleen ondersteund voor **CALC**- en **FD**-kolommen. De manier waarop een AutoTekstcode in de kolomkopcel wordt weergegeven bepaalt hoe die informatie op het rapport wordt weergegeven. In het dialoogvenster **Kolomkop** worden AutoTekstcodes weergegeven in zowel hoofdletters als kleine letters. Daarom wordt tekst op het rapport in zowel hoofdletters als kleine letters weergegeven. Bijvoorbeeld, in een standaardkalenderjaar zet **@CalMonthLong** **7** om in **juli**. Als de naam van de maand in het rapport in hoofdletters moet worden weergegeven (bijvoorbeeld **JULI**), voert u de AutoTekst-code in in het veld **Kolomkoptekst** ook in hoofdletters, bijvoorbeeld @CALMONTHLONG. Voer bijvoorbeeld **@CALMONTHLONG** in. U kunt codes en tekst mengen. U voert bijvoorbeeld de volgende koptekst in: **Periode @FiscalPeriod-@FiscalYear van @StartDate tot @EndDate**. De rapportkop die wordt gegenereerd lijkt op de volgende tekst: **Periode 1-02 van 01/01/02 tot 31/01/02**.
 
 > [!NOTE]
 > De indeling van bepaalde tekst, zoals de lange datumnotatie, is afhankelijk van uw landinstellingen op de Finance and Operations-server. Als u deze instellingen wilt wijzigen, klikt u op de knop **Start**, klikt u op **Configuratiescherm** en vervolgens op **Regio en Taal**. In de volgende tabel vindt u de beschikbare AutoTekst-opties voor kolomkoppen.
@@ -291,7 +291,7 @@ De cel **Aanvullende spaties vóór kolom** geeft de breedte op van het scheidin
 1. Open in Report Designer de kolomdefinitie die u wilt wijzigen.
 2. Voer in de cel **Aanvullende spaties vóór kolom** het aantal spaties op om tussen kolommen in te voegen.
 
-### <a name="specify-a-currency"></a>Een valuta opgeven
+### <a name="specify-a-format-currency-override"></a>Opmaak/valuta negeren opgeven
 
 De cel **Opmaak/valuta negeren** geeft de opmaak op van de decimale, valuta- en percentagebedragen in de kolom. Deze opmaak negeert elke opmaak die in de rapportdefinitie of standaardinstellingen is opgegeven.
 
@@ -361,7 +361,7 @@ Het type informatie dat elke kolom op een rapport bevat wordt opgegeven met de w
     <tbody>
     <tr>
     <td>FD</td>
-    <td>Geef financiële gegevens of gegevens uit een Excel-werkblad weer wanneer u in de rijdefinitie een kolom met <strong>Koppeling naar financiële dimensies + werkblad</strong> of met <strong>Koppeling naar werkblad</strong> gebruikt. Als u het kolomtype <strong>FD</strong> selecteert, worden automatisch standaardinstellingen toegepast voor de volgende rijen: <ul>
+    <td>Financiële gegevens worden weergegeven wanneer u de kolom <strong>Koppeling naar financiële dimensies</strong> in de rijdefinitie gebruikt. Als u het kolomtype <strong>FD</strong> selecteert, worden automatisch standaardinstellingen toegepast voor de volgende rijen: <ul>
     <li><strong>Boekcode/Kenmerkcategorie:</strong> – ACTUAL</li>
     <li><strong>Boekcode/Kenmerkcategorie:</strong> – ACTUAL</li>
     <li><strong>Boekjaar:</strong> BASIS</li>
@@ -394,14 +394,6 @@ U kunt deze standaardinstellingen wijzigen.</td>
     <tr>
     <td>PAGE</td>
     <td>Voeg een verticaal pagina-einde in het rapport in. De kolommen rechts van de <strong>PAGE</strong>-kolom verschijnen op een nieuwe pagina.</td>
-    </tr>
-    <tr>
-    <td>WKS</td>
-    <td>Geef gegevens weer die uit een Excel-werkblad worden gehaald. Als u het kolomtype <strong>FD</strong> selecteert, worden automatisch standaardinstellingen toegepast voor de volgende rijen: <ul>
-    <li><strong>Boekjaar:</strong> – PERIODIEK</li>
-    <li><strong>Periode:</strong> BASIS</li>
-    </ul>
-U kunt deze standaardinstellingen wijzigen.</td>
     </tr>
     <tr>
     <td>ATTR</td>
@@ -518,13 +510,13 @@ U kunt ook een willekeurige combinatie van alfanumerieke tekens gebruiken voor e
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Een rapport opmaken met meerdere valuta in een kolomdefinitie
 
-Een rapport met meerdere valuta kan bedragen weergeven in de natuurlijke (lokale) valuta, de functionele (standaard) valuta of de aangiftevaluta. De functionele valuta van een bedrijf wordt gedefinieerd in het Microsoft Dynamics ERP-systeem. Verwar deze ERP-instelling niet met de Landinstellingen van het besturingssysteem, waar u de standaardvalutasymbolen kunt configureren die in rapporten worden gebruikt. De volgende met valuta gerelateerde cellen zijn beschikbaar in de kolomdefinitie:
+In een rapport met meerdere valuta´s kunnen bedragen worden weergegeven in de valuta voor boekhouding van het grootboek, de aangiftevaluta van het grootboek, de oorspronkelijke transactievaluta of de omgerekende aangiftevaluta. De valuta voor boekhouding van een bedrijf wordt gedefinieerd in de instellingen van het grootboek. Verwar deze instelling niet met de Landinstellingen van het besturingssysteem, waar u de standaardvalutasymbolen kunt configureren die in rapporten worden gebruikt. De volgende met valuta gerelateerde cellen zijn beschikbaar in de kolomdefinitie:
 
-- **Valutaweergave** : geef het type valuta op (natuurlijke, functionele of rapportagevaluta) waarin de transacties worden weergegeven. Deze functionaliteit wordt soms ook wel valutaomzetting genoemd. De valutaomzetting is het vermogen om grootboekbedragen te rapporteren in een valuta die misschien niet de functionele valuta van het bedrijf is of de valuta waarin de transactie werd ingevoerd.
+- **Valutaweergave** : geef het type valuta op (valuta voor boekhouding, aangiftevaluta, transactievaluta of omgerekende aangiftevaluta) waarin de transacties worden weergegeven. Naar omrekening naar een functionaliteit voor aangiftevaluta wordt soms ook verwezen als valutaomrekening. Valutaomrekening is de mogelijkheid om grootboekbedragen te rapporteren in een valuta die misschien niet de functionele valuta of aangiftevaluta van het bedrijf is of de valuta waarin de transactie is ingevoerd.
 - **Valutafilter** - Geef een valutafilter op. Alleen transacties die in de geselecteerde valuta zijn ingevoerd worden in het rapport weergegeven.
 
-> [!NOTE]
-> Als u rapporten wilt maken die meerdere valuta gebruiken, moet u het selectievakje **Alle aangiftevaluta opnemen** inschakelen op het tabblad **Rapport** van de rapportdefinitie. Om de functionele valuta van een bedrijf te definiëren, volgt u deze stappen.
+> 
+Om de valuta voor boekhouding van een bedrijf te bepalen, voert u de volgende stappen uit.
 
 1. Klik in Report Designer in het menu **Bedrijf** op **Bedrijven**.
 2. Selecteer een bedrijf in het dialoogvenster **Bedrijven** en klik op **Weergeven**.
@@ -533,20 +525,18 @@ Een rapport met meerdere valuta kan bedragen weergeven in de natuurlijke (lokale
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>De valuta in een rapport met meerdere valuta opgeven
 
 1. Open in Report Designer de kolomdefinitie die u wilt wijzigen.
-2. Dubbelklik op de cel **Valutaweergave** in de juiste **FD**-kolom en selecteer vervolgens de optie voor het weergeven van valutagegevens: **Natuurlijke/oorspronkelijke valuta**, **Functionele valuta van bedrijfsgegevens** of de aangiftevaluta.
+2. Dubbelklik op de cel **Valutaweergave** in de juiste **FD**-kolom en selecteer vervolgens de optie voor het weergeven van valutagegevens: **Valuta voor boekhouding van grootboek**, **Aangiftevaluta voor grootboek** , transactievaluta of geef aan dat u wilt omrekenen naar een andere aangiftevaluta.
 3. Dubbelklik op de cel **Valutafilter** in de juiste **FD**-kolom en selecteer vervolgens de juiste valutacode in de lijst. Alleen transacties die in deze valuta zijn ingevoerd worden in het rapport weergegeven.
 
-> [!NOTE]
-> De opties die hier worden beschreven, kunnen verschillen, afhankelijk van het ERP-systeem. Raadpleeg uw [Microsoft ERP-systeemdocumentatie](https://www.microsoft.com/en-us/download/details.aspx?id=5916) voor meer informatie.
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Voorbeeld van cellen Valutaweergave en Valutafilter
 
 Phyllis heeft in haar kolomdefinitie de volgende valutaselecties gemaakt:
 
 - **Valutafilter:** Yen
-- **Valutaweergave:** Functioneel (US dollars)
+- **Valutaweergave:** valuta voor boekhouding van grootboek (Amerikaanse dollars)
 
-Door het valutafilter dat Phyllis heeft Geselecteerd, bevat het rapport alleen transacties die in Japanse Yen (JPY) zijn ingevoerd. Door de valutaweergave die ze heeft geselecteerd, bevat het rapport die transacties in de functionele valuta, US dollars (USD).
+Door het valutafilter dat Phyllis heeft Geselecteerd, bevat het rapport alleen transacties die in Japanse Yen (JPY) zijn ingevoerd. Vanwege de valutaweergave die ze heeft geselecteerd, bevat het rapport die transacties in de valuta voor boekhouding, Amerikaanse dollars (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Combinaties van Valutafilter en Valutaweergave
 
@@ -555,10 +545,10 @@ In de volgende tabel worden de rapportresultaten weergeven die kunnen optreden v
 
 | Cel Valutaweergave                        | Cel Valutafilter | Rapportresultaat |
 |----------------------------------------------|----------------------|---------------|
-| Natuurlijke/oorspronkelijke valuta                 | **YEN**              | **Y 6000** - Het resultaat toont alleen transacties die in JPY zijn ingevoerd. |
-| Functionele valuta van bedrijfsgegevens | **YEN**              |**$ 60** - Het resultaat toont alleen transacties die in JPY zijn ingevoerd en toont die transacties in USD.<blockquote>[!NOTE] De wisselkoers is ongeveer 100 JPY per USD.</blockquote> |
-| Functionele valuta uit bedrijfsgegevens | Leeg                | **$2310** – Het resultaat toont alle gegevens in de functionele valuta die in de bedrijfsgegevens zijn opgegeven.<blockquote>[!NOTE] Dit bedrag is de som van alle transacties in functionele valuta.</blockquote> |
-| Natuurlijke/oorspronkelijke valuta                 | Leeg                | **$ 2250** - Het resultaat toont alle bedragen in de valuta waarin de transactie is uitgevoerd. |
+| Transactievaluta                 | **YEN**              | **Y 6000** - Het resultaat toont alleen transacties die in JPY zijn ingevoerd. |
+| Valuta voor boekhouding van grootboek | **YEN**              |**$ 60** - Het resultaat toont alleen transacties die in JPY zijn ingevoerd en toont die transacties in USD.<blockquote>[!NOTE] De wisselkoers is ongeveer 100 JPY per USD.</blockquote> |
+| Valuta voor boekhouding van grootboek | Leeg                | **$2310** – Het resultaat toont alle gegevens in de valuta voor boekhouding die in het grootboek is opgegeven.<blockquote>[!NOTE] Dit bedrag is de som van alle transacties in de valuta voor boekhouding.</blockquote> |
+| Transactievaluta                 | Leeg                | **$ 2250** - Het resultaat toont alle bedragen in de valuta waarin de transactie is uitgevoerd. Dit betekent dat voor het totaal bedragen in verschillende valuta's bij elkaar worden opgeteld. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Berekeningskolom in een kolomdefinitie
 

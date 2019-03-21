@@ -3,7 +3,7 @@ title: Gecentraliseerde betalingen voor Klanten
 description: Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door één rechtspersoon te gebruiken die alle betalingen verwerkt. Daarom hoeft een en dezelfde betaling niet te worden ingevoerd in meerdere rechtspersonen. Dit artikel bevat voorbeelden die laten zien hoe de boeking voor gecentraliseerde betalingen in diverse scenario's wordt verwerkt.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330742"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390138"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Gecentraliseerde betalingen voor Klanten
 
@@ -33,7 +33,7 @@ Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door
 
 Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door een rechtspersoon te gebruiken die alle betalingen verwerkt. Daarom hoeft een en dezelfde betaling niet te worden ingevoerd in meerdere rechtspersonen. Bovendien bespaart de organisatie tijd, doordat de processen voor betalingsvoorstellen, vereffening en het bewerken van openstaande en gesloten transacties voor gecentraliseerde betalingen worden gestroomlijnd. 
 
-In een gecentraliseerde betalingsorganisatie zijn vele rechtspersonen voor verwerkingen, en iedere werkende rechtspersoon beheert zijn eigen informatie over te ontvangen facturen. Betalingen voor alle werkende rechtspersonen worden door één rechtspersoon ontvangen, die de rechtspersoon van de betaling wordt genoemd. Tijdens het vereffeningsproces worden de toepasselijke transacties voor betaling aan en betaling van gegenereerd. U kunt opgeven welke rechtspersoon binnen de organisatie de gerealiseerde winst- of verliestransacties ontvangt, en hoe contantkortingstransacties met betrekking tot een gecentraliseerde betaling worden verwerkt. 
+In een gecentraliseerde betalingsorganisatie zijn vele rechtspersonen voor verwerkingen, en iedere werkende rechtspersoon beheert zijn eigen informatie over te ontvangen facturen. Betalingen voor alle werkende rechtspersonen worden door één rechtspersoon ontvangen, die de rechtspersoon van de betaling wordt genoemd. Tijdens het vereffeningsproces worden de toepasselijke transacties voor betaling aan en betaling van gegenereerd. U kunt opgeven welke rechtspersoon binnen de organisatie de gerealiseerde winst- of verliestransacties ontvangt, en hoe contantkortingstransacties met betrekking tot een gecentraliseerde betaling worden verwerkt. Op de journaalregel voor gecentraliseerde betaling moet **Rekeningtype** worden ingesteld op Klant. **Type tegenrekening** moet worden ingesteld op Bank of Grootboek. De bankrekening moet in het huidige bedrijf zijn. 
 
 In de volgende voorbeelden ziet u hoe boekingen in diverse scenario's worden verwerkt. Bij al deze voorbeelden is van het volgende uitgegaan:
 
@@ -296,8 +296,3 @@ Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. 
 | Klanten (Fabrikam West)    |              | 75,00         |
 | Te ontvangen van Fabrikam East (Fabrikam West) | 25,00        |               |
 | Crediteuren (Fabrikam West)    |              | 25,00         |
-
-
-
-
-

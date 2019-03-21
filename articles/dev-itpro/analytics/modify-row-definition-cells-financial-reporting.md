@@ -1,9 +1,9 @@
 ---
 title: Rijdefinitiecellen wijzigen
-description: In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert.
+description: In dit onderwerp wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323635"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379659"
 ---
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert.
+In dit onderwerp wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Een rij in een rijdefinitie opgeven
 
@@ -386,7 +386,7 @@ U kunt een rij beperken tot een bestaande boekcode. De kolomdefinitie moet ten m
 Sommige boekhoudsystemen ondersteunen rekeningkenmerken en transactiekenmerken in de financiële gegevens. Deze kenmerken functioneren als virtuele accountsegmenten en kunnen extra informatie over de rekening of transactie dragen. Deze extra informatie kan het volgende zijn: rekening-id's, batch-id's, postcodes of andere kenmerken. Als uw boekhoudsysteem kenmerken ondersteunt, kunt u rekeningkenmerken of transactiekenmerken gebruiken als rijmodificators in de rijdefinitie. Raadpleeg de sectie 'Een kolomdefinitie negeren' eerder in dit artikel voor informatie over hoe u rij-informatie negeert.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Een cel Koppeling naar financiële dimensies opgeven
-De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financiële gegevens die in elke rij van een rapport moeten worden opgenomen. Deze cel bevat dimensiewaarden, maar u kunt in plaats van (of in aanvulling op) de segmentwaarden of dimensiewaarden ook cellen in een Microsoft Excel-werkblad specificeren. Om het dialoogvenster **Dimensies** te openen, dubbelklikt u op de cel **Koppeling naar financiële dimensies**.
+De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financiële gegevens die in elke rij van een rapport moeten worden opgenomen. Deze cel bevat dimensiewaarden. Om het dialoogvenster **Dimensies** te openen, dubbelklikt u op de cel **Koppeling naar financiële dimensies**.
 
 > [!NOTE]
 > Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. Als u informatie voor een rij wilt opgeven die al aanwezig is in de rijdefinitie, voegt u de informatie toe aan de cel **Koppeling naar financiële dimensies**. Om nieuwe rijen toe te voegen die naar de financiële gegevens koppelen, gebruikt u het dialoogvenster **Rijen invoegen van** om nieuwe rijen in de rapportdefinitie te maken. De kolomtitel wijzigt, afhankelijk van hoe de kolom is geconfigureerd, zoals weergegeven in de volgende tabel.
@@ -394,9 +394,7 @@ De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financ
 | Koppelingstype dat is ingeschakeld       | De omschrijving van de Koppelingskolom wijzigt hiernaar |
 |----------------------------------|----------------------------------------------------|
 | Financiële dimensies             | Koppeling naar financiële dimensies                       |
-| Extern werkblad               | Koppeling naar werkblad                                  |
-| Financiële dimensies + werkblad | Koppeling naar financiële dimensies + werkblad           |
-| Rapport van Management Reporter       | Rapport van Management Reporter                         |
+| Rapportwerkblad                 | Rapport financiële rapportage                         |
 
 ### <a name="specify-a-dimension-or-range"></a>Een dimensie of bereik opgeven
 
