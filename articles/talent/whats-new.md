@@ -1,9 +1,9 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent Core HR.
+title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
 author: tfehr
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 02/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e329b4a18b07e047f8e992f43e9463361dd36ed
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3dd4043273abd9aaf4842562490293f916d5fa21
+ms.sourcegitcommit: 5384200c3e33510c5b3ac31f2b22443e1076251f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303831"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "390603"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr"></a><span data-ttu-id="efacc-103">Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR</span><span class="sxs-lookup"><span data-stu-id="efacc-103">What's new or changed in Dynamics 365 for Talent Core HR</span></span> 
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent"></a><span data-ttu-id="37027-103">Wat is nieuw of gewijzigd in Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="37027-103">What's new or changed in Dynamics 365 for Talent</span></span> 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="efacc-104">Deze pagina biedt informatie over het zoeken naar informatie over de laatste releases van Microsoft Dynamics Talent HR Core.</span><span class="sxs-lookup"><span data-stu-id="efacc-104">This page provides details about how to find information about the latest releases of Microsoft Dynamics Talent HR Core.</span></span>
+<span data-ttu-id="37027-104">Deze pagina biedt informatie over het zoeken naar informatie over de laatste releases van Microsoft Dynamics Talent HR Core.</span><span class="sxs-lookup"><span data-stu-id="37027-104">This page provides details about how to find information about the latest releases of Microsoft Dynamics Talent HR Core.</span></span>
 
-<span data-ttu-id="efacc-105">Er zijn elke week nieuwe releases voor Talent.</span><span class="sxs-lookup"><span data-stu-id="efacc-105">Each week there are new releases for Talent.</span></span> <span data-ttu-id="efacc-106">Deze versies worden vermeld in de inhoudsopgave op de site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span><span class="sxs-lookup"><span data-stu-id="efacc-106">These releases are listed in the table of contents on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span></span> <span data-ttu-id="efacc-107">U kunt de inhoudsopgave scannen of het filterbesturingselement boven de inhoudsopgave gebruiken om de nieuwste onderwerpen te zoeken.</span><span class="sxs-lookup"><span data-stu-id="efacc-107">You can either scan the table of contents or use the Filter control above the table of contents to find the latest topics that you’re looking for.</span></span> <span data-ttu-id="efacc-108">De onderwerptitels beginnen met 'Wat is nieuw of gewijzigd in Dynamics 365 for Talent...'</span><span class="sxs-lookup"><span data-stu-id="efacc-108">The topic titles will begin with "What's new or changed in Dynamics 365 for Talent…”.</span></span>
+<span data-ttu-id="37027-105">Er zijn elke week nieuwe releases voor Talent.</span><span class="sxs-lookup"><span data-stu-id="37027-105">Each week there are new releases for Talent.</span></span> <span data-ttu-id="37027-106">Deze versies worden vermeld in de inhoudsopgave op de site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span><span class="sxs-lookup"><span data-stu-id="37027-106">These releases are listed in the table of contents on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span></span> <span data-ttu-id="37027-107">U kunt de inhoudsopgave scannen of het filterbesturingselement boven de inhoudsopgave gebruiken om de nieuwste onderwerpen te zoeken.</span><span class="sxs-lookup"><span data-stu-id="37027-107">You can either scan the table of contents or use the Filter control above the table of contents to find the latest topics that you’re looking for.</span></span> <span data-ttu-id="37027-108">De onderwerptitels beginnen met 'Wat is nieuw of gewijzigd in Dynamics 365 for Talent...'</span><span class="sxs-lookup"><span data-stu-id="37027-108">The topic titles will begin with "What's new or changed in Dynamics 365 for Talent…”.</span></span>
 
-<span data-ttu-id="efacc-109">De inhoudsopgave wordt elke week bijgewerkt. Kijk dus regelmatig voor alle nieuwe functies en wijzigingen in de laatste releases van Talent.</span><span class="sxs-lookup"><span data-stu-id="efacc-109">The table of contents will continue to be updated each week, so check back to find all of the new features and changes in the latest releases of Talent.</span></span>
+<span data-ttu-id="37027-109">De inhoudsopgave wordt elke week bijgewerkt. Kijk dus regelmatig voor alle nieuwe functies en wijzigingen in de laatste releases van Talent.</span><span class="sxs-lookup"><span data-stu-id="37027-109">The table of contents will continue to be updated each week, so check back to find all of the new features and changes in the latest releases of Talent.</span></span>
 
 [!include [release notes](../fin-and-ops/includes/release-notes.md)]
