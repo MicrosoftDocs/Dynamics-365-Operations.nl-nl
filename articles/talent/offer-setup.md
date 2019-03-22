@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376502"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768877"
 ---
 # <a name="set-up-offer-management"></a>Aanbiedingsbeheer instellen 
 
@@ -199,11 +199,11 @@ Er zijn verschillende onderdelen van het proces voor het maken van een aanbiedin
 - **Aanbieding van kandidaat**: als beheerder kunt u kiezen of alle aanbiedingen een verloopdatum hebben en zo ja, wat de standaard voor de vervaldatum moet zijn. U kunt ook configureren of kandidaten een aanbieding kunnen afwijzen.
 
 - **Elektronische handtekeningen**: als beheerder kunt u de methode kiezen waarmee kandidaten aanbiedingen kunnen ondertekenen.
-    - Adobe Sign: alle aanbiedingspakketten worden verzonden en ondertekend via Adobe Sign. Alle makers van aanbiedingen die de aanbieding willen publiceren, moet beschikken over hun eigen Adobe Sign-licentie die is verbonden met Attract. 
+    - Adobe Sign: alle aanbiedingspakketten worden verzonden en ondertekend via Adobe Sign. Alle makers van aanbiedingen die de aanbieding willen publiceren, moeten hun Adobe Sign-account hebben verbonden met Attract. Ga voor Adobe Sign-licenties en een gratis proefversie deze [koppeling](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+    - DocuSign: alle aanbiedingspakketten worden verzonden en ondertekend via DocuSign. Alle makers van aanbiedingen die de aanbieding willen publiceren, moeten hun DocuSign-account hebben verbonden met Attract. 
+    
     - ESign: dit is de standaardoptie, die kant en klaar wordt geleverd, waarmee de gebruiker een aanbod kan ondertekenen door zijn/haar naam en initialen te typen.
 
->[!NOTE]
-> Ga voor Adobe Sign-licenties en een gratis proefversie deze [koppeling](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
 Als u meer wilt weten over het maken van aanbiedingen, raadpleegt u [Aanbiedingen maken, goedkeuren en ondertekenen](./creating-offers.md).

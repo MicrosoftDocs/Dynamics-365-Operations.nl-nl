@@ -3,7 +3,7 @@ title: Uitbreidbaarheid in Attract
 description: In dit onderwerp wordt beschreven hoe de toepassing Microsoft Dynamics 365 for Talent - Attract kan worden uitgebreid met behulp van het Microsoft Power Platform.
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,18 +18,41 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c77c64070cb82180441f4b629b6884981b9b81d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303871"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789646"
 ---
 # <a name="extensibility-in-attract"></a>Uitbreidbaarheid in Attract
 
 [!include[banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent is ontwikkeld op het Common Data Service (CDS) voor Apps-platform en kan op verschillende manieren worden uitgebreid met behulp van het Microsoft Power Platform en de mogelijkheden die Common Data Service voor Apps biedt. Daarom kunt u het systeem configureren en aanpassen met behulp van Microsoft PowerApps en Microsoft Flow. U kunt ook extra analyses over personen krijgen met behulp van Microsoft Power BI. Bovendien maken nieuwe aangepaste activiteiten, zoals de PowerApps en webcontentactiviteiten (iFrame) het aanstellingsproces flexibeler dan ooit. Met deze activiteiten kunt u het aanstellingsproces aanpassen aan uw zakelijke behoeften en processen, en zorgen dat zowel het aanstellingsteam als de kandidaten een naadloze, aangepaste ervaring krijgen.
+
+## <a name="extending-option-sets-in-attract"></a>Optiesets uitbreiden in Attract
+
+Een **Optieset** (selectielijst) is een type veld dat kan worden opgenomen in een entiteit. Met een optieset wordt een set opties gedefinieerd. Als een optieset in een formulier wordt weergegeven, wordt een besturingselement voor een vervolgkeuzelijst gebruikt.  Attract bevat meerdere velden die optiesets zijn.  We zijn begonnen met het introduceren van de mogelijkheid om de optiesets uit te breiden, te beginnen met het veld Reden voor afwijzing, het veld Type dienstverband en het veld Type anciënniteit.   U kunt ook gelokaliseerde weergavelabels toevoegen voor de opties die u toevoegt.  Raadpleeg de volgende koppeling voor meer informatie: [Optiesetlabels aanpassen](https://docs.microsoft.com/en-us/poweapps/developer/common-data-service/customize-labels-suport-multiple-languages)
+
+> [!NOTE]
+> De functionaliteit voor publicatie van vacatures naar LinkedIn vereist het gebruik van het veld **Type dienstverband** en **Type anciënniteit** op de pagina **Functiedetails**. De standaardwaarden in deze velden worden ondersteund door LinkedIn en worden weergegeven wanneer de vacature wordt gepubliceerd. Dus als u vacatures naar LinkedIn publiceert en de bestaande optiesetwaarden voor deze velden wijzigt, wordt de vacature wel gepubliceerd, maar worden op LinkedIn de aangepaste waarden voor **Type dienstverband** en **Type anciënniteit** niet weergegeven.  
+
+Hieronder ziet u de stappen voor het bijwerken van het veld **Reden voor afwijzing** met waarden die specifiek voor uw bedrijf gelden.  
+
+1. Als u de optieset **Reden voor afwijzing** wilt uitbreiden, gaat u naar de [PowerApps Admin-website.](Https://admin.powerapps.microsoft.com)
+2. Mogelijk wordt u gevraagd u aan te melden bij uw account. Geef uw gebruikers-ID- en wachtwoordreferenties op die u gebruikt voor aanmelding bij Dynamics365 en/of Office365. Klik vervolgens op **Volgende**.
+3. Selecteer op het tabblad **Omgevingen** de omgeving die u wilt beheren, en dubbelklik erop om het tabblad **Details** te openen.
+4. Selecteer op het tabblad **Details** **Dynamics 365-beheercentrum**.
+5. Selecteer het exemplaar dat u wilt wijzigen en selecteer **Openen**.
+6. Ga naar **Instellingen** en vervolgens **Aanpassingen** en kies **Het systeem aanpassen**.
+7. Zoek de entiteit waarvoor u de optieset wilt uitvouwen door **Entiteiten** te selecteren en de groep uit te vouwen. In dit voorbeeld is dit de **entiteit Sollicitatie**.
+8. Ga naar het veld waarvoor u de optieset wilt uitbreiden door de optie **Velden** te selecteren. In dit voorbeeld is dit **msdyn_rejectionreason**. Dubbelklik op het veld.
+9. Kies in het veld **Optieset** **Bewerken**.
+10. Selecteer het pictogram **+**.
+11. Voer een **Label** in.  (Dit moet een unieke waarde zijn. Duplicaten zijn niet toegestaan).
+12. Selecteer **Opslaan**.
+13. Selecteer **Publiceren** boven aan de pagina.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Profiteren van het Microsoft Power Platform 
 

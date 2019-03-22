@@ -3,7 +3,7 @@ title: Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 description: Dit onderwerp biedt een overzicht van verbeteringen die zijn aangebracht in de functies voor het zoeken van producten en klanten in Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/28/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313584"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789864"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 
@@ -69,7 +69,7 @@ Lokale productzoekopdrachten zijn nu gebruiksvriendelijker. De volgende verbeter
 
 ## <a name="customer-search"></a>Klant zoeken
 
-Klantzoekopdrachten worden gebruikt om voor verschillende doeleinden naar klanten te zoeken. Een kassamedewerker kan bijvoorbeeld de wensenlijst of inkoophistorie weergeven of de klant aan een transactie toevoegen. In het geval van zoekopdrachten met meerdere trefwoorden, retourneert het zoekalgoritme voor klanten alle klanten die overeenkomen met een van de gezochte zoekwoorden. De klanten die overeenkomen met de meeste zoekwoorden, worden echter bovenaan weergegeven in de resultaten. Dit gedrag komt overeen met de manier waarop in andere zoekmachines resultaten worden weergegeven. Eerst worden de resultaten weergegeven die overeenkomen met het grootste aantal gezochte termen en vervolgens worden de resultaten weergegeven die gedeeltelijk overeenkomen met de zoekwoorden. Dit gedrag helpt kassamedewerkers in situaties waarin ze voor hun zoekopdracht meerdere zoekwoorden gebruiken, maar een van de zoekwoorden een spelfout bevat.
+Klantzoekopdrachten worden gebruikt om voor verschillende doeleinden naar klanten te zoeken. Een kassamedewerker kan bijvoorbeeld de wensenlijst of inkoophistorie weergeven of de klant aan een transactie toevoegen. Het zoekalgoritme vergelijkt de zoektermen met de waarden die in de volgende eigenschappen van de klant aanwezig zijn: naam, e-mailadres, telefoon, loyaliteitskaartnummer, adres en rekeningnummer. Hiervan biedt de eigenschap naam de meeste flexibiliteit wanneer het gaat om meerdere zoekopdrachten op basis van trefwoorden, aangezien het algoritme alle klanten retourneert die overeenkomen met de gezochte trefwoorden en de klanten die overeenkomen met de meeste trefwoorden, worden boven aan de resultaten weergegeven. Dit is handig voor kassamedewerkers in situaties waarin ze zoeken door de volledige naam te typen, maar de achternaam en voornaam zijn omgewisseld tijdens de eerste gegevensinvoer. Met het oog op betere prestaties behouden alle andere eigenschappen de volgorde van de zoekwoorden, dus als de trefwoorden niet overeenkomen met de volgorde waarin de gegevens zijn opgeslagen, worden er geen resultaten geretourneerd.
 
 Standaard wordt een klantzoekopdracht uitgevoerd op de klantadresboeken die zijn gekoppeld aan de winkel. Dit type zoekopdracht wordt ook wel een *lokale klantzoekopdracht* genoemd. Werknemers kunnen echter ook wereldwijd naar klanten zoeken. Ze kunnen dus in alle winkels van het bedrijf en in alle andere rechtspersonen zoeken. Dit type zoekopdracht wordt ook wel een *externe klantzoekopdracht* genoemd.
 

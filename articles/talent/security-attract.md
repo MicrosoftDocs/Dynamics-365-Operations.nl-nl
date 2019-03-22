@@ -3,7 +3,7 @@ title: Beveiliging en rollenbeheer in Attract
 description: Dit onderwerp biedt informatie over rolbeveiliging in Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374775"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789692"
 ---
 # <a name="security-and-role-management-in-attract"></a>Beveiliging en rollenbeheer in Attract
 
@@ -100,14 +100,16 @@ De volgende bevoegdheden gelden voor de taakspecifieke gegevens voor sollicitant
 | Gegevens of actie          | Werver | Aanstellend manager | Interviewer |
 |-------------------------|-----------|----------------|-------------|
 | Sollicitatiedocumenten   | Maken, lezen, bijwerken en verwijderen voor taken waarvoor de gebruiker in het aanstellend team zit | Maken, lezen, bijwerken en verwijderen voor taken waarvoor de gebruiker in het aanstellend team zit | Alleen-lezen |
-| Sollicitatienotities       | Maken, lezen, bijwerken en verwijderen voor taken waarvoor de gebruiker in het aanstellend team zit | Maken, lezen, bijwerken en verwijderen voor taken waarvoor de gebruiker in het aanstellend team zit | Maken |
+| Sollicitatienotities       | Maken, lezen, bijwerken en verwijderen voor taken waarvoor de gebruiker in het aanstellend team zit | Maken, lezen, bijwerken en verwijderen voor taken waarvoor de gebruiker in het aanstellend team zit | Alleen-lezen|
 | Sollicitatieactiviteit    | Weergeven als de gebruiker in het aanstellend team zit | Weergeven als de gebruiker in het aanstellend team zit | Alleen-lezen |
 | Sollicitatiefeedback    | Alle feedback toevoegen en weergeven als de gebruiker in het aanstellend team zit | Alle feedback toevoegen en weergeven als de gebruiker in het aanstellend team zit | Kan feedback toevoegen\*\* |
 | Sollicitatie afwijzen      | Kan afwijzen als de gebruiker in het aanstellend team zit | Niet toegestaan | Niet toegestaan |
 | Fase verder           | Kan afwijzen als de gebruiker in het aanstellend team zit | Kan vervolgen als de gebruiker in het aanstellend team zit | Niet toegestaan |
 | Aanbiedingsbeheer starten | Kan aanbiedingsbeheer starten | Er is een configuratieoptie in de aanbiedingsactiviteit. | Niet toegestaan |
 
-\*\* Een configuratieoptie in de [instelling van de feedbackactiviteit](activities-attract.md#feedback-activity) bepaalt of interviewers elkaars feedback kunnen zien.
+
+\*\* Een configuratieoptie in de [instelling van de feedbackactiviteit](./activities-attract.md) bepaalt of interviewers elkaars feedback kunnen zien.
+
 
 ## <a name="process-templates"></a>Processjablonen
 

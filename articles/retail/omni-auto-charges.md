@@ -3,7 +3,7 @@ title: Geavanceerde automatische toeslagen voor meerdere kanalen
 description: Dit onderwerp beschrijft de mogelijkheden voor het beheren van extra toeslagen voor detailhandelskanaalorders met behulp van de geavanceerde functie voor automatische toeslagen.
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345554"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789766"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Geavanceerde automatische toeslagen voor meerdere kanalen
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Dit onderwerp bevat informatie over de configuratie en implementatie van de geavanceerde functie voor automatische-toeslagen die beschikbaar is in Dynamics 365 for Retail versie 10.0.
@@ -67,6 +66,8 @@ De nieuwe bewerkingen zijn als volgt.
 - **143 - toeslagen herberekenen** -gebruik deze bewerking om een volledige nieuwe berekening van de toeslagen voor de verkooptransactie uit te voeren. Eventuele eerdere door de gebruiker overschreven automatische toeslagen worden herberekend op basis van de huidige configuratie in de winkelwagen.  
 
 Zoals bij alle POS-bewerkingen kunnen beveiligingsconfiguraties worden gemaakt zodat goedkeuring van een manager is vereist om de bewerking te kunnen uitvoeren.
+
+Het is belangrijk te weten dat de hierboven vermelde POS-bewerkingen ook kunnen worden toegevoegd aan de POS-indeling, zelfs als de parameter **Geavanceerde automatische toeslagen gebruiken** is uitgeschakeld. In dit scenario krijgen organisaties nog steeds extra voordelen omdat ze handmatig toegevoegde toeslagen kunnen bekijken en bewerken met behulp van de bewerking **Toeslagen beheren**. Gebruikers kunnen ook de bewerkingen **Toeslagen koptekst toevoegen** en **Regeltoeslagen toevoegen** voor POS-transacties gebruiken, zelfs wanneer de parameter **Geavanceerde automatische toeslagen gebruiken** is uitgeschakeld. De bewerking **Toeslagen herberekenen** heeft minder functionaliteit als deze wordt gebruikt als **Geavanceerde automatische toeslagen gebruiken** is uitgeschakeld. In dit scenario wordt niets herberekend en worden alle handmatig aan de transactie toegevoegde toeslagen opnieuw ingesteld op $0,00.
 
 ## <a name="use-case-examples"></a>Voorbeeldzaken gebruiken
 In deze sectie zie u voorbeelden van gebruik die u helpen de configuratie en het gebruik van automatische toeslagen en diverse toeslagen binnen de context van orders in het detailhandelskanaal te begrijpen. Deze voorbeelden illustreren de werking van de toepassing wanneer de parameter **Geavanceerde automatische toeslagen gebruiken** is ingeschakeld.
@@ -207,3 +208,7 @@ Het is raadzaam dat de organisatie ook vrije-tekstvelden toevoegt aan de voettek
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Voorkomen dat toeslagen worden berekend voordat de POS-order is voltooid
 
 Sommige organisaties kunnen er de voorkeur aan geven om te wachten totdat de gebruiker alle verkoopregels aan de POS-transactie heeft toegevoegd vóór de toeslagen worden berekend. Om te voorkomen dat de berekening van toeslagen wordt gemaakt wanneer artikelen worden toegevoegd aan de POS-transactie stelt u de parameter **Toeslag handmatig berekenen** in in het **Functieprofiel** van de winkel. Als u deze parameter inschakelt, dient de POS-gebruiker de bewerking **Totalen berekenen** te gebruiken wanneer die gereed is met het toevoegen van producten aan de POS-transactie. De bewerking **Totalen berekenen** activeert vervolgens de berekening van eventuele automatische toeslagen voor de orderkop of -regels indien van toepassing.
+
+### <a name="charges-override-reports"></a>Rapporten voor overschrijven van toeslagen
+
+Als gebruikers de berekende toeslagen handmatig overschrijven of een handmatige toeslag aan de transactie toevoegen, zijn deze gegevens beschikbaar voor controle in het rapport **Geschiedenis toeslag overschrijven**. Het rapport kan worden geopend via **Detailhandel \> Query's en rapporten \> Geschiedenis toeslag overschrijven**.  Het is belangrijk te weten dat de gegevens die nodig zijn voor dit rapport, vanuit de afzetkanaaldatabase in HQ worden geïmporteerd via de 'P'-distributieplanningstaken. Daarom is het mogelijk dat informatie over overschrijvingen die zojuist zijn uitgevoerd in het POS, pas direct beschikbaar zijn in dit rapport als met deze taak de transactiegegevens van de winkel naar HQ zijn geüpload. 

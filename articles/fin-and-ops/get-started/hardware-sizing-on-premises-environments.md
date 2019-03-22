@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
+ms.sourcegitcommit: 21bbdac152e0cbb0576df9d5e6e90283175834ef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340724"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768409"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 
@@ -86,7 +86,7 @@ Als u inzicht wilt krijgen in welke omvang nodig is, moet u het piekvolume weten
     - Gebruik van aanvullende functionaliteit, zoals databaselogboeken en waarschuwingen. Door extreem gebruik van databaselogboeken daalt de doorvoer per uur per core onder 3K regels.
     - Complexiteit van de gegevenssamenstelling: een eenvoudig rekeningschema versus een gedetailleerd en specifiek rekeningschema heeft gevolgen voor de doorvoer (bijvoorbeeld).
     - Kenmerken van de transacties.
-    - 2 GB tot 4 GB geheugen voor elke core.
+    - 2 GB tot 16 GB geheugen voor elke core.
     - Aanvullende databases op een databaseserver zoals Management Reporter en SSRS-databases.
     - Tijdelijke DB = 15% van de DB-omvang met evenveel bestanden als fysieke processors.
     - SAN-grootte en doorvoer op basis van het totale gelijktijdige transactievolume/gebruik.

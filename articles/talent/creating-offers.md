@@ -3,7 +3,7 @@ title: Aanbiedingen maken, goedkeuren en ondertekenen
 description: In dit onderwerp wordt beschreven hoe u een aanbieding voor een kandidaat maakt, goedkeurt en ondertekent met Dynamics 365 for Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5ad7ce1e089d2a8b5c52e7cd01bb3d89070004b1
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303939"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768900"
 ---
 # <a name="creating-approving-and-signing-offers"></a>Aanbiedingen maken, goedkeuren en ondertekenen
 
@@ -104,15 +104,20 @@ Er zijn verschillende acties die u uitvoeren kunt voordat de aanbieding naar de 
 
 -  Er zijn mogelijk extra documenten die u wilt opnemen in het proces voor aanbiedingsacceptatie. U kunt het vereiste documenttype vermelden.
 
-- De optie Elektronische handtekening: als Adobe Sign is gekozen als voorkeursmethode voor elektronisch ondertekenen, moeten makers van aanbiedingen hun licentie voor Adobe Sign verbinden. Dit kan op twee manieren. Ga naar **Instellingen** in **Aanbod** en maak onder **Verbindingen** verbinding met **Adobe Sign**. U kunt ook gevraagd worden om de verzendaanbieding te verbinden met het kandidaatscherm als de verbinding nog niet tot stand is gebracht op basis van de gebruikersinstellingen. 
+- De optie Elektronische handtekening: er zijn twee manieren om verbinding maken met de gewenste provider van elektronische handtekeningen. Ga naar **Gebruikersinstellingen** in **Aanbieding** onder **Verbindingen** en maak verbinding met **Adobe Sign** of **DocuSign**. U kunt ook gevraagd worden om de pagina **Aanbieding verzenden naar de kandidaat** te verbinden als de verbinding nog niet tot stand is gebracht op basis van de gebruikersinstellingen. Het account met de elektronische handtekening hoeft slechts eenmaal te worden verbonden. Dezelfde gebruikerslicentie wordt gebruikt voor alle toekomstige aanbiedingspakketten die door dezelfde gebruiker worden verzonden. 
 
-> [!NOTE]
-> Gebruikers hoeven hun Adobe Sign-accounts maar één keer te verbinden. Dezelfde gebruikerslicentie wordt gebruikt voor alle toekomstige aanbiedingspakketten die door dezelfde gebruiker worden verzonden. 
+### <a name="adobe-sign"></a>Adobe Sign
+Als Adobe Sign is gekozen als voorkeursmethode voor elektronisch ondertekenen, moeten makers van aanbiedingen hun licentie voor Adobe Sign in deze stap verbinden. 
+
+### <a name="docusign"></a>DocuSign
+Als DocuSign is gekozen als voorkeursmethode voor elektronisch ondertekenen, moeten makers van aanbiedingen hun licentie voor DocuSign verbinden. Zodra u bent aangemeld, worden het standaardaccount en de machtigingen die zijn gekoppeld aan het profiel DocuSign van de gebruiker verbonden met Talent Attract. 
 
 -  U kunt de e-mailsjabloon zo nodig weergeven en bewerken.
 
 Als de aanbieding gereed is en u klikt op **Verzenden naar kandidaat**, ontvangt de kandidaat een e-mailbericht dat een aanbieding op beoordeling wacht.
 
+>[!NOTE]
+> Als u Adobe Sign of DocuSign gebruikt en er een fout optreedt tijdens het verzenden van de aanbieding naar de kandidaat, moet u proberen de verbinding van het gebruikersaccount voor de elektronische handtekening te verbreken en opnieuw verbinding te maken via **Gebruikersinstellingen**. Als het probleem zich blijft voordoen, neemt u contact op met onze ondersteuning met behulp van de koppeling **Een probleem melden**.
 
 ## <a name="candidates-actions-after-receiving-an-offer"></a>Acties van kandidaat na ontvangst van een aanbieding
 

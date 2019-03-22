@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377130"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773272"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Overzicht van fiscale integratie voor detailhandelskanalen
 
@@ -30,7 +30,7 @@ ms.locfileid: "377130"
 
 ## <a name="introduction"></a>Introductie
 
-Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Microsoft Dynamics 365 for Retail. Fiscale integratie omvat integratie met verschillende fiscale apparaten en services die fiscale registratie mogelijk maken van detailhandelverkoop, in overeenstemming met de lokale belastingwetgeving die gericht is op het voorkomen van belastingfraude in de detailhandel. Dit zijn enkele veelvoorkomende scenario's die kunnen worden gedekt door fiscale integratie: 
+Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Microsoft Dynamics 365 for Retail. Fiscale integratie omvat integratie met verschillende fiscale apparaten en services die fiscale registratie mogelijk maken van detailhandelverkoop, in overeenstemming met de lokale belastingwetgeving die gericht is op het voorkomen van belastingfraude in de detailhandel. Dit zijn enkele veelvoorkomende scenario's die kunnen worden gedekt door fiscale integratie:
 
 - Registreer een detailhandelverkoop op een fiscaal apparaat dat is verbonden met Retail POS, zoals een fiscale printer, en druk een fiscaal ontvangstbewijs voor de klant af.
 - Dien veilig informatie die verband houdt met verkopen en retouren die worden voltooid in Retail POS, in bij een externe webservice die wordt bediend door de belastingdienst.
@@ -87,6 +87,7 @@ Wanneer fiscale registratie van een transactie of gebeurtenis geslaagd is, wordt
 
 Fiscale transacties worden overgeboekt naar Retail Headquarters door de *P-taak*, samen met detailhandeltransacties. Op het sneltabblad **Fiscale transacties** van de pagina **Transacties detailhandelwinkel** kunt u de fiscale transacties weergeven die zijn gekoppeld aan detailhandeltransacties.
 
+
 Een fiscale transactie wordt opgeslagen met de volgende gegevens:
 
 - Details van fiscaal registratieproces (proces, connectorgroep, connector, enzovoort). Slaat ook het serienummer van het fiscale apparaat op in het veld **Kassanummer** als deze informatie is opgenomen in het fiscale antwoord.
@@ -115,4 +116,5 @@ De volgende fiscale Integratiefunctionaliteit is ook beschikbaar in de Retail-SD
 
 - [Digitale handtekening voor Frankrijk](emea-fra-cash-registers.md)
 - [Digitale handtekening voor Noorwegen](emea-nor-cash-registers.md)
-- [Regeleenheidintegratievoorbeeld voor Zweden](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+- [Regeleenheidintegratievoorbeeld voor Zweden](./retail-sdk-control-unit-sample.md)
+

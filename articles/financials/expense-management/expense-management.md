@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313400"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403209"
 ---
 # <a name="expense-management"></a>Onkostenbeheer
 
@@ -37,18 +37,16 @@ Met Onkostenbeheer kunt u een geïntegreerde workflow maken waarin u informatie 
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
-Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om te zien welke nieuwe functies zijn vrijgegeven en welke nieuwe functies in ontwikkeling zijn. 
+Ga naar [Microsoft Dynamics 365-releaseopmerkingen](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies zijn gepland. 
 
 #### <a name="blogs"></a>Weblogs
 
-U kunt adviezen, nieuws en andere informatie over Klanten en andere oplossingen vinden in het [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+U kunt meningen, nieuws en andere informatie op het [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en het [blog Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials) vinden.
 
-Er zijn veel berichten over Klanten beschikbaar in het blog van het [Microsoft Dynamics AX-productteam](https://blogs.msdn.microsoft.com/dax/). Hoewel sommige van deze posts zijn geschreven voor de vorige versie van Klanten, zijn dezelfde concepten nog van toepassing. Ook zijn de procedures vergelijkbaar met de huidige versie.
-
-Het [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
+De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations. 
 
 #### <a name="task-guides"></a>Taakbegeleidingen
-Extra help is beschikbaar als taakbegeleidingen binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
+Extra informatie is beschikbaar als taakbegeleidingen binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
 
 #### <a name="videos"></a>Video's
 

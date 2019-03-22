@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5326642553c7efcebc6c6af953e2dafe9e62e9ec
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357928"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832190"
 ---
 # <a name="electronic-messaging"></a>Elektronische berichten
 
@@ -69,6 +69,7 @@ Als u een pakket met gegevensentiteiten niet importeert, kunt u de functionalite
 - [Aanvullende velden](#additional-fields)
 - [Uitvoerbare klasse-instellingen](#executable-class-settings)
 - [Acties voor invullen van record](#populate-records-actions)
+- [Webtoepassingen](#web-applications)
 - [Instellingen webservice](#web-service-settings)
 - [Acties berichtverwerking](#message-processing-actions)
 - [Elektronisch bericht verwerken](#electronic-message-processing)
@@ -85,27 +86,49 @@ Met berichtitemtypen worden recordtypen aangeduid die worden gebruikt in elektro
 
 Met berichtitemstatussen worden de statussen aangeduid die van toepassing zijn op berichtitems in de verwerking die u instelt. U kunt berichtitemtypen instellen op de pagina **Statussen berichtitem** (**Belasting** \> **Instellingen** \> **Elektronische berichten** \> **Statussen berichtitem**).
 
+Met de parameter **Verwijderen toestaan** van een berichtitemstatus wordt bepaald of gebruikers een berichtitem met deze status mogen verwijderen via het formulier **Elektronische berichten**  of **Items elektronisch bericht**. 
+
 ### <a name="message-statuses"></a>Berichtstatussen
 
 Stel de berichtstatussen in die beschikbaar moeten zijn in de berichtverwerking. U kunt berichtitemstatussen instellen op de pagina **Berichtstatussen** (**Belasting** \> **Instellingen** \> **Elektronische berichten** \> **Berichtstatussen**).
+
+Veldomschrijving:
+
+| Veldnaam           | Beschrijving |
+|----------------------|-------------|
+|Berichtstatus        | Unieke naam van de status van een elektronisch bericht waarmee de status van een bericht op elk moment van de tijd wordt gekenmerkt. Deze naam wordt weergegeven in het formulier Elektronische berichten en in een logboek dat betrekking heeft op elektronische berichten. |
+|Beschrijving           | Omschrijving met betrekking tot de status van een elektronisch bericht      |
+|Antwoordtype         | Sommige acties in een verwerking kunnen meer dan één antwoordtype tot resultaat hebben. Zo kan bijvoorbeeld een actie van het type **Webservice** het antwoordtype **Uitgevoerd** of **Technische fout** als resultaat hebben, afhankelijk van het resultaat van de uitvoering ervan. In dit geval moet de berichtstatus voor beide antwoordtypen worden gedefinieerd. Raadpleeg [Actietypen voor berichtverwerking](#message-processing-action-types) voor meer informatie over actietypen en de eraan gerelateerde antwoordtypen. |
+|Status berichtitem   |Er bestaan situaties waarin de status van elektronische berichten van invloed moet zijn op de statuswaarden van gerelateerde berichtitems. Koppel een dergelijke berichtitemstatus in dit veld door deze te selecteren in de zoekopdracht. |
+|Verwijderen toestaan          | Met de parameter **Verwijderen toestaan** van de status van elektronische berichten wordt bepaald of gebruikers een elektronisch bericht met deze status mogen verwijderen via het formulier **Elektronische berichten**.            |
 
 ### <a name="additional-fields"></a>Aanvullende velden
 
 Met de functionaliteit Elektronische berichten kunt u records uit een transactietabel vullen. Op deze manier kunt u de records voorbereiden voor rapportage en deze vervolgens rapporteren. Soms bevat de transactietabel niet voldoende gegevens voor de rapportage van een record op basis van de rapportvereisten. U kunt alle gegevens invullen die moeten worden gerapporteerd voor een record door extra velden in te stellen. Extra velden kunnen zowel aan berichten als aan berichtitems worden gekoppeld. U kunt extra velden instellen op de pagina **Extra velden** (**Belasting** \> **Instellingen** \> **Elektronische berichten** \> **Aanvullende velden**).
 
-In de volgende tabel worden de velden op de pagina **Aanvullende velden** beschreven.
+In de volgende tabel worden de algemene velden op de pagina **Aanvullende velden** beschreven:
 
-| Veld                | Omschrijving |
+| Veld                | Beschrijving |
 |----------------------|-------------|
 | Veldnaam           | Voer de naam in van een extra kenmerk van berichtitems die gerelateerd zijn aan het proces. Deze naam wordt weergegeven in de gebruikersinterface terwijl u met het proces werkt. De naam kan ook worden gebruikt in ER-configuraties die zijn gerelateerd aan het proces. |
 | Omschrijving          | Voer een omschrijving in van de extra kenmerk van berichtitems die gerelateerd zijn aan het proces. |
-| Veldwaarde          | Voer de veldwaarde in die tijdens rapportage moet worden gebruikt voor een berichtitem. |
-| Veldomschrijving    | Voer een omschrijving van de veldwaarde in die tijdens rapportage moet worden gebruikt voor een berichtitem. |
+| Bewerking door gebruiker            | In een geval waarin een gebruiker de waarde van het aanvullende veld moet wijzigen via de gebruikersinterface, stelt u dit selectievakje in op **Ja** en anders op **Nee**. |
+| Teller              | Wanneer het aanvullende veld een volgnummer binnen een elektronisch bericht moet bevatten, schakelt u dit selectievakje in. Waarden van het aanvullende veld worden automatisch ingevuld tijdens het uitvoeren van een actie van het type 'Export van elektronische rapportage'.  |
+| Verborgen               | Wanneer het aanvullende veld moet worden verborgen in de gebruikersinterface, schakelt u dit selectievakje in.  |
+
+Elk aanvullend veld kan verschillende waarden voor de verwerking hebben. U kunt de volgende waarden definiëren op het sneltabblad Waarden:
+
+| Veld                | Beschrijving |
+|----------------------|-------------|
+| Veldwaarde          | Voer de veldwaarde in die in relatie tot een bericht of berichtitem moet worden gebruikt tijdens rapportage. |
+| Veldomschrijving    | Voer een omschrijving van de veldwaarde in die in relatie tot een bericht of berichtitem moet worden gebruikt tijdens rapportage. |
 | Rekeningtype         | Enkele extra veldwaarden kunnen worden beperkt tot bepaalde rekeningtypen. Selecteer een van de volgende waarden: **Alle**, **Klant** of **Leverancier**. |
 | Rekeningcode         | Als u **Klant** of **Leverancier** hebt geselecteerd in het veld **Rekeningtype**, kunt u het gebruik van veldwaarden verder beperken tot een specifieke groep of tabel. |
 | Rekening/groepsnummer | Als u **Klant** of **Leverancier** in het veld **Rekeningtype** hebt geselecteerd en een groep of tabel in het veld **Rekeningcode** hebt ingevoerd, kunt u een specifieke groep of vertegenwoordiger in dit veld opgeven. |
 | Geldig vanaf            | Geef de begindatum voor de waarde op. |
 | Vervaldatum           | Geef de einddatum voor de waarde op. |
+
+Combinaties van criteria die zijn gedefinieerd in **Rekening/groepsnummer**, **Rekeningcode**, **Ingangsdatum**, **Vervaldatum**, zijn niet standaard van invloed op de selectie van een waarde voor een aanvullend veld, maar kunnen worden gebruikt in een uitvoerbare klasse voor het implementeren van een bepaalde specifieke logica voor de berekening van de waarde van een aanvullend veld.
 
 ### <a name="executable-class-settings"></a>Uitvoerbare klasse-instellingen
 
@@ -120,6 +143,8 @@ U kunt een uitvoerbaar klasse handmatig instellen op de pagina **Uitvoerbare kla
 | Naam uitvoerbare klasse | Selecteer een uitvoerbare X++-klasse. |
 | Uitvoeringsniveau       | Dit veld wordt automatisch ingesteld omdat de waarde vooraf moet worden gedefinieerd voor de geselecteerde uitvoerbare klasse. Met dit veld beperkt u op welk niveau de gerelateerde evaluatie wordt uitgevoerd. |
 | Klassenomschrijving     | Dit veld wordt automatisch ingesteld omdat de waarde vooraf moet worden gedefinieerd voor de geselecteerde uitvoerbare klasse. |
+
+Sommige uitvoerbare klassen kunnen verplichte parameters hebben die moeten worden gedefinieerd voordat de uitvoerbare klasse voor de eerste keer wordt uitgevoerd. Als u dergelijke parameters wilt definiëren, klikt u op de knop **Parameters** in het actievenster, stelt u de bijbehorende waarden en de velden in het dialoogvenster in en klikt u op de knop **OK**. Het is belangrijk dat u hier klikt op de knop **OK**. Anders worden parameters niet opgeslagen in de basis en wordt de uitvoerbare klasse niet correct aangeroepen.
 
 ### <a name="populate-records-actions"></a>Acties voor invullen van record
 
@@ -143,6 +168,37 @@ Voeg op het sneltabblad **Instelling van gegevensbronnen** een regel toe voor el
 | Accountveld van document | Selecteer het veld waaruit de documentaccount moet worden gehaald in de geselecteerde tabel. |
 | Gebruikersquery             | Als dit selectievakje is ingeschakeld, kunt u een query instellen door **Query bewerken** boven het raster te selecteren. Anders worden alle records ingevuld vanuit de gegevensbron. |
 
+### <a name="web-applications"></a>Webtoepassingen
+
+U gebruikt de pagina voor webtoepassingen om parameters van een webtoepassing in te stellen ter ondersteuning van open standard OAuth 2.0 waarmee gebruikers 'beveiligde gedelegeerde toegang' tot de toepassing namens hen kunnen verlenen zonder dat ze hun toegangsreferenties hoeven te delen. Vanaf deze pagina kunt u ook het autorisatieproces doorlopen door een autorisatiecode en toegangstoken op te halen. U kunt webtoepassingsinstellingen instellen op de pagina **Webtoepassingen** (**Belasting** \> **Instellingen** \> **Elektronische berichten** \> **Webtoepassingen**).
+
+In de volgende tabel worden de velden op de pagina **Webtoepassingen** beschreven.
+
+| Veld                         | Beschrijving |
+|-------------------------------|-------------|
+| Toepassingsnaam              | Voer een naam voor de webtoepassing in. |
+| Beschrijving                   | Voer een omschrijving van de webtoepassing in. |
+| Basis-URL                      | Voer het basisinternetadres van de webtoepassing in. |
+| URL-pad van autorisatie        | Geef het pad op om een URL voor autorisatie samen te stellen.  |
+| URL-pad van token                | Geef het pad op om een URL voor token samen te stellen.  |
+| Omleidings-URL                  | Voer de omleidings-URL in.  |
+| Client-ID                     | Voer de client-ID van de webtoepassing in.  |
+| Clientgeheim                 | Voer het clientgeheim van de webtoepassing in.  |
+| Servertoken                  | Voer het servertoken van de webtoepassing in.  |
+| Indelingstoewijzing voor autorisatie  | Selecteer een ER-indeling (Elektronische Rapportage) die moet worden gebruikt voor het genereren van de aanvraag voor autorisatie.   |
+| Token modeltoewijzing importeren    | Selecteer een modeltoewijzing voor het importeren van ER die moet worden gebruikt voor het opslaan van het toegangstoken.  |
+| Verleend bereik      Toegangstoken verloopt in  | Dit veld wordt automatisch bijgewerkt. De waarde ervan laat het verleende bereik van aanvragen bij de webtoepassing zien.  |
+| Accepteren                        | Geef de eigenschap voor acceptatie van de webaanvraag aan. Bijvoorbeeld "application/vnd.hmrc.1.0+json".  |
+| Inhoudstype           | Geef het inhoudstype op. Bijvoorbeeld "application/json".  |
+
+De volgende functies zijn beschikbaar via de pagina **Webtoepassingen** om het autorisatieproces te ondersteunen:
+-   **Autorisatiecode ophalen**: autorisatie van de webtoepassing initialiseren.
+-   **Toegangstoken verkrijgen**: ophalen van een toegangstoken initialiseren.
+-   **Toegangstoken vernieuwen**: een toegangstoken vernieuwen.
+
+Wanneer een toegangstoken voor een webtoepassing in de database van het systeem in gecodeerde vorm is opgeslagen, kan het worden gebruikt voor aanvragen bij een webservice. Om beveiligingsredenen moet het toegangstoken worden beperkt tot alleen de beveiligingsrollen die moeten worden toegestaan om deze aanvragen af te handelen. Wanneer een gebruiker buiten de beveiligingsgroep een aanvraag probeert af te handelen, verschijnt een uitzondering met de melding dat de gebruiker niet mag samenwerken via de geselecteerde webtoepassing.
+Gebruik het sneltabblad **Beveiligingsrollen** van de pagina Belasting > Instellingen > Elektronische berichten > Webtoepassingen om rollen in te stellen die toegang tot het toegangstoken moeten hebben. Wanneer er geen beveiligingsrollen zijn gedefinieerd voor een webtoepassing, kan alleen een systeembeheerder samenwerken via deze webtoepassing.
+
 ### <a name="web-service-settings"></a>Instellingen webservice
 
 U gebruikt webservice-instellingen om directe gegevensoverdracht naar een webservice in te stellen. U kunt webservice-instellingen instellen op de pagina **Webservice-instellingen** (**Belasting** \> **Instellingen** \> **Elektronische berichten** \> **Webservice-instellingen**).
@@ -153,13 +209,17 @@ In de volgende tabel worden de velden op de pagina **Webservice-instellingen** b
 |-------------------------|-------------|
 | Webservice             | Geef een naam op voor de webservice. |
 | Omschrijving             | Geef een omschrijving van de webservice op. |
-| Internetadres        | Geef het internetadres van de webservice op. |
+| Internetadres        | Geef het internetadres van de webservice op. Als een webtoepassing is opgegeven voor een webservice en het internetadres identiek moet zijn aan het adres dat is gedefinieerd voor de geselecteerde webtoepassing, klikt u op de knop **Basis-URL kopiëren** om de **Basis-URL** van de webtoepassing naar het veld **Internetadres** van de webservice te kopiëren.  |
 | Getuigschrift             | Selecteer een eerder ingesteld certificaat voor de sleutelkluis. |
+| Webtoepassing         | Selecteer een eerder ingesteld certificaat voor de sleutelkluis. |
 | Het antwoordtype – XML | Stel deze optie in op **Ja** als het responstype XML is. |
 | Aanvraagmethode          | Geeft aanvraagmethode op. HTTP definieert een set aanvraagmethoden waarmee wordt aangeven welke actie moet worden uitgevoerd voor een bepaalde bron. De methode kan **GET**, **POST** of een andere HTTP-methode zijn. |
 | Kopteksten voor aanvraag         | Geef aanvraagkopteksten op. De koptekst van een aanvraag is een HTTP-header die kan worden gebruikt in een HTTP-aanvraag en die niet is gerelateerd aan de inhoud van het bericht. |
+| Accepteren                  | Geef de eigenschap voor acceptatie van de webaanvraag aan. |
 | Versleuteling accepteren         | Geef de Accept-Encoding op. De HTTP-header van de Accept-Encoding-aanvraag adverteert de inhoudscodering die de client kan begrijpen. Deze inhoudscodering is meestal een algoritme voor compressie. |
 | Inhoudstype            | Geef het inhoudstype op. De entiteitsheader voor Content-Type duidt het materiaaltype van de bron aan. |
+| Geslaagde antwoordcode   | Geef de HTTP-statuscode op waarmee wordt aangegeven dat de aanvraag gelukt is. |
+| Indelingstoewijzing van aanvraagkopteksten  | Selecteer de ER-indeling voor het genereren van webaanvraagkopteksten. |
 
 ### <a name="message-processing-actions"></a>Acties berichtverwerking
 
@@ -173,16 +233,20 @@ In de volgende tabellen worden de velden op de pagina **Acties berichtverwerking
 |-------------------------|-------------|
 | Actietype             | Selecteer het type actie. Zie de sectie [Actietypen voor berichtverwerking](#message-processing-action-types) voor informatie over de beschikbare opties. |
 | Indelingstoewijzing          | Selecteer de ER-indeling die voor de actie moet worden aangeroepen. Dit veld is alleen beschikbaar voor acties van het type **Export van elektronische rapportage**, **Import van elektronische rapportage** en **Bericht over export van elektronische rapportage**. |
-| Type berichtitem       | Selecteer het recordtype waarvoor de actie moet worden beoordeeld. Dit veld is beschikbaar voor acties van het type **Uitvoeringsniveau berichtitem**, **Export van elektronische rapportage** en **Import van elektronische rapportage** en enkele andere typen. Als u dit veld leeg laat, worden alle gedefinieerde berichtitemtypen voor de berichtverwerking beoordeeld. |
+| Indelingstoewijzing voor URL-pad | Selecteer de ER-indeling die voor de actie moet worden aangeroepen. Dit veld is alleen beschikbaar voor acties van het type **Webservice** en wordt gebruikt voor het samenstellen van het pad van het URL-adres dat wordt toegevoegd aan het basisinternetadres dat is opgegeven voor de geselecteerde webserver. |
+| Type berichtitem       | Selecteer het recordtype waarvoor de actie moet worden beoordeeld. Dit veld is beschikbaar voor acties van het type **Uitvoeringsniveau berichtitem**, **Export van elektronische rapportage**, **Import van elektronische rapportage**, **Webservice** en enkele andere typen. Als u dit veld leeg laat, worden alle gedefinieerde berichtitemtypen voor de berichtverwerking beoordeeld. |
 | Uitvoerbare klasse        | Selecteer instellingen voor uitvoerbare klassen die eerder zijn gemaakt. Dit veld is alleen beschikbaar voor acties van het type **Uitvoeringsniveau** **berichtitem**. |
 | Actie voor invullen van record | Selecteer een actie voor het invullen van de records die eerder is ingesteld. Dit veld is alleen beschikbaar voor acties van het type **Records invullen**. |
+| Webservice  | Selecteer een webservice die eerder is ingesteld. Dit veld is alleen beschikbaar voor acties van het type **Webservice**.  |
+| Bestandsnaam  | Geef de naam op van het bestand dat resulteert in de actie als een reactie van de webserver of het genereren van een rapport. Dit veld is alleen beschikbaar voor acties van het type **Webservice** en **Bericht over export van elektronische aangifte**.   |
+| Dialoogvenster weergeven  | Schakel dit selectievakje in als een dialoogvenster moet worden weergegeven aan een gebruiker voordat een rapport wordt gegenereerd. Dit veld is alleen beschikbaar voor acties van het type **Bericht over export van elektronische aangifte**.   |
 
 ##### <a name="message-processing-action-types"></a>Actietypen voor berichtverwerking
 
 De volgende opties zijn beschikbaar in het veld **Actietype**:
 
-- **Records invullen**: een actie van het type **Records invullen** moet eerder zijn ingesteld. Koppel deze actie aan een actie van het type **Records invullen** zodat deze kan worden verwerkt. Er wordt van uitgegaan dat dit actietype wordt gebruikt voor de eerste actie in de berichtverwerking. Daarom kan alleen een resultaatstatus worden ingesteld voor een actie van dit type. Een beginstatus kan niet worden ingesteld.
 - **Bericht maken**: gebruik dit type om gebruikers handmatig te laten maken op de pagina **Elektronische berichten**. Daarom kan geen beginstatus worden ingesteld voor een actie van dit type.
+- **Records invullen**: een actie van het type **Records invullen** moet eerder zijn ingesteld. Koppel deze actie aan een actie van het type **Records invullen** zodat deze kan worden verwerkt. Hierbij wordt ervan uitgegaan dat dit actietype wordt gebruikt voor de eerste actie in de berichtverwerking (als er van tevoren geen elektronisch bericht is gemaakt) of als een actie waarbij berichtitems worden toegevoegd aan een eerder gemaakt bericht (door een actie van het type **Bericht maken**). Daarom kan de resultaatstatus van alleen berichtitems worden ingesteld voor een actie van dit type. Een beginstatus kan alleen voor berichten worden ingesteld.
 - **Uitvoeringsniveau bericht**: gebruik dit type voor het instellen van een uitvoerbare klasse die moet worden geëvalueerd op het berichtniveau.
 - **Uitvoeringsniveau berichtitem**: gebruik dit type voor het instellen van een uitvoerbare klasse die moet worden geëvalueerd op het berichtitemniveau.
 - **Export van elektronische rapportage**: gebruik dit type voor acties die een rapport moeten genereren dat is gebaseerd op een ER-exportconfiguratie op berichtitemniveau.
@@ -190,15 +254,15 @@ De volgende opties zijn beschikbaar in het veld **Actietype**:
 - **Import van elektronische rapportage**: gebruik dit type voor acties die een rapport moeten genereren dat is gebaseerd op een ER-importconfiguratie.
 - **Verwerking door gebruiker van berichtniveau**: gebruik dit type voor acties waarbij wordt uitgegaan van enkele handmatige acties door de gebruiker. De gebruiker kan bijvoorbeeld de status van berichten bijwerken.
 - **Verwerking door gebruiker**: gebruik dit type voor acties waarbij wordt uitgegaan van een handmatige actie door de gebruiker. De gebruiker kan bijvoorbeeld de status van berichtitems bijwerken.
-- **Webservice**: gebruik dit type voor acties waarmee een gegenereerd rapport naar een webservice moet worden verzonden. Dit actietype wordt niet gebruikt voor de communicatie van Italiaanse inkoop- en verkoopfacturen.
+- **Webservice**: gebruik dit type voor acties waarmee een gegenereerd rapport naar een webservice moet worden verzonden. Dit actietype wordt niet gebruikt voor de communicatie van Italiaanse inkoop- en verkoopfacturen. Voor acties van het type **Webservice** kunt u een **Bevestigingstekst** op het sneltabblad **Overige details** van **Acties berichtverwerking** opgeven. Deze bevestigingstekst wordt weergeven aan de gebruiker voordat de aanvraag aan de geselecteerde webservice wordt gericht.
 - **Aanvraagverificatie**: gebruik dit type om verificatie van een server aan te vragen.
 
 #### <a name="initial-statuses-fasttab"></a>Het sneltabblad Aanvankelijke statussen
 
 > [!NOTE]
-> Het sneltabblad **Aanvankelijke statussen** is niet beschikbaar voor acties met als begintype **Records invullen** of **Bericht maken**.
+> Het sneltabblad **Aanvankelijke statussen** is niet beschikbaar voor acties met als begintype **Bericht maken**.
 
-| Veld               | Omschrijving                                                                                         |
+| Veld               | Beschrijving                                                                                         |
 |---------------------|-----------------------------------------------------------------------------------------------------|
 | Status berichtitem | Selecteer de berichtitemstatus waarvoor de geselecteerde berichtverwerkingsactie moet worden beoordeeld. |
 | Omschrijving         | Een omschrijving van de geselecteerde berichtitemstatus.                                                  |
@@ -212,11 +276,29 @@ De volgende opties zijn beschikbaar in het veld **Actietype**:
 | Antwoordtype       | Het antwoordtype van de geselecteerde berichtstatus. |
 | Status berichtitem | Selecteer de resulterende statussen die beschikbaar moeten zijn nadat de geselecteerde berichtverwerkingsactie is beoordeeld. Dit veld is alleen beschikbaar voor berichtverwerkingsacties die worden beoordeeld op het berichtitemniveau. Het is bijvoorbeeld niet beschikbaar voor acties van het type **Verwerking door gebruiker** en **Uitvoeringsniveau berichtitem**. Voor berichtverwerkingsacties die worden beoordeeld op berichtniveau wordt in dit veld de berichtitemstatus weergegeven die is ingesteld voor de geselecteerde berichtstatus. |
 
+In de volgende tabel ziet u welke resultaatstatussen moeten worden ingesteld met betrekking tot typen acties:
+
+| Actietype elektronisch bericht \ antwoordtype  | Uitgevoerd  | Bedrijfsfout  | Technische fout  | Door gebruiker gedefinieerd  | Annuleren  |
+|-------------------------------------------------|--------------|---------|-------|-----|-----------------|
+| Bericht maken                                  | X            |         |       |     |                 |
+| Export van elektronische rapportage                     | X            |         |       |     |                 |
+| Import van elektronische rapportage                     |              |         |       |     |                 |
+| Webservice                                     | X            |         | X     |     |                 |
+| Verwerking door gebruiker                                 |              |         |       |     |                 |
+| Uitvoeringsniveau bericht                         |              |         |       |     |                 |
+| Records invullen                                |              |         |       |     |                 |
+| Uitvoeringsniveau berichtitem                    |              |         |       |     |                 |
+| Aanvraagverificatie                            | X            |  X      | X     |     |                 |
+| Bericht over export van elektronische rapportage             | X            |         |       |     |                 |
+| Verwerking door gebruiker van berichtniveau                   |              |         |       |     |                 |
+
 ### <a name="electronic-message-processing"></a>Elektronisch bericht verwerken
 
-De verwerking van elektronische berichten is een basisconcept van de functionaliteit Elektronische berichten. Hiermee worden acties verzameld die moeten worden beoordeeld voor het elektronische bericht. De acties kunnen worden gekoppeld via een beginstatus en resultaatstatus. Acties van het type **Verwerking door gebruiker** kunnen ook onafhankelijk worden gestart. Op de pagina **Elektronisch bericht verwerken** (**Belasting** \> **Instellingen** \> **Elektronische berichten** \> **Elektronisch bericht verwerken**) kunt u ook extra velden selecteren die moeten worden ondersteund voor de verwerking.
+De verwerking van elektronische berichten is een basisconcept van de functionaliteit Elektronische berichten. Hiermee worden acties verzameld die moeten worden beoordeeld voor het elektronische bericht. De acties kunnen worden gekoppeld via een beginstatus en resultaatstatus. Acties van het type **Verwerking door gebruiker** kunnen ook onafhankelijk worden gestart. Op de pagina **Elektronisch bericht verwerken** (**Belasting** \> **Instellingen** \> **Elektronische berichten** \> **Elektronisch bericht verwerken**) kunt u ook aanvullende velden selecteren die moeten worden ondersteund voor de verwerking op berichtniveau of op berichtitemniveau.
 
-Op het sneltabblad **Actie** kunt u vooraf gedefinieerde acties toevoegen aan de verwerking. U kunt opgeven of een actie afzonderlijk moet worden uitgevoerd of kan worden gestart door de verwerking. (Gebruikersacties moeten afzonderlijk worden uitgevoerd.)
+Op het sneltabblad **Actie** kunt u vooraf gedefinieerde acties toevoegen aan de verwerking. U kunt opgeven of een actie afzonderlijk moet worden uitgevoerd of kan worden gestart door de verwerking. Als u wilt definiëren of de actie alleen door een gebruiker kan worden geïnitialiseerd, schakelt u het selectievakje **Afzonderlijk uitvoeren** in voor de actie in de verwerking. Schakel de parameter **Afzonderlijk uitvoeren** uit als u wilt dat de actie wordt gestart door verwerking wanneer voor berichten of berichtitems de status is gedefinieerd als beginstatus voor deze actie. Actie van het type **Gebruikersactie** mag alleen afzonderlijk worden uitgevoerd. 
+
+Het kan soms nodig zijn verschillende acties in een reeks samen te voegen, zelfs als voor de eerste ervan is gedefinieerd dat deze afzonderlijk moet worden uitgevoerd. Bijvoorbeeld: wanneer het genereren van rapporten moet worden geïnitialiseerd door een gebruiker, maar het rapport na het genereren onmiddellijk moet worden verzonden naar een webservice en het antwoord van de webservice moet worden weergegeven in het systeem. Hiervoor kunt u **Onscheidbare reeks** gebruiken. Klik hiertoe op de knop **Onscheidbare reeks** in het actievenster van het sneltabblad **Actie** van **Elektronisch bericht verwerken**, maak een reeks en selecteer deze in de kolom **Onscheidbare reeks** voor acties die altijd samen moeten worden uitgevoerd. De eerste actie in dit geval kan worden ingesteld als **Afzonderlijk uitvoeren**, maar alle andere niet.
 
 Op het sneltabblad **Aanvullende velden berichtitem** kunt u extra vooraf gedefinieerde velden toevoegen die betrekking hebben op berichtitems. U moet extra velden toevoegen voor elk type berichtitem waarop de velden betrekking hebben.
 
@@ -238,16 +320,22 @@ Op het sneltabblad **Berichten** worden elektronische berichten voor de geselect
 
 - **Nieuw**: deze knop is gekoppeld aan acties van het type **Bericht maken**.
 - **Verwijderen**: deze knop is beschikbaar als het selectievakje **Verwijderen toestaan** is ingeschakeld voor de huidige status van het geselecteerde bericht.
+- **Gegevens verzamelen**: deze knop is gekoppeld aan de actie van het type **Records invullen**.
 - **Rapport genereren**: deze knop is gekoppeld aan acties van het type **Bericht over export van elektronische rapportage**.
 - **Rapport verzenden**: deze knop is gekoppeld aan acties van het type **Webservice**.
+- **Antwoord importeren**: deze knop is gekoppeld aan acties van het type **Import van elektronische rapportage**.
 - **Status bijwerken**: deze knop is gekoppeld aan acties van het type **Verwerking door gebruiker van berichtniveau**.
 - **Berichtitems**: open de pagina **Items elektronisch bericht**.
 
-Het sneltabblad **Actielogboek** bevat informatie over alle acties die zijn uitgevoerd voor het geselecteerde bericht.
+Het sneltabblad **Actielogboek** bevat informatie over alle acties die zijn uitgevoerd voor het geselecteerde bericht. Als een actie heeft geresulteerd in een fout, wordt informatie over de fout gekoppeld aan de gerelateerde actielogboekregel. Selecteer de regel en klik op de **illustratie**-knop in de rechterbovenhoek op de pagina om de informatie over de fout te bekijken.
 
 Het sneltabblad **Aanvullende velden voor bericht** bevat alle extra velden die zijn gedefinieerd voor berichten in de instellingen voor verwerking. Ook de waarden van deze extra velden worden weergegeven.
 
-Het sneltabblad **Berichtartikelen** bevat alle berichtartikelen die zijn gerelateerd aan het geselecteerde bericht.
+Het sneltabblad **Berichtartikelen** bevat alle berichtartikelen die zijn gerelateerd aan het geselecteerde bericht. Voor elk berichtitem kan de volgende functie worden gebruikt, afhankelijk van de status van dit berichtitem:
+
+- **Verwijderen**: deze knop is beschikbaar als het selectievakje **Verwijderen toestaan** is ingeschakeld voor de huidige status van het geselecteerde berichtitem.
+- **Status bijwerken**: deze knop is gekoppeld aan acties van het type **Verwerking door gebruiker**.
+- **Oorspronkelijke document**: met deze knop kan de gebruiker een pagina openen met het oorspronkelijke document van het geselecteerde bericht.
 
 U kunt alle bijlagen voor het geselecteerde bericht bekijken. Deze bijlagen zijn rapporten die al zijn gegenereerd en ontvangen. Selecteer het bericht om bijlagen voor te controleren en selecteer de knop **Bijlage** in het actievenster.
 

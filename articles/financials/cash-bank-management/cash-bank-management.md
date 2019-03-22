@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944030859c26a1aadeb98a070d071e30f8b86dc4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d15ff8add8a77c27a9f0153c9e881ecae3d9da78
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302137"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403303"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Startpagina voor Contanten en bankbeheer
 
@@ -86,13 +86,11 @@ Voorbeelden van dergelijke instrumenten zijn depositostroken, cheques, wissels e
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
-Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om te zien welke nieuwe functies zijn vrijgegeven en welke nieuwe functies in ontwikkeling zijn. 
+Ga naar de [releaseopmerkingen bij Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
 
 #### <a name="blogs"></a>Weblogs
 
-U kunt meningen, advies, nieuws en andere informatie over Contanten en bankbeheer en andere oplossingen vinden in de [Microsoft Dynamics 365-blog] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-Er zijn veel berichten over Contanten en bankbeheer beschikbaar in de blog van het [Microsoft Dynamics AX-productteam](https://blogs.msdn.microsoft.com/dax/). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Contanten en bankbeheer, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
+U kunt adviezen, nieuws en andere informatie over de [blog over Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [blog over Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
 

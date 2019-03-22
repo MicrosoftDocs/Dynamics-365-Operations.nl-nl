@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: Welkom bij Dynamics 365 for Talent
-description: Talent stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Deze processen zijn het werven en behouden van werknemers, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer.
+description: 'Talent stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Deze processen zijn het werven en behouden van werknemers, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer.'
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-365-talent
-ms.technology: ''
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: 'Core, Operations, Talent'
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302101"
+ms.search.validFrom: '2016-02-28'
+ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
 ---
+
 # <a name="welcome-to-dynamics-365-for-talent"></a>Welkom bij Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
@@ -79,7 +75,7 @@ U kunt plannen instellen om effectief en op billijke wijze compensatie te behere
 
 ## <a name="develop-and-train-employees"></a>Werknemers ontwikkelen en trainen
 
-U kunt doelen instellen, prestatiebeoordelingen uitvoeren en feedback volgen om uw werknemers te helpen hun loopbaandoelstellingen te realiseren terwijl zij voorzien in essentiële zakelijke behoeften. U kunt bovendien werknemers helpen om benodigde vaardigheden te ontwikkelen door docenten, cursustypen, cursussen, cursusomschrijvingen, agenda's, paden en sessies in te stellen voordat u een docent aan een cursus toewijst of iemand inschrijft voor een cursus. Docenten moeten al bestaan als werknemers, sollicitanten of contactpersonen.
+U kunt doelen instellen, prestatiebeoordelingen uitvoeren en feedback volgen om uw werknemers te helpen hun loopbaandoelstellingen te realiseren zodat zij kunnen voorzien in essentiële zakelijke behoeften. U kunt bovendien werknemers helpen om benodigde vaardigheden te ontwikkelen door docenten, cursustypen, cursussen, cursusomschrijvingen, agenda's, paden en sessies in te stellen voordat u een docent aan een cursus toewijst of iemand inschrijft voor een cursus. Docenten moeten al bestaan als werknemers, sollicitanten of contactpersonen.
 
 -   [Prestatiebeheer](performance-management-overview.md)
 -   [Personeelsvaardigheden en zakelijke behoeften afstemmen](skills.md)

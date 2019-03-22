@@ -3,7 +3,7 @@ title: Integratie vaste activa
 description: Vaste activa kunnen worden gebruikt in Grootboek, Voorraadbeheer, Klanten en Leveranciers. U kunt vaste activa ook integreren met inkooporders.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336975"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778150"
 ---
 # <a name="fixed-assets-integration"></a>Integratie vaste activa
 
@@ -41,7 +41,7 @@ Op de pagina **Boekingsprofielen voor vaste activa** definieert u de hoofdrekeni
 ## <a name="inventory-management"></a>Voorraadbeheer
 In het voorraadjournaal voor vaste activa, kunt u de verwerving invoeren van vaste activa door de rechtspersoon geproduceerd of voor zichzelf gebouwd. U kunt voorraadartikelen vervolgens overbrengen naar vaste activa als een overname of als onderdeel van een overname. 
 
-Ook kunt u met behulp van inkooporders activa aanschaffen. Wanneer inkooporders voorraadartikelen bevatten die als vaste activa zijn ingesteld, bepaalt de instelling van de optie **Bijboekingen van activa vanuit Inkoop toestaan** op de pagina **Parameters vaste activa** of een verwerving wordt geboekt voor het vaste activum wanneer de factuur wordt geboekt. De gevolgen van de verwerving van vaste activa op voorraad is afhankelijk van de instellingen van de rechtspersoon. 
+Ook kunt u met behulp van inkooporders activa aanschaffen. Wanneer inkooporders voorraadartikelen bevatten die als vaste activa zijn ingesteld, bepaalt de instelling van de optie **Bijboekingen van activa vanuit Inkoop toestaan** op de pagina **Parameters vaste activa** of een verwerving wordt geboekt voor het vaste activum wanneer de factuur wordt geboekt. Eén inkoopregel maakt slechts één vast activum, ongeacht de hoeveelheid. De gevolgen van de verwerving van vaste activa op voorraad is afhankelijk van de instellingen van de rechtspersoon. 
 
 Wanneer een voorraadartikel via het voorraadjournaal of via een inkooporder een verwerving vaste activa wordt, wordt er een inkooporder, verwervingsvoorstel of verwervingstransactie van het vaste-activaboek gemaakt. Als een boekverwerving een afgeleid boek bevat, wordt ook een verwervingstransactie voor het afgeleide boek gemaakt. 
 

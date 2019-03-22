@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a35184a48eff9e320087cb9390a0f1eed1e7ba19
+ms.sourcegitcommit: 9a723737565ac78c884e40f7129d0f5aad747524
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308639"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773083"
 ---
 # <a name="workflow-system"></a>Workflowsysteem
 
@@ -36,7 +36,7 @@ De voorwaarde van *workflow* kan op twee manieren worden gedefinieerd: als een s
 
 ### <a name="workflow-is-a-system"></a>Workflow is een systeem
 
-Workflow is een systeem dat wordt geïnstalleerd met Dynamics 365 for Finance and Operations en dat draait op de Application Object Server (AOS). Het workflowsysteem bevat functies waarmee u afzonderlijke workflows of bedrijfsprocessen kunt maken.
+Workflow is een systeem dat wordt geïnstalleerd met Finance and Operations en dat draait op de Application Object Server (AOS). Het workflowsysteem bevat functies waarmee u afzonderlijke workflows of bedrijfsprocessen kunt maken.
 
 ### <a name="workflow-is-a-business-process"></a>Workflow is een bedrijfsproces
 
@@ -71,3 +71,4 @@ Als uw organisatie werkt met het werkstroomsysteem, levert dat tal van voordelen
 + [Een parallelle activiteit in een workflow configureren](configure-parallel-activity-workflow.md)
 + [Een parallelle vertakking in een workflow configureren](configure-parallel-branch-workflow.md)
 + [Een workflow voor regelartikelen configureren](configure-line-item-workflow.md)
++ [Veelgestelde vragen workflow](workflow-FAQ.md)

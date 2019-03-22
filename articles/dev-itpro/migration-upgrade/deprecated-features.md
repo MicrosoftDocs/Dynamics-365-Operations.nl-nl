@@ -3,7 +3,7 @@ title: Verwijderde of verouderde functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329247"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836343"
 ---
 # <a name="removed-or-deprecated-features"></a>Verwijderde of afgeschafte functies
 
@@ -35,11 +35,77 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd of afgeschaft
 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
-> [!Note]
+> [!NOTE]
 > Vanaf de release uit juli 2017 van Dynamics 365 for Finance and Operations met platformupdate 8 wordt het type implementatie aangegeven voor elke verwijderde of afgeschafte functie. Alle eerdere versies die in dit onderwerp worden vermeld, ondersteunen alleen cloudimplementaties.
 
-> [!Note]
+> [!NOTE]
 > Gedetailleerde informatie over objecte in Finance and Operations is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 met platformupdate 25
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.1 met platformupdate 25 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Standaard- en First Release-serviceupdates](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>Afgeschafte API's en potentiële ingrijpende wijzigingen
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>Afleiden van interne klassen is afgeschaft
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | In eerdere versies dan platformupdate 25 was het mogelijk om een klasse of tabel te maken die was afgeleid van een interne klasse/tabel die was gedefinieerd in een ander pakket of een andere module. Dit is geen veilige codering. Vanaf platformupdate 25 geeft de compiler een waarschuwingsbericht weer als u dit probeert te doen.|
+| **Vervangen door een andere functie?**   | De compilerwaarschuwing wordt vervangen door een fout in een toekomstige platformupdate. Deze wijziging is achterwaarts compatibel tijdens runtime, wat betekent dat als u platformupdate 25 of hoger uitvoert, deze wijziging kan worden geïmplementeerd in een willekeurige sandbox- of productieomgeving zonder dat u aangepaste code hoeft te wijzigen. Deze wijziging is alleen van invloed op ontwikkel- en compilatietijd. |
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's. |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in een toekomstige platformupdate. |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>Overschrijven van interne methoden is afgeschaft
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | In eerdere versies dan platformupdate 25 was het mogelijk om een interne methode te overschrijven in een afgeleide klasse die was gedefinieerd in een ander pakket of een andere module. Dit is geen veilige codering. Vanaf platformupdate 25 geeft de compiler een waarschuwingsbericht weer als u dit probeert te doen.|
+| **Vervangen door een andere functie?**   | Deze waarschuwing wordt in een toekomstige platformupdate vervangen door een compilatiefout. Deze wijziging is achterwaarts compatibel tijdens runtime, wat betekent dat als u platformupdate 25 of hoger uitvoert, deze wijziging kan worden geïmplementeerd in een willekeurige sandbox- of productieomgeving zonder dat u aangepaste code hoeft te wijzigen. Deze wijziging is alleen van invloed op ontwikkel- en compilatietijd. |
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's. |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in een toekomstige platformupdate. |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 met platformupdate 23
+
+### <a name="print-to-screen-functionality"></a>Functionaliteit Afdrukken op scherm
+Klanten kunnen de actie **Importeren** die door het besturingselement Report Viewer wordt geleverd, gebruiken om documenten te downloaden die door Finance and Operations-toepassingen zijn gemaakt. Deze op HTML gebaseerde presentatie van het rapport biedt gebruikers een voorbeeld van het document zonder pagina´s.
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Dit op HTML gebaseerde voorbeeld zonder pagina´s levert **niet** de kwaliteit van de fysieke documenten die uiteindelijk door Finance and Operations worden geleverd. Met PDF als standaardindeling voor zakelijke doeleinden kunnen we gebruikersopties voor interactie met toepassingsrapporten in hoge mate vereenvoudigen en het weergaveproces voor documenten stroomlijnen. |
+| **Vervangen door een andere functie?**   | In de toekomst zullen PDF-documenten de standaardindeling voor rapporten worden die door Finance and Operations worden weergegeven.   |
+| **Betrokken productgebieden**         | Deze wijziging is **niet** van invloed op klantscenario's waarin rapporten elektronisch worden verspreid of rechtstreeks naar printers worden verzonden.    |
+| **Implementatieoptie**              | Alle  |
+| **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie. De functie om toepassingsrapporten automatisch naar de browser als PDF-documenten te downloaden is gepland voor de platformupdate van mei 2019. <br><br>**Belangrijk:** bestaande klanten die de functie Afdrukken op scherm moeten gebruiken, wordt aangeraden om [Ondersteuning](../lifecycle-services/lcs-support.md) op de hoogte te brengen voordat ze een upgrade naar platformupdate 26 uitvoeren. |
+
+### <a name="client-kpi-controls"></a>Client-KPI-besturingselementen
+Ingesloten prestatie-indicatoren (KPI's) kunnen worden gemodelleerd in Visual Studio door een ontwikkelaar en verder worden aangepast door de eindgebruiker.
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De native client-besturingselementen waarmee KPI's worden gedefinieerd, hebben een lage klanttoepassing en zijn voor het toevoegen van herleidbare metrische gegevens afhankelijk van een ontwikkelaar. |
+| **Vervangen door een andere functie?**   | PowerBI.com-service levert hoogwaardige programma´s voor het definiëren en beheren van KPI's op basis van gegevens uit externe bronnen.  In een toekomstige versie willen we mogelijk maken dat u oplossingen kunt insluiten die worden gehost op PowerBI.com in toepassingswerkgebieden.   |
+| **Betrokken productgebieden**         | Met deze update kunnen ontwikkelaars geen nieuwe KPI-besturingselementen in Visual Studio-ontwerper introduceren.    |
+| **Implementatieoptie**              | Alle  |
+| **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie. |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>Afgeschafte API's en toekomstige ingrijpende wijzigingen
+
+#### <a name="field-groups-containing-invalid-field-references"></a>Veldgroepen die ongeldige veldverwijzingen bevatten
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Het is mogelijk dat tabelmetagegevensdefinities veldgroepen bevatten met verwijzingen naar ongeldige veldverwijzingen. Dit probleem wordt momenteel geclassificeerd als een *compilerwaarschuwing* in plaats van een *fout*, wat betekent dat het implementeerbare pakket kan worden gemaakt en geïmplementeerd zonder dat het probleem wordt opgelost. Bij implementatie kan dit probleem runtime-fouten veroorzaken in de financiële rapportage en SQL Server Reporting Services (SSRS). Ga als volgt te werk om dit probleem op te lossen:<br><br>1. Verwijder de ongeldige veldverwijzing uit de groepsdefinitie van het tabelveld.<br><br>2. Compileer opnieuw.<br><br>3. Zorg ervoor dat eventuele waarschuwingen of fouten worden opgelost. |
+| **Vervangen door een andere functie?**   | Deze waarschuwing wordt in de toekomst vervangen door een compilatiefout.  |
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's. |
+| **Implementatieoptie**              | Alle. |
+| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatietijdfout in de toekomst. Momenteel denken we dat dit in platformupdate 30 zal gebeuren. |
+
+#### <a name="complete-list"></a>Volledige lijst
+Raadpleeg voor toegang tot de volledige lijst met API's [Afschaffing van methoden en metagegevenselementen](deprecation-deletion-apis.md).
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 met platformupdate 20
 
@@ -51,7 +117,7 @@ De modus voor synchrone overdracht wordt afgeschaft in de grootboekparameters.  
 | **Reden voor afschaffing/verwijdering** | We verwijderen de synchrone optie vanwege de invloed op de systeemprestaties. |
 | **Vervangen door een andere functie?**   | Asynchroon en geplande batch zijn opties die kunnen worden gebruikt in plaats van synchroon.   |
 | **Betrokken productgebieden**         | Grootboek, Leveranciers, Klanten, Inkoop, Onkosten    |
-| **Implementatieoptie**              | Alles  |
+| **Implementatieoptie**              | Alle  |
 | **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor versie 10.0.|
 
 ### <a name="electronic-reporting-for-russia"></a>Elektronische rapportage voor Rusland
@@ -811,7 +877,7 @@ In Dynamics AX 2012 R3 kan Retail Modern POS direct verbinding maken met de afze
 
 |   |  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Voor een directe databaseverbinding waren lagere beveiligingsprotocollen vereist en deze methode werd voornamelijk gebruikt voor het behalen van optimale prestaties. Door de prestatie- en beveiligingsverbeteringen in Dynamics 365 for Finance and Operations levert deze functionaliteit nu meer problemen op dan ermee worden opgelost. |
+| **Reden voor afschaffing/verwijdering** | Voor een directe databaseverbinding waren lagere beveiligingsprotocollen vereist en deze methode werd voornamelijk gebruikt voor het behalen van optimale prestaties. Door de prestatie- en beveiligingsverbeteringen in Finance and Operations levert deze functionaliteit nu meer problemen op dan ermee worden opgelost. |
 | **Vervangen door een andere functie?**   | Nr. Alleen standaard Retail Server-communicatie wordt nu ondersteund.  |
 | **Betrokken productgebieden**         | Afzetkanaal-DB/Retail Modern POS   |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.  |
@@ -1093,7 +1159,7 @@ De functie voor virtuele bedrijven wordt niet meer ondersteund in Dynamics AX. M
 
 |   |  | 
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | - Virtuele bedrijven moeten worden ingericht voordat gegevens in de tabellen worden opgeslagen. Retroactief invoegen van virtuele bedrijven in een bestaande implementatie is zeer moeilijk.<br><br>- Omdat er zoveel gegevensnormalisatie in de huidige versie van Microsoft Dynamics AX is doorgevoerd, is het lastig geworden om te weten wat aan de tabelverzamelingen moet worden toegevoegd. Het is bijvoorbeeld moeilijk te bepalen welke tabellen moeten worden gedeeld. Alle tabellen waarnaar wordt verwezen vanuit tabellen die deel uitmaken van een virtueel bedrijf, moeten ook worden toegevoegd. Vanwege tabelnormalisatie moeten zelfs eenvoudige hoofdgegevens die zijn verdeeld over meerdere tabellen, deel uitmaken van het virtuele bedrijf. Eventuele fouten die hier worden gemaakt, leiden tot functionele problemen.<br><br>- Wanneer een tabel deel uitmaakt van een virtueel bedrijf, verliest het informatie over de oorsprong van de gegevens en wordt alleen het virtuele bedrijf geregistreerd.   |
+| **Reden voor afschaffing/verwijdering** | - Virtuele bedrijven moeten worden ingericht voordat gegevens in de tabellen worden opgeslagen. Retroactief invoegen van virtuele bedrijven in een bestaande implementatie is zeer moeilijk.<br><br>- Omdat er zoveel gegevensnormalisatie in de huidige versie van Dynamics AX is doorgevoerd, is het lastig geworden om te weten wat aan de tabelverzamelingen moet worden toegevoegd. Het is bijvoorbeeld moeilijk te bepalen welke tabellen moeten worden gedeeld. Alle tabellen waarnaar wordt verwezen vanuit tabellen die deel uitmaken van een virtueel bedrijf, moeten ook worden toegevoegd. Vanwege tabelnormalisatie moeten zelfs eenvoudige hoofdgegevens die zijn verdeeld over meerdere tabellen, deel uitmaken van het virtuele bedrijf. Eventuele fouten die hier worden gemaakt, leiden tot functionele problemen.<br><br>- Wanneer een tabel deel uitmaakt van een virtueel bedrijf, verliest het informatie over de oorsprong van de gegevens en wordt alleen het virtuele bedrijf geregistreerd.   |
 | **Vervangen door een andere functie?** | Algemene tabellen kunnen worden gebruikt om tabellen toegankelijk te maken vanuit alle bedrijven. Momenteel is er geen vervanging. |   
 | **Betrokken productgebieden**       | Alle modules |   
 | **Status**                       | Verwijderd sinds Dynamics AX 7.0.   |   
