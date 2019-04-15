@@ -278,7 +278,7 @@ items:
         href: extensibility/class-extensions.md
       - name: Klasse-extensie via methodewrapping en opdrachtstructuur
         href: extensibility/method-wrapping-coc.md
-      - name: Richtlijnen voor namen van modeluitbreidingen
+      - name: Richtlijnen voor namen van uitbreidingen
         href: extensibility/naming-guidelines-extensions.md
       - name: Modelbeperkingen loslaten om overlayering in uitbreidingen te herstructureren
         href: extensibility/refactoring-over-layering.md
@@ -374,6 +374,28 @@ items:
       href: perf-test/continuous-build-test-automation.md
     - name: SysTest filteren met klasse- en methodekenmerken
       href: perf-test/systest-filtering.md
+    - name: Acceptatietestbibliotheek
+      href: perf-test/acceptance-test-library.md
+    - name: Navigatieconcepten
+      href: perf-test/concepts-navigation.md
+    - name: Methoden voor testgegevens
+      href: perf-test/test-data-methods.md
+    - name: Entiteiten in de acceptatietestbibliotheek
+      href: perf-test/concepts-entities.md
+    - name: Opdrachten acceptatietestbibliotheek
+      href: perf-test/concepts-commands.md
+    - name: Makers in de acceptatietestbibliotheek
+      href: perf-test/concepts-creators.md
+    - name: Query's in de acceptatietestbibliotheek
+      href: perf-test/concepts-queries.md
+    - name: Specificatieklassen
+      href: perf-test/concepts-specifications.md
+    - name: Wizard voor het genereren van code voor acceptatietestbibliotheek
+      href: perf-test/code-generation-wizard.md
+    - name: Aanbevolen procedures voor acceptatietestbibliotheek
+      href: perf-test/atl-best-practices.md
+    - name: Veelgestelde vragen
+      href: perf-test/atl-faq.md
   - name: Ingangsdatum
     href: dev-tools/date-effectivity.md
   - name: ISV-licenties
@@ -451,6 +473,8 @@ items:
       href: user-interface/control-checklist.md
   - name: Berichten
     items:
+    - name: Functietoelichtingen
+      href: user-interface/feature-callouts.md
     - name: Schuifregelaar en berichtvensters
       href: user-interface/slider-messagebox.md
     - name: API voor berichtencentrum, berichtenbalk en berichtgegevens
@@ -920,7 +944,7 @@ items:
       href: deployment/apply-deployable-package-system.md
     - name: Updates en uitbreidingen toepassen op in de cloud gehoste Retail-kanaalonderdelen
       href: deployment/Update-retail-channel.md
-    - name: In de cloud gehoste Retail-kanaalonderdelen initialiseren
+    - name: Retail Cloud Scale Unit initialiseren
       href: deployment/Initialize-Retail-Channels.md
   - name: On-premises implementatie
     href: deployment/on-premises-deployment-landing-page.md
@@ -1044,7 +1068,7 @@ items:
     items:
     - name: Proces voor overschakeling naar de nieuwste update
       href: migration-upgrade/upgrade-latest-update.md
-    - name: Omgevingen bijwerken van versie 8.0 naar 8.1
+    - name: Omgevingen bijwerken van versie 8.0 naar 8.1.X/10.X
       href: migration-upgrade/appupdate-80-81.md
     - name: Lifecycle-beleid voor software en cloudversies
       href: migration-upgrade/versions-update-policy.md
@@ -1133,6 +1157,12 @@ items:
       href: sysadmin/runby.md
     - name: Batchtaak voor het verwerken van defragmentatie SQL-index
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: Batchwaarschuwingen configureren
+      href: sysadmin/alerts.md
+    - name: Verbeterde batchformulieren
+      href: sysadmin/enhanced-forms.md
+    - name: Batchtaakhistorie opschonen
+      href: sysadmin/batch-history-cleanup.md
   - name: Optimization advisor
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1229,8 +1259,10 @@ items:
     items:
     - name: Vernieuwen voor opleidingsdoeleinden
       href: database/dbmovement-scenario-general-refresh.md
-    - name: Foutopsporing en diagnose
+    - name: Foutopsporing in een kopie van een productiedatabase
       href: database/dbmovement-scenario-debugdiag.md
+    - name: Een kopie van de database met standaard gebruikeracceptatietest (UAT) exporteren
+      href: database/dbmovement-scenario-exportuat.md
     - name: Promotie Golden-configuratie
       href: database/dbmovement-scenario-goldenconfig.md
     - name: Destructieve testen
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Ervaringen met Finance and Operations-ondersteuning beheren
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773797"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976007"
