@@ -1,7 +1,7 @@
 ---
 title: Nieuwe taken definiëren
 description: Deze taak is gericht op het maken van een nieuwe taak.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,64 +10,64 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 66dcbff3e89b88100e80049c1f97bd78d5e9d0aa
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347923"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "854818"
 ---
-# <a name="define-new-jobs"></a><span data-ttu-id="b80d5-103">Nieuwe taken definiëren</span><span class="sxs-lookup"><span data-stu-id="b80d5-103">Define new jobs</span></span>
+# <a name="define-new-jobs"></a><span data-ttu-id="300ed-103">Nieuwe taken definiëren</span><span class="sxs-lookup"><span data-stu-id="300ed-103">Define new jobs</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b80d5-104">Deze taak is gericht op het maken van een nieuwe taak.</span><span class="sxs-lookup"><span data-stu-id="b80d5-104">This task focuses on the creation of a new job.</span></span> <span data-ttu-id="b80d5-105">Het wordt voltooid met handmatige invoer en functionaliteit Kopiëren uit sjabloon.</span><span class="sxs-lookup"><span data-stu-id="b80d5-105">It will be completed using manual entry and copy from template functionality.</span></span> <span data-ttu-id="b80d5-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="b80d5-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="b80d5-107">Deze taak is bedoeld voor een personeelsspecialist.</span><span class="sxs-lookup"><span data-stu-id="b80d5-107">This task is intended for the human resources specialist.</span></span>
+<span data-ttu-id="300ed-104">Deze taak is gericht op het maken van een nieuwe taak.</span><span class="sxs-lookup"><span data-stu-id="300ed-104">This task focuses on the creation of a new job.</span></span> <span data-ttu-id="300ed-105">Het wordt voltooid met handmatige invoer en functionaliteit Kopiëren uit sjabloon.</span><span class="sxs-lookup"><span data-stu-id="300ed-105">It will be completed using manual entry and copy from template functionality.</span></span> <span data-ttu-id="300ed-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="300ed-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="300ed-107">Deze taak is bedoeld voor een personeelsspecialist.</span><span class="sxs-lookup"><span data-stu-id="300ed-107">This task is intended for the human resources specialist.</span></span>
 
-1. <span data-ttu-id="b80d5-108">Ga naar Human resources > Taken > Taken.</span><span class="sxs-lookup"><span data-stu-id="b80d5-108">Go to Human resources > Jobs > Jobs.</span></span>
-2. <span data-ttu-id="b80d5-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="b80d5-109">Click New.</span></span>
-3. <span data-ttu-id="b80d5-110">Typ een waarde in het veld Taak.</span><span class="sxs-lookup"><span data-stu-id="b80d5-110">In the Job field, type a value.</span></span>
-4. <span data-ttu-id="b80d5-111">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="b80d5-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="b80d5-112">Selecteer een standaardtitel die voor de taak wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b80d5-112">Select a standard title that will be used for the job.</span></span> 
-    * <span data-ttu-id="b80d5-113">De ingevoerde titel wordt als standaard gebruikt voor nieuwe posities die aan de taak worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="b80d5-113">The title entered will be used as a default for new positions assigned to the job.</span></span>  
-6. <span data-ttu-id="b80d5-114">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="b80d5-114">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="b80d5-115">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b80d5-115">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="b80d5-116">Selecteer in de groep Maximumaantal functies de optie Maximumfuncties</span><span class="sxs-lookup"><span data-stu-id="b80d5-116">In the Maximum number of positions group, select 'Maximum positions'</span></span>
-9. <span data-ttu-id="b80d5-117">Voer het maximumaantal functies in.</span><span class="sxs-lookup"><span data-stu-id="b80d5-117">Enter the maximum number of positions.</span></span> 
-    * <span data-ttu-id="b80d5-118">Positietoewijzingen zijn niet toegestaan boven de maximale, hier ingevoerde waarde.</span><span class="sxs-lookup"><span data-stu-id="b80d5-118">Position assignments will not be allowed above the maximum value entered here.</span></span>  
-10. <span data-ttu-id="b80d5-119">Schakel de uitbreiding van de sectie Beschrijving om.</span><span class="sxs-lookup"><span data-stu-id="b80d5-119">Toggle the expansion of the Description section.</span></span>
-11. <span data-ttu-id="b80d5-120">Voer in het veld Opmerking een standaard beschrijving voor de taak in.</span><span class="sxs-lookup"><span data-stu-id="b80d5-120">In the Note field, enter 'Enter a standard description for the Job.</span></span>
-    * <span data-ttu-id="b80d5-121">De omschrijving geldt voor alle posities die zijn toegewezen aan de taak die hier wordt gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="b80d5-121">The description applies to all positions assigned to the job defined here.</span></span>  
-12. <span data-ttu-id="b80d5-122">Schakel de uitbreiding van de sectie Taakclassificatie om.</span><span class="sxs-lookup"><span data-stu-id="b80d5-122">Toggle the expansion of the Job classification section.</span></span>
-13. <span data-ttu-id="b80d5-123">Selecteer een taakfunctie die in standaard rapporten binnen HRM wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b80d5-123">Select a job function that will be used in standard reporting within Human resources.</span></span>
-14. <span data-ttu-id="b80d5-124">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="b80d5-124">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="b80d5-125">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b80d5-125">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="b80d5-126">Selecteer een taaktype om taken in uw organisatie verder te classificeren.</span><span class="sxs-lookup"><span data-stu-id="b80d5-126">Select a Job type to further classify jobs within your organization.</span></span> 
-    * <span data-ttu-id="b80d5-127">Taaktypen kunnen in rapporten in HRM worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b80d5-127">Job types can be used in reporting throughout Human resources.</span></span>  
-17. <span data-ttu-id="b80d5-128">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="b80d5-128">In the list, find and select the desired record.</span></span>
-18. <span data-ttu-id="b80d5-129">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b80d5-129">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="b80d5-130">Schakel de uitbreiding van de sectie Compensatie om.</span><span class="sxs-lookup"><span data-stu-id="b80d5-130">Toggle the expansion of the Compensation section.</span></span>
-20. <span data-ttu-id="b80d5-131">Selecteer een compensatieniveau.</span><span class="sxs-lookup"><span data-stu-id="b80d5-131">Select a compensation level.</span></span>
-    * <span data-ttu-id="b80d5-132">Het compensatieniveau definieert de min. en max. compensatie van een werknemer voor de taak.</span><span class="sxs-lookup"><span data-stu-id="b80d5-132">The compensation level will define the Minimum and Maximum compensation an employee may have for the job.</span></span> <span data-ttu-id="b80d5-133">Compensatieregels definiëren of de compensatie van werknemers buiten het bereik kan zijn.</span><span class="sxs-lookup"><span data-stu-id="b80d5-133">Compensation rules will determine if employees' compensation can be outside the range.</span></span>  
-21. <span data-ttu-id="b80d5-134">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="b80d5-134">In the list, find and select the desired record.</span></span>
-22. <span data-ttu-id="b80d5-135">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b80d5-135">In the list, click the link in the selected row.</span></span>
-23. <span data-ttu-id="b80d5-136">Schakel de uitbreiding van de sectie Vaardigheden om.</span><span class="sxs-lookup"><span data-stu-id="b80d5-136">Toggle the expansion of the Skills section.</span></span>
-    * <span data-ttu-id="b80d5-137">Merk op dat de velden in de sneltabbladen Vaardigheden, Opleiding en Certificaten leeg zijn.</span><span class="sxs-lookup"><span data-stu-id="b80d5-137">Note that the fields in the Skills, Education and Certificates FastTabs are blank.</span></span> <span data-ttu-id="b80d5-138">Na het kopiëren van gegevens van een taaksjabloon, wordt de informatie in deze velden in één stap ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="b80d5-138">After copying information from a job template, information in these fields will be entered in a single step.</span></span>   
-24. <span data-ttu-id="b80d5-139">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="b80d5-139">Click Save.</span></span>
-25. <span data-ttu-id="b80d5-140">Klik op Kopiëren van.</span><span class="sxs-lookup"><span data-stu-id="b80d5-140">Click Copy from.</span></span>
-26. <span data-ttu-id="b80d5-141">Klik op Kopiëren uit sjabloon.</span><span class="sxs-lookup"><span data-stu-id="b80d5-141">Click Copy from template.</span></span>
-27. <span data-ttu-id="b80d5-142">Klik in het veld Functiesjabloon op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="b80d5-142">In the Job template field, click the drop-down button to open the lookup.</span></span>
-28. <span data-ttu-id="b80d5-143">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="b80d5-143">In the list, find and select the desired record.</span></span>
-29. <span data-ttu-id="b80d5-144">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b80d5-144">In the list, click the link in the selected row.</span></span>
-30. <span data-ttu-id="b80d5-145">Klik op de optie Opmerking.</span><span class="sxs-lookup"><span data-stu-id="b80d5-145">Click the Note option.</span></span>
-    * <span data-ttu-id="b80d5-146">Alleen die artikelen die u selecteert worden naar de geselecteerde taak gekopieerd.</span><span class="sxs-lookup"><span data-stu-id="b80d5-146">Only those items you select will be copied to the selected job.</span></span>    
-31. <span data-ttu-id="b80d5-147">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b80d5-147">Click OK.</span></span>
-32. <span data-ttu-id="b80d5-148">Schakel de uitbreiding van de sectie Certificaten om.</span><span class="sxs-lookup"><span data-stu-id="b80d5-148">Toggle the expansion of the Certificates section.</span></span>
-33. <span data-ttu-id="b80d5-149">Schakel de uitbreiding van de sectie Opleiding om.</span><span class="sxs-lookup"><span data-stu-id="b80d5-149">Toggle the expansion of the Education section.</span></span>
-34. <span data-ttu-id="b80d5-150">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="b80d5-150">Click Save.</span></span>
+1. <span data-ttu-id="300ed-108">Ga naar Human resources > Taken > Taken.</span><span class="sxs-lookup"><span data-stu-id="300ed-108">Go to Human resources > Jobs > Jobs.</span></span>
+2. <span data-ttu-id="300ed-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="300ed-109">Click New.</span></span>
+3. <span data-ttu-id="300ed-110">Typ een waarde in het veld Taak.</span><span class="sxs-lookup"><span data-stu-id="300ed-110">In the Job field, type a value.</span></span>
+4. <span data-ttu-id="300ed-111">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="300ed-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="300ed-112">Selecteer een standaardtitel die voor de taak wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="300ed-112">Select a standard title that will be used for the job.</span></span> 
+    * <span data-ttu-id="300ed-113">De ingevoerde titel wordt als standaard gebruikt voor nieuwe posities die aan de taak worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="300ed-113">The title entered will be used as a default for new positions assigned to the job.</span></span>  
+6. <span data-ttu-id="300ed-114">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="300ed-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="300ed-115">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="300ed-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="300ed-116">Selecteer in de groep Maximumaantal functies de optie Maximumfuncties</span><span class="sxs-lookup"><span data-stu-id="300ed-116">In the Maximum number of positions group, select 'Maximum positions'</span></span>
+9. <span data-ttu-id="300ed-117">Voer het maximumaantal functies in.</span><span class="sxs-lookup"><span data-stu-id="300ed-117">Enter the maximum number of positions.</span></span> 
+    * <span data-ttu-id="300ed-118">Positietoewijzingen zijn niet toegestaan boven de maximale, hier ingevoerde waarde.</span><span class="sxs-lookup"><span data-stu-id="300ed-118">Position assignments will not be allowed above the maximum value entered here.</span></span>  
+10. <span data-ttu-id="300ed-119">Schakel de uitbreiding van de sectie Beschrijving om.</span><span class="sxs-lookup"><span data-stu-id="300ed-119">Toggle the expansion of the Description section.</span></span>
+11. <span data-ttu-id="300ed-120">Voer in het veld Opmerking een standaard beschrijving voor de taak in.</span><span class="sxs-lookup"><span data-stu-id="300ed-120">In the Note field, enter 'Enter a standard description for the Job.</span></span>
+    * <span data-ttu-id="300ed-121">De omschrijving geldt voor alle posities die zijn toegewezen aan de taak die hier wordt gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="300ed-121">The description applies to all positions assigned to the job defined here.</span></span>  
+12. <span data-ttu-id="300ed-122">Schakel de uitbreiding van de sectie Taakclassificatie om.</span><span class="sxs-lookup"><span data-stu-id="300ed-122">Toggle the expansion of the Job classification section.</span></span>
+13. <span data-ttu-id="300ed-123">Selecteer een taakfunctie die in standaard rapporten binnen HRM wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="300ed-123">Select a job function that will be used in standard reporting within Human resources.</span></span>
+14. <span data-ttu-id="300ed-124">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="300ed-124">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="300ed-125">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="300ed-125">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="300ed-126">Selecteer een taaktype om taken in uw organisatie verder te classificeren.</span><span class="sxs-lookup"><span data-stu-id="300ed-126">Select a Job type to further classify jobs within your organization.</span></span> 
+    * <span data-ttu-id="300ed-127">Taaktypen kunnen in rapporten in HRM worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="300ed-127">Job types can be used in reporting throughout Human resources.</span></span>  
+17. <span data-ttu-id="300ed-128">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="300ed-128">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="300ed-129">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="300ed-129">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="300ed-130">Schakel de uitbreiding van de sectie Compensatie om.</span><span class="sxs-lookup"><span data-stu-id="300ed-130">Toggle the expansion of the Compensation section.</span></span>
+20. <span data-ttu-id="300ed-131">Selecteer een compensatieniveau.</span><span class="sxs-lookup"><span data-stu-id="300ed-131">Select a compensation level.</span></span>
+    * <span data-ttu-id="300ed-132">Het compensatieniveau definieert de min. en max. compensatie van een werknemer voor de taak.</span><span class="sxs-lookup"><span data-stu-id="300ed-132">The compensation level will define the Minimum and Maximum compensation an employee may have for the job.</span></span> <span data-ttu-id="300ed-133">Compensatieregels definiëren of de compensatie van werknemers buiten het bereik kan zijn.</span><span class="sxs-lookup"><span data-stu-id="300ed-133">Compensation rules will determine if employees' compensation can be outside the range.</span></span>  
+21. <span data-ttu-id="300ed-134">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="300ed-134">In the list, find and select the desired record.</span></span>
+22. <span data-ttu-id="300ed-135">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="300ed-135">In the list, click the link in the selected row.</span></span>
+23. <span data-ttu-id="300ed-136">Schakel de uitbreiding van de sectie Vaardigheden om.</span><span class="sxs-lookup"><span data-stu-id="300ed-136">Toggle the expansion of the Skills section.</span></span>
+    * <span data-ttu-id="300ed-137">Merk op dat de velden in de sneltabbladen Vaardigheden, Opleiding en Certificaten leeg zijn.</span><span class="sxs-lookup"><span data-stu-id="300ed-137">Note that the fields in the Skills, Education and Certificates FastTabs are blank.</span></span> <span data-ttu-id="300ed-138">Na het kopiëren van gegevens van een taaksjabloon, wordt de informatie in deze velden in één stap ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="300ed-138">After copying information from a job template, information in these fields will be entered in a single step.</span></span>   
+24. <span data-ttu-id="300ed-139">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="300ed-139">Click Save.</span></span>
+25. <span data-ttu-id="300ed-140">Klik op Kopiëren van.</span><span class="sxs-lookup"><span data-stu-id="300ed-140">Click Copy from.</span></span>
+26. <span data-ttu-id="300ed-141">Klik op Kopiëren uit sjabloon.</span><span class="sxs-lookup"><span data-stu-id="300ed-141">Click Copy from template.</span></span>
+27. <span data-ttu-id="300ed-142">Klik in het veld Functiesjabloon op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="300ed-142">In the Job template field, click the drop-down button to open the lookup.</span></span>
+28. <span data-ttu-id="300ed-143">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="300ed-143">In the list, find and select the desired record.</span></span>
+29. <span data-ttu-id="300ed-144">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="300ed-144">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="300ed-145">Klik op de optie Opmerking.</span><span class="sxs-lookup"><span data-stu-id="300ed-145">Click the Note option.</span></span>
+    * <span data-ttu-id="300ed-146">Alleen die artikelen die u selecteert worden naar de geselecteerde taak gekopieerd.</span><span class="sxs-lookup"><span data-stu-id="300ed-146">Only those items you select will be copied to the selected job.</span></span>    
+31. <span data-ttu-id="300ed-147">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="300ed-147">Click OK.</span></span>
+32. <span data-ttu-id="300ed-148">Schakel de uitbreiding van de sectie Certificaten om.</span><span class="sxs-lookup"><span data-stu-id="300ed-148">Toggle the expansion of the Certificates section.</span></span>
+33. <span data-ttu-id="300ed-149">Schakel de uitbreiding van de sectie Opleiding om.</span><span class="sxs-lookup"><span data-stu-id="300ed-149">Toggle the expansion of the Education section.</span></span>
+34. <span data-ttu-id="300ed-150">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="300ed-150">Click Save.</span></span>
 
