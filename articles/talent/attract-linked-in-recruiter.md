@@ -1,7 +1,7 @@
 ---
-title: Aanstelling met LinkedIn Recruiter
+title: Sourcing met LinkedIn Recruiter
 description: Dit onderwerp biedt informatie over het gebruik van machine learning om aanbevelingen voor functies en functiekandidaten te krijgen.
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,23 +10,23 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4ac7a302e5bf589beb2b560b0ff5818e90c67139
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303843"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859569"
 ---
-# <a name="sourcing-with-linkedin-recruiter"></a>Aanstelling met LinkedIn Recruiter
+# <a name="sourcing-with-linkedin-recruiter"></a>Sourcing met LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
 LinkedIn is 's werelds grootste talentendatabase en vaak het primaire systeem dat wervers gebruiken om kandidaten te zoeken, mee te communiceren en aan te stellen voor de functies die wervers willen opvullen. LinkedIn Recruiter-integratie met Dynamics 365 for Talent: Attract maakt het eenvoudiger voor gebruikers om personen aan te stellen en de gegevens tussen twee systemen gesynchroniseerd te houden.
@@ -34,9 +34,9 @@ LinkedIn is 's werelds grootste talentendatabase en vaak het primaire systeem da
 > [!NOTE]
 > U hebt de Uitgebreide invoegtoepassing voor aanstellingen- en LinkedIn Recruiter-seats nodig om LinkedIn Recruiter-integratie met Attract te kunnen gebruiken.
 
-## <a name="set-up-linkedin-recruiter-with-attract"></a>LinkedIn Recruiter instellen met Attract 
+## <a name="set-up-linkedin-recruiter-with-attract"></a>LinkedIn Recruiter met Attract instellen 
 
-Voordat u de mogelijkheden van LinkedIn Recruiter gebruiken kunt, moet u toegang op contract- of bedrijfsniveau configureren met uw Attract-exemplaar. Als u het configuratieproces wilt voltooien, moet u werken met de gebruiker die een beheerder is in uw LinkedIn Recruiter-contract. Voer de volgende stappen uit voor het configureren van de LinkedIn Recruiter met Attract.
+Voordat u de mogelijkheden van LinkedIn Recruiter kunt gebruiken, moet u toegang op contract- of bedrijfsniveau configureren met uw Attract-exemplaar. Als u het configuratieproces wilt voltooien, moet u werken met de gebruiker die een beheerder is in uw LinkedIn Recruiter-contract. Voer de volgende stappen uit voor het configureren van de LinkedIn Recruiter met Attract.
 
 1.  Meld u aan bij Attract als beheerder en ga naar **Beheerinstellingen**.
 
@@ -132,7 +132,7 @@ Als u InMail-historie wilt weergeven, gaat u naar het profiel van een kandidaat,
 
 ### <a name="notes-history"></a>Notitiehistorie 
 
-De LinkedIn-notitiehistorie is beschikbaar met toegang op contractniveau met LinkedIn Recruiter. Als het is ingeschakeld, kunt u de notities weergeven die zijn vastgelegd over de kandidaat door verschillende wervers uit uw organisatie.
+De historie van LinkedIn-notities is beschikbaar met toegang op contractniveau met LinkedIn Recruiter. Als het is ingeschakeld, kunt u de notities weergeven die zijn vastgelegd over de kandidaat door verschillende wervers uit uw organisatie.
 
 Als u notitiehistorie wilt weergeven, gaat u naar het profiel van een kandidaat, gaat u naar het tabblad **LinkedIn** en schuift u naar de onderzijde van de pagina om de historie weer te geven. U kunt alle notities over de kandidaat weergeven vanuit LinkedIn Recruiter.
 

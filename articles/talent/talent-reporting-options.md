@@ -1,7 +1,7 @@
 ---
 title: Rapportageopties in Talent
 description: In dit onderwerp wordt uitgelegd hoe u het probleem oplost waarbij een klant Dynamics 365 for Talent-rapporten wil aanpassen of nieuwe rapporten wil maken.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 2007e6adec7255b0b3abda7490c2103a8583393f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7e00a6e4fc01f72e1ef2347e08754997135215ed
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303950"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950054"
 ---
 # <a name="reporting-options-in-talent"></a>Rapportageopties in Talent
 
@@ -42,10 +42,10 @@ De gebruiker kan de ingesloten Microsoft Power BI-rapporten niet aanpassen.
 
 **Oplossing**
 
-- De Core HR-gegevens die naar Common Data Service voor Apps stromen, kunnen via de PowerApps CDS-connector naar Power BI Desktop worden gerapporteerd. Common Data Service voor Apps bevat een subset van Core HR-gegevens. Raadpleeg voor meer informatie over Power BI en dashboards [Power BI-rapporten en -dashboards maken met PowerApps Common Data Service](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi).
+- De Core HR-gegevens die naar Common Data Service stromen, kunnen via de PowerApps Common Data Service-connector aan Power BI Desktop worden gerapporteerd. Common Data Service bevat een subset van Core HR-gegevens. Raadpleeg voor meer informatie over Power BI en dashboards [Power BI-rapporten en -dashboards maken met PowerApps Common Data Service](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi).
 - Elektronische rapportage (ER) is beschikbaar voor sommige rapporten in Talent. Door de klant gestuurde aanpassingen kunnen worden uitgevoerd via de ER-configuratieopties.
 - Gegevens kunnen worden geëxporteerd naar Microsoft Excel of Microsoft Word met behulp van de verschillende gegevensentiteiten die Talent biedt dankzij de integratie met Microsoft Office.
 
 **Langetermijnoplossing**
 
-Er worden meer Power BI-opties beschikbaar en meer gegevens en entiteiten worden opgenomen in Common Data Service voor Apps.
+Er worden meer Power BI-opties beschikbaar en meer gegevens en entiteiten worden opgenomen in Common Data Service.

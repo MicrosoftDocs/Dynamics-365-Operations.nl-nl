@@ -3,7 +3,7 @@ title: Werkitems in een workflow delegeren
 description: Als u gedurende niet op kantoor aanwezig zult zijn of als u niet beschikbaar bent om werkitems op te volgen, kunt u uw werkitems aan andere gebruikers delegeren of toewijzen.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,25 +16,26 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346244"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "976776"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Werkitems in een workflow delegeren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Als u gedurende niet op kantoor aanwezig zult zijn of als u niet beschikbaar bent om werkitems op te volgen, kunt u uw werkitems aan andere gebruikers delegeren of toewijzen. Door middel van deze procedure kunt u het systeem zo configureren dat uw werkitems automatisch aan een andere gebruiker worden gedelegeerd.
+## <a name="manually-delegate-a-work-item"></a>Een werkitem handmatig delegeren
 
+Als u een afzonderlijk werkitem wilt delegeren, selecteert u de optie **Delegeren** in het menu **Workflow** en voert u vervolgens de gebruiker in die moet worden gedelegeerd samen met een opmerking. Hiermee wordt het werkitem aan die gebruiker opnieuw toegewezen zodat het kan worden voltooid.
 
+## <a name="automatically-delegate-work-items"></a>Werkitems automatisch delegeren
 
-Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+Als u van plan bent om buiten kantoor te zijn of anderszins niet beschikbaar bent om aan werkitems te werken voor een bepaalde periode, kunt u nieuwe werkitems automatisch delegeren aan andere gebruikers met de pagina **Gebruikersopties**.
 
-
-## <a name="set-up-automatic-delegation"></a>Automatisch delegeren instellen
+### <a name="set-up-automatic-delegation"></a>Automatisch delegeren instellen
 1. Ga naar de Algemeen > Instellingen > Gebruikersopties.
 2. Klik op het tabblad Workflow.
     * Controleer of de sectie Delegatie is uitgevouwen.    Om het systeem te configureren om uw werkitems automatisch te delegeren aan andere gebruikers, moet u delegatieregels maken die opgeven wanneer bepaalde typen werkitems worden gedelegeerd. Volg deze stappen om een delegatieregel te maken.  

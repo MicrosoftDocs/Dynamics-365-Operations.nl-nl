@@ -1,30 +1,30 @@
 ---
 title: Functies maken, goedkeuren en boeken in Attract
 description: Dit onderwerp beschrijft de elementen van een functie in Attract. Ook wordt uitgelegd hoe u een functie maakt.
-author: josaw
+author: hasrivas
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
-ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
+ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "772806"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969344"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Functies maken, goedkeuren en boeken in Attract
 
@@ -44,7 +44,7 @@ Het tabblad **Functiedetails** bevat details over de verantwoordelijkheden en ke
 
 Standaard is het veld **Aantal personen** ingesteld op **1**. U kunt de waarde echter wijzigen. Wanneer een aanbieding is voorbereid voor een functie, wordt de waarde van het veld **Aantal personen** verlaagd.
 
-Als positiebeheer is ingeschakeld in het beheercentrum, is de zoekopdracht **Posities bijwerken** beschikbaar. Met deze zoekactie wordt de entiteit JobPosition in Common Data Service voor Apps gelezen en wordt een lijst geretourneerd met posities die kunnen worden geselecteerd voor de functie. Als het aantal posities dat u selecteert, het aantal vacatures overschrijdt, ontvangt u een waarschuwing. U krijgt ook een waarschuwing als een positie wordt gebruikt in meerdere functies.
+Als positiebeheer is ingeschakeld in het beheercentrum, is de zoekopdracht **Posities bijwerken** beschikbaar. Met deze zoekopdracht wordt de entiteit JobPosition in Common Data Service gelezen en wordt een lijst geretourneerd met posities die kunnen worden geselecteerd voor de functie. Als het aantal posities dat u selecteert, het aantal vacatures overschrijdt, ontvangt u een waarschuwing. U krijgt ook een waarschuwing als een positie wordt gebruikt in meerdere functies.
 
 > [!NOTE]
 > Positiebeheer is beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen.
@@ -74,9 +74,7 @@ Zie voor meer informatie over activiteiten die kunnen worden toegevoegd aan het 
 
 ## <a name="postings"></a>Boekingen
 
-Nadat een functie is geactiveerd, kan deze worden geplaatst. Alleen wervers en beheerders kunnen functies plaatsen. De functie kan worden geplaatst op Talent Loopbanen (een Microsoft Dynamics 365 for Talent-vacaturesite) of LinkedIn. 
-
-Het Attract-team werkt voortdurend aan partnerschappen met functiebordproviders. Deze lijst wordt in de loop van de tijd uitgebreid.
+Nadat een functie is geactiveerd, kan deze worden geplaatst. Alleen wervers en beheerders kunnen functies plaatsen. De functie kan worden geplaatst op Talent Loopbanen (een Microsoft Dynamics 365 for Talent-vacaturesite) of LinkedIn. Het Attract-team werkt voortdurend aan partnerschappen met functiebordproviders. Deze lijst wordt in de loop van de tijd uitgebreid. Wanneer een functie als alleen intern wordt gepubliceerd, moeten kandidaten een AAD-account hebben om de functie te bekijken en erop te solliciteren. Als de functie als openbaar wordt weergegeven, kunnen de kandidaten functies bekijken en erop solliciteren met alle verificatieopties. 
 
 Zie voor meer informatie over vacatures [Carrièresitefunctionaliteit in Attract](career-site.md).
 
@@ -137,9 +135,14 @@ Nadat een functie is opgeslagen, kan deze ter goedkeuring worden ingediend. De v
 
 In de functielijst kunt u filteren op de status van de functie.
 
-Goedkeuringen kunnen worden verzonden naar elke Microsoft Azure Active Directory-gebruiker (Azure AD) in het bedrijf. De goedkeuringen worden parallel verzonden naar alle personen die zijn vermeld als fiatteurs. Nadat een functie is goedgekeurd, kan deze worden geactiveerd.
+Goedkeuringen kunnen worden verzonden naar elke Microsoft Azure Active Directory-gebruiker (Azure AD) in het bedrijf. De goedkeuringen worden parallel verzonden naar alle personen die zijn vermeld als fiatteurs. Alle fiatteurs moeten de functie goedkeuren voordat er verder mee kan worden gegaan. Als één fiatteur de functie afwijst, wordt de functie weergegeven met de status **Afgewezen**. Nadat een functie is goedgekeurd, kan deze worden geactiveerd.
 
-De mensen die worden vermeld als fiatteurs, ontvangen een melding in Attract om hen te informeren dat er een item moet worden goedgekeurd. Er wordt ook een goedkeuringsitem weergegeven in de sectie **Aan u toegewezen** op het dashboard. Nadat iemand een functie accepteert of goedkeurt, ontvangt het aanstellend team een melding. Ten slotte ontvangt het aanstellend team een melding wanneer de functie is goedgekeurd.
+Als een gebruiker de functie bewerkt nadat deze is goedgekeurd, maar niet geactiveerd, wordt de functiestatus teruggezet op **Concept** en moet de functie opnieuw ter goedkeuring worden ingediend. Nadat een goedgekeurde functie is geactiveerd, kunt u deze niet bewerken.
+
+De personen die worden vermeld als fiatteurs, ontvangen een melding in Attract en een e-mail om hen te informeren dat er een item is dat moet worden goedgekeurd.  In de e-mail kunnen de fiatteurs op de koppeling klikken om de functie te openen, de details te bekijken en de functie goed te keuren of af te wijzen. Nadat de status van de functie is ingesteld op **Goedgekeurd** of **Afgewezen**, wordt de indiener op de hoogte gebracht in Attract en ontvangt deze persoon een e-mailbericht. De fiatteurs ontvangen ook een e-mail ter herinnering als ze niet op de aanvraag tot goedkeuring hebben geantwoord binnen 24 uur.
+
+> [!NOTE]
+> U kunt aangepaste e-mailsjablonen voor goedkeuringse-mails maken. Zie voor meer informatie [E-mailsjablonen maken en beheren](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Een taak maken
 

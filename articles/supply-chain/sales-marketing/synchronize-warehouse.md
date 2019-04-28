@@ -3,7 +3,7 @@ title: Magazijnen vanuit Finance and Operations synchroniseren naar Field Servic
 description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt om magazijnen van Microsoft Dynamics 365 for Finance and Operations te synchroniseren met Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 34cd18a18715d12d4002e6dbeee047467ed2a5ad
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7e6d7626c00b9d7d98ce872652653c36ce7bc975
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340310"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842528"
 ---
 # <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Magazijnen van Finance and Operations synchroniseren met Field Service
 
@@ -38,7 +38,7 @@ In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden
 De volgende sjabloon en onderliggende taken worden gebruikt om magazijnen te synchroniseren van Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Field Service.
 
 **Sjabloontoewijzing in Gegevensintegratie**
-- Magazijnen (Finance and Operations naar Field Service)
+- Magazijnen (Fin and Ops naar Field Service)
 
 **Taak in het project Gegevensintegratie**
 - Magazijn
@@ -76,6 +76,6 @@ Om te controleren of de **Integratiesleutel** aanwezig is voor **msdyn_warehouse
 
 In de volgende afbeelding ziet u de sjabloontoewijzing in Gegevensintegratie.
 
-### <a name="warehouses-finance-and-operations-to-field-service-warehouse"></a>Magazijnen (Finance and Operations naar Field Service): Magazijn
+### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Magazijnen (Fin and Ops naar Field Service): Magazijn
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/Warehouse1.png)](./media/Warehouse1.png)

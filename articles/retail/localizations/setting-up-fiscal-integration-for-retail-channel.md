@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773322"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "898972"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Fiscale integratie voor detailhandelskanalen instellen
 
@@ -60,7 +60,7 @@ Voordat u de functionaliteit voor fiscale integratie gebruikt, moet u de volgend
 2. Upload configuraties van fiscale connectors en fiscale documentproviders.
 
     Een fiscale documentprovider is verantwoordelijk voor het genereren van belastingdocumenten die staan voor detailhandeltransacties en -gebeurtenissen die zijn geregistreerd in het POS in een indeling die ook wordt gebruikt voor de interactie met een fiscaal apparaat of een fiscale service. Een fiscale documentprovider kan bijvoorbeeld een voorstelling van een fiscaal ontvangstbewijs genereren in een XML-indeling.
-    
+
     Een fiscale connector is verantwoordelijk voor de communicatie met een fiscaal apparaat of een fiscale service. Een fiscale connector kan bijvoorbeeld een ontvangstbewijs dat een fiscale documentprovider in een XML-indeling heeft gemaakt, verzenden naar een fiscale printer. Zie voor meer informatie over fiscale integratieonderdelen [Fiscaal registratieproces en fiscale integratievoorbeelden voor fiscale apparaten](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
     1. Upload op de pagina **Fiscale connectors** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale connectors**) een XML-configuratie voor elk apparaat of elke service die u wilt gebruiken voor fiscale integratiedoeleinden.
@@ -150,7 +150,7 @@ Voordat u de functionaliteit voor fiscale integratie gebruikt, moet u de volgend
     - Nadat u wijzigingen in een bestaand fiscaal registratieproces hebt aangebracht en als deze wijzigingen ertoe kunnen leiden dat tijdens runtime een andere fiscale connector wordt geselecteerd (bijvoorbeeld als u de connectorgroep voor een stap in het fiscale registratieproces wijzigt, een functioneel connectorprofiel inschakelt in een connectorgroep of een nieuw functioneel connectorprofiel toevoegt aan een connectorgroep).
     - Nadat u wijzigingen hebt aangebracht in de toewijzing van technische connectorprofielen aan hardwareprofielen.
 
-8. Voer op pagina **Distributionplanner** de taken **1070** en **1090** uit om gegevens over te brengen naar de afzetkanaaldatabase.
+8. Voer op de pagina **Distributieplanning** de taken **1070** en **1090** uit om gegevens over te brengen naar de afzetkanaaldatabase.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Fiscale teksten voor kortingen instellen
 
@@ -185,8 +185,12 @@ De opties voor de afhandeling van fouten die beschikbaar in de fiscale integrati
 
     - **Overslaan toestaan**: deze parameter maakt de optie **Overslaan** beschikbaar in het dialoogvenster voor foutafhandeling.
     - **Markeren als geregistreerd toestaan**: deze parameter maakt de optie **Markeren als geregistreerd** beschikbaar in het dialoogvenster voor foutafhandeling.
+    - **Doorgaan bij fout** : als deze parameter is ingeschakeld, kan het proces voor fiscale registratie worden voortgezet op de POS-kassa als de fiscale registratie van een transactie of gebeurtenis mislukt. Anders moer, als u de fiscale registratie van de volgende transactie of gebeurtenis wilt uitvoeren, de operator de mislukte fiscale registratie opnieuw proberen, deze overslaan of de transactie of gebeurtenis markeren als geregistreerd. Zie voor meer informatie [Optionele fiscale registratie](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
-2. De opties **Overslaan** en **Markeren als geregistreerd** in het dialoogvenster voor foutafhandeling vereisen de machtiging **Overslaan of markeren als geregistreerd toestaan**. Schakel daarom op de pagina **Machtigingsgroepen** (**Detailhandel \> Werknemers \> Machtigingsgroepen**) de machtiging **Overslaan of markeren als geregistreerd toestaan** in.
+    > [!NOTE]
+    > Als de parameter **Doorgaan bij fout** is ingeschakeld, worden de parameters **Overslaan toestaan** en **Markeren als geregistreerd toestaan** automatisch uitgeschakeld.
+
+2. De opties **Overslaan** en **Markeren als geregistreerd** in het dialoogvenster voor foutafhandeling vereisen de machtiging **Overslaan van registratie of markeren als geregistreerd toestaan**. Schakel daarom op de pagina **Machtigingsgroepen** (**Detailhandel \> Werknemers \> Machtigingsgroepen**) de machtiging **Overslaan van registratie of markeren als geregistreerd toestaan** in.
 3. Met de opties **Overslaan** en **Markeren als geregistreerd** kunnen operators extra informatie invoeren wanneer de fiscale registratie mislukt. Als u deze functionaliteit beschikbaar wilt maken, moet u de infocodes **Overslaan** en **Markeren als geregistreerd** opgeven in een fiscale connectorgroep. De gegevens die operators invoeren, worden vervolgens opgeslagen als een infocodetransactie die is gekoppeld aan de fiscale transactie. Zie voor meer informatie over infocodes [Informatiecodes en informatiecodegroepen](../info-codes-retail.md).
 
     > [!NOTE]
@@ -200,6 +204,8 @@ De opties voor de afhandeling van fouten die beschikbaar in de fiscale integrati
     > - **Fiscaal document**: een verplicht document dat met succes moet worden geregistreerd (bijvoorbeeld een fiscaal ontvangstbewijs).
     > - **Niet-fiscaal document**: een aanvullend document voor de transactie of gebeurtenis (bijvoorbeeld een cadeaukaartstrook).
 
+4. Als de operator moet kunnen doorgaan met het verwerken van de huidige bewerking (bijvoorbeeld een transactie maken of voltooien) nadat een statuscontrolefout is opgetreden, moet u de machtiging **Overslaan van statuscontrolefout toestaan** op de pagina **Machtigingsgroepen** (**Detailhandel \> Werknemers \> Machtigingsgroepen**) inschakelen. Zie voor meer informatie over de statuscontroleprocedure [Statuscontrole fiscale registratie](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Fiscale X/Z-rapporten instellen vanaf het POS
 
 Als u fiscale X/Z-rapporten wilt inschakelen om te worden uitgevoerd vanaf het POS, moet u nieuwe knoppen toevoegen aan een POS-indeling.
@@ -211,3 +217,12 @@ Als u fiscale X/Z-rapporten wilt inschakelen om te worden uitgevoerd vanaf het P
     3. Voeg een nieuwe knop toe en stel de knopeigenschap **Fiscale Z afdrukken** in.
     4. Voer op de pagina **Distributionplanner** de taak **1090** uit om wijzigingen over te brengen naar de afzetkanaaldatabase.
 
+## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Handmatige uitvoering van uitgestelde fiscale registratie inschakelen
+
+Als u een handmatige uitvoering van een uitgestelde fiscale registratie wilt inschakelen, moet u een nieuwe knop toevoegen aan een POS-indeling.
+
+- Volg op de pagina **Knoppenrasters** de instructies in [Een aangepaste bewerkingsknop toevoegen aan de POS-indeling in Retail Headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) om de ontwerper te installeren en een POS-indeling bij te werken.
+
+    1. Selecteer de bij te werken indeling.
+    2. Voeg een nieuwe knop toe en stel de knopeigenschap **Fiscale registratie voltooien** in.
+    3. Voer op de pagina **Distributieplanning** de taak **1090** uit om uw wijzigingen over te brengen naar de afzetkanaaldatabase.

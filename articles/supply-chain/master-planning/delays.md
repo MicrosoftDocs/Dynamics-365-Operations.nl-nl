@@ -1,9 +1,9 @@
 ---
 title: Vertragingen
-description: Dit artikel geeft informatie over vertragingsdatums in de hoofdplanning. Een vertragingsdatum is een realistische vervaldatum waarop een transactie wordt ontvangen als de eerste afhandelingsdatum die de hoofdplanning plant, later is dan de aangevraagde datum.
+description: Dit onderwerp geeft informatie over vertragingsdatums in de hoofdplanning. Een vertragingsdatum is een realistische vervaldatum waarop een transactie wordt ontvangen als de eerste afhandelingsdatum die de hoofdplanning plant, later is dan de aangevraagde datum.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a87b19732f413aa2844101f76dea83535da86599
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7c26fedf15118a304469604527c33a25871356be
+ms.sourcegitcommit: 8eac5eee94bb32143df44c82a2dfdbe903967af8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359607"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "878305"
 ---
 # <a name="delays"></a>Vertragingen
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel geeft informatie over vertragingsdatums in de hoofdplanning. Een vertragingsdatum is een realistische vervaldatum waarop een transactie wordt ontvangen als de eerste afhandelingsdatum die de hoofdplanning plant, later is dan de aangevraagde datum.
+Dit onderwerp geeft informatie over vertragingsdatums in de hoofdplanning. Een vertragingsdatum is een realistische vervaldatum waarop een transactie wordt ontvangen als de eerste afhandelingsdatum die de hoofdplanning plant, later is dan de aangevraagde datum.
 
 Hoofdplanning kan de vroegste afrondingsdatum voor een transactie berekenen, op basis van levertijden, materiaalbeschikbaarheid, capaciteitsbeschikbaarheid en verschillende planningsparameters. 
 
@@ -42,12 +42,13 @@ U kunt instellen hoe de vertragingen worden berekend voor een behoefteplanningsg
 
 Op de pagina **Parameters hoofdplanning** kunt u de begintijd instellen voor de berekening van vertragingen. Als een order na deze tijd wordt uitgevoerd, wordt aan de vertraagde datum van de order een vertraging van één dag toegevoegd. 
 
-**Opmerking:** in eerdere versies stonden berekende vertragingen bekend als *vertragingsberichten*, werd de vertraagde datum *vertragingsdatum* genoemd en werd naar een vertraagde transactie verwezen als *een transactie die in de toekomst is ingesteld*.
+> [!OPMERKING}: in eerdere versies stonden berekende vertragingen bekend als *vertragingsberichten*, werd de vertraagde datum *vertragingsdatum* genoemd en werd naar een vertraagde transactie verwezen als *een transactie die in de toekomst is ingesteld*.
 
-<a name="additional-resources"></a>Aanvullende resources
+## <a name="desired-date"></a>Gewenste datum
+
+Op de pagina **Geplande order** onder het tabblad **Vertragingen** staat de **Gewenste datum** voor de geplande order. De gewenste datum van een geplande order is de basisdatum voor vertragingen. Dit is een berekende datum die gelijk is aan de **Gevraagde datum** die is berekend op basis van de **Nettobehoefte**. Als de geplande order een stuklijstregel, productieregel of kanbanregel is, wordt de gewenste datum gebaseerd op de **Behoeftedatum** en wordt de gewenste datum niet weergegeven op de pagina **Geplande order**.
+
+<a name="additional-resources"></a>Aanvullende bronnen
 --------
 
 [Behoefteplanningsinstellingen](coverage-settings.md)
-
-
-

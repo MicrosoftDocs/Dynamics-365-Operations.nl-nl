@@ -3,7 +3,7 @@ title: Verwijderde of verouderde functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 03/12/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836343"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992878"
 ---
 # <a name="removed-or-deprecated-features"></a>Verwijderde of afgeschafte functies
 
@@ -41,45 +41,114 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 > [!NOTE]
 > Gedetailleerde informatie over objecte in Finance and Operations is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations.
 
+
+## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 met platformupdate 26
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.2 met platformupdate 26 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-default-action-behavior"></a>Oud standaardgedrag voor acties
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Het oude gedrag van standaardacties in rasters resulteert in een onverwachte kolom waarbij de standaardactiekoppeling na rasterkolommen opnieuw zijn geordend via aanpassing. Met de nieuwe standaardplakactiefunctie wordt dit gecorrigeerd. Zie voor meer informatie [Standaardplakacties in rasters](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Vervangen door een andere functie?**   | Vanaf platformupdate 21 is een functie voor 'standaardplakacties' geïntroduceerd. Deze functie kan worden ingeschakeld op de pagina **Prestatieopties van client**. |
+| **Betrokken productgebieden**         | Rasters in de webclient |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: in april 2020 vormen standaardplakacties het standaardgedrag zonder een mechanisme om terug te keren naar het oude gedrag. |
+
+### <a name="legacy-is-one-of-filtering-experience"></a>Oud is de filterervaring "is één van"
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Op de filterervaring "is één van" is een nieuw ontwerp in platformupdate 22 toegepast, met het plan dat dit ontwerp uiteindelijk de enige filterervaring "is één van" zou worden. |
+| **Vervangen door een andere functie?**   | Vanaf platformupdate 22 is een verbeterde filterervaring "is één van" beschikbaar geworden op de pagina **Prestatieopties van client**. Zie [Geoptimaliseerde filterervaring "is één van"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering) voor meer informatie. |
+| **Betrokken productgebieden**         | Webclient |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: vanaf april 2020 wordt de verbeterde filterervaring "is één van" het standaardgedrag zonder een mechanisme om terug te keren naar het oude gedrag. |
+
+### <a name="deriving-from-internal-classes-is-deprecated"></a>Afleiden van interne klassen is afgeschaft
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Vóór platformupdate 25 was het mogelijk om een klasse of tabel te maken die was afgeleid van een interne klasse/tabel die was gedefinieerd in een ander pakket of een andere module. Dit is geen veilige codering. Vanaf platformupdate 25 geeft de compiler een waarschuwing weer. |
+| **Vervangen door een andere functie?**   | De compilerwaarschuwing wordt vervangen door een fout in platformupdate 26. Deze wijziging is achterwaarts compatibel tijdens runtime, wat betekent dat als u platformupdate 25 of nieuwer uitvoert, deze wijziging kan worden geïmplementeerd in een willekeurige sandbox- of productieomgeving zonder dat u aangepaste code hoeft te wijzigen. Deze wijziging is alleen van invloed op ontwikkel- en compilatietijd.|
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in platformupdate 26. |
+
+### <a name="overriding-internal-methods-is-deprecated"></a>Overschrijven van interne methoden is afgeschaft
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Vóór platformupdate 25 was het mogelijk om een interne methode te overschrijven in een afgeleide klasse die was gedefinieerd in een ander pakket of een andere module. Dit is geen veilige codering. Vanaf platformupdate 25 geeft de compiler een waarschuwing weer. |
+| **Vervangen door een andere functie?**   | Deze compilerwaarschuwing wordt vervangen door een compilerfout in platformupdate 26. Deze wijziging is achterwaarts compatibel tijdens runtime, wat betekent dat als u platformupdate 25 of nieuwer uitvoert, deze wijziging kan worden geïmplementeerd in een willekeurige sandbox- of productieomgeving zonder dat u aangepaste code hoeft te wijzigen. Deze wijziging is alleen van invloed op ontwikkel- en compilatietijd. |
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in platformupdate 26. |
+
+### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parameter om verkooporders met meerdere financieringsbronnen van projectcontracten in te schakelen
+Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het projectcontract meerdere financieringsbronnen heeft, is ingeschakeld met de **Parameters voor projectbeheer**-instelling **Verkooporders voor projecten met meerdere financieringsbronnen toestaan**. Deze parameter is standaard niet ingeschakeld. 
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De functionaliteit wordt altijd ingeschakeld nadat de parameter is verwijderd. |
+| **Vervangen door een andere functie?**   | Nr. De functionaliteit om projectgebaseerde verkooporders met meerdere financieringsbronnen te ondersteunen, wordt altijd ingeschakeld.   |
+| **Betrokken productgebieden**         |De parameter **Verkooporders voor projecten met meerdere financieringsbronnen** wordt verwijderd. De volgende methoden worden gewijzigd wanneer de parameter wordt verwijderd: de methode **ctrlSalesOrderTable** in de klasse **ProjStatusType**, de methode **validate** voor het veld **ProjId** en de methode **run** in het formulier **SalescreateOrder**. De volgende methoden worden afgeschaft wanneer de parameter wordt verwijderd: **IsSalesOrderAllowedForMultipleFundingSources** in tabelbestand **ProjTable**, de methode **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** in tabelbestand **ProjTable**, het gegevensveld **AllowSalesOrdersForMultipleFundingSources** in het formulier **ProjParameters** en **ProjParameterEntity**-bestanden, de persoonlijke methode **IsAssociatedToMultipleFundingSourcesContract** in het tabelbestand**ProjTable**. |
+| **Implementatieoptie**              | Alle  |
+| **Status**                         | Afschaffinf is gepland voor rijving is voor de releasewave van april 2020. |
+
+### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>Oude workflowrapporten voor status van tracering en exemplaar
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De oude workflowrapporten voor tracerings- en exemplaarstatus worden afgeschaft omdat er niet meer naar wordt verwezen via de navigatie. De rapportnamen zijn WorkflowWorkflowInstanceByStatusReport en WorkflowWorkflowTrackingReport. |
+| **Vervangen door een andere functie?**   | Het workflowhistorieformulier kan in plaats daarvan worden gebruikt. |
+| **Betrokken productgebieden**         | Webclient |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor april 2020. |
+
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 met platformupdate 25
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 met platformupdate 25 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Standaard- en First Release-serviceupdates](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> Dynamics 365 for Finance and Operations 10.0.1 met platformupdate 25 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Afgeschafte API's en potentiële ingrijpende wijzigingen
+
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Afleiden van interne klassen is afgeschaft
 
 |   |  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | In eerdere versies dan platformupdate 25 was het mogelijk om een klasse of tabel te maken die was afgeleid van een interne klasse/tabel die was gedefinieerd in een ander pakket of een andere module. Dit is geen veilige codering. Vanaf platformupdate 25 geeft de compiler een waarschuwingsbericht weer als u dit probeert te doen.|
-| **Vervangen door een andere functie?**   | De compilerwaarschuwing wordt vervangen door een fout in een toekomstige platformupdate. Deze wijziging is achterwaarts compatibel tijdens runtime, wat betekent dat als u platformupdate 25 of hoger uitvoert, deze wijziging kan worden geïmplementeerd in een willekeurige sandbox- of productieomgeving zonder dat u aangepaste code hoeft te wijzigen. Deze wijziging is alleen van invloed op ontwikkel- en compilatietijd. |
-| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's. |
+| **Reden voor afschaffing/verwijdering** | Vóór platformupdate 25 was het mogelijk om een klasse of tabel te maken die was afgeleid van een interne klasse/tabel die was gedefinieerd in een ander pakket of een andere module. Dit is geen veilige codering. Vanaf platformupdate 25 geeft de compiler een waarschuwing weer. |
+| **Vervangen door een andere functie?**   | De compilerwaarschuwing wordt vervangen door een fout in platformupdate 26. Deze wijziging is achterwaarts compatibel tijdens runtime, wat betekent dat als u platformupdate 25 of nieuwer uitvoert, deze wijziging kan worden geïmplementeerd in een willekeurige sandbox- of productieomgeving zonder dat u aangepaste code hoeft te wijzigen. Deze wijziging is alleen van invloed op ontwikkel- en compilatietijd.|
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in een toekomstige platformupdate. |
+| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in platformupdate 26. |
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Overschrijven van interne methoden is afgeschaft
 
 |   |  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | In eerdere versies dan platformupdate 25 was het mogelijk om een interne methode te overschrijven in een afgeleide klasse die was gedefinieerd in een ander pakket of een andere module. Dit is geen veilige codering. Vanaf platformupdate 25 geeft de compiler een waarschuwingsbericht weer als u dit probeert te doen.|
-| **Vervangen door een andere functie?**   | Deze waarschuwing wordt in een toekomstige platformupdate vervangen door een compilatiefout. Deze wijziging is achterwaarts compatibel tijdens runtime, wat betekent dat als u platformupdate 25 of hoger uitvoert, deze wijziging kan worden geïmplementeerd in een willekeurige sandbox- of productieomgeving zonder dat u aangepaste code hoeft te wijzigen. Deze wijziging is alleen van invloed op ontwikkel- en compilatietijd. |
-| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's. |
+| **Reden voor afschaffing/verwijdering** | Vóór platformupdate 25 was het mogelijk om een interne methode te overschrijven in een afgeleide klasse die was gedefinieerd in een ander pakket of een andere module. Dit is geen veilige codering. Vanaf platformupdate 25 geeft de compiler een waarschuwing weer. |
+| **Vervangen door een andere functie?**   | Deze compilerwaarschuwing wordt vervangen door een compilerfout in platformupdate 26. Deze wijziging is achterwaarts compatibel tijdens runtime, wat betekent dat als u platformupdate 25 of nieuwer uitvoert, deze wijziging kan worden geïmplementeerd in een willekeurige sandbox- of productieomgeving zonder dat u aangepaste code hoeft te wijzigen. Deze wijziging is alleen van invloed op ontwikkel- en compilatietijd. |
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in een toekomstige platformupdate. |
+| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in platformupdate 26. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 met platformupdate 23
 
-### <a name="print-to-screen-functionality"></a>Functionaliteit Afdrukken op scherm
-Klanten kunnen de actie **Importeren** die door het besturingselement Report Viewer wordt geleverd, gebruiken om documenten te downloaden die door Finance and Operations-toepassingen zijn gemaakt. Deze op HTML gebaseerde presentatie van het rapport biedt gebruikers een voorbeeld van het document zonder pagina´s.
+### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server Reporting Services ReportViewer-besturingselement
+Klanten kunnen de actie **Exporteren** gebruiken die wordt verschaft door het SQL Server Reporting Services (SSRS) ReportViewer-besturingselement om documenten te downloaden die door Finance and Operations-toepassingen zijn gemaakt. Deze op HTML gebaseerde presentatie van het rapport biedt gebruikers een voorbeeld van het document zonder pagina´s.
 
 |   |  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Dit op HTML gebaseerde voorbeeld zonder pagina´s levert **niet** de kwaliteit van de fysieke documenten die uiteindelijk door Finance and Operations worden geleverd. Met PDF als standaardindeling voor zakelijke doeleinden kunnen we gebruikersopties voor interactie met toepassingsrapporten in hoge mate vereenvoudigen en het weergaveproces voor documenten stroomlijnen. |
+| **Reden voor afschaffing/verwijdering** | Dit op HTML gebaseerde voorbeeld zonder pagina´s levert **niet** de kwaliteit van de fysieke documenten die uiteindelijk door Finance and Operations worden geleverd. Door PDF volledig als de standaardindeling voor bedrijfsdocumenten te gebruiken, kunnen gebruikers profiteren van een moderne weergave-ervaring met betere prestaties bij het produceren van toepassingsrapporten. |
 | **Vervangen door een andere functie?**   | In de toekomst zullen PDF-documenten de standaardindeling voor rapporten worden die door Finance and Operations worden weergegeven.   |
 | **Betrokken productgebieden**         | Deze wijziging is **niet** van invloed op klantscenario's waarin rapporten elektronisch worden verspreid of rechtstreeks naar printers worden verzonden.    |
 | **Implementatieoptie**              | Alle  |
-| **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie. De functie om toepassingsrapporten automatisch naar de browser als PDF-documenten te downloaden is gepland voor de platformupdate van mei 2019. <br><br>**Belangrijk:** bestaande klanten die de functie Afdrukken op scherm moeten gebruiken, wordt aangeraden om [Ondersteuning](../lifecycle-services/lcs-support.md) op de hoogte te brengen voordat ze een upgrade naar platformupdate 26 uitvoeren. |
+| **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie. De functionaliteit om van toepassingsrapporten automatisch een voorbeeld te bekijken met een ingesloten PDF-viewer is gepland voor de platformupdate van mei 2019. |
 
 ### <a name="client-kpi-controls"></a>Client-KPI-besturingselementen
 Ingesloten prestatie-indicatoren (KPI's) kunnen worden gemodelleerd in Visual Studio door een ontwikkelaar en verder worden aangepast door de eindgebruiker.
@@ -110,7 +179,7 @@ Raadpleeg voor toegang tot de volledige lijst met API's [Afschaffing van methode
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 met platformupdate 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Batchoverboekingsregels voor journaalregels in subadministratie
-De modus voor synchrone overdracht wordt afgeschaft in de grootboekparameters.  Deze modus wordt vervangen door asynchrone overdrachten en geplande batches, die al bestaan als overdrachtopties. 
+De modus voor synchrone overdracht wordt afgeschaft in de grootboekparameters.  Deze modus wordt vervangen door asynchrone overdrachten en geplande batches, die al bestaan als overdrachtopties. Zie voor meer informatie het blog [Grootboekparameters: regels voor batchoverboeking](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
 
 |   |  |
 |------------|--------------------|
@@ -172,7 +241,7 @@ Er zijn geen onderdelen verwijderd of vervangen in deze versie. Platformupdate 1
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise edition 7.3 met platformupdate 12
 
 ### <a name="personalized-product-recommendations"></a>Gepersonaliseerde productaanbevelingen 
-Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie [Persoonlijke productaanbevelingen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations) voor meer informatie.  
+Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie [Persoonlijke productaanbevelingen](../../retail/personalized-product-recommendations.md) voor meer informatie.  
 
 |   |  |
 |------------|--------------------|
@@ -277,7 +346,7 @@ Gebruikers kunnen dit certificaat downloaden vanuit de overheidsportal.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Gepersonaliseerde productaanbevelingen 
-Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie [Persoonlijke productaanbevelingen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations) voor meer informatie.  
+Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie [Persoonlijke productaanbevelingen](../../retail/personalized-product-recommendations.md) voor meer informatie.  
 
 |   |  |
 |------------|--------------------|
@@ -309,7 +378,7 @@ Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onde
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Dubbele functionaliteit.       |
-| **Vervangen door een andere functie?**   | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie voor meer informatie over instellingen en vereisten, [installeren en configureren van Microsoft Dynamics 365 for Finance and Operations - magazijnbeheer](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Vervangen door een andere functie?**   | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie voor meer informatie over instellingen en vereisten, [installeren en configureren van Microsoft Dynamics 365 for Finance and Operations - magazijnbeheer](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Betrokken productgebieden**         | Magazijnbeheer, Transportbeheer     |
 | **Implementatieoptie**              | Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onderdeel dat is bedoeld voor on-premises zelfimplementatie.               |
 | **Status**                         | Afgeschaft: doeltijd voor verwijdering van de functionaliteit is kwartaal 4 van 2019.   |
@@ -687,6 +756,17 @@ In Application Integration Framework (AIF) kunnen gegevens worden uitgewisseld m
 | **Vervangen door een andere functie?**   | Deze functie is vervangen door het raamwerk voor gegevensimport/-export, dat herhalende bulkimport/-export ondersteunt. Voor AxBC is het raadzaam om de werkelijke tabellen te gebruiken. |
 | **Betrokken productgebieden**         | AxDs, AxBCs en AIF   |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.   |
+
+### <a name="billing-code-rate-scripts"></a>Wisselkoersscripts voor factureringscode
+
+Factureringsscripts werden gebruikt voor het berekenen van factureringstarieven voor factureringscodes. Voor deze scripts was een aangepaste ontwikkeling vereist in de programmeertaal C Sharp of Visual Basic. In de huidige versie van Dynamics AX worden de **wisselkoersscripts voor factureringscode** niet ondersteund.
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De ondersteuning voor de aangepaste C Sharp- of Visual Basic-scripts is niet toegevoegd in Dynamics AX 7.0. |
+| **Vervangen door een andere functie?**   | Nee                                                                                      |
+| **Betrokken productgebieden**         | Publieke sector, Klanten                                    |
+| **Status**                         | Verwijderd sinds Dynamics AX 7.0.                                                          |
 
 ### <a name="boms-without-bom-versions"></a>Stuklijsten zonder stuklijstversies
 
@@ -1068,7 +1148,7 @@ Product Builder werd gebruikt om dynamisch items te configureren vanuit een verk
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Product Builder liet gebruikers X++-code zien en wordt niet ondersteund in de huidige versie van Dynamics AX. Het is verwijderd om dubbele onderhoudsinspanningen te voorkomen in overlappende codebases van aanzienlijke omvang.  |
-| **Vervangen door een andere functie?**   | Ja. De op beperkingen gebaseerde configuratie werd geïntroduceerd in Dynamics AX 2012, waarin al werd aangekondigd dat Product Builder in toekomstige versies zou worden afgeschaft. De op beperkingen gebaseerde configuratie wordt geselecteerd in productmodellen om de configuratie mogelijk te maken. Zie voor meer informatie [Een productconfiguratiemodel opstellen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
+| **Vervangen door een andere functie?**   | Ja. De op beperkingen gebaseerde configuratie werd geïntroduceerd in Dynamics AX 2012, waarin al werd aangekondigd dat Product Builder in toekomstige versies zou worden afgeschaft. De op beperkingen gebaseerde configuratie wordt geselecteerd in productmodellen om de configuratie mogelijk te maken. Zie voor meer informatie [Een productconfiguratiemodel opstellen](../../supply-chain/pim/build-product-configuration-model.md). |
 | **Betrokken productgebieden**         | Productiegegevensbeheer, Verkoop en marketing  |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.      |
 

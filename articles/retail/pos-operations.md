@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353811"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842717"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -93,7 +93,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 614 | Klantorder bewerken | De geselecteerde order intrekken zodat deze kan worden gewijzigd in het POS. | Nee | Nee | Nee | Nee | Nee |
 | 615 | Offerte bewerken | De geselecteerde offerte intrekken zodat deze kan worden gewijzigd in het POS. | Nee | Nee | Nee | Nee | Nee |
 | 518 | Uitgavenrekeningen | Het geld registreren dat voor incidentele uitgaven uit de kassalade wordt genomen. | Ja | Ja | Ja | Ja | Nee |
-| 919 | Uitgebreide aanmelding | De machtiging voor aanmelding door een streepjescode te scannen of een kaart door de lezer te halen, toewijzen of verwijderen. | Ja | Ja | Ja | Nee | Nee |
+| 919 | Uitgebreide aanmelding | De machtiging voor aanmelding door een streepjescode te scannen of een kaart door de lezer te halen, toewijzen of verwijderen. | Ja | Ja | Ja | Ja | Nee |
 | 1201 | Wisselgeldinvoer | Met deze bewerking kan de gebruiker extra geld toevoegen aan de huidige lade of ploeg. | Ja | Ja | Ja | Ja | Nee |
 | 1218 | Ontgrendelen van randapparaat forceren | Deze bewerking wordt intern door het systeem gebruikt voor het ontgrendelen van POS-randapparatuur. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 520 | Geschenkbonsaldo | Het huidige saldo van een geschenkbon weergeven. | Ja | Ja | Nee | Nee | Nee |

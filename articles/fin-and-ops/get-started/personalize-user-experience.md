@@ -3,7 +3,7 @@ title: De gebruikerservaring aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations aanpast.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363471"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975846"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations aanpast.
 
@@ -47,6 +48,8 @@ De pagina **Gebruikersopties** bevat enkele algemene instellingen voor de huidig
 - **Voorkeuren**: selecteer standaardwaarden die elke keer dat u Finance and Operations opent, worden gebruikt. Deze waarden zijn het bedrijf, de eerste pagina en de standaardmodus voor weergeven/bewerken. (De modus voor weergeven/bewerken bepaalt of een pagina is vergrendeld voor weergave of geopend voor bewerking steeds als u deze opent.) Dit tabblad bevat ook opties voor de taal, de tijdzone en de datum, tijd en getalnotatie. Ten slotte bevat dit tabblad verschillende voorkeuren die variëren van versie tot versie.
 - **Rekening:**: pas uw gebruikersnaam en andere rekeningopties aan.
 - **Werkstroom**: werkstroomgerelateerde opties selecteren.
+
+Naast het wijzigen van de gebruikersinstellingen kunt u ook uw gebruiksgegevens en persoonlijke instellingen bekijken en verwijderen door te klikken op de knop **Gebruiksgegevens**. Wanneer u de toepassing gebruikt, worden veel van uw selecties onthouden, zodat het systeem voor u de volgende keer gemakkelijker te gebruiken is. Met name op het tabblad **Aanpassing** kunt u de persoonlijke wijzigingen die u hebt aangebracht in de pagina's in het systeem weergeven en beheren. Functietoelichtingen, de pop-upvensters die u kennis laten maken met nieuwe functies in het product (beschikbaar in platformupdate 26), kunnen ook opnieuw worden ingesteld op dit tabblad zodat u opnieuw wordt gewezen op eerder gevonden functies.  
 
 ## <a name="implicit-personalizations"></a>Impliciete aanpassingen
 
@@ -160,7 +163,7 @@ Gebruiker met beheerdersbevoegdheden kunnen ook aanpassingen voor andere gebruik
 
 - **Toepassen**: u kunt een aanpassing voor een of meer gebruikers importeren of selecteren. Als u een aanpassing wilt toepassen op een of meer gebruikers, selecteert u eerst een rol en gebruikers die deze rol hebben. Vervolgens selecteert u een bestaande aanpassing om toe te passen op geselecteerde gebruikers of importeert u een aanpassingsbestand. De aanpassing wordt gevalideerd en toegepast op alle geselecteerde gebruikers. Dit wordt van kracht bij de volgende keer dat ze de geselecteerde pagina openen.
 - **Wissen**: u kunt alle aanpassingen voor een pagina of werkgebied voor een of meer gebruikers wissen. Selecteer eerst een pagina of werkruimte voor een overzicht van de gebruikers die deze hebben aangepast. Kies vervolgens de gebruikers waarvoor de aanpassingen voor die pagina moeten worden gewist en selecteer **Wissen**. Alle aanpassingen die de geselecteerde gebruikers hebben toegepast op de geselecteerde pagina of het geselecteerde werkgebied, worden verwijderd. Deze actie kan niet ongedaan worden gemaakt. Als de pagina of het werkgebied echter een opgeslagen aanpassing heeft, kan die aanpassing opnieuw worden geïmporteerd.
-- **Beheren per gebruiker**: selecteer een gebruiker voor een overzicht van pagina's die deze persoon heeft aangepast. Vervolgens kunt u opgeven of de gebruiker voor bepaalde pagina's of voor het hele systeem aanpassingen kan doorvoeren. U kunt ook een aanpassing importeren, exporteren of wissen voor de geselecteerde gebruiker.
+- **Beheren per gebruiker**: selecteer een gebruiker voor een overzicht van pagina's die de gebruiker heeft aangepast. Vervolgens kunt u opgeven of de gebruiker voor bepaalde pagina's of voor het hele systeem aanpassingen kan doorvoeren. U kunt ook een aanpassing importeren, exporteren of wissen voor de geselecteerde gebruiker. Bovendien kunt u functietoelichtingen opnieuw instellen voor de geselecteerde gebruiker, waardoor alle eerder verwijderde pop-upvensters waarin nieuwe functies werden geïntroduceerd, de volgende keer dat de gebruiker deze functies tegenkomt opnieuw worden weergegeven.   
 - **Systeem**: u kunt tijdelijk alle aanpassingen voor alle gebruikers in het systeem uitschakelen. In dit geval worden de aanpassingen verwijderd. Alle pagina's krijgen voor alle gebruikers weer de standaardstatus. Als u aanpassingen later opnieuw inschakelt, worden alle aanpassingen opnieuw toegepast. U kunt alle aanpassingen voor alle gebruikers in het systeem ook permanent verwijderen. Er is geen enkele manier om aanpassingen terug te halen die zijn verwijderd. Voordat u deze taak uitvoert, moet u er daarom voor zorgen dat u aanpassingen hebt geëxporteerd die u later mogelijk wilt.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Aanpassing van voorraaddimensies

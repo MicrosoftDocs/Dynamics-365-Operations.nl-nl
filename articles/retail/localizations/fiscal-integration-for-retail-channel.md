@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773272"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950399"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Overzicht van fiscale integratie voor detailhandelskanalen
 
@@ -81,12 +81,37 @@ Het fiscale integratieraamwerk biedt de volgende opties voor het afhandelen van 
 
 De opties **Overslaan** en **Markeren als geregistreerd** maken infocodes mogelijk om bepaalde specifieke informatie over de fout op te slaan, zoals de reden voor de fout of een uitleg van waarom de fiscale registratie is overgeslagen of de transactie als geregistreerd is gemarkeerd. Zie voor meer informatie over het instellen van parameters voor foutafhandeling [Instellingen voor het verwerken van fouten kiezen](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
+### <a name="optional-fiscal-registration"></a>Optionele fiscale registratie
+
+Fiscale registratie kan verplicht zijn voor bepaalde bewerkingen, maar optioneel voor andere bewerkingen. De fiscale registratie van normale verkopen en retouren kan bijvoorbeeld verplicht zijn, maar de fiscale registratie van bewerkingen die zijn gerelateerd aan klantdeposito´s kan optioneel zijn. In dit geval wordt verdere verkoop geblokkeerd als er geen fiscale registratie van een verkoop plaatsvindt, maar als de fiscale registratie van een klantdeposito niet wordt uitgevoerd, wordt verdere verkoop niet geblokkeerd. Om een onderscheid te maken tussen verplichte en optionele bewerkingen wordt aangeraden deze af te handelen via verschillende documentproviders en afzonderlijke stappen in het proces van fiscale registratie voor deze providers in te stellen. De parameter **Doorgaan bij fout** moet worden ingeschakeld voor elke stap die is gerelateerd aan optionele fiscale registratie. Zie voor meer informatie over het instellen van parameters voor foutafhandeling [Instellingen voor het verwerken van fouten kiezen](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
+### <a name="manually-running-fiscal-registration"></a>Fiscale registratie handmatig uitvoeren
+
+Als de fiscale registratie van een transactie of gebeurtenis is uitgesteld na een fout (bijvoorbeeld als de operator **Annuleren** heeft geselecteerd in het dialoogvenster voor foutafhandeling), kunt u de fiscale registratie handmatig opnieuw uitvoeren door een bijbehorende bewerking aan te roepen. Zie voor meer informatie [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+
+### <a name="fiscal-registration-health-check"></a>Statuscontrole fiscale registratie
+
+Met de statuscontroleprocedure voor fiscale registraties wordt de beschikbaarheid van het fiscale apparaat of de fiscale service gecontroleerd wanneer bepaalde gebeurtenissen plaatsvinden. Als de fiscale registratie momenteel niet kan worden voltooid, wordt de operator vooraf in kennis gesteld.
+
+Met het POS wordt de statuscontrole uitgevoerd wanneer de volgende gebeurtenissen plaatsvinden:
+
+- Er wordt een nieuwe transactie geopend.
+- Een uitgestelde transactie wordt teruggeroepen.
+- Een verkoop- of retourtransactie wordt voltooid.
+
+Als de statuscontrole mislukt, toont het POS het dialoogvenster voor statuscontrole. Dit dialoogvenster bevat de volgende knoppen:
+
+- **OK**: met deze knop kan de operator een statuscontrolefout negeren en doorgaan met de bewerking. Operators kunnen deze knop alleen selecteren als de machtiging **Overslaan van statuscontrolefout toestaan** ervoor is ingeschakeld.
+- **Annuleren**: als de operator deze knop selecteert, annuleert het POS de laatste actie (een artikel wordt bijvoorbeeld niet toegevoegd aan een nieuwe transactie).
+
+> [!NOTE]
+> De statuscontrole wordt alleen uitgevoerd als voor de huidige bewerking fiscale registratie is vereist en als de parameter **Doorgaan bij fout** is uitgeschakeld voor de huidige stap van het proces voor fiscale registratie. Zie voor meer informatie [Instellingen voor het verwerken van fouten kiezen](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Fiscaal antwoord opslaan in fiscale transactie
 
 Wanneer fiscale registratie van een transactie of gebeurtenis geslaagd is, wordt een fiscale transactie in de afzetkanaaldatabase gemaakt en gekoppeld aan de oorspronkelijke transactie of gebeurtenis. Als de optie **Overslaan** of **Markeren als geregistreerd** wordt geselecteerd voor een mislukte fiscale registratie, wordt deze informatie ook opgeslagen in een fiscale transactie. Een fiscale transactie bevat de fiscale reactie van het fiscale apparaat of de service. Als het fiscale registratieproces uit meerdere stappen bestaat, wordt een fiscale transactie gemaakt voor elke stap van het proces dat heeft geleid tot een geslaagde of mislukte registratie.
 
-Fiscale transacties worden overgeboekt naar Retail Headquarters door de *P-taak*, samen met detailhandeltransacties. Op het sneltabblad **Fiscale transacties** van de pagina **Transacties detailhandelwinkel** kunt u de fiscale transacties weergeven die zijn gekoppeld aan detailhandeltransacties.
-
+Fiscale transacties worden overgeboekt naar Retail Headquarters door de *P-taak* samen met detailhandeltransacties. Op het sneltabblad **Fiscale transacties** van de pagina **Transacties detailhandelwinkel** kunt u de fiscale transacties weergeven die zijn gekoppeld aan detailhandeltransacties.
 
 Een fiscale transactie wordt opgeslagen met de volgende gegevens:
 
@@ -111,10 +136,11 @@ De volgende fiscale integratievoorbeelden zijn momenteel beschikbaar in de Retai
 
 - [Voorbeeld van integratie van fiscale printer voor Italië](emea-ita-fpi-sample.md)
 - [Voorbeeld van integratie van fiscale printer voor Polen](emea-pol-fpi-sample.md)
+- [Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk](emea-aut-fi-sample.md)
+- [Voorbeeld van integratie van fiscale registratieservice voor Tsjechië](emea-cze-fi-sample.md)
 
 De volgende fiscale Integratiefunctionaliteit is ook beschikbaar in de Retail-SDK, maar maakt op het moment geen gebruik van het fiscale integratieraamwerk. Migratie van deze functionaliteit naar het fiscale integratieraamwerk is gepland voor latere updates.
 
 - [Digitale handtekening voor Frankrijk](emea-fra-cash-registers.md)
 - [Digitale handtekening voor Noorwegen](emea-nor-cash-registers.md)
 - [Regeleenheidintegratievoorbeeld voor Zweden](./retail-sdk-control-unit-sample.md)
-

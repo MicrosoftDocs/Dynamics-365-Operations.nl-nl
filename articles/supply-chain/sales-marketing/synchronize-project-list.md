@@ -3,7 +3,7 @@ title: Projectlijst vanuit Finance and Operations synchroniseren naar Field Serv
 description: In dit onderwerp worden de sjablonen en de onderliggende taken besproken die worden gebruikt om projecten te synchroniseren van Microsoft Dynamics 365 for Finance and Operations met Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312503"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842599"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>Projectlijst van Finance and Operations synchroniseren met Field Service
 
@@ -38,13 +38,13 @@ In dit onderwerp worden de sjablonen en de onderliggende taken besproken die wor
 De volgende sjabloon en onderliggende taken worden gebruikt om projecten te synchroniseren van Microsoft Dynamics 365 for Finance and Operations met Microsoft Dynamics 365 for Field Service.
 
 **Sjabloontoewijzing in Gegevensintegratie**
-- Projecten (Finance and Operations naar Field Service)
+- Projecten (Fin and Ops naar Field Service)
 
 **Taak in het project Gegevensintegratie**
 - Projecten
 
 De volgende synchronisatietaken moeten worden uitgevoerd voordat de synchronisatie van een projectlijst kan plaatsvinden:
-- Rekeningen (Sales naar Finance and Operations) 
+- Rekeningen (Sales naar Fin and Ops) 
 
 ## <a name="entity-set"></a>Entiteitset
 | Field Service           | Finance en Operations  |
@@ -64,6 +64,6 @@ Wijzigingen bijhouden voor gegevensentiteitprojecten inschakelen
 ## <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>Projecten (Finance and Operations naar Field Service): Projecten
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>Projecten (Fin and Ops naar Field Service): Projecten
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSProject1.png)](./media/FSProject1.png)

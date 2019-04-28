@@ -3,14 +3,14 @@ title: Elektronische rapportage (ER)
 description: Dit onderwerp biedt een overzicht van het hulpmiddel voor Elektronische rapportage (ER). Er staat informatie in over belangrijke concepten, de scenario's die door ER ondersteund worden en een lijst met indelingen die als onderdeel van de ER-oplossing ontworpen en uitgegeven zijn.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bc544211891c19104b2b3cb704b55a074784d608
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310801"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902955"
 ---
 # <a name="electronic-reporting-er"></a>Elektronische rapportage (ER)
 
@@ -163,21 +163,33 @@ Voor informatie over het registreren van een nieuwe ER-provider speelt u de taak
 
 #### <a name="repository"></a>Opslagplaats
 
-In een ER-opslagplaats worden ER-configuraties opgeslagen. Vier soorten ER-opslaglocaties worden momenteel ondersteund: **Bronnen voor bedrijfsactiviteiten**, **LCS-project (LCS)**, **Bestandssysteem** en **Regulatory Configuration Services (RCS)**.
+In een ER-opslagplaats worden ER-configuraties opgeslagen. De volgende typen ER-opslagplaatsen worden momenteel ondersteund: 
 
-Een opslagplaats **Operations-resources** biedt toegang tot de lijst met configuraties die Microsoft als ER-configuratieprovider heeft vrijgegeven als onderdeel van de Dynamics 365 for Finance and Operations-oplossing. Deze configuraties kunnen worden geïmporteerd in het huidige exemplaar van Dynamics 365 for Finance and Operations en worden gebruikt voor elektronische rapportage. Zij kunnen ook worden gebruikt voor extra lokalisaties en aanpassingen.
+- Gedeelde LCS-bibliotheek
+- LCS-project
+- Bestandssysteem
+- Regulatory Configuration Services (RCS)
+- Bronnen voor bedrijfsactiviteiten
+
+
+De opslagplaats **Gedeelde LCS-bibliotheek** biedt toegang tot de lijst met configuraties binnen de bibliotheek voor gedeelde activa in Lifecycle Services (LCS). Dit type ER-opslagplaats kan alleen worden geregistreerd voor de Microsoft-provider. Vanuit de LCS-bibliotheek voor gedeelde activa kunt u de meest recente versies van ER-configuraties importeren in het huidige exemplaar van Finance and Operations.
 
 Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd in de fase van registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige Dynamics 365 for Finance and Operations-exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van Dynamics 365 for Finance and Operations.
 
-Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuraties die zich als XML-bestanden bevinden in de opgegeven map van het lokale bestandssysteem op de computer waarop de AOS-service wordt gehost. Vereiste map is geselecteerd in de fase van opslagplaatsregistratie. U kunt configuraties importeren vanuit een opslagplaats **Bestandssysteem** in het huidige exemplaar van Finance and Operations. Houd er rekening mee dat dit type opslagplaats toegankelijk is in de volgende Dynamics 365 for Finance and Operations-omgevingen:
-- cloudomgevingen geïmplementeerd voor ontwikkelingsdoeleinden (met testmodellen van ingesloten suites)
-- lokaal geïmplementeerde omgevingen (on-premise of lokale implementatie van zakelijke gegevens)
+Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuraties die zich als XML-bestanden bevinden in de opgegeven map van het lokale bestandssysteem op de computer waarop de AOS-service wordt gehost. Vereiste map is geselecteerd in de fase van opslagplaatsregistratie. U kunt configuraties importeren vanuit een opslagplaats **Bestandssysteem** in het huidige exemplaar van Finance and Operations. 
 
-Bezoek voor meer informatie de pagina [Configuraties voor Elektronische rapportage (ER) importeren](./electronic-reporting-import-ger-configurations.md).
+Houd er rekening mee dat dit type opslagplaats toegankelijk is in de volgende Dynamics 365 for Finance and Operations-omgevingen:
 
-Een opslagplaats **RCS-exemplaar** biedt toegang tot de lijst met configuraties van een specifiek RCS-exemplaar dat is geselecteerd in de fase van registratie van de opslagplaats. Met ER kunt u voltooide of gedeelde configuraties vanuit het geselecteerde RCS-exemplaar importeren in het huidige exemplaar van Finance and Operations en gebruiken voor elektronische rapportage.
+- Cloudomgevingen geïmplementeerd voor ontwikkelingsdoeleinden (met testmodellen van ingesloten suites)
+- Lokaal geïmplementeerde omgevingen (on-premises)
 
-Bezoek voor meer informatie de pagina [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](./rcs-download-configurations.md).
+Zie [ER-configuraties (Elektronische rapportage) importeren](./electronic-reporting-import-ger-configurations.md) voor meer informatie.
+
+Een opslagplaats **RCS-exemplaar** biedt toegang tot de lijst met configuraties van een specifiek RCS-exemplaar dat is geselecteerd in de fase van registratie van de opslagplaats. Met ER kunt u voltooide of gedeelde configuraties vanuit het geselecteerde RCS-exemplaar importeren in het huidige exemplaar van Finance and Operations zodat u ze kunt gebruiken voor elektronische rapportage.
+
+Zie voor meer informatie [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](./rcs-download-configurations.md).
+
+De opslagplaats **Bronnen voor bedrijfsactiviteiten** biedt toegang tot de lijst met configuraties die Microsoft als ER-configuratieprovider aanvankelijk heeft vrijgegeven als onderdeel van de Finance and Operations-oplossing. Deze configuraties kunnen worden geïmporteerd in het huidige exemplaar van Finance and Operations en worden gebruikt voor elektronische rapportage of voor het afspelen van voorbeeldtaakbegeleidingen. Zij kunnen ook worden gebruikt voor extra lokalisaties en aanpassingen. Houd er rekening mee dat de meest recente versies die door Microsoft ER-configuraties worden verschaft, moeten worden geïmporteerd vanuit de LCS-bibliotheek met behulp van de opslagplaats ER-opslagplaats.
 
 Vereiste opslagplaatsen voor **LCS-project**, **Bestandssysteem** en **Regulatory Configuration Services (RCS)** kunnen afzonderlijk worden geregistreerd voor elke configuratieprovider van het huidige Dynamics 365 for Finance and Operations-exemplaar. Elke opslagplaats kan aan een specifieke configuratieprovider zijn gekoppeld.
 
@@ -377,6 +389,5 @@ Met ER kunt u automatisch wijzigingen in de meest recente versie van het basison
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Lokalisatievereisten – Een configuratie voor elektronische rapportage maken](electronic-reporting-configuration.md)
-
-[De levenscyclus van de configuratie van elektronische rapportage beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Lokalisatievereisten – Een configuratie voor elektronische rapportage maken](electronic-reporting-configuration.md)
+- [De levenscyclus van de configuratie van elektronische rapportage beheren](general-electronic-reporting-manage-configuration-lifecycle.md)

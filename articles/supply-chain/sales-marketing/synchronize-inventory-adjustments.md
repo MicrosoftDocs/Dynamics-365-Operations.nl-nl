@@ -3,7 +3,7 @@ title: Voorraadoverboekingen en -correcties vanuit Field Service synchroniseren 
 description: In dit onderwerp worden de sjablonen en de onderliggende taken besproken die worden gebruikt om informatie over voorraadcorrecties en -overboekingen te synchroniseren van Microsoft Dynamics 365 for Finance and Operations met Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308363"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842410"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>Voorraadcorrecties vanuit Field Service synchroniseren naar Finance and Operations
 
@@ -38,8 +38,8 @@ In dit onderwerp worden de sjablonen en de onderliggende taken besproken die wor
 De volgende sjabloon en onderliggende taken worden gebruikt om voorraadcorrecties en -overboekingen te synchroniseren van Microsoft Dynamics 365 for Field Service met Microsoft Dynamics 365 for Finance and Operations.
 
 **Sjablonen in Gegevensintegratie**
-- Voorraadcorrectie (Field Service naar Finance and Operations)
-- Voorraadoverboekingen (Field Service naar Finance and Operations)
+- Voorraadcorrectie (Field Service naar Fin en Ops)
+- Voorraadoverboekingen (Field Service naar Fin en Ops)
 
 **Taak in het project Gegevensintegratie**
 - Voorraadcorrecties
@@ -71,11 +71,11 @@ De integratievoorraadjournalen die worden gegenereerd door de integratie, kunnen
 
 In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 
-### <a name="inventory-adjustment-field-service-to-finance-and-operations-inventory-adjustment"></a>Voorraadcorrectie (Field Service naar Finance and Operations): Voorraadcorrectie
+### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>Voorraadcorrectie (Field Service naar Fin and Ops): Voorraadcorrectie
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>Voorraadoverboeking (Field Service naar Finance and Operations): Voorraadoverboeking
+### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>Voorraadoverboeking (Field Service naar Fin and Ops): Voorraadoverboeking
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSTrans1.png)](./media/FSTrans1.png)

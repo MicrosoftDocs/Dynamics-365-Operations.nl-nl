@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782834"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949892"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (27 februari 2019)
 
@@ -87,7 +87,7 @@ Vaak hebben werknemers die aan een organisatie worden toegevoegd, een toekomstig
 
 ## <a name="known-issues"></a>Bekende problemen
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>Wijzigingen in de sjabloon Core HR-integratie (Talent Common Data Service voor Apps tot Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Wijzigingen in de sjabloon Core HR-integratie (Talent Common Data Service naar Finance and Operations)
 De sjabloon voor Core HR is bijgewerkt in een 'geavanceerde querysjabloon'. Daarom is de geavanceerde query standaard beschikbaar voor projecten die zijn gemaakt met behulp van deze sjabloon. Bovendien zijn standaardtoewijzingsfuncties alleen zichtbaar in de geavanceerde query-editor. (Standaardtoewijzingsfuncties worden weergegeven als 'FN' in de toewijzingen.)
 
 Zie voor meer informatie over toewijzingsfouten [Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (14 december 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
@@ -100,19 +100,19 @@ Voer de volgende stappen uit om uw bestaande sjabloon bij te werken.
 
     - **Taakposities aan posities:** verwijder deze toewijzing.
     - **Taakposities aan taaktoewijzing bovenliggende posities:** verwijder deze toewijzing.
-    - **Taakposities aan basispositie:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service voor Apps aan de entiteit **Basispositie** Finance and Operations toe. Verplaats deze naar positie 7 in de reeks.
+    - **Taakposities aan basispositie:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service aan de entiteit **Basispositie** Finance and Operations toe. Verplaats deze naar positie 7 in de reeks.
 
         [![Taakposities aan toewijzing basispositie](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Taakposities aan positiedetails:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service voor Apps aan de entiteit **Positiedetails** Finance and Operations toe. Verplaats deze naar positie 8 in de reeks.
+    - **Taakposities aan positiedetails:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service aan de entiteit **Positiedetails** Finance and Operations toe. Verplaats deze naar positie 8 in de reeks.
 
         [![Taakposities aan toewijzing positiedetails](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Taakposities aan positieduur:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service voor Apps aan de entiteit **Positieduur** Finance and Operations toe.
+    - **Taakposities aan positieduur:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service aan de entiteit **Positieduur** Finance and Operations toe.
 
         [![Taakposities aan toewijzing positieduur](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Taakposities aan positiehiërarchieën:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service voor Apps aan de entiteit **Positiehiërarchieën** Finance and Operations toe. Selecteer **Geavanceerde query** om uw geavanceerde query beschikbaar te maken voor uw project.
+    - **Taakposities aan positiehiërarchieën:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service aan de entiteit **Positiehiërarchieën** Finance and Operations toe. Selecteer **Geavanceerde query** om uw geavanceerde query beschikbaar te maken voor uw project.
 
        [![Knop Geavanceerde query](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

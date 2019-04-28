@@ -3,7 +3,7 @@ title: Voorraadniveaugegevens vanuit Finance and Operations synchroniseren naar 
 description: Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebruikt om informatie op voorraadniveau te synchroniseren van Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356778"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842551"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Informatie over voorraadniveau uit Finance and Operations synchroniseren met Field Service 
 
@@ -38,14 +38,14 @@ Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebrui
 De volgende sjabloon en onderliggende taken worden gebruikt om beschikbare voorraadniveaus te synchroniseren van Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Field Service.
 
 **Sjabloontoewijzing in Gegevensintegratie**
-- Productvoorraad (Finance and Operations naar Field Service)
+- Productvoorraad (Fin and Ops naar Field Service)
   
 **Taak in het project Gegevensintegratie**
 - Productvoorraad
 
 De volgende synchronisatietaken moeten worden uitgevoerd voordat de synchronisatie van voorraadniveaus kan plaatsvinden:
-- Magazijnen (Finance and Operations naar Field Service) 
-- Field Service-producten met Voorraadeenheid (Finance and Operations naar Sales) 
+- Magazijnen (Fin and Ops naar Field Service) 
+- Field Service-producten met Voorraadeenheid (Fin and Ops naar Sales) 
 
 ## <a name="entity-set"></a>Entiteitset
 
@@ -80,6 +80,6 @@ U kunt filters toepassen met Geavanceerde query en filtering zodat dat alleen be
 
 ## <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>Productvoorraad (Finance and Operations naar Field Service): Productvoorraad
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Productvoorraad (Fin and Ops naar Field Service): Productvoorraad
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

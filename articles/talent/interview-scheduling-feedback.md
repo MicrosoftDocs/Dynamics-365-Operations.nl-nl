@@ -1,25 +1,25 @@
 ---
 title: Plannen van sollicitatiegesprekken en feedback
 description: Dit onderwerp biedt informatie over het plannen van sollicitatiegesprekken en feedbackactiviteiten in Attract.
-author: ''
+author: hasrivas
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
-ms.author: hasrivas
-ms.openlocfilehash: 7bc5a66bb221cb0ab2c69fcb1013ed48a7c664a6
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.author: shielas
+ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374877"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "989932"
 ---
 # <a name="interview-scheduling-and-feedback"></a>Plannen van sollicitatiegesprekken en feedback
 
@@ -28,6 +28,8 @@ ms.locfileid: "374877"
 ## <a name="scheduler-activity"></a>Planneractiviteit
 
 De planneractiviteit is optioneel en bestaat uit twee onderdelen: Beschikbaarheid van kandidaat aanvragen en Planning. Met de component Beschikbaarheid van kandidaat kunt u e-mail gebruiken om te informeren naar de beschikbaarheid van een kandidaat. De component Planning biedt de mogelijkheid sollicitatiegesprekken met de kandidaat en het aanstellend team te plannen.
+
+Als u de planneractiviteit wilt instellen om in te plannen kandidaten op te nemen of uit te sluiten, selecteert u een waarde in het veld **Wie plant u in**. De beschikbare opties zijn **Alle kandidaten**, **Externe kandidaten** en **Interne kandidaten**. Als u bijvoorbeeld interne kandidaten in de eerste planningsronde wilt overslaan, kunt u de planningsactiviteit plannen alleen aan externe kandidaten toewijzen door **Wie plant u in** in te stellen op **Externe kandidaten**.
 
 ### <a name="candidate-availability-request"></a>Beschikbaarheid van kandidaat aanvragen
 
@@ -54,7 +56,7 @@ Er zijn meerdere configuraties beschikbaar voor de planner van sollicitatiegespr
 
 2. Selecteer de duur van het sollicitatiegesprek voor elke sollicitatiegespreksgebeurtenis en klik vervolgens op **OK** om te beginnen met het maken van de planning.
 
-    Als **Aanbevelingen** is geselecteerd, worden suggesties weergegeven en wordt het raster met sollicitatiegesprekken vooraf ingevuld. U ziet mogelijk de huidige kalenderbeschikbaarheid van alle geselecteerde interviewers. U ziet mogelijk ook de kalender van de kandidaat als het om een interne kandidaat gaat.
+    Als **Aanbevelingen** is geselecteerd, worden suggesties weergegeven en wordt het raster met sollicitatiegesprekken vooraf ingevuld. U ziet mogelijk de huidige kalenderbeschikbaarheid van alle geselecteerde interviewers. U ziet mogelijk ook de kalender van de kandidaat als het om een interne kandidaat gaat. Voor de interviewers en interne kandidaten kunt u bekijken wanneer ze bezet zijn, wat hun werkuren zijn, wanneer ze niet op kantoor zijn en kunt u ook bepalen of ze in hun agenda hebben aangegeven dat ze elders werken gedurende bepaalde tijdvakken. 
 
 3. Als er geen suggesties beschikbaar zijn in de kolom **Interviewers**, klikt u in een tijdsperiode, geeft u de titel en details van het gesprek op en vult u zo nodig de locatiegegevens in. U kunt ervoor kiezen de koppeling **Skype voor Bedrijven** voor het gesprek op te nemen.
 
@@ -73,19 +75,30 @@ Er zijn meerdere configuraties beschikbaar voor de planner van sollicitatiegespr
 
     Reacties van interviewers worden vastgelegd en weergegeven in Attract. Als een interviewer de uitnodiging weigert, wordt u geïnformeerd om een wijziging aan te brengen. Als u hun reactie in de rasterweergave **Planner** wilt weergeven, klikt u op het ballonpictogram.
 
-[![Attract Recruiter-weergave van de reactie van een interviewer](./media/schedule-interviewer-response.png)](./media/schedule-interviewer-response.png)
+[![Attract Recruiter-weergave van de reactie van een interviewer](./media/schedule-interviewer-response2.png)](./media/schedule-interviewer-response2.png)
 
 7. Nadat de planning van het sollicitatiegesprek klaar is om te worden gedeeld met de kandidaat, klikt u op **Verzenden naar kandidaat**. U kunt ervoor kiezen de namen van de interviewer en de tijdvakken voor de kandidaat te verbergen of weer te geven.
 
-8. Selecteer een e-mailsjabloon en verzend het gespreksoverzicht naar de kandidaat. Kandidaten kunnen deze informatie in hun e-mail weergeven, maar ook in hun kandidaatportal.
+8. Selecteer een e-mailsjabloon en verzend het sollicitatiegespreksoverzicht naar de kandidaat. Kandidaten kunnen deze informatie in hun e-mail weergeven, maar ook in hun kandidaatportal.
     
 >[!NOTE] 
 > De kalenderbeschikbaarheid van een kandidaat wordt alleen weergegeven als de kandidaat intern is. Zo ook kunnen alleen interne kandidaten worden gebruikt om aanbevelingen voor gespreksplanning te verbeteren. Op dit moment ontvangen kandidaten (extern of intern) geen uitnodiging voor een bijeenkomst per e-mail. Ze ontvangen alleen een overzicht van de gesprekken.
 
-## <a name="feedback-activity"></a>Activiteit Feedback
+Kandidaten ontvangen het e-mailbericht waarin een overzicht wordt gegeven van hun cyclus van sollicitatiegesprekken. De e-mailberichten bevatten een ICS-bestand dat kan worden opgeslagen in hun persoonlijke agenda´s voor eenvoudigere toegang en meldingen over het sollicitatiegesprek.
 
-De feedbackactiviteit is optioneel in een taaksjabloon. Met deze activiteit kunnen deelnemers aan sollicitatiegesprekken aanbevelingen of feedbackopmerkingen invoeren voor een sollicitant. Als het veld **Feedback deelnemers overnemen van aanstellingsteam** wordt geselecteerd, worden de aanstellingsmanager en de interviewers automatisch ingevoerd in de feedbackactiviteit. Organisaties kunnen interviewers toestaan de feedback van anderen weer te geven voordat ze hun eigen feedback indienen. Organisaties kunnen interviewers ook toestaan hun feedback te bewerken nadat zij deze hebben ingediend. Interviewers worden eraan herinnerd om feedback voor de gesprekken die ze onlangs hebben gehad in te dienen op basis van de vooraf ingestelde configuratie als onderdeel van de taaksjabloon. De aanstellingsmanager of een werver voor de functie kan er ook voor kiezen een interviewer er handmatig aan te herinneren om feedback in te dienen.
+>[!TIP] 
+> Als u de planning van het sollicitatiegesprek opnieuw naar de kandidaat verzendt, ontvangt deze een andere ICS-bestandsbijlage. Het is raadzaam om de e-mailsjablonen voor het overzicht van het sollicitatiegesprek van de kandidaat bij te werken om ervoor te zorgen dat kandidaten de eerder toegevoegde gespreksgebeurtenissen verwijderen zodat ze geen dubbele records in hun agenda zien. 
+
+## <a name="feedback-activity"></a>Feedback activiteit
+
+De feedbackactiviteit is optioneel in een taaksjabloon. Met deze activiteit kunnen deelnemers aan sollicitatiegesprekken aanbevelingen of feedbackopmerkingen invoeren voor een sollicitant. 
+
+Als u wilt bepalen voor welke kandidaten feedback moet worden gegeven of niet, selecteert u een waarde in het veld **Voor wie moeten interviewers feedback geven**.  De beschikbare opties zijn **Alle kandidaten**, **Externe kandidaten** en **Interne kandidaten**. Als u interne kandidaten bijvoorbeeld in de eerste planningsronde wilt overslaan, stelt u **Voor wie moeten interviewers feedback geven** in op **Externe kandidaten**.
+
+Als u het veld **Feedback deelnemers overnemen van aanstellingsteam** selecteert, worden de werver, de aanstellende manager en de interviewers automatisch ingevoerd in de feedbackactiviteit. Organisaties kunnen interviewers toestaan de feedback van anderen weer te geven voordat ze hun eigen feedback indienen. Organisaties kunnen interviewers ook toestaan hun feedback te bewerken nadat zij deze hebben ingediend. Interviewers worden eraan herinnerd om feedback voor de gesprekken die ze onlangs hebben gehad in te dienen op basis van de vooraf ingestelde configuratie als onderdeel van de taaksjabloon. De aanstellingsmanager of een werver voor de functie kan er ook voor kiezen een interviewer er handmatig aan te herinneren om feedback in te dienen.
 
 ## <a name="interview-activity"></a>Interviewactiviteit
 
-De sollicitatiegesprekactiviteit is een optionele activiteit met drie componenten: Beschikbaarheid van kandidaat aanvragen, Planning en Feedback. Gebruik de sollicitatiegesprekactiviteit in de taaksjabloon als u alle drie de opties Beschikbaarheid van kandidaat aanvragen, Planning en Feedback als onderdeel van het proces wilt gebruiken in plaats van deze afzonderlijk als onderdeel van het aanstellingsproces te gebruiken.
+De sollicitatiegesprekactiviteit is een optionele activiteit met drie componenten: **Beschikbaarheid van kandidaat aanvragen**, **Planning** en **Feedback**. Gebruik de sollicitatiegesprekactiviteit in de functiesjabloon als u de beschikbaarheidsaanvraag van de kandidaat, de planning en feedback wilt opnemen als onderdeel van het proces in plaats van deze afzonderlijk als onderdeel van het aanstellingsproces te gebruiken.
+
+Als u wilt bepalen met welke kandidaten u een sollicitatiegesprek wilt voeren, selecteert u een waarde in het veld **Met wie voert u een sollicitatiegesprek**. De beschikbare opties zijn **Alle kandidaten**, **Externe kandidaten** en **Interne kandidaten**. Als u interne kandidaten bijvoorbeeld in de eerste ronde van sollicitatiegesprekken wilt overslaan, stelt u **Met wie voert u een sollicitatiegesprek** in op **Externe kandidaten**.

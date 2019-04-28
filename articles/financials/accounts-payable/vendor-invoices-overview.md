@@ -1,9 +1,9 @@
 ---
 title: Overzicht van leveranciersfacturen
 description: Dit artikel geeft algemene informatie over het leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329753"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975797"
 ---
 # <a name="vendor-invoices-overview"></a>Overzicht van leveranciersfacturen
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Dit artikel geeft algemene informatie over het leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services. 
 
-<a name="vendor-invoices"></a>Leveranciersfacturen
----------------
+## <a name="vendor-invoices"></a>Leveranciersfacturen
 
 Een leveranciersfactuur op basis van een inkooporder is een factuur die wordt gegenereerd wanneer producten of services worden ontvangen op basis van een inkooporder die bij een leverancier is geplaatst. De leveranciersfactuur bevat een koptekst en één of meer regels voor artikelen of services. Een leveranciersfactuur voltooit de cyclus die loopt van inkooporder via productontvangstbon tot leveranciersfactuur. 
 
@@ -79,8 +79,15 @@ Zie [Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen](../acco
 
 U kunt met meerdere facturen tegelijkertijd werken en ze allemaal op hetzelfde moment boeken. Als u meerdere facturen moet maken, gebruikt u de pagina **Leveranciersfacturen in behandeling**. Als u meerdere leveranciersfacturen moet boeken en afdrukken, gebruikt u de pagina Factuurgoedkeuringsjournaal Als u het factuurgoedkeuringsjournaal gebruikt, moet er minimaal één productontvangstbon worden geboekt voor de inkooporder en moet er een factuur voor de inkooporder worden geboekt in een facturenregister. De financiële gegevens voor de factuur komen uit de factuur die is geboekt in het register.
 
+## <a name="recovering-vendor-invoices-that-are-in-use"></a>Leveranciersfacturen herstellen die in gebruik zijn
 
-Zie  voor meer informatie.
+Wanneer een leveranciersfactuur wordt gebruikt, kan deze niet worden bewerkt door een andere gebruiker. De status van een factuur kan echter soms aangeven dat de factuur in gebruik is, zelfs als deze niet actief wordt bewerkt. De toepassing reageert mogelijk niet meer tijdens de bewerking van de factuur, of een gebruiker kan per ongeluk de factuur open hebben gelaten in de toepassing.
+
+U kunt de pagina **Leveranciersfacturen herstellen** gebruiken om leveranciersfacturen die voor meer dan vier uur in gebruik waren, te herstellen of vrij te geven zodat ze kunnen worden bewerkt. U kunt deze pagina openen via de navigatie of tegel **Periodieke taak** in het werkgebied **Leveranciersfactuurregistratie**. Nadat een factuur is hersteld, kan deze worden bewerkt op de pagina **Leveranciersfactuur**.
+
+U kunt toegang krijgen tot de pagina **Leveranciersfacturen herstellen** als de beveiligingsfunctie en -bevoegdheid **Leveranciersfacturen in gebruik herstellen** aan u zijn toegewezen. Bovendien moet de parameter **Herstellen van leveranciersfactuur toestaan** op de pagina **Leveranciersparameters** worden ingeschakeld.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
  - [Leveranciersfactuurbeleid instellen](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 

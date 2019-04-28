@@ -3,7 +3,7 @@ title: Financiële rapporten weergeven
 description: In dit onderwerp wordt beschreven hoe u financiële rapporten in Microsoft Dynamics 365 for Finance and Operations kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 author: kweekley
 manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
-ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
+ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
+ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791436"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894583"
 ---
 # <a name="view-financial-reports"></a>Financiële rapporten weergeven
 
@@ -46,12 +46,11 @@ Financiële rapporten kunnen meerdere detailniveaus bevatten. Het financiële ni
 Als de gegevens budgetgegevens betreffen, kunt u ervoor kiezen budgetjournaalregels te openen. Als u niveaus van het rapport wilt sluiten en wilt terugkeren naar waar u bent begonnen, kunt u op Esc drukken of klikken op de knop **Sluiten** (**X**) rechtsboven.
 
 ## <a name="change-report-options"></a>Rapportopties wijzigen
-U kunt de rapportdatum wijzigen, kenmerk- en dimensiefilters toepassen of het budgetscenario wijzigen in een **Werkelijk versus budget**-rapport Klik in het actievenster op **Rapportopties** en voer vervolgens een of meer van de volgende stappen uit:
+U kunt kenmerk- en dimensiefilters toepassen of het budgetscenario wijzigen in een **Werkelijk versus budget**-rapport Klik in het actievenster op **Rapportopties** en voer vervolgens een of meer van de volgende stappen uit:
 
--   Als u de basisperiode en het basisjaar van een rapport wilt wijzigen, selecteert u een basisperiode en een basisjaar en klikt u vervolgens op **OK**.
 -   Als u kenmerkfilters op een rapport wilt toepassen, selecteert u **Een kenmerkfilter toevoegen** Selecteer het kenmerk, typ de kenmerkwaarde en klik vervolgens op **OK**. Als u bijvoorbeeld het kenmerk **Rekeningcategorie** selecteert, voert u **VERKOOP** als de kenmerkwaarde in. Als u een kenmerkfilter wilt verwijderen, klikt u op **Wissen**.
 -   Als u dimensiefilters op een rapport wilt toepassen, selecteert u **Een dimensiefilter toevoegen**. Selecteer de dimensie en typ vervolgens de dimensie-ID of selecteer de dimensie in de lijst. Als u een dimensiefilter wilt verwijderen, klikt u op **Wissen**.
--   Als u het scenario in een rapport **Werkelijk versus budget**-rapport wilt wijzigen, selecteert u een nieuw scenario en klikt u vervolgens op **OK**. Als het geselecteerde scenario voor een ander jaar is, moet u het basisjaar bijwerken. Als het huidige scenario bijvoorbeeld FY2015 is en u een nieuw scenario selecteert dat voor FY2016 is, moet u het basisjaar wijzigen in **2016**.
+-   Als u het scenario in een rapport **Werkelijk versus budget**-rapport wilt wijzigen, selecteert u een nieuw scenario en klikt u vervolgens op **OK**. Als het geselecteerde scenario voor een ander boekjaar geldt, worden er geen resultaten geretourneerd. Als er bijvoorbeeld een rapport wordt gegenereerd voor BJ2015 en het huidige scenario voor BJ2015 is en het nieuwe scenario is geselecteerd voor BJ2016, worden er geen resultaten geretourneerd. Als er een nieuw scenario voor een ander boekjaar nodig is, moet u een nieuwe versie van het rapport genereren voor het boekjaar dat is gerelateerd aan het scenario.
 
 Wanneer u klikt op **OK**, worden alle door u geselecteerde opties toegepast op het rapport. Als u besluit dat u de geselecteerde opties niet wilt toepassen, klikt op **Annuleren**.
 

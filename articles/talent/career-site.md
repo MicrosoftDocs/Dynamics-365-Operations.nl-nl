@@ -1,29 +1,29 @@
 ---
 title: Functionaliteit Vacaturesite in Attract
 description: Dit onderwerp bevat een overzicht van de functionaliteit voor op kandidaten gerichte vacaturesite in Attract.
-author: josaw1
+author: hasrivas
 manager: AnnBe
-ms.date: 02/12/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 087ab4034a1e601e7f3514c77d56ef54b0c5c52d
-ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
+ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
+ms.sourcegitcommit: 063a9296e645e0da182241941869d8102954540a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "389956"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898926"
 ---
 # <a name="career-site-functionality-in-attract"></a>Functionaliteit Vacaturesite in Attract
 
@@ -43,15 +43,15 @@ Als u de waarden voor de volgende items wilt instellen, meldt u zich aan bij Att
 
 -   **Logo van organisatie**: een afbeelding van het organisatielogo die wordt weergegeven in de linkerbovenhoek van de vacaturesite. Door de logoafbeelding te selecteren gaan kandidaten naar een pagina met alle open functies.
 
-    >   [!NOTE] 
-    >   De logoafbeelding die wordt weergegeven op de vacaturesite heeft een vaste hoogte van 20 pixels (px). De afbeelding die u in het beheercentrum toevoegt, wordt passend gemaakt. Daarom kan de breedte afhankelijk van de afbeelding veranderen.
+    > [!NOTE] 
+    > De logoafbeelding die wordt weergegeven op de vacaturesite heeft een vaste hoogte van 20 pixels (px). De afbeelding die u in het beheercentrum toevoegt, wordt passend gemaakt. Daarom kan de breedte afhankelijk van de afbeelding veranderen.
  
 Als u de waarden voor de volgende items wilt instellen, meldt u zich aan bij Attract als beheerder, selecteert u **Beheercentrum** in het menu **Instellingen** en selecteert u vervolgens het tabblad **Beheer van vacaturesite**.
 
 -   **Optimalisatie van zoekmachine**: wanneer deze optie is ingeschakeld, kan naar alle openbare vacatures die zijn gepubliceerd naar de Attract-vacaturestite, worden gezocht met zoekmachines zoals Bing en Google.
 
-    >   [!NOTE] 
-    >   Er kan een vertraging optreden tussen het inschakelen van deze instelling en de weergave van zoekresultaten. Dit is afhankelijk van de zoekmachine die u gebruikt.
+    > [!NOTE] 
+    > Er kan een vertraging optreden tussen het inschakelen van deze instelling en de weergave van zoekresultaten. Dit is afhankelijk van de zoekmachine die u gebruikt.
          
 ## <a name="career-site-urls"></a>URL´s vacaturesite
 
@@ -81,15 +81,17 @@ Kandidaten hebben de volgende aanmeldingsopties voor een Attract-vacaturesite:
 
     -   Microsoft Azure Active Directory (Azure AD)
 
-Azure AD-aanmelding is alleen bedoeld voor interne kandidaten. Daarom werkt het alleen voor interne kandidaten die de Azure AD-referenties van hun bedrijf gebruiken. Een kandidaat die momenteel een werknemer van Contoso Ltd is, wil bijvoorbeeld solliciteren naar een functie in een niet-gelieerd bedrijf Alpine Ski House. In dit geval is de aanmelding niet succesvol als de werknemer probeert zijn of haar Azure AD-referenties van Contoso, Ltd te gebruiken.
+Azure AD-aanmelding is alleen bedoeld voor interne kandidaten. Daarom werkt het alleen voor interne kandidaten die de Azure AD-referenties van hun bedrijf gebruiken. Een kandidaat die momenteel een werknemer van Contoso Ltd is, wil bijvoorbeeld solliciteren naar een functie in een niet-gelieerd bedrijf Alpine Ski House. In dit geval is de aanmelding niet succesvol als de werknemer probeert zijn of haar Azure AD-referenties van Contoso, Ltd te gebruiken. 
+
+Kandidaten moeten zich aanmelden met behulp van Azure AD als de functie die ze bekijken of waarop ze solliciteren, wordt weergegeven als alleen intern.
 
 ## <a name="create-and-maintain-a-profile"></a>Een profiel maken en onderhouden
 
 Nadat kandidaten zich hebben aangemeld bij de vacaturesite, kunnen ze **Mijn profiel** selecteren op de navigatiebalk boven aan de pagina om hun profiel te maken en te onderhouden.
 Het profiel bevat persoonlijke gegevens, informatie over werkervaring, opleidingsdetails, documenten, koppelingen en informatie over vaardigheden. Nadat een profiel is gemaakt, kan het worden gebruikt om te solliciteren naar functies waarin de kandidaat geïnteresseerd is. Profielen helpen Attract de juiste functies aan kandidaten aan te bevelen.
 
->   [!NOTE]
->   Als een kandidaat een e-mail-ID gebruikt voor aanmelding met een van de hierboven vermelde verificatieproviders, wordt die e-mail-ID standaard ingesteld op de e-mail-ID van de contactpersoon die is gekoppeld aan het profiel. De laatst genoemde kan echter op elk gewenst moment worden gewijzigd en is volledig onafhankelijk van de eerst genoemde. In Attract wordt de e-mail-ID van de contactpersoon gebruikt om deze aan uw profiel te koppelen voor alle e-mailberichten.
+> [!NOTE]
+> Als een kandidaat een e-mail-ID gebruikt voor aanmelding met een van de hierboven vermelde verificatieproviders, wordt die e-mail-ID standaard ingesteld op de e-mail-ID van de contactpersoon die is gekoppeld aan het profiel. De laatst genoemde kan echter op elk gewenst moment worden gewijzigd en is volledig onafhankelijk van de eerst genoemde. In Attract wordt de e-mail-ID van de contactpersoon gebruikt om deze aan uw profiel te koppelen voor alle e-mailberichten.
 
 ## <a name="find-the-right-job"></a>De juiste functie zoeken
 
@@ -97,13 +99,38 @@ Op de functielijstpagina kunnen kandidaten zoeken naar een bepaalde functie door
 
 Kandidaten kunnen ook een reeks aanbevolen functies weergeven op de vacaturesite. De functies die worden aanbevolen aan een kandidaat, zijn gebaseerd op eerdere sollicitaties, het profiel en cv's van de kandidaat.
 
->   [!NOTE] 
->   Functieaanbevelingen worden alleen weergegeven als ten minste 10 functies zijn gepubliceerd op de vacaturesite en als de kandidaat zijn of haar profiel heeft ingevuld.
+> [!NOTE] 
+> Functieaanbevelingen worden alleen weergegeven als ten minste 10 functies zijn gepubliceerd op de vacaturesite en als de kandidaat zijn of haar profiel heeft ingevuld.
+
+Interne kandidaten kunt ook zien wie de aanstellende manager en/of werver voor een functie is, voor het geval ze contact willen opnemen met die leden van het aanstellingsteam. Externe kandidaten hebben echter geen inzicht in de leden van het aanstellingsteam voor een functie.
+
+## <a name="contact-the-hiring-team"></a>Neem contact op met het aanstellingsteam
+Alleen interne kandidaten kunnen contact opnemen met het aanstellingsteam. Deze beperking geldt voor alle functies, ongeacht of deze alleen intern zijn of openbaar zijn gepubliceerd.
+
+Kandidaten kunnen contact opnemen met het aanstellingsteam om aan te geven dat ze belangstelling hebben voor een functie die is gepubliceerd of om meer informatie erover te krijgen. Ze kunnen contact opnemen met een van de leden van het aanstellingsteam die worden weergegeven (aanstellende manager of wervers). Ze kunnen desgewenst ook een cv toevoegen aan het bericht of ze kunnen een bestaand cv selecteren dat ze eerder hebben geüpload als onderdeel van hun profiel.
+
+Nadat een interne kandidaat leden van het aanstellingsteam hebben geselecteerd om contact op te nemen, wordt in Attract een e-mailbericht aan deze personen verzonden namens de kandidaat. Tegelijkertijd wordt het kandidaatprofiel toegevoegd aan de fase **Prospect**, als die fase beschikbaar is voor de functie. In de fase **Prospect** kunnen wervers of aanstellende managers de kandidaten bekijken die met hen contact hebben opgenomen. Ze kunnen ook kandidaatprofielen bekijken en potentiële kandidaten uitnodigen om te solliciteren.
+
+Kandidaten kunnen solliciteren op een functie waarvoor ze al contact hebben opgenomen met leden van het aanstellingsteam. Nadat ze hebben gesolliciteerd, kunnen kandidaten niet langer contact opnemen met het aanstellingsteam via de vacaturesite.
 
 ## <a name="apply-for-jobs"></a>Solliciteren op functies
 
-Als kandidaten de juiste functie hebben gevonden, kunnen ze solliciteren met de knop **Solliciteren** op de pagina **Functiedetails**. Op dit moment kunnen kandidaten een nieuw profiel maken of de gegevens in hun bestaande profiel bekijken.
+Als kandidaten de juiste functie hebben gevonden, kunnen ze solliciteren met de knop  **Solliciteren**  op de pagina  **Functiedetails**. Op dit moment kunnen kandidaten een nieuw profiel maken of de gegevens in hun bestaande profiel bekijken.
 Kandidaten kunnen indien nodig ook een cv uploaden en vervolgens de sollicitatie indienen.
+
+### <a name="enable-applying-for-jobs-with-linkedin-profiles"></a>Solliciteren op functies met LinkedIn-profielen inschakelen
+
+U kunt het eenvoudig maken voor kandidaten om te solliciteren op uw posities door Attract zo te configureren dat ze kunnen solliciteren via LinkedIn.
+
+> [!NOTE] 
+> U moet een of meer werverlicenties van LinkedIn hebben voordat u kandidaten kunt toestaan om te solliciteren met LinkedIn.
+
+1. Meld u aan bij Attract als beheerder.
+2. Selecteer de knop **Instellingen** (het tandwielsymbool) in de rechterbovenhoek van de pagina en selecteer vervolgens **Beheercentrum**.
+3. Selecteer het tabblad **LinkedIn-integratie** en maak verbinding met een LinkedIn Recruiter-account.
+4. Selecteer in de sectie **LinkedIn Recruiter System Connect -integratie** **Ingeschakeld** voor de instelling **Solliciteren met LinkedIn**.
+
+Nadat u de instelling hebt ingeschakeld, kunnen kandidaten alleen solliciteren met hun bestaande LinkedIn-profielgegevens. Wanneer kandidaten solliciteren door de knop **Solliciteren met LinkedIn** te kiezen, wordt hen gevraagd om te verifiëren met LinkedIn als ze nog niet zijn aangemeld. Nadat ze zijn geverifieerd, worden bestaande profielgegevens weergegeven op de sollicitatiepagina vervangen door hun LinkedIn-profiel. Kandidaten kunnen de gegevens zo nodig bewerken en de sollicitatie indienen. Als een kandidaat de pagina verlaat zonder op de functie te solliciteren, worden hun profielgegevens niet bijgewerkt in Attract.
 
 ## <a name="check-application-status"></a>Sollicitatiestatus controleren
 

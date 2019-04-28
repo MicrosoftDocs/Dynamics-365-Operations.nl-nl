@@ -3,7 +3,7 @@ title: Verwerking van catch weight-producten bij magazijnbeheer
 description: In dit onderwerp wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt gedaan in het magazijn.
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777267"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946428"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
@@ -97,7 +97,9 @@ Bijvoorbeeld: **Doos** is de catch weight-eenheid en u ontvangt een pallet van a
 
 Als geen gebruik wordt gemaakt van het bijhouden van catch weight-labels dan kan het gewicht worden vastgelegd voor elke dimensieset (bijvoorbeeld voor elke nummerplaat en traceringsdimensie). Het gewicht kan ook worden vastgelegd op basis van een samengevoegd niveau, zoals vijf nummerplaten (pallets).
 
-Voor de methoden voor het vastleggen van het uitgaande gewicht, kunt u opgeven of het wegen is uitgevoerd voor elke catch weight-eenheid (dat wil zeggen per doos), of dat het gewicht wordt vastgelegd op basis van de hoeveelheid die zal worden opgenomen (bijvoorbeeld drie dozen). Houd er rekening mee dat voor het verzamelproces in de productielijn het gemiddelde gewicht wordt gebruikt als de optie **Niet vastgelegd** wordt gebruikt.
+Voor de methoden voor het vastleggen van het uitgaande gewicht, kunt u opgeven of het wegen is uitgevoerd voor elke catch weight-eenheid (dat wil zeggen per doos), of dat het gewicht wordt vastgelegd op basis van de hoeveelheid die zal worden opgenomen (bijvoorbeeld drie dozen). Houd er rekening mee dat voor het verzamelproces en het interne verplaatsingsproces in de productielijn het gemiddelde gewicht wordt gebruikt als de optie **Niet vastgelegd** wordt gebruikt.
+
+Om te voorkomen dat in verzamelprocessen van het magazijnbeheer gewichten worden vastgelegd die resulteren in winst-/verliescorrecties van catch weight, kan de methode voor uitgaande gewichtafwijking worden gebruikt.
 
 ## <a name="supported-scenarios"></a>Ondersteunde scenario's
 
@@ -121,14 +123,12 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
  
 ### <a name="order-processing"></a>Orderverwerking
 
-- Intercompany-orderverwerking wordt niet ondersteund.
 - Het maken van een advance shipping notice (ASN/verpakkingsstructuren) ondersteunt geen gewichtinformatie.
 - De orderhoeveelheid moet worden onderhouden gebaseerd op de catch weight-eenheid.
  
 ### <a name="inbound-warehouse-processing"></a>Inkomende magazijnverwerking
 
 - Bij het ontvangen van nummerplaten moet gewicht worden toegewezen tijdens de registratie, omdat gewichtsinformatie niet wordt ondersteund als onderdeel van de advance shipping notice. Wanneer catch weight-labelprocessen worden gebruikt, moet het labelnummer handmatig worden toegewezen per catch weight-eenheid.
-- Het ontvangen van gecombineerde nummerplaten wordt niet ondersteund voor catch weight-producten.
  
 ### <a name="inventory-and-warehouse-operations"></a>Voorraad- en magazijnoperaties
 
@@ -169,7 +169,6 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Andere beperkingen en gedragingen voor het verwerken van catch weight-producten bij magazijnbeheer
 
-- Als catch weight-labels worden vastgelegd als onderdeel van magazijnappverwerking, kan de gebruiker niet annuleren buiten de workflow.
 - Tijdens verzamelprocessen waarin de gebruiker niet wordt gevraagd om traceringsdimensies te identificeren, wordt de gewichtstoewijzing gedaan op basis van het gemiddelde gewicht. Dit treedt op wanneer bijvoorbeeld een combinatie van traceringsdimensies wordt gebruikt op dezelfde locatie en nadat een gebruiker het verzamelen verwerkt en er slechts één trackingsdimensiewaarde op de locatie is gebleven.
 - Wanneer de voorraad wordt gereserveerd voor een catch weight-product dat is geconfigureerd voor magazijnbeheerprocessen, wordt de reservering gedaan op basis van het minimumgewicht dat is gedefinieerd, zelfs als deze hoeveelheid de laatste voorhanden verwerkingshoeveelheid is. Dit gedrag wijkt af van het gedrag voor artikelen die niet zijn geconfigureerd voor magazijnbeheerprocessen.
 - Processen die gebruikmaken van het gewicht als onderdeel van de capaciteitsberekeningen (wavedrempels, maximale werkpauzes, containermaxima, belastingscapaciteiten locatie, enzovoort) gebruiken het werkelijke gewicht van de voorraad niet. In plaats daarvan zijn de processen gebaseerd op het fysieke verwerkingsgewicht dat is gedefinieerd voor het product.
@@ -193,3 +192,5 @@ De functionaliteit voor catch weight-labels wordt momenteel uitsluitend onderste
 - Wanneer de containers worden heropend.
 - Wanneer formuleproducten worden gereedgemeld via de magazijnapp.
 - Wanneer transportbelastingen worden verwerkt met behulp van de magazijnapp.
+
+Een catch weight-label kan worden gemaakt met behulp van een magazijnappproces, kan handmatig in het formulier worden gemaakt of kan worden gemaakt met een gegevensentiteitproces. Als een catch weight-label wordt gekoppeld aan een documentregel van een inkomende bron, zoals een inkooporderregel, wordt het label geregistreerd. Als de regel wordt gebruikt voor uitgaande verwerking. Het label wordt bijgewerkt als verzonden.
