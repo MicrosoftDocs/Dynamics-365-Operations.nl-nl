@@ -3,7 +3,7 @@ title: Btw-betalingen en afrondingsregels
 description: In dit artikel wordt uitgelegd hoe de instelling van afrondingregels voor de btw-dienst werkt en afronding van het btw-saldo tijdens de taak Btw vereffenen en boeken.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 05/30/2018
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: vstehman
+ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f03336c834e74cd12d039c7b9692874843811746
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1e1c1bb1c792eb79888a1df209f2eebaf14a38dd
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "367841"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842433"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Btw-betalingen en afrondingsregels
 
@@ -37,7 +37,7 @@ Het afrondingsverschil wordt geboekt naar de rekening Btw-afronding die is gesel
 
 Het onderstaande voorbeeld illustreert hoe de afrondingregel op Btw-dienst werkt.
 
-### <a name="example"></a>    Voorbeeld:
+## <a name="examples"></a>Voorbeelden
 
 De totale btw voor een periode toont een creditsaldo van -98.765,43. De rechtspersoon inde meer btw dan dat betaald werd. Daarom is de rechtspersoon geld verschuldigd aan de belastingsdienst. 
 
@@ -57,7 +57,68 @@ In de volgende tabel ziet u hoe een bedrag van 98.765,43 wordt afgerond met behu
 | Naar beneden afronden                            | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
 | Naar boven afronden                         | 98.765,43              | 98.765,50              | 98.766,00              | 98.800,00                |
 | Eigen voordeel, voor een creditsaldo | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
-| Eigen voordeel, voor een debitsaldo  | 98.765,43              | 98.765,50              | 98.766,00              | 98.800,00                |
+| Eigen voordeel, voor een debitsaldo  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
+
+
+### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>Helemaal geen afronding, omdat de afronding 0,00 is
+
+afronding (1,0151, 0,00) = 1,0151 afronding (1,0149, 0,00) = 1,0149
+
+### <a name="normal-round-and-round-precision-is-001"></a>Normale afronding en afrondingsprecisie is 0,01
+
+<table>
+  <tr>
+    <td>Afronding
+    </td>
+    <td>Berekeningsproces
+    </td>
+  </tr>
+    <tr>
+    <td>afronding (1,015, 0,01) = 1,02
+    </td>
+    <td>
+      <ol>
+        <li>afronding (1,015 / 0,01, 0) = afronding (101,5, 0) = 102
+        </li>
+        <li>102 * 0,01 = 1,02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>afronding (1,014, 0,01) = 1,01
+    </td>
+    <td> <ol>
+        <li>afronding (1,014 / 0,01, 0) = afronding (101,4, 0) = 101
+        </li>
+        <li>101 * 0,01 = 1,01
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>afronding (1,011, 0,02) = 1,02
+    </td>
+    <td> <ol>
+        <li>afronding (1,011 / 0,02, 0) = afronding (50,55, 0) = 51
+        </li>
+        <li>51 * 0,02 = 1,02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>afronding (1,009, 0,02) = 1,00
+    </td>
+    <td> <ol>
+        <li>afronding (1,009 / 0,02, 0) = afronding (50,45, 0) = 50
+        </li>
+        <li>50 * 0,02 = 1,00
+        </li>
+      </ol>
+    </td>
+  </tr>
+</table>
 
 > [!NOTE]                                                                                  
 > Als u Eigen voordeel selecteert, is de afronding altijd in het voordeel van de rechtspersoon. 
@@ -67,5 +128,6 @@ Zie de volgende onderwerpen voor meer informatie:
 - [Een btw-betaling maken](tasks/create-sales-tax-payment.md)
 - [Verkooptransacties maken in documenten](tasks/create-sales-tax-transactions-documents.md)
 - [Geboekte btw-transacties weergeven](tasks/view-posted-sales-tax-transactions.md)
+- [Afrondingsfunctie](https://msdn.microsoft.com/en-us/library/aa850656.aspx)
 
 

@@ -1,64 +1,87 @@
 ---
-title: Uitgebreide mogelijkheden voor aanstellingen in Attract
-description: Dit onderwerp bevat informatie over de mogelijkheden in de invoegtoepassing Attract van Microsoft Dynamics 365 for Talent met uitgebreide mogelijkheden voor aanstellingen.
-author: ''
+title: Welke versie van Attract
+description: Dit onderwerp bevat informatie over de mogelijkheden van de verschillende versies van Microsoft Dynamics 365 for Talent - Attract.
+author: andreabichsel
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6adc2398d9ebcc655ad7ac7e0c949f44dc011013
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: b061233239fcaee768579cde9d1015ebbeaa66cb
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376431"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993617"
 ---
-# <a name="attract-comprehensive-hiring-add-on-capabilities"></a>Uitgebreide mogelijkheden voor aanstellingen in Attract
+# <a name="which-version-of-attract"></a>Welke versie van Attract?
 
 [!include[banner](../includes/banner.md)]
 
-Verschillende organisaties maken gebruik van verschillende functiesets binnen Attract. Hierdoor zijn er twee 'niveaus' van het Attract-product. Er is een Attract-product dat zich richt op kleinere teams of organisaties, waar de wervingsmanager de primaire gebruiker voor het aanstellingsproces is. Er is ook een uitgebreide invoegtoepassing voor aanstellingen. Deze kan tegen een meerprijs worden toegevoegd aan het Attract-product, dat zich richt op middelgrote tot grote teams of organisaties waar de werver of talentspecialist de primaire gebruiker voor het aanstellingsproces is.
-Zie voor meer informatie over prijzen en licenties de meest recente [licentiehandleiding](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).
+Welke versie van Microsoft Dynamics 365 for Talent: Attract de juiste is voor u, is afhankelijk van de grootte en behoeften van uw organisatie. De basisversie van Attract biedt een subset van functionaliteit die is gericht op kleinere teams of organisaties waarin de aanstellende manager de primaire gebruiker is. U kunt beginnen met het gebruik van de basisversie van Attract met een of meer licenties.
 
-Gratis proefversies van Attract omvatten automatisch de uitgebreide invoegtoepassing voor aanstellingen gedurende de proefperiode. Als de uitgebreide invoegtoepassing voor aanstellingen nodig is voor uw organisatorische behoeften, zoekt u een [lokale Dynamics 365 for Talent-partner](https://dynamics.microsoft.com/partners/find-a-partner/) om u daarbij te helpen.
+Attract met de Uitgebreide invoegtoepassing voor aanstellingen is gericht op middelgrote tot grote teams of organisaties waarin de werver of talentenspecialist de primaire gebruiker is. Voor de Uitgebreide invoegtoepassing voor aanstellingen moeten licenties worden aangeschaft via een [Microsoft Dynamics 365-partner](https://dynamics.microsoft.com/partners/find-a-partner/).
 
-## <a name="capability-details"></a>Details over de mogelijkheden
+> [!NOTE]
+> De Attract-proefversie bevat Attract met de Uitgebreide invoegtoepassing voor aanstellingen. Deze invoegtoepassing biedt uitgebreide wervings- en aanstellingsmogelijkheden, zoals de mogelijkheid om functies te publiceren naar een Attract-vacaturesite of een externe wervingssite, zoals LinkedIn. Als u de basisversie van Attract kiest, bevat uw abonnement een subset van de mogelijkheden die beschikbaar zijn in de proefversie.
 
-Het volgende overzicht bevat de mogelijkheden van Attract en van de uitgebreide invoegtoepassing voor aanstellingen.
+Zie voor meer informatie over prijzen en licenties de [Microsoft Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-| **Mogelijkheid**                                           | **Aantrekken**         | **Attract met uitgebreide mogelijkheden voor aanstellingen** |
-|----------------------------------------------------------|---------------------|---------------------------------------|
-| **Doelgroep/primair**  **Persoon**                      | **Peoplemanagers** | **Wervers/talentspecialisten**    |
-| Vacaturebeheer                                | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Configuratie aanstellingsproces op taakniveau                    | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Kandidaten maken & profielbeheer                  | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Intelligente gespreksplanning                         | :heavy_check_mark:  | :heavy_check_mark:                    |
-| Eén persoonlijke talentenpool instellen                        | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Beveiligings- en rolbeheer                              | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Basisdashboard                                          | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Toegang van kandidaten tot individuele sollicitatiedetails        | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Goedkeuringsstroom vacatures                             |                     | :heavy_check_mark:                    |
-| Sjabloonbeheer aanstellingsproces op organisatieniveau    |                     | :heavy_check_mark:                    |
-| Advertenties plaatsen op Attract-vacaturesite                       |                     | :heavy_check_mark:                    |
-| Kandidaatsollicitatiestromen via Attract-vacaturesite   |                      | :heavy_check_mark:                    |
-| Toegang van kandidaten tot volledige profiel- en sollicitatiehistorie |                     | :heavy_check_mark:                    |
-| LinkedIn Recruiter-verbinding<sup>1</sup>                |                     | :heavy_check_mark:                    |
-| Offer Management                                         |                     | :heavy_check_mark:                    |
-| Gedeelde en algemene talentenpools instellen                     |                     | :heavy_check_mark:                    |
-| E-mailsjabloonbeheer                                |                     | :heavy_check_mark:                    |
-| Kandidaat- en vacatureaanbevelingen                        |                     | :heavy_check_mark:                    |
+## <a name="feature-comparison"></a>Functievergelijking
 
+| Mogelijkheid | Aantrekken | Uitgebreide invoegtoepassing voor aanstellingen |
+| ---------- | :-----------: | :-------------------: |
+| Basisdashboard | :heavy_check_mark: | :heavy_check_mark: |
+| Beveiliging en rollen beheren | :heavy_check_mark: | :heavy_check_mark: |
+| Vacatures beheren | :heavy_check_mark: | :heavy_check_mark: |
+| Aanstellingsproces op functieniveau maken | :heavy_check_mark: | :heavy_check_mark: |
+| Kandidaten maken en profielen beheren | :heavy_check_mark: | :heavy_check_mark: |
+| Eén talentenpool maken | :heavy_check_mark: | :heavy_check_mark: |
+| Sollicitatiegesprekken plannen | :heavy_check_mark: | :heavy_check_mark: |
+| Kandidaat toegang tot sollicitatiedetails bieden | :heavy_check_mark: | :heavy_check_mark: |
+| Goedkeuringswerkstromen maken voor vacatures | | :heavy_check_mark: |
+| Aanstellingsprocessen op organisatieniveau beheren | | :heavy_check_mark: |
+| Functies publiceren naar Attract en externe vacaturesites | | :heavy_check_mark: |
+| Kandidaatsollicitatiestromen via een Attract-vacaturesite maken | | :heavy_check_mark: |
+| Kandidaat toegang tot een volledige profiel- en sollicitatiehistorie bieden | | :heavy_check_mark: |
+| Verbinding maken met LinkedIn Recruiter<br></br>Deze mogelijkheid vereist een LinkedIn Recruiter-licentie die afzonderlijk <br></br> moet worden aangeschaft via LinkedIn.</blockquote> | | :heavy_check_mark: |
+| Aanbiedingen beheren | | :heavy_check_mark: |
+| Gedeelde en algemene talentenpools maken | | :heavy_check_mark: |
+| E-mailsjablonen beheren | | :heavy_check_mark: |
+| Kandidaat- en functieaanbevelingen verschaffen | | :heavy_check_mark: |
 
-<sup>1</sup>LinkedIn Recruiter-licenties, die afzonderlijk moeten worden aangeschaft via LinkedIn, zijn een vereiste voor deze functie.
+## <a name="find-out-which-version-of-attract-you-have"></a>Uitvinden welke versie van Attract u hebt
+
+1. Selecteer in Attract het vraagteken (**?**) in de rechterbovenhoek van de pagina.
+2. Selecteer **Info**.
+
+    Het venster dat verschijnt, geeft aan welk type licentie u hebt voor Attract.
+
+    ![Uw Attract-licentietype weergeven](media/attract-license-types.png)
+
+## <a name="frequently-asked-questions"></a>Veelgestelde vragen
+
+### <a name="why-dont-i-see-all-the-features-that-were-included-in-the-attract-trial"></a>Waarom zie ik niet alle functies die de Attract-proefversie bevat?
+
+Er zijn verschillende redenen waarom u mogelijk niet alle functies ziet die de Attract-proefversie bevat:
+
+- De Attract-proefversie bevat Attract met de Uitgebreide invoegtoepassing voor aanstellingen en u hebt nu de basisversie van Attract. De basisversie van Attract bevat een subset van functies die is gericht op aanstellende managers voor kleine teams en organisaties.
+- U hebt Attract met de Uitgebreide invoegtoepassing voor aanstellingen, maar u beschikt niet over de juiste rollen om alle functies te kunnen gebruiken. Zie voor meer informatie [Beveiliging en rollenbeheer in Attract](security-attract.md).
+
+### <a name="why-dont-i-see-all-the-attract-features-that-my-coworker-sees"></a>Waarom zie ik niet alle Attract-functies die mijn collega ziet?
+
+Er zijn verschillende redenen waarom u mogelijk niet alle Attract-functies ziet uw collega ziet:
+
+- Uw collega werkt met een proefversie of een licentie voor Attract met de Uitgebreide invoegtoepassing voor aanstellingen, terwijl u met de basisversie van Attract werkt.
+- U hebt Attract met de Uitgebreide invoegtoepassing voor aanstellingen, maar u beschikt niet over de juiste rollen om alle functies te kunnen gebruiken. Zie voor meer informatie [Beveiliging en rollenbeheer in Attract](security-attract.md).

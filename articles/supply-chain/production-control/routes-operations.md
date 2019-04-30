@@ -3,7 +3,7 @@ title: Routes en bewerkingen
 description: In dit onderwerp vindt u informatie over routes en bewerkingen.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
+ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333341"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "850663"
 ---
 # <a name="routes-and-operations"></a>Routes en bewerkingen
 
@@ -59,11 +59,10 @@ Als u de meer complexe routenetwerken in de parameters van productiebeheer insch
 
 [![Routenetwerk](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
-**Opmerkingen:**
-
--   Elke bewerking mag slechts één opvolgende bewerking hebben en de hele route moet eindigen met één bewerking.
--   Er is geen garantie dat meerdere bewerkingen met dezelfde opvolgende bewerking (in het bovenstaande voorbeeld bijvoorbeeld bewerkingen 30 en 40) werkelijk gelijktijdig worden uitgevoerd. De beschikbaarheid en capaciteit van resources leveren mogelijk beperkingen op voor de wijze waarop bewerkingen worden gepland.
--   U kunt 0 (nul) niet gebruiken als het bewerkingsnummer. Dit nummer is gereserveerd en wordt gebruikt om op te geven dat de laatste bewerking in de route geen opvolgende bewerking heeft.
+> [!NOTE]
+> -   Elke bewerking mag slechts één opvolgende bewerking hebben en de gehele route moet eindigen met één bewerking.
+> -   Dit garandeert niet dat meerdere bewerkingen met dezelfde opvolgende bewerking (in het bovenstaande voorbeeld bijvoorbeeld bewerkingen 30 en 40) werkelijk gelijktijdig worden uitgevoerd. De beschikbaarheid en capaciteit van resources leveren mogelijk beperkingen op voor de wijze waarop bewerkingen worden gepland.
+> -   U kunt 0 (nul) niet gebruiken als het bewerkingsnummer. Dit nummer is gereserveerd en wordt gebruikt om op te geven dat de laatste bewerking in de route geen opvolgende bewerking heeft.
 
 ### <a name="parallel-operations"></a>Parallelle bewerkingen
 
@@ -122,7 +121,8 @@ U kunt ook opgeven dat een bewerkingsrelatie specifiek is voor een locatie. Op d
 
 Bewerkingsrelaties geven u meer flexibiliteit bij het definiëren van uw routes. Bovendien reduceert de mogelijkheid om standaardeigenschappen te definiëren de hoeveelheid hoofdgegevens die u moet beheren. Deze flexibiliteit betekent echter ook dat u moet rekening houden met de context waarin u een bewerkingsrelatie wijzigt.  
 
-**Opmerking:** Omdat de operationele eigenschappen worden opgeslagen in de bewerkingsrelaties per bewerking per route, hebben alle exemplaren van dezelfde bewerking (bijvoorbeeld Montage) dezelfde insteltijd, uitvoeringstijd, resourcevereisten e.d. Als twee exemplaren van een bewerking in dezelfde route moeten plaatsvinden maar verschillende uitvoeringstijden hebben, moet u twee verschillende bewerkingen maken, bijvoorbeeld Montage1 en Montage2.
+> [!NOTE]
+> Omdat de operationele eigenschappen worden opgeslagen in de bewerkingsrelaties per bewerking voor elke route, hebben alle exemplaren van dezelfde bewerking (bijvoorbeeld Montage) dezelfde insteltijd, uitvoeringstijd en resourcevereisten. Als twee exemplaren van een bewerking in dezelfde route moeten plaatsvinden maar verschillende uitvoeringstijden hebben, moet u daarom twee aparte bewerkingen maken, bijvoorbeeld Montage1 en Montage2.
 
 ### <a name="modifying-product-specific-routes"></a>Productspecifieke routes wijzigen
 
@@ -132,7 +132,8 @@ Op de pagina **Route** kunt u de operationele eigenschappen van de bewerking wij
 
 U kunt ook handmatig een bewerking maken die specifiek is voor een route en een vrijgegeven product met behulp van de functie **Relatie kopiëren en bewerken**.  
 
-**Opmerking:** Als u een nieuwe bewerking toevoegt aan een route op de pagina **Route**, wordt alleen een bewerkingsrelatie gemaakt voor het huidige vrijgegeven product. Dus als de route ook gebruikt wordt voor de productie van andere vrijgegeven producten, bestaat er geen toepasselijke bewerkingsrelatie voor de desbetreffende vrijgegeven producten en kan de route niet meer worden gebruikt voor de desbetreffende vrijgegeven producten.
+> [!NOTE]
+> Als u een nieuwe bewerking toevoegt aan een route op de pagina **Route**, wordt alleen een bewerkingsrelatie gemaakt voor het huidige vrijgegeven product. Dus als de route ook gebruikt wordt voor de productie van andere vrijgegeven producten, bestaat er geen toepasselijke bewerkingsrelatie voor de desbetreffende vrijgegeven producten en kan de route niet meer worden gebruikt voor de desbetreffende vrijgegeven producten.
 
 ### <a name="maintaining-operation-relations-per-route"></a>Bewerkingsrelaties per route onderhouden
 
@@ -228,17 +229,32 @@ Als u geen bron voor bedrijfsactiviteiten of resourcegroep opgeeft als onderdeel
 -   **Batch:** Een batchcapaciteit wordt berekend met behulp van gegevens uit de bewerkingsrelatie. Het aantal batches en daarmee de verwerkingstijd kan vervolgens worden berekend op basis van de orderhoeveelheid.
 -   **Resourcebatch:** Deze optie is eigenlijk hetzelfde als de optie **Batch**. De berekening omvat hierin echter het veld **Batchcapaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource.
 
+### <a name="set-up-route-groups"></a>Routegroepen instellen
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+U kunt de routegroepen en de instelling voor de route of taaktypen definiëren onder **Productiebeheer > Instellen > Routes > Routegroepen**. U kunt voor elk type route/taak in de routegroep de volgende opties in- of uitschakelen:
 
-[Stuklijsten en formules](bill-of-material-bom.md)
+- **Activering**: selecteer deze optie om berekeningen en planning in te schakelen voor het geselecteerde taaktype en om taakfeedback te ontvangen als u taakplanning uitvoert. U moet deze optie selecteren om het taaktype in te schakelen en vervolgens de rest van de opties voor dat taaktype selecteren. Als de activering niet wordt geselecteerd, wordt dat taaktype niet ingeschakeld, ongeacht de selectie van de andere opties. 
+- **Taakbeheer**: selecteer deze optie om het taaktype in taakbeheer op te nemen als u taakplanning uitvoert. 
+- **Werktijd**: selecteer deze optie om het taaktype te plannen volgens de werktijdkalender die voor de bron voor bedrijfsactiviteiten is gedefinieerd. Anders wordt de Gregoriaanse kalender gebruikt. De werktijd kan worden gepland volgens de Gregoriaanse kalender of de gedefinieerde werktijdkalender. Als u deze optie selecteert, is de planning op basis van de gedefinieerde werktijdkalender. Bovendien wordt de taak van het taaktype gepland vanaf middernacht op de datum die als begindatum van de taak is gedefinieerd.
+- **Capaciteit**: selecteer deze optie om capaciteit voor het taaktype te reserveren als u taakplanning uitvoert. Als u deze optie selecteert, wordt capaciteit gereserveerd als planning voor het geselecteerde taaktype wordt uitgevoerd. Dit geeft u een overzicht van welke taaktypen in elke routegroep de bronnen voor bedrijfsactiviteiten gebruiken. Bijvoorbeeld, in een situatie waarin drogende bronnen knelpuntbronnen zijn, moeten deze bronnen als knelpunten worden opgegeven. Drogende bewerkingen die worden toegewezen aan taaktypen Wachttijd, reserveren drogende bronnen. 
 
-[Kostencategorieën die in productieroute worden gebruikt](../cost-management/cost-categories-used-production-routings.md)
+Voor elk van de taaktypen moet u dit eerst activeren of deactiveren. Indien dit is gedeactiveerd, worden de andere instellingen (taakbeheer, werktijd en capaciteit) niet meegenomen, omdat het taaktype niet actief is. 
 
-[Bronmogelijkheden](resource-capabilities.md)
+Tussen de taaktypen kunt u Overlapping vinden. Met Overlapping kunnen verschillende taken tegelijkertijd worden uitgevoerd. Wanneer taken elkaar overlappen, kunnen de resources worden gebruikt maar kunnen deze niet worden gereserveerd voor de specifieke taken.
+Daarom is als Activering is geselecteerd voor Overlapping, de rest van de instellingen (taakbeheer, werktijd en capaciteit) niet van invloed in de routegroep. 
 
-[Overzicht van elektronische handtekeningen](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+> [!NOTE]
+> Wanneer u een upgrade uitvoert op versies, kan de volgende fout optreden: **Er is een CLR-fout opgetreden bij het aanroepen van de planningsengine**. Als deze fout wordt weergegeven, gaat u naar de pagina **Routegroepen** en schakelt u voor alle routes waar u **Overlapping** hebt geactiveerd, de opties **Taakbeheer**, **Werktijd** en **Capaciteit** uit. 
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+- [Stuklijsten en formules](bill-of-material-bom.md)
+
+- [Kostencategorieën die in productieroute worden gebruikt](../cost-management/cost-categories-used-production-routings.md)
+
+- [Bronmogelijkheden](resource-capabilities.md)
+
+- [Overzicht van elektronische handtekeningen](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 

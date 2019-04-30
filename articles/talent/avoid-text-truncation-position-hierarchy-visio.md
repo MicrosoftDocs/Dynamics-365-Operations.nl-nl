@@ -1,7 +1,7 @@
 ---
 title: Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
 description: In dit onderwerp wordt uitgelegd hoe u een probleem oplost waarbij namen van personen en posities worden afgekapt wanneer klanten de positiehiërarchie weergeven in Microsoft Dynamics 365 for Talent. Tekstafbreking kan het moeilijk maken om een schermopname te maken of de hiërarchie af te drukken.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b688a396e3b384aedb06c470b1634150ae7aa038
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 87d1c1994b14fac45fa305a9223ed45ee363a70c
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303862"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859892"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
 

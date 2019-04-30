@@ -3,7 +3,7 @@ title: Startpagina BI en rapportage
 description: In dit onderwerp wordt verwezen naar bronnen die u kunt gebruiken om meer te weten te komen over de BI- en rapportagehulpmiddelen die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302103"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902837"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Startpagina BI en rapportage
 
@@ -33,7 +33,7 @@ In dit onderwerp wordt verwezen naar bronnen die u kunt gebruiken om meer te wet
 ## <a name="get-started"></a>Aan de slag
 - [Informatietoegang en -rapportage](information-access-reporting.md)
 - [Tech Talk: Rapportageopties](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: Business intelligence](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blog)
+- [Finance and Operations: Blog met Power BI-analyses en Reporting Services](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Analytische werkgebieden
 Finance and Operations levert interactieve rapporten die naadloos zijn geïntegreerd in toepassingswerkgebieden. In werkgebieden kan worden gebruikgemaakt van uitgebreide infographics en visuals die worden ondersteund door Microsoft Power BI. Deze infographics en visuals bevatten veel besturingselementen die worden geleverd door derden. Werkgebieden kunnen daarom een zeer visuele, interactieve ervaring bieden voor gebruikers.

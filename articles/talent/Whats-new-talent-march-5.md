@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782833"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949800"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (5 maart 2019)
 
@@ -35,7 +35,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Ta
 
 ### <a name="extending-option-sets-in-attract"></a>Optiesets uitbreiden in Attract
 
-Attract bevat meerdere velden die optiesets zijn in Common Data Service (CDS). Er zijn nieuwe mogelijkheden geïntroduceerd om de optiesets uit te breiden, te beginnen met het veld **Reden voor afwijzing**, het veld **Type dienstverband** en het veld **Type anciënniteit**.
+Attract bevat meerdere velden die optiesets zijn in Common Data Service. Er zijn nieuwe mogelijkheden geïntroduceerd om de optiesets uit te breiden, te beginnen met het veld **Reden voor afwijzing**, het veld **Type dienstverband** en het veld **Type anciënniteit**.
 
 > [!IMPORTANT]
 > De functionaliteit voor publicatie van vacatures naar LinkedIn vereist het gebruik van het veld **Type dienstverband** en het veld **Type anciënniteit** op de pagina **Functiedetails**. De standaardwaarden in deze velden worden ondersteund door LinkedIn en worden weergegeven wanneer de vacature wordt gepubliceerd. Als u vacatures naar LinkedIn publiceert en de bestaande optiesetwaarden voor deze velden wijzigt, wordt de vacature wel gepubliceerd, maar worden op LinkedIn de aangepaste waarden voor **Type dienstverband** en **Type anciënniteit** niet weergegeven.
@@ -70,8 +70,8 @@ Met deze wijziging worden de salarisvelden voortaan standaard ingesteld op de hu
 ### <a name="other-miscellaneous-bug-fixes"></a>Andere diverse correcties
 Andere kleine correcties zijn opgenomen in deze release.
 
-### <a name="upgrade-to-cds-for-apps"></a>Upgrade naar CDS voor apps
-Uiterste datums voor een upgrade naar CDS voor apps naderen snel. Meld u aan bij het PowerApps-beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service voor apps](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>Upgrade naar Common Data Service
+Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 

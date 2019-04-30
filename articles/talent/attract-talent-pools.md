@@ -1,29 +1,29 @@
 ---
 title: Kandidaten vinden met behulp van talentenpools
 description: In dit onderwerp wordt uitgelegd hoe u talentenpools maakt en instelt in Attract.
-author: ''
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/22/2018
+ms.date: 04/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303885"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949339"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Kandidaten vinden met behulp van talentenpools
 
@@ -44,7 +44,7 @@ Volg de onderstaande stappen om een talentenpool te maken en te delen.
 
     Het tabblad **Mijn talentenpools** bevat alle talentenpools waartoe u toegang hebt, met details over elke pool. De gegevens omvatten de eigenaar van de pool en het aantal kandidaten erin.
 
-1. Selecteer in de rechterbovenhoek **+ Nieuw** om het dialoogvenster **Talentenpool maken** te openen.
+1. Selecteer in de rechterbovenhoek van de pagina **+ Nieuw** om het dialoogvenster **Talentenpool maken** te openen.
 1. Voer een unieke naam voor de talentenpool in.
 1. Als u personen als bijdragers aan de pool wilt toevoegen, vindt u hun namen met behulp van de personenkiezer en voegt u ze toe aan de lijst. U kunt een talentenpool alleen delen met gebruikers die de rol werver, aanstellend manager of Attract-beheerder hebben.
 1. Selecteer **Toevoegen** om de talentenpool te maken.
@@ -78,26 +78,35 @@ De eigenaar en de bijdragers aan de talentenpool kunnen kandidaten toevoegen aan
 
 ## <a name="search-and-view-candidate-profiles"></a>Kandidaatprofielen zoeken en weergeven
 
-Gebruikers van een talentenpool kunnen het profiel van een kandidaat, zijn of haar LinkedIn-informatie, gerelateerde documenten of de hele sollicitatiehistorie van de kandidaat weergeven. U kunt ook uw hele kandidatendatabase doorzoeken op kandidaten die ooit naar een functie in uw organisatie hebben gesolliciteerd of die ooit aan een talentenpool zijn toegevoegd.
+> [!NOTE] 
+> Van deze functie kan momenteel een voorbeeld worden bekeken. Als u de functie wilt proberen, moet u [deze inschakelen in de beheerinstellingen van Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
 
-1. Gebruik het zoekveld boven aan het tabblad **Mijn talentenpools** om uw hele kandidatendatabase te doorzoeken.
-1. Zoek tussen verschillende profielkenmerken. Selecteer de zoekkenmerkcategorie, maak een zoekquery en selecteer vervolgens de knop met de pijl naar rechts (**-\>**) om de zoekopdracht te starten.
+Met talentenpools kunt u het profiel van een kandidaat, LinkedIn-informatie, gerelateerde documenten en historie van de toepassing bekijken. U kunt in de gehele database van alle kandidaten zoeken die zijn toegevoegd aan talentenpools, met inbegrip van gesloten en actieve sollicitanten.
 
-    U kunt kandidaten opzoeken aan de hand van hun naam, de organisatie waarvoor ze werken, de vaardigheden waarvoor ze zijn gemarkeerd, hun opleidingshistorie, hun huidige functie of het diploma dat ze hebben verkregen, als deze informatie is opgenomen in hun profiel.
+>[!NOTE]
+> Wanneer u nieuwe kandidaten of sollicitanten toevoegt, kan het tot 15 minuten duren voordat nieuwe toevoegingen zijn geïndexeerd om te zoeken.
 
-    Ook kunt u een zoekquery maken die twee of meer van deze kenmerken als criteria gebruikt. Combineer de criteria met behulp van een **en**-operator.
+Met de verbeterde zoekfunctie kunt u alle kandidaatdocumenten doorzoeken en filteren op tweede plaatsen, bronnen, vaardigheden, opleidingen en meer. In vorige versies moest u de entiteit opgeven die u wilde doorzoeken. Met Attract kan nu worden gezocht in alle kandidaatgerelateerde velden en kunnen de resultaten worden gerangschikt.
 
-    Als kandidaten aan uw zoekquery voldoen, staan ze in de zoekresultaten.
+1. Als u een nieuwe zoekopdracht wilt starten in de kandidaatdatabase, voert u de tekst in die u zoeken in het zoekvak op het tabblad **Talentenpools**. 
 
-1. Als u de resultaten wilt beperken, kunt u de zoekquery bijwerken met behulp van het zoekveld bovenaan.
+U kunt de naam van de kandidaat typen of alle kenmerken die u zoekt. Gebruik een spatie om afzonderlijke kenmerken te scheiden.
 
-    Of gebruik de lijst met slimme filters aan de rechterkant. Deze slimme filters worden dynamisch opgehaald, op basis van de zoekresultaten.
+U kunt uw resultaten verfijnen door uw zoekquery te wijzigen of door de slimme filters aan de linkerkant van de pagina te gebruiken.
 
-    De lijst met zoekresultaten bevat de top 20 vaardigheden, scholen, organisatie, enzovoort, die het meest voorkomen in de lijst met kandidaten. U kunt meer filters voor deze kenmerken toevoegen om de zoekresultaten nog verder te verfijnen.
+In de zoekresultaten worden bijzonderheden weergegeven voor de verschillende kenmerken die overeenkomen met uw zoekquery. Selecteer de kandidaten waarin u geïnteresseerd bent om hun profiel te bekijken.
 
-1. Nadat u een kandidaat hebt geïdentificeerd, selecteert u de rij voor die kandidaat om zijn of haar profiel weer te geven.
+### <a name="syntax-highlights"></a>Bijzonderheden van syntaxis 
 
-Alle gebruikers hebben een gemeenschappelijke weergave van de kandidaatprofielen. Selecteer de rij voor een kandidaat in een verzameling zoekresultaten of een talentenpool om zijn of haar profiel weer te geven. Het tabblad **Profiel** bevat alle informatie over vaardigheden, werkervaring en opleiding die de kandidaat vanuit de carrièreportal heeft bijgewerkt.
+| Operator | Gebruik                                                      | Voorbeeld              |
+|----------|------------------------------------------------------------|----------------------|
+| \*       | Hiermee wordt gezocht naar subtekenreeksen en kan worden gebruikt om alle records te retourneren | Invoer: Mi\* <br></br> Resultaat: alle records met velden die beginnen met 'Mi', zoals Microsoft, Micro-systemen, Midtown Entreprises of Middleton <br></br>Invoer: \* <br></br> Resultaat: alle records in de database |
+| “”       | Hiermee wordt gezocht naar een exacte overeenkomst                                | Invoer: 'Microsoft' <br></br> Resultaat: alle records die 'Microsoft' bevatten                    |
+
+>[!WARNING]
+> Schakel Zoeken op relevantie niet uit voor uw Common Data Service-exemplaar. Hiermee wordt de zoekfunctie in Attract uitgeschakeld.
+
+Alle gebruikers hebben een gemeenschappelijke weergave van de kandidaatprofielen. Het tabblad **Profiel** bevat alle informatie over vaardigheden, werkervaring en opleiding die de kandidaat als onderdeel van hun sollicitaties via de carrièreportal heeft opgegeven.
 
 - U kunt de contactgegevens weergeven voor de kandidaat. U kunt indien nodig ook de informatie bewerken of bijwerken met de knop **Details bewerken**.
 
@@ -117,7 +126,7 @@ Vanuit de zoekresultaten of een talentenpool kunt u een kandidaat pushen naar el
 
 1. Zoek de kandidaat door de zoekoptie te gebruiken en open vervolgens zijn of haar profiel. Of open de talentenpool vanaf het tabblad **Mijn talentenpools**, zoek naar de kandidaat in uw talentenpool en open vervolgens zijn of haar profiel.
 
-1. Selecteer op de profielpagina van de kandidaat **+ Toevoegen aan functie** in de rechterbovenhoek. 
+1. Selecteer op de profielpagina van de kandidaat **Toevoegen aan functie** in de rechterbovenhoek. 
      
      Er wordt een lijst weergegeven met functies waarvoor u in het wervingsteam zit als werver of aanstellend manager.
 

@@ -1,26 +1,26 @@
 ---
 title: De integratie van de salarisadministratie tussen Talent en Dayforce configureren
 description: In dit onderwerp wordt uitgelegd hoe de integratie tussen Microsoft Dynamics 365 for Talent en Ceridian Dayforce wordt geconfigureerd zodat u een betaling kunt verwerken.
-author: jcart1106
+author: andreabichsel
 manager: AnnBe
-ms.date: 07/10/2018
+ms.date: 03/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
+ms.sourcegitcommit: 204e4554e409c39fbbf7b273ad138ce2809931a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303867"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898439"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>De integratie van de salarisadministratie tussen Talent en Dayforce configureren
 
@@ -358,7 +358,10 @@ Als u salarissen genereert voor werknemers in de Verenigde Staten en Canada, moe
 - Afdelingen zijn vereist voor posities.
 - Kostenplaatsen moeten worden ingesteld als financiële dimensies en moeten het eerste element in de standaardtekenreeks voor de financiële dimensie vormen.
 
-### <a name="job-types"></a>Taaktypen
+> [!NOTE] 
+> U kunt Talent zo configureren dat wordt vereist dat met posities een afdeling wordt opgegeven. Hiertoe gaat u naar **Gedeelde Human Resources-posities > Posities > Afdelingen voor posities vereisen**. Het wordt aanbevolen deze instelling af te dwingen voor de integratie.
+
+### <a name="job-types"></a>Functietypen
 
 Functietypen worden gebruikt om vergelijkbare functies in categorieën te groeperen. Functietypen zijn vereist voor het verwerken van salarissen in de Verenigde Staten en Canada. Voorbeelden van functietypen zijn onder anderen fulltime en parttime of salaris en uurtarief. Functietypen worden toegewezen aan Dayforce als salaristypen die aangeven of een werknemer per uur wordt betaald of een salaris ontvangt.
 
