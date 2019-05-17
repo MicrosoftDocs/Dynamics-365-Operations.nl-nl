@@ -1,2 +1,2 @@
 > [!NOTE]
-> Dit onderwerp is zowel van toepassing op Dynamics 365 for Finance and Operations als op Dynamics 365 for Retail. 
+> Dit onderwerp is van toepassing op zowel Dynamics 365 for Finance and Operations als Dynamics 365 for Retail. 
