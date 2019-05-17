@@ -1,4 +1,3 @@
-items:
 - name: Ontwikkeling en beheer voor Finance and Operations
   href: index.md
 - name: Systeemvereisten voor cloudimplementaties
@@ -8,1284 +7,1305 @@ items:
 - name: Demogegevens
   href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
-  - name: Demogegevens genereren met pakketten
-    href: data-entities/generate-demo-data-packages.md
+    - name: Demogegevens genereren met pakketten
+      href: data-entities/generate-demo-data-packages.md
 - name: Ontwikkelen en aanpassen
   href: dev-tools/developer-home-page.md
   items:
-  - name: Toepassingsstapel en serverarchitectuur
-    href: dev-tools/application-stack-server-architecture.md
-  - name: Evaluatie-exemplaren ontvangen
-    href: dev-tools/get-evaluation-copy.md
-  - name: Aanmelden voor preview-abonnementen
-    href: dev-tools/sign-up-preview-subscription.md
-  - name: Ontwikkelomgevingen implementeren en openen
-    href: dev-tools/access-instances.md
-    items:
-    - name: Ontwikkelomgevingen met één apparaat configureren
-      href: dev-tools/configure-developer-vm.md
-    - name: Nieuwe gebruikers maken op ontwikkelcomputers
-      href: dev-tools/enable-development-machine.md
-    - name: Veelgestelde vragen over ontwikkelen en bouwen van VM's waarin beheerdertoegang niet is toegestaan
-      href: sysadmin/VMs-no-admin-access.md
-    - name: De naam van lokale omgevingen wijzigen voor toegang tot Azure DevOps
-      href: migration-upgrade/vso-machine-renaming.md
-    - name: Systeemvereisten voor ontwikkeling
-      href: dev-tools/development-system-requirements.md
-  - name: Versiebeheer, metagegevens zoeken en navigatie
-    href: dev-tools/version-control-metadata-navigation.md
-  - name: ​Voorbeeldtoepassing voor wagenparkbeheer
-    items:
-    - name: Compleet scenario voor de voorbeeldtoepassing Wagenparkbeheer
-      href: dev-tools/fleet-management-sample.md
-    - name: ​Voorbeeldtoepassing voor wagenparkbeheer
-      href: dev-tools/introduction-fleet-management-sample.md
-  - name: Hulpmiddelen Visual Studio
-    items:
-    - name: Ontwikkelingshulpmiddelen
-      href: dev-tools/development-tools-overview.md
-    - name: Zelfstudie ontwikkelingshulpmiddelen
-      href: dev-tools/introduction-visual-studio.md
-    - name: AppChecker
+    - name: Toepassingsstapel en serverarchitectuur
+      href: dev-tools/application-stack-server-architecture.md
+    - name: Evaluatie-exemplaren ontvangen
+      href: dev-tools/get-evaluation-copy.md
+    - name: Aanmelden voor preview-abonnementen
+      href: dev-tools/sign-up-preview-subscription.md
+    - name: Ontwikkelomgevingen implementeren en openen
+      href: dev-tools/access-instances.md
       items:
-      - name: BaseX voor AppChecker installeren
-        href: dev-tools/install-basex.md
-    - name: Toepassingsverkenner
-      href: dev-tools/application-explorer.md
-    - name: Projecten bouwen en fouten opsporen
-      href: dev-tools/build-debug-project.md
-    - name: Buildbewerkingen
-      href: dev-tools/build-operations.md
-    - name: Functies code-editor
-      href: dev-tools/code-editor.md
-    - name: Modellen en gegevensmodelelementen maken
-      href: dev-tools/create-data-model-elements.md
+        - name: Ontwikkelomgevingen met één apparaat configureren
+          href: dev-tools/configure-developer-vm.md
+        - name: Nieuwe gebruikers maken op ontwikkelcomputers
+          href: dev-tools/enable-development-machine.md
+        - name: Veelgestelde vragen over ontwikkelen en bouwen van VM's waarin beheerdertoegang niet is toegestaan
+          href: sysadmin/VMs-no-admin-access.md
+        - name: De naam van lokale omgevingen wijzigen voor toegang tot Azure DevOps
+          href: migration-upgrade/vso-machine-renaming.md
+        - name: Systeemvereisten voor ontwikkeling
+          href: dev-tools/development-system-requirements.md
+    - name: 'Versiebeheer, metagegevens zoeken en navigatie'
+      href: dev-tools/version-control-metadata-navigation.md
+    - name: Voorbeeldtoepassing voor wagenparkbeheer
       items:
-      - name: Richtlijnen voor namen van uitbreidingen
-        href: extensibility/NamingGuidelines.md
-      - name: Modelaanpassingen uitschakelen en functionaliteit afschaffen
-        href: dev-tools/lock-models.md
-    - name: Rapport Aanpassingsanalyse
-      href: dev-tools/customization-analysis-report.md
-    - name: Elementontwerpers
-      href: dev-tools/element-designers.md
-    - name: Opdrachten om het elementgebruik te bepalen
-      href: dev-tools/element-usage.md
-    - name: Modellen exporteren en importeren
-      href: dev-tools/models-export-import.md
-    - name: Metagegevens zoeken in Visual Studio
-      href: dev-tools/metadata-search-visual-studio.md
-    - name: Modellen en pakketten
-      href: dev-tools/models.md
-    - name: Projecttype Finance and Operations
-      href: dev-tools/projects.md
-    - name: Invoegtoepassingen met hulpmiddelen voor Visual Studio
-      href: dev-tools/developer-tools-add-ins.md
-    - name: Visual Studio-ontwikkelingshulpmiddelen bijwerken
-      href: dev-tools/update-development-tools.md
-  - name: X++-programmeertaal
-    items:
-    - name: X++ en foutopsporingsfuncties
-      href: dev-tools/new-x-debugger-features.md
-    - name: Foutopsporing in X++ in kopieën van productiedatabases
-      href: dev-tools/debug-x-issue-against-copy-of-production.md
-    - name: Foutopsporing in X++-code
-      href: dev-tools/debug-xpp.md
-    - name: EventHandlerResult-klassen in aanvraag- of responsscenario's
-      href: dev-tools/event-handler-result-class.md
-    - name: Bedrijfslogica schrijven met C#- en X++-broncode
-      href: dev-tools/write-business-logic.md
-    - name: Wijzigingen in X++ en de X++-compiler
-      href: dev-tools/programming-language-support.md
-    - name: LINQ-provider voor C#
-      href: dev-tools/linq-provider-c.md
-    - name: Best practice-regels schrijven
-      href: dev-tools/author-best-practice-rules.md
-    - name: Eigenschappen van Toepassingsverkenner
-      href: dev-ref/application-explorer-aot-properties.md
-    - name: X++-taalreferentie
+        - name: Compleet scenario voor de voorbeeldtoepassing Wagenparkbeheer
+          href: dev-tools/fleet-management-sample.md
+        - name: Voorbeeldtoepassing voor wagenparkbeheer
+          href: dev-tools/introduction-fleet-management-sample.md
+    - name: Hulpmiddelen Visual Studio
       items:
-      - name: X++-taalreferentie
-        href: dev-ref/xpp-language-reference.md
-      - name: X++-variabelen en -gegevenstypen
-        href: dev-ref/xpp-variables-data-types.md
-      - name: X++-instructies, lussen en afhandeling van uitzonderingen
-        href: dev-ref/xpp-statements-loops.md
-      - name: X++-uitzondering SQL-verbindingsfout
-        href: dev-ref/sql-connection-error.md
-      - name: X++-operatoren
-        href: dev-ref/xpp-operators.md
-      - name: Prioriteit X++-operatoren
-        href: dev-ref/xpp-operator-precedence.md
-      - name: X++-klassen en -methoden
-        href: dev-ref/xpp-classes-methods.md
-      - name: X++-gegevens selecteren en bewerken
-        href: dev-ref/xpp-data-query.md
-      - name: X++-macro's
-        href: dev-ref/xpp-macros.md
-      - name: X++-kenmerkklassen
-        href: dev-ref/xpp-attribute-classes.md
-      - name: Vergelijking van X++ en C#
-        href: dev-ref/xpp-cs-comparison.md
-      - name: X++-syntaxis
-        href: dev-ref/xpp-syntax.md
-  - name: API, klasse en tabelverwijzing
-    href: dev-ref/api-reference.md
-    items:
-    - name: X++-compilatietijdfuncties
-      href: dev-ref/xpp-compile-time-functions.md
-    - name: X++-runtimefuncties
-      href: dev-ref/xpp-run-time-functions.md
+        - name: Ontwikkelingshulpmiddelen
+          href: dev-tools/development-tools-overview.md
+        - name: Zelfstudie ontwikkelingshulpmiddelen
+          href: dev-tools/introduction-visual-studio.md
+        - name: Toepassingscontrole
+          items:
+            - name: BaseX voor Toepassingscontrole installeren
+              href: dev-tools/install-basex.md
+        - name: Toepassingsverkenner
+          href: dev-tools/application-explorer.md
+        - name: Projecten bouwen en fouten opsporen
+          href: dev-tools/build-debug-project.md
+        - name: Buildbewerkingen
+          href: dev-tools/build-operations.md
+        - name: Functies code-editor
+          href: dev-tools/code-editor.md
+        - name: Modellen en gegevensmodelelementen maken
+          href: dev-tools/create-data-model-elements.md
+          items:
+            - name: Richtlijnen voor namen van uitbreidingen
+              href: extensibility/NamingGuidelines.md
+            - name: Modelaanpassingen uitschakelen en functionaliteit afschaffen
+              href: dev-tools/lock-models.md
+        - name: Rapport Aanpassingsanalyse
+          href: dev-tools/customization-analysis-report.md
+        - name: Elementontwerpers
+          href: dev-tools/element-designers.md
+        - name: Opdrachten om het elementgebruik te bepalen
+          href: dev-tools/element-usage.md
+        - name: Modellen exporteren en importeren
+          href: dev-tools/models-export-import.md
+        - name: Metagegevens zoeken in Visual Studio
+          href: dev-tools/metadata-search-visual-studio.md
+        - name: Modellen en pakketten
+          href: dev-tools/models.md
+        - name: Projecttype Finance and Operations
+          href: dev-tools/projects.md
+        - name: Invoegtoepassingen met hulpmiddelen voor Visual Studio
+          href: dev-tools/developer-tools-add-ins.md
+        - name: Visual Studio-ontwikkelingshulpmiddelen bijwerken
+          href: dev-tools/update-development-tools.md
+    - name: X++-programmeertaal
       items:
-      - name: X++-runtimefuncties business
-        href: dev-ref/xpp-business-run-time-functions.md
-      - name: X++-runtimefuncties container
-        href: dev-ref/xpp-container-run-time-functions.md
-      - name: X++-runtimefuncties conversie
-        href: dev-ref/xpp-conversion-run-time-functions.md
-      - name: X++-runtimefuncties datum
-        href: dev-ref/xpp-date-run-time-functions.md
-      - name: X++-runtimefuncties wiskundig
-        href: dev-ref/xpp-math-run-time-functions.md
-      - name: X++-runtimefuncties reflectie
-        href: dev-ref/xpp-reflection-run-time-functions.md
-      - name: X++-runtimefuncties sessie
-        href: dev-ref/xpp-session-run-time-functions.md
-      - name: X++-runtimefuncties tekenreeks
-        href: dev-ref/xpp-string-run-time-functions.md
-    - name: Systeemtabellen
-      href: dev-ref/system-tables.md
-    - name: Systeemklassen
+        - name: X++ en foutopsporingsfuncties
+          href: dev-tools/new-x-debugger-features.md
+        - name: Foutopsporing in X++ in kopieën van productiedatabases
+          href: dev-tools/debug-x-issue-against-copy-of-production.md
+        - name: Foutopsporing in X++-code
+          href: dev-tools/debug-xpp.md
+        - name: EventHandlerResult-klassen in aanvraag- of responsscenario's
+          href: dev-tools/event-handler-result-class.md
+        - name: 'Bedrijfslogica schrijven met C#- en X++-broncode'
+          href: dev-tools/write-business-logic.md
+        - name: Wijzigingen in X++ en de X++-compiler
+          href: dev-tools/programming-language-support.md
+        - name: 'LINQ-provider voor C#'
+          href: dev-tools/linq-provider-c.md
+        - name: Best practice-regels schrijven
+          href: dev-tools/author-best-practice-rules.md
+        - name: Eigenschappen van Toepassingsverkenner
+          href: dev-ref/application-explorer-aot-properties.md
+        - name: X++-taalreferentie
+          items:
+            - name: X++-taalreferentie
+              href: dev-ref/xpp-language-reference.md
+            - name: X++-variabelen en -gegevenstypen
+              href: dev-ref/xpp-variables-data-types.md
+            - name: 'X++-instructies, lussen en afhandeling van uitzonderingen'
+              href: dev-ref/xpp-statements-loops.md
+            - name: X++-uitzondering SQL-verbindingsfout
+              href: dev-ref/sql-connection-error.md
+            - name: X++-operatoren
+              href: dev-ref/xpp-operators.md
+            - name: Prioriteit X++-operatoren
+              href: dev-ref/xpp-operator-precedence.md
+            - name: X++-klassen en -methoden
+              href: dev-ref/xpp-classes-methods.md
+            - name: X++-gegevens selecteren en bewerken
+              href: dev-ref/xpp-data-query.md
+            - name: X++-macro's
+              href: dev-ref/xpp-macros.md
+            - name: X++-kenmerkklassen
+              href: dev-ref/xpp-attribute-classes.md
+            - name: 'Vergelijking van X++ en C#'
+              href: dev-ref/xpp-cs-comparison.md
+            - name: X++-syntaxis
+              href: dev-ref/xpp-syntax.md
+    - name: 'API, klasse en tabelverwijzing'
+      href: dev-ref/api-reference.md
       items:
-      - name: A-klassen
-        href: dev-ref/a-classes.md
-      - name: B-klassen
-        href: dev-ref/b-classes.md
-      - name: C-klassen
-        href: dev-ref/c-classes.md
-      - name: D-klassen
-        href: dev-ref/d-classes.md
-      - name: E-klassen
-        href: dev-ref/e-classes.md
-      - name: F-klassen (FieldBinding tot FormBuildAnimateControl)
-        href: dev-ref/fieldbinding-classes.md
-      - name: F-klassen (FormBuildButtonControl tot FormBuildFastTabSummarySeparator)
-        href: dev-ref/formbuildbuttoncontrol-classes.md
-      - name: F-klassen (FormBuildFilterPaneControl tot FormBuildRealControl)
-        href: dev-ref/formbuildfilterpanecontrol-classes.md
-      - name: F-klassen (FormBuildReferenceControl tot FormButtonSeparatorControl)
-        href: dev-ref/formbuildreferencecontrol-classes.md
-      - name: F-klassen (FormChangeTracker tot FormControlEventArgs)
-        href: dev-ref/formchangetracker-classes.md
-      - name: F-klassen (FormDataObject tot FormFastTabHeaderControl)
-        href: dev-ref/formdataobject-classes.md
-      - name: F-klassen (FormFastTabSummarySeparator tot FormGridControl)
-        href: dev-ref/formfasttabsummaryseparator-classes.md
-      - name: F-klassen (FormGroupControl tot FormIntControl)
-        href: dev-ref/formgroupcontrol-classes.md
-      - name: F-klassen (FormListBoxControl tot FormNotifyEventArgs)
-        href: dev-ref/formlistboxcontrol-classes.md
-      - name: F-klassen (FormObject tot FormRealControl)
-        href: dev-ref/formobject-classes.md
-      - name: F-klassen (FormReferenceControl tot FormStringControl)
-        href: dev-ref/formreferencecontrol-classes.md
-      - name: F-klassen (FormTabControl tot FormWindowControl)
-        href: dev-ref/formtabcontrol-classes.md
-      - name: G-klassen
-        href: dev-ref/g-classes.md
-      - name: H-klassen
-        href: dev-ref/h-classes.md
-      - name: I-klassen
-        href: dev-ref/i-classes.md
-      - name: J-klassen
-        href: dev-ref/j-classes.md
-      - name: K-klassen
-        href: dev-ref/k-classes.md
-      - name: L-klassen
-        href: dev-ref/l-classes.md
-      - name: M-klassen
-        href: dev-ref/m-classes.md
-      - name: N-klassen
-        href: dev-ref/n-classes.md
-      - name: O-klassen
-        href: dev-ref/o-classes.md
-      - name: P-klassen
-        href: dev-ref/p-classes.md
-      - name: Q-klassen
-        href: dev-ref/q-classes.md
-      - name: R-klassen
-        href: dev-ref/r-classes.md
-      - name: S-klassen
-        href: dev-ref/s-classes.md
-      - name: T-klassen
-        href: dev-ref/t-classes.md
-      - name: U-klassen
-        href: dev-ref/u-classes.md
-      - name: V-klassen
-        href: dev-ref/v-classes.md
-      - name: W-klassen
-        href: dev-ref/w-classes.md
-      - name: X-klassen
-        href: dev-ref/x-classes.md
-  - name: Uitbreidbaarheid
-    href: extensibility/extensibility-home-page.md
-    items:
-    - name: Inleiding en aan de slag
+        - name: X++-compilatietijdfuncties
+          href: dev-ref/xpp-compile-time-functions.md
+        - name: X++-runtimefuncties
+          href: dev-ref/xpp-run-time-functions.md
+          items:
+            - name: X++-runtimefuncties business
+              href: dev-ref/xpp-business-run-time-functions.md
+            - name: X++-runtimefuncties container
+              href: dev-ref/xpp-container-run-time-functions.md
+            - name: X++-runtimefuncties conversie
+              href: dev-ref/xpp-conversion-run-time-functions.md
+            - name: X++-runtimefuncties datum
+              href: dev-ref/xpp-date-run-time-functions.md
+            - name: X++-runtimefuncties wiskundig
+              href: dev-ref/xpp-math-run-time-functions.md
+            - name: X++-runtimefuncties reflectie
+              href: dev-ref/xpp-reflection-run-time-functions.md
+            - name: X++-runtimefuncties sessie
+              href: dev-ref/xpp-session-run-time-functions.md
+            - name: X++-runtimefuncties tekenreeks
+              href: dev-ref/xpp-string-run-time-functions.md
+        - name: Systeemtabellen
+          href: dev-ref/system-tables.md
+        - name: Systeemklassen
+          items:
+            - name: A-klassen
+              href: dev-ref/a-classes.md
+            - name: B-klassen
+              href: dev-ref/b-classes.md
+            - name: C-klassen
+              href: dev-ref/c-classes.md
+            - name: D-klassen
+              href: dev-ref/d-classes.md
+            - name: E-klassen
+              href: dev-ref/e-classes.md
+            - name: F-klassen (FieldBinding tot FormBuildAnimateControl)
+              href: dev-ref/fieldbinding-classes.md
+            - name: F-klassen (FormBuildButtonControl tot FormBuildFastTabSummarySeparator)
+              href: dev-ref/formbuildbuttoncontrol-classes.md
+            - name: F-klassen (FormBuildFilterPaneControl tot FormBuildRealControl)
+              href: dev-ref/formbuildfilterpanecontrol-classes.md
+            - name: F-klassen (FormBuildReferenceControl tot FormButtonSeparatorControl)
+              href: dev-ref/formbuildreferencecontrol-classes.md
+            - name: F-klassen (FormChangeTracker tot FormControlEventArgs)
+              href: dev-ref/formchangetracker-classes.md
+            - name: F-klassen (FormDataObject tot FormFastTabHeaderControl)
+              href: dev-ref/formdataobject-classes.md
+            - name: F-klassen (FormFastTabSummarySeparator tot FormGridControl)
+              href: dev-ref/formfasttabsummaryseparator-classes.md
+            - name: F-klassen (FormGroupControl tot FormIntControl)
+              href: dev-ref/formgroupcontrol-classes.md
+            - name: F-klassen (FormListBoxControl tot FormNotifyEventArgs)
+              href: dev-ref/formlistboxcontrol-classes.md
+            - name: F-klassen (FormObject tot FormRealControl)
+              href: dev-ref/formobject-classes.md
+            - name: F-klassen (FormReferenceControl tot FormStringControl)
+              href: dev-ref/formreferencecontrol-classes.md
+            - name: F-klassen (FormTabControl tot FormWindowControl)
+              href: dev-ref/formtabcontrol-classes.md
+            - name: G-klassen
+              href: dev-ref/g-classes.md
+            - name: H-klassen
+              href: dev-ref/h-classes.md
+            - name: I-klassen
+              href: dev-ref/i-classes.md
+            - name: J-klassen
+              href: dev-ref/j-classes.md
+            - name: K-klassen
+              href: dev-ref/k-classes.md
+            - name: L-klassen
+              href: dev-ref/l-classes.md
+            - name: M-klassen
+              href: dev-ref/m-classes.md
+            - name: N-klassen
+              href: dev-ref/n-classes.md
+            - name: O-klassen
+              href: dev-ref/o-classes.md
+            - name: P-klassen
+              href: dev-ref/p-classes.md
+            - name: Q-klassen
+              href: dev-ref/q-classes.md
+            - name: R-klassen
+              href: dev-ref/r-classes.md
+            - name: S-klassen
+              href: dev-ref/s-classes.md
+            - name: T-klassen
+              href: dev-ref/t-classes.md
+            - name: U-klassen
+              href: dev-ref/u-classes.md
+            - name: V-klassen
+              href: dev-ref/v-classes.md
+            - name: W-klassen
+              href: dev-ref/w-classes.md
+            - name: X-klassen
+              href: dev-ref/x-classes.md
+    - name: Uitbreidbaarheid
+      href: extensibility/extensibility-home-page.md
       items:
-      - name: Plan voor uitbreidbaarheid van toepassing
-        href: extensibility/extensibility-roadmap.md
-      - name: Uitbreidbaarheidsaanvragen
-        href: extensibility/extensibility-requests.md
-      - name: Veelgestelde vragen over uitbreidbaarheid
-        href: extensibility/app-sealing-faq.md
-      - name: Migreren van overlayering naar uitbreidingen
-        href: extensibility/migrate-overlayer-extension.md
-      - name: Modelelementen aanpassen via extensies (zelfstudie)
-        href: extensibility/customize-model-elements-extensions.md
-      - name: Aanpassen via extensies en overlayering
-        href: extensibility/customization-overlayering-extensions.md
-    - name: Wat is er nieuw
+        - name: Inleiding en aan de slag
+          items:
+            - name: Plan voor uitbreidbaarheid van toepassing
+              href: extensibility/extensibility-roadmap.md
+            - name: Uitbreidbaarheidsaanvragen
+              href: extensibility/extensibility-requests.md
+            - name: Veelgestelde vragen over uitbreidbaarheid
+              href: extensibility/app-sealing-faq.md
+            - name: Migreren van overlayering naar uitbreidingen
+              href: extensibility/migrate-overlayer-extension.md
+            - name: Modelelementen aanpassen via extensies (zelfstudie)
+              href: extensibility/customize-model-elements-extensions.md
+            - name: Aanpassen via extensies en overlayering
+              href: extensibility/customization-overlayering-extensions.md
+        - name: Wat is er nieuw
+          items:
+            - name: Uitbreidbaarheidswijzigingen juli 2017
+              href: extensibility/changes-july-2017.md
+            - name: Uitbreidbaarheidswijzigingen in versie 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: Uitbreidbaarheidswijzigingen in versie 8.0
+              href: extensibility/changes-80.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.3
+              href: extensibility/extensibility-changes-803.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1
+              href: extensibility/extensibility-changes-81.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1.2
+              href: extensibility/extensibility-changes-812.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1.3
+              href: extensibility/extensibility-changes-813.md
+            - name: Uitbreidbaarheidswijzigingen versie 10.0
+              href: extensibility/extensibility-changes-10.md
+            - name: Uitbreidbaarheidswijzigingen versie 10.0.1
+              href: extensibility/extensibility-changes-10-1.md
+            - name: Uitbreidbaarheidswijzigingen versie 10.0.2
+              href: extensibility/extensibility-changes-10-2.md
+            - name: Uitbreidbaarheidswijzigingen versie 10.0.3
+              href: extensibility/extensibility-changes-10-3.md
+        - name: Basisgegevens
+          items:
+            - name: Ingrijpende aanpassingen
+              href: extensibility/intrusive-customizations.md
+            - name: Uitbreidingsmodel klasse
+              href: extensibility/class-extensions.md
+            - name: Klasse-extensie via methodewrapping en opdrachtstructuur
+              href: extensibility/method-wrapping-coc.md
+            - name: Richtlijnen voor namen van uitbreidingen
+              href: extensibility/naming-guidelines-extensions.md
+            - name: Modelbeperkingen loslaten om overlayering in uitbreidingen te herstructureren
+              href: extensibility/refactoring-over-layering.md
+        - name: Extensies maken
+          items:
+            - name: Waarden toevoegen aan enums
+              href: extensibility/add-enum-value.md
+            - name: Uitgebreide gegevenstypen wijzigen
+              href: extensibility/modify-edt.md
+            - name: Subklassen voor fabrieksmethoden registreren
+              href: extensibility/register-subclass-factory-methods.md
+            - name: Antwoorden met EventHandlerResult
+              href: extensibility/respond-event-handler-result.md
+            - name: De RunBase-klasse uitbreiden
+              href: extensibility/extend-runbase-class.md
+            - name: Toepassing starten aanpassen met gemachtigden
+              href: extensibility/startup-customizations.md
+            - name: Bestaande velden in een tabel wijzigen
+              href: extensibility/modify-existing-field.md
+            - name: Velden toevoegen aan tabellen
+              href: extensibility/add-field-extension.md
+            - name: Indexen toevoegen aan tabellen
+              href: extensibility/add-index.md
+            - name: Relaties toevoegen aan tabellen
+              href: extensibility/add-relation.md
+            - name: Tabeleigenschappen wijzigen
+              href: extensibility/modify-properties.md
+            - name: Methoden toevoegen aan tabellen
+              href: extensibility/add-method-table.md
+            - name: Zakelijke acties uitvoeren gedurende de levenscyclus van tabelrecords
+              href: extensibility/subscribe-table-events.md
+            - name: Gegevensbronnen toevoegen aan formulieren
+              href: extensibility/add-datasource.md
+            - name: Formulierbijschriften wijzigen
+              href: extensibility/change-caption-form.md
+            - name: Eigenschappen voor formulierbesturing wijzigen
+              href: extensibility/modify-control-properties.md
+            - name: Bereik van nummerreeksen verlengen
+              href: extensibility/extend-number-sequence-scope.md
+            - name: Nieuwe voorraaddimensies toevoegen
+              href: extensibility/inventory-dimensions.md
+            - name: Uitbreidbaarheid prijzen en kortingen
+              href: extensibility/pricing-app73.md
+            - name: Extensie tabeltoewijzing
+              href: extensibility/map-extensions.md
+            - name: Tabeltoewijzingen uitbreiden die worden gebruikt als interfaces
+              href: extensibility/maps-as-interfaces.md
+            - name: Tabeltoewijzingen uitbreiden die worden gebruikt voor versiebeheer
+              href: extensibility/maps-with-versioning.md
+            - name: Precisie decimaalteken uitbreiden voor geselecteerde gegevenstypen
+              href: extensibility/decimal-point-precision.md
+        - name: Uitbreidbare oplossingen maken
+          items:
+            - name: Uitbreidbare code schrijven
+              href: extensibility/writing-extensible-code.md
+            - name: Klassen
+              href: extensibility/extensible-classes.md
+            - name: Methoden
+              href: extensibility/extensible-methods.md
+            - name: Formulieren
+              href: extensibility/extensible-forms.md
+            - name: Uitgebreide-gegevenstypen
+              href: extensibility/extensible-edts.md
+            - name: Uitbreidbare enums
+              href: extensibility/extensible-enums.md
+            - name: Gemachtigden
+              href: extensibility/extensible-code-delegates.md
+            - name: Tabellen
+              href: extensibility/extensible-tables.md
+            - name: Uitbreidbaarheidskenmerken voor methoden
+              href: extensibility/extensibility-attributes.md
+            - name: Ingrijpende wijzigingen
+              href: extensibility/breaking-changes.md
+    - name: Prestaties
       items:
-      - name: Uitbreidbaarheidswijzigingen juli 2017
-        href: extensibility/changes-july-2017.md
-      - name: Uitbreidbaarheidswijzigingen in versie 7.3
-        href: extensibility/extensibility-changes-73.md
-      - name: Uitbreidbaarheidswijzigingen in versie 8.0
-        href: extensibility/changes-80.md
-      - name: Uitbreidbaarheidswijzigingen versie 8.0.1
-        href: extensibility/extensibility-changes-801.md
-      - name: Uitbreidbaarheidswijzigingen versie 8.0.2
-        href: extensibility/extensibility-changes-802.md
-      - name: Uitbreidbaarheidswijzigingen versie 8.0.3
-        href: extensibility/extensibility-changes-803.md
-      - name: Uitbreidbaarheidswijzigingen versie 8.0.4
-        href: extensibility/extensibility-changes-804.md
-      - name: Uitbreidbaarheidswijzigingen versie 8.1
-        href: extensibility/extensibility-changes-81.md
-      - name: Uitbreidbaarheidswijzigingen versie 8.1.1
-        href: extensibility/extensibility-changes-811.md
-      - name: Uitbreidbaarheidswijzigingen versie 8.1.2
-        href: extensibility/extensibility-changes-812.md
-      - name: Uitbreidbaarheidswijzigingen versie 8.1.3
-        href: extensibility/extensibility-changes-813.md
-      - name: Uitbreidbaarheidswijzigingen versie 10.0
-        href: extensibility/extensibility-changes-10.md
-    - name: Basisgegevens
+        - name: Traceren met Trace parser
+          href: perf-test/trace-trace-tutorial.md
+        - name: Performance SDK en meerdere gebruikers testen via Visual Studio Online
+          href: perf-test/perfsdk-tutorial.md
+        - name: Performance SDK en meerdere gebruikers testen in on-premises omgevingen
+          href: perf-test/perfsdk-tutorial-lbd.md
+        - name: Problemen vaststellen en prestatieproblemen analyseren met Trace parser
+          href: perf-test/trace-parser.md
+        - name: Prestatietimer
+          href: perf-test/performance-timer.md
+    - name: Ondersteuning voor testen in Visual Studio
       items:
-      - name: Ingrijpende aanpassingen
-        href: extensibility/intrusive-customizations.md
-      - name: Uitbreidingsmodel klasse
-        href: extensibility/class-extensions.md
-      - name: Klasse-extensie via methodewrapping en opdrachtstructuur
-        href: extensibility/method-wrapping-coc.md
-      - name: Richtlijnen voor namen van uitbreidingen
-        href: extensibility/naming-guidelines-extensions.md
-      - name: Modelbeperkingen loslaten om overlayering in uitbreidingen te herstructureren
-        href: extensibility/refactoring-over-layering.md
-    - name: Extensies maken
-      items:
-      - name: Waarden toevoegen aan enums
-        href: extensibility/add-enum-value.md
-      - name: Uitgebreide gegevenstypen wijzigen
-        href: extensibility/modify-edt.md
-      - name: Subklassen voor fabrieksmethoden registreren
-        href: extensibility/register-subclass-factory-methods.md
-      - name: Antwoorden met EventHandlerResult
-        href: extensibility/respond-event-handler-result.md
-      - name: De RunBase-klasse uitbreiden
-        href: extensibility/extend-runbase-class.md
-      - name: Toepassing starten aanpassen met gemachtigden
-        href: extensibility/startup-customizations.md
-      - name: Bestaande velden in een tabel wijzigen
-        href: extensibility/modify-existing-field.md
-      - name: Velden toevoegen aan tabellen
-        href: extensibility/add-field-extension.md
-      - name: Indexen toevoegen aan tabellen
-        href: extensibility/add-index.md
-      - name: Relaties toevoegen aan tabellen
-        href: extensibility/add-relation.md
-      - name: Tabeleigenschappen wijzigen
-        href: extensibility/modify-properties.md
-      - name: Methoden toevoegen aan tabellen
-        href: extensibility/add-method-table.md
-      - name: Zakelijke acties uitvoeren gedurende de levenscyclus van tabelrecords
-        href: extensibility/subscribe-table-events.md
-      - name: Gegevensbronnen toevoegen aan formulieren
-        href: extensibility/add-datasource.md
-      - name: Formulierbijschriften wijzigen
-        href: extensibility/change-caption-form.md
-      - name: Eigenschappen voor formulierbesturing wijzigen
-        href: extensibility/modify-control-properties.md
-      - name: Bereik van nummerreeksen verlengen
-        href: extensibility/extend-number-sequence-scope.md
-      - name: Nieuwe voorraaddimensies toevoegen
-        href: extensibility/inventory-dimensions.md
-      - name: Uitbreidbaarheid prijzen en kortingen
-        href: extensibility/pricing-app73.md
-      - name: Extensie tabeltoewijzing
-        href: extensibility/map-extensions.md
-      - name: Tabeltoewijzingen uitbreiden die worden gebruikt als interfaces
-        href: extensibility/maps-as-interfaces.md
-      - name: Tabeltoewijzingen uitbreiden die worden gebruikt voor versiebeheer
-        href: extensibility/maps-with-versioning.md
-      - name: Precisie decimaalteken uitbreiden voor geselecteerde gegevenstypen
-        href: extensibility/decimal-point-precision.md
-    - name: Uitbreidbare oplossingen maken
-      items:
-      - name: Uitbreidbare code schrijven
-        href: extensibility/writing-extensible-code.md
-      - name: Klassen
-        href: extensibility/extensible-classes.md
-      - name: Methoden
-        href: extensibility/extensible-methods.md
-      - name: Formulieren
-        href: extensibility/extensible-forms.md
-      - name: Uitgebreide-gegevenstypen
-        href: extensibility/extensible-edts.md
-      - name: Uitbreidbare enums
-        href: extensibility/extensible-enums.md
-      - name: Gemachtigden
-        href: extensibility/extensible-code-delegates.md
-      - name: Tabellen
-        href: extensibility/extensible-tables.md
-      - name: Uitbreidbaarheidskenmerken voor methoden
-        href: extensibility/extensibility-attributes.md
-      - name: Ingrijpende wijzigingen
-        href: extensibility/breaking-changes.md
-  - name: Prestaties
-    items:
-    - name: Traceren met Trace parser
-      href: perf-test/trace-trace-tutorial.md
-    - name: Performance SDK en meerdere gebruikers testen via Visual Studio Online
-      href: perf-test/perfsdk-tutorial.md
-    - name: Performance SDK en meerdere gebruikers testen in on-premises omgevingen
-      href: perf-test/perfsdk-tutorial-lbd.md
-    - name: Problemen vaststellen en prestatieproblemen analyseren met Trace parser
-      href: perf-test/trace-parser.md
-    - name: Prestatietimer
-      href: perf-test/performance-timer.md
-  - name: Ondersteuning voor testen in Visual Studio
-    items:
-    - name: Testen en validaties
-      href: perf-test/testing-validation.md
-    - name: Testprojecten in Visual Studio
-      href: perf-test/testing-support.md
-    - name: Topologieën implementeren die continue build- en testautomatisering ondersteunen
-      href: perf-test/continuous-build-test-automation.md
-    - name: SysTest filteren met klasse- en methodekenmerken
-      href: perf-test/systest-filtering.md
-    - name: Acceptatietestbibliotheek
-      href: perf-test/acceptance-test-library.md
-    - name: Navigatieconcepten
-      href: perf-test/concepts-navigation.md
-    - name: Methoden voor testgegevens
-      href: perf-test/test-data-methods.md
-    - name: Entiteiten in de acceptatietestbibliotheek
-      href: perf-test/concepts-entities.md
-    - name: Opdrachten acceptatietestbibliotheek
-      href: perf-test/concepts-commands.md
-    - name: Makers in de acceptatietestbibliotheek
-      href: perf-test/concepts-creators.md
-    - name: Query's in de acceptatietestbibliotheek
-      href: perf-test/concepts-queries.md
-    - name: Specificatieklassen
-      href: perf-test/concepts-specifications.md
-    - name: Wizard voor het genereren van code voor acceptatietestbibliotheek
-      href: perf-test/code-generation-wizard.md
-    - name: Aanbevolen procedures voor acceptatietestbibliotheek
-      href: perf-test/atl-best-practices.md
-    - name: Veelgestelde vragen
-      href: perf-test/atl-faq.md
-  - name: Ingangsdatum
-    href: dev-tools/date-effectivity.md
-  - name: ISV-licenties
-    href: dev-tools/isv-licensing.md
-  - name: ISV-licentie on-premises
-    href: dev-tools/isv-licensing-on-prem.md
+        - name: Testen en validaties
+          href: perf-test/testing-validation.md
+        - name: Testprojecten in Visual Studio
+          href: perf-test/testing-support.md
+        - name: Omgevingen implementeren die continue build- en testautomatisering ondersteunen
+          href: perf-test/continuous-build-test-automation.md
+        - name: SysTest filteren met klasse- en methodekenmerken
+          href: perf-test/systest-filtering.md
+        - name: Acceptatietestbibliotheek
+          href: perf-test/acceptance-test-library.md
+          items:
+            - name: Navigatieconcepten
+              href: perf-test/concepts-navigation.md
+            - name: Methoden voor testgegevens
+              href: perf-test/test-data-methods.md
+            - name: Entiteiten in de acceptatietestbibliotheek
+              href: perf-test/concepts-entities.md
+            - name: Opdrachten acceptatietestbibliotheek
+              href: perf-test/concepts-commands.md
+            - name: Makers in de acceptatietestbibliotheek
+              href: perf-test/concepts-creators.md
+            - name: Query's in de acceptatietestbibliotheek
+              href: perf-test/concepts-queries.md
+            - name: Specificatieklassen
+              href: perf-test/concepts-specifications.md
+            - name: Wizard voor het genereren van code voor acceptatietestbibliotheek
+              href: perf-test/code-generation-wizard.md
+            - name: Aanbevolen procedures voor acceptatietestbibliotheek
+              href: perf-test/atl-best-practices.md
+            - name: Veelgestelde vragen
+              href: perf-test/atl-faq.md
+    - name: Ingangsdatum
+      href: dev-tools/date-effectivity.md
+    - name: ISV-licenties
+      href: dev-tools/isv-licensing.md
+    - name: ISV-licentie on-premises
+      href: dev-tools/isv-licensing-on-prem.md
 - name: Ontwikkeling gebruikersinterface
   href: user-interface/user-interface-development-home-page.md
   items:
-  - name: Zelfstudies
-    items:
-    - name: Het formulier Type huurkosten opstellen
-      href: user-interface/build-rental-charge-type-form.md
-    - name: Het formulier Klant maken
-      href: user-interface/build-customer-form.md
-    - name: Navigatie maken
-      href: user-interface/build-navigation.md
-    - name: Werkgebieden maken
-      href: user-interface/build-workspace.md
-  - name: Formulieren
-    items:
-    - name: Navigatieconcepten
-      href: user-interface/page-navigation.md
-    - name: Paginalay-out in de webclient
-      href: user-interface/page-layout.md
-    - name: Symboollettertype Dynamics
-      href: user-interface/symbol-font.md
-    - name: Formulieren die aangepaste patronen gebruiken
-      href: user-interface/testing-forms-custom-patterns.md
-    - name: Deelbare, beveiligde URL's maken (diepe koppelingen)
-      href: user-interface/create-deep-links.md
-    - name: Toegankelijkheid in formulieren, producten en besturingselementen
-      href: user-interface/enable-accessibility.md
-    - name: Veldbeschrijvingen aanpassen
-      href: user-interface/customize-field-help.md
-  - name: Besturingselementen
-    items:
-    - name: Actiebesturingselementen
-      href: user-interface/action-controls.md
-    - name: Besturingselementen voor invoer en afmetingen van rasterkolommen
-      href: user-interface/sizing-input-controls-grid-columns.md
-    - name: Ondersteuning selectievakjes in besturingselementen voor structuren
-      href: user-interface/check-box-tree-controls.md
-    - name: Filteropties
-      href: user-interface/filtering.md
-    - name: Beheer PowerApps-host
-      href: user-interface/powerapps-host-control.md
-  - name: Vensterbeheer
-    items:
-    - name: Code contextmenu migreren
-      href: migration-upgrade/code-migration-context-menus.md
-    - name: Dubbelklikcode van muis migreren
-      href: migration-upgrade/code-migration-double-click.md
-    - name: Contextuele gegevensinvoer voor zoekopdrachten
-      href: user-interface/contextual-data-entry-lookups.md
-    - name: HierarchyViewer-besturingselement
-      href: user-interface/hierarchy-viewer-control.md
-    - name: Opzoekbesturingselementen
-      href: user-interface/lookups-controls.md
-    - name: Besturingselement voor bestandsupload
-      href: user-interface/file-upload-control.md
-    - name: Door systeem gedefinieerde knoppen
-      href: user-interface/system-defined-buttons.md
-    - name: Afbeeldingen op een pagina of in een raster
-      href: user-interface/images-form-grid.md
-    - name: Lettertype- en achtergrondkleuren voor invoer-, tabel- en rasterbesturingselementen
-      href: user-interface/specify-color-font-background-controls.md
-    - name: Ondersteuning voor talen van rechts naar links en bidirectionele tekst
-      href: user-interface/bidirectional-support.md
-    - name: Pictogrammen maken voor werkgebiedtegels
-      href: user-interface/create-icons-workspace-tiles.md
-    - name: Openbare JavaScript-API's voor uitbreidbare besturingselementen
-      href: user-interface/public-javascript-apis.md
-    - name: Controlelijst voor besturingselementen
-      href: user-interface/control-checklist.md
-  - name: Berichten
-    items:
-    - name: Functietoelichtingen
-      href: user-interface/feature-callouts.md
-    - name: Schuifregelaar en berichtvensters
-      href: user-interface/slider-messagebox.md
-    - name: API voor berichtencentrum, berichtenbalk en berichtgegevens
-      href: user-interface/messaging-api-center-bar-details.md
-    - name: FAQ voor berichtencentrum, berichtenbalk en berichtgegevens
-      href: user-interface/messaging-user.md
-  - name: Richtlijnen voor het primaire formulierpatroon
-    items:
-    - name: Formulierpatronen voor gemigreerde formulieren
-      href: user-interface/select-form-pattern.md
-    - name: Formulierstijlen en -patronen
-      href: user-interface/form-styles-patterns.md
-    - name: Visual Studio-invoegtoepassingen die formulierpatronen ondersteunen
-      href: user-interface/form-pattern-add-ins.md
-  - name: Formulierpatronen
-    items:
-    - name: Algemene formulierrichtlijnen
-      href: user-interface/general-form-guidelines.md
-    - name: Details van patroon voor modelformulier
-      href: user-interface/details-master-form-pattern.md
-    - name: Details van patroon voor transactieformulier
-      href: user-interface/details-transaction-form-pattern.md
-    - name: Formulierpatronen voor formuliergedeelte met sectielijst
-      href: user-interface/section-list-form-pattern.md
-    - name: Formulierpatroon voor lijstpagina
-      href: user-interface/list-page-form-pattern.md
-    - name: Formulierpatroon voor eenvoudige details
-      href: user-interface/simple-details-form-pattern.md
-    - name: Formulierpatroon voor eenvoudige lijst en details
-      href: user-interface/simple-list-details-form-pattern.md
-    - name: Formulierpatroon voor eenvoudige lijst
-      href: user-interface/simple-list-form-pattern.md
-    - name: Formulierpatroon voor iInhoudsopgave
-      href: user-interface/table-of-contents-form-pattern.md
-    - name: Formulierpatroon voor dubbele taak
-      href: user-interface/task-double-form-pattern.md
-    - name: Formulierpatroon voor enkele taak
-      href: user-interface/task-single-form-pattern.md
-    - name: Formulierpatroon voor Wizard
-      href: user-interface/wizard-form-pattern.md
-    - name: Formulierpatroon voor werkgebied
-      href: user-interface/workspace-form-pattern.md
-  - name: Secundaire formulierpatronen
-    items:
-    - name: Formulierpatroon voor geavanceerde selectie
-      href: user-interface/advanced-selection-form-pattern.md
-    - name: Formulierpatroon voor dialoogvenster
-      href: user-interface/dialog-form-pattern.md
-    - name: Formulierpatroon voor dialoogvenster voor verwijderen
-      href: user-interface/drop-dialog-form-pattern.md
-    - name: Opzoekformulierpatroon
-      href: user-interface/lookup-form-pattern.md
-    - name: Formulierpatronen voor feitenvak
-      href: user-interface/factbox-form-patterns.md
-  - name: Subpatronen
-    items:
-    - name: Subpatroon voor aangepaste filtergroep
-      href: user-interface/custom-filter-group-subpattern.md
-    - name: Subpatroon voor besturingselement dimensie-invoer
-      href: financial/dimension-entry-control-subpattern.md
-    - name: Subpatroon voor dimensie Expression Builder
-      href: financial/dimension-expression-builder-subpattern.md
-    - name: Subpatroon voor velden en veldgroepen
-      href: user-interface/fields-field-groups-subpattern.md
-    - name: Subpatroon voor filters en werkbalk
-      href: user-interface/filters-toolbar-subpattern.md
-    - name: Subpatroon voor invultekst
-      href: user-interface/fill-text-subpattern.md
-    - name: Subpatroon voor horizontale velden- en knoppengroep
-      href: user-interface/horizontal-fields-buttons-group-subpattern.md
-    - name: Subpatroon voor voorbeeld van afbeelding
-      href: user-interface/image-preview-subpattern.md
-    - name: Subpatroon voor deelvenster lijst
-      href: user-interface/list-panel-subpattern.md
-    - name: Subpatroon voor geneste eenvoudige lijst en details
-      href: user-interface/nested-simple-list-details-subpattern.md
-    - name: Formulierpatroon voor diagramsectie
-      href: user-interface/section-chart-form-pattern.md
-    - name: Subpatroon voor sectie Power BI
-      href: user-interface/section-powerbi-subpattern.md
-    - name: Subpatroon voor sectie met verwante koppelingen
-      href: user-interface/section-related-links-subpattern.md
-    - name: Subpatroon voor sectie met gestapeld diagram
-      href: user-interface/section-stacked-chart-subpattern.md
-    - name: Subpatroon voor sectie met tablijst
-      href: user-interface/section-tabbed-list-subpattern.md
-    - name: Subpatroon voor sectie met tegels
-      href: user-interface/section-tiles-subpattern.md
-    - name: Subpatroon voor velden in tabelvorm
-      href: user-interface/tabular-fields-subpattern.md
-    - name: Subpatroon voor werkbalk en velden
-      href: user-interface/toolbar-fields-subpattern.md
-    - name: Subpatroon voor werkbalk en lijst
-      href: user-interface/toolbar-list-subpattern.md
-    - name: Subpatroon voor filtergroep op werkgebiedpagina
-      href: user-interface/workspace-filter-group-subpattern.md
-  - name: Uitbreidbaarheid van besturingselement
-    items:
-    - name: Uitbreidbare besturingselementen maken
-      href: user-interface/build-extensible-control.md
-    - name: Sneltoetsen voor uitbreidbare besturingselementen
-      href: user-interface/keyboard-shortcuts-controls.md
-    - name: Programmeerverwijzing naar uitbreidbaar besturingselement
-      href: user-interface/extensible-control-programming-reference.md
+    - name: Zelfstudies
+      items:
+        - name: Het formulier Type huurkosten opstellen
+          href: user-interface/build-rental-charge-type-form.md
+        - name: Het formulier Klant maken
+          href: user-interface/build-customer-form.md
+        - name: Navigatie maken
+          href: user-interface/build-navigation.md
+        - name: Werkgebieden maken
+          href: user-interface/build-workspace.md
+    - name: Formulieren
+      items:
+        - name: Navigatieconcepten
+          href: user-interface/page-navigation.md
+        - name: Paginalay-out in de webclient
+          href: user-interface/page-layout.md
+        - name: Symboollettertype Dynamics
+          href: user-interface/symbol-font.md
+        - name: Formulieren die aangepaste patronen gebruiken
+          href: user-interface/testing-forms-custom-patterns.md
+        - name: 'Deelbare, beveiligde URL''s maken (diepe koppelingen)'
+          href: user-interface/create-deep-links.md
+        - name: 'Toegankelijkheid in formulieren, producten en besturingselementen'
+          href: user-interface/enable-accessibility.md
+        - name: Veldbeschrijvingen aanpassen
+          href: user-interface/customize-field-help.md
+    - name: Besturingselementen
+      items:
+        - name: Actiebesturingselementen
+          href: user-interface/action-controls.md
+        - name: Besturingselementen voor invoer en afmetingen van rasterkolommen
+          href: user-interface/sizing-input-controls-grid-columns.md
+        - name: Ondersteuning selectievakjes in besturingselementen voor structuren
+          href: user-interface/check-box-tree-controls.md
+        - name: Filteropties
+          href: user-interface/filtering.md
+        - name: Beheer PowerApps-host
+          href: user-interface/powerapps-host-control.md
+    - name: Vensterbeheer
+      items:
+        - name: Code contextmenu migreren
+          href: migration-upgrade/code-migration-context-menus.md
+        - name: Dubbelklikcode van muis migreren
+          href: migration-upgrade/code-migration-double-click.md
+        - name: Contextuele gegevensinvoer voor zoekopdrachten
+          href: user-interface/contextual-data-entry-lookups.md
+        - name: HierarchyViewer-besturingselement
+          href: user-interface/hierarchy-viewer-control.md
+        - name: Opzoekbesturingselementen
+          href: user-interface/lookups-controls.md
+        - name: Besturingselement voor bestandsupload
+          href: user-interface/file-upload-control.md
+        - name: Door systeem gedefinieerde knoppen
+          href: user-interface/system-defined-buttons.md
+        - name: Afbeeldingen op een pagina of in een raster
+          href: user-interface/images-form-grid.md
+        - name: 'Lettertype- en achtergrondkleuren voor invoer-, tabel- en rasterbesturingselementen'
+          href: user-interface/specify-color-font-background-controls.md
+        - name: Ondersteuning voor talen van rechts naar links en bidirectionele tekst
+          href: user-interface/bidirectional-support.md
+        - name: Pictogrammen maken voor werkgebiedtegels
+          href: user-interface/create-icons-workspace-tiles.md
+        - name: Openbare JavaScript-API's voor uitbreidbare besturingselementen
+          href: user-interface/public-javascript-apis.md
+        - name: Controlelijst voor besturingselementen
+          href: user-interface/control-checklist.md
+    - name: Berichten
+      items:
+        - name: Functietoelichtingen
+          href: user-interface/feature-callouts.md
+        - name: Schuifregelaar en berichtvensters
+          href: user-interface/slider-messagebox.md
+        - name: 'API voor berichtencentrum, berichtenbalk en berichtgegevens'
+          href: user-interface/messaging-api-center-bar-details.md
+        - name: 'FAQ voor berichtencentrum, berichtenbalk en berichtgegevens'
+          href: user-interface/messaging-user.md
+    - name: Richtlijnen voor het primaire formulierpatroon
+      items:
+        - name: Formulierpatronen voor gemigreerde formulieren
+          href: user-interface/select-form-pattern.md
+        - name: Formulierstijlen en -patronen
+          href: user-interface/form-styles-patterns.md
+        - name: Visual Studio-invoegtoepassingen die formulierpatronen ondersteunen
+          href: user-interface/form-pattern-add-ins.md
+    - name: Formulierpatronen
+      items:
+        - name: Algemene formulierrichtlijnen
+          href: user-interface/general-form-guidelines.md
+        - name: Details van patroon voor modelformulier
+          href: user-interface/details-master-form-pattern.md
+        - name: Details van patroon voor transactieformulier
+          href: user-interface/details-transaction-form-pattern.md
+        - name: Formulierpatronen voor formuliergedeelte met sectielijst
+          href: user-interface/section-list-form-pattern.md
+        - name: Formulierpatroon voor lijstpagina
+          href: user-interface/list-page-form-pattern.md
+        - name: Formulierpatroon voor eenvoudige details
+          href: user-interface/simple-details-form-pattern.md
+        - name: Formulierpatroon voor eenvoudige lijst en details
+          href: user-interface/simple-list-details-form-pattern.md
+        - name: Formulierpatroon voor eenvoudige lijst
+          href: user-interface/simple-list-form-pattern.md
+        - name: Formulierpatroon voor iInhoudsopgave
+          href: user-interface/table-of-contents-form-pattern.md
+        - name: Formulierpatroon voor dubbele taak
+          href: user-interface/task-double-form-pattern.md
+        - name: Formulierpatroon voor enkele taak
+          href: user-interface/task-single-form-pattern.md
+        - name: Formulierpatroon voor Wizard
+          href: user-interface/wizard-form-pattern.md
+        - name: Formulierpatroon voor werkgebied
+          href: user-interface/workspace-form-pattern.md
+    - name: Secundaire formulierpatronen
+      items:
+        - name: Formulierpatroon voor geavanceerde selectie
+          href: user-interface/advanced-selection-form-pattern.md
+        - name: Formulierpatroon voor dialoogvenster
+          href: user-interface/dialog-form-pattern.md
+        - name: Formulierpatroon voor dialoogvenster voor verwijderen
+          href: user-interface/drop-dialog-form-pattern.md
+        - name: Opzoekformulierpatroon
+          href: user-interface/lookup-form-pattern.md
+        - name: Formulierpatronen voor feitenvak
+          href: user-interface/factbox-form-patterns.md
+    - name: Subpatronen
+      items:
+        - name: Subpatroon voor aangepaste filtergroep
+          href: user-interface/custom-filter-group-subpattern.md
+        - name: Subpatroon voor besturingselement dimensie-invoer
+          href: financial/dimension-entry-control-subpattern.md
+        - name: Subpatroon voor dimensie Expression Builder
+          href: financial/dimension-expression-builder-subpattern.md
+        - name: Subpatroon voor velden en veldgroepen
+          href: user-interface/fields-field-groups-subpattern.md
+        - name: Subpatroon voor filters en werkbalk
+          href: user-interface/filters-toolbar-subpattern.md
+        - name: Subpatroon voor invultekst
+          href: user-interface/fill-text-subpattern.md
+        - name: Subpatroon voor horizontale velden- en knoppengroep
+          href: user-interface/horizontal-fields-buttons-group-subpattern.md
+        - name: Subpatroon voor voorbeeld van afbeelding
+          href: user-interface/image-preview-subpattern.md
+        - name: Subpatroon voor deelvenster lijst
+          href: user-interface/list-panel-subpattern.md
+        - name: Subpatroon voor geneste eenvoudige lijst en details
+          href: user-interface/nested-simple-list-details-subpattern.md
+        - name: Formulierpatroon voor diagramsectie
+          href: user-interface/section-chart-form-pattern.md
+        - name: Subpatroon voor sectie Power BI
+          href: user-interface/section-powerbi-subpattern.md
+        - name: Subpatroon voor sectie met verwante koppelingen
+          href: user-interface/section-related-links-subpattern.md
+        - name: Subpatroon voor sectie met gestapeld diagram
+          href: user-interface/section-stacked-chart-subpattern.md
+        - name: Subpatroon voor sectie met tablijst
+          href: user-interface/section-tabbed-list-subpattern.md
+        - name: Subpatroon voor sectie met tegels
+          href: user-interface/section-tiles-subpattern.md
+        - name: Subpatroon voor velden in tabelvorm
+          href: user-interface/tabular-fields-subpattern.md
+        - name: Subpatroon voor werkbalk en velden
+          href: user-interface/toolbar-fields-subpattern.md
+        - name: Subpatroon voor werkbalk en lijst
+          href: user-interface/toolbar-list-subpattern.md
+        - name: Subpatroon voor filtergroep op werkgebiedpagina
+          href: user-interface/workspace-filter-group-subpattern.md
     - name: Uitbreidbaarheid van besturingselement
-      href: user-interface/control-extensibility.md
-    - name: Lokaliseerbare etiketten maken
-      href: user-interface/create-localizable-labels-client.md
-    - name: Richtlijnen voor indeling uitbreidbaar besturingselement
-      href: user-interface/extensible-controls-layout.md
-    - name: De tekst bepalen die Taakrecorder genereert voor een besturingselement
-      href: user-interface/task-recorder-control-text.md
-  - name: Werkgebieden maken
-    items:
-    - name: Operationele werkgebieden maken
-      href: user-interface/build-workspaces.md
-    - name: Caching tegel en lijst voor werkgebieden
-      href: user-interface/tile-list-caching-workspaces.md
-  - name: Taakrecorder
-    href: user-interface/task-recorder.md
-    items:
-    - name: Snelzoekgids voor Taakrecorder
-      href: user-interface/task-recorder-quick-reference.md
-    - name: Documentatie of training maken met taakregistraties
-      href: user-interface/task-recorder-training-docs.md
+      items:
+        - name: Uitbreidbare besturingselementen maken
+          href: user-interface/build-extensible-control.md
+        - name: Sneltoetsen voor uitbreidbare besturingselementen
+          href: user-interface/keyboard-shortcuts-controls.md
+        - name: Programmeerverwijzing naar uitbreidbaar besturingselement
+          href: user-interface/extensible-control-programming-reference.md
+        - name: Uitbreidbaarheid van besturingselement
+          href: user-interface/control-extensibility.md
+        - name: Lokaliseerbare etiketten maken
+          href: user-interface/create-localizable-labels-client.md
+        - name: Richtlijnen voor indeling uitbreidbaar besturingselement
+          href: user-interface/extensible-controls-layout.md
+        - name: De tekst bepalen die Taakrecorder genereert voor een besturingselement
+          href: user-interface/task-recorder-control-text.md
+    - name: Werkgebieden maken
+      items:
+        - name: Operationele werkgebieden maken
+          href: user-interface/build-workspaces.md
+        - name: Caching tegel en lijst voor werkgebieden
+          href: user-interface/tile-list-caching-workspaces.md
+    - name: Taakrecorder
+      href: user-interface/task-recorder.md
+      items:
+        - name: Snelzoekgids voor Taakrecorder
+          href: user-interface/task-recorder-quick-reference.md
+        - name: Documentatie of training maken met taakregistraties
+          href: user-interface/task-recorder-training-docs.md
 - name: Mobiel platform
   href: mobile-apps/platform/mobile-platform-home-page.md
   items:
-  - name: Aan de slag
-    href: mobile-apps/platform/mobile-platform-getting-started.md
-    items:
-    - name: Overwegingen voor architectuur en ontwerp
-      href: mobile-apps/platform/mobile-platform-architecture.md
-    - name: Gebeurtenissen bedrijfslogica
-      href: mobile-apps/platform/business-logic-events-overview.md
-    - name: Richtlijnen voor het ontwerpen van pagina's
-      href: mobile-apps/platform/page-design-guidelines.md
-    - name: Richtlijnen voor het ontwerpen van acties
-      href: mobile-apps/platform/action-design-guidelines.md
-    - name: Vereisten voor het ontwerpen van formulieren
-      href: mobile-apps/platform/form-design-requirements.md
-  - name: Algemene taken
-    items:
-    - name: Werkgebieden configureren met behulp van de klasse SysAppWorkspace
-      href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
-    - name: Velden op mobiele app-pagina's maken waarop kan worden geklikt
-      href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
-    - name: Totalen in velden weergeven
-      href: mobile-apps/platform/scenarios/display-count-workspace.md
-    - name: Mobiele werkgebieden helpen beveiligen
-      href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
-    - name: Mobiele werkgebieden lokaliseren
-      href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
-    - name: Velden verplicht maken met behulp van klassen voor werkgebieden
-      href: mobile-apps/platform/scenarios/make-field-mandatory.md
-  - name: Referentiemateriaal voor serverontwikkeling
-    items:
-    - name: Serverontwikkeling (werkgebied X++-API's)
-      href: mobile-apps/platform/mobile-workspace-server-apis.md
-  - name: Referentiemateriaal voor clientontwikkeling
-    items:
-    - name: API's voor clientontwerp
-      href: mobile-apps/platform/scenarios/client-api-design-overview.md
-    - name: Client-API's
-      href: mobile-apps/platform/client-apis/client-apis-reference.md
+    - name: Aan de slag
+      href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
-      - name: Opsomming PageState
-        href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
-      - name: Module Toepassing
-        href: mobile-apps/platform/client-apis/modules/services-application.md
-      - name: Module Uitstellen
-        href: mobile-apps/platform/client-apis/modules/defer.md
-      - name: Module Gebeurtenis
-        href: mobile-apps/platform/client-apis/modules/event-ievent.md
-      - name: Module Besturingselement
-        href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
-      - name: Module Container
-        href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
-      - name: Module Veld
-        href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
-      - name: Module Bestand uploaden
-        href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
-      - name: Module Groep
-        href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
-      - name: Module Hyperlink
-        href: mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md
-      - name: Module Afbeelding
-        href: mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md
-      - name: Module Invoer
-        href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md
-      - name: Module Lijst
-        href: mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md
-      - name: Module Opzoeken
-        href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md
-      - name: Module Meerdere zoeken
-        href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
-      - name: Module Pagina
-        href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
-      - name: Module Pagelink
-        href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
-      - name: Module Onderdeel
-        href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
-      - name: Module Services
-        href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
-      - name: Module Waarde
-        href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
-      - name: Type toepassing
-        href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
-      - name: Type ApplicationMetadata
-        href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
-      - name: Type AsyncService
-        href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md
-      - name: Type CacheService
-        href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md
-      - name: Type CompleteEventArgs
-        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md
-      - name: Type ContainerControl
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md
-      - name: Type ContainerControlDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md
-      - name: Type ContainerControlMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md
-      - name: Type ControlMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
-      - name: Type DataService
-        href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
-      - name: Type Deferred<T>
-        href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
-      - name: Type Design
-        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
-      - name: Type EventHook<T>
-        href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
-      - name: Veldtype
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
-      - name: Type FieldDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
-      - name: Type FieldMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md
-      - name: Type FileUploader
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md
-      - name: Type FileUploaderDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md
-      - name: Type FileUploaderMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
-      - name: Type GenericValue
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
-      - name: Type getDataSource
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
-      - name: Groepstype
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
-      - name: Type GroupDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
-      - name: Type GroupMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md
-      - name: Type HyperLink
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md
-      - name: Type HyperLinkDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
-      - name: Type HyperLinkMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
-      - name: Afbeeldingstype
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
-      - name: Type ImageDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
-      - name: Type ImageMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md
-      - name: Type InputControl
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md
-      - name: Type InputControlDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
-      - name: Type InputControlMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
-      - name: Overzichttype
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
-      - name: Type ListDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
-      - name: Type ListMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
-      - name: Opzoektype
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
-      - name: Type LookupDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
-      - name: Type LookupMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md
-      - name: Type MetadataService
-        href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md
-      - name: Type MultiLookup
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md
-      - name: Type MultiLookupDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md
-      - name: Type MultiLookupMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md
-      - name: Type NavigationArgs
-        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
-      - name: Type NumberSequenceConfig
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
-      - name: Paginatype
-        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
-      - name: Type PageData
-        href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
-      - name: Type PageLink
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md
-      - name: Type PageLinkDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md
-      - name: Type PageLinkMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md
-      - name: Type PageMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md
-      - name: Type PageOptions
-        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md
-      - name: Type PageSubmitArgs
-        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
-      - name: Type PageTarget
-        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
-      - name: Type Part
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
-      - name: Type PartDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
-      - name: Type PartMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
-      - name: Rijtype
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
-      - name: Waardetype
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
-      - name: Type ValueDesign
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
-      - name: Type ValueMetadata
-        href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: Overwegingen voor architectuur en ontwerp
+          href: mobile-apps/platform/mobile-platform-architecture.md
+        - name: Gebeurtenissen bedrijfslogica
+          href: mobile-apps/platform/business-logic-events-overview.md
+        - name: Richtlijnen voor het ontwerpen van pagina's
+          href: mobile-apps/platform/page-design-guidelines.md
+        - name: Richtlijnen voor het ontwerpen van acties
+          href: mobile-apps/platform/action-design-guidelines.md
+        - name: Vereisten voor het ontwerpen van formulieren
+          href: mobile-apps/platform/form-design-requirements.md
+    - name: Algemene taken
+      items:
+        - name: Werkgebieden configureren met behulp van de klasse SysAppWorkspace
+          href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
+        - name: Velden op mobiele app-pagina's maken waarop kan worden geklikt
+          href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
+        - name: Totalen in velden weergeven
+          href: mobile-apps/platform/scenarios/display-count-workspace.md
+        - name: Mobiele werkgebieden helpen beveiligen
+          href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
+        - name: Mobiele werkgebieden lokaliseren
+          href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
+        - name: Velden verplicht maken met behulp van klassen voor werkgebieden
+          href: mobile-apps/platform/scenarios/make-field-mandatory.md
+    - name: Referentiemateriaal voor serverontwikkeling
+      items:
+        - name: Serverontwikkeling (werkgebied X++-API's)
+          href: mobile-apps/platform/mobile-workspace-server-apis.md
+    - name: Referentiemateriaal voor clientontwikkeling
+      items:
+        - name: API's voor clientontwerp
+          href: mobile-apps/platform/scenarios/client-api-design-overview.md
+        - name: Client-API's
+          href: mobile-apps/platform/client-apis/client-apis-reference.md
+          items:
+            - name: Opsomming PageState
+              href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
+            - name: Module Toepassing
+              href: mobile-apps/platform/client-apis/modules/services-application.md
+            - name: Module Uitstellen
+              href: mobile-apps/platform/client-apis/modules/defer.md
+            - name: Module Gebeurtenis
+              href: mobile-apps/platform/client-apis/modules/event-ievent.md
+            - name: Module Besturingselement
+              href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
+            - name: Module Container
+              href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
+            - name: Module Veld
+              href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
+            - name: Module Bestand uploaden
+              href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
+            - name: Module Groep
+              href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
+            - name: Module Hyperlink
+              href: mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md
+            - name: Module Afbeelding
+              href: mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md
+            - name: Module Invoer
+              href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md
+            - name: Module Lijst
+              href: mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md
+            - name: Module Opzoeken
+              href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md
+            - name: Module Meerdere zoeken
+              href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
+            - name: Module Pagina
+              href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
+            - name: Module Pagelink
+              href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
+            - name: Module Onderdeel
+              href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
+            - name: Module Services
+              href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
+            - name: Module Waarde
+              href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
+            - name: Type toepassing
+              href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
+            - name: Type ApplicationMetadata
+              href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
+            - name: Type AsyncService
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md
+            - name: Type CacheService
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md
+            - name: Type CompleteEventArgs
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md
+            - name: Type ContainerControl
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md
+            - name: Type ContainerControlDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md
+            - name: Type ContainerControlMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md
+            - name: Type ControlMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
+            - name: Type DataService
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
+            - name: Type Deferred<T>
+              href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
+            - name: Type Design
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
+            - name: Type EventHook<T>
+              href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
+            - name: Veldtype
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
+            - name: Type FieldDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
+            - name: Type FieldMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md
+            - name: Type FileUploader
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md
+            - name: Type FileUploaderDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md
+            - name: Type FileUploaderMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
+            - name: Type GenericValue
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
+            - name: Type getDataSource
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
+            - name: Groepstype
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
+            - name: Type GroupDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
+            - name: Type GroupMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md
+            - name: Type HyperLink
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md
+            - name: Type HyperLinkDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
+            - name: Type HyperLinkMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
+            - name: Afbeeldingstype
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
+            - name: Type ImageDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
+            - name: Type ImageMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md
+            - name: Type InputControl
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md
+            - name: Type InputControlDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
+            - name: Type InputControlMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
+            - name: Overzichttype
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
+            - name: Type ListDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
+            - name: Type ListMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
+            - name: Opzoektype
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
+            - name: Type LookupDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
+            - name: Type LookupMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md
+            - name: Type MetadataService
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md
+            - name: Type MultiLookup
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md
+            - name: Type MultiLookupDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md
+            - name: Type MultiLookupMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md
+            - name: Type NavigationArgs
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
+            - name: Type NumberSequenceConfig
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
+            - name: Paginatype
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
+            - name: Type PageData
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
+            - name: Type PageLink
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md
+            - name: Type PageLinkDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md
+            - name: Type PageLinkMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md
+            - name: Type PageMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md
+            - name: Type PageOptions
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md
+            - name: Type PageSubmitArgs
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
+            - name: Type PageTarget
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
+            - name: Type Part
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
+            - name: Type PartDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
+            - name: Type PartMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
+            - name: Rijtype
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
+            - name: Waardetype
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
+            - name: Type ValueDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
+            - name: Type ValueMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: Algemene verordening gegevensbescherming (AVG)
   href: gdpr/gdpr-guide.md
   items:
-  - name: Bronnen voor het reageren op AVG-aanvragen
-    href: gdpr/gdpr-home-page.md
-    items:
-    - name: Classificaties van activa
-      href: gdpr/gdpr-asset-classification-values.md
-    - name: Rapport voor persoon zoeken
-      href: gdpr/gdpr-person-search-report.md
-    - name: Rapport voor persoon zoeken uitbreiden
-      href: gdpr/gdpr-extend-person-search-report.md
-    - name: Toegang tot vertrouwelijke gegevens beheren
-      href: gdpr/gdpr-auditing-sensitive-data.md
-    - name: Reageren op aanvragen voor persoonlijke gegevens met behulp van Talent
-      href: gdpr/respond-dsr-request-talent.md
-    - name: Reageren op aanvragen voor persoonlijke gegevens in AX 2012
-      href: gdpr/gdpr-ax2012.md
-    - name: AVG-gegevensaanvragen voor LCS
-      href: gdpr/gdpr-lcs.md
+    - name: Bronnen voor het reageren op AVG-aanvragen
+      href: gdpr/gdpr-home-page.md
+      items:
+        - name: Classificaties van activa
+          href: gdpr/gdpr-asset-classification-values.md
+        - name: Rapport voor persoon zoeken
+          href: gdpr/gdpr-person-search-report.md
+        - name: Rapport voor persoon zoeken uitbreiden
+          href: gdpr/gdpr-extend-person-search-report.md
+        - name: Toegang tot vertrouwelijke gegevens beheren
+          href: gdpr/gdpr-auditing-sensitive-data.md
+        - name: Reageren op aanvragen voor persoonlijke gegevens met behulp van Talent
+          href: gdpr/respond-dsr-request-talent.md
+        - name: Reageren op aanvragen voor persoonlijke gegevens in AX 2012
+          href: gdpr/gdpr-ax2012.md
+        - name: AVG-gegevensaanvragen voor LCS
+          href: gdpr/gdpr-lcs.md
 - name: Continue levering
   href: dev-tools/continuous-delivery-home-page.md
   items:
-  - name: Veelgestelde vragen over ontwikkeling en continue levering
-    href: dev-tools/continuous-delivery-faq.md
-  - name: Testpakketten uitsluiten van build-uitvoer
-    href: dev-tools/exclude-test-packages.md
-  - name: Modellen van derden en runtime-pakketten beheren met bronbeheer
-    href: dev-tools/manage-runtime-packages.md
-  - name: Modelversies bijwerken in de geautomatiseerde build
-    href: dev-tools/version-models-build.md
+    - name: Veelgestelde vragen over ontwikkeling en continue levering
+      href: dev-tools/continuous-delivery-faq.md
+    - name: Testpakketten uitsluiten van build-uitvoer
+      href: dev-tools/exclude-test-packages.md
+    - name: Modellen van derden en runtime-pakketten beheren met bronbeheer
+      href: dev-tools/manage-runtime-packages.md
+    - name: Modelversies bijwerken in de geautomatiseerde build
+      href: dev-tools/version-models-build.md
 - name: Oplossingen vrijgeven via Lifecycle Services
   items:
-  - name: Ontwikkelen en vrijgeven
-    href: lcs-solutions/lcs-solutions-app-source.md
-  - name: Uitbrengen en publiceren
-    href: lcs-solutions/marketing-content-lcs-solutions.md
-  - name: Methodologieën toevoegen
-    href: lcs-solutions/methodologies-lcs-solutions.md
-  - name: Modelleertool bedrijfsprocessen instellen voor bibliotheken
-    href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
-  - name: Code migreren
-    href: lcs-solutions/code-migration-lcs-solutions.md
-  - name: Toepassingen valideren
-    href: lcs-solutions/app-validation-lcs-solutions.md
-  - name: Gegevenspakketten verwerken en verbruiken
-    href: lcs-solutions/process-data-packages-lcs-solutions.md
-  - name: Back-up maken van oplossingendatabases
-    href: lcs-solutions/database-backup-lcs-solutions.md
-  - name: Lokalisatie en wettelijk voorgeschreven functies
-    href: lcs-solutions/country-region.md
-    items:
-    - name: Classificatie van lokalisatiefuncties
-      href: lcs-solutions/classify-localization-features.md
-    - name: Land-/regiocontext toepassen
-      href: lcs-solutions/apply-country-context.md
-    - name: Wettelijk voorgeschreven certificaatgegevens in functietitels
-      href: lcs-solutions/regulatory-certifications.md
-    - name: Wettelijk voorgeschreven updates
-      href: lcs-solutions/regulatory-watch-communication.md
-    - name: Scheiding van lokalisatiemodellen
-      href: lcs-solutions/separate-localization-models.md
-    - name: Wettelijke waarschuwingen indienen
-      href: lcs-solutions/submit-localization-alerts.md
+    - name: Ontwikkelen en vrijgeven
+      href: lcs-solutions/lcs-solutions-app-source.md
+    - name: Uitbrengen en publiceren
+      href: lcs-solutions/marketing-content-lcs-solutions.md
+    - name: Methodologieën toevoegen
+      href: lcs-solutions/methodologies-lcs-solutions.md
+    - name: Modelleertool bedrijfsprocessen instellen voor bibliotheken
+      href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
+    - name: Code migreren
+      href: lcs-solutions/code-migration-lcs-solutions.md
+    - name: Toepassingen valideren
+      href: lcs-solutions/app-validation-lcs-solutions.md
+    - name: Gegevenspakketten verwerken en verbruiken
+      href: lcs-solutions/process-data-packages-lcs-solutions.md
+    - name: Back-up maken van oplossingendatabases
+      href: lcs-solutions/database-backup-lcs-solutions.md
+    - name: Lokalisatie en wettelijk voorgeschreven functies
+      href: lcs-solutions/country-region.md
+      items:
+        - name: Classificatie van lokalisatiefuncties
+          href: lcs-solutions/classify-localization-features.md
+        - name: Land-/regiocontext toepassen
+          href: lcs-solutions/apply-country-context.md
+        - name: Wettelijk voorgeschreven certificaatgegevens in functietitels
+          href: lcs-solutions/regulatory-certifications.md
+        - name: Wettelijk voorgeschreven updates
+          href: lcs-solutions/regulatory-watch-communication.md
+        - name: Scheiding van lokalisatiemodellen
+          href: lcs-solutions/separate-localization-models.md
+        - name: Wettelijke waarschuwingen indienen
+          href: lcs-solutions/submit-localization-alerts.md
 - name: Financiële ontwikkeling
   href: financial/financial-dev-home-page.md
   items:
-  - name: Ondersteuning voor andere dimensiepatronen
-    href: financial/dimensions.md
-  - name: Dimensies toevoegen aan Excel-sjablonen
-    href: financial/dimensions-overview.md
-  - name: Ondersteuning voor besturingselementen Dimensie-invoer in dialoogvensters
-    href: financial/dimension-entry-control-dialog-support.md
-  - name: Standaard besturingselementen voor dimensies migreren naar besturingselementen Dimensie-invoer
-    href: financial/dimension-entry-control-migration.md
-  - name: Besturingselement Dimensie-invoer uitrollen
-    href: financial/dimension-entry-control-uptake.md
-  - name: Subpatroon voor dimensie Expression Builder
-    href: financial/dimension-expression-builder-subpattern.md
-  - name: Configuratie van financiële dimensies
-    href: financial/financial-dimension-configuration-integration.md
-  - name: Activering van financiële dimensies
-    href: financial/activate-financial-dimensions.md
-  - name: Financiële dimensies en hoofdrekeningen in talen die van rechts naar links worden geschreven
-    href: financial/financial-dimensions-main-accounts-right-left-language.md
-  - name: Archieftabellen bruikbaar maken als financiële dimensies
-    href: financial/dimensionable-entities.md
-  - name: Besturingselementen Gesegmenteerde invoer migreren
-    href: financial/segmented-entry-control-conversion.md
-  - name: Ondersteuning voor besturingselementen Gesegmenteerde invoer in dialoogvensters
-    href: financial/segmented-entry-control-dialog-support.md
-  - name: Metagegevens ontwerptijd voor besturingselementen Gesegmenteerde invoer
-    href: financial/segmented-entry-control-metadata-specification.md
-  - name: Richtlijnen voor migratie voor besturingselementen Gesegmenteerde invoer
-    href: financial/segmented-entry-control-migration-guidance.md
-  - name: Parm-methoden voor besturingselementen Gesegmenteerde invoer
-    href: financial/segmented-entry-control-parm-method-specification.md
-  - name: Zoekwaarden voor financiële dimensies toevoegen aan Excel-sjablonen
-    href: financial/add-dimensions-excel-templates.md
-  - name: Wisselkoersproviders maken
-    href: financial/create-exchange-rate-providers.md
-  - name: Wisselkoersproviders maken in Finance and Operations versie 8.0
-    href: financial/create-exchange-rate-8.md
+    - name: Raamwerk van financiële dimensies
+      items:
+        - name: Combinaties van grootboekrekeningen
+          href: financial/LedgerAccountCombinations.md
+        - name: Financiële standaarddimensies
+          href: financial/dimension-defaulting.md
+        - name: Ondersteuning voor andere dimensiepatronen
+          href: financial/dimensions.md
+        - name: Dimensies toevoegen aan Excel-sjablonen
+          href: financial/dimensions-overview.md
+        - name: Ondersteuning voor besturingselementen Dimensie-invoer in dialoogvensters
+          href: financial/dimension-entry-control-dialog-support.md
+        - name: Standaard besturingselementen voor dimensies migreren naar besturingselementen Dimensie-invoer
+          href: financial/dimension-entry-control-migration.md
+        - name: Besturingselement Dimensie-invoer uitrollen
+          href: financial/dimension-entry-control-uptake.md
+        - name: Subpatroon voor dimensie Expression Builder
+          href: financial/dimension-expression-builder-subpattern.md
+        - name: Configuratie van financiële dimensies
+          href: financial/financial-dimension-configuration-integration.md
+        - name: Activering van financiële dimensies
+          href: financial/activate-financial-dimensions.md
+        - name: Financiële dimensies en hoofdrekeningen in talen die van rechts naar links worden geschreven
+          href: financial/financial-dimensions-main-accounts-right-left-language.md
+        - name: Archieftabellen bruikbaar maken als financiële dimensies
+          href: financial/dimensionable-entities.md
+        - name: Zoekwaarden voor financiële dimensies toevoegen aan Excel-sjablonen
+          href: financial/add-dimensions-excel-templates.md
+    - name: Besturingselement voor gesegmenteerde invoer
+      items:
+        - name: Besturingselementen voor migreren van gesegmenteerde invoer
+          href: financial/segmented-entry-control-conversion.md
+        - name: Ondersteuning voor besturingselementen voor gesegmenteerde invoer in dialoogvensters
+          href: financial/segmented-entry-control-dialog-support.md
+        - name: Metagegevens ontwerptijd voor besturingselementen Gesegmenteerde invoer
+          href: financial/segmented-entry-control-metadata-specification.md
+        - name: Richtlijnen voor migratie voor besturingselementen voor gesegmenteerde invoer
+          href: financial/segmented-entry-control-migration-guidance.md
+        - name: Parm-methoden voor besturingselementen voor gesegmenteerde invoer
+          href: financial/segmented-entry-control-parm-method-specification.md
+    - name: Wisselkoersproviders voor valuta's
+      items:
+        - name: Wisselkoersproviders maken
+          href: financial/create-exchange-rate-providers.md
+        - name: Wisselkoersproviders maken in Finance and Operations versie 8.0
+          href: financial/create-exchange-rate-8.md
 - name: Ontwikkeling toeleveringsketen
   items:
-  - name: Handleiding voor ontwikkeling van Gantt-besturingselement
-    href: user-interface/gantt-development-guide.md
-  - name: Een nieuwe transportbeheerengine maken
-    href: ../supply-chain/transportation/create-new-transportation-management-engine.md
+    - name: Handleiding voor ontwikkeling van Gantt-besturingselement
+      href: user-interface/gantt-development-guide.md
+    - name: Een nieuwe transportbeheerengine maken
+      href: ../supply-chain/transportation/create-new-transportation-management-engine.md
 - name: Implementatie
   items:
-  - name: Demo-omgevingen implementeren
-    href: deployment/deploy-demo-environment.md
-  - name: Cloudimplementatie
-    href: deployment/cloud-deployment-overview.md
-    items:
-    - name: Selfservice-implementatie
-      href: deployment/infrastructure-stack.md
+    - name: Demo-omgevingen implementeren
+      href: deployment/deploy-demo-environment.md
+    - name: Cloudimplementatie
+      href: deployment/cloud-deployment-overview.md
       items:
-      - name: Een nieuwe omgeving implementeren
-        href: deployment/deployenvironment-newinfrastructure.md
-      - name: Veelgestelde vragen over implementatie
-        href: deployment/deploymentFAQ.md
-      - name: Bekende problemen met selfservice-implementatie
-        href: deployment/known-issues-new-deployment-experience.md
-      - name: Onderhoudstaken voor implementaties
-        href: deployment/maintenanceoperationsguide-newinfrastructure.md
-      - name: Een omgeving bijwerken
-        href: deployment/updateenvironment-newinfrastructure.md
-      - name: Problemen oplossen met omgevingen die via selfservice-implementatie zijn geïmplementeerd
-        href: deployment/troubleshoot-newinfrastructure.md
-    - name: Onboarding Azure Resource Manager voltooien
-      href: deployment/arm-onboarding.md
-    - name: Azure ExpressRoute en Finance and Operations
-      href: deployment/expressroute.md
-    - name: Architectuur voor Finance and Operations
-      href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
-    - name: Updates toepassen op cloudomgevingen
-      href: deployment/apply-deployable-package-system.md
-    - name: Updates en uitbreidingen toepassen op in de cloud gehoste Retail-kanaalonderdelen
-      href: deployment/Update-retail-channel.md
-    - name: Retail Cloud Scale Unit initialiseren
-      href: deployment/Initialize-Retail-Channels.md
-  - name: On-premises implementatie
-    href: deployment/on-premises-deployment-landing-page.md
-    items:
-    - name: Optie voor on-premises implementatie
-      href: deployment/on-premises-overview.md
-    - name: On-premises implementaties plannen en voorbereiden
-      href: deployment/plan-onprem-deployment.md
-    - name: Vereisten voor omvang hardware
-      href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-    - name: On-premises projecten instellen
-      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-    - name: On-premises omgevingen instellen en implementeren
-      href: deployment/setup-deploy-on-premises-environments.md
+        - name: Selfservice-implementatie
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: Een nieuwe omgeving implementeren
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: Veelgestelde vragen over implementatie
+              href: deployment/deploymentFAQ.md
+            - name: Bekende problemen met selfservice-implementatie
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: Onderhoudstaken voor implementaties
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: Een omgeving bijwerken
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: Problemen oplossen met omgevingen die via selfservice-implementatie zijn geïmplementeerd
+              href: deployment/troubleshoot-newinfrastructure.md
+        - name: Onboarding Azure Resource Manager voltooien
+          href: deployment/arm-onboarding.md
+        - name: Azure ExpressRoute en Finance and Operations
+          href: deployment/expressroute.md
+        - name: Architectuur voor Finance and Operations
+          href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+        - name: Updates toepassen op cloudomgevingen
+          href: deployment/apply-deployable-package-system.md
+        - name: Updates en uitbreidingen toepassen op in de cloud gehoste Retail-kanaalonderdelen
+          href: deployment/Update-retail-channel.md
+        - name: Retail Cloud Scale Unit initialiseren
+          href: deployment/Initialize-Retail-Channels.md
+        - name: Gegevenslocatie voor Retail
+          href: deployment/retail-data-residency.md
+    - name: On-premises implementatie
+      href: deployment/on-premises-deployment-landing-page.md
       items:
-      - name: On-premises omgevingen implementeren (Platform update 12 en later)
-        href: deployment/setup-deploy-on-premises-pu12.md
-      - name: On-premises omgevingen implementeren (Platform updates 8 en 11)
-        href: deployment/setup-deploy-on-premises-pu8-pu11.md
-      - name: Installatiestappen voor onderdelen van detailhandelskanaal in een on-premises omgeving
-        href: deployment/deploy-retail-onprem.md
-    - name: Aangepaste modellen voor on-premises omgevingen ontwikkelen en implementeren
-      href: deployment/develop-deploy-custom-models-on-premises.md
-    - name: Reverse-proxy's voor on-premises omgevingen configureren
-      href: deployment/onprem-reverseproxy.md
-    - name: Updates toepassen op een on-premises implementatie
-      href: deployment/apply-updates-on-premises.md
-    - name: On-premises diagnoses
-      href: deployment/on-premises-diagnostics.md
-    - name: On-premises implementaties opnieuw implementeren
-      href: deployment/redeploy-on-prem.md
-    - name: De lokale agent bijwerken
-      href: lifecycle-services/update-local-agent.md
-    - name: Omgevingen configureren
-      href: lifecycle-services/reconfigure-environment.md
-    - name: Internetverbinding voor client
-      href: user-interface/client-disconnected.md
-    - name: Problemen oplossen met on-premises implementaties
-      href: deployment/troubleshoot-on-prem.md
-  - name: Aangepaste code implementeren
-    items:
-    - name: Implementeerbare modelpakketten maken
-      href: deployment/create-apply-deployable-package.md
-    - name: Implementeerbare pakketten installeren vanaf de opdrachtregel
-      href: deployment/install-deployable-package.md
-    - name: Een pakket verwijderen
-      href: deployment/uninstall-deployable-package.md
-    - name: Problemen met pakkettoepassingen oplossen
-      href: deployment/deployable-package-troubleshooting.md
-- name: Upgrades, updates en hotfixes
+        - name: Optie voor on-premises implementatie
+          href: deployment/on-premises-overview.md
+        - name: On-premises implementaties plannen en voorbereiden
+          href: deployment/plan-onprem-deployment.md
+        - name: Vereisten voor omvang hardware
+          href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+        - name: On-premises projecten instellen
+          href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+        - name: On-premises omgevingen instellen en implementeren
+          href: deployment/setup-deploy-on-premises-environments.md
+          items:
+            - name: On-premises omgevingen implementeren (Platform update 12 en later)
+              href: deployment/setup-deploy-on-premises-pu12.md
+            - name: On-premises omgevingen implementeren (Platform updates 8 en 11)
+              href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: Installatiestappen voor onderdelen van detailhandelskanaal in een on-premises omgeving
+              href: deployment/deploy-retail-onprem.md
+        - name: Aangepaste modellen voor on-premises omgevingen ontwikkelen en implementeren
+          href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: Reverse-proxy's voor on-premises omgevingen configureren
+          href: deployment/onprem-reverseproxy.md
+        - name: Updates toepassen op een on-premises implementatie
+          href: deployment/apply-updates-on-premises.md
+        - name: On-premises diagnoses
+          href: deployment/on-premises-diagnostics.md
+        - name: On-premises implementaties opnieuw implementeren
+          href: deployment/redeploy-on-prem.md
+        - name: De lokale agent bijwerken
+          href: lifecycle-services/update-local-agent.md
+        - name: Omgevingen configureren
+          href: lifecycle-services/reconfigure-environment.md
+        - name: Internetverbinding voor client
+          href: user-interface/client-disconnected.md
+        - name: Problemen oplossen met on-premises implementaties
+          href: deployment/troubleshoot-on-prem.md
+    - name: Aangepaste code implementeren
+      items:
+        - name: Implementeerbare modelpakketten maken
+          href: deployment/create-apply-deployable-package.md
+        - name: Implementeerbare pakketten installeren vanaf de opdrachtregel
+          href: deployment/install-deployable-package.md
+        - name: Een pakket verwijderen
+          href: deployment/uninstall-deployable-package.md
+        - name: Problemen met pakkettoepassingen oplossen
+          href: deployment/deployable-package-troubleshooting.md
+- name: 'Upgrades, updates en hotfixes'
   href: migration-upgrade/upgrade-home-page.md
   items:
-  - name: Upgraden van AX 2012 naar Finance and Operations
-    href: migration-upgrade/upgrade-overview-2012.md
-    items:
-    - name: Upgrade van AX 2012 - Plannen met het hulpprogramma Upgradeanalyse
-      href: migration-upgrade/upgrade-analyzer-tool.md
-    - name: Upgrade van AX 2012 - Inspanning schatten met de service Code-upgrade
-      href: migration-upgrade/analyze-code-upgrade.md
-    - name: Upgrade van AX 2012 - Een demo-omgeving implementeren voor analyse
-      href: migration-upgrade/analysis-sandbox.md
-    - name: Upgrade van AX 2012 - Gegevens bijwerken in ontwikkelomgevingen
-      href: migration-upgrade/data-upgrade-2012.md
-    - name: Upgrade van AX 2012 - Controlelijst voor gegevensupgrade vóór upgrade
-      href: migration-upgrade/prepare-data-upgrade.md
-    - name: Upgrade van AX 2012 - Gegevens bijwerken in sandbox-omgevingen
-      href: migration-upgrade/upgrade-data-sandbox.md
-    - name: Upgrade van AX 2012 - Cutover testen
-      href: migration-upgrade/upgrade-cutover-testing.md
-    - name: Upgrade van AX 2012 - Taken na gegevensupgrade
-      href: migration-upgrade/app-validation-process.md
-    - name: Upgrade van AX 2012 - Functionele test geslaagd
-      href: migration-upgrade/upgrade-functional-validation.md
-    - name: Upgrade van AX 2012 - Go live voorbereiden
-      href: migration-upgrade/upgrade-go-live-prep.md
-    - name: Upgrade van AX 2012 - Go live
-      href: migration-upgrade/2012-upgrade-cutover.md
-    - name: Wijzigingen hebben gevolgen voor de upgrade van AX 2012
+    - name: Upgraden van AX 2012 naar Finance and Operations
+      href: migration-upgrade/upgrade-overview-2012.md
       items:
-      - name: Het scheidingsteken in het rekeningschema uniek maken
-        href: migration-upgrade/chart-accounts-delimiter-unique.md
-      - name: Journalen met enkel boekstuk en herwaarderingen van valuta's upgraden
-        href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
-      - name: Gegevensmodel voor projectresourceplanning
-        href: migration-upgrade/data-model-changes-resource-management.md
-      - name: Wijzigingen werkstroomsubsysteem
-        href: migration-upgrade/workflow-subsystem.md
-      - name: Samengevoegde modellen gebruikt in plaats van cubes voor analyses
-        href: migration-upgrade/in-memory-real-time-aggregate-models.md
-      - name: Bijgewerkte verkoop-cubes migreren naar de entiteitopslag
-        href: migration-upgrade/migrate-upgraded-cube-entity-store.md
-      - name: Budgetplanning bijwerken
-        href: migration-upgrade/upgrade-budget-planning.md
-  - name: Gegevens migreren van AX 2009 naar Finance and Operations
-    href: migration-upgrade/data-migration-tool.md
-    items:
-    - name: Migratie van AX 2009 - hulpmiddel voor gegevensmigratie installeren
-      href: migration-upgrade/install-dmt.md
-    - name: Migratie van AX 2009 - kaarten genereren
-      href: migration-upgrade/generate-maps.md
-    - name: Migratie van AX 2009 - sjablonen maken
-      href: migration-upgrade/create-package-templates-dmt.md
-    - name: Migratie van AX 2009 - migratiegroepen maken
-      href: migration-upgrade/create-definition.md
-    - name: Migratie van AX 2009 - pakketten exporteren
-      href: migration-upgrade/ax2009-upgrade-export-package.md
-    - name: Migratie van AX 2009 - pakketten importeren
-      href: migration-upgrade/ax2009-upgrade-import-package.md
-  - name: Code migreren en upgraden
-    href: migration-upgrade/code-migration-home-page.md
-    items:
-    - name: Voorbereidingen voor het migreren van code
-      href: migration-upgrade/prepare-migration.md
-    - name: Azure DevOps-toewijzing configureren
-      href: migration-upgrade/configure-vso-solution.md
-    - name: Model splitsen
-      href: dev-tools/model-split.md
-    - name: Afhankelijkheden tussen modellen oplossen met gemachtigden
-      href: migration-upgrade/delegates-migration.md
-  - name: Upgraden naar een recente update (cloud)
-    items:
-    - name: Proces voor overschakeling naar de nieuwste update
-      href: migration-upgrade/upgrade-latest-update.md
-    - name: Omgevingen bijwerken van versie 8.0 naar 8.1.X/10.X
-      href: migration-upgrade/appupdate-80-81.md
-    - name: Lifecycle-beleid voor software en cloudversies
-      href: migration-upgrade/versions-update-policy.md
-    - name: De nieuwste platformupdate toepassen op omgevingen
-      href: migration-upgrade/upgrade-latest-platform-update.md
-    - name: Het Dynamics AX-platform upgraden naar de release van augustus 2016
-      href: migration-upgrade/update-platform-each-release.md
-    - name: Gegevens upgraden in ontwikkel-, demo- of sandbox-omgevingen
-      href: migration-upgrade/upgrade-data-to-latest-update.md
-    - name: Ontwikkelingshulpmiddelen bijwerken
-      href: dev-tools/update-development-tools.md
-    - name: Plannen en voorbereiden voor compileren van code op basis van de meest recente update
-      href: migration-upgrade/compile-considerations.md
-  - name: Upgraden naar een recente update (on-premises)
-    items:
-    - name: Updates toepassen op on-premises implementaties
-      href: deployment/apply-updates-on-premises.md
-    - name: Een on-premises implementatie opnieuw implementeren
-      href: deployment/redeploy-on-prem.md
-    - name: Een upgrade ter plekke voor on-premises 7.x naar 8.1
-      href: migration-upgrade/on-prem-upgrade.md
-  - name: Hotfixes
-    items:
-    - name: Hotfixes downloaden uit Lifecycle Services
-      href: migration-upgrade/download-hotfix-lcs.md
-    - name: Updates toepassen op cloudomgevingen
-      href: deployment/apply-deployable-package-system.md
-    - name: Hotfixes voor metagegevens installeren in ontwikkelomgevingen
-      href: migration-upgrade/install-metadata-hotfix-package.md
-    - name: Patch Reporting Services in omgevingen met één apparaat
-      href: migration-upgrade/patch-reporting-service-environment.md
-    - name: Visual Studio-ontwikkelingshulpmiddelen bijwerken
-      href: dev-tools/update-development-tools.md
-  - name: Afgeschafte onderdelen
-    items:
-    - name: Verwijderde of verouderde functies
-      href: migration-upgrade/deprecated-features.md
-    - name: Afschaffing van methoden en metagegevenselementen
-      href: migration-upgrade/deprecation-deletion-apis.md
-    - name: Afgeschafte API's (juni 2017)
-      href: migration-upgrade/deprecated-apis.md
+        - name: Upgrade van AX 2012 - Plannen met het hulpprogramma Upgradeanalyse
+          href: migration-upgrade/upgrade-analyzer-tool.md
+        - name: Upgrade van AX 2012 - Inspanning schatten met de service Code-upgrade
+          href: migration-upgrade/analyze-code-upgrade.md
+        - name: Upgrade van AX 2012 - Een demo-omgeving implementeren voor analyse
+          href: migration-upgrade/analysis-sandbox.md
+        - name: Upgrade van AX 2012 - Gegevens bijwerken in ontwikkelomgevingen
+          href: migration-upgrade/data-upgrade-2012.md
+        - name: Upgrade van AX 2012 - Controlelijst voor gegevensupgrade vóór upgrade
+          href: migration-upgrade/prepare-data-upgrade.md
+        - name: Upgrade van AX 2012 - Gegevens bijwerken in sandbox-omgevingen
+          href: migration-upgrade/upgrade-data-sandbox.md
+        - name: Upgrade van AX 2012 - Cutover testen
+          href: migration-upgrade/upgrade-cutover-testing.md
+        - name: Upgrade van AX 2012 - Taken na gegevensupgrade
+          href: migration-upgrade/app-validation-process.md
+        - name: Upgrade van AX 2012 - Functionele test geslaagd
+          href: migration-upgrade/upgrade-functional-validation.md
+        - name: Upgrade van AX 2012 - Go live voorbereiden
+          href: migration-upgrade/upgrade-go-live-prep.md
+        - name: Upgrade van AX 2012 - Go live
+          href: migration-upgrade/2012-upgrade-cutover.md
+        - name: Wijzigingen hebben gevolgen voor de upgrade van AX 2012
+          items:
+            - name: Het scheidingsteken in het rekeningschema uniek maken
+              href: migration-upgrade/chart-accounts-delimiter-unique.md
+            - name: Journalen met enkel boekstuk en herwaarderingen van valuta's upgraden
+              href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
+            - name: Gegevensmodel voor projectresourceplanning
+              href: migration-upgrade/data-model-changes-resource-management.md
+            - name: Wijzigingen werkstroomsubsysteem
+              href: migration-upgrade/workflow-subsystem.md
+            - name: Samengevoegde modellen gebruikt in plaats van cubes voor analyses
+              href: migration-upgrade/in-memory-real-time-aggregate-models.md
+            - name: Bijgewerkte verkoop-cubes migreren naar de entiteitopslag
+              href: migration-upgrade/migrate-upgraded-cube-entity-store.md
+            - name: Budgetplanning bijwerken
+              href: migration-upgrade/upgrade-budget-planning.md
+    - name: Gegevens migreren van AX 2009 naar Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: Migratie van AX 2009 - hulpmiddel voor gegevensmigratie installeren
+          href: migration-upgrade/install-dmt.md
+        - name: Migratie van AX 2009 - kaarten genereren
+          href: migration-upgrade/generate-maps.md
+        - name: Migratie van AX 2009 - sjablonen maken
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: Migratie van AX 2009 - migratiegroepen maken
+          href: migration-upgrade/create-definition.md
+        - name: Migratie van AX 2009 - pakketten exporteren
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: Migratie van AX 2009 - pakketten importeren
+          href: migration-upgrade/ax2009-upgrade-import-package.md
+    - name: Code migreren en upgraden
+      href: migration-upgrade/code-migration-home-page.md
+      items:
+        - name: Voorbereidingen voor het migreren van code
+          href: migration-upgrade/prepare-migration.md
+        - name: Azure DevOps-toewijzing configureren
+          href: migration-upgrade/configure-vso-solution.md
+        - name: Model splitsen
+          href: dev-tools/model-split.md
+        - name: Afhankelijkheden tussen modellen oplossen met gemachtigden
+          href: migration-upgrade/delegates-migration.md
+    - name: Upgraden naar een recente update (cloud)
+      items:
+        - name: Proces voor overschakeling naar de nieuwste update
+          href: migration-upgrade/upgrade-latest-update.md
+        - name: Paden naar Eén versie
+          items:
+            - name: Self-service-upgrade naar de meest recente versie
+              href: migration-upgrade/self-service-upgrade.md
+            - name: Opnieuw maken en bijwerken naar de meest recente versie
+              href: migration-upgrade/appupdate-80-81.md
+        - name: Lifecycle-beleid voor software en cloudversies
+          href: migration-upgrade/versions-update-policy.md
+        - name: De nieuwste platformupdate toepassen op omgevingen
+          href: migration-upgrade/upgrade-latest-platform-update.md
+        - name: Het Dynamics AX-platform upgraden naar de release van augustus 2016
+          href: migration-upgrade/update-platform-each-release.md
+        - name: Gegevens upgraden in ontwikkel- of demo-omgevingen
+          href: migration-upgrade/upgrade-data-to-latest-update.md
+        - name: Ontwikkelingshulpmiddelen bijwerken
+          href: dev-tools/update-development-tools.md
+        - name: Plannen en voorbereiden voor compileren van code op basis van de meest recente update
+          href: migration-upgrade/compile-considerations.md
+    - name: Upgraden naar een recente update (on-premises)
+      items:
+        - name: Updates toepassen op on-premises implementaties
+          href: deployment/apply-updates-on-premises.md
+        - name: Een on-premises implementatie opnieuw implementeren
+          href: deployment/redeploy-on-prem.md
+        - name: Een upgrade ter plekke voor on-premises 7.x naar 8.1
+          href: migration-upgrade/on-prem-upgrade.md
+    - name: Hotfixes
+      items:
+        - name: Hotfixes downloaden uit Lifecycle Services
+          href: migration-upgrade/download-hotfix-lcs.md
+        - name: Updates toepassen op cloudomgevingen
+          href: deployment/apply-deployable-package-system.md
+        - name: Hotfixes voor metagegevens installeren in ontwikkelomgevingen
+          href: migration-upgrade/install-metadata-hotfix-package.md
+        - name: Patch Reporting Services in omgevingen met één apparaat
+          href: migration-upgrade/patch-reporting-service-environment.md
+        - name: Visual Studio-ontwikkelingshulpmiddelen bijwerken
+          href: dev-tools/update-development-tools.md
+    - name: Afgeschafte onderdelen
+      items:
+        - name: Verwijderde of verouderde functies
+          href: migration-upgrade/deprecated-features.md
+        - name: Afschaffing van methoden en metagegevenselementen
+          href: migration-upgrade/deprecation-deletion-apis.md
+        - name: Afgeschafte API's (juni 2017)
+          href: migration-upgrade/deprecated-apis.md
 - name: Systeembeheer
   href: sysadmin/system-administration-home-page.md
   items:
-  - name: Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring
-    href: sysadmin/legal-terms-privacy-statement.md
-  - name: Rapport Licentiecodes en configuratiesleutels
-    href: sysadmin/license-codes-configuration-keys-report.md
-  - name: Delen van gegevens tussen bedrijven
-    href: sysadmin/cross-company-data-sharing.md
-  - name: Onderhoudsmodus
-    href: sysadmin/maintenance-mode.md
-  - name: Vooraf geconfigureerde systeemrekeningen
-    href: sysadmin/pre-configured-system-accounts.md
-  - name: B2B-gebruikers naar Azure AD exporteren
-    href: sysadmin/implement-b2b.md
-  - name: Beveiliging op rollen gebaseerd
-    href: sysadmin/role-based-security.md
-    items:
-    - name: Beveiligingsarchitectuur
-      href: sysadmin/security-architecture.md
-    - name: Kant-en-klare beveiligingsrapporten
-      href: sysadmin/security-reports.md
-    - name: Nieuwe gebruikers maken
-      href: sysadmin/tasks/create-new-users.md
-    - name: Gebruikers bulksgewijs importeren
-      href: sysadmin/tasks/import-bulk-users.md
-    - name: Scheiding van taken instellen
-      href: sysadmin/tasks/set-up-segregation-duties.md
-    - name: Conflicten bij scheiding van taken identificeren en oplossen
-      href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
-    - name: Gebruikers aan beveiligingsrollen toewijzen
-      href: sysadmin/tasks/assign-users-security-roles.md
-  - name: Batchverwerking
-    href: sysadmin/batch-processing-overview.md
-    items:
-    - name: Batchverwerking en batchservers
-      href: sysadmin/batch-server-overview.md
-    - name: Batchtaken maken
-      href: sysadmin/tasks/create-batch-job.md
-    - name: Een batchtaak kopiëren
-      href: sysadmin/copy-batch-job.md
-    - name: Actieve batchperioden
-      href: sysadmin/activeperiod.md
-    - name: Beveiligingsrol batchbeheerder
-      href: sysadmin/runby.md
-    - name: Batchtaak voor het verwerken van defragmentatie SQL-index
-      href: sysadmin/batch-job-SQL-defragmentation.md
-    - name: Batchwaarschuwingen configureren
-      href: sysadmin/alerts.md
-    - name: Verbeterde batchformulieren
-      href: sysadmin/enhanced-forms.md
-    - name: Batchtaakhistorie opschonen
-      href: sysadmin/batch-history-cleanup.md
-  - name: Optimization advisor
-    href: sysadmin/optimization-advisor-overview.md
-    items:
-    - name: Regels maken voor Optimization advisor
-      href: sysadmin/create-rules-optimization-advisor.md
-  - name: Een storing in de productie rapporteren
-    href: lifecycle-services/report-production-outage.md
+    - name: Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring
+      href: sysadmin/legal-terms-privacy-statement.md
+    - name: Rapport Licentiecodes en configuratiesleutels
+      href: sysadmin/license-codes-configuration-keys-report.md
+    - name: Delen van gegevens tussen bedrijven
+      href: sysadmin/cross-company-data-sharing.md
+    - name: Onderhoudsmodus
+      href: sysadmin/maintenance-mode.md
+    - name: Vooraf geconfigureerde systeemrekeningen
+      href: sysadmin/pre-configured-system-accounts.md
+    - name: B2B-gebruikers naar Azure AD exporteren
+      href: sysadmin/implement-b2b.md
+    - name: Beveiliging op rollen gebaseerd
+      href: sysadmin/role-based-security.md
+      items:
+        - name: Beveiligingsarchitectuur
+          href: sysadmin/security-architecture.md
+        - name: Kant-en-klare beveiligingsrapporten
+          href: sysadmin/security-reports.md
+        - name: Nieuwe gebruikers maken
+          href: sysadmin/tasks/create-new-users.md
+        - name: Gebruikers bulksgewijs importeren
+          href: sysadmin/tasks/import-bulk-users.md
+        - name: Scheiding van taken instellen
+          href: sysadmin/tasks/set-up-segregation-duties.md
+        - name: Conflicten bij scheiding van taken identificeren en oplossen
+          href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
+        - name: Gebruikers aan beveiligingsrollen toewijzen
+          href: sysadmin/tasks/assign-users-security-roles.md
+    - name: Batchverwerking
+      href: sysadmin/batch-processing-overview.md
+      items:
+        - name: Batchverwerking en batchservers
+          href: sysadmin/batch-server-overview.md
+        - name: Batchtaken maken
+          href: sysadmin/tasks/create-batch-job.md
+        - name: Een batchtaak kopiëren
+          href: sysadmin/copy-batch-job.md
+        - name: Actieve batchperioden
+          href: sysadmin/activeperiod.md
+        - name: Beveiligingsrol batchbeheerder
+          href: sysadmin/runby.md
+        - name: Batchtaak voor het verwerken van defragmentatie SQL-index
+          href: sysadmin/batch-job-SQL-defragmentation.md
+        - name: Batchwaarschuwingen configureren
+          href: sysadmin/alerts.md
+        - name: Verbeterde batchformulieren
+          href: sysadmin/enhanced-forms.md
+        - name: Batchtaakhistorie opschonen
+          href: sysadmin/batch-history-cleanup.md
+        - name: Een uitvoerende batchtaak afbreken
+          href: sysadmin/batch-abort.md
+    - name: Optimalisatie-advies
+      href: sysadmin/optimization-advisor-overview.md
+      items:
+        - name: Regels maken voor Optimalisatie-advies
+          href: sysadmin/create-rules-optimization-advisor.md
+    - name: Een storing in de productie rapporteren
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
-  - name: Bronnen voor Lifecycle Services
-    href: lifecycle-services/lcs.md
-    items:
-    - name: LCS voor klanten
-      href: lifecycle-services/lcs-works-lcs.md
-    - name: LCS voor partners
-      href: lifecycle-services/getting-started-lcs.md
-    - name: Wat is er nieuw
-      href: lifecycle-services/whats-new-lcs.md
-    - name: Bekende problemen
-      href: lifecycle-services/known-issues.md
-  - name: Gebruikershandleiding Lifecycle Services
-    href: lifecycle-services/lcs-user-guide.md
-  - name: Abonnementsschatting
-    href: lifecycle-services/subscription-estimator.md
-  - name: Beveiliging configureren
-    href: lifecycle-services/configure-lcs-security.md
-  - name: Problemen zoeken
-    href: lifecycle-services/issue-search-lcs.md
-  - name: Configuratiebeheer
-    href: lifecycle-services/configuration-manager-lcs.md
-    items:
-    - name: Configuratiebeheer instellen
-      href: lifecycle-services/set-up-configuration-manager-lcs.md
-  - name: De code-upgradeservice configureren
-    href: lifecycle-services/configure-execute-code-upgrade.md
-  - name: Methodologieën maken of bijwerken
-    href: lifecycle-services/create-methodology.md
-  - name: Modelleertool bedrijfsprocessen
-    href: lifecycle-services/bpm-overview.md
-  - name: Procesbibliotheken voor Modelleertool bedrijfsprocessen
-    href: lifecycle-services/business-process-libraries-business-process-modeler.md
-  - name: Bibliotheken voor Modelleertool bedrijfsprocessen maken, bewerken en doorzoeken
-    href: lifecycle-services/creating-editing-browsing.md
-  - name: Taken in Modelleertool bedrijfsprocessen voltooien
-    href: lifecycle-services/complete-tasks-bpm.md
-  - name: Werken met activiteitsdiagrammen in BPM-bibliotheken
-    href: lifecycle-services/using-activity-diagrams.md
-  - name: BPM-bibliotheken synchroniseren met Azure DevOps
-    href: lifecycle-services/synchronize-bpm-vsts.md
-  - name: Testbibliotheken voor gebruikersacceptatie maken met taakbegeleidingen en BPM
-    href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-  - name: Stroomdiagrammen in Modelleertool bedrijfsprocessen
-    href: lifecycle-services/flowcharts-business-process-modeler.md
-  - name: Aangepaste bedrijfsprocessen uploaden naar Modelleertool bedrijfsprocessen
-    href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
-  - name: Controle en diagnose
-    href: lifecycle-services/monitoring-diagnostics.md
-  - name: Omgevingsservices opnieuw starten
-    href: lifecycle-services/restart-environment-services.md
-  - name: Een storing in de productie rapporteren
-    href: lifecycle-services/report-production-outage.md
-  - name: Gebruikeraanmeldingen bijhouden
-    href: lifecycle-services/user-logins.md
-  - name: Activabibliotheek
-    href: lifecycle-services/asset-library.md
-  - name: Problemen met prestaties oplossen met hulpmiddelen in LCS
-    href: lifecycle-services/performancetroubleshooting.md
-  - name: Query Cookbook
-    href: lifecycle-services/querycookbook.md
-  - name: Microsoft Dynamics 365 Translation Service
-    href: lifecycle-services/translation-service-overview.md
-    items:
-    - name: Gebruikersinterfacebestanden vertalen
-      href: lifecycle-services/use-translation-service.md
-    - name: Documentatiebestanden vertalen
-      href: lifecycle-services/use-translation-service-ua.md
-    - name: Bestanden van vertaalgeheugen
-      href: lifecycle-services/use-translation-service-tm.md
+    - name: Bronnen voor Lifecycle Services
+      href: lifecycle-services/lcs.md
+      items:
+        - name: LCS voor klanten
+          href: lifecycle-services/lcs-works-lcs.md
+        - name: LCS voor partners
+          href: lifecycle-services/getting-started-lcs.md
+        - name: Wat is er nieuw
+          href: lifecycle-services/whats-new-lcs.md
+        - name: Bekende problemen
+          href: lifecycle-services/known-issues.md
+    - name: Gebruikershandleiding Lifecycle Services
+      href: lifecycle-services/lcs-user-guide.md
+    - name: Abonnementsschatting
+      href: lifecycle-services/subscription-estimator.md
+    - name: Beveiliging configureren
+      href: lifecycle-services/configure-lcs-security.md
+    - name: Problemen zoeken
+      href: lifecycle-services/issue-search-lcs.md
+    - name: Configuratiebeheer
+      href: lifecycle-services/configuration-manager-lcs.md
+      items:
+        - name: Configuratiebeheer instellen
+          href: lifecycle-services/set-up-configuration-manager-lcs.md
+    - name: De code-upgradeservice configureren
+      href: lifecycle-services/configure-execute-code-upgrade.md
+    - name: Methodologieën maken of bijwerken
+      href: lifecycle-services/create-methodology.md
+    - name: Modelleertool bedrijfsprocessen
+      href: lifecycle-services/bpm-overview.md
+    - name: Procesbibliotheken voor Modelleertool bedrijfsprocessen
+      href: lifecycle-services/business-process-libraries-business-process-modeler.md
+    - name: 'Bibliotheken voor Modelleertool bedrijfsprocessen maken, bewerken en doorzoeken'
+      href: lifecycle-services/creating-editing-browsing.md
+    - name: Taken in Modelleertool bedrijfsprocessen voltooien
+      href: lifecycle-services/complete-tasks-bpm.md
+    - name: Werken met activiteitsdiagrammen in BPM-bibliotheken
+      href: lifecycle-services/using-activity-diagrams.md
+    - name: BPM-bibliotheken synchroniseren met Azure DevOps
+      href: lifecycle-services/synchronize-bpm-vsts.md
+    - name: Testbibliotheken voor gebruikersacceptatie maken met taakbegeleidingen en BPM
+      href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+    - name: Stroomdiagrammen in Modelleertool bedrijfsprocessen
+      href: lifecycle-services/flowcharts-business-process-modeler.md
+    - name: Aangepaste bedrijfsprocessen uploaden naar Modelleertool bedrijfsprocessen
+      href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+    - name: Controle en diagnose
+      href: lifecycle-services/monitoring-diagnostics.md
+    - name: Omgevingsservices opnieuw starten
+      href: lifecycle-services/restart-environment-services.md
+    - name: Een storing in de productie rapporteren
+      href: lifecycle-services/report-production-outage.md
+    - name: Gebruikeraanmeldingen bijhouden
+      href: lifecycle-services/user-logins.md
+    - name: Activabibliotheek
+      href: lifecycle-services/asset-library.md
+    - name: Problemen met prestaties oplossen met hulpmiddelen in LCS
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Query Cookbook
+      href: lifecycle-services/querycookbook.md
+    - name: Microsoft Dynamics 365 Translation Service
+      href: lifecycle-services/translation-service-overview.md
+      items:
+        - name: Gebruikersinterfacebestanden vertalen
+          href: lifecycle-services/use-translation-service.md
+        - name: Documentatiebestanden vertalen
+          href: lifecycle-services/use-translation-service-ua.md
+        - name: Bestanden van vertaalgeheugen
+          href: lifecycle-services/use-translation-service-tm.md
 - name: Bewerkingen voor databasemutaties
   items:
-  - name: Overzicht
-    href: database/dbmovement-operations.md
-  - name: Snelstarthandleidingen
-    items:
-    - name: Database vernieuwen
-      href: database/database-refresh.md
-    - name: Een database exporteren
-      href: database/export-database.md
-    - name: Een database importeren
-      href: database/import-database.md
-    - name: Tijdgebonden databaseherstel
-      href: database/database-point-in-time-restore.md
-  - name: Zelfstudies
-    items:
-    - name: Vernieuwen voor opleidingsdoeleinden
-      href: database/dbmovement-scenario-general-refresh.md
-    - name: Foutopsporing in een kopie van een productiedatabase
-      href: database/dbmovement-scenario-debugdiag.md
-    - name: Een kopie van de database met standaard gebruikeracceptatietest (UAT) exporteren
-      href: database/dbmovement-scenario-exportuat.md
-    - name: Promotie Golden-configuratie
-      href: database/dbmovement-scenario-goldenconfig.md
-    - name: Destructieve testen
-      href: database/dbmovement-scenario-destructivetests.md
+    - name: Overzicht
+      href: database/dbmovement-operations.md
+    - name: Snelstarthandleidingen
+      items:
+        - name: Database vernieuwen
+          href: database/database-refresh.md
+        - name: Een database exporteren
+          href: database/export-database.md
+        - name: Een database importeren
+          href: database/import-database.md
+        - name: Tijdgebonden databaseherstel
+          href: database/database-point-in-time-restore.md
+    - name: Zelfstudies
+      items:
+        - name: Vernieuwen voor opleidingsdoeleinden
+          href: database/dbmovement-scenario-general-refresh.md
+        - name: Foutopsporing in een kopie van een productiedatabase
+          href: database/dbmovement-scenario-debugdiag.md
+        - name: Een kopie van de database met standaard gebruikeracceptatietest (UAT) exporteren
+          href: database/dbmovement-scenario-exportuat.md
+        - name: Promotie Golden-configuratie
+          href: database/dbmovement-scenario-goldenconfig.md
+        - name: Destructieve testen
+          href: database/dbmovement-scenario-destructivetests.md
 - name: Ondersteuning
   items:
-  - name: Ondersteuning krijgen voor Finance and Operations en Lifecycle Services
-    href: lifecycle-services/lcs-support.md
-  - name: Een ticket voor eersteklas ondersteuning registreren
-    href: lifecycle-services/premier-support.md
-  - name: Aanvragen indienen bij het Dynamics Service-engineeringteam
-    href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-  - name: Technische ondersteuning instellen voor Finance and Operations
-    href: lifecycle-services/support-experience.md
-  - name: Veelgestelde vragen over gepland onderhoudsvenster
-    href: lifecycle-services/planned-maintenance-window-faq.md
-  - name: Cloudbewerkingen en -services
-    href: lifecycle-services/cloud-operations-servicing.md
-  - name: Ervaringen met Finance and Operations-ondersteuning beheren
-    href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
-ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "976007"
+    - name: Ondersteuning krijgen voor Finance and Operations en Lifecycle Services
+      href: lifecycle-services/lcs-support.md
+    - name: Ondersteuning verkrijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
+      href: lifecycle-services/21vianet-support.md
+    - name: Een ticket voor eersteklas ondersteuning registreren
+      href: lifecycle-services/premier-support.md
+    - name: Aanvragen indienen bij het Dynamics Service-engineeringteam
+      href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+    - name: Technische ondersteuning instellen voor Finance and Operations
+      href: lifecycle-services/support-experience.md
+    - name: Veelgestelde vragen over gepland onderhoudsvenster
+      href: lifecycle-services/planned-maintenance-window-faq.md
+    - name: Cloudbewerkingen en -services
+      href: lifecycle-services/cloud-operations-servicing.md
+    - name: Ervaringen met Finance and Operations-ondersteuning beheren
+      href: lifecycle-services/cloud-powered-support-lcs.md

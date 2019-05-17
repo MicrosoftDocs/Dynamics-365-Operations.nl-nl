@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="63b13-101">Deze functie is momenteel alleen beschikbaar op uitnodiging.</span><span class="sxs-lookup"><span data-stu-id="63b13-101">This feature is currently available by invitation only.</span></span> <span data-ttu-id="63b13-102">Als u uw organisatie wilt nomineren voor deelname, vult u [dit onderzoek](https://aka.ms/ax2012upgrade) in.</span><span class="sxs-lookup"><span data-stu-id="63b13-102">To nominate your organization to participate, please complete [this survey](https://aka.ms/ax2012upgrade).</span></span> 
