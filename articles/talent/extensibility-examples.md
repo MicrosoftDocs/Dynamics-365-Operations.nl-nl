@@ -3,14 +3,14 @@ title: Talent uitbreiden met PowerApps en Microsoft Flow - voorbeeldscenario's
 description: In dit onderwerp worden enkele voorbeelden beschreven van uitbreidbaarheidsscenario's voor Microsoft Dynamics 365 for Talent die gebruikmaken van Microsoft PowerApps en Microsoft Flow.
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949915"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517690"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talent uitbreiden met PowerApps en Microsoft Flow - voorbeeldscenario's
 
@@ -91,7 +91,7 @@ Hoewel deze sjabloon is ontworpen voor het lezen en bijwerken van SQL-tabellen, 
 
 Voor het downloaden van de sjabloon **Stroom: verbinding maken met SQL en SQL-query´s uitvoeren** gaat u naar [Stroom: verbinding maken met SQL en SQL-query´s uitvoeren](https://go.microsoft.com/fwlink/?linkid=2081789) in het Microsoft Downloadcentrum.
 
-## <a name="flow--sharepoint-integration"></a>Stroom:  SharePoint-integratie
+## <a name="flow--sharepoint-integration"></a>Stroom: SharePoint-integratie
 
 De sjabloon **Stroom: SharePoint-integratie** kan worden gebruikt voor het lezen van gegevens vanuit een Microsoft SharePoint-lijst, voor het vergelijken van de lijst met veldwaarden voor elke Common Data Service-entiteit en voor het verzenden van de resultaten van de vergelijking als een melding per e-mail. 
 
@@ -101,7 +101,21 @@ Deze sjabloon kan worden uitgebreid, zodat deze kan worden gebruikt voor elk sce
 
 Voor het downloaden van de sjabloon **Stroom: SharePoint-integratie** gaat u naar [Stroom: SharePoint-integratie](https://go.microsoft.com/fwlink/?linkid=2082109) in het Microsoft Downloadcentrum.
 
+## <a name="admin-console-to-manage-talent-pools"></a>Beheerconsole voor het beheren van talentenpools
 
+Wanneer u integratie met LinkedIn inschakelt, maakt Attract automatisch een LinkedIn-talentenpool. Wanneer een werver InMail uitwisselt met een rekruut via LinkedIn, maakt Attract een profiel voor de rekruut en wordt deze lid van de LinkedIn-talentenpool. Deze PowerApps-app is handig voor het opnieuw indelen van kandidaten in talentenpools op basis van vaardigheden.
+
+Gebruik deze PowerApps-app als beheerconsole om de volgende taken uit te voeren:
+
+- Lijst met kandidaten in een talentenpool weergeven
+- Kandidaten toevoegen en verwijderen vanuit een talentenpool
+- Kandidaten verplaatsen van de ene talentenpool naar een andere
+- Bepalen of kandidaten al deel uitmaken van een talentenpool voordat u ze verplaatst
+- De kwalificaties van kandidaten controleren voordat u ze naar andere talentenpools verplaatst
+
+Deze PowerApps-app gebruikt veel-op-veel-relaties, zodat u deze kunt gebruiken als sjabloon voor andere scenario's waarbij u records moet ophalen die veel-op-veel-relaties hebben.
+
+Als u de sjabloon **Beheerconsole voor het beheren van talentenpools** wilt downloaden, gaat u naar [Beheerconsole voor het beheren van talentenpools](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) in het Downloadcentrum van Microsoft.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

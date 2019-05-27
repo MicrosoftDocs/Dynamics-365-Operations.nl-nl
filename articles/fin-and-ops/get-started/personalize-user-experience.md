@@ -3,7 +3,7 @@ title: De gebruikerservaring aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations aanpast.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975846"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528839"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -75,7 +75,7 @@ Sommige van de meest gangbare en belangrijke wijzigingen die in een pagina kunne
 
 Bovendien zijn de meest algemene typen expliciete aanpassing beschikbaar door met de rechtermuisknop op een element te klikken en vervolgens **Aanpassen** te selecteren. (Houd er rekening mee dat niet alle elementen op uw pagina kunnen worden aangepast.) Wanneer u deze methode van aanpassing selecteert, ziet u het eigenschappenvenster van het element.
 
-[![Eigenschappen van een element aanpassen](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![Eigenschappen van een element aanpassen](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
 
 U kunt het eigenschappenvenster gebruiken om een element op de volgende manieren aan te passen:
 
@@ -91,7 +91,7 @@ Het eigenschappenvenster kan andere mogelijkheden voor aanpassing hebben, afhank
 
 Als u meerdere wijzigingen in een pagina wilt aanbrengen of wijzigingen wilt doorvoeren die niet beschikbaar zijn via andere mechanismen, zoals de volgorde van elementen wijzigen, kunt u de werkbalk **Aanpassing** gebruiken. Als u de werkbalk **Aanpassing** wilt openen, selecteert u **Dit formulier aanpassen** in het eigenschappenvenster van een element. U kunt ook **Dit formulier aanpassen** selecteren in de groep **Aanpassen** op het tabblad **Opties** van het actievenster van elke pagina.
 
-[![Aanpassingswerkbalk](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+[![Aanpassingswerkbalk](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navigeren op de pagina
 

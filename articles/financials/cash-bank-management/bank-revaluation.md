@@ -3,7 +3,7 @@ title: Herwaardering voor vreemde valuta van bank
 description: Dit onderwerp biedt een overzicht van het proces voor herwaardering voor vreemde valuta van bank. Dit onderwerp bevat informatie over instellingen, de uitvoering van het proces, de berekening voor het proces en de omkering van herwaarderingstransacties.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976645"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538627"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Herwaardering voor vreemde valuta van bank
 
@@ -52,7 +52,7 @@ U moet de functie voor herwaardering van vreemde valuta voor de bank inschakelen
 3. Voeg op het tabblad **Nummerreeksen** een nummerreeks voor herwaardering van vreemde valuta toe.
 4. Vernieuw de browser om **Herwaardering van vreemde valuta** in de sectie **Periodieke taken** van de gebiedspagina te zien.
 
-U moet de functie inschakelen voor elke rechtspersoon die herwaardering van vreemde valuta gebruikt.
+U moet de functie inschakelen voor elke rechtspersoon die herwaardering van vreemde valuta gebruikt. Als u bent toegewezen aan de rol van systeembeheerder of functiebeheerder, kunt u deze stap overslaan door de functie met de naam **Herwaardering bank inschakelen zonder parameter** in het werkgebied **Functiebeheer**.
 
 > [!NOTE]
 > Als uw rechtspersoon een Russische, Poolse of Hongaarse land-/regiocode gebruikt, kunt u al herwaardering van vreemde valuta voor de bank uitvoeren. U kunt de herwaardering van vreemde valuta die wordt gebruikt door andere landen of regio's, niet gebruiken.

@@ -3,7 +3,7 @@ title: Systeemvereisten en updatebeleid voor Talent
 description: In dit onderwerp worden vereisten voor Dynamics 365 for Talent weergegeven. Ook wordt het updatebeleid beschreven.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2389f00b22ec3b5284eeffb2c015533b7a3d13e0
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856296"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517721"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Systeemvereisten en updatebeleid voor Talent
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden vereisten voor Microsoft Dynamics 365 for Talent weergegeven. Ook wordt het updatebeleid beschreven.
+In dit onderwerp worden de vereisten beschreven voor Microsoft Dynamics 365 for Talent, met inbegrip van Attract, Onboard, en Core HR. Het bevat ook een overzicht van de landen en regio's waarin Talent beschikbaar is, plus informatie over talen en lokalisatie voor Talent-gegevens. In toevoegingen bevat dit onderwerp het updatebeleid voor Talent.
 
 ## <a name="supported-web-browsers"></a>Ondersteunde webbrowsers
 
@@ -57,8 +57,17 @@ Als u de laatste versie van elke webbrowser wilt opzoeken, gaat u naar de websit
 * Als u de invoegtoepassingen voor Microsoft Excel en Word wilt uitvoeren, moet Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over de versievereisten [Probleemoplossing voor Office-integratie](../dev-itpro/office-integration/office-integration-troubleshooting.md "Probleemoplossing voor Office-integratie").
 * Als u documenten wilt weergeven die worden gegenereerd door de functie Exporteren naar Excel of Exporteren naar Word, moet Microsoft Office 2007 of hoger zijn geïnstalleerd.
 
+## <a name="regional-availability-languages-and-localization"></a>Regionale beschikbaarheid, talen en lokalisatie
+
+U kunt een PDF-bestand downloaden met de landen, regio's en talen die door Talent worden ondersteund in [Internationale beschikbaarheid van Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/availability). 
+
+> [!NOTE]
+> Terwijl de gebruikersinterface wordt gelokaliseerd in andere talen, worden alle gebruikersgegevens opgeslagen in de taal waarin deze zijn ingevoerd. U kunt e-mails en sjablonen in andere talen maken, maar gegevens zoals planningsgegevens zijn op dit moment alleen in het Engels beschikbaar.
+
+Zie [Globalisatie](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region) als u een ontwikkelaar bent die geïnteresseerd is in het maken van land- of regiospecifieke aanpassingen of in het maken van een oplossing voor een land dat of regio die momenteel niet door Microsoft wordt ondersteund.
+
 ## <a name="update-policy"></a>Updatebeleid
 
 Microsoft Dynamics 365 for Talent wordt aangeboden via de cloud. Updates voor Dynamics 365 for Talent vinden doorlopend plaats en worden automatisch toegepast door Microsoft.
 
-Updates zijn regelmatig uitgebracht en doorgevoerd in alle omgevingen.  Dynamics 365 for Talent wordt ondersteund volgens het [Microsoft Support Lifecycle-beleid](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), dat consistente en voorspelbare richtlijnen bevat voor de beschikbaarheid van productondersteuning.
+Er worden regelmatig updates uitgebracht en doorgevoerd in alle omgevingen. Dynamics 365 for Talent wordt ondersteund volgens het [Microsoft Support Lifecycle-beleid](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), dat consistente en voorspelbare richtlijnen bevat voor de beschikbaarheid van productondersteuning.

@@ -3,7 +3,7 @@ title: Power BI-inhoud - inkoop- en uitgavenanalyse
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Analyse inkoopuitgaven. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3206573022c0f843b07a468987a112ca6ac435ef
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313837"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527712"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Power BI-inhoud - inkoop- en uitgavenanalyse
 
@@ -33,7 +33,7 @@ In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud **Analy
 
 ## <a name="overview"></a>Overzicht
 
-De Power BI-inhoud **Analyse inkoopuitgaven** is ontworpen om inkoopmanagers en managers met budgetverantwoordelijkheid te helpen de inkoopuitgaven in de gaten te houden. Managers kunnen inkoopuitgaven op de volgende manieren analyseren:
+De Power BI-inhoud **Inkoopuitgavenanalyse** is ontworpen om inkoopmanagers en managers met budgetverantwoordelijkheid te helpen de inkoopuitgaven bij te houden. Managers kunnen inkoopuitgaven op de volgende manieren analyseren:
 
 - Inkoop jaar tot heden (op leveranciersgroep en afzonderlijke leveranciers, aanschaffingscategorie en afzonderlijke producten en locatie van de leverancier)
 - Wijzigingen jaar tot jaar in inkoop (op leveranciersgroep en aanschaffingscategorie)
@@ -44,88 +44,88 @@ Op basis van gegevens voor inkooptransacties biedt de inhoud zowel een samengevo
 De Power BI-inhoud **Analyse inkoopuitgaven** wordt weergegeven op de pagina **Inkoop- en uitgavenanalyse** (**Inkoopbeheer** \> **Query's en rapporten** \> **Inkoopprestatieanalyse** \> **Inkoop- en uitgavenanalyse**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
-Het Power BI-inhoudpakket **Analyse inkoopuitgaven** bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties.
+Het Power BI-inhoudpakket **Analyse inkoopuitgaven** bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. 
 
-<table>
-<thead>
-<tr>
-<th>Rapportpagina</th>
-<th>Diagrammen</th>
-<th>Tegels</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Inkoop op leverancier</td>
-<td><ul>
-<li>Top 10-leveranciers op inkoop (gestapeld staafdiagram)</li>
-<li>Totale inkoop op groep / land / naam leverancier (cirkeldiagram)</li>
-<li>Inkoop op groep / land / naam leverancier (kolomdiagram)</li>
-<li>Gemiddelde inkoop op groep / land / naam leverancier (kolomdiagram)</li>
-</ul></td>
-<td><ul>
-<li>Totaalinkoop</li>
-<li>Inkoopgroei jaar-op-jaar</li>
-<li>Totaal aantal leveranciers</li>
-<li>Totaal aantal actieve leveranciers</li>
-</ul></td>
-</tr>
-<tr>
-<td>Inkoop op product</td>
-<td><ul>
-<li>Inkoop per aanschaffingscategorie / productnaam (kolomdiagram)</li>
-<li>Totale inkoop per aanschaffingscategorie / productnaam (cirkeldiagram)</li>
-<li>Top 10-producten op inkoop (gestapeld staafdiagram)</li>
-</ul></td>
-<td><ul>
-<li>Totaal aantal producten</li>
-<li>Totaal aantal actieve producten percentage van totale aantal producten</li>
-<li>Aantal producten dat 80% van inkoop oplevert</li>
-</ul></td>
-</tr>
-<tr>
-<td>Inkoop op periode*</td>
-<td><ul>
-<li>Inkoop op maand / dag (kolomdiagram)</li>
-<li>Cumulatieve inkoop afwijking jaar-op-jaar (watervalgrafiek)</li>
-<li>Totale inkoop groei jaar-op-jaar (kolomdiagram)</li>
-<li>Inkoopoverzicht (matrix)</li>
-</ul></td>
-<td><ul>
-<li>Inkoopgroei jaar-op-jaar</li>
-<li>Inkoopgroei jaar-op-jaar %</li>
-</ul></td>
-</tr>
-<tr>
-<td>Inkoop op leverancierlocatie</td>
-<td><ul>
-<li>Inkoop op stad</li>
-<li>Inkoop groei jaar-op-jaar %</li>
-<li>Inkoop op land</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Analyse inkoopuitgaven op tijd</td>
-<td><ul>
-<li>Inkoop huidige jaar op maand / dag (lijndiagram)</li>
-<li>Inkooporders huidig en vorig jaar (lijn- en kolomdiagram)</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Analyse inkoopuitgaven op leverancier</td>
-<td><ul>
-<li>Top 10 leverancier inkoop % van inkoop (trechterdiagram)</li>
-<li>Top 10 leveranciers met een gestegen uitgaven jaar-op-jaar</li>
-<li>Top 10 leveranciers met een gedaalde uitgaven jaar-op-jaar</li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+De volgende secties bieden een overzicht van de visualisaties.
 
-\* Inkoop dit jaar en vorig jaar en groei per aanschaffingscategorie
+### <a name="purchase-by-vendor-report-page"></a>Pagina Inkoop op leverancier (rapport)
+**Diagrammen**
+- Top 10-leveranciers op inkoop (gestapeld staafdiagram)
+- Totale inkoop op groep / land / naam leverancier (cirkeldiagram)
+- Inkoop op groep / land / naam leverancier (kolomdiagram)
+- Gemiddelde inkoop op groep / land / naam leverancier (kolomdiagram)
+
+**Tegels**
+- Totaalinkoop
+- Inkoopgroei jaar-op-jaar
+- Totaal aantal leveranciers
+- Totaal aantal actieve leveranciers
+
+**Voorbeeld:**
+<img src="media/spend1.PNG" alt="Purchase by vendor">
+
+### <a name="purchase-by-product-report-page"></a>Pagina Inkoop op product (rapport)
+
+**Diagrammen**
+- Inkoop per aanschaffingscategorie / productnaam (kolomdiagram)
+- Totale inkoop per aanschaffingscategorie / productnaam (cirkeldiagram)
+- Top 10-producten op inkoop (gestapeld staafdiagram)
+
+**Tegels**
+- Totaal aantal producten</li>
+- Totaal aantal actieve producten percentage van totale aantal producten
+- Aantal producten dat 80% van inkoop oplevert
+
+**Voorbeeld:**
+
+
+<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+
+### <a name="purchase-by-period-report-page"></a>Pagina Inkoop op periode (rapport)
+Deze pagina geeft inkopen van dit jaar en vorig jaar en groei per aanschaffingscategorie weer.
+
+**Diagrammen** 
+- Inkoop op maand / dag (kolomdiagram)
+- Cumulatieve inkoop afwijking jaar-op-jaar (watervalgrafiek)
+- Totale inkoop groei jaar-op-jaar (kolomdiagram)
+- Inkoopoverzicht (matrix)
+
+**Tegels**
+- Inkoopgroei jaar-op-jaar
+- Inkoopgroei jaar-op-jaar %
+
+**Voorbeeld:**
+<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+
+### <a name="purchase-by-vendor-location-report-page"></a>Pagina Inkoop op leverancierslocatie (rapport)
+
+**Diagrammen**
+- Inkoop op stad
+- Inkoop groei jaar-op-jaar %
+- Inkoop op land
+
+**Voorbeeld:**
+<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+
+### <a name="purchase-spend-analysis-by-time-report-page"></a>Pagina Analyse inkoopuitgaven op tijd (rapport)
+
+**Diagrammen** 
+- Inkoop huidige jaar op maand / dag (lijndiagram)
+- Inkooporders huidig en vorig jaar (lijn- en kolomdiagram)
+
+**Voorbeeld:**
+<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+
+### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Pagina Analyse inkoopuitgaven op leverancier (rapport)
+
+**Diagrammen** 
+- Top 10 leverancier inkoop % van inkoop (trechterdiagram)
+- Top 10 leveranciers met een gestegen uitgaven jaar-op-jaar
+- Top 10 leveranciers met een gedaalde uitgaven jaar-op-jaar
+
+**voorbeeld** 
+<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+
 
 ## <a name="data-model-and-entities"></a>Gegevensmodel en entiteiten
 De volgende gegevens worden gebruikt om de rapportpagina's in de Power BI-inhoud **Analyse inkoopuitgaven** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).

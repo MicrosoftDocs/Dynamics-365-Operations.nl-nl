@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842717"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505091"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -33,7 +33,7 @@ De meeste acties die de gebruiker uitvoert in POS worden beschouwd als bewerking
 
 De volgende tabel bevat informatie over de bewerkingen die beschikbaar zijn in Retail Modern POS en cloud-POS voor Dynamics 365 for Retail. In de tabel wordt ook aangegeven waar in de toepassing de bewerkingen kunnen worden aangeroepen en of deze beschikbaar zijn als het POS zich in de offlinemodus bevindt.
 
-Bepaalde bewerkingen zijn op dit moment niet beschikbaar in Retail Modern POS of cloud-POS voor Dynamics 365 for Retail. Sommige van deze bewerkingen zijn landspecifieke bewerkingen die mogelijk extra extensies en configuratie vereisen. Andere bewerkingen zijn functies van Microsoft Dynamics AX AX 2012 die momenteel niet worden ondersteund.
+Bepaalde bewerkingen zijn op dit moment niet beschikbaar in Retail Modern POS of cloud-POS voor Dynamics 365 for Retail. Sommige van deze bewerkingen zijn landspecifieke bewerkingen die mogelijk extra extensies en configuratie vereisen. Andere bewerkingen zijn functies van Microsoft Dynamics AX 2012 die momenteel niet worden ondersteund.
 
 In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangeroepen:
 
@@ -71,6 +71,8 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 640 | Verkoopvertegenwoordiger wissen op regel | De provisieverkoopgroep (vertegenwoordiger) verwijderen van de geselecteerde regel. | Ja | Ja | Nee | Ja | Nee |
 | 121 | Verkoper wissen | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 1055 | Ploeg sluiten | De huidige ploeg sluiten, een Z-rapport afdrukken en de gebruiker afmelden bij het systeem. | Ja | Ja | Ja | Nee | Nee |
+| 139 | Transactie afsluiten | De gebruiker wordt gevraagd de betalingsmethode te selecteren | Ja | Ja | Nee | Ja | Nee |
+| 620 | Klantorder maken | De POS-transactie omzetten in een klantorder. | Ja | Ja | Nee | Ja\* | Nee |
 | 925 | De bankcheque kopiëren | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Ja |
 | 620 | Klantorder maken | De POS-transactie omzetten in een klantorder. | Ja | Ja | Nee | Ja\* | Nee |
 | 621 | Offerte maken | De POS-transactie omzetten in een verkoopofferte. | Ja | Ja | Nee | Ja\* | Nee |

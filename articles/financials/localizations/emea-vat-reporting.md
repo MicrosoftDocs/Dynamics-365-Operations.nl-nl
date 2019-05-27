@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c5cd61c45eb7cbc6f040f054a99d9a54e1ee854
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d3496e0dec51daa640ff80355b9bcc63f8ba7ea2
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371396"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513097"
 ---
 # <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
@@ -65,7 +65,7 @@ Btw-aangiftecodes zijn vakcodes in het btw-overzicht of labelnamen in XML-indeli
 
 ### <a name="sales-tax-codes-for-vat-reporting"></a>Btw-codes voor btw-aangifte
 
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).--> Basisbedragen en belastingbedragen van btw-transacties kunnen worden samengevoegd in aangiftecodes in het btw-overzicht (XML-labels of aangiftevakken). U kunt dit instellen door btw-aangiftecodes voor verschillende transactietypen te koppelen voor btw-codes op de pagina <strong>Btw-codes</strong>. In de volgende tabel worden de transactietypen beschreven in de rapportinstelling voor btw-codes. De berekening omvat de transacties voor alle typen bronnen met uitzondering van btw.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).-->  Basisbedragen en belastingbedragen van btw-transacties kunnen worden samengevoegd in aangiftecodes in het btw-overzicht (XML-labels of aangiftevakken). U kunt dit instellen door btw-aangiftecodes voor verschillende transactietypen te koppelen voor btw-codes op de pagina <strong>Btw-codes</strong>. In de volgende tabel worden de transactietypen beschreven in de rapportinstelling voor btw-codes. De berekening omvat de transacties voor alle typen bronnen met uitzondering van btw.
 
 <table>
 <colgroup>

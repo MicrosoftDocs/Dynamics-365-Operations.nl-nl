@@ -17,17 +17,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "309858"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544858"
 ---
 # <a name="er-configure-destinations"></a>ER-bestemmingen configureren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u verschillende bestemmingen voor uitvoercomponenten voor ER (Elektronische rapportage) instelt en gebruikt, zoals een map of een bestand. Het demobedrijf dat wordt gebruikt om deze procedure te maken is DEMF. Duitsland is het land\regio van het primaire adres van de rechtspersoon, maar u kunt elke rechtspersoon voor deze procedure gebruiken. 
+Deze procedure laat zien hoe u verschillende bestemmingen voor uitvoercomponenten voor ER (Elektronische rapportage) instelt en gebruikt, zoals een map of een bestand. Het demobedrijf dat wordt gebruikt om deze procedure te maken is DEMF. Duitsland is het land\de regio van het primaire adres van de rechtspersoon, maar u kunt elke rechtspersoon voor deze procedure gebruiken. 
 
 De in dit voorbeeld gebruikte indeling is ISO20022 Kredietoverdracht, maar u kunt elke indeling gebruiken die u al hebt geïmporteerd. Deze procedure is een voorbeeld van het instellen van één bestand en één bestemming. Meer informatie over bestemmingsbeheer voor ER-rapportage vindt u in de Dynamics 365 for Finance and Operations Help.
 

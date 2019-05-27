@@ -3,7 +3,7 @@ title: Verkooporders direct synchroniseren tussen Sales en Finance and Operation
 description: Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van verkooporders tussen Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339114"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539109"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations
 
@@ -146,6 +146,16 @@ Voordat u verkooporders synchroniseert, is het belangrijk de volgende instelling
 ### <a name="setup-in-finance-and-operations"></a>Instellingen In Finance and Operations
 
 - Ga naar **Verkoopbeheer en marketing** &gt; **Periodieke taken** &gt; **Verkooptotalen berekenen** en stel de taak zo in dat deze wordt uitgevoerd als batchtaak. Stel de optie **Totalen berekenen voor verkooporders** in op **Ja**. Deze stap is belangrijk omdat alleen verkooporders waarvoor verkooptotalen zijn berekend, worden gesynchroniseerd naar Sales. De frequentie van de batchtaak moet worden uitgelijnd met de frequentie van de verkoopordersynchronisatie.
+
+Als u ook integratie werkorder gebruikt, moet u de verkoopoorsprong instellen. De verkoopoorsprong wordt gebruikt om onderscheid te maken tussen verkooporders in Finance and Operations die zijn gemaakt op basis van werkorders in Field Service. Wanneer een verkooporder een verkoopoorsprong heeft van het type **Integratie werkorder**, wordt het veld **Externe werkorderstatus** weergegeven in de verkooporderkoptekst. Bovendien zorgt de verkoopoorsprong ervoor dat verkooporders die zijn gemaakt op basis van werkorders in Field Service worden uitgefilterd tijdens de synchronisatie van verkooporders van Finance and Operations met Field Service.
+
+1. Ga naar **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Verkoopoorsprong**.
+2. Selecteer **Nieuw** voor het maken van een nieuwe verkoopoorsprong.
+3. Voer in het veld **Verkoopoorsprong** een naam in voor de verkoopoorsprong, zoals **Verkooporder**.
+4. Voer in het veld **Beschrijving** een beschrijving in, zoals **Verkooporder vanuit Sales**.
+5. Schakel het selectievakje **Toewijzing van oorsprongtype** in.
+6. Stel het veld **Type verkoopoorsprong** in op **Integratie verkooporder**.
+7. Selecteer **Opslaan**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Instellingen in het project Gegevensintegratie voor verkooporders (Sales naar Fin and Ops) - Direct
 

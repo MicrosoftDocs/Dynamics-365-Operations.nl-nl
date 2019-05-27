@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321726"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545457"
 ---
 # <a name="europe"></a>Europa 
 
@@ -90,7 +90,7 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
   - [Btw-wisselkoersen](emea-vat-exchange-rate.md)
   - [Btw-afstemmingsrapport](tasks/eur-00018-vat-reconciliation-report.md)
   - [Transacties vastleggen in btw-register voor Oost-Europa](emea-vat-register-transactions.md)
-  - [BTW-rapportage](emea-vat-reporting.md)
+  - [Btw-aangifte](emea-vat-reporting.md)
   - [Btw-rapport maken en indienen](tasks/create-submit-vat-report.md)
   - [Transacties weergeven bij vereffening](emea-transactions-settlement-form.md)
 

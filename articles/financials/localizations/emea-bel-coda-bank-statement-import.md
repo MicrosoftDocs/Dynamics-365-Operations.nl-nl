@@ -17,12 +17,12 @@ ms.search.region: Belgium
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b7195e9e9a45137b959be2e08736ec2ba88df4ef
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 76122ee74cae49175bc0f2af05bc78184ecb8d25
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371388"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538213"
 ---
 # <a name="coda-bank-statement"></a>CODA-bankafschrift
 

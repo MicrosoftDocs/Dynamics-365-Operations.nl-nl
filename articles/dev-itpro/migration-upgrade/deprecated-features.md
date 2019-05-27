@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992878"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527666"
 ---
 # <a name="removed-or-deprecated-features"></a>Verwijderde of afgeschafte functies
 
@@ -66,26 +66,6 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Betrokken productgebieden**         | Webclient |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: vanaf april 2020 wordt de verbeterde filterervaring "is één van" het standaardgedrag zonder een mechanisme om terug te keren naar het oude gedrag. |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>Afleiden van interne klassen is afgeschaft
-
-|   |  |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Vóór platformupdate 25 was het mogelijk om een klasse of tabel te maken die was afgeleid van een interne klasse/tabel die was gedefinieerd in een ander pakket of een andere module. Dit is geen veilige codering. Vanaf platformupdate 25 geeft de compiler een waarschuwing weer. |
-| **Vervangen door een andere functie?**   | De compilerwaarschuwing wordt vervangen door een fout in platformupdate 26. Deze wijziging is achterwaarts compatibel tijdens runtime, wat betekent dat als u platformupdate 25 of nieuwer uitvoert, deze wijziging kan worden geïmplementeerd in een willekeurige sandbox- of productieomgeving zonder dat u aangepaste code hoeft te wijzigen. Deze wijziging is alleen van invloed op ontwikkel- en compilatietijd.|
-| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
-| **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in platformupdate 26. |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>Overschrijven van interne methoden is afgeschaft
-
-|   |  |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Vóór platformupdate 25 was het mogelijk om een interne methode te overschrijven in een afgeleide klasse die was gedefinieerd in een ander pakket of een andere module. Dit is geen veilige codering. Vanaf platformupdate 25 geeft de compiler een waarschuwing weer. |
-| **Vervangen door een andere functie?**   | Deze compilerwaarschuwing wordt vervangen door een compilerfout in platformupdate 26. Deze wijziging is achterwaarts compatibel tijdens runtime, wat betekent dat als u platformupdate 25 of nieuwer uitvoert, deze wijziging kan worden geïmplementeerd in een willekeurige sandbox- of productieomgeving zonder dat u aangepaste code hoeft te wijzigen. Deze wijziging is alleen van invloed op ontwikkel- en compilatietijd. |
-| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
-| **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in platformupdate 26. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parameter om verkooporders met meerdere financieringsbronnen van projectcontracten in te schakelen
 Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het projectcontract meerdere financieringsbronnen heeft, is ingeschakeld met de **Parameters voor projectbeheer**-instelling **Verkooporders voor projecten met meerdere financieringsbronnen toestaan**. Deze parameter is standaard niet ingeschakeld. 

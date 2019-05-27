@@ -16,11 +16,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327108"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551156"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Indelingen wijzigen door Excel-sjablonen opnieuw toe te passen
 
@@ -28,7 +28,7 @@ ms.locfileid: "327108"
 
 Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling voltooien.
 
-In deze procedure wordt uitgelegd hoe u een elektronische rapportage (ER)-indelingsconfiguratie wijzigt door het opnieuw toepassen van een Microsoft Excel-sjabloon die is gewijzigd. In deze procedure importeert u een gewijzigde Excel-sjabloon in Emergency Recovery-indelingsconfiguraties die zijn gemaakt voor het voorbeeldbedrijf, Litware, Inc., en genereert u vervolgens elektronische documenten. Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektronische aangifteontwikkelaar. Deze stappen kunnen worden voltooid met de GBSI-gegevensset. Voordat u begint, downloadt u het bestand SampleVendPaymWsReport2.xlsx en slaat u het op, dat wordt vermeld in het Help-onderwerp Een indeling voor elektronische aangifte wijzigen door een Microsoft Excel-sjabloon opnieuw toe te passen (modify-electronic-reporting-format-reapply-excel-template/).
+In deze procedure wordt uitgelegd hoe u een elektronische rapportage (ER)-indelingsconfiguratie wijzigt door het opnieuw toepassen van een Microsoft Excel-sjabloon die is gewijzigd. In deze procedure importeert u een gewijzigde Excel-sjabloon in Emergency Recovery-indelingsconfiguraties die zijn gemaakt voor het voorbeeldbedrijf, Litware, Inc., en genereert u vervolgens elektronische documenten. Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektronische aangifteontwikkelaar. Deze stappen kunnen worden voltooid met de GBSI-gegevensset. Voordat u begint, downloadt u het bestand SampleVendPaymWsReport2.xlsx en slaat u het op, dat wordt vermeld in het Help-onderwerp Een indeling voor elektronische aangifte wijzigen door een Excel-sjabloon opnieuw toe te passen (modify-electronic-reporting-format-reapply-excel-template/).
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als Actief. Als u deze configuratieprovider niet ziet, voert u eerst de stappen uit in de procedure Een configuratieprovider maken en deze als actief markeren.  

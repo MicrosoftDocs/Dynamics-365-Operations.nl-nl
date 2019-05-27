@@ -18,11 +18,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 5a48ea7b0c1faf5726de21a246e3d8b4d98f166a
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "897173"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1511655"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiele factuurgoedkeuringen
 
@@ -36,7 +36,7 @@ Met de mobiele mogelijkheden in Microsoft Dynamics 365 for Finance and Operation
 | Vereiste                                                                                            | Omschrijving                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Vooraf gelezen mobiel handboek                                                                                |[Mobiel platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| Dynamics 365 for Finance and Operations                                                                             | Een omgeving met Microsoft Dynamics 365 for Operationsversie 1611 en Microsoft Dynamics for Operations, platform update 3 (november 2016)                   |
+| Dynamics 365 for Finance and Operations                                                                             | Een omgeving met Microsoft Dynamics 365 for Operations versie 1611 en Microsoft Dynamics for Operations, platform update 3 (november 2016)                   |
 | Installeer hotfix KB 3204341.                                                                              | Taakrecorder kan onterecht twee Sluiten-opdrachten voor vervolgkeuzelijstdialoogvensters registreren. Dit is opgenomen in het Dynamics 365 for Operations-platform update 3 (update van november 2016). |
 | Installeer hotfix KB 3207800.                                                                              | Met deze hotfix kunnen bijlagen worden weergegeven op de mobiele client. Dit is opgenomen in het Dynamics 365 for Operations-platform update 3 (update van november 2016).           |
 | Installeer hotfix KB 3208224.                                                                              | De toepassingscode voor de mobiele toepassing voor leveranciersfactuurgoedkeuring. Dit is opgenomen in de Microsoft Dynamics AX-toepassing 7.0.1 (mei 2016).                          |

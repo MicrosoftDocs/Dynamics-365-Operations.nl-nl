@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339068"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548027"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Operations versie 1611 (november 2016)
 
@@ -50,7 +50,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 </tr>
 <tr>
 <td>Kostenobjectdimensies definiëren en leden van kostenobjectdimensie importeren.</td>
-<td>Een kostenobject is een object van een willekeurig type, waarin kosten zijn toegewezen. Veelgebruikte kostenobjecten zijn bijvoorbeeld producten, projecten, bronnen, afdelingen, kostenplaatsen en geografische regio's. U kunt financiële dimensies en waarden op een van twee manieren verkrijgen: door middel van een gegevensconnector in Microsoft Dynamics 365 for Operations worden deze opgehaald bij Operations; of door middel van een algemene gegevensconnector worden via Microsoft Excel hoofdrekeningen opgehaald bij een ander type bronsysteem. Als u bijvoorbeeld de financiële dimensie Kostenplaats gebruikt als de objectdimensie, worden alle geïmporteerde kostenplaatsen de dimensieleden voor het kostenobject.</td>
+<td>Een kostenobject is een object van een willekeurig type, waarin kosten zijn toegewezen. Veelgebruikte kostenobjecten zijn bijvoorbeeld producten, projecten, bronnen, afdelingen, kostenplaatsen en geografische regio's. U kunt financiële dimensies en waarden op een van twee manieren verkrijgen: door middel van een gegevensconnector in Microsoft Dynamics 365 for Operations worden deze opgehaald bij Operations; of door middel van een algemene gegevensconnector worden via Excel hoofdrekeningen opgehaald bij een ander type bronsysteem. Als u bijvoorbeeld de financiële dimensie Kostenplaats gebruikt als de objectdimensie, worden alle geïmporteerde kostenplaatsen de dimensieleden voor het kostenobject.</td>
 </tr>
 <tr>
 <td>Statistische dimensies definiëren of importeren</td>
@@ -802,7 +802,7 @@ Store system is een implementatiekeuze die detailhandelaars helpt een set winkel
 
 ### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Universele Windows-platformapp voor Retail Modern POS
 
-Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing voor desktop-pc's en tablets, en in de vorm van Cloud POS voor browsers op desktop-pc's en tablets. In deze versie is Retail Modern POS omgezet in een app voor het universeel Windows-platform (UWP). Dankzij deze wijziging kan Retail Modern POS worden uitgevoerd op elk Windows 10-apparaat (desktop, tablet of telefoon) en zelfs schakelen tussen weergaven voor apparaten die geschikt zijn voor Continuum.
+Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing voor desktop-pc's en tablets, en in de vorm van Cloud POS voor browsers op desktop-pc's en tablets. In deze versie is Retail Moderns POS omgezet in een app voor het universeel Windows-platform (UWP). Dankzij deze wijziging kan Retail Modern POS worden uitgevoerd op elk Windows 10-apparaat (desktop, tablet of telefoon) en zelfs schakelen tussen weergaven voor apparaten die geschikt zijn voor Continuum.
 
 | Wat u kunt doen | Waarom dit belangrijk is |
 |-----------------|-----------------------|

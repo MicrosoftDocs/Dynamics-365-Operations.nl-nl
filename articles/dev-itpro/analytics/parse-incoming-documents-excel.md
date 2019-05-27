@@ -18,11 +18,11 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.openlocfilehash: 490a9325be25908564a40478a1ee29feea67fc02
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "367473"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545048"
 ---
 # <a name="parse-incoming-documents-in-excel-format"></a>Inkomende documenten in Excel-indeling parseren
 
@@ -42,7 +42,7 @@ Download de volgende bestanden om de hierboven genoemde taakbegeleidingen te vol
 | Binnenkomend bestand in. XLSX-indeling - sjabloon    | [1099import template.xlsx](https://go.microsoft.com/fwlink/?linkid=862266) |
 | Binnenkomend bestand in. XLSX-indeling - voorbeeldgegevens | [1099import-data.xlsx](https://go.microsoft.com/fwlink/?linkid=862266)     |
 
-Als u de volgende taakbegeleiding [ER vereiste configuraties maken om gegevens te importeren uit een extern bestand](./tasks/er-required-configurations-import-data.md) nog niet hebt afgespeeld in de huidige Dynamics 365 for Finance and Operations-toepassing, downloadt u het volgende bestand.
+Als u de volgende taakbegeleiding [ER vereiste configuraties maken om gegevens te importeren uit een extern bestand](./tasks/er-required-configurations-import-data.md) nog niet hebt afgespeeld in de huidige Dynamics 365 for Finance and Operation-toepassing, downloadt u het volgende bestand.
 
 | Omschrijving inhoud    | Bestand                                                            |
 |------------------------|-----------------------------------------------------------------|

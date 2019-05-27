@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
+ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350729"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1538951"
 ---
 # <a name="finance-and-operations-help-system"></a>Help-systeem voor Finance and Operations
 
@@ -90,8 +90,6 @@ We stellen feedback van klanten zeer op prijs. U kunt opmerkingen geven of wijzi
 Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aan de pagina een opmerking achterlaten.
 
 1. Klik op **Feedback** om de opmerkingen onder aan de pagina te gaan en klik vervolgens op **Productfeedback** of **Aanmelden om feedback te geven over de documentatie**.
-
-    ![Feedback](./media/comments.png)
 
 2. Begin met het typen van uw opmerkingen en klik vervolgens op **Feedback verzenden**.
 

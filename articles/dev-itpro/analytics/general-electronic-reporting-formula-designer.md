@@ -3,7 +3,7 @@ title: Formuleontwerper in elektronische rapportage (ER)
 description: In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rapportage (ER) wordt gebruikt.
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331271"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541263"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formuleontwerper in elektronische rapportage (ER)
 
@@ -260,7 +260,7 @@ Als de invoer of het scheidingsteken niet is opgegeven (null), treedt een toepas
 <td>SPLITLIST (lijst, aantal)</td>
 <td>Splits de opgegeven lijst in batches waarvan elk het opgegeven aantal records bevat. Retourneer het resultaat als een nieuwe lijst batches die de volgende elementen bevatten:
 <ul>
-<li>Batches als normale lijsten (onderdeel <strong>Waarde </strong>)</li>
+<li>Batches als normale lijsten (onderdeel <strong>Waarde</strong>)</li>
 <li>Het huidige batchaantal (onderdeel <strong>BatchNumber</strong>)</li>
 </ul>
 </td>
@@ -440,12 +440,17 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>De opgegeven lijst retourneren nadat de query is gewijzigd om te filteren op de opgegeven voorwaarde. Deze functie verschilt van de functie <strong>WHERE</strong> omdat de opgegeven voorwaarde wordt toegepast op een ER-gegevensbron van het type <strong>Tabelrecords</strong> op het databaseniveau. De lijst en de voorwaarde kunnen worden gedefinieerd met behulp van tabellen en relaties.</td>
 <td>Als <strong>Leverancier</strong> als een ER-gegevensbron wordt geconfigureerd die naar de tabel VendTable verwijst, wordt met <strong>FILTER(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> een lijst met leveranciers geretourneerd die behoren tot de leveranciersgroep 40. Als <strong>Vendor</strong> is geconfigureerd als een ER-gegevensbron die verwijst naar de tabel VendTable en als <strong>parmVendorBankGroup</strong> is geconfigureerd als een ER-gegevensbron die een waarde van het gegevenstype <strong>String</strong> retourneert, retourneert <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> een lijst met alleen de leveranciersaccounts die behoren tot een specifieke bankgroep.</td>
 </tr>
+<tr>
+<td>INDEX (list, index)</td>
+<td>Deze functie retourneert een record die wordt geselecteerd door een specifieke numerieke index in de lijst. Er wordt een uitzondering gegenereerd als de index zich buiten het bereik van de records in de lijst bevindt.</td>
+<td>Als u de gegevensbron <strong>DS</strong> invoert voor het type <strong>Berekend veld</strong> en deze bevat de expressie <strong>SPLIT ("A|B|C", “|”), 2)</strong>, retourneert de expressie <strong>DS.Value</strong> de tekstwaarde "B". De expressie <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> retourneert eveneens de tekstwaarde "B".</td>
+</tr>
 </tbody>
 </table>
 
 ### <a name="logical-functions"></a>Logische functies
 
-| Functie | Omschrijving | Voorbeeld |
+| Functie | Beschrijving | Voorbeeld |
 |----------|-------------|---------|
 | CASE (expressie, optie 1, resultaat 1 \[, optie 2, resultaat 2\] … \[, standaardresultaat\]) | Evalueer de opgegeven expressiewaarde tegen de opgegeven alternatieve opties. Retourneer het resultaat van de optie die gelijk is aan de waarde van de expressie. Retourneer anders het optionele standaardresultaat als een standaardresultaat is opgegeven. (Het standaardresultaat is de laatste parameter die niet wordt voorafgegaan door een optie.) | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** retourneert de tekenreeks **"WINTER"** wanneer de datum van de huidige Finance and Operations-sessie tussen oktober en december is. Anders wordt een lege tekenreeks geretourneerd. |
 | IF (voorwaarde, waarde 1, waarde 2) | Retourneer de eerste opgegeven waarde wanneer aan de opgegeven voorwaarde is voldaan. Anders wordt de tweede opgegeven waarde als resultaat gegeven. Als waarde 1 en waarde 2 records of recordlijsten zijn, bevat het resultaat alleen de velden die in beide lijsten bestaan. | **IF (1=2, "aan voorwaarde is voldaan", "aan voorwaarde is niet voldaan")** retourneert de tekenreeks **"aan voorwaarde is niet voldaan"**. |

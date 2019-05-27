@@ -3,7 +3,7 @@ title: Dubbele valuta
 description: Dit onderwerp biedt informatie over dubbele valuta, waar de aangiftevaluta wordt gebruikt als een tweede valuta voor boekhouding voor Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330305"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532243"
 ---
 # <a name="dual-currency"></a>Twee valuta's
 
@@ -61,6 +61,9 @@ Voor verschillende rapporten en query's is ook logica toegevoegd om aangiftevalu
 ## <a name="financial-journals"></a>Financiële journalen
 
 De financiële journalen, zoals het algemene journaal en het leveranciersfacturenjournaal, zijn bijgewerkt zodat ze extra informatie over de aangiftevaluta bevatten. Totalen voor het boekstuk en het journaal worden nu weergegeven in de aangiftevaluta. Bovendien wordt informatie over de wisselkoers van de aangiftevaluta nu weergegeven op het tabblad **Algemeen** van de journaalregels. Daarom kunt u de wisselkoers voor de aangiftevaluta overschrijven wanneer u transacties invoert.
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Leveranciersfacturen, verkooporders en verkoopovereenkomsten
+Leveranciersfacturen, verkooporders en verkoopovereenkomsten zijn bijgewerkt met een vaste wisselkoers voor de aangiftevaluta. Voor zowel de valuta voor boekhouding als voor de aangiftevaluta kan een vaste wisselkoers worden gedefinieerd wanneer de transactievaluta afwijkt. Wanneer de valuta voor de boekhouding en de aangiftevaluta gelijk zijn, wordt de vaste wisselkoers gesynchroniseerd door het vaste tarief van de valuta voor de boekhouding te gebruiken als vast tarief voor de aangiftevaluta. De vaste wisselkoers voor de aangiftevaluta kan niet worden gewijzigd voor deze configuratie. Wanneer de valuta voor de boekhouding en de aangiftevaluta verschillen, kan een vaste wisselkoers worden gedefinieerd voor zowel de valuta voor de boekhouding als de aangiftevaluta tijdens het invoeren van de transactie. Als de aangiftevaluta niet is gedefinieerd in het grootboek, is het veld **Vaste wisselkoers voor aangiftevaluta** niet ingeschakeld en wordt er geen bedrag voor de aangiftevaluta berekend.
 
 ## <a name="module-changes"></a>Modulewijzigingen
 
