@@ -18,11 +18,11 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340632"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554985"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Entiteitsgegevens in Excel openen en bijwerken via de Excel-invoegtoepassing
 
@@ -33,7 +33,7 @@ In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt
 Door entiteitsgegevens in Excel te openen, kunt u deze snel en eenvoudig bekijken en bewerken met de Excel-invoegtoepassing. Deze invoegtoepassing vereist Microsoft Excel 2016
 
 > [!NOTE]
-> Als uw Microsoft Azure Active Directory (Azure AD)-tenant is geconfigureerd voor het gebruik van Active Directory Federation Services (AD FS), moet u ervoor zorgen dat de Office-update van mei 2016 is toegepast, zodat u correct kunt worden aangemeld voor de Excel-invoegtoepassing.
+> Als uw Microsoft Azure Active Directory (Azure AD)-tenant is geconfigureerd voor het gebruik van Active Directory Federation Services (AD FS), moet u ervoor zorgen dat de Office-update van mei 2016 is toegepast, zodat u correct kunt worden aangemeld voor de Excel-invoegtoepassing.
 
 Voor meer informatie over het gebruik van de Excel-invoegtoepassing, bekijkt u de korte video [Een Excel-sjabloon maken voor koptekst- en regelpatronen in Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 

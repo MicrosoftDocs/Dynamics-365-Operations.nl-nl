@@ -19,11 +19,11 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310065"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562525"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Artikelen en grondstoffen in voorraad, productie en verkoop traceren
 
@@ -124,10 +124,10 @@ Nadat u de tracering hebt uitgevoerd, kunt u de volgende opties op de knop **Tra
 -   **Achteruit** of **Vooruit** – Start een nieuwe tracering voor het geselecteerde knooppunt en overschrijf de details van de huidige tracering.
 -   **Nieuw achterwaarts** of **Nieuw voorwaarts** – Start een nieuwe tracering in een nieuw venster en houdt de details van de huidige tracering.
 
-Als u in de huidige versie van Microsoft Dynamics AX de optie **Nieuw achterwaarts** of **Nieuw voorwaarts** wilt gebruiken, moet u de functie **Openen in een nieuw venster** gebruiken om een nieuwe te tracering in een nieuw venster weer te geven.
+Als u de optie **Nieuw achterwaarts** of **Nieuw voorwaarts** wilt gebruiken, moet u de functie **Openen in een nieuw venster** gebruiken om een nieuwe te tracering in een nieuw venster weer te geven.
 
 ## <a name="can-i-save-the-trace-details"></a>Kan ik de traceringsdetails opslaan?
-U kunt de informatie op het tabblad <strong>Details</strong> opslaan als XML-bestand door op <strong>Exporteren</strong> in het actievenster onder de actie *<strong><em>Tracering</em></strong>* te klikken. Naast de traceringsdetails bevat het XML-bestand de traceringscriteria, het bovenliggende knooppunt en de voorhanden hoeveelheid. Het opslaan van de details van een tracering is handig, bijvoorbeeld als u de gegevens aan een kwaliteitsorder of andere conformiteitsdocumentatie wilt koppelen. U kunt opgeven waar het bestand wordt opgeslagen. Als u het bestand meteen wilt weergeven, schakelt u het selectievakje <strong>Document weergeven</strong> in. <strong>Opmerking:</strong> Het bestand wordt altijd opgeslagen, zelfs als u het alleen wilt weergeven. Standaard opent het XML-bestand in een browservenster. U kunt echter met de rechtermuisknop op het bestand klikken, <strong>Openen met</strong> selecteren en vervolgens het programma selecteren om de inhoud weer te geven.
+U kunt de informatie op het tabblad <strong>Details</strong> opslaan als XML-bestand door op <strong>Exporteren</strong> in het actievenster onder de actie *<strong><em>Tracering</em></strong>* te klikken. Naast de traceringsdetails bevat het XML-bestand de traceringscriteria, het bovenliggende knooppunt en de voorhanden hoeveelheid. Het opslaan van de details van een tracering is handig, bijvoorbeeld als u de gegevens aan een kwaliteitsorder of andere conformiteitsdocumentatie wilt koppelen. U kunt opgeven waar het bestand wordt opgeslagen. Als u het bestand meteen wilt weergeven, schakelt u het selectievakje <strong>Document weergeven</strong> in. <strong>Opmerking:</strong> Het bestand wordt altijd opgeslagen, zelfs als u het alleen wilt weergeven. Standaard opent het XML-bestand in een browservenster. U kunt echter met de rechtermuisknop op het bestand klikken, <strong>Openen met</strong> selecteren en vervolgens het programma selecteren om de inhoud weer te geven.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Kan ik een saldo voor een bepaald artikel of een ingrediënt berekenen?
 U kunt de informatie van de overzichtspagina´s exporteren naar Microsoft Excel. Open de relevante pagina, klik op het pictogram **Openen in Microsoft Office** en selecteer vervolgens **Exporteren naar Microsoft Excel**. Dit is vooral nuttig wanneer u een massasaldo voor een artikel of een ingrediënt van de pagina **Overzicht van transacties** wilt berekenen. Op de pagina **Overzicht van transacties** kunt u desgewenst op het artikel of het ingrediënt en de batch filteren en vervolgens de informatie naar Excel exporteren. In Excel kunt u bijvoorbeeld de voorhanden hoeveelheid isoleren, de hoeveelheid die is verkocht, en de hoeveelheid die in productie is gebruikt.

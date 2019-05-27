@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.openlocfilehash: 4fac04d1ea028bae9323b7961e64f3e49b74e482
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "344634"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561875"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)
 
@@ -32,7 +32,7 @@ In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die z
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Taakbegeleidingen in de APQC Unified Library (augustus 2016, alle talen) voor Microsoft Dynamics AX
 
-De APQC Unified Library (augustus 2016, alle talen) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help bij update 2 van het Microsoft Dynamics AX-platform (augustus 2016), de toepassingsupdate voor mei 2016 van Microsoft Dynamics AX en de release van Microsoft Dynamics AX voor februari 2016. Zie voor meer informatie over deze versies [Wat is nieuw of gewijzigd](whats-new-changed.md). Gelokaliseerde versies van de taakbegeleidingen zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
+De APQC Unified Library (augustus 2016, alle talen) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help bij update 2 van het Microsoft Dynamics AX-platform (augustus 2016), de toepassingsupdate voor Dynamics AX van mei 2016 en de release van Microsoft Dynamics AX voor februari 2016. Zie voor meer informatie over deze versies [Wat is nieuw of gewijzigd](whats-new-changed.md). Gelokaliseerde versies van de taakbegeleidingen zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
 
 ### <a name="data-access"></a>Gegevenstoegang
 
