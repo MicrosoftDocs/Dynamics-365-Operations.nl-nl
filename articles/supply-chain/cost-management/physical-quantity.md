@@ -20,32 +20,32 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e92c7889b11208c4d2b48eb279a104a7c226f904
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "319127"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547854"
 ---
-# <a name="inventory-object-values"></a><span data-ttu-id="7d201-103">Waarden van voorraadobjecten</span><span class="sxs-lookup"><span data-stu-id="7d201-103">Inventory object values</span></span>
+# <a name="inventory-object-values"></a><span data-ttu-id="eb613-103">Waarden van voorraadobjecten</span><span class="sxs-lookup"><span data-stu-id="eb613-103">Inventory object values</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7d201-104">Dit artikel biedt informatie over hoe de waarden van een voorraadobject worden berekend.</span><span class="sxs-lookup"><span data-stu-id="7d201-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
+<span data-ttu-id="eb613-104">Dit artikel biedt informatie over hoe de waarden van een voorraadobject worden berekend.</span><span class="sxs-lookup"><span data-stu-id="eb613-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
 
-<span data-ttu-id="7d201-105">Met een nieuwe functionaliteit die **fysieke hoeveelheid** wordt genoemd, kunt u de waarden van een specifiek voorraadobject zien.</span><span class="sxs-lookup"><span data-stu-id="7d201-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
+<span data-ttu-id="eb613-105">Met een nieuwe functionaliteit die **fysieke hoeveelheid** wordt genoemd, kunt u de waarden van een specifiek voorraadobject zien.</span><span class="sxs-lookup"><span data-stu-id="eb613-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
 
-<span data-ttu-id="7d201-106">Een kostobject geeft het entiteitsniveau weer waarin de voorraadboekhouding wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="7d201-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="7d201-107">Voor meer informatie over kostenobjecten, zie [Kostenobjecten](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="7d201-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
+<span data-ttu-id="eb613-106">Een kostobject geeft het entiteitsniveau weer waarin de voorraadboekhouding wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="eb613-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="eb613-107">Voor meer informatie over kostenobjecten, zie [Kostenobjecten](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="eb613-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
 
-<span data-ttu-id="7d201-108">Om de waarden van een specifiek voorraadobject te bekijken, klikt u op **Fysieke hoeveelheid** op de pagina **Kostenobject**.</span><span class="sxs-lookup"><span data-stu-id="7d201-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="7d201-109">De waarde van een voorraadobject wordt als volgt berekend:</span><span class="sxs-lookup"><span data-stu-id="7d201-109">Here is how the value of an inventory object is calculated:</span></span> 
+<span data-ttu-id="eb613-108">Om de waarden van een specifiek voorraadobject te bekijken, klikt u op **Fysieke hoeveelheid** op de pagina **Kostenobject**.</span><span class="sxs-lookup"><span data-stu-id="eb613-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="eb613-109">De waarde van een voorraadobject wordt als volgt berekend:</span><span class="sxs-lookup"><span data-stu-id="eb613-109">Here is how the value of an inventory object is calculated:</span></span> 
 
-<span data-ttu-id="7d201-110">Voorraaobject.Waarde = Kostenobject.Gemiddelde kosten per eenheid × voorraadobject.Hoeveelheid</span><span class="sxs-lookup"><span data-stu-id="7d201-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
+<span data-ttu-id="eb613-110">Voorraaobject.Waarde = Kostenobject.Gemiddelde kosten per eenheid × voorraadobject.Hoeveelheid</span><span class="sxs-lookup"><span data-stu-id="eb613-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
 
-<span data-ttu-id="7d201-111">Het volgende voorbeeld laat ziet hoe de waarden van een voorraadobject en een kostenobject worden berekend.</span><span class="sxs-lookup"><span data-stu-id="7d201-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="7d201-112">Twee productontvangstbongebeurtenissen worden geregistreerd op artikel A:</span><span class="sxs-lookup"><span data-stu-id="7d201-112">Two product receipt events are registered on item A:</span></span>
+<span data-ttu-id="eb613-111">Het volgende voorbeeld laat ziet hoe de waarden van een voorraadobject en een kostenobject worden berekend.</span><span class="sxs-lookup"><span data-stu-id="eb613-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="eb613-112">Twee productontvangstbongebeurtenissen worden geregistreerd op artikel A:</span><span class="sxs-lookup"><span data-stu-id="eb613-112">Two product receipt events are registered on item A:</span></span>
 
--   <span data-ttu-id="7d201-113">Productontvangstbon 1: Hoeveelheid = 100 stuks, Bedrag = $ 1.000,00, Locatie = 1, Magazijn =11, Batchnr.</span><span class="sxs-lookup"><span data-stu-id="7d201-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="7d201-114">= B1</span><span class="sxs-lookup"><span data-stu-id="7d201-114">= B1</span></span>
--   <span data-ttu-id="7d201-115">Productontvangstbon 2: Hoeveelheid = 50 stuks, Bedrag = $ 800,00, Locatie = 1, Magazijn =11, Batchnr.</span><span class="sxs-lookup"><span data-stu-id="7d201-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="7d201-116">= B2</span><span class="sxs-lookup"><span data-stu-id="7d201-116">= B2</span></span>
+-   <span data-ttu-id="eb613-113">Productontvangstbon 1: Hoeveelheid = 100 stuks, Bedrag = $ 1.000,00, Locatie = 1, Magazijn =11, Batchnr.</span><span class="sxs-lookup"><span data-stu-id="eb613-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="eb613-114">= B1</span><span class="sxs-lookup"><span data-stu-id="eb613-114">= B1</span></span>
+-   <span data-ttu-id="eb613-115">Productontvangstbon 2: Hoeveelheid = 50 stuks, Bedrag = $ 800,00, Locatie = 1, Magazijn =11, Batchnr.</span><span class="sxs-lookup"><span data-stu-id="eb613-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="eb613-116">= B2</span><span class="sxs-lookup"><span data-stu-id="eb613-116">= B2</span></span>
 
-<span data-ttu-id="7d201-117">De volgende tabel geeft het resultaat van de berekening voor een kostenobject.</span><span class="sxs-lookup"><span data-stu-id="7d201-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="7d201-118">U kunt het resultaat op de pagina **Kostenobject** weergeven.</span><span class="sxs-lookup"><span data-stu-id="7d201-118">You can view the result on the **Cost object** page.</span></span>
+<span data-ttu-id="eb613-117">De volgende tabel geeft het resultaat van de berekening voor een kostenobject.</span><span class="sxs-lookup"><span data-stu-id="eb613-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="eb613-118">U kunt het resultaat op de pagina **Kostenobject** weergeven.</span><span class="sxs-lookup"><span data-stu-id="eb613-118">You can view the result on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -59,29 +59,29 @@ ms.locfileid: "319127"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7d201-119">Objecttype</span><span class="sxs-lookup"><span data-stu-id="7d201-119">Object type</span></span></th>
-<th><span data-ttu-id="7d201-120">Artikelnummer</span><span class="sxs-lookup"><span data-stu-id="7d201-120">Item number</span></span></th>
-<th><span data-ttu-id="7d201-121">Locatie</span><span class="sxs-lookup"><span data-stu-id="7d201-121">Site</span></span></th>
-<th><span data-ttu-id="7d201-122">Hoeveelheid</span><span class="sxs-lookup"><span data-stu-id="7d201-122">Quantity</span></span></th>
-<th><span data-ttu-id="7d201-123">Voorraadeenheid</span><span class="sxs-lookup"><span data-stu-id="7d201-123">Inventory unit</span></span></th>
-<th><span data-ttu-id="7d201-124">Waarde</span><span class="sxs-lookup"><span data-stu-id="7d201-124">Value</span></span></th>
-<th><span data-ttu-id="7d201-125">Gemiddelde eenheidskosten</span><span class="sxs-lookup"><span data-stu-id="7d201-125">Average unit cost</span></span></th>
+<th><span data-ttu-id="eb613-119">Objecttype</span><span class="sxs-lookup"><span data-stu-id="eb613-119">Object type</span></span></th>
+<th><span data-ttu-id="eb613-120">Artikelnummer</span><span class="sxs-lookup"><span data-stu-id="eb613-120">Item number</span></span></th>
+<th><span data-ttu-id="eb613-121">Locatie</span><span class="sxs-lookup"><span data-stu-id="eb613-121">Site</span></span></th>
+<th><span data-ttu-id="eb613-122">Hoeveelheid</span><span class="sxs-lookup"><span data-stu-id="eb613-122">Quantity</span></span></th>
+<th><span data-ttu-id="eb613-123">Voorraadeenheid</span><span class="sxs-lookup"><span data-stu-id="eb613-123">Inventory unit</span></span></th>
+<th><span data-ttu-id="eb613-124">Waarde</span><span class="sxs-lookup"><span data-stu-id="eb613-124">Value</span></span></th>
+<th><span data-ttu-id="eb613-125">Gemiddelde eenheidskosten</span><span class="sxs-lookup"><span data-stu-id="eb613-125">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="7d201-126">Kostenobject</span><span class="sxs-lookup"><span data-stu-id="7d201-126">Cost object</span></span></td>
-<td><span data-ttu-id="7d201-127">A</span><span class="sxs-lookup"><span data-stu-id="7d201-127">A</span></span></td>
-<td><span data-ttu-id="7d201-128">1</span><span class="sxs-lookup"><span data-stu-id="7d201-128">1</span></span></td>
-<td><span data-ttu-id="7d201-129">150</span><span class="sxs-lookup"><span data-stu-id="7d201-129">150</span></span></td>
-<td><span data-ttu-id="7d201-130">Stuks</span><span class="sxs-lookup"><span data-stu-id="7d201-130">Pcs.</span></span></td>
-<td><p><span data-ttu-id="7d201-131">$°1800,00</span><span class="sxs-lookup"><span data-stu-id="7d201-131">$1800.00</span></span></p></td>
-<td><p><span data-ttu-id="7d201-132">$°12,00</span><span class="sxs-lookup"><span data-stu-id="7d201-132">$12.00</span></span></p></td>
+<td><span data-ttu-id="eb613-126">Kostenobject</span><span class="sxs-lookup"><span data-stu-id="eb613-126">Cost object</span></span></td>
+<td><span data-ttu-id="eb613-127">A</span><span class="sxs-lookup"><span data-stu-id="eb613-127">A</span></span></td>
+<td><span data-ttu-id="eb613-128">1</span><span class="sxs-lookup"><span data-stu-id="eb613-128">1</span></span></td>
+<td><span data-ttu-id="eb613-129">150</span><span class="sxs-lookup"><span data-stu-id="eb613-129">150</span></span></td>
+<td><span data-ttu-id="eb613-130">Stuks</span><span class="sxs-lookup"><span data-stu-id="eb613-130">Pcs.</span></span></td>
+<td><p><span data-ttu-id="eb613-131">$°1800,00</span><span class="sxs-lookup"><span data-stu-id="eb613-131">$1800.00</span></span></p></td>
+<td><p><span data-ttu-id="eb613-132">$°12,00</span><span class="sxs-lookup"><span data-stu-id="eb613-132">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="7d201-133">De volgende tabel geeft het resultaat van de berekening voor een voorraadobject.</span><span class="sxs-lookup"><span data-stu-id="7d201-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="7d201-134">U kunt het resultaat bekijken door te klikken op **Fysieke hoeveelheid** op de pagina **Kostenobject**.</span><span class="sxs-lookup"><span data-stu-id="7d201-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
+<span data-ttu-id="eb613-133">De volgende tabel geeft het resultaat van de berekening voor een voorraadobject.</span><span class="sxs-lookup"><span data-stu-id="eb613-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="eb613-134">U kunt het resultaat bekijken door te klikken op **Fysieke hoeveelheid** op de pagina **Kostenobject**.</span><span class="sxs-lookup"><span data-stu-id="eb613-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -97,53 +97,53 @@ ms.locfileid: "319127"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7d201-135">Objecttype</span><span class="sxs-lookup"><span data-stu-id="7d201-135">Object type</span></span></th>
-<th><span data-ttu-id="7d201-136">Artikelnummer</span><span class="sxs-lookup"><span data-stu-id="7d201-136">Item number</span></span></th>
-<th><span data-ttu-id="7d201-137">Locatie</span><span class="sxs-lookup"><span data-stu-id="7d201-137">Site</span></span></th>
-<th><span data-ttu-id="7d201-138">Magazijn</span><span class="sxs-lookup"><span data-stu-id="7d201-138">Warehouse</span></span></th>
-<th><span data-ttu-id="7d201-139">Batchnr.</span><span class="sxs-lookup"><span data-stu-id="7d201-139">Batch No.</span></span></th>
-<th><span data-ttu-id="7d201-140">Hoeveelheid</span><span class="sxs-lookup"><span data-stu-id="7d201-140">Quantity</span></span></th>
-<th><span data-ttu-id="7d201-141">Voorraadeenheid</span><span class="sxs-lookup"><span data-stu-id="7d201-141">Inventory unit</span></span></th>
-<th><span data-ttu-id="7d201-142">Waarde</span><span class="sxs-lookup"><span data-stu-id="7d201-142">Value</span></span></th>
-<th><span data-ttu-id="7d201-143">Gemiddelde eenheidskosten</span><span class="sxs-lookup"><span data-stu-id="7d201-143">Average unit cost</span></span></th>
+<th><span data-ttu-id="eb613-135">Objecttype</span><span class="sxs-lookup"><span data-stu-id="eb613-135">Object type</span></span></th>
+<th><span data-ttu-id="eb613-136">Artikelnummer</span><span class="sxs-lookup"><span data-stu-id="eb613-136">Item number</span></span></th>
+<th><span data-ttu-id="eb613-137">Locatie</span><span class="sxs-lookup"><span data-stu-id="eb613-137">Site</span></span></th>
+<th><span data-ttu-id="eb613-138">Magazijn</span><span class="sxs-lookup"><span data-stu-id="eb613-138">Warehouse</span></span></th>
+<th><span data-ttu-id="eb613-139">Batchnr.</span><span class="sxs-lookup"><span data-stu-id="eb613-139">Batch No.</span></span></th>
+<th><span data-ttu-id="eb613-140">Hoeveelheid</span><span class="sxs-lookup"><span data-stu-id="eb613-140">Quantity</span></span></th>
+<th><span data-ttu-id="eb613-141">Voorraadeenheid</span><span class="sxs-lookup"><span data-stu-id="eb613-141">Inventory unit</span></span></th>
+<th><span data-ttu-id="eb613-142">Waarde</span><span class="sxs-lookup"><span data-stu-id="eb613-142">Value</span></span></th>
+<th><span data-ttu-id="eb613-143">Gemiddelde eenheidskosten</span><span class="sxs-lookup"><span data-stu-id="eb613-143">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="7d201-144">Voorraadobject</span><span class="sxs-lookup"><span data-stu-id="7d201-144">Inventory object</span></span></td>
-<td><span data-ttu-id="7d201-145">A</span><span class="sxs-lookup"><span data-stu-id="7d201-145">A</span></span></td>
-<td><span data-ttu-id="7d201-146">1</span><span class="sxs-lookup"><span data-stu-id="7d201-146">1</span></span></td>
-<td><span data-ttu-id="7d201-147">11</span><span class="sxs-lookup"><span data-stu-id="7d201-147">11</span></span></td>
-<td><span data-ttu-id="7d201-148">B1</span><span class="sxs-lookup"><span data-stu-id="7d201-148">B1</span></span></td>
-<td><span data-ttu-id="7d201-149">100</span><span class="sxs-lookup"><span data-stu-id="7d201-149">100</span></span></td>
-<td><span data-ttu-id="7d201-150">Stuks</span><span class="sxs-lookup"><span data-stu-id="7d201-150">Pcs.</span></span></td>
-<td><p><span data-ttu-id="7d201-151">$ 1200,00</span><span class="sxs-lookup"><span data-stu-id="7d201-151">$1200.00</span></span></p></td>
-<td><p><span data-ttu-id="7d201-152">$°12,00</span><span class="sxs-lookup"><span data-stu-id="7d201-152">$12.00</span></span></p></td>
+<td><span data-ttu-id="eb613-144">Voorraadobject</span><span class="sxs-lookup"><span data-stu-id="eb613-144">Inventory object</span></span></td>
+<td><span data-ttu-id="eb613-145">A</span><span class="sxs-lookup"><span data-stu-id="eb613-145">A</span></span></td>
+<td><span data-ttu-id="eb613-146">1</span><span class="sxs-lookup"><span data-stu-id="eb613-146">1</span></span></td>
+<td><span data-ttu-id="eb613-147">11</span><span class="sxs-lookup"><span data-stu-id="eb613-147">11</span></span></td>
+<td><span data-ttu-id="eb613-148">B1</span><span class="sxs-lookup"><span data-stu-id="eb613-148">B1</span></span></td>
+<td><span data-ttu-id="eb613-149">100</span><span class="sxs-lookup"><span data-stu-id="eb613-149">100</span></span></td>
+<td><span data-ttu-id="eb613-150">Stuks</span><span class="sxs-lookup"><span data-stu-id="eb613-150">Pcs.</span></span></td>
+<td><p><span data-ttu-id="eb613-151">$ 1200,00</span><span class="sxs-lookup"><span data-stu-id="eb613-151">$1200.00</span></span></p></td>
+<td><p><span data-ttu-id="eb613-152">$°12,00</span><span class="sxs-lookup"><span data-stu-id="eb613-152">$12.00</span></span></p></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="7d201-153">Voorraadobject</span><span class="sxs-lookup"><span data-stu-id="7d201-153">Inventory object</span></span></td>
-<td><span data-ttu-id="7d201-154">V</span><span class="sxs-lookup"><span data-stu-id="7d201-154">A</span></span></td>
-<td><span data-ttu-id="7d201-155">1</span><span class="sxs-lookup"><span data-stu-id="7d201-155">1</span></span></td>
-<td><span data-ttu-id="7d201-156">11</span><span class="sxs-lookup"><span data-stu-id="7d201-156">11</span></span></td>
-<td><span data-ttu-id="7d201-157">B2</span><span class="sxs-lookup"><span data-stu-id="7d201-157">B2</span></span></td>
-<td><span data-ttu-id="7d201-158">50</span><span class="sxs-lookup"><span data-stu-id="7d201-158">50</span></span></td>
-<td><span data-ttu-id="7d201-159">Stuks</span><span class="sxs-lookup"><span data-stu-id="7d201-159">Pcs.</span></span></td>
-<td><p><span data-ttu-id="7d201-160">$ 600,00</span><span class="sxs-lookup"><span data-stu-id="7d201-160">$600.00</span></span></p></td>
-<td><p><span data-ttu-id="7d201-161">$°12,00</span><span class="sxs-lookup"><span data-stu-id="7d201-161">$12.00</span></span></p></td>
+<td><span data-ttu-id="eb613-153">Voorraadobject</span><span class="sxs-lookup"><span data-stu-id="eb613-153">Inventory object</span></span></td>
+<td><span data-ttu-id="eb613-154">V</span><span class="sxs-lookup"><span data-stu-id="eb613-154">A</span></span></td>
+<td><span data-ttu-id="eb613-155">1</span><span class="sxs-lookup"><span data-stu-id="eb613-155">1</span></span></td>
+<td><span data-ttu-id="eb613-156">11</span><span class="sxs-lookup"><span data-stu-id="eb613-156">11</span></span></td>
+<td><span data-ttu-id="eb613-157">B2</span><span class="sxs-lookup"><span data-stu-id="eb613-157">B2</span></span></td>
+<td><span data-ttu-id="eb613-158">50</span><span class="sxs-lookup"><span data-stu-id="eb613-158">50</span></span></td>
+<td><span data-ttu-id="eb613-159">Stuks</span><span class="sxs-lookup"><span data-stu-id="eb613-159">Pcs.</span></span></td>
+<td><p><span data-ttu-id="eb613-160">$ 600,00</span><span class="sxs-lookup"><span data-stu-id="eb613-160">$600.00</span></span></p></td>
+<td><p><span data-ttu-id="eb613-161">$°12,00</span><span class="sxs-lookup"><span data-stu-id="eb613-161">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="7d201-162">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="7d201-162">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="eb613-162">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="eb613-162">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="7d201-163">Kostenobjecten</span><span class="sxs-lookup"><span data-stu-id="7d201-163">Cost objects</span></span>](cost-object.md)
+[<span data-ttu-id="eb613-163">Kostenobjecten</span><span class="sxs-lookup"><span data-stu-id="eb613-163">Cost objects</span></span>](cost-object.md)
 
-[<span data-ttu-id="7d201-164">Kosteninvoer</span><span class="sxs-lookup"><span data-stu-id="7d201-164">Cost entries</span></span>](cost-entries.md)
+[<span data-ttu-id="eb613-164">Kosteninvoer</span><span class="sxs-lookup"><span data-stu-id="eb613-164">Cost entries</span></span>](cost-entries.md)
 
-[<span data-ttu-id="7d201-165">Wat is nieuw of gewijzigd</span><span class="sxs-lookup"><span data-stu-id="7d201-165">What's new and changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
+[<span data-ttu-id="eb613-165">Wat is nieuw of gewijzigd</span><span class="sxs-lookup"><span data-stu-id="eb613-165">What's new and changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
 
 
 

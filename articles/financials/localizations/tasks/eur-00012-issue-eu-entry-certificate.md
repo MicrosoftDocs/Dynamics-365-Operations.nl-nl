@@ -16,75 +16,75 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a566b1d25064e3fccc8953dc883aa63bd16a301
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ee04632eee45aff1fe4b286c65024b0bc57bbb73
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371392"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538194"
 ---
-# <a name="eur-00012-issue-an-eu-entry-certificate"></a><span data-ttu-id="0b091-103">EUR-00012 Een EU-invoercertificaat uitgeven</span><span class="sxs-lookup"><span data-stu-id="0b091-103">EUR-00012 Issue an EU entry certificate</span></span>
+# <a name="eur-00012-issue-an-eu-entry-certificate"></a><span data-ttu-id="40656-103">EUR-00012 Een EU-invoercertificaat uitgeven</span><span class="sxs-lookup"><span data-stu-id="40656-103">EUR-00012 Issue an EU entry certificate</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="0b091-104">Deze procedure begeleidt u bij het inschakelen van een EU-invoercertificaat, het configureren van een klantrekening om invoercertificaten te gebruiken en het uitgeven van een certificaat.</span><span class="sxs-lookup"><span data-stu-id="0b091-104">This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</span></span> <span data-ttu-id="0b091-105">Deze procedure is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="0b091-105">This procedure was created using the demo data company DEMF.</span></span>
+<span data-ttu-id="40656-104">Deze procedure begeleidt u bij het inschakelen van een EU-invoercertificaat, het configureren van een klantrekening om invoercertificaten te gebruiken en het uitgeven van een certificaat.</span><span class="sxs-lookup"><span data-stu-id="40656-104">This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</span></span> <span data-ttu-id="40656-105">Deze procedure is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="40656-105">This procedure was created using the demo data company DEMF.</span></span>
 
 
-## <a name="enable-entry-certificate-management"></a><span data-ttu-id="0b091-106">Certificaatbeheer inschakelen</span><span class="sxs-lookup"><span data-stu-id="0b091-106">Enable entry certificate management</span></span>
-1. <span data-ttu-id="0b091-107">Ga naar Klanten > Instellingen > Parameters van module Klanten.</span><span class="sxs-lookup"><span data-stu-id="0b091-107">Go to Accounts receivable > Setup > Accounts receivable parameters.</span></span>
-2. <span data-ttu-id="0b091-108">Klik op het tabblad Zendingen.</span><span class="sxs-lookup"><span data-stu-id="0b091-108">Click the Shipments tab.</span></span>
-3. <span data-ttu-id="0b091-109">Vouw de sectie Invoercertificaat uit.</span><span class="sxs-lookup"><span data-stu-id="0b091-109">Expand the Entry certificate section.</span></span>
-4. <span data-ttu-id="0b091-110">Selecteer Ja in het veld Certificaatbeheer inschakelen.</span><span class="sxs-lookup"><span data-stu-id="0b091-110">Select Yes in the Enable entry certificate management field.</span></span>
-5. <span data-ttu-id="0b091-111">Selecteer Ja in het veld Verstrekken van invoercertificaat inschakelen.</span><span class="sxs-lookup"><span data-stu-id="0b091-111">Select Yes in the Enable entry certificate issuing field.</span></span>
-6. <span data-ttu-id="0b091-112">Klik op het tabblad Nummerreeksen.</span><span class="sxs-lookup"><span data-stu-id="0b091-112">Click the Number sequences tab.</span></span>
-7. <span data-ttu-id="0b091-113">Zoek en selecteer de rij van het invoercertificaat in de lijst.</span><span class="sxs-lookup"><span data-stu-id="0b091-113">In the list, find and select Entry certificate row.</span></span>
-8. <span data-ttu-id="0b091-114">Typ of selecteer een waarde in het veld Nummerreekscode.</span><span class="sxs-lookup"><span data-stu-id="0b091-114">In the Number sequence code field, enter or select a value.</span></span>
+## <a name="enable-entry-certificate-management"></a><span data-ttu-id="40656-106">Certificaatbeheer inschakelen</span><span class="sxs-lookup"><span data-stu-id="40656-106">Enable entry certificate management</span></span>
+1. <span data-ttu-id="40656-107">Ga naar Klanten > Instellingen > Parameters van module Klanten.</span><span class="sxs-lookup"><span data-stu-id="40656-107">Go to Accounts receivable > Setup > Accounts receivable parameters.</span></span>
+2. <span data-ttu-id="40656-108">Klik op het tabblad Zendingen.</span><span class="sxs-lookup"><span data-stu-id="40656-108">Click the Shipments tab.</span></span>
+3. <span data-ttu-id="40656-109">Vouw de sectie Invoercertificaat uit.</span><span class="sxs-lookup"><span data-stu-id="40656-109">Expand the Entry certificate section.</span></span>
+4. <span data-ttu-id="40656-110">Selecteer Ja in het veld Certificaatbeheer inschakelen.</span><span class="sxs-lookup"><span data-stu-id="40656-110">Select Yes in the Enable entry certificate management field.</span></span>
+5. <span data-ttu-id="40656-111">Selecteer Ja in het veld Verstrekken van invoercertificaat inschakelen.</span><span class="sxs-lookup"><span data-stu-id="40656-111">Select Yes in the Enable entry certificate issuing field.</span></span>
+6. <span data-ttu-id="40656-112">Klik op het tabblad Nummerreeksen.</span><span class="sxs-lookup"><span data-stu-id="40656-112">Click the Number sequences tab.</span></span>
+7. <span data-ttu-id="40656-113">Zoek en selecteer de rij van het invoercertificaat in de lijst.</span><span class="sxs-lookup"><span data-stu-id="40656-113">In the list, find and select Entry certificate row.</span></span>
+8. <span data-ttu-id="40656-114">Typ of selecteer een waarde in het veld Nummerreekscode.</span><span class="sxs-lookup"><span data-stu-id="40656-114">In the Number sequence code field, enter or select a value.</span></span>
 
-## <a name="set-up-a-customer"></a><span data-ttu-id="0b091-115">Een klant instellen</span><span class="sxs-lookup"><span data-stu-id="0b091-115">Set up a customer</span></span>
-1. <span data-ttu-id="0b091-116">Ga naar Klanten > Klanten > Alle klanten.</span><span class="sxs-lookup"><span data-stu-id="0b091-116">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="0b091-117">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="0b091-117">Use the Quick Filter to find records.</span></span> <span data-ttu-id="0b091-118">Filter bijvoorbeeld op het veld Rekening met een waarde van 'DE-015'.</span><span class="sxs-lookup"><span data-stu-id="0b091-118">For example, filter on the Account field with a value of 'DE-015'.</span></span>
-3. <span data-ttu-id="0b091-119">Open klantrekeninggegevens.</span><span class="sxs-lookup"><span data-stu-id="0b091-119">Open customer account details.</span></span>
-4. <span data-ttu-id="0b091-120">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="0b091-120">Click Edit.</span></span>
-5. <span data-ttu-id="0b091-121">Vouw de sectie Factuur en levering uit.</span><span class="sxs-lookup"><span data-stu-id="0b091-121">Expand the Invoice and delivery section.</span></span>
-6. <span data-ttu-id="0b091-122">Selecteer Ja in het veld Invoercertificaat vereist.</span><span class="sxs-lookup"><span data-stu-id="0b091-122">Select Yes in the Entry certificate required field.</span></span>
-7. <span data-ttu-id="0b091-123">Selecteer Ja in het veld Uitgifte van invoercertificaat.</span><span class="sxs-lookup"><span data-stu-id="0b091-123">Select Yes in the Issue entry certificate field.</span></span>
-8. <span data-ttu-id="0b091-124">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="0b091-124">Click Save.</span></span>
+## <a name="set-up-a-customer"></a><span data-ttu-id="40656-115">Een klant instellen</span><span class="sxs-lookup"><span data-stu-id="40656-115">Set up a customer</span></span>
+1. <span data-ttu-id="40656-116">Ga naar Klanten > Klanten > Alle klanten.</span><span class="sxs-lookup"><span data-stu-id="40656-116">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="40656-117">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="40656-117">Use the Quick Filter to find records.</span></span> <span data-ttu-id="40656-118">Filter bijvoorbeeld op het veld Rekening met een waarde van 'DE-015'.</span><span class="sxs-lookup"><span data-stu-id="40656-118">For example, filter on the Account field with a value of 'DE-015'.</span></span>
+3. <span data-ttu-id="40656-119">Open klantrekeninggegevens.</span><span class="sxs-lookup"><span data-stu-id="40656-119">Open customer account details.</span></span>
+4. <span data-ttu-id="40656-120">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="40656-120">Click Edit.</span></span>
+5. <span data-ttu-id="40656-121">Vouw de sectie Factuur en levering uit.</span><span class="sxs-lookup"><span data-stu-id="40656-121">Expand the Invoice and delivery section.</span></span>
+6. <span data-ttu-id="40656-122">Selecteer Ja in het veld Invoercertificaat vereist.</span><span class="sxs-lookup"><span data-stu-id="40656-122">Select Yes in the Entry certificate required field.</span></span>
+7. <span data-ttu-id="40656-123">Selecteer Ja in het veld Uitgifte van invoercertificaat.</span><span class="sxs-lookup"><span data-stu-id="40656-123">Select Yes in the Issue entry certificate field.</span></span>
+8. <span data-ttu-id="40656-124">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="40656-124">Click Save.</span></span>
 
-## <a name="create-an-eu-entry-certificate-automatically"></a><span data-ttu-id="0b091-125">Automatisch een EU-invoercertificaat maken</span><span class="sxs-lookup"><span data-stu-id="0b091-125">Create an EU entry certificate automatically</span></span>
-1. <span data-ttu-id="0b091-126">Ga naar Klanten > Orders > Alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="0b091-126">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="0b091-127">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="0b091-127">Click New.</span></span>
-3. <span data-ttu-id="0b091-128">Typ of selecteer een waarde in het veld Klantrekening.</span><span class="sxs-lookup"><span data-stu-id="0b091-128">In the Customer account field, enter or select a value.</span></span>
-4. <span data-ttu-id="0b091-129">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="0b091-129">Click OK.</span></span>
-5. <span data-ttu-id="0b091-130">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="0b091-130">In the Item number field, enter or select a value.</span></span>
-6. <span data-ttu-id="0b091-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="0b091-131">Click Save.</span></span>
-7. <span data-ttu-id="0b091-132">Klik in het actievenster op Verzamelen en inpakken.</span><span class="sxs-lookup"><span data-stu-id="0b091-132">On the Action Pane, click Pick and pack.</span></span>
-8. <span data-ttu-id="0b091-133">Klik op Pakbon boeken.</span><span class="sxs-lookup"><span data-stu-id="0b091-133">Click Post packing slip.</span></span>
-9. <span data-ttu-id="0b091-134">Vouw de sectie Parameters uit.</span><span class="sxs-lookup"><span data-stu-id="0b091-134">Expand the Parameters section.</span></span>
-10. <span data-ttu-id="0b091-135">Selecteer in het veld Hoeveelheid de optie 'Alle'.</span><span class="sxs-lookup"><span data-stu-id="0b091-135">In the Quantity field, select 'All'.</span></span>
-11. <span data-ttu-id="0b091-136">Schakel het selectievakje Uitgifte van invoercertificaat uit.</span><span class="sxs-lookup"><span data-stu-id="0b091-136">Clear the Issue entry certificate check box.</span></span>
-    * <span data-ttu-id="0b091-137">Een invoercertificaat kan worden uitgegeven tijdens pakbonboeking of orderfacturering.</span><span class="sxs-lookup"><span data-stu-id="0b091-137">An entry certificate can be issued during packing slip posting or during order invoicing.</span></span> <span data-ttu-id="0b091-138">Laat het selectievakje Uitgifte van invoercertificaat uitgeschakeld om het certificaat later uit te geven.</span><span class="sxs-lookup"><span data-stu-id="0b091-138">Leave the Issue entry certificate checkbox unchecked to issue it later.</span></span>  
-12. <span data-ttu-id="0b091-139">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="0b091-139">Click OK.</span></span>
-13. <span data-ttu-id="0b091-140">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="0b091-140">Click OK.</span></span>
-14. <span data-ttu-id="0b091-141">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="0b091-141">On the Action Pane, click Invoice.</span></span>
-15. <span data-ttu-id="0b091-142">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="0b091-142">Click Invoice.</span></span>
-    * <span data-ttu-id="0b091-143">Controleer of de selectievakjes Invoercertificaat vereist en Uitgifte van invoercertificaat in de sectie Overzicht zijn gemarkeerd.</span><span class="sxs-lookup"><span data-stu-id="0b091-143">Verify that the Entry certificate required and Issue entry certificate checkboxes in the Overview section are marked.</span></span>  <span data-ttu-id="0b091-144">U kunt ook het selectievakje Invoercertificaat afdrukken inschakelen om afdrukken van het certificaat toe te staan.</span><span class="sxs-lookup"><span data-stu-id="0b091-144">You can also select the Print entry certificate check box to allow printing of the certificate.</span></span>  
-16. <span data-ttu-id="0b091-145">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="0b091-145">Click OK.</span></span>
-17. <span data-ttu-id="0b091-146">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="0b091-146">Click OK.</span></span>
-18. <span data-ttu-id="0b091-147">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="0b091-147">On the Action Pane, click Invoice.</span></span>
-19. <span data-ttu-id="0b091-148">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="0b091-148">Click Invoice.</span></span>
-20. <span data-ttu-id="0b091-149">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="0b091-149">On the Action Pane, click Invoice.</span></span>
-21. <span data-ttu-id="0b091-150">Klik op Uitgegeven invoercertificaten weergeven.</span><span class="sxs-lookup"><span data-stu-id="0b091-150">Click View issued entry certificates.</span></span>
-22. <span data-ttu-id="0b091-151">Klik op Afdrukken.</span><span class="sxs-lookup"><span data-stu-id="0b091-151">Click Print.</span></span>
-23. <span data-ttu-id="0b091-152">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="0b091-152">Close the page.</span></span>
-24. <span data-ttu-id="0b091-153">Klik op Status wijzigen.</span><span class="sxs-lookup"><span data-stu-id="0b091-153">Click Change status.</span></span>
-25. <span data-ttu-id="0b091-154">Selecteer een optie in het veld Nieuwe status.</span><span class="sxs-lookup"><span data-stu-id="0b091-154">In the New status field, select an option.</span></span>
-26. <span data-ttu-id="0b091-155">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="0b091-155">Click OK.</span></span>
-27. <span data-ttu-id="0b091-156">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="0b091-156">Close the page.</span></span>
+## <a name="create-an-eu-entry-certificate-automatically"></a><span data-ttu-id="40656-125">Automatisch een EU-invoercertificaat maken</span><span class="sxs-lookup"><span data-stu-id="40656-125">Create an EU entry certificate automatically</span></span>
+1. <span data-ttu-id="40656-126">Ga naar Klanten > Orders > Alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="40656-126">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="40656-127">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="40656-127">Click New.</span></span>
+3. <span data-ttu-id="40656-128">Typ of selecteer een waarde in het veld Klantrekening.</span><span class="sxs-lookup"><span data-stu-id="40656-128">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="40656-129">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="40656-129">Click OK.</span></span>
+5. <span data-ttu-id="40656-130">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="40656-130">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="40656-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="40656-131">Click Save.</span></span>
+7. <span data-ttu-id="40656-132">Klik in het actievenster op Verzamelen en inpakken.</span><span class="sxs-lookup"><span data-stu-id="40656-132">On the Action Pane, click Pick and pack.</span></span>
+8. <span data-ttu-id="40656-133">Klik op Pakbon boeken.</span><span class="sxs-lookup"><span data-stu-id="40656-133">Click Post packing slip.</span></span>
+9. <span data-ttu-id="40656-134">Vouw de sectie Parameters uit.</span><span class="sxs-lookup"><span data-stu-id="40656-134">Expand the Parameters section.</span></span>
+10. <span data-ttu-id="40656-135">Selecteer in het veld Hoeveelheid de optie 'Alle'.</span><span class="sxs-lookup"><span data-stu-id="40656-135">In the Quantity field, select 'All'.</span></span>
+11. <span data-ttu-id="40656-136">Schakel het selectievakje Uitgifte van invoercertificaat uit.</span><span class="sxs-lookup"><span data-stu-id="40656-136">Clear the Issue entry certificate check box.</span></span>
+    * <span data-ttu-id="40656-137">Een invoercertificaat kan worden uitgegeven tijdens pakbonboeking of orderfacturering.</span><span class="sxs-lookup"><span data-stu-id="40656-137">An entry certificate can be issued during packing slip posting or during order invoicing.</span></span> <span data-ttu-id="40656-138">Laat het selectievakje Uitgifte van invoercertificaat uitgeschakeld om het certificaat later uit te geven.</span><span class="sxs-lookup"><span data-stu-id="40656-138">Leave the Issue entry certificate checkbox unchecked to issue it later.</span></span>  
+12. <span data-ttu-id="40656-139">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="40656-139">Click OK.</span></span>
+13. <span data-ttu-id="40656-140">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="40656-140">Click OK.</span></span>
+14. <span data-ttu-id="40656-141">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="40656-141">On the Action Pane, click Invoice.</span></span>
+15. <span data-ttu-id="40656-142">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="40656-142">Click Invoice.</span></span>
+    * <span data-ttu-id="40656-143">Controleer of de selectievakjes Invoercertificaat vereist en Uitgifte van invoercertificaat in de sectie Overzicht zijn gemarkeerd.</span><span class="sxs-lookup"><span data-stu-id="40656-143">Verify that the Entry certificate required and Issue entry certificate checkboxes in the Overview section are marked.</span></span>  <span data-ttu-id="40656-144">U kunt ook het selectievakje Invoercertificaat afdrukken inschakelen om afdrukken van het certificaat toe te staan.</span><span class="sxs-lookup"><span data-stu-id="40656-144">You can also select the Print entry certificate check box to allow printing of the certificate.</span></span>  
+16. <span data-ttu-id="40656-145">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="40656-145">Click OK.</span></span>
+17. <span data-ttu-id="40656-146">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="40656-146">Click OK.</span></span>
+18. <span data-ttu-id="40656-147">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="40656-147">On the Action Pane, click Invoice.</span></span>
+19. <span data-ttu-id="40656-148">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="40656-148">Click Invoice.</span></span>
+20. <span data-ttu-id="40656-149">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="40656-149">On the Action Pane, click Invoice.</span></span>
+21. <span data-ttu-id="40656-150">Klik op Uitgegeven invoercertificaten weergeven.</span><span class="sxs-lookup"><span data-stu-id="40656-150">Click View issued entry certificates.</span></span>
+22. <span data-ttu-id="40656-151">Klik op Afdrukken.</span><span class="sxs-lookup"><span data-stu-id="40656-151">Click Print.</span></span>
+23. <span data-ttu-id="40656-152">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="40656-152">Close the page.</span></span>
+24. <span data-ttu-id="40656-153">Klik op Status wijzigen.</span><span class="sxs-lookup"><span data-stu-id="40656-153">Click Change status.</span></span>
+25. <span data-ttu-id="40656-154">Selecteer een optie in het veld Nieuwe status.</span><span class="sxs-lookup"><span data-stu-id="40656-154">In the New status field, select an option.</span></span>
+26. <span data-ttu-id="40656-155">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="40656-155">Click OK.</span></span>
+27. <span data-ttu-id="40656-156">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="40656-156">Close the page.</span></span>
 
-## <a name="create-an-eu-entry-certificate-manually"></a><span data-ttu-id="0b091-157">Handmatig een EU-invoercertificaat maken</span><span class="sxs-lookup"><span data-stu-id="0b091-157">Create an EU entry certificate manually</span></span>
-1. <span data-ttu-id="0b091-158">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="0b091-158">On the Action Pane, click Invoice.</span></span>
-2. <span data-ttu-id="0b091-159">Klik op Invoercertificaat maken.</span><span class="sxs-lookup"><span data-stu-id="0b091-159">Click Create entry certificate.</span></span>
-3. <span data-ttu-id="0b091-160">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="0b091-160">Click OK.</span></span>
-4. <span data-ttu-id="0b091-161">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="0b091-161">On the Action Pane, click Invoice.</span></span>
-5. <span data-ttu-id="0b091-162">Klik op Uitgegeven invoercertificaten weergeven.</span><span class="sxs-lookup"><span data-stu-id="0b091-162">Click View issued entry certificates.</span></span>
+## <a name="create-an-eu-entry-certificate-manually"></a><span data-ttu-id="40656-157">Handmatig een EU-invoercertificaat maken</span><span class="sxs-lookup"><span data-stu-id="40656-157">Create an EU entry certificate manually</span></span>
+1. <span data-ttu-id="40656-158">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="40656-158">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="40656-159">Klik op Invoercertificaat maken.</span><span class="sxs-lookup"><span data-stu-id="40656-159">Click Create entry certificate.</span></span>
+3. <span data-ttu-id="40656-160">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="40656-160">Click OK.</span></span>
+4. <span data-ttu-id="40656-161">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="40656-161">On the Action Pane, click Invoice.</span></span>
+5. <span data-ttu-id="40656-162">Klik op Uitgegeven invoercertificaten weergeven.</span><span class="sxs-lookup"><span data-stu-id="40656-162">Click View issued entry certificates.</span></span>
 

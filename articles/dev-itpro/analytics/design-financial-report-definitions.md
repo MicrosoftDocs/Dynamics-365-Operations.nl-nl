@@ -19,69 +19,69 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 322f1cca32053224e1cd6dbaf29c098b983b5e1f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327338"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547049"
 ---
-# <a name="report-definitions-in-financial-report-designer"></a><span data-ttu-id="b27d1-105">Rapportdefinities in Ontwerper financiële rapporten</span><span class="sxs-lookup"><span data-stu-id="b27d1-105">Report definitions in financial report designer</span></span>
+# <a name="report-definitions-in-financial-report-designer"></a><span data-ttu-id="29c3f-105">Rapportdefinities in Ontwerper financiële rapporten</span><span class="sxs-lookup"><span data-stu-id="29c3f-105">Report definitions in financial report designer</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b27d1-106">Dit artikel bevat informatie over rapportdefinities.</span><span class="sxs-lookup"><span data-stu-id="b27d1-106">This article provides information about report definitions.</span></span> <span data-ttu-id="b27d1-107">Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken.</span><span class="sxs-lookup"><span data-stu-id="b27d1-107">A report definition is a report component (or building block) that uses a row definition, a column definition, and an optional reporting tree definition to create a report.</span></span> <span data-ttu-id="b27d1-108">Een rapportdefinitie bevat ook opties en instellingen voor het aanpassen van een rapport.</span><span class="sxs-lookup"><span data-stu-id="b27d1-108">A report definition also provides options and settings that for customizing a report.</span></span> 
+<span data-ttu-id="29c3f-106">Dit artikel bevat informatie over rapportdefinities.</span><span class="sxs-lookup"><span data-stu-id="29c3f-106">This article provides information about report definitions.</span></span> <span data-ttu-id="29c3f-107">Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken.</span><span class="sxs-lookup"><span data-stu-id="29c3f-107">A report definition is a report component (or building block) that uses a row definition, a column definition, and an optional reporting tree definition to create a report.</span></span> <span data-ttu-id="29c3f-108">Een rapportdefinitie bevat ook opties en instellingen voor het aanpassen van een rapport.</span><span class="sxs-lookup"><span data-stu-id="29c3f-108">A report definition also provides options and settings that for customizing a report.</span></span> 
 
-<span data-ttu-id="b27d1-109">Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken.</span><span class="sxs-lookup"><span data-stu-id="b27d1-109">A report definition is a report component (or building block) that uses a row definition, a column definition, and an optional reporting tree definition to create a report.</span></span> <span data-ttu-id="b27d1-110">Daarnaast biedt een rapportdefinitie opties en instellingen die u kunt gebruiken voor het aanpassen van een rapport.</span><span class="sxs-lookup"><span data-stu-id="b27d1-110">A report definition also provides options and settings that you can use to customize a report.</span></span> <span data-ttu-id="b27d1-111">Nadat u rijdefinities en kolomdefinities hebt gedefinieerd, moet u deze in een rapportdefinitie combineren.</span><span class="sxs-lookup"><span data-stu-id="b27d1-111">After you define row definitions and column definitions, you must combine them in a report definition.</span></span> <span data-ttu-id="b27d1-112">Op dit punt definieert u ook andere aspecten van de definities, zoals het detailniveau en de rapportdatum.</span><span class="sxs-lookup"><span data-stu-id="b27d1-112">At this point, you also define other aspects of the definitions, such as the detail level and report date.</span></span> <span data-ttu-id="b27d1-113">U kunt vervolgens een rapport opslaan en genereren.</span><span class="sxs-lookup"><span data-stu-id="b27d1-113">You can then save and generate a report.</span></span> <span data-ttu-id="b27d1-114">Financiële rapportage biedt de volgende detailniveaus:</span><span class="sxs-lookup"><span data-stu-id="b27d1-114">Financial reporting offers the following levels of detail:</span></span>
+<span data-ttu-id="29c3f-109">Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken.</span><span class="sxs-lookup"><span data-stu-id="29c3f-109">A report definition is a report component (or building block) that uses a row definition, a column definition, and an optional reporting tree definition to create a report.</span></span> <span data-ttu-id="29c3f-110">Daarnaast biedt een rapportdefinitie opties en instellingen die u kunt gebruiken voor het aanpassen van een rapport.</span><span class="sxs-lookup"><span data-stu-id="29c3f-110">A report definition also provides options and settings that you can use to customize a report.</span></span> <span data-ttu-id="29c3f-111">Nadat u rijdefinities en kolomdefinities hebt gedefinieerd, moet u deze in een rapportdefinitie combineren.</span><span class="sxs-lookup"><span data-stu-id="29c3f-111">After you define row definitions and column definitions, you must combine them in a report definition.</span></span> <span data-ttu-id="29c3f-112">Op dit punt definieert u ook andere aspecten van de definities, zoals het detailniveau en de rapportdatum.</span><span class="sxs-lookup"><span data-stu-id="29c3f-112">At this point, you also define other aspects of the definitions, such as the detail level and report date.</span></span> <span data-ttu-id="29c3f-113">U kunt vervolgens een rapport opslaan en genereren.</span><span class="sxs-lookup"><span data-stu-id="29c3f-113">You can then save and generate a report.</span></span> <span data-ttu-id="29c3f-114">Financiële rapportage biedt de volgende detailniveaus:</span><span class="sxs-lookup"><span data-stu-id="29c3f-114">Financial reporting offers the following levels of detail:</span></span>
 
-- <span data-ttu-id="b27d1-115">Financieel</span><span class="sxs-lookup"><span data-stu-id="b27d1-115">Financial</span></span>
-- <span data-ttu-id="b27d1-116">Financieel en Rekening</span><span class="sxs-lookup"><span data-stu-id="b27d1-116">Financial and Account</span></span>
-- <span data-ttu-id="b27d1-117">Financieel, Rekening en Transactie</span><span class="sxs-lookup"><span data-stu-id="b27d1-117">Financial, Account, and Transaction</span></span>
+- <span data-ttu-id="29c3f-115">Financieel</span><span class="sxs-lookup"><span data-stu-id="29c3f-115">Financial</span></span>
+- <span data-ttu-id="29c3f-116">Financieel en Rekening</span><span class="sxs-lookup"><span data-stu-id="29c3f-116">Financial and Account</span></span>
+- <span data-ttu-id="29c3f-117">Financieel, Rekening en Transactie</span><span class="sxs-lookup"><span data-stu-id="29c3f-117">Financial, Account, and Transaction</span></span>
 
-<span data-ttu-id="b27d1-118">Afhankelijk van de wijze waarop gegevens worden opgeslagen in het Microsoft Dynamics ERP-systeem, zijn de transactiedetails misschien niet beschikbaar in de rapporten.</span><span class="sxs-lookup"><span data-stu-id="b27d1-118">However, depending on how data is stored in the Microsoft Dynamics ERP system, transaction details might not be available in reports.</span></span>
+<span data-ttu-id="29c3f-118">Afhankelijk van de wijze waarop gegevens worden opgeslagen in het Microsoft Dynamics ERP-systeem, zijn de transactiedetails misschien niet beschikbaar in de rapporten.</span><span class="sxs-lookup"><span data-stu-id="29c3f-118">However, depending on how data is stored in the Microsoft Dynamics ERP system, transaction details might not be available in reports.</span></span>
 
-## <a name="create-a-report-definition"></a><span data-ttu-id="b27d1-119">Een rapportdefinitie maken</span><span class="sxs-lookup"><span data-stu-id="b27d1-119">Create a report definition</span></span>
-1. <span data-ttu-id="b27d1-120">Klik in Report Designer in het menu **Bestand** op **Nieuw** en selecteer **Rapportdefinitie**.</span><span class="sxs-lookup"><span data-stu-id="b27d1-120">In Report Designer, on the **File** menu, click **New**, and then select **Report Definition**.</span></span>
-2. <span data-ttu-id="b27d1-121">Geef de gewenste informatie op in de tabbladen **Rapport**, **Uitvoer en distributie** **Kop- en voetteksten** en **Instellingen**.</span><span class="sxs-lookup"><span data-stu-id="b27d1-121">Specify the appropriate information on the **Report**, **Output and Distribution**, **Headers and Footers**, and **Settings** tabs.</span></span>
+## <a name="create-a-report-definition"></a><span data-ttu-id="29c3f-119">Een rapportdefinitie maken</span><span class="sxs-lookup"><span data-stu-id="29c3f-119">Create a report definition</span></span>
+1. <span data-ttu-id="29c3f-120">Klik in Report Designer in het menu **Bestand** op **Nieuw** en selecteer **Rapportdefinitie**.</span><span class="sxs-lookup"><span data-stu-id="29c3f-120">In Report Designer, on the **File** menu, click **New**, and then select **Report Definition**.</span></span>
+2. <span data-ttu-id="29c3f-121">Geef de gewenste informatie op in de tabbladen **Rapport**, **Uitvoer en distributie** **Kop- en voetteksten** en **Instellingen**.</span><span class="sxs-lookup"><span data-stu-id="29c3f-121">Specify the appropriate information on the **Report**, **Output and Distribution**, **Headers and Footers**, and **Settings** tabs.</span></span>
 
-## <a name="contents-of-a-report-definition"></a><span data-ttu-id="b27d1-122">Inhoud van een rapportdefinitie</span><span class="sxs-lookup"><span data-stu-id="b27d1-122">Contents of a report definition</span></span>
-<span data-ttu-id="b27d1-123">In de volgende tabel worden de tabbladen in een rapportdefinitie beschreven en hoe de gegevens worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b27d1-123">The following table describes the tabs in a report definition and how the information is used.</span></span>
+## <a name="contents-of-a-report-definition"></a><span data-ttu-id="29c3f-122">Inhoud van een rapportdefinitie</span><span class="sxs-lookup"><span data-stu-id="29c3f-122">Contents of a report definition</span></span>
+<span data-ttu-id="29c3f-123">In de volgende tabel worden de tabbladen in een rapportdefinitie beschreven en hoe de gegevens worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="29c3f-123">The following table describes the tabs in a report definition and how the information is used.</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="b27d1-124">Tabblad</span><span class="sxs-lookup"><span data-stu-id="b27d1-124">Tab</span></span></th>
-<th><span data-ttu-id="b27d1-125">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="b27d1-125">Description</span></span></th>
+<th><span data-ttu-id="29c3f-124">Tabblad</span><span class="sxs-lookup"><span data-stu-id="29c3f-124">Tab</span></span></th>
+<th><span data-ttu-id="29c3f-125">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="29c3f-125">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="b27d1-126">Rapport</span><span class="sxs-lookup"><span data-stu-id="b27d1-126">Report</span></span></td>
-<td><span data-ttu-id="b27d1-127">Maak een rapport, configureer een rapport of wijzig een bestaand rapport.</span><span class="sxs-lookup"><span data-stu-id="b27d1-127">Create a report, configure a report, or modify an existing report.</span></span></td>
+<td><span data-ttu-id="29c3f-126">Rapport</span><span class="sxs-lookup"><span data-stu-id="29c3f-126">Report</span></span></td>
+<td><span data-ttu-id="29c3f-127">Maak een rapport, configureer een rapport of wijzig een bestaand rapport.</span><span class="sxs-lookup"><span data-stu-id="29c3f-127">Create a report, configure a report, or modify an existing report.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="b27d1-128">Uitvoer en distributie</span><span class="sxs-lookup"><span data-stu-id="b27d1-128">Output and Distribution</span></span></td>
-<td><span data-ttu-id="b27d1-129">Wijzig het uitvoertype en de bestemming van het rapport.</span><span class="sxs-lookup"><span data-stu-id="b27d1-129">Change the output type and destination of the report.</span></span></td>
+<td><span data-ttu-id="29c3f-128">Uitvoer en distributie</span><span class="sxs-lookup"><span data-stu-id="29c3f-128">Output and Distribution</span></span></td>
+<td><span data-ttu-id="29c3f-129">Wijzig het uitvoertype en de bestemming van het rapport.</span><span class="sxs-lookup"><span data-stu-id="29c3f-129">Change the output type and destination of the report.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="b27d1-130">Kop- en voetteksten</span><span class="sxs-lookup"><span data-stu-id="b27d1-130">Headers and Footers</span></span></td>
-<td><span data-ttu-id="b27d1-131">Definieer de kop- en voetteksten voor het rapport en maak deze op.</span><span class="sxs-lookup"><span data-stu-id="b27d1-131">Define and format the headers and footers for the report.</span></span> <span data-ttu-id="b27d1-132">U kunt bijvoorbeeld tekst of afbeeldingen aan de kop- of voettekst toevoegen.</span><span class="sxs-lookup"><span data-stu-id="b27d1-132">For example, you can add text or images to the header or footer.</span></span> <span data-ttu-id="b27d1-133">Financiële rapportage ondersteunt .bmp, .jpg en .png-bestanden voor afbeeldingen.</span><span class="sxs-lookup"><span data-stu-id="b27d1-133">Financial reporting supports .bmp, .jpg, and .png files for images.</span></span> <span data-ttu-id="b27d1-134">U kunt ook Autotekstcodes toevoegen om andere informatie, zoals een bedrijfsnaam, rapportnaam of paginanummer, in te voegen.</span><span class="sxs-lookup"><span data-stu-id="b27d1-134">You can also add autotext codes to insert other information, such as a company name, report name, or page number.</span></span></td>
+<td><span data-ttu-id="29c3f-130">Kop- en voetteksten</span><span class="sxs-lookup"><span data-stu-id="29c3f-130">Headers and Footers</span></span></td>
+<td><span data-ttu-id="29c3f-131">Definieer de kop- en voetteksten voor het rapport en maak deze op.</span><span class="sxs-lookup"><span data-stu-id="29c3f-131">Define and format the headers and footers for the report.</span></span> <span data-ttu-id="29c3f-132">U kunt bijvoorbeeld tekst of afbeeldingen aan de kop- of voettekst toevoegen.</span><span class="sxs-lookup"><span data-stu-id="29c3f-132">For example, you can add text or images to the header or footer.</span></span> <span data-ttu-id="29c3f-133">Financiële rapportage ondersteunt .bmp, .jpg en .png-bestanden voor afbeeldingen.</span><span class="sxs-lookup"><span data-stu-id="29c3f-133">Financial reporting supports .bmp, .jpg, and .png files for images.</span></span> <span data-ttu-id="29c3f-134">U kunt ook Autotekstcodes toevoegen om andere informatie, zoals een bedrijfsnaam, rapportnaam of paginanummer, in te voegen.</span><span class="sxs-lookup"><span data-stu-id="29c3f-134">You can also add autotext codes to insert other information, such as a company name, report name, or page number.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="b27d1-135">Instellingen</span><span class="sxs-lookup"><span data-stu-id="b27d1-135">Settings</span></span></td>
-<td><span data-ttu-id="b27d1-136">Geef instellingen voor de rapportdefinitie op, zoals de volgende instellingen:</span><span class="sxs-lookup"><span data-stu-id="b27d1-136">Specify report definition settings, such as the following settings:</span></span>
+<td><span data-ttu-id="29c3f-135">Instellingen</span><span class="sxs-lookup"><span data-stu-id="29c3f-135">Settings</span></span></td>
+<td><span data-ttu-id="29c3f-136">Geef instellingen voor de rapportdefinitie op, zoals de volgende instellingen:</span><span class="sxs-lookup"><span data-stu-id="29c3f-136">Specify report definition settings, such as the following settings:</span></span>
 <ul>
-<li><span data-ttu-id="b27d1-137">Opmaken en afronden van bedragen</span><span class="sxs-lookup"><span data-stu-id="b27d1-137">Formatting and rounding amounts</span></span></li>
-<li><span data-ttu-id="b27d1-138">Opmaken van detailrapporten</span><span class="sxs-lookup"><span data-stu-id="b27d1-138">Format detail reports</span></span></li>
-<li><span data-ttu-id="b27d1-139">Opmaken van rapportagestructuren</span><span class="sxs-lookup"><span data-stu-id="b27d1-139">Format reporting trees</span></span></li>
-<li><span data-ttu-id="b27d1-140">Genereren van een uitzonderingenrapport</span><span class="sxs-lookup"><span data-stu-id="b27d1-140">Generate an exception report</span></span></li>
-<li><span data-ttu-id="b27d1-141">Opgeven van valutaomrekening</span><span class="sxs-lookup"><span data-stu-id="b27d1-141">Specify currency conversion</span></span></li>
-<li><span data-ttu-id="b27d1-142">Subtotaal en filter van rekeningdetails</span><span class="sxs-lookup"><span data-stu-id="b27d1-142">Subtotal and filter account details</span></span></li>
+<li><span data-ttu-id="29c3f-137">Opmaken en afronden van bedragen</span><span class="sxs-lookup"><span data-stu-id="29c3f-137">Formatting and rounding amounts</span></span></li>
+<li><span data-ttu-id="29c3f-138">Opmaken van detailrapporten</span><span class="sxs-lookup"><span data-stu-id="29c3f-138">Format detail reports</span></span></li>
+<li><span data-ttu-id="29c3f-139">Opmaken van rapportagestructuren</span><span class="sxs-lookup"><span data-stu-id="29c3f-139">Format reporting trees</span></span></li>
+<li><span data-ttu-id="29c3f-140">Genereren van een uitzonderingenrapport</span><span class="sxs-lookup"><span data-stu-id="29c3f-140">Generate an exception report</span></span></li>
+<li><span data-ttu-id="29c3f-141">Opgeven van valutaomrekening</span><span class="sxs-lookup"><span data-stu-id="29c3f-141">Specify currency conversion</span></span></li>
+<li><span data-ttu-id="29c3f-142">Subtotaal en filter van rekeningdetails</span><span class="sxs-lookup"><span data-stu-id="29c3f-142">Subtotal and filter account details</span></span></li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
 
-## <a name="additional-resources"></a><span data-ttu-id="b27d1-143">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="b27d1-143">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="29c3f-143">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="29c3f-143">Additional resources</span></span>
 
-[<span data-ttu-id="b27d1-144">Financiële rapportage</span><span class="sxs-lookup"><span data-stu-id="b27d1-144">Financial reporting</span></span>](financial-reporting-intro.md)
+[<span data-ttu-id="29c3f-144">Financiële rapportage</span><span class="sxs-lookup"><span data-stu-id="29c3f-144">Financial reporting</span></span>](financial-reporting-intro.md)

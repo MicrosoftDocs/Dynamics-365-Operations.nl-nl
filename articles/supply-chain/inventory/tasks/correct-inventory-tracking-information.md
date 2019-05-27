@@ -18,49 +18,49 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: cfe0f6995598757dcea824e1bb4f7ef8ab54a67b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "354478"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549918"
 ---
-# <a name="correct-inventory-tracking-information"></a><span data-ttu-id="7991e-103">Voorraadtraceringsinformatie corrigeren</span><span class="sxs-lookup"><span data-stu-id="7991e-103">Correct inventory tracking information</span></span>
+# <a name="correct-inventory-tracking-information"></a><span data-ttu-id="25fe0-103">Voorraadtraceringsinformatie corrigeren</span><span class="sxs-lookup"><span data-stu-id="25fe0-103">Correct inventory tracking information</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="7991e-104">Deze procedure begeleidt u door het proces voor het maken en boeken van een voorraadoverboekingjournaal om voorraadtraceringsinformatie te corrigeren.</span><span class="sxs-lookup"><span data-stu-id="7991e-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to correct inventory tracking information.</span></span> <span data-ttu-id="7991e-105">In dit voorbeeld werken we de informatie van een batchartikel bij door een verkeerd geregistreerde batch in een andere batch te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7991e-105">In this example, we’ll update the information of a batch controlled item by changing an incorrectly registered batch to another batch.</span></span> <span data-ttu-id="7991e-106">U kunt deze procedure met het demobedrijf USPI uitvoeren of uw eigen gegevens gebruiken.</span><span class="sxs-lookup"><span data-stu-id="7991e-106">You can walk through this procedure in demo data company USPI, or using your own data.</span></span> <span data-ttu-id="7991e-107">Als u uw eigen gegevens gebruikt, moet u een artikel hebben dat voor batchverwerking ingesteld is en mag de locatie niet worden gecontroleerd.</span><span class="sxs-lookup"><span data-stu-id="7991e-107">If you use your own data, you need to have an item that’s batch-enabled, and it must not be location-controlled.</span></span> <span data-ttu-id="7991e-108">U moet ook een voorraadjournaalnaam hebben ingesteld voor voorraadoverboekingen.</span><span class="sxs-lookup"><span data-stu-id="7991e-108">You also need to have an inventory journal name set up for inventory transfers.</span></span> <span data-ttu-id="7991e-109">Deze taken worden normaal gesproken uitgevoerd door een magazijnmedewerker.</span><span class="sxs-lookup"><span data-stu-id="7991e-109">These tasks would normally be carried out by a warehouse employee.</span></span>
+<span data-ttu-id="25fe0-104">Deze procedure begeleidt u door het proces voor het maken en boeken van een voorraadoverboekingjournaal om voorraadtraceringsinformatie te corrigeren.</span><span class="sxs-lookup"><span data-stu-id="25fe0-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to correct inventory tracking information.</span></span> <span data-ttu-id="25fe0-105">In dit voorbeeld werken we de informatie van een batchartikel bij door een verkeerd geregistreerde batch in een andere batch te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="25fe0-105">In this example, we’ll update the information of a batch controlled item by changing an incorrectly registered batch to another batch.</span></span> <span data-ttu-id="25fe0-106">U kunt deze procedure met het demobedrijf USPI uitvoeren of uw eigen gegevens gebruiken.</span><span class="sxs-lookup"><span data-stu-id="25fe0-106">You can walk through this procedure in demo data company USPI, or using your own data.</span></span> <span data-ttu-id="25fe0-107">Als u uw eigen gegevens gebruikt, moet u een artikel hebben dat voor batchverwerking ingesteld is en mag de locatie niet worden gecontroleerd.</span><span class="sxs-lookup"><span data-stu-id="25fe0-107">If you use your own data, you need to have an item that’s batch-enabled, and it must not be location-controlled.</span></span> <span data-ttu-id="25fe0-108">U moet ook een voorraadjournaalnaam hebben ingesteld voor voorraadoverboekingen.</span><span class="sxs-lookup"><span data-stu-id="25fe0-108">You also need to have an inventory journal name set up for inventory transfers.</span></span> <span data-ttu-id="25fe0-109">Deze taken worden normaal gesproken uitgevoerd door een magazijnmedewerker.</span><span class="sxs-lookup"><span data-stu-id="25fe0-109">These tasks would normally be carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-transfer-journal"></a><span data-ttu-id="7991e-110">Een voorraadoverboekingsjournaal maken</span><span class="sxs-lookup"><span data-stu-id="7991e-110">Create an inventory transfer journal</span></span>
-1. <span data-ttu-id="7991e-111">Ga naar Overboeken.</span><span class="sxs-lookup"><span data-stu-id="7991e-111">Go to Transfer.</span></span>
-2. <span data-ttu-id="7991e-112">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="7991e-112">Click New.</span></span>
-3. <span data-ttu-id="7991e-113">Typ of selecteer een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="7991e-113">In the Name field, enter or select a value.</span></span>
-4. <span data-ttu-id="7991e-114">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7991e-114">Click OK.</span></span>
+## <a name="create-an-inventory-transfer-journal"></a><span data-ttu-id="25fe0-110">Een voorraadoverboekingsjournaal maken</span><span class="sxs-lookup"><span data-stu-id="25fe0-110">Create an inventory transfer journal</span></span>
+1. <span data-ttu-id="25fe0-111">Ga naar Overboeken.</span><span class="sxs-lookup"><span data-stu-id="25fe0-111">Go to Transfer.</span></span>
+2. <span data-ttu-id="25fe0-112">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="25fe0-112">Click New.</span></span>
+3. <span data-ttu-id="25fe0-113">Typ of selecteer een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="25fe0-113">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="25fe0-114">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="25fe0-114">Click OK.</span></span>
 
-## <a name="create-journal-lines"></a><span data-ttu-id="7991e-115">Journaalregels maken</span><span class="sxs-lookup"><span data-stu-id="7991e-115">Create journal lines</span></span>
-1. <span data-ttu-id="7991e-116">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="7991e-116">Click New.</span></span>
-2. <span data-ttu-id="7991e-117">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="7991e-117">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="7991e-118">Als u USPI gebruikt, selecteert u artikel M5003.</span><span class="sxs-lookup"><span data-stu-id="7991e-118">If you are using USPI, select item M5003.</span></span>  
-3. <span data-ttu-id="7991e-119">Voer in het veld Hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="7991e-119">In the Quantity field, enter a number.</span></span>
-4. <span data-ttu-id="7991e-120">Klik op het tabblad Voorraaddimensies.</span><span class="sxs-lookup"><span data-stu-id="7991e-120">Click the Inventory dimensions tab.</span></span>
-5. <span data-ttu-id="7991e-121">Typ of selecteer een waarde in het veld Batchnummer.</span><span class="sxs-lookup"><span data-stu-id="7991e-121">In the Batch number field, enter or select a value.</span></span>
-6. <span data-ttu-id="7991e-122">Typ of selecteer een waarde in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="7991e-122">In the Site field, enter or select a value.</span></span>
-7. <span data-ttu-id="7991e-123">Typ of selecteer een waarde in het veld Magazijn.</span><span class="sxs-lookup"><span data-stu-id="7991e-123">In the Warehouse field, enter or select a value.</span></span>
-8. <span data-ttu-id="7991e-124">Typ of selecteer een waarde in het veld Batchnummer.</span><span class="sxs-lookup"><span data-stu-id="7991e-124">In the Batch number field, enter or select a value.</span></span>
+## <a name="create-journal-lines"></a><span data-ttu-id="25fe0-115">Journaalregels maken</span><span class="sxs-lookup"><span data-stu-id="25fe0-115">Create journal lines</span></span>
+1. <span data-ttu-id="25fe0-116">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="25fe0-116">Click New.</span></span>
+2. <span data-ttu-id="25fe0-117">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="25fe0-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="25fe0-118">Als u USPI gebruikt, selecteert u artikel M5003.</span><span class="sxs-lookup"><span data-stu-id="25fe0-118">If you are using USPI, select item M5003.</span></span>  
+3. <span data-ttu-id="25fe0-119">Voer in het veld Hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="25fe0-119">In the Quantity field, enter a number.</span></span>
+4. <span data-ttu-id="25fe0-120">Klik op het tabblad Voorraaddimensies.</span><span class="sxs-lookup"><span data-stu-id="25fe0-120">Click the Inventory dimensions tab.</span></span>
+5. <span data-ttu-id="25fe0-121">Typ of selecteer een waarde in het veld Batchnummer.</span><span class="sxs-lookup"><span data-stu-id="25fe0-121">In the Batch number field, enter or select a value.</span></span>
+6. <span data-ttu-id="25fe0-122">Typ of selecteer een waarde in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="25fe0-122">In the Site field, enter or select a value.</span></span>
+7. <span data-ttu-id="25fe0-123">Typ of selecteer een waarde in het veld Magazijn.</span><span class="sxs-lookup"><span data-stu-id="25fe0-123">In the Warehouse field, enter or select a value.</span></span>
+8. <span data-ttu-id="25fe0-124">Typ of selecteer een waarde in het veld Batchnummer.</span><span class="sxs-lookup"><span data-stu-id="25fe0-124">In the Batch number field, enter or select a value.</span></span>
 
-## <a name="post-the-journal"></a><span data-ttu-id="7991e-125">Het journaal boeken</span><span class="sxs-lookup"><span data-stu-id="7991e-125">Post the journal</span></span>
-1. <span data-ttu-id="7991e-126">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="7991e-126">Click Post.</span></span>
-2. <span data-ttu-id="7991e-127">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7991e-127">Click OK.</span></span>
+## <a name="post-the-journal"></a><span data-ttu-id="25fe0-125">Het journaal boeken</span><span class="sxs-lookup"><span data-stu-id="25fe0-125">Post the journal</span></span>
+1. <span data-ttu-id="25fe0-126">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="25fe0-126">Click Post.</span></span>
+2. <span data-ttu-id="25fe0-127">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="25fe0-127">Click OK.</span></span>
 
-## <a name="check-tracing-information"></a><span data-ttu-id="7991e-128">Traceringsinformatie controleren</span><span class="sxs-lookup"><span data-stu-id="7991e-128">Check tracing information</span></span>
-1. <span data-ttu-id="7991e-129">Klik op Voorraad.</span><span class="sxs-lookup"><span data-stu-id="7991e-129">Click Inventory.</span></span>
-2. <span data-ttu-id="7991e-130">Klik op Traceren.</span><span class="sxs-lookup"><span data-stu-id="7991e-130">Click Trace.</span></span>
-3. <span data-ttu-id="7991e-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7991e-131">Click OK.</span></span>
-    * <span data-ttu-id="7991e-132">Met deze traceringinformatie kunt u terug traceren van welke batch u voorraad corrigeerde.</span><span class="sxs-lookup"><span data-stu-id="7991e-132">Using this tracing information you can back trace which batch you corrected inventory from.</span></span>  <span data-ttu-id="7991e-133">U kunt de pagina Traceren artikel ook gebruiken om deze informatie te bekijken.</span><span class="sxs-lookup"><span data-stu-id="7991e-133">You can also use the Item tracing page to see this information.</span></span>  
-4. <span data-ttu-id="7991e-134">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="7991e-134">Close the page.</span></span>
+## <a name="check-tracing-information"></a><span data-ttu-id="25fe0-128">Traceringsinformatie controleren</span><span class="sxs-lookup"><span data-stu-id="25fe0-128">Check tracing information</span></span>
+1. <span data-ttu-id="25fe0-129">Klik op Voorraad.</span><span class="sxs-lookup"><span data-stu-id="25fe0-129">Click Inventory.</span></span>
+2. <span data-ttu-id="25fe0-130">Klik op Traceren.</span><span class="sxs-lookup"><span data-stu-id="25fe0-130">Click Trace.</span></span>
+3. <span data-ttu-id="25fe0-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="25fe0-131">Click OK.</span></span>
+    * <span data-ttu-id="25fe0-132">Met deze traceringinformatie kunt u terug traceren van welke batch u voorraad corrigeerde.</span><span class="sxs-lookup"><span data-stu-id="25fe0-132">Using this tracing information you can back trace which batch you corrected inventory from.</span></span>  <span data-ttu-id="25fe0-133">U kunt de pagina Traceren artikel ook gebruiken om deze informatie te bekijken.</span><span class="sxs-lookup"><span data-stu-id="25fe0-133">You can also use the Item tracing page to see this information.</span></span>  
+4. <span data-ttu-id="25fe0-134">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="25fe0-134">Close the page.</span></span>
 
-## <a name="check-inventory-transactions"></a><span data-ttu-id="7991e-135">Voorraadtransacties controleren</span><span class="sxs-lookup"><span data-stu-id="7991e-135">Check inventory transactions</span></span>
-1. <span data-ttu-id="7991e-136">Klik op Voorraad.</span><span class="sxs-lookup"><span data-stu-id="7991e-136">Click Inventory.</span></span>
-2. <span data-ttu-id="7991e-137">Klik op Transacties.</span><span class="sxs-lookup"><span data-stu-id="7991e-137">Click Transactions.</span></span>
-    * <span data-ttu-id="7991e-138">Hier ziet u de transacties die werden gemaakt toen u uw journaal boekte.</span><span class="sxs-lookup"><span data-stu-id="7991e-138">Here you can see the transactions that were created when you posted your journal.</span></span>   
+## <a name="check-inventory-transactions"></a><span data-ttu-id="25fe0-135">Voorraadtransacties controleren</span><span class="sxs-lookup"><span data-stu-id="25fe0-135">Check inventory transactions</span></span>
+1. <span data-ttu-id="25fe0-136">Klik op Voorraad.</span><span class="sxs-lookup"><span data-stu-id="25fe0-136">Click Inventory.</span></span>
+2. <span data-ttu-id="25fe0-137">Klik op Transacties.</span><span class="sxs-lookup"><span data-stu-id="25fe0-137">Click Transactions.</span></span>
+    * <span data-ttu-id="25fe0-138">Hier ziet u de transacties die werden gemaakt toen u uw journaal boekte.</span><span class="sxs-lookup"><span data-stu-id="25fe0-138">Here you can see the transactions that were created when you posted your journal.</span></span>   
 

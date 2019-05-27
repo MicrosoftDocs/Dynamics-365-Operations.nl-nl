@@ -17,43 +17,43 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d1f925ef8d772189a505f2793de1176756866bf4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "362252"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544628"
 ---
-# <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a><span data-ttu-id="e0166-103">ER Indeling configureren voor tellen en totaliseren (deel 1: Indeling maken)</span><span class="sxs-lookup"><span data-stu-id="e0166-103">ER Configure format to do counting and summing (Part 1: Create format)</span></span>
+# <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a><span data-ttu-id="6c6b2-103">ER Indeling configureren voor tellen en totaliseren (deel 1: Indeling maken)</span><span class="sxs-lookup"><span data-stu-id="6c6b2-103">ER Configure format to do counting and summing (Part 1: Create format)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e0166-104">In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken voor tellen en totaliseren op basis van gegevens van de reeds gegenereerde tekstuitvoer.</span><span class="sxs-lookup"><span data-stu-id="e0166-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="e0166-105">Deze stappen kunnen in elk bedrijf worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="e0166-105">These steps can be performed in any company.</span></span>
+<span data-ttu-id="6c6b2-104">In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken voor tellen en totaliseren op basis van gegevens van de reeds gegenereerde tekstuitvoer.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="6c6b2-105">Deze stappen kunnen in elk bedrijf worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-105">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="e0166-106">Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien.</span><span class="sxs-lookup"><span data-stu-id="e0166-106">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>
+<span data-ttu-id="6c6b2-106">Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-106">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>
 
-<span data-ttu-id="e0166-107">Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.</span><span class="sxs-lookup"><span data-stu-id="e0166-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="6c6b2-107">Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a><span data-ttu-id="e0166-108">Toegang krijgen tot de lijst met configuraties die door Microsoft zijn geleverd</span><span class="sxs-lookup"><span data-stu-id="e0166-108">Get access to the list of configurations provided by Microsoft</span></span>
-1. <span data-ttu-id="e0166-109">Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="e0166-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-    * <span data-ttu-id="e0166-110">Zorg ervoor dat de leverancier 'Litware, Inc.'</span><span class="sxs-lookup"><span data-stu-id="e0166-110">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="e0166-111">beschikbaar is en als actief gemarkeerd.</span><span class="sxs-lookup"><span data-stu-id="e0166-111">provider is available and marked as active.</span></span>  
-2. <span data-ttu-id="e0166-112">Selecteer 'Litware, Inc.'</span><span class="sxs-lookup"><span data-stu-id="e0166-112">Select the “Litware, Inc.”</span></span> <span data-ttu-id="e0166-113">.</span><span class="sxs-lookup"><span data-stu-id="e0166-113">provider.</span></span>
-3. <span data-ttu-id="e0166-114">Klik op Opslagplaatsen.</span><span class="sxs-lookup"><span data-stu-id="e0166-114">Click Repositories.</span></span>
-    * <span data-ttu-id="e0166-115">Als een opslagplaats van het type Bron voor bedrijfsactiviteiten bestaat, slaat u de resterende stappen van de huidige deeltaak over.</span><span class="sxs-lookup"><span data-stu-id="e0166-115">If a repository of the "Operations resources" type already exists, skip the remaining steps of the current sub-task.</span></span>  
-4. <span data-ttu-id="e0166-116">Klik op Toevoegen om het dialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="e0166-116">Click Add to open the drop dialog.</span></span>
-5. <span data-ttu-id="e0166-117">Voer Bronnen voor bedrijfsactiviteiten in het veld Opslagplaatstype van configuratie in.</span><span class="sxs-lookup"><span data-stu-id="e0166-117">In the Configuration repository type field, enter 'Operations resources'.</span></span>
-6. <span data-ttu-id="e0166-118">Klik op Opslagplaats maken.</span><span class="sxs-lookup"><span data-stu-id="e0166-118">Click Create repository.</span></span>
-7. <span data-ttu-id="e0166-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="e0166-119">Click OK.</span></span>
+## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a><span data-ttu-id="6c6b2-108">Toegang krijgen tot de lijst met configuraties die door Microsoft zijn geleverd</span><span class="sxs-lookup"><span data-stu-id="6c6b2-108">Get access to the list of configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="6c6b2-109">Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="6c6b2-110">Zorg ervoor dat de leverancier 'Litware, Inc.'</span><span class="sxs-lookup"><span data-stu-id="6c6b2-110">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="6c6b2-111">beschikbaar is en als actief gemarkeerd.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-111">provider is available and marked as active.</span></span>  
+2. <span data-ttu-id="6c6b2-112">Selecteer 'Litware, Inc.'</span><span class="sxs-lookup"><span data-stu-id="6c6b2-112">Select the “Litware, Inc.”</span></span> <span data-ttu-id="6c6b2-113">.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-113">provider.</span></span>
+3. <span data-ttu-id="6c6b2-114">Klik op Opslagplaatsen.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-114">Click Repositories.</span></span>
+    * <span data-ttu-id="6c6b2-115">Als een opslagplaats van het type Bron voor bedrijfsactiviteiten bestaat, slaat u de resterende stappen van de huidige deeltaak over.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-115">If a repository of the "Operations resources" type already exists, skip the remaining steps of the current sub-task.</span></span>  
+4. <span data-ttu-id="6c6b2-116">Klik op Toevoegen om het dialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-116">Click Add to open the drop dialog.</span></span>
+5. <span data-ttu-id="6c6b2-117">Voer Bronnen voor bedrijfsactiviteiten in het veld Opslagplaatstype van configuratie in.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-117">In the Configuration repository type field, enter 'Operations resources'.</span></span>
+6. <span data-ttu-id="6c6b2-118">Klik op Opslagplaats maken.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-118">Click Create repository.</span></span>
+7. <span data-ttu-id="6c6b2-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-119">Click OK.</span></span>
 
-## <a name="get-the-intrastat-configurations-provided-by-microsoft"></a><span data-ttu-id="e0166-120">Intrastat-configuraties ophalen die door Microsoft worden geleverd</span><span class="sxs-lookup"><span data-stu-id="e0166-120">Get the Intrastat configurations provided by Microsoft</span></span>
-1. <span data-ttu-id="e0166-121">Klik op Openen.</span><span class="sxs-lookup"><span data-stu-id="e0166-121">Click Open.</span></span>
-2. <span data-ttu-id="e0166-122">Selecteer in de structuur 'Intrastat-model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="e0166-122">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
-3. <span data-ttu-id="e0166-123">Klik op Importeren.</span><span class="sxs-lookup"><span data-stu-id="e0166-123">Click Import.</span></span>
-    * <span data-ttu-id="e0166-124">Klik op Importeren voor versie 1.1 van de geselecteerde configuratie.</span><span class="sxs-lookup"><span data-stu-id="e0166-124">Click Import for version 1.1 of the selected configuration.</span></span>  
-4. <span data-ttu-id="e0166-125">Klik op Ja.</span><span class="sxs-lookup"><span data-stu-id="e0166-125">Click Yes.</span></span>
-5. <span data-ttu-id="e0166-126">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="e0166-126">Close the page.</span></span>
-6. <span data-ttu-id="e0166-127">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="e0166-127">Close the page.</span></span>
-7. <span data-ttu-id="e0166-128">Klik op Rapportconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="e0166-128">Click Reporting configurations.</span></span>
-8. <span data-ttu-id="e0166-129">Vouw in de structuur 'Intrastat-model' uit.</span><span class="sxs-lookup"><span data-stu-id="e0166-129">In the tree, expand 'Intrastat model'.</span></span>
-9. <span data-ttu-id="e0166-130">Selecteer in de structuur 'Intrastat-model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="e0166-130">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
+## <a name="get-the-intrastat-configurations-provided-by-microsoft"></a><span data-ttu-id="6c6b2-120">Intrastat-configuraties ophalen die door Microsoft worden geleverd</span><span class="sxs-lookup"><span data-stu-id="6c6b2-120">Get the Intrastat configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="6c6b2-121">Klik op Openen.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-121">Click Open.</span></span>
+2. <span data-ttu-id="6c6b2-122">Selecteer in de structuur 'Intrastat-model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-122">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
+3. <span data-ttu-id="6c6b2-123">Klik op Importeren.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-123">Click Import.</span></span>
+    * <span data-ttu-id="6c6b2-124">Klik op Importeren voor versie 1.1 van de geselecteerde configuratie.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-124">Click Import for version 1.1 of the selected configuration.</span></span>  
+4. <span data-ttu-id="6c6b2-125">Klik op Ja.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-125">Click Yes.</span></span>
+5. <span data-ttu-id="6c6b2-126">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-126">Close the page.</span></span>
+6. <span data-ttu-id="6c6b2-127">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-127">Close the page.</span></span>
+7. <span data-ttu-id="6c6b2-128">Klik op Rapportconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-128">Click Reporting configurations.</span></span>
+8. <span data-ttu-id="6c6b2-129">Vouw in de structuur 'Intrastat-model' uit.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-129">In the tree, expand 'Intrastat model'.</span></span>
+9. <span data-ttu-id="6c6b2-130">Selecteer in de structuur 'Intrastat-model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="6c6b2-130">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
 

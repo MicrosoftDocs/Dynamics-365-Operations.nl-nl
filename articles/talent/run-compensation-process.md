@@ -18,34 +18,34 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 865baedd66eb6d87d7c2ddef1b552cc831345842
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859523"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517743"
 ---
-# <a name="run-the-compensation-process"></a><span data-ttu-id="f97cd-103">Het compensatieproces uitvoeren</span><span class="sxs-lookup"><span data-stu-id="f97cd-103">Run the compensation process</span></span>
+# <a name="run-the-compensation-process"></a><span data-ttu-id="b720a-103">Het compensatieproces uitvoeren</span><span class="sxs-lookup"><span data-stu-id="b720a-103">Run the compensation process</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="f97cd-104">**Probleem**</span><span class="sxs-lookup"><span data-stu-id="f97cd-104">**Issue**</span></span>
+<span data-ttu-id="b720a-104">**Probleem**</span><span class="sxs-lookup"><span data-stu-id="b720a-104">**Issue**</span></span>
 
-<span data-ttu-id="f97cd-105">De klant probeert het compensatieproces in Microsoft Dynamics 365 for Talent uit te voeren, maar slaagt hier niet in.</span><span class="sxs-lookup"><span data-stu-id="f97cd-105">The customer is trying to run the compensation process in Microsoft Dynamics 365 for Talent but isn't having any success.</span></span>
+<span data-ttu-id="b720a-105">De klant probeert het compensatieproces in Microsoft Dynamics 365 for Talent uit te voeren, maar slaagt hier niet in.</span><span class="sxs-lookup"><span data-stu-id="b720a-105">The customer is trying to run the compensation process in Microsoft Dynamics 365 for Talent but isn't having any success.</span></span>
 
-<span data-ttu-id="f97cd-106">**Oorzaak**</span><span class="sxs-lookup"><span data-stu-id="f97cd-106">**Cause**</span></span>
+<span data-ttu-id="b720a-106">**Oorzaak**</span><span class="sxs-lookup"><span data-stu-id="b720a-106">**Cause**</span></span>
 
-<span data-ttu-id="f97cd-107">De klant heeft de documentatie nodig.</span><span class="sxs-lookup"><span data-stu-id="f97cd-107">The customer needs the documentation.</span></span>
+<span data-ttu-id="b720a-107">De klant heeft de documentatie nodig.</span><span class="sxs-lookup"><span data-stu-id="b720a-107">The customer needs the documentation.</span></span>
 
-<span data-ttu-id="f97cd-108">**Resolutie**</span><span class="sxs-lookup"><span data-stu-id="f97cd-108">**Resolution**</span></span>
+<span data-ttu-id="b720a-108">**Resolutie**</span><span class="sxs-lookup"><span data-stu-id="b720a-108">**Resolution**</span></span>
 
-<span data-ttu-id="f97cd-109">Hier is de documentatie voor compensatie:</span><span class="sxs-lookup"><span data-stu-id="f97cd-109">Here is the documentation for compensation:</span></span>
+<span data-ttu-id="b720a-109">Hier is de documentatie voor compensatie:</span><span class="sxs-lookup"><span data-stu-id="b720a-109">Here is the documentation for compensation:</span></span>
 
-- <span data-ttu-id="f97cd-110">Instellen:</span><span class="sxs-lookup"><span data-stu-id="f97cd-110">Setup:</span></span>
+- <span data-ttu-id="b720a-110">Instellen:</span><span class="sxs-lookup"><span data-stu-id="b720a-110">Setup:</span></span>
 
-    - [<span data-ttu-id="f97cd-111">Compensatieplannen</span><span class="sxs-lookup"><span data-stu-id="f97cd-111">Compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/compensation-plans)
-    - [<span data-ttu-id="f97cd-112">Plannen voor vaste compensatie maken</span><span class="sxs-lookup"><span data-stu-id="f97cd-112">Create fixed compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-    - [<span data-ttu-id="f97cd-113">Plannen voor variabele compensatie maken</span><span class="sxs-lookup"><span data-stu-id="f97cd-113">Create variable compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+    - [<span data-ttu-id="b720a-111">Compensatieplannen</span><span class="sxs-lookup"><span data-stu-id="b720a-111">Compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/compensation-plans)
+    - [<span data-ttu-id="b720a-112">Plannen voor vaste compensatie maken</span><span class="sxs-lookup"><span data-stu-id="b720a-112">Create fixed compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+    - [<span data-ttu-id="b720a-113">Plannen voor variabele compensatie maken</span><span class="sxs-lookup"><span data-stu-id="b720a-113">Create variable compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
-- <span data-ttu-id="f97cd-114">Proces:</span><span class="sxs-lookup"><span data-stu-id="f97cd-114">Process:</span></span>
+- <span data-ttu-id="b720a-114">Proces:</span><span class="sxs-lookup"><span data-stu-id="b720a-114">Process:</span></span>
 
-    - [<span data-ttu-id="f97cd-115">Compensatie verwerken</span><span class="sxs-lookup"><span data-stu-id="f97cd-115">Process compensation</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)
+    - [<span data-ttu-id="b720a-115">Compensatie verwerken</span><span class="sxs-lookup"><span data-stu-id="b720a-115">Process compensation</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)

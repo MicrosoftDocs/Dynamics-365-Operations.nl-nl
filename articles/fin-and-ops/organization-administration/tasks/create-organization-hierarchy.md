@@ -17,43 +17,43 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 203a586b06a13a7c67f246384152d17627e22041
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308800"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545540"
 ---
-# <a name="create-an-organization-hierarchy"></a><span data-ttu-id="f4c9c-103">Een organisatiehiërarchie maken</span><span class="sxs-lookup"><span data-stu-id="f4c9c-103">Create an organization hierarchy</span></span>
+# <a name="create-an-organization-hierarchy"></a><span data-ttu-id="07223-103">Een organisatiehiërarchie maken</span><span class="sxs-lookup"><span data-stu-id="07223-103">Create an organization hierarchy</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="f4c9c-104">Gebruik de volgende procedure om een organisatiehiërarchie te maken.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-104">Use the following procedure to create an organizational hierarchy.</span></span> <span data-ttu-id="f4c9c-105">Met organisatiehiërarchieën kunt u vanuit verschillende gezichtspunten kijken naar en rapporteren over uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-105">You can use organizational hierarchies to view and report on your business from various perspectives.</span></span> <span data-ttu-id="f4c9c-106">U kunt bijvoorbeeld een hiërarchie instellen voor belastingaangifte.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-106">For example, you can set up one hierarchy for tax, legal, or statutory reporting.</span></span> <span data-ttu-id="f4c9c-107">Vervolgens kunt u een andere hiërarchie instellen voor het rapporteren van financiële gegevens die niet wettelijk vereist zijn, maar die voor interne rapportage worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-107">You can then set up another hierarchy to report financial information that is not legally required, but that is used for internal reporting.</span></span> 
+<span data-ttu-id="07223-104">Gebruik de volgende procedure om een organisatiehiërarchie te maken.</span><span class="sxs-lookup"><span data-stu-id="07223-104">Use the following procedure to create an organizational hierarchy.</span></span> <span data-ttu-id="07223-105">Met organisatiehiërarchieën kunt u vanuit verschillende gezichtspunten kijken naar en rapporteren over uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="07223-105">You can use organizational hierarchies to view and report on your business from various perspectives.</span></span> <span data-ttu-id="07223-106">U kunt bijvoorbeeld een hiërarchie instellen voor belastingaangifte.</span><span class="sxs-lookup"><span data-stu-id="07223-106">For example, you can set up one hierarchy for tax, legal, or statutory reporting.</span></span> <span data-ttu-id="07223-107">Vervolgens kunt u een andere hiërarchie instellen voor het rapporteren van financiële gegevens die niet wettelijk vereist zijn, maar die voor interne rapportage worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="07223-107">You can then set up another hierarchy to report financial information that is not legally required, but that is used for internal reporting.</span></span> 
 
 
 
-<span data-ttu-id="f4c9c-108">Voordat u een organisatiehiërarchie maakt, moet u organisaties maken.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-108">Before you create an organizational hierarchy, you must create organizations.</span></span> <span data-ttu-id="f4c9c-109">Zie voor meer informatie de taak "Een rechtspersoon maken" of "Een operationele eenheid maken".</span><span class="sxs-lookup"><span data-stu-id="f4c9c-109">For more information, see the “Create a legal entity” or “Create an operating unit” tasks.</span></span> <span data-ttu-id="f4c9c-110">U kunt ook afdelingen en teams maken.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-110">You can also create departments and teams.</span></span> 
+<span data-ttu-id="07223-108">Voordat u een organisatiehiërarchie maakt, moet u organisaties maken.</span><span class="sxs-lookup"><span data-stu-id="07223-108">Before you create an organizational hierarchy, you must create organizations.</span></span> <span data-ttu-id="07223-109">Zie voor meer informatie de taak "Een rechtspersoon maken" of "Een operationele eenheid maken".</span><span class="sxs-lookup"><span data-stu-id="07223-109">For more information, see the “Create a legal entity” or “Create an operating unit” tasks.</span></span> <span data-ttu-id="07223-110">U kunt ook afdelingen en teams maken.</span><span class="sxs-lookup"><span data-stu-id="07223-110">You can also create departments and teams.</span></span> 
 
 
 
-<span data-ttu-id="f4c9c-111">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-111">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="07223-111">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="07223-111">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-hierarchy"></a><span data-ttu-id="f4c9c-112">Een hiërarchie maken</span><span class="sxs-lookup"><span data-stu-id="f4c9c-112">Create a hierarchy</span></span>
-1. <span data-ttu-id="f4c9c-113">Ga naar Organisatiebeheer > Organisaties > Organisatiehiërarchieën.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-113">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
-2. <span data-ttu-id="f4c9c-114">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-114">Click New.</span></span>
-3. <span data-ttu-id="f4c9c-115">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-115">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="f4c9c-116">Klik op Doel toewijzen.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-116">Click Assign purpose.</span></span>
-5. <span data-ttu-id="f4c9c-117">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-117">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="f4c9c-118">Selecteer een doel om aan uw organisatiehiërarchie toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-118">Select a purpose to assign to your organization hierarchy.</span></span>  
-6. <span data-ttu-id="f4c9c-119">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-119">Click Add.</span></span>
-7. <span data-ttu-id="f4c9c-120">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-120">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="f4c9c-121">Zoek de hiërarchie u zojuist hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-121">Find the hierarchy you just created.</span></span>  
-8. <span data-ttu-id="f4c9c-122">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-122">Click OK.</span></span>
+## <a name="create-a-hierarchy"></a><span data-ttu-id="07223-112">Een hiërarchie maken</span><span class="sxs-lookup"><span data-stu-id="07223-112">Create a hierarchy</span></span>
+1. <span data-ttu-id="07223-113">Ga naar Organisatiebeheer > Organisaties > Organisatiehiërarchieën.</span><span class="sxs-lookup"><span data-stu-id="07223-113">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
+2. <span data-ttu-id="07223-114">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="07223-114">Click New.</span></span>
+3. <span data-ttu-id="07223-115">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="07223-115">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="07223-116">Klik op Doel toewijzen.</span><span class="sxs-lookup"><span data-stu-id="07223-116">Click Assign purpose.</span></span>
+5. <span data-ttu-id="07223-117">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="07223-117">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="07223-118">Selecteer een doel om aan uw organisatiehiërarchie toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="07223-118">Select a purpose to assign to your organization hierarchy.</span></span>  
+6. <span data-ttu-id="07223-119">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="07223-119">Click Add.</span></span>
+7. <span data-ttu-id="07223-120">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="07223-120">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="07223-121">Zoek de hiërarchie u zojuist hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="07223-121">Find the hierarchy you just created.</span></span>  
+8. <span data-ttu-id="07223-122">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="07223-122">Click OK.</span></span>
 
-## <a name="add-organizations-to-the-hierarchy"></a><span data-ttu-id="f4c9c-123">Organisaties aan de hiërarchie toevoegen</span><span class="sxs-lookup"><span data-stu-id="f4c9c-123">Add organizations to the hierarchy</span></span>
-1. <span data-ttu-id="f4c9c-124">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-124">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="f4c9c-125">Selecteer uw hiërarchie.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-125">Select your hierarchy.</span></span>  
-2. <span data-ttu-id="f4c9c-126">Klik op Hiërarchie weergeven.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-126">Click View hierarchy.</span></span>
-    * <span data-ttu-id="f4c9c-127">Voer zo nodig organisaties toe.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-127">Add organizations, as necessary.</span></span>  
-    * <span data-ttu-id="f4c9c-128">Als u een organisatie wilt toevoegen, klikt u op Bewerken en vervolgens op Invoegen om de organisatie toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-128">To add an organization, click Edit and then Insert to add the organization.</span></span>     <span data-ttu-id="f4c9c-129">Wanneer u klaar bent met het aanbrengen van wijzigingen, kunt u een concept opslaan en/of de wijzigingen publiceren.</span><span class="sxs-lookup"><span data-stu-id="f4c9c-129">When you are done making changes you can save a draft and/or publish the changes.</span></span>  
+## <a name="add-organizations-to-the-hierarchy"></a><span data-ttu-id="07223-123">Organisaties aan de hiërarchie toevoegen</span><span class="sxs-lookup"><span data-stu-id="07223-123">Add organizations to the hierarchy</span></span>
+1. <span data-ttu-id="07223-124">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="07223-124">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="07223-125">Selecteer uw hiërarchie.</span><span class="sxs-lookup"><span data-stu-id="07223-125">Select your hierarchy.</span></span>  
+2. <span data-ttu-id="07223-126">Klik op Hiërarchie weergeven.</span><span class="sxs-lookup"><span data-stu-id="07223-126">Click View hierarchy.</span></span>
+    * <span data-ttu-id="07223-127">Voer zo nodig organisaties toe.</span><span class="sxs-lookup"><span data-stu-id="07223-127">Add organizations, as necessary.</span></span>  
+    * <span data-ttu-id="07223-128">Als u een organisatie wilt toevoegen, klikt u op Bewerken en vervolgens op Invoegen om de organisatie toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="07223-128">To add an organization, click Edit and then Insert to add the organization.</span></span>     <span data-ttu-id="07223-129">Wanneer u klaar bent met het aanbrengen van wijzigingen, kunt u een concept opslaan en/of de wijzigingen publiceren.</span><span class="sxs-lookup"><span data-stu-id="07223-129">When you are done making changes you can save a draft and/or publish the changes.</span></span>  
 

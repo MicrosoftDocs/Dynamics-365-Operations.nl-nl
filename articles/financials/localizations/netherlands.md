@@ -16,18 +16,18 @@ ms.search.region: Netherlands
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4b3a2c1a8332290b28f7e9ead17f1f070910beb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea1890c27624ded600d0f04f5c95a1fb02a2e4b6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371428"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538201"
 ---
-# <a name="netherlands"></a><span data-ttu-id="6db51-103">Nederland</span><span class="sxs-lookup"><span data-stu-id="6db51-103">Netherlands</span></span> 
+# <a name="netherlands"></a><span data-ttu-id="aacd0-103">Nederland</span><span class="sxs-lookup"><span data-stu-id="aacd0-103">Netherlands</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6db51-104">Dit onderwerp bevat koppelingen naar documentatiebronnen voor Nederland.</span><span class="sxs-lookup"><span data-stu-id="6db51-104">This topic provides links to documentation resources for the Netherlands.</span></span> 
+<span data-ttu-id="aacd0-104">Dit onderwerp bevat koppelingen naar documentatiebronnen voor Nederland.</span><span class="sxs-lookup"><span data-stu-id="aacd0-104">This topic provides links to documentation resources for the Netherlands.</span></span> 
 
-- [<span data-ttu-id="6db51-105">Elektronische belastingaangiften (EVAT)</span><span class="sxs-lookup"><span data-stu-id="6db51-105">Electronic tax declarations (EVAT)</span></span>](tasks/nl-00010-electronic-tax-declarations-evat.md)
-- [<span data-ttu-id="6db51-106">Semansys XBRL-integratie</span><span class="sxs-lookup"><span data-stu-id="6db51-106">Semansys XBRL integration</span></span>](tasks/nl-00003-semansys-xbrl-integration.md)
+- [<span data-ttu-id="aacd0-105">Elektronische belastingaangiften (EVAT)</span><span class="sxs-lookup"><span data-stu-id="aacd0-105">Electronic tax declarations (EVAT)</span></span>](tasks/nl-00010-electronic-tax-declarations-evat.md)
+- [<span data-ttu-id="aacd0-106">Semansys XBRL-integratie</span><span class="sxs-lookup"><span data-stu-id="aacd0-106">Semansys XBRL integration</span></span>](tasks/nl-00003-semansys-xbrl-integration.md)
