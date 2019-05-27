@@ -16,60 +16,60 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 76fcba3732879f85c9bf0faa6d2481b9c5313a17
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "358940"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563176"
 ---
-# <a name="create-a-semi-finished-product-february-2016-only"></a><span data-ttu-id="61bd3-103">Een halffabrikaatproduct maken (uitsluitend februari 2016)</span><span class="sxs-lookup"><span data-stu-id="61bd3-103">Create a semi-finished product (February 2016 only)</span></span>
+# <a name="create-a-semi-finished-product-february-2016-only"></a><span data-ttu-id="7bcfb-103">Een halffabrikaatproduct maken (uitsluitend februari 2016)</span><span class="sxs-lookup"><span data-stu-id="7bcfb-103">Create a semi-finished product (February 2016 only)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="61bd3-104">Deze taak is gericht op het maken van een halffabricaat.</span><span class="sxs-lookup"><span data-stu-id="61bd3-104">This task focuses on creating a semi-finished product.</span></span> <span data-ttu-id="61bd3-105">Dit is de tweede taak in de reeks stuklijstberekeningen.</span><span class="sxs-lookup"><span data-stu-id="61bd3-105">It is the second task in the BOM calculation series.</span></span> <span data-ttu-id="61bd3-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="61bd3-106">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="7bcfb-104">Deze taak is gericht op het maken van een halffabricaat.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-104">This task focuses on creating a semi-finished product.</span></span> <span data-ttu-id="7bcfb-105">Dit is de tweede taak in de reeks stuklijstberekeningen.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-105">It is the second task in the BOM calculation series.</span></span> <span data-ttu-id="7bcfb-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-106">The demo data company used to create this task is USMF.</span></span>
 
-1. <span data-ttu-id="61bd3-107">Ga naar Productgegevensbeheer > Producten > Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="61bd3-107">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="61bd3-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="61bd3-108">Click New.</span></span>
-3. <span data-ttu-id="61bd3-109">Typ een waarde in het veld Productnummer.</span><span class="sxs-lookup"><span data-stu-id="61bd3-109">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="61bd3-110">Typ voor dit voorbeeld: 'Stuklijst_2'.</span><span class="sxs-lookup"><span data-stu-id="61bd3-110">For this example, type BOM_2.</span></span>  
-4. <span data-ttu-id="61bd3-111">Typ of selecteer een waarde in het veld Artikelmodelgroep.</span><span class="sxs-lookup"><span data-stu-id="61bd3-111">In the Item model group field, enter or select a value.</span></span>
-    * <span data-ttu-id="61bd3-112">Selecteer STD.</span><span class="sxs-lookup"><span data-stu-id="61bd3-112">Select STD.</span></span> <span data-ttu-id="61bd3-113">STD staat voor de standaardkosten. Dit is het meestgebruikte model bij het werken met kostenberekeningen.</span><span class="sxs-lookup"><span data-stu-id="61bd3-113">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
-5. <span data-ttu-id="61bd3-114">Typ of selecteer een waarde in het veld Artikelgroep.</span><span class="sxs-lookup"><span data-stu-id="61bd3-114">In the Item group field, enter or select a value.</span></span>
-    * <span data-ttu-id="61bd3-115">Selecteer bijvoorbeeld 'Audio'.</span><span class="sxs-lookup"><span data-stu-id="61bd3-115">For example, select Audio.</span></span> <span data-ttu-id="61bd3-116">Dit heeft geen invloed op de kostenberekeningen.</span><span class="sxs-lookup"><span data-stu-id="61bd3-116">This has no impact on cost calculations.</span></span>  
-6. <span data-ttu-id="61bd3-117">Typ of selecteer een waarde in het veld Opslagdimensiegroep.</span><span class="sxs-lookup"><span data-stu-id="61bd3-117">In the Storage dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="61bd3-118">Selecteer 'SiteWH'.</span><span class="sxs-lookup"><span data-stu-id="61bd3-118">Select SiteWH.</span></span> <span data-ttu-id="61bd3-119">Alleen Locatie en Magazijn wordt gebruikt voor dit voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="61bd3-119">Only Site and Warehouse will be used for this example.</span></span>  
-7. <span data-ttu-id="61bd3-120">Typ of selecteer een waarde in het veld Traceringsdimensiegroep.</span><span class="sxs-lookup"><span data-stu-id="61bd3-120">In the Tracking dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="61bd3-121">Traceringsdimensies worden niet voor dit voorbeeld gebruikt. Selecteer 'Geen'.</span><span class="sxs-lookup"><span data-stu-id="61bd3-121">Tracking dimensions will not be used for this example, select None.</span></span>  
-8. <span data-ttu-id="61bd3-122">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="61bd3-122">Click OK.</span></span>
-9. <span data-ttu-id="61bd3-123">Klik in het actievenster op Voorraad beheren.</span><span class="sxs-lookup"><span data-stu-id="61bd3-123">On the Action Pane, click Manage inventory.</span></span>
-10. <span data-ttu-id="61bd3-124">Klik op Standaardorderinstellingen.</span><span class="sxs-lookup"><span data-stu-id="61bd3-124">Click Default order settings.</span></span>
-11. <span data-ttu-id="61bd3-125">Selecteer in het veld Standaardordertype: 'Productie'.</span><span class="sxs-lookup"><span data-stu-id="61bd3-125">In the Default order type field, select 'Production'.</span></span>
-    * <span data-ttu-id="61bd3-126">Omdat dit een halffabricaat is dat wordt geproduceerd, selecteert u 'Productie'.</span><span class="sxs-lookup"><span data-stu-id="61bd3-126">Because this is a semi-finished product that will be produced, select Production.</span></span>  
-12. <span data-ttu-id="61bd3-127">Typ of selecteer een waarde in het veld Inkoopvestiging.</span><span class="sxs-lookup"><span data-stu-id="61bd3-127">In the Purchase site field, enter or select a value.</span></span>
-    * <span data-ttu-id="61bd3-128">Selecteer voor dit voorbeeld 'Locatie 1.'</span><span class="sxs-lookup"><span data-stu-id="61bd3-128">For this example, select Site 1.</span></span>  
-13. <span data-ttu-id="61bd3-129">Typ of selecteer een waarde in het veld Voorraadvestiging.</span><span class="sxs-lookup"><span data-stu-id="61bd3-129">In the Inventory site field, enter or select a value.</span></span>
-    * <span data-ttu-id="61bd3-130">Selecteer voor dit voorbeeld 'Locatie 1.'</span><span class="sxs-lookup"><span data-stu-id="61bd3-130">For this example, select Site 1.</span></span>  
-14. <span data-ttu-id="61bd3-131">Typ of selecteer een waarde in het veld Verkoopvestiging.</span><span class="sxs-lookup"><span data-stu-id="61bd3-131">In the Sales site field, enter or select a value.</span></span>
-    * <span data-ttu-id="61bd3-132">Selecteer voor dit voorbeeld 'Locatie 1.'</span><span class="sxs-lookup"><span data-stu-id="61bd3-132">For this example, select Site 1.</span></span>  
-15. <span data-ttu-id="61bd3-133">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="61bd3-133">Close the page.</span></span>
-16. <span data-ttu-id="61bd3-134">Klik in het actievenster op Kosten beheren.</span><span class="sxs-lookup"><span data-stu-id="61bd3-134">On the Action Pane, click Manage costs.</span></span>
-17. <span data-ttu-id="61bd3-135">Klik op Artikelprijs.</span><span class="sxs-lookup"><span data-stu-id="61bd3-135">Click Item price.</span></span>
-18. <span data-ttu-id="61bd3-136">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="61bd3-136">Click New.</span></span>
-19. <span data-ttu-id="61bd3-137">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="61bd3-137">In the list, mark the selected row.</span></span>
-20. <span data-ttu-id="61bd3-138">Typ of selecteer een waarde in het veld Versie.</span><span class="sxs-lookup"><span data-stu-id="61bd3-138">In the Version field, enter or select a value.</span></span>
-    * <span data-ttu-id="61bd3-139">Selecteer voor dit voorbeeld 'Versie 10.'</span><span class="sxs-lookup"><span data-stu-id="61bd3-139">For this example, select Version 10.</span></span>  
-21. <span data-ttu-id="61bd3-140">Typ of selecteer een waarde in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="61bd3-140">In the Site field, enter or select a value.</span></span>
-    * <span data-ttu-id="61bd3-141">Selecteer voor dit voorbeeld 'Locatie 1.'</span><span class="sxs-lookup"><span data-stu-id="61bd3-141">For this example, select Site 1.</span></span>  
-22. <span data-ttu-id="61bd3-142">Stel het veld Prijs in op '10'.</span><span class="sxs-lookup"><span data-stu-id="61bd3-142">Set Price to '10'.</span></span>
-    * <span data-ttu-id="61bd3-143">Typ voor dit voorbeeld een kostprijs van 10.</span><span class="sxs-lookup"><span data-stu-id="61bd3-143">For this example, type a cost price of 10.</span></span>  
-23. <span data-ttu-id="61bd3-144">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="61bd3-144">Click Save.</span></span>
-24. <span data-ttu-id="61bd3-145">Klik op Prijzen in behandeling activeren.</span><span class="sxs-lookup"><span data-stu-id="61bd3-145">Click Activate pending price(s).</span></span>
-25. <span data-ttu-id="61bd3-146">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="61bd3-146">Close the page.</span></span>
-26. <span data-ttu-id="61bd3-147">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="61bd3-147">Close the page.</span></span>
-27. <span data-ttu-id="61bd3-148">Klik op Stuklijst_2 om deze te openen.</span><span class="sxs-lookup"><span data-stu-id="61bd3-148">Click BOM_2 to open it.</span></span>
-28. <span data-ttu-id="61bd3-149">Vouw de sectie Kosten beheren uit.</span><span class="sxs-lookup"><span data-stu-id="61bd3-149">Expand the Manage costs section.</span></span>
-29. <span data-ttu-id="61bd3-150">Typ of selecteer een waarde in het veld Kostengroep.</span><span class="sxs-lookup"><span data-stu-id="61bd3-150">In the Cost group field, enter or select a value.</span></span>
-    * <span data-ttu-id="61bd3-151">Selecteer voor dit voorbeeld: 'Kostengroep M1'.</span><span class="sxs-lookup"><span data-stu-id="61bd3-151">For this example, select Cost group M1.</span></span>  
-30. <span data-ttu-id="61bd3-152">Gebruik de snelkoppeling om een record op te slaan.</span><span class="sxs-lookup"><span data-stu-id="61bd3-152">Use the shortcut for saving a record.</span></span>
-31. <span data-ttu-id="61bd3-153">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="61bd3-153">Close the page.</span></span>
+1. <span data-ttu-id="7bcfb-107">Ga naar Productgegevensbeheer > Producten > Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="7bcfb-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-108">Click New.</span></span>
+3. <span data-ttu-id="7bcfb-109">Typ een waarde in het veld Productnummer.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-109">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="7bcfb-110">Typ voor dit voorbeeld: 'Stuklijst_2'.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-110">For this example, type BOM_2.</span></span>  
+4. <span data-ttu-id="7bcfb-111">Typ of selecteer een waarde in het veld Artikelmodelgroep.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-111">In the Item model group field, enter or select a value.</span></span>
+    * <span data-ttu-id="7bcfb-112">Selecteer STD.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-112">Select STD.</span></span> <span data-ttu-id="7bcfb-113">STD staat voor de standaardkosten. Dit is het meestgebruikte model bij het werken met kostenberekeningen.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-113">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
+5. <span data-ttu-id="7bcfb-114">Typ of selecteer een waarde in het veld Artikelgroep.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-114">In the Item group field, enter or select a value.</span></span>
+    * <span data-ttu-id="7bcfb-115">Selecteer bijvoorbeeld 'Audio'.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-115">For example, select Audio.</span></span> <span data-ttu-id="7bcfb-116">Dit heeft geen invloed op de kostenberekeningen.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-116">This has no impact on cost calculations.</span></span>  
+6. <span data-ttu-id="7bcfb-117">Typ of selecteer een waarde in het veld Opslagdimensiegroep.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-117">In the Storage dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="7bcfb-118">Selecteer 'SiteWH'.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-118">Select SiteWH.</span></span> <span data-ttu-id="7bcfb-119">Alleen Locatie en Magazijn wordt gebruikt voor dit voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-119">Only Site and Warehouse will be used for this example.</span></span>  
+7. <span data-ttu-id="7bcfb-120">Typ of selecteer een waarde in het veld Traceringsdimensiegroep.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-120">In the Tracking dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="7bcfb-121">Traceringsdimensies worden niet voor dit voorbeeld gebruikt. Selecteer 'Geen'.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-121">Tracking dimensions will not be used for this example, select None.</span></span>  
+8. <span data-ttu-id="7bcfb-122">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-122">Click OK.</span></span>
+9. <span data-ttu-id="7bcfb-123">Klik in het actievenster op Voorraad beheren.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-123">On the Action Pane, click Manage inventory.</span></span>
+10. <span data-ttu-id="7bcfb-124">Klik op Standaardorderinstellingen.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-124">Click Default order settings.</span></span>
+11. <span data-ttu-id="7bcfb-125">Selecteer in het veld Standaardordertype: 'Productie'.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-125">In the Default order type field, select 'Production'.</span></span>
+    * <span data-ttu-id="7bcfb-126">Omdat dit een halffabricaat is dat wordt geproduceerd, selecteert u 'Productie'.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-126">Because this is a semi-finished product that will be produced, select Production.</span></span>  
+12. <span data-ttu-id="7bcfb-127">Typ of selecteer een waarde in het veld Inkoopvestiging.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-127">In the Purchase site field, enter or select a value.</span></span>
+    * <span data-ttu-id="7bcfb-128">Selecteer voor dit voorbeeld 'Locatie 1.'</span><span class="sxs-lookup"><span data-stu-id="7bcfb-128">For this example, select Site 1.</span></span>  
+13. <span data-ttu-id="7bcfb-129">Typ of selecteer een waarde in het veld Voorraadvestiging.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-129">In the Inventory site field, enter or select a value.</span></span>
+    * <span data-ttu-id="7bcfb-130">Selecteer voor dit voorbeeld 'Locatie 1.'</span><span class="sxs-lookup"><span data-stu-id="7bcfb-130">For this example, select Site 1.</span></span>  
+14. <span data-ttu-id="7bcfb-131">Typ of selecteer een waarde in het veld Verkoopvestiging.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-131">In the Sales site field, enter or select a value.</span></span>
+    * <span data-ttu-id="7bcfb-132">Selecteer voor dit voorbeeld 'Locatie 1.'</span><span class="sxs-lookup"><span data-stu-id="7bcfb-132">For this example, select Site 1.</span></span>  
+15. <span data-ttu-id="7bcfb-133">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-133">Close the page.</span></span>
+16. <span data-ttu-id="7bcfb-134">Klik in het actievenster op Kosten beheren.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-134">On the Action Pane, click Manage costs.</span></span>
+17. <span data-ttu-id="7bcfb-135">Klik op Artikelprijs.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-135">Click Item price.</span></span>
+18. <span data-ttu-id="7bcfb-136">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-136">Click New.</span></span>
+19. <span data-ttu-id="7bcfb-137">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-137">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="7bcfb-138">Typ of selecteer een waarde in het veld Versie.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-138">In the Version field, enter or select a value.</span></span>
+    * <span data-ttu-id="7bcfb-139">Selecteer voor dit voorbeeld 'Versie 10.'</span><span class="sxs-lookup"><span data-stu-id="7bcfb-139">For this example, select Version 10.</span></span>  
+21. <span data-ttu-id="7bcfb-140">Typ of selecteer een waarde in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-140">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="7bcfb-141">Selecteer voor dit voorbeeld 'Locatie 1.'</span><span class="sxs-lookup"><span data-stu-id="7bcfb-141">For this example, select Site 1.</span></span>  
+22. <span data-ttu-id="7bcfb-142">Stel het veld Prijs in op '10'.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-142">Set Price to '10'.</span></span>
+    * <span data-ttu-id="7bcfb-143">Typ voor dit voorbeeld een kostprijs van 10.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-143">For this example, type a cost price of 10.</span></span>  
+23. <span data-ttu-id="7bcfb-144">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-144">Click Save.</span></span>
+24. <span data-ttu-id="7bcfb-145">Klik op Prijzen in behandeling activeren.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-145">Click Activate pending price(s).</span></span>
+25. <span data-ttu-id="7bcfb-146">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-146">Close the page.</span></span>
+26. <span data-ttu-id="7bcfb-147">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-147">Close the page.</span></span>
+27. <span data-ttu-id="7bcfb-148">Klik op Stuklijst_2 om deze te openen.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-148">Click BOM_2 to open it.</span></span>
+28. <span data-ttu-id="7bcfb-149">Vouw de sectie Kosten beheren uit.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-149">Expand the Manage costs section.</span></span>
+29. <span data-ttu-id="7bcfb-150">Typ of selecteer een waarde in het veld Kostengroep.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-150">In the Cost group field, enter or select a value.</span></span>
+    * <span data-ttu-id="7bcfb-151">Selecteer voor dit voorbeeld: 'Kostengroep M1'.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-151">For this example, select Cost group M1.</span></span>  
+30. <span data-ttu-id="7bcfb-152">Gebruik de snelkoppeling om een record op te slaan.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-152">Use the shortcut for saving a record.</span></span>
+31. <span data-ttu-id="7bcfb-153">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="7bcfb-153">Close the page.</span></span>
 

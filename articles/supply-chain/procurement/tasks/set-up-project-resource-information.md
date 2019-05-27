@@ -18,37 +18,37 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 180b806a80d373626c3f3a2bb43a3049a43618d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346773"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559576"
 ---
-# <a name="set-up-project-resource-information"></a><span data-ttu-id="af9b2-103">Informatie voor projectresource instellen</span><span class="sxs-lookup"><span data-stu-id="af9b2-103">Set up project resource information</span></span>
+# <a name="set-up-project-resource-information"></a><span data-ttu-id="0a7a6-103">Informatie voor projectresource instellen</span><span class="sxs-lookup"><span data-stu-id="0a7a6-103">Set up project resource information</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="af9b2-104">Deze procedure laat zien hoe u een projectresource instelt.</span><span class="sxs-lookup"><span data-stu-id="af9b2-104">This procedure shows how to set up a project resource.</span></span> <span data-ttu-id="af9b2-105">In deze taak wordt de gegevensset van USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="af9b2-105">This task uses the USMF data set.</span></span>
+<span data-ttu-id="0a7a6-104">Deze procedure laat zien hoe u een projectresource instelt.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-104">This procedure shows how to set up a project resource.</span></span> <span data-ttu-id="0a7a6-105">In deze taak wordt de gegevensset van USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-105">This task uses the USMF data set.</span></span>
 
-1. <span data-ttu-id="af9b2-106">Ga naar Projectbeheer en boekhouding > Projectresources > Resourcelijst.</span><span class="sxs-lookup"><span data-stu-id="af9b2-106">Go to Project management and accounting > Project resources > Resources list.</span></span>
-2. <span data-ttu-id="af9b2-107">Klik op Nieuwe resource.</span><span class="sxs-lookup"><span data-stu-id="af9b2-107">Click New resource.</span></span>
-3. <span data-ttu-id="af9b2-108">Typ of selecteer een waarde in het veld Medewerker.</span><span class="sxs-lookup"><span data-stu-id="af9b2-108">In the Worker field, enter or select a value.</span></span>
-4. <span data-ttu-id="af9b2-109">Typ of selecteer een waarde in het veld Kalender.</span><span class="sxs-lookup"><span data-stu-id="af9b2-109">In the Calendar field, enter or select a value.</span></span>
-5. <span data-ttu-id="af9b2-110">Typ of selecteer een waarde in het veld Periodecode.</span><span class="sxs-lookup"><span data-stu-id="af9b2-110">In the Period code field, enter or select a value.</span></span>
-6. <span data-ttu-id="af9b2-111">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="af9b2-111">Click Create.</span></span>
-7. <span data-ttu-id="af9b2-112">Klik op Kostprijzen.</span><span class="sxs-lookup"><span data-stu-id="af9b2-112">Click Cost prices.</span></span>
-8. <span data-ttu-id="af9b2-113">Klik op Kostprijs - uur.</span><span class="sxs-lookup"><span data-stu-id="af9b2-113">Click Cost price - hour.</span></span>
-9. <span data-ttu-id="af9b2-114">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="af9b2-114">Click New.</span></span>
-10. <span data-ttu-id="af9b2-115">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="af9b2-115">In the Effective date field, enter a date.</span></span>
-11. <span data-ttu-id="af9b2-116">Voer in het veld Kostprijs een getal in.</span><span class="sxs-lookup"><span data-stu-id="af9b2-116">In the Cost price field, enter a number.</span></span>
-12. <span data-ttu-id="af9b2-117">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="af9b2-117">Click Save.</span></span>
-13. <span data-ttu-id="af9b2-118">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="af9b2-118">Close the page.</span></span>
-14. <span data-ttu-id="af9b2-119">Klik op Verkoopprijzen.</span><span class="sxs-lookup"><span data-stu-id="af9b2-119">Click Sales prices.</span></span>
-15. <span data-ttu-id="af9b2-120">Klik op Verkoopprijs - uur.</span><span class="sxs-lookup"><span data-stu-id="af9b2-120">Click Sales price - hour.</span></span>
-16. <span data-ttu-id="af9b2-121">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="af9b2-121">Click New.</span></span>
-17. <span data-ttu-id="af9b2-122">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="af9b2-122">In the Effective date field, enter a date.</span></span>
-18. <span data-ttu-id="af9b2-123">Voer in het veld Prijscalculatie een getal in.</span><span class="sxs-lookup"><span data-stu-id="af9b2-123">In the Pricing field, enter a number.</span></span>
-19. <span data-ttu-id="af9b2-124">Selecteer een optie in het veld Geldig voor.</span><span class="sxs-lookup"><span data-stu-id="af9b2-124">In the Valid for field, select an option.</span></span>
-20. <span data-ttu-id="af9b2-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="af9b2-125">Click Save.</span></span>
-21. <span data-ttu-id="af9b2-126">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="af9b2-126">Close the page.</span></span>
+1. <span data-ttu-id="0a7a6-106">Ga naar Projectbeheer en boekhouding > Projectresources > Resourcelijst.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-106">Go to Project management and accounting > Project resources > Resources list.</span></span>
+2. <span data-ttu-id="0a7a6-107">Klik op Nieuwe resource.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-107">Click New resource.</span></span>
+3. <span data-ttu-id="0a7a6-108">Typ of selecteer een waarde in het veld Medewerker.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-108">In the Worker field, enter or select a value.</span></span>
+4. <span data-ttu-id="0a7a6-109">Typ of selecteer een waarde in het veld Kalender.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-109">In the Calendar field, enter or select a value.</span></span>
+5. <span data-ttu-id="0a7a6-110">Typ of selecteer een waarde in het veld Periodecode.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-110">In the Period code field, enter or select a value.</span></span>
+6. <span data-ttu-id="0a7a6-111">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-111">Click Create.</span></span>
+7. <span data-ttu-id="0a7a6-112">Klik op Kostprijzen.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-112">Click Cost prices.</span></span>
+8. <span data-ttu-id="0a7a6-113">Klik op Kostprijs - uur.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-113">Click Cost price - hour.</span></span>
+9. <span data-ttu-id="0a7a6-114">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-114">Click New.</span></span>
+10. <span data-ttu-id="0a7a6-115">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-115">In the Effective date field, enter a date.</span></span>
+11. <span data-ttu-id="0a7a6-116">Voer in het veld Kostprijs een getal in.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-116">In the Cost price field, enter a number.</span></span>
+12. <span data-ttu-id="0a7a6-117">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-117">Click Save.</span></span>
+13. <span data-ttu-id="0a7a6-118">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-118">Close the page.</span></span>
+14. <span data-ttu-id="0a7a6-119">Klik op Verkoopprijzen.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-119">Click Sales prices.</span></span>
+15. <span data-ttu-id="0a7a6-120">Klik op Verkoopprijs - uur.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-120">Click Sales price - hour.</span></span>
+16. <span data-ttu-id="0a7a6-121">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-121">Click New.</span></span>
+17. <span data-ttu-id="0a7a6-122">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-122">In the Effective date field, enter a date.</span></span>
+18. <span data-ttu-id="0a7a6-123">Voer in het veld Prijscalculatie een getal in.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-123">In the Pricing field, enter a number.</span></span>
+19. <span data-ttu-id="0a7a6-124">Selecteer een optie in het veld Geldig voor.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-124">In the Valid for field, select an option.</span></span>
+20. <span data-ttu-id="0a7a6-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-125">Click Save.</span></span>
+21. <span data-ttu-id="0a7a6-126">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="0a7a6-126">Close the page.</span></span>
 
