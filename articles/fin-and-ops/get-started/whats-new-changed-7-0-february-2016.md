@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334882"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561804"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
 
@@ -119,7 +119,7 @@ Deze functie werkt onafhankelijk van kostprijsberekeningmethodes die aan het gep
 | Compileer Common Intermediate Language (CIL) voor alle functies. | X++ is gecompileerd naar p-code. | De gloednieuwe X++-compiler genereert CIL voor alle functies. CIL is dezelfde IL (intermediate language) die door andere op .NET-gebaseerde talen wordt gebruikt. | CIL is sneller, kan efficiënt verwijzen naar klassen in beheerde Dynamic Link Libraries (DLL's) en kan worden uitgevoerd op een uitgebreide reeks van .NET-hulpprogramma's. |
 | Rapporten en visualisaties voor business intelligence (BI) integreren in de Microsoft Dynamics AX-client. | Niet beschikbaar | Zeer intuïtieve en vloeiende visualisaties maken. | Het biedt inzicht voor besluitvorming dat is gebaseerd op BI. |
 | Integreren met Microsoft Office. | Niet beschikbaar | Nieuwe mogelijkheden zijn onder meer de app Excel-gegevensconnector,, de pagina **Werkmapontwerper**, export-API en Documentbeheer. | U kunt productiviteitsoplossingen voor uw eindgebruikers maken. |
-| Automatiseer het bouwen, testen en implementeren. | Gedeeltelijk beschikbaar | De ontwikkelaartopologie uitrollen met de Developer-VM en de Build-VM. Configureer de Build-VM automatisch om te detecteren, bouw modules op vanuit Visual Studio Online (VSO) en voer tests uit. Compilatie en verwijzingen van C\# en X++-modules wordt ondersteund. | Dit vergroot de productiviteit van ontwikkelaars door kosten en arbeid voor testen en validering te reduceren. |
+| Automatiseer het bouwen, testen en implementeren. | Gedeeltelijk beschikbaar | De ontwikkelaartopologie uitrollen met de Developer-VM en de Build-VM. Configureer automatisch de Build-VM voor detectie, bouw modules vanuit Visual Studio Online (VSO) en voer tests uit. Compilatie en verwijzingen van C\# en X++-modules wordt ondersteund. | Dit vergroot de productiviteit van ontwikkelaars door kosten en arbeid voor testen en validering te reduceren. |
 | Aanpassen met overlayering en extensies. | Extensies zijn niet beschikbaar. | De huidige versie van Dynamics AX heeft een nieuw aanpassingsmodel. | U kunt van broncode en metagegevens van modelelementen aanpassen, die Microsoft of externe partners van Microsoft leveren. |
 | Stel nieuwe besturingselementen en UI-elementen samen met X++ en een modern webframework. | Aaangepaste besturingselementen zijn afhankelijk van externe frameworks, zoals Microsoft ActiveX en Windows Presentation Foundation (WPF). | Het is eenvoudiger om besturingselementen in de huidige versie te maken. Het X++-framework kan voor toepassingsgedrag en bedrijfslogica worden gebruikt, en een client op basis van HTML/JavaScript maakt moderne visualisaties mogelijk. | Uw besturingselementen kunnen zijn ontworpen met hetzelfde uiterlijk en gedrag als de kant-en-klare besturingselementen van Dynamics AX. |
 | Beoordeel en stem prestaties af met nieuwe functies. | PerfSDK, Data Expansion Toolkit, de webapp Trace Parser en PerfTimer zijn niet beschikbaar. | PerfSDK, Data Expansion Toolkit, de webapp Trace Parser en PerfTimer zijn nieuw. | Met de software-ontwikkelingkit (SDK) kunt u alle kritieke bedrijfsprocessen voor prestaties testen en valideren in een testuitvoeringen met één of (indien van toepassing) meerdere gebruikers. Met de Data Expansion Toolkit kunt u alle prestatietests correct uitvouwen, waarvoor hoofdgegevens en transactiegegevens correct moeten zijn uitgevouwen. De Trace Parser kunt u een prestatietest met een enkele gebruiker of uitvoeringen met meerdere gebruikers valideren. Met PerfTimer kunt u zien of bepaalde vragen of methodeaanroepen leiden tot prestatieproblemen. Daarom hoeft u geen trace uit te voeren en deze tot in detail analyseren. |
@@ -670,7 +670,7 @@ De werkruimte <strong>Catalogusbeheer</strong> maakt de volgende functionaliteit
 <td>Gegevensentiteiten stellen klanten in staat gegevens te importeren en te exporteren op basis van metagegevens. OData-entiteiten laten klanten ook met Dynamics AX integreren met software van derden.</td>
 </tr>
 <tr>
-<td>Intelligente analyse uitvoeren door gebruik van BI-rapporten van Microsoft Dynamics AX en de POS-client.</td>
+<td>Intelligente analyse uitvoeren door gebruik van BI-rapporten van Dynamics Microsoft AX en de POS-client.</td>
 <td>Meer dan 25 backofficerapporten en vijf kanaalrapporten zijn beschikbaar.</td>
 <td>Meer dan 30 backofficerapporten en tien kanaalrapporten zijn beschikbaar.</td>
 <td>Met deze rapporten kunnen klanten beschikken over meer BI om trends te voorspellen, inzichten te genereren en continu met maximale prestaties te werken.</td>

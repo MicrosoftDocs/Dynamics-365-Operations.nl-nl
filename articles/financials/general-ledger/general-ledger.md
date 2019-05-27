@@ -19,11 +19,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0b6683107f4b2dbe36af78749612ce950ea19582
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403232"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569285"
 ---
 # <a name="general-ledger"></a>Grootboek 
 
@@ -59,7 +59,7 @@ Ga naar [Microsoft Dynamics 365-releaseopmerkingen](https://go.microsoft.com/fwl
 
 #### <a name="blogs"></a>Weblogs
 
-U kunt meningen, nieuws en andere informatie op het [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en het [blog Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials) vinden.
+U kunt adviezen, nieuws en andere informatie over de [blog over Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [blog over Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
 

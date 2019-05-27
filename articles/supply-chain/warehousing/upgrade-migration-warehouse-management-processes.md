@@ -19,18 +19,18 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "324463"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554041"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Een upgrade van magazijnbeheer uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van het proces voor het upgraden van Microsoft DynamicsAX 2012 R3, waarvoor de module WMSII wordt uitgevoerd, naar Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp bevat een overzicht van het proces voor het upgraden van Microsoft Dynamics AX 2012 R3, waarvoor de module WMSII wordt uitgevoerd, naar Microsoft Dynamics 365 for Finance and Operations.
 
 Finance and Operations ondersteunt de verouderde module **WMSII** van Microsoft Dynamics AX 2012 niet meer. In plaats daarvan kunt u de module **Magazijnbeheer** gebruiken. In de WMSII-module kunnen de voorraaddimensies Locatie en Pallet-ID worden geselecteerd voor financiële voorraad, maar de voorraaddimensie Pallet-ID kan niet worden gebruikt voor financiële voorraad in Finance and Operations.
 

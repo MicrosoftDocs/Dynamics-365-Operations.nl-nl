@@ -19,11 +19,11 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "358894"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1572345"
 ---
 # <a name="work-breakdown-structures"></a>Structuren voor werkspecificatie
 
@@ -39,7 +39,7 @@ De mate van detail in een WBS is afhankelijk van het niveau van nauwkeurigheid d
 
 Daarentegen zijn de projecten in bedrijfstakken zoals media en reclame, software en IT-infrastructuur van één type , en de productiviteit is gekoppeld aan de ervaring en competentie van de persoon die de taak uitvoert. Deze bedrijfstakken gebruiken daarom een WBS om een schatting te krijgen van de grootte van een project, en niet om in detail de voortgang van het project bij te houden. 
 
-Het samenstellen van een WBS is een intensief proces dat doorgaans over een lange periode wordt uitgevoerd, en dat samenwerking en informatie van een grote verscheidenheid aan mensen vereist. Dit onderwerp beschrijft hoe u WBS-verbeteringen in Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om aan uw vereisten te voldoen voor ramingen en tracering.
+Het samenstellen van een WBS is een intensief proces dat doorgaans over een lange periode wordt uitgevoerd, en dat samenwerking en informatie van een grote verscheidenheid aan mensen vereist. Dit onderwerp beschrijft hoe u WBS-verbeteringen in Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om aan uw vereisten te voldoen voor ramingen en tracering.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Vereisten voor het maken van een WBS
 Om een WBS te maken moet u een werkplanning kunnen maken en de kosten van het werk schatten.
@@ -105,7 +105,7 @@ Momenteel kunt u de WBS-nummering niet aanpassen.
 Planningsraming is meestal de tweede stap bij het maken van een WBS. U kunt het best de planningsraming uitvoeren nadat u de taken hebt gemaakt. De pagina **Structuur voor werkspecificatie** in Finance and Operations heeft twee gedeelten. Het bovenste deelvenster is bedoeld voor planningsraming, en het onderste deelvenster bevat een tabblad **Geraamde kosten en inkomsten** dat u kunt gebruiken voor kostenraming. 
 **Taakafhankelijkheden** In een WBS kunt u een voorafgaande relatie maken tussen taken. Wanneer u voorafgaande taken aan een taak toewijst, kan die taak pas starten nadat alle voorafgaande taken zijn voltooid. De geplande begindatum van de taak wordt automatisch ingesteld op de laatste datum van alle voorafgaande taken. 
 
-**Taakplanning Microsoft Dynamics 365 for Finance and Operations** De volgende factoren bepalen het plannen van bladknooppunttaken:
+**Taakplanning Microsoft Dynamics 365 for Finance and Operations** De volgende factoren bepalen het plannen van bladknooppunttaken:
 
 -   Voorgangers
 -   Inzet
