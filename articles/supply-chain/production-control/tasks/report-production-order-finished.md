@@ -18,37 +18,37 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 97e67ff51e4bc4533aeb2485c34cd5ec8a882bb6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320484"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558429"
 ---
-# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="01b25-103">Een productieorder gereedmelden</span><span class="sxs-lookup"><span data-stu-id="01b25-103">Report a production order as finished</span></span>
+# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="f0430-103">Een productieorder gereedmelden</span><span class="sxs-lookup"><span data-stu-id="f0430-103">Report a production order as finished</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="01b25-104">Deze procedure toont aan hoe u een productieorder gereedmeldt.</span><span class="sxs-lookup"><span data-stu-id="01b25-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="01b25-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="01b25-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="01b25-106">Dit is de zesde procedure van zeven die de productieorderlevenscyclus beschrijven.</span><span class="sxs-lookup"><span data-stu-id="01b25-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="f0430-104">Deze procedure toont aan hoe u een productieorder gereedmeldt.</span><span class="sxs-lookup"><span data-stu-id="f0430-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="f0430-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="f0430-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f0430-106">Dit is de zesde procedure van zeven die de productieorderlevenscyclus beschrijven.</span><span class="sxs-lookup"><span data-stu-id="f0430-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="01b25-107">Een productieorder gereedmelden</span><span class="sxs-lookup"><span data-stu-id="01b25-107">Report a production order as finished</span></span>
-1. <span data-ttu-id="01b25-108">Ga naar Productiebeheer > Productieorders > Alle productieorders.</span><span class="sxs-lookup"><span data-stu-id="01b25-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="01b25-109">Selecteer een productieorder met de status Gestart.</span><span class="sxs-lookup"><span data-stu-id="01b25-109">Select a production order that has the Started status.</span></span>  
-2. <span data-ttu-id="01b25-110">Klik in het actievenster op Productieorder.</span><span class="sxs-lookup"><span data-stu-id="01b25-110">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="01b25-111">Klik op Gereedmelden.</span><span class="sxs-lookup"><span data-stu-id="01b25-111">Click Report as finished.</span></span>
-    * <span data-ttu-id="01b25-112">Op deze pagina kunt u de hoeveelheid bevestigen van het eindproduct die moet worden gereedgemeld.</span><span class="sxs-lookup"><span data-stu-id="01b25-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
-4. <span data-ttu-id="01b25-113">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="01b25-113">Click the General tab.</span></span>
-5. <span data-ttu-id="01b25-114">Stel Goede hoeveelheid in op '18'.</span><span class="sxs-lookup"><span data-stu-id="01b25-114">Set Good quantity to '18'.</span></span>
-6. <span data-ttu-id="01b25-115">Stel Slechte hoeveelheid in op '2'.</span><span class="sxs-lookup"><span data-stu-id="01b25-115">Set Error quantity to '2'.</span></span>
-7. <span data-ttu-id="01b25-116">Selecteer 'Materiaal' in het veld Foutoorzaak.</span><span class="sxs-lookup"><span data-stu-id="01b25-116">In the Error cause field, select 'Material'.</span></span>
-8. <span data-ttu-id="01b25-117">Schakel selectievakje Taak beëindigen in of uit.</span><span class="sxs-lookup"><span data-stu-id="01b25-117">Select or clear the End job check box.</span></span>
-9. <span data-ttu-id="01b25-118">Schakel het selectievakje Fout accepteren in of uit.</span><span class="sxs-lookup"><span data-stu-id="01b25-118">Select or clear the Accept error check box.</span></span>
-10. <span data-ttu-id="01b25-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="01b25-119">Click OK.</span></span>
+## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="f0430-107">Een productieorder gereedmelden</span><span class="sxs-lookup"><span data-stu-id="f0430-107">Report a production order as finished</span></span>
+1. <span data-ttu-id="f0430-108">Ga naar Productiebeheer > Productieorders > Alle productieorders.</span><span class="sxs-lookup"><span data-stu-id="f0430-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="f0430-109">Selecteer een productieorder met de status Gestart.</span><span class="sxs-lookup"><span data-stu-id="f0430-109">Select a production order that has the Started status.</span></span>  
+2. <span data-ttu-id="f0430-110">Klik in het actievenster op Productieorder.</span><span class="sxs-lookup"><span data-stu-id="f0430-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="f0430-111">Klik op Gereedmelden.</span><span class="sxs-lookup"><span data-stu-id="f0430-111">Click Report as finished.</span></span>
+    * <span data-ttu-id="f0430-112">Op deze pagina kunt u de hoeveelheid bevestigen van het eindproduct die moet worden gereedgemeld.</span><span class="sxs-lookup"><span data-stu-id="f0430-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
+4. <span data-ttu-id="f0430-113">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="f0430-113">Click the General tab.</span></span>
+5. <span data-ttu-id="f0430-114">Stel Goede hoeveelheid in op '18'.</span><span class="sxs-lookup"><span data-stu-id="f0430-114">Set Good quantity to '18'.</span></span>
+6. <span data-ttu-id="f0430-115">Stel Slechte hoeveelheid in op '2'.</span><span class="sxs-lookup"><span data-stu-id="f0430-115">Set Error quantity to '2'.</span></span>
+7. <span data-ttu-id="f0430-116">Selecteer 'Materiaal' in het veld Foutoorzaak.</span><span class="sxs-lookup"><span data-stu-id="f0430-116">In the Error cause field, select 'Material'.</span></span>
+8. <span data-ttu-id="f0430-117">Schakel selectievakje Taak beëindigen in of uit.</span><span class="sxs-lookup"><span data-stu-id="f0430-117">Select or clear the End job check box.</span></span>
+9. <span data-ttu-id="f0430-118">Schakel het selectievakje Fout accepteren in of uit.</span><span class="sxs-lookup"><span data-stu-id="f0430-118">Select or clear the Accept error check box.</span></span>
+10. <span data-ttu-id="f0430-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f0430-119">Click OK.</span></span>
 
-## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="01b25-120">Het gereedmeldingsjournaal verifiëren</span><span class="sxs-lookup"><span data-stu-id="01b25-120">Verify the Report as finished journal</span></span>
-1. <span data-ttu-id="01b25-121">Klik in het actievenster op Weergeven.</span><span class="sxs-lookup"><span data-stu-id="01b25-121">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="01b25-122">Klik op Gereedgemeld.</span><span class="sxs-lookup"><span data-stu-id="01b25-122">Click Reported as finished.</span></span>
-3. <span data-ttu-id="01b25-123">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="01b25-123">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="01b25-124">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="01b25-124">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="01b25-125">Het gereedmeldingsjournaal is geboekt.</span><span class="sxs-lookup"><span data-stu-id="01b25-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="01b25-126">Als u aan het journaal correcties wilt aanbrengen, kunt u handmatig een nieuw journaal maken waarin u wijzigingen kunt aanbrengen.</span><span class="sxs-lookup"><span data-stu-id="01b25-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
+## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="f0430-120">Het gereedmeldingsjournaal verifiëren</span><span class="sxs-lookup"><span data-stu-id="f0430-120">Verify the Report as finished journal</span></span>
+1. <span data-ttu-id="f0430-121">Klik in het actievenster op Weergeven.</span><span class="sxs-lookup"><span data-stu-id="f0430-121">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="f0430-122">Klik op Gereedgemeld.</span><span class="sxs-lookup"><span data-stu-id="f0430-122">Click Reported as finished.</span></span>
+3. <span data-ttu-id="f0430-123">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f0430-123">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="f0430-124">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f0430-124">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="f0430-125">Het gereedmeldingsjournaal is geboekt.</span><span class="sxs-lookup"><span data-stu-id="f0430-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="f0430-126">Als u aan het journaal correcties wilt aanbrengen, kunt u handmatig een nieuw journaal maken waarin u wijzigingen kunt aanbrengen.</span><span class="sxs-lookup"><span data-stu-id="f0430-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
 
