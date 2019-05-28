@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341345"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561852"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)
 
@@ -35,7 +35,7 @@ In dit artikel worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zij
 De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld om te worden gebruikt voor de Help bij Microsoft Dynamics AX versie mei 2016 en de Microsoft Dynamics AX release van februari 2016. Gelokaliseerde versies van de taakbegeleidingen die zijn uitgebracht in de APQC Unified Library (februari 2016) zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
 
 > [!NOTE]
-> Een sterretje (\*) naast de titel van een BPM-regel (Business Process Modeler) geeft aan dat de taakbegeleiding voor dat bedrijfsproces is gemaakt voor de update van Microsoft Dynamics AX van mei 2016 en niet wordt ondersteund in eerdere versies van Microsoft Dynamics AX.
+> Een sterretje (\*) naast de titel van een BPM-regel (Business Process Modeler) geeft aan dat de taakbegeleiding voor dat bedrijfsproces is gemaakt voor de update van Dynamicxs AX van mei 2016 en niet wordt ondersteund in eerdere versies van Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Functionaliteit land/regio
 

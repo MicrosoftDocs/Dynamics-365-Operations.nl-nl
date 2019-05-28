@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: Microsoft Dynamics 365 for Finance and Operations-documentatie
 description: Documentatie voor Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 04/11/2019
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507584"
 ---
-
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations-documentatie
 
 [!include [banner](includes/banner.md)]
@@ -52,14 +56,19 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Microso
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Lifecycle-beleid voor software: cloud</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Lifecycle-beleid voor software: on-premises</a></p>
 <p><a href="get-started/public-preview-releases.md">Standaard- en First Release-serviceupdates</a></p>
-<p><a href="get-started/whats-new-changed.md">Wat is nieuw of gewijzigd</a></p>
+<p><a href="get-started/whats-new-changed.md">Nieuwe of gewijzigde functies</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Upgrades, updates en hotfixes</a></p>
 <p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Updates toepassen op cloudomgevingen</a></p>
 <p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Serviceupdates configureren</a></p>
 <p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Serviceupdates onderbreken</a></p>
-<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Bericht ontvangen over serviceupdates</a></p>
+<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Bericht ontvangen over service-updates</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Automatisering van gegevenstaak</a></p>
 <p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
+
+<h3><a href="../dev-itpro/data-entities/integration-overview.md">Integraties</a></h3>
+<p><a href="../dev-itpro/business-events/home-page.md">Zakelijke gebeurtenissen</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Gegevensentiteiten</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integratie met Microsoft Flow</a></p>
 
 <h3><a href="../financials/index.md">Financieel beheer</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Leveranciers</a></p>
@@ -105,10 +114,6 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Microso
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Ontwikkeling</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Uitbreidbaarheid</a></p>
-
-<p><a href="../dev-itpro/data-entities/integration-overview.md">Gegevensintegratie</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Gegevensbeheer</a></p>
-
 <p><a href="../dev-itpro/office-integration/office-integration.md">Office-integratie</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Continue levering</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobiel platform</a></p>
@@ -117,9 +122,8 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Microso
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administratie</h3>
 <p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Cloudimplementatie</a></p>
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">On-premises implementatie</a></p>
-<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Upgraden</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Bijwerken</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Service</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Data Management Framework</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">Organisatiebeheer</a></p>
 </td>

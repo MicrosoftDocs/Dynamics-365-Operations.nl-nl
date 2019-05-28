@@ -20,11 +20,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308777"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568040"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Randapparaten aansluiten op het verkooppunt (POS)
 
@@ -49,11 +49,11 @@ De POS-kassa is een entiteit waarmee de kenmerken worden gedefinieerd voor een s
 
 Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Apparaten**.
 
-Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa. Bij het maken van een apparaat, wordt het toegewezen aan een POS-kassa. De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat. Devices can be of two types: **Retail Modern POS** (MPOS) of **Retail Cloud POS** (Cloud POS).
+Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa. Bij het maken van een apparaat, wordt het toegewezen aan een POS-kassa. De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat. Apparaten kunnen twee typen hebben: **Retail modern POS** (MPOS) of **Retail Cloud POS** (Cloud POS).
 
 #### <a name="mpos"></a>MPOS
 
-MPOS is een POS-clienttoepassing die is geïnstalleerd op Windows 8.1 of een later pc-besturingssysteem. Als het toepassingstype **Retail Modern POS** wordt toegewezen aan een apparaat, kan het downloadpakket voor een bepaald apparaat worden opgegeven. Het downloadpakket kan worden aangepast zodat het verschillende versies van het installatiepakket bevat. De mogelijkheid om verschillende pakketten te implementeren biedt flexibiliteit in gevallen waarin andere POS-kassa's mogelijk andere integraties vereisen. MPOS wordt geïmplementeerd samen met een ingebouwd hardwarestation.
+MPOS is een POS-clienttoepassing die is geïnstalleerd op Windows 8.1 of een later pc-besturingssysteem. Als het toepassingstype **Retail modern POS** wordt toegewezen aan een apparaat, kan het downloadpakket voor een bepaald apparaat worden opgegeven. Het downloadpakket kan worden aangepast zodat het verschillende versies van het installatiepakket bevat. De mogelijkheid om verschillende pakketten te implementeren biedt flexibiliteit in gevallen waarin andere POS-kassa's mogelijk andere integraties vereisen. MPOS wordt geïmplementeerd samen met een ingebouwd hardwarestation.
 
 #### <a name="cloud-pos"></a>Cloud POS
 

@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dff811723e25952b4c5af20262010ff4b910be7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361125"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1553994"
 ---
 # <a name="transportation-management-engines"></a>Transportbeheer engines
 
@@ -68,7 +68,7 @@ In de meeste gevallen kunt u op de knop **Parameters** in de instellingsformulie
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Hoe de metagegevens worden gebruikt in de transportbeheer engines?
 ----------------------------------------------------------
 
-Transportbeheerengines die afhankelijk zijn van gegevens die in Dynamics 365 for Finance and Operations zijn gedefinieerd, kunnen verschillende gegevensschema's gebruiken. Het transportbeheersysteem laat toe dat verschillende transportbeheer engines hetzelfde algemene fysieke databasetabellen te gebruiken. Om ervoor te zorgen dat uitvoeringstijd interpretatie van enginegegevens correct is, kunt u voor metagegevens de database-tabellen definiëren. Dit vermindert de kosten om de nieuwe transportbeheerengines te maken omdat geen extra tabel- en formulierstructuren zijn vereist in Dynamics 365 for Operations.
+Transportbeheerengines die afhankelijk zijn van gegevens die in Dynamics 365 for Finance and Operations zijn gedefinieerd, kunnen verschillende gegevensschema's gebruiken. Het transportbeheersysteem laat toe dat verschillende transportbeheer engines hetzelfde algemene fysieke databasetabellen te gebruiken. Om ervoor te zorgen dat uitvoeringstijd interpretatie van enginegegevens correct is, kunt u voor metagegevens de database-tabellen definiëren. Dit vermindert de kosten om de nieuwe transportbeheerengines te maken omdat geen extra tabel- en formulierstructuren zijn vereist in Operations.
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>Wat kan als zoekgegevens in tariefberekeningen worden gebruikt?
 De gegevens die u gebruikt wanneer u tarieven in Microsoft Dynamics 365 for Finance and Operations berekent, worden bepaald door de metagegevensconfiguratie. Bijvoorbeeld, als u voor tarieven gebaseerd op postcodes wilt zoeken, moet u metagegevens instellen gebaseerd op oekopdrachttypee van een postcode.

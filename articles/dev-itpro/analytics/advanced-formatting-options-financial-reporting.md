@@ -1,16 +1,16 @@
 ---
 title: Geavanceerde opmaakopties in financiële rapportage
 description: Wanneer u een rapport in financiële rapportage maakt, zijn aanvullende opmaakfuncties beschikbaar, zoals filters voor dimensies, beperkingen voor kolommen en rapporteringseenheden, niet-afdrukbare rijen en IF/THEN/ELSE-instructies in berekeningen.
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335572"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502560"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Geavanceerde opmaakopties in financiële rapportage
 
@@ -41,6 +41,7 @@ In de volgende tabel worden de geavanceerde opmaakfuncties uitgelegd die beschik
 | Kolombeperking         | De kolombeperking in de rijdefinitie is handig om waarden te verbergen die alleen op sommige rijen van het rapport relevant zijn. Wanneer de percentageberekeningen op een rij zijn uitgevoerd, voorkomt de kolombeperking dat totaalkolommen of andere kolommen worden afgedrukt wanneer die cijfers niet van toepassing zijn. |
 | Kolomeinde               | U kunt kolomeinden toevoegen aan een rijdefinitie om rapportinformatie naast elkaar weer te geven. U kunt meerdere kolomeinden in één rijdefinitie toevoegen. De kolomkoppen worden dan herhaald boven aan elke kolom na het kolomeinde. Opmerkingen voor een rapport worden tussen de kolomeinden weergegeven. |
 | IF/THEN/ELSE-constructies     | U kunt berekeningen in een rijdefinitie of kolomdefinitie wijzigen. |
+| Enkele aanhalingstekens (' ') en een ampersand (&) gebruiken voor dimensiewaarden | U kunt dimensiewaarden gebruiken, inclusief het &-teken voor het ontwerpen van een rapport. |
 
 ## <a name="advanced-cell-placement"></a>Geavanceerde celplaatsing
 Geavanceerde celplaatsing, of *forcering* is het plaatsen van specifieke waarden in specifieke cellen. Forcering wordt bijvoorbeeld vaak gebruikt om het juiste saldo in een cashflowoverzicht te plaatsen. U kunt forcering voor de volgende doeleinden gebruiken:
@@ -249,7 +250,7 @@ Als u een cijfer of berekening in een kolom van een bepaalde rij wijzigt, zonder
 
 ### <a name="ifthenelse-statements-in-a-row-definition"></a>IF/THEN/ELSE-constructies in een rijdefinitie
 
-**IF/THEN/ELSE**-constructies kunnen aan elke geldige berekening worden toegevoegd en met de **CAL**-opmaak worden gebruikt. U voert **IF/THEN/ELSE**-berekeningsformules in de cel in de kolom **Gerelateerde formules/rijen/eenheden** in. **IF/THEN/ELSE**-berekeningsformules gebruiken de volgende opmaak: IF &lt;true/false statement&gt; THEN &lt;formula&gt; ELSE &lt;formula&gt;. Het gedeelte **&lt;formula&gt;** van de constructie is optioneel.
+**IF/THEN/ELSE**-constructies kunnen aan elke geldige berekening worden toegevoegd en met de **CAL**-opmaak worden gebruikt. U voert **IF/THEN/ELSE**-berekeningsformules in de cel in de kolom **Gerelateerde formules/rijen/eenheden** in. **IF/THEN/ELSE**-berekeningsformules gebruiken de volgende opmaak: IF &lt;true/false statement&gt; THEN &lt;formula&gt; ELSE &lt;formula&gt;. Het gedeelte **ELSE &lt;formula&gt;** van de constructie is optioneel.
 
 #### <a name="if-statements"></a>IF-constructies
 
@@ -297,3 +298,9 @@ Een **IF/THEN/ELSE**-constructie zorgt ervoor dat elke berekening kan afhangen v
 
 > [!NOTE]
 > U kunt de resultaten van een berekening niet in een andere kolom plaatsen. De resultaten moeten in de kolom zijn die de formule bevat.
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Enkele aanhalingstekens en een ampersand gebruiken voor dimensiewaarden in een rij, kolom of structuur
+
+U kunt rapporten ontwerpen met behulp van dimensiewaarden die een ampersand (&) bevatten. 
+
+In een veld **Koppeling naar financiële dimensies** kunt u een waarde invoeren zoals **'W&V'**. Het opnemen van enkele aanhalingstekens (' ') aan beide zijden van de dimensiewaarde geeft aan dat u de letterlijke waarde gebruikt, zoals bijvoorbeeld het ampersand-teken (&). 

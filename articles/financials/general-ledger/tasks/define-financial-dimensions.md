@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353788"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530863"
 ---
 # <a name="define-financial-dimensions"></a>Financiële dimensies definiëren
 
@@ -33,7 +33,7 @@ Deze taakhandleiding toont het toevoegen van een door een entiteit ondersteunde 
 ## <a name="create-an-entity-backed-financial-dimension"></a>Een door een entiteit ondersteunde financiële dimensie maken
 1. Ga naar Grootboek > Rekeningschema > Dimenies > Financiële dimensies.
 2. Klik op Nieuw.
-3. Selecteer in het veld Gebruikerswaarden van een door het systeem gedefinieerde entiteit waarop de financiële dimensie moet worden gebaseerd. 
+3. Selecteer in het formulierveld Gebruikerswaarden een door het systeem gedefinieerde entiteit waarop de financiële dimensie moet worden gebaseerd. 
 4. Typ in het veld Dimensienaam een waarde om de financiële dimensie te beschrijven.
     * De naam kan anders zijn dan de door het systeem gedefinieerde entiteit maar kan geen spaties of speciale tekens bevatten.  
 5. Klik op Activeren.
@@ -47,7 +47,7 @@ Deze taakhandleiding toont het toevoegen van een door een entiteit ondersteunde 
 ## <a name="create-a-custom-financial-dimension"></a>Een aangepaste financiële dimensie maken
 1. Sluit de pagina.
 2. Klik op Nieuw.
-3. Selecteer <Custom dimension> in het veld Waarden gebruiken van.
+3. Selecteer Aangepaste dimensie in het veld Waarden gebruiken van.
 4. Typ in het veld Dimensienaam een waarde om de financiële dimensie te beschrijven.
     * De naam mag geen spaties of speciale tekens bevatten.  
     * U kunt ook een opmaakmasker opgeven om de hoeveelheid en het type gegevens te beperken die u voor dimensiewaarden kunt invoeren.   

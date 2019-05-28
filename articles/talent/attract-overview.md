@@ -3,7 +3,7 @@ title: Functies en voorzieningen van Attract
 description: Dit onderwerp beschrijft de functies die Attract biedt voor het beheer van het aanstellingsproces.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d80e4d6359e51841e28ab5ef96e281838831db92
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: 6b76913ea5a3e9a2e935d8b0cfde88dd721cb5db
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859731"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517745"
 ---
 # <a name="attract-features-and-capabilities"></a>Functies en voorzieningen van Attract
 
@@ -46,3 +46,6 @@ Attract biedt een vooraf gedefinieerd aanstellingsproces dat vier algemene fasen
 
 ## <a name="candidate-app"></a>Kandidaatapp
 Kandidaten ontvangen zodra ze zijn toegevoegd aan een functie een e-mail met een koppeling om de webapp te downloaden. De app biedt kandidaten meer informatie en wordt gebruikt om te communiceren met het aanstellend team. Kandidaten kunnen deze ook gebruiken om hun beschikbaarheid voor gesprekken aan te geven.
+
+## <a name="analytic-reports"></a>Analytische rapporten
+Wervingsteams kunnen de metrische gegevens van het wervingsproces gebruiken voor een enkele taak of samengevoegd voor alle taken via [analytische rapporten in Attract](analytic-reports.md). Deze functie is momenteel in [preview](access-preview-feature.md) voor klanten met de [Uitgebreide invoegtoepassing voor aanstellingen](attract-comprehensive-hiring.md).

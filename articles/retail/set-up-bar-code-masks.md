@@ -20,11 +20,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340609"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555485"
 ---
 # <a name="set-up-bar-code-masks"></a>Streepjescodemaskers instellen
 
@@ -78,7 +78,7 @@ Streepjescodemaskers moeten worden toegewezen aan streepjescodes voordat ze kunn
 
 1. Ga naar **Organisatiebeheer** &gt; **Instellen** &gt; **Streepjescodes**. Klik op **Nieuw** om een nieuwe streepjescode te maken.
 2. Voer waarden in de velden **Instelling** **van streepjescodes** en **Instellen** in.
-3. Selecteer in de sectie **Algemeen** in het veld **Type streepjescode** de waarde 'Code 39'. Selecteer in het veld **Masker-id** het masker 'Product' dat u eerder hebt gemaakt.
+3. Selecteer in de sectie **Algemeen** in het veld **Type streepjescode** de waarde 'Code 39'. Selecteer in het veld **Masker**-**id** het masker 'Product' dat u eerder hebt gemaakt.
 4. Voer onder **Grootte** de waarde '12' in.
 5. Klik op **Opslaan**.
 

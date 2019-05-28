@@ -17,11 +17,11 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "325176"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547227"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI-inhoud - Crediterings- en aanmaningsbeheer
 
@@ -31,7 +31,7 @@ In dit onderwerp wordt beschreven wat er is opgenomen in de Microsoft Power BI-i
 
 ## <a name="overview"></a>Overzicht
 
-De Power BI-inhoud **Crediterings- en aanmaningsbeheer** is gemaakt voor crediterings- en incassomanagers en incassomedewerkers. Deze Power BI-inhoud bevat belangrijke metrische gegevens over crediteringen en aanmaningen, zoals aantal dagen voor uitstaande verkopen, achterstallig saldo, kredietrisico en klanten die hun kredietlimiet hebben overschreden. Deze Power BI-inhoud gebruikt transactiegegevens en biedt samengevoegde weergaven van creditering en aanmaningen voor alle bedrijven. Ook wordt een onderverdeling per bedrijf, klantengroep en klant verschaft.
+De Power BI-inhoud **Crediterings- en aanmaningsbeheer** is gemaakt voor crediterings- en incassomanagers en incassomedewerkers. Deze inhoud bevat belangrijke metrische gegevens over crediteringen en aanmaningen, zoals aantal dagen voor uitstaande verkopen, achterstallig saldo, kredietrisico en klanten die hun kredietlimiet hebben overschreden. Deze inhoud gebruikt transactiegegevens en biedt samengevoegde weergaven van creditering en aanmaningen voor alle bedrijven. Ook wordt een onderverdeling per bedrijf, klantengroep en klant verschaft.
 
 Deze Power BI-inhoud bestaat uit 10 rapportpagina's:
 

@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b77e9289bd360631ea646951809705d58c9e189
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0c53d48324273c64fe284fb7dd318fcb06542413
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302113"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517042"
 ---
 # <a name="public-sector-home-page"></a>Startpagina Openbare sector
 
@@ -67,7 +67,7 @@ De volgende tabel bevat informatie over de relatie van deze configuratiesleutel 
 | Onderliggende sleutels | De configuratiesleutels **Geavanceerde grootboekpost** (AdvancedLedgerEntry), **Publieke sector 1099G** (Tax1099G), **Publieke sector 1099S** (Tax1099S) en **Franse regelgeving** |
 
 
-<a name="additional-resources"></a>Aanvullende bronnen
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Plannen voor functies voor openbare sector](plan-public-sector-functionality.md)

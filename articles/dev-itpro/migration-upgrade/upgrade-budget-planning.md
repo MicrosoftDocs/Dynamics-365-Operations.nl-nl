@@ -18,11 +18,11 @@ ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342955"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554491"
 ---
 # <a name="upgrade-budget-planning"></a>Budgetplanning bijwerken
 
@@ -54,7 +54,7 @@ Indelingen zijn een nieuw concept ter vervanging van de Excel-sjabloon. Indeling
 
 ### <a name="budget-planning-processes"></a>Budgetplanningsprocessen
 
-Budgetplanningsprocessen zijn meestal hetzelfde als in AX 2012. De belangrijkste wijziging is de vervanging van sjablonen door indelingen. Als eerder processen werden voltooid in AX 2012, worden de processen nu bijgewerkt naar een status In uitvoering, zodat wijzigingen kunnen worden aangebracht. U moet indelingen toewijzen voor elke faseregel om te bepalen welke scenario's en tijdsperioden worden weergegeven wanneer het plan wordt geopend in de client. De indelingen bepalen ook welke Excel-sjabloon wordt geopend buiten Dynamics 365 for Finance and Operations zodat u het budget kunt weergeven. **Standaardrekeningstructuur** is een nieuw verplicht veld voor het budgetplanningsproces. Wijs voor elk budgetplanningsproces de primaire rekeningstructuur toe die moet worden gebruikt voor budgettering.
+Budgetplanningsprocessen zijn meestal hetzelfde als in AX 2012. De belangrijkste wijziging is de vervanging van sjablonen door indelingen. Als eerder processen werden voltooid in AX 2012, worden de processen nu bijgewerkt naar een status In uitvoering, zodat wijzigingen kunnen worden aangebracht. U moet indelingen toewijzen voor elke faseregel om te bepalen welke scenario's en tijdsperioden worden weergegeven wanneer het plan wordt geopend in de client. De indelingen bepalen ook welke Excel-sjabloon wordt geopend buiten Dynamic 365 for Finance and Operations zodat u het budget kunt weergeven. **Standaardrekeningstructuur** is een nieuw verplicht veld voor het budgetplanningsproces. Wijs voor elk budgetplanningsproces de primaire rekeningstructuur toe die moet worden gebruikt voor budgettering.
 
 ### <a name="attachments"></a>Bijlagen
 

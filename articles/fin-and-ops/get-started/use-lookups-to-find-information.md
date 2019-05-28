@@ -18,11 +18,11 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0a0722f057c1613fdc03281ca68a90608a701aef
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "328350"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561732"
 ---
 # <a name="find-information-by-using-lookups"></a>Informatie vinden met zoekopdrachten
 
@@ -77,7 +77,7 @@ De lookup-verbeteringen die in de voorgaande twee secties zijn besproken, maken 
 
 ![legeartikellookup](./media/emptyitemlookup.png)
 
-In plaats daarvan moet de gebruiker de waarde in het lookup-besturingselement wissen, de lookup-vervolgkeuzelijst openen en filteren met behulp van de rasterkolomkop, zoals hieronder weergegeven. Een gebruiker met muis of touchscreen kan elke kolomkop aanklikken of aantikken om de filter- en sorteeropties voor die kolom te openen. Een gebruiker die een toetsenbord gebruikt, moet de toetscombinatie **Alt**+**pijl-omlaag** nog een keer indrukken. De focus wordt nu  naar de vervolgkeuzelijst verplaatst, waarna de gebruiker de juiste kolom kan selecteren. Als hij dan **Ctrl**+**G** indrukt, wordt de vervolgkeuzelijst van de rasterkolomkop geopend.
+In plaats daarvan moet de gebruiker de waarde in het lookup-besturingselement wissen, de lookup-vervolgkeuzelijst openen en filteren met behulp van de rasterkolomkop, zoals hieronder weergegeven. Een gebruiker met muis of touchscreen kan elke kolomkop aanklikken of aantikken om de filter- en sorteeropties voor die kolom te openen. Een gebruiker die een toetsenbord gebruikt, moet de toetscombinatie **Alt**+**pijl-omlaag** nog een keer indrukken. De focus wordt nu naar de vervolgkeuzelijst verplaatst, waarna de gebruiker de juiste kolom kan selecteren. Als hij dan **Ctrl**+**G** indrukt, wordt de vervolgkeuzelijst van de rasterkolomkop geopend.
 
 [![rasterfilterartikellookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 

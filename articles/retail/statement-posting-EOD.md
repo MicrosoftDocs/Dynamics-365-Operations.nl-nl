@@ -3,7 +3,7 @@ title: Verbeteringen van boekingsfunctionaliteit voor overzichten
 description: In dit onderwerp worden verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten.
 author: josaw1
 manager: AnnBe
-ms.date: 04/26/2016
+ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321427"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541286"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Verbeteringen van boekingsfunctionaliteit voor overzichten
 
@@ -43,9 +43,9 @@ Finance and Operations bevat de volgende validaties die zijn gerelateerd aan dez
 - Dezelfde configuratiesleutels moeten worden gebruikt voor alle bewerkingen die worden uitgevoerd voor een bepaald overzicht tijdens de levenscyclus (Maken, Berekenen, Wissen, Boeken, enzovoort). U kunt bijvoorbeeld geen overzicht maken en berekenen terwijl de configuratiesleutel **Detailhandeloverzicht (verouderd)** is ingeschakeld en vervolgens hetzelfde overzicht probeert te boeken terwijl de configuratiesleutel **Detailhandeloverzicht** is ingeschakeld.
 
 > [!NOTE]
-> Wij raden u aan de configuratiesleutel **Detailhandeloverzichten** voor de verbeterde overzichtsboekingsfunctie te gebruiken, tenzij u dwingende redenen hebt om de configuratiesleutel **Detailhandeloverzichten (verouderd)** in plaats daarvan te gebruiken. Microsoft blijft investeren in de nieuwe en verbeterde overzichtsboekingsfunctie en het is belangrijk dat u er zo snel mogelijk naar overschakelt om ervan te kunnen profiteren. De verouderde overzichtsboekingsfunctie wordt in een toekomstige versie afgeschaft.
+> Wij raden u aan de configuratiesleutel **Detailhandeloverzichten** voor de verbeterde overzichtsboekingsfunctie te gebruiken, tenzij u dwingende redenen hebt om de configuratiesleutel **Detailhandeloverzichten (verouderd)** in plaats daarvan te gebruiken. Microsoft blijft investeren in de nieuwe en verbeterde overzichtsboekingsfunctie en het is belangrijk dat u er zo snel mogelijk naar overschakelt om ervan te kunnen profiteren. De verouderde overzichtsboekingsfunctie is vanaf versie 8.0 afgeschaft.
 
-## <a name="setup"></a>Instelling
+## <a name="setup"></a>Instellen
 
 Als onderdeel van de nieuwe overzichtsboekingsfunctie zijn er drie nieuwe parameters geïntroduceerd op het sneltabblad **Overzicht** op het tabblad **Boeken** van de pagina **Parameters detailhandel**:
 
@@ -56,11 +56,15 @@ Als onderdeel van de nieuwe overzichtsboekingsfunctie zijn er drie nieuwe parame
 
 - **Telling uitschakelen vereist**: wanneer deze optie is ingesteld op **Ja**, wordt het boekingsproces voor een overzicht voortgezet, zelfs als het verschil tussen het getelde bedrag en het transactiebedrag op het overzicht buiten de drempelwaarde valt die is gedefinieerd op het sneltabblad **Overzicht** voor detailhandelswinkels.
 
-Bovendien is het veld **Maximumaantal parallelle overzichtsboekingen** geïntroduceerd op het sneltabblad **Batchverwerking**. Dit veld bepaalt het aantal batchtaken dat tegelijk moet worden uitgevoerd. Momenteel moet u de waarde van dit veld handmatig instellen.
+Daarnaast zijn de volgende parameters ingevoerd op het sneltabblad **Batchverwerking** op het tabblad **Boeking** van de pagina **Detailhandelparameters**: 
 
-Daarnaast is het met het nieuwe boekingsproces noodzakelijk om een **geschenkbonproduct** op het sneltabblad **Geschenkbon** van het tabblad **Boeking** van de pagina **Detailhandelparameters** op te geven. Dit geldt zelfs als er geen geschenkbonnen worden gebruikt door de organisatie.
+- **Maximumaantal parallelle overzichtboekingen**: dit veld bepaalt het aantal batchtaken dat wordt gebruikt om meerdere overzichten te boeken. 
+- **Maximale aantal threads voor orderverwerking per overzicht**: veld geeft het maximale aantal threads aan dat wordt gebruikt door de batchtaak voor het boeken van overzichten verkooporders voor een enkel overzicht te maken en te factureren. Het totale aantal threads dat door het boekingsproces voor overzichten wordt gebruikt, wordt berekend op basis van de waarde in deze parameter vermenigvuldigd met de waarde in de parameter **Maximumaantal parallelle overzichtboekingen**. Als u de waarde van deze parameter te hoog instelt, kunnen de prestaties van het boekingsproces voor overzichten negatief worden beïnvloed.
+- **Maximale aantal transactieregels dat is opgenomen in aggregatie**: in dit veld wordt het aantal transactieregels gedefinieerd dat wordt opgenomen in één geaggregeerde transactie voordat een nieuwe wordt gemaakt. Geaggregeerde transacties worden gemaakt op basis van verschillende aggregatiecriteria zoals klant, werkdag of financiële dimensies. Het is belangrijk te weten dat de regels van een enkele detailhandeltransactie niet over verschillende geaggregeerde transacties worden verdeeld. Dit betekent dat het aantal regels in een geaggregeerde transactie iets hoger of lager kan liggen, op basis van factoren zoals het aantal verschillende producten.
+- **Maximumaantal threads om winkeltransacties te valideren**: dit veld definieert het aantal threads dat wordt gebruikt om detailhandeltransacties te valideren. Het valideren van detailhandeltransacties is een vereiste stap die moet plaatsvinden voordat de transacties in de overzichten kunnen worden opgenomen. U moet ook een **geschenkbonproduct** definiëren op het sneltabblad **Geschenkbon** van het tabblad **Boeking** van de pagina **Detailhandelparameters**. Dit moet worden gedefinieerd zelfs als er geen geschenkbonnen worden gebruikt door de organisatie.
 
-Houd er rekening mee dat alle instellingen en parameters die zijn gerelateerd aan overzichtsboekingen en die zijn gedefinieerd in detailhandelwinkels op de pagina **Parameters detailhandel**, van toepassing zijn op de verbeterde functie voor het boeken van overzichten.
+> [!NOTE]
+> Alle instellingen en parameters die zijn gerelateerd aan overzichtsboekingen en die zijn gedefinieerd in detailhandelwinkels op de pagina **Parameters detailhandel** zijn van toepassing op de verbeterde functie voor het boeken van overzichten.
 
 ## <a name="processing"></a>Wordt verwerkt
 

@@ -18,11 +18,11 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: d0b563044843157940f456b07479bbd6006a42f9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347440"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548668"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Analyse van kostprijsboekhouding Power BI-inhoud
 
@@ -34,7 +34,7 @@ In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor
 
 De Power BI-inhoud **Analyse kostprijsboekhouding** is bedoeld voor kostencontrollers of iemand anders die verantwoordelijk is voor het uitvoeren van het kostenbeheer van een organisatie. Het bevat de belangrijkste metrische gegevens, zoals kosten, magnitude en kostentarief op basis van werkelijke kosten, budgetkosten en flexibele budgetkosten. Hierin worden transactiegegevens uit de module **Kostprijsboekhouding** gebruikt en wordt een samengevoegde weergave van kosten verschaft voor de gehele organisatie in één rapportagevaluta. Managers kunnen de gegevens filteren op basis van kostenobjecten om kostenbeheer van hun organisatie-eenheden uit te voeren, zelfs als de organisatie meerdere rechtspersonen heeft.
 
-Omdat de Power BI-inhoud **Analyse kostprijsboekhouding** afwijkingen tussen de werkelijke en gebudgetteerde kosten markeert, kunnen managers worden geïnformeerd over positieve en negatieve trends voor hun operationele eenheden. Managers kunnen inzoomen op de kostenelementhiërarchieën of op afzonderlijke kostenelementen. Op deze manier krijgen managers een gedetailleerd inzicht in de wijze waarop kostenafwijkingen hebben plaatsgevonden, en kunnen vervolgens doeltreffende actie ondernemen.
+Omdat de inhoud **Analyse kostprijsboekhouding** afwijkingen tussen de werkelijke en gebudgetteerde kosten markeert, kunnen managers worden geïnformeerd over positieve en negatieve trends voor hun operationele eenheden. Managers kunnen inzoomen op de kostenelementhiërarchieën of op afzonderlijke kostenelementen. Op deze manier krijgen managers een gedetailleerd inzicht in de wijze waarop kostenafwijkingen hebben plaatsgevonden, en kunnen vervolgens doeltreffende actie ondernemen.
 
 Met de inhoud **Analyse kostprijsboekhouding** kunnen kostenaccountants analyseren hoe kosten de kostenobjecten van de gehele organisatie doorlopen.
 
@@ -47,7 +47,7 @@ U vindt de Power BI-inhoud voor **Analyse kostprijsboekhouding** in de bibliothe
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
-Let erop dat u de Power BI-inhoud **Analyse kostprijsboekhouding** downloadt die geldt voor de versie van Microsoft Dynamics 365 die u gebruikt.
+Let erop dat u de inhoud **Analyse kostprijsboekhouding** downloadt die geldt voor de versie van Microsoft Dynamics 365 die u gebruikt.
 
 > [!NOTE]
 > KB 4011327 is vereist voor deze Power BI-inhoud. Nadat u bent aangemeld bij LCS, hebt u toegang tot de KB op <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.

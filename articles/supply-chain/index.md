@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b46b95a10d257c56fdf20b016fbb598225d1f930
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302131"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517034"
 ---
 # <a name="supply-chain-management-home-page"></a>Startpagina Supply Chain Management
 
@@ -59,7 +59,7 @@ Deze korte video's bieden u meer informatie over de nieuwe functies in Microsoft
 Deze korte video's bieden u meer informatie over de nieuwe functies in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (december 2017).
 
 -  [Integratie van prospect tot contant geld](https://youtu.be/AVV9x5x-XCg) 
--  [Optimization advisor](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [Optimalisatie-advies](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [Magazijnsjabloon gebruiken om configuratie te kopiëren](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Deze korte video's bieden u meer informatie over de nieuwe functies in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017).

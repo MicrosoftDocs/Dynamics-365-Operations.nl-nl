@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bc544211891c19104b2b3cb704b55a074784d608
-ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "902955"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505979"
 ---
 # <a name="electronic-reporting-er"></a>Elektronische rapportage (ER)
 
@@ -41,7 +41,7 @@ ER ondersteunt op dit moment de werkbladindelingen TEXT, Microsoft Word-document
 De ER-engine biedt de volgende mogelijkheden:
 
 - De engine vertegenwoordigt een enkel gedeeld hulpmiddel voor elektronische rapportage in verschillende domeinen en vervangt meer dan 20 verschillende engines waarmee elektronische rapportage van welke aard dan ook voor Microsoft Dynamics 365 for Finance and Operations wordt uitgevoerd.
-- De engine zorgt ervoor dat de indeling van een rapport losstaat van de huidige implementatie van Finance and Operations. Met andere woorden, de indeling is van toepassing op verschillende versies van Dynamics 365 for Finance and Operations.
+- De engine zorgt ervoor dat de indeling van een rapport losstaat van de huidige implementatie van Finance and Operations. Met andere woorden, de indeling is van toepassing op verschillende versies van Finance and Operations.
 - De engine ondersteunt het maken van een aangepaste indeling die is gebaseerd op een oorspronkelijke indeling. Dit omvat ook mogelijkheden voor het automatisch uitvoeren van een upgrade van de aangepaste indeling wanneer er wijzigingen in de oorspronkelijke indeling optreden wegens vereisten voor localisatie of aanpassing.
 - Het wordt het primaire standaardhulpmiddel voor ondersteuning van lokalisatiebehoeften bij elektronische rapportage, zowel voor Microsoft als voor Microsoft-partners;
 - Het ondersteunt de mogelijkheid om indelingen te verspreiden onder partners en klanten via Microsoft Dynamics Lifecycle Services (LCS).
@@ -56,7 +56,7 @@ ER ondersteunt twee typen onderdelen: **Gegevensmodel** en **Indeling**.
 Een gegevensmodelonderdeel is een abstracte representatie van een gegevensstructuur. Hiermee wordt een specifiek bedrijfsdomeingebied beschreven met voldoende detail om te voldoen aan de rapportagevereisten voor dat domein. Een gegevensmodelonderdeel bestaat uit de volgende elementen:
 
 - Een gegevensmodel, als een set domeinspecifieke bedrijfsentiteiten en een hiërarchisch gestructureerde definitie van relaties tussen deze entiteiten
-- Een modeltoewijzing die geselecteerde Dynamics 365 for Finance and Operations-gegevensbronnen koppelt aan individuele elementen van een gegevensmodel dat, tijdens de uitvoering, de gegevensstroom en regels voor het invullen van bedrijfsgegevens in een gegevensmodelonderdeel opgeeft.
+- Een modeltoewijzing die geselecteerde Finance and Operations-gegevensbronnen koppelt aan individuele elementen van een gegevensmodel dat, tijdens de uitvoering, de gegevensstroom en regels voor het invullen van bedrijfsgegevens in een gegevensmodelonderdeel opgeeft.
 
 Een bedrijfsentiteit van een gegevensmodel wordt voorgesteld als een container (record). Bedrijfsonderdeeleigenschappen worden weergegeven als gegevensitems (velden). Elk gegevensitem heeft een unieke naam, label, omschrijving en waarde. De waarde van elk gegevensitem kan zodanig worden ontworpen dat deze wordt herkend als een tekenreeks, geheel getal, reëel getal, datum, opsomming, Boolean enzovoort. Bovendien kan het een andere record of lijst met records zijn.
 
@@ -69,9 +69,9 @@ Houd er rekening mee dat zakelijke entiteiten zoals Bedrijf en Betalingstransact
 
 Een modeltoewijzing die ondersteuning biedt voor uitgaande elektronische documenten, heeft de volgende mogelijkheden:
 
-- Er kunnen verschillende gegevenstypen in Dynamics 365 for Finance and Operations worden gebruikt als gegevensbronnen voor een gegevensmodel. Er kan bijvoorbeeld gebruik worden gemaakt van tabellen, gegevensentiteiten, methoden of opsommingen.
+- Er kunnen verschillende gegevenstypen in Finance and Operations worden gebruikt als gegevensbronnen voor een gegevensmodel. Er kan bijvoorbeeld gebruik worden gemaakt van tabellen, gegevensentiteiten, methoden of opsommingen.
 - Er worden gebruikerinvoerparameters ondersteund die kunnen worden gedefinieerd als gegevensbronnen voor een gegevnsmodel wanneer bepaalde gegevens moeten worden opgegeven tijdens de uitvoering.
-- Hij biedt ondersteuning voor de transformatie van Dynamics 365 for Finance and Operations-gegevens in de vereiste groepen. Ook kunt u hiermee filteren, sorteren en gegevens optellen en logische berekende velden toevoegen die zijn ontwikkeld door middel van formules die vergelijkbaar zijn met Microsoft Excel-formules, zoals hieronder afgebeeld. Zie voor meer informatie het onderwerp [Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md).
+- Hij biedt ondersteuning voor de transformatie van Finance and Operations-gegevens in de vereiste groepen. Ook kunt u hiermee filteren, sorteren en gegevens optellen en logische berekende velden toevoegen die zijn ontwikkeld door middel van formules die vergelijkbaar zijn met Microsoft Excel-formules, zoals hieronder afgebeeld. Zie voor meer informatie het onderwerp [Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md).
 
 [![Formuleontwerper](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
@@ -80,7 +80,7 @@ Een modeltoewijzing die ondersteuning biedt voor inkomende elektronische documen
 - Deze kan verschillende bij te werken gegevenselementen als doel gebruiken. Deze gegevenselementen omvatten tabellen, gegevensentiteiten en weergaven. De gegevens kunnen worden bijgewerkt met behulp van de gegevens van inkomende elektronische documenten. In een enkele modeltoewijzing kunnen meerdere doelen worden gebruikt.
 - Er worden gebruikerinvoerparameters ondersteund die kunnen worden gedefinieerd als gegevensbronnen voor een gegevnsmodel wanneer bepaalde gegevens moeten worden opgegeven tijdens de uitvoering.
 
-Een gegevensmodelonderdeel is ontworpen voor elk zakelijk domein dat moet worden gebruikt als centrale gegevensbron voor rapportage, waarmee rapportage wordt geïsoleerd van de fysieke implementatie van gegevensbronnen voor Dynamics 365 for Finance and Operations. Het vertegenwoordigt domeinspecifieke zakelijke concepten en functionaliteit in een indeling die het initiële ontwerp en later onderhoud van een rapportageformulier efficiënter maakt.
+Een gegevensmodelonderdeel is ontworpen voor elk zakelijk domein dat moet worden gebruikt als centrale gegevensbron voor rapportage, waarmee rapportage wordt geïsoleerd van de fysieke implementatie van gegevensbronnen voor Finance and Operations. Het vertegenwoordigt domeinspecifieke zakelijke concepten en functionaliteit in een indeling die het initiële ontwerp en later onderhoud van een rapportageformulier efficiënter maakt.
 
 #### <a name="format-components-for-outgoing-electronic-documents"></a>Indelingscomponent voor uitgaande elektronische documenten
 
@@ -133,7 +133,7 @@ Versiebeheer wordt ondersteund voor ER-onderdelen. De volgende werkstroom voorzi
 Versies met de status **Voltooid** of **Gedeeld** zijn beschikbaar voor andere gegevensuitwisseling. Op onderdelen met een van deze statussen kunnen deze acties worden uitgevoerd:
 
 - Het onderdeel kan worden geserialiseerd in XML-indeling en geëxporteerd als bestand in XML-indeling.
-- Een component kan opnieuw worden geserialiseerd vanuit een XML-bestand en geïmporteerd in Dynamics 365 for Finance and Operations als een nieuwe versie van een ER-onderdeel.
+- Een component kan opnieuw worden geserialiseerd vanuit een XML-bestand en geïmporteerd in Finance and Operations als een nieuwe versie van een ER-onderdeel.
 
 #### <a name="component-date-effectivity"></a>Effectivity van de componentdatum
 
@@ -147,17 +147,17 @@ Verschillende versies van een gegevensindelingsonderdeel kunnen verschillende in
 
 #### <a name="configuration"></a>Configuratie
 
-De ER-configuratie is de wrapper voor een bepaald ER-onderdeel. Dat onderdeel kan een gegevensmodelonderdeel zijn of een indelingscomponent. Een configuratie kan verschillende versies van een ER-onderdeel bevatten. Elke configuratie is gemarkeerd als eigendom van een bepaalde configuratieprovider. De **Concept**-versie van een onderdeel van een configuratie kan worden bewerkt als de eigenaar van de configuratie als een actieve provider is geselecteerd in de ER-instellingen in Dynamics 365 for Finance and Operations.
+De ER-configuratie is de wrapper voor een bepaald ER-onderdeel. Dat onderdeel kan een gegevensmodelonderdeel zijn of een indelingscomponent. Een configuratie kan verschillende versies van een ER-onderdeel bevatten. Elke configuratie is gemarkeerd als eigendom van een bepaalde configuratieprovider. De **Concept**-versie van een onderdeel van een configuratie kan worden bewerkt als de eigenaar van de configuratie als een actieve provider is geselecteerd in de ER-instellingen in Finance and Operations.
 
 Elke modelconfiguratie bevat een gegevensmodelonderdeel. Een nieuwe indelingsconfiguratie kan worden afgeleid van een specifieke gegevensmodelconfiguratie. In de configuratiestructuur wordt de gemaakte indelingsconfiguratie gepresenteerd als een onderliggend element van de oorspronkelijke gegevensmodelconfiguratie.
 
 De indelingsconfiguratie die wordt gemaakt bevat een indelingscomponent. Het gegevensmodelonderdeel van de oorspronkelijke modelconfiguratie wordt automatisch ingevoegd in de indelingscomponent van de onderliggende indelingsconfiguratie als een standaardgegevensbron.
 
-Een ER-configuratie wordt gedeeld voor Dynamics 365 for Finance and Operations-bedrijven.
+Een ER-configuratie wordt gedeeld voor Finance and Operations-bedrijven.
 
 #### <a name="provider"></a>Aanbieder
 
-De ER-provider is de partij-id die wordt gebruikt om de auteur (eigenaar) van elke ER-configuratie aan te duiden. Via ER kunt u de lijst met configuratieproviders beheren. Indelingsconfiguraties die worden vrijgegeven voor elektronische documenten als onderdeel van de Dynamics 365 for Finance and Operations-oplossing zijn gemarkeerd als het eigendom van de configuratieprovider **Microsoft**.
+De ER-provider is de partij-id die wordt gebruikt om de auteur (eigenaar) van elke ER-configuratie aan te duiden. Via ER kunt u de lijst met configuratieproviders beheren. Indelingsconfiguraties die worden vrijgegeven voor elektronische documenten als onderdeel van de Finance and Operations-oplossing zijn gemarkeerd als het eigendom van de configuratieprovider **Microsoft**.
 
 Voor informatie over het registreren van een nieuwe ER-provider speelt u de taakbegeleiding **ER Een configuratieprovider maken en deze als actief markeren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen van IT-services/oplossingen ophalen/ontwikkelen (10677)**).
 
@@ -174,7 +174,7 @@ In een ER-opslagplaats worden ER-configuraties opgeslagen. De volgende typen ER-
 
 De opslagplaats **Gedeelde LCS-bibliotheek** biedt toegang tot de lijst met configuraties binnen de bibliotheek voor gedeelde activa in Lifecycle Services (LCS). Dit type ER-opslagplaats kan alleen worden geregistreerd voor de Microsoft-provider. Vanuit de LCS-bibliotheek voor gedeelde activa kunt u de meest recente versies van ER-configuraties importeren in het huidige exemplaar van Finance and Operations.
 
-Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd in de fase van registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige Dynamics 365 for Finance and Operations-exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van Dynamics 365 for Finance and Operations.
+Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd in de fase van registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige Finance and Operations-exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van Finance and Operations.
 
 Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuraties die zich als XML-bestanden bevinden in de opgegeven map van het lokale bestandssysteem op de computer waarop de AOS-service wordt gehost. Vereiste map is geselecteerd in de fase van opslagplaatsregistratie. U kunt configuraties importeren vanuit een opslagplaats **Bestandssysteem** in het huidige exemplaar van Finance and Operations. 
 
@@ -191,7 +191,7 @@ Zie voor meer informatie [Configuraties voor Elektronische rapportage (ER) impor
 
 De opslagplaats **Bronnen voor bedrijfsactiviteiten** biedt toegang tot de lijst met configuraties die Microsoft als ER-configuratieprovider aanvankelijk heeft vrijgegeven als onderdeel van de Finance and Operations-oplossing. Deze configuraties kunnen worden geïmporteerd in het huidige exemplaar van Finance and Operations en worden gebruikt voor elektronische rapportage of voor het afspelen van voorbeeldtaakbegeleidingen. Zij kunnen ook worden gebruikt voor extra lokalisaties en aanpassingen. Houd er rekening mee dat de meest recente versies die door Microsoft ER-configuraties worden verschaft, moeten worden geïmporteerd vanuit de LCS-bibliotheek met behulp van de opslagplaats ER-opslagplaats.
 
-Vereiste opslagplaatsen voor **LCS-project**, **Bestandssysteem** en **Regulatory Configuration Services (RCS)** kunnen afzonderlijk worden geregistreerd voor elke configuratieprovider van het huidige Dynamics 365 for Finance and Operations-exemplaar. Elke opslagplaats kan aan een specifieke configuratieprovider zijn gekoppeld.
+Vereiste opslagplaatsen voor **LCS-project**, **Bestandssysteem** en **Regulatory Configuration Services (RCS)** kunnen afzonderlijk worden geregistreerd voor elke configuratieprovider van het huidige Finance and Operations-exemplaar. Elke opslagplaats kan aan een specifieke configuratieprovider zijn gekoppeld.
 
 ## <a name="supported-scenarios"></a>Ondersteunde scenario's
 ### <a name="building-a-data-model"></a>Een gegevensmodel maken
@@ -219,12 +219,12 @@ In de volgende afbeelding ziet u een voorbeeld waarin de inhoud van een gegevens
 
 ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke Finance ande Operations-gegevensbronnen. Op basis van de toewijzing worden de gegevens geïmporteerd tijdens de uitvoering vanuit de geselecteerde gegevensbronnen in het gegevensmodel. Het gegevensmodel wordt vervolgens gebruikt als een abstracte gegevensbron van ER-indelingen die uitgaande elektronische documenten genereren. De volgende afbeelding laat een voorbeeld zien van dit type gegevensmodeltoewijzing (de modeltoewijzing **SEPA-kredietoverdracht** van het domeingegevensmodel voor betaling).
 
-[![Voorbeeld van een gegevensmodeltoewijzing ](./media/ER-overview-07.png)](./media/ER-overview-07.png)
+[![Voorbeeld van een gegevensmodeltoewijzing](./media/ER-overview-07.png)](./media/ER-overview-07.png)
 
 Speel de taakbegeleidingen **ER Definieer modeltoewijzing en selecteer gegevensbronnen** en **ER Wijs gegevensmodel toe aan geselecteerde gegevensbronnen** (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** af om uzelf vertrouwd te maken met de details van dit scenario.
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Gegevensmodeltoewijzingen voor inkomende documenten configureren
-ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke bestemmingen. Gegevensmodellen kunnen bijvoorbeeld worden toegewezen aan de bewerkbare gegevenscomponenten in Dynamics 365 for Finance and Operations, zoals tabellen, gegevensentiteiten en weergaven. Op basis van de toewijzing worden de gegevens in Finance and Operations bijgewerkt tijdens de uitvoering met de gegevens uit het gegevensmodel. Als abstracte opslag van de ER-indeling wordt het gegevensmodel gevuld met gegevens die worden geïmporteerd vanuit een inkomend elektronisch document. In de volgende afbeelding ziet u een voorbeeld van dit type gegevensmodeltoewijzing. In dit voorbeeld wordt de modeltoewijzing **Importtoewijzing voor NETS** van het domeingegevensmodel Betalingen gebruikt ter ondersteuning van de import van bankafschriften in de NETS-bankindeling voor Noorwegen.
+ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke bestemmingen. Gegevensmodellen kunnen bijvoorbeeld worden toegewezen aan de bewerkbare gegevenscomponenten in Finance and Operations, zoals tabellen, gegevensentiteiten en weergaven. Op basis van de toewijzing worden de gegevens in Finance and Operations bijgewerkt tijdens de uitvoering met de gegevens uit het gegevensmodel. Als abstracte opslag van de ER-indeling wordt het gegevensmodel gevuld met gegevens die worden geïmporteerd vanuit een inkomend elektronisch document. In de volgende afbeelding ziet u een voorbeeld van dit type gegevensmodeltoewijzing. In dit voorbeeld wordt de modeltoewijzing **Importtoewijzing voor NETS** van het domeingegevensmodel Betalingen gebruikt ter ondersteuning van de import van bankafschriften in de NETS-bankindeling voor Noorwegen.
 
 [![Voorbeeld van importtoewijzing voor NETS-gegevensmodel](./media/ER-overview-08.png)](./media/ER-overview-08.png)
 

@@ -16,11 +16,11 @@ ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
 ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360941"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557324"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Urenstaten voor projecten op een mobiel apparaat
 
@@ -33,7 +33,7 @@ Met **Mijn urenstaten (geoptimaliseerd voor mobiel)** kunnen werknemers urenstat
 Met **Urenstaten voor mijn controle (geoptimaliseerd voor mobiel)** kunnen projectmanagers met goedkeuringsrechten voor urenstaten projecturenstaten op een mobiel apparaat controleren en goedkeuren. Het bewerken of bekijken van financiële dimensie-informatie wordt niet ondersteund in de mobiele toepassing. **Urenstaten voor mijn controle (geoptimaliseerd voor mobiel)** kan worden geopend via de webbrowser op uw mobiele apparaat.
 
 Deze mobiele toepassing is compatibel voor iPhone met Dynamics 365 for Finance and Operations platformupdate 15.
-Android Android zal compatibel zijn met platformupdate 16, zodra deze beschikbaar wordt.
+Android zal compatibel zijn met platformupdate 16, zodra deze beschikbaar wordt.
 
 <a name="create-a-project-timesheet-on-your-mobile-device"></a>Een projecturenstaat maken op het mobiele apparaat
 ------------------------------------------------

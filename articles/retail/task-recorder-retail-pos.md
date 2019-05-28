@@ -20,11 +20,11 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345991"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548549"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Taakrecorder en Help voor Retail Modern POS (MPOS) en Cloud POS
 
@@ -34,7 +34,7 @@ In dit onderwerp wordt beschreven hoe u Taakrecorder gebruikt in Retail Modern P
 
 ## <a name="overview"></a>Overzicht
 
-Taakrecorder in Retail Modern POS of Cloud POS is een nieuwe oplossing die is gemaakt met het oog op hoge responsiviteit. Het biedt een flexibele Application Programming Interface (API) voor uitbreidbaarheid en naadloze integratie met gebruikers van zakelijke procesregistraties. Bovendien is integratie van Taakrecorder met het hulpprogramma Business process modeller (BPM) in Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) verbeterd. Daarom kunnen gebruikers doorgaan met het produceren van uitgebreide bedrijfsprocesdiagrammen van registraties om hun toepassingen te analyseren en te ontwerpen.
+Taakrecorder in Retail Modern POS of Cloud POS is een nieuwe oplossing die is gemaakt met het oog op hoge responsiviteit. Het biedt een flexibele Application Programming Interface (API) voor uitbreidbaarheid en naadloze integratie met gebruikers van zakelijke procesregistraties. Bovendien is integratie van Taakrecorder met het hulpprogramma Business process modeller (BPM) in Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) verbeterd. Daarom kunnen gebruikers doorgaan met het produceren van uitgebreide bedrijfsprocesdiagrammen van registraties om hun toepassingen te analyseren en te ontwerpen.
 
 ## <a name="architecture"></a>Architectuur
 
@@ -136,7 +136,7 @@ Tekst die u invoert in het veld **Tekst**, verschijnt *boven* de staptekst in de
 
 Tekst die u invoert in het veld **Notities**, verschijnt *onder* de staptekst in de taakbegeleiding. Als de gebruiker de tekst wil lezen, moet deze de staptekst in het pop-upvenster uitvouwen. Deze locatie is geschikt voor optionele tekst of andere informatie die van belang kan zijn voor de gebruiker, maar die de gebruiker niet hoeft te lezen om de actie te voltooien.
 
-## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Help in Retail Modern POSen cloud-POS
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Help in Retail Modern POS en Cloud POS
 
 Om uw eigen taakregistraties in het Help-deelvenster van Retail Modern POS en Cloud POS weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Zie voor meer informatie het onderwerp [Verbinding maken met het Help-systeem.](../fin-and-ops/get-started/help-connect.md) Retail Modern POS en Cloud POS Help doorzoekt LCS in real-time. Alle BPM-bibliotheken worden doorzocht die zijn geselecteerd in de parameters van het Microsoft Dynamics 365 for Retail Help-systeem, en de relevante resultaten worden weergegeven. Voor toegang tot het menu **Help** klikt u op de knop **Help** (vraagteken) bovenaan het scherm, typt u vervolgens in het zoekvak uw procesnaam en klikt u op de zoekknop.
 

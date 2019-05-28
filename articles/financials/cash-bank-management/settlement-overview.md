@@ -1,9 +1,9 @@
 ---
 title: Vereffeningsoverzicht
-description: Dit artikel geeft algemene informatie over het vereffeningsproces. Het beschrijft de transactietypen die kunnen worden vereffend, wanneer en hoe de transacties kunnen worden vereffend, en de resultaten van het vereffeningsproces.
+description: Dit onderwerp biedt algemene informatie over het vereffeningsproces. Het beschrijft de transactietypen die kunnen worden vereffend, wanneer en hoe de transacties kunnen worden vereffend, en de resultaten van het vereffeningsproces.
 author: kweekley
 manager: AnnBe
-ms.date: 12/06/2018
+ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e13bdcdcf6dac68a95e6c2759a66bc59013464cb
+ms.sourcegitcommit: fd3db9f2052c76a5d906b9ec23cb16222452a362
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "338286"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "1539962"
 ---
 # <a name="settlement-overview"></a>Vereffeningsoverzicht
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel geeft algemene informatie over het vereffeningsproces. Het beschrijft de transactietypen die kunnen worden vereffend, wanneer en hoe de transacties kunnen worden vereffend, en de resultaten van het vereffeningsproces.
+Dit onderwerp biedt algemene informatie over het vereffeningsproces. Het beschrijft de transactietypen die kunnen worden vereffend, wanneer en hoe de transacties kunnen worden vereffend, en de resultaten van het vereffeningsproces.
 
 Tijdens vereffening worden de transacties op één document toegepast op de transacties voor een ander document om het saldo van elk document te verhogen of te verlagen. Bijvoorbeeld, een betaling kan worden toegepast voor een factuur. Diverse transactietypen kunnen op verschillende tijden en door verschillende methoden worden vereffend. De vereffening kan ook veroorzaken dat nieuwe transacties worden gegenereerd.
 
@@ -40,7 +40,7 @@ De vereffening in Leveranciers en Klanten kan plaatsvinden tussen alle transacti
 Transacties kunnen op het moment van betalingsinvoer worden vereffend. Bijvoorbeeld, wanneer u een leverancier betaalt, selecteert u normaal gesproken de facturen om te betalen. Door facturen te selecteren, markeert u deze voor vereffening voor de betaling. Wanneer de medewerkers van klantbetalingen een klantbetaling registreren, kunnen ze de gewenste facturen voor vereffening markeren, op basis van de informatie die bij de betaling van de klant is opgenomen. De pagina **Transacties vereffenen** wordt gebruikt om transacties voor vereffening te markeren. Deze pagina kan vanuit elke niet-geboekte factuur of betaling worden geopend. Wanneer de transactie wordt geboekt, wordt ook de vereffening geboekt. De transacties kunnen ook worden vereffend nadat ze zijn geboekt. U kunt een klantbetaling invoeren en boeken zonder deze met enige facturen te vereffenen. U moet misschien eerst onderzoek doen om ervoor te zorgen dat de betaling wordt vereffend voor de juiste factuur. De pagina **Transacties vereffenen** kan worden geopend van de pagina **Alle klanten** of **Alle leveranciers**, of van de pagina **Transacties** voor elke klant of leverancier. U kunt ook geboekte vooruitbetalingen voor een factuur reserveren door de betaling voor vereffening met een inkooporder of verkooporder te markeren. In dit geval heeft de betaling nog een openstaande saldo, maar kan deze niet met een andere factuur worden vereffend. De betaling wordt automatisch vereffend met de factuur die van de inkooporder of de verkooporder is gemaakt.
 
 ## <a name="how-to-settle-transactions"></a>Hoe transacties vereffenen
-De transacties kunnen handmatig of automatisch worden vereffend, of met een combinatie van beide methoden. De keuze van een vereffeningsmethode is afhankelijk van bedrijfsprocessen, die vervolgens door de instelling van vereffening in Parameters voor Leveranciers en Parameters voor Klanten kunnen worden geïmplementeerd. U kunt leveranciersbetalingen en automatische afschrijvingen van de bankrekening van een klant maken via een betalingsvoorstel, dat wordt gebruikt om facturen te selecteren om te betalen. Het betalingsvoorstel wordt handmatig uitgevoerd, maar vervolgens markeert Microsoft Dynamics 365 for Finance and Operations automatisch de geselecteerde facturen voor vereffening wanneer de betalingen worden gemaakt. Als betalingen handmatig worden gemaakt, kunt u de pagina **Transacties vereffenen** gebruiken om facturen te selecteren voor vereffening. U kunt de facturen handmatig selecteren, of u kunt de optie **Markeren op prioriteit** gebruiken om facturen automatisch te laten markeren voor vereffening. De optie **Markeren op prioriteit** is alleen beschikbaar voor Klanten. Als u deze optie wilt inschakelen, gebruikt u de pagina **Vereffeningsprioriteit** in Parameters van module Klanten. Als een betalingsmedewerker een betaling invoert, maar die betaling niet vereffent voordat hij of zij deze boekt, kan de betaling automatisch worden vereffend. U kunt automatische vereffening inschakelen in Parameters voor de module Klanten en Parameters voor de module Leveranciers. Wanneer u automatische vereffening gebruikt, kunt u de vooraf vastgestelde vereffeningsvolgorde gebruiken, of u kunt uw eigen vereffeningsprioriteitsvolgorde in Parameters voor de module Klanten definiëren. Deze functionaliteit is alleen beschikbaar voor Klanten.
+De transacties kunnen handmatig of automatisch worden vereffend, of met een combinatie van beide methoden. De keuze van een vereffeningsmethode is afhankelijk van bedrijfsprocessen, die vervolgens door de instelling van vereffening in Parameters voor Leveranciers en Parameters voor Klanten kunnen worden geïmplementeerd. U kunt leveranciersbetalingen en automatische afschrijvingen van de bankrekening van een klant maken via een betalingsvoorstel, dat wordt gebruikt om facturen te selecteren om te betalen. Het betalingsvoorstel wordt handmatig uitgevoerd, waarna Dynamics 365 for Finance and Operations automatisch de geselecteerde facturen markeert voor vereffening wanneer de betalingen worden gemaakt. Als betalingen handmatig worden gemaakt, kunt u de pagina **Transacties vereffenen** gebruiken om facturen te selecteren voor vereffening. U kunt de facturen handmatig selecteren, of u kunt de optie **Markeren op prioriteit** gebruiken om facturen automatisch te laten markeren voor vereffening. De optie **Markeren op prioriteit** is alleen beschikbaar voor Klanten. Als u deze optie wilt inschakelen, gebruikt u de pagina **Vereffeningsprioriteit** in Parameters van module Klanten. Als een betalingsmedewerker een betaling invoert, maar die betaling niet vereffent voordat deze wordt geboekt, kan de betaling automatisch worden vereffend. U kunt automatische vereffening inschakelen in Parameters voor de module Klanten en Parameters voor de module Leveranciers. Bij automatische vereffening worden transacties vereffend binnen dezelfde rechtspersoon en wordt niet vereffend over meerdere rechtspersonen heen. Wanneer u automatische vereffening gebruikt, kunt u de vooraf vastgestelde vereffeningsvolgorde gebruiken, of u kunt uw eigen vereffeningsprioriteitsvolgorde in Parameters voor de module Klanten definiëren. Deze functionaliteit is alleen beschikbaar voor Klanten.
 
 ## <a name="results-of-settlement"></a>Resultaten van vereffening
 Als de transacties zijn vereffend, wordt het openstaande saldo van elke transactie waar van toepassing verhoogd of verlaagd. In een typisch scenario, waar een factuur en een betaling worden vereffend, worden de status en het saldo van elke transactie bijgewerkt volgens de volgende regels:
