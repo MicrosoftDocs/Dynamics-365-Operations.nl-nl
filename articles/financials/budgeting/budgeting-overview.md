@@ -1,73 +1,165 @@
----
-title: Startpagina Budgetteren
-description: Dit onderwerp biedt een overzicht van de onderdelen van de budgetteringsfunctionaliteit, budgetteringstools en rapportagemogelijkheden in Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: BudgetPlanningWorkspace
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 106043
-ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
-ms.search.region: Global
-ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7e755e9cbcce332bf2a010083be438a8aeb9e2f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512093"
----
-# <a name="budgeting-home-page"></a><span data-ttu-id="7cb0b-103">Startpagina Budgetteren</span><span class="sxs-lookup"><span data-stu-id="7cb0b-103">Budgeting home page</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="7cb0b-104">Dit onderwerp biedt een overzicht van de onderdelen van de budgetteringsfunctionaliteit, budgetteringstools en rapportagemogelijkheden in Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-104">This topic provides an overview of the budgeting functionality components, budgeting tools, and reporting capabilities in Finance and Operations.</span></span> 
-
-<a name="components-of-budgeting-functionality"></a><span data-ttu-id="7cb0b-105">Onderdelen van budgetfunctionaliteit</span><span class="sxs-lookup"><span data-stu-id="7cb0b-105">Components of budgeting functionality</span></span>
--------------------------------------
-
-<span data-ttu-id="7cb0b-106">De resourceplanningscyclus voor een bedrijf bestaat meestal uit plannings-, budgetterings- en prognoseactiviteiten.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-106">The resource planning cycle for a company typically consists of planning, budgeting, and forecasting activities.</span></span>
-
-<span data-ttu-id="7cb0b-107">[![Onderdelen van budgetfunctionaliteit](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-107">[![Budgeting functionality components](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)</span></span>
-
-<span data-ttu-id="7cb0b-108">De processen voor zowel strategische planning op de lange termijn als jaarlijkse budgetplanning worden ondersteund door middel van een budgetplandocument.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-108">The processes for both long-term strategic planning and annual budget planning are supported through a budget plan document.</span></span> <span data-ttu-id="7cb0b-109">De documenten van het budgetplan zijn nauw geïntegreerd met Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-109">Budget plan documents are tightly integrated with Microsoft Excel.</span></span> <span data-ttu-id="7cb0b-110">Gebruikers kunnen onbeperkte monetaire en kwantitatieve scenario's configureren en een budgetteringsorganisatiehiërarchie definiëren om top-down en bottom-up budgetteringsmethoden te ondersteunen.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-110">Users can configure unlimited monetary and quantitative scenarios, and can also define a budgeting organizational hierarchy to both support top-down and bottom-up budgeting methods.</span></span> <span data-ttu-id="7cb0b-111">Nadat een budget in Finance and Operations is opgesteld en goedgekeurd, converteert u het budgetplan naar een budgetregisterpost.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-111">After a budget is established and approved in Finance and Operations, you convert the budget plan to a budget register entry.</span></span> <span data-ttu-id="7cb0b-112">Budgetregisterposten bieden tools om het budget te onderhouden en om bedragen door middel van budgetcodes te kunnen bijhouden.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-112">Budget register entries provide tools for maintaining the budget and for keeping amounts traceable through budget codes.</span></span> <span data-ttu-id="7cb0b-113">Met budgetregisterposten kunt u oorspronkelijke budgetten herzien, overboekingen uitvoeren en budgetbedragen van het vorige jaar transporteren.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-113">Budget register entries let you revise original budgets, perform transfers, and carry forward budget amounts from the previous year.</span></span> <span data-ttu-id="7cb0b-114">Op basis van het ingestelde budget kan een bedrijf budgetbeheer inschakelen.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-114">Based on the established budget, a company can enable budget control.</span></span> <span data-ttu-id="7cb0b-115">Het niveau van beheer is afhankelijk van de cultuur van de organisatie en het niveau van vervallen posten van de organisatie.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-115">The level of control depends on the organizational culture and the organization's level of maturity.</span></span> <span data-ttu-id="7cb0b-116">Organisaties die een laag niveau van vervallen posten hebben, laten het budget mogelijk ongewijzigd en zijn mogelijk eerder reactief dan proactief als een budget niet aan de verwachtingen voldoet.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-116">Organizations that have low maturity might leave the budget “as is” and might be more reactive than proactive if a budget doesn't meet expectations.</span></span> <span data-ttu-id="7cb0b-117">Andere organisaties activeren mogelijk budgetbeheerbeleidsregels waarmee wordt voorkomen dat gebruikers iets kunnen aanschaffen als de budgetfondsen niet beschikbaar zijn.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-117">Other organizations might enable budget control policies that prevent users from purchasing if budget funds aren't available.</span></span>
-
-<span data-ttu-id="7cb0b-118">Tot slot kunnen zeer volwassen organisaties een organisatiecultuur creëren waarin werknemers worden onderwezen in organisatorische doelen en deze doelen volgen via beleidsregels, zoals "Onlinevergadering overwegen in plaats van reizen".</span><span class="sxs-lookup"><span data-stu-id="7cb0b-118">Finally, very mature organizations might establish an organizational culture where employees are educated about organizational targets and follow those targets through policies such as “Consider online meeting instead of a travel.”</span></span> <span data-ttu-id="7cb0b-119">Finance and Operations bevat een raamwerk voor budgetbeheer waarmee het management van het bedrijf kan kiezen voor de harde lijn (geen boekingen die over het budget heen gaan) of de zachte lijn (gebruikers worden gewaarschuwd als ze de beschikbare budgetfondsen overschrijden en kunnen zelf bepalen hoe ze verdergaan).</span><span class="sxs-lookup"><span data-stu-id="7cb0b-119">Finance and Operations includes a budget control framework that lets the company's management select either hard control (which prevents postings that would go over the budget) or soft control (where users are warned that they will exceed the available budget funds but can decide for themselves how to proceed).</span></span> <span data-ttu-id="7cb0b-120">Tot slot kunt u voortschrijdende prognoses gebruiken.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-120">Finally, you can use rolling forecasts.</span></span> <span data-ttu-id="7cb0b-121">Een voortschrijdende prognose is een normale vergelijking tussen gebudgetteerde en werkelijke bedragen en wordt gebruikt om te bepalen hoe goed het bedrijf werkt met betrekking tot het budget.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-121">A rolling forecast is a regular comparison of budget to actuals and is used to define how well the company operates against the budget.</span></span> <span data-ttu-id="7cb0b-122">Een voortschrijdende prognose wordt ook gebruikt om trends te identificeren.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-122">A rolling forecast is also used to identify trends.</span></span> <span data-ttu-id="7cb0b-123">In Finance and Operations worden voortschrijdende prognoses ondersteund via een budgetplandocument als oorspronkelijke planningsactiviteiten.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-123">In Finance and Operations, rolling forecasts are supported, through a budget plan document, as initial planning activities.</span></span> <span data-ttu-id="7cb0b-124">Ze kunnen tegelijk met de planning voor de komende budgetcyclus worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-124">Rolling forecasts can be done in parallel with the planning for the upcoming budget cycle.</span></span>
-
--   [<span data-ttu-id="7cb0b-125">Basisbudgettering: overzicht en configuratie</span><span class="sxs-lookup"><span data-stu-id="7cb0b-125">Basic budgeting: Overview and configuration</span></span>](basic-budgeting-overview-configuration.md)
--   [<span data-ttu-id="7cb0b-126">Budgetbeheer: overzicht en configuratie</span><span class="sxs-lookup"><span data-stu-id="7cb0b-126">Budget control: Overview and configuration</span></span>](budget-control-overview-configuration.md)
--   [<span data-ttu-id="7cb0b-127">Budgetplanning: overzicht en configuratie</span><span class="sxs-lookup"><span data-stu-id="7cb0b-127">Budget planning: Overview and configuration</span></span>](budget-planning-overview-configuration.md)
--   [<span data-ttu-id="7cb0b-128">Prognosepositie</span><span class="sxs-lookup"><span data-stu-id="7cb0b-128">Position forecasting</span></span>](position-forecasting.md)
--   [<span data-ttu-id="7cb0b-129">Verantwoordingsdocumenten voor budgetplanning</span><span class="sxs-lookup"><span data-stu-id="7cb0b-129">Budget planning justification documents</span></span>](budget-planning-justification-docs.md)
--   [<span data-ttu-id="7cb0b-130">Microsoft Excel-sjablonen voor budgetplanning</span><span class="sxs-lookup"><span data-stu-id="7cb0b-130">Microsoft Excel templates for budget planning</span></span>](budget-planning-excel-templates.md)
-
-## <a name="budgeting-tools-in-finance-and-operations"></a><span data-ttu-id="7cb0b-131">Budgetteringstools in Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="7cb0b-131">Budgeting tools in Finance and Operations</span></span>
-<span data-ttu-id="7cb0b-132">[![Budgetteringstools](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-132">[![Budgeting tools](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg)</span></span> 
-
-<span data-ttu-id="7cb0b-133">Aanvullende plannings- en budgetteringsmogelijkheden zijn beschikbaar in Finance and Operations en geïntegreerd met grootboekbudgetten.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-133">Additional planning and budgeting capabilities are available across Finance and Operations and are integrated with ledger budgets.</span></span>
-
--   <span data-ttu-id="7cb0b-134">**Personeelsbudgetten**: personeelsbudgettering bevat gedetailleerde budgetkostenonderdeelplanning voor posities, compensatiegroepen enzovoort.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-134">**Workforce budgets** – Workforce budgeting includes detailed budget cost component planning for positions, compensation groups, and so on.</span></span>
--   <span data-ttu-id="7cb0b-135">**Budgetten van vaste activa**: op basis van gegevens over vaste activa kunt u geplande afschrijving berekenen en andere aan vaste activa gerelateerde geplande transacties.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-135">**Fixed assets budgets** – Based on fixed asset information, you can calculate planned depreciation and record other planned transactions that are related to fixed assets.</span></span>
--   <span data-ttu-id="7cb0b-136">**Projectbudgetten**: in de projectenmodule kunt u gedetailleerde projectprognoses maken.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-136">**Project budgets** – In the projects module, you can create detailed project forecasts.</span></span> <span data-ttu-id="7cb0b-137">De projectprognoses bevatten details over de geplande uren, onkosten, bijzondere kosten en artikelen.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-137">The projects forecasts will include details about the planned hours, expenses, fees, and items.</span></span>
--   <span data-ttu-id="7cb0b-138">**Vraagprognose**: u kunt toekomstige voorraadvraag ramen en vraagprognoses maken op basis van historische transactiegegevens.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-138">\*\*Demand forecasting \*\*– Based on historical transaction data, you can estimate future inventory demand and create demand forecasts.</span></span>
-
-<span data-ttu-id="7cb0b-139">Zie [Budgetplanningsintegratie met andere modules](budget-planning-integration-other-modules.md) voor informatie over het opnemen van planningsgegevens uit andere modules in budgetplannen.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-139">For information about how to bring planning data from other modules into budget plans, see [Budget planning integration with other modules](budget-planning-integration-other-modules.md).</span></span>
-
-## <a name="user-interface-and-reporting-capabilities"></a><span data-ttu-id="7cb0b-140">Gebruikersinterface en rapportagemogelijkheden</span><span class="sxs-lookup"><span data-stu-id="7cb0b-140">User interface and reporting capabilities</span></span>
-<span data-ttu-id="7cb0b-141">In Finance and Operations kunnen gebruikers budgetplannen direct in de Finance and Operations-client maken (met behulp van een configureerbare pagina voor een budgetplandocument) of met Excel.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-141">In Finance and Operations, users can create budget plans either directly in the Finance and Operations client (by using a configurable budget plan document page) or through Excel.</span></span> <span data-ttu-id="7cb0b-142">Excel biedt verschillende aanvullende mogelijkheden.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-142">Excel provides several additional capabilities.</span></span> <span data-ttu-id="7cb0b-143">U kunt bijvoorbeeld externe gegevens gebruiken als een bron voor een budgetplan, aangepaste berekeningen uitvoeren en Microsoft-draaitabellen en -grafieken gebruiken.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-143">For example, you can use external data as a source for a budget plan, do custom calculations, and use Microsoft PivotTable and charts.</span></span> <span data-ttu-id="7cb0b-144">De meeste variabelen in het budgetplanningsproces kunnen worden geconfigureerd.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-144">Most of the variables in the budget planning process can be configured.</span></span> 
-
-<span data-ttu-id="7cb0b-145">U kunt bijvoorbeeld bepalen wie budgettering doet, wat wordt gebudgetteerd en hoe het proces eruit ziet.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-145">For example, you can define who does budgeting, what is budgeted, and what the process looks like.</span></span> <span data-ttu-id="7cb0b-146">Hoewel u Excel kunt gebruiken voor budgetplanning, wordt Finance and Operations als één bron van waarheid aangehouden waarmee budgetbeheerproblemen kunnen worden voorkomen.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-146">Although you can use Excel for budget planning, Finance and Operations is kept as a single source of truth and helps prevent budget control issues.</span></span> <span data-ttu-id="7cb0b-147">Periodieke processen kunnen worden gebruikt om oorspronkelijke gegevens voor budgettering in het budgetplan in te voeren.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-147">Periodic processes can be used to bring initial data for budgeting into the budget plan.</span></span> <span data-ttu-id="7cb0b-148">Voor rapportage biedt Finance and Operations een set standaardquerypagina's waarmee u budgetteringsgegevens kunt bekijken en analyseren.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-148">For reporting, Finance and Operations offers a set of standard inquiry pages that let you view and analyze budgeting data.</span></span> <span data-ttu-id="7cb0b-149">Budgetplangegevens kunnen via Management Reporter worden geopend, en afzonderlijke budgetplanscenario's kunnen als kolommen in het Management Reporter-rapport worden weergegeven.</span><span class="sxs-lookup"><span data-stu-id="7cb0b-149">Budget plan data can be accessed through Management Reporter, and separate budget plan scenarios can be displayed as columns on the Management Reporter report.</span></span>
-
-
-
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="budgeting-overview.md" target-language="nl-NL">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>budgeting-overview.a0e130.84321b78c9869a4920c3488373876bb56bcb3a29.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>84321b78c9869a4920c3488373876bb56bcb3a29</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\budgeting\budgeting-overview.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Budgeting home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Startpagina Budgetteren</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides an overview of the budgeting functionality components, budgeting tools, and reporting capabilities in Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit onderwerp biedt een overzicht van de onderdelen van de budgetteringsfunctionaliteit, budgetteringstools en rapportagemogelijkheden in Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Budgeting home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Startpagina Budgetteren</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides an overview of the budgeting functionality components, budgeting tools, and reporting capabilities in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit onderwerp biedt een overzicht van de onderdelen van de budgetteringsfunctionaliteit, budgetteringstools en rapportagemogelijkheden in Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Components of budgeting functionality</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Onderdelen van budgetfunctionaliteit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>The resource planning cycle for a company typically consists of planning, budgeting, and forecasting activities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De resourceplanningscyclus voor een bedrijf bestaat meestal uit plannings-, budgetterings- en prognoseactiviteiten.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Budgeting functionality components<ept id="p1">](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Onderdelen van budgetfunctionaliteit<ept id="p1">](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>The processes for both long-term strategic planning and annual budget planning are supported through a budget plan document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De processen voor zowel strategische planning op de lange termijn als jaarlijkse budgetplanning worden ondersteund door middel van een budgetplandocument.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Budget plan documents are tightly integrated with Microsoft Excel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De documenten van het budgetplan zijn nauw geïntegreerd met Microsoft Excel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Users can configure unlimited monetary and quantitative scenarios, and can also define a budgeting organizational hierarchy to both support top-down and bottom-up budgeting methods.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gebruikers kunnen onbeperkte monetaire en kwantitatieve scenario's configureren en een budgetteringsorganisatiehiërarchie definiëren om top-down en bottom-up budgetteringsmethoden te ondersteunen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>After a budget is established and approved in Finance and Operations, you convert the budget plan to a budget register entry.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nadat een budget in Finance and Operations is opgesteld en goedgekeurd, converteert u het budgetplan naar een budgetregisterpost.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Budget register entries provide tools for maintaining the budget and for keeping amounts traceable through budget codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Budgetregisterposten bieden tools om het budget te onderhouden en om bedragen door middel van budgetcodes te kunnen bijhouden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Budget register entries let you revise original budgets, perform transfers, and carry forward budget amounts from the previous year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Met budgetregisterposten kunt u oorspronkelijke budgetten herzien, overboekingen uitvoeren en budgetbedragen van het vorige jaar transporteren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Based on the established budget, a company can enable budget control.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Op basis van het ingestelde budget kan een bedrijf budgetbeheer inschakelen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>The level of control depends on the organizational culture and the organization's level of maturity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het niveau van beheer is afhankelijk van de cultuur van de organisatie en het niveau van vervallen posten van de organisatie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Organizations that have low maturity might leave the budget “as is” and might be more reactive than proactive if a budget doesn't meet expectations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Organisaties die een laag niveau van vervallen posten hebben, laten het budget mogelijk ongewijzigd en zijn mogelijk eerder reactief dan proactief als een budget niet aan de verwachtingen voldoet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Other organizations might enable budget control policies that prevent users from purchasing if budget funds aren't available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andere organisaties activeren mogelijk budgetbeheerbeleidsregels waarmee wordt voorkomen dat gebruikers iets kunnen aanschaffen als de budgetfondsen niet beschikbaar zijn.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Finally, very mature organizations might establish an organizational culture where employees are educated about organizational targets and follow those targets through policies such as “Consider online meeting instead of a travel.”</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tot slot kunnen zeer volwassen organisaties een organisatiecultuur creëren waarin werknemers worden onderwezen in organisatorische doelen en deze doelen volgen via beleidsregels, zoals "Onlinevergadering overwegen in plaats van reizen".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Finance and Operations includes a budget control framework that lets the company's management select either hard control (which prevents postings that would go over the budget) or soft control (where users are warned that they will exceed the available budget funds but can decide for themselves how to proceed).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations bevat een raamwerk voor budgetbeheer waarmee het management van het bedrijf kan kiezen voor de harde lijn (geen boekingen die over het budget heen gaan) of de zachte lijn (gebruikers worden gewaarschuwd als ze de beschikbare budgetfondsen overschrijden en kunnen zelf bepalen hoe ze verdergaan).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Finally, you can use rolling forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tot slot kunt u voortschrijdende prognoses gebruiken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>A rolling forecast is a regular comparison of budget to actuals and is used to define how well the company operates against the budget.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een voortschrijdende prognose is een normale vergelijking tussen gebudgetteerde en werkelijke bedragen en wordt gebruikt om te bepalen hoe goed het bedrijf werkt met betrekking tot het budget.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>A rolling forecast is also used to identify trends.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een voortschrijdende prognose wordt ook gebruikt om trends te identificeren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>In Finance and Operations, rolling forecasts are supported, through a budget plan document, as initial planning activities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In Finance and Operations worden voortschrijdende prognoses ondersteund via een budgetplandocument als oorspronkelijke planningsactiviteiten.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Rolling forecasts can be done in parallel with the planning for the upcoming budget cycle.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ze kunnen tegelijk met de planning voor de komende budgetcyclus worden uitgevoerd.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">[</bpt>Basic budgeting: Overview and configuration<ept id="p1">](basic-budgeting-overview-configuration.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Basisbudgettering: overzicht en configuratie<ept id="p1">](basic-budgeting-overview-configuration.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">[</bpt>Budget control: Overview and configuration<ept id="p1">](budget-control-overview-configuration.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Budgetbeheer: overzicht en configuratie<ept id="p1">](budget-control-overview-configuration.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">[</bpt>Budget planning: Overview and configuration<ept id="p1">](budget-planning-overview-configuration.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Budgetplanning: overzicht en configuratie<ept id="p1">](budget-planning-overview-configuration.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source><bpt id="p1">[</bpt>Position forecasting<ept id="p1">](position-forecasting.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Prognosepositie<ept id="p1">](position-forecasting.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">[</bpt>Budget planning justification documents<ept id="p1">](budget-planning-justification-docs.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Verantwoordingsdocumenten voor budgetplanning<ept id="p1">](budget-planning-justification-docs.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">[</bpt>Microsoft Excel templates for budget planning<ept id="p1">](budget-planning-excel-templates.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Microsoft Excel-sjablonen voor budgetplanning<ept id="p1">](budget-planning-excel-templates.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Budgeting tools in Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Budgetteringstools in Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Budgeting tools<ept id="p1">](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Budgetteringstools<ept id="p1">](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Additional planning and budgeting capabilities are available across Finance and Operations and are integrated with ledger budgets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aanvullende plannings- en budgetteringsmogelijkheden zijn beschikbaar in Finance and Operations en geïntegreerd met grootboekbudgetten.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">**</bpt>Workforce budgets<ept id="p1">**</ept> – Workforce budgeting includes detailed budget cost component planning for positions, compensation groups, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Personeelsbudgetten<ept id="p1">**</ept>: personeelsbudgettering bevat gedetailleerde budgetkostenonderdeelplanning voor posities, compensatiegroepen enzovoort.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">**</bpt>Fixed assets budgets<ept id="p1">**</ept> – Based on fixed asset information, you can calculate planned depreciation and record other planned transactions that are related to fixed assets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Budgetten van vaste activa<ept id="p1">**</ept>: op basis van gegevens over vaste activa kunt u geplande afschrijving berekenen en andere aan vaste activa gerelateerde geplande transacties.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">**</bpt>Project budgets<ept id="p1">**</ept> – In the projects module, you can create detailed project forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Projectbudgetten<ept id="p1">**</ept>: in de projectenmodule kunt u gedetailleerde projectprognoses maken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The projects forecasts will include details about the planned hours, expenses, fees, and items.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De projectprognoses bevatten details over de geplande uren, onkosten, bijzondere kosten en artikelen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>**Demand forecasting **– Based on historical transaction data, you can estimate future inventory demand and create demand forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">**Vraagprognose**: u kunt toekomstige voorraadvraag ramen en vraagprognoses maken op basis van historische transactiegegevens.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>For information about how to bring planning data from other modules into budget plans, see <bpt id="p1">[</bpt>Budget planning integration with other modules<ept id="p1">](budget-planning-integration-other-modules.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie <bpt id="p1">[</bpt>Budgetplanningsintegratie met andere modules<ept id="p1">](budget-planning-integration-other-modules.md)</ept> voor informatie over het opnemen van planningsgegevens uit andere modules in budgetplannen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>User interface and reporting capabilities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gebruikersinterface en rapportagemogelijkheden</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>In Finance and Operations, users can create budget plans either directly in the Finance and Operations client (by using a configurable budget plan document page) or through Excel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In Finance and Operations kunnen gebruikers budgetplannen direct in de Finance and Operations-client maken (met behulp van een configureerbare pagina voor een budgetplandocument) of met Excel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Excel provides several additional capabilities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Excel biedt verschillende aanvullende mogelijkheden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>For example, you can use external data as a source for a budget plan, do custom calculations, and use Microsoft PivotTable and charts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt bijvoorbeeld externe gegevens gebruiken als een bron voor een budgetplan, aangepaste berekeningen uitvoeren en Microsoft-draaitabellen en -grafieken gebruiken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Most of the variables in the budget planning process can be configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De meeste variabelen in het budgetplanningsproces kunnen worden geconfigureerd.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>For example, you can define who does budgeting, what is budgeted, and what the process looks like.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt bijvoorbeeld bepalen wie budgettering doet, wat wordt gebudgetteerd en hoe het proces eruit ziet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Although you can use Excel for budget planning, Finance and Operations is kept as a single source of truth and helps prevent budget control issues.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hoewel u Excel kunt gebruiken voor budgetplanning, wordt Finance and Operations als één bron van waarheid aangehouden waarmee budgetbeheerproblemen kunnen worden voorkomen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Periodic processes can be used to bring initial data for budgeting into the budget plan.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periodieke processen kunnen worden gebruikt om oorspronkelijke gegevens voor budgettering in het budgetplan in te voeren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>For reporting, Finance and Operations offers a set of standard inquiry pages that let you view and analyze budgeting data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor rapportage biedt Finance and Operations een set standaardquerypagina's waarmee u budgetteringsgegevens kunt bekijken en analyseren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Budget plan data can be accessed through Management Reporter, and separate budget plan scenarios can be displayed as columns on the Management Reporter report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Budgetplangegevens kunnen via Management Reporter worden geopend, en afzonderlijke budgetplanscenario's kunnen als kolommen in het Management Reporter-rapport worden weergegeven.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
