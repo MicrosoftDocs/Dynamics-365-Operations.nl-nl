@@ -1,102 +1,186 @@
----
-title: Startpagina voor Contanten en bankbeheer
-description: U kunt Contanten en bankbeheer gebruiken voor het onderhouden van de bankrekeningen van de rechtspersoon en de financiële instrumenten die aan de bankrekeningen zijn gekoppeld.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/26/2017
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: BankTreasurerWorkspace
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 21941
-ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
-ms.search.region: Global
-ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b09396c43864ae0797a737d84f981922bab6bbf5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508561"
----
-# <a name="cash-and-bank-management-home-page"></a>Startpagina voor Contanten en bankbeheer
-
-[!include [banner](../includes/banner.md)]
-
-U kunt Contanten en bankbeheer gebruiken voor het onderhouden van de bankrekeningen van de rechtspersoon en de financiële instrumenten die aan de bankrekeningen zijn gekoppeld. 
-
-Voorbeelden van dergelijke instrumenten zijn depositostroken, cheques, wissels en promessen. U kunt ook bankafschriften afstemmen en bankgegevens op standaardrapporten afdrukken.
-
-**Bedrijfsprocessen**
-
-[![Bedrijfsproces](./media/Cash-process.PNG)](./media/Cash-process.PNG)
-
--   [Contantkortingen](cash-discounts.md)
--   [Vereffeningsoverzicht](settlement-overview.md)
--   [Vereffening configureren](configure-settlement.md)
--   [Herwaardering van vreemde valuta voor Leveranciers en Klanten](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
--   [Kredietbrieven](letters-of-credit.md)
--   [Brieven over commanditaire kredieten en invoerincasso's](letters-of-credit-import-collections.md)
--   [Borgstelling](letters-of-guarantee.md)
--   [Gecentraliseerde betalingen instellen](set-up-centralized-payments.md)
-
-### <a name="bank-reconciliation"></a>Bankafstemming
-
--   [Overzicht van geavanceerde bankafstemming](advanced-bank-reconciliation-overview.md)
--   [Geavanceerde bankafstemming configureren](configure-advanced-bank-reconciliation.md)
--   [Importeren van geavanceerde bankafstemming instellen](set-up-advanced-bank-reconciliation-import-process.md)
--   [Bankafschriften afstemmen via geavanceerde bankafstemming](reconcile-bank-statements-advanced-bank-reconciliation.md)
--   [Afstemmingsregels voor bankafstemming instellen](set-up-bank-reconciliation-matching-rules.md)
-
-
-## <a name="accounts-payable-payments-and-settlements"></a>Leveranciersbetalingen en -vereffeningen
--   [Gecentraliseerde betalingen voor Leveranciers](../accounts-payable/centralized-payments-accounts-payable.md)
--   [Leverancierfacturen maken met behulp van een betalingsvoorstel](../accounts-payable/create-vendor-payments-payment-proposal.md)
--   [Een leveranciersbetaling omkeren](../accounts-payable/reverse-vendor-payment.md)
--   [Leveranciersbetalingen voor een gedeeltelijk bedrag](../accounts-payable/vendor-payments-partial-amount.md)
--   [Vooruitbetalingsfacturen en overzicht van vooruitbetalingen](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [Scenario: Een gedeeltelijke leverancierbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Scenario: Een gedeeltelijke leveranciersbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [Scenario: Een gedeeltelijke leveranciersbetaling vereffenen met kortingen op creditnota's van de leverancier](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [Scenario: Een gedeeltelijke leveranciersbetaling met meerdere kortingsperioden vereffenen](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Scenario: Een korting nemen die groter is dan de berekende korting voor een leveranciersbetaling](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [Scenario: Een contantkorting nemen buiten de periode van contantkorting](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
-
-## <a name="accounts-receivable-payments-and-settlements"></a>Klantbetalingen en -vereffeningen
--   [Gecentraliseerde betalingen voor Klanten](../accounts-receivable/centralized-payments-accounts-receivable.md)
--   [Klantbetalingen voor een gedeeltelijk bedrag](../accounts-receivable/customer-payments-partial-amount.md)
--   [Klanten terugbetalen](../accounts-receivable/reimburse-customers.md)
--   [Scenario: Automatische vereffening en prioriteitstelling](../accounts-receivable/automatic-settlement-prioritization.md)
--   [Scenario: Contantkorting voor overbetalingen verwerken](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [Scenario: Een gedeeltelijke klantbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [Scenario: Een gedeeltelijke klantbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [Scenario: Een gedeeltelijke klantbetaling vereffenen met kortingen op creditnota's](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [Scenario: Een gedeeltelijke klantbetaling met meerdere kortingsperioden vereffenen](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Scenario: Eén klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingsperioden omvatten](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-
-
-
-### <a name="additional-resources"></a>Aanvullende resources
-
-#### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
-
-Ga naar de [releaseopmerkingen bij Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
-
-#### <a name="blogs"></a>Weblogs
-
-U kunt adviezen, nieuws en andere informatie over de [blog over Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [blog over Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
-
-De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
-
-#### <a name="task-guides"></a>Taakbegeleidingen
-Extra informatie is beschikbaar als taakbegeleidingen binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
-
-#### <a name="videos"></a>Video's
-
-Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="cash-bank-management.md" target-language="nl-NL">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>cash-bank-management.bc9b73.d15ff8add8a77c27a9f0153c9e881ecae3d9da78.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>d15ff8add8a77c27a9f0153c9e881ecae3d9da78</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\cash-bank-management\cash-bank-management.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Cash and bank management home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Startpagina voor Contanten en bankbeheer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt Contanten en bankbeheer gebruiken voor het onderhouden van de bankrekeningen van de rechtspersoon en de financiële instrumenten die aan de bankrekeningen zijn gekoppeld.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Cash and bank management home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Startpagina voor Contanten en bankbeheer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt Contanten en bankbeheer gebruiken voor het onderhouden van de bankrekeningen van de rechtspersoon en de financiële instrumenten die aan de bankrekeningen zijn gekoppeld.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>These instruments include deposit slips, checks, bills of exchange, and promissory notes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voorbeelden van dergelijke instrumenten zijn depositostroken, cheques, wissels en promessen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>You can also reconcile bank statements and print bank data on standard reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt ook bankafschriften afstemmen en bankgegevens op standaardrapporten afdrukken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source><bpt id="p1">**</bpt>Business processes<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Bedrijfsprocessen<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Business process<ept id="p1">](./media/Cash-process.PNG)](./media/Cash-process.PNG)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Bedrijfsproces<ept id="p1">](./media/Cash-process.PNG)](./media/Cash-process.PNG)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source><bpt id="p1">[</bpt>Cash discounts<ept id="p1">](cash-discounts.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Contantkortingen<ept id="p1">](cash-discounts.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source><bpt id="p1">[</bpt>Settlement overview<ept id="p1">](settlement-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vereffeningsoverzicht<ept id="p1">](settlement-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source><bpt id="p1">[</bpt>Configure settlement<ept id="p1">](configure-settlement.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vereffening configureren<ept id="p1">](configure-settlement.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source><bpt id="p1">[</bpt>Foreign currency revaluation for Accounts payable and Accounts receivable<ept id="p1">](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Herwaardering van vreemde valuta voor Leveranciers en Klanten<ept id="p1">](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">[</bpt>Letters of credit<ept id="p1">](letters-of-credit.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Kredietbrieven<ept id="p1">](letters-of-credit.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">[</bpt>Letters of credit and import collections<ept id="p1">](letters-of-credit-import-collections.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Brieven over commanditaire kredieten en invoerincasso's<ept id="p1">](letters-of-credit-import-collections.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">[</bpt>Letter of guarantee<ept id="p1">](letters-of-guarantee.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Borgstelling<ept id="p1">](letters-of-guarantee.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">[</bpt>Set up centralized payments<ept id="p1">](set-up-centralized-payments.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gecentraliseerde betalingen instellen<ept id="p1">](set-up-centralized-payments.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Bank reconciliation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bankafstemming</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">[</bpt>Advanced bank reconciliation overview<ept id="p1">](advanced-bank-reconciliation-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Overzicht van geavanceerde bankafstemming<ept id="p1">](advanced-bank-reconciliation-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source><bpt id="p1">[</bpt>Configure advanced bank reconciliation<ept id="p1">](configure-advanced-bank-reconciliation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Geavanceerde bankafstemming configureren<ept id="p1">](configure-advanced-bank-reconciliation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">[</bpt>Set up the advanced bank reconciliation import<ept id="p1">](set-up-advanced-bank-reconciliation-import-process.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Importeren van geavanceerde bankafstemming instellen<ept id="p1">](set-up-advanced-bank-reconciliation-import-process.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source><bpt id="p1">[</bpt>Reconcile bank statements using advanced bank reconciliation<ept id="p1">](reconcile-bank-statements-advanced-bank-reconciliation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Bankafschriften afstemmen via geavanceerde bankafstemming<ept id="p1">](reconcile-bank-statements-advanced-bank-reconciliation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">[</bpt>Set up bank reconciliation matching rules<ept id="p1">](set-up-bank-reconciliation-matching-rules.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Afstemmingsregels voor bankafstemming instellen<ept id="p1">](set-up-bank-reconciliation-matching-rules.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Accounts payable payments and settlements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leveranciersbetalingen en -vereffeningen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">[</bpt>Centralized payments for Accounts payable<ept id="p1">](../accounts-payable/centralized-payments-accounts-payable.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gecentraliseerde betalingen voor Leveranciers<ept id="p1">](../accounts-payable/centralized-payments-accounts-payable.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">[</bpt>Create vendor invoices using a payment proposal<ept id="p1">](../accounts-payable/create-vendor-payments-payment-proposal.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Leverancierfacturen maken met behulp van een betalingsvoorstel<ept id="p1">](../accounts-payable/create-vendor-payments-payment-proposal.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">[</bpt>Reverse a vendor payment<ept id="p1">](../accounts-payable/reverse-vendor-payment.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een leveranciersbetaling omkeren<ept id="p1">](../accounts-payable/reverse-vendor-payment.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">[</bpt>Vendor payments for a partial amount<ept id="p1">](../accounts-payable/vendor-payments-partial-amount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Leveranciersbetalingen voor een gedeeltelijk bedrag<ept id="p1">](../accounts-payable/vendor-payments-partial-amount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source><bpt id="p1">[</bpt>Prepayment invoices and prepayments overview<ept id="p1">](../accounts-payable/prepayments-invoices-vs-prepayments.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vooruitbetalingsfacturen en overzicht van vooruitbetalingen<ept id="p1">](../accounts-payable/prepayments-invoices-vs-prepayments.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Een gedeeltelijke leverancierbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Een gedeeltelijke leveranciersbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment that has discounts on vendor credit notes<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Een gedeeltelijke leveranciersbetaling vereffenen met kortingen op creditnota's van de leverancier<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment that has multiple discount periods<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Een gedeeltelijke leveranciersbetaling met meerdere kortingsperioden vereffenen<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">[</bpt>Scenario: Take a discount that is more than the calculated discount for a vendor payment<ept id="p1">](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Een korting nemen die groter is dan de berekende korting voor een leveranciersbetaling<ept id="p1">](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">[</bpt>Scenario: Take a cash discount outside the cash discount period<ept id="p1">](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Een contantkorting nemen buiten de periode van contantkorting<ept id="p1">](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Accounts receivable payments and settlements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klantbetalingen en -vereffeningen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">[</bpt>Centralized payments for Accounts receivable<ept id="p1">](../accounts-receivable/centralized-payments-accounts-receivable.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gecentraliseerde betalingen voor Klanten<ept id="p1">](../accounts-receivable/centralized-payments-accounts-receivable.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source><bpt id="p1">[</bpt>Customer payments for a partial amount<ept id="p1">](../accounts-receivable/customer-payments-partial-amount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Klantbetalingen voor een gedeeltelijk bedrag<ept id="p1">](../accounts-receivable/customer-payments-partial-amount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">[</bpt>Reimburse customers<ept id="p1">](../accounts-receivable/reimburse-customers.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Klanten terugbetalen<ept id="p1">](../accounts-receivable/reimburse-customers.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt>Scenario: Automatic settlement and prioritization<ept id="p1">](../accounts-receivable/automatic-settlement-prioritization.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Automatische vereffening en prioriteitstelling<ept id="p1">](../accounts-receivable/automatic-settlement-prioritization.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">[</bpt>Scenario: Handling cash discount for overpayments<ept id="p1">](../cash-bank-management/cash-discount-handling-overpayments.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Contantkorting voor overbetalingen verwerken<ept id="p1">](../cash-bank-management/cash-discount-handling-overpayments.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment and settle the final payment in full before the discount date<ept id="p1">](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Een gedeeltelijke klantbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum<ept id="p1">](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment before the discount date with a final payment after the discount date<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Een gedeeltelijke klantbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment that has discounts on credit notes<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Een gedeeltelijke klantbetaling vereffenen met kortingen op creditnota's<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment that has multiple discount periods<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Een gedeeltelijke klantbetaling met meerdere kortingsperioden vereffenen<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source><bpt id="p1">[</bpt>Scenario: Use one customer payment to settle multiple invoice that span multiple discount periods<ept id="p1">](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Scenario: Eén klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingsperioden omvatten<ept id="p1">](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aanvullende resources</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>What's new and in development</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Wat is nieuw en in ontwikkeling</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Go to the <bpt id="p1">[</bpt>Microsoft Dynamics 365 Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> to see what new features have been planned.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar de <bpt id="p1">[</bpt>releaseopmerkingen bij Microsoft Dynamics 365<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> om te zien welke nieuwe functies er zijn gepland.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Blogs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Weblogs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>You can find opinions, news, and other information on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> and the <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials blog<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt adviezen, nieuws en andere informatie over de <bpt id="p1">[</bpt>blog over Microsoft Dynamics 365<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> en de <bpt id="p2">[</bpt>blog over Microsoft Dynamics 365 Finance and Operations - Financials<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The <bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De <bpt id="p1">[</bpt>Microsoft Dynamics Operations-blog van de partnercommunity<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Task guides</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taakbegeleidingen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Additional help is available as task guides inside Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Extra informatie is beschikbaar als taakbegeleidingen binnen Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>To access task guides, click the Help button on any page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Videos</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Video's</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel] (<ph id="ph1">https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal] (<ph id="ph1">https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ph>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
