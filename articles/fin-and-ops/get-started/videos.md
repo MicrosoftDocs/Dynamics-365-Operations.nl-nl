@@ -1,197 +1,369 @@
----
-title: Video's voor Finance and Operations
-description: Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.
-author: josaw1
-manager: AnnBe
-ms.date: 05/11/2018
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User, IT Pro, Developer
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.author: josaw
-ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561663"
----
-# <a name="videos-for-finance-and-operations"></a><span data-ttu-id="b6998-103">Video's voor Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="b6998-103">Videos for Finance and Operations</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="b6998-104">Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.</span><span class="sxs-lookup"><span data-stu-id="b6998-104">This page lists Microsoft-created "how-to" and Tech talk videos relating to Dynamics 365 for Finance and Operations that are available on YouTube and other sites.</span></span>
-
-## <a name="dynamics-365-youtube-channel"></a><span data-ttu-id="b6998-105">Dynamics 365 YouTube-kanaal</span><span class="sxs-lookup"><span data-stu-id="b6998-105">Dynamics 365 YouTube channel</span></span>
-
-<span data-ttu-id="b6998-106">Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) vindt u video's die zijn gemaakt door Microsoft die een breed scala van zakelijke oplossingen voor Dynamics 365-producten laten zien.</span><span class="sxs-lookup"><span data-stu-id="b6998-106">On the [Microsoft Dynamics 365 YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), you can find videos created by Microsoft that demonstrate a wide range of business solutions for Dynamics 365 products.</span></span> <span data-ttu-id="b6998-107">In deze sectie worden de "hoe kan ik"-video's voor Dynamics 365 for Finance and Operations weergegeven die op het kanaal worden gehost.</span><span class="sxs-lookup"><span data-stu-id="b6998-107">This section lists the "how-to" videos for Dynamics 365 for Finance and Operations that are hosted on the channel.</span></span>
-
-<span data-ttu-id="b6998-108">Video's worden weergegeven op basis van functie, dus blader omlaag om de volledige lijst met video-inhoud weer te geven.</span><span class="sxs-lookup"><span data-stu-id="b6998-108">Videos are listed by feature, so scroll down to see the entire list of video content.</span></span>
-
-#### <a name="data-integration"></a><span data-ttu-id="b6998-109">Gegevensintegratie</span><span class="sxs-lookup"><span data-stu-id="b6998-109">Data integration</span></span>
-
-- [<span data-ttu-id="b6998-110">Integratie van prospect tot contant geld</span><span class="sxs-lookup"><span data-stu-id="b6998-110">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg)
-- [<span data-ttu-id="b6998-111">Een werkorder synchroniseren tussen Dynamics 365 for Field Service en Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="b6998-111">Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations</span></span>](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
-
-#### <a name="data-management"></a><span data-ttu-id="b6998-112">Gegevensbeheer</span><span class="sxs-lookup"><span data-stu-id="b6998-112">Data management</span></span>
-
-- [<span data-ttu-id="b6998-113">Gegevensentiteiten en gegevenspakketten gebruiken in Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="b6998-113">Use data entities and data packages in Dynamics 365 for Finance and Operations</span></span>](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
-
-#### <a name="development"></a><span data-ttu-id="b6998-114">Ontwikkeling</span><span class="sxs-lookup"><span data-stu-id="b6998-114">Development</span></span>
-
-- [<span data-ttu-id="b6998-115">Optimization advisor</span><span class="sxs-lookup"><span data-stu-id="b6998-115">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
-- [<span data-ttu-id="b6998-116">Een ontwikkelingsvertakking en build instellen</span><span class="sxs-lookup"><span data-stu-id="b6998-116">Setting up a development branch and build</span></span>](https://www.youtube.com/watch?v=qXLd-NMx9OY)
-- [<span data-ttu-id="b6998-117">Een ontwikkelingsmachine instellen</span><span class="sxs-lookup"><span data-stu-id="b6998-117">Setting up a development machine</span></span>](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [<span data-ttu-id="b6998-118">Integratie van Azure DevOps met Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b6998-118">Azure DevOps integration with Lifecycle Services</span></span>](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
-
-#### <a name="explore-the-user-interface"></a><span data-ttu-id="b6998-119">De gebruikersinterface verkennen</span><span class="sxs-lookup"><span data-stu-id="b6998-119">Explore the user interface</span></span>
-
-- [<span data-ttu-id="b6998-120">Aangepaste velden toevoegen</span><span class="sxs-lookup"><span data-stu-id="b6998-120">Add custom fields</span></span>](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [<span data-ttu-id="b6998-121">PowerApps insluiten</span><span class="sxs-lookup"><span data-stu-id="b6998-121">Embed PowerApps</span></span>](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-#### <a name="financial-management"></a><span data-ttu-id="b6998-122">Financieel beheer</span><span class="sxs-lookup"><span data-stu-id="b6998-122">Financial management</span></span>
-
-- [<span data-ttu-id="b6998-123">De versie van rapportontwerper zoeken</span><span class="sxs-lookup"><span data-stu-id="b6998-123">Find the version of Report designer</span></span>](https://www.youtube.com/embed/icfA5Q3kp4w)
-- [<span data-ttu-id="b6998-124">Het mobiele werkgebied Kostenbeheer</span><span class="sxs-lookup"><span data-stu-id="b6998-124">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
-- [<span data-ttu-id="b6998-125">Aan de slag met kostprijsboekhouding</span><span class="sxs-lookup"><span data-stu-id="b6998-125">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
-- [<span data-ttu-id="b6998-126">Kostenanalyse met Excel gebruiken</span><span class="sxs-lookup"><span data-stu-id="b6998-126">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
-
-#### <a name="intelligence"></a><span data-ttu-id="b6998-127">Intelligence</span><span class="sxs-lookup"><span data-stu-id="b6998-127">Intelligence</span></span>
-
-- [<span data-ttu-id="b6998-128">Uw eigen database gebruiken (BYOD) voor Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="b6998-128">Bring your own database (BYOD) to Dynamics 365 for Finance and Operations</span></span>](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
-- [<span data-ttu-id="b6998-129">Power BI-inhoud Kostenbeheer in Dynamics 365 gebruiken</span><span class="sxs-lookup"><span data-stu-id="b6998-129">How to use cost management Power BI content in Dynamics 365</span></span>](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
-
-#### <a name="lifecycle-services-lcs"></a><span data-ttu-id="b6998-130">Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="b6998-130">Lifecycle Services (LCS)</span></span>
-
-- [<span data-ttu-id="b6998-131">Activabibliotheek in Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b6998-131">Asset library in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=z-2xMRa1nOs)
-- [<span data-ttu-id="b6998-132">Cloudomgevingen</span><span class="sxs-lookup"><span data-stu-id="b6998-132">Cloud-hosted environments</span></span>](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
-- [<span data-ttu-id="b6998-133">Ondersteuningstickets maken in Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="b6998-133">Creating support tickets from Dynamics 365 for Operations</span></span>](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
-- [<span data-ttu-id="b6998-134">Omgevingen implementeren</span><span class="sxs-lookup"><span data-stu-id="b6998-134">Deploying environments</span></span>](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
-- [<span data-ttu-id="b6998-135">Aan de slag met Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b6998-135">Getting started with Lifecycle Services</span></span>](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
-- [<span data-ttu-id="b6998-136">Code in een sandbox-omgeving implementeren</span><span class="sxs-lookup"><span data-stu-id="b6998-136">Deploying code to a sandbox environment</span></span>](https://www.youtube.com/watch?v=5azLeOO078k)
-- [<span data-ttu-id="b6998-137">Code in een productieomgeving implementeren</span><span class="sxs-lookup"><span data-stu-id="b6998-137">Deploying code to a production environment</span></span>](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
-- [<span data-ttu-id="b6998-138">Implementatieprojecten in Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b6998-138">Implementation projects in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
-- [<span data-ttu-id="b6998-139">De code-upgrade en het functieproces beheren in Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="b6998-139">Manage the code upgrade and tool process in Dynamics 365 for Finance and Operations</span></span>](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
-- [<span data-ttu-id="b6998-140">Bedrijfsprocesbibliotheken in Lifecycle Services beheren</span><span class="sxs-lookup"><span data-stu-id="b6998-140">Managing business process libraries in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=S5msxj-2-x0)
-- [<span data-ttu-id="b6998-141">Methodologieën in Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b6998-141">Methodologies in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
-- [<span data-ttu-id="b6998-142">Een Dynamics 365 for Finance and Operations-productieomgeving aanvragen</span><span class="sxs-lookup"><span data-stu-id="b6998-142">Request a Dynamics 365 for Finance and Operations production environment</span></span>](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
-- [<span data-ttu-id="b6998-143">Gegevens vernieuwen in een productieomgeving</span><span class="sxs-lookup"><span data-stu-id="b6998-143">Refreshing data in a production environment</span></span>](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [<span data-ttu-id="b6998-144">Opname van een nieuwe Dynamics 365 for Finance and Operations-platformrelease na platformupdate 3</span><span class="sxs-lookup"><span data-stu-id="b6998-144">Uptake a new Dynamics 365 for Finance and Operations platform release after Platform update 3</span></span>](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
-- [<span data-ttu-id="b6998-145">Telemetrie gebruiken om belangrijke prestatietellers te controleren in Dynamics Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b6998-145">Use telemetry to monitor key performance counters in Dynamics Lifecycle Services</span></span>](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
-
-#### <a name="office-integration"></a><span data-ttu-id="b6998-146">Office-integratie</span><span class="sxs-lookup"><span data-stu-id="b6998-146">Office integration</span></span>
-
-- [<span data-ttu-id="b6998-147">Een Excel-sjabloon voor koptekst- en regelpatronen maken in Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="b6998-147">Create an Excel template for header and line patterns in Dynamics 365 for Finance and Operations</span></span>](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
-
-#### <a name="organization-administration"></a><span data-ttu-id="b6998-148">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="b6998-148">Organization administration</span></span>
-
-- [<span data-ttu-id="b6998-149">Documentbeheer</span><span class="sxs-lookup"><span data-stu-id="b6998-149">Document management</span></span>](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
-
-#### <a name="procurement-and-sourcing"></a><span data-ttu-id="b6998-150">Inkoopbeheer</span><span class="sxs-lookup"><span data-stu-id="b6998-150">Procurement and sourcing</span></span>
-
-- [<span data-ttu-id="b6998-151">Inkooporders goedkeuren op een mobiel apparaat</span><span class="sxs-lookup"><span data-stu-id="b6998-151">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
-- [<span data-ttu-id="b6998-152">Een nieuwe leverancier onboarden</span><span class="sxs-lookup"><span data-stu-id="b6998-152">Onboard a new vendor</span></span>](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
-
-#### <a name="production-control"></a><span data-ttu-id="b6998-153">Productiebeheer</span><span class="sxs-lookup"><span data-stu-id="b6998-153">Production control</span></span>
-
-- [<span data-ttu-id="b6998-154">Batchverdeling</span><span class="sxs-lookup"><span data-stu-id="b6998-154">Batch balancing</span></span>](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
-- [<span data-ttu-id="b6998-155">Verbeteringen in het vrijgaveproces van productieorders</span><span class="sxs-lookup"><span data-stu-id="b6998-155">Enhancements to the production order release process</span></span>](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
-- [<span data-ttu-id="b6998-156">Visuele planning met Gantt-diagram voor productie- en batchorders</span><span class="sxs-lookup"><span data-stu-id="b6998-156">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
-
-#### <a name="tax-engine"></a><span data-ttu-id="b6998-157">Belastingberekenfunctie</span><span class="sxs-lookup"><span data-stu-id="b6998-157">Tax engine</span></span>
-
-- [<span data-ttu-id="b6998-158">Overzicht van belastingberekenfunctie</span><span class="sxs-lookup"><span data-stu-id="b6998-158">Tax engine overview</span></span>](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
-
-#### <a name="warehouse-management"></a><span data-ttu-id="b6998-159">Magazijnbeheer</span><span class="sxs-lookup"><span data-stu-id="b6998-159">Warehouse management</span></span>
-
-- [<span data-ttu-id="b6998-160">Productieverzameling vrijgeven aan het magazijn in batch</span><span class="sxs-lookup"><span data-stu-id="b6998-160">Release production picking to the warehouse in batch</span></span>](https://youtu.be/8urAJn50dQ8)
-- [<span data-ttu-id="b6998-161">Magazijnsjabloon gebruiken om configuratie te kopiëren</span><span class="sxs-lookup"><span data-stu-id="b6998-161">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
-
-## <a name="fasttrack-tech-talks"></a><span data-ttu-id="b6998-162">FastTrack Tech-talks</span><span class="sxs-lookup"><span data-stu-id="b6998-162">FastTrack Tech Talks</span></span>
-
-<span data-ttu-id="b6998-163">[FastTrack voor Dynamics 365 Tech-talks](https://infopedia.eventbuilder.com/index?landingpageid=92tzhl) focus op het verschaffen van technische diepte en aanbevolen procedures die klanten en partners gedetailleerde kennis verschaffen die specifiek voor het onderwerpgebied geldt.</span><span class="sxs-lookup"><span data-stu-id="b6998-163">[FastTrack for Dynamics 365 Tech Talks](https://infopedia.eventbuilder.com/index?landingpageid=92tzhl) focus on providing technical depth and best practices that provide customers and partners with detailed knowledge that's specific to the subject areas.</span></span> <span data-ttu-id="b6998-164">In de volgende sectie worden opnamen van FastTrack Tech-talks weergegeven die beschikbaar zijn voor streamen of downloaden.</span><span class="sxs-lookup"><span data-stu-id="b6998-164">The following section lists FastTrack Tech talk recordings that are available to stream or download.</span></span> <span data-ttu-id="b6998-165">U kunt ook een PDF-kopie van het presentatiedek downloaden vanaf de Tech-talksite.</span><span class="sxs-lookup"><span data-stu-id="b6998-165">You can also download a PDF copy of the presentation deck from the Tech Talk site.</span></span> 
-
-#### <a name="data-management"></a><span data-ttu-id="b6998-166">Gegevensbeheer</span><span class="sxs-lookup"><span data-stu-id="b6998-166">Data management</span></span>
-
-- [<span data-ttu-id="b6998-167">Kopiëren naar rechtspersoon (DYN383PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-167">Copy into legal entity (DYN383PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=q3h0m7&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-168">Gegevensbeheer (DYN445PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-168">Data management (DYN445PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=a7n1v0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-169">Gegevensimport- en -exporttijd verminderen met configuraties (DYN315PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-169">Reduce data import and export time using configurations (DYN315PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=s6v1q3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="demo-data"></a><span data-ttu-id="b6998-170">Demogegevens</span><span class="sxs-lookup"><span data-stu-id="b6998-170">Demo data</span></span>
-
-- [<span data-ttu-id="b6998-171">Demogegevenspakketten (DYN443PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-171">Demo data packages (DYN443PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=m2r4o6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="deployment"></a><span data-ttu-id="b6998-172">Implementatie</span><span class="sxs-lookup"><span data-stu-id="b6998-172">Deployment</span></span>
-
-- [<span data-ttu-id="b6998-173">On-premises implementatie (DYN382PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-173">On-premises deployment (DYN382PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=m9i7a2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="develop-and-customize"></a><span data-ttu-id="b6998-174">Ontwikkelen en aanpassen</span><span class="sxs-lookup"><span data-stu-id="b6998-174">Develop and customize</span></span>
-
-- [<span data-ttu-id="b6998-175">Azure-integratiefuncties voor Dynamics 365 for Finance and Operations (DYN386PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-175">Azure Integration tools for Dynamics 365 for Finance and Operations (DYN386PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-176">Uitbreidbaarheid (DYN384PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-176">Extensibility (DYN384PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-177">Nieuwe analytische werkruimten uitbreiden of bouwen (DYN321PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-177">How to extend or build new analytical workspaces (DYN321PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=r7z0f5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-178">Prestatietestaanpak (DYN449PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-178">Performance testing approach (DYN449PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=k6c6g9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-179">Prestatietestaanpak (DYN449PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-179">Performance testing approach (DYN449PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=i1u5m9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="financial-reporting"></a><span data-ttu-id="b6998-180">Financiële rapportage</span><span class="sxs-lookup"><span data-stu-id="b6998-180">Financial reporting</span></span>
-
-- [<span data-ttu-id="b6998-181">Financiële rapportage (DYN305PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-181">Financial reporting (DYN305PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) 
-- [<span data-ttu-id="b6998-182">Rapportageopties in Dynamics 365 for Finance and Operations (VIR810PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-182">Reporting options in Dynamics 365 for Finance and Operations (VIR810PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="integration"></a><span data-ttu-id="b6998-183">Integratie</span><span class="sxs-lookup"><span data-stu-id="b6998-183">Integration</span></span>
-
-- [<span data-ttu-id="b6998-184">CDS-gegevensintegrator (DYN451PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-184">CDS data integrator (DYN451PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-185">Integratie (VIR806PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-185">Integration (VIR806PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-186">Integratie tussen Dynamics 365 for Sales en Dynamics 365 for Finance & Operations via CDS (DYN340PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-186">Integration between Dynamics 365 for Sales and Dynamics 365 for Finance & Operations via CDS (DYN340PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-187">Integration Framework in Dynamics 365 for Finance & Operations (DYN385PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-187">Integration framework within Dynamics 365 for Finance & Operations (DYN385PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-188">Taakautomatiseringsframework voor gegevensbeheer (DYN447PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-188">Task automation framework for Data management (DYN447PAL2)</span></span>](https://youtu.be/KqnXjNpR4AY)
-
-#### <a name="intelligence"></a><span data-ttu-id="b6998-189">Intelligence</span><span class="sxs-lookup"><span data-stu-id="b6998-189">Intelligence</span></span>
-
-- [<span data-ttu-id="b6998-190">Opties voor analyses en rapportage, afdrukken en de documentrouteringsagent (DYN442PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-190">Analytics & reporting options, printing, and the Document Routing Agent (DYN442PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=r6d9a6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-191">Inleiding in analytische werkgebieden (DYN317PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-191">Introducing analytical workspaces (DYN317PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=h6e1a7&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="mobile"></a><span data-ttu-id="b6998-192">Mobiel</span><span class="sxs-lookup"><span data-stu-id="b6998-192">Mobile</span></span>
-
-- [<span data-ttu-id="b6998-193">Mobielwerkgebied voor onkosten en projecten (DYN379PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-193">Expense & project mobile workspace (DYN379PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=u0g9h5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-194">Mobiel framework (VIR824PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-194">Mobile framework (VIR824PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=p2o7n7&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="procurement-and-sourcing"></a><span data-ttu-id="b6998-195">Inkoop en sourcing</span><span class="sxs-lookup"><span data-stu-id="b6998-195">Procurement and sourcing</span></span>
-
-- [<span data-ttu-id="b6998-196">Punch-out (DYN332PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-196">Punch out (DYN332PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=w5u5q8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-197">Leverancierssamenwerking (DYN327PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-197">Vendor collaboration (DYN327PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=c3e4c0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="retail"></a><span data-ttu-id="b6998-198">Retail</span><span class="sxs-lookup"><span data-stu-id="b6998-198">Retail</span></span>
-
-- [<span data-ttu-id="b6998-199">Dynamics 365 for Retail POS-uitbreidbaarheid: diepgravend (DYN342PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-199">Dynamics 365 for Retail POS extensibility: Deep dive (DYN342PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-200">Retail-architectuur en Retail Store Scale Unit (DYN307PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-200">Retail architecture & Retail Store Scale Unit (DYN307PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-201">Nieuwe functies in Dynamics 365 for Retail POS-uitbreidbaarheid (DYN339PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-201">What's new in Dynamics 365 for Retail POS extensibility (DYN339PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="support"></a><span data-ttu-id="b6998-202">Ondersteuning</span><span class="sxs-lookup"><span data-stu-id="b6998-202">Support</span></span>
-
-- [<span data-ttu-id="b6998-203">Service (VIR805PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-203">Servicing (VIR805PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=c2k8k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="upgrade-and-migration"></a><span data-ttu-id="b6998-204">​Upgrade en migratie</span><span class="sxs-lookup"><span data-stu-id="b6998-204">Upgrade and migration</span></span>
-
-- [<span data-ttu-id="b6998-205">Functies voor migratie van AX 2009 naar Dynamics 365 for Operations (VIR809PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-205">AX 2009 to Dynamics 365 for Operations migration tools (VIR809PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-206">Functies voor migratie van AX 2009 (DYN306PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-206">AX 2009 migration tools (DYN306PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-207">Upgrade van AX 2012 naar Dynamics 365 for Operations (VIR817PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-207">AX 2012 to Dynamics 365 for Operations upgrade (VIR817PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-208">Upgraden naar 7.2 (juli 2017) vanaf 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-208">How to upgrade to 7.2 (July 2017) from 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-209">Azure DevOps-setup (VIR782PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-209">Azure DevOps setup (VIR782PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="warehouse-management"></a><span data-ttu-id="b6998-210">Magazijnbeheer</span><span class="sxs-lookup"><span data-stu-id="b6998-210">Warehouse management</span></span>
-
-- [<span data-ttu-id="b6998-211">Toevoegingen aan ontvangen van gecombineerde nummerplaten (DYN331PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-211">Additions to mixed license plate receiving (DYN331PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=e0u6t2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-212">Vraagaanvulling voor verzamelen van grondstoffen (DYN333PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-212">Demand replenishment for raw material picking (DYN333PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=i5p9d2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-213">Artikel- en magazijnmigratieproces voor gebruik van geavanceerd magazijnbeheer (DYN316PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-213">Item and warehouse migration process to use advanced warehouse management (DYN316PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=w0k4b4&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-214">Orderverzamelproces per stuk (DYN330PAL2)</span><span class="sxs-lookup"><span data-stu-id="b6998-214">Piece by piece picking process (DYN330PAL2)</span></span>](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [<span data-ttu-id="b6998-215">Visuele planning voor productieorders en kanbans (DYN328PAL)</span><span class="sxs-lookup"><span data-stu-id="b6998-215">Visual scheduling for Production orders and kanbans (DYN328PAL)</span></span>](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- <span data-ttu-id="b6998-216">[Magazijnintegratie met productie (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Mobiele app voor magazijnbeheer (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</span><span class="sxs-lookup"><span data-stu-id="b6998-216">[Warehouse integration with Production (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Warehousing mobile app (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="videos.md" target-language="nl-NL">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>videos.8bd24e.1b828382f9f81d796fcfaef0e9c7dc9450a97992.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>1b828382f9f81d796fcfaef0e9c7dc9450a97992</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>2bbc0eeca6826c529fb729b82d16f287c1ce05bb</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/16/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\fin-and-ops\get-started\videos.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Videos for Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Video's voor Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This page lists Microsoft-created "how-to" and Tech talk videos relating to Dynamics 365 for Finance and Operations that are available on YouTube and other sites.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Videos for Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Video's voor Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This page lists Microsoft-created "how-to" and Tech talk videos relating to Dynamics 365 for Finance and Operations that are available on YouTube and other sites.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Dynamics 365 YouTube channel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 YouTube-kanaal</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>On the <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube channel<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>, you can find videos created by Microsoft that demonstrate a wide range of business solutions for Dynamics 365 products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Op het <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube-kanaal<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept> vindt u video's die zijn gemaakt door Microsoft die een breed scala van zakelijke oplossingen voor Dynamics 365-producten laten zien.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>This section lists the "how-to" videos for Dynamics 365 for Finance and Operations that are hosted on the channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In deze sectie worden de "hoe kan ik"-video's voor Dynamics 365 for Finance and Operations weergegeven die op het kanaal worden gehost.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Videos are listed by feature, so scroll down to see the entire list of video content.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Video's worden weergegeven op basis van functie, dus blader omlaag om de volledige lijst met video-inhoud weer te geven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Data integration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gegevensintegratie</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source><bpt id="p1">[</bpt>Prospect to cash integration<ept id="p1">](https://youtu.be/AVV9x5x-XCg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Integratie van prospect tot contant geld<ept id="p1">](https://youtu.be/AVV9x5x-XCg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source><bpt id="p1">[</bpt>Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=46ylO7raZAo&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een werkorder synchroniseren tussen Dynamics 365 for Field Service en Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=46ylO7raZAo&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Data management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gegevensbeheer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">[</bpt>Use data entities and data packages in Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=UCyzbA41j8g&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gegevensentiteiten en gegevenspakketten gebruiken in Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=UCyzbA41j8g&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Development</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ontwikkeling</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">[</bpt>Optimization advisor<ept id="p1">](https://www.youtube.com/watch?v=MRsAzgFCUSQ&amp;t=4s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Optimization advisor<ept id="p1">](https://www.youtube.com/watch?v=MRsAzgFCUSQ&amp;t=4s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">[</bpt>Setting up a development branch and build<ept id="p1">](https://www.youtube.com/watch?v=qXLd-NMx9OY)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een ontwikkelingsvertakking en build instellen<ept id="p1">](https://www.youtube.com/watch?v=qXLd-NMx9OY)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source><bpt id="p1">[</bpt>Setting up a development machine<ept id="p1">](https://www.youtube.com/watch?v=cqp9MetfiyM)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een ontwikkelingsmachine instellen<ept id="p1">](https://www.youtube.com/watch?v=cqp9MetfiyM)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">[</bpt>Azure DevOps integration with Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=0QyyyUp1zHQ&amp;t=1s)</ept></source><target logoport:matchpercent="0" state="translated"><bpt id="p1">[</bpt>Azure DevOps-integratie met Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=0QyyyUp1zHQ&amp;t=1s)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Explore the user interface</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">De gebruikersinterface verkennen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">[</bpt>Add custom fields<ept id="p1">](https://www.youtube.com/watch?v=gWSGZI9Vtnc)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Aangepaste velden toevoegen<ept id="p1">](https://www.youtube.com/watch?v=gWSGZI9Vtnc)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source><bpt id="p1">[</bpt>Embed PowerApps<ept id="p1">](https://www.youtube.com/watch?v=x3qyA1bH-NY)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>PowerApps insluiten<ept id="p1">](https://www.youtube.com/watch?v=x3qyA1bH-NY)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Financial management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Financieel beheer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source><bpt id="p1">[</bpt>Find the version of Report designer<ept id="p1">](https://www.youtube.com/embed/icfA5Q3kp4w)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>De versie van rapportontwerper zoeken<ept id="p1">](https://www.youtube.com/embed/icfA5Q3kp4w)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">[</bpt>Cost control mobile workspace<ept id="p1">](https://youtu.be/imsuTg8rUVk)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Het mobiele werkgebied Kostenbeheer<ept id="p1">](https://youtu.be/imsuTg8rUVk)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">[</bpt>Get started with Cost accounting<ept id="p1">](https://youtu.be/1pUDtJQZ8FU)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Aan de slag met kostprijsboekhouding<ept id="p1">](https://youtu.be/1pUDtJQZ8FU)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">[</bpt>Use Excel for cost analysis<ept id="p1">](https://youtu.be/-HKHYdClvx8)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Kostenanalyse met Excel gebruiken<ept id="p1">](https://youtu.be/-HKHYdClvx8)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">[</bpt>Expense experience<ept id="p1">](https://youtu.be/Ocy-MsTvEE0)</ept></source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Ervaring voor onkostennota's<ept id="p1">](https://youtu.be/Ocy-MsTvEE0)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Intelligence</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Intelligence</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">[</bpt>Bring your own database (BYOD) to Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=-MaxtBJu2_o&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Uw eigen database gebruiken (BYOD) voor Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=-MaxtBJu2_o&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">[</bpt>How to use cost management Power BI content in Dynamics 365<ept id="p1">](https://www.youtube.com/watch?v=5jWHnM_C7WM&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Power BI-inhoud Kostenbeheer in Dynamics 365 gebruiken<ept id="p1">](https://www.youtube.com/watch?v=5jWHnM_C7WM&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Lifecycle Services (LCS)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lifecycle Services (LCS)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">[</bpt>Asset library in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=z-2xMRa1nOs)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Activabibliotheek in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=z-2xMRa1nOs)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">[</bpt>Cloud-hosted environments<ept id="p1">](https://www.youtube.com/watch?v=igjVt1lbyLQ&amp;t=17s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Cloudomgevingen<ept id="p1">](https://www.youtube.com/watch?v=igjVt1lbyLQ&amp;t=17s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">[</bpt>Creating support tickets from Dynamics 365 for Operations<ept id="p1">](https://www.youtube.com/watch?v=avENUYBTBlA&amp;t=2s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Ondersteuningstickets maken in Dynamics 365 for Operations<ept id="p1">](https://www.youtube.com/watch?v=avENUYBTBlA&amp;t=2s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">[</bpt>Deploying environments<ept id="p1">](https://www.youtube.com/watch?v=FUROjGuhQEA&amp;t=68s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Omgevingen implementeren<ept id="p1">](https://www.youtube.com/watch?v=FUROjGuhQEA&amp;t=68s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">[</bpt>Getting started with Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=qLBjKAPaqN4&amp;t=24s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Aan de slag met Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=qLBjKAPaqN4&amp;t=24s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source><bpt id="p1">[</bpt>Deploying code to a sandbox environment<ept id="p1">](https://www.youtube.com/watch?v=5azLeOO078k)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Code in een sandbox-omgeving implementeren<ept id="p1">](https://www.youtube.com/watch?v=5azLeOO078k)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">[</bpt>Deploying code to a production environment<ept id="p1">](https://www.youtube.com/watch?v=ogXo-saZkmE&amp;t=2s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Code in een productieomgeving implementeren<ept id="p1">](https://www.youtube.com/watch?v=ogXo-saZkmE&amp;t=2s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt>Implementation projects in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=V1vVOgcTuw4&amp;t=18s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Implementatieprojecten in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=V1vVOgcTuw4&amp;t=18s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">[</bpt>Manage the code upgrade and tool process in Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=M-AtR6ocYM8&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>De code-upgrade en het functieproces beheren in Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=M-AtR6ocYM8&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source><bpt id="p1">[</bpt>Managing business process libraries in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=S5msxj-2-x0)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Bedrijfsprocesbibliotheken in Lifecycle Services beheren<ept id="p1">](https://www.youtube.com/watch?v=S5msxj-2-x0)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">[</bpt>Methodologies in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=YRMJ15DvgZ8)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Methodologieën in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=YRMJ15DvgZ8)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">[</bpt>Request a Dynamics 365 for Finance and Operations production environment<ept id="p1">](https://www.youtube.com/watch?v=5j1GapLr3MY&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een Dynamics 365 for Finance and Operations-productieomgeving aanvragen<ept id="p1">](https://www.youtube.com/watch?v=5j1GapLr3MY&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source><bpt id="p1">[</bpt>Refreshing data in a production environment<ept id="p1">](https://www.youtube.com/watch?v=VCd5SgkYPTw)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gegevens vernieuwen in een productieomgeving<ept id="p1">](https://www.youtube.com/watch?v=VCd5SgkYPTw)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source><bpt id="p1">[</bpt>Uptake a new Dynamics 365 for Finance and Operations platform release after Platform update 3<ept id="p1">](https://www.youtube.com/watch?v=nkiKP2Au6OQ&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Opname van een nieuwe Dynamics 365 for Finance and Operations-platformrelease na platformupdate 3<ept id="p1">](https://www.youtube.com/watch?v=nkiKP2Au6OQ&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">[</bpt>Use telemetry to monitor key performance counters in Dynamics Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=18u6SC8GeFY&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Telemetrie gebruiken om belangrijke prestatietellers te controleren in Dynamics Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=18u6SC8GeFY&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Office integration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Office-integratie</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source><bpt id="p1">[</bpt>Create an Excel template for header and line patterns in Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=RTicLb-6dbI&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een Excel-sjabloon voor koptekst- en regelpatronen maken in Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=RTicLb-6dbI&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Organization administration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Organisatiebeheer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source><bpt id="p1">[</bpt>Document management<ept id="p1">](https://www.youtube.com/watch?v=p4rl1CkiLN4&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Documentbeheer<ept id="p1">](https://www.youtube.com/watch?v=p4rl1CkiLN4&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Procurement and sourcing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inkoopbeheer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source><bpt id="p1">[</bpt>Approve purchase orders on a mobile device<ept id="p1">](https://youtu.be/gZ-gOlJe7H8)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Inkooporders goedkeuren op een mobiel apparaat<ept id="p1">](https://youtu.be/gZ-gOlJe7H8)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source><bpt id="p1">[</bpt>Onboard a new vendor<ept id="p1">](https://www.youtube.com/watch?v=0KUc3AGaTKk&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een nieuwe leverancier onboarden<ept id="p1">](https://www.youtube.com/watch?v=0KUc3AGaTKk&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Production control</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Productiebeheer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source><bpt id="p1">[</bpt>Batch balancing<ept id="p1">](https://www.youtube.com/watch?v=4SNLWsU9KyI&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Batchverdeling<ept id="p1">](https://www.youtube.com/watch?v=4SNLWsU9KyI&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source><bpt id="p1">[</bpt>Enhancements to the production order release process<ept id="p1">](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Verbeteringen in het vrijgaveproces van productieorders<ept id="p1">](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source><bpt id="p1">[</bpt>Visual scheduling with Gantt chart for production and batch orders<ept id="p1">](https://youtu.be/BtbuShkGj4I)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Visuele planning met Gantt-diagram voor productie- en batchorders<ept id="p1">](https://youtu.be/BtbuShkGj4I)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Tax engine</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belastingberekenfunctie</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source><bpt id="p1">[</bpt>Tax engine overview<ept id="p1">](https://www.youtube.com/watch?v=jAFpEBOtNWI&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Overzicht van belastingberekenfunctie<ept id="p1">](https://www.youtube.com/watch?v=jAFpEBOtNWI&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Warehouse management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magazijnbeheer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source><bpt id="p1">[</bpt>Release production picking to the warehouse in batch<ept id="p1">](https://youtu.be/8urAJn50dQ8)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Productieverzameling vrijgeven aan het magazijn in batch<ept id="p1">](https://youtu.be/8urAJn50dQ8)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source><bpt id="p1">[</bpt>Use warehouse template to copy configuration<ept id="p1">](https://www.youtube.com/watch?v=K2WIfFlqJYs&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Magazijnsjabloon gebruiken om configuratie te kopiëren<ept id="p1">](https://www.youtube.com/watch?v=K2WIfFlqJYs&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>FastTrack Tech Talks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FastTrack Tech-talks</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source><bpt id="p1">[</bpt>FastTrack for Dynamics 365 Tech Talks<ept id="p1">](https://infopedia.eventbuilder.com/index?landingpageid=92tzhl)</ept> focus on providing technical depth and best practices that provide customers and partners with detailed knowledge that's specific to the subject areas.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>FastTrack voor Dynamics 365 Tech-talks<ept id="p1">](https://infopedia.eventbuilder.com/index?landingpageid=92tzhl)</ept> focus op het verschaffen van technische diepte en aanbevolen procedures die klanten en partners gedetailleerde kennis verschaffen die specifiek voor het onderwerpgebied geldt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>The following section lists FastTrack Tech talk recordings that are available to stream or download.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In de volgende sectie worden opnamen van FastTrack Tech-talks weergegeven die beschikbaar zijn voor streamen of downloaden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>You can also download a PDF copy of the presentation deck from the Tech Talk site.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt ook een PDF-kopie van het presentatiedek downloaden vanaf de Tech-talksite.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Data management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gegevensbeheer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source><bpt id="p1">[</bpt>Copy into legal entity (DYN383PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=q3h0m7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Kopiëren naar rechtspersoon (DYN383PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=q3h0m7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source><bpt id="p1">[</bpt>Data management (DYN445PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=a7n1v0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gegevensbeheer (DYN445PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=a7n1v0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source><bpt id="p1">[</bpt>Reduce data import and export time using configurations (DYN315PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=s6v1q3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gegevensimport- en -exporttijd verminderen met configuraties (DYN315PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=s6v1q3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Demo data</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Demogegevens</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source><bpt id="p1">[</bpt>Demo data packages (DYN443PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=m2r4o6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Demogegevenspakketten (DYN443PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=m2r4o6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Deployment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Implementatie</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source><bpt id="p1">[</bpt>On-premises deployment (DYN382PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=m9i7a2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>On-premises implementatie (DYN382PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=m9i7a2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Develop and customize</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ontwikkelen en aanpassen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source><bpt id="p1">[</bpt>Azure Integration tools for Dynamics 365 for Finance and Operations (DYN386PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Azure-integratiefuncties voor Dynamics 365 for Finance and Operations (DYN386PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source><bpt id="p1">[</bpt>Extensibility (DYN384PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Uitbreidbaarheid (DYN384PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source><bpt id="p1">[</bpt>How to extend or build new analytical workspaces (DYN321PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=r7z0f5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Nieuwe analytische werkruimten uitbreiden of bouwen (DYN321PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=r7z0f5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source><bpt id="p1">[</bpt>Performance testing approach (DYN449PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=k6c6g9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Prestatietestaanpak (DYN449PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=k6c6g9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source><bpt id="p1">[</bpt>Performance testing approach (DYN449PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i1u5m9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Prestatietestaanpak (DYN449PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i1u5m9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Financial reporting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Financiële rapportage</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source><bpt id="p1">[</bpt>Financial reporting (DYN305PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Financiële rapportage (DYN305PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source><bpt id="p1">[</bpt>Reporting options in Dynamics 365 for Finance and Operations (VIR810PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Rapportageopties in Dynamics 365 for Finance and Operations (VIR810PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Integration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Integratie</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source><bpt id="p1">[</bpt>CDS data integrator (DYN451PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>CDS-gegevensintegrator (DYN451PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source><bpt id="p1">[</bpt>Integration (VIR806PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Integratie (VIR806PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source><bpt id="p1">[</bpt>Integration between Dynamics 365 for Sales and Dynamics 365 for Finance &amp; Operations via CDS (DYN340PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Integratie tussen Dynamics 365 for Sales en Dynamics 365 for Finance &amp; Operations via CDS (DYN340PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source><bpt id="p1">[</bpt>Integration framework within Dynamics 365 for Finance &amp; Operations (DYN385PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Integration Framework in Dynamics 365 for Finance &amp; Operations (DYN385PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source><bpt id="p1">[</bpt>Task automation framework for Data management (DYN447PAL2)<ept id="p1">](https://youtu.be/KqnXjNpR4AY)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Taakautomatiseringsframework voor gegevensbeheer (DYN447PAL2)<ept id="p1">](https://youtu.be/KqnXjNpR4AY)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Intelligence</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Intelligence</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source><bpt id="p1">[</bpt>Analytics &amp; reporting options, printing, and the Document Routing Agent (DYN442PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=r6d9a6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Opties voor analyses en rapportage, afdrukken en de documentrouteringsagent (DYN442PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=r6d9a6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source><bpt id="p1">[</bpt>Introducing analytical workspaces (DYN317PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h6e1a7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Inleiding in analytische werkgebieden (DYN317PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h6e1a7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Mobile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mobiel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source><bpt id="p1">[</bpt>Expense &amp; project mobile workspace (DYN379PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u0g9h5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Mobielwerkgebied voor onkosten en projecten (DYN379PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u0g9h5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source><bpt id="p1">[</bpt>Mobile framework (VIR824PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=p2o7n7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Mobiel framework (VIR824PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=p2o7n7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Procurement and sourcing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inkoop en sourcing</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source><bpt id="p1">[</bpt>Punch out (DYN332PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=w5u5q8&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Punch-out (DYN332PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=w5u5q8&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source><bpt id="p1">[</bpt>Vendor collaboration (DYN327PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c3e4c0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Leverancierssamenwerking (DYN327PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c3e4c0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Retail</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source><bpt id="p1">[</bpt>Dynamics 365 for Retail POS extensibility: Deep dive (DYN342PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Dynamics 365 for Retail POS-uitbreidbaarheid: diepgravend (DYN342PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source><bpt id="p1">[</bpt>Retail architecture &amp; Retail Store Scale Unit (DYN307PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Retail-architectuur en Retail Store Scale Unit (DYN307PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source><bpt id="p1">[</bpt>What's new in Dynamics 365 for Retail POS extensibility (DYN339PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Nieuwe functies in Dynamics 365 for Retail POS-uitbreidbaarheid (DYN339PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ondersteuning</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source><bpt id="p1">[</bpt>Servicing (VIR805PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c2k8k3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Service (VIR805PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c2k8k3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Upgrade and migration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">​Upgrade en migratie</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source><bpt id="p1">[</bpt>AX 2009 to Dynamics 365 for Operations migration tools (VIR809PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Functies voor migratie van AX 2009 naar Dynamics 365 for Operations (VIR809PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source><bpt id="p1">[</bpt>AX 2009 migration tools (DYN306PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Functies voor migratie van AX 2009 (DYN306PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source><bpt id="p1">[</bpt>AX 2012 to Dynamics 365 for Operations upgrade (VIR817PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Upgrade van AX 2012 naar Dynamics 365 for Operations (VIR817PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source><bpt id="p1">[</bpt>How to upgrade to 7.2 (July 2017) from 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Upgraden naar 7.2 (juli 2017) vanaf 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source><bpt id="p1">[</bpt>Azure DevOps setup (VIR782PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source><target logoport:matchpercent="0" state="translated"><bpt id="p1">[</bpt>Azure DevOps-instellingen (VIR782PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Warehouse management</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Magazijnbeheer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source><bpt id="p1">[</bpt>Additions to mixed license plate receiving (DYN331PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=e0u6t2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Toevoegingen aan ontvangen van gecombineerde nummerplaten (DYN331PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=e0u6t2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source><bpt id="p1">[</bpt>Demand replenishment for raw material picking (DYN333PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i5p9d2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vraagaanvulling voor verzamelen van grondstoffen (DYN333PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i5p9d2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source><bpt id="p1">[</bpt>Item and warehouse migration process to use advanced warehouse management (DYN316PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=w0k4b4&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Artikel- en magazijnmigratieproces voor gebruik van geavanceerd magazijnbeheer (DYN316PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=w0k4b4&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source><bpt id="p1">[</bpt>Piece by piece picking process (DYN330PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Orderverzamelproces per stuk (DYN330PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source><bpt id="p1">[</bpt>Visual scheduling for Production orders and kanbans (DYN328PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Visuele planning voor productieorders en kanbans (DYN328PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source><bpt id="p1">[</bpt>Warehouse integration with Production (DYN344PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept><ph id="ph1"> - </ph><bpt id="p2">[</bpt>Warehousing mobile app (VIR816PAL)<ept id="p2">](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Magazijnintegratie met productie (DYN344PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept><ph id="ph1"> - </ph><bpt id="p2">[</bpt>Mobiele app voor magazijnbeheer (VIR816PAL)<ept id="p2">](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

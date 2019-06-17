@@ -1,101 +1,303 @@
----
-title: Overzicht van leveranciersfacturen
-description: Dit artikel geeft algemene informatie over het leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.
-author: abruer
-manager: AnnBe
-ms.date: 03/29/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 13971
-ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
-ms.search.region: Global
-ms.author: abruer
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509493"
----
-# <a name="vendor-invoices-overview"></a><span data-ttu-id="a07b0-105">Overzicht van leveranciersfacturen</span><span class="sxs-lookup"><span data-stu-id="a07b0-105">Vendor invoices overview</span></span>
-
-[!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
-
-<span data-ttu-id="a07b0-106">Dit artikel geeft algemene informatie over het leveranciersfacturen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-106">This article provides general information about vendor invoices.</span></span> <span data-ttu-id="a07b0-107">Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-107">Vendor invoices are requests for payment for products and services that were received.</span></span> <span data-ttu-id="a07b0-108">Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.</span><span class="sxs-lookup"><span data-stu-id="a07b0-108">Vendor invoices can represent a bill for ongoing services, or they can be based on purchase orders for specific items and services.</span></span> 
-
-## <a name="vendor-invoices"></a><span data-ttu-id="a07b0-109">Leveranciersfacturen</span><span class="sxs-lookup"><span data-stu-id="a07b0-109">Vendor invoices</span></span>
-
-<span data-ttu-id="a07b0-110">Een leveranciersfactuur op basis van een inkooporder is een factuur die wordt gegenereerd wanneer producten of services worden ontvangen op basis van een inkooporder die bij een leverancier is geplaatst.</span><span class="sxs-lookup"><span data-stu-id="a07b0-110">A vendor invoice from a purchase order is an invoice that is produced when products or services are received according to a purchase order that was placed with a vendor.</span></span> <span data-ttu-id="a07b0-111">De leveranciersfactuur bevat een koptekst en één of meer regels voor artikelen of services.</span><span class="sxs-lookup"><span data-stu-id="a07b0-111">The vendor invoice contains a header, and one or more lines for items or services.</span></span> <span data-ttu-id="a07b0-112">Een leveranciersfactuur voltooit de cyclus die loopt van inkooporder via productontvangstbon tot leveranciersfactuur.</span><span class="sxs-lookup"><span data-stu-id="a07b0-112">A vendor invoice completes the cycle from purchase order to product receipt to vendor invoice.</span></span> 
-
-<span data-ttu-id="a07b0-113">Hoewel sommige leveranciersfacturen aan een inkooporder zijn gekoppeld, kunnen leveranciersfacturen ook regels bevatten die niet overeenkomen met inkooporderregels.</span><span class="sxs-lookup"><span data-stu-id="a07b0-113">Although some vendor invoices are connected to a purchase order, vendor invoices can also contain lines that don't correspond to purchase order lines.</span></span> <span data-ttu-id="a07b0-114">U kunt ook leveranciersfacturen maken die niet aan inkooporders zijn gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="a07b0-114">You can also create vendor invoices that aren't associated with any purchase order.</span></span> <span data-ttu-id="a07b0-115">Deze leveranciersfacturen kunnen voor lopende services staan, zoals een rekening van een energiebedrijf, en u hoeft niet naar een inkooporder te verwijzen wanneer u deze toevoegt.</span><span class="sxs-lookup"><span data-stu-id="a07b0-115">These vendor invoices might represent ongoing services, such as a utility bill, and you don't have to reference a purchase order when you add them.</span></span> 
-
-<span data-ttu-id="a07b0-116">Er zijn verschillende manieren om een leveranciersfactuur op te geven:</span><span class="sxs-lookup"><span data-stu-id="a07b0-116">There are several ways to enter a vendor invoice:</span></span>
-
--   <span data-ttu-id="a07b0-117">Via het leveranciersfactuurregister kunt u snel facturen invoeren die niet naar een inkooporder verwijzen, zodat u de onkosten kunt samenvoegen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-117">The vendor invoice register lets you quickly enter invoices that don't reference a purchase order, so that you can accrue the expense.</span></span> <span data-ttu-id="a07b0-118">Door het goedkeuringsjournaal voor leveranciersfacturen te gebruiken, kunt u deze facturen selecteren en naar het leveranciersaldo boeken om de transitorische bedragen terug te boeken.</span><span class="sxs-lookup"><span data-stu-id="a07b0-118">By using the vendor invoice approval journal, you can select those invoices and post them to the vendor balance to reverse the accrual.</span></span>
--   <span data-ttu-id="a07b0-119">Met het leveranciersfactuurjournaal kunt u in één stap snel facturen invoeren die niet naar een inkooporder verwijzen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-119">The vendor invoice journal lets you quickly enter invoices that don't reference a purchase order, in a single step.</span></span>
--   <span data-ttu-id="a07b0-120">In combinatie met de pool van leveranciersfacturen kunt u met het leveranciersfactuurregister snel facturen invoeren om onkosten samen te voegen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-120">Together with the vendor invoice pool, the vendor invoice register lets you quickly enter invoices to accrue the expense.</span></span> <span data-ttu-id="a07b0-121">U kunt de bijbehorende inkooporders later openen om de factuur voor de onkostenrekening te boeken.</span><span class="sxs-lookup"><span data-stu-id="a07b0-121">You can open the associated purchase orders later to post the invoice against the expense account.</span></span>
--   <span data-ttu-id="a07b0-122">Op de pagina's **Openstaande leveranciersfacturen** en **Leveranciersfacturen in behandeling** kunt u leveranciersfacturen maken van bevestigde inkooporders.</span><span class="sxs-lookup"><span data-stu-id="a07b0-122">The **Open vendor invoices** and **Pending vendor invoices** pages let you create vendor invoices from confirmed purchase orders.</span></span>
-
-<span data-ttu-id="a07b0-123">De volgende discussie biedt meer informatie over het gebruik van de pagina **Openstaande leveranciersfacturen** of **Leveranciersfacturen in behandeling** om een leveranciersfactuur van een inkooporder te maken.</span><span class="sxs-lookup"><span data-stu-id="a07b0-123">The following discussion provide more information about how to use the **Open vendor invoices** or **Pending vendor invoices** page to create a vendor invoice from a purchase order.</span></span>
-
-## <a name="understanding-invoice-line-quantities"></a><span data-ttu-id="a07b0-124">Factuurregelhoeveelheden begrijpen</span><span class="sxs-lookup"><span data-stu-id="a07b0-124">Understanding invoice line quantities</span></span>
-<span data-ttu-id="a07b0-125">Wanneer u een leveranciersfactuur opent vanuit een gerelateerde inkooporder, worden factuurregels gemaakt op basis van de inkooporder.</span><span class="sxs-lookup"><span data-stu-id="a07b0-125">When you open a vendor invoice from a related purchase order, invoice lines are created from the purchase order.</span></span> <span data-ttu-id="a07b0-126">Standaard komen de hoeveelheden overeen met de hoeveelheid van de productontvangstbon.</span><span class="sxs-lookup"><span data-stu-id="a07b0-126">By default, the quantities are taken from the product receipt quantity.</span></span> <span data-ttu-id="a07b0-127">U kunt echter de volgende standaardgedragingen gebruiken:</span><span class="sxs-lookup"><span data-stu-id="a07b0-127">However, you can use any of the following default behaviors:</span></span>
-
--   <span data-ttu-id="a07b0-128">**Hoeveelheid nu ontvangen** - Gebruik deze optie voor gedeeltelijke zendingen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-128">**Receive now quantity** – Use this option for partial shipments.</span></span> <span data-ttu-id="a07b0-129">De standaardwaarde in het veld **Hoeveelheid** wordt overgenomen uit het veld **Nu ontvangen** in de inkooporder.</span><span class="sxs-lookup"><span data-stu-id="a07b0-129">The default value in the **Quantity** field is taken from the **Receive now** quantity field on the purchase order.</span></span>
--   <span data-ttu-id="a07b0-130">**Bestelde hoeveelheid** - Gebruik deze optie voor volledige zendingen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-130">**Ordered quantity** – Use this option for complete shipments.</span></span> <span data-ttu-id="a07b0-131">De standaardwaarde in het veld **Hoeveelheid** wordt overgenomen uit het hoeveelheidsveld **Besteld** in de inkooporder.</span><span class="sxs-lookup"><span data-stu-id="a07b0-131">The default value in the **Quantity** field is taken from the **Ordered** quantity field on the purchase order.</span></span>
--   <span data-ttu-id="a07b0-132">**Geregistreerde hoeveelheid** - Gebruik deze optie als het artikel moet worden geregistreerd, zoals opgegeven op de pagina **Artikelmodelgroepen**.</span><span class="sxs-lookup"><span data-stu-id="a07b0-132">**Registered quantity** – Use this option if the item requires registration, as specified on the **Item model groups** page.</span></span> <span data-ttu-id="a07b0-133">De standaardwaarde in het veld **Hoeveelheid** is de fysieke updatehoeveelheid die is geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="a07b0-133">The default value in the **Quantity** field is the physical update quantity that has been registered.</span></span>
--   <span data-ttu-id="a07b0-134">**Hoeveelheid productontvangstbon** – Gebruik deze optie als al een productontvangstbon voor de order is ontvangen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-134">**Product receipt quantity** – Use this option if a product receipt has already been received for the order.</span></span> <span data-ttu-id="a07b0-135">De standaardwaarde in het veld **Hoeveelheid** wordt afgeleid van de totale hoeveelheid aan beschikbare productontvangstbonnen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-135">The default value in the **Quantity** field is taken from the total quantity of available product receipts.</span></span>
--   <span data-ttu-id="a07b0-136">**Geregistreerde hoeveelheid en services** – Gebruik deze optie als hoeveelheden in aankomstjournalen zijn geregistreerd voor artikelen in voorraad of artikelen die niet in voorraad zijn opgeslagen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-136">**Registered quantity and services** – Use this option if quantities have been registered in arrival journals for stocked items or items that aren't stocked.</span></span> <span data-ttu-id="a07b0-137">Deze optie omvat ook al dan niet geregistreerde services.</span><span class="sxs-lookup"><span data-stu-id="a07b0-137">This option also includes services, regardless of whether they are registered.</span></span>
-
-<span data-ttu-id="a07b0-138">Als uw rechtspersoon factuurvereffening gebruikt, kunt u de resultaten van de hoeveelheidsvereffening in de kolom **Overeenkomst van hoeveelheid van productontvangstbon** bekijken.</span><span class="sxs-lookup"><span data-stu-id="a07b0-138">If your legal entity uses invoice matching, you can view the results of the quantity matching in the **Product receipt quantity match** column.</span></span> <span data-ttu-id="a07b0-139">U kunt ook de menuopdracht **Overeenkomende gegevens** op het tabblad **Aanpassen** gebruiken om de resultaten van de hoeveelheidsvereffening te bekijken.</span><span class="sxs-lookup"><span data-stu-id="a07b0-139">You can also use the **Matching details** menu command on the **Review** tab to view the results of the quantity matching.</span></span>
-
-## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a><span data-ttu-id="a07b0-140">Een regel toevoegen die niet bestaat in de inkooporder</span><span class="sxs-lookup"><span data-stu-id="a07b0-140">Adding a line that wasn't on the purchase order</span></span>
-<span data-ttu-id="a07b0-141">U kunt aan de leveranciersfactuur een nieuwe regel toevoegen die niet in de inkooporder is opgenomen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-141">You can add a new line that wasn't on the purchase order to the vendor invoice.</span></span> <span data-ttu-id="a07b0-142">U moet een artikelnummer of een aanschaffingscategorie selecteren.</span><span class="sxs-lookup"><span data-stu-id="a07b0-142">You must select an item number or procurement category.</span></span> <span data-ttu-id="a07b0-143">Vervolgens kunt u hoeveelheden, prijzen en bedragen aan de regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-143">You can then add quantities, prices, and amounts to the line.</span></span> <span data-ttu-id="a07b0-144">De regel wordt alleen in overeenstemmingsbeleid voor factuurtotalen opgenomen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-144">The line will be included only in matching policies for invoice totals.</span></span>
-
-## <a name="submitting-a-vendor-invoice-for-review"></a><span data-ttu-id="a07b0-145">Een leveranciersfactuur ter beoordeling indienen</span><span class="sxs-lookup"><span data-stu-id="a07b0-145">Submitting a vendor invoice for review</span></span>
-<span data-ttu-id="a07b0-146">Uw organisatie gebruikt mogelijke workflows om het controleproces voor leveranciersfacturen te beheren.</span><span class="sxs-lookup"><span data-stu-id="a07b0-146">Your organization might use workflows to manage the review process for vendor invoices.</span></span> <span data-ttu-id="a07b0-147">Workflowcontrole kan vereist zijn voor de factuurkoptekst, de factuurregel of voor beide.</span><span class="sxs-lookup"><span data-stu-id="a07b0-147">Workflow review can be required for the invoice header, the invoice line, or both.</span></span> <span data-ttu-id="a07b0-148">De besturingselementen voor de workflow zijn van toepassing op de koptekst of op de regel, afhankelijk van waar de focus zich bevindt als u op het besturingselement klikt.</span><span class="sxs-lookup"><span data-stu-id="a07b0-148">The workflow controls apply to the header or the line, depending on where the focus is when you click the control.</span></span> <span data-ttu-id="a07b0-149">In plaats van de knop **Boeken** wordt een knop **Verzenden** weergegeven, die u kunt gebruiken om de leveranciersfactuur door het controleproces te verzenden.</span><span class="sxs-lookup"><span data-stu-id="a07b0-149">Instead of the **Post** button, you will see a **Submit** button that you can use to send the vendor invoice through the review process.</span></span>
-
-## <a name="matching-vendor-invoices-to-product-receipts"></a><span data-ttu-id="a07b0-150">Leveranciersfacturen vereffenen met productontvangstbonnen</span><span class="sxs-lookup"><span data-stu-id="a07b0-150">Matching vendor invoices to product receipts</span></span>
-<span data-ttu-id="a07b0-151">U kunt gegevens voor leveranciersfacturen invoeren en opslaan en u kunt factuurregels vergelijken met productontvangstbonregels.</span><span class="sxs-lookup"><span data-stu-id="a07b0-151">You can enter and save information for vendor invoices, and you can match invoice lines to product receipt lines.</span></span> <span data-ttu-id="a07b0-152">U kunt ook gedeeltelijke hoeveelheden voor een regel vergelijken.</span><span class="sxs-lookup"><span data-stu-id="a07b0-152">You can also match partial quantities for a line.</span></span> 
-
-<span data-ttu-id="a07b0-153">U kunt een leveranciersfactuur maken op basis van de artikelen op de productontvangstbonregel die tot nu toe zijn ontvangen, zelfs als nog niet alle artikelen voor een bepaalde inkooporder zijn ontvangen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-153">You can create a vendor invoice that is based on the product receipt line items that have been received to date, even if all the items for a particular purchase order haven't yet been received.</span></span> <span data-ttu-id="a07b0-154">U kunt dit bijvoorbeeld doen als een leverancier één factuur per maand stuurt die alle leveringen dekt die de leverancier in die maand verzendt.</span><span class="sxs-lookup"><span data-stu-id="a07b0-154">For example, you might use this option if a vendor sends one invoice per month that covers all the deliveries that the vendor shipped during that month.</span></span> <span data-ttu-id="a07b0-155">Elke productontvangstbon staat voor een gedeeltelijke of volledige levering van de artikelen op de inkooporder.</span><span class="sxs-lookup"><span data-stu-id="a07b0-155">Each product receipt represents a partial or complete delivery of the items on the purchase order.</span></span> 
-
-<span data-ttu-id="a07b0-156">Wanneer u de factuur boekt, wordt de hoeveelheid bij **Resterend gedeelte van factuur** voor elk artikel bijgewerkt met het totaal van de ontvangen hoeveelheden van de geselecteerde productontvangstbonnen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-156">When you post the invoice, the **Invoice remainder** quantity for each item is updated with the total of the received quantities from the selected product receipts.</span></span> <span data-ttu-id="a07b0-157">Als de hoeveelheid voor **Resterend gedeelte van factuur** en de hoeveelheid voor **Nog te leveren** voor alle artikelen op de inkooporder 0 (nul) zijn, wordt de status van de inkooporder gewijzigd in **Gefactureerd**.</span><span class="sxs-lookup"><span data-stu-id="a07b0-157">If both the **Invoice remainder** quantity and the **Deliver remainder** quantity for all items on the purchase order are 0 (zero), the status of the purchase order is changed to **Invoiced**.</span></span> <span data-ttu-id="a07b0-158">Als de hoeveelheid voor **Resterend gedeelte van factuur** niet gelijk is aan 0 (nul), blijft de status van de inkooporder ongewijzigd en kunnen hiervoor extra facturen worden ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="a07b0-158">If the **Invoice remainder** quantity isn't 0, the status of the purchase order remains unchanged, and additional invoices can be entered for it.</span></span>
-
-<span data-ttu-id="a07b0-159">Bij deze optie wordt ervan uitgegaan dat er minimaal één productontvangstbon is geboekt voor de inkooporder.</span><span class="sxs-lookup"><span data-stu-id="a07b0-159">This option assumes that at least one product receipt has been posted for the purchase order.</span></span> <span data-ttu-id="a07b0-160">De leveranciersfactuur is gebaseerd op deze productontvangstbonnen en hieruit worden de hoeveelheden overgenomen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-160">The vendor invoice is based on these product receipts and reflects the quantities from them.</span></span> <span data-ttu-id="a07b0-161">De financiële gegevens voor de factuur zijn gebaseerd op de gegevens die worden ingevoerd wanneer u de factuur boekt.</span><span class="sxs-lookup"><span data-stu-id="a07b0-161">The financial information for the invoice is based on the information that is entered when you post the invoice.</span></span>
-
-<span data-ttu-id="a07b0-162">Zie [Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="a07b0-162">For more information, see [Record vendor invoice and match against received quantity](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).</span></span>
-
-## <a name="working-with-multiple-invoices"></a><span data-ttu-id="a07b0-163">Werken met meerdere facturen</span><span class="sxs-lookup"><span data-stu-id="a07b0-163">Working with multiple invoices</span></span>
-
-<span data-ttu-id="a07b0-164">U kunt met meerdere facturen tegelijkertijd werken en ze allemaal op hetzelfde moment boeken.</span><span class="sxs-lookup"><span data-stu-id="a07b0-164">You can work with multiple invoices at the same time and post them all at the same time.</span></span> <span data-ttu-id="a07b0-165">Als u meerdere facturen moet maken, gebruikt u de pagina **Leveranciersfacturen in behandeling**.</span><span class="sxs-lookup"><span data-stu-id="a07b0-165">If you must create multiple invoices, use the **Pending vendor invoices** page.</span></span> <span data-ttu-id="a07b0-166">Als u meerdere leveranciersfacturen moet boeken en afdrukken, gebruikt u de pagina Factuurgoedkeuringsjournaal</span><span class="sxs-lookup"><span data-stu-id="a07b0-166">If you must post and print multiple vendor invoices, use the invoice approval journal page.</span></span> <span data-ttu-id="a07b0-167">Als u het factuurgoedkeuringsjournaal gebruikt, moet er minimaal één productontvangstbon worden geboekt voor de inkooporder en moet er een factuur voor de inkooporder worden geboekt in een facturenregister.</span><span class="sxs-lookup"><span data-stu-id="a07b0-167">If you're using the invoice approval journal, at least one product receipt must be posted for the purchase order, and an invoice for the purchase order must be posted in an invoice register.</span></span> <span data-ttu-id="a07b0-168">De financiële gegevens voor de factuur komen uit de factuur die is geboekt in het register.</span><span class="sxs-lookup"><span data-stu-id="a07b0-168">The financial information for the invoice comes from the invoice that was posted in the register.</span></span>
-
-## <a name="recovering-vendor-invoices-that-are-in-use"></a><span data-ttu-id="a07b0-169">Leveranciersfacturen herstellen die in gebruik zijn</span><span class="sxs-lookup"><span data-stu-id="a07b0-169">Recovering vendor invoices that are in use</span></span>
-
-<span data-ttu-id="a07b0-170">Wanneer een leveranciersfactuur wordt gebruikt, kan deze niet worden bewerkt door een andere gebruiker.</span><span class="sxs-lookup"><span data-stu-id="a07b0-170">While a vendor invoice is being used, it can't be edited by another user.</span></span> <span data-ttu-id="a07b0-171">De status van een factuur kan echter soms aangeven dat de factuur in gebruik is, zelfs als deze niet actief wordt bewerkt.</span><span class="sxs-lookup"><span data-stu-id="a07b0-171">However, the state of an invoice might sometimes indicate that the invoice is in use, even though it isn't being actively edited.</span></span> <span data-ttu-id="a07b0-172">De toepassing reageert mogelijk niet meer tijdens de bewerking van de factuur, of een gebruiker kan per ongeluk de factuur open hebben gelaten in de toepassing.</span><span class="sxs-lookup"><span data-stu-id="a07b0-172">For example, the application might have stopped responding while the invoice was being edited, or a user might have inadvertently left the invoice open in the application.</span></span>
-
-<span data-ttu-id="a07b0-173">U kunt de pagina **Leveranciersfacturen herstellen** gebruiken om leveranciersfacturen die voor meer dan vier uur in gebruik waren, te herstellen of vrij te geven zodat ze kunnen worden bewerkt.</span><span class="sxs-lookup"><span data-stu-id="a07b0-173">You can use the **Recover vendor invoices** page to recover or release vendor invoices that have been in use for more than four hours, so that they can be edited.</span></span> <span data-ttu-id="a07b0-174">U kunt deze pagina openen via de navigatie of tegel **Periodieke taak** in het werkgebied **Leveranciersfactuurregistratie**.</span><span class="sxs-lookup"><span data-stu-id="a07b0-174">You can open this page from the **Periodic task** navigation or a tile on the **Vendor invoice entry** workspace.</span></span> <span data-ttu-id="a07b0-175">Nadat een factuur is hersteld, kan deze worden bewerkt op de pagina **Leveranciersfactuur**.</span><span class="sxs-lookup"><span data-stu-id="a07b0-175">After an invoice is recovered, it will be available for editing on the **Vendor invoice** page.</span></span>
-
-<span data-ttu-id="a07b0-176">U kunt toegang krijgen tot de pagina **Leveranciersfacturen herstellen** als de beveiligingsfunctie en -bevoegdheid **Leveranciersfacturen in gebruik herstellen** aan u zijn toegewezen.</span><span class="sxs-lookup"><span data-stu-id="a07b0-176">You can access the **Recover vendor invoices** page only if the **Recover vendor invoices in use** security duty and privilege are assigned to you.</span></span> <span data-ttu-id="a07b0-177">Bovendien moet de parameter **Herstellen van leveranciersfactuur toestaan** op de pagina **Leveranciersparameters** worden ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="a07b0-177">Additionally, the **Allow vendor invoice recovery** parameter on the **Accounts payable parameters** page must be turned on.</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="a07b0-178">Aanvullende bronnen</span><span class="sxs-lookup"><span data-stu-id="a07b0-178">Additional resources</span></span>
-
- - [<span data-ttu-id="a07b0-179">Leveranciersfactuurbeleid instellen</span><span class="sxs-lookup"><span data-stu-id="a07b0-179">Set up vendor invoice policies</span></span>](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
-
- - [<span data-ttu-id="a07b0-180">Factuurgegevens invoeren in leveranciers met behulp van een leveranciersfactuur</span><span class="sxs-lookup"><span data-stu-id="a07b0-180">Key invoice data into accounts payable using a vendor invoice</span></span>](tasks/key-invoice-data-ap-system-vendor-invoice.md)
-
- - [<span data-ttu-id="a07b0-181">Factuurgegevens invoeren in leveranciers met behulp van een goedkeuringsjournaal</span><span class="sxs-lookup"><span data-stu-id="a07b0-181">Key invoice data into accounts payable using an approval journal</span></span>](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-
- - [<span data-ttu-id="a07b0-182">Factuurgegevens invoeren in het AP-systeem met behulp van de facturengroep</span><span class="sxs-lookup"><span data-stu-id="a07b0-182">Key invoice data into the AP system using invoice pool</span></span>](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
-
- - [<span data-ttu-id="a07b0-183">Een leveranciersfactuur in het factuurjournaal registreren</span><span class="sxs-lookup"><span data-stu-id="a07b0-183">Record a vendor invoice in the invoice journal</span></span>](tasks/record-vendor-invoice-invoice-journal.md)
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="vendor-invoices-overview.md" target-language="nl-NL">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>vendor-invoices-overview.f5fc73.b57c18b5b2cf690111511e4c5a92d51fc23dd68c.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>b57c18b5b2cf690111511e4c5a92d51fc23dd68c</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\accounts-payable\vendor-invoices-overview.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Vendor invoices overview</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Overzicht van leveranciersfacturen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides general information about vendor invoices.</source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match">Dit onderwerp biedt algemene informatie over leveranciersfacturen.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
+          <source>Vendor invoices are requests for payment for products and services that were received.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104" restype="x-metadata">
+          <source>Vendor invoices can represent a bill for ongoing services, or they can be based on purchase orders for specific items and services.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Vendor invoices overview</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Overzicht van leveranciersfacturen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This topic provides general information about vendor invoices.</source>
+        <target logoport:matchpercent="86" state="translated" state-qualifier="leveraged-inherited">Dit onderwerp biedt algemene informatie over leveranciersfacturen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Vendor invoices are requests for payment for products and services that were received.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Vendor invoices can represent a bill for ongoing services, or they can be based on purchase orders for specific items and services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Vendor invoices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leveranciersfacturen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>A vendor invoice from a purchase order is an invoice that is produced when products or services are received according to a purchase order that was placed with a vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een leveranciersfactuur op basis van een inkooporder is een factuur die wordt gegenereerd wanneer producten of services worden ontvangen op basis van een inkooporder die bij een leverancier is geplaatst.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>The vendor invoice contains a header, and one or more lines for items or services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De leveranciersfactuur bevat een koptekst en één of meer regels voor artikelen of services.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>A vendor invoice completes the cycle from purchase order to product receipt to vendor invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een leveranciersfactuur voltooit de cyclus die loopt van inkooporder via productontvangstbon tot leveranciersfactuur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Although some vendor invoices are connected to a purchase order, vendor invoices can also contain lines that don't correspond to purchase order lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hoewel sommige leveranciersfacturen aan een inkooporder zijn gekoppeld, kunnen leveranciersfacturen ook regels bevatten die niet overeenkomen met inkooporderregels.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>You can also create vendor invoices that aren't associated with any purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt ook leveranciersfacturen maken die niet aan inkooporders zijn gekoppeld.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>These vendor invoices might represent ongoing services, such as a utility bill, and you don't have to reference a purchase order when you add them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze leveranciersfacturen kunnen voor lopende services staan, zoals een rekening van een energiebedrijf, en u hoeft niet naar een inkooporder te verwijzen wanneer u deze toevoegt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>There are several ways to enter a vendor invoice:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Er zijn verschillende manieren om een leveranciersfactuur op te geven:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>The vendor invoice register lets you quickly enter invoices that don't reference a purchase order, so that you can accrue the expense.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Via het leveranciersfactuurregister kunt u snel facturen invoeren die niet naar een inkooporder verwijzen, zodat u de onkosten kunt samenvoegen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>By using the vendor invoice approval journal, you can select those invoices and post them to the vendor balance to reverse the accrual.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Door het goedkeuringsjournaal voor leveranciersfacturen te gebruiken, kunt u deze facturen selecteren en naar het leveranciersaldo boeken om de transitorische bedragen terug te boeken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>The vendor invoice journal lets you quickly enter invoices that don't reference a purchase order, in a single step.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Met het leveranciersfactuurjournaal kunt u in één stap snel facturen invoeren die niet naar een inkooporder verwijzen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Together with the vendor invoice pool, the vendor invoice register lets you quickly enter invoices to accrue the expense.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In combinatie met de pool van leveranciersfacturen kunt u met het leveranciersfactuurregister snel facturen invoeren om onkosten samen te voegen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>You can open the associated purchase orders later to post the invoice against the expense account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt de bijbehorende inkooporders later openen om de factuur voor de onkostenrekening te boeken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>The <bpt id="p1">**</bpt>Open vendor invoices<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Pending vendor invoices<ept id="p2">**</ept> pages let you create vendor invoices from confirmed purchase orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Op de pagina's <bpt id="p1">**</bpt>Openstaande leveranciersfacturen<ept id="p1">**</ept> en <bpt id="p2">**</bpt>Leveranciersfacturen in behandeling<ept id="p2">**</ept> kunt u leveranciersfacturen maken van bevestigde inkooporders.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>The following discussion provide more information about how to use the <bpt id="p1">**</bpt>Open vendor invoices<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Pending vendor invoices<ept id="p2">**</ept> page to create a vendor invoice from a purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De volgende discussie biedt meer informatie over het gebruik van de pagina <bpt id="p1">**</bpt>Openstaande leveranciersfacturen<ept id="p1">**</ept> of <bpt id="p2">**</bpt>Leveranciersfacturen in behandeling<ept id="p2">**</ept> om een leveranciersfactuur van een inkooporder te maken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Understanding invoice line quantities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Factuurregelhoeveelheden begrijpen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>When you open a vendor invoice from a related purchase order, invoice lines are created from the purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Wanneer u een leveranciersfactuur opent vanuit een gerelateerde inkooporder, worden factuurregels gemaakt op basis van de inkooporder.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>By default, the quantities are taken from the product receipt quantity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Standaard komen de hoeveelheden overeen met de hoeveelheid van de productontvangstbon.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>However, you can use any of the following default behaviors:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt echter de volgende standaardgedragingen gebruiken:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source><bpt id="p1">**</bpt>Receive now quantity<ept id="p1">**</ept> – Use this option for partial shipments.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Hoeveelheid nu ontvangen<ept id="p1">**</ept> - Gebruik deze optie voor gedeeltelijke zendingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>The default value in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field is taken from the quantity that is specified in the <bpt id="p2">**</bpt>Receive now<ept id="p2">**</ept> field on the purchase order.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">De standaardwaarde in het veld <bpt id="p1">**</bpt>Hoeveelheid<ept id="p1">**</ept> wordt overgenomen uit het veld <bpt id="p2">**</bpt>Nu ontvangen<ept id="p2">**</ept> in de inkooporder.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">**</bpt>Ordered quantity<ept id="p1">**</ept> – Use this option for complete shipments.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Bestelde hoeveelheid<ept id="p1">**</ept> - Gebruik deze optie voor volledige zendingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>The default value in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field is taken from the quantity that is specified in the <bpt id="p2">**</bpt>Ordered<ept id="p2">**</ept> field on the purchase order.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">De standaardwaarde in het veld <bpt id="p1">**</bpt>Hoeveelheid<ept id="p1">**</ept> wordt overgenomen uit het veld <bpt id="p2">**</bpt>Besteld<ept id="p2">**</ept> in de inkooporder.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">**</bpt>Registered quantity<ept id="p1">**</ept> – Use this option if the item requires registration, as specified on the <bpt id="p2">**</bpt>Item model groups<ept id="p2">**</ept> page.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Geregistreerde hoeveelheid<ept id="p1">**</ept> - Gebruik deze optie als het artikel moet worden geregistreerd, zoals opgegeven op de pagina <bpt id="p2">**</bpt>Artikelmodelgroepen<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>The default value in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field is the physical update quantity that has been registered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De standaardwaarde in het veld <bpt id="p1">**</bpt>Hoeveelheid<ept id="p1">**</ept> is de fysieke updatehoeveelheid die is geregistreerd.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">**</bpt>Product receipt quantity<ept id="p1">**</ept> – Use this option if a product receipt has already been received for the order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Hoeveelheid productontvangstbon<ept id="p1">**</ept> – Gebruik deze optie als al een productontvangstbon voor de order is ontvangen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>The default value in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field is taken from the total quantity of available product receipts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De standaardwaarde in het veld <bpt id="p1">**</bpt>Hoeveelheid<ept id="p1">**</ept> wordt afgeleid van de totale hoeveelheid aan beschikbare productontvangstbonnen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">**</bpt>Registered quantity and services<ept id="p1">**</ept> – Use this option if quantities have been registered in arrival journals for stocked items or items that aren't stocked.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Geregistreerde hoeveelheid en services<ept id="p1">**</ept> – Gebruik deze optie als hoeveelheden in aankomstjournalen zijn geregistreerd voor artikelen in voorraad of artikelen die niet in voorraad zijn opgeslagen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>This option also includes services, regardless of whether they are registered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze optie omvat ook al dan niet geregistreerde services.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>If your legal entity uses invoice matching, you can view the results of the quantity matching in the <bpt id="p1">**</bpt>Product receipt quantity match<ept id="p1">**</ept> column.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Als uw rechtspersoon factuurvereffening gebruikt, kunt u de resultaten van de hoeveelheidsvereffening in de kolom <bpt id="p1">**</bpt>Overeenkomst van hoeveelheid van productontvangstbon<ept id="p1">**</ept> bekijken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>You can also use the <bpt id="p1">**</bpt>Matching details<ept id="p1">**</ept> button on the <bpt id="p2">**</bpt>Review<ept id="p2">**</ept> tab of the Action Pane to view the results of the quantity matching.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">U kunt ook de knop <bpt id="p1">**</bpt>Overeenkomende gegevens<ept id="p1">**</ept> op het tabblad <bpt id="p2">**</bpt>Controleren<ept id="p2">**</ept> van het actievenster gebruiken om de resultaten van de hoeveelheidsvereffening te bekijken.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Adding a line that wasn't on the purchase order</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Een regel toevoegen die niet bestaat in de inkooporder</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>You can add a line that wasn't on the purchase order to the vendor invoice.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">U kunt aan de leveranciersfactuur een regel toevoegen die niet in de inkooporder is opgenomen.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>You must select an item number or procurement category.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U moet een artikelnummer of een aanschaffingscategorie selecteren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>You can then add quantities, prices, and amounts to the line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vervolgens kunt u hoeveelheden, prijzen en bedragen aan de regel toevoegen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>The line will be included only in matching policies for invoice totals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De regel wordt alleen in overeenstemmingsbeleid voor factuurtotalen opgenomen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Submitting a vendor invoice for review</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een leveranciersfactuur ter beoordeling indienen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Your organization might use workflows to manage the review process for vendor invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uw organisatie gebruikt mogelijke workflows om het controleproces voor leveranciersfacturen te beheren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Workflow review can be required for the invoice header, the invoice line, or both.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Workflowcontrole kan vereist zijn voor de factuurkoptekst, de factuurregel of voor beide.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>The workflow controls apply to the header or the line, depending on where the focus is when you select the control.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">De besturingselementen voor de workflow zijn van toepassing op de koptekst of op de regel, afhankelijk van waar de focus zich bevindt als u het besturingselement selecteert.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Instead of the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> button, you will see a <bpt id="p2">**</bpt>Submit<ept id="p2">**</ept> button that you can use to send the vendor invoice through the review process.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">In plaats van de knop <bpt id="p1">**</bpt>Boeken<ept id="p1">**</ept> wordt een knop <bpt id="p2">**</bpt>Verzenden<ept id="p2">**</ept> weergegeven, die u kunt gebruiken om de leveranciersfactuur door het controleproces te verzenden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Matching vendor invoices to product receipts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leveranciersfacturen vereffenen met productontvangstbonnen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>You can enter and save information for vendor invoices, and you can match invoice lines to product receipt lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt gegevens voor leveranciersfacturen invoeren en opslaan en u kunt factuurregels vergelijken met productontvangstbonregels.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>You can also match partial quantities for a line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt ook gedeeltelijke hoeveelheden voor een regel vergelijken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>You can create a vendor invoice that is based on the product receipt line items that have been received through the current date, even if all the items for a particular purchase order haven't yet been received.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">U kunt een leveranciersfactuur maken op basis van de artikelen op de productontvangstbonregel die tot op heden zijn ontvangen, zelfs als nog niet alle artikelen voor een bepaalde inkooporder zijn ontvangen.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>For example, you might use this option if a vendor sends one invoice per month to cover all the deliveries that it shipped during that month.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">U kunt dit bijvoorbeeld doen als een leverancier één factuur per maand stuurt die alle leveringen dekt die de leverancier in die maand verzendt.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Each product receipt represents a partial or complete delivery of the items on the purchase order.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Elke productontvangstbon staat voor een gedeeltelijke of volledige levering van de artikelen op de inkooporder.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>When you post the invoice, the <bpt id="p1">**</bpt>Invoice remainder<ept id="p1">**</ept> quantity for each item is updated with the total of the received quantities from the selected product receipts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Wanneer u de factuur boekt, wordt de hoeveelheid bij <bpt id="p1">**</bpt>Resterend gedeelte van factuur<ept id="p1">**</ept> voor elk artikel bijgewerkt met het totaal van de ontvangen hoeveelheden van de geselecteerde productontvangstbonnen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>If both the <bpt id="p1">**</bpt>Invoice remainder<ept id="p1">**</ept> quantity and the <bpt id="p2">**</bpt>Deliver remainder<ept id="p2">**</ept> quantity for all items on the purchase order are 0 (zero), the status of the purchase order is changed to <bpt id="p3">**</bpt>Invoiced<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als de hoeveelheid voor <bpt id="p1">**</bpt>Resterend gedeelte van factuur<ept id="p1">**</ept> en de hoeveelheid voor <bpt id="p2">**</bpt>Nog te leveren<ept id="p2">**</ept> voor alle artikelen op de inkooporder 0 (nul) zijn, wordt de status van de inkooporder gewijzigd in <bpt id="p3">**</bpt>Gefactureerd<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>If the <bpt id="p1">**</bpt>Invoice remainder<ept id="p1">**</ept> quantity isn't 0, the status of the purchase order remains unchanged, and additional invoices can be entered for it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als de hoeveelheid voor <bpt id="p1">**</bpt>Resterend gedeelte van factuur<ept id="p1">**</ept> niet gelijk is aan 0 (nul), blijft de status van de inkooporder ongewijzigd en kunnen hiervoor extra facturen worden ingevoerd.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>This option assumes that at least one product receipt has been posted for the purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bij deze optie wordt ervan uitgegaan dat er minimaal één productontvangstbon is geboekt voor de inkooporder.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>The vendor invoice is based on these product receipts and reflects the quantities from them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De leveranciersfactuur is gebaseerd op deze productontvangstbonnen en hieruit worden de hoeveelheden overgenomen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>The financial information for the invoice is based on the information that is entered when you post the invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De financiële gegevens voor de factuur zijn gebaseerd op de gegevens die worden ingevoerd wanneer u de factuur boekt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>For more information, see <bpt id="p1">[</bpt>Record vendor invoice and match against received quantity<ept id="p1">](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie <bpt id="p1">[</bpt>Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen<ept id="p1">](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md)</ept> voor meer informatie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Working with multiple invoices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Werken met meerdere facturen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>You can work with multiple invoices at the same time and post them all at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt met meerdere facturen tegelijkertijd werken en ze allemaal op hetzelfde moment boeken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>If you must create multiple invoices, use the <bpt id="p1">**</bpt>Pending vendor invoices<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u meerdere facturen moet maken, gebruikt u de pagina <bpt id="p1">**</bpt>Leveranciersfacturen in behandeling<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>If you must post and print multiple vendor invoices, use the invoice approval journal.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">Als u meerdere leveranciersfacturen moet boeken en afdrukken, gebruikt u het factuurgoedkeuringsjournaal.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>If you're using the invoice approval journal, at least one product receipt must be posted for the purchase order, and an invoice for the purchase order must be posted in an invoice register.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Als u het factuurgoedkeuringsjournaal gebruikt, moet er minimaal één productontvangstbon worden geboekt voor de inkooporder en moet er een factuur voor de inkooporder worden geboekt in een facturenregister.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>The financial information for the invoice comes from the invoice that was posted in the register.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">De financiële gegevens voor de factuur komen uit de factuur die is geboekt in het register.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Recovering vendor invoices that are being used</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">Leveranciersfacturen herstellen die worden gebruikt</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>While a vendor invoice is being used, it can't be edited by another user.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Wanneer een leveranciersfactuur wordt gebruikt, kan deze niet worden bewerkt door een andere gebruiker.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>However, the state of an invoice might sometimes indicate that the invoice is being used, even though it isn't being actively edited.</source><target logoport:matchpercent="101" state="translated" state-qualifier="id-match">De status van een factuur kan echter soms aangeven dat de factuur wordt gebruikt, zelfs als deze niet actief wordt bewerkt.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>For example, the application might have stopped responding while the invoice was being edited, or a user might have inadvertently left the invoice open in the application.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">De toepassing reageert mogelijk niet meer tijdens de bewerking van de factuur, of een gebruiker kan per ongeluk de factuur open hebben gelaten in de toepassing.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>You can use the <bpt id="p1">**</bpt>Recover vendor invoices<ept id="p1">**</ept> page to recover or release vendor invoices that have been in use for more than four hours, so that they can be edited.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt de pagina <bpt id="p1">**</bpt>Leveranciersfacturen herstellen<ept id="p1">**</ept> gebruiken om leveranciersfacturen die voor meer dan vier uur in gebruik waren, te herstellen of vrij te geven zodat ze kunnen worden bewerkt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>You can open this page from the <bpt id="p1">**</bpt>Periodic task<ept id="p1">**</ept> navigation or a tile on the <bpt id="p2">**</bpt>Vendor invoice entry<ept id="p2">**</ept> workspace.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt deze pagina openen via de navigatie of tegel <bpt id="p1">**</bpt>Periodieke taak<ept id="p1">**</ept> in het werkgebied <bpt id="p2">**</bpt>Leveranciersfactuurregistratie<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>After an invoice is recovered, it will be available for editing on the <bpt id="p1">**</bpt>Vendor invoice<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nadat een factuur is hersteld, kan deze worden bewerkt op de pagina <bpt id="p1">**</bpt>Leveranciersfactuur<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>You can access the <bpt id="p1">**</bpt>Recover vendor invoices<ept id="p1">**</ept> page only if the <bpt id="p2">**</bpt>Recover vendor invoices in use<ept id="p2">**</ept> security duty and privilege are assigned to you.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt toegang krijgen tot de pagina <bpt id="p1">**</bpt>Leveranciersfacturen herstellen<ept id="p1">**</ept> als de beveiligingsfunctie en -bevoegdheid <bpt id="p2">**</bpt>Leveranciersfacturen in gebruik herstellen<ept id="p2">**</ept> aan u zijn toegewezen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Additionally, the <bpt id="p1">**</bpt>Allow vendor invoice recovery<ept id="p1">**</ept> parameter on the <bpt id="p2">**</bpt>Accounts payable parameters<ept id="p2">**</ept> page must be turned on.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Bovendien moet de parameter <bpt id="p1">**</bpt>Herstellen van leveranciersfactuur toestaan<ept id="p1">**</ept> op de pagina <bpt id="p2">**</bpt>Leveranciersparameters<ept id="p2">**</ept> worden ingeschakeld.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Resetting the workflow status for vendor invoices from Unrecoverable to Draft</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">De workflowstatus voor leveranciersfacturen van Onherstelbaar wijzigen in Concept</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>A workflow instance that has stopped because of an unrecoverable error will have a workflow status of <bpt id="p1">**</bpt>Unrecoverable<ept id="p1">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Een workflowexemplaar dat is gestopt vanwege een onherstelbare fout, heeft een workflowstatus <bpt id="p1">**</bpt>Onherstelbaar<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>When the status of a vendor invoice workflow is <bpt id="p1">**</bpt>Unrecoverable<ept id="p1">**</ept>, you can reset it to <bpt id="p2">**</bpt>Draft<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Wanneer de status van een werkstroom voor leveranciersfacturen <bpt id="p1">**</bpt>Onherstelbaar<ept id="p1">**</ept>is, kunt u deze weer instellen op <bpt id="p2">**</bpt>Concept<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>You can then edit the vendor invoice.</source><target logoport:matchpercent="68" state="translated" state-qualifier="fuzzy-match">Vervolgens kunt u de leveranciersfactuur bewerken.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>This feature is available if the <bpt id="p1">**</bpt>Reset draft status for the vendor invoice workflow<ept id="p1">**</ept> parameter on the <bpt id="p2">**</bpt>Feature management<ept id="p2">**</ept> page is turned on.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Deze functie is beschikbaar als de parameter <bpt id="p1">**</bpt>Conceptstatus herstellen voor workflow van leveranciersfactuur<ept id="p1">**</ept> op de pagina <bpt id="p2">**</bpt>Functiebeheer<ept id="p2">**</ept> is ingeschakeld.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>You can use the <bpt id="p1">**</bpt>Reset vendor invoices workflow status<ept id="p1">**</ept> page to reset the workflow status to <bpt id="p2">**</bpt>Draft<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">U kunt de pagina <bpt id="p1">**</bpt>Workflowstatus voor leveranciersfacturen herstellen<ept id="p1">**</ept> gebruiken om de workflowstatus in te stellen op <bpt id="p2">**</bpt>Concept<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>You can open this page from the <bpt id="p1">**</bpt>Periodic task<ept id="p1">**</ept> navigation.</source><target logoport:matchpercent="72" state="translated" state-qualifier="fuzzy-match">U kunt deze pagina openen via <bpt id="p1">**</bpt>Periodieke taak<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>The page shows all vendor invoices that have a workflow status of <bpt id="p1">**</bpt>Unrecoverable<ept id="p1">**</ept> in the current legal entity.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Op de pagina worden alle leveranciersfacturen met de workflowstatus <bpt id="p1">**</bpt>Onherstelbaar<ept id="p1">**</ept> in de huidige rechtspersoon weergegeven.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>It also shows the user who submitted each invoice to the workflow and the invoice identifier, and provides a link to the workflow history.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Daarnaast wordt aangegeven welke gebruiker elke factuur heeft ingediend bij de workflow en worden de factuur-id en workflowgeschiedenis weergegeven.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>To reset the workflow status to <bpt id="p1">**</bpt>Draft<ept id="p1">**</ept>, mark one or more invoices, and then select <bpt id="p2">**</bpt>Update to Draft<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Als u de workflowstatus wilt instellen op <bpt id="p1">**</bpt>Concept<ept id="p1">**</ept>, markeert u een of meer facturen en selecteert u vervolgens <bpt id="p2">**</bpt>Bijwerken naar concept<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>After the workflow status is reset to <bpt id="p1">**</bpt>Draft<ept id="p1">**</ept>, it becomes available for editing on the <bpt id="p2">**</bpt>Vendor invoice<ept id="p2">**</ept> page.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Als de workflowstatus is ingesteld op <bpt id="p1">**</bpt>Concept<ept id="p1">**</ept>, wordt deze beschikbaar voor bewerking op de pagina <bpt id="p2">**</bpt>Leveranciersfactuur<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>You can access the <bpt id="p1">**</bpt>Reset vendor invoices workflow status<ept id="p1">**</ept> page only if the <bpt id="p2">**</bpt>Maintain the status for vendor invoice workflow<ept id="p2">**</ept> security duty and <bpt id="p3">**</bpt>Reset the status for vendor invoice workflow<ept id="p3">**</ept> privilege are assigned to you.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">U kunt de pagina <bpt id="p1">**</bpt>Workflowstatus voor leveranciersfacturen herstellen<ept id="p1">**</ept> alleen openen als de beveiligingsfunctie <bpt id="p2">**</bpt>De status voor de workflow voor leveranciersfacturen handhaven<ept id="p2">**</ept> en de bevoegdheid <bpt id="p3">**</bpt>De status voor de workflow voor leveranciersfacturen herstellen<ept id="p3">**</ept> aan u zijn toegewezen.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Aanvullende resources</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source><bpt id="p1">[</bpt>Set up vendor invoice policies<ept id="p1">](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Leveranciersfactuurbeleid instellen<ept id="p1">](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source><bpt id="p1">[</bpt>Key invoice data into accounts payable using a vendor invoice<ept id="p1">](tasks/key-invoice-data-ap-system-vendor-invoice.md)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Factuurgegevens invoeren in leveranciers met behulp van een leveranciersfactuur<ept id="p1">](tasks/key-invoice-data-ap-system-vendor-invoice.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source><bpt id="p1">[</bpt>Key invoice data into accounts payable using an approval journal<ept id="p1">](tasks/key-invoice-data-into-ap-system-approval-journal.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Factuurgegevens invoeren in leveranciers met behulp van een goedkeuringsjournaal<ept id="p1">](tasks/key-invoice-data-into-ap-system-approval-journal.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source><bpt id="p1">[</bpt>Key invoice data into the AP system using invoice pool<ept id="p1">](tasks/key-invoice-data-into-ap-system-invoice-pool.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Factuurgegevens invoeren in het AP-systeem met behulp van de facturengroep<ept id="p1">](tasks/key-invoice-data-into-ap-system-invoice-pool.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source><bpt id="p1">[</bpt>Record a vendor invoice in the invoice journal<ept id="p1">](tasks/record-vendor-invoice-invoice-journal.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een leveranciersfactuur in het factuurjournaal registreren<ept id="p1">](tasks/record-vendor-invoice-invoice-journal.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

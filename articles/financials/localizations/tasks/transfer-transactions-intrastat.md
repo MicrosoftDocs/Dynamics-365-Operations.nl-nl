@@ -1,191 +1,519 @@
----
-title: Transacties overboeken naar Intrastat
-description: Deze procedure begeleidt u bij het instellen van Intrastat-parameters en overboeken van transacties naar Intrastat.
-author: Anasyash
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategory, UnitOfMeasureLookup, ProcCategoryAddCommodityCode, EcoResProductDetailsExtended, IntrastatCommodityLookup, IntrastatTransactionCode, IntrastatParameters, DeliveryMode, MarkupTable, SalesTableListPage, SalesCreateOrder, SalesTable, MarkupTrans, SalesEditLines,  Intrastat, SysQueryForm
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
-ms.author: anasyash
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0e332d5cae09c5026a64a4463e301a008860bd9
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538186"
----
-# <a name="transfer-transactions-to-the-intrastat"></a><span data-ttu-id="b4979-103">Transacties overboeken naar Intrastat</span><span class="sxs-lookup"><span data-stu-id="b4979-103">Transfer transactions to the Intrastat</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="b4979-104">Deze procedure begeleidt u bij het instellen van Intrastat-parameters en overboeken van transacties naar Intrastat.</span><span class="sxs-lookup"><span data-stu-id="b4979-104">This procedure walks you through how to set up Intrastat parameters and transfer transactions to Intrastat.</span></span> <span data-ttu-id="b4979-105">Deze procedure is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="b4979-105">This procedure was created using the demo data company DEMF.</span></span>
-
-
-## <a name="create-new-and-update-existing-commodity-code"></a><span data-ttu-id="b4979-106">Nieuwe basisproductcodes maken en bestaande basisproductcodes bijwerken</span><span class="sxs-lookup"><span data-stu-id="b4979-106">Create new and update existing commodity code</span></span>
-1. <span data-ttu-id="b4979-107">Ga naar Productgegevensbeheer > Instellingen > Categorieën en kenmerken > Categoriehiërarchieën.</span><span class="sxs-lookup"><span data-stu-id="b4979-107">Go to Product information management > Setup > Categories and attributes > Category hierarchies.</span></span>
-2. <span data-ttu-id="b4979-108">Zoek of selecteer in de lijst de record "Intrastat-basisproductcodes".</span><span class="sxs-lookup"><span data-stu-id="b4979-108">In the list, find or select the record "Intrastat commodity codes."</span></span>
-3. <span data-ttu-id="b4979-109">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b4979-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="b4979-110">Selecteer 'een record' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="b4979-110">In the tree, select 'a record'.</span></span>
-    * <span data-ttu-id="b4979-111">Selecteer bijvoorbeeld 'Luidspreker van Intrastat'.</span><span class="sxs-lookup"><span data-stu-id="b4979-111">For example, select 'Intrastat\Speaker'.</span></span>  
-5. <span data-ttu-id="b4979-112">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="b4979-112">Click Edit.</span></span>
-6. <span data-ttu-id="b4979-113">Vouw de sectie Buitenlandse handel uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-113">Expand the Foreign trade section.</span></span>
-7. <span data-ttu-id="b4979-114">Typ of selecteer een waarde in het veld Extra eenheden.</span><span class="sxs-lookup"><span data-stu-id="b4979-114">In the Additional units field, enter or select a value.</span></span>
-    * <span data-ttu-id="b4979-115">Kies bijvoorbeeld 'stuks'.</span><span class="sxs-lookup"><span data-stu-id="b4979-115">For example, choose 'pcs'.</span></span>  
-8. <span data-ttu-id="b4979-116">Selecteer Ja in het veld Gewicht niet van toepassing.</span><span class="sxs-lookup"><span data-stu-id="b4979-116">Select Yes in the Weight not applicable field.</span></span>
-9. <span data-ttu-id="b4979-117">Selecteer 'Intrastat' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="b4979-117">In the tree, select 'Intrastat'.</span></span>
-10. <span data-ttu-id="b4979-118">Klik op Nieuw categorieknooppunt.</span><span class="sxs-lookup"><span data-stu-id="b4979-118">Click New category node.</span></span>
-11. <span data-ttu-id="b4979-119">Voer de naam van het basisproduct in het veld Naam in.</span><span class="sxs-lookup"><span data-stu-id="b4979-119">In the Name field, enter the name of commodity.</span></span>
-    * <span data-ttu-id="b4979-120">Typ bijvoorbeeld 'Ander basisproduct'.</span><span class="sxs-lookup"><span data-stu-id="b4979-120">For example, type 'Other commodity'.</span></span>  
-12. <span data-ttu-id="b4979-121">Voer de basisproductcode in het veld Code in.</span><span class="sxs-lookup"><span data-stu-id="b4979-121">In the Code field, enter the commodity code.</span></span>
-    * <span data-ttu-id="b4979-122">Typ bijvoorbeeld '995 00 00'.</span><span class="sxs-lookup"><span data-stu-id="b4979-122">For example, type '995 00 00'.</span></span>  
-13. <span data-ttu-id="b4979-123">Typ een waarde in het veld Beschrijvende naam.</span><span class="sxs-lookup"><span data-stu-id="b4979-123">In the Friendly name field, type a value.</span></span>
-    * <span data-ttu-id="b4979-124">Typ bijvoorbeeld 'Overige'.</span><span class="sxs-lookup"><span data-stu-id="b4979-124">For example, type 'Other'.</span></span>  
-14. <span data-ttu-id="b4979-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="b4979-125">Click Save.</span></span>
-15. <span data-ttu-id="b4979-126">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="b4979-126">Close the page.</span></span>
-
-## <a name="assign-commodity-code-to-product-hierarchy-and-released-product"></a><span data-ttu-id="b4979-127">Basisproductcodes toewijzen aan producthiërarchie en vrijgegeven product</span><span class="sxs-lookup"><span data-stu-id="b4979-127">Assign commodity code to product hierarchy and released product</span></span>
-1. <span data-ttu-id="b4979-128">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="b4979-128">Use the Quick Filter to find records.</span></span> <span data-ttu-id="b4979-129">Filter bijvoorbeeld op het veld Naam met de waarde 'verkoop'.</span><span class="sxs-lookup"><span data-stu-id="b4979-129">For example, filter on the Name field with a value of 'sales'.</span></span>
-2. <span data-ttu-id="b4979-130">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b4979-130">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="b4979-131">Vouw 'een categorieknooppunt' in de structuur uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-131">In the tree, expand 'a category node'.</span></span>
-    * <span data-ttu-id="b4979-132">Vouw bijvoorbeeld 'Verkoophiërarchie\Home audio' uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-132">For example, expand 'Sales hierarchy\Home audio'.</span></span>  
-4. <span data-ttu-id="b4979-133">Selecteer 'de categorie om aan de basisproductcode toe te wijzen' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="b4979-133">In the tree, select 'the category to assign to the commodity code'.</span></span>
-    * <span data-ttu-id="b4979-134">Selecteer bijvoorbeeld 'Verkoophiërarchie\Home audio\Luidsprekers'.</span><span class="sxs-lookup"><span data-stu-id="b4979-134">For example, select 'Sales hierarchy\Home audio\Speakers.</span></span>  
-5. <span data-ttu-id="b4979-135">Vouw de sectie Basisproductcodes uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-135">Expand the Commodity codes section.</span></span>
-6. <span data-ttu-id="b4979-136">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="b4979-136">Click Add.</span></span>
-7. <span data-ttu-id="b4979-137">Selecteer 'Intrastat' in het veld Hiërarchie selecteren.</span><span class="sxs-lookup"><span data-stu-id="b4979-137">In the Select hierarchy field, select 'Intrastat'.</span></span>
-8. <span data-ttu-id="b4979-138">Zoek en selecteer de basisproductcode in de lijst.</span><span class="sxs-lookup"><span data-stu-id="b4979-138">In the list, find and select the commodity code</span></span>
-    * <span data-ttu-id="b4979-139">Selecteer bijvoorbeeld 'Luidspreker van 920 20 34'.</span><span class="sxs-lookup"><span data-stu-id="b4979-139">For example, select '920 20 34 Speaker'.</span></span>  
-9. <span data-ttu-id="b4979-140">Klik op SelectCodes.</span><span class="sxs-lookup"><span data-stu-id="b4979-140">Click SelectCodes.</span></span>
-10. <span data-ttu-id="b4979-141">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b4979-141">Click OK.</span></span>
-11. <span data-ttu-id="b4979-142">Ga naar Productgegevensbeheer > Producten > Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="b4979-142">Go to Product information management > Products > Released products.</span></span>
-12. <span data-ttu-id="b4979-143">Kies in de lijst het vrijgegeven product dat u aan de basisproductcode toewijst.</span><span class="sxs-lookup"><span data-stu-id="b4979-143">In the list, choose the released product that you will assign to the commodity code.</span></span>
-    * <span data-ttu-id="b4979-144">Kies bijvoorbeeld 'D0001'.</span><span class="sxs-lookup"><span data-stu-id="b4979-144">For example, choose 'D0001'.</span></span>  
-13. <span data-ttu-id="b4979-145">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="b4979-145">Click Edit.</span></span>
-14. <span data-ttu-id="b4979-146">Vouw de sectie Buitenlandse handel uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-146">Expand the Foreign trade section.</span></span>
-15. <span data-ttu-id="b4979-147">Voer de basisproductcode in het veld Basisproduct in.</span><span class="sxs-lookup"><span data-stu-id="b4979-147">In the Commodity field, enter the commodity code</span></span>
-    * <span data-ttu-id="b4979-148">Selecteer bijvoorbeeld de waarde 'Luidspreker 920 20 34'.</span><span class="sxs-lookup"><span data-stu-id="b4979-148">For example, select value '920 20 34 Speaker'.</span></span>    
-16. <span data-ttu-id="b4979-149">Voer een getal in het veld Percentage van toeslagen in.</span><span class="sxs-lookup"><span data-stu-id="b4979-149">In the Charges percentage field, enter a number.</span></span>
-    * <span data-ttu-id="b4979-150">Voer bijvoorbeeld '3' in:</span><span class="sxs-lookup"><span data-stu-id="b4979-150">For example, enter '3'.</span></span>  
-17. <span data-ttu-id="b4979-151">Typ of selecteer in het veld Land/regio een land of regio van herkomst</span><span class="sxs-lookup"><span data-stu-id="b4979-151">In the Country/region field, enter or select a country or region of origin</span></span>
-    * <span data-ttu-id="b4979-152">Selecteer bijvoorbeeld 'AUT'.</span><span class="sxs-lookup"><span data-stu-id="b4979-152">For example, select 'AUT'.</span></span>  
-18. <span data-ttu-id="b4979-153">Vouw de sectie Voorraad beheren uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-153">Expand the Manage inventory section.</span></span>
-19. <span data-ttu-id="b4979-154">Voer een gewicht in kg in het veld Nettogewicht in.</span><span class="sxs-lookup"><span data-stu-id="b4979-154">In the Net weight field, enter a weight in kg.</span></span>
-    * <span data-ttu-id="b4979-155">Voer bijvoorbeeld '2,5' in:</span><span class="sxs-lookup"><span data-stu-id="b4979-155">For example, enter '2.5'.</span></span>  
-20. <span data-ttu-id="b4979-156">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="b4979-156">Click Save.</span></span>
-
-## <a name="set-up-intrastat-transaction-codes-and-foreign-trade-parameters"></a><span data-ttu-id="b4979-157">Intrastat-transactiecodes en parameters voor buitenlandse handel instellen</span><span class="sxs-lookup"><span data-stu-id="b4979-157">Set up Intrastat transaction codes and foreign trade parameters</span></span>
-1. <span data-ttu-id="b4979-158">Ga naar Belasting > Instellingen > Buitenlandse handel > Transactiecodes</span><span class="sxs-lookup"><span data-stu-id="b4979-158">Go to Tax > Setup > Foreign trade > Transaction codes</span></span>
-2. <span data-ttu-id="b4979-159">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="b4979-159">Click New.</span></span>
-3. <span data-ttu-id="b4979-160">Typ een waarde in het veld Transactiecode.</span><span class="sxs-lookup"><span data-stu-id="b4979-160">In the Transaction code field, type a value.</span></span>
-    * <span data-ttu-id="b4979-161">Voer bijvoorbeeld '21' in voor de transactiecode die is gebruikt als retour.</span><span class="sxs-lookup"><span data-stu-id="b4979-161">For example, enter '21' for the transaction code used as return.</span></span>  
-4. <span data-ttu-id="b4979-162">Typ de naam van de transactiecode in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="b4979-162">In the Name field, type the name of transaction code.</span></span>
-    * <span data-ttu-id="b4979-163">Voer bijvoorbeeld 'Retour' in.</span><span class="sxs-lookup"><span data-stu-id="b4979-163">For example, enter 'Return'.</span></span>  
-5. <span data-ttu-id="b4979-164">Selecteer een optie in het veld Statistisch bedrag.</span><span class="sxs-lookup"><span data-stu-id="b4979-164">In the Statistical amount field, select an option.</span></span>
-    * <span data-ttu-id="b4979-165">Selecteer bijvoorbeeld 'Leeg' waarmee wordt aangegeven dat de statistische waarde die voor transacties met transactiecode "21" moet worden gerapporteerd, altijd nul is.</span><span class="sxs-lookup"><span data-stu-id="b4979-165">For example, select 'Empty' which indicates that the Statistical value to be reported for transactions with Transaction code of "21" will always be zero.</span></span>  
-6. <span data-ttu-id="b4979-166">Ga naar Belasting > Instellingen > Buitenlandse handel > Parameters buitenlandse handel</span><span class="sxs-lookup"><span data-stu-id="b4979-166">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
-7. <span data-ttu-id="b4979-167">Typ of selecteer een waarde in het veld Transactiecode.</span><span class="sxs-lookup"><span data-stu-id="b4979-167">In the Transaction code field, enter or select a value.</span></span>
-    * <span data-ttu-id="b4979-168">Selecteer bijvoorbeeld '11'.</span><span class="sxs-lookup"><span data-stu-id="b4979-168">For example, select '11'.</span></span>  
-8. <span data-ttu-id="b4979-169">Typ of selecteer een waarde in het veld Creditnota.</span><span class="sxs-lookup"><span data-stu-id="b4979-169">In the Credit note field, enter or select a value.</span></span>
-    * <span data-ttu-id="b4979-170">Met deze waarde wordt ook de fysieke retour geïdentificeerd.</span><span class="sxs-lookup"><span data-stu-id="b4979-170">This value also identifies the physical return.</span></span> <span data-ttu-id="b4979-171">De creditnota voor de fysieke retour wordt in het Intrastat-journaal in tegengestelde richting overgeboekt.</span><span class="sxs-lookup"><span data-stu-id="b4979-171">The credit note for the physical return will be transferred in the Intrastat journal with opposite direction.</span></span> <span data-ttu-id="b4979-172">De retour van aankomst wordt bijvoorbeeld overgeboekt als verzending.</span><span class="sxs-lookup"><span data-stu-id="b4979-172">For example, the return of arrival is transferred as dispatch.</span></span>   <span data-ttu-id="b4979-173">Anders wordt de creditnota als een correctie beschouwd en wordt deze in dezelfde richting en met het tegengesteld teken overgeboekt.</span><span class="sxs-lookup"><span data-stu-id="b4979-173">Otherwise, the credit note is considered a correction and is transferred with the same direction and opposite sign.</span></span> <span data-ttu-id="b4979-174">De correctie van aankomst wordt overgeboekt als een aankomst met negatief bedrag en de actieve markering wordt ingesteld op "Correctie".</span><span class="sxs-lookup"><span data-stu-id="b4979-174">For example, the correction of arrival is transferred as an arrival with negative amount and the active flag is set to "Correction".</span></span>  
-9. <span data-ttu-id="b4979-175">Vouw de sectie Overboeken uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-175">Expand the Transfer section.</span></span>
-10. <span data-ttu-id="b4979-176">Selecteer Ja in het veld Artikelen met basisproductcode.</span><span class="sxs-lookup"><span data-stu-id="b4979-176">Select Yes in the Items with commodity code field.</span></span>
-    * <span data-ttu-id="b4979-177">Selecteer deze optie om alleen de transacties met een toegewezen basisproductcode over te boeken.</span><span class="sxs-lookup"><span data-stu-id="b4979-177">Select this option to transfer only the transactions with a commodity code assigned.</span></span> <span data-ttu-id="b4979-178">Transacties zonder een basisproductcode worden niet overgeboekt naar Intrastat.</span><span class="sxs-lookup"><span data-stu-id="b4979-178">Transactions without a commodity code won't be transferred to Intrastat.</span></span>  
-11. <span data-ttu-id="b4979-179">Selecteer een optie in het veld Overboeken bij overeenkomst met criterium voor.</span><span class="sxs-lookup"><span data-stu-id="b4979-179">In the Transfer when meeting criterion for field, select an option.</span></span>
-    * <span data-ttu-id="b4979-180">Selecteer bijvoorbeeld 'Een van de geselecteerde elementen'.</span><span class="sxs-lookup"><span data-stu-id="b4979-180">For example, select 'One of the selected'.</span></span>  
-12. <span data-ttu-id="b4979-181">Vouw de sectie Hiërarchie van basisproductcodes uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-181">Expand the Commodity code hierarchy section.</span></span>
-13. <span data-ttu-id="b4979-182">Klik op het tabblad Land-/regio-eigenschappen.</span><span class="sxs-lookup"><span data-stu-id="b4979-182">Click the Country/region properties tab.</span></span>
-14. <span data-ttu-id="b4979-183">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="b4979-183">Click New.</span></span>
-15. <span data-ttu-id="b4979-184">Typ of selecteer een waarde in het veld Land/regio.</span><span class="sxs-lookup"><span data-stu-id="b4979-184">In the Country/region field, enter or select a value.</span></span>
-    * <span data-ttu-id="b4979-185">Selecteer bijvoorbeeld de waarde 'FRA'.</span><span class="sxs-lookup"><span data-stu-id="b4979-185">For example, select the value 'FRA'.</span></span>  
-16. <span data-ttu-id="b4979-186">Voer in het veld Intrastat-code de ISO-code voor het land in.</span><span class="sxs-lookup"><span data-stu-id="b4979-186">In the Intrastat code field, enter the ISO code for the country.</span></span>
-    * <span data-ttu-id="b4979-187">Typ bijvoorbeeld 'FR'.</span><span class="sxs-lookup"><span data-stu-id="b4979-187">For example, type 'FR'.</span></span>  
-17. <span data-ttu-id="b4979-188">Selecteer 'EU' in het veld Land-/regiotype.</span><span class="sxs-lookup"><span data-stu-id="b4979-188">In the Country/region type field, select 'EU'.</span></span>
-18. <span data-ttu-id="b4979-189">Klik op het tabblad Nummerreeksen.</span><span class="sxs-lookup"><span data-stu-id="b4979-189">Click the Number sequences tab.</span></span>
-
-## <a name="set-up-modes-of-delivery-and-rules-for-including-charges-in-intrastat"></a><span data-ttu-id="b4979-190">Leveringsmethoden en regels instellen voor opname van toeslagen in Intrastat</span><span class="sxs-lookup"><span data-stu-id="b4979-190">Set up Modes of delivery and rules for including charges in Intrastat</span></span>
-1. <span data-ttu-id="b4979-191">Ga naar Verkoop en marketing > Instellingen > Distributie > Leveringsmethoden</span><span class="sxs-lookup"><span data-stu-id="b4979-191">Go to Sales and marketing > Setup > Distribution > Modes of delivery</span></span>
-2. <span data-ttu-id="b4979-192">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="b4979-192">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="b4979-193">Selecteer bijvoorbeeld '20 Air'.</span><span class="sxs-lookup"><span data-stu-id="b4979-193">For example, select '20 Air'.</span></span>  
-3. <span data-ttu-id="b4979-194">Vouw de sectie Buitenlandse handel uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-194">Expand the Foreign trade section.</span></span>
-4. <span data-ttu-id="b4979-195">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="b4979-195">Click Edit.</span></span>
-5. <span data-ttu-id="b4979-196">Typ of selecteer een waarde in het veld Transport.</span><span class="sxs-lookup"><span data-stu-id="b4979-196">In the Transport field, enter or select a value.</span></span>
-    * <span data-ttu-id="b4979-197">Selecteer bijvoorbeeld '02'.</span><span class="sxs-lookup"><span data-stu-id="b4979-197">For example, select '02'.</span></span>  
-6. <span data-ttu-id="b4979-198">Ga naar Klanten > Instelling van toeslagen > Toeslagcode.</span><span class="sxs-lookup"><span data-stu-id="b4979-198">Go to Accounts receivable > Charges setup > Charges code.</span></span>
-7. <span data-ttu-id="b4979-199">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="b4979-199">Use the Quick Filter to find records.</span></span> <span data-ttu-id="b4979-200">Filter bijvoorbeeld op het veld Toeslagcode met de waarde 'vracht'.</span><span class="sxs-lookup"><span data-stu-id="b4979-200">For example, filter on the Charges code field with a value of 'freight'.</span></span>
-8. <span data-ttu-id="b4979-201">Vouw de sectie Buitenlandse handel uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-201">Expand the Foreign trade section.</span></span>
-9. <span data-ttu-id="b4979-202">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="b4979-202">Click Edit.</span></span>
-10. <span data-ttu-id="b4979-203">Selecteer Ja in het veld Intrastat-factuurwaarde.</span><span class="sxs-lookup"><span data-stu-id="b4979-203">Select Yes in the Intrastat invoice value field.</span></span>
-    * <span data-ttu-id="b4979-204">Het bedrag wordt overgeboekt naar het veld Factuurtoeslagen en wordt samengevat met het bedrag dat in het veld Factuurbedrag is overgeboekt.</span><span class="sxs-lookup"><span data-stu-id="b4979-204">The amount will be transferred to the  Invoice charges field and will be summarized with the amount transferred in the Invoice amount field.</span></span>    <span data-ttu-id="b4979-205">Selecteer Ja in het veld Statistische Intrastat-waarde als het bedrag van wijzigingen naar het veld Statistische toeslagen moet worden overgeboekt en samengevat met het statistische bedrag.</span><span class="sxs-lookup"><span data-stu-id="b4979-205">Select Yes in the Intrastat statistical value field if the amount of changes need to be transferred to the field Statistical charges and summarized with Statistical amount.</span></span>  
-
-## <a name="sell-products-for-eu-customers"></a><span data-ttu-id="b4979-206">Producten verkopen voor klanten in de EU</span><span class="sxs-lookup"><span data-stu-id="b4979-206">Sell products for EU customers</span></span>
-1. <span data-ttu-id="b4979-207">Ga naar Klanten > Orders > Alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="b4979-207">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="b4979-208">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="b4979-208">Click New.</span></span>
-3. <span data-ttu-id="b4979-209">Selecteer een EU-klant in het veld Klantrekening.</span><span class="sxs-lookup"><span data-stu-id="b4979-209">In the Customer account field, select an EU customer</span></span>
-    * <span data-ttu-id="b4979-210">Selecteer bijvoorbeeld "DE-012 Litware Retail".</span><span class="sxs-lookup"><span data-stu-id="b4979-210">For example, select "DE-012 Litware Retail".</span></span>  
-4. <span data-ttu-id="b4979-211">Vouw de sectie Levering uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-211">Expand the Delivery section.</span></span>
-5. <span data-ttu-id="b4979-212">Typ of selecteer een waarde in het veld Leveringsmethode.</span><span class="sxs-lookup"><span data-stu-id="b4979-212">In the Mode of delivery field, enter or select a value.</span></span>
-    * <span data-ttu-id="b4979-213">Selecteer bijvoorbeeld '20 Air'.</span><span class="sxs-lookup"><span data-stu-id="b4979-213">For example, select '20 Air'.</span></span>  
-6. <span data-ttu-id="b4979-214">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b4979-214">Click OK.</span></span>
-7. <span data-ttu-id="b4979-215">Plaats de cursor op de eerste rij van verkooporderregels.</span><span class="sxs-lookup"><span data-stu-id="b4979-215">Place the cursor on the first row of sales order lines.</span></span>
-8. <span data-ttu-id="b4979-216">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="b4979-216">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="b4979-217">Selecteer bijvoorbeeld D001.</span><span class="sxs-lookup"><span data-stu-id="b4979-217">For example, select 'D001'.</span></span>  
-9. <span data-ttu-id="b4979-218">Vouw de sectie Regeldetails uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-218">Expand the Line details section.</span></span>
-10. <span data-ttu-id="b4979-219">Klik op het tabblad Buitenlandse handel.</span><span class="sxs-lookup"><span data-stu-id="b4979-219">Click the Foreign trade tab.</span></span>
-    * <span data-ttu-id="b4979-220">Het transport wordt automatisch ingevuld op basis van de gekozen leveringsmethode.</span><span class="sxs-lookup"><span data-stu-id="b4979-220">The transport is filled automatically from the chosen Mode of delivery.</span></span>  
-11. <span data-ttu-id="b4979-221">Typ of selecteer een waarde in het veld Haven.</span><span class="sxs-lookup"><span data-stu-id="b4979-221">In the Port field, enter or select a value.</span></span>
-12. <span data-ttu-id="b4979-222">Klik op Financiële items.</span><span class="sxs-lookup"><span data-stu-id="b4979-222">Click Financials.</span></span>
-    * <span data-ttu-id="b4979-223">Op basis van de instellingen wordt dit bedrag opgenomen in de Intrastat-factuurwaarde.</span><span class="sxs-lookup"><span data-stu-id="b4979-223">As per the settings, this amount will be included in Intrastat invoice value.</span></span>  
-13. <span data-ttu-id="b4979-224">Klik op Toeslagen onderhouden.</span><span class="sxs-lookup"><span data-stu-id="b4979-224">Click Maintain charges.</span></span>
-14. <span data-ttu-id="b4979-225">Typ of selecteer een waarde in het veld Toeslagcode.</span><span class="sxs-lookup"><span data-stu-id="b4979-225">In the Charges code field, enter or select a value.</span></span>
-    * <span data-ttu-id="b4979-226">Selecteer bijvoorbeeld 'VRACHT'.</span><span class="sxs-lookup"><span data-stu-id="b4979-226">For example, select 'FREIGHT'.</span></span>  
-15. <span data-ttu-id="b4979-227">Schakel het selectievakje Behouden in.</span><span class="sxs-lookup"><span data-stu-id="b4979-227">Select the Keep check box.</span></span>
-16. <span data-ttu-id="b4979-228">Voer een nummer in het veld Waarde van toeslagen in.</span><span class="sxs-lookup"><span data-stu-id="b4979-228">In the Charges value field, enter a number.</span></span>
-    * <span data-ttu-id="b4979-229">Voer bijvoorbeeld 10 in:</span><span class="sxs-lookup"><span data-stu-id="b4979-229">For example, enter '10'.</span></span>  
-17. <span data-ttu-id="b4979-230">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="b4979-230">Click Save.</span></span>
-18. <span data-ttu-id="b4979-231">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="b4979-231">Close the page.</span></span>
-19. <span data-ttu-id="b4979-232">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="b4979-232">On the Action Pane, click Invoice.</span></span>
-20. <span data-ttu-id="b4979-233">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="b4979-233">Click Invoice.</span></span>
-21. <span data-ttu-id="b4979-234">Vouw de sectie Parameters uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-234">Expand the Parameters section.</span></span>
-22. <span data-ttu-id="b4979-235">Selecteer in het veld Hoeveelheid de optie 'Alle'.</span><span class="sxs-lookup"><span data-stu-id="b4979-235">In the Quantity field, select 'All'.</span></span>
-23. <span data-ttu-id="b4979-236">Vouw de sectie Instellingen uit.</span><span class="sxs-lookup"><span data-stu-id="b4979-236">Expand the Setup section.</span></span>
-24. <span data-ttu-id="b4979-237">Voer een datum in het veld Factuurdatum in.</span><span class="sxs-lookup"><span data-stu-id="b4979-237">In the Invoice date field, enter a date.</span></span>
-    * <span data-ttu-id="b4979-238">Voer bijvoorbeeld '2015-01-31' in.</span><span class="sxs-lookup"><span data-stu-id="b4979-238">For example, enter '2015-01-31'.</span></span>  
-25. <span data-ttu-id="b4979-239">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b4979-239">Click OK.</span></span>
-26. <span data-ttu-id="b4979-240">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b4979-240">Click OK.</span></span>
-27. <span data-ttu-id="b4979-241">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="b4979-241">Close the page.</span></span>
-28. <span data-ttu-id="b4979-242">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="b4979-242">Click New.</span></span>
-29. <span data-ttu-id="b4979-243">Selecteer een EU-klant in het veld Klantrekening.</span><span class="sxs-lookup"><span data-stu-id="b4979-243">In the Customer account field, select an EU customer.</span></span>
-    * <span data-ttu-id="b4979-244">Selecteer bijvoorbeeld 'DE-013 Trey Wholesales'</span><span class="sxs-lookup"><span data-stu-id="b4979-244">For example, select 'DE-013 Trey Wholesales'</span></span>  
-30. <span data-ttu-id="b4979-245">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b4979-245">Click OK.</span></span>
-31. <span data-ttu-id="b4979-246">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="b4979-246">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="b4979-247">Selecteer bijvoorbeeld 'D0001'.</span><span class="sxs-lookup"><span data-stu-id="b4979-247">For example, select 'D0001'.</span></span>  
-32. <span data-ttu-id="b4979-248">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="b4979-248">Click Save.</span></span>
-33. <span data-ttu-id="b4979-249">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="b4979-249">Click Invoice.</span></span>
-34. <span data-ttu-id="b4979-250">Voer een datum in het veld Factuurdatum in.</span><span class="sxs-lookup"><span data-stu-id="b4979-250">In the Invoice date field, enter a date.</span></span>
-    * <span data-ttu-id="b4979-251">Typ of selecteer bijvoorbeeld de datum '31-01-2015'.</span><span class="sxs-lookup"><span data-stu-id="b4979-251">For example, enter the date '2015-01-31'.</span></span>  
-35. <span data-ttu-id="b4979-252">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b4979-252">Click OK.</span></span>
-36. <span data-ttu-id="b4979-253">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b4979-253">Click OK.</span></span>
-
-## <a name="transfer-transactions-to-the-intrastat"></a><span data-ttu-id="b4979-254">Transacties overboeken naar Intrastat</span><span class="sxs-lookup"><span data-stu-id="b4979-254">Transfer transactions to the Intrastat</span></span>
-1. <span data-ttu-id="b4979-255">Ga naar Belasting > Aangiften > Buitenlandse handel > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="b4979-255">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
-2. <span data-ttu-id="b4979-256">Klik op Overbrengen.</span><span class="sxs-lookup"><span data-stu-id="b4979-256">Click Transfer.</span></span>
-3. <span data-ttu-id="b4979-257">Selecteer Ja in het veld Klantfactuur.</span><span class="sxs-lookup"><span data-stu-id="b4979-257">Select Yes in the Customer invoice field.</span></span>
-4. <span data-ttu-id="b4979-258">Klik op Filter.</span><span class="sxs-lookup"><span data-stu-id="b4979-258">Click Filter.</span></span>
-5. <span data-ttu-id="b4979-259">Markeer in de lijst de rij met Datum.</span><span class="sxs-lookup"><span data-stu-id="b4979-259">In the list, mark the row with Date</span></span>
-6. <span data-ttu-id="b4979-260">Typ een waarde in het veld Criteria.</span><span class="sxs-lookup"><span data-stu-id="b4979-260">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="b4979-261">Voer bijvoorbeeld het filter voor de periode januari 2015 in (de exacte waarde is afhankelijk van uw datumnotatie): 1-1-2015..31-1-2015</span><span class="sxs-lookup"><span data-stu-id="b4979-261">For example, enter the filter for the period January 2015 (the exact value depends on your date format): 1/1/2015..1/31/2015</span></span>  
-7. <span data-ttu-id="b4979-262">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b4979-262">Click OK.</span></span>
-8. <span data-ttu-id="b4979-263">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b4979-263">Click OK.</span></span>
-9. <span data-ttu-id="b4979-264">Zoek en selecteer de overgeboekte record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="b4979-264">In the list, find and selected the transferred record.</span></span>
-10. <span data-ttu-id="b4979-265">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="b4979-265">Click the General tab.</span></span>
-    * <span data-ttu-id="b4979-266">Controleer de overgeboekte gegevens, waaronder land/regio van bestemming/verzending, land van oorsprong, gewicht, hoeveelheid, hoeveelheid in extra eenheden, basisproduct, transactiecode, factuurbedragen en statistische bedragen.</span><span class="sxs-lookup"><span data-stu-id="b4979-266">Review transferred data, including country\region of destination/dispatch, country of origin, weight, quantity, quantity in additional units, commodity, transaction code, invoice amounts and statistical amounts.</span></span>   <span data-ttu-id="b4979-267">U kunt gegevens indien nodig wijzigen.</span><span class="sxs-lookup"><span data-stu-id="b4979-267">You can modify data if necessary.</span></span>  
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="transfer-transactions-intrastat.md" target-language="nl-NL">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>transfer-transactions-intrastat.25c761.13cc9dc2119ad3dc85d580e92edee7bb9ef2075c.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>13cc9dc2119ad3dc85d580e92edee7bb9ef2075c</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\transfer-transactions-intrastat.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Transfer transactions to the Intrastat</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transacties overboeken naar Intrastat</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This procedure walks you through how to set up Intrastat parameters and transfer transactions to Intrastat.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure begeleidt u bij het instellen van Intrastat-parameters en overboeken van transacties naar Intrastat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Transfer transactions to the Intrastat</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transacties overboeken naar Intrastat</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This procedure walks you through how to set up Intrastat parameters and transfer transactions to Intrastat.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure begeleidt u bij het instellen van Intrastat-parameters en overboeken van transacties naar Intrastat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure was created using the demo data company DEMF.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure is gemaakt met het demobedrijf DEMF.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Create new and update existing commodity code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nieuwe basisproductcodes maken en bestaande basisproductcodes bijwerken</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Go to Product information management &gt; Setup &gt; Categories and attributes &gt; Category hierarchies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Productgegevensbeheer &gt; Instellingen &gt; Categorieën en kenmerken &gt; Categoriehiërarchieën.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>In the list, find or select the record "Intrastat commodity codes."</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zoek of selecteer in de lijst de record "Intrastat-basisproductcodes".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>In the list, click the link in the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik in de lijst op de koppeling in de geselecteerde rij.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In the tree, select 'a record'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer 'een record' in de structuur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>For example, select 'Intrastat\Speaker'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld 'Luidspreker van Intrastat'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Bewerken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Expand the Foreign trade section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Buitenlandse handel uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the Additional units field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Extra eenheden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>For example, choose 'pcs'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kies bijvoorbeeld 'stuks'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Select Yes in the Weight not applicable field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Gewicht niet van toepassing.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>In the tree, select 'Intrastat'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer 'Intrastat' in de structuur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Click New category node.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Nieuw categorieknooppunt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>In the Name field, enter the name of commodity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer de naam van het basisproduct in het veld Naam in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>For example, type 'Other commodity'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ bijvoorbeeld 'Ander basisproduct'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the Code field, enter the commodity code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer de basisproductcode in het veld Code in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>For example, type '995 00 00'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ bijvoorbeeld '995 00 00'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>In the Friendly name field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ een waarde in het veld Beschrijvende naam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>For example, type 'Other'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ bijvoorbeeld 'Overige'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Opslaan.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sluit de pagina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Assign commodity code to product hierarchy and released product</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Basisproductcodes toewijzen aan producthiërarchie en vrijgegeven product</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Use the Quick Filter to find records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gebruik de snelfilter om records te zoeken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>For example, filter on the Name field with a value of 'sales'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Filter bijvoorbeeld op het veld Naam met de waarde 'verkoop'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>In the list, click the link in the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik in de lijst op de koppeling in de geselecteerde rij.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>In the tree, expand 'a category node'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw 'een categorieknooppunt' in de structuur uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>For example, expand 'Sales hierarchy\Home audio'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw bijvoorbeeld 'Verkoophiërarchie\Home audio' uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>In the tree, select 'the category to assign to the commodity code'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer 'de categorie om aan de basisproductcode toe te wijzen' in de structuur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>For example, select 'Sales hierarchy\Home audio\Speakers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld 'Verkoophiërarchie\Home audio\Luidsprekers'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Expand the Commodity codes section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Basisproductcodes uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Click Add.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Toevoegen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>In the Select hierarchy field, select 'Intrastat'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer 'Intrastat' in het veld Hiërarchie selecteren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In the list, find and select the commodity code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zoek en selecteer de basisproductcode in de lijst.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>For example, select '920 20 34 Speaker'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld 'Luidspreker van 920 20 34'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Click SelectCodes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op SelectCodes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Go to Product information management &gt; Products &gt; Released products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Productgegevensbeheer &gt; Producten &gt; Vrijgegeven producten.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>In the list, choose the released product that you will assign to the commodity code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kies in de lijst het vrijgegeven product dat u aan de basisproductcode toewijst.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>For example, choose 'D0001'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kies bijvoorbeeld 'D0001'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Bewerken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Expand the Foreign trade section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Buitenlandse handel uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>In the Commodity field, enter the commodity code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer de basisproductcode in het veld Basisproduct in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>For example, select value '920 20 34 Speaker'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld de waarde 'Luidspreker 920 20 34'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>In the Charges percentage field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een getal in het veld Percentage van toeslagen in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>For example, enter '3'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld '3' in:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>In the Country/region field, enter or select a country or region of origin</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer in het veld Land/regio een land of regio van herkomst</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>For example, select 'AUT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld 'AUT'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Expand the Manage inventory section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Voorraad beheren uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>In the Net weight field, enter a weight in kg.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een gewicht in kg in het veld Nettogewicht in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>For example, enter '2.5'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld '2,5' in:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Opslaan.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Set up Intrastat transaction codes and foreign trade parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Intrastat-transactiecodes en parameters voor buitenlandse handel instellen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Go to Tax &gt; Setup &gt; Foreign trade &gt; Transaction codes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Belasting &gt; Instellingen &gt; Buitenlandse handel &gt; Transactiecodes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Nieuw.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>In the Transaction code field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ een waarde in het veld Transactiecode.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>For example, enter '21' for the transaction code used as return.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld '21' in voor de transactiecode die is gebruikt als retour.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>In the Name field, type the name of transaction code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ de naam van de transactiecode in het veld Naam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>For example, enter 'Return'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld 'Retour' in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>In the Statistical amount field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een optie in het veld Statistisch bedrag.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>For example, select 'Empty' which indicates that the Statistical value to be reported for transactions with Transaction code of "21" will always be zero.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld 'Leeg' waarmee wordt aangegeven dat de statistische waarde die voor transacties met transactiecode "21" moet worden gerapporteerd, altijd nul is.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Go to Tax &gt; Setup &gt; Foreign trade &gt; Foreign trade parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Belasting &gt; Instellingen &gt; Buitenlandse handel &gt; Parameters buitenlandse handel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>In the Transaction code field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Transactiecode.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>For example, select '11'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld '11'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>In the Credit note field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Creditnota.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>This value also identifies the physical return.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Met deze waarde wordt ook de fysieke retour geïdentificeerd.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>The credit note for the physical return will be transferred in the Intrastat journal with opposite direction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De creditnota voor de fysieke retour wordt in het Intrastat-journaal in tegengestelde richting overgeboekt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>For example, the return of arrival is transferred as dispatch.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De retour van aankomst wordt bijvoorbeeld overgeboekt als verzending.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Otherwise, the credit note is considered a correction and is transferred with the same direction and opposite sign.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Anders wordt de creditnota als een correctie beschouwd en wordt deze in dezelfde richting en met het tegengesteld teken overgeboekt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>For example, the correction of arrival is transferred as an arrival with negative amount and the active flag is set to "Correction".</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De correctie van aankomst wordt overgeboekt als een aankomst met negatief bedrag en de actieve markering wordt ingesteld op "Correctie".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Expand the Transfer section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Overboeken uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Select Yes in the Items with commodity code field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Artikelen met basisproductcode.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Select this option to transfer only the transactions with a commodity code assigned.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer deze optie om alleen de transacties met een toegewezen basisproductcode over te boeken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Transactions without a commodity code won't be transferred to Intrastat.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transacties zonder een basisproductcode worden niet overgeboekt naar Intrastat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>In the Transfer when meeting criterion for field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een optie in het veld Overboeken bij overeenkomst met criterium voor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>For example, select 'One of the selected'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld 'Een van de geselecteerde elementen'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Expand the Commodity code hierarchy section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Hiërarchie van basisproductcodes uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Click the Country/region properties tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op het tabblad Land-/regio-eigenschappen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Nieuw.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>In the Country/region field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Land/regio.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>For example, select the value 'FRA'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld de waarde 'FRA'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>In the Intrastat code field, enter the ISO code for the country.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer in het veld Intrastat-code de ISO-code voor het land in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>For example, type 'FR'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ bijvoorbeeld 'FR'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>In the Country/region type field, select 'EU'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer 'EU' in het veld Land-/regiotype.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Click the Number sequences tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op het tabblad Nummerreeksen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Set up Modes of delivery and rules for including charges in Intrastat</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leveringsmethoden en regels instellen voor opname van toeslagen in Intrastat</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Go to Sales and marketing &gt; Setup &gt; Distribution &gt; Modes of delivery</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Verkoop en marketing &gt; Instellingen &gt; Distributie &gt; Leveringsmethoden</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zoek en selecteer de gewenste record in de lijst.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>For example, select '20 Air'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld '20 Air'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Expand the Foreign trade section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Buitenlandse handel uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Bewerken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>In the Transport field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Transport.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>For example, select '02'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld '02'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Go to Accounts receivable &gt; Charges setup &gt; Charges code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Klanten &gt; Instelling van toeslagen &gt; Toeslagcode.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Use the Quick Filter to find records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gebruik de snelfilter om records te zoeken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>For example, filter on the Charges code field with a value of 'freight'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Filter bijvoorbeeld op het veld Toeslagcode met de waarde 'vracht'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Expand the Foreign trade section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Buitenlandse handel uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Bewerken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Select Yes in the Intrastat invoice value field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Intrastat-factuurwaarde.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>The amount will be transferred to the  Invoice charges field and will be summarized with the amount transferred in the Invoice amount field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het bedrag wordt overgeboekt naar het veld Factuurtoeslagen en wordt samengevat met het bedrag dat in het veld Factuurbedrag is overgeboekt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Select Yes in the Intrastat statistical value field if the amount of changes need to be transferred to the field Statistical charges and summarized with Statistical amount.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Statistische Intrastat-waarde als het bedrag van wijzigingen naar het veld Statistische toeslagen moet worden overgeboekt en samengevat met het statistische bedrag.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Sell products for EU customers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Producten verkopen voor klanten in de EU</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Go to Accounts receivable &gt; Orders &gt; All sales orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Klanten &gt; Orders &gt; Alle verkooporders.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Nieuw.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>In the Customer account field, select an EU customer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een EU-klant in het veld Klantrekening.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>For example, select "DE-012 Litware Retail".</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld "DE-012 Litware Retail".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Expand the Delivery section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Levering uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>In the Mode of delivery field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Leveringsmethode.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>For example, select '20 Air'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld '20 Air'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Place the cursor on the first row of sales order lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plaats de cursor op de eerste rij van verkooporderregels.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>In the Item number field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Artikelnummer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>For example, select 'D001'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld D001.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Expand the Line details section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Regeldetails uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>Click the Foreign trade tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op het tabblad Buitenlandse handel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>The transport is filled automatically from the chosen Mode of delivery.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het transport wordt automatisch ingevuld op basis van de gekozen leveringsmethode.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>In the Port field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Haven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Click Financials.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Financiële items.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>As per the settings, this amount will be included in Intrastat invoice value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Op basis van de instellingen wordt dit bedrag opgenomen in de Intrastat-factuurwaarde.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Click Maintain charges.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Toeslagen onderhouden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>In the Charges code field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Toeslagcode.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>For example, select 'FREIGHT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld 'VRACHT'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Select the Keep check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Schakel het selectievakje Behouden in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>In the Charges value field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een nummer in het veld Waarde van toeslagen in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>For example, enter '10'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld 10 in:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Opslaan.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sluit de pagina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik in het actievenster op Factuur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Factuur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Expand the Parameters section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Parameters uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>In the Quantity field, select 'All'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer in het veld Hoeveelheid de optie 'Alle'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Expand the Setup section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Instellingen uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>In the Invoice date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een datum in het veld Factuurdatum in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>For example, enter '2015-01-31'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld '2015-01-31' in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sluit de pagina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Nieuw.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>In the Customer account field, select an EU customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een EU-klant in het veld Klantrekening.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>For example, select 'DE-013 Trey Wholesales'</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld 'DE-013 Trey Wholesales'</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>In the Item number field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Artikelnummer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>For example, select 'D0001'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld 'D0001'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Opslaan.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Factuur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>In the Invoice date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een datum in het veld Factuurdatum in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>For example, enter the date '2015-01-31'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer bijvoorbeeld de datum '31-01-2015'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Transfer transactions to the Intrastat</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transacties overboeken naar Intrastat</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Go to Tax &gt; Declarations &gt; Foreign trade &gt; Intrastat.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Belasting &gt; Aangiften &gt; Buitenlandse handel &gt; Intrastat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Click Transfer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Overbrengen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Select Yes in the Customer invoice field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Klantfactuur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Click Filter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Filter.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>In the list, mark the row with Date</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Markeer in de lijst de rij met Datum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>In the Criteria field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ een waarde in het veld Criteria.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>For example, enter the filter for the period January 2015 (the exact value depends on your date format): 1/1/2015..1/31/2015</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld het filter voor de periode januari 2015 in (de exacte waarde is afhankelijk van uw datumnotatie): 1-1-2015..31-1-2015</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>In the list, find and selected the transferred record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zoek en selecteer de overgeboekte record in de lijst.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Click the General tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op het tabblad Algemeen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Review transferred data, including country\region of destination/dispatch, country of origin, weight, quantity, quantity in additional units, commodity, transaction code, invoice amounts and statistical amounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Controleer de overgeboekte gegevens, waaronder land/regio van bestemming/verzending, land van oorsprong, gewicht, hoeveelheid, hoeveelheid in extra eenheden, basisproduct, transactiecode, factuurbedragen en statistische bedragen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>You can modify data if necessary.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt gegevens indien nodig wijzigen.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

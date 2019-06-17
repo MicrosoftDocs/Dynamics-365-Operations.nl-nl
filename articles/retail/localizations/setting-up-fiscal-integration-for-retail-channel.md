@@ -1,228 +1,492 @@
----
-title: Fiscale integratie voor detailhandelskanalen instellen
-description: Dit onderwerp bevat richtlijnen voor het instellen van de functionaliteit voor fiscale integratie voor detailhandelkanalen.
-author: josaw
-manager: annbe
-ms.date: 02/01/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.search.region: Global
-ms.search.industry: Retail
-ms.author: v-kikozl
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525320"
----
-# <a name="set-up-the-fiscal-integration-for-retail-channels"></a><span data-ttu-id="673c3-103">Fiscale integratie voor detailhandelskanalen instellen</span><span class="sxs-lookup"><span data-stu-id="673c3-103">Set up the fiscal integration for Retail channels</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-## <a name="introduction"></a><span data-ttu-id="673c3-104">Introductie</span><span class="sxs-lookup"><span data-stu-id="673c3-104">Introduction</span></span>
-
-<span data-ttu-id="673c3-105">Dit onderwerp bevat richtlijnen voor het instellen van de functionaliteit voor fiscale integratie voor detailhandelkanalen.</span><span class="sxs-lookup"><span data-stu-id="673c3-105">This topic provides guidelines for setting up the fiscal integration functionality for Retail channels.</span></span> <span data-ttu-id="673c3-106">Zie voor meer informatie over de fiscale integratie [Overzicht van fiscale integratie voor detailhandelkanalen](fiscal-integration-for-retail-channel.md).</span><span class="sxs-lookup"><span data-stu-id="673c3-106">For more information about the fiscal integration, see [Overview of fiscal integration for Retail channels](fiscal-integration-for-retail-channel.md).</span></span>
-
-<span data-ttu-id="673c3-107">Het instelproces van de fiscale integratie bevat de volgende taken:</span><span class="sxs-lookup"><span data-stu-id="673c3-107">The process of setting up the fiscal integration includes the following tasks:</span></span>
-
-1. <span data-ttu-id="673c3-108">Fiscale connectors configureren die fiscale apparaten of services vertegenwoordigen die worden gebruikt voor fiscale registratiedoeleinden, zoals fiscale printers.</span><span class="sxs-lookup"><span data-stu-id="673c3-108">Configure fiscal connectors that represent fiscal devices or services that are used for fiscal registration purposes, such as fiscal printers.</span></span>
-2. <span data-ttu-id="673c3-109">Documentproviders configureren die fiscale documenten genereren die worden geregistreerd in fiscale apparaten of services door fiscale connectors.</span><span class="sxs-lookup"><span data-stu-id="673c3-109">Configure document providers that generate fiscal documents that will be registered in fiscal devices or services by fiscal connectors.</span></span>
-3. <span data-ttu-id="673c3-110">Het fiscale registratieproces configureren dat een reeks fiscale registratiestappen definieert en de fiscale connectors en fiscale documentproviders die voor elke stap worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="673c3-110">Configure the fiscal registration process that defines a sequence of fiscal registration steps and the fiscal connectors and fiscal document providers that are used for each step.</span></span>
-4. <span data-ttu-id="673c3-111">Het fiscale registratieproces toewijzen aan POS-functionaliteitsprofielen (Point Of Sale).</span><span class="sxs-lookup"><span data-stu-id="673c3-111">Assign the fiscal registration process to point of sale (POS) functionality profiles.</span></span>
-5. <span data-ttu-id="673c3-112">Technische connectorprofielen toewijzen aan hardwareprofielen.</span><span class="sxs-lookup"><span data-stu-id="673c3-112">Assign connector technical profiles to hardware profiles.</span></span>
-
-## <a name="set-up-a-fiscal-registration-process"></a><span data-ttu-id="673c3-113">Een fiscaal registratieproces instellen</span><span class="sxs-lookup"><span data-stu-id="673c3-113">Set up a fiscal registration process</span></span>
-
-<span data-ttu-id="673c3-114">Voordat u de functionaliteit voor fiscale integratie gebruikt, moet u de volgende instellingen configureren.</span><span class="sxs-lookup"><span data-stu-id="673c3-114">Before you use the fiscal integration functionality, you should configure the following settings.</span></span>
-
-1. <span data-ttu-id="673c3-115">Detailhandelsparameters bijwerken.</span><span class="sxs-lookup"><span data-stu-id="673c3-115">Update retail parameters.</span></span>
-
-    1. <span data-ttu-id="673c3-116">Stel op de pagina **Gedeelde parameters detailhandel** op het tabblad **Algemeen** de optie **Fiscale integratie inschakelen** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="673c3-116">On the **Retail shared parameters** page, on the **General** tab, set the **Enable fiscal integration** option to **Yes**.</span></span> <span data-ttu-id="673c3-117">Definieer op het tabblad **Nummerreeksen** de nummerreeksen voor de volgende referenties:</span><span class="sxs-lookup"><span data-stu-id="673c3-117">On the **Number sequences** tab, define the number sequences for the following references:</span></span>
-
-        - <span data-ttu-id="673c3-118">Nummer van fiscaal technisch profiel</span><span class="sxs-lookup"><span data-stu-id="673c3-118">Fiscal technical profile number</span></span>
-        - <span data-ttu-id="673c3-119">Nummer fiscale connectorgroep</span><span class="sxs-lookup"><span data-stu-id="673c3-119">Fiscal connector group number</span></span>
-        - <span data-ttu-id="673c3-120">Nummer van registratieproces</span><span class="sxs-lookup"><span data-stu-id="673c3-120">Registration process number</span></span>
-
-    2. <span data-ttu-id="673c3-121">Definieer op de pagina **Detailhandelparameters** de nummerreeks voor het fiscale profielnummer.</span><span class="sxs-lookup"><span data-stu-id="673c3-121">On the **Retail parameters** page, define the number sequence for the fiscal functional profile number.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="673c3-122">Nummerreeksen zijn optioneel.</span><span class="sxs-lookup"><span data-stu-id="673c3-122">Number sequences are optional.</span></span> <span data-ttu-id="673c3-123">Nummers voor alle fiscale integratie-entiteiten kunnen worden gegenereerd uit nummerreeksen of handmatig.</span><span class="sxs-lookup"><span data-stu-id="673c3-123">Numbers for all fiscal integration entities can be generated either from number sequences or manually.</span></span>
-
-2. <span data-ttu-id="673c3-124">Upload configuraties van fiscale connectors en fiscale documentproviders.</span><span class="sxs-lookup"><span data-stu-id="673c3-124">Upload configurations of fiscal connectors and fiscal document providers.</span></span>
-
-    <span data-ttu-id="673c3-125">Een fiscale documentprovider is verantwoordelijk voor het genereren van belastingdocumenten die staan voor detailhandeltransacties en -gebeurtenissen die zijn geregistreerd in het POS in een indeling die ook wordt gebruikt voor de interactie met een fiscaal apparaat of een fiscale service.</span><span class="sxs-lookup"><span data-stu-id="673c3-125">A fiscal document provider is responsible for generating fiscal documents that represent retail transactions and events that are registered on the POS in a format that is also used for the interaction with a fiscal device or service.</span></span> <span data-ttu-id="673c3-126">Een fiscale documentprovider kan bijvoorbeeld een voorstelling van een fiscaal ontvangstbewijs genereren in een XML-indeling.</span><span class="sxs-lookup"><span data-stu-id="673c3-126">For example, a fiscal document provider might generate a representation of a fiscal receipt in an XML format.</span></span>
-
-    <span data-ttu-id="673c3-127">Een fiscale connector is verantwoordelijk voor de communicatie met een fiscaal apparaat of een fiscale service.</span><span class="sxs-lookup"><span data-stu-id="673c3-127">A fiscal connector is responsible for the communication with a fiscal device or service.</span></span> <span data-ttu-id="673c3-128">Een fiscale connector kan bijvoorbeeld een ontvangstbewijs dat een fiscale documentprovider in een XML-indeling heeft gemaakt, verzenden naar een fiscale printer.</span><span class="sxs-lookup"><span data-stu-id="673c3-128">For example, a fiscal connector might send a fiscal receipt that a fiscal document provider created in an XML format to a fiscal printer.</span></span> <span data-ttu-id="673c3-129">Zie voor meer informatie over fiscale integratieonderdelen [Fiscaal registratieproces en fiscale integratievoorbeelden voor fiscale apparaten](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).</span><span class="sxs-lookup"><span data-stu-id="673c3-129">For more details about fiscal integration components, see [Fiscal registration process and fiscal integration samples for fiscal devices](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).</span></span>
-
-    1. <span data-ttu-id="673c3-130">Upload op de pagina **Fiscale connectors** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale connectors**) een XML-configuratie voor elk apparaat of elke service die u wilt gebruiken voor fiscale integratiedoeleinden.</span><span class="sxs-lookup"><span data-stu-id="673c3-130">On the **Fiscal connectors** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal connectors**), upload an XML configuration for each device or service that you plan to use for fiscal integration purposes.</span></span>
-
-        > [!TIP]
-        > <span data-ttu-id="673c3-131">Door **Weergeven** te selecteren kunt u alle functionele en technische profielen weergeven die gerelateerd zijn aan de huidige fiscale connector.</span><span class="sxs-lookup"><span data-stu-id="673c3-131">By selecting **View**, you can view all functional and technical profiles that are related to the current fiscal connector.</span></span>
-
-    2. <span data-ttu-id="673c3-132">Upload op de pagina **Fiscale documentproviders** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale documentproviders**) een XML-configuratie voor elk apparaat of elke service die u wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="673c3-132">On the **Fiscal document providers** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal document providers**), upload an XML configuration for each device or service that you plan to use.</span></span>
-
-        > [!TIP]
-        > <span data-ttu-id="673c3-133">Door **Weergeven** te selecteren kunt u alle functionele profielen weergeven die gerelateerd zijn aan de huidige fiscale documentprovider.</span><span class="sxs-lookup"><span data-stu-id="673c3-133">By selecting **View**, you can view all functional profiles that are related to the current fiscal document provider.</span></span>
-
-    <span data-ttu-id="673c3-134">Zie voor voorbeelden van configuraties van fiscale connectors en fiscale documentproviders [Fiscale integratievoorbeelden in de Retail-SDK](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk).</span><span class="sxs-lookup"><span data-stu-id="673c3-134">For examples of configurations of fiscal connectors and fiscal document providers, see [Fiscal integration samples in the Retail SDK](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk).</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="673c3-135">Toewijzing van gegevens wordt beschouwd als onderdeel van een fiscale documentprovider.</span><span class="sxs-lookup"><span data-stu-id="673c3-135">Data mapping is considered part of a fiscal document provider.</span></span> <span data-ttu-id="673c3-136">Als u andere toewijzingen van gegevens voor dezelfde connector wilt instellen (bijvoorbeeld staatspecifieke regelgeving), moet u verschillende fiscale documentproviders maken.</span><span class="sxs-lookup"><span data-stu-id="673c3-136">To set up different data mappings for the same connector (for example, state-specific regulations), you should create different fiscal document providers.</span></span>
-
-3. <span data-ttu-id="673c3-137">Maak functionele connectorprofielen en technische connectorprofielen.</span><span class="sxs-lookup"><span data-stu-id="673c3-137">Create connector functional profiles and connector technical profiles.</span></span>
-
-    1. <span data-ttu-id="673c3-138">Maak op de pagina **Functionele connectorprofielen** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Functionele connectorprofielen**) een functioneel connectorprofiel voor elke combinatie van een fiscale connector en een fiscale documentprovider die gerelateerd is aan de fiscale connector.</span><span class="sxs-lookup"><span data-stu-id="673c3-138">On the **Connector functional profiles** page (**Retail \> Channel setup \> Fiscal integration \> Connector functional profiles**), create a connector functional profile for each combination of a fiscal connector and a fiscal document provider that is related to this fiscal connector.</span></span>
-
-        1. <span data-ttu-id="673c3-139">Selecteer een connectornaam.</span><span class="sxs-lookup"><span data-stu-id="673c3-139">Select a connector name.</span></span>
-        2. <span data-ttu-id="673c3-140">Selecteer een documentprovider.</span><span class="sxs-lookup"><span data-stu-id="673c3-140">Select a document provider.</span></span>
-
-        <span data-ttu-id="673c3-141">U kunt de gegevenstoewijzingsparameters in een functioneel connectorprofiel wijzigen.</span><span class="sxs-lookup"><span data-stu-id="673c3-141">You can change the data mapping parameters in a connector functional profile.</span></span> <span data-ttu-id="673c3-142">Als u de standaardparameters wilt herstellen die zijn gedefinieerd in de configuratie van de fiscale documentprovider, selecteert u **Bijwerken**.</span><span class="sxs-lookup"><span data-stu-id="673c3-142">To restore the default parameters that are defined in the fiscal document provider configuration, select **Update**.</span></span>
-
-        <span data-ttu-id="673c3-143">**Voorbeelden**</span><span class="sxs-lookup"><span data-stu-id="673c3-143">**Examples**</span></span>
-    
-        |   | <span data-ttu-id="673c3-144">Opmaak</span><span class="sxs-lookup"><span data-stu-id="673c3-144">Format</span></span> | <span data-ttu-id="673c3-145">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="673c3-145">Example</span></span> |
-        |---|--------|---------|
-        | <span data-ttu-id="673c3-146">**Btw-tariefinstellingen**</span><span class="sxs-lookup"><span data-stu-id="673c3-146">**VAT rates settings**</span></span> | <span data-ttu-id="673c3-147">waarde : VATrate</span><span class="sxs-lookup"><span data-stu-id="673c3-147">value : VATrate</span></span> | <span data-ttu-id="673c3-148">1 : 2000, 2 : 1800</span><span class="sxs-lookup"><span data-stu-id="673c3-148">1 : 2000, 2 : 1800</span></span> |
-        | <span data-ttu-id="673c3-149">**Toewijzing van btw-codes**</span><span class="sxs-lookup"><span data-stu-id="673c3-149">**VAT codes mapping**</span></span> | <span data-ttu-id="673c3-150">VATcode : waarde</span><span class="sxs-lookup"><span data-stu-id="673c3-150">VATcode : value</span></span> | <span data-ttu-id="673c3-151">vat20 : 1, vat18 : 2</span><span class="sxs-lookup"><span data-stu-id="673c3-151">vat20 : 1, vat18 : 2</span></span> |
-        | <span data-ttu-id="673c3-152">**Toewijzing van betalingsmethoden**</span><span class="sxs-lookup"><span data-stu-id="673c3-152">**Tender types mapping**</span></span> | <span data-ttu-id="673c3-153">TenderType : waarde</span><span class="sxs-lookup"><span data-stu-id="673c3-153">TenderType : value</span></span> | <span data-ttu-id="673c3-154">Contant : 1, Kaart : 2</span><span class="sxs-lookup"><span data-stu-id="673c3-154">Cash : 1, Card : 2</span></span> |
-
-        > [!NOTE]
-        > <span data-ttu-id="673c3-155">Functionele connectorprofielen zijn specifiek voor het bedrijf.</span><span class="sxs-lookup"><span data-stu-id="673c3-155">Connector functional profiles are company-specific.</span></span> <span data-ttu-id="673c3-156">Als u van plan bent dezelfde combinatie van een fiscale connector en een fiscale documentprovider te gebruiken in verschillende bedrijven, maakt u een functioneel connectorprofiel voor elk bedrijf.</span><span class="sxs-lookup"><span data-stu-id="673c3-156">If you plan to use the same combination of a fiscal connector and a fiscal document provider in different companies, you should create a connector functional profile for each company.</span></span>
-
-    2. <span data-ttu-id="673c3-157">Maak op de pagina **Technische connectorprofielen** (**Retail \> Afzetkanaalinstellingen \> Fiscale integratie \> Technische connectorprofielen**) een technisch connectorprofiel voor elke fiscale connector.</span><span class="sxs-lookup"><span data-stu-id="673c3-157">On the **Connector technical profiles** page (**Retail \> Channel setup \> Fiscal integration \> Connector technical profiles**), create a connector technical profile for each fiscal connector.</span></span>
-
-        1. <span data-ttu-id="673c3-158">Selecteer een connectornaam.</span><span class="sxs-lookup"><span data-stu-id="673c3-158">Select a connector name.</span></span>
-        2. <span data-ttu-id="673c3-159">Selecteer een connectortype.</span><span class="sxs-lookup"><span data-stu-id="673c3-159">Select a connector type.</span></span> <span data-ttu-id="673c3-160">Voor apparaten die zijn verbonden aan een hardwarestation, selecteert u **Lokaal**.</span><span class="sxs-lookup"><span data-stu-id="673c3-160">For devices that are connected to a Hardware station, select **Local**.</span></span>
-
-            > [!NOTE]
-            > <span data-ttu-id="673c3-161">Alleen lokale connectors worden ondersteund.</span><span class="sxs-lookup"><span data-stu-id="673c3-161">Only local connectors are currently supported.</span></span>
-
-        <span data-ttu-id="673c3-162">Parameters op de tabbladen **Apparaat** en **Instellingen** in een technisch connectorprofiel kunnen worden gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="673c3-162">Parameters on the **Device** and **Settings** tabs in a connector technical profile can be changed.</span></span> <span data-ttu-id="673c3-163">Als u de standaardparameters wilt herstellen die zijn gedefinieerd in de configuratie van de fiscale connector, selecteert u **Bijwerken**.</span><span class="sxs-lookup"><span data-stu-id="673c3-163">To restore the default parameters that are defined in the fiscal connector configuration, select **Update**.</span></span> <span data-ttu-id="673c3-164">Wanneer een nieuwe versie van een XML-configuratie wordt geladen, ontvangt u een bericht dat de huidige fiscale connector of fiscale documentprovider al wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="673c3-164">While a new version of an XML configuration is loaded, you receive a message that states that the current fiscal connector or fiscal document provider is already being used.</span></span> <span data-ttu-id="673c3-165">Deze procedure overschrijft niet handmatige wijzigingen die eerder zijn aangebracht in functionele connectorprofielen en technische connectorprofielen.</span><span class="sxs-lookup"><span data-stu-id="673c3-165">This procedure doesn't override manual changes that were previously made in connector functional profiles and connector technical profiles.</span></span> <span data-ttu-id="673c3-166">Als u de standaardset parameters wilt toepassen vanuit een nieuwe configuratie, klikt u op **Bijwerken** op de pagina **Functionele connectorprofielen** of de pagina **Technische connectorprofielen**.</span><span class="sxs-lookup"><span data-stu-id="673c3-166">To apply the default set of parameters from a new configuration, on the **Connector functional profiles** page or the **Connector technical profiles** page, select **Update**.</span></span>
-
-4. <span data-ttu-id="673c3-167">Maak fiscale connectorgroepen.</span><span class="sxs-lookup"><span data-stu-id="673c3-167">Create fiscal connector groups.</span></span>
-
-    <span data-ttu-id="673c3-168">Een fiscale connectorgroep combineert een subset van functionele connectors die identieke functies uitvoeren en worden gebruikt in dezelfde stap van een fiscaal registratieproces.</span><span class="sxs-lookup"><span data-stu-id="673c3-168">A fiscal connector group combines functional profiles of fiscal connectors that perform identical functions and are used at the same step of a fiscal registration process.</span></span> <span data-ttu-id="673c3-169">Als bijvoorbeeld verschillende fiscale printermodellen kunnen worden gebruikt in een winkel, kunnen fiscale connectors voor die fiscale printers worden gecombineerd in een fiscale connectorgroep.</span><span class="sxs-lookup"><span data-stu-id="673c3-169">For example, if several fiscal printer models can be used in a retail store, fiscal connectors for those fiscal printers can be combined in a fiscal connector group.</span></span>
-    
-    1. <span data-ttu-id="673c3-170">Maak op de pagina **Fiscale connectorgroep** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale connectorgroepen**) een nieuwe fiscale connectorgroep.</span><span class="sxs-lookup"><span data-stu-id="673c3-170">On the **Fiscal connector group** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal connector groups**), create a new fiscal connector group.</span></span>
-    2. <span data-ttu-id="673c3-171">Voeg functionele profielen toe aan de connectorgroep.</span><span class="sxs-lookup"><span data-stu-id="673c3-171">Add functional profiles to the connector group.</span></span> <span data-ttu-id="673c3-172">Selecteer op het tabblad **Functionele profielen** **Toevoegen** en selecteer een profielnummer.</span><span class="sxs-lookup"><span data-stu-id="673c3-172">On the **Functional profiles** tab, select **Add**, and select a profile number.</span></span> <span data-ttu-id="673c3-173">Elke fiscale connector in een connectorgroep kan slechts één functioneel profiel hebben.</span><span class="sxs-lookup"><span data-stu-id="673c3-173">Each fiscal connector in a connector group can only have one functional profile.</span></span>
-    3. <span data-ttu-id="673c3-174">Als u het gebruik van het functionele profiel wilt onderbreken, stelt u de optie **Uitschakelen** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="673c3-174">To suspend use of the functional profile, set the **Disable** option to **Yes**.</span></span> <span data-ttu-id="673c3-175">Deze wijziging is alleen van invloed op de huidige connectorgroep.</span><span class="sxs-lookup"><span data-stu-id="673c3-175">This change affects only the current connector group.</span></span> <span data-ttu-id="673c3-176">U kunt doorgaan met hetzelfde functionele profiel te gebruiken in andere connectorgroepen.</span><span class="sxs-lookup"><span data-stu-id="673c3-176">You can continue to use the same functional profile in other connector groups.</span></span>
-
-5. <span data-ttu-id="673c3-177">Maak een fiscaal registratieproces.</span><span class="sxs-lookup"><span data-stu-id="673c3-177">Create a fiscal registration process.</span></span>
-
-    <span data-ttu-id="673c3-178">Een fiscaal registratieproces wordt gedefinieerd door de volgorde van registratiestappen en de connectorgroep die voor elke stap wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="673c3-178">A fiscal registration process is defined by the sequence of registration steps and the connector group that is used for each step.</span></span>
-    
-    1. <span data-ttu-id="673c3-179">Maak op de pagina **Fiscaal registratieproces** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale registratieprocessen**) een nieuwe record voor elk uniek fiscaal registratieproces.</span><span class="sxs-lookup"><span data-stu-id="673c3-179">On the **Fiscal registration process** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal registration processes**), create a new record for each unique process of fiscal registration.</span></span>
-    2. <span data-ttu-id="673c3-180">Voeg registratiestappen aan het proces toe:</span><span class="sxs-lookup"><span data-stu-id="673c3-180">Add registration steps to the process:</span></span>
-
-        1. <span data-ttu-id="673c3-181">Selecteer **Toevoegen**.</span><span class="sxs-lookup"><span data-stu-id="673c3-181">Select **Add**.</span></span>
-        2. <span data-ttu-id="673c3-182">Selecteer een fiscaal connectortype.</span><span class="sxs-lookup"><span data-stu-id="673c3-182">Select a fiscal connector type.</span></span>
-        3. <span data-ttu-id="673c3-183">Selecteer in het veld **Groepsnummer** een geschikte fiscale connectorgroep.</span><span class="sxs-lookup"><span data-stu-id="673c3-183">In the **Group number** field, select an appropriate fiscal connector group.</span></span>
-
-6. <span data-ttu-id="673c3-184">Wijs entiteiten van het fiscale registratieproces toe aan POS-profielen.</span><span class="sxs-lookup"><span data-stu-id="673c3-184">Assign entities of the fiscal registration process to POS profiles.</span></span>
-
-    1. <span data-ttu-id="673c3-185">Wijs op de pagina **POS-functionaliteitsprofielen** (**Detailhandel \> Afzetkanaalinstellingen \> POS-instellingen \> POS-profielen \> Functionaliteitsprofielen**) het fiscale registratieproces toe aan een POS-functionaliteitsprofiel.</span><span class="sxs-lookup"><span data-stu-id="673c3-185">On the **POS functionality profiles** page (**Retail \> Channel setup \> POS setup \> POS profiles \> Functionality profiles**), assign the fiscal registration process to a POS functionality profile.</span></span> <span data-ttu-id="673c3-186">Selecteer **Bewerken** en selecteer vervolgens op het tabblad **Fiscaal registratieproces** in het veld **Procesnummer** een proces.</span><span class="sxs-lookup"><span data-stu-id="673c3-186">Select **Edit**, and then, on the **Fiscal registration process** tab, in the **Process number** field, select a process.</span></span>
-    2. <span data-ttu-id="673c3-187">Wijs op de pagina **POS-hardwareprofiel** (**Detailhandel \> Afzetkanaalinstellingen \> POS-instellingen \> POS profielen \> Hardwareprofielen**) technische connectorprofielen toe aan een hardwareprofiel.</span><span class="sxs-lookup"><span data-stu-id="673c3-187">On the **POS hardware profile** page (**Retail \> Channel setup \> POS setup \> POS profiles \> Hardware profiles**), assign connector technical profiles to a hardware profile.</span></span> <span data-ttu-id="673c3-188">Selecteer **Bewerken**, voeg een regel toe op het tabblad **Fiscale randapparatuur** en selecteer vervolgens in het veld **Profielnummer** een technisch connectorprofiel.</span><span class="sxs-lookup"><span data-stu-id="673c3-188">Select **Edit**, add a line on the **Fiscal peripherals** tab, and then, in the **Profile number** field, select a connector technical profile.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="673c3-189">U kunt verschillende technische profielen toevoegen aan hetzelfde hardwareprofiel.</span><span class="sxs-lookup"><span data-stu-id="673c3-189">You can add several technical profiles to the same hardware profile.</span></span> <span data-ttu-id="673c3-190">Een hardwareprofiel of POS-functionaliteitsprofiel moet achter slechts één intersectie met een fiscale connectorgroep hebben.</span><span class="sxs-lookup"><span data-stu-id="673c3-190">However, a hardware profile or POS functionality profile should have only one intersection with any fiscal connector group.</span></span>
-
-    <span data-ttu-id="673c3-191">De fiscale registratiestroom wordt gedefinieerd door het fiscale registratieproces en ook door sommige parameters van fiscale integratieonderdelen: de runtime-extensie Commerce voor fiscale documentprovider en de extensie Hardware Station voor de fiscale connector.</span><span class="sxs-lookup"><span data-stu-id="673c3-191">The fiscal registration flow is defined by the fiscal registration process and also by some parameters of fiscal integration components: the Commerce runtime extension for the fiscal document provider and the Hardware station extension for the fiscal connector.</span></span>
-
-    - <span data-ttu-id="673c3-192">Het abonnement van gebeurtenissen en transacties op fiscale registratie wordt vooraf gedefinieerd in de fiscale documentprovider.</span><span class="sxs-lookup"><span data-stu-id="673c3-192">The subscription of events and transactions to fiscal registration is predefined in the fiscal document provider.</span></span>
-    - <span data-ttu-id="673c3-193">De fiscale documentprovider is ook verantwoordelijk voor het identificeren van de fiscale connector die wordt gebruikt voor fiscale registratie.</span><span class="sxs-lookup"><span data-stu-id="673c3-193">The fiscal document provider is also responsible for identifying the fiscal connector that is used for fiscal registration.</span></span> <span data-ttu-id="673c3-194">Het komt overeen met de functionele connectorprofielen die zijn opgenomen in de fiscale connectorgroep die is opgegeven voor de huidige stap van het fiscale registratieproces met het technische connectorprofiel dat is toegewezen aan het hardwareprofiel van het Hardware-station waaraan het POS is gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="673c3-194">It matches the connector functional profiles that are included in the fiscal connector group that is specified for the current step of the fiscal registration process with the connector technical profile that is assigned to the hardware profile of the Hardware station that the POS is paired to.</span></span>
-    - <span data-ttu-id="673c3-195">De fiscale documentprovider gebruikt de instellingen voor gegevenstoewijzing van de configuratie van de fiscale documentprovider om transactie-/gebeurtenisgegevens, zoals belasting en betalingen, te transformeren terwijl een fiscaal document wordt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="673c3-195">The fiscal document provider uses the data mapping settings from the fiscal document provider configuration to transform transaction/event data such as taxes and payments while a fiscal document is generated.</span></span>
-    - <span data-ttu-id="673c3-196">Wanneer de fiscale documentprovider een fiscaal document genereert, kan de fiscale connector het zoals het is verzenden naar het fiscale apparaat of het ontleden en transformeren tot een reeks opdrachten van de apparaat-API (Application Programming Interface), afhankelijk van hoe de communicatie wordt verwerkt.</span><span class="sxs-lookup"><span data-stu-id="673c3-196">When the fiscal document provider generates a fiscal document, the fiscal connector can either send it to the fiscal device as is, or parse it and transform it into a sequence of commands of the device application programming interface (API), depending on how the communication is handled.</span></span>
-
-7. <span data-ttu-id="673c3-197">Selecteer op de pagina **Fiscaal registratieproces** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale registratieprocessen**) **Valideren** om het fiscale registratieproces te valideren.</span><span class="sxs-lookup"><span data-stu-id="673c3-197">On the **Fiscal registration process** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal registration processes**), select **Validate** to validate the fiscal registration process.</span></span>
-
-    <span data-ttu-id="673c3-198">Het is aan te raden om dit type validatie uit te voeren in de volgende gevallen:</span><span class="sxs-lookup"><span data-stu-id="673c3-198">We recommend that you run this type of validation in the following cases:</span></span>
-    
-    - <span data-ttu-id="673c3-199">Nadat u alle instellingen voor een nieuw registratieproces hebt voltooid, inclusief wanneer u registratieprocessen toewijst aan POS-functionaliteitsprofielen en hardwareprofielen.</span><span class="sxs-lookup"><span data-stu-id="673c3-199">After you've completed all the settings for a new registration process, including when you assign registration processes to POS functionality profiles and hardware profiles.</span></span>
-    - <span data-ttu-id="673c3-200">Nadat u wijzigingen in een bestaand fiscaal registratieproces hebt aangebracht en als deze wijzigingen ertoe kunnen leiden dat tijdens runtime een andere fiscale connector wordt geselecteerd (bijvoorbeeld als u de connectorgroep voor een stap in het fiscale registratieproces wijzigt, een functioneel connectorprofiel inschakelt in een connectorgroep of een nieuw functioneel connectorprofiel toevoegt aan een connectorgroep).</span><span class="sxs-lookup"><span data-stu-id="673c3-200">After you make changes to an existing fiscal registration process, and those changes might cause a different fiscal connector to be selected at runtime (for example, if you change the connector group for a fiscal registration process step, enable a connector functional profile in a connector group, or add a new connector functional profile to a connector group).</span></span>
-    - <span data-ttu-id="673c3-201">Nadat u wijzigingen hebt aangebracht in de toewijzing van technische connectorprofielen aan hardwareprofielen.</span><span class="sxs-lookup"><span data-stu-id="673c3-201">After you make changes in the assignment of connector technical profiles to hardware profiles.</span></span>
-
-8. <span data-ttu-id="673c3-202">Voer op de pagina **Distributieplanning** de taken **1070** en **1090** uit om gegevens over te brengen naar de afzetkanaaldatabase.</span><span class="sxs-lookup"><span data-stu-id="673c3-202">On the **Distribution schedule** page, run the **1070** and **1090** jobs to transfer data to the channel database.</span></span>
-
-## <a name="set-up-fiscal-texts-for-discounts"></a><span data-ttu-id="673c3-203">Fiscale teksten voor kortingen instellen</span><span class="sxs-lookup"><span data-stu-id="673c3-203">Set up fiscal texts for discounts</span></span>
-
-<span data-ttu-id="673c3-204">In sommige gevallen moet een speciale tekst worden afgedrukt op een fiscaal ontvangstbewijs als een korting wordt toegepast.</span><span class="sxs-lookup"><span data-stu-id="673c3-204">In some cases, a special text must be printed on a fiscal receipt if a discount is applied.</span></span> <span data-ttu-id="673c3-205">U kunt fiscale teksten voor kortingen instellen op de pagina **Fiscale connectorgroep** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale connectorgroepen**).</span><span class="sxs-lookup"><span data-stu-id="673c3-205">You can set up fiscal texts for discounts on the **Fiscal connector group** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal connector groups**).</span></span>
-
-- <span data-ttu-id="673c3-206">Voor handmatige kortingen die worden toegepast op het POS, moet u een fiscale tekst voor de informatiecode of informatiecodegroep instellen die is opgegeven als de **Productkorting**-infocode in het POS-functionaliteitsprofiel.</span><span class="sxs-lookup"><span data-stu-id="673c3-206">For manual discounts that are applied at the POS, you should set a fiscal text for the info code or info code group that is specified as the **Product discount** info code in the POS functionality profile.</span></span>
-
-    1. <span data-ttu-id="673c3-207">Selecteer op de pagina **Fiscale connectorgroep** **Tekst voor fiscaal ontvangstbewijs**.</span><span class="sxs-lookup"><span data-stu-id="673c3-207">On the **Fiscal connector group** page, select **Text for fiscal receipt**.</span></span>
-    2. <span data-ttu-id="673c3-208">Selecteer op het tabblad **Informatiecodes** **Toevoegen** en selecteer een informatiecode of informatiecodegroep.</span><span class="sxs-lookup"><span data-stu-id="673c3-208">On the **Info codes** tab, select **Add**, and select an info code or info code group.</span></span>
-    3. <span data-ttu-id="673c3-209">Selecteer in het veld **Infocodenummer** een waarde.</span><span class="sxs-lookup"><span data-stu-id="673c3-209">In the **Info code number**, select a value.</span></span>
-    4. <span data-ttu-id="673c3-210">Selecteer in het veld **Subcodenummer** een waarde als een subcode vereist is voor de geselecteerde informatiecode.</span><span class="sxs-lookup"><span data-stu-id="673c3-210">In the **Subcode number** field, select a value if a subcode is required for the selected info code.</span></span>
-    5. <span data-ttu-id="673c3-211">Geef in het veld **Tekst voor fiscaal ontvangstbewijs** een fiscale tekst op die moet worden afgedrukt op een ontvangstbewijs.</span><span class="sxs-lookup"><span data-stu-id="673c3-211">In the **Text for fiscal receipt** field, specify a fiscal text that should be printed on a fiscal receipt.</span></span>
-    6. <span data-ttu-id="673c3-212">Stelt de optie **Gebruikersinvoer afdrukken op fiscaal ontvangstbewijs** in op **Ja** om de tekst op een fiscaal ontvangstbewijs te overschrijven met informatie die een gebruiker handmatig invoert op het POS.</span><span class="sxs-lookup"><span data-stu-id="673c3-212">Set the **Print user input on fiscal receipt** option to **Yes** to override the text on a fiscal receipt with information that a user manually enters at the POS.</span></span> <span data-ttu-id="673c3-213">Deze optie geldt alleen voor informatiecodes met het invoertype **tekst**.</span><span class="sxs-lookup"><span data-stu-id="673c3-213">This option applies only to info codes that have an input type of **Text**.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="673c3-214">U kunt een fiscale tekst opgeven voor verschillende Informatiecodes ter ondersteuning van scenario's waarbij informatiecodegroepen, gekoppelde informatiecodes en geactiveerde informatiecodes worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="673c3-214">You can specify a fiscal text for several info codes to support scenarios where info code groups, linked info codes, and triggered info codes are used.</span></span> <span data-ttu-id="673c3-215">In deze scenario's bevat het fiscale ontvangstbewijs de fiscale teksten uit alle Informatiecodes die zijn gekoppeld aan de transactieregel waar de korting is toegepast.</span><span class="sxs-lookup"><span data-stu-id="673c3-215">In these scenarios, the fiscal receipt will contain the fiscal texts from all info codes that are linked to the transaction line where the discount was applied.</span></span>
-
-- <span data-ttu-id="673c3-216">Voor afzetkanaalspecifieke kortingen moet u een fiscale tekst definiëren voor de korting-id</span><span class="sxs-lookup"><span data-stu-id="673c3-216">For channel-specific discounts, you should define a fiscal text for the discount ID.</span></span>
-
-    1. <span data-ttu-id="673c3-217">Selecteer op de pagina **Fiscale connectorgroep** **Tekst voor fiscaal ontvangstbewijs**.</span><span class="sxs-lookup"><span data-stu-id="673c3-217">On the **Fiscal connector group** page, select **Text for fiscal receipt**.</span></span>
-    2. <span data-ttu-id="673c3-218">Selecteer op het tabblad **Kortingen** **Toevoegen** en selecteer een korting-id.</span><span class="sxs-lookup"><span data-stu-id="673c3-218">On the **Discounts** tab, select **Add**, and select a discount ID.</span></span>
-    3. <span data-ttu-id="673c3-219">Geef in het veld **Tekst voor fiscaal ontvangstbewijs** een fiscale tekst op die moet worden afgedrukt op een ontvangstbewijs.</span><span class="sxs-lookup"><span data-stu-id="673c3-219">In the **Text for fiscal receipt** field, specify a fiscal text that should be printed on a fiscal receipt.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="673c3-220">Als verschillende kortingen worden toegepast op dezelfde transactieregel, bevat het fiscale ontvangstbewijs fiscale teksten van alle kortingen die zijn gekoppeld aan die transactieregel.</span><span class="sxs-lookup"><span data-stu-id="673c3-220">If several discounts are applied to the same transaction line, the fiscal receipt will contain fiscal texts from all discounts that are linked to those transaction line.</span></span>
-
-## <a name="set-error-handling-settings"></a><span data-ttu-id="673c3-221">Instellingen voor het verwerken van fouten kiezen</span><span class="sxs-lookup"><span data-stu-id="673c3-221">Set error handling settings</span></span>
-
-<span data-ttu-id="673c3-222">De opties voor de afhandeling van fouten die beschikbaar in de fiscale integratie, worden ingesteld in het fiscale registratieproces.</span><span class="sxs-lookup"><span data-stu-id="673c3-222">The error handling options that are available in the fiscal integration are set in the fiscal registration process.</span></span> <span data-ttu-id="673c3-223">Zie voor meer informatie over het afhandelen van fouten in de fiscale integratie [Foutverwerking](fiscal-integration-for-retail-channel.md#error-handling).</span><span class="sxs-lookup"><span data-stu-id="673c3-223">For more information about error handling in the fiscal integration, see [Error handling](fiscal-integration-for-retail-channel.md#error-handling).</span></span>
-
-1. <span data-ttu-id="673c3-224">Op de pagina **Fiscaal registratieproces** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale registratieprocessen**) kunt u de volgende parameters instellen voor elke stap van het fiscale registratieproces:</span><span class="sxs-lookup"><span data-stu-id="673c3-224">On the **Fiscal registration process** page (**Retail \> Channel setup \> Fiscal integration \> Fiscal registration processes**), you can set the following parameters for each step of the fiscal registration process:</span></span>
-
-    - <span data-ttu-id="673c3-225">**Overslaan toestaan**: deze parameter maakt de optie **Overslaan** beschikbaar in het dialoogvenster voor foutafhandeling.</span><span class="sxs-lookup"><span data-stu-id="673c3-225">**Allow skip** – This parameter enables the **Skip** option in the error handling dialog box.</span></span>
-    - <span data-ttu-id="673c3-226">**Markeren als geregistreerd toestaan**: deze parameter maakt de optie **Markeren als geregistreerd** beschikbaar in het dialoogvenster voor foutafhandeling.</span><span class="sxs-lookup"><span data-stu-id="673c3-226">**Allow mark as registered** – This parameter enables the **Mark as registered** option in the error handling dialog box.</span></span>
-    - <span data-ttu-id="673c3-227">**Doorgaan bij fout** : als deze parameter is ingeschakeld, kan het proces voor fiscale registratie worden voortgezet op de POS-kassa als de fiscale registratie van een transactie of gebeurtenis mislukt.</span><span class="sxs-lookup"><span data-stu-id="673c3-227">**Continue on error** – If this parameter is enabled, the fiscal registration process can continue on the POS register if the fiscal registration of a transaction or event fails.</span></span> <span data-ttu-id="673c3-228">Anders moer, als u de fiscale registratie van de volgende transactie of gebeurtenis wilt uitvoeren, de operator de mislukte fiscale registratie opnieuw proberen, deze overslaan of de transactie of gebeurtenis markeren als geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="673c3-228">Otherwise, to run the fiscal registration of the next transaction or event, the operator must retry the failed fiscal registration, skip it, or mark the transaction or event as registered.</span></span> <span data-ttu-id="673c3-229">Zie voor meer informatie [Optionele fiscale registratie](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).</span><span class="sxs-lookup"><span data-stu-id="673c3-229">For more information, see [Optional fiscal registration](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="673c3-230">Als de parameter **Doorgaan bij fout** is ingeschakeld, worden de parameters **Overslaan toestaan** en **Markeren als geregistreerd toestaan** automatisch uitgeschakeld.</span><span class="sxs-lookup"><span data-stu-id="673c3-230">If the **Continue on error** parameter is enabled, the **Allow skip** and **Allow mark as registered** parameters are automatically disabled.</span></span>
-
-2. <span data-ttu-id="673c3-231">De opties **Overslaan** en **Markeren als geregistreerd** in het dialoogvenster voor foutafhandeling vereisen de machtiging **Overslaan van registratie of markeren als geregistreerd toestaan**.</span><span class="sxs-lookup"><span data-stu-id="673c3-231">The **Skip** and **Mark as registered** options in the error handling dialog box require the **Allow skip registration or mark as registered** permission.</span></span> <span data-ttu-id="673c3-232">Schakel daarom op de pagina **Machtigingsgroepen** (**Detailhandel \> Werknemers \> Machtigingsgroepen**) de machtiging **Overslaan van registratie of markeren als geregistreerd toestaan** in.</span><span class="sxs-lookup"><span data-stu-id="673c3-232">Therefore, on the **Permission groups** page (**Retail \> Employees \> Permission groups**), enable the **Allow skip registration or mark as registered** permission.</span></span>
-3. <span data-ttu-id="673c3-233">Met de opties **Overslaan** en **Markeren als geregistreerd** kunnen operators extra informatie invoeren wanneer de fiscale registratie mislukt.</span><span class="sxs-lookup"><span data-stu-id="673c3-233">The **Skip** and **Mark as registered** options let operators enter additional information when fiscal registration fails.</span></span> <span data-ttu-id="673c3-234">Als u deze functionaliteit beschikbaar wilt maken, moet u de infocodes **Overslaan** en **Markeren als geregistreerd** opgeven in een fiscale connectorgroep.</span><span class="sxs-lookup"><span data-stu-id="673c3-234">To make this functionality available, you should specify the **Skip** and **Mark as registered** info codes on a fiscal connector group.</span></span> <span data-ttu-id="673c3-235">De gegevens die operators invoeren, worden vervolgens opgeslagen als een infocodetransactie die is gekoppeld aan de fiscale transactie.</span><span class="sxs-lookup"><span data-stu-id="673c3-235">The information that operators enter is then saved as an info code transaction that is linked to the fiscal transaction.</span></span> <span data-ttu-id="673c3-236">Zie voor meer informatie over infocodes [Informatiecodes en informatiecodegroepen](../info-codes-retail.md).</span><span class="sxs-lookup"><span data-stu-id="673c3-236">For more details about info codes, see [Info codes and info code groups](../info-codes-retail.md).</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="673c3-237">De **Product**-activeringsfunctie wordt niet ondersteund voor de informatiecodes die worden gebruikt voor **Overslaan** en **Markeren als geregistreerd** in fiscale connectorgroepen.</span><span class="sxs-lookup"><span data-stu-id="673c3-237">The **Product** trigger function isn't supported for the info codes that are used for **Skip** and **Mark as registered** in fiscal connector groups.</span></span>
-
-    - <span data-ttu-id="673c3-238">Selecteer op de pagina **Fiscale connectorgroep** op het tabblad **Informatiecodes** informatiecodes of informatiecodegroepen in de velden **Overslaan** en **Markeren als geregistreerd**.</span><span class="sxs-lookup"><span data-stu-id="673c3-238">On the **Fiscal connector group** page, on the **Info codes** tab, select info codes or info code groups in the **Skip** and **Mark as registered** fields.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="673c3-239">Eén fiscaal document en één niet-fiscaal document kunnen in elke stap van een fiscaal registratieproces worden gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="673c3-239">One fiscal document and one non-fiscal document can be generated on any step of a fiscal registration process.</span></span> <span data-ttu-id="673c3-240">Een fiscale documentproviderextensie identificeert elk type transactie of gebeurtenis met betrekking tot fiscale of niet-fiscale documenten.</span><span class="sxs-lookup"><span data-stu-id="673c3-240">A fiscal document provider extension identifies every type of transaction or event as related to fiscal or non-fiscal documents.</span></span> <span data-ttu-id="673c3-241">De functie voor het verwerken van fouten geldt alleen voor fiscale documenten.</span><span class="sxs-lookup"><span data-stu-id="673c3-241">The error handling feature applies only to fiscal documents.</span></span>
-    >
-    > - <span data-ttu-id="673c3-242">**Fiscaal document**: een verplicht document dat met succes moet worden geregistreerd (bijvoorbeeld een fiscaal ontvangstbewijs).</span><span class="sxs-lookup"><span data-stu-id="673c3-242">**Fiscal document** – A mandatory document that should be registered successfully (for example, a fiscal receipt).</span></span>
-    > - <span data-ttu-id="673c3-243">**Niet-fiscaal document**: een aanvullend document voor de transactie of gebeurtenis (bijvoorbeeld een cadeaukaartstrook).</span><span class="sxs-lookup"><span data-stu-id="673c3-243">**Non-fiscal document** – A supplementary document for the transaction or event (for example, a gift card slip).</span></span>
-
-4. <span data-ttu-id="673c3-244">Als de operator moet kunnen doorgaan met het verwerken van de huidige bewerking (bijvoorbeeld een transactie maken of voltooien) nadat een statuscontrolefout is opgetreden, moet u de machtiging **Overslaan van statuscontrolefout toestaan** op de pagina **Machtigingsgroepen** (**Detailhandel \> Werknemers \> Machtigingsgroepen**) inschakelen.</span><span class="sxs-lookup"><span data-stu-id="673c3-244">If the operator must be able to continue to process the current operation (for example, creation or finalization of a transaction) after a health check error occurs, you should enable the **Allow skip health check error** permission on the **Permission groups** page (**Retail \> Employees \> Permission groups**).</span></span> <span data-ttu-id="673c3-245">Zie voor meer informatie over de statuscontroleprocedure [Statuscontrole fiscale registratie](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).</span><span class="sxs-lookup"><span data-stu-id="673c3-245">For more information about the health check procedure, see [Fiscal registration health check](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).</span></span>
-
-## <a name="set-up-fiscal-xz-reports-from-the-pos"></a><span data-ttu-id="673c3-246">Fiscale X/Z-rapporten instellen vanaf het POS</span><span class="sxs-lookup"><span data-stu-id="673c3-246">Set up fiscal X/Z reports from the POS</span></span>
-
-<span data-ttu-id="673c3-247">Als u fiscale X/Z-rapporten wilt inschakelen om te worden uitgevoerd vanaf het POS, moet u nieuwe knoppen toevoegen aan een POS-indeling.</span><span class="sxs-lookup"><span data-stu-id="673c3-247">To enable fiscal X/Z reports to be run from the POS, you should add new buttons to a POS layout.</span></span>
-
-- <span data-ttu-id="673c3-248">Volg op de pagina **Knoppenrasters** de instructies in [Een aangepaste bewerkingsknop toevoegen aan de POS-indeling in Retail Headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) om de ontwerper te installeren en een POS-indeling bij te werken.</span><span class="sxs-lookup"><span data-stu-id="673c3-248">On the **Button grids** page, follow the instructions in [Add a custom operation button to the POS layout in Retail headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) to install the designer and update a POS layout.</span></span>
-
-    1. <span data-ttu-id="673c3-249">Selecteer de bij te werken indeling.</span><span class="sxs-lookup"><span data-stu-id="673c3-249">Select the layout to update.</span></span> 
-    2. <span data-ttu-id="673c3-250">Voeg een nieuwe knop toe en stel de knopeigenschap **Fiscale X afdrukken** in.</span><span class="sxs-lookup"><span data-stu-id="673c3-250">Add a new button, and set the **Print fiscal X** button property.</span></span>
-    3. <span data-ttu-id="673c3-251">Voeg een nieuwe knop toe en stel de knopeigenschap **Fiscale Z afdrukken** in.</span><span class="sxs-lookup"><span data-stu-id="673c3-251">Add a new button, and set the **Print fiscal Z** button property.</span></span>
-    4. <span data-ttu-id="673c3-252">Voer op de pagina **Distributionplanner** de taak **1090** uit om wijzigingen over te brengen naar de afzetkanaaldatabase.</span><span class="sxs-lookup"><span data-stu-id="673c3-252">On the **Distribution schedule** page, run the **1090** job to transfer changes to the channel database.</span></span>
-
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a><span data-ttu-id="673c3-253">Handmatige uitvoering van uitgestelde fiscale registratie inschakelen</span><span class="sxs-lookup"><span data-stu-id="673c3-253">Enable manual execution of postponed fiscal registration</span></span>
-
-<span data-ttu-id="673c3-254">Als u een handmatige uitvoering van een uitgestelde fiscale registratie wilt inschakelen, moet u een nieuwe knop toevoegen aan een POS-indeling.</span><span class="sxs-lookup"><span data-stu-id="673c3-254">To enable manual execution of a postponed fiscal registration, you should add a new button to a POS layout.</span></span>
-
-- <span data-ttu-id="673c3-255">Volg op de pagina **Knoppenrasters** de instructies in [Een aangepaste bewerkingsknop toevoegen aan de POS-indeling in Retail Headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) om de ontwerper te installeren en een POS-indeling bij te werken.</span><span class="sxs-lookup"><span data-stu-id="673c3-255">On the **Button grids** page, follow the instructions in [Add a custom operation button to the POS layout in Retail headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) to install the designer and update a POS layout.</span></span>
-
-    1. <span data-ttu-id="673c3-256">Selecteer de bij te werken indeling.</span><span class="sxs-lookup"><span data-stu-id="673c3-256">Select the layout to update.</span></span>
-    2. <span data-ttu-id="673c3-257">Voeg een nieuwe knop toe en stel de knopeigenschap **Fiscale registratie voltooien** in.</span><span class="sxs-lookup"><span data-stu-id="673c3-257">Add a new button, and set the **Complete fiscal registration process** button property.</span></span>
-    3. <span data-ttu-id="673c3-258">Voer op de pagina **Distributieplanning** de taak **1090** uit om uw wijzigingen over te brengen naar de afzetkanaaldatabase.</span><span class="sxs-lookup"><span data-stu-id="673c3-258">On the **Distribution schedule** page, run the **1090** job to transfer your changes to the channel database.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="setting-up-fiscal-integration-for-retail-channel.md" target-language="nl-NL">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>setting-up-fiscal-integration-for-retail-channel.bcaf21.fda94e77480b9d9455fc0e214e43772ab2921f2d.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>fda94e77480b9d9455fc0e214e43772ab2921f2d</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>ffc37f7c2a63bada3055f37856a30424040bc9a3</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/16/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\localizations\setting-up-fiscal-integration-for-retail-channel.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Set up the fiscal integration for Retail channels</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiscale integratie voor detailhandelskanalen instellen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides guidelines for setting up the fiscal integration functionality for Retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit onderwerp bevat richtlijnen voor het instellen van de functionaliteit voor fiscale integratie voor detailhandelkanalen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Set up the fiscal integration for Retail channels</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiscale integratie voor detailhandelskanalen instellen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Introduction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Introductie</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This topic provides guidelines for setting up the fiscal integration functionality for Retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit onderwerp bevat richtlijnen voor het instellen van de functionaliteit voor fiscale integratie voor detailhandelkanalen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>For more information about the fiscal integration, see <bpt id="p1">[</bpt>Overview of fiscal integration for Retail channels<ept id="p1">](fiscal-integration-for-retail-channel.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie voor meer informatie over de fiscale integratie <bpt id="p1">[</bpt>Overzicht van fiscale integratie voor detailhandelkanalen<ept id="p1">](fiscal-integration-for-retail-channel.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The process of setting up the fiscal integration includes the following tasks:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het instelproces van de fiscale integratie bevat de volgende taken:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Configure fiscal connectors that represent fiscal devices or services that are used for fiscal registration purposes, such as fiscal printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiscale connectors configureren die fiscale apparaten of services vertegenwoordigen die worden gebruikt voor fiscale registratiedoeleinden, zoals fiscale printers.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Configure document providers that generate fiscal documents that will be registered in fiscal devices or services by fiscal connectors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Documentproviders configureren die fiscale documenten genereren die worden geregistreerd in fiscale apparaten of services door fiscale connectors.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Configure the fiscal registration process that defines a sequence of fiscal registration steps and the fiscal connectors and fiscal document providers that are used for each step.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het fiscale registratieproces configureren dat een reeks fiscale registratiestappen definieert en de fiscale connectors en fiscale documentproviders die voor elke stap worden gebruikt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Assign the fiscal registration process to point of sale (POS) functionality profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het fiscale registratieproces toewijzen aan POS-functionaliteitsprofielen (Point Of Sale).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Assign connector technical profiles to hardware profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Technische connectorprofielen toewijzen aan hardwareprofielen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Set up a fiscal registration process</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een fiscaal registratieproces instellen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Before you use the fiscal integration functionality, you should configure the following settings.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voordat u de functionaliteit voor fiscale integratie gebruikt, moet u de volgende instellingen configureren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Update retail parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Detailhandelsparameters bijwerken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>On the <bpt id="p1">**</bpt>Retail shared parameters<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> tab, set the <bpt id="p3">**</bpt>Enable fiscal integration<ept id="p3">**</ept> option to <bpt id="p4">**</bpt>Yes<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stel op de pagina <bpt id="p1">**</bpt>Gedeelde parameters detailhandel<ept id="p1">**</ept> op het tabblad <bpt id="p2">**</bpt>Algemeen<ept id="p2">**</ept> de optie <bpt id="p3">**</bpt>Fiscale integratie inschakelen<ept id="p3">**</ept> in op <bpt id="p4">**</bpt>Ja<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>On the <bpt id="p1">**</bpt>Number sequences<ept id="p1">**</ept> tab, define the number sequences for the following references:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Definieer op het tabblad <bpt id="p1">**</bpt>Nummerreeksen<ept id="p1">**</ept> de nummerreeksen voor de volgende referenties:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Fiscal technical profile number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nummer van fiscaal technisch profiel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Fiscal connector group number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nummer fiscale connectorgroep</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Registration process number</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nummer van registratieproces</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>On the <bpt id="p1">**</bpt>Retail parameters<ept id="p1">**</ept> page, define the number sequence for the fiscal functional profile number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Definieer op de pagina <bpt id="p1">**</bpt>Detailhandelparameters<ept id="p1">**</ept> de nummerreeks voor het fiscale profielnummer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Number sequences are optional.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nummerreeksen zijn optioneel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Numbers for all fiscal integration entities can be generated either from number sequences or manually.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nummers voor alle fiscale integratie-entiteiten kunnen worden gegenereerd uit nummerreeksen of handmatig.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Upload configurations of fiscal connectors and fiscal document providers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Upload configuraties van fiscale connectors en fiscale documentproviders.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>A fiscal document provider is responsible for generating fiscal documents that represent retail transactions and events that are registered on the POS in a format that is also used for the interaction with a fiscal device or service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een fiscale documentprovider is verantwoordelijk voor het genereren van belastingdocumenten die staan voor detailhandeltransacties en -gebeurtenissen die zijn geregistreerd in het POS in een indeling die ook wordt gebruikt voor de interactie met een fiscaal apparaat of een fiscale service.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>For example, a fiscal document provider might generate a representation of a fiscal receipt in an XML format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een fiscale documentprovider kan bijvoorbeeld een voorstelling van een fiscaal ontvangstbewijs genereren in een XML-indeling.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>A fiscal connector is responsible for the communication with a fiscal device or service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een fiscale connector is verantwoordelijk voor de communicatie met een fiscaal apparaat of een fiscale service.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>For example, a fiscal connector might send a fiscal receipt that a fiscal document provider created in an XML format to a fiscal printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een fiscale connector kan bijvoorbeeld een ontvangstbewijs dat een fiscale documentprovider in een XML-indeling heeft gemaakt, verzenden naar een fiscale printer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>For more details about fiscal integration components, see <bpt id="p1">[</bpt>Fiscal registration process and fiscal integration samples for fiscal devices<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie voor meer informatie over fiscale integratieonderdelen <bpt id="p1">[</bpt>Fiscaal registratieproces en fiscale integratievoorbeelden voor fiscale apparaten<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>On the <bpt id="p1">**</bpt>Fiscal connectors<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal connectors<ept id="p2">**</ept>), upload an XML configuration for each device or service that you plan to use for fiscal integration purposes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Upload op de pagina <bpt id="p1">**</bpt>Fiscale connectors<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> Fiscale integratie <ph id="ph3">\&gt;</ph> Fiscale connectors<ept id="p2">**</ept>) een XML-configuratie voor elk apparaat of elke service die u wilt gebruiken voor fiscale integratiedoeleinden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>By selecting <bpt id="p1">**</bpt>View<ept id="p1">**</ept>, you can view all functional and technical profiles that are related to the current fiscal connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Door <bpt id="p1">**</bpt>Weergeven<ept id="p1">**</ept> te selecteren kunt u alle functionele en technische profielen weergeven die gerelateerd zijn aan de huidige fiscale connector.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>On the <bpt id="p1">**</bpt>Fiscal document providers<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal document providers<ept id="p2">**</ept>), upload an XML configuration for each device or service that you plan to use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Upload op de pagina <bpt id="p1">**</bpt>Fiscale documentproviders<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> Fiscale integratie <ph id="ph3">\&gt;</ph> Fiscale documentproviders<ept id="p2">**</ept>) een XML-configuratie voor elk apparaat of elke service die u wilt gebruiken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>By selecting <bpt id="p1">**</bpt>View<ept id="p1">**</ept>, you can view all functional profiles that are related to the current fiscal document provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Door <bpt id="p1">**</bpt>Weergeven<ept id="p1">**</ept> te selecteren kunt u alle functionele profielen weergeven die gerelateerd zijn aan de huidige fiscale documentprovider.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>For examples of configurations of fiscal connectors and fiscal document providers, see <bpt id="p1">[</bpt>Fiscal integration samples in the Retail SDK<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie voor voorbeelden van configuraties van fiscale connectors en fiscale documentproviders <bpt id="p1">[</bpt>Fiscale integratievoorbeelden in de Retail-SDK<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Data mapping is considered part of a fiscal document provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toewijzing van gegevens wordt beschouwd als onderdeel van een fiscale documentprovider.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>To set up different data mappings for the same connector (for example, state-specific regulations), you should create different fiscal document providers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u andere toewijzingen van gegevens voor dezelfde connector wilt instellen (bijvoorbeeld staatspecifieke regelgeving), moet u verschillende fiscale documentproviders maken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Create connector functional profiles and connector technical profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maak functionele connectorprofielen en technische connectorprofielen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>On the <bpt id="p1">**</bpt>Connector functional profiles<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Connector functional profiles<ept id="p2">**</ept>), create a connector functional profile for each combination of a fiscal connector and a fiscal document provider that is related to this fiscal connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maak op de pagina <bpt id="p1">**</bpt>Functionele connectorprofielen<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> Fiscale integratie <ph id="ph3">\&gt;</ph> Functionele connectorprofielen<ept id="p2">**</ept>) een functioneel connectorprofiel voor elke combinatie van een fiscale connector en een fiscale documentprovider die gerelateerd is aan de fiscale connector.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Select a connector name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een connectornaam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Select a document provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een documentprovider.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>You can change the data mapping parameters in a connector functional profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt de gegevenstoewijzingsparameters in een functioneel connectorprofiel wijzigen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>To restore the default parameters that are defined in the fiscal document provider configuration, select <bpt id="p1">**</bpt>Update<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u de standaardparameters wilt herstellen die zijn gedefinieerd in de configuratie van de fiscale documentprovider, selecteert u <bpt id="p1">**</bpt>Bijwerken<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Voorbeelden<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Opmaak</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voorbeeld</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">**</bpt>VAT rates settings<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Btw-tariefinstellingen<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>value : VATrate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">waarde : VATrate</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>1 : 2000, 2 : 1800</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1 : 2000, 2 : 1800</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source><bpt id="p1">**</bpt>VAT codes mapping<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Toewijzing van btw-codes<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>VATcode : value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VATcode : waarde</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>vat20 : 1, vat18 : 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">vat20 : 1, vat18 : 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source><bpt id="p1">**</bpt>Tender types mapping<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Toewijzing van betalingsmethoden<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>TenderType : value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TenderType : waarde</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Cash : 1, Card : 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contant : 1, Kaart : 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Connector functional profiles are company-specific.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Functionele connectorprofielen zijn specifiek voor het bedrijf.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>If you plan to use the same combination of a fiscal connector and a fiscal document provider in different companies, you should create a connector functional profile for each company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u van plan bent dezelfde combinatie van een fiscale connector en een fiscale documentprovider te gebruiken in verschillende bedrijven, maakt u een functioneel connectorprofiel voor elk bedrijf.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>On the <bpt id="p1">**</bpt>Connector technical profiles<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Connector technical profiles<ept id="p2">**</ept>), create a connector technical profile for each fiscal connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maak op de pagina <bpt id="p1">**</bpt>Technische connectorprofielen<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> Fiscale integratie <ph id="ph3">\&gt;</ph> Technische connectorprofielen<ept id="p2">**</ept>) een technisch connectorprofiel voor elke fiscale connector.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Select a connector name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een connectornaam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Select a connector type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een connectortype.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>For devices that are connected to a Hardware station, select <bpt id="p1">**</bpt>Local<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor apparaten die zijn verbonden aan een hardwarestation, selecteert u <bpt id="p1">**</bpt>Lokaal<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Only local connectors are currently supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alleen lokale connectors worden ondersteund.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Parameters on the <bpt id="p1">**</bpt>Device<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> tabs in a connector technical profile can be changed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parameters op de tabbladen <bpt id="p1">**</bpt>Apparaat<ept id="p1">**</ept> en <bpt id="p2">**</bpt>Instellingen<ept id="p2">**</ept> in een technisch connectorprofiel kunnen worden gewijzigd.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>To restore the default parameters that are defined in the fiscal connector configuration, select <bpt id="p1">**</bpt>Update<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u de standaardparameters wilt herstellen die zijn gedefinieerd in de configuratie van de fiscale connector, selecteert u <bpt id="p1">**</bpt>Bijwerken<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>While a new version of an XML configuration is loaded, you receive a message that states that the current fiscal connector or fiscal document provider is already being used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Wanneer een nieuwe versie van een XML-configuratie wordt geladen, ontvangt u een bericht dat de huidige fiscale connector of fiscale documentprovider al wordt gebruikt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>This procedure doesn't override manual changes that were previously made in connector functional profiles and connector technical profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure overschrijft niet handmatige wijzigingen die eerder zijn aangebracht in functionele connectorprofielen en technische connectorprofielen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>To apply the default set of parameters from a new configuration, on the <bpt id="p1">**</bpt>Connector functional profiles<ept id="p1">**</ept> page or the <bpt id="p2">**</bpt>Connector technical profiles<ept id="p2">**</ept> page, select <bpt id="p3">**</bpt>Update<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u de standaardset parameters wilt toepassen vanuit een nieuwe configuratie, klikt u op <bpt id="p1">**</bpt>Bijwerken<ept id="p1">**</ept> op de pagina <bpt id="p2">**</bpt>Functionele connectorprofielen<ept id="p2">**</ept> of de pagina <bpt id="p3">**</bpt>Technische connectorprofielen<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Create fiscal connector groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maak fiscale connectorgroepen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>A fiscal connector group combines functional profiles of fiscal connectors that perform identical functions and are used at the same step of a fiscal registration process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een fiscale connectorgroep combineert een subset van functionele connectors die identieke functies uitvoeren en worden gebruikt in dezelfde stap van een fiscaal registratieproces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>For example, if several fiscal printer models can be used in a retail store, fiscal connectors for those fiscal printers can be combined in a fiscal connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als bijvoorbeeld verschillende fiscale printermodellen kunnen worden gebruikt in een winkel, kunnen fiscale connectors voor die fiscale printers worden gecombineerd in een fiscale connectorgroep.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>On the <bpt id="p1">**</bpt>Fiscal connector group<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal connector groups<ept id="p2">**</ept>), create a new fiscal connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maak op de pagina <bpt id="p1">**</bpt>Fiscale connectorgroep<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> Fiscale integratie <ph id="ph3">\&gt;</ph> Fiscale connectorgroepen<ept id="p2">**</ept>) een nieuwe fiscale connectorgroep.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Add functional profiles to the connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voeg functionele profielen toe aan de connectorgroep.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>On the <bpt id="p1">**</bpt>Functional profiles<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, and select a profile number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer op het tabblad <bpt id="p1">**</bpt>Functionele profielen<ept id="p1">**</ept> <bpt id="p2">**</bpt>Toevoegen<ept id="p2">**</ept> en selecteer een profielnummer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Each fiscal connector in a connector group can only have one functional profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elke fiscale connector in een connectorgroep kan slechts één functioneel profiel hebben.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>To suspend use of the functional profile, set the <bpt id="p1">**</bpt>Disable<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u het gebruik van het functionele profiel wilt onderbreken, stelt u de optie <bpt id="p1">**</bpt>Uitschakelen<ept id="p1">**</ept> in op <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>This change affects only the current connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze wijziging is alleen van invloed op de huidige connectorgroep.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>You can continue to use the same functional profile in other connector groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt doorgaan met hetzelfde functionele profiel te gebruiken in andere connectorgroepen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Create a fiscal registration process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maak een fiscaal registratieproces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>A fiscal registration process is defined by the sequence of registration steps and the connector group that is used for each step.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een fiscaal registratieproces wordt gedefinieerd door de volgorde van registratiestappen en de connectorgroep die voor elke stap wordt gebruikt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>On the <bpt id="p1">**</bpt>Fiscal registration process<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal registration processes<ept id="p2">**</ept>), create a new record for each unique process of fiscal registration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maak op de pagina <bpt id="p1">**</bpt>Fiscaal registratieproces<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> Fiscale integratie <ph id="ph3">\&gt;</ph> Fiscale registratieprocessen<ept id="p2">**</ept>) een nieuwe record voor elk uniek fiscaal registratieproces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Add registration steps to the process:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voeg registratiestappen aan het proces toe:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer <bpt id="p1">**</bpt>Toevoegen<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Select a fiscal connector type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een fiscaal connectortype.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>In the <bpt id="p1">**</bpt>Group number<ept id="p1">**</ept> field, select an appropriate fiscal connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer in het veld <bpt id="p1">**</bpt>Groepsnummer<ept id="p1">**</ept> een geschikte fiscale connectorgroep.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Assign entities of the fiscal registration process to POS profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Wijs entiteiten van het fiscale registratieproces toe aan POS-profielen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>On the <bpt id="p1">**</bpt>POS functionality profiles<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> POS setup <ph id="ph3">\&gt;</ph> POS profiles <ph id="ph4">\&gt;</ph> Functionality profiles<ept id="p2">**</ept>), assign the fiscal registration process to a POS functionality profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Wijs op de pagina <bpt id="p1">**</bpt>POS-functionaliteitsprofielen<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> POS-instellingen <ph id="ph3">\&gt;</ph> POS-profielen <ph id="ph4">\&gt;</ph> Functionaliteitsprofielen<ept id="p2">**</ept>) het fiscale registratieproces toe aan een POS-functionaliteitsprofiel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, and then, on the <bpt id="p2">**</bpt>Fiscal registration process<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Process number<ept id="p3">**</ept> field, select a process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer <bpt id="p1">**</bpt>Bewerken<ept id="p1">**</ept> en selecteer vervolgens op het tabblad <bpt id="p2">**</bpt>Fiscaal registratieproces<ept id="p2">**</ept> in het veld <bpt id="p3">**</bpt>Procesnummer<ept id="p3">**</ept> een proces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>On the <bpt id="p1">**</bpt>POS hardware profile<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> POS setup <ph id="ph3">\&gt;</ph> POS profiles <ph id="ph4">\&gt;</ph> Hardware profiles<ept id="p2">**</ept>), assign connector technical profiles to a hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Wijs op de pagina <bpt id="p1">**</bpt>POS-hardwareprofiel<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> POS-instellingen <ph id="ph3">\&gt;</ph> POS profielen <ph id="ph4">\&gt;</ph> Hardwareprofielen<ept id="p2">**</ept>) technische connectorprofielen toe aan een hardwareprofiel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, add a line on the <bpt id="p2">**</bpt>Fiscal peripherals<ept id="p2">**</ept> tab, and then, in the <bpt id="p3">**</bpt>Profile number<ept id="p3">**</ept> field, select a connector technical profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer <bpt id="p1">**</bpt>Bewerken<ept id="p1">**</ept>, voeg een regel toe op het tabblad <bpt id="p2">**</bpt>Fiscale randapparatuur<ept id="p2">**</ept> en selecteer vervolgens in het veld <bpt id="p3">**</bpt>Profielnummer<ept id="p3">**</ept> een technisch connectorprofiel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>You can add several technical profiles to the same hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt verschillende technische profielen toevoegen aan hetzelfde hardwareprofiel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>However, a hardware profile or POS functionality profile should have only one intersection with any fiscal connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een hardwareprofiel of POS-functionaliteitsprofiel moet achter slechts één intersectie met een fiscale connectorgroep hebben.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>The fiscal registration flow is defined by the fiscal registration process and also by some parameters of fiscal integration components: the Commerce runtime extension for the fiscal document provider and the Hardware station extension for the fiscal connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De fiscale registratiestroom wordt gedefinieerd door het fiscale registratieproces en ook door sommige parameters van fiscale integratieonderdelen: de runtime-extensie Commerce voor fiscale documentprovider en de extensie Hardware Station voor de fiscale connector.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>The subscription of events and transactions to fiscal registration is predefined in the fiscal document provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het abonnement van gebeurtenissen en transacties op fiscale registratie wordt vooraf gedefinieerd in de fiscale documentprovider.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>The fiscal document provider is also responsible for identifying the fiscal connector that is used for fiscal registration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De fiscale documentprovider is ook verantwoordelijk voor het identificeren van de fiscale connector die wordt gebruikt voor fiscale registratie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>It matches the connector functional profiles that are included in the fiscal connector group that is specified for the current step of the fiscal registration process with the connector technical profile that is assigned to the hardware profile of the Hardware station that the POS is paired to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het komt overeen met de functionele connectorprofielen die zijn opgenomen in de fiscale connectorgroep die is opgegeven voor de huidige stap van het fiscale registratieproces met het technische connectorprofiel dat is toegewezen aan het hardwareprofiel van het Hardware-station waaraan het POS is gekoppeld.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>The fiscal document provider uses the data mapping settings from the fiscal document provider configuration to transform transaction/event data such as taxes and payments while a fiscal document is generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De fiscale documentprovider gebruikt de instellingen voor gegevenstoewijzing van de configuratie van de fiscale documentprovider om transactie-/gebeurtenisgegevens, zoals belasting en betalingen, te transformeren terwijl een fiscaal document wordt gemaakt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>When the fiscal document provider generates a fiscal document, the fiscal connector can either send it to the fiscal device as is, or parse it and transform it into a sequence of commands of the device application programming interface (API), depending on how the communication is handled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Wanneer de fiscale documentprovider een fiscaal document genereert, kan de fiscale connector het zoals het is verzenden naar het fiscale apparaat of het ontleden en transformeren tot een reeks opdrachten van de apparaat-API (Application Programming Interface), afhankelijk van hoe de communicatie wordt verwerkt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>On the <bpt id="p1">**</bpt>Fiscal registration process<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal registration processes<ept id="p2">**</ept>), select <bpt id="p3">**</bpt>Validate<ept id="p3">**</ept> to validate the fiscal registration process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer op de pagina <bpt id="p1">**</bpt>Fiscaal registratieproces<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> Fiscale integratie <ph id="ph3">\&gt;</ph> Fiscale registratieprocessen<ept id="p2">**</ept>) <bpt id="p3">**</bpt>Valideren<ept id="p3">**</ept> om het fiscale registratieproces te valideren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>We recommend that you run this type of validation in the following cases:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het is aan te raden om dit type validatie uit te voeren in de volgende gevallen:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>After you've completed all the settings for a new registration process, including when you assign registration processes to POS functionality profiles and hardware profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nadat u alle instellingen voor een nieuw registratieproces hebt voltooid, inclusief wanneer u registratieprocessen toewijst aan POS-functionaliteitsprofielen en hardwareprofielen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>After you make changes to an existing fiscal registration process, and those changes might cause a different fiscal connector to be selected at runtime (for example, if you change the connector group for a fiscal registration process step, enable a connector functional profile in a connector group, or add a new connector functional profile to a connector group).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nadat u wijzigingen in een bestaand fiscaal registratieproces hebt aangebracht en als deze wijzigingen ertoe kunnen leiden dat tijdens runtime een andere fiscale connector wordt geselecteerd (bijvoorbeeld als u de connectorgroep voor een stap in het fiscale registratieproces wijzigt, een functioneel connectorprofiel inschakelt in een connectorgroep of een nieuw functioneel connectorprofiel toevoegt aan een connectorgroep).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>After you make changes in the assignment of connector technical profiles to hardware profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nadat u wijzigingen hebt aangebracht in de toewijzing van technische connectorprofielen aan hardwareprofielen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>On the <bpt id="p1">**</bpt>Distribution schedule<ept id="p1">**</ept> page, run the <bpt id="p2">**</bpt>1070<ept id="p2">**</ept> and <bpt id="p3">**</bpt>1090<ept id="p3">**</ept> jobs to transfer data to the channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer op de pagina <bpt id="p1">**</bpt>Distributieplanning<ept id="p1">**</ept> de taken <bpt id="p2">**</bpt>1070<ept id="p2">**</ept> en <bpt id="p3">**</bpt>1090<ept id="p3">**</ept> uit om gegevens over te brengen naar de afzetkanaaldatabase.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Set up fiscal texts for discounts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiscale teksten voor kortingen instellen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>In some cases, a special text must be printed on a fiscal receipt if a discount is applied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In sommige gevallen moet een speciale tekst worden afgedrukt op een fiscaal ontvangstbewijs als een korting wordt toegepast.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>You can set up fiscal texts for discounts on the <bpt id="p1">**</bpt>Fiscal connector group<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal connector groups<ept id="p2">**</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt fiscale teksten voor kortingen instellen op de pagina <bpt id="p1">**</bpt>Fiscale connectorgroep<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> Fiscale integratie <ph id="ph3">\&gt;</ph> Fiscale connectorgroepen<ept id="p2">**</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>For manual discounts that are applied at the POS, you should set a fiscal text for the info code or info code group that is specified as the <bpt id="p1">**</bpt>Product discount<ept id="p1">**</ept> info code in the POS functionality profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor handmatige kortingen die worden toegepast op het POS, moet u een fiscale tekst voor de informatiecode of informatiecodegroep instellen die is opgegeven als de <bpt id="p1">**</bpt>Productkorting<ept id="p1">**</ept>-infocode in het POS-functionaliteitsprofiel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>On the <bpt id="p1">**</bpt>Fiscal connector group<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Text for fiscal receipt<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer op de pagina <bpt id="p1">**</bpt>Fiscale connectorgroep<ept id="p1">**</ept> <bpt id="p2">**</bpt>Tekst voor fiscaal ontvangstbewijs<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>On the <bpt id="p1">**</bpt>Info codes<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, and select an info code or info code group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer op het tabblad <bpt id="p1">**</bpt>Informatiecodes<ept id="p1">**</ept> <bpt id="p2">**</bpt>Toevoegen<ept id="p2">**</ept> en selecteer een informatiecode of informatiecodegroep.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>In the <bpt id="p1">**</bpt>Info code number<ept id="p1">**</ept>, select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer in het veld <bpt id="p1">**</bpt>Infocodenummer<ept id="p1">**</ept> een waarde.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>In the <bpt id="p1">**</bpt>Subcode number<ept id="p1">**</ept> field, select a value if a subcode is required for the selected info code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer in het veld <bpt id="p1">**</bpt>Subcodenummer<ept id="p1">**</ept> een waarde als een subcode vereist is voor de geselecteerde informatiecode.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>In the <bpt id="p1">**</bpt>Text for fiscal receipt<ept id="p1">**</ept> field, specify a fiscal text that should be printed on a fiscal receipt.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geef in het veld <bpt id="p1">**</bpt>Tekst voor fiscaal ontvangstbewijs<ept id="p1">**</ept> een fiscale tekst op die moet worden afgedrukt op een ontvangstbewijs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Set the <bpt id="p1">**</bpt>Print user input on fiscal receipt<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to override the text on a fiscal receipt with information that a user manually enters at the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stelt de optie <bpt id="p1">**</bpt>Gebruikersinvoer afdrukken op fiscaal ontvangstbewijs<ept id="p1">**</ept> in op <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> om de tekst op een fiscaal ontvangstbewijs te overschrijven met informatie die een gebruiker handmatig invoert op het POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>This option applies only to info codes that have an input type of <bpt id="p1">**</bpt>Text<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze optie geldt alleen voor informatiecodes met het invoertype <bpt id="p1">**</bpt>tekst<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>You can specify a fiscal text for several info codes to support scenarios where info code groups, linked info codes, and triggered info codes are used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt een fiscale tekst opgeven voor verschillende Informatiecodes ter ondersteuning van scenario's waarbij informatiecodegroepen, gekoppelde informatiecodes en geactiveerde informatiecodes worden gebruikt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>In these scenarios, the fiscal receipt will contain the fiscal texts from all info codes that are linked to the transaction line where the discount was applied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In deze scenario's bevat het fiscale ontvangstbewijs de fiscale teksten uit alle Informatiecodes die zijn gekoppeld aan de transactieregel waar de korting is toegepast.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>For channel-specific discounts, you should define a fiscal text for the discount ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor afzetkanaalspecifieke kortingen moet u een fiscale tekst definiëren voor de korting-id</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>On the <bpt id="p1">**</bpt>Fiscal connector group<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Text for fiscal receipt<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer op de pagina <bpt id="p1">**</bpt>Fiscale connectorgroep<ept id="p1">**</ept> <bpt id="p2">**</bpt>Tekst voor fiscaal ontvangstbewijs<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>On the <bpt id="p1">**</bpt>Discounts<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, and select a discount ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer op het tabblad <bpt id="p1">**</bpt>Kortingen<ept id="p1">**</ept> <bpt id="p2">**</bpt>Toevoegen<ept id="p2">**</ept> en selecteer een korting-id.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>In the <bpt id="p1">**</bpt>Text for fiscal receipt<ept id="p1">**</ept> field, specify a fiscal text that should be printed on a fiscal receipt.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geef in het veld <bpt id="p1">**</bpt>Tekst voor fiscaal ontvangstbewijs<ept id="p1">**</ept> een fiscale tekst op die moet worden afgedrukt op een ontvangstbewijs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>If several discounts are applied to the same transaction line, the fiscal receipt will contain fiscal texts from all discounts that are linked to those transaction line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als verschillende kortingen worden toegepast op dezelfde transactieregel, bevat het fiscale ontvangstbewijs fiscale teksten van alle kortingen die zijn gekoppeld aan die transactieregel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Set error handling settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instellingen voor het verwerken van fouten kiezen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>The error handling options that are available in the fiscal integration are set in the fiscal registration process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De opties voor de afhandeling van fouten die beschikbaar in de fiscale integratie, worden ingesteld in het fiscale registratieproces.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>For more information about error handling in the fiscal integration, see <bpt id="p1">[</bpt>Error handling<ept id="p1">](fiscal-integration-for-retail-channel.md#error-handling)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie voor meer informatie over het afhandelen van fouten in de fiscale integratie <bpt id="p1">[</bpt>Foutverwerking<ept id="p1">](fiscal-integration-for-retail-channel.md#error-handling)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>On the <bpt id="p1">**</bpt>Fiscal registration process<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> Fiscal integration <ph id="ph3">\&gt;</ph> Fiscal registration processes<ept id="p2">**</ept>), you can set the following parameters for each step of the fiscal registration process:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Op de pagina <bpt id="p1">**</bpt>Fiscaal registratieproces<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> Fiscale integratie <ph id="ph3">\&gt;</ph> Fiscale registratieprocessen<ept id="p2">**</ept>) kunt u de volgende parameters instellen voor elke stap van het fiscale registratieproces:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source><bpt id="p1">**</bpt>Allow skip<ept id="p1">**</ept> – This parameter enables the <bpt id="p2">**</bpt>Skip<ept id="p2">**</ept> option in the error handling dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Overslaan toestaan<ept id="p1">**</ept>: deze parameter maakt de optie <bpt id="p2">**</bpt>Overslaan<ept id="p2">**</ept> beschikbaar in het dialoogvenster voor foutafhandeling.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source><bpt id="p1">**</bpt>Allow mark as registered<ept id="p1">**</ept> – This parameter enables the <bpt id="p2">**</bpt>Mark as registered<ept id="p2">**</ept> option in the error handling dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Markeren als geregistreerd toestaan<ept id="p1">**</ept>: deze parameter maakt de optie <bpt id="p2">**</bpt>Markeren als geregistreerd<ept id="p2">**</ept> beschikbaar in het dialoogvenster voor foutafhandeling.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source><bpt id="p1">**</bpt>Continue on error<ept id="p1">**</ept> – If this parameter is enabled, the fiscal registration process can continue on the POS register if the fiscal registration of a transaction or event fails.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Doorgaan bij fout<ept id="p1">**</ept> : als deze parameter is ingeschakeld, kan het proces voor fiscale registratie worden voortgezet op de POS-kassa als de fiscale registratie van een transactie of gebeurtenis mislukt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Otherwise, to run the fiscal registration of the next transaction or event, the operator must retry the failed fiscal registration, skip it, or mark the transaction or event as registered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Anders moer, als u de fiscale registratie van de volgende transactie of gebeurtenis wilt uitvoeren, de operator de mislukte fiscale registratie opnieuw proberen, deze overslaan of de transactie of gebeurtenis markeren als geregistreerd.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>For more information, see <bpt id="p1">[</bpt>Optional fiscal registration<ept id="p1">](fiscal-integration-for-retail-channel.md#optional-fiscal-registration)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie voor meer informatie <bpt id="p1">[</bpt>Optionele fiscale registratie<ept id="p1">](fiscal-integration-for-retail-channel.md#optional-fiscal-registration)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>If the <bpt id="p1">**</bpt>Continue on error<ept id="p1">**</ept> parameter is enabled, the <bpt id="p2">**</bpt>Allow skip<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Allow mark as registered<ept id="p3">**</ept> parameters are automatically disabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als de parameter <bpt id="p1">**</bpt>Doorgaan bij fout<ept id="p1">**</ept> is ingeschakeld, worden de parameters <bpt id="p2">**</bpt>Overslaan toestaan<ept id="p2">**</ept> en <bpt id="p3">**</bpt>Markeren als geregistreerd toestaan<ept id="p3">**</ept> automatisch uitgeschakeld.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>The <bpt id="p1">**</bpt>Skip<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Mark as registered<ept id="p2">**</ept> options in the error handling dialog box require the <bpt id="p3">**</bpt>Allow skip registration or mark as registered<ept id="p3">**</ept> permission.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De opties <bpt id="p1">**</bpt>Overslaan<ept id="p1">**</ept> en <bpt id="p2">**</bpt>Markeren als geregistreerd<ept id="p2">**</ept> in het dialoogvenster voor foutafhandeling vereisen de machtiging <bpt id="p3">**</bpt>Overslaan van registratie of markeren als geregistreerd toestaan<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Therefore, on the <bpt id="p1">**</bpt>Permission groups<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Employees <ph id="ph2">\&gt;</ph> Permission groups<ept id="p2">**</ept>), enable the <bpt id="p3">**</bpt>Allow skip registration or mark as registered<ept id="p3">**</ept> permission.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Schakel daarom op de pagina <bpt id="p1">**</bpt>Machtigingsgroepen<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Werknemers <ph id="ph2">\&gt;</ph> Machtigingsgroepen<ept id="p2">**</ept>) de machtiging <bpt id="p3">**</bpt>Overslaan van registratie of markeren als geregistreerd toestaan<ept id="p3">**</ept> in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>The <bpt id="p1">**</bpt>Skip<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Mark as registered<ept id="p2">**</ept> options let operators enter additional information when fiscal registration fails.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Met de opties <bpt id="p1">**</bpt>Overslaan<ept id="p1">**</ept> en <bpt id="p2">**</bpt>Markeren als geregistreerd<ept id="p2">**</ept> kunnen operators extra informatie invoeren wanneer de fiscale registratie mislukt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>To make this functionality available, you should specify the <bpt id="p1">**</bpt>Skip<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Mark as registered<ept id="p2">**</ept> info codes on a fiscal connector group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u deze functionaliteit beschikbaar wilt maken, moet u de infocodes <bpt id="p1">**</bpt>Overslaan<ept id="p1">**</ept> en <bpt id="p2">**</bpt>Markeren als geregistreerd<ept id="p2">**</ept> opgeven in een fiscale connectorgroep.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>The information that operators enter is then saved as an info code transaction that is linked to the fiscal transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De gegevens die operators invoeren, worden vervolgens opgeslagen als een infocodetransactie die is gekoppeld aan de fiscale transactie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>For more details about info codes, see <bpt id="p1">[</bpt>Info codes and info code groups<ept id="p1">](../info-codes-retail.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie voor meer informatie over infocodes <bpt id="p1">[</bpt>Informatiecodes en informatiecodegroepen<ept id="p1">](../info-codes-retail.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>The <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> trigger function isn't supported for the info codes that are used for <bpt id="p2">**</bpt>Skip<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Mark as registered<ept id="p3">**</ept> in fiscal connector groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De <bpt id="p1">**</bpt>Product<ept id="p1">**</ept>-activeringsfunctie wordt niet ondersteund voor de informatiecodes die worden gebruikt voor <bpt id="p2">**</bpt>Overslaan<ept id="p2">**</ept> en <bpt id="p3">**</bpt>Markeren als geregistreerd<ept id="p3">**</ept> in fiscale connectorgroepen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>On the <bpt id="p1">**</bpt>Fiscal connector group<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Info codes<ept id="p2">**</ept> tab, select info codes or info code groups in the <bpt id="p3">**</bpt>Skip<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Mark as registered<ept id="p4">**</ept> fields.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer op de pagina <bpt id="p1">**</bpt>Fiscale connectorgroep<ept id="p1">**</ept> op het tabblad <bpt id="p2">**</bpt>Informatiecodes<ept id="p2">**</ept> informatiecodes of informatiecodegroepen in de velden <bpt id="p3">**</bpt>Overslaan<ept id="p3">**</ept> en <bpt id="p4">**</bpt>Markeren als geregistreerd<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>One fiscal document and one non-fiscal document can be generated on any step of a fiscal registration process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eén fiscaal document en één niet-fiscaal document kunnen in elke stap van een fiscaal registratieproces worden gegenereerd.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>A fiscal document provider extension identifies every type of transaction or event as related to fiscal or non-fiscal documents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een fiscale documentproviderextensie identificeert elk type transactie of gebeurtenis met betrekking tot fiscale of niet-fiscale documenten.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>The error handling feature applies only to fiscal documents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De functie voor het verwerken van fouten geldt alleen voor fiscale documenten.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source><bpt id="p1">**</bpt>Fiscal document<ept id="p1">**</ept> – A mandatory document that should be registered successfully (for example, a fiscal receipt).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Fiscaal document<ept id="p1">**</ept>: een verplicht document dat met succes moet worden geregistreerd (bijvoorbeeld een fiscaal ontvangstbewijs).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source><bpt id="p1">**</bpt>Non-fiscal document<ept id="p1">**</ept> – A supplementary document for the transaction or event (for example, a gift card slip).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Niet-fiscaal document<ept id="p1">**</ept>: een aanvullend document voor de transactie of gebeurtenis (bijvoorbeeld een cadeaukaartstrook).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>If the operator must be able to continue to process the current operation (for example, creation or finalization of a transaction) after a health check error occurs, you should enable the <bpt id="p1">**</bpt>Allow skip health check error<ept id="p1">**</ept> permission on the <bpt id="p2">**</bpt>Permission groups<ept id="p2">**</ept> page (<bpt id="p3">**</bpt>Retail <ph id="ph1">\&gt;</ph> Employees <ph id="ph2">\&gt;</ph> Permission groups<ept id="p3">**</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als de operator moet kunnen doorgaan met het verwerken van de huidige bewerking (bijvoorbeeld een transactie maken of voltooien) nadat een statuscontrolefout is opgetreden, moet u de machtiging <bpt id="p1">**</bpt>Overslaan van statuscontrolefout toestaan<ept id="p1">**</ept> op de pagina <bpt id="p2">**</bpt>Machtigingsgroepen<ept id="p2">**</ept> (<bpt id="p3">**</bpt>Detailhandel <ph id="ph1">\&gt;</ph> Werknemers <ph id="ph2">\&gt;</ph> Machtigingsgroepen<ept id="p3">**</ept>) inschakelen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>For more information about the health check procedure, see <bpt id="p1">[</bpt>Fiscal registration health check<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie voor meer informatie over de statuscontroleprocedure <bpt id="p1">[</bpt>Statuscontrole fiscale registratie<ept id="p1">](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Set up fiscal X/Z reports from the POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiscale X/Z-rapporten instellen vanaf het POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>To enable fiscal X/Z reports to be run from the POS, you should add new buttons to a POS layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u fiscale X/Z-rapporten wilt inschakelen om te worden uitgevoerd vanaf het POS, moet u nieuwe knoppen toevoegen aan een POS-indeling.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>On the <bpt id="p1">**</bpt>Button grids<ept id="p1">**</ept> page, follow the instructions in <bpt id="p2">[</bpt>Add a custom operation button to the POS layout in Retail headquarters<ept id="p2">](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)</ept> to install the designer and update a POS layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Volg op de pagina <bpt id="p1">**</bpt>Knoppenrasters<ept id="p1">**</ept> de instructies in <bpt id="p2">[</bpt>Een aangepaste bewerkingsknop toevoegen aan de POS-indeling in Retail Headquarters<ept id="p2">](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)</ept> om de ontwerper te installeren en een POS-indeling bij te werken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Select the layout to update.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer de bij te werken indeling.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Add a new button, and set the <bpt id="p1">**</bpt>Print fiscal X<ept id="p1">**</ept> button property.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voeg een nieuwe knop toe en stel de knopeigenschap <bpt id="p1">**</bpt>Fiscale X afdrukken<ept id="p1">**</ept> in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>Add a new button, and set the <bpt id="p1">**</bpt>Print fiscal Z<ept id="p1">**</ept> button property.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voeg een nieuwe knop toe en stel de knopeigenschap <bpt id="p1">**</bpt>Fiscale Z afdrukken<ept id="p1">**</ept> in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>On the <bpt id="p1">**</bpt>Distribution schedule<ept id="p1">**</ept> page, run the <bpt id="p2">**</bpt>1090<ept id="p2">**</ept> job to transfer changes to the channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer op de pagina <bpt id="p1">**</bpt>Distributionplanner<ept id="p1">**</ept> de taak <bpt id="p2">**</bpt>1090<ept id="p2">**</ept> uit om wijzigingen over te brengen naar de afzetkanaaldatabase.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Enable manual execution of postponed fiscal registration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Handmatige uitvoering van uitgestelde fiscale registratie inschakelen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>To enable manual execution of a postponed fiscal registration, you should add a new button to a POS layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u een handmatige uitvoering van een uitgestelde fiscale registratie wilt inschakelen, moet u een nieuwe knop toevoegen aan een POS-indeling.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>On the <bpt id="p1">**</bpt>Button grids<ept id="p1">**</ept> page, follow the instructions in <bpt id="p2">[</bpt>Add a custom operation button to the POS layout in Retail headquarters<ept id="p2">](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)</ept> to install the designer and update a POS layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Volg op de pagina <bpt id="p1">**</bpt>Knoppenrasters<ept id="p1">**</ept> de instructies in <bpt id="p2">[</bpt>Een aangepaste bewerkingsknop toevoegen aan de POS-indeling in Retail Headquarters<ept id="p2">](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)</ept> om de ontwerper te installeren en een POS-indeling bij te werken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Select the layout to update.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer de bij te werken indeling.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Add a new button, and set the <bpt id="p1">**</bpt>Complete fiscal registration process<ept id="p1">**</ept> button property.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voeg een nieuwe knop toe en stel de knopeigenschap <bpt id="p1">**</bpt>Fiscale registratie voltooien<ept id="p1">**</ept> in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>On the <bpt id="p1">**</bpt>Distribution schedule<ept id="p1">**</ept> page, run the <bpt id="p2">**</bpt>1090<ept id="p2">**</ept> job to transfer your changes to the channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer op de pagina <bpt id="p1">**</bpt>Distributieplanning<ept id="p1">**</ept> de taak <bpt id="p2">**</bpt>1090<ept id="p2">**</ept> uit om uw wijzigingen over te brengen naar de afzetkanaaldatabase.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

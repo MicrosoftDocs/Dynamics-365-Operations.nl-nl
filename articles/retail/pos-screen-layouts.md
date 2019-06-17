@@ -1,195 +1,513 @@
----
-title: Schermindelingen voor het verkooppunt (POS)
-description: Dit onderwerp biedt informatie over schermindelingen voor Microsoft Dynamics 365 for Retail.
-author: jblucher
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: RetailTillLayout
-audience: Application user
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 90573
-ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: jeffbl
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549423"
----
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a><span data-ttu-id="b5586-103">Schermindelingen voor het verkooppunt (POS)</span><span class="sxs-lookup"><span data-stu-id="b5586-103">Screen layouts for the point of sale (POS)</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="b5586-104">Dit onderwerp biedt informatie over schermindelingen voor Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="b5586-104">This topic provides information about screen layouts for Microsoft Dynamics 365 for Retail point of sale (POS) experiences.</span></span>
-
-<span data-ttu-id="b5586-105">De gebruikersinterface van Retail POS kan worden geconfigureerd met een combinatie van weergaveprofielen en schermindelingen die worden toegewezen aan winkels, kassa's en/of gebruikers.</span><span class="sxs-lookup"><span data-stu-id="b5586-105">The Retail POS user interface (UI) can be configured by using a combination of visual profiles and screen layouts that are assigned to stores, registers, and/or users.</span></span>
-
-<span data-ttu-id="b5586-106">In de volgende afbeelding worden de relaties weergegeven tussen de verschillende eenheden waaruit de configureerbare aspecten van de POS-gebruikersinterface bestaan.</span><span class="sxs-lookup"><span data-stu-id="b5586-106">The following illustration shows the relationships among the various entities that make up the configurable aspects of the POS UI.</span></span>
-
-![Entiteiten voor POS-schermindeling](../retail/media/POS-layout-configuration-entities-diagram.png)
-
-## <a name="visual-profile"></a><span data-ttu-id="b5586-108">Weergaveprofiel</span><span class="sxs-lookup"><span data-stu-id="b5586-108">Visual profile</span></span>
-
-<span data-ttu-id="b5586-109">Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de weergave-elementen op te geven die specifiek zijn voor kassa's en worden gedeeld door gebruikers.</span><span class="sxs-lookup"><span data-stu-id="b5586-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="b5586-110">Alle gebruikers die zich aanmelden bij de kassa krijgen hetzelfde thema en dezelfde kleuren en afbeeldingen te zien.</span><span class="sxs-lookup"><span data-stu-id="b5586-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
-
-![POS-welkomstscherm met licht thema](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
-
-![POS-transactiescherm met donker thema](../retail/media/POS-Transaction-Screen-with-Dark-theme.png)
-
-- <span data-ttu-id="b5586-113">**Profielnummer**: het profielnummer is de unieke id van het weergaveprofiel.</span><span class="sxs-lookup"><span data-stu-id="b5586-113">**Profile number** – The profile number is the unique identifier of the visual profile.</span></span>
-- <span data-ttu-id="b5586-114">**Beschrijving**: u kunt een beschrijvende naam opgeven om het juiste profiel voor uw situatie te identificeren.</span><span class="sxs-lookup"><span data-stu-id="b5586-114">**Description** – You can specify a meaningful name that will help identify the correct profile for your situation.</span></span>
-- <span data-ttu-id="b5586-115">**Thema**: u kunt kiezen tussen de lichte en donkere toepassingthema's.</span><span class="sxs-lookup"><span data-stu-id="b5586-115">**Theme** – You can select between the Light and Dark application themes.</span></span> <span data-ttu-id="b5586-116">Het thema heeft invloed op de tekst- en achtergrondkleuren in de toepassing.</span><span class="sxs-lookup"><span data-stu-id="b5586-116">The theme affects the font and background colors throughout the application.</span></span>
-- <span data-ttu-id="b5586-117">**Accentkleur**: de accentkleur wordt overal in het POS gebruikt om bepaalde weergave-elementen, zoals tegels, opdrachtknoppen en hyperlinks, te onderscheiden of te markeren.</span><span class="sxs-lookup"><span data-stu-id="b5586-117">**Accent color** – The accent color is used throughout the POS to differentiate or highlight specific visual elements, such as tiles, command buttons, and hyperlinks.</span></span> <span data-ttu-id="b5586-118">Deze elementen zijn doorgaans uitvoerbaar.</span><span class="sxs-lookup"><span data-stu-id="b5586-118">Typically, these elements are actionable.</span></span>
-- <span data-ttu-id="b5586-119">**Koptekstkleur**: u kunt de kleur van de koptekst van de pagina configureren om te voldoen aan de huisstijlvereisten van de detailhandelaar.</span><span class="sxs-lookup"><span data-stu-id="b5586-119">**Header color** – You can configure the color of the page header to meet the retailer's branding requirements.</span></span> <span data-ttu-id="b5586-120">Deze functie is alleen beschikbaar Microsoft Dynamics 365 for Retail versie 1611.</span><span class="sxs-lookup"><span data-stu-id="b5586-120">This feature is available only in Microsoft Dynamics 365 for Retail version 1611.</span></span>
-- <span data-ttu-id="b5586-121">**Aanmeldingsachtergrond**: u kunt een achtergrondafbeelding opgeven voor het aanmeldingsscherm.</span><span class="sxs-lookup"><span data-stu-id="b5586-121">**Login backgrounds** – You can specify a background image for the sign-in screen.</span></span> <span data-ttu-id="b5586-122">De bestandsgrootte van achtergrondafbeeldingen moet zo klein mogelijk worden gehouden omdat het opslaan en laden van grote bestanden het gedrag en de prestaties van de toepassing kunnen beïnvloeden.</span><span class="sxs-lookup"><span data-stu-id="b5586-122">The file size of background images should be kept as small as possible, because storing and loading large files can affect application behavior and performance.</span></span>
-- <span data-ttu-id="b5586-123">**Achtergrond van de toepassing**: u kunt een achtergrondafbeelding kiezen om in de hele toepassing te gebruiken in plaats van de effen themakleur.</span><span class="sxs-lookup"><span data-stu-id="b5586-123">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="b5586-124">Voor aanmeldingsachtergronden moet de bestandsgrootte zo klein mogelijk worden gehouden.</span><span class="sxs-lookup"><span data-stu-id="b5586-124">As for login backgrounds, the file size should be kept as small as possible.</span></span>
-
-## <a name="screen-layouts"></a><span data-ttu-id="b5586-125">Schermindelingen</span><span class="sxs-lookup"><span data-stu-id="b5586-125">Screen layouts</span></span>
-
-<span data-ttu-id="b5586-126">Schermindelingsconfiguraties bepalen de acties, inhoud en plaatsing van de UI-besturingselementen in het POS-welkomstscherm en het scherm **Transactie**.</span><span class="sxs-lookup"><span data-stu-id="b5586-126">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
-
-![Weergave POS-schermindeling](../retail/media/POS-Screen-Layout-View.png)
-
-- <span data-ttu-id="b5586-128">**Welkomstscherm**: in de meeste gevallen zien gebruikers het welkomstscherm als eerste nadat zij zich hebben aangemeld bij het POS.</span><span class="sxs-lookup"><span data-stu-id="b5586-128">**Welcome screen** – In most cases, the welcome screen is the page that users see when they first sign in to the POS.</span></span> <span data-ttu-id="b5586-129">Het welkomstscherm kan bestaan uit een branding-afbeelding en knoppenrasters die toegang tot POS-bewerkingen bieden.</span><span class="sxs-lookup"><span data-stu-id="b5586-129">The welcome screen can consist of a branding image and button grids that provide access to POS operations.</span></span> <span data-ttu-id="b5586-130">Normaal gesproken worden hier bewerkingen weergegeven die niet specifiek van toepassing op de huidige transactie zijn.</span><span class="sxs-lookup"><span data-stu-id="b5586-130">Typically, operations that aren't specific to the current transaction are put on this screen.</span></span>
-
-    ![POS-welkomstscherm](../retail/media/POS-Welcome-Screen.png)
-
-- <span data-ttu-id="b5586-132">**Transactiescherm**: het scherm **Transactie** is het hoofdscherm in het POS voor de verwerking van verkooptransacties en orders.</span><span class="sxs-lookup"><span data-stu-id="b5586-132">**Transaction screen** – The **Transaction** screen is the main screen in the POS for processing sales transactions and orders.</span></span> <span data-ttu-id="b5586-133">De inhoud en indeling worden geconfigureerd met behulp van de ontwerper van schermindelingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-133">The content and layout are configured by using the screen layout designer.</span></span>
-
-    ![POS-transactiescherm](../retail/media/POS-Transaction-Screen.png)
-
-- <span data-ttu-id="b5586-135">**Standaardstartscherm**: sommige detailhandelaren geven er de voorkeur aan dat kassamedewerkers na het aanmelden rechtstreeks naar het scherm **Transactie** gaan.</span><span class="sxs-lookup"><span data-stu-id="b5586-135">**Default start screen** – Some retailers prefer that cashiers go directly to the **Transaction** screen after sign-in.</span></span> <span data-ttu-id="b5586-136">Via de instelling **Standaardstartscherm** kunt u het standaardscherm opgeven dat na het aanmelden voor elke schermindeling wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-136">The **Default start screen** setting lets you specify the default screen that appears after sign-in for each screen layout.</span></span>
-
-### <a name="assignment"></a><span data-ttu-id="b5586-137">Toewijzing</span><span class="sxs-lookup"><span data-stu-id="b5586-137">Assignment</span></span>
-
-<span data-ttu-id="b5586-138">Schermindelingen kunnen worden toegewezen op het niveau van de winkel, kassa of gebruiker.</span><span class="sxs-lookup"><span data-stu-id="b5586-138">Screen layouts can be assigned at the store, register, or user level.</span></span> <span data-ttu-id="b5586-139">De gebruikerstoewijzing heeft voorrang op de kassa- en winkeltoewijzingen, de kassatoewijzing heeft voorrang op de winkeltoewijzing.</span><span class="sxs-lookup"><span data-stu-id="b5586-139">The user assignment overrides the register and store assignments, and the register assignment overrides the store assignment.</span></span> <span data-ttu-id="b5586-140">In een eenvoudig scenario waarin alle gebruikers dezelfde indeling gebruiken, ongeacht de kassa of rol, kan de schermindeling alleen op winkelniveau worden ingesteld.</span><span class="sxs-lookup"><span data-stu-id="b5586-140">In a simple scenario where all users use the same layout, regardless of register or role, the screen layout can be set only at the store level.</span></span> <span data-ttu-id="b5586-141">In gevallen waarin bepaalde kassa's of gebruikers speciale indelingen vereisen, kunnen deze worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="b5586-141">In scenarios where specific registers or users require specialized layouts, those layouts can be assigned.</span></span>
-
-### <a name="layout-sizes"></a><span data-ttu-id="b5586-142">Indelingsgrootten</span><span class="sxs-lookup"><span data-stu-id="b5586-142">Layout sizes</span></span>
-
-<span data-ttu-id="b5586-143">De meeste aspecten van de POS-gebruikersinterface zijn responsief en de lay-out wordt automatisch aangepast aan de grootte en stand van het scherm.</span><span class="sxs-lookup"><span data-stu-id="b5586-143">Most aspects of the POS UI are responsive, and the layout is automatically resized and adjusted based on the screen size and orientation.</span></span> <span data-ttu-id="b5586-144">Het POS-scherm **Transactie** moet echter worden geconfigureerd voor elke verwachte schermresolutie.</span><span class="sxs-lookup"><span data-stu-id="b5586-144">However, the POS **Transaction** screen must be configured for every screen resolution that is expected.</span></span>
-
-<span data-ttu-id="b5586-145">Bij het opstarten selecteert de POS-toepassing automatisch de indelingsgrootte die is geconfigureerd voor het apparaat.</span><span class="sxs-lookup"><span data-stu-id="b5586-145">At startup, the POS application automatically selects the closest layout size that is configured for the device.</span></span> <span data-ttu-id="b5586-146">Een schermindeling kan ook configuraties voor de modi Liggend en Staand bevatten en voor volwaardige en compacte apparaten.</span><span class="sxs-lookup"><span data-stu-id="b5586-146">A screen layout can also contain configurations for both landscape and portrait modes, and for both full-size and compact devices.</span></span> <span data-ttu-id="b5586-147">Daarom kunnen gebruikers worden toegewezen aan één schermindeling die werkt voor verschillende afmetingen en vormfactoren die worden gebruikt in de winkel.</span><span class="sxs-lookup"><span data-stu-id="b5586-147">Therefore, users can be assigned to a single screen layout that works across various sizes and form factors that are used in the store.</span></span>
-
-![POS-indelingsgrootten](../retail/media/POS-Screen-Layout-Sizes.png)
-
-- <span data-ttu-id="b5586-149">**Naam**: u kunt een omschrijvende naam invoeren om de schermgrootte te identificeren.</span><span class="sxs-lookup"><span data-stu-id="b5586-149">**Name** – You can enter a meaningful name to identify the screen size.</span></span>
-- <span data-ttu-id="b5586-150">**Indelingstype**: in de POS-toepassing kan de gebruikersinterface in verschillende modi worden weergegeven om de beste gebruikerservaring op een bepaald apparaat te kunnen bieden.</span><span class="sxs-lookup"><span data-stu-id="b5586-150">**Layout type** – The POS application can show its UI in various modes to provide the best user experience on a given device.</span></span>
-
-    - <span data-ttu-id="b5586-151">**Modern POS - volledig**: volledige indelingen zijn doorgaans het meest geschikt voor grotere beeldschermen, zoals pc-beeldschermen en tablets.</span><span class="sxs-lookup"><span data-stu-id="b5586-151">**Modern POS – Full** – Full layouts are typically best for larger displays, such as desktop monitors and tablets.</span></span> <span data-ttu-id="b5586-152">U kunt de gewenste gebruikersinterface-elementen selecteren, de grootte en positie van die elementen opgeven en hun gedetailleerde eigenschappen configureren.</span><span class="sxs-lookup"><span data-stu-id="b5586-152">You can select the UI elements to include, specify the size and placement of those elements, and configure their detailed properties.</span></span> <span data-ttu-id="b5586-153">Volledige indelingen ondersteunen zowel staande (portrait) als liggende (landscape) configuraties.</span><span class="sxs-lookup"><span data-stu-id="b5586-153">Full layouts support both portrait and landscape configurations.</span></span>
-    - <span data-ttu-id="b5586-154">**Modern POS - compact**: compacte indelingen zijn normaal gesproken het meest geschikt voor telefoons en kleine tablets.</span><span class="sxs-lookup"><span data-stu-id="b5586-154">**Modern POS – Compact** – Compact layouts are typically best for phones and small tablets.</span></span> <span data-ttu-id="b5586-155">De ontwerpmogelijkheden zijn beperkt voor compacte apparaten.</span><span class="sxs-lookup"><span data-stu-id="b5586-155">The design possibilities for compact devices are limited.</span></span> <span data-ttu-id="b5586-156">U kunt de kolommen en velden voor de deelvensters Ontvangstbewijs en Totalen configureren.</span><span class="sxs-lookup"><span data-stu-id="b5586-156">You can configure the columns and fields for the receipt and totals panels.</span></span>
-
-- <span data-ttu-id="b5586-157">**Breedte/Hoogte**: deze waarden staan voor de effectieve schermgrootte, in pixels, die wordt verwacht voor de indeling.</span><span class="sxs-lookup"><span data-stu-id="b5586-157">**Width/Height** – These values represent the effective screen size, in pixels, that is expected for the layout.</span></span> <span data-ttu-id="b5586-158">Houd er rekening mee dat sommige besturingssystemen voor beeldschermen met hoge resoluties gebruikmaken van schaalaanpassingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-158">Remember that some operating systems use scaling for high-resolution displays.</span></span>
-
-> [!TIP]
-> <span data-ttu-id="b5586-159">U kunt de vereiste indelingsgrootte voor een POS-scherm achterhalen door de resolutie in de app te bekijken.</span><span class="sxs-lookup"><span data-stu-id="b5586-159">You can learn the layout size that is required for a POS screen by viewing the resolution in the app.</span></span> <span data-ttu-id="b5586-160">Start het POS en ga naar **Instellingen \> Sessie-informatie**.</span><span class="sxs-lookup"><span data-stu-id="b5586-160">Start the POS, and go to **Settings \> Session information**.</span></span> <span data-ttu-id="b5586-161">In het POS worden de momenteel geladen schermindeling, de indelingsgrootte en de resolutie van het app-venster weergegeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-161">POS shows the screen layout that is currently loaded, the layout size, and the resolution of the app window.</span></span>
-
-![POS-indelingsgrootten](../retail/media/POS-Session-Information.png)
-
-### <a name="button-grids"></a><span data-ttu-id="b5586-163">Knoppenrasters</span><span class="sxs-lookup"><span data-stu-id="b5586-163">Button grids</span></span>
-
-<span data-ttu-id="b5586-164">Voor elke indelingsgrootte in een schermindeling kunt u knoppenrasters configureren en toewijzen voor het POS-welkomstscherm en het scherm **Transactie**.</span><span class="sxs-lookup"><span data-stu-id="b5586-164">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="b5586-165">Knoppenrasters voor het welkomstscherm worden automatisch van links naar rechts, van het laagste nummer (welkomstscherm 1) naar het hoogste nummer weergegeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-165">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
-
-<span data-ttu-id="b5586-166">In volledige POS-indelingen wordt de plaats van knoppenrasters opgegeven in de ontwerper van schermindelingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-166">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
-
-<span data-ttu-id="b5586-167">In compacte POS-indelingen worden de knoppenrasters automatisch van boven naar beneden, van het laagste nummer (transactiescherm 1) naar het hoogste nummer weergegeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-167">In Compact POS layouts, the button grids are automatically laid out from top to bottom, from the lowest number (Transaction screen 1) to the highest number.</span></span> <span data-ttu-id="b5586-168">Deze kunnen worden geopend in het menu **Acties**.</span><span class="sxs-lookup"><span data-stu-id="b5586-168">They can be accessed on the **Actions** menu.</span></span>
-
-![Knoppenrasters voor compacte indelingen](../retail/media/Compact-View-Button-Grids.png)
-
-### <a name="images"></a><span data-ttu-id="b5586-170">Afbeeldingen</span><span class="sxs-lookup"><span data-stu-id="b5586-170">Images</span></span>
-
-<span data-ttu-id="b5586-171">Voor elke indelingsgrootte in een schermindeling kunt u afbeeldingen opgeven die moeten worden opgenomen in de POS-gebruikersinterface.</span><span class="sxs-lookup"><span data-stu-id="b5586-171">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="b5586-172">Voor volledige POS-indelingen kan één afbeelding worden opgegeven voor het welkomstscherm.</span><span class="sxs-lookup"><span data-stu-id="b5586-172">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="b5586-173">Deze afbeelding wordt links als het eerste element in de gebruikersinterface weergegeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-173">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="b5586-174">In het scherm **Transactie** kunnen afbeeldingen worden gebruikt als tabbladafbeeldingen of als logo.</span><span class="sxs-lookup"><span data-stu-id="b5586-174">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="b5586-175">In compacte POS-indelingen worden deze afbeeldingen niet gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b5586-175">Compact POS layouts don't use these images.</span></span>
-
-### <a name="screen-layout-designer"></a><span data-ttu-id="b5586-176">Ontwerper van schermindeling</span><span class="sxs-lookup"><span data-stu-id="b5586-176">Screen layout designer</span></span>
-
-<span data-ttu-id="b5586-177">In de ontwerper van schermindelingen kunt u verschillende aspecten van het POS-scherm **Transactie** configureren voor elke indelingsgrootte, zowel in de modus Staand als in de modus Liggend, zowel voor volledige als voor compacte indelingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-177">The screen layout designer lets you configure various aspects of the POS **Transaction** screen for each layout size, in both portrait and landscape modes, and for both Full and Compact layouts.</span></span> <span data-ttu-id="b5586-178">In de ontwerper van schermindelingen wordt de ClickOnce-implementatietechnologie gebruikt om altijd de meest recente versie van de toepassing te downloaden, te installeren en te starten als de gebruiker deze ontwerper opent.</span><span class="sxs-lookup"><span data-stu-id="b5586-178">The screen layout designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="b5586-179">Controleer de browservereisten voor ClickOnce.</span><span class="sxs-lookup"><span data-stu-id="b5586-179">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="b5586-180">In sommige browsers, zoals Google Chrome, zijn extensies vereist.</span><span class="sxs-lookup"><span data-stu-id="b5586-180">Some browsers, such as Google Chrome, require extensions.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="b5586-181">U moet een schermindeling configureren voor elke indelingsgrootte die is gedefinieerd en wordt gebruikt door het POS.</span><span class="sxs-lookup"><span data-stu-id="b5586-181">You must configure a screen layout for each layout size that is defined and that is used by the POS.</span></span>
-
-### <a name="full-layout-designer"></a><span data-ttu-id="b5586-182">Ontwerper van volledige indeling</span><span class="sxs-lookup"><span data-stu-id="b5586-182">Full layout designer</span></span>
-
-<span data-ttu-id="b5586-183">In de ontwerper van volledige indelingen kunnen gebruikers besturingselementen in de gebruikersinterface naar het POS-scherm **Transactie** slepen en de instellingen van deze elementen configureren.</span><span class="sxs-lookup"><span data-stu-id="b5586-183">The Full layout designer lets users drag UI controls onto the POS **Transaction** screen and configure the settings of those controls.</span></span>
-
-![Ontwerper van volledige POS-indeling (modus Liggend)](../retail/media/POS-Full-Layout-Designer-Landscape.png)
-
-- <span data-ttu-id="b5586-185">**Indeling importeren/exporteren**: u kunt ontwerpen van POS-schermindelingen importeren en exporteren als XML-bestanden, zodat u deze eenvoudig opnieuw kunt gebruiken en kunt delen in verschillende omgevingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-185">**Import layout/Export layout** – You can export and import POS screen layout designs as XML files, so that you can easily reuse and share them across environments.</span></span> <span data-ttu-id="b5586-186">Het is belangrijk dat u indelingsontwerpen voor de juiste indelingsformaten importeert.</span><span class="sxs-lookup"><span data-stu-id="b5586-186">It's important that you import layout designs for the correct layout sizes.</span></span> <span data-ttu-id="b5586-187">Anders passen gebruikersinterface-elementen mogelijk niet goed op het scherm.</span><span class="sxs-lookup"><span data-stu-id="b5586-187">Otherwise, UI elements might not fit correctly on the screen.</span></span>
-- <span data-ttu-id="b5586-188">**Liggen/Staand**: als het POS-apparaat gebruikers in staat stelt te schakelen tussen de modi Liggend en Staand, moet u een schermindeling voor elke modus definiëren.</span><span class="sxs-lookup"><span data-stu-id="b5586-188">**Landscape/Portrait** – If the POS device lets users switch between landscape and portrait modes, you must define a screen layout for each mode.</span></span> <span data-ttu-id="b5586-189">Het POS detecteert schermrotatie automatisch om de juiste indeling te kunnen weergeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-189">The POS automatically detects screen rotation and shows the correct layout.</span></span>
-- <span data-ttu-id="b5586-190">**Indelingsraster**: in de POS-indelingsontwerper wordt een raster van 4 pixels gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b5586-190">**Layout grid** – The POS layout designer uses a 4-pixel grid.</span></span> <span data-ttu-id="b5586-191">UI-besturingselementen worden vastgezet op het raster zodat u de inhoud juist kunt uitlijnen.</span><span class="sxs-lookup"><span data-stu-id="b5586-191">UI controls "snap" to the grid to help you correctly align the content.</span></span>
-- <span data-ttu-id="b5586-192">**Inzoomen in ontwerper**: u kunt in- en uitzoomen in de ontwerperweergave om de inhoud in het POS-scherm beter te kunnen bekijken.</span><span class="sxs-lookup"><span data-stu-id="b5586-192">**Designer zoom** – You can zoom the designer view in and out to better view the content on the POS screen.</span></span> <span data-ttu-id="b5586-193">Deze functie is handig wanneer de schermresolutie in het POS aanzienlijk afwijkt van de resolutie van het scherm dat wordt gebruikt in de ontwerper.</span><span class="sxs-lookup"><span data-stu-id="b5586-193">This feature is useful when the screen resolution on the POS differs greatly from the resolution of the screen that is used in the designer.</span></span>
-- <span data-ttu-id="b5586-194">**Navigatiebalk weergeven/verbergen**: voor volledige POS-indelingen kunt u opgeven of de linkernavigatiebalk moet worden weergegeven in het scherm **Transactie**.</span><span class="sxs-lookup"><span data-stu-id="b5586-194">**Show/hide navigation bar** – For Full POS layouts, you can select whether the left navigation bar is visible on the **Transaction** screen.</span></span> <span data-ttu-id="b5586-195">Deze functie is handig voor weergaven met een lagere resolutie.</span><span class="sxs-lookup"><span data-stu-id="b5586-195">This feature is helpful for displays that have a lower resolution.</span></span> <span data-ttu-id="b5586-196">Als u de zichtbaarheid wilt instellen, klikt u met de rechtermuisknop op de navigatiebalk in de ontwerper en schakelt u het selectievakje **Altijd zichtbaar** in of uit.</span><span class="sxs-lookup"><span data-stu-id="b5586-196">To set the visibility, right-click the navigation bar in the designer, and select or clear the **Always visible** check box.</span></span> <span data-ttu-id="b5586-197">Als de navigatiebalk is verborgen, kunnen POS-gebruikers deze nog steeds gebruiken via het menu in de linkerbovenhoek.</span><span class="sxs-lookup"><span data-stu-id="b5586-197">If the navigation bar is hidden, POS users can still access it by using the menu in the upper left.</span></span>
-
-    ![Navigatiebalk weergeven/verbergen](../retail/media/Navigation-Bar.PNG)
-
-- <span data-ttu-id="b5586-199">**POS-besturingselementen**: in de POS-indelingsontwerper worden de volgende besturingselementen ondersteund.</span><span class="sxs-lookup"><span data-stu-id="b5586-199">**POS controls** – The POS layout designer supports the following controls.</span></span> <span data-ttu-id="b5586-200">U kunt veel besturingselementen configureren met de rechtermuisknop en het snelmenu.</span><span class="sxs-lookup"><span data-stu-id="b5586-200">You can configure many controls by right-clicking and using the shortcut menu.</span></span>
-
-    ![Besturingselementen in POS-gebruikersinterface](../retail/media/POS-UI-Controls.png)
-
-    - <span data-ttu-id="b5586-202">**Numeriek toetsenblok**: het toetsenblok is het belangrijkste mechanisme voor gebruikersinvoer in het POS-scherm **Tranasactie**.</span><span class="sxs-lookup"><span data-stu-id="b5586-202">**Number pad** – The number pad is the main mechanism for user input on the POS **Transaction** screen.</span></span> <span data-ttu-id="b5586-203">U kunt het besturingselement zo configureren dat het volledige toetsenblok wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-203">You can configure the control so that the full number pad is shown.</span></span> <span data-ttu-id="b5586-204">Deze optie is ideaal voor apparaten met een aanraakscherm.</span><span class="sxs-lookup"><span data-stu-id="b5586-204">This option is ideal for touchscreen devices.</span></span> <span data-ttu-id="b5586-205">U kunt deze ook zo configureren dat alleen het invoerveld wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-205">Alternatively, you can configure it so that only the input field is shown.</span></span> <span data-ttu-id="b5586-206">In dit geval wordt een fysiek toetsenbord gebruikt voor invoer.</span><span class="sxs-lookup"><span data-stu-id="b5586-206">In this case, a physical keyboard is used for input.</span></span> <span data-ttu-id="b5586-207">De instellingen voor het numerieke toetsenblok zijn alleen beschikbaar voor volledige indelingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-207">The number pad settings are available only for Full layouts.</span></span> <span data-ttu-id="b5586-208">Voor compacte indelingen wordt het volledige toetsenblok weergegeven in het scherm **Transactie**.</span><span class="sxs-lookup"><span data-stu-id="b5586-208">For Compact layouts, the full number pad is always shown on the **Transaction** screen.</span></span>
-    - <span data-ttu-id="b5586-209">**Deelvenster Totalen**: u kunt het deelvenster Totalen configureren in een of twee kolommen, om waarden als het aantal regels, kortingsbedrag, toeslagen, subtotaal en btw weer te geven.</span><span class="sxs-lookup"><span data-stu-id="b5586-209">**Totals panel** – You can configure the totals panel in either one column or two columns, to show values such as the line count, discount amount, charges, subtotal, and tax.</span></span> <span data-ttu-id="b5586-210">Compacte indelingen bieden slechts ondersteuning voor één kolom.</span><span class="sxs-lookup"><span data-stu-id="b5586-210">Compact layouts support only a single column.</span></span>
-    - <span data-ttu-id="b5586-211">**Deelvenster Ontvangst**: het deelvenster Ontvangst bevat de verkoopregels, betalingsregels en leveringsinformatie voor de producten en services die worden verwerkt in het POS.</span><span class="sxs-lookup"><span data-stu-id="b5586-211">**Receipt panel** – The receipt panel contains the sales lines, payment lines, and delivery information for the products and services that are processed in the POS.</span></span> <span data-ttu-id="b5586-212">U kunt de kolommen, breedte en plaatsing opgeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-212">You can specify columns, widths, and placement.</span></span> <span data-ttu-id="b5586-213">In compacte indelingen kunt u ook extra informatie configureren die wordt weergegeven in de rij onder de hoofdregel.</span><span class="sxs-lookup"><span data-stu-id="b5586-213">In Compact layouts, you can also configure additional information that appears in the row under the main line.</span></span>
-    - <span data-ttu-id="b5586-214">**Klantenkaart**: de klantenkaart bevat gegevens over de klant die is gekoppeld aan de huidige transactie.</span><span class="sxs-lookup"><span data-stu-id="b5586-214">**Customer card** – The customer card shows information about the customer who is associated with the current transaction.</span></span> <span data-ttu-id="b5586-215">U kunt de klantenkaart configureren om extra informatie weer te geven of te verbergen.</span><span class="sxs-lookup"><span data-stu-id="b5586-215">You can configure the customer card to hide or show additional information.</span></span>
-    - <span data-ttu-id="b5586-216">**Tabblad**: u kunt het tabblad toevoegen aan een schermindeling en vervolgens andere besturingselementen, zoals het toetsenblok, een klantenkaart of knoppenrasters, op het tabblad plaatsen.</span><span class="sxs-lookup"><span data-stu-id="b5586-216">**Tab control** – You can add the tab control to a screen layout, and then put other controls, such as the number pad, customer card, or button grids, in it.</span></span> <span data-ttu-id="b5586-217">Het tabblad is een container waarmee u meer inhoud op het scherm kunt plaatsen.</span><span class="sxs-lookup"><span data-stu-id="b5586-217">The tab control is a container that helps you fit more content on the screen.</span></span> <span data-ttu-id="b5586-218">Het tabblad is alleen beschikbaar voor volledige indelingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-218">The tab control is available only for Full layouts.</span></span>
-    - <span data-ttu-id="b5586-219">**Afbeelding**: u kunt het afbeeldingsbesturingselement gebruiken om het winkellogo of andere branding-afbeeldingen weer te geven in het scherm **Transactie**.</span><span class="sxs-lookup"><span data-stu-id="b5586-219">**Image** – You can use the image control to show the store's logo or another branding image on the **Transaction** screen.</span></span> <span data-ttu-id="b5586-220">Het afbeeldingsbesturingselement is alleen beschikbaar voor volledige indelingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-220">The image control is available only for Full layouts.</span></span>
-    - <span data-ttu-id="b5586-221">**Aanbevolen producten**: als het besturingselement voor aanbevolen producten is geconfigureerd voor de omgeving, worden hierin productsuggesties op basis van machine learning weergegeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-221">**Recommended products** – If the recommended products control is configured for the environment, it shows product suggestions, based on machine learning.</span></span>
-    - <span data-ttu-id="b5586-222">**Aangepast besturingselement**: het aangepaste besturingselement fungeert als een tijdelijke aanduiding in de schermindeling. Hiermee kunt u ruimte reserveren voor aangepaste inhoud.</span><span class="sxs-lookup"><span data-stu-id="b5586-222">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="b5586-223">Het aangepaste besturingselement is alleen beschikbaar voor volledige indelingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-223">The custom control is available only for Full layouts.</span></span>
-
-### <a name="compact-layout-designer"></a><span data-ttu-id="b5586-224">Ontwerper voor compacte indeling</span><span class="sxs-lookup"><span data-stu-id="b5586-224">Compact layout designer</span></span>
-
-<span data-ttu-id="b5586-225">Net als in de ontwerper voor de volledige indeling kunt u in de ontwerper voor de compacte indeling de POS-schermindeling voor telefoons en kleine tablets configureren.</span><span class="sxs-lookup"><span data-stu-id="b5586-225">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="b5586-226">In dit geval wordt echter de indeling zelf opgelost.</span><span class="sxs-lookup"><span data-stu-id="b5586-226">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="b5586-227">U kunt de besturingselementen in de indeling configureren met de rechtermuisknop en het snelmenu.</span><span class="sxs-lookup"><span data-stu-id="b5586-227">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="b5586-228">Voor extra inhoud kunt u echter niet gebruikmaken van de functie voor slepen en neerzetten.</span><span class="sxs-lookup"><span data-stu-id="b5586-228">However, you can't use drag-and-drop operations for additional content.</span></span>
-
-![Ontwerper van compacte indeling](../retail/media/Compact-Layout-Designer.png)
-
-### <a name="button-grid-designer"></a><span data-ttu-id="b5586-230">Ontwerper van knoppenraster</span><span class="sxs-lookup"><span data-stu-id="b5586-230">Button grid designer</span></span>
-
-<span data-ttu-id="b5586-231">In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kunnen worden gebruikt in het POS-welkomstscherm en het scherm **Transactie**, zowel voor volledige als compacte indelingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-231">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="b5586-232">Hetzelfde knoppenraster kan voor verschillende indelingen en indelingstypen worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b5586-232">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="b5586-233">Net als in de schermindelingsontwerper wordt in de ontwerper van het knoppenraster de ClickOnce-implementatietechnologie gebruikt om altijd de meest recente versie van de toepassing te downloaden, te installeren en te starten als de gebruiker deze ontwerper opent.</span><span class="sxs-lookup"><span data-stu-id="b5586-233">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="b5586-234">Controleer de browservereisten voor ClickOnce.</span><span class="sxs-lookup"><span data-stu-id="b5586-234">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="b5586-235">In sommige browsers, zoals Google Chrome, zijn extensies vereist.</span><span class="sxs-lookup"><span data-stu-id="b5586-235">Some browsers, such as Google Chrome, require extensions.</span></span>
-
-![Ontwerper van knoppenraster](../retail/media/Button-Grid-Designer.png)
-
-- <span data-ttu-id="b5586-237">**Knop Nieuw**: klik hierop om een nieuwe knop toe te voegen aan het knoppenraster.</span><span class="sxs-lookup"><span data-stu-id="b5586-237">**New button** – Click to add a new button to the button grid.</span></span> <span data-ttu-id="b5586-238">Nieuwe knoppen worden standaard in de linkerbovenhoek van het raster weergegeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-238">By default, new buttons appear in the upper-left corner of the grid.</span></span> <span data-ttu-id="b5586-239">U kunt knoppen echter schikken door ze te slepen in de indeling.</span><span class="sxs-lookup"><span data-stu-id="b5586-239">However, you can arrange buttons by dragging them in the layout.</span></span>
-
-    > [!IMPORTANT]
-    > <span data-ttu-id="b5586-240">De inhoud van het knoppenraster kan overlappen.</span><span class="sxs-lookup"><span data-stu-id="b5586-240">The contents of the button grid can overlap.</span></span> <span data-ttu-id="b5586-241">Wanneer u knoppen schikt, moet u ervoor zorgen dat andere knoppen niet worden verborgen.</span><span class="sxs-lookup"><span data-stu-id="b5586-241">When you arrange buttons, make sure that they don't hide other buttons.</span></span>
-
-- <span data-ttu-id="b5586-242">**Nieuw ontwerp**: klik hierop om automatisch een knoppenrasterindeling in te stellen door het aantal knoppen per rij en kolom op te geven.</span><span class="sxs-lookup"><span data-stu-id="b5586-242">**New design** – Click to automatically set up a button grid layout by specifying the number of buttons per row and column.</span></span>
-- <span data-ttu-id="b5586-243">**Knopeigenschappen**: u kunt knopeigenschappen configureren door met de rechtermuisknop op de knop te klikken en het snelmenu te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="b5586-243">**Button properties** – You can configure button properties by right-clicking the button and using the shortcut menu.</span></span>
-
-    > [!IMPORTANT]
-    > <span data-ttu-id="b5586-244">Sommige knoppenrasterinstellingen gelden alleen voor Enterprise POS en niet voor Retail Modern POS of Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="b5586-244">Some button grid settings apply only to Enterprise POS, not to Retail Modern POS or Cloud POS.</span></span>
-
-    ![Knopeigenschappen voor knoppenraster](../retail/media/Button-grid-button-properties.png)
-
-    - <span data-ttu-id="b5586-246">**Actie**: selecteer in de lijst met relevante POS-bewerkingen de bewerking die wordt geactiveerd als op de knop wordt geklikt in het POS.</span><span class="sxs-lookup"><span data-stu-id="b5586-246">**Action** – In the list of applicable POS operations, select the operation that is invoked when the button is clicked in the POS.</span></span>
-
-        <span data-ttu-id="b5586-247">Zie [POS-bewerkingen, online en offline](pos-operations.md) voor een overzicht van ondersteunde POS-bewerkingen.</span><span class="sxs-lookup"><span data-stu-id="b5586-247">For the list of supported POS operations, see [POS operations, online and offline](pos-operations.md).</span></span>
-
-    - <span data-ttu-id="b5586-248">**Actieparameters**: voor sommige POS-bewerkingen worden aanvullende parameters gebruikt wanneer ze worden aangeroepen.</span><span class="sxs-lookup"><span data-stu-id="b5586-248">**Action parameters** – Some POS operations use additional parameters when they are invoked.</span></span> <span data-ttu-id="b5586-249">Gebruikers kunnen voor de bewerking Product toevoegen bijvoorbeeld opgeven welk product moet worden toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="b5586-249">For example, for the Add product operation, users can specify the product to add.</span></span>
-    - <span data-ttu-id="b5586-250">**Knoptekst**: geef de tekst op die moet worden weergegeven op de knop in het POS.</span><span class="sxs-lookup"><span data-stu-id="b5586-250">**Button text** – Specify the text that appears on the button in the POS.</span></span>
-    - <span data-ttu-id="b5586-251">**Knoptekst verbergen**: gebruik dit selectievakje om de knoptekst weer te geven of te verbergen.</span><span class="sxs-lookup"><span data-stu-id="b5586-251">**Hide button text** – Use this check box to hide or show the button text.</span></span> <span data-ttu-id="b5586-252">Knoptekst wordt vaak verborgen voor kleine knoppen waarop alleen een pictogram past.</span><span class="sxs-lookup"><span data-stu-id="b5586-252">Button text is often hidden for small buttons that show only an icon.</span></span>
-    - <span data-ttu-id="b5586-253">**Knopinfo**: geef extra Help-tekst op die wordt weergegeven wanneer gebruikers de muisaanwijzer over de knop bewegen.</span><span class="sxs-lookup"><span data-stu-id="b5586-253">**Tooltip** – Specify additional Help text that appears when users mouse over the button.</span></span>
-    - <span data-ttu-id="b5586-254">**Grootte in kolommen/rijen**: u kunt opgeven hoe hoog en breed de knop moet zijn.</span><span class="sxs-lookup"><span data-stu-id="b5586-254">**Size in columns/Size in rows** – You can specify how tall and wide the button is.</span></span>
-
-        ![Grootte van POS-knoppen in rijen en kolommen](../retail/media/POS-Button-Sizes-In-Rows-And-Columns.png)
-
-    - <span data-ttu-id="b5586-256">**Aangepast lettertype**: wanneer u het selectievakje **Aangepast lettertype inschakelen voor POS** inschakelt, kunt u een ander lettertype opgeven dan het standaardsysteemlettertype voor het POS.</span><span class="sxs-lookup"><span data-stu-id="b5586-256">**Custom font** – When you select the **Enable custom font for POS** check box, you can specify a font other than the default system font for the POS.</span></span>
-    - <span data-ttu-id="b5586-257">**Aangepast thema**: standaard wordt voor POS-knoppen de accentkleur van het weergaveprofiel gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b5586-257">**Custom theme** – By default, POS buttons use the accent color from the visual profile.</span></span> <span data-ttu-id="b5586-258">Als u het selectievakje **Aangepast thema gebruiken** inschakelt, kunt u extra kleuren opgeven.</span><span class="sxs-lookup"><span data-stu-id="b5586-258">When you select the **Use custom theme** check box, you can specify additional colors.</span></span>
-
-        > [!NOTE]
-        > <span data-ttu-id="b5586-259">In Retail Modern POS en Cloud POS worden alleen de waarden **Achtergrondkleur** en **Tekenkleur** gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b5586-259">Retail Modern POS and Cloud POS use only the **Back color** and **Font color** values.</span></span>
-
-    - <span data-ttu-id="b5586-260">**Afbeelding van knop**: knoppen kunnen afbeeldingen of pictogrammen bevatten.</span><span class="sxs-lookup"><span data-stu-id="b5586-260">**Button image** – Buttons can include images or icons.</span></span> <span data-ttu-id="b5586-261">Maak een keuze uit de beschikbare afbeeldingen die zijn opgegeven via **Retail \> Afzetkanaalinstellingen \> POS-instellingen \> POS \> Afbeeldingen**.</span><span class="sxs-lookup"><span data-stu-id="b5586-261">Select among the available images that are specified at **Retail \> Channel setup \> POS setup \> POS \> Images**.</span></span>
-
-![Voorbeeld van knoppenraster in het POS](../retail/media/Example-Button-Grid-In-POS.png)
-
-## <a name="additional-resources"></a><span data-ttu-id="b5586-263">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="b5586-263">Additional resources</span></span>
-
-[<span data-ttu-id="b5586-264">De Retail POS-indelingsontwerper installeren</span><span class="sxs-lookup"><span data-stu-id="b5586-264">Install the Retail POS Layout designer</span></span>](install-pos-layout-designer.md)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="pos-screen-layouts.md" target-language="nl-NL">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>pos-screen-layouts.280407.e9536563ce7ddfc4aef54ae05267316ea8139263.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>e9536563ce7ddfc4aef54ae05267316ea8139263</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\pos-screen-layouts.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Screen layouts for the point of sale (POS)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Schermindelingen voor het verkooppunt (POS)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides information about screen layouts for Microsoft Dynamics 365 for Retail point of sale (POS) experiences.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit onderwerp biedt informatie over schermindelingen voor Microsoft Dynamics 365 for Retail.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Screen layouts for the point of sale (POS)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Schermindelingen voor het verkooppunt (POS)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides information about screen layouts for Microsoft Dynamics 365 for Retail point of sale (POS) experiences.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit onderwerp biedt informatie over schermindelingen voor Microsoft Dynamics 365 for Retail.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The Retail POS user interface (UI) can be configured by using a combination of visual profiles and screen layouts that are assigned to stores, registers, and/or users.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De gebruikersinterface van Retail POS kan worden geconfigureerd met een combinatie van weergaveprofielen en schermindelingen die worden toegewezen aan winkels, kassa's en/of gebruikers.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>The following illustration shows the relationships among the various entities that make up the configurable aspects of the POS UI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In de volgende afbeelding worden de relaties weergegeven tussen de verschillende eenheden waaruit de configureerbare aspecten van de POS-gebruikersinterface bestaan.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>POS screen layout entities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entiteiten voor POS-schermindeling</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Visual profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Weergaveprofiel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de weergave-elementen op te geven die specifiek zijn voor kassa's en worden gedeeld door gebruikers.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Every user who signs in to the register sees the same theme, colors, and images.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alle gebruikers die zich aanmelden bij de kassa krijgen hetzelfde thema en dezelfde kleuren en afbeeldingen te zien.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>POS welcome screen with Light theme</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-welkomstscherm met licht thema</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>POS Transaction screen with Dark theme</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-transactiescherm met donker thema</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">**</bpt>Profile number<ept id="p1">**</ept> – The profile number is the unique identifier of the visual profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Profielnummer<ept id="p1">**</ept>: het profielnummer is de unieke id van het weergaveprofiel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – You can specify a meaningful name that will help identify the correct profile for your situation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Beschrijving<ept id="p1">**</ept>: u kunt een beschrijvende naam opgeven om het juiste profiel voor uw situatie te identificeren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">**</bpt>Theme<ept id="p1">**</ept> – You can select between the Light and Dark application themes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Thema<ept id="p1">**</ept>: u kunt kiezen tussen de lichte en donkere toepassingthema's.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>The theme affects the font and background colors throughout the application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het thema heeft invloed op de tekst- en achtergrondkleuren in de toepassing.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source><bpt id="p1">**</bpt>Accent color<ept id="p1">**</ept> – The accent color is used throughout the POS to differentiate or highlight specific visual elements, such as tiles, command buttons, and hyperlinks.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Accentkleur<ept id="p1">**</ept>: de accentkleur wordt overal in het POS gebruikt om bepaalde weergave-elementen, zoals tegels, opdrachtknoppen en hyperlinks, te onderscheiden of te markeren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Typically, these elements are actionable.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze elementen zijn doorgaans uitvoerbaar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source><bpt id="p1">**</bpt>Header color<ept id="p1">**</ept> – You can configure the color of the page header to meet the retailer's branding requirements.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Koptekstkleur<ept id="p1">**</ept>: u kunt de kleur van de koptekst van de pagina configureren om te voldoen aan de huisstijlvereisten van de detailhandelaar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>This feature is available only in Microsoft Dynamics 365 for Retail version 1611.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Deze functie is alleen beschikbaar Microsoft Dynamics 365 for Retail versie 1611.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source><bpt id="p1">**</bpt>Show date/time<ept id="p1">**</ept> – When enbled, the current date and time will be displayed in the POS header.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Datum/tijd weergeven<ept id="p1">**</ept>: indien ingeschakeld worden de huidige datum en tijd weergegeven in de POS-koptekst.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">**</bpt>Login backgrounds<ept id="p1">**</ept> – You can specify a background image for the sign-in screen.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Aanmeldingsachtergrond<ept id="p1">**</ept>: u kunt een achtergrondafbeelding opgeven voor het aanmeldingsscherm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>The file size of background images should be kept as small as possible, because storing and loading large files can affect application behavior and performance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De bestandsgrootte van achtergrondafbeeldingen moet zo klein mogelijk worden gehouden omdat het opslaan en laden van grote bestanden het gedrag en de prestaties van de toepassing kunnen beïnvloeden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">**</bpt>Application background<ept id="p1">**</ept> – You can specify a background image that is used instead of the solid theme color throughout the application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Achtergrond van de toepassing<ept id="p1">**</ept>: u kunt een achtergrondafbeelding kiezen om in de hele toepassing te gebruiken in plaats van de effen themakleur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>As for login backgrounds, the file size should be kept as small as possible.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor aanmeldingsachtergronden moet de bestandsgrootte zo klein mogelijk worden gehouden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Screen layouts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Schermindelingen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Schermindelingsconfiguraties bepalen de acties, inhoud en plaatsing van de UI-besturingselementen in het POS-welkomstscherm en het scherm <bpt id="p1">**</bpt>Transactie<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>POS Screen layout view</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Weergave POS-schermindeling</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">**</bpt>Welcome screen<ept id="p1">**</ept> – In most cases, the welcome screen is the page that users see when they first sign in to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Welkomstscherm<ept id="p1">**</ept>: in de meeste gevallen zien gebruikers het welkomstscherm als eerste nadat zij zich hebben aangemeld bij het POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>The welcome screen can consist of a branding image and button grids that provide access to POS operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het welkomstscherm kan bestaan uit een branding-afbeelding en knoppenrasters die toegang tot POS-bewerkingen bieden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Typically, operations that aren't specific to the current transaction are put on this screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Normaal gesproken worden hier bewerkingen weergegeven die niet specifiek van toepassing op de huidige transactie zijn.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>POS welcome screen</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-welkomstscherm</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">**</bpt>Transaction screen<ept id="p1">**</ept> – The <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> screen is the main screen in the POS for processing sales transactions and orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Transactiescherm<ept id="p1">**</ept>: het scherm <bpt id="p2">**</bpt>Transactie<ept id="p2">**</ept> is het hoofdscherm in het POS voor de verwerking van verkooptransacties en orders.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>The content and layout are configured by using the screen layout designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De inhoud en indeling worden geconfigureerd met behulp van de ontwerper van schermindelingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>POS Transaction screen</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-transactiescherm</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">**</bpt>Default start screen<ept id="p1">**</ept> – Some retailers prefer that cashiers go directly to the <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> screen after sign-in.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Standaardstartscherm<ept id="p1">**</ept>: sommige detailhandelaren geven er de voorkeur aan dat kassamedewerkers na het aanmelden rechtstreeks naar het scherm <bpt id="p2">**</bpt>Transactie<ept id="p2">**</ept> gaan.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The <bpt id="p1">**</bpt>Default start screen<ept id="p1">**</ept> setting lets you specify the default screen that appears after sign-in for each screen layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Via de instelling <bpt id="p1">**</bpt>Standaardstartscherm<ept id="p1">**</ept> kunt u het standaardscherm opgeven dat na het aanmelden voor elke schermindeling wordt weergegeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Assignment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toewijzing</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Screen layouts can be assigned at the store, register, or user level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Schermindelingen kunnen worden toegewezen op het niveau van de winkel, kassa of gebruiker.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>The user assignment overrides the register and store assignments, and the register assignment overrides the store assignment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De gebruikerstoewijzing heeft voorrang op de kassa- en winkeltoewijzingen, de kassatoewijzing heeft voorrang op de winkeltoewijzing.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>In a simple scenario where all users use the same layout, regardless of register or role, the screen layout can be set only at the store level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In een eenvoudig scenario waarin alle gebruikers dezelfde indeling gebruiken, ongeacht de kassa of rol, kan de schermindeling alleen op winkelniveau worden ingesteld.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>In scenarios where specific registers or users require specialized layouts, those layouts can be assigned.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In gevallen waarin bepaalde kassa's of gebruikers speciale indelingen vereisen, kunnen deze worden toegewezen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Layout sizes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Indelingsgrootten</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Most aspects of the POS UI are responsive, and the layout is automatically resized and adjusted based on the screen size and orientation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De meeste aspecten van de POS-gebruikersinterface zijn responsief en de lay-out wordt automatisch aangepast aan de grootte en stand van het scherm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>However, the POS <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen must be configured for every screen resolution that is expected.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het POS-scherm <bpt id="p1">**</bpt>Transactie<ept id="p1">**</ept> moet echter worden geconfigureerd voor elke verwachte schermresolutie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>At startup, the POS application automatically selects the closest layout size that is configured for the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bij het opstarten selecteert de POS-toepassing automatisch de indelingsgrootte die is geconfigureerd voor het apparaat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>A screen layout can also contain configurations for both landscape and portrait modes, and for both full-size and compact devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een schermindeling kan ook configuraties voor de modi Liggend en Staand bevatten en voor volwaardige en compacte apparaten.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Therefore, users can be assigned to a single screen layout that works across various sizes and form factors that are used in the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Daarom kunnen gebruikers worden toegewezen aan één schermindeling die werkt voor verschillende afmetingen en vormfactoren die worden gebruikt in de winkel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>POS layout sizes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-indelingsgrootten</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> – You can enter a meaningful name to identify the screen size.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Naam<ept id="p1">**</ept>: u kunt een omschrijvende naam invoeren om de schermgrootte te identificeren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source><bpt id="p1">**</bpt>Layout type<ept id="p1">**</ept> – The POS application can show its UI in various modes to provide the best user experience on a given device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Indelingstype<ept id="p1">**</ept>: in de POS-toepassing kan de gebruikersinterface in verschillende modi worden weergegeven om de beste gebruikerservaring op een bepaald apparaat te kunnen bieden.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source><bpt id="p1">**</bpt>Modern POS – Full<ept id="p1">**</ept> – Full layouts are typically best for larger displays, such as desktop monitors and tablets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Modern POS - volledig<ept id="p1">**</ept>: volledige indelingen zijn doorgaans het meest geschikt voor grotere beeldschermen, zoals pc-beeldschermen en tablets.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>You can select the UI elements to include, specify the size and placement of those elements, and configure their detailed properties.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt de gewenste gebruikersinterface-elementen selecteren, de grootte en positie van die elementen opgeven en hun gedetailleerde eigenschappen configureren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Full layouts support both portrait and landscape configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Volledige indelingen ondersteunen zowel staande (portrait) als liggende (landscape) configuraties.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source><bpt id="p1">**</bpt>Modern POS – Compact<ept id="p1">**</ept> – Compact layouts are typically best for phones and small tablets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Modern POS - compact<ept id="p1">**</ept>: compacte indelingen zijn normaal gesproken het meest geschikt voor telefoons en kleine tablets.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>The design possibilities for compact devices are limited.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De ontwerpmogelijkheden zijn beperkt voor compacte apparaten.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>You can configure the columns and fields for the receipt and totals panels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt de kolommen en velden voor de deelvensters Ontvangstbewijs en Totalen configureren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source><bpt id="p1">**</bpt>Width/Height<ept id="p1">**</ept> – These values represent the effective screen size, in pixels, that is expected for the layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Breedte/Hoogte<ept id="p1">**</ept>: deze waarden staan voor de effectieve schermgrootte, in pixels, die wordt verwacht voor de indeling.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Remember that some operating systems use scaling for high-resolution displays.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Houd er rekening mee dat sommige besturingssystemen voor beeldschermen met hoge resoluties gebruikmaken van schaalaanpassingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>You can learn the layout size that is required for a POS screen by viewing the resolution in the app.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt de vereiste indelingsgrootte voor een POS-scherm achterhalen door de resolutie in de app te bekijken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Start the POS, and go to <bpt id="p1">**</bpt>Settings <ph id="ph1">\&gt;</ph> Session information<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Start het POS en ga naar <bpt id="p1">**</bpt>Instellingen <ph id="ph1">\&gt;</ph> Sessie-informatie<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>POS shows the screen layout that is currently loaded, the layout size, and the resolution of the app window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In het POS worden de momenteel geladen schermindeling, de indelingsgrootte en de resolutie van het app-venster weergegeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>POS layout sizes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-indelingsgrootten</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Button grids</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Knoppenrasters</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor elke indelingsgrootte in een schermindeling kunt u knoppenrasters configureren en toewijzen voor het POS-welkomstscherm en het scherm <bpt id="p1">**</bpt>Transactie<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Knoppenrasters voor het welkomstscherm worden automatisch van links naar rechts, van het laagste nummer (welkomstscherm 1) naar het hoogste nummer weergegeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>In Full POS layouts, the placement of button grids is specified in the screen layout designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In volledige POS-indelingen wordt de plaats van knoppenrasters opgegeven in de ontwerper van schermindelingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>In Compact POS layouts, the button grids are automatically laid out from top to bottom, from the lowest number (Transaction screen 1) to the highest number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In compacte POS-indelingen worden de knoppenrasters automatisch van boven naar beneden, van het laagste nummer (transactiescherm 1) naar het hoogste nummer weergegeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>They can be accessed on the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> menu.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze kunnen worden geopend in het menu <bpt id="p1">**</bpt>Acties<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Compact layout button grids</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Knoppenrasters voor compacte indelingen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Images</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Afbeeldingen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>For each layout size in a screen layout, you can specify images to include in the POS UI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor elke indelingsgrootte in een schermindeling kunt u afbeeldingen opgeven die moeten worden opgenomen in de POS-gebruikersinterface.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>For Full POS layouts, a single image can be specified for the welcome screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor volledige POS-indelingen kan één afbeelding worden opgegeven voor het welkomstscherm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>This image appears as the first UI element on the left.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze afbeelding wordt links als het eerste element in de gebruikersinterface weergegeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>On the <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen, images can be used as tab images or as a logo.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In het scherm <bpt id="p1">**</bpt>Transactie<ept id="p1">**</ept> kunnen afbeeldingen worden gebruikt als tabbladafbeeldingen of als logo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Compact POS layouts don't use these images.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In compacte POS-indelingen worden deze afbeeldingen niet gebruikt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Screen layout designer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ontwerper van schermindeling</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>The screen layout designer lets you configure various aspects of the POS <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen for each layout size, in both portrait and landscape modes, and for both Full and Compact layouts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In de ontwerper van schermindelingen kunt u verschillende aspecten van het POS-scherm <bpt id="p1">**</bpt>Transactie<ept id="p1">**</ept> configureren voor elke indelingsgrootte, zowel in de modus Staand als in de modus Liggend, zowel voor volledige als voor compacte indelingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>The screen layout designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In de ontwerper van schermindelingen wordt de ClickOnce-implementatietechnologie gebruikt om altijd de meest recente versie van de toepassing te downloaden, te installeren en te starten als de gebruiker deze ontwerper opent.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Be sure to check the browser requirements for ClickOnce.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Controleer de browservereisten voor ClickOnce.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Some browsers, such as Google Chrome, require extensions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In sommige browsers, zoals Google Chrome, zijn extensies vereist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>You must configure a screen layout for each layout size that is defined and that is used by the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U moet een schermindeling configureren voor elke indelingsgrootte die is gedefinieerd en wordt gebruikt door het POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Full layout designer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ontwerper van volledige indeling</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>The Full layout designer lets users drag UI controls onto the POS <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen and configure the settings of those controls.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In de ontwerper van volledige indelingen kunnen gebruikers besturingselementen in de gebruikersinterface naar het POS-scherm <bpt id="p1">**</bpt>Transactie<ept id="p1">**</ept> slepen en de instellingen van deze elementen configureren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>POS Full layout designer (landscape mode)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ontwerper van volledige POS-indeling (modus Liggend)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source><bpt id="p1">**</bpt>Import layout/Export layout<ept id="p1">**</ept> – You can export and import POS screen layout designs as XML files, so that you can easily reuse and share them across environments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Indeling importeren/exporteren<ept id="p1">**</ept>: u kunt ontwerpen van POS-schermindelingen importeren en exporteren als XML-bestanden, zodat u deze eenvoudig opnieuw kunt gebruiken en kunt delen in verschillende omgevingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>It's important that you import layout designs for the correct layout sizes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het is belangrijk dat u indelingsontwerpen voor de juiste indelingsformaten importeert.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Otherwise, UI elements might not fit correctly on the screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Anders passen gebruikersinterface-elementen mogelijk niet goed op het scherm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source><bpt id="p1">**</bpt>Landscape/Portrait<ept id="p1">**</ept> – If the POS device lets users switch between landscape and portrait modes, you must define a screen layout for each mode.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Liggen/Staand<ept id="p1">**</ept>: als het POS-apparaat gebruikers in staat stelt te schakelen tussen de modi Liggend en Staand, moet u een schermindeling voor elke modus definiëren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>The POS automatically detects screen rotation and shows the correct layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het POS detecteert schermrotatie automatisch om de juiste indeling te kunnen weergeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source><bpt id="p1">**</bpt>Layout grid<ept id="p1">**</ept> – The POS layout designer uses a 4-pixel grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Indelingsraster<ept id="p1">**</ept>: in de POS-indelingsontwerper wordt een raster van 4 pixels gebruikt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>UI controls "snap" to the grid to help you correctly align the content.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UI-besturingselementen worden vastgezet op het raster zodat u de inhoud juist kunt uitlijnen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source><bpt id="p1">**</bpt>Designer zoom<ept id="p1">**</ept> – You can zoom the designer view in and out to better view the content on the POS screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Inzoomen in ontwerper<ept id="p1">**</ept>: u kunt in- en uitzoomen in de ontwerperweergave om de inhoud in het POS-scherm beter te kunnen bekijken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>This feature is useful when the screen resolution on the POS differs greatly from the resolution of the screen that is used in the designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze functie is handig wanneer de schermresolutie in het POS aanzienlijk afwijkt van de resolutie van het scherm dat wordt gebruikt in de ontwerper.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source><bpt id="p1">**</bpt>Show/hide navigation bar<ept id="p1">**</ept> – For Full POS layouts, you can select whether the left navigation bar is visible on the <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Navigatiebalk weergeven/verbergen<ept id="p1">**</ept>: voor volledige POS-indelingen kunt u opgeven of de linkernavigatiebalk moet worden weergegeven in het scherm <bpt id="p2">**</bpt>Transactie<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>This feature is helpful for displays that have a lower resolution.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze functie is handig voor weergaven met een lagere resolutie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>To set the visibility, right-click the navigation bar in the designer, and select or clear the <bpt id="p1">**</bpt>Always visible<ept id="p1">**</ept> check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u de zichtbaarheid wilt instellen, klikt u met de rechtermuisknop op de navigatiebalk in de ontwerper en schakelt u het selectievakje <bpt id="p1">**</bpt>Altijd zichtbaar<ept id="p1">**</ept> in of uit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>If the navigation bar is hidden, POS users can still access it by using the menu in the upper left.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als de navigatiebalk is verborgen, kunnen POS-gebruikers deze nog steeds gebruiken via het menu in de linkerbovenhoek.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Show/hide navigation bar</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Navigatiebalk weergeven/verbergen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source><bpt id="p1">**</bpt>POS controls<ept id="p1">**</ept> – The POS layout designer supports the following controls.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>POS-besturingselementen<ept id="p1">**</ept>: in de POS-indelingsontwerper worden de volgende besturingselementen ondersteund.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>You can configure many controls by right-clicking and using the shortcut menu.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt veel besturingselementen configureren met de rechtermuisknop en het snelmenu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>POS UI controls</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Besturingselementen in POS-gebruikersinterface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source><bpt id="p1">**</bpt>Number pad<ept id="p1">**</ept> – The number pad is the main mechanism for user input on the POS <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Numeriek toetsenblok<ept id="p1">**</ept>: het toetsenblok is het belangrijkste mechanisme voor gebruikersinvoer in het POS-scherm <bpt id="p2">**</bpt>Tranasactie<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>You can configure the control so that the full number pad is shown.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt het besturingselement zo configureren dat het volledige toetsenblok wordt weergegeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>This option is ideal for touchscreen devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze optie is ideaal voor apparaten met een aanraakscherm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Alternatively, you can configure it so that only the input field is shown.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt deze ook zo configureren dat alleen het invoerveld wordt weergegeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>In this case, a physical keyboard is used for input.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In dit geval wordt een fysiek toetsenbord gebruikt voor invoer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>The number pad settings are available only for Full layouts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De instellingen voor het numerieke toetsenblok zijn alleen beschikbaar voor volledige indelingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>For Compact layouts, the full number pad is always shown on the <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor compacte indelingen wordt het volledige toetsenblok weergegeven in het scherm <bpt id="p1">**</bpt>Transactie<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source><bpt id="p1">**</bpt>Totals panel<ept id="p1">**</ept> – You can configure the totals panel in either one column or two columns, to show values such as the line count, discount amount, charges, subtotal, and tax.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Deelvenster Totalen<ept id="p1">**</ept>: u kunt het deelvenster Totalen configureren in een of twee kolommen, om waarden als het aantal regels, kortingsbedrag, toeslagen, subtotaal en btw weer te geven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Compact layouts support only a single column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Compacte indelingen bieden slechts ondersteuning voor één kolom.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source><bpt id="p1">**</bpt>Receipt panel<ept id="p1">**</ept> – The receipt panel contains the sales lines, payment lines, and delivery information for the products and services that are processed in the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Deelvenster Ontvangst<ept id="p1">**</ept>: het deelvenster Ontvangst bevat de verkoopregels, betalingsregels en leveringsinformatie voor de producten en services die worden verwerkt in het POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>You can specify columns, widths, and placement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt de kolommen, breedte en plaatsing opgeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>In Compact layouts, you can also configure additional information that appears in the row under the main line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In compacte indelingen kunt u ook extra informatie configureren die wordt weergegeven in de rij onder de hoofdregel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source><bpt id="p1">**</bpt>Customer card<ept id="p1">**</ept> – The customer card shows information about the customer who is associated with the current transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Klantenkaart<ept id="p1">**</ept>: de klantenkaart bevat gegevens over de klant die is gekoppeld aan de huidige transactie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>You can configure the customer card to hide or show additional information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt de klantenkaart configureren om extra informatie weer te geven of te verbergen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source><bpt id="p1">**</bpt>Tab control<ept id="p1">**</ept> – You can add the tab control to a screen layout, and then put other controls, such as the number pad, customer card, or button grids, in it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tabblad<ept id="p1">**</ept>: u kunt het tabblad toevoegen aan een schermindeling en vervolgens andere besturingselementen, zoals het toetsenblok, een klantenkaart of knoppenrasters, op het tabblad plaatsen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>The tab control is a container that helps you fit more content on the screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het tabblad is een container waarmee u meer inhoud op het scherm kunt plaatsen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>The tab control is available only for Full layouts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het tabblad is alleen beschikbaar voor volledige indelingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source><bpt id="p1">**</bpt>Image<ept id="p1">**</ept> – You can use the image control to show the store's logo or another branding image on the <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Afbeelding<ept id="p1">**</ept>: u kunt het afbeeldingsbesturingselement gebruiken om het winkellogo of andere branding-afbeeldingen weer te geven in het scherm <bpt id="p2">**</bpt>Transactie<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>The image control is available only for Full layouts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het afbeeldingsbesturingselement is alleen beschikbaar voor volledige indelingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source><bpt id="p1">**</bpt>Recommended products<ept id="p1">**</ept> – If the recommended products control is configured for the environment, it shows product suggestions, based on machine learning.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Aanbevolen producten<ept id="p1">**</ept>: als het besturingselement voor aanbevolen producten is geconfigureerd voor de omgeving, worden hierin productsuggesties op basis van machine learning weergegeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source><bpt id="p1">**</bpt>Custom control<ept id="p1">**</ept> – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Aangepast besturingselement<ept id="p1">**</ept>: het aangepaste besturingselement fungeert als een tijdelijke aanduiding in de schermindeling. Hiermee kunt u ruimte reserveren voor aangepaste inhoud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>The custom control is available only for Full layouts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het aangepaste besturingselement is alleen beschikbaar voor volledige indelingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Compact layout designer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ontwerper voor compacte indeling</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net als in de ontwerper voor de volledige indeling kunt u in de ontwerper voor de compacte indeling de POS-schermindeling voor telefoons en kleine tablets configureren.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>However, in this case, the layout itself is fixed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In dit geval wordt echter de indeling zelf opgelost.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>You can configure the controls in the layout by right-clicking and using the shortcut menu.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt de besturingselementen in de indeling configureren met de rechtermuisknop en het snelmenu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>However, you can't use drag-and-drop operations for additional content.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor extra inhoud kunt u echter niet gebruikmaken van de functie voor slepen en neerzetten.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Compact layout designer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ontwerper van compacte indeling</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Button grid designer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ontwerper van knoppenraster</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>The button grid designer lets you configure button grids that can be used on the POS welcome screen and <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen for both Full and Compact layouts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kunnen worden gebruikt in het POS-welkomstscherm en het scherm <bpt id="p1">**</bpt>Transactie<ept id="p1">**</ept>, zowel voor volledige als compacte indelingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>The same button grid can be used across layouts and layout types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hetzelfde knoppenraster kan voor verschillende indelingen en indelingstypen worden gebruikt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net als in de schermindelingsontwerper wordt in de ontwerper van het knoppenraster de ClickOnce-implementatietechnologie gebruikt om altijd de meest recente versie van de toepassing te downloaden, te installeren en te starten als de gebruiker deze ontwerper opent.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Be sure to check the browser requirements for ClickOnce.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Controleer de browservereisten voor ClickOnce.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Some browsers, such as Google Chrome, require extensions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In sommige browsers, zoals Google Chrome, zijn extensies vereist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Button grid designer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ontwerper van knoppenraster</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source><bpt id="p1">**</bpt>New button<ept id="p1">**</ept> – Click to add a new button to the button grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Knop Nieuw<ept id="p1">**</ept>: klik hierop om een nieuwe knop toe te voegen aan het knoppenraster.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>By default, new buttons appear in the upper-left corner of the grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nieuwe knoppen worden standaard in de linkerbovenhoek van het raster weergegeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>However, you can arrange buttons by dragging them in the layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt knoppen echter schikken door ze te slepen in de indeling.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>The contents of the button grid can overlap.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De inhoud van het knoppenraster kan overlappen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>When you arrange buttons, make sure that they don't hide other buttons.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Wanneer u knoppen schikt, moet u ervoor zorgen dat andere knoppen niet worden verborgen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source><bpt id="p1">**</bpt>New design<ept id="p1">**</ept> – Click to automatically set up a button grid layout by specifying the number of buttons per row and column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nieuw ontwerp<ept id="p1">**</ept>: klik hierop om automatisch een knoppenrasterindeling in te stellen door het aantal knoppen per rij en kolom op te geven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source><bpt id="p1">**</bpt>Button properties<ept id="p1">**</ept> – You can configure button properties by right-clicking the button and using the shortcut menu.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Knopeigenschappen<ept id="p1">**</ept>: u kunt knopeigenschappen configureren door met de rechtermuisknop op de knop te klikken en het snelmenu te gebruiken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Some button grid settings apply only to Enterprise POS, not to Retail Modern POS or Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sommige knoppenrasterinstellingen gelden alleen voor Enterprise POS en niet voor Retail Modern POS of Cloud POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Button grid button properties</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Knopeigenschappen voor knoppenraster</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source><bpt id="p1">**</bpt>Action<ept id="p1">**</ept> – In the list of applicable POS operations, select the operation that is invoked when the button is clicked in the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Actie<ept id="p1">**</ept>: selecteer in de lijst met relevante POS-bewerkingen de bewerking die wordt geactiveerd als op de knop wordt geklikt in het POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>For the list of supported POS operations, see <bpt id="p1">[</bpt>POS operations, online and offline<ept id="p1">](pos-operations.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie <bpt id="p1">[</bpt>POS-bewerkingen, online en offline<ept id="p1">](pos-operations.md)</ept> voor een overzicht van ondersteunde POS-bewerkingen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source><bpt id="p1">**</bpt>Action parameters<ept id="p1">**</ept> – Some POS operations use additional parameters when they are invoked.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Actieparameters<ept id="p1">**</ept>: voor sommige POS-bewerkingen worden aanvullende parameters gebruikt wanneer ze worden aangeroepen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>For example, for the Add product operation, users can specify the product to add.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gebruikers kunnen voor de bewerking Product toevoegen bijvoorbeeld opgeven welk product moet worden toegevoegd.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source><bpt id="p1">**</bpt>Button text<ept id="p1">**</ept> – Specify the text that appears on the button in the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Knoptekst<ept id="p1">**</ept>: geef de tekst op die moet worden weergegeven op de knop in het POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source><bpt id="p1">**</bpt>Hide button text<ept id="p1">**</ept> – Use this check box to hide or show the button text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Knoptekst verbergen<ept id="p1">**</ept>: gebruik dit selectievakje om de knoptekst weer te geven of te verbergen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Button text is often hidden for small buttons that show only an icon.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Knoptekst wordt vaak verborgen voor kleine knoppen waarop alleen een pictogram past.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source><bpt id="p1">**</bpt>Tooltip<ept id="p1">**</ept> – Specify additional Help text that appears when users mouse over the button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Knopinfo<ept id="p1">**</ept>: geef extra Help-tekst op die wordt weergegeven wanneer gebruikers de muisaanwijzer over de knop bewegen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source><bpt id="p1">**</bpt>Size in columns/Size in rows<ept id="p1">**</ept> – You can specify how tall and wide the button is.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Grootte in kolommen/rijen<ept id="p1">**</ept>: u kunt opgeven hoe hoog en breed de knop moet zijn.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>POS button sizes in rows and columns</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grootte van POS-knoppen in rijen en kolommen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source><bpt id="p1">**</bpt>Custom font<ept id="p1">**</ept> – When you select the <bpt id="p2">**</bpt>Enable custom font for POS<ept id="p2">**</ept> check box, you can specify a font other than the default system font for the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Aangepast lettertype<ept id="p1">**</ept>: wanneer u het selectievakje <bpt id="p2">**</bpt>Aangepast lettertype inschakelen voor POS<ept id="p2">**</ept> inschakelt, kunt u een ander lettertype opgeven dan het standaardsysteemlettertype voor het POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source><bpt id="p1">**</bpt>Custom theme<ept id="p1">**</ept> – By default, POS buttons use the accent color from the visual profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Aangepast thema<ept id="p1">**</ept>: standaard wordt voor POS-knoppen de accentkleur van het weergaveprofiel gebruikt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>When you select the <bpt id="p1">**</bpt>Use custom theme<ept id="p1">**</ept> check box, you can specify additional colors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u het selectievakje <bpt id="p1">**</bpt>Aangepast thema gebruiken<ept id="p1">**</ept> inschakelt, kunt u extra kleuren opgeven.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Retail Modern POS and Cloud POS use only the <bpt id="p1">**</bpt>Back color<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Font color<ept id="p2">**</ept> values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In Retail Modern POS en Cloud POS worden alleen de waarden <bpt id="p1">**</bpt>Achtergrondkleur<ept id="p1">**</ept> en <bpt id="p2">**</bpt>Tekenkleur<ept id="p2">**</ept> gebruikt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source><bpt id="p1">**</bpt>Button image<ept id="p1">**</ept> – Buttons can include images or icons.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Afbeelding van knop<ept id="p1">**</ept>: knoppen kunnen afbeeldingen of pictogrammen bevatten.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Select among the available images that are specified at <bpt id="p1">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> POS setup <ph id="ph3">\&gt;</ph> POS <ph id="ph4">\&gt;</ph> Images<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maak een keuze uit de beschikbare afbeeldingen die zijn opgegeven via <bpt id="p1">**</bpt>Retail <ph id="ph1">\&gt;</ph> Afzetkanaalinstellingen <ph id="ph2">\&gt;</ph> POS-instellingen <ph id="ph3">\&gt;</ph> POS <ph id="ph4">\&gt;</ph> Afbeeldingen<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Example button grid in the POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voorbeeld van knoppenraster in het POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aanvullende resources</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source><bpt id="p1">[</bpt>Install the Retail POS Layout designer<ept id="p1">](install-pos-layout-designer.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>De Retail POS-indelingsontwerper installeren<ept id="p1">](install-pos-layout-designer.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

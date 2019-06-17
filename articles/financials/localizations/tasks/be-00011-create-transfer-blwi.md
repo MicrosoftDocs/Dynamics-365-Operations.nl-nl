@@ -1,53 +1,99 @@
----
-title: Transacties maken en overboeken naar het BLWI (België)
-description: Deze procedure begeleidt u bij het maken van een BLWI-rapport voor België.
-author: v-oloski
-manager: AnnBe
-ms.date: 07/12/2017
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
-ms.search.region: Belgium
-ms.author: v-oloski
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23a7c41f0f80e845d7e900ed8cb069e9568e98d4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538199"
----
-# <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a><span data-ttu-id="93c09-103">Transacties maken en overboeken naar het BLWI (België)</span><span class="sxs-lookup"><span data-stu-id="93c09-103">Create and transfer transactions to the BLWI (Belgium)</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="93c09-104">Deze procedure begeleidt u bij het maken van een BLWI-rapport voor België.</span><span class="sxs-lookup"><span data-stu-id="93c09-104">This procedure walks you through creating BLWI report for the Belgium.</span></span> <span data-ttu-id="93c09-105">Deze procedure is gemaakt met het demogegevensbedrijf USSI.</span><span class="sxs-lookup"><span data-stu-id="93c09-105">This procedure was created using the demo data company USSI.</span></span> <span data-ttu-id="93c09-106">Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres in België hebben.</span><span class="sxs-lookup"><span data-stu-id="93c09-106">This functionality is available for legal entities whose primary address is in the Belgium.</span></span> <span data-ttu-id="93c09-107">Ook is het nodig om een registratie-id voor België in te stellen en het registratienummer in te vullen, om een BLWI-aangifte te maken.</span><span class="sxs-lookup"><span data-stu-id="93c09-107">Also it is necessary to set up Registration ID for Belgium and fill in Registration number in order to create BLWI declaration.</span></span>
-
-<span data-ttu-id="93c09-108">Als u een transactie naar BLWI wilt maken, moet eerder BLWI-informatie (Belgisch Luxemburgs Wissel Instituut) zijn ingesteld.</span><span class="sxs-lookup"><span data-stu-id="93c09-108">To create and transfer transaction to the BLWI it is necessary previously to set up Belgisch Luxemburgs Wissel Instituut (BLWI) information.</span></span>
-
-<span data-ttu-id="93c09-109">Klant- of leverancierstransacties gemarkeerd met een van de gekozen betalingsdoelcodes waarvan het primaire klant-/leveranciersadres in een ander land ligt dan het land van de rechtspersoon, worden opgenomen in het BLWI-rapport.</span><span class="sxs-lookup"><span data-stu-id="93c09-109">Customer/vendor transactions marked with one of the chosen payment purpose codes with customer/vendor primary address is in the country different from the country of legal entity are included in BLWI report.</span></span>
-
-1. <span data-ttu-id="93c09-110">Ga naar Belasting > Aangiften > Buitenlandse handel > BLWI.</span><span class="sxs-lookup"><span data-stu-id="93c09-110">Go to Tax > Declarations > Foreign trade > BLWI.</span></span>
-2. <span data-ttu-id="93c09-111">Klik op Overbrengen.</span><span class="sxs-lookup"><span data-stu-id="93c09-111">Click Transfer.</span></span>
-3. <span data-ttu-id="93c09-112">Typ of selecteer een waarde in het veld Onderzoekscode.</span><span class="sxs-lookup"><span data-stu-id="93c09-112">In the Survey code field, enter or select a value.</span></span>
-4. <span data-ttu-id="93c09-113">Voer een datum in het veld Datum in.</span><span class="sxs-lookup"><span data-stu-id="93c09-113">In the Date field, enter a date.</span></span>
-5. <span data-ttu-id="93c09-114">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="93c09-114">Click OK.</span></span>
-6. <span data-ttu-id="93c09-115">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="93c09-115">Click New.</span></span>
-7. <span data-ttu-id="93c09-116">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="93c09-116">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="93c09-117">Selecteer een optie in het veld BLWI-transactie.</span><span class="sxs-lookup"><span data-stu-id="93c09-117">In the BLWI transaction field, select an option.</span></span>
-9. <span data-ttu-id="93c09-118">Typ of selecteer een waarde in het veld Rekeningnummer.</span><span class="sxs-lookup"><span data-stu-id="93c09-118">In the Account number field, enter or select a value.</span></span>
-10. <span data-ttu-id="93c09-119">Typ een getal in het veld Bedrag in transactievaluta.</span><span class="sxs-lookup"><span data-stu-id="93c09-119">In the Amount in transaction currency field, enter a number.</span></span>
-11. <span data-ttu-id="93c09-120">Typ of selecteer een waarde in het veld Land/regio.</span><span class="sxs-lookup"><span data-stu-id="93c09-120">In the Country/region field, enter or select a value.</span></span>
-12. <span data-ttu-id="93c09-121">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="93c09-121">Click Save.</span></span>
-13. <span data-ttu-id="93c09-122">Klik op XML-bestand maken.</span><span class="sxs-lookup"><span data-stu-id="93c09-122">Click Create XML file.</span></span>
-14. <span data-ttu-id="93c09-123">Typ of selecteer een waarde in het veld Onderzoekscode.</span><span class="sxs-lookup"><span data-stu-id="93c09-123">In the Survey code field, enter or select a value.</span></span>
-15. <span data-ttu-id="93c09-124">Typ een waarde in het veld Bestandsnaam.</span><span class="sxs-lookup"><span data-stu-id="93c09-124">In the File name field, type a value.</span></span>
-16. <span data-ttu-id="93c09-125">Voer een datum in het veld Datum in.</span><span class="sxs-lookup"><span data-stu-id="93c09-125">In the Date field, enter a date.</span></span>
-17. <span data-ttu-id="93c09-126">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="93c09-126">Click OK.</span></span>
-18. <span data-ttu-id="93c09-127">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="93c09-127">Close the page.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="be-00011-create-transfer-blwi.md" target-language="nl-NL">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>be-00011-create-transfer-blwi.e58fbf.147a2bf84459a5b67ffe633d5a7dd24b31bf10da.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>147a2bf84459a5b67ffe633d5a7dd24b31bf10da</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\be-00011-create-transfer-blwi.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Create and transfer transactions to the BLWI (Belgium)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transacties maken en overboeken naar het BLWI (België)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This procedure walks you through creating BLWI report for the Belgium.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure begeleidt u bij het maken van een BLWI-rapport voor België.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Create and transfer transactions to the BLWI (Belgium)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transacties maken en overboeken naar het BLWI (België)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This procedure walks you through creating BLWI report for the Belgium.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure begeleidt u bij het maken van een BLWI-rapport voor België.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure was created using the demo data company USSI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure is gemaakt met het demogegevensbedrijf USSI.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This functionality is available for legal entities whose primary address is in the Belgium.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres in België hebben.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Also it is necessary to set up Registration ID for Belgium and fill in Registration number in order to create BLWI declaration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ook is het nodig om een registratie-id voor België in te stellen en het registratienummer in te vullen, om een BLWI-aangifte te maken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>To create and transfer transaction to the BLWI it is necessary previously to set up Belgisch Luxemburgs Wissel Instituut (BLWI) information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als u een transactie naar BLWI wilt maken, moet eerder BLWI-informatie (Belgisch Luxemburgs Wissel Instituut) zijn ingesteld.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Customer/vendor transactions marked with one of the chosen payment purpose codes with customer/vendor primary address is in the country different from the country of legal entity are included in BLWI report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klant- of leverancierstransacties gemarkeerd met een van de gekozen betalingsdoelcodes waarvan het primaire klant-/leveranciersadres in een ander land ligt dan het land van de rechtspersoon, worden opgenomen in het BLWI-rapport.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Go to Tax &gt; Declarations &gt; Foreign trade &gt; BLWI.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Belasting &gt; Aangiften &gt; Buitenlandse handel &gt; BLWI.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Click Transfer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Overbrengen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the Survey code field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Onderzoekscode.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the Date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een datum in het veld Datum in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Nieuw.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Markeer in de lijst de geselecteerde rij.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>In the BLWI transaction field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een optie in het veld BLWI-transactie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>In the Account number field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Rekeningnummer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>In the Amount in transaction currency field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ een getal in het veld Bedrag in transactievaluta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the Country/region field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Land/regio.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Opslaan.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Click Create XML file.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op XML-bestand maken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>In the Survey code field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Onderzoekscode.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>In the File name field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ een waarde in het veld Bestandsnaam.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>In the Date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een datum in het veld Datum in.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sluit de pagina.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
