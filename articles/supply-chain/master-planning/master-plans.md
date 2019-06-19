@@ -1,90 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="master-plans.md" target-language="nl-NL">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>master-plans.3b8560.c9731ba47f449e037850c95a7873e1ae4551e2a9.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>c9731ba47f449e037850c95a7873e1ae4551e2a9</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\supply-chain\master-planning\master-plans.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Master plans</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hoofdplannen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Use various master plans to support your company's daily working operations, simulate different planning strategies that you want to monitor, and implement a company policy, such as a policy about internal performance or customer satisfaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkzaamheden binnen uw bedrijf, voor het simuleren van verschillende planningsstrategieën die u in de gaten wilt houden, en voor het implementeren van een bedrijfsbeleid zoals een beleid over de interne resultaten of klanttevredenheid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Master plans</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hoofdplannen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Use various master plans to support your company's daily working operations, simulate different planning strategies that you want to monitor, and implement a company policy, such as a policy about internal performance or customer satisfaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkzaamheden binnen uw bedrijf, voor het simuleren van verschillende planningsstrategieën die u in de gaten wilt houden, en voor het implementeren van een bedrijfsbeleid zoals een beleid over de interne resultaten of klanttevredenheid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>You can configure master plans on the <bpt id="p1">**</bpt>Master plans<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt hoofdplannen configureren op de pagina <bpt id="p1">**</bpt>Hoofdplannen<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>There are two types of plans:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Er zijn twee typen plannen:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source><bpt id="p1">**</bpt>Static plan<ept id="p1">**</ept> – The master planning calculation uses the current data to generate a net requirements plan.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Statische plan<ept id="p1">**</ept> – Bij de berekening van het hoofdplan worden de huidige gegevens gebruikt om een plan met netto-eisen te maken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>This plan remains unchanged until the next time that you run master planning.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit plan verandert pas wanneer u de hoofdplanning opnieuw uitvoert.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>It is an operating plan that various company personnel, such as a purchaser or production planner, can use to base their decisions on and perform their daily tasks and activities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Het is een werkplan dat door medewerkers zoals inkopers of productieplanners kan worden gebruikt voor hun besluitvorming en voor het uitvoeren van hun dagelijkse werkzaamheden.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source><bpt id="p1">**</bpt>Dynamic plan<ept id="p1">**</ept> – This plan starts with the same net requirements plan that was generated by master planning.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Dynamisch plan<ept id="p1">**</ept> – Dit plan begint met hetzelfde nettobehoeftenplan dat door de hoofdplanning is gegenereerd.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>However, you can update the dynamic plan every time that the master data changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt echter het dynamische plan bijwerken elke keer dat de hoofdgegevens wijzigen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>This could be when you create a new sales order, for example.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit kan zijn wanneer u bijvoorbeeld een nieuwe verkooporder maakt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>This enables you to monitor the changing order network and item availability without disturbing the static plan that others are using for their work processes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hierdoor kunt u de wijzigende ordernetwerk- en artikelbeschikbaarheid controleren zonder het statische plan te verstoren dat anderen gebruiken voor hun werkprocessen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>A company may choose to work with just a dynamic plan or it may use both static and dynamic plans.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een bedrijf kan ervoor kiezen alleen met een dynamisch plan te werken, maar kan ook met statische en dynamische plannen werken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In addition, you can configure any master plan to reflect a particular strategy or address an issue.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ook kunt u een hoofdplan voor een bepaalde strategie of voor het oplossen van een probleem opstellen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Examples are as follows:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit zijn enkele voorbeelden:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Set higher inventory levels to guarantee against stockouts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instellen van grotere voorraden om tekorten te voorkomen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Set longer safety margins to protect against unreliable vendors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instellen van grotere veiligheidsmarges om het bedrijf tegen onbetrouwbare leveranciers te beschermen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>You can also set up the starting dynamic plan so that it is updated with the new requirements plan every time that you run master planning.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt het eerste dynamische plan zo opstellen, dat het wordt bijgewerkt met het nieuwe eisenplan wanneer u de hoofdplanning uitvoert.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>You can specify these settings on the <bpt id="p1">**</bpt>Master planning parameters<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt deze instellingen opgeven op de pagina <bpt id="p1">**</bpt>Parameters hoofdplanning<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aanvullende resources</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><bpt id="p1">[</bpt>Coverage settings<ept id="p1">](coverage-settings.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Behoefteplanningsinstellingen<ept id="p1">](coverage-settings.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source><bpt id="p1">[</bpt>Separating tactical and operative planning for master scheduling<ept id="p1">](https://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Tactische en operationele planning scheiden voor hoofdplanning<ept id="p1">](https://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">[</bpt>Master Planning: Use a static and dynamic Master Plan or use one plan?<ept id="p1">](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Hoofdplanning: Een statisch en dynamisch hoofdplan gebruiken of één plan gebruiken?<ept id="p1">](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Hoofdplannen
+description: U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkzaamheden binnen uw bedrijf, voor het simuleren van verschillende planningsstrategieën die u in de gaten wilt houden, en voor het implementeren van een bedrijfsbeleid zoals een beleid over de interne resultaten of klanttevredenheid.
+author: roxanadiaconu
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ReqParameters, ReqPlanSched
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: 7911
+ms.assetid: a116b7de-3d6d-4321-87ba-5a5d99c2f64e
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: roxanad
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9731ba47f449e037850c95a7873e1ae4551e2a9
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595518"
+---
+# <a name="master-plans"></a>Hoofdplannen
+
+[!include [banner](../includes/banner.md)]
+
+U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkzaamheden binnen uw bedrijf, voor het simuleren van verschillende planningsstrategieën die u in de gaten wilt houden, en voor het implementeren van een bedrijfsbeleid zoals een beleid over de interne resultaten of klanttevredenheid. 
+
+U kunt hoofdplannen configureren op de pagina **Hoofdplannen**.
+
+Er zijn twee typen plannen:
+-   **Statische plan** – Bij de berekening van het hoofdplan worden de huidige gegevens gebruikt om een plan met netto-eisen te maken. Dit plan verandert pas wanneer u de hoofdplanning opnieuw uitvoert. Het is een werkplan dat door medewerkers zoals inkopers of productieplanners kan worden gebruikt voor hun besluitvorming en voor het uitvoeren van hun dagelijkse werkzaamheden.
+-   **Dynamisch plan** – Dit plan begint met hetzelfde nettobehoeftenplan dat door de hoofdplanning is gegenereerd. U kunt echter het dynamische plan bijwerken elke keer dat de hoofdgegevens wijzigen. Dit kan zijn wanneer u bijvoorbeeld een nieuwe verkooporder maakt. Hierdoor kunt u de wijzigende ordernetwerk- en artikelbeschikbaarheid controleren zonder het statische plan te verstoren dat anderen gebruiken voor hun werkprocessen.
+
+Een bedrijf kan ervoor kiezen alleen met een dynamisch plan te werken, maar kan ook met statische en dynamische plannen werken. Ook kunt u een hoofdplan voor een bepaalde strategie of voor het oplossen van een probleem opstellen. Dit zijn enkele voorbeelden:
+-   Instellen van grotere voorraden om tekorten te voorkomen.
+-   Instellen van grotere veiligheidsmarges om het bedrijf tegen onbetrouwbare leveranciers te beschermen.
+
+U kunt het eerste dynamische plan zo opstellen, dat het wordt bijgewerkt met het nieuwe eisenplan wanneer u de hoofdplanning uitvoert. U kunt deze instellingen opgeven op de pagina **Parameters hoofdplanning**.
+
+
+
+<a name="additional-resources"></a>Aanvullende resources
+--------
+
+[Behoefteplanningsinstellingen](coverage-settings.md)
+
+[Tactische en operationele planning scheiden voor hoofdplanning](https://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
+
+[Hoofdplanning: Een statisch en dynamisch hoofdplan gebruiken of één plan gebruiken?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
+
