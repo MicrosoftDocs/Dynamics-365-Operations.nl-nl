@@ -1,117 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-bel-coda-bank-statement-import.md" target-language="nl-NL">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-bel-coda-bank-statement-import.0c1b64.b7195e9e9a45137b959be2e08736ec2ba88df4ef.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>b7195e9e9a45137b959be2e08736ec2ba88df4ef</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-bel-coda-bank-statement-import.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>CODA bank statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CODA-bankafschrift</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic includes information about CODA, which is a report format used in the Belgian electronic banking system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>CODA bank statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CODA-bankafschrift</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic includes information about CODA, which is a report format used in the Belgian electronic banking system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>For Belgian bank statement imports, you'll use the CODA file format.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor importen van Belgische bankoverzichten gebruikt u de CODA-bestandsindeling.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This feature lets you verify company bank account opening and ending balances, and reconcile imported transactions based on reconciliation rules.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Met deze functie kunt u begin- en eindsaldi van bedrijfsbankrekeningen controleren en kunt u geïmporteerde transacties op basis van afstemmingsregels afstemmen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Import transactions from a bank statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transacties van een bankafschrift importeren</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>To import a bank statement file for a bank account, complete the following steps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer de volgende stappen uit om een bankafschriftbestand voor een bankrekening te importeren.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: Before you import a bank statement file, you must have already completed the following:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opmerking<ept id="p1">**</ept>: voordat u een bankafschriftbestand importeert, moet u het volgende al hebben uitgevoerd:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Import the CODA configurations from Lifecycle Services (LCS).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De CODA-configuraties vanuit Lifecycle Services (LCS) importeren</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>For more information, see <bpt id="p1">[</bpt>Download Electronic reporting configurations from Lifecycle Services<ept id="p1">](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zie voor meer informatie <bpt id="p1">[</bpt>Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services<ept id="p1">](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Select the imported CODA configuration on the <bpt id="p1">**</bpt>CODA parameters<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer de geïmporteerde CODA-configuratie op de pagina <bpt id="p1">**</bpt>CODA-parameters<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Go to the <bpt id="p1">**</bpt>Bank accounts<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar de pagina <bpt id="p1">**</bpt>Bankrekeningen<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Click <bpt id="p1">**</bpt>Reconcile<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>CODA<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op <bpt id="p1">**</bpt>Afstemmen<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>CODA<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Click <bpt id="p1">**</bpt>CODA<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Import from file<ept id="p2">**</ept>, and then select the path to the bank statement file.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op <bpt id="p1">**</bpt>CODA<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Importeren uit bestand<ept id="p2">**</ept> en selecteer vervolgens het pad naar het bankafschriftbestand.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>After you import transactions, you can do the following on the <bpt id="p1">**</bpt>Bank statement<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nadat u transacties hebt geïmporteerd, kunt u het volgende doen op de pagina <bpt id="p1">**</bpt>Bankafschrift<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Verify the opening and ending balances.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De begin- en eindsaldi controleren.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>View the imported transactions as a bank statement report that you can print.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De geïmporteerde transacties weergeven als een bankafschriftrapport dat u kunt afdrukken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>View imported transactions with additional lines, such as lines with an Account type of "None".</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geïmporteerde transacties weergeven met extra regels, zoals regels met het rekeningtype 'Geen'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click <bpt id="p1">**</bpt>CODA <ph id="ph1">&amp;gt;</ph> Details<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op <bpt id="p1">**</bpt>CODA <ph id="ph1">&amp;gt;</ph> Details<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Process imported bank statement transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geïmporteerde bankafschrifttransacties verwerken</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Complete the following steps to process the bank statement transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer de volgende stappen uit om de bankafschrifttransacties te verwerken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Process details lines (<bpt id="p1">**</bpt>CODA<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Process detail lines<ept id="p2">**</ept>).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verwerk detailregels (<bpt id="p1">**</bpt>CODA<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Detailregels verwerken<ept id="p2">**</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Start automatic matching based on <bpt id="p1">**</bpt>CODA definitions<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Start automatisch afstemmen op basis van <bpt id="p1">**</bpt>CODA-definities<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>These rules determine which ledger, customer, or vendor account should be used for this transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze regels bepalen welk grootboek of welke klant of leverancier moet worden gebruikt voor deze transactie.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Comparison is based on which Transaction group code, Transaction code, and Transaction category code are specified in CODA file for each transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De vergelijking wordt gebaseerd op welke transactiegroepscode, transactiecode en transactiecategoriecode zijn opgegeven in het CODA-bestand voor elke transactie.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Transactions with a customer and vendor account type can be matched with the invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transacties met een klant- en leveranciersrekeningtype kunnen worden vergeleken met de facturen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>If necessary, imported transactions can be manually changed at any time after processing, before transferring to the ledger.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Indien nodig kunnen geïmporteerde transacties handmatig op elk gewenst moment na verwerking worden gewijzigd, alvorens ze worden overgeboekt naar het grootboek.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>If there are any transactions with errors (generally, if there are no rules set up), these can be referred to the special ledger account, specified on the <bpt id="p1">&lt;strong&gt;</bpt>CODA parameters <bpt id="p2">**</bpt>page (<ept id="p2">&lt;/strong&gt;</ept>CODA<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">&lt;strong&gt;</bpt>Clear errors<ept id="p3">&lt;/strong&gt;</ept>).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als er transacties met fouten zijn (in het algemeen als er geen regels zijn ingesteld), kunnen deze worden verwezen naar de speciale grootboekrekening die is opgegeven op de pagina <bpt id="p1">&lt;strong&gt;</bpt>CODA-parameters<bpt id="p2">**</bpt>(<ept id="p2">&lt;/strong&gt;</ept>CODA<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">&lt;strong&gt;</bpt>Fouten wissen<ept id="p3">&lt;/strong&gt;</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>After all transactions in the bank statement are settled, they are ready to be transferred to the general ledger journal (<bpt id="p1">&lt;strong&gt;</bpt>CODA<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph><bpt id="p2">&lt;strong&gt;</bpt>Transfer to ledger<ept id="p2">&lt;/strong&gt;</ept>).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nadat alle transacties in het bankafschrift zijn vereffend, kunnen ze worden overgeboekt naar het grootboekjournaal (<bpt id="p1">&lt;strong&gt;</bpt>CODA<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">&lt;strong&gt;</bpt>Overboeken naar grootboek<ept id="p2">&lt;/strong&gt;</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Journal settings should be specified for the bank account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voor de bankrekening moeten journaalinstellingen worden opgegeven.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Journals can be opened on the <bpt id="p1">&lt;strong&gt;</bpt>Bank accounts **page for the selected record by clicking **Set up<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">&lt;strong&gt;</bpt>CODA journal<ept id="p2">&lt;/strong&gt;</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Journalen kunnen worden geopend op de pagina <bpt id="p1">&lt;strong&gt;</bpt>Bankrekeningen** voor de geselecteerde record door te klikken op **Instellen<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">&lt;strong&gt;</bpt>CODA-journaal<ept id="p2">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>After processing bank statement transactions is complete, a new general ledger journal is created and ready for posting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nadat bankafschrifttransacties zijn verwerkt, wordt een nieuw grootboekjournaal gemaakt en is deze gereed voor boeking.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: CODA-bankafschrift
+description: Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: BankAccountTable, BankCodaAccountStatement, BankCodaAccountStatementLines, BankCodaParameters, BankCodaTrans, BankCodaTransCategory, BankCodaTransDefTable, BankCodaTransFamily
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 262534
+ms.search.region: Belgium
+ms.author: v-lenest
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7195e9e9a45137b959be2e08736ec2ba88df4ef
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565332"
+---
+# <a name="coda-bank-statement"></a><span data-ttu-id="46783-103">CODA-bankafschrift</span><span class="sxs-lookup"><span data-stu-id="46783-103">CODA bank statement</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="46783-104">Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="46783-104">This topic includes information about CODA, which is a report format used in the Belgian electronic banking system.</span></span> 
+
+<span data-ttu-id="46783-105">Voor importen van Belgische bankoverzichten gebruikt u de CODA-bestandsindeling.</span><span class="sxs-lookup"><span data-stu-id="46783-105">For Belgian bank statement imports, you'll use the CODA file format.</span></span> <span data-ttu-id="46783-106">Met deze functie kunt u begin- en eindsaldi van bedrijfsbankrekeningen controleren en kunt u geïmporteerde transacties op basis van afstemmingsregels afstemmen.</span><span class="sxs-lookup"><span data-stu-id="46783-106">This feature lets you verify company bank account opening and ending balances, and reconcile imported transactions based on reconciliation rules.</span></span>
+
+## <a name="import-transactions-from-a-bank-statement"></a><span data-ttu-id="46783-107">Transacties van een bankafschrift importeren</span><span class="sxs-lookup"><span data-stu-id="46783-107">Import transactions from a bank statement</span></span>
+<span data-ttu-id="46783-108">Voer de volgende stappen uit om een bankafschriftbestand voor een bankrekening te importeren.</span><span class="sxs-lookup"><span data-stu-id="46783-108">To import a bank statement file for a bank account, complete the following steps.</span></span> <span data-ttu-id="46783-109">**Opmerking**: voordat u een bankafschriftbestand importeert, moet u het volgende al hebben uitgevoerd:</span><span class="sxs-lookup"><span data-stu-id="46783-109">**Note**: Before you import a bank statement file, you must have already completed the following:</span></span>
+
+-   <span data-ttu-id="46783-110">De CODA-configuraties vanuit Lifecycle Services (LCS) importeren</span><span class="sxs-lookup"><span data-stu-id="46783-110">Import the CODA configurations from Lifecycle Services (LCS).</span></span> <span data-ttu-id="46783-111">Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).</span><span class="sxs-lookup"><span data-stu-id="46783-111">For more information, see [Download Electronic reporting configurations from Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).</span></span>
+-   <span data-ttu-id="46783-112">Selecteer de geïmporteerde CODA-configuratie op de pagina **CODA-parameters**.</span><span class="sxs-lookup"><span data-stu-id="46783-112">Select the imported CODA configuration on the **CODA parameters** page.</span></span>
+
+1.  <span data-ttu-id="46783-113">Ga naar de pagina **Bankrekeningen**.</span><span class="sxs-lookup"><span data-stu-id="46783-113">Go to the **Bank accounts** page.</span></span>
+2.  <span data-ttu-id="46783-114">Klik op **Afstemmen** &gt; **CODA**.</span><span class="sxs-lookup"><span data-stu-id="46783-114">Click **Reconcile** &gt; **CODA**.</span></span>
+3.  <span data-ttu-id="46783-115">Klik op **CODA** &gt; **Importeren uit bestand** en selecteer vervolgens het pad naar het bankafschriftbestand.</span><span class="sxs-lookup"><span data-stu-id="46783-115">Click **CODA** &gt; **Import from file**, and then select the path to the bank statement file.</span></span>
+
+<span data-ttu-id="46783-116">Nadat u transacties hebt geïmporteerd, kunt u het volgende doen op de pagina **Bankafschrift**.</span><span class="sxs-lookup"><span data-stu-id="46783-116">After you import transactions, you can do the following on the **Bank statement** page.</span></span>
+
+-   <span data-ttu-id="46783-117">De begin- en eindsaldi controleren.</span><span class="sxs-lookup"><span data-stu-id="46783-117">Verify the opening and ending balances.</span></span>
+-   <span data-ttu-id="46783-118">De geïmporteerde transacties weergeven als een bankafschriftrapport dat u kunt afdrukken.</span><span class="sxs-lookup"><span data-stu-id="46783-118">View the imported transactions as a bank statement report that you can print.</span></span>
+-   <span data-ttu-id="46783-119">Geïmporteerde transacties weergeven met extra regels, zoals regels met het rekeningtype 'Geen'.</span><span class="sxs-lookup"><span data-stu-id="46783-119">View imported transactions with additional lines, such as lines with an Account type of "None".</span></span> <span data-ttu-id="46783-120">Klik op **CODA &gt; Details**.</span><span class="sxs-lookup"><span data-stu-id="46783-120">Click **CODA &gt; Details**.</span></span>
+
+## <a name="process-imported-bank-statement-transactions"></a><span data-ttu-id="46783-121">Geïmporteerde bankafschrifttransacties verwerken</span><span class="sxs-lookup"><span data-stu-id="46783-121">Process imported bank statement transactions</span></span>
+<span data-ttu-id="46783-122">Voer de volgende stappen uit om de bankafschrifttransacties te verwerken.</span><span class="sxs-lookup"><span data-stu-id="46783-122">Complete the following steps to process the bank statement transactions.</span></span>
+
+1. <span data-ttu-id="46783-123">Verwerk detailregels (**CODA** &gt; **Detailregels verwerken**).</span><span class="sxs-lookup"><span data-stu-id="46783-123">Process details lines (**CODA** &gt; **Process detail lines**).</span></span> <span data-ttu-id="46783-124">Start automatisch afstemmen op basis van **CODA-definities**.</span><span class="sxs-lookup"><span data-stu-id="46783-124">Start automatic matching based on **CODA definitions**.</span></span> <span data-ttu-id="46783-125">Deze regels bepalen welk grootboek of welke klant of leverancier moet worden gebruikt voor deze transactie.</span><span class="sxs-lookup"><span data-stu-id="46783-125">These rules determine which ledger, customer, or vendor account should be used for this transaction.</span></span> <span data-ttu-id="46783-126">De vergelijking wordt gebaseerd op welke transactiegroepscode, transactiecode en transactiecategoriecode zijn opgegeven in het CODA-bestand voor elke transactie.</span><span class="sxs-lookup"><span data-stu-id="46783-126">Comparison is based on which Transaction group code, Transaction code, and Transaction category code are specified in CODA file for each transaction.</span></span>
+2. <span data-ttu-id="46783-127">Transacties met een klant- en leveranciersrekeningtype kunnen worden vergeleken met de facturen.</span><span class="sxs-lookup"><span data-stu-id="46783-127">Transactions with a customer and vendor account type can be matched with the invoices.</span></span> <span data-ttu-id="46783-128">Indien nodig kunnen geïmporteerde transacties handmatig op elk gewenst moment na verwerking worden gewijzigd, alvorens ze worden overgeboekt naar het grootboek.</span><span class="sxs-lookup"><span data-stu-id="46783-128">If necessary, imported transactions can be manually changed at any time after processing, before transferring to the ledger.</span></span>
+3. <span data-ttu-id="46783-129">Als er transacties met fouten zijn (in het algemeen als er geen regels zijn ingesteld), kunnen deze worden verwezen naar de speciale grootboekrekening die is opgegeven op de pagina <strong>CODA-parameters **(</strong>CODA** &gt; <strong>Fouten wissen</strong>).</span><span class="sxs-lookup"><span data-stu-id="46783-129">If there are any transactions with errors (generally, if there are no rules set up), these can be referred to the special ledger account, specified on the <strong>CODA parameters **page (</strong>CODA** &gt; <strong>Clear errors</strong>).</span></span>
+4. <span data-ttu-id="46783-130">Nadat alle transacties in het bankafschrift zijn vereffend, kunnen ze worden overgeboekt naar het grootboekjournaal (<strong>CODA</strong> &gt; <strong>Overboeken naar grootboek</strong>).</span><span class="sxs-lookup"><span data-stu-id="46783-130">After all transactions in the bank statement are settled, they are ready to be transferred to the general ledger journal (<strong>CODA</strong> &gt;<strong>Transfer to ledger</strong>).</span></span> <span data-ttu-id="46783-131">Voor de bankrekening moeten journaalinstellingen worden opgegeven.</span><span class="sxs-lookup"><span data-stu-id="46783-131">Journal settings should be specified for the bank account.</span></span> <span data-ttu-id="46783-132">Journalen kunnen worden geopend op de pagina <strong>Bankrekeningen\*\* voor de geselecteerde record door te klikken op \*\*Instellen</strong> &gt; <strong>CODA-journaal</strong>.</span><span class="sxs-lookup"><span data-stu-id="46783-132">Journals can be opened on the <strong>Bank accounts \*\*page for the selected record by clicking \*\*Set up</strong> &gt; <strong>CODA journal</strong>.</span></span>
+
+<span data-ttu-id="46783-133">Nadat bankafschrifttransacties zijn verwerkt, wordt een nieuw grootboekjournaal gemaakt en is deze gereed voor boeking.</span><span class="sxs-lookup"><span data-stu-id="46783-133">After processing bank statement transactions is complete, a new general ledger journal is created and ready for posting.</span></span>
+
+
+
