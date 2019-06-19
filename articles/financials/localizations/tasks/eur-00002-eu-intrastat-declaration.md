@@ -1,267 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="eur-00002-eu-intrastat-declaration.md" target-language="nl-NL">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>eur-00002-eu-intrastat-declaration.f3e0e2.1236f27a3a5c208ffec41374a6593d1f0e7c4433.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>1236f27a3a5c208ffec41374a6593d1f0e7c4433</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00002-eu-intrastat-declaration.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>EUR-00002 Generate an EU Intrastat declaration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00002 Een EU Intrastat-aangifte genereren</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure begeleidt u bij de stappen die nodig zijn om de Intrastat-aangifte in de elektronische bestandsindeling te exporteren en een voorbeeld te bekijken van de aangiftegegevens in een Excel-indeling.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>EUR-00002 Generate an EU Intrastat declaration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00002 Een EU Intrastat-aangifte genereren</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure begeleidt u bij de stappen die nodig zijn om de Intrastat-aangifte in de elektronische bestandsindeling te exporteren en een voorbeeld te bekijken van de aangiftegegevens in een Excel-indeling.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Before you can complete this procedure, you must transfer transactions to the Intrastat.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voordat u deze procedure kunt uitvoeren, moet u transacties overboeken naar Intrastat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This procedure was created using the demo data company DEMF.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure is gemaakt met het demobedrijf DEMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Import configurations with settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuraties met instellingen importeren</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Go to Workspaces &gt; Electronic reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Werkruimten &gt; Elektronische rapportage</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Click Set active.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Instellingen als actief.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Click Repositories.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Opslagplaatsen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Click Open.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Openen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Open Configuration name column filter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Open de kolomfilter Configuratienaam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Apply a filter on the "Configuration name" field, with a value of "Intrastat (DE)", using the "begins with" filter operator.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pas een filter toe op het veld "Configuratienaam" met de waarde "Intrastat (DE)" met behulp van de filteroperator ´begint met´.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>You should select the configuration name applicable for the country of your legal entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U moet de configuratienaam selecteren die van toepassing is voor het land van uw rechtspersoon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>This procedure uses the German legal entity (DEMF) as an example, therefore "Intrastat (DE)" should be chosen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In deze procedure wordt de Duitse rechtspersoon (DEMF) als voorbeeld gebruikt. Daarom moet "Intrastat (DE") worden gekozen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Click Import and then click Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Importeren en klik vervolgens op Ja.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Open Configuration name column filter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Open de kolomfilter Configuratienaam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Apply a filter on the "Configuration name" field, with a value of "intrastat report", using the "begins with" filter operator.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pas een filter toe op het veld "Configuratienaam" met de waarde "Intrastat-rapport" met behulp van de filteroperator ´begint met´.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Click Import and then click Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Importeren en klik vervolgens op Ja.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Set up Foreign trade parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parameters voor buitenlandse handel instellen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Go to Tax &gt; Setup &gt; Foreign trade &gt; Foreign trade parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Belasting &gt; Instellingen &gt; Buitenlandse handel &gt; Parameters buitenlandse handel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Expand the Electronic reporting section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Elektronische rapportage uit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>In the File format mapping field, enter or select a value Intrastat (DE)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde voor Intrastat (DE) in het veld Bestandsindelingstoewijzing.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Report format mapping field, enter or select a value Intrastat report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde voor Intrastat-rapport in het veld Rapportindelingstoewijzing.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Expand the Rounding rules section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Afrondingsregels uit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>You should set up rounding rules that are applicable in your country/region for Intrastat reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U moet de afrondingsregels instellen die van toepassing zijn in uw land/regio voor Intrastat-rapportage.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the Rounding rule field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een nummer in het veld Afrondingsregel in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Enter rounding precision, for example, enter '0.01'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer de afrondingsprecisie in. Voer bijvoorbeeld '0,01' in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the Number of decimals for amount field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een getal in het veld Aantal decimalen voor bedrag in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>For example, enter '2'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld 2 in:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>In the Rounding below 1 kg field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een optie in het veld Afronding onder 1 kg.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>For example, select 'Rounding up to 1 kg'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld Afronden naar 1 kg.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In the Rounding rule field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een nummer in het veld Afrondingsregel in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>For example, enter '1' for rounding weight to the integer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld '1' in voor afrondinggewicht op het gehele getal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Expand the Minimum limit section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Ondergrens uit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>In the Weight field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een getal in het veld Gewicht in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>For example, enter '10' as the minimum weight.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld '10' als het minimumgewicht in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>In the Amount field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ een getal in het veld Bedrag.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>For example, enter '200' as the minimum amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld '200' als het minimumbedrag in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>In the Commodity field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Basisproduct.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Set up Compression of Intrastat</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Compressie van Intrastat instellen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Go to Tax &gt; Setup &gt; Foreign trade &gt; Compression of Intrastat.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Belasting &gt; Instellingen &gt; Buitenlandse handel &gt; Compressie van Intrastat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Click Remove.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Verwijderen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>In the list, find and select the desired record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zoek en selecteer de gewenste record in de lijst.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>For example, select Commodity in the Available section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld Basisproduct in de sectie Beschikbaar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Click Add.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Toevoegen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Generate Intrastat declaration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Intrastat-aangifte genereren</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Go to Tax &gt; Declarations &gt; Foreign trade &gt; Intrastat</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Belasting &gt; Aangiften &gt; Buitenlandse handel &gt; Intrastat</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Click Validate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Valideren.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>The validation is done according to the Check setup field on the Foreign trade parameters page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De validatie wordt uitgevoerd op basis van het veld Instelling controleren op de pagina Parameters buitenlandse handel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Click Update.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Bijwerken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Click Minimum limit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Ondergrens.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>In the Start date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een datum in het veld Startdatum in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>For example, enter January 1, 2015.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld 1 januari 2015 in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Select Yes in the Compress field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Comprimeren.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>In the End date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een datum in het veld Einddatum in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>For example, enter January 31, 2015.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld 31 januari 2015 in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Click Update.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Bijwerken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Click Compress.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Comprimeren.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>This compression happens according to how you set the Compression of intrastate settings.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze compressie vindt plaats volgens uw instellingen bij de Compressie van Intrastat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>In the Start date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een datum in het veld Startdatum in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>For example, enter January 1, 2015.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld 1 januari 2015 in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>In the End date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een datum in het veld Einddatum in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>For example, enter 31st January 2015.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld 31 januari 2015 in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Click Update.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Bijwerken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Click Regenerate sequence numbers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Volgnummers opnieuw genereren.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Click Output.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Uitvoer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Click Report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Rapport.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>In the From date field, enter the first date of the reporting period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer in het veld Vanaf de eerste datum van de aangifteperiode in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>For example, set the date to January 1, 2015.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stel de datum bijvoorbeeld op 1 januari 2015 in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>In the To date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer een datum in het veld Einddatum in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>For example, enter January 31, 2015.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voer bijvoorbeeld 31 januari 2015 in.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Select Yes in the Generate file field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Bestand maken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>In the File name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ een waarde in het veld Bestandsnaam.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Select Yes in the Generate report field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Rapport maken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>In the Report file name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ een waarde in het veld Bestandsnaam van rapport.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>In the Direction field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een optie in het veld Richting.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>For example, select 'Dispatches'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer bijvoorbeeld 'Verzendingen'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: EUR-00002 Een EU Intrastat-aangifte genereren
+description: Deze procedure begeleidt u bij de stappen die nodig zijn om de Intrastat-aangifte in de elektronische bestandsindeling te exporteren en een voorbeeld te bekijken van de aangiftegegevens in een Excel-indeling.
+author: Anasyash
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: anasyash
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1236f27a3a5c208ffec41374a6593d1f0e7c4433
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566785"
+---
+# <a name="eur-00002-generate-an-eu-intrastat-declaration"></a><span data-ttu-id="93503-103">EUR-00002 Een EU Intrastat-aangifte genereren</span><span class="sxs-lookup"><span data-stu-id="93503-103">EUR-00002 Generate an EU Intrastat declaration</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="93503-104">Deze procedure begeleidt u bij de stappen die nodig zijn om de Intrastat-aangifte in de elektronische bestandsindeling te exporteren en een voorbeeld te bekijken van de aangiftegegevens in een Excel-indeling.</span><span class="sxs-lookup"><span data-stu-id="93503-104">This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</span></span> 
+
+<span data-ttu-id="93503-105">Voordat u deze procedure kunt uitvoeren, moet u transacties overboeken naar Intrastat.</span><span class="sxs-lookup"><span data-stu-id="93503-105">Before you can complete this procedure, you must transfer transactions to the Intrastat.</span></span> 
+
+<span data-ttu-id="93503-106">Deze procedure is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="93503-106">This procedure was created using the demo data company DEMF.</span></span>
+
+
+## <a name="import-configurations-with-settings"></a><span data-ttu-id="93503-107">Configuraties met instellingen importeren</span><span class="sxs-lookup"><span data-stu-id="93503-107">Import configurations with settings</span></span>
+1. <span data-ttu-id="93503-108">Ga naar Werkruimten > Elektronische rapportage</span><span class="sxs-lookup"><span data-stu-id="93503-108">Go to Workspaces > Electronic reporting</span></span>
+2. <span data-ttu-id="93503-109">Klik op Instellingen als actief.</span><span class="sxs-lookup"><span data-stu-id="93503-109">Click Set active.</span></span>
+3. <span data-ttu-id="93503-110">Klik op Opslagplaatsen.</span><span class="sxs-lookup"><span data-stu-id="93503-110">Click Repositories.</span></span>
+4. <span data-ttu-id="93503-111">Klik op Openen.</span><span class="sxs-lookup"><span data-stu-id="93503-111">Click Open.</span></span>
+5. <span data-ttu-id="93503-112">Open de kolomfilter Configuratienaam.</span><span class="sxs-lookup"><span data-stu-id="93503-112">Open Configuration name column filter.</span></span>
+6. <span data-ttu-id="93503-113">Pas een filter toe op het veld "Configuratienaam" met de waarde "Intrastat (DE)" met behulp van de filteroperator ´begint met´.</span><span class="sxs-lookup"><span data-stu-id="93503-113">Apply a filter on the "Configuration name" field, with a value of "Intrastat (DE)", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="93503-114">U moet de configuratienaam selecteren die van toepassing is voor het land van uw rechtspersoon.</span><span class="sxs-lookup"><span data-stu-id="93503-114">You should select the configuration name applicable for the country of your legal entity.</span></span> <span data-ttu-id="93503-115">In deze procedure wordt de Duitse rechtspersoon (DEMF) als voorbeeld gebruikt. Daarom moet "Intrastat (DE") worden gekozen.</span><span class="sxs-lookup"><span data-stu-id="93503-115">This procedure uses the German legal entity (DEMF) as an example, therefore "Intrastat (DE)" should be chosen.</span></span>  
+    * <span data-ttu-id="93503-116">Klik op Importeren en klik vervolgens op Ja.</span><span class="sxs-lookup"><span data-stu-id="93503-116">Click Import and then click Yes.</span></span>  
+7. <span data-ttu-id="93503-117">Open de kolomfilter Configuratienaam.</span><span class="sxs-lookup"><span data-stu-id="93503-117">Open Configuration name column filter.</span></span>
+8. <span data-ttu-id="93503-118">Pas een filter toe op het veld "Configuratienaam" met de waarde "Intrastat-rapport" met behulp van de filteroperator ´begint met´.</span><span class="sxs-lookup"><span data-stu-id="93503-118">Apply a filter on the "Configuration name" field, with a value of "intrastat report", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="93503-119">Klik op Importeren en klik vervolgens op Ja.</span><span class="sxs-lookup"><span data-stu-id="93503-119">Click Import and then click Yes.</span></span>  
+
+## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="93503-120">Parameters voor buitenlandse handel instellen</span><span class="sxs-lookup"><span data-stu-id="93503-120">Set up Foreign trade parameters</span></span>
+1. <span data-ttu-id="93503-121">Ga naar Belasting > Instellingen > Buitenlandse handel > Parameters buitenlandse handel</span><span class="sxs-lookup"><span data-stu-id="93503-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
+2. <span data-ttu-id="93503-122">Vouw de sectie Elektronische rapportage uit.</span><span class="sxs-lookup"><span data-stu-id="93503-122">Expand the Electronic reporting section.</span></span>
+3. <span data-ttu-id="93503-123">Typ of selecteer een waarde voor Intrastat (DE) in het veld Bestandsindelingstoewijzing.</span><span class="sxs-lookup"><span data-stu-id="93503-123">In the File format mapping field, enter or select a value Intrastat (DE)</span></span>
+4. <span data-ttu-id="93503-124">Typ of selecteer een waarde voor Intrastat-rapport in het veld Rapportindelingstoewijzing.</span><span class="sxs-lookup"><span data-stu-id="93503-124">In the Report format mapping field, enter or select a value Intrastat report</span></span>
+5. <span data-ttu-id="93503-125">Vouw de sectie Afrondingsregels uit.</span><span class="sxs-lookup"><span data-stu-id="93503-125">Expand the Rounding rules section.</span></span>
+    * <span data-ttu-id="93503-126">U moet de afrondingsregels instellen die van toepassing zijn in uw land/regio voor Intrastat-rapportage.</span><span class="sxs-lookup"><span data-stu-id="93503-126">You should set up rounding rules that are applicable in your country/region for Intrastat reporting.</span></span>  
+6. <span data-ttu-id="93503-127">Voer een nummer in het veld Afrondingsregel in.</span><span class="sxs-lookup"><span data-stu-id="93503-127">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="93503-128">Voer de afrondingsprecisie in. Voer bijvoorbeeld '0,01' in.</span><span class="sxs-lookup"><span data-stu-id="93503-128">Enter rounding precision, for example, enter '0.01'.</span></span>  
+7. <span data-ttu-id="93503-129">Voer een getal in het veld Aantal decimalen voor bedrag in.</span><span class="sxs-lookup"><span data-stu-id="93503-129">In the Number of decimals for amount field, enter a number.</span></span>
+    * <span data-ttu-id="93503-130">Voer bijvoorbeeld 2 in:</span><span class="sxs-lookup"><span data-stu-id="93503-130">For example, enter '2'.</span></span>  
+8. <span data-ttu-id="93503-131">Selecteer een optie in het veld Afronding onder 1 kg.</span><span class="sxs-lookup"><span data-stu-id="93503-131">In the Rounding below 1 kg field, select an option.</span></span>
+    * <span data-ttu-id="93503-132">Selecteer bijvoorbeeld Afronden naar 1 kg.</span><span class="sxs-lookup"><span data-stu-id="93503-132">For example, select 'Rounding up to 1 kg'.</span></span>  
+9. <span data-ttu-id="93503-133">Voer een nummer in het veld Afrondingsregel in.</span><span class="sxs-lookup"><span data-stu-id="93503-133">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="93503-134">Voer bijvoorbeeld '1' in voor afrondinggewicht op het gehele getal.</span><span class="sxs-lookup"><span data-stu-id="93503-134">For example, enter '1' for rounding weight to the integer.</span></span>  
+10. <span data-ttu-id="93503-135">Vouw de sectie Ondergrens uit.</span><span class="sxs-lookup"><span data-stu-id="93503-135">Expand the Minimum limit section.</span></span>
+11. <span data-ttu-id="93503-136">Voer een getal in het veld Gewicht in.</span><span class="sxs-lookup"><span data-stu-id="93503-136">In the Weight field, enter a number.</span></span>
+    * <span data-ttu-id="93503-137">Voer bijvoorbeeld '10' als het minimumgewicht in.</span><span class="sxs-lookup"><span data-stu-id="93503-137">For example, enter '10' as the minimum weight.</span></span>  
+12. <span data-ttu-id="93503-138">Typ een getal in het veld Bedrag.</span><span class="sxs-lookup"><span data-stu-id="93503-138">In the Amount field, enter a number.</span></span>
+    * <span data-ttu-id="93503-139">Voer bijvoorbeeld '200' als het minimumbedrag in.</span><span class="sxs-lookup"><span data-stu-id="93503-139">For example, enter '200' as the minimum amount.</span></span>  
+13. <span data-ttu-id="93503-140">Typ of selecteer een waarde in het veld Basisproduct.</span><span class="sxs-lookup"><span data-stu-id="93503-140">In the Commodity field, enter or select a value.</span></span>
+
+## <a name="set-up-compression-of-intrastat"></a><span data-ttu-id="93503-141">Compressie van Intrastat instellen</span><span class="sxs-lookup"><span data-stu-id="93503-141">Set up Compression of Intrastat</span></span>
+1. <span data-ttu-id="93503-142">Ga naar Belasting > Instellingen > Buitenlandse handel > Compressie van Intrastat.</span><span class="sxs-lookup"><span data-stu-id="93503-142">Go to Tax > Setup > Foreign trade > Compression of Intrastat.</span></span>
+2. <span data-ttu-id="93503-143">Klik op Verwijderen.</span><span class="sxs-lookup"><span data-stu-id="93503-143">Click Remove.</span></span>
+3. <span data-ttu-id="93503-144">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="93503-144">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="93503-145">Selecteer bijvoorbeeld Basisproduct in de sectie Beschikbaar.</span><span class="sxs-lookup"><span data-stu-id="93503-145">For example, select Commodity in the Available section.</span></span>  
+4. <span data-ttu-id="93503-146">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="93503-146">Click Add.</span></span>
+
+## <a name="generate-intrastat-declaration"></a><span data-ttu-id="93503-147">Intrastat-aangifte genereren</span><span class="sxs-lookup"><span data-stu-id="93503-147">Generate Intrastat declaration</span></span>
+1. <span data-ttu-id="93503-148">Ga naar Belasting > Aangiften > Buitenlandse handel > Intrastat</span><span class="sxs-lookup"><span data-stu-id="93503-148">Go to Tax > Declarations > Foreign trade > Intrastat</span></span>
+2. <span data-ttu-id="93503-149">Klik op Valideren.</span><span class="sxs-lookup"><span data-stu-id="93503-149">Click Validate.</span></span>
+    * <span data-ttu-id="93503-150">De validatie wordt uitgevoerd op basis van het veld Instelling controleren op de pagina Parameters buitenlandse handel.</span><span class="sxs-lookup"><span data-stu-id="93503-150">The validation is done according to the Check setup field on the Foreign trade parameters page.</span></span>  
+3. <span data-ttu-id="93503-151">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="93503-151">Click OK.</span></span>
+4. <span data-ttu-id="93503-152">Klik op Bijwerken.</span><span class="sxs-lookup"><span data-stu-id="93503-152">Click Update.</span></span>
+5. <span data-ttu-id="93503-153">Klik op Ondergrens.</span><span class="sxs-lookup"><span data-stu-id="93503-153">Click Minimum limit.</span></span>
+6. <span data-ttu-id="93503-154">Voer een datum in het veld Startdatum in.</span><span class="sxs-lookup"><span data-stu-id="93503-154">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="93503-155">Voer bijvoorbeeld 1 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="93503-155">For example, enter January 1, 2015.</span></span>  
+7. <span data-ttu-id="93503-156">Selecteer Ja in het veld Comprimeren.</span><span class="sxs-lookup"><span data-stu-id="93503-156">Select Yes in the Compress field.</span></span>
+8. <span data-ttu-id="93503-157">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="93503-157">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="93503-158">Voer bijvoorbeeld 31 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="93503-158">For example, enter January 31, 2015.</span></span>  
+9. <span data-ttu-id="93503-159">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="93503-159">Click OK.</span></span>
+10. <span data-ttu-id="93503-160">Klik op Bijwerken.</span><span class="sxs-lookup"><span data-stu-id="93503-160">Click Update.</span></span>
+11. <span data-ttu-id="93503-161">Klik op Comprimeren.</span><span class="sxs-lookup"><span data-stu-id="93503-161">Click Compress.</span></span>
+    * <span data-ttu-id="93503-162">Deze compressie vindt plaats volgens uw instellingen bij de Compressie van Intrastat.</span><span class="sxs-lookup"><span data-stu-id="93503-162">This compression happens according to how you set the Compression of intrastate settings.</span></span>  
+12. <span data-ttu-id="93503-163">Voer een datum in het veld Startdatum in.</span><span class="sxs-lookup"><span data-stu-id="93503-163">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="93503-164">Voer bijvoorbeeld 1 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="93503-164">For example, enter January 1, 2015.</span></span>  
+13. <span data-ttu-id="93503-165">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="93503-165">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="93503-166">Voer bijvoorbeeld 31 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="93503-166">For example, enter 31st January 2015.</span></span>  
+14. <span data-ttu-id="93503-167">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="93503-167">Click OK.</span></span>
+15. <span data-ttu-id="93503-168">Klik op Bijwerken.</span><span class="sxs-lookup"><span data-stu-id="93503-168">Click Update.</span></span>
+16. <span data-ttu-id="93503-169">Klik op Volgnummers opnieuw genereren.</span><span class="sxs-lookup"><span data-stu-id="93503-169">Click Regenerate sequence numbers.</span></span>
+17. <span data-ttu-id="93503-170">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="93503-170">Click OK.</span></span>
+18. <span data-ttu-id="93503-171">Klik op Uitvoer.</span><span class="sxs-lookup"><span data-stu-id="93503-171">Click Output.</span></span>
+19. <span data-ttu-id="93503-172">Klik op Rapport.</span><span class="sxs-lookup"><span data-stu-id="93503-172">Click Report.</span></span>
+20. <span data-ttu-id="93503-173">Voer in het veld Vanaf de eerste datum van de aangifteperiode in.</span><span class="sxs-lookup"><span data-stu-id="93503-173">In the From date field, enter the first date of the reporting period.</span></span>
+    * <span data-ttu-id="93503-174">Stel de datum bijvoorbeeld op 1 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="93503-174">For example, set the date to January 1, 2015.</span></span>  
+21. <span data-ttu-id="93503-175">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="93503-175">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="93503-176">Voer bijvoorbeeld 31 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="93503-176">For example, enter January 31, 2015.</span></span>  
+22. <span data-ttu-id="93503-177">Selecteer Ja in het veld Bestand maken.</span><span class="sxs-lookup"><span data-stu-id="93503-177">Select Yes in the Generate file field.</span></span>
+23. <span data-ttu-id="93503-178">Typ een waarde in het veld Bestandsnaam.</span><span class="sxs-lookup"><span data-stu-id="93503-178">In the File name field, type a value.</span></span>
+24. <span data-ttu-id="93503-179">Selecteer Ja in het veld Rapport maken.</span><span class="sxs-lookup"><span data-stu-id="93503-179">Select Yes in the Generate report field.</span></span>
+25. <span data-ttu-id="93503-180">Typ een waarde in het veld Bestandsnaam van rapport.</span><span class="sxs-lookup"><span data-stu-id="93503-180">In the Report file name field, type a value.</span></span>
+26. <span data-ttu-id="93503-181">Selecteer een optie in het veld Richting.</span><span class="sxs-lookup"><span data-stu-id="93503-181">In the Direction field, select an option.</span></span>
+    * <span data-ttu-id="93503-182">Selecteer bijvoorbeeld 'Verzendingen'.</span><span class="sxs-lookup"><span data-stu-id="93503-182">For example, select 'Dispatches'.</span></span>  
+27. <span data-ttu-id="93503-183">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="93503-183">Click OK.</span></span>
+

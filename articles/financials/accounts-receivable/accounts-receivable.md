@@ -1,180 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="accounts-receivable.md" target-language="nl-NL">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>accounts-receivable.e489a4.98ec7d9a57cc39c22a31c025754c83dc1a95139e.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>98ec7d9a57cc39c22a31c025754c83dc1a95139e</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\accounts-receivable\accounts-receivable.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Accounts receivable home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Startpagina Klanten</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Use Accounts receivable to track customer invoices and incoming payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Met Klanten kunt u klantfacturen en binnenkomende betalingen bijhouden.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Accounts receivable home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Startpagina Klanten</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Use Accounts receivable to track customer invoices and incoming payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Met Klanten kunt u klantfacturen en binnenkomende betalingen bijhouden.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>You can create customer invoices that are based on sales orders or packing slips.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt klantfacturen maken die zijn gebaseerd op verkooporders of pakbonnen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>You can also enter free text invoices that are not related to sales orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt ook vrije-tekstfacturen invoeren, die niet aan verkooporders zijn gekoppeld.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>You can receive payments by using several different payment types.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt betalingen ontvangen met behulp van verschillende betalingstypen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>These include bills of exchange, cash, checks, credit cards, and electronic payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voorbeelden van betalingstypen zijn wissels, contanten, cheques, creditcards en elektronische betalingen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>If your organization includes multiple legal entities, you can use centralized payments to record payments in a single legal entity on behalf of the other legal entities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Als uw organisatie meerdere rechtspersonen omvat, kunt u gecentraliseerde betalingen gebruiken om betalingen in één rechtspersoon te registreren namens de andere rechtspersonen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source><bpt id="p1">**</bpt>Business processes<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Bedrijfsprocessen<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Business process<ept id="p1">](./media/AR-process.PNG)](./media/AR-process.PNG)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Bedrijfsproces<ept id="p1">](./media/AR-process.PNG)](./media/AR-process.PNG)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Set up Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klanten instellen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Use Accounts receivable to track customer invoices and payments that you receive from customers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gebruik Klanten om alle klantfacturen en binnenkomende betalingen van klanten bij te houden.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>You can set up customer groups, customers, posting profiles, interest notes, collection letters, commissions, and parameters regarding customers, charges, deliveries and destinations, bills of exchange, and other types of Accounts receivable information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt klantgroepen, klanten, boekingsprofielen, rentenota's, aanmaningen, provisies en parameters voor klanten, toeslagen, leveringen en bestemmingen, wissels en andere typen gegevens voor Klanten instellen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">[</bpt>Accounting distributions and subledger journal entries for free text invoices<ept id="p1">](accounting-distributions-subledger-journal-entries-free-text-invoices.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Boekhoudingsverdelingen en journaalposten in de subadministratie voor vrije-tekstfacturen<ept id="p1">](accounting-distributions-subledger-journal-entries-free-text-invoices.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source><bpt id="p1">[</bpt>Customer posting profiles<ept id="p1">](customer-posting-profiles.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Boekingsprofielen van klant<ept id="p1">](customer-posting-profiles.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source><bpt id="p1">[</bpt>Credit card setup, authorization, and capture<ept id="p1">](credit-card-authorizations.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Instelling, autorisatie en registratie van creditcards<ept id="p1">](credit-card-authorizations.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source><bpt id="p1">[</bpt>Create a customer invoice<ept id="p1">](configure-customer-invoices.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een klantfactuur maken<ept id="p1">](configure-customer-invoices.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>Set up and process recurring invoices<ept id="p1">](set-up-process-recurring-invoices.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Terugkerende facturen instellen en verwerken<ept id="p1">](set-up-process-recurring-invoices.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">[</bpt>Correct a free text invoice<ept id="p1">](correct-free-text-invoice.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een vrije-tekstfactuur corrigeren<ept id="p1">](correct-free-text-invoice.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">[</bpt>Set up bills of exchange<ept id="p1">](set-up-bills-exchange.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Wissels instellen<ept id="p1">](set-up-bills-exchange.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><bpt id="p1">[</bpt>Set up interest rates for an interest code<ept id="p1">](set-up-interest-rates-interest-code.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Rentepercentages instellen voor een rentecode<ept id="p1">](set-up-interest-rates-interest-code.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source><bpt id="p1">[</bpt>Waive, reinstate, or reverse interest fees<ept id="p1">](waive-reinstate-reverse-interest-fees.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Bijzondere kosten voor rente kwijtschelden, opnieuw invoeren of omkeren<ept id="p1">](waive-reinstate-reverse-interest-fees.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">[</bpt>SEPA direct debit overview<ept id="p1">](sepa-direct-debit-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Overzicht SEPA-incasso<ept id="p1">](sepa-direct-debit-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source><bpt id="p1">[</bpt>Set up SEPA direct debit mandate<ept id="p1">](sepa-direct-debit-mandate.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Mandaag voor automatische afschrijving instellen voor SEPA<ept id="p1">](sepa-direct-debit-mandate.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source><bpt id="p1">[</bpt>Close Accounts receivable<ept id="p1">](close-accounts-receivable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Klanten sluiten<ept id="p1">](close-accounts-receivable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Set up credit and collections</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crediteringen en aanmaningen instellen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Accounts receivable collections information is managed in one central view, the Collections page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Aanmaningen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Credit and collections managers can use this central view to manage collections.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Collections agents can begin the collections process from customer lists that are generated by using predefined collection criteria, or from the Customers page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit de pagina Klanten.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source><bpt id="p1">[</bpt>Credit and collections in Accounts receivable<ept id="p1">](collections-credit-accounts-receivable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Crediteringen en aanmaningen in Klanten<ept id="p1">](collections-credit-accounts-receivable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source><bpt id="p1">[</bpt>Configure Accounts receivables and Credit and collections<ept id="p1">](accounts-receivables-set-up-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Klanten en crediteringen en aanmaningen configureren<ept id="p1">](accounts-receivables-set-up-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">[</bpt>Set up Credit and collections<ept id="p1">](set-up-collections.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Crediteringen en aanmaningen instellen<ept id="p1">](set-up-collections.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Set up payments and settlements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Betalingen en vereffeningen instellen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Accept different types of payments from customers, such as bills of exchange, cash, checks, credit cards, and electronic payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accepteer verschillende betalingstypen van klanten, zoals wissels, contant geld, cheques, creditcards en elektronische betalingen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source><bpt id="p1">[</bpt>Use a customer payment to settle multiple invoices that span multiple discount periods<ept id="p1">](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten<ept id="p1">](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source><bpt id="p1">[</bpt>Centralized payments for Accounts receivable<ept id="p1">](centralized-payments-accounts-receivable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gecentraliseerde betalingen voor Klanten<ept id="p1">](centralized-payments-accounts-receivable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source><bpt id="p1">[</bpt>Settle a partial customer payment and the final payment in full before the discount date<ept id="p1">](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een gedeeltelijke klantbetaling en de definitieve betaling volledig vereffenen vóór de kortingsdatum<ept id="p1">](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source><bpt id="p1">[</bpt>Settle a partial customer payment before the discount date with a final payment after the discount date<ept id="p1">](settle-partial-customer-payment-before-discount-or-final-payment-after.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum<ept id="p1">](settle-partial-customer-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source><bpt id="p1">[</bpt>Settle a partial customer payment that has discounts on credit notes<ept id="p1">](settle-partial-customer-payment-discounts-credit-notes.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een gedeeltelijke klantbetaling vereffenen met kortingen op creditnota's<ept id="p1">](settle-partial-customer-payment-discounts-credit-notes.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source><bpt id="p1">[</bpt>Settle a partial customer payment that has multiple discount periods<ept id="p1">](settle-partial-customer-payment-multiple-discount-periods.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Een gedeeltelijke klantbetaling met meerdere kortingsperioden vereffenen<ept id="p1">](settle-partial-customer-payment-multiple-discount-periods.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source><bpt id="p1">[</bpt>Reimburse customers<ept id="p1">](reimburse-customers.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Klanten terugbetalen<ept id="p1">](reimburse-customers.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source><bpt id="p1">[</bpt>Customer payments for a partial amount<ept id="p1">](customer-payments-partial-amount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Klantbetalingen voor een gedeeltelijk bedrag<ept id="p1">](customer-payments-partial-amount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aanvullende resources</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>What's new and in development</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Wat is nieuw en in ontwikkeling</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Go to the <bpt id="p1">[</bpt>Microsoft Dynamics 365 Roadmap<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> to see what new features are planned.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar de <bpt id="p1">[</bpt>Microsoft Dynamics 365-roadmap<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> om te zien welke nieuwe functies er zijn gepland.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Blogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Weblogs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>You can find opinions, news, and other information about Accounts receivable and other solutions on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> and the <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials blog<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt adviezen, nieuws en andere informatie over Klanten en andere oplossingen vinden in de <bpt id="p1">[</bpt>blog over Microsoft Dynamics 365<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> en de <bpt id="p2">[</bpt>blog over Microsoft Dynamics 365 Finance and Operations - Financials<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>The <bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De <bpt id="p1">[</bpt>Microsoft Dynamics Operations-blog van de partnercommunity<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Taakbegeleidingen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Additional help is available as task guides inside Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Extra informatie is beschikbaar als taakbegeleidingen binnen Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>To access task guides, click the Help button on any page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Videos</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Video's</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Check out the how-to videos that are now available on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube Channel<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bekijk de procedurevideo's die nu beschikbaar zijn op het <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube-kanaal<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Startpagina Klanten
+description: Met Klanten kunt u klantfacturen en binnenkomende betalingen bijhouden.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/18/2017
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CustomerInvoiceWorkspace
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 20671
+ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 98ec7d9a57cc39c22a31c025754c83dc1a95139e
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547251"
+---
+# <a name="accounts-receivable-home-page"></a><span data-ttu-id="caf89-103">Startpagina Klanten</span><span class="sxs-lookup"><span data-stu-id="caf89-103">Accounts receivable home page</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="caf89-104">Met Klanten kunt u klantfacturen en binnenkomende betalingen bijhouden.</span><span class="sxs-lookup"><span data-stu-id="caf89-104">Use Accounts receivable to track customer invoices and incoming payments.</span></span> 
+
+<span data-ttu-id="caf89-105">U kunt klantfacturen maken die zijn gebaseerd op verkooporders of pakbonnen.</span><span class="sxs-lookup"><span data-stu-id="caf89-105">You can create customer invoices that are based on sales orders or packing slips.</span></span> <span data-ttu-id="caf89-106">U kunt ook vrije-tekstfacturen invoeren, die niet aan verkooporders zijn gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="caf89-106">You can also enter free text invoices that are not related to sales orders.</span></span> <span data-ttu-id="caf89-107">U kunt betalingen ontvangen met behulp van verschillende betalingstypen.</span><span class="sxs-lookup"><span data-stu-id="caf89-107">You can receive payments by using several different payment types.</span></span> <span data-ttu-id="caf89-108">Voorbeelden van betalingstypen zijn wissels, contanten, cheques, creditcards en elektronische betalingen.</span><span class="sxs-lookup"><span data-stu-id="caf89-108">These include bills of exchange, cash, checks, credit cards, and electronic payments.</span></span> <span data-ttu-id="caf89-109">Als uw organisatie meerdere rechtspersonen omvat, kunt u gecentraliseerde betalingen gebruiken om betalingen in één rechtspersoon te registreren namens de andere rechtspersonen.</span><span class="sxs-lookup"><span data-stu-id="caf89-109">If your organization includes multiple legal entities, you can use centralized payments to record payments in a single legal entity on behalf of the other legal entities.</span></span>
+
+
+<span data-ttu-id="caf89-110">**Bedrijfsprocessen**</span><span class="sxs-lookup"><span data-stu-id="caf89-110">**Business processes**</span></span>
+
+<span data-ttu-id="caf89-111">[![Bedrijfsproces](./media/AR-process.PNG)](./media/AR-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="caf89-111">[![Business process](./media/AR-process.PNG)](./media/AR-process.PNG)</span></span>
+
+## <a name="set-up-accounts-receivable"></a><span data-ttu-id="caf89-112">Klanten instellen</span><span class="sxs-lookup"><span data-stu-id="caf89-112">Set up Accounts receivable</span></span>
+
+<span data-ttu-id="caf89-113">Gebruik Klanten om alle klantfacturen en binnenkomende betalingen van klanten bij te houden.</span><span class="sxs-lookup"><span data-stu-id="caf89-113">Use Accounts receivable to track customer invoices and payments that you receive from customers.</span></span> <span data-ttu-id="caf89-114">U kunt klantgroepen, klanten, boekingsprofielen, rentenota's, aanmaningen, provisies en parameters voor klanten, toeslagen, leveringen en bestemmingen, wissels en andere typen gegevens voor Klanten instellen.</span><span class="sxs-lookup"><span data-stu-id="caf89-114">You can set up customer groups, customers, posting profiles, interest notes, collection letters, commissions, and parameters regarding customers, charges, deliveries and destinations, bills of exchange, and other types of Accounts receivable information.</span></span> 
+
+:::row:::
+    :::column:::
+        - [<span data-ttu-id="caf89-115">Boekhoudingsverdelingen en journaalposten in de subadministratie voor vrije-tekstfacturen</span><span class="sxs-lookup"><span data-stu-id="caf89-115">Accounting distributions and subledger journal entries for free text invoices</span></span>](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [<span data-ttu-id="caf89-116">Boekingsprofielen van klant</span><span class="sxs-lookup"><span data-stu-id="caf89-116">Customer posting profiles</span></span>](customer-posting-profiles.md)
+        - [<span data-ttu-id="caf89-117">Instelling, autorisatie en registratie van creditcards</span><span class="sxs-lookup"><span data-stu-id="caf89-117">Credit card setup, authorization, and capture</span></span>](credit-card-authorizations.md)
+        - [<span data-ttu-id="caf89-118">Een klantfactuur maken</span><span class="sxs-lookup"><span data-stu-id="caf89-118">Create a customer invoice</span></span>](configure-customer-invoices.md)
+        - [<span data-ttu-id="caf89-119">Terugkerende facturen instellen en verwerken</span><span class="sxs-lookup"><span data-stu-id="caf89-119">Set up and process recurring invoices</span></span>](set-up-process-recurring-invoices.md)
+        - [<span data-ttu-id="caf89-120">Een vrije-tekstfactuur corrigeren</span><span class="sxs-lookup"><span data-stu-id="caf89-120">Correct a free text invoice</span></span>](correct-free-text-invoice.md)
+    :::column-end:::
+    :::column:::
+        - [<span data-ttu-id="caf89-121">Wissels instellen</span><span class="sxs-lookup"><span data-stu-id="caf89-121">Set up bills of exchange</span></span>](set-up-bills-exchange.md)
+        - [<span data-ttu-id="caf89-122">Rentepercentages instellen voor een rentecode</span><span class="sxs-lookup"><span data-stu-id="caf89-122">Set up interest rates for an interest code</span></span>](set-up-interest-rates-interest-code.md)
+        - [<span data-ttu-id="caf89-123">Bijzondere kosten voor rente kwijtschelden, opnieuw invoeren of omkeren</span><span class="sxs-lookup"><span data-stu-id="caf89-123">Waive, reinstate, or reverse interest fees</span></span>](waive-reinstate-reverse-interest-fees.md)
+        - [<span data-ttu-id="caf89-124">Overzicht SEPA-incasso</span><span class="sxs-lookup"><span data-stu-id="caf89-124">SEPA direct debit overview</span></span>](sepa-direct-debit-overview.md)
+        - [<span data-ttu-id="caf89-125">Mandaag voor automatische afschrijving instellen voor SEPA</span><span class="sxs-lookup"><span data-stu-id="caf89-125">Set up SEPA direct debit mandate</span></span>](sepa-direct-debit-mandate.md)
+        - [<span data-ttu-id="caf89-126">Klanten sluiten</span><span class="sxs-lookup"><span data-stu-id="caf89-126">Close Accounts receivable</span></span>](close-accounts-receivable.md)
+    :::column-end:::
+:::row-end:::
+
+
+## <a name="set-up-credit-and-collections"></a><span data-ttu-id="caf89-127">Crediteringen en aanmaningen instellen</span><span class="sxs-lookup"><span data-stu-id="caf89-127">Set up credit and collections</span></span>
+
+<span data-ttu-id="caf89-128">De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Aanmaningen.</span><span class="sxs-lookup"><span data-stu-id="caf89-128">Accounts receivable collections information is managed in one central view, the Collections page.</span></span> <span data-ttu-id="caf89-129">Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren.</span><span class="sxs-lookup"><span data-stu-id="caf89-129">Credit and collections managers can use this central view to manage collections.</span></span> <span data-ttu-id="caf89-130">Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit de pagina Klanten.</span><span class="sxs-lookup"><span data-stu-id="caf89-130">Collections agents can begin the collections process from customer lists that are generated by using predefined collection criteria, or from the Customers page.</span></span>
+
+[<span data-ttu-id="caf89-131">Crediteringen en aanmaningen in Klanten</span><span class="sxs-lookup"><span data-stu-id="caf89-131">Credit and collections in Accounts receivable</span></span>](collections-credit-accounts-receivable.md)
+
+[<span data-ttu-id="caf89-132">Klanten en crediteringen en aanmaningen configureren</span><span class="sxs-lookup"><span data-stu-id="caf89-132">Configure Accounts receivables and Credit and collections</span></span>](accounts-receivables-set-up-overview.md)
+
+[<span data-ttu-id="caf89-133">Crediteringen en aanmaningen instellen</span><span class="sxs-lookup"><span data-stu-id="caf89-133">Set up Credit and collections</span></span>](set-up-collections.md)
+
+## <a name="set-up-payments-and-settlements"></a><span data-ttu-id="caf89-134">Betalingen en vereffeningen instellen</span><span class="sxs-lookup"><span data-stu-id="caf89-134">Set up payments and settlements</span></span>
+
+<span data-ttu-id="caf89-135">Accepteer verschillende betalingstypen van klanten, zoals wissels, contant geld, cheques, creditcards en elektronische betalingen.</span><span class="sxs-lookup"><span data-stu-id="caf89-135">Accept different types of payments from customers, such as bills of exchange, cash, checks, credit cards, and electronic payments.</span></span> 
+
+:::row:::
+    :::column:::
+        - [<span data-ttu-id="caf89-136">Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten</span><span class="sxs-lookup"><span data-stu-id="caf89-136">Use a customer payment to settle multiple invoices that span multiple discount periods</span></span>](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+        - [<span data-ttu-id="caf89-137">Gecentraliseerde betalingen voor Klanten</span><span class="sxs-lookup"><span data-stu-id="caf89-137">Centralized payments for Accounts receivable</span></span>](centralized-payments-accounts-receivable.md)
+        - [<span data-ttu-id="caf89-138">Een gedeeltelijke klantbetaling en de definitieve betaling volledig vereffenen vóór de kortingsdatum</span><span class="sxs-lookup"><span data-stu-id="caf89-138">Settle a partial customer payment and the final payment in full before the discount date</span></span>](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+        - [<span data-ttu-id="caf89-139">Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum</span><span class="sxs-lookup"><span data-stu-id="caf89-139">Settle a partial customer payment before the discount date with a final payment after the discount date</span></span>](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+    :::column-end:::
+    :::column:::
+        - [<span data-ttu-id="caf89-140">Een gedeeltelijke klantbetaling vereffenen met kortingen op creditnota's</span><span class="sxs-lookup"><span data-stu-id="caf89-140">Settle a partial customer payment that has discounts on credit notes</span></span>](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [<span data-ttu-id="caf89-141">Een gedeeltelijke klantbetaling met meerdere kortingsperioden vereffenen</span><span class="sxs-lookup"><span data-stu-id="caf89-141">Settle a partial customer payment that has multiple discount periods</span></span>](settle-partial-customer-payment-multiple-discount-periods.md)
+        - [<span data-ttu-id="caf89-142">Klanten terugbetalen</span><span class="sxs-lookup"><span data-stu-id="caf89-142">Reimburse customers</span></span>](reimburse-customers.md)
+        - [<span data-ttu-id="caf89-143">Klantbetalingen voor een gedeeltelijk bedrag</span><span class="sxs-lookup"><span data-stu-id="caf89-143">Customer payments for a partial amount</span></span>](customer-payments-partial-amount.md)
+    :::column-end:::
+:::row-end:::
+
+
+### <a name="additional-resources"></a><span data-ttu-id="caf89-144">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="caf89-144">Additional resources</span></span>
+
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="caf89-145">Wat is nieuw en in ontwikkeling</span><span class="sxs-lookup"><span data-stu-id="caf89-145">What's new and in development</span></span>
+
+<span data-ttu-id="caf89-146">Ga naar de [Microsoft Dynamics 365-roadmap](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland.</span><span class="sxs-lookup"><span data-stu-id="caf89-146">Go to the [Microsoft Dynamics 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
+
+#### <a name="blogs"></a><span data-ttu-id="caf89-147">Weblogs</span><span class="sxs-lookup"><span data-stu-id="caf89-147">Blogs</span></span>
+
+<span data-ttu-id="caf89-148">U kunt adviezen, nieuws en andere informatie over Klanten en andere oplossingen vinden in de [blog over Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [blog over Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="caf89-148">You can find opinions, news, and other information about Accounts receivable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+
+<span data-ttu-id="caf89-149">De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.</span><span class="sxs-lookup"><span data-stu-id="caf89-149">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+
+#### <a name="task-guides"></a><span data-ttu-id="caf89-150">Taakbegeleidingen</span><span class="sxs-lookup"><span data-stu-id="caf89-150">Task guides</span></span>
+<span data-ttu-id="caf89-151">Extra informatie is beschikbaar als taakbegeleidingen binnen Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="caf89-151">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="caf89-152">Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.</span><span class="sxs-lookup"><span data-stu-id="caf89-152">To access task guides, click the Help button on any page.</span></span>
+
+#### <a name="videos"></a><span data-ttu-id="caf89-153">Video's</span><span class="sxs-lookup"><span data-stu-id="caf89-153">Videos</span></span>
+
+<span data-ttu-id="caf89-154">Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="caf89-154">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+
+
+
+
+
+
+

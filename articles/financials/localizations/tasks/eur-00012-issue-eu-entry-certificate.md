@@ -1,204 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="eur-00012-issue-eu-entry-certificate.md" target-language="nl-NL">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>eur-00012-issue-eu-entry-certificate.2f67ef.5a566b1d25064e3fccc8953dc883aa63bd16a301.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>5a566b1d25064e3fccc8953dc883aa63bd16a301</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00012-issue-eu-entry-certificate.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>EUR-00012 Issue an EU entry certificate</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00012 Een EU-invoercertificaat uitgeven</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure begeleidt u bij het inschakelen van een EU-invoercertificaat, het configureren van een klantrekening om invoercertificaten te gebruiken en het uitgeven van een certificaat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>EUR-00012 Issue an EU entry certificate</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00012 Een EU-invoercertificaat uitgeven</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure begeleidt u bij het inschakelen van een EU-invoercertificaat, het configureren van een klantrekening om invoercertificaten te gebruiken en het uitgeven van een certificaat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This procedure was created using the demo data company DEMF.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deze procedure is gemaakt met het demobedrijf DEMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Enable entry certificate management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Certificaatbeheer inschakelen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Go to Accounts receivable &gt; Setup &gt; Accounts receivable parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Klanten &gt; Instellingen &gt; Parameters van module Klanten.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Click the Shipments tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op het tabblad Zendingen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Expand the Entry certificate section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Invoercertificaat uit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Select Yes in the Enable entry certificate management field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Certificaatbeheer inschakelen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Select Yes in the Enable entry certificate issuing field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Verstrekken van invoercertificaat inschakelen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Click the Number sequences tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op het tabblad Nummerreeksen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the list, find and select Entry certificate row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Zoek en selecteer de rij van het invoercertificaat in de lijst.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>In the Number sequence code field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Nummerreekscode.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Set up a customer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een klant instellen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Go to Accounts receivable &gt; Customers &gt; All customers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Klanten &gt; Klanten &gt; Alle klanten.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Use the Quick Filter to find records.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gebruik de snelfilter om records te zoeken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>For example, filter on the Account field with a value of 'DE-015'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Filter bijvoorbeeld op het veld Rekening met een waarde van 'DE-015'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Open customer account details.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Open klantrekeninggegevens.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Bewerken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Expand the Invoice and delivery section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Factuur en levering uit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Select Yes in the Entry certificate required field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Invoercertificaat vereist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Select Yes in the Issue entry certificate field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer Ja in het veld Uitgifte van invoercertificaat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Opslaan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Create an EU entry certificate automatically</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Automatisch een EU-invoercertificaat maken</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Go to Accounts receivable &gt; Orders &gt; All sales orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ga naar Klanten &gt; Orders &gt; Alle verkooporders.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Nieuw.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>In the Customer account field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Klantrekening.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>In the Item number field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Typ of selecteer een waarde in het veld Artikelnummer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Opslaan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>On the Action Pane, click Pick and pack.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik in het actievenster op Verzamelen en inpakken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Click Post packing slip.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Pakbon boeken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Expand the Parameters section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vouw de sectie Parameters uit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>In the Quantity field, select 'All'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer in het veld Hoeveelheid de optie 'Alle'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Clear the Issue entry certificate check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Schakel het selectievakje Uitgifte van invoercertificaat uit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>An entry certificate can be issued during packing slip posting or during order invoicing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Een invoercertificaat kan worden uitgegeven tijdens pakbonboeking of orderfacturering.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Leave the Issue entry certificate checkbox unchecked to issue it later.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laat het selectievakje Uitgifte van invoercertificaat uitgeschakeld om het certificaat later uit te geven.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik in het actievenster op Factuur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Factuur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Verify that the Entry certificate required and Issue entry certificate checkboxes in the Overview section are marked.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Controleer of de selectievakjes Invoercertificaat vereist en Uitgifte van invoercertificaat in de sectie Overzicht zijn gemarkeerd.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>You can also select the Print entry certificate check box to allow printing of the certificate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">U kunt ook het selectievakje Invoercertificaat afdrukken inschakelen om afdrukken van het certificaat toe te staan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik in het actievenster op Factuur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Factuur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik in het actievenster op Factuur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Click View issued entry certificates.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Uitgegeven invoercertificaten weergeven.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Click Print.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Afdrukken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sluit de pagina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Click Change status.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Status wijzigen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>In the New status field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecteer een optie in het veld Nieuwe status.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sluit de pagina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Create an EU entry certificate manually</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Handmatig een EU-invoercertificaat maken</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik in het actievenster op Factuur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Click Create entry certificate.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Invoercertificaat maken.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik in het actievenster op Factuur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Click View issued entry certificates.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klik op Uitgegeven invoercertificaten weergeven.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: EUR-00012 Een EU-invoercertificaat uitgeven
+description: Deze procedure begeleidt u bij het inschakelen van een EU-invoercertificaat, het configureren van een klantrekening om invoercertificaten te gebruiken en het uitgeven van een certificaat.
+author: mrolecki
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CustParameters, CustTable, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustEntryCertificateJour_W, SrsReportViewerForm
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: mrolecki
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5a566b1d25064e3fccc8953dc883aa63bd16a301
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566771"
+---
+# <a name="eur-00012-issue-an-eu-entry-certificate"></a><span data-ttu-id="7f334-103">EUR-00012 Een EU-invoercertificaat uitgeven</span><span class="sxs-lookup"><span data-stu-id="7f334-103">EUR-00012 Issue an EU entry certificate</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="7f334-104">Deze procedure begeleidt u bij het inschakelen van een EU-invoercertificaat, het configureren van een klantrekening om invoercertificaten te gebruiken en het uitgeven van een certificaat.</span><span class="sxs-lookup"><span data-stu-id="7f334-104">This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</span></span> <span data-ttu-id="7f334-105">Deze procedure is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="7f334-105">This procedure was created using the demo data company DEMF.</span></span>
+
+
+## <a name="enable-entry-certificate-management"></a><span data-ttu-id="7f334-106">Certificaatbeheer inschakelen</span><span class="sxs-lookup"><span data-stu-id="7f334-106">Enable entry certificate management</span></span>
+1. <span data-ttu-id="7f334-107">Ga naar Klanten > Instellingen > Parameters van module Klanten.</span><span class="sxs-lookup"><span data-stu-id="7f334-107">Go to Accounts receivable > Setup > Accounts receivable parameters.</span></span>
+2. <span data-ttu-id="7f334-108">Klik op het tabblad Zendingen.</span><span class="sxs-lookup"><span data-stu-id="7f334-108">Click the Shipments tab.</span></span>
+3. <span data-ttu-id="7f334-109">Vouw de sectie Invoercertificaat uit.</span><span class="sxs-lookup"><span data-stu-id="7f334-109">Expand the Entry certificate section.</span></span>
+4. <span data-ttu-id="7f334-110">Selecteer Ja in het veld Certificaatbeheer inschakelen.</span><span class="sxs-lookup"><span data-stu-id="7f334-110">Select Yes in the Enable entry certificate management field.</span></span>
+5. <span data-ttu-id="7f334-111">Selecteer Ja in het veld Verstrekken van invoercertificaat inschakelen.</span><span class="sxs-lookup"><span data-stu-id="7f334-111">Select Yes in the Enable entry certificate issuing field.</span></span>
+6. <span data-ttu-id="7f334-112">Klik op het tabblad Nummerreeksen.</span><span class="sxs-lookup"><span data-stu-id="7f334-112">Click the Number sequences tab.</span></span>
+7. <span data-ttu-id="7f334-113">Zoek en selecteer de rij van het invoercertificaat in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7f334-113">In the list, find and select Entry certificate row.</span></span>
+8. <span data-ttu-id="7f334-114">Typ of selecteer een waarde in het veld Nummerreekscode.</span><span class="sxs-lookup"><span data-stu-id="7f334-114">In the Number sequence code field, enter or select a value.</span></span>
+
+## <a name="set-up-a-customer"></a><span data-ttu-id="7f334-115">Een klant instellen</span><span class="sxs-lookup"><span data-stu-id="7f334-115">Set up a customer</span></span>
+1. <span data-ttu-id="7f334-116">Ga naar Klanten > Klanten > Alle klanten.</span><span class="sxs-lookup"><span data-stu-id="7f334-116">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="7f334-117">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="7f334-117">Use the Quick Filter to find records.</span></span> <span data-ttu-id="7f334-118">Filter bijvoorbeeld op het veld Rekening met een waarde van 'DE-015'.</span><span class="sxs-lookup"><span data-stu-id="7f334-118">For example, filter on the Account field with a value of 'DE-015'.</span></span>
+3. <span data-ttu-id="7f334-119">Open klantrekeninggegevens.</span><span class="sxs-lookup"><span data-stu-id="7f334-119">Open customer account details.</span></span>
+4. <span data-ttu-id="7f334-120">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="7f334-120">Click Edit.</span></span>
+5. <span data-ttu-id="7f334-121">Vouw de sectie Factuur en levering uit.</span><span class="sxs-lookup"><span data-stu-id="7f334-121">Expand the Invoice and delivery section.</span></span>
+6. <span data-ttu-id="7f334-122">Selecteer Ja in het veld Invoercertificaat vereist.</span><span class="sxs-lookup"><span data-stu-id="7f334-122">Select Yes in the Entry certificate required field.</span></span>
+7. <span data-ttu-id="7f334-123">Selecteer Ja in het veld Uitgifte van invoercertificaat.</span><span class="sxs-lookup"><span data-stu-id="7f334-123">Select Yes in the Issue entry certificate field.</span></span>
+8. <span data-ttu-id="7f334-124">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="7f334-124">Click Save.</span></span>
+
+## <a name="create-an-eu-entry-certificate-automatically"></a><span data-ttu-id="7f334-125">Automatisch een EU-invoercertificaat maken</span><span class="sxs-lookup"><span data-stu-id="7f334-125">Create an EU entry certificate automatically</span></span>
+1. <span data-ttu-id="7f334-126">Ga naar Klanten > Orders > Alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="7f334-126">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="7f334-127">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="7f334-127">Click New.</span></span>
+3. <span data-ttu-id="7f334-128">Typ of selecteer een waarde in het veld Klantrekening.</span><span class="sxs-lookup"><span data-stu-id="7f334-128">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="7f334-129">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7f334-129">Click OK.</span></span>
+5. <span data-ttu-id="7f334-130">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="7f334-130">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="7f334-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="7f334-131">Click Save.</span></span>
+7. <span data-ttu-id="7f334-132">Klik in het actievenster op Verzamelen en inpakken.</span><span class="sxs-lookup"><span data-stu-id="7f334-132">On the Action Pane, click Pick and pack.</span></span>
+8. <span data-ttu-id="7f334-133">Klik op Pakbon boeken.</span><span class="sxs-lookup"><span data-stu-id="7f334-133">Click Post packing slip.</span></span>
+9. <span data-ttu-id="7f334-134">Vouw de sectie Parameters uit.</span><span class="sxs-lookup"><span data-stu-id="7f334-134">Expand the Parameters section.</span></span>
+10. <span data-ttu-id="7f334-135">Selecteer in het veld Hoeveelheid de optie 'Alle'.</span><span class="sxs-lookup"><span data-stu-id="7f334-135">In the Quantity field, select 'All'.</span></span>
+11. <span data-ttu-id="7f334-136">Schakel het selectievakje Uitgifte van invoercertificaat uit.</span><span class="sxs-lookup"><span data-stu-id="7f334-136">Clear the Issue entry certificate check box.</span></span>
+    * <span data-ttu-id="7f334-137">Een invoercertificaat kan worden uitgegeven tijdens pakbonboeking of orderfacturering.</span><span class="sxs-lookup"><span data-stu-id="7f334-137">An entry certificate can be issued during packing slip posting or during order invoicing.</span></span> <span data-ttu-id="7f334-138">Laat het selectievakje Uitgifte van invoercertificaat uitgeschakeld om het certificaat later uit te geven.</span><span class="sxs-lookup"><span data-stu-id="7f334-138">Leave the Issue entry certificate checkbox unchecked to issue it later.</span></span>  
+12. <span data-ttu-id="7f334-139">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7f334-139">Click OK.</span></span>
+13. <span data-ttu-id="7f334-140">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7f334-140">Click OK.</span></span>
+14. <span data-ttu-id="7f334-141">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="7f334-141">On the Action Pane, click Invoice.</span></span>
+15. <span data-ttu-id="7f334-142">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="7f334-142">Click Invoice.</span></span>
+    * <span data-ttu-id="7f334-143">Controleer of de selectievakjes Invoercertificaat vereist en Uitgifte van invoercertificaat in de sectie Overzicht zijn gemarkeerd.</span><span class="sxs-lookup"><span data-stu-id="7f334-143">Verify that the Entry certificate required and Issue entry certificate checkboxes in the Overview section are marked.</span></span>  <span data-ttu-id="7f334-144">U kunt ook het selectievakje Invoercertificaat afdrukken inschakelen om afdrukken van het certificaat toe te staan.</span><span class="sxs-lookup"><span data-stu-id="7f334-144">You can also select the Print entry certificate check box to allow printing of the certificate.</span></span>  
+16. <span data-ttu-id="7f334-145">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7f334-145">Click OK.</span></span>
+17. <span data-ttu-id="7f334-146">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7f334-146">Click OK.</span></span>
+18. <span data-ttu-id="7f334-147">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="7f334-147">On the Action Pane, click Invoice.</span></span>
+19. <span data-ttu-id="7f334-148">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="7f334-148">Click Invoice.</span></span>
+20. <span data-ttu-id="7f334-149">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="7f334-149">On the Action Pane, click Invoice.</span></span>
+21. <span data-ttu-id="7f334-150">Klik op Uitgegeven invoercertificaten weergeven.</span><span class="sxs-lookup"><span data-stu-id="7f334-150">Click View issued entry certificates.</span></span>
+22. <span data-ttu-id="7f334-151">Klik op Afdrukken.</span><span class="sxs-lookup"><span data-stu-id="7f334-151">Click Print.</span></span>
+23. <span data-ttu-id="7f334-152">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="7f334-152">Close the page.</span></span>
+24. <span data-ttu-id="7f334-153">Klik op Status wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7f334-153">Click Change status.</span></span>
+25. <span data-ttu-id="7f334-154">Selecteer een optie in het veld Nieuwe status.</span><span class="sxs-lookup"><span data-stu-id="7f334-154">In the New status field, select an option.</span></span>
+26. <span data-ttu-id="7f334-155">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7f334-155">Click OK.</span></span>
+27. <span data-ttu-id="7f334-156">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="7f334-156">Close the page.</span></span>
+
+## <a name="create-an-eu-entry-certificate-manually"></a><span data-ttu-id="7f334-157">Handmatig een EU-invoercertificaat maken</span><span class="sxs-lookup"><span data-stu-id="7f334-157">Create an EU entry certificate manually</span></span>
+1. <span data-ttu-id="7f334-158">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="7f334-158">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="7f334-159">Klik op Invoercertificaat maken.</span><span class="sxs-lookup"><span data-stu-id="7f334-159">Click Create entry certificate.</span></span>
+3. <span data-ttu-id="7f334-160">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7f334-160">Click OK.</span></span>
+4. <span data-ttu-id="7f334-161">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="7f334-161">On the Action Pane, click Invoice.</span></span>
+5. <span data-ttu-id="7f334-162">Klik op Uitgegeven invoercertificaten weergeven.</span><span class="sxs-lookup"><span data-stu-id="7f334-162">Click View issued entry certificates.</span></span>
+
