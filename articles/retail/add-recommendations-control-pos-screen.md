@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573367"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606844"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten
 
@@ -40,13 +40,13 @@ Wanneer u Microsoft Dynamics 365 for Retail gebruikt, kunt u productaanbevelinge
 ## <a name="open-layout-designer"></a>Indelingsontwerper openen
 
 1. Ga naar **Detailhandel** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS** &gt; **Schermindelingen**.
-2. Met het snelfilter kunt u zoeken naar het scherm waaraan u het besturingselement wilt toevoegen. Filter bijvoorbeeld op het veld **Schermindelings-id** met de waarde 'F2CP16:9M'.
-3. Zoek en selecteer de gewenste record in de lijst. Selecteer bijvoorbeeld 'Naam: F2CP16:9M Schermindelings-ID: F2CP16:9M'.
+2. Met het snelfilter kunt u zoeken naar het scherm waaraan u het besturingselement wilt toevoegen. Filter bijvoorbeeld op het veld **Schermindelings-id** met de waarde **F2CP16:9M**.
+3. Zoek en selecteer de gewenste record in de lijst. Selecteer bijvoorbeeld **Naam: F2CP16:9M Schermindelings-ID: F2CP16:9M**.
 4. Klik op **Ontwerper van indeling**.
 5. Volg de aanwijzingen voor het starten van de indelingsontwerper. Wanneer naar referenties wordt gevraagd, voert u de referenties in die zijn gebruikt bij het starten van de indelingsontwerper op de pagina **Schermindelingen**.
 6. Wanneer u zich aanmeldt, wordt er een pagina weergegeven die vergelijkbaar is met de onderstaande pagina. De indeling zal afwijken, afhankelijk van de aanpassingen die voor uw winkel zijn gemaakt.
 
-    [![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Ontwerper van indeling](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Een weergaveoptie kiezen
 
@@ -59,11 +59,11 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 
 1. Verklein de hoogte van het detailgebied van de transactieregels zodat het even hoog is als het deelvenster van de klant aan de linkerkant.
 
-    [![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Hoogte van het detailgebied van de transactieregels verlaagd](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Sleep in het menu aan de linkerkant het besturingselement voor aanbevelingen en zet het neer tussen het detailgebied van de transactieregels en het knoppenraster onderaan in het midden van het transactiescherm. Pas de grootte van het besturingselement aan zodat het in die ruimte past.
 
-    [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Het besturings Aanbevelingen is toegevoegd aan de indeling](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. Klik op **OK** om de indelingsontwerper op te slaan en af te sluiten.
 4. Klik in Dynamics 365 for Retail op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanningen**.
@@ -75,13 +75,13 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 1. Klik met de rechtermuisknop op de lege ruimte onder het laatste tabblad van het knoppenraster dat zich aan de rechterkant van de pagina bevindt.
 2. Klik op **Aanpassen**.
 
-    [![afbeelding-5](./media/pic-5.png)](./media/pic-5.png)
+    [![Het dialoogvenster Aanpassing - Tabblad](./media/pic-5.png)](./media/pic-5.png)
 
 3. Klik op **Nieuw tabblad**.
 4. Zoek naar het nieuwe tabblad dat u zojuist hebt toegevoegd. Wellicht moet u omlaag bladeren.
 5. Selecteer in de vervolgkeuzelijst **Inhoud** **Aanbevolen producten**.
 
-    [![afbeelding-6](./media/pic-6.png)](./media/pic-6.png)
+    [![Aanbevolen producten in het veld Inhoud](./media/pic-6.png)](./media/pic-6.png)
 
 6. Typ in het veld **Label** een naam voor het tabblad Aanbevelingen. Typ bijvoorbeeld Aanbevolen producten.
 7. Selecteer in het veld **Afbeelding** de afbeelding die op het tabblad moet worden weergegeven.

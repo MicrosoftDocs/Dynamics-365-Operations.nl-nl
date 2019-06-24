@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525320"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577895"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Fiscale integratie voor detailhandelskanalen instellen
 
@@ -88,7 +88,7 @@ Voordat u de functionaliteit voor fiscale integratie gebruikt, moet u de volgend
         U kunt de gegevenstoewijzingsparameters in een functioneel connectorprofiel wijzigen. Als u de standaardparameters wilt herstellen die zijn gedefinieerd in de configuratie van de fiscale documentprovider, selecteert u **Bijwerken**.
 
         **Voorbeelden**
-    
+
         |   | Opmaak | Voorbeeld |
         |---|--------|---------|
         | **Btw-tariefinstellingen** | waarde : VATrate | 1 : 2000, 2 : 1800 |
@@ -111,7 +111,7 @@ Voordat u de functionaliteit voor fiscale integratie gebruikt, moet u de volgend
 4. Maak fiscale connectorgroepen.
 
     Een fiscale connectorgroep combineert een subset van functionele connectors die identieke functies uitvoeren en worden gebruikt in dezelfde stap van een fiscaal registratieproces. Als bijvoorbeeld verschillende fiscale printermodellen kunnen worden gebruikt in een winkel, kunnen fiscale connectors voor die fiscale printers worden gecombineerd in een fiscale connectorgroep.
-    
+
     1. Maak op de pagina **Fiscale connectorgroep** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale connectorgroepen**) een nieuwe fiscale connectorgroep.
     2. Voeg functionele profielen toe aan de connectorgroep. Selecteer op het tabblad **Functionele profielen** **Toevoegen** en selecteer een profielnummer. Elke fiscale connector in een connectorgroep kan slechts één functioneel profiel hebben.
     3. Als u het gebruik van het functionele profiel wilt onderbreken, stelt u de optie **Uitschakelen** in op **Ja**. Deze wijziging is alleen van invloed op de huidige connectorgroep. U kunt doorgaan met hetzelfde functionele profiel te gebruiken in andere connectorgroepen.
@@ -119,7 +119,7 @@ Voordat u de functionaliteit voor fiscale integratie gebruikt, moet u de volgend
 5. Maak een fiscaal registratieproces.
 
     Een fiscaal registratieproces wordt gedefinieerd door de volgorde van registratiestappen en de connectorgroep die voor elke stap wordt gebruikt.
-    
+
     1. Maak op de pagina **Fiscaal registratieproces** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale registratieprocessen**) een nieuwe record voor elk uniek fiscaal registratieproces.
     2. Voeg registratiestappen aan het proces toe:
 
@@ -145,7 +145,7 @@ Voordat u de functionaliteit voor fiscale integratie gebruikt, moet u de volgend
 7. Selecteer op de pagina **Fiscaal registratieproces** (**Detailhandel \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale registratieprocessen**) **Valideren** om het fiscale registratieproces te valideren.
 
     Het is aan te raden om dit type validatie uit te voeren in de volgende gevallen:
-    
+
     - Nadat u alle instellingen voor een nieuw registratieproces hebt voltooid, inclusief wanneer u registratieprocessen toewijst aan POS-functionaliteitsprofielen en hardwareprofielen.
     - Nadat u wijzigingen in een bestaand fiscaal registratieproces hebt aangebracht en als deze wijzigingen ertoe kunnen leiden dat tijdens runtime een andere fiscale connector wordt geselecteerd (bijvoorbeeld als u de connectorgroep voor een stap in het fiscale registratieproces wijzigt, een functioneel connectorprofiel inschakelt in een connectorgroep of een nieuw functioneel connectorprofiel toevoegt aan een connectorgroep).
     - Nadat u wijzigingen hebt aangebracht in de toewijzing van technische connectorprofielen aan hardwareprofielen.

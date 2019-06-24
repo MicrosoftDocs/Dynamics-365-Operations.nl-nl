@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502725"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595334"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolomdefinities in financiële rapporten
 
@@ -120,7 +120,7 @@ De volgende tabel beschrijft de codes voor kolombeperking.
 | ADJ                     | Beperk de bedragen in de kolom tot bedragen van de periodecorrectie, als deze bedragen beschikbaar zijn. |
 | XAD                     | Beperk de bedragen in de kolom, zodat bedragen van de periodecorrectie worden uitgesloten. |
 | GT                      | Beperk de bedragen in de kolom, zodat alleen geboekte transacties worden opgenomen, als deze transacties beschikbaar zijn. |
-| UPT                     | Beperk de bedragen in de kolom, zodat alleen niet-geboekte transacties worden opgenomen, als deze transacties beschikbaar zijn.<blockquote>[!NOTE] Niet-geboekte transacties worden niet door alle gegevensproviders ondersteund. Zie de <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>handleiding gegevensintegratie</a> voor uw Microsoft Dynamics ERP-systeem voor meer informatie.</blockquote> |
+| UPT                     | Beperk de bedragen in de kolom, zodat alleen niet-geboekte transacties worden opgenomen, als deze transacties beschikbaar zijn.<p><strong>Opmerking:</strong> Niet alle providers van gegevens ondersteunen niet-geboekte transacties. Zie de <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>handleiding gegevensintegratie</a> voor uw Microsoft Dynamics ERP-systeem voor meer informatie.</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Een kolom beperken tot een rapportage-eenheid
 
@@ -310,7 +310,7 @@ De cel **Afdrukbeheer** kan codes bevatten die de weergave of de afdrukkenmerken
 | Afdrukcontrolecode | Vertaling                                     | Beschrijving |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Niet afdrukken                                     | Neem de bedragen in deze kolom niet op in het rapport dat wordt afgedrukt en in berekeningen. Om een niet af te drukken kolom in een berekening op te nemen, raadpleegt u de kolom rechtstreeks in de berekeningsformule. De niet af te drukken kolom C is bijvoorbeeld opgenomen in de volgende berekening: **B+C+D**. Maar de niet af te drukken kolom C is niet opgenomen in de volgende berekening: **B:D**. |
-| XCR                | Teken wijzigen als het normale saldo van de rij credit is | Maak een budget of een vergelijkend rapport waarin elke ongunstige afwijking (zoals een opbrengsttekort of een onkostenoverschrijding) altijd negatief is. Pas deze code toe op een **CALC**-kolom om het teken van het kolombedrag om te keren als het normale saldo van een bepaalde rij credit is (zoals aangegeven met een **C** in de kolom **Normaal Saldo** van de rijdefinitie).<blockquote>[!NOTE] Let er bij <strong>TOT</strong>-rijen en </strong>CAL</strong>-rijen die meestal een creditsaldo hebben op dat u een <strong>C</strong> invoert in de kolom <strong>Normaal saldo</strong> in de rijdefinitie.</blockquote> |
+| XCR                | Teken wijzigen als het normale saldo van de rij credit is | Maak een budget of een vergelijkend rapport waarin elke ongunstige afwijking (zoals een opbrengsttekort of een onkostenoverschrijding) altijd negatief is. Pas deze code toe op een **CALC**-kolom om het teken van het kolombedrag om te keren als het normale saldo van een bepaalde rij credit is (zoals aangegeven met een **C** in de kolom **Normaal Saldo** van de rijdefinitie).<p><strong>Opmerking:</strong> Let er bij <strong>TOT</strong>-rijen en </strong>CAL</strong>-rijen die meestal een creditsaldo hebben op dat u een <strong>C</strong> invoert in de kolom <strong>Normaal saldo</strong> in de rijdefinitie.</p> |
 | X0                 | Kolom onderdrukken indien allemaal nullen of spaties          | Neem een **FD**-kolom niet op in het rapport als alle cellen in die kolom leeg zijn of nullen bevatten. |
 | SR                 | Afronding onderdrukken                               | Voorkom dat de bedragen in deze kolom worden afgerond. |
 | XR                 | Samentelling onderdrukken                                 | Onderdruk een samentelling. Als het rapport een rapportagestructuur gebruikt, worden de bedragen in deze kolom niet samengeteld in volgende bovenliggende knooppunten. |
@@ -546,8 +546,8 @@ In de volgende tabel worden de rapportresultaten weergeven die kunnen optreden v
 | Cel Valutaweergave                        | Cel Valutafilter | Rapportresultaat |
 |----------------------------------------------|----------------------|---------------|
 | Transactievaluta                 | **YEN**              | **Y 6000** - Het resultaat toont alleen transacties die in JPY zijn ingevoerd. |
-| Valuta voor boekhouding van grootboek | **YEN**              |**$ 60** - Het resultaat toont alleen transacties die in JPY zijn ingevoerd en toont die transacties in USD.<blockquote>[!NOTE] De wisselkoers is ongeveer 100 JPY per USD.</blockquote> |
-| Valuta voor boekhouding van grootboek | Leeg                | **$2310** – Het resultaat toont alle gegevens in de valuta voor boekhouding die in het grootboek is opgegeven.<blockquote>[!NOTE] Dit bedrag is de som van alle transacties in de valuta voor boekhouding.</blockquote> |
+| Valuta voor boekhouding van grootboek | **YEN**              |**$ 60** - Het resultaat toont alleen transacties die in JPY zijn ingevoerd en toont die transacties in USD.<p><strong>Opmerking:</strong> De wisselkoers is ongeveer 100 JPY per USD.</p> |
+| Valuta voor boekhouding van grootboek | Leeg                | **$2310** – Het resultaat toont alle gegevens in de valuta voor boekhouding die in het grootboek is opgegeven.<p><strong>Opmerking:</strong> dit bedrag is de som van alle transacties in de valuta voor boekhouding.</p> |
 | Transactievaluta                 | Leeg                | **$ 2250** - Het resultaat toont alle bedragen in de valuta waarin de transactie is uitgevoerd. Dit betekent dat voor het totaal bedragen in verschillende valuta's bij elkaar worden opgeteld. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Berekeningskolom in een kolomdefinitie
@@ -565,7 +565,7 @@ Om kolommen toe te voegen, te verwijderen, te vermenigvuldigen of te verdelen, v
 |----------|---------------------|-------------|
 | +        | A+C                 | Tel het bedrag in kolom A bij het bedrag in kolom. |
 | :        | A:C A:C-D           | Voeg een reeks opeenvolgende kolommen toe. Bijvoorbeeld, de formule **A: C** voegt de totalen van kolommen A tot C toe, en de formule **A:C-D** voegt de totalen van kolommen A tot C toe, en trekt vervolgens het bedrag in kolom D af. |
-| -        | A-C                 | Trek het bedrag in kolom C af van het bedrag in kolom A.<blockquote>[!NOTE] U kunt het minteken (-) ook gebruiken om het teken in een kolom om te draaien. Gebruik bijvoorbeeld <strong>-A+B</strong> om het omgekeerde van het bedrag in kolom A toe te voegen aan het bedrag in kolom B.</blockquote> |
+| -        | A-C                 | Trek het bedrag in kolom C af van het bedrag in kolom A.<p><strong>Opmerking:</strong> U kunt het minteken (-) ook gebruiken om de tekens in een kolom om te keren. Gebruik bijvoorbeeld <strong>-A+B</strong> om het omgekeerde van het bedrag in kolom A toe te voegen aan het bedrag in kolom B.</p> |
 | \*       | A\*C                | Vermenigvuldig het bedrag in kolom A met het bedrag in kolom C. |
 | /        | A/C                 | Deel het bedrag in kolom A door het bedrag in kolom C. |
 

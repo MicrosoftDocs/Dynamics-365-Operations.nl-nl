@@ -16,12 +16,12 @@ ms.search.region: Netherlands
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea1890c27624ded600d0f04f5c95a1fb02a2e4b6
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d4b3a2c1a8332290b28f7e9ead17f1f070910beb
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538201"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550268"
 ---
 # <a name="netherlands"></a>Nederland 
 

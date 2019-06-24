@@ -3,7 +3,7 @@ title: Functies publiceren naar externe vacaturesites via Attract
 description: In dit onderwerp wordt uitgelegd hoe u Dynamics 365 for Talent - Attract gebruikt voor het publiceren van functies naar externe wervingssites
 author: pganapmsft
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517717"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590477"
 ---
 # <a name="post-jobs-to-external-career-sites-from-attract"></a>Functies publiceren naar externe vacaturesites via Attract
 
@@ -36,6 +36,7 @@ Voordat u functies naar Broadbean kunt publiceren, moet u de Broadbean-integrati
 
 > [!NOTE]
 > - Als u functies naar externe sites wilt publiceren, moet u over de [Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) beschikken.
+> - Als u functies naar Broadbean wilt publiceren via Attract, moet u beschikken over een Broadbean-abonnement.
 > - Van deze functie kan momenteel een voorbeeld worden bekeken. Als u de functie wilt proberen, moet u [deze inschakelen in de beheerinstellingen van Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 ### <a name="configure-broadbean-integration"></a>Broadbean-integratie configureren

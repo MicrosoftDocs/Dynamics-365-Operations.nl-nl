@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558568"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606751"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Contante denominaties voor het verkooppunt (POS) configureren
 
@@ -34,9 +34,9 @@ Contante denominaties voor bankbiljetten en munten kunnen worden gedefinieerd in
 
 ## <a name="define-denominations"></a>Denominaties definiëren
 
-De denominaties worden per winkel ingesteld op de pagina **Instellen** \> **Optie contantdeclaratie van de winkeleigenschappen**.
+De denominaties worden per winkel ingesteld via **Instellen** \> **Contantdeclaratie** van de pagina voor winkeleigenschappen.
 
-![contante denominaties](./media/image1-denomination.png)
+![De optie Contantdeclaratie](./media/image1-denomination.png)
 
 Denominaties definiëren:
 
@@ -44,7 +44,7 @@ Denominaties definiëren:
 1. Geef het type op (munt of biljet).
 1. Geef het bedrag op (waarde).
 
-![contante denominaties](./media/image2-denomination.png)
+![De pagina Denominaties contantdeclaratie](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Het functionaliteitsprofiel configureren
 

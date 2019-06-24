@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517759"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617338"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Integratie van Dynamics 365 for Talent met Dynamics 365 for Finance and Operations - veelgestelde vragen
 
@@ -46,7 +46,7 @@ Common Data Service bevat momenteel geen financiële dimensies en daardoor maken
 
 Voor gegevens die zich bevinden in Finance and Operations maar niet in Talent, koppelt u de twee systemen met behulp van **Koppelingen configureren** in Talent. Zie voor meer informatie over het configureren van koppelingen tussen Talent en Finance and Operations [Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (31 oktober 2018)](whats-new-talent-october-31.md).
 
-![](media/MapFinancialDimensions.png)
+![Financiële dimensies toewijzen](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Soms veranderen werknemers bij het importeren in inactieve werknemers in Finance and Operations. Waarom niet?
 
@@ -60,14 +60,14 @@ Gegevenssynchronisatie volgt de uitvoeringsplanning. Met de integratie wordt een
 
 U kunt met behulp van 'Geavanceerde query' brongegevens filteren en wijzigen voordat deze worden doorgegeven aan de bestemming.
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Geavanceerde query voor actieve medewerkers](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Kan ik opgeven welke velden moeten worden verzonden naar Finance and Operations voor een bepaalde entiteit?
 
 Velden kunnen worden toegevoegd aan of verwijderd uit de integratietaak. Niet alle gegevensvelden die aanwezig zijn in de entiteit Common Data Service worden ingevuld vanuit Core HR.
 Aanvullende gegevens kunnen worden ingevuld via PowerApps.
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![Velden toevoegen aan en verwijderen uit een integratietaak](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Ik heb integratie als een batchtaak ingesteld, maar Talent heeft de verbinding met het doelsysteem verloren. Hoe kan ik dezelfde reeks wijzigingen naar het doelsysteem verzenden?
 

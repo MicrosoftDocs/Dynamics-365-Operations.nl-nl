@@ -3,7 +3,7 @@ title: Talent inrichten
 description: In dit onderwerp wordt u door het proces van het inrichten van een nieuwe omgeving voor Dynamics 365 for Talent geleid.
 author: andreabichsel
 manager: AnnBe
-ms.date: 00/05/2019
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 98f60e466b8b97215fdba0f48ca53ca57157283b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
+ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517715"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1576916"
 ---
 # <a name="provision-talent"></a>Talent inrichten
 
@@ -47,13 +47,14 @@ Zie de methodologie **Talent** die u hebt gemaakt in het nieuwe project voor inf
 Nadat u een LCS-project hebt gemaakt, kunt u Talent inrichten in een omgeving.
 
 1. Selecteer in uw LCS-project de tegel **Beheer Talent-app**.
-2. Talent wordt altijd ingericht in een Microsoft PowerApps-omgeving om de PowerApps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie “Een PowerApps-omgeving selecteren“ in dit onderwerp voordat u doorgaat. Als u nog geen PowerApps-omgeving hebt, selecteert u Omgevingen beheren in LCS of gaat u naar het PowerApps-beheercentrum. Volg daarna de stappen voor het [Maken van een PowerApps-omgeving](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+2. Geef aan of dit een sandbox- of productie-exemplaar van Talent is. Vroege previewfuncties kunnen beschikbaar zijn in sandbox-exemplaren om in een vroeg stadium feedback te krijgen en tests uit te voeren. 
+3. Selecteer de optie **Demonstratiegegevens opnemen** als u wilt dat in uw omgeving dezelfde demogegevensset wordt opgenomen die is gebruikt in de ervaring Talent-testdrive. Dit is nuttig voor de langetermijndemo of -trainingsomgevingen en mag nooit worden gebruikt voor productieomgevingen.  Houd er rekening mee dat u deze optie bij de aanvankelijke implementatie moet kiezen. U kunt een bestaande implementatie niet later bijwerken.
+4. Talent wordt altijd ingericht in een Microsoft PowerApps-omgeving om de PowerApps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie “Een PowerApps-omgeving selecteren“ in dit onderwerp voordat u doorgaat. Als u nog geen PowerApps-omgeving hebt, selecteert u Omgevingen beheren in LCS of gaat u naar het PowerApps-beheercentrum. Volg daarna de stappen voor het [Maken van een PowerApps-omgeving](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Om bestaande omgevingen weer te geven of nieuwe omgevingen te maken, moet de tenantbeheerder die Talent inricht, worden toegewezen aan de PowerApps P2-licentie. Als uw organisatie geen PowerApps P2-licentie heeft, kunt u er een krijgen van uw provider van cloudoplossingen of downloaden via de [pagina met PowerApps-prijzen](https://powerapps.microsoft.com/en-us/pricing/).
 
-4. Selecteer **Toevoegen** en selecteer de omgeving waarin Talent moet worden ingericht.
-5. Selecteer de optie **Demonstratiegegevens opnemen** als u wilt dat in uw omgeving dezelfde demogegevensset wordt opgenomen die is gebruikt in de ervaring Talent-testdrive. Dit is nuttig voor de langetermijndemo of -trainingsomgevingen en mag nooit worden gebruikt voor productieomgevingen.  Houd er rekening mee dat u deze optie bij de aanvankelijke implementatie moet kiezen. U kunt een bestaande implementatie niet later bijwerken.
+5. Selecteer de omgeving waarin Talent moet worden ingericht.
 6. Selecteer **Ja** om akkoord te gaan met de voorwaarden en te beginnen met implementeren.
 
     Uw nieuwe omgeving wordt weergegeven in de lijst met omgevingen in het navigatievenster aan de linkerkant. U kunt de omgeving echter pas gebruiken als de implementatiestatus is bijgewerkt naar **Geïmplementeerd**. Dit proces duurt meestal een paar minuten. Als het inrichtingsproces mislukt, moet u contact opnemen met de ondersteuning.

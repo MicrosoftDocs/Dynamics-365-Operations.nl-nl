@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553040"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606821"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Recency-, frequentie- en monetaire analyse (RFM) instellen
 
@@ -46,7 +46,7 @@ Uw organisatie heeft bijvoorbeeld de beoordelingen op een schaal van 1 tot 5 ing
 
 Als uw organisatie een samengeteld cijfer gebruikt voor de score, worden de individuele beoordelingen samengevoegd. Voor hetzelfde voorbeeld heeft de klant een beoordeling van 13 (5 + 3 + 5).
 
-## <a name="to-set-up-rfm-analysis-for-the-customers-in-your-organization"></a>RFM-analyse voor de klanten in uw organisatie instellen
+## <a name="set-up-rfm-analysis-for-the-customers-in-your-organization"></a>RFM-analyse voor de klanten in uw organisatie instellen
 
 1. Ga naar **Callcenter** \> **Periodiek** \> **RFM-analyse**.
 2. Op de pagina **RFM-analyse** selecteert u **Nieuw**. Voer in het veld **RFM-definitie** een naam voor de RFM-definitie in. U kunt bijvoorbeeld, kunt u de definitie RFM-A noemen.

@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530265"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577975"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Meldingen over orders op het verkooppunt (POS) weergeven
 
@@ -68,7 +68,7 @@ In de volgende afbeelding ziet u de instellingen voor live inhoud in de ontwerpe
 
 ![Instellingen van live inhoud in de ontwerper van het knoppenraster](./media/ButtonGridDesigner.png "Instellingen van live inhoud in de ontwerper van het knoppenraster")
 
-Als u het aantal meldingen op een knop wilt weergeven, moet u ervoor zorgen dat de juiste schermindeling wordt bijgewerkt. Als u wilt bepalen welke schermindeling door het POS wordt gebruikt, selecteert u het pictogram **Instellingen** in de rechterbovenhoek en noteert u de **schermindelings-id** en **indelingsresolutie**. Ga nu met de browser Edge naar de pagina **Schermindeling** in Dynamics 365 for Finance and Operations, zoek de **schermindelings-id** en **indelingsresolutie** die hierboven wordt aangegeven en schakel het selectievakje **Live inhoud inschakelen** in. Ga naar **Detailhandel > IT detailhandel -> Distributieplanning** en voer de taak 1090 (Kassa's) uit om indelingswijzigingen te synchroniseren. 
+Als u het aantal meldingen op een knop wilt weergeven, moet u ervoor zorgen dat de juiste schermindeling wordt bijgewerkt. Als u wilt bepalen welke schermindeling door het POS wordt gebruikt, selecteert u het pictogram **Instellingen** in de rechterbovenhoek en noteert u de **schermindelings-id** en **indelingsresolutie**. Ga nu met de browser Edge naar de pagina **Schermindeling** in Dynamics 365 for Finance and Operations, zoek de **schermindelings-id** en **indelingsresolutie** die hierboven wordt aangegeven en schakel het selectievakje **Live inhoud inschakelen** in. Ga naar **Detailhandel \> IT detailhandel \> Distributieplanning** en voer de taak 1090 (Kassa's) uit om indelingswijzigingen te synchroniseren.
 
 ![De schermindeling zoeken die door POS wordt gebruikt](./media/Choose_screen_layout.png "De schermindeling zoeken ")
 

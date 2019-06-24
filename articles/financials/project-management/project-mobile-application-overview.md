@@ -3,7 +3,7 @@ title: Projectoverzicht mobiele toepassingen
 description: Dit onderwerp bevat algemene informatie over de aan projecttijd gerelateerde toepassingen voor Microsoft Dynamics 365 die beschikbaar zijn op een mobiel apparaat.
 author: KimANelson
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 5b0560a8be32962f94b24754458fb2cf714a15c8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 22ccc70e242ffc9a487720c6a25fa6c5b8d78073
+ms.sourcegitcommit: 2d4b10fb5d3d0fbe518acdd921ebdd1bdc1d135e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1529966"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "1608133"
 ---
 # <a name="project-mobile-applications-overview"></a>Projectoverzicht mobiele toepassingen
 
@@ -45,4 +45,4 @@ Mijn urenstaten (geoptimaliseerd voor mobiel) en Urenstaten voor mijn controle (
 
 ## <a name="for-more-information"></a>Meer informatie
 
-Zie voor meer informatie [Mobiele toepassing Microsoft Dynamics 365 Project Timesheet](project-timesheet.md), [Projecttijdinvoer]( project-time-entry-mobile-workspace.md) en [Projecturenstaten op een mobiel apparaat](Mobile-timesheets.md).
+Zie voor meer informatie [Mobiele toepassing Microsoft Dynamics 365 Project Timesheet](project-timesheet.md), [Projecttijdinvoer]( project-time-entry-mobile-workspace.md), [Projectroosters op een mobiel apparaat](Mobile-timesheets.md) en [Aangepaste velden voor de mobiele app Projectrooster implementeren](custom-fields-mobile.md).

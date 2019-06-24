@@ -16,12 +16,12 @@ ms.search.region: Denmark, Germany, France, Ireland, Netherlands, United Kingdom
 ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3602ea8a32764d93a84123a1c2b8bfb6cd12b72e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d4e65627cdb662cef22c9c643599959d6921e3dc
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538210"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565324"
 ---
 # <a name="corrective-invoicing"></a>Correctieve facturering
 

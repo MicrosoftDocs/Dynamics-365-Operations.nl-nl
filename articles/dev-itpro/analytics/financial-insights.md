@@ -3,7 +3,7 @@ title: Financial Insights
 description: Financial Insights gebruikt Microsoft Power BI om KPI's, grafieken en financiële overzichten samen te voegen.
 author: kweekley
 manager: AnnBe
-ms.date: 08/14/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9edcb192d2fac5acb954d8b87be691f0943e0db7
+ms.sourcegitcommit: 23ab3c99d05869ea2c73514754608e8684697d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554087"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595071"
 ---
 # <a name="financial-insights"></a>Financial Insights
 
@@ -67,10 +67,9 @@ De gegevens voor **Financial Insights** worden gehaald uit de entiteitopslag (**
 
 U moet de volgende entiteiten bijwerken om gegevens te zien in de werkruimten **Financial Insights** en **CFO-overzicht**:
 
+- Versie 2 transactiegegevens financiële rapportage (**Opmerking:** dit is nieuw in versie 10.0.1 en vervangt de vorige entiteit.)
+- Transactiegegevens financiële rapportage
 - CustCollectionsBIMeasurements
-- FinancialReportingOtherData
-- FinancialReportingReferenceData
-- FinancialReportingTransactionData
 - LedgerCovLiquidityMeasurement
 - Inkoop-cube
 - Verkoop-cube

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571553"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577923"
 ---
 # <a name="retail-peripherals"></a>Randapparatuur detailhandel
 
@@ -295,7 +295,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Netwerk
-<blockquote>OPMERKING: u kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
+<p><strong>Opmerking:</strong> u kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</p>
 </li>
 </ul>
 </td>
@@ -306,7 +306,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Netwerk
-<blockquote>OPMERKING: u kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
+<p><strong>Opmerking:</strong> u kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</p>
 </li>
 </ul>
 </td>
@@ -374,7 +374,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Windows-stuurprogramma
-<blockquote>OPMERKING: bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</blockquote>
+<p><strong>Opmerking:</strong> bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</p>
 </li>
 <li>Netwerk</li>
 </ul>
@@ -404,7 +404,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Netwerk
-<blockquote>OPMERKING: u kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
+<p><strong>Opmerking:</strong> u kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</p>
 </li>
 </ul>
 </td>
@@ -469,7 +469,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Windows-stuurprogramma
-<blockquote>OPMERKING: bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</blockquote>
+<p><strong>Opmerking:</strong> bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</p>
 </li>
 <li>Netwerk</li>
 </ul>
@@ -491,7 +491,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <ul>
 <li>OPOS</li>
 <li>Netwerk
-<blockquote>OPMERKING: u kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</blockquote>
+<p><strong>Opmerking:</strong> u kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</p>
 </li>
 </ul>
 </td>

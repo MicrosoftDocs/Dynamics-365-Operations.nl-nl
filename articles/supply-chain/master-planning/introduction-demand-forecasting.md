@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b71fde2d1b56b237dec2a08d3bd27e8ba6c35fef
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552364"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595541"
 ---
 # <a name="demand-forecasting-overview"></a>Overzicht vraagprognose
 
@@ -52,7 +52,7 @@ Drie belangrijke thema's zijn geïmplementeerd in vraagprognose:
     -   U kunt de experimenten voor vraagprognoses in Finance and Operations downloaden, ze aanpassen om aan uw bedrijfsbehoeften te voldoen, ze publiceren als een webservice op Azure en ze gebruiken om vraagprognoses te genereren. De experimenten kunnen worden gedownload als u een Finance and Operations-abonnement hebt aangeschaft voor een productieplanner als gebruiker op ondernemingsniveau.
     -   U kunt alle beschikbare experimenten voor vraagprognoses downloaden uit de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). De experimenten voor vraagprognose van Finance and Operations worden automatisch geïntegreerd met Finance and Operations, maar klanten en partners moeten de experimenten die ze van [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) downloaden zelf integreren. Daarom zijn experimenten van de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) niet zo gemakkelijk te gebruiken als de experimenten voor vraagprognose in Finance and Operations. U moet de code van de experimenten wijzigen zodat ze de API (Application Programming Interface) van Finance and Operations gebruiken.
     -   U kunt uw eigen experimenten maken in Microsoft Azure Machine Learning Studio, ze publiceren als services op Azure, en ze gebruiken om vraagprognoses te genereren.
-    -   Als u geen hoge prestaties vereist of als u niet vereist dat een grote hoeveelheid gegevens wordt verwerkt, kunt u de gratis laag van Machine Learning gebruiken. We raden u altijd van dit niveau te starten, met name tijdens de fasen voor implementatie en testen. Als u betere prestaties en extra opslag nodig hebt, kunt u de standaardlaag van Machine Learning gebruiken. Deze laag vereist een Azure-abonnement en brengt extra kosten met zich mee. Zie voor meer informatie over prijzen van Machine Learning <http://aka.ms/machine-learning-price-info>.
+    -   Als u geen hoge prestaties vereist of als u niet vereist dat een grote hoeveelheid gegevens wordt verwerkt, kunt u de gratis laag van Machine Learning gebruiken. We raden u altijd van dit niveau te starten, met name tijdens de fasen voor implementatie en testen. Als u betere prestaties en extra opslag nodig hebt, kunt u de standaardlaag van Machine Learning gebruiken. Deze laag vereist een Azure-abonnement en brengt extra kosten met zich mee. Voor details over Machine Learning-prijzen raadpleegt u [Machine Learning Studio-prijzen](https://aka.ms/machine-learning-price-info).
 -   **Prognosereductie op elk ontkoppelingspunt**: Vraagprognoses in Finance and Operations maken gebruik van deze functionaliteit, waarmee u van afhankelijke en onafhankelijke vraag prognoses kunt maken op elk ontkoppelingspunt.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Basisstroom vraagprognose

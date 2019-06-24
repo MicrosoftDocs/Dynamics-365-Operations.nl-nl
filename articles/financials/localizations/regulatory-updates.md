@@ -3,7 +3,7 @@ title: Wettelijk voorgeschreven updates
 description: Dit onderwerp bevat een lijst van geplande updates en vrijgegeven wettelijke updates voor Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530702"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593338"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -52,12 +52,23 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 |      2019 april          |   10.0.1      |   Duitsland     |E-facturering - Export van klantfacturen in de indeling xRechnung 1.1         |
 |      2019 april          |   10.0.1      |    Verenigd Koninkrijk     |[Wijziging in indiening van btw-aangifte (belasting digitaal maken)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019 april          |   10.0.1      |    Brazilië     |NF-e nieuw NT 2018.005         |
-|      2019 april          |   10.0.1      |    Rusland     |Wijzigingen van indeling btw-aangifte van 2019         |
-|      2019 april          |   10.0.1      |    Rusland     |Wijzigingen van indeling voor btw-aangifte van 2019 (verkoop- en inkoopboeken) 
+|      2019 april          |   10.0.1      |    Rusland     |[Wijzigingen van indeling btw-aangifte van 2019](rus-VAT-declaration.md) |
+|      2019 april          |   10.0.1      |    Rusland     |Wijzigingen van indeling voor btw-aangifte van 2019 (verkoop- en inkoopboeken) |
+|      2019 april          |   10.0.1      |    Rusland     |Wijzigingen in aangifte van belasting op grondbezit van 2018 |
+|      2019 april          |   10.0.1      |    Rusland     |[Wijzigingen in aangifte van onroerendgoedbelasting van 2019](rus-assessed-tax-declaration.md)|
+|      2019 april          |   10.0.1      |    Rusland     |Wijzigingen in aangifte van transportbelasting van 2019  |
+|      2019 april            |   10.0.1      | Hongarije      |  Hongarije: online facturering v. 1.1 2019 op Microsoft Dynamics 365 for Finance and Operations  |
 |      mei 2019            |   10.0.2      | Brazilië      |   SPED ECD - indeling 7   |
+|      In behandeling            |   10.0.3      | Brazilië      |   NF-e nieuw NT 2018.005 - v.1.20   |
+|      In behandeling            |   10.0.3      | Brazilië      |   SPED ECD - indeling 7   |
+|      In behandeling            |   10.0.3      | Brazilië      |   SPED ECF - indeling 5 voor 2019   |
+|      In behandeling            |   10.0.3      | Litouwen    |   In een i.SAF-rapport kunnen gebruikers systeem-btw-codes definiëren in combinatie met wettelijke btw-codes    |
+|      In behandeling            |   10.0.3      | Polen     |   SAF-facturen (JPK_FA) v.2 van 1 juli 2019  |
+|      In behandeling            |   10.0.3      | Brazilië   |   Door ICMS-correcties in fiscale documenten is tabel 5.2 van kracht   |
+|      In behandeling            |   10.0.3      | Brazilië    |   NF-e-besluit 54.308/18 (RS)   |
 
 
-## <a name="additional-resources"></a>Aanvullende bronnen
-- Zoeken naar alle geplande en wettelijke updates op [Lifecycle Service - probleem zoeken](https://lcs.dynamics.com/Logon/Index) (aanmelden vereist).
+## <a name="additional-resources"></a>Aanvullende resources
+- Zoek naar alle geplande en wettelijke updates op [Lifecycle Service - probleem zoeken](https://lcs.dynamics.com/Logon/Index) (aanmelden vereist).
 - Voor een overzicht van de taalversies die worden ondersteund voor Dynamics 365 for Finance and Operations, raadpleegt u de [internationale beschikbaarheidshandleiding](https://aka.ms/dynamics_365_international_availability_deck).
 

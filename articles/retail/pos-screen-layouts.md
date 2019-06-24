@@ -3,7 +3,7 @@ title: Schermindelingen voor het verkooppunt (POS)
 description: Dit onderwerp biedt informatie over schermindelingen voor Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549423"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607029"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Schermindelingen voor het verkooppunt (POS)
 
@@ -51,6 +51,7 @@ Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de weergav
 - **Thema**: u kunt kiezen tussen de lichte en donkere toepassingthema's. Het thema heeft invloed op de tekst- en achtergrondkleuren in de toepassing.
 - **Accentkleur**: de accentkleur wordt overal in het POS gebruikt om bepaalde weergave-elementen, zoals tegels, opdrachtknoppen en hyperlinks, te onderscheiden of te markeren. Deze elementen zijn doorgaans uitvoerbaar.
 - **Koptekstkleur**: u kunt de kleur van de koptekst van de pagina configureren om te voldoen aan de huisstijlvereisten van de detailhandelaar. Deze functie is alleen beschikbaar Microsoft Dynamics 365 for Retail versie 1611.
+- **Datum/tijd weergeven**: indien ingeschakeld worden de huidige datum en tijd weergegeven in de POS-koptekst.
 - **Aanmeldingsachtergrond**: u kunt een achtergrondafbeelding opgeven voor het aanmeldingsscherm. De bestandsgrootte van achtergrondafbeeldingen moet zo klein mogelijk worden gehouden omdat het opslaan en laden van grote bestanden het gedrag en de prestaties van de toepassing kunnen beïnvloeden.
 - **Achtergrond van de toepassing**: u kunt een achtergrondafbeelding kiezen om in de hele toepassing te gebruiken in plaats van de effen themakleur. Voor aanmeldingsachtergronden moet de bestandsgrootte zo klein mogelijk worden gehouden.
 

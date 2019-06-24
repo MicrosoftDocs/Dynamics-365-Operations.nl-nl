@@ -16,16 +16,16 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541286"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606959"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Verbeteringen van boekingsfunctionaliteit voor overzichten
 
-[!include[banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt de eerste set verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten. Deze verbeteringen zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -59,7 +59,7 @@ Als onderdeel van de nieuwe overzichtsboekingsfunctie zijn er drie nieuwe parame
 Daarnaast zijn de volgende parameters ingevoerd op het sneltabblad **Batchverwerking** op het tabblad **Boeking** van de pagina **Detailhandelparameters**: 
 
 - **Maximumaantal parallelle overzichtboekingen**: dit veld bepaalt het aantal batchtaken dat wordt gebruikt om meerdere overzichten te boeken. 
-- **Maximale aantal threads voor orderverwerking per overzicht**: veld geeft het maximale aantal threads aan dat wordt gebruikt door de batchtaak voor het boeken van overzichten verkooporders voor een enkel overzicht te maken en te factureren. Het totale aantal threads dat door het boekingsproces voor overzichten wordt gebruikt, wordt berekend op basis van de waarde in deze parameter vermenigvuldigd met de waarde in de parameter **Maximumaantal parallelle overzichtboekingen**. Als u de waarde van deze parameter te hoog instelt, kunnen de prestaties van het boekingsproces voor overzichten negatief worden beïnvloed.
+- **Maximale aantal threads voor orderverwerking per overzicht**: dit veld geeft het maximale aantal threads aan dat wordt gebruikt door de batchtaak voor het boeken van overzichten verkooporders voor een enkel overzicht te maken en te factureren. Het totale aantal threads dat door het boekingsproces voor overzichten wordt gebruikt, wordt berekend op basis van de waarde in deze parameter vermenigvuldigd met de waarde in de parameter **Maximumaantal parallelle overzichtboekingen**. Als u de waarde van deze parameter te hoog instelt, kunnen de prestaties van het boekingsproces voor overzichten negatief worden beïnvloed.
 - **Maximale aantal transactieregels dat is opgenomen in aggregatie**: in dit veld wordt het aantal transactieregels gedefinieerd dat wordt opgenomen in één geaggregeerde transactie voordat een nieuwe wordt gemaakt. Geaggregeerde transacties worden gemaakt op basis van verschillende aggregatiecriteria zoals klant, werkdag of financiële dimensies. Het is belangrijk te weten dat de regels van een enkele detailhandeltransactie niet over verschillende geaggregeerde transacties worden verdeeld. Dit betekent dat het aantal regels in een geaggregeerde transactie iets hoger of lager kan liggen, op basis van factoren zoals het aantal verschillende producten.
 - **Maximumaantal threads om winkeltransacties te valideren**: dit veld definieert het aantal threads dat wordt gebruikt om detailhandeltransacties te valideren. Het valideren van detailhandeltransacties is een vereiste stap die moet plaatsvinden voordat de transacties in de overzichten kunnen worden opgenomen. U moet ook een **geschenkbonproduct** definiëren op het sneltabblad **Geschenkbon** van het tabblad **Boeking** van de pagina **Detailhandelparameters**. Dit moet worden gedefinieerd zelfs als er geen geschenkbonnen worden gebruikt door de organisatie.
 

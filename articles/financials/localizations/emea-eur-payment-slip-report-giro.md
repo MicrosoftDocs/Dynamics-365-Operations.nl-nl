@@ -17,12 +17,12 @@ ms.search.region: Belgium, Denmark, Finland, Norway, Switzerland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c8b51fd3476bc04f7a846668894f8a7d89a37bf8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1e3e8ca7356001d113c676b25bd27f890ef1d650
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513136"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547192"
 ---
 # <a name="payment-slip-report-for-europe"></a>Betalingsbonrapport voor Europa
 

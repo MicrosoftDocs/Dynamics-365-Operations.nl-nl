@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544904"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595390"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Aanbieders van configuraties maken en deze als actief markeren
 
@@ -34,11 +34,11 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan d
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
 2. Klik op Configuratieproviders.
 3. Klik op Nieuw.
-    * Een providerrecord heeft een unieke naam en URL. Bekijk de inhoud van deze pagina en sla deze procedure over als er al een record voor Litware, Inc (http://www.litware.com) bestaat.  
+    * Een providerrecord heeft een unieke naam en URL. Bekijk de inhoud van deze pagina en sla deze procedure over als er al een record voor Litware, Inc (https://www.litware.com) bestaat.  
 4. Typ 'Litware, Inc.' in het veld Naam.
     * Litware, Inc.  
-5. Typ 'http://www.litware.com' in het veld Internetadres.
-    * http://www.litware.com  
+5. Typ 'https://www.litware.com' in het veld Internetadres.
+    * https://www.litware.com  
 6. Klik op Opslaan.
 7. Sluit de pagina.
 

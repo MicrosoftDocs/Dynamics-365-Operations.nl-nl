@@ -16,12 +16,12 @@ ms.search.region: Netherlands
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b924f23b7d43df83c55bb901eeb68412dddbd3f7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 147de4823c0fced8c87234d77f31b6af1912101a
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538187"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550266"
 ---
 # <a name="nl-00003-semansys-xbrl-integration"></a>NL-00003 Semansys XBRL-integratie
 

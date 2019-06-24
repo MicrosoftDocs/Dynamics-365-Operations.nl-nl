@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536705"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617968"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>Functieblootstelling
@@ -138,10 +138,6 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
 - Het handmatig maken van quarantaineorders wordt niet ondersteund voor catch weight-producten.
 - Het handmatig muteren van voorraad dat is gerelateerd aan werk wordt niet ondersteund voor catch weight-producten.
 - Het consolideren van nummerplaten wordt niet ondersteund voor catch weight-producten.
-- Wijzigingen in de voorraadstatus magazijn als onderdeel van een periodieke taak worden niet voor catch weight-producten ondersteund.
-- Wijzigingen in de voorraadstatus die zijn gedefinieerd door een query worden niet ondersteund voor catch weight-producten. (Wijzigingen in de voorraadstatus van de kwaliteitsorder worden ook niet ondersteund.)
-- Voor catch weight-producten kan de voorraadstatus niet worden gewijzigd van de pagina **Voorhanden op locatie**.
-- Voor catch weight-producten kan de voorraadstatus niet worden gewijzigd als onderdeel van het magazijnapp mutatiewerk.
 - Het laden van nummerplaten voor het initialiseren van magazijnvoorraad wordt niet ondersteund voor catch weight-producten.
 - Batchverdelingsprocessen worden niet ondersteund voor catch weight-producten.
 - De verwerking van negatieve fysieke voorraad wordt niet ondersteund voor catch weight-producten.
@@ -151,7 +147,6 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
 
 - De functie voor clusterverzamelen wordt niet ondersteund voor catch weight-producten.
 - De magazijnverwerking verzamelen en inpakken wordt niet ondersteund voor catch weight-producten.
-- Voor catch weight-producten kan werk niet worden voltooid van de pagina **Werk**.
 - Voor catch weight-producten kan werk dat is gedefinieerd in een werksjabloon automatisch worden uitgevoerd.
 - De functie voor het ongedaan maken van werk wordt niet ondersteund voor catch weight-producten.
 - Voor catch weight-producten wordt het proces van het handmatige inpakstation waar werk wordt gecreëerd nadat containers zijn gesloten niet ondersteund.
@@ -163,7 +158,7 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
 - Kanbanfunctionaliteit wordt niet ondersteund voor catch weight-producten.
 - Voor catch weight-producten kunnen serienummers niet vóór verbruik worden geregistreerd.
 - De functie voor het ongedaan maken van nummerplaten wordt niet ondersteund voor catch weight-producten.
-- Voor catch weight-producten kan gereedmelding worden geregistreerd op serienummer.
+- Voor catch weight-producten kan gereedmelding niet worden geregistreerd op serienummer.
 
 ### <a name="transportation-management-processing"></a>Transportbeheerprocessen
 

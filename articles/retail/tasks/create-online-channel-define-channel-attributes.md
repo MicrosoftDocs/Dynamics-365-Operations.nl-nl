@@ -3,7 +3,7 @@ title: Online kanaal maken en kanaalkenmerken definiëren
 description: Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen ervan aan de organisatiehiërarchie.
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4547731d7e3bc56b1ba5e0a35ff4746c6c0e9863
+ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569516"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1618291"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Online kanaal maken en kanaalkenmerken definiëren
 
@@ -60,4 +60,10 @@ Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen 
 9. Klik op Publiceren om het verwijderdialoogvenster te openen.
 10. Typ in het veld Begindatum de datum en een tijd.
 11. Klik op Publiceren.
+
+## <a name="configure-orders-for-near-realtime-notification"></a>Orders configureren voor meldingen in bijna realtime
+1. Ga naar Detailhandel > Instelling van hoofdkantoor > Parameters > Detailhandelparameters.
+2. Stel Real-time service gebruiken om eCommerce-orders te maken in op Ja.
+3. Voer de distributieplanning 1070 uit om wijzigingen te synchroniseren naar de kanaaldatabase. 
+
 

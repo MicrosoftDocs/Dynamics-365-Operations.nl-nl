@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552712"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606890"
 ---
 # <a name="attributes-and-attribute-groups"></a>Kenmerken en kenmerkgroepen
 
@@ -176,8 +176,8 @@ Volg deze stappen om kenmerkgroepen toe te wijzen aan categorieën in de product
 > [!NOTE]
 > Deze procedure kan ook worden gebruikt om kenmerkgroepen toe te wijzen aan categorieën in de hiërarchie van kanaalnavigatiecategorieën en de aanvullende productcategoriehiërarchie. Gebruik de volgende navigatiepaden in stap 2:
 >
-> - **Detailhandel** &gt; **Categorie- en productbeheer** &gt; **Categorieën voor afzetkanaalnavigatie**
-> - **Detailhandel** &gt; **Categorie- en productbeheer** &gt; **Aanvullende productcategorieën**.
+> - Detailhandel &gt; Categorie- en productbeheer &gt; Categorieën voor afzetkanaalnavigatie
+> - Detailhandel &gt; Categorie- en productbeheer &gt; Aanvullende productcategorieën
 
 ### <a name="assign-attribute-groups-to-retail-stores"></a>Toewijzen van kenmerkgroepen aan detailhandelswinkels
 

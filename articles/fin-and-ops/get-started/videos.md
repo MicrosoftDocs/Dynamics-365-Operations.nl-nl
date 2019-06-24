@@ -3,7 +3,7 @@ title: Video's voor Finance and Operations
 description: Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2018
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
+ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561663"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1591543"
 ---
 # <a name="videos-for-finance-and-operations"></a>Video's voor Finance and Operations
 
@@ -50,7 +50,7 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 - [Optimization advisor](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Een ontwikkelingsvertakking en build instellen](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Een ontwikkelingsmachine instellen](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [Integratie van Azure DevOps met Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
+- [Azure DevOps-integratie met Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
 #### <a name="explore-the-user-interface"></a>De gebruikersinterface verkennen
 
@@ -63,6 +63,7 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 - [Het mobiele werkgebied Kostenbeheer](https://youtu.be/imsuTg8rUVk)
 - [Aan de slag met kostprijsboekhouding](https://youtu.be/1pUDtJQZ8FU)
 - [Kostenanalyse met Excel gebruiken](https://youtu.be/-HKHYdClvx8)
+- [Ervaring voor onkostennota's](https://youtu.be/Ocy-MsTvEE0)
 
 #### <a name="intelligence"></a>Intelligence
 
@@ -185,7 +186,7 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 - [Functies voor migratie van AX 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Upgrade van AX 2012 naar Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Upgraden naar 7.2 (juli 2017) vanaf 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Azure DevOps-setup (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Azure DevOps-instellingen (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="warehouse-management"></a>Magazijnbeheer
 

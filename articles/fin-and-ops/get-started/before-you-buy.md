@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546820"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595680"
 ---
 # <a name="before-you-buy"></a>Voordat u gaat kopen
 
@@ -63,7 +63,7 @@ Er zijn twee manieren om een abonnement te kopen voor een on-premises implementa
 
 ### <a name="buy-through-volume-licensing"></a>Kopen via een volumelicentieprogramma
 
-Als uw organisatie 250 of meer gebruikers van Dynamics 365 heeft, is een [volumelicentieovereenkomst](https://www.microsoft.com/en-us/Licensing/product-licensing/dynamics365) misschien interessant voor u.
+Als uw organisatie 250 of meer gebruikers van Dynamics 365 heeft, is een [volumelicentieovereenkomst](https://www.microsoft.com/Licensing/product-licensing/dynamics365) misschien interessant voor u.
 
 Volumelicenties voor Finance and Operations zijn beschikbaar via:
 
@@ -87,7 +87,7 @@ Microsoft biedt een flexibele, toonaangevende ondersteuning, services en bronnen
 Meer informatie:
 
 - [Ondersteuning voor Dynamics 365](https://www.microsoft.com/dynamics365/support)
-- [Beknopte gids voor voordelen van ondersteuning voor Microsoft Dynamics Cloud Service](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Beknopte gids voor voordelen van ondersteuning voor Microsoft Dynamics Cloud Service](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Stap vier: Informatie over FastTrack en uw implementatie plannen
 

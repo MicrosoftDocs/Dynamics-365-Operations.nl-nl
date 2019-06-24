@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567971"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577839"
 ---
 # <a name="get-support-for-dynamics-365-for-retail"></a>Ondersteuning krijgen voor Dynamics 365 for Retail
 
@@ -61,7 +61,7 @@ Gebruik de bronnen in de volgende tabel als u ondersteuning nodig hebt voor Reta
 <li>Op het tabblad <strong>Actief probleem</strong> selecteert u het probleem en klik vervolgens op <strong>Indienen bij Microsoft</strong>.</li>
 <li>Op het tabblad <strong>Ingediend bij Microsoft</strong> klikt u op <strong>Een nieuw incident indienen</strong> om het probleem in te dienen.</li>
 </ul>
-<blockquote>[!NOTE] Microsoft Premier-klanten en partners kunnen ook Premier-ondersteuningstickets indienen met de bovenstaande stappen.</blockquote>
+<p><strong>Opmerking</strong>: Microsoft Premier-klanten en partners kunnen ook Premier-ondersteuningstickets indienen met de bovenstaande stappen.</p>
 </td>
 </tr>
 <tr>
@@ -84,4 +84,4 @@ Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSour
 </tbody>
 </table>
 
-Voor meer informatie over Microsoft Dynamics-ondersteuning, zie [Microsoft Dynamics on line ondersteuning](https://dynamics.microsoft.com/en-us/support/).
+Voor meer informatie over Microsoft Dynamics-ondersteuning, zie [Microsoft Dynamics on line ondersteuning](https://dynamics.microsoft.com/support/).

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561804"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595657"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
 
@@ -971,7 +971,7 @@ Er is een betere 'low-touch' installatie van clientcomponenten via selfservice-i
 </tr>
 <tr>
 <td>De status van het systeem controleren en fouten en problemen diagnostiseren.</td>
-<td>Deze functionaliteit vereist <a href="http://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack voor Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Deze functionaliteit vereist <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack voor Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Monitoring en diagnostiek voor Retail-componenten is nu beschikbaar via het dashboard <strong>Operationeel Inzicht</strong> in LCS.</td>
 <td>Het dashboard <strong>Operationeel Inzicht</strong> is een op cloud gebaseerde monitoringportal, dat installatie van de System Center Operations Manager-infrastructuur (SCOM) overbodig maakt.</td>
 </tr>

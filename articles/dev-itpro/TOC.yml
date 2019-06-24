@@ -227,8 +227,9 @@
             - name: X-klassen
               href: dev-ref/x-classes.md
     - name: Uitbreidbaarheid
-      href: extensibility/extensibility-home-page.md
       items:
+        - name: Startpagina voor Uitbreidbaarheid
+          href: extensibility/extensibility-home-page.md
         - name: Inleiding en aan de slag
           items:
             - name: Plan voor uitbreidbaarheid van toepassing
@@ -243,38 +244,40 @@
               href: extensibility/customize-model-elements-extensions.md
             - name: Aanpassen via extensies en overlayering
               href: extensibility/customization-overlayering-extensions.md
-        - name: Wat is er nieuw
+        - name: NIeuwe functies
           items:
-            - name: Uitbreidbaarheidswijzigingen juli 2017
-              href: extensibility/changes-july-2017.md
-            - name: Uitbreidbaarheidswijzigingen in versie 7.3
-              href: extensibility/extensibility-changes-73.md
-            - name: Uitbreidbaarheidswijzigingen in versie 8.0
-              href: extensibility/changes-80.md
-            - name: Uitbreidbaarheidswijzigingen versie 8.0.1
-              href: extensibility/extensibility-changes-801.md
-            - name: Uitbreidbaarheidswijzigingen versie 8.0.2
-              href: extensibility/extensibility-changes-802.md
-            - name: Uitbreidbaarheidswijzigingen versie 8.0.3
-              href: extensibility/extensibility-changes-803.md
-            - name: Uitbreidbaarheidswijzigingen versie 8.0.4
-              href: extensibility/extensibility-changes-804.md
-            - name: Uitbreidbaarheidswijzigingen versie 8.1
-              href: extensibility/extensibility-changes-81.md
-            - name: Uitbreidbaarheidswijzigingen versie 8.1.1
-              href: extensibility/extensibility-changes-811.md
-            - name: Uitbreidbaarheidswijzigingen versie 8.1.2
-              href: extensibility/extensibility-changes-812.md
-            - name: Uitbreidbaarheidswijzigingen versie 8.1.3
-              href: extensibility/extensibility-changes-813.md
-            - name: Uitbreidbaarheidswijzigingen versie 10.0
-              href: extensibility/extensibility-changes-10.md
-            - name: Uitbreidbaarheidswijzigingen versie 10.0.1
-              href: extensibility/extensibility-changes-10-1.md
-            - name: Uitbreidbaarheidswijzigingen versie 10.0.2
-              href: extensibility/extensibility-changes-10-2.md
+            - name: Nieuwe of gewijzigde functies voor uitbreidbaarheid
+              href: extensibility/extensibility-new.md
             - name: Uitbreidbaarheidswijzigingen versie 10.0.3
               href: extensibility/extensibility-changes-10-3.md
+            - name: Uitbreidbaarheidswijzigingen versie 10.0.2
+              href: extensibility/extensibility-changes-10-2.md
+            - name: Uitbreidbaarheidswijzigingen versie 10.0.1
+              href: extensibility/extensibility-changes-10-1.md
+            - name: Uitbreidbaarheidswijzigingen versie 10.0
+              href: extensibility/extensibility-changes-10.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1.3
+              href: extensibility/extensibility-changes-813.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1.2
+              href: extensibility/extensibility-changes-812.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1
+              href: extensibility/extensibility-changes-81.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.3
+              href: extensibility/extensibility-changes-803.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: Uitbreidbaarheidswijzigingen in versie 8.0
+              href: extensibility/changes-80.md
+            - name: Uitbreidbaarheidswijzigingen in versie 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: Uitbreidbaarheidswijzigingen juli 2017
+              href: extensibility/changes-july-2017.md
         - name: Basisgegevens
           items:
             - name: Ingrijpende aanpassingen
@@ -361,9 +364,15 @@
       items:
         - name: Traceren met Trace parser
           href: perf-test/trace-trace-tutorial.md
-        - name: Performance SDK en meerdere gebruikers testen via Visual Studio Online
-          href: perf-test/perfsdk-tutorial.md
-        - name: Performance SDK en meerdere gebruikers testen in on-premises omgevingen
+        - name: Testen met één gebruiker met Taakrecorder en de Performance SDK
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: Testen met meerdere gebruikers met de Performance SDK en een lokale testcontroller
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: Testen met meerdere gebruikers met Performance SDK en Azure DevOps
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: Probleemoplossing voor testen met één of meerdere gebruikers met de Performance SDK
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
+        - name: Performance SDK en testen met meerdere gebruikers in on-premises omgevingen
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: Problemen vaststellen en prestatieproblemen analyseren met Trace parser
           href: perf-test/trace-parser.md
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: Wisselkoersproviders maken in Finance and Operations versie 8.0
           href: financial/create-exchange-rate-8.md
+    - name: 'Transacties vereffenen met CustTrans::settleTransaction'
+      href: financial/settletransact-obsolete.md
 - name: Ontwikkeling toeleveringsketen
   items:
     - name: Handleiding voor ontwikkeling van Gantt-besturingselement
@@ -1076,7 +1087,7 @@
       items:
         - name: Voorbereidingen voor het migreren van code
           href: migration-upgrade/prepare-migration.md
-        - name: Azure DevOps-toewijzing configureren
+        - name: De Azure DevOps-toewijzing configureren
           href: migration-upgrade/configure-vso-solution.md
         - name: Model splitsen
           href: dev-tools/model-split.md
@@ -1203,7 +1214,7 @@
           href: lifecycle-services/lcs-works-lcs.md
         - name: LCS voor partners
           href: lifecycle-services/getting-started-lcs.md
-        - name: Wat is er nieuw
+        - name: Nieuwe functies
           href: lifecycle-services/whats-new-lcs.md
         - name: Bekende problemen
           href: lifecycle-services/known-issues.md

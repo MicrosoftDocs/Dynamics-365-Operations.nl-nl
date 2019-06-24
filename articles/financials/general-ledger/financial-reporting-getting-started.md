@@ -3,7 +3,7 @@ title: Financiële rapportage
 description: In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 for Finance and Operations en hoe u de financiële rapportagemogelijkheden kunt gebruiken. Het bevat een omschrijving van de financiële standaardrapporten die worden geleverd.
 author: aprilolson
 manager: AnnBe
-ms.date: 09/26/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
+ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550300"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594955"
 ---
 # <a name="financial-reporting"></a>Financiële rapportage
 
@@ -64,7 +64,7 @@ De functies voor financiële rapportage zijn beschikbaar voor gebruikers aan wie
 
 | Bevoegdheidslabel                       | Beschrijving                                                             | AOT-naam                         |
 |---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
-| Beveiliging van financiële rapporten onderhouden | Beveiliging van financiële rapportage onderhouden en administratieve taken uitvoeren. | FinancialReportsSecurityMaintain |
+| Beveiliging van financiële rapporten onderhouden | Beveiliging van financiële rapportage onderhouden en administratieve taken uitvoeren. | FinancialReportsSecuritySystemMaintain |
 | Financiële rapporten onderhouden            | Financiële rapporten ontwerpen en onderhouden.                                  | FinancialReportsMaintainReports  |
 | Financiële rapporten genereren            | Financiële rapporten genereren en vernieuwen.                                 | FinancialReportsGenerateReports  |
 | Financiële rapporten weergeven                | Financiële rapporten weergeven.                                                 | FinancialReportsView             |

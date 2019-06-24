@@ -15,12 +15,12 @@ ms.search.region: belgium
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c705fa075a9694fddc72f9510932048612f44adf
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f622644ca7858bd858ec5f669b0d0eb8fa8884fc
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538214"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547872"
 ---
 # <a name="belgium"></a>België
 

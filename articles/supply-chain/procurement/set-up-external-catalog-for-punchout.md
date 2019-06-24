@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571626"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595606"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Externe catalogus instellen voor PunchOut eProcurement
 
@@ -59,8 +59,10 @@ Deze sectie biedt meer details over taak 4 uit de vorige sectie.
 4. Selecteer de leverancier voor de catalogus. In de lijst **Rechtspersonen** is er een rij voor elke rechtspersoon waarvoor de leverancier is ingesteld. Als u wilt toestaan dat gebruikers producten rechtstreeks uit de catalogus van de leverancier bestellen in sommige rechtspersonen maar niet in andere, kunt u dit instellen met de knoppen **Toegang voorkomen** of **Toegang toestaan** voor elke rechtspersoon waarvoor u de catalogus al dan niet toegankelijk wilt maken.
 5. Voer in het veld **Standaardvervalperiode (dagen)** het aantal dagen in dat een offerte uit de externe catalogus geldig is en kan worden gebruikt om in te kopen bij de externe leverancier. Wanneer een offerte wordt gemaakt en opgehaald van de externe catalogussite van de leverancier, dan is de offerte geldig met ingang van de huidige systeemdatum en blijft geldig gedurende het aantal dagen dat u in dit veld invoert.
 6. Klik op de knop **Toevoegen** om de aanschaffingscategorieën aan de externe catalogus toe te wijzen. Selecteer vervolgens een categorie in de lijst Categorienaam. De lijst met categorieën is een superset van aanschaffingscategorieën waaraan de leverancier is toegewezen in alle rechtspersonen die zijn ingesteld voor de leverancier.
-[!NOTE]
-Aanschaffingsbeleidsregels worden gebruikt om toegang tot categorieën toe te staan of te verbieden voor de kopende rechtspersoon of de ontvangende operationele eenheid. Punchout naar een externe catalogus vereist dat toegang wordt toegestaan tot tenminste één van de aanschaffingscategorieën die is toegewezen aan de catalogus.
+
+    > [!NOTE]
+    > Aanschaffingsbeleidsregels worden gebruikt om toegang tot categorieën toe te staan of te verbieden voor de kopende rechtspersoon of de ontvangende operationele eenheid. Punchout naar een externe catalogus vereist dat toegang wordt toegestaan tot tenminste één van de aanschaffingscategorieën die is toegewezen aan de catalogus.
+
 7. Stel het cXML bericht voor instellen van de aanvraag in, dat wordt verzonden naar de leverancier. De automatisch gegenereerde berichtindeling is de minimale sjabloon die is vereist om een sessie starten. Vul waarden in voor de codes.
 
 U kunt op elk gewenst moment de door het systeem gegenereerde berichtsjabloon laden door te klikken op **Berichtindeling herstellen**. 
@@ -85,7 +87,7 @@ Hieronder volgt een beschrijving van de codes die zijn opgenomen in de sjabloon:
 
 Een extrinsiek element is extra informatie, zoals een gebruikersnaam die is gebaseerd op een gebruiker die een punch-out uitvoert. Het extrinsieke element wordt ingesteld wanneer de punch-out plaatsvindt en kan worden verzonden in het aanvraaginstellingsbericht.
 Uw leverancier kan een vereiste hanteren voor het ontvangen van een extrinsiek element in de instellingsaanvraag. In dat geval moet u het extrinsieke element toevoegen aan de lijst met extrinsieke elementen in de sectie **Berichtindeling** van de pagina **Externe catalogus**. Geef een naam op voor het extrinsieke element dat de leverancier kan herkennen, en wijs deze toe aan een waarde. De opties voor waarden zijn: User name, User email of Random value.
-Zie http://cxml.org/ voor meer informatie over het cXML-protocol
+Zie voor meer informatie over het cXML-protocol de [cXML.org-website](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Terugpostbericht
 Het terugpostbericht is het bericht dat wordt ontvangen van de leverancier wanneer de gebruiker bij de externe site uitcheckt en terugkeert naar Finance and Operations. Terugpostberichten kunnen worden niet geconfigureerd. De berichten zijn gebaseerd op de definitie van het cXML-protocol. Hier is de informatie die deel kan uitmaken van het terugpostbericht dat wordt ontvangen voor een inkoopregel:

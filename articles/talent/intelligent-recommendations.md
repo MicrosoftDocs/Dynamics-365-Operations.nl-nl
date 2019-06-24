@@ -3,7 +3,7 @@ title: Intelligente aanbevelingen
 description: In dit onderwerp wordt uitgelegd hoe machine learning kan worden gebruikt voor aanbevelingen van functies en sollicitanten.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/25/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517693"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620615"
 ---
 # <a name="intelligent-recommendations"></a>Intelligente aanbevelingen
 
@@ -33,7 +33,7 @@ Machine learning kan wervers en aanstellend managers helpen snel de beste kandid
 
 > [!NOTE] 
 > - De intelligente aanbevelingsfuncties zijn alleen beschikbaar met de [Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Functionaliteit die in dit onderwerp wordt vermeld, is beschikbaar als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Als u deze functie wilt gebruiken, vraagt u een beheerder om deze in te schakelen via de **Beheerinstellingen** in Attract. Stel **Kandidaataanbeveling**, **Functieaanbeveling** en **Prospectaanbeveling** in op **Aan**. Zie voor meer informatie [Toegang tot voorbeeldfuncties in Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> - Functionaliteit die in dit onderwerp wordt vermeld, is beschikbaar als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Als u deze functie wilt gebruiken, vraagt u een beheerder om deze in te schakelen via **Beheercentrum** in Attract. Stel **Kandidaataanbeveling**, **Functieaanbeveling** en **Prospectaanbeveling** in op **Aan**. Zie voor meer informatie [Toegang tot voorbeeldfuncties in Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Aanbevelingen voor kandidaat

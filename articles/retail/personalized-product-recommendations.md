@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c73bc10332329e81986a259969f8fe34b57f4ee6
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559553"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606993"
 ---
 # <a name="personalized-product-recommendations"></a>Persoonlijke productaanbevelingen
 
@@ -44,7 +44,7 @@ Productaanbevelingen zijn ingeschakeld voor de volgende POS-scenario's. Ze zijn 
     - Als een winkelmedewerker een **productdetails**-pagina bezoekt wanneer hij eerdere transacties uit verschillende kanalen bekijkt, stelt de aanbevelingsengine extra artikelen voor die waarschijnlijk samen worden gekocht.
     - Als de winkelmedewerker een klant aan de transactie toevoegt en vervolgens een **productdetails**-pagina bezoekt, geeft de aanbevelingsengine persoonlijke aanbevelingen op basis van de transactiehistorie van de klant.
 
-    [![proddetails](./media/proddetails.png)](./media/proddetails.png)
+    [![Aanbevelingen op de pagina Productgegevens](./media/proddetails.png)](./media/proddetails.png)
 
 2. Op de pagina **Transactie**:
 
@@ -54,13 +54,11 @@ Productaanbevelingen zijn ingeschakeld voor de volgende POS-scenario's. Ze zijn 
     > [!NOTE]
     > Om aanbevelingen weer te geven op de pagina **Transactie**, moet de detailhandelaar de schermindeling in Dynamics 365 for Retail bijwerken. Het besturingselement **Aanbevelingen** moet aan de pagina **Transactie** worden toegevoegd.
 
-    [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Aanbevelingen op de pagina Transactie](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3. Op de pagina **Details klant**:
+3. Op de pagina **Klantgegevens** stelt de aanbevelingsengine artikelen voor op basis van de gebruikers-id en de artikelen op het wensenlijstje van de klant.
 
-    - De aanbevelingsengine stelt artikelen voor op basis van de gebruikers-id en de artikelen op het wensenlijstje van de klant.
-
-    [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
+    [![Aanbevelingen op de pagina Klantgegevens](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
 ## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Dynamics 365 for Retail configureren om aanbevelingen voor POS in te schakelen
 

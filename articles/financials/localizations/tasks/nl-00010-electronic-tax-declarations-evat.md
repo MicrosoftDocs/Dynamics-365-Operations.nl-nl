@@ -16,12 +16,12 @@ ms.search.region: Netherlands
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c4ee75330315a5d720d2e5ec37935d8eb1cc080a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a1f13d05477e4a9480a7792824483babadd4be61
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538188"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552730"
 ---
 # <a name="nl-00010-electronic-tax-declarations-evat"></a>NL-00010 Elektronische belastingaangiften (EVAT)
 

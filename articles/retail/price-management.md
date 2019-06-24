@@ -3,7 +3,7 @@ title: Verkoopprijsbeheer detailhandel
 description: Dit onderwerp beschrijft de concepten voor het maken en beheren van verkoopprijzen in Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 04/20/2018
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
+ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549390"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1594065"
 ---
 # <a name="retail-sales-price-management"></a>Verkoopprijsbeheer van detailhandel
 
@@ -231,3 +231,9 @@ Bovendien ondersteunt de adviseprijsengine **alleen** de volgende prijsbepalings
 
 - De prijs is gebaseerd op de productdimensies in volgorde van de meest specifieke variantprijs naar de minst specifieke variantprijs voor de modelproductprijs. Een prijs die wordt ingesteld via twee productdimensies (bijvoorbeeld kleur en grootte) wordt gebruikt vóór een prijs die is ingesteld via slechts één productdimensie (bijvoorbeeld grootte).
 - Dezelfde prijsgroep kan worden gebruikt om prijzen en kortingen te bepalen.
+
+## <a name="pricing-api-enhancements"></a>Verbeteringen in API voor prijzen
+
+Prijs is een van de belangrijkste factoren voor koopbeslissingen van veel klanten en veel klanten vergelijken de prijzen op verschillende locaties voordat ze overgaan tot koop. Om er zeker van te zijn dat ze concurrerende prijzen bieden, houden detailhandelaren hun concurrenten goed in de gaten en hebben ze vaak acties. Om deze detailhandelaren te helpen bij het aantrekken van klanten, is het zeer belangrijk dat bij het zoeken naar producten, in de bladerfunctie, lijsten en op de pagina met productdetails de meest nauwkeurige prijzen worden weergegeven.
+
+In een aanstaande release van Retail retourneert de API **GetActivePrices** prijzen die eenvoudige kortingen bevatten (bijvoorbeeld kortingen van één regel die niet afhankelijk zijn van andere artikelen in de winkelwagen). Op deze manier liggen de prijzen die worden weergegeven dicht bij het werkelijke bedrag dat klanten voor artikelen betalen. Deze API bevat alle soorten eenvoudige kortingen: op relatie, loyaliteit, catalogus en kanaal gebaseerde kortingen. Daarnaast retourneert de API de namen en validiteitsgegevens voor de toegepaste kortingen, zodat detailhandelaren een meer gedetailleerde omschrijving van de prijs kunnen bieden en een gevoel van urgentie creëren als de geldigheid van de korting binnenkort verloopt.

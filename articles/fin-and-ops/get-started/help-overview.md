@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538951"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595634"
 ---
 # <a name="finance-and-operations-help-system"></a>Help-systeem voor Finance and Operations
 
@@ -192,7 +192,7 @@ In de volgende tabel worden onze websites weergegeven. Sites die een sterretje (
 | [Docs.microsoft.com](/dynamics365/)                                                            | Host of koppelt naar alle productdocumentatie voor Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | De gratis eLearning-site van Microsoft. |
 | [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Biedt een ruimte voor samenwerking in de cloud die klanten en hun partners kunnen gebruiken om Dynamics 365 for Finance and Operations-projecten te beheren van pre-sales naar implementatie en bewerkingen. Deze site is handig in alle fasen van een implementatie. |
-| [Ondersteuningsblog](http://aka.ms/AXSupportBlog)                                                    | Geeft tips en trucs die door het Dynamics 365 for Finance and Operations-ondersteuningsteam worden geplaatst. |
+| [Ondersteuningsblog](https://aka.ms/AXSupportBlog)                                                    | Geeft tips en trucs die door het Dynamics 365 for Finance and Operations-ondersteuningsteam worden geplaatst. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Host inhoud uit eerdere versies. |
 | [Dynamics Community](https://community.dynamics.com/)                                          | Host blogs, forums en video's. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Biedt evaluatie- en verkoopinformatie. |

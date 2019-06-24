@@ -1,16 +1,16 @@
 ---
 title: Overzicht van leveranciersfacturen
-description: Dit artikel geeft algemene informatie over het leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.
+description: Dit onderwerp biedt algemene informatie over leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.
 author: abruer
 manager: AnnBe
-ms.date: 03/29/2019
+ms.date: 06/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
@@ -18,56 +18,60 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b57c18b5b2cf690111511e4c5a92d51fc23dd68c
+ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509493"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1618268"
 ---
 # <a name="vendor-invoices-overview"></a>Overzicht van leveranciersfacturen
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
-Dit artikel geeft algemene informatie over het leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services. 
+
+Dit onderwerp biedt algemene informatie over leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.
 
 ## <a name="vendor-invoices"></a>Leveranciersfacturen
 
-Een leveranciersfactuur op basis van een inkooporder is een factuur die wordt gegenereerd wanneer producten of services worden ontvangen op basis van een inkooporder die bij een leverancier is geplaatst. De leveranciersfactuur bevat een koptekst en één of meer regels voor artikelen of services. Een leveranciersfactuur voltooit de cyclus die loopt van inkooporder via productontvangstbon tot leveranciersfactuur. 
+Een leveranciersfactuur op basis van een inkooporder is een factuur die wordt gegenereerd wanneer producten of services worden ontvangen op basis van een inkooporder die bij een leverancier is geplaatst. De leveranciersfactuur bevat een koptekst en één of meer regels voor artikelen of services. Een leveranciersfactuur voltooit de cyclus die loopt van inkooporder via productontvangstbon tot leveranciersfactuur.
 
-Hoewel sommige leveranciersfacturen aan een inkooporder zijn gekoppeld, kunnen leveranciersfacturen ook regels bevatten die niet overeenkomen met inkooporderregels. U kunt ook leveranciersfacturen maken die niet aan inkooporders zijn gekoppeld. Deze leveranciersfacturen kunnen voor lopende services staan, zoals een rekening van een energiebedrijf, en u hoeft niet naar een inkooporder te verwijzen wanneer u deze toevoegt. 
+Hoewel sommige leveranciersfacturen aan een inkooporder zijn gekoppeld, kunnen leveranciersfacturen ook regels bevatten die niet overeenkomen met inkooporderregels. U kunt ook leveranciersfacturen maken die niet aan inkooporders zijn gekoppeld. Deze leveranciersfacturen kunnen voor lopende services staan, zoals een rekening van een energiebedrijf, en u hoeft niet naar een inkooporder te verwijzen wanneer u deze toevoegt.
 
 Er zijn verschillende manieren om een leveranciersfactuur op te geven:
 
--   Via het leveranciersfactuurregister kunt u snel facturen invoeren die niet naar een inkooporder verwijzen, zodat u de onkosten kunt samenvoegen. Door het goedkeuringsjournaal voor leveranciersfacturen te gebruiken, kunt u deze facturen selecteren en naar het leveranciersaldo boeken om de transitorische bedragen terug te boeken.
--   Met het leveranciersfactuurjournaal kunt u in één stap snel facturen invoeren die niet naar een inkooporder verwijzen.
--   In combinatie met de pool van leveranciersfacturen kunt u met het leveranciersfactuurregister snel facturen invoeren om onkosten samen te voegen. U kunt de bijbehorende inkooporders later openen om de factuur voor de onkostenrekening te boeken.
--   Op de pagina's **Openstaande leveranciersfacturen** en **Leveranciersfacturen in behandeling** kunt u leveranciersfacturen maken van bevestigde inkooporders.
+- Via het leveranciersfactuurregister kunt u snel facturen invoeren die niet naar een inkooporder verwijzen, zodat u de onkosten kunt samenvoegen. Door het goedkeuringsjournaal voor leveranciersfacturen te gebruiken, kunt u deze facturen selecteren en naar het leveranciersaldo boeken om de transitorische bedragen terug te boeken.
+- Met het leveranciersfactuurjournaal kunt u in één stap snel facturen invoeren die niet naar een inkooporder verwijzen.
+- In combinatie met de pool van leveranciersfacturen kunt u met het leveranciersfactuurregister snel facturen invoeren om onkosten samen te voegen. U kunt de bijbehorende inkooporders later openen om de factuur voor de onkostenrekening te boeken.
+- Op de pagina's **Openstaande leveranciersfacturen** en **Leveranciersfacturen in behandeling** kunt u leveranciersfacturen maken van bevestigde inkooporders.
 
 De volgende discussie biedt meer informatie over het gebruik van de pagina **Openstaande leveranciersfacturen** of **Leveranciersfacturen in behandeling** om een leveranciersfactuur van een inkooporder te maken.
 
 ## <a name="understanding-invoice-line-quantities"></a>Factuurregelhoeveelheden begrijpen
+
 Wanneer u een leveranciersfactuur opent vanuit een gerelateerde inkooporder, worden factuurregels gemaakt op basis van de inkooporder. Standaard komen de hoeveelheden overeen met de hoeveelheid van de productontvangstbon. U kunt echter de volgende standaardgedragingen gebruiken:
 
--   **Hoeveelheid nu ontvangen** - Gebruik deze optie voor gedeeltelijke zendingen. De standaardwaarde in het veld **Hoeveelheid** wordt overgenomen uit het veld **Nu ontvangen** in de inkooporder.
--   **Bestelde hoeveelheid** - Gebruik deze optie voor volledige zendingen. De standaardwaarde in het veld **Hoeveelheid** wordt overgenomen uit het hoeveelheidsveld **Besteld** in de inkooporder.
--   **Geregistreerde hoeveelheid** - Gebruik deze optie als het artikel moet worden geregistreerd, zoals opgegeven op de pagina **Artikelmodelgroepen**. De standaardwaarde in het veld **Hoeveelheid** is de fysieke updatehoeveelheid die is geregistreerd.
--   **Hoeveelheid productontvangstbon** – Gebruik deze optie als al een productontvangstbon voor de order is ontvangen. De standaardwaarde in het veld **Hoeveelheid** wordt afgeleid van de totale hoeveelheid aan beschikbare productontvangstbonnen.
--   **Geregistreerde hoeveelheid en services** – Gebruik deze optie als hoeveelheden in aankomstjournalen zijn geregistreerd voor artikelen in voorraad of artikelen die niet in voorraad zijn opgeslagen. Deze optie omvat ook al dan niet geregistreerde services.
+- **Hoeveelheid nu ontvangen** - Gebruik deze optie voor gedeeltelijke zendingen. De standaardwaarde in het veld **Hoeveelheid** wordt overgenomen uit het veld **Nu ontvangen** in de inkooporder.
+- **Bestelde hoeveelheid** - Gebruik deze optie voor volledige zendingen. De standaardwaarde in het veld **Hoeveelheid** wordt overgenomen uit het veld **Besteld** in de inkooporder.
+- **Geregistreerde hoeveelheid** - Gebruik deze optie als het artikel moet worden geregistreerd, zoals opgegeven op de pagina **Artikelmodelgroepen**. De standaardwaarde in het veld **Hoeveelheid** is de fysieke updatehoeveelheid die is geregistreerd.
+- **Hoeveelheid productontvangstbon** – Gebruik deze optie als al een productontvangstbon voor de order is ontvangen. De standaardwaarde in het veld **Hoeveelheid** wordt afgeleid van de totale hoeveelheid aan beschikbare productontvangstbonnen.
+- **Geregistreerde hoeveelheid en services** – Gebruik deze optie als hoeveelheden in aankomstjournalen zijn geregistreerd voor artikelen in voorraad of artikelen die niet in voorraad zijn opgeslagen. Deze optie omvat ook al dan niet geregistreerde services.
 
-Als uw rechtspersoon factuurvereffening gebruikt, kunt u de resultaten van de hoeveelheidsvereffening in de kolom **Overeenkomst van hoeveelheid van productontvangstbon** bekijken. U kunt ook de menuopdracht **Overeenkomende gegevens** op het tabblad **Aanpassen** gebruiken om de resultaten van de hoeveelheidsvereffening te bekijken.
+Als uw rechtspersoon factuurvereffening gebruikt, kunt u de resultaten van de hoeveelheidsvereffening in de kolom **Overeenkomst van hoeveelheid van productontvangstbon** bekijken. U kunt ook de knop **Overeenkomende gegevens** op het tabblad **Controleren** van het actievenster gebruiken om de resultaten van de hoeveelheidsvereffening te bekijken.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Een regel toevoegen die niet bestaat in de inkooporder
-U kunt aan de leveranciersfactuur een nieuwe regel toevoegen die niet in de inkooporder is opgenomen. U moet een artikelnummer of een aanschaffingscategorie selecteren. Vervolgens kunt u hoeveelheden, prijzen en bedragen aan de regel toevoegen. De regel wordt alleen in overeenstemmingsbeleid voor factuurtotalen opgenomen.
+
+U kunt aan de leveranciersfactuur een regel toevoegen die niet in de inkooporder is opgenomen. U moet een artikelnummer of een aanschaffingscategorie selecteren. Vervolgens kunt u hoeveelheden, prijzen en bedragen aan de regel toevoegen. De regel wordt alleen in overeenstemmingsbeleid voor factuurtotalen opgenomen.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Een leveranciersfactuur ter beoordeling indienen
-Uw organisatie gebruikt mogelijke workflows om het controleproces voor leveranciersfacturen te beheren. Workflowcontrole kan vereist zijn voor de factuurkoptekst, de factuurregel of voor beide. De besturingselementen voor de workflow zijn van toepassing op de koptekst of op de regel, afhankelijk van waar de focus zich bevindt als u op het besturingselement klikt. In plaats van de knop **Boeken** wordt een knop **Verzenden** weergegeven, die u kunt gebruiken om de leveranciersfactuur door het controleproces te verzenden.
+
+Uw organisatie gebruikt mogelijke workflows om het controleproces voor leveranciersfacturen te beheren. Workflowcontrole kan vereist zijn voor de factuurkoptekst, de factuurregel of voor beide. De besturingselementen voor de workflow zijn van toepassing op de koptekst of op de regel, afhankelijk van waar de focus zich bevindt als u het besturingselement selecteert. In plaats van de knop **Boeken** wordt een knop **Verzenden** weergegeven, die u kunt gebruiken om de leveranciersfactuur door het controleproces te verzenden.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Leveranciersfacturen vereffenen met productontvangstbonnen
-U kunt gegevens voor leveranciersfacturen invoeren en opslaan en u kunt factuurregels vergelijken met productontvangstbonregels. U kunt ook gedeeltelijke hoeveelheden voor een regel vergelijken. 
 
-U kunt een leveranciersfactuur maken op basis van de artikelen op de productontvangstbonregel die tot nu toe zijn ontvangen, zelfs als nog niet alle artikelen voor een bepaalde inkooporder zijn ontvangen. U kunt dit bijvoorbeeld doen als een leverancier één factuur per maand stuurt die alle leveringen dekt die de leverancier in die maand verzendt. Elke productontvangstbon staat voor een gedeeltelijke of volledige levering van de artikelen op de inkooporder. 
+U kunt gegevens voor leveranciersfacturen invoeren en opslaan en u kunt factuurregels vergelijken met productontvangstbonregels. U kunt ook gedeeltelijke hoeveelheden voor een regel vergelijken.
+
+U kunt een leveranciersfactuur maken op basis van de artikelen op de productontvangstbonregel die tot op heden zijn ontvangen, zelfs als nog niet alle artikelen voor een bepaalde inkooporder zijn ontvangen. U kunt dit bijvoorbeeld doen als een leverancier één factuur per maand stuurt die alle leveringen dekt die de leverancier in die maand verzendt. Elke productontvangstbon staat voor een gedeeltelijke of volledige levering van de artikelen op de inkooporder.
 
 Wanneer u de factuur boekt, wordt de hoeveelheid bij **Resterend gedeelte van factuur** voor elk artikel bijgewerkt met het totaal van de ontvangen hoeveelheden van de geselecteerde productontvangstbonnen. Als de hoeveelheid voor **Resterend gedeelte van factuur** en de hoeveelheid voor **Nog te leveren** voor alle artikelen op de inkooporder 0 (nul) zijn, wordt de status van de inkooporder gewijzigd in **Gefactureerd**. Als de hoeveelheid voor **Resterend gedeelte van factuur** niet gelijk is aan 0 (nul), blijft de status van de inkooporder ongewijzigd en kunnen hiervoor extra facturen worden ingevoerd.
 
@@ -77,25 +81,28 @@ Zie [Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen](../acco
 
 ## <a name="working-with-multiple-invoices"></a>Werken met meerdere facturen
 
-U kunt met meerdere facturen tegelijkertijd werken en ze allemaal op hetzelfde moment boeken. Als u meerdere facturen moet maken, gebruikt u de pagina **Leveranciersfacturen in behandeling**. Als u meerdere leveranciersfacturen moet boeken en afdrukken, gebruikt u de pagina Factuurgoedkeuringsjournaal Als u het factuurgoedkeuringsjournaal gebruikt, moet er minimaal één productontvangstbon worden geboekt voor de inkooporder en moet er een factuur voor de inkooporder worden geboekt in een facturenregister. De financiële gegevens voor de factuur komen uit de factuur die is geboekt in het register.
+U kunt met meerdere facturen tegelijkertijd werken en ze allemaal op hetzelfde moment boeken. Als u meerdere facturen moet maken, gebruikt u de pagina **Leveranciersfacturen in behandeling**. Als u meerdere leveranciersfacturen moet boeken en afdrukken, gebruikt u het factuurgoedkeuringsjournaal. Als u het factuurgoedkeuringsjournaal gebruikt, moet er minimaal één productontvangstbon worden geboekt voor de inkooporder en moet er een factuur voor de inkooporder worden geboekt in een facturenregister. De financiële gegevens voor de factuur komen uit de factuur die is geboekt in het register.
 
-## <a name="recovering-vendor-invoices-that-are-in-use"></a>Leveranciersfacturen herstellen die in gebruik zijn
+## <a name="recovering-vendor-invoices-that-are-being-used"></a>Leveranciersfacturen herstellen die worden gebruikt
 
-Wanneer een leveranciersfactuur wordt gebruikt, kan deze niet worden bewerkt door een andere gebruiker. De status van een factuur kan echter soms aangeven dat de factuur in gebruik is, zelfs als deze niet actief wordt bewerkt. De toepassing reageert mogelijk niet meer tijdens de bewerking van de factuur, of een gebruiker kan per ongeluk de factuur open hebben gelaten in de toepassing.
+Wanneer een leveranciersfactuur wordt gebruikt, kan deze niet worden bewerkt door een andere gebruiker. De status van een factuur kan echter soms aangeven dat de factuur wordt gebruikt, zelfs als deze niet actief wordt bewerkt. De toepassing reageert mogelijk niet meer tijdens de bewerking van de factuur, of een gebruiker kan per ongeluk de factuur open hebben gelaten in de toepassing.
 
 U kunt de pagina **Leveranciersfacturen herstellen** gebruiken om leveranciersfacturen die voor meer dan vier uur in gebruik waren, te herstellen of vrij te geven zodat ze kunnen worden bewerkt. U kunt deze pagina openen via de navigatie of tegel **Periodieke taak** in het werkgebied **Leveranciersfactuurregistratie**. Nadat een factuur is hersteld, kan deze worden bewerkt op de pagina **Leveranciersfactuur**.
 
 U kunt toegang krijgen tot de pagina **Leveranciersfacturen herstellen** als de beveiligingsfunctie en -bevoegdheid **Leveranciersfacturen in gebruik herstellen** aan u zijn toegewezen. Bovendien moet de parameter **Herstellen van leveranciersfactuur toestaan** op de pagina **Leveranciersparameters** worden ingeschakeld.
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>De workflowstatus voor leveranciersfacturen van Onherstelbaar wijzigen in Concept
 
- - [Leveranciersfactuurbeleid instellen](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+Een workflowexemplaar dat is gestopt vanwege een onherstelbare fout, heeft een workflowstatus **Onherstelbaar**. Wanneer de status van een werkstroom voor leveranciersfacturen **Onherstelbaar**is, kunt u deze weer instellen op **Concept**. Vervolgens kunt u de leveranciersfactuur bewerken. Deze functie is beschikbaar als de parameter **Conceptstatus herstellen voor workflow van leveranciersfactuur** op de pagina **Functiebeheer** is ingeschakeld.
 
- - [Factuurgegevens invoeren in leveranciers met behulp van een leveranciersfactuur](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+U kunt de pagina **Workflowstatus voor leveranciersfacturen herstellen** gebruiken om de workflowstatus in te stellen op **Concept**. U kunt deze pagina openen via **Periodieke taak**. Op de pagina worden alle leveranciersfacturen met de workflowstatus **Onherstelbaar** in de huidige rechtspersoon weergegeven. Daarnaast wordt aangegeven welke gebruiker elke factuur heeft ingediend bij de workflow en worden de factuur-id en workflowgeschiedenis weergegeven. Als u de workflowstatus wilt instellen op **Concept**, markeert u een of meer facturen en selecteert u vervolgens **Bijwerken naar concept**. Als de workflowstatus is ingesteld op **Concept**, wordt deze beschikbaar voor bewerking op de pagina **Leveranciersfactuur**.
 
- - [Factuurgegevens invoeren in leveranciers met behulp van een goedkeuringsjournaal](tasks/key-invoice-data-into-ap-system-approval-journal.md)
+U kunt de pagina **Workflowstatus voor leveranciersfacturen herstellen** alleen openen als de beveiligingsfunctie **De status voor de workflow voor leveranciersfacturen handhaven** en de bevoegdheid **De status voor de workflow voor leveranciersfacturen herstellen** aan u zijn toegewezen.
 
- - [Factuurgegevens invoeren in het AP-systeem met behulp van de facturengroep](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
+## <a name="additional-resources"></a>Aanvullende resources
 
- - [Een leveranciersfactuur in het factuurjournaal registreren](tasks/record-vendor-invoice-invoice-journal.md)
-
+- [Leveranciersfactuurbeleid instellen](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
+- [Factuurgegevens invoeren in leveranciers met behulp van een leveranciersfactuur](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+- [Factuurgegevens invoeren in leveranciers met behulp van een goedkeuringsjournaal](tasks/key-invoice-data-into-ap-system-approval-journal.md)
+- [Factuurgegevens invoeren in het AP-systeem met behulp van de facturengroep](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
+- [Een leveranciersfactuur in het factuurjournaal registreren](tasks/record-vendor-invoice-invoice-journal.md)

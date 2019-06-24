@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9e8c16724364df4dd62150056299e818470aa63
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cd500c2880545ccae3cde7e2ead2fc5b83167d32
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553686"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595357"
 ---
 # <a name="trial-balance-financial-reports"></a>Financiële rapporten proefbalans
 
@@ -106,7 +106,7 @@ In elk proefbalansrapport wordt een andere kolomdefinitie gebruikt. Deze kolomde
 
 [Financiële rapporten weergeven](view-financial-reports.md)
 
-[Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog met financiële rapportage van Dynamics](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

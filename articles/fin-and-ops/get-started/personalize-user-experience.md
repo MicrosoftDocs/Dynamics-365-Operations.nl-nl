@@ -1,9 +1,9 @@
 ---
 title: De gebruikerservaring aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations aanpast.
-author: TLeforMicrosoft
+author: jasongre
 manager: AnnBe
-ms.date: 04/24/2019
+ms.date: 05/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,20 +15,19 @@ ms.search.scope: Core, Operations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
-ms.author: tlefor
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
+ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1528839"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620009"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations aanpast.
 
@@ -75,7 +74,7 @@ Sommige van de meest gangbare en belangrijke wijzigingen die in een pagina kunne
 
 Bovendien zijn de meest algemene typen expliciete aanpassing beschikbaar door met de rechtermuisknop op een element te klikken en vervolgens **Aanpassen** te selecteren. (Houd er rekening mee dat niet alle elementen op uw pagina kunnen worden aangepast.) Wanneer u deze methode van aanpassing selecteert, ziet u het eigenschappenvenster van het element.
 
-[![Eigenschappen van een element aanpassen](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
+![Eigenschappen van een element aanpassen](./media/personalization-element-properties.png)
 
 U kunt het eigenschappenvenster gebruiken om een element op de volgende manieren aan te passen:
 
