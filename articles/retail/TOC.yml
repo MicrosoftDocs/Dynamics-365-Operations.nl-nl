@@ -4,7 +4,7 @@
   items:
     - name: Nieuwe of gewijzigde functies
       href: get-started/whats-new.md
-    - name: Preview-functies in Dynamics 365 for Retail 10.0.3
+    - name: Nieuwe of gewijzigde functies in Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: Nieuwe of gewijzigde functies in Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
@@ -407,6 +407,10 @@
       items:
         - name: Voorbeeld van integratie van fiscale printer voor Italië
           href: localizations/emea-ita-fpi-sample.md
+    - name: Mexico
+      items:
+        - name: Algemene CFDI-e-facturen voor Mexico
+          href: ../financials/localizations/latam-mex-global-cfdi-3-3.md
     - name: Noorwegen
       items:
         - name: Kassafunctionaliteit

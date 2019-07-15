@@ -997,6 +997,8 @@
               href: deployment/deploy-retail-onprem.md
         - name: Aangepaste modellen voor on-premises omgevingen ontwikkelen en implementeren
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: Integratie PowerBI.com met on-premises omgevingen
+          href: analytics/entity-store-on-prem.md
         - name: Reverse-proxy's voor on-premises omgevingen configureren
           href: deployment/onprem-reverseproxy.md
         - name: Updates toepassen op een on-premises implementatie
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: Problemen oplossen met on-premises implementaties
           href: deployment/troubleshoot-on-prem.md
+        - name: Certificaatrotatie
+          href: deployment/certificate-rotation-on-prem.md
     - name: Aangepaste code implementeren
       items:
         - name: Implementeerbare modelpakketten maken
