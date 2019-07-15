@@ -44,9 +44,9 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Functies die niet worden geïmplementeerd in on-premises implementaties
               href: get-started/features-not-implemented-on-prem.md
-            - name: Preview van functies in Finance and Operations versie 10.0.4 (juli 2019)
+            - name: Finance and Operations versie 10.0.4 (juli 2019)
               href: get-started/whats-new-changed-10-0-4.md
-            - name: Preview van functies in Finance and Operations versie 10.0.3 (juni 2019)
+            - name: Finance and Operations versie 10.0.3 (juni 2019)
               href: get-started/whats-new-changed-10-0-3.md
             - name: Finance and Operations versie 10.0.2 (mei 2019)
               href: get-started/whats-new-changed-10-0-2.md
@@ -56,9 +56,9 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations versie 8.1.3 (januari 2019)
               href: get-started/whats-new-changed-8-1-3.md
-            - name: Preview van functies in Finance and Operations platform update 28 (juli 2019)
+            - name: Platform update 28 (juli 2019)
               href: get-started/whats-new-platform-update-28.md
-            - name: Preview van functies in Finance and Operations platform update 27 (juni 2019)
+            - name: Platform update 27 (juni 2019)
               href: get-started/whats-new-platform-update-27.md
             - name: Platform update 26 (mei 2019)
               href: get-started/whats-new-platform-update-26.md
@@ -238,8 +238,14 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: ISV-oplossingen leveren met Eén versie
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Regression Suite Automation Tool
-          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+        - name: Automatisering testen
+          items:
+            - name: Acceptatietests voor gebruikers maken en automatiseren
+              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+            - name: Zelfstudie voor Regression Suite Automation Tool instellen
+              href: get-started/hol-set-up-regression-suite-automation-tool.md
+            - name: Zelfstudie voor Regression Suite Automation Tool gebruiken
+              href: get-started/hol-use-regression-suite-automation-tool.md
     - name: Zakelijke gebeurtenissen
       href: ../dev-itpro/business-events/home-page.md
       items:
@@ -257,6 +263,10 @@
           href: ../dev-itpro/business-events/troubleshooting.md
         - name: Cases voor zakelijke gebeurtenissen gebruiken
           href: ../dev-itpro/business-events/potential-use-cases.md
+        - name: Zelfstudies
+          items:
+            - name: Zakelijke gebeurtenissen verbruiken met Microsoft Flow
+              href: ../dev-itpro/business-events/how-to/how-to-flow.md
     - name: Conformiteit
       items:
         - name: Controlebeleidsregels
@@ -849,7 +859,7 @@
               href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
             - name: Financiële dimensies
               href: ../financials/general-ledger/financial-dimensions.md
-            - name: Rekeningstructuren
+            - name: Financiële dimensies en boeken
               href: ../financials/general-ledger/Default-dimensions.md
             - name: Financiële dimensies toevoegen aan het CFO-werkgebied
               href: ../financials/general-ledger/CFO-workspace.md
@@ -1080,6 +1090,8 @@
                   href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
                 - name: Rekeningstructuren maken
                   href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Financiële dimensies en boeken
+                  href: ../financials/general-ledger/default-dimensions.md
                 - name: Toerekeningsschema's maken
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
                 - name: Financiële consolidaties en valutaomzetting
@@ -1936,10 +1948,144 @@
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: GST-integratie voor kassa's
                   href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: Een belastbaar artikel kopen bij een niet-geregistreerde leverancier
-                  href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
-            - name: Implementatierichtlijnen voor kassa's
-              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+                - name: Hoofdgegevens instellen
+                  items:
+                    - name: Verticaal bedrijfssegment maken
+                      href: ../financials/localizations/apac-ind-GST-create-business-vertical.md
+                    - name: Staatcode en gebied van vakbond bijwerken
+                      href: ../financials/localizations/apac-ind-GST-update-state-code-union-territory.md
+                    - name: Een GSTIN-model maken
+                      href: ../financials/localizations/apac-ind-GST-create-gstin-master.md
+                    - name: GSTIN's en nummerreeksen voor verwijzingen definiëren
+                      href: ../financials/localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                    - name: HSN-codes en Service Accounting Codes definiëren
+                      href: ../financials/localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                    - name: Hoofdaccounts maken voor het GST-boekingstype
+                      href: ../financials/localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                    - name: Vereffeningsperiode voor belasting maken
+                      href: ../financials/localizations/apac-ind-GST-create-tax-settlement-period.md
+                    - name: GSTIN koppelen aan een belastingregistratiegroep
+                      href: ../financials/localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                - name: Belastinginstellingen
+                  items:
+                    - name: Een belastingconfiguratie definiëren en implementeren voor rechtspersonen
+                      href: ../financials/localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                    - name: Configuratie van belastingtypen toewijzen - douane
+                      href: ../financials/localizations/apac-ind-GST-map-configuration-tax-types.md
+                    - name: Tarieven- en percentagetabellen instellen
+                      href: ../financials/localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                    - name: Een btw-hiërarchie en de compensatieregels instellen
+                      href: ../financials/localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                - name: Inkooptransactie
+                  items:
+                    - name: Inkopen bij niet-geregistreerde leveranciers
+                      href: ../financials/localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                    - name: Een belastbaar artikel kopen bij een niet-geregistreerde leverancier
+                      href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                    - name: Inkopen bij geregistreerde leveranciers
+                      href: ../financials/localizations/apac-ind-GST-purchases-registered-vendor.md
+                    - name: Inkopen van goederen met korting
+                      href: ../financials/localizations/apac-ind-GST-purchase-discounted-goods.md
+                    - name: Inkoop van vrijgestelde goederen
+                      href: ../financials/localizations/apac-ind-GST-purchase-exempted-goods.md
+                    - name: Inkoop van btw vrijgestelde goederen
+                      href: ../financials/localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                    - name: Inkopen van niet-GST-goederen
+                      href: ../financials/localizations/apac-ind-GST-purchase-non-gst-goods.md
+                    - name: Inkopen van samengestelde handelaars
+                      href: ../financials/localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                    - name: Inkopen van belastbare goederen met verzendkosten
+                      href: ../financials/localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                    - name: Een inkoopfactuur met belastbare goederen herzien
+                      href: ../financials/localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                    - name: Inkopen van vaste activa
+                      href: ../financials/localizations/apac-ind-GST-purchase-fixed-asset.md
+                    - name: Een creditnota maken op basis van een inkoopfactuur
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                    - name: Een debetnota maken op basis van een inkoopfactuur
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                    - name: Kwaliteitsorders waarbij het bemonsteringsartikel vernietigd wordt
+                      href: ../financials/localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                    - name: Inkoopretourorders
+                      href: ../financials/localizations/apac-ind-GST-purchase-return-order.md
+                    - name: Vooruitbetalingen van leveranciers met terugboekingskosten
+                      href: ../financials/localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                - name: Verkooptransactie
+                  items:
+                    - name: Verkoop van belastbare goederen aan klanten
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                    - name: Verkoop aan geregistreerde klanten
+                      href: ../financials/localizations/apac-ind-GST-sell-registered-customer.md
+                    - name: Vrije-tekstfacturen
+                      href: ../financials/localizations/apac-ind-GST-free-text-invoices.md
+                    - name: Verkoop van belastbare goederen met terugboekingskosten
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                    - name: Verkoop van vrijgestelde artikelen
+                      href: ../financials/localizations/apac-ind-GST-sales-exempted-item.md
+                    - name: Verkoop van btw vrijgestelde goederen
+                      href: ../financials/localizations/apac-ind-GST-sell-zero-rated-goods.md
+                    - name: Verkoop van niet-GST-goederen
+                      href: ../financials/localizations/apac-ind-GST-sell-non-gst-goods.md
+                    - name: Verkoop van belastbare goederen met een korting en een voorlopige beoordeling
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                    - name: Verkoop van belastbare goederen met belasting op verzendkosten
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                    - name: Verkoop waarbij prijzen inclusief en exclusief btw zijn
+                      href: ../financials/localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                    - name: Een debetnota maken op basis van een verkoopfactuur
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                    - name: Een creditnota maken op basis van een verkoopfactuur
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                    - name: Verkoopfacturen die worden gesplitst op basis van afleveradressen
+                      href: ../financials/localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                    - name: Retourorders
+                      href: ../financials/localizations/apac-ind-GST-return-order-form.md
+                - name: Buitenlandse transacties
+                  items:
+                    - name: Goederen met GST importeren
+                      href: ../financials/localizations/apac-ind-GST-import-goods-gst.md
+                    - name: Services met GST importeren
+                      href: ../financials/localizations/apac-ind-import-services-gst.md
+                    - name: Van btw vrijgestelde goederen exporteren
+                      href: ../financials/localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                    - name: Van btw vrijgestelde services exporteren
+                      href: ../financials/localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                - name: Voorraadtransactie
+                  items:
+                    - name: Voorraadoverboekingsorders met btw op de overboekingsprijs
+                      href: ../financials/localizations/apac-ind-GST-stock-transfer-transactions.md
+                - name: Klantbetalingstransactie
+                  items:
+                    - name: Vooruitbetalingen inclusief btw
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-includes-tax.md
+                    - name: Vooruitbetalingen die worden vereffend tijdens het boeken van de factuur
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                    - name: Handmatige vereffening van een vooruitbetaling en een factuur inclusief btw
+                      href: ../financials/localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                    - name: Betaling van facturen inclusief btw
+                      href: ../financials/localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                    - name: Vooruitbetalingen inclusief btw herzien
+                      href: ../financials/localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                    - name: Restituties van klantbetalingen
+                      href: ../financials/localizations/apac-ind-GST-customer-payment-refund.md
+                - name: Directe belastingtransactie
+                  items:
+                    - name: GST opnemen bij berekenen van belastinginhoudingen
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                    - name: GST opnemen bij berekenen van belastingincasso's
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                - name: Bedrag belastingaanpassing
+                  href: ../financials/localizations/apac-ind-GST-tax-adjustments.md
+                - name: Belastingvereffening op basis van regels
+                  href: ../financials/localizations/apac-ind-GST-tax-settlement.md
+                - name: Een belastingjournaal maken
+                  href: ../financials/localizations/apac-ind-GST-tax-journal.md
+                - name: GSTR-rapportgegevens genereren voor belastingretouren
+                  href: ../financials/localizations/apac-ind-GST-tax-returns.md
+                - name: Belastingquery
+                  href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
+                - name: Implementatierichtlijnen voor kassa's
+                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Overzicht van belastingberekenfunctie
               href: ../financials/general-ledger/tax-engine.md
               items:
@@ -2375,8 +2521,12 @@
                   href: ../financials/localizations/rus-excel-financial-report.md
                 - name: Boekhoudrapporten in elektronische opmaak
                   href: ../financials/localizations/rus-accounting-reporting.md
-                - name: Beoordeelde btw-aangifte
+                - name: Beoordeelde belastingaangifte
                   href: ../financials/localizations/rus-assessed-tax-declaration.md
+                - name: Belastingaangifte van import
+                  href: ../financials/localizations/rus-transport-tax-declaration.md
+                - name: Belastingaangifte land
+                  href: ../financials/localizations/rus-land-tax-declaration.md
             - name: Organisatiebeheer
               items:
                 - name: Info over belastingregistratie gerelateerd aan adres
@@ -2797,160 +2947,222 @@
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
             - name: Aangepaste ontwerpen voor zakelijke documenten maken
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
-        - name: Elektronische rapportage
+            - name: PDF-documenten voorvertonen met een ingesloten viewer
+              href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
+    - name: Elektronische rapportage
+      items:
+        - name: Overzicht van elektronische rapportage
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+        - name: Configuraties
           items:
-            - name: Raamwerk elektronische rapportage configureren
-              href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
             - name: Configuraties maken
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+            - name: Onderdelen van de oplossing voor elektronische rapportage voorbereiden
               items:
-                - name: Aanbieders van configuraties maken en deze als actief markeren
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Ontwerp domeinspecifieke gegevensmodellen
+                - name: Domeinspecifiek gegevensmodel ontwerpen
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Toepassingsspecifieke metagegevens voorbereiden
+                  items:
+                    - name: (ER) Toepassingsmetagegevens voor gebruik in RCS voorbereiden
+                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: (RCS) Toepassingsmetagegevens openen door gebruik van ER-configuratie
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                    - name: (RCS) Toepassingsmetagegevens openen door gebruik van verbonden toepassingen
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
                 - name: Modeltoewijzingen definiëren en gegevensbronnen selecteren
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Gegevensmodellen aan geselecteerde gegevensbronnen toewijzen
+                - name: Gegevensmodel aan geselecteerde gegevensbronnen toewijzen
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Indelingsconfiguraties maken
+                - name: Een indelingsconfiguratie maken
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: De onderdelen van indelingen toewijzen aan gegevensmodelelementen
+                - name: De onderdelen van de gemaakte indeling toewijzen aan gegevensmodelelementen
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Elektronische documenten genereren voor betalingen met een indelingsconfiguraties
+            - name: De voorbereide ER-oplossing testen in de doeltoepassing
+              items:
+                - name: (ER) Configuraties importeren uit RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                - name: Elektronische documenten genereren voor betalingen met een indelingsconfiguratie
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: Indelingen upgraden door nieuwe basisversies aan te nemen
-                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-                - name: ER-configuraties ontwerpen om in te vullen in PDF-sjablonen
-                  href: ../dev-itpro/analytics/er-fillable-pdf.md
-            - name: Formuleontwerper in elektronische aangifte
-              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: Elektronische aangifte configureren om gegevens op te halen in Power BI
-              href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-            - name: Bestemmingen
-              href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Bestemmingen configureren
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Configuraties ontwerpen om rapporten in Word-indeling te genereren
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Configuraties ontwerpen om rapporten in OpenXML-indeling te genereren
+            - name: Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen
+              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+        - name: Formuleontwerper in elektronische aangifte
+          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+        - name: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
+          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: Definities voor gegevensmodel selecteren tijdens het maken van indelingen
+          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: Rapporten genereren door inhoud toe te voegen als onbewerkte XML
+          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+        - name: (ER) Gegevensbronnen voor het hele bedrijf in de elektronische aangifte
+          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+        - name: ER-indelingen ontwerpen voor het genereren van uitgaande elektronische documenten in verschillende indelingen
+          items:
+            - name: (ER) Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Indelingen voor elektronische rapportage wijzigen door Excel-sjablonen opnieuw toe te passen
-              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Definitie voor gegevensmodel selecteren tijdens het maken van indelingen
-              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: De afhankelijkheid van configuraties voor andere onderdelen definiëren
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: (ER) Configuraties ontwerpen om rapporten in Word-indeling te genereren
+              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Configuraties ontwerpen om PDF-sjablonen in te vullen
+              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+        - name: Afbeeldingen en vormen insluiten
+          items:
+            - name: (ER) Afbeeldingen en vormen insluiten in documenten die u genereert
+              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+            - name: Voorbeeld van het insluiten van afbeeldingen en vormen
               items:
-                - name: Gegevensmodellen ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: Modellen toewijzen voor gebruik van financiële dimensies als gegevensbronnen
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: Rapporten ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: Rapporten uitvoeren die financiële dimensies gebruiken als gegevensbronnen
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: Indeling maken voor tellen en totaliseren
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-                - name: Berekeningen configureren voor tellen en totaliseren
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-                - name: Berekeningen gebruiken voor het generen van de uitvoer voor tellen en totaliseren
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: Indelingen uitvoeren voor tellen en totaliseren
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: Indelingen ontwerpen voor het dynamisch toevoegen van kolommen als horizontaal uitbreidbare bereiken
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: Indelingen uitvoeren voor het dynamisch toevoegen van kolommen als horizontaal uitbreidbare bereiken
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: Gegevensmodellen voorbereiden voor het gebruik van documentbeheerbestanden in uitvoer
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: Gegevensmodellen uitbreiden voor het gebruik van documentbeheerbestanden in uitvoer
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: Indelingen maken voor gebruik van documentbeheerbestanden in uitvoer
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: Indelingen uitvoeren voor gebruik van documentbeheerbestanden in uitvoer
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: Indelingen wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in uitvoer
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
                 - name: Configuraties ontwerpen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
                 - name: Configuraties beoordelen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
                 - name: Rapporten genereren in Office-indelingen met ingesloten afbeeldingen
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+        - name: Indelingen voor elektronische rapportage wijzigen door Excel-sjablonen opnieuw toe te passen
+          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+        - name: ER-configuraties ontwerpen die afhankelijk zijn van de Finance and Operations-versie
+          items:
+            - name: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: Een ER-oplossing ontwerpen voor het gebruik van financiële dimensies
+          items:
+            - name: Gegevensmodellen ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+            - name: Modellen toewijzen voor gebruik van financiële dimensies als gegevensbronnen
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+            - name: Rapporten ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+            - name: Rapporten uitvoeren die financiële dimensies gebruiken als gegevensbronnen
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+        - name: ER-indelingen ontwerpen voor tellen en totaliseren van gegevens uit gegenereerde uitvoer
+          items:
+            - name: Indelingen maken voor tellen en totaliseren
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+            - name: Indeling configureren voor tellen en totaliseren
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+            - name: Berekeningen gebruiken voor het generen van de uitvoer voor tellen en totaliseren
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+            - name: Indelingen uitvoeren voor tellen en totaliseren
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+        - name: Kolommen dynamisch toevoegen aan Excel-rapporten als horizontaal uitbreidbare bereiken
+          items:
+            - name: Indelingen ontwerpen voor het dynamisch toevoegen van kolommen aan Excel-rapporten als horizontaal uitbreidbare bereiken
+              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+            - name: Indelingen uitvoeren voor het dynamisch toevoegen van kolommen aan Excel-rapporten als horizontaal uitbreidbare bereiken
+              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+        - name: Documentbeheerbestanden gebruiken in uitvoer van indelingen
+          items:
+            - name: Gegevensmodellen voorbereiden voor het gebruik van documentbeheerbestanden in ER-uitvoer
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+            - name: Gegevensmodellen uitbreiden voor het gebruik van documentbeheerbestanden in ER-uitvoer
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+            - name: Indelingen maken voor gebruik van documentbeheerbestanden in ER-uitvoer
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+            - name: Indelingen uitvoeren voor gebruik van documentbeheerbestanden in ER-uitvoer
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+            - name: Indelingen wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in ER-uitvoer
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+        - name: Toepassingsgegevens bijwerken met behulp van elektronische rapportage
+          items:
             - name: Elektronische documenten genereren en toepassingsgegevens bijwerken
               href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+            - name: Configuraties importeren voor het genereren van documenten met toepassingsgegevens
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+            - name: Configuraties ontwerpen voor het genereren van documenten met toepassingsgegevens
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+            - name: Modellen en toewijzingen wijzigen voor het genereren van documenten met toepassingsgegevens
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+            - name: Indelingen wijzigen voor het genereren van documenten met toepassingsgegevens
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+            - name: Documenten genereren die toepassingsgegevens bevatten
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+        - name: Gegevens importeren uit binnenkomende bestanden met ER-oplossingen
+          items:
+            - name: Inkomende documenten in verschillende indelingen parseren
+              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+            - name: Gegevensimport configureren voor handmatig geselecteerde bestanden
               items:
-                - name: Configuraties importeren voor het genereren van documenten met toepassingsgegevens
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Configuraties ontwerpen voor het genereren van documenten met toepassingsgegevens
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: Modellen en toewijzingen wijzigen voor het genereren van documenten met toepassingsgegevens
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: Indelingen wijzigen voor het genereren van documenten met toepassingsgegevens
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-                - name: Documenten genereren met toepassingsgegevens
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-            - name: Afdrukbare FTI-formulieren genereren
-              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: Rapporten genereren door inhoud toe te voegen als onbewerkte XML
-              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-            - name: Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden
-              href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-            - name: Gegevensbronnen voor het hele bedrijf in de elektronische aangifte
-              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: Afbeeldingen en vormen insluiten in documenten die u genereert
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: De configuratielevenscyclus beheren
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Configuraties uploaden naar Lifecycle Services
-                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Configuraties importeren uit Lifecycle Services
-                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md
-                - name: Configuraties downloaden uit Lifecycle Services
-                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: Configuraties importeren
-                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Configuraties voor modeltoewijzing beheren
-              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Configuraties maken om gegevens te importeren uit externe bestanden
+                - name: Configuraties maken om gegevens te importeren uit een extern XML-bestand
                   href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-                - name: Gegevensimport uit SharePoint configureren
-                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Inkomende documenten in Excel-indeling parseren
-              href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
-            - name: Inkomende documenten parseren om toepassingsgegevens bij te werken
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
-            - name: Inkomende documenten in CSV-indeling parseren
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
-            - name: De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
+            - name: Gegevensimport configureren in batchmodus op basis van in SharePoint gevonden bestanden
+              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+            - name: Bestanden importeren in XML-indeling
+              items:
+                - name: Bestanden in XML-indeling importeren met optionele kenmerken
+                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                - name: ER-indelingen configureren voor het importeren van XML-bestanden met optionele kenmerken
+                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
+        - name: Levenscyclus van configuratie
+          items:
+            - name: Levenscyclus van configuratie beheren
+              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+            - name: Configuraties uploaden naar Lifecycle Services
+              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: Configuraties importeren uit Lifecycle Services
+              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: Configuraties downloaden uit Lifecycle Services
+              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+            - name: Configuraties importeren
+              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+            - name: ER-configuraties downloaden uit de RCS-opslagplaats
               items:
-                - name: De lijst met functies voor elektronische rapportage uitbreiden
-                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-                - name: Wijzigingen in API voor raamwerk voor elektronische aangifte in toepassingsupdate 7.3
-                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-                - name: Een aangepaste opslag opgeven voor gegenereerde documenten
-                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: ER-configuraties downloaden uit de ER-opslagplaats voor het RCS-type
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                - name: Configuraties importeren uit RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+        - name: Oplossingen voor elektronische rapportage gebruiken in Finance and Operations
+          items:
+            - name: Het raamwerk configureren
+              items:
+                - name: Raamwerk voor elektronische rapportage configureren
+                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                - name: Aanbieders van configuraties maken en deze als actief markeren
+                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Bestemmingen
+              items:
+                - name: Overzicht van bestemmingen
+                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                - name: Bestemmingen configureren
+                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Gegenereerde rapporten automatisch valideren
+              items:
+                - name: Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                - name: Verbeteringen in de traceringsresultaten van gegenereerde ER-rapporten en vergelijkingen met basislijnwaarden
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                - name: Testen automatiseren met elektronische rapportage
+                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+            - name: Bedrijfsprocessen automatiseren met behulp van configuraties voor elektronische rapportage
+              items:
+                - name: Elektronische rapportage configureren om gegevens op te halen in Power BI
+                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                - name: Formulieren genereren voor afdrukbare vrije-tekstfacturen (FTI)
+                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+            - name: Uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+        - name: API ER-raamwerk
+          items:
+            - name: De lijst met functies voor elektronische rapportage uitbreiden
+              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+            - name: Wijzigingen in API voor raamwerk voor elektronische rapportage in Application update 7.3
+              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+            - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
+              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: Ingesloten analytische oplossingen
           items:
             - name: Ingesloten Power BI in werkgebieden
               href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json
             - name: Integratie met Power BI Embedded
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
+            - name: Analytische werkgebieden selecteren uit PowerBI.com
+              href: ../dev-itpro/analytics/select-analytical-workspace.md
         - name: Aanpassingsopties met PowerBI.com
           items:
             - name: Functies en services die beschikbaar zijn via Power BI-integratie
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
             - name: Power BI-rapporten vastmaken in werkgebieden
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
+            - name: Ingesloten rapporten in Analytische werkgebieden aanpassen
+              href: ../dev-itpro/analytics/customize-analytical-workspace.md
         - name: Hulpmiddelen voor het maken en uitbreiden van oplossingen
           items:
             - name: 'Analyses, samengevoegde metingen en KPI-model'
@@ -3067,12 +3279,16 @@
               href: ../supply-chain/cost-management/adjust-hand-inventory-cost-values.md
             - name: Lopende gemiddelde kosten per voorraaddimensie traceren
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+    - name: Toeleveringsketen
+      href: ../supply-chain/index.md
     - name: Hoofdplanning
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
         - name: Hoofdplannen
           href: ../supply-chain/master-planning/master-plans.md
           items:
+            - name: Hoofdplannen instellen
+              href: ../supply-chain/master-planning/master-planning-setup.md
             - name: Behoefteplanningsinstellingen
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: Behoefteplanningsregels voor artikelen definiëren
@@ -3099,6 +3315,8 @@
               href: ../supply-chain/master-planning/tasks/create-plan-site.md
             - name: Kalenders en hoofdplanning
               href: ../supply-chain/master-planning/supply-chain-calendars-master-planning.md
+            - name: Prestaties van hoofdplanning verbeteren
+              href: ../supply-chain/master-planning/master-planning-performance.md
             - name: Hoofdplannen en de functionaliteit voor meerdere locaties
               href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
@@ -3114,6 +3332,8 @@
                   href: ../supply-chain/master-planning/master-plan-bom-version-determined.md
                 - name: Explosie van een stuklijstversie
                   href: ../supply-chain/master-planning/master-plan-explosion-bom-version.md
+            - name: Negatieve dagen en dynamische negatieve dagen
+              href: ../supply-chain/master-planning/more-about-dynamic-negative-days.md
             - name: Een intercompany-plan maken
               href: ../supply-chain/master-planning/tasks/create-intercompany-plan.md
             - name: Uitgaande geplande intercompany-vraag weergeven

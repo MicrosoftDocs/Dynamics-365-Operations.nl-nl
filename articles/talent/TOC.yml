@@ -8,6 +8,16 @@
         - name: Nieuwe of gewijzigde functies in Talent
           href: whats-new.md
           items:
+            - name: 2 juli 2019
+              href: whats-new-talent-july-2-2019.md
+            - name: 25 juni 2019
+              href: whats-new-talent-june-25-2019.md
+            - name: 18 juni 2019
+              href: whats-new-talent-june-18-2019.md
+            - name: 11 juni 2019
+              href: whats-new-talent-june-11-2019.md
+            - name: 4 juni 2019
+              href: whats-new-talent-june-4-2019.md
             - name: 28 mei 2019
               href: whats-new-talent-may-28-2019.md
             - name: 21 mei 2019
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: 6 mei 2019
               href: whats-new-talent-may-6-2019.md
-            - name: 30 april 2019
-              href: whats-new-talent-april-30-2019.md
-            - name: 25 april 2019
-              href: whats-new-talent-april-25-2019.md
-            - name: 16 april 2019
-              href: whats-new-talent-april-16-2019.md
-            - name: 9 april 2019
-              href: whats-new-talent-april-9-2019.md
-            - name: 2 april 2019
-              href: whats-new-talent-april-2-2019.md
-            - name: 26 maart 2019
-              href: whats-new-talent-march-26-2019.md
-            - name: 20 maart 2019
-              href: whats-new-talent-march-20.md
-            - name: 14 maart 2019
-              href: whats-new-talent-march-14.md
-            - name: 5 maart 2019
-              href: whats-new-talent-march-5.md
             - name: Wat is nieuw - archieven 2019
               items:
+                - name: 30 april 2019
+                  href: whats-new-talent-april-30-2019.md
+                - name: 25 april 2019
+                  href: whats-new-talent-april-25-2019.md
+                - name: 16 april 2019
+                  href: whats-new-talent-april-16-2019.md
+                - name: 9 april 2019
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2 april 2019
+                  href: whats-new-talent-april-2-2019.md
+                - name: 26 maart 2019
+                  href: whats-new-talent-march-26-2019.md
+                - name: 20 maart 2019
+                  href: whats-new-talent-march-20.md
+                - name: 14 maart 2019
+                  href: whats-new-talent-march-14.md
+                - name: 5 maart 2019
+                  href: whats-new-talent-march-5.md
                 - name: 27 februari 2019
                   href: whats-new-talent-feb-27.md
                 - name: 14 februari 2019
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: Functies en voorzieningen van Attract
           href: attract-overview.md
+        - name: Veelgestelde vragen over LinkedIn
+          href: attract-linkedin-faq.md
+        - name: E-mailinstellingen configureren
+          href: attract-configure-email-settings.md
         - name: Een processjabloon maken in Attract
           href: Process-templates-Attract.md
-        - name: 'Functies maken, goedkeuren en boeken in Attract'
+        - name: Vacatures maken en boeken
           href: Creating-jobs-Attract.md
-        - name: Vacatures plaatsen op externe vacaturesites vanuit Attract
+        - name: Integratie met LinkedIn instellen
+          href: attract-admin-linkedin.md
+        - name: Vacatures plaatsen op LinkedIn vanuit Attract
+          href: attract-post-jobs-to-linkedin.md
+        - name: Vacatures plaatsen op Broadbean vanuit Attract
           href: posting-jobs-external.md
         - name: Kandidaten zoeken met talentenpools
           href: attract-talent-pools.md
-        - name: Sourcing met LinkedIn Recruiter
-          href: attract-linked-in-recruiter.md
+        - name: Kandidaten zoeken met LinkedIn Recruiter
+          href: attract-linkedin-recruiter.md
         - name: Activiteiten in de aanstellingsprocessen
           href: activities-attract.md
         - name: Plannen van sollicitatiegesprekken en feedback
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: Intelligente aanbevelingen
           href: Intelligent-Recommendations.md
-        - name: Een aantrekkelijke onboarding-ervaring maken
-          href: create-onboarding-experience.md
         - name: Bronnen volgen voor kandidaatprofielen en sollicitaties
           href: source-tracking.md
         - name: Analytische rapporten gebruiken voor inzichten in het aanstellingsproces
           href: analytic-reports.md
+    - name: Nieuwe medewerkers verwelkomen met Onboard
+      items:
+        - name: Aan de slag met Onboard
+          href: create-onboarding-experience.md
+        - name: De Onboard-app ophalen
+          href: onboard-get-app.md
+        - name: Een onboardinghandleiding maken en verzenden
+          href: onboard-create-guide.md
+        - name: Een onboardingsjabloon maken
+          href: onboard-create-template.md
+        - name: Handleidingen en sjablonen bewerken
+          href: onboard-edit-guides-templates.md
+        - name: Inhoud delen
+          href: onboard-share-template.md
+        - name: Status weergeven
+          href: onboard-view-status.md
+        - name: Een aanstellingsteam maken
+          href: onboard-create-team.md
     - name: Uw personeel beheren met Core HR
       items:
         - name: Uw personeel organiseren
@@ -357,6 +391,8 @@
           href: corehr-custom-fields.md
     - name: Problemen met Talent oplossen
       items:
+        - name: Problemen oplossen met vacatures plaatsen in LinkedIn
+          href: attract-troubleshoot-linkedin.md
         - name: Analytische rapporten worden niet bijgewerkt
           href: analytic-reports-not-updated.md
         - name: Kan geen omgeving maken in het PowerApps-beheercentrum
