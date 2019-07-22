@@ -3,7 +3,7 @@ title: Overzicht van leveranciersfacturen
 description: Dit onderwerp biedt algemene informatie over leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.
 author: abruer
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b57c18b5b2cf690111511e4c5a92d51fc23dd68c
-ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
+ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
+ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1618268"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625074"
 ---
 # <a name="vendor-invoices-overview"></a>Overzicht van leveranciersfacturen
 
@@ -91,15 +91,8 @@ U kunt de pagina **Leveranciersfacturen herstellen** gebruiken om leveranciersfa
 
 U kunt toegang krijgen tot de pagina **Leveranciersfacturen herstellen** als de beveiligingsfunctie en -bevoegdheid **Leveranciersfacturen in gebruik herstellen** aan u zijn toegewezen. Bovendien moet de parameter **Herstellen van leveranciersfactuur toestaan** op de pagina **Leveranciersparameters** worden ingeschakeld.
 
-## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>De workflowstatus voor leveranciersfacturen van Onherstelbaar wijzigen in Concept
 
-Een workflowexemplaar dat is gestopt vanwege een onherstelbare fout, heeft een workflowstatus **Onherstelbaar**. Wanneer de status van een werkstroom voor leveranciersfacturen **Onherstelbaar**is, kunt u deze weer instellen op **Concept**. Vervolgens kunt u de leveranciersfactuur bewerken. Deze functie is beschikbaar als de parameter **Conceptstatus herstellen voor workflow van leveranciersfactuur** op de pagina **Functiebeheer** is ingeschakeld.
-
-U kunt de pagina **Workflowstatus voor leveranciersfacturen herstellen** gebruiken om de workflowstatus in te stellen op **Concept**. U kunt deze pagina openen via **Periodieke taak**. Op de pagina worden alle leveranciersfacturen met de workflowstatus **Onherstelbaar** in de huidige rechtspersoon weergegeven. Daarnaast wordt aangegeven welke gebruiker elke factuur heeft ingediend bij de workflow en worden de factuur-id en workflowgeschiedenis weergegeven. Als u de workflowstatus wilt instellen op **Concept**, markeert u een of meer facturen en selecteert u vervolgens **Bijwerken naar concept**. Als de workflowstatus is ingesteld op **Concept**, wordt deze beschikbaar voor bewerking op de pagina **Leveranciersfactuur**.
-
-U kunt de pagina **Workflowstatus voor leveranciersfacturen herstellen** alleen openen als de beveiligingsfunctie **De status voor de workflow voor leveranciersfacturen handhaven** en de bevoegdheid **De status voor de workflow voor leveranciersfacturen herstellen** aan u zijn toegewezen.
-
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Leveranciersfactuurbeleid instellen](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
 - [Factuurgegevens invoeren in leveranciers met behulp van een leveranciersfactuur](tasks/key-invoice-data-ap-system-vendor-invoice.md)

@@ -3,7 +3,7 @@ title: Online en offline verkooppuntbewerkingen (POS)
 description: Dit onderwerp bevat meer informatie over POS-bewerkingen (Point Of Sale) in Microsoft Dynamics 365 for Retail. Hier wordt aangegeven waar in de toepassing de bewerkingen kunnen worden aangeroepen en of deze beschikbaar zijn in de offlinemodus.
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505091"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625660"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -160,8 +160,8 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 1211 | Kluisstorting | Voer een kluisstorting uit om geld van een kassa naar een kluis te verplaatsen. | Ja | Ja | Ja | Ja | Nee |
 | 516 | Verkoopfactuur | Met deze bewerking kan de klant betalingen doen voor de geselecteerde verkoopfactuur. | Ja | Ja | Nee | Nee | Nee |
 | 502 | Verkoper | Met deze bewerking kan de gebruiker de waarde voor **Verkoopafnemer** in een verkooporder instellen voor klantorders in het POS. | Ja | Ja | Nee | Ja\* | Nee |
-| 2000 | Beheer plannen | Met deze bewerking kunnen gebruikers planningen maken, wijzigen of weergeven. | Ja | Ja | Ja | Nee | Nee |
-| 2001 | Aanvragen plannen | Met deze bewerking kan de gebruiker vrije tijd aanvragen en diensten wisselen of aanbieden aan andere werknemers. | Ja | Ja | Ja | Nee | Nee |
+| 2000 | Beheer plannen | Deze bewerking wordt nog niet ondersteund. | Ja | Ja | Ja | Nee | Nee |
+| 2001 | Aanvragen plannen | Deze bewerking wordt nog niet ondersteund. | Ja | Ja | Ja | Nee | Nee |
 | 622 | Orders zoeken | Met deze bewerking kunnen gebruikers POS-knoppen vooraf configureren om te zoeken op artikel, klant of categorie. | Ja | Ja | Ja | Ja | Nee |
 | 1213 | Verzendadres zoeken | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 709 | Hardwarestation selecteren | Met deze bewerking kan de gebruiker een hardwarestation in een lijst met beschikbare hardwarestations selecteren. | Ja | Ja | Ja | Ja | Nee |

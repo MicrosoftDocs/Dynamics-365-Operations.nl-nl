@@ -3,7 +3,7 @@ title: Video's voor Finance and Operations
 description: Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.
 author: josaw1
 manager: AnnBe
-ms.date: 05/15/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: 5ede5bfa3b7a61461adb1514b7e96c4eba5a75c7
+ms.sourcegitcommit: fdc37a3c2ca2bac5741e7017fb225344e64f041a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591543"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625392"
 ---
 # <a name="videos-for-finance-and-operations"></a>Video's voor Finance and Operations
 
@@ -64,6 +64,10 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 - [Aan de slag met kostprijsboekhouding](https://youtu.be/1pUDtJQZ8FU)
 - [Kostenanalyse met Excel gebruiken](https://youtu.be/-HKHYdClvx8)
 - [Ervaring voor onkostennota's](https://youtu.be/Ocy-MsTvEE0)
+
+#### <a name="help-system"></a>Help-systeem
+
+- [Hoe u bijdraagt aan de Microsoft Dynamics 365-documentatie](https://youtu.be/m5djioozRbg)
 
 #### <a name="intelligence"></a>Intelligence
 

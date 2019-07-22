@@ -17,12 +17,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: c7c30076abfdfe0758d751559257c0c557ca146e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84439393c557274c950a2d98dc46dce081a71390
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563681"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624921"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
@@ -128,11 +128,6 @@ Voer correcties in door op **Btw-correcties** &gt; **Correcties** te klikken en 
 | Bedrag            | Voer het correctiebedrag in.                                                                                                                                                              |
 
 
-
-<a name="additional-resources"></a>Aanvullende bronnen
---------
-
-[Belgische btw-aangiftecodes](http://www.taxexpert.be/bestand/Betekenis%20vakken%20BTW-aangifte.pdf)
 
 
 

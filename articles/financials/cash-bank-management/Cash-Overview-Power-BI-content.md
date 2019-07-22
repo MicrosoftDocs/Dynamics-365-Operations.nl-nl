@@ -3,7 +3,7 @@ title: Power BI-inhoud - overzicht van contant geld
 description: In dit onderwerp wordt Power BI-inhoud - overzicht van contant geld besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 author: saraschi2
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568912"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702790"
 ---
 # <a name="cash-overview-power-bi-content"></a>Power BI-inhoud - overzicht van contant geld
 
@@ -33,6 +33,17 @@ In dit onderwerp wordt Microsoft Power BI-inhoud - **Overzicht van contant geld*
 
 Power BI-inhoud - **Overzicht van contant geld** is gemaakt voor personen die verantwoordelijk zijn voor contante betaling in hun organisatie. De Power BI-inhoud - **Overzicht van contant geld** biedt inzicht in uw cashflow. Het biedt ook prognoses die u kunnen helpen betere beslissingen te nemen en daarmee de status van uw kasstroom te verbeteren. U kunt contanten per rechtspersoon, valuta en bankrekening analyseren voor een beter begrip van overschotten en tekorten.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Instellingen die nodig zijn om Power BI-inhoud weer te geven
+
+De volgende instellingen moeten worden geconfigureerd om gegevens te kunnen weergeven in de visuele Power BI-elementen van **Overzicht van contant geld** en **Bankbeheer**.
+
+1. Ga naar **Systeembeheer > Instellen > Systeemparameters** om **Systeemvaluta** en **Systeemwisselkoers** in te stellen.
+2. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in.
+2. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, valuta voor boekhouding en systeemvaluta, en valuta voor boekhouding en bankvaluta's. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
+3. Configureer Cashflowprognose en voer dit uit. Zie <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+">Cashflowprognose</a> voor meer informatie over het instellen van Cashflowprognose. 
+4. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **LedgerCovLiquidityMeasurement** te vernieuwen.
+
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 
 Rapporten uit de Power BI-inhoud **Overzicht van contant geld** worden weergegeven in de werkgebieden **Overzicht van contant geld** en **Bankbeheer**.
@@ -42,6 +53,7 @@ Als u de cashflowprognoserapporten wilt weergeven met gegevens, moet u eerst het
 Voor demonstratiedoeleinden kunt u demogegevens voor cashflowprognoses toevoegen met de pagina **Gegevens genereren** vanuit de module Demogegevens.  Met dit script worden gegevens ingevoegd in de cashflowprognosetabellen om snel gegevens in te vullen die nodig zijn voor rapporten.  Deze module is alleen beschikbaar als u het model van de Demogegevenssuite hebt geïmplementeerd in de omgeving. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud
+
 De volgende tabel bevat informatie over de metrische gegevens op elke rapportpagina in de Power BI-inhoud - **Overzicht van contant geld**.
 
 | Rapport                                | Inhoud |
@@ -67,5 +79,3 @@ In de volgende tabel vindt u de entiteiten waarop de Power BI-inhoud - **Overzic
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Samengevatte kasinkomsten, kasuitgaven en saldo met behulp van de valuta voor boekhouding van elk bedrijf |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Samengevatte kasinkomsten, kasuitgaven en saldo met behulp van de systeemvaluta voor alle bedrijven |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Samengevat nettotransactiebedrag en saldo van valuta´s op basis van de transactievaluta |
-
-

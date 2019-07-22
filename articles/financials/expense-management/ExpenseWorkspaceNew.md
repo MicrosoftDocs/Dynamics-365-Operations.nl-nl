@@ -3,7 +3,7 @@ title: Nieuwe invulling voor het begrip onkostennota's
 description: Dit onderwerp biedt informatie over de opnieuw ontworpen en compleet herziene ervaring bij het invoeren van onkostennota's in Microsoft Dynamics 365 for Finance and Operations. De nieuwe ervaring vereenvoudigt het proces van het invullen van onkostennota's en vermindert de tijd die hiermee is gemoeid.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/20/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 9e87a61bd6dd7bc1c7ef569882daf2074c7cade9
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592632"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1631950"
 ---
 # <a name="expense-reports-reimagined"></a>Nieuwe invulling voor het begrip onkostennota's
 
 [!include[banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 De invoer van een onkostennota is opnieuw ontworpen om het proces van het invullen van onkostennota's te vereenvoudigen en de tijd die hiermee is gemoeid te verminderen. Dit zijn de belangrijkste onderdelen van de nieuwe ervaring voor onkostennota's:
 
@@ -48,7 +47,7 @@ Als u de nieuwe ervaring wilt inschakelen, gebruikt u het werkgebied **Functiebe
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-De video [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (zie hierboven) is opgenomen in de [Finance and Operations-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
+De video [Ervaring voor onkostennota's in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (zie hierboven) is opgenomen in de [Finance and Operations-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
 
 ## <a name="new-features"></a>Nieuwe functies
 

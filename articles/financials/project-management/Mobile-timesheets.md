@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7eff0ce166785cb777fbf58ecf08ca8915be5af
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557324"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624879"
 ---
-# <a name="project-timesheets-on-a-mobile-device"></a>Urenstaten voor projecten op een mobiel apparaat
+# <a name="project-timesheets-on-a-mobile-device"></a>Projectroosters op een mobiel apparaat
 
 [!include [banner](../includes/banner.md)]
-
-# <a name="overview"></a>Overzicht
 
 Met **Mijn urenstaten (geoptimaliseerd voor mobiel)** kunnen werknemers urenstaten van projecten maken en indienen om hun uren vast te leggen voor een bepaald project op een mobiel apparaat. Werknemers kunnen een nieuwe urenstaat maken of een kopie maken van een bestaande urenstaat voor een snelle en nauwkeurige tijdinvoer. Als u als gemachtigde bent aangewezen, kunt u ook een urenstaat voor een andere werknemer invoeren. Met de app kunnen medewerkers filteren op project, resource of goedkeuringsstatus om snel te zoeken en een urenstaat te selecteren. De app biedt werknemers ook de mogelijkheid om favorieten op te slaan, zodat de informatie van het project en de activiteit wordt opgeslagen in de urenstaat. Opgeslagen favorieten kunnen worden gebruikt voor het maken van toekomstige urenstaten om het proces van ureninvoer te versnellen. Het bewerken of bekijken van financiële dimensie-informatie wordt niet ondersteund in de mobiele toepassing. **Mijn urenstaten (geoptimaliseerd voor mobiel)** kan worden geopend via de webbrowser op uw mobiele apparaat.
 
@@ -35,8 +33,7 @@ Met **Urenstaten voor mijn controle (geoptimaliseerd voor mobiel)** kunnen proje
 Deze mobiele toepassing is compatibel voor iPhone met Dynamics 365 for Finance and Operations platformupdate 15.
 Android zal compatibel zijn met platformupdate 16, zodra deze beschikbaar wordt.
 
-<a name="create-a-project-timesheet-on-your-mobile-device"></a>Een projecturenstaat maken op het mobiele apparaat
-------------------------------------------------
+## <a name="create-a-project-timesheet-on-your-mobile-device"></a>Een projecturenstaat maken op het mobiele apparaat
 
 1.  Noteer de Dynamics 365-URL voor de pagina **Projectbeheer en boekhouding** \> **Urenstaten** \> **Mijn urenstaten (geoptimaliseerd voor mobiel)**.
 

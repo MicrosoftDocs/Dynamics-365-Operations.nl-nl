@@ -3,7 +3,7 @@ title: Boekingsprofielen van leverancier
 description: Met boekingsprofielen van leveranciers worden boekingen van leverancierstransacties naar het grootboek beheerd.
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e81f8b472e7ac7578c184716dcb4e5f3d7aeb65d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c3f62df7ec5627556561db950d54ff4347d2b4d6
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512163"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625890"
 ---
 # <a name="vendor-posting-profiles"></a>Boekingsprofielen van leverancier
 
@@ -34,9 +34,9 @@ Met boekingsprofielen van leveranciers worden boekingen van leverancierstransact
 <a name="vendor-posting-profiles"></a>Boekingsprofielen van leverancier
 -----------------------
 
-Met boekingsprofielen van leveranciers kunt u grootboekrekeningen en documentinstellingen aan alle leveranciers, een groep leveranciers of één leverancier toewijzen. Deze instellingen worden gebruikt wanneer u inkooporders, leveranciersfacturen en contante betalingen maakt. Voor sommige transacties kunt u een boekingsprofiel selecteren dat afwijkt van en voorrang heeft op de boekingsprofielen die zijn ingesteld voor transacties op deze pagina. Het standaardboekingsprofiel wordt gedefinieerd op het sneltabblad Grootboek en btw op de pagina Parameters van module Leveranciers. Het standaardboekingsprofiel wordt vervolgens automatisch opgenomen in de koptekst van nieuwe documenten waarin u het vervolgens in een ander boekingsprofiel kunt wijzigen, indien nodig.
+Met boekingsprofielen van leveranciers kunt u grootboekrekeningen en documentinstellingen aan alle leveranciers, een groep leveranciers of één leverancier toewijzen. Deze instellingen worden gebruikt wanneer u inkooporders, leveranciersfacturen en contante betalingen maakt. Voor sommige transacties kunt u een boekingsprofiel selecteren dat afwijkt van en voorrang heeft op de boekingsprofielen die zijn ingesteld voor transacties op deze pagina. Het standaardboekingsprofiel wordt gedefinieerd op het sneltabblad **Grootboek en btw** op de pagina **Parameters van module Leveranciers**. Het standaardboekingsprofiel wordt vervolgens automatisch opgenomen in de koptekst van nieuwe documenten waarin u het vervolgens in een ander boekingsprofiel kunt wijzigen, indien nodig.
 
-Op de pagina Boekdefinities voor transacties kunt u boekingsdefinities ook aan transactieboekingstypen koppelen. Boekingsdefinities regelen de boeking van leverancierstransacties naar het grootboek in plaats van boekingsprofielen.
+Op de pagina **Boekdefinities voor transacties** kunt u boekingsdefinities ook aan transactieboekingstypen koppelen. Boekingsdefinities regelen de boeking van leverancierstransacties naar het grootboek in plaats van boekingsprofielen.
 
 ## <a name="creating-a-posting-profile"></a>Een boekingsprofiel maken
 ### <a name="setup"></a>**Instellingen**
@@ -46,10 +46,10 @@ De grootboekrekeningen opgeven die bij het boeken van transacties met het gesele
 | De veldwaarde **Rekeningcode** | De veldwaarde **Rekening/groepsnummer**        | Zoekprioriteit |
 |------------------------------|---------------------------------------------|-----------------|
 | **Tabel**                    | Specifieke leveranciersrekening                     | 1               |
-| **Groep**                    | leveranciersgroep die aan de leverancier is toegewezen | 2               |
+| **Groep**                    | Leveranciersgroep die aan de leverancier is toegewezen | 2               |
 | **Alle**                      | Leeg                                       | 3               |
 
-Als u wilt dat alle leverancierstransacties hetzelfde boekingsprofiel hebben, stelt u slechts één boekingsprofiel in met de optie Alle in het veld Rekeningcode. Geef de volgende waarden op om uw boekingsprofiel in te stellen:
+Als u wilt dat alle leverancierstransacties hetzelfde boekingsprofiel hebben, stelt u slechts één boekingsprofiel in met de optie **Alle** in het veld **Rekeningcode**. Geef de volgende waarden op om uw boekingsprofiel in te stellen:
 
 <table>
 <thead>
@@ -71,32 +71,20 @@ Als u wilt dat alle leverancierstransacties hetzelfde boekingsprofiel hebben, st
 <td><strong>Rekeningcode</strong></td>
 <td>Opgeven of het boekingsprofiel van toepassing is op een specifieke leverancier, een groep leveranciers of alle leveranciers:
 <ul>
-<li><strong>Tabel</strong>: het boekingsprofiel is van toepassing op een enkele leverancier. Selecteer de leverancier in het veld Rekening/groepsnummer.</li>
-<li><strong>Groep</strong>: het boekingsprofiel is van toepassing op een leveranciersgroep. Selecteer de leveranciersgroep in het veld Rekening/groepsnummer.</li>
-<li><strong>Alle</strong>: het boekingsprofiel is van toepassing op alle leveranciers. Laat het veld Rekening/groepsnummer leeg.</li>
+<li><strong>Tabel</strong>: het boekingsprofiel is van toepassing op een enkele leverancier. Selecteer de leverancier in het veld <strong>Rekening/groepsnummer</strong>.</li>
+<li><strong>Groep</strong>: het boekingsprofiel is van toepassing op een leveranciersgroep. Selecteer de leveranciersgroep in het veld <strong>Rekening/groepsnummer</strong>.</li>
+<li><strong>Alle</strong>: het boekingsprofiel is van toepassing op alle leveranciers. Laat het veld <strong>Rekening/groepsnummer</strong> leeg.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><strong>Rekening/groepsnummer</strong></td>
-<td>Als Tabel is geselecteerd in het veld Rekeningcode, selecteert u het rekeningnummer van de leverancier die aan het boekingsprofiel is gekoppeld. Als Groep is geselecteerd, selecteert u een leveranciersgroep. Als Alle is geselecteerd, laat u dit veld leeg.</td>
+<td>Als <strong>Tabel</strong> is geselecteerd in het veld <strong>Rekeningcode</strong>, selecteert u het rekeningnummer van de leverancier die aan het boekingsprofiel is gekoppeld. Als <strong>Groep</strong> is geselecteerd, selecteert u een leveranciersgroep. Als <strong>Alle</strong> is geselecteerd, laat u dit veld leeg.</td>
 </tr>
 <tr class="odd">
 <td><strong>Totaalrekening</strong></td>
-<td>Selecteer de grootboekrekening die gebruikt wordt als overzichtsrekening voor de leveranciers waarnaar het boekingsprofiel verwijst.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Opmerking" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Opmerking</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Als de schakeloptie Boekdefinities gebruiken is geselecteerd op de pagina Grootboekparameters, wordt de transactieboekingsdefinitie voor leveranciersfacturen gebruikt in plaats van de overzichtsrekening.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
+<td>Selecteer de grootboekrekening die gebruikt wordt als overzichtsrekening voor de leveranciers waarnaar het boekingsprofiel verwijst. De parameter <strong>Handmatige invoer niet toestaan</strong> voor deze hoofdrekening wordt gemarkeerd. Als u deze rekening vervolgens uit het boekingsprofiel verwijdert, moet u de instelling <strong>Handmatige invoer niet toestaan</strong> op de pagina <strong>Hoofdrekeningen</strong> valideren. 
+<p><strong>Opmerking:</strong> als de optie <strong>Boekdefinities gebruiken</strong> is geselecteerd op de pagina <strong>Grootboekparameters</strong>, wordt de transactieboekingsdefinitie voor leveranciersfacturen gebruikt in plaats van de overzichtsrekening.</p>
+</td>
 </tr>
 <tr class="even">
 <td><strong>Rekening vereffenen</strong></td>
@@ -105,24 +93,12 @@ Als u wilt dat alle leverancierstransacties hetzelfde boekingsprofiel hebben, st
 <tr class="odd">
 <td><strong>Btw-vooruitbetalingen</strong></td>
 <td>Selecteer de rekening voor btw-betalingen die vooruit ontvangen zijn.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Opmerking" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Opmerking</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Het boekingsprofiel dat wordt gebruikt wanneer de betaling is gemarkeerd als een vooruitbetaling is geselecteerd in het veld Boekingsprofiel met journaalboekstuk van vooruitbetaling in het gedeelte Grootboek en btw van de pagina Parameters van module Leveranciers.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
+<p><strong>Opmerking:</strong> het boekingsprofiel dat wordt gebruikt wanneer de betaling is gemarkeerd als een vooruitbetaling is geselecteerd in het veld <strong>Boekingsprofiel</strong> met <strong>journaalboekstuk van vooruitbetaling</strong> in het gedeelte <strong>Grootboek en btw</strong> van de pagina <strong>Parameters van module Leveranciers</strong>.</p>
+</td>
 </tr>
 <tr class="even">
 <td><strong>Ontvangst</strong></td>
-<td>Selecteer de grootboekrekening waarnaar informatie over niet-goedgekeurde leveranciersfacturen geboekt wordt. De informatie wordt ingevoerd in het facturenregisterjournaal. Een gebruiker voert bijvoorbeeld heel beperkte gegevens in over leveranciersfacturen als ze in het facturenregister worden ontvangen. Als het facturenregister wordt geboekt, worden de transacties geboekt naar de rekening die hier en in het veld Tegenrekening is ingevoerd. Als de facturen worden goedgekeurd, wordt de schuld overgeboekt van de ontvangstrekening naar de totaalrekening voor de leverancier.</td>
+<td>Selecteer de grootboekrekening waarnaar informatie over niet-goedgekeurde leveranciersfacturen geboekt wordt. De informatie wordt ingevoerd in het facturenregisterjournaal. Een gebruiker voert bijvoorbeeld heel beperkte gegevens in over leveranciersfacturen als ze in het facturenregister worden ontvangen. Als het facturenregister wordt geboekt, worden de transacties geboekt naar de rekening die hier en in het veld <strong>Tegenrekening</strong> is ingevoerd. Als de facturen worden goedgekeurd, wordt de schuld overgeboekt van de ontvangstrekening naar de totaalrekening voor de leverancier.</td>
 </tr>
 <tr class="odd">
 <td><strong>Tegenrekening</strong></td>
@@ -136,15 +112,10 @@ Als u wilt dat alle leverancierstransacties hetzelfde boekingsprofiel hebben, st
 
 Voor transacties met het geselecteerde boekingsprofiel geeft u op of transacties automatisch worden vereffend, rente wordt berekend en aanmaningen worden uitgegeven. U kunt ook de rekening selecteren die wordt gebruikt wanneer transacties met het geselecteerde boekingsprofiel worden afgesloten.
 
-Geef de volgende waarden op om uw boekingsprofiel in te stellen:
+Geef de volgende waarden op om uw boekingsprofiel in te stellen
 
 | Veld          | Beschrijving                                                                                                                                                                                                    |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Vereffening** | Selecteer deze optie om automatische vereffening in te schakelen van transacties die dit boekingsprofiel hebben. Als deze optie niet is geselecteerd, moet u transacties handmatig vereffenen via de pagina Openstaande transacties vereffenen. |
+| **Vereffening** | Selecteer deze optie om automatische vereffening in te schakelen van transacties die dit boekingsprofiel hebben. Als deze optie niet is geselecteerd, moet u transacties handmatig vereffenen via de pagina **Openstaande transacties vereffenen**. |
 | **Annuleren**     | Selecteer deze optie als u transacties met dit boekingsprofiel wilt kunnen annuleren.                                                                                                               |
 | **Sluiten**      | Selecteer een boekingsprofiel om naar over te gaan als transacties met dit boekingsprofiel gesloten zijn. Een transactie wordt als afgesloten beschouwd als deze volledig is vereffend.                                       |
-
-
-
-
-

@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b88ba4386dbf3513d75990acca1c07fa6f0dc9b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517727"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729721"
 ---
 # <a name="email-templates"></a>E-mailsjablonen
 [!include[banner](../includes/banner.md)]
 
-Met behulp van de e-mailsjabloonbibliotheek kunnen beheerders een uniform thema en merkherkenning maken voor alle e-mails die worden verzonden via Microsoft Dynamics 365 for Talent: Attract. Beheerders kunnen ook een verzameling e-mailinhoudssjablonen samenstellen die andere gebruikers kunnen gebruiken. Het aanstellend team kan deze sjablonen gebruiken in hun werkstroom om e-mails efficiënter te verzenden. Sommige e-mailberichten in Attract zijn geconfigureerd om automatisch te worden verzonden en de beheerder kan de e-mailsjabloonbibliotheek gebruiken om de inhoud van die e-mails aan te passen.
+Met behulp van de e-mailsjabloonbibliotheek kunnen beheerders een uniform thema en merkherkenning maken voor alle e-mails die worden verzonden via Microsoft Dynamics 365 for Talent: Attract en Offer. Beheerders kunnen ook een verzameling e-mailinhoudssjablonen samenstellen die andere gebruikers kunnen gebruiken. Het aanstellend team kan deze sjablonen gebruiken in hun werkstroom om e-mails efficiënter te verzenden. Sommige e-mailberichten zijn geconfigureerd om automatisch te worden verzonden en de beheerder kan de e-mailsjabloonbibliotheek gebruiken om de inhoud van die e-mails aan te passen.
 
 > [!NOTE]
 > Als u e-mailsjablonen wilt gebruiken, moet uw organisatie beschikken over Uitgebreide invoegtoepassing voor aanstellingen.
@@ -37,7 +37,7 @@ Met behulp van de e-mailsjabloonbibliotheek kunnen beheerders een uniform thema 
 
 Als de beheerder consistente merkherkenning voor alle e-mailcommunicatie wil, moet deze eerst de globale kop- en voetteksten voor alle e-mailsjablonen instellen. In het beheercentrum, op het tabblad **Instellingen e-mailsjabloon** in de sectie **Koptekst** kan de beheerder een afbeelding uploaden om te gebruiken als de koptekst of banner voor alle e-mailberichten. De afbeelding kan een bedrijfslogo, een briefhoofd of een andere representatieve afbeelding zijn. Het wordt aangeraden de breedte tussen 25 en 800 pixels te maken en de hoogte tussen 25 en 150 pixels, omdat deze dimensies optimaal zijn voor de meeste e-clients, zoals Microsoft Outlook. De afbeelding moet een JPEG-, JPG-, PNG- of SVG-bestand zijn en de bestandsgrootte moet kleiner dan 1 megabyte (MB) zijn. Nadat een afbeelding is geüpload, wordt een voorbeeld van de koptekst gegenereerd en weergegeven. Als de koptekstafbeelding moet worden verwijderd of vervangen, kan de beheerder de optie **Verwijderen** boven het voorbeeld gebruiken.
 
-In de sectie **Voettekst** kan de beheerder koppelingen verschaffen naar het privacybeleid van het bedrijf voor communicatie, en naar de voorwaarden. Deze koppelingen worden opgenomen in een voettekst die automatisch wordt gegenereerd. Een voorbeeld van deze voettekst wordt vervolgens weergegeven.
+In de sectie **Voettekst** kan de beheerder koppelingen verschaffen naar het privacybeleid van het bedrijf voor communicatie, en naar de voorwaarden. Deze koppelingen worden opgenomen in een voettekst die automatisch wordt gegenereerd. Een voorbeeld van deze voettekst wordt vervolgens weergegeven. De beheerder kan ook een bepaalde taal kiezen waarin e-mailvoetteksten worden verzonden als onderdeel van alle e-mails. Dezelfde taalconfiguratie wordt ook gebruikt om de samenvattingstabel van het interview samen te stellen. 
 
 Zorg ervoor dat u uw wijzigingen opslaat voordat u het beheercentrum sluit.
 
@@ -46,7 +46,7 @@ Zorg ervoor dat u uw wijzigingen opslaat voordat u het beheercentrum sluit.
 
 ## <a name="email-template-library"></a>E-mailsjabloonbibliotheek 
 
-Nadat de algemene sjabloonconfiguraties zijn ingesteld, kan de beheerder beginnen sjablonen te maken en samen te stellen voor alle e-mailberichten die worden verzonden vanuit Attract. De e-mailsjabloonbibliotheek is alleen beschikbaar voor beheerders. Als u de bibliotheek wilt openen, klikt u op het hoofdnavigatiemenu en selecteert u het tabblad **E-mailsjablonen**. De bibliotheek wordt gecategoriseerd door de verschillende activiteiten in Attract waarvoor e-mailberichten moeten worden verzonden, zoals planning, beoordeling en het maken van functies. De beheerder kan een categorie selecteren om alle e-mailtypen weer te geven die gekoppeld zijn aan de activiteit. Selecteer bijvoorbeeld **Planning** om de verschillende typen e-mail weer te geven die worden verzonden tijdens het planningsproces en alle sjablonen die beschikbaar zijn voor elke soort e-mail. Elke subsectie in een categorie vertegenwoordigt een soort e-mail.
+Nadat de algemene sjabloonconfiguraties zijn ingesteld, kan de beheerder beginnen sjablonen te maken en samen te stellen voor alle e-mailberichten die worden verzonden vanuit Attract en Offer. De e-mailsjabloonbibliotheek is alleen beschikbaar voor beheerders. Als u de bibliotheek wilt openen, klikt u op het hoofdnavigatiemenu en selecteert u het tabblad **E-mailsjablonen**. De bibliotheek wordt gecategoriseerd door de verschillende activiteiten in Attract waarvoor e-mailberichten moeten worden verzonden, zoals planning, beoordeling, het maken van functies en aanbiedingen. De beheerder kan een categorie selecteren om alle e-mailtypen weer te geven die gekoppeld zijn aan de activiteit. Selecteer bijvoorbeeld **Planning** om de verschillende typen e-mail weer te geven die worden verzonden tijdens het planningsproces en alle sjablonen die beschikbaar zijn voor elke soort e-mail. Elke subsectie in een categorie vertegenwoordigt een soort e-mail.
 
 Sommige typen e-mail kunnen meer dan één ontvanger hebben. Bijvoorbeeld in de categorie **Planning** worden de e-mails die worden verzonden wanneer het overzicht van de sollicitatiegesprekplanning nodig is, zowel aan kandidaten als interviewers verzonden. Elke sectie heeft twee hoofdkolommen: **Sjabloontitel** en **Ontvanger**. Elke rij in een sectie vertegenwoordigt een enkele sjabloon voor een soort e-mail. In eerste instantie verschijnt een vergrendelingssymbool in de rij voor elke sjabloon. Dit symbool geeft aan dat de sjabloon de standaardsjabloon is die wordt geleverd met Attract en dat deze niet kan worden verwijderd. Voor elke sjabloon kan de beheerder de ellipsisknop (**...**) gebruiken om de sjabloon te dupliceren, in te stellen als standaardsjabloon of te verwijderen. Als een sjabloon is ingesteld als een standaardsjabloon kunnen een van twee problemen optreden. Het gedrag wordt aangegeven door de badge of badges die worden weergegeven in de rij voor de sjabloon:
 

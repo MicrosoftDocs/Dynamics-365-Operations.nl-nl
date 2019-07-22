@@ -3,7 +3,7 @@ title: Uitvoering van ER-indeling traceren om prestatieproblemen op te lossen
 description: Dit onderwerp bevat informatie over het gebruik van de functie voor prestatietracering in Elektronische rapportage (ER) om prestatieproblemen op te lossen.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/08/2019
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: aa71db2752889bc905c22bab1cf2fa46d7ee07c7
-ms.sourcegitcommit: 67d00b95952faf0db580d341249d4e50be59119c
+ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
+ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576541"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "1703870"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
 
@@ -346,3 +346,29 @@ Als u een van deze versies van Finance and Operations gebruikt, kunt u de detail
 Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit onderwerp om een nieuwe prestatietracering te genereren.
 
 U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat de prestatietracering in PerfView-indeling. Vervolgens kunt u het PerfView-hulpprogramma voor prestatieanalyse gebruiken om de details van de ER-indelingsuitvoering te analyseren.
+
+![Traceringsgegeven voor de uitgevoerde ER-indeling in PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+
+## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Externe hulpprogramma's gebruiken om een uitvoeringstracering met databasequery's te controleren.
+
+Vanwege verbeteringen in het ER-raamwerk biedt de prestatietracering die in de PerfView-indeling wordt gegenereerd nu meer informatie over het uitvoeren van ER-indelingen. In Microsoft Dynamics 365 for Finance and Operations 10.0.4 (juli 2019) kan deze tracering ook details van uitgevoerde SQL-query's naar de toepassingsdatabase bevatten.
+
+### <a name="configure-user-parameters"></a>Gebruikersparameters configureren
+
+1. Ga in Finance and Operations naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
+2. Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
+3. Stel de volgende parameters in de sectie **Uitvoeringstracering** van het dialoogvenster **Gebruikersparameters** in:
+
+    - Selecteer **PerfView XML** in het veld **Opmaak van uitvoeringstracering**.
+    - Stel de optie **Statistieken voor query's verzamelen** in op **Ja**.
+    - Stel de optie **Query traceren** in op **Ja**.
+
+    ![Het dialoogvenster Gebruikersparameters in Finance and Operations](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+
+### <a name="run-the-er-format"></a>De ER-indeling uitvoeren
+
+Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit onderwerp om een nieuwe prestatietracering te genereren.
+
+U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat de prestatietracering in PerfView-indeling. Vervolgens kunt u het PerfView-hulpprogramma voor prestatieanalyse gebruiken om de details van de ER-indelingsuitvoering te analyseren. Deze tracering bevat nu de details van SQL-databasetoegang tijdens de uitvoering van de ER-indeling.
+
+![Traceringsgegeven voor de uitgevoerde ER-indeling in PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)

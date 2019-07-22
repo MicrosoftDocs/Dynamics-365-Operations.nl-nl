@@ -3,7 +3,7 @@ title: De gebruikerservaring aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations aanpast.
 author: jasongre
 manager: AnnBe
-ms.date: 05/17/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
-ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
+ms.openlocfilehash: 51c4cbbba36ed4c93fbbba907031023060d51495
+ms.sourcegitcommit: 0273905ceb371ba17d3a37d690e1f568aa968b4f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620009"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625006"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -169,6 +169,6 @@ Gebruiker met beheerdersbevoegdheden kunnen ook aanpassingen voor andere gebruik
 
 Wanneer u de instellingen van de voorraaddimensies op een pagina wilt aanpassen, kunt u de instellingen toepassen die zijn gemaakt met de optie **Dimensie weergeven**. U gebruikt aanpassing bijvoorbeeld om een kolom te verbergen voor de voorraaddimensie Batchnummer, maar de kolom wordt de volgende keer dat de pagina wordt geopend, weergegeven. Deze werking treedt op omdat de **Weergave van dimensies**-instellingen bepalen welke voorraaddimensiekolommen worden weergegeven.
 
-De **Weergave van dimensies**-instellingen zijn van toepassing op alle pagina's en hebben voorrang op aangepaste instellingen van voorraaddimensievelden op afzonderlijke pagina's.
+De instellingen onder **Weergave van dimensies** zijn van toepassing op alle pagina's en hebben voorrang op aangepaste instellingen van voorraaddimensievelden op elke pagina.
 
-Als u daarom in het vorige voorbeeld niet wilt dat de kolom voor de voorraaddimensie Batchnummer wordt weergegeven, moet u die dimensie uitschakelen als onderdeel van de optie **Weergave van dimensies** voor de tabel. Deze wijziging zal uiteindelijk niet alleen op een bepaalde pagina gelden, maar voor alle pagina's.
+Als u daarom in het vorige voorbeeld niet wilt dat de kolom voor de voorraaddimensie Batchnummer wordt weergegeven op een pagina, moet u die dimensie uitschakelen als onderdeel van de optie **Weergave van dimensies** voor die pagina.

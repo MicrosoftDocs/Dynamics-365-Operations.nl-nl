@@ -3,7 +3,7 @@ title: Wettelijk voorgeschreven updates
 description: Dit onderwerp bevat een lijst van geplande updates en vrijgegeven wettelijke updates voor Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/16/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
-ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
+ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593338"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624306"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -66,6 +66,13 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 |      In behandeling            |   10.0.3      | Polen     |   SAF-facturen (JPK_FA) v.2 van 1 juli 2019  |
 |      In behandeling            |   10.0.3      | Brazilië   |   Door ICMS-correcties in fiscale documenten is tabel 5.2 van kracht   |
 |      In behandeling            |   10.0.3      | Brazilië    |   NF-e-besluit 54.308/18 (RS)   |
+  | In behandeling            |   10.0.4      | Brazilië    |   Binnenkomend fiscaal document 66   |
+   | In behandeling            |   10.0.4      | Brazilië    |   NF-e en NFC-e - Resolutie 13/2019 en verordening SUCIEF 55/2019- RJ - nieuwe voorwaarden voor uitvoer van vrijstellingslabels in NF-e.   |
+   | In behandeling            |   10.0.4      | India   |   De weergave van Plaats van levering en Provincie in de GST-belastingfactuur  |
+   | In behandeling            |   10.0.4      | Mexico   |  DIOT-aangifte van derden - wijzigingen in indeling 2019   |
+   | In behandeling            |   10.0.4      | Brazilië    |   NF-e ICMS-ST - verordening CAT 42/18 voor staat SP - CAT 42/18
+   | In behandeling            |   10.0.4      | Brazilië    |   NF-e-besluit 54.308/18 - RS NF   |
+   
 
 
 ## <a name="additional-resources"></a>Aanvullende resources
