@@ -1,0 +1,56 @@
+---
+title: Een relatief pad gebruiken in gegevensbindingen van ER-modellen en -indelingen
+description: .
+author: NickSelin
+manager: AnnBe
+ms.date: 07/03/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: ERSolutionTable , ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
+audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.search.region: global
+ms.author: nselin
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: 6582cca9b912868f88de2770a17cbb6e67328660
+ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "1726547"
+---
+# <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a><span data-ttu-id="0237a-103">Een relatief pad gebruiken in gegevensbindingen van ER-modellen en -indelingen</span><span class="sxs-lookup"><span data-stu-id="0237a-103">Use a relative path in data bindings of ER models and formats</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+<span data-ttu-id="0237a-104">Met het hulpprogramma voor elektronische rapportage (ER) kunnen gebruikers elektronische indelingsstructuren definiëren en vervolgens beschrijven hoe deze structuren moeten worden gevuld met behulp van gegevens en algoritmen uit Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="0237a-104">The Electronic reporting (ER) tool lets users define electronic format structures and then describe how those structures should be filled by using data and algorithms that exist in Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="0237a-105">Zie [ER-configuraties (Elektronische rapportage) maken](electronic-reporting-configuration.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="0237a-105">For more information, see [Create Electronic reporting (ER) configurations](electronic-reporting-configuration.md).</span></span> <span data-ttu-id="0237a-106">Als u de gegevensstroom wilt opgeven voor het ophalen van gegevens uit Finance and Operations en het gebruik ervan om een elektronisch document te genereren, moet u het volgende doen:</span><span class="sxs-lookup"><span data-stu-id="0237a-106">To specify the data flow for retrieving Finance and Operations data and using it to generate  an electronic document, you need to do the following:</span></span>
+
+- <span data-ttu-id="0237a-107">De geconfigureerde gegevensbronnen binden aan elementen van het ontworpen domeinspecifieke gegevensmodel.</span><span class="sxs-lookup"><span data-stu-id="0237a-107">Bind configured data sources to elements of the designed domain-specific data model.</span></span> <span data-ttu-id="0237a-108">De modelstructuur en de geselecteerde gegevensbronnen kunnen deel uitmaken van een complexe hiërarchische structuur.</span><span class="sxs-lookup"><span data-stu-id="0237a-108">The model structure and selected data sources might be part of a complex hierarchical structure.</span></span> <span data-ttu-id="0237a-109">Hierdoor kunnen eindbindingen vrij groot zijn en vele elementen van verschillende typen bevatten (bijvoorbeeld relaties, tabellen en methoden).</span><span class="sxs-lookup"><span data-stu-id="0237a-109">Because of this, final bindings can be quite large and contain many elements of different types (for example, relations, tables, and methods,).</span></span> <span data-ttu-id="0237a-110">De bindingen kunnen minder goed leesbaar worden en zijn zeer ingewikkeld om te controleren en te begrijpen, vooral voor niet-eigenaars.</span><span class="sxs-lookup"><span data-stu-id="0237a-110">The bindings can become less readable and quite complex to review and understand, especially for non-owners.</span></span> 
+- <span data-ttu-id="0237a-111">Gegevensmodelelementen binden met indelingscomponenten om te definiëren welke gegevens uit het gegevensmodel de gegenereerde indelingsoutput zullen vullen.</span><span class="sxs-lookup"><span data-stu-id="0237a-111">Bind data model elements with format components to define what data will be populated from the data model to the generated format’s output.</span></span>
+
+<span data-ttu-id="0237a-112">De functie relatief pad is vrijgegeven om de bruikbaarheid van ontwerpers van ER‑toewijzing te verbeteren.</span><span class="sxs-lookup"><span data-stu-id="0237a-112">To improve usability of ER mapping designers, the relative path feature has been released.</span></span> <span data-ttu-id="0237a-113">De optie relatief pad weergave is standaard ingeschakeld voor elk nieuw exemplaar van Finance and Operations waarvoor de ER‑ontwerpervaring is ingeschakeld (Microsoft Dynamics 365 for Finance and Operations, Microsoft Regulatory Configuration Service).</span><span class="sxs-lookup"><span data-stu-id="0237a-113">By default, the relative path representation option is turned on for any new instance of Finance and Operations where ER design experience is enabled (Microsoft Dynamics 365 for Finance and operations, Microsoft Regulatory Configuration Service).</span></span> <span data-ttu-id="0237a-114">We hebben de relatieve pad parameter geïmplementeerd, zodat gebruikers het volledige pad kunnen blijven gebruiken wanneer ze met deze weergave van ER-bindingen werken.</span><span class="sxs-lookup"><span data-stu-id="0237a-114">We implemented the relative path parameter so that users can keep using the full path when work with this presentation of ER bindings.</span></span>
+
+<span data-ttu-id="0237a-115">[![Gebruikersparameters](./media/relative-path-01.png)](./media/relative-path-01.png)</span><span class="sxs-lookup"><span data-stu-id="0237a-115">[![User parameters](./media/relative-path-01.png)](./media/relative-path-01.png)</span></span>
+
+ 
+<span data-ttu-id="0237a-116">Wanneer de gebruiksparameter van het relatieve pad is ingeschakeld, vervangt een enkel @-teken het pad naar het bovenliggende item in de binding van het huidige modelelement.</span><span class="sxs-lookup"><span data-stu-id="0237a-116">When the relative path usage parameter is turned on, a single @ character replaces the path to the parent item in the binding of the current model element.</span></span> <span data-ttu-id="0237a-117">Het gehele bindingstraject wordt korter, waardoor de volledige toewijzing duidelijker en begrijpelijker wordt.</span><span class="sxs-lookup"><span data-stu-id="0237a-117">The entire binding path becomes shorter, which makes the entire mapping more obvious and easier to understand.</span></span> <span data-ttu-id="0237a-118">In de meeste gevallen is er geen extra scrollen nodig in de ER-ontwerper om alle bindingen van het datamodel te bekijken.</span><span class="sxs-lookup"><span data-stu-id="0237a-118">In most cases, no additional scrolling is required in the ER designer to view all the bindings of the data model.</span></span>
+
+<span data-ttu-id="0237a-119">[![Ontwerper modeltoewijzing](./media/relative-path-02.png)](./media/relative-path-02.png)</span><span class="sxs-lookup"><span data-stu-id="0237a-119">[![Model mapping designer](./media/relative-path-02.png)](./media/relative-path-02.png)</span></span>
+ 
+<span data-ttu-id="0237a-120">Wanneer u begint met het ontwerpen van een nieuwe ER-expressie, hoeft u slechts één teken in te voeren om een binding te definiëren met een veld van het bovenliggende item.</span><span class="sxs-lookup"><span data-stu-id="0237a-120">When you start designing a new ER expression, you need to enter only one character to define a binding to a field of the parent item.</span></span>
+
+<span data-ttu-id="0237a-121">[![Formuleontwerper](./media/relative-path-03.png)](./media/relative-path-03.png)</span><span class="sxs-lookup"><span data-stu-id="0237a-121">[![Formula designer](./media/relative-path-03.png)](./media/relative-path-03.png)</span></span>
+ 
+<span data-ttu-id="0237a-122">Wanneer u besluit de gegeven bron van het bovenliggende model te wijzigen, met gebruik van absolute paden, moet u dit modelitem, evenals alle geneste items, handmatig opnieuw binden aan een nieuwe gegevensbron.</span><span class="sxs-lookup"><span data-stu-id="0237a-122">When you decide to change the data source of the parent model item, with absolute path usage, you have to manually rebind this model item, as well as all nested items, to a new data source.</span></span> <span data-ttu-id="0237a-123">Wanneer het gebruik van een relatief pad is ingeschakeld en u selecteert een nieuwe gegevensbron die aan een bovenliggend item moet worden gebonden, krijgt u de mogelijkheid om alle geneste elementen van dit bovenliggende item automatisch opnieuw te binden met één klik.</span><span class="sxs-lookup"><span data-stu-id="0237a-123">When relative path usage is turned on, and you select a new data source to be bound to a parent item, you are offered an option to automatically rebind all nested elements of this parent item with one click.</span></span>
+
+<span data-ttu-id="0237a-124">[![Bericht bestaand pad vervangen](./media/relative-path-04.png)](./media/relative-path-04.png)</span><span class="sxs-lookup"><span data-stu-id="0237a-124">[![Replace existing path message](./media/relative-path-04.png)](./media/relative-path-04.png)</span></span>
+ 
+<span data-ttu-id="0237a-125">Als u de rebinding van geneste items bevestigt, wordt het nieuwe bovenliggende item geplaatst in het pad van elk genest item dat het bestaande bovenliggende item bevat.</span><span class="sxs-lookup"><span data-stu-id="0237a-125">If you confirm rebinding of nested items, the new parent item will be placed to the path of each nested item containing the existing parent item.</span></span>
+<span data-ttu-id="0237a-126">Deze functie verbreekt niet de achterwaartse compatibiliteit van het ER-raamwerk.</span><span class="sxs-lookup"><span data-stu-id="0237a-126">This feature does not break the backward compatibility of the ER framework.</span></span> <span data-ttu-id="0237a-127">Alle eerder ontworpen ER‑configuraties werken met deze nieuwe functie en er zijn geen upgrades of conversies vereist.</span><span class="sxs-lookup"><span data-stu-id="0237a-127">All previously designed ER configurations will work with this new feature, and no upgrades or conversions are required.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="0237a-128">Alle wijzigingen die worden geïntroduceerd door het groepsgewijs wijzigen van bindingen van geneste elementen in modeltoewijzingen worden correct opgeslagen in een configuratiedelta (tracering van wijzigingen).</span><span class="sxs-lookup"><span data-stu-id="0237a-128">All changes that are introduced by mass modification of bindings of nested elements in model mappings are correctly saved in a configuration delta (trace of changes).</span></span> <span data-ttu-id="0237a-129">Hierdoor kunnen klanten de afgeleide versie van modeltoewijzingen opnieuw baseren op een nieuwe basisversie die is gewijzigd door deze nieuwe functie te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="0237a-129">This allows customers to rebase their derived version of model mappings to any new base version of it that has been modified by using this new feature.</span></span>
