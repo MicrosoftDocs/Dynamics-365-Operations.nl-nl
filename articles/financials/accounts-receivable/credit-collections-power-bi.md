@@ -3,7 +3,7 @@ title: Power BI-inhoud - Crediterings- en aanmaningsbeheer
 description: In dit onderwerp wordt beschreven wat er is opgenomen in de Power BI-inhoud Crediterings- en aanmaningsbeheer. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547227"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702767"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI-inhoud - Crediterings- en aanmaningsbeheer
 
@@ -42,7 +42,17 @@ Alle bedragen worden weergegeven in de systeemvaluta. U kunt de systeemvaluta in
 
 Standaard worden de gegevens over crediteringen en aanmaningen voor het huidige bedrijf weergegeven. Als u de gegevens voor alle bedrijven wilt bekijken, wijst u de taak **CustCollectionsBICrossCompany** aan de rol toe.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Instellingen die nodig zijn om Power BI-inhoud weer te geven
+
+De volgende instellingen moeten worden geconfigureerd om gegevens te kunnen weergeven in de visuele Power BI-elementen van **Klantcrediteringen en aanmaningen**.
+
+1. Ga naar **Systeembeheer > Instellen > Systeemparameters** om **Systeemvaluta** en **Systeemwisselkoers** in te stellen.
+2. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in.
+3. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, en valuta voor boekhouding en systeemvaluta. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
+4. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **CustCollectionsBIMeasurements** te vernieuwen.
+
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
+
 De Power BI-inhoud **Crediterings- en aanmaningsbeheer** wordt weergegeven in het werkgebied **Klantcrediteringen en aanmaningen**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud
@@ -63,28 +73,3 @@ De Power BI-inhoud **CustCollectionsBICrossCompany** bevat een rapport dat uit e
 | Aanmaningen         | <ul><li>Verzamelingscodebedragen</li><li>Details bedragen aanmaningscode</li><li>Bedrag aanmaningen per bedrijf</li><li>Bedrag aanmaningen per klantengroep</li><li>Bedrag aanmaningen per regio</li></ul> |
 
 De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). U kunt ook de functionaliteit voor het exporteren van onderliggende gegevens gebruiken om de onderliggende gegevens te exporteren die worden samengevat in een visualisatie.
-
-## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-
-De volgende gegevens worden gebruikt om het rapport in de Power BI-inhoud **Crediterings- en aanmaningsbeheer** in te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   Entiteit                    |      Belangrijke samengevoegde metingen      |             Gegevensbron              |                           Veld                            |                                    Omschrijving                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Het aantal afgesloten activiteiten en de gemiddelde tijd tot het sluiten van deze activiteiten.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Het aantal open activiteiten.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             De som van vervallen saldi.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           De bedragen die achterstallig zijn.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Het aantal afgesloten aanvragen en de gemiddelde tijd tot het sluiten van deze aanvragen.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Het aantal openstaande aanvragen.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Het aantal openstaande aanmaningen.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Het saldo van geboekte aanmaningen.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Het saldo van transacties met aanmaningsstatus.                 |
-|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | De som van kredietrisico´s en bedragen waarmee klanten hun kredietlimiet hebben overschreden. |
-|         CustCollectionsBICustOnHold         |               Geblokkeerd                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Het aantal klanten dat geblokkeerd is.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        Dagen uitstaande verkoop voor 30 dagen.                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 De som van verwachte betalingen in het volgende jaar.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Het aantal rentenota´s dat is gemaakt.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              VerkoopTabel              |                       Count(SalesId)                       |                 Het aantal totale verkooporders dat geblokkeerd is.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                De som van transacties die zijn afgeschreven.                 |
-

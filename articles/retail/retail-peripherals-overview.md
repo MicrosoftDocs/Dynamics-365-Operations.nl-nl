@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577923"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624807"
 ---
 # <a name="retail-peripherals"></a>Randapparatuur detailhandel
 
@@ -156,13 +156,13 @@ Het apparaattype **Windows** wordt alleen gebruikt voor printers. Wanneer een Wi
 
 ### <a name="network"></a>Netwerk
 
-Kassalade, kassabonprinters en betalingsterminals met een netwerkadres kunnen worden gebruikt via een netwerk, rechtstreeks via het Interprocess Communications (IPC) hardwarestation dat is geïntegreerd in de toepassing Modern POS voor Windows, of via het IIS-hardwarestation voor andere Modern POS-clients.
+Kassalades, kassabonprinters en betalingsterminals met een netwerkadres kunnen worden gebruikt via een netwerk, rechtstreeks via het IPC-hardwarestation (Interprocess Communications) dat is geïntegreerd in de Modern POS voor Windows- en Modern POS voor Android-toepassingen of via het IIS-hardwarestation voor andere Modern POS-clients.
 
 ## <a name="hardware-station-deployment-options"></a>Implementatieopties voor het hardwarestation
 
 ### <a name="ipc-built-in"></a>IPC (geïntegreerd)
 
-Het IPC-hardwarestation (Interprocess Communications) is ingebouwd in de toepassing Modern POS voor Windows. Als u het IPC-hardwarestation wilt gebruiken, wijst u een hardwareprofiel toe aan een kassa die gebruik maakt van de toepassing Modern POS voor Windows. Vervolgens maakt u een hardwarestation van het type **Specifiek** voor de winkel waar de kassa wordt gebruikt. Wanneer u Modern POS start, is het IPC-hardwarestation actief en zijn de geconfigureerde POS-randapparaten klaar voor gebruik. Als u om de een of andere reden de de lokale hardware niet nodig hebt, schakelt u de functionaliteit van het hardwarestation uit met de bewerking **Hardwarestations beheren**. Modern POS kan ook via het IPC-hardwarestation rechtstreeks communiceren met randapparaten die via het netwerk zijn aangesloten.
+Het IPC-hardwarestation (Interprocess Communications) is ingebouwd in de toepassing Modern POS voor Windows en Modern POS voor Android. Als u het IPC-hardwarestation wilt gebruiken, wijst u een hardwareprofiel toe aan een kassa die gebruik maakt van de toepassing Modern POS voor Windows. Vervolgens maakt u een hardwarestation van het type **Specifiek** voor de winkel waar de kassa wordt gebruikt. Wanneer u Modern POS start, is het IPC-hardwarestation actief en zijn de geconfigureerde POS-randapparaten klaar voor gebruik. Als u om de een of andere reden de de lokale hardware niet nodig hebt, schakelt u de functionaliteit van het hardwarestation uit met de bewerking **Hardwarestations beheren**. Modern POS kan ook via het IPC-hardwarestation rechtstreeks communiceren met randapparaten die via het netwerk zijn aangesloten.
 
 ### <a name="iis"></a>IIS
 
@@ -190,7 +190,11 @@ Met de aanduiding Netwerk voor apparaten in het hardwareprofiel kunnen kassalade
 
 U kunt op twee plaatsen IP-adressen voor netwerkrandapparaten opgeven. Als de Modern POS-Windows-client één set netwerkrandapparaten gebruikt, moet u de IP-adressen voor die apparaten instellen via de optie **IP-configuratie** optie in het actievenster van de kassa. Bij apparaten die worden gedeeld tussen de POS-kassa's kan een hardwareprofiel, waaraan netwerkapparaten zijn toegewezen, rechtstreeks aan een gedeeld hardwarestation worden toegewezen. Om IP-adressen toe te wijzen, selecteert u dat hardwarestation op de pagina **Detailhandelwinkels**. Vervolgens geeft u met de optie **IP-configuratie** in de sectie **Hardwarestations** de netwerkapparaten op die aan dat hardwarestation zijn toegewezen. Voor hardwarestations die alleen netwerkapparaten hebben, hoeft u niet het hardwarestation zelf te implementeren. In dit geval is het hardwarestation alleen nodig om apparaten met netwerkadressen conceptueel te groeperen op basis van hun locatie in de winkel.
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS voor iOS en Modern POS voor Android
+#### <a name="modern-pos-for-android"></a>Modern POS voor Android
+
+Sinds Dynamics 365 for Retail 8.1.3 bevat de toepassing Modern POS voor Android een ingebouwd IPC-hardwarestation. Dit hardwarestation ondersteunt de communicatie met netwerkprinters en betalingsconnectors. Lees voor meer informatie het artikel [Hybrid app for Android docs](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+
+#### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS en Modern POS voor iOS
 
 De logica die fysiek aangesloten randapparaten en randapparaten in een netwerk aanstuurt, bevindt zich in het hardwarestation. Daarom moet voor alle POS-clients, met uitzondering van Modern POS voor Windows, een IIS-hardwarestation worden geïmplementeerd en actief zijn, zodat het POS kan communiceren met randapparaten, ongeacht of deze apparaten fysiek zijn aangesloten op een hardwarestation of benaderd worden via het netwerk.
 
@@ -223,7 +227,7 @@ In de volgende tabel ziet u de ondersteunde topologieën en implementatiescenari
 |-------------|----------------------|----------------------|
 | Windows-app | Ja                  | Ja                  |
 | Cloud-POS   | Nee                   | Ja                  |
-| Android     | Nee                   | Ja                  |
+| Android     | Ja                  | Ja                  |
 | iOS         | Nee                   | Ja                  |
 
 ### <a name="network-peripherals"></a>Op netwerk aangesloten randapparaten
@@ -234,7 +238,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 |-------------|----------------------|----------------------|
 | Windows-app | Ja                  | Ja                  |
 | Cloud-POS   | Nee                   | Ja                  |
-| Android     | Nee                   | Ja                  |
+| Android     | Ja                  | Ja                  |
 | iOS         | Nee                   | Ja                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Ondersteunde apparaattypen op type hardwarestation
@@ -661,14 +665,15 @@ De volgende randapparaten zijn getest met het IPC-hardwarestation dat is geïnte
 
 #### <a name="printer"></a>Printer
 
-| Fabrikant | Model    | Interface | Opmerkingen                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Aangepast    | Aangesloten via netwerk   |
-| Star         | mPOP     | OPOS      | Aangesloten via Bluetooth |
-| HP           | F7M67AA  | OPOS      | USB met voeding             |
+| Fabrikant | Model      | Interface | Opmerkingen                |
+|--------------|------------|-----------|-------------------------|
+| Epson        | Tm-T88IV   | OPOS      |                         |
+| Epson        | TM-T88V    | OPOS      |                         |
+| Epson        | ePOS-Print | Aangepast    | Aangesloten via netwerk   |
+| Star         | TSP650II   | OPOS      |                         |
+| Star         | TSP650II   | Aangepast    | Aangesloten via netwerk   |
+| Star         | mPOP       | OPOS      | Aangesloten via Bluetooth |
+| HP           | F7M67AA    | OPOS      | USB met voeding             |
 
 #### <a name="bar-code-scanner"></a>Streepjescodelezer
 
@@ -688,15 +693,16 @@ De volgende randapparaten zijn getest met het IPC-hardwarestation dat is geïnte
 
 #### <a name="payment-terminal"></a>Betalingsterminal 
 
-| Fabrikant | Model | Interface | Opmerkingen                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Aangepast    | Aanpassing van de betalingsconnector vereist                                |
-| VeriFone     | MX925 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
-| VeriFone     | MX915 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
+| Fabrikant | Model        | Interface | Opmerkingen                                                                       |
+|--------------|--------------|-----------|--------------------------------------------------------------------------------|
+| Equinox      | L5300        | Aangepast    | Aanpassing van de betalingsconnector vereist                                |
+| VeriFone     | MX925        | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
+| VeriFone     | MX915        | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
+| Verifone     | Zie opmerkingen | Adyen     | De Adyen-connector ondersteunt alle apparaten die [hier](https://www.adyen.com/pos-payments/terminals)  worden vermeld |
 
 #### <a name="cash-drawer"></a>Kassalade
 
-| Fabrikant | Model     | Interface | Opmerkingen                |
+| Producent | Model     | Interface | Opmerkingen                |
 |--------------|-----------|-----------|-------------------------|
 | Star         | mPOP      | OPOS      | Aangesloten via Bluetooth |
 | APG          | Atwood    | Aangepast    | Aangesloten via netwerk   |

@@ -3,7 +3,7 @@ title: Verwijderde of verouderde functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620640"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624902"
 ---
 # <a name="removed-or-deprecated-features"></a>Verwijderde of afgeschafte functies
 
@@ -40,7 +40,10 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > Gedetailleerde informatie over objecte in Finance and Operations is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 met platformupdate 28
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 met platformupdate 28 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Frankrijk: FEC-boekhoudingsgegevens exporteren in XML
 
@@ -52,17 +55,12 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft. De verwijdering van de functionaliteit staat gepland voor juli 2020. |
 
-=======
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 met platformupdate 28
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 met platformupdate 28 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-navigation-bar"></a>Verouderde navigatiebalk
 
 |   |  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Koptekst uitgelijnd met andere Dynamics- en Office-producten. Zie [Bijgewerkte navigatiebalk die is uitgelijnd met de Office-koptekst](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar)voor meer informatie.
+| **Reden voor afschaffing/verwijdering** | Koptekst uitgelijnd met andere Dynamics- en Office-producten. Zie [Bijgewerkte navigatiebalk die is uitgelijnd met de Office-koptekst](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar)voor meer informatie.
 | **Vervangen door een andere functie?**   | Vanaf platformupdate 24 is een opnieuw vormgegeven navigatiebalk met zoekfunctie beschikbaar. |
 | **Betrokken productgebieden**         | Webclient |
 | **Implementatieoptie**              | Alle |
@@ -71,8 +69,6 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 met platformupdate 26
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.2 met platformupdate 26 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-default-action-behavior"></a>Oud standaardgedrag voor acties
 
@@ -116,9 +112,6 @@ Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het pro
 | **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor april 2020. |
 
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 met platformupdate 25
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 met platformupdate 25 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Afgeschafte API's en potentiële ingrijpende wijzigingen
 

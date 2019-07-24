@@ -3,7 +3,7 @@ title: De integratie van de salarisadministratie tussen Talent en Dayforce confi
 description: In dit onderwerp wordt uitgelegd hoe de integratie tussen Microsoft Dynamics 365 for Talent en Ceridian Dayforce wordt geconfigureerd zodat u een betaling kunt verwerken.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/26/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517668"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702813"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>De integratie van de salarisadministratie tussen Talent en Dayforce configureren
 
@@ -54,6 +54,16 @@ Zie de volgende Azure-onderwerpen voor meer informatie over Azure-opslagaccounts
 
 - [Informatie over Azure-opslagaccounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Verbindingstekenreeks voor Azure Storage configureren](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+### <a name="technical-details-when-payroll-integration-is-enabled"></a>Technische details wanneer integratie van salarisadministratie is ingeschakeld
+
+Het inschakelen van de integratie van de salarisadministratie heeft twee belangrijke effecten:
+
+- Er wordt een gegevensexportproject met de naam Export van integratie van salarisadministratie gemaakt. Dit project bevat de entiteiten en velden die nodig zijn voor de integratie van de salarisadministratie. Als u het project wilt onderzoeken, gaat u naar **Systeembeheer**, selecteert u de tegel **Gegevensbeheer** en opent u het gegevensproject in de lijst met projecten.
+- Met deze batchtaak wordt het gegevensexportproject uitgevoerd, wordt het resulterende gegevenspakket gecodeerd en wordt het gegevenspakketbestand overgebracht naar het SFTP-eindpunt dat is geconfigureerd in het scherm **Configuratie van integratie**.
+
+> [!NOTE]
+> Het gegevenspakket dat naar het SFTP-eind punt wordt overgebracht, is gecodeerd met een sleutel die uniek is voor het pakket. De sleutel bevindt zich in een Azure-sleutelkluis die alleen toegankelijk is via Ceridian. Het is niet mogelijk om de inhoud van het gegevenspakket te decoderen en te onderzoeken. Als u de inhoud van het gegevenspakket wilt controleren, moet u het gegevensproject Export van integratie van salarisadministratie handmatig exporteren, downloaden en vervolgens openen. Bij een handmatige export wordt er geen codering toegepast of wordt het pakket niet overgedragen.
 
 ## <a name="configure-your-data"></a>Uw gegevens configureren 
 

@@ -3,7 +3,7 @@ title: Bewerkingsplanning
 description: Dit onderwerp bevat informatie over de planning van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560251"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691457"
 ---
 # <a name="operations-scheduling"></a>Bewerkingsplanning
 
@@ -67,6 +67,9 @@ De bewerkingsplanning vormt ook de basis voor de hoofdplanning, waardoor bereken
 -   **Reserveproducten** – Producten die zijn gepland, vrijgegeven of gestart
 -   **Materiaalbeschikbaarheid**: voorraad, subproductie en leveranciers
 -   **Capaciteitsbeschikbaarheid** – Bronnen die voor de productie vereist zijn
+
+> [!NOTE]
+> Als u een hoofdplanning met meerdere threads en bewerkingsplanning gebruikt, wordt er geen rekening gehouden met eindige capaciteit. 
 
 ## <a name="cancellations"></a>Annuleringen
 Wanneer u de planning van bewerkingen uitvoert, kunt u specifieke onderdelen van het bewerkingsplan annuleren. Deze onderdelen omvatten de wachttijd, insteltijd, verwerkingstijd, overlappingstijd en vervoerstijden.

@@ -3,7 +3,7 @@ title: Help-systeem voor Finance and Operations
 description: Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
+ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595634"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625324"
 ---
 # <a name="finance-and-operations-help-system"></a>Help-systeem voor Finance and Operations
 
@@ -95,16 +95,18 @@ Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aa
 
     ![Opmerking verzenden](./media/feedback.png)
 
-##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Een wijziging voorstellen of inhoud bijdragen via GitHub
+### <a name="contribute-to-the-documentation"></a>Bijdragen aan de documentatie
 
-Als u een wijziging wilt voorstellen, moet u een GitHub-account hebben en een licentieovereenkomst voor bijdragers ondertekenen. Wanneer u een wijzigingsaanvraag indient, beoordelen wij uw voorgestelde wijzigingen. Indien nodig bespreken we deze intern en komen we er vervolgens op terug met u.
+U kunt bijdragen aan en wijzigingen aanbrengen in de documentatie voor Finance and Operations. Om te beginnen, klikt u op de knop **Bewerken** (potlood) of gaat u naar onze opslagplaats op <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. In de volgende video ziet u hoe u aan onze documentatie kunt bijdragen.
 
-Om te beginnen, klikt u op de knop **Bewerken** (potlood) of gaat u naar onze opslagplaats op <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
 
-Raadpleeg voor meer informatie onze handleiding voor bijdragers: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
+De video [Hoe u bijdraagt aan de Microsoft Dynamics 365-documentatie](https://youtu.be/m5djioozRbg) (hierboven weergegeven) is opgenomen in de [afspeellijst met nieuwe functies in Dynamics 365](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) die beschikbaar is op YouTube.
+
+Raadpleeg voor meer informatie onze handleiding voor bijdragers op <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
 
 > [!NOTE]
-> Op dit moment accepteren we alleen bijdragen aan onze Engelse-inhoudsset.
+> Op dit moment accepteren we alleen bijdragen aan onze Engelse inhoud.
 
 ## <a name="task-guides"></a>Taakbegeleidingen
 

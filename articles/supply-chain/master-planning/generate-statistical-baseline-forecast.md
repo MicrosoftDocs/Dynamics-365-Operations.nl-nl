@@ -1,9 +1,9 @@
 ---
-title: Een statistische basislijnprognose maken
-description: Dit artikel bevat informatie over de parameters en de filters die in de berekening van de vraagprognose worden gebruikt.
+title: Een statistische basislijnprognose genereren
+description: Dit onderwerp bevat informatie over de parameters en de filters die in de berekening van de vraagprognose worden gebruikt.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4bc5a38519efb6f4d242daca9aab5226c16e4ea0
+ms.sourcegitcommit: 3be8d2be6474264f0a530a052d19ea2635e269cf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546312"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1729870"
 ---
-# <a name="generate-a-statistical-baseline-forecast"></a>Een statistische basislijnprognose maken
+# <a name="generate-a-statistical-baseline-forecast"></a>Een statistische basislijnprognose genereren
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel bevat informatie over de parameters en de filters die in de berekening van de vraagprognose worden gebruikt. 
+Dit onderwerp bevat informatie over de parameters en de filters die in de berekening van de vraagprognose worden gebruikt. 
 
 Wanneer u een basislijnprognose maakt, moet u eerst de parameters en filters opgeven die worden gebruikt in de berekening. U kunt bijvoorbeeld u een basislijnprognose maken die de vraag raamt op basis van transactiegegevens van het afgelopen jaar voor een specifiek bedrijf, voor de volgende maand, en voor een geselecteerde groep artikelen. 
 
@@ -49,9 +49,12 @@ Om verwarring in de productieplannen te vermijden, kan een bepaald aantal progno
 
 De begindatum voor de basislijnvraagprognose hoeft niet de huidige datum of een datum in de toekomst te zijn. Om een andere begindatum in te stellen, gebruikt u het veld **De begindatum van de basislijnprognose - Begindatum**. In juni kunnen gebruikers bijvoorbeeld een prognose voor het volgende jaar genereren. Omdat de prognoseverzamelingen tussen het einde van historische vraag en het begin van de basislijn ontbreken, zijn de voorspellingen mogelijk niet nauwkeurig. Als u de vraagprognoseservice van Microsoft Dynamics 365 for Finance and Operations gebruikt, zijn er vier manieren waarop u de lacunes kunt invullen. U kunt de gewenste methode selecteren door de parameter MISSING\_VALUE\_SUBSTITUTION in te stellen op de pagina **Parameters voor vraagprognose**. 
 
+> [!NOTE]
+> Ontbrekende waardevervanging werkt alleen voor gaten in gegevens tussen de begin- en eind datum van historische gegevens. Er worden geen gegevens ingevuld voor of na het laatste fysieke gegevenspunt, het fungeert alleen als extrapolatie tussen werkelijk bestaande gegevenspunten. 
+
 Het veld **Begindatum van basislijnprognose** - **Begindatum** moet worden ingesteld aan het begin van een prognoseverzameling, bijvoorbeeld in de Verenigde Staten op een zondag als de prognoseverzameling de week is. Het veld **Begindatum van basislijnprognose** - **Begindatum** wordt automatisch aan het begin van een prognoseverzameling aangepast. 
 
-Het veld **Begindatum van basislijnprognose** - **Begindatum** kan worden ingesteld op een datum in het verleden. Met andere woorden, het is mogelijk om een vraagprognose in het verleden te genereren. Dit is handig, omdat het gebruikers in staat stelt de parameters van de prognoseservice af te stemmen zodat de statistische prognose die in het verleden is gegenereerd overeenkomt met de werkelijke historische vraag. Gebruikers kunnen vervolgens deze parameterinstellingen blijven gebruiken om een statistische basislijnprognose te genereren voor de toekomst. 
+Het veld **Begindatum van basislijnprognose** - **Begindatum** kan worden ingesteld op een datum in het verleden. Met andere woorden, het is mogelijk om een vraagprognose in het verleden te genereren. Dit is handig, omdat het gebruikers in staat stelt de parameters van de prognoseservice aan te passen zodat de statistische prognose die in het verleden is gegenereerd overeenkomt met de werkelijke historische vraag. Gebruikers kunnen vervolgens deze parameterinstellingen blijven gebruiken om een statistische basislijnprognose te genereren voor de toekomst. 
 
 Handmatige correcties die bij vorige iteraties van vraagprognoses zijn aangebracht, kunnen automatisch worden toegepast op de nieuwe basislijnprognose als het selectievakje **Handmatige correcties overbrengen naar de vraagprognose** is ingeschakeld. Als het selectievakje is uitgeschakeld, worden handmatige aanpassingen niet toegevoegd aan de basislijnprognose, maar ze worden niet verwijderd. Handmatige correcties die in een prognose zijn aangebracht, kunnen alleen op het moment van importeren van de prognose worden verwijderd door het selectievakje **De handmatige correcties opslaan die in de basislijnvraagprognose zijn gemaakt** te wissen. Handmatige aanpassingen worden opgeslagen op het moment van autorisatie. Daarom gaan de wijzigingen verloren als een gebruiker handmatig aanpassingen uitvoert in de prognose, maar de prognose niet opnieuw autoriseert in Finance and Operations. Zie [De gecorrigeerde prognose autoriseren](authorize-adjusted-forecast.md) voor meer informatie over handmatige correcties en hoe deze werken. 
 
@@ -59,18 +62,19 @@ Het genereren van een vraagprognose kan een naam en opmerkingen hebben om gebrui
 
 De intercompany-planninggroep, de artikeltoewijzingssleutels, en andere filters kunnen in de prognosegeneratietijd worden toegepast. Deze kunnen worden gebruikt om de prestaties te verbeteren of de gegevens op te splitsen in werkbare brokken. Er wordt echter geen vraagprognose gegenereerd voor de leden van een artikeltoewijzingssleutel die niet zijn gekoppeld aan een intercompany-planningsgroep, zelfs als de artikeltoewijzingssleutel in de query wordt geselecteerd. 
 
-**Tip**: Soms kunnen gebruikers fouten kunnen krijgen tijdens het genereren van een vraagprognose, of wordt het maken van de prognose voltooid zonder sessielogboek. Dit kan gebeuren vanwege resterende gegevens in de query die eerder werd gebruikt voor het genereren van een prognose. U kunt dit probleem oplossen door te klikken op **Selecteren** om de pagina **Query** te openen, op **Opnieuw instellen** te klikken en vervolgens de basislijnprognose opnieuw te genereren. 
+> [!TIP]
+> Soms kunnen gebruikers fouten krijgen tijdens het genereren van een vraagprognose, of wordt het maken van de prognose voltooid zonder sessielogboek. Dit kan gebeuren vanwege resterende gegevens in de query die eerder werd gebruikt voor het genereren van een prognose. U kunt dit probleem oplossen door te klikken op **Selecteren** om de pagina **Query** te openen, op **Opnieuw instellen** te selecteren en vervolgens de basislijnprognose opnieuw te genereren. 
 
 Als de prognose niet wordt gegenereerd voor een grote set artikelen, maar bijvoorbeeld voor één artikel of artikeltoewijzingssleutel tegelijk, kunt u om betere prestaties te krijgen het selectievakje **Aanvraagreactiemodus gebruiken** op het tabblad **Hoofdplanning - Instellingen - Vraagprognose** - **Parameters voor vraagprognose - Azure Machine Learning** inschakelen.
+
+> [!NOTE]
+> Een potentieel vlakke prognose kan het gevolg zijn van de historische gegevens die een langere historische periode moeten omvatten (minimaal drie tijdsperioden om patronen te kunnen zien, bijvoorbeeld 3 jaar met maandelijkse prognose). Om een beter resultaat te krijgen, kunt u proberen de nauwkeurigheid van het tijdsbereik te wijzigen of het tijdsbereik te vergroten.
 
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Instelling van vraagprognose](demand-forecasting-setup.md)
+- [Instelling van vraagprognose](demand-forecasting-setup.md)
 
-[Handmatige correcties aanbrengen in de basislijnprognose](manual-adjustments-baseline-forecast.md)
+- [Handmatige correcties aanbrengen in de basislijnprognose](manual-adjustments-baseline-forecast.md)
 
-[De gecorrigeerde prognose autoriseren](authorize-adjusted-forecast.md)
-
-
-
+- [De gecorrigeerde prognose autoriseren](authorize-adjusted-forecast.md)

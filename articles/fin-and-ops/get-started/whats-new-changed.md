@@ -3,7 +3,7 @@ title: Wat is nieuw of gewijzigd
 description: Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente versies van Microsoft Dynamics 365 for Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: bc13efe11f383157338ccd6b2ae378ee1f92a698
-ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.openlocfilehash: 42c31195a0b1a785afadfefc33f5cf7e1a6fce1f
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1619187"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1632000"
 ---
 # <a name="whats-new-or-changed"></a>Wat is nieuw of gewijzigd
 
@@ -63,7 +63,7 @@ In deze tabel worden de belangrijkste versies van de toepassing weergegeven. Zie
 <td>10.0.3</td>
 <td>10.0.107</td>
 <td>2019 juni</td>
-<td><a href="whats-new-changed-10-0-3.md">Previewfuncties in Dynamics 365 for Finance and Operations versie 10.0.3 (juni 2019)</a></td>
+<td><a href="whats-new-changed-10-0-3.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 10.0.3 (juni 2019)</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.2</td>
@@ -183,7 +183,7 @@ In deze tabel worden de belangrijkste versies van de toepassing weergegeven. Zie
 <td>Platformupdate 27</td>
 <td>7.0.5286</td>
 <td>2019 juni</td>
-<td><a href="whats-new-platform-update-27.md">Previewfuncties in Dynamics 365 for Finance and Operations platformupdate 27 (juni 2019)</a></td>
+<td><a href="whats-new-platform-update-27.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 27 (juni 2019)</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platformupdate 26</td>

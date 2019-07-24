@@ -3,7 +3,7 @@ title: Kandidaten vinden met behulp van talentenpools
 description: In dit onderwerp wordt uitgelegd hoe u talentenpools maakt en instelt in Attract.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/02/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
+ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517673"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "1711289"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Kandidaten vinden met behulp van talentenpools
 
@@ -110,15 +110,16 @@ Alle gebruikers hebben een gemeenschappelijke weergave van de kandidaatprofielen
 
 - U kunt de contactgegevens weergeven voor de kandidaat. U kunt indien nodig ook de informatie bewerken of bijwerken met de knop **Details bewerken**.
 
-- U kunt meer vaardigheidstags toevoegen om te helpen de vaardigheden van een kandidaat te identificeren.
-
 - U kunt de hele sollicitatiehistorie van de kandidaat weergeven. U kunt alle functies weergeven waarnaar de kandidaat heeft gesolliciteerd in uw organisatie en de status van deze sollicitaties. Als u deel uitmaakt van het wervingsteam van een functie, kunt u **Weergeven** selecteren om de toepassing gedetailleerd weer te geven.
 
-- Het tabblad **Documenten** bevat documenten die de kandidaat heeft toegevoegd vanuit zijn of haar profiel of tijdens sollicitaties. Dit tabblad kan worden gebruikt voor het beheren van cv's, begeleidende schrijvens, portfoliowerk enzovoort van de kandidaat. U kunt dit tabblad ook gebruiken om documenten toe te voegen.
+- Het tabblad **Documenten** bevat documenten die de kandidaat heeft toegevoegd vanuit zijn of haar profiel of tijdens sollicitaties. Dit tabblad kan worden gebruikt voor het beheren van cv's, begeleidende schrijvens, portfoliowerk, enzovoort van de kandidaat. U kunt dit tabblad ook gebruiken om documenten toe te voegen.
 
     Als u een document wilt weergeven, selecteert u de documentnaam in de lijst van documenten. U kunt Microsoft Word-documenten in de toepassing bekijken met behulp van Microsoft Office 365. U kunt ook de documenten downloaden naar uw lokale computer met behulp van de optie **Downloaden** voor elk document.
 
 - Het tabblad **LinkedIn** bevat de LinkedIn-informatie van de kandidaat. Als u dit tabblad wilt gebruiken, moet u uw LinkedIn-account in de gebruikersinstellingen verbinden en moet de LinkedIn Recruiter-verbinding van uw omgeving tot stand zijn gebracht. Zie voor meer informatie [Aanstelling met LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+
+> [!NOTE]
+> Alleen kandidaten kunnen hun vaardigheden, opleidingshistorie en werkervaring bijwerken.
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Kandidaten uit een talentenpool toevoegen aan een functie
 

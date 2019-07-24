@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 13cfe68e3d06001c56770fa60838404c43d0b38d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517686"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624576"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (23 april 2019)
 
@@ -46,7 +46,7 @@ Bij de release van deze week ondersteunen de volgende entiteiten aangepaste veld
 ### <a name="additional-odata-entities-302992"></a>Aanvullende OData-entiteiten (302992)
 De volgende entiteiten worden nu ondersteund in OData: Beroepservaring van werknemer en Opleiding van werknemer.
    
-### <a name="performance-journal-attachments-for-nanagers-and-employees-308248"></a>Bijlagen voor prestatielogboek voor managers en werknemers (308248)
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a>Bijlagen voor prestatielogboek voor managers en werknemers (308248)
 In deze versie zijn er bijlagen beschikbaar voor zowel managers als werknemers bij het maken en bijwerken van journaalposten voor prestaties.
 
 ### <a name="employee-rehire-flag-always-available-310047"></a>Vlag voor het opnieuw aanstellen van werknemers altijd beschikbaar (310047)

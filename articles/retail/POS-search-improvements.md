@@ -3,7 +3,7 @@ title: Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 description: Dit onderwerp biedt een overzicht van verbeteringen die zijn aangebracht in de functies voor het zoeken van producten en klanten in Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530771"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625637"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 
@@ -40,7 +40,7 @@ Standaard wordt in het assortiment van de winkel naar een product gezocht. Dit t
 Op de pagina **Catalogus wijzigen** kunnen werknemers eenvoudig een winkel selecteren of in alle winkels naar producten zoeken.
 
 ![De catalogus wijzigen](./media/Changecatalog.png "De catalogus wijzigen")
- 
+
 Met een lokale productzoekopdracht wordt gezocht in de volgende producteigenschappen:
 
 - Productnummer
@@ -55,7 +55,7 @@ Met een lokale productzoekopdracht wordt gezocht in de volgende producteigenscha
 Lokale productzoekopdrachten zijn nu gebruiksvriendelijker. De volgende verbeteringen zijn doorgevoerd:
 
 - Er zijn vervolgkeuzelijsten voor producten en klanten toegevoegd aan de zoekbalk, zodat werknemers **Product** of **Klant** kunnen selecteren voordat ze de zoekopdracht uitvoeren. Standaard is **Product** geselecteerd, zoals in de volgende afbeelding wordt weergegeven.
-- Voor zoekopdrachten met meerdere zoekwoorden (zoekopdrachten met zoektermen) kunnen detailhandelaren configureren of de zoekresultaten resultaten bevatten die overeenkomen met *een* van de zoektermen of alleen resultaten die overeenkomen met *alle* zoektermen. Deze instelling is beschikbaar in het POS-functionaliteitsprofiel, in een nieuwe groep met de naam **Product zoeken**. De standaardinstelling is **Overeenkomen met willekeurige zoekterm(en)**. Deze instelling is ook de aanbevolen instelling. Wanneer de instelling **Overeenkomen met willekeurige zoekterm(en)** wordt gebruikt, worden alle producten die geheel of gedeeltelijk overeenkomen met de een of meer zoektermen geretourneerd als resultaat. Deze resultaten worden automatisch gesorteerd in oplopende volgorde met producten die de meeste trefwoordovereenkomsten (volledig of gedeeltelijk) hebben.
+- Voor zoekopdrachten met meerdere zoekwoorden (zoekopdrachten met zoektermen) kunnen detailhandelaren configureren of de zoekresultaten resultaten bevatten die overeenkomen met *een* van de zoektermen of alleen resultaten die overeenkomen met *alle* zoektermen. De instelling voor deze functionaliteit is beschikbaar in het POS-functionaliteitsprofiel, in een nieuwe groep met de naam **Product zoeken**. De standaardinstelling is **Overeenkomen met willekeurige zoekterm(en)**. Deze instelling is ook de aanbevolen instelling. Wanneer de instelling **Overeenkomen met willekeurige zoekterm(en)** wordt gebruikt, worden alle producten die geheel of gedeeltelijk overeenkomen met de een of meer zoektermen geretourneerd als resultaat. Deze resultaten worden automatisch gesorteerd in oplopende volgorde met producten die de meeste trefwoordovereenkomsten (volledig of gedeeltelijk) hebben.
 
     De instelling **Overeenkomen met alle zoektermen** retourneert alleen producten die overeenkomen met alle zoektermen (volledig of gedeeltelijk). Deze instelling is handig voor lange productnamen en als werknemers niet te veel zoekresultaten willen krijgen. Dit type zoekopdracht heeft echter twee beperkingen:
 
@@ -65,11 +65,20 @@ Lokale productzoekopdrachten zijn nu gebruiksvriendelijker. De volgende verbeter
 - Detailhandelaren kunnen productzoekopdrachten nu zo configureren dat zoeksuggesties worden weergeven terwijl gebruikers productnamen typen. Er is een nieuwe instelling beschikbaar in het POS-functionaliteitsprofiel, in een nieuwe groep met de naam **Product zoeken**. De instelling heet **Suggesties weergeven tijdens het typen**. Met deze functionaliteit kunnen werknemers het product dat ze zoeken snel vinden omdat ze niet de hele naam handmatig hoeven in te voeren.
 - Met het algoritme voor het zoeken van producten wordt nu ook gezocht naar de gezochte termen in de eigenschap **Zoeknaam** van het product.
 
-    ![Productsuggesties](./media/Productsuggestions.png "Productsuggesties")
+![Productsuggesties](./media/Productsuggestions.png "Productsuggesties")
 
 ## <a name="customer-search"></a>Klant zoeken
 
-Klantzoekopdrachten worden gebruikt om voor verschillende doeleinden naar klanten te zoeken. Een kassamedewerker kan bijvoorbeeld de wensenlijst of inkoophistorie weergeven of de klant aan een transactie toevoegen. Het zoekalgoritme vergelijkt de zoektermen met de waarden die in de volgende eigenschappen van de klant aanwezig zijn: naam, e-mailadres, telefoon, loyaliteitskaartnummer, adres en rekeningnummer. Hiervan biedt de eigenschap naam de meeste flexibiliteit wanneer het gaat om meerdere zoekopdrachten op basis van trefwoorden, aangezien het algoritme alle klanten retourneert die overeenkomen met de gezochte trefwoorden en de klanten die overeenkomen met de meeste trefwoorden, worden boven aan de resultaten weergegeven. Dit is handig voor kassamedewerkers in situaties waarin ze zoeken door de volledige naam te typen, maar de achternaam en voornaam zijn omgewisseld tijdens de eerste gegevensinvoer. Met het oog op betere prestaties behouden alle andere eigenschappen de volgorde van de zoekwoorden, dus als de trefwoorden niet overeenkomen met de volgorde waarin de gegevens zijn opgeslagen, worden er geen resultaten geretourneerd.
+Klantzoekopdrachten worden gebruikt om voor verschillende doeleinden naar klanten te zoeken. Een kassamedewerker kan bijvoorbeeld de wensenlijst of inkoophistorie weergeven of de klant aan een transactie toevoegen. Het zoekalgoritme komt overeen met de zoektermen met de waarden die aanwezig zijn in de volgende klanteigenschappen:
+
+- Naam
+- E-mailadres
+- Telefoonnummer
+- Nummer loyaliteitskaart
+- Adres
+- Rekeningnummer
+
+Onder deze eigenschappen biedt de naam de meeste flexibiliteit voor zoekopdrachten met meerdere trefwoorden omdat het algoritme alle klanten retourneert die overeenkomen met een van de gezochte trefwoorden. De klanten die overeenkomen met de meeste zoekwoorden, worden bovenaan weergegeven in de resultaten. Dit is handig voor kassamedewerkers in situaties waarin ze zoeken door de volledige naam te typen, maar de achternaam en voornaam zijn omgewisseld tijdens de eerste gegevensinvoer. Met het oog op de prestaties behouden alle andere eigenschappen echter de volgorde van de zoekwoorden. Als de volgorde van de zoekwoorden niet overeenkomt met de volgorde waarin de gegevens zijn opgeslagen, worden er dus geen resultaten geretourneerd.
 
 Standaard wordt een klantzoekopdracht uitgevoerd op de klantadresboeken die zijn gekoppeld aan de winkel. Dit type zoekopdracht wordt ook wel een *lokale klantzoekopdracht* genoemd. Werknemers kunnen echter ook wereldwijd naar klanten zoeken. Ze kunnen dus in alle winkels van het bedrijf en in alle andere rechtspersonen zoeken. Dit type zoekopdracht wordt ook wel een *externe klantzoekopdracht* genoemd.
 
@@ -86,7 +95,7 @@ Bij een externe klantzoekopdracht wordt de klant-ID niet weergegeven voor klante
 
 Zoekopdrachten die zijn gebaseerd op het telefoonnummer zijn vereenvoudigd. Deze zoekopdrachten negeren nu speciale tekens, zoals spaties, afbreekstreepjes en haken, die mogelijk zijn toegevoegd wanneer de klant is gemaakt. Daarom kunnen kassiers de indeling negeren van het telefoonnummer dat ze zoeken. Ze kunnen ook zoeken naar klanten door een gedeeltelijk telefoonnummer te typen. Als een telefoonnummer speciale tekens bevat, kan het ook worden gevonden door te zoeken naar de nummers die worden weergegeven na de speciale tekens. Als een telefoonnummer van een klant bijvoorbeeld is ingevoerd als **123-456-7890**, kan een kassamedewerker de klant zoeken door **123**, **456**, **7890** of **1234567890** te typen of door de eerste paar cijfers van het telefoonnummer in te voeren.
 
-De traditionele zoekopdracht voor klanten kan tijdrovend zijn, omdat er meerdere velden worden doorzocht. Kassiers kunnen in plaats daarvan nu zoeken in één aangepaste klanteeigenschap, zoals naam, e-mailadres of telefoonnummer. De eigenschappen waarvan het klantzoekalgoritme gebruikmaakt, staan bekend als de *klantzoekcriteria*. De systeembeheerer kan eenvoudig een of meer criteria configureren als snelkoppelingen die op het POS worden weergegeven. Omdat de zoekactie is beperkt tot één criteriu, worden alleen de relevante zoekresultaten weergegeven en zijn de prestaties veel beter dan met de standaard zoekopdracht voor klanten. In de volgende afbeelding ziet u de snelkoppelingen voor klant zoeken op het POS.
+De traditionele zoekopdracht voor klanten kan tijdrovend zijn, omdat er meerdere velden worden doorzocht. Kassiers kunnen in plaats daarvan nu zoeken in één klanteigenschap, zoals de naam, het e-mailadres of het telefoonnummer. De eigenschappen waarvan het klantzoekalgoritme gebruikmaakt, staan bekend als de *klantzoekcriteria*. De systeembeheerer kan eenvoudig een of meer criteria configureren als snelkoppelingen die op het POS worden weergegeven. Omdat de zoekactie is beperkt tot één criteriu, worden alleen de relevante zoekresultaten weergegeven en zijn de prestaties veel beter dan met de standaard zoekopdracht voor klanten. In de volgende afbeelding ziet u de snelkoppelingen voor klant zoeken op het POS.
 
 ![Snelkoppelingen voor het zoeken naar klanten](./media/SearchShortcutsPOS.png "Snelkoppelingen voor het zoeken naar klanten")
 
@@ -101,3 +110,7 @@ Het veld **Weergavevolgorde** bepaalt de volgorde waarin de snelkoppelingen word
 
 > [!NOTE]
 > Een aangepaste eigenschap die wordt toegevoegd aan de enum heeft geen invloed op het standaardzoekalgoritme voor klanten. Het klantzoekalgoritme zoekt dus niet in de aangepaste eigenschap. Gebruikers kunnen alleen een aangepaste eigenschap gebruiken voor zoekopdrachten als die aangepaste eigenschap is toegevoegd als een snelkoppeling of als het standaardzoekalgoritme is overschreven.
+
+In een aanstaande release van Microsoft Dynamics 365 for Retail kunnen detailhandelaren de standaardzoekmodus voor klanten in POS instellen op **In alle winkels zoeken**. Deze configuratie kan handig zijn in scenario's waar klanten die buiten POS zijn gemaakt onmiddellijk moeten worden doorzocht (bijvoorbeeld zelfs voordat de distributietaak wordt uitgevoerd). De nieuwe optie **Standaardzoekmodus voor klanten** is beschikbaar in het POS-functionaliteitsprofiel. Stel deze optie in op **Aan** om de standaardzoekmodus in te stellen op **In alle winkels zoeken**. Bij elke zoekpoging van klanten wordt vervolgens een realtime aanroep naar het hoofdkantoor uitgevoerd.
+
+Om onverwachte problemen met prestaties te voorkomen, wordt deze configuratie verborgen achter een flighting-markering met de naam **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Als de instelling **Standaardzoekmodus voor klanten** in de gebruikersinterface moet worden weergegeven, moet de detailhandelaar dus een ondersteuningsticket maken voor de UAT- (User Acceptance Testing) en productieomgevingen. Nadat het ticket is ontvangen, werkt het technisch team samen met de detailhandelaar om ervoor te zorgen dat de detailhandelaar de tests uitvoert in de niet-productieomgeving om de prestaties te beoordelen en eventuele vereiste optimalisaties te implementeren.

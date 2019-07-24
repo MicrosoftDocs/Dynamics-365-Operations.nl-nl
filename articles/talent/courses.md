@@ -3,7 +3,7 @@ title: Trainingen instellen
 description: Personeelsmedewerkers en managers kunnen de cursussenfuncties gebruiken om informatie te onderhouden over de cursus die aan werknemers wordt aangeboden.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 83f88d17c744bb53dad975b77d169a09375d20d1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 26e76d68c6d5c8bd965e65e65d57f239fb8a2918
+ms.sourcegitcommit: 87e8b811680b1f87a973ce1680f07d657fa23046
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517667"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701385"
 ---
 # <a name="set-up-training-courses"></a>Trainingen instellen
 
@@ -128,12 +128,12 @@ In de volgende tabel worden de mogelijke cursusstatussen weergegeven en de actie
 </table>
 
 ## <a name="course-participants"></a>Deelnemers
-Cursusdeelnemers zijn werknemers, sollicitanten of contactpersonen die deelnemen aan een trainingscursus of -gebeurtenis. U kunt alleen deelnemers registreren voor open cursussen. Het minimum- en maximumaantal deelnemers dat u kunt registreren voor een cursus, wordt gedefinieerd op het sneltabblad **Algemeen** van de pagina **Cursussen**.
+Cursusdeelnemers zijn werknemers die deelnemen aan een trainingscursus of -gebeurtenis. U kunt alleen deelnemers registreren voor open cursussen. Het minimum- en maximumaantal deelnemers dat u kunt registreren voor een cursus, wordt gedefinieerd op het sneltabblad **Algemeen** van de pagina **Cursussen**.
 
 <a name="workflow"></a>Workflow
 --------
 
-Werknemers die zich voor een cursus via registreren de pagina **Selfservice werknemer** kunnen hun inschrijving laten routeren via de workflow voor goedkeuring.  Een workflow kan worden toegewezen aan een cursus op het sneltabblad **Algemeen** van de pagina **Cursussen**.
+Werknemers die zich voor een cursus via registreren de pagina **Selfservice werknemer** kunnen hun inschrijving laten routeren via de workflow voor goedkeuring. U kunt een workflow toewijzen aan een cursus op het sneltabblad **Algemeen** van de pagina **Cursussen**.
 
 
 
