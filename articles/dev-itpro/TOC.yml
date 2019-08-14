@@ -106,10 +106,28 @@
           items:
             - name: X++-taalreferentie
               href: dev-ref/xpp-language-reference.md
-            - name: X++-variabelen en -gegevenstypen
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'X++-instructies, lussen en afhandeling van uitzonderingen'
-              href: dev-ref/xpp-statements-loops.md
+            - name: Variabelen en gegevenstypen
+              items:
+                - name: Variabelen
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: Primitieve gegevenstypen
+                  href: dev-ref/xpp-data-primitive.md
+                - name: Samengestelde gegevenstypen
+                  href: dev-ref/xpp-data-composite.md
+                - name: Verzamelingsklassen
+                  href: dev-ref/xpp-data-collection.md
+                - name: Uitgebreide-gegevenstypen
+                  href: dev-ref/xpp-data-edt.md
+            - name: 'Instructies, lussen en afhandeling van uitzonderingen'
+              items:
+                - name: Opmerkingen gebruiken en afdrukken
+                  href: dev-ref/xpp-statements-loops.md
+                - name: Voorwaardelijke instructies
+                  href: dev-ref/xpp-conditional.md
+                - name: Lusinstructies
+                  href: dev-ref/xpp-loops.md
+                - name: Afhandeling van uitzonderingen
+                  href: dev-ref/xpp-exceptions.md
             - name: X++-uitzondering SQL-verbindingsfout
               href: dev-ref/sql-connection-error.md
             - name: X++-operatoren
@@ -120,6 +138,8 @@
               href: dev-ref/xpp-classes-methods.md
             - name: X++-gegevens selecteren en bewerken
               href: dev-ref/xpp-data-query.md
+            - name: Toegang tot gegevens via de SysDa-API
+              href: dev-ref/sysda.md
             - name: X++-macro's
               href: dev-ref/xpp-macros.md
             - name: X++-kenmerkklassen
@@ -438,7 +458,11 @@
           href: user-interface/page-layout.md
         - name: Symboollettertype Dynamics
           href: user-interface/symbol-font.md
-        - name: Formulieren die aangepaste patronen gebruiken
+        - name: Opgeslagen weergaven
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: Formulieren maken waarin opgeslagen weergaven volledig worden gebruikt
+          href: user-interface/understanding-saved-views.md
+        - name: Formulieren testen die aangepaste patronen gebruiken
           href: user-interface/testing-forms-custom-patterns.md
         - name: 'Deelbare, beveiligde URL''s maken (diepe koppelingen)'
           href: user-interface/create-deep-links.md
@@ -496,7 +520,7 @@
           href: user-interface/messaging-api-center-bar-details.md
         - name: 'FAQ voor berichtencentrum, berichtenbalk en berichtgegevens'
           href: user-interface/messaging-user.md
-    - name: Richtlijnen voor het primaire formulierpatroon
+    - name: Richtlijnen voor formulierpatroon
       items:
         - name: Formulierpatronen voor gemigreerde formulieren
           href: user-interface/select-form-pattern.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: Hotfixes
       items:
-        - name: Hotfixes downloaden uit Lifecycle Services
+        - name: Updates ophalen vanuit Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
         - name: Updates toepassen op cloudomgevingen
           href: deployment/apply-deployable-package-system.md
@@ -1162,7 +1186,9 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: B2B-gebruikers naar Azure AD exporteren
       href: sysadmin/implement-b2b.md
-    - name: Beveiliging op rollen gebaseerd
+    - name: De time-out voor inactieve sessies instellen
+      href: sysadmin/session-idle-timeout.md
+    - name: Op rollen gebaseerde beveiliging
       href: sysadmin/role-based-security.md
       items:
         - name: Beveiligingsarchitectuur
@@ -1310,6 +1336,8 @@
   items:
     - name: Ondersteuning krijgen voor Finance and Operations en Lifecycle Services
       href: lifecycle-services/lcs-support.md
+    - name: Overzicht van Dynamics 365-ondersteuning
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: Ondersteuning verkrijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
       href: lifecycle-services/21vianet-support.md
     - name: Een ticket voor eersteklas ondersteuning registreren
