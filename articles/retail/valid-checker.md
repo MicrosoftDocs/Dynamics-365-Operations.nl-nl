@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
+ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617315"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "1790416"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Consistentiecontrole voor detailhandeltransacties
 
@@ -50,6 +50,7 @@ Met het batchproces **Winkeltransacties valideren** wordt de consistentie van de
 - **Klantrekening**: hiermee wordt gevalideerd of de klantrekening in de tabellen met detailhandeltransacties bestaat in het HQ-klantmodel.
 - **Regeltelling**: hiermee wordt gevalideerd of het aantal regels, zoals vastgelegd in de transactiekopteksttabel, overeenkomt met het aantal regels in de verkooptransactietabellen.
 - **Prijs inclusief belasting**: hiermee wordt gevalideerd of de parameter **Prijs inclusief belasting** consistent is binnen de transactieregels.
+- **Betalingsbedrag**: hiermee wordt gevalideerd of de betalingsrecords overeenkomen met het betalingsbedrag in de koptekst.
 - **Brutobedrag**: hiermee wordt gevalideerd of het brutobedrag in de kop het totaal is van de nettobedragen op de regels plus het bedrag van de belasting.
 - **Nettobedrag**: hiermee wordt gevalideerd of het nettobedrag in de kop het totaal is van de nettobedragen op de regels.
 - **Over-/onderbetaling**: hiermee wordt gevalideerd of het verschil tussen het brutobedrag in de kop en het betalingsbedrag niet hoger is dan het maximum voor de configuratie voor over-/onderbetaling.
@@ -58,6 +59,7 @@ Met het batchproces **Winkeltransacties valideren** wordt de consistentie van de
 - **Geschenkbonartikel**: Retail ondersteunt niet het retourneren van geschenkbonartikelen. Het saldo op een geschenkbon kan echter wel contant worden uitbetaald. Geschenkbonartikelen die worden verwerkt als een retourregel in plaats van een uitbetalingsregel mislukken voor het boekingsproces voor overzichten. Het validatieproces voor geschenkbonartikelen zorgt dat de enige retourregels voor geschenkbonartikelen in de detailhandelstransactietabellen uitbetalingsregels voor de geschenkbon zijn.
 - **Negatieve prijs**: hiermee wordt gevalideerd of er geen transactieregels met een negatieve prijs zijn.
 - **Artikel en variant**: hiermee wordt gevalideerd of artikelen en varianten op de transactieregels bestaan in het stambestand met artikelen en varianten.
+- **Btw-bedrag**: hiermee wordt gevalideerd of btw-records overeenkomen met de btw-bedragen op de regels. 
 
 ## <a name="set-up-the-consistency-checker"></a>De consistentiecontrole instellen
 

@@ -8,6 +8,12 @@
         - name: Nieuwe of gewijzigde functies in Talent
           href: whats-new.md
           items:
+            - name: 23 juli 2019
+              href: whats-new-talent-july-24-2019.md
+            - name: 16 juli 2019
+              href: whats-new-talent-july-16-2019.md
+            - name: 9 juli 2019
+              href: whats-new-talent-july-9-2019.md
             - name: 2 juli 2019
               href: whats-new-talent-july-2-2019.md
             - name: 25 juni 2019
@@ -102,8 +108,6 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR en Common Data Service
           href: CoreHREntities.md
-        - name: Toegang tot voorbeeldfuncties
-          href: access-preview-feature.md
         - name: Ondersteuning voor Talent
           href: talent-support.md
     - name: Personeelswerving in uw organisatie met Attract
@@ -112,48 +116,68 @@
           href: attract-comprehensive-hiring.md
         - name: Functies en voorzieningen van Attract
           href: attract-overview.md
-        - name: Veelgestelde vragen over LinkedIn
-          href: attract-linkedin-faq.md
-        - name: E-mailinstellingen configureren
-          href: attract-configure-email-settings.md
-        - name: Een processjabloon maken in Attract
-          href: Process-templates-Attract.md
-        - name: Vacatures maken en boeken
-          href: Creating-jobs-Attract.md
-        - name: Integratie met LinkedIn instellen
-          href: attract-admin-linkedin.md
-        - name: Vacatures plaatsen op LinkedIn vanuit Attract
-          href: attract-post-jobs-to-linkedin.md
-        - name: Vacatures plaatsen op Broadbean vanuit Attract
-          href: posting-jobs-external.md
-        - name: Kandidaten zoeken met talentenpools
-          href: attract-talent-pools.md
-        - name: Kandidaten zoeken met LinkedIn Recruiter
-          href: attract-linkedin-recruiter.md
-        - name: Activiteiten in de aanstellingsprocessen
-          href: activities-attract.md
-        - name: Plannen van sollicitatiegesprekken en feedback
-          href: interview-scheduling-feedback.md
+        - name: Veelgestelde vragen
+          items:
+            - name: Veelgestelde vragen over LinkedIn-integratie
+              href: attract-linkedin-faq.md
+        - name: Systeeminstellingen configureren
+          items:
+            - name: Bedrijfsgegevens configureren
+              href: admin-settings-attract.md
+            - name: Gebruikersmachtigingen instellen
+              href: security-attract.md
+            - name: Functies beheren
+              href: access-preview-feature.md
+            - name: Uw vacaturesite instellen
+              href: career-site.md
+            - name: Broadbean-integratie inschakelen
+              href: attract-admin-job-board-settings.md
+            - name: E-mailinstellingen configureren
+              href: attract-configure-email-settings.md
+            - name: LinkedIn-integratie instellen
+              href: attract-admin-linkedin.md
+        - name: Een aanstellingsproces maken
+          items:
+            - name: Een processjabloon maken
+              href: process-templates-attract.md
+            - name: Activiteiten in aanstellingsprocessen
+              href: activities-attract.md
+            - name: E-mailsjablonen
+              href: email-templates.md
+            - name: Analytische rapporten gebruiken
+              href: analytic-reports.md
+        - name: Vacatures maken en plaatsen
+          items:
+            - name: Een vacature maken
+              href: creating-jobs-attract.md
+            - name: Vacatures plaatsen op LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: Vacatures plaatsen op Broadbean
+              href: posting-jobs-external.md
+            - name: Een vacature sluiten
+              href: attract-close-job.md
+        - name: Kandidaten zoeken
+          items:
+            - name: Kandidaten zoeken in talentenpools
+              href: attract-talent-pools.md
+            - name: Kandidaten zoeken met LinkedIn Recruiter
+              href: attract-linkedin-recruiter.md
+            - name: Kandidaatbronnen bijhouden
+              href: source-tracking.md
+            - name: Intelligente aanbevelingen
+              href: Intelligent-Recommendations.md
+        - name: Sollicitatiegesprekken instellen
+          items:
+            - name: Plannen van sollicitatiegesprekken en feedback
+              href: interview-scheduling-feedback.md
+        - name: Een voorstel doen
+          items:
+            - name: Aanbiedingsbeheer instellen
+              href: offer-setup.md
+            - name: 'Aanbiedingen maken, goedkeuren en ondertekenen'
+              href: creating-offers.md
         - name: Uitbreidbaarheid in Attract
           href: extensibility-attract.md
-        - name: Functionaliteit van vacaturesite in Attract
-          href: career-site.md
-        - name: Aanbiedingsbeheer instellen
-          href: offer-setup.md
-        - name: 'Aanbiedingen maken, goedkeuren en ondertekenen'
-          href: creating-offers.md
-        - name: E-mailsjablonen
-          href: email-templates.md
-        - name: Beveiliging en rollenbeheer in Attract
-          href: security-attract.md
-        - name: Beheerinstellingen in Attract
-          href: Admin-Settings-Attract.md
-        - name: Intelligente aanbevelingen
-          href: Intelligent-Recommendations.md
-        - name: Bronnen volgen voor kandidaatprofielen en sollicitaties
-          href: source-tracking.md
-        - name: Analytische rapporten gebruiken voor inzichten in het aanstellingsproces
-          href: analytic-reports.md
     - name: Nieuwe medewerkers verwelkomen met Onboard
       items:
         - name: Aan de slag met Onboard
@@ -186,11 +210,13 @@
               href: set-up-hr-parameters-across-legal-entities.md
             - name: Bedrijfsspecifieke HR-parameters instellen
               href: set-up-company-specific-hr-parameters.md
+            - name: Datum- en tijdvelden in Talent
+              href: date-time-fields-in-talent.md
             - name: Veelgestelde vragen over personeelsacties
               href: personnel-actions-faq.md
             - name: Bedrijfsprocessen formaliseren
               href: formalize-business-processes.md
-            - name: Werkstromen gebruiken om werknemersgegevens te beheren
+            - name: Workflows gebruiken om werknemersgegevens te beheren
               href: workflow-manage-employee-information.md
             - name: Nummerreeksen instellen
               items:
@@ -222,18 +248,18 @@
                   href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Veelgestelde vragen over adresboeken
                   href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Werkstromen configureren
+            - name: Workflows configureren
               items:
-                - name: Overzicht van werkstromen
+                - name: Overzicht van workflows
                   href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Werkstroomelementen
+                - name: Workflowelementen
                   href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Acties in goedkeuringsprocessen voor werkstromen
+                - name: Acties in goedkeuringsprocessen voor workflows
                   href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Werkstromen maken
+                - name: Workflows maken
                   href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
                   items:
-                    - name: Werkstroomeigenschappen configureren
+                    - name: Workfloweigenschappen configureren
                       href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
                     - name: Handmatige taken configureren
                       href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -251,15 +277,15 @@
                       href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
                     - name: Parallelle vertakkingen configureren
                       href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Werkstromen voor regelitems configureren
+                    - name: Workflows voor regelitems configureren
                       href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: De batchtaak voor werkstroomberichtverwerking configureren
+                - name: De batchtaak voor workflowberichtverwerking configureren
                   href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Werkitems in een werkstroom delegeren
+                - name: Werkitems in een workflow delegeren
                   href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Werkstroomhistorie bekijken
+                - name: Workflowhistorie bekijken
                   href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Gebruikers toestaan om e-mailberichten te ontvangen die betrekking hebben op de werkstroom
+                - name: Gebruikers toestaan om e-mailberichten te ontvangen die betrekking hebben op de workflow
                   href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: Waarschuwingen instellen
               items:
