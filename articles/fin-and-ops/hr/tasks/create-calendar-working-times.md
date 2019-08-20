@@ -1,9 +1,9 @@
 ---
-title: Een kalender maken en werktijden genereren
-description: Kalenders beschrijven de capaciteit en werktijd van bronnen voor bedrijfsactiviteiten.
+title: Kalenders maken en werktijden genereren
+description: Kalenders beschrijven de capaciteit en werktijd van bronnen voor bedrijfsactiviteiten. In dit onderwerp wordt uitgelegd hoe u een werkkalender kunt definiëren op basis van een werktijdsjabloon.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,36 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba4bd51d2102b3036307f34ab46f94f83df4f461
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 50b81ae228d9aee4111ce8d161508d5ed1af4f27
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1510123"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1738991"
 ---
-# <a name="create-calendar-and-generate-working-times"></a><span data-ttu-id="03dd2-103">Een kalender maken en werktijden genereren</span><span class="sxs-lookup"><span data-stu-id="03dd2-103">Create calendar and generate working times</span></span>
+# <a name="create-calendar-and-generate-working-times"></a><span data-ttu-id="9bb6b-104">Een kalender maken en werktijden genereren</span><span class="sxs-lookup"><span data-stu-id="9bb6b-104">Create calendar and generate working times</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="03dd2-104">Kalenders beschrijven de capaciteit en werktijd van bronnen voor bedrijfsactiviteiten.</span><span class="sxs-lookup"><span data-stu-id="03dd2-104">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="03dd2-105">Deze procedure zal u helpen een werkkalender te definiëren op basis van een werktijdsjabloon.</span><span class="sxs-lookup"><span data-stu-id="03dd2-105">This procedure will help you define a work calendar based on a working time template.</span></span> <span data-ttu-id="03dd2-106">U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.</span><span class="sxs-lookup"><span data-stu-id="03dd2-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="9bb6b-105">Kalenders beschrijven de capaciteit en werktijd van bronnen voor bedrijfsactiviteiten.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-105">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="9bb6b-106">In dit onderwerp wordt uitgelegd hoe u een werkkalender kunt definiëren op basis van een werktijdsjabloon.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-106">This topic explains how to define a work calendar based on a working time template.</span></span> <span data-ttu-id="9bb6b-107">U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="03dd2-107">Ga naar Alle werkruimten > Levenscyclusbeheer bron.</span><span class="sxs-lookup"><span data-stu-id="03dd2-107">Go to All workspaces > Resource lifecycle management.</span></span>
-2. <span data-ttu-id="03dd2-108">Klik op Kalenders.</span><span class="sxs-lookup"><span data-stu-id="03dd2-108">Click Calendars.</span></span>
-3. <span data-ttu-id="03dd2-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="03dd2-109">Click New.</span></span>
-4. <span data-ttu-id="03dd2-110">Typ een waarde in het veld Agenda.</span><span class="sxs-lookup"><span data-stu-id="03dd2-110">In the Calendar field, type a value.</span></span>
-    * <span data-ttu-id="03dd2-111">Dit is de id van de kalender die wordt gebruikt als verwijzing bij het toewijzen van kalenders, zoals aan een bron voor bedrijfsactiviteiten of een resourcegroep.</span><span class="sxs-lookup"><span data-stu-id="03dd2-111">This is the ID of the calendar, which is used as a reference when assigning calendars, such as to an operations resource or a resource group.</span></span>  
-5. <span data-ttu-id="03dd2-112">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="03dd2-112">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="03dd2-113">Typ een nummer in het veld Standaardwerkdag in uren.</span><span class="sxs-lookup"><span data-stu-id="03dd2-113">In the Standard work day in hours field, enter a number.</span></span>
-7. <span data-ttu-id="03dd2-114">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="03dd2-114">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="03dd2-115">Klik op Werktijden.</span><span class="sxs-lookup"><span data-stu-id="03dd2-115">Click Working times.</span></span>
-9. <span data-ttu-id="03dd2-116">Klik op Werktijden samenstellen.</span><span class="sxs-lookup"><span data-stu-id="03dd2-116">Click Compose working times.</span></span>
-    * <span data-ttu-id="03dd2-117">Genereer werkuren voor elke dag in de periode waarin u werk wilt kunnen plannen.</span><span class="sxs-lookup"><span data-stu-id="03dd2-117">Generate working hours for each day in the period where you want to be able to schedule work.</span></span> <span data-ttu-id="03dd2-118">In de loop van de tijd kunt u werktijden genereren voor extra perioden.</span><span class="sxs-lookup"><span data-stu-id="03dd2-118">As time goes by, you can generate working times for additional periods.</span></span>  
-10. <span data-ttu-id="03dd2-119">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="03dd2-119">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="03dd2-120">Dit is de eerste dag dat deze kalender open moet zijn.</span><span class="sxs-lookup"><span data-stu-id="03dd2-120">This is the first day that this calendar must be open.</span></span>  
-11. <span data-ttu-id="03dd2-121">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="03dd2-121">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="03dd2-122">Dit is de laatste dag dat deze kalender open is.</span><span class="sxs-lookup"><span data-stu-id="03dd2-122">This is the last day that this calendar is open.</span></span>  
-12. <span data-ttu-id="03dd2-123">Typ of selecteer een waarde in het veld Werktijdsjabloon.</span><span class="sxs-lookup"><span data-stu-id="03dd2-123">In the Working time template field, enter or select a value.</span></span>
-    * <span data-ttu-id="03dd2-124">De werktijdsjabloon definieert de werkuren voor elke dag van de week.</span><span class="sxs-lookup"><span data-stu-id="03dd2-124">The working time template defines the working hours for each day of the week.</span></span>  
-13. <span data-ttu-id="03dd2-125">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="03dd2-125">Click OK.</span></span>
-14. <span data-ttu-id="03dd2-126">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="03dd2-126">Close the page.</span></span>
+1. <span data-ttu-id="9bb6b-108">Selecteer op de startpagina **Levenscyclusbeheer van resource**.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-108">On the home page, select **Resource lifecycle management**.</span></span>
+2. <span data-ttu-id="9bb6b-109">Selecteer **Kalenders**.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-109">Select **Calendars**.</span></span>
+3. <span data-ttu-id="9bb6b-110">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-110">Select **New**.</span></span>
+4. <span data-ttu-id="9bb6b-111">Classificeer uw kalender in het veld **Kalender**.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-111">In the **Calendar** field, classify your calendar.</span></span> <span data-ttu-id="9bb6b-112">Dit is de id van de kalender die wordt gebruikt als verwijzing bij het toewijzen van kalenders, zoals aan een bron voor bedrijfsactiviteiten of een resourcegroep.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-112">This is the ID of the calendar, which is used as a reference when assigning calendars, such as to an operations resource or a resource group.</span></span>  
+5. <span data-ttu-id="9bb6b-113">Voer vervolgens in het veld **Naam** een naam voor uw kalender in.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-113">In the **Name** field, name your calendar.</span></span>
+6. <span data-ttu-id="9bb6b-114">Typ een nummer in het veld **Standaardwerkdag in uren**.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-114">In the **Standard work day in hours** field, enter a number.</span></span>
+7. <span data-ttu-id="9bb6b-115">Zorg ervoor dat de rij is geselecteerd en selecteer vervolgens **Werktijden** in het actievenster.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-115">Make sure the row is selected, then select **Working times** from the Action Pane.</span></span>
+8. <span data-ttu-id="9bb6b-116">Selecteer **Werktijden samenstellen**.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-116">Select **Compose working times**.</span></span> <span data-ttu-id="9bb6b-117">Genereer werkuren voor elke dag in de periode waarin u werk wilt kunnen plannen.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-117">Generate working hours for each day in the period where you want to be able to schedule work.</span></span> <span data-ttu-id="9bb6b-118">In de loop van de tijd kunt u werktijden genereren voor extra perioden.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-118">As time goes by, you can generate working times for additional periods.</span></span>  
+9. <span data-ttu-id="9bb6b-119">Voer een datum in het veld **Begindatum** in.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-119">In the **From date** field, enter a date.</span></span> <span data-ttu-id="9bb6b-120">Dit is de eerste dag dat deze kalender open moet zijn.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-120">This is the first day that this calendar must be open.</span></span>  
+10. <span data-ttu-id="9bb6b-121">Voer een datum in het veld **Einddatum** in.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-121">In the **To date field**, enter a date.</span></span> <span data-ttu-id="9bb6b-122">Dit is de laatste dag dat deze kalender open is.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-122">This is the last day that this calendar is open.</span></span>  
+11. <span data-ttu-id="9bb6b-123">Typ of selecteer een waarde in het veld **Werktijdsjabloon**.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-123">In the **Working time template** field, enter or select a value.</span></span> <span data-ttu-id="9bb6b-124">De werktijdsjabloon definieert de werkuren voor elke dag van de week.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-124">The working time template defines the working hours for each day of the week.</span></span>  
+12. <span data-ttu-id="9bb6b-125">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-125">Select **OK**.</span></span>
+13. <span data-ttu-id="9bb6b-126">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="9bb6b-126">Close the page.</span></span>
 
