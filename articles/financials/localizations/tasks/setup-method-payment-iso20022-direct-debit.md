@@ -10,46 +10,46 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 953a3cffc356ab44163944318e7e7d542a113112
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7d3c6d8157803e0a8d33520a0cd64fb725e8c9a3
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559334"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848642"
 ---
-# <a name="setup-method-of-payment-for-iso20022-direct-debit"></a><span data-ttu-id="027f5-103">Betalingsmethode voor ISO20022 automatische afschrijving instellen</span><span class="sxs-lookup"><span data-stu-id="027f5-103">Setup method of payment for ISO20022 direct debit</span></span>
+# <a name="setup-method-of-payment-for-iso20022-direct-debit"></a><span data-ttu-id="698da-103">Betalingsmethode voor ISO20022 automatische afschrijving instellen</span><span class="sxs-lookup"><span data-stu-id="698da-103">Setup method of payment for ISO20022 direct debit</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="027f5-104">In deze procedure ziet u hoe u de betalingsmethode van de klanten instelt voor ISO20022 automatische incasso of een ander type betaling door middel van elektronische rapportage en zo een bestand aanmaakt.</span><span class="sxs-lookup"><span data-stu-id="027f5-104">This procedure shows how to set up the customer method of payment for ISO20022 direct debit or any other payment type using electronic reporting.</span></span> 
+<span data-ttu-id="698da-104">In deze procedure ziet u hoe u de betalingsmethode van de klanten instelt voor ISO20022 automatische incasso of een ander type betaling door middel van elektronische rapportage en zo een bestand aanmaakt.</span><span class="sxs-lookup"><span data-stu-id="698da-104">This procedure shows how to set up the customer method of payment for ISO20022 direct debit or any other payment type using electronic reporting.</span></span> 
 
 
 
-<span data-ttu-id="027f5-105">Voordat u deze taak uitvoert, moet u indelingconfiguraties voor export en betaalrekeningen hebben ingesteld.</span><span class="sxs-lookup"><span data-stu-id="027f5-105">Before you complete this task, you must set up export format configurations and payment accounts.</span></span>
+<span data-ttu-id="698da-105">Voordat u deze taak uitvoert, moet u indelingconfiguraties voor export en betaalrekeningen hebben ingesteld.</span><span class="sxs-lookup"><span data-stu-id="698da-105">Before you complete this task, you must set up export format configurations and payment accounts.</span></span>
 
 
 
-<span data-ttu-id="027f5-106">Deze procedure is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="027f5-106">This procedure was created using the demo data company DEMF.</span></span>
+<span data-ttu-id="698da-106">Deze procedure is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="698da-106">This procedure was created using the demo data company DEMF.</span></span>
 
 
 
-<span data-ttu-id="027f5-107">Dit is de derde van vijf taken die het proces voor klantenbetalingen toelichten door middel van elektronische rapportageconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="027f5-107">This is the third of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
+<span data-ttu-id="698da-107">Dit is de derde van vijf taken die het proces voor klantenbetalingen toelichten door middel van elektronische rapportageconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="698da-107">This is the third of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
 
-1. <span data-ttu-id="027f5-108">Ga naar Klanten > Betalingsinstelling > Betalingsmethoden.</span><span class="sxs-lookup"><span data-stu-id="027f5-108">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
-2. <span data-ttu-id="027f5-109">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="027f5-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="027f5-110">Filter bijvoorbeeld op het veld Betalingsmethode met een waarde van 'ELECTRONIC'.</span><span class="sxs-lookup"><span data-stu-id="027f5-110">For example, filter on the Method of payment field with a value of 'ELECTRONIC'.</span></span>
-3. <span data-ttu-id="027f5-111">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="027f5-111">Click Edit.</span></span>
-4. <span data-ttu-id="027f5-112">Geef de waarden 'DEMF OPER' op in het veld Betalingsrekening.</span><span class="sxs-lookup"><span data-stu-id="027f5-112">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
-5. <span data-ttu-id="027f5-113">Vouw de sectie Bestandsindelingen uit.</span><span class="sxs-lookup"><span data-stu-id="027f5-113">Expand the File formats section.</span></span>
-6. <span data-ttu-id="027f5-114">Selecteer Ja in het veld Algemene elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="027f5-114">Select Yes in the Generic electronic reporting field.</span></span>
-7. <span data-ttu-id="027f5-115">Typ of selecteer een waarde in het veld Indelingsconfiguratie exporteren.</span><span class="sxs-lookup"><span data-stu-id="027f5-115">In the Export format configuration field, enter or select a value.</span></span>
-    * <span data-ttu-id="027f5-116">Selecteer in de lijst de waarde ISO20022 Automatische incasso (DE).</span><span class="sxs-lookup"><span data-stu-id="027f5-116">In the list, select ISO20022 Direct debit (DE).</span></span>  <span data-ttu-id="027f5-117">Als de lijst leeg is, betekent dit dat er geen configuratie voor de exportindeling voor klantenbetalingen is geïmporteerd en geactiveerd.</span><span class="sxs-lookup"><span data-stu-id="027f5-117">If the list is empty, the customer payment export format configuration has not been imported and active.</span></span>  
-8. <span data-ttu-id="027f5-118">Selecteer Ja in het veld Mandaat vereisen.</span><span class="sxs-lookup"><span data-stu-id="027f5-118">Select Yes in the Require mandate field.</span></span>
-    * <span data-ttu-id="027f5-119">Selecteer de parameter Mandaat vereisen voor klantbetalingsindelingen, die vereist dat mandaatinformatie deel uitmaakt van het betalingbericht, zoals SEPA automatische incasso.</span><span class="sxs-lookup"><span data-stu-id="027f5-119">Select the Require mandate parameter for customer payment formats, which require including mandate information in the payment message, like SEPA direct debit.</span></span>  
-9. <span data-ttu-id="027f5-120">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="027f5-120">Click Save.</span></span>
+1. <span data-ttu-id="698da-108">Ga naar Klanten > Betalingsinstelling > Betalingsmethoden.</span><span class="sxs-lookup"><span data-stu-id="698da-108">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
+2. <span data-ttu-id="698da-109">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="698da-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="698da-110">Filter bijvoorbeeld op het veld Betalingsmethode met een waarde van 'ELECTRONIC'.</span><span class="sxs-lookup"><span data-stu-id="698da-110">For example, filter on the Method of payment field with a value of 'ELECTRONIC'.</span></span>
+3. <span data-ttu-id="698da-111">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="698da-111">Click Edit.</span></span>
+4. <span data-ttu-id="698da-112">Geef de waarden 'DEMF OPER' op in het veld Betalingsrekening.</span><span class="sxs-lookup"><span data-stu-id="698da-112">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
+5. <span data-ttu-id="698da-113">Vouw de sectie Bestandsindelingen uit.</span><span class="sxs-lookup"><span data-stu-id="698da-113">Expand the File formats section.</span></span>
+6. <span data-ttu-id="698da-114">Selecteer Ja in het veld Algemene elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="698da-114">Select Yes in the Generic electronic reporting field.</span></span>
+7. <span data-ttu-id="698da-115">Typ of selecteer een waarde in het veld Indelingsconfiguratie exporteren.</span><span class="sxs-lookup"><span data-stu-id="698da-115">In the Export format configuration field, enter or select a value.</span></span>
+    * <span data-ttu-id="698da-116">Selecteer in de lijst de waarde ISO20022 Automatische incasso (DE).</span><span class="sxs-lookup"><span data-stu-id="698da-116">In the list, select ISO20022 Direct debit (DE).</span></span>  <span data-ttu-id="698da-117">Als de lijst leeg is, betekent dit dat er geen configuratie voor de exportindeling voor klantenbetalingen is geïmporteerd en geactiveerd.</span><span class="sxs-lookup"><span data-stu-id="698da-117">If the list is empty, the customer payment export format configuration has not been imported and active.</span></span>  
+8. <span data-ttu-id="698da-118">Selecteer Ja in het veld Mandaat vereisen.</span><span class="sxs-lookup"><span data-stu-id="698da-118">Select Yes in the Require mandate field.</span></span>
+    * <span data-ttu-id="698da-119">Selecteer de parameter Mandaat vereisen voor klantbetalingsindelingen, die vereist dat mandaatinformatie deel uitmaakt van het betalingbericht, zoals SEPA automatische incasso.</span><span class="sxs-lookup"><span data-stu-id="698da-119">Select the Require mandate parameter for customer payment formats, which require including mandate information in the payment message, like SEPA direct debit.</span></span>  
+9. <span data-ttu-id="698da-120">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="698da-120">Click Save.</span></span>
 

@@ -10,40 +10,40 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d11554ee5f26ef5a85e799194d2f75757a31c254
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 07146adfe1ead2b6e06e3c323963f8c012381b76
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549530"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839996"
 ---
-# <a name="create-depreciation-proposal"></a><span data-ttu-id="d7628-103">Afschrijvingsvoorstel maken</span><span class="sxs-lookup"><span data-stu-id="d7628-103">Create depreciation proposal</span></span>
+# <a name="create-depreciation-proposal"></a><span data-ttu-id="e94d6-103">Afschrijvingsvoorstel maken</span><span class="sxs-lookup"><span data-stu-id="e94d6-103">Create depreciation proposal</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d7628-104">Deze procedure beschrijft hoe afschrijvingsbatchvoorstellen werken en verklaart hoe u afschrijving kunt voorstellen voor vaste activa.</span><span class="sxs-lookup"><span data-stu-id="d7628-104">This procedure describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="d7628-105">Deze taak gebruikt het USMF-demobedrijf en de accountantsrol.</span><span class="sxs-lookup"><span data-stu-id="d7628-105">This task uses the USMF demo company and the accountant role.</span></span>
+<span data-ttu-id="e94d6-104">Deze procedure beschrijft hoe afschrijvingsbatchvoorstellen werken en verklaart hoe u afschrijving kunt voorstellen voor vaste activa.</span><span class="sxs-lookup"><span data-stu-id="e94d6-104">This procedure describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="e94d6-105">Deze taak gebruikt het USMF-demobedrijf en de accountantsrol.</span><span class="sxs-lookup"><span data-stu-id="e94d6-105">This task uses the USMF demo company and the accountant role.</span></span>
 
 
-## <a name="create-depreciation-proposal"></a><span data-ttu-id="d7628-106">Afschrijvingsvoorstel maken</span><span class="sxs-lookup"><span data-stu-id="d7628-106">Create depreciation proposal</span></span>
-1. <span data-ttu-id="d7628-107">Ga naar Vaste activa > Journaalboekingen > Afschrijvingsvoorstel maken.</span><span class="sxs-lookup"><span data-stu-id="d7628-107">Go to Fixed assets > Journal entries > Create depreciation proposal.</span></span>
-2. <span data-ttu-id="d7628-108">Klik in het veld Naam van journaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="d7628-108">In the Name of journal field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="d7628-109">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d7628-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="d7628-110">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="d7628-110">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="d7628-111">Selecteer de optie Afschrijving samenvatten als u maandelijkse afschrijvingen in één journaalregel wilt samenvatten.</span><span class="sxs-lookup"><span data-stu-id="d7628-111">Select the Summarize depreciation option to summarize monthly depreciations into one journal line.</span></span>  
-    * <span data-ttu-id="d7628-112">Als de waarde van Einddatum bijvoorbeeld 31 maart 2015 is, kan de volgende beschrijving worden gegenereerd: 'Afschrijving sinds 31 januari 2015'.</span><span class="sxs-lookup"><span data-stu-id="d7628-112">For example, if the To date value is March 31, 2015, the following description is generated: “Depreciation since January 31, 2015.”</span></span> <span data-ttu-id="d7628-113">Het veld Datum op de voorgestelde journaalregels wordt dan ingesteld op 31 maart 2015.</span><span class="sxs-lookup"><span data-stu-id="d7628-113">The Date field on the proposed journal lines is then set to March 31, 2015.</span></span>  
-    * <span data-ttu-id="d7628-114">Het afschrijvingsvoorstel kan worden gefilterd op activa, activagroep, of andere criteria met de optie Filteren.</span><span class="sxs-lookup"><span data-stu-id="d7628-114">The depreciation proposal can be filtered by asset, asset group, or other criteria using the Filter option.</span></span>  
-    * <span data-ttu-id="d7628-115">Wanneer u het formulier Verwervingsvoorstellen of afschrijvingsvoorstellen maken voor vaste activa gebruikt, kunt u de afschrijving in batches voorstellen.</span><span class="sxs-lookup"><span data-stu-id="d7628-115">When you use the Create acquisition or depreciation proposals for fixed assets form, you can propose depreciation in batches.</span></span> <span data-ttu-id="d7628-116">Dit is wat we voorstellen voor grotere voorstellen die meer systeembronnen gebruiken.</span><span class="sxs-lookup"><span data-stu-id="d7628-116">This is recommended for larger proposals that will use more system resources.</span></span> <span data-ttu-id="d7628-117">Als u de batchoptie selecteert, kunt u in die tijd nog andere taken voltooien.</span><span class="sxs-lookup"><span data-stu-id="d7628-117">If you select the batch option, you can still complete other tasks during that time.</span></span> <span data-ttu-id="d7628-118">Wanneer u op deze manier afschrijving voorstelt, wordt de afschrijving berekend voor waardemodellen voor vaste activa.</span><span class="sxs-lookup"><span data-stu-id="d7628-118">When you propose depreciation in this way, depreciation is calculated for value models for fixed assets.</span></span>  
-5. <span data-ttu-id="d7628-119">Klik op Journaal maken.</span><span class="sxs-lookup"><span data-stu-id="d7628-119">Click Create journal.</span></span>
+## <a name="create-depreciation-proposal"></a><span data-ttu-id="e94d6-106">Afschrijvingsvoorstel maken</span><span class="sxs-lookup"><span data-stu-id="e94d6-106">Create depreciation proposal</span></span>
+1. <span data-ttu-id="e94d6-107">Ga naar Vaste activa > Journaalboekingen > Afschrijvingsvoorstel maken.</span><span class="sxs-lookup"><span data-stu-id="e94d6-107">Go to Fixed assets > Journal entries > Create depreciation proposal.</span></span>
+2. <span data-ttu-id="e94d6-108">Klik in het veld Naam van journaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="e94d6-108">In the Name of journal field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="e94d6-109">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="e94d6-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="e94d6-110">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="e94d6-110">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="e94d6-111">Selecteer de optie Afschrijving samenvatten als u maandelijkse afschrijvingen in één journaalregel wilt samenvatten.</span><span class="sxs-lookup"><span data-stu-id="e94d6-111">Select the Summarize depreciation option to summarize monthly depreciations into one journal line.</span></span>  
+    * <span data-ttu-id="e94d6-112">Als de waarde van Einddatum bijvoorbeeld 31 maart 2015 is, kan de volgende beschrijving worden gegenereerd: 'Afschrijving sinds 31 januari 2015'.</span><span class="sxs-lookup"><span data-stu-id="e94d6-112">For example, if the To date value is March 31, 2015, the following description is generated: “Depreciation since January 31, 2015.”</span></span> <span data-ttu-id="e94d6-113">Het veld Datum op de voorgestelde journaalregels wordt dan ingesteld op 31 maart 2015.</span><span class="sxs-lookup"><span data-stu-id="e94d6-113">The Date field on the proposed journal lines is then set to March 31, 2015.</span></span>  
+    * <span data-ttu-id="e94d6-114">Het afschrijvingsvoorstel kan worden gefilterd op activa, activagroep, of andere criteria met de optie Filteren.</span><span class="sxs-lookup"><span data-stu-id="e94d6-114">The depreciation proposal can be filtered by asset, asset group, or other criteria using the Filter option.</span></span>  
+    * <span data-ttu-id="e94d6-115">Wanneer u het formulier Verwervingsvoorstellen of afschrijvingsvoorstellen maken voor vaste activa gebruikt, kunt u de afschrijving in batches voorstellen.</span><span class="sxs-lookup"><span data-stu-id="e94d6-115">When you use the Create acquisition or depreciation proposals for fixed assets form, you can propose depreciation in batches.</span></span> <span data-ttu-id="e94d6-116">Dit is wat we voorstellen voor grotere voorstellen die meer systeembronnen gebruiken.</span><span class="sxs-lookup"><span data-stu-id="e94d6-116">This is recommended for larger proposals that will use more system resources.</span></span> <span data-ttu-id="e94d6-117">Als u de batchoptie selecteert, kunt u in die tijd nog andere taken voltooien.</span><span class="sxs-lookup"><span data-stu-id="e94d6-117">If you select the batch option, you can still complete other tasks during that time.</span></span> <span data-ttu-id="e94d6-118">Wanneer u op deze manier afschrijving voorstelt, wordt de afschrijving berekend voor waardemodellen voor vaste activa.</span><span class="sxs-lookup"><span data-stu-id="e94d6-118">When you propose depreciation in this way, depreciation is calculated for value models for fixed assets.</span></span>  
+5. <span data-ttu-id="e94d6-119">Klik op Journaal maken.</span><span class="sxs-lookup"><span data-stu-id="e94d6-119">Click Create journal.</span></span>
 
-## <a name="review-depreciation-entries"></a><span data-ttu-id="d7628-120">Afschrijvingsinvoer controleren</span><span class="sxs-lookup"><span data-stu-id="d7628-120">Review depreciation entries</span></span>
-1. <span data-ttu-id="d7628-121">Ga naar Vaste activa > Journaalboekingen > Vaste-activajournaal.</span><span class="sxs-lookup"><span data-stu-id="d7628-121">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
-2. <span data-ttu-id="d7628-122">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d7628-122">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="d7628-123">Klik op Regels.</span><span class="sxs-lookup"><span data-stu-id="d7628-123">Click Lines.</span></span>
-4. <span data-ttu-id="d7628-124">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="d7628-124">Click Post.</span></span>
+## <a name="review-depreciation-entries"></a><span data-ttu-id="e94d6-120">Afschrijvingsinvoer controleren</span><span class="sxs-lookup"><span data-stu-id="e94d6-120">Review depreciation entries</span></span>
+1. <span data-ttu-id="e94d6-121">Ga naar Vaste activa > Journaalboekingen > Vaste-activajournaal.</span><span class="sxs-lookup"><span data-stu-id="e94d6-121">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
+2. <span data-ttu-id="e94d6-122">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="e94d6-122">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="e94d6-123">Klik op Regels.</span><span class="sxs-lookup"><span data-stu-id="e94d6-123">Click Lines.</span></span>
+4. <span data-ttu-id="e94d6-124">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="e94d6-124">Click Post.</span></span>
 

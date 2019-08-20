@@ -1,59 +1,53 @@
 ---
 title: De kwaliteit van goederen inspecteren
-description: Deze procedure laat zien hoe u een kwaliteitsorder verwerkt.
+description: In dit onderwerp wordt uitgelegd hoe u een kwaliteitsorder verwerkt.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQualityOrderTable, InventQualityOrderLineResults, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e9d750f116db62519ac7148f19bf62050430e9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 10acb9aadfeb11ede1d66dd525ace7b70db3bd1c
+ms.sourcegitcommit: fbaccf72df82e6b6927f0c9f0d35af0ca3ecbc2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545400"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1855681"
 ---
-# <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="f2549-103">De kwaliteit van goederen inspecteren</span><span class="sxs-lookup"><span data-stu-id="f2549-103">Inspect the quality of goods</span></span>
+# <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="69da9-103">De kwaliteit van goederen inspecteren</span><span class="sxs-lookup"><span data-stu-id="69da9-103">Inspect the quality of goods</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="f2549-104">Deze procedure laat zien hoe u een kwaliteitsorder verwerkt.</span><span class="sxs-lookup"><span data-stu-id="f2549-104">This procedure shows you how to process a quality order.</span></span> <span data-ttu-id="f2549-105">U kunt deze handleiding uitvoeren in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="f2549-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="f2549-106">Voordat u deze voorbeeldprocedure start, moet u aankooporder "000016" bevestigen en een productontvangst boeken.</span><span class="sxs-lookup"><span data-stu-id="f2549-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="f2549-107">Hiermee wordt automatisch een kwaliteitsorder gemaakt.</span><span class="sxs-lookup"><span data-stu-id="f2549-107">This will automatically create a quality order.</span></span> <span data-ttu-id="f2549-108">Kwaliteitscontroles worden gewoonlijk uitgevoerd door een kwaliteitsmedewerker.</span><span class="sxs-lookup"><span data-stu-id="f2549-108">Quality inspections are typically carried out by a quality clerk.</span></span>
+<span data-ttu-id="69da9-104">In dit onderwerp wordt uitgelegd hoe u een kwaliteitsorder verwerkt.</span><span class="sxs-lookup"><span data-stu-id="69da9-104">This topic explains how to process a quality order.</span></span> <span data-ttu-id="69da9-105">U kunt deze handleiding uitvoeren in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="69da9-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="69da9-106">Voordat u deze voorbeeldprocedure start, moet u aankooporder "000016" bevestigen en een productontvangst boeken.</span><span class="sxs-lookup"><span data-stu-id="69da9-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="69da9-107">Hiermee wordt automatisch een kwaliteitsorder gemaakt.</span><span class="sxs-lookup"><span data-stu-id="69da9-107">This will automatically create a quality order.</span></span> <span data-ttu-id="69da9-108">Kwaliteitscontroles worden gewoonlijk uitgevoerd door een kwaliteitsmedewerker.</span><span class="sxs-lookup"><span data-stu-id="69da9-108">Quality inspections are typically carried out by a quality clerk.</span></span>
 
 
-## <a name="select-a-quality-order"></a><span data-ttu-id="f2549-109">Een kwaliteitsorder selecteren</span><span class="sxs-lookup"><span data-stu-id="f2549-109">Select a quality order</span></span>
-1. <span data-ttu-id="f2549-110">Ga naar Voorraadbeheer > Periodieke taken > Kwaliteitsbeheer > Kwaliteitsorders.</span><span class="sxs-lookup"><span data-stu-id="f2549-110">Go to Inventory management > Periodic tasks > Quality management > Quality orders.</span></span>
-2. <span data-ttu-id="f2549-111">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f2549-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="f2549-112">Selecteer de kwaliteitsorder die is gemaakt voordat u deze procedure hebt gestart.</span><span class="sxs-lookup"><span data-stu-id="f2549-112">Select the quality order that was created before you started this procedure.</span></span>  
+## <a name="select-a-quality-order"></a><span data-ttu-id="69da9-109">Een kwaliteitsorder selecteren</span><span class="sxs-lookup"><span data-stu-id="69da9-109">Select a quality order</span></span>
+1. <span data-ttu-id="69da9-110">Ga in het navigatievenster naar **Modules > Voorraadbeheer > Periodieke taken > Kwaliteitsbeheer > Kwaliteitsorders**.</span><span class="sxs-lookup"><span data-stu-id="69da9-110">In the navigation pane, go to **Modules > Inventory management > Periodic tasks > Quality management > Quality orders**.</span></span>
+2. <span data-ttu-id="69da9-111">Selecteer de kwaliteitsorder die is gemaakt voordat u deze procedure hebt gestart.</span><span class="sxs-lookup"><span data-stu-id="69da9-111">Select the quality order that was created before you started this procedure.</span></span>  
 
-## <a name="record-test-results"></a><span data-ttu-id="f2549-113">Testresultaten vastleggen</span><span class="sxs-lookup"><span data-stu-id="f2549-113">Record test results</span></span>
-1. <span data-ttu-id="f2549-114">Klik op Resultaten.</span><span class="sxs-lookup"><span data-stu-id="f2549-114">Click Results.</span></span>
-2. <span data-ttu-id="f2549-115">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="f2549-115">Click Edit.</span></span>
-3. <span data-ttu-id="f2549-116">Voer in het veld Resultaathoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="f2549-116">In the Result quantity field, enter a number.</span></span>
-4. <span data-ttu-id="f2549-117">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f2549-117">In the list, mark the selected row.</span></span>
-5. <span data-ttu-id="f2549-118">Klik in het veld Resultaat op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="f2549-118">In the Outcome field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="f2549-119">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="f2549-119">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="f2549-120">In dit voorbeeld is het resultaat gebaseerd op een vooraf gedefinieerd resultaat.</span><span class="sxs-lookup"><span data-stu-id="f2549-120">In this example the result is based on a pre-defined outcome.</span></span> <span data-ttu-id="f2549-121">Normaliter registreert u een specifieker testresultaat, bijvoorbeeld een formaat of andere dimensie.</span><span class="sxs-lookup"><span data-stu-id="f2549-121">Normally you would record a more specific test result, for example a size or other dimension.</span></span>  
-7. <span data-ttu-id="f2549-122">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f2549-122">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="f2549-123">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f2549-123">Click Save.</span></span>
-9. <span data-ttu-id="f2549-124">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f2549-124">Close the page.</span></span>
+## <a name="record-test-results"></a><span data-ttu-id="69da9-112">Testresultaten vastleggen</span><span class="sxs-lookup"><span data-stu-id="69da9-112">Record test results</span></span>
+1. <span data-ttu-id="69da9-113">Selecteer **Resultaten**.</span><span class="sxs-lookup"><span data-stu-id="69da9-113">Select **Results**.</span></span>
+2. <span data-ttu-id="69da9-114">Selecteer **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="69da9-114">Select **Edit**.</span></span>
+3. <span data-ttu-id="69da9-115">Voer in het veld **Resultaathoeveelheid** een getal in.</span><span class="sxs-lookup"><span data-stu-id="69da9-115">In the **Result quantity** field, enter a number.</span></span>
+4. <span data-ttu-id="69da9-116">Selecteer in het veld **Resultaat** de gewenste record in het vervolgkeuzemenu.</span><span class="sxs-lookup"><span data-stu-id="69da9-116">In the **Outcome** field, select the desired record in the drop-down menu.</span></span>  
+- <span data-ttu-id="69da9-117">In dit voorbeeld is het resultaat gebaseerd op een vooraf gedefinieerd resultaat.</span><span class="sxs-lookup"><span data-stu-id="69da9-117">In this example the result is based on a pre-defined outcome.</span></span> <span data-ttu-id="69da9-118">Normaliter registreert u een specifieker testresultaat, bijvoorbeeld een formaat of andere dimensie.</span><span class="sxs-lookup"><span data-stu-id="69da9-118">Normally you would record a more specific test result, for example a size or other dimension.</span></span>  
+5. <span data-ttu-id="69da9-119">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="69da9-119">Select **Save**.</span></span>
+6. <span data-ttu-id="69da9-120">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="69da9-120">Close the page.</span></span>
 
-## <a name="validate-the-quality-order"></a><span data-ttu-id="f2549-125">De kwaliteitsorder valideren</span><span class="sxs-lookup"><span data-stu-id="f2549-125">Validate the quality order</span></span>
-1. <span data-ttu-id="f2549-126">Klik op Valideren.</span><span class="sxs-lookup"><span data-stu-id="f2549-126">Click Validate.</span></span>
-2. <span data-ttu-id="f2549-127">Klik in het veld Gevalideerd door op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="f2549-127">In the Validated by field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="f2549-128">Selecteer de gebruiker die de inspectie uitvoert.</span><span class="sxs-lookup"><span data-stu-id="f2549-128">Select the user performing the inspection.</span></span>  
-3. <span data-ttu-id="f2549-129">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f2549-129">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="f2549-130">Klik op Selecteren.</span><span class="sxs-lookup"><span data-stu-id="f2549-130">Click Select.</span></span>
-5. <span data-ttu-id="f2549-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f2549-131">Click OK.</span></span>
-6. <span data-ttu-id="f2549-132">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f2549-132">Close the page.</span></span>
+## <a name="validate-the-quality-order"></a><span data-ttu-id="69da9-121">De kwaliteitsorder valideren</span><span class="sxs-lookup"><span data-stu-id="69da9-121">Validate the quality order</span></span>
+1. <span data-ttu-id="69da9-122">Selecteer **Valideren**.</span><span class="sxs-lookup"><span data-stu-id="69da9-122">Select **Validate**.</span></span>
+2. <span data-ttu-id="69da9-123">Selecteer in het veld **Gevalideerd door** de gebruiker die de inspectie uitvoert in het vervolgkeuzemenu.</span><span class="sxs-lookup"><span data-stu-id="69da9-123">In the **Validated by** field, select the user performing the inspection from the drop-down menu.</span></span>  
+3. <span data-ttu-id="69da9-124">Klik op **Selecteren**.</span><span class="sxs-lookup"><span data-stu-id="69da9-124">Click **Select**.</span></span>
+4. <span data-ttu-id="69da9-125">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="69da9-125">Select **OK**.</span></span>
+5. <span data-ttu-id="69da9-126">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="69da9-126">Close the page.</span></span>
 

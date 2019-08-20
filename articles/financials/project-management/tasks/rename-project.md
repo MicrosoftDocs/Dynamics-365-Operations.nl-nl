@@ -9,29 +9,29 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 373973726aa5a3cc341d3ee1732b7cf86729f6c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 580d166e7aebaa0a7301f6c83d35fd19719ce047
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572322"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845854"
 ---
-# <a name="rename-or-modify-a-project-stage"></a><span data-ttu-id="b80ac-103">Een projectfase hernoemen of wijzigen</span><span class="sxs-lookup"><span data-stu-id="b80ac-103">Rename or modify a project stage</span></span>
+# <a name="rename-or-modify-a-project-stage"></a><span data-ttu-id="a75d7-103">Een projectfase hernoemen of wijzigen</span><span class="sxs-lookup"><span data-stu-id="a75d7-103">Rename or modify a project stage</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b80ac-104">Projectfasen kunnen dienen als richtlijn voor de levenscyclus van projecten.</span><span class="sxs-lookup"><span data-stu-id="b80ac-104">Project stages can serve as a guide to the project life cycle.</span></span> <span data-ttu-id="b80ac-105">U kunt in het gebied Projectfase op de pagina Projectbeheer- en boekhoudingsparameters opgeven welke projectfasen u in uw projecten wilt opnemen.</span><span class="sxs-lookup"><span data-stu-id="b80ac-105">You can define the project stages that you want to include in your projects in the Project stage area in the Project management and accounting parameters page.</span></span> <span data-ttu-id="b80ac-106">Dynamics 365 for Finance and Operations biedt vijf vooraf gedefinieerde projectfasen en drie fasen die door de gebruiker worden gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="b80ac-106">Dynamics 365 for Finance and Operations provides five predefined project stages and three user-defined stages.</span></span> <span data-ttu-id="b80ac-107">U kunt de naam bijwerken van een projectfase die u gebruikt voor het bijhouden van de voortgang van projecten.</span><span class="sxs-lookup"><span data-stu-id="b80ac-107">You can update the name of a project stage that you are using to track the progress of projects.</span></span> <span data-ttu-id="b80ac-108">U kunt ook namen opgeven voor door gebruikers gedefinieerde statusnamen.</span><span class="sxs-lookup"><span data-stu-id="b80ac-108">You can also provide names for user-defined status names.</span></span> <span data-ttu-id="b80ac-109">In deze taak wordt aangegeven hoe u (de naam van) een projectfase wijzigt en de gegevensset van USSI gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b80ac-109">This task shows how to rename or modify a project stage and uses the USSI data set.</span></span>
+<span data-ttu-id="a75d7-104">Projectfasen kunnen dienen als richtlijn voor de levenscyclus van projecten.</span><span class="sxs-lookup"><span data-stu-id="a75d7-104">Project stages can serve as a guide to the project life cycle.</span></span> <span data-ttu-id="a75d7-105">U kunt in het gebied Projectfase op de pagina Projectbeheer- en boekhoudingsparameters opgeven welke projectfasen u in uw projecten wilt opnemen.</span><span class="sxs-lookup"><span data-stu-id="a75d7-105">You can define the project stages that you want to include in your projects in the Project stage area in the Project management and accounting parameters page.</span></span> <span data-ttu-id="a75d7-106">Dynamics 365 for Finance and Operations biedt vijf vooraf gedefinieerde projectfasen en drie fasen die door de gebruiker worden gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="a75d7-106">Dynamics 365 for Finance and Operations provides five predefined project stages and three user-defined stages.</span></span> <span data-ttu-id="a75d7-107">U kunt de naam bijwerken van een projectfase die u gebruikt voor het bijhouden van de voortgang van projecten.</span><span class="sxs-lookup"><span data-stu-id="a75d7-107">You can update the name of a project stage that you are using to track the progress of projects.</span></span> <span data-ttu-id="a75d7-108">U kunt ook namen opgeven voor door gebruikers gedefinieerde statusnamen.</span><span class="sxs-lookup"><span data-stu-id="a75d7-108">You can also provide names for user-defined status names.</span></span> <span data-ttu-id="a75d7-109">In deze taak wordt aangegeven hoe u (de naam van) een projectfase wijzigt en de gegevensset van USSI gebruikt.</span><span class="sxs-lookup"><span data-stu-id="a75d7-109">This task shows how to rename or modify a project stage and uses the USSI data set.</span></span>
 
-1. <span data-ttu-id="b80ac-110">Ga naar Projectbeheer- en boekhouding > Instellingen > Projectbeheer- en boekhoudingsparameters.</span><span class="sxs-lookup"><span data-stu-id="b80ac-110">Go to Project management and accounting > Setup > Project management and accounting parameters.</span></span>
-2. <span data-ttu-id="b80ac-111">Klik op het tabblad Projectfase.</span><span class="sxs-lookup"><span data-stu-id="b80ac-111">Click the Project stage tab.</span></span>
-3. <span data-ttu-id="b80ac-112">Selecteer in het veld Taal de taal die u wilt gebruiken voor de naam van de nieuwe projectfase.</span><span class="sxs-lookup"><span data-stu-id="b80ac-112">In the Language field, select the language that you want to use for the new project stage name.</span></span>
-4. <span data-ttu-id="b80ac-113">Selecteer in de lijst de vooraf gedefinieerde of door de gebruiker gedefinieerde fase die u wilt wijzigen.</span><span class="sxs-lookup"><span data-stu-id="b80ac-113">In the list, select the predefined or user-defined stage that you want to modify.</span></span> 
-5. <span data-ttu-id="b80ac-114">Geef de nieuwe naam op in het veld Projectfase.</span><span class="sxs-lookup"><span data-stu-id="b80ac-114">In the Project stage field, enter the new name.</span></span>
-6. <span data-ttu-id="b80ac-115">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="b80ac-115">Click Save.</span></span>
+1. <span data-ttu-id="a75d7-110">Ga naar Projectbeheer- en boekhouding > Instellingen > Projectbeheer- en boekhoudingsparameters.</span><span class="sxs-lookup"><span data-stu-id="a75d7-110">Go to Project management and accounting > Setup > Project management and accounting parameters.</span></span>
+2. <span data-ttu-id="a75d7-111">Klik op het tabblad Projectfase.</span><span class="sxs-lookup"><span data-stu-id="a75d7-111">Click the Project stage tab.</span></span>
+3. <span data-ttu-id="a75d7-112">Selecteer in het veld Taal de taal die u wilt gebruiken voor de naam van de nieuwe projectfase.</span><span class="sxs-lookup"><span data-stu-id="a75d7-112">In the Language field, select the language that you want to use for the new project stage name.</span></span>
+4. <span data-ttu-id="a75d7-113">Selecteer in de lijst de vooraf gedefinieerde of door de gebruiker gedefinieerde fase die u wilt wijzigen.</span><span class="sxs-lookup"><span data-stu-id="a75d7-113">In the list, select the predefined or user-defined stage that you want to modify.</span></span> 
+5. <span data-ttu-id="a75d7-114">Geef de nieuwe naam op in het veld Projectfase.</span><span class="sxs-lookup"><span data-stu-id="a75d7-114">In the Project stage field, enter the new name.</span></span>
+6. <span data-ttu-id="a75d7-115">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="a75d7-115">Click Save.</span></span>
