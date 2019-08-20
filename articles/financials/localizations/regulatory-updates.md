@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624306"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849327"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -59,19 +59,22 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 |      2019 april          |   10.0.1      |    Rusland     |Wijzigingen in aangifte van transportbelasting van 2019  |
 |      2019 april            |   10.0.1      | Hongarije      |  Hongarije: online facturering v. 1.1 2019 op Microsoft Dynamics 365 for Finance and Operations  |
 |      mei 2019            |   10.0.2      | Brazilië      |   SPED ECD - indeling 7   |
-|      In behandeling            |   10.0.3      | Brazilië      |   NF-e nieuw NT 2018.005 - v.1.20   |
-|      In behandeling            |   10.0.3      | Brazilië      |   SPED ECD - indeling 7   |
-|      In behandeling            |   10.0.3      | Brazilië      |   SPED ECF - indeling 5 voor 2019   |
-|      In behandeling            |   10.0.3      | Litouwen    |   In een i.SAF-rapport kunnen gebruikers systeem-btw-codes definiëren in combinatie met wettelijke btw-codes    |
-|      In behandeling            |   10.0.3      | Polen     |   SAF-facturen (JPK_FA) v.2 van 1 juli 2019  |
-|      In behandeling            |   10.0.3      | Brazilië   |   Door ICMS-correcties in fiscale documenten is tabel 5.2 van kracht   |
-|      In behandeling            |   10.0.3      | Brazilië    |   NF-e-besluit 54.308/18 (RS)   |
-  | In behandeling            |   10.0.4      | Brazilië    |   Binnenkomend fiscaal document 66   |
-   | In behandeling            |   10.0.4      | Brazilië    |   NF-e en NFC-e - Resolutie 13/2019 en verordening SUCIEF 55/2019- RJ - nieuwe voorwaarden voor uitvoer van vrijstellingslabels in NF-e.   |
-   | In behandeling            |   10.0.4      | India   |   De weergave van Plaats van levering en Provincie in de GST-belastingfactuur  |
-   | In behandeling            |   10.0.4      | Mexico   |  DIOT-aangifte van derden - wijzigingen in indeling 2019   |
-   | In behandeling            |   10.0.4      | Brazilië    |   NF-e ICMS-ST - verordening CAT 42/18 voor staat SP - CAT 42/18
-   | In behandeling            |   10.0.4      | Brazilië    |   NF-e-besluit 54.308/18 - RS NF   |
+|      2019 juni            |   10.0.3      | Brazilië      |   NF-e nieuw NT 2018.005 - v.1.20   |
+|      2019 juni            |   10.0.3      | Brazilië      |   SPED ECD - indeling 7   |
+|      2019 juni            |   10.0.3      | Brazilië      |   SPED ECF - indeling 5 voor 2019   |
+|      2019 juni            |   10.0.3      | Litouwen    |   In een i.SAF-rapport kunnen gebruikers systeem-btw-codes definiëren in combinatie met wettelijke btw-codes    |
+|      2019 juni            |   10.0.3      | Polen     |   SAF-facturen (JPK_FA) v.2 van 1 juli 2019  |
+|      2019 juni            |   10.0.3      | Brazilië   |   Door ICMS-correcties in fiscale documenten is tabel 5.2 van kracht   |
+|      2019 juni            |   10.0.3      | Brazilië    |   NF-e-besluit 54.308/18 (RS)   |
+  | Juli 2019            |   10.0.4      | Brazilië    |   Binnenkomend fiscaal document 66   |
+   | Juli 2019            |   10.0.4      | Brazilië    |   NF-e en NFC-e - Resolutie 13/2019 en verordening SUCIEF 55/2019- RJ - nieuwe voorwaarden voor uitvoer van vrijstellingslabels in NF-e.   |
+   | Juli 2019            |   10.0.4      | India   |   De weergave van Plaats van levering en Provincie in de GST-belastingfactuur  |
+   | Juli 2019            |   10.0.4      | Mexico   |  DIOT-aangifte van derden - wijzigingen in indeling 2019   |
+   | Juli 2019            |   10.0.4      | Brazilië    |   NF-e ICMS-ST - verordening CAT 42/18 voor staat SP - CAT 42/18
+   | Juli 2019            |   10.0.4      | Brazilië    |   NF-e-besluit 54.308/18 - RS NF   |
+       | In behandeling            |   10.0.5      | Brazilië    |   Praktische gids sped-bijdragen 1.31. nieuwe richtlijnen   |
+         | In behandeling            |   10.0.5      | Brazilië    |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.00   |
+          | In behandeling            |   10.0.5      | Spanje    |   Vanaf 1 oktober 2019 worden de validatieregels gewijzigd   |
    
 
 

@@ -3,7 +3,7 @@ title: Verwijderde of verouderde functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624902"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863378"
 ---
 # <a name="removed-or-deprecated-features"></a>Verwijderde of afgeschafte functies
 
@@ -40,10 +40,32 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > Gedetailleerde informatie over objecte in Finance and Operations is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 met platformupdate 28
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>Dynamics 365 for Finance and Operations 10.0.5 met platformupdate 29
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 met platformupdate 28 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-and-ops/get-started/public-preview-releases.md).
+> Dynamics 365 for Finance and Operations 10.0.5 met platformupdate 29 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="us-payroll-tax-updates"></a>Updates van Amerikaanse payroll-belasting
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | We gaan belastingupdates voor de Amerikaanse payroll-functionaliteit afschaffen omdat deze te weinig wordt gebruikt en omdat er nu door strategische integraties verbeterde functionaliteit wordt aangeboden.  |
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden**         | Salaris |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: op 1 oktober 2021 zijn we van plan geen belastingupdates meer te verstrekken aan Amerikaanse Payroll-klanten. De functionaliteit blijft in het product bestaan, maar de functionaliteit zal niet meer up-to-date blijven en eventuele productdefecten worden per geval geëvalueerd. Zie [Belastingupdates voor Amerikaanse Payroll-functie in Microsoft Dynamics 365 for Finance and Operations worden afgeschaft](https://aka.ms/financepayrollfaq) voor meer informatie. |
+
+
+### <a name="data-management-staging-clean-up"></a>Fasering gegevensbeheer opschonen
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Voldoet niet aan de kernvereisten die nodig zijn voor het plannen van periodieke opschoning. |
+| **Vervangen door een andere functie?**   | Ja, de functie Taakhistorie opschonen wordt toegevoegd om holistisch aan de scenario's te voldoen. |
+| **Betrokken productgebieden**         | Gegevensbeheer |
+| **Implementatieoptie**              | Alle  |
+| **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor december 2020. |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 met platformupdate 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Frankrijk: FEC-boekhoudingsgegevens exporteren in XML
 
@@ -280,7 +302,7 @@ De inhoudspakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Productupdates in Microsoft Power BI. |
-| **Vervangen door een andere functie?**   | De inhoudspakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, beschikbaar op de site [AppSource](https://appsource.microsoft.com), worden vervangen door analytische toepassingen die oplossingsintegratie op databaseniveau mogelijk maken. Zie voor meer informatie over analytische toepassingen [Ingesloten Power BI in werkgebieden](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Vervangen door een andere functie?**   | De inhoudspakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, beschikbaar op de site [AppSource](https://appsource.microsoft.com), worden vervangen door analytische toepassingen die oplossingsintegratie op databaseniveau mogelijk maken. Zie [Ingesloten Power BI in werkruimten](../../dev-itpro/analytics/embed-power-bi-workspaces.md) voor meer informatie over analytische toepassingen.    |
 | **Betrokken productgebieden**         | Kostenbeheer, Finance en Retail                                                                                               |
 | **Implementatieoptie**              | Alleen cloud (integratie met PowerBI.com wordt niet ondersteund in on-premises implementaties.)                                                                                                            |
 | **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor het tweede kwartaal van 2018.    |
@@ -1235,7 +1257,7 @@ Met Sites Services kunt u websites maken die uw bedrijfsprocessen naar internet 
 
 ### <a name="virtual-company-accounts"></a>Virtuele bedrijfsrekeningen
 
-De functie voor virtuele bedrijven wordt niet meer ondersteund in Dynamics AX. Met de functie Virtuele konden gebruikers tabellen instellen die konden worden gedeeld door een reeks bedrijven. Zie voor een omschrijving van de functie [Bedrijfsrekeningen en virtuele bedrijfsrekeningen](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). De functie werkt door tabellen in verzamelingen te groeperen die aan virtuele bedrijven zijn toegewezen, die groepen van bestaande "echte" bedrijven zijn. Query's worden gemaakt zodat alle bedrijven in het virtuele bedrijf toegang hebben tot de gegevens in de tabellen van de gekoppelde tabelverzamelingen.
+De functie voor virtuele bedrijven wordt niet meer ondersteund in Dynamics AX. Met de functie Virtuele konden gebruikers tabellen instellen die konden worden gedeeld door een reeks bedrijven. Zie voor een omschrijving van de functie [Bedrijfsrekeningen en virtuele bedrijfsrekeningen](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). De functie werkt door tabellen in verzamelingen te groeperen die aan virtuele bedrijven zijn toegewezen, die groepen van bestaande "echte" bedrijven zijn. Query's worden gemaakt zodat alle bedrijven in het virtuele bedrijf toegang hebben tot de gegevens in de tabellen van de gekoppelde tabelverzamelingen.
 
 |   |  | 
 |------------|--------------------|

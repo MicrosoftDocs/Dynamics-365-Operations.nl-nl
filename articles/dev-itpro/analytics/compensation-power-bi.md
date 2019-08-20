@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8457182fee49e28256f2a1102ba77b2b4e89d5b2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fad076ae61da4845b65518f75747fec791b3b78c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548691"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848418"
 ---
 # <a name="compensation-power-bi-content"></a>Compensatie Power BI-inhoud
 
@@ -45,7 +45,7 @@ De rapporten die zijn opgenomen in **Compensatie** de Power BI-inhoud bevatten d
 | Positiesalarisanalyse      | Hoogste en laagste betaling per uur en salaris, posities met het hoogste en laagste salaris en fulltime en parttime posities |
 | Compensatieplananalyse | Werknemersinschrijving op basis van geselecteerde vergoeding |
 
-U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 De volgende gegevens worden gebruikt om de rapporten in de **Compensatie** Power BI-inhoud in te vullen. Deze tabel bevat de entiteiten waarop de inhoud is gebaseerd.

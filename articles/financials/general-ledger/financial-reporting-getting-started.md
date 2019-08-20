@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
-ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
+ms.openlocfilehash: 7a55c0a1ac8ac833315afa179c1b6d4eb78195fc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594955"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839202"
 ---
 # <a name="financial-reporting"></a>Financiële rapportage
 
@@ -117,7 +117,7 @@ Wanneer u op het menu **Financiële rapportage** klikt, wordt de lijst van finan
 Via de financiële verslagenlijst kunt u een nieuw rapport maken of een bestaand rapport wijzigen. Als u de juiste machtigingen hebt, kunt u een nieuwe financieel rapport maken door te klikken op **Nieuw** in het actievenster. Er wordt een rapportontwerpersprogramma gedownload naar uw apparaat. Nadat de rapportontwerper is gestart, kunt u vervolgens het nieuwe rapport maken. Nadat u het nieuwe rapport hebt opgeslagen, verschijnt het in de lijst met financiële rapporten. De lijst bevat alleen rapporten die voor het bedrijf zijn gemaakt en die u in Finance and Operations gebruikt. 
 
 > [!NOTE] 
-> Op de computer waarop u de rapportontwerpersclient downloadt, moet versie 4.6.2 van Microsoft .NET Framework zijn geïnstalleerd. Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de rapportontwerpersclient te downloaden. Als u in de incognito modus werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. U kunt ook een rapport wijzigen dat in de lijst met financiële rapporten verschijnt. Wanneer u het gebied rond de rapportnaam hebt geselecteerd, klikt u op **Bewerken** in het Actievenster. Het rapportontwerperprogramma wordt gestart.
+> Op de computer waarop u de rapportontwerpersclient downloadt, moet versie 4.6.2 van Microsoft .NET Framework zijn geïnstalleerd. Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53345). Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de rapportontwerpersclient te downloaden. Als u in de incognito modus werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. U kunt ook een rapport wijzigen dat in de lijst met financiële rapporten verschijnt. Wanneer u het gebied rond de rapportnaam hebt geselecteerd, klikt u op **Bewerken** in het Actievenster. Het rapportontwerperprogramma wordt gestart.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 - [Financiële rapporten weergeven](view-financial-reports.md)

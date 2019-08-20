@@ -3,25 +3,25 @@ title: Btw-vereffeningsperioden instellen
 description: Btw-vereffeningsperioden bevatten info over de periode-intervallen waarvoor btw moet worden aangegeven en betaald.
 author: twheeloc
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8304d9e8997a5d31740ee1203aa4bf0603014056
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569581"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862983"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Btw-vereffeningsperioden instellen
 
@@ -50,6 +50,8 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 12. Voer het aantal periode-intervaleenheden per periode in. Bijvoorbeeld, een kwartaal heeft 3 maanden.
 13. Schakel het selectievakje Batchverwerking gebruiken voor btw-vereffening in of uit.
     * Het vereffeningsproces voor de vereffeningsperiode kan als batchtaak in de achtergrond worden verwerkt. Dit wordt aanbevolen voor een groot aantal btw-transacties binnen een periode-interval.  
+    > [!NOTE]
+    > Momenteel wordt dit niet ondersteund in Oostenrijk, België, Spanje, Italië, Japan en Nederland.
 14. Schakel het selectievakje Genereren van tegengerekende btw-transacties voorkomen in of uit.
     * Standaard genereert het systeem tegengerekende btw-transacties tijdens het vereffeningsproces, wat kan leiden tot prestatieprobleem als er een groot aantal btw-transacties binnen een periode-interval is. Schakel dit selectievakje in om genereren van tegengerekende btw-transacties te voorkomen.
 15. Vouw het tabblad Periode-intervallen uit.

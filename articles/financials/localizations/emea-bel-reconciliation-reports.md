@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: b22edc7c3ace39f7dd818e3ff423edfd57618676
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 715f0740c52d7efdbf36d47bd211064f46919e2b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565330"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852119"
 ---
 # <a name="reconciliation-reports-for-belgium"></a>Afstemmingsrapporten voor België
 

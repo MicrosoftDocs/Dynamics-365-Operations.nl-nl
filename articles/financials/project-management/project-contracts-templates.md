@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be23b99ddc224328cf067fe0bf36be93fcef4337
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561457"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846023"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren met Finance and Operations
 
@@ -94,8 +94,8 @@ Wanneer de oplossing Project Service Automation-integratie naar Finance and Oper
 ## <a name="prerequisites-and-mapping-setup"></a>Vereisten en instellingen voor toewijzing
 
 - Voordat synchronisatie van projectcontracten en projecten kan optreden, moet u rekeningen synchroniseren.
-- Voeg in uw verbindingsset een toewijzing van een integratiesleutelveld toe voor **msdyn\_organizationalunits** naar **msdyn\_name \[name\]**. Mogelijk moet u eerst een project toevoegen aan de verbindingsset. Zie voor meer informatie [Gegevens integreren in Common Data Service voor Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- Voeg in uw verbindingsset een toewijzing van een integratiesleutelveld toe voor **msdyn\_projects** naar **msdynce\_projectnumber \[Project Number\]**. Mogelijk moet u eerst een project toevoegen aan de verbindingsset. Zie voor meer informatie [Gegevens integreren in Common Data Service voor Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Voeg in uw verbindingsset een toewijzing van een integratiesleutelveld toe voor **msdyn\_organizationalunits** naar **msdyn\_name \[name\]**. Mogelijk moet u eerst een project toevoegen aan de verbindingsset. Zie voor meer informatie [Gegevens integreren in Common Data Service voor Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Voeg in uw verbindingsset een toewijzing van een integratiesleutelveld toe voor **msdyn\_projects** naar **msdynce\_projectnumber \[Project Number\]**. Mogelijk moet u eerst een project toevoegen aan de verbindingsset. Zie voor meer informatie [Gegevens integreren in Common Data Service voor Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** voor projectcontracten en projecten kan worden bijgewerkt naar een andere waarde of verwijderd uit de toewijzing. De standaardsjabloonwaarde is **Project Service Automation**.
 - De toewijzing **Betalingsvoorwaarden** moet worden bijgewerkt zodat deze geldige betalingsvoorwaarden in Finance and Operations reflecteert. U kunt ook de toewijzing uit de projecttaak verwijderen. De standaardwaardetoewijzing heeft standaardwaarden voor demonstratiegegevens. De volgende tabel bevat de waarden in Project Service Automation.
 

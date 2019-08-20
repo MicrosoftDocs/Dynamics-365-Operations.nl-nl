@@ -3,25 +3,25 @@ title: Belangrijke factuurgegevens in leverancierssysteem met leveranciersfactuu
 description: Deze taakbegeleider helpt u een leveranciersfactuur van een inkooporder te maken en de resultaten van het afstemmen van inkooporder, ontvangstbon en factuur (3-weg afstemming) weer te geven.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1d2e31a5de7cefd20996c18bf4771296a587997
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7abae6d680d899a0294ad3c298a4b0264ba01d0b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569627"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835425"
 ---
 # <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a>Belangrijke factuurgegevens in leverancierssysteem met leveranciersfactuur
 
@@ -31,52 +31,45 @@ Deze taakbegeleider helpt u een leveranciersfactuur van een inkooporder te maken
 
 
 ## <a name="create-a-purchase-order"></a>Inkooporder maken
-1. Ga naar Leveranciers > Inkooporders > Alle inkooporders.
-2. Klik op Nieuw.
-3. Klik in het veld Leverancierrekening op de vervolgkeuzeknop om de zoekopdracht te openen.
+1. Ga in het navigatievenster naar **Modules > Leveranciers > Inkooporders > Alle inkooporders**.
+2. Klik op **Nieuw**.
+3. Klik in het veld **Leverancier** op de vervolgkeuzeknop om de zoekopdracht te openen.
 4. Zoek een leverancier om te selecteren. Bijvoorbeeld, blader omlaag naar US-104.
 5. Selecteer leverancier US-104.
-6. Klik op OK.
-7. Klik in het veld Artikelnummer op de vervolgkeuzeknop om de zoekopdracht te openen.
+6. Klik op **OK**.
+7. Klik in het veld **Artikelnummer** op de vervolgkeuzeknop om de zoekopdracht te openen.
 8. Selecteer een voorraadartikel. Selecteer voor dit voorbeeld artikelnummer 1000.
-9. Vouw de sectie Regeldetails uit of samen.
-10. Klik op het tabblad Instellingen.
-    * U kunt het afstemmingsbeleid negeren om geen afstemming, tweeweg-afstemming of drieweg-afstemming te gebruiken.  
-11. Vouw de sectie Regeldetails uit of samen.
-12. Klik in het actievenster op Inkoop.
-13. Klik op Bevestigen.
+9. Vouw het sneltabblad **Regeldetails** uit.
+10. Ga naar het tabblad **Instellen**. U kunt het overeenstemmingsbeleid negeren om geen overeenstemming, tweeweg-overeenstemming of drieweg-overeenstemming te gebruiken.  
+11. Klik in het actievenster op **Inkoop**.
+12. Klik op **Bevestigen**.
 
 ## <a name="receive-the-products"></a>De producten ontvangen
-1. Klik in het actievenster op Ontvangen.
-2. Klik op Productontvangstbon.
-3. Voer in het veld Productontvangstbon het nummer van de productontvangstbon in. Voer bijvoorbeeld PR123 in.
-4. Klik op OK om de productontvangstbon te boeken.
+1. Klik in het actievenster op **Ontvangen**.
+2. Klik op **Productontvangstbon**.
+3. Voer in het veld **Productontvangstbon** het nummer van de productontvangstbon in. Voer bijvoorbeeld PR123 in.
+4. Klik op **OK** om de productontvangstbon te boeken.
 5. Sluit de pagina.
 
 ## <a name="create-a-vendor-invoice"></a>Een leveranciersfactuur maken
-1. Ga naar Leveranciers > Inkooporders > Inkooporders ontvangen maar niet gefactureerd.
+1. Ga in het navigatievenster naar **Modules > Leveranciers > Inkooporders > Inkooporders die zijn ontvangen maar niet gefactureerd**.
 2. Selecteer de inkooporder die is gemaakt.
-3. Klik in het actievenster op Factuur.
-4. Klik op Factuur.
-5. Voer in het veld Nummer het factuurnummer in.
-6. Typ een waarde in het veld Factuuromschrijving.
-7. Voer een datum in het veld Factuurdatum in.
-8. Voer 1200 in het veld Eenheidsprijs in.
-9. Klik op Regel toevoegen.
-10. Klik in het veld Artikelnummer op de vervolgkeuzeknop om de zoekopdracht te openen.
+3. Klik in het actievenster op **Factuur**.
+4. Klik op **Factuur**.
+5. Voer in het veld **Nummer** het factuurnummer in.
+6. Typ een waarde in het veld **Factuurbeschrijving**.
+7. Voer een datum in het veld **Factuurdatum** in.
+8. Voer 1200 in het veld **Eenheidsprijs** in.
+9. Klik op **Regel toevoegen**.
+10. Klik in het veld **Artikelnummer** op de vervolgkeuzeknop om de zoekopdracht te openen.
 11. Zoek in de lijst het artikelnummer van de installatietoeslag. Bijvoorbeeld S0001
-12. Selecteer het artikelnummer van de installatietoeslag.
-    * Merk op dat geen afstemming is uitgevoerd sinds u de wijzigingen hebt aangebracht.  
-13. Klik op Vereffeningsstatus bijwerken.
-14. Klik in het actievenster op Controleren.
-15. Klik op Vereffeningsgegevens.
-    * De nieuwe regel met services hoeft niet te worden afgestemd zodat de status "Niet uitgevoerd" blijft.  
-16. Selecteer de productontvangstbon voor het voorraadartikel dat u hebt ontvangen.
-    * De regel met de productontvangstbon is afgestemd maar de hoeveelheid of prijs komt niet overeen, waardoor de afstemming mislukt.  
-17. Voer in het veld Eenheidsprijs een getal in.
-    * Nu de eenheidsprijs overeenkomt, wordt de status gewijzigd in Geslaagd. Als uw beleid verschillen toestaat of als afstemmen alleen een waarschuwing is, kunt u de factuur toch boeken.  
+12. Selecteer het artikelnummer van de installatietoeslag. Merk op dat geen afstemming is uitgevoerd sinds u de wijzigingen hebt aangebracht.  
+13. Klik op **Vereffeningsstatus bijwerken**.
+14. Klik in het actievenster op **Controleren**.
+15. Klik op **Vereffeningsgegevens**. De nieuwe regel met services hoeft niet te worden afgestemd zodat de status "Niet uitgevoerd" blijft.  
+16. Selecteer de productontvangstbon voor het voorraadartikel dat u hebt ontvangen. De regel met de productontvangstbon is afgestemd maar de hoeveelheid of prijs komt niet overeen, waardoor de afstemming mislukt.  
+17. Voer een nummer in het veld **Eenheidsprijs** in. Nu de eenheidsprijs overeenkomt, wordt de status gewijzigd in Geslaagd. Als uw beleid verschillen toestaat of als afstemmen alleen een waarschuwing is, kunt u de factuur toch boeken.  
 18. Sluit de pagina.
-19. Klik op Boeken.
-20. Het formulier sluiten.
-    * Merk op dat de inkooporder niet meer wordt weergegeven als ontvangen maar als niet gefactureerd.  
+19. Klik op **Boeken**.
+20. Het formulier sluiten. Merk op dat de inkooporder niet meer wordt weergegeven als ontvangen maar als niet gefactureerd.  
 

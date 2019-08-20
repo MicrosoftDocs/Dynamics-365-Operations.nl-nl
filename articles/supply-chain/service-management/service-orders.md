@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b4d347556d25831bb3f9175e8606e0b41d98bdd8
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555348"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743239"
 ---
 # <a name="service-orders"></a>Serviceorders   
 
@@ -76,7 +76,7 @@ Een van de andere serviceorders die voor januari was gegenereerd, is vervallen o
 
 ## <a name="post-from-projects"></a>Boeken vanuit projecten
 
-Aan het einde van elke week wil de verzender alle serviceorders van een bepaald project boeken. Daarom zoekt de verzender het betreffende project in het formulier **Projecten** en boekt deze de serviceorders die zijn voltooid. Zie voor meer informatie [Serviceorders boeken (klasseformulier)](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\)).
+Aan het einde van elke week wil de verzender alle serviceorders van een bepaald project boeken. Daarom zoekt de verzender het betreffende project in het formulier **Projecten** en boekt deze de serviceorders die zijn voltooid. Zie voor meer informatie [Serviceorders boeken (klasseformulier)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Serviceorders verwijderen
 
@@ -84,7 +84,7 @@ Tijdens de tweede helft van het jaar geeft de klant aan dat hij vaker een onderh
 
 ## <a name="see-also"></a>Zie ook
 
-[Serviceorders (formulier)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
+[Serviceorders (formulier)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))
 
   
 

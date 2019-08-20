@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22d6352f179919666d39df816f04bab340017dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: aaa4a08f65e4a3452782cf2b928464dff27ed59b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509184"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837295"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Factuurvereffening en intercompany-inkooporders
 
 [!include [banner](../includes/banner.md)]
 
-De aankopende rechtspersoon die bij een intercompany-transactie betrokken is, kan worden ingesteld om factuurvereffening voor leveranciers te gebruiken. In dit geval moet aan de boekingsvereisten worden voldaan voor zowel intercompany-handel en factuurvereffening voor leveranciers voordat IC-leveranciersfacturen kunnen worden geboekt.
+De aankopende rechtspersoon die bij een intercompany-transactie betrokken is, kan worden ingesteld om factuurvereffening voor leveranciers te gebruiken. Als het veld **Factuur met verschillen boeken** in het formulier **Parameters van module Leveranciers** is ingesteld op **Goedkeuring vereisen**, wordt factuurvereffeningsvalidatie uitgevoerd. In dit geval moet aan de boekingsvereisten worden voldaan voor zowel intercompany-handel en factuurvereffening voor leveranciers voordat IC-leveranciersfacturen kunnen worden geboekt.
 
 Het voorbeeld in dit onderwerp gebruikt de volgende instellingen IC-handel:
 -   Fabrikam Inkoop is de aankopende rechtspersoon.

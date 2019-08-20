@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 1174003
 ms.search.region: Denmark, Germany, France, Ireland, Netherlands, United Kingdom
 ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4e65627cdb662cef22c9c643599959d6921e3dc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85880b2f36932686bca1e2a27659f7806006717f
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565324"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850692"
 ---
 # <a name="corrective-invoicing"></a>Correctieve facturering
 

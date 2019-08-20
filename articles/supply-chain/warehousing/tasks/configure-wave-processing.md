@@ -3,26 +3,26 @@ title: Waveverwerking configureren
 description: In deze begeleiding wordt beschreven hoe u de criteria instelt die bepalen wat voor werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bc28149aa56302e09eb0e7be581a582f58a76416
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571881"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1847346"
 ---
 # <a name="configure-wave-processing"></a>Waveverwerking configureren
 
@@ -30,42 +30,34 @@ ms.locfileid: "1571881"
 
 In deze begeleiding wordt beschreven hoe u de criteria instelt die bepalen wat voor werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt. U kunt de criteria opgeven door wavesjablonen en query's in te stellen die overeenstemmen met een wave met vrijgegeven regels in verkooporders, productieorders of kanbanorders. De waveverwerking wordt gebruikt in magazijnen die de functionaliteit in de module Magazijnbeheer gebruiken, en niet in magazijnen die de functionaliteit in de module Voorraadbeheer gebruiken. U kunt deze procedure in het bedrijf USMF van de demogegevens uitvoeren.
 
-1. Ga naar Magazijnbeheer > Instellingen > Waves > Wavesjablonen.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Wavesjabloon.
-    * Wanneer u een wavesjabloon instelt, kunt u de volgorde opgeven waarin de sjablonen worden gematcht met vrijgegeven regels op verkooporders, productieorders of kanbans. Wanneer een regel aan het magazijn of aan productie wordt vrijgegeven, wordt de eerste wavesjabloon gebruikt waarvoor aan de criteria wordt voldaan. Het wordt aanbevolen sjablonen met de meest specifieke criteria boven aan de lijst te plaatsen. Hoe breder de criteria, hoe waarschijnlijker het is dat een regel voldoet aan de criteria, waardoor regels aan de verkeerde wave worden toegewezen.  
-4. Typ een waarde in het veld Omschrijving van wavesjabloon.
-5. Typ of selecteer een waarde in het veld Locatie.
-    * Als u USMF gebruikt, kunt u Vestiging 2 selecteren.  
-6. Typ of selecteer een waarde in het veld Magazijn.
-    * Als u USMF gebruikt, kunt u magazijn 24 selecteren.  
-7. Stel het veld Het maken van waves automatiseren in op Ja.
-    * Selecteer deze optie om automatisch een wave te maken wanneer een verkooporder, een productieorder, of een kanban aan het magazijn wordt vrijgegeven.  
-8. Stel de optie Wave verwerken bij vrijgave door magazijn in op Ja. 
-    * Selecteer deze optie om de wave automatisch te verwerken en werk te maken wanneer een regel aan het magazijn wordt vrijgegeven.  
-9. Stel de optie Vrijgave waves automatiseren in op Ja. 
-    * Selecteer deze optie om de wave automatisch vrij te geven. Het orderverzamelwerk wordt gemaakt en wordt beschikbaar op mobiele apparaten.  
-10. Stel de optie Toewijzen aan open waves in op Ja. 
-    * Regels worden toegewezen aan waves op basis van het queryfilter voor de wavesjabloon.  
-11. Stel de optie Wave automatisch verwerken op drempel in op Ja. 
-    * Selecteer deze optie om de wave automatisch te verwerken wanneer de waarden de drempels bereiken voor gewicht, verzending en regels bepaald in de veldgroep Wavedrempels. Deze optie is alleen beschikbaar als Verzending is geselecteerd in het veld Type wavesjabloon.  
-12. Stel de optie Vrijgave van aanvullingswerk automatiseren in op Ja. 
-    * Selecteer deze optie om op vraag gebaseerd aanvullingswerk te maken en dit automatisch vrij te geven. U moet de methode van de aanvullingswave toevoegen aan de wavesjabloon, en een aanvullingssjabloon maken van het type Waveaanvraag.  
-13. Vouw de sectie Methoden uit.
-    * Met wavesjabloonmethoden kunt u de volgorde bepalen van activiteiten die elke wave tijdens de verwerking doorloopt. U kunt bijvoorbeeld een methode hebben voor waveaanvulling. Wanneer u een methode toevoegt, wordt deze automatisch weergegeven op de juiste locatie in de reeks stappen. Als u de optie Vrijgave van aanvullingswerk automatiseren op Ja hebt ingesteld, moet u de aanvullingsmethode hier toevoegen.  
-    * De wavekenmerken fungeren als filters om het type te beperken van artikelen die de wave kunnen gebruiken. U kunt bijvoorbeeld een artikelgroep opgeven.  
-14. Klik op Opslaan.
+1. Ga naar **Navigatiedeelvenster > Modules > Magazijnbeheer > Instellen > Waves >Wave-sjablonen**.
+2. Klik op **Nieuw**.
+3. Typ een waarde in het veld **Wavesjabloon**. Wanneer u een wavesjabloon instelt, kunt u de volgorde opgeven waarin de sjablonen worden gematcht met vrijgegeven regels op verkooporders, productieorders of kanbans. Wanneer een regel aan het magazijn of aan productie wordt vrijgegeven, wordt de eerste wavesjabloon gebruikt waarvoor aan de criteria wordt voldaan. Het wordt aanbevolen sjablonen met de meest specifieke criteria boven aan de lijst te plaatsen. Hoe breder de criteria, hoe waarschijnlijker het is dat een regel voldoet aan de criteria, waardoor regels aan de verkeerde wave worden toegewezen.  
+4. Typ een waarde in het veld **Beschrijving van wavesjabloon**.
+5. Typ of selecteer een waarde in het veld **Locatie**. Als u USMF gebruikt, kunt u Vestiging 2 selecteren.  
+6. Typ of selecteer een waarde In het veld **Magazijn**. Als u USMF gebruikt, kunt u magazijn 24 selecteren.  
+7. Stel het veld **Het maken van waves automatiseren** in op **Ja**. Selecteer deze optie om automatisch een wave te maken wanneer een verkooporder, een productieorder, of een kanban aan het magazijn wordt vrijgegeven.  
+8. Stel de optie **Wave verwerken bij vrijgave door magazijn** in op **Ja**. Selecteer deze optie om de wave automatisch te verwerken en werk te maken wanneer een regel aan het magazijn wordt vrijgegeven.  
+9. Stel de optie **Vrijgave waves automatiseren** in op **Ja**. Selecteer deze optie om de wave automatisch vrij te geven. Het orderverzamelwerk wordt gemaakt en wordt beschikbaar op mobiele apparaten.  
+10. Stel de optie **Toewijzen aan open waves** in op **Ja**. Regels worden toegewezen aan waves op basis van het queryfilter voor de wavesjabloon.  
+11. Stel de optie **Wave automatisch verwerken op drempel** in op **Ja**. Selecteer deze optie om de wave automatisch te verwerken wanneer de waarden de drempels bereiken voor gewicht, verzending en regels bepaald in de veldgroep Wavedrempels. Deze optie is alleen beschikbaar als Verzending is geselecteerd in het veld Type wavesjabloon.  
+12. Stel de optie **Vrijgave van aanvullingswerk automatiseren** in op **Ja**. Selecteer deze optie om op vraag gebaseerd aanvullingswerk te maken en dit automatisch vrij te geven. U moet de methode van de aanvullingswave toevoegen aan de wavesjabloon, en een aanvullingssjabloon maken van het type Waveaanvraag.  
+13. Vouw de sectie **Methoden** uit.
+
+    - Met wavesjabloonmethoden kunt u de volgorde bepalen van activiteiten die elke wave tijdens de verwerking doorloopt. U kunt bijvoorbeeld een methode hebben voor waveaanvulling. Wanneer u een methode toevoegt, wordt deze automatisch weergegeven op de juiste locatie in de reeks stappen. Als u de optie Vrijgave van aanvullingswerk automatiseren op Ja hebt ingesteld, moet u de aanvullingsmethode hier toevoegen.  
+    - De wavekenmerken fungeren als filters om het type te beperken van artikelen die de wave kunnen gebruiken. U kunt bijvoorbeeld een artikelgroep opgeven.  
+14. Klik op **Opslaan**.
 15. Sluit de pagina.
-16. Ga naar Magazijnbeheer > Instellingen > Parameters voor magazijnbeheer.
-17. Vouw de sectie Waveverwerking uit.
-18. Typ of selecteer een waarde in het veld Batchgroep voor waveverwerking.
-19. Stel de optie Waves verwerken in batch in op Ja.
-20. Voer een getal in het veld Wachten op vergrendeling (ms) in.
-    * Voer de tijd, uitgedrukt in milliseconden, in die een toewijzingsstap moet wachten op een systeemresource die door een andere toewijzingsstap wordt vergrendeld. Nadat deze tijd is verstreken, wordt de golf niet verwerkt en wordt er een foutbericht weergegeven.  
-21. Klik op Opslaan.
+16. Ga naar **Magazijnbeheer > Instellen > Parameters voor magazijnbeheer**.
+17. Vouw de sectie **Waveverwerking** uit.
+18. Typ of selecteer een waarde in het veld **Batchgroep voor waveverwerking**.
+19. Stel de optie **Waves verwerken in batch** in op **Ja**.
+20. Voer een getal in het veld **Wachten op vergrendeling (ms)** in. Voer de tijd, uitgedrukt in milliseconden, in die een toewijzingsstap moet wachten op een systeemresource die door een andere toewijzingsstap wordt vergrendeld. Nadat deze tijd is verstreken, wordt de golf niet verwerkt en wordt er een foutbericht weergegeven.  
+21. Klik op **Opslaan**.
 22. Sluit de pagina.
-23. Ga naar Productiebeheer > Instellingen > Parameters van productiebeheer.
-24. Selecteer een optie in het veld Vrijgave naar magazijn.
-    * Bij verkooporders en kanbanorders moet de voorraad zijn gereserveerd voordat de order aan het magazijn wordt vrijgegeven. Anders kunnen artikelen of toewijzingsregels niet in een golf worden verwerkt. Voor productieorders hebt u ook de mogelijkheid om Gedeeltelijke reservering toestaan te kiezen. Dit is bijvoorbeeld handig als u de materialen hebt die u nodig hebt om een productie te starten. U kunt dan wachten totdat de extra materialen beschikbaar worden om het proces te voltooien. Als u deze optie selecteert, moet u de vrijgave naar het magazijnproces handmatig herhalen wanneer de aanvullende materialen beschikbaar worden.  
+23. Ga naar **Navigatiedeelvenster > Modules > Productiebeheer > Instellen > Parameters van productiebeheer**.
+24. Selecteer een optie in het veld **Vrijgave naar magazijn**.
+
+Bij verkooporders en kanbanorders moet de voorraad zijn gereserveerd voordat de order aan het magazijn wordt vrijgegeven. Anders kunnen artikelen of toewijzingsregels niet in een golf worden verwerkt. Voor productieorders hebt u ook de mogelijkheid om Gedeeltelijke reservering toestaan te kiezen. Dit is bijvoorbeeld handig als u de materialen hebt die u nodig hebt om een productie te starten. U kunt dan wachten totdat de extra materialen beschikbaar worden om het proces te voltooien. Als u deze optie selecteert, moet u de vrijgave naar het magazijnproces handmatig herhalen wanneer de aanvullende materialen beschikbaar worden.  
 25. Sluit de pagina.
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a4733dc4da7a8713ac7ddec5c96ae18c91edc18
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551738"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863666"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Rapportonderdelen indelen in Report Designer
 
@@ -50,7 +50,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 ### <a name="create-a-report-group"></a>Een rapportgroep maken
 
 1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
-2. Klik in het menu **Bestand** op **Nieuw** &gt; **Rapportgroepdefinitie** om een nieuwe groep in het venster van de viewer te openen. U kunt ook klikken op de knop **Rapportgroep** ![Rapportgroep](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Rapportgroep") op de werkbalk.
+2. Klik in het menu **Bestand** op **Nieuw** &gt; **Rapportgroepdefinitie** om een nieuwe groep in het venster van de viewer te openen. U kunt ook klikken op de knop **Rapportgroep** ![Rapportgroep](media/report-group.gif "Rapportgroep") op de werkbalk.
 3. Klik op het tabblad **Rapportgroep**. Als u de informatie over de afzonderlijke rapportdefinities wilt negeren voor het genereren van dit rapport, schakelt u het selectievakje **Instellingen voor bedrijf, details en datum uit individuele rapportdefinities negeren** in. De bedrijfsnaam, het detailniveau, voorlopige instellingen en datumgegevens worden automatisch ingevuld, maar u kunt wel updates uitvoeren.
 4. Als u meerdere rapporten wilt genereren die de aangiftevaluta tonen, schakelt u het selectievakje **Alle aangiftevaluta opnemen** in. U kunt vervolgens meerdere weergaven openen door op de knop **Valuta** te klikken in de Web Viewer wanneer u het rapport weergeeft.
 5. Klik in het veld **Rapporten in groep** op **Toevoegen** om de rapporten te selecteren die u in de rapportgroep wilt opnemen. Als u meerdere rapporten wilt selecteren in het dialoogvenster **Toevoegen**, houdt u de toets Ctrl ingedrukt terwijl u rapporten selecteert. Wanneer u klaar bent met het selecteren van rapporten, klikt u op **OK**.
@@ -61,7 +61,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
 2. Dubbelklik op de rapportgroep die u wilt wijzigen.
 3. Breng de gewenste wijzigingen aan op het tabblad **Rapportgroep**.
-4. Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Opslaan") in de werkbalk.
+4. Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan](media/save.gif "Opslaan") in de werkbalk.
 
 > Als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
 
@@ -69,7 +69,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 
 1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
 2. Open de rapportgroep die u wilt genereren.
-3. Klik op de knop **Rapport genereren** ![Rapport genereren](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Rapport genereren") om rapporten te genereren.
+3. Klik op de knop **Rapport genereren** ![Rapport genereren](media/generate-report.gif "Rapport genereren") om rapporten te genereren.
 
 ### <a name="delete-a-report-group"></a>Een rapportgroep verwijderen
 

@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2e13b43812e0d6f8b50cb3fcf65f277afbe9e806
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552856"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849758"
 ---
 # <a name="employee-development-power-bi-content"></a>Werknemersontwikkeling Power BI-inhoud
 
@@ -41,7 +41,7 @@ De rapporten die zijn opgenomen in de **Werknemersontwikkeling** Power BI-inhoud
 | Prestatiebeoordelingsanalyse   | Werknemers op basis van laagste en hoogste beoordeling per functie, werknemersbeoordelingen per afdeling, werknemers per beoordeling en positietype en hoogste en laagste beoordelingen per positie |
 | Werknemersprestatieanalyse | Werknemersbeoordelingen voor geselecteerde beoordeling door manager |
 
-U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 

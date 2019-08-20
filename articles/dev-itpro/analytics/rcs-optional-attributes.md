@@ -1,5 +1,5 @@
 ---
-title: Toepassingsspecifieke metagegevens voorbereiden voor RCS en ER
+title: Bestanden in XML-indeling importeren met optionele kenmerken
 description: Dit onderwerp bevat informatie over het ontwerpen van ER‑indelingen waarmee XML-kenmerken worden opgegeven voor het parseren van inkomende elektronische documenten in XML-indeling.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726570"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849990"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Toepassingsspecifieke metagegevens voorbereiden voor RCS en ER
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Bestanden in XML-indeling importeren met optionele kenmerken
 
 U kunt ER-indelingen (elektronische rapportage) ontwerpen om inkomende elektronische documenten te parseren in XML-indeling. U kunt bepaalde kenmerken van XML-elementen als optioneel specificeren in de ontworpen ER‑indeling. Hiermee kunt u binnenkomende bestanden met en zonder dergelijke XML-kenmerken op de juiste manier verwerken. Vervolgens kunt u de inhoud van deze bestanden gebruiken om toepassingsgegevens bij te werken.
 
@@ -97,11 +97,11 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 5.  Klik op **Opslaan**.
 6.  Klik op **Ontwerper**.
 7.  Vouw in de structuur **indeling** uit.
-8.  Vouw in de structuur **indeling\root: XML-element(root)** uit.
-9.  Selecteer in de structuur **format\root: XML‑element(root)\document: XML‑element 1..* (document)**.
+8.  Vouw in de structuur **format\root: XML Element(root)** uit.
+9.  Selecteer in de structuur **format\root: XML Element(root)\document: XML Element 1..* (document)**.
 10. Klik op **Binden**.
-11. Vouw in de structuur **format\root: XML‑element(root)\document: XML‑element 1..* uit. (document)**.
-12. Selecteer in de structuur **format\root: XML‑element(root)\document: XML‑element 1..* (document)\id**.
+11. Vouw in de structuur **format\root: XML Element(root)\document: XML Element 1..* uit (document)**.
+12. Selecteer in de structuur **format\root: XML Element(root)\document: XML Element 1..* (document)\id**.
 13. Vouw in de structuur **Lijst = format.root.document** uit.
 14. Selecteer in de structuur **Lijst = format.root.document\Code** uit.
 15. Klik op **Binden**.

@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxEvatParameters_NL
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Netherlands
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a1f13d05477e4a9480a7792824483babadd4be61
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4d01a0566360af117a3e63fdef6336ea58ca755
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552730"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848770"
 ---
 # <a name="nl-00010-electronic-tax-declarations-evat"></a>NL-00010 Elektronische belastingaangiften (EVAT)
 

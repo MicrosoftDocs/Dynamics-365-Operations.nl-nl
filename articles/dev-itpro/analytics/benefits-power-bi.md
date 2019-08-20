@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 38610815e45926aa367011c8723494615e03ee38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e704c27d7cea658be6fa06cc078488b0d5a3b0dc
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548761"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848490"
 ---
 # <a name="benefits-power-bi-content"></a>Power BI-inhoud Vergoedingen
 
@@ -43,7 +43,7 @@ De rapporten die zijn opgenomen in de Power BI-inhoud **Vergoedingen** bevatten 
 | Overzicht van inschrijving op vergoedingen | Plannen waarvoor het meest en het minst wordt ingeschreven, inschrijving per werknemersgroep en geselecteerde opties voor vergoedingsplannen |
 | Werknemersvergoedingen           | Werknemersinschrijving op basis van geselecteerde vergoeding                                                        |
 
-U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 De volgende gegevens worden gebruikt om de rapporten in de Power BI-inhoud **Vergoedingen** in te vullen. Deze tabel bevat de entiteiten waarop de inhoud is gebaseerd.

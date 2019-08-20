@@ -3,25 +3,25 @@ title: Beleid instellen voor categoriehiërarchieën voor aanschaffing
 description: Gebruik deze procedure voor het instellen van regels voor het bestellen van producten in een categorie.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1fdf357466de12bd0188fc43cd266c67af762c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569909"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844166"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Beleid instellen voor categoriehiërarchieën voor aanschaffing
 
@@ -31,31 +31,24 @@ Gebruik deze procedure voor het instellen van regels voor het bestellen van prod
 
 
 ## <a name="find-the-procurement-policy"></a>Het inkoopbeleid zoeken
-1. Ga naar Inkoopbeheer > Instellingen > Beleid > Inkoopbeleid.
-2. Klik op de koppeling in het beleid Aanschaffingsbeleid USMF.
-    * Dit is het beleid waaraan u een regel wilt toevoegen. Dit moet een actief beleid zijn.  
+1. Ga in het navigatievenster naar **Modules > Inkoopbeheer > Instellen > Beleid > Inkoopbeleid**.
+2. Klik op de koppeling in het beleid Aanschaffingsbeleid USMF. Dit is het beleid waaraan u een regel wilt toevoegen. Dit moet een actief beleid zijn.  
 
 ## <a name="create-a-category-access-rule"></a>Een categorietoegangsregel maken
-1. Selecteer de beleidsregel voor categorietoegang.
-    * Als de knop Beleidsregel maken grijs wordt weergegeven, komt dat doordat er al een actieve beleidsregel voor categorietoegang is. Schakel de velden Ingangsdatum en Vervaldatum in om te bepalen welke dat is, selecteer deze vervolgens en klik op Beleidsregel deactiveren. Als de knop Beleidsregel maken beschikbaar is, hoeft u niets te doen.  
-2. Klik op Beleidsregel maken.
-3. Typ in het veld Begindatum de datum en een tijd.
-    * De tijd mag niet overlappen met een andere regel die al actief is.  
-    * Selecteer een categorie waarop de regel van toepassing is. Maak een notitie van welke categorie dit is. Deze informatie hebt u later nodig. Wanneer u een categorie selecteert, worden alle bovenliggende categorieën eveneens toegevoegd aan de lijst Geselecteerde categorieën.  
-    * Als u wilt dat de regel geldt voor alle subcategorieën van de geselecteerde categorie, schakelt u het selectievakje Subcategorieën opnemen in.  
-4. Klik op Toevoegen.
-    * Als u de optie Bovenliggende regel opnemen wilt instellen op Ja, wordt de beleidsregel die u definieert voor een bovenliggende categorie ook toegewezen aan de onderliggende categorieën als er geen beleidsregel is gedefinieerd voor de onderliggende categorieën.  
-5. Klik op OK.
+1. Vouw het sneltabblad **Beleidsregels** uit.
+2. Selecteer in de lijst **Beleidsregeltype** de **Toegangsbeleidsregel voor categorie**. Als de knop **Beleidsregel maken** grijs wordt weergegeven, komt dat doordat er al een actieve toegangsbeleidsregel voor de categorie is. Controleer de velden **Ingangsdatum** en **Vervaldatum** om na te gaan welke het zijn. Selecteer ze en klik op **Beleidsregel buiten gebruik stellen**. Als de knop **Beleidsregel maken** beschikbaar is, hoeft u niets te doen.  
+3. Klik op **Beleidsregel maken**.
+4. Voer in het veld **Ingangsdatum** een datum en tijd in. De tijd mag niet overlappen met een andere regel die al actief is.  
+5. Selecteer een categorie waarop de regel van toepassing is. Maak een notitie van welke categorie dit is. Deze informatie hebt u later nodig. Wanneer u een categorie selecteert, worden alle bovenliggende categorieën eveneens toegevoegd aan de lijst Geselecteerde categorieën. Als u wilt dat de regel wordt toegepast op alle subcategorieën van de geselecteerde categorie, schakelt u het selectievakje **Subcategorieën opnemen** in.
+6. Klik op de pijl-rechts als u deze wilt toevoegen aan de lijst **Geselecteerde categorieën**.  
+4. Klik op **OK**. Als u de optie **Bovenliggende regel opnemen** instelt op Ja, wordt de beleidsregel die u voor een bovenliggende categorie definieert, ook toegewezen aan de onderliggende categorieën als er geen beleidsregel is gedefinieerd voor de onderliggende categorieën.
 
 ## <a name="create-a-category-policy-rule"></a>Een categoriebeleidsregel maken.
-1. Beleidsregel voor categorietoegang selecteren
-    * Als de knop Beleidsregel grijs wordt weergegeven, selecteert u de actieve beleidsregel en klikt u vervolgens op Beleidsregel deactiveren.  
-2. Klik op Beleidsregel maken.
-3. Typ in het veld Begindatum de datum en een tijd.
-4. Klik op Toevoegen.
-5. Selecteer dezelfde categorie als u voor de toegangsregel voor categorie hebt gebruikt.
-6. Selecteer een optie in het veld Leverancier selecteren.
-    * Selecteer een regel om te bepalen welk type leveranciers kan worden geselecteerd voor de categorie bij het maken van bestelopdrachten.  
-7. Klik op Sluiten.
-    * De beleidsregels die u hebt gedefinieerd zijn voor bestelopdrachten van het type Verbruik. Als u beleid wilt definiëren voor bestelopdrachten van het type Aanvulling, maakt u een regel voor het type beleidsregel genaamd "Toegangsbeleidsregel voor aanvullingscategorie".  
+1. Selecteer in de lijst **Beleidsregeltype** de **Beleidsregel voor categorie**. Als de knop **Beleidsregel maken** grijs wordt weergegeven, selecteert u de actieve beleidsregel en klikt u op **Beleidsregel buiten gebruik stellen**.  
+2. Klik op **Beleidsregel maken**.
+3. Voer in het veld **Ingangsdatum** een datum en tijd in.
+4. Klik op **Toevoegen**.
+5. Selecteer in het veld **Categorie** dezelfde categorie als die u voor de **Toegangsregel voor categorie** hebt gebruikt.
+6. Selecteer een optie in het veld **Leveranciersselectie**. Selecteer een regel om te bepalen welk type leveranciers kan worden geselecteerd voor de categorie bij het maken van bestelopdrachten.  
+7. Klik op **Sluiten**. De beleidsregels die u hebt gedefinieerd zijn voor bestelopdrachten van het type Verbruik. Als u beleid wilt definiëren voor bestelopdrachten van het type Aanvulling, maakt u een regel voor het type beleidsregel genaamd "Toegangsbeleidsregel voor aanvullingscategorie".  
 

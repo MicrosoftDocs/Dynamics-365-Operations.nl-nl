@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566105"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841988"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Borgstellingstransactie
 
@@ -61,7 +61,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 15. Typ een datum in het veld Gewenste verzenddatum.
 16. Typ een datum in het veld Bevestigde verzenddatum.
 
-## <a name="process-letter-of-guaranteerequest"></a>Borgstellingsaanvraag verwerken
+## <a name="process-letter-of-guarantee_request"></a>Borgstellingsaanvraag verwerken
 1. Klik in het actievenster op Beheren.
 2. Klik op Borgstelling.
 3. Klik in het actievenster op Borgstelling.
@@ -73,7 +73,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 9. Klik op OK.
 10. Sluit de pagina.
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>Borgstelling Indienen bij bank verwerken
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>Borgstelling Indienen bij bank verwerken
 1. Ga naar Contanten en bankbeheer > Borgstellingen > Borgstellingen.
 2. Zoek en selecteer de gewenste record in de lijst.
 3. Klik op Indienen bij bank om het dialoogvenster te openen.
@@ -81,7 +81,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 5. Klik in de lijst op de koppeling in de geselecteerde rij.
 6. Klik op OK.
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>Borgstelling Ontvangen van bank verwerken
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>Borgstelling Ontvangen van bank verwerken
 1. Klik op Ontvangen van bank om het dialoogvenster te openen.
 2. Typ een waarde in het veld Banknummer.
     * Controleer de waarden in de berekende velden Marge en Onkosten.  
@@ -93,7 +93,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
     * Controleer de boeking van journaalposten.  
 7. Sluit de pagina.
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>Borgstelling Geven aan begunstigde verwerken
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Borgstelling Geven aan begunstigde verwerken
 1. Ga naar Klanten > Orders > Alle verkooporders.
 2. Klik in de lijst op de koppeling in de geselecteerde rij.
 3. Klik in het actievenster op Beheren.
@@ -108,7 +108,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 12. Vouw de sectie Acties uit.
     * Valideer de record 'Geven aan begunstigde'.  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>Borgstelling Waarde verhogen verwerken
+## <a name="process-letter-of-guarantee_increase-value"></a>Borgstelling Waarde verhogen verwerken
 1. Ga naar Klanten > Orders > Alle verkooporders.
 2. Klik in de lijst op de koppeling in de geselecteerde rij.
 3. Klik in het actievenster op Beheren.
@@ -128,7 +128,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 16. Klik op Regels.
     * Controleer de geboekt journaalposten.  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>Borgstelling Liquideren verwerken
+## <a name="process-letter-of-guarantee_liquidate"></a>Borgstelling Liquideren verwerken
 1. Ga naar Klanten > Orders > Alle verkooporders.
 2. Klik in de lijst op de koppeling in de geselecteerde rij.
 3. Klik in het actievenster op Beheren.
