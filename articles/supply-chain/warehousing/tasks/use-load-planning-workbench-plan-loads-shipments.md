@@ -1,9 +1,9 @@
 ---
 title: Belastingen en zendingen plannen met behulp van de Workbench ladingplanning
-description: Deze procedure laat zien hoe u de workbench voor ladingplanning kunt gebruiken om een lading te maken voor een verkooporder.
+description: In dit onderwerp wordt getoond hoe u de workbench voor ladingplanning kunt gebruiken om een lading te maken voor een verkooporder.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,53 +16,47 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5e20eef8aa748bb64c6c14dd7e1d92ccf6592e0
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564786"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1739060"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Belastingen en zendingen plannen met behulp van de Workbench ladingplanning
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u de workbench voor ladingplanning kunt gebruiken om een lading te maken voor een verkooporder. Als vereiste maken we eerst de verkooporder. Deze procedure maakt deel uit van het dagelijks werk voor de transportcoördinator. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+In dit onderwerp wordt getoond hoe u de workbench voor ladingplanning kunt gebruiken om een lading te maken voor een verkooporder. Als vereiste maken we eerst de verkooporder. Deze procedure maakt deel uit van het dagelijks werk voor de transportcoördinator. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 
 
 ## <a name="create-a-sales-order"></a>Verkooporder maken
-1. Ga naar Klanten > Orders > Alle verkooporders.
-2. Klik op Nieuw.
-3. Klik in het veld Klantrekening op de vervolgkeuzeknop om de zoekopdracht te openen.
-4. Selecteer rekening US-004.
-5. Klik op OK.
-6. Klik in het veld Artikelnummer op de vervolgkeuzeknop om de zoekopdracht te openen.
-7. Selecteer artikel A0001.
-    * A0001 is ingeschakeld voor transportbeheer.  
-8. Klik in de lijst op de koppeling in de geselecteerde rij.
-9. Voer in het veld Hoeveelheid een getal in.
-10. Typ "24" in het veld Magazijn.
-    * Selecteer in dit voorbeeld magazijn 24. Dit magazijn is ingeschakeld voor transportbeheer en geavanceerd magazijnbeheer.  
-11. Klik op Opslaan.
+1. Ga naar **navigatiedeelvenster > Modules > Klanten > Orders > Alle verkooporders**.
+2. Selecteer **Nieuw**.
+3. Selecteer in het veld **Klantrekening** de vervolgkeuzeknop om de zoekopdracht te openen.
+4. Selecteer rekening **US-004**.
+5. Selecteer **OK**.
+6. Selecteer in het veld **Artikelnummer** de vervolgkeuzeknop om de zoekopdracht te openen.
+7. Selecteer artikel **A0001**. **A0001** is ingeschakeld voor transportbeheer.  
+8. Selecteer in het veld **Site** de vervolgkeuzeknop om de zoekopdracht te openen en selecteer vervolgens een artikel.
+9. Voer een getal in het veld **Hoeveelheid** in.
+10. Typ '24' voor dit voorbeeld in het veld **Magazijn**. Dit magazijn is ingeschakeld voor transportbeheer en geavanceerd magazijnbeheer.  
+11. Selecteer **Opslaan**.
 12. Sluit de pagina.
 
 ## <a name="create-a-new-load"></a>Een nieuwe lading maken
-1. Ga naar Transportbeheer > Planning > Workbench van ladingplanning.
-2. Klik op het tabblad Verkoopregels.
-    * Nu gaat u de lading samenstellen voor de verkooporder die u zojuist hebt gemaakt. Ladingen kunnen worden samengesteld op basis van de vraag en aanbod van inkooporders, transferorders en verkooporders.  
-3. Klik in het actievenster op Vraag en aanbod.
-4. Klik op Naar nieuwe lading.
-5. Klik in het veld Ladingsjabloon-id op de vervolgkeuzeknop om de zoekopdracht te openen.
-    * De sjabloon voor laden definieert maximummetingen voor gewicht en volume van de volledige lading. Zo kan de laadsjabloon bijvoorbeeld de grootte van een container of een vrachtwagen vertegenwoordigen.  
-6. Klik in de lijst op de koppeling in de geselecteerde rij.
-7. Klik op OK.
+1. Ga naar het **navigatiedeelvenster > Modules > Transportbeheer > Planning > Workbench ladingplanning**.
+2. Selecteer het tabblad **Verkoopregels**. Nu gaat u de lading samenstellen voor de verkooporder die u zojuist hebt gemaakt. Ladingen kunnen worden samengesteld op basis van de vraag en aanbod van inkooporders, transferorders en verkooporders.  
+3. Selecteer in het actievenster de optie **Vraag en aanbod**.
+4. Selecteer **Naar nieuwe lading**.
+5. Selecteer in het veld **Ladingsjabloon-id** de vervolgkeuzeknop om de zoekopdracht te openen. De sjabloon voor laden definieert maximummetingen voor gewicht en volume van de volledige lading. Zo kan de laadsjabloon bijvoorbeeld de grootte van een container of een vrachtwagen vertegenwoordigen. Een artikel selecteren.
+6. Selecteer **OK**.
 
 ## <a name="rate-and-route-the-load"></a>Tarief en route voor lading bepalen
-1. Klik op Classificatie en routering.
-2. Klik op Workbench tariefroute.
-3. Klik op Tariefwinkel.
+1. Selecteer **Beoordeling en routering**.
+2. Selecteer **Routetarief-workbench maken**.
+3. Selecteer **Tariefwinkel**.
 4. Zoek en selecteer de gewenste record in de lijst.
-5. Klik op Toewijzen.
+5. Selecteer **Toewijzen**.
 6. Sluit de pagina.
-7. Sluit de pagina.
 

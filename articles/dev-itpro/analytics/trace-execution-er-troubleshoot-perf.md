@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
-ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
+ms.openlocfilehash: 7ec16bea1e4f7685f95178f848ba7348a06c31f3
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "1703870"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741498"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
 
@@ -104,7 +104,7 @@ Stel dat u klaar bent met het ontwerpen van de eerste versie van de ER-oplossing
 ### <a id='import-configuration'></a>Een ER-configuratie uit RCS importeren in Finance and Operations
 
 1. Meld u aan bij uw Finance en Operations-exemplaar.
-2. Voor deze zelfstudie importeert u configuraties vanuit uw RCS-exemplaar (waarin u de ER-onderdelen ontwerpt) in uw exemplaar van Finance and Operations (waar u ze test en uiteindelijk gebruikt). Daarom moet u ervoor zorgen dat alle vereiste artefacten zijn voorbereid. Zie voor meer instructies de procedure [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
+2. Voor deze zelfstudie importeert u configuraties vanuit uw RCS-exemplaar (waarin u de ER-onderdelen ontwerpt) in uw exemplaar van Finance and Operations (waar u ze test en uiteindelijk gebruikt). Daarom moet u ervoor zorgen dat alle vereiste artefacten zijn voorbereid. Zie voor meer instructies de procedure [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
 3. Voer de volgende stappen uit om de configuraties uit RCS in Finance and Operations te importeren:
 
     1. Selecteer in het werkgebied **Elektronische rapportage** op de tegel voor de configuratieprovider **Litware, Inc.** de optie **Opslagplaatsen**.

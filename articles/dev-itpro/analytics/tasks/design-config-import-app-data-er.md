@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 23004930d2377a3d647435b53b6809cd500f44ac
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551478"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741350"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>ER-configuraties ontwerpen voor het parseren van inkomende documenten
 
@@ -30,7 +30,7 @@ Deze procedure toont aan hoe u ER-configuraties (Elektronische rapportage) ontwe
 
 Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembeheerder of Elektronische aangifteontwikkelaar. 
 
-Deze stappen kunnen worden voltooid met elke dataset. Voordat u begint, downloadt u de bestanden die worden vermeld in het onderwerp 'Inkomende documenten parseren om toepassingsgegevens bij te werken' (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)) en slaat u deze op. De bestanden zijn: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Deze stappen kunnen worden voltooid met elke dataset. Voordat u begint, downloadt u de bestanden die worden vermeld in het onderwerp 'Inkomende documenten parseren om toepassingsgegevens bij te werken' (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)) en slaat u deze op. De bestanden zijn: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als Actief. Als u deze configuratieprovider niet ziet, voert u eerst de stappen uit in de procedure 'Een configuratieprovider maken en deze als actief markeren'.  

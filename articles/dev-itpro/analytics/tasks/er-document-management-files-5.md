@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23e91b6aee62157da9141cc7b6c4fae39c19ce32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ba9cc4dcdfcfbc1bdb933336e85da9b4b6d97a40
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544674"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791851"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format"></a>ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 5: Indeling aanpassen en uitvoeren)
 
@@ -29,7 +29,7 @@ ms.locfileid: "1544674"
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de Documentbeheerbestanden (bijlagen) in ER-uitvoer. Deze stappen kunnen in het DEMF-bedrijf worden uitgevoerd.
 
-Om deze stappen uit te voeren, moet u eerst de stappen in de procedure "ER Documentbeheerbestanden gebruiken in indelingsuitvoer (deel 4: indeling uitvoeren)".
+Om deze stappen uit te voeren, moet u eerst de stappen uitvoeren in de procedure 'ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 4: Indeling uitvoeren)'.
 
 Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
@@ -41,7 +41,7 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 4. Selecteer in de structuur 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.
 5. Klik op Ontwerper.
     * U voert het facturenbericht in de producerende uitvoer in als een XML-bestand met UNICODE-codering.  
-6. Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.
+6. Klik op Basis toevoegen om het uitklapvenster te openen.
 7. Selecteer "Common\File" in de structuur.
 8. Typ "XML-bericht" in het veld Naam.
     * Xml=bericht  
@@ -49,20 +49,20 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
     * UTF-8  
 10. Klik op OK.
     * Configureer de producerende uitvoer als gecomprimeerd bestand.  
-11. Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.
+11. Klik op Basis toevoegen om het uitklapvenster te openen.
 12. Selecteer in de structuur "Common\Folder".
 13. Typ in het veld Naam 'Zip output'.
     * Zip-uitvoer  
 14. Klik op OK.
 15. Selecteer in de structuur 'Zip output'.
     * Voeg bijlagen toe aan het producerende gecomprimeerde bestand als bestanden met oorspronkelijke namen en extensies.  
-16. Klik op Toevoegen om het dialoogvenster te openen.
+16. Klik op Toevoegen om het uitklapvenster te openen.
 17. Selecteer "Common\File" in de structuur.
 18. Typ in het veld Naam 'Attached file'.
     * Gekoppeld bestand  
 19. Klik op OK.
 20. Selecteer in de structuur 'Zip output\Attached file'.
-21. Klik op Toevoegen om het dialoogvenster te openen.
+21. Klik op Toevoegen om het uitklapvenster te openen.
 22. Selecteer Tekst\Base64 in de structuur.
 23. Klik op OK.
 

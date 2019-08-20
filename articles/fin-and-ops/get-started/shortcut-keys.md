@@ -3,7 +3,7 @@ title: Sneltoetsen
 description: U kunt de volgende sneltoetsen gebruiken in heel Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561828"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780053"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
@@ -138,9 +138,13 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Een bereik aan rijen toevoegen aan de geselecteerde set<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote>         | Shift+Klik                     |
 | Naar de volgende/vorige pagina met gegevens gaan                                                                                   | Page Up/Page Down             |
 | Een nieuwe rij maken onder in het raster                                                                             | Pijl-omlaag (vanuit de laatste rij)  |
-| Alle rijen selecteren of wissen                                                                                               | Ctrl+Shift+M                    |
 | Naar de eerste registratie gaan                                                                                               | Ctrl+Home                       |
 | Naar de laatste registratie gaan                                                                                                | Ctrl+End                        |
+| Alle rijen selecteren of wissen                                                                                               | Ctrl+Shift+M                    |
+| Naar de eerste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, F                    |
+| Naar de volgende gemarkeerde rij gaan                                                                                            | Alt+Shift+M, L                    |
+| Naar de vorige gemarkeerde rij gaan                                                                                        | Alt+Shift+M, P                    |
+| Naar de laatste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, N                    |
 | De standaardactie uitvoeren in een raster<blockquote>[!NOTE] Deze sneltoets is ingeschakeld wanneer de focus zich op een cel met een hyperlink bevindt en alle cellen in die kolom hyperlinks bevatten.</blockquote> | Enter                           |
 | Schakelen tussen de geselecteerde rij en de koptekstrij                                                               | Alt+Shift+H                     |
 | De huidige kolom groter/kleiner maken (met de focus in de koptekstrij)                                                  | Pijl-rechts/-links        |

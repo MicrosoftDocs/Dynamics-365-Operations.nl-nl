@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 37e860a969d527a334af7524c70e5ea15be7801e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551809"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742373"
 ---
 # <a name="credit-limits-for-customers"></a>Kredietlimieten voor klanten
 
@@ -93,7 +93,7 @@ Gebruik het formulier **Parameters van module Klanten** om de vergelijkingsinfor
 
 **Waar vindt u informatie over het resterende krediet van een klant?**
 
-Informatie over het saldo en het resterende kredietbedrag van de klant wordt berekend en opgeslagen wanneer u een ouderdomsmomentopname maakt, en wordt weergegeven in het formulier **Aanmaningen**. De bedragen in het formulier **Aanmaningen** bevatten mogelijk niet alle transactieactiviteiten totdat een nieuwe ouderdomsmomentopname wordt gemaakt. Zie [Aanmaningen en crediteringen in Klanten](https://technet.microsoft.com/en-us/library/hh209221.aspx) voor meer informatie.
+Informatie over het saldo en het resterende kredietbedrag van de klant wordt berekend en opgeslagen wanneer u een ouderdomsmomentopname maakt, en wordt weergegeven in het formulier **Aanmaningen**. De bedragen in het formulier **Aanmaningen** bevatten mogelijk niet alle transactieactiviteiten totdat een nieuwe ouderdomsmomentopname wordt gemaakt. Zie [Aanmaningen en crediteringen in Klanten](https://technet.microsoft.com/library/hh209221.aspx) voor meer informatie.
 
 Informatie over het saldo en het resterende kredietbedrag van de klant wordt afhankelijk van de geselecteerde documenten berekend wanneer verkooporders, pakbonnen en klantfacturen worden bijgewerkt. Als het bedrag van het document waarin u werkt de kredietlimiet overschrijdt, wordt een bericht weergegeven.
 

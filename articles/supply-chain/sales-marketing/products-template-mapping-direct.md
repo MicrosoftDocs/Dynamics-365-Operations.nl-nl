@@ -19,19 +19,19 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ff284585a2eb4c5cf55d2e3a3e0f317d1fb218bb
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: b4a6fab3a4831bc3d18313b351e453c615788843
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624330"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742419"
 ---
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+> Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebruikt om producten rechtstreeks te synchroniseren van Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Sales.
 

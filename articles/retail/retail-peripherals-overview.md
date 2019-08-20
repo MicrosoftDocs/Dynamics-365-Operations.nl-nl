@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624807"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742628"
 ---
 # <a name="retail-peripherals"></a>Randapparatuur detailhandel
 
@@ -192,7 +192,7 @@ U kunt op twee plaatsen IP-adressen voor netwerkrandapparaten opgeven. Als de Mo
 
 #### <a name="modern-pos-for-android"></a>Modern POS voor Android
 
-Sinds Dynamics 365 for Retail 8.1.3 bevat de toepassing Modern POS voor Android een ingebouwd IPC-hardwarestation. Dit hardwarestation ondersteunt de communicatie met netwerkprinters en betalingsconnectors. Lees voor meer informatie het artikel [Hybrid app for Android docs](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+Sinds Dynamics 365 for Retail 8.1.3 bevat de toepassing Modern POS voor Android een ingebouwd IPC-hardwarestation. Dit hardwarestation ondersteunt de communicatie met netwerkprinters en betalingsconnectors. Lees voor meer informatie het artikel [Hybrid app for Android docs](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS en Modern POS voor iOS
 
@@ -541,7 +541,7 @@ Deze configuratie is de meestgebruikte configuratie voor traditionele, vaste POS
 
 4. Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 5. Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
-6. Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
+6. Selecteer de distributieplanning **1070** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 7. Modern POS voor Windows installeren en activeren
 8. Start Modern POS voor Windows en ga de aangesloten randapparaten gebruiken.
 

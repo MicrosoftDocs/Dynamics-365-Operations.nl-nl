@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3d570aceee6b449c39b30defaebc4983b54f283e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554387"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741130"
 ---
 # <a name="my-team-mobile-workspace"></a>Mobiel werkgebied Mijn team
 
@@ -57,7 +57,7 @@ Voordat u dit mobiele werkgebied kunt gebruiken, moet aan de volgende voorwaarde
 </ul>
 </td>
 <td>Systeembeheerder</td>
-<td>Als u Finance and Operations nog niet in uw organisatie hebt geïmplementeerd, raadpleegt u <a href="../deployment/deploy-demo-environment.md">Een demo-omgeving implementeren</a>. Als u Talent nog niet hebt geïmplementeerd in uw organisatie, kan de systeembeheerder toegang krijgen tot een evaluatieversie van de <a href="https://www.microsoft.com/en-us/dynamics365/talent">webpagina Talent</a>.
+<td>Als u Finance and Operations nog niet in uw organisatie hebt geïmplementeerd, raadpleegt u <a href="../deployment/deploy-demo-environment.md">Een demo-omgeving implementeren</a>. Als u Talent nog niet hebt geïmplementeerd in uw organisatie, kan de systeembeheerder toegang krijgen tot een evaluatieversie vanaf de <a href="https://www.microsoft.com/dynamics365/talent">webpagina Talent</a>.
 </td>
 </tr>
 <tr class="even">

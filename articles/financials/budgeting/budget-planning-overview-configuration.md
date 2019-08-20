@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 560a5346e33e1b98a7513b6d7c033fe35458f63a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570967"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834145"
 ---
 # <a name="budget-planning-overview"></a>Overzicht budgetplanning
 
@@ -155,6 +155,8 @@ Voor het voorbeeldschema kunt u kolommen maken voor Verkoop vorig jaar, Contract
 
 U kunt ook aangeven of elk indelingselement (kolom) bewerkbaar is en of het beschikbaar is in een werkbladsjabloon die voor die indeling is gemaakt. Voor het voorbeeldschema zijn in de indeling die voor de ramingsfase wordt gebruikt, de prognosekolommen bewerkbaar, terwijl de kolommen Verkoop vorig jaar en Contracten alleen-lezen zijn.
 
+[!Note] Standaard bent u beperkt tot 36 kolommen, tenzij u budgetplanning uitbreidt met de stappen in [De indeling van de budgetplanning uitbreiden](./extending-budget-planning-layout.md).
+
 ### <a name="templates"></a>Sjablonen
 
 In de sectie **Indelingen** van de pagina **Budgetplanningsconfiguratie** kunt u ook Excel-sjablonen genereren, weergeven of uploaden. Deze sjablonen zijn de werkmappen die aan elk budgetplan worden gekoppeld om aanvullende analyse, grafieken en gegevensinvoermogelijkheden te verschaffen. 
@@ -166,7 +168,7 @@ U kunt een sjabloon voor elke indeling genereren, weergeven of uploaden. Wanneer
 
 ### <a name="descriptions"></a>Beschrijvingen
 
-De omschrijvingen die u in de sectie **Indelingen** kunt toewijzen, worden gebruikt om de naam van een financiële dimensie weer te geven die in een indeling is opgenomen. Een organisatie kan bijvoorbeeld de naam van de hoofdrekening weergeven naast het hoofdrekeningnummer in een budgetplan, maar wil de namen van andere financiële dimensies weglaten om te voorkomen dat de weergave te vol is.
+De beschrijvingen die u in de sectie **Indelingen** kunt toewijzen, worden gebruikt om de naam van een financiële dimensie weer te geven die in een indeling is opgenomen. Een organisatie kan bijvoorbeeld de naam van de hoofdrekening weergeven naast het hoofdrekeningnummer in een budgetplan, maar wil de namen van andere financiële dimensies weglaten om te voorkomen dat de weergave te vol is.
 
 ## <a name="setting-up-budget-planning-processes"></a>Budgetplanningsprocessen instellen
 

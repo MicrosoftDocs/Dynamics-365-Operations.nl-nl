@@ -1,9 +1,9 @@
 ---
-title: Een kalender maken en werktijden genereren
-description: Kalenders beschrijven de capaciteit en werktijd van bronnen voor bedrijfsactiviteiten.
+title: Kalenders maken en werktijden genereren
+description: Kalenders beschrijven de capaciteit en werktijd van bronnen voor bedrijfsactiviteiten. In dit onderwerp wordt uitgelegd hoe u een werkkalender kunt definiëren op basis van een werktijdsjabloon.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,36 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba4bd51d2102b3036307f34ab46f94f83df4f461
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 50b81ae228d9aee4111ce8d161508d5ed1af4f27
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1510123"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1738991"
 ---
 # <a name="create-calendar-and-generate-working-times"></a>Een kalender maken en werktijden genereren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Kalenders beschrijven de capaciteit en werktijd van bronnen voor bedrijfsactiviteiten. Deze procedure zal u helpen een werkkalender te definiëren op basis van een werktijdsjabloon. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.
+Kalenders beschrijven de capaciteit en werktijd van bronnen voor bedrijfsactiviteiten. In dit onderwerp wordt uitgelegd hoe u een werkkalender kunt definiëren op basis van een werktijdsjabloon. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.
 
-1. Ga naar Alle werkruimten > Levenscyclusbeheer bron.
-2. Klik op Kalenders.
-3. Klik op Nieuw.
-4. Typ een waarde in het veld Agenda.
-    * Dit is de id van de kalender die wordt gebruikt als verwijzing bij het toewijzen van kalenders, zoals aan een bron voor bedrijfsactiviteiten of een resourcegroep.  
-5. Typ een waarde in het veld Naam.
-6. Typ een nummer in het veld Standaardwerkdag in uren.
-7. Markeer in de lijst de geselecteerde rij.
-8. Klik op Werktijden.
-9. Klik op Werktijden samenstellen.
-    * Genereer werkuren voor elke dag in de periode waarin u werk wilt kunnen plannen. In de loop van de tijd kunt u werktijden genereren voor extra perioden.  
-10. Voer een datum in het veld Begindatum in.
-    * Dit is de eerste dag dat deze kalender open moet zijn.  
-11. Voer een datum in het veld Einddatum in.
-    * Dit is de laatste dag dat deze kalender open is.  
-12. Typ of selecteer een waarde in het veld Werktijdsjabloon.
-    * De werktijdsjabloon definieert de werkuren voor elke dag van de week.  
-13. Klik op OK.
-14. Sluit de pagina.
+1. Selecteer op de startpagina **Levenscyclusbeheer van resource**.
+2. Selecteer **Kalenders**.
+3. Selecteer **Nieuw**.
+4. Classificeer uw kalender in het veld **Kalender**. Dit is de id van de kalender die wordt gebruikt als verwijzing bij het toewijzen van kalenders, zoals aan een bron voor bedrijfsactiviteiten of een resourcegroep.  
+5. Voer vervolgens in het veld **Naam** een naam voor uw kalender in.
+6. Typ een nummer in het veld **Standaardwerkdag in uren**.
+7. Zorg ervoor dat de rij is geselecteerd en selecteer vervolgens **Werktijden** in het actievenster.
+8. Selecteer **Werktijden samenstellen**. Genereer werkuren voor elke dag in de periode waarin u werk wilt kunnen plannen. In de loop van de tijd kunt u werktijden genereren voor extra perioden.  
+9. Voer een datum in het veld **Begindatum** in. Dit is de eerste dag dat deze kalender open moet zijn.  
+10. Voer een datum in het veld **Einddatum** in. Dit is de laatste dag dat deze kalender open is.  
+11. Typ of selecteer een waarde in het veld **Werktijdsjabloon**. De werktijdsjabloon definieert de werkuren voor elke dag van de week.  
+12. Selecteer **OK**.
+13. Sluit de pagina.
 
