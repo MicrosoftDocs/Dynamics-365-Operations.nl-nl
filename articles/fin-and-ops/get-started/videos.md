@@ -3,13 +3,13 @@ title: Video's voor Finance and Operations
 description: Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Dynamics 365 for Finance and Operations weergegeven die beschikbaar zijn op YouTube en andere sites.
 author: josaw1
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 5ede5bfa3b7a61461adb1514b7e96c4eba5a75c7
-ms.sourcegitcommit: fdc37a3c2ca2bac5741e7017fb225344e64f041a
+ms.openlocfilehash: d2bf2c45f6298205dbed67f6921234757a2b736a
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625392"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852076"
 ---
 # <a name="videos-for-finance-and-operations"></a>Video's voor Finance and Operations
 
@@ -71,6 +71,8 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 
 #### <a name="intelligence"></a>Intelligence
 
+- [Een ingesloten rapport in een analytische werkruimte aanpassen](https://youtu.be/_8WlwmSggcQ)
+- [PowerBI.com-rapporten insluiten in Dynamics 365 for Finance and Operations](https://youtu.be/gGWuNJDoi-M)
 - [Uw eigen database gebruiken (BYOD) voor Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Power BI-inhoud Kostenbeheer in Dynamics 365 gebruiken](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 

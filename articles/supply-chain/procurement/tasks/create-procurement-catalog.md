@@ -1,79 +1,68 @@
 ---
 title: Een inkoopcatalogus maken
-description: Deze handleiding laat zien hoe u een aanschaffingscatalogus maakt.
+description: In dit onderwerp wordt uitgelegd hoe u een aanschaffingscatalogus maakt.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcCategoryHierarchyManagement, CatProcureCatalogListPage, CatProcureCatalogCreate, CatProcureCatalogEdit, SysPolicyListPage, SysPolicy, CatCatalogPolicyRule, PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqAddItem
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f2a010e21f16b3908a6ee5f18d8f144c5130be7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55bc7479ca9ba3ca86e23b5bee106ef169c40077
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547647"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836374"
 ---
 # <a name="create-a-procurement-catalog"></a>Een inkoopcatalogus maken
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze handleiding laat zien hoe u een aanschaffingscatalogus maakt. Deze taak wordt gewoonlijk uitgevoerd door een inkoopmedewerker. U komt ook te weten hoe werknemers de catalogus kunnen gebruiken wanneer zij een bestelopdracht maken. Voordat u een catalogus kunt maken, moet er een hiërarchie van aanschaffingscategorieën in uw systeem worden ingesteld. De hiërarchie wordt overgenomen door de nieuwe catalogus, samen met alle producten in de hiërarchie. U kunt deze handleiding in het demobedrijf USMF gebruiken waar de hiërarchie van aanschaffingscategorieën beschikbaar is, evenals de voorbeelden die zijn gebruikt in de procedurestappen.
+In dit onderwerp wordt uitgelegd hoe u een aanschaffingscatalogus maakt. Deze taak wordt gewoonlijk uitgevoerd door een inkoopmedewerker. U komt ook te weten hoe werknemers de catalogus kunnen gebruiken wanneer zij een bestelopdracht maken. Voordat u een catalogus kunt maken, moet er een hiërarchie van aanschaffingscategorieën in uw systeem worden ingesteld. De hiërarchie wordt overgenomen door de nieuwe catalogus, samen met alle producten in de hiërarchie. U kunt deze handleiding in het demobedrijf USMF gebruiken waar de hiërarchie van aanschaffingscategorieën beschikbaar is, evenals de voorbeelden die zijn gebruikt in de procedurestappen.
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Controleren of er een hiërarchie van aanschaffingscategorieën bestaat
-1. Ga naar Inkoop en sourcing > Inkoopcategorieën.
-    * In het USMF-demobedrijf is een hiërarchie van aanschaffingscategorieën beschikbaar en er zijn producten toegevoegd aan de categorie Kantoormachines/Computers. Als u deze procedure uitvoert als taakbegeleiding, moet u de taakbegeleiding ontgrendelen als u door de categorie wilt bladeren. Als er geen hiërarchie beschikbaar was, zou u deze maken door op Nieuw te klikken. Dit kan slechts één keer worden gedaan.  
+1. Ga naar het **Navigatievenster > Modules > Inkoopbeheer > Aanschaffingscategorieën**. In het USMF-demobedrijf is een hiërarchie van aanschaffingscategorieën beschikbaar en er zijn producten toegevoegd aan de categorie **Kantoormachines/Computers**. Als u deze procedure uitvoert als taakbegeleiding, moet u de taakbegeleiding ontgrendelen als u door de categorie wilt bladeren. Als er geen hiërarchie beschikbaar was, zou u deze maken door op **Nieuw** te klikken. Dit kan slechts één keer worden gedaan.  
 2. Sluit de pagina.
 
 ## <a name="create-a-catalog"></a>Een catalogus maken
-1. Ga naar Inkoopbeheer > Catalogi > Inkoopcatalogi.
-2. Klik op Nieuwe aanschaffingscatalogus om het dialoogvenster voor beëindigen te openen.
-3. Typ een waarde in het veld Naam.
-4. Klik op OK.
-5. Vouw in de structuur 'CORP-AANSCHAFFINGSCATEGORIEËN' uit.
-6. Vouw 'KANTOORMACHINES' uit in de structuur.
-7. Selecteer 'Computers' in de structuur.
-    * De producten uit de aanschaffingscategorie worden weergegeven in de lijst. Als u een product aan de categorie wilt toevoegen, moet u dit doen op de pagina Hiërarchie van inkoopcategorieën of op de pagina Artikelgegevens.  
-    * Het standaard bijwerktype bepaalt of nieuwe producten die aan de hiërarchie van aanschaffingscategorieën zijn toegevoegd direct zichtbaar zijn in de catalogus. Als het bijwerktype is ingesteld op Dynamisch, zijn wijzigingen direct zichtbaar. Als het bijwerktype Statisch is, zijn nieuwe producten alleen zichtbaar voor mensen die de catalogus gebruiken nadat de catalogus opnieuw is uitgegeven. De actie Publiceren is beschikbaar in het actievenster boven aan de pagina. Als producten worden verwijderd uit de hiërarchie van aanschaffingscategorieën, is de wijziging direct zichtbaar, ongeacht de waarde in het Veld het Standaard bijwerktype.  
-8. Zoek en selecteer de gewenste record in de lijst.
-9. Klik op Verbergen.
-10. Klik in het actievenster op Categorienavigatie.
-11. Klik op Uitschakelen.
-12. Klik in het actievenster op Categorienavigatie.
-13. Klik op Inschakelen.
-14. Klik op Catalogus activeren.
-15. Sluit de pagina.
+1. Ga naar het **Navigatievenster > Modules > Inkoopbeheer > Catalogi > Aanschaffingscategorieën**.
+2. Selecteer **Nieuwe aanschaffingscatalogus** om het uitklapvenster te openen.
+3. Typ een waarde in het veld **Naam**.
+4. Selecteer **OK**.
+5. Vouw in de structuur **CORP-AANSCHAFFINGSCATEGORIEËN** uit.
+6. Vouw in de structuur **KANTOORMACHINES** uit.
+7. Selecteer in de structuur **Computers**.
+
+  - De producten uit de aanschaffingscategorie worden weergegeven in de lijst. Als u een product aan de categorie wilt toevoegen, moet u dit doen op de pagina **Hiërarchie van aanschaffingscategorieën** of op de pagina **Artikelgegevens**.  
+  - Het bijwerktype **Standaard** bepaalt of nieuwe producten die aan de hiërarchie van aanschaffingscategorieën zijn toegevoegd, direct zichtbaar zijn in de catalogus. Als het bijwerktype is ingesteld op **Dynamisch**, zijn wijzigingen direct zichtbaar. Als het bijwerktype **Statisch** is, zijn nieuwe producten alleen zichtbaar voor mensen die de catalogus gebruiken nadat de catalogus opnieuw is uitgegeven. De actie **Publiceren** is beschikbaar in het actievenster bovenaan de pagina. Als producten worden verwijderd uit de hiërarchie van aanschaffingscategorieën, is de wijziging direct zichtbaar, ongeacht de waarde in het bijwerktypeveld **Standaard**.  
+
+8. Selecteer in het actievenster de optie **Categorienavigatie** en controleer of **Inschakelen** is geselecteerd.
+9. Selecteer **Catalogus activeren**.
+10. Sluit de pagina.
 
 ## <a name="make-the-catalog-visible"></a>De catalogus zichtbaar maken
-1. Ga naar Inkoopbeheer > Instellingen > Beleid > Inkoopbeleid.
-2. Selecteer Aanschaffingsbeleid USMF.
-    * U moet het aanschafbeleid selecteren voor de rechtspersoon waarvoor de medewerker die met uw gebruikersprofiel is verbonden producten mag bestellen. In de USMF-demogegevens, is de gebruiker Beheerder gekoppeld aan de medewerker genaamd Julia Funderburk en zij bestelt standaard producten in USMF.  
-3. Klik in de lijst op de koppeling in de geselecteerde rij.
-4. Selecteer de catalogus die u zojuist hebt gemaakt.
-5. Klik op OK.
-6. Sluit de pagina.
-7. Sluit de pagina.
+1. Ga naar **Navigatievenster > Modules > Inkoopbeheer > Instellen > Beleid > Inkoopbeleid**.
+2. Selecteer **Aanschaffingsbeleid-USMF**. U moet het aanschafbeleid selecteren voor de rechtspersoon waarvoor de medewerker die met uw gebruikersprofiel is verbonden producten mag bestellen. In de USMF-demogegevens is de gebruiker met beheerdersrechten gekoppeld aan de medewerker **Julia Funderburk** en zij bestelt standaard producten in USMF.  
+3. Selecteer de catalogus die u zojuist hebt gemaakt.
+4. Selecteer **OK**.
 
 ## <a name="use-the-catalog"></a>De catalogus gebruiken
-1. Ga naar Inkoopbeheer > Opdrachten tot inkoop > Alle opdrachten tot inkoop.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Naam.
-4. Klik op OK.
-5. Klik op Producten toevoegen.
-6. Zoek en selecteer de gewenste record in de lijst.
-    * U kunt de categoriehiërarchie aan de linkerkant of het filter boven aan de lijst gebruiken om de producten te filteren.  
-7. Klik op Regels toevoegen.
-8. Zoek en selecteer de gewenste record in de lijst.
-9. Klik op Regels toevoegen.
-10. Klik op OK.
+1. Ga naar **Navigatievenster > Modules > Inkoopbeheer > Opdrachten tot inkoop > Alle opdrachten tot inkoop**.
+2. Selecteer **Nieuw**.
+3. Typ een waarde in het veld **Naam**.
+4. Selecteer **OK**.
+5. Selecteer **Producten toevoegen**.
+6. Zoek en selecteer de gewenste record in de lijst. U kunt de categoriehiërarchie aan de linkerkant of het filter boven aan de lijst gebruiken om de producten te filteren.  
+7. Selecteer **Toevoegen aan regels**.
+8. Selecteer **OK**.
 

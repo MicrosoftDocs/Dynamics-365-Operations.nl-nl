@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd138fb5fea4098a862fbecba5e8ec226ed6afa9
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551503"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850298"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER-configuraties ontwerpen om rapporten in Word-indeling te genereren
 
@@ -64,7 +64,7 @@ Deze procedure is voor een functie die is toegevoegd in Microsoft Dynamics 365 f
     * De actie Opslaan legt niet alleen de configuratiewijzigingen vast, maar werkt ook tegelijk de gekoppelde Word-sjabloon bij. De structuur van de ontworpen indeling wordt overgezet naar het gekoppelde Word-document als een nieuw aangepast XML-onderdeel met de naam 'Report'. Let erop dat de gekoppelde Word-sjabloon niet alleen de indeling van het document bevat dat we wilt genereren als ER-uitvoer, maar ook de structuur van gegevens die ER in deze sjabloon tijdens runtime invult.  
 2. Klik op Bijlagen.
     * Nu moet u de elementen van het aangepaste XML-onderdeel 'Report' binden aan de delen van het Word-document.  
-    * Als u ervaring hebt met Word-documenten die zijn ontwikkeld als formulieren met inhoudsbesturingselementen die gebonden zijn aan met elementen van aangepaste XML-onderdelen: speel alle stappen van de volgende subtaak af om een dergelijk document te maken. Zie deze koppeling https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US voor nadere details. Zo niet, dan kunt u alle stappen in de volgende subtaak overslaan.  
+    * Als u ervaring hebt met Word-documenten die zijn ontwikkeld als formulieren met inhoudsbesturingselementen die gebonden zijn aan met elementen van aangepaste XML-onderdelen: speel alle stappen van de volgende subtaak af om een dergelijk document te maken. Zie deze koppeling https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US voor nadere details. Zo niet, dan kunt u alle stappen in de volgende subtaak overslaan.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Word met aangepast XML-onderdeel gegevensbindingen laten uitvoeren
     * Open dit document in Word en doe het volgende: - Ga naar het tabblad Word-ontwikkelaar (pas het lint aan als dit tabblad nog niet is ingeschakeld).  - Selecteer het deelvenster XML-toewijzing.  - Selecteer het aangepaste XML-onderdeel 'Rapport' in de zoekopdracht.  - Voer de toewijzing uit van de elementen van het geselecteerde, aangepaste XML-onderdeel aan de inhoudsbesturingselementen van het Word-document.  - Sla het bijgewerkte Word-document op een lokaal station op.  

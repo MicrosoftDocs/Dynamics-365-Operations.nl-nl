@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85cb5c5618346f1e5132f818911be21df86fbfcb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554985"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741105"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Entiteitsgegevens in Excel openen en bijwerken via de Excel-invoegtoepassing
 
@@ -60,7 +60,7 @@ De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u h
 
 6. Selecteer **OK** en vervolgens **Ja** om de wijziging te bevestigen. De Excel-invoegtoepassing wordt opnieuw gestart en metagegevens worden geladen.
 
-    De knop **Ontwerpen** is nu beschikbaar. Als de Excel-invoegtoepassing een knop **Applets laden** bevat, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Zie voor meer informatie 'De knop Applets laden wordt getoond' in de sectie [Problemen oplossen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) in dit onderwerp.
+    De knop **Ontwerpen** is nu beschikbaar. Als de Excel-invoegtoepassing een knop **Applets laden** bevat, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Zie voor meer informatie 'De knop Applets laden wordt getoond' in de sectie [Problemen oplossen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) in dit onderwerp.
 
 7. Selecteer **Ontwerp**. De Excel-invoegtoepassing haalt entiteit metagegevens op.
 8. Selecteer **Tabel toevoegen**. Een lijst met entiteiten wordt geopend. De entiteiten worden weergegeven in de indeling 'Naam - label'.

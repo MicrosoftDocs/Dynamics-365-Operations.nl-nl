@@ -3,7 +3,7 @@ title: Overzicht van functiebeheer
 description: Dit onderwerp bevat een beschrijving van de functie Functiebeheer en de manier waarop u deze kunt gebruiken.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632048"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862933"
 ---
 # <a name="feature-management-overview"></a>Overzicht van functiebeheer
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Functies worden toegevoegd en bijgewerkt in elke release van Microsoft Dynamics 365 for Finance and Operations. De functie Functiebeheer biedt een werkgebied waarin u een lijst met functies kunt weergeven die in elke release zijn geleverd. Nieuwe functies zijn standaard uitgeschakeld. U kunt het werkgebied gebruiken om deze in te schakelen en de bijbehorende documenten weer te geven.
 
@@ -38,7 +39,7 @@ U kunt het werkgebied **Functiebeheer** openen door de gewenste tegel te selecte
 De lijst met functies bevat de volgende informatie:
 
 - **Functienaam**: een beschrijving van de functie die is toegevoegd.
-- **Inschakelstatus**: een symbool geeft aan of een functie is ingeschakeld (vinkje), niet is ingeschakeld (leeg), staat gepland voor inschakeling (klok) of verplicht is ingeschakeld (slot). De instelling die hier wordt weergegeven, wordt gebruikt voor alle rechtspersonen. Houd er rekening mee dat zelfs wanneer een functie is ingeschakeld, deze nog steeds aan de beveiliging moet voldoen. Daarom is de functie alleen beschikbaar voor gebruikers die toegang hebben tot de functie op basis van hun beveiligingsrol. Deze is ook alleen beschikbaar voor rechtspersonen waartoe de gebruiker toegang heeft.
+- **Inschakelstatus**: een symbool geeft aan of een functie is ingeschakeld (vinkje), niet is ingeschakeld (leeg), ingepland is voor inschakeling (klok), verplicht is ingeschakeld (slot), aandacht vereist vóór inschakelen (waarschuwing) of niet kan worden ingeschakeld (X). De instelling die wordt weergegeven, wordt gebruikt voor alle rechtspersonen. Houd er rekening mee dat zelfs wanneer een functie is ingeschakeld, deze nog steeds aan de beveiliging moet voldoen. Daarom is de functie alleen beschikbaar voor gebruikers die toegang hebben tot de functie op basis van hun beveiligingsrol. Deze is ook alleen beschikbaar voor rechtspersonen waartoe de gebruiker toegang heeft.
 - **Inschakeldatum**: de datum waarop de functie is ingeschakeld of gepland staat om te worden ingeschakeld.
 - **Toegevoegde functie**: de datum waarop de functie aan uw omgeving is toegevoegd. Deze datum wordt automatisch ingevoerd wanneer u uw omgeving bijwerkt tijdens de maandelijkse releasecycli.
 - **Module**: de module waarop de nieuwe functie van invloed is.
@@ -59,6 +60,10 @@ Als een functie niet is ingeschakeld, wordt een knop **Nu inschakelen** weergege
 - Selecteer de functie die u wilt inschakelen en selecteer vervolgens **Nu inschakelen** in het detailvenster. De functie wordt ingeschakeld.
 
 Sommige functies kunnen niet meer worden uitgeschakeld nadat deze zijn ingeschakeld. Als de functie die u wilt inschakelen niet kan worden uitgeschakeld, wordt een waarschuwing weergegeven. Op dat moment kunt u **Annuleren** selecteren om de bewerking te annuleren en de functie uitgeschakeld te laten. Als u echter de optie **Inschakelen** selecteert en de functie inschakelt, kunt u deze later niet meer uitschakelen.
+
+In sommige functies wordt een bericht weergegeven met aanvullende informatie voordat u deze inschakelt. Deze functies worden aangeduid met een geel waarschuwingssymbool. U moet de aanvullende informatie zorgvuldig lezen om beter te begrijpen wat er gebeurt wanneer de functie is ingeschakeld. U kunt echter nog steeds selecteren **Inschakelen** selecteren om de functie aan te zetten.
+
+In sommige functies wordt een bericht weergegeven dat de functie pas kan worden ingeschakeld nadat een actie is ondernomen. Deze functies worden aangeduid met een rood X-symbool. U moet de in de beschrijving beschreven acties uitvoeren voordat de functie wordt ingeschakeld. Als u een functie bijvoorbeeld pas kunt gebruiken als een configuratiesleutel is uitgeschakeld, moet u eerst de configuratiesleutel uitschakelen en vervolgens terugkeren naar functiebeheer om de functie in te schakelen.
 
 Nadat een functie is ingeschakeld, wordt een bericht weergegeven onder de koppeling **Meer informatie** in het detailvenster. Dit bericht geeft aan dat de functie is ingeschakeld of geeft aan wanneer de functie in de toekomst wordt ingeschakeld. Dit wordt altijd weergegeven wanneer u de functie selecteert in de lijst met functies.
 
@@ -84,12 +89,28 @@ Nadat een functie is uitgeschakeld, wordt een bericht weergegeven onder de koppe
 
 Soms wordt een kritieke functie geleverd die automatisch moet worden ingeschakeld wanneer u een update uitvoert. Deze functies worden automatisch ingeschakeld op de datum die is opgegeven in het veld **Inschakeldatum**. Voor deze functies wordt een bericht weergegeven onder de koppeling **Meer informatie** in het detailvenster. Dit bericht geeft aan dat de functie is ingeschakeld of geeft aan wanneer de functie in de toekomst wordt ingeschakeld. Dit wordt altijd weergegeven wanneer u de functie selecteert in de lijst met functies.
 
+## <a name="enable-all-features"></a>Alle functies inschakelen
+
+Standaard zijn alle functies die aan uw omgeving worden toegevoegd, uitgeschakeld. U kunt alle functies inschakelen door de knop **Alles inschakelen** te selecteren. 
+
+Wanneer u **Alles inschakelen** selecteert, wordt een optie weergegeven waar u de volgende informatie moet opgeven:
+- Een lijst met alle functies die moeten worden bevestigd voordat ze kunnen worden ingeschakeld. Als u de functies in de lijst wilt inschakelen, selecteert u **Ja** voor de knop **Functies inschakelen waarvoor bevestiging vereist is**.
+- Er wordt een lijst weergegeven met alle functies die niet kunnen worden ingeschakeld. Deze functies worden niet ingeschakeld.
+
+Alle functies die kunnen worden ingeschakeld, worden ingeschakeld. Als een functie al is gepland om in de toekomst te worden ingeschakeld, wordt de planning niet gewijzigd. 
+
 ## <a name="turn-on-all-features-automatically"></a>Alle functies automatisch inschakelen
 
 Standaard zijn alle functies die aan uw omgeving worden toegevoegd, uitgeschakeld, tenzij het verplichte functies zijn. Als u alle nieuwe functies automatisch wilt inschakelen, kunt u de vervolgkeuzelijst onder de werkgebiedtitel gebruiken om te wijzigen wat er gebeurt wanneer er nieuwe functies worden toegevoegd.
 
 - Selecteer **Alle nieuwe functies worden standaard ingeschakeld** om automatisch alle nieuwe functies in te schakelen wanneer deze aan uw omgeving worden toegevoegd.
 - Selecteer **Alle nieuwe functies worden standaard uitgeschakeld** om automatisch alle nieuwe functies uit te schakelen wanneer deze aan uw omgeving worden toegevoegd.
+
+Wanneer u alle functie automatisch inschakelt, worden alle functies ingeschakeld die zouden worden ingeschakeld wanneer u op de knop **Alles inschakelen** klikt. Hiermee worden geen functies ingeschakeld waarvoor bevestiging vereist is of functies die pas na een bepaalde actie kunnen worden ingeschakeld.
+
+## <a name="check-for-updates"></a>Controleren op updates
+
+Na elke update worden functies aan uw omgeving toegevoegd. U kunt echter handmatig controleren op updates door op de knop **Controleren op updates** te klikken. Elke functie die na de update aan het systeem is toegevoegd, wordt aan de lijst met functies toegevoegd. Als een flighted-functie bijvoorbeeld na een release is ingeschakeld, kunt u controleren op updates en wordt de functie aan uw lijst toegevoegd.
 
 ## <a name="assigning-roles"></a>Rollen toewijzen
 

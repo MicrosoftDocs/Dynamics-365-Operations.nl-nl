@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551832"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863719"
 ---
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
 
@@ -402,7 +402,7 @@ De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financ
 2. Dubbelklik op een cel in de kolom **Koppeling naar financiële dimensies**.
 3. Dubbelklik in het dialoogvenster **Dimensies** op een cel onder de dimensienaam.
 4. Selecteer **Persoon of bereik** in het dialoogvenster voor de dimensie.
-5. Voer in het veld **Van** de begindimensie in of klik op ![Bladeren](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Bladeren") om naar beschikbare dimensies te zoeken. Om een bereik van dimensies in te voeren, voert u in het veld **Tot** de einddimensie in.
+5. Voer in het veld **Van** de begindimensie in of klik op ![Bladeren](media/browse.gif "Bladeren") om naar beschikbare dimensies te zoeken. Om een bereik van dimensies in te voeren, voert u in het veld **Tot** de einddimensie in.
 6. Klik op **OK** om het dialoogvenster voor de dimensie te sluiten. Het dialoogvenster **Dimensies** geeft de bijgewerkte dimensie of het bijgewerkte bereik weer.
 7. Klik op **OK** om het dialoogvenster **Dimensies** te sluiten.
 
@@ -479,7 +479,7 @@ In de volgende tabel worden de velden beschreven in het dialoogvenster **Dimensi
 
 | Artikel                | Beschrijving |
 |---------------------|-------------|
-| Persoon of bereik | Voer in het veld **Van** de naam van een rekening in of klik op de knop **Bladeren** ![Bladeren](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Bladeren") om naar de rekening te bladeren. Om bereik te selecteren, kunt u in het veld **Tot** een waarde typen of zoeken. |
+| Persoon of bereik | Voer in het veld **Van** de naam van een rekening in of klik op de knop **Bladeren** ![Bladeren](media/browse.gif "Bladeren") om naar de rekening te bladeren. Om bereik te selecteren, kunt u in het veld **Tot** een waarde typen of zoeken. |
 | Set van dimensiewaarden | Geef in het veld **Naam** de naam van een set van dimensiewaarden op. Om een set te maken, wijzigen, kopiëren of verwijderen, klikt u op **Sets van dimensiewaarden beheren**. Het veld **Formule** wordt ingevuld met de formule van de cel **Koppeling naar financiële dimensies** voor deze set van dimensiewaarden die in de rijdefinitie is ingesteld. |
 | Totaalrekeningen   | Typ of zoek in het veld **Naam** een dimensie van totaalrekeningen. Het veld **Formule** wordt ingevuld met de formule in de cel **Koppeling naar financiële dimensies** voor deze totaalrekening in de rijdefinitie. |
 

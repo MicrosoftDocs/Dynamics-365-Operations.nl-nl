@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d1cd378a58d4a4fe4388238f97e84a8e2b07937b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab9b9533ae650c05f57a45be25aec6cbe2e3db76
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551455"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849862"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Power BI-inoud Beveiliging instellen voor de kostprijsboekhoudingsanalyse
 
@@ -63,4 +63,4 @@ Als de beveiliging op toegangsniveau in Kostprijsboekhouding wordt bijgewerkt en
 Er wordt vanuit gegaan dat uw organisatie de toegang tot gegevens wil beperken. Als om de een of andere reden de beveiligingsparameters zijn uitgeschakeld wanneer u Kostprijsboekhouding uitvoert, moet de eigenaar in plaats daarvan gebruikers toevoegen aan de rol **Kostenaccountant** in Power BI. Als u de beveiliging van een ingeschakelde status wijzigt in een uitgeschakelde status, is het een goed idee om gebruikers te verwijderen uit de rol **Controller voor kostenobjecten**. Als u de beveiliging weer inschakelt, moet u dit natuurlijk andersom doen. Gebruikers kunnen lid zijn van beide rollen. Van gekoppelde toegang spreken we wanneer de beide rollen zijn verenigd. In het geval van de Power BI-inhoud **Analyse van kostprijsboekhouding** hebben gebruikers met gekoppelde toegang onbeperkte toegang tot gegevens. Als u beperkte toegang wilt toepassen, moet u aan gebruikers alleen de rol **Controller voor kostenobjecten** toewijzen. Deze updates van de beveiliging op rijniveau zijn onmiddellijk van kracht. De betreffende gebruikers moeten hun browser vernieuwen.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-Meer informatie over beveiliging op rijniveau in Power BI vindt u in [Beveiliging van uw model in Power BI beheren](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+Meer informatie over beveiliging op rijniveau in Power BI vindt u in [Beveiliging van uw model in Power BI beheren](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).

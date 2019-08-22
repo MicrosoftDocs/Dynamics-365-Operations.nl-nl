@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a183e17749c04b407eb17155ecb1363e96ade18a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27908e2852f3f28264f83e0118eb4be79c9e03bc
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546635"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742281"
 ---
 # <a name="accruing-subscriptions"></a>Toerekenen van abonnementen 
 
@@ -44,7 +44,7 @@ Bij het crediteren van gefactureerde abonnementsbedragen kunt u twee verschillen
 
   - u kunt de transitorische bedragen laten terugboeken op de boekingsdatum van de creditnota of op de oorspronkelijke boekingsdatum van de toerekening.
 
-Zie [Parameters voor abonnement (formulier)](https://technet.microsoft.com/en-us/library/aa619615.aspx) voor meer informatie.
+Zie [Parameters voor abonnement (formulier)](https://technet.microsoft.com/library/aa619615.aspx) voor meer informatie.
 
 ## <a name="setup-requirements"></a>Vereisten instellen
 

@@ -3,25 +3,25 @@ title: Een leveranciersfactuur in het factuurjournaal registreren
 description: Deze taakbegeleiding toont hoe leveranciersfacturen moeten worden geregistreerd die niet aan inkooporders zijn gekoppeld.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace, LedgerJournalTable, LedgerJournalTransVendInvoice
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 775f3764d34cecbfc071ff7420d32c7832b42308
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 97dd03a96389ab22e441acd0af1ad35852570be4
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556327"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837007"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Een leveranciersfactuur in het factuurjournaal registreren
 
@@ -29,22 +29,21 @@ ms.locfileid: "1556327"
 
 Deze taakbegeleiding toont hoe leveranciersfacturen moeten worden geregistreerd die niet aan inkooporders zijn gekoppeld. Voorbeelden van dit type factuur zijn onkosten voor levering of services.  Bij deze registratie wordt het demobedrijf USMF gebruikt.
 
-1. Ga naar Leveranciers > Werkruimten > Leveranciersfactuurregistratie.
-2. Klik op Nieuw factuurjournaal.
-3. Klik op Nieuw.
-4. Voer in het veld Naam de journaalnaam in of klik op de vervolgkeuzeknop om de zoekopdracht te openen.
-5. Typ een waarde in het veld Omschrijving.
-6. Klik op Regels.
-    * Voer in het datumveld de boekingsdatum in die Grootboek bijwerkt.  
-7. Geef in het veld Rekening de leveranciersrekening op.
-8. Voer in het veld Factuur het factuurnummer in.
-9. Typ een waarde in het veld Omschrijving.
-10. Voer een nummer in het veld Credit in.
-11. Voer in het veld Tegenrekening het rekeningnummer in of klik op de vervolgkeuzeknop om de zoekopdracht te openen
-    * De btw-groep is afkomstig van de leveranciersrekening.  
-    * De btw-groep van het artikel is afkomstig van de hoofdrekening die is opgegeven in het veld Tegenrekening.  
-    * De vervaldatum wordt berekend aan de hand van de betalingsvoorwaarden.  
-    * De contantkorting is afkomstig van de leveranciersrekening.  
-12. Klik op Boeken.
+1. Ga naar **Navigatievenster > Modules > Leveranciers > Werkgebieden > Leveranciersfactuurregistratie**.
+2. Klik in het **actievenster** op **Nieuw factuurjournaal**.
+3. Klik op **Nieuw**.
+4. Voer in het veld **Naam** de journaalnaam in of klik op de vervolgkeuzeknop om de zoekopdracht te openen.
+5. Typ een waarde in het veld **Beschrijving**.
+6. Klik in het **actievenster** op **Regels**. Voer in het veld **Datum** de boekingsdatum in waarmee Grootboek wordt bijgewerkt.  
+7. Geef in het veld **Rekening** de **Leveranciersrekening** op.
+8. Voer in het veld **Factuur** het factuurnummer in.
+9. Typ een waarde in het veld **Beschrijving**.
+10. Voer in het veld **Krediet** een numerieke waarde in.
+11. Voer in het veld **Tegenrekening** het rekeningnummer in of klik op de vervolgkeuzeknop om de zoekopdracht te openen
+    * De **btw-groep** wordt standaard uit de leveranciersrekening opgehaald.  
+    * De **Btw-groep van het artikel** wordt standaard opgehaald uit de hoofdrekening die is opgegeven in het veld **Tegenrekening**.  
+    * De **Vervaldatum** wordt berekend aan de hand van de betalingsvoorwaarden.  
+    * De **Contantkorting** is afkomstig van de leveranciersrekening.  
+12. Klik op **Boeken**.
 13. Sluit de pagina.
 

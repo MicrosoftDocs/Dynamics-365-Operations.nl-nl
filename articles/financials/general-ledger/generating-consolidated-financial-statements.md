@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557726"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863695"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 
@@ -49,11 +49,11 @@ Zoals het geconsolideerde rapport in de volgende afbeelding laat zien, kunt u wa
 
 Ook kunt u een rapporteringsstructuur met meerdere niveaus maken met zoveel niveaus als u nodig hebt. In de volgende afbeelding ziet u een rapporteringsstructuurdefinitie met meerdere niveaus, die getotaliseerde gegevens op basis van wereldwijd gebied bevat.
 
-![Rapporteringsstructuurdefinitie met totalisaties met meerdere niveaus per regio](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "Rapporteringsstructuurdefinitie met totalisaties met meerdere niveaus per regio")
+![Rapporteringsstructuurdefinitie met totalisaties met meerdere niveaus per regio](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Rapporteringsstructuurdefinitie met totalisaties met meerdere niveaus per regio")
 
 In de volgende afbeelding ziet u een rapporteringsstructuurdefinitie met meerdere niveaus, die getotaliseerde gegevens op basis van functie bevat.
 
-![Rapporteringsstructuurdefinitie met totalisaties met meerdere niveaus per functie](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "Rapporteringsstructuurdefinitie met totalisaties met meerdere niveaus per functie")
+![Rapporteringsstructuurdefinitie met totalisaties met meerdere niveaus per functie](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Rapporteringsstructuurdefinitie met totalisaties met meerdere niveaus per functie")
 
 ### <a name="viewing-companies-side-by-side"></a>Bedrijven naast elkaar weergeven
 Veel klanten geven de voorkeur aan rapporten waarin de bedrijven naast elkaar worden weergegeven en waarin in een kolom het geconsolideerde totaal wordt getoond. Deze indeling is gemakkelijk voor elkaar te krijgen nadat u de rapporteringsstructuur hebt gemaakt. Hier worden de hoofdstappen beschreven om bedrijven naast elkaar weer te geven in geconsolideerde financiële overzichten.
@@ -98,7 +98,7 @@ Voer in de rapporteringsstructuurdefinitie het percentage van eigendom in de kol
 > [!NOTE]
 > U kunt dit eigendomspercentage toepassen op elke rapporteringseenheid, niet alleen op bedrijfsniveau. 
 
-![Percentage rapporteringsstructuurdefinitie gebruiken](./media/Using-reporting%20tree-definition-percentage.png "Percentage rapporteringsstructuurdefinitie gebruiken")
+![Percentage rapporteringsstructuurdefinitie gebruiken](./media/Using-reporting-tree-definition-percentage.png "Percentage rapporteringsstructuurdefinitie gebruiken")
 
 Wanneer het rapport wordt gegenereerd, bevat het rapport Contoso Duitsland 100 procent van de totale omzet en 80 procent van het bedrag wordt toegewezen en getotaliseerd naar het geconsolideerde niveau voor verkoop.
 

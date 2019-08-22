@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
-ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
+ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625867"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849504"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formuleontwerper in elektronische rapportage (ER)
 
@@ -215,12 +215,12 @@ De volgende tabellen beschrijven de functies voor gegevensmanipulatie die u kunt
 | TODAY () | Retourneer de huidige datum van de Finance and Operations-toepassingsserver als een datumwaarde. | |
 | NULLDATE () | Retourneer een **null**-datumwaarde. | |
 | NULLDATETIME () | Retourneer een **null**-datum-/tijdwaarde. | |
-| DATETIMEFORMAT (datum/tijd, indeling) | Converteer de opgegeven datum-/tijdwaarde naar een tekenreeks in de opgegeven indeling. (Zie voor informatie over de ondersteunde indelingen [standaard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) en [aangepast](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM.-yyyy")** retourneert de datum van de huidige Finance and Operations-toepassingsserver 24 december 2015 als **"24-12-2015"**, op basis van de opgegeven aangepaste notatie. |
-| DATETIMEFORMAT (datum/tijd, indeling, cultuur) | Converteer de opgegeven datum-/tijdwaarde naar een tekenreeks in de opgegeven indeling en [cultuur](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Zie voor informatie over de ondersteunde indelingen [standaard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) en [aangepast](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** retourneert de huidige datum van de Finance and Operations-toepassingsserver 24 december 2015 als **"24.12.2015"**, op basis van de geselecteerde Duitse cultuur. |
+| DATETIMEFORMAT (datum/tijd, indeling) | Converteer de opgegeven datum-/tijdwaarde naar een tekenreeks in de opgegeven indeling. (Zie voor informatie over de ondersteunde indelingen [standaard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) en [aangepast](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM.-yyyy")** retourneert de datum van de huidige Finance and Operations-toepassingsserver 24 december 2015 als **"24-12-2015"**, op basis van de opgegeven aangepaste notatie. |
+| DATETIMEFORMAT (datum/tijd, indeling, cultuur) | Converteer de opgegeven datum-/tijdwaarde naar een tekenreeks in de opgegeven indeling en [cultuur](https://msdn.microsoft.com/goglobal/bb896001.aspx). (Zie voor informatie over de ondersteunde indelingen [standaard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) en [aangepast](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** retourneert de huidige datum van de Finance and Operations-toepassingsserver 24 december 2015 als **"24.12.2015"**, op basis van de geselecteerde Duitse cultuur. |
 | SESSIONTODAY () | Retourneer de huidige sessiedatum van de Finance and Operations-toepassingsserver als een datumwaarde. | |
 | SESSIONNOW () | Retourneer de huidige sessiedatum en tijd van de Finance and Operations-toepassingsserver als een datum-/tijdwaarde. | |
 | DATEFORMAT (datum, indeling) | Retourneer een tekenreeksvoorstelling van de opgegeven datum in de opgegeven indeling. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** retourneert de huidige sessiedatum van Finance and Operations, 24 december 2015, als **"24-12-2015"**, op basis van de opgegeven aangepaste notatie. |
-| DATEFORMAT (datum, indeling, cultuur) | Converteer de opgegeven datumwaarde naar een tekenreeks in de opgegeven indeling en [cultuur](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Zie voor informatie over de ondersteunde indelingen [standaard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) en [aangepast](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** retourneert de huidige sessiedatum van Finance and Operations, 24 december 2015, als **"24.12.2015"**, op basis van de geselecteerde Duitse cultuur. |
+| DATEFORMAT (datum, indeling, cultuur) | Converteer de opgegeven datumwaarde naar een tekenreeks in de opgegeven indeling en [cultuur](https://msdn.microsoft.com/goglobal/bb896001.aspx). (Zie voor informatie over de ondersteunde indelingen [standaard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) en [aangepast](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** retourneert de huidige sessiedatum van Finance and Operations, 24 december 2015, als **"24.12.2015"**, op basis van de geselecteerde Duitse cultuur. |
 | DAYOFYEAR (datum) | Retourneert de geheel-getalweergave van het aantal dagen tussen 1 januari en de opgegeven datum. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** retourneert **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** retourneert **1**. |
 | DAYS (datum 1, datum 2) | Retourneert het aantal dagen tussen de opgegeven begindatum en de tweede opgegeven datum. Een positieve waarde als resultaat geven wanneer de eerste datum later is dan de tweede datum, **0** (nul) retourneren als de eerste datum gelijk is aan de tweede datum of een negatieve waarde retourneren als de eerste datum vroeger is dan de tweede datum. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** retourneert **-1**. |
 
@@ -649,12 +649,12 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>NUMBERFORMAT (getal, indeling)</td>
-<td>Retourneer een tekenreeksvoorstelling van het opgegeven getal in de opgegeven indeling. (Zie voor informatie over de ondersteunde indelingen <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standaard</a> en <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">aangepast</a>.) De context waarin deze functie wordt uitgevoerd, bepaalt de cultuur die wordt gebruikt voor het opmaken van nummers.</td>
+<td>Retourneer een tekenreeksvoorstelling van het opgegeven getal in de opgegeven indeling. (Zie voor informatie over de ondersteunde indelingen <a href="https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx">standaard</a> en <a href="https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx">aangepast</a>.) De context waarin deze functie wordt uitgevoerd, bepaalt de cultuur die wordt gebruikt voor het opmaken van nummers.</td>
 <td>Voor de cultuur EN-US retourneert <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> retourneert <strong>&quot;10&quot;</strong>.</td>
 </tr>
 <tr>
 <td>NUMBERFORMAT (getal, indeling, cultuur)</td>
-<td>Retourneer een tekenreeksvoorstelling van het opgegeven nummer in de opgegeven indeling en cultuur. (Zie voor informatie over de ondersteunde indelingen <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">standaard</a> en <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">aangepast</a>).</td>
+<td>Retourneer een tekenreeksvoorstelling van het opgegeven nummer in de opgegeven indeling en cultuur. (Zie voor informatie over de ondersteunde indelingen <a href="https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings">standaard</a> en <a href="https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings">aangepast</a>).</td>
 <td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> retourneert <strong>3,33</strong> en <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> retourneert <strong>3.33</strong>.</td>
 </tr>
 <tr>

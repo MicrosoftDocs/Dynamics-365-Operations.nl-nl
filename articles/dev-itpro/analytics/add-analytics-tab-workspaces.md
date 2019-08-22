@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
-ms.reviewer: robinr
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5cfb2377ad290bff9c50819876d79a9d4b2a73d8
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548180"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848592"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met Power BI Embedded
 
@@ -45,10 +45,10 @@ Of u een bestaand werkgebied van de toepassing uitbreidt of een nieuw werkgebied
 4. Optioneel: voeg extensies toe om de weergave aan te passen.
 
 > [!NOTE]
-> Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI Desktop-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Deze pagina bevat veel inzichten waarmee u aantrekkelijke analytische rapportoplossingen kunt maken.
+> Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI Desktop-bureaublad](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/). Deze pagina bevat veel inzichten waarmee u aantrekkelijke analytische rapportoplossingen kunt maken.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Een .pbix-bestand toevoegen als een resource
-Voordat u begint, moet u het Power BI-rapport dat u in het werkgebied wilt insluiten, maken of ophalen. Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI Desktop-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Voordat u begint, moet u het Power BI-rapport dat u in het werkgebied wilt insluiten, maken of ophalen. Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI Desktop-bureaublad](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/).
 
 Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio-projectartefact.
 

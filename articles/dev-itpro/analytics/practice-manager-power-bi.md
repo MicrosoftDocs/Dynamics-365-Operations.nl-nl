@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551666"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850092"
 ---
 # <a name="practice-manager-power-bi-content"></a>Power BI-inhoud Praktijkbeheerder
 
@@ -54,7 +54,7 @@ De volgende tabel bevat informatie over de metrische gegevens op elke rapportpag
 | EVM               | Kosten en planningsprestatie-index per project |
 | Uren             | <ul><li>Werkelijke factureerbare gebruikte uren versus werkelijke factureerbare lasturen versus budgeturen</li><li>Werkelijke factureerbare gebruikte uren versus werkelijke factureerbare lasturen per project</li><li>Werkelijke factureerbare gebruikte uren versus werkelijke factureerbare lasturen per resource</li><li>Werkelijke factureerbare urenverhouding per project</li><li>Werkelijke factureerbare urenverhouding per resource</li></ul> |
 
-De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). U kunt ook de functionaliteit voor het exporteren van onderliggende gegevens gebruiken om de onderliggende gegevens te exporteren die worden samengevat in een visualisatie.
+De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). U kunt ook de functionaliteit voor het exporteren van onderliggende gegevens gebruiken om de onderliggende gegevens te exporteren die worden samengevat in een visualisatie.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 
@@ -62,7 +62,7 @@ De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud 
 
 In de volgende secties worden de samengevoegde metingen uitgelegd die worden gebruikt in elke entiteit.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Entiteit: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>Entiteit: ProjectAccountingCube\_ActualHourUtilization
 **Gegevensbron**: ProjEmplTrans
 
 | Belangrijke samengevoegde meting      | Veld                              | Omschrijving |
@@ -70,7 +70,7 @@ In de volgende secties worden de samengevoegde metingen uitgelegd die worden geb
 | Werkelijke factureerbare gebruikte uren | Sum(ActualUtilizationBillableRate) | Het totaal van de werkelijke factureerbare gebruikte uren. |
 | Werkelijke factureerbare lasturen   | Sum(ActualBurdenBillableRate)      | Het totaal van het werkelijk lastpercentage. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Entiteit: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>Entiteit: ProjectAccountingCube\_Actuals
 **Gegevensbron**: ProjTransPosting
 
 | Belangrijke samengevoegde meting | Veld              | Omschrijving |
@@ -78,14 +78,14 @@ In de volgende secties worden de samengevoegde metingen uitgelegd die worden geb
 | Werkelijke opbrengst            | Sum(ActualRevenue) | Het totaal van de geboekte opbrengst voor alle transacties. |
 | Werkelijke kosten               | Sum(ActualCost)    | Het totaal van de geboekte kosten voor alle transactietypen. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Entiteit: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>Entiteit: ProjectAccountingCube\_Customer
 **Gegevensbron**: CustTable
 
 | Belangrijke samengevoegde meting | Veld                                             | Omschrijving |
 |---------------------------|---------------------------------------------------|-------------|
 | Aantal projecten        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Het aantal beschikbare projecten. |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Entiteit: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>Entiteit: ProjectAccountingCube\_Forecasts
 **Gegevensbron**: ProjTransBudget
 
 | Belangrijke samengevoegde meting | Veld                  | Omschrijving |
@@ -94,14 +94,14 @@ In de volgende secties worden de samengevoegde metingen uitgelegd die worden geb
 | Opbrengst volgens budget            | Sum(BudgetRevenue)     | Het totaal van de voorspelde transitorische/gefactureerde opbrengsten. |
 | Brutomarge volgens budget       | Sum(BudgetGrossMargin) | Het verschil tussen de som van de totale voorspelde opbrengsten en de som van de totale voorspelde kosten. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Entiteit: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>Entiteit: ProjectAccountingCube\_ProjectPlanCostsView
 **Gegevensbron**: Project
 
 | Belangrijke samengevoegde meting | Veld                    | Omschrijving |
 |---------------------------|--------------------------|-------------|
 | Geplande kosten              | Sum(SumOfTotalCostPrice) | De totale kostprijs in ramingen voor alle projecttransactietypen met geplande taken. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Entiteit: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>Entiteit: ProjectAccountingCube\_Projects
 **Gegevensbron**: Project
 
 | Belangrijke samengevoegde meting    | Veld | Omschrijving |
@@ -112,7 +112,7 @@ In de volgende secties worden de samengevoegde metingen uitgelegd die worden geb
 | Werkelijke factureerbare urenverhouding  | ProjectAccountingCube\_Projects\[Totale werkelijke factureerbare gebruikte uren van project\] ÷ (ProjectAccountingCube\_Projects\[Totale werkelijke factureerbare gebruikte uren van project\] + ProjectAccountingCube\_Projects\[Totale werkelijke factureerbare lasturen van project\]) | Het totale aantal factureerbare werkelijke uren, op basis van de gebruikte uren en de lasturen. |
 | Verdiende waarde                 | ProjectAccountingCube\_Projects\[Totale geplande kosten van project\] × ProjectAccountingCube\_Projects\[Percentage voltooid werk\] | De totale geplande kosten, vermenigvuldigd met het percentage voltooid werk. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entiteit: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Entiteit: ProjectAccountingCube\_TotalEstimatedCosts 
 **Gegevensbron**: ProjTable
 
 | Belangrijke samengevoegde meting       | Veld               | Omschrijving |

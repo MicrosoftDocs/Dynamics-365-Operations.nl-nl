@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3c3873991c33347c1358dc98381c6b5f4c6ce2aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553195"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846890"
 ---
 # <a name="one-voucher"></a>Eén boekstuk
 
@@ -51,7 +51,7 @@ Met de bestaande functionaliteit voor financiële journalen (algemeen journaal, 
 
 ## <a name="issues-with-one-voucher"></a>Problemen met één boekstuk
 
-De functionaliteit van één boekstuk veroorzaakt problemen bij de vereffening, belastingberekening, transactieterugboeking, afstemming van subgrootboek naar grootboek, financiële rapportage en meer. (Meer informatie over problemen die bij de vereffening optreden, vindt u bijvoorbeeld in [Eén boekstuk met meerdere klant- of leveranciersrecords](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Als u correct wilt werken en rapporteren, zijn voor deze processen en rapporten transactiedetails nodig. Hoewel sommige scenario's mogelijk nog goed werken, afhankelijk van de instellingen van uw organisatie, zijn er vaak problemen als meerdere transacties in één boekstuk worden ingevoerd.
+De functionaliteit van één boekstuk veroorzaakt problemen bij de vereffening, belastingberekening, transactieterugboeking, afstemming van subgrootboek naar grootboek, financiële rapportage en meer. (Meer informatie over problemen die bij de vereffening optreden, vindt u bijvoorbeeld in [Eén boekstuk met meerdere klant- of leveranciersrecords](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Als u correct wilt werken en rapporteren, zijn voor deze processen en rapporten transactiedetails nodig. Hoewel sommige scenario's mogelijk nog goed werken, afhankelijk van de instellingen van uw organisatie, zijn er vaak problemen als meerdere transacties in één boekstuk worden ingevoerd.
 
 U boekt bijvoorbeeld het volgende boekstuk met meerdere regels.
 

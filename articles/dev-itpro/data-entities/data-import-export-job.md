@@ -3,28 +3,29 @@ title: Gegevensimport- en exporttaken
 description: Gebruik het werkgebied Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 03/11/2019
+ms.date: 07/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505789"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862899"
 ---
 # <a name="data-import-and-export-jobs"></a>Gegevensimport- en exporttaken
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Gebruik het werkgebied **Gegevensbeheer** in Microsoft Dynamics 365 for Finance and Operations om taken voor het importeren en exporteren van gegevens te maken en te beheren. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
 
@@ -129,8 +130,8 @@ Een taak kan tegelijkertijd op basis van rollen, gebruikers en rechtspersoon wor
 ## <a name="run-the-import-or-export-job"></a>De import- of exporttaak uitvoeren
 U kunt één taak tegelijk uitvoeren door de knop **Importeren** of **Exporteren** te selecteren nadat u de taak hebt gedefinieerd. Als u een terugkerende taak wilt instellen, selecteert u **Terugkerende gegevenstaak maken**.
 
-[!NOTE]
-Een import- of een exporttaak kan asynchroon worden uitgevoerd door de knop **Importeren** of **Exporteren** te selecteren. Bij een asynchrone uitvoering wordt het asynchrone framework in Finance and Operations gebruikt, dat verschilt van het batchframework. Voor het asynchrone framework kan echter net als het batchframework beperking optreden waardoor de taak niet onmiddellijk kan worden uitgevoerd. De taken kunnen ook synchroon worden uitgevoerd door **Nu importeren** of **Nu exporteren** te selecteren. Hiermee wordt de taak onmiddellijk gestart en dit is handig als het asynchrone of batchframework niet wordt gestart vanwege beperking. De taken kunnen ook in een batch worden uitgevoerd door de optie **Uitvoeren in batch** te kiezen. Batchresources zijn onderworpen aan beperking, waardoor de batchtaak niet onmiddellijk wordt gestart. De asynchrone optie is handig wanneer gebruikers rechtstreeks met de gebruikersinterface communiceren en geen hoofdgebruikers hoeven te zijn om batchplanning te begrijpen. Gebruik van een batch is een alternatieve optie als grote hoeveelheden moeten worden geëxporteerd of geïmporteerd. Batchtaken kunnen worden gepland voor uitvoering in een specifieke batchgroep, zodat u meer controle hebt vanuit taakverdelingsperspectief. Als voor zowel asynchrone als batchframeworks beperking geldt vanwege hoog resourcegebruik in het systeem, kan als een directe oplossing de synchrone versie van import/export worden gebruikt. De synchrone optie wordt onmiddellijk gestart en hiermee wordt de gebruikersinterface geblokkeerd omdat deze synchroon wordt uitgevoerd. Tijdens de uitvoering van de synchrone bewerking moet het browservenster open blijven.
+> [!NOTE]
+> Een import- of een exporttaak kan asynchroon worden uitgevoerd door de knop **Importeren** of **Exporteren** te selecteren. Bij een asynchrone uitvoering wordt het asynchrone framework in Finance and Operations gebruikt, dat verschilt van het batchframework. Voor het asynchrone framework kan echter net als het batchframework beperking optreden waardoor de taak niet onmiddellijk kan worden uitgevoerd. De taken kunnen ook synchroon worden uitgevoerd door **Nu importeren** of **Nu exporteren** te selecteren. Hiermee wordt de taak onmiddellijk gestart en dit is handig als het asynchrone of batchframework niet wordt gestart vanwege beperking. De taken kunnen ook in een batch worden uitgevoerd door de optie **Uitvoeren in batch** te kiezen. Batchresources zijn onderworpen aan beperking, waardoor de batchtaak niet onmiddellijk wordt gestart. De asynchrone optie is handig wanneer gebruikers rechtstreeks met de gebruikersinterface communiceren en geen hoofdgebruikers hoeven te zijn om batchplanning te begrijpen. Gebruik van een batch is een alternatieve optie als grote hoeveelheden moeten worden geëxporteerd of geïmporteerd. Batchtaken kunnen worden gepland voor uitvoering in een specifieke batchgroep, zodat u meer controle hebt vanuit taakverdelingsperspectief. Als voor zowel asynchrone als batchframeworks beperking geldt vanwege hoog resourcegebruik in het systeem, kan als een directe oplossing de synchrone versie van import/export worden gebruikt. De synchrone optie wordt onmiddellijk gestart en hiermee wordt de gebruikersinterface geblokkeerd omdat deze synchroon wordt uitgevoerd. Tijdens de uitvoering van de synchrone bewerking moet het browservenster open blijven.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Controleren of de taak naar verwachting is uitgevoerd
 De taakhistorie is beschikbaar voor het oplossen van problemen bij import- en exporttaken. Historische taakuitvoeringen worden ingedeeld op tijd.
@@ -144,15 +145,17 @@ Voor elke taakuitvoering worden de volgende gegevens weergegeven:
 
 In uitvoeringsgegevens wordt de status weergegeven van elke gegevensentiteit die door de taak is verwerkt. Op deze manier kunt u snel de volgende informatie vinden:
 
-- Welke entiteiten zijn verwerkt
-- Hoeveel records voor een entiteit zijn verwerkt en mislukt
-- De faseringsrecords voor elke entiteit
+- Welke entiteiten zijn verwerkt.
+- Hoeveel records voor een entiteit zijn verwerkt en hoeveel er zijn mislukt.
+- De faseringsrecords voor elke entiteit.
 
 U kunt de faseringsgegevens in een bestand voor exporttaken downloaden of u kunt de gegevens downloaden als een pakket voor import- en exporttaken.
 
 Vanuit de uitvoeringsgegevens kunt u ook het uitvoeringslogboek openen.
 
 ## <a name="clean-up-the-staging-tables"></a>De faseringstabellen opschonen
+Vanaf Platform update 29 is deze functionaliteit afgeschaft. Deze wordt vervangen door een nieuwe versie van de functie historie opschonen die hieronder wordt toegelicht.
+
 U kunt faseringstabellen opschonen met de functie **Fasering opschonen** in het werkgebied **Gegevensbeheer**. U kunt de volgende opties gebruiken om op te geven welke records moeten worden verwijderd uit welke faseringstabel:
 
 - **Entiteit** : als alleen een entiteit is opgegeven, worden alle records uit de faseringstabel van die entiteit verwijderd. Selecteer deze optie om alle gegevens voor de entiteit in alle gegevensprojecten en alle taken te verwijderen.
@@ -160,3 +163,37 @@ U kunt faseringstabellen opschonen met de functie **Fasering opschonen** in het 
 - **Gegevensprojecten**: als alleen een gegevensproject is geselecteerd, worden alle records voor alle entiteiten en in alle taken voor het geselecteerde gegevensproject verwijderd.
 
 U kunt de opties ook combineren om verder te beperken welke recordset wordt verwijderd.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Taakgeschiedenis opschonen (beschikbaar in Platform update 29 en hoger)
+
+De functie historie opschonen in gegevensbeheer moet worden gebruikt om een periodieke opschoning van de uitvoeringshistorie te plannen. Deze functionaliteit vervangt de vorige functie voor het opschonen van faseringstabellen, die nu is afgeschaft. De volgende tabellen worden in dit proces opgeschoond.
+
+-   Alle faseringstabellen
+
+-   DMFSTAGINGVALIDATIONLOG
+
+-   DMFSTAGINGEXECUTIONERRORS
+
+-   DMFSTAGINGLOGDETAIL
+
+-   DMFSTAGINGLOG
+
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+
+-   DMFEXECUTION
+
+-   DMFDEFINITIONGROUPEXECUTION
+
+De functionaliteit kan worden geopend via **Gegevensbeheer \> Taakhistorie opschonen**.
+
+### <a name="scheduling-parameters"></a>Planningsparameters
+
+Bij het plannen van het opschoningsproces moeten de volgende parameters worden opgegeven om de criteria voor opschonen te definiëren.
+
+-   **Aantal dagen om historie te behouden** - Deze instelling wordt gebruikt om te beheren hoeveel uitvoeringshistorie moet worden bewaard. Dit wordt in aantal dagen uitgedrukt. Wanneer de opschoningstaak is gepland als een terugkerende batchtaak, fungeert deze instelling als een continu bewegend venster, waarbij de historie gedurende het opgegeven aantal dagen intact blijft terwijl de rest wordt verwijderd. Standaard is het aantal dagen 7.
+
+-   **Aantal uren om de taak uit te voeren** – Afhankelijk van de hoeveelheid historie die moet worden opgeschoond, kan de totale uitvoeringstijd voor de opschoningstaak variëren van enkele minuten tot enkele uren. Omdat het opschonen van de genoemde tabellen moet worden uitgevoerd wanneer er geen andere gegevensbeheeractiviteit in het systeem is, wordt het belangrijk ervoor te zorgen dat de opschoningstaak wordt voltooid voordat de bedrijfsactiviteit wordt gestart.
+
+    Een maximale uitvoeringstijd kan worden opgegeven door een maximum in te stellen voor het aantal uren dat de taak met deze instelling moet worden uitgevoerd. De opschoningslogica doorloopt één taakuitvoering-ID tegelijk in een chronologische volgorde, waarbij de oudste het eerst wordt opgeschoond. Er worden geen nieuwe uitvoering-id's voor opschonen meer opgehaald wanneer de resterende uitvoeringsduur binnen de laatste 10% van de opgegeven duur is. In sommige gevallen wordt verwacht dat de opschoningstaak langer duurt dan de opgegeven maximale tijd. Dit is grotendeels afhankelijk van het aantal records dat moet worden verwijderd voor de huidige uitvoerings-id die is gestart voordat de drempel van 10% is bereikt. De opschoning die is gestart, moet worden voltooid om de gegevensintegriteit te waarborgen, wat betekent dat opschonen ondanks overschrijding van de opgegeven limiet wordt voortgezet. Wanneer dit voltooid is, worden geen nieuwe uitvoerings-id's opgehaald en wordt de opschoningstaak voltooid. De resterende uitvoeringshistorie die door gebrek aan uitvoeringstijd niet is opgeschoond, wordt voor de volgende ingeplande opschoning opgehaald. De standaard- en minimumwaarde voor deze instelling is 2 uur.
+
+-   **Terugkerende batch** – De opschoningstaak kan worden uitgevoerd als een eenmalige, handmatige uitvoering, of kan worden gepland voor terugkerende batchuitvoering. De batch kan worden gepland met de instellingen bij **Op de achtergrond uitvoeren**, de standaardinstelling voor batchuitvoering.

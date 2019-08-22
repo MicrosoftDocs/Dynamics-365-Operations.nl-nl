@@ -1,9 +1,9 @@
 ---
-title: Nummerreeksen op een individuele basis instellen
-description: Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die deze nodig hebben.
+title: Nummerreeksen instellen op een individuele basis
+description: In dit onderwerp wordt uitgelegd hoe op een individuele basis nummerreeksen kunnen worden ingesteld.
 author: sericks007
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,28 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6734d66a06f8a8dc90a48bd68b7b4e22177b4672
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58e69b680c006c814e9408135b6947161ad7c4f3
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560585"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1738876"
 ---
-# <a name="set-up-number-sequences-on-an-individual-basis"></a>Nummerreeksen op een individuele basis instellen
+# <a name="set-up-number-sequences-on-an-individual-basis"></a>Nummerreeksen instellen op een individuele basis
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die deze nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een verwijzing genoemd. Voordat u nieuwe registraties voor een verwijzing kunt maken, moet u een nummerreeks instellen en deze aan de verwijzing koppelen. U kunt alle vereiste nummerreeksen tegelijkertijd instellen met de wizard Nummerreeksen instellen of u kunt individuele nummerreeksen maken of wijzigen met de pagina Nummerreeksen.
+In dit onderwerp wordt uitgelegd hoe op een individuele basis nummerreeksen kunnen worden ingesteld. Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die deze nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een verwijzing genoemd. Voordat u nieuwe registraties voor een verwijzing kunt maken, moet u een nummerreeks instellen en deze aan de verwijzing koppelen. U kunt alle vereiste nummerreeksen tegelijkertijd instellen met de wizard **Nummerreeksen instellen** of u kunt individuele nummerreeksen maken of wijzigen met de pagina **Nummerreeksen**.
 
-1. Ga naar Organisatiebeheer > Nummerreeksen > Nummerreeksen.
-2. Klik op Nummerreeks.
-3. Typ een waarde in het veld Nummerreekscode.
-4. Typ een waarde in het veld Naam.
-5. Vouw de sectie Bereikparameters uit.
-    * Selecteer op het sneltabblad Bereikparameters een bereik voor de nummerreeks en selecteer bereikwaarden.     De scope bepaalt welke organisaties de nummerreeks gebruiken. Bovendien kunnen nummerreeksen die een ander bereik hebben dan Gedeeld, segmenten hebben die overeenkomen met hun bereik. Een nummerreeks met een bereik van Rechtspersoon kan bijvoorbeeld een segment voor rechtspersoon hebben. Zie voor meer informatie over bereiken het Help-onderwerp "Overzicht van nummerreeksen".  
-6. Vouw de sectie Segmenten uit.
-    * Definieer op het sneltabblad Segmenten de notatie voor de nummerreeks door segmenten toe te voegen, te verwijderen en opnieuw te ordenen.  
-    * De nummerreeksen van alle bereiken kunnen constante segmenten en alfanumerieke segmenten bevatten. Constante segmenten bevatten een set alfanumerieke tekens die niet veranderen. Gebruik dit segmenttype om een koppelteken of andere scheidingstekens toe te voegen tussen nummerreekssegmenten. De alfanumerieke segmenten bevatten een combinatie van hekjes (#) en ampersands (&). Deze tekens stellen letters en cijfers voor die omhoog gaan telkens als een nummer uit de reeks wordt gebruikt. Gebruik een hekje (#) om stijgende nummers aan te geven en een en-teken (&) om stijgende letters aan te geven. De indeling #####_2014 maakt bijvoorbeeld de reeks 00001_2014, 00002_2014, enzovoort.     Er moet ten minste één alfanumeriek segment zijn. Bereiksegmenten, zoals bedrijf of rechtspersoon, zijn niet verplicht. Als u geen bereiksegmenten in de indeling opneemt, worden getallen nog steeds voor de geselecteerde verwijzing per bereik gegenereerd.  
-7. Vouw de sectie Verwijzingen uit.
-    * Selecteer op het sneltabblad Verwijzingen het documenttype of de record waaraan u deze nummerreeks wilt toewijzen.     Deze stap is optioneel voor reeksen die voor speciale gebruikspatronen van toepassingen worden gedefinieerd. In deze gevallen wordt een nieuw nummer gegenereerd met de waarde van een nummerreekscode of ID zonder een verwijzing te gebruiken. Een voorbeeld van een gebruikspatroon voor speciale toepassingen is een reeks boekstukken die voor specifieke journaalnamen wordt gebruikt. We raden het gebruik van zulke patronen echter niet aan.  
-8. Vouw de sectie Algemeen uit.
-    * Geef op het sneltabblad Algemeen op of de nummerreeks handmatig is en doorlopend of niet-doorlopend. Voer ook de laagste en hoogste nummers in die in de nummerreeks kunnen worden gebruikt.     Een niet-doorlopende nummerreeks wijzigen in een doorlopende nummerreeks wordt niet aanbevolen. De nummerreeks zal niet echt continu worden. Deze wijziging kan ook overtredingen van dubbele sleutels veroorzaken in de database. Doorlopende nummerreeksen hebben bovendien een grotere invloed op de prestaties.   
-9. Klik op Opslaan.
+1. Ga naar **Navigatiedeelvenster > Modules > Organisatiebeheer > Nummerreeksen > Nummerreeksen**.
+2. Selecteer **Nummerreeksen selecteren**.
+3. Typ een waarde in het veld **Nummerreekscode**.
+4. Typ een waarde in het veld **Naam**.
+5. Selecteer op het sneltabblad **Bereikparameters** een bereik voor de nummerreeks en selecteer bereikwaarden in de vervolgkeuzelijst. De scope bepaalt welke organisaties de nummerreeks gebruiken. Bovendien kunnen nummerreeksen die een ander bereik hebben dan **Gedeeld**, segmenten hebben die overeenkomen met hun bereik. Een nummerreeks met een bereik van **Rechtspersoon** kan bijvoorbeeld een segment voor rechtspersoon hebben. Zie [Overzicht van nummerreeksen](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/fin-and-ops/organization-administration/number-sequence-overview.md) voor meer informatie over bereiken.  
+6. Vouw de sectie **Segmenten** uit.
+    - Definieer de notatie voor de nummerreeks door segmenten toe te voegen, te verwijderen en opnieuw te ordenen.  
+    - De nummerreeksen van alle bereiken kunnen *constante segmenten* en *alfanumerieke segmenten* bevatten. Constante segmenten bevatten een set alfanumerieke tekens die niet veranderen. Gebruik dit segmenttype om een koppelteken of andere scheidingstekens toe te voegen tussen nummerreekssegmenten. De alfanumerieke segmenten bevatten een combinatie van hekjes (#) en ampersands (&). Deze tekens stellen letters en cijfers voor die omhoog gaan telkens als een nummer uit de reeks wordt gebruikt. Gebruik een hekje (#) om stijgende nummers aan te geven en een en-teken (&) om stijgende letters aan te geven. De indeling `#####_2014` maakt bijvoorbeeld de reeks `00001_2014`, `00002_2014` enzovoort. Er moet ten minste één alfanumeriek segment zijn. Bereiksegmenten, zoals bedrijf of rechtspersoon, zijn niet verplicht. Als u geen bereiksegmenten in de indeling opneemt, worden getallen nog steeds voor de geselecteerde verwijzing per bereik gegenereerd.  
+7. Vouw de sectie **Verwijzingen** uit. Selecteer het documenttype of registratie waaraan u deze nummerreeks wilt toewijzen. Deze stap is optioneel voor reeksen die voor speciale gebruikspatronen van toepassingen worden gedefinieerd. In deze gevallen wordt een nieuw nummer gegenereerd met de waarde van een nummerreekscode of ID zonder een verwijzing te gebruiken. Een voorbeeld van een gebruikspatroon voor speciale toepassingen is een reeks boekstukken die voor specifieke journaalnamen wordt gebruikt. We raden het gebruik van zulke patronen echter niet aan.  
+8. Vouw de sectie **Algemeen** uit. Geef op het sneltabblad Algemeen op of de nummerreeks handmatig is en doorlopend of niet-doorlopend. Voer ook de laagste en hoogste nummers in die in de nummerreeks kunnen worden gebruikt. Een niet-doorlopende nummerreeks wijzigen in een doorlopende nummerreeks wordt niet aanbevolen. De nummerreeks zal niet echt continu worden. Deze wijziging kan ook overtredingen van dubbele sleutels veroorzaken in de database. Doorlopende nummerreeksen hebben bovendien een grotere invloed op de prestaties.   
+9. Klik op **Opslaan**.
 

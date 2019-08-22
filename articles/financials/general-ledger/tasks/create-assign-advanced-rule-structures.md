@@ -1,71 +1,61 @@
 ---
 title: Geavanceerde regelstructuren maken en toewijzen
-description: Deze taakbegeleiding helpt u bij het maken van een geavanceerde regelstructuur en het toewijzen ervan aan een rekeningstructuur.
+description: In dit onderwerp wordt uitgelegd hoe u een geavanceerde regelstructuur maakt en toewijst aan een rekeningstructuur.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd62254c20cf5d77677d03c7d7335fb793d7f5f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cff07c13553ea140f537160da7f93820d5e3f77a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558901"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834882"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Geavanceerde regelstructuren maken en toewijzen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze taakbegeleiding helpt u bij het maken van een geavanceerde regelstructuur en het toewijzen ervan aan een rekeningstructuur. Deze taakbegeleiding gebruikt het demobedrijf USMF.
-
+In dit onderwerp wordt uitgelegd hoe u een geavanceerde regelstructuur maakt en toewijst aan een rekeningstructuur. Deze taakbegeleiding gebruikt het demobedrijf USMF.
 
 ## <a name="create-an-advanced-rule-structure"></a>Een geavanceerde regelstructuur maken
-1. Ga naar Grootboek > Rekeningschema > Structuren > Geavanceerde regelstructuren.
-2. Klik op Nieuw om het verwijderdialoogvenster te openen.
-3. Typ in het veld Geavanceerde regelstructuur een naam om de regelstructuur te beschrijven.
-4. Typ in het veld Beschrijving een waarde om de structuur te beschrijven.
-5. Klik op OK.
-6. Klik op Segment toevoegen.
-7. Selecteer een financiële dimensie in de lijst van segmenten.
-    * Bijvoorbeeld Opslag.  
-8. Klik op Segment toevoegen.
-9. Klik in de lijst op de koppeling van de geavanceerde regelstructuur om deze weer te geven.
-10. Klik op Activeren.
-11. Klik op Activeren.
+1. Ga naar **Navigatievenster > Modules > Grootboek > Rekeningschema > Structuren > Geavanceerde regelstructuren**.
+2. Selecteer **Nieuw** om het uitklapvenster te openen.
+3. Typ in het veld **Geavanceerde regelstructuur** een naam om de regelstructuur te beschrijven.
+4. Selecteer **OK**.
+5. Selecteer **Segment toevoegen**.
+6. Selecteer een financiële dimensie in de lijst van segmenten. Bijvoorbeeld **Opslag**.  
+7. Selecteer **Segment toevoegen**.
+8. Selecteer **Activeren**.
 
 ## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a>Een geavanceerde regel toepassen op een rekeningstructuur
-1. Het formulier sluiten.
-2. Sluit de pagina.
-3. Ga naar Grootboek > Rekeningschema > Structuren > Rekeningstructuren configureren.
-4. Zoek en selecteer in de lijst de rekeningstructuur waarop u de geavanceerde regel wilt toepassen.
-5. Klik op de naam van de rekeningstructuur om deze te openen.
-6. Klik op Bewerken.
-    * U kunt ook op Geavanceerde regels klikken. U wordt dan gevraagd om de rekeningstructuur in Conceptmodus te plaatsen.  
-7. Klik op Geavanceerde regels.
-8. Klik op Nieuw om het verwijderdialoogvenster te openen.
-9. Typ een waarde in het veld Geavanceerde regel.
-10. Typ een waarde in het veld Naam.
-11. Klik op Maken.
-12. Klik op Nieuwe criteria toevoegen.
-13. Selecteer een hoofdrekening of een financiële dimensie in het veld Waar.
-14. Selecteer in het veld Operator een optie, zoals 'ligt tussen' en 'bevat'.
-15. Typ een waarde in het veld Waarde.
-16. Typ een waarde in het veld Tot.
-17. Klik op Toevoegen om het dialoogvenster te openen.
-18. Zoek in de lijst de geavanceerde regelstructuur die u wilt gebruiken wanneer aan de criteria zijn voldaan.
-19. Klik op Toevoegen.
-20. Sluit de pagina.
-21. Klik op Activeren.
-22. Klik op Activeren.
+1. Ga naar **navigatievenster > Modules > Grootboek > Rekeningschema > Structuren > Regelstructuren configureren**.
+2. Zoek en selecteer in de lijst de rekeningstructuur waarop u de geavanceerde regel wilt toepassen.
+3. Selecteer **Bewerken**. U kunt ook **Geavanceerde regels** selecteren, waarna u wordt gevraagd om de rekeningstructuur in de **Conceptmodus** te plaatsen.  
+4. Selecteer **Geavanceerde regels**.
+5. Selecteer **Nieuw** om het uitklapvenster te openen.
+6. Typ een waarde in het veld **Geavanceerde regel**.
+7. Typ een waarde in het veld **Naam**.
+8. Selecteer **Maken**.
+9. Selecteer **Nieuwe criteria toevoegen**.
+10. Selecteer een hoofdrekening of financiële dimensie in het veld **Waar**.
+11. Selecteer in het veld **Operator** een optie, zoals **ligt tussen** en **bevat**.
+12. Typ een waarde in het veld **Waarde**.
+13. Typ een waarde in het veld **Tot en met**.
+14. Selecteer **Toevoegen** om het uitklapvenster te openen.
+15. Zoek in de lijst de geavanceerde regelstructuur die u wilt gebruiken wanneer aan de criteria zijn voldaan.
+16. Selecteer **Toevoegen**.
+17. Sluit de pagina.
+18. Selecteer **Activeren**.
 
