@@ -1,9 +1,9 @@
 ---
-title: Microsoft Dynamics 365 for Finance and Operations-documentatie
+title: Dynamics 365 for Finance and Operations-documentatie
 description: Documentatie voor Microsoft Dynamics 365 for Finance and Operations.
 author: robinarh
 manager: AnnBe
-ms.date: 04/11/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 56e49776acdcdd730aec3fb80ff68534e935ca10
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856300"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864837"
 ---
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations-documentatie
+# <a name="dynamics-365-for-finance-and-operations-documentation"></a>Dynamics 365 for Finance and Operations-documentatie
 
 [!include [banner](includes/banner.md)]
 
@@ -99,7 +99,7 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Microso
 <p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Inkoopbeheer</a></p>
 <p><a href="../supply-chain/pim/product-information.md">Productgegevensbeheer</a></p>
 <p><a href="../supply-chain/production-control/production-process-overview.md">Productiebeheer</a></p>
-<p><a href="../supply-chain/sales-marketing/overview-sales-marketing.md">Verkoopbeheer en marketing</a></p>
+<p><a href="../supply-chain/sales-marketing/overview-sales-marketing.md">Verkoop en marketing</a></p>
 <p><a href="../supply-chain/transportation/transportation-management-overview.md">Transportbeheer</a></p>
 <p><a href="../supply-chain/warehousing/warehouse-configuration.md">Magazijnbeheer</a></p>
 

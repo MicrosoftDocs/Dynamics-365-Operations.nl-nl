@@ -5,13 +5,15 @@
 - name: Systeemvereisten voor on-premises implementaties
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: Demogegevens
-  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
+    - name: Overzicht van Demogegevens
+      href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
     - name: Demogegevens genereren met pakketten
       href: data-entities/generate-demo-data-packages.md
 - name: Ontwikkelen en aanpassen
-  href: dev-tools/developer-home-page.md
   items:
+    - name: Startpagina van Ontwikkelen en aanpassen
+      href: dev-tools/developer-home-page.md
     - name: Toepassingsstapel en serverarchitectuur
       href: dev-tools/application-stack-server-architecture.md
     - name: Evaluatie-exemplaren ontvangen
@@ -19,8 +21,9 @@
     - name: Aanmelden voor preview-abonnementen
       href: dev-tools/sign-up-preview-subscription.md
     - name: Ontwikkelomgevingen implementeren en openen
-      href: dev-tools/access-instances.md
       items:
+        - name: Ontwikkelomgevingen
+          href: dev-tools/access-instances.md
         - name: Ontwikkelomgevingen met één apparaat configureren
           href: dev-tools/configure-developer-vm.md
         - name: Nieuwe gebruikers maken op ontwikkelcomputers
@@ -58,8 +61,9 @@
         - name: Functies code-editor
           href: dev-tools/code-editor.md
         - name: Modellen en gegevensmodelelementen maken
-          href: dev-tools/create-data-model-elements.md
           items:
+            - name: Overzicht van Modellen en gegevensmodelelementen maken
+              href: dev-tools/create-data-model-elements.md
             - name: Richtlijnen voor namen van uitbreidingen
               href: extensibility/NamingGuidelines.md
             - name: Modelaanpassingen uitschakelen en functionaliteit afschaffen
@@ -86,8 +90,6 @@
       items:
         - name: X++ en foutopsporingsfuncties
           href: dev-tools/new-x-debugger-features.md
-        - name: Foutopsporing in X++ in kopieën van productiedatabases
-          href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: Foutopsporing in X++-code
           href: dev-tools/debug-xpp.md
         - name: EventHandlerResult-klassen in aanvraag- of responsscenario's
@@ -104,7 +106,7 @@
           href: dev-ref/application-explorer-aot-properties.md
         - name: X++-taalreferentie
           items:
-            - name: X++-taalreferentie
+            - name: Overzicht van X++-taalreferentie
               href: dev-ref/xpp-language-reference.md
             - name: Variabelen en gegevenstypen
               items:
@@ -135,7 +137,19 @@
             - name: Prioriteit X++-operatoren
               href: dev-ref/xpp-operator-precedence.md
             - name: X++-klassen en -methoden
-              href: dev-ref/xpp-classes-methods.md
+              items:
+                - name: Klassen en methoden
+                  href: dev-ref/xpp-classes-methods.md
+                - name: Overname
+                  href: dev-ref/xpp-inheritance.md
+                - name: Leden van statische klasse
+                  href: dev-ref/xpp-static-classes.md
+                - name: Interfaces
+                  href: dev-ref/xpp-interfaces.md
+                - name: Bibliotheken
+                  href: dev-ref/xpp-library-objects.md
+                - name: Gebeurtenissen
+                  href: dev-ref/xpp-events.md
             - name: X++-gegevens selecteren en bewerken
               href: dev-ref/xpp-data-query.md
             - name: Toegang tot gegevens via de SysDa-API
@@ -149,14 +163,16 @@
             - name: X++-syntaxis
               href: dev-ref/xpp-syntax.md
     - name: 'API, klasse en tabelverwijzing'
-      href: dev-ref/api-reference.md
       items:
+        - name: 'API-, klasse- en tabelresources'
+          href: dev-ref/api-reference.md
         - name: X++-compilatietijdfuncties
           href: dev-ref/xpp-compile-time-functions.md
         - name: X++-runtimefuncties
-          href: dev-ref/xpp-run-time-functions.md
           items:
-            - name: X++-runtimefuncties business
+            - name: Resources voor X++-runtimefuncties
+              href: dev-ref/xpp-run-time-functions.md
+            - name: Zakelijke X++-runtimefuncties
               href: dev-ref/xpp-business-run-time-functions.md
             - name: X++-runtimefuncties container
               href: dev-ref/xpp-container-run-time-functions.md
@@ -406,11 +422,12 @@
           href: perf-test/testing-support.md
         - name: Omgevingen implementeren die continue build- en testautomatisering ondersteunen
           href: perf-test/continuous-build-test-automation.md
-        - name: SysTest filteren met klasse- en methodekenmerken
+        - name: SysTest-filtering met klasse- en methodekenmerken
           href: perf-test/systest-filtering.md
         - name: Acceptatietestbibliotheek
-          href: perf-test/acceptance-test-library.md
           items:
+            - name: Resources acceptatietestbibliotheek
+              href: perf-test/acceptance-test-library.md
             - name: Navigatieconcepten
               href: perf-test/concepts-navigation.md
             - name: Methoden voor testgegevens
@@ -438,8 +455,9 @@
     - name: ISV-licentie on-premises
       href: dev-tools/isv-licensing-on-prem.md
 - name: Ontwikkeling gebruikersinterface
-  href: user-interface/user-interface-development-home-page.md
   items:
+    - name: Startpagina van Ontwikkeling gebruikersinterface
+      href: user-interface/user-interface-development-home-page.md
     - name: Zelfstudies
       items:
         - name: Het formulier Type huurkosten opstellen
@@ -633,18 +651,21 @@
         - name: Caching tegel en lijst voor werkgebieden
           href: user-interface/tile-list-caching-workspaces.md
     - name: Taakrecorder
-      href: user-interface/task-recorder.md
       items:
+        - name: Resources voor Taakrecorder
+          href: user-interface/task-recorder.md
         - name: Snelzoekgids voor Taakrecorder
           href: user-interface/task-recorder-quick-reference.md
         - name: Documentatie of training maken met taakregistraties
           href: user-interface/task-recorder-training-docs.md
 - name: Mobiel platform
-  href: mobile-apps/platform/mobile-platform-home-page.md
   items:
+    - name: Resources voor mobiel platform
+      href: mobile-apps/platform/mobile-platform-home-page.md
     - name: Aan de slag
-      href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
+        - name: Aan de slag met het mobiele platform
+          href: mobile-apps/platform/mobile-platform-getting-started.md
         - name: Overwegingen voor architectuur en ontwerp
           href: mobile-apps/platform/mobile-platform-architecture.md
         - name: Gebeurtenissen bedrijfslogica
@@ -678,8 +699,9 @@
         - name: API's voor clientontwerp
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: Client-API's
-          href: mobile-apps/platform/client-apis/client-apis-reference.md
           items:
+            - name: Startpagina van Client-API's
+              href: mobile-apps/platform/client-apis/client-apis-reference.md
             - name: Opsomming PageState
               href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
             - name: Module Toepassing
@@ -843,11 +865,13 @@
             - name: Type ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: Algemene verordening gegevensbescherming (AVG)
-  href: gdpr/gdpr-guide.md
   items:
-    - name: Bronnen voor het reageren op AVG-aanvragen
-      href: gdpr/gdpr-home-page.md
+    - name: Overzicht van Algemene verordening gegevensbescherming (AVG)
+      href: gdpr/gdpr-guide.md
+    - name: Reageren op AVG-gegevensaanvragen
       items:
+        - name: Reageren op resources voor AVG-gegevensaanvragen
+          href: gdpr/gdpr-home-page.md
         - name: Classificaties van activa
           href: gdpr/gdpr-asset-classification-values.md
         - name: Rapport voor persoon zoeken
@@ -863,8 +887,9 @@
         - name: AVG-gegevensaanvragen voor LCS
           href: gdpr/gdpr-lcs.md
 - name: Continue levering
-  href: dev-tools/continuous-delivery-home-page.md
   items:
+    - name: Startpagina van Continue levering
+      href: dev-tools/continuous-delivery-home-page.md
     - name: Veelgestelde vragen over ontwikkeling en continue levering
       href: dev-tools/continuous-delivery-faq.md
     - name: Testpakketten uitsluiten van build-uitvoer
@@ -873,6 +898,24 @@
       href: dev-tools/manage-runtime-packages.md
     - name: Modelversies bijwerken in de geautomatiseerde build
       href: dev-tools/version-models-build.md
+- name: Regression Suite Automation Tool
+  items:
+    - name: Overzicht van Regression Suite Automation Tool
+      href: perf-test/rsat/rsat-overview.md
+    - name: Installatie en configuratie
+      href: perf-test/rsat/rsat-install-configure.md
+    - name: Testcases uitvoeren
+      href: perf-test/rsat/rsat-run.md
+    - name: Verwachte waarden valideren
+      href: perf-test/rsat/rsat-validate-expected.md
+    - name: Testcases keten
+      href: perf-test/rsat/rsat-chain-test-cases.md
+    - name: Afgeleide testcases
+      href: perf-test/rsat/rsat-derived-test-cases.md
+    - name: Aanbevolen procedures
+      href: perf-test/rsat/rsat-best-practices.md
+    - name: Problemen oplossen
+      href: perf-test/rsat/rsat-troubleshooting.md
 - name: Oplossingen vrijgeven via Lifecycle Services
   items:
     - name: Ontwikkelen en vrijgeven
@@ -892,8 +935,9 @@
     - name: Back-up maken van oplossingendatabases
       href: lcs-solutions/database-backup-lcs-solutions.md
     - name: Lokalisatie en wettelijk voorgeschreven functies
-      href: lcs-solutions/country-region.md
       items:
+        - name: Globalisatieresources
+          href: lcs-solutions/country-region.md
         - name: Classificatie van lokalisatiefuncties
           href: lcs-solutions/classify-localization-features.md
         - name: Land-/regiocontext toepassen
@@ -907,8 +951,9 @@
         - name: Wettelijke waarschuwingen indienen
           href: lcs-solutions/submit-localization-alerts.md
 - name: Financiële ontwikkeling
-  href: financial/financial-dev-home-page.md
   items:
+    - name: Startpagina van Financiële ontwikkeling
+      href: financial/financial-dev-home-page.md
     - name: Raamwerk van financiële dimensies
       items:
         - name: Combinaties van grootboekrekeningen
@@ -968,11 +1013,13 @@
     - name: Demo-omgevingen implementeren
       href: deployment/deploy-demo-environment.md
     - name: Cloudimplementatie
-      href: deployment/cloud-deployment-overview.md
       items:
+        - name: Overzicht van Cloudimplementatie
+          href: deployment/cloud-deployment-overview.md
         - name: Selfservice-implementatie
-          href: deployment/infrastructure-stack.md
           items:
+            - name: Overzicht van Selfservice-implementatie
+              href: deployment/infrastructure-stack.md
             - name: Een nieuwe omgeving implementeren
               href: deployment/deployenvironment-newinfrastructure.md
             - name: Veelgestelde vragen over implementatie
@@ -1000,9 +1047,10 @@
         - name: Gegevenslocatie voor Retail
           href: deployment/retail-data-residency.md
     - name: On-premises implementatie
-      href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Optie voor on-premises implementatie
+        - name: Startpagina van On-premises implementatie
+          href: deployment/on-premises-deployment-landing-page.md
+        - name: Overzicht van On-premises implementatie
           href: deployment/on-premises-overview.md
         - name: On-premises implementaties plannen en voorbereiden
           href: deployment/plan-onprem-deployment.md
@@ -1011,8 +1059,9 @@
         - name: On-premises projecten instellen
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: On-premises omgevingen instellen en implementeren
-          href: deployment/setup-deploy-on-premises-environments.md
           items:
+            - name: Startpagina van On-premises omgevingen instellen en implementeren
+              href: deployment/setup-deploy-on-premises-environments.md
             - name: On-premises omgevingen implementeren (Platform update 12 en later)
               href: deployment/setup-deploy-on-premises-pu12.md
             - name: On-premises omgevingen implementeren (Platform updates 8 en 11)
@@ -1031,8 +1080,14 @@
           href: deployment/on-premises-diagnostics.md
         - name: On-premises implementaties opnieuw implementeren
           href: deployment/redeploy-on-prem.md
-        - name: De lokale agent bijwerken
-          href: lifecycle-services/update-local-agent.md
+        - name: Lokale agent
+          items:
+            - name: AD FS Office 365-compatibiliteit
+              href: deployment/onprem-adfscompatibility.md
+            - name: Scripts voor vóór en na de implementatie voor lokale agenten
+              href: lifecycle-services/pre-post-scripts.md
+            - name: De lokale agent bijwerken
+              href: lifecycle-services/update-local-agent.md
         - name: Omgevingen configureren
           href: lifecycle-services/reconfigure-environment.md
         - name: Internetverbinding voor client
@@ -1052,11 +1107,13 @@
         - name: Problemen met pakkettoepassingen oplossen
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Upgrades, updates en hotfixes'
-  href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: Upgraden van AX 2012 naar Finance and Operations
-      href: migration-upgrade/upgrade-overview-2012.md
+    - name: 'Resources voor upgrades, updates en hotfixes'
+      href: migration-upgrade/upgrade-home-page.md
+    - name: Upgraden van AX 2012
       items:
+        - name: Upgraden van AX 2012 naar Finance and Operations
+          href: migration-upgrade/upgrade-overview-2012.md
         - name: Upgrade van AX 2012 - Plannen met het hulpprogramma Upgradeanalyse
           href: migration-upgrade/upgrade-analyzer-tool.md
         - name: Upgrade van AX 2012 - Inspanning schatten met de service Code-upgrade
@@ -1095,9 +1152,10 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Budgetplanning bijwerken
               href: migration-upgrade/upgrade-budget-planning.md
-    - name: Gegevens migreren van AX 2009 naar Finance and Operations
-      href: migration-upgrade/data-migration-tool.md
+    - name: Gegevens migreren van AX 2009
       items:
+        - name: Gegevens migreren van AX 2009 naar Finance and Operations
+          href: migration-upgrade/data-migration-tool.md
         - name: Migratie van AX 2009 - hulpmiddel voor gegevensmigratie installeren
           href: migration-upgrade/install-dmt.md
         - name: Migratie van AX 2009 - kaarten genereren
@@ -1111,8 +1169,9 @@
         - name: Migratie van AX 2009 - pakketten importeren
           href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Code migreren en upgraden
-      href: migration-upgrade/code-migration-home-page.md
       items:
+        - name: Startpagina van Code migreren en upgraden
+          href: migration-upgrade/code-migration-home-page.md
         - name: Voorbereidingen voor het migreren van code
           href: migration-upgrade/prepare-migration.md
         - name: De Azure DevOps-toewijzing configureren
@@ -1135,8 +1194,6 @@
           href: migration-upgrade/versions-update-policy.md
         - name: De nieuwste platformupdate toepassen op omgevingen
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: Het Dynamics AX-platform upgraden naar de release van augustus 2016
-          href: migration-upgrade/update-platform-each-release.md
         - name: Gegevens upgraden in ontwikkel- of demo-omgevingen
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Ontwikkelingshulpmiddelen bijwerken
@@ -1172,8 +1229,9 @@
         - name: Afgeschafte API's (juni 2017)
           href: migration-upgrade/deprecated-apis.md
 - name: Systeembeheer
-  href: sysadmin/system-administration-home-page.md
   items:
+    - name: Startpagina van Systeembeheer
+      href: sysadmin/system-administration-home-page.md
     - name: Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring
       href: sysadmin/legal-terms-privacy-statement.md
     - name: Rapport Licentiecodes en configuratiesleutels
@@ -1186,13 +1244,14 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: B2B-gebruikers naar Azure AD exporteren
       href: sysadmin/implement-b2b.md
-    - name: De time-out voor inactieve sessies instellen
-      href: sysadmin/session-idle-timeout.md
-    - name: Op rollen gebaseerde beveiliging
-      href: sysadmin/role-based-security.md
+    - name: Beveiliging
       items:
+        - name: Op rollen gebaseerde beveiliging
+          href: sysadmin/role-based-security.md
         - name: Beveiligingsarchitectuur
           href: sysadmin/security-architecture.md
+        - name: De time-out voor inactieve sessies instellen
+          href: sysadmin/session-idle-timeout.md
         - name: Kant-en-klare beveiligingsrapporten
           href: sysadmin/security-reports.md
         - name: Nieuwe gebruikers maken
@@ -1206,8 +1265,9 @@
         - name: Gebruikers aan beveiligingsrollen toewijzen
           href: sysadmin/tasks/assign-users-security-roles.md
     - name: Batchverwerking
-      href: sysadmin/batch-processing-overview.md
       items:
+        - name: Overzicht van Batchverwerking
+          href: sysadmin/batch-processing-overview.md
         - name: Batchverwerking en batchservers
           href: sysadmin/batch-server-overview.md
         - name: Batchtaken maken
@@ -1229,17 +1289,19 @@
         - name: Een uitvoerende batchtaak afbreken
           href: sysadmin/batch-abort.md
     - name: Optimalisatie-advies
-      href: sysadmin/optimization-advisor-overview.md
       items:
+        - name: Overzicht van Optimalisatie-advies
+          href: sysadmin/optimization-advisor-overview.md
         - name: Regels maken voor Optimalisatie-advies
           href: sysadmin/create-rules-optimization-advisor.md
     - name: Een storing in de productie rapporteren
       href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
-    - name: Bronnen voor Lifecycle Services
-      href: lifecycle-services/lcs.md
+    - name: Resources voor Lifecycle Services
       items:
+        - name: Lifecycle Services-resources
+          href: lifecycle-services/lcs.md
         - name: LCS voor klanten
           href: lifecycle-services/lcs-works-lcs.md
         - name: LCS voor partners
@@ -1257,8 +1319,9 @@
     - name: Problemen zoeken
       href: lifecycle-services/issue-search-lcs.md
     - name: Configuratiebeheer
-      href: lifecycle-services/configuration-manager-lcs.md
       items:
+        - name: Overzicht van Configuratiebeheer
+          href: lifecycle-services/configuration-manager-lcs.md
         - name: Configuratiebeheer instellen
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: De code-upgradeservice configureren
@@ -1298,8 +1361,9 @@
     - name: Query Cookbook
       href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
-      href: lifecycle-services/translation-service-overview.md
       items:
+        - name: Overzicht van Dynamics 365 Translation Service
+          href: lifecycle-services/translation-service-overview.md
         - name: Gebruikersinterfacebestanden vertalen
           href: lifecycle-services/use-translation-service.md
         - name: Documentatiebestanden vertalen

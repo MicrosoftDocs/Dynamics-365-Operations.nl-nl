@@ -3,7 +3,7 @@ title: Welkom bij Dynamics 365 for Retail
 description: Startpagina voor Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572159"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874922"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>Welkom bij Dynamics 365 for Retail
 
@@ -38,7 +38,7 @@ Selecteer in het linkerdeelvenster een functiegebied om meer informatie hierover
 
 ## <a name="channel-management"></a>Afzetkanaalbeheer
 
-Bij het instellen van uw Retail-ervaring bepaalt u hoe u uw winkels definieert en configureert. Dit kunnen fysieke winkels, online winkels of callcenters zijn.
+Bij het instellen van uw Retail Experience moet u bepalen hoe u uw fysieke winkels, online winkelactiviteiten of callcenters wilt definiëren en configureren.
 
 Elke detailhandelwinkel kan eigen betalingsmethoden, levermethoden, prijsgroepen, inkomsten- en kostenrekeningen, kassa's en personeel hebben. Nadat u uw detailhandelwinkel hebt gemaakt, stelt u een productassortiment samen dat u in de winkel wilt verkopen. U kunt ook winkelspecifieke prijzen en kortingen definiëren die van toepassing zijn op producten die beschikbaar zijn in de winkel.
 
