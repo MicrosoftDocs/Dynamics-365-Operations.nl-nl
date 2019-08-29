@@ -26,9 +26,10 @@
       href: retail-support.md
     - name: Veelgestelde vragen over updates van service met één versie
       href: ../fin-and-ops/get-started/one-version.md
-- name: De levenscyclus van de implementatie begrijpen
-  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+- name: Implementatie levenscyclusbeheer
   items:
+    - name: Startpagina van implementatie levenscyclusbeheer
+      href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
     - name: Microsoft FastTrack for Dynamics 365
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: Onboarding
@@ -165,6 +166,8 @@
       href: retail-hardware-station-configuration-installation.md
     - name: Tijd en aanwezigheid in Retail
       href: retail-time-attendance.md
+    - name: Openingstijden maken en wijzigen
+      href: dev-itpro/store-hours.md
 - name: MPOS (Modern Point Of Sale) en Cloud POS
   items:
     - name: Kiezen tussen MPOS en Cloud POS
@@ -307,7 +310,7 @@
       href: retail-coupons.md
 - name: Producten en merchandising
   items:
-    - name: Overzicht met productinformatie
+    - name: Overzicht van Productgegevens
       href: ../supply-chain/pim/product-information.md
     - name: Detailhandelhiërarchieën
       href: retail-hierarchies.md
@@ -317,8 +320,10 @@
       href: create-manage-attributes.md
     - name: Detailhandelproducten instellen
       href: set-up-retail-products.md
-    - name: Productcategorieën en producten Retail beheren
+    - name: Productcategorieën en producten voor detailhandel beheren
       href: category-management-product-creation.md
+    - name: De sorteervolgorde voor entiteiten voor merchandising wijzigen
+      href: custom-order-categories-nav-retail-prod-hierarchy.md
     - name: Productdimensies
       href: ../supply-chain/pim/product-dimensions.md
     - name: Streepjescodes instellen
@@ -500,8 +505,9 @@
     - name: Detailhandelmedewerkers configureren
       href: tasks/worker.md
 - name: Ontwikkeling en beheer voor Retail
-  href: dev-itpro/dev-retail-home-page.md
   items:
+    - name: Retail voor IT-professionals en ontwikkelaars
+      href: dev-itpro/dev-retail-home-page.md
     - name: Architectuur
       items:
         - name: Retail-onderdelen
@@ -598,6 +604,8 @@
           href: dev-itpro/view-pos-extension-package-details.md
     - name: Hardware Station en uitbreidbaarheid
       href: dev-itpro/hardware-station-extensibility.md
+    - name: POS integreren met een nieuw hardwareapparaat
+      href: dev-itpro/hardware-device-extension.md
     - name: Uitbreidbaarheid van Retail Server
       items:
         - name: Een Retail Server OData-controller uitbreiden
@@ -655,8 +663,9 @@
         - name: Bescherming tegen dubbele betaling inschakelen voor betalingsconnector
           href: dev-itpro/duplicate-payment-protection.md
     - name: Retail SDK
-      href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Retail SDK-architectuur
+          href: dev-itpro/retail-sdk/retail-sdk-overview.md
         - name: Verwachte wijzigingen in Retail SDK
           href: dev-itpro/UpcomingSDKChanges.md
         - name: De build-systemen voor Retail en Finance and Operations samenvoegen
@@ -667,9 +676,8 @@
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
         - name: Voorbeelden Retail-SDK
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
-          items:
-            - name: Uitbreidingspunten voor pakbonnen
-              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Uitbreidingspunten voor pakbonnen
+          href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: Uitbreidingen voor kanaaldatabase
           href: dev-itpro/channel-db-extensions.md
         - name: Aangepaste CDX-synchronisatie via uitbreiding inschakelen
