@@ -1,20 +1,23 @@
 - name: Dynamics 365 for Finance and Operations
-  href: index.md
   items:
+    - name: Dynamics 365 for Finance and Operations-documentatie
+      href: index.md
     - name: Aan de slag
       items:
         - name: Voordat u gaat kopen
-          href: get-started/before-you-buy.md
           items:
+            - name: Startpagina van Voordat u gaat kopen
+              href: get-started/before-you-buy.md
             - name: Aanmelden voor preview-abonnement
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
             - name: Een demo-omgeving implementeren
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Vergelijking van functies tussen cloud en on-premises
               href: get-started/cloud-prem-comparison.md
-            - name: Implementatieopties
-              href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
+            - name: Overwegingen bij de implementatie
               items:
+                - name: Implementatieopties
+                  href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
                 - name: Cloudimplementatie
                   href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
                 - name: Systeemvereisten voor cloudimplementaties
@@ -36,8 +39,9 @@
                 - name: Finance and Operations (on-premises) aanschaffen
                   href: get-started/purchase-on-premises.md
         - name: Nieuwe of gewijzigde functies
-          href: get-started/whats-new-changed.md
           items:
+            - name: Startpagina van Nieuwe of gewijzigde functies
+              href: get-started/whats-new-changed.md
             - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
               href: get-started/mainstream-support-ax-2009-2012.md
             - name: Verwijderde of verouderde functies
@@ -140,9 +144,11 @@
                   href: get-started/new-task-guides-available-february-2016.md
         - name: De gebruikersinterface verkennen
           items:
+            - name: Gebruikersinterface-elementen
+              href: get-started/user-interface-elements.md
             - name: Toegankelijkheidsopties
               href: get-started/accessibility-features.md
-            - name: Overzicht van functiebeheer
+            - name: Overzicht van Functiebeheer
               href: get-started/feature-management/feature-management-overview.md
             - name: FAQ client
               href: get-started/client-faq.md
@@ -197,8 +203,9 @@
         - name: Video's voor Finance and Operations
           href: get-started/videos.md
     - name: Implementatie levenscyclusbeheer
-      href: imp-lifecycle/implementation-lifecycle.md
       items:
+        - name: Startpagina van implementatie levenscyclusbeheer
+          href: imp-lifecycle/implementation-lifecycle.md
         - name: Architectuur voor Finance and Operations
           href: imp-lifecycle/architecture-overview.md
         - name: Microsoft FastTrack for Finance and Operations
@@ -224,8 +231,9 @@
         - name: Meerdere LCS-projecten en productieomgevingen op één Azure AD-tenant
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: Updates van service met één versie
-      href: ../dev-itpro/lifecycle-services/oneversion-overview.md
       items:
+        - name: Overzicht van Updates van service met één versie
+          href: ../dev-itpro/lifecycle-services/oneversion-overview.md
         - name: Veelgestelde vragen over updates van service met één versie
           href: get-started/one-version.md
         - name: Lifecycle-beleid voor software - cloud
@@ -246,20 +254,15 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: ISV-oplossingen leveren met Eén versie
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Automatisering testen
-          items:
-            - name: Acceptatietests voor gebruikers maken en automatiseren
-              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Zelfstudie voor Regression Suite Automation Tool instellen
-              href: get-started/hol-set-up-regression-suite-automation-tool.md
-            - name: Zelfstudie voor Regression Suite Automation Tool gebruiken
-              href: get-started/hol-use-regression-suite-automation-tool.md
+        - name: Acceptatietests voor gebruikers maken en automatiseren
+          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
     - name: Zakelijke gebeurtenissen
-      href: ../dev-itpro/business-events/home-page.md
       items:
+        - name: Overzicht van Zakelijke gebeurtenissen
+          href: ../dev-itpro/business-events/home-page.md
         - name: Zakelijke gebeurtenissen voor toepassingen
           href: ../dev-itpro/business-events/app-business-events.md
-        - name: Zakelijke gebeurtenissen voor workflows
+        - name: Zakelijke gebeurtenissen voor werkstromen
           href: ../dev-itpro/business-events/business-events-workflow.md
         - name: Waarschuwingen als zakelijke gebeurtenissen
           href: ../dev-itpro/business-events/alerts-business-events.md
@@ -273,23 +276,35 @@
           href: ../dev-itpro/business-events/potential-use-cases.md
         - name: Zelfstudies
           items:
-            - name: Zakelijke gebeurtenissen verbruiken met Microsoft Flow
+            - name: Zakelijke gebeurtenissen en Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-            - name: Zakelijke gebeurtenissen gebruiken met behulp van Azure Event Grid
+            - name: Zakelijke gebeurtenissen en Azure Event Grid
               href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
-            - name: Zakelijke gebeurtenissen gebruiken met behulp van Azure Service Bus
+            - name: Zakelijke gebeurtenissen en Azure Service Bus
               href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
-            - name: Zakelijke gebeurtenissen voor workflowgoedkeuring gebruiken
+            - name: Zakelijke gebeurtenissen en workflowgoedkeuringen
               href: ../dev-itpro/business-events/how-to/how-to-workflow.md
-            - name: Microsoft Forms Pro gebruiken met zakelijke gebeurtenissen
+            - name: Zakelijke gebeurtenissen en Microsoft Forms Pro
               href: ../dev-itpro/business-events/how-to/FormsPro.md
-    - name: Kostenbeheer
-      href: ../supply-chain/cost-management/cost-management-home-page.md
+            - name: Zakelijke gebeurtenissen en Azure Event Hubs
+              href: ../dev-itpro/business-events/how-to/event-hub.md
+    - name: Conformiteit
       items:
+        - name: Controlebeleidsregels
+          href: ../financials/general-ledger/audit-policy-rules.md
+        - name: Overtredingen van controlebeleid en voorbeelden
+          href: ../financials/general-ledger/audit-policy-violations-cases.md
+        - name: Auditbeleid voor brondocumenten definiëren
+          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+    - name: Kostenbeheer
+      items:
+        - name: Startpagina van Kostenbeheer
+          href: ../supply-chain/cost-management/cost-management-home-page.md
         - name: Vereisten voor standaardkosten
-          href: ../supply-chain/cost-management/prerequisites-standard-costs.md
           items:
-            - name: Standaardkostprijsconversie - Overzicht
+            - name: Overzicht van Vereisten voor standaardkosten
+              href: ../supply-chain/cost-management/prerequisites-standard-costs.md
+            - name: Overzicht van Standaardkostprijsconversie
               href: ../supply-chain/cost-management/standard-cost-conversion-overview.md
             - name: Vereiste voor een standaardkostprijsconversie
               href: ../supply-chain/cost-management/prerequisites-standard-cost-conversion.md
@@ -307,9 +322,10 @@
               href: ../supply-chain/cost-management/update-standard-costs-non-manufacturing-environment.md
             - name: Voorbereiding van het onderhoud van standaardkosten voor gefabriceerde artikelen
               href: ../supply-chain/cost-management/prepare-maintain-standard-costs-manufactured-items.md
-        - name: Kostprijsberekingsversies
-          href: ../supply-chain/cost-management/costing-versions.md
+        - name: Kostprijsberekeningsversies
           items:
+            - name: Overzicht van Kostprijsberekeningsversies
+              href: ../supply-chain/cost-management/costing-versions.md
             - name: Kostprijsberekeningsbladen
               href: ../supply-chain/cost-management/costing-sheets.md
             - name: Kostenwijzigingen simuleren via een kostprijsberekeningsversie voor geplande kosten
@@ -397,8 +413,9 @@
             - name: REST API voor gegevensbeheerpakket
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Service-eindpunten
-              href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Overzicht van Service-eindpunten
+                  href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
                 - name: Problemen oplossen met serviceverificatie
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
@@ -414,8 +431,9 @@
         - name: Ontwikkeling voor integratie
           items:
             - name: Gegevensintegratie met gegevensentiteiten
-              href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Overzicht van Gegevensintegratie met gegevensentiteiten
+                  href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
                 - name: Een entiteit voor gegevensmigratie ontwikkelen
                   href: ../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/fin-and-ops/toc.json
                 - name: Samengestelde gegevensentiteiten ontwikkelen
@@ -426,9 +444,9 @@
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
                 - name: Records maken met recordsjablonen
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
-            - name: Gegevensintegratie via de Common Data Service
+            - name: Gegevensintegratie via Common Data Service
               items:
-                - name: Overzicht van gegevensintegratie
+                - name: Overzicht van Gegevensintegratie via Common Data Service
                   href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
                 - name: 'Synchrone, bidirectionele integratie'
                   items:
@@ -448,9 +466,9 @@
                       href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
                 - name: 'Asynchrone, unidirectionele integratie'
                   items:
-                    - name: Van prospect naar contant geld
+                    - name: Een scenario van prospect tot contant geld configureren
                       items:
-                        - name: Een scenario van prospect tot contant geld configureren
+                        - name: Van prospect naar contant geld
                           href: ../supply-chain/sales-marketing/prospect-to-cash.md
                         - name: Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
                           href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
@@ -464,9 +482,9 @@
                           href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
                         - name: Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales
                           href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                    - name: Field Service
+                    - name: Integratie met Field Service configureren
                       items:
-                        - name: Integratie met Field Service configureren
+                        - name: Overzicht van Integratie met Field Service configureren
                           href: ../supply-chain/sales-marketing/field-service.md
                         - name: Producten van Finance and Operations synchroniseren met producten in Field Service
                           href: ../supply-chain/sales-marketing/field-service-product.md
@@ -486,9 +504,9 @@
                           href: ../supply-chain/sales-marketing/synchronize-warehouse.md
                         - name: Werkorders synchroniseren met project van Field Service naar Finance and Operations
                           href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automation
+                    - name: Project Service Automation-integratie configureren
                       items:
-                        - name: Project Service Automation-integratie configureren
+                        - name: Overzicht van Project Service Automation
                           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                         - name: Project Service Automation-integratieparameters
                           href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
@@ -507,16 +525,19 @@
         - name: Elektronische berichten
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Gegevensbeheer
-      href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Overzicht van Gegevensbeheer
+          href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Gegevensentiteiten
-          href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
           items:
-            - name: Configuratie gegevensprojecten
+            - name: Overzicht van Gegevensentiteiten
+              href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
+            - name: Configuratiegegevensprojecten
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
             - name: Configuratiegegevens kopiëren tussen bedrijven of rechtspersonen
-              href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Overzicht van Configuratiegegevens kopiëren
+                  href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
                 - name: Pakketten met configuratiegegevens
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Pakketten met configuratiegegevens (alleen voor de release van juli 2017)
@@ -538,8 +559,9 @@
             - name: Pakketten met configuratiegegevens
               href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Gegevensimport- en exporttaken
-          href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Overzicht van Gegevensimport- en exporttaken
+              href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
             - name: Best practices voor het importeren van boekstukken met behulp van de entiteit Algemeen journaal
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Ontwikkeling van gegevensentiteiten
@@ -581,16 +603,19 @@
         - name: Foutbeschrijvingen voor gegevensbeheer
           href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Financieel beheer
-      href: ../financials/index.md
       items:
+        - name: Startpagina van Financieel beheer
+          href: ../financials/index.md
         - name: Leveranciers
-          href: ../financials/accounts-payable/accounts-payable.md
           items:
-            - name: Overzicht van leveranciersfacturen
+            - name: Startpagina van Leveranciers
+              href: ../financials/accounts-payable/accounts-payable.md
+            - name: Overzicht van Leveranciersfacturen
               href: ../financials/accounts-payable/vendor-invoices-overview.md
             - name: Leveranciers configureren
-              href: ../financials/accounts-payable/accounts-payable-overview.md
               items:
+                - name: Overzicht van Leveranciers configureren
+                  href: ../financials/accounts-payable/accounts-payable-overview.md
                 - name: Factuurgegevens invoeren in leveranciers met behulp van een leveranciersfactuur
                   href: ../financials/accounts-payable/tasks/key-invoice-data-ap-system-vendor-invoice.md
                 - name: Factuurgegevens invoeren in leveranciers met behulp van een goedkeuringsjournaal
@@ -604,9 +629,10 @@
             - name: Drieweg-overeenstemmingsbeleid
               href: ../financials/accounts-payable/three-way-matching-policies.md
             - name: Factuurvereffening voor leveranciers
-              href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
               items:
-                - name: Validatie voor factuurmatching instellen voor leveranciers
+                - name: Overzicht van Factuurvereffening voor leveranciers
+                  href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
+                - name: Validatie voor factuurvereffening instellen voor leveranciers
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
@@ -625,8 +651,9 @@
             - name: Leveranciersworkflow
               href: ../financials/accounts-payable/vendor-workflow.md
             - name: Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen
-              href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
+                - name: Overzicht van Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen
+                  href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: Uitzonderingen onderzoeken of oplossen
                   href: ../financials/accounts-payable/tasks/research-resolve-exceptions.md
             - name: Boekingsprofielen van leverancier
@@ -688,8 +715,9 @@
                 - name: Lijstpagina met leveranciertransacties
                   href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: Klanten
-          href: ../financials/accounts-receivable/accounts-receivable.md
           items:
+            - name: Startpagina van Klanten
+              href: ../financials/accounts-receivable/accounts-receivable.md
             - name: Crediteringen en aanmaningen in Klanten
               href: ../financials/accounts-receivable/collections-credit-accounts-receivable.md
             - name: Klanten en crediteringen en aanmaningen configureren
@@ -783,13 +811,14 @@
                 - name: Lijstpagina met klanttransacties
                   href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: Budgettering
-          href: ../financials/budgeting/budgeting-overview.md
           items:
-            - name: Overzicht budgetplanning
+            - name: Startpagina van Budgettering
+              href: ../financials/budgeting/budgeting-overview.md
+            - name: Overzicht van Budgetplanning
               href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: Overzicht budgetbeheer
+            - name: Overzicht van Budgetbeheer
               href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: Budgetteringsoverzicht
+            - name: Overzicht van Budgettering
               href: ../financials/budgeting/basic-budgeting-overview-configuration.md
             - name: Prognosepositie
               href: ../financials/budgeting/position-forecasting.md
@@ -808,8 +837,9 @@
             - name: Budgetplanningsintegratie met andere modules
               href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Contanten en bankbeheer
-          href: ../financials/cash-bank-management/cash-bank-management.md
           items:
+            - name: Startpagina van Contanten en bankbeheer
+              href: ../financials/cash-bank-management/cash-bank-management.md
             - name: Cashflowprognose
               href: ../financials/cash-bank-management/cash-flow-forecasting.md
             - name: Werkgebied voor bankbeheer
@@ -885,8 +915,9 @@
                 - name: De samengestelde entiteit voor het bankjournaal bijwerken
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Kostprijsboekhouding
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
           items:
+            - name: Startpagina van Kostprijsboekhouding
+              href: ../financials/cost-accounting/cost-accounting-home-page.md
             - name: Terminologie voor kostprijsboekhouding
               href: ../financials/cost-accounting/terms-cost-accounting.md
             - name: 'Fiscale kalenders, boekjaren en boekperioden'
@@ -899,7 +930,7 @@
               href: ../financials/general-ledger/CFO-workspace.md
             - name: Rekeningstructuren maken
               href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: Budgetteringsoverzicht
+            - name: Overzicht van Budgettering
               href: ../financials/budgeting/basic-budgeting-overview-configuration.md
             - name: Dimensies maken en dimensieleden importeren
               href: ../financials/cost-accounting/cost-dimension.md
@@ -958,8 +989,9 @@
             - name: Werkgebied voor kostenbeheer voor mobiele toepassing Finance and Operations gebruiken
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
         - name: Onkostenbeheer
-          href: ../financials/expense-management/expense-management.md
           items:
+            - name: Overzicht van Onkostenbeheer
+              href: ../financials/expense-management/expense-management.md
             - name: Nieuwe invulling voor het begrip onkostennota's
               href: ../financials/expense-management/ExpenseWorkspaceNew.md
             - name: Onkostenbeheer plannen
@@ -995,8 +1027,9 @@
             - name: Persoonlijke onkosten in een onkostennota
               href: ../financials/expense-management/personal-expenses.md
         - name: Vaste activa
-          href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: Startpagina van Vaste activa
+              href: ../financials/fixed-assets/fixed-assets.md
             - name: Een vast activum maken
               href: ../financials/fixed-assets/tasks/create-fixed-asset.md
             - name: Een toevoeging aan een vast activum invoeren
@@ -1100,15 +1133,187 @@
                 - name: Lineaire afschrijving van levensduur
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: Grootboek
-          href: ../financials/general-ledger/general-ledger.md
           items:
+            - name: Overzicht van Grootboek
+              href: ../financials/general-ledger/general-ledger.md
+            - name: Rekeningen
+              items:
+                - name: Overzicht van Transitorische posten
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Schrappingregels
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Combinaties van rekeningen en dimensies
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Evenwichtige journalen voor interunit-boekhouding
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Boekingsdefinities
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: Voorbeelden van boekingsdefinities
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Grootboekrekeningsaldi
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Financiële dimensies definiëren
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Standaardsjablonen voor financiële dimensies onderhouden
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Rekeningstructuren maken
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Financiële dimensies en boeken
+                  href: ../financials/general-ledger/default-dimensions.md
+                - name: Toerekeningsschema's maken
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Financiële consolidaties en valutaomzetting
+                  items:
+                    - name: Overzicht van Financiële consolidaties en valutaomzetting
+                      href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                    - name: Consolidatie online
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: Geconsolideerde financiële overzichten genereren
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: Consolidatiegroepen en extra consolidatierekening maken
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Hoofdrekeningtypen
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Een hoofdrekening maken
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Uw rekeningschema plannen
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Transacties tussen grootboekrekeningen vereffenen
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Een alias voor een grootboekrekening instellen
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Categorieën van hoofdrekening instellen
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Bronverkenner voor boekhouding
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Boekhoudingsverdelingen
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Toewijzingen verwerken
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Financiële dimensies
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Valuta voor boekhouding of aangiftevaluta converteren
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Consolidatierekeninggroepen en -rekeningen
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Overzicht van consolidatie en schrapping
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Fiscale kalenders, boekjaren en boekperioden'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Rekeningstructuren configureren
+                  href: ../financials/general-ledger/configure-account-structures.md
+                - name: Twee valuta's
+                  href: ../financials/general-ledger/dual-currency.md
+            - name: Journalen en grootboeken
+              items:
+                - name: Algemene journaalverwerking
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Periodieke journalen boeken
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Grootboektoewijzingsjournaal verwerken
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Instelling van intercompany-boekhouding
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Grootboektoewijzingsregels
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Geavanceerde regels voor journalen maken
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Geavanceerde regelstructuren maken en toewijzen
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Grootboekjournaaltypen
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Journalen maken en valideren
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Journaalboekingen of transacties weergeven
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Een gerelateerd intercompany-boekstuk weergeven vanuit een journaal
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Een journaalboeking maken met een sjabloon
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Toenametransacties voor grootboek maken
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Journaalregels en documenten publiceren vanuit Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Journaalboekingen en transacties weergeven
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Geboekte journaalposten journaliseren
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Valutaherwaardering in een consolidatiebedrijf
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Herwaardering van vreemde valuta voor grootboek
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Valutawisselkoersen importeren
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Eén boekstuk
+                  href: ../financials/general-ledger/one-voucher.md
+                - name: Grootboekvereffeningen
+                  href: ../financials/general-ledger/ledger-settlements.md
+            - name: Einde van periode afsluiten
+              items:
+                - name: Het grootboek aan het einde van de periode afsluiten
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Werkgebied voor afsluiten van financiële periode
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Jaarafsluiting
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Het boekjaar afsluiten
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Massale sluiting van financiële periode
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: Btw
+              items:
+                - name: Btw-overzicht
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: Btw-tarieven op basis van de marginale basis- en berekeningsmethoden
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: Btw-betalingen en afrondingsregels
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: Btw-berekeningsmethoden in het veld Oorsprong
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Berekeningsopties Volledige bedrag en interval voor btw-codes
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Btw op een leveranciersfactuur berekenen en corrigeren
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Een btw-betaling maken
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: Btw-transacties maken in documenten
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Groepen boekingen in grootboek instellen voor btw
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Btw-diensten instellen
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Btw-codes instellen
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Btw-groepen en artikel-btw-groepen instellen
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Btw-aangiftecodes instellen
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Btw-vereffeningsperioden instellen
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Bronbelasting instellen
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Geboekte btw-transacties weergeven
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
+            - name: Controleworkbench
+              items:
+                - name: Controlebeleidsregels
+                  href: ../financials/general-ledger/audit-policy-rules.md
+                - name: Overtredingen van controlebeleid en voorbeelden
+                  href: ../financials/general-ledger/audit-policy-violations-cases.md
+                - name: Auditbeleid voor brondocumenten definiëren
+                  href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Openbare sector
+          items:
+            - name: Startpagina van Openbare sector
+              href: ../financials/public-sector/public-sector-functionality.md
             - name: Plan voor functionaliteit van openbare sector
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: Voorbladen en handtekeningpagina's voor een betalingsrapport voor de openbare sector maken
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: Leveranciers in de openbare sector
-              href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
+                - name: Overzicht van Leveranciers in de openbare sector
+                  href: ../financials/public-sector/accounts-payable-public-sector.md
                 - name: Inkoopordercodes in de openbare sector
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
                 - name: Een handelspartnercode in de openbare sector maken en toewijzen
@@ -1130,8 +1335,9 @@
                 - name: Inkoopovereenkomstclassificaties in de openbare sector instellen
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: Klanten in de openbare sector
-              href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
+                - name: Overzicht van Klanten in de openbare sector
+                  href: ../financials/public-sector/accounts-receivable-public-sector.md
                 - name: Factureringsclassificatie en factureringscodes in de openbare sector
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
                 - name: Een factureringsclassificatie in de openbare sector maken
@@ -1145,8 +1351,9 @@
                 - name: Terugbetalingen in de openbare sector
                   href: ../financials/public-sector/reimbursements-public-sector.md
             - name: Budgettering in de openbare sector
-              href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: Overzicht van Budgettering in de openbare sector
+                  href: ../financials/public-sector/budgeting-public-sector.md
                 - name: Een oorspronkelijk budget maken en de voorlopige budgetposten in de openbare sector terugboeken
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Een voorlopig budget maken voor de openbare sector
@@ -1172,8 +1379,9 @@
             - name: Vaste activa in de openbare sector
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: Grootboek in de openbare sector
-              href: ../financials/public-sector/general-ledger-public-sector.md
               items:
+                - name: Overzicht van Grootboek in de openbare sector
+                  href: ../financials/public-sector/general-ledger-public-sector.md
                 - name: Geavanceerde grootboekboekingen in de openbare sector
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
                 - name: Een geavanceerde grootboekpost in de openbare sector maken
@@ -1199,9 +1407,10 @@
             - name: Een certificaattype aan een leverancier in de openbare sector toevoegen
               href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: Financiële rapportage
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
-            - name: Overzicht van financiële rapportage
+            - name: Overzicht van Financiële rapportage
+              href: ../financials/general-ledger/financial-reporting-getting-started.md
+            - name: Overzicht van Financiële rapportage
               href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
             - name: Onderdelen van een financieel rapport
               href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
@@ -1236,13 +1445,15 @@
         - name: Elektronische berichten
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Globalisatie
-      href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Globalisatieresources
+          href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
         - name: Wettelijk voorgeschreven updates
           href: ../financials/localizations/regulatory-updates.md
         - name: Australië
-          href: ../financials/localizations/australia.md
           items:
+            - name: Overzicht Australië
+              href: ../financials/localizations/australia.md
             - name: BAS (Business Activity Statement)
               href: ../financials/localizations/apac-aus-business-activity-statement.md
             - name: Rapportvakken toevoegen en de BAS genereren
@@ -1252,8 +1463,9 @@
             - name: Redencodes instellen voor de BAS
               href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
         - name: Oostenrijk
-          href: ../financials/localizations/austria.md
           items:
+            - name: Overzicht Oostenrijk
+              href: ../financials/localizations/austria.md
             - name: Halfjaarlijkse afschrijving op extra verwervingen
               href: ../financials/localizations/emea-aut-half-year-depreciation.md
             - name: Bijzondere verpakkingsmateriaalkosten
@@ -1261,8 +1473,9 @@
             - name: Btw-overzicht
               href: ../financials/localizations/emea-aut-vat-statement-details.md
         - name: België
-          href: ../financials/localizations/belgium.md
           items:
+            - name: Overzicht België
+              href: ../financials/localizations/belgium.md
             - name: CODA-bankafschrift
               href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
             - name: Transacties maken en overboeken naar het BLWI
@@ -1276,13 +1489,15 @@
             - name: PRODCOM instellen en onderhouden
               href: ../financials/localizations/emea-bel-prodcom-report.md
         - name: Brazilië
-          href: ../financials/localizations/brazil.md
           items:
-            - name: Scope voor lokaliseren
+            - name: Overzicht Brazilië
+              href: ../financials/localizations/brazil.md
+            - name: Reikwijdte van lokalisatie
               href: ../financials/localizations/latam-bra-scope.md
             - name: Belastingboeken
-              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
+                - name: Overzicht van belastingboeken voor Brazilië
+                  href: ../financials/localizations/latam-bra-fiscal-books.md
                 - name: Belastingboeken configureren
                   href: ../financials/localizations/latam-bra-configure-fiscal-books.md
                 - name: Belastingdocumenten voor ICMS-belasting
@@ -1350,9 +1565,10 @@
                 - name: Projectdebetnota's
                   href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
             - name: NF-e-proces
-              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
-                - name: Automatische transmissie van fiscale NF-e documenten
+                - name: Overzicht van NF-e-proces voor Brazilië
+                  href: ../financials/localizations/latam-bra-nf-e-process.md
+                - name: Automatische transmissie van fiscale NF-e-documenten
                   href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
                 - name: E-mails genereren voor goedgekeurde NF-e- en DANFE PDF-bestanden en NF-e-XML-bestanden koppelen aan de e-mailberichten
                   href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
@@ -1396,9 +1612,10 @@
               href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
             - name: Rente en boetes berekenen voor klantbetalingen
               href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
-            - name: Belastingen
-              href: ../financials/localizations/latam-bra-calculate-taxes.md
+            - name: Btw
               items:
+                - name: Overzicht van belastingen voor Brazilië
+                  href: ../financials/localizations/latam-bra-calculate-taxes.md
                 - name: Belasting op inkoopoffertes berekenen
                   href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
                 - name: Een belastingbeoordeling maken - ICMS
@@ -1444,8 +1661,9 @@
                 - name: Bronbelasting op betalingen van leveranciers
                   href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
         - name: China
-          href: ../financials/localizations/china.md
           items:
+            - name: Overzicht China
+              href: ../financials/localizations/china.md
             - name: Finance and Operations geëxploiteerd door 21Vianet in China
               href: ../dev-itpro/deployment/china-local-deployment.md
             - name: Vergelijking van stuklijsten
@@ -1485,8 +1703,9 @@
             - name: Veelgestelde vragen over btw bij klantfacturen
               href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
         - name: Tsjechië
-          href: ../financials/localizations/czech-republic.md
           items:
+            - name: Tsjechië
+              href: ../financials/localizations/czech-republic.md
             - name: Creditnota voor contantkorting
               href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
             - name: Vaste activa
@@ -1514,8 +1733,9 @@
             - name: Jaarafsluiting
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: Denemarken
-          href: ../financials/localizations/denmark.md
           items:
+            - name: Overzicht Denemarken
+              href: ../financials/localizations/denmark.md
             - name: Een betalingsbonindeling aan een klantrekening toewijzen
               href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
             - name: Een klantfactuur maken en boeken voor een klant in de openbare sector
@@ -1539,18 +1759,21 @@
             - name: Indeling betalingsbon instellen
               href: ../financials/localizations/tasks/set-up-payment-slip-format.md
         - name: Estland
-          href: ../financials/localizations/estonia.md
           items:
+            - name: Overzicht Estland
+              href: ../financials/localizations/estonia.md
             - name: Verzoeken voor persoonlijke informatie
               href: ../financials/localizations/emea-est-personal-info.md
             - name: Btw-overzicht
               href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: Europa
-          href: ../financials/localizations/europe.md
           items:
+            - name: Overzicht Europa
+              href: ../financials/localizations/europe.md
             - name: Voorschothouders
-              href: ../financials/localizations/emea-advance-holders.md
               items:
+                - name: Overzicht van Voorschothouders
+                  href: ../financials/localizations/emea-advance-holders.md
                 - name: Voorschothoudertransacties
                   href: ../financials/localizations/emea-advance-holders-transactions.md
                 - name: Betaling van voorschot aan een werknemer (Oost-Europa)
@@ -1606,8 +1829,9 @@
                 - name: Leveranciersbetalingen maken en exporteren met de ISO20022-betalingsindeling
                   href: ../financials/localizations/tasks/create-export-vendor-payments-iso20022-payment-format.md
             - name: Intrastat
-              href: ../financials/localizations/emea-intrastat.md
               items:
+                - name: Intrastat-overzicht
+                  href: ../financials/localizations/emea-intrastat.md
                 - name: Transacties overboeken naar Intrastat
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
                 - name: Een vrachtadres opgeven voor een intracommunautaire transactie
@@ -1685,8 +1909,9 @@
             - name: Transacties weergeven bij vereffening
               href: ../financials/localizations/emea-transactions-settlement-form.md
         - name: Frankrijk
-          href: ../financials/localizations/france.md
           items:
+            - name: Overzicht Frankrijk
+              href: ../financials/localizations/france.md
             - name: Openbare sector
               items:
                 - name: Rekeningen voor de openbare sector
@@ -1695,7 +1920,7 @@
                   href: ../financials/localizations/emea-fra-commitments-public-sector.md
                 - name: Mandats de paiement
                   href: ../financials/localizations/emea-fra-mandats-de-paiement.md
-                - name: Inkoop en sourcing
+                - name: Inkoopbeheer
                   href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
                 - name: Titres de recette
                   href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
@@ -1740,13 +1965,15 @@
                 - name: Implementatierichtlijnen voor kassa's
                   href: ../retail/localizations/emea-fra-deployment.md
         - name: Duitsland
-          href: ../financials/localizations/germany.md
           items:
+            - name: Overzicht Duitsland
+              href: ../financials/localizations/germany.md
             - name: Extra verwervingsafschrijving
               href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-            - name: Auditbestand
-              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
+            - name: Auditfile
               items:
+                - name: Overzicht van Duits auditfile
+                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                 - name: Configuratie van auditfile aanpassen
                   href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
                 - name: Auditfile genereren
@@ -1762,8 +1989,9 @@
             - name: Elektronische belastingaangiften instellen
               href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
         - name: Hongarije
-          href: ../financials/localizations/hungary.md
           items:
+            - name: Overzicht Hongarije
+              href: ../financials/localizations/hungary.md
             - name: Berekening wisselkoers
               href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
             - name: Afschrijvingsmethoden voor vaste activa
@@ -1777,8 +2005,9 @@
             - name: Jaarafsluiting
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: IJsland
-          href: ../financials/localizations/iceland.md
           items:
+            - name: Overzicht IJsland
+              href: ../financials/localizations/iceland.md
             - name: Een leverancierrekening maken en de factuuraangiftecategorie koppelen
               href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
             - name: Een factuuraangifte voor leveranciers instellen
@@ -1788,11 +2017,15 @@
             - name: Leveranciersfactuuraangiften bijwerken en het rapport genereren
               href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
         - name: India
-          href: ../financials/localizations/india.md
           items:
+            - name: Overzicht India
+              href: ../financials/localizations/india.md
+            - name: Reikwijdte van de Indiase lokalisaties
+              href: ../financials/localizations/apac-ind-scope.md
             - name: Vaste activa
-              href: ../financials/localizations/apac-ind-fixed-assets.md
               items:
+                - name: Overzicht van Vaste activa voor India
+                  href: ../financials/localizations/apac-ind-fixed-assets.md
                 - name: Een dagkalender aan een vaste-activaboek koppelen
                   href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
                 - name: Afschrijving van dienst berekenen
@@ -1816,9 +2049,10 @@
                 - name: Overboeking van kapitaalitems naar het vaste activum
                   href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
             - name: India GST
-              href: ../financials/localizations/apac-ind-gst.md
               items:
-                - name: Referentiegroepen India GST
+                - name: GST-overzicht India
+                  href: ../financials/localizations/apac-ind-gst.md
+                - name: GST-referentiegroepen India
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: GST-integratie voor kassa's
                   href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
@@ -1960,22 +2194,27 @@
                   href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
                 - name: Implementatierichtlijnen voor kassa's
                   href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: Overzicht van belastingberekenfunctie
-              href: ../financials/general-ledger/tax-engine.md
+            - name: Belastingberekenfunctie
               items:
-                - name: Configuratie importeren
-                  href: ../financials/general-ledger/tax-engine-import-configuration.md
-                - name: Toepasbaarheid van belastingberekenfunctie
-                  href: ../financials/general-ledger/tax-engine-applicability.md
-                - name: Integratie van belastingberekenfunctie
-                  href: ../financials/general-ledger/tax-engine-integration.md
-                - name: De belastingberekenfunctie uitbreiden
-                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+                - name: Overzicht van Belastingberekenfunctie
+                  href: ../financials/general-ledger/tax-engine.md
+                  items:
+                    - name: Configuratie importeren
+                      href: ../financials/general-ledger/tax-engine-import-configuration.md
+                    - name: Toepasbaarheid van belastingberekenfunctie
+                      href: ../financials/general-ledger/tax-engine-applicability.md
+                    - name: Integratie van belastingberekenfunctie
+                      href: ../financials/general-ledger/tax-engine-integration.md
+                    - name: De belastingberekenfunctie uitbreiden
+                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
             - name: Veelgestelde vragen over btw-drempels
               href: ../financials/localizations/apac-ind-tax-thresholds.md
+            - name: Voorraadoverboekingen
+              href: ../financials/localizations/apac-ind-stock-transfer.md
         - name: Italië
-          href: ../financials/localizations/italy.md
           items:
+            - name: Overzicht Italië
+              href: ../financials/localizations/italy.md
             - name: Details btw-overzichten
               href: ../financials/localizations/emea-ita-vat-statements-details.md
             - name: Zwarte-lijstrapport
@@ -1997,8 +2236,9 @@
             - name: Bronbelasting
               href: ../financials/localizations/emea-ita-withholding-tax.md
         - name: Japan
-          href: ../financials/localizations/japan.md
           items:
+            - name: Overzicht Japan
+              href: ../financials/localizations/japan.md
             - name: Een vast activum aanschaffen en de overheidssubsidie aanvragen
               href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
             - name: Een vast activum aanschaffen met de verplichtingen van activapensionering
@@ -2156,8 +2396,9 @@
             - name: Demonteerlijst voor vaste activa gebruiken
               href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
         - name: Letland
-          href: ../financials/localizations/latvia.md
           items:
+            - name: Overzicht Letland
+              href: ../financials/localizations/latvia.md
             - name: Boekhouding van vaste activa
               href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
             - name: Wijzigingen bijhouden voor locaties van vaste activa
@@ -2169,8 +2410,9 @@
             - name: Details btw-overzicht
               href: ../financials/localizations/emea-lva-vat-statement-details.md
         - name: Litouwen
-          href: ../financials/localizations/lithuania.md
           items:
+            - name: Overzicht Litouwen
+              href: ../financials/localizations/lithuania.md
             - name: Rapport over reparaties van vaste activa
               href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
             - name: Overboeking van vast activum genereren tussen magazijnendocument
@@ -2180,8 +2422,9 @@
             - name: Details btw-overzicht
               href: ../financials/localizations/emea-ltu-vat-statement-details.md
         - name: Maleisië
-          href: ../financials/localizations/malaysia.md
           items:
+            - name: Overzicht Maleisië
+              href: ../financials/localizations/malaysia.md
             - name: Klantkrediet voor projectverkoop genereren
               href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
             - name: Klantdebitering voor projectverkoop genereren
@@ -2203,9 +2446,10 @@
             - name: GST-hulpclausules instellen
               href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
         - name: Mexico
-          href: ../financials/localizations/mexico.md
           items:
-            - name: Scope voor lokaliseren
+            - name: Overzicht Mexico
+              href: ../financials/localizations/mexico.md
+            - name: Reikwijdte van lokalisatie
               href: ../financials/localizations/latam-mex-scope.md
             - name: Inflatiecorrectie-declaratierapport
               href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
@@ -2242,15 +2486,17 @@
             - name: Leveranciersregistratie-id's
               href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
         - name: Nederland
-          href: ../financials/localizations/netherlands.md
           items:
+            - name: Overzicht Nederland
+              href: ../financials/localizations/netherlands.md
             - name: Elektronische belastingaangiften (EVAT)
               href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
             - name: Semansys XBRL-integratie
               href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
         - name: Noorwegen
-          href: ../financials/localizations/norway.md
           items:
+            - name: Overzicht Noorwegen
+              href: ../financials/localizations/norway.md
             - name: Indelingen voor klant- en leveranciersbetalingen
               href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
             - name: Klantbetaling op basis van betalings-id
@@ -2264,8 +2510,9 @@
             - name: Implementatierichtlijnen voor kassa's
               href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
         - name: Polen
-          href: ../financials/localizations/poland.md
           items:
+            - name: Overzicht Polen
+              href: ../financials/localizations/poland.md
             - name: Stornoboekhouding activeren
               href: ../financials/localizations/emea-pol-red-storno.md
             - name: Regelkortingen berekenen op basis van eenheidsprijs
@@ -2293,8 +2540,9 @@
             - name: Overzicht van omzetsaldi
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: Rusland
-          href: ../financials/localizations/russia.md
           items:
+            - name: Overzicht Rusland
+              href: ../financials/localizations/russia.md
             - name: Grootboek
               items:
                 - name: Het in overeenstemming brengen van rekeningen
@@ -2306,8 +2554,9 @@
                 - name: Valutawisselkoersen importeren vanuit CBRF
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Voorschothouders
-              href: ../financials/localizations/rus-advance-holders.md
               items:
+                - name: Overzicht van Voorschothouders voor Rusland
+                  href: ../financials/localizations/rus-advance-holders.md
                 - name: Een voorschothouder maken
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Dagelijkse bewerkingen voor voorschothouders
@@ -2318,18 +2567,26 @@
                   href: ../financials/localizations/rus-advance-adjustment-parameters.md
                 - name: Rapporten voorschothouders
                   href: ../financials/localizations/rus-local-management-reports-primary-forms.md
-            - name: Bank
+            - name: Contanten en bank
               items:
                 - name: Bankrekeningen instellen
                   href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
                 - name: Betalingsopdrachten instellen en verwerken
                   href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: Koerscorrectie
+                  href: ../financials/localizations/rus-exchange-adjustment.md
                 - name: 'Verkopen, inkopen en overboekingen in vreemde valuta'
                   href: ../financials/localizations/rus-currency-sale-purchase.md
+                - name: Kleine kas
+                  href: ../financials/localizations/emea-petty-cash.md
             - name: Btw
               items:
                 - name: Specifiek lokaal boeken van te betalen btw
                   href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
+                - name: Facturen verwerken en afdrukken
+                  href: ../financials/localizations/rus-invoice-facture-process-print.md
+                - name: Revisiefacturen en correctiefacturen
+                  href: ../financials/localizations/rus-revise-invoice-facture.md
                 - name: Belasting toegevoegde waarde (btw) voor belastingmedewerkers
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: Btw-aangifte
@@ -2382,6 +2639,8 @@
                   href: ../financials/localizations/rus-not-valuable-assets.md
             - name: Leveranciers en klanten
               items:
+                - name: Creditnotacorrecties (Rusland)
+                  href: ../financials/localizations/rus-credit-note-correction.md
                 - name: Facturen voor betaling
                   href: ../financials/localizations/rus-invoice-payment.md
                 - name: Dimensiecontrole voor vereffeningen instellen
@@ -2429,20 +2688,23 @@
                 - name: Rapportage voor uitgestelde posten
                   href: ../financials/localizations/rus-reporting-deferrals.md
         - name: Saudi-Arabië
-          href: ../financials/localizations/saudi-arabia.md
           items:
+            - name: Overzicht Saudi-Arabië
+              href: ../financials/localizations/saudi-arabia.md
             - name: Btw
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Zakat-rapportage voor Saudi-Arabië
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: Singapore
-          href: ../financials/localizations/singapore.md
           items:
+            - name: Overzicht Singapore
+              href: ../financials/localizations/singapore.md
             - name: Het GST-05-rapport maken
               href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
         - name: Spanje
-          href: ../financials/localizations/spain.md
           items:
+            - name: Overzicht Spanje
+              href: ../financials/localizations/spain.md
             - name: Contantkortingen toepassen in de factuur
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Wisselopties
@@ -2472,8 +2734,9 @@
             - name: Speciale boekingen en openingsbladen
               href: ../financials/localizations/emea-esp-opening-sheets-spain.md
         - name: Zweden
-          href: ../financials/localizations/sweden.md
           items:
+            - name: Overzicht Zweden
+              href: ../financials/localizations/sweden.md
             - name: Financiële informatie voor auditoren exporteren in Zweden
               href: ../financials/localizations/emea-swe-sie-standard-report.md
             - name: Betalingsindelingen voor import
@@ -2481,13 +2744,15 @@
             - name: Kassa's
               href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
         - name: Zwitserland
-          href: ../financials/localizations/switzerland.md
           items:
+            - name: Overzicht Zwitserland
+              href: ../financials/localizations/switzerland.md
             - name: Betalingen van klant importeren in ESR
               href: ../financials/localizations/emea-che-esr-customer-payments-import.md
         - name: Thailand
-          href: ../financials/localizations/thailand.md
           items:
+            - name: Overzicht Thailand
+              href: ../financials/localizations/thailand.md
             - name: Voorraadkaartrapporten
               href: ../financials/localizations/apac-tha-stock-card-reports.md
             - name: Vervanging/correctie van btw-factuur
@@ -2497,8 +2762,9 @@
             - name: Bronbelasting
               href: ../financials/localizations/apac-tha-withholding-tax.md
         - name: Verenigd Koninkrijk
-          href: ../financials/localizations/united-kingdom.md
           items:
+            - name: Overzicht Verenigd Koninkrijk
+              href: ../financials/localizations/united-kingdom.md
             - name: Construction Industry Scheme
               href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
             - name: Een creditnota maken voor de vereffeningskorting
@@ -2516,15 +2782,17 @@
             - name: Belasting digitaal maken voor btw
               href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
         - name: Verenigde Staten
-          href: ../financials/localizations/united-states.md
           items:
+            - name: Overzicht Verenigde Staten
+              href: ../financials/localizations/united-states.md
             - name: Eindejaars 1099-aangifte voor de Verenigde Staten
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
             - name: Formulier 1099 voor de publieke sector
               href: ../financials/localizations/noam-usa-form-1099-public-sector.md
     - name: Human Resources
-      href: hr/hr-landing-page.md
       items:
+        - name: Overzicht van Human resources
+          href: hr/hr-landing-page.md
         - name: Een strategie voor Human resources ontwikkelen
           items:
             - name: Doelstellingen maken
@@ -2563,7 +2831,7 @@
               href: ../talent/loan-items.md
             - name: Een opvolgingsplan ontwikkelen
               href: hr/tasks/develop-succession-plan.md
-            - name: Projectroosters invoeren
+            - name: Project Timesheets invoeren
               href: hr/tasks/enter-project-timesheets.md
             - name: E-mailsjablonen beheren
               href: hr/tasks/manage-email-templates.md
@@ -2676,8 +2944,9 @@
             - name: Informatie over letsel en ziekte bij werknemers bijhouden
               href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: Salarisadministratie VS
-          href: hr/localizations/noam-usa-payroll.md
           items:
+            - name: Overzicht van Salarisadministratie VS
+              href: hr/localizations/noam-usa-payroll.md
             - name: Salarisadministratie instellen
               items:
                 - name: Salarisadministratie instellen voor medewerkers
@@ -2743,18 +3012,20 @@
                 - name: Standaardsalarisrapporten
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
     - name: Intelligence
-      href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Startpagina van Intelligence
+          href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
         - name: Informatietoegang en -rapportage
           href: ../dev-itpro/analytics/information-access-reporting.md?toc=/fin-and-ops/toc.json
         - name: Power BI-inhoud
-          href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Startpagina van Power BI-inhoud
+              href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
             - name: Werkelijk vs. budget
               href: ../dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Vergoedingen
               href: ../dev-itpro/analytics/benefits-power-bi.md?toc=/fin-and-ops/toc.json
-            - name: Overzicht van contant geld
+            - name: Overzicht van Contant geld
               href: ../financials/cash-bank-management/Cash-Overview-Power-BI-content.md
             - name: CFO-overzicht
               href: ../dev-itpro/analytics/CFO-power-bi.md?toc=/fin-and-ops/toc.json
@@ -2763,8 +3034,9 @@
             - name: Compensatie en vergoedingen
               href: ../dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Analyse van kostprijsboekhouding
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Analyse van kostprijsboekhouding Power BI-inhoud
+                  href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
                 - name: Beveiliging instellen voor de kostprijsboekhoudingsanalyse van Power BI-inhoud
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Kostenbeheer
@@ -2807,13 +3079,14 @@
               href: ../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
         - name: Documenten rapporteren en afdrukken
           items:
-            - name: Overzicht van documentrapportservices
+            - name: Overzicht van Documentrapportservices
               href: ../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json
             - name: SSRS configureren voor on-premises implementaties
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: Afdrukken
-              href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Overzicht van Documenten afdrukken
+                  href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
                 - name: De documentrouteringsagent installeren om afdrukken via het netwerk in te schakelen
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: De documentrouteringsagent upgraden
@@ -2910,10 +3183,8 @@
                       href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
             - name: Indelingen voor elektronische rapportage wijzigen door Excel-sjablonen opnieuw toe te passen
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: ER-configuraties ontwerpen die afhankelijk zijn van de Finance and Operations-versie
-              items:
-                - name: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
-                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
             - name: Een ER-oplossing ontwerpen voor het gebruik van financiële dimensies
               items:
                 - name: Gegevensmodellen ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
@@ -3032,6 +3303,8 @@
                       href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
                 - name: Uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
                   href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+                - name: Overzicht van Beheer van bedrijfsdocumenten
+                  href: ../dev-itpro/analytics/er-business-document-management.md?toc=/fin-and-ops/toc.json
             - name: API ER-raamwerk
               items:
                 - name: De lijst met functies voor elektronische rapportage uitbreiden
@@ -3081,16 +3354,19 @@
             - name: Uw eigen database gebruiken
               href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
     - name: Voorraadbeheer
-      href: ../supply-chain/inventory/inventory-home-page.md
       items:
-        - name: Overzicht aankomst
-          href: ../supply-chain/inventory/arrival-overview.md
+        - name: Overzicht van Voorraadbeheer
+          href: ../supply-chain/inventory/inventory-home-page.md
+        - name: Ontvangst
           items:
-            - name: Een aankomstoverzichtsprofiel instellen voor een artikel
+            - name: Overzicht van Ontvangst
+              href: ../supply-chain/inventory/arrival-overview.md
+            - name: Een ontvangstoverzichtsprofiel instellen voor een artikel
               href: ../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md
         - name: Kwaliteitsbeheer
-          href: ../supply-chain/inventory/enable-quality-management.md
           items:
+            - name: Overzicht van Kwaliteitsbeheer
+              href: ../supply-chain/inventory/enable-quality-management.md
             - name: Processen voor kwaliteitsbeheer
               href: ../supply-chain/inventory/quality-management-processes.md
             - name: Beheer van niet-conformering
@@ -3156,8 +3432,9 @@
             - name: Mobiel werkgebied voorhanden voorraad
               href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md
         - name: Uitgaand proces
-          href: ../supply-chain/inventory/outbound-process.md
           items:
+            - name: Overzicht van Uitgaand proces
+              href: ../supply-chain/inventory/outbound-process.md
             - name: Voorraadhoeveelheden reserveren
               href: ../supply-chain/inventory/reserve-inventory-quantities.md
             - name: Dezelfde batch reserveren voor een verkooporder
@@ -3265,12 +3542,140 @@
               href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
             - name: Rapporten over onderhoudsaanvragen
               href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
-    - name: Hoofdplanning
-      href: ../supply-chain/master-planning/master-planning-home-page.md
-      items:
-        - name: Hoofdplannen
-          href: ../supply-chain/master-planning/master-plans.md
+        - name: Instellingen voor werkorders
           items:
+            - name: 'Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten'
+              href: ../supply-chain/asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
+            - name: Levenscyclusstatussen van werkorder
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-lifecycle-states.md
+            - name: Werkordertypen
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-types.md
+            - name: Projectinstellingen werkorder
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-project-setup.md
+            - name: Serviceniveau en -beschrijving
+              href: ../supply-chain/asset-management/setup-for-work-orders/service-level-and-description.md
+            - name: Geplande uitvoering
+              href: ../supply-chain/asset-management/setup-for-work-orders/scheduled-execution.md
+            - name: Foutbeheer
+              href: ../supply-chain/asset-management/setup-for-work-orders/fault-management.md
+        - name: Werkorders
+          items:
+            - name: Inleiding tot werkorders
+              href: ../supply-chain/asset-management/work-orders/introduction-to-work-orders.md
+            - name: Handmatig gemaakte werkorders
+              href: ../supply-chain/asset-management/work-orders/manually-created-workorders.md
+            - name: Prognoses voor onderhoud
+              href: ../supply-chain/asset-management/work-orders/maintenance-forecasts.md
+            - name: Inkoop
+              href: ../supply-chain/asset-management/work-orders/procurement.md
+            - name: Handmatig bijwerken van activatellers
+              href: ../supply-chain/asset-management/work-orders/manual-update-of-asset-counters.md
+            - name: Automatisch bijwerken van activatellers
+              href: ../supply-chain/asset-management/work-orders/automatic-update-of-asset-counters.md
+            - name: Onderhoudscontrolelijsten
+              href: ../supply-chain/asset-management/work-orders/maintenance-checklists.md
+            - name: Uitvaltijd voor onderhoud
+              href: ../supply-chain/asset-management/work-orders/maintenance-downtime.md
+            - name: Fout aan werkorder toevoegen
+              href: ../supply-chain/asset-management/work-orders/add-fault-to-work-order.md
+            - name: Werkorderrapport
+              href: ../supply-chain/asset-management/work-orders/work-order-report.md
+            - name: Werkordergroepen
+              href: ../supply-chain/asset-management/work-orders/work-order-pools.md
+            - name: Actieve onderhoudstaken voor werkorder
+              href: ../supply-chain/asset-management/work-orders/active-work-order-jobs-overview.md
+            - name: Werkorders en vaste activa
+              href: ../supply-chain/asset-management/work-orders/work-orders-and-fixed-assets.md
+        - name: Integratie met Projectbeheer en boekhouding
+          items:
+            - name: 'Prognoses, werkorders en projecten'
+              href: ../supply-chain/asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+        - name: Preventief en reactief onderhoud
+          items:
+            - name: Preventief onderhoud
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
+            - name: Onderhoudsplannen
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-plans.md
+            - name: Schema voor onderhoudsplannen
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/schedule-maintenance-plans.md
+            - name: Onderhoudsrondes
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-rounds.md
+            - name: Onderhoudsschema
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule.md
+            - name: Kosten onderhoudsschema
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
+            - name: Werkorders maken
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
+            - name: Uitvaltijd voor onderhoud
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
+        - name: Capaciteitsplanning
+          items:
+            - name: Capaciteitsbelasting berekenen
+              href: ../supply-chain/asset-management/capacity-planning/calculate-capacity-load.md
+            - name: Artikelprognose berekenen
+              href: ../supply-chain/asset-management/capacity-planning/calculate-item-forecast.md
+        - name: Planning werkorder
+          items:
+            - name: Kalender en planning van onderhoudsmedewerkers
+              href: ../supply-chain/asset-management/work-order-scheduling/maintenance-worker-calendar-and-scheduling.md
+            - name: Onderhoudsmedewerkers van voorkeur
+              href: ../supply-chain/asset-management/work-order-scheduling/preferred-maintenance-workers.md
+            - name: Werkorders plannen
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-orders.md
+            - name: Werkorder verzenden
+              href: ../supply-chain/asset-management/work-order-scheduling/dispatch-work-order.md
+            - name: Werkorder op specifieke datum en tijd plannen
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-order-on-specific-date-and-time.md
+            - name: Geplande onderhoudstaken voor werkorder
+              href: ../supply-chain/asset-management/work-order-scheduling/scheduled-work-order-maintenance-jobs.md
+            - name: Capaciteitsbelasting voor geplande werkorders berekenen
+              href: ../supply-chain/asset-management/work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md
+        - name: Verbruik
+          items:
+            - name: Verbruik registreren
+              href: ../supply-chain/asset-management/consumption/register-consumption.md
+            - name: Verbruiksrapporten maken
+              href: ../supply-chain/asset-management/consumption/create-consumption-reports.md
+        - name: Garantie
+          items:
+            - name: Garantieovereenkomst
+              href: ../supply-chain/asset-management/warranty/warranty-agreement.md
+            - name: Garantie op activa en activatypen
+              href: ../supply-chain/asset-management/warranty/warranty-on-assets-and-asset-types.md
+        - name: Onderhoudsbudgetten
+          items:
+            - name: Onderhoudsbudgetten
+              href: ../supply-chain/asset-management/maintenance-budgets/create-maintenance-budget.md
+            - name: Onderhoudsbudgetten bijwerken
+              href: ../supply-chain/asset-management/maintenance-budgets/update-maintenance-budget.md
+        - name: Controle en rapportage
+          items:
+            - name: Kosten- en datumcontrole
+              href: ../supply-chain/asset-management/controlling-and-reporting/cost-and-date-control.md
+            - name: Controle van werkuren
+              href: ../supply-chain/asset-management/controlling-and-reporting/work-hour-control.md
+            - name: Kostencontrole activafout
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-cost-control.md
+            - name: Foutanalyse activum
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-analysis.md
+            - name: Activum-KPI's
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-kpis.md
+            - name: Artikel waar gebruikt
+              href: ../supply-chain/asset-management/controlling-and-reporting/item-where-used.md
+            - name: Onderhoudsstatus
+              href: ../supply-chain/asset-management/controlling-and-reporting/maintenance-status.md
+        - name: Gegevensbeheer
+          items:
+            - name: Doelentiteiten
+              href: ../supply-chain/asset-management/data-management/target-entities.md
+    - name: Hoofdplanning
+      items:
+        - name: Startpagina van Hoofdplanning
+          href: ../supply-chain/master-planning/master-planning-home-page.md
+        - name: Hoofdplannen
+          items:
+            - name: Overzicht van Hoofdplannen
+              href: ../supply-chain/master-planning/master-plans.md
             - name: Hoofdplannen instellen
               href: ../supply-chain/master-planning/master-planning-setup.md
             - name: Wizard voor instellen van hoofdplanning
@@ -3303,9 +3708,10 @@
               href: ../supply-chain/master-planning/supply-chain-calendars-master-planning.md
             - name: Prestaties van hoofdplanning verbeteren
               href: ../supply-chain/master-planning/master-planning-performance.md
-            - name: Hoofdplannen en de functionaliteit voor meerdere locaties
-              href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
+            - name: Hoofdplannen en functionaliteit voor meerdere locaties
               items:
+                - name: Overzicht van Hoofdplannen en functionaliteit voor meerdere locaties
+                  href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
                 - name: 'Hoofdplanning voor locatiebehoefte, magazijn verplicht'
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md
                 - name: 'Hoofdplanning voor locatiebehoefte, magazijn niet verplicht'
@@ -3327,9 +3733,10 @@
             - name: Samenwerken met interne klanten van toeleveringsketen
               href: ../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md
         - name: Vraagprognose
-          href: ../supply-chain/master-planning/introduction-demand-forecasting.md
           items:
-            - name: Instelling van vraagprognose
+            - name: Overzicht van Vraagprognose
+              href: ../supply-chain/master-planning/introduction-demand-forecasting.md
+            - name: Instelling van Vraagprognose
               href: ../supply-chain/master-planning/demand-forecasting-setup.md
             - name: Historische gegevens voor vraagprognoses importeren
               href: ../supply-chain/master-planning/import-historical-data.md
@@ -3349,12 +3756,14 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Handmatig een vraagprognose wijzigen
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Mobiele app
-      href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+    - name: Dynamics 365 for Unified Operations Mobile-app
       items:
-        - name: Beschikbare mobiele werkgebieden
-          href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
+        - name: Startpagina van Dynamics 365 for Unified Operations Mobile-app
+          href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+        - name: Mobiele werkgebieden
           items:
+            - name: Beschikbare mobiele werkgebieden
+              href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
             - name: Adresboek van bedrijf
               href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Kostenbeheer
@@ -3367,11 +3776,11 @@
               href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Mijn team
               href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
-            - name: Projectoverzicht mobiele toepassingen
+            - name: Overzicht van Mobiele Project-toepassingen
               href: ../financials/project-management/project-mobile-application-overview.md
             - name: Projecttijdinvoer
               href: ../financials/project-management/project-time-entry-mobile-workspace.md
-            - name: Projectrooster
+            - name: Project Timesheet
               href: ../financials/project-management/project-timesheet.md
             - name: Goedkeuring van inkooporder
               href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
@@ -3382,8 +3791,9 @@
         - name: Mobiele werkgebieden publiceren
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Office-integratie
-      href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Overzicht van Office-integratie
+          href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
         - name: Zelfstudie Office-integratie
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
         - name: Entiteitsgegevens in Excel openen en bijwerken met de Excel-invoegtoepassing
@@ -3400,26 +3810,30 @@
           href: ../dev-itpro/dev-tools/sysmailer-develop.md
         - name: Problemen met Office-integratie oplossen
           href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/fin-and-ops/toc.json
-    - name: Inkoop en sourcing
-      href: ../supply-chain/procurement/procurement-sourcing-overview.md
+    - name: Inkoopbeheer
       items:
-        - name: Workflow voor inkoopbeheer
+        - name: Overzicht van Inkoopbeheer
+          href: ../supply-chain/procurement/procurement-sourcing-overview.md
+        - name: Workflow voor Inkoopbeheer
           href: ../supply-chain/procurement/procurement-sourcing-workflows.md
-        - name: Inkoopcatalogi
-          href: ../supply-chain/procurement/procurement-catalogs.md
+        - name: Aanschaffingscatalogi
           items:
-            - name: Een inkoopcatalogus maken
+            - name: Overzicht van Aanschaffingscatalogi
+              href: ../supply-chain/procurement/procurement-catalogs.md
+            - name: Een aanschaffingscatalogus maken
               href: ../supply-chain/procurement/tasks/create-procurement-catalog.md
             - name: Een hiërarchie van aanschaffingscategorieën instellen
               href: ../supply-chain/procurement/tasks/set-up-procurement-category-hierarchy.md
         - name: Opdrachten tot inkoop
-          href: ../supply-chain/procurement/purchase-requisitions-overview.md
           items:
+            - name: Overzicht van Opdrachten tot inkoop
+              href: ../supply-chain/procurement/purchase-requisitions-overview.md
             - name: Workflow voor opdrachten tot inkoop
               href: ../supply-chain/procurement/purchase-requisitions-workflow.md
-        - name: Offerteaanvragen (RFQ's)
-          href: ../supply-chain/procurement/request-quotations.md
+        - name: Offerteaanvragen
           items:
+            - name: Overzicht van Offerteaanvragen
+              href: ../supply-chain/procurement/request-quotations.md
             - name: Een offerteaanvraag maken
               href: ../supply-chain/procurement/tasks/create-request-quotation.md
             - name: Een bestelopdracht maken die een offerteaanvraag gebruikt
@@ -3470,9 +3884,10 @@
               href: ../supply-chain/procurement/tasks/create-purchase-agreement.md
             - name: Leverancierskortingen
               href: ../supply-chain/procurement/vendor-rebates.md
-        - name: Inkoopbeleid
-          href: ../supply-chain/procurement/purchase-policies.md
+        - name: Aanschafbeleid
           items:
+            - name: Overzicht van Aanschafbeleid
+              href: ../supply-chain/procurement/purchase-policies.md
             - name: Een aanschafbeleid maken
               href: ../supply-chain/procurement/tasks/create-purchasing-policies.md
             - name: Beleid instellen voor categoriehiërarchieën voor aanschaffing
@@ -3521,7 +3936,7 @@
               href: ../supply-chain/procurement/tasks/search-vendors.md
             - name: Machtigingen instellen voor het bestellen van producten namens iemand anders
               href: ../supply-chain/procurement/tasks/set-up-permissions-ordering-products.md
-        - name: Taken voor inkoopbeheer
+        - name: Taken voor Inkoopbeheer
           items:
             - name: Informatie voor projectresource instellen
               href: ../supply-chain/procurement/tasks/set-up-project-resource-information.md
@@ -3530,18 +3945,21 @@
             - name: Revisies van projectbudget indienen en goedkeuren
               href: ../supply-chain/procurement/tasks/submit-approve-project-budget-revision.md
     - name: Organisatiebeheer
-      href: organization-administration/organization-administration-home-page.md
       items:
+        - name: Startpagina van Organisatiebeheer
+          href: organization-administration/organization-administration-home-page.md
         - name: Nummerreeksen
-          href: organization-administration/number-sequence-overview.md
           items:
+            - name: Overzicht van Nummerreeksen
+              href: organization-administration/number-sequence-overview.md
             - name: Nummerreeksen instellen op een individuele basis
               href: organization-administration/tasks/set-up-number-sequences-individual-basis.md
             - name: Nummerreeksen instellen met een wizard
               href: organization-administration/tasks/set-up-number-sequences-wizard.md
         - name: Organisaties en organisatiehiërarchieën
-          href: organization-administration/organizations-organizational-hierarchies.md
           items:
+            - name: Overzicht van Organisaties en organisatiehiërarchieën
+              href: organization-administration/organizations-organizational-hierarchies.md
             - name: Uw organisatiehiërarchie plannen
               href: organization-administration/plan-organizational-hierarchy.md
             - name: Een organisatiehiërarchie maken
@@ -3551,8 +3969,9 @@
             - name: Operationele eenheden maken
               href: organization-administration/tasks/create-operating-unit.md
         - name: Globaal adresboek
-          href: organization-administration/overview-global-address-book.md
           items:
+            - name: Overzicht van Globaal adresboek
+              href: organization-administration/overview-global-address-book.md
             - name: Het globale adresboek en andere adresboeken plannen
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Het globale adresboek configureren
@@ -3562,8 +3981,9 @@
             - name: Adresboeken configureren
               href: organization-administration/tasks/address-books.md
         - name: Workflowsysteem
-          href: organization-administration/overview-workflow-system.md
           items:
+            - name: Overzicht van Workflowsysteem
+              href: organization-administration/overview-workflow-system.md
             - name: Workflowsysteemarchitectuur
               href: organization-administration/workflow-system-architecture.md
             - name: Workflowelementen
@@ -3571,8 +3991,9 @@
             - name: Workflowacties
               href: organization-administration/workflow-actions.md
             - name: Workflows maken
-              href: organization-administration/create-workflow.md
               items:
+                - name: Overzicht van Workflows maken
+                  href: organization-administration/create-workflow.md
                 - name: Workfloweigenschappen configureren
                   href: organization-administration/configure-workflow-properties.md
                 - name: Handmatige taken configureren
@@ -3624,8 +4045,9 @@
             - name: Veelgestelde vragen over workflows
               href: organization-administration/workflow-FAQ.md
         - name: Waarschuwingen
-          href: get-started/alerts-overview.md
           items:
+            - name: Overzicht van Waarschuwingen
+              href: get-started/alerts-overview.md
             - name: Waarschuwingsregels maken
               href: get-started/create-alerts.md
             - name: Batchverwerking van waarschuwingen
@@ -3633,18 +4055,21 @@
             - name: Clientwaarschuwingen per e-mail
               href: get-started/alert-email-notifications.md
         - name: Elektronische handtekeningen
-          href: organization-administration/electronic-signature-overview.md
           items:
+            - name: Overzicht van Elektronische handtekeningen
+              href: organization-administration/electronic-signature-overview.md
             - name: Elektronische handtekeningen instellen
               href: organization-administration/tasks/set-up-electronic-signatures.md
         - name: Casebeheer
-          href: organization-administration/cases.md
           items:
+            - name: Overzicht van Casebeheer
+              href: organization-administration/cases.md
             - name: 'Casebeveiliging, -processen en -categorieën plannen'
               href: organization-administration/plan-case-management.md
         - name: Recordsjablonen
-          href: organization-administration/record-templates.md
           items:
+            - name: Overzicht van Recordsjablonen
+              href: organization-administration/record-templates.md
             - name: Een recordsjabloon maken
               href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
             - name: Een nieuwe record maken met een recordsjabloon
@@ -3656,8 +4081,9 @@
         - name: Datum-/tijdgegevens en tijdzones
           href: organization-administration/date-time-zones.md
     - name: Productiebeheer
-      href: ../supply-chain/production-control/production-process-overview.md
       items:
+        - name: Overzicht van Productieproces
+          href: ../supply-chain/production-control/production-process-overview.md
         - name: 'Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing'
           href: ../supply-chain/production-control/mixed-mode-plan.md
         - name: Het uitbesteden van werk in de productie beheren
@@ -3721,8 +4147,9 @@
             - name: Productietaken uitvoeren
               items:
                 - name: Levenscyclus van productieorder beheren
-                  href: ../supply-chain/production-control/create-production-orders.md
                   items:
+                    - name: Overzicht van Levenscyclus van productieorder
+                      href: ../supply-chain/production-control/create-production-orders.md
                     - name: Een productieorder maken
                       href: ../supply-chain/production-control/tasks/create-production-order.md
                     - name: Een productieorder ramen
@@ -3782,8 +4209,9 @@
                 - name: Productieboeking
                   href: ../supply-chain/cost-management/production-posting.md
             - name: Tijd- en aanwezigheidsregistratie
-              href: ../supply-chain/production-control/time-attendance-registrations.md
               items:
+                - name: Overzicht van Tijd- en aanwezigheidsregistratie
+                  href: ../supply-chain/production-control/time-attendance-registrations.md
                 - name: Salaris op basis van registraties
                   href: ../supply-chain/production-control/pay-based-on-registrations.md
                 - name: Verzuimregistratie in Tijd en aanwezigheid
@@ -3945,8 +4373,9 @@
                 - name: Productieboeking
                   href: ../supply-chain/cost-management/production-posting.md
     - name: Productgegevensbeheer
-      href: ../supply-chain/pim/product-information.md
       items:
+        - name: Overzicht van Productgegevens
+          href: ../supply-chain/pim/product-information.md
         - name: Productgegevens
           items:
             - name: Product-id's
@@ -3972,8 +4401,9 @@
             - name: Een vrijgegeven product maken voor een enkel bedrijf
               href: ../supply-chain/pim/tasks/create-released-product-single-company.md
             - name: Levenscyclusstatus van product
-              href: ../supply-chain/pim/product-lifecycle.md
               items:
+                - name: Overzicht van Levenscyclusstatus van producten
+                  href: ../supply-chain/pim/product-lifecycle.md
                 - name: Nieuwe status van levenscyclus van producten maken
                   href: ../supply-chain/pim/tasks/new-product-lifecycle-state.md
                 - name: Standaardstatus van levenscyclus van producten maken
@@ -4017,11 +4447,13 @@
             - name: Stuklijstberekeningen
               href: ../supply-chain/cost-management/bom-calculations.md
         - name: Productconfiguratie
-          href: ../supply-chain/pim/build-product-configuration-model.md
           items:
+            - name: Overzicht van Productconfiguratie
+              href: ../supply-chain/pim/build-product-configuration-model.md
             - name: Op dimensies gebaseerde configuratie maken
-              href: ../supply-chain/pim/dimension-based-product-configuration.md
               items:
+                - name: Overzicht van Op dimensies gebaseerde productconfiguraties
+                  href: ../supply-chain/pim/dimension-based-product-configuration.md
                 - name: Productdimensie
                   href: ../supply-chain/pim/product-dimensions.md
                 - name: Een op dimensies gebaseerd productmodel maken
@@ -4041,8 +4473,9 @@
                 - name: Op dimensies gebaseerde configuraties maken
                   href: ../supply-chain/pim/tasks/create-dimension-based-configurations.md
             - name: Op beperkingen gebaseerde configuratie maken
-              href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
               items:
+                - name: Een productconfiguratiemodel instellen
+                  href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
                 - name: Veelgestelde vragen over berekening van productconfiguratiemodel
                   href: ../supply-chain/pim/calculate-product-configuration-models.md
                 - name: Configuratieregel
@@ -4072,8 +4505,9 @@
                 - name: Gegevens voor productmodellen overboeken
                   href: ../supply-chain/pim/tasks/transfer-data-product-models.md
     - name: Projectbeheer en boekhouding
-      href: ../financials/project-management/overview-project-management-accounting.md
       items:
+        - name: Overzicht van Projectbeheer en boekhouding
+          href: ../financials/project-management/overview-project-management-accounting.md
         - name: Intercompany-facturering
           href: ../financials/project-management/intercompany-invoicing.md
         - name: Intercompany-projectfacturering configureren
@@ -4099,23 +4533,25 @@
         - name: Artikelen ontvangen op een inkooporder vanuit een artikelbehoefte
           href: ../financials/project-management/tasks/receive-items-purchase-order-item-requirement.md
         - name: Structuren voor werkspecificatie
-          href: ../financials/project-management/work-breakdown-structures.md
           items:
-            - name: Microsoft Project-clientintegratie
+            - name: Overzicht van Structuren voor werkspecificatie
+              href: ../financials/project-management/work-breakdown-structures.md
+            - name: Microsoft Project Client-integratie
               href: ../financials/project-management/project-integration.md
-        - name: Projectoverzicht mobiele toepassingen
+        - name: Overzicht van Mobiele Project-toepassingen
           href: ../financials/project-management/project-mobile-application-overview.md
         - name: Tijdinvoer voor project voor mobiel werkgebied
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
-        - name: Mobiele app voor projectrooster
+        - name: Mobiele app voor Project Timesheet
           href: ../financials/project-management/project-timesheet.md
-        - name: Projectroosters op een mobiel apparaat
+        - name: Project Timesheets op een mobiel apparaat
           href: ../financials/project-management/mobile-timesheets.md
-        - name: Aangepaste velden voor de mobiele app Projectrooster implementeren
+        - name: Aangepaste velden voor de mobiele app Project Timesheet implementeren
           href: ../financials/project-management/custom-fields-mobile.md
     - name: Verkoop en marketing
-      href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:
+        - name: Overzicht van Verkoop en marketing
+          href: ../supply-chain/sales-marketing/overview-sales-marketing.md
         - name: Verkooporders
           items:
             - name: Orderbelofte
@@ -4149,8 +4585,9 @@
             - name: Verkooporders bevestigen
               href: ../supply-chain/sales-marketing/tasks/confirm-sales-orders.md
         - name: Verkoopovereenkomsten
-          href: ../supply-chain/sales-marketing/sales-agreements.md
           items:
+            - name: Overzicht van Verkoopovereenkomsten
+              href: ../supply-chain/sales-marketing/sales-agreements.md
             - name: Verkoopovereenkomsten invoeren
               href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
             - name: Verkoopovereenkomsten afhandelen
@@ -4184,13 +4621,15 @@
         - name: Een nieuwe handelsovereenkomst maken
           href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
     - name: Servicebeheer
-      href: ../supply-chain/service-management/service-management-home-page.md
       items:
+        - name: Overzicht van Servicebeheer
+          href: ../supply-chain/service-management/service-management-home-page.md
         - name: Klantenservice instellen
           items:
             - name: Serviceovereenkomsten instellen
-              href: ../supply-chain/service-management/service-agreement-groups.md
               items:
+                - name: Overzicht van Servicelevelovereenkomsten
+                  href: ../supply-chain/service-management/service-agreement-groups.md
                 - name: Serviceovereenkomsten maken
                   href: ../supply-chain/service-management/create-service-agreements.md
                 - name: Service-intervallen
@@ -4204,13 +4643,15 @@
                 - name: Een servicesjabloongroep maken
                   href: ../supply-chain/service-management/create-service-template-group.md
             - name: Servicetaken instellen
-              href: ../supply-chain/service-management/service-tasks.md
               items:
+                - name: Overzicht van Servicetaken
+                  href: ../supply-chain/service-management/service-tasks.md
                 - name: Servicetaakrelaties maken
                   href: ../supply-chain/service-management/create-service-task-relations.md
             - name: Serviceobjecten instellen
-              href: ../supply-chain/service-management/service-objects.md
               items:
+                - name: Overzicht van Serviceobjecten
+                  href: ../supply-chain/service-management/service-objects.md
                 - name: Serviceobjecten maken
                   href: ../supply-chain/service-management/create-service-task-relations.md
                 - name: Voorraadartikelen aan serviceobjecten koppelen
@@ -4230,8 +4671,9 @@
                 - name: Sjablonen aan serviceobjecten koppelen
                   href: ../supply-chain/service-management/attach-templates-service-objects.md
             - name: Redencodes voor serviceorders definiëren
-              href: ../supply-chain/service-management/reason-codes-service-orders.md
               items:
+                - name: Redencodes voor serviceorders
+                  href: ../supply-chain/service-management/reason-codes-service-orders.md
                 - name: Serviceorderfasen
                   href: ../supply-chain/service-management/service-order-stages.md
                 - name: Serviceorderfasen instellen
@@ -4239,8 +4681,9 @@
                 - name: Redencodes maken
                   href: ../supply-chain/service-management/create-reason-codes.md
             - name: Serviceovereenkomsten en abonnementen instellen
-              href: ../supply-chain/service-management/service-level-agreements.md
               items:
+                - name: Overzicht van Servicelevelovereenkomsten
+                  href: ../supply-chain/service-management/service-level-agreements.md
                 - name: Verkoopprijzen abonnement
                   href: ../supply-chain/service-management/subscription-sales-prices.md
                 - name: Abonnementsgroepen
@@ -4254,23 +4697,27 @@
             - name: Reparatiebeheer instellen
               href: ../supply-chain/service-management/repair-management.md
             - name: Klantretouren instellen
-              href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
               items:
+                - name: Overzicht van Klantretouren
+                  href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
                 - name: Beschikkingscodes instellen
                   href: ../supply-chain/service-management/set-up-disposition-codes.md
                 - name: Redencodes voor retouren instellen
                   href: ../supply-chain/service-management/set-up-return-reason-code.md
                 - name: Opgeven op welke wijze retourartikelen moeten worden afgestoten
                   href: ../supply-chain/service-management/specify-how-to-dispose-of-returned-items.md
-        - name: Werken met een klantenservice
-          href: ../supply-chain/service-management/working-with-customer-service.md
+        - name: Werken met klantenservice
           items:
+            - name: Overzicht van Werken met klantenservice
+              href: ../supply-chain/service-management/working-with-customer-service.md
             - name: Serviceovereenkomsten uitvoeren
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Overzicht van Servicelevelovereenkomsten uitvoeren
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Overeenkomsten opstellen en tot stand brengen
-                  href: ../supply-chain/service-management/service-agreements.md
                   items:
+                    - name: Overzicht van Servicelevelovereenkomsten opstellen en tot stand brengen
+                      href: ../supply-chain/service-management/service-agreements.md
                     - name: Serviceovereenkomsten maken
                       href: ../supply-chain/service-management/create-service-agreements.md
                     - name: Serviceabonnementen
@@ -4296,15 +4743,16 @@
                     - name: Abonnementsverkoopprijzen bijwerken en indexeren
                       href: ../supply-chain/service-management/update-and-index-subscription-sales-prices.md
             - name: Vragen van klanten afhandelen
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Overzicht van Servicelevelovereenkomsten uitvoeren
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Tijdregistratie voor een serviceorder starten en stoppen
                   href: ../supply-chain/service-management/start-and-stop-time-recording-on-a-service-order.md
                 - name: De begintijd en de duur van een serviceorder weergeven
                   href: ../supply-chain/service-management/view-the-start-time-and-duration-of-a-service-order.md
                 - name: Redencodes voor de fase weergeven
                   href: ../supply-chain/service-management/view-stage-reason-codes.md
-                - name: Compatibiliteit met serviceovereenkomsten weergeven
+                - name: Compatibiliteit met servicelevelovereenkomsten weergeven
                   href: ../supply-chain/service-management/view-compliance-with-service-level-agreements.md
             - name: Klantretouren autoriseren
               items:
@@ -4407,8 +4855,9 @@
                     - name: Abonnementstransacties factureren
                       href: ../supply-chain/service-management/invoice-subscription-transactions.md
     - name: Transportbeheer
-      href: ../supply-chain/transportation/transportation-management-overview.md
       items:
+        - name: Overzicht van Transportbeheer
+          href: ../supply-chain/transportation/transportation-management-overview.md
         - name: Transportbeheerengines
           href: ../supply-chain/transportation/transportation-management-engines.md
         - name: Een nieuwe transportbeheerengine maken
@@ -4420,8 +4869,9 @@
         - name: Vrachttransportroutes plannen
           href: ../supply-chain/transportation/plan-freight-transportation-routes-multiple-stops.md
         - name: Ladingen plannen via hubconsolidatie
-          href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
           items:
+            - name: Overzicht van Ladingen plannen via hubconsolidatie
+              href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
             - name: Belastingen en zendingen plannen met behulp van de Workbench ladingplanning
               href: ../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
         - name: Containergewicht en -volume in lading opnemen
@@ -4451,11 +4901,13 @@
         - name: Transportbeperkingen voor een artikel instellen
           href: ../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md
     - name: Magazijnbeheer
-      href: ../supply-chain/warehousing/warehouse-management-overview.md
       items:
+        - name: Overzicht van Magazijnbeheer
+          href: ../supply-chain/warehousing/warehouse-management-overview.md
         - name: Magazijnconfiguratie
-          href: ../supply-chain/warehousing/warehouse-configuration.md
           items:
+            - name: Overzicht van Magazijnconfiguratie
+              href: ../supply-chain/warehousing/warehouse-configuration.md
             - name: Een magazijn instellen op basis van een magazijnconfiguratiesjabloon
               href: ../supply-chain/inventory/warehouse-template.md
             - name: Werk beheren met behulp van sjablonen en locatierichtlijnen
@@ -4485,8 +4937,9 @@
             - name: Magazijn voor overboekingsorders instellen
               href: ../supply-chain/warehousing/transfer-orders-warehouse.md
         - name: Werkbeleid magazijn
-          href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
+            - name: Overzicht van Werkbeleid magazijn
+              href: ../supply-chain/warehousing/warehouse-work-policies.md
             - name: Werkbeleid voor een magazijn instellen
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: Mutatie van voorraad met gekoppeld werk in Magazijnbeheer
@@ -4546,8 +4999,9 @@
             - name: Voorraadlabeltelling
               href: ../supply-chain/inventory/inventory-tag-counting.md
         - name: Aanvulling
-          href: ../supply-chain/warehousing/replenishment.md
           items:
+            - name: Overzicht van Aanvulling
+              href: ../supply-chain/warehousing/replenishment.md
             - name: Directe aanvulling
               href: ../supply-chain/warehousing/immediate-replenishment.md
             - name: Aanvulling met opnamekanbans
@@ -4555,8 +5009,9 @@
             - name: Een min./max. aanvullingsproces instellen
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
         - name: De app voor magazijnbeheer installeren en configureren
-          href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
+            - name: Overzicht van Installeren en configureren
+              href: ../supply-chain/warehousing/install-configure-warehousing-app.md
             - name: Veldnamen in app voor magazijnbeheer configureren
               href: ../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md
             - name: Mobiele apparaten instellen voor magazijnwerk

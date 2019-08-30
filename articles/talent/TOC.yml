@@ -8,6 +8,14 @@
         - name: Nieuwe of gewijzigde functies in Talent
           href: whats-new.md
           items:
+            - name: 22 augustus 2019
+              href: whats-new-talent-august-21-2019.md
+            - name: 13 augustus 2019
+              href: whats-new-talent-august-15-2019.md
+            - name: 6 augustus 2019
+              href: whats-new-talent-august-7-2019.md
+            - name: 30 juli 2019
+              href: whats-new-talent-july-31-2019.md
             - name: 23 juli 2019
               href: whats-new-talent-july-24-2019.md
             - name: 16 juli 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-june-11-2019.md
             - name: 4 juni 2019
               href: whats-new-talent-june-4-2019.md
-            - name: 28 mei 2019
-              href: whats-new-talent-may-28-2019.md
-            - name: 21 mei 2019
-              href: whats-new-talent-may-21-2019.md
-            - name: 13 mei 2019
-              href: whats-new-talent-may-13-2019.md
-            - name: 6 mei 2019
-              href: whats-new-talent-may-6-2019.md
             - name: Wat is nieuw - archieven 2019
               items:
+                - name: 28 mei 2019
+                  href: whats-new-talent-may-28-2019.md
+                - name: 21 mei 2019
+                  href: whats-new-talent-may-21-2019.md
+                - name: 13 mei 2019
+                  href: whats-new-talent-may-13-2019.md
+                - name: 6 mei 2019
+                  href: whats-new-talent-may-6-2019.md
                 - name: 30 april 2019
                   href: whats-new-talent-april-30-2019.md
                 - name: 25 april 2019
@@ -204,6 +212,8 @@
               href: departments-jobs-positions.md
             - name: De onderdelen van een taak instellen
               href: create-job.md
+            - name: Gestroomlijnde invoer en navigatie voor werknemers
+              href: streamlined-employee-entry.md
             - name: Afdelingen maken en deze opnemen in de afdelingenhiërarchie
               href: create-department-add-department-hierarchy.md
             - name: HR-parameters instellen voor rechtspersonen
@@ -240,7 +250,7 @@
                   href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: Een globaal adresboek instellen
               items:
-                - name: Overzicht van globale adresboeken
+                - name: Overzicht van Globaal adresboek
                   href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Het globale adresboek en andere plannen
                   href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
