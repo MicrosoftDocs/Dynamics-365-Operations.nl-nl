@@ -1,9 +1,9 @@
 ---
 title: Een plan met beperkingen genereren
-description: Deze procedure laat zien hoe u een plan maakt dat zowel met materiaal- als capaciteitsbeperkingen rekening houdt.
+description: In dit onderwerp ziet u hoe u een plan maakt dat zowel met materiaal- als capaciteitsbeperkingen rekening houdt.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72cddd58b7068e08cddf24df83da8da2f7af7168
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6b5d37de41fe68845cec3f2285aed2484ac117aa
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845283"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867168"
 ---
-# <a name="generate-a-constrained-plan"></a><span data-ttu-id="56105-103">Een plan met beperkingen genereren</span><span class="sxs-lookup"><span data-stu-id="56105-103">Generate a constrained plan</span></span>
+# <a name="generate-a-constrained-plan"></a><span data-ttu-id="87af4-103">Een plan met beperkingen genereren</span><span class="sxs-lookup"><span data-stu-id="87af4-103">Generate a constrained plan</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="56105-104">Deze procedure laat zien hoe u een plan maakt dat zowel met materiaal- als capaciteitsbeperkingen rekening houdt.</span><span class="sxs-lookup"><span data-stu-id="56105-104">This procedure shows how to create a plan that takes into account both material and capacity constraints.</span></span> <span data-ttu-id="56105-105">Het plan garandeert dat de productie niet start voordat de materialen beschikbaar zijn en dat resources niet worden overboekt.</span><span class="sxs-lookup"><span data-stu-id="56105-105">The plan ensures that manufacturing doesn't start before materials are available and resources are not overbooked.</span></span> 
+<span data-ttu-id="87af4-104">In dit onderwerp ziet u hoe u een plan maakt dat zowel met materiaal- als capaciteitsbeperkingen rekening houdt.</span><span class="sxs-lookup"><span data-stu-id="87af4-104">This topic explains how to create a plan that takes into account both material and capacity constraints.</span></span> <span data-ttu-id="87af4-105">Het plan garandeert dat de productie niet start voordat de materialen beschikbaar zijn en dat resources niet worden overboekt.</span><span class="sxs-lookup"><span data-stu-id="87af4-105">The plan ensures that manufacturing doesn't start before materials are available and resources are not overbooked.</span></span> 
 
-<span data-ttu-id="56105-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="56105-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="56105-107">Deze procedure is bedoeld voor de productieplanner.</span><span class="sxs-lookup"><span data-stu-id="56105-107">This procedure is intended for the production planner.</span></span>
+<span data-ttu-id="87af4-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="87af4-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="87af4-107">Deze procedure is bedoeld voor de productieplanner.</span><span class="sxs-lookup"><span data-stu-id="87af4-107">This procedure is intended for the production planner.</span></span>
 
 
-## <a name="set-up-a-constrained-plan"></a><span data-ttu-id="56105-108">Een plan met beperkingen instellen</span><span class="sxs-lookup"><span data-stu-id="56105-108">Set up a constrained plan</span></span>
-1. <span data-ttu-id="56105-109">Klik op Hoofdplanning.</span><span class="sxs-lookup"><span data-stu-id="56105-109">Click Master planning.</span></span>
-2. <span data-ttu-id="56105-110">Klik op Hoofdplannen.</span><span class="sxs-lookup"><span data-stu-id="56105-110">Click Master plans.</span></span>
-3. <span data-ttu-id="56105-111">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="56105-111">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="56105-112">Voorbeeld: StaticPlan</span><span class="sxs-lookup"><span data-stu-id="56105-112">Example: StaticPlan</span></span>  
-4. <span data-ttu-id="56105-113">Selecteer Ja in het veld Eindige capaciteit.</span><span class="sxs-lookup"><span data-stu-id="56105-113">Select Yes in the Finite capacity field.</span></span>
-5. <span data-ttu-id="56105-114">Voer 30 in het veld Tijdlimiet beperkte capaciteit in.</span><span class="sxs-lookup"><span data-stu-id="56105-114">In the Finite capacity time fence field, enter '30'.</span></span>
-6. <span data-ttu-id="56105-115">Vouw de sectie Time fences in dagen uit.</span><span class="sxs-lookup"><span data-stu-id="56105-115">Expand the Time fences in days section.</span></span>
-7. <span data-ttu-id="56105-116">Selecteer Ja in het veld Capaciteit.</span><span class="sxs-lookup"><span data-stu-id="56105-116">Select Yes in the Capacity field.</span></span>
-8. <span data-ttu-id="56105-117">Voer in het veld Time fence capaciteitsplanning (dagen) een nummer in.</span><span class="sxs-lookup"><span data-stu-id="56105-117">In the Capacity scheduling time fence (days) field, enter a number.</span></span>
-    * <span data-ttu-id="56105-118">Voorbeeld: 60</span><span class="sxs-lookup"><span data-stu-id="56105-118">Example: 60</span></span>  
-9. <span data-ttu-id="56105-119">Selecteer Ja in het veld Berekende vertragingen.</span><span class="sxs-lookup"><span data-stu-id="56105-119">Select Yes in the Calculated delays field.</span></span>
-10. <span data-ttu-id="56105-120">Voer in het veld Time fence vertragingen berekenen (dagen) een nummer in.</span><span class="sxs-lookup"><span data-stu-id="56105-120">In the Calculate delays time fence (days) field, enter a number.</span></span>
-    * <span data-ttu-id="56105-121">Voorbeeld: 60</span><span class="sxs-lookup"><span data-stu-id="56105-121">Example: 60</span></span>  
-11. <span data-ttu-id="56105-122">Vouw de sectie Berekende vertragingen uit.</span><span class="sxs-lookup"><span data-stu-id="56105-122">Expand the Calculated delays section.</span></span>
-12. <span data-ttu-id="56105-123">Selecteer Ja in het veld De berekende vertraging optellen bij de behoeftedatum.</span><span class="sxs-lookup"><span data-stu-id="56105-123">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
-13. <span data-ttu-id="56105-124">Selecteer Ja in het veld De berekende vertraging optellen bij de behoeftedatum.</span><span class="sxs-lookup"><span data-stu-id="56105-124">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
-14. <span data-ttu-id="56105-125">Selecteer Ja in het veld De berekende vertraging optellen bij de behoeftedatum.</span><span class="sxs-lookup"><span data-stu-id="56105-125">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
-15. <span data-ttu-id="56105-126">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="56105-126">Close the page.</span></span>
+## <a name="set-up-a-constrained-plan"></a><span data-ttu-id="87af4-108">Een plan met beperkingen instellen</span><span class="sxs-lookup"><span data-stu-id="87af4-108">Set up a constrained plan</span></span>
+1. <span data-ttu-id="87af4-109">Selecteer op de startpagina het werkgebied **Hoofdplanning**.</span><span class="sxs-lookup"><span data-stu-id="87af4-109">In the home page, select the **Master planning** workspace.</span></span>
+2. <span data-ttu-id="87af4-110">Selecteer **Hoofdplannen** in de lijst met koppelingen aan de rechterkant van het werkgebied.</span><span class="sxs-lookup"><span data-stu-id="87af4-110">Select **Master plans** in the list of links on the far right side of the workspace.</span></span>
+3. <span data-ttu-id="87af4-111">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="87af4-111">In the list, find and select the desired record.</span></span> <span data-ttu-id="87af4-112">Voorbeeld: **StaticPlan**</span><span class="sxs-lookup"><span data-stu-id="87af4-112">Example: **StaticPlan**</span></span>  
+4. <span data-ttu-id="87af4-113">Selecteer **Ja** in het veld **Eindige capaciteit**.</span><span class="sxs-lookup"><span data-stu-id="87af4-113">Select **Yes** in the **Finite capacity** field.</span></span>
+5. <span data-ttu-id="87af4-114">Voer `30` in het veld **Tijdlimiet beperkte capaciteit** in.</span><span class="sxs-lookup"><span data-stu-id="87af4-114">In the **Finite capacity time fence** field, enter `30`.</span></span>
+6. <span data-ttu-id="87af4-115">Vouw de sectie **Time fences in dagen** uit.</span><span class="sxs-lookup"><span data-stu-id="87af4-115">Expand the **Time fences in days** section.</span></span>
+7. <span data-ttu-id="87af4-116">Selecteer **Ja** in het veld **Capaciteit**.</span><span class="sxs-lookup"><span data-stu-id="87af4-116">Select **Yes** in the **Capacity** field.</span></span>
+8. <span data-ttu-id="87af4-117">Voer in het veld **Time fence capaciteitsplanning (dagen)** een getal in.</span><span class="sxs-lookup"><span data-stu-id="87af4-117">In the **Capacity scheduling time fence (days)** field, enter a number.</span></span> <span data-ttu-id="87af4-118">Voorbeeld: `60`</span><span class="sxs-lookup"><span data-stu-id="87af4-118">Example: `60`</span></span>  
+9. <span data-ttu-id="87af4-119">Selecteer **Ja** in het veld **Berekende vertragingen**.</span><span class="sxs-lookup"><span data-stu-id="87af4-119">Select **Yes** in the **Calculated delays** field.</span></span>
+10. <span data-ttu-id="87af4-120">Voer in het veld **Time fence vertragingen berekenen (dagen)** een getal in.</span><span class="sxs-lookup"><span data-stu-id="87af4-120">In the **Calculate delays time fence (days)** field, enter a number.</span></span> <span data-ttu-id="87af4-121">Voorbeeld: `60`</span><span class="sxs-lookup"><span data-stu-id="87af4-121">Example: `60`</span></span> 
+11. <span data-ttu-id="87af4-122">Vouw de sectie **Berekende vertragingen** uit.</span><span class="sxs-lookup"><span data-stu-id="87af4-122">Expand the **Calculated delays** section.</span></span>
+12. <span data-ttu-id="87af4-123">Selecteer **Ja** in alle velden van **De berekende vertraging optellen bij de behoeftedatum**.</span><span class="sxs-lookup"><span data-stu-id="87af4-123">Select **Yes** in all **Add the calculated delay to the requirement date** fields.</span></span>
+13. <span data-ttu-id="87af4-124">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="87af4-124">Close the page.</span></span>
 
-## <a name="create-a-constrained-plan"></a><span data-ttu-id="56105-127">Plan met beperkingen maken</span><span class="sxs-lookup"><span data-stu-id="56105-127">Create a constrained plan</span></span>
-1. <span data-ttu-id="56105-128">Klik op Uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="56105-128">Click Run.</span></span>
-2. <span data-ttu-id="56105-129">Typ of selecteer een waarde in het veld Hoofdplan.</span><span class="sxs-lookup"><span data-stu-id="56105-129">In the Master plan field, enter or select a value.</span></span>
-    * <span data-ttu-id="56105-130">Selecteer het plan waarvoor u beperkingen hebt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="56105-130">Select the plan for which you have set up constraints.</span></span>  
-3. <span data-ttu-id="56105-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="56105-131">Click OK.</span></span>
-    * <span data-ttu-id="56105-132">Dit kan enige tijd duren.</span><span class="sxs-lookup"><span data-stu-id="56105-132">This may take a while.</span></span>  
-4. <span data-ttu-id="56105-133">Klik op Geplande orders.</span><span class="sxs-lookup"><span data-stu-id="56105-133">Click Planned orders.</span></span>
+## <a name="create-a-constrained-plan"></a><span data-ttu-id="87af4-125">Plan met beperkingen maken</span><span class="sxs-lookup"><span data-stu-id="87af4-125">Create a constrained plan</span></span>
+1. <span data-ttu-id="87af4-126">Selecteer **Uitvoeren**.</span><span class="sxs-lookup"><span data-stu-id="87af4-126">Select **Run**.</span></span>
+2. <span data-ttu-id="87af4-127">Typ of selecteer in het veld **Hoofdplan** het plan waarvoor u beperkingen hebt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="87af4-127">In the **Master plan** field, enter or select the plan for which you have set up constraints.</span></span>  
+3. <span data-ttu-id="87af4-128">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="87af4-128">Select **OK**.</span></span>
+4. <span data-ttu-id="87af4-129">Selecteer **Geplande orders**.</span><span class="sxs-lookup"><span data-stu-id="87af4-129">Select **Planned orders**.</span></span>
 

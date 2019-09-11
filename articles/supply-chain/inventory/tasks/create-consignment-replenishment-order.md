@@ -1,9 +1,9 @@
 ---
 title: Een consignatieaanvullingsorder maken
-description: Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.
+description: In dit onderwerp wordt uitgelegd hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,58 +17,48 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cf2e8f742fee2dedaac72902d207af0081700ca
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f426dbf00eace23da2f26eb50dd9675fe22ed445
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845541"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914764"
 ---
-# <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="78f6b-103">Een consignatieaanvullingsorder maken</span><span class="sxs-lookup"><span data-stu-id="78f6b-103">Create a consignment replenishment order</span></span>
+# <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="01250-103">Een consignatieaanvullingsorder maken</span><span class="sxs-lookup"><span data-stu-id="01250-103">Create a consignment replenishment order</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="78f6b-104">Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.</span><span class="sxs-lookup"><span data-stu-id="78f6b-104">This procedure shows how to create a consignment replenishment order where you can track the expected delivery from a vendor into your consignment inventory.</span></span> <span data-ttu-id="78f6b-105">Het laat ook zien hoe u een ontvangst van producten registreert zodat de consignatievoorraad als voorhanden voorraad wordt geregistreerd die eigendom is van de leverancier.</span><span class="sxs-lookup"><span data-stu-id="78f6b-105">It also shows how to record a receipt of products so that the consignment inventory is registered as on-hand inventory owned by the vendor.</span></span> <span data-ttu-id="78f6b-106">Deze procdure wordt gewoonlijk uitgevoerd door een inkoper.</span><span class="sxs-lookup"><span data-stu-id="78f6b-106">This procedure would typically be done by a procurement professional.</span></span> <span data-ttu-id="78f6b-107">U kunt deze begeleiding gebruiken in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="78f6b-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="78f6b-108">Deze procedure is voor een functie die in Dynamics 365 for Operations, versie 1611 is toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="78f6b-108">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
+<span data-ttu-id="01250-104">In dit onderwerp wordt uitgelegd hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.</span><span class="sxs-lookup"><span data-stu-id="01250-104">This topic explains how to create a consignment replenishment order where you can track the expected delivery from a vendor into your consignment inventory.</span></span> <span data-ttu-id="01250-105">Het laat ook zien hoe u een ontvangst van producten registreert zodat de consignatievoorraad als voorhanden voorraad wordt geregistreerd die eigendom is van de leverancier.</span><span class="sxs-lookup"><span data-stu-id="01250-105">It also shows how to record a receipt of products so that the consignment inventory is registered as on-hand inventory owned by the vendor.</span></span> <span data-ttu-id="01250-106">Deze procdure wordt gewoonlijk uitgevoerd door een inkoper.</span><span class="sxs-lookup"><span data-stu-id="01250-106">This procedure would typically be done by a procurement professional.</span></span> <span data-ttu-id="01250-107">U kunt deze begeleiding gebruiken in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="01250-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="01250-108">Deze procedure is voor een functie die in Dynamics 365 for Operations, versie 1611 is toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="01250-108">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
+## <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="01250-109">Een consignatieaanvullingsorder maken</span><span class="sxs-lookup"><span data-stu-id="01250-109">Create a consignment replenishment order</span></span>
+1. <span data-ttu-id="01250-110">Ga in het navigatievenster naar **Modules > Inkoopbeheer > Consignatie > Consignatieaanvullingsorders**.</span><span class="sxs-lookup"><span data-stu-id="01250-110">In the navigation pane, go to **Modules > Procurement and sourcing > Consignment > Consignment replenishment orders**.</span></span>
+2. <span data-ttu-id="01250-111">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="01250-111">Select **New**.</span></span>
+3. <span data-ttu-id="01250-112">In het veld **Leveranciersrekening** selecteert u leverancier **US-104** (u moet een leverancier selecteren die als eigenaar wordt vermeld op de pagina **Voorraadeigenaren**).</span><span class="sxs-lookup"><span data-stu-id="01250-112">In the **Vendor account** field, select vendor **US-104** (you must select a vendor that's registered as an owner in the **inventory owners** page).</span></span> 
+4. <span data-ttu-id="01250-113">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="01250-113">Select **OK**.</span></span>
+5. <span data-ttu-id="01250-114">Selecteer **Regel toevoegen**.</span><span class="sxs-lookup"><span data-stu-id="01250-114">Select **Add line**.</span></span>
+6. <span data-ttu-id="01250-115">Typ `M9211CI` in het veld **Artikelnummer** (u moet een artikel selecteren dat is ingesteld voor consignatievoorraad).</span><span class="sxs-lookup"><span data-stu-id="01250-115">In the **Item number** field, type `M9211CI` (you must select an item that is set up for consignment inventory).</span></span>
+7. <span data-ttu-id="01250-116">Voer een getal in het veld **Hoeveelheid** in.</span><span class="sxs-lookup"><span data-stu-id="01250-116">In the **Quantity** field, enter a number.</span></span>
+8. <span data-ttu-id="01250-117">Typ een datum in het veld **Gevraagde leveringsdatum**.</span><span class="sxs-lookup"><span data-stu-id="01250-117">In the **Requested delivery date** field, enter a date.</span></span> <span data-ttu-id="01250-118">De aangevraagde en bevestigde datums worden door de MRP-engine gebruikt voor de verwachte ontvangst van de goederen.</span><span class="sxs-lookup"><span data-stu-id="01250-118">The requested and confirmed dates are used by the MRP engine for the expected arrival of the goods.</span></span>  
+9. <span data-ttu-id="01250-119">Typ een datum in het veld **Bevestigde leveringsdatum**.</span><span class="sxs-lookup"><span data-stu-id="01250-119">In the **Confirmed delivery date** field, enter a date.</span></span>
+10. <span data-ttu-id="01250-120">Vouw de sectie **Regeldetails** uit.</span><span class="sxs-lookup"><span data-stu-id="01250-120">Expand the **Line details** section.</span></span>
+11. <span data-ttu-id="01250-121">Selecteer het tabblad **Voorraaddimensies**.</span><span class="sxs-lookup"><span data-stu-id="01250-121">Select the **Inventory dimensions** tab.</span></span>
+12. <span data-ttu-id="01250-122">Vernieuw de pagina om de eigenaar weer te geven in het veld **Eigenaar voorraaddimensies**.</span><span class="sxs-lookup"><span data-stu-id="01250-122">To show the owner in the **Inventory dimensions owner** field, refresh the page.</span></span> <span data-ttu-id="01250-123">Leverancier US-104 is nu vermeld als de eigenaar.</span><span class="sxs-lookup"><span data-stu-id="01250-123">Vendor US-104 is now listed as the owner.</span></span>  
 
+## <a name="check-the-inventory-transaction-status"></a><span data-ttu-id="01250-124">Controleer de status van de voorraadtransactie</span><span class="sxs-lookup"><span data-stu-id="01250-124">Check the inventory transaction status</span></span>
+1. <span data-ttu-id="01250-125">Selecteer **Voorraadmodel**.</span><span class="sxs-lookup"><span data-stu-id="01250-125">Select **Inventory**.</span></span>
+2. <span data-ttu-id="01250-126">Selecteer **Transacties**.</span><span class="sxs-lookup"><span data-stu-id="01250-126">Select **Transactions**.</span></span>
+3. <span data-ttu-id="01250-127">In de gewenste rij is het veld **Ontvangst** op **Besteld** ingesteld.</span><span class="sxs-lookup"><span data-stu-id="01250-127">In the desired row, notice that the **Receipt** field is set to **Ordered**.</span></span>  
+4. <span data-ttu-id="01250-128">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="01250-128">Close the page.</span></span>
 
+## <a name="receive-items"></a><span data-ttu-id="01250-129">Artikelen ontvangen</span><span class="sxs-lookup"><span data-stu-id="01250-129">Receive items</span></span>
+1. <span data-ttu-id="01250-130">Selecteer **Productontvangstbon**.</span><span class="sxs-lookup"><span data-stu-id="01250-130">Select **Product receipt**.</span></span>
+2. <span data-ttu-id="01250-131">Typ een waarde in het veld **Externe productontvangstbon**.</span><span class="sxs-lookup"><span data-stu-id="01250-131">In the **External product receipt** field, type a value.</span></span>
+3. <span data-ttu-id="01250-132">Typ in het veld **Hoeveelheid** een aantal dat lager is dan het aantal dat hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="01250-132">In the **Quantity** field, enter a number that’s lower than the number that’s shown there.</span></span> 
+4. <span data-ttu-id="01250-133">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="01250-133">Select **OK**.</span></span>
 
-## <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="78f6b-109">Een consignatieaanvullingsorder maken</span><span class="sxs-lookup"><span data-stu-id="78f6b-109">Create a consignment replenishment order</span></span>
-1. <span data-ttu-id="78f6b-110">Ga naar Inkoop en sourcing > Consignatie > Consignatieaanvullingsorders.</span><span class="sxs-lookup"><span data-stu-id="78f6b-110">Go to Procurement and sourcing > Consignment > Consignment replenishment orders.</span></span>
-2. <span data-ttu-id="78f6b-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="78f6b-111">Click New.</span></span>
-3. <span data-ttu-id="78f6b-112">Selecteer in het veld Leveranciersrekening de leverancier US-104.</span><span class="sxs-lookup"><span data-stu-id="78f6b-112">In the Vendor account field, select vendor US-104.</span></span>
-    * <span data-ttu-id="78f6b-113">U moet een leverancier selecteren die als eigenaar is geregistreerd op de pagina Voorraadeigenaren.</span><span class="sxs-lookup"><span data-stu-id="78f6b-113">You must select a vendor that’s registered as an owner in the Inventory owners page.</span></span>  
-4. <span data-ttu-id="78f6b-114">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="78f6b-114">Click OK.</span></span>
-5. <span data-ttu-id="78f6b-115">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="78f6b-115">Click Add line.</span></span>
-6. <span data-ttu-id="78f6b-116">Typ M9211CI in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="78f6b-116">In the Item number field, type M9211CI.</span></span>
-    * <span data-ttu-id="78f6b-117">U moet een artikel selecteren dat is ingesteld voor consignatievoorraad.</span><span class="sxs-lookup"><span data-stu-id="78f6b-117">You must select an item that is set up for consignment inventory.</span></span>  
-7. <span data-ttu-id="78f6b-118">Voer in het veld Hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="78f6b-118">In the Quantity field, enter a number.</span></span>
-8. <span data-ttu-id="78f6b-119">Typ een datum in het veld Gevraagde leveringsdatum.</span><span class="sxs-lookup"><span data-stu-id="78f6b-119">In the Requested delivery date field, enter a date.</span></span>
-    * <span data-ttu-id="78f6b-120">De aangevraagde en bevestigde datums worden door de MRP-engine gebruikt voor de verwachte ontvangst van de goederen.</span><span class="sxs-lookup"><span data-stu-id="78f6b-120">The requested and confirmed dates are used by the MRP engine for the expected arrival of the goods.</span></span>  
-9. <span data-ttu-id="78f6b-121">Typ een datum in het veld Bevestigde leveringsdatum.</span><span class="sxs-lookup"><span data-stu-id="78f6b-121">In the Confirmed delivery date field, enter a date.</span></span>
-10. <span data-ttu-id="78f6b-122">Vouw de sectie Regeldetails uit.</span><span class="sxs-lookup"><span data-stu-id="78f6b-122">Expand the Line details section.</span></span>
-11. <span data-ttu-id="78f6b-123">Klik op het tabblad Voorraaddimensies.</span><span class="sxs-lookup"><span data-stu-id="78f6b-123">Click the Inventory dimensions tab.</span></span>
-12. <span data-ttu-id="78f6b-124">Vernieuw de pagina om de eigenaar weer te geven in het veld Eigenaar voorraaddimensies.</span><span class="sxs-lookup"><span data-stu-id="78f6b-124">To show the owner in the Inventory dimensions owner field, refresh the page.</span></span>
-    * <span data-ttu-id="78f6b-125">Leverancier US-104 is nu vermeld als de eigenaar.</span><span class="sxs-lookup"><span data-stu-id="78f6b-125">Vendor US-104 is now listed as the owner.</span></span>  
-
-## <a name="check-the-inventory-transaction-status"></a><span data-ttu-id="78f6b-126">Controleer de status van de voorraadtransactie</span><span class="sxs-lookup"><span data-stu-id="78f6b-126">Check the inventory transaction status</span></span>
-1. <span data-ttu-id="78f6b-127">Klik op Voorraad.</span><span class="sxs-lookup"><span data-stu-id="78f6b-127">Click Inventory.</span></span>
-2. <span data-ttu-id="78f6b-128">Klik op Transacties.</span><span class="sxs-lookup"><span data-stu-id="78f6b-128">Click Transactions.</span></span>
-3. <span data-ttu-id="78f6b-129">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="78f6b-129">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="78f6b-130">Let op dat het veld Ontvangst op Besteld is ingesteld.</span><span class="sxs-lookup"><span data-stu-id="78f6b-130">Notice that the Receipt field is set to Ordered.</span></span>  
-4. <span data-ttu-id="78f6b-131">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="78f6b-131">Close the page.</span></span>
-
-## <a name="receive-items"></a><span data-ttu-id="78f6b-132">Artikelen ontvangen</span><span class="sxs-lookup"><span data-stu-id="78f6b-132">Receive items</span></span>
-1. <span data-ttu-id="78f6b-133">Klik op Productontvangstbon.</span><span class="sxs-lookup"><span data-stu-id="78f6b-133">Click Product receipt.</span></span>
-2. <span data-ttu-id="78f6b-134">Typ een waarde in het veld Externe productontvangstbon.</span><span class="sxs-lookup"><span data-stu-id="78f6b-134">In the External product receipt field, type a value.</span></span>
-3. <span data-ttu-id="78f6b-135">Typ in het veld Hoeveelheid een aantal dat lager is dan het aantal dat hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="78f6b-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span> 
-4. <span data-ttu-id="78f6b-136">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="78f6b-136">Click OK.</span></span>
-
-## <a name="check-the-on-hand-inventory"></a><span data-ttu-id="78f6b-137">Controleer de voorhanden voorraad</span><span class="sxs-lookup"><span data-stu-id="78f6b-137">Check the on-hand inventory</span></span>
-1. <span data-ttu-id="78f6b-138">Klik op Voorraad.</span><span class="sxs-lookup"><span data-stu-id="78f6b-138">Click Inventory.</span></span>
-2. <span data-ttu-id="78f6b-139">Klik op Voorhanden.</span><span class="sxs-lookup"><span data-stu-id="78f6b-139">Click On-hand.</span></span>
-3. <span data-ttu-id="78f6b-140">Klik op Overzicht.</span><span class="sxs-lookup"><span data-stu-id="78f6b-140">Click Overview.</span></span>
-    * <span data-ttu-id="78f6b-141">De artikelen die zijn ontvangen als consignatievoorraad en die eigendom zijn van de leverancier, zijn voorhanden in de voorraad.</span><span class="sxs-lookup"><span data-stu-id="78f6b-141">The items that have been received as consignment inventory owned by the vendor are available on-hand.</span></span> <span data-ttu-id="78f6b-142">De resterende hoeveelheid op de consignatieaanvullingsorder wordt weergegeven in het veld Totaal van order.</span><span class="sxs-lookup"><span data-stu-id="78f6b-142">The remaining quantity on the consignment replenishment order is shown in the Ordered in total field.</span></span>  
-4. <span data-ttu-id="78f6b-143">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="78f6b-143">Close the page.</span></span>
-5. <span data-ttu-id="78f6b-144">Klik op Sluiten.</span><span class="sxs-lookup"><span data-stu-id="78f6b-144">Click Close.</span></span>
+## <a name="check-the-on-hand-inventory"></a><span data-ttu-id="01250-134">Controleer de voorhanden voorraad</span><span class="sxs-lookup"><span data-stu-id="01250-134">Check the on-hand inventory</span></span>
+1. <span data-ttu-id="01250-135">Selecteer **Voorraadmodel**.</span><span class="sxs-lookup"><span data-stu-id="01250-135">Select **Inventory**.</span></span>
+2. <span data-ttu-id="01250-136">Selecteer **Voorhanden**.</span><span class="sxs-lookup"><span data-stu-id="01250-136">Select **On-hand**.</span></span>
+3. <span data-ttu-id="01250-137">Selecteer **Overzicht**.</span><span class="sxs-lookup"><span data-stu-id="01250-137">Select **Overview**.</span></span> <span data-ttu-id="01250-138">De artikelen die zijn ontvangen als consignatievoorraad en die eigendom zijn van de leverancier, zijn voorhanden in de voorraad.</span><span class="sxs-lookup"><span data-stu-id="01250-138">The items that have been received as consignment inventory owned by the vendor are available on-hand.</span></span> <span data-ttu-id="01250-139">De resterende hoeveelheid op de consignatieaanvullingsorder wordt weergegeven in het veld **Totaal van order**.</span><span class="sxs-lookup"><span data-stu-id="01250-139">The remaining quantity on the consignment replenishment order is shown in the **Ordered in total** field.</span></span>  
+4. <span data-ttu-id="01250-140">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="01250-140">Close the page.</span></span>
 
