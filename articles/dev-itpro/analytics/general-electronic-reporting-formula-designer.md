@@ -2,8 +2,8 @@
 title: Formuleontwerper in elektronische rapportage (ER)
 description: In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rapportage (ER) wordt gebruikt.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849504"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864289"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formuleontwerper in elektronische rapportage (ER)
 
@@ -113,6 +113,33 @@ De ER-formuleontwerper kan ook worden gebruikt om een bestandsnaam te genereren 
 - Een expressie activeert (door **TRUE** te retourneren) het maken van een bestand voor batches die ten minste één record bevatten.
 
 [![Besturingselement voor bestanden](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>Besturingselement voor documentinhoud
+
+U kunt de ER-formuleontwerper gebruiken om expressies te configureren die bepalen welke gegevens in gegenereerde elektronische documenten tijdens runtime worden geplaatst. De expressies kunnen de uitvoer van specifieke elementen van de indeling inschakelen of uitschakelen, afhankelijk van de verwerking van gegevens en de geconfigureerde logica. Deze expressie kan worden ingevoerd voor één opmaakelement in het veld **Ingeschakeld** op het tabblad **Toewijzing** op de pagina **Operations-ontwerper** als een logische voorwaarde die de **Booleaanse** waarde retourneert:
+
+-   Wanneer **True** wordt geretourneerd, wordt het huidige opmaakelement uitgevoerd.
+-   Wanneer **False** wordt geretourneerd, wordt het huidige opmaakelement overgeslagen.
+
+In de volgende afbeelding ziet u expressies van dit type (de versie **11.12.11** van de indelingsconfiguratie voor de **ISO20022**-kredietoverdracht (NO) die wordt geleverd door Microsoft is een voorbeeld). Het indelingsonderdeel **XMLHeader** is zo geconfigureerd dat de structuur van het bericht over de kredietoverdracht wordt beschreven volgens de norm ISO 20022 XML-berichtstandaarden. De indelingsonderdeel **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** is geconfigureerd om het **Ustrd** XML-element toe te voegen aan het gegenereerde bericht, en de remisegegevens in een niet-gestructureerde indeling te plaatsen als tekst van de volgende XML-elementen:
+
+-   Het onderdeel **PaymentNotes** wordt gebruikt om de tekst van betalingsnotities uit te voeren.
+-   Het onderdeel **DelimitedSequence** voert door komma's gescheiden factuurnummers uit die worden gebruikt om de huidige kredietoverdracht te vereffenen.
+
+[![Operations-ontwerper](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> De onderdelen **PaymentNotes** en **DelimitedSequence** worden aangeduid met een vraagteken. Dit betekent dat het gebruik van beide onderdelen voorwaardelijk is, op basis van de volgende criteria:
+
+-   Gedefinieerd voor het onderdeel **PaymentNotes**, wordt met de expressie **@.PaymentsNotes<>""** (door **True** te retourneren) de populatie ingesteld op het XML-element **Ustrd**, de tekst van betalingsnotities wanneer deze tekst voor de huidige kredietoverdracht niet leeg is.
+
+[![Operations-ontwerper](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   Gedefinieerd voor het onderdeel **DelimitedSequence**, wordt met de expressie **@.PaymentsNotes=""** (door**True** te retourneren) de populatie ingesteld op het XML-element **Ustrd**, door komma gescheiden factuurnummers die worden gebruikt om de huidige kredietoverdracht te vereffenen wanneer de tekst van de betalingsnotities voor deze kredietoverdracht leeg zijn.
+
+[![Operations-ontwerper](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+Op basis van deze instelling bevat het gegenereerde bericht voor alle debiteurenbetalingen, het XML-element **Ustrd**, de tekst van betalingsnotities of wanneer deze tekst leeg is, tekst met door komma's gescheiden factuurnummers die worden gebruikt om deze betaling te vereffenen.
 
 ### <a name="basic-syntax"></a>Basissyntaxis
 

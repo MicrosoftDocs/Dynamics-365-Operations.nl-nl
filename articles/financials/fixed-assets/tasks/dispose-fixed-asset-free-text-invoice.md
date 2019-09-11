@@ -1,9 +1,9 @@
 ---
 title: Een vast activum afstoten met een vrije-tekstfactuur
-description: In deze procedure ziet u hoe u een vast activum bijboekt met het verwervingsvoorstel in het vaste-activajournaal.
+description: In dit onderwerp wordt beschreven hoe u een vast activum bijboekt met het verwervingsvoorstel in het vaste-activajournaal.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,28 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26446df21a3b55abcdd5f163ae84f8e35d853965
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 179a6e45d57baf810068cb5c14aed670ebb94706
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846986"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914648"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Een vast activum afstoten met een vrije-tekstfactuur
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In deze procedure ziet hoe u een vast activum afstoot met een vrije-tekstfactuur.
+In dit onderwerp ziet hoe u een vast activum afstoot met een vrije-tekstfactuur.
 
-1. Ga naar Klanten > Facturen > Alle vrije-tekstfacturen.
-2. Klik op Nieuw.
-3. Typ of selecteer een waarde in het veld Klantrekening.
-4. Valideer de standaardfactuurdatum en bewerk deze zo nodig.
-5. Valideer de resterende standaardkoptekstvelden, zoals Valuta, en bewerk deze zo nodig.
-6. Voer een omschrijving in op de factuurregel.
-7. Bepaal de hoofdrekening voor de factuurregel.
-8. Valideer de als standaard ingestelde btw-groep en btw-groep voor artikel.
-9. Voer de eenheidsprijs of het verkoopbedrag van het vaste activum in.
-10. Klik op Regeldetails.  
-11. Selecteer het vaste-activanummer voor verkoop.
-12. Klik op Boeken.
+1. Ga in het navigatievenster naar **Modules > Klanten > Facturen > Alle vrije-tekstfacturen**.
+2. Selecteer **Nieuw**.
+3. Typ of selecteer een waarde in het veld **Klantrekening**.
+4. Valideer de **standaardfactuurdatum** en bewerk deze zo nodig.
+5. Valideer de resterende standaardkoptekstvelden, zoals **Valuta**, en bewerk deze zo nodig.
+6. Valideer in de sectie **Factuurregels** de velden **Omschrijving** en **Hoofdrekening**.
+7. Valideer de als standaardvelden **Btw-groep** en **Btw-groep voor artikel**.
+8. Voer de **eenheidsprijs** of het **verkoopbedrag** van het vaste activum in.
+9. Selecteer de sectie **Regeldetails**.  
+10. Typ of selecteer een waarde in het veld **Vaste activa**.
+11. Selecteer **Boeken**. 
 

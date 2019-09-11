@@ -3,7 +3,7 @@ title: Een journaalboeking maken met een sjabloon
 description: Geboekte journaalboekstuk kunnen als boekstuksjablonen worden opgeslagen en toegepast in een nieuw journaalboekstuk.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a3fb750e04fb134fc9ac38d9a47201803566113
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: babbc5ee067743d368680970556f8e5d3d8585f0
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846626"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916142"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Een journaalboeking maken met een sjabloon
 
@@ -29,38 +29,37 @@ ms.locfileid: "1846626"
 
 Geboekte journaalboekstuk kunnen als boekstuksjablonen worden opgeslagen en toegepast in een nieuw journaalboekstuk. Bij deze procedure wordt het demobedrijf USMF gebruikt.
 
-1. Grootboek > Journaalboekingen > Algemene journalen. Klik op Nieuw.
-    * Deze procedure start met het maken en boeken van een journaalboekstuk, maar elk eerder geboekt journaalboekstuk kan als sjabloon worden opgeslagen.  
-2. Klik in het veld Naam op de vervolgkeuzeknop om de zoekopdracht te openen.
-3. Zoek en selecteer het gewenste record in de lijst.
-4. Klik in de lijst op de koppeling in de geselecteerde rij.
-5. Klik op Regels.
-6. Voer een rekening in voor Rekeningtype.
-7. Typ een waarde in het veld Omschrijving.
-8. Voer in het veld Debet een bedrag in.
-9. Klik op Nieuw.
-10. Voer een andere rekening in voor Rekeningtype.
-11. Typ een waarde in het veld Omschrijving.
-12. Voer in het veld Debet een bedrag in.
-13. Klik op Nieuw.
-14. Geef in het veld Rekening de gewenste waarden op.
-15. Typ een waarde in het veld Omschrijving.
-16. Voer in het veld Credit een bedrag in om het boekstuk in balans te brengen.
-17. Klik op Boeken.
-18. Klik op Functies.
-19. Klik op Boekstuksjabloon opslaan.
-20. In deze procedure wordt uitgegaan van een sjabloontype Procent. Klik op OK.
-    * • Procent: De bedragen in het boekstuk worden omgezet in percentagefactoren, waardoor elk bedrag kan worden toegepast als de sjabloon voor het boekstuk wordt geselecteerd.  • Bedrag: De werkelijke bedragen worden opgeslagen en toegepast.  
-21. Klik op Algemene journalen.
-22. Klik op Nieuw.
-23. Klik in het veld Naam op de vervolgkeuzeknop om de zoekopdracht te openen.
+1. Ga naar **Navigatievenster > Modules > Grootboek > Journaalboekingen > Algemene journalen**.
+2. Klik in het **actievenster** op **Nieuw**. Deze procedure start met het maken en boeken van een journaalboekstuk, maar elk eerder geboekt journaalboekstuk kan als sjabloon worden opgeslagen.  
+3. Klik in het veld **Naam** op de vervolgkeuzeknop om de zoekopdracht te openen.
+4. Zoek en selecteer het gewenste record in de lijst.
+5. Klik in de lijst op de koppeling in de geselecteerde rij.
+6. Klik op **Regels**.
+7. Typ een waarde in het veld **Rekeningtype**.
+8. Typ een waarde in het veld **Beschrijving**.
+9. Typ een waarde in het veld **Debet**.
+10. Klik op **Nieuw**.
+11. Typ een waarde in het veld **Rekeningtype**.
+12. Typ een waarde in het veld **Beschrijving**.
+13. Typ een waarde in het veld **Debet**.
+14. Klik op **Nieuw**.
+14. Geef in het veld **Rekening** de gewenste waarden op.
+15. Typ een waarde in het veld **Beschrijving**.
+16. Voer in het veld **Credit** een waarde in om het boekstuk in balans te brengen.
+17. Klik in het **actievenster** op **Boeken**.
+18. Klik op **Functies**.
+19. Klik op **Boekstuksjabloon opslaan**.
+20. In deze procedure wordt uitgegaan van een sjabloontype **Procent**. Klik op OK.
+    - Procent: de bedragen in het boekstuk worden omgezet in percentagefactoren, waardoor elk bedrag kan worden toegepast als de sjabloon voor het boekstuk wordt geselecteerd.
+    - Bedrag: de werkelijke bedragen worden opgeslagen en toegepast.  
+21. Klik op **Algemene journalen**.
+22. Klik op **Nieuw**.
+23. Klik in het veld **Naam** op de vervolgkeuzeknop om de zoekopdracht te openen.
 24. Klik in de lijst op de koppeling in de geselecteerde rij.
-25. Klik op Regels.
-26. Klik op Functies.
-27. Klik op Boekstuksjabloon selecteren.
-28. Zoek de sjabloon die u eerder hebt gemaakt. Klik op OK.
-    * Mogelijk moet u op Vorige stap klikken en vervolgens de juiste sjabloon selecteren als andere sjablonen bestaan.  
-29. Voer in het veld Bedrag het bedrag in dat op het boekstuk moet worden toegepast.
-    * Het bedragveld wordt alleen weergegeven als de boekstuksjabloon van het type Procent is.  
-30. Klik op OK.
+25. Klik op **Regels**.
+26. Klik op **Functies**.
+27. Klik op **Boekstuksjabloon selecteren**.
+28. Zoek de sjabloon die u eerder hebt gemaakt. Klik op **OK**. Mogelijk moet u op **Vorige stap** klikken en vervolgens de juiste sjabloon selecteren als andere sjablonen bestaan.  
+29. Voer in het veld **Bedrag** het bedrag in dat op het boekstuk moet worden toegepast. Het veld **Bedrag** wordt alleen weergegeven als de boekstuksjabloon van het type Procent is.  
+30. Klik op **OK**.
 

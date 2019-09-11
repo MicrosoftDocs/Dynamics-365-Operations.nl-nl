@@ -1,9 +1,9 @@
 ---
 title: Een vast activum splitsen
-description: Deze taakbegeleiding splitst een percentage van één activumboek op naar een nieuw activumboek.
+description: In dit onderwerp wordt uitgelegd hoe u een percentage van één activumboek opsplitst naar een nieuw activumboek.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,46 +16,47 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8e5fdc8a7b326daca1fc0f0962c69bb8fb1ff64
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a4e001a6fdf390c6211ba85aa327b60dcdf16d9e
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839708"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867578"
 ---
 # <a name="split-a-fixed-asset"></a>Een vast activum splitsen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze taakbegeleiding splitst een percentage van één activumboek op naar een nieuw activumboek.  Het gebruikt de accountantsrol en USMF-demogegevens.
+In dit onderwerp wordt uitgelegd hoe u een percentage van één activumboek opsplitst naar een nieuw activumboek. Het gebruikt de accountantsrol en USMF-demogegevens.
 
 
 ## <a name="create-a-new-fixed-asset"></a>Nieuwe vaste activa maken
-1. Ga naar Vaste activa > Vaste activa > Vaste activa.
-2. Klik op Nieuw.
-3. Typ of selecteer een waarde in het veld Groep vaste activa.
-4. Noteer het vaste-activanummer om het later in het splitsingsproces te gebruiken.
-5. Typ een waarde in het veld Naam.
-6. Het formulier sluiten.
+1. Ga in het navigatievenster naar **Modules > Vaste activa > Vaste activa > Vaste activa**.
+2. Selecteer **Nieuw**.
+3. Typ of selecteer een waarde in het veld **Groep vaste activa**. Noteer het vaste-activanummer om het later in het splitsingsproces te gebruiken.  
+4. Typ een waarde in het veld **Naam**.
+5. Het formulier sluiten.
 
 ## <a name="split-a-fixed-asset"></a>Een vast activum splitsen
-1. Zoek en selecteer in de lijst het vaste activum om te splitsen.
-2. Klik in de lijst op de koppeling in de geselecteerde rij.
-3. Klik op Boeken.
-    * Selecteer het boek dat u wilt opsplitsen naar het nieuwe activum.  
-4. Klik op Functies.
-5. Klik op Vaste activa splitsen.
-6. Typ of selecteer een waarde in het veld Naar vaste activa.
-7. Klik in het veld Boeken op de vervolgkeuzeknop om de zoekopdracht te openen.
-8. Voer in het veld Transactiedatum een datum in.
-9. Voer een getal in het veld Percentage in.
-10. Typ of selecteer een waarde in het veld Journaalnaam.
-11. Klik op OK.
+1. Zoek en selecteer in de lijst de koppeling naar het vaste activum om te splitsen.
+2. Selecteer **Boeken**. Selecteer het boek dat u wilt opsplitsen naar het nieuwe activum.  
+3. Selecteer **Functies**.
+4. Selecteer **Vast activum splitsen**.
+5. Typ of selecteer een waarde in het veld **Naar vaste activa**.
+6. Selecteer in het veld **Boeken** de vervolgkeuzeknop om de zoekopdracht te openen.
+7. Voer in het veld **Transactiedatum** een datum in.
+8. Voer een getal in het veld **Percentage** in.
+9. Typ of selecteer een waarde in het veld **Journaalnaam**.
+10. Selecteer **OK**.
 
 ## <a name="post-the-journal-transaction"></a>De journaaltransactie boeken
-1. Ga naar Vaste activa > Journaalboekingen > Vaste-activajournaal.
+1. Ga in het navigatievenster naar **Modules > Vaste activa > Journaalboekingen > Vaste-activajournaal**.
 2. Selecteer in de lijst het journaal dat met het splitsingsproces is gemaakt.
-3. Klik op Regels.
-    * Controleer de gemaakte journaalregels.  Een bijboekingscorrectietransactie wordt gemaakt voor het oorspronkelijke activum om de waarde te verlagen door het percentage dat is opgegeven tijdens het opsplitsingsproces.  Een bijboekingstransactie wordt gemaakt voor het nieuwe activum voor hetzelfde bedrag.  
-4. Klik op Boeken.
+3. Selecteer **Regels**
+
+    - Controleer de gemaakte journaalregels.  
+    - Een bijboekingscorrectietransactie wordt gemaakt voor het oorspronkelijke activum om de waarde te verlagen door het percentage dat is opgegeven tijdens het opsplitsingsproces.  
+    - Een bijboekingstransactie wordt gemaakt voor het nieuwe activum voor hetzelfde bedrag.  
+
+4. Selecteer **Boeken**.
 

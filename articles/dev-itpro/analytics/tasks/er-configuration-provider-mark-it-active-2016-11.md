@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0dfbcf70493a43320e17d4d2734fe6343d43eaf3
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1d6df2068f99a42764fc13f282a7c38099109e06
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850322"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887082"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Aanbieders van configuraties maken en deze als actief markeren
 
@@ -44,3 +44,4 @@ In het volgende onderwerp wordt uitgelegd hoe een gebruiker met de rol van syste
 1. Selecteer de provider Litware, Inc. .
 2. Selecteer **Instellingen als actief**.
 
+![Pagina met het werkgebied Elektronische rapportage](../media/GER-Task-ActiveProvider-1.png)

@@ -1,9 +1,9 @@
 ---
-title: Hoofdplannen
+title: Overzicht van Hoofdplannen
 description: U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkzaamheden binnen uw bedrijf, voor het simuleren van verschillende planningsstrategieën die u in de gaten wilt houden, en voor het implementeren van een bedrijfsbeleid zoals een beleid over de interne resultaten of klanttevredenheid.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9731ba47f449e037850c95a7873e1ae4551e2a9
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: 6a3fa16e0eeb4c392a80cc16cff004cf3765bd12
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595518"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865407"
 ---
-# <a name="master-plans"></a>Hoofdplannen
+# <a name="master-plans-overview"></a>Overzicht van Hoofdplannen
 
 [!include [banner](../includes/banner.md)]
 

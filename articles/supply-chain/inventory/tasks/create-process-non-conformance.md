@@ -1,9 +1,9 @@
 ---
 title: Een conformiteit maken en verwerken
-description: Gebruik deze procedure om beheer van non-conformiteiten uit te voeren, op basis van een bestaande kwaliteitsorder.
+description: In dit onderwerp wordt het beheer van non-conformiteiten, op basis van een bestaande kwaliteitsorder, beschreven.
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/07/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,54 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572806"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916640"
 ---
 # <a name="create-and-process-a-conformance"></a>Een conformiteit maken en verwerken
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Gebruik deze procedure om beheer van non-conformiteiten uit te voeren, op basis van een bestaande kwaliteitsorder. U kunt deze registratie in het demobedrijf USMF uitvoeren en u kunt de voorgestelde waarden gebruiken. Doorgaans wordt deze procedure uitgevoerd door een kwaliteitsbewakingsmedewerker.  Voer als vereiste vooraf de taakregistratie 'De kwaliteit van goederen inspecteren' uit. Om de goedkeuring van een niet-conformering te verwerken moet aan de gebruiker die de taakregistratie uitvoert, een 'Naam'-waarde zijn toegewezen op de pagina Gebruikers. Om de documentnotities te gebruiken moet de gebruiker ook Documentverwerking geactiveerd hebben in de gebruikersopties.
+In dit onderwerp wordt het beheer van non-conformiteiten, op basis van een bestaande kwaliteitsorder, beschreven. U kunt deze registratie in het demobedrijf USMF uitvoeren en u kunt de voorgestelde waarden gebruiken. Doorgaans wordt deze procedure uitgevoerd door een kwaliteitsbewakingsmedewerker.  Voer als vereiste de instructies in [De kwaliteit van goederen inspecteren](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md) uit. Om de goedkeuring van een niet-conformering te verwerken moet aan de gebruiker die de taakregistratie uitvoert, een 'Naam'-waarde zijn toegewezen op de pagina Gebruikers. Om de documentnotities te gebruiken moet de gebruiker ook Documentverwerking geactiveerd hebben in de gebruikersopties.
 
 
 ## <a name="select-a-quality-order"></a>Een kwaliteitsorder selecteren
-1. Ga naar Kwaliteitsorders.
-2. Markeer in de lijst de geselecteerde rij.
-    * Selecteer de kwaliteitsorder die is gemaakt van de taakregistratie 'De kwaliteit van goederen inspecteren'.  
+1. Ga in het navigatievenster naar **Modules > Voorraadbeheer > Periodieke taken > Kwaliteitsbeheer > Kwaliteitsorders**.
+2. Selecteer in de lijst de kwaliteitsorder die is gemaakt in [De kwaliteit van goederen inspecteren](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).  
 
 ## <a name="create-a-nonconformance"></a>Een non-conformiteit maken
-1. Klik op Query's.
-2. Klik op Non-conformiteiten.
-3. Klik op Nieuw.
-4. Klik in het veld Probleemtype op de vervolgkeuzeknop om de zoekopdracht te openen.
-    * Selecteer het probleem dat tijdens het inspectieproces is gevonden.  
-5. Klik in het veld Probleemtype op de vervolgkeuzeknop om de zoekopdracht te openen.
-6. Zoek en selecteer de gewenste record in de lijst.
-7. Klik in de lijst op de koppeling in de geselecteerde rij.
-8. Klik op OK.
+1. Selecteer **Query's** in het actievenster.
+2. Selecteer **Non-conformiteiten**.
+3. Selecteer **Nieuw**.
+4. Selecteer in de vervolgkeuzelijst van het veld **Probleemtype** het probleem dat tijdens het inspectieproces is aangetroffen.  
+5. Selecteer **OK**.
 
 ## <a name="approvereject-a-nonconformance"></a>Een non-conformiteit goedkeuren/afwijzen
-1. Klik op Functies.
-2. Klik op Non-conformiteit goedkeuren.
-    * Keur voor dit voorbeeld de niet-conformering goed. Goedgekeurde non-conformiteiten kunnen aan gerelateerde bewerkingen worden gekoppeld om werk vast te leggen dat is uitgevoerd als onderdeel van de verwerking van de non-conformiteit en, zoals in deze taakregistratie, de verwerking van correctiebehandeling.  
-3. Klik op Ja.
+1. Selecteer **Functies**.
+2. Selecteer **Non-conformiteit goedkeuren**. Keur voor dit voorbeeld de niet-conformering goed. Goedgekeurde non-conformiteiten kunnen aan gerelateerde bewerkingen worden gekoppeld om werk vast te leggen dat is uitgevoerd als onderdeel van de verwerking van de non-conformiteit en, zoals in dit onderwerp, de verwerking van correctiebehandeling.  
+3. Selecteer **Ja**.
 
 ## <a name="create-a-correction-action"></a>Een correctieactie maken
-1. Klik op Correcties.
-2. Klik op Nieuw.
-3. Markeer in de lijst de geselecteerde rij.
-4. Klik in het veld Personeelsnummer op de vervolgkeuzeknop om de zoekopdracht te openen.
-5. Klik in de lijst op de koppeling in de geselecteerde rij.
-6. Klik op Selecteren.
-7. Klik op Koppelen.
-    * Maak een notitie over de correctie. In dit voorbeeld is de actie contact met de leverancier op te nemen om de non-conformiteit te bespreken.  
-8. Klik op Nieuw.
-9. Klik op Notitie.
-    * Afhankelijk van de rapportinstelling kunnen verschillende documenttypen worden afgedrukt in de rapporten die gerelateerd zijn aan beheer van non-conformiteiten.  
-10. Typ een waarde in het veld Omschrijving.
-11. Sluit de pagina.
+1. Selecteer **Correcties**.
+2. Selecteer **Nieuw**.
+3. Selecteer in het veld **Personeelsnummer** van de nieuwe rij de gewenste record in de vervolgkeuzelijst.
+4. Klik op **Selecteren**.
+5. Selecteer **Bijvoegen**. Maak een notitie over de correctie. In dit voorbeeld is de actie contact met de leverancier op te nemen om de non-conformiteit te bespreken.  
+6. Selecteer **Nieuw**.
+7. Selecteer **Opmerking**. Afhankelijk van de rapportinstelling kunnen verschillende documenttypen worden afgedrukt in de rapporten die gerelateerd zijn aan beheer van non-conformiteiten.  
+8. Typ een waarde in het veld **Beschrijving**.
+9. Sluit de pagina.
 
 ## <a name="maintain-a-correction"></a>Een correctie onderhouden
-1. Klik op Als voltooid markeren.
-2. Klik op OK.
+1. Selecteer **Als voltooid markeren**.
+2. Selecteer **OK**.
 3. Sluit de pagina.
 
 ## <a name="close-a-nonconformance"></a>Een niet-conformering sluiten
-1. Klik op Functies.
-2. Klik op Non-conformiteit afsluiten.
-3. Klik op Ja.
-4. Sluit de pagina.
-5. Sluit de pagina.
+1. Selecteer **Functies**.
+2. Selecteer **Non-conformiteit afsluiten**.
+3. Selecteer **Ja**.
+4. Sluit de pagina's.

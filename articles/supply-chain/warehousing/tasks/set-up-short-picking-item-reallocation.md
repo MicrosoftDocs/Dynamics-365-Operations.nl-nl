@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a3c635c32a53226da6ce72db86ee7d9d0c17bdb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 964302cb7e7835b6e619602ac7165c9e7adbcefb
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847082"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916749"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Artikelhertoewijzing voor kort orderverzamelen instellen
 
@@ -32,25 +32,20 @@ Deze procedure laat zien hoe magazijnmedewerkers snel andere locaties kunnen vin
 
 
 ## <a name="set-up-work-exceptions"></a>Werkuitzonderingen instellen
-1. Ga naar Magazijnbeheer > Instellen > Werk > Werkuitzonderingen.
-2. Klik op Nieuw.
-    * Het is mogelijk om meerdere werkuitzonderingen te definiëren met verschillende beleidsregels voor artikelhertoewijzing zodat de magazijnwerknemer één regel kan kiezen op basis van de vereisten van de zending die wordt verwerkt.  
-3. Typ een waarde in het veld Werkuitzonderingscode.
-    * Geef de werkuitzondering een titel om aan te geven waarvoor deze wordt gebruikt. Bijvoorbeeld Handmatige orderverzameling.  
-4. Typ een waarde in het veld Omschrijving.
-5. Selecteer Korte verzameling in het veld Type uitzondering.
-6. Schakel het selectievakje Voorraad aanpassen in.
-    * Deze optie betekent dat de voorraad automatisch tot 0 wordt aangepast op de locatie voor orderverzameling.  
-7. Typ of selecteer een waarde in het veld Standaard correctietypecode.
-    * Selecteer in USMF bijvoorbeeld Res Adj Out verwijderen.  
-8. Selecteer Handmatig in het veld Artikelhertoewijzing.
-    * Als u Handmatig of Automatisch en handmatig selecteert, moet de magazijnwerknemer in staat zijn om handmatige hertoewijzing te gebruiken.  
+1. Ga in het **navigatievenster** naar **Magazijnbeheer > Instellingen > Werk >Werkuitzonderingen**.
+2. Klik op **Nieuw**. Het is mogelijk om meerdere werkuitzonderingen te definiëren met verschillende beleidsregels voor artikelhertoewijzing zodat de magazijnwerknemer één regel kan kiezen op basis van de vereisten van de zending die wordt verwerkt.  
+3. Typ een waarde in het veld **Werkuitzonderingscode**. Geef de werkuitzondering een titel om aan te geven waarvoor deze wordt gebruikt. Bijvoorbeeld Handmatige orderverzameling.  
+4. Typ een waarde in het veld **Beschrijving**.
+5. Selecteer Korte verzameling in het veld **Type uitzondering**.
+6. Schakel het selectievakje **Voorraad aanpassen** in. Deze optie betekent dat de voorraad automatisch tot 0 wordt aangepast op de locatie voor orderverzameling.  
+7. Typ of selecteer een waarde in het veld **Standaard correctietypecode**. Selecteer in USMF bijvoorbeeld Res Adj Out verwijderen.  
+8. Selecteer Handmatig in het veld **Artikelhertoewijzing**. Als u Handmatig of Automatisch en handmatig selecteert, moet de magazijnwerknemer in staat zijn om handmatige hertoewijzing te gebruiken.  
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Een werknemer instellen om handmatige artikelhertoewijzing te gebruiken
 1. Sluit de pagina.
-2. Ga naar Magazijnbeheer > Instellen > Medewerker.
-3. Klik op Bewerken.
+2. Ga in het **navigatievenster** naar **Magazijnbeheer > Instellingen > Medewerker**.
+3. Klik op **Bewerken**.
 4. Selecteer medewerker 24 in de lijst.
-5. Vouw de sectie Werk uit.
-6. Selecteer Ja in het veld Handmatige artikelhertoewijzing toestaan.
+5. Vouw het sneltabblad **Werk** uit.
+6. Selecteer Ja in het veld **Handmatige artikelhertoewijzing toestaan**.
 

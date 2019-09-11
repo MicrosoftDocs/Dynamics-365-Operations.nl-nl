@@ -3,7 +3,7 @@ title: Btw-aangiftecodes instellen
 description: De btw-aangiftecodes verwijzen naar een veldnummer in een btw-rapport.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 830a3465944b32cc17feee60e3cbc5ad0a4dc9d7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4751256858da417ec9bb1b7d9ccd16fb6bef1cac
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834768"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916086"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Btw-aangiftecodes instellen
 
@@ -31,14 +31,11 @@ De btw-aangiftecodes verwijzen naar een veldnummer in een btw-rapport. Ze worden
 
 Bij deze registratie wordt het demobedrijf DEMF gebruikt.
 
-
-
-1. Ga naar Btw > Instellen > Btw > Btw-aangiftecodes.
-2. Klik op Nieuw.
-3. Selecteer de rapportindeling waarbij de aangiftecode hoort.
-    * Deze indeling wordt gebruikt om de beschikbare aangiftecodes voor een btw-code te filteren. Elke btw-code behoort tot een vereffeningsperiode die bij een belastingdienst hoort die een rapportindeling gebruikt.  
-4. Voer een nummer in dat verwijst naar een veld in een btw-aangifte.
-5. Voer in het veld Rapporttekst een omschrijving in voor weergave in rapporten.
-6. Voer in het veld Korte omschrijving een omschrijving voor interne doelen in.
-7. Klik op Opslaan.
+1. Ga in het **navigatievenster** naar **Belasting > Instellingen > Btw > Btw-aangiftecodes**.
+2. Klik op **Nieuw**.
+3. Selecteer de rapportindeling waarbij de aangiftecode hoort. Deze indeling wordt gebruikt om de beschikbare aangiftecodes voor een btw-code te filteren. Elke btw-code behoort tot een vereffeningsperiode die bij een belastingdienst hoort die een rapportindeling gebruikt.  
+4. Voer een getal in het veld **Aangiftecode** in.
+5. Voer in het veld **Rapporttekst** een omschrijving in voor weergave in rapporten.
+6. Voer in het veld **Korte omschrijving** een omschrijving voor interne doelen in.
+7. Klik op **Opslaan**.
 

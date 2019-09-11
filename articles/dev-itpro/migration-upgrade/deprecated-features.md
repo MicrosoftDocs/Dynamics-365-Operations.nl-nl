@@ -3,7 +3,7 @@ title: Verwijderde of verouderde functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 07/30/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 4aad4f2cf42b72256b5c4727bfd145d16af033ed
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863378"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867096"
 ---
 # <a name="removed-or-deprecated-features"></a>Verwijderde of afgeschafte functies
 
@@ -157,6 +157,17 @@ Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het pro
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in platformupdate 26. |
+
+## <a name="dynamics-365-for-finance-and-operations-1000-with-platform-update-24"></a>Dynamics 365 for Finance and Operations 10.0.0 met platformupdate 24
+
+### <a name="renaming-released-products"></a>Naam wijzigen van vrijgegeven producten 
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Wanneer u de functie **Naam van primaire sleutel wijzigen** gebruikt om de Itemid van een vrijgegeven product te wijzigen, worden alleen directe verwijzingen naar externe sleutels bijgewerkt. Eventuele andere verwijzingen naar het vrijgegeven product, zoals vanuit productie orders, behouden de oude ItemId. Hierdoor kunnen er inconsistente gegevens zijn die uiteindelijk de bedrijfsprocessen zullen blokkeren. |
+| **Vervangen door een andere functie?**   | Nr. |
+| **Betrokken productgebieden**         | Productgegevensbeheer |
+| **Implementatieoptie**              | Alle  |
+| **Status**                         | Verwijderd sinds Dynamics 365 for Finance and Operations 10.0.0 met platformupdate 24. In uitzonderlijke gevallen, zoals bij het herstellen van een eerdere naamswijziging van de primaire sleutel van een vrijgegeven product, is het mogelijk om Microsoft te vragen deze beperking op de bewerking voor het wijzigen van de primaire sleutel voor vrijgegeven producten tijdelijk te verwijderen. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 met platformupdate 23

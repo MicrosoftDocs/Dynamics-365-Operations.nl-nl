@@ -3,7 +3,7 @@ title: Handmatig een vraagprognose wijzigen
 description: Deze procedure laat zien hoe u de prognose voor een artikel kunt wijzigen.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca6b881bc094b68d1bbf8c7c20b65418e42b28e3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835860"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916617"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Handmatig een vraagprognose wijzigen
 
@@ -31,19 +31,15 @@ Deze procedure laat zien hoe u de prognose voor een artikel kunt wijzigen. Het b
 
 
 ## <a name="modify-the-forecast-for-an-item"></a>De prognose voor een artikel wijzigen
-1. Ga naar Productgegevensbeheer > Producten > Vrijgegeven producten.
-2. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer het artikel waarvoor u de prognose wilt wijzigen. Zo kunt u bijvoorbeeld het artikel D0001 selecteren.  
-3. Klik in het actievenster op Plannen.
-4. Klik op Vraagprognose.
-5. Markeer in de lijst de geselecteerde rij.
-    * Als er geen prognoseregels zijn, maakt u een nieuwe regel door op Nieuw te klikken op de appbalk.  
-6. Voer in het veld Verkoophoeveelheid een getal in.
-    * Dit getal geeft de geraamde hoeveelheid voor het artikel aan.  
+1. Ga in het **navigatievenster** naar **Modules > Productgegevensbeheer > Producten > Vrijgegeven producten**.
+2. Zoek en selecteer de gewenste record in de lijst. Selecteer het artikel waarvoor u de prognose wilt wijzigen. Zo kunt u bijvoorbeeld het artikel D0001 selecteren.  
+3. Klik op **Plannen** in het **actievenster**.
+4. Klik op **Vraagprognose**.
+5. Markeer in de lijst de geselecteerde rij. Als er geen prognoseregels zijn, maakt u een nieuwe regel door op Nieuw op de app-balk te klikken.  
+6. Voer in het veld **Verkoophoeveelheid** een getal in. Dit getal geeft de geraamde hoeveelheid voor het artikel aan.  
 7. Klik op Opslaan.
 
 ## <a name="modify-the-forecast-in-excel"></a>De prognose in Excel wijzigen
-1. Klik op Openen in Microsoft Office.
-2. Klik op Vraagprognose bewerken in Excel.
-    * In Excel kunt u vraagprognoseregels toevoegen, verwijderen en bewerken. Als u de gegevens niet kunt weergeven in Excel, moet u zich aanmelden bij Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, met de optie 'Aangemeld blijven' ingeschakeld en moet u de app voor gegevensverbinding vertrouwen.  
+1. Klik op **Openen** in Microsoft Office.
+2. Klik op **Vraagprognose bewerken** in Excel. In Excel kunt u vraagprognoseregels toevoegen, verwijderen en bewerken. Als u de gegevens niet kunt weergeven in Excel, moet u zich aanmelden bij Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, met de optie 'Aangemeld blijven' ingeschakeld en moet u de app voor gegevensverbinding vertrouwen.  
 

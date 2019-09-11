@@ -3,7 +3,7 @@ title: Overzicht van functiebeheer
 description: Dit onderwerp bevat een beschrijving van de functie Functiebeheer en de manier waarop u deze kunt gebruiken.
 author: mikefalkner
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6aeb5383520f799223d62420f6e0c1079c6c961f
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862933"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887106"
 ---
 # <a name="feature-management-overview"></a>Overzicht van functiebeheer
 
@@ -103,8 +103,9 @@ Alle functies die kunnen worden ingeschakeld, worden ingeschakeld. Als een funct
 
 Standaard zijn alle functies die aan uw omgeving worden toegevoegd, uitgeschakeld, tenzij het verplichte functies zijn. Als u alle nieuwe functies automatisch wilt inschakelen, kunt u de vervolgkeuzelijst onder de werkgebiedtitel gebruiken om te wijzigen wat er gebeurt wanneer er nieuwe functies worden toegevoegd.
 
-- Selecteer **Alle nieuwe functies worden standaard ingeschakeld** om automatisch alle nieuwe functies in te schakelen wanneer deze aan uw omgeving worden toegevoegd.
-- Selecteer **Alle nieuwe functies worden standaard uitgeschakeld** om automatisch alle nieuwe functies uit te schakelen wanneer deze aan uw omgeving worden toegevoegd.
+- Selecteer **Nieuwe functies automatisch inschakelen** om automatisch alle nieuwe functies in te schakelen wanneer deze aan uw omgeving worden toegevoegd.
+- Selecteer **Nieuwe functies niet automatisch inschakelen** om alle nieuwe functies standaard uit te schakelen wanneer deze aan uw omgeving worden toegevoegd.
+
 
 Wanneer u alle functie automatisch inschakelt, worden alle functies ingeschakeld die zouden worden ingeschakeld wanneer u op de knop **Alles inschakelen** klikt. Hiermee worden geen functies ingeschakeld waarvoor bevestiging vereist is of functies die pas na een bepaalde actie kunnen worden ingeschakeld.
 

@@ -1,9 +1,9 @@
 ---
-title: Uitgaand proces
+title: Overzicht van Uitgaand proces
 description: Dit onderwerp biedt een overzicht van het uitgaande proces in Voorraadbeheer.
 author: perlynne
 manager: AnnBe
-ms.date: 10/04/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 5ac3260f128acbc819d7207f68f17adb085da11c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2f6638b3e79be5a2ebdbf6e5773285406239a080
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570458"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865443"
 ---
-# <a name="outbound-process"></a>Uitgaand proces
+# <a name="outbound-process-overview"></a>Overzicht van Uitgaand proces
 
 [!include [banner](../includes/banner.md)]
 

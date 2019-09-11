@@ -1,47 +1,44 @@
 ---
 title: Categorieën van hoofdrekening instellen
-description: De categorieën van hoofdrekening worden gebruikt voor de standaardrapporten in de financiële rapportage en in Power BI.
+description: In dit onderwerp wordt uitgelegd hoe u hoofdrekeningcategorieën instelt in Dynamics 365 for Finance and Operations.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e33df434b6a4361872bad10250fe3547d7c4affa
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4d37deb0bda225abb111375d8a00ae22d9e0c4fe
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834801"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916063"
 ---
 # <a name="set-up-main-account-categories"></a>Categorieën van hoofdrekening instellen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-De categorieën van hoofdrekening worden gebruikt voor de standaardrapporten in de financiële rapportage en in Power BI. U kunt de categorieën van hoofdrekening die standaard zijn gemaakt een andere naam geven maar niet verwijderen. De categorieën van aanvullende rekening kunnen worden gemaakt en gebruikt voor rapportage- en analysedoeleinden. Bij deze taak wordt het demobedrijf USMF gebruikt.
-
+In dit onderwerp wordt uitgelegd hoe u hoofdrekeningcategorieën instelt in Dynamics 365 for Finance and Operations. De categorieën van hoofdrekening worden gebruikt voor de standaardrapporten in de financiële rapportage en in Power BI. U kunt de categorieën van hoofdrekening die standaard zijn gemaakt een andere naam geven maar niet verwijderen. De categorieën van aanvullende rekening kunnen worden gemaakt en gebruikt voor rapportage- en analysedoeleinden. In dit onderwerp wordt het demobedrijf USMF gebruikt.
 
 ## <a name="create-a-main-account-category"></a>Een categorie van hoofdrekening maken
-1. Ga naar Grootboek > Rekeningschema > Rekeningen >; Categorieën van hoofdrekening.
-2. Klik op Nieuw.
-3. Voer in het veld Categorie van hoofdrekening een unieke naam in.
-4. Typ in het veld Beschrijving een beschrijving voor de categorie van hoofdrekening.
-5. Selecteer in het veld Hoofdrekeningtype het hoofdrekeningtype dat u aan de categorie wilt koppelen.
+1. Ga in het navigatievenster naar **Modules > Grootboek > Rekeningschema > Rekeningen > Categorieën van hoofdrekening**.
+2. Selecteer **Nieuw**.
+3. Voer in het veld **Categorie van hoofdrekening** een unieke naam in.
+4. Typ in het veld **Beschrijving** een beschrijving voor de categorie van de hoofdrekening.
+5. Selecteer in het veld **Hoofdrekeningtype** het hoofdrekeningtype dat u aan de categorie wilt koppelen.
 
 ## <a name="link-main-accounts-to-account-category"></a>Hoofdrekeningen aan een rekeningcategorie koppelen
-1. Klik op Hoofdrekeningen koppelen.
-2. Selecteer in de lijst de hoofdrekeningen die u aan de categorie van hoofdrekening wilt koppelen.
-    * Door het toewijzen van hoofdrekeningen aan een categorie van hoofdrekening worden de saldi van de rekeningen samengevoegd wanneer die categorie voor financiële rapportage en analyse wordt gebruikt.  
-3. Selecteer of wis de optie Gekoppeld om de hoofdrekeningen te kiezen.
-4. Klik op OK.
-5. Klik op Ja.
-
+1. Klik op **Hoofdrekeningen koppelen**.
+2. Selecteer in de lijst de hoofdrekeningen die u aan de hoofdrekeningcategorie wilt toewijzen door de selectievakjes in de kolom **Gekoppeld** in te schakelen. Door het toewijzen van hoofdrekeningen aan een categorie van hoofdrekening worden de saldi van de rekeningen samengevoegd wanneer die categorie voor financiële rapportage en analyse wordt gebruikt.  
+3. Schakel de optie **Gekoppeld** in of uit om de hoofdrekeningen te kiezen.
+4. Selecteer **OK**.
+5. Selecteer **Ja**.

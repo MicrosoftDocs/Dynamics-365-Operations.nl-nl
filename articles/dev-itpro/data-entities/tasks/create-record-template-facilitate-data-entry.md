@@ -1,9 +1,9 @@
 ---
 title: Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken
-description: In deze procedure wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaak gebruikte veldwaarden niet expliciet moeten worden ingevoerd voor elke nieuwe record.
+description: In dit onderwerp wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaak gebruikte veldwaarden niet expliciet moeten worden ingevoerd voor elke nieuwe record.
 author: margoc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,37 +16,31 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b2ba56b6146f2495fb6a53c3cef9f549b1ad837
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 08ee7d0f0ce7e92eaa85137dcd2761bfd702eb8c
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848202"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866923"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In deze procedure wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaak gebruikte veldwaarden niet expliciet moeten worden ingevoerd voor elke nieuwe record. In deze procedure maakt u een nieuwe record voor nieuwe laptops die u wilt laten toevoegen aan uw vaste activa. In deze procedure wordt het voorbeeldbedrijf USMF gebruikt.
+In dit onderwerp wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaak gebruikte veldwaarden niet expliciet moeten worden ingevoerd voor elke nieuwe record. In deze procedure maakt u een nieuwe record voor nieuwe laptops die u wilt laten toevoegen aan uw vaste activa. In deze procedure wordt het voorbeeldbedrijf USMF gebruikt.
 
-1. Ga naar Vaste activa > Vaste activa > Vaste activa.
-2. Klik op Nieuw.
-3. Typ of selecteer een waarde in het veld Groep vaste activa.
-4. Typ een waarde in het veld Naam.
-    * Voer bijvoorbeeld 'Corporate lead-laptop' in.  
-5. Typ een waarde in het veld Zoeknaam.
-    * Voer bijvoorbeeld 'laptop' in.  
-6. Vouw de sectie Technische informatie uit.
-7. Typ een waarde in het veld Merk.
-8. Typ een waarde in het veld Model.
-9. Typ een waarde in het veld Bouwjaar.
-10. Klik in het actievenster op Opties.
-11. Klik op Recordinfo.
-12. Klik op Gebruikersjabloon.
-13. Typ een waarde in het veld Naam.
-    * Voer bijvoorbeeld 'Corporate laptop' in.  
-14. Typ een waarde in het veld Omschrijving.
-    * Voer bijvoorbeeld 'Corporate laptop' in.  
-15. Klik op OK.
-16. Klik op Sluiten.
+1. Ga in het navigatievenster naar **Modules > Vaste activa > Vaste activa > Vaste activa**.
+2. Selecteer **Nieuw**.
+3. Typ of selecteer een waarde in het veld **Groep vaste activa**.
+4. Typ een waarde in het veld **Naam**. Voer bijvoorbeeld **Corporate lead-laptop** in.  
+5. Typ een waarde in het veld **Zoeknaam**. Voer bijvoorbeeld **laptop** in.  
+6. Vouw de sectie **Technische informatie** uit.
+7. Typ waarden in de velden **Merk**, **Model** en **Modeljaar**.
+8. Selecteer **Opties** in het actievenster.
+9. Selecteer **Recordinfo**.
+10. Selecteer **Gebruikerssjabloon**.
+11. Typ een waarde in het veld **Naam**.
+12. Typ een waarde in het veld **Beschrijving**.
+13. Selecteer **OK**.
+14. Selecteer **Sluiten**.
 

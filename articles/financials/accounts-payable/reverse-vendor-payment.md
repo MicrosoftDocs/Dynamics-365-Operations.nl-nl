@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837247"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867745"
 ---
 # <a name="reverse-a-vendor-payment"></a>Een leveranciersbetaling omkeren
 
@@ -48,7 +48,7 @@ Controleer welke methode uw organisatie gebruikt op de pagina **Parameters voor 
 Als uw organisatie omkeringen van cheques onmiddellijk wil boeken wanneer u op **Omkering van betaling** op de pagina **Cheques** klikt. Stel op de pagina **Parameters voor cash- en bankbeheer** de optie **Controleproces voor betalingsomkeringen gebruiken** in op **Nee**. Op de pagina **Cheques** kunt u de cheque selecteren die u wilt omkeren en **Omkering van betaling** selecteren. Geef vervolgens de datum op en selecteer een reden voor de omkering.
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>Geboekte cheques omkeren nadat deze zijn gecontroleerd in het journaal voor het omkeren van een cheque
-Als uw organisatie omkeringen van cheques wil controleren voordat ze worden geboekt, maakt u een journaal voor chequeomkeringen voor controle en stelt u op de pagina **Parameters voor cash- en bankbeheer** de optie **Controleproces voor betalingsomkeringen gebruiken** in op **Ja**. Op de pagina **Cheques** kunt u de cheque selecteren die u wilt omkeren en **Omkering van betaling** selecteren. Geef vervolgens de datum op en selecteer een reden voor de omkering. U moet ook een journaalnaam selecteren om een journaal in het journaal voor chequeomkeringen te maken.
+Als uw organisatie omkeringen van cheques wil controleren voordat ze worden geboekt, maakt u een journaal voor chequeomkeringen voor controle en stelt u op de pagina **Parameters voor cash- en bankbeheer** de optie **Controleproces voor betalingsomkeringen gebruiken** in op **Ja**. Op de pagina **Cheques** kunt u de cheque selecteren die u wilt omkeren en **Omkering van betaling** selecteren. Geef vervolgens de datum op en selecteer een reden voor de omkering. De financiële reden moet worden ingesteld voor zowel bank- als leverancierstypen. U moet ook een journaalnaam selecteren om een journaal in het journaal voor chequeomkeringen te maken.
 
 ### <a name="review-a-reversal"></a>Een omkering controleren
 

@@ -1,9 +1,9 @@
 ---
-title: Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing installeren en configureren
+title: Overzicht van de app voor magazijnbeheer installeren en configureren
 description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations - Warehousing kunt installeren en configureren.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/12/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 742e8753aafca670b94c9f0361ef1dbbe42f0eb8
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559181"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866108"
 ---
-# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing installeren en configureren
+# <a name="install-and-configure-the-warehousing-app-overview"></a>Overzicht van de app voor magazijnbeheer installeren en configureren
 
 [!include [banner](../includes/banner.md)]
 

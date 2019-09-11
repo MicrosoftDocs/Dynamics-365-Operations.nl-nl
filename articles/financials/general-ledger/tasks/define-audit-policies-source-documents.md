@@ -1,9 +1,9 @@
 ---
 title: Auditbeleid voor brondocumenten definiëren
-description: Deze procedure laat zien hoe u controlebeleidsregels instelt en uitvoert.
+description: In dit onderwerp wordt beschreven hoe u controlebeleidsregels instelt en uitvoert.
 author: ryansandness
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,80 +16,75 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17b712f07a0ffe6874eb6d98b47ced96f5a54483
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846482"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914813"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Auditbeleid voor brondocumenten definiëren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u controlebeleidsregels instelt en uitvoert. Het voorbeeld gebruikt onkostennota's met het type hotelkosten. Bij deze procedure wordt het demobedrijf USMF gebruikt. De auditorrol bevat de juiste machtigingen om deze taken uit te voeren.
+In dit onderwerp wordt beschreven hoe u controlebeleidsregels instelt en uitvoert. Het voorbeeld gebruikt onkostennota's met het type hotelkosten. Bij deze procedure wordt het demobedrijf USMF gebruikt. De auditorrol bevat de juiste machtigingen om deze taken uit te voeren.
 
-1. Ga naar Controlewerkbank > Instellen > Type beleidsregel.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Regelnaam.
-4. Typ een waarde in het veld Omschrijving.
-5. Selecteer Onkostennotaregel in het veld Querynaam.
-6. Selecteer Samenvoegen in het veld Querytype.
-7. Selecteer Rechtspersoon in het veld Rechtspersoon
-8. Selecteer Wijzigingsdatum en -tijd in het veld Referentie documentdatum
-9. Klik op Opslaan.
-10. Ga naar Controlewerkbank > Instellen > Controlebeleid.
-11. Klik op Nieuw.
-12. Typ een waarde in het veld Naam.
-13. Vouw de sectie Beleidorganisaties uit.
-14. In de structuur selecteert u "Contoso-entertainmentsysteem USA".
-15. Klik op Toevoegen.
-16. In de structuur selecteert u "Contoso Consulting USA".
-17. Klik op Toevoegen.
-18. In de structuur selecteert u "Contoso Retail USA".
-19. Klik op Toevoegen.
-20. Vouw de sectie Beleidorganisaties samen.
-21. Vouw de sectie Beleidsregels uit.
-22. Zoek en selecteer in de lijst de Beleidsregel die eerder is gemaakt.
-23. Klik op Beleidsregel maken.
-24. Typ in het veld Begindatum de datum en een tijd.
-25. Klik op Filter.
-26. Selecteer in de lijst de rij voor Onkostencategorie, en stel de details in op Hotel
-27. Typ of selecteer een waarde in het veld Criteria.
-28. Klik op het tabblad Samenvoegen.
-29. Klik op Toevoegen.
-30. Selecteer in de lijst een veldwaarde Transactiebedrag
-31. Typ of selecteer een waarde in het veld Veld.
-32. Selecteer Som in het veld AggregateFunction.
-33. Klik op het tabblad Groeperen op.
-34. Klik op Toevoegen.
-35. Selecteer een waarde van Werknemer in de lijst  
-36. Klik op Toevoegen.
-37. Selecteer een waarde van Onkostencategorie in de lijst
-38. Typ of selecteer een waarde in het veld Veld.
-39. Klik op het tabblad Met.
-40. Klik op Toevoegen.
-41. Selecteer Transactiebedrag
-42. Typ of selecteer een waarde in het veld Veld.
-43. Selecteer Som in het veld AggregateFunction.
-44. Typ ´> 2000´ in het veld Criteria.
-45. Klik op OK.
-46. Klik op Testen.
-47. Voer in het veld Begindatum documentselectie een datum en tijd in.
-48. Voer in het veld Einddatum documentselectie een datum en tijd in.
-49. Klik op Test uitvoeren.
-50. Klik in het actievenster op Controlebeleid.
-51. Klik op Extra opties.
-52. Typ in het veld Begindatum de datum en een tijd.
-53. Typ in het veld Einddatum de datum en een tijd.
-54. Klik op Batch.
-55. Vouw de sectie Op de achtergrond uitvoeren uit.
-56. Selecteer Ja in het veld Batchverwerking.
-57. Klik op OK.
-58. Ga naar Controlewerkbank > Controlecases.
-59. Zoek en selecteer de gewenste record in de lijst.
-60. Klik in de lijst op de koppeling in de geselecteerde rij.
-61. Vouw de sectie Koppelingen uit.
-62. Zoek en selecteer de gewenste record in de lijst.
-63. Klik in de lijst op de koppeling in de geselecteerde rij.
+1. Ga in het navigatievenster naar **Modules > Controleworkbench > Instellingen > Beleidsregeltype**.
+2. Selecteer **Nieuw**.
+3. Typ een waarde in het veld **Regelnaam**.
+4. Typ een waarde in het veld **Beschrijving**.
+5. Selecteer **Onkostennotaregel** in het veld **Querynaam**.
+6. Selecteer **Samenvoegen** in het veld **Querytype**.
+7. Selecteer **Rechtspersoon** in het veld **Rechtspersoon**.
+8. Selecteer **Wijzigingsdatum en -tijd** in het veld **Referentie documentdatum**.
+9. Selecteer **Opslaan**.
+10. Ga in het navigatievenster naar **Modules > Controleworkbench > Instellingen > Controlebeleid**.
+11. Selecteer **Nieuw**.
+12. Typ een waarde in het veld **Naam**.
+13. Vouw de sectie **Beleidorganisaties** uit.
+14. In de structuur selecteert u **Contoso Entertainment System USA** en vervolgens selecteert u **Toevoegen**.
+15. In de structuur selecteert u **Contoso Consulting USA** en vervolgens selecteert u **Toevoegen**.
+16. In de structuur selecteert u **Contoso Retail USA** en vervolgens selecteert u **Toevoegen**.
+17. Vouw de sectie **Beleidorganisaties** samen.
+18. Vouw de sectie **Beleidsregels** uit.
+19. Zoek en selecteer in de lijst de Beleidsregel die eerder is gemaakt.
+20. Selecteer **Beleidsregel maken**.
+21. Voer in het veld **Ingangsdatum** een datum en tijd in.
+22. Selecteer **Filter**.
+23. Selecteer in de lijst de rij voor **Onkostencategorie** en stel de details in op **Hotel**.
+24. Typ of selecteer een waarde in het veld **Criteria**.
+25. Selecteer het tabblad **Samenvoegen**.
+26. Selecteer **Toevoegen**.
+27. Selecteer in de lijst een veldwaarde **Transactiebedrag**.
+28. Typ of selecteer een waarde in het veld **Veld**.
+29. Selecteer **Som** in het veld **AggregateFunction**.
+30. Selecteer het tabblad **Groeperen op**.
+31. Selecteer **Toevoegen**.
+32. Selecteer een waarde voor **Werknemer** in de lijst.
+33. Selecteer **Toevoegen**.
+34. Selecteer een waarde voor **Onkostencategorie** in de lijst.
+35. Typ of selecteer een waarde in het veld **Veld**.
+36. Selecteer het tabblad **Met**.
+37. Selecteer **Toevoegen**.
+38. Selecteer **Transactiebedrag**.
+39. Typ of selecteer een waarde in het veld **Veld**.
+40. Selecteer **Som** in het veld **AggregateFunction**.
+41. Typ `>2000` in het veld **Criteria**.
+42. Selecteer **OK**.
+43. Selecteer **Testen**.
+44. Voer in het veld **Begindatum documentselectie** een datum en tijd in.
+45. Voer in het veld **Einddatum documentselectie** een datum en tijd in.
+46. Selecteer **Test uitvoeren**.
+47. Selecteer **Controlebeleid** in het actievenster.
+48. Selecteer **Aanvullende opties**.
+49. Typ in het veld **Begindatum** de datum en een tijd.
+50. Typ in het veld **Einddatum** de datum en een tijd.
+51. Selecteer **Batch**.
+52. Vouw de sectie **Op de achtergrond uitvoeren** uit.
+53. Selecteer **Ja** in het veld **Batchverwerking**.
+54. Selecteer **OK**.
+55. Ga in het navigatievenster naar **Modules > Controleworkbench > Controlecases**.
+56. Zoek en selecteer de gewenste record in de lijst.
+57. Vouw de sectie **Koppelingen** uit.
+58. Zoek en selecteer de gewenste record in de lijst.
 

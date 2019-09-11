@@ -1,9 +1,9 @@
 ---
 title: Standaardsjablonen voor financiële dimensies onderhouden
-description: In deze procedure ziet u hoe de standaardsjablonen van de financiële dimensie worden ingesteld.
+description: In dit onderwerp ziet u hoe de standaardsjablonen van de financiële dimensie worden ingesteld.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,30 +16,29 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 27ce6df8ad4bc359f2cbf802f83149bc6966321a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5b53077844c231496642f97a62b373eb0547fde2
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846424"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867458"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Standaardsjablonen voor financiële dimensies onderhouden
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In deze procedure ziet u hoe de standaardsjablonen van de financiële dimensie worden ingesteld. Met deze sjablonen kunt u snel bedragen op brondocumenten verdelen.
+In dit onderwerp ziet u hoe de standaardsjablonen van de financiële dimensie worden ingesteld. Met deze sjablonen kunt u snel bedragen op brondocumenten verdelen.
 
-1. Ga naar Grootboek > Rekeningschema > Dimenies > Standaardsjablonen voor financiële dimensies.
-2. Klik op Nieuw.
-3. Voer in het veld Sjabloon-ID een ID van een sjabloon in.
+1. Ga in het navigatievenster naar **Modules > Grootboek > Rekeningschema > Dimensies > Standaardsjablonen voor financiële dimensies**.
+2. Selecteer **Nieuw**.
+3. Voer in het veld **Sjabloon-ID** een ID van een sjabloon in.
 4. Voer het percentage in voor de eerste dimensiewaarden.
 5. Voer de financiële dimensiewaarden in die overeenkomen met het ingevoerde percentage.
-6. Klik op Toevoegen.
-7. Voer een ander percentage in voor de volgende dimensiewaarden.
-    * Voer voor dit voorbeeld een percentage in, zodat u nog minder dan 100% hebt toegewezen.  
+6. Selecteer **Toevoegen**.
+7. Voer een ander percentage in voor de volgende dimensiewaarden. Voer voor dit voorbeeld een percentage in, zodat u nog minder dan 100% hebt toegewezen. 
 8. Voer de financiële dimensiewaarden in die overeenkomen met het ingevoerde percentage.
-9. Klik op Toevoegen.
+9. Selecteer **Toevoegen**.
 10. Voer nog een percentage in, waarmee het totale percentage op 100% uitkomt.
 11. Voer de financiële dimensiewaarden in die overeenkomen met het ingevoerde percentage.
-12. Klik op Opslaan.
+12. Selecteer **Opslaan**.
 

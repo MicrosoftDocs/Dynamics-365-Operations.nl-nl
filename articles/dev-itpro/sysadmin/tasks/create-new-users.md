@@ -3,7 +3,7 @@ title: Nieuwe gebruikers maken
 description: Gebruikers zijn interne werknemers van uw organisatie of externe klanten en leveranciers, die toegang nodig hebben tot het systeem om hun taken uit te voeren.
 author: maertenm
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e492ef5030dd28020094152259b615010aa676
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: a542ece226750330262e0c44427e5654fa4f6369
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1851306"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916479"
 ---
 # <a name="create-new-users"></a>Nieuwe gebruikers maken
 
@@ -31,28 +31,22 @@ Gebruikers zijn interne werknemers van uw organisatie of externe klanten en leve
 
 
 ## <a name="add-a-new-user"></a>Een nieuwe gebruiker toevoegen
-1. Ga naar Systeembeheer > Gebruikers > Gebruikers.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Gebruikers-id.
-    * Een unieke identificatie voor de gebruiker. Een gebruikers-id is vereist.  
-4. Typ een waarde in het veld Gebruikersnaam.
-    * Voer de naam van de gebruiker in.  
-5. Typ een waarde in het veld Domein.
-    * Voer het domein van de gebruiker in.  
-6. Typ een waarde in het veld Alias.
-    * Voer het alias van de gebruiker in.  
-7. Klik in het veld Bedrijf op de vervolgkeuzeknop om de zoekopdracht te openen.
-8. Zoek en selecteer de gewenste record in de lijst.
-9. Klik in de lijst op de koppeling in de geselecteerde rij.
-    * Selecteer het bedrijf van de gebruiker.  
-10. Klik op Rollen toewijzen.
-11. Zoek en selecteer de gewenste record in de lijst.
-12. Klik op OK.
-13. Klik op Opslaan.
+1. Ga naar **Navigatievenster > Modules > Systeembeheer > Gebruikers > Gebruikers**.
+2. Klik in het **actievenster** op **Nieuw**.
+3. Typ een waarde in het veld **Gebruikers-id**. Een unieke identificatie voor de gebruiker. Een gebruikers-id is vereist.  
+4. Typ een waarde in het veld **Gebruikersnaam**. Voer de naam van de gebruiker in.  
+5. Typ een waarde in het veld **Domein**. Voer het domein van de gebruiker in.  
+6. Typ een waarde in het veld **Alias**. Voer het alias van de gebruiker in.  
+7. Klik in het veld **Bedrijf** op de vervolgkeuzeknop om de zoekopdracht te openen.
+8. Zoek en selecteer de gewenste record in de lijst. 
+9. Klik in de sectie **Rollen van gebruiker** op **Rollen toewijzen**.
+10. Zoek en selecteer de gewenste record in de lijst.
+11. Klik op **OK**.
+12. Klik op **Opslaan**.
 
 ## <a name="import-users"></a>Gebruikers importeren
-1. Klik op Gebruikers importeren.
+1. Klik in het **actievenster** op **Gebruikers importeren**.
 2. Markeer in de lijst de geselecteerde rij.
-3. Klik op Gebruikers importeren.
-4. Klik op Sluiten.
+3. Klik op **Gebruikers importeren**.
+4. Klik op **Sluiten**.
 

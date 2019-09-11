@@ -3,7 +3,7 @@ title: Dubbele valuta
 description: Dit onderwerp biedt informatie over dubbele valuta, waar de aangiftevaluta wordt gebruikt als een tweede valuta voor boekhouding voor Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839396"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867506"
 ---
 # <a name="dual-currency"></a>Twee valuta's
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Met functionaliteit die is geïntroduceerd in Microsoft Dynamics 365 for Finance and Operations versie 8.1 (oktober 2018) kan de aangiftevaluta worden ingezet als een tweede valuta voor boekhouding. Deze functionaliteit wordt soms ook wel *dubbele valuta* genoemd. De wijzigingen voor dubbele valuta kunnen niet worden uitgeschakeld via een configuratiesleutel of parameter. Aangezien de aangiftevaluta wordt gebruikt als een tweede valuta voor boekhouding, is de manier waarop de aangiftevaluta wordt berekend in de boekingslogica gewijzigd.
 
-Bovendien zijn verschillende modules verbeterd om de aangiftevaluta in verschillende processen bij te houden, aan te geven en te gebruiken. De modules die worden beïnvloed omvatten **Grootboek**, **Financiële rapportage**, **Leveranciers**, **Klanten**, **Kas- en bankbeheer** en **Vaste activa**. Na een upgrade moet u bepaalde stappen uitvoeren voor Kas- en bankbeheer en Vaste activa. Daarom moet u de relevante onderdelen van dit onderwerp zorgvuldig lezen.
+Bovendien zijn verschillende modules verbeterd om de aangiftevaluta in verschillende processen bij te houden, aan te geven en te gebruiken. De modules die worden beïnvloed zijn:
+
+- Grootboek 
+- Financiële rapportage 
+- Leveranciers
+- Klanten 
+- Contanten en bankbeheer 
+- Vaste activa 
+- Consolidaties
+
+Na een upgrade moet u bepaalde stappen uitvoeren voor Kas- en bankbeheer en Vaste activa. Daarom moet u de relevante onderdelen van dit onderwerp zorgvuldig lezen en begrijpen.
 
 ## <a name="posting-process"></a>Boekingsproces
 
@@ -75,6 +86,7 @@ De volgende modules gebruiken de aangiftevaluta als een tweede valuta voor boekh
 - [Klanten](#accounts-payable-and-accounts-receivable)
 - [Contanten en bankbeheer](#cash-and-bank-management)
 - [Vaste activa](#fixed-assets)
+- [Consolidaties](#consolidations)
 
 ### <a name="general-ledger"></a>Grootboek
 
@@ -124,6 +136,8 @@ Eerder hield de module **Vaste activa** geen aangiftevalutabedragen bij voor tra
 Bovendien zijn belangrijke wijzigingen aangebracht in het afschrijvingsproces. Deze wijzigingen vereisen gebruikersactie na een upgrade. Het is belangrijk dat u de volgende wijzigingen leest en begrijpt, zelfs als u Vaste activa nog niet gebruikt.
 
 - De manier waarop het afschrijvingsproces het aangiftevalutabedrag bepaalt is gewijzigd. Het volgende scenario vergelijkt hoe afschrijving eerder het aangiftevalutabedrag bepaalde en hoe het nu het aangiftevalutabedrag bepaalt.
+
+
 
     **Afschrijvingsscenario**
 
@@ -186,3 +200,13 @@ Bovendien zijn belangrijke wijzigingen aangebracht in het afschrijvingsproces. D
     - Als een transactietype voor afschrijving wordt ingevoerd in het vaste-activajournaal, worden de aangiftevalutabedragen in de nieuwe kolommen weergegeven. Deze bedragen kunnen worden gewijzigd.
     - Als de boekhoudingsvaluta en de rapportagevaluta's in het grootboek hetzelfde zijn, worden de bedragen synchroon gehouden. Als u het **Credit**-bedrag wijzigt, wordt het bedrag **Credit in aangiftevaluta** automatisch gewijzigd zodat het ermee overeenkomt.
     - Als een ander transactietype is ingevoerd in het vaste-activajournaal, worden de bedragen **Debet in aangiftevaluta** en **Credit in aangiftevaluta** nooit weergegeven, niet vóór en niet na de boeking. De boekhoudingsvaluta- en aangiftevalutabedragen zijn nog steeds beschikbaar in het boekstuk dat naar het grootboek wordt geboekt.
+    
+### <a name="consolidations"></a>Consolidaties
+    
+De functionaliteit die is geïntroduceerd in Microsoft Dynamics 365 for Finance and Operations versie 10.0.5 (oktober 2019), omvat functiebeheer voor een verbeterde flexibiliteit voor consolidatie en een dubbele valuta. Om deze functionaliteit in te schakelen gaat u naar het werkgebied **Functiebeheer** en selecteert u **Functionaliteit voor twee valuta inschakelen voor consolidatie in het Grootboek**.
+
+Bij de consolidatie van het grootboek is een nieuwe optie toegevoegd om de boekhoudings- of rapporteringsvalutabedragen van de bronbedrijven te consolideren. Als de boekhoudings- of rapporteringsvaluta overeenkomt met de boekhoudings- of rapporteringsvaluta in het consolidatiebedrijf, worden de bedragen direct gekopieerd in plaats van vertaald.
+
+-  U kunt nu kiezen of de boekhoudings- of de rapporteringsvaluta van het bronbedrijf moet worden gebruikt als de transactievaluta in het consolidatiebedrijf.
+
+- De boekhoudings- of rapporteringsvalutabedragen van het bronbedrijf worden rechtstreeks gekopieerd naar de boekhoudings- of rapporteringsvalutabedragen in het consolidatiebedrijf, als een van de valuta's hetzelfde is. De valutabedragen voor de boekhouding en de rapportering in het consolidatiebedrijf worden berekend met behulp van de wisselkoers als geen van beide valuta's hetzelfde is.

@@ -1,9 +1,9 @@
 ---
 title: Leveranciers goedkeuren voor specifieke aanschaffingscategorieën
-description: Wanneer een opdracht tot inkoop is gemaakt, kan er een vereiste zijn om een goedgekeurde leverancier of voorkeursleverancier te selecteren, afhankelijk van hoe het aanschaffingsbeleid is ingesteld.
+description: In dit onderwerp wordt uitgelegd hoe u leveranciers voor specifieke inkoopcategorieën kunt goedkeuren in Dynamics 365 for Finance and Operations.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,31 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eec50e2e8f08fabb64f89c17159b97ba770026f8
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1583a2eedc535f81b84e3094fee1574451f6f209
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836331"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867144"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Leveranciers goedkeuren voor specifieke aanschaffingscategorieën
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Wanneer een opdracht tot inkoop is gemaakt, kan er een vereiste zijn om een goedgekeurde leverancier of voorkeursleverancier te selecteren, afhankelijk van hoe het aanschaffingsbeleid is ingesteld. Deze procedure laat zien hoe u kunt opgeven dat een leverancier is goedgekeurd of een voorkeursleverancier is voor een specifieke aanschaffingscategorie. Deze taak wordt meestal uitgevoerd door een inkoopmedewerker. U kunt deze procedure gebruiken in het demobedrijf USMF.
+In dit onderwerp wordt uitgelegd hoe u leveranciers voor specifieke inkoopcategorieën kunt goedkeuren in Dynamics 365 for Finance and Operations. Wanneer een opdracht tot inkoop is gemaakt, kan er een vereiste zijn om een goedgekeurde leverancier of voorkeursleverancier te selecteren, afhankelijk van hoe het aanschaffingsbeleid is ingesteld. Deze procedure laat zien hoe u kunt opgeven dat een leverancier is goedgekeurd of een voorkeursleverancier is voor een specifieke aanschaffingscategorie. Deze taak wordt meestal uitgevoerd door een inkoopmedewerker. U kunt deze procedure gebruiken in het demobedrijf USMF.
 
-1. Ga naar Inkoop en sourcing > Leveranciers > Alle leveranciers.
+1. Ga in het navigatievenster naar **Modules > Inkoopbeheer > Leveranciers > Alle leveranciers**.
 2. Selecteer de leverancier die u als goedgekeurde leverancier of voorkeursleverancier voor een categorie wilt instellen.
-3. Klik in het actievenster op Algemeen.
-4. Klik op Categorieën.
-5. Klik op Categorie toevoegen.
-6. Selecteer in het veld Categorie de optie OFFICE AND DESK ACCESSORIES (OFFICE AND DESK ACCESSORIES).
-7. Selecteer 'Voorkeur' in het veld Categoriestatus leverancier.
-    * Het is mogelijk om meer dan één voorkeursleverancier voor een categorie op te geven.  
-8. Klik op Opslaan.
-9. Ga naar Inkoop en sourcing > Inkoopcategorieën.
-10. Selecteer 'CORP PROCUREMENT CATEGORIES\OFFICE AND DESK ACCESSORIES' in de structuur.
-11. Vouw de sectie Leveranciers uit.
-    * Controleer of de leverancier die u hebt geselecteerd als voorkeursleverancier voor kantoor- en bureau-accessoires staat vermeld. Als u deze procedure als taakhandleiding uitvoert, moet u mogelijk op de knop Ontgrendelen klikken om omlaag naar de lijst met leveranciers te kunnen bladeren.  Het is ook mogelijk om voorkeursleveranciers en goedgekeurde leveranciers toe te voegen op deze pagina.  
-12. Vouw 'OFFICE AND DESK ACCESSORIES' uit in de structuur.
-13. Selecteer 'Scharen' in de structuur.
-14. Selecteer Nee in het veld Leveranciers opnemen uit bovenliggende categorie:.
-15. Selecteer Ja in het veld Leveranciers opnemen uit bovenliggende categorie:.
+3. Selecteer **Algemeen** in het actievenster.
+4. Selecteer **Categorieën**.
+5. Selecteer **Categorie toevoegen**.
+6. Selecteer in het veld **Categorie** de optie **OFFICE AND DESK ACCESSORIES (OFFICE AND DESK ACCESSORIES)**.
+7. Selecteer **Voorkeur** in het veld **Categoriestatus leverancier**. Het is mogelijk om meer dan één voorkeursleverancier voor een categorie op te geven.  
+8. Selecteer **Opslaan**.
+9. Ga in het navigatievenster naar **Modules > Inkoopbeheer > Aanschaffingscategorieën**.
+10. Selecteer **CORP PROCUREMENT CATEGORIES\OFFICE AND DESK ACCESSORIES** in de structuur.
+11. Vouw de sectie **Leveranciers** uit. Controleer of de geselecteerde leverancier is vermeld als voorkeursleverancier voor de categorie kantoor- en bureau-accessoires. Als u deze procedure als taakhandleiding uitvoert, moet u mogelijk de knop **Ontgrendelen** selecteren om omlaag naar de lijst met leveranciers te kunnen bladeren.  Het is ook mogelijk om voorkeursleveranciers en goedgekeurde leveranciers toe te voegen op deze pagina.  
+12. Klik in de structuur op **OFFICE AND DESK ACCESSORIES** en selecteer **Scharen**.
+13. Selecteer **Nee** in het veld **Leveranciers opnemen uit bovenliggende categorie:**.
+14. Selecteer **Ja** in het veld **Leveranciers opnemen uit bovenliggende categorie:**.
 
