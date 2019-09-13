@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 43f25796e6271f14acfc72f931398ab63338a307
+ms.sourcegitcommit: b068b17ef708a0b349db8df1542e4244bb983d13
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863055"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870828"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -153,11 +153,13 @@ Volg de onderstaande stappen om opgeslagen weergaven in te schakelen terwijl de 
 
 1.  **De vlucht inschakelen**: voer de volgende SQL-instructie uit: 
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
-2.  **De functie zoeken**: navigeer naar de werkruimte **Functiebeheer**. Als **Opgeslagen weergaven** niet in de lijst voorkomen, selecteert u de knop **Controleren op updates**.   
+2. **IIS opnieuw instellen** om de statische flightingcache leeg te maken. 
 
-3.  **De functie inschakelen**: zoek de functie **Opgeslagen weergaven** in de lijst met functies en klik op de knop **Nu inschakelen** in het detailvenster.
+3.  **De functie zoeken**: ga naar het werkgebied **Functiebeheer**. Als **Opgeslagen weergaven** niet in de lijst voorkomen, selecteert u **Controleren op updates**.   
+
+4.  **De functie inschakelen**: zoek de functie **Opgeslagen weergaven** in de lijst met functies en selecteer **Nu inschakelen** in het detailvenster.
 
 Alle volgende gebruikerssessies worden gestart met opgeslagen weergaven ingeschakeld.  
 

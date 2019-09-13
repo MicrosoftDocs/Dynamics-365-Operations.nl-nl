@@ -1,9 +1,9 @@
 ---
-title: Serviceovereenkomstgroepen
+title: Overzicht van Servicelevelovereenkomsten
 description: Serviceovereenkomstgroepen zijn handig voor het sorteren en filteren van serviceovereenkomsten.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/19/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7cb89189ed62b6579b2be83dee448c703a15cbb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4059af0cfcc88c20ae309262a35a3e49f10417af
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546082"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866036"
 ---
-# <a name="service-agreement-groups"></a>Serviceovereenkomstgroepen 
+# <a name="service-agreements-overview"></a>Overzicht van Servicelevelovereenkomsten
 
 [!include [banner](../includes/banner.md)]
 

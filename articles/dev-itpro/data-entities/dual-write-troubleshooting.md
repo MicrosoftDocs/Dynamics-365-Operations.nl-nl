@@ -1,6 +1,6 @@
 ---
 title: Gids voor het oplossen van problemen met gegevensintegratie
-description: Dit onderwerp bevat informatie over het oplossen van problemen met gegevensintegratie tussen Microsoft Dynamics 365 for Finance and Operations en Common Data Service.
+description: Dit onderwerp bevat informatie voor het oplossen van problemen met gegevensintegratie tussen Microsoft Dynamics 365 for Finance and Operations en Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797270"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873100"
 ---
 # <a name="troubleshooting-guide-for-data-integration"></a>Gids voor het oplossen van problemen met gegevensintegratie
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a>Schakel Plug-in traceren in Common Data Service in en controleer de foutgegevens met betrekking tot de invoegtoepassing voor Twee keer wegschrijven
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Schakel logboeken voor invoegtoepassing traceren in Common Data Service in en controleer de foutgegevens met betrekking tot de invoegtoepassing voor Twee keer wegschrijven
 
-Als er zich een probleem of fout voordoet met de synchronisatie van Twee keer wegschrijven, kunt u de fouten in het traceerlogboek controleren:
+[!include [banner](../includes/banner.md)]
 
-1. Voordat u de fouten kunt inspecteren, moet u Plug-in traceren inschakelen met behulp van de instructies in [Plug-in registreren](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs). Nu kunt u de fouten inspecteren.
-2. Meld u aan bij Dynamics 365 for Sales.
-3. Klik op het pictogram Instellingen (een tandwiel) en selecteer **Geavanceerde instellingen**.
-4. Kies in het menu **Instellingen** de optie **Aanpassen > Traceerlogboek plug-in**.
-5. Klik op de typenaam **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** om de foutdetails weer te geven.
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a>De synchronisatiefouten voor Twee keer wegschrijven controleren in Finance and Operations
+Als er een probleem of fout optreedt tijdens de synchronisatie van twee keer wegschrijven, voert u de volgende stappen uit om de fouten in het traceerlogboek te controleren.
 
-U kunt de fouten tijdens het testen controleren met behulp van de volgende stappen:
+1. Voordat u de fouten kunt inspecteren, moet u traceerlogboeken voor invoegtoepassingen inschakelen. Zie voor instructies de sectie "Traceerlogboek weergeven" in de [Zelfstudie: een invoegtoepassing schrijven en registreren](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).
 
-+ Meld u aan bij LCS (LifeCycle Services).
-+ Open het LCS-project dat u hebt gekozen om tests met twee keer wegschrijven uit te voeren.
-+ Ga naar Cloudomgevingen.
-+ VM voor extern bureaublad naar Finance and Operations met lokaal account dat wordt weergegeven in LCS.
-+ Open Logboeken. 
-+ Navigeer naar **Logboeken Toepassingen en Services > Microsoft > Dynamics > AX-DualWriteSync > Operationeel**. De fouten en details worden weergegeven.
+    Nu kunt u de fouten inspecteren.
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a>Een andere Common Data Service-omgeving (los)koppelen vanuit Finance and Operations
+2. Meld u aan bij Microsoft Dynamics 365 for Sales.
+3. Selecteer de knop **Instellingen** (het tandwielsymbool) en selecteer **Geavanceerde instellingen**.
+4. Kies in het menu **Instellingen** de optie **Aanpassen \> Traceerlogboek invoegtoepassing**.
+5. Selecteer de typenaam **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** om de foutdetails weer te geven.
 
-U kunt koppelingen bijwerken door de volgende stappen uit te voeren:
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a>De synchronisatiefouten voor Twee keer wegschrijven inspecteren in Finance and Operations
 
-+ Navigeer naar de Finance and Operations-omgeving.
-+ Open Gegevensbeheer.
-+ Klik op **Koppeling naar CDS for Apps**.
-+ Selecteer alle actieve toewijzingen en klik op **Stoppen**. 
-+ Selecteer alle toewijzingen en klik op **Verwijderen**.
+Volg deze stappen om fouten tijdens het testen te controleren.
+
+1. Meld u aan bij Microsoft Dynamics LCS (LifeCycle Services).
+2. Open het LCS-project waarvoor u tests met twee keer wegschrijven wilt uitvoeren.
+3. Selecteer **Cloudomgevingen**.
+4. Maak een verbinding van een extern bureaublad met de Dynamics 365 for Finance and Operations virtuele machine (VM) door gebruik te maken van een lokaal account in LCS.
+5. Open Logboeken. 
+6. Ga naar **Logboeken Toepassingen en Services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operationeel**. De fouten en details worden weergegeven.
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a>Een Common Data Service-omgeving (los)koppelen vanuit Finance and Operations
+
+Voer de volgende stappen uit om de koppelingen bij te werken.
+
+1. Ga naar de Finance and Operations-omgeving.
+2. Open Gegevensbeheer.
+3. Selecteer **Koppeling naar CDS for Apps**.
+4. Selecteer alle toewijzingen die worden uitgevoerd en selecteer **Stoppen**.
+5. Selecteer alle toewijzingen en selecteer vervolgens **Verwijderen**.
 
     > [!NOTE]
-    > De optie **Verwijderen** wordt niet weergegeven als de sjabloon **CustomerV3-account** is geselecteerd. Hef de selectie zo nodig op. **CustomerV3-account** is een oudere ingerichte sjabloon en werkt met de oplossing Prospect naar contant geld. Omdat deze wereldwijd is vrijgegeven, wordt deze weergegeven onder alle sjablonen.
+    > De optie **Verwijderen** is niet beschikbaar als de sjabloon **CustomerV3-account** is geselecteerd. Maak de selectie van deze sjabloon waar nodig leeg. **CustomerV3-account** is een oudere ingerichte sjabloon en werkt met de oplossing Prospect naar contant geld. Omdat deze wereldwijd is vrijgegeven, wordt deze weergegeven onder alle sjablonen.
 
-+ Klik op **Koppeling met omgeving verbreken**.
-+ Klik ter bevestiging op **Ja**.
-+ Volg de stappen in de [installatiehandleiding](https://aka.ms/dualwrite-docs) om de nieuwe omgeving te koppelen.
-
+6. Selecteer **Koppeling met omgeving verbreken**.
+7. Selecteer **Ja** om de bewerking te bevestigen.
+8. Volg de stappen in de [installatiehandleiding](https://aka.ms/dualwrite-docs) om de nieuwe omgeving te koppelen.

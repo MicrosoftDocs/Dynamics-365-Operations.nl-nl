@@ -3,7 +3,7 @@ title: Verwerking van catch weight-producten bij magazijnbeheer
 description: In dit onderwerp wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt gedaan in het magazijn.
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836102"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887130"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
@@ -136,7 +136,6 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
 
 - Het handmatig maken van quarantaineorders wordt niet ondersteund voor catch weight-producten.
 - Het handmatig muteren van voorraad dat is gerelateerd aan werk wordt niet ondersteund voor catch weight-producten.
-- Het consolideren van nummerplaten wordt niet ondersteund voor catch weight-producten.
 - Het laden van nummerplaten voor het initialiseren van magazijnvoorraad wordt niet ondersteund voor catch weight-producten.
 - Batchverdelingsprocessen worden niet ondersteund voor catch weight-producten.
 - De verwerking van negatieve fysieke voorraad wordt niet ondersteund voor catch weight-producten.
@@ -147,7 +146,6 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
 - De functie voor clusterverzamelen wordt niet ondersteund voor catch weight-producten.
 - De magazijnverwerking verzamelen en inpakken wordt niet ondersteund voor catch weight-producten.
 - Voor catch weight-producten kan werk dat is gedefinieerd in een werksjabloon automatisch worden uitgevoerd.
-- De functie voor het ongedaan maken van werk wordt niet ondersteund voor catch weight-producten.
 - Voor catch weight-producten wordt het proces van het handmatige inpakstation waar werk wordt gecreëerd nadat containers zijn gesloten niet ondersteund.
 - De functie voor stuk voor stuk scannen wordt niet ondersteund voor catch weight-producten.
  

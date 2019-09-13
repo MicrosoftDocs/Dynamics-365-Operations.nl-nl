@@ -3,7 +3,7 @@ title: Een operationele eenheid maken
 description: Een operationele eenheid is een organisatie die wordt gebruikt om het beheer van economische middelen en operationele processen in een bedrijf te verdelen.
 author: sericks007
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef03329cfe477256cfbe1dde1dc18df52137286f
-ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
+ms.openlocfilehash: 164b347e1c929f60762793799a500a7203f0f72f
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755564"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874898"
 ---
 # <a name="create-an-operating-unit"></a>Een operationele eenheid maken
 
@@ -40,5 +40,5 @@ Een operationele eenheid is een organisatie die wordt gebruikt om het beheer van
     + Voer adresgegevens in, zoals straatnaam en -nummer, postcode en plaats. Klik op **Toevoegen** om een nieuwe adresrecord in te voeren of klik op Bewerken om een bestaande adresrecord te wijzigen.   
     + Vouw de sectie **Contactgegevens** uit indien nodig.  
     + Voer informatie in over communicatiemethoden, zoals e-mailadressen, URL's en telefoonnummers. Als u een nieuwe communicatierecord wilt invoeren, klikt u op Nieuw. Als u een bestaande communicatierecord wilt wijzigen, klikt u op **Meer opties > Geavanceerd**.   
-6. Klik op **Opslaan**.
-
+6. Indien nodig kunt u het **Nummer van de operationele eenheid** wijzigen. Let op, dit nummer is een unieke identifier voor het corresponderende **Partij**-record en mag niet hetzelfde zijn als een andere operationele eenheid.
+7. Selecteer **Opslaan**.

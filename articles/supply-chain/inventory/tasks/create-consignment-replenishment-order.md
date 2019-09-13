@@ -1,9 +1,9 @@
 ---
 title: Een consignatieaanvullingsorder maken
-description: Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.
+description: In dit onderwerp wordt uitgelegd hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,58 +17,48 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cf2e8f742fee2dedaac72902d207af0081700ca
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f426dbf00eace23da2f26eb50dd9675fe22ed445
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845541"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914764"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Een consignatieaanvullingsorder maken
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren. Het laat ook zien hoe u een ontvangst van producten registreert zodat de consignatievoorraad als voorhanden voorraad wordt geregistreerd die eigendom is van de leverancier. Deze procdure wordt gewoonlijk uitgevoerd door een inkoper. U kunt deze begeleiding gebruiken in het demobedrijf USMF. Deze procedure is voor een functie die in Dynamics 365 for Operations, versie 1611 is toegevoegd.
-
-
-
+In dit onderwerp wordt uitgelegd hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren. Het laat ook zien hoe u een ontvangst van producten registreert zodat de consignatievoorraad als voorhanden voorraad wordt geregistreerd die eigendom is van de leverancier. Deze procdure wordt gewoonlijk uitgevoerd door een inkoper. U kunt deze begeleiding gebruiken in het demobedrijf USMF. Deze procedure is voor een functie die in Dynamics 365 for Operations, versie 1611 is toegevoegd.
 
 ## <a name="create-a-consignment-replenishment-order"></a>Een consignatieaanvullingsorder maken
-1. Ga naar Inkoop en sourcing > Consignatie > Consignatieaanvullingsorders.
-2. Klik op Nieuw.
-3. Selecteer in het veld Leveranciersrekening de leverancier US-104.
-    * U moet een leverancier selecteren die als eigenaar is geregistreerd op de pagina Voorraadeigenaren.  
-4. Klik op OK.
-5. Klik op Regel toevoegen.
-6. Typ M9211CI in het veld Artikelnummer.
-    * U moet een artikel selecteren dat is ingesteld voor consignatievoorraad.  
-7. Voer in het veld Hoeveelheid een getal in.
-8. Typ een datum in het veld Gevraagde leveringsdatum.
-    * De aangevraagde en bevestigde datums worden door de MRP-engine gebruikt voor de verwachte ontvangst van de goederen.  
-9. Typ een datum in het veld Bevestigde leveringsdatum.
-10. Vouw de sectie Regeldetails uit.
-11. Klik op het tabblad Voorraaddimensies.
-12. Vernieuw de pagina om de eigenaar weer te geven in het veld Eigenaar voorraaddimensies.
-    * Leverancier US-104 is nu vermeld als de eigenaar.  
+1. Ga in het navigatievenster naar **Modules > Inkoopbeheer > Consignatie > Consignatieaanvullingsorders**.
+2. Selecteer **Nieuw**.
+3. In het veld **Leveranciersrekening** selecteert u leverancier **US-104** (u moet een leverancier selecteren die als eigenaar wordt vermeld op de pagina **Voorraadeigenaren**). 
+4. Selecteer **OK**.
+5. Selecteer **Regel toevoegen**.
+6. Typ `M9211CI` in het veld **Artikelnummer** (u moet een artikel selecteren dat is ingesteld voor consignatievoorraad).
+7. Voer een getal in het veld **Hoeveelheid** in.
+8. Typ een datum in het veld **Gevraagde leveringsdatum**. De aangevraagde en bevestigde datums worden door de MRP-engine gebruikt voor de verwachte ontvangst van de goederen.  
+9. Typ een datum in het veld **Bevestigde leveringsdatum**.
+10. Vouw de sectie **Regeldetails** uit.
+11. Selecteer het tabblad **Voorraaddimensies**.
+12. Vernieuw de pagina om de eigenaar weer te geven in het veld **Eigenaar voorraaddimensies**. Leverancier US-104 is nu vermeld als de eigenaar.  
 
 ## <a name="check-the-inventory-transaction-status"></a>Controleer de status van de voorraadtransactie
-1. Klik op Voorraad.
-2. Klik op Transacties.
-3. Markeer in de lijst de geselecteerde rij.
-    * Let op dat het veld Ontvangst op Besteld is ingesteld.  
+1. Selecteer **Voorraadmodel**.
+2. Selecteer **Transacties**.
+3. In de gewenste rij is het veld **Ontvangst** op **Besteld** ingesteld.  
 4. Sluit de pagina.
 
 ## <a name="receive-items"></a>Artikelen ontvangen
-1. Klik op Productontvangstbon.
-2. Typ een waarde in het veld Externe productontvangstbon.
-3. Typ in het veld Hoeveelheid een aantal dat lager is dan het aantal dat hier wordt weergegeven. 
-4. Klik op OK.
+1. Selecteer **Productontvangstbon**.
+2. Typ een waarde in het veld **Externe productontvangstbon**.
+3. Typ in het veld **Hoeveelheid** een aantal dat lager is dan het aantal dat hier wordt weergegeven. 
+4. Selecteer **OK**.
 
 ## <a name="check-the-on-hand-inventory"></a>Controleer de voorhanden voorraad
-1. Klik op Voorraad.
-2. Klik op Voorhanden.
-3. Klik op Overzicht.
-    * De artikelen die zijn ontvangen als consignatievoorraad en die eigendom zijn van de leverancier, zijn voorhanden in de voorraad. De resterende hoeveelheid op de consignatieaanvullingsorder wordt weergegeven in het veld Totaal van order.  
+1. Selecteer **Voorraadmodel**.
+2. Selecteer **Voorhanden**.
+3. Selecteer **Overzicht**. De artikelen die zijn ontvangen als consignatievoorraad en die eigendom zijn van de leverancier, zijn voorhanden in de voorraad. De resterende hoeveelheid op de consignatieaanvullingsorder wordt weergegeven in het veld **Totaal van order**.  
 4. Sluit de pagina.
-5. Klik op Sluiten.
 

@@ -1,9 +1,9 @@
 ---
 title: Geboekte btw-transacties weergeven
-description: U kunt geboekte btw-transacties bekijken van diverse pagina´s, afhankelijk van wat u wilt bekijken.
+description: In dit onderwerp worden enkele manieren beschreven om geboekte btw-transacties weer te geven.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,36 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5668c1cd4325f557d83a2291c8139f65c4d170e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
+ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846194"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870863"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Geboekte btw-transacties weergeven
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-U kunt geboekte btw-transacties bekijken van diverse pagina´s, afhankelijk van wat u wilt bekijken. Bij deze taak wordt het demobedrijf USMF gebruikt.
+In dit onderwerp worden enkele manieren beschreven om geboekte btw-transacties weer te geven. U kunt geboekte btw-transacties bekijken van diverse pagina´s, afhankelijk van wat u wilt bekijken. Bij deze taak wordt het demobedrijf USMF gebruikt.
 
-1. Ga naar Btw > Query's en rapporten > Vragen over btw > Geboekte btw.
-2. Klik op Filters weergeven.
+# <a name="posted-sales-tax-page"></a>Pagina Geboekte btw
+
+1. Ga in het navigatievenster naar **Modules > Belasting > Query's en rapporten > Vragen over btw > Geboekte btw**.
+2. Selecteer **Filters weergeven** om de weergave te beperken tot specifieke transacties.
 3. Sluit de pagina.
-4. Ga naar Belasting Tax > Indirecte belastingen > Btw > Btw-vereffeningsperioden.
-5. Vouw de sectie Periode-intervallen uit.
-6. Selecteer het gewenste interval.
-7. Geef geboekte btw-transacties voor het geselecteerde vereffeningsperiode-interval weer.
-8. U kunt de lijst met geboekte btw-transacties verder filteren.
-9. Sluit de pagina.
-10. Ga naar Btw > Indirecte belastingen > Btw > Btw-codes.
-11. Klik in het actievenster op Btw-code.
-12. Klik op Geboekte btw.
+
+# <a name="sales-tax-settlement-periods-page"></a>Pagina Btw-vereffeningsperioden
+
+1. Ga in het navigatievenster naar **Modules > Belasting > Indirecte belastingen > Btw > Btw-vereffeningsperioden**.
+2. Vouw de sectie **Periode-intervallen** uit.
+3. Selecteer het gewenste interval.
+4. U kunt de lijst met geboekte btw-transacties verder filteren.
+5. Sluit de pagina.
+
+# <a name="sales-tax-codes-page"></a>Pagina Btw-codes
+
+1. Ga in het navigatievenster naar **Modules > Belasting > Indirecte belastingen > Btw > Btw-codes**.
+2. Selecteer **Btw-code** in het actievenster.
+3. Selecteer **Geboekte btw**.
 

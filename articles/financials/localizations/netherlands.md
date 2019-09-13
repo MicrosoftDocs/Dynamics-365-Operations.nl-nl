@@ -1,9 +1,9 @@
 ---
-title: Nederland
+title: Overzicht Nederland
 description: Dit onderwerp bevat koppelingen naar Microsoft Dynamics 365 for Finance and Operations-documentatiebronnen voor Nederland.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Netherlands
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7249107701b4bb0d9021b6b8d22d3a187406b6de
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 60904f3841f58a739fb608a722202fbb51aa1282
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849350"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865653"
 ---
-# <a name="netherlands"></a>Nederland 
+# <a name="netherlands-overview"></a>Overzicht Nederland
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,9 +1,9 @@
 ---
 title: Machtigingen instellen voor het bestellen van producten namens iemand anders
-description: Deze procedure laat zien hoe u werknemers machtiging kunt verlenen om opdrachten tot inkoop voor te bereiden namens andere medewerkers.
+description: Dit onderwerp laat zien hoe u medewerkers machtigingen kunt verlenen om opdrachten tot inkoop voor te bereiden namens andere medewerkers.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,35 +16,32 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eea1577972879cc24a2295a0c5a8d7d3de5f4520
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: baf39040bef2ccd0c643ce0d034348807ecdc50c
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837969"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914782"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Machtigingen instellen voor het bestellen van producten namens iemand anders
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u werknemers machtiging kunt verlenen om opdrachten tot inkoop voor te bereiden namens andere medewerkers. Met andere woorden een opdracht tot inkoop voor 'voorbereider' kan een tot inkoop maken voor een andere 'aanvrager.' De procedure laat ook zien hoe u een werknemer kunt machtigen om artikelen en diensten in verschillende rechtspersonen of operationele eenheden te bestellen. Deze taken worden gewoonlijk uitgevoerd door een inkoopmanager. U kunt deze procedure gebruiken voor gegevens voor het USMF-demobedrijf of voor uw eigen gegevens.
+Dit onderwerp laat zien hoe u medewerkers machtigingen kunt verlenen om opdrachten tot inkoop voor te bereiden namens andere medewerkers. Met andere woorden een opdracht tot inkoop voor 'voorbereider' kan een tot inkoop maken voor een andere 'aanvrager.' De procedure laat ook zien hoe u een werknemer kunt machtigen om artikelen en diensten in verschillende rechtspersonen of operationele eenheden te bestellen. Deze taken worden gewoonlijk uitgevoerd door een inkoopmanager. U kunt deze procedure gebruiken voor gegevens voor het USMF-demobedrijf of voor uw eigen gegevens.
 
 
 ## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>Machtiging verlenen om opdrachten tot inkoop in te voeren namens een andere medewerker
-1. Ga naar Inkoopbeheer > Instellingen > Beleid > Machtigingen voor inkoopbestelopdrachten.
-    * Controleer of het veld Huidige weergave is ingesteld op Op voorbereider.  De lijst in het linkerdeelvenster laat de personen zien die kunnen worden gemachtigd om opdrachten namens andere mensen voor te bereiden.  
+1. Ga in het navigatievenster naar **Modules > Inkoopbeheer > Instellingen > Beleid > Machtigingen voor inkoopbestelopdrachten**. Controleer of het veld **Huidige weergave** is ingesteld op **Op voorbereider**. De lijst in het linkerdeelvenster laat de personen zien die kunnen worden gemachtigd om opdrachten namens andere mensen voor te bereiden.  
 2. Selecteer de persoon die u wilt machtigen (de voorbereider).
-3. Klik op Toevoegen.
+3. Selecteer **Toevoegen**.
 4. Zoek en selecteer de persoon die u als aanvrager wilt toevoegen.
-    * De aanvrager is de persoon namens wie de voorbereider bestelopdrachten kan maken.  
-    * Selecteer in het veld Autorisatie de optie Specifiek als de voorbereider opdrachten tot inkoop moet kunnen maken namens de geselecteerde medewerker. Selecteer Rapportage als de voorbereider ook opdrachten tot inkoop moet kunnen maken namens alle medewerkers die aan die medewerker rapporteren.  
-5. Voer een datum in in het veld Ingangsdatum.
-6. Voer in het veld Vervaldatum een datum in.
+    - De aanvrager is de persoon namens wie de voorbereider bestelopdrachten kan maken.  
+    - Selecteer in het veld **Autorisatie** de optie **Specifiek** als de voorbereider opdrachten tot inkoop moet kunnen maken namens de geselecteerde medewerker. Selecteer **Rapportage** als de voorbereider ook opdrachten tot inkoop moet kunnen maken namens alle medewerkers die aan die medewerker rapporteren.  
+5. Voer een datum in het veld **Ingangsdatum** in.
+6. Voer in het veld **Vervaldatum** een datum in.
 
 ## <a name="view-preparers-who-have-permission-to-create-purchase-requisitions-for-a-selected-worker"></a>Voorbereiders weergeven die zijn gemachtigd om opdrachten tot inkoop te maken voor een geselecteerde medewerker
-1. Selecteer 'Op aanvrager' in het veld Huidige weergave.
-    * Deze weergave laat een lijst zien met voorbereiders aan wie machtiging vis verleend voor het maken van opdrachten tot inkoop namens een geselecteerde medewerker.  
+1. Selecteer **Op aanvrager** in het veld **Huidige weergave**. Deze weergave laat een lijst zien met voorbereiders aan wie machtiging vis verleend voor het maken van opdrachten tot inkoop namens een geselecteerde medewerker.  
 2. Gebruik het snelfilter om de medewerker te zoeken die zojuist als aanvrager hebt toegevoegd.
-3. Selecteer de aanvrager.
-    * De lijst Voorbereider bevat de personen die zijn gemachtigd om artikelen te bestellen namens de aanvrager die is geselecteerd in het linkerdeelvenster.   U kunt hier extra voorbereiders toevoegen.   In deze weergave kunt u ook de aanvrager verlenen machtiging om opdrachten te maken in rechtspersonen en operationele eenheden die niet de primaire rechtspersoon of operationele eenheid van die persoon zijn.  
+3. Selecteer de aanvrager. De lijst Voorbereider bevat de personen die zijn gemachtigd om artikelen te bestellen namens de aanvrager die is geselecteerd in het linkerdeelvenster.  U kunt hier extra voorbereiders toevoegen. In deze weergave kunt u ook de aanvrager verlenen machtiging om opdrachten te maken in rechtspersonen en operationele eenheden die niet de primaire rechtspersoon of operationele eenheid van die persoon zijn.  
 

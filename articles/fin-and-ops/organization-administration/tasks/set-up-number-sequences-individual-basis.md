@@ -3,7 +3,7 @@ title: Nummerreeksen instellen op een individuele basis
 description: In dit onderwerp wordt uitgelegd hoe op een individuele basis nummerreeksen kunnen worden ingesteld.
 author: sericks007
 manager: AnnBe
-ms.date: 07/09/2019
+ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58e69b680c006c814e9408135b6947161ad7c4f3
-ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
+ms.openlocfilehash: 818e641d19444e94a287134b68b25d52a05021d0
+ms.sourcegitcommit: 6ff2c25d859c435106192e07c9ef0a9067c1e8d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1738876"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "1886595"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Nummerreeksen instellen op een individuele basis
 
@@ -33,7 +33,7 @@ In dit onderwerp wordt uitgelegd hoe op een individuele basis nummerreeksen kunn
 2. Selecteer **Nummerreeksen selecteren**.
 3. Typ een waarde in het veld **Nummerreekscode**.
 4. Typ een waarde in het veld **Naam**.
-5. Selecteer op het sneltabblad **Bereikparameters** een bereik voor de nummerreeks en selecteer bereikwaarden in de vervolgkeuzelijst. De scope bepaalt welke organisaties de nummerreeks gebruiken. Bovendien kunnen nummerreeksen die een ander bereik hebben dan **Gedeeld**, segmenten hebben die overeenkomen met hun bereik. Een nummerreeks met een bereik van **Rechtspersoon** kan bijvoorbeeld een segment voor rechtspersoon hebben. Zie [Overzicht van nummerreeksen](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/fin-and-ops/organization-administration/number-sequence-overview.md) voor meer informatie over bereiken.  
+5. Selecteer op het sneltabblad **Bereikparameters** een bereik voor de nummerreeks en selecteer bereikwaarden in de vervolgkeuzelijst. De scope bepaalt welke organisaties de nummerreeks gebruiken. Bovendien kunnen nummerreeksen die een ander bereik hebben dan **Gedeeld**, segmenten hebben die overeenkomen met hun bereik. Een nummerreeks met een bereik van **Rechtspersoon** kan bijvoorbeeld een segment voor rechtspersoon hebben. Zie [Overzicht van nummerreeksen](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview) voor meer informatie over bereiken. 
 6. Vouw de sectie **Segmenten** uit.
     - Definieer de notatie voor de nummerreeks door segmenten toe te voegen, te verwijderen en opnieuw te ordenen.  
     - De nummerreeksen van alle bereiken kunnen *constante segmenten* en *alfanumerieke segmenten* bevatten. Constante segmenten bevatten een set alfanumerieke tekens die niet veranderen. Gebruik dit segmenttype om een koppelteken of andere scheidingstekens toe te voegen tussen nummerreekssegmenten. De alfanumerieke segmenten bevatten een combinatie van hekjes (#) en ampersands (&). Deze tekens stellen letters en cijfers voor die omhoog gaan telkens als een nummer uit de reeks wordt gebruikt. Gebruik een hekje (#) om stijgende nummers aan te geven en een en-teken (&) om stijgende letters aan te geven. De indeling `#####_2014` maakt bijvoorbeeld de reeks `00001_2014`, `00002_2014` enzovoort. Er moet ten minste één alfanumeriek segment zijn. Bereiksegmenten, zoals bedrijf of rechtspersoon, zijn niet verplicht. Als u geen bereiksegmenten in de indeling opneemt, worden getallen nog steeds voor de geselecteerde verwijzing per bereik gegenereerd.  

@@ -1,9 +1,9 @@
 ---
-title: Organisaties en organisatiehiërarchieën
+title: Overzicht van Organisaties en organisatiehiërarchieën
 description: Een organisatie is een groep mensen die samenwerkt om een bedrijfsproces uit te voeren of een doel te bereiken. Met organisatiehiërarchieën worden de relaties aangegeven tussen de organisaties waaruit het bedrijf bestaat.
 author: sericks007
 manager: AnnBe
-ms.date: 08/18/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72834769e393382ac511ad3af21544efddb049d3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e35abeef2ef79dd994fac7d0ee0578591427b595
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545828"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864763"
 ---
-# <a name="organizations-and-organizational-hierarchies"></a>Organisaties en organisatiehiërarchieën
+# <a name="organizations-and-organizational-hierarchies-overview"></a>Overzicht van Organisaties en organisatiehiërarchieën
 
 [!include [banner](../includes/banner.md)]
 

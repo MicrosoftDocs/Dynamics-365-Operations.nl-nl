@@ -1,9 +1,9 @@
 ---
-title: Ladingen plannen via hubconsolidatie
+title: Overzicht van Ladingen plannen via hubconsolidatie
 description: In dit artikel wordt de functie beschreven voor het consolideren van zendingen in een hub bij het leveren van goederen vanuit verschillende magazijnen aan dezelfde klant, of wanneer u goederen ontvangt van meerdere leveranciers in hetzelfde magazijn.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6743338819da3821cde18ec34a9c79290036ca23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 74f152a227bec3b402eba9384dfb5db53b46d83a
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560973"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866060"
 ---
-# <a name="plan-loads-using-hub-consolidation"></a>Ladingen plannen via hubconsolidatie
+# <a name="plan-loads-using-hub-consolidation-overview"></a>Overzicht van Ladingen plannen via hubconsolidatie
 
 [!include [banner](../includes/banner.md)]
 

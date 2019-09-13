@@ -1,9 +1,9 @@
 ---
-title: Afschrijvingsvoorstel maken
-description: Deze procedure beschrijft hoe afschrijvingsbatchvoorstellen werken en verklaart hoe u afschrijving kunt voorstellen voor vaste activa.
+title: Een afschrijvingsvoorstel maken
+description: Dit onderwerp beschrijft hoe afschrijvingsbatchvoorstellen werken en verklaart hoe u afschrijving kunt voorstellen voor vaste activa.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,35 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07146adfe1ead2b6e06e3c323963f8c012381b76
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 90c24e9d89c055ea95ca5f25cd85ef4042476a90
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839996"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867602"
 ---
-# <a name="create-depreciation-proposal"></a>Afschrijvingsvoorstel maken
+# <a name="create-a-depreciation-proposal"></a>Een afschrijvingsvoorstel maken
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure beschrijft hoe afschrijvingsbatchvoorstellen werken en verklaart hoe u afschrijving kunt voorstellen voor vaste activa. Deze taak gebruikt het USMF-demobedrijf en de accountantsrol.
+Dit onderwerp beschrijft hoe afschrijvingsbatchvoorstellen werken en verklaart hoe u afschrijving kunt voorstellen voor vaste activa. Deze taak gebruikt het USMF-demobedrijf en de accountantsrol.
 
 
-## <a name="create-depreciation-proposal"></a>Afschrijvingsvoorstel maken
-1. Ga naar Vaste activa > Journaalboekingen > Afschrijvingsvoorstel maken.
-2. Klik in het veld Naam van journaal op de vervolgkeuzeknop om de zoekopdracht te openen.
-3. Klik in de lijst op de koppeling in de geselecteerde rij.
-4. Voer een datum in het veld Einddatum in.
-    * Selecteer de optie Afschrijving samenvatten als u maandelijkse afschrijvingen in één journaalregel wilt samenvatten.  
-    * Als de waarde van Einddatum bijvoorbeeld 31 maart 2015 is, kan de volgende beschrijving worden gegenereerd: 'Afschrijving sinds 31 januari 2015'. Het veld Datum op de voorgestelde journaalregels wordt dan ingesteld op 31 maart 2015.  
-    * Het afschrijvingsvoorstel kan worden gefilterd op activa, activagroep, of andere criteria met de optie Filteren.  
-    * Wanneer u het formulier Verwervingsvoorstellen of afschrijvingsvoorstellen maken voor vaste activa gebruikt, kunt u de afschrijving in batches voorstellen. Dit is wat we voorstellen voor grotere voorstellen die meer systeembronnen gebruiken. Als u de batchoptie selecteert, kunt u in die tijd nog andere taken voltooien. Wanneer u op deze manier afschrijving voorstelt, wordt de afschrijving berekend voor waardemodellen voor vaste activa.  
-5. Klik op Journaal maken.
+## <a name="create-a-depreciation-proposal"></a>Een afschrijvingsvoorstel maken
+1. Ga in het navigatievenster naar **Modules > Vaste activa > Journaalboekingen > Afschrijvingsvoorstel maken**.
+2. Selecteer in het veld **Journaalnaam** een optie in het vervolgkeuzemenu.
+3. Voer een datum in het veld **Einddatum** in.
+
+    - Selecteer de optie **Afschrijving samenvatten** als u maandelijkse afschrijvingen in één journaalregel wilt samenvatten.  
+    - Als de waarde van Einddatum bijvoorbeeld 31 maart 2015 is, kan de volgende beschrijving worden gegenereerd: 'Afschrijving sinds 31 januari 2015'. Het veld **Datum** op de voorgestelde journaalregels wordt dan ingesteld op 31 maart 2015.  
+    - Het afschrijvingsvoorstel kan worden gefilterd op activa, activagroep, of andere criteria met de optie **Filteren**.  
+    - Wanneer u het formulier **Verwervingsvoorstellen of afschrijvingsvoorstellen maken voor vaste activa** gebruikt, kunt u de afschrijving in batches voorstellen. Dit is wat we voorstellen voor grotere voorstellen die meer systeembronnen gebruiken. Als u de batchoptie selecteert, kunt u in die tijd nog andere taken voltooien. Wanneer u op deze manier afschrijving voorstelt, wordt de afschrijving berekend voor waardemodellen voor vaste activa.  
+
+4. Selecteer **Journaal maken**.
 
 ## <a name="review-depreciation-entries"></a>Afschrijvingsinvoer controleren
-1. Ga naar Vaste activa > Journaalboekingen > Vaste-activajournaal.
+1. Ga in het navigatievenster naar **Modules > Vaste activa > Journaalboekingen > Vaste-activajournaal**.
 2. Zoek en selecteer de gewenste record in de lijst.
-3. Klik op Regels.
-4. Klik op Boeken.
+3. Selecteer **Regels**
+4. Selecteer **Boeken**.
 

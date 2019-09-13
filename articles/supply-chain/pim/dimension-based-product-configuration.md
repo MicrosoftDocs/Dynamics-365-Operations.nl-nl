@@ -1,9 +1,9 @@
 ---
-title: Op dimensie gebaseerde productconfiguratie
+title: Overzicht van Op dimensies gebaseerde productconfiguraties
 description: Een op dimensies gebaseerde productconfiguratie vertegenwoordigt een eenvoudige oplossing voor het maken van veel productvarianten op basis van één productmodel en de bijbehorende stuklijst.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb2690ec5296f65430268a211108551348a4a060
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ca7e5555a242c10d2268182ed440e686a1dc46ad
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555949"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865347"
 ---
-# <a name="dimension-based-product-configuration"></a>Op dimensie gebaseerde productconfiguratie
+# <a name="dimension-based-product-configuration-overview"></a>Overzicht van Op dimensies gebaseerde productconfiguraties
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,9 +1,9 @@
 ---
 title: Intercompany-projectfacturering configureren
-description: In deze procedure ziet u hoe u projectfacturen configureert tussen twee bedrijven in uw organisatie.
+description: In dit onderwerp ziet u hoe u projectfacturen configureert tussen twee bedrijven in uw organisatie.
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,54 +17,50 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 53871db9223eef6ba78f2e327e60f45110891478
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c89b17c09a4f145b5a4ca9cdd127b4e635447d4b
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838266"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867314"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Intercompany-projectfacturering configureren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In deze procedure ziet u hoe u projectfacturen configureert tussen twee bedrijven in uw organisatie. In deze taak wordt de gegevensset van USSI gebruikt.
+In dit onderwerp ziet u hoe u projectfacturen configureert tussen twee bedrijven in uw organisatie. In deze taak wordt de gegevensset van USSI gebruikt.
 
-1. Ga naar Leveranciers > Leveranciers > Alle leveranciers.
-2. Zoek en selecteer de gewenste record in de lijst.
-3. Klik in het actievenster op Algemeen.
-4. Klik op Intercompany.
-5. Stel Actief in op Ja om handel tussen bedrijven (intercompany) in te schakelen.
-6. Typ of selecteer een waarde in het veld Bedrijf van klant.
-7. Typ of selecteer een waarde in het veld Mijn rekening.
-8. Klik op Opslaan.
-9. Sluit de pagina.
-10. Sluit de pagina.
-11. Ga naar Projectbeheer- en boekhouding > Instellingen > Projectbeheer- en boekhoudingsparameters.
-12. Klik op het tabblad Intercompany.
-13. Verplaats de schuifregelaar naar Ja om Intercompany-resourceplanning en urenstaten in te schakelen
-14. Markeer in de lijst de geselecteerde rij.
-15. Klik op Nieuw.
-16. Markeer in de lijst de geselecteerde rij.
-17. Typ of selecteer een waarde in het veld Lenende rechtspersoon.
-18. Schakel het selectievakje Opbrengst samenvoegen in.
-19. Typ of selecteer een waarde in het veld Standaardcategorie voor urenstaat.
-20. Typ of selecteer een waarde in het veld Standaardcategorie voor onkosten.
-21. Klik op Opslaan.
-22. Sluit de pagina.
-23. Ga naar Projectbeheer en boekhouding > Instellingen > Boeken > Boeking in grootboek instellen.
-24. Selecteer een optie in het veld Grootboekrekeningtypen.
-25. Klik op Nieuw.
-26. Markeer in de lijst de geselecteerde rij.
-27. Markeer in de lijst de geselecteerde rij.
-28. Geef in het veld Hoofdrekening de gewenste waarden op.
-29. Klik op Opslaan.
-30. Sluit de pagina.
-31. Ga naar Projectbeheer en boekhouding > Instellingen > Prijzen > Prijs overboeken.
-32. Klik op Nieuw.
-33. Voer een datum in het veld Begindatum in.
-34. Typ of selecteer een waarde in het veld Lenende rechtspersoon.
-35. Selecteer een optie in het veld Overboeking prijsmodel.
-36. Voer in het veld Prijscalculatie een getal in.
-37. Klik op Opslaan.
+1. Ga in het navigatievenster naar **Modules > Leveranciers > Leveranciers > Alle leveranciers**.
+2. Zoek in de lijst **Alle leveranciers** de gewenste record en selecteer deze.
+3. Selecteer **Algemeen** in het actievenster.
+4. Selecteer **Intercompany**.
+5. Stel **Actief** in op **Ja** om handel tussen bedrijven (intercompany) in te schakelen.
+6. Typ of selecteer een waarde in het veld **Bedrijf van klant**.
+7. Typ of selecteer een waarde in het veld **Mijn rekening**.
+8. Selecteer **Opslaan**.
+9. Sluit de pagina's om terug te keren naar de startpagina.
+10. Ga in het navigatievenster naar **Modules > Projectbeheer en boekhouding > Instellingen > Projectbeheer- en boekhoudingsparameters**.
+11. Selecteer het tabblad **Intercompany**.
+12. Verplaats de schuifregelaar naar **Ja** om Intercompany-resourceplanning en urenstaten in te schakelen
+13. Markeer in de lijst de geselecteerde rij.
+14. Selecteer **Nieuw**.
+15. Typ of selecteer een waarde in het veld **Lenende rechtspersoon**.
+16. Schakel het selectievakje **Opbrengst samenvoegen** in.
+17. Typ of selecteer een waarde in het veld **Standaardcategorie voor urenstaat**.
+18. Typ of selecteer een waarde in het veld **Standaardcategorie voor onkosten**.
+19. Selecteer **Opslaan**.
+20. Sluit de pagina.
+21. Ga in het navigatievenster naar **Modules > Projectbeheer en boekhouding > Instellingen > Boeking > Instellingen boeking in grootboek**.
+22. Selecteer een optie in het veld **Grootboekrekeningtypen**.
+23. Selecteer **Nieuw**.
+24. Geef in het veld **Hoofdrekening** van de nieuwe rij de gewenste waarden op.
+25. Selecteer **Opslaan**.
+26. Sluit de pagina.
+27. Ga in het navigatievenster naar **Modules > Projectbeheer en boekhouding > Instellingen > Prijzen > Prijs overboeken**.
+28. Selecteer **Nieuw**.
+29. Voer een datum in het veld **Begindatum** in.
+30. Typ of selecteer een waarde in het veld **Lenende rechtspersoon**.
+31. Selecteer een optie in het veld **Overboeking prijsmodel**.
+32. Voer in het veld **Prijscalculatie** een getal in.
+33. Selecteer **Opslaan**.
 

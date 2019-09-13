@@ -3,7 +3,7 @@ title: " Winkelconfiguraties voor detailhandeloverzichten"
 description: Deze procedure doorloopt configuraties voor de detailhandelwinkel die van invloed zijn op hoe detailhandelsoverzichten worden gemaakt en geboekt.
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fddeb8434d916df1613d61da88110dec8fb4465
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dbedcda59f503b103d5448e59038e4ed8ca0b51d
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563639"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916525"
 ---
 # <a name="store-configurations-for-retail-statements"></a> Winkelconfiguraties voor detailhandeloverzichten
 
@@ -30,21 +30,22 @@ ms.locfileid: "1563639"
 
 Deze procedure doorloopt configuraties voor de detailhandelwinkel die van invloed zijn op hoe detailhandelsoverzichten worden gemaakt en geboekt. Financiële dimensies voor detailhandelwinkels worden in een andere procedure behandeld. Deze procedure gebruikt het demobedrijf USRT.
 
-1. Ga naar Detailhandel en commerce > Kanalen > Detailhandelwinkels > Alle detailhandelwinkels.
+1. Ga in het **navigatievenster** naar **Modules >Detailhandel en commerce > Kanalen > Detailhandelwinkels > Alle detailhandelwinkels**.
 2. Zoek en selecteer de gewenste record in de lijst.
 3. Klik in de lijst op de koppeling in de geselecteerde rij.
-    * De instellingen in de sectie Overzicht/afsluiting zijn van invloed op het maken, valideren en boeken van overzichten voor de winkel.  Open de sectie Overzicht/afsluiting.  
-    * Selecteer de gewenste methode om de overzichtsregels op te groeperen.  
-    * Selecteer 'Ja' als er slechts één overzicht per dag moet worden gemaakt wanneer overzichten worden gemaakt vanuit de batchtaak voor het maken van overzichten.  
-    * Het veld Berekening kascontrole definieert of kascontroles moeten worden opgeteld of dat de laatste moet worden gebruikt.  
-    * Selecteer de grootboekrekening om afrondingsverschillen naar te boeken.  
-    * In het veld Maximaal afrondingsbedrag kunt u het maximaal toegestane afrondingsverschil invoeren.  
-    * In het veld Boeking kunt u het maximale boekingsverschil invoeren dat toegestaan is voor een overzicht.  
-    * In het veld Ploeg kunt u het maximaal toegestane totale verschil binnen een ploeg in een overzicht invoeren.  
-    * In het veld Transactie kunt u het maximaal toegestane totale verschil op een overzichtsregel invoeren.  
-    * In het veld Afsluitingsmethode kunt u definiëren of transacties die in een overzicht worden opgenomen, deel moeten uitmaken van een gesloten ploeg of dat het transacties kunnen zijn binnen het gedefinieerde datum/tijd-bereik.  
-    * In het veld Einde van werkdag kunt u een tijd invoeren als transacties die na middernacht plaatsvinden, op de vorige dag moeten worden geboekt.  
-    * Selecteer 'Ja' als transacties die na middernacht plaatsvinden, als onderdeel van de vorige dag moeten worden geboekt.  
-    * Selecteer 'Ja' om overzichten te laten maken voor elke gedefinieerde overzichtsmethode. Dat kan nuttig zijn als de prestaties van de boeking moeten worden verbeterd voor winkels met grote transactievolumes, aangezien er veel kleinere overzichten worden gemaakt die parallel kunnen worden verwerkt.  
-    * In het veld Standaardklant kunt u de klantrekening selecteren om te gebruiken voor verkoop aan inloopklanten.  
+4. Klik op **Bewerken**.
+5. De instellingen op het sneltabblad **Overzicht/afsluiting** zijn van invloed op het maken, valideren en boeken van overzichten voor de winkel. Vouw het sneltabblad **Overzicht/afsluiting** uit.  
+6. Selecteer de gewenste methode om de overzichtsregels op te groeperen in het veld **Overzichtsmethode**.  
+7. Selecteer Ja bij **Eén overzicht per dag** als er slechts één overzicht per dag moet worden gemaakt wanneer overzichten worden gemaakt vanuit de batchtaak voor het maken van overzichten.  
+8. Het veld **Berekening kascontrole** definieert of kascontroles moeten worden opgeteld of dat de laatste moet worden gebruikt.  
+9. Selecteer in het veld **Afronding** de grootboekrekening om afrondingsverschillen naar te boeken.  
+10. In het veld **Maximaal afrondingsbedrag** kunt u het maximaal toegestane afrondingsverschil invoeren.
+11. In het veld **Boeking** kunt u het maximale boekingsverschil invoeren dat toegestaan is voor een overzicht.
+12. In het veld **Ploeg** kunt u het maximaal toegestane totale verschil binnen een ploeg in een overzicht invoeren.  
+13. In het veld **Transactie** kunt u het maximaal toegestane totale verschil op een overzichtsregel invoeren.  
+14. In het veld **Afsluitingsmethode** kunt u definiëren of transacties die in een overzicht worden opgenomen, deel moeten uitmaken van een gesloten ploeg of dat het transacties kunnen zijn binnen het gedefinieerde datum/tijd-bereik.  
+15. In het veld **Einde van werkdag** voert u een tijd in als transacties die na middernacht plaatsvinden op de vorige dag moeten worden geboekt.  
+16. Selecteer Ja bij **Als werkdag boeken** als transacties die na middernacht plaatsvinden, als onderdeel van de vorige dag moeten worden geboekt.  
+17. Selecteer Ja bij **Splitsing per overzichtsmethode** om overzichten te laten maken voor elke gedefinieerde overzichtsmethode. Dat kan nuttig zijn als de prestaties van de boeking moeten worden verbeterd voor winkels met grote transactievolumes, aangezien er veel kleinere overzichten worden gemaakt die parallel kunnen worden verwerkt.  
+18. In het veld **Standaardklant** op het sneltabblad **Algemeen** kunt u de klantrekening selecteren om te gebruiken voor verkoop aan inloopklanten.  
 

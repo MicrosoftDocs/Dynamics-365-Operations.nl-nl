@@ -1,9 +1,9 @@
 ---
-title: Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen
+title: Overzicht van Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen
 description: U kunt factuurtotaalvergelijking gebruiken om te zorgen dat totaalfactuurbedragen niet afwijken van verwachte bedragen met meer dan een acceptabel verschil.
 author: abruer
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c664f0b66b41b3db8f45b4507bca39e1ffefb599
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d4a20368385ec43547ee3d29770bd83cdec47e4a
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834556"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864937"
 ---
-# <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen
+# <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>Overzicht van Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen
 
 [!include [banner](../includes/banner.md)]
 

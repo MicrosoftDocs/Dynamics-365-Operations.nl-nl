@@ -3,7 +3,7 @@ title: Een vrijgaveorder maken voor inkoop van een inkoopovereenkomst
 description: Deze procedure laat zien hoe u een inkoopovereenkomst gebruikt wanneer u een inkooporder maakt.
 author: mkirknel
 manager: AnnBe
-ms.date: 12/04/2015
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c45db4ac01be831c0c75f888d313d61d934fc33f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: da161c9066c822f8c09e5eda90994e8b03af4681
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547569"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916851"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Een vrijgaveorder maken voor inkoop van een inkoopovereenkomst
 
@@ -30,37 +30,32 @@ Deze procedure laat zien hoe u een inkoopovereenkomst gebruikt wanneer u een ink
 
 
 ## <a name="create-a-purchase-order"></a>Inkooporder maken
-1. Open het werkgebied voor het voorbereiden van inkooporders.
-2. Klik op Nieuwe inkooporder.
-3. Klik in het veld Leverancierrekening op de vervolgkeuzeknop om de zoekopdracht te openen.
-4. Zoek en selecteer het gewenste record in de lijst.
+1. Ga in het **navigatievenster** naar **Werkgebieden > Voorbereiding van inkooporder**. 
+2. Klik op **Nieuwe inkooporder**.
+3. Klik in het veld **Leverancier** op de vervolgkeuzeknop om de zoekopdracht te openen.
+4. Zoek en selecteer de gewenste record in de lijst.
 5. Klik in de lijst op de koppeling in de geselecteerde rij.
-6. Schakel de uitbreiding van de sectie Algemeen om.
-7. Klik in het veld Inkoopovereenkomst op de vervolgkeuzeknop om de zoekopdracht te openen.
-    * Alle beschikbare overeenkomsten voor de leverancier worden hier weergegeven. Zoek de effectieve overeenkomst die u wilt gebruiken.  
+6. Vouw het sneltabblad **Algemeen** uit.
+7. Klik in het veld **Inkoopovereenkomst** op de vervolgkeuzeknop om de zoekopdracht te openen. Alle beschikbare overeenkomsten voor de leverancier worden hier weergegeven. Zoek de effectieve overeenkomst die u wilt gebruiken.  
 8. Klik in de lijst op de koppeling in de geselecteerde rij.
-9. Klik op Ja.
-10. Klik op OK.
+9. Klik op **Ja**.
+10. Klik op **OK**.
 
 ## <a name="add-a-line"></a>Een regel toevoegen
-1. Typ een waarde in het veld Artikelnummer.
-    * Als er specifieke voorraad- of locatiedimensies in de toezegging zijn, moet u dezelfde waarden invoeren op de inkooporderregel om de overeenkomst te gebruiken.  
-2. Klik in het veld Locatie op de vervolgkeuzeknop om de zoekopdracht te openen.
-    * De locatie kan al gevuld zijn met de standaardwaarde van de order, of van de leverancier. Als dit het geval is, slaat u deze stap over.  
+1. Typ een waarde in het veld **Artikelnummer**. Als er specifieke voorraad- of locatiedimensies in de toezegging zijn, moet u dezelfde waarden invoeren op de inkooporderregel om de overeenkomst te gebruiken.  
+2. Klik in het veld **Vestiging** op de vervolgkeuzeknop om de zoekopdracht te openen. De locatie kan al gevuld zijn met de standaardwaarde van de order, of van de leverancier. Als dit het geval is, slaat u deze stap over.  
 3. Zoek en selecteer de gewenste record in de lijst.
 4. Klik in de lijst op de koppeling in de geselecteerde rij.
-5. Voer in het veld Hoeveelheid een getal in.
-    * Controleer of de prijs uit de toezegging is gekopieerd.  
+5. Voer een getal in het veld **Hoeveelheid** in. Controleer of de prijs uit de toezegging is gekopieerd.  
 
 ## <a name="look-up-the-commitment"></a>De toezegging opzoeken
-1. Klik op Regel bijwerken.
-2. Klik op Gekoppeld.
-    * Hier kunt u gegevens voor de inkoopovereenkomst opvragen. U kunt bijvoorbeeld de prijs zien en of de prijs en korting vast zijn, wat betekent dat als u de prijs of korting op de inkooporder wijzigt in een andere waarde dan in de toezegging, het systeem de koppeling verwijdert zodat de inkooporderregel niet aan de toezegging voldoet. U kunt ook zien of de optie Max is afgedwongen is geselecteerd, wat aangeeft dat de hoeveelheid in de toezegging niet kan worden overschreden door alle inkopen op te tellen die aan de toezegging voldoen.  
+1. Klik op **Regel bijwerken**.
+2. Klik op **Gekoppeld**. Hier kunt u gegevens voor de inkoopovereenkomst opvragen. U kunt bijvoorbeeld de prijs zien en of de prijs en korting vast zijn, wat betekent dat als u de prijs of korting op de inkooporder wijzigt in een andere waarde dan in de toezegging, het systeem de koppeling verwijdert zodat de inkooporderregel niet aan de toezegging voldoet. U kunt ook zien of de optie Max is afgedwongen is geselecteerd, wat aangeeft dat de hoeveelheid in de toezegging niet kan worden overschreden door alle inkopen op te tellen die aan de toezegging voldoen.  
 3. Sluit de pagina.
 
 ## <a name="look-up-the-purchase-agreement"></a>De inkoopovereenkomst opzoeken
-1. Klik in het actievenster op Algemeen.
-2. Klik op Inkoopovereenkomst.
+1. Klik in het **actievenster** op **Algemeen**.
+2. Klik op **Inkoopovereenkomst**.
 3. Sluit de pagina.
 4. Sluit de pagina.
 
