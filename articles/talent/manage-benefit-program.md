@@ -3,7 +3,7 @@ title: Een vergoedingenprogramma definiëren en beheren
 description: Human resources biedt een reeks hulpmiddelen die kunnen worden gebruikt om vergoedingen, kortingen en compensatieplannen van werknemers die een organisatie zijn werknemers biedt in te stellen en onderhouden. Dit artikel biedt informatie over het instellen en beheren van vergoedingen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 07/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 033377f7d45bfa2b798c098be2dde0c21739bb51
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
+ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517757"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755392"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Een vergoedingenprogramma definiëren en beheren
 
@@ -39,6 +39,7 @@ Voordat werknemers voor vergoedingen kunnen worden geregistreerd, moet u de elem
 [![Processtroom van vergoeding](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Vergoedingselementen
+
 Voordat u vergoedingen begint te maken en daar werknemers voor wilt inschrijven, moet u de elementen definiëren waaruit een vergoeding bestaat: het type, het plan en de opties.
 
 -   **Type** – Een verzameling van plannen voor een bepaalde vergoeding, zoals een medische of parkeervergoeding.

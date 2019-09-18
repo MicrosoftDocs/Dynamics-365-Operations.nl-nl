@@ -3,7 +3,7 @@ title: Functies maken, goedkeuren en boeken in Attract
 description: Dit onderwerp beschrijft de elementen van een functie in Attract. Ook wordt uitgelegd hoe u een functie maakt.
 author: hasrivas
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 07/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
+ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517696"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "1773246"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Functies maken, goedkeuren en boeken in Attract
+# <a name="create-a-job"></a>Een vacature maken
 
 [!include [banner](includes/banner.md)]
 
@@ -81,33 +81,6 @@ Zie voor meer informatie over vacatures [Carrièresitefunctionaliteit in Attract
 > [!NOTE]
 > De functionaliteit voor personeelsadvertenties is alleen beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen voor Attract.
 
-### <a name="posting-jobs-to-linkedin"></a>Vacatures publiceren naar LinkedIn 
-
-Voordat u een vacature vanuit Attract naar LinkedIn publiceert, moet de beheerder de bedrijfs-ID en de bedrijfsnaam van LinkedIn toevoegen in **Beheerinstellingen**. De bedrijfs-ID van LinkedIn is vereist om ervoor te zorgen dat uw vacatures die zijn gepubliceerd vanuit Attract, aan de juiste bedrijfspagina worden toegewezen.
-
-Uw bedrijfs-ID voor LinkedIn is een reeks cijfers die een unieke identificatie vormen van uw bedrijf in LinkedIn. Ga voor meer informatie over hoe u de bedrijfs-ID voor LinkedIn vindt naar de [LinkedIn-site](https://aka.ms/findID).
-
-Als u uw LinkedIn-bedrijf wilt bijwerken, selecteert u **Beheercentrum**  in het menu **Instellingen**  (het tandwielsymbool) en selecteert u vervolgens het tabblad **LinkedIn-integratie** . Voer onder de sectie **Verbinding maken met LinkedIn** uw bedrijfsnaam en bedrijfs-ID voor LinkedIn in en sla vervolgens de instellingen op.
-
-> [!NOTE]
-> U moet met vier belangrijke dingen rekening houden met betrekking tot het publiceren van vacatures naar LinkedIn.
-> 1. Vacatures op LinkedIn worden op LinkedIn gepubliceerd als 'limited listings'. Dergelijke vacatures kunnen niet worden gepromoot op de LinkedIn-site. Als u vacatures met limited listing gepubliceerd op LinkedIn vanuit Attract wilt promoten, moet u ervoor zorgen dat de functie 'Job Wrapping' in LinkedIn wordt ingeschakeld. Raadpleeg de onderstaande koppelingen en neem contact op met de ondersteuning van LinkedIn voor meer informatie.
->
->    [Limited Listings vs Premium Job Slots for Job Wrapping](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
->
->    [Job Wrapping FAQ](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
->
-> 1. Bij het publiceren van vacatures op LinkedIn geeft Attract de naam van de Microsoft 365-organisatie voor de vacature door. LinkedIn koppelt de vacatures aan een bedrijf aan de LinkedIn-site op basis van de naam van de organisatie die wordt doorgegeven. Als uw vacature wordt weergegeven niet voor het juiste bedrijf wordt weergegeven op LinkedIn, moet u controleren of de naam van uw Microsoft 365-organisatie overeenkomt met de naam van het bedrijf op LinkedIn.  
->
->    [Het adres en de technische contactpersoon van uw organisatie en meer wijzigen](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
->
->    Als u problemen ondervindt na deze stap, neemt u contact op met de ondersteuning van LinkedIn. 
-> 
-> 1. Vacatures die zijn gepubliceerd naar LinkedIn, worden weergegeven op de live LinkedIn-site. Er is geen testomgeving voor het publiceren van vacatures naar LinkedIn. 
->
-> 1. Het kan maximaal 24 uur duren voordat vacatures gepubliceerd op LinkedIn zichtbaar zijn voor kandidaten vanuit LinkedIn, vanwege het huidige proces voor het batchgewijs publiceren van vacatures in LinkedIn.
-
-
 ## <a name="activate"></a>Activeren
 
 Nadat een functie is geactiveerd, kan deze worden geboekt en kunnen er prospects en sollicitanten aan worden toegevoegd. De optie om prospects aan een functie toe te voegen wordt ingesteld in de activiteit Prospect in het aanstellingsproces.
@@ -142,7 +115,7 @@ Als een gebruiker de functie bewerkt nadat deze is goedgekeurd, maar niet geacti
 De personen die worden vermeld als fiatteurs, ontvangen een melding in Attract en een e-mail om hen te informeren dat er een item is dat moet worden goedgekeurd.  In de e-mail kunnen de fiatteurs op de koppeling klikken om de functie te openen, de details te bekijken en de functie goed te keuren of af te wijzen. Nadat de status van de functie is ingesteld op **Goedgekeurd** of **Afgewezen**, wordt de indiener op de hoogte gebracht in Attract en ontvangt deze persoon een e-mailbericht. De fiatteurs ontvangen ook een e-mail ter herinnering als ze niet op de aanvraag tot goedkeuring hebben geantwoord binnen 24 uur.
 
 > [!NOTE]
-> U kunt aangepaste e-mailsjablonen voor goedkeuringse-mails maken. Zie voor meer informatie [E-mailsjablonen maken en beheren](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
+> U kunt aangepaste e-mailsjablonen voor goedkeuringse-mails maken. Zie voor meer informatie [E-mailsjablonen maken en beheren](https://docs.microsoft.com/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Een taak maken
 

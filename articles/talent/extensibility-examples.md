@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577790"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781437"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talent uitbreiden met PowerApps en Microsoft Flow - voorbeeldscenario's
 
@@ -101,24 +101,15 @@ Deze sjabloon kan worden uitgebreid, zodat deze kan worden gebruikt voor elk sce
 
 Voor het downloaden van de sjabloon **Stroom: SharePoint-integratie** gaat u naar [Stroom: SharePoint-integratie](https://go.microsoft.com/fwlink/?linkid=2082109) in het Microsoft Downloadcentrum.
 
-## <a name="admin-console-to-manage-talent-pools"></a>Beheerconsole voor het beheren van talentenpools
+## <a name="referral-app"></a>De app Referral
+U kunt de app Referral gebruiken om kandidaten toe te voegen aan een gedeelde talentenpool. De verwijzer kan waarden voor **Voornaam**, **Achternaam**, **E-mail** en **Linkedln-URL** opgeven bij het indienen van een kandidaat. De bronmetagegevens van de kandidaat worden vervolgens gevuld met de gegevens van de verwijzer.
 
-Wanneer u integratie met LinkedIn inschakelt, maakt Attract automatisch een LinkedIn-talentenpool. Wanneer een werver InMail uitwisselt met een rekruut via LinkedIn, maakt Attract een profiel voor de rekruut en wordt deze lid van de LinkedIn-talentenpool. Deze PowerApps-app is handig voor het opnieuw indelen van kandidaten in talentenpools op basis van vaardigheden.
+U kunt deze app insluiten in Selfservice werknemer voor het indienen van verwijzingen of u kunt deze app als hyperlink gebruiken in de bedrijfsportal en uitvoeren als een zelfstandige app.
 
-Gebruik deze PowerApps-app als beheerconsole om de volgende taken uit te voeren:
+Als u de app **Referral** wil downloaden, gaat u naar [Dynamics 365 for Talent extensibility solution: Referral App](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) in het Microsoft Downloadcentrum. U kunt deze app importeren en aanpassen om extra functionaliteit toe te voegen.
 
-- Lijst met kandidaten in een talentenpool weergeven
-- Kandidaten toevoegen en verwijderen vanuit een talentenpool
-- Kandidaten verplaatsen van de ene talentenpool naar een andere
-- Bepalen of kandidaten al deel uitmaken van een talentenpool voordat u ze verplaatst
-- De kwalificaties van kandidaten controleren voordat u ze naar andere talentenpools verplaatst
-
-Deze PowerApps-app gebruikt veel-op-veel-relaties, zodat u deze kunt gebruiken als sjabloon voor andere scenario's waarbij u records moet ophalen die veel-op-veel-relaties hebben.
-
-Als u de sjabloon **Beheerconsole voor het beheren van talentenpools** wilt downloaden, gaat u naar [Beheerconsole voor het beheren van talentenpools](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) in het Downloadcentrum van Microsoft.
-
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Het Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[App tussen tenants en omgevingen migreren](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[App tussen tenants en omgevingen migreren](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ebc82ada31d2803800358cd9aecfe389ada8f0dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2cfa180f992a4f7a9b2e21e0fb3e0845c7546c94
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517740"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742708"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Bronnen volgen voor kandidaatprofielen en sollicitaties 
+# <a name="track-candidate-sources"></a>Kandidaatbronnen bijhouden
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE] 
-> Functionaliteit die in dit onderwerp wordt vermeld, is beschikbaar als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Als u deze functie wilt gebruiken, vraagt u een beheerder om deze in te schakelen via de **Beheerinstellingen** in Attract. Een toekomstige versie bevat rapporten voor het bijhouden van bronnen. Zie voor meer informatie [Toegang tot voorbeeldfuncties in Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature).
+> Functionaliteit die in dit onderwerp wordt vermeld, is beschikbaar als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Als u deze functie wilt gebruiken, vraagt u een beheerder om deze in te schakelen via de **Beheerinstellingen** in Attract. Een toekomstige versie bevat rapporten voor het bijhouden van bronnen. Zie voor meer informatie [Toegang tot voorbeeldfuncties in Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 Als kandidaten solliciteren op een functie, wordt in Attract automatisch de bron van hun sollicitaties bijgehouden. Hierdoor kunt u beschikken over waardevolle informatie waarmee u uw inspanningen met betrekking tot personeelswerving beter kunt inzetten. Wervers en aanstellende managers kunnen ook een sollicitatiebron selecteren tijdens het handmatig toevoegen van een kandidaat aan een functie of talentenpool.
 
 U kunt de sollicitatiebron in de activiteitdetails van de sollicitatie bekijken op het tabblad **Activiteit**, alsmede in de sollicitatiehistorie die beschikbaar is onder **Profiel** in talentenpools. U kunt de profielbron van een kandidaat vinden in de kandidaatdetails op het tabblad **Profiel** in zowel sollicitaties als talentenpools.
 
 > [!NOTE] 
-> U kunt processjablonen vinden in de [Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> U kunt processjablonen vinden in de [Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 
 ## <a name="pre-configured-sources"></a>Vooraf geconfigureerde bronnen
 
@@ -93,7 +93,7 @@ De standaardlijst met bronnen bevat de meest voorkomende sollicitatiebronnen. So
 
 ## <a name="customize-the-source-list"></a>De lijst met bronnen aanpassen 
 
-U kunt de lijst met bronnen aanpassen om aanvullende sollicitatiebronnen op te nemen. Als u deze lijst wilt aanpassen, volgt u de instructies in [Optiesets uitbreiden in Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Bewerk de entiteit **TalentSource** om aanvullende bronnen op te nemen. 
+U kunt de lijst met bronnen aanpassen om aanvullende sollicitatiebronnen op te nemen. Als u deze lijst wilt aanpassen, volgt u de instructies in [Optiesets uitbreiden in Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Bewerk de entiteit **TalentSource** om aanvullende bronnen op te nemen. 
 
 Als u een negatieve impact op de gebruikersinterface (UI) wilt voorkomen, moet u de **TalentCategory**-opsommingswaarden (geen namen) niet bewerken of verwijderen voor het volgende:
 

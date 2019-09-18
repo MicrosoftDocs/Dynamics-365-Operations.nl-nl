@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702813"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742906"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>De integratie van de salarisadministratie tussen Talent en Dayforce configureren
 
@@ -52,8 +52,8 @@ Wanneer de integratie is ingeschakeld, worden het pakket voor gegevensexport en 
 
 Zie de volgende Azure-onderwerpen voor meer informatie over Azure-opslagaccounts en verbindingstekenreeksen voor Azure Storage:
 
-- [Informatie over Azure-opslagaccounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [Verbindingstekenreeks voor Azure Storage configureren](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+- [Informatie over Azure-opslagaccounts](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [Verbindingstekenreeks voor Azure Storage configureren](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Technische details wanneer integratie van salarisadministratie is ingeschakeld
 
@@ -123,10 +123,10 @@ Dayforce maakt de volgende inhoudingen, op basis van de salarisgevolgen die zijn
 
 Zie de volgende onderwerpen voor meer informatie over het definiëren en beheren van een vergoedingsprogramma:
 
-- [Een vergoedingenprogramma voor werknemers maken](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Een nieuwe vergoeding maken](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Regels en beleid van de vergoedingsgeschiktheid definiëren](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Vergoedingen inschrijven en verwijderen van medewerkers](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Een vergoedingenprogramma voor werknemers maken](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Een nieuwe vergoeding maken](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Regels en beleid van de vergoedingsgeschiktheid definiëren](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Vergoedingen inschrijven en verwijderen van medewerkers](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>Compensatie 
 
@@ -136,20 +136,20 @@ Dayforce gebruikt compensatie-informatie voor het berekenen van het uur- of jaar
 
 Zie de volgende onderwerpen voor meer informatie over compensatieplannen:
 
-- [Plannen voor vaste compensatie maken](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Plannen voor variabele compensatie maken](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Salaris-/compensatiestructuur en -plannen ontwikkelen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [Compensatie verwerken](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)
-- [Compensatieproces definiëren en resultaten berekenen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Een werknemer inschrijven voor een vaste honoreringsregeling](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Een werknemer inschrijven voor een variabele honoreringsregeling](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Plannen voor vaste compensatie maken](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Plannen voor variabele compensatie maken](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Salaris-/compensatiestructuur en -plannen ontwikkelen](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [Compensatie verwerken](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+- [Compensatieproces definiëren en resultaten berekenen](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Een werknemer inschrijven voor een vaste honoreringsregeling](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Een werknemer inschrijven voor een variabele honoreringsregeling](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>Taken 
 
 Een functie is een verzameling taken en verantwoordelijkheden die vereist zijn voor iedere persoon die een functie uitvoert. Zie de volgende onderwerpen voor meer informatie:
 
-- [De onderdelen van een taak instellen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-job)
-- [Nieuwe taken definiëren](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [De onderdelen van een taak instellen](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
+- [Nieuwe taken definiëren](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Posities
 
@@ -173,8 +173,8 @@ Als meerdere posities op dezelfde afdeling aan dezelfde functie zijn gekoppeld, 
 
 Zie de volgende onderwerpen voor meer informatie:
 
-- [Uw werknemers organiseren met afdelingen, taken en posities](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Posities instellen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Uw werknemers organiseren met afdelingen, taken en posities](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Posities instellen](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Afdelingen
 
@@ -182,8 +182,8 @@ Een afdeling is een operationele eenheid die een categorie of functioneel onderd
 
 Zie de volgende onderwerpen voor meer informatie:
 
-- [Een afdeling maken en koppelen aan de afdelingshiërarchie](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Nieuwe afdelingen definiëren](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Een afdeling maken en koppelen aan de afdelingshiërarchie](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Nieuwe afdelingen definiëren](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Betalingscycli en salarisperioden
 

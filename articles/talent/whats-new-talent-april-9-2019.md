@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517685"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856419"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (9 april 2019)
 
@@ -37,10 +37,10 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 In Attract en Onboard worden met problemen die zijn geregistreerd door eindgebruikers met de functie Een probleem melden, nu automatisch ondersteuningsproblemen gemaakt in het LCS-project van de klant. Beheerders kunnen vervolgens de problemen beoordelen en zo nodig indienen bij Microsoft. Dit komt overeen met hoe Core HR ondersteuningsproblemen van eindgebruikers afhandelt.
 
 ### <a name="relevance-search"></a>Relevante zoekopdracht
-In talentenpools kunt u nu in uw gehele database met kandidaten zoeken naar bepaalde vaardigheden, namen of opleidingsachtergrond. U hoeft niet meer op te geven in welke sectie van een kandidaatprofiel u wilt zoeken. Attract zoekt in het gehele profiel en markeert alle gevonden overeenkomsten. Attract zoekt ook in alle documenten die beschikbaar zijn voor een kandidaat en rangschikt de zoekresultaten op intelligente wijze. Bovendien kunt u de resultaten per bron of op de status van tweede plaats filteren. Zie voor meer informatie [Kandidaatprofielen doorzoeken en weergeven](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
+In talentenpools kunt u nu in uw gehele database met kandidaten zoeken naar bepaalde vaardigheden, namen of opleidingsachtergrond. U hoeft niet meer op te geven in welke sectie van een kandidaatprofiel u wilt zoeken. Attract zoekt in het gehele profiel en markeert alle gevonden overeenkomsten. Attract zoekt ook in alle documenten die beschikbaar zijn voor een kandidaat en rangschikt de zoekresultaten op intelligente wijze. Bovendien kunt u de resultaten per bron of op de status van tweede plaats filteren. Zie voor meer informatie [Kandidaatprofielen doorzoeken en weergeven](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
 
 ### <a name="prospect-recommendations"></a>Prospectaanbevelingen
-Attract kan helpen bij het zoeken naar resources voor een functie zodra u deze activeert door intelligente kandidaataanbevelingen te doen op basis van de database met kandidaten. De aanbevelingen omvatten de vaardigheden en opleidingsinformatie die zijn geïdentificeerd tijdens het zoeken naar relevante prospects. Deze aanbevelingen worden weergegeven op het tabblad **Prospects** onder een functie, als u het inschakelt tijdens het aanstellingsproces van de functie. Zie [Prospectaanbevelingen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations) voor meer informatie.
+Attract kan helpen bij het zoeken naar resources voor een functie zodra u deze activeert door intelligente kandidaataanbevelingen te doen op basis van de database met kandidaten. De aanbevelingen omvatten de vaardigheden en opleidingsinformatie die zijn geïdentificeerd tijdens het zoeken naar relevante prospects. Deze aanbevelingen worden weergegeven op het tabblad **Prospects** onder een functie, als u het inschakelt tijdens het aanstellingsproces van de functie. Zie [Prospectaanbevelingen](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations) voor meer informatie.
 
 ### <a name="interviewer-availability-statuses"></a>Beschikbaarheidsstatussen van interviewer
 Planners van sollicitatiegesprekken kunnen binnenkort de statussen **Niet op kantoor, is elders aan het werk** zien voor interviewers zodat ze gemakkelijker tijden kunnen inplannen die beter werken voor interviewers.

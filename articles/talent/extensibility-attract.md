@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichsew
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 52790fbe500d9f55bc9cc86fba5d54f30b11e559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505859"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795215"
 ---
 # <a name="extensibility-in-attract"></a>Uitbreidbaarheid in Attract
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 for Talent is ontwikkeld op het  Common Data Service-plat
 
 ## <a name="extending-option-sets-in-attract"></a>Optiesets uitbreiden in Attract
 
-Een **Optieset** (selectielijst) is een type veld dat kan worden opgenomen in een entiteit. Met een optieset wordt een set opties gedefinieerd. Als een optieset in een formulier wordt weergegeven, wordt een besturingselement voor een vervolgkeuzelijst gebruikt.  Attract bevat meerdere velden die optiesets zijn.  We zijn begonnen met het introduceren van de mogelijkheid om de optiesets uit te breiden, te beginnen met het veld Reden voor afwijzing, het veld Type dienstverband en het veld Type anciënniteit.   U kunt ook gelokaliseerde weergavelabels toevoegen voor de opties die u toevoegt. Zie voor meer informatie [Optiesetlabels aanpassen](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
+Een **Optieset** (selectielijst) is een type veld dat kan worden opgenomen in een entiteit. Met een optieset wordt een set opties gedefinieerd. Als een optieset in een formulier wordt weergegeven, wordt een besturingselement voor een vervolgkeuzelijst gebruikt.  Attract bevat meerdere velden die optiesets zijn.  We zijn begonnen met het introduceren van de mogelijkheid om de optiesets uit te breiden, te beginnen met het veld Reden voor afwijzing, het veld Type dienstverband en het veld Type anciënniteit.   U kunt ook gelokaliseerde weergavelabels toevoegen voor de opties die u toevoegt. Zie voor meer informatie [Optiesetlabels aanpassen](https://docs.microsoft.com/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
 
 > [!NOTE]
 > De functionaliteit voor publicatie van vacatures naar LinkedIn vereist het gebruik van het veld **Type dienstverband** en **Type anciënniteit** op de pagina **Functiedetails**. De standaardwaarden in deze velden worden ondersteund door LinkedIn en worden weergegeven wanneer de vacature wordt gepubliceerd. Dus als u vacatures naar LinkedIn publiceert en de bestaande optiesetwaarden voor deze velden wijzigt, wordt de vacature wel gepubliceerd, maar worden op LinkedIn de aangepaste waarden voor **Type dienstverband** en **Type anciënniteit** niet weergegeven.  
@@ -62,15 +62,15 @@ Omdat alle gegevens uit Attract zich bevinden in Common Data Service, kunt u hul
 
 U kunt PowerApps gebruiken om eenvoudig apps te maken die uw Attract-gegevens verbinden, en die expressies gebruiken zoals de expressies in Microsoft Excel om logica toe te voegen. Apps die u maakt met behulp van PowerApps, kunnen worden uitgevoerd op het web en op Apple iOS- en Google Android-apparaten.
 
-U kunt bijvoorbeeld vacaturebeurzen eenvoudiger voor wervers maken door een lichtgewicht app te ontwikkelen waarmee ze cv's kunnen scannen en kandidaten kunnen voorstellen voor een positie in Attract. U kunt ook een app maken die helpt voldoen aan de behoeften aan conformiteit van uw organisatie. Zie voor meer informatie over PowerApps en hoe u deze gebruikt om apps te bouwen [Gegevens integreren in Common Data Service](https://docs.microsoft.com/en-us/powerapps).
+U kunt bijvoorbeeld vacaturebeurzen eenvoudiger voor wervers maken door een lichtgewicht app te ontwikkelen waarmee ze cv's kunnen scannen en kandidaten kunnen voorstellen voor een positie in Attract. U kunt ook een app maken die helpt voldoen aan de behoeften aan conformiteit van uw organisatie. Zie voor meer informatie over PowerApps en hoe u deze gebruikt om apps te bouwen [Gegevens integreren in Common Data Service](https://docs.microsoft.com/powerapps).
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-U kunt Microsoft Flow gebruiken om geautomatiseerde werkstromen te maken die op Attract-gegevens worden uitgevoerd. U kunt eenvoudig verbinding maken met tal van populaire apps en services zonder code te schrijven. Door stromen te maken die interactie hebben met de Attract-entiteiten Functie, Kandidaat en Sollicitatie in Common Data Service, kunt u verschillende acties automatiseren. Wanneer een kandidaat bijvoorbeeld een aanbieding accepteert, kan een melding worden verzonden aan een onboardingteam of kan het nieuws worden aangekondigd op Twitter. Zie de  [Documentatie van Microsoft Flow](https://docs.microsoft.com/en-us/flow/) voor meer informatie over stromen.
+U kunt Microsoft Flow gebruiken om geautomatiseerde werkstromen te maken die op Attract-gegevens worden uitgevoerd. U kunt eenvoudig verbinding maken met tal van populaire apps en services zonder code te schrijven. Door stromen te maken die interactie hebben met de Attract-entiteiten Functie, Kandidaat en Sollicitatie in Common Data Service, kunt u verschillende acties automatiseren. Wanneer een kandidaat bijvoorbeeld een aanbieding accepteert, kan een melding worden verzonden aan een onboardingteam of kan het nieuws worden aangekondigd op Twitter. Zie de  [Documentatie van Microsoft Flow](https://docs.microsoft.com/flow/) voor meer informatie over stromen.
 
 ### <a name="power-bi"></a>Power BI
 
-Met Power BI BI kunt u aangepaste rapporten en dashboards maken en weergeven die u meer inzicht geven in uw Attract-gegevens. Zie voor meer informatie over Power BI en het bouwen van interactieve rapporten en dashboards de [Power BI-documentatie](https://docs.microsoft.com/en-us/power-bi/).
+Met Power BI BI kunt u aangepaste rapporten en dashboards maken en weergeven die u meer inzicht geven in uw Attract-gegevens. Zie voor meer informatie over Power BI en het bouwen van interactieve rapporten en dashboards de [Power BI-documentatie](https://docs.microsoft.com/power-bi/).
 
 ### <a name="custom-activities"></a>Aangepaste activiteiten 
 

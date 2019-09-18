@@ -1,6 +1,6 @@
 ---
-title: Kandidaten vinden met behulp van talentenpools
-description: In dit onderwerp wordt uitgelegd hoe u talentenpools maakt en instelt in Attract.
+title: Kandidaten zoeken met talentenpools in Microsoft Dynamics 365 for Talent - Attract
+description: In dit onderwerp wordt uitgelegd hoe u talentenpools maakt en instelt in Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711289"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741862"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>Kandidaten vinden met behulp van talentenpools
+# <a name="source-candidates-with-talent-pools"></a>Kandidaten zoeken in talentenpools
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ De eigenaar en de bijdragers aan de talentenpool kunnen kandidaten toevoegen aan
 ## <a name="search-and-view-candidate-profiles"></a>Kandidaatprofielen zoeken en weergeven
 
 > [!NOTE] 
-> Van deze functie kan momenteel een voorbeeld worden bekeken. Als u de functie wilt proberen, moet u [deze inschakelen in de beheerinstellingen van Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> Van deze functie kan momenteel een voorbeeld worden bekeken. Als u de functie wilt proberen, moet u [deze inschakelen in de beheerinstellingen van Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 Met talentenpools kunt u het profiel van een kandidaat, LinkedIn-informatie, gerelateerde documenten en historie van de toepassing bekijken. U kunt in de gehele database van alle kandidaten zoeken die zijn toegevoegd aan talentenpools, met inbegrip van gesloten en actieve sollicitanten.
 
@@ -116,7 +116,7 @@ Alle gebruikers hebben een gemeenschappelijke weergave van de kandidaatprofielen
 
     Als u een document wilt weergeven, selecteert u de documentnaam in de lijst van documenten. U kunt Microsoft Word-documenten in de toepassing bekijken met behulp van Microsoft Office 365. U kunt ook de documenten downloaden naar uw lokale computer met behulp van de optie **Downloaden** voor elk document.
 
-- Het tabblad **LinkedIn** bevat de LinkedIn-informatie van de kandidaat. Als u dit tabblad wilt gebruiken, moet u uw LinkedIn-account in de gebruikersinstellingen verbinden en moet de LinkedIn Recruiter-verbinding van uw omgeving tot stand zijn gebracht. Zie voor meer informatie [Aanstelling met LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- Het tabblad **LinkedIn** bevat de LinkedIn-informatie van de kandidaat. Als u dit tabblad wilt gebruiken, moet u uw LinkedIn-account in de gebruikersinstellingen verbinden en moet de LinkedIn Recruiter-verbinding van uw omgeving tot stand zijn gebracht. Zie voor meer informatie [Aanstelling met LinkedIn Recruiter](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Alleen kandidaten kunnen hun vaardigheden, opleidingshistorie en werkervaring bijwerken.

@@ -1,6 +1,6 @@
 ---
-title: Analytische rapporten gebruiken voor inzichten in het aanstellingsproces
-description: In dit onderwerp worden de analytische rapporten in Attract beschreven
+title: Analytische rapporten gebruiken in Microsoft Dynamics 365 for Talent - Attract
+description: In dit onderwerp worden de analytische rapporten voor inzichten in het aanstellingsproces in Microsoft Dynamics 365 for Talent - Attract beschreven
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516555"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742883"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>Analytische rapporten gebruiken voor inzichten in het aanstellingsproces
+# <a name="use-analytic-reports"></a>Analytische rapporten gebruiken
 
 Analytische rapporten in Attract bieden een standaardoplossing voor inzichten in het aanstellingsproces. Tot de beschikbare functies behoren:
 
@@ -81,8 +81,8 @@ Functieanalyserapporten tonen gegevens voor de geselecteerde functie. In Analyse
 
 ## <a name="cross-filter"></a>Kruisfilter
 
-Een van de mooie functies van Power BI is de manier waarop alle visuele elementen op een rapportpagina onderling zijn verbonden. Als u een gegevenspunt selecteert in een van de visuele elementen, worden alle andere visuele elementen op de pagina die deze gegevens bevatten gewijzigd op basis van die selectie. Lees meer over deze functie en bekijk een voorbeeld in [Visuele elementen kruisfilteren in een Power BI-rapport](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+Een van de mooie functies van Power BI is de manier waarop alle visuele elementen op een rapportpagina onderling zijn verbonden. Als u een gegevenspunt selecteert in een van de visuele elementen, worden alle andere visuele elementen op de pagina die deze gegevens bevatten gewijzigd op basis van die selectie. Lees meer over deze functie en bekijk een voorbeeld in [Visuele elementen kruisfilteren in een Power BI-rapport](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>Exporteren naar Excel
 
-Als u rapportgegevens wilt weergeven in Excel, kunt u op het optiemenu (drie puntjes) in een visueel element klikken en **Onderliggende gegevens exporteren** selecteren. Geëxporteerde gegevens worden als gefilterd geëxporteerd, met inachtneming van de gebruikersmachtigingen in Attract. Zie [Gegevens exporteren vanuit visualisaties](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data) voor meer informatie.
+Als u rapportgegevens wilt weergeven in Excel, kunt u op het optiemenu (drie puntjes) in een visueel element klikken en **Onderliggende gegevens exporteren** selecteren. Geëxporteerde gegevens worden als gefilterd geëxporteerd, met inachtneming van de gebruikersmachtigingen in Attract. Zie [Gegevens exporteren vanuit visualisaties](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data) voor meer informatie.

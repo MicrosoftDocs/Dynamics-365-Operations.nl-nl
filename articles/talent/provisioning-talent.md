@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 781487997ceb95f4e3f528f47e8ed2aa5b25fd0e
+ms.sourcegitcommit: eb501d8712212a6ed33bec1e3e2c02f994e0a724
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624602"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "1869931"
 ---
 # <a name="provision-talent"></a>Talent inrichten
 
@@ -51,10 +51,10 @@ Nadat u een LCS-project hebt gemaakt, kunt u Talent inrichten in een omgeving.
     > [!NOTE]
     > Het type Talent-exemplaar staat los van het exemplaartype van de PowerApps-omgeving die u instelt in het PowerApps-beheercentrum.
 3. Selecteer de optie **Demonstratiegegevens opnemen** als u wilt dat in uw omgeving dezelfde demogegevensset wordt opgenomen die is gebruikt in de ervaring Talent-testdrive. Dit is nuttig voor de langetermijndemo of -trainingsomgevingen en mag nooit worden gebruikt voor productieomgevingen.  Houd er rekening mee dat u deze optie bij de aanvankelijke implementatie moet kiezen. U kunt een bestaande implementatie niet later bijwerken.
-4. Talent wordt altijd ingericht in een Microsoft PowerApps-omgeving om de PowerApps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie “Een PowerApps-omgeving selecteren“ in dit onderwerp voordat u doorgaat. Als u nog geen PowerApps-omgeving hebt, selecteert u Omgevingen beheren in LCS of gaat u naar het PowerApps-beheercentrum. Volg daarna de stappen voor het [Maken van een PowerApps-omgeving](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+4. Talent wordt altijd ingericht in een Microsoft PowerApps-omgeving om de PowerApps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie “Een PowerApps-omgeving selecteren“ in dit onderwerp voordat u doorgaat. Als u nog geen PowerApps-omgeving hebt, selecteert u Omgevingen beheren in LCS of gaat u naar het PowerApps-beheercentrum. Volg daarna de stappen voor het [Maken van een PowerApps-omgeving](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
     > [!NOTE]
-    > Om bestaande omgevingen weer te geven of nieuwe omgevingen te maken, moet de tenantbeheerder die Talent inricht, worden toegewezen aan de PowerApps P2-licentie. Als uw organisatie geen PowerApps P2-licentie heeft, kunt u er een krijgen van uw provider van cloudoplossingen of downloaden via de [pagina met PowerApps-prijzen](https://powerapps.microsoft.com/en-us/pricing/).
+    > Om bestaande omgevingen weer te geven of nieuwe omgevingen te maken, moet de tenantbeheerder die Talent inricht, worden toegewezen aan de PowerApps P2-licentie. Als uw organisatie geen PowerApps P2-licentie heeft, kunt u er een krijgen van uw provider van cloudoplossingen of downloaden via de [pagina met PowerApps-prijzen](https://powerapps.microsoft.com/pricing/).
 
 5. Selecteer de omgeving waarin Talent moet worden ingericht.
 6. Selecteer **Ja** om akkoord te gaan met de voorwaarden en te beginnen met implementeren.
@@ -66,11 +66,11 @@ Nadat u een LCS-project hebt gemaakt, kunt u Talent inrichten in een omgeving.
     > [!NOTE]
     > Als u de definitieve vereisten nog niet hebt goedgekeurd, kunt u een testexemplaar van Talent in het project implementeren. Vervolgens kunt u deze instantie gebruiken om uw oplossing te testen tot u uw goedkeuring geeft. Als u uw nieuwe omgeving voor tests gebruikt, moet u deze procedure herhalen om een productieomgeving te maken.
 
-    > Omdat er slechts twee LCS-omgevingen zijn toegestaan als onderdeel van het Talent-abonnement, kunt u ook overwegen gebruik te maken van gratis 60 dagen [Talent-proefomgeving](https://dynamics.microsoft.com/en-us/talent/overview/). Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor HR Core. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Ze zijn niet bedoeld als productieomgevingen. Wanneer een proefomgeving na 60 dagen verloopt, worden alle gegevens erin permanent verwijderd. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
+    > Omdat er slechts twee LCS-omgevingen zijn toegestaan als onderdeel van het Talent-abonnement, kunt u ook overwegen gebruik te maken van gratis 60 dagen [Talent-proefomgeving](https://dynamics.microsoft.com/talent/overview/). Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor HR Core. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Ze zijn niet bedoeld als productieomgevingen. Wanneer een proefomgeving na 60 dagen verloopt, worden alle gegevens erin permanent verwijderd. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
 
 ## <a name="select-a-powerapps-environment"></a>Een PowerApps-omgeving selecteren
 
-Dankzij de integratie tussen Talent en de PowerApps-omgevingen kunt u Talent-gegevens integreren en het gebruik ervan uitbreiden met PowerApps-tools. Informatie over dat het doel van PowerApps-omgevingen helpt niet alleen bij het maken van toepassingen om Talent uit te breiden, maar ook bij het selecteren van de juiste omgeving voor Talent. Zie voor meer informatie over PowerApps-omgevingen, inclusief het omgevingsbereik, omgevingstoegang en het maken en kiezen van een omgeving [Aankondiging van PowerApps-omgevingen](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). 
+Dankzij de integratie tussen Talent en de PowerApps-omgevingen kunt u Talent-gegevens integreren en het gebruik ervan uitbreiden met PowerApps-tools. Informatie over dat het doel van PowerApps-omgevingen helpt niet alleen bij het maken van toepassingen om Talent uit te breiden, maar ook bij het selecteren van de juiste omgeving voor Talent. Zie voor meer informatie over PowerApps-omgevingen, inclusief het omgevingsbereik, omgevingstoegang en het maken en kiezen van een omgeving [Aankondiging van PowerApps-omgevingen](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 Gebruik de volgende richtlijnen bij het bepalen in welke PowerApps-omgeving u Talent wilt implementeren: 
 
@@ -84,9 +84,9 @@ Gebruik de volgende richtlijnen bij het bepalen in welke PowerApps-omgeving u Ta
    
     - **Proefomgevingen**: deze omgevingen worden gemaakt met een vervaldatum en verlopen na die tijd, waardoor uw omgeving en alle Talent-exemplaren in de omgeving automatisch worden verwijderd.
    
-    - **Niet-ondersteunde regio's**: momenteel wordt Talent alleen ondersteund in de volgende gebieden: Verenigde Staten, Europa, Verenigd Koninkrijk en Australië.
+    - **Niet-ondersteunde regio's**: momenteel wordt Talent alleen ondersteund in de volgende gebieden: Verenigde Staten, Europa, Verenigd Koninkrijk, Australië, Canada en Azië.
   
 6. Nadat u hebt vastgesteld welke omgeving de juiste is om te gebruiken, kunt u doorgaan met het inrichtingsproces. 
  
 ## <a name="grant-access-to-the-environment"></a>Toegang verlenen tot de omgeving
-Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot deze omgeving. Aan alle overige gebruikers van de toepassing moet echter uitdrukkelijk toestemming worden verleend. Om toegang te verlenen moet u gebruikers toevoegen en de juiste rollen aan deze gebruikers toewijzen in de Core HR-omgeving. De globale beheerder die Talent heeft geïmplementeerd, moet ook de toepassingen Attract en Onboard starten om de initialisatie te voltooien en toegang in te schakelen voor andere tenantgebruikers.  Totdat dit gebeurt, kunnen andere gebruikers geen toegang krijgen tot de toepassingen Attract en Onboard en krijgen ze toegangsovertredingsfouten. Zie voor meer informatie [Nieuwe gebruikers maken](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) en [Gebruikers toewijzen aan beveiligingsrollen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot deze omgeving. Aan alle overige gebruikers van de toepassing moet echter uitdrukkelijk toestemming worden verleend. Om toegang te verlenen moet u gebruikers toevoegen en de juiste rollen aan deze gebruikers toewijzen in de Core HR-omgeving. De globale beheerder die Talent heeft geïmplementeerd, moet ook de toepassingen Attract en Onboard starten om de initialisatie te voltooien en toegang in te schakelen voor andere tenantgebruikers.  Totdat dit gebeurt, kunnen andere gebruikers geen toegang krijgen tot de toepassingen Attract en Onboard en krijgen ze toegangsovertredingsfouten. Zie voor meer informatie [Nieuwe gebruikers maken](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) en [Gebruikers toewijzen aan beveiligingsrollen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

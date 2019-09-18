@@ -1,9 +1,9 @@
 ---
-title: Activiteiten in de processen
-description: Dit onderwerp biedt informatie over de verschillende soorten activiteiten die kunnen worden gebruikt in het aanstellingsproces.
+title: Activiteiten in de processen in Microsoft Dynamics 365 for Talent - Attract
+description: Dit onderwerp biedt informatie over de verschillende soorten activiteiten die kunnen worden gebruikt in het aanstellingsproces in Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517746"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739705"
 ---
-# <a name="activities-in-the-hiring-processes"></a>Activiteiten in de aanstellingsprocessen
+# <a name="activities-in-hiring-processes"></a>Activiteiten in aanstellingsprocessen
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ Activiteiten kunnen worden toegevoegd als een onderdeel van het aanstellingsproc
 ## <a name="prospect-activity"></a>Activiteit Prospect
 
 De activiteit Prospect bepaalt of prospects kunnen worden toegevoegd aan een functie. Standaard kunnen prospects worden toegevoegd aan een functie. Als u de activiteit Prospect wilt uitschakelen, stelt u de optie **Prospects inschakelen** in op **Uit**. Als de activiteit Prospect is ingeschakeld, kunnen aanstellend managers prospects toevoegen en weergeven en wordt het tabblad **Prospect** weergegeven in de functie.
+
+> [!NOTE]
+> Als u wilt toestaan dat kandidaten aan een functie van LinkedIn kunnen worden toegevoegd, moet u de optie **Kandidaten inschakelen** instellen op **Aan**.
 
 ## <a name="application-activity"></a>Activiteit Sollicitatie
 
