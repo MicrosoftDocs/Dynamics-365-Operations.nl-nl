@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: dac453ee83492655b6681b9784af4712bf39fc2a
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591497"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856443"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (13 mei 2019)
 
@@ -47,7 +47,7 @@ Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.22
 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Exemplaartype aangeven bij het inrichten van Talent
 
-Bij het inrichten van een nieuw exemplaar van Talent kunt u aangeven of het exemplaartype **Productie** of **Sandbox** is, waardoor nieuwe functies vroegtijdig kunnen worden getest. Alle bestaande exemplaren van Talent worden bijgewerkt naar het exemplaartype **Productie**. Als u wilt dat een van de bestaande exemplaren wordt bijgewerkt naar het exemplaartype **Sandbox**, neemt u contact op met de [ondersteuning](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) om de wijzigingsaanvraag te initiëren.
+Bij het inrichten van een nieuw exemplaar van Talent kunt u aangeven of het exemplaartype **Productie** of **Sandbox** is, waardoor nieuwe functies vroegtijdig kunnen worden getest. Alle bestaande exemplaren van Talent worden bijgewerkt naar het exemplaartype **Productie**. Als u wilt dat een van de bestaande exemplaren wordt bijgewerkt naar het exemplaartype **Sandbox**, neemt u contact op met de [ondersteuning](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) om de wijzigingsaanvraag te initiëren.
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Ondersteuning van Common Data Service-entiteiten voor aangepaste velden
 

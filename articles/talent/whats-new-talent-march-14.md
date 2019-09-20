@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38641d6a84340112ce15335533795ed7faf91123
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517735"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742488"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (14 maart 2019)
 
@@ -47,7 +47,7 @@ Wijzigingen die zijn aangebracht in deze versie, maken prestatiebeheerscenario's
 Met deze wijziging kunt u nu meerdere werknemers selecteren en een of meer controlelijsten massaal toewijzen aan deze werknemers. 
 
 ### <a name="platform-update-24"></a>Platformupdate 24
-Zie voor aanvullende informatie over Platform update 24 [Wat is nieuw of gewijzigd in Finance and Operations Platform update 24 (maart 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Belangrijke wijzigingen in de platform 24 omvatten: 
+Zie voor aanvullende informatie over Platform update 24 [Wat is nieuw of gewijzigd in Finance and Operations Platform update 24 (maart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Belangrijke wijzigingen in de platform 24 omvatten: 
 
 - Waarschuwingen zijn ingeschakeld in Talent.
 - De bijgewerkte navigatiebalk wordt nu uitgelijnd met de Office-koptekst.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517747"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741885"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (5 maart 2019)
 
@@ -43,10 +43,10 @@ Attract bevat meerdere velden die optiesets zijn in Common Data Service. Er zijn
 ## <a name="changes-in-onboarding"></a>Wijzigingen in Onboarding
 
 ### <a name="private-preview-for-onboard-teams"></a>Beperkte preview voor onboardteams
-U kunt nu sjablonen gemakkelijk delen en gemakkelijk samenwerken aan sjablonen in uw gehele organisatie. Zie voor meer informatie [Best practices delen in uw organisatie met behulp van onboardteams](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+U kunt nu sjablonen gemakkelijk delen en gemakkelijk samenwerken aan sjablonen in uw gehele organisatie. Zie voor meer informatie [Best practices delen in uw organisatie met behulp van onboardteams](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>Beperkte preview voor tijdelijke aanduidingen van toegewezene
-U kunt uw sjablonen verrijken door activiteiten toe te wijzen aan rollen in plaats van aan individuen. Rollen worden vervolgens toegewezen aan individuen tijdens het maken van begeleiding. Zie voor meer informatie [Beheer van begeleiding stroomlijnen door activiteiten aan rollen toe te wijzen](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
+U kunt uw sjablonen verrijken door activiteiten toe te wijzen aan rollen in plaats van aan individuen. Rollen worden vervolgens toegewezen aan individuen tijdens het maken van begeleiding. Zie voor meer informatie [Beheer van begeleiding stroomlijnen door activiteiten aan rollen toe te wijzen](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
 
 ## <a name="changes-in-core-hr"></a>Wijzigingen in Core HR
 **Build 8.1.2178**
@@ -71,7 +71,7 @@ Met deze wijziging worden de salarisvelden voortaan standaard ingesteld op de hu
 Andere kleine correcties zijn opgenomen in deze release.
 
 ### <a name="upgrade-to-common-data-service"></a>Upgrade naar Common Data Service
-Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
@@ -79,4 +79,4 @@ Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u a
 In veel organisaties kunnen managers voor compensaties en vergoedingen alleen toegang verkrijgen tot bepaalde compensatierecords, zoals records voor leidinggevenden of werknemers op basis van regio. Met deze wijziging kunt u de compensatieplannen beheren en onderhouden voor verschillende werknemersgroepen in de organisatie. Aan vaste en variabele plannen kunnen beveiligingsrollen worden toegewezen, waarmee de toegang wordt bepaald tot de plannen en de werknemersgegevens met betrekking tot de plannen, zoals salaris- of bonusrecords. Alleen de rollen met de opgegeven toegang kunnen compensatie voor deze werknemers verwerken.
 
 ###  <a name="platform-update-24"></a>Platformupdate 24
-Zie voor aanvullende informatie over Platform update 24 [Wat is nieuw of gewijzigd in Finance and Operations Platform update 24 (maart 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Zie voor aanvullende informatie over Platform update 24 [Wat is nieuw of gewijzigd in Finance and Operations Platform update 24 (maart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

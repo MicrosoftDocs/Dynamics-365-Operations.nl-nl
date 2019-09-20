@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517683"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795239"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (2 april 2019)
 
@@ -57,13 +57,13 @@ In Attract en Onboard worden met problemen die zijn geregistreerd door eindgebru
 Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.2216.
 
 ### <a name="platform-update-25"></a>Platformupdate 25
-Zie voor meer informatie over platformupdate 25 [Voorbeeldfuncties in Dynamics 365 for Finance and Operations platformupdate 25 (april 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+Zie voor meer informatie over platformupdate 25 [Voorbeeldfuncties in Dynamics 365 for Finance and Operations platformupdate 25 (april 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Geavanceerde compensatiebeveiliging (vast en variabel)
 In veel organisaties hebben managers voor compensaties en vergoedingen mogelijk alleen toegang tot bepaalde compensatierecords. Deze kunnen records bevatten voor leidinggevenden of regionale werknemers. Met deze wijziging kan HR compensatieplannen beheren en onderhouden voor verschillende werknemersgroepen in de organisatie. U kunt beveiligingsrollen toewijzen aan vaste en variabele regelingen. Deze beveiligingsrollen bepalen de toegang tot regelingen en gerelateerde werknemersgegevens, zoals salaris- of bonusrecords, zodat alleen die rollen compensatie voor de werknemersgroepen kunnen verwerken.
 
 ### <a name="upgrade-to-common-data-service"></a>Upgrade naar Common Data Service
-Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Preview
 

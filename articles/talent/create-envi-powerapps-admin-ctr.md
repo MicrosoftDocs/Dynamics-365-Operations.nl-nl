@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 97d44dc034cb8097fc0ecf9ac4e485425f097102
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 96119ca869cbbb15ed8d8d5d0fe3b0f94b5f36cc
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517669"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742837"
 ---
 # <a name="cant-create-an-environment-in-the-powerapps-admin-center"></a>Kan geen omgeving maken in het PowerApps-beheercentrum
 
@@ -45,4 +45,4 @@ Zorg ervoor dat de tenantbeheerder een geldige PowerApps P2-licentie heeft toege
 Houd er rekening mee dat verschillende Microsoft Office-SKU's ook dit recht verlenen, samen met zelfstandige PowerApps Plan 2-SKU's. Het belangrijkste is dat een van deze SKU's aanwezig moet zijn.
 
 1. Ga naar [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
-2. Maak de omgeving door de instructies in [Talent inrichten](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent) te volgen.
+2. Maak de omgeving door de instructies in [Talent inrichten](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) te volgen.

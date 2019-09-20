@@ -17,42 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590477"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739812"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Functies publiceren naar externe vacaturesites via Attract
+# <a name="post-jobs-to-broadbean"></a>Vacatures plaatsen op Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-U wilt uw openstaande posities aan zoveel mogelijk kandidaten voorleggen. Wervingssites, zoals Broadbean, helpen u bij het realiseren van dit doel. Met Microsoft Dynamics 365 Talent: Attract kunt u nu functies publiceren naar Broadbean en Microsoft biedt voortdurend nieuwe aanbiedingen in dit gebied.
+Met Microsoft Dynamics 365 for Talent: Attract kunt u de talenten krijgen die u nodig hebt omdat u uw vacatures rechtstreeks vanuit Attract op Broadbean kunt plaatsen. Nadat u [een functie hebt gemaakt](./creating-jobs-attract.md), hoeft u alleen maar op een knop te klikken om uw vacature voor talloze potentiële kandidaten op Broadbean te plaatsen.
 
-## <a name="post-jobs-to-broadbean"></a>Functies naar Broadbean publiceren
+Voor het plaatsen van vacatures op Broadbean hebt u een geschikte Broadbean-licentie nodig. Broadbean biedt diverse producten en plannen. Neem voor meer informatie over Broadbean-licenties en -prijzen [contact op met Broadbean](https://www.broadbean.com/contact-us/).
 
-Voordat u functies naar Broadbean kunt publiceren, moet u de Broadbean-integratie configureren.
+Als u een beheerder bent die meer informatie nodig heeft over het configureren van de Broadbean-integratie met Attract, raadpleegt u [Instellingen opgeven voor externe banensites](./attract-admin-job-board-settings.md).
 
-> [!NOTE]
-> - Als u functies naar externe sites wilt publiceren, moet u over de [Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) beschikken.
-> - Als u functies naar Broadbean wilt publiceren via Attract, moet u beschikken over een Broadbean-abonnement.
-> - Van deze functie kan momenteel een voorbeeld worden bekeken. Als u de functie wilt proberen, moet u [deze inschakelen in de beheerinstellingen van Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
-
-### <a name="configure-broadbean-integration"></a>Broadbean-integratie configureren
-
-1. Meld u aan bij Attract als beheerder.
-2. Selecteer de knop **Instellingen** (het tandwielsymbool) in de rechterbovenhoek van de pagina en selecteer vervolgens **Beheercentrum**.
-3. Schakel de integratie in op het tabblad **Functiebordinstellingen** in de sectie **Broadbean-integratie inschakelen**.
-4. Neem contact op met Broadbean en voer uw gegevens in **Gebruikersnaam, Client-ID, Coderingstoken** in.
-
-> [!WARNING]
-> Uw Broadbean-referenties zijn gevoelig en vertrouwelijk. Bewaar deze daarom zorgvuldig en deel ze op verantwoorde wijze. Iedereen met een beheerdersrol in Attract kan deze referenties weergeven.
-
-> [!NOTE]
-> Microsoft en Attract zijn niet betrokken bij het maken en onderhouden van deze waarden. Het is uw verantwoordelijkheid ze om up-to-date te houden in Attract en te werken met Broadbean om eventuele problemen op te lossen die betrekking hebben op uw referenties.
-
-### <a name="post-a-job-to-broadbean"></a>Een functie naar Broadbean publiceren
+## <a name="post-jobs-to-broadbean"></a>Vacatures plaatsen op Broadbean
 
 Nadat Broadbean is ingeschakeld, kunnen wervers en beheerders er een functie naar publiceren. U kunt een sollicitatie-URL voor de functie hebben.
 
@@ -80,7 +62,7 @@ Nadat in Broadbean de publicatie is voltooid, wordt in de sectie **Publicaties**
 Nadat u een functie naar Broadbean hebt gepubliceerd, kunt u deze weergeven via Attract.
 
 1. Open in Attract de functie die u wilt weergeven in Broadbean.
-2. Selecteer in de sectie **Publicaties** de ellipsknop (**...**) die hoort bij Broadbean en selecteer vervolgens **Weergave**.
+2. Selecteer op het tabblad **Boekingen** de knop met het weglatingsteken (**...**) die hoort bij Broadbean en selecteer vervolgens **Weergave**.
 
 De Broadbean-functiepublicatie wordt weergegeven in een nieuw venster.
 
@@ -107,10 +89,16 @@ U kunt desgewenst een functiepublicatie uit Broadbean verwijderen.
 
 Na de functie uit Broadbean is verwijderd, bevat het Broadbean-item in Attract de knop **Nu publiceren**. De aanwezigheid van deze knop geeft aan dat de functie is verwijderd en opnieuw kan worden gepubliceerd.
 
-### <a name="troubleshoot-the-broadbean-integration"></a>Problemen met Broadbean-integratie oplossen
+### <a name="troubleshoot-job-posting-to-broadbean"></a>Problemen met het plaatsen van vacatures op Broadbean oplossen
 
 Als u problemen hebt met het publiceren van een functie naar Broadbean, probeert u deze stappen.
 
 1. Controleer of de Broadbean-referenties die u hebt ingevoerd in Attract, geldig en juist zijn.
 2. Als de referenties geldig en juist zijn, neemt u contact op met [Broadbean-ondersteuning](https://www.broadbean.com/resources/support/).
 3. Als het probleem zich blijft voordoen, neemt u contact op met [Microsoft-ondersteuning](./talent-support.md).
+
+## <a name="see-also"></a>Zie ook
+
+[Vacatures maken](./creating-jobs-attract.md)
+
+[Instellingen opgeven voor externe banensites](./attract-admin-job-board-settings.md)

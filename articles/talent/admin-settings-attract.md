@@ -1,6 +1,6 @@
 ---
-title: Beheerinstellingen in Attract
-description: In dit onderwerp wordt uitgelegd hoe u functionaliteit inschakelt voor organisaties en gebruikers in Attract.
+title: Bedrijfsgegevens configureren in Microsoft Dynamics 365 for Talent - Attract
+description: In dit onderwerp wordt uitgelegd hoe u bedrijfsgegevens en -branding voor Microsoft Dynamics 365 for Talent - Attract configureert.
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0de215103306ef7115ba390b1b4855179979c77b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517749"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739559"
 ---
-# <a name="admin-settings-in-attract"></a>Beheerinstellingen in Attract
+# <a name="configure-company-information"></a>Bedrijfsgegevens configureren
 [!include[banner](../includes/banner.md)]
 
 Het beheercentrum in Microsoft Dynamics 365 for Talent: Attract bevat configuratie-instellingen, integratieopties en instellingsopties voor de Attract-toepassing.
@@ -36,7 +36,7 @@ Voer een weergavenaam in voor het bedrijf en een bedrijfslogo. De weergavenaam e
 
 ## <a name="linkedin-integration"></a>LinkedIn-integratie
 
-Stel integratie met LinkedIn Recruiter System Connect  (RSC) in. Nadat u een verbinding met LinkedIn hebt gemaakt met behulp van uw LinkedIn-referenties, kunt u het LinkedIn-profiel, sollicitaties, sollicitatiegesprekfeedback en notities van aanstellende teams van een kandidaat synchroniseren. Een volledige LinkedIn-werverslicentie is vereist. Zie voor meer informatie over LinkedIn Recruiter [Recruiter System Connect (RSC) – veelgestelde vragen](https://www.linkedin.com/help/recruiter/answer/90483).
+Stel integratie met LinkedIn Recruiter System Connect (RSC) in. Nadat u een verbinding met LinkedIn hebt gemaakt met behulp van uw LinkedIn-referenties, kunt u het LinkedIn-profiel, sollicitaties, sollicitatiegesprekfeedback en notities van aanstellende teams van een kandidaat synchroniseren. Een volledige LinkedIn-werverslicentie is vereist. Zie voor meer informatie over LinkedIn Recruiter [Recruiter System Connect (RSC) – veelgestelde vragen](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Gebruikersmachtigingen
 

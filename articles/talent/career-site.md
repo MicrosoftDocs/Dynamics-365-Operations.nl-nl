@@ -1,6 +1,6 @@
 ---
-title: Functionaliteit Vacaturesite in Attract
-description: Dit onderwerp bevat een overzicht van de functionaliteit voor op kandidaten gerichte vacaturesite in Attract.
+title: Uw vacaturesite instellen in Microsoft Dynamics 365 for Talent - Attract
+description: Dit onderwerp bevat een overzicht van de functionaliteit voor een op kandidaten gerichte vacaturesite in Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729698"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739766"
 ---
-# <a name="career-site-functionality-in-attract"></a>Functionaliteit Vacaturesite in Attract
+# <a name="set-up-your-career-site"></a>Uw vacaturesite instellen
 
 [!include[banner](../includes/banner.md)]
 
@@ -131,7 +131,7 @@ U kunt het eenvoudig maken voor kandidaten om te solliciteren op uw posities doo
 1. Meld u aan bij Attract als beheerder.
 2. Selecteer de knop **Instellingen** (het tandwielsymbool) in de rechterbovenhoek van de pagina en selecteer vervolgens **Beheercentrum**.
 3. Selecteer het tabblad **LinkedIn-integratie** en maak verbinding met een LinkedIn Recruiter-account.
-4. Selecteer in de sectie **LinkedIn Recruiter System Connect -integratie** **Ingeschakeld** voor de instelling **Solliciteren met LinkedIn**.
+4. Selecteer in de sectie **LinkedIn Recruiter System Connect-integratie** **Ingeschakeld** voor de instelling **Solliciteren met LinkedIn**.
 
 Nadat u de instelling hebt ingeschakeld, kunnen kandidaten alleen solliciteren met hun bestaande LinkedIn-profielgegevens. Wanneer kandidaten solliciteren door de knop **Solliciteren met LinkedIn** te kiezen, wordt hen gevraagd om te verifiëren met LinkedIn als ze nog niet zijn aangemeld. Nadat ze zijn geverifieerd, worden bestaande profielgegevens weergegeven op de sollicitatiepagina vervangen door hun LinkedIn-profiel. Kandidaten kunnen de gegevens zo nodig bewerken en de sollicitatie indienen. Als een kandidaat de pagina verlaat zonder op de functie te solliciteren, worden hun profielgegevens niet bijgewerkt in Attract.
 

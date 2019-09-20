@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620615"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741747"
 ---
 # <a name="intelligent-recommendations"></a>Intelligente aanbevelingen
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620615"
 Machine learning kan wervers en aanstellend managers helpen snel de beste kandidaten voor een positie te bepalen. Het kan prospects ook helpen de positie te vinden die het best past bij hun profiel en interesses. Naarmate deze functies worden gebruikt en feedback wordt gegeven, worden aanbevelingen beter.
 
 > [!NOTE] 
-> - De intelligente aanbevelingsfuncties zijn alleen beschikbaar met de [Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - De intelligente aanbevelingsfuncties zijn alleen beschikbaar met de [Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 > - Functionaliteit die in dit onderwerp wordt vermeld, is beschikbaar als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Als u deze functie wilt gebruiken, vraagt u een beheerder om deze in te schakelen via **Beheercentrum** in Attract. Stel **Kandidaataanbeveling**, **Functieaanbeveling** en **Prospectaanbeveling** in op **Aan**. Zie voor meer informatie [Toegang tot voorbeeldfuncties in Talent](./access-preview-feature.md). 
 
 

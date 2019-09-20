@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617338"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742699"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Integratie van Dynamics 365 for Talent met Dynamics 365 for Finance and Operations - veelgestelde vragen
 
@@ -38,7 +38,7 @@ Voor Attract en Onboard zijn alle gegevens systeemeigen voor Common Data Service
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Kan ik een nieuwe toewijzing maken zonder de sjablonen te gebruiken?
 
-Sjablonen vormen het beginpunt. U kunt uw eigen sjabloon maken, maar een sjabloon is altijd vereist bij het maken van een integratieproject. Zie voor meer informatie over Gegevensintegrator (DI), sjablonen en projecten [Gegevens integreren in Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+Sjablonen vormen het beginpunt. U kunt uw eigen sjabloon maken, maar een sjabloon is altijd vereist bij het maken van een integratieproject. Zie voor meer informatie over Gegevensintegrator (DI), sjablonen en projecten [Gegevens integreren in Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Kan ik financiële dimensies toewijzen voor overdracht tussen Talent en Finance and Operations?
 
@@ -133,7 +133,7 @@ De integratie met Finance and Operations is een proces dat uit twee stappen best
 
 Als de gegevens niet zoals verwacht in Common Data Service worden weergegeven, controleert u of de entiteit in de integratie wordt ondersteund. Als u aanvullende gegevens in Common Data Service wilt opnemen, is een wijziging aan Microsoft-zijde vereist.
 
-Als de entiteit wordt ondersteund en de gegevens beschikbaar zijn in Common Data Service, controleert u of de toewijzing in Gegevensintegrator juist is. Als de integratortoewijzing er goed uitziet, controleert u of de taken voor gegevensbeheer zonder problemen zijn uitgevoerd. Er kunnen fouten optreden tijdens de uitvoering van de batchtaken. Zie [Gegevensbeheer](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json) voor meer informatie over Gegevensbeheer.
+Als de entiteit wordt ondersteund en de gegevens beschikbaar zijn in Common Data Service, controleert u of de toewijzing in Gegevensintegrator juist is. Als de integratortoewijzing er goed uitziet, controleert u of de taken voor gegevensbeheer zonder problemen zijn uitgevoerd. Er kunnen fouten optreden tijdens de uitvoering van de batchtaken. Zie [Gegevensbeheer](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json) voor meer informatie over Gegevensbeheer.
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>De adressen van mijn werknemers zijn onjuist nadat ik deze in Finance and Operations heb geïmporteerd. Wat moet ik doen?
 
@@ -145,7 +145,7 @@ Controleer tijdens de implementatie van Talent of de nummerreeksen niet hetzelfd
 
 Zorg ervoor dat wanneer u uw verbindingen maakt, u Dynamics 365 for Finance and Operations (momenteel in het voorbeeld) en Common Data Service kiest.
 
-## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Tijdens het synchroniseren van dienstverbanden krijg ik de fouten 'CompanyInfo_FK bestaat niet' of 'De waarde '12/31/2154 23:59:59 pm' in het veld Einddatum dienstverband' is niet gevonden in de gerelateerde tabel 'Dienstverband'. Wat moet ik doen?
+## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Tijdens het synchroniseren van dienstverbanden krijg ik de fouten 'CompanyInfo_FK bestaat niet' of 'De waarde '12/31/2154 23:59:59 pm' in het veld Einddatum dienstverband' is niet gevonden in de gerelateerde tabel 'Dienstverband'. Wat moet ik doen?
 
 Zorg ervoor dat u toewijst aan de juiste rechtspersonen. Synchronisatie van rechtspersonen maakt geen deel uit van de standaardsjabloon. Dus elke rechtspersoon die aanwezig is in Talent en Common Data Service, zal naar verwachting ook aanwezig zijn in Finance and Operations.
 Zorg er ook voor dat u de juiste rechtspersonen voor de bijbehorende verbindingenset selecteert.
@@ -160,12 +160,12 @@ Vernieuw de gegevensentiteiten in Finance and Operations door naar **Gegevensbeh
 
 - Gegevensintegrator (DI): 
 
-  - [Gegevens integreren in Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [Gegevens integreren in Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-  - [Foutbeheer en probleemoplossing van Gegevensintegrator](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
+  - [Foutbeheer en probleemoplossing van Gegevensintegrator](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Reageren op DSR-aanvragen voor door het systeem gegenereerde logboeken in PowerApps, Microsoft Flow en Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Reageren op DSR-aanvragen voor door het systeem gegenereerde logboeken in PowerApps, Microsoft Flow en Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Gegevensbeheer:
 
-  - [Gegevensbeheer](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Gegevensbeheer](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)

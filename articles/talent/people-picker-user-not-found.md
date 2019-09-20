@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517702"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742744"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Azure Active Directory-gebruikers niet gevonden in personenkiezer
 
@@ -36,9 +36,9 @@ Bepaalde geldige gebruikers in Microsoft Azure Active Directory (Azure AD) voor 
 
 Bepaalde gebruikerstypen worden momenteel niet ondersteund in de Attract- en Onboard-toepassingen. Controleer of de gebruiker niet een Azure AD Business-to-Business (B2B)-gastgebruiker is. Gegevens over het "Gebruikerstype" vindt u in het Azure Active Directory-blad van de Azure-portal.
 
-Zie voor meer informatie over Azure B2B [Wat is gastgebruikerstoegang in Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).
+Zie voor meer informatie over Azure B2B [Wat is gastgebruikerstoegang in Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 
-Voor niet-B2B-gebruikers geldt dat er bepaalde gebruikers zijn die mogelijk een onvolledige eigenschap "Gebruikerstype" in het object **Gebruiker** hebben. Dit kan worden geverifieerd en opgelost met de module Azure AD Powershell. Zie [Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0) voor meer informatie.
+Voor niet-B2B-gebruikers geldt dat er bepaalde gebruikers zijn die mogelijk een onvolledige eigenschap "Gebruikerstype" in het object **Gebruiker** hebben. Dit kan worden geverifieerd en opgelost met de module Azure AD Powershell. Zie [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0) voor meer informatie.
 
 ## <a name="resolution"></a>Oplossing
 

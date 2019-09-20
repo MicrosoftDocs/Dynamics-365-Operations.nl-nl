@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 42b9541b152d2a6daa1dbf95ecf30a2f51eb36f3
-ms.sourcegitcommit: 31a918d357a7182f3870713a9c4455bd5c44cd58
+ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "1634475"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741609"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 for Talent (11 juni 2019)
 
@@ -76,9 +76,9 @@ De entiteit Taakgroep is toegevoegd.
 
 ### <a name="preview-features-will-be-enabled-only-in-sandbox-environments"></a>Preview-functies worden alleen ingeschakeld in sandbox-omgevingen
 
-Zie [Talent inrichten](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent) voor meer informatie over hoe wijzigingen worden gepubliceerd.
+Zie [Talent inrichten](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) voor meer informatie over hoe wijzigingen worden gepubliceerd.
 
-Wanneer u een nieuw exemplaar van Talent inricht, kunt u aangeven of het exemplaartype Productie of Sandbox is. In het exemplaartype Sandbox kunnen nieuwe functies vroegtijdig worden getest. Alle bestaande exemplaren van Talent worden bijgewerkt naar het exemplaartype **Productie**. Als u wilt dat een van de bestaande exemplaren wordt bijgewerkt naar het exemplaartype **Sandbox**, neemt u contact op met de [ondersteuning](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) om de wijzigingsaanvraag te initiëren.
+Wanneer u een nieuw exemplaar van Talent inricht, kunt u aangeven of het exemplaartype Productie of Sandbox is. In het exemplaartype Sandbox kunnen nieuwe functies vroegtijdig worden getest. Alle bestaande exemplaren van Talent worden bijgewerkt naar het exemplaartype **Productie**. Als u wilt dat een van de bestaande exemplaren wordt bijgewerkt naar het exemplaartype **Sandbox**, neemt u contact op met de [ondersteuning](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) om de wijzigingsaanvraag te initiëren.
 
 ### <a name="restrict-the-leave-types-in-time-off-requests"></a>De verloftypen in verlofaanvragen beperken
 

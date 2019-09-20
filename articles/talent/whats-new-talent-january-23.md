@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f27698c257301f52e5c77eaa8a04ca13a0315825
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517681"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742511"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (23 januari 2019)
 
@@ -54,4 +54,4 @@ Bij het wijzigen van de functie voor een positie worden functievelden standaard 
 Met deze wijziging zijn de velden **Proeftijd** en **Kalender** toegevoegd aan de pagina **Wijzigingen beheren** zodat gegevens voor toekomstige en eerdere werknemers kunnen worden ingevoerd.
 
 ### <a name="platform-update-23"></a>Platformupdate 23
-Kleine correcties zijn opgenomen als onderdeel van platformupdate 23. Zie voor meer informatie [Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 23 (januari 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+Kleine correcties zijn opgenomen als onderdeel van platformupdate 23. Zie voor meer informatie [Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 23 (januari 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
