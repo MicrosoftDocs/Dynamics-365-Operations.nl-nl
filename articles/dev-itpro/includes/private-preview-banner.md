@@ -1,3 +1,0 @@
-> [!IMPORTANT]
-> <span data-ttu-id="f3a8a-101">Functionaliteit die in dit onderwerp wordt vermeld, is beschikbaar voor gebruikers in kwestie als onderdeel van een beperkte preview-versie.</span><span class="sxs-lookup"><span data-stu-id="f3a8a-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="f3a8a-102">De inhoud en de functies kunnen worden gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="f3a8a-102">The content and the functionality are subject to change.</span></span> 
-
