@@ -1,6 +1,6 @@
 ---
 title: Scenario's voor het betalen van facturen instellen
-description: In dit onderwerp wordt beschreven hoe u Dynamics 365 for Retail configureert om verschillende scenario's met betrekking tot factuurbetalingen te ondersteunen.
+description: In dit onderwerp wordt beschreven hoe u Dynamics 365 Retail configureert om verschillende scenario's met betrekking tot factuurbetalingen te ondersteunen.
 author: josaw1
 manager: AnnBe
 ms.date: 11/14/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb9101843396e489e4d7b63879e9df35e52fe64
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564965"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018008"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Scenario's voor het betalen van facturen instellen
 
 [!include [banner](includes/banner.md)]
 
-De functionaliteit Factuur betalen in Dynamics 365 for Retail is uitgebreid om het volgende te ondersteunen:
+De functionaliteit Factuur betalen in Dynamics 365 Retail is uitgebreid om het volgende te ondersteunen:
 
 - De betaling van meerdere verkooporderfacturen in één POS-transactie.
 - Betaling van verschillende typen klantfacturen, inclusief vrije-tekstfacturen, facturen op basis van projecten en creditnota's.

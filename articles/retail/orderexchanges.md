@@ -1,6 +1,6 @@
 ---
 title: Een uitwisseling voor een retourorder configureren en verwerken
-description: In dit onderwerp wordt uitgelegd hoe u een uitwisseling voor een retour configureert in Microsoft Dynamics 365 for Retail.
+description: In dit onderwerp wordt uitgelegd hoe u een uitwisseling voor een retour configureert in Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/12/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ce327a918159771df0acab276b1169d2ad77825
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561382"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025374"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Een uitwisseling voor een retourorder configureren en verwerken
 
 [!include [banner](includes/banner.md)]
 
-In eerdere versies van Microsoft Dynamics 365 for Retail werden retouren van klantorders verwerkt op basis van het retourorderdocument in Retail Headquarters. Het retourorderdocument kan echter alleen worden gebruikt om producten te verwerken die worden geretourneerd. De geretourneerde producten worden aangeduid met een negatieve hoeveelheid op de retourorderregels. De verkopen worden weergegeven met een positieve hoeveelheid. Het retourorderdocument ondersteunt echter geen positieve hoeveelheden. Vanwege deze beperking boden eerdere versies van Retail geen ondersteuning voor scenario's waarin productuitwisselingen werden uitgevoerd met behulp van het retourorderdocument.
+In eerdere versies van Dynamics 365 Retail werden retouren van klantorders verwerkt op basis van het retourorderdocument in Retail Headquarters. Het retourorderdocument kan echter alleen worden gebruikt om producten te verwerken die worden geretourneerd. De geretourneerde producten worden aangeduid met een negatieve hoeveelheid op de retourorderregels. De verkopen worden weergegeven met een positieve hoeveelheid. Het retourorderdocument ondersteunt echter geen positieve hoeveelheden. Vanwege deze beperking boden eerdere versies van Retail geen ondersteuning voor scenario's waarin productuitwisselingen werden uitgevoerd met behulp van het retourorderdocument.
 
 Er is echter functionaliteit toegevoegd om scenario's met uitwisselingen voor retourorders te ondersteunen. In Retail wordt in plaats van het retourorderdocument nu het verkooporderdocument gebruikt voor de verwerking van deze typen transacties.
 

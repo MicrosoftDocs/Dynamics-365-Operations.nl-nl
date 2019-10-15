@@ -1,6 +1,6 @@
 ---
 title: Consistentiecontrole voor detailhandeltransacties
-description: In dit onderwerp wordt de functie voor de consistentiecontrole voor detailhandeltransacties in Microsoft Dynamics 365 for Retail beschreven.
+description: In dit onderwerp wordt de functie voor de consistentiecontrole voor detailhandeltransacties in Dynamics 365 Retail beschreven.
 author: josaw1
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790416"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018408"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Consistentiecontrole voor detailhandeltransacties
 
@@ -31,9 +31,9 @@ ms.locfileid: "1790416"
 [!include [banner](includes/banner.md)]
 [!include [preview banner](includes/preview-banner.md)]
 
-In dit onderwerp wordt de nieuwe functie voor de consistentiecontrole voor detailhandeltransacties in Microsoft Dynamics 365 for Finance and Operations versie 8.1.3 beschreven. In de consistentiecontrole worden inconsistente transacties geïdentificeerd en geïsoleerd voordat ze worden verzameld door het boekingsproces voor overzichten.
+In dit onderwerp wordt de functie voor de consistentiecontrole voor detailhandeltransacties beschreven. In de consistentiecontrole worden inconsistente transacties geïdentificeerd en geïsoleerd voordat ze worden verzameld door het boekingsproces voor overzichten.
 
-Wanneer een overzicht wordt geboekt in Microsoft Dynamics 365 for Retail, kan de boeking mislukken vanwege inconsistente gegevens in de tabellen met detailhandeltransacties. Het gegevensprobleem kan worden veroorzaakt door onvoorziene problemen in de verkooppunttoepassing (POS) of door incorrect geïmporteerde transacties uit POS-systemen van derden. Enkele voorbeelden van hoe deze inconsistenties kunnen worden weergegeven: 
+Wanneer een overzicht wordt geboekt in Retail, kan de boeking mislukken vanwege inconsistente gegevens in de tabellen met detailhandeltransacties. Het gegevensprobleem kan worden veroorzaakt door onvoorziene problemen in de verkooppunttoepassing (POS) of door incorrect geïmporteerde transacties uit POS-systemen van derden. Enkele voorbeelden van hoe deze inconsistenties kunnen worden weergegeven: 
 
 - Het transactietotaal in de kopteksttabel komt niet overeen met het transactietotaal op de regels.
 - Het aantal regels in de kopteksttabel komt niet overeen met het aantal regels in de transactietabel.
