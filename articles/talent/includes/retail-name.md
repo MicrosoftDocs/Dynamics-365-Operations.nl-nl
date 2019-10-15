@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="17ae3-101">Dit onderwerp is van toepassing op zowel Dynamics 365 for Finance and Operations als Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="17ae3-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
+> <span data-ttu-id="7c439-101">Dit onderwerp is van toepassing op Finance, Supply Chain Management en Retail.</span><span class="sxs-lookup"><span data-stu-id="7c439-101">This topic applies to Finance, Supply Chain Management, and Retail.</span></span> 

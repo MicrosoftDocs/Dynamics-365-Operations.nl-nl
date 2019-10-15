@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
     - name: Aan de slag
       items:
@@ -8,6 +8,14 @@
         - name: Nieuwe of gewijzigde functies in Talent
           href: whats-new.md
           items:
+            - name: 1 oktober 2019
+              href: whats-new-talent-october-1-2019.md
+            - name: 17 september 2019
+              href: whats-new-talent-september-17-2019.md
+            - name: 10 september 2019
+              href: whats-new-talent-september-12-2019.md
+            - name: 27 augustus 2019
+              href: whats-new-talent-august-28-2019.md
             - name: 22 augustus 2019
               href: whats-new-talent-august-21-2019.md
             - name: 13 augustus 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2 juli 2019
               href: whats-new-talent-july-2-2019.md
-            - name: 25 juni 2019
-              href: whats-new-talent-june-25-2019.md
-            - name: 18 juni 2019
-              href: whats-new-talent-june-18-2019.md
-            - name: 11 juni 2019
-              href: whats-new-talent-june-11-2019.md
-            - name: 4 juni 2019
-              href: whats-new-talent-june-4-2019.md
             - name: Wat is nieuw - archieven 2019
               items:
+                - name: 25 juni 2019
+                  href: whats-new-talent-june-25-2019.md
+                - name: 18 juni 2019
+                  href: whats-new-talent-june-18-2019.md
+                - name: 11 juni 2019
+                  href: whats-new-talent-june-11-2019.md
+                - name: 4 juni 2019
+                  href: whats-new-talent-june-4-2019.md
                 - name: 28 mei 2019
                   href: whats-new-talent-may-28-2019.md
                 - name: 21 mei 2019
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: Problemen met Talent oplossen
       items:
+        - name: Prestaties optimaliseren met automatische opschoningstaken
+          href: talent-batch-history-cleanup.md
         - name: Problemen oplossen met vacatures plaatsen in LinkedIn
           href: attract-troubleshoot-linkedin.md
         - name: Analytische rapporten worden niet bijgewerkt
