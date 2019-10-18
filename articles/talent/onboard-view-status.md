@@ -1,6 +1,6 @@
 ---
 title: De status van onboardingmedewerkers en uw taken weergeven
-description: In dit onderwerp wordt uitgelegd hoe u de Microsoft Dynamics 365 for Talent - Onboard-app gebruikt om bij te houden waar nieuwe medewerkers zich in hun onboardingproces bevinden.
+description: In dit onderwerp wordt uitgelegd hoe u de app Microsoft Dynamics 365 Talent - Onboard gebruikt om bij te houden waar nieuwe medewerkers zich in hun onboardingproces bevinden.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0e17c572b4d3b5cee3687b25fb340ad9f98247ed
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731419"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009826"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>De status van onboardingmedewerkers en uw taken weergeven
 
 [!include [banner](includes/banner.md)]
 
-Met Microsoft Dynamics 365 for Talent: Onboard kunt u de voortgang van uw nieuwe medewerkers in hun onboardingactiviteiten bekijken. U ook alle taken weergeven die aan u zijn toegewezen via onboardinghandleidingen.
+Met Microsoft Dynamics 365 Talent: Onboard kunt u de voortgang van uw nieuwe medewerkers in hun onboardingactiviteiten bekijken. U ook alle taken weergeven die aan u zijn toegewezen via onboardinghandleidingen.
 
 ## <a name="view-the-status-of-onboarding-employees"></a>De status van onboardingmedewerkers weergeven
 

@@ -1,6 +1,6 @@
 ---
 title: Uitgestelde verwerking van magazijnwerk
-description: In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen in magazijnwerk beschikbaar maakt in Microsoft Dynamics 365 for Finance and Operations.
+description: In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen in magazijnwerk beschikbaar maakt in Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
 ms.date: 06/17/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4905084f9bc28e55c307921280733c6acb80db86
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863581"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026911"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Uitgestelde verwerking van magazijnwerk
 
@@ -29,7 +29,8 @@ ms.locfileid: "1863581"
 
 [!include [banner](../includes/pivate-preview-banner.md)]
 
-In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen voor magazijnwerk beschikbaar maakt in Microsoft Dynamics 365 for Finance and Operations.
+In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen voor magazijnwerk beschikbaar maakt in Dynamics 365 Supply Chain Management.
+
 
 Met de functionaliteit voor uitgestelde verwerking kunnen magazijnmedewerkers doorgaan met ander werk terwijl de wegzetbewerking op de achtergrond wordt verwerkt. Uitgestelde verwerking is nuttig wanneer veel werkregels moeten worden verwerkt en de werknemer dat werk asynchroon kan laten verwerken. Het is ook handig wanneer de server ad-hoc of niet-geplande verhogingen in verwerkingstijd kan hebben, en de toegenomen verwerkingstijd kan invloed hebben op de productiviteit van de gebruiker.
 

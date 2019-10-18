@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e600e1d2bb4bc1a49d55fb58b3e74fa7e13fc2af
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556432"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017892"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Ploeg- en kasladebeheer
 
@@ -32,7 +32,7 @@ ms.locfileid: "1556432"
 
 In dit onderwerp wordt uitgelegd hoe u ploegen gebruikt in detailhandelverkooppunten.
 
-In Microsoft Dynamics 365 for Retail wordt met de term *ploeg* de verzameling van POS-transactiegegevens en -activiteiten tussen twee tijdstippen bedoeld. Voor elke ploeg wordt de verwachte hoeveelheid geld vergeleken met het bedrag dat is geteld en gedeclareerd.
+In Dynamics 365 Retail wordt met de term *ploeg* de verzameling van POS-transactiegegevens en -activiteiten tussen twee tijdstippen bedoeld. Voor elke ploeg wordt de verwachte hoeveelheid geld vergeleken met het bedrag dat is geteld en gedeclareerd.
 
 Doorgaans worden ploegen geopend aan het begin van een werkdag. Op dat moment declareert de gebruiker het beginbedrag, oftewel het bedrag dat zich in de kassalade bevindt. Verkooptransacties worden vervolgens uitgevoerd gedurende de dag. Ten slotte wordt aan het einde van de dag het kassabedrag geteld en worden de eindbedragen gedeclareerd. De ploeg wordt gesloten en er wordt een Z-rapport gegenereerd. In het Z-rapport wordt aangegeven of er een overschot of tekort is.
 
@@ -69,7 +69,7 @@ Als u gedeelde ploegen in een winkel wilt gebruiken, moet de kassalade worden ge
 
 ## <a name="shift-and-drawer-operations"></a>Ploeg- en kassaladebeheer
 
-U kunt verschillende acties ondernemen om de status van een ploeg te wijzigen of het geldbedrag in de kassalade te verhogen of te verlagen. Deze sectie beschrijft deze ploegbewerkingen voor Microsoft Dynamics 365 for Retail Modern POS en Cloud POS.
+U kunt verschillende acties ondernemen om de status van een ploeg te wijzigen of het geldbedrag in de kassalade te verhogen of te verlagen. Deze sectie beschrijft deze ploegbewerkingen voor Retail Modern POS en Cloud POS.
 
 ### <a name="open-shift"></a>Ploeg openen
 
