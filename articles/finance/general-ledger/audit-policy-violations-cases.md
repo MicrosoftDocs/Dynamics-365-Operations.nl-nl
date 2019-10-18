@@ -1,0 +1,63 @@
+---
+title: Overtredingen van controlebeleid en aanvragen
+description: In dit artikel wordt beschreven hoe controleaanvragen worden gegenereerd voor overtredingen van controlebeleidsregels. Het bevat ook informatie over de verschillende manieren waarop door controlebeleid wordt gebruikgemaakt van het datumbereik voor documentselectie.
+author: ryansandness
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 13091
+ms.assetid: e0e66c6d-c396-4a9d-b3b6-3641d130fdc0
+ms.search.region: Global
+ms.author: ryansand
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d14894d331037033b27fac3fd7ff98c5521eaf98
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2186780"
+---
+# <a name="audit-policy-violations-and-cases"></a><span data-ttu-id="c692f-104">Overtredingen van controlebeleid en aanvragen</span><span class="sxs-lookup"><span data-stu-id="c692f-104">Audit policy violations and cases</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="c692f-105">In dit artikel wordt beschreven hoe controleaanvragen worden gegenereerd voor overtredingen van controlebeleidsregels.</span><span class="sxs-lookup"><span data-stu-id="c692f-105">The article explains how audit cases are generated from violations of audit policy rules.</span></span> <span data-ttu-id="c692f-106">Het bevat ook informatie over de verschillende manieren waarop door controlebeleid wordt gebruikgemaakt van het datumbereik voor documentselectie.</span><span class="sxs-lookup"><span data-stu-id="c692f-106">It also includes information about the various ways that audit policies use the document selection date range.</span></span>
+
+<a name="how-audit-cases-are-generated"></a><span data-ttu-id="c692f-107">De controleaanvragen worden gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="c692f-107">How audit cases are generated</span></span>
+-----------------------------
+
+<span data-ttu-id="c692f-108">Controlebeleidsregels worden gebruikt voor het identificeren van onkostennota's, inkooporders en leveranciersfacturen die niet aan de bedrijfsregels voldoen die u definieert en configureert als controlebeleidsregels.</span><span class="sxs-lookup"><span data-stu-id="c692f-108">Audit policies are used to identify expense reports, purchase orders, and vendor invoices that don't comply with business rules that you define and configure as audit policy rules.</span></span> 
+
+<span data-ttu-id="c692f-109">Controlebeleid moet in batchmodus worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="c692f-109">Audit policies are run in batch mode.</span></span> <span data-ttu-id="c692f-110">Wanneer u een controlebeleid uitvoert, worden alle beleidsregels van het beleid tegelijkertijd uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="c692f-110">When you run an audit policy, all the policy rules that are part of that policy are run at the same time.</span></span>
+
+<span data-ttu-id="c692f-111">Met elke beleidsregel wordt een set documenten geëvalueerd.</span><span class="sxs-lookup"><span data-stu-id="c692f-111">Each policy rule evaluates a set of documents.</span></span> <span data-ttu-id="c692f-112">Met de beleidsregel worden documenten geselecteerd die zich binnen het datumbereik van de documentselectie bevinden en die voldoen aan opgegeven criteria.</span><span class="sxs-lookup"><span data-stu-id="c692f-112">The policy rule selects documents that are in the document selection date range and that match the specified criteria.</span></span> <span data-ttu-id="c692f-113">Eén beleidsregel kan bijvoorbeeld onkostennota's selecteren met maaltijden van meer dan 50.</span><span class="sxs-lookup"><span data-stu-id="c692f-113">For example, one policy rule might select expense reports that have meals that exceed 50.00.</span></span> <span data-ttu-id="c692f-114">Met een andere beleidsregel kunnen leveranciersfacturen worden geselecteerd die aan een specifieke leverancier moeten worden betaald.</span><span class="sxs-lookup"><span data-stu-id="c692f-114">Another policy rule might select vendor invoices that are payable to a specific vendor.</span></span> <span data-ttu-id="c692f-115">Voor elk document dat in de set is geselecteerd, wordt een overtreding gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="c692f-115">For each document that is selected in the set, a violation is generated.</span></span> <span data-ttu-id="c692f-116">De overtreding is een record waarmee wordt aangegeven dat een bepaald document, zoals factuur 12345, niet voldoet aan de beleidsregel.</span><span class="sxs-lookup"><span data-stu-id="c692f-116">That violation is a record that a particular document, such as invoice 12345, doesn't comply with the policy rule.</span></span> 
+
+<span data-ttu-id="c692f-117">Meerdere controleschendingsregistraties worden gegroepeerd en aan controleaanvragen gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="c692f-117">Multiple audit violation records are grouped together and associated with audit cases.</span></span> <span data-ttu-id="c692f-118">Aanvragen voor elk controlebeleid worden standaard op basis van controlebeleidsregel gegroepeerd.</span><span class="sxs-lookup"><span data-stu-id="c692f-118">By default, cases for each audit policy are grouped by audit policy rule.</span></span> <span data-ttu-id="c692f-119">Desgewenst kunt u andere groeperingscriteria selecteren met behulp van de pagina **Casegroeperingscritertia**.</span><span class="sxs-lookup"><span data-stu-id="c692f-119">If you prefer, you can select other grouping criteria by using the **Case grouping criteria** page.</span></span> <span data-ttu-id="c692f-120">U kunt bijvoorbeeld kopteksten van onkosten groeperen op project-ID en leveranciersfacturen op leverancierrekening.</span><span class="sxs-lookup"><span data-stu-id="c692f-120">For example, you can group expense headers by project ID and vendor invoices by vendor account.</span></span> <span data-ttu-id="c692f-121">In dit geval worden alle overtredingen van kopteksten van onkosten met dezelfde project-ID in dezelfde aanvraag gegroepeerd, en worden alle leverancierfacturen met dezelfde leverancierrekening in dezelfde aanvraag gegroepeerd.</span><span class="sxs-lookup"><span data-stu-id="c692f-121">In this case, all expense header violations that have the same project ID will be grouped in the same case, and all vendor invoices that have the same vendor account will be grouped in the same case.</span></span> 
+
+> [!NOTE]
+> <span data-ttu-id="c692f-122">Bij controlebeleidsregels die zijn gebaseerd op het querytype **Duplicaat**, worden overtredingen niet gegroepeerd op beleidsregel of op de criteria die zijn opgegeven op de pagina **Casegroeperingscriteria**.</span><span class="sxs-lookup"><span data-stu-id="c692f-122">For audit policy rules that are based on a **Duplicate** query type, violations aren't grouped by policy rule or by the criteria that are specified on the **Case grouping criteria** page.</span></span> <span data-ttu-id="c692f-123">In plaats daarvan worden ze gegroepeerd op de criteria in de controlebeleidsregel.</span><span class="sxs-lookup"><span data-stu-id="c692f-123">Instead, they are grouped by the criteria that are built into the audit policy rule.</span></span> <span data-ttu-id="c692f-124">Als met een beleidsregel bijvoorbeeld onkostennota's worden geëvalueerd voor dubbele onkosten met hetzelfde bedrag, dezelfde verkopers-ID en datum, zijn alle onkosten met dezelfde waarden in deze velden onderdeel één aanvraag.</span><span class="sxs-lookup"><span data-stu-id="c692f-124">For example, if a policy rule evaluates expense reports for duplicate expenses of the same amount, merchant ID, and date, all expenses that have the same values in those fields will be one case.</span></span> <span data-ttu-id="c692f-125">Alle onkosten met andere waarden vormen een andere aanvraag.</span><span class="sxs-lookup"><span data-stu-id="c692f-125">Any expenses that have different values will be a separate case.</span></span>
+
+<span data-ttu-id="c692f-126">Nadat de controleaanvragen zijn gegenereerd, worden ze verwerkt met de normale processen voor aanvraagbeheer.</span><span class="sxs-lookup"><span data-stu-id="c692f-126">After the audit cases have been generated, they are handled by using the typical processes for case management.</span></span>
+
+## <a name="document-selection-date-ranges"></a><span data-ttu-id="c692f-127">Datumbereiken van de documentselectie</span><span class="sxs-lookup"><span data-stu-id="c692f-127">Document selection date ranges</span></span>
+<span data-ttu-id="c692f-128">Wanneer een controlebeleid wordt uitgevoerd, worden met elke beleidsregel documenten van het opgegeven type geselecteerd met een datum binnen het datumbereik voor documentselectie.</span><span class="sxs-lookup"><span data-stu-id="c692f-128">When an audit policy is run, each policy rule selects documents of the specified type that have a date that is in the document selection date range.</span></span> <span data-ttu-id="c692f-129">Het datumbereik voor documentselectie wordt opgegeven op de pagina **Extra opties** .</span><span class="sxs-lookup"><span data-stu-id="c692f-129">The document selection date range is specified on the **Additional options** page.</span></span> <span data-ttu-id="c692f-130">Aan veel documenten is meer dan een datum gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="c692f-130">Many documents have more than one date associated with them.</span></span> <span data-ttu-id="c692f-131">Het datumveld dat wordt gebruikt voor de controlebeleidsregel, wordt opgegeven op de pagina **Beleidsregeltype**.</span><span class="sxs-lookup"><span data-stu-id="c692f-131">The date field that the audit policy rule uses is specified on the **Policy rule type** page.</span></span>
+
+<span data-ttu-id="c692f-132">Hier vindt u enkele andere manieren waarop het datumbereik voor documentselectie voor een controlebeleid wordt gebruikt:</span><span class="sxs-lookup"><span data-stu-id="c692f-132">Here are some other ways that an audit policy uses the document selection date range:</span></span>
+
+-   <span data-ttu-id="c692f-133">In het beleid wordt de versie van elke beleidsregel gebruikt die geldig is op de laatste dag van het datumbereik voor documentselectie.</span><span class="sxs-lookup"><span data-stu-id="c692f-133">The policy uses the version of each policy rule that is effective on the last day of the document selection date range.</span></span> <span data-ttu-id="c692f-134">U kunt de ingangsdatums weergeven voor elke beleidsregel op de lijstpagina **Controlebeleid**.</span><span class="sxs-lookup"><span data-stu-id="c692f-134">You can view the effective dates for each policy rule on the **Audit policies** list page.</span></span>
+-   <span data-ttu-id="c692f-135">Het beleid gebruikt de organisatieknooppunten die aan het beleid zijn gekoppeld op de laatste dag van het datumbereik voor documentselectie.</span><span class="sxs-lookup"><span data-stu-id="c692f-135">The policy uses the organization nodes that are associated with the policy on the last day of the document selection date range.</span></span> <span data-ttu-id="c692f-136">Alleen de organisatieknooppunten die momenteel aan het beleid zijn gekoppeld, worden weergegeven op de lijstpagina **Controlebeleid** .</span><span class="sxs-lookup"><span data-stu-id="c692f-136">Only the organization nodes that are currently associated with the policy appear on the **Audit policies** list page.</span></span>
+-   <span data-ttu-id="c692f-137">Voor beleidsregels die zijn gebaseerd op het querytype **Zoeken in lijst**, worden met het beleid documenten geëvalueerd voor gecontroleerde entiteiten die geldig zijn op de laatste dag van het datumbereik voor documentselectie.</span><span class="sxs-lookup"><span data-stu-id="c692f-137">For policy rules that are based on a **List search** query type, the policy evaluates documents for monitored entities that are effective on the last day of the document selection date range.</span></span>
+
+
+<span data-ttu-id="c692f-138">Zie [Controlebeleidsregels](audit-policy-rules.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="c692f-138">For more information, see [Audit policy rules](audit-policy-rules.md)</span></span>
+
+
+

@@ -17,40 +17,41 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f96c79558c3248406a1b5988f9c9dc9783db4406
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 099c1d97db97659d55070b1058f3e0b5b44df107
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564343"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024724"
 ---
-# <a name="manage-assortments-november-2016"></a><span data-ttu-id="fb493-103">Assortimenten beheren (november 2016)</span><span class="sxs-lookup"><span data-stu-id="fb493-103">Manage assortments (November 2016)</span></span>
+# <a name="manage-assortments-november-2016"></a><span data-ttu-id="16c3d-103">Assortimenten beheren (november 2016)</span><span class="sxs-lookup"><span data-stu-id="16c3d-103">Manage assortments (November 2016)</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="fb493-104">In deze procedure wordt getoond hoe u een nieuw productassortiment kunt maken en publiceren. Dit voorbeeld maakt gebruik van het demogegevensmodel USRT.</span><span class="sxs-lookup"><span data-stu-id="fb493-104">This procedure demonstrates how to create and publish a new product assortment and uses the demo data company USRT.</span></span> <span data-ttu-id="fb493-105">Voor deze procedure zijn Dynamics AX toepassing 7.0.1 of hoger en Dynamics AX platform 7.1 vereist.</span><span class="sxs-lookup"><span data-stu-id="fb493-105">This procedure requires Dynamics AX application 7.0.1 or later, and Dynamics AX platform 7.1.</span></span>  
+<span data-ttu-id="16c3d-104">In deze procedure wordt getoond hoe u een nieuw productassortiment kunt maken en publiceren. Dit voorbeeld maakt gebruik van het demogegevensmodel USRT.</span><span class="sxs-lookup"><span data-stu-id="16c3d-104">This procedure demonstrates how to create and publish a new product assortment and uses the demo data company USRT.</span></span> 
 
-1. <span data-ttu-id="fb493-106">Klik op Categorie- en productbeheer.</span><span class="sxs-lookup"><span data-stu-id="fb493-106">Click Category and product management.</span></span>
 
-## <a name="create-an-assortment"></a><span data-ttu-id="fb493-107">Een assortiment maken</span><span class="sxs-lookup"><span data-stu-id="fb493-107">Create an assortment</span></span>
-1. <span data-ttu-id="fb493-108">Klik op het tabblad Assortimenten.</span><span class="sxs-lookup"><span data-stu-id="fb493-108">Click the Assortments tab.</span></span>
-2. <span data-ttu-id="fb493-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="fb493-109">Click New.</span></span>
-3. <span data-ttu-id="fb493-110">Klik op Assortiment.</span><span class="sxs-lookup"><span data-stu-id="fb493-110">Click Assortment.</span></span>
-    * <span data-ttu-id="fb493-111">De assortiment-id is vereist en moet een unieke waarde zijn.</span><span class="sxs-lookup"><span data-stu-id="fb493-111">The Assortment ID is required and must be a unique value.</span></span>  
-4. <span data-ttu-id="fb493-112">Typ een waarde in het veld Assortimentnaam.</span><span class="sxs-lookup"><span data-stu-id="fb493-112">In the Assortment name field, type a value.</span></span>
-5. <span data-ttu-id="fb493-113">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="fb493-113">In the Effective date field, enter a date.</span></span>
-6. <span data-ttu-id="fb493-114">Voer een datum in het veld Vervaldatum in.</span><span class="sxs-lookup"><span data-stu-id="fb493-114">In the Expiration date field, enter a date.</span></span>
-7. <span data-ttu-id="fb493-115">Vouw de sectie Detailhandelafzetkanalen uit.</span><span class="sxs-lookup"><span data-stu-id="fb493-115">Expand the Retail channels section.</span></span>
-8. <span data-ttu-id="fb493-116">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="fb493-116">Click Add line.</span></span>
-9. <span data-ttu-id="fb493-117">Selecteer 'Contoso Retail\Electronics\Boston' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="fb493-117">In the tree, select 'Contoso Retail\Electronics\Boston'.</span></span>
-10. <span data-ttu-id="fb493-118">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="fb493-118">Click Add.</span></span>
-11. <span data-ttu-id="fb493-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="fb493-119">Click OK.</span></span>
-12. <span data-ttu-id="fb493-120">Vouw de sectie Producten uit.</span><span class="sxs-lookup"><span data-stu-id="fb493-120">Expand the Products section.</span></span>
-13. <span data-ttu-id="fb493-121">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="fb493-121">Click Add line.</span></span>
-14. <span data-ttu-id="fb493-122">Typ of selecteer een waarde in het veld Categorie.</span><span class="sxs-lookup"><span data-stu-id="fb493-122">In the Category field, enter or select a value.</span></span>
-15. <span data-ttu-id="fb493-123">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="fb493-123">Click Save.</span></span>
+1. <span data-ttu-id="16c3d-105">Klik op Categorie- en productbeheer.</span><span class="sxs-lookup"><span data-stu-id="16c3d-105">Click Category and product management.</span></span>
 
-## <a name="publish-an-assortment"></a><span data-ttu-id="fb493-124">Een assortiment publiceren</span><span class="sxs-lookup"><span data-stu-id="fb493-124">Publish an assortment</span></span>
-1. <span data-ttu-id="fb493-125">Klik op Publiceren.</span><span class="sxs-lookup"><span data-stu-id="fb493-125">Click Publish.</span></span>
-2. <span data-ttu-id="fb493-126">Klik op Ja.</span><span class="sxs-lookup"><span data-stu-id="fb493-126">Click Yes.</span></span>
+## <a name="create-an-assortment"></a><span data-ttu-id="16c3d-106">Een assortiment maken</span><span class="sxs-lookup"><span data-stu-id="16c3d-106">Create an assortment</span></span>
+1. <span data-ttu-id="16c3d-107">Klik op het tabblad Assortimenten.</span><span class="sxs-lookup"><span data-stu-id="16c3d-107">Click the Assortments tab.</span></span>
+2. <span data-ttu-id="16c3d-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="16c3d-108">Click New.</span></span>
+3. <span data-ttu-id="16c3d-109">Klik op Assortiment.</span><span class="sxs-lookup"><span data-stu-id="16c3d-109">Click Assortment.</span></span>
+    * <span data-ttu-id="16c3d-110">De assortiment-id is vereist en moet een unieke waarde zijn.</span><span class="sxs-lookup"><span data-stu-id="16c3d-110">The Assortment ID is required and must be a unique value.</span></span>  
+4. <span data-ttu-id="16c3d-111">Typ een waarde in het veld Assortimentnaam.</span><span class="sxs-lookup"><span data-stu-id="16c3d-111">In the Assortment name field, type a value.</span></span>
+5. <span data-ttu-id="16c3d-112">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="16c3d-112">In the Effective date field, enter a date.</span></span>
+6. <span data-ttu-id="16c3d-113">Voer een datum in het veld Vervaldatum in.</span><span class="sxs-lookup"><span data-stu-id="16c3d-113">In the Expiration date field, enter a date.</span></span>
+7. <span data-ttu-id="16c3d-114">Vouw de sectie Detailhandelafzetkanalen uit.</span><span class="sxs-lookup"><span data-stu-id="16c3d-114">Expand the Retail channels section.</span></span>
+8. <span data-ttu-id="16c3d-115">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="16c3d-115">Click Add line.</span></span>
+9. <span data-ttu-id="16c3d-116">Selecteer 'Contoso Retail\Electronics\Boston' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="16c3d-116">In the tree, select 'Contoso Retail\Electronics\Boston'.</span></span>
+10. <span data-ttu-id="16c3d-117">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="16c3d-117">Click Add.</span></span>
+11. <span data-ttu-id="16c3d-118">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="16c3d-118">Click OK.</span></span>
+12. <span data-ttu-id="16c3d-119">Vouw de sectie Producten uit.</span><span class="sxs-lookup"><span data-stu-id="16c3d-119">Expand the Products section.</span></span>
+13. <span data-ttu-id="16c3d-120">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="16c3d-120">Click Add line.</span></span>
+14. <span data-ttu-id="16c3d-121">Typ of selecteer een waarde in het veld Categorie.</span><span class="sxs-lookup"><span data-stu-id="16c3d-121">In the Category field, enter or select a value.</span></span>
+15. <span data-ttu-id="16c3d-122">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="16c3d-122">Click Save.</span></span>
+
+## <a name="publish-an-assortment"></a><span data-ttu-id="16c3d-123">Een assortiment publiceren</span><span class="sxs-lookup"><span data-stu-id="16c3d-123">Publish an assortment</span></span>
+1. <span data-ttu-id="16c3d-124">Klik op Publiceren.</span><span class="sxs-lookup"><span data-stu-id="16c3d-124">Click Publish.</span></span>
+2. <span data-ttu-id="16c3d-125">Klik op Ja.</span><span class="sxs-lookup"><span data-stu-id="16c3d-125">Click Yes.</span></span>
 

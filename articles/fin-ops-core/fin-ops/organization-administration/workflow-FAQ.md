@@ -1,0 +1,53 @@
+---
+title: Veelgestelde vragen workflow
+description: In dit onderwerp worden antwoorden op veelgestelde vragen over het workflowsysteem gegeven.
+author: ChrisGarty
+manager: AnnBe
+ms.date: 06/19/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: cgarty
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 14aa9b56da005e8e3ca121589d0e22c60f34343b
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2189770"
+---
+# <a name="workflow-faq"></a><span data-ttu-id="d44ec-103">Veelgestelde vragen over werkstromen</span><span class="sxs-lookup"><span data-stu-id="d44ec-103">Workflow FAQ</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="d44ec-104">In dit onderwerp worden antwoorden op veelgestelde vragen over het workflowsysteem gegeven.</span><span class="sxs-lookup"><span data-stu-id="d44ec-104">This topic answers frequently asked questions about the workflow system.</span></span>
+
+## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a><span data-ttu-id="d44ec-105">Waarom worden er meerdere meldingen ontvangen wanneer een werkitem wordt afgewezen?</span><span class="sxs-lookup"><span data-stu-id="d44ec-105">Why are multiple notifications received when a work item is rejected?</span></span>
+<span data-ttu-id="d44ec-106">Wanneer een werkitem wordt afgewezen, wordt dat werkitem als afgewezen voltooid.</span><span class="sxs-lookup"><span data-stu-id="d44ec-106">When a work item is rejected, that work item is completed as rejected.</span></span> <span data-ttu-id="d44ec-107">Een andere werkitem wordt gemaakt en toegewezen aan de aanvrager.</span><span class="sxs-lookup"><span data-stu-id="d44ec-107">Another work item is created and assigned to the originator.</span></span> <span data-ttu-id="d44ec-108">Dit betekent dat er een melding naar de aanvrager voor het afgewezen werkitem gaat en een aparte melding naar de gebruiker die is toegewezen aan het nieuwe werkitem waarvoor 'wijziging is aangevraagd'.</span><span class="sxs-lookup"><span data-stu-id="d44ec-108">This means that there is a notification to the originator for the rejected work item, and a separate notification to the user assigned to the new "change requested" work item.</span></span> 
+
+<span data-ttu-id="d44ec-109">Elke melding is voor een ander werkitem, maar doordat de meldingen op elkaar lijken kan er verwarring ontstaan.</span><span class="sxs-lookup"><span data-stu-id="d44ec-109">Each notification is for a different work item, but the similarity can cause confusion.</span></span> <span data-ttu-id="d44ec-110">We proberen dit in een toekomstige versie te verbeteren.</span><span class="sxs-lookup"><span data-stu-id="d44ec-110">We are looking at ways to improve this in a future release.</span></span>
+
+## <a name="why-are-my-workflow-exports-failing"></a><span data-ttu-id="d44ec-111">Waarom mislukt het exporteren van mijn werkstromen?</span><span class="sxs-lookup"><span data-stu-id="d44ec-111">Why are my workflow exports failing?</span></span>
+<span data-ttu-id="d44ec-112">Er geldt momenteel een beperking in de functie voor het exporteren van werkstromen waardoor namen van werkstromen niet langer kunnen zijn dan 48 tekens.</span><span class="sxs-lookup"><span data-stu-id="d44ec-112">There is currently a limitation in the workflow export feature that prevents workflow names from exceeding 48 characters.</span></span> <span data-ttu-id="d44ec-113">Als u een naam gebruikt die langer is dan 48 tekens, kan het foutbericht 'Server kon de aanvraag niet verifiëren' worden weergegeven en/of kan worden voorkomen dat een bestand wordt geëxporteerd zonder bestandstype.</span><span class="sxs-lookup"><span data-stu-id="d44ec-113">Using a name that is longer than 48 characters can result in a "Server failed to authenticate the request" error and/or prevent a file to be exported  without a file type.</span></span> <span data-ttu-id="d44ec-114">Het volgende blogbericht bevat nadere details: [Problemen bij het exporteren van werkstromen oplossen](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).</span><span class="sxs-lookup"><span data-stu-id="d44ec-114">The following blog post provides more details [Workflow Export Troubleshooting](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).</span></span>
+
+## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a><span data-ttu-id="d44ec-115">Kan de indiener van een workflow de workflow ook goedkeuren?</span><span class="sxs-lookup"><span data-stu-id="d44ec-115">Can the submitter of a workflow also approve the workflow?</span></span>
+<span data-ttu-id="d44ec-116">Ja, een indiener van een workflow kan de workflow ook goedkeuren als deze op die manier is geconfigureerd.</span><span class="sxs-lookup"><span data-stu-id="d44ec-116">Yes, a submitter of a workflow can also approve the workflow if it is configured that way.</span></span> <span data-ttu-id="d44ec-117">Als u dit gedrag wilt voorkomen, stelt u **Workflowparameters > Algemeen > Fiatteur > Goedkeuring door indiener niet toestaan** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="d44ec-117">To prevent this behavior, set **Workflow parameters > General > Approver > Disallow approval by submitter** to **Yes**.</span></span>
+
+## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a><span data-ttu-id="d44ec-118">Kan ik waarschuwingen aan workflows toevoegen om gebruikers te voorzien van meldingen?</span><span class="sxs-lookup"><span data-stu-id="d44ec-118">Can I add alerts to workflows to provide notifications to users?</span></span>
+<span data-ttu-id="d44ec-119">Hier volgen enkele belangrijke punten met betrekking tot het toevoegen van waarschuwingen aan workflows om meldingen te geven:</span><span class="sxs-lookup"><span data-stu-id="d44ec-119">Here are a few key areas to note about adding alerts to workflows to provide notifications:</span></span>
+- <span data-ttu-id="d44ec-120">Mechanismes van waarschuwingen en workflowmeldingen</span><span class="sxs-lookup"><span data-stu-id="d44ec-120">Alerts versus workflow notification mechanisms</span></span>
+    - <span data-ttu-id="d44ec-121">Waarschuwingen kunnen worden ingesteld voor recordwijzigingen.</span><span class="sxs-lookup"><span data-stu-id="d44ec-121">Alerts can be set up for record changes.</span></span> <span data-ttu-id="d44ec-122">Workflows wijzigen records, dus het is mogelijk om een waarschuwing in te stellen die is gerelateerd aan een recordwijziging die door een workflow is veroorzaakt.</span><span class="sxs-lookup"><span data-stu-id="d44ec-122">Workflows change records, so it's possible to set up an alert related to a record change caused by a workflow.</span></span> <span data-ttu-id="d44ec-123">Aangezien workflows echter andere ingebouwde meldingsopties bieden, is het gebruik van waarschuwingen niet ideaal.</span><span class="sxs-lookup"><span data-stu-id="d44ec-123">However, because workflows have different built-in notification options, using alerts isn’t ideal.</span></span>
+- <span data-ttu-id="d44ec-124">Standaardmeldingen vanuit workflows</span><span class="sxs-lookup"><span data-stu-id="d44ec-124">Standard notifications from workflows</span></span> 
+    - <span data-ttu-id="d44ec-125">Workflows bevatten ingebouwde e-mailmeldingen.</span><span class="sxs-lookup"><span data-stu-id="d44ec-125">Workflows have built in email notifications.</span></span> <span data-ttu-id="d44ec-126">Een klant kan de meldingen zo configureren dat de gebruikers e-mails ontvangen.</span><span class="sxs-lookup"><span data-stu-id="d44ec-126">A customer can configure the notifications so that the users are sent emails.</span></span> <span data-ttu-id="d44ec-127">Deze meldingen resulteren niet in actiecentrumberichten voor gebruikers.</span><span class="sxs-lookup"><span data-stu-id="d44ec-127">Those notifications don’t result in Action Center messages for users.</span></span>
+    - <span data-ttu-id="d44ec-128">In een toekomstige voegen we een actiecentrumbericht toe om aan workflowwerkitems aan gebruikers toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="d44ec-128">In a future update we will be adding an Action Center message so a user is assigned a workflow work item.</span></span> 
+- <span data-ttu-id="d44ec-129">Meldingen toevoegen aan workflows</span><span class="sxs-lookup"><span data-stu-id="d44ec-129">Adding notifications to workflows</span></span>
+    - <span data-ttu-id="d44ec-130">Actiecentrumberichten kunnen worden gemaakt voor specifieke gebruikers, zoals een bericht dat is gemaakt op basis van een workflow in X++.</span><span class="sxs-lookup"><span data-stu-id="d44ec-130">Action Center messages can be created for specific users, such as a message created from a workflow in X++.</span></span>
+    - <span data-ttu-id="d44ec-131">[Workflows bevatten zakelijke gebeurtenissen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) die de klant kan gebruiken voor het activeren van flows met de gewenste meldingen.</span><span class="sxs-lookup"><span data-stu-id="d44ec-131">[Workflows have Business Events](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) that the customer could use to trigger Flows have the notifications that they are looking for.</span></span>   
+
+<span data-ttu-id="d44ec-132">Overzicht: als gebruikers niet de juiste meldingen vanuit het actiecentrum ontvangen wanneer aan hen een workflowwerkitem wordt toegewezen, gebruikt u [Zakelijke gebeurtenissen voor workflows](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) met Microsoft Flow om aanvullende of andere meldingen te bieden.</span><span class="sxs-lookup"><span data-stu-id="d44ec-132">In summary, if a user does not get the proper notification from the Action Center when they are assigned a workflow work item, then leverage [Workflow Business Events](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) with Microsoft Flow to provide additional or different notifications.</span></span>

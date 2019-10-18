@@ -1,0 +1,82 @@
+---
+title: Gegevenstoewijzing voor budgetplanning
+description: Dit onderwerp beschrijft de verschillende toewijzingsmethoden die beschikbaar zijn in Microsoft Dynamics 365 Finance en hoe ze kunnen worden gebruikt.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: BudgetPlanningConfiguration
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 15191
+ms.assetid: 89a918e8-59a4-4711-a2e9-b41989ddd0f1
+ms.search.region: Global
+ms.author: sigitac
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 08141615e36c7bfe8b8a7984322dbb985568ee51
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2177200"
+---
+# <a name="budget-planning-data-allocation"></a><span data-ttu-id="f8d03-103">Gegevenstoewijzing voor budgetplanning</span><span class="sxs-lookup"><span data-stu-id="f8d03-103">Budget planning data allocation</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="f8d03-104">Dit artikel beschrijft de verschillende toewijzingsmethoden die beschikbaar zijn in Microsoft Dynamics 365 Finance en hoe ze kunnen worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="f8d03-104">This article describes the allocation methods that are available in Microsoft Dynamics 365 Finance and how they can be used.</span></span>  
+
+<span data-ttu-id="f8d03-105">U kunt de gegevens in een budgetplan op verschillende manieren verspreiden om de verwachte bedragen nauwkeurig af te beelden.</span><span class="sxs-lookup"><span data-stu-id="f8d03-105">You can distribute the data in a budget plan in a number of ways to accurately portray the projected amounts.</span></span>
+
+## <a name="allocation-methods"></a><span data-ttu-id="f8d03-106">Toewijzingsmethodes</span><span class="sxs-lookup"><span data-stu-id="f8d03-106">Allocation methods</span></span>
+<span data-ttu-id="f8d03-107">Drie toewijzingsmethoden (Toewijzen aan perioden, Toewijzen aan dimensies en Grootboektoewijzingsregels gebruiken) kunnen de budgetplanregels maken die op regels in hetzelfde budgetplan zijn gebaseerd.</span><span class="sxs-lookup"><span data-stu-id="f8d03-107">Three allocation methods (Allocate across periods, Allocate to dimensions, and Use ledger allocation rules) can create budget plan lines that are based on lines in the same budget plan.</span></span> <span data-ttu-id="f8d03-108">Drie andere methoden (Samenvoegen, Verdelen en Kopiëren uit budgetplan) kunnen budgetplanregels maken in andere budgetplannen.</span><span class="sxs-lookup"><span data-stu-id="f8d03-108">Three other methods (Aggregate, Distribute, and Copy from budget plan) can create budget plan lines in other budget plans.</span></span> <span data-ttu-id="f8d03-109">Voor alle zes toewijzingsmethoden geeft u het doelscenario op.</span><span class="sxs-lookup"><span data-stu-id="f8d03-109">For all six allocation methods, you specify the destination scenario.</span></span> <span data-ttu-id="f8d03-110">Het doelscenario kan gelijk zijn aan het bronscenario of van het bronscenario verschillen.</span><span class="sxs-lookup"><span data-stu-id="f8d03-110">The destination scenario can be either the same as the source scenario or different from the source scenario.</span></span> <span data-ttu-id="f8d03-111">Bovendien kunt u opgeven of de nieuwe regels aan het budgetplan worden toegevoegd of de huidige regels in het budgetplan vervangen.</span><span class="sxs-lookup"><span data-stu-id="f8d03-111">Additionally, you can specify whether new lines are appended to the budget plan or replace the current lines in the budget plan.</span></span>
+
+<span data-ttu-id="f8d03-112">[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Toewijzen aan perioden** – Een periodetoewijzingscategorie wordt gebruikt om de budgetplanregels toe te wijzen vanuit het bronbudgetplanscenario aan perioden in het doelscenario.</span><span class="sxs-lookup"><span data-stu-id="f8d03-112">[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Allocate across periods** – A period allocation category is used to allocate the budget plan lines from the source budget plan scenario across periods in the destination scenario.</span></span> <span data-ttu-id="f8d03-113">Het bronbedrag is toegewezen aan meerdere regels in het doelscenario, op basis van het percentage en de datum die zijn opgegeven in de periodetoewijzingscategorie.</span><span class="sxs-lookup"><span data-stu-id="f8d03-113">The source amount is assigned to multiple lines in the destination scenario, based on the percentage and date that are defined in the period allocation category.</span></span>         
+
+<span data-ttu-id="f8d03-114">[![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
+**Toewijzen aan dimensies** – De budgetplanregels worden toegewezen van het bronbudgetplanningsscenario aan een of meer regels in het doelscenario, op basis van de percentages en financiële dimensies die in een geselecteerde budgettoewijzingstermijn worden gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="f8d03-114">[![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
+**Allocate to dimensions** – The budget plan lines are allocated from the source budget planning scenario to one or more lines in the destination scenario, based on the percentages and financial dimensions that are defined in a selected budget allocation term.</span></span>           
+
+<span data-ttu-id="f8d03-115">![AggregateChart](./media/aggregatechart-300x230.png)
+**Samenvoegen** - De budgetplanregels worden samengevoegd vanuit het bronbudgetplanscenario in de gekoppelde (onderliggende) budgetplannen met het doelscenario in het bovenliggende budgetplan.</span><span class="sxs-lookup"><span data-stu-id="f8d03-115">![AggregateChart](./media/aggregatechart-300x230.png)
+**Aggregate** – The budget plan lines are aggregated from the source budget plan scenario in the associated (child) budget plans to the destination scenario in the parent budget plan.</span></span> <span data-ttu-id="f8d03-116">Dankzij deze methode kunnen budgetbedragen die op een lager niveau in de organisatie zijn voorbereid op een hoger niveau worden geconsolideerd.</span><span class="sxs-lookup"><span data-stu-id="f8d03-116">This method enables budget amounts that are prepared at a lower level in the organization to be consolidated at a higher level.</span></span>          
+
+<span data-ttu-id="f8d03-117">[![DistributeChart](./media/distributechart-300x230.png)](./media/distributechart.png)
+**Verdelen** – De budgetplanregels worden verdeeld van het bronbudgetplanningsscenario in het bovenliggende budgetplan naar het doelscenario in de gekoppelde (onderliggende) budgetplannen, op basis van de financiële dimensies van de organisatie-eenheden van de gekoppelde plannen.</span><span class="sxs-lookup"><span data-stu-id="f8d03-117">[![DistributeChart](./media/distributechart-300x230.png)](./media/distributechart.png)
+**Distribute** – The budget plan lines are distributed from the source budget planning scenario in the parent budget plan to the destination scenario in the associated (child) budget plans, based on the financial dimensions of the organization units of the associated plans.</span></span> <span data-ttu-id="f8d03-118">Dankzij deze methode kunnen budgetbedragen die op een hoger niveau in de organisatie zijn voorbereid worden verdeeld voor meer gelokaliseerde controle.</span><span class="sxs-lookup"><span data-stu-id="f8d03-118">This method enables budget amounts that are prepared at a higher level in the organization to be spread out for more localized review.</span></span>           
+
+<span data-ttu-id="f8d03-119">[![LedgerAllocationRules](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
+**Grootboektoewijzingsregels gebruiken** - De budgetplanregels worden verdeeld vanuit het bronbudgetplanningsscenario naar het doelscenario, op basis van de grootboektoewijzingsregel die is geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="f8d03-119">[![LedgerAllocationRules](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
+**Use ledger allocation rules** – The budget plan lines are distributed from the source budget planning scenario to the destination scenario, based on the ledger allocation rule that is selected.</span></span> 
+
+<span data-ttu-id="f8d03-120">[![CopyFromBudgetPlan](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
+**Kopiëren uit budgetplan** – Zoals in de toewijzingsmethode Verdelen, worden de budgetplanregels gemaakt in het doel, op basis van regels in een gerelateerd budgetplan.</span><span class="sxs-lookup"><span data-stu-id="f8d03-120">[![CopyFromBudgetPlan](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
+**Copy from budget plan** – As in the Distribute allocation method, budget plan lines are created in the destination, based on lines in a related budget plan.</span></span> <span data-ttu-id="f8d03-121">Voor deze rapportagemethode moet het bronbudgetplan echter geen bovenliggende zijn maar kan deze zich op elk hoger niveau in de budgetplanhiërarchie bevinden.</span><span class="sxs-lookup"><span data-stu-id="f8d03-121">However, for this method, the source budget plan doesn't have to be the parent but can be at any higher level in the budget plan hierarchy.</span></span> <span data-ttu-id="f8d03-122">Deze toewijzingsmethode is handig als de geconsolideerde bedragen oorspronkelijk op een veel hoger niveau worden gebudgetteerd, en moeten worden overgebracht naar een lager niveau van de organisatie voor gedetailleerde controle en correctie voordat deze goedkeuring op het hoogste niveau kunnen ontvangen.</span><span class="sxs-lookup"><span data-stu-id="f8d03-122">This allocation method is useful if consolidated amounts are originally budgeted at a much higher level, and must be transferred to a lower level of the organization for detailed review and adjustment before they can receive upper-level approval.</span></span>          
+
+## <a name="using-allocation-methods-in-a-budget-plan"></a><span data-ttu-id="f8d03-123">Gebruik van toewijzingsmethoden in een budgetplan</span><span class="sxs-lookup"><span data-stu-id="f8d03-123">Using allocation methods in a budget plan</span></span>
+<span data-ttu-id="f8d03-124">Om toewijzingen uit te voeren op de pagina van het budgetplan, selecteert u de regels die u wilt toewijzen en klikt u vervolgens op **Budget toewijzen**.</span><span class="sxs-lookup"><span data-stu-id="f8d03-124">To perform allocations on the budget plan page, select the lines to allocate, and then click **Allocate budget**.</span></span>
+
+<span data-ttu-id="f8d03-125">[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png)</span><span class="sxs-lookup"><span data-stu-id="f8d03-125">[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png)</span></span> 
+
+<span data-ttu-id="f8d03-126">Selecteer vervolgens een toewijzingsmethode.</span><span class="sxs-lookup"><span data-stu-id="f8d03-126">Next, select an allocation method.</span></span> <span data-ttu-id="f8d03-127">De resterende velden worden vervolgens ingesteld, op basis van de methode die u hebt geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="f8d03-127">The remaining fields are then set, based on the method that you selected.</span></span> <span data-ttu-id="f8d03-128">Deze velden bevatten de bron en het doel van de gegevens van het budgetplan en een optie waarmee u de bron met een bepaalde factor kunt vermenigvuldigen wanneer de doelbedragen zijn gemaakt, om bulkcorrectie te vereenvoudigen.</span><span class="sxs-lookup"><span data-stu-id="f8d03-128">These fields include the source and destination of the budget plan data, and an option that lets you multiply the source by a specified factor when the destination amounts are created, to simplify bulk adjustment.</span></span> <span data-ttu-id="f8d03-129">U kunt ook de optie **Toevoegen aan plan** instellen.</span><span class="sxs-lookup"><span data-stu-id="f8d03-129">You can also set the **Append to plan** option.</span></span> <span data-ttu-id="f8d03-130">Selecteer **Nee** om de bestaande budgetplanregels te vervangen of selecteer **Ja** om de bestaande budgetplanregels te behouden en nieuwe regels toe te voegen voor de toegewezen bedragen.</span><span class="sxs-lookup"><span data-stu-id="f8d03-130">Select **No** to replace the existing budget plan lines, or select **Yes** to retain the existing budget plan lines and add new lines for the allocated amounts.</span></span>
+
+## <a name="automating-allocations-during-a-workflow"></a><span data-ttu-id="f8d03-131">Toewijzingen automatiseren tijdens een workflow</span><span class="sxs-lookup"><span data-stu-id="f8d03-131">Automating allocations during a workflow</span></span>
+<span data-ttu-id="f8d03-132">Met één krachtige functie kunnen toewijzingen automatisch worden uitgevoerd als onderdeel van een budgetplanningsworkflow.</span><span class="sxs-lookup"><span data-stu-id="f8d03-132">One powerful feature enables allocations to be performed automatically as part of a budget planning workflow.</span></span> <span data-ttu-id="f8d03-133">Als een budgetplan door de workflow verplaatst, kunnen de geautomatiseerde taken een toewijzing aanroepen in een opgegeven budgetplanningsfase.</span><span class="sxs-lookup"><span data-stu-id="f8d03-133">As a budget plan moves through its workflow, automated tasks can invoke an allocation at a specified budget planning stage.</span></span> 
+
+<span data-ttu-id="f8d03-134">Als u geautomatiseerde toewijzing wilt instellen, moet u eerst een toewijzingsplan maken op de pagina **Configuratie budgetplanning**.</span><span class="sxs-lookup"><span data-stu-id="f8d03-134">To set up automated allocation, you must first create an allocation schedule on the **Budget planning configuration** page.</span></span> <span data-ttu-id="f8d03-135">Het toewijzingsplan definieert de toewijzingsmethode die wordt gebruikt wanneer de geautomatiseerde toewijzing wordt uitgevoerd en de waarden van de verschillende toewijzingsopties (raadpleeg de vorige sectie voor omschrijvingen).</span><span class="sxs-lookup"><span data-stu-id="f8d03-135">The allocation schedule defines the allocation method that will be used when the automated allocation is run, and the values of the various allocation options (see the previous section for descriptions).</span></span> 
+
+<span data-ttu-id="f8d03-136">Maak vervolgens een fasetoewijzing op de pagina **Configuratie budgetplanning**.</span><span class="sxs-lookup"><span data-stu-id="f8d03-136">Next, you create a stage allocation on the **Budget planning configuration** page.</span></span> <span data-ttu-id="f8d03-137">De fasetoewijzing wijst een toewijzingsschema toe aan de budgetplanningsworkflow en -fase.</span><span class="sxs-lookup"><span data-stu-id="f8d03-137">The stage allocation assigns an allocation schedule to the budget planning workflow and stage.</span></span> 
+
+<span data-ttu-id="f8d03-138">Voeg tot slot een geautomatiseerde taak toe voor de toewijzing van de budgetplanningsfase op de gewenste workflowfase.</span><span class="sxs-lookup"><span data-stu-id="f8d03-138">Finally, add an automated task for budget planning stage allocation at the desired workflow stage.</span></span> <span data-ttu-id="f8d03-139">In het volgende voorbeeld zijn twee toewijzingen van de budgetplanningsfase (in rood aangegeven) ingevoegd in de workflow.</span><span class="sxs-lookup"><span data-stu-id="f8d03-139">In the following example, two budget planning stage allocations (outlined in red) have been inserted into the workflow.</span></span>
+
+<span data-ttu-id="f8d03-140">[![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)</span><span class="sxs-lookup"><span data-stu-id="f8d03-140">[![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)</span></span>
+
+
+

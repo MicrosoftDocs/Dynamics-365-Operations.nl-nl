@@ -1,6 +1,6 @@
 ---
 title: Verkoop- en margeprestaties bewaken
-description: U kunt in real-time verkoop- en margeprestaties bewaken met Microsoft Dynamics 365 for Retail.
+description: U kunt in real-time verkoop- en margeprestaties bewaken met Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,33 +19,33 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e2b3591f6403542c79457d12ae850ad40d9253a1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46ecefdd15a3a208588aaf630571764047464cdb
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555645"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018059"
 ---
-# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="fcc00-103">Verkoop- en margeprestaties bewaken</span><span class="sxs-lookup"><span data-stu-id="fcc00-103">Monitor sales and margin performance</span></span>
+# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="93ab4-103">Verkoop- en margeprestaties bewaken</span><span class="sxs-lookup"><span data-stu-id="93ab4-103">Monitor sales and margin performance</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="fcc00-104">U kunt in real-time verkoop- en margeprestaties bewaken met Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="fcc00-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="93ab4-104">U kunt in real-time verkoop- en margeprestaties bewaken met Dynamics 365 Retail.</span><span class="sxs-lookup"><span data-stu-id="93ab4-104">You can monitor sales and margin performance in real time using Dynamics 365 Retail.</span></span>
 
-<span data-ttu-id="fcc00-105">Als onderdeel van Dynamics 365 for Retail kunnen gebruikers verkoop- en margeprestaties bewaken in real-time op verschillende niveaus van de organisatiehiërarchie voor de volgende dimensies:</span><span class="sxs-lookup"><span data-stu-id="fcc00-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
+<span data-ttu-id="93ab4-105">Als onderdeel van Retail kunnen gebruikers verkoop- en margeprestaties bewaken in real-time op verschillende niveaus van de organisatiehiërarchie voor de volgende dimensies:</span><span class="sxs-lookup"><span data-stu-id="93ab4-105">As part of Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
 
-- <span data-ttu-id="fcc00-106">Producten</span><span class="sxs-lookup"><span data-stu-id="fcc00-106">Products</span></span>
-- <span data-ttu-id="fcc00-107">Categorieën</span><span class="sxs-lookup"><span data-stu-id="fcc00-107">Categories</span></span>
-- <span data-ttu-id="fcc00-108">Kortingen</span><span class="sxs-lookup"><span data-stu-id="fcc00-108">Discounts</span></span>
-- <span data-ttu-id="fcc00-109">Jaren als periode</span><span class="sxs-lookup"><span data-stu-id="fcc00-109">Years as time period</span></span>
-- <span data-ttu-id="fcc00-110">Kassa's/terminals</span><span class="sxs-lookup"><span data-stu-id="fcc00-110">Registers/terminals</span></span>
-- <span data-ttu-id="fcc00-111">Personeel/werknemers</span><span class="sxs-lookup"><span data-stu-id="fcc00-111">Staff/employees</span></span>
-- <span data-ttu-id="fcc00-112">Klanten</span><span class="sxs-lookup"><span data-stu-id="fcc00-112">Customers</span></span>
-- <span data-ttu-id="fcc00-113">Operationele eenheden</span><span class="sxs-lookup"><span data-stu-id="fcc00-113">Operating units</span></span>
+- <span data-ttu-id="93ab4-106">Producten</span><span class="sxs-lookup"><span data-stu-id="93ab4-106">Products</span></span>
+- <span data-ttu-id="93ab4-107">Categorieën</span><span class="sxs-lookup"><span data-stu-id="93ab4-107">Categories</span></span>
+- <span data-ttu-id="93ab4-108">Kortingen</span><span class="sxs-lookup"><span data-stu-id="93ab4-108">Discounts</span></span>
+- <span data-ttu-id="93ab4-109">Jaren als periode</span><span class="sxs-lookup"><span data-stu-id="93ab4-109">Years as time period</span></span>
+- <span data-ttu-id="93ab4-110">Kassa's/terminals</span><span class="sxs-lookup"><span data-stu-id="93ab4-110">Registers/terminals</span></span>
+- <span data-ttu-id="93ab4-111">Personeel/werknemers</span><span class="sxs-lookup"><span data-stu-id="93ab4-111">Staff/employees</span></span>
+- <span data-ttu-id="93ab4-112">Klanten</span><span class="sxs-lookup"><span data-stu-id="93ab4-112">Customers</span></span>
+- <span data-ttu-id="93ab4-113">Operationele eenheden</span><span class="sxs-lookup"><span data-stu-id="93ab4-113">Operating units</span></span>
 
-<span data-ttu-id="fcc00-114">Daarnaast kunnen gebruikers met twee unieke rapporten, die gebruik maken van hiërarchische rasterindeling, verkoop- en margeprestaties volgen door in te zoomen vanuit het hoogste categorieknooppunt naar afzonderlijke bladknooppunten van de categorie in de categoriehiërarchie van de standaardcategoriehiërarchie van retailproducten.</span><span class="sxs-lookup"><span data-stu-id="fcc00-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="fcc00-115">Gebruikers kunnen ook vanuit de hoogste operationele eenheid inzoomen op afzonderlijke kanalen in de organisatiehiërarchie, die is gedefinieerd als de standaardorganisatiehiërarchie voor de retailrapportagehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="fcc00-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="fcc00-116">U kunt de rapporten openen vanaf een van de volgende locaties:</span><span class="sxs-lookup"><span data-stu-id="fcc00-116">You can open the reports from any of the following locations:</span></span>
+<span data-ttu-id="93ab4-114">Daarnaast kunnen gebruikers met twee unieke rapporten, die gebruik maken van hiërarchische rasterindeling, verkoop- en margeprestaties volgen door in te zoomen vanuit het hoogste categorieknooppunt naar afzonderlijke bladknooppunten van de categorie in de categoriehiërarchie van de standaardcategoriehiërarchie van retailproducten.</span><span class="sxs-lookup"><span data-stu-id="93ab4-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="93ab4-115">Gebruikers kunnen ook vanuit de hoogste operationele eenheid inzoomen op afzonderlijke kanalen in de organisatiehiërarchie, die is gedefinieerd als de standaardorganisatiehiërarchie voor de retailrapportagehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="93ab4-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="93ab4-116">U kunt de rapporten openen vanaf een van de volgende locaties:</span><span class="sxs-lookup"><span data-stu-id="93ab4-116">You can open the reports from any of the following locations:</span></span>
 
-- <span data-ttu-id="fcc00-117">Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**</span><span class="sxs-lookup"><span data-stu-id="fcc00-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
-- <span data-ttu-id="fcc00-118">Werkgebied **Categorie- en productbeheer** &gt; **Retail** &gt; **Product en categorieën** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**</span><span class="sxs-lookup"><span data-stu-id="fcc00-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
-- <span data-ttu-id="fcc00-119">Werkgebied **Prijzen- en kortingsbeheer** &gt; **Retail** &gt; **Prijzen en kortingen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**</span><span class="sxs-lookup"><span data-stu-id="fcc00-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
-- <span data-ttu-id="fcc00-120">Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten**</span><span class="sxs-lookup"><span data-stu-id="fcc00-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
+- <span data-ttu-id="93ab4-117">Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**</span><span class="sxs-lookup"><span data-stu-id="93ab4-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="93ab4-118">Werkgebied **Categorie- en productbeheer** &gt; **Retail** &gt; **Product en categorieën** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**</span><span class="sxs-lookup"><span data-stu-id="93ab4-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="93ab4-119">Werkgebied **Prijzen- en kortingsbeheer** &gt; **Retail** &gt; **Prijzen en kortingen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**</span><span class="sxs-lookup"><span data-stu-id="93ab4-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="93ab4-120">Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten**</span><span class="sxs-lookup"><span data-stu-id="93ab4-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
