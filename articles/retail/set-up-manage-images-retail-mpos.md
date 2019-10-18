@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c256569135a00ea98a5c059b9dd12a07a000ee6a
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606936"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024839"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Instellen en beheren van afbeeldingen voor Retail Modern POS (MPOS)
 
@@ -34,19 +34,19 @@ In dit artikel worden de stappen uitgelegd voor het instellen en beheren van afb
 
 ## <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>De basis-URL voor media instellen en mediasjablonen definiëren om de indeling voor afbeeldings-URL's te configureren
 
-De afbeeldingen die worden weergegeven in Retail Modern POS (MPOS) moeten extern worden gehost, buiten Microsoft Dynamics 365 for Retail. Doorgaans worden ze gehost in een contentmanagementsysteem , contentleveringsnetwerk (CDN) of mediaserver. MPOS haalt en toont vervolgens de afbeeldingen voor de relevante entiteiten, zoals producten en catalogi, door toegang te krijgen tot de doel-URL. Als u deze extern gehoste afbeeldingen wilt ophalen, moet MPOS over de juiste URL-indeling voor de afbeeldingen beschikken. U kunt de vereiste URL-indeling voor de afbeeldingen configureren door de waarde **Basis-URL voor media** in te stellen in het kanaalprofiel en de functie **Mediasjabloon definiëren** te gebruiken voor elke rechtspersoon. U kunt ook de standaard URL-indeling voor een subset van rechtspersonen overschrijven door de functie **Bewerken in Excel** te gebruiken.
+De afbeeldingen die worden weergegeven in Retail Modern POS (MPOS) moeten extern worden gehost, buiten Retail. Doorgaans worden ze gehost in een contentmanagementsysteem , contentleveringsnetwerk (CDN) of mediaserver. MPOS haalt en toont vervolgens de afbeeldingen voor de relevante entiteiten, zoals producten en catalogi, door toegang te krijgen tot de doel-URL. Als u deze extern gehoste afbeeldingen wilt ophalen, moet MPOS over de juiste URL-indeling voor de afbeeldingen beschikken. U kunt de vereiste URL-indeling voor de afbeeldingen configureren door de waarde **Basis-URL voor media** in te stellen in het kanaalprofiel en de functie **Mediasjabloon definiëren** te gebruiken voor elke rechtspersoon. U kunt ook de standaard URL-indeling voor een subset van rechtspersonen overschrijven door de functie **Bewerken in Excel** te gebruiken.
 
 > [!IMPORTANT]
-> In de huidige versie van Dynamics 365 for Retail kunt u de URL-indeling niet meer instellen met de XML voor het kenmerk **Afbeelding** voor MPOS in de kenmerkgroep **Standaard** voor entiteiten. Als u bekend bent met Microsoft Dynamics AX 2012 R3 en nu de huidige versie van Dynamics 365 for Retail gebruikt, moet u ervoor zorgen dat u altijd de nieuwe functionaliteit **Media sjabloon definiëren** gebruikt om afbeeldingen in te stellen. Gebruik of wijzig het kenmerk **Afbeelding** in de kenmerkgroep **Standaard** niet voor entiteiten, waaronder producten. Wijzigingen die u direct in de kenmerkgroep **Standaard** voor afbeeldingen maakt, worden niet weergegeven. Deze optie wordt uitgeschakeld in een toekomstige versie.
+> In de huidige versie van Retail kunt u de URL-indeling niet meer instellen met de XML voor het kenmerk **Afbeelding** voor MPOS in de kenmerkgroep **Standaard** voor entiteiten. Als u bekend bent met Microsoft Dynamics AX 2012 R3 en nu de huidige versie van Dynamics 365 Retail gebruikt, moet u ervoor zorgen dat u altijd de nieuwe functionaliteit **Media sjabloon definiëren** gebruikt om afbeeldingen in te stellen. Gebruik of wijzig het kenmerk **Afbeelding** in de kenmerkgroep **Standaard** niet voor entiteiten, waaronder producten. Wijzigingen die u direct in de kenmerkgroep **Standaard** voor afbeeldingen maakt, worden niet weergegeven. Deze optie wordt uitgeschakeld in een toekomstige versie.
 
 In de volgende procedures zijn afbeeldingen ingesteld voor de catalogusentiteit als een voorbeeld. Deze procedures helpen waarborgen dat het juiste pad voor de afbeeldingsbestemming impliciet wordt ingesteld voor alle catalogusafbeeldingen die een algemeen pad gebruiken. Als u bijvoorbeeld een mediaserver of CDN extern hebt ingesteld en wilt dat de afbeeldingen voor een bepaalde winkel in MPOS worden weergegeven, helpt de functionaliteit **Mediasjabloon definiëren** u het pad in te stellen waar MPOS de afbeeldingen kan vinden en ophalen.
 
 > [!NOTE]
-> Voor dit voorbeeld van demogegevens wordt de mediaserver geïmplementeerd op de detailhandelserver. U kunt het echter overal buiten Dynamics 365 for Retail hebben.
+> Voor dit voorbeeld van demogegevens wordt de mediaserver geïmplementeerd op de detailhandelserver. U kunt het echter overal buiten Dynamics 365 Retail hebben.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>De basis-URL voor media voor een kanaal instellen
 
-1. Open de Dynamics 365 for Retail HQ-portal.
+1. Open het Retail HQ-portal.
 2. Klik op **Retail** &gt; **Kanaalinstellingen** &gt; **Kanaalprofielen**.
 
     [![Navigatie](./media/channel-profile1.png)](./media/channel-profile1.png)
@@ -62,7 +62,7 @@ In de volgende procedures zijn afbeeldingen ingesteld voor de catalogusentiteit 
 3. op het sneltabblad **Mediapad** voert u het resterende pad van de afbeeldinglocatie in. De media padondersteuningen **LanguageID** als variabele. Voor de demogegevens kunt u bijvoorbeeld een map **Catalogi** maken voor alle catalogusafbeeldingen onder de mediabasis-URL voor uw mediaserver (`https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer`). U kunt vervolgens een map voor elke taal maken, zoals en-US of fr-FR, en de gewenste afbeeldingen naar elke map kopiëren. Als u geen andere afbeeldingen voor de diverse talen hebt, kunt u de variabele **LanguageID** uit uw mapstructuur gebruiken en direct verwijzen naar de catalogimap die de catalogusafbeeldingen bevat.
 
     > [!NOTE]
-    > De huidige versie van Dynamics 365 for Retail ondersteunt het token **{LanguageId}** voor catalogus-, product- en categorie-entiteiten. (Het token **{LanguageID}** wordt niet ondersteund voor klant- en werknemersentiteiten, volgens de bestaande standaard die sinds Microsoft Dynamics AX 6.x geldt.)
+    > De huidige versie van Retail ondersteunt het **{LanguageId}**-token voor Catalogus-, Product- en Categorie-entiteiten. (Het token **{LanguageID}** wordt niet ondersteund voor klant- en werknemersentiteiten, volgens de bestaande standaard die sinds Microsoft Dynamics AX 6.x geldt.)
 
 4. Voor afbeeldingen is de naamindeling hard gecodeerd op de catalogusnaam en kan deze niet worden gewijzigd. Daarom wijzigt u de naam van uw afbeeldingen zodat ze geschikte catalogusnamen hebben. Dit helpt waarborgen dat MPOS deze correct verwerkt.
 5. Selecteer in het veld **Bestandsextensie** de verwachte bestandsnaamextensie, afhankelijk van het type afbeeldingen dat u hebt. Voor de demogegevens krijgen de catalogusafbeeldingen bijvoorbeeld de extensie .jpg. (De afbeeldingsbestanden worden ook hernoemd zodat deze catalogusnamen hebben.)
@@ -118,7 +118,7 @@ Zoals u in de vorige sectie hebt geleerd, ondersteunt de mediasjabloon voor een 
     [![Het sneltabblad Afbeeldings-URL's voor Excel genereren als Genereren is geselecteerd](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
-    > De URL's die worden gegenereerd voor Excel gebruiken het pad en de conventies van de gedefinieerde mediasjabloon. Deze conventies omvatten de conventies voor bestandsnamen. De verwachting is dat u de fysieke afbeeldingen buiten Dynamics 365 for Retail hebt ingesteld en dat de afbeeldingen kunnen worden opgehaald van URL's die zijn afgeleid van de mediasjabloon die u eerder hebt gedefinieerd. U kunt deze afgeleide URL's overschrijven via Bewerken in de Excel-functie.
+    > De URL's die worden gegenereerd voor Excel gebruiken het pad en de conventies van de gedefinieerde mediasjabloon. Deze conventies omvatten de conventies voor bestandsnamen. De verwachting is dat u de fysieke afbeeldingen buiten Retail hebt ingesteld en dat de afbeeldingen kunnen worden opgehaald van URL's die zijn afgeleid van de mediasjabloon die u eerder hebt gedefinieerd. U kunt deze afgeleide URL's overschrijven via Bewerken in de Excel-functie.
 
 5. Klik op **Bewerken in Excel**.
 6. Nadat het Microsoft Excel-werkblad is geopend, klikt u op **Bewerken inschakelen** wanneer u daarom wordt gevraagd.

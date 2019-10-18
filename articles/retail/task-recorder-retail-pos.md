@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 70fef8035fce7792b44a3d96d1fba342eae88541
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548549"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024747"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Taakrecorder en Help voor Retail Modern POS (MPOS) en Cloud POS
 
@@ -138,7 +138,7 @@ Tekst die u invoert in het veld **Notities**, verschijnt *onder* de staptekst in
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Help in Retail Modern POS en Cloud POS
 
-Om uw eigen taakregistraties in het Help-deelvenster van Retail Modern POS en Cloud POS weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Zie voor meer informatie het onderwerp [Verbinding maken met het Help-systeem.](../fin-and-ops/get-started/help-connect.md) Retail Modern POS en Cloud POS Help doorzoekt LCS in real-time. Alle BPM-bibliotheken worden doorzocht die zijn geselecteerd in de parameters van het Microsoft Dynamics 365 for Retail Help-systeem, en de relevante resultaten worden weergegeven. Voor toegang tot het menu **Help** klikt u op de knop **Help** (vraagteken) bovenaan het scherm, typt u vervolgens in het zoekvak uw procesnaam en klikt u op de zoekknop.
+Om uw eigen taakregistraties in het Help-deelvenster van Retail Modern POS en Cloud POS weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Zie voor meer informatie het onderwerp [Verbinding maken met het Help-systeem.](../fin-and-ops/get-started/help-connect.md) Retail Modern POS en Cloud POS Help doorzoekt LCS in real-time. Alle BPM-bibliotheken worden doorzocht die zijn geselecteerd in de parameters van het Retail Help-systeem, en de relevante resultaten worden weergegeven. Voor toegang tot het menu **Help** klikt u op de knop **Help** (vraagteken) bovenaan het scherm, typt u vervolgens in het zoekvak uw procesnaam en klikt u op de zoekknop.
 
 [![De knop Help](./media/help.jpg)](./media/help.jpg)
 

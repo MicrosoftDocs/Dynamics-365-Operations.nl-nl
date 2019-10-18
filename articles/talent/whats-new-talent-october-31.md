@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (31 oktober 2018)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent Core HR.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent Core HR (31 oktober 2018)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/31/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d6942f8e4dc86f18a081b347df0567b1358a87ab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2ad9be740d917a760815718a1473d7bcba97968
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517736"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025927"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (31 oktober 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-31-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent: Core HR (31 oktober 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -33,15 +33,15 @@ ms.locfileid: "1517736"
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Core HR.
 
-## <a name="create-links-from-talent-to-finance-and-operations"></a>Koppelingen vanuit Talent maken met Finance and Operations
-Met deze nieuwe navigatiefunctionaliteit kunt u koppelen van Talent naar Finance and Operations, waardoor u direct kunt navigeren in Finance and Operations-pagina's. Wanneer koppelingen worden geconfigureerd, kunt u de naam en de groep van de koppeling opgeven, waar de koppeling in Talent moet komen, en de doelpagina die moet worden geopend in Finance and Operations.
+## <a name="create-links-from-talent-to-finance"></a>Koppelingen vanuit Talent maken met Finance
+Met deze nieuwe navigatiefunctionaliteit kunt u koppelen van Talent naar Finance, waardoor u direct kunt navigeren in Finance-pagina's. Wanneer koppelingen worden geconfigureerd, kunt u de naam en de groep van de koppeling opgeven, waar de koppeling in Talent moet komen, en de doelpagina die moet worden geopend in Finance.
 
 #### <a name="coming-soon"></a>Binnenkort beschikbaar
-Veldcontext wordt in de toekomst toegevoegd om directe navigatie mogelijk te maken naar corresponderende records in Finance and Operations. U kunt bijvoorbeeld **Koppeling naar veld** gebruiken om de context te leveren om rechtstreeks naar een specifieke werknemer of positie in Finance and Operations te navigeren.
+Veldcontext wordt in de toekomst toegevoegd om directe navigatie mogelijk te maken naar corresponderende records in Finance. U kunt bijvoorbeeld **Koppeling naar veld** gebruiken om de context te leveren om rechtstreeks naar een specifieke werknemer of positie in Finance te navigeren.
 
 ### <a name="configure-target-systems"></a>Doelsystemen configureren
 
-In Talent kunnen systeembeheerders koppelingen definiëren die toegankelijk zullen zijn via het werkgebied Systeembeheer. Deel van de configuratie zijn de Finance and Operations-omgevingen waarnaar u wilt navigeren als het 'doel' van de koppeling. U doet dit door het doelsysteem een naam te geven en de URL op te geven van de Finance and Operations-omgeving. Hier volgt een voorbeeld van een Finance and Operations-URL die u kunt opgeven: https://devax00124aos.cloud.test.dynamics.com/. Nadat u uw doelsystemen hebt geconfigureerd, kunt u uw koppelingen definiëren.
+In Talent kunnen systeembeheerders koppelingen definiëren die toegankelijk zullen zijn via het werkgebied Systeembeheer. Deel van de configuratie zijn de Finance-omgevingen waarnaar u wilt navigeren als het ¨doel¨ van de koppeling. U doet dit door het doelsysteem een naam te geven en de URL op te geven van de Finance-omgeving. Hier volgt een voorbeeld van een Finance and Operations-URL die u kunt opgeven: https://devax00124aos.cloud.test.dynamics.com/. Nadat u uw doelsystemen hebt geconfigureerd, kunt u uw koppelingen definiëren.
 
 ### <a name="configure-links"></a>Koppelingen configureren
 
@@ -51,27 +51,27 @@ Elke koppeling die wordt gemaakt, heeft de volgende informatie gedefinieerd.
 
 - Deze koppeling inschakelen: ingesteld op **Ja** als u de koppeling wilt weergeven voor gebruikers van Talent.
 
-- Weergavenaam: definieer de naam die wordt weergegeven als een koppeling naar Finance and Operations. Deze gegevens zijn momenteel niet vertaald.
+- Weergavenaam - definieer de naam die wordt weergegeven als een koppeling naar Finance. Deze gegevens zijn momenteel niet vertaald.
 
 - Koppelinggedeelte op het formulier: kies op welke pagina u de koppeling wilt weergeven.
 
 - Groep: groepen zijn niet verplicht, maar als u uw koppelingen wilt ordenen met groepen, selecteert u een bestaande groep of maakt u een nieuwe groep met het veld **Groep**.
 
-- Doelsysteem: selecteer het doelsysteem dat is gemaakt met de optie **Doelsysteem configureren**. Dit wordt de Finance and Operations-omgeving die wordt gebruikt wanneer met behulp van de koppeling wordt genavigeerd.
+- Doelsysteem: selecteer het doelsysteem dat is gemaakt met de optie **Doelsysteem configureren**. Dit wordt de Finance-omgeving die wordt gebruikt wanneer met behulp van de koppeling wordt genavigeerd.
 
-- Huidig bedrijf van gebruiker gebruiken: selecteer **Ja** als u de huidige bedrijfscontext van de gebruiker wilt gebruiken wanneer u navigeert naar Finance and Operations. Als **Nee** is geselecteerd, kunt u het bedrijf selecteren dat moet worden gebruikt.
+- Huidig bedrijf van gebruiker gebruiken - selecteer **Ja** als u de huidige bedrijfscontext van de Gebruiker wilt gebruiken wanneer u navigeert naar Finance. Als **Nee** is geselecteerd, kunt u het bedrijf selecteren dat moet worden gebruikt.
 
-- Doelmenu-item: voer het menu-item vanuit Finance and Operations in dat de koppeling moet gebruiken wanneer wordt genavigeerd. Menu-items waarnaar u rechtstreeks kunt navigeren, zijn beschikbaar. Als u het vereiste menu-item zoekt, opent u Finance and Operations en opent u de pagina die het doel is van de navigatie. Kopieer het menu-item vanuit de URL. Als u bijvoorbeeld wilt dat de koppeling u brengt naar de werknemerslijst in Finance and Operations, voert u de waarde in die wordt weergegeven na de '&mi' in de URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Het menu-item om te navigeren naar de werknemerslijstpagina in dit voorbeeld is: HcmWorkerListPage_Employees.
+- Doelmenu-item - voer het menu-item vanuit Finance in dat de koppeling moet gebruiken wanneer wordt genavigeerd. Menu-items waarnaar u rechtstreeks kunt navigeren, zijn beschikbaar. Als u het vereiste menu-item zoekt, opent u Finance en opent u de pagina die het doel is van de navigatie. Kopieer het menu-item vanuit de URL. Als u bijvoorbeeld wilt dat de koppeling u brengt naar de werknemerslijst in Finance and Operations, voert u de waarde in die wordt weergegeven na de '&mi' in de URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Het menu-item om te navigeren naar de werknemerslijstpagina in dit voorbeeld is: HcmWorkerListPage_Employees.
 
 - Koppeling naar gegevensbron: selecteer de bron van de gegevens waarnaar de koppeling verwijst. De meest voorkomende bronnen, zoals **Medewerker** en **Positie** zijn beschikbaar.
 
-- Koppeling naar veld (binnenkort): de veldselectie maakt directe navigatie mogelijk vanuit één record in Talent naar één record in Finance and Operations.
+- Koppeling naar veld - (binnenkort) Deze veldselectie maakt directe navigatie mogelijk vanuit één record in Talent naar één record in Finance.
 
 ### <a name="access-to-links"></a>Toegang tot koppelingen
 
 Systeembeheerders zien de nieuw gemaakte koppelingen op de gedefinieerde pagina's, zelfs als de optie **Deze koppeling inschakelen** is ingesteld op **Nee**. Dit kan worden gebruikt voor het testen van koppelingen voordat ze voor andere werknemers beschikbaar zijn. Alle andere rollen zien alleen de geconfigureerde koppelingen nadat de optie **Deze koppeling inschakelen** optie is ingesteld op **Ja**. Werknemers die toegang hebben tot de pagina's waarin de koppelingen voorkomen, hebben toegang tot de koppelingen.
 
-Gebruikers kunnen ook beveiligingsrechten binnen Finance and Operations hebben gedefinieerd om toegang te krijgen tot de pagina's in Finance and Operations. Zo niet, dan wordt een beveiligingsdialoogvenster weergegeven wanneer de koppeling wordt gebruikt.
+Gebruikers kunnen ook beveiligingsrechten binnen Finance hebben gedefinieerd om toegang te krijgen tot de pagina's in Finance and Operations. Zo niet, dan wordt een beveiligingsdialoogvenster weergegeven wanneer de koppeling wordt gebruikt.
 
 
 ## <a name="other-changesfixes"></a>Andere wijzigingen/oplossingen

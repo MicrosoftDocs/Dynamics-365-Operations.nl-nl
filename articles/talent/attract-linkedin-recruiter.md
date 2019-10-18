@@ -1,6 +1,6 @@
 ---
-title: Kandidaten zoeken met LinkedIn Recruiter in Microsoft Dynamics 365 for Talent - Attract
-description: Gebruik de LinkedIn-integratie van Microsoft Dynamics 365 for Talent - Attract om kandidaten te zoeken via LinkedIn Recruiter.
+title: Kandidaten zoeken met LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract
+description: Gebruik de LinkedIn-integratie van Microsoft Dynamics 365 Talent - Attract om kandidaten te zoeken via LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,17 +19,17 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 14aba16fa81a8f25d0f88247319254407d428b2a
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739444"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008565"
 ---
 # <a name="source-candidates-with-linkedin-recruiter"></a>Kandidaten zoeken met LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
-LinkedIn is het grootste onlinenetwerk voor professionals ter wereld en biedt u toegang tot de beste talenten wereldwijd. Met Microsoft Dynamics 365 for Talent: Attract kunt u kandidaten rechtstreeks vanuit LinkedIn zoeken. Het is dus eenvoudiger dan ooit om het talent te vinden dat u nodig hebt om uw openstaande posities in te vullen. Nadat u de verbinding met LinkedIn hebt ingesteld via Attract, kunt u potentiële LinkedIn-kandidaten voor uw posities weergeven en deze met slechts één klik exporteren in Attract.
+LinkedIn is het grootste onlinenetwerk voor professionals ter wereld en biedt u toegang tot de beste talenten wereldwijd. Met Microsoft Dynamics 365 Talent: Attract kunt u kandidaten rechtstreeks vanuit LinkedIn zoeken. Het is dus eenvoudiger dan ooit om het talent te vinden dat u nodig hebt om uw openstaande posities in te vullen. Nadat u de verbinding met LinkedIn hebt ingesteld via Attract, kunt u potentiële LinkedIn-kandidaten voor uw posities weergeven en deze met slechts één klik exporteren in Attract.
 
 Neem contact op met uw beheerder als u niet over deze mogelijkheid lijkt te beschikken. Voordat u optimaal gebruik kunt maken van LinkedIn Recruiter van Attract, moet uw beheerder de [integratie met LinkedIn instellen](./attract-admin-linkedin.md). U kunt vervolgens de verbinding met LinkedIn Recruiter instellen en beginnen met het zoeken naar kandidaten.
 

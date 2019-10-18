@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556939"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025858"
 ---
 # <a name="store-order-fulfillment"></a>Winkelorderafhandeling
 
@@ -96,7 +96,7 @@ Nadat een order is geaccepteerd, kunnen regels worden geselecteerd en gemarkeerd
 
 Orderverzamellijsten kunnen bij het verkooppunt worden afgedrukt om werknemers te ondersteunen tijdens het orderverzamelproces. Een afgedrukte orderverzamellijst kan door de werknemer verantwoordelijk voor het verzamelen van artikelen worden meegenomen en handmatig worden bijgewerkt tijdens het werk.
 
-De indeling van de orderverzamellijst wordt geconfigureerd in Dynamics 365 for Retail en toegevoegd aan het ontvangstprofiel. Zie voor meer informatie over het instellen van ontvangstbewijsprofielen [Ontvangstsjablonen en afdrukken](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+De indeling van de orderverzamellijst wordt geconfigureerd in Retail en toegevoegd aan het ontvangstprofiel. Zie voor meer informatie over het instellen van ontvangstbewijsprofielen [Ontvangstsjablonen en afdrukken](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Als er regels zijn geselecteerd en er een orderverzamellijst is afgedrukt voor deze regels, worden deze automatisch bijgewerkt met de status **Orderverzameling**.
 
@@ -105,7 +105,7 @@ Als er regels zijn geselecteerd en er een orderverzamellijst is afgedrukt voor d
 - **Resulterende status:** Opgenomen of gedeeltelijk verzameld
 - **Resulterende status backoffice:** Opgenomen of gedeeltelijk verzameld
 
-Nadat het fysieke orderverzamelproces is uitgevoerd, kunnen regels worden gemarkeerd als **Opgenomen**. Wanneer een regel wordt geselecteerd en gemarkeerd als **Opgenomen**, wordt de functie voor het bijwerken van de orderregel in Dynamics 365 for Retail in realtime aangeroepen. Nadat de regel is gemarkeerd als **Opgenomen** bij het verkooppunt, wordt de status in de backoffice ook bijgewerkt naar **Opgenomen** en wordt in voorraadtransacties aangeven dat de opgegeven hoeveelheid is afgetrokken van de totale hoeveelheid.
+Nadat het fysieke orderverzamelproces is uitgevoerd, kunnen regels worden gemarkeerd als **Opgenomen**. Wanneer een regel wordt geselecteerd en gemarkeerd als **Opgenomen**, wordt de functie voor het bijwerken van de orderregel in realtime aangeroepen. Nadat de regel is gemarkeerd als **Opgenomen** bij het verkooppunt, wordt de status in de backoffice ook bijgewerkt naar **Opgenomen** en wordt in voorraadtransacties aangeven dat de opgegeven hoeveelheid is afgetrokken van de totale hoeveelheid.
 
 Wanneer orders na verloop van tijd zijn verwerkt, kunnen er gedeeltelijke hoeveelheden voor een bepaalde regel worden verwerkt. Als een regel is geselecteerd, de actie **Markeren als opgenomen** is ondernomen en de hoeveelheid groter dan 1 is, wordt de gebruiker gevraagd naar de hoeveelheid. De resterende hoeveelheid die moet worden verzameld, wordt dan automatisch ingevuld. Als minder dan de resterende hoeveelheid wordt opgegeven, wordt de status van de regel **Gedeeltelijk verzameld**. Wanneer de orderregel wordt bijgewerkt in de backoffice, is hierin ook de status Gedeeltelijk verzameld verwerkt. De door de gebruiker ingevoerde hoeveelheid word gebruikt voor de voorraadupdate.
 
@@ -122,7 +122,7 @@ Orderregels kunnen op elk moment worden verpakt nadat de orderregel is geaccepte
 - **Resulterende status:** Verpakt of gedeeltelijk verpakt
 - **Resulterende status backoffice:** Geleverd of gedeeltelijk geleverd
 
-Met deze actie worden regels gemarkeerd als gedeeltelijk verpakt en wordt een pakbon afgedrukt. Een pakbon kan worden afgedrukt voor het valideren van de producten die samen zijn verpakt. De indeling van de pakbon wordt geconfigureerd in Dynamics 365 for Retail en toegevoegd aan het ontvangstprofiel. Zie voor meer informatie over het instellen van ontvangstbewijsprofielen [Ontvangstsjablonen en afdrukken](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Met deze actie worden regels gemarkeerd als gedeeltelijk verpakt en wordt een pakbon afgedrukt. Een pakbon kan worden afgedrukt voor het valideren van de producten die samen zijn verpakt. De indeling van de pakbon wordt geconfigureerd in Retail en toegevoegd aan het ontvangstprofiel. Zie voor meer informatie over het instellen van ontvangstbewijsprofielen [Ontvangstsjablonen en afdrukken](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Actie: Markeren als verpakt**
 

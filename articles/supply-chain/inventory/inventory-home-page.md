@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865467"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250778"
 ---
 # <a name="inventory-management-overview"></a>Overzicht van Voorraadbeheer
 
@@ -53,10 +53,8 @@ Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om
 ### <a name="inventory-accounting"></a>Voorraadboekhouding 
 Zie [Voorraadboekhouding in Kostenbeheer](../cost-management/inventory-close.md) voor meer informatie.
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blogs over productie- en toeleveringsbeheer
+### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blogs over Productie en Supply Chain Management
 U vindt meningen, nieuws en andere informatie over Voorraadbeheer en andere oplossingen in het blog van het [R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) en het [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Taakbegeleidingen
-Extra help is beschikbaar als taakbegeleidingen binnen Finance and Operations. U kunt op elke pagina op de knop **Help** klikken als u een taakbegeleiding wilt openen.
-
-
+Extra informatie is beschikbaar als taakbegeleidingen. U kunt op elke pagina op de knop **Help** klikken als u een taakbegeleiding wilt openen

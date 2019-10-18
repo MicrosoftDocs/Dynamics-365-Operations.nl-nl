@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 03e090633276cd264ad03f561ddb425a9816357e
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847500"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024632"
 ---
 # <a name="create-maintenance-requests"></a>Onderhoudsverzoeken maken
 
@@ -41,7 +41,7 @@ De sectie **Actieve onderhoudsverzoeken** van het deelvenster **Verwante informa
 2. Selecteer **Nieuw**.
 3. Selecteer het type onderhoudsverzoek in het dialoogvenster **Aanvraag maken** in het veld **Type onderhoudsverzoek**. Er wordt een standaardtype voorgesteld.
 4. Voer in het veld **Beschrijving** een naam of titel in die kort het onderhoudsverzoek beschrijft.
-5. Selecteer in de velden **Functionele locatie** en **Activum** een functionele locatie of een activum, of een combinatie van een functionele locatie en een activum, indien nodig. U kunt een onderhoudsverzoek maken zonder een activum te selecteren en het activum kan later aan het onderhoudsverzoek worden toegevoegd. Als de onderhoudsmedewerker die is aangemeld bij Microsoft Dynamics 365 for Finance and Operations, is gekoppeld aan een resource die is gerelateerd aan een activum, wordt het veld **Activum** automatisch ingesteld.
+5. Selecteer in de velden **Functionele locatie** en **Activum** een functionele locatie of een activum, of een combinatie van een functionele locatie en een activum, indien nodig. U kunt een onderhoudsverzoek maken zonder een activum te selecteren en het activum kan later aan het onderhoudsverzoek worden toegevoegd. Als de onderhoudsmedewerker die is aangemeld, is gekoppeld aan een resource die is gerelateerd aan een activum, wordt het veld **Activum** automatisch ingesteld.
 
     Als er al een onderhoudsverzoek is gekoppeld aan het geselecteerde activum, verschijnt een berichtenbalk boven aan het dialoogvenster **Aanvraag maken** met de id van het bestaande onderhoudsverzoek. Een berichtenbalk waarschuwt u ook als het activum onder een garantieovereenkomst valt.
 

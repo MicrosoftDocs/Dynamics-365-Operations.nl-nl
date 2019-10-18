@@ -1,6 +1,6 @@
 ---
-title: Broadbean-integratie inschakelen in Microsoft Dynamics 365 for Talent - Attract
-description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Talent - Attract kunt configureren om vacatures te plaatsen op externe banensites zoals Broadbean.
+title: Broadbean-integratie inschakelen in Microsoft Dynamics 365 Talent - Attract
+description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 Talent - Attract kunt configureren om vacatures te plaatsen op externe banensites zoals Broadbean.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2334c2bd0edccf3000f8d91651afafd4619ad0b8
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 808f91fb4b68ba9b5cee54d86423d23232df23a4
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739674"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008588"
 ---
 # <a name="enable-broadbean-integration"></a>Broadbean-integratie inschakelen
 
 [!include[banner](../includes/banner.md)]
 
-U wilt uw openstaande posities aan zoveel mogelijk kandidaten voorleggen. Wervingssites, zoals Broadbean, helpen u bij het realiseren van dit doel. Met Microsoft Dynamics 365 for Talent: Attract kunt u nu functies publiceren naar Broadbean en Microsoft biedt voortdurend nieuwe aanbiedingen in dit gebied.
+U wilt uw openstaande posities aan zoveel mogelijk kandidaten voorleggen. Wervingssites, zoals Broadbean, helpen u bij het realiseren van dit doel. Met Microsoft Dynamics 365 Talent: Attract kunt u nu functies publiceren naar Broadbean en Microsoft biedt voortdurend nieuwe aanbiedingen in dit gebied.
 
 > [!NOTE]
 > - Als u functies naar externe sites wilt publiceren, moet u over de [Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) beschikken.

@@ -1,6 +1,6 @@
 ---
 title: De integratie van de salarisadministratie tussen Talent en Dayforce configureren
-description: In dit onderwerp wordt uitgelegd hoe de integratie tussen Microsoft Dynamics 365 for Talent en Ceridian Dayforce wordt geconfigureerd zodat u een betaling kunt verwerken.
+description: In dit onderwerp wordt uitgelegd hoe de integratie tussen Microsoft Dynamics 365 Talent en Ceridian Dayforce wordt geconfigureerd zodat u een betaling kunt verwerken.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/24/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742906"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251034"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>De integratie van de salarisadministratie tussen Talent en Dayforce configureren
 
 [!include [banner](includes/banner.md)]
 
-De integratie tussen Microsoft Dynamics 365 for Talent en Ceridian Dayforce is afhankelijk van verschillende configuratiestappen die in dit onderwerp worden beschreven. Voordat u een betaling kunt verwerken, moet u de integratie configureren in zowel Talent als Dayforce.
+De integratie tussen Microsoft Dynamics 365 Talent en Ceridian Dayforce is afhankelijk van verschillende configuratiestappen die in dit onderwerp worden beschreven. Voordat u een betaling kunt verwerken, moet u de integratie configureren in zowel Talent als Dayforce.
 
 Als u een service zoals Dayforce gebruikt voor het uitvoeren van betalingen, moet u de integratie inschakelen in Talent. De integratie vereist specifieke gegevens vanuit Talent. Daarom moet u controleren of gegevens die zijn toegewezen aan Dayforce zodanig in Talent zijn geconfigureerd dat de integratie wordt ondersteund. De integratie maakt gebruik van de volgende brede categorieën gegevens:
 
@@ -39,7 +39,7 @@ In dit onderwerp worden de stappen beschreven die u moet volgen om de integratie
 
 ## <a name="enable-the-integration"></a>De integratie inschakelen
 
-In Talent moet u de integratie inschakelen en de configuratiegegevens invoeren om verbinding te maken met Dayforce. Als u wilt dat de grootboektransactie die wordt geproduceerd wordt geïmporteerd in Microsoft Dynamics 365 for Finance and Operations, moet u ook een Microsoft Azure-opslagaccount instellen en de verbindingstekenreeks voor Azure Storage invoeren in Finance and Operations.
+In Talent moet u de integratie inschakelen en de configuratiegegevens invoeren om verbinding te maken met Dayforce. Als u wilt dat de grootboektransactie die wordt geproduceerd wordt geïmporteerd in Microsoft Dynamics 365 Finance, moet u ook een Microsoft Azure-opslagaccount instellen en de verbindingstekenreeks voor Azure Storage invoeren in Finance.
 
 Voer de volgende stappen uit om de integratie in Talent in te schakelen.
 

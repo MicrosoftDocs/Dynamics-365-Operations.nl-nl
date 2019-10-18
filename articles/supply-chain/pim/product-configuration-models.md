@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563592"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250615"
 ---
 # <a name="product-configuration-models-overview"></a>Overzicht productconfiguratiemodellen
 
@@ -118,7 +118,7 @@ Als het type kenmerk <strong>Booleaans</strong>, <strong>Geheel getal</strong> m
 </tr>
 </tbody>
 </table>
-Een systeemgedefinieerde tabelbeperking vertegenwoordigt een koppeling tussen een kenmerktype en een veld in een Finance and Operations-tabel. Een systeemgedefinieerde tabelbeperking koppelt dynamisch het kenmerktype aan het veld. Dankzij deze koppeling kan het kenmerk in een productconfiguratiemodel de gegevens van het veld in de Finance and Operations-tabel weergeven.</td>
+Een systeemgedefinieerde tabelbeperking vertegenwoordigt een koppeling tussen een kenmerktype en een veld in een Finance and Operations-tabel. Een systeemgedefinieerde tabelbeperking koppelt dynamisch het kenmerktype aan het veld. Dankzij deze koppeling kan het kenmerk in een productconfiguratiemodel de gegevens van het veld in de Supply Chain Management -tabel weergeven.</td>
 </tr>
 <tr class="odd">
 <td>Berekeningen</td>

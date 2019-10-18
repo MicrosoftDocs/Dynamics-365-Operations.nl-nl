@@ -1,6 +1,6 @@
 ---
-title: Producten vanuit Finance and Operations direct synchroniseren met producten in Sales
-description: Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebruikt om producten te synchroniseren van Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Sales.
+title: Producten rechtstreeks vanuit Supply Chain Management synchroniseren met producten in Sales
+description: Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt om producten te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/10/2019
@@ -19,25 +19,25 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b4a6fab3a4831bc3d18313b351e453c615788843
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742419"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251380"
 ---
-# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales
+# <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Producten rechtstreeks vanuit Supply Chain Management synchroniseren met producten in Sales
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebruikt om producten rechtstreeks te synchroniseren van Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Sales.
+Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt om producten rechtstreeks te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
 
-De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Finance and Operations en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens over rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Finance and Operations en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Finance and Operations en Sales.
+De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Supply Chain Management en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens over rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Supply Chain Management en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Supply Chain Management en Sales.
 
 [![Gegevensstroom in Prospect naar contant geld](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -45,22 +45,22 @@ De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie o
 
 Open het [PowerApps-beheercentrum](https://admin.powerapps.com/dataintegration) om toegang te krijgen tot de beschikbare sjablonen. Selecteer **Projecten** en selecteer vervolgens in de rechterbovenhoek de optie **Nieuw project** om openbare sjablonen te selecteren.
 
-De volgende sjabloon en onderliggende taken worden gebruikt voor het synchroniseren van producten van Finance and Operations naar Sales.
+De volgende sjabloon en onderliggende taken worden gebruikt voor het synchroniseren van producten van Supply Chain Management naar Sales.
 
-- **Naam van de sjabloon in Gegevensintegratie:** Producten (Fin and Ops naar Sales) - Direct
+- **Naam van de sjabloon in Gegevensintegratie:** Producten (Supply Chain Management naar Sales) - Direct
 - **Naam van de taak in het project Gegevensintegratie:** Producten
 
 Er hoeven geen synchronisatietaken te worden uitgevoerd voordat productsynchronisatie kan plaatsvinden.
 
 ## <a name="entity-set"></a>Entiteitset
 
-| Finance en Operations     | Verkoop    |
+| Supply Chain Management    | Verkoop    |
 |----------------------------|----------|
 | Verkoopbare vrijgegeven producten | Producten |
 
 ## <a name="entity-flow"></a>Entiteitstroom
 
-Producten worden beheerd in Finance and Operations en gesynchroniseeerd met Sales Met de gegevensentiteit **Verkoopbare vrijgegeven producten** in Finance and Operations worden alleen producten geëxporteerd die *verkoopbaar* zijn. Verkoopbare producten zijn producten die de informatie bevatten die ze nodig hebben om te kunnen worden gebruikt op een verkooporder. Dezelfde regels zijn van toepassing wanneer een product wordt gevalideerd met de functie **Valideren** op de pagina **Vrijgegeven product**.
+Producten worden beheerd in Supply Chain Management en gesynchroniseeerd met Sales Met de gegevensentiteit **Verkoopbare vrijgegeven producten** in Supply Chain Management worden alleen producten geëxporteerd die *verkoopbaar* zijn. Verkoopbare producten zijn producten die de informatie bevatten die ze nodig hebben om te kunnen worden gebruikt op een verkooporder. Dezelfde regels zijn van toepassing wanneer een product wordt gevalideerd met de functie **Valideren** op de pagina **Vrijgegeven product**.
 
 Het productnummer wordt gebruikt als een sleutel. Dus wanneer productvarianten worden gesynchroniseerd naar Sales, heeft elke productvariant een afzonderlijke product-id.
 
@@ -68,13 +68,13 @@ Het productnummer wordt gebruikt als een sleutel. Dus wanneer productvarianten w
 
 In Sales is het nieuwe veld **Wordt extern beheerd** voor producten toegevoegd om aan te geven dat een bepaald product extern wordt beheerd. Standaard wordt de waarde ingesteld op **Ja** tijdens het importeren naar Sales. De volgende waarden zijn beschikbaar:
 
-- **Ja**: het product is afkomstig uit Finance and Operations en kan niet worden bewerkt in Sales.
+- **Ja**: het product is afkomstig uit Supply Chain Management en kan niet worden bewerkt in Sales.
 - **Nee**: het product is rechtstreeks in Sales ingevoerd.
 - **(Leeg)**: het product bestond in Sales voordat de oplossing Prospect naar contant geld werd ingeschakeld.
 
-Met het veld **Wordt extern beheerd** kunt u ervoor zorgen dat alleen offertes en verkooporders met extern onderhouden producten worden gesynchroniseerd naar Finance and Operations.
+Met het veld **Wordt extern beheerd** kunt u ervoor zorgen dat alleen offertes en verkooporders met extern onderhouden producten worden gesynchroniseerd naar Supply Chain Management.
 
-Extern onderhouden producten worden automatisch toegevoegd aan de eerste geldige prijslijst met dezelfde valuta. Prijslijsten worden alfabetisch op naam ingedeeld. De verkoopprijs van het product uit Finance and Operations wordt gebruikt als de prijs in de prijslijst. Daarom moet er een prijslijst in Sales bestaan voor elke productverkoopvaluta in Finance and Operations. De valuta voor de vrijgegeven verkoopbare producten wordt ingesteld op de boekhoudvaluta van de rechtspersoon waaruit het product wordt uitgevoerd.
+Extern onderhouden producten worden automatisch toegevoegd aan de eerste geldige prijslijst met dezelfde valuta. Prijslijsten worden alfabetisch op naam ingedeeld. De verkoopprijs van het product uit Supply Chain Management wordt gebruikt als de prijs in de prijslijst. Daarom moet er een prijslijst in Sales bestaan voor elke productverkoopvaluta in Supply Chain Management. De valuta voor de vrijgegeven verkoopbare producten wordt ingesteld op de boekhoudvaluta van de rechtspersoon waaruit het product wordt uitgevoerd.
 
 > [!NOTE]
 > - Productsynchronisatie lukt alleen als er een prijslijst met een overeenkomende valuta is.
@@ -82,18 +82,18 @@ Extern onderhouden producten worden automatisch toegevoegd aan de eerste geldige
 
 ## <a name="preconditions-and-mapping-setup"></a>Voorwaarden en instellingen voor toewijzing
 
-- Voordat u de synchronisatie voor het eerst uitvoert, vult u de tabel Verschillend product voor bestaande producten in Finance and Operations in. Bestaande producten worden pas gesynchroniseerd als deze taak is voltooid.
+- Voordat u de synchronisatie voor het eerst uitvoert, vult u de tabel Verschillend product voor bestaande producten in Supply Chain Management. Bestaande producten worden pas gesynchroniseerd als deze taak is voltooid.
 
-    1. Gebruik in Finance and Operations de zoekfunctie om te zoeken naar **Tabel met verschillende producten vullen**.
+    1. Gebruik in Supply Chain Management de zoekfunctie om te zoeken naar **Tabel met verschillende producten vullen**.
     2. Selecteer **Tabel met verschillende producten vullen** om de taak uit te voeren. Deze taak moet slechts één keer worden uitgevoerd.
 
-- Zorg ervoor dat de vereiste waardetoewijzing voor de verkoopmaateenheid tussen Finance and Operations en Sales bestaat in de toewijzing van **SalesUnitSymbol** naar **DefaultUnit (Name)**.
+- Controleer of de vereiste waardetoewijzing voor de verkoopmaateenheid tussen Supply Chain Management en Sales bestaat in de toewijzing van **SalesUnitSymbol** aan **DefaultUnit (Name)**.
 - Werk de waardetoewijzing bij voor **Eenhedengroep** (**defaultuomscheduleid.name**) zodat deze overeenkomt met **Eenhedengroepen** in Sales.
 
     De standaardsjabloonwaarde is **Standaardmaateenheid**.
 
-- Controleer of de verkoopmaateenheden voor alle producten uit Finance and Operations bestaan in Sales.
-- Controleer of prijslijsten bestaan in Sales voor elke productverkoopvaluta in Finance and Operations.
+- Controleer of de verkoopmaateenheden voor alle producten uit Supply Chain Management bestaan in Sales.
+- Controleer of prijslijsten bestaan in Sales voor elke productverkoopvaluta in Supply Chain Management.
 - Wanneer producten worden gemaakt in Sales, kunnen ze de status **Concept** of **Actief** hebben. Het gedrag wordt beheerd via **Instellingen** > **Beheer** > **Systeeminstellingen** > **Sales** in Sales.
 
     Producten die de status **Concept** hebben wanneer ze worden gemaakt, moeten worden geactiveerd voordat ze kunnen worden toegevoegd aan offertes of verkooporders.
@@ -103,22 +103,22 @@ Extern onderhouden producten worden automatisch toegevoegd aan de eerste geldige
 In de volgende afbeelding ziet u een voorbeeld van sjabloontoewijzing in Gegevensintegratie. 
 
 > [!NOTE]
-> Aan de hand van de toewijzing kunt u zien welke veldgegevens vanuit Sales naar Finance and Operations worden gesynchroniseerd.
+> Aan de hand van de toewijzing kunt u zien welke veldgegevens vanuit Sales naar Supply Chain Management worden gesynchroniseerd.
 
 ![Sjabloontoewijzing in Gegevensintegrator](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Prospect naar contant geld](prospect-to-cash.md)
+[Van prospect naar contant geld](prospect-to-cash.md)
 
-[Rekeningen in Sales direct synchroniseren naar klanten in Finance and Operations](accounts-template-mapping-direct.md)
+[Rekeningen rechtstreeks vanuit Sales synchroniseren met klanten in Supply Chain Management](accounts-template-mapping-direct.md)
 
-[Contactpersonen vanuit Sales direct synchroniseren naar contactpersonen of klanten in Finance and Operations](contacts-template-mapping-direct.md)
+[Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Kopteksten en regels in verkooporders rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](sales-order-template-mapping-direct-two-ways.md)
+[Kopteksten en regels in verkooporders rechtstreeks synchroniseren vanuit Supply Chain Management naar Sales](sales-order-template-mapping-direct-two-ways.md)
 
-[Kopteksten en regels in verkoopfacturen direct vanuit Finance and Operations synchroniseren naar Sales](sales-invoice-template-mapping-direct.md)
+[Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Supply Chain Management naar Sales](sales-invoice-template-mapping-direct.md)
 
 
 

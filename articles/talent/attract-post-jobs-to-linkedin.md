@@ -1,6 +1,6 @@
 ---
-title: Vacatures plaatsen op LinkedIn vanuit Microsoft Dynamics 365 for Talent - Attract
-description: In dit onderwerp wordt uitgelegd hoe u Dynamics 365 for Talent - Attract gebruikt voor het plaatsen van vacatures op LinkedIn.
+title: Vacatures plaatsen op LinkedIn vanuit Microsoft Dynamics 365 Talent - Attract
+description: In dit onderwerp wordt uitgelegd hoe u Dynamics 365 Talent - Attract gebruikt voor het plaatsen van vacatures op LinkedIn.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756171"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008238"
 ---
 # <a name="post-jobs-to-linkedin"></a>Vacatures plaatsen op LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn is het grootste onlinenetwerk voor professionals en biedt u toegang tot de beste talenten wereldwijd. Met Microsoft Dynamics 365 for Talent: Attract kunt u de talenten krijgen die u nodig hebt omdat u uw vacatures rechtstreeks vanuit Attract op LinkedIn kunt plaatsen.
+LinkedIn is het grootste onlinenetwerk voor professionals en biedt u toegang tot de beste talenten wereldwijd. Met Microsoft Dynamics 365 Talent: Attract kunt u de talenten krijgen die u nodig hebt omdat u uw vacatures rechtstreeks vanuit Attract op LinkedIn kunt plaatsen.
 
 Met Attract kunt u zonder extra kosten beperkte aanbiedingen op LinkedIn plaatsen. Deze vermeldingen zijn alleen beschikbaar via LinkedIn-softwarepartners, zoals Attract. Ze worden niet weergegeven in het deelvenster **Carrières** op de LinkedIn-pagina van uw bedrijf omdat hier alleen betaalde vermeldingen worden weergegeven. Ze worden echter wel weergegeven wanneer potentiële kandidaten alle beschikbare functies weergeven. Beperkte aanbiedingen worden ook weergegeven in LinkedIn-zoekopdrachten naar functies.
 

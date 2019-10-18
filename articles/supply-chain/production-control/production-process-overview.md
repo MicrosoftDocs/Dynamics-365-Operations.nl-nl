@@ -3,7 +3,7 @@ title: Overzicht van productieproces
 description: In dit onderwerp vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546658"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250008"
 ---
 # <a name="production-process-overview"></a>Overzicht van productieproces
 
@@ -36,12 +36,12 @@ De vervaardiging van producten, soms ook wel bekend als de productiecyclus, volg
 
 De module **Productiecontrole** is gekoppeld aan andere modules, zoals **Productgegevensbeheer**, **Voorraadbeheer**, **Grootboek**, **Magazijnbeheer**, **Projectadministratie** en **Organisatiebeheer**. Door deze integratie wordt de informatiestroom ondersteund die is vereist om de productie van een afgewerkt artikel te voltooien.  
 
-Het productieproces wordt doorgaans beïnvloed door de kostprijsboekhouding en voorraadwaarderingsmethoden die voor een bepaald productieproces worden gekozen. Finance and Operations ondersteunt zowel werkelijke kosten (first in, first out \[FIFO\]; last in, first out \[LIFO\]; zwevend gemiddelde en periodiek gewogen gemiddelde) als standaardmethoden voor kostprijsberekening. Lean manufacturing wordt geïmplementeerd op basis van het principe van kostprijsberekening via terugwaarts afboeken.  
+Het productieproces wordt doorgaans beïnvloed door de kostprijsboekhouding en voorraadwaarderingsmethoden die voor een bepaald productieproces worden gekozen. Supply Chain Management ondersteunt zowel werkelijke kosten (first in, first out \[FIFO\]; last in, first out \[LIFO\]; zwevend gemiddelde en periodiek gewogen gemiddelde) als standaardmethoden voor kostprijsberekening. Lean manufacturing wordt geïmplementeerd op basis van het principe van kostprijsberekening via terugwaarts afboeken.  
 
 De keuze van de methoden voor kostenmeting bepaalt ook de vereisten voor rapportage over materiaal- en resourceverbruik tijdens het productieproces. Doorgaans vereisen methoden voor de berekening van werkelijke kosten nauwkeurige rapportage op taakniveau, terwijl methoden voor periodieke kostprijsberekening minder gedetailleerde rapportage van materiaal- en resourceverbruik toestaan.
 
 ## <a name="mixed-mode-manufacturing"></a>Gemengde productie
-Verschillende producten en de productietopologieën vereisen het gebruik van verschillende ordertypen. Finance and Operations kan de diverse ordertypen in een gemengde modus toepassen. Met andere woorden, alle ordertypen kunnen voorkomen tijdens het totale proces van het vervaardigen van één afgewerkt product.
+Verschillende producten en de productietopologieën vereisen het gebruik van verschillende ordertypen. Supply Chain Management kan de diverse ordertypen in een gemengde modus toepassen. Met andere woorden, alle ordertypen kunnen voorkomen tijdens het totale proces van het vervaardigen van één afgewerkt product.
 
 -   **Productieorder** - Dit is het klassieke ordertype om een specifiek product of een productvariant te vervaardigen in een bepaalde hoeveelheid op een specifieke datum. Productieorders zijn gebaseerd op stuklijsten en routes.
 -   **Batchorder** – Dit ordertype wordt gebruikt voor procesbedrijfstakken en afzonderlijke processen waarbij de productieconversie op een formule is gebaseerd of waarbij de co- en bijproducten eindproducten kunnen zijn, naast of in plaats van het hoofdproduct. Batchorders gebruiken stuklijsten en routes van het type **Formule**.

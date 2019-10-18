@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557634"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249627"
 ---
 # <a name="cost-management-home-page"></a>Startpagina Kostenbeheer
 
@@ -69,5 +69,5 @@ In [Stuklijstberekening aan de hand van kostprijsberekening](https://mbs.microso
 U vindt meningen, nieuws en andere informatie over Kostenbeheer in de [blog van het R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) en de [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Kostenbeheer, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
 
 #### <a name="task-guides"></a>Taakbegeleidingen
-Extra help is beschikbaar als taakbegeleidingen binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
+Extra informatie is beschikbaar als taakbegeleidingen. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
 

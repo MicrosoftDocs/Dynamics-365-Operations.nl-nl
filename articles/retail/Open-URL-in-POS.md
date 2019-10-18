@@ -1,6 +1,6 @@
 ---
 title: URL openen in POS
-description: Dit onderwerp biedt een overzicht van verbeteringen die zijn aangebracht in de functies voor het zoeken van producten en klanten in Microsoft Dynamics 365 for Retail.
+description: Dit onderwerp biedt een overzicht van verbeteringen die zijn aangebracht in de functies voor het zoeken van producten en klanten in Dynamics 365 Retail.
 author: AamirAllaq
 manager: AnnBe
 ms.date: 01/28/2019
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 729caf9fad9097a3ecbf7d546c8f8a96f67aec92
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 406dad1709dc837f7f87817241d7062f6b08d8fd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845675"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025881"
 ---
 # <a name="open-url-in-pos"></a>URL openen in POS
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een knop in Retail POS kunt configureren zodat hiermee een URL wordt geopend. Hiervoor hoeft geen code te worden aangepast en dit kan worden geconfigureerd door iemand die geen ontwikkelaar is. Deze functie is beschikbaar als onderdeel van Dynamics 365 for Finance and Operations versie 8.1.3 release (build 8.1.227.10014) en hoger. 
+In dit onderwerp wordt beschreven hoe u een knop in Retail POS kunt configureren zodat hiermee een URL wordt geopend. Hiervoor hoeft geen code te worden aangepast en dit kan worden geconfigureerd door iemand die geen ontwikkelaar is. 
 
 Met deze functie kan een knop in POS zo worden geconfigureerd dat via de ontwerpfunctie van het knoppenraster een URL wordt geopend. Dit wordt op dit moment ondersteund in de volgende configuraties:
 

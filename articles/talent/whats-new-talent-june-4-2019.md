@@ -1,6 +1,6 @@
 ---
-title: Nieuwe of gewijzigde functies in Dynamics 365 for Talent (4 juni 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Nieuwe of gewijzigde functies in Dynamics 365 Talent (4 juni 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/04/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e19e5d3f1cb2305e5a4153de3e4d0e8f4c7d31ac
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 32b168eca210b1371db129c05f7035237eb35c38
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856324"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008979"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-4-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 for Talent (4 juni 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-4-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 Talent (4 juni 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
-Deze versie bevat kleine correcties voor Dynamics 365 for Talent: Attract.
+Deze versie bevat kleine correcties voor Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Binnenkort in Attract
 
@@ -43,7 +43,7 @@ Goedkeuringen worden weergegeven in de sectie **Goedkeuringen** op het dashboard
 
 ## <a name="changes-in-onboard"></a>Wijzigingen in Onboard
 
-Deze versie bevat kleine correcties voor Dynamics 365 for Talent: Onboard.
+Deze versie bevat kleine correcties voor Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Wijzigingen in Core HR
 
@@ -67,7 +67,7 @@ De mogelijkheid om verlof van werknemers bij te houden en inzicht te krijgen in 
 
 ### <a name="deleting-a-record-from-talent-doesnt-remove-the-record-from-common-data-service"></a>Wanneer een record uit Talent wordt verwijderd, wordt deze niet verwijderd uit Common Data Service
 
-Records die worden verwijderd uit Talent Core HR, worden nu ook verwijderd uit Common Data Service.
+Records die worden verwijderd uit Talent: Core HR, worden nu ook verwijderd uit Common Data Service.
 
 ### <a name="variable-compensation-plan-valid-fromto-dates-arent-being-honored"></a>Geldigheidsdatums van variabelecompensatieplannen worden niet gerespecteerd
 

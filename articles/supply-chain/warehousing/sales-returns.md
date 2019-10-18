@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559141"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249791"
 ---
 # <a name="sales-returns"></a>Verkoopretouren
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559141"
 
 In dit onderwerp vindt u informatie over het proces voor retourorders. Het behandelt de afhandeling van klantretouren en het effect daarvan op kostprijsberekening en de voorhanden voorraadhoeveelheden.
 
-Klanten kunnen artikelen retourneren om verschillende redenen. Een artikel kan bijvoorbeeld beschadigd zijn of niet voldoen aan de verwachtingen van de klant. Het retourproces begint wanneer een klant een verzoek indient om een artikel te retourneren. Nadat het verzoek van de klant is ontvangen, wordt een retourorder gemaakt in Microsoft Dynamics 365 for Finance and Operations.
+Klanten kunnen artikelen retourneren om verschillende redenen. Een artikel kan bijvoorbeeld beschadigd zijn of niet voldoen aan de verwachtingen van de klant. Het retourproces begint wanneer een klant een verzoek indient om een artikel te retourneren. Nadat het verzoek van de klant is ontvangen, wordt een retourorder gemaakt.
 
 ## <a name="return-order-process"></a>Het retourorderproces
 De volgende afbeelding geeft een overzicht van het proces voor retourorders.  
@@ -281,7 +281,7 @@ Dit scenario omvat twee bedrijven in dezelfde organisatie, zoals te zien in de v
 
 ![Eenvoudige intercompany-retouren](./media/SalesReturn07.png)
 
-De orderketen kan worden opgesteld wanneer een leverancierretourorder wordt gemaakt in het inkopende bedrijf of een klantretourorder wordt gemaakt in het verkopende bedrijf. In Finance and Operations wordt de bijbehorende order gemaakt in het andere bedrijf. Er wordt voor gezorgd dat de koptekst en regelgegevens voor de leverancierretourorder overeenkomen met de instellingen op de klantretourorder. De retourorder die is opgesteld kan de verwijzing (**Verkooporder zoeken**) naar een bestaande klantfactuur bevatten of juist niet. De pakbonnen en facturen van de twee orders kunnen afzonderlijk worden verwerkt. U hoeft bijvoorbeeld geen pakbon te genereren voor de leverancierretourorder voordat u de pakbon voor de klantretourorder genereert.
+De orderketen kan worden opgesteld wanneer een leverancierretourorder wordt gemaakt in het inkopende bedrijf of een klantretourorder wordt gemaakt in het verkopende bedrijf. De bijbehorende order wordt gemaakt in het andere bedrijf. Er wordt voor gezorgd dat de koptekst en regelgegevens voor de retourorder van de leverancier overeenkomen met de instellingen op de klantretourorder. De retourorder die is opgesteld kan de verwijzing (**Verkooporder zoeken**) naar een bestaande klantfactuur bevatten of juist niet. De pakbonnen en facturen van de twee orders kunnen afzonderlijk worden verwerkt. U hoeft bijvoorbeeld geen pakbon te genereren voor de leverancierretourorder voordat u de pakbon voor de klantretourorder genereert.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Retouren bij zendingen met directe levering tussen drie partijen
 

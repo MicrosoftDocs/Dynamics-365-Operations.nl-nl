@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 45d3d962958d0487c9e65910a2dce24097a83773
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916548"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017753"
 ---
 # <a name="base-price-and-trade-agreements"></a> Basisprijs en handelsovereenkomsten
 
@@ -56,7 +56,7 @@ Deze procedure doorloopt het maken van kanaalspecifieke verkoopprijshandelsovere
 24. Klik op **Handelsovereenkomsten maken**.
 25. Klik op **Nieuw**.
 26. Klik in het veld **Naam** op de vervolgkeuzeknop om de zoekopdracht te openen.
-27. Selecteer 'Detailhandel' in de lijst. In de demogegevens heeft de journaalnaam 'Detailhandel' de standaardrelatie 'Prijs (verkoop)'. Dat betekent dat alle nieuw gemaakte regels standaard verkoopprijshandelsovereenkomsten gebruiken.  
+27. Selecteer **Detailhandel** in de lijst. In de demogegevens heeft de journaalnaam **Detailhandel** de standaardrelatie **Prijs (verkoop)**. Dat betekent dat alle nieuw gemaakte regels standaard verkoopprijshandelsovereenkomsten gebruiken.  
 28. Klik in het **actievenster** op **Regels**.
 29. Selecteer Groep in het veld **Rekeningcode**.
 30. Klik in het veld **Rekening selecteren** op de vervolgkeuzeknop om de zoekopdracht te openen.

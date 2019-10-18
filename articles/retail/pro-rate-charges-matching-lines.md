@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 07eea8fd7af4da611b4bd0c9340923f8894fab2c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d9f36da025528272b1a95456acf597dd5d923819
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1526010"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025167"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels
 
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp beschrijft de functionaliteit waarmee automatische toeslagen op koptekstniveau worden gegroepeerd en naar rato worden verdeeld voor detailhandelverkoopregels. Deze functionaliteit is beschikbaar voor transacties die zijn gemaakt op het verkooppunt (POS) in Microsoft Dynamics 365 for Retail versie 10.0.1 en verkopen die zijn gemaakt in een callcenter in Microsoft Dynamics 365 for Retail versie 10.0.2.
+Dit onderwerp beschrijft de functionaliteit waarmee automatische toeslagen op koptekstniveau worden gegroepeerd en naar rato worden verdeeld voor detailhandelverkoopregels. Deze functionaliteit is beschikbaar voor transacties die zijn gemaakt op het verkooppunt (POS) in Retail versie 10.0.1 en verkopen die zijn gemaakt in een callcenter in Retail versie 10.0.2.
 
 Deze functionaliteit is alleen beschikbaar als de functie voor [geavanceerde automatische toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) is ingeschakeld via de optie op de pagina **Parameters detailhandel**. Bovendien kan de verbeterde berekeningsmethode voor automatische toeslagen alleen worden toegepast op detailhandelverkooporders die zijn gemaakt via detailhandelkanalen (het POS, een callcenter en het platform Dynamics e-Commerce).
 
 Deze nieuwe functionaliteit biedt organisaties meer flexibiliteit in de manier waarop automatische toeslagen op koptekstniveau worden berekend en toegepast op verkooptransacties voor de detailhandel.
 
-In versies van Microsoft Dynamics 365 for Retail die eerder zijn dan versie 10.0.1, worden automatische toeslagen op koptekstniveau met een specifieke relatie voor leveringsmethode alleen berekend als er een overeenkomst is met de leveringsmethode die is gedefinieerd op de verkooporderkoptekst.
+In versies van Retail die eerder zijn dan versie 10.0.1, worden automatische toeslagen op koptekstniveau met een specifieke relatie voor leveringsmethode alleen berekend als er een overeenkomst is met de leveringsmethode die is gedefinieerd op de verkooporderkoptekst.
 
 Bijvoorbeeld: automatische toeslagen op koptekstniveau worden gedefinieerd voor leveringsmethode **99** en leveringsmethode **11**. Een verkooporder wordt gemaakt en de leveringsmethode **99** wordt gedefinieerd op de orderkoptekst. Sommige verkoopregels zijn echter zo ingesteld dat ze worden verzonden met behulp van de leveringsmethode **11**. In dit geval worden alleen de toeslagen op koptekstniveau die zijn gekoppeld aan leveringsmethode **99**, meegenomen en toegepast op de verkooporder.
 
-In Dynamics 365 for Retail hebben de toeslagen op koptekstniveau een extra functie waarmee u een [configuratie van gelaagde toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) kunt definiëren die is gebaseerd op de orderwaarde. Bijvoorbeeld: als de orderwaarde tussen 50,00 en 200,00 EUR is, wil een organisatie mogelijk vrachtkosten van 5,00 EUR in rekening brengen. Als de waarde tussen 200,01 en 500,00 EUR ligt, zijn de vrachtkosten echter mogelijk 4,00 EUR.
+In Retail hebben de toeslagen op koptekstniveau een extra functie waarmee u een [configuratie van gelaagde toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) kunt definiëren die is gebaseerd op de orderwaarde. Bijvoorbeeld: als de orderwaarde tussen 50,00 en 200,00 EUR is, wil een organisatie mogelijk vrachtkosten van 5,00 EUR in rekening brengen. Als de waarde tussen 200,01 en 500,00 EUR ligt, zijn de vrachtkosten echter mogelijk 4,00 EUR.
 
 Sommige organisaties willen de voordelen van de berekening van gelaagde toeslagen die wordt verschaft met de toeslagen op koptekstniveau. In scenario's met gecombineerde leveringsmethoden, wil men er echter ook voor zorgen dat de toeslagen die worden berekend, worden gebaseerd op een overeenkomst met de leveringsmethode die is gedefinieerd op elke verkoopregel.
 

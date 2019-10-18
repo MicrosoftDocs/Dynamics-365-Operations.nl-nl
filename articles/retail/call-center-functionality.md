@@ -1,6 +1,6 @@
 ---
 title: Verkoopfunctionaliteit callcenter
-description: Dit onderwerp bevat een overzicht van de functionaliteit voor callcenterverkoop in Microsoft Dynamics 365 for Retail.
+description: Dit onderwerp bevat een overzicht van de functionaliteit voor callcenterverkoop in Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
@@ -19,26 +19,28 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549475"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025766"
 ---
 # <a name="call-center-sales-functionality"></a>Verkoopfunctionaliteit callcenter
 
 [!include [banner](includes/banner.md)]
 
-In Dynamics 365 for Retail is een callcenter een type detailhandelafzetkanaal dat kan worden gedefinieerd in de toepassing. Als u een specifiek kanaal definieert voor uw callcenterentiteiten, kan het systeem specifieke gegevensstandaardwaarden en standaardwaarden voor orderverwerking koppelen aan verkooporders die zijn gemaakt door een gebruiker of het callcenterkanaal.
+
+In Dynamics 365 Retail is een callcenter een type detailhandelafzetkanaal dat kan worden gedefinieerd in de toepassing. Als u een specifiek kanaal definieert voor uw callcenterentiteiten, kan het systeem specifieke gegevensstandaardwaarden en standaardwaarden voor orderverwerking koppelen aan verkooporders die zijn gemaakt door een gebruiker of het callcenterkanaal.
 
 Callcenterfuncties bevatten geavanceerde detailhandelsprijzen en promoties, catalogi, geschenkbonnen, loyaliteitsprogramma's en coupons. Callcenterorders worden ook gebruikt door de POS-toepassing (Point of Sales) ter ondersteuning van afhandelingsscenario's van orders tussen afzetkanalen.
 
-Het is belangrijk te weten dat de callcentermodule kan worden gebruikt door andere bedrijfstakken dan de detailhandel, maar de huidige versie van de toepassing Dynamics 365 for Retail-callcenter is niet geoptimaliseerd voor gebruik in B2B-orderverwerkingsscenario's of scenario's waarin orders een grote hoeveelheid verkoopregels hebben. Het is raadzaam dat gebruikers die gebruik willen maken van de callcenterfuncties voor orderverwerking buiten de verwerking van rechtstreekse transacties met de consument, voldoende tijd nemen om te testen en te valideren of activering van de callcenterfunctionaliteit voldoet aan functionele en prestatievereisten.
+Het is belangrijk te weten dat de callcentermodule kan worden gebruikt door andere bedrijfstakken dan de detailhandel, maar de huidige versie van de toepassing voor detailhandelcallcenter is niet geoptimaliseerd voor gebruik in B2B-orderverwerkingsscenario's of scenario's waarin orders een grote hoeveelheid verkoopregels hebben. Het is raadzaam dat gebruikers die gebruik willen maken van de callcenterfuncties voor orderverwerking buiten de verwerking van rechtstreekse transacties met de consument, voldoende tijd nemen om te testen en te valideren of activering van de callcenterfunctionaliteit voldoet aan functionele en prestatievereisten.
 
 Met de callcentermodule kunnen orders worden gemaakt en wordt een gebruiksvriendelijke klantservicetoepassing geleverd die het eenvoudiger maakt voor gebruikers om klantaccounts te vinden en om alle gerelateerde klantordergegevens en -kenmerken te controleren. Het klantservicescherm is ontworpen om een gebruiker snel toegang te verschaffen tot ordergerelateerde gegevens waarmee de meest voorkomende ordergerelateerde vragen worden beantwoord die van klanten worden ontvangen.
 
-Deze pagina bevat koppelingen naar relevante documentatie met betrekking tot de installatie, configuratie en het functionele gebruik van de callcenterfuncties in Dynamics 365 for Retail.
+Deze pagina bevat koppelingen naar relevante documentatie met betrekking tot de installatie, configuratie en het functionele gebruik van de callcenterfuncties in Retail.
+
 
 ## <a name="configure-the-call-center"></a>Het callcenter configureren
 

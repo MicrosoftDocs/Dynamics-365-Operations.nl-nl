@@ -1,6 +1,6 @@
 ---
-title: Problemen met integratie met LinkedIn en Microsoft Dynamics 365 for Talent - Attract oplossen
-description: In dit onderwerp wordt uitgelegd hoe u problemen bij het plaatsen van vacatures op LinkedIn vanuit Microsoft Dynamics 365 for Talent - Attract oplost.
+title: Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - Attract oplossen
+description: In dit onderwerp wordt uitgelegd hoe u problemen bij het plaatsen van vacatures op LinkedIn vanuit Microsoft Dynamics 365 Talent - Attract oplost.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 82ba7c505ba09e47f3c517c74c22e6aef7cd4e65
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 79f138ad9aeb203bce19cc93237fca96bffd015f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739352"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008215"
 ---
 # <a name="troubleshoot-integration-with-linkedin"></a>Problemen met integratie met LinkedIn oplossen
 
 [!include [banner](../includes/banner.md)]
 
-Gebruik de volgende informatie om eventuele problemen bij het plaatsen van vacatures vanuit Microsoft Dynamics 365 for Talent: Attract op LinkedIn op te lossen.
+Gebruik de volgende informatie om eventuele problemen bij het plaatsen van vacatures vanuit Microsoft Dynamics 365 Talent: Attract op LinkedIn op te lossen.
 
 ## <a name="you-cant-sign-in-to-linkedin-from-attract"></a>U kunt zich niet aanmelden bij LinkedIn vanuit Attract
 

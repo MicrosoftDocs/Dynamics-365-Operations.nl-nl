@@ -1,6 +1,6 @@
 ---
 title: Overzicht kwaliteitsbeheer
-description: In dit onderwerp wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
+description: In dit onderwerp wordt beschreven hoe u kwaliteitsbeheer in Dynamics 365 Supply Chain Management kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
@@ -19,24 +19,24 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557495"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249570"
 ---
 # <a name="quality-management-overview"></a>Overzicht kwaliteitsbeheer
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
+In dit onderwerp wordt beschreven hoe u kwaliteitsbeheer in Dynamics 365 Supply Chain Management kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
 
-Kwaliteitsbeheer kan u helpen keerpunttijden te beheren wanneer u te maken hebt met niet-overeenkomende producten, ongeacht hun punt van oorsprong. Omdat typen diagnoses aan correctierapportage zijn gekoppeld, kan Microsoft Dynamics 365 for Finance and Operations taken plannen om problemen te corrigeren en te voorkomen dat deze worden herhaald.
+Kwaliteitsbeheer kan u helpen keerpunttijden te beheren wanneer u te maken hebt met niet-overeenkomende producten, ongeacht hun punt van oorsprong. Omdat typen diagnoses aan correctierapportage zijn gekoppeld, kan Finance and Operations taken plannen om problemen te corrigeren en te voorkomen dat deze worden herhaald.
 
 Naast functionaliteit voor het beheer van non-conformiteit omvat het kwaliteitsbeheer functionaliteit voor het bijhouden van problemen op probleemtype (ook interne problemen) en om oplossingen als kortetermijn- of langetermijnoplossingen te identificeren. De statistieken over Key Performance Indicators (KPI´s) bieden inzicht in de geschiedenis van eerdere niet-conformeringsproblemen en de oplossingen die zijn gebruikt om ze te corrigeren. U kunt de historische gegevens gebruiken om de efficiëntie van eerdere kwaliteitsmetingen te controleren en passende stappen voor de toekomst te definiëren.
 
-Wanneer u een kwaliteitskoppeling opzet, kan Finance and Operations kwaliteitsorders genereren voor verschillende bedrijfsprocessen, gebeurtenissen en voorwaarden. De kwaliteitskoppeling kan betrekking hebben op een specifiek artikel, een specifieke groep artikelen of alle artikelen.
+Wanneer u een kwaliteitskoppeling opzet, kan Supply Chain Management kwaliteitsorders genereren voor verschillende bedrijfsprocessen, gebeurtenissen en voorwaarden. De kwaliteitskoppeling kan betrekking hebben op een specifiek artikel, een specifieke groep artikelen of alle artikelen.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Voorbeelden van het gebruik van kwaliteitsbeheer
 Kwaliteitsbeheer is flexibel en kan op verschillende manieren worden geïmplementeerd om aan de vereisten van specifieke niveaus van toeleveringsactiviteiten te voldoen. In de volgende voorbeelden worden mogelijke toepassingen van deze functies beschreven:

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe8c4bc8f2efb06de4cb6fd727df93ba1a5d14bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554639"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251335"
 ---
 # <a name="price-simulation"></a>Prijssimulatie
 
@@ -51,7 +51,7 @@ Kortingen en prijzen moeten correct worden berekend. Let daarom goed op als u pr
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Kortingstypen in handelsovereenkomsten
 
-In handelsovereenkomsten in Microsoft Dynamics 365 for Finance and Operations kunnen vier typen prijskortingen worden gebruikt. Deze kortingen kunnen worden ingesteld voor verschillende artikelen, klanten of prijsgroepen. De geldigheid ervan kan worden beperkt op datum. U moet bij het uitvoeren van prijssimulaties rekening houden met handelsovereenkomsten om fouten in berekeningen te voorkomen. In handelsovereenkomsten komen de volgende vier typen kortingen voor:
+In handelsovereenkomsten in Supply Chain Management kunnen vier typen prijskortingen worden gebruikt. Deze kortingen kunnen worden ingesteld voor verschillende artikelen, klanten of prijsgroepen. De geldigheid ervan kan worden beperkt op datum. U moet bij het uitvoeren van prijssimulaties rekening houden met handelsovereenkomsten om fouten in berekeningen te voorkomen. In handelsovereenkomsten komen de volgende vier typen kortingen voor:
 
 -   **Verkoopprijs**: Het is mogelijk om afzonderlijke verkoopprijzen op te geven voor artikelen. Bij het maken van offerteregels wordt gezocht naar de juiste verkoopprijs voor een artikel, die vervolgens in de offerteregels wordt opgenomen. Daarom is een handelsovereenkomst met dit kortingstype niet van invloed op de prijssimulatie. De verkoopprijs die in de offerteregel wordt gebruikt, is in overeenstemming met de handelsovereenkomst.
 -   **Regelkorting**: Afhankelijk van de bestelde hoeveelheden worden speciale kortingen opgegeven voor artikelen. De regelkorting wordt meestal van de regelbedragen afgetrokken vóór het uitvoeren van de prijssimulatie. Daarom is een handelsovereenkomst met dit kortingstype van invloed op de prijssimulatie.

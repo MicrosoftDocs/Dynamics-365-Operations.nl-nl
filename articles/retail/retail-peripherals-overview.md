@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742628"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025048"
 ---
 # <a name="retail-peripherals"></a>Randapparatuur detailhandel
 
@@ -116,9 +116,9 @@ Ondersteuning voor betalingsapparaten wordt geïmplementeerd via de betalingscon
 
 ### <a name="opos"></a>OPOS
 
-Om te garanderen dat het grootste aantal apparaten kan worden gebruikt met Microsoft Dynamics 365 for Retail is de industriestandaard OLE voor POS het primaire platform voor detailhandelrandapparaten dat wordt ondersteund in Microsoft Dynamics 365 for Retail. De OLE voor POS-norm is opgesteld door de National Retail Federation (NRF), die communicatieprotocollen voor detailhandelrandapparatuur opstelt die de norm in de branche zijn. OPOS is een algemeen geaccepteerde implementatie van de OLE voor POS-norm. Deze is ontwikkeld in de jaren 1990 en sinds die tijd verschillende malen geactualiseerd. OPOS biedt een apparaatstuurprogramma-architectuur die eenvoudige integratie van POS-hardware met Windows-gebaseerde POS-systemen mogelijk maakt. OPOS-besturingselementen handelen de communicatie af tussen hardware en de POS-software. Een OPOS-besturingselement bestaat uit twee onderdelen:
+Om te garanderen dat het grootste aantal apparaten kan worden gebruikt met Retail, is de industriestandaard OLE voor POS het primaire platform voor randapparatuur voor detailhandel dat wordt ondersteund. De OLE voor POS-norm is opgesteld door de National Retail Federation (NRF), die communicatieprotocollen voor detailhandelrandapparatuur opstelt die de norm in de branche zijn. OPOS is een algemeen geaccepteerde implementatie van de OLE voor POS-norm. Deze is ontwikkeld in de jaren 1990 en sinds die tijd verschillende malen geactualiseerd. OPOS biedt een apparaatstuurprogramma-architectuur die eenvoudige integratie van POS-hardware met Windows-gebaseerde POS-systemen mogelijk maakt. OPOS-besturingselementen handelen de communicatie af tussen hardware en de POS-software. Een OPOS-besturingselement bestaat uit twee onderdelen:
 
-- **Control object**: Het control object voor een apparaatklasse (zoals een regelweergave) biedt de interface voor het softwareprogramma. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) biedt een gestandaardiseerde reeks OPOS Control objects aan, die bekend staan als de Common Control Objects (CCO's). De CCO's worden gebruikt voor het testen van de POS-component van Microsoft Dynamics 365 for Retail. Daarom helpt het testen te garanderen dat, als Microsoft Dynamics 365 for Retail een apparaatklasse via OPOS ondersteunt, vele typen apparaten worden ondersteund, indien de fabrikant een serviceobject levert dat is samengesteld voor OPOS. U hoeft niet expliciet elk apparaattype te testen.
+- **Control object**: Het control object voor een apparaatklasse (zoals een regelweergave) biedt de interface voor het softwareprogramma. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) biedt een gestandaardiseerde reeks OPOS Control objects aan, die bekend staan als de Common Control Objects (CCO's). De CCO's worden gebruikt voor het testen van de POS-component van Retail. Daarom helpt het testen te garanderen dat, als Retail een apparaatklasse via OPOS ondersteunt, vele typen apparaten worden ondersteund, onder voorwaarde dat de fabrikant een serviceobject levert dat is samengesteld voor OPOS. U hoeft niet expliciet elk apparaattype te testen.
 - **Serviceobject**: Het serviceobject verzorgt de communicatie tussen het Control Object (CCO) en het apparaat. Meestal wordt voor fysieke apparaten het serviceobject geleverd door de fabrikant van het apparaat. In sommige gevallen moet u misschien het serviceobject downloaden vanaf de website van de fabrikant. Er kan bijvoorbeeld een meer recente serviceobject beschikbaar zijn. Het adres van de website van de fabrikant vindt u in de documentatie bij uw hardware.
 
 [![Controleobject en serviceobject](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -126,7 +126,7 @@ Om te garanderen dat het grootste aantal apparaten kan worden gebruikt met Micro
 Door de ondersteuning voor de OPOS-implementatie van OLE voor POS kunnen POS-systemen en ondersteunde apparaten samenwerken, zelfs als ze daarvoor niet samen zijn getest, als de apparaatfabrikanten en POS-uitgevers de standaard correct implementeren.
 
 > [!NOTE]
-> OPOS-ondersteuning garandeert niet de ondersteuning voor alle apparaten met OPOS-stuurprogramma's. Microsoft Dynamics 365 for Retail moet eerst ondersteuning voor dat apparaattype of klasse bieden via OPOS. Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's. Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.
+> OPOS-ondersteuning garandeert niet de ondersteuning voor alle apparaten met OPOS-stuurprogramma's. Retail moet eerst ondersteuning voor dat apparaattype of klasse bieden via OPOS. Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's. Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.
 
 ### <a name="windows"></a>Windows
 
@@ -136,7 +136,7 @@ Het afdrukken van kassabonnen op het POS is geoptimaliseerd voor OPOS. Het afdru
 - Apparaten die zijn verbonden via de printer ('daisy-chained' ofwel in serie) werken mogelijk niet correct met Windows-stuurprogramma's. Bijvoorbeeld gaat de kassalade niet open of de bonprinter functioneert niet zoals u verwacht.
 - OPOS ondersteunt ook een uitgebreidere reeks variabelen die specifiek zijn voor kassabonprinters in de detailhandel, zoals papiersnijden of bon afdrukken.
 
-Als OPOS-besturingselementen beschikbaar zijn voor uw Windows-printer, functioneert de printer naar verwachting nog steeds correct met Microsoft Dynamics 365 for Retail.
+Als OPOS-besturingselementen beschikbaar zijn voor uw Windows-printer, functioneert de printer naar verwachting nog steeds correct met Retail.
 
 ### <a name="universal-windows-platform"></a>Universeel Windows-platform
 
@@ -192,7 +192,7 @@ U kunt op twee plaatsen IP-adressen voor netwerkrandapparaten opgeven. Als de Mo
 
 #### <a name="modern-pos-for-android"></a>Modern POS voor Android
 
-Sinds Dynamics 365 for Retail 8.1.3 bevat de toepassing Modern POS voor Android een ingebouwd IPC-hardwarestation. Dit hardwarestation ondersteunt de communicatie met netwerkprinters en betalingsconnectors. Lees voor meer informatie het artikel [Hybrid app for Android docs](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+Sinds Retail versie 8.1.3 bevat de toepassing Modern POS voor Android een ingebouwd IPC-hardwarestation. Dit hardwarestation ondersteunt de communicatie met netwerkprinters en betalingsconnectors. Lees voor meer informatie het artikel [Hybrid app for Android docs](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS en Modern POS voor iOS
 
@@ -526,7 +526,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 Zie voor meer informatie over het maken van hardwareprofielen het onderwerp [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Voor Microsoft Dynamics 365 for Retail versie 1611 wordt het hardwarestationprofiel niet meer gebruikt. Kenmerken die u hebt ingesteld in het hardwarestationprofiel maken nu deel uit van het hardwarestation zelf.
+> Voor Retail versie 1611 wordt het hardwarestation-profiel niet meer gebruikt. Kenmerken die u hebt ingesteld in het hardwarestationprofiel maken nu deel uit van het hardwarestation zelf.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS voor Windows met een IPC-hardwarestation (geïntegreerd)
 

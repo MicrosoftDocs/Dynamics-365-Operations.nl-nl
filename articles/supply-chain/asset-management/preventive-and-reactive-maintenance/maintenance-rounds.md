@@ -3,7 +3,7 @@ title: Onderhoudsrondes
 description: In dit onderwerp wordt uitgelegd wat onderhoudsronden zijn in Activabeheer.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a0ac4820d2efa37387382c2890e3ddc7dbc0878b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875585"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922017"
 ---
 # <a name="maintenance-rounds"></a>Onderhoudsrondes
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 In **Activabeheer** kunt u onderhoudsronden maken voor verschillende activa. Daarop kunt u met regelmatige tussenpozen een soortgelijke taak uitvoeren. Bijvoorbeeld smeertaken of veiligheidsinspectietaken die voor een aantal machines binnen dezelfde intervallen moeten worden uitgevoerd. De eerste stap bestaat uit het maken van een onderhoudsronde, inclusief activa waarvoor eenzelfde onderhoudstaak moet worden uitgevoerd. Vervolgens plant u de onderhoudsronden. Wanneer u de planning van de onderhoudsronden hebt voltooid, kunt u alle taakrecords voor de ronden bekijken in **Hele onderhoudsschema** en **Openstaande onderhoudsschemaregels**.
 
@@ -83,6 +81,8 @@ In **Activabeheer** kunt u onderhoudsronden maken voor verschillende activa. Daa
 >[!NOTE]
 >In de velden **Activa** en **Regels** in de groep **Details** van het sneltabblad **Koptekst** ziet u het totaal aantal activa en regels voor de geselecteerde onderhoudsronde.
 
+In de onderstaande afbeelding ziet u een voorbeeld van een onderhoudsronde die drie activa bevat.
+
 ![Figuur 1](media/13-preventive-maintenance.png)
 
 
@@ -106,6 +106,8 @@ Wanneer u een onderhoudsronde hebt ingesteld, voert u een planningstaak uit om a
 6. Klik op **OK**.
 
 7. Nu kunt u de taken van de onderhoudsronden bekijken in **Activabeheer** > **Algemeen** > **Onderhoudsschema** > **Hele onderhoudsschema** of **Openstaande onderhoudsschemaregels**. Als de geplande ronden zijn gekoppeld aan een werkordergroep, ziet u ook onderhoudsschemaregels in **Openstaande onderhoudsschemagroepen**. Onderhoudsschemaregels op basis van een ronde hebben het verwijzingstype Onderhoudsronden.
+
+In de twee illustraties hieronder ziet u een planningstaak in het dialoogvenster **Onderhoudsronden plannen** en de onderhoudsplanningsregels die op basis van die planningstaak zijn gemaakt in **Alle onderhoudsschema's**.
 
 ![Figuur 2](media/14-preventive-maintenance.png)
 

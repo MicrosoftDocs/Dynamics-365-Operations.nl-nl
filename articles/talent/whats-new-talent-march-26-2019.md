@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent (26 maart 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent (26 maart 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/26/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741562"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023879"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (26 maart 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (26 maart 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
@@ -53,7 +53,7 @@ Deze versie bevat kleine correcties voor Dynamics 365 Talent: Onboard.
 
 ### <a name="custom-field-support-available-for-select-entities-in-common-data-service"></a>Ondersteuning van aangepaste velden beschikbaar voor bepaalde entiteiten in Common Data Service 
 
-De volgende Common Data Service-entiteiten bieden voortaan ondersteuning aan aangepaste velden die zijn gemaakt in Dynamics 365 for Talent:
+De volgende Common Data Service-entiteiten bieden voortaan ondersteuning aan aangepaste velden die zijn gemaakt in Talent:
 
 - Medewerker
 - Etnische afkomst
@@ -72,10 +72,10 @@ Met deze wijziging worden op de pagina met dienstverbandhistorie dienstverbandre
 In deze release worden vastecompensatieplannen nu weergegeven wanneer gebruikers per bedrijf in beveiliging worden beperkt. Alle beveiligingsinstellingen worden gehonoreerd en vaste plannen worden weergegeven voor de bedrijven waarvoor de gebruiker toegangsrechten heeft. 
 
 ### <a name="cant-delete-job-records-using-open-in-excel-option-in-talent"></a>Functierecords kunnen niet worden verwijderd met de optie Openen in Excel
-Met deze versie kunt u nu functierecords verwijderen met de optie **Openen in Excel** in Dynamics 365 for Talent.
+Met deze versie kunt u nu functierecords verwijderen met de optie **Openen in Excel** in Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Upgrade naar Common Data Service
-Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-Beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Preview
 
@@ -93,7 +93,7 @@ Organisaties kunnen vereisen dat redencodes worden ingesteld voor specifieke ver
 In veel organisaties hebben managers voor compensaties en vergoedingen mogelijk alleen toegang tot bepaalde compensatierecords. Dit kan voor leidinggevenden of regionale werknemers zijn. Met deze wijziging kan HR de compensatieplannen beheren en onderhouden voor verschillende werknemersgroepen in de organisatie. U kunt aan vaste en variabele plannen beveiligingsrollen toewijzen waarmee de toegang wordt bepaald tot de plannen en de werknemersgegevens die zijn gerelateerd aan de plannen, zoals salaris- of bonusrecords. Alleen de rollen waaraan toegangsrechten zijn verleend, kunnen compensatie voor deze werknemers verwerken.
 
 ###  <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
-Met platformupdate 25 kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer deze door een gebeurtenis worden geactiveerd. 
+Met Platformupdate 25 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Controles of dubbele werknemers: gebruikersinterfacewijzigingen
 Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invoert en met een status wordt het aantal dubbelen weergegeven. U kunt de opgegeven koppeling selecteren om een nieuwe pagina te openen om te beoordelen of de gedetecteerde overeenkomst moet worden gebruikt. Om te voorkomen dat gegevensinvoer wordt onderbroken, wordt het formulier met dubbele records niet automatisch geopend.

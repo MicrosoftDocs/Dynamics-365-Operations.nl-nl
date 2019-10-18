@@ -3,7 +3,7 @@ title: Geplande orders onderhouden
 description: Dit onderwerp bevat informatie over het beheer van geplande orders. Het beschrijft hoe u de status van geplande orders kunt bijwerken en fiatteren en hoe u kunt filteren voor geplande orders die dezelfde status als een geselecteerde geplande order hebben.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 10/02/2018
+ms.date: 09/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf578d98abc4825c5607ec031da6ab6737c3183a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
+ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560367"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "1993435"
 ---
 # <a name="maintain-planned-orders"></a>Geplande orders onderhouden
 
@@ -32,19 +32,32 @@ ms.locfileid: "1560367"
 
 Dit onderwerp bevat informatie over het beheer van geplande orders. Het beschrijft hoe u de status van geplande orders kunt bijwerken en fiatteren en hoe u kunt filteren voor geplande orders die dezelfde status als een geselecteerde geplande order hebben.
 
-U kunt geplande orders vanuit de werkruimte **Hoofdplanning**, de lijst **Geplande order** of de lijsten **Geplande productieorders**, **Geplande inkooporders** en **Geplande overboeking** beheren. U kunt het veld **Status** gebruiken om uw voortgang bij te houden. De volgende waarden worden gebruikt:
+U kunt geplande orders vanuit de werkruimte **Hoofdplanning**, de lijst **Geplande order** of de lijsten **Geplande productieorders**, **Geplande inkooporders** en **Geplande overboeking** beheren. 
+
+## <a name="planned-order-status"></a>Status van geplande order
+U kunt het veld **Status** gebruiken om uw voortgang bij te houden. De volgende waarden worden gebruikt:
 
 -   Wanneer geplande orders door de hoofdplanning worden gegenereerd, hebben de geplande orders de status **Niet-verwerkt**.
 -   Wanneer u besluit een geplande order niet te fiatteren, kunt u die order de status **Voltooid** geven.
--   Wanneer u besluit een geplande order te fiatteren, geeft u die order de status **Goedgekeurd**. Deze status geeft aan dat u ermee akkoord gaat dat de geplande order wordt gefiatteerd, maar de order is nog niet gefiatteerd.
+-   Als u een geplande order wilt fiatteren, kunt u de status wijzigen in **Goedgekeurd**. Geplande orders met de status **Goedgekeurd** worden geëerbiedigd door de hoofdplanning. Ze worden dus niet gewijzigd of verwijderd. 
 
-**Opmerking:** Een goedgekeurde, geplande order wordt in de huidige status overgeboekt naar de volgende berekening in de hoofdplanning. U kunt geplande orders fiatteren door te klikken op **Fiatteren**. De volgende geplande orders kunnen worden gefiatteerd:
+## <a name="firming-planned-orders"></a>Geplande orders fiatteren 
+Door geplande orders te fiatteren, worden echte orders gemaakt. Dit worden ook wel *vrijgegeven* of *openstaande orders* genoemd. Wanneer een geplande order wordt gefiatteerd, wordt die order naar de ordersectie van de relevante module verplaatst.
 
--   De geplande order die is geselecteerd.
--   Meerdere geplande orders.
--   Geplande orders die door een explosie vanaf de pagina **Explosie** zijn gegenereerd. Klik op **Geplande orders**, selecteer de geplande order en klik op **Fiatteren**.
+Op de pagina **Geplande orders** kunt u twee opties voor fiatteren selecteren:
 
-Wanneer een geplande order wordt gefiatteerd, wordt die order naar de ordersectie van de relevante module verplaatst. 
+-   **Fiatteren**: hiermee kunt u een of meer geselecteerde geplande orders fiatteren.
+-   **Alles fiatteren**: hiermee kunt u alle geplande orders in het filter fiatteren. Als u **Alles fiatteren** gebruikt, hoeft u de geplande order niet te selecteren. Alle geplande orders in het filter worden gefiatteerd. Deze optie kan handig zijn als u een groot aantal geplande orders wilt fiatteren.
+
+> [!NOTE]
+> U kunt een gefiatteerde geplande order volgen via **Fiatteringshistorie** onder **formulier Geplande orders > Weergeven > Fiatteringshistorie**.
+
+## <a name="parallelize-firming"></a>Fiattering parallel uitvoeren
+Als u meerdere orders tegelijk wilt fiatteren, kunt u de uitvoeringstijd of prestaties verbeteren door de uitvoering parallel te laten verlopen. Deze optie is beschikbaar wanneer u meerdere geplande orders fiatteert met **Fiatteren** of **Alles fiatteren**. De volgende parameters zijn beschikbaar:
+
+-   **Parallel fiatteren**: als **Ja** is ingesteld, wordt het fiatteringsproces uitgevoerd parallel met het aantal threads dat is gedefinieerd in **Aantal threads**.
+-   **Aantal threads** : hiermee bepaalt u het aantal threads waarmee het fiatterinigsproces parallel moet worden uitgevoerd. De parameter wordt alleen weergegeven als **Parallel fiatteren** is ingesteld op **Ja**.
+
 
 <a name="additional-resources"></a>Aanvullende resources
 --------

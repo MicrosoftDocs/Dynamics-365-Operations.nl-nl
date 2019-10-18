@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40664936382f5edcb3c1680aa4af245bdef539a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560135"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250195"
 ---
 # <a name="modeling-a-lean-organization"></a>Een lean organisatie modelleren
 
@@ -39,7 +39,7 @@ In productiescenario's die zijn gebaseerd op productieorders, worden materialen 
 
 Om de leveringsdoorlooptijden te verkorten en overmatige voorraad die wordt veroorzaakt door batchproductie tussen werkplaatsen te reduceren, introduceert lean manufacturing kanbanaanvulling en supermarkten in productie en magazijnaanvulling. Deze functies onderbreken meestal de productie van gedeeltelijk onafhankelijke kanbancycli. De aanvulling van een kanban voor een halffabricaat wordt niet meer geactiveerd door een order voor een eindproduct. 
 
-Om een productie- en kostprijs-context te maken voor de verschillende kanbanscenario's die worden voorgesteld in Microsoft Dynamics 365 for Finance and Operations, zijn de activiteitgebaseerde productiestromen geïntroduceerd als de basis van lean manufacturing. Alle kanbanregels verwijzen naar deze vooraf gedefinieerde structuur. Het op activiteit gebaseerde model ondersteunt de instelling van een grote verscheidenheid aan scenario's. Dit model voegt echter geen complexiteit toe voor de werkvloerwerknemers, omdat alle scenario's gebruikmaken van dezelfde op activiteiten gebaseerde gebruikersinterface.
+Om een productie- en kostprijs-context te maken voor de verschillende kanbanscenario's die worden voorgesteld, zijn de activiteitgebaseerde productiestromen geïntroduceerd als de basis van lean manufacturing. Alle kanbanregels verwijzen naar deze vooraf gedefinieerde structuur. Het op activiteit gebaseerde model ondersteunt de instelling van een grote verscheidenheid aan scenario's. Dit model voegt echter geen complexiteit toe voor de werkvloerwerknemers, omdat alle scenario's gebruikmaken van dezelfde op activiteiten gebaseerde gebruikersinterface.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Halffabricaten (niet-stuklijstniveaus)
 Lean manufacturing integreert kanbans voor geïnventariseerde producten en halffabricaten in één raamwerk, en biedt daarmee een uniforme gebruikerservaring voor alle aanvragen. Vanwege deze architectuur, hoeven geen extra stuklijstniveaus meer te worden opgegeven om het gebruik van kanbans mogelijk te maken voor halffabricaten. Deze architectuur helpt tevens de voorraadtransacties tot een minimum te beperken.
@@ -50,7 +50,7 @@ De verlaging van batchgrootte naar de ideale status van een stroom voor één st
 ## <a name="value-streams-and-value-stream-mapping"></a>Waardestromen en waardestroomtoewijzing
 De architectuur van lean manufacturing is geïnspireerd op de vijf Lean-principes die door Womack en Jones zijn geformuleerd: klantwaarde, waardestroom, stroom, pull en perfectie. Eén goedgekeurde methode voor het implementeren van lean manufacturing-oplossingen in de fysieke wereld van de productie is waardestroomtoewijzing (VSM). Deze methode werd geïntroduceerd door Rother en shook in hun publicatei "Learning to See" aan het Lean Manufacturing Institute. 
 
-In Finance and Operations kan de waardestroom van de toekomstige status als productiestroomversie worden gemodelleerd. Alle processen van de waardestroom worden gemodelleerd als procesactiviteiten. Mutaties of overboekingen kunnen als overboekingsactiviteiten worden gemodelleerd als de overboekingsstatus moet worden geregistreerd of als een integratie met orderverzameling of geconsolideerde zendingen is vereist. 
+De waardestroom van de toekomstige status kan als productiestroomversie worden gemodelleerd. Alle processen van de waardestroom worden gemodelleerd als procesactiviteiten. Mutaties of overboekingen kunnen als overboekingsactiviteiten worden gemodelleerd als de overboekingsstatus moet worden geregistreerd of als een integratie met orderverzameling of geconsolideerde zendingen is vereist. 
 
 De waardestroom zelf wordt gemodelleerd als operationele eenheid. Daarom kan de waardestroom als financiële dimensie worden gebruikt.
 

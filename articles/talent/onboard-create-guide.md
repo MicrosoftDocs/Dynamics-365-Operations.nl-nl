@@ -1,6 +1,6 @@
 ---
-title: Een onboardinghandleiding maken en verzenden met Dynamics 365 for Talent - Onboard
-description: In dit onderwerp wordt uitgelegd hoe u de Microsoft Dynamics 365 for Talent - Onboard-app gebruikt om een onboardinghandleiding voor uw nieuwe medewerkers te maken. Deze taak is een essentiële eerste stap in een HCM-strategie (Human Capital Management) voor aanstelling tot pensionering.
+title: Een onboardinghandleiding maken en verzenden met Dynamics 365 Talent - Onboard
+description: In dit onderwerp wordt uitgelegd hoe u de Microsoft-app Dynamics 365 Talent - Onboard gebruikt om een onboardinghandleiding voor uw nieuwe medewerkers te maken. Deze taak is een essentiële eerste stap in een HCM-strategie (Human Capital Management) voor aanstelling tot pensionering.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: de5d584e3b7edba2751aa0c83b0465df2c3e4f7d
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: e4dbfcc3b3fd611eea36109a516a7b9361a9f654
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731427"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009849"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-for-talent-onboard"></a>Een onboardinghandleiding maken en verzenden met Dynamics 365 for Talent: Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Een onboardinghandleiding maken en verzenden
 
 [!include [banner](includes/banner.md)]
 
-Met Microsoft Dynamics 365 for Talent: Onboard kunt u onboardinghandleidingen maken op basis van sjablonen die u zelf hebt gemaakt, van sjablonen die beschikbaar zijn in een galerie of helemaal opnieuw.
+Met Microsoft Dynamics 365 Talent: Onboard kunt u onboardinghandleidingen maken op basis van sjablonen die u zelf hebt gemaakt, van sjablonen die beschikbaar zijn in een galerie of helemaal opnieuw.
 
 Nadat u een onboardinghandleiding hebt gemaakt, kunt u deze verzenden naar een nieuwe medewerker. U kunt deze ook verzenden naar meerdere nieuwe medewerkers die u kunt opgeven in een Microsoft Excel-bestand dat u downloadt vanuit de Onboard-app.
 

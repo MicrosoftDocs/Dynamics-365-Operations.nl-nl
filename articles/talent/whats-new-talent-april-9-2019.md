@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent (9 april 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent (9 april 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/09/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 08f3f8150a120817618ee4d31197f3088c7483ab
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856419"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024086"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (9 april 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (9 april 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
@@ -91,4 +91,4 @@ Door verlof van werknemers bij te houden en inzicht te krijgen in de berekening 
 Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invoert en met een status wordt het aantal dubbelen weergegeven. U kunt de opgegeven koppeling selecteren om een nieuwe pagina te openen om te beoordelen of de gedetecteerde overeenkomst moet worden gebruikt. Om te voorkomen dat gegevensinvoer wordt onderbroken, wordt het formulier met dubbele records niet automatisch geopend.
 
 ###  <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
-Met platformupdate 25 kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer deze door een gebeurtenis worden geactiveerd. 
+Met Platformupdate 25 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd. 

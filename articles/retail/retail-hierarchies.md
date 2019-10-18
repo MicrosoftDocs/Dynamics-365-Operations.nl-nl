@@ -1,6 +1,6 @@
 ---
 title: Detailhandelhiërarchieën
-description: In dit artikel worden detailhandelhiërarchieën in Microsoft Dynamics 365 for Retail beschreven.
+description: In dit artikel worden detailhandelhiërarchieën in Dynamics 365 Retail beschreven.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb383c5bc5ad5d641db6f30e915ea43ba5980005
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568017"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025072"
 ---
 # <a name="retail-hierarchies"></a>Detailhandelhiërarchieën
 
 [!include [banner](includes/banner.md)]
 
-In dit artikel worden detailhandelhiërarchieën in Microsoft Dynamics 365 for Retail beschreven.
+In dit artikel worden detailhandelhiërarchieën in Dynamics 365 Retail beschreven.
 
 U kunt één detailhandelcategoriehiërarchie maken om alle producten die u via uw detailhandelkanalen verkoopt, in te delen. U kunt detailhandelproducthiërarchieën gebruiken voor het categoriseren of groeperen van producten. Deze producten kunt u vervolgens gebruiken om productassortimenten en klantloyaliteitsprogramma's te maken. U kunt tevens productkenmerken en -eigenschappen toewijzen, een prijsstructuur toewijzen, de producten in productpromoties opnemen en producten gebruiken voor rapportages. U kunt één detailhandelcategoriehiërarchie maken die alle producten en categorieën in uw organisatie vertegenwoordigt. U kunt deze categoriehiërarchie vervolgens voor meerdere doeleinden gebruiken. Het is ook mogelijk om meerdere detailhandelcategoriehiërarchieën te maken voor speciale doeleinden, zoals productpromoties. Als u een detailhandelproducthiërarchie maakt, moet u een type categoriehiërarchie toewijzen om het doel van de categoriehiërarchie te identificeren. Er wordt bijvoorbeeld alleen naar producthiërarchieën verwezen die het type **Detailhandelnavigatiehïerarchie** hebben toegewezen gekregen wanneer u online of in een verkooppunt in producten op categorie bladert.
 

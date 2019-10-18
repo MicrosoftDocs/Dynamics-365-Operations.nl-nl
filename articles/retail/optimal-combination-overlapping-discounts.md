@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00d7457b13e6633c9285a1fc43b8f6dd60dae9ae
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 555098a7d11cb0b4c0f90357ff260598e80108f5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836527"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017915"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>De optimale combinatie van overlappende kortingen bepalen
 
@@ -32,7 +32,7 @@ ms.locfileid: "1836527"
 
 Als kortingen elkaar overlappen, moet u bepalen welke combinatie van overlappende kortingen leidt tot het laagste totaalbedrag voor de transactie of de hoogste totale korting. Wanneer het kortingsbedrag varieert afhankelijk van de prijs van de producten die worden aangeschaft, zoals in de veelgebruikte retailkorting 'Koop 1, krijg 1 met X procent korting' (BOGO), wordt dit proces een kwestie van combinatorische optimalisatie.
 
-Dit artikel is van toepassing op Microsoft Dynamics AX 2012 R3 met KB 3105973 (uitgebracht op 2 november 2015) of hoger, en op Microsoft Dynamics 365 for Retail. Om de combinatie van overlappende kortingen die u wilt toepassen snel te bepalen, hebben we een methode voor het toepassen van overlappende kortingen ingevoerd. We noemen deze nieuwe methode **marginale-waardeclassificatie**. Marginale-waardeclassificatie wordt gebruikt wanneer de tijd die nodig is om mogelijke combinaties van overlappende kortingen te evalueren een drempel overschrijdt die u kunt configureren op de pagina **Detailhandelparameters**. In de methode voor marginale-waardeclassificatie wordt een waarde berekend voor elke overlappende korting door middel van de waarde van de korting op de gedeelde producten. De overlappende kortingen worden dan toegepast, vanaf de hoogste relatieve waarde tot de laagste relatieve waarde. Zie de sectie 'Marginale waarde' verderop in dit artikel voor meer informatie over de nieuwe methode. Marginale-waardeclassificatie wordt niet gebruikt wanneer de kortingsbedragen voor een product niet worden beïnvloed door een ander product in de transactie. Deze methode wordt bijvoorbeeld niet gebruikt voor twee eenvoudige kortingen of voor een eenvoudige korting en een kwantumkorting voor een enkel product.
+Dit artikel is van toepassing op Microsoft Dynamics AX 2012 R3 met KB 3105973 (uitgebracht op 2 november 2015) of hoger, en op Dynamics 365 Retail. Om de combinatie van overlappende kortingen die u wilt toepassen snel te bepalen, hebben we een methode voor het toepassen van overlappende kortingen ingevoerd. We noemen deze nieuwe methode **marginale-waardeclassificatie**. Marginale-waardeclassificatie wordt gebruikt wanneer de tijd die nodig is om mogelijke combinaties van overlappende kortingen te evalueren een drempel overschrijdt die u kunt configureren op de pagina **Detailhandelparameters**. In de methode voor marginale-waardeclassificatie wordt een waarde berekend voor elke overlappende korting door middel van de waarde van de korting op de gedeelde producten. De overlappende kortingen worden dan toegepast, vanaf de hoogste relatieve waarde tot de laagste relatieve waarde. Zie de sectie 'Marginale waarde' verderop in dit artikel voor meer informatie over de nieuwe methode. Marginale-waardeclassificatie wordt niet gebruikt wanneer de kortingsbedragen voor een product niet worden beïnvloed door een ander product in de transactie. Deze methode wordt bijvoorbeeld niet gebruikt voor twee eenvoudige kortingen of voor een eenvoudige korting en een kwantumkorting voor een enkel product.
 
 ## <a name="discount-examples"></a>Kortingsvoorbeelden
 

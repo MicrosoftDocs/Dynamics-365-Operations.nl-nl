@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546220"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250594"
 ---
 # <a name="product-identifiers"></a>Product-id's 
 
@@ -36,13 +36,13 @@ Wanneer u op de werkvloer met producten of in een magazijn in Microsoft Dynamics
 
 ## <a name="unique-product-numberproduct-id"></a>Uniek productnummer of unieke product-id
 
-In Microsoft Dynamics 365 for Finance and Operations is de primaire id voor een product het productnummer (de unieke product-id). Het nummer kan automatisch worden gegenereerd op basis van een nummerreeks of handmatig worden gekoppeld aan een product. Voor productvarianten kunnen de nummers worden gedefinieerd via de sjabloon voor de nomenclatuur van producten.
+In Dynamics 365 Supply Chain Management is de primaire id voor een product het productnummer (de unieke product-id). Het nummer kan automatisch worden gegenereerd op basis van een nummerreeks of handmatig worden gekoppeld aan een product. Voor productvarianten kunnen de nummers worden gedefinieerd via de sjabloon voor de nomenclatuur van producten.
 
-In veel gevallen is het productnummer oorspronkelijk niet gemaakt in Finance and Operations. In plaats daarvan is het gekoppeld aan een product in een systeem voor productlevenscyclusbeheer (PLM) of productgegevensbeheer (PDM). In dit geval kunt u gegevensentiteiten gebruiken om de producten en productvarianten te importeren. Finance and Operations gebruikt de nummers vervolgens voor alle bewerkingen.
+In veel gevallen is het productnummer oorspronkelijk niet gemaakt in Dynamics 365 Supply Chain Management. In plaats daarvan is het gekoppeld aan een product in een systeem voor productlevenscyclusbeheer (PLM) of productgegevensbeheer (PDM). In dit geval kunt u gegevensentiteiten gebruiken om de producten en productvarianten te importeren. Supply Chain Management gebruikt vervolgens de cijfers in alle bewerkingen.
 
-Wanneer u Finance and Operations implementeert, moet u extra aandacht aan uw strategie voor productnummers besteden. Een goed nummeringssysteem verbetert de logistieke stromen en kan fouten helpen voorkomen. Een goede product-id bestaat uit maximaal 15 tekens. In het ideale geval bestaat de id uit minder dan 10 tekens en bevat deze niet meer dan vijf classificerende tekens. U kunt ook zoeknamen gebruiken om snelle zoekacties mogelijk te maken. Een zoeknaam is een extra naam die de classificaties van een product vertegenwoordigt.
+Wanneer u Supply Chain Management implementeert, moet u extra aandacht aan uw strategie voor productnummers besteden. Een goed nummeringssysteem verbetert de logistieke stromen en kan fouten helpen voorkomen. Een goede product-id bestaat uit maximaal 15 tekens. In het ideale geval bestaat de id uit minder dan 10 tekens en bevat deze niet meer dan vijf classificerende tekens. U kunt ook zoeknamen gebruiken om snelle zoekacties mogelijk te maken. Een zoeknaam is een extra naam die de classificaties van een product vertegenwoordigt.
 
-Wanneer u Common Data Service (CDS) gebruikt, is het productnummer in Finance and Operations ook het productnummer in CDS. Productvarianten worden als aparte producten naar CDS gesynchroniseerd.
+Wanneer u Common Data Service gebruikt, is het productnummer in Supply Chain Management ook het productnummer in de Common Data Service. Productvarianten worden als aparte producten naar de Common Data Service gesynchroniseerd.
 
 ## <a name="item-number-and-product-dimensions"></a>Artikelnummer en productdimensies
 
@@ -56,19 +56,19 @@ Daarnaast kunt u ook zoeken en filteren op het productnummer, de productnaam en 
 
 ## <a name="product-name-and-description"></a>Productnaam en -omschrijving
 
-De productnaam en -omschrijving zijn de voor mensen leesbare id's van een product en kunnen in veel talen worden beheerd. Standaard worden in de Finance and Operations-client alle productgegevens in de standaardtaal van het bedrijf weergegeven, niet in de taal van de gebruiker. Vertaalde productnamen en -omschrijvingen worden echter gebruikt in alle communicatie met klanten en leveranciers. De vertalingen zijn gebaseerd op de taalcode van de klant- en leveranciersrekeningen.
+De productnaam en -omschrijving zijn de voor mensen leesbare id's van een product en kunnen in veel talen worden beheerd. Standaard worden in de Supply Chain Management-client alle productgegevens in de standaardtaal van het bedrijf weergegeven, niet in de taal van de gebruiker. Vertaalde productnamen en -omschrijvingen worden echter gebruikt in alle communicatie met klanten en leveranciers. De vertalingen zijn gebaseerd op de taalcode van de klant- en leveranciersrekeningen.
 
 Voor productvarianten kan de productnaam worden gegenereerd via een sjabloon voor de nomenclatuur van producten. Omdat productnamen niet uniek hoeven te zijn, kunt u meerdere producten met dezelfde naam vinden.
 
 ## <a name="product-and-item-search-names"></a>Zoeknamen voor producten en artikelen
 
-Finance and Operations biedt een secundaire zoeknaam voor producten en artikelen (vrijgegeven producten). Deze zoeknaam hoeft niet uniek te zijn en kan worden gewijzigd nadat een product- of productvariant is gemaakt. U wordt aangeraden de zoeknaam te gebruiken om te zoeken naar producten per categorie. Op basis van de zoeknamen kunt u snel zoeken, vooral in verkoop- en inkoopprocessen.
+Supply Chain Management biedt een secundaire zoeknaam voor producten en artikelen (vrijgegeven producten). Deze zoeknaam hoeft niet uniek te zijn en kan worden gewijzigd nadat een product- of productvariant is gemaakt. U wordt aangeraden de zoeknaam te gebruiken om te zoeken naar producten per categorie. Op basis van de zoeknamen kunt u snel zoeken, vooral in verkoop- en inkoopprocessen.
 
 De zoeknaam kan ook een klant- of leveranciersproduct-id of een andere externe product-id bevatten als deze externe id het primaire zoekcriterium voor een product is.
 
 ## <a name="external-product-identifiers-customer-and-vendor-identifiers"></a>Externe product-id's (klant- en leveranciers-id's)
 
-Voor vrijgegeven producten kunt u de artikelnummers, -namen en -omschrijvingen die de klant of leverancier gebruikt, behouden. Deze worden ook gebruikt in externe documenten, zoals verkooporders, inkooporders, pakbonnen en facturen. In de huidige versie van Finance and Operations worden deze externe verwijzingen niet weergegeven op pagina's voor kernoperaties. Het leveranciersartikelnummer is de enige uitzondering. Dit nummer wordt weergegeven in het dialoogvenster **Productgegevens** als een standaardleverancier is gedefinieerd voor het vrijgegeven product.
+Voor vrijgegeven producten kunt u de artikelnummers, -namen en -omschrijvingen die de klant of leverancier gebruikt, behouden. Deze worden ook gebruikt in externe documenten, zoals verkooporders, inkooporders, pakbonnen en facturen. In de huidige versie van Supply Chain Management worden deze externe verwijzingen niet weergegeven op pagina's voor kernoperaties. Het leveranciersartikelnummer is de enige uitzondering. Dit nummer wordt weergegeven in het dialoogvenster **Productgegevens** als een standaardleverancier is gedefinieerd voor het vrijgegeven product.
 
 U kunt de externe product-id's op vrijgegeven product, vrijgegeven productvariant, klant of klantengroep, of leverancier of leveranciersgroep beheren.
 
@@ -77,7 +77,7 @@ Voer een van de volgende stappen uit op de pagina **Vrijgegeven producten**.
 - Selecteer voor klanten op het tabblad **Verkopen** in de groep **Gerelateerde informatie** de optie **Extern-artikelomschrijving**.
 - Selecteer voor leveranciers op het tabblad **Inkoop** in de groep **Gerelateerde informatie** de optie **Extern-artikelomschrijving**.
 
-Op de pagina **Extern-artikelomschrijvingen** kunt u het artikelnummer van de klant of leverancier aan een vrijgegeven product koppelen. Deze koppeling moet worden uitgevoerd voor elke rechtspersoon. U kunt de volgende gegevens vastleggen. Helaas zijn de labels enigszins misleidend in de huidige versie van Finance and Operations. Deze labels worden mogelijk gewijzigd in een toekomstige versie.
+Op de pagina **Extern-artikelomschrijvingen** kunt u het artikelnummer van de klant of leverancier aan een vrijgegeven product koppelen. Deze koppeling moet worden uitgevoerd voor elke rechtspersoon. U kunt de volgende gegevens vastleggen. Helaas zijn de labels enigszins misleidend in de huidige versie van Supply Chain Management. Deze labels worden mogelijk gewijzigd in een toekomstige versie.
 
 | Veld | Bijbehorende klantgegevens | Bijbehorende leveranciersgegevens |
 |-------|------------------------------------|----------------------------------|
@@ -104,15 +104,15 @@ U beheert streepjescodes door op de pagina **Vrijgegeven producten** op het tabb
 
 In e-commerce is het van groot belang dat alle partijen een gemeenschappelijke taal spreken en naar producten verwijzen met een gemeenschappelijke set id's. Daarom maken sommige bedrijfstakken gebruik van [GTIN](https://www.gs1.org/id-keys/gtin), een wereldwijd systeem voor artikelnummering dat mogelijk wordt gemaakt door GS1.
 
-In Finance and Operations kunt u GTIN het beste beheren als streepjescode. U kunt GTIN echter ook gebruiken op de pagina **Artikel - GTIN**. U opent deze pagina door op de pagina **Vrijgegeven producten** op het tabblad **Voorraad beheren** in de groep **Magazijn** de optie **GTIN-codes** te selecteren. Houd er rekening mee dat GTIN niet als een globaal nummer wordt beheerd. In plaats daarvan wordt het beheerd per rechtspersoon.
+Wij adviseren de GTIN als streepjescode te onderhouden. U kunt GTIN echter ook gebruiken op de pagina **Artikel - GTIN**. U opent deze pagina door op de pagina **Vrijgegeven producten** op het tabblad **Voorraad beheren** in de groep **Magazijn** de optie **GTIN-codes** te selecteren. Houd er rekening mee dat GTIN niet als een globaal nummer wordt beheerd. In plaats daarvan wordt het beheerd per rechtspersoon.
 
-In Finance and Operations definieert u verpakkingsvarianten in de magazijnbewerkingen door specifieke maateenheden op te geven. Een artikel kan bijvoorbeeld zijn opgeslagen in stuks, in bundels van zes, in laden van 18 of in volle pallets. Er wordt een bepaalde maateenheid gedefinieerd voor elk van deze verpakkingsvarianten. Aangezien GTIN doorgaans is gerelateerd aan de verpakkingseenheid van een product, kunt u op de pagina **Artikel - GTIN** meerdere GTIN-codes per product en maateenheid beheren. U kunt dezelfde GTIN-code echter niet vaker dan één keer voor verschillende artikelen of varianten van het product van een rechtspersoon gebruiken.
+In Supply Chain Management definieert u verpakkingsvarianten in de magazijnbewerkingen door specifieke maateenheden op te geven. Een artikel kan bijvoorbeeld zijn opgeslagen in stuks, in bundels van zes, in laden van 18 of in volle pallets. Er wordt een bepaalde maateenheid gedefinieerd voor elk van deze verpakkingsvarianten. Aangezien GTIN doorgaans is gerelateerd aan de verpakkingseenheid van een product, kunt u op de pagina **Artikel - GTIN** meerdere GTIN-codes per product en maateenheid beheren. U kunt dezelfde GTIN-code echter niet vaker dan één keer voor verschillende artikelen of varianten van het product van een rechtspersoon gebruiken.
 
 U beheert **GTIN-codes** door op de pagina **Vrijgegeven producten** op het tabblad **Voorraad beheren** in de groep **Magazijn** de optie **GTIN** te selecteren.
 
 ## <a name="external-codes"></a>Externe codes
 
-In Finance and Operations kunnen voor veel entiteiten externe codes worden gedefinieerd. Zo kunt u externe codes definiëren om producten en vrijgegeven producten te identificeren. Deze externe codes kunnen worden gebruikt om statistische of btw-codes aan vrijgegeven producten en vrijgegeven productvarianten te koppelen. Externe codes worden gedefinieerd op basis van rechtspersoon en het codetype. Ze moeten uniek zijn voor elke rechtspersoon, elk codetype en elke tabelverwijzing.
+Voor een groot aantal entiteiten kunnen externe codes worden gedefinieerd. Zo kunt u externe codes definiëren om producten en vrijgegeven producten te identificeren. Deze externe codes kunnen worden gebruikt om statistische of btw-codes aan vrijgegeven producten en vrijgegeven productvarianten te koppelen. Externe codes worden gedefinieerd op basis van rechtspersoon en het codetype. Ze moeten uniek zijn voor elke rechtspersoon, elk codetype en elke tabelverwijzing.
 
 Helaas is er geen standaardfunctionaliteit waarmee u op externe codes kunt zoeken naar producten.
 
@@ -136,13 +136,13 @@ Helaas is er geen standaardfunctionaliteit waarmee u op externe codes kunt zoeke
 
 ### <a name="product-and-item-number-sequences"></a>Product- en artikelnummerreeksen
 
-In Finance and Operations kunt u twee verschillende nummerreeksen definiëren:
+U kunt twee verschillende nummerreeksvolgordes definiëren:
 
 - De nummerreeks **Productnummer** voor het globale productnummer
 - De nummerreeks **Artikelnummer** voor het artikelnummer per rechtspersoon
 
 > [!NOTE]
-> Alleen als u verschillende rechtspersonen uit verschillende bronnen met verschillende nummeringssystemen migreert, moet u het artikelnummer als een afzonderlijke id gebruiken. U moet altijd proberen een product-id te gebruiken die uniek is voor alle rechtspersonen. U moet daarom de optie **Handmatig** op **Ja** instellen voor de nummerreeks **Artikelnummer**. Op deze manier volgt het artikelnummer het productnummer wanneer het wordt gemaakt. Als Finance and Operations niet uw hoofdsysteem is voor nieuwe productnummers, stelt u de optie **Handmatig** in op **Ja** voor de nummerreeksen **Artikelnummer** en **Productnummer**.
+> Alleen als u verschillende rechtspersonen uit verschillende bronnen met verschillende nummeringssystemen migreert, moet u het artikelnummer als een afzonderlijke id gebruiken. U moet altijd proberen een product-id te gebruiken die uniek is voor alle rechtspersonen. U moet daarom de optie **Handmatig** op **Ja** instellen voor de nummerreeks **Artikelnummer**. Op deze manier volgt het artikelnummer het productnummer wanneer het wordt gemaakt. Als Supply Chain Management niet uw hoofdsysteem is voor nieuwe productnummers, stelt u de optie **Handmatig** in op **Ja** voor de nummerreeksen **Artikelnummer** en **Productnummer**.
 
 Als u werkt met de entiteit **Vrijgegeven product V2** voor het maken van producten, kunnen meerdere instellingen invloed hebben op hoe de nummerreeksen worden gebruikt voor het maken van het productnummer en artikelnummer:
 
@@ -170,7 +170,7 @@ Hierbij wordt ervan uitgegaan dat producthoofdgegevens voornamelijk worden behee
 
 Ga als volgt te werk om de omgeving te configureren.
 
-1. Selecteer de categoriehiërarchie voor CDS. Als op de pagina **Rolkoppelingen categoriehiërarchie** geen hiërarchie is gekoppeld aan de rol **Common Data Service**, moet u een nieuwe koppeling maken. Selecteer de rol **Common Data Service** en koppel vervolgens de categoriehiërarchie die staat voor het productaanbod dat moet worden gesynchroniseerd naar CDS.
+1. Selecteer de categoriehiërarchie voor CDS. Als op de pagina **Rolkoppelingen categoriehiërarchie** geen hiërarchie is gekoppeld aan de rol **Common Data Service** , moet u een nieuwe koppeling maken. Selecteer de rol **Common Data Service** en koppel vervolgens de categoriehiërarchie die staat voor het productaanbod dat moet worden gesynchroniseerd naar CDS.
 2. Selecteer de rechtspersoon voor globale producthoofdgegevens. Selecteer op de pagina **Parameters productgegevensbeheer** op het tabblad **Productkenmerken** het hoofdbedrijf waar de product- en artikel-id's voornamelijk worden beheerd.
 3. Definieer de id-codetypen en -codes die moeten worden geëxporteerd. Ga naar **Productgegevensbeheer** &gt; **Instellingen** &gt; **Identificatiecodes voor producten**. Selecteer **Codes genereren** om de typen id-codes te genereren. Een codetypevermelding wordt gegenereerd voor elk type id dat wordt gevonden in de geselecteerde rechtspersoon.
 

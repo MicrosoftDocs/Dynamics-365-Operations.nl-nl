@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471ab164d7bd2e85f5192c082a905f3c30de3d2b
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866084"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026711"
 ---
 # <a name="warehouse-configuration-overview"></a>Overzicht van Magazijnconfiguratie
 
@@ -34,7 +34,7 @@ In dit artikel wordt beschreven hoe u een magazijn configureert. Er wordt aangeg
 **Opmerking:** dit artikel is van toepassing op de functies in de module **Magazijnbeheer** (geavanceerde magazijnen). Het is niet van toepassing op magazijnfuncties in de module **Voorraadbeheer**.
 
 ## <a name="warehouse-layout"></a>Magazijnindeling
-Het magazijnbeheersysteem in Microsoft Dynamics 365 for Finance and Operations biedt u flexibele manieren om uw magazijnindeling te definiëren voor het wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
+Het Magazijnbeheersysteem in Finance and Operations biedt u flexibele manieren om uw magazijnindeling te definiëren voor het wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
 
 -   U kunt opslaggebieden met hoge prioriteit en lage prioriteit ontwikkelen voor optimale plaatsing van goederen.
 -   U kunt uw magazijn in zones verdelen voor verschillende opslagbehoeften, zoals temperatuurvereisten of diverse omzettarieven voor artikelen.

@@ -1,6 +1,6 @@
 ---
 title: Verkoopprijsbeheer detailhandel
-description: Dit onderwerp beschrijft de concepten voor het maken en beheren van verkoopprijzen in Microsoft Dynamics 365 for Retail.
+description: Dit onderwerp beschrijft de concepten voor het maken en beheren van verkoopprijzen in Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -17,18 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 813547f522f5c69920eadf9df61e7f01b13ecd36
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624784"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025213"
 ---
 # <a name="retail-sales-price-management"></a>Verkoopprijsbeheer van detailhandel
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat informatie over het proces voor het maken en beheren van verkoopprijzen in Microsoft Dynamics 365 for Retail. Het richt zich op de concepten die betrokken zijn bij dit proces, en op de effecten van de verschillende configuratieopties voor verkoopprijzen.
+Dit onderwerp bevat informatie over het proces voor het maken en beheren van verkoopprijzen in Dynamics 365 Retail. Het richt zich op de concepten die betrokken zijn bij dit proces, en op de effecten van de verschillende configuratieopties voor verkoopprijzen.
 
 ## <a name="terminology"></a>Terminologie
 

@@ -1,6 +1,6 @@
 ---
 title: Overzicht van lean manufacturing
-description: Dit artikel bevat een overzicht en beschrijving van de functies van lean manufacturing in Dynamics 365 for Finance and Operations.
+description: Dit artikel bevat een overzicht en beschrijving van de functies van lean manufacturing in Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d338318d3f7a1b56fe98e5c093ccbe795bd8de44
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562387"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250067"
 ---
 # <a name="lean-manufacturing-overview"></a>Overzicht van lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel bevat een overzicht en beschrijving van de functies van lean manufacturing in Microsoft Dynamics 365 for Finance and Operations.
+Dit artikel bevat een overzicht en beschrijving van de functies van lean manufacturing in Dynamics 365 Supply Chain Management.
 
 Lean manufacturing biedt hulpprogramma's die u kunt gebruiken om lean-acties te modelleren. Deze hulpprogramma's ondersteunen en bevorderen van de volgende concepten en zakelijke activiteiten:
 -   Lean manufacturing opzetten door het modelleren van productie- en logistieke processen als productiestromen.
 -   Een flexibel pull-systeem implementeren met behulp van kanbans voor het melden van de vereisten van de aanvraag.
 -   Kanbantaken beheren en bijhouden.
 
-De architectuur van lean manufacturing in Finance and Operations bestaat uit productiestromen, activiteiten en kanbanregels. Deze structuren zijn volledig geïntegreerd met de processen in Finance and Operations. U kunt lean manufacturing gebruiken in een gemengde productieomgeving die verschillende leveringen, producties en sourcingstrategieën combineert. Deze strategieën omvatten productieorders, batchorders voor procesindustrieën, inkooporders en overdrachtorders.
+De architectuur van lean manufacturing bestaat uit productiestromen, activiteiten en kanbanregels. Deze structuren zijn volledig geïntegreerd met de processen in Supply Chain Management. U kunt lean manufacturing gebruiken in een gemengde productieomgeving die verschillende leveringen, producties en sourcingstrategieën combineert. Deze strategieën omvatten productieorders, batchorders voor procesindustrieën, inkooporders en overdrachtorders.
 
 | **Belangrijk**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| U kunt Finance and Operations gebruiken om de implementatie van lean manufacturing met kanbans te ondersteunen. Een succesvolle implementatie van de principes van lean manufacturing is afhankelijk van de interne bedrijfsprocessen die u gebruikt en de werkelijke productieomstandigheden en de omgeving. |
+| U kunt Supply Chain Management gebruiken om de implementatie van lean manufacturing met kanbans te ondersteunen. Een succesvolle implementatie van de principes van lean manufacturing is afhankelijk van de interne bedrijfsprocessen die u gebruikt en de werkelijke productieomstandigheden en de omgeving. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Productie- en logistieke processen modelleren als productiestromen
 Lean manufacturing opzetten door het modelleren van de productie- en logistieke processen als productiestromen. Deze activiteit bestaat uit de volgende taken:
@@ -69,8 +69,8 @@ De volgende lijst beschrijft de speciale kanbanborden:
 -   Kanbanbord voor overdrachttaken – Dit bord biedt een overzicht van de huidige overdrachttaken. U kunt orderverzamellijsten bijwerken en registreren, overdrachttaken starten en voltooien en andere taken uitvoeren.
 -   Kanbanbord voor procestaken - Dit bord is ontworpen om de normale productiestroom te ondersteunen en geeft een overzicht van de actuele situatie in een of meerdere werkcellen. Vanaf dit bord kunt u prioriteit toekennen aan kanbans, of ze ophalen of fabriceren. Het bord is ook ontworpen om scannen van streepjescodes te ondersteunen voor het rapporteren van kanbans.
 
-## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Kanbantaken en integratie met processen in Finance and Operations
-Kanbantaken zijn volledig geïntegreerd met de huidige processen voor voorraadtransacties in Finance and Operations.
+## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Kanbantaken en integratie met processen voor Supply Chain Management
+Kanbantaken zijn volledig geïntegreerd met de huidige processen voor voorraadtransacties in Supply Chain Management.
 -   U kunt orderverzamelactiviteiten uitvoeren om materiaal aan te vullen dat wordt gebruikt om te voldoen aan de vereisten van kanbantaken.
 -   U kunt kanbankaarten, rondgaande kanbankaarten en orderverzamellijsten printen ter ondersteuning van het gebruik van kanbans. Deze documenten worden gebruikt om kabantaken weer te geven, bij te houden en te registreren in het magazijn en op de productievloer.
 -   U kunt de orderverzamel- en overdrachtactiviteiten registreren in de voorraad door streepjescodes te scannen.

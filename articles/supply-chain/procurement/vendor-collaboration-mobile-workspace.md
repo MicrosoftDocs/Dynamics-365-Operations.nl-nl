@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843860"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250251"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Mobiel werkgebied Leverancierssamenwerking
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843860"
 
 In dit onderwerp vindt u informatie over het mobiele werkgebied **Leverancierssamenwerking**. Met dit werkgebied kunnen uw leveranciers op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen.
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile.
+Dit mobiele werkgebied is bedoeld om samen te worden gebruikt met de mobiele app van Finance and Operations.
 
 ## <a name="overview"></a>Overzicht 
-Het mobiele werkgebied **Leverancierssamenwerking** houdt leveranciers op de hoogte van nieuwe inkooporders, zodat ze inkooporders in de Microsoft Dynamics 365 for Finance and Operations-webclient kunnen zien en er vervolgens op kunnen reageren. 
+Het mobiele werkgebied **Leverancierssamenwerking** houdt leveranciers op de hoogte van nieuwe inkooporders, zodat ze inkooporders in de webclient kunnen zien en er vervolgens op kunnen reageren. 
 
 >[!NOTE]
 > Het mobiele werkgebied moet worden gebruikt als aanvulling op de webinterface voor leverancierssamenwerking, niet als vervanging daarvan. 
@@ -59,8 +59,8 @@ In het werkgebied **Leverancierssamenwerking** kan een leverancier deze taken ui
 ## <a name="prerequisites"></a>Vereisten
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
-Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Leverancierssamenwerking** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Vereisten als u Supply Chain Management gebruikt
+Als Supply Chain Management is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Leverancierssamenwerking** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Microsoft Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
 Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
@@ -104,7 +104,7 @@ Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of h
 <li><a href="vendor-collaboration-work-external-vendors.md">Leverancierssamenwerking voor het werken met externe leveranciers</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Gebruikers van leverancierssamenwerking beheren</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Samenwerking met leveranciers instellen en onderhouden</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Leverancierssamenwerking voor het werken met klanten in Finance and Operations</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Gebruik Leverancierssamenwerking voor het werken met klanten in Supply Chain Managements</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of h
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
 
-Download en installeer de mobiele app Dynamics 365 for Unified Operations:
+Download en installeer de mobiele app van Finance and Operations:
 
 -   [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

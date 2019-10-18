@@ -1,6 +1,6 @@
 ---
 title: Verkoopprestaties beoordelen per product
-description: U kunt de winstgevendheid bestuderen van de top 10 van producten met Microsoft Dynamics 365 for Retail.
+description: U kunt de winstgevendheid bestuderen van de top 10 van producten met Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7796aa830c99bd0fd5784ff95e509767a3b55b44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546381"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024950"
 ---
 # <a name="assess-sales-performance-by-product"></a>Verkoopprestaties beoordelen per product
 
 [!include [banner](includes/banner.md)]
 
-U kunt de winstgevendheid bestuderen van de top 10 van producten met Microsoft Dynamics 365 for Retail.
+U kunt de winstgevendheid bestuderen van de top 10 van producten met Dynamics 365 Retail.
 
-Als onderdeel van Dynamics 365 for Retail kunnen gebruikers ook de rentabiliteit onderzoeken voor de topproducten (10 tot 100) op verschillende niveaus van de organisatiehiërarchie, op basis van een van de volgende criteria:
+Als onderdeel van Retail kunnen gebruikers ook de rentabiliteit onderzoeken voor de topproducten (10 tot 100) op verschillende niveaus van de organisatiehiërarchie, op basis van een van de volgende criteria:
 
 - Verkoopbedrag
 - Hoeveelheid

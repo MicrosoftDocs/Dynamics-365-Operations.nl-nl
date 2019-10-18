@@ -1,6 +1,6 @@
 ---
-title: Activiteiten in de processen in Microsoft Dynamics 365 for Talent - Attract
-description: Dit onderwerp biedt informatie over de verschillende soorten activiteiten die kunnen worden gebruikt in het aanstellingsproces in Microsoft Dynamics 365 for Talent - Attract.
+title: Activiteiten in de processen in Microsoft Dynamics 365 Talent - Attract
+description: Dit onderwerp biedt informatie over de verschillende soorten activiteiten die kunnen worden gebruikt in het aanstellingsproces in Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739705"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008680"
 ---
 # <a name="activities-in-hiring-processes"></a>Activiteiten in aanstellingsprocessen
 
 [!include[banner](../includes/banner.md)]
 
-Activiteiten kunnen worden toegevoegd als een onderdeel van het aanstellingsproces in Microsoft Dynamics 365 for Talent: Attract. Activiteiten kunnen worden toegevoegd aan een processjabloon of kunnen rechtstreeks aan het aanstellingsproces in de functie worden toegevoegd. Wanneer een functie is gedefinieerd, wordt een processjabloon geselecteerd en worden de activiteiten die zijn opgenomen in de sjabloon, toegepast op de functie. Als geen sjabloon is geselecteerd, wordt de standaardsjabloon gebruikt. Het aanstellingsproces kan ook in de functie worden gewijzigd nadat de sjabloon is toegepast.
+Activiteiten kunnen worden toegevoegd als een onderdeel van het aanstellingsproces in Microsoft Dynamics 365 Talent: Attract. Activiteiten kunnen worden toegevoegd aan een processjabloon of kunnen rechtstreeks aan het aanstellingsproces in de functie worden toegevoegd. Wanneer een functie is gedefinieerd, wordt een processjabloon geselecteerd en worden de activiteiten die zijn opgenomen in de sjabloon, toegepast op de functie. Als geen sjabloon is geselecteerd, wordt de standaardsjabloon gebruikt. Het aanstellingsproces kan ook in de functie worden gewijzigd nadat de sjabloon is toegepast.
 
 > [!NOTE] 
 > Processjablonen zijn beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen. Zie [Uitgebreide extra mogelijkheden voor aanstellingen in Attract](./attract-comprehensive-hiring.md) voor meer informatie.
@@ -49,16 +49,16 @@ De activiteit Sollicitatie is vereist in de aanstellingsprocessjabloon. Als u e-
 
 Deze activiteit bestaat uit drie onderdelen: Beschikbaarheid van kandidaat aanvragen, Planning en Feedback. Gebruik de sollicitatiegesprekactiviteit in de taaksjabloon als u de beschikbaarheidsaanvraag van de kandidaat, de planning en feedback wilt opnemen als onderdeel van het proces in plaats van deze afzonderlijk als onderdeel van het aanstellingsproces te gebruiken. Zie voor meer informatie [Plannen van sollicitatiegesprekken en feedback](interview-scheduling-feedback.md).
 
-## <a name="powerapps-activity"></a>Activiteit PowerApps
+## <a name="powerapps-activity"></a>PowerApps-activiteit
 
 Met de activiteit PowerApps kunt u een Microsoft PowerApps-app insluiten in uw aanstellingsproces. De app kan worden vereist voor alle sollicitanten, alleen interne sollicitanten, alleen externe sollicitanten of geen sollicitanten. Als de app is gemarkeerd als vereist, moet deze worden voltooid voordat naar de volgende fase kan worden gegaan. Om als voltooid te worden beschouwd, moet het veld **JobApplicationStatus** zijn ingesteld op **Voltooid**. Dit veld bevindt zich in de entiteit JobApplicationActivity. Dit veld moet dus met de PowerApps-app worden bijgewerkt voordat naar de volgende fase kan worden gegaan. Als de app niet is gemarkeerd als vereist, is de activiteit een optionele stap en kan ook naar de volgende fase worden gegaan als de app niet is voltooid.
 
-Als u de activiteit PowerApps wilt opslaan in het aanstellingsproces, moet u een PowerApps-id invoeren. Als u de PowerApps-id zoekt, gaat u naar [PowerApps](https://web.powerapps.com), selecteert u **Apps** en selecteert u vervolgens **Details**.
+Als u de activiteit PowerApps wilt opslaan in het aanstellingsproces, moet u een PowerApps-id invoeren. Als u de PowerApps-id zoekt, gaat u naar [PowerApps](https://web.powerapps.com), selecteert u **Apps** en vervolgens **Details**.
 
 De PowerApps-activiteit is standaard beschikbaar voor de aanstellende manager, werver en hun gemachtigden. Als u de optie **Toevoegen van deelnemers aan deze activiteit toestaan** inschakelt, kunnen aanvullende deelnemers uit het aanstellingsteam worden toegevoegd voor een sollicitatie waarvoor de PowerApps-activiteit wordt gebruikt. Een organisatie heeft bijvoorbeeld een PowerApps-app gemaakt die een bibliotheek met sollicitatiegesprekvragen is voor technische rollen. De organisatie neemt nu een nieuwe softwareontwikkelaar aan en heeft de activiteit PowerApps toegevoegd aan het aanstellingsproces voor de rol Softwareontwikkelaar. Als de optie **Toevoegen van deelnemers aan deze activiteit toestaan** is ingeschakeld, kan een werver of aanstellend manager die een sollicitant bekijkt voor de rol Softwareontwikkelaar, interviewers aan de PowerApps-activiteit toevoegen. Deze personen kunnen de app met de sollicitatiegesprekvragen vervolgens weergeven.
 
 > [!NOTE]
-> De activiteit PowerApps is alleen beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen. Zie [Uitgebreide extra mogelijkheden voor aanstellingen in Attract](./attract-comprehensive-hiring.md) voor meer informatie.
+> De PowerApps-activiteit is alleen beschikbaar met de uitgebreide invoegtoepassing voor aanstellingen. Zie [Uitgebreide extra mogelijkheden voor aanstellingen in Attract](./attract-comprehensive-hiring.md) voor meer informatie.
 
 ## <a name="youtube-activity"></a>YouTube-activiteit
 

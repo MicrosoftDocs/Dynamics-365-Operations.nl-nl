@@ -1,5 +1,5 @@
 ---
-title: PowerApps-apps insluiten in Core HR
+title: PowerApps-apps insluiten in Dynamics 365 - Core HR
 description: In dit onderwerp wordt uitgelegd hoe u het probleem oplost waarbij het menu-item PowerApps uit de module Systeembeheer is verdwenen.
 author: andreabichsel
 manager: AnnBe
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742814"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008425"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>PowerApps-apps insluiten in Core HR
 
 [!include [banner](includes/banner.md)]
 
-**Probleem**
+**Uitgifte**
 
 Het menu-item **PowerApps** is verdwenen uit de module **Systeembeheer**.
 
@@ -36,22 +36,22 @@ Het menu-item **PowerApps** is verdwenen uit de module **Systeembeheer**.
 
 Het ontwerp van de gebruikersinterface is gewijzigd en Microsoft PowerApps is nu opgenomen in het standaardaanpassingsmodel.
 
-**Resolutie**
+**Oplossing**
 
-De manier waarop PowerApps-apps zijn ingesloten, is gewijzigd. PowerApps-apps worden nu toegevoegd via het aanpassingsmodel. U kunt PowerApps-apps toevoegen aan vrijwel alle pagina's in Microsoft Dynamics 365 for Talent.
+De manier waarop PowerApps-apps zijn ingesloten, is gewijzigd. PowerApps-apps worden nu toegevoegd via het aanpassingsmodel. U kunt PowerApps-apps toevoegen aan vrijwel alle pagina's in Microsoft Dynamics 365 Talent.
 
-Zie [Ingesloten PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps) voor informatie over het insluiten van een PowerApps-app in Talent.
+Zie [Ingesloten PowerApps-apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps) voor informatie over het insluiten van een PowerApps-app in Talent.
 
 Voor PowerApps-klanten die apps hadden ingesloten voordat de wijziging van kracht werd, had een upgrade naar het nieuwe model moeten worden uitgevoerd.
 
-De knop **PowerApps** knop bevindt zich in de rechterbovenhoek van bijna elke pagina in Talent. Met deze knop kunt u een PowerApps-app invoegen.
+De knop **PowerApps** bevindt zich in de rechterbovenhoek van bijna elke pagina in Talent. Met deze knop kunt u een PowerApps-app invoegen.
 
 Hier volgt een voorbeeld.
 
 1. Ga naar **Personeelsbeheer \> Koppelingen \> Medewerkers \> Werknemers**.
 2. Selecteer de knop **PowerApps** en selecteer vervolgens **Een PowerApp invoegen**.
 
-    ![De knop PowerApps](media/png.png)
+    ![PowerApps-knop](media/png.png)
 
 3. Vul de velden in het dialoogvenster **Een PowerApp invoegen** in.
 

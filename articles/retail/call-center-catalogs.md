@@ -1,6 +1,6 @@
 ---
 title: Callcentercatalogi
-description: In dit onderwerp wordt de callcenterspecifieke functionaliteit voor catalogi in Microsoft Dynamics 365 for Retail beschreven.
+description: In dit onderwerp wordt de callcenterspecifieke functionaliteit voor catalogi in Dynamics 365 Retail beschreven.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ad50be1394daf5bffa6391d2f56340aad14120b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562736"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023654"
 ---
 # <a name="call-center-catalogs"></a>Callcentercatalogi
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt de callcenterspecifieke functionaliteit beschreven die is gekoppeld aan de catalogusmogelijkheden in Microsoft Dynamics 365 for Retail.
+In dit onderwerp wordt de callcenterspecifieke functionaliteit beschreven die is gekoppeld aan de catalogusmogelijkheden in Dynamics 365 Retail.
 
-De catalogusfuncties van Dynamics 365 for Retail kunnen worden gebruikt voor meerdere doeleinden. De catalogusfuncties zijn in eerste instantie gemaakt ter ondersteuning van e-commerce-integraties van derden. Met catalogusinstelling konden bedrijven een groepering van producten en kenmerken maken die extern kunnen worden gepubliceerd voor gebruik door een e-commerceoplossing van derden.
+De catalogusfuncties van Retail kunnen worden gebruikt voor meerdere doeleinden. De catalogusfuncties zijn in eerste instantie gemaakt ter ondersteuning van e-commerce-integraties van derden. Met catalogusinstelling konden bedrijven een groepering van producten en kenmerken maken die extern kunnen worden gepubliceerd voor gebruik door een e-commerceoplossing van derden.
 
-Toen ondersteuning van callcenterkanalen werd toegevoegd aan Dynamics 365 for Retail, werd het catalogusconcept uitgebreid met extra mogelijkheden ter ondersteuning en beheer van functies die gerelateerd zijn aan traditionele consumentenmarketingcatalogi. Een direct-to-consumer bedrijf produceert vaak afgedrukte catalogi die dan naar een of meer klantensegmenten worden verzonden. Deze catalogussen hebben meestal bepaalde acties of aanbiedingen die alleen worden gehonoreerd als de klant een catalogusidentificatiecode verstrekt op het moment van maken van de order.
+Toen ondersteuning van callcenterkanalen werd toegevoegd aan Retail, werd het catalogusconcept uitgebreid met extra mogelijkheden ter ondersteuning en beheer van functies die gerelateerd zijn aan traditionele consumentenmarketingcatalogi. Een direct-to-consumer bedrijf produceert vaak afgedrukte catalogi die dan naar een of meer klantensegmenten worden verzonden. Deze catalogussen hebben meestal bepaalde acties of aanbiedingen die alleen worden gehonoreerd als de klant een catalogusidentificatiecode verstrekt op het moment van maken van de order.
 
-Direct-to-consumer marketingbedrijven zijn zeer gericht op het bijhouden van het antwoord op deze catalogi om ervoor te zorgen dat de kosten van productie en verzending ervan gerechtvaardigd zijn. Voor het bijhouden van de reactie wordt traditioneel een code op de achterzijde van de catalogus afgedrukt en deze code wordt dan gevraagd en toegepast wanneer de catalogusontvanger belt om een order via de telefoon te plaatsen (of nu meer traditioneel kan de code worden ingevoerd wanneer de klant een order online plaatst). Er zijn verschillende branchetermen voor het identificeren van deze catalogustrackingcode (inclusief sleutelcode, promotiecode, cataloguscode, broncode), maar we noemen de code in Dynamics 365 for Retail de **Broncode-ID**.
+Direct-to-consumer marketingbedrijven zijn zeer gericht op het bijhouden van het antwoord op deze catalogi om ervoor te zorgen dat de kosten van productie en verzending ervan gerechtvaardigd zijn. Voor het bijhouden van de reactie wordt traditioneel een code op de achterzijde van de catalogus afgedrukt en deze code wordt dan gevraagd en toegepast wanneer de catalogusontvanger belt om een order via de telefoon te plaatsen (of nu meer traditioneel kan de code worden ingevoerd wanneer de klant een order online plaatst). Er zijn verschillende branchetermen voor het identificeren van deze catalogustrackingcode (inclusief sleutelcode, promotiecode, cataloguscode, broncode), maar we noemen de code in Retail de **Broncode-ID**.
 
 ## <a name="basic-catalog-setup"></a>Basiscatalogusinstelling
 
@@ -92,7 +92,7 @@ Bij het configureren van de producten in de catalogus gebruikt u de actie **Prod
 
 ## <a name="catalog-requests"></a>Catalogusaanvragen
 
-Als catalogi worden geconfigureerd en gepubliceerd in Dynamics 365 for Retail, kan de functie **Catalogus verzenden** worden gebruikt. Deze functie is beschikbaar op de pagina's **Klant zoeken** en **Klantenservice**. Na het selecteren van een klantrecord via **Klant zoeken** of tijdens het bekijken van een geselecteerde klantaccount vanuit **Klantenservice** kunnen gebruikers de optie **Catalogus verzenden** selecteren om een dialoogvenster te openen waarin de gebruiker kan kiezen uit een lijst met gepubliceerde en actieve catalogi. Een gebruiker kan een catalogus en een hoeveelheid selecteren en een bepaalde broncode-ID om te verzenden. Wanneer ze klikken op de knop **Verzenden**, wordt een aanvraag opgeslagen die vervolgens kan worden beheerd door het afdrukken van het rapport **Catalogusaanvragen**. U vindt dit rapport door te navigeren naar **Detailhandel** \> **Callcenterrapporten** \> **Rapport Catalogusaanvragen**. Hiermee worden alle catalogusverzoeken weergegeven, met inbegrip van de klantgegevens voor naam en adres van de klant die de catalogus heeft aangevraagd. Dit rapport kan intern worden gebruikt of de gegevens kunnen worden overgebracht naar een extern ondersteunend proces van derden voor het fysiek verzenden van de catalogus naar de klant.
+Als catalogi worden geconfigureerd en gepubliceerd in Retail, kan de functie **Catalogus verzenden** worden gebruikt. Deze functie is beschikbaar op de pagina's **Klant zoeken** en **Klantenservice**. Na het selecteren van een klantrecord via **Klant zoeken** of tijdens het bekijken van een geselecteerde klantaccount vanuit **Klantenservice** kunnen gebruikers de optie **Catalogus verzenden** selecteren om een dialoogvenster te openen waarin de gebruiker kan kiezen uit een lijst met gepubliceerde en actieve catalogi. Een gebruiker kan een catalogus en een hoeveelheid selecteren en een bepaalde broncode-ID om te verzenden. Wanneer ze klikken op de knop **Verzenden**, wordt een aanvraag opgeslagen die vervolgens kan worden beheerd door het afdrukken van het rapport **Catalogusaanvragen**. U vindt dit rapport door te navigeren naar **Detailhandel** \> **Callcenterrapporten** \> **Rapport Catalogusaanvragen**. Hiermee worden alle catalogusverzoeken weergegeven, met inbegrip van de klantgegevens voor naam en adres van de klant die de catalogus heeft aangevraagd. Dit rapport kan intern worden gebruikt of de gegevens kunnen worden overgebracht naar een extern ondersteunend proces van derden voor het fysiek verzenden van de catalogus naar de klant.
 
 ## <a name="additional-features"></a>Extra functies
 

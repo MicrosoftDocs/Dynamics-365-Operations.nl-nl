@@ -1,6 +1,6 @@
 ---
 title: Leveringsmethoden en toeslagen van callcenters configureren
-description: In dit onderwerp wordt het instellen van methodes voor levering en toeslagen voor een callcenterorder in Microsoft Dynamics 365 for Retail beschreven.
+description: In dit onderwerp wordt het instellen van methodes voor levering en toeslagen voor een callcenterorder in Dynamics 365 Retail beschreven.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553594"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019480"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Leveringsmethoden en toeslagen van callcenters configureren
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Wanneer een verkooporder wordt geplaatst in Microsoft Dynamics 365 for Retail, als de persoon die de verkooporder heeft ingevoerd is gekoppeld aan een callcenterkanaal, worden logica en regels gebruikt voor het valideren van de leveringsmethode en het berekenen van toeslagen voor de order.
+Wanneer een verkooporder wordt geplaatst in Dynamics 365 Retail, als de persoon die de verkooporder heeft ingevoerd is gekoppeld aan een callcenterkanaal, worden logica en regels gebruikt voor het valideren van de leveringsmethode en het berekenen van toeslagen voor de order.
 
 Wanneer u een verkooporder maakt, kunt u een leveringsmethode selecteren in de verkooporderkop en op de verkooporderregels. De leveringsmethode die u in de koptekst selecteert, wordt standaard gebruikt voor alle verkooporderregels. U kunt echter de standaardleveringsmethode op afzonderlijke verkoopregels overschrijven als u wilt. U kunt ook een leveringsmethode definiëren op een klantrecord. Wanneer dan orders voor de klant worden gemaakt, wordt die leveringsmethode standaard gebruikt in de verkooporderkop.
 

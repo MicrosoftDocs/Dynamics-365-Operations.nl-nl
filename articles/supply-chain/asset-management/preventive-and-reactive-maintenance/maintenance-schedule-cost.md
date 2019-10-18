@@ -3,7 +3,7 @@ title: Kosten onderhoudsschema
 description: In dit onderwerp worden de kosten van onderhoudsplannen in Activabeheer uitgelegd.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875578"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922063"
 ---
 # <a name="maintenance-schedule-cost"></a>Kosten onderhoudsschema
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 In Activabeheer kunt u budgetkosten berekenen op regels voor onderhoudsplanning. Dit is handig als u een overzicht wilt weergeven van verwachte kosten, bijvoorbeeld kosten met betrekking tot geplande onderhoudstaken voor het volgende jaar. De berekeningen zijn gebaseerd op bestaande regels voor onderhoudsplanning van het type "Onderhoudsplannen" en "Onderhoudsrondes" en "Onderhoudsaanvragen".
 
@@ -48,10 +46,11 @@ In Activabeheer kunt u budgetkosten berekenen op regels voor onderhoudsplanning.
 
 5. Klik op **OK** om de kostenberekening te starten.
 
-6. Klik op het tabblad **Kosten van onderhoudsplanning** > in de actieschermgroepen op **Groeperen op...**, klik op de relevante knoppen om het vereiste detailniveau van de kostenberekening weer te geven. De geselecteerde knoppen in de actieschermgroep zijn in een blauwe kleur gemarkeerd. U kunt knoppen activeren of deactiveren door erop te klikken.
+6. Klik op het tabblad **Kosten van onderhoudsplanning** > in de actieschermgroepen op **Groeperen op...**, klik op de relevante knoppen om het vereiste detailniveau van de kostenberekening weer te geven. De geselecteerde groepsknoppen in het actievenster zijn gemarkeerd. U kunt knoppen activeren of deactiveren door erop te klikken.
 
 7. Klik op de knop **kosten berekenen** als u een nieuwe kostenberekening wilt maken.
 
+In de onderstaande afbeelding ziet u de resultaten van de kostenberekening van een onderhoudsschema.
 
 ![Figuur 1](media/17-preventive-maintenance.png)
 

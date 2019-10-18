@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 14b0661c4c1fa8f2bc197a8a3983b71d73199b2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536544"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251541"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten instellen voor magazijnwerk
 
@@ -163,7 +163,7 @@ U kunt een menuoptie instellen die het werk voor een andere werknemer zal maken 
 </tr>
 <tr>
 <td>Mutatie door sjabloon</td>
-<td>Artikelen verplaatsen van een locatie naar een andere op een halfautomatische manier. De werknemer selecteert de locatie om artikelen van te verplaatsen, en Finance and Operations gebruikt de locatierichtlijn om te bepalen waar de artikelen naartoe moeten worden verplaatst.</td>
+<td>Artikelen verplaatsen van een locatie naar een andere op een halfautomatische manier. De werknemer selecteert de locatie om artikelen van te verplaatsen, en het systeem gebruikt de locatierichtlijn om te bepalen waar de artikelen naartoe moeten worden verplaatst.</td>
 </tr>
 <tr>
 <td>Magazijntransfer</td>
@@ -212,7 +212,7 @@ Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties i
 </tr>
 <tr class="even">
 <td>Door systeem bestuurd</td>
-<td>Met Microsoft Dynamics 365 for Finance and Operations wordt bepaald welk type werk wordt toegewezen aan een medewerker en wordt de volgorde bepaald waarin de medewerker het werk uitvoert. Wanneer u deze optie selecteert, kunt u klikken op <strong>Door systeem bestuurd werk</strong> in het actievenster om de pagina <strong>Door systeem bestuurde sorteervolgorde</strong> te openen waarop u sorteercriteria voor het werk kunt instellen. Met de sorteercriteria wordt de volgorde bepaald waarin de werknemer het werk uitvoert. U kunt zoveel criteria toevoegen als u nodig hebt.</td>
+<td>Met Supply Chain Management wordt bepaald welk type werk wordt toegewezen aan een medewerker en wordt de volgorde bepaald waarin de medewerker het werk uitvoert. Wanneer u deze optie selecteert, kunt u klikken op <strong>Door systeem bestuurd werk</strong> in het actievenster om de pagina <strong>Door systeem bestuurde sorteervolgorde</strong> te openen waarop u sorteercriteria voor het werk kunt instellen. Met de sorteercriteria wordt de volgorde bepaald waarin de werknemer het werk uitvoert. U kunt zoveel criteria toevoegen als u nodig hebt.</td>
 </tr>
 <tr class="odd">
 <td>Door gebruiker bestuurd</td>
@@ -224,7 +224,7 @@ Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties i
 </tr>
 <tr class="odd">
 <td>Systeemgroepering</td>
-<td>Microsoft Dynamics 365 for Finance and Operations groepeert werk voor de medewerker, gebaseerd op een opgegeven veld. Bijvoorbeeld, wordt het verzamelen van het werk gegroepeerd wanneer een werknemer een zendings-ID, belastings-ID, of elke waarde die elke werkeenheid kan koppelen scant. Als u deze optie selecteert, zijn de volgende velden vereist:
+<td>Supply Chain Management groepeert werk voor de medewerker, gebaseerd op een opgegeven veld. Bijvoorbeeld, wordt het verzamelen van het werk gegroepeerd wanneer een werknemer een zendings-ID, belastings-ID, of elke waarde die elke werkeenheid kan koppelen scant. Als u deze optie selecteert, zijn de volgende velden vereist:
 <ul>
 <li><strong>Systeemgroeperingsveld</strong> – Selecteer het veld dat de werknemer scant om het werk te groeperen.</li>
 <li><strong>Systeemgroeperingslabel</strong> – Voer de tekst in om de werknemer te instrueren over wat te scannen om het werk te groeperen.</li>
@@ -245,7 +245,7 @@ Deze optie is bijvoorbeeld handig wanneer meerdere pallets voor een lading worde
 </tr>
 <tr class="even">
 <td>Groepering van cyclustelling</td>
-<td>De medewerker selecteert een regio, de werkpool of een locatie, en Microsoft Dynamics 365 for Finance and Operations wijst werk toe op basis van de selectie. Als u deze optie selecteert, kunt u ook klikken op <strong>Cyclustelling</strong> in het Actievenster om extra informatie weer te geven, en kunt u ook opgeven hoe vaak de werknemer de telling moet uitvoeren als een verschil is gevonden.</td>
+<td>De werknemer selecteert een zone, werkgroep of locatie, en Supply Chain Management wijst werk toe op basis van de selectie. Als u deze optie selecteert, kunt u ook klikken op <strong>Cyclustelling</strong> in het Actievenster om extra informatie weer te geven, en kunt u ook opgeven hoe vaak de werknemer de telling moet uitvoeren als een verschil is gevonden.</td>
 </tr>
  <tr class="odd">
 <td>Transportlading</td>
@@ -333,7 +333,7 @@ Deze opties worden in de onderstaande tabel beschreven.
 </tr>
 <tr class="odd">
 <td>Opslag voor groep</td>
-<td>Selecteer deze optie om weggezet werk te groeperen. Deze optie is beschikbaar wanneer het werk door de medewerker of door Microsoft Dynamics 365 for Finance and Operations is gegroepeerd. Wanneer de werknemer alle orderverzamelingswerk in de groep heeft voltooid, wordt weggezet werk gemaakt voor dezelfde groep.</td>
+<td>Selecteer deze optie om weggezet werk te groeperen. Deze optie is beschikbaar als het werk is gegroepeerd door de werknemer of door Supply Chain Management. Wanneer de werknemer alle orderverzameltaken in de groep heeft afgerond, wordt wegzet-werk gemaakt voor dezelfde groep.</td>
 </tr>
 <tr class="even">
 <td>Voorraadcorrectietypen</td>
@@ -366,11 +366,11 @@ Deze opties worden in de onderstaande tabel beschreven.
 </tr>
 <tr class="even">
 <td>Systeemgroeperingsveld</td>
-<td>Selecteer het veld dat bepaalt hoe in Microsoft Dynamics 365 for Finance and Operations verzameld werk voor medewerkers wordt gegroepeerd. Bijvoorbeeld, als u het veld <strong>ShipmentId</strong> selecteert, scant de werknemer de zendings-ID om orderverzameling werk te groeperen. Alle werk voor de zending wordt vervolgens toegewezen aan de werknemer. Dit veld vereist dat u een menuoptie maakt om bestaand werk te gebruiken dat door het systeem is gegroepeerd. U moet tevens tekst invoeren in het veld <strong>Systeemgroeperingslabel</strong> om de werknemer te instrueren over wat te scannen.</td>
+<td>Selecteer het veld dat bepaalt hoe in Supply Chain Management orderverzamelingswerk voor werknemers wordt gegroepeerd. Bijvoorbeeld, als u het veld <strong>ShipmentId</strong> selecteert, scant de werknemer de zendings-ID om orderverzameling werk te groeperen. Alle werk voor de zending wordt vervolgens toegewezen aan de werknemer. Dit veld vereist dat u een menuoptie maakt om bestaand werk te gebruiken dat door het systeem is gegroepeerd. U moet tevens tekst invoeren in het veld <strong>Systeemgroeperingslabel</strong> om de werknemer te instrueren over wat te scannen.</td>
 </tr>
 <tr class="odd">
 <td>Systeemgroeperingslabel</td>
-<td>Voer de tekst in die de werknemer instrueert over wat te scannen wanneer orderverzamelingswerk door Microsoft Dynamics 365 for Finance and Operations wordt gegroepeerd. Als u bijvoorbeeld het veld <strong>ShipmentId</strong> gebruikt voor het verzamelen van werk per zending, kunt u <strong>Zendings-id</strong> in het veld invoeren. Dit veld vereist dat u een menuoptie maakt om bestaand werk te gebruiken dat door het systeem is gegroepeerd. U moet ook het veld selecteren waarop moet worden gegroepeerd in het veld <strong>Systeemgroeperingsveld</strong>.</td>
+<td>Voer de tekst in die de werknemer instrueert over wat te scannen wanneer orderverzamelingswerk door Supply Chain Management wordt gegroepeerd. Als u bijvoorbeeld het veld <strong>ShipmentId</strong> gebruikt voor het verzamelen van werk per zending, kunt u <strong>Zendings-id</strong> in het veld invoeren. Dit veld vereist dat u een menuoptie maakt om bestaand werk te gebruiken dat door het systeem is gegroepeerd. U moet ook het veld selecteren waarop moet worden gegroepeerd in het veld <strong>Systeemgroeperingsveld</strong>.</td>
 </tr>
 <tr class="even">
 <td>Standaardgegevens gebruiken</td>
@@ -386,13 +386,13 @@ Deze opties worden in de onderstaande tabel beschreven.
 </tr>
 <tr class="odd">
 <td>Code werksjabloon</td>
-<td>Selecteer het werksjabloon die het werk voor een proces maken zal. Als u bijvoorbeeld een artikel voor een inkooporder ontvangt, wordt het weggezette werk gegenereerd op basis van de werksjabloon Als u niet een werksjabloon selecteert, zal Microsoft Dynamics 365 for Finance and Operations een sjabloon toewijzen op basis van zoekcriteria. Zie voor meer informatie over werksjablonen het onderwerp <a href="control-warehouse-location-directives.md">Magazijnwerk beheren met werksjablonen en locatierichtlijnen</a>.</td>
+<td>Selecteer het werksjabloon die het werk voor een proces maken zal. Als u bijvoorbeeld een artikel voor een inkooporder ontvangt, wordt het weggezette werk gegenereerd op basis van de werksjabloon Als u niet een werksjabloon selecteert, zal Supply Chain Management een sjabloon toewijzen op basis van zoekcriteria. Zie voor meer informatie over werksjablonen het onderwerp <a href="control-warehouse-location-directives.md">Magazijnwerk beheren met werksjablonen en locatierichtlijnen</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Vereisen dat werknemers het product, de locatie of de hoeveelheid bevestigen bij het verzamelen van artikelen
-U kunt werkbevestigingen instellen waarbij een werknemer een mobiel apparaat moet gebruiken om de locatie of de hoeveelheid te registreren bij het uitvoeren van werk in het magazijn. Werkbevestigingen helpen garanderen dat de werknemer zich op de juiste locatie bevindt of de juiste hoeveelheid artikelen verwerkt. U kunt Microsoft Dynamics 365 for Finance and Operations ook inschakelen om de registratie van de medewerker automatisch te bevestigen. Als u automatische bevestiging inschakelt, kunt u niet ook bevestigingen voor locatie of hoeveelheid vereisen. Werkbevestigingen bevatten tevens producten en productvarianten. Bovendien kunt u bevestigingen registreren met een streepjescode te scannen. Om producten en productvarianten te bevestigen, moet u een ID voor het product of de productvariant invoeren. Deze id kan een product-id, id voor het zoeken van producten, externe id, GTIN of streepjescode zijn. Nadat u invoert de ID of de streepjescode scant, worden de dimensies voor de productvariant weergegeven op het mobiele apparaat. 
+U kunt werkbevestigingen instellen waarbij een werknemer een mobiel apparaat moet gebruiken om de locatie of de hoeveelheid te registreren bij het uitvoeren van werk in het magazijn. Werkbevestigingen helpen garanderen dat de werknemer zich op de juiste locatie bevindt of de juiste hoeveelheid artikelen verwerkt. U kunt Supply Chain Management ook inschakelen om de registratie van de medewerker automatisch te bevestigen. Als u automatische bevestiging inschakelt, kunt u niet ook bevestigingen voor locatie of hoeveelheid vereisen. Werkbevestigingen bevatten tevens producten en productvarianten. Bovendien kunt u bevestigingen registreren met een streepjescode te scannen. Om producten en productvarianten te bevestigen, moet u een ID voor het product of de productvariant invoeren. Deze id kan een product-id, id voor het zoeken van producten, externe id, GTIN of streepjescode zijn. Nadat u invoert de ID of de streepjescode scant, worden de dimensies voor de productvariant weergegeven op het mobiele apparaat. 
 
 In de volgende tabel worden de verschillende werktypen beschreven waarbij u werkbevestigingen kunt gebruiken.
 

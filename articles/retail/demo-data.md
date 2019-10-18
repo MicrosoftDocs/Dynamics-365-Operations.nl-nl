@@ -1,6 +1,6 @@
 ---
 title: Schermindelingen met demonstratiegegevens in Retail Modern POS (MPOS) en Cloud POS
-description: Dit onderwerp bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Microsoft Dynamics 365 for Retail.
+description: Dit onderwerp bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Dynamics 365 Retail.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c8d2fac82541b768f8e0a31049177bdc1262d44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570636"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019319"
 ---
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Schermindelingen met demonstratiegegevens in Retail Modern POS (MPOS) en Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Microsoft Dynamics 365 for Retail.
+Dit onderwerp bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Dynamics 365 Retail.
 
 ## <a name="overview"></a>Overzicht
 
@@ -40,7 +40,7 @@ De voorbeeldschermindelingen die zijn opgenomen in de Retail-demonstratiegegeven
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomie van een schermindelings-id
 
-In Retail vindt u schermindelingen via **Retail** \> **Afzetkanaalinstellingen** \> **POS-instellingen** \> **POS** \> **Schermindelingen**.
+Voor schermindelingen gaat u naar **Retail** \> **Afzetkanaalinstellingen** \> **POS-instellingen** \> **POS** \> **Schermindelingen**.
 
 ![Pagina Schermindelingen in Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,7 +107,7 @@ In de volgende tabel worden de indelingsformaten weergegeven die beschikbaar zij
 \* Deze extra indelingsformaten zijn alleen beschikbaar in Adventure Works- en Fabrikam-indelingen.
 
 > [!TIP]
-> POS selecteert automatisch indelingsformaten, gebaseerd op de dichtstbijzijnde grootte die voor de schermresolutie van het huidige appvenster beschikbaar is. U vindt de schermindelings-id en indelingsresolutie die momenteel worden gebruikt door Retail Modern POS (MPOS) of Retail Cloud POS (CPOS) te openen, de pagina **Instellingen** te openen en de sectie **Sessie-informatie** te bekijken. U kunt ook de werkelijke vensterresolutie voor uw huidige toepassing of browserframe bekijken. Als u deze gegevens hebt, kunt u de bron van de indelingsinhoud in Retail vinden door naar **Afzetkanaalinstellingen** \> **POS-instellingen** \> **POS** \> **Schermindelingen** te gaan.
+> POS selecteert automatisch indelingsformaten, gebaseerd op de dichtstbijzijnde grootte die voor de schermresolutie van het huidige appvenster beschikbaar is. U vindt de schermindelings-id en indelingsresolutie die momenteel worden gebruikt door Retail Modern POS (MPOS) of Retail Cloud POS (CPOS) te openen, de pagina **Instellingen** te openen en de sectie **Sessie-informatie** te bekijken. U kunt ook de werkelijke vensterresolutie voor uw huidige toepassing of browserframe bekijken. Als u deze gegevens hebt, kunt u de bron van de indelingsinhoud vinden door naar **Afzetkanaalinstellingen** \> **POS-instellingen** \> **POS** \> **Schermindelingen** te gaan.
 
 ![Schermindelingen en indelingsresoluties/-formaten in Retail en POS](../retail/media/demo-screen-layouts-fig-3-1.png)
 

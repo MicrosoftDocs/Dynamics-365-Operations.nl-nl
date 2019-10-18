@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent (27 februari 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent (27 februari 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517698"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023994"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (27 februari 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (27 februari 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
@@ -77,9 +77,9 @@ Deze release bevat andere kleine correcties.
 
 In veel organisaties kunnen managers voor compensaties en vergoedingen alleen toegang krijgen tot specifieke compensatierecords. Deze records kunnen voor leidinggevenden of regionale werknemers bestemd zijn. Dankzij deze wijziging kan HR de compensatieplannen beheren en onderhouden voor verschillende werknemersgroepen in de organisatie. Met beveiligingsrollen die aan vaste en variabele plannen kunnen worden toegewezen, wordt de toegang bepaald tot deze plannen en de werknemersgegevens die betrekking hebben op de plannen (bijvoorbeeld salaris- en bonusrecords). Alleen de rollen met de opgegeven toegang kunnen compensatie voor deze werknemers verwerken.
 
-### <a name="platform-update-24"></a>Platformupdate 24
+### <a name="platform-update-24-for-finance-and-operations"></a>Platformupdate 24 voor Finance and Operations
 
-Zie voor meer informatie over Microsoft Dynamics 365 for Finance and Operations platformupdate 24 (maart 2019) [Voorbeeldfuncties in Finance and Operations platformupdate 24 (maart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Zie voor meer informatie over Microsoft Dynamics 365 Finance and Operations-Platformupdate 24 (maart 2019) [Voorbeeldfuncties in Finance and Operations-platformupdate 24 (maart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Vaste compensatie voor werknemers beschikbaar maken voor toekomstige positietoewijzingen
 
@@ -87,10 +87,10 @@ Vaak hebben werknemers die aan een organisatie worden toegevoegd, een toekomstig
 
 ## <a name="known-issues"></a>Bekende problemen
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Wijzigingen in de sjabloon Core HR-integratie (Talent Common Data Service naar Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>Wijzigingen in de sjabloon Core HR-integratie (Talent Common Data Service naar Finance)
 De sjabloon voor Core HR is bijgewerkt in een 'geavanceerde querysjabloon'. Daarom is de geavanceerde query standaard beschikbaar voor projecten die zijn gemaakt met behulp van deze sjabloon. Bovendien zijn standaardtoewijzingsfuncties alleen zichtbaar in de geavanceerde query-editor. (Standaardtoewijzingsfuncties worden weergegeven als 'FN' in de toewijzingen.)
 
-Zie voor meer informatie over toewijzingsfouten [Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (14 december 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+Zie voor meer informatie over toewijzingsfouten [Wat is nieuw of gewijzigd in Dynamics 365 Talent: Core HR (14 december 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 Als u de nieuwe sjabloon wilt gebruiken, maakt u een nieuw project maken en selecteert u de nieuwe sjabloon voor integratie van Talent.
 

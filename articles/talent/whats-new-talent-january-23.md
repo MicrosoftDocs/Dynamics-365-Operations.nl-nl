@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (23 januari 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent Core HR.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent - Core HR (23 januari 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/23/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: f1983d5a58fb2e6b1984727e1d7b44803b94cdce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742511"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023971"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (23 januari 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-january-23-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent: Core HR (23 januari 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -53,5 +53,5 @@ Bij het wijzigen van de functie voor een positie worden functievelden standaard 
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Proeftijd en kalender worden niet weergegeven voor werknemers die voor de toekomst zijn aangenomen.
 Met deze wijziging zijn de velden **Proeftijd** en **Kalender** toegevoegd aan de pagina **Wijzigingen beheren** zodat gegevens voor toekomstige en eerdere werknemers kunnen worden ingevoerd.
 
-### <a name="platform-update-23"></a>Platformupdate 23
-Kleine correcties zijn opgenomen als onderdeel van platformupdate 23. Zie voor meer informatie [Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 23 (januari 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>Platformupdate 23 voor Finance and Operations
+Kleine correcties zijn opgenomen als onderdeel van platformupdate 23 voor Finance and Operations. Zie voor meer informatie [Wat is nieuw of gewijzigd in Dynamics 365 Finance and Operations platformupdate 23 (januari 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

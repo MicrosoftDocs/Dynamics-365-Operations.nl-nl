@@ -1,6 +1,6 @@
 ---
 title: Beveiliging en rollenbeheer in Attract
-description: Dit onderwerp biedt informatie over rolbeveiliging in Microsoft Dynamics 365 for Talent - Attract.
+description: Dit onderwerp biedt informatie over rolbeveiliging in Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3f804b5f79b813cf504c3deb4a95e678c6fcbf87
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ad94a7511afef0c68fb8f2a70402babb80b0f9ad
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739835"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024186"
 ---
 # <a name="set-user-permissions"></a>Gebruikersmachtigingen instellen
 
 [!include[banner](../includes/banner.md)]
 
-In Microsoft Dynamics 365 for Talent: Attract wordt op rollen gebaseerde beveiliging gebruikt. Toegang wordt met andere woorden niet verleend aan afzonderlijke gebruikers, maar aan de beveiligingsrollen waaraan de gebruikers zijn toegewezen. Een gebruiker aan wie een beveiligingsrol is toegewezen, heeft toegang tot de set bevoegdheden die aan die rol zijn gekoppeld.
+In Microsoft Dynamics 365 Talent: Attract wordt op rollen gebaseerde beveiliging gebruikt. Toegang wordt met andere woorden niet verleend aan afzonderlijke gebruikers, maar aan de beveiligingsrollen waaraan de gebruikers zijn toegewezen. Een gebruiker aan wie een beveiligingsrol is toegewezen, heeft toegang tot de set bevoegdheden die aan die rol zijn gekoppeld.
 
 Attract bevat vijf basisgebruikersrollen:
 

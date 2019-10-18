@@ -3,7 +3,7 @@ title: Uitvaltijd voor onderhoud
 description: In dit onderwerp wordt uitvaltijd voor onderhoud in Activabeheer uitgelegd.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,16 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a831d56116c57b640993162473e74e5ce181f09c
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875579"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922178"
 ---
 # <a name="maintenance-downtime"></a>Uitvaltijd voor onderhoud
-
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,12 +43,12 @@ Wanneer activa in een registratie van uitvaltijd voor onderhoud zijn geselecteer
 
 ## <a name="maintenance-downtime-activities"></a>Activiteiten tijdens uitvaltijd voor onderhoud
 
-Klik op **Activabeheer** > **Algemeen** > **Activiteiten voor uitvaltijd voor onderhoud** > **Alle activiteiten voor uitvaltijd voor onderhoud** om een lijst te openen van alle activiteiten voor uitvaltijd voor onderhoud en informatie over de activiteiten te bekijken. Klik op een koppeling in de kolom **Activiteiten voor uitvaltijd voor onderhoud** om de detailweergave te openen.
+Klik op **Activabeheer** > **Algemeen** > **Activiteiten voor uitvaltijd voor onderhoud** > **Alle activiteiten voor uitvaltijd voor onderhoud** om een lijst te openen van alle activiteiten voor uitvaltijd voor onderhoud en informatie over de activiteiten te bekijken. Klik op een koppeling in de kolom **Activiteiten voor uitvaltijd voor onderhoud** om de detailweergave te openen. In de onderstaande afbeelding ziet u een voorbeeld van de lijst **Activiteiten voor uitvaltijd voor onderhoud**.
 
 ![Figuur 1](media/19-preventive-maintenance.png)
 
 
-## <a name="create-a-maintenance-downtime-registration"></a>Een registratie maken voor uitvaltijd voor onderhoud
+## <a name="create-a-maintenance-downtime-activity"></a>Een activiteit voor uitvaltijd voor onderhoud maken
 
 1. Klik op **Activabeheer** > **Algemeen** > **Activiteiten voor uitvaltijd voor onderhoud** > **Alle activiteiten voor uitvaltijd voor onderhoud** of **Actieve activiteiten voor uitvaltijd voor onderhoud**.
 
@@ -61,20 +60,22 @@ Klik op **Activabeheer** > **Algemeen** > **Activiteiten voor uitvaltijd voor on
 
 5. Klik op het sneltabblad **Activa voor activiteiten voor uitvaltijd voor onderhoud** op **Regel toevoegen** om activa één voor één toe te voegen aan de activiteit voor uitvaltijd voor onderhoud.
 
-6. Klik op **Opslaan** wanneer alle activa zijn toegevoegd.
+6. Klik op **Opslaan** wanneer alle activa zijn toegevoegd. In de onderstaande afbeelding ziet u een voorbeeld van een activiteit voor uitvaltijd voor onderhoud met bijbehorende activa en onderhoudstaken.
 
 7. De onderhoudstaken voor werkorders en de openstaande onderhoudsschemaregels voor de geselecteerde activa worden weergegeven op de sneltabbladen **Resulterende onderhoudstaken voor werkorder** en **Onderhoudsschemaregels**. Op het sneltabblad **Algemeen** > groep **Werkorders** > veld **Prognose onderhoudsuren** en sneltabblad **Algemeen** >groep **Onderhoudsschema** > veld **Prognose onderhoudsuren** ziet u het totaal aantal uren dat is geraamd voor onderhoudstaken en onderhoudsschemaregels van werkorders.
+
+In de onderstaande afbeelding ziet u een voorbeeld van de detailweergave **Activiteiten voor uitvaltijd voor onderhoud**.
 
 ![Figuur 2](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >De onderhoudstaken en onderhoudsschemaregels van werkorders voor de geselecteerde activa worden automatisch bijgewerkt als er nieuwe werkorders of onderhoudsschemaregels worden gemaakt nadat u de activiteit voor uitvaltijd voor onderhoud hebt gemaakt. Als u bijvoorbeeld twee dagen na het maken van de activiteit voor uitvaltijd voor onderhoud onderhoudsplannen of onderhoudsronden voor de betreffende activa plant, worden er automatisch nieuwe onderhoudsschemaregels aan de activiteit voor uitvaltijd voor onderhoud toegevoegd.
 
-8. Selecteer een activiteit voor uitvaltijd voor onderhoud in de lijst in **Alle activiteiten voor uitvaltijd voor onderhoud** > **Activiteiten voor uitvaltijd voor onderhoud** en klik op **Capaciteitsbelasting** om het dialoogvenster **Capaciteitsbelasting berekenen** te openen. Gebruik dit dialoogvenster om een overzicht te krijgen van de capaciteitsbelasting voor bijvoorbeeld datums, activa, activatypen en typen onderhoudstaken. De datums die in het dialoogvenster worden weergegeven, zijn de begin- en einddatums die zijn geselecteerd in **Activiteiten voor uitvaltijd voor onderhoud**. Deze berekening bevat de activa met betrekking tot de activiteit voor uitvaltijd voor onderhoud.
+8. Selecteer in **Alle activiteiten voor uitvaltijd voor onderhoud** > **Activiteiten voor uitvaltijd voor onderhoud** een activiteit voor uitvaltijd voor onderhoud in de lijst en klik op **Capaciteitsbelasting** om het dialoogvenster **Capaciteitsbelasting berekenen** te openen. Gebruik dit dialoogvenster om een overzicht te krijgen van de capaciteitsbelasting voor bijvoorbeeld datums, activa, activatypen en typen onderhoudstaken. De datums die in het dialoogvenster worden weergegeven, zijn de begin- en einddatums die zijn geselecteerd in **Activiteiten voor uitvaltijd voor onderhoud**. Deze berekening bevat de activa met betrekking tot de activiteit voor uitvaltijd voor onderhoud.
 
 9. In het dialoogvenster **Capaciteitsbelasting berekenen** kunt u de begin- en eindtijden bewerken en selecteren of u werkorders en onderhoudsschema's in de berekening wilt opnemen. Gebruik het veld **Niveau** om aan te geven hoe gedetailleerd u de capaciteitsbelasting wilt berekenen met betrekking tot functionele locaties. Als u bijvoorbeeld het getal 1 in het veld invoegt en u een structuur met meerdere niveaus voor functionele locaties hebt, worden alle activa voor een functionele locatie die in de activiteit voor uitvaltijd voor onderhoud zijn geselecteerd, weergegeven op het hoogste niveau. Het is daarom mogelijk dat de uren op een regel worden opgeteld vanuit functionele locaties die zich op een lager niveau bevinden. Als u het getal 0 in het veld **Niveau** invoegt, ziet u een gedetailleerd resultaat met alle regels voor capaciteitsbelasting op alle niveaus voor functionele locaties waarop deze betrekking hebben.
 
-10. Klik op **OK** om de berekening te starten. Het totaal aantal uren wordt weergegeven in het overzicht **Capaciteitsbelasting**. Klik op het tabblad **Capaciteitsbelasting** > in de groepen in het actievenster **Groeperen op…** op de relevante knoppen voor een gedetailleerder overzicht van de toewijzing van geraamde uren.
+10. Klik op **OK** om de berekening te starten. Het totaal aantal uren wordt weergegeven in het overzicht **Capaciteitsbelasting**. Klik op het tabblad **Capaciteitsbelasting** > in de groepen in het actievenster **Groeperen op…** op de relevante knoppen voor een gedetailleerder overzicht van de toewijzing van geraamde uren. In de onderstaande afbeelding ziet u de resultaten van de berekening van de **Capaciteitsbelasting**.
 
 ![Figuur 3](media/21-preventive-maintenance.png)
 
@@ -91,7 +92,7 @@ Klik op **Activabeheer** > **Algemeen** > **Activiteiten voor uitvaltijd voor on
 
 15. In het dialoogvenster **Artikelprognose berekenen** kunt u de begin- en eindtijden bewerken en selecteren of u werkorders en onderhoudsschema's in de berekening wilt opnemen. Gebruik het veld **Niveau** om aan te geven hoe gedetailleerd u de capaciteitsbelasting wilt berekenen met betrekking tot functionele locaties. Als u bijvoorbeeld het getal 1 in het veld invoegt en u een structuur met meerdere niveaus voor functionele locaties hebt, worden alle activa voor een functionele locatie die in de activiteit voor uitvaltijd voor onderhoud zijn geselecteerd, weergegeven op het hoogste niveau. Het is daarom mogelijk dat de uren op een regel worden opgeteld vanuit functionele locaties die zich op een lager niveau bevinden. Als u het getal 0 in het veld **Niveau** invoegt, ziet u een gedetailleerd resultaat met alle regels voor capaciteitsbelasting op alle niveaus voor functionele locaties waarop deze betrekking hebben.
 
-16. Klik op **OK** om de berekening te starten. Het totaal aantal artikelprognoses wordt weergegeven in het overzicht **Artikelprognose**. Klik op het tabblad **Artikelprognose** > in de groepen in het actievenster **Groeperen op…** op de relevante knoppen voor een gedetailleerder overzicht van de toewijzing van geraamde artikelen.
+16. Klik op **OK** om de berekening te starten. Het totaal aantal artikelprognoses wordt weergegeven in het overzicht **Artikelprognose**. Klik op het tabblad **Artikelprognose** > in de groepen met actievensters **Groeperen op…** op de relevante knoppen voor een gedetailleerder overzicht van de toewijzing van geraamde artikelen. In de onderstaande afbeelding ziet u de resultaten van de berekening van een **Artikelprognose**.
 
 ![Figuur 4](media/22-preventive-maintenance.png)
 

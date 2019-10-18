@@ -1,6 +1,6 @@
 ---
 title: Seedgegevens in nieuwe Retail-omgevingen initialiseren
-description: In dit artikel worden de gegevens beschreven die zijn gemaakt als onderdeel van het initialisatieproces voor Microsoft Dynamics 365 for Retail.
+description: In dit artikel worden de gegevens beschreven die zijn gemaakt als onderdeel van het initialisatieproces voor Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556893"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025511"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Seedgegevens in nieuwe Retail-omgevingen initialiseren
 
 [!include [banner](includes/banner.md)]
 
-In dit artikel worden de gegevens beschreven die zijn gemaakt als onderdeel van het initialisatieproces voor Microsoft Dynamics 365 for Retail.
+In dit artikel worden de gegevens beschreven die zijn gemaakt als onderdeel van het initialisatieproces voor Dynamics 365 Retail.
 
 Nadat de detailhandelsoplossing via Microsoft Dynamics Lifecycle Services (LCS) is geïnstalleerd, moet u de detailhandelsconfiguratie initialiseren om de basisconfiguratiegegevens te maken.
 
@@ -39,7 +39,7 @@ Nadat de detailhandelsoplossing via Microsoft Dynamics Lifecycle Services (LCS) 
 
 Om de kleinhandelsconfiguratie te initialiseren, volgt u deze stappen.
 
-1. Start de Dynamics 365 for Retail-client.
+1. Start de detailhandelclient.
 2. Klik op **Detailhandel** &gt; **Instelling van hoofdkantoor** &gt; **Parameters** &gt; **Detailhandelparameters**.
 3. Klik op **Initialiseren**.
 
@@ -57,7 +57,7 @@ Initialisatie maakt de volgende standaardconfiguratiegegevens:
 - Sjablonen voor entiteitvalidatie
 - Batchtaak om de Commerce Data Exchange-sessiehistorie op te schonen
 
-Bovendien wordt registratie in verband met de betaalkaartindustrie (PCI) ingeschakeld voor de Dynamics 365 for Retail-database.
+Bovendien wordt registratie in verband met de betaalkaartindustrie (PCI) ingeschakeld voor de detailhandelsdatabase.
 
 > [!NOTE]
 > Er is een optie om de detailhandelplanner afzonderlijk te configureren. Met deze optie kunt u de configuratie van de Detailhandel planner opnieuw instellen op de standaardwaarden.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: bb5255236fc48132d4d68dc6f515f32e7ec71dae
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865275"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248837"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Overzicht van Offerteaanvragen
 
@@ -48,16 +48,13 @@ U kunt een offerteaanvraagcase maken op basis van geplande orders, een opdracht 
 
 Nadat u de offerteaanvraagcase hebt voorbereid en leveranciers hebt toegevoegd, selecteert u **Verzenden** (**Verzenden en publiceren** voor de openbare sector) op de offerteaanvraagcase. Er wordt een offerteaanvraagjournaal gemaakt voor elke leverancier waarnaar u een offerteaanvraag verzendt. U kunt afdrukopties configureren voor de actie Verzenden om een rapport voor elke leverancier af te drukken naar een archief of om een rapport te verzenden naar het e-mailadres van elke leverancier. Bovendien kunt u het offerteaanvraagjournaal voor elke leverancier gebruiken om een rapport te genereren dat u later kunt verzenden of opnieuw kunt verzenden naar een leverancier. U kunt de actie Verzenden ook zo configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.
 
-Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Microsoft Dynamics 365 for Finance and Operations. Meer informatie vindt u in [Leverancierssamenwerking met klanten](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
+Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Supply Chain Management. Meer informatie vindt u in [Leverancierssamenwerking met klanten](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
 
 Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de offerteaanvraag na voltooiing opnieuw verzenden naar leveranciers met de twee aanpassingsacties: Maken en Voltooien.+
 
 Wanneer u biedingen per e-mail ontvangt, moet u deze biedingen verwerken via de pagina **Offerteaanvragen**.
 
 Als een tweede herhaling van een antwoord vereist is van een leverancier, selecteert u **Retour** op de pagina **Reactie offerteaanvraag**. De actie Retour genereert een nieuw journaal en een rapport dat wordt afgedrukt, gearchiveerd en verzonden, afhankelijk van uw afdrukinstellingen.
-
-> [!NOTE]
-> De naam van de pagina **Offerteaanvraag** is gewijzigd. In eerdere versies van Dynamics 365 for Finance and Operations heet deze pagina **Aanvraag voor offerteantwoord**.
 
 Als u scoringscriteria aan uw offerteaanvraagcase hebt toegevoegd, heeft de offerteaanvraag een scorepaneel waarin u de scores kunt invoeren. De totale scores op de offerteaanvraag worden weergegeven wanneer u de antwoorden op de pagina **Antwoorden vergelijken** vergelijkt. Op de pagina **Antwoorden vergelijken** kunt u tevens andere antwoordgegevens vergelijken, zoals de regelprijs, leverdatum en totale prijs.
 

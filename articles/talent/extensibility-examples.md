@@ -1,13 +1,13 @@
 ---
-title: Talent uitbreiden met PowerApps en Microsoft Flow - voorbeeldscenario's
-description: In dit onderwerp worden enkele voorbeelden beschreven van uitbreidbaarheidsscenario's voor Microsoft Dynamics 365 for Talent die gebruikmaken van Microsoft PowerApps en Microsoft Flow.
+title: "Talent uitbreiden met PowerApps en Microsoft Flow: voorbeeldscenario's"
+description: In dit onderwerp worden enkele voorbeelden beschreven van uitbreidbaarheidsscenario's voor Microsoft Dynamics 365 Talent die gebruikmaken van Microsoft PowerApps en Microsoft Flow.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781437"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008054"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talent uitbreiden met PowerApps en Microsoft Flow - voorbeeldscenario's
+# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talent uitbreiden met PowerApps en Microsoft Flow: voorbeeldscenario's
 
-In dit onderwerp worden enkele voorbeelden beschreven van uitbreidbaarheidsscenario's voor Microsoft Dynamics 365 for Talent die gebruikmaken van Microsoft PowerApps en Microsoft Flow. U kunt het oplossingspakket importeren dat is gekoppeld aan elk voorbeeld in uw PowerApps-omgeving. Vervolgens kunt u de pakketten als richtlijn of als beginpunt gebruiken voor het implementeren van scenario's die van toepassing op uw organisatie.
+In dit onderwerp worden enkele voorbeelden beschreven van uitbreidbaarheidsscenario's voor Microsoft Dynamics 365 Talent die gebruikmaken van Microsoft PowerApps en Microsoft Flow. U kunt het oplossingspakket importeren dat is gekoppeld aan elk voorbeeld in uw PowerApps-omgeving. Vervolgens kunt u de pakketten als richtlijn of als beginpunt gebruiken voor het implementeren van scenario's die van toepassing op uw organisatie.
 
 > [!IMPORTANT]
 > Als u de sjablonen en app die worden beschreven in dit onderwerp, 'as is' wilt gebruiken, moet u ze testen om er zeker van te zijn dat ze betrekking hebben op alle scenario's die specifiek voor uw implementatie zijn.
@@ -79,7 +79,7 @@ De sjabloon **Stroom: e-mailwaarschuwing** kan worden gebruikt voor e-mailmeldin
 
 Deze sjabloon kan worden uitgebreid voor het bijhouden van wijzigingen in de kandidaatfase gedurende het wervingsproces en voor het verzenden van meldingen aan het aanstellingsteam en de kandidaat.
 
-In het algemeen kunnen voor entiteiten die zijn opgeslagen in Common Data Service, stromen worden ingesteld voor het verzenden van meldingen voor gebeurtenissen die in Core HR, Attract of Dynamics 365 Talent: Onboard plaatsvinden.
+In het algemeen kunnen voor entiteiten die zijn opgeslagen in Common Data Service, stromen worden ingesteld voor het verzenden van meldingen voor gebeurtenissen die in Core HR, Attract of Onboard plaatsvinden.
 
 Voor het downloaden van de sjabloon **Stroom: e-mailwaarschuwing** gaat u naar [Stroom: e-mailwaarschuwing](https://go.microsoft.com/fwlink/?linkid=2082103) in het Microsoft Downloadcentrum.
 
@@ -106,7 +106,7 @@ U kunt de app Referral gebruiken om kandidaten toe te voegen aan een gedeelde ta
 
 U kunt deze app insluiten in Selfservice werknemer voor het indienen van verwijzingen of u kunt deze app als hyperlink gebruiken in de bedrijfsportal en uitvoeren als een zelfstandige app.
 
-Als u de app **Referral** wil downloaden, gaat u naar [Dynamics 365 for Talent extensibility solution: Referral App](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) in het Microsoft Downloadcentrum. U kunt deze app importeren en aanpassen om extra functionaliteit toe te voegen.
+Als u de app **Referral** wil downloaden, gaat u naar [Dynamics 365 Talent extensibility solution: Referral App](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) in het Microsoft Downloadcentrum. U kunt deze app importeren en aanpassen om extra functionaliteit toe te voegen.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 

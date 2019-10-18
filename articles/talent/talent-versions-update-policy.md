@@ -1,6 +1,6 @@
 ---
 title: Systeemvereisten en updatebeleid voor Talent
-description: In dit onderwerp worden vereisten voor Dynamics 365 for Talent weergegeven. Ook wordt het updatebeleid beschreven.
+description: In dit onderwerp worden vereisten voor Dynamics 365 Talent weergegeven. Ook wordt het updatebeleid beschreven.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/02/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741770"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024155"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Systeemvereisten en updatebeleid voor Talent
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de vereisten beschreven voor Microsoft Dynamics 365 for Talent, met inbegrip van Attract, Onboard, en Core HR. Het bevat ook een overzicht van de landen en regio's waarin Talent beschikbaar is, plus informatie over talen en lokalisatie voor Talent-gegevens. In toevoegingen bevat dit onderwerp het updatebeleid voor Talent.
+In dit onderwerp worden de vereisten beschreven voor Microsoft Dynamics 365 Talent, met inbegrip van Attract, Onboard, en Core HR. Het bevat ook een overzicht van de landen en regio's waarin Talent beschikbaar is, plus informatie over talen en lokalisatie voor Talent-gegevens. In toevoegingen bevat dit onderwerp het updatebeleid voor Talent.
 
 ## <a name="supported-web-browsers"></a>Ondersteunde webbrowsers
 
-De webtoepassing Microsoft Dynamics 365 for Talent kan worden uitgevoerd in alle onderstaande webbrowsers die op de opgegeven besturingssystemen draaien: 
+Microsoft Dynamics 365 Talent kan worden uitgevoerd in alle onderstaande webbrowsers die op de opgegeven besturingssystemen draaien: 
 
 *   Microsoft Edge (meest recente openbaar beschikbare release) op Windows 10
 *   Internet Explorer 11 op Windows 10, Windows 8.1 of Windows 7
@@ -46,11 +46,11 @@ Als u de laatste versie van elke webbrowser wilt opzoeken, gaat u naar de websit
 > * De workfloweditor wordt als ClickOnce-toepassing gestart. Alleen Microsoft Edge en Internet Explorer (op een ondersteunde versie van Microsoft Windows) ondersteunen ClickOnce-toepassingen. De ClickOnce-toepassing Workfloweditor vereist een compatibel 64-bits besturingssysteem.
 > * Als u PDF-bestanden wilt bekijken, raden wij u aan moderne browsers te gebruiken, zoals Microsoft Edge (meest recente openbaar beschikbare versie) op Windows 10 of Google Chrome (meest recente openbaar beschikbare versie) op Windows 10, Windows 8.1, Windows 8, Windows 7 of Google Nexus 10 tablet.
 >   Netwerkvereisten
-> * Dynamics 365 for Talent is ontworpen voor netwerken met een vertragingstijd van 250-300 milliseconden (ms) of minder. Dit is de vertragingstijd van een browserclient naar het Microsoft Azure-datacentrum waar Dynamics 365 for Talent wordt gehost. Het wordt aangeraden om uw netwerklatentie te testen op [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
-> * Bandbreedtevereisten voor Dynamics 365 for Talent zijn afhankelijk van uw scenario. De meest voorkomende scenario's vereisen een bandbreedte van meer dan 50 kilobytes per seconde (kbps).
+> * Dynamics 365 Talent is ontworpen voor netwerken met een vertragingstijd van 250-300 milliseconden (ms) of minder. Dit is de vertragingstijd van een browserclient naar het Microsoft Azure-datacentrum waar Talent wordt gehost. Het wordt aangeraden om uw netwerklatentie te testen op [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
+> * Bandbreedtevereisten voor Talent zijn afhankelijk van uw scenario. De meest voorkomende scenario's vereisen een bandbreedte van meer dan 50 kilobytes per seconde (kbps).
 > 
 > [!WARNING]
-> Bereken bandbreedtevereisten vanaf een clientlocatie niet door het aantal gebruikers te vermenigvuldigen met de minimale bandbreedte-vereisten. Het gelijktijdige gebruik van een bepaalde locatie is zeer lastig te berekenen. Gebruik voor klanten die zich zorgen maken over de bandbreedtevereisten, een evaluatieversie van Dynamics 365 for Talent.
+> Bereken bandbreedtevereisten vanaf een clientlocatie niet door het aantal gebruikers te vermenigvuldigen met de minimale bandbreedte-vereisten. Het gelijktijdige gebruik van een bepaalde locatie is zeer lastig te berekenen. Gebruik voor klanten die zich zorgen maken over de bandbreedtevereisten, een evaluatieversie van Talent.
 
 ## <a name="supported-microsoft-office-applications"></a>Ondersteunde Microsoft Office-toepassingen
 
@@ -68,6 +68,6 @@ Zie [Globalisatie](https://docs.microsoft.com/dynamics365/unified-operations/dev
 
 ## <a name="update-policy"></a>Updatebeleid
 
-Microsoft Dynamics 365 for Talent wordt aangeboden via de cloud. Updates voor Dynamics 365 for Talent vinden doorlopend plaats en worden automatisch toegepast door Microsoft.
+Talent wordt aangeboden via de cloud. Updates voor Talent vinden doorlopend plaats en worden automatisch toegepast door Microsoft.
 
-Er worden regelmatig updates uitgebracht en doorgevoerd in alle omgevingen. Dynamics 365 for Talent wordt ondersteund volgens het [Microsoft Support Lifecycle-beleid](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), dat consistente en voorspelbare richtlijnen bevat voor de beschikbaarheid van productondersteuning.
+Er worden regelmatig updates uitgebracht en doorgevoerd in alle omgevingen. Talent wordt ondersteund volgens het [Microsoft Support Lifecycle-beleid](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft-ondersteuningslevensduur"), dat consistente en voorspelbare richtlijnen bevat voor de beschikbaarheid van productondersteuning.

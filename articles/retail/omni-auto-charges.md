@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577864"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018033"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Geavanceerde automatische toeslagen voor meerdere kanalen
 
@@ -34,7 +34,7 @@ Dit onderwerp bevat informatie over de configuratie en implementatie van de geav
 
 Wanneer de geavanceerde functie voor automatische toeslagen is ingeschakeld, kunnen orders die zijn gemaakt in een ondersteund detailhandelsafzetkanaal (verkooppunt (POS), callcenter en online), profiteren van de [automatische toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)-configuraties gedefinieerd in de ERP-toepassing voor zowel toeslagen op koptekst als op regelniveau.
 
-In releases vóór Dynamics 365 for Retail versie 10.0 zijn [automatische toeslag](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)-configuraties alleen toegankelijk voor orders die zijn gemaakt in e-commerce- callcenterkanalen. In versie 10.0 of hoger, kunnen POS-orders gebruikmaken van de automatische-toeslagenconfiguraties. Op die manier kunnen extra diverse toeslagen systematisch worden toegevoegd aan de verkooptransacties.
+In releases vóór Retail versie 10.0 zijn [automatische toeslag](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)-configuraties alleen toegankelijk voor orders die zijn gemaakt in e-commerce- en callcenterkanalen. In versie 10.0 of hoger, kunnen POS-orders gebruikmaken van de automatische-toeslagenconfiguraties. Op die manier kunnen extra diverse toeslagen systematisch worden toegevoegd aan de verkooptransacties.
 
 Bij gebruik van versies ouder dan versie 10.0 wordt een POS-gebruiker gevraagd handmatig verzendkosten in te voeren tijdens het maken van een 'alles verzenden' of 'geselecteerd verzenden' POS-transactie. Terwijl de mogelijkheden van de diverse toeslagen van de toepassing worden gebruikt met betrekking tot de manier waarop de toeslagen op de order worden geschreven, wordt er geen systematische berekening geboden; de berekening is afhankelijk van de invoer van de gebruiker om de hoogte van de toeslagen te bepalen. De toeslagen kunnen alleen worden toegevoegd als een enkele 'verzending'-gerelateerde toeslagencode en kunnen niet eenvoudig worden bewerkt of gewijzigd in het POS nadat ze zijn gemaakt.
 

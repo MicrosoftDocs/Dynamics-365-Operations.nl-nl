@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afd4509bc9bdff345e48a590a12cc84ae25aebb8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550065"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018424"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Genereren en uitvoeren van kant-en-klare rapporten
 
@@ -43,7 +43,7 @@ Het demobedrijf dat wordt gebruikt om deze registratie te maken is USRT. Deze re
 5. Voer een datum in het veld Einddatum in.
 6. Klik in het veld Kanaal op de vervolgkeuzeknop om de zoekopdracht te openen.
 7. Selecteer in de structuur 'Contoso Retail\Contoso Retail USA\Central\Houston'.
-    * Dit toont de standaardhiërarchie voor detailhandelsorganisaties voor detailhandelrapportagedoeleinden.   Ga naar Organisatiebeheer >Organisaties > Organisatiehiërarchiedoelstellingen en kies Detailhandelrapportage onder Toegewezen hiërarchieën, en controleer de hiërarchienaam waarvoor Standaardkolom is ingeschakeld.      Als onderdeel van demogegevens (gebruikt voor taakregistratie) ziet u dat Detailhandelwinkels per regio de standaardorganisatiehiërarchie is voor detailhandelrapportagedoeleinden.     
+    * Dit toont de standaardhiërarchie voor detailhandelsorganisaties voor detailhandelrapportagedoeleinden.   Ga naar Organisatiebeheer > Organisaties > Doelstellingen voor organisatiehiërarchie, kies Retail-rapportage en controleer onder Toegewezen hiërarchieën de hiërarchienaam waarvoor de Standaardkolom is ingeschakeld. Als onderdeel van demogegevens (gebruikt voor taakregistratie) ziet u dat Detailhandelwinkels per regio de standaardorganisatiehiërarchie is voor detailhandelrapportagedoeleinden.     
 8. Klik op OK.
 9. Selecteer een optie in het veld Weergeven.
 10. Selecteer een optie in het veld Op.
@@ -55,7 +55,7 @@ Het demobedrijf dat wordt gebruikt om deze registratie te maken is USRT. Deze re
 3. Voer een datum in het veld Einddatum in.
 4. Klik in het veld Kanaal op de vervolgkeuzeknop om de zoekopdracht te openen.
 5. Selecteer in de structuur 'Contoso Retail\Contoso Retail USA\West\Seattle'.
-    * Dit toont de standaardhiërarchie voor detailhandelsorganisaties voor detailhandelrapportagedoeleinden.   Ga naar Organisatiebeheer >Organisaties > Organisatiehiërarchiedoelstellingen en kies Detailhandelrapportage onder Toegewezen hiërarchieën, en controleer de hiërarchienaam waarvoor Standaardkolom is ingeschakeld.      Als onderdeel van demogegevens (gebruikt voor taakregistratie) ziet u dat Detailhandelwinkels per regio de standaardorganisatiehiërarchie is voor detailhandelrapportagedoeleinden.     
+    * Dit toont de standaardhiërarchie voor detailhandelsorganisaties voor detailhandelrapportagedoeleinden.   Ga naar Organisatiebeheer > Organisaties > Doelstellingen voor organisatiehiërarchie, kies Retail-rapportage en controleer onder Toegewezen hiërarchieën de hiërarchienaam waarvoor de Standaardkolom is ingeschakeld. Als onderdeel van demogegevens (gebruikt voor taakregistratie) ziet u dat Detailhandelwinkels per regio de standaardorganisatiehiërarchie is voor detailhandelrapportagedoeleinden.     
 6. Klik op OK.
 7. Klik op OK.
 

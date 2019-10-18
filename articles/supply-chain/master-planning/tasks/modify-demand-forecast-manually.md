@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916617"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250640"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Handmatig een vraagprognose wijzigen
 
@@ -41,5 +41,5 @@ Deze procedure laat zien hoe u de prognose voor een artikel kunt wijzigen. Het b
 
 ## <a name="modify-the-forecast-in-excel"></a>De prognose in Excel wijzigen
 1. Klik op **Openen** in Microsoft Office.
-2. Klik op **Vraagprognose bewerken** in Excel. In Excel kunt u vraagprognoseregels toevoegen, verwijderen en bewerken. Als u de gegevens niet kunt weergeven in Excel, moet u zich aanmelden bij Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, met de optie 'Aangemeld blijven' ingeschakeld en moet u de app voor gegevensverbinding vertrouwen.  
+2. Klik op **Vraagprognose bewerken** in Excel. In Excel kunt u vraagprognoseregels toevoegen, verwijderen en bewerken. Als u de gegevens niet kunt weergeven in Excel, moet u zich aanmelden met de optie "Aangemeld blijven" ingeschakeld en moet u de app voor gegevensverbinding vertrouwen.  
 

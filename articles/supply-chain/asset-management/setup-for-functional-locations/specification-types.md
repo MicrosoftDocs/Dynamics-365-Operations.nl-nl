@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b3247f693f5934b3fbf83b7b831c7ed221514cb
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 067d1085d9afa04cb76b78393a8a8b9834ce4d8c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783174"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250939"
 ---
 # <a name="maintenance-attribute-types"></a>Typen onderhoudskenmerken
 
@@ -42,10 +42,10 @@ De kenmerken die u kunt instellen, variëren, afhankelijk van het element. Zo ku
 
 ## <a name="create-attribute-types"></a>Kenmerktypen maken
 
-U kunt uw eigen kenmerktypen maken Bovendien kunt u productdimensies overbrengen van Microsoft Dynamics 365 for Finance and Operations naar de pagina **Kenmerktypen**.
+U kunt uw eigen kenmerktypen maken Bovendien kunt u productdimensies overbrengen naar de pagina **Kenmerktypen**.
 
 1. Selecteer **Activabeheer** \> **Instellingen** \> **Kenmerktypen**.
-2. Wanneer u voor het eerst kenmerktypen instelt, selecteert u **Productdimensies maken** om automatisch standaard productdimensies voor Finance and Operations over te zetten.
+2. Wanneer u voor het eerst kenmerktypen instelt, selecteert u **Productdimensies maken** om automatisch standaard productdimensies over te zetten.
 3. Selecteer **Nieuw** om een nieuw kenmerktype te maken.
 4. Voer in het veld **Kenmerktype** een naam in voor het kenmerktype.
 5. Voer in het veld **Beschrijving** een beschrijving in.

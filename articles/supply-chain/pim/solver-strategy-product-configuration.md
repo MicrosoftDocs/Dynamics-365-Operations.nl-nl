@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a548d3536bbc0056ee22c07c464af062029da81
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560296"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250571"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Oplossingsstrategie voor productconfiguratie
 
@@ -45,7 +45,7 @@ Het concept van de oplossingsstrategie bestaat nu uit de volgende strategieën:
 
 Een productconfiguratiemodel kan worden geformuleerd als een [probleem met voldoen aan een beperking (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). Microsoft Solver Foundation (MSF) biedt twee soorten oplossingsstrategieën om de CSP's op te lossen die kunnen worden gebruikt in productconfiguratiemodellen. Deze oplossingsstrategieën vertrouwen op [heuristiek](https://techterms.com/definition/heuristic), die wordt gebruikt om de volgorde te bepalen waarin de variabelen van de CSP's worden beschouwd wanneer het probleem wordt opgelost. Heuristiek kan aanzienlijke invloed op de prestaties hebben als een probleem of klasse problemen wordt opgelost.
 
-In Finance and Operations bepaalt de oplossingsstrategie voor productconfiguratiemodellen welke oplossing met heuristiek wordt gebruikt. De strategieën **Standaard**, **Minimale domeinen eerst** en **Van boven naar beneden** gebruiken de twee oplossingen van MSF, terwijl de strategie **Z3** de oplossing Z3 gebruikt. 
+De oplossingsstrategie voor productconfiguratiemodellen bepaalt welke oplossing met heuristiek wordt gebruikt. De strategieën **Standaard**, **Minimale domeinen eerst** en **Van boven naar beneden** gebruiken de twee oplossingen van MSF, terwijl de strategie **Z3** de oplossing Z3 gebruikt. 
 
 Werkelijke klantimplementaties hebben aangetoond dat een wijziging in de oplossingsstrategie voor een productconfiguratiemodel de responstijd van minuten tot milliseconden kan reduceren. Daarom is het de moeite waard verschillende oplossingsstrategieën te proberen om de efficiëntste strategie voor uw productconfiguratiemodel te zoeken.
 

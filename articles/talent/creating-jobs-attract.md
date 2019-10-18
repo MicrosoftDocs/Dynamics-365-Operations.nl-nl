@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773246"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008450"
 ---
 # <a name="create-a-job"></a>Een vacature maken
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de elementen van een functie in Microsoft Dynamics 365 for Talent: Attract beschreven. Ook wordt uitgelegd hoe u een functie maakt.
+In dit onderwerp worden de elementen van een functie in Microsoft Dynamics 365 Talent: Attract beschreven. Ook wordt uitgelegd hoe u een functie maakt.
 
 ## <a name="job-creation"></a>Taak maken
 
@@ -74,7 +74,7 @@ Zie voor meer informatie over activiteiten die kunnen worden toegevoegd aan het 
 
 ## <a name="postings"></a>Boekingen
 
-Nadat een functie is geactiveerd, kan deze worden geplaatst. Alleen wervers en beheerders kunnen functies plaatsen. De functie kan worden geplaatst op Talent Loopbanen (een Microsoft Dynamics 365 for Talent-vacaturesite) of LinkedIn. Het Attract-team werkt voortdurend aan partnerschappen met functiebordproviders. Deze lijst wordt in de loop van de tijd uitgebreid. Wanneer een functie als alleen intern wordt gepubliceerd, moeten kandidaten een AAD-account hebben om de functie te bekijken en erop te solliciteren. Als de functie als openbaar wordt weergegeven, kunnen de kandidaten functies bekijken en erop solliciteren met alle verificatieopties. 
+Nadat een functie is geactiveerd, kan deze worden geplaatst. Alleen wervers en beheerders kunnen functies plaatsen. De functie kan worden geplaatst op Talent Loopbanen (een Dynamics 365 Talent-vacaturesite) of LinkedIn. Het Attract-team werkt voortdurend aan partnerschappen met functiebordproviders. Deze lijst wordt in de loop van de tijd uitgebreid. Wanneer een functie als alleen intern wordt gepubliceerd, moeten kandidaten een AAD-account hebben om de functie te bekijken en erop te solliciteren. Als de functie als openbaar wordt weergegeven, kunnen de kandidaten functies bekijken en erop solliciteren met alle verificatieopties. 
 
 Zie voor meer informatie over vacatures [Carrièresitefunctionaliteit in Attract](career-site.md).
 

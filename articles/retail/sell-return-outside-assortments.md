@@ -1,6 +1,6 @@
 ---
 title: Producten verkopen en terugsturen die geen deel uitmaken van een winkelassortiment
-description: Met Dynamics 365 for Retail kunt u producten buiten assortimenten verkopen en retourneren
+description: Met Dynamics 365 Retail kunt u producten buiten assortimenten verkopen en retourneren
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae6bac983ddb4d4a217fe83c8f68c5a87ccd6a47
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567902"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024932"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Producten verkopen en terugsturen die geen deel uitmaken van een winkelassortiment
 
@@ -37,7 +37,7 @@ Hierna vindt u enkele typische scenario's:
 + Een detailhandelaar voert specifieke producten niet in de winkel of heeft ze niet op voorraad in de winkel die de klant bezocht, maar de producten zijn beschikbaar in andere winkels. De winkelmedewerker kan de klant helpen door te zoeken of bladeren naar de producten in de andere winkel, ze toe te voegen aan de winkelwagen en het afrekenen voltooien door een leveringsmethode te selecteren.
 + Een detailhandelaar heeft veel winkels in en rond een bepaalde plaats of postcode en wil de klanten niet dwingen om producten te retourneren in dezelfde winkel als waar ze zijn gekocht. In plaats daarvan kunnen klanten producten retourneren in elke winkel.
 
-Deze algemene scenario's zijn beschikbaar voor detailhandelaren die Dynamics 365 for Retail gebruiken. Met Retail kunt u onder meer:
+Deze algemene scenario's zijn beschikbaar voor detailhandelaren die Retail gebruiken. Met Retail kunt u onder meer:
 
 + Zoeken naar producten in andere winkels of door de lijst bladeren.
 + Alle vrijgegeven producten doorzoeken of erdoor bladeren.

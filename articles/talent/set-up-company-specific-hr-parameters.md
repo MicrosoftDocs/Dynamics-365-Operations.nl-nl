@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506098"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009440"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Bedrijfsspecifieke HR-parameters instellen
 
@@ -34,7 +34,7 @@ De instellingen van bepaalde parameters van Human Resources (HR) worden in alle 
 Twee pagina's worden gebruikt om de parameters voor Human resources (HR) in te stellen. Voor parameters die door bedrijven worden gedeeld, gebruikt u de pagina **Gedeelde Human resources-parameters**. Voor parameters die bedrijfsspecifiek zijn (met andere woorden, de instellingen gelden voor één bedrijf), gebruikt u de pagina **Parameters personeel**. Op de **Human resources-parameters** pagina, zijn de instellingen verdeeld over zes tabbladen:
 
 -   Algemeen
--   Werving - dit is niet opgenomen in Dynamics 365 for Talent
+-   Werving - dit is niet opgenomen in Dynamics 365 Talent
 -   Compensatie
 -   Nummerreeksen
 -   Family and Medical Leave Act (FMLA)
@@ -49,7 +49,7 @@ De instellingen op het tabblad **Compensatie** definiëren of gebruikers moeten 
 ### <a name="previously-released-functionality"></a>Eerder uitgebrachte functionaliteit
 De instellingen op het tabblad **Nummerreeks** bepalen de reeksen die worden gebruikt voor het automatisch toewijzen van id's aan items in Human resources, zoals sollicitaties, verzuimregistraties, resultaten van compensatieprocessen, casenummers, cursussen en cursusagenda's. Om nummerreeksverwijzingen en codes te onderhouden, gebruikt u de lijstpagina **Nummerreeksen**. Klik op **Organisatiebeheer** &gt; **Nummerreeksen** &gt; **Nummerreeksen**.
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Als u Dynamics 365 for Talent gebruikt
+### <a name="if-youre-using-dynamics-365-talent"></a>Als u Dynamics 365 Talent gebruikt
 De instellingen op het tabblad **Nummerreeks** bepalen de reeksen die worden gebruikt voor het automatisch toewijzen van id's aan items in Human resources, zoals sollicitaties, verzuimregistraties, resultaten van compensatieprocessen, casenummers, cursussen en cursusagenda's. Om nummerreeksverwijzingen en codes te onderhouden, gebruikt u de lijstpagina **Nummerreeksen**. Klik op **Systeembeheer** &gt; tabblad **Koppelingen** &gt; **Nummerreeksen** &gt; **Nummerreeksen**. 
 
 De instellingen op het tabblad **FMLA** bepalen hoeveel uren een werknemer moet werken om in aanmerking te komen voor FMLA-vergoedingen, de duur van het dienstverband dat is vereist om in aanmerking te komen en de begindatum van het dienstverband die wordt gebruikt om de duur van het dienstverband te definiëren. De instellingen bepalen ook het aantal FMLA-uren waarop werknemers recht hebben en de FMLA-verlofkalender die wordt gebruikt om te berekenen hoeveel FMLA-uren werknemers hebben gebruikt. Het tabblad **FMLA** is alleen beschikbaar voor bedrijven in de Verenigde Staten. 

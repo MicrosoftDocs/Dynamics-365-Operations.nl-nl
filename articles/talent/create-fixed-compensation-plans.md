@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517670"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008146"
 ---
 # <a name="create-fixed-compensation-plans"></a>Vastecompensatieplannen maken
 
@@ -31,7 +31,7 @@ ms.locfileid: "1517670"
 
 Vaste compensatie verwijst naar het normale brutosalaris of -loon van een werknemer. In dit onderwerp worden de onderdelen beschreven die u moet instellen voordat u een plan voor vaste compensatie kunt maken en werknemers kunt inschrijven.
 
-Bedragen van vaste compensaties kunnen voor uw werknemers worden berekend op basis van factoren, zoals prestaties, regio en budgetverhogingen. Microsoft Talent ondersteunt de compensatietypen van stap, schaal en schijf.
+Bedragen van vaste compensaties kunnen voor uw werknemers worden berekend op basis van factoren, zoals prestaties, regio en budgetverhogingen. Dynamics 365 Talent ondersteunt de compensatietypen van stap, schaal en schijf.
 
 ## <a name="fixed-compensation-components"></a>Onderdelen van vaste compensatie
 ### <a name="compensation-levels"></a>Compensatieniveaus

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 68b285ba78a9bd654e7bfcfe8d4c6b0207346eab
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845589"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249512"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Mobiel werkgebied voorhanden voorraad
 
@@ -31,7 +31,7 @@ ms.locfileid: "1845589"
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Voorhanden voorraad**. Met dit mobiele werkgebied kunt u altijd en overal inzichten verkrijgen in gereserveerde en beschikbare voorraad.
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile.
+Dit mobiele werkgebied is bedoeld om samen te worden gebruikt met de mobiele app van Finance and Operations.
 
 ## <a name="overview"></a>Overzicht
 Normaal gesproken hebben bedrijven elke dag meerdere verzendingen en meerdere ontvangsten van voorraad. Deze verplaatsingen veranderen voortdurend de status van de voorhanden voorraad. Met het mobiele werkgebied **Voorhanden voorraad** kunt u de status van de voorhanden voorraad voor meerdere bedrijven bekijken, zodat u de meest recente inzichten in de voorraadgegevens op het mobiele apparaat van uw keuze kunt verkrijgen. Ongeacht of u werkzaam bent in het magazijn of voor inkoop, verkoop, productie of beheer of andere rollen vervult, u hebt altijd en overal toegang tot de gegevens over de voorhanden voorraad. 
@@ -58,11 +58,11 @@ Het mobiele werkgebied biedt vooral de volgende functies:
 ## <a name="prerequisites"></a>Vereisten
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
-Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Voorhanden voorraad** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-finance-and-operations"></a>Vereisten als u Finance and Operations gebruikt 
+Als Sales naar Supply Chain Management is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Voorhanden voorraad** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Microsoft Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
-Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
+### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Vereisten als u platformupdate 3 of hoger gebruikt 
+Als platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
 
 <table>
 <thead>
@@ -96,7 +96,7 @@ Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of h
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
 
-Download en installeer de mobiele app Dynamics 365 for Unified Operations:
+Download en installeer de mobiele app van Finance and Operations:
 
 -   [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

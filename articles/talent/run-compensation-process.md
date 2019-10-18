@@ -1,6 +1,6 @@
 ---
 title: Het compensatieproces uitvoeren
-description: In dit onderwerp wordt uitgelegd hoe u een probleem oplost waarbij de klant het compensatieproces in Microsoft Dynamics 365 for Talent probeert uit te voeren, maar hier niet in slaagt.
+description: In dit onderwerp wordt uitgelegd hoe u een probleem oplost waarbij de klant het compensatieproces in Microsoft Dynamics 365 Talent probeert uit te voeren, maar hier niet in slaagt.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3d02db8fefb0f00925f862cee8c2cec707f849d9
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2ec3b4789edbacec308600264cdf043067a413bd
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741704"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009803"
 ---
 # <a name="run-the-compensation-process"></a>Het compensatieproces uitvoeren
 
@@ -30,7 +30,7 @@ ms.locfileid: "1741704"
 
 **Probleem**
 
-De klant probeert het compensatieproces in Microsoft Dynamics 365 for Talent uit te voeren, maar slaagt hier niet in.
+De klant probeert het compensatieproces in Microsoft Dynamics 365 Talent uit te voeren, maar slaagt hier niet in.
 
 **Oorzaak**
 

@@ -1,6 +1,6 @@
 ---
-title: Verkooporders direct synchroniseren tussen Sales en Finance and Operations
-description: Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van verkooporders tussen Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations.
+title: Verkooporders rechtstreeks tussen Sales en Supply Chain Management synchroniseren
+description: Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van verkooporders tussen Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/09/2019
@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
-ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
+ms.openlocfilehash: 7c8831203ae30991ff8acf1926aafc2d1839aeb2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1539109"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251265"
 ---
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Verkooporders rechtstreeks tussen Sales en Supply Chain Management synchroniseren
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van verkooporders tussen Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van verkooporders tussen Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
 
-De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Finance and Operations en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens voor rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Finance and Operations en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Finance and Operations en Sales.
+De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Supply Chain Management en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens voor rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Supply Chain Management en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Supply Chain Management en Sales.
 
 [![Gegevensstroom in Prospect naar contant geld](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -42,12 +42,12 @@ De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie o
 
 Open het [PowerApps-beheercentrum](https://preview.admin.powerapps.com/dataintegration) om toegang te krijgen tot de beschikbare sjablonen. Selecteer **Projecten** en selecteer vervolgens in de rechterbovenhoek de optie **Nieuw project** om openbare sjablonen te selecteren.
 
-De volgende sjablonen en onderliggende taken worden gebruikt voor het direct synchroniseren van verkooporders tussen Sales en Finance and Operations:
+De volgende sjablonen en onderliggende taken worden gebruikt voor het direct synchroniseren van verkooporders tussen Sales en Supply Chain Management.
 
 - **Namen van de sjablonen in Gegevensintegratie:** 
 
-    - Verkooporders (Sales naar Fin and Ops) - Direct
-    - Verkooporders (Fin and Ops naar Sales) - Direct
+    - Verkooporders (Sales naar Supply Chain Management) - Direct
+    - Verkooporders (Supply Chain Management naar Sales) - Direct
 
 - **Namen van de taken in het project Gegevensintegratie:**
 
@@ -56,57 +56,57 @@ De volgende sjablonen en onderliggende taken worden gebruikt voor het direct syn
 
 De volgende synchronisatietaken zijn vereist voordat de synchronisatie van de kopteksten en regels van verkoopfacturen kan plaatsvinden:
 
-- Producten (Fin and Ops naar Sales) - Direct
-- Rekeningen (Sales naar Fin and Ops) - Direct (indien gebruikt)
-- Contactpersonen naar klanten (Sales naar Fin and Ops) - Direct (indien gebruikt)
+- Producten (Supply Chain Management naar Sales) - Direct
+- Rekeningen (Supply Chain Management naar Sales) - Direct (wanneer gebruikt)
+- Contactpersonen naar klanten (Sales naar Supply Chain Management) - Direct (indien gebruikt)
 
 ## <a name="entity-set"></a>Entiteitset
 
-| Finance en Operations  | Verkoop             |
+| Supply Chain Management  | Verkoop             |
 |-------------------------|-------------------|
-| CDS-verkooporderkoppen | SalesOrders       |
+| CDS-verkooporderkopteksten | SalesOrders       |
 | CDS-verkooporderregels   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Entiteitstroom
 
-Verkooporders worden gemaakt in Sales en gesynchroniseerd naar Finance and Operations als **Project uitvoeren** voor een project wordt geactiveerd op basis van de sjabloon **Verkooporders (Sales naar Fin and Ops) - Direct**. U kunt verkooporders alleen vanuit Sales activeren en synchroniseren als alle **orderproducten** volledig uit extern beheerde producten bestaan. Er kunnen dus geen toe te voegen producten zijn. Nadat de order is geactiveerd, wordt de verkooporder alleen-lezen in de gebruikersinterface (UI). Op dat moment worden de updates uitgevoerd vanuit Finance and Operations. Als de verkooporder de status **Bevestigd** heeft, kan het project op basis van de sjabloon **Verkooporders (Fin and Ops naar Sales) - Direct** worden gebruikt om updates of de afhandelingsstatus vanuit Finance and Operations te synchroniseren naar Sales.
+Verkooporders worden gemaakt in Sales en gesynchroniseerd naar Supply Chain Management als **Project uitvoeren** voor een project wordt geactiveerd op basis van de sjabloon **Verkooporders (Sales naar Supply Chain Management) - Direct**. U kunt verkooporders alleen vanuit Sales activeren en synchroniseren als alle **orderproducten** volledig uit extern beheerde producten bestaan. Er kunnen dus geen toe te voegen producten zijn. Nadat de order is geactiveerd, wordt de verkooporder alleen-lezen in de gebruikersinterface (UI). Op dat moment worden de updates uitgevoerd vanuit Supply Chain Management. Als de verkooporder de status **Bevestigd** heeft, kan het project op basis van de sjabloon **Verkooporders (Supply Chain Management naar Sales) - Direct** worden gebruikt om updates of de afhandelingsstatus vanuit Supply Chain Management te synchroniseren naar Sales.
 
-U hoeft geen orders in Sales te maken. U kunt nieuwe verkooporders in Finance and Operations maken. Als een verkooporder de status **Bevestigd** heeft, wordt deze gesynchroniseerd naar Sales, zoals wordt beschreven in de vorige alinea.
+U hoeft geen orders in Sales te maken. U kunt in plaats daarvan nieuwe verkooporders in Supply Chain Management maken. Als een verkooporder de status **Bevestigd** heeft, wordt deze gesynchroniseerd naar Sales, zoals wordt beschreven in de vorige alinea.
 
-In Finance and Operations zorgen filters in de sjabloon ervoor dat alleen de relevante verkooporders worden opgenomen in de synchronisatie:
+In Supply Chain Management zorgen filters in de sjabloon ervoor dat alleen de relevante verkooporders worden opgenomen in de synchronisatie:
 
-- Als zowel de bestellende als de facturerende klant op de verkooporder uit Sales afkomstig is, worden beide opgenomen in de synchronisatie. In Finance and Operations worden de velden **OrderingCustomerIsExternallyMaintained** en **InvoiceCustomerIsExternallyMaintained** gebruikt om verkooporders te filteren op basis van de gegevensentiteiten.
-- De verkooporder in Finance and Operations moet worden bevestigd. Alleen bevestigde verkooporders of verkooporders met een hogere verwerkingsstatus, bijvoorbeeld met de status **Verzonden** of **Gefactureerd**, worden gesynchroniseerd naar Sales.
-- Na het maken of wijzigen van een verkooporder moet de batchtaak **Verkooptotalen berekenen** in Finance and Operations worden uitgevoerd. Alleen verkooporders waarvoor verkooptotalen zijn berekend, worden gesynchroniseerd naar Sales.
+- Als zowel de bestellende als de facturerende klant op de verkooporder uit Sales afkomstig is, worden beide opgenomen in de synchronisatie. In Supply Chain Management worden de velden **OrderingCustomerIsExternallyMaintained** en **InvoiceCustomerIsExternallyMaintained** gebruikt om verkooporders te filteren op basis van de gegevensentiteiten.
+- De verkooporder in Supply Chain Management moet worden bevestigd. Alleen bevestigde verkooporders of verkooporders met een hogere verwerkingsstatus, bijvoorbeeld met de status **Verzonden** of **Gefactureerd**, worden gesynchroniseerd naar Sales.
+- Na het maken of wijzigen van een verkooporder moet de batchtaak **Verkooptotalen berekenen** in Supply Chain Management worden uitgevoerd. Alleen verkooporders waarvoor verkooptotalen zijn berekend, worden gesynchroniseerd naar Sales.
 
 ## <a name="freight-tax"></a>Transportbelasting
 
-Sales ondersteunt geen btw op koptekstniveau omdat btw op regelniveau wordt opgeslagen. Om belastingen op koptekstniveau te ondersteunen vanuit Finance and Operations, bijvoorbeeld vrachtbelastingen, worden de belastingen als toe te voegen product met de naam **Transportbelasting** gesynchroniseerd naar Sales. Op deze manier kan de standaardprijsberekening in Sales worden gebruikt om totalen te berekenen, zelfs als er belastingen op koptekstniveau aanwezig zijn vanuit Finance and Operations.
+Sales ondersteunt geen btw op koptekstniveau omdat btw op regelniveau wordt opgeslagen. Om belastingen op koptekstniveau te ondersteunen vanuit Supply Chain Management, bijvoorbeeld vrachtbelastingen, worden de belastingen gesynchroniseerd naar Sales als toe te voegen product met de naam **Transportbelasting** dat het belastingbedrag van Supply Chain Management heeft. Op deze manier kan de standaardprijsberekening in Sales worden gebruikt om totalen te berekenen, zelfs als er belastingen op koptekstniveau aanwezig zijn vanuit Supply Chain Management.
 
 ## <a name="discount-calculation-and-rounding"></a>Berekening en afronding van korting
 
-Het model voor het berekenen van korting in Sales wijkt af van het model in Finance and Operations. In Finance and Operations kan het uiteindelijke kortingsbedrag op een verkoopregel het resultaat zijn van een combinatie van kortingsbedragen en -percentages. Als dit uiteindelijke kortingsbedrag wordt gedeeld door de hoeveelheid op de regel, kan er afronding plaatsvinden. Deze afronding wordt echter niet gebruikt als een afgerond kortingsbedrag per eenheid wordt gesynchroniseerd naar Sales. Het volledige kortingsbedrag op een verkoopregel in Finance and Operations kan alleen correct worden gesynchroniseerd naar Sales als het volledige bedrag wordt gesynchroniseerd, zonder het te delen door de regelhoeveelheid. Daarom moet u in Sales de optie **Berekeningsmethode korting** instellen op **Regelartikel**.
+Het model voor het berekenen van korting in Sales wijkt af van het model voor het berekenen van korting in Supply Chain Management. In Supply Chain Management kan het uiteindelijke kortingsbedrag op een verkoopregel het resultaat zijn van een combinatie van kortingsbedragen en -percentages. Als dit uiteindelijke kortingsbedrag wordt gedeeld door de hoeveelheid op de regel, kan er afronding plaatsvinden. Deze afronding wordt echter niet gebruikt als een afgerond kortingsbedrag per eenheid wordt gesynchroniseerd naar Sales. Het volledige kortingsbedrag op een verkoopregel in Supply Chain Management kan alleen correct worden gesynchroniseerd naar Sales als het volledige bedrag wordt gesynchroniseerd, zonder het te delen door de regelhoeveelheid. Daarom moet u in Sales de optie **Berekeningsmethode korting** instellen op **Regelartikel**.
 
-Als een verkooporderregel vanuit Sales naar Finance and Operations wordt gesynchroniseerd, wordt het volledige regelkortingsbedrag gebruikt. Omdat in Finance and Operations geen veld beschikbaar is waarin het volledige kortingsbedrag voor een regel kan worden opgeslagen, wordt het bedrag gedeeld door de hoeveelheid en opgeslagen in het veld **Regelkorting**. Afronding die tijdens deze deling plaatsvindt, wordt opgeslagen in het veld **Verkooptoeslagen** op de verkoopregel.
+Als een verkooporderregel vanuit Sales naar Supply Chain Management wordt gesynchroniseerd, wordt het volledige regelkortingsbedrag gebruikt. Omdat in Supply Chain Management geen veld beschikbaar is waarin het volledige kortingsbedrag voor een regel kan worden opgeslagen, wordt het bedrag gedeeld door de hoeveelheid en opgeslagen in het veld **Regelkorting**. Afronding die tijdens deze deling plaatsvindt, wordt opgeslagen in het veld **Verkooptoeslagen** op de verkoopregel.
 
 ### <a name="example"></a>Voorbeeld
 
-**Synchronisatie vanuit Sales naar Finance and Operations**
+**Synchronisatie van Sales naar Supply Chain Management**
 
 - **Sales:** Hoeveelheid = 3, korting per regel = € 10,00
-- **Finance and Operations:** Hoeveelheid = 3, regelkortingsbedrag = € 3,33, verkooptoeslag = -€ 0,01 
+- **Supply Chain Management:** Hoeveelheid = 3, regel kortingsbedrag = $ 3,33, verkoopkosten =-$ 0,01 
 
-**Synchronisatie vanuit Finance and Operations naar Sales**
+**Synchronisatie van Supply Chain Management naar Sales**
 
-- **Finance and Operations:** Hoeveelheid = 3, regelkortingsbedrag = € 3,33, verkooptoeslag = -€ 0,01
+- **Supply Chain Management:** Hoeveelheid = 3, regel kortingsbedrag = $ 3,33, verkoopkosten =-$ 0,01
 - **Sales:** Hoeveelheid = 3, korting per regel = = (3 × € 3,33) + € 0,01 = € 10,00
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Oplossing Prospect naar contant geld voor Sales
 
 Nieuwe velden zijn toegevoegd aan de entiteit **Order** en worden weergegeven op de pagina:
 
-- **Wordt extern beheerd**: stel deze optie in op **Ja** wanneer de order afkomstig is uit Finance and Operations.
-- **Verwerkingsstatus**: in dit veld wordt de verwerkingsstatus weergegeven van de order in Finance and Operations. De volgende waarden zijn beschikbaar:
+- **Wordt extern beheerd** – stel deze optie in op **Ja** wanneer de order afkomstig is uit Supply Chain Management.
+- **Verwerkingsstatus** – in dit veld wordt de verwerkingsstatus weergegeven van de order in Supply Chain Management. De volgende waarden zijn beschikbaar:
 
     - **Concept**: de beginstatus wanneer een order wordt gemaakt in Sales. In Sales kunnen alleen orders met deze status worden bewerkt.
     - **Actief**: de status nadat de order is geactiveerd met de knop **Activeren** in Sales.
@@ -121,11 +121,11 @@ Nieuwe velden zijn toegevoegd aan de entiteit **Order** en worden weergegeven op
     - **Gedeeltelijk gefactureerd**
     - **Geannuleerd**
 
-De instelling **Heeft alleen extern onderhouden producten** wordt tijdens orderactivering gebruikt om consistent bij te houden of een verkooporder geheel bestaat uit extern beheerde producten. Als een verkooporder alleen uit extern beheerde producten bestaat, worden de producten beheerd in Finance and Operations. Met deze instelling garandeert u dat u niet verkooporderregels probeert te activeren en te synchroniseren die producten bevatten die onbekend zijn in Finance and Operations.
+De instelling **Heeft alleen extern onderhouden producten** wordt tijdens orderactivering gebruikt om consistent bij te houden of een verkooporder geheel bestaat uit extern beheerde producten. Als een verkooporder alleen uit extern beheerde producten bestaat, worden de producten beheerd in Supply Chain Management. Met deze instelling garandeert u dat u niet verkooporderregels probeert te activeren en te synchroniseren die producten bevatten die onbekend zijn in Supply Chain Management.
 
-Voor extern beheerde orders zijn de knoppen **Factuur maken**, **Order annuleren**, **Opnieuw berekenen**, **Producten ophalen** en **Adres opzoeken** op de pagina **Verkooporder** verborgen omdat facturen worden gemaakt in Finance and Operations en vervolgens worden gesynchroniseerd naar Sales. Deze orders kunnen niet worden bewerkt omdat verkoopordergegevens na activering vanuit Finance and Operations worden gesynchroniseerd.
+Voor extern beheerde orders zijn de knoppen **Factuur maken**, **Order annuleren**, **Opnieuw berekenen**, **Producten ophalen** en **Adres opzoeken** op de pagina **Verkooporder** verborgen omdat facturen worden gemaakt in Supply Chain Management en vervolgens worden gesynchroniseerd naar Sales. Deze orders kunnen niet worden bewerkt omdat verkoopordergegevens na activering vanuit Supply Chain Management worden gesynchroniseerd.
 
-De verkooporderstatus blijft **Actief** om ervoor te zorgen dat wijzigingen vanuit Finance and Operations naar de verkooporder in Sales kunnen stromen. U stelt dit gedrag in door de standaardwaarde voor **Statuscode \[Status\]** op **Actief** in te stellen in het project Gegevensintegratie.
+De verkooporderstatus blijft **Actief** om ervoor te zorgen dat wijzigingen vanuit Supply Chain Management naar de verkooporder in Sales kunnen stromen. U stelt dit gedrag in door de standaardwaarde voor **Statuscode \[Status\]** op **Actief** in te stellen in het project Gegevensintegratie.
 
 ## <a name="preconditions-and-mapping-setup"></a>Voorwaarden en instellingen voor toewijzing
 
@@ -137,17 +137,17 @@ Voordat u verkooporders synchroniseert, is het belangrijk de volgende instelling
 
     Ga naar **Instellingen** &gt; **Beveiliging** &gt; **Teams**, selecteer het relevante team, selecteer **Rollen beheren** en selecteer een rol met de gewenste machtigingen, bijvoorbeeld **Systeembeheerder**.
 
-- Voor een juiste berekening van kortingen in Sales en Finance and Operations moet de **Berekeningsmethode korting** zijn ingesteld op **Regelartikel**.
+- Voor een juiste berekening van kortingen in Sales en Supply Chain Management moet de **Berekeningsmethode voor korting** zijn ingesteld op **Regelartikel**.
 - Ga naar **Instellingen** &gt; **Beheer** &gt; **Systeeminstellingen** &gt; **Sales** en zorg ervoor dat de volgende instellingen worden gebruikt:
 
     - De optie **Systeem voor berekenen van systeemprijzen gebruiken** is ingesteld op **Ja**.
     - Het veld **Berekeningsmethode korting** is ingesteld op **Regelartikel**.
 
-### <a name="setup-in-finance-and-operations"></a>Instellingen In Finance and Operations
+### <a name="setup-in-supply-chain-management"></a>Supply Chain Management instellen
 
 - Ga naar **Verkoopbeheer en marketing** &gt; **Periodieke taken** &gt; **Verkooptotalen berekenen** en stel de taak zo in dat deze wordt uitgevoerd als batchtaak. Stel de optie **Totalen berekenen voor verkooporders** in op **Ja**. Deze stap is belangrijk omdat alleen verkooporders waarvoor verkooptotalen zijn berekend, worden gesynchroniseerd naar Sales. De frequentie van de batchtaak moet worden uitgelijnd met de frequentie van de verkoopordersynchronisatie.
 
-Als u ook integratie werkorder gebruikt, moet u de verkoopoorsprong instellen. De verkoopoorsprong wordt gebruikt om onderscheid te maken tussen verkooporders in Finance and Operations die zijn gemaakt op basis van werkorders in Field Service. Wanneer een verkooporder een verkoopoorsprong heeft van het type **Integratie werkorder**, wordt het veld **Externe werkorderstatus** weergegeven in de verkooporderkoptekst. Bovendien zorgt de verkoopoorsprong ervoor dat verkooporders die zijn gemaakt op basis van werkorders in Field Service worden uitgefilterd tijdens de synchronisatie van verkooporders van Finance and Operations met Field Service.
+Als u ook integratie werkorder gebruikt, moet u de verkoopoorsprong instellen. De verkoopoorsprong wordt gebruikt om onderscheid te maken tussen verkooporders in Supply Chain Management die zijn gemaakt op basis van werkorders in Field Service. Wanneer een verkooporder een verkoopoorsprong heeft van het type **Integratie werkorder**, wordt het veld **Externe werkorderstatus** weergegeven in de verkooporderkoptekst. Bovendien zorgt de verkoopoorsprong ervoor dat verkooporders die zijn gemaakt op basis van werkorders in Field Service worden uitgefilterd tijdens de synchronisatie van verkooporders van Supply Chain Management naar Field Service.
 
 1. Ga naar **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Verkoopoorsprong**.
 2. Selecteer **Nieuw** voor het maken van een nieuwe verkoopoorsprong.
@@ -157,13 +157,13 @@ Als u ook integratie werkorder gebruikt, moet u de verkoopoorsprong instellen. D
 6. Stel het veld **Type verkoopoorsprong** in op **Integratie verkooporder**.
 7. Selecteer **Opslaan**.
 
-### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Instellingen in het project Gegevensintegratie voor verkooporders (Sales naar Fin and Ops) - Direct
+### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Instellingen in het project Gegevensintegratie voor Verkooporders (Sales naar Supply Chain Management) - Direct
 
 - Zorg ervoor dat de vereiste toewijzing bestaat voor **Shipto\_country** naar **DeliveryAddressCountryRegionISOCode**. U kunt een lege standaardwaarde in de waardetoewijzing instellen om geen land te hoeven typen voor nationale orders. Stel de linkerkant in op Leeg en stel de rechterkant in op het gewenste land of de gewenste regio.
 
     De sjabloonwaarde is een toewijzingswaarde waarbij verschillende landen of regio's worden toegewezen en waarbij Leeg = VS.
 
-### <a name="setup-in-the-sales-orders-fin-and-ops-to-sales---direct-data-integration-project"></a>Instellingen in het project Gegevensintegratie voor verkooporders (Fin and Ops naar Sales) - Direct
+### <a name="setup-in-the-sales-orders-supply-chain-management-to-sales---direct-data-integration-project"></a>Instellingen in het project Gegevensintegratie voor Verkooporders (Supply Chain Management naar Salest) - Direct
 
 #### <a name="salesheader-task"></a>Taak SalesHeader
 
@@ -173,7 +173,7 @@ Als u ook integratie werkorder gebruikt, moet u de verkoopoorsprong instellen. D
 
 #### <a name="salesline-task"></a>Taak SalesLine
 
-- Zorg ervoor dat de vereiste waardetoewijzing voor **SalesUnitSymbol** in Finance and Operations bestaat.
+- Zorg ervoor dat de vereiste waardetoewijzing voor **SalesUnitSymbol** in Supply Chain Management bestaat.
 - Zorg ervoor dat de vereiste eenheden zijn gedefinieerd in Sales.
 
     Er wordt een sjabloonwaarde met een waardetoewijzing voor **SalesUnitSymbol** naar **oumid.name** gedefinieerd.
@@ -186,21 +186,21 @@ Als u ook integratie werkorder gebruikt, moet u de verkoopoorsprong instellen. D
 In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegevensintegratie.
 
 > [!NOTE]
-> Aan de hand van de toewijzing kunt u zien welke veldgegevens vanuit Sales naar Finance and Operations of andersom worden gesynchroniseerd.
+> Aan de hand van de toewijzing kunt u zien welke veldgegevens vanuit Sales naar Supply Chain Management of andersom worden gesynchroniseerd.
 
-### <a name="sales-orders-fin-and-ops-to-sales---direct-orderheader"></a>Verkooporders (Fin and Ops naar Sales) - Direct: OrderHeader
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Verkooporders (Supply Chain Management naar Sales) - Direct: OrderHeader
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
-### <a name="sales-orders-fin-and-ops-to-sales---direct-orderline"></a>Verkooporders (Fin and Ops naar Sales) - Direct: OrderLine
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Verkooporders (Supply Chain Management naar Sales) - Direct: OrderLine
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
-### <a name="sales-orders-sales-to-fin-and-ops---direct-orderheader"></a>Verkooporders (Sales naar Fin and Ops) - Direct: OrderHeader
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Verkooporders (Sales naar Supply Chain Management) - Direct: OrderHeader
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
-### <a name="sales-orders-sales-to-fin-and-ops---direct-orderline"></a>Verkooporders (Sales naar Fin and Ops) - Direct: OrderLine
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Verkooporders (Sales naar Supply Chain Management) - Direct: OrderLine
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 

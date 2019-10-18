@@ -1,6 +1,6 @@
 ---
-title: Uw vacaturesite instellen in Microsoft Dynamics 365 for Talent - Attract
-description: Dit onderwerp bevat een overzicht van de functionaliteit voor een op kandidaten gerichte vacaturesite in Microsoft Dynamics 365 for Talent - Attract.
+title: Uw vacaturesite instellen in Microsoft Dynamics 365 Talent - Attract
+description: Dit onderwerp bevat een overzicht van de functionaliteit voor op kandidaten gerichte vacaturesite in Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739766"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026274"
 ---
 # <a name="set-up-your-career-site"></a>Uw vacaturesite instellen
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van de functionaliteit voor op kandidaten gerichte vacaturesite in Microsoft Dynamics 365 for Talent: Attract. Ook wordt uitgelegd hoe u deze functionaliteit instelt.
+Dit onderwerp bevat een overzicht van de functionaliteit voor een op kandidaten gerichte vacaturesite in Microsoft Dynamics 365 Talent: Attract. Ook wordt uitgelegd hoe u deze functionaliteit instelt.
 
 Attract biedt één vacaturesite voor elke omgeving in een tenant. Als een organisatie bijvoorbeeld beschikt over een ontwikkelomgeving en een testomgeving, wordt één vacaturesite ingericht voor de ontwikkelomgeving en een andere voor de testomgeving. Elke vacaturesite is volledig geïsoleerd en heeft een eigen verificatiemechanisme. Functies en kandidaatprofielen worden niet gedeeld tussen vacaturesites.
 
@@ -62,7 +62,7 @@ De volgende lijst bevat de meest gebruikte vacaturesite-URL's en hoe u toegang k
 
 -   **Startpagina-URL van vacaturesite**: als u de startpagina-URL van een vacaturesite wilt weergeven, meldt u zich aan bij Attract als beheerder, selecteert u **Beheercentrum** in het menu **Instellingen** en selecteert u vervolgens het tabblad **Beheer van vacaturesite**.
 
--   **Sollicitatie-URL afzonderlijke vacture**: wanneer u voor de eerste keer [een externe functie publiceert](Creating-jobs-Attract.md#postings), kunt u de koppeling **Solliciteren** kopiëren uit de Attract-toepassing. De URL voor deze koppeling heeft de volgende indeling: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **Sollicitatie-URL afzonderlijke vacature**: wanneer u voor de eerste keer [een externe functie publiceert](Creating-jobs-Attract.md#postings), kunt u de koppeling **Solliciteren** kopiëren uit Attract. De URL voor deze koppeling heeft de volgende indeling: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **URL afzonderlijke vacature**: de URL van de vacature is een subreeks van de sollicitatie-URL. Deze reeks bestaat uit alles tot en met het vacaturenummer. Daarom is voor de voorgaande sollicitatie-URL de URL van de vacature [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e).
 

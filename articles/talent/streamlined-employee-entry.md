@@ -1,6 +1,6 @@
 ---
 title: Gestroomlijnde invoer en navigatie voor werknemers
-description: De gegevensinvoer voor medewerkers in Dynamics 365 for Talent is verbeterd om snelle invoer mogelijk te maken voor alle medewerkers (vroegere, actieve en toekomstige medewerkers). Een vereenvoudigd/geconsolideerd navigatiemodel is bijgewerkt om snel gerelateerde informatie te vinden en eventueel benodigde updates te bekijken en toe te passen.
+description: De gegevensinvoer voor medewerkers in Dynamics 365 Talent is verbeterd om snelle invoer mogelijk te maken voor alle medewerkers (vroegere, actieve en toekomstige medewerkers). Een vereenvoudigd/geconsolideerd navigatiemodel is bijgewerkt om snel gerelateerde informatie te vinden en eventueel benodigde updates te bekijken en toe te passen.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918193"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009417"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Gestroomlijnde invoer en navigatie voor werknemers
 
 [!include [banner](includes/banner.md)]
 
-In Dynamics 365 for Talent kunnen van medewerkers- en aanstellingsgegevens efficiënt worden ingevoerd. U kunt werkhistoriegegevens snel bijwerken voor vroegere, actieve en toekomstige medewerkers en contractanten.
+In Dynamics 365 Talent kunnen van medewerkers- en aanstellingsgegevens efficiënt worden ingevoerd. U kunt werkhistoriegegevens snel bijwerken voor vroegere, actieve en toekomstige medewerkers en contractanten.
 
 U kunt ook een vereenvoudigde navigatie-ervaring inschakelen om snel gerelateerde informatie te vinden en de nodige wijzigingen aan te brengen. Deze functionaliteit is nu beschikbaar in sandbox-omgevingen. Als u deze functie wilt inschakelen, navigeert u naar **Systeembeheer > Koppelingen > Instellingen > Systeemparameters > Voorbeeldfuncties**. Selecteer **Verbeterd medewerkersformulier en navigatie**. Hierdoor worden deze wijzigingen voor alle gebruikers ingeschakeld. U kunt deze optie op elk gewenst moment uitschakelen.
 

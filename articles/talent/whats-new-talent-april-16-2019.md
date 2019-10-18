@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent (16 april 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent (16 april 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517687"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024132"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (16 april 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (16 april 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
@@ -47,11 +47,11 @@ Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.22
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Entiteiten Compensatieregio, Compensatieniveau, Vergoedingsoptie en Vaardigheidstype in Common Data Service bijgewerkt met ondersteuning voor klantveld
 
-In deze versie zijn deze Common Data Service-entiteiten bijgewerkt met de mogelijkheid om een aangepast veld op te nemen dat is toegevoegd via Talent (Core HR).
+In deze versie zijn deze Common Data Service-entiteiten bijgewerkt met de mogelijkheid om een aangepast veld op te nemen dat is toegevoegd via Talent: Core HR.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Ondersteuning voor nieuwe Common Data Service-entiteiten voor: Compensatie vestigingsregels, Variabelecompensatieplan, Variabele compensatie
 
-In deze release zijn de entiteiten Compensatie vestigingsregels, Variabelecompensatieplan, Variabele compensatie toegevoegd aan Common Data Service. Deze entiteiten ondersteunen ook aangepaste velden die zijn toegevoegd via Talent (Core HR).
+In deze release zijn de entiteiten Compensatie vestigingsregels, Variabelecompensatieplan, Variabele compensatie toegevoegd aan Common Data Service. Deze entiteiten ondersteunen ook aangepaste velden die zijn toegevoegd via Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Problemen met vernieuwing in PowerBI (314342)
 
@@ -95,6 +95,6 @@ Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invo
 
 ### <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
 
-Met platformupdate 25 kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer deze door een gebeurtenis worden geactiveerd.
+Met Platformupdate 25 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd.
 
 

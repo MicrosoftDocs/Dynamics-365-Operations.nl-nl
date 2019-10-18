@@ -1,6 +1,6 @@
 ---
 title: Callcenterkanalen instellen
-description: Dit onderwerp biedt informatie over het verwerken van procesorders voor callcenters met gebruik van Microsoft Dynamics 365 for Retail.
+description: Dit onderwerp biedt informatie over het verwerken van procesorders voor callcenters met gebruik van Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549354"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024816"
 ---
 # <a name="set-up-call-center-channels"></a>Callcenterkanalen instellen
 
 [!include [banner](includes/banner.md)]
 
-Een bedrijf kan meerdere callcenterkanalen definiëren in Microsoft Dynamics 365 for Retail. Callcenterkanalen worden geconfigureerd via **Retail** \> **Kanalen** \> **Callcenters** \> **Alle callcenters**, en zijn specifiek voor een rechtspersoon.
+Een bedrijf kan meerdere callcenterkanalen definiëren in Dynamics 365 Retail. Callcenterkanalen worden geconfigureerd via **Retail** \> **Kanalen** \> **Callcenters** \> **Alle callcenters**, en zijn specifiek voor een rechtspersoon.
 
 Wanneer een nieuwe callcenterkanaal wordt gemaakt, wordt hieraan systematisch een nummer van een operationele eenheid toegewezen. Omdat callcenters worden gemaakt als operationele eenheden, kunnen gebruikers het callcenterkanaal koppelen aan verschillende Retail-functies, zoals assortimenten, catalogi en specifieke leveringsmethoden.
 
@@ -76,6 +76,8 @@ Wanneer u het callcenterkanaal definieert, moet u kanaalgebruikers koppelen aan 
 
 Standaard wordt de markering **Detailhandelverkoop** in de verkooporderkoptekst is ingeschakeld voor alle orders die callcentergebruikers maken. De orders kunnen vervolgens profiteren van de detailhandelspecifieke prijs- en promotiefuncties van het systeem.
 
-Gebruikers die niet zijn gekoppeld aan een callcenterkanaal gebruiken de standaardfuncties voor orderinvoer van Microsoft Dynamics 365 for Finance and Operations. Orders die deze gebruikers invoeren via het formulier Verkooporderinvoer, worden niet systematisch aangemerkt als detailhandelorders. Ook worden orders die zijn ingevoerd door deze gebruikers, niet onderworpen aan voltooiingsregels voor orderverwerking, logica voor detailhandelsprijzen of andere ordervalidaties die kunnen worden gedefinieerd in de configuratie van het callcenterkanaal of systeemparameters voor het callcenter.
+
+Gebruikers die niet zijn gekoppeld aan een callcenterkanaal gebruiken de standaardfuncties voor orderinvoer van Microsoft Dynamics 365 Finance. Orders die deze gebruikers invoeren via het formulier Verkooporderinvoer, worden niet systematisch aangemerkt als detailhandelorders. Ook worden orders die zijn ingevoerd door deze gebruikers, niet onderworpen aan voltooiingsregels voor orderverwerking, logica voor detailhandelsprijzen of andere ordervalidaties die kunnen worden gedefinieerd in de configuratie van het callcenterkanaal of systeemparameters voor het callcenter.
+
 
 Nadat u het callcenterkanaal hebt geconfigureerd en kanaalgebruikers hebt gedefinieerd, kunt u het gewenste systeemgedrag bevorderen door te zorgen dat alle vereiste callcenterparameters zijn gedefinieerd in **Retail** \> **Kanaalinstelling** \> **Instellingen van callcenter** \> **Parameters van callcenter**. Zorg ook dat gerelateerde nummerreeksen zijn gedefinieerd.

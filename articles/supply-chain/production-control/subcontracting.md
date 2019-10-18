@@ -1,6 +1,6 @@
 ---
 title: Werk uitbesteden
-description: Dit onderwerp helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Microsoft Dynamics 365 for Finance and Operations.
+description: Dit onderwerp helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Dynamics 365 Supply Chain Management.
 author: christophernread
 manager: AnnBe
 ms.date: 09/28/2018
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55b516f928eadea9b7ddbb1192db79f3ab7fa204
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d1d7adf91c246ecad574043cbb60ca260bb328
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568380"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249906"
 ---
 # <a name="subcontracting"></a>Werk uitbesteden
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Microsoft Dynamics 365 for Finance and Operations. In het eerste deel van dit onderwerp wordt beschreven hoe u de gegevens instelt. In het tweede deel doorloopt u de stappen in de procedure.
+Dit onderwerp helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Microsoft Dynamics 365 Supply Chain Management. In het eerste deel van dit onderwerp wordt beschreven hoe u de gegevens instelt. In het tweede deel doorloopt u de stappen in de procedure.
 
 ## <a name="target-audience"></a>Doelgroep
 

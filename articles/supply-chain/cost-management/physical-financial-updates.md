@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4360f9132d31c9d0038f51c68c1f6c3fcaaa2025
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547881"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250855"
 ---
 # <a name="physical-and-financial-updates"></a>Fysieke en financiële updates
 
@@ -32,7 +32,7 @@ ms.locfileid: "1547881"
 
 Dit onderwerp biedt een overzicht van de typen transacties die voorraadhoeveelheden vergroten of verkleinen. 
 
-Voorraadtransacties kunnen in Microsoft Dynamics 365 for Finance and Operations fysiek en financieel worden bijgewerkt. Bepaalde typen van fysieke en financiële transacties verhogen voorraadhoeveelheden, terwijl andere de hoeveelheid verlagen.
+Voorraadtransacties kunnen in Dynamics 365 Supply Chain Management fysiek en financieel worden bijgewerkt. Bepaalde typen van fysieke en financiële transacties verhogen voorraadhoeveelheden, terwijl andere de hoeveelheid verlagen.
 
 ## <a name="physical-increases"></a>Fysieke toename
 Wanneer u een fysieke transactie boekt, wordt de status van de transactierecord **Ontvangen**. De volgende transacties worden beschouwd als een fysieke toename:
@@ -51,10 +51,13 @@ Wanneer u een financiële transactie boekt, wordt de status van de transactierec
 -   Voorraadjournalen met een positieve hoeveelheid, zoals mutaties, winst en verlies, telling, stuklijsten en overboekingen
 
 ## <a name="transactions-that-increase-quantity"></a>Transacties waardoor de hoeveelheid toeneemt
-Transacties waardoor de hoeveelheid toeneemt, worden geboekt tegen het lopend gemiddelde van de kostprijs. In Finance and Operations wordt een lopend gemiddelde kostprijs berekend, die is gebaseerd op de kosten van elk van deze transacties voor elke voorraaddimensie die financieel wordt bijgehouden. Voor informatie over het uitvoeren van gemiddelde kostprijzen raadpleegt u [Lopende gemiddelde kostprijs](running-average-cost-price.md).
+Transacties waardoor de hoeveelheid toeneemt, worden geboekt tegen het lopend gemiddelde van de kostprijs. De berekende lopende gemiddelde kostprijs is gebaseerd op de kosten van elk van deze transacties voor elke voorraaddimensie die financieel wordt bijgehouden. Voor informatie over het uitvoeren van gemiddelde kostprijzen raadpleegt u [Lopende gemiddelde kostprijs](running-average-cost-price.md).
 
 ## <a name="transactions-that-decrease-quantity"></a>Transacties waardoor de hoeveelheid afneemt
-In Finance and Operations wordt het berekende lopend gemiddelde van de kostprijs gebruikt wanneer een transactie wordt geboekt waardoor de hoeveelheid afneemt, ongeacht welk voorraadwaarderingsmodel aan de voorraad is gekoppeld. De transactie, waardoor de hoeveelheid afneemt, mag vóór de boeking niet worden gekoppeld aan een andere transactie. Als de fysieke voorhanden voorraad negatief wordt, worden in Finance and Operations de voorraadkosten gebruikt die zijn gedefinieerd voor het artikel op de pagina **Artikel**. **Opmerking:** Als de functionaliteit voor meerdere sites is ingeschakeld, zijn deze kosten daarentegen de voorraadkosten die voor een locatie zijn gedefinieerd op de pagina **Standaard orderinstellingen**.
+Het berekende lopend gemiddelde van de kostprijs wordt gebruikt wanneer een transactie wordt geboekt waardoor de hoeveelheid afneemt, ongeacht welk voorraadwaarderingsmodel aan de voorraad is gekoppeld. De transactie, waardoor de hoeveelheid afneemt, mag vóór de boeking niet worden gekoppeld aan een andere transactie. Als de fysieke voorhanden voorraad negatief wordt, worden de voorraadkosten gebruikt die zijn gedefinieerd voor het artikel op de pagina **Artikel**. 
+
+> [!NOTE]
+> Als de functionaliteit voor meerdere sites is ingeschakeld, zijn deze kosten daarentegen de voorraadkosten die voor een locatie zijn gedefinieerd op de pagina **Standaard orderinstellingen**.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Fysieke uitgiften en financiële uitgiften
 Wanneer u een fysieke uitgiftetransactie boekt, wordt de status van de transactierecord **Ingehouden**. De volgende transacties worden beschouwd als fysieke uitgiften:
@@ -71,6 +74,3 @@ Wanneer u een financiële transactie boekt, wordt de status van de transactierec
 -   Voorraadjournalen met een negatieve hoeveelheid, zoals mutaties, winst en verlies, telling, stuklijsten en overboekingen
 
 Transacties waardoor de hoeveelheid afneemt, worden geboekt tegen het lopend gemiddelde van de kostprijs. Daarom is de procedure voor het afsluiten van voorraden vereist voor het vereffenen van uitgiftetransacties naar ontvangsttransacties op basis van het voorraadwaarderingsmodel dat aan elk artikel is gekoppeld.
-
-
-

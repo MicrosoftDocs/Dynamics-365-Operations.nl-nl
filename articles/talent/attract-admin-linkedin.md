@@ -1,6 +1,6 @@
 ---
-title: Integratie met LinkedIn instellen voor Microsoft Dynamics 365 for Talent - Attract
-description: In dit onderwerp wordt uitgelegd hoe u LinkedIn-Integratie configureert voor Microsoft Dynamics 365 for Talent - Attract, zodat u eenvoudig vacatures op LinkedIn kunt plaatsen vanuit Attract en uw wervers hun wervingsinformatie kunnen synchroniseren met het LinkedIn-profiel van een kandidaat.
+title: Integratie met LinkedIn instellen voor Microsoft Dynamics 365 Talent - Attract
+description: In dit onderwerp wordt uitgelegd hoe u LinkedIn-Integratie configureert voor Microsoft Dynamics 365 Talent - Attract, zodat u eenvoudig vacatures op LinkedIn kunt plaatsen vanuit Attract en uw wervers hun wervingsinformatie kunnen synchroniseren met het LinkedIn-profiel van een kandidaat.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8e42ec7d0bb74089b4e915b5a30277401e694cf9
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756217"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009964"
 ---
 # <a name="set-up-linkedin-integration"></a>LinkedIn-integratie instellen
 
 [!include[banner](../includes/banner.md)]
 
-Help uw wervers en aanstellende managers toptalent te werven door LinkedIn-integratie met Microsoft Dynamics 365 for Talent: Attract te configureren. Met Attract kunt u vacatures direct op LinkedIn plaatsen, het grootste onlinenetwerk voor professionals.
+Help uw wervers en aanstellende managers toptalent te werven door LinkedIn-integratie met Microsoft Dynamics 365 Talent: Attract te configureren. Met Attract kunt u vacatures direct op LinkedIn plaatsen, het grootste onlinenetwerk voor professionals.
 
 Vacatures die u op LinkedIn plaatst via Attract, zijn Limited Listings en worden zonder extra kosten voor uw bedrijf geleverd. Deze vermeldingen zijn alleen beschikbaar via LinkedIn-softwarepartners, zoals Attract. Ze worden niet weergegeven in het deelvenster **Carrières** op de LinkedIn-pagina van uw bedrijf omdat hier alleen betaalde vermeldingen worden weergegeven. Ze worden echter wel weergegeven wanneer potentiële kandidaten alle beschikbare functies weergeven. Beperkte aanbiedingen worden ook weergegeven in LinkedIn-zoekopdrachten naar functies.
 

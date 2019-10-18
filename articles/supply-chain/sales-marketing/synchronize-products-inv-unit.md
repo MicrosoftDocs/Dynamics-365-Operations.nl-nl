@@ -1,6 +1,6 @@
 ---
-title: Producten met voorraadeenheid uit Finance and Operations synchroniseren met Field Service
-description: Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om producten met voorraadeenheid te synchroniseren van Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Field Service.
+title: Producten met voorraadeenheid uit Supply Chain Management synchroniseren met Field Service
+description: Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om producten met voorraadeenheid te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,38 +19,38 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 78e8d8fa609b015cf2fceaf498279fe091325dbb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b65e9640106c5d351270074e39c121e70917228
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835689"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251219"
 ---
-# <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Producten met voorraadeenheid uit Finance and Operations synchroniseren met Field Service
+# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Producten met voorraadeenheid uit Supply Chain Management synchroniseren met Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om producten met voorraadeenheid te synchroniseren van Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Field Service.
+Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om producten met voorraadeenheid te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
 
-[![Synchronisatie van zakelijke processen tussen Finance and Operations en Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
+[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-De gebruikte sjabloon **Field Service-producten met Voorraadeenheid (Fin and Ops naar Field Service)** is gebaseerd op de sjabloon **Field Service-producten (Fin and Ops naar Field Service)**. Zie voor meer informatie [Field Service-producten (Finance and Operations met Field Service)](field-service-product.md).
+De gebruikte sjabloon **Field Service-producten met Voorraadeenheid (Supply Chain Management naar Field Service)** is gebaseerd op de sjabloon **Field Service-producten (Supply Chain Management naar Field Service)**. Zie voor meer informatie [Field Service-producten (Supply Chain Management met Field Service)](field-service-product.md).
 
 In dit onderwerp worden alleen de verschillen tussen de twee sjablonen beschreven: 
-- **Field Service-producten met Voorraadeenheid (Fin and Ops naar Sales)**
-- **Field Service-producten (Fin and Ops naar Field Service)** 
+- **Field Service-producten met Voorraadeenheid (Supply Chain Management naar Service)**
+- **Field Service-producten (Supply Chain Management naar Field Service)** 
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 
 **Naam van de sjabloon in Gegevensintegratie:**
 
-- Field Service-producten met Voorraadeenheid (Fin and Ops naar Sales)
+- Field Service-producten met Voorraadeenheid (Supply Chain Management naar Service)
 
 **Naam van de taak in het project Gegevensintegratie:**
 
 - Producten
 
-De sjabloon **Field Service-producten met Voorraadeenheid (Fin and Ops naar Field Service)** bevat één toewijzing die niet is opgenomen in de sjabloon **Field Service-producten (Fin and Ops naar Field Service)**. Deze toewijzing zorgt ervoor dat de voorraadeenheid die nodig is voor synchronisatie op voorraadniveau wordt opgenomen.
+De gebruikte sjabloon **Field Service-producten met Voorraadeenheid (Supply Chain Management naar Field Service)** omvat een toewijzing die niet is inbegrepen in de sjabloon **Field Service-producten (Supply Chain Management naar Field Service)**. Deze toewijzing zorgt ervoor dat de voorraadeenheid die nodig is voor synchronisatie op voorraadniveau wordt opgenomen.
 
 ```
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
@@ -60,6 +60,6 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 
 In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 
-### <a name="field-service-products-with-inventory-unit-fin-and-ops-to-field-service-products"></a>Field Service-producten met Voorraadeenheid (Fin and Ops naar Field Service): Producten
+### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Field Service-producten met Voorraadeenheid (Supply Chain Management naar Field Service): Products
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSProduct1.png)](./media/FSProduct1.png)

@@ -1,5 +1,5 @@
 ---
-title: Een upgrade van magazijnbeheer uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
+title: Upgrade van magazijnbeheer van Microsoft Dynamics AX 2012 naar Supply Chain Management
 description: Dit onderwerp biedt een overzicht van opties voor het migreren van product- en magazijnbeheer.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554041"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251426"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Een upgrade van magazijnbeheer uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Upgrade van magazijnbeheer van Microsoft Dynamics AX 2012 naar Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van het proces voor het upgraden van Microsoft Dynamics AX 2012 R3, waarvoor de module WMSII wordt uitgevoerd, naar Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp bevat een overzicht van het proces voor het upgraden van Microsoft Dynamics AX 2012 R3, waarvoor de module WMSII wordt uitgevoerd, naar Supply Chain Management .
 
-Finance and Operations ondersteunt de verouderde module **WMSII** van Microsoft Dynamics AX 2012 niet meer. In plaats daarvan kunt u de module **Magazijnbeheer** gebruiken. In de WMSII-module kunnen de voorraaddimensies Locatie en Pallet-ID worden geselecteerd voor financiële voorraad, maar de voorraaddimensie Pallet-ID kan niet worden gebruikt voor financiële voorraad in Finance and Operations.
+Supply Chain Management ondersteunt de verouderde module **WMSII** van Microsoft Dynamics AX 2012 niet meer. In plaats daarvan kunt u de module **Magazijnbeheer** gebruiken. In de WMSII-module konden de voorraaddimensies Locatie en Pallet-ID worden geselecteerd voor financiële voorraad, maar de voorraaddimensie Pallet-ID kan niet worden gebruikt voor financiële voorraad in Supply Chain Management.
 
 Tijdens een upgrade worden alle producten die zijn gekoppeld aan een opslagdimensiegroep waarbij de voorraaddimensie Pallet-ID wordt geïdentificeerd, gemarkeerd als geblokkeerd en niet verwerkt voor een upgrade.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Upgraden naar Finance and Operations wanneer AX 2012 R3 WMSII wordt gebruikt
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Bijwerken naar Supply Chain Management wanneer AX 2012 R3 WMSII wordt gebruikt
 Na de upgrade kunt u een reeks opties in het formulier **Opslagdimensiegroep voor artikelen wijzigen** gebruiken om producten te deblokkeren die tijdens de upgrade zijn geblokkeerd. Vervolgens kunt u transacties voor deze producten verwerken.
 
-### <a name="enabling-items-in-finance-and-operations"></a>Artikelen in inschakelen in Finance and Operations
-Deze wijziging is vereist omdat in Finance and Operations traceren van artikelen deel uitmaakt van de magazijnbeheerprocessen. Voor deze processen moeten alle magazijnen en hun locaties worden gekoppeld aan een locatieprofiel. Als u magazijnbeheerprocessen wilt gebruiken, moet het volgende worden geconfigureerd:
+### <a name="enabling-items-in-supply-chain-management"></a>Artikelen inschakelen in Supply Chain Management 
+Deze wijziging is vereist omdat in Supply Chain Management traceren van artikelen deel uitmaakt van de magazijnbeheerprocessen. Voor deze processen moeten alle magazijnen en hun locaties worden gekoppeld aan een locatieprofiel. Als u magazijnbeheerprocessen wilt gebruiken, moet het volgende worden geconfigureerd:
 -   Bestaande magazijnen moet worden ingeschakeld voor gebruik van magazijnbeheerprocessen 
 -   Bestaande vrijgegeven producten moeten worden gekoppeld aan een opslagdimensiegroep die magazijnbeheerprocessen gebruikt 
 

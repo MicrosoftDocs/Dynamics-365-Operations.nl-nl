@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517697"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008359"
 ---
 # <a name="formalize-business-processes"></a>Bedrijfsprocessen formaliseren
 
@@ -43,7 +43,7 @@ Voor elk bedrijfsproces kunt u een proceseigenaar opgeven. De eigenaar van het p
 De eigenaar van een proces kan geen nieuwe bedrijfsprocessen of sjablonen voor bedrijfsprocessen maken of actieve bedrijfsprocessen of sjablonen voor bedrijfsproces verwijderen.
 
 ## <a name="tasks"></a>Opdrachten
-Een bedrijfsproces bestaat vaak uit meerdere taken. Sommige taken, zoals het beoordelen van het interne cursusaanbod, kunnen worden uitgevoerd in Microsoft Dynamics 365 for Talent[?]. In dit geval is een optie geselecteerd in het veld **Taakkoppeling**. Bij andere taken kan het gaan om het controleren of invullen van pagina's op een website. In dit geval is **URL** geselecteerd in het veld **Taakkoppeling** en kan het webadres worden ingevoerd. U kunt URL's invoeren voor externe en interne locaties. U kunt ook taken maken voor activiteiten die u handmatig uitvoert, zoals een controle van de toegankelijkheid van alle structuren. In dit geval is een taakkoppeling niet vereist. Dankzij deze flexibiliteit kunt u meerdere soorten taken volgen in een uitgebreid proces.
+Een bedrijfsproces bestaat vaak uit meerdere taken. Sommige taken, zoals het beoordelen van het interne cursusaanbod, kunnen worden uitgevoerd in Microsoft Dynamics 365 Talent. In dit geval is een optie geselecteerd in het veld **Taakkoppeling**. Bij andere taken kan het gaan om het controleren of invullen van pagina's op een website. In dit geval is **URL** geselecteerd in het veld **Taakkoppeling** en kan het webadres worden ingevoerd. U kunt URL's invoeren voor externe en interne locaties. U kunt ook taken maken voor activiteiten die u handmatig uitvoert, zoals een controle van de toegankelijkheid van alle structuren. In dit geval is een taakkoppeling niet vereist. Dankzij deze flexibiliteit kunt u meerdere soorten taken volgen in een uitgebreid proces.
 
 Taken kunnen worden toegewezen aan een specifieke werknemer of aan een positie. De manager Compensatie en vergoedingen is bijvoorbeeld altijd de persoon die een controle van verzekeringspremies uitvoert. Selecteer bij het maken van deze taak daarom **Positie** bij **Toewijzingstype** en selecteer vervolgens **Manager Compensatie en vergoedingen** in de lijst **Positie**. Wanneer het bedrijfsproces wordt gestart, wordt de taak toegewezen aan de werknemer die de positie **Manager Compensatie en vergoedingen** bekleedt. Als u een taak aan een specifieke werknemer wilt toewijzen, selecteert u **Werknemer** in het veld **Toewijzingstype** en selecteert u de betreffende persoon.
 

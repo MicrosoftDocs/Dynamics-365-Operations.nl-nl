@@ -1,6 +1,6 @@
 ---
-title: Nieuwe of gewijzigde functies in Dynamics 365 for Talent (20 augustus 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Nieuwe of gewijzigde functies in Dynamics 365 Talent (20 augustus 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f437dbbb786456cd335d5fb85e271d224e0a1383
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918194"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024063"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-20-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 for Talent (20 augustus 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 Talent (20 augustus 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
@@ -43,11 +43,11 @@ De reden van en opmerkingen over de afwijzing worden nu weergegeven op het tabbl
 
 ## <a name="changes-in-onboard"></a>Wijzigingen in Onboard
 
-Deze versie bevat kleine correcties voor Dynamics 365 for Talent: Onboard.
+Deze versie bevat kleine correcties voor Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Wijzigingen in Core HR
 
-Deze versie bevat kleine correcties voor Dynamics 365 for Talent: Core HR. Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.2429.
+Deze versie bevat kleine correcties voor Dynamics 365 Talent: Core HR. Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.2429.
 
 ### <a name="in-preview"></a>Preview
 
@@ -69,6 +69,6 @@ Met een nieuwe optie kunnen managers de prestaties van hun directe en indirecte 
 
 ### <a name="coming-soon"></a>Binnenkort beschikbaar
 
-#### <a name="platform-update-29"></a>Platformupdate 29
+#### <a name="platform-update-29-for-finance-and-operations"></a>Platformupdate 29 voor Finance and Operations
 
-Zie voor meer details over platformupdate 29 [Voorbeeldfuncties in Dynamics 365 for Finance and Operations platformupdate 29 (oktober 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Zie voor meer details over Platformupdate 29 voor Finance and Operations [Voorbeeldfuncties in Dynamics 365 Finance and Operations-platformupdate 29 (oktober 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

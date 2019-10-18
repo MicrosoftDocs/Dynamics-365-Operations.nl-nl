@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 36fc98c44625cce03945d76973de67021d53353e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844364"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249443"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversie van maateenheid per productvariant
 
@@ -90,6 +90,6 @@ Voor de vrijgegeven productvarianten Small, Medium en Large geldt dezelfde eenhe
 
 ### <a name="using-excel-to-update-the-unit-conversions"></a>De eenheidconversies bijwerken met Excel
 
-Als een product veel productvarianten met verschillende eenheidconversies heeft, is het verstandig om de eenheidconversies van de pagina **Eenheidsomrekening** te exporteren naar een Excel-werkblad, de conversies bij te werken en deze vervolgens weer te publiceren naar Finance and Operations.
+Als een product veel productvarianten met verschillende eenheidsconversies heeft, is het verstandig om de eenheidsconversies van de pagina **Eenheidsconversie** te exporteren naar een Excel-werkblad, de conversies bij te werken en deze vervolgens weer te publiceren naar Supply Chain Mangement.
 
-De optie voor het exporteren naar Excel en het publiceren van de bewerkingen naar Finance and Operations kan worden ingeschakeld via het menu-item **Openen in Microsoft Office** in het actievenster op de pagina **Eenheidsomrekening**.
+De optie voor het exporteren naar Excel en het publiceren van de bewerkingen naar Supply Chain Mangement. kan worden ingeschakeld via het menu-item **Openen in Microsoft Office** in het actievenster op de pagina **Eenheidsconversie**.

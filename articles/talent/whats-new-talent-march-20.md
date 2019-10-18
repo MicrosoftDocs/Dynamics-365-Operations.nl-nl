@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent (20 maart 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent (20 maart 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d316aff83bd9f60f054a970e223777db5e214adb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741619"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025997"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-20-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (20 maart 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (20 maart 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
@@ -80,7 +80,7 @@ Er zijn wijzigingen aangebracht om een probleem bij het bewerken van de naamsvol
 In veel organisaties kunnen managers voor compensaties en vergoedingen alleen toegang krijgen tot bepaalde compensatierecords. Dit kan voor leidinggevenden of regionale werknemers zijn. Met deze wijziging kan HR de compensatieplannen beheren en onderhouden voor verschillende werknemersgroepen in de organisatie. U kunt aan vaste en variabele plannen beveiligingsrollen toewijzen waarmee de toegang wordt bepaald tot de plannen en de werknemersgegevens die zijn gerelateerd aan de plannen, zoals salaris- of bonusrecords. Alleen de rollen met de verleende toegang kunnen compensatie voor deze werknemers verwerken.
 
 ###  <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
-Met platformupdate 24 kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer deze door een gebeurtenis worden geactiveerd.
+Met Platformupdate 24 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Controle of dubbele werknemers: interfacewijzigingen
 Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invoert en met een status wordt het aantal dubbelen weergegeven. U kunt de opgegeven koppeling selecteren om een nieuwe pagina te openen om te beoordelen of de gedetecteerde overeenkomst moet worden gebruikt. Het formulier met dubbele records wordt niet automatisch geopend om te voorkomen dat gegevensinvoer wordt onderbroken.

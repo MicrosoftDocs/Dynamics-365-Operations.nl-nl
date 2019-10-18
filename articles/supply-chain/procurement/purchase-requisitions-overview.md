@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572020"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248869"
 ---
 # <a name="purchase-requisition-overview"></a>Overzicht opdracht tot inkoop
 
@@ -38,7 +38,7 @@ Nadat een opdracht tot inkoop is goedgekeurd, kan deze worden gebruikt om een in
 ## <a name="creating-purchase-requisitions"></a>Opdrachten tot inkoop maken
 U kunt een opdracht tot inkoop maken op de pagina **Mijn opdrachten tot inkoop** en de artikelen en services selecteren die u nodig hebt. U kunt artikelen selecteren uit een aanschaffingscatalogus die uw organisatie maakte of u kunt artikelen vereisen die niet in een catalogus zijn gevonden door een aanschaffingscategorie te selecteren en de productgegevens in te voeren.  
 
-Voordat u een opdracht tot inkoop ter controle kunt indienen, moeten werkstromen worden geconfigureerd in Microsoft Dynamics 365 for Finance and Operations. U gebruikt en workflow om een opdracht tot inkoop door het beoordelingsproces te sturen, vanaf de beginstatus **Concept** tot de definitieve status **Goedgekeurd**.
+Voordat u een opdracht tot inkoop ter controle kunt indienen, moeten werkstromen worden geconfigureerd. U gebruikt en workflow om een opdracht tot inkoop door het beoordelingsproces te sturen, vanaf de beginstatus **Concept** tot de definitieve status **Goedgekeurd**.
 
 ### <a name="purchase-requisition-statuses"></a>Status van inkoopbestelopdracht
 
@@ -141,7 +141,7 @@ In het inkoopbeleid kunt u de bestelopdrachtdoelen bepalen die beschikbaar zijn 
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Opdrachten bestemd voor verbruik
 
-Een opdracht die een verbruiksdoel heeft, vertegenwoordigt een vraag naar artikelen of services die intern worden gebruikt door uw organisatie. De vraag dat dit type opdracht maakt, wordt altijd voldaan door een inkooporder. Als Microsoft Dynamics 365 for Finance and Operations zo is ingesteld dat er automatisch inkooporders worden gegenereerd, worden inkooporders gemaakt nadat de opdracht tot inkoop is goedgekeurd.
+Een opdracht die een verbruiksdoel heeft, vertegenwoordigt een vraag naar artikelen of services die intern worden gebruikt door uw organisatie. De vraag dat dit type opdracht maakt, wordt altijd voldaan door een inkooporder. Als Supply Chain Management zo is ingesteld dat er automatisch inkooporders worden gegenereerd, worden inkooporders gemaakt nadat de opdracht tot inkoop is goedgekeurd.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Opdrachten bestemd voor aanvulling
 

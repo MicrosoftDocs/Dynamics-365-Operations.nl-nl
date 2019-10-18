@@ -1,6 +1,6 @@
 ---
 title: Verbeteringen in kasbeheer
-description: In dit onderwerp worden de verbeteringen in kasbeheer in POS voor Dynamics 365 for Retail beschreven.
+description: In dit onderwerp worden de verbeteringen in kasbeheer in POS voor Dynamics 365 Retail beschreven.
 author: anpurush
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 49d70a8d983bf3475e01f8fcb80d569b13568485
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1630048"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019526"
 ---
 # <a name="cash-management-improvements"></a>Verbeteringen in kasbeheer
 
@@ -32,9 +32,11 @@ ms.locfileid: "1630048"
 
 Kasbeheer is een belangrijke functie voor detailhandelaren in fysieke winkels. Detailhandelaren willen in hun winkels beschikken over systemen die volledige traceerbaarheid en verantwoording voor geldstromen tussen de verschillende kassa's en kassamedewerkers in een winkel kunnen bieden. Daarnaast moeten ze verschillen kunnen afstemmen en de verantwoordelijkheid kunnen bepalen.
 
-Microsoft Dynamics 365 for Retail biedt functies voor kasbeheer in de POS-toepassing. In eerdere versies van Retail dan versie 10.0.3 is de functionaliteit voor kasbeheer echter niet robuust genoeg voor een volledige traceerbaarheid van geldverplaatsingen in winkels. Hoewel detailhandelaren het contante geld voor een winkel kunnen afstemmen, kan ze de verantwoordelijkheid bij discrepanties niet nauwkeurig vaststellen.
 
-Microsoft Dynamics 365 for Retail 10.0.3 en hoger bieden detailhandelaren betere traceermogelijkheden voor kasverwerking. Als onderdeel van deze traceerbaarheid kunnen detailhandelaren kluizen definiëren, tweezijdige transacties van contant geld maken en kasbeheertransacties afstemmen.
+Microsoft Dynamics 365 Retail biedt functies voor kasbeheer in de POS-toepassing. In eerdere versies van Retail dan versie 10.0.3 is de functionaliteit voor kasbeheer echter niet robuust genoeg voor een volledige traceerbaarheid van geldverplaatsingen in winkels. Hoewel detailhandelaren het contante geld voor een winkel kunnen afstemmen, kan ze de verantwoordelijkheid bij discrepanties niet nauwkeurig vaststellen.
+
+
+In Retail versie 10.0.3 en hoger bieden detailhandelaren betere traceermogelijkheden voor kasverwerking. Als onderdeel van deze traceerbaarheid kunnen detailhandelaren kluizen definiëren, tweezijdige transacties van contant geld maken en kasbeheertransacties afstemmen.
 
 ## <a name="set-up-traceability-and-define-safes"></a>Traceerbaarheid instellen en kluizen definiëren
 

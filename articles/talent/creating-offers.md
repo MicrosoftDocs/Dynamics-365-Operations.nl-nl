@@ -1,6 +1,6 @@
 ---
 title: Aanbiedingen maken, goedkeuren en ondertekenen
-description: In dit onderwerp wordt beschreven hoe u een aanbieding voor een kandidaat maakt, goedkeurt en ondertekent met Dynamics 365 for Talent.
+description: In dit onderwerp wordt beschreven hoe u een aanbieding voor een kandidaat maakt, goedkeurt en ondertekent met Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739628"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008100"
 ---
 # <a name="create-approve-and-sign-offers"></a>Aanbiedingen maken, goedkeuren en ondertekenen
 
@@ -110,7 +110,7 @@ Er zijn verschillende acties die u uitvoeren kunt voordat de aanbieding naar de 
 Als Adobe Sign is gekozen als voorkeursmethode voor elektronisch ondertekenen, moeten makers van aanbiedingen hun licentie voor Adobe Sign in deze stap verbinden. 
 
 ### <a name="docusign"></a>DocuSign
-Als DocuSign is gekozen als voorkeursmethode voor elektronisch ondertekenen, moeten makers van aanbiedingen hun licentie voor DocuSign verbinden. Zodra u bent aangemeld, worden het standaardaccount en de machtigingen die zijn gekoppeld aan het profiel DocuSign van de gebruiker verbonden met Talent Attract. 
+Als DocuSign is gekozen als voorkeursmethode voor elektronisch ondertekenen, moeten makers van aanbiedingen hun licentie voor DocuSign verbinden. Zodra u bent aangemeld, worden het standaardaccount en de machtigingen die zijn gekoppeld aan het profiel DocuSign van de gebruiker verbonden met Talent: Attract. 
 
 -  U kunt de e-mailsjabloon zo nodig weergeven en bewerken.
 

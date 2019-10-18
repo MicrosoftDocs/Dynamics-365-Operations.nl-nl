@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65b59e1cc215d582fdaf02ff4746fe2158ace76e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559599"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025351"
 ---
 # <a name="payment-methods"></a>Betalingsmethoden
 
@@ -32,7 +32,7 @@ ms.locfileid: "1559599"
 
 Elk betalingstype dat een detailhandelaar accepteert, moet worden geconfigureerd wanneer het systeem wordt ingesteld. In dit artikel wordt beschreven welke betalingstypen u kunt instellen en wordt het proces beschreven voor het instellen hiervan.
 
-Detailhandelaren kunnen verschillende typen betaling accepteren voor de producten en diensten die ze verkopen. Hoewel contantbetalingen de meestvoorkomende vorm van betalingen zijn, kunnen detailhandelaren ook betalingen ontvangen in de vorm van cheques, kaarten, tegoedbonnen, enzovoort. Elk betalingstype dat de detailhandelaar accepteert, moet worden geconfigureerd in Dynamics 365 for Retail wanneer het systeem wordt ingesteld. De volgende lijst bevat omschrijvingen van elk betalingstype dat kan worden ingesteld in Dynamics 365 for Retail:
+Detailhandelaren kunnen verschillende typen betaling accepteren voor de producten en diensten die ze verkopen. Hoewel contantbetalingen de meestvoorkomende vorm van betalingen zijn, kunnen detailhandelaren ook betalingen ontvangen in de vorm van cheques, kaarten, tegoedbonnen, enzovoort. Elk betalingstype dat de detailhandelaar accepteert, moet worden geconfigureerd in Dynamics 365 Retail wanneer het systeem wordt ingesteld. De volgende lijst bevat omschrijvingen van elk betalingstype dat kan worden ingesteld:
 
 - **Contant**: geld in de fysieke vorm van valuta, zoals bankbiljetten en muntstukken. Deze valuta kan de bedrijfsvaluta zijn of de lokale valuta van de winkel.
 - **Cheque**: een verhandelbaar middel voor betaling van een bepaald bedrag in een bepaalde valuta door een bepaalde bank. Een cheque is meestal geldig voor onbepaalde tijd of gedurende zes maanden na uitgifte, tenzij een andere geldigheidsperiode is opgegeven. De periode varieert, afhankelijk van de bank waar de cheque wordt geïnd. Er zijn verschillende soorten cheques, zoals cheques aan order, cheques aan balie, cheques aan toonder en cheques op naam. U kunt cheques instellen als een betalingsmethode voor elke winkel. Cheques kunnen worden geaccepteerd in de valuta die op het niveau van het bedrijf of de winkel is opgegeven. U moet cheques instellen als een betalingsmethode voordat u een cheque kunt accepteren als betaling in een winkel.

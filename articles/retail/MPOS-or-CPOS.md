@@ -1,6 +1,6 @@
 ---
 title: Kiezen tussen Retail Modern POS (MPOS) en Cloud POS
-description: In dit onderwerp worden de belangrijkste verschillen tussen Retail Modern POS en Cloud POS uitgelegd. Hierin worden ook verschillende factoren beschreven waarmee detailhandelaren die Microsoft Dynamics 365 for Retail implementeren rekening moeten houden bij het maken van de beste keuze voor hun vereisten.
+description: In dit onderwerp worden de belangrijkste verschillen tussen Retail Modern POS en Cloud POS uitgelegd. Hierin worden ook verschillende factoren beschreven waarmee detailhandelaren die Dynamics 365 Retail implementeren rekening moeten houden bij het maken van de beste keuze voor hun vereisten.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557009"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025904"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Kiezen tussen Retail Modern POS (MPOS) en Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp biedt implementatiespecialisten extra achtergrondinformatie, tips en richtlijnen voor de factoren waarmee ze rekening moeten houden bij de implementatie van Microsoft Dynamics 365 for Retail. Door deze richtlijnen te lezen en te volgen als onderdeel van het implementatieproces, kunnen implementatiespecialisten problemen vermijden die de tevredenheid van gebruikers of de prestaties mogelijk beïnvloeden.
+Dit onderwerp biedt implementatiespecialisten extra achtergrondinformatie, tips en richtlijnen voor de factoren waarmee ze rekening moeten houden bij de implementatie van Dynamics 365 Retail. Door deze richtlijnen te lezen en te volgen als onderdeel van het implementatieproces, kunnen implementatiespecialisten problemen vermijden die de tevredenheid van gebruikers of de prestaties mogelijk beïnvloeden.
 
 ## <a name="insights"></a>Inzichten
 
@@ -78,7 +78,7 @@ Naast een platform en vormfactor moeten detailhandelaren ook een implementatieop
 
 #### <a name="retail-server"></a>Detailhandelserver
 
-De detailhandelserver is een onderdeel dat als host fungeert voor de CRT. De CRT bevat de bedrijfslogica die de POS gebruikt en biedt toegang tot de kanaaldatabase. Terwijl ze online zijn, gebruiken alle POS-clients in de winkel de detailhandelserver. De detailhandelserver kan worden geïmplementeerd in de cloud of in de winkel (RSSU).
+De Retail-server is een onderdeel dat als host fungeert voor de CRT. De CRT bevat de bedrijfslogica die de POS gebruikt en biedt toegang tot de kanaaldatabase. Terwijl ze online zijn, gebruiken alle POS-clients in de winkel de detailhandelserver. De detailhandelserver kan worden geïmplementeerd in de cloud of in de winkel (RSSU).
 
 #### <a name="offline-mode"></a>Offlinemodus
 

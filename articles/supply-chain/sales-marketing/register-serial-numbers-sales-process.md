@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555033"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251311"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>Serienummers registreren in het verkoopproces
 
@@ -34,9 +34,9 @@ ms.locfileid: "1555033"
 
 In dit onderwerp wordt uitgelegd hoe u serienummers op pakbonnen of facturen kunt registreren tijdens het verkoopproces. Deze functionaliteit is nuttig als een bedrijf serienummers wil vastleggen voor service- en garantiedoeleinden, maar geen serienummers in voorraad hoeft bij te houden van ontvangst tot uitgifte.
 
-Veel bedrijven wilt alleen serienummers vastleggen voor service en garantiedoeleinden en niet serienummers in voorraad te hoeven bijhouden van ontvangst tot uitgifte. In deze gevallen kunt u met Microsoft Dynamics 365 for Finance and Operations de serienummers op de pakbonnen of de facturen registreren wanneer producten worden verkocht. Als producten later worden geretourneerd, kunt u elk product op een factuur traceren om te bepalen of u het product verkocht hebt en of de service- of garantieverplichtingen geldig zijn.
+Veel bedrijven wilt alleen serienummers vastleggen voor service en garantiedoeleinden en niet serienummers in voorraad te hoeven bijhouden van ontvangst tot uitgifte. In deze gevallen kunt u met de serienummers op de pakbonnen of de facturen registreren wanneer producten worden verkocht. Als producten later worden geretourneerd, kunt u elk product op een factuur traceren om te bepalen of u het product verkocht hebt en of de service- of garantieverplichtingen geldig zijn.
 
-U moet serienummers inschakelen voor het verkoopproces door de optie **Actief in verkoopproces** te selecteren op de pagina **Traceringsdimensiegroepen**. De volgende gebeurtenissen vinden vervolgens plaats in Microsoft Dynamics 365 for Finance and Operations:
+U moet serienummers inschakelen voor het verkoopproces door de optie **Actief in verkoopproces** te selecteren op de pagina **Traceringsdimensiegroepen**. De volgende gebeurtenissen treden vervolgens op in Supply Chain Management:
 -   Op het sneltabblad **Serienummers** wordt de optie **Serienummercontrole** geselecteerd. Als deze optie is geselecteerd, moet u één serienummer registreren voor elk artikel op de pakbon of factuur.
 -   Alle selecties op traceringsdimensiegroep voor serienummers worden gewist, behalve de optie **Lege uitgifte is toegestaan**. U kunt de optie **Lege uitgifte is toegestaan** selecteren om serienummerbeheer te negeren en toe te staan dat producten worden verpakt of gefactureerd zonder serienummers te registreren.
 

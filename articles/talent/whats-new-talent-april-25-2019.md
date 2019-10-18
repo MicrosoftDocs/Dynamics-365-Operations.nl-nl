@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent (23 april 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent (23 april 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/23/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 1a70be88e3ab65bb0bdd844347e8ba69e4ba61a5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624576"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024109"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (23 april 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (23 april 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
-Deze versie bevat kleine correcties voor Dynamics 365 for Talent: Attract.
+Deze versie bevat kleine correcties voor Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Wijzigingen in Onboard
-Deze versie bevat kleine correcties voor Dynamics 365 for Talent: Onboard.
+Deze versie bevat kleine correcties voor Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Wijzigingen in Core HR
 Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.2253. Getallen tussen haakjes verwijzen naar ondersteuningsnummers in Lifecycle Services (LCS).
@@ -79,4 +79,4 @@ Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invo
 ## <a name="known-issues"></a>Bekende problemen
 
 ### <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
-Met platformupdate 26 kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer deze door een gebeurtenis worden geactiveerd.
+Met Platformupdate 26 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd.

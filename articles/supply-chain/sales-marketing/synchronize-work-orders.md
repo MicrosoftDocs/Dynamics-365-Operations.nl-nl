@@ -1,6 +1,6 @@
 ---
-title: Werkorders met project vanuit Field Service synchroniseren naar Finance and Operations
-description: Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om werkorders met een projectnummer te synchroniseren van Microsoft Dynamics 365 for Field Service naar Microsoft Dynamics 365 for Finance and Operations.
+title: Werkorders synchroniseren met projecten van Field Service Supply Chain Management
+description: Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om werkorders met een projectnummer te synchroniseren van Dynamics 365 Field Service naar Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/12/2019
@@ -19,34 +19,34 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 77358513ffdf791ab10d6efe1b84f598ffb5ec26
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3678fbca8244ae6dcd050f6a91ff3b35d90e1064
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843404"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251702"
 ---
-# <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>Werkorders met project vanuit Field Service synchroniseren naar Finance and Operations
+# <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Werkorders synchroniseren met projecten van Field Service Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om werkorders met een projectnummer te synchroniseren van Microsoft Dynamics 365 for Field Service naar Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om werkorders met een projectnummer te synchroniseren van Dynamics 365 Field Service naar Dynamics 365 Supply Chain Management.
 
-[![Synchronisatie van zakelijke processen tussen Finance and Operations en Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
+[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-De gebruikte sjabloon **Werkorders met project (Field Service met Fin and Ops)** is gebaseerd op de sjabloon **Werkorders (Field Service met Fin and Ops)**. Zie voor meer informatie [Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+De gebruikte sjabloon **Werkorders met Project (Field Service naar Supply Chain Management)** is gebaseerd op de sjabloon **Werkorders (Field Service naar Supply Chain Management)**. Zie voor meer informatie [Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 In dit onderwerp worden alleen de verschillen tussen de twee sjablonen beschreven:
-- **Werkorders met project (Field Service met Finance and Operations)**
-- **Werkorders (Field Service met Finance and Operations)**
+- **Werkorders met Project (Field Service naar Supply Chain Management)**
+- **Werkorders (Field Service naar Supply Chain Management)**
 
-Het belangrijkste verschil is dat deze sjabloon toewijzing van het projectnummer toegewezen aan de werkorder in Field Service omvat, zodat de verkooporder gemaakt in Finance and Operations het projectnummer bevat en dat de facturering in het gerelateerde project kan worden uitgevoerd. Daarnaast worden de functies voor geavanceerde query's en filters gebruikt.
+Het belangrijkste verschil is dat deze sjabloon toewijzing van het projectnummer toegewezen aan de Werkorder in Field Service omvat, zodat de Verkooporder gemaakt in Supply Chain Management het projectnummer bevat en dat de facturering in het gerelateerde project kan worden uitgevoerd. Daarnaast worden de functies voor geavanceerde query's en filters gebruikt.
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 
 **Naam van de sjabloon in Gegevensintegratie:**
 
-- Werkorders met project (Field Service met Finance and Operations)
+- Werkorders met Project (Field Service naar Supply Chain Management)
 
 **Naam van de taak in het project Gegevensintegratie:**
 
@@ -56,24 +56,24 @@ Het belangrijkste verschil is dat deze sjabloon toewijzing van het projectnummer
 - WorkOrderService
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM-oplossing
-Het veld **Extern project** is toegevoegd aan de entiteit Werkorder. Dit veld is een opzoekveld en wanneer u uw werkorder aan een project koppelt, wordt de verkooporder verbonden met een project in Finance and Operations. Zodra de **systeemstatus** van Geopend of In uitvoering in een hogere status wordt gewijzigd, wordt het veld **Extern project** vergrendeld en kunt u de waarde niet toevoegen, verwijderen of wijzigen.
+Het veld **Extern project** is toegevoegd aan de entiteit Werkorder. Dit veld is een opzoekveld en wanneer u uw Werkorder aan een project koppelt, wordt de Verkooporder verbonden met een project in Supply Chain Management. Zodra de **Systeemstatus** van Geopend – In uitvoering(690,970,000) in een hogere status wordt gewijzigd, wordt het veld **Extern project** vergrendeld en kunt u de waarde niet toevoegen, verwijderen of wijzigen.
 
 ## <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
 
 In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 
-### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderheader"></a>Werkorders met project (Field Service met Finance and Operations): WorkOrderHeader
+### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>Werkorders met Project (Field Service naar Supply Chain Management): WorkOrderHeader
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWOP1.png)](./media/FSWOP1.png)
 
-### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderheaderproject"></a>Werkorders met project (Field Service met Finance and Operations): WorkOrderHeaderProject
+### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>Werkorders met Project (Field Service naar Supply Chain Management): WorkOrderHeaderProject
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWOP2.png)](./media/FSWOP2.png)
 
-### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderproduct"></a>Werkorders met project (Field Service met Finance and Operations): WorkOrderProduct
+### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>Werkorders met Project (Field Service naar Supply Chain Management): WorkOrderProduct
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWOP3.png)](./media/FSWOP3.png)
 
-### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderservice"></a>Werkorders met project (Field Service met Finance and Operations): WorkOrderService
+### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Werkorders met Project (Field Service naar Supply Chain Management): WorkOrderService
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWOP4.png)](./media/FSWOP4.png)

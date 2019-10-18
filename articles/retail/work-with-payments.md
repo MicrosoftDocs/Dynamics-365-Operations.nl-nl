@@ -1,6 +1,6 @@
 ---
 title: Betalingsmethoden in callcenters
-description: In dit onderwerp komen de verschillende betalingsmethoden aan bod die u in een callcenter in Microsoft Dynamics 365 for Retail kunt gebruiken.
+description: In dit onderwerp komen de verschillende betalingsmethoden aan bod die u in een callcenter in Dynamics 365 Retail kunt gebruiken.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 551a3cc9c0def1c67ab930dbff7cd1c0d296bd21
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571514"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018223"
 ---
 # <a name="payment-methods-in-call-centers"></a>Betalingsmethoden in callcenters
 
 [!include [banner](includes/banner.md)]
 
-In Microsoft Dynamics 365 for Retail omvat de configuratie van het callcenterkanaal een instelling met de naam **Ordervoltooiing inschakelen**. Deze instelling zorgt ervoor dat alle orders die gebruikers van het kanaal maken, alleen voor orderverwerking worden vrijgegevens als ze hebben vooraf zijn betaald of vooraf zijn geautoriseerd voor betaling binnen de goedgekeurde marges. Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld, kunnen gebruikers van het callcenter betalingen voor de verkooporders van klanten invoeren met behulp van de functies voor betalingsverwerking van het callcenter. Als de instelling is uitgeschakeld, kunnen callcentergebruikers de betalingsverwerkingsfuncties van het callcenter niet gebruiken, maar kunnen ze nog wel vooruitbetalingen voor verkooporders toepassen met behulp van standaardfunctionaliteit van Klanten.
+In Dynamics 365 Retail omvat de configuratie van het callcenterkanaal een instelling met de naam **Ordervoltooiing inschakelen**. Deze instelling zorgt ervoor dat alle orders die gebruikers van het kanaal maken, alleen voor orderverwerking worden vrijgegevens als ze hebben vooraf zijn betaald of vooraf zijn geautoriseerd voor betaling binnen de goedgekeurde marges. Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld, kunnen gebruikers van het callcenter betalingen voor de verkooporders van klanten invoeren met behulp van de functies voor betalingsverwerking van het callcenter. Als de instelling is uitgeschakeld, kunnen callcentergebruikers de betalingsverwerkingsfuncties van het callcenter niet gebruiken, maar kunnen ze nog wel vooruitbetalingen voor verkooporders toepassen met behulp van standaardfunctionaliteit van Klanten.
 
 Als onderdeel van de kanaalconfiguratie kan een bedrijf de betalingsmethoden definiëren die zijn toegestaan voor een callcenterkanaal. De callcenterkanaal gebruikt de dezelfde betalingsmethoden die zijn gedefinieerd voor de detailhandelkanalen voor de winkel.
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 609f5f13f3af4a7621fe7ee152800dac4d68a9fc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572044"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025144"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Zoeken in voorraad op het verkooppunt (POS)
 
@@ -52,7 +52,7 @@ Op de pagina **Zoeken in voorraad** kunt u met het numerieke toetsenbord een pro
 De lijst met locaties bevat twee typen entiteiten:
 
 - **Detailhandelwinkels**: in de lijst staan de winkels die zijn geconfigureerd met behulp van de winkellocatorgroep voor de huidige winkel in Detailhandel Hoofdkantoor.
-- **Distributiecentra**: verschillende soorten distributiecentra (bijvoorbeeld magazijnen) kunnen worden geconfigureerd in Microsoft Dynamics 365 for Retail. In de lijst staat echter alleen de voorraadbeschikbaarheid voor distributiecentra van het type **Standaard**.
+- **Distributiecentra**: verschillende soorten distributiecentra (bijvoorbeeld magazijnen) kunnen worden geconfigureerd in Retail. In de lijst staat echter alleen de voorraadbeschikbaarheid voor distributiecentra van het type **Standaard**.
 
     > [!NOTE]
     > Informatie over de vooraadbeschikbaarheid wordt niet weergegeven voor magazijnen van het type **transit**, **quarantaine** en **goederen onderwep** voor het POS.

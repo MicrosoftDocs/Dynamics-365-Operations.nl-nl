@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c900ef715b62484c1fb6576b7f0c97cdea4e4284
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865131"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251057"
 ---
 # <a name="warehouse-management-overview"></a>Overzicht van Magazijnbeheer
 
 [!include [banner](../includes/banner.md)]
 
-Met de module Magazijnbeheer voor Dynamics 365 for Finance and Operations kunt u magazijnprocessen in productie-, distributie- en detailhandelbedrijven beheren. Deze module biedt een breed scala aan functies om de magazijnfaciliteit op een optimaal niveau te ondersteunen, wanneer dan ook. Magazijnbeheer is volledig geïntegreerd met andere bedrijfsprocessen in Finance and Operations, zoals transport, productie, kwaliteitscontrole, inkoop, transfer, verkoop en retouren.
+Met de module Magazijnbeheer kunt u magazijnprocessen in productie-, distributie- en detailhandelbedrijven beheren. Deze module biedt een breed scala aan functies om de magazijnfaciliteit op een optimaal niveau te ondersteunen, wanneer dan ook. Magazijnbeheer is volledig geïntegreerd met andere bedrijfsprocessen , zoals transport, productie, kwaliteitscontrole, inkoop, transfer, verkoop en retouren.
 
 ## <a name="get-started"></a>Aan de slag
 Om aan de slag te gaan met Magazijnbeheer, moet u de instelling van de algemene magazijnparameters voltooien voor de ondersteuning van de bedrijfsprocessen van uw bedrijf.

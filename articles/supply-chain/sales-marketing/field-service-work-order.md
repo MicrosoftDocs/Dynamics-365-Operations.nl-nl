@@ -1,6 +1,6 @@
 ---
-title: Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
-description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het synchroniseren van werkorders in Field Service met verkooporders in Finance and Operations.
+title: Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management
+description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het synchroniseren van werkorders in Field Service met verkooporders in Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
@@ -19,30 +19,29 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2aa37ada18120e3b2a6e6b309c7d7b7ca9d9158f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562713"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249815"
 ---
-# <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
+# <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt om werkorders in Microsoft Dynamics 365 for Field Service te synchroniseren met verkooporders in Microsoft Dynamics 365 for Finance and Operations.
+In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt om werkorders in Dynamics 365 Field Service te synchroniseren met verkooporders in Dynamics 365 Supply Chain Management.
 
-[![Synchronisatie van zakelijke processen tussen Finance and Operations en Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
-In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het synchroniseren van werkorders in Field Service met verkooporders in Finance and Operations.
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 
-De volgende sjablonen en onderliggende taken worden gebruikt voor het synchroniseren van werkorders in Field Service met verkooporders in Finance and Operations.
+De volgende sjablonen en onderliggende taken worden gebruikt voor het synchroniseren van werkorders in Field Service met verkooporders in Supply Chain Management.
 
 ### <a name="names-of-the-templates-in-data-integration"></a>Namen van de sjablonen in Gegevensintegratie
 
-De sjabloon **Werkorders met verkooporders (Field Service met Finance and Operations)** wordt gebruikt voor synchronisatie.
+De sjabloon **Werkorders met verkooporders (Field Service met Supply Chain Management)** wordt gebruikt voor synchronisatie.
 
 ### <a name="names-of-the-tasks-in-the-data-integration-project"></a>Namen van de taken in het project Gegevensintegratie
 
@@ -54,12 +53,12 @@ De sjabloon **Werkorders met verkooporders (Field Service met Finance and Operat
 
 De volgende synchronisatietaken zijn vereist voordat de synchronisatie van de kopteksten en regels van verkooporders kan plaatsvinden:
 
-- Field Service-producten (Fin and Ops naar Field Service)
-- Rekeningen (Sales naar Fin and Ops) - Direct
+- Field Service-producten (Supply Chain Management naar Field Service)
+- Accounts (Sales naar Supply Chain Management) - Direct
 
 ## <a name="entity-set"></a>Entiteitset
 
-| **Field Service** | **Finance and Operations** |
+| **Field Service** | **Supply Chain Management** |
 |-------------------------|-------------------------|
 | msdyn_workorders        | CDS-verkooporderkopteksten |
 | msdyn_workorderservices | CDS-verkooporderregels   |
@@ -67,13 +66,13 @@ De volgende synchronisatietaken zijn vereist voordat de synchronisatie van de ko
 
 ## <a name="entity-flow"></a>Entiteitstroom
 
-Werkorders worden gemaakt in Field Service. Als de werkorders alleen extern onderhouden producten bevatten en als de waarde **Werkorderstatus** verschilt van **Open - niet-gepland** en **Afgesloten – geannuleerd**, kunnen de werkorders worden gesynchroniseerd met Finance and Operations via een CDS-gegevensintegratieproject. Updates op de werkorders worden gesynchroniseerd als verkooporders in Finance and Operations. Deze updates bevatten de informatie over het oorspronkelijke type en de status.
+Werkorders worden gemaakt in Field Service. Als de werkorders alleen extern onderhouden producten bevatten en als de waarde **Werkorderstatus** verschilt van **Open - niet-gepland** en **Afgesloten – geannuleerd**, kunnen de werkorders worden gesynchroniseerd met Supply Chain Management via een Common Data Service-gegevensintegratieproject. Updates op de werkorders worden gesynchroniseerd als verkooporders in Supply Chain Management. Deze updates bevatten de informatie over het oorspronkelijke type en de status.
 
 ## <a name="estimated-versus-used"></a>Geraamd versus gebruikt
 
-In Field Service hebben producten en diensten op werkorders de waarden **Geraamd** en **Gebruikt** voor hoeveelheden en bedragen. In Finance and Operations hebben verkooporders echter niet hetzelfde concept van de waarden **Geraamd** en **Gebruikt**. Ter ondersteuning van de producttoewijzing die gebruikmaakt van de verwachte hoeveelheid op de verkooporder in Finance and Operations, maar om de gebruikte hoeveelheid te behouden die moet worden verbruikt en gefactureerd, worden met twee soorten taken de producten en services op de werkorder gesynchroniseerd. De ene set taken is voor **geraamde** waarden en de andere set taken voor **gebruikte** waarden.
+In Field Service hebben producten en diensten op werkorders de waarden **Geraamd** en **Gebruikt** voor hoeveelheden en bedragen. In Supply Chain Management hebben verkooporders echter niet hetzelfde concept van de waarden **Geraamd** en **Gebruikt**. Ter ondersteuning van de producttoewijzing die gebruikmaakt van de verwachte hoeveelheid op de verkooporder in Supply Chain Management, maar om de gebruikte hoeveelheid te behouden die moet worden verbruikt en gefactureerd, worden met twee soorten taken de producten en services op de werkorder gesynchroniseerd. De ene set taken is voor **geraamde** waarden en de andere set taken voor **gebruikte** waarden.
 
-Hierdoor worden scenario's mogelijk waarin de geschatte waarden worden gebruikt voor toewijzing of reservering in Finance and Operations, terwijl de gebruikte waarden worden gebruikt voor verbruik en de facturering.
+Hierdoor worden scenario's mogelijk waarin de geschatte waarden worden gebruikt voor toewijzing of reservering in Supply Chain Management, terwijl de gebruikte waarden worden gebruikt voor verbruik en de facturering.
 
 ### <a name="estimated"></a>Geraamd
 
@@ -87,9 +86,9 @@ De **gebruikte** waarden worden gebruikt voor verbruik en facturering. In deze g
 
 De volgende tabel bevat een overzicht van de verschillende combinaties voor productregels.
 
-| Systeemstatus <br>(Field Service) | Regelstatus <br>(Field Service) | Toegewezen <br>(Field Service) |Gesynchroniseerde waarde <br>(Finance and Operations) |
+| Systeemstatus <br>(Field Service) | Regelstatus <br>(Field Service) | Toegewezen <br>(Field Service) |Gesynchroniseerde waarde <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|---------------------------------|
-| Open - gepland   | Geraamd   | Ja       | Geraamd                       |
+| Open - gepland   | Geschat   | Ja       | Geschat                       |
 | Open - gepland   | Geraamd   | Nee        | Gebruikt                            |
 | Open - gepland   | Gebruikt        | Ja       | Gebruikt                            |
 | Open - gepland   | Gebruikt        | Nee        | Gebruikt                            |
@@ -108,9 +107,9 @@ De volgende tabel bevat een overzicht van de verschillende combinaties voor prod
 
 De volgende tabel bevat een overzicht van de verschillende combinaties voor serviceregels.
 
-| Systeemstatus <br>(Field Service) | Regelstatus <br>(Field Service) | Gesynchroniseerde waarde <br>(Finance and Operations) |
+| Systeemstatus <br>(Field Service) | Regelstatus <br>(Field Service) | Gesynchroniseerde waarde <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|
-| Open - gepland   | Geraamd   | Geraamd |
+| Open - gepland   | Geschat   | Geschat |
 | Open - gepland   | Gebruikt        | Gebruikt      |
 | Open - in uitvoering | Geraamd   | Geraamd |
 | Open - in uitvoering | Gebruikt        | Gebruikt      |
@@ -130,7 +129,7 @@ Synchronisatie van **geraamde** waarden versus **gebruikte** waarden wordt behee
     - **Productregel:** geschatte hoeveelheid = 5 st, gebruikte hoeveelheid = 0 st, regelstatus = geraamd, toegewezen = nee
     - **Serviceregel:** geraamde hoeveelheid = 2 uur, gebruikte hoeveelheid = 0 uur, regelstatus = geraamd
 
-    In dit voorbeeld wordt de **Gebruikte hoeveelheid** van het product van **0** (nul) en de **Geraamde hoeveelheid** van **2 uur** gesynchroniseerd met Finance and Operations.
+    In dit voorbeeld wordt de **Gebruikte hoeveelheid** van het product van **0** (nul) en de **Geraamde hoeveelheid** van **2 uur** gesynchroniseerd met Supply Chain Management.
 
 2. Producten worden toegewezen in Field Service.
 
@@ -139,7 +138,7 @@ Synchronisatie van **geraamde** waarden versus **gebruikte** waarden wordt behee
     - **Productregel:** geschatte hoeveelheid = 5 st, gebruikte hoeveelheid = 0 st, regelstatus = geraamd, toegewezen = ja
     - **Serviceregel:** geraamde hoeveelheid = 2 uur, gebruikte hoeveelheid = 0 uur, regelstatus = geraamd
 
-    In dit voorbeeld wordt de **Geraamde hoeveelheid** van het product van **5 st** en de **Geraamde hoeveelheid** van **2 uur** gesynchroniseerd met Finance and Operations.
+    In dit voorbeeld wordt de **Geraamde hoeveelheid** van het product met de waarde **5ea** en de **Geraamde hoeveelheid** van **2 uur** gesynchroniseerd met Supply Chain Management.
 
 3. De onderhoudsmonteur begint te werken aam de werkorder en regsitreert materiaalgebruik van 6.
 
@@ -148,7 +147,7 @@ Synchronisatie van **geraamde** waarden versus **gebruikte** waarden wordt behee
     - **Productregel:** geschatte hoeveelheid = 5 st, gebruikte hoeveelheid = 6 st, regelstatus = verbruikt, toegewezen = ja
     - **Serviceregel:** geraamde hoeveelheid = 2 uur, gebruikte hoeveelheid = 0 uur, regelstatus = geraamd
 
-    In dit voorbeeld wordt de **Gebruikte hoeveelheid** van het product van **6** en de **Geraamde hoeveelheid** van **2 uur** gesynchroniseerd met Finance and Operations.
+    In dit voorbeeld wordt de **Gebruikte hoeveelheid** van het product van **6** en de **Geraamde hoeveelheid** van **2 uur** gesynchroniseerd met Supply Chain Management.
 
 4. De onderhoudsmonteur voltooit de werkorder en registreert 1,5 uur gebruikt.
 
@@ -157,21 +156,21 @@ Synchronisatie van **geraamde** waarden versus **gebruikte** waarden wordt behee
     - **Productregel:** geschatte hoeveelheid = 5 st, gebruikte hoeveelheid = 6 st, regelstatus = verbruikt, toegewezen = ja
     - **Serviceregel:** geraamde hoeveelheid = 2 uur, gebruikte hoeveelheid = 1,5 uur, regelstatus = gebruikt
 
-    In dit voorbeeld wordt de **Gebruikte hoeveelheid** van het product van **6** en de **Gebruikte hoeveelheid** van de service van **1,5 uur** gesynchroniseerd met Finance and Operations.
+    In dit voorbeeld wordt de **Gebruikte hoeveelheid** van het product van **6** en de **Gebruikte hoeveelheid** van de service van **1,5 uur** gesynchroniseerd met Supply Chain Management.
 
 ## <a name="sales-order-origin-and-status"></a>Herkomst en status van verkooporder
 
 ### <a name="sales-origin"></a>Verkoopoorsprong
 
-Om verkooporders in Finance and Operations bij te houden die afkomstig zijn van werkorders, kunt u een verkoopoorsprong maken waarin de optie **Toewijzing van oorsprongtype** is ingesteld op **Ja** en het veld **Type verkoopoorsprong** is ingesteld op **Integratie werkorder**.
+Om verkooporders in Supply Chain Management bij te houden die afkomstig zijn van werkorders, kunt u een verkoopoorsprong maken waarin de optie **Toewijzing van oorsprongtype** is ingesteld op **Ja** en het veld **Type verkoopoorsprong** is ingesteld op **Integratie werkorder**.
 
-Standaard wordt door de toewijzing de verkoopoorsprong voor **Integratie werkorder** geselecteerd voor alle verkooporders die zijn gemaakt op basis van werkorders. Dit gedrag kan van pas komen wanneer u werkt met de verkooporder in Finance and Operations. U moet ervoor zorgen dat verkooporders die afkomstig zijn van werkorders, niet terug worden gesynchroniseerd met Field Service als werkorders.
+Standaard wordt door de toewijzing de verkoopoorsprong voor **Integratie werkorder** geselecteerd voor alle verkooporders die zijn gemaakt op basis van werkorders. Dit gedrag kan van pas komen wanneer u werkt met de verkooporder in Supply Chain Management. U moet ervoor zorgen dat verkooporders die afkomstig zijn van werkorders, niet terug worden gesynchroniseerd met Field Service als werkorders.
 
-Zie de sectie 'Voorwaarden en instellingen voor toewijzing' in dit onderwerp voor meer informatie over het maken van de juiste instellingen voor verkoopoorsprong in Finance and Operations.
+Zie de sectie 'Voorwaarden en instellingen voor toewijzing' in dit onderwerp voor meer informatie over het maken van de juiste instellingen voor verkoopoorsprong in Supply Chain Management.
 
 ### <a name="status"></a>Status
 
-Wanneer de verkooporder afkomstig is van een werkorder, verschijnt het veld **Externe werkorderstatus** op het tabblad **Instellen** in de verkooporderkoptekst. Dit veld bevat de systeemstatus van de werkorder in Field Service om de status van de gesynchroniseerde werkorders van verkooporders bij te houden in Finance and Operations. Dit veld kan de gebruiker van Finance and Operations ook helpen bepalen wanneer de verkooporder moet worden verzonden of gefactureerd.
+Wanneer de verkooporder afkomstig is van een werkorder, verschijnt het veld **Externe werkorderstatus** op het tabblad **Instellen** in de verkooporderkoptekst. Dit veld bevat de systeemstatus van de werkorder in Field Service om de status van de gesynchroniseerde werkorders van verkooporders bij te houden in Supply Chain Management. Dit veld kan de gebruiker ook helpen bepalen wanneer de verkooporder moet worden verzonden of gefactureerd.
 
 het veld **Externe werkorderstatus** kan de volgende waarden hebben:
 
@@ -182,16 +181,16 @@ het veld **Externe werkorderstatus** kan de volgende waarden hebben:
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM-oplossing
 
-Ter ondersteuning van de integratie tussen Field Service en Finance and Operations is extra functionaliteit nodig in de CRM-oplossing Field Service. Het oplossing omvat de volgende wijzigingen.
+Ter ondersteuning van de integratie tussen Field Service en Supply Chain Management is extra functionaliteit nodig in de CRM-oplossing Field Service. Het oplossing omvat de volgende wijzigingen.
 
 ### <a name="work-order-entity"></a>Werkorderentiteit
 
-Het veld **Heeft alleen extern onderhouden producten** is toegevoegd aan de entiteit **Werkorder** en wordt op de pagina weergegeven. Het wordt gebruikt om consistent bij te houden of een werkorder geheel uit extern onderhouden producten bestaat. Een werkorder bestaat alleen uit extern beheerde producten, als alle samenhangende producten worden onderhouden in Finance and Operations. Met deze veldt garandeert u dat gebruikers geen werkorders synchroniseren die producten bevatten die onbekend zijn in Finance and Operations.
+Het veld **Heeft alleen extern onderhouden producten** is toegevoegd aan de entiteit **Werkorder** en wordt op de pagina weergegeven. Het wordt gebruikt om consistent bij te houden of een werkorder geheel uit extern onderhouden producten bestaat. Een werkorder bestaat alleen uit extern beheerde producten, als alle samenhangende producten worden onderhouden in Supply Chain Management. Met dit veld garandeert u dat gebruikers geen werkorders synchroniseren die producten bevatten die onbekend zijn in Supply Chain Management.
 
 ### <a name="work-order-product-entity"></a>Entiteit werkorderproduct
 
-- Het veld **Order heeft alleen extern onderhouden producten** is toegevoegd aan de entiteit **Werkorderproduct** en wordt op de pagina weergegeven. Het wordt gebruikt om consistent bij te houden of het product van de werkorder wordt beheerd in Finance and Operations. Met deze veldt garandeert u dat gebruikers geen werkorderproducten synchroniseren die onbekend zijn in Finance and Operations.
-- Het veld **Koptekst systeemstatus** is toegevoegd aan de entiteit **Werkorderproduct** en wordt op de pagina weergegeven. het wordt gebruikt om de systeemstatus van de werkorder consistent bij te houden en zorgt voor de juiste filtering wanneer werkorderproducten worden gesynchroniseerd in Finance and Operations. Wanneer de filters zijn ingesteld op de integratietaken, worden de gegevens in **Koptekst systeemstatus** ook gebruikt om te bepalen of de geschatte of gebruikte waarden moeten worden gesynchroniseerd.
+- Het veld **Order heeft alleen extern onderhouden producten** is toegevoegd aan de entiteit **Werkorderproduct** en wordt op de pagina weergegeven. Het wordt gebruikt om consistent bij te houden of het product van de werkorder wordt beheerd in Supply Chain Management. Met dit veld garandeert u dat gebruikers geen werkorderproducten synchroniseren die onbekend zijn in Supply Chain Management.
+- Het veld **Koptekst systeemstatus** is toegevoegd aan de entiteit **Werkorderproduct** en wordt op de pagina weergegeven. Het wordt gebruikt om de systeemstatus van de werkorder consistent bij te houden en zorgt voor de juiste filtering wanneer werkorderproducten worden gesynchroniseerd in Supply Chain Management. Wanneer de filters zijn ingesteld op de integratietaken, worden de gegevens in **Koptekst systeemstatus** ook gebruikt om te bepalen of de geschatte of gebruikte waarden moeten worden gesynchroniseerd.
 - Het veld **Gefactureerd bedrag per eenheid** bevat het bedrag dat wordt gefactureerd per werkelijke verbruikte eenheid. De waarde wordt berekend als de waarde voor **Totaalbedrag** gedeeld door de waarde van **Werkelijke hoeveelheid**. Het veld wordt gebruikt voor de integratie met systemen die geen verschillende waarden ondersteunen voor de verbruikte hoeveelheid en de gefactureerde hoeveelheid. Dit veld wordt niet weergegeven in de gebruikersinterface (UI). 
 - Het veld **Gefactureerd kortingsbedrag** wordt berekend als de waarde van **Kortingsbedrag** plus de afronding van de berekening van de waarde **Gefactureerd bedrag per eenheid**. Dit veld wordt gebruikt voor integratie en wordt niet weergegeven in de gebruikersinterface.
 - Het veld **Decimale hoeveelheid** bevat de waarde van het veld **Hoeveelheid** als een decimaal getal. Dit veld wordt gebruikt voor integratie en wordt niet weergegeven in de gebruikersinterface. 
@@ -199,8 +198,8 @@ Het veld **Heeft alleen extern onderhouden producten** is toegevoegd aan de enti
 
 ### <a name="work-order-service-entity"></a>Entiteit werkorderservice
 
-- Het veld **Order heeft alleen extern onderhouden producten** is toegevoegd aan de entiteit **Werkorderservice** en wordt op de pagina weergegeven. Het wordt gebruikt om consistent bij te houden of de service van de werkorder wordt beheerd in Finance and Operations. Met deze veldt garandeert u dat gebruikers geen werkorderservices synchroniseren die onbekend zijn in Finance and Operations.
-- Het veld **Koptekst systeemstatus** is toegevoegd aan de entiteit **Werkorderservice** en wordt op de pagina weergegeven. het wordt gebruikt om de systeemstatus van de werkorder consistent bij te houden en zorgt voor de juiste filtering wanneer werkorderservices worden gesynchroniseerd in Finance and Operations. Wanneer de filters zijn ingesteld op de integratietaken, worden de gegevens in **Koptekst systeemstatus** ook gebruikt om te bepalen of de geschatte of gebruikte waarden moeten worden gesynchroniseerd.
+- Het veld **Order heeft alleen extern onderhouden producten** is toegevoegd aan de entiteit **Werkorderservice** en wordt op de pagina weergegeven. Het wordt gebruikt om consistent bij te houden of de service van de werkorder wordt beheerd in Supply Chain Management. Met dit veld garandeert u dat gebruikers geen werkorderservices synchroniseren die onbekend zijn in Supply Chain Management.
+- Het veld **Koptekst systeemstatus** is toegevoegd aan de entiteit **Werkorderservice** en wordt op de pagina weergegeven. Het wordt gebruikt om de systeemstatus van de werkorder consistent bij te houden en zorgt voor de juiste filtering wanneer werkorderservices worden gesynchroniseerd in Supply Chain Management. Wanneer de filters zijn ingesteld op de integratietaken, worden de gegevens in **Koptekst systeemstatus** ook gebruikt om te bepalen of de geschatte of gebruikte waarden moeten worden gesynchroniseerd.
 - Het veld **Duur in uren** bevat de waarde van het veld **Duur** nadat de waarde is omgezet van minuten in uren. Dit veld wordt gebruikt voor integratie en wordt niet weergegeven in de gebruikersinterface.
 - Het veld **Geschatte duur in uren** bevat de waarde van het veld **Geschatte duur** nadat de waarde is omgezet van minuten in uren. Dit veld wordt gebruikt voor integratie en wordt niet weergegeven in de gebruikersinterface.
 - Het veld **Gefactureerd bedrag per eenheid** slaat het bedrag op dat wordt gefactureerd per werkelijke verbruikte eenheid. De waarde wordt berekend als de waarde voor **Totaalbedrag** gedeeld door de waarde van **Werkelijke hoeveelheid**. Dit veld wordt gebruikt voor de integratie met systemen die geen verschillende waarden ondersteunen voor de verbruikte hoeveelheid en de gefactureerde hoeveelheid. Het veld wordt niet weergegeven in de gebruikersinterface.
@@ -214,12 +213,12 @@ Voordat u werkorders synchroniseert, is het belangrijk de volgende instellingen 
 
 ### <a name="setup-in-field-service"></a>Instellen in Field Service
 
-- Zorg ervoor dat de nummerreeks die wordt gebruikt voor werkorders in Field Service niet overlapt met de nummerreeks die wordt gebruikt voor verkooporders in Finance and Operations. Anders kunnen bestaande verkooporders niet goed worden bijgewerkt in Field Service of Finance and Operations.
-- Het veld **Werkorderfactuur maken** moet worden ingesteld op **Nooit**, omdat de facturering vanuit Finance and Operations wordt uitgevoerd. Ga naar **Field Service** \> **Instellingen** \> **Beheer** \> **Instellingen Field Service**, en controleer of het veld **Werkorderfactuur maken** is ingesteld op **Nooit**.
+- Zorg ervoor dat de nummerreeks die wordt gebruikt voor werkorders in Field Service niet overlapt met de nummerreeks die wordt gebruikt voor verkooporders in Supply Chain Management. Anders kunnen bestaande verkooporders niet goed worden bijgewerkt in Field Service of Supply Chain Management.
+- Het veld **Werkorderfactuur maken** moet worden ingesteld op **Nooit**, omdat de facturering vanuit Supply Chain Management wordt uitgevoerd. Ga naar **Field Service** \> **Instellingen** \> **Beheer** \> **Instellingen Field Service**, en controleer of het veld **Werkorderfactuur maken** is ingesteld op **Nooit**.
 
-### <a name="setup-in-finance-and-operations"></a>Instellingen In Finance and Operations
+### <a name="setup-in-supply-chain-management"></a>Supply Chain Management instellen
 
-Werkorderintegratie vereist dat u de verkoopoorsprong instelt. De verkoopoorsprong wordt gebruikt om onderscheid te maken tussen verkooporders in Finance and Operations die zijn gemaakt op basis van werkorders in Field Service. Wanneer een verkooporder een verkoopoorsprong heeft van het type **Integratie werkorder**, wordt het veld **Externe werkorderstatus** weergegeven in de verkooporderkoptekst. Bovendien helpt de verkoopoorsprong om verkooporders die zijn gemaakt op basis van werkorders in Field Service, eruit te filteren tijdens de synchronisatie van verkooporders Finance and Operations met Field Service.
+Werkorderintegratie vereist dat u de verkoopoorsprong instelt. De verkoopoorsprong wordt gebruikt om onderscheid te maken tussen verkooporders in Supply Chain Management die zijn gemaakt op basis van werkorders in Field Service. Wanneer een verkooporder een verkoopoorsprong heeft van het type **Integratie werkorder**, wordt het veld **Externe werkorderstatus** weergegeven in de verkooporderkoptekst. Bovendien zorgt de verkoopoorsprong er mede voor dat verkooporders die zijn gemaakt op basis van werkorders in Field Service worden uitgefilterd tijdens de synchronisatie van verkooporders van Supply Chain Management naar Field Service.
 
 1. Ga naar **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Verkoopoorsprong**.
 2. Selecteer **Nieuw** voor het maken van een nieuwe verkoopoorsprong.
@@ -243,31 +242,31 @@ Controleer of de **Integratiesleutel** aanwezig is voor **msdyn_workorders**
 
 In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Werkorders aan verkooporders (Field Service aan Fin en Ops): WorkOrderHeader
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderheader"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderHeader
 
 Filter: (msdyn_systemstatus ne 690970005) en (msdyn_systemstatus ne 690970000) en (msdynce_hasexternallymaintainedproductsonly eq true)
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Werkorders aan verkooporders (Field Service aan Fin en Ops): WorkOrderServiceLineEstimate
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderServiceLineEstimate
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en (msdyn_linestatus eq 690970000) en (msdynce_headersystemstatus ne 690970004)
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Werkorders aan verkooporders (Field Service aan Fin en Ops): WorkOrderServiceLineUsed
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderServiceLineUsed
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en ((msdyn_linestatus eq 690970001) of (msdynce_headersystemstatus eq 690970004))
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Werkorders aan verkooporders (Field Service aan Fin en Ops): WorkOrderProductLineEstimate
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderProductLineEstimate
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en (msdyn_linestatus eq 690970000) en (msdynce_headersystemstatus ne 690970004) en (msdyn_allocated eq true)
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Werkorders aan verkooporders (Field Service aan Fin en Ops): WorkOrderProductLineUsed
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderProductLineUsed
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en ((msdyn_linestatus eq 690970001) of (msdynce_headersystemstatus eq 690970004) of (msdyn_allocated ne true))
 

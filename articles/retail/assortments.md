@@ -1,6 +1,6 @@
 ---
 title: Assortimentsbeheer
-description: In dit onderwerp worden de basisconcepten toegelicht van assortimentsbeheer in Microsoft Dynamics 365 for Retail en overwegingen bij de implementatie voor uw project.
+description: In dit onderwerp worden de basisconcepten toegelicht van assortimentsbeheer in Dynamics 365 Retail en overwegingen bij de implementatie voor uw project.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4652641be0a1edaac919d36c7f127cd62c355a57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558823"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025835"
 ---
 # <a name="assortment-management"></a>Assortimentsbeheer
 
@@ -28,7 +28,7 @@ ms.locfileid: "1558823"
 
 ## <a name="overview"></a>Overzicht
 
-Microsoft Dynamics 365 for Retail biedt *assortimenten* waarmee u de productbeschikbaarheid kunt beheren via kanalen. Assortimenten bepalen welke producten beschikbaar zijn in bepaalde winkels en een specifieke periode.
+Dynamics 365 Retail biedt *assortimenten* waarmee u de productbeschikbaarheid kunt beheren via kanalen. Assortimenten bepalen welke producten beschikbaar zijn in bepaalde winkels en een specifieke periode.
 
 In Retail is een assortiment een toewijzing van een of meer kanalen (of groepen kanalen, wanneer organisatiehiërarchieën worden gebruikt) aan een of meer producten (of groepen producten wanneer categoriehiërarchieën worden gebruikt).
 

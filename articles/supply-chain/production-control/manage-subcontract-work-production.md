@@ -1,6 +1,6 @@
 ---
 title: Uitbesteed werk in productie beheren
-description: 'In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Microsoft Dynamics 365 for Finance and Operations. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.'
+description: 'In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Dynamics 365 Supply Chain Management. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.'
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569748"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023536"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Uitbesteed werk in productie beheren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Microsoft Dynamics 365 for Finance and Operations. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.
+In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Dynamics 365 Supply Chain Management. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.
 
 In [productieprocessen](production-process-overview.md) kunnen werkzaamheden worden uitgevoerd door resources die eigendom zijn van leveranciers of die door leveranciers worden beheerd. Leveranciersresources worden meestal gebruikt voor het nivelleren van periodiek excessieve vraag die de beschikbare capaciteit van de eigen resources van een bedrijf overschrijdt. De leverancier kan mogelijk ook specifieke [resourcemogelijkheden](resource-capabilities.md) of resources tegen een lagere prijs aanbieden.  
 
@@ -40,7 +40,7 @@ Wanneer uitbestede bewerkingen of activiteiten worden gebruikt, zijn deze van in
 
 Voor interne resources is gewoonlijk een vast kostentarief toegewezen voor een periode. Daarentegen worden de kosten van uitbestede resources gebaseerd op de inkoopprijs van de gerelateerde service. De service wordt gedefinieerd als een ander product en wordt gebruikt om de aanschaf- en inkoopprocessen aan te sturen voor een bepaalde uitbestede bewerking.  
 
-Er is momenteel geen expliciet concept van halffabrikaten in Microsoft Dynamics 365 for Finance and Operations. In geval van een productieorder waarvoor meer dan één bewerking is vereist om grondstoffen te transformeren in het eindproduct, wordt het eindproduct alleen in de laatste bewerking teruggeboekt naar de voorraad. De halffabricaten die door de eerdere bewerkingen worden geproduceerd, worden meegenomen in het onderhanden werk (OHW), maar ze worden niet geboekt of bijgehouden in de voorraad. Hoewel u routes en stuklijsten in meerdere kleinere eenheden kunt opsplitsen, verhoogt deze methode het aantal producten, stuklijsten en routes die moeten worden beheerd.  
+Er is momenteel geen expliciet concept van halffabrikaten in Supply Chain Management. In geval van een productieorder waarvoor meer dan één bewerking is vereist om grondstoffen te transformeren in het eindproduct, wordt het eindproduct alleen in de laatste bewerking teruggeboekt naar de voorraad. De halffabricaten die door de eerdere bewerkingen worden geproduceerd, worden meegenomen in het onderhanden werk (OHW), maar ze worden niet geboekt of bijgehouden in de voorraad. Hoewel u routes en stuklijsten in meerdere kleinere eenheden kunt opsplitsen, verhoogt deze methode het aantal producten, stuklijsten en routes die moeten worden beheerd.  
 
 Er zijn twee methoden voor het modelleren van uitbestede werkzaamheden voor productiebewerkingen. Deze methoden verschillen in de wijze waarop het uitbestedingsproces kan worden gemodelleerd, de manier waarop halffabrikaten worden vertegenwoordigd in het proces en de manier waarop kostenbeheer wordt beheerd.
 
