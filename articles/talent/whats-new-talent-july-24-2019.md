@@ -1,6 +1,6 @@
 ---
-title: Nieuwe of gewijzigde functies in Dynamics 365 for Talent (23 juli 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Nieuwe of gewijzigde functies in Dynamics 365 Talent (23 juli 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/23/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d631a2a2be4809352c31f2a8c47ea49823233b30
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 428e862b84a17f0d50edf034b4cc836e5ae7710d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856396"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010263"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-23-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 for Talent (23 juli 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 Talent (23 juli 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
@@ -75,6 +75,6 @@ Met een nieuwe optie kunnen managers de prestaties van hun directe en indirecte 
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Regio-ondersteuning voor Canada en Zuidoost-Azië
 
-Wij zijn blij om te kunnen bekendmaken dat de regio's Canada en Zuidoost-Azië sinds 1 augustus 2019 beschikbaar zijn voor Microsoft Dynamics 365 for Talent. Met deze wijziging kunt u omgevingen maken in de Canadese en Aziatische regio's en alle Talent-gegevens worden uitsluitend in die locaties beheerd. U kunt een omgeving maken in deze nieuwe regio's maken door de locatie te selecteren in het dialoogvenster Nieuwe omgeving en deze omgeving te gebruiken om Talent in te richten in LCS op de wijze die wordt beschreven in [Talent inrichten](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Wij zijn blij om te kunnen bekendmaken dat de regio's Canada en Zuidoost-Azië sinds 1 augustus 2019 beschikbaar zijn voor Talent. Met deze wijziging kunt u omgevingen maken in de Canadese en Aziatische regio's en alle Talent-gegevens worden uitsluitend in die locaties beheerd. U kunt een omgeving maken in deze nieuwe regio's maken door de locatie te selecteren in het dialoogvenster Nieuwe omgeving en deze omgeving te gebruiken om Talent in te richten in LCS op de wijze die wordt beschreven in [Talent inrichten](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 Gegevensmigratie van bestaande projecten van andere regio's naar de Canadese en Aziatische regio's wordt niet ondersteund. Alleen nieuwe projecten kunnen worden ingericht voor de nieuwe ondersteunde regio's.

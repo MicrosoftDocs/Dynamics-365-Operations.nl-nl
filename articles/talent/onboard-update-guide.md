@@ -1,6 +1,6 @@
 ---
-title: Onboardinghandleidingen bijwerken in Dynamics 365 for Talent - Onboard
-description: In dit onderwerp wordt uitgelegd hoe u onboardinghandleidingen bijwerkt in Microsoft Dynamics 365 for Talent - Onboard en wijzigingen pusht in bestaande handleidingen.
+title: Onboardinghandleidingen bijwerken in Dynamics 365 Talent - Onboard
+description: In dit onderwerp wordt uitgelegd hoe u onboardinghandleidingen bijwerkt in Microsoft Dynamics 365 Talent - Onboard en wijzigingen pusht in bestaande handleidingen.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731424"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010724"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>Onboardinghandleidingen bijwerken in Dynamics 365 for Talent: Onboard
+# <a name="update-onboarding-guides"></a>Onboardinghandleidingen bijwerken
 
 [!include [banner](includes/banner.md)]
 
-Als u wijzigingen moet aanbrengen in onboardinghandleidingen in Microsoft Dynamics 365 for Talent: Onboard, kunt u deze bijwerken en de wijzigingen pushen, zelfs als u de handleidingen al hebt verzonden. U hebt twee opties voor het bijwerken van een onboardinghandleiding:
+Als u wijzigingen moet aanbrengen in onboardinghandleidingen in Microsoft Dynamics 365 Talent: Onboard, kunt u deze bijwerken en de wijzigingen pushen, zelfs als u de handleidingen al hebt verzonden. U hebt twee opties voor het bijwerken van een onboardinghandleiding:
 
 - Bewerk de onboardinghandleiding rechtstreeks en sla de wijzigingen op.
 - Bewerk de onboardingsjabloon en push de wijzigingen naar alle onboardinghandleidingen die op basis hiervan zijn gemaakt.

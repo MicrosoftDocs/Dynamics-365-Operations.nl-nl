@@ -1,9 +1,9 @@
 ---
-title: Integratie van Dynamics 365 for Talent met Dynamics 365 for Finance and Operations - veelgestelde vragen
-description: In dit onderwerp wordt uitgelegd welke gegevens in een integratie van Talent en Finance and Operations worden gesynchroniseerd.
+title: Integratie van Dynamics 365 Talent met Dynamics 365 Finance - veelgestelde vragen
+description: In dit onderwerp wordt uitgelegd welke gegevens in een integratie van Talent en Finance worden gesynchroniseerd.
 author: andreabichsel
 manager: AnnBe
-ms.date: 01/09/2019
+ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742699"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251009"
 ---
-# <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Integratie van Dynamics 365 for Talent met Dynamics 365 for Finance and Operations - veelgestelde vragen
+# <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Integratie van Dynamics 365 Talent met Dynamics 365 Finance - veelgestelde vragen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt antwoord gegeven op veelgestelde vragen over welke gegevens worden gesynchroniseerd wanneer Dynamics 365 for Talent wordt geïntegreerd met Dynamics 365 for Finance and Operations.
+In dit onderwerp wordt antwoord gegeven op veelgestelde vragen over welke gegevens worden gesynchroniseerd wanneer Dynamics 365 Talent wordt geïntegreerd met Dynamics 365 Finance.
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Worden alle gegevens gesynchroniseerd of alleen sommige gegevensentiteiten?
 
-Met Core Human Resources (HRM) wordt een subset van de gegevens gesynchroniseerd. Zie voor een overzicht van alle entiteiten [Integratie van Dynamics 365 for Talent met Dynamics 365 for Finance and Operations](talent-financeandoperations-integration.md).
+Met Core HR wordt een subset van de gegevens gesynchroniseerd. Zie voor een overzicht van alle entiteiten [Integratie van Dynamics 365 Talent met Dynamics 365 Finance](talent-financeandoperations-integration.md).
 
 Voor Attract en Onboard zijn alle gegevens systeemeigen voor Common Data Service.
 
@@ -40,15 +40,15 @@ Voor Attract en Onboard zijn alle gegevens systeemeigen voor Common Data Service
 
 Sjablonen vormen het beginpunt. U kunt uw eigen sjabloon maken, maar een sjabloon is altijd vereist bij het maken van een integratieproject. Zie voor meer informatie over Gegevensintegrator (DI), sjablonen en projecten [Gegevens integreren in Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Kan ik financiële dimensies toewijzen voor overdracht tussen Talent en Finance and Operations?
+## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance"></a>Kan ik financiële dimensies toewijzen voor overdracht tussen Talent en Finance?
 
 Common Data Service bevat momenteel geen financiële dimensies en daardoor maken ze geen deel uit van de standaardsjabloon. Deze entiteit is gepland, maar momenteel is nog niet bekend wanneer deze beschikbaar is.
 
-Voor gegevens die zich bevinden in Finance and Operations maar niet in Talent, koppelt u de twee systemen met behulp van **Koppelingen configureren** in Talent. Zie voor meer informatie over het configureren van koppelingen tussen Talent en Finance and Operations [Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (31 oktober 2018)](whats-new-talent-october-31.md).
+Voor gegevens die zich bevinden in Finance maar niet in Talent, koppelt u de twee systemen met behulp van **Koppelingen configureren** in Talent. Zie voor meer informatie over het configureren van koppelingen tussen Talent en Finance [Wat is nieuw of gewijzigd in Dynamics 365 Talent: Core HR (31 oktober 2018)](whats-new-talent-october-31.md).
 
 ![Financiële dimensies toewijzen](media/MapFinancialDimensions.png)
 
-## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Soms veranderen werknemers bij het importeren in inactieve werknemers in Finance and Operations. Waarom niet?
+## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Soms veranderen werknemers bij het importeren in inactieve werknemers in Finance. Waarom niet?
 
 U kunt deze fout krijgen als werknemers geen detailrecord voor een actief dienstverband hebben in Talent. U lost dit op door naar **Personeelsbeheer \> Werknemers \> Historie dienstverband \> Datumbeheer** te gaan en te controleren of er een detailrecord voor actief dienstverband is.
 
@@ -62,7 +62,7 @@ U kunt met behulp van 'Geavanceerde query' brongegevens filteren en wijzigen voo
 
 ![Geavanceerde query voor actieve medewerkers](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
-## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Kan ik opgeven welke velden moeten worden verzonden naar Finance and Operations voor een bepaalde entiteit?
+## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Kan ik opgeven welke velden moeten worden verzonden naar Finance voor een bepaalde entiteit?
 
 Velden kunnen worden toegevoegd aan of verwijderd uit de integratietaak. Niet alle gegevensvelden die aanwezig zijn in de entiteit Common Data Service worden ingevuld vanuit Core HR.
 Aanvullende gegevens kunnen worden ingevuld via PowerApps.
@@ -75,7 +75,7 @@ Er is geen speciale instelling vereist voor het afhandelen van uitzonderingen. M
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Kan ik integratie in twee richtingen instellen?
 
-Nee, integratie verloopt momenteel in één richting (Talent naar Finance and Operations). Er is echter een standaardsjabloon beschikbaar voor het verzenden van gegevens van Talent naar Finance and Operations.
+Nee, integratie verloopt momenteel in één richting (Talent naar Finance and Operations). Er is echter een standaardsjabloon beschikbaar voor het verzenden van gegevens van Talent naar Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Kan ik recordverwijdering toestaan als onderdeel van mijn integratie?
 
@@ -93,13 +93,13 @@ Als de standaardsjabloon wordt gebruikt, worden de integratiesleutels automatisc
 
 ## <a name="if-i-have-n-number-of-legal-entities-where-workers-have-employments-do-i-need-to-create-a-mapping-for-each-of-them"></a>Als ik N aantal rechtspersonen heb waar werknemers dienstverbanden hebben, moet ik dan voor ieder van hen een toewijzing maken?
 
-Ja, voor elke rechtspersoon in Finance and Operations hebt u een afzonderlijk integratieproject in de gegevensintegratie nodig.
+Ja, voor elke rechtspersoon in Finance hebt u een afzonderlijk integratieproject in de gegevensintegratie nodig.
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Ik moet gegevens overbrengen die geen deel uitmaken van de standaardsjabloon die door Microsoft is geleverd. Kan ik dit doen?
 
 Ja, velden kunnen worden toegevoegd aan of verwijderd uit de bestaande sjabloon. De sjabloon kan worden gewijzigd om extra gegevens op te nemen van andere Common Data Service-entiteiten. De entiteit moet zich in Common Data Service bevinden om in de sjabloon te kunnen worden opgenomen. 
 
-## <a name="i-just-created-new-finance-and-operations-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Ik heb nieuwe Finance and Operations- en Talent-omgevingen gemaakt en ik krijg het foutbericht dat de gegevenswaarde integriteitsbeperkingen schendt. Waarom niet?
+## <a name="i-just-created-new-finance-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Ik heb nieuwe Finance- en Talent-omgevingen gemaakt en ik krijg het foutbericht dat ¨de gegevenswaarde integriteitsbeperkingen schendt.¨ Waarom niet?
 
 Redenen voor deze fout kunnen zijn:
 
@@ -109,9 +109,9 @@ Redenen voor deze fout kunnen zijn:
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Als er uitvoeringsfouten zijn en de werknemer-ID niet is gesynchroniseerd, hoe vind ik de historietaak met de mislukte werknemerrecord dan?
 
-Gegevensintegrator maakt meerdere projecten in Finance and Operations. De relatie tussen de Gegevensintegrator-taak en het Finance and Operations-project is een-op-een.
+Gegevensintegrator maakt meerdere projecten in Finance. De relatie tussen de Gegevensintegrator-taak en het Finance-project is een-op-een.
 
-Zoek de tijd op van de uitvoeringshistorie van Gegevensintegrator en zoek naar index -1 project in Finance and Operations. Als het taaknummer 9 in Gegevensintegrator is, is de index in Finance and Operations 8.
+Zoek de tijd op van de uitvoeringsgeschiedenis van Gegevensintegrator en zoek naar het index -1 project in Finance. Als het taaknummer 9 in Gegevensintegrator is, is de index in Finance 8.
 
 1. Leg de taakindex in Gegevensintegrator vast (in dit voorbeeld is dit '9').
 
@@ -121,13 +121,13 @@ Zoek de tijd op van de uitvoeringshistorie van Gegevensintegrator en zoek naar i
 
 ![Uitvoeringstijd van project bijhouden](media/CaptureTimeOfExecution.png)
 
-3. Identificeer index - 1 in Finance and Operations. In dit voorbeeld komt het project met achtervoegsel '8' en uitvoeringstijd van index '0' overeen met de uitvoeringstijd in stap 2.
+3. Geef index - 1 op in Finance. In dit voorbeeld komt het project met achtervoegsel '8' en uitvoeringstijd van index '0' overeen met de uitvoeringstijd in stap 2.
 
 ![Index identificeren](media/IdentifyIndex.png)
 
-## <a name="after-integrating-talent-and-finance-and-operations-i-dont-see-my-talent-data-in-finance-and-operations-what-do-i-do"></a>Nadat ik Talent en Finance and Operations heb geïntegreerd, zie ik mijn Talent-gegevens in Finance and Operations niet. Wat moet ik doen?
+## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Nadat ik Talent en Finance heb geïntegreerd, zie ik mijn Talent-gegevens in Finance niet. Wat moet ik doen?
 
-De integratie met Finance and Operations is een proces dat uit twee stappen bestaat. Controleer eerst of de Talent-gegevens zijn bijgewerkt en beschikbaar zijn in Common Data Service. Dit is een bijna realtime-synchronisatie en kan in PowerApps worden geverifieerd door te kijken naar de gegevens in de gegevensentiteiten.
+De integratie met Finance is een proces dat uit twee stappen bestaat. Controleer eerst of de Talent-gegevens zijn bijgewerkt en beschikbaar zijn in Common Data Service. Dit is een bijna realtime-synchronisatie en kan in PowerApps worden geverifieerd door te kijken naar de gegevens in de gegevensentiteiten.
 
 ![Gegevens in Common Data Service](media/DataInCDS.png)
 
@@ -135,24 +135,24 @@ Als de gegevens niet zoals verwacht in Common Data Service worden weergegeven, c
 
 Als de entiteit wordt ondersteund en de gegevens beschikbaar zijn in Common Data Service, controleert u of de toewijzing in Gegevensintegrator juist is. Als de integratortoewijzing er goed uitziet, controleert u of de taken voor gegevensbeheer zonder problemen zijn uitgevoerd. Er kunnen fouten optreden tijdens de uitvoering van de batchtaken. Zie [Gegevensbeheer](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json) voor meer informatie over Gegevensbeheer.
 
-## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>De adressen van mijn werknemers zijn onjuist nadat ik deze in Finance and Operations heb geïmporteerd. Wat moet ik doen?
+## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>De adressen van mijn werknemers zijn onjuist nadat ik deze in Finance heb geïmporteerd. Wat moet ik doen?
 
-De nummerreeks voor **Locatie-ID** gebruikt hetzelfde patroon in zowel Talent als Finance and Operations. De nummerreeks moet voor beide uniek zijn zodat er geen adresconflicten ontstaan bij het integreren van gegevens van Common Data Service met Finance and Operations.
+De nummerreeks voor **Locatie-ID** gebruikt hetzelfde patroon in zowel Talent als Finance. De nummerreeks moet voor beide uniek zijn zodat er geen adresconflicten ontstaan bij het integreren van gegevens van Common Data Service met Finance and Operations.
 
-Controleer tijdens de implementatie van Talent of de nummerreeksen niet hetzelfde zijn in Talent en Finance and Operations. Controleer of alle nummerreeksen niet identiek zijn in gevallen waar gegevens in beide systemen kunnen worden beheerd.
+Controleer tijdens de implementatie van Talent of de nummerreeksen niet hetzelfde zijn in Talent en Finance. Controleer of alle nummerreeksen niet identiek zijn in gevallen waar gegevens in beide systemen kunnen worden beheerd.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Bij het maken van mijn verbindingenset zie ik de verbinding niet in de vervolgkeuzelijst Verbinding. Wat moet ik doen?
 
-Zorg ervoor dat wanneer u uw verbindingen maakt, u Dynamics 365 for Finance and Operations (momenteel in het voorbeeld) en Common Data Service kiest.
+Zorg ervoor dat wanneer u uw verbindingen maakt, u Dynamics 365 Finance en Common Data Service kiest.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Tijdens het synchroniseren van dienstverbanden krijg ik de fouten 'CompanyInfo_FK bestaat niet' of 'De waarde '12/31/2154 23:59:59 pm' in het veld Einddatum dienstverband' is niet gevonden in de gerelateerde tabel 'Dienstverband'. Wat moet ik doen?
 
-Zorg ervoor dat u toewijst aan de juiste rechtspersonen. Synchronisatie van rechtspersonen maakt geen deel uit van de standaardsjabloon. Dus elke rechtspersoon die aanwezig is in Talent en Common Data Service, zal naar verwachting ook aanwezig zijn in Finance and Operations.
+Zorg ervoor dat u toewijst aan de juiste rechtspersonen. Synchronisatie van rechtspersonen maakt geen deel uit van de standaardsjabloon. Dus elke rechtspersoon die aanwezig is in Talent en Common Data Service, zal naar verwachting ook aanwezig zijn in Finance.
 Zorg er ook voor dat u de juiste rechtspersonen voor de bijbehorende verbindingenset selecteert.
 
-## <a name="after-setting-up-my-project-the-field-mapping-for-finance-and-operations-appears-to-be-empty-what-should-i-do"></a>Nadat ik mijn project heb ingesteld, is de veldtoewijzing voor Finance and Operations leeg. Wat moet ik doen?
+## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Nadat ik mijn project heb ingesteld, is de veldtoewijzing voor Finance leeg. Wat moet ik doen?
 
-Vernieuw de gegevensentiteiten in Finance and Operations door naar **Gegevensbeheer \> Raamwerkparameters \> Entiteitsinstellingen \> Entiteitslijst vernieuwen** te gaan. Dit duurt enkele minuten. Vervolgens moet u deze toewijzingen zien. Dit probleem treedt op wanneer nieuwe projecten worden gemaakt.
+Vernieuw de gegevensentiteiten in Finance door naar **Gegevensbeheer \> Raamwerkparameters \> Entiteitsinstellingen \> Entiteitslijst vernieuwen** te gaan. Dit duurt enkele minuten. Vervolgens moet u deze toewijzingen zien. Dit probleem treedt op wanneer nieuwe projecten worden gemaakt.
 
 ![Veldtoewijzing ontbreekt](media/MissingFieldMapping.png)
 

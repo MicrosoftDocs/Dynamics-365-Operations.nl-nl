@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548993"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250134"
 ---
 # <a name="onboard-vendors"></a>Leveranciers onboarden
 [!include [banner](../includes/banner.md)]
 
 ---
 
-Nieuwe leveranciers kunnen worden ingewerkt en geregistreerd als leveranciers in Microsoft Dynamics 365 for Finance and Operations, op basis van gegevens die worden verzameld van een persoon die de leverancier vertegenwoordigt.
+Nieuwe leveranciers kunnen worden ingewerkt en geregistreerd als leveranciers in Microsoft Dynamics 365 Supply Chain Management, op basis van gegevens die worden verzameld van een persoon die de leverancier vertegenwoordigt.
 
 Het proces bestaat uit de volgende stappen, waarbij verschillende rollen acties in het systeem uitvoeren.
 
 1. **OData-gegevensbeheer** – Entiteitimport: de eerste aanvraag is de registratieaanvraag van de potentiële leverancier. Deze aanvraag is gewoonlijk afkomstig van een bron die anonieme toegang toestaat, zoals een door een klant gehoste website. Leveranciers kunnen zich aanmelden door algemene gegevens op te geven, zoals de naam van de leverancier, een verantwoording, het organisatienummer en de naam en het e-mailadres van de contactpersoon. De aanvragen worden geïmporteerd via de interface Gegevensbeheer.
-2. **Lijstpagina Aanvraag voor registratie van potentiële leverancier**: op basis van de informatie die is opgegeven in de aanvraag voor registratie van de potentiële leverancier, besluit de inkoopmedewerker of de leverancier moet worden ingewerkt. De inkoopmedewerker analyseert de inkomende aanvraag op de lijstpagina **Aanvragen voor registratie van potentiële leverancier** in Finance and Operations.
+2. **Lijstpagina Aanvraag voor registratie van potentiële leverancier**: op basis van de informatie die is opgegeven in de aanvraag voor registratie van de potentiële leverancier, besluit de inkoopmedewerker of de leverancier moet worden ingewerkt. De inkoopmedewerker analyseert de inkomende aanvraag op de lijstpagina **Aanvragen voor registratie van potentiële leverancier**.
 3. **Workflow Gebruikersbevoegdheden toekennen**: wanneer een inkoopmedewerker de informatie in de inkomende aanvraag heeft geverifieerd en heeft besloten om door te gaan met het onboardingproces, ontvangt de nieuwe gebruiker gebruikersbevoegdheden op basis van de workflow voor gebruikersaanvragen en wordt per e-mail een uitnodiging verzonden om de contactpersoon als een geverifieerde gebruiker van Microsoft Dynamics 365 te accepteren.
-4. **Wizard Leveranciersregistratie**: de contactpersoon van de leverancier meldt zich met de nieuwe gebruikersaccount aan bij Finance and Operations. Hij of zij voltooit een wizard voor het registreren van leveranciers om informatie, zoals adressen, bedrijfsinformatie, inkoopcategorieën en antwoorden op vragenlijst, te verstrekken.
+4. **Wizard Leveranciersregistratie** - de contactpersoon van de leverancier meldt zich aan met het nieuwe gebruikersaccount. Hij of zij voltooit een wizard voor het registreren van leveranciers om informatie, zoals adressen, bedrijfsinformatie, inkoopcategorieën en antwoorden op vragenlijst, te verstrekken.
 5. **Goedkeuringsworkflow**: er wordt een leverancieraanvraag met de registratie-informatie gemaakt. Deze leverancieraanvraag wordt verzonden naar een workflow en ter controle en goedkeuring doorgestuurd.
 6. **Een leveranciermodel maken en gebruikersrol wijzigen**: als de leverancieraanvraag wordt goedgekeurd, wordt er een leveranciersrecord gemaakt. De gebruikersaccount van de contactpersoon van de leverancier krijgt toestemming voor leverancierssamenwerking of wordt uitgeschakeld.
 
@@ -45,14 +45,14 @@ In de volgende tabel worden de stappen en rollen beschreven die betrokken zijn b
 |--------------------------|---|---|---|---|---|---|
 | System                   | De aanvraag voor een nieuwe leverancier wordt geïmporteerd. | | | | | Als de leverancieraanvraag wordt geaccepteerd, wordt de leveranciersrecord gemaakt. |
 | Inkoopmedewerker | | Start het onboarding-proces. | | | Beoordeel en accepteer of weiger de leverancieraanvraag. | |
-| Beheerder            | | | Maak een gebruiker in Finance and Operations en Microsoft Azure. | | | |
+| Beheerder            | | | Een gebruiker maken in Supply Chain Management en Microsoft Azure. | | | |
 | Contactpersoon van leverancier    | | | Verzend e-mail naar de contactpersoon. | Registreer leveranciersgegevens. | | |
 
-Bekijk deze korte YouTube-video voor een snelle demonstratie van het onboardingproces voor leveranciers: [Een nieuwe leverancier onboarden in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}).
+Voor een snelle demonstratie van het leveranciersonboardingproces, bekijkt u deze korte YouTube-video: [Een nieuwe leverancier onboarden in Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>De aanvraag voor registratie van potentiële leveranciers importeren
 
-De aanvraag voor registratie van potentiële leveranciers is een entiteit in Finance and Operations. U kunt het systeem zo instellen dat gegevens via deze eenheid worden geïmporteerd. 
+De aanvraag voor registratie van potentiële leveranciers is een entiteit in Supply Chain Management. U kunt het systeem zo instellen dat gegevens via deze eenheid worden geïmporteerd. 
 
 In de volgende tabel ziet u welke gegevens deze entiteit bevat en kunnen worden geïmporteerd.
 
@@ -65,18 +65,18 @@ In de volgende tabel ziet u welke gegevens deze entiteit bevat en kunnen worden 
 | Voornaam van contactpersoon  | De voornaam van de persoon die wordt uitgenodigd om leveranciersgegevens te registreren. |
 | Tweede voornaam van contactpersoon | De tweede naam van de persoon die wordt uitgenodigd om leveranciersgegevens te registreren. |
 | Achternaam van contactpersoon   | De achternaam van de persoon die wordt uitgenodigd om leveranciersgegevens te registreren. |
-| E-mail van contactpersoon       | Het e-mailadres dat wordt gebruikt om een nieuwe gebruiker in Finance and Operations te maken en dat wordt geregistreerd in de Azure Active Directory-account (Azure AD) van de tenant. |
+| E-mail van contactpersoon       | Het e-mailadres dat wordt gebruikt om een nieuwe gebruiker in Supply Chain Management te maken en dat wordt geregistreerd in het Azure Active Directory-account (Azure AD) van de tenant. |
 | Datum ingediend               | De datum waarop de aanvraag is gemaakt in een extern systeem. |
-| Rechtspersoon                 | De rechtspersoon die van de leverancier het verzoek ontvangt om een leverancier te worden. Deze waarde moet een rechtspersooncode zijn die is geregistreerd in Finance and Operations. Als er geen waarde wordt ontvangen via het importproces, wordt een waarde uit de parameters van Inkoopbeheer toegepast. |
+| Rechtspersoon                 | De rechtspersoon die van de leverancier het verzoek ontvangt om een leverancier te worden. Deze waarde moet een rechtspersooncode zijn die is geregistreerd in Supply Chain Management. Als er geen waarde wordt ontvangen via het importproces, wordt een waarde uit de parameters van Inkoopbeheer toegepast. |
 | Leverancierstype                  | De leverancier kan een organisatie of persoon zijn. Het leverancierstype bepaalt hoe de leverancier uiteindelijk wordt gemaakt. |
 
 Als de aanvraag voor registratie van potentiële leveranciers is geïmporteerd, verschijnt deze op de lijstpagina **Aanvraag voor registratie van potentiële leverancier**. Via deze lijstpagina kan een inkoopmedewerker de gebruiker uitnodigen. Een gebruikersaanvraag voor het toekennen van de gebruikersbevoegdheden wordt naar een workflow verzonden.
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Een gebruikersaanvraag voor potentiële leveranciers verzenden
 
-Het doel van een gebruikersaanvraag voor potentiële leverancier is om de persoon die de eerste aanvraag heeft ingediend, te voorzien van gebruikersbevoegdheden zodat hij of zij zich bij Finance and Operations kan aanmelden via het e-mailaccount dat is opgegeven in de aanvraag voor registratie van potentiële leveranciers.
+Het doel van een gebruikersaanvraag voor potentiële leverancier is om de persoon die de eerste aanvraag heeft ingediend, te voorzien van gebruikersbevoegdheden zodat hij of zij zich bij Supply Chain Management kan aanmelden via het e-mailaccount dat is opgegeven in de aanvraag voor registratie van potentiële leveranciers.
 
-De aanvraag voor registratie van potentiële leveranciers wordt verwerkt door de werkstroom voor gebruikersaanvragen. Deze werkstroom communiceert door middel van Azure AD B2B-samenwerking. In Finance and Operations wordt een gebruiker gemaakt die over de juiste beveiligingsinstellingen beschikt.
+De aanvraag voor registratie van potentiële leveranciers wordt verwerkt door de werkstroom voor gebruikersaanvragen. Deze werkstroom communiceert door middel van Azure AD B2B-samenwerking. In Supply Chain Management wordt een gebruiker gemaakt die over de juiste beveiligingsinstellingen beschikt.
 
 Voor nieuwe gebruikers worden de volgende beveiligingsrollen ingesteld:
 
@@ -89,7 +89,7 @@ Zie voor informatie over de configuratie van het e-mailbericht en de workflow in
 
 ## <a name="vendor-registration"></a>Leveranciersregistratie
 
-Een gebruiker van een potentiële leverancier die zich bij Finance and Operations aanmeldt, krijgt de eerste pagina van een wizard voor leveranciersregistratie te zien waarin hij of zij leveranciersinformatie kan invoeren.
+Een gebruiker van een potentiële leverancier die zich bij Supply Chain Management aanmeldt, krijgt de eerste pagina van een wizard voor leveranciersregistratie te zien waarin hij of zij leveranciersinformatie kan invoeren.
 
 De wizard is aangepast op basis van de configuratie van de leverancieraanvraag. Het land of de regio waar de leverancier zaken doet, bepaalt om welke gegevens in de wizard wordt verzocht en welke gegevens verplicht zijn.
 
@@ -119,7 +119,7 @@ Leverancieraanvragen zijn beschikbaar op de pagina **Gebruikersaanvragen voor le
 
 Een leverancieraanvraag bevat de informatie die de gebruiker van de potentiële leverancier heeft ingevoerd in de wizard voor leveranciersregistratie.
 
-Met de aanvraag kunt u de leveranciersgegevens bekijken en bepalen of de leverancier een geregistreerde leverancier in Finance and Operations moet worden.
+Met de aanvraag kunt u de leveranciersgegevens bekijken en bepalen of de leverancier een geregistreerde leverancier in Supply Chain Management moet worden.
 
 De leverancieraanvraag moet bij een werkstroom worden ingediend en worden doorgestuurd naar de relevante revisoren en fiatteurs. Zie [Workflows voor inkoopbeheer](procurement-sourcing-workflows.md) voor algemene informatie over het instellen van werkstromen.
 
@@ -141,7 +141,7 @@ Wanneer een leverancieraanvraag is goedgekeurd, wordt een leverancierrekening ge
 
 Voordat u een leverancieraanvraag goedkeurt, selecteert u op de pagina **Nieuwe leverancier** op het sneltabblad **Algemeen** de optie **Leveranciersgroep**.
 
-Als de gebruiker van de potentiële leverancier toegang tot Finance and Operations moet hebben als gebruiker voor leverancierssamenwerking die de leverancier vertegenwoordigt, stelt u de machtiging voor toegang tot leverancierssamenwerking in op **Ja**. Als u de gebruikersaccount wilt uitschakelen waarmee de potentiële leverancier zich heeft geregistreerd, stelt u deze machtiging in op **Nee**.
+Als de gebruiker van de potentiële leverancier toegang tot Supply Chain Management moet hebben als gebruiker voor leverancierssamenwerking die de leverancier vertegenwoordigt, stelt u de machtiging voor toegang tot leverancierssamenwerking in op **Ja**. Als u de gebruikersaccount wilt uitschakelen waarmee de potentiële leverancier zich heeft geregistreerd, stelt u deze machtiging in op **Nee**.
 
 Als de machtiging voor toegang tot leverancierssamenwerking is ingesteld op **Ja** en de leverancieraanvraag wordt goedgekeurd, wordt een aanvraag om de rollen van de gebruiker te wijzigen verzonden zodat de gebruiker de rollen heeft die zijn gedefinieerd voor het type **Leverancier** in **Externe rollen**. Als deze machtiging is ingesteld op **Nee** en de leverancieraanvraag wordt goedgekeurd, wordt er een verzoek ingediend om de gebruiker te deactiveren. In dit geval moet de workflow voor het deactiveren van een gebruikersaanvraag worden ingesteld.
 

@@ -1,6 +1,6 @@
 ---
-title: Nieuwe of gewijzigde functies in Dynamics 365 for Talent (9 juli 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Nieuwe of gewijzigde functies in Dynamics 365 Talent (9 juli 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/09/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e5bb02a7128cb920a79a5f04ac910be205aeed41
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856372"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023948"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-9-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 for Talent (9 juli 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 Talent (9 juli 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
@@ -48,9 +48,9 @@ Deze versie bevat kleine correcties voor Dynamics 365 Talent: Onboard.
 
 Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.2374.
 
-### <a name="platform-update-28"></a>Platformupdate 28
+### <a name="platform-update-28-for-finance-and-operations"></a>Platformupdate 28 voor Finance and Operations
 
-Zie voor meer details over platformupdate 28 [Voorbeeldfuncties in Dynamics 365 for Finance and Operations platformupdate 28 (juli 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Zie voor meer details over Platformupdate 28 voor Finance and Operations [Voorbeeldfuncties in Dynamics 365 Finance and Operations-platformupdate 28 (juli 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Entiteitsondersteuning voor aangepaste velden in Common Data Service 
 

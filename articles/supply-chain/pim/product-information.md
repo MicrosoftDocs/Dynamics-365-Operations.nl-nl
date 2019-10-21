@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563523"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249466"
 ---
 # <a name="product-information-overview"></a>Overzicht met productinformatie
 
@@ -57,17 +57,17 @@ Een product wordt voornamelijk gedefinieerd door een productnummer, -naam en -be
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Distributie, export en import van productgegevens
 
-De productdefinitie kan worden gemaakt in Microsoft Dynamics 365 for Finance and Operations. U kunt hem ook importeren vanuit systemen voor productlevenscyclusbeheer (PLM), productgegevensbeheer (PDM) of productgegevensbeheer. Als u meer dan één exemplaar van Finance and Operations gebruikt, wordt één exemplaar meestal gebruikt als de master van de productgegevens voor alle andere exemplaren. Deze benadering wordt ondersteund door een groot aantal gegevensentiteiten, die het exporteren en importeren van productdefinitiegegevens van het ene exemplaar naar het andere ondersteunen.
+De productdefinitie kan worden gemaakt in Supply Chain Management. U kunt hem ook importeren vanuit systemen voor productlevenscyclusbeheer (PLM), productgegevensbeheer (PDM) of productgegevensbeheer. Als u meer dan één exemplaar van Supply Chain Management gebruikt, wordt één exemplaar meestal gebruikt als de master van de productgegevens voor alle andere exemplaren. Deze benadering wordt ondersteund door een groot aantal gegevensentiteiten, die het exporteren en importeren van productdefinitiegegevens van het ene exemplaar naar het andere ondersteunen.
 
-Ter ondersteuning van de verdeling van productgegevens naar veel exemplaren, kunt u in Finance and Operations de Common Data Service gebruiken. De productdefinities kunnen worden geëxporteerd vanuit een exemplaar van Finance and Operations naar de Common Data Service. De productdefinities kunnen vervolgens worden gebruikt om andere zakelijke toepassingen in te richten met productgegevens, zoals Microsoft Dynamics 365 for Sales.
+Ter ondersteuning van de verdeling van productgegevens naar veel exemplaren, kunt u in Supply Chain Management de Common Data Service gebruiken. De productdefinities kunnen worden geëxporteerd vanuit een exemplaar van Supply Chain Management naar de Common Data Service. De productdefinities kunnen vervolgens worden gebruikt om andere zakelijke toepassingen in te richten met productgegevens, zoals Dynamics 365 Sales.
 
 Houd er rekening mee dat in dynamische en flexibele organisaties productgegevens elke dag wijzigen. Correcte en actuele productgegevens onderhouden is daarom op zich al een kritisch bedrijfsproces.
 
 ## <a name="product-masters-and-product-variants"></a>Productmodellen en productvarianten
 
-In een flexibele wereld, waarin producten snel moeten worden aangepast aan de wensen van klanten, geven productdefinities een reeks producten op in plaats van afzonderlijke producten. In Microsoft Dynamics 365 for Finance and Operations worden die algemene producten worden *productmodellen* genoemd. Productmodellen bevatten de definitie en de regels die aangeven hoe afzonderlijke producten worden beschreven en zich gedragen in bedrijfsprocessen. Op basis van deze definities kunnen verschillende producten worden gegenereerd. Deze verschillende producten worden ook *productvarianten* genoemd.
+In een flexibele wereld, waarin producten snel moeten worden aangepast aan de wensen van klanten, geven productdefinities een reeks producten op in plaats van afzonderlijke producten. In Supply Chain Management worden die algemene producten *productmodellen* genoemd. Productmodellen bevatten de definitie en de regels die aangeven hoe afzonderlijke producten worden beschreven en zich gedragen in bedrijfsprocessen. Op basis van deze definities kunnen verschillende producten worden gegenereerd. Deze verschillende producten worden ook *productvarianten* genoemd.
 
-In Finance and Operations is een productmodel gekoppeld aan een productdimensiegroep en een configuratietechnologie om de bedrijfsregels op te geven. De productdimensies (Kleur, Grootte, Stijl en Configuratie) zijn een specifieke reeks kenmerken die in de applicatie kunnen worden gebruikt om specifieke gedrag van de gerelateerde producten te definiëren en bij te houden. Met deze dimensies kunnen gebruikers ook zoeken naar de producten en deze identificeren.
+Een productmodel is gekoppeld aan een productdimensiegroep en een configuratietechnologie om de bedrijfsregels op te geven. De productdimensies (Kleur, Grootte, Stijl en Configuratie) zijn een specifieke reeks kenmerken die in de applicatie kunnen worden gebruikt om specifieke gedrag van de gerelateerde producten te definiëren en bij te houden. Met deze dimensies kunnen gebruikers ook zoeken naar de producten en deze identificeren.
 
 ## <a name="configuration-technologies"></a>Configuratietechnologieën
 
@@ -77,7 +77,7 @@ U kunt kiezen uit drie configuratietechnologieën:
 - De op dimensies gebaseerde configuratie wordt meestal gebruikt in productiescenario's en stelt u in staat om de configuratiedimensie te gebruiken in de definitie van de stuklijsten. Nadat een specifieke configuratie is geselecteerd, gebruikt het systeem de subset van stuklijstregels die geldig zijn voor de desbetreffende configuratie voor planning en productie. Dit concept wordt ook wel *algemene stuklijst* genoemd, omdat één gedeelde stuklijst wordt gebruikt voor alle configuraties van een product.
 - De op beperkingen gebaseerde configuratie gebruikt een productconfiguratiemodel om alle mogelijke kenmerken en onderdelen te beschrijven, die nodig zijn om alle mogelijke varianten van een product in één model te beschrijven. De beperkingen van combinaties van kenmerken kunnen via reguliere expressies of beperkingen op basis van een tabel worden beschreven. Configuratiemodellen en configurators worden in productinformatiebeheer steeds belangrijker en worden toegepast in alle bedrijfstakken.
 
-Wanneer u de implementatie van Finance and Operations plant, is het belangrijk dat u de juiste configuratietechnologie voor een bedrijfsproces kiest. Een product kan niet na invoering van het ene model worden geconverteerd naar een andere.
+Wanneer u de implementatie van Supply Chain Management plant, is het belangrijk dat u de juiste configuratietechnologie voor een bedrijfsproces kiest. Een product kan niet na invoering van het ene model worden geconverteerd naar een andere.
 
 ## <a name="product-variant-model-definition-workspace"></a>Het werkgebied Definitie van productvariantmodel
 

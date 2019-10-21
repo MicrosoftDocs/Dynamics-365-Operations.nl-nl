@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent (14 maart 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent (14 maart 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/14/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5c3beef9ef4e73eaf76f861735bb154fa630703f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742488"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023902"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (14 maart 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (14 maart 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -46,8 +46,8 @@ Wijzigingen die zijn aangebracht in deze versie, maken prestatiebeheerscenario's
 ### <a name="mass-assign-checklists-to-workers"></a>Massaal controlelijsten aan werknemers toewijzen
 Met deze wijziging kunt u nu meerdere werknemers selecteren en een of meer controlelijsten massaal toewijzen aan deze werknemers. 
 
-### <a name="platform-update-24"></a>Platformupdate 24
-Zie voor aanvullende informatie over Platform update 24 [Wat is nieuw of gewijzigd in Finance and Operations Platform update 24 (maart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Belangrijke wijzigingen in de platform 24 omvatten: 
+### <a name="platform-update-24-for-finance-and-operations"></a>Platformupdate 24 voor Finance and Operations
+Zie voor aanvullende informatie over Platform update 24 voor Finance and Operations [Wat is nieuw of gewijzigd in Finance and Operations Platform update 24 (maart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Belangrijke wijzigingen in de platform 24 omvatten: 
 
 - Waarschuwingen zijn ingeschakeld in Talent.
 - De bijgewerkte navigatiebalk wordt nu uitgelijnd met de Office-koptekst.
@@ -67,7 +67,7 @@ Common Data Service-entiteiten worden nu correct gesynchroniseerd wanneer ze wor
 In veel organisaties kunnen managers voor compensaties en vergoedingen alleen toegang krijgen tot bepaalde compensatierecords. Dit kan voor leidinggevenden of regionale werknemers zijn. Met deze wijziging kan HR de compensatieplannen beheren en onderhouden voor verschillende werknemersgroepen in de organisatie. U kunt aan vaste en variabele plannen beveiligingsrollen toewijzen waarmee de toegang wordt bepaald tot de plannen en de werknemersgegevens die zijn gerelateerd aan de plannen, zoals salaris- of bonusrecords. Alleen de rollen met de verleende toegang kunnen compensatie voor deze werknemers verwerken.
 
 ###  <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
-Met platformupdate 24 kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer deze door een gebeurtenis worden geactiveerd.
+Met Platformupdate 24 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Controle of dubbele werknemers: interfacewijzigingen
 Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invoert en met een status wordt weergegeven hoeveel er zijn gevonden. U kunt de opgegeven koppeling selecteren om een nieuwe pagina te openen om te beoordelen of de gedetecteerde overeenkomst moet worden gebruikt. Het formulier met dubbele records wordt niet automatisch geopend om te voorkomen dat gegevensinvoer wordt onderbroken.

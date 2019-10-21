@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553433"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249535"
 ---
 # <a name="inventory-journals"></a>Voorraadjournalen
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553433"
 
 In dit onderwerp wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken.
 
-De voorraadjournalen in Microsoft Dynamics 365 for Finance and Operations worden gebruikt om fysieke voorraadtransacties van diverse typen te boeken, zoals het boeken van uitgiften en ontvangsten, voorraadmutaties, het maken van stuklijsten (BOM's), en de afstemming van fysieke voorraad. Al deze voorraadjournalen worden gebruikt op een vergelijkbare manier, maar ze worden onderscheiden in verschillende typen.
+De voorraadjournalen in Supply Chain Management worden gebruikt om fysieke voorraadtransacties van diverse typen te boeken, zoals het boeken van uitgiften en ontvangsten, voorraadmutaties, het maken van stuklijsten (BOMs), en de afstemming van fysieke voorraad. Al deze voorraadjournalen worden gebruikt op een vergelijkbare manier, maar ze worden onderscheiden in verschillende typen.
 
 ## <a name="types-of-inventory-journals"></a>Typen voorraadjournalen
 De volgende voorraadjournaaltypen zijn beschikbaar:
@@ -68,7 +68,7 @@ Wanneer u stuklijst als voltooid rapporteert, kunt u een BOM-journaal maken. Met
 
 ### <a name="item-arrival"></a>Artikelontvangst
 
-U kunt het artikelontvangstjournaal gebruiken om de ontvangst van artikelen (bijvoorbeeld van inkooporders) te registreren. Een artikelontvangstjournaal kan worden gemaakt als onderdeel van het ontvangstbeheer op de pagina **Ontvangstoverzicht**, of u kunt handmatig een journaalpost maken op de pagina **Artikelontvangst**. Als u de artikelontvangstjournaalnaam inschakelt voor controle van orderverzamellocaties, wordt in Finance and Operations een locatie voor de ontvangen artikelen gezocht. Als er ruimte is, worden de locatiebestemmingen voor binnenkomende artikelen gegenereerd.
+U kunt het artikelontvangstjournaal gebruiken om de ontvangst van artikelen (bijvoorbeeld van inkooporders) te registreren. Een artikelontvangstjournaal kan worden gemaakt als onderdeel van het ontvangstbeheer op de pagina **Ontvangstoverzicht**, of u kunt handmatig een journaalpost maken op de pagina **Artikelontvangst**. Als u de artikelontvangstjournaalnaam inschakelt voor controle van orderverzamellocaties, wordt in Supply Chain Management een locatie voor de ontvangen artikelen gezocht. Als er ruimte is, worden de locatiebestemmingen voor binnenkomende artikelen gegenereerd.
 
 ### <a name="production-input"></a>Productie-invoer
 
@@ -103,7 +103,7 @@ Gegevensentiteiten ondersteunen de volgende typen integratiescenario's:
 Zie [Gegevensentiteiten](../../dev-itpro/data-entities/data-entities.md) voor meer informatie.
 
 > [!NOTE]
-> Niet alle voorraadjournalen ondersteunen OData, dus u kunt de Excel-gegevensconnector niet gebruiken om gegevens te publiceren, bij te werken en terug te importeren in Dynamics 365 for Finance and Operations. 
+> Niet alle voorraadjournalen ondersteunen OData, dus u kunt de Excel-gegevensconnector niet gebruiken om gegevens te publiceren, bij te werken en terug te importeren in Supply Chain Management. 
 
 Een ander verschil tussen de journaalgegevensentiteiten is de mogelijkheid om samengestelde entiteiten te gebruiken met kop- en regelgegevens. Op dit moment kunt u de samengestelde entiteiten gebruiken voor:
 -   Voorraadcorrectiejournaal

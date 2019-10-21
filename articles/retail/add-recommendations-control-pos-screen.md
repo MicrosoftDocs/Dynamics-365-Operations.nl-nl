@@ -1,9 +1,9 @@
 ---
 title: Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten
 description: In dit onderwerp wordt beschreven hoe u een besturingselement voor aanbevelingen kunt toevoegen aan het transactiescherm op een POS-apparaat (Point of Sale) met behulp van de schermindelingsontwerper in Microsoft Dynamics 365 for Retail.
-author: ashishmsft
+author: bebeale
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 10/01/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,23 +19,22 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606844"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278124"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten
 
 [!include [banner](includes/banner.md)]
 
-> [!NOTE]
-> We verwijderen de huidige versie van de productaanbevelingsservice aangezien we deze opnieuw willen ontwerpen met een beter algoritme en nieuwe mogelijkheden voor detailhandelaren. Zie voor meer informatie [Verwijderde of verouderde functies](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).
 
-In dit onderwerp wordt beschreven hoe u een besturingselement voor aanbevelingen kunt toevoegen aan het transactiescherm op een POS-apparaat (Point of Sale) met behulp van de schermindelingsontwerper in Microsoft Dynamics 365 for Retail.
+In dit onderwerp wordt beschreven hoe u een besturingselement voor aanbevelingen kunt toevoegen aan het transactiescherm op een POS-apparaat (Point of Sale) met behulp van de schermindelingsontwerper in Microsoft Dynamics 365 Retail. Meer informatie over productaanbevelingen vindt u in de [documenten met productaanbevelingen voor POS.](product.md)
 
-Wanneer u Microsoft Dynamics 365 for Retail gebruikt, kunt u productaanbevelingen weergeven op uw POS-apparaat. *Aanbevelingen* zijn items waarin uw klanten mogelijk geïnteresseerd zijn op basis van hun inkoophistorie, items in hun verlanglijst en items die andere klanten online en in fysieke winkels hebben gekocht. Als u productaanbevelingen wilt weergeven, moet u een besturingselement toevoegen aan het transactiescherm met de schermindelingsontwerper.
+
+Wanneer u Microsoft Dynamics 365 Retail gebruikt, kunt u productaanbevelingen weergeven op uw POS-apparaat. Als u productaanbevelingen wilt weergeven, moet u een besturingselement toevoegen aan het transactiescherm met de schermindelingsontwerper. 
 
 ## <a name="open-layout-designer"></a>Indelingsontwerper openen
 
@@ -45,6 +44,7 @@ Wanneer u Microsoft Dynamics 365 for Retail gebruikt, kunt u productaanbevelinge
 4. Klik op **Ontwerper van indeling**.
 5. Volg de aanwijzingen voor het starten van de indelingsontwerper. Wanneer naar referenties wordt gevraagd, voert u de referenties in die zijn gebruikt bij het starten van de indelingsontwerper op de pagina **Schermindelingen**.
 6. Wanneer u zich aanmeldt, wordt er een pagina weergegeven die vergelijkbaar is met de onderstaande pagina. De indeling zal afwijken, afhankelijk van de aanpassingen die voor uw winkel zijn gemaakt.
+
 
     [![Ontwerper van indeling](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
@@ -57,7 +57,9 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 
 ### <a name="make-recommendations-always-visible"></a>Aanbevelingen altijd zichtbaar maken
 
+
 1. Verklein de hoogte van het detailgebied van de transactieregels zodat het even hoog is als het deelvenster van de klant aan de linkerkant.
+
 
     [![Hoogte van het detailgebied van de transactieregels verlaagd](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
@@ -65,15 +67,18 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 
     [![Het besturings Aanbevelingen is toegevoegd aan de indeling](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
+
 3. Klik op **OK** om de indelingsontwerper op te slaan en af te sluiten.
 4. Klik in Dynamics 365 for Retail op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanningen**.
-5. Selecteer  **1090, kassa´s** in de lijst.
+5. Selecteer **1090, kassa´s** in de lijst.
 6. Klik op **Nu uitvoeren**.
+
 
 ### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Het tabblad Aanbevelingen toevoegen aan het knoppenraster aan de rechterkant van het scherm
 
 1. Klik met de rechtermuisknop op de lege ruimte onder het laatste tabblad van het knoppenraster dat zich aan de rechterkant van de pagina bevindt.
-2. Klik op **Aanpassen**.
+
+2. Klik op **Aanpassen**.
 
     [![Het dialoogvenster Aanpassing - Tabblad](./media/pic-5.png)](./media/pic-5.png)
 
@@ -85,12 +90,14 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 
 6. Typ in het veld **Label** een naam voor het tabblad Aanbevelingen. Typ bijvoorbeeld Aanbevolen producten.
 7. Selecteer in het veld **Afbeelding** de afbeelding die op het tabblad moet worden weergegeven.
-8. Klik op **OK**. Het nieuwe tabblad wordt weergegeven in het knoppenraster.
+8. Klik op **OK**. Het nieuwe tabblad wordt weergegeven in het knoppenraster.
 9. Klik op **OK** om de indelingsontwerper op te slaan en af te sluiten.
 10. Klik in Dynamics 365 for Retail op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanningen**.
-11. Selecteer **1090, kassa's** in de lijst.
+11. Selecteer **1090, kassa´s** in de lijst.
 12. Klik op **Nu uitvoeren**.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van gepersonaliseerde productaanbevelingen](personalized-product-recommendations.md)
+[productaanbevelingen op POS](product.md)
+
+[overzicht van productaanbevelingen](../commerce/product-recommendations.md)

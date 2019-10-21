@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35ec47a13d9119c755702e019d09c76e1281b4a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549308"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250200"
 ---
 # <a name="activity-based-subcontracting"></a>Werkuitbesteding op basis van een activiteit
 
@@ -32,7 +32,7 @@ ms.locfileid: "1549308"
 
 In dit onderwerp wordt tot in detail beschreven hoe u uitbestede activiteiten in een productiestroom voor lean manufacturing kunt gebruiken.
 
-In Microsoft Dynamics 365 for Finance and Operations zijn er twee manieren voor uitbesteding: productieorders en lean manufacturing. In de lean manufacturing-methode worden de uitbestedingswerkzaamheden gemodelleerd als een service die is gerelateerd aan een activiteit van een productiestroom. Een speciaal soort kostengroeptype met de naam **Rechtstreekse uitbesteding** is geïntroduceerd, en de uitbestedingsservices zijn niet langer onderdeel van een stuklijst. De kostprijsboekhouding van uitbesteed werk is volledig geïntegreerd in de kostprijsberekeningsoplossing voor lean manufacturing.
+In Microsoft Dynamics 365 Supply Chain Management zijn er twee manieren voor uitbesteding: productieorders en lean manufacturing. In de lean manufacturing-methode worden de uitbestedingswerkzaamheden gemodelleerd als een service die is gerelateerd aan een activiteit van een productiestroom. Een speciaal soort kostengroeptype met de naam **Rechtstreekse uitbesteding** is geïntroduceerd, en de uitbestedingsservices zijn niet langer onderdeel van een stuklijst. De kostprijsboekhouding van uitbesteed werk is volledig geïntegreerd in de kostprijsberekeningsoplossing voor lean manufacturing.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Productiestromen die betrekking hebben op toeleveranciers
 Het basisprincipe van een productiestroom verandert niet wanneer activiteiten worden uitbesteed. Materiaal wordt nog steeds verplaatst tussen vestigingen, met procesactiviteiten wordt materiaal omgezet in producten en met overboekingsactiviteiten worden producten of materiaal van de ene locatie naar de andere verplaatst. U kunt locaties en werkcellen modelleren als door een leverancier beheerd door de leverancierrekening aan een magazijn of aan een resource van een resourcegroep toe te wijzen.  
@@ -102,7 +102,7 @@ Transport wordt vaak gezien als niet-productief en zonder toegevoegde waarde. Al
 
 Met uitbesteding op basis van een activiteit in lean manufacturing kunt u vervoerders en transportleveranciers integreren die materiaal en producten tussen de locaties van een productiestroom verplaatsen. U kunt een vervoerder of leverancier toewijzen door een overboekingsactiviteit te modelleren. De overboekingsactiviteiten/-taak zijn gebaseerd op een service- en inkoopovereenkomst en u kunt inkooporders en ontvangstadviezen maken op basis van de werkelijke overboekingstaken. Deze functionaliteit is hetzelfde als de functionaliteit voor uitbestede procesactiviteiten.  
 
-Daarom wordt Finance and Operations nu stuklijstberekening ondersteund waarin transportservices, het maken van gerelateerde inkooporders, geïntegreerde ontvangstregistratie en de integratie van transportservicekosten zijn opgenomen in de kostprijsberekening van de productiestroom.
+In Supply Chain Management wordt nu stuklijstberekening ondersteund waarin transportservices, het maken van gerelateerde inkooporders, geïntegreerde ontvangstregistratie en de integratie van transportservicekosten zijn opgenomen in de kostprijsberekening van de productiestroom.
 
 
 

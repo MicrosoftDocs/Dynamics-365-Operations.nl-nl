@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c9392263e8c113c541b64e8e79853520a13d11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517666"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026251"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Vragenlijsten plannen en distribueren
 
@@ -83,7 +83,7 @@ U kunt planningstypen voor een vragenlijstplanning opgeven op de pagina **Vragen
 
 U kunt verwijzingstypen gebruiken als hulpmiddel bij het invoeren van criteria die u gebruikt bij de selectie van respondenten wanneer u een vragenlijst plant. 
 
-Gebruik de pagina **Verwijzingstypen** om referentietypen voor een vragenlijst in te stellen. Elk verwijzingstype komt overeen met een tabel in Microsoft Dynamics 365 for Finance and Operations. Wanneer u de vragenlijstplanning maakt, kunt u afzonderlijke records in de tabel of een bereik van records opgeven waar de vragenlijst aan wordt gekoppeld. 
+Gebruik de pagina **Verwijzingstypen** om referentietypen voor een vragenlijst in te stellen. Elk verwijzingstype komt overeen met een tabel in Microsoft Dynamics 365 Finance. Wanneer u de vragenlijstplanning maakt, kunt u afzonderlijke records in de tabel of een bereik van records opgeven waar de vragenlijst aan wordt gekoppeld. 
 
 Als u bijvoorbeeld de tabel Cursussen selecteert, kunt u bepalen voor welke specifieke cursus de vragenlijst is. Wanneer u een verwijzingstype instelt voor de tabel Cursussen, zijn sommige velden en knoppen op de pagina **Cursussen** niet meer beschikbaar.
 

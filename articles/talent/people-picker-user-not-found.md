@@ -1,6 +1,6 @@
 ---
 title: Gebruiker niet gevonden in personenkiezer in Attract of Onboard
-description: In dit onderwerp wordt uitgelegd wat u moet doen wanneer gebruikers in de bedrijfstenant niet worden weergegeven in de personenkiezer in de Dynamics 365 for Talent Attract- of Onboard-toepassingen.
+description: In dit onderwerp wordt uitgelegd wat u moet doen wanneer gebruikers in de bedrijfstenant niet worden weergegeven in de personenkiezer in Dynamics 365 Talent - Attract of Onboard.
 author: andreabichsel
 manager: AnnBe
 ms.date: 01/22/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2a3c83fcc3f48aa235ffb2db2dc492b34a306c4c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742744"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024182"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Azure Active Directory-gebruikers niet gevonden in personenkiezer
 
@@ -30,11 +30,11 @@ ms.locfileid: "1742744"
 
 ## <a name="issue"></a>Uitgifte
 
-Bepaalde geldige gebruikers in Microsoft Azure Active Directory (Azure AD) voor de tenant worden niet weergegeven bij het zoeken naar de naam in de personenkiezer in de Dynamics 365 for Talent Attract- of Onboard-toepassingen.
+Bepaalde geldige gebruikers in Microsoft Azure Active Directory (Azure AD) voor de tenant worden niet weergegeven bij het zoeken naar de naam in de personenkiezer in Dynamics 365 Talent: Attract of Dynamics 365 Talent: Onboard.
 
 ## <a name="cause"></a>Oorzaak
 
-Bepaalde gebruikerstypen worden momenteel niet ondersteund in de Attract- en Onboard-toepassingen. Controleer of de gebruiker niet een Azure AD Business-to-Business (B2B)-gastgebruiker is. Gegevens over het "Gebruikerstype" vindt u in het Azure Active Directory-blad van de Azure-portal.
+Bepaalde gebruikerstypen worden momenteel niet ondersteund in Attract en Onboard. Controleer of de gebruiker niet een Azure AD Business-to-Business (B2B)-gastgebruiker is. Gegevens over het "Gebruikerstype" vindt u in het Azure Active Directory-blad van de Azure-portal.
 
 Zie voor meer informatie over Azure B2B [Wat is gastgebruikerstoegang in Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 

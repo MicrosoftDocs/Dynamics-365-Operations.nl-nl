@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783181"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250893"
 ---
 # <a name="create-an-asset"></a>Een activum maken
 
@@ -63,12 +63,12 @@ De velden **Serviceniveau** en **Kritieke eigenschap** hebben betrekking op werk
 
 ## <a name="asset"></a>Activum
 
-U kunt een **resource** voor het activum selecteren. De resourceselectie bepaalt welke kalender wordt gebruikt voor de planning van de werkorder. Resourceselectie wordt vaak gebruikt voor vaste activa. In Dynamics 365 for Finance and Operations worden resources en resourcegroepen ingesteld in **Organisatiebeheer** > **Resources** > **Resourcegroepen** of **Resources**.
+U kunt een **resource** voor het activum selecteren. De resourceselectie bepaalt welke kalender wordt gebruikt voor de planning van de werkorder. Resourceselectie wordt vaak gebruikt voor vaste activa. Resources en resourcegroepen worden ingesteld in **Organisatiebeheer** > **Resources** > **Resourcegroepen** of **Resources**.
 
 In het veld **Nummer van vaste activa** kunt u een vast activum selecteren dat aan het activum moet worden gekoppeld. Dit is relevant als uw activum is gerelateerd aan een investeringsproject.
 
 - Als het activum is gerelateerd aan een vast activum, kunt u een werkordertype maken dat moet worden gebruikt voor werkorders die betrekking hebben op een investeringsproject. 
-- Informatie over vaste activa voor een activum is gerelateerd aan de module **Vaste activa** in Dynamics 365 for Finance and Operations. Dit betekent dat u in **Vaste activa** > **Vaste activa** > **Vasta activa** een overzicht kunt krijgen van de projecten voor Activabeheer die kunnen worden gerelateerd aan een vast activum door het activum in de lijst te selecteren en de inhoud weer te geven in het deelvenster **Verwante informatie** > sectie **Gekoppelde projecten**.
+- Informatie over vaste activa voor een activum is gerelateerd aan de module **Vaste activa** in Dynamics 365 Supply Chain Management. Dit betekent dat u in **Vaste activa** > **Vaste activa** > **Vasta activa** een overzicht kunt krijgen van de projecten voor Activabeheer die kunnen worden gerelateerd aan een vast activum door het activum in de lijst te selecteren en de inhoud weer te geven in het deelvenster **Verwante informatie** > sectie **Gekoppelde projecten**.
 
 
 ## <a name="details"></a>Details

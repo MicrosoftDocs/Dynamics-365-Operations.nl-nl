@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595606"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249378"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Externe catalogus instellen voor PunchOut eProcurement
 
@@ -37,12 +37,12 @@ Om de communicatie in te stellen, moet uw leverancier gegevens leveren die u moe
 
 ## <a name="setting-up-an-external-catalog"></a>Een externe catalogus instellen
 
-De externe catalogus moet ervoor zorgen dat een werknemer die een opdracht tot inkoop invoert, wordt omgeleid naar een externe site om producten te selecteren. De producten die de werknemer selecteert uit de externe catalogus worden geretourneerd naar Dynamics 365 for Finance and Operations met actuele prijsinformatie. Van daaruit kunnen ze worden toegevoegd aan de opdracht tot inkoop. Het is niet de bedoeling om werknemers in staat te stellen een order te plaatsen op de externe site. Wanneer u de externe catalogus instelt, moet u zorgen dat het doel van de locatie die toegankelijk is voor de externe catalogus is om offerte-informatie te verzamelen en niet om een echte bestelling te plaatsen.
+De externe catalogus moet ervoor zorgen dat een werknemer die een opdracht tot inkoop invoert, wordt omgeleid naar een externe site om producten te selecteren. De producten die de werknemer selecteert uit de externe catalogus worden geretourneerd met actuele prijsinformatie. Van daaruit kunnen ze worden toegevoegd aan de opdracht tot inkoop. Het is niet de bedoeling om werknemers in staat te stellen een order te plaatsen op de externe site. Wanneer u de externe catalogus instelt, moet u zorgen dat het doel van de locatie die toegankelijk is voor de externe catalogus is om offerte-informatie te verzamelen en niet om een echte bestelling te plaatsen.
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Voer de volgende taken uit om een externe leverancierscatalogus in te stellen:
 
 1. Een hiërarchie van aanschaffingscategorieën instellen. Zie voor meer informatie [Beleid instellen voor categoriehiërarchieën voor aanschaffing](tasks/set-up-policies-procurement-category-hierarchies.md).
-2. Registreer de leverancier in Finance and Operations. Voordat u configuraties kunt instellen om toegang te krijgen tot de externe leverancierscatalogus, moet u de leverancier en de contactpersoon van de leverancier eerst instellen in Microsoft Dynamics 365. De leverancier van de externe catalogus moet ook aan de geselecteerde aanschaffingscategorie worden toegevoegd. Zie voor meer informatie over het registreren van leveranciers in Microsoft Dynamics 365 het onderwerp [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md). Zie voor uitleg over het toewijzen van leveranciers aan een inkoopcategorie het onderwerp [Leveranciers goedkeuren voor specifieke aanschaffingscategorieën](tasks/approve-vendors-specific-procurement-categories.md).
+2. Registreer de leverancier in Supply Chain Management. Voordat u configuraties kunt instellen om toegang te krijgen tot de externe leverancierscatalogus, moet u de leverancier en de contactpersoon van de leverancier eerst instellen in Microsoft Dynamics 365. De leverancier van de externe catalogus moet ook aan de geselecteerde aanschaffingscategorie worden toegevoegd. Zie voor meer informatie over het registreren van leveranciers het onderwerp [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md). Zie voor uitleg over het toewijzen van leveranciers aan een inkoopcategorie het onderwerp [Leveranciers goedkeuren voor specifieke aanschaffingscategorieën](tasks/approve-vendors-specific-procurement-categories.md).
 3. Let erop dat de maateenheden en de valuta waarmee de leverancier werkt, zijn ingesteld. Zie voor informatie over het maken van een maateenheid [Maateenheden beheren](../pim/tasks/manage-unit-measure.md).
 4. Configureer de externe leverancierscatalogus op basis van de vereisten voor de externe catalogussite van uw leverancier. Zie [De externe leverancierscatalogus configureren](#configure-the-external-vendor-catalog) voor meer informatie over deze taak.
 5. Test de configuraties van de externe catalogus van de leverancier om te verifiëren dat de instellingen geldig zijn en dat u toegang kunt krijgen tot de externe leverancierscatalogus. Gebruik de actie **Instellingen valideren** om het bericht voor instellen van de aanvraag te valideren, dat u hebt gedefinieerd. Dit bericht moet ervoor zorgen dat de externe catalogussite van de leverancier wordt geopend in een browservenster. Zolang de validatie duurt, kunt u geen artikelen en services bij de leverancier bestellen. Om artikelen en diensten te bestellen, moet u de catalogus van de leverancier benaderen via een opdracht tot inkoop.
@@ -90,9 +90,9 @@ Uw leverancier kan een vereiste hanteren voor het ontvangen van een extrinsiek e
 Zie voor meer informatie over het cXML-protocol de [cXML.org-website](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Terugpostbericht
-Het terugpostbericht is het bericht dat wordt ontvangen van de leverancier wanneer de gebruiker bij de externe site uitcheckt en terugkeert naar Finance and Operations. Terugpostberichten kunnen worden niet geconfigureerd. De berichten zijn gebaseerd op de definitie van het cXML-protocol. Hier is de informatie die deel kan uitmaken van het terugpostbericht dat wordt ontvangen voor een inkoopregel:
+Het terugpostbericht is het bericht dat wordt ontvangen van de leverancier wanneer de gebruiker bij de externe site uitcheckt en terugkeert naar Supply Chain Management. Terugpostberichten kunnen worden niet geconfigureerd. De berichten zijn gebaseerd op de definitie van het cXML-protocol. Hier is de informatie die deel kan uitmaken van het terugpostbericht dat is ontvangen voor een inkoopregel.
 
-| Bericht ontvangen van leverancier | Gekopieerd naar de inkoopregel in Finance and Operations|
+| Bericht ontvangen van leverancier | Gekopieerd naar inkoopregel|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Hoeveelheid|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|Extern artikel-id|

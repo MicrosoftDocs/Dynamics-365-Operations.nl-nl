@@ -1,6 +1,6 @@
 ---
 title: Artikelen voor meerdere klantorders en facturen retourneren
-description: In dit onderwerp wordt de functionaliteit voor het inschakelen van retouren via meerdere klantorders en facturen in Microsoft Dynamics 365 for Retail beschreven.
+description: In dit onderwerp wordt de functionaliteit voor het inschakelen van retouren via meerdere klantorders en facturen in Dynamics 365 Retail beschreven.
 author: josaw1
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,19 +18,19 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25a1081e5f903076e23089c41dda7437f8a70124
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565295"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017984"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Artikelen voor meerdere klantorders en facturen retourneren
 
 [!include [banner](includes/banner.md)]
 
 
-In Dynamics 365 for Finance and Operations versie 10.0 kunnen retouren voor meerdere orders en facturen worden gemaakt terwijl in eerdere versies dan 10.0 retouren slechts op basis van één factuur tegelijk konden worden verwerkt. 
+Er kunnen retouren worden gemaakt voor meerdere orders en facturen. 
 
 ## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a>Retail configureren om retouren voor meerdere klantorders en facturen te ondersteunen
 

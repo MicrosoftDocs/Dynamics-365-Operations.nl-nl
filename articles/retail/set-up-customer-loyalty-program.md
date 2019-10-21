@@ -1,6 +1,6 @@
 ---
 title: Loyaliteitsoverzicht
-description: In dit onderwerp worden de loyaliteitsmogelijkheden in Microsoft Dynamics 365 for Retail en de bijbehorende instellingsstappen beschreven om de detailhandelaar te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
+description: In dit onderwerp worden de loyaliteitsmogelijkheden in Dynamics 365 Retail en de bijbehorende instellingsstappen beschreven om de detailhandelaar te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
 author: scott-tucker
 manager: AnnBe
 ms.date: 03/08/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
-ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
+ms.openlocfilehash: 9fbb5d6db16e2e145c4970b5dd6417d9e99f78b2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1863767"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250962"
 ---
 # <a name="loyalty-overview"></a>Overzicht van loyaliteit
 
 [!include [banner](includes/banner.md)]
 
-Loyaliteitsprogramma's kunnen helpen klantloyaliteit te verhogen door klanten te belonen voor hun interactie met het merk van de detailhandelaar. In Microsoft Dynamics 365 for Retail kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een kleinhandelskanaal. In dit onderwerp worden de loyaliteitsmogelijkheden in Microsoft Dynamics 365 for Retail en de bijbehorende instellingsstappen beschreven om de detailhandelaar te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
+Loyaliteitsprogramma's kunnen helpen klantloyaliteit te verhogen door klanten te belonen voor hun interactie met het merk van de detailhandelaar. In Dynamics 365 Retail kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een kleinhandelskanaal. In dit onderwerp worden de loyaliteitsmogelijkheden in Retail en de bijbehorende instellingsstappen beschreven om detailhandelaars te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
 
 U kunt uw loyaliteitsprogramma zo instellen dat het de volgende opties bevat.
 
@@ -42,7 +42,7 @@ U kunt uw loyaliteitsprogramma zo instellen dat het de volgende opties bevat.
 
 ## <a name="setting-up-loyalty-programs"></a>Loyaliteitsprogramma's instellen
 
-U moet verschillende onderdelen instellen om de loyaliteitsfunctie in te schakelen in Dynamics 365 for Retail. Het volgende schema geeft de loyaliteitscomponenten aan en hoe ze met elkaar zijn verbonden.
+U moet verschillende onderdelen instellen om de loyaliteitsfunctie in te schakelen in Retail. Het volgende schema geeft de loyaliteitscomponenten aan en hoe ze met elkaar zijn verbonden.
 
 ![Processtroom voor loyaliteitsinstelling](./media/loyaltyprocess.gif "Loyaliteitsonderdelen en hoe deze aan elkaar zijn gerelateerd")
 
@@ -69,9 +69,9 @@ De volgende tabel beschrijft de processen die moeten worden uitgevoerd om de loy
 
 | Procesnaam                         | Beschrijving | Paginanaam |
 |--------------------------------------|-------------|-----------|
-| 1050 (loyaliteitsinformatie)           | Voer dit proces uit om de loyaliteitsconfiguratiegegevens van Dynamics 365 for Retail naar de detailhandels te verzenden. Het is een goed idee dit proces te plannen om vaak te worden uitgevoerd, zodat de loyaliteitsgegevens naar alle winkels worden verzonden. | Distributieplanning |
+| 1050 (loyaliteitsinformatie)           | Voer dit proces uit om de loyaliteitsconfiguratiegegevens van Retail naar de detailhandels te verzenden. Het is een goed idee dit proces te plannen om vaak te worden uitgevoerd, zodat de loyaliteitsgegevens naar alle winkels worden verzonden. | Distributieplanning |
 | Loyaliteitsschema verwerken              | Voer dit proces uit om loyaliteitsschema's te koppelen aan de detailhandelskanalen waaraan het loyaliteitsschema is toegewezen. Dit proces kan worden gepland om als een batchproces te worden uitgevoerd. U moet dit proces uitvoeren als u de gegevens van de loyaliteitsconfiguratie wijzigt, zoals loyaliteitsschema's, loyaliteitsprogramma's, of de punten van de loyaliteitsbeloning. | Loyaliteitsschema verwerken |
-| Offline loyaliteitstransacties verwerken | Voer dit proces uit om loyaliteitskaarten bij te werken zodat ze transacties bevatten die offline werden verwerkt. Dit proces is alleen van toepassing als het selectievakje **Offline verdienen** is ingeschakeld op de pagina **Gedeelde parameters detailhandel**, zodat de beloningen offline kunnen worden verdiend. | Offline loyaliteitstransacties verwerken |
+| Verdiende loyaliteitspunten boeken in batches | Voer dit proces uit om loyaliteitskaarten bij te werken zodat ze transacties bevatten die offline werden verwerkt. Dit proces is alleen van toepassing als het selectievakje **Verdiende punten in batches boeken** is ingeschakeld op de pagina **Gedeelde parameters detailhandel**, zodat de beloningen offline kunnen worden verdiend. | Verdiende loyaliteitspunten boeken in batches |
 | Niveaus van loyaliteitskaarten bijwerken            | Voer dit proces uit om de verdienende activiteit van de klant te beoordelen volgens de rijregels voor een loyaliteitsprogramma en om de rijstatus van de klant bij te werken. Dit proces is alleen nodig als u de rijregels in loyaliteitsprogramma's wijzigt en u wilt dat de bijgewerkte regels retroactief worden toegepast op loyaliteitskaarten die reeds zijn uitgegeven. Dit proces kan worden uitgevoerd als een batchproces of voor afzonderlijke kaarten. | Niveaus van loyaliteitskaarten bijwerken |
 
 ## <a name="loyalty-enhancements"></a>Verbeteringen in loyaliteit
@@ -89,7 +89,7 @@ Detailhandel bevat nieuwe loyaliteitsfunctionaliteit als onderdeel van de releas
 
     ![Uitgesloten lidmaatschappen](./media/Excluded-affiliations.png "Lidmaatschappen uitsluiten van loyaliteitspunten")
     
-- Detailhandelaren kunnen loyaliteitskaartnummers genereren in de kanalen. Vóór de update van oktober 2018 konden detailhandelaren fysieke loyaliteitskaarten gebruiken of een loyaliteitskaart genereren met unieke klantgegevens, zoals een telefoonnummer. Als u het automatisch genereren van loyaliteitskaarten in de winkels wilt inschakelen, schakelt u **Loyaliteitskaartnummer genereren** in het functionaliteitsprofiel in dat is gekoppeld aan de winkel. Voor online kanalen kunnen detailhandelaren de API IssueLoyaltyCard gebruiken om loyaliteitskaarten aan klanten uit te geven. Detailhandelaren kunnen een loyaliteitskaartnummer verstrekken aan deze API, dat wordt gebruikt voor het genereren van de loyaliteitskaart, of het systeem gebruikt de sequentie van loyaliteitskaartnummers die is ingesteld in Dynamics 365 for Retail. Echter, als de getalreeks niet aanwezig is en de detailhandelaar geen loyaliteitskaartnummer verstrekt bij de aanroep van de API, wordt een foutbericht weergegeven.
+- Detailhandelaren kunnen loyaliteitskaartnummers genereren in de kanalen. Vóór de update van oktober 2018 konden detailhandelaren fysieke loyaliteitskaarten gebruiken of een loyaliteitskaart genereren met unieke klantgegevens, zoals een telefoonnummer. Als u het automatisch genereren van loyaliteitskaarten in de winkels wilt inschakelen, schakelt u **Loyaliteitskaartnummer genereren** in het functionaliteitsprofiel in dat is gekoppeld aan de winkel. Voor online kanalen kunnen detailhandelaren de API IssueLoyaltyCard gebruiken om loyaliteitskaarten aan klanten uit te geven. Detailhandelaren kunnen een loyaliteitskaartnummer verstrekken aan deze API, dat wordt gebruikt voor het genereren van de loyaliteitskaart, of het systeem gebruikt de sequentie van loyaliteitskaartnummers die is ingesteld in Retails. Echter, als de getalreeks niet aanwezig is en de detailhandelaar geen loyaliteitskaartnummer verstrekt bij de aanroep van de API, wordt een foutbericht weergegeven.
 
     ![Loyaliteitskaart genereren](./media/Generate-loyalty-card.png "Automatisch loyaliteitskaartnummer genereren")
 
@@ -137,7 +137,7 @@ Detailhandel bevat nieuwe loyaliteitsfunctionaliteit als onderdeel van de releas
     - Een plaatsgevonden activiteit identificeren die moet worden beloond.
     - De juiste punten toekennen.
 
-    De eerste stap is extern voor Microsoft Dynamics 365 for Retail, zoals tweeting over het merk of het merk leuk vinden op Facebook. Nadat deze activiteit is herkend, kunnen de detailhandelaren de bovengenoemde Retail Server API aanroepen en loyaliteitspunten in real-time toekennen. In dergelijke gevallen is een controlestap niet nodig omdat er een activiteit heeft plaatsgevonden en de bijbehorende punten moeten worden toegekend. Er zijn echter scenario's waarin de detailhandelaar de records wil controleren vóór de toekenning van de punten. De detailhandelaar heeft bijvoorbeeld een workshop in de winkel waarvoor de klanten zich aanmelden bij de website voor e-Commerce of een andere toepassing voor inschrijving bij gebeurtenissen. Alleen de aanwezige klanten echter verdienen loyaliteitspunten. Voor dergelijke scenario's hebben we in versie 10.0 een gegevensentiteit geïntroduceerd met de naam **Regels andere activiteittypen voor loyaliteit detailhandel**. Met deze gegevensentiteit kunnen de detailhandelaren Raamwerk voor gegevensimport/-export (DIXF) of OData-API gebruiken voor het vastleggen van de activiteiten waarvoor klanten met loyaliteitspunten worden beloond. Met de gegevensentiteit worden de activiteiten opgeslagen in een journaal met de naam **Loyaliteitsregels voor andere activiteiten**, die kan worden gebruikt voor controle- en wijzigingsdoeleinden. Nadat de gegevens zijn gecontroleerd, kan de IT-gebruiker de activiteitregels handmatig boeken of een taak uitvoeren met de naam **Ander activiteitstype voor loyaliteitsregels verwerken**. Hiermee worden alle niet-geboekte activiteitregels geboekt en worden de punten toegekend aan de klanten toegekend op basis van de verdienregels. In het bovenstaande geval roept de toepassing voor inschrijving bij gebeurtenissen OData-API aan om de klantgegevens naar Dynamics 365 for Retail te sturen. De IT-gebruiker kan de activiteitregels echter alleen voor die klanten boeken die de workshop hebben bijgewoond en de activiteitregels verwijderen voor de overige klanten. 
+    De eerste stap is extern voor Retail, zoals twitteren over het merk of het merk leuk vinden op Facebook. Nadat deze activiteit is herkend, kunnen de detailhandelaren de bovengenoemde Retail Server API aanroepen en loyaliteitspunten in real-time toekennen. In dergelijke gevallen is een controlestap niet nodig omdat er een activiteit heeft plaatsgevonden en de bijbehorende punten moeten worden toegekend. Er zijn echter scenario's waarin de detailhandelaar de records wil controleren vóór de toekenning van de punten. De detailhandelaar heeft bijvoorbeeld een workshop in de winkel waarvoor de klanten zich aanmelden bij de website voor e-Commerce of een andere toepassing voor inschrijving bij gebeurtenissen. Alleen de aanwezige klanten echter verdienen loyaliteitspunten. Voor dergelijke scenario's hebben we in versie 10.0 een gegevensentiteit geïntroduceerd met de naam **Regels andere activiteittypen voor loyaliteit detailhandel**. Met deze gegevensentiteit kunnen de detailhandelaren Raamwerk voor gegevensimport/-export (DIXF) of OData-API gebruiken voor het vastleggen van de activiteiten waarvoor klanten met loyaliteitspunten worden beloond. Met de gegevensentiteit worden de activiteiten opgeslagen in een journaal met de naam **Loyaliteitsregels voor andere activiteiten**, die kan worden gebruikt voor controle- en wijzigingsdoeleinden. Nadat de gegevens zijn gecontroleerd, kan de IT-gebruiker de activiteitregels handmatig boeken of een taak uitvoeren met de naam **Ander activiteitstype voor loyaliteitsregels verwerken**. Hiermee worden alle niet-geboekte activiteitregels geboekt en worden de punten toegekend aan de klanten toegekend op basis van de verdienregels. In het bovenstaande geval roept de toepassing voor inschrijving bij gebeurtenissen OData-API aan om de klantgegevens naar Dynamics 365 Retail te sturen. De IT-gebruiker kan de activiteitregels echter alleen voor die klanten boeken die de workshop hebben bijgewoond en de activiteitregels verwijderen voor de overige klanten. 
 
     > [!NOTE]
     > Momenteel moeten gebruikers een nummerreeks voor andere activiteitstypen instellen, maar dit is geen vereiste stap in toekomstige releases. Als u een nummerreeks wilt instellen, gaat u naar **Gedeelde parameters detailhandel** \> **Nummerreeksen** en selecteert u een nummerreeks voor **ID overige activiteittypen voor loyaliteit**.

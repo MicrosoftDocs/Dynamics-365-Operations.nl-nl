@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835737"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251616"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Mobiel werkgebied voor verkooporders
 
@@ -31,7 +31,7 @@ ms.locfileid: "1835737"
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Verkooporders**. Via dit werkgebied kunt u overal en altijd op de hoogte blijven van uw verkooporders. 
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de app Microsoft Dynamics 365 for Unified Operations Mobile.
+Dit mobiele werkgebied is bedoeld om samen te worden gebruikt met de mobiele app van Finance and Operations.
 
 ## <a name="overview"></a>Overzicht
 In het mobiele werkgebied **Verkooporders** kunt u gedetailleerde informatie over elke verkooporder weergeven. Deze informatie omvat de status van de order, contactgegevens voor de klant en contactgegevens voor degene die de order aanneemt. Het mobiele werkgebied **Verkooporders** geeft een direct overzicht van verkooporders. U kunt alle verkooporders weergeven, verkooporders per klant weergeven of informatie weergeven over een specifieke verkooporder. 
@@ -83,8 +83,8 @@ In deze weergave ziet u een overzicht van de verkooporders per klant.
 ## <a name="prerequisites"></a>Vereisten
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
-Als Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Verkooporders** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Vereisten als u Supply Chain Management gebruikt 
+Als Sales naar Supply Chain Management is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Verkooporders** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
 Als Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
@@ -120,7 +120,7 @@ Als Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor 
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
-Download en installeer de mobiele app Dynamics 365 for Unified Operations:
+Download en installeer de mobiele app van Finance and Operations:
 
 -   [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

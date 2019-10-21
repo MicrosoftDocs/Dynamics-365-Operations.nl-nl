@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560651"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251518"
 ---
 # <a name="cycle-counting"></a>Cyclustelling
 
@@ -34,7 +34,7 @@ In dit artikel wordt beschreven hoe u cyclustelling kunt gebruiken met de met ma
 Cyclustelling is een magazijnproces dat u kunt gebruiken om voorhanden voorraadartikelen te controleren. Het cyclustellingsproces kan in drie stappen worden beschreven:
 
 1.  **Cyclustellingwerk maken** - Cyclustellingwerk kan automatisch worden gemaakt op basis van drempelparameters voor artikelen of door een cyclustellingsplan te gebruiken. U kunt ook handmatig cyclustellingswerk maken door de artikel- of magazijnparameters te gebruiken op de pagina **Cyclustellingswerk volgens artikel** of de pagina **Cyclustellingswerk volgens locatie**.
-2.  **Cyclustelling verwerken** - Nadat u cyclustellingswerk hebt gemaakt, kunt u het cyclustellingswerk uitvoeren door artikelen in een magazijnlocatie te tellen en het resultaat via een mobiel apparaat in Microsoft Dynamics 365 for Finance and Operations in te voeren. Als alternatief, kunt u artikelen in een magazijnlocatie tellen zonder het cyclustelling werk te maken. Dit proces wordt *spot cyclustelling* genoemd.
+2.  **Cyclustelling verwerken** - Nadat u cyclustellingswerk hebt gemaakt, kunt u het cyclustellingswerk uitvoeren door artikelen in een magazijnlocatie te tellen en het resultaat via een mobiel apparaat in Dynamics 365 Supply Chain Management in te voeren. Als alternatief, kunt u artikelen in een magazijnlocatie tellen zonder het cyclustelling werk te maken. Dit proces wordt *spot cyclustelling* genoemd.
 3.  **Verschillen in de getelde waarde oplossen** - Na een cyclustelling hebben artikelen met verschillen in de getelde waarde de werkstatus **In afwachting van controle** hebben op de pagina **Alle werk**. U kunt deze verschillen oplossen op de pagina **Cyclustellingswerk in afwachting van controle**.
 
 De volgende afbeelding licht het cyclustellingsproces toe. ![Processtroom voor cyclustelling](./media/performcyclecountinginawarehouselocation.jpg)
@@ -113,10 +113,10 @@ U kunt een cyclustellingsplan plannen om onmiddellijk of periodiek cyclustelwerk
 Als u handmatig cyclustellingswerk wilt aanmaken, kunt u de pagina´s **Cyclustellingswerk volgens artikel** of **Cyclustellingswerk volgens locatie** hiervoor gebruiken. U kunt het maximale aantal cyclustellingen opgeven dat tegelijkertijd moet worden gemaakt. Als de magazijnmanager bijvoorbeeld een waarde van **vijf** opgeeft, wordt er cyclustellingswerk aangemaakt voor vijf locaties zelfs als het artikel op 10 locaties aanwezig is. U kunt ook een werkgroep-ID selecteren waaraan u de gemaakte cyclustellingswerk-IDs toewijst. Wanneer een werkgroep-ID wordt verwerkt voor cyclustelling, worden de cyclustellingswerk-ID´s die aan deze werkpool zijn toegewezen verwerkt als een groep.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Een cyclustelling uitvoeren met een mobiel apparaat
-Er zijn verscheidene methoden voor het verwerken van cyclustellingswerk met Finance and Operations op een mobiel apparaat:
+Er zijn verscheidene methoden voor het verwerken van cyclustellingswerk met Supply Chain Management op een mobiel apparaat:
 
 -   **Door gebruiker bestuurd** - De werknemer kan een cyclustellingswerk-ID specificeren die de status **Openstaand** heeft.
--   **Systeem-geleid**: Finance and Operations wijst een cyclustellingswerk-id toe aan de werknemer.
+-   **Systeem-geleid**: Supply Chain Management wijst een cyclustellingswerk-id toe aan de werknemer.
 -   **Groepering van cyclustelling** - De werknemer kan cyclustellingswerk-IDs groeperen die specifiek zijn voor een bepaalde locatie, zone, of een werkpool.
 -   **Plaatscyclustelling** - De werknemer kan artikelen in een magazijnlocatie op elk moment tellen, zonder cyclustelling werk te maken. Om plaatscyclustelling op een locatie uit te voeren, voert de werknemer de locatie-ID in.
 

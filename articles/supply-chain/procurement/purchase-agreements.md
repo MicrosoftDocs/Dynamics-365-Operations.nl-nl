@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570383"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248920"
 ---
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
@@ -78,7 +78,7 @@ Als u een inkoopovereenkomst bevestigt, wordt de huidige versie van de inkoopove
 Wanneer u een inkooporder maakt, kunt u er een inkoopovereenkomst op toepassen. De informatie van de voorwaarden voor de overeenkomst, zoals de betalingsvoorwaarden, leveringsvoorwaarden en het afleveradres, wordt vervolgens gekopieerd naar de koptekst van de inkooporder. Als de inkooporder een of meer orderregels bevat voor producten of categorieën die de inkoopovereenkomst dekt, worden de prijzen en kortingen van de inkoopovereenkomst gebruikt voor deze regels. Het bedrag of het aantal op de orderregel draagt bij tot de uitvoering van de toezegging in de inkoopovereenkomst. Dezelfde inkooporder kan zowel regels bevatten die niet zijn gerelateerd aan een inkoopovereenkomst en regels waarvoor een inkoopovereenkomst bestaat.  
 
 U kunt een inkoopovereenkomst alleen selecteren wanneer u een inkooporder maakt. U kunt geen inkoopovereenkomst selecteren nadat de inkooporder is gemaakt.  
-In sommige situaties waarin verkooporders indirect worden gemaakt, is het mogelijk te bepalen of Finance and Operations automatisch moet zoeken naar relevante inkoopovereenkomsten. U kunt dit bijvoorbeeld doen wanneer u automatisch geplande inkooporders goedkeurt of inkooporders maakt die zijn gebaseerd op verkooporders.
+In sommige situaties waarin verkooporders indirect worden gemaakt, is het mogelijk te bepalen of Supply Chain Management automatisch moet zoeken naar relevante inkoopovereenkomsten. U kunt dit bijvoorbeeld doen wanneer u automatisch geplande inkooporders goedkeurt of inkooporders maakt die zijn gebaseerd op verkooporders.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Inkoopovereenkomsten en intercompany-handel
 Intercompany-handelsrelaties kunnen worden gemaakt tussen leveranciersrekeningen en klantenrekeningen van verschillende rechtspersonen. Wanneer een verkooporder of inkooporder is gemaakt voor een van de partijen, wordt een intercompany-orderketen gemaakt. In de orderketen worden de verkooporder en inkooporder gemaakt in de juiste rechtspersonen.  

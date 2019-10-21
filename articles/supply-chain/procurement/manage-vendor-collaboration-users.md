@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742465"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248952"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gebruikers van leverancierssamenwerking beheren
 
@@ -31,7 +31,7 @@ ms.locfileid: "1742465"
 
 In dit onderwerp wordt beschreven hoe u de inrichting van nieuwe gebruikers van de leverancierssamenwerking kunt aanvragen en hoe u nieuwe contactpersonen van de nieuwe leverancierssamenwerking kunt toevoegen. 
 
-De interface voor leverancierssamenwerking in Microsoft Dynamics 365 for Finance and Operations bevat informatie over inkooporders, facturen en consignatievoorraad voor externe leveranciers. U kunt nieuwe contactpersonen voor leverancierssamenwerking maken en vragen of nieuwe gebruikers worden ingericht als u als externe leverancier met de beveiligingsrol **Leveranciersbeheerder (extern)** of vergelijkbare machtigingen werkt. U kunt deze taken ook uitvoeren als u als inkoopmedewerker werkt. In dit onderwerp verwijst deze rol naar een inkoopmedewerker die in het bedrijf werkt dat het exemplaar van Finance and Operations bezit. Zie [Leverancier met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md) voor meer informatie over het gebruik van leverancierssamenwerking als u een externe leverancier bent.  
+De interface voor leverancierssamenwerking in Dynamics 365 Supply Chain Management bevat informatie over inkooporders, facturen en consignatievoorraad voor externe leveranciers. U kunt nieuwe contactpersonen voor leverancierssamenwerking maken en vragen of nieuwe gebruikers worden ingericht als u als externe leverancier met de beveiligingsrol **Leveranciersbeheerder (extern)** of vergelijkbare machtigingen werkt. U kunt deze taken ook uitvoeren als u als inkoopmedewerker werkt. In dit onderwerp verwijst deze rol naar een inkoopmedewerker die in het bedrijf werkt dat het exemplaar van Supply Chain Management bezit. Zie [Leverancier met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md) voor meer informatie over het gebruik van leverancierssamenwerking als u een externe leverancier bent.  
 
 Zie [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md) voor meer informatie over het gebruik van leverancierssamenwerking als u een inkoopmedewerker bent.
 
@@ -60,12 +60,12 @@ Wanneer een aanvraag wordt ingediend, wordt deze toegevoegd aan de lijst **Gebru
 Voordat u een aanvraag voor de inrichting van een nieuwe gebruiker kunt indienen, moet die persoon zijn ingesteld als contactpersoon voor een of meer leveranciersrekeningen. Een aanvraag voor een nieuwe gebruiker voor leverancierssamenwerking maken:
 
 1. Klik op de pagina **Alle contactpersonen** op **Gebruiker van leverancier inrichten**.
-2. Voer een e-mailadres voor de gebruiker in. Dit adres wordt door de gebruiker gebruikt om zich aan te melden bij Finance and Operations. Als het e-mailadres bij een domein hoort dat als tenant bij Microsoft Azure is geregistreerd, moet het e-mailadres voor een correcte inrichting een bestaand AAD-account (Azure Active Directory) zijn. Als het e-mailadres niet bij een domein hoort dat bij Microsoft Azure is geregistreerd, wordt een AAD-account gemaakt als onderdeel van het inrichtingsproces en ontvangt de nieuwe gebruiker per e-mail een uitnodiging. E-mailadressen van consumenten met domeinen als @hotmail.com, @gmail.com en @comcast.net kunnen niet worden gebruikt om een Finance and Operations-gebruiker te registreren.
+2. Voer een e-mailadres voor de gebruiker in. Dit adres wordt gebruikt door de gebruiker om zich aan te melden bij Supply Chain Management. Als het e-mailadres bij een domein hoort dat als tenant bij Microsoft Azure is geregistreerd, moet het e-mailadres voor een correcte inrichting een bestaand AAD-account (Azure Active Directory) zijn. Als het e-mailadres niet bij een domein hoort dat bij Microsoft Azure is geregistreerd, wordt een AAD-account gemaakt als onderdeel van het inrichtingsproces en ontvangt de nieuwe gebruiker per e-mail een uitnodiging. E-mailadressen van consumenten met domeinen als @hotmail.com, @gmail.com en @comcast.net kunnen niet worden gebruikt om een gebruiker te registreren.
 3. Stel de optie **Toegang tot leverancierssamenwerking toegestaan** in op **Ja** voor alle rechtspersonen waartoe de gebruiker toegang nodig heeft.
 4. Schakel in het gedeelte **Gebruikersrollen toewijzen** het selectievakje **Toewijzen** in voor de beveiligingsrollen die de nieuwe gebruiker moet hebben.
 5. Klik op **Aanbieden**.
 
-Wanneer de leveranciersgebruikersaanvraag wordt ingediend, wordt het veld **Toegang tot leverancierssamenwerking toegestaan** ingesteld op **Ja** voor de geselecteerde leveranciersrekening en wordt er een gebruikersaanvraagworkflow gestart. Als onderdeel van de werkstroom wordt een nieuwe gebruiker gemaakt in Finance and Operations en worden er beveiligingsrollen toegewezen. Daarnaast wordt een Azure B2B-service geactiveerd die interactie met de Azure-portal initieert en een nieuwe of bestaande AAD-account koppelt aan de Finance and Operations-gebruikersaccount. Zie voor meer informatie Wat is [Azure Azure AD B2B-samenwerking?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Wanneer de leveranciersgebruikersaanvraag wordt ingediend, wordt het veld **Toegang tot leverancierssamenwerking toegestaan** ingesteld op **Ja** voor de geselecteerde leveranciersrekening en wordt er een gebruikersaanvraagworkflow gestart. Als onderdeel van de werkstroom wordt een nieuwe gebruiker gemaakt en worden er beveiligingsrollen toegewezen. Daarnaast wordt een Azure B2B-service geactiveerd die interactie met de Azure-portal initieert en een nieuwe of bestaande AAD-account koppelt aan de Supply Chain Management-gebruikersaccount. Zie voor meer informatie Wat is [Azure Azure AD B2B-samenwerking?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Een gebruiker inactief maken
 

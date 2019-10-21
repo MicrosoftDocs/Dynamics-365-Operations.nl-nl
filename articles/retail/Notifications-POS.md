@@ -17,18 +17,19 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 57f4b58a11606a1193a1124a426c837ddfab9533
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577975"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023694"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Meldingen over orders op het verkooppunt (POS) weergeven
 
 [!include [banner](includes/banner.md)]
 
-In de moderne detailhandelomgeving worden er verschillende taken toegewezen aan winkelmedewerkers, zoals het helpen van klanten, het invoeren van transacties, het uitvoeren van voorraadtellingen en het ontvangen van orders in de winkel. De POS-client (Pont of Sale) biedt één toepassing waar de medewerkers alle taken en nog veel meer kunnen uitvoeren. Omdat ze gedurende de dag verschillende taken moeten uitvoeren, moeten medewerkers mogelijk op de hoogte worden gesteld wanneer iets hun aandacht vereist. Het framework voor meldingen in de POS-client stelt detailhandelaren in staat meldingen op basis van rollen te configureren. In Microsoft Dynamics 365 for Retail met toepassingsupdate 5 kunnen deze meldingen kunnen alleen voor POS-bewerkingen worden geconfigureerd.
+In de moderne detailhandelomgeving worden er verschillende taken toegewezen aan winkelmedewerkers, zoals het helpen van klanten, het invoeren van transacties, het uitvoeren van voorraadtellingen en het ontvangen van orders in de winkel. De POS-client (Pont of Sale) biedt één toepassing waar de medewerkers alle taken en nog veel meer kunnen uitvoeren. Omdat ze gedurende de dag verschillende taken moeten uitvoeren, moeten medewerkers mogelijk op de hoogte worden gesteld wanneer iets hun aandacht vereist. Het framework voor meldingen in de POS-client stelt detailhandelaren in staat meldingen op basis van rollen te configureren. In Dynamics 365 for Retail met toepassingsupdate 5 kunnen deze meldingen kunnen alleen voor POS-bewerkingen worden geconfigureerd.
+
 
 Op dit moment kan het systeem meldingen alleen weergeven voor orderafhandelingsbewerkingen. Echter, omdat het framework kan worden verlengd, kunnen ontwikkelaars uiteindelijk een meldingenhandler schrijven voor elke bewerking en de meldingen voor die bewerking weergeven in het POS.
 
@@ -68,7 +69,8 @@ In de volgende afbeelding ziet u de instellingen voor live inhoud in de ontwerpe
 
 ![Instellingen van live inhoud in de ontwerper van het knoppenraster](./media/ButtonGridDesigner.png "Instellingen van live inhoud in de ontwerper van het knoppenraster")
 
-Als u het aantal meldingen op een knop wilt weergeven, moet u ervoor zorgen dat de juiste schermindeling wordt bijgewerkt. Als u wilt bepalen welke schermindeling door het POS wordt gebruikt, selecteert u het pictogram **Instellingen** in de rechterbovenhoek en noteert u de **schermindelings-id** en **indelingsresolutie**. Ga nu met de browser Edge naar de pagina **Schermindeling** in Dynamics 365 for Finance and Operations, zoek de **schermindelings-id** en **indelingsresolutie** die hierboven wordt aangegeven en schakel het selectievakje **Live inhoud inschakelen** in. Ga naar **Detailhandel \> IT detailhandel \> Distributieplanning** en voer de taak 1090 (Kassa's) uit om indelingswijzigingen te synchroniseren.
+Als u het aantal meldingen op een knop wilt weergeven, moet u ervoor zorgen dat de juiste schermindeling wordt bijgewerkt. Als u wilt bepalen welke schermindeling door het POS wordt gebruikt, selecteert u het pictogram **Instellingen** in de rechterbovenhoek en noteert u de **schermindelings-id** en **indelingsresolutie**. Ga nu met de browser Edge naar de pagina **Schermindeling**, zoek de **schermindelings-id** en **indelingsresolutie** die hierboven wordt aangegeven en schakel het selectievakje **Live inhoud inschakelen** in. Ga naar **Detailhandel \> IT detailhandel \> Distributieplanning** en voer de taak 1090 (Kassa's) uit om indelingswijzigingen te synchroniseren.
+
 
 ![De schermindeling zoeken die door POS wordt gebruikt](./media/Choose_screen_layout.png "De schermindeling zoeken ")
 

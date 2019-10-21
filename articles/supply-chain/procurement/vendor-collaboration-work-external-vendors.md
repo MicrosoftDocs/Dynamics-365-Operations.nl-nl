@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546704"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250184"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Leverancierssamenwerking met externe leveranciers
 
 [!include [banner](../includes/banner.md)]
 
-De module **Leverancierssamenwerking** is bedoeld voor leveranciers die geen EDI-integratie (Electronic Data Interchange) met Microsoft Dynamics 365 for Finance and Operations hebben. Hiermee kunnen leveranciers werken met inkooporders (IO's), facturen, consignatievoorraadgegevens en offerteaanvragen, en toegang krijgen tot delen van de modelgegevens van hun leveranciers. In dit onderwerp wordt beschreven hoe u kunt samenwerken met externe leveranciers die de interface voor leverancierssamenwerking gebruiken om met inkooporders, offerteaanvragen en consignatievoorraad te werken. Daarnaast wordt beschreven hoe u een specifieke leverancier in staat stelt om leverancierssamenwerking te gebruiken en hoe u de gegevens definieert die alle leveranciers te zien krijgen wanneer ze reageren op een inkooporder.
+De module **Leverancierssamenwerking** is bedoeld voor leveranciers die geen EDI-integratie (Electronic Data Interchange) met Microsoft Dynamics 365 Supply Chain Management hebben. Hiermee kunnen leveranciers werken met inkooporders (IO's), facturen, consignatievoorraadgegevens en offerteaanvragen, en toegang krijgen tot delen van de modelgegevens van hun leveranciers. In dit onderwerp wordt beschreven hoe u kunt samenwerken met externe leveranciers die de interface voor leverancierssamenwerking gebruiken om met inkooporders, offerteaanvragen en consignatievoorraad te werken. Daarnaast wordt beschreven hoe u een specifieke leverancier in staat stelt om leverancierssamenwerking te gebruiken en hoe u de gegevens definieert die alle leveranciers te zien krijgen wanneer ze reageren op een inkooporder.
 
 Meer informatie over wat externe leveranciers kunnen doen in de interface voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> De informatie in dit onderwerp over leverancierssamenwerking geldt alleen voor de huidige versie van Finance and Operations. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Zie [Samenwerken met leveranciers met behulp van de leveranciersportal](collaborate-vendors-vendor-portal.md) voor informatie over de module **Leveranciersportal**.
+> De informatie in dit onderwerp over leverancierssamenwerking geldt alleen voor de huidige versie van Supply Chain Management. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Zie [Samenwerken met leveranciers met behulp van de leveranciersportal](collaborate-vendors-vendor-portal.md) voor informatie over de module **Leveranciersportal**.
 
 Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
 
@@ -51,7 +51,7 @@ Als u berichten in meerdere talen moet toevoegen, maakt u afzonderlijke berichte
 
 ## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>De opties voor leverancierssamenwerking voor een specifieke leverancier instellen
 
-Een beheerder configureert de algemene instellingen voor leverancierssamenwerking in Finance and Operations, zoals de beveiligingsrollen die beschikbaar zijn voor alle leveranciers waarmee u samenwerkt. Er zijn echter ook instellingen die voor elke leveranciersaccount kunnen verschillen. U moet deze instellingen configureren.
+Een beheerder configureert de algemene instellingen voor leverancierssamenwerking, zoals de beveiligingsrollen die beschikbaar zijn voor alle leveranciers waarmee u samenwerkt. Er zijn echter ook instellingen die voor elke leveranciersaccount kunnen verschillen. U moet deze instellingen configureren.
 
 - Schakel leverancierssamenwerking in.
 - Geef op of de leverancier prijsinformatie te zien moet krijgen.
@@ -71,7 +71,7 @@ Als u prijsgegevens voor IO's via de interface voor leverancierssamenwerking wil
 
 ### <a name="sending-a-po-to-a-vendor"></a>Een inkooporder verzenden naar een leverancier
 
-Inkooporders worden voorbereid in Finance and Operations. Wanneer een inkooporder de status **Goedgekeurd** heeft, kunt u deze naar de leverancier verzenden door **Verzenden voor bevestiging** op de pagina **Inkooporder** te selecteren. De status van de inkooporder wordt in dat geval gewijzigd in **Externe controle.** Nadat de inkooporder is verzonden, kan de leverancier deze zien op de pagina **Inkooporders ter beoordeling** in de interface voor leverancierssamenwerking. De leverancier kan de inkooporder vervolgens accepteren, weigeren of wijzigingen erin voorstellen. De leverancier kan ook opmerkingen toevoegen om informatie zoals wijzigingen in de inkooporder door te geven. Als u de aandacht van de leverancier naar de nieuwe inkooporder wilt trekken, kunt u de inkooporder ook per e-mail verzenden via het afdrukbeheersysteem.
+Inkooporders worden voorbereid in Supply Chain Management. Wanneer een inkooporder de status **Goedgekeurd** heeft, kunt u deze naar de leverancier verzenden door **Verzenden voor bevestiging** op de pagina **Inkooporder** te selecteren. De status van de inkooporder wordt in dat geval gewijzigd in **Externe controle.** Nadat de inkooporder is verzonden, kan de leverancier deze zien op de pagina **Inkooporders ter beoordeling** in de interface voor leverancierssamenwerking. De leverancier kan de inkooporder vervolgens accepteren, weigeren of wijzigingen erin voorstellen. De leverancier kan ook opmerkingen toevoegen om informatie zoals wijzigingen in de inkooporder door te geven. Als u de aandacht van de leverancier naar de nieuwe inkooporder wilt trekken, kunt u de inkooporder ook per e-mail verzenden via het afdrukbeheersysteem.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Bevestiging en acceptatie van een inkooporder door een leverancier
 
@@ -92,13 +92,13 @@ In de onderstaande tabel wordt de typische uitwisseling van informatie weergegev
 </thead>
 <tbody>
 <tr class="even">
-<td>De leverancier <strong>accepteert</strong> de order en Finance and Operations wordt zo geconfigureerd dat door de leverancier geaccepteerde inkooporders automatisch worden bevestigd.</td>
+<td>De leverancier <strong>accepteert</strong> de order en Supply Chain Management wordt zo geconfigureerd dat door de leverancier geaccepteerde inkooporders automatisch worden bevestigd.</td>
 <td>De status van de order verandert in <strong>Bevestigd</strong>. Als de order om een of andere reden niet kan worden bijgewerkt, wordt het antwoord van de leverancier wel geregistreerd als <strong>Geaccepteerd</strong>, maar blijft de inkooporder de status <strong>Externe controle</strong> behouden. 
 
 De inkooporder die naar de leverancier is verzonden en de status <strong>Externe controle</strong> heeft, wordt bijgewerkt met bevestigde leveringsdatums op de regels. Met deze update wordt een nieuwe versie gestart die automatisch de status <strong>Bevestigd</strong> krijgt. Wanneer de inkooporder is bevestigd, wordt deze weergegeven in de samenwerkingsinterface van de leverancier.</td>
 </tr>
 <tr class="odd">
-<td>De leverancier <strong>accepteert</strong> de order, maar Finance and Operations wordt niet zo geconfigureerd dat door de leverancier geaccepteerde inkooporders automatisch worden bevestigd.</td>
+<td>De leverancier <strong>accepteert</strong> de order, maar Supply Chain Management is niet zodanig geconfigureerd dat door de leverancier geaccepteerde inkooporders automatisch worden bevestigd.</td>
 <td>Het leveranciersantwoord wordt geregistreerd als <strong>Geaccepteerd</strong>, maar de inkooporder behoudt de status <strong>Externe controle</strong>.
 
 De inkooporder die naar de leverancier is verzonden en de status <strong>Externe controle</strong> heeft, wordt bijgewerkt met bevestigde leveringsdatums op de regels. Met deze update wordt een nieuwe versie gestart die automatisch de status <strong>Externe controle</strong> krijgt. U kunt de inkooporder vervolgens handmatig bevestigen.</td>
@@ -180,14 +180,14 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 
 | Actie | Status en versie |
 |--------|--------------------|
-| De oorspronkelijke versie van de inkooporder wordt gemaakt in Finance and Operations. | De status is **Goedgekeurd**. |
+| De oorspronkelijke versie van de inkooporder wordt gemaakt in Supply Chain Management. | De status is **Goedgekeurd**. |
 | De IO wordt verzonden naar de leverancier. | Er wordt een versie geregistreerd in de interface voor leverancierssamenwerking en de status wordt gewijzigd in **Externe controle**. |
 | De leverancier verzendt een antwoord **Geaccepteerd met wijzigingen**. | De status is nog steeds **Externe controle**. |
 | U brengt enkele wijzigingen aan die door de leverancier zijn aangevraagd. | De status wordt gewijzigd in **Goedgekeurd**. |
 | U verzendt de nieuwe versie van de IO naar de leverancier. | Er wordt een nieuwe versie geregistreerd in de interface voor leverancierssamenwerking en de status wordt gewijzigd in **Externe controle**. |
 | De leverancier accepteert de nieuwe versie van de inkooporder. | De status is nog steeds **Externe controle**, tenzij de leveranciersaccount zo is geconfigureerd dat IO's bij acceptatie automatisch de status **Bevestigd** krijgen. |
 
-Leveranciers hoeven een inkooporder niet te bevestigen via de interface voor leverancierssamenwerking. Ze kunnen ook een e-mail verzenden of hun acceptatie van een inkooporder via andere kanalen doorgeven. U kunt de order vervolgens handmatig in Finance and Operations bevestigen. In dit geval ontvangt u een waarschuwing dat de order wordt bevestigd, zelfs als er geen antwoord van de leverancier is. De inkooporder wordt vervolgens in de bevestigingshistorie weergegeven als een openstaande bevestigde order die geen antwoorden heeft. Op dat punt heeft de leverancier niet meer de mogelijkheid om de inkooporder te bevestigen of af te wijzen.
+Leveranciers hoeven een inkooporder niet te bevestigen via de interface voor leverancierssamenwerking. Ze kunnen ook een e-mail verzenden of hun acceptatie van een inkooporder via andere kanalen doorgeven. U kunt de order vervolgens handmatig bevestigen. In dit geval ontvangt u een waarschuwing dat de order wordt bevestigd, zelfs als er geen antwoord van de leverancier is. De inkooporder wordt vervolgens in de bevestigingshistorie weergegeven als een openstaande bevestigde order die geen antwoorden heeft. Op dat punt heeft de leverancier niet meer de mogelijkheid om de inkooporder te bevestigen of af te wijzen.
 
 > [!NOTE]
 > De versie van de inkooporder die beschikbaar is voor andere processen in Finance and Operations is altijd de laatste versie, ook als deze versie nog niet is geregistreerd in de interface voor leverancierssamenwerking.
@@ -200,7 +200,7 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 
 | Actie | Status en versie |
 |--------|--------------------|
-| De oorspronkelijke versie van de inkooporder wordt gemaakt in Finance and Operations. | De status is **Concept**. |
+| De oorspronkelijke versie van de inkooporder wordt gemaakt in Supply Chain Management. | De status is **Concept**. |
 | De IO wordt verzonden naar het goedkeuringsproces. (Het goedkeuringsproces is een intern proces waarbij de leverancier niet betrokken is.) | De status wordt gewijzigd van **Concept** in **Wordt gecontroleerd** in **Goedkeuring** als de inkooporder niet tijdens het goedkeuringsproces wordt afgewezen. De goedgekeurde inkooporder wordt geregistreerd als een versie. | 
 | De IO wordt verzonden naar de leverancier. | De versie wordt geregistreerd in de interface voor leverancierssamenwerking en de status wordt gewijzigd in **Externe controle**. |
 | U brengt enkele wijzigingen aan die door de leverancier zijn aangevraagd, handmatig dan wel door middel van de actie **Update van inkooporder verwerken** op de reactie, om zo de inkooporder bij te werken. | De status wordt weer gewijzigd in **Concept**. |
@@ -237,13 +237,13 @@ In deze sectie wordt de interactie tussen klanten en leveranciers tijdens het pr
 
 ## <a name="public-sector-extensions"></a>Uitbreidingen voor de publieke sector
 
-Voor de publieke sector kan een offerteaanvraagcase dankzij de uitgebreide functionaliteit naar leveranciers worden verzonden en worden gepubliceerd. Wanneer u een offerteaanvraagcase publiceert, kan iedereen die de gegevens opvraagt het werk bekijken dat voldoet aan de voorschriften van de meeste publieke sectoren. Al het beschikbare werk wordt weergegeven op de lijstpagina **Gepubliceerde offerteaanvragen openen** en de geannuleerde offerteaanvragen, offerteaanvragen in behandeling of toegekende offerteaanvragen kunnen worden bekeken op de lijstpagina **Gesloten gepubliceerde offerteaanvragen**. Deze documenten kunnen ook op een site buiten Finance and Operations worden bekeken via integraties met de volgende gegevensentiteiten:
+Voor de publieke sector kan een offerteaanvraagcase dankzij de uitgebreide functionaliteit naar leveranciers worden verzonden en worden gepubliceerd. Wanneer u een offerteaanvraagcase publiceert, kan iedereen die de gegevens opvraagt het werk bekijken dat voldoet aan de voorschriften van de meeste publieke sectoren. Al het beschikbare werk wordt weergegeven op de lijstpagina **Gepubliceerde offerteaanvragen openen** en de geannuleerde offerteaanvragen, offerteaanvragen in behandeling of toegekende offerteaanvragen kunnen worden bekeken op de lijstpagina **Gesloten gepubliceerde offerteaanvragen**. Deze documenten kunnen ook op een site buiten Supply Chain Management worden bekeken via integraties met de volgende gegevensentiteiten:
 
 - Gepubliceerde offerteaanvragen
 - Gepubliceerde regel van offerteaanvragen
 - Gepubliceerde bijlagen voor kopteksten van offerteaanvragen
 
-Met deze entiteiten kunnen personen die geen geconfigureerde gebruikers in Finance and Operations zijn, maar wel anoniem toegang hebben tot de externe site, het beschikbare en afgesloten werk bekijken. Daarnaast kan de gebruiker die parameters instelt voor het offerteaanvraagproces met de uitgebreide functionaliteit in **Verzenden en publiceren** een e-mailsjabloon definiëren. Wanneer de inkoopmedewerker de offerteaanvraagcase vervolgens maakt, moet hij of zij de e-mailsjabloon selecteren om de vereiste gegevens te verzenden naar de leveranciers in de offerteaanvraagcase. 
+Met deze entiteiten kunnen personen die geen geconfigureerde gebruikers in Supply Chain Management zijn, maar wel anoniem toegang hebben tot de externe site, het beschikbare en afgesloten werk bekijken. Daarnaast kan de gebruiker die parameters instelt voor het offerteaanvraagproces met de uitgebreide functionaliteit in **Verzenden en publiceren** een e-mailsjabloon definiëren. Wanneer de inkoopmedewerker de offerteaanvraagcase vervolgens maakt, moet hij of zij de e-mailsjabloon selecteren om de vereiste gegevens te verzenden naar de leveranciers in de offerteaanvraagcase. 
 
 De gebruiker die parameters voor het proces voor offerteaanvragen instelt, kan meerdere e-mailsjablonen maken. Deze e-mailsjablonen kunnen zowel statische tekst als de volgende vervangingstokens bevatten. Wanneer een e-mailbericht wordt gemaakt, worden de tokens vervangen door contextuele waarden.
 

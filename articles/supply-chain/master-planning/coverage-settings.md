@@ -3,7 +3,7 @@ title: Behoefteplanningsinstellingen
 description: Dit onderwerp bevat informatie over de instellingen voor behoefteplanning die door de hoofdplanning wordt gebruikt om artikelbehoeften te berekenen.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
-ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
+ms.openlocfilehash: 3a63184852751bb65fb7e80d721f8c48fd847609
+ms.sourcegitcommit: edfd805356894710488ce07cb1c89313f448b222
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538889"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "1998966"
 ---
 # <a name="coverage-settings"></a>Behoefteplanningsinstellingen
 
@@ -50,6 +50,19 @@ U kunt behoefteplanningsinstellingen op verschillende manieren instellen:
 
     Ga naar **Productgegevensbeheer &gt; Producten &gt; Vrijgegeven producten**. Selecteer op de pagina **Vrijgegeven productdetails** op het sneltabblad **Algemeen** in de sectie **Beheer** de koppeling in het veld **Opslagdimensiegroep**. Schakel op de pagina **Opslagdimensiegroepen** het selectievakje **In behoefteplan opnemen volgens dimensie** in om de behoefteplanningsinstellingen voor een dimensie in de opslagdimensiegroep te maken. Het veld **In behoefteplan opnemen volgens dimensie** moet worden geselecteerd voor alle productdimensies, zoals configuratie, kleur, grootte en stijl.
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+
+## <a name="coverage-codes"></a>Dekkingscodes
+
+Hoofdplanning kan worden geconfigureerd om verschillende aanvullingsmethoden te gebruiken. De aanvullingsmethoden of methoden voor het wijzigen van de lotgrootte zijn de technieken die door het systeem worden gebruikt om de batchgrootte voor ingekochte of geproduceerde artikelen te bepalen. 
+
+Aan elke aanvullingsmethode is een van de volgende dekkingscodes toegewezen:
+
+- **Handmatig**: de methode voor het bepalen van de partijgrootte waarbij het systeem geen inkoop-, overboekings- of productieorders voor het artikel voorstelt. De planner voor het artikel zal verantwoordelijk zijn voor het maken van de vereiste orders voor de aanvulling van het artikel.
+- **Per vereiste**: de methode voor het bepalen van de partijgrootte waarbij het systeem een geplande inkoop-, overdrachts- of productieorder per behoefte voor het artikel maakt. Deze wordt over het algemeen gebruikt voor dure artikelen met periodieke vraag.  
+- **Per periode**: de methode voor het bepalen van de partijgrootte waarmee alle vraag voor een periode in één order voor het artikel wordt gecombineerd. De order wordt gepland voor de eerste dag van de periode en de hoeveelheid voldoet aan de nettobehoeften gedurende de vastgestelde periode. De periode begint met de eerste vraag van het artikel en dekt de gedefinieerde lengte in de tijd. De volgende periode begint met de volgende vereisten van het artikel.
+- **Min/max**: de methode voor het bepalen van partijgrootte die de aanvulling van de voorraad bevat tot een bepaald niveau wanneer de voorhanden voorraad onder een drempel valt. De aanvullingshoeveelheid is het verschil tussen het maximumniveau en het voorspelde voorhanden niveau.
+
+
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Hoofdplannen](master-plans.md)

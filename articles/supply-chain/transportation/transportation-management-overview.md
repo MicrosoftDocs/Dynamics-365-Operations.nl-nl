@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Transportbeheer
-description: Dit onderwerp bevat een overzicht van de functionaliteit voor het transport in Microsoft Dynamics 365 for Finance and Operations.
+description: Dit onderwerp bevat een overzicht van de functionaliteit voor transportbeheer in Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561150"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027056"
 ---
 # <a name="transportation-management-overview"></a>Overzicht van Transportbeheer
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van de functionaliteit voor het transport in Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp bevat een overzicht van de functionaliteit voor transportbeheer in Finance and Operations.
 
-Met Transportbeheer kunt u het transport van uw bedrijf gebruiken en kunt u tevens leveranciers- en routeringoplossingen voor binnenkomende en uitgaande orders identificeren. Bijvoorbeeld, kunt u de snelste route of het minste dure tarief voor een zending identificeren. In de volgende tabel worden de hoofdscenario´s beschreven voor het gebruik van Transportbeheer in Microsoft Dynamics 365 for Finance and Operations.
+Met Transportbeheer kunt u het transport van uw bedrijf gebruiken en kunt u tevens leveranciers- en routeringoplossingen voor binnenkomende en uitgaande orders identificeren. Bijvoorbeeld, kunt u de snelste route of het minste dure tarief voor een zending identificeren. In de volgende tabel worden de hoofdscenario´s beschreven voor het gebruik van Transportbeheer.
 
 <table>
 <colgroup>
@@ -40,7 +40,7 @@ Met Transportbeheer kunt u het transport van uw bedrijf gebruiken en kunt u teve
 </colgroup>
 <thead>
 <tr class="header">
-<th>Scenario's</th>
+<th>Scenario</th>
 <th>Gebruik van transportbeheer</th>
 </tr>
 </thead>

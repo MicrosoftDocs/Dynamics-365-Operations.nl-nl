@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met Onboard
-description: Dit onderwerp helpt u aan de slag te gaan met Microsoft Dynamics 365 for Talent - Onboard. Met Onboard helpt u uw nieuwe medewerkers goed van start te gaan door ze een handleiding te geven die ze soepel door het onboardingproces leidt.
+description: Dit onderwerp helpt u aan de slag te gaan met Microsoft Dynamics 365 Talent - Onboard. Met Onboard helpt u uw nieuwe medewerkers goed van start te gaan door ze een handleiding te geven die ze soepel door het onboardingproces leidt.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731208"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008123"
 ---
 # <a name="get-started-with-onboard"></a>Aan de slag met Onboard
 
 [!include [banner](includes/banner.md)]
 
-Door Microsoft Dynamics 365 for Talent: Onboard te gebruiken, kunt u uw nieuwe medewerkers effectiever laten presteren en ze het gevoel geven dat hun nieuwe rollen goed passen. Een effectief onboardingproces zorgt ervoor dat nieuwe medewerkers hun nieuwe rollen begrijpen. Daarnaast geeft het ze een voorsprong bij het vestigen van waardevolle relaties die helpen om hun succes te garanderen.
+Door Microsoft Dynamics 365 Talent: Onboard te gebruiken, kunt u uw nieuwe medewerkers effectiever laten presteren en ze het gevoel geven dat hun nieuwe rollen goed passen. Een effectief onboardingproces zorgt ervoor dat nieuwe medewerkers hun nieuwe rollen begrijpen. Daarnaast geeft het ze een voorsprong bij het vestigen van waardevolle relaties die helpen om hun succes te garanderen.
 
 Met Onboard kunt u snel een onboardinghandleiding maken om uw nieuwe medewerkers te verwelkomen en enthousiast te maken om deel uit te maken van uw organisatie.
 

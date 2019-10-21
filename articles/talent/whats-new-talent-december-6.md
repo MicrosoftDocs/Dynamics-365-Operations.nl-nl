@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (6 december 2018)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent Core HR.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent - Core HR (6 december 2018)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742581"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025951"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (6 december 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent: Core HR (6 december 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742581"
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Core HR.
 
 
-## <a name="platform-update-22"></a>Platformupdate 22
+## <a name="platform-update-22-for-finance-and-operations"></a>Platformupdate 22 voor Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Tot 1 miljoen rijen naar Excel exporteren
 
@@ -42,7 +42,7 @@ De functie Exporteren naar Excel kan nu zo worden geconfigureerd dat gebruikers 
 
 ### <a name="restyled-personalization-toolbar"></a>Aanpassingswerkbalk opnieuw vormgegeven
 
-De aanpassingswerkbalk is opnieuw vormgegeven in platformupdate 22 om gebruikers te helpen hun eigen ervaringen gemakkelijker aan te passen in Talent. De volgende wijzigingen zijn aangebracht: 
+De aanpassingswerkbalk is opnieuw vormgegeven in Platformupdate 22 voor Finance and Operations, om gebruikers te helpen hun eigen ervaringen gemakkelijker aan te passen in Talent. De volgende wijzigingen zijn aangebracht: 
 
 -  De naam van elk aanpassingsprogramma wordt nu weergegeven met een pictogram, zodat gebruikers de programma's die ze willen gebruiken snel herkennen.
 -  De beschrijving voor het gebruik van het huidige programma wordt nu ook weergegeven, zodat gebruikers begrijpen hoe ze de nodige aanpassingen doorvoeren.  
@@ -50,19 +50,19 @@ De aanpassingswerkbalk is opnieuw vormgegeven in platformupdate 22 om gebruikers
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Ervaring 'is een van' geoptimaliseerd
 
-De filteroperator 'is een van' is beschikbaar voor de meeste velden bij het gebruik van het filterdeelvenster en de vervolgkeuzelijsten in de koptekst van het raster. Met deze operator kan een gebruiker een veld op basis van meerdere waarden filteren. Een nieuwe en verbeterde ervaring voor de operator 'is een van' is beschikbaar in platformupdate 22. Zie [Geoptimaliseerde filterervaring "is één van" ingeschakeld](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering) voor meer informatie.
+De filteroperator 'is een van' is beschikbaar voor de meeste velden bij het gebruik van het filterdeelvenster en de vervolgkeuzelijsten in de koptekst van het raster. Met deze operator kan een gebruiker een veld op basis van meerdere waarden filteren. Een nieuwe en verbeterde ervaring voor de ¨is een van¨ operator is beschikbaar in Platformupdate 22 voor Finance and Operations Zie [Geoptimaliseerde filterervaring "is één van" ingeschakeld](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering) voor meer informatie.
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>Lijsten vanuit Excel in filtervelden plakken met de operator 'is een van'
 
 Voor sommige taken hebben gebruikers wellicht een lijst met waarden in Excel die ze willen gebruiken voor het filteren van gegevens in Talent. Een Human Resource-gebruiker kan bijvoorbeeld in een rapport een aantal werknemers hebben geïdentificeerd waarvoor aanvullend onderzoek in het systeem nodig is en het zou voor deze gebruiker ideaal zijn als de lijst rechtstreeks vanuit Excel naar een filterveld in Talent kon worden gekopieerd.
 
-Vanaf platformupdate 22 herkent de operator 'is een van' in het filterdeelvenster en de rasterkolomfilters nu lijsten die worden gekopieerd vanuit Excel, zodat deze rechtstreeks in een filterveld kunnen worden geplakt. Het gaat hierbij om een verzameling waarden die uit verschillende rijen en kolommen in Excel worden gekopieerd. Zie [Lijsten vanuit Excel in filtervelden plakken met de operator 'is een van'](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel) voor meer informatie over deze functie.
+Vanaf Platformupdate 22 voor Finance and Operations herkent de ¨is een van¨ operator in het filterdeelvenster en de rasterkolomfilters nu lijsten die worden gekopieerd vanuit Excel, zodat deze rechtstreeks in een filterveld kunnen worden geplakt. Het gaat hierbij om een verzameling waarden die uit verschillende rijen en kolommen in Excel worden gekopieerd. Zie [Lijsten vanuit Excel in filtervelden plakken met de operator 'is een van'](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel) voor meer informatie over deze functie.
 
 ## <a name="in-preview"></a>Preview
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>De integratie van de VK-salarisadministratie tussen Talent en Dayforce configureren
 
-De integratie tussen Microsoft Dynamics 365 for Talent en Ceridian Dayforce is als preview beschikbaar voor het Verenigd Koninkrijk. Raadpleeg het onderwerp [De integratie van de salarisadministratie tussen Talent en Dayforce configureren](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration) voor meer informatie.
+De integratie tussen Talent en Ceridian Dayforce is als preview beschikbaar voor het Verenigd Koninkrijk. Raadpleeg het onderwerp [De integratie van de salarisadministratie tussen Talent en Dayforce configureren](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration) voor meer informatie.
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
@@ -90,9 +90,9 @@ Er zijn wijzigingen aangebracht om bijlagen te corrigeren. Wanneer u een nieuwe 
 
 ## <a name="known-issues"></a>Bekende problemen
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Toewijzingsfouten in de integratie met Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Toewijzingsfouten in de integratie met Finance
 
-De volgende problemen kunnen optreden in de huidige sjabloon voor het integreren van Talent met Finance and Operations. Binnenkort wordt een nieuwe sjabloon gepubliceerd om toe te passen op alle nieuwe integratieprojecten die zijn gemaakt. Voor bestaande integratieprojecten kunnen de taaktoewijzingen worden bijgewerkt. Raadpleeg de volgende tabel voor bijgewerkte toewijzingen. 
+De volgende problemen kunnen optreden in de huidige sjabloon voor het integreren van Talent met Finance. Binnenkort wordt een nieuwe sjabloon gepubliceerd om toe te passen op alle nieuwe integratieprojecten die zijn gemaakt. Voor bestaande integratieprojecten kunnen de taaktoewijzingen worden bijgewerkt. Raadpleeg de volgende tabel voor bijgewerkte toewijzingen. 
 
 >[!NOTE]
 > Met de taak voor het toewijzen van taken aan bovenliggende posities worden geen gegevens geïntegreerd. Dit probleem wordt momenteel onderzocht. Er is geen oplossing in de huidige toewijzing. 

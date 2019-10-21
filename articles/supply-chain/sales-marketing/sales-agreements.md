@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 37378b85b90f91c74da717f0a25c1847ac0b1598
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865964"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251288"
 ---
 # <a name="sales-agreements-overview"></a>Overzicht van Verkoopovereenkomsten
 
@@ -99,14 +99,14 @@ Als u een verkooporder voor een verkoopovereenkomst hebt gemaakt (vrijgegeven), 
 | Hoeveelheid                                                          | Als u een hoeveelheid opgeeft die hoger is dan de hoeveelheid die op een verkoopovereenkomstregel is opgegeven waar het selectievakje **Max is afgedwongen** is ingeschakeld, verschijnt een bericht waarin u wordt gevraagd om de gewijzigde hoeveelheid op te slaan. Klik op **Ja** om de koppeling met de verkoopovereenkomstregel te verwijderen en de prijs opnieuw te berekenen. Klik op **Nee** om de koppeling met de verkoopovereenkomstregel te verwijderen zonder de prijs opnieuw te berekenen.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Een item dat is besteld vanuit een verkoopovereenkomst retourneren
-Wanneer een klant een product retourneert dat is besteld vanuit een verkoopovereenkomst, kan Microsoft Dynamics 365 for Finance and Operations de bijbehorende verkoopovereenkomst zoeken en automatisch bijwerken om de wijziging in de hoeveelheid of het bedrag te weerspiegelen. Door een retourorder te maken die is gebaseerd op de oorspronkelijke verkooporder die is gekoppeld aan een verkoopovereenkomst, bepaalt u een relatie tussen de verkoopovereenkomsttoezegging, de verkooporderregel en de factuur voor de retourorder.  
+Wanneer een klant een product retourneert dat is besteld vanuit een verkoopovereenkomst, kan Supply Chain Management de bijbehorende verkoopovereenkomsttoezegging zoeken en automatisch bijwerken om de wijziging in de hoeveelheid of het bedrag te weerspiegelen. Door een retourorder te maken die is gebaseerd op de oorspronkelijke verkooporder die is gekoppeld aan een verkoopovereenkomst, bepaalt u een relatie tussen de verkoopovereenkomsttoezegging, de verkooporderregel en de factuur voor de retourorder.  
 
 Als u de hoeveelheid van het geretourneerde artikel niet wilt aftrekken van de verkoopovereenkomsttoezegging, kunt u de optie **Koppeling verwijderen** op de pagina **Retourorder** gebruiken om de koppeling te verwijderen tussen de retourorder en de verkoopovereenkomsttoezegging. Als u de koppeling later opnieuw moet maken, klikt u op **Koppeling maken**.  
 
 **Opmerking:** Een retourorder kan worden gekoppeld aan slechts één verkoopovereenkomst. Als een klant verscheidene producten retourneert die zijn besteld met verscheidene verkoopovereenkomsten, moet u een nieuwe retourorder maken voor elk product en een koppeling maken naar de bijbehorende verkoopovereenkomst.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Automatisch verkoopovereenkomsten zoeken
-In sommige situaties waarin verkooporders indirect zijn gemaakt, zoals wanneer u een creditnota of intercompany-verkooporders maakt, kunt u bepalen of Microsoft Dynamics 365 for Finance and Operations automatisch relevante verkoopovereenkomsten zoekt.
+In sommige situaties waarin verkooporders indirect zijn gemaakt, zoals wanneer u een creditnota of intercompany-verkooporders maakt, kunt u bepalen of het systeem automatisch relevante verkoopovereenkomsten zoekt.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Financiële dimensies op verkoopovereenkomsten
 U kunt financiële dimensies kopiëren naar ofwel documentkopteksten of afzonderlijke regels van een verkoopovereenkomst. U kunt de dimensies op een overeenkomstkoptekst of overeenkomstregel op elk gewenst moment wijzigen. In dit geval worden de dimensies automatisch gekopieerd naar de vrijgavekoptekst of de vrijgaveregel van vrijgaveorders.

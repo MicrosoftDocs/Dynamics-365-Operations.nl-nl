@@ -1,6 +1,6 @@
 ---
-title: 'Een vacature sluiten in Microsoft Dynamics for Talent: Attract'
-description: In dit onderwerp wordt uitgelegd hoe u een vacature sluit in Microsoft Dynamics 365 for Talent - Attract.
+title: Een vacature sluiten in Microsoft Dynamics Talent - Attract
+description: In dit onderwerp wordt uitgelegd hoe u een vacature sluit in Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/10/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2010-07-10
 ms.dyn365.ops.version: Talent 2019 Wave 1 update
-ms.openlocfilehash: ec1b4d1fcd02bad329030b37a491b52a7c9c0a30
-ms.sourcegitcommit: 42589141431a5f357804b7e9ea9c781d594ef09d
+ms.openlocfilehash: 632db42b12d0a442b8e1f35dbc784d252ffde399
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773535"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008611"
 ---
 # <a name="close-a-job"></a>Een vacature sluiten
 
 [!include [banner](includes/banner.md)]
 
-In Microsoft Dynamics 365 for Talent: Attract kunt u een vacature sluiten als **Functie geannuleerd** of **Positie vervuld**. U kunt een vacature op elk moment annuleren.
+In Microsoft Dynamics 365 Talent: Attract kunt u een vacature sluiten als **Functie geannuleerd** of **Positie vervuld**. U kunt een vacature op elk moment annuleren.
 
 Als u wilt aangeven dat de positie is vervuld, moet een kandidaat een aanbieding voor de functie hebben geaccepteerd.
 

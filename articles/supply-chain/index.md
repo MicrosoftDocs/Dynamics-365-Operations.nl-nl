@@ -1,9 +1,9 @@
 ---
-title: Startpagina Supply Chain Management
-description: Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor Supply Chain Management in Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
+title: Help-bronnen voor Supply Chain Management
+description: Deze pagina bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies van Supply Chain Management.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557587"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278319"
 ---
-# <a name="supply-chain-management-home-page"></a>Startpagina Supply Chain Management
+# <a name="help-resources-for-supply-chain-management"></a>Help-bronnen voor Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor Supply Chain Management in Microsoft Dynamics 365 for Finance and Operations. 
+Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies van Dynamics 365 Supply Chain Management. 
 
 ## <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365-routekaart</a> om te zien welke nieuwe functies worden vrijgegeven en welke nieuwe functies in ontwikkeling zijn. 
@@ -38,6 +38,7 @@ Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365-routekaart</a> o
 
 Selecteer een functiegebied voor meer informatie hierover.
 
+- [Activabeheer](asset-management/index.md)
 - [Kostprijsboekhouding](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Kostenbeheer](cost-management/cost-management-home-page.md)  
 - [Voorraadbeheer](inventory/inventory-home-page.md)
@@ -49,6 +50,10 @@ Selecteer een functiegebied voor meer informatie hierover.
 - [Servicebeheer](service-management/service-management-home-page.md)
 - [Transportbeheer](transportation/transportation-management-overview.md)
 - [Magazijnbeheer](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+Ga voor meer informatie over Dynamics 365 Finance naar de pagina met Help-bronnen voor [Dynamics 365 Finance](../finance/index.md).
 
 ## <a name="videos"></a>Video's
 
@@ -113,6 +118,6 @@ Er zijn veel onderwerpen over productie en supply chain management beschikbaar i
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobiliteit in het magazijn vergemakkelijkt door Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>eLearning-cursussen
-Voor meer informatie over training voor Microsoft Dynamics 365 for Finance and Operations raadpleegt u de <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics-leerportal</a>. (CustomerSource-account vereist) 
+Voor meer informatie over training voor Dynamics 365 raadpleegt u de <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics-leerportal</a>. (CustomerSource-account vereist) 
 
 

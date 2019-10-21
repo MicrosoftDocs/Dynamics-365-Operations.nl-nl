@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent (2 april 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent (2 april 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795239"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026066"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (2 april 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (2 april 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
@@ -56,14 +56,14 @@ In Attract en Onboard worden met problemen die zijn geregistreerd door eindgebru
 ## <a name="changes-in-core-hr"></a>Wijzigingen in Core HR
 Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.2216.
 
-### <a name="platform-update-25"></a>Platformupdate 25
-Zie voor meer informatie over platformupdate 25 [Voorbeeldfuncties in Dynamics 365 for Finance and Operations platformupdate 25 (april 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Platformupdate 25 voor Finance and Operations
+Zie voor meer details over Platformupdate 25 voor Finance and Operations [Voorbeeldfuncties in Dynamics 365 for Finance and Operations-platformupdate 25 (april 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Geavanceerde compensatiebeveiliging (vast en variabel)
 In veel organisaties hebben managers voor compensaties en vergoedingen mogelijk alleen toegang tot bepaalde compensatierecords. Deze kunnen records bevatten voor leidinggevenden of regionale werknemers. Met deze wijziging kan HR compensatieplannen beheren en onderhouden voor verschillende werknemersgroepen in de organisatie. U kunt beveiligingsrollen toewijzen aan vaste en variabele regelingen. Deze beveiligingsrollen bepalen de toegang tot regelingen en gerelateerde werknemersgegevens, zoals salaris- of bonusrecords, zodat alleen die rollen compensatie voor de werknemersgroepen kunnen verwerken.
 
 ### <a name="upgrade-to-common-data-service"></a>Upgrade naar Common Data Service
-Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-Beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Preview
 
@@ -79,4 +79,4 @@ Organisaties vereisen wellicht redencodes voor specifieke verloftypen wanneer we
 Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invoert en met een status wordt het aantal dubbelen weergegeven. U kunt de opgegeven koppeling selecteren om een nieuwe pagina te openen om te beoordelen of de gedetecteerde overeenkomst moet worden gebruikt. Om te voorkomen dat gegevensinvoer wordt onderbroken, wordt het formulier met dubbele records niet automatisch geopend.
 
 ###  <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
-Met platformupdate 25 kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer deze door een gebeurtenis worden geactiveerd. 
+Met Platformupdate 25 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd. 

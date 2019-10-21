@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543578"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250686"
 ---
 # <a name="master-planning-home-page"></a>Startpagina Hoofdplanning
 
@@ -74,7 +74,7 @@ Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om
 U vindt meningen, nieuws en andere informatie over Hoofdplanning en andere oplossingen in het [blog van het R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) en het [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Taakbegeleidingen
-Extra help is beschikbaar als taakbegeleidingen binnen Finance and Operations. U kunt op elke pagina op de knop **Help** klikken als u een taakbegeleiding wilt openen.
+Extra informatie is beschikbaar als taakbegeleidingen. U kunt op elke pagina op de knop **Help** klikken als u een taakbegeleiding wilt openen.
 
 ### <a name="webinars"></a>Webinars
 [Azure Machine Learning gebruiken voor vraagprognose](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

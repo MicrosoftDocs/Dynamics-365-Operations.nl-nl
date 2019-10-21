@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 98784c11c7393bb4c3e022d5bff4cca2daa1636e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572075"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025439"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>De indelingsontwerper voor Retail-verkooppunten (POS) installeren
 
@@ -36,11 +36,11 @@ De interface voor grafische ontwerpen voor MPOS of Cloud POS wordt bepaald door 
 
 ## <a name="install-the-one-click-designer"></a>De één-klik-ontwerper installeren
 
-1. Gebruik in Microsoft Dynamics 365 for Retail het menu in de linkerbovenhoek om naar **Detailhandel** **en commerce** &gt; **Afzetkanaalinstellingen** &gt; **POS-instellingen** &gt; **POS** &gt; **Schermindelingen** te gaan.
+1. Gebruik in Retail het menu in de linkerbovenhoek om naar **Detailhandel** **en commerce** &gt; **Afzetkanaalinstellingen** &gt; **POS-instellingen** &gt; **POS** &gt; **Schermindelingen** te gaan.
 2. Selecteer een indeling met als toepassingstype **Moderne POS voor Windows** of **Cloud POS** en klik op **Ontwerper van indeling**.
 3. Op de meldingsbalk die onder in het Internet Explorer-venster verschijnt, klikt u op **Openen** om de één-klik-ontwerper te installeren. (De meldingsbalk kan op een andere locatie worden weergegeven in andere browsers.)
 4. Klik in het berichtvak **Toepassing uitvoeren - beveiligingswaarschuwing** op **Uitvoeren** om de detailhandelsontwerperhost te installeren. Een voortgangsindicator geeft de voortgang van de installatie aan.
-5. Nadat de installatie is voltooid, voert u op de pagina **Aanmelden** uw Microsoft Dynamics 365 for Retail-gebruikersnaam en -wachtwoord in en klikt u op **Aanmelden** om de ontwerper te starten.
+5. Nadat de installatie is voltooid, voert u op de pagina **Aanmelden** uw Retail-gebruikersnaam en -wachtwoord in en klikt u op **Aanmelden** om de ontwerper te starten.
 6. Nadat uw referenties zijn gevalideerd en de ontwerper is gestart, kunt u beginnen met uw eigen ontwerpen of een bestaande indeling wijzigen.
 
     [![Indeling in de één-klik-ontwerper](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
@@ -52,11 +52,11 @@ De interface voor grafische ontwerpen voor MPOS of Cloud POS wordt bepaald door 
     **Oplossingen:**
 
     - Controleer in Internet Explorer of de pop-upblokkering voor deze site is uitgeschakeld. Klik op **Instellingen** &gt; **Opties** &gt; **Privacy** &gt; **Pop-upblokkering zoeken** en wijzig de instelling als dit nodig blijkt.
-    - Voeg in Internet Explorer de URL voor Dynamics 365 for Retail aan uw vertrouwde websites toe. Klik op **Instelling** &gt; **Opties** &gt; **Beveiliging** &gt; **Vertrouwde sites** &gt; **Sites** &gt; **Toevoegen**.
+    - Voeg in Internet Explorer de URL voor Retail aan uw vertrouwde websites toe. Klik op **Instelling** &gt; **Opties** &gt; **Beveiliging** &gt; **Vertrouwde sites** &gt; **Sites** &gt; **Toevoegen**.
 
 - Het programma wordt gestart en u wordt gevraagd contact op te nemen met de leverancier.
 
-    **Oplossing:** voeg in Internet Explorer de URL voor Dynamics 365 for Retail aan uw vertrouwde sites toe. Klik op **Instelling** &gt; **Opties** &gt; **Beveiliging** &gt; **Vertrouwde sites** &gt; **Sites** &gt; **Toevoegen**.
+    **Oplossing:** voeg in Internet Explorer de URL voor Retail aan uw vertrouwde sites toe. Klik op **Instelling** &gt; **Opties** &gt; **Beveiliging** &gt; **Vertrouwde sites** &gt; **Sites** &gt; **Toevoegen**.
 
 **Bekend probleem:** de ontwerper werkt niet correct in Google Chrome en Mozilla Firefox. We werken aan een oplossing voor dit probleem.
 

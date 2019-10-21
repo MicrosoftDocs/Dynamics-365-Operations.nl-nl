@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561256"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249420"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Mobiel werkgebied Goedkeuring van inkooporder
 
@@ -35,13 +35,13 @@ Dit onderwerp biedt informatie over het mobiele werkgebied **Goedkeuring van ink
 ## <a name="overview"></a>Overzicht 
 Inkooporders die moet worden goedgekeurd doorlopen een goedkeuringswerkstroom. De werkstroom kan verschillende stappen omvatten, waarin één of meer mensen actie moeten ondernemen. Een persoon moet bijvoorbeeld mogelijk een taak uitvoeren of de inkooporder goedkeuren. 
 
-In het mobiele werkgebied **Goedkeuring van inkooporders** kunt u eenvoudig op uw mobiele apparaat inkooporders bekijken en op ze reageren. Hier kunt u ook dezelfde werkstroomacties uitvoeren als vanuit de webclient van Microsoft Dynamics 365 for Finance and Operations.
+In het mobiele werkgebied **Goedkeuring van inkooporders** kunt u eenvoudig op uw mobiele apparaat inkooporders bekijken en op ze reageren. Hier kunt u ook dezelfde werkstroomacties uitvoeren als vanuit de webclient.
 
 ## <a name="prerequisites"></a>Vereisten
-De vereisten verschillen, afhankelijk van de versie van Finance and Operations die voor uw organisatie is geïmplementeerd.
+De vereisten verschillen, afhankelijk van de versie van Supply Chain Management die voor uw organisatie is geïmplementeerd.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
-Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Goedkeuring van inkooporder** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Vereisten als u Supply Chain Management gebruikt 
+Als Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Goedkeuring van inkooporder** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Microsoft Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
 Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
@@ -75,7 +75,7 @@ Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of h
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
-Download en installeer de app Microsoft Dynamics 365 for Unified Operations Mobile:
+Download en installeer de mobiele app van Finance and Operations:
 
 - [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

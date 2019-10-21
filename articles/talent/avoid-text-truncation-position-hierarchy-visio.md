@@ -1,6 +1,6 @@
 ---
 title: Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
-description: In dit onderwerp wordt uitgelegd hoe u een probleem oplost waarbij namen van personen en posities worden afgekapt wanneer klanten de positiehiërarchie weergeven in Microsoft Dynamics 365 for Talent. Tekstafbreking kan het moeilijk maken om een schermopname te maken of de hiërarchie af te drukken.
+description: In dit onderwerp wordt uitgelegd hoe u een probleem oplost waarbij namen van personen en posities worden afgekapt wanneer klanten de positiehiërarchie weergeven in Microsoft Dynamics 365 Talent. Tekstafbreking kan het moeilijk maken om een schermopname te maken of de hiërarchie af te drukken.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 07a972bc1c6dd4076932248edb314992cb7297e5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: e151818f29ac37ff449daaf1dc02e44b8fb317c3
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741816"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008495"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
 
@@ -30,7 +30,7 @@ ms.locfileid: "1741816"
 
 **Probleem**
 
-Als een klant de positiehiërarchie weergeeft in Microsoft Dynamics 365 for Talent, worden de namen van personen en posities afgebroken. Daarom kan het lastig zijn om een schermopname te maken of de hiërarchie af te drukken en te distribueren.
+Als een klant de positiehiërarchie weergeeft in Microsoft Dynamics 365 Talent, worden de namen van personen en posities afgebroken. Daarom kan het lastig zijn om een schermopname te maken of de hiërarchie af te drukken en te distribueren.
 
 ![Positiehiërarchie](media/position-h.png)
 

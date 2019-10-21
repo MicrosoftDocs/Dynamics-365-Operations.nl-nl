@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
-ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
+ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755392"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009895"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Een vergoedingenprogramma definiëren en beheren
 
@@ -51,7 +51,7 @@ Voor elk type vergoeding, zoals zicht- of tandartsverzekering, kan een organisat
 [![afbeelding vegoeding](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Geschiktheid
-Veel factoren bepalen de geschiktheid van werknemers voor de diverse soorten vergoedingen die een werkgever aanbiedt. Wanneer u een vergoeding maakt in Microsoft Talent, kunt u het type van geschiktheid instellen dat op die vergoeding van toepassing is. 
+Veel factoren bepalen de geschiktheid van werknemers voor de diverse soorten vergoedingen die een werkgever aanbiedt. Wanneer u een vergoeding maakt in Dynamics 365 Talent, kunt u het type van geschiktheid instellen dat op die vergoeding van toepassing is. 
 
 U kunt een vergoeding beschikbaar maken voor alle werknemers. Sommige bedrijven bieden bijvoorbeeld alle werknemers parkeervergunningen aan als vergoeding. Wanneer u deze vergoeding maakt, stelt u de geschiktheid in op **Alle medewerkers komen in aanmerking**. 
 

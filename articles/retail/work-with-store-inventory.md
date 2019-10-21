@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606798"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024678"
 ---
 # <a name="store-inventory-management"></a>Voorraadbeheer winkel
 
 [!include [banner](includes/banner.md)]
 
-Bij het werken met voorraad in Dynamics 365 for Retail en met de POS-toepassing, is het belangrijk te weten dat POS beperkte ondersteuning voor voorraaddimensies en bepaalde voorraad artikeltypen biedt.
+Bij het werken met voorraad in Dynamics 365 Retail en met de POS-toepassing, is het belangrijk te weten dat POS beperkte ondersteuning voor voorraaddimensies en bepaalde voorraad artikeltypen biedt.
 
 De POS-oplossing biedt geen ondersteuning voor de volgende artikelconfiguraties:
 
@@ -56,7 +56,7 @@ De POS-oplossing biedt beperkte ondersteuning voor de volgende dimensies. Beperk
 
 ## <a name="purchase-orders"></a>Inkooporders
 
-Inkooporders worden gemaakt op het hoofdkantoor. Als een detailhandelmagazijn in de koptekst van de inkooporder is opgenomen, kan de order in de winkel worden ontvangen via Modern POS (MPOS) of Cloud POS in Microsoft Dynamics 365 for Retail met de bewerking **Orderverzameling/ontvangst**. Nadat de hoeveelheden die in de winkel zijn ontvangen, zijn ingevoerd in het veld **Nu ontvangen** in POS voor het inkooporderdocument, kunnen ze lokaal worden opgeslagen of worden vastgelegd. Het lokaal opslaan van deze gegevens heeft geen invloed op de voorhanden voorraad. Opslaan moet alleen plaatsvinden als de gebruiker niet gereed is om de ontvangst naar HQ te boeken en u hebt alleen een manier nodig om eerder ingevoerde gegevens voor **Nu ontvangen** tijdelijk op te slaan. Hiermee worden de gegevens voor nu ontvangen lokaal opgeslagen in de kanaaldatabase van de gebruiker. Nadat het document is verwerkt met de optie **Vastleggen**, worden de gegevens voor **Nu ontvangen** naar HQ verzonden en wordt de ontvangst van de inkooporder geboekt. 
+Inkooporders worden gemaakt op het hoofdkantoor. Als een detailhandelmagazijn in de koptekst van de inkooporder is opgenomen, kan de order in de winkel worden ontvangen via Modern POS (MPOS) of Cloud POS met de bewerking **Orderverzameling/ontvangst**. Nadat de hoeveelheden die in de winkel zijn ontvangen, zijn ingevoerd in het veld **Nu ontvangen** in POS voor het inkooporderdocument, kunnen ze lokaal worden opgeslagen of worden vastgelegd. Het lokaal opslaan van deze gegevens heeft geen invloed op de voorhanden voorraad. Opslaan moet alleen plaatsvinden als de gebruiker niet gereed is om de ontvangst naar HQ te boeken en u hebt alleen een manier nodig om eerder ingevoerde gegevens voor **Nu ontvangen** tijdelijk op te slaan. Hiermee worden de gegevens voor nu ontvangen lokaal opgeslagen in de kanaaldatabase van de gebruiker. Nadat het document is verwerkt met de optie **Vastleggen**, worden de gegevens voor **Nu ontvangen** naar HQ verzonden en wordt de ontvangst van de inkooporder geboekt. 
 
 ## <a name="transfer-orders"></a>Transferorders
 

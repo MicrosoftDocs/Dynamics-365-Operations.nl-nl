@@ -1,6 +1,6 @@
 ---
-title: Toegang tot voorbeeldfuncties in Microsoft Dynamics 365 for Talent
-description: In dit onderwerp wordt beschreven hoe een beheerder de voorbeeldfuncties in Microsoft Dynamics 365 for Talent kan inschakelen en krijgt u een overzicht van de functies die momenteel zijn ingeschakeld voor het voorbeeld.
+title: Toegang tot voorbeeldfuncties in Microsoft Dynamics 365 Talent
+description: In dit onderwerp wordt beschreven hoe een beheerder de voorbeeldfuncties in Microsoft Dynamics 365 Talent kan inschakelen en krijgt u een overzicht van de functies die momenteel zijn ingeschakeld voor het voorbeeld.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739582"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008697"
 ---
 # <a name="manage-preview-features"></a>Voorbeeldfuncties beheren
 
 [!include[banner](../includes/banner.md)]
 
-Als onderdeel van onze doorlopende implementatie van HCM-mogelijkheden (human capital management) voor Microsoft Dynamics 365 for Talent willen we klanten zo snel mogelijk laten kennismaken met nieuwe functies. Beheerders kunnen voorbeeldfuncties in hun omgevingen zien en gebruiken. Deze functies zijn bijna gereed voor algemene beschikbaarheid en zijn uitgebreid getest. Het enige wat we nog willen doen is een definitieve ronde van feedback van klanten en validatie voordat we de functies algemeen vrijgeven.
+Als onderdeel van onze doorlopende implementatie van HCM-mogelijkheden (human capital management) voor Microsoft Dynamics 365 Talent willen we klanten zo snel mogelijk laten kennismaken met nieuwe functies. Beheerders kunnen voorbeeldfuncties in hun omgevingen zien en gebruiken. Deze functies zijn bijna gereed voor algemene beschikbaarheid en zijn uitgebreid getest. Het enige wat we nog willen doen is een definitieve ronde van feedback van klanten en validatie voordat we de functies algemeen vrijgeven.
 
-In dit onderwerp wordt beschreven hoe u voorbeeldfuncties kunt inschakelen en krijgt u een overzicht van de functies die momenteel beschikbaar zijn als voorbeeld. Deze lijst wordt bijgewerkt wanneer functies algemeen beschikbaar worden en van nieuwe functies kan een voorbeeld worden bekeken. U ontvangt geen melding wanneer van nieuwe functies een voorbeeld kan worden bekeken. Gebruikers zien de functies gewoon verschijnen. Zie [Nieuwe of gewijzigde functies in Dynamics 365 for Talent](./whats-new.md) en [Dynamics 365- en Power Platform-releaseopmerkingen](https://docs.microsoft.com/business-applications-release-notes) voor meer informatie over nieuwe functies in Talent.
+In dit onderwerp wordt beschreven hoe u voorbeeldfuncties kunt inschakelen en krijgt u een overzicht van de functies die momenteel beschikbaar zijn als voorbeeld. Deze lijst wordt bijgewerkt wanneer functies algemeen beschikbaar worden en van nieuwe functies kan een voorbeeld worden bekeken. U ontvangt geen melding wanneer van nieuwe functies een voorbeeld kan worden bekeken. Gebruikers zien de functies gewoon verschijnen. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Talent](./whats-new.md) en [Dynamics 365- en Power Platform-releaseopmerkingen](https://docs.microsoft.com/business-applications-release-notes) voor meer informatie over nieuwe functies in Talent.
 
 ## <a name="enable-or-disable-preview-features"></a>Voorbeeldfuncties in- of uitschakelen
 
@@ -40,9 +40,9 @@ Als u toegang tot voorbeeldfuncties wilt hebben, moet u deze eerst in uw omgevin
 > [!IMPORTANT]
 > Als u de instelling **Voorbeeldfuncties** inschakelt, kunt u voorbeeldfuncties inschakelen voor alle gebruikers in uw organisatie die zich in die omgeving bevinden. Als u de instelling uitschakelt, schakelt u de voorbeeldfuncties uit en zijn ze niet toegankelijk voor uw gebruikers. Voorbeeldfuncties hebben beperkte ondersteuning in Talent. Ze hebben mogelijk minder privacy- en beveiligingsmaatregelen en zijn niet opgenomen in de serviceovereenkomst voor Talent. U moet de voorbeeldfuncties niet gebruiken voor de verwerking van persoonsgegevens (dat wil zeggen informatie die uw identiteit aangeeft) of andere gegevens die onderworpen zijn aan wettelijke of bestuursrechtelijke conformiteitsvereisten.
 
-### <a name="attract"></a>Aantrekken
+### <a name="attract"></a>Attract
 
-1. Aanmelden bij Microsoft Dynamics 365 for Talent: Attract.
+1. Meld u aan bij Microsoft Dynamics 365 Talent: Attract.
 2. Selecteer in het menu **Instellen** (het tandwielsymbool) in de rechterbovenhoek de optie **Beheercentrum**.
 3. Selecteer op het tabblad **Functiebeheer** de optie naast **Voorbeeldfuncties** zodat deze blauw wordt en wordt ingesteld op **Aan**.
 
@@ -69,11 +69,11 @@ Als u toegang tot voorbeeldfuncties wilt hebben, moet u deze eerst in uw omgevin
 
 ### <a name="onboard"></a>Onboarden
 
-Er zijn momenteel geen voorbeeldfuncties beschikbaar voor Microsoft Dynamics 365 for Talent: Onboard.
+Er zijn momenteel geen voorbeeldfuncties beschikbaar voor Microsoft Dynamics 365 Talent: Onboard.
 
 ## <a name="features-that-are-currently-in-preview"></a>Functies waarvan momenteel een voorbeeld kan worden bekeken
 
-### <a name="attract"></a>Aantrekken
+### <a name="attract"></a>Attract
 
 - [Aanbeveling voor kandidaat](./intelligent-recommendations.md#candidate-recommendations): als er meer dan tien kandidaten met cv's of volledige profielen zijn, worden de kandidaten die het best overeenkomen met de vereisten van de functie, weergegeven in de sectie **Te overwegen sollicitanten** op de pagina voor die functie.
 - [Aanbeveling voor functie](./intelligent-recommendations.md#job-recommendations): Attract biedt functieaanbevelingen aan prospects als meer dan tien functies zijn geplaatst op uw vacaturesite.

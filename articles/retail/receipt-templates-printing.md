@@ -1,6 +1,6 @@
 ---
 title: Ontvangstbewijsindelingen instellen en ontwerpen
-description: In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Microsoft Dynamics 365 for Retail heeft een ontwerper voor formulierindelingen waarmee u gemakkelijk en grafisch verschillende soorten formulierindelingen kunt maken en veranderen.
+description: In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Dynamics 365 Retail heeft een ontwerper voor formulierindelingen waarmee u gemakkelijk en grafisch verschillende soorten formulierindelingen kunt maken en veranderen.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb85752b53d0d48f07bfed9423637cb6c646ab61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553063"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025120"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Ontvangstbewijsindelingen instellen en ontwerpen
 
 [!include [banner](includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Microsoft Dynamics 365 for Retail heeft een ontwerper voor formulierindelingen waarmee u gemakkelijk en grafisch verschillende soorten formulierindelingen kunt maken en veranderen.
+In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Dynamics 365 Retail heeft een ontwerper voor formulierindelingen waarmee u gemakkelijk en grafisch verschillende soorten formulierindelingen kunt maken en veranderen.
 
 > [!IMPORTANT]
 > U moet formulierindelingen en ontvangstprofielen instellen om ontvangstbewijzen en andere documenten af te drukken vanuit Retail Modern POS en Cloud POS. U kunt meerdere formulierindelingen in een ontvangstbewijsprofiel opnemen. U kunt vervolgens het ontvangstprofiel toewijzen aan een printer door een hardwareprofiel te wijzigen.
@@ -55,7 +55,7 @@ Gebruik de ontwerpfunctie voor formulierindelingen om de grafische indeling van 
 2. Op de **Ontvangstbewijsindeling** pagina selecteert u een indeling, en klikt u op **Ontwerper**.
 3. Klik op **Uitvoeren** om de installatie van de detailhandelsontwerperhost te starten.
 4. Op de meldingsbalk die onder in het Internet Explorer-venster verschijnt, klikt u op **Openen** om de installatie van de één-klik-ontwerper te starten. (De meldingsbalk kan op een andere locatie worden weergegeven in andere browsers.) De voortgangsindicator geeft de voortgang van het installatieproces weer.
-5. Nadat de installatie is voltooid, voert u uw Dynamics 365 for Retail-gebruikersnaam en -wachtwoord in en klikt u op **Aanmelden** om de ontwerper te starten.
+5. Nadat de installatie is voltooid, voert u uw Retail-gebruikersnaam en -wachtwoord in en klikt u op **Aanmelden** om de ontwerper te starten.
 6. Nadat uw referenties zijn gevalideerd en de ontwerper is gestart, kunt u beginnen met de ontvangstindeling te ontwerpen of een bestaande indeling te wijzigen.
 7. Voor het maken van de elementen van het formulier selecteert u de sectie **Koptekst**, **Regels** of **Voettekst** en sleept u een element uit die sectie naar de werkruimte. De meeste elementen bevatten variabelen, die automatisch worden gevuld met gegevens uit de database. Met andere elementen, zoals **Tekst**, kunt u aangepaste tekst op het ontvangstbewijs afdrukken.
 

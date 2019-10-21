@@ -1,6 +1,6 @@
 ---
-title: Nieuwe of gewijzigde functies in Dynamics 365 for Talent (16 juli 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Nieuwe of gewijzigde functies in Dynamics 365 Talent (16 juli 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ac0990a72224395cf109c7eb42cbb48ece2a0b4f
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: fd70b29089a4bf05c8fa9e3591fdb22383ea0cdc
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795191"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009711"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-16-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 for Talent (16 juli 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-16-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 Talent (16 juli 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 Deze versie bevat kleine correcties voor Dynamics 365 Talent: Attract.

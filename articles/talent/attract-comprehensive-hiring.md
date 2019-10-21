@@ -1,6 +1,6 @@
 ---
-title: Welke versie van Microsoft Dynamics 365 for Talent - Attract
-description: Dit onderwerp bevat informatie over de mogelijkheden van de verschillende versies van Microsoft Dynamics 365 for Talent - Attract.
+title: Welke versie van Microsoft Dynamics 365 Talent - Attract
+description: Dit onderwerp bevat informatie over de mogelijkheden van de verschillende versies van Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739700"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009941"
 ---
 # <a name="which-version-of-attract"></a>Welke versie van Attract?
 
 [!include[banner](../includes/banner.md)]
 
-Welke versie van Microsoft Dynamics 365 for Talent: Attract de juiste is voor u, is afhankelijk van de grootte en behoeften van uw organisatie. De basisversie van Attract biedt een subset van functionaliteit die is gericht op kleinere teams of organisaties waarin de aanstellende manager de primaire gebruiker is. U kunt beginnen met het gebruik van de basisversie van Attract met een of meer licenties.
+Welke versie van Microsoft Dynamics 365 Talent: Attract de juiste is voor u, is afhankelijk van de grootte en behoeften van uw organisatie. De basisversie van Attract biedt een subset van functionaliteit die is gericht op kleinere teams of organisaties waarin de aanstellende manager de primaire gebruiker is. U kunt beginnen met het gebruik van de basisversie van Attract met een of meer licenties.
 
 Attract met de Uitgebreide invoegtoepassing voor aanstellingen is gericht op middelgrote tot grote teams of organisaties waarin de werver of talentenspecialist de primaire gebruiker is. Voor de Uitgebreide invoegtoepassing voor aanstellingen moeten licenties worden aangeschaft via een [Microsoft Dynamics 365-partner](https://dynamics.microsoft.com/partners/find-a-partner/).
 

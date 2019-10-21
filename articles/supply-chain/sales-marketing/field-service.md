@@ -1,6 +1,6 @@
 ---
-title: Overzicht van integratie met Microsoft Dynamics 365 for Field Service
-description: In dit onderwerp vindt u een overzicht van de integratie met Microsoft Dynamics 365 for Field Service.
+title: Integratie met Microsoft Dynamics 365 Field Service - Overzicht
+description: In dit onderwerp vindt u een overzicht van de integratie met Microsoft Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,67 +19,67 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 22abe83f06b7fc57c73fb82ccafc4b426667e7c6
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865186"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249827"
 ---
-# <a name="integration-with-microsoft-dynamics-365-for-field-service-overview"></a>Overzicht van integratie met Microsoft Dynamics 365 for Field Service
+# <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integratie met Microsoft Dynamics 365 Field Service - Overzicht
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations maakt synchronisatie van zakelijke processen tussen Finance and Operations en Microsoft Dynamics 365 for Field Service mogelijk. De integratiescenario's worden geconfigureerd met uitbreidbare Gegevensintegrator-sjablonen en de Common Data Service (CDS) voor het inschakelen van de synchronisatie van bedrijfsprocessen.
+Supply Chain Management maakt synchronisatie van zakelijke processen mogelijk tussen Dynamics 365 Supply Chain Management en Dynamics 365 Field Service. De integratiescenario's worden geconfigureerd met uitbreidbare Gegevensintegrator-sjablonen en de Common Data Service voor het inschakelen van de synchronisatie van bedrijfsprocessen.
 Standaardsjablonen kunnen worden gebruikt om aangepaste integratieprojecten te maken waarin extra standaardvelden en aangepaste velden en entiteiten kunnen worden toegewezen voor het corrigeren van de integratie en om aan specifieke zakelijke behoeften te voldoen. 
 
 De Field Service-integratie borduurt voort op de bestaande functionaliteit voor prospect tot contant geld.
 
-![Synchronisatie van zakelijke processen tussen Finance and Operations en Field Service](./media/field-service-integration.png)
+![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/field-service-integration.png)
 
-De eerste fase van de integratie tussen Field Service en Finance and Operations is gericht op het inschakelen van werkorders en overeenkomsten in het Field Service dien worden gefactureerd in Finance and Operations. De ondersteunde stroom begint in Field Service, waar informatie uit werkorders wordt gesynchroniseerd met Finance and Operations als verkooporders. In Finance and Operations worden de verkooporders gefactureerd voor het genereren van factuurdocumenten. Bovendien wordt de informatie van overeenkomstfacturen in Field Service gesynchroniseerd met Finance and Operations. De Microsoft Dynamics 365 Gegevensintegrator synchroniseert gegevens met behulp van aanpasbare projecten. Standaardsjablonen kunnen worden gebruikt om aangepaste integratieprojecten te maken waarin extra standaardvelden en aangepaste velden en entiteiten kunnen worden toegewezen voor het corrigeren van de integratie en voor het voldoen aan specifieke behoeften.
+De eerste fase van de integratie tussen Field Service en Supply Chain Management is gericht op het inschakelen van werkorders en overeenkomsten in het Field Service dien worden gefactureerd in Supply Chain Management. De ondersteunde stroom begint in Field Service, waar informatie uit werkorders wordt gesynchroniseerd met Supply Chain Management als verkooporders. In Supply Chain Management worden de verkooporders gefactureerd om factuurdocumenten te genereren. Bovendien wordt de informatie van overeenkomstfacturen in Field Service gesynchroniseerd met Supply Chain Management. De Microsoft Dynamics 365 Gegevensintegrator synchroniseert gegevens met behulp van aanpasbare projecten. Standaardsjablonen kunnen worden gebruikt om aangepaste integratieprojecten te maken waarin extra standaardvelden en aangepaste velden en entiteiten kunnen worden toegewezen voor het corrigeren van de integratie en voor het voldoen aan specifieke behoeften.
 
-In de eerste fase van de integratie tussen Field Service en Finance and Operations wordt de synchronisatie gestart van de volgende items:
+In de eerste fase van de integratie tussen Field Service en Supply Chain Management wordt de synchronisatie gestart van de volgende items:
 
-- [Producten in Finance and Operations met producten van Field Service die informatie over het producttype bevatten](field-service-product.md)
-- [Werkorders in Field Service met verkooporders in Finance and Operations](field-service-work-order.md)
-- [Facturen in Field Service vrije-tekstfacturen in Finance and Operations](field-service-invoice.md)
+- [Producten in Supply Chain Management met producten van Field Service die informatie over het producttype bevatten](field-service-product.md)
+- [Werkorders in Field Service met verkooporders in Supply Chain Management](field-service-work-order.md)
+- [Facturen in Field Service vrije-tekstfacturen in Supply Chain Management](field-service-invoice.md)
 
-Bekijk de korte YouTube-video om een voorbeeld te zien van hoe u een werkorder synchroniseert tussen Field Service en Finance and Operations: [Een werkorder synchroniseren met Integratie van Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo).
+Bekijk de korte YouTube-video om een voorbeeld te zien van hoe u een werkorder synchroniseert tussen Field Service en Supply Chain Management: [Een werkorder synchroniseren met Integratie van Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo).
 
-## <a name="integration-with-microsoft-dynamics-365-for-field-service-including-inventory-and-project-information"></a>Integratie met Microsoft Dynamics 365 for Field Service, met inbegrip van voorraad- en projectgegevens
+## <a name="integration-with-field-service-including-inventory-and-project-information"></a>Integratie met Field Service, met inbegrip van voorraad- en projectgegevens
 
-De aanvullende functionaliteit in deze tweede fase is erop gericht om technici inzicht in de voorraadgegevens uit Finance and Operations te bieden zodat zij voorraadniveaus kunnen bijwerken en materiaal kunnen overboeken. Daarnaast profiteren bedrijven die verkochte goederen installeren of onderhouden van betere controle over en zichtbaarheid in het volledige verkoop- en serviceproces met de integratie van projecten.
+De aanvullende functionaliteit in deze tweede fase is erop gericht om technici inzicht in de voorraadgegevens uit Supply Chain Management te bieden zodat zij voorraadniveaus kunnen bijwerken en materiaal kunnen overboeken. Daarnaast profiteren bedrijven die verkochte goederen installeren of onderhouden van betere controle over en zichtbaarheid in het volledige verkoop- en serviceproces met de integratie van projecten.
 
 ### <a name="functionality-includes-integration-of"></a>Functionaliteit omvat de integratie van:
 - Magazijngegevens
 - Informatie over voorhanden voorraad
 - Voorraadoverboekingen
 - Voorraadcorrecties
-- Dynamics 365 for Finance and Operations-projecten die zijn verbonden met Dynamics 365 for Field Service-werkorders
-- Dynamics 365 for Field Service-werkorders met koppeling naar Dynamics 365 for Finance and Operations-projecten passen dit projectnummer op de Dynamics 365 for Finance and Operations-verkooporder toe om facturering van het project toe te staan. 
+- Supply Chain Management-projecten die zijn verbonden met Dynamics 365 Field Service-werkorders
+- Dynamics 365 Field Service-werkorders met koppeling naar Supply Chain Management-projecten passen dit projectnummer op de verkooporder toe om facturering van het project toe te staan. 
 
-![Synchronisatie van zakelijke processen tussen Finance and Operations en Field Service](./media/FSv2overview.png)
+![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/FSv2overview.png)
 
-### <a name="the-second-phase-of-the-integration-between-field-service-and-finance-and-operations-enables-synchronization-with-the-following-templates"></a>In de tweede fase van de integratie tussen Field Service en Finance and Operations wordt de synchronisatie met de volgende sjablonen ingeschakeld:
-- Magazijnen (Fin and Ops naar Field Service) - Magazijnen vanuit Finance and Operations naar Field Service [Geavanceerde query] 
-- Productvoorraad (Fin and Ops naar Field Service) - Voorraadniveaugegevens vanuit Finance and Operations naar Field Service [Geavanceerde query] 
-- Voorraadcorrectie (Field Service naar Fin and Ops) - Voorraadcorrecties vanuit Field Service naar Finance and Operations [Geavanceerde query] 
-- Voorraadoverboekingen (Field Service naar Fin and Ops) - Voorraadoverboekingen vanuit Field Service naar Finance and Operations [Geavanceerde query] 
-- Projecten (Fin and Ops naar Field Service) - Projectlijst vanuit Finance and Operations naar Field Service 
-- Werkorders met Project (Field Service naar Fin and Ops) - Werkorders in Field Service naar verkooporders in Finance and Operations, met ondersteuning voor Project [Geavanceerde query] 
-- Field Service-producten met Voorraadeenheid (Fin and Ops naar Sales) - 'Verkoopbare vrijgegeven producten' in Finance and Operations naar 'Producten' in Sales voor Field Service, inclusief Voorraadeenheid 
+### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>In de tweede fase van de integratie tussen Field Service en Supply Chain Management wordt de synchronisatie met de volgende sjablonen ingeschakeld:
+- Magazijnen (Supply Chain Management naar Field Service) - Magazijnen van Supply Chain Management naar Field Service [Geavanceerde query] 
+- Productvoorraad (Supply Chain Management naar Field Service) - Voorraadniveaugegevens van Supply Chain Management naar Field Service [Geavanceerde query] 
+- Voorraadcorrectie (Field Service naar Supply Chain Management) - Voorraadcorrecties van Field Service naar Supply Chain Management [Geavanceerde query] 
+- Voorraadoverboekingen (Field Service naar Supply Chain Management) - Voorraadoverboekingen van Field Service naar Supply Chain Management [Geavanceerde query] 
+- Projecten (Supply Chain Management naar Field Service) - Projectlijst van Supply Chain Management naar Field Service 
+- Werkorders met Project (Field Service naar Supply Chain Management) - Werkorders in Field Service naar verkooporders in Supply Chain Management, met ondersteuning voor Project [Geavanceerde query] 
+- Field Service-producten met Voorraadeenheid (Supply Chain Management naar Sales) - 'Verkoopbare vrijgegeven producten' in Supply Chain Management naar 'Producten' in Sales voor Field Service, inclusief Voorraadeenheid 
 
 ## <a name="system-requirements"></a>Systeemvereisten
 
-### <a name="system-requirements-for-finance-and-operations"></a>Systeemvereisten voor Finance and Operations
+### <a name="system-requirements-for-supply-chain-management"></a>Systeemvereisten voor Supply Chain Management
 Field Service-integratie ondersteunt de volgende versies:
 
-- Dynamics 365 for Finance and Operations versie 8.1.2 (december 2018) is uitgebracht in december 2018 en heeft een toepassingsbuildnummer 8.1.195 met Platform Update 22 (7.0.5095). 
+- Dynamics 365 for Finance and Operations versie 8.1.2 (december 2018) is uitgebracht in december 2018 en heeft een toepassingsbuildnummer 8.1.195 met Platform update 22 (7.0.5095). 
 
 ### <a name="system-requirements-for-field-service"></a>Systeemvereisten voor Field Service
 Als u de oplossing Field Service-integratie wilt gebruiken, moet u de volgende onderdelen installeren:
 
-- Field Service for Dynamics 365 (versie 8.2.0.286) of een latere versie van Dynamics 365 9.1.x - uitgebracht in november 2018
+- Field Service (versie 8.2.0.286) of een latere versie van Dynamics 365 9.1.x - uitgebracht in november 2018
 - De oplossing Prospect naar contant geld (P2C) voor Dynamics 365, versie 1.15.0.1 of een hogere versie. De oplossing kan worden gedownload van [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - De oplossing Field Service-integratie, -project en -voorraad voor Dynamics 365, versie 2.0.0.0 of een hogere versie. De oplossing kan worden gedownload van [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).

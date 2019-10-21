@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb02bdeca2d71d84ebdddfd16d471a532823e42
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564942"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025190"
 ---
 # <a name="retail-price-reports"></a>Adviesprijsrapporten
 
 [!include [banner](includes/banner.md)]
 
 
-Om concurrerende prijzen aan hun klanten te bieden wijzigen winkeliers vaak prijzen van hun producten. Winkelmanagers willen eenvoudig toegang tot recente of komende prijswijzigingen zodat ze de vereiste resources kunnen plannen om de prijsetiketten op de winkelschappen bij te werken. Met release 10.0 van Dynamics 365 for Retail kan een winkelmanager het rapport **Prijs** openen door te navigeren naar **Alle detailhandelwinkels \> Winkel \> Prijsrapport** en de bijgewerkte prijzen weer te geven voor de producten die zijn gekoppeld aan de winkel. 
+Om concurrerende prijzen aan hun klanten te bieden wijzigen winkeliers vaak prijzen van hun producten. Winkelmanagers willen eenvoudig toegang tot recente of komende prijswijzigingen zodat ze de vereiste resources kunnen plannen om de prijsetiketten op de winkelschappen bij te werken. Met release 10.0 van Retail kan een winkelmanager het rapport **Prijs openen** door te navigeren naar **Alle detailhandelwinkels \> Winkel \> Prijsrapport** en de bijgewerkte prijzen weer te geven voor de producten die zijn gekoppeld aan de winkel. 
 
 Om het prijsrapport in te schakelen moet de parameter **Prijsrapport inschakelen voor detailhandelwinkel** zijn ingeschakeld. Deze parameter bevindt zich op het tabblad **Detailhandelparameters \> Kortingen \> Diversen**. Als de pagina **Prijsrapport** wordt geopend, wordt een dialoogvenster weergegeven met verschillende configuraties. Hieronder staan de beschikbare configuraties.
 

@@ -1,6 +1,6 @@
 ---
-title: E-mailinstellingen configureren in Microsoft Dynamics 365 for Talent - Attract
-description: In dit onderwerp wordt uitgelegd hoe u instellingen configureert voor e-mail die door Microsoft Dynamcis 365 for Talent - Attract wordt verzonden.
+title: E-mailinstellingen configureren in Microsoft Dynamics 365 Talent - Attract
+description: In dit onderwerp wordt uitgelegd hoe u instellingen configureert voor e-mail die door Microsoft Dynamcis 365 Talent - Attract wordt verzonden.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739490"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008657"
 ---
 # <a name="configure-email-settings"></a>E-mailinstellingen configureren
 
 [!include[banner](../includes/banner.md)]
 
-Uw merk wekt vertrouwen en helpt u al een vertrouwensrelatie tot stand te brengen met kandidaten voordat deze solliciteren voor uw functies. Een positieve merkperceptie trekt de beste talenten aan en vergroot de loyaliteit van bestaande werknemers. Met Microsoft Dynamics 365 for Talent: Attract kunt u e-mailberichten zo configureren dat deze het merk van uw bedrijf weerspiegelen. Zo kunt u functiekandidaten een consistente ervaring bieden tijdens het sollicitatieproces.
+Uw merk wekt vertrouwen en helpt u al een vertrouwensrelatie tot stand te brengen met kandidaten voordat deze solliciteren voor uw functies. Een positieve merkperceptie trekt de beste talenten aan en vergroot de loyaliteit van bestaande werknemers. Met Microsoft Dynamics 365 Talent: Attract kunt u e-mailberichten zo configureren dat deze het merk van uw bedrijf weerspiegelen. Zo kunt u functiekandidaten een consistente ervaring bieden tijdens het sollicitatieproces.
 
 Met Attract kunt u de volgende acties uitvoeren:
 

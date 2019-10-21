@@ -1,6 +1,6 @@
 ---
 title: Talent-omgevingen verwijderen
-description: In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Dynamics 365 for Talent geleid.
+description: In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Dynamics 365 Talent geleid.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/20/2017
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 904c8eb1254a65e1627c33f14488a1a8e12f7c2b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517713"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010610"
 ---
 # <a name="remove-talent-environments"></a>Talent-omgevingen verwijderen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Dynamics 365 for Talent geleid.
+In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Dynamics 365 Talent geleid.
 
 ## <a name="removing-a-test-drive-environment"></a>Een testdrive-omgeving verwijderen
 
 Talent-testdrives zijn zo ingesteld dat ze na 60 dagen verlopen. Eigenaren van testdrive-omgevingen kunnen echter hun evaluatie eerder beëindigen met de volgende stappen. 
 
-1. Navigeer naar het [PowerApps-beheercentrum](https://admin.businessplatform.microsoft.com/).
+1. Naar het [PowerApps Beheercentrum](https://admin.businessplatform.microsoft.com/) navigeren.
 2. Selecteer **Omgevingen**.
 3. Selecteer de testdrive-omgeving die een naampatroon heeft zoals: TestDrive - alias@domein
 4. Selecteer **Verwijderen** en bevestig de beslissing. 
@@ -45,14 +45,14 @@ De bestaande testdrive-omgeving wordt verwijderd. Wanneer deze is verwijderd, ku
 
 In dit onderwerp wordt ervan uitgegaan dat u Talent hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). 
 
-Aangezien één Talent-omgeving is opgenomen in één PowerApps-omgeving, zijn twee opties mogelijk. De eerste optie is het verwijderen van de gehele PowerApps-omgeving; bij de tweede optie verwijdert u alleen Talent. De eerste optie is het beste wanneer u een PowerApps-omgeving speciaal voor Talent hebt gemaakt en dat u net met implementatie bent begonnen of wanneer er geen integratie is uitgevoerd. De tweede optie is geschikt wanneer er een PowerApps-omgeving hebt voorzien van veel gegevens die worden gebruikt in PowerApps en Flows.
+Aangezien één Talent-omgeving is opgenomen in één PowerApps-omgeving, zijn twee opties mogelijk. De eerste optie is het verwijderen van de gehele PowerApps-omgeving; bij de tweede optie verwijdert u alleen Talent. De eerste optie is het beste wanneer u een PowerApps-omgeving speciaal voor Talent hebt gemaakt en u net met de implementatie bent begonnen, of wanneer er geen integratie is uitgevoerd. De tweede optie is geschikt wanneer u een PowerApps-omgeving hebt die is voorzien van veel gegevens, die worden gebruikt in PowerApps en Flows.
 
 > [!Important]
 > Controleer voordat u de PowerApps-omgeving verwijdert, of deze niet wordt gebruikt voor de integratie van gegevens buiten het bereik van Talent. Houd er ook rekening mee dat de standaard PowerApps-omgevingen niet kunnen worden verwijderd. 
 
 De gehele PowerApps-omgeving, inclusief Talent en de bijbehorende Apps en Flows verwijderen:
 
-1. Navigeer naar het [PowerApps-beheercentrum](https://admin.businessplatform.microsoft.com/).
+1. Naar het [PowerApps Beheercentrum](https://admin.businessplatform.microsoft.com/) navigeren.
 2. Selecteer **Omgevingen**.
 3. Selecteer de omgeving die u wilt verwijderen.
 4. Selecteer **Verwijderen** en bevestig de beslissing. 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555148"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248975"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samenwerken met leveranciers met behulp van de leveranciersportal
 
@@ -31,7 +31,7 @@ ms.locfileid: "1555148"
 
 In dit onderwerp wordt uitgelegd hoe inkoopmedewerkers de leveranciersportal kunnen gebruiken om tijdens het inkooporderbevestigingsproces samen te werken met externe leveranciers. Deze informatie geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX.
 
-De informatie in dit onderwerp geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX. De functionaliteit Leveranciersportal is vervangen door de verbeterde functionaliteit voor leverancierssamenwerking in Dynamics 365 for Operations versie 1611. Meer informatie over de nieuwe functionaliteit voor leverancierssamenwerking vindt u in [Leverancierssamenwerking gebruiken voor het werken met externe leveranciers](vendor-collaboration-work-external-vendors.md).  
+De informatie in dit onderwerp geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX. Meer informatie over de nieuwe functionaliteit voor leverancierssamenwerking vindt u in [Leverancierssamenwerking gebruiken voor het werken met externe leveranciers](vendor-collaboration-work-external-vendors.md).  
 
 De leveranciersportal is bedoeld voor leveranciers die geen EDI-integratie (Electronic Data Interchange) met Microsoft Dynamics AX hebben voor het uitwisselen van inkoopordergegevens. Met de portal kunnen inkoopmedewerkers een IO (inkooporder) sturen naar de leverancier en vervolgens direct een antwoord met de status Bevestigd of Afgewezen in Dynamics AX ontvangen.  
 

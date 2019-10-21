@@ -1,6 +1,6 @@
 ---
 title: Verkooptrends en patronen analyseren
-description: U kunt verkooptrends en -patronen bestuderen in realtime in Microsoft Dynamics 365 for Retail.
+description: U kunt verkooptrends en -patronen bestuderen in realtime in Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c54e707d312d7ac3bbcad71a914e528859038a13
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557895"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025812"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>Verkooptrends en patronen analyseren
 
 [!include [banner](includes/banner.md)]
 
-U kunt verkooptrends en -patronen bestuderen in realtime in Microsoft Dynamics 365 for Retail.
+U kunt verkooptrends en -patronen bestuderen in realtime in Dynamics 365 Retail.
 
-Als onderdeel van Dynamics 365 for Retail kunnen gebruikers trends en patronen in de verkoop bestuderen in realtime op verschillende niveaus van de organisatiehiërarchie over een periode van jaren, door het kant-en-klare rapport **Afzetkanaalverkoop per jaar** te openen. U kunt dit rapport openen vanaf een van de volgende locaties:
+Als onderdeel van Retail kunnen gebruikers trends en patronen in de verkoop bestuderen in realtime op verschillende niveaus van de organisatiehiërarchie over een periode van jaren, door het kant-en-klare rapport **Afzetkanaalverkoop per jaar** te openen. U kunt dit rapport openen vanaf een van de volgende locaties:
 
 - Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**
 - Werkgebied **Financiën van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Financiën van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**

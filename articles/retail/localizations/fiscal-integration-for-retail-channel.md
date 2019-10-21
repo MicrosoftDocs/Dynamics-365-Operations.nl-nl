@@ -1,6 +1,6 @@
 ---
 title: Overzicht van fiscale integratie voor detailhandelskanalen
-description: Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Microsoft Dynamics 365 for Retail.
+description: Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Retail.
 author: josaw
 manager: annbe
 ms.date: 02/01/2019
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516233"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025402"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Overzicht van fiscale integratie voor detailhandelskanalen
 
@@ -30,13 +30,13 @@ ms.locfileid: "1516233"
 
 ## <a name="introduction"></a>Introductie
 
-Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Microsoft Dynamics 365 for Retail. Fiscale integratie omvat integratie met verschillende fiscale apparaten en services die fiscale registratie mogelijk maken van detailhandelverkoop, in overeenstemming met de lokale belastingwetgeving die gericht is op het voorkomen van belastingfraude in de detailhandel. Dit zijn enkele veelvoorkomende scenario's die kunnen worden gedekt door fiscale integratie:
+Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Retail. Fiscale integratie omvat integratie met verschillende fiscale apparaten en services die fiscale registratie mogelijk maken van detailhandelverkoop, in overeenstemming met de lokale belastingwetgeving die gericht is op het voorkomen van belastingfraude in de detailhandel. Dit zijn enkele veelvoorkomende scenario's die kunnen worden gedekt door fiscale integratie:
 
 - Registreer een detailhandelverkoop op een fiscaal apparaat dat is verbonden met Retail POS, zoals een fiscale printer, en druk een fiscaal ontvangstbewijs voor de klant af.
 - Dien veilig informatie die verband houdt met verkopen en retouren die worden voltooid in Retail POS, in bij een externe webservice die wordt bediend door de belastingdienst.
 - Help intactheid van verkooptransactiegegevens garanderen met behulp van digitale ondertekening.
 
-De functionaliteit voor fiscale integratie in de detailhandel is een raamwerk dat een gemeenschappelijke oplossing biedt voor verdere ontwikkeling en aanpassing van de integratie tussen Retail POS en fiscale apparaten en services. De functionaliteit bevat ook fiscale integratievoorbeelden die ondersteuning bieden voor elementaire detailhandelscenario's voor specifieke landen of regio's, en die werken met specifieke fiscale apparaten of services. Een fiscaal integratievoorbeeld bestaat uit verschillende uitbreidingen van de detailhandelonderdelen en is opgenomen in de Retail-SDK (Software Development Kit). Zie voor meer informatie over fiscale integratievoorbeelden die beschikbaar zijn in de Retail-SDK [Fiscale integratievoorbeelden in de Retail-SDK](#fiscal-integration-samples-in-the-retail-sdk). Zie voor informatie over het installeren en gebruiken van de Retail-SDK [Overzicht van de Retail-SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+De functionaliteit voor fiscale integratie is een raamwerk dat een gemeenschappelijke oplossing biedt voor verdere ontwikkeling en aanpassing van de integratie tussen Retail POS en fiscale apparaten en services. De functionaliteit bevat ook fiscale integratievoorbeelden die ondersteuning bieden voor elementaire detailhandelscenario's voor specifieke landen of regio's, en die werken met specifieke fiscale apparaten of services. Een fiscaal integratievoorbeeld bestaat uit verschillende uitbreidingen van de detailhandelonderdelen en is opgenomen in de SDK (Software Development Kit). Zie voor meer informatie over de voorbeelden van fiscale integratie [Voorbeelden van fiscale integratie in de Retail-SDK](#fiscal-integration-samples-in-the-retail-sdk). Zie voor informatie over het installeren en gebruiken van de Retail-SDK [Overzicht van de Retail-SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Ter ondersteuning van andere scenario's die niet worden ondersteund door een fiscaal integratievoorbeeld, om Retail POS te integreren met andere fiscale apparaten of services of om te voldoen aan vereisten van andere landen of regio's, moet u een bestaand fiscaal integratievoorbeeld uitbreiden of een nieuw voorbeeld maken op basis van een bestaand voorbeeld.
 
@@ -44,7 +44,7 @@ Ter ondersteuning van andere scenario's die niet worden ondersteund door een fis
 
 Een fiscaal registratieproces in Retail POS kan bestaan uit een of meer stappen. Elke stap omvat fiscale registratie van specifieke detailhandeltransacties of -gebeurtenissen in één fiscaal apparaat of service. De volgende oplossingsonderdelen maken deel uit van de fiscale registratie in een fiscaal apparaat dat is verbonden met een Hardware-station:
 
-- **Extensie Commerce runtime (CRT)**: dit onderdeel serialiseert gebeurtenissen van detailhandeltransacties/-gebeurtenissen in de indeling die ook wordt gebruikt voor interactie met het fiscale apparaat, ontleedt antwoorden van het fiscale apparaat en slaat de antwoorden op in de afzetkanaaldatabase. De extensie definieert ook de specifieke transacties en gebeurtenissen die moeten worden geregistreerd. Naar dit onderdeel wordt vaak verwezen als een *fiscale documentprovider*.
+- Extensie **Commerce runtime (CRT)**: dit onderdeel serialiseert gebeurtenissen van detailhandeltransacties/-gebeurtenissen in de indeling die ook wordt gebruikt voor interactie met het fiscale apparaat, ontleedt antwoorden van het fiscale apparaat en slaat de antwoorden op in de afzetkanaaldatabase. De extensie definieert ook de specifieke transacties en gebeurtenissen die moeten worden geregistreerd. Naar dit onderdeel wordt vaak verwezen als een *fiscale documentprovider*.
 - **Extensie Hardware-station**: dit onderdeel initialiseert de communicatie met het fiscale apparaat, verzendt aanvragen en directe opdrachten naar het fiscale apparaat op basis van de gegevens van detailhandeltransacties/-gebeurtenissen die afkomstig zijn uit het fiscale document en ontvangt antwoorden van het fiscale apparaat. Naar dit onderdeel wordt vaak verwezen als een *fiscale connector*.
 
 Een fiscaal integratievoorbeeld voor een fiscaal apparaat bevat de extensies CRT en Hardware-station voor respectievelijk een fiscale documentprovider en een fiscale connector. Het bevat ook de volgende componentconfiguraties:
@@ -132,7 +132,7 @@ De functionaliteit voor fiscale integratie ondersteunt het genereren van eindeda
 
 ## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Fiscale integratievoorbeelden in de Retail-SDK
 
-De volgende fiscale integratievoorbeelden zijn momenteel beschikbaar in de Retail-SDK die wordt vrijgegeven met Retail:
+De volgende fiscale integratievoorbeelden zijn momenteel beschikbaar in de Retail-SDK:
 
 - [Voorbeeld van integratie van fiscale printer voor Italië](emea-ita-fpi-sample.md)
 - [Voorbeeld van integratie van fiscale printer voor Polen](emea-pol-fpi-sample.md)

@@ -1,6 +1,6 @@
 ---
 title: Detailhandelskanalen definiëren en onderhouden
-description: Dit onderwerp biedt een overzicht van het proces voor het opzetten van fysieke winkels, waarnaar in Microsoft Dynamics 365 for Retail als detailhandelwinkels wordt verwezen. Het bevat informatie over de taken die u vóór en na het opzetten van een detailhandelwinkel moet uitvoeren.
+description: Dit onderwerp biedt een overzicht van het proces voor het opzetten van fysieke winkels, waarnaar in Dynamics 365 Retail als detailhandelwinkels wordt verwezen. Het bevat informatie over de taken die u vóór en na het opzetten van een detailhandelwinkel moet uitvoeren.
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560343"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019365"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Detailhandelskanalen definiëren en onderhouden
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van het proces voor het opzetten van fysieke winkels, waarnaar in Microsoft Dynamics 365 for Retail als detailhandelwinkels wordt verwezen. Het bevat informatie over de taken die u vóór en na het opzetten van een detailhandelwinkel moet uitvoeren.
+Dit onderwerp biedt een overzicht van het proces voor het opzetten van fysieke winkels, waarnaar in Dynamics 365 Retail als detailhandelwinkels wordt verwezen. Het bevat informatie over de taken die u vóór en na het opzetten van een detailhandelwinkel moet uitvoeren.
 
-Dynamics 365 for Retail ondersteunt meerdere retailkanalen, zoals onlinewinkels, callcenters en fysieke winkels. Een fysieke winkel wordt een detailhandelswinkel genoemd. Iedere detailhandelwinkel kan zijn eigen betalingsmethoden, prijsgroepen, verkooppuntkassa's (POS), inkomsten- en uitgavenrekeningen en personeel hebben. U moet al deze elementen voor een detailhandel instellen voordat u deze maakt. Nadat u de detailhandelswinkel hebt gemaakt, wijst u de producten toe die u wilt verkopen. U moet ook werknemers, kassa's en klanten aan de winkel toewijzen. Tot slot voegt u de nieuwe winkel toe aan een organisatiehiërarchie.
+Retail ondersteunt meerdere retailkanalen, zoals onlinewinkels, callcenters en fysieke winkels. Een fysieke winkel wordt een detailhandelswinkel genoemd. Iedere detailhandelwinkel kan zijn eigen betalingsmethoden, prijsgroepen, verkooppuntkassa's (POS), inkomsten- en uitgavenrekeningen en personeel hebben. U moet al deze elementen voor een detailhandel instellen voordat u deze maakt. Nadat u de detailhandelswinkel hebt gemaakt, wijst u de producten toe die u wilt verkopen. U moet ook werknemers, kassa's en klanten aan de winkel toewijzen. Tot slot voegt u de nieuwe winkel toe aan een organisatiehiërarchie.
 
 ## <a name="setting-up-retail-stores"></a>Detailhandelwinkels instellen
 
-Voordat u een detailhandel kunt instellen in Dynamics 365 for Retail, moet u enkele vereiste taken uitvoeren. U kunt de detailhandel vervolgens maken en gegevens toevoegen.
+Voordat u een detailhandel kunt instellen in Retail, moet u enkele vereiste taken uitvoeren. U kunt de detailhandel vervolgens maken en gegevens toevoegen.
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -55,7 +55,7 @@ Voordat u een detailhandel kunt instellen, moet u enkele vereiste taken uitvoere
 11. Personeelsleden instellen.
 
     > [!NOTE]
-    > U moet ook de juiste machtigingen aan werknemers toewijzen, zodat ze zich kunnen aanmelden en taken kunnen uitvoeren met het Retail POS-systeem van Dynamics 365 for Retail.
+    > U moet ook de juiste machtigingen aan werknemers toewijzen, zodat ze zich kunnen aanmelden en taken kunnen uitvoeren met het Retail POS-systeem.
 
 12. Configureer de Retail POS-profielen die u aan de winkel wilt toewijzen. Deze taak omvat veel andere taken, zoals het opzetten van kassa´s, het instellen van offlineprofielen en ontvangstbewijsindelingen en -profielen.
 

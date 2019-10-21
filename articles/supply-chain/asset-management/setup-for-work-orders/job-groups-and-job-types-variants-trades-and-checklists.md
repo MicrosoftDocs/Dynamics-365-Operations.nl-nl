@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874757"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249604"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten
 
@@ -225,7 +225,7 @@ Sjablonen voor onderhoudscontrolelijsten kunnen worden gebruikt als algemene set
 26. Als u bijlagen wilt instellen voor een geselecteerde regel voor standaard type onderhoudstaken, selecteert u **Documenten bijvoegen**. Bijlagen die zijn ingesteld op een reel voor standaard type onderhoudstaken worden automatisch opgenomen op werkorderregels die de regel van het standaard type onderhoudstaak gebruiken.
 27. Selecteer **Nieuw** en selecteer vervolgens een documenttype.
 28. Upload het document of bestand.
-29. Stel de velden in op pagina **Bijlagen**. Bij de instelling voor bijlagen wordt de standaard functionaliteit voor documentinstellingen gebruikt in Microsoft Dynamics 365 for Finance and Operations.
+29. Stel de velden in op pagina **Bijlagen**. Bij de instelling voor bijlagen wordt de standaard functionaliteit voor documentinstellingen gebruikt.
 30. Selecteer **Opslaan** om de bijlage op te slaan.
 
     > [!NOTE]
@@ -261,7 +261,7 @@ Nadat u de vereiste combinaties hebt gemaakt voor het vereiste type onderhoudsta
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Prognoses van het type onderhoudstaak automatisch bijwerken
 
-In Activabeheer kunt u eventuele wijzigingen in prognoses voor typen onderhoudstaken die betrekking hebben op uurkosten, artikelkosten en onkosten, automatisch bijwerken als ze zijn bijgewerkt in andere modules in Finance and Operations. Op deze manier zorgt u ervoor dat prognoses van het type onderhoudstaak altijd de laatste kostprijzen gebruiken.
+In Activabeheer kunt u eventuele wijzigingen in prognoses voor typen onderhoudstaken die betrekking hebben op uurkosten, artikelkosten en onkosten, automatisch bijwerken als ze zijn bijgewerkt in andere modules. Op deze manier zorgt u ervoor dat prognoses van het type onderhoudstaak altijd de laatste kostprijzen gebruiken.
 
 1. Selecteer **Activabeheer** \> **Periodiek** \> **Prognose** \> **Prognose type onderhoudstaken bijwerken**
 2. In het dialoogvenster **Prognose type onderhoudstaken bijwerken**, op het Sneltabblad **Records om op te nemen**, kunt u selecties voor specifieke typen onderhoudstaken toevoegen als u deze nodig hebt. Selecteer **Filter**en selecteer vervolgens **selecteren** om de selecties te maken.

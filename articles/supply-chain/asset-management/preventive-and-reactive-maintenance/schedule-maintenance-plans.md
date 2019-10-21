@@ -3,7 +3,7 @@ title: Schema voor onderhoudsplannen
 description: In dit onderwerp wordt het plannen van onderhoudsplannen in Activabeheer uitgelegd.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875584"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922040"
 ---
 # <a name="schedule-maintenance-plans"></a>Schema voor onderhoudsplannen
 
@@ -49,11 +49,11 @@ Door preventief onderhoud te plannen, worden kalenderitems voor activa gegeneree
 
 - Wat de planning van onderhoudsplannen en functionele locaties betreft: als u de instellingen van activatypen, fabrikanten en modellen in onderhoudsplannen bijwerkt in **Alle functionele locaties** > **sneltabblad Onderhoudsplannen** nadat u onderhoudsplannen hebt gepland, worden bestaande onderhoudsplannen die betrekking hebben op die functionele locatie automatisch verwijderd. Als u nieuwe kalenderitems wilt maken die overeenkomen met de bijgewerkte instellingen voor onderhoudsplannen op de functionele locatie, moet u een nieuw schema voor onderhoudsplannen voor die functionele locatie uitvoeren. Lees meer over het instellen van activatypen, fabrikanten en modellen op functionele locaties in [Functionele locaties maken](../functional-locations/create-functional-locations.md).
 
->*Voorbeeld*: u wilt een onderhoudsplan voor een bepaalde functionele locatie maken. Dat betekent dat alle activa die op die functionele locatie zijn ingesteld op een bepaald moment worden opgenomen wanneer u het onderhoudsplan plant. In dat geval maakt u een onderhoudsplan en selecteert u de specifieke functionele locatie. U voegt echter GEEN objecten aan het onderhoudsplan toe. Het resultaat is dat wanneer u dat onderhoudsplan plant, de onderhoudsschemaregels worden gemaakt voor alle activa die op dat moment aan de functionele locatie zijn gekoppeld.
+>*Voorbeeld*: u wilt een onderhoudsplan voor een bepaalde functionele locatie maken. Dat betekent dat alle activa die op die functionele locatie zijn ingesteld op een bepaald moment worden opgenomen wanneer u het onderhoudsplan plant. In dat geval maakt u een onderhoudsplan en selecteert u de specifieke functionele locatie. U voegt echter GEEN objecten toe aan het onderhoudsplan. Het resultaat is dat wanneer u dat onderhoudsplan plant, de onderhoudsschemaregels worden gemaakt voor alle activa die op dat moment aan de functionele locatie zijn gekoppeld.
 
 - Als u wijzigingen aanbrengt in activatypen, fabrikanten en modellen in **Activatypen**, worden deze wijzigingen alleen toegepast op nieuwe activa die het bijgewerkte activatype gebruiken. Meer informatie over het instellen van activatypen vindt u in [Activatypen](../setup-for-objects/object-types.md).  
 
-5. Klik op **OK** om het genereren van onderhoudsschema-items voor activa te starten. De gegenereerde items worden weer op de lijstpagina **Hele onderhoudsschema**.
+5. Klik op **OK** om het genereren van onderhoudsschema-items voor activa te starten. De gegenereerde items worden weer op de lijstpagina **Hele onderhoudsschema**. In de volgende afbeelding ziet u een voorbeeld van de dialoog **Onderhoudsplanning**.
 
 ![Figuur 1](media/09-preventive-maintenance.png)
 
@@ -75,3 +75,4 @@ De voorbeelden die hier worden beschreven, laten zien dat alle tellerregistratie
 ![Figuur 3](media/11-preventive-maintenance.png)
 
 ![Figuur 4](media/12-preventive-maintenance.png)
+

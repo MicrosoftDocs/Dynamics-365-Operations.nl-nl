@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85afddb34f29e13e17f2b93bb2633183a78e31f7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 462d35ebf1015ace032c523a4efe92bc7594ba3c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559803"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026910"
 ---
 # <a name="mobile-bar-code-support"></a>Mobiele ondersteuning voor streepjescodes
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559803"
 Omdat Android een open-sourceproject is, kan elke hardwarefabrikant van streepjescodescanners voor magazijnen een apparaat maken waarop het Android-besturingssysteem kan worden uitgevoerd. Een apparaat is alleen Android-compatibel als er apps op kunnen worden uitgevoerd die zijn geschreven voor de uitvoeringsomgeving van Android.
 Een hardwareleverancier kan echter overlays wijzigen en maken voor de Android-versie die op hun hardware wordt uitgevoerd. Microsoft is op geen enkele manier verantwoordelijk voor de compatibiliteit van een mobiele app voor het scannen van streepjescodes voor Android met de hardware voor het scannen van streepjescodes van de fabrikant en de Android-versie die hierop wordt uitgevoerd. 
 
-De app magazijnbeheer voor Microsoft Dynamics 365 for Finance and Operations is getest met een selectie van Android-apparaten voor het scannen van streepjescodes. Deze tests hebben slechts betrekking op een aantal apparaten die beschikbaar zijn op de markt.
+De app Dynamics 365 Supply Chain Management - Magazijnbeheer is getest met een selectie van Android-apparaten voor het scannen van streepjescodes. Deze tests hebben slechts betrekking op een aantal apparaten die beschikbaar zijn op de markt.
 
 Als klant wordt u aangeraden de app Magazijn voor mobiel scannen op bepaalde hardware te testen voordat u besluit welke hardware u wilt aanschaffen.
 

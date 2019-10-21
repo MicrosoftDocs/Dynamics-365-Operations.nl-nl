@@ -1,6 +1,6 @@
 ---
 title: Zoekfunctie voor producten en klanten op het verkooppunt (POS)
-description: Dit onderwerp biedt een overzicht van verbeteringen die zijn aangebracht in de functies voor het zoeken van producten en klanten in Microsoft Dynamics 365 for Retail.
+description: Dit onderwerp biedt een overzicht van verbeteringen die zijn aangebracht in de functies voor het zoeken van producten en klanten in Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625637"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023677"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 
@@ -99,7 +99,10 @@ De traditionele zoekopdracht voor klanten kan tijdrovend zijn, omdat er meerdere
 
 ![Snelkoppelingen voor het zoeken naar klanten](./media/SearchShortcutsPOS.png "Snelkoppelingen voor het zoeken naar klanten")
 
-Voor het instellen van zoekcriteria als snelkoppelingen moet de beheerder de pagina **Detailhandelparameters** openen in Microsoft Dynamics 365 for Finance and Operations en vervolgens op het tabblad **POS-zoekcriteria** klikken en alle criteria selecteren die moeten worden weergegeven als snelkoppelingen.
+
+
+Voor het instellen van zoekcriteria als snelkoppelingen moet de beheerder de pagina **Detailhandelparameters** openen in Microsoft Dynamics 365 Retail en vervolgens op het tabblad **POS-zoekcriteria** klikken en alle criteria selecteren die moeten worden weergegeven als snelkoppelingen.
+
 
 ![Snelkoppelingen voor zoeken configureren](./media/ConfigureShortcutsAX.png "Snelkoppelingen voor zoeken configureren")
 
@@ -111,6 +114,6 @@ Het veld **Weergavevolgorde** bepaalt de volgorde waarin de snelkoppelingen word
 > [!NOTE]
 > Een aangepaste eigenschap die wordt toegevoegd aan de enum heeft geen invloed op het standaardzoekalgoritme voor klanten. Het klantzoekalgoritme zoekt dus niet in de aangepaste eigenschap. Gebruikers kunnen alleen een aangepaste eigenschap gebruiken voor zoekopdrachten als die aangepaste eigenschap is toegevoegd als een snelkoppeling of als het standaardzoekalgoritme is overschreven.
 
-In een aanstaande release van Microsoft Dynamics 365 for Retail kunnen detailhandelaren de standaardzoekmodus voor klanten in POS instellen op **In alle winkels zoeken**. Deze configuratie kan handig zijn in scenario's waar klanten die buiten POS zijn gemaakt onmiddellijk moeten worden doorzocht (bijvoorbeeld zelfs voordat de distributietaak wordt uitgevoerd). De nieuwe optie **Standaardzoekmodus voor klanten** is beschikbaar in het POS-functionaliteitsprofiel. Stel deze optie in op **Aan** om de standaardzoekmodus in te stellen op **In alle winkels zoeken**. Bij elke zoekpoging van klanten wordt vervolgens een realtime aanroep naar het hoofdkantoor uitgevoerd.
+In een aanstaande release van Retail kunnen detailhandelaren de standaardzoekmodus voor klanten in POS instellen op **In alle winkels zoeken**. Deze configuratie kan handig zijn in scenario's waar klanten die buiten POS zijn gemaakt onmiddellijk moeten worden doorzocht (bijvoorbeeld zelfs voordat de distributietaak wordt uitgevoerd). De nieuwe optie **Standaardzoekmodus voor klanten** is beschikbaar in het POS-functionaliteitsprofiel. Stel deze optie in op **Aan** om de standaardzoekmodus in te stellen op **In alle winkels zoeken**. Bij elke zoekpoging van klanten wordt vervolgens een realtime aanroep naar het hoofdkantoor uitgevoerd.
 
 Om onverwachte problemen met prestaties te voorkomen, wordt deze configuratie verborgen achter een flighting-markering met de naam **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Als de instelling **Standaardzoekmodus voor klanten** in de gebruikersinterface moet worden weergegeven, moet de detailhandelaar dus een ondersteuningsticket maken voor de UAT- (User Acceptance Testing) en productieomgevingen. Nadat het ticket is ontvangen, werkt het technisch team samen met de detailhandelaar om ervoor te zorgen dat de detailhandelaar de tests uitvoert in de niet-productieomgeving om de prestaties te beoordelen en eventuele vereiste optimalisaties te implementeren.

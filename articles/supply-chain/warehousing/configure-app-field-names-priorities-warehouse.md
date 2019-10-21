@@ -1,6 +1,6 @@
 ---
 title: Veldnamen in magazijnapp configureren
-description: In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Finance and Operations.
+description: In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,24 +19,24 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0162014189ed6bffb17e6718a67eecfd55c334a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548924"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251080"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Veldnamen in magazijnapp configureren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Finance and Operations. 
+In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 Supply Chain Management. 
 
-**Opmerking:** dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. Finance and Operations - Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren en hoe ze worden gebruikt in Finance and Operations - Magazijnbeheer. Raadpleeg voor gedetailleerde informatie over het configureren van de verbinding met Finance and Operations - Magazijnbeheer, de zelfstudie [Finance and Operations - Magazijnbeheer installeren en configureren](install-configure-warehousing-app.md).
+**Opmerking:** dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren en hoe ze worden gebruikt in Magazijnbeheer. Raadpleeg voor gedetailleerde informatie over het configureren van de verbinding met Magazijnbeheer, de zelfstudie [Magazijnbeheer installeren en configureren](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Veldnamen van magazijnapp configureren
 
-Wanneer u Finance and Operations - Magazijnbeheer op uw mobiele apparaat gebruikt, kunt u configureren hoe metagegevens moeten worden weergegeven op uw apparaat op de pagina **Veldnamen magazijnapp**. Selecteer in een nieuw bedrijf in Finance and Operations **Standaardinstelling maken** om alle veldnamen te genereren die worden gebruikt in de magazijnworkflows van het mobiele apparaat en wijs er vervolgens een gewenste invoermodus en invoertype aan toe. Nadat u alle veldnamen hebt gegenereerd, kunt u de volgende invoeropties selecteren.
+Wanneer u Magazijnbeheer op uw mobiele apparaat gebruikt, kunt u configureren hoe metagegevens moeten worden weergegeven op uw apparaat op de pagina **Veldnamen magazijnapp**. Selecteer in een nieuw bedrijf **Standaardinstelling maken** om alle veldnamen te genereren die worden gebruikt in de magazijnworkflows van het mobiele apparaat en wijs er vervolgens een gewenste invoermodus en invoertype aan toe. Nadat u alle veldnamen hebt gegenereerd, kunt u de volgende invoeropties selecteren.
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ Wanneer u Finance and Operations - Magazijnbeheer op uw mobiele apparaat gebruik
 
 ## <a name="configure-warehouse-app-field-priority"></a>Veldprioriteit van magazijnapp configureren
 
-Op de pagina **Veldprioriteit van magazijnapp** kunt u veldnamen in verschillende prioriteitsgroepen plaatsen. Hierdoor kunt u bepalen welke informatie moet worden weergegeven op de hoofdtaakpagina wanneer magazijnmedewerkers taken uitvoeren met de app. Als u op **Standaardinstelling maken** klikt, wordt een standaardset prioriteitsgroepen gegenereerd. Het is mogelijk zoveel prioriteitsgroepen te maken als nodig is, maar slechts drie prioriteitsgroepen worden op de taakpagina weergegeven. Als Finance and Operations metagegevens naar de app verzendt, wordt aan elk veld een relatieve prioriteit toegewezen, afhankelijk van de bijbehorende prioriteitsgroep. In de app worden de eerste prioriteitsgroepen in de metagegevens op de taakpagina weergegeven. De rest van de overlopende metagegevens wordt weergegeven op een secundaire detailpagina. De volgende tabel bevat een voorbeeld van vijf prioriteitsgroepen.
+Op de pagina **Veldprioriteit van magazijnapp** kunt u veldnamen in verschillende prioriteitsgroepen plaatsen. Hierdoor kunt u bepalen welke informatie moet worden weergegeven op de hoofdtaakpagina wanneer magazijnmedewerkers taken uitvoeren met de app. Als u op **Standaardinstelling maken** klikt, wordt een standaardset prioriteitsgroepen gegenereerd. Het is mogelijk zoveel prioriteitsgroepen te maken als nodig is, maar slechts drie prioriteitsgroepen worden op de taakpagina weergegeven. Als het systeem metagegevens naar de app verzendt, wordt aan elk veld een relatieve prioriteit toegewezen, afhankelijk van de bijbehorende prioriteitsgroep. In de app worden de eerste prioriteitsgroepen in de metagegevens op de taakpagina weergegeven. De rest van de overlopende metagegevens wordt weergegeven op een secundaire detailpagina. De volgende tabel bevat een voorbeeld van vijf prioriteitsgroepen.
 
 <table>
 <colgroup>
@@ -143,6 +143,3 @@ De resterende metagegevens, bijvoorbeeld Locatie, worden niet weergegeven op de 
 --------
 
 [Microsoft Dynamics 365 for Finance and Operations – Magazijnbeheer installeren en configureren](install-configure-warehousing-app.md)
-
-
-

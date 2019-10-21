@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 693d1821779d5f7af95b900daa3bb7a2c38a6354
-ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
+ms.openlocfilehash: 4517b9ddeb648b3d789773fc0dcb1ecd3c8be85c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755518"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024793"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Overzichten maken, berekenen en boeken voor een detailhandelwinkel
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-In dit onderwerp worden de handmatige stappen beschreven voor het maken, berekenen en boeken van een overzicht voor een winkel. Er zijn ook batchtaken die voor dezelfde taken kunnen worden geconfigureerd. De stappen voor het configureren en uitvoeren van de batchtaken kunnen in andere onderwerpen worden gevonden. Als u deze procedure wilt voltooien, moet u transacties hebben die in POS zijn voltooid en vervolgens in Dynamics 365 for Finance and Operations zijn opgehaald. Deze registratie gebruikt het demobedrijf USRT.
+In dit onderwerp worden de handmatige stappen beschreven voor het maken, berekenen en boeken van een overzicht voor een winkel. Er zijn ook batchtaken die voor dezelfde taken kunnen worden geconfigureerd. De stappen voor het configureren en uitvoeren van de batchtaken kunnen in andere onderwerpen worden gevonden. Als u deze procedure wilt voltooien, moet u transacties hebben die in POS zijn voltooid en vervolgens in Dynamics 365 Retail zijn opgehaald. Deze registratie gebruikt het demobedrijf USRT.
 
 1. Selecteer **Financiën van detailhandelwinkel** op de startpagina.
 2. Selecteer **Nieuw overzicht**.

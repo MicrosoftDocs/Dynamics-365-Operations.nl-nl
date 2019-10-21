@@ -1,6 +1,6 @@
 ---
-title: Kopteksten en regels in verkoopoffertes vanuit Sales direct synchroniseren naar Finance and Operations
-description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopoffertes van Microsoft Dynamics 365 for Sales met Microsoft Dynamics 365 for Finance and Operations.
+title: Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar Supply Chain Management
+description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopoffertes van Dynamics 365 Sales naar Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743366"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251242"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar Finance and Operations
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopoffertes van Microsoft Dynamics 365 for Sales met Microsoft Dynamics 365 for Finance and Operations.
+In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopoffertes van Dynamics 365 Sales naar Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
 
-De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Finance and Operations en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens voor rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Finance and Operations en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Finance and Operations en Sales.
+De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Supply Chain Management en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens voor rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Supply Chain Management en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Supply Chain Management en Sales.
 
 [![Gegevensstroom in Prospect naar contant geld](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Sjabloon en taken
 
-De volgende sjabloon en onderliggende taken worden gebruikt voor het direct synchroniseren van kopteksten en regels van verkoopoffertes vanuit Sales naar Finance and Operations:
+De volgende sjabloon en onderliggende taken worden gebruikt voor het direct synchroniseren van kopteksten en regels van verkoopoffertes vanuit Sales naar Supply Chain Management:
 
-- **Naam van de sjabloon in Gegevensintegratie:** Verkoopoffertes (Sales naar Fin and Ops) - Direct
+- **Naam van de sjabloon in Gegevensintegratie:** Verkoopoffertes (Sales naar Supply Chain Management) - Direct
 - **Namen van de taken in het project Gegevensintegratie:**
 
     - QuoteHeader
@@ -53,9 +53,9 @@ De volgende sjabloon en onderliggende taken worden gebruikt voor het direct sync
 
 De volgende synchronisatietaken zijn vereist voordat de synchronisatie van de kopteksten en regels van verkoopoffertes kan plaatsvinden:
 
-- Producten (Fin and Ops naar Sales) - Direct
-- Rekeningen (Sales naar Fin and Ops) - Direct (indien gebruikt)
-- Contactpersonen naar klanten (Sales naar Fin and Ops) - Direct (indien gebruikt)
+- Producten (Supply Chain Management naar Sales) - Direct
+- Rekeningen (Supply Chain Management naar Sales) - Direct (wanneer gebruikt)
+- Contactpersonen naar klanten (Sales naar Supply Chain Management) - Direct (indien gebruikt)
 
 ## <a name="entity-set"></a>Entiteitset
 
@@ -66,7 +66,7 @@ De volgende synchronisatietaken zijn vereist voordat de synchronisatie van de ko
 
 ## <a name="entity-flow"></a>Entiteitstroom
 
-Verkoopoffertes worden gemaakt in Sales en gesynchroniseerd met Finance and Operations.
+Verkoopoffertes worden gemaakt in Sales en gesynchroniseerd met Supply Chain Management.
 
 Verkoopoffertes uit Sales worden alleen gesynchroniseerd als aan de volgende voorwaarden is voldaan:
 
@@ -75,13 +75,13 @@ Verkoopoffertes uit Sales worden alleen gesynchroniseerd als aan de volgende voo
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Oplossing Prospect naar contant geld voor Sales
 
-Het veld **Heeft alleen extern onderhouden producten** is toegevoegd aan de entiteit **Offerte** om consistent bij te houden of de verkoopofferte geheel bestaat uit extern beheerde producten. Als een verkoopofferte alleen extern beheerde producten heeft, worden de producten beheerd in Finance and Operations. Zo garandeert u dat u niet verkoopofferteregels probeert te synchroniseren voor producten die onbekend zijn in Finance and Operations.
+Het veld **Heeft alleen extern onderhouden producten** is toegevoegd aan de entiteit **Offerte** om consistent bij te houden of de verkoopofferte geheel bestaat uit extern beheerde producten. Als een verkoopofferte alleen extern beheerde producten heeft, worden de producten beheerd in Supply Chain Management. Zo garandeert u dat u niet verkoopofferteregels probeert te synchroniseren voor producten die onbekend zijn bij Supply Chain Management.
 
 Alle offerteproducten in de verkoopofferte worden bijgewerkt met de informatie **Heeft alleen extern onderhouden producten** uit de verkoopoffertekoptekst. Deze informatie vindt u in het veld **Offerte heeft alleen extern onderhouden producten** voor de entiteit **QuoteDetails**.
 
-Er kan een korting worden toegevoegd aan het offerteproduct en deze wordt gesynchroniseerd naar Finance and Operations. De velden **Korting**, **Toeslagen** en **Btw** in de koptekst worden bepaald door een configuratie in Finance and Operations. Deze configuratie biedt momenteel geen ondersteuning voor integratietoewijzing. In het huidige ontwerp worden de velden **Prijs**, **Korting**, **Toeslagen** en **Btw** beheerd en verwerkt in Finance and Operations.
+Er kan een korting worden toegevoegd aan het offerteproduct en deze wordt gesynchroniseerd naar Supply Chain Management. De velden **Korting**, **Toeslagen** en **Btw** in de koptekst worden bepaald door een configuratie in Supply Chain Management. Deze configuratie biedt momenteel geen ondersteuning voor integratietoewijzing. In het huidige ontwerp worden de velden **Prijs**, **Korting**, **Toeslagen** en **Btw** beheerd en verwerkt in Supply Chain Management.
 
-In Sales worden de volgende velden alleen-lezen gemaakt, omdat de waarden niet worden gesynchroniseerd met Finance and Operations:
+In Sales worden de volgende velden alleen-lezen gemaakt, omdat de waarden niet worden gesynchroniseerd met Supply Chain Management.
 
 - Alleen-lezenvelden in de koptekst van de verkoopofferte: **Kortingspercentage**, **Korting** en **Vrachtkosten**
 - Alleen-lezenvelden voor offerteproducten: **Btw**
@@ -111,20 +111,20 @@ Voordat u verkoopoffertes synchroniseert, is het belangrijk de volgende instelli
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Zorg ervoor dat de vereiste waardetoewijzing voor **SalesUnitSymbol** in Finance and Operations bestaat.
+- Zorg ervoor dat de vereiste waardetoewijzing voor **SalesUnitSymbol** in Supply Chain Management bestaat.
 - Zorg ervoor dat de vereiste eenheden zijn gedefinieerd in Sales.
 
     Er wordt een sjabloonwaarde met een waardetoewijzing gedefinieerd voor **oumid.name** naar **SalesUnitSymbol**.
 
-- U kunt desgewenst de volgende toewijzingen toevoegen om te garanderen dat verkoopofferteregels worden geïmporteerd in Finance and Operations als er geen standaardgegevens over de klant of het product zijn:
+- U kunt desgewenst de volgende toewijzingen toevoegen om te garanderen dat verkoopofferteregels worden geïmporteerd in Supply Chain Management als er geen standaardgegevens over de klant of het product zijn:
 
-    - **SiteId**: een site is vereist voor het genereren van offertes en verkooporderregels in Finance and Operations. Er is geen standaardwaarde van de sjabloon voor **SiteId**.
-    - **WarehouseId**: een magazijn is vereist voor het verwerken van offertes en verkooporderregels in Finance and Operations. Er is geen standaardwaarde van de sjabloon voor **WarehouseId**.
+    - **SiteId**: een site is vereist voor het genereren van offertes en verkooporderregels in Supply Chain Management. Er is geen standaardwaarde van de sjabloon voor **SiteId**.
+    - **WarehouseId**: een magazijn is vereist voor het verwerken van offertes en verkooporderregels in Supply Chain Management. Er is geen standaardwaarde van de sjabloon voor **WarehouseId**.
 
 ## <a name="template-mapping-in-data-integrator"></a>Sjabloontoewijzing in gegevensintegrator
 
 > [!NOTE]
-> - De velden **Korting**, **Toeslagen** en **Btw** worden bepaald door een complexe configuratie in Finance and Operations. Deze configuratie biedt momenteel geen ondersteuning voor integratietoewijzing. In het huidige ontwerp worden de velden **Prijs**, **Korting**, **Toeslagen** en **Btw** verwerkt door Finance and Operations.
+> - De velden **Korting**, **Toeslagen** en **Btw** in de koptekst worden bepaald door een complexe configuratie in Supply Chain Management. Deze configuratie biedt momenteel geen ondersteuning voor integratietoewijzing. In het huidige ontwerp worden de velden **Prijs**, **Korting**, **Toeslagen** en **Btw** verwerkt door Supply Chain Management.
 > - De velden **Betalingsvoorwaarden**, **Leveringscondities**, **Leveringsvoorwaarden**, **Verzendmethode** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
 
 In de volgende afbeeldingen ziet u een voorbeeld van de toewijzing van een sjabloon in gegevensintegrator.

@@ -1,6 +1,6 @@
 ---
 title: Phantom-artikelen
-description: In dit onderwerp wordt gedetailleerd beschreven hoe het regeltype Phantom kan worden gebruikt voor de regels van een stuklijst en een formule in Microsoft Dynamics 365 for Finance and Operations.
+description: In dit onderwerp wordt gedetailleerd beschreven hoe het regeltype Phantom kan worden gebruikt voor de regels van een stuklijst en een formule in Dynamics 365 Supply Chain Management.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f01a0321740365c23cbc117be42c0a5137960af7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7c39b0ac2eb8a2293c828fee23ed6a78cb5fe2c9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843884"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250000"
 ---
 # <a name="phantom-items"></a>Phantom-artikelen
 
@@ -51,7 +51,7 @@ In deze structuur ziet u dat onderdelen F en G ontbreken en dat de materialen wa
 
 In tegenstelling tot de technische stuklijst, die twee bewerkingsbladen had, heeft de productiestuklijst slechts één bewerkingsblad. De verpakkingsbewerking die aan onderdeel G was gekoppeld, is ook overgebracht en maakt nu deel uit van het bewerkingsblad voor product H. De montage van de elektrische eenheid is de eerste bewerking. Deze volgorde is logisch omdat deze eenheid wordt gebruikt in de volgende bewerking, de machinemontage. De laatste bewerking is de verpakkingsbewerking, waarbij twee verpakkingsmaterialen (C en D) worden verbruikt.
 
-In Microsoft Dynamics 365 for Finance and Operations wordt de overgang tussen de Engineering-stuklijst en de Productie-stuklijst mogelijk door het regeltype Phantom-stuklijst. Met de term phantom wordt aangegeven dat de onderdelen F en G tijdens de overgang tussen de twee stuklijsttypen zijn verdwenen. In dit voorbeeld wordt het phantom-regeltype toegepast op de stuklijstregels voor onderdelen F en G in de technische stuklijst. Wanneer een productie- of batchorder wordt gemaakt, wordt de technische stuklijst gekopieerd naar de productie- of batchorder. Wanneer de order vervolgens wordt geraamd, vindt de overgang van de technische stuklijst naar de productiestuklijst plaats, zoals in de voorgaande afbeeldingen wordt weergegeven. Van het verpakkingsblad in de tweede afbeelding worden de verpakkingsmaterialen C en D ingevoerd voor de bewerking. 
+De overgang tussen de Engineering-stuklijst en de Productie-stuklijst wordt mogelijk door het regeltype Phantom-stuklijst. Met de term phantom wordt aangegeven dat de onderdelen F en G tijdens de overgang tussen de twee stuklijsttypen zijn verdwenen. In dit voorbeeld wordt het phantom-regeltype toegepast op de stuklijstregels voor onderdelen F en G in de technische stuklijst. Wanneer een productie- of batchorder wordt gemaakt, wordt de technische stuklijst gekopieerd naar de productie- of batchorder. Wanneer de order vervolgens wordt geraamd, vindt de overgang van de technische stuklijst naar de productiestuklijst plaats, zoals in de voorgaande afbeeldingen wordt weergegeven. Van het verpakkingsblad in de tweede afbeelding worden de verpakkingsmaterialen C en D ingevoerd voor de bewerking. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Phantom-stuklijststructuren met meerdere niveaus
 Het phantom-regeltype kan worden gebruikt in stuklijststructuren met meerdere niveaus, zoals in de volgende afbeelding wordt weergegeven. In deze afbeelding is (a) de stuklijst voor product G en is (b) het routeblad voor de onderdelen E en F, en product G. 

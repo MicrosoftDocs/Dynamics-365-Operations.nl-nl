@@ -1,6 +1,6 @@
 ---
-title: Functies publiceren naar externe vacaturesites via Attract
-description: In dit onderwerp wordt uitgelegd hoe u Dynamics 365 for Talent - Attract gebruikt voor het publiceren van functies naar externe wervingssites
+title: Vacatures plaatsen op externe vacaturesites vanuit Attract
+description: In dit onderwerp wordt uitgelegd hoe u Dynamics 365 Talent - Attract gebruikt voor het publiceren van functies naar externe wervingssites
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739812"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008077"
 ---
 # <a name="post-jobs-to-broadbean"></a>Vacatures plaatsen op Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Met Microsoft Dynamics 365 for Talent: Attract kunt u de talenten krijgen die u nodig hebt omdat u uw vacatures rechtstreeks vanuit Attract op Broadbean kunt plaatsen. Nadat u [een functie hebt gemaakt](./creating-jobs-attract.md), hoeft u alleen maar op een knop te klikken om uw vacature voor talloze potentiële kandidaten op Broadbean te plaatsen.
+Met Microsoft Dynamics 365 Talent: Attract kunt u de talenten krijgen die u nodig hebt omdat u uw vacatures rechtstreeks vanuit Attract op Broadbean kunt plaatsen. Nadat u [een functie hebt gemaakt](./creating-jobs-attract.md), hoeft u alleen maar op een knop te klikken om uw vacature voor talloze potentiële kandidaten op Broadbean te plaatsen.
 
 Voor het plaatsen van vacatures op Broadbean hebt u een geschikte Broadbean-licentie nodig. Broadbean biedt diverse producten en plannen. Neem voor meer informatie over Broadbean-licenties en -prijzen [contact op met Broadbean](https://www.broadbean.com/contact-us/).
 

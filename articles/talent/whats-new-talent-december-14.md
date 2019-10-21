@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (14 december 2018)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent Core HR.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent - Core HR (14 december 2018)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517689"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024017"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (14 december 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent: Core HR (14 december 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ Wanneer de functie voor voorspellen wordt vrijgegeven, wordt het huidige verlofs
 
 ## <a name="known-issue"></a>Bekend probleem
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Toewijzingsfouten in de integratie met Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Toewijzingsfouten in de integratie met Finance
 
-De volgende problemen kunnen optreden in de huidige sjabloon voor het integreren van Talent met Dynamics 365 for Finance and Operations. Binnenkort wordt een nieuwe sjabloon gepubliceerd om toe te passen op alle nieuwe integratieprojecten die zijn gemaakt. Voor bestaande integratieprojecten kunnen de taaktoewijzingen worden bijgewerkt. Raadpleeg de volgende tabel voor bijgewerkte toewijzingen. 
+De volgende problemen kunnen optreden in de huidige sjabloon voor het integreren van Talent met Dynamics 365 Finance. Binnenkort wordt een nieuwe sjabloon gepubliceerd om toe te passen op alle nieuwe integratieprojecten die zijn gemaakt. Voor bestaande integratieprojecten kunnen de taaktoewijzingen worden bijgewerkt. Raadpleeg de volgende tabel voor bijgewerkte toewijzingen. 
 
 >[!NOTE]
 > Met de taak voor het toewijzen van taken aan bovenliggende posities worden geen gegevens geïntegreerd. Dit probleem wordt momenteel onderzocht. Er is geen oplossing in de huidige toewijzing. 

@@ -1,6 +1,6 @@
 ---
-title: Werken met datum en tijd in Microsoft Dynamics 365 for Talent
-description: Begrijp wat u kunt verwachten wanneer u datum- en tijdvelden gebruikt in Microsoft Dynamics 365 for Talent. Krijg inzicht in wat u kunt verwachten wanneer u met datum- en tijdgegevens in een formulier in Dynamics 365 for Talent, een externe bron of Common Data Service werkt.
+title: Werken met datum en tijd in Microsoft Dynamics 365 Talent
+description: Begrijp wat u kunt verwachten wanneer u datum- en tijdvelden gebruikt in Microsoft Dynamics 365 Talent. Krijg inzicht in wat u kunt verwachten wanneer u met datum- en tijdgegevens in een formulier in Talent, een externe bron of Common Data Service werkt.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/24/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b4c652992272ed1a5aecbb4c78f0d11f077149d1
-ms.sourcegitcommit: 46bded82aa072adfedcf443629c2adc69f512c09
+ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1791202"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2007962"
 ---
 # <a name="date-and-time-fields-in-talent"></a>Datum- en tijdvelden in Talent
 
 [!include [banner](includes/banner.md)]
 
-**Datum- en tijdvelden** vormen een fundamenteel concept in Dynamics 365 for Talent. Het is belangrijk om te begrijpen hoe u met **datum- en tijdgegevens** in een Dynamics 365-formulier, Common Data Service en externe bronnen kunt werken.
+**Datum- en tijdvelden** vormen een fundamenteel concept in Dynamics 365 Talent. Het is belangrijk om te begrijpen hoe u met **datum- en tijdgegevens** in een Dynamics 365-formulier, Common Data Service en externe bronnen kunt werken.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Het verschil tussen veldgegevenstypen Datum en Datum en tijd
 

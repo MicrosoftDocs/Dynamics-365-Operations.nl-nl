@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865371"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249489"
 ---
 # <a name="product-configuration-overview"></a>Overzicht van Productconfiguratie
 
@@ -60,6 +60,9 @@ Een productconfiguratiemodel bestaat uit een of meerdere onderdelen die door sub
 
 Elke component heeft een of meer kenmerken die de eigenschappen ervan identificeren. De kenmerken zijn wat gebruikers tijdens het configuratieproces kiezen. Kenmerken bepalen relaties tussen en binnen componenten door middel van opname in beperkingen of berekeningen. Via voorwaarden die op stuklijstregels worden toegepast, kunnen de kenmerken worden gebruikt om te bepalen uit welke fysieke onderdelen het geconfigureerde product moet bestaan. Bovendien kan een kenmerk de eigenschap van een stuklijstregel bepalen door middel van een toewijzingsmechanisme. Vergelijkbare functionaliteit er bestaat voor routebewerkingen voor zowel opname als eigenschapsinstellingen.
 
+>[!NOTE]
+> Wanneer u kenmerktypen maakt, moet u geen groot aantal waarden maken voor het domein van het kenmerktype. Dit kan leiden tot vertragingen in de productconfiguratie. 
+
 ### <a name="expression-constraints"></a>Expressiebeperkingen
 
 Het gebruik van een op beperkingen gebaseerd productconfiguratiemodel betekent dat bepaalde beperkingen bestaan wanneer de gebruiker de waarden voor de diverse kenmerken selecteert. Deze beperkingen kunnen als expressiebeperkingen worden uitgevoerd door de Optimization Modeling Language (OML) te gebruiken. Als alternatief kan een beperking worden geïmplementeerd in de vorm van een tabelbeperking.
@@ -70,7 +73,7 @@ Tabelbeperkingen kunnen door de gebruiker of door het systeem zijn gedefinieerd.
 
 Een door de gebruiker gedefinieerde tabelbeperking wordt gemaakt door de gebruiker. De gebruiker selecteert een combinatie van kenmerktypen om de kolommen van de tabel weer te geven, en voert vervolgens waarden uit de domeinen van het geselecteerde kenmerktype in om de rijen in de tabelbeperking te vormen.  
 
-Een door het systeem gedefinieerde tabelbeperking wordt gedefinieerd door te selecteren welke Microsoft Dynamics 365 for Finance and Operations-tabel als referentie wordt gebruikt en vervolgens velden in deze tabel te selecteren om de kolommen te vormen in de beperking. De rijen van de tabelbeperking zijn de rijen van de Finance and Operations-tabel die aanwezig zijn tijdens de configuratie.  
+Een door het systeem gedefinieerde tabelbeperking wordt gedefinieerd door te selecteren welke tabel als referentie wordt gebruikt en vervolgens velden in deze tabel te selecteren om de kolommen te vormen in de beperking. De rijen van de tabelbeperking zijn de rijen van de Finance and Operations-tabel die aanwezig zijn tijdens de configuratie.  
 
 Een tabelbeperking wordt opgenomen in een model voor productconfiguratie door naar de definitie van de tabelbeperking te verwijzen en de betreffende kenmerken in het model toe te wijzen aan de kolommen in de tabelbeperking.
 

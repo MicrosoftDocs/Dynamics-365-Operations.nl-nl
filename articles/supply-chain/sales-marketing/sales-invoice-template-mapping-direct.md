@@ -1,6 +1,6 @@
 ---
-title: Kopteksten en regels in verkoopfacturen direct vanuit Finance and Operations synchroniseren naar Sales
-description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopfacturen van Microsoft Dynamics 365 for Finance and Operations met Microsoft Dynamics 365 for Sales.
+title: Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Supply Chain Management naar Sales
+description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopfacturen van Dynamics 365 Supply Chain Management naar Dynamics 365 Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 94442eb11aac3faf8a412944617686853a12128d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552925"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251656"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopfacturen van Microsoft Dynamics 365 for Finance and Operations met Microsoft Dynamics 365 for Sales.
+In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopfacturen van Dynamics 365 Supply Chain Management naar Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
 
-De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Finance and Operations en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens over rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Finance and Operations en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Finance and Operations en Sales.
+De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Supply Chain Management en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens over rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Finance and Operations en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Supply Chain Management en Sales.
 
 [![Gegevensstroom in Prospect naar contant geld](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -52,30 +52,30 @@ De volgende sjabloon en onderliggende taken worden gebruikt voor het synchronise
 
 De volgende synchronisatietaken zijn vereist voordat de synchronisatie van de kopteksten en regels van verkoopfacturen kan plaatsvinden:
 
-- Producten (Fin and Ops naar Sales) - Direct
-- Rekeningen (Sales naar Fin and Ops) - Direct (indien gebruikt)
-- Contactpersonen (Sales naar Fin and Ops) - Direct (indien gebruikt)
-- Koptekst en regels van verkooporder (Fin and Ops naar Sales) - Direct
+- Producten (Supply Chain Management naar Sales) - Direct
+- Rekeningen (Supply Chain Management naar Sales) - Direct (wanneer gebruikt)
+- Contacten (Sales naar Supply Chain Management) - Direct (wanneer gebruikt)
+- Kopteksten en regels in verkooporders (Supply Chain Management naar Sales) - Direct
 
 ## <a name="entity-set"></a>Entiteitset
 
-| Finance en Operations                               | Verkoop          |
+| Supply Chain Management                              | Verkoop          |
 |------------------------------------------------------|----------------|
 | Extern onderhouden kopteksten van klantverkoopfacturen | Facturen       |
 | Extern onderhouden klantverkoopfactuurregels   | InvoiceDetails |
 
 ## <a name="entity-flow"></a>Entiteitstroom
 
-Verkoopfacturen worden gemaakt in Finance and Operations en gesynchroniseerd met Sales.
+Verkoopoffertes worden gemaakt in Supply Chain Management en gesynchroniseerd met Sales.
 
 > [!NOTE]
-> Momenteel worden belastingen met betrekking tot toeslagen in de koptekst van de verkoopfactuur niet opgenomen bij de synchronisatie van Finance and Operations naar Sales. Sales biedt geen ondersteuning voor belastinggegevens op koptekstniveau. Belastingen gerelateerd aan toeslagen op regelniveau worden echter wel opgenomen in de synchronisatie.
+> Momenteel worden belastingen met betrekking tot toeslagen in de koptekst van de verkoopfactuur niet opgenomen bij de synchronisatie van Supply Chain Management naar Sales. Sales biedt geen ondersteuning voor belastinggegevens op koptekstniveau. Belastingen gerelateerd aan toeslagen op regelniveau worden echter wel opgenomen in de synchronisatie.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Oplossing Prospect naar contant geld voor Sales
 
 - Het veld **Factuurnummer** is aan de entiteit **Factuur** toegevoegd en wordt weergegeven op de pagina.
-- De knop **Factuur maken** op de pagina **Verkooporder** is verborgen omdat facturen in Finance and Operations worden gemaakt en worden gesynchroniseerd naar Sales. De pagina **Factuur** kan niet worden bewerkt omdat facturen vanuit Finance and Operations worden gesynchroniseerd.
-- De waarde voor **Verkooporderstatus** wordt automatisch in **Gefactureerd** gewijzigd wanneer de bijbehorende factuur vanuit Finance and Operations is gesynchroniseerd naar Sales. Daarnaast wordt de eigenaar van de verkooporder op basis waarvan de factuur is gemaakt, aangewezen als de eigenaar van de factuur. De eigenaar van de verkooporder kan de factuur dus weergeven.
+- De knop **Factuur maken** op de pagina **Verkooporder** is verborgen omdat facturen in Supply Chain Management worden gemaakt en worden gesynchroniseerd naar Sales. De pagina **Factuur** kan niet worden bewerkt omdat facturen vanuit Supply Chain Management worden gesynchroniseerd.
+- De waarde voor **Verkooporderstatus** wordt automatisch in **Gefactureerd** gewijzigd wanneer de bijbehorende factuur vanuit Supply Chain Management is gesynchroniseerd naar Sales. Daarnaast wordt de eigenaar van de verkooporder op basis waarvan de factuur is gemaakt, aangewezen als de eigenaar van de factuur. De eigenaar van de verkooporder kan de factuur dus weergeven.
 
 ## <a name="preconditions-and-mapping-setup"></a>Voorwaarden en instellingen voor toewijzing
 
@@ -103,7 +103,7 @@ Ga naar **Instellingen** > **Beheer** > **Systeeminstellingen** > **Sales** en z
 #### <a name="salesinvoiceline-task"></a>Taak SalesInvoiceLine
 
 - Zorg ervoor dat de vereiste toewijzing bestaat voor **Maateenheid**.
-- Zorg ervoor dat de vereiste waardetoewijzing voor **SalesUnitSymbol** in Finance and Operations bestaat.
+- Zorg ervoor dat de vereiste waardetoewijzing voor **SalesUnitSymbol** in Supply Chain Management bestaat.
 
     Er wordt een sjabloonwaarde met een waardetoewijzing voor **SalesUnitSymbol** naar **Quantity\_UOM** gedefinieerd.
 
@@ -115,7 +115,7 @@ Ga naar **Instellingen** > **Beheer** > **Systeeminstellingen** > **Sales** en z
 In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegevensintegratie. 
 
 > [!NOTE]
-> Aan de hand van de toewijzing kunt u zien welke veldgegevens vanuit Sales naar Finance and Operations worden gesynchroniseerd.
+> Aan de hand van de toewijzing kunt u zien welke veldgegevens vanuit Sales naar Supply Chain Management worden gesynchroniseerd.
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
@@ -129,18 +129,12 @@ In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegev
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Prospect naar contant geld](prospect-to-cash.md)
+[Van prospect naar contant geld](prospect-to-cash.md)
 
-[Rekeningen in Sales direct synchroniseren naar klanten in Finance and Operations](accounts-template-mapping-direct.md)
+[Rekeningen rechtstreeks vanuit Sales synchroniseren met klanten in Supply Chain Management](accounts-template-mapping-direct.md)
 
-[Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales](products-template-mapping-direct.md)
+[Producten rechtstreeks vanuit Supply Chain Management synchroniseren met producten in Sales](products-template-mapping-direct.md)
 
-[Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations](contacts-template-mapping-direct.md)
+[Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Kopteksten en regels in verkooporders direct vanuit Finance and Operations synchroniseren naar Sales](sales-order-template-mapping-direct-two-ways.md)
-
-
-
-
-
-
+[Kopteksten en regels in verkooporders rechtstreeks synchroniseren vanuit Supply Chain Management naar Sales](sales-order-template-mapping-direct-two-ways.md)

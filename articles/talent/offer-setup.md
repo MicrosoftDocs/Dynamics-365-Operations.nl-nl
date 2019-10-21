@@ -1,6 +1,6 @@
 ---
 title: Aanbiedingsbeheer instellen
-description: In dit onderwerp wordt beschreven hoe u aanbiedingen instelt in Talent.
+description: In dit onderwerp wordt beschreven hoe u aanbiedingen instelt in Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517701"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010839"
 ---
 # <a name="set-up-offer-management"></a>Aanbiedingsbeheer instellen 
 
 [!include [banner](includes/banner.md)]
 
-Wanneer een kandidaat wordt verplaatst naar de aanbiedingsfase in Dynamics 365 for Talent: Attract, moet u ervoor zorgen dat de aanbiedingen snel kunnen worden gemaakt voor de kandidaat, goedgekeurd indien nodig en naar de kandidaat verzonden. Aangezien de meeste aanbiedingen standaard zijn, kunnen ze door herbruikbare sjablonen worden gemaakt. In Attract worden alle aanbiedingen in één aanbiedingspakket gecombineerd. Dat is een verzameling van een of meer aanbiedingsdocumenten. 
+Wanneer een kandidaat wordt verplaatst naar de aanbiedingsfase in Dynamics 365 Talent: Attract, moet u ervoor zorgen dat de aanbiedingen snel kunnen worden gemaakt voor de kandidaat, goedgekeurd indien nodig en naar de kandidaat verzonden. Aangezien de meeste aanbiedingen standaard zijn, kunnen ze door herbruikbare sjablonen worden gemaakt. In Attract worden alle aanbiedingen in één aanbiedingspakket gecombineerd. Dat is een verzameling van een of meer aanbiedingsdocumenten. 
 
 In dit onderwerp vindt u alle stappen die een Attract-beheerder zou volgen om verschillende aanbiedingspakketsjablonen in te stellen als onderdeel van het aanbiedingsbeheer in Attract. Gebruikers met niet-beheerdersrollen hebben geen toegang tot deze mogelijkheden.
 

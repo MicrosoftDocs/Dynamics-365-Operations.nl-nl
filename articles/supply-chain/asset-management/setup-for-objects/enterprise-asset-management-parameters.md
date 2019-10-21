@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e6a2d428e433256339fff07f3805449a2604213
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783173"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024563"
 ---
 # <a name="asset-management-parameters"></a>Parameters voor activabeheer
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783173"
 
 In Activabeheer moeten algemene parameters met betrekking tot activa, werkorders en de planning van werkorders worden ingesteld. In dit onderwerp wordt uitgelegd hoe deze instelt. Selecteer **Activabeheer** > **Instellingen** > **Parameters voor activabeheer** om het formulier te openen.
 
-De knop **Wizard Gegevens maken** kan worden gebruikt om automatisch instellingsgegevens te maken voor test- of demogegevens in een bedrijf in Dynamics 365 for Finance and Operations. Raadpleeg de whitepaper 'Testgegevens instellen in Activabeheer' voor informatie over het gebruik van de wizard.
+De knop **Wizard Gegevens maken** kan worden gebruikt om automatisch instellingsgegevens te maken voor test- of demogegevens in een bedrijf in Dynamics 365 Supply Chain Management. Raadpleeg de whitepaper 'Testgegevens instellen in Activabeheer' voor informatie over het gebruik van de wizard.
 
 Koppeling **Activa**
 
@@ -57,7 +57,7 @@ Koppeling **Werkorders**
 - Selecteer 'Ja' op de wisselknop **Fouten kopiëren** als u automatisch fouten die zijn geregistreerd voor werkorders wilt kopiëren naar gerelateerde onderhoudsaanvragen.  
 - In het veld **Niveau** definieert u het functionele locatieniveau dat automatisch in een werkorder wordt ingevoegd als alle gerelateerde werkordertaken naar dezelfde functionele locatie verwijzen. Als de werkordertaken niet allemaal betrekking hebben op dezelfde functionele locatie op het gedefinieerde niveau, wordt het veld **Functionele locatie** leeg gelaten in de werkorder. Voorbeeld: als u het cijfer '1' in dit veld invoegt, is dat het hoogste niveau in een functionele locatiestructuur. Als u het cijfer '0' in dit veld invoegt, hebt u geen specifiek functioneel locatieniveau gedefinieerd, maar alleen aangegeven dat de functionele locatie alleen aan de werkorder wordt toegevoegd als alle werkordertaken in een werkorder aan dezelfde functionele locatie zijn gerelateerd.  
 - Journalen die worden gebruikt bij het boeken van verbruik in een werkorder kunnen worden geselecteerd op het sneltabblad **Algemeen** in de velden **Uur**, **Artikel** en **Onkosten**.  
-- Selecteer in het veld **Producttaalbron** welke taal moet worden gebruikt voor productnamen in rapporten van Activabeheer. U kunt de taal selecteren die is ingesteld op de bedrijfsrekening of de taal die is ingesteld voor de gebruiker die momenteel is aangemeld bij Dynamics 365 for Finance and Operations.  
+- Selecteer in het veld **Producttaalbron** welke taal moet worden gebruikt voor productnamen in rapporten van Activabeheer. U kunt de taal selecteren die is ingesteld op de bedrijfsrekening of de taal die is ingesteld voor de gebruiker die momenteel is aangemeld.  
 - Selecteer 'Ja' op de wisselknop **Real-time update** als u automatisch wijzigingen in de standaardwaarden voor taaktype, onderhoudsplannen en onderhoudsronden wilt bijwerken.
 > - Als u 'Nee' selecteert, worden wijzigingen in de standaardwaarden voor taaktypen, onderhoudsplannen en onderhoudsronden niet automatisch bijgewerkt in Activabeheer  
 > - Selecteer 'Nee' op de wisselknop als u grote hoeveelheden gegevens hebt die worden gesynchroniseerd, bijvoorbeeld veel activa of functionele locaties die zijn ingesteld op onderhoudsplannen of onderhoudsronden, of een groot aantal onderhoudsplannen of ronden.  
@@ -75,7 +75,7 @@ Koppeling **Planning van werkorders**
 - Het **hoofdplan** heeft betrekking op resources in de module **Organisatiebeheer**. Als u in dit veld een hoofdplan selecteert, kunt u capaciteitsreserveringen die betrekking hebben werkorders bekijken in **Capaciteitsreserveringen** (**Organisatiebeheer** > **Resources** > **Resources** > selecteer resource > tabblad **Resource** > knop **Capaciteitsreserveringen**). Als u dit veld leeg laat, kunt u capaciteitsbelasting die betrekking heeft werkorders bekijken in **Capaciteitsbelasting** (**Organisatiebeheer** \> **Resources** \> **Resources** \> selecteer resource \> tabblad **Resource** \> knop **Capaciteitsbelasting**).  
 
 >[!NOTE]
->De selectie met betrekking tot het al dan niet gebruiken van een hoofdplan in de module **Activabeheer** en het gerelateerde formulier dat wordt gebruikt om een overzicht te krijgen van capaciteitsreserveringen of capaciteitsbelasting wordt standaard ingesteld in Dynamics 365 for Finance and Operations. Afhankelijk van uw instellingen in het veld **Hoofdplan** krijgt u toegang tot capaciteitsgegevens in **Capaciteitsreserveringen** of **Capaciteitsbelasting** in de module **Organisatiebeheer**. Het is niet mogelijk om een instelling te maken waarin capaciteitsreserveringen in beide weergaven worden getoond.  
+>De selectie met betrekking tot het al dan niet gebruiken van een hoofdplan in de module **Activabeheer** en het gerelateerde formulier dat wordt gebruikt om een overzicht te krijgen van capaciteitsreserveringen of capaciteitsbelasting wordt standaard ingesteld in de standaardinstellingen. Afhankelijk van uw instellingen in het veld **Hoofdplan** krijgt u toegang tot capaciteitsgegevens in **Capaciteitsreserveringen** of **Capaciteitsbelasting** in de module **Organisatiebeheer**. Het is niet mogelijk om een instelling te maken waarin capaciteitsreserveringen in beide weergaven worden getoond.  
 
 De velden die worden beschreven in de onderstaande lijst met opsommingstekens hebben betrekking op berekende beoordelingsscores, die worden gebruikt om de prioriteit van werkorders te berekenen tijdens de planning van werkorders.
 

@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63cad6b2f7240bb14fe7a9237498c0140df77774
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567994"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025024"
 ---
 # <a name="retail-statements"></a>Detailhandeloverzichten
 
 [!include [banner](includes/banner.md)]
 
-In Microsoft Dynamics 365 for Retail wordt het boekingsproces voor overzichten gebruikt voor de transacties die plaats vinden in de Cloud POS of MPOS (Moderne POS). Het boekingsproces voor overzichten gebruikt de distributieplanning voor het ophalen van een set POS-transacties naar het hoofdkantoor (HQ) van de client. De parameters die zijn gedefinieerd op de pagina's **Parameters detailhandel** en **Winkels**, worden gebruikt om de transacties te selecteren die worden opgehaald in afzonderlijke overzichten.
+In Dynamics 365 Retail wordt het boekingsproces voor overzichten gebruikt voor de transacties die plaats vinden in de Cloud POS of MPOS (Moderne POS). Het boekingsproces voor overzichten gebruikt de distributieplanning voor het ophalen van een set POS-transacties naar het hoofdkantoor (HQ) van de client. De parameters die zijn gedefinieerd op de pagina's **Parameters detailhandel** en **Winkels**, worden gebruikt om de transacties te selecteren die worden opgehaald in afzonderlijke overzichten.
 
 In het volgende illustratie geeft het overzichtboekingsproces weer. In dit proces worden transacties die zijn vastgelegd in de POS naar de client verzonden door de Detailhandel planner te gebruiken. Nadat de client de transacties ontvangen heeft, kunt u het transactieoverzicht voor de winkel maken, berekenen en boeken.
 
@@ -85,6 +85,6 @@ Als het selectievakje **Als werkdag boeken** is uitgeschakeld voor dezelfde wink
 Als u een overzicht boekt, worden verkooporders en facturen gemaakt voor de detailhandelverkoop in het overzicht.
 
 - Cash and carry-verkopen worden naar één verkooporder geaggregeerd en voor de standaardklant gefactureerd die is toegewezen aan de winkel.
-- Detailhandelverkopen waarvoor een klant was toegevoegd aan de transactie in Microsoft Dynamics 365 for Retail POS genereren afzonderlijke verkooporders en facturen, één voor elke unieke klant.
+- Detailhandelverkopen waarvoor een klant was toegevoegd aan de transactie in Retail POS genereren afzonderlijke verkooporders en facturen, één voor elke unieke klant.
 
 Betalingsdagboeken worden automatisch gemaakt voor de betalingen in de instructie en de voorraad wordt bijgewerkt voor de POS-winkel.

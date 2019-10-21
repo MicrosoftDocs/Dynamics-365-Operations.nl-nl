@@ -19,18 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606890"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023631"
 ---
 # <a name="attributes-and-attribute-groups"></a>Kenmerken en kenmerkgroepen
 
 [!include [banner](includes/banner.md)]
 
-*Kenmerken* bieden een manier om een product en de bijbehorende kenmerken te beschrijven via door de gebruiker gedefinieerde velden (zoals **Geheugengrootte**, **Capaciteit van vaste schijf**, **Is EnergyStar**, enzovoort). In Microsoft Dynamics 365 for Finance and Operations kunnen de attributen met verschillende kleinhandelsentiteiten zoals productcategorieën en kleinhandelskanalen zijn gekoppeld, en de standaardwaarden kunnen voor hen zijn ingesteld. De producten erven de kenmerken en standaardwaarden wanneer ze gekoppeld zijn met de productcategorieën of detailhandelskanalen. De standaardwaarden kunnen worden overschreven op het afzonderlijke productniveau, op het niveau van het detailhandelskanaal of in een detailshandelscatalogus.
+*Kenmerken* bieden een manier om een product en de bijbehorende kenmerken te beschrijven via door de gebruiker gedefinieerde velden (zoals **Geheugengrootte**, **Capaciteit van vaste schijf**, **Is EnergyStar**, enzovoort). De attributen kunnen met verschillende detailhandelsentiteiten zoals productcategorieën en kleinhandelskanalen zijn gekoppeld, en de standaardwaarden kunnen voor hen zijn ingesteld. De producten erven de kenmerken en standaardwaarden wanneer ze gekoppeld zijn met de productcategorieën of detailhandelskanalen. De standaardwaarden kunnen worden overschreven op het afzonderlijke productniveau, op het niveau van het detailhandelskanaal of in een detailshandelscatalogus.
+
 
 Een normaal televisieproduct kan bijvoorbeeld de volgende kenmerken hebben.
 
@@ -53,7 +54,7 @@ Een normaal televisieproduct kan bijvoorbeeld de volgende kenmerken hebben.
 
 ## <a name="attributes-and-attribute-types"></a>Kenmerken en kenmerktypen
 
-Kenmerken zijn gebaseerd op *kenmerktypen*. Het kenmerktype geeft het gegevenstype aan dat kan worden ingevoerd voor een specifiek kenmerk. Finance and Operations ondersteunt momenteel de volgende kenmerktypen:
+Kenmerken zijn gebaseerd op *kenmerktypen*. Het kenmerktype geeft het gegevenstype aan dat kan worden ingevoerd voor een specifiek kenmerk. De volgende kenmerktypen worden ondersteund:
 
 - **Valuta** - Dit kenmerktype ondersteunt een valutawaarde. Het kan begrensd zijn (oftewel kan het een waardebereik ondersteunen), of kan worden opengelaten.
 - **DateTime** - Dit kenmerktype ondersteunt een datum- en tijdwaarde. Dit kan worden begrensd of open blijven.
@@ -63,9 +64,9 @@ Kenmerken zijn gebaseerd op *kenmerktypen*. Het kenmerktype geeft het gegevensty
 - **Booleaans** - Dit type kenmerk ondersteunt een binaire waarde (**waar** of **onwaar**).
 - **Verwijzing** - Dit type verwijst naar de andere kenmerken.
 
-### <a name="set-up-attribute-types-in-finance-and-operations"></a>Kenmerktypen instellen in Finance and Operations
+### <a name="set-up-attribute-types"></a>Kenmerktypen instellen
 
-1. Meld u aan bij een backoffice-client met Finance and Operations als een Merchandisingbeheerder detailhandel.
+1. Meld u aan bij een backoffice-client als een Merchandisingbeheerder detailhandel.
 2. Ga naar **Productgegevensbeheer** &gt; **Instellen** &gt; **Categorieën en kenmerken** &gt; **Kenmerktypen**.
 3. Maak twee kenmerktypen van het type **Tekst**, stel de optie **Vaste lijst** in op **Ja** en voeg een lijst met waarden toe:
 
@@ -74,7 +75,7 @@ Kenmerken zijn gebaseerd op *kenmerktypen*. Het kenmerktype geeft het gegevensty
 
 ![Kenmerktypen](media/AttributeType.png)
 
-### <a name="set-up-an-attribute-in-finance-and-operations"></a>Een kenmerk instellen in Finance and Operations
+### <a name="set-up-an-attribute"></a>Een kenmerk instellen
 
 1. Meld u aan bij een backoffice-client als een Merchandisingbeheerder detailhandel.
 2. Ga naar **Productgegevensbeheer** &gt; **Instellen** &gt; **Categorieën en kenmerken** &gt; **Kenmerken**.
@@ -101,13 +102,13 @@ Dit zijn de overige opties voor kenmerkmetagegevens op de pagina **Kenmerken**:
 - Hoofdlettergebruik en indeling negeren
 - Volledige overeenkomst
 
-Deze opties waren oorspronkelijk bedoeld voor het verbeteren van de zoekfunctie voor de online winkel. Hoewel Finance and Operations niet en kant-en-klare online winkel omvat, bevat het product wel de eCommerce Publishing Software Development Kit (SDK). Klanten kunnen met deze SDK producten in een zoekindex van hun keuze plaatsen. Hoewel de productgegevens zijn geïmporteerd, moeten klanten nog steeds onderscheid kunnen maken tussen doorzoekbare gegevens en gegevens die worden opgevraagd, enzovoort. In op die manier kunnen ze een optimale index maken en zorgen dat ze alleen kenmerken indexeren die, *naar hun mening*, moeten worden geïndexeerd.
+Deze opties waren oorspronkelijk bedoeld voor het verbeteren van de zoekfunctie voor de online winkel. Hoewel Retail niet een kant-en-klare online winkel omvat, bevat het product wel de eCommerce Publishing Software Development Kit (SDK). Klanten kunnen met deze SDK producten in een zoekindex van hun keuze plaatsen. Hoewel de productgegevens zijn geïmporteerd, moeten klanten nog steeds onderscheid kunnen maken tussen doorzoekbare gegevens en gegevens die worden opgevraagd, enzovoort. In op die manier kunnen ze een optimale index maken en zorgen dat ze alleen kenmerken indexeren die, *naar hun mening*, moeten worden geïndexeerd.
 
 Zie voor informatie over het doel van deze overige opties [Overzicht van het zoekschema in SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Filterinstellingen voor kenmerken
 
-Met filterinstellingen voor kenmerken kunt u opgeven hoe de filters voor kenmerken worden weergegeven in de retail POS. Voor toegang tot de filterinstellingen voor een kenmerk op de pagina **Kenmerken** in Finance and Operations, selecteert u het kenmerk en vervolgens **Filterinstellingen** in het Actievenster.
+Met filterinstellingen voor kenmerken kunt u opgeven hoe de filters voor kenmerken worden weergegeven in de retail POS. Voor toegang tot de filterinstellingen voor een kenmerk op de pagina **Kenmerken**, selecteert u het kenmerk en vervolgens **Filterinstellingen** in het Actievenster.
 
 De pagina **Voorkeuren van filterweergave** bevat de volgende velden:
 
@@ -233,7 +234,7 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
     - Afzetkanaalproductkenmerken
 
     > [!NOTE]
-    > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
+    > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt, zijn ze van toepassing op alle detailhandelproducten.
 
 ![Kenmerkgroepen van catalogusproducten](media/CatalogProdAttrValues.png)
 
@@ -255,4 +256,4 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
     - Afzetkanaalproductkenmerken
 
     > [!NOTE]
-    > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
+    > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt, zijn ze van toepassing op alle detailhandelproducten.

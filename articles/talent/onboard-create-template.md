@@ -1,6 +1,6 @@
 ---
-title: Een onboardingsjabloon maken met Dynamics 365 for Talent - Onboard
-description: In dit onderwerp wordt uitgelegd hoe u de app Dynamics 365 for Talent - Onboard gebruikt om een sjabloon voor een onboardinghandleiding voor uw nieuwe medewerkers te maken. Deze taak is een essentiële eerste stap in een HCM-strategie (Human Capital Management) voor aanstelling tot pensionering.
+title: Een onboardingsjabloon maken met Dynamics 365 Talent - Onboard
+description: In dit onderwerp wordt uitgelegd hoe u de app Dynamics 365 Talent - Onboard gebruikt om een sjabloon voor een onboardinghandleiding voor uw nieuwe medewerkers te maken. Deze taak is een essentiële eerste stap in een HCM-strategie (Human Capital Management) voor aanstelling tot pensionering.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c53c24b2913e3ca30cfc6491556b49d5d9230128
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 63f13380f3d2c31c4cc9009142f320ad8a41e8ee
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731425"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009872"
 ---
-# <a name="create-an-onboarding-template-by-using-dynamics-365-for-talent-onboard"></a>Een onboardingsjabloon maken met Dynamics 365 for Talent: Onboard
+# <a name="create-an-onboarding-template"></a>Een onboardingsjabloon maken
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard biedt verschillende sjablonen die u kunnen helpen zo snel mogelijk een onboardinghandleiding te maken. U kunt een of meer van deze sjablonen gebruiken of uw eigen sjablonen maken. Onboard biedt voorbeeldtekst die u kunt gebruiken wanneer u uw eigen sjablonen maakt. Daarom is het proces ook gemakkelijk als u een geheel nieuwe sjabloon maakt.
+Microsoft Dynamics 365 Talent: Onboard biedt verschillende sjablonen die u kunnen helpen zo snel mogelijk een onboardinghandleiding te maken. U kunt een of meer van deze sjablonen gebruiken of uw eigen sjablonen maken. Onboard biedt voorbeeldtekst die u kunt gebruiken wanneer u uw eigen sjablonen maakt. Daarom is het proces ook gemakkelijk als u een geheel nieuwe sjabloon maakt.
 
 ## <a name="create-an-onboarding-template-from-an-existing-template"></a>Een onboardingsjabloon maken op basis van een bestaande sjabloon
 

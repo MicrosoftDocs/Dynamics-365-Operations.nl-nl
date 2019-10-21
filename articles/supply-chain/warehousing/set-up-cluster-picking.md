@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84b6d3c3caa09b9601701ca4ac1992b151c0b8d4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558995"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249745"
 ---
 [!include[banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ In dit onderwerp wordt beschreven hoe u werknemers in staat kunt stellen hun mob
 
 Nadat werkorders worden vrijgegeven aan het magazijn, kan de werknemer een mobiel apparaat gebruiken om de orders toe te wijzen aan een cluster. De cluster zal het verzamelwerk organiseren voor de werknemer. Wanneer een werkorder wordt toegewezen aan een cluster, moet de werknemer clusterverzameling gebruiken om het verzamelwerk voor de order uit te voeren. De werknemer kan geen andere verzamelmethodes gebruiken. Als een werkorder per ongeluk wordt toegewezen aan een cluster, moet de werknemer de cluster opbreken en opnieuw maken.
 
-Indien nodig kan een werknemer een cluster doorgeven aan een andere werknemer. Dit verandert de clusterstatus naar Doorgegeven. Wanneer de medewerker een mobiel apparaat gebruikt om aan te geven dat het picken en opslaan is voltooid, moet de zending of lading worden bevestigd in de Dynamics 365 for Finance and Operations-client.
+Indien nodig kan een werknemer een cluster doorgeven aan een andere werknemer. Dit verandert de clusterstatus naar Doorgegeven. Wanneer de medewerker een mobiel apparaat gebruikt om aan te geven dat het picken en opslaan is voltooid, moet de zending of lading worden bevestigd in de client.
 
 ## <a name="set-up-cluster-picking"></a>Clusterverzameling instellen
 

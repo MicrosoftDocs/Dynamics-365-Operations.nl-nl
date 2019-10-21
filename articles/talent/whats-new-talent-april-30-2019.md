@@ -1,6 +1,6 @@
 ---
-title: Wat is nieuw of gewijzigd in Dynamics 365 for Talent (30 april 2019)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+title: Wat is nieuw of gewijzigd in Dynamics 365 Talent (30 april 2019)
+description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/30/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 112146ac46193e37b33bf429dc5a359f8cfaca94
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 38158948dbcf8966edf49bcce5b1e5da7eddb8dc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505364"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026029"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-30-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Talent (30 april 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-30-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (30 april 2019)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 for Talent.
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Wijzigingen in Attract
 
@@ -100,4 +100,4 @@ De mogelijkheid om verlof van werknemers bij te houden en inzicht te krijgen in 
 
 ### <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
 
-In platformupdate 26 kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd.
+In platformupdate 26 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd.

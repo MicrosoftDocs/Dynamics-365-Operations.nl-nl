@@ -1,6 +1,6 @@
 ---
-title: Welkom bij Dynamics 365 for Retail
-description: Startpagina voor Dynamics 365 for Retail
+title: Help-bronnen voor Dynamics 365 Retail
+description: Startpagina voor Dynamics 365 Retail
 author: josaw1
 manager: AnnBe
 ms.date: 08/14/2019
@@ -18,23 +18,26 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874922"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278101"
 ---
-# <a name="welcome-to-dynamics-365-for-retail"></a>Welkom bij Dynamics 365 for Retail
+# <a name="help-resources-for-dynamics-365-retail"></a>Help-bronnen voor Dynamics 365 Retail
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail is een complete detailhandelsoplossing die handel mogelijk maakt via alle afzetkanalen. Met de functies voor verkoop, mobiliteit, intelligence en productiviteit kunnen detailhandelaren en werknemers meer bereiken door de nadruk te leggen op cloud- en mobiele voorzieningen. Retail biedt uitgebreide ondersteuning voor een breed scala van bedrijfsprocessen, zoals merchandising, voorraadbeheer en afzetkanaalbeheer. Daarnaast biedt het een complete ervaring voor klanten via alle contactpunten.
-
-> [!NOTE]
-> Dynamics 365 for Retail hangt nauw samen met Dynamics 365 for Finance and Operations en Dynamics 365 for Talent. Dezelfde functionaliteit kan in alle drie de producten voorkomen. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail de productnaam Microsoft Dynamics 365 for Retail gebruikt. In onderwerpen die voornamelijk zijn gerelateerd aan het basisproduct (Finance and Operations) is de productnaam Microsoft Dynamics 365 for Finance and Operations en in onderwerpen die voornamelijk betrekking hebben op HR is de productnaam Dynamics 365 for Talent.
+Microsoft Dynamics 365 Retail is een complete detailhandelsoplossing die handel mogelijk maakt via alle afzetkanalen. Met de functies voor verkoop, mobiliteit, intelligence en productiviteit kunnen detailhandelaren en werknemers meer bereiken door de nadruk te leggen op cloud- en mobiele voorzieningen. Retail biedt uitgebreide ondersteuning voor een breed scala van bedrijfsprocessen, zoals merchandising, voorraadbeheer en afzetkanaalbeheer. Daarnaast biedt het een complete ervaring voor klanten via alle contactpunten.
 
 Selecteer in het linkerdeelvenster een functiegebied om meer informatie hierover te bekijken.
+
+## <a name="dynamics-365-commerce-preview"></a>Dynamics 365 Commerce (preview)
+
+Dynamics 365 Commerce: gebaseerd op de beproefde mogelijkheden van Dynamics 365 Retail biedt een allesomvattende oplossing voor meer kanalen die een universele ervaring biedt voor de backoffice, in de winkel, in het callcenter en bij digitale activiteiten. Er is nu een preview-versie van Commerce beschikbaar voor klanten. Bestaande Dynamics 365 Retail-klanten kunnen naar Commerce updaten zodra deze algemeen beschikbaar is.
+
+Ga voor meer informatie over Dynamics 365 Commerce naar de pagina met [Help-bronnen voor Dynamics 365 Commerce](../commerce/index.md).
 
 ## <a name="channel-management"></a>Afzetkanaalbeheer
 
@@ -78,8 +81,8 @@ U kunt verschillende onderdelen instellen voor het definiëren van de relaties t
 
 Als u bent gevraagd om uw omgeving aan te passen, of als u verantwoordelijk bent voor het implementeren en onderhouden van het systeem, bekijkt u naast de meer algemene inhoud ook de specifieke inhoud voor ontwikkelaars en systeembeheerders van Retail.
 
-- [Dynamics 365 for Retail voor IT-professionals en ontwikkelaars](dev-itpro/dev-retail-home-page.md)
-- [Ontwikkeling en beheer voor Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
+- [Dynamics 365 Retail voor IT-professionals en ontwikkelaars](dev-itpro/dev-retail-home-page.md)
+- [Ontwikkeling en beheer voor Dynamics 365 Finance](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Aanvullende resources
 

@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f08829bccbaea6fb70563e553f9042300b4d5ea9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837993"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026596"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Btw-overeenkomst en -overschrijvingen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u btw-groepen kunt toewijzen aan detailhandelkanalen. Ook wordt het proces doorlopen van het maken van een nieuwe btw-overschrijving en het toewijzen hiervan aan een bestaande groep voor btw-overschrijving. Deze procedure
-
-gebruikt het demobedrijf USRT.
+Deze procedure laat zien hoe u btw-groepen kunt toewijzen aan detailhandelkanalen. Ook wordt het proces doorlopen van het maken van een nieuwe btw-overschrijving en het toewijzen hiervan aan een bestaande groep voor btw-overschrijving. Deze procedure gebruikt het demobedrijf USRT.
 
 1. Ga naar Detailhandel en commerce > Kanalen > Detailhandelwinkels > Alle detailhandelwinkels.
 2. Klik in de lijst op de koppeling Id van detailhandelafzetkanaal voor "Houston".
