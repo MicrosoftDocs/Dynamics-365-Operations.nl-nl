@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f0a5e4c01b34b2adb8e7e0af967af2c2562b4d87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7d2cfb8e58221004ae5662aae3850adc577dc88
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175888"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570305"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Opbrengsttoerekening op verkooporders
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> De functie voor opbrengsttoerekening kan nog niet worden ingeschakeld via Functiebeheer. Momenteel moet u configuratiesleutels gebruiken om deze functie in te schakelen.
+> De functie voor opbrengsttoerekening kan niet worden ingeschakeld via Functiebeheer. Momenteel moet u configuratiesleutels gebruiken om deze functie in te schakelen.
 
 In dit onderwerp wordt de basisfunctionaliteit beschreven voor het toerekenen van opbrengst op verkooporders en facturen. Opbrengsttoerekening is beschikbaar op een verkooporder en op de bijbehorende factuur die op basis van de verkooporder wordt gemaakt. De verkooporder kan ook worden gemaakt via een tijd- en materiaal project.
 

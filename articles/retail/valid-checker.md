@@ -3,7 +3,7 @@ title: Consistentiecontrole voor detailhandeltransacties
 description: In dit onderwerp wordt de functie voor de consistentiecontrole voor detailhandeltransacties in Dynamics 365 Retail beschreven.
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018408"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622592"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Consistentiecontrole voor detailhandeltransacties
 
@@ -59,7 +59,10 @@ Met het batchproces **Winkeltransacties valideren** wordt de consistentie van de
 - **Geschenkbonartikel**: Retail ondersteunt niet het retourneren van geschenkbonartikelen. Het saldo op een geschenkbon kan echter wel contant worden uitbetaald. Geschenkbonartikelen die worden verwerkt als een retourregel in plaats van een uitbetalingsregel mislukken voor het boekingsproces voor overzichten. Het validatieproces voor geschenkbonartikelen zorgt dat de enige retourregels voor geschenkbonartikelen in de detailhandelstransactietabellen uitbetalingsregels voor de geschenkbon zijn.
 - **Negatieve prijs**: hiermee wordt gevalideerd of er geen transactieregels met een negatieve prijs zijn.
 - **Artikel en variant**: hiermee wordt gevalideerd of artikelen en varianten op de transactieregels bestaan in het stambestand met artikelen en varianten.
-- **Btw-bedrag**: hiermee wordt gevalideerd of btw-records overeenkomen met de btw-bedragen op de regels. 
+- **Belastingbedrag**: hiermee wordt gevalideerd of belastingrecords overeenkomen met de belastingbedragen op de regels.
+- **Serienummer**: hiermee wordt gevalideerd of het serienummer aanwezig is in de transactieregels voor artikelen die worden gecontroleerd op serienummer.
+- **Ondertekenen**: hiermee wordt gevalideerd of het teken op de hoeveelheid en het nettobedrag hetzelfde zijn in alle transactieregels.
+- **Bedrijfs datum**: hiermee wordt gevalideerd of de financiële perioden voor alle zakelijke datums voor de detailhandeltransacties openstaan.
 
 ## <a name="set-up-the-consistency-checker"></a>De consistentiecontrole instellen
 

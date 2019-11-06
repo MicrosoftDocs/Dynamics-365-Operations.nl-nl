@@ -42,6 +42,8 @@
               items:
                 - name: Implementatieopties
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Vergelijking van functies tussen cloud en on-premises
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Cloudimplementatie
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Systeemvereisten voor cloudimplementaties
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nieuwe of gewijzigde functies
               items:
-                - name: Startpagina van Nieuwe of gewijzigde functies
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                - name: Preview van functies in Finance and Operations-apps 10.0.6 (november 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations-apps 10.0.5 (oktober 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations 10.0.4 (juli 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Finance and Operations, Enterprise edition 7.3'
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Preview van functies in Supply Chain Management versie 10.0.7 (december 2019)
+                  href: get-started/whats-new-scm-10-0-7.md
+                - name: Supply Chain Management 10.0.6 (november 2019)
+                  href: get-started/whats-new-scm-10-0-6.md
+                - name: Nieuwe of gewijzigde functies in eerdere versies
+                  items:
+                    - name: Startpagina Nieuw of gewijzigd in Finance and Operations
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations-apps 10.0.5 (oktober 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations 10.0.4 (juli 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 'Finance and Operations, Enterprise edition 7.3'
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Verwijderde of verouderde functies
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: AX 2012-functies die zijn uitgesteld
@@ -1687,8 +1693,6 @@
                       href: production-control/register-material-consumption-hand-held-device.md
                     - name: Het grondstoffenverbruik beheren door middel van wisprincipes
                       href: production-control/flushing-principles.md
-                    - name: Cross-docken van productieorders naar outbound docks
-                      href: production-control/cross-docking-opportunities.md
                     - name: De locatie van eindproducten van standaardproductie instellen
                       href: production-control/production-output-location.md
                     - name: Stuklijsten gereedmelden
@@ -2285,6 +2289,12 @@
                   href: warehousing/manage-warehouse-workers.md
                 - name: Uitgestelde verwerking van magazijnwerk
                   href: warehousing/deferred-put.md
+            - name: Cross-docken
+              items:
+                - name: Cross-docken van productieorders naar outbound docks
+                  href: production-control/cross-docking-opportunities.md
+                - name: Zending voor cross-docken automatisch vrijgeven
+                  href: warehousing/auto-release-shipment-for-cross-docking.md
             - name: Gedeeltelijke vrijgave en gedeeltelijke verzending
               items:
                 - name: Gedeeltelijke verzending van een transportlading
@@ -2311,6 +2321,8 @@
                   href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                 - name: Artikelhertoewijzing voor kort orderverzamelen instellen
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                - name: Magazijnwerk voor afhandeling van uitzonderingen annuleren
+                  href: warehousing/cancel-warehouse-work.md
             - name: Voorraadtelling
               items:
                 - name: Redencodes voor voorraadtelling

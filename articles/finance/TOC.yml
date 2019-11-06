@@ -42,6 +42,8 @@
               items:
                 - name: Implementatieopties
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/finance/toc.json
+                - name: Vergelijking van functies tussen cloud en on-premises
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/finance/toc.json
                 - name: Cloudimplementatie
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Systeemvereisten voor cloudimplementaties
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Nieuwe of gewijzigde functies
               items:
-                - name: Startpagina van Nieuwe of gewijzigde functies
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Preview van functies in Finance and Operations-apps 10.0.6 (november 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations-apps 10.0.5 (oktober 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations 10.0.4 (juli 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/finance/toc.json
-                - name: 'Finance and Operations, Enterprise edition 7.3'
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
+                - name: Preview-functies in Finance versie 10.0.7 (januari 2020)
+                  href: get-started/whats-new-changed-10-0-7.md
+                - name: Finance versie 10.0.6 (november 2019)
+                  href: get-started/whats-new-finance-10-0-6.md
+                - name: Nieuwe of gewijzigde functies in eerdere versies
+                  items:
+                    - name: Startpagina Nieuw of gewijzigd in Finance and Operations
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+                    - name: Finance and Operations-apps 10.0.5 (oktober 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/finance/toc.json
+                    - name: Finance and Operations 10.0.4 (juli 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Finance and Operations, Enterprise edition 7.3'
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
                 - name: Verwijderde of verouderde functies
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
                 - name: AX 2012-functies die zijn uitgesteld
@@ -306,6 +312,12 @@
               href: accounts-receivable/tasks/review-collections-information.md
             - name: Overzicht van opbrengsten voor reserves
               href: accounts-receivable/revenue-recognition-overview.md
+            - name: Instellingen opbrengsttoerekening
+              href: accounts-receivable/revenue-recognition-setup.md
+            - name: Uitgestelde opbrengst toerekenen
+              href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
+            - name: Opbrengsttoerekening op verkooporders
+              href: accounts-receivable/revenue-recognition-so-basics.md
             - name: Terugkerende facturen instellen en verwerken
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Boekhoudingsverdelingen en journaalposten in de subadministratie voor vrije-tekstfacturen
@@ -732,10 +744,12 @@
                   href: general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
                 - name: Evenwichtige journalen voor interunit-boekhouding
                   href: general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Boekingsdefinities
+                - name: Boekdefinities
                   href: general-ledger/posting-definitions.md
-                - name: Voorbeelden van boekingsdefinities
+                - name: Voorbeelden van boekdefinities
                   href: general-ledger/example-posting-definitions.md
+                - name: Standaard beschrijvingen voor automatische boeking instellen
+                  href: general-ledger/set-up-default-descriptions-for-automatic-posting.md
                 - name: Grootboekrekeningsaldi
                   href: general-ledger/general-ledger-account-balances.md
                 - name: Financiële dimensies definiëren
@@ -794,6 +808,8 @@
                   href: general-ledger/general-journal-processing.md
                 - name: Periodieke journalen boeken
                   href: general-ledger/tasks/post-periodic-journals.md
+                - name: Journaalboekingen tegenboeken
+                  href: general-ledger/reverse-journal-posting.md
                 - name: Grootboektoewijzingsjournaal verwerken
                   href: general-ledger/tasks/process-ledger-allocation-journal.md
                 - name: Instelling van intercompany-boekhouding
@@ -856,8 +872,12 @@
                   href: general-ledger/sales-tax-calculation-methods-origin-field.md
                 - name: Berekeningsopties Volledige bedrag en interval voor btw-codes
                   href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Btw-berekening voor algemene journaalregels
+                  href: general-ledger/sales-tax-calculation-on-general-journal.md
                 - name: Btw op een leveranciersfactuur berekenen en corrigeren
                   href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Berekening van vertraagde btw in journaal inschakelen
+                  href: general-ledger/enable-delayed-tax-calculation.md
                 - name: Een btw-betaling maken
                   href: general-ledger/tasks/create-sales-tax-payment.md
                 - name: Btw-transacties maken in documenten
@@ -940,6 +960,10 @@
               href: public-sector/plan-public-sector-functionality.md
             - name: Voorbladen en handtekeningpagina's voor een betalingsrapport voor de openbare sector maken
               href: public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
+            - name: Verdeling prognosepositie
+              href: public-sector/forecast-positions.md
+            - name: Prognosepositierapporten in de openbare sector
+              href: public-sector/forecast-position-reports.md
             - name: Leveranciers in de openbare sector
               items:
                 - name: Overzicht van Leveranciers in de openbare sector
@@ -1016,6 +1040,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Een geavanceerde grootboekpost in de openbare sector maken
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: Beheerlimieten voor contant geld gebruiken
+                  href: public-sector/cash-control.md
                 - name: Jaarultimoverwerking in de openbare sector
                   href: public-sector/year-end-processing-public-sector.md
                 - name: Afgeleide financiële hiërarchieën in de openbare sector
@@ -1214,6 +1240,8 @@
                   href: localizations/latam-bra-sped-ecd.md
                 - name: Overzicht SPED-Reinf-belasting
                   href: localizations/latam-bra-sped-reinf.md
+                - name: SPED fiscale resolutie 13/2019 RJ
+                  href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: Parameters voor rechtspersonen
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Parameters voor rechtspersonen instellen
@@ -1863,8 +1891,12 @@
                   href: localizations/emea-ita-packing-slip.md
                 - name: Btw-boeken
                   href: localizations/emea-ita-fiscal-books.md
+                - name: Btw-beheer en -rapportage per btw-puntdatum (datum van btw-register)
+                  href: localizations/emea-ita-vat-management.md
                 - name: Betalingen splitsen voor facturen die zijn uitgegeven aan overheidsdiensten
                   href: localizations/emea-ita-split-payment-invoices-issued-public-administration.md
+                - name: Factuurcreditering (Italië)
+                  href: localizations/emea-ita-credit-invoicing.md
                 - name: Bronbelasting
                   href: localizations/emea-ita-withholding-tax.md
             - name: Japan
@@ -2221,6 +2253,8 @@
                       href: localizations/rus-VAT-declaration.md
                     - name: 'Verkoopboeken, inkoopboeken en factuurjournalen'
                       href: localizations/rus-sales-books-purchase-books.md
+                    - name: Vooruitbetalingsbeheer
+                      href: localizations/rus-prepayments-management.md
                 - name: Vaste activa
                   items:
                     - name: Vaste activa beheren
@@ -2277,7 +2311,9 @@
                       href: ../supply-chain/localizations/rus-goods-transit-postponed.md
                     - name: Cashflowbeheer
                       href: localizations/rus-cash-flow.md
-                - name: Rapporteren
+                    - name: Toewijzing van diverse toeslagen in verhouding tot gewicht en volume
+                      href: localizations/rus-miscellaneous-charges.md
+                - name: Rapportage
                   items:
                     - name: Financiële rapportage
                       href: localizations/rus-financial-reports.md

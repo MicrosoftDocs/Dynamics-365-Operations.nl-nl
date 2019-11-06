@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175882"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570120"
 ---
 # <a name="financial-management-home-page"></a>Startpagina van Financieel beheer
 
@@ -69,4 +69,8 @@ Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 36
 ### <a name="countryregion-functionality"></a>Functionaliteit land/regio
 
 Voorschriften voor land/regio zijn van invloed op de belastinginstellingen en andere onderdelen van financieel beheer. Raadpleeg het gedeelte [Lokalisatie en wettelijk voorgeschreven functies](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) in de Help voor meer informatie over specifieke functionaliteit per land/regio.
+
+### <a name="additional-content"></a>Aanvullende inhoud
+
+De functionaliteit van Supply Chain Management heeft betrekking op onderdelen van het proces van inkopen tot betalen, dat aanvragen, bestellen, ontvangen, factureren en betalen omvat voor de goederen en diensten die uw organisatie inkoopt. Zie de [!startpagina Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) voor informatie over de mogelijkheden voor het beheren van inkoop, voorraad en productie. 
 
