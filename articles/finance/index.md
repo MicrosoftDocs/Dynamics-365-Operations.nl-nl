@@ -17,56 +17,60 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175882"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570120"
 ---
-# <a name="financial-management-home-page"></a><span data-ttu-id="760fe-103">Startpagina van Financieel beheer</span><span class="sxs-lookup"><span data-stu-id="760fe-103">Financial management home page</span></span>
+# <a name="financial-management-home-page"></a><span data-ttu-id="e2b32-103">Startpagina van Financieel beheer</span><span class="sxs-lookup"><span data-stu-id="e2b32-103">Financial management home page</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="760fe-104">Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor financieel beheer in Microsoft Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="760fe-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 Finance.</span></span> 
+<span data-ttu-id="e2b32-104">Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor financieel beheer in Microsoft Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="e2b32-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 Finance.</span></span> 
 
-<span data-ttu-id="760fe-105">Selecteer een functiegebied voor meer informatie hierover.</span><span class="sxs-lookup"><span data-stu-id="760fe-105">Select a feature area to learn more about it.</span></span>
+<span data-ttu-id="e2b32-105">Selecteer een functiegebied voor meer informatie hierover.</span><span class="sxs-lookup"><span data-stu-id="e2b32-105">Select a feature area to learn more about it.</span></span>
 
 :::row:::
     :::column:::
-        - [<span data-ttu-id="760fe-106">Leveranciers</span><span class="sxs-lookup"><span data-stu-id="760fe-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
-        - [<span data-ttu-id="760fe-107">Klanten</span><span class="sxs-lookup"><span data-stu-id="760fe-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md)
-        - [<span data-ttu-id="760fe-108">Budgettering</span><span class="sxs-lookup"><span data-stu-id="760fe-108">Budgeting</span></span>](budgeting/budgeting-overview.md) 
-        - [<span data-ttu-id="760fe-109">Contanten en bankbeheer</span><span class="sxs-lookup"><span data-stu-id="760fe-109">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
-        - [<span data-ttu-id="760fe-110">Kostprijsboekhouding</span><span class="sxs-lookup"><span data-stu-id="760fe-110">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
+        - [<span data-ttu-id="e2b32-106">Leveranciers</span><span class="sxs-lookup"><span data-stu-id="e2b32-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
+        - [<span data-ttu-id="e2b32-107">Klanten</span><span class="sxs-lookup"><span data-stu-id="e2b32-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md)
+        - [<span data-ttu-id="e2b32-108">Budgettering</span><span class="sxs-lookup"><span data-stu-id="e2b32-108">Budgeting</span></span>](budgeting/budgeting-overview.md) 
+        - [<span data-ttu-id="e2b32-109">Contanten en bankbeheer</span><span class="sxs-lookup"><span data-stu-id="e2b32-109">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
+        - [<span data-ttu-id="e2b32-110">Kostprijsboekhouding</span><span class="sxs-lookup"><span data-stu-id="e2b32-110">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [<span data-ttu-id="760fe-111">Onkostenbeheer</span><span class="sxs-lookup"><span data-stu-id="760fe-111">Expense management</span></span>](expense-management/expense-management.md)
-        - [<span data-ttu-id="760fe-112">Financiële rapportage</span><span class="sxs-lookup"><span data-stu-id="760fe-112">Financial reporting</span></span>](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
-        - [<span data-ttu-id="760fe-113">Vaste activa</span><span class="sxs-lookup"><span data-stu-id="760fe-113">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
-        - [<span data-ttu-id="760fe-114">Grootboek</span><span class="sxs-lookup"><span data-stu-id="760fe-114">General ledger</span></span>](general-ledger/general-ledger.md) 
-        - [<span data-ttu-id="760fe-115">Projectbeheer</span><span class="sxs-lookup"><span data-stu-id="760fe-115">Project management</span></span>](project-management/overview-project-management-accounting.md)
-        - [<span data-ttu-id="760fe-116">Openbare sector</span><span class="sxs-lookup"><span data-stu-id="760fe-116">Public sector</span></span>](public-sector/public-sector-functionality.md) 
+        - [<span data-ttu-id="e2b32-111">Onkostenbeheer</span><span class="sxs-lookup"><span data-stu-id="e2b32-111">Expense management</span></span>](expense-management/expense-management.md)
+        - [<span data-ttu-id="e2b32-112">Financiële rapportage</span><span class="sxs-lookup"><span data-stu-id="e2b32-112">Financial reporting</span></span>](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [<span data-ttu-id="e2b32-113">Vaste activa</span><span class="sxs-lookup"><span data-stu-id="e2b32-113">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
+        - [<span data-ttu-id="e2b32-114">Grootboek</span><span class="sxs-lookup"><span data-stu-id="e2b32-114">General ledger</span></span>](general-ledger/general-ledger.md) 
+        - [<span data-ttu-id="e2b32-115">Projectbeheer</span><span class="sxs-lookup"><span data-stu-id="e2b32-115">Project management</span></span>](project-management/overview-project-management-accounting.md)
+        - [<span data-ttu-id="e2b32-116">Openbare sector</span><span class="sxs-lookup"><span data-stu-id="e2b32-116">Public sector</span></span>](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
 
 
-## <a name="additional-resources"></a><span data-ttu-id="760fe-117">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="760fe-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="e2b32-117">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="e2b32-117">Additional resources</span></span>
 
-### <a name="blogs"></a><span data-ttu-id="760fe-118">Weblogs</span><span class="sxs-lookup"><span data-stu-id="760fe-118">Blogs</span></span>
+### <a name="blogs"></a><span data-ttu-id="e2b32-118">Weblogs</span><span class="sxs-lookup"><span data-stu-id="e2b32-118">Blogs</span></span>
 
-- [<span data-ttu-id="760fe-119">Microsoft Dynamics 365-blog</span><span class="sxs-lookup"><span data-stu-id="760fe-119">Microsoft Dynamics 365 blog</span></span>](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
-- [<span data-ttu-id="760fe-120">Financials-blog</span><span class="sxs-lookup"><span data-stu-id="760fe-120">Financials blog</span></span>](https://community.dynamics.com/365/financeandoperations/b/financials) 
-- [<span data-ttu-id="760fe-121">Microsoft Dynamics Operations-blog van de partnercommunity</span><span class="sxs-lookup"><span data-stu-id="760fe-121">Microsoft Dynamics Operations Partner Community Blog</span></span>](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
+- [<span data-ttu-id="e2b32-119">Microsoft Dynamics 365-blog</span><span class="sxs-lookup"><span data-stu-id="e2b32-119">Microsoft Dynamics 365 blog</span></span>](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+- [<span data-ttu-id="e2b32-120">Financials-blog</span><span class="sxs-lookup"><span data-stu-id="e2b32-120">Financials blog</span></span>](https://community.dynamics.com/365/financeandoperations/b/financials) 
+- [<span data-ttu-id="e2b32-121">Microsoft Dynamics Operations-blog van de partnercommunity</span><span class="sxs-lookup"><span data-stu-id="e2b32-121">Microsoft Dynamics Operations Partner Community Blog</span></span>](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
-### <a name="task-guides"></a><span data-ttu-id="760fe-122">Taakbegeleidingen</span><span class="sxs-lookup"><span data-stu-id="760fe-122">Task guides</span></span>
-<span data-ttu-id="760fe-123">Extra informatie is beschikbaar als taakbegeleidingen binnen Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="760fe-123">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="760fe-124">Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.</span><span class="sxs-lookup"><span data-stu-id="760fe-124">To access task guides, click the Help button on any page.</span></span>
+### <a name="task-guides"></a><span data-ttu-id="e2b32-122">Taakbegeleidingen</span><span class="sxs-lookup"><span data-stu-id="e2b32-122">Task guides</span></span>
+<span data-ttu-id="e2b32-123">Extra informatie is beschikbaar als taakbegeleidingen binnen Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e2b32-123">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="e2b32-124">Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.</span><span class="sxs-lookup"><span data-stu-id="e2b32-124">To access task guides, click the Help button on any page.</span></span>
 
-### <a name="videos"></a><span data-ttu-id="760fe-125">Video's</span><span class="sxs-lookup"><span data-stu-id="760fe-125">Videos</span></span>
+### <a name="videos"></a><span data-ttu-id="e2b32-125">Video's</span><span class="sxs-lookup"><span data-stu-id="e2b32-125">Videos</span></span>
 
-<span data-ttu-id="760fe-126">Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="760fe-126">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="e2b32-126">Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="e2b32-126">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
-### <a name="countryregion-functionality"></a><span data-ttu-id="760fe-127">Functionaliteit land/regio</span><span class="sxs-lookup"><span data-stu-id="760fe-127">Country/region functionality</span></span>
+### <a name="countryregion-functionality"></a><span data-ttu-id="e2b32-127">Functionaliteit land/regio</span><span class="sxs-lookup"><span data-stu-id="e2b32-127">Country/region functionality</span></span>
 
-<span data-ttu-id="760fe-128">Voorschriften voor land/regio zijn van invloed op de belastinginstellingen en andere onderdelen van financieel beheer.</span><span class="sxs-lookup"><span data-stu-id="760fe-128">Country/region regulations affect tax setup and other areas of financial management.</span></span> <span data-ttu-id="760fe-129">Raadpleeg het gedeelte [Lokalisatie en wettelijk voorgeschreven functies](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) in de Help voor meer informatie over specifieke functionaliteit per land/regio.</span><span class="sxs-lookup"><span data-stu-id="760fe-129">Refer to the [Localization and regulatory features](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) section of our help content to learn about country/region-specific functionality.</span></span>
+<span data-ttu-id="e2b32-128">Voorschriften voor land/regio zijn van invloed op de belastinginstellingen en andere onderdelen van financieel beheer.</span><span class="sxs-lookup"><span data-stu-id="e2b32-128">Country/region regulations affect tax setup and other areas of financial management.</span></span> <span data-ttu-id="e2b32-129">Raadpleeg het gedeelte [Lokalisatie en wettelijk voorgeschreven functies](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) in de Help voor meer informatie over specifieke functionaliteit per land/regio.</span><span class="sxs-lookup"><span data-stu-id="e2b32-129">Refer to the [Localization and regulatory features](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) section of our help content to learn about country/region-specific functionality.</span></span>
+
+### <a name="additional-content"></a><span data-ttu-id="e2b32-130">Aanvullende inhoud</span><span class="sxs-lookup"><span data-stu-id="e2b32-130">Additional content</span></span>
+
+<span data-ttu-id="e2b32-131">De functionaliteit van Supply Chain Management heeft betrekking op onderdelen van het proces van inkopen tot betalen, dat aanvragen, bestellen, ontvangen, factureren en betalen omvat voor de goederen en diensten die uw organisatie inkoopt.</span><span class="sxs-lookup"><span data-stu-id="e2b32-131">Supply chain management functionality covers parts of the procure-to-pay process that includes requisitioning, ordering, receiving, invoicing and paying for the goods and services your organzation purchases.</span></span> <span data-ttu-id="e2b32-132">Zie de [!startpagina Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) voor informatie over de mogelijkheden voor het beheren van inkoop, voorraad en productie.</span><span class="sxs-lookup"><span data-stu-id="e2b32-132">Refer to the [!Supply Chain Management home page](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) for information about the capatilibities for managing purchases, inventory, and manufacturing.</span></span> 
 
