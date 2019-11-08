@@ -1,6 +1,6 @@
 ---
-title: Vertraagde belastingberekening inschakelen in journaal
-description: In dit onderwerp wordt uitgelegd hoe u de functie **Vertraagde belastingberekening inschakelen in journaal** gebruikt om de belastingberekening te verbeteren bij een groot volume van journaalregels.
+title: Vertraagde belastingberekening inschakelen in journalen
+description: In dit onderwerp wordt uitgelegd hoe u de functie Vertraagde belastingberekening inschakelt om de belastingberekening te helpen verbeteren als het aantal journaalregels zeer groot is.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177123"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623516"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a><span data-ttu-id="c03ca-103">Vertraagde belastingberekening inschakelen in journaal</span><span class="sxs-lookup"><span data-stu-id="c03ca-103">Enable delayed tax calculation on journal</span></span>
+# <a name="enable-delayed-tax-calculation-on-journals"></a><span data-ttu-id="52578-103">Vertraagde belastingberekening inschakelen in journalen</span><span class="sxs-lookup"><span data-stu-id="52578-103">Enable delayed tax calculation on journals</span></span>
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="c03ca-104">In dit onderwerp wordt uitgelegd hoe u de functie **Vertraagde belastingberekening inschakelen in journaal** gebruikt om de belastingberekening te verbeteren bij een groot volume van journaalregels.</span><span class="sxs-lookup"><span data-stu-id="c03ca-104">This topic explains how to use the **Enable delayed tax calculation on journal** feature to improve tax calculation performance when the volume of journal lines is huge.</span></span>
+<span data-ttu-id="52578-104">In dit onderwerp wordt uitgelegd hoe u btw-berekening in journalen kunt vertragen.</span><span class="sxs-lookup"><span data-stu-id="52578-104">This topic explains how you can delay sales tax calculation on journals.</span></span> <span data-ttu-id="52578-105">Deze mogelijkheid helpt de prestaties van belastingberekeningen te verbeteren wanneer er veel journaalregels zijn.</span><span class="sxs-lookup"><span data-stu-id="52578-105">This capability helps improve the performance of tax calculations when there are many journal lines.</span></span>
 
-<span data-ttu-id="c03ca-105">Het huidige gedrag van btw-berekening in journaal wordt tijdens real-time geactiveerd wanneer de gebruiker btw-gerelateerde velden bijwerkt, bijvoorbeeld btw-groep/btw-groep van artikel.</span><span class="sxs-lookup"><span data-stu-id="c03ca-105">Current sales tax calculation behavior on journal is real-time triggered when user updates tax related fields, e.g. sales tax group/item sales tax group.</span></span> <span data-ttu-id="c03ca-106">Bij een update op journaalregelniveau wordt het btw-bedrag op alle journaalregels opnieuw berekend.</span><span class="sxs-lookup"><span data-stu-id="c03ca-106">Any update at journal line level will re-calculate tax amount on all journal lines.</span></span> <span data-ttu-id="c03ca-107">Het helpt de gebruiker om het real-time berekende belastingbedrag te zien, maar dit kan ook tot prestatieproblemen leiden bij een groot aantal journaalregels.</span><span class="sxs-lookup"><span data-stu-id="c03ca-107">It helps user to see real-time calculated tax amount but it could also bring performance issue if  the volume of journal lines is huge.</span></span>
+<span data-ttu-id="52578-106">Standaard worden btw-bedragen op journaalregels berekend telkens wanneer btw-gerelateerde velden worden bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="52578-106">By default, sales tax amounts on journal lines are calculated whenever tax-related fields are updated.</span></span> <span data-ttu-id="52578-107">Deze velden bevatten de velden voor btw-groepen en btw-groepen voor artikelen.</span><span class="sxs-lookup"><span data-stu-id="52578-107">These fields include the fields for sales tax groups and item sales tax groups.</span></span> <span data-ttu-id="52578-108">Eventuele wijzigingen in een journaalregel leiden ertoe dat belastingbedragen opnieuw worden berekend voor alle journaalregels.</span><span class="sxs-lookup"><span data-stu-id="52578-108">Any update to a journal line causes tax amounts to be recalculated for all journal lines.</span></span> <span data-ttu-id="52578-109">Hoewel gebruikers hiermee belastingbedragen kunnen zien die in realtime zijn berekend, kan dit ook invloed hebben op de prestaties als het aantal journaalregels erg groot is.</span><span class="sxs-lookup"><span data-stu-id="52578-109">Although this behavior helps user see tax amounts calculated in real time, it can also affect performance if the number of journal lines is very large.</span></span>
 
-<span data-ttu-id="c03ca-108">Deze functie biedt een optie om de belastingberekening te vertragen om de prestatieproblemen op te lossen.</span><span class="sxs-lookup"><span data-stu-id="c03ca-108">This feature provides an option to delay tax calculation to solve performance issue.</span></span> <span data-ttu-id="c03ca-109">Als deze functie is ingeschakeld, wordt het btw-bedrag alleen berekend wanneer de gebruiker op de opdracht "Btw" klikt of het journaal boekt.</span><span class="sxs-lookup"><span data-stu-id="c03ca-109">If this feature is turned on, tax amount will only be calculated when user clicks "Sales Tax" command or posts the journal.</span></span>
+<span data-ttu-id="52578-110">Met de functie Vertraagde belastingberekening kunt u de btw-berekening in journalen vertragen en zodoende prestatieproblemen oplossen.</span><span class="sxs-lookup"><span data-stu-id="52578-110">The Delayed tax calculation feature lets you delay tax calculation on journals and therefore helps fix performance issues.</span></span> <span data-ttu-id="52578-111">Als deze functie is ingeschakeld, worden btw-bedragen alleen berekend wanneer een gebruiker **Btw** selecteert of het journaal boekt.</span><span class="sxs-lookup"><span data-stu-id="52578-111">When this feature is turned on, tax amounts are calculated only when a user selects **Sales Tax** or posts the journal.</span></span>
 
-<span data-ttu-id="c03ca-110">Gebruiker kan de parameter op drie niveaus in- of uitschakelen:</span><span class="sxs-lookup"><span data-stu-id="c03ca-110">User can turn on/off the parameter at three levels:</span></span>
-- <span data-ttu-id="c03ca-111">Per rechtspersoon</span><span class="sxs-lookup"><span data-stu-id="c03ca-111">By legal entity</span></span>
-- <span data-ttu-id="c03ca-112">Per journaalnaam</span><span class="sxs-lookup"><span data-stu-id="c03ca-112">By journal name</span></span>
-- <span data-ttu-id="c03ca-113">Per journaalkoptekst</span><span class="sxs-lookup"><span data-stu-id="c03ca-113">By journal header</span></span>
+<span data-ttu-id="52578-112">U kunt de berekening van de btw op drie niveaus vertragen:</span><span class="sxs-lookup"><span data-stu-id="52578-112">You can delay the calculation of sales taxes at three levels:</span></span>
 
-<span data-ttu-id="c03ca-114">Het systeem zal de parameterwaarde in de journaalkoptekst opnemen als definitief.</span><span class="sxs-lookup"><span data-stu-id="c03ca-114">System will take the parameter value on journal header as final.</span></span> <span data-ttu-id="c03ca-115">De parameterwaarde op de journaalkoptekst wordt standaard opgehaald uit de journaalnaam.</span><span class="sxs-lookup"><span data-stu-id="c03ca-115">Parameter value on journal header will be defaulted from journal name.</span></span> <span data-ttu-id="c03ca-116">De parameterwaarde in de journaalnaam wordt standaard opgehaald uit de grootboekparameter wanneer de journaalnaam wordt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="c03ca-116">Parameter value on journal name will be defaulted from general ledger parameter when the journal name is created.</span></span>
+- <span data-ttu-id="52578-113">Rechtspersoon</span><span class="sxs-lookup"><span data-stu-id="52578-113">Legal entity</span></span>
+- <span data-ttu-id="52578-114">Journaalnaam</span><span class="sxs-lookup"><span data-stu-id="52578-114">Journal name</span></span>
+- <span data-ttu-id="52578-115">Journaalkoptekst</span><span class="sxs-lookup"><span data-stu-id="52578-115">Journal header</span></span>
 
-<span data-ttu-id="c03ca-117">De velden "Werkelijk btw-bedrag" en "Berekend btw-bedrag" in het journaal worden verborgen als deze parameter wordt ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="c03ca-117">"Actual sales tax amount" and "Calculated sales tax amount" fields on journal will be hided if this parameter is turned on.</span></span> <span data-ttu-id="c03ca-118">Dit is om de gebruiker niet in verwarring te brengen, omdat de waarde van deze twee velden altijd 0 aangeeft voordat de belastingberekening door de gebruiker wordt geactiveerd.</span><span class="sxs-lookup"><span data-stu-id="c03ca-118">The purpose is not to confuse user because the value of these two fields will always show 0 before user trigger the tax calculation.</span></span>
+<span data-ttu-id="52578-116">Het systeem geeft prioriteit aan de instelling voor de journaalkoptekst.</span><span class="sxs-lookup"><span data-stu-id="52578-116">The system gives priority to the setting for the journal header.</span></span> <span data-ttu-id="52578-117">Standaard wordt deze instelling overgenomen van de journaalnaam.</span><span class="sxs-lookup"><span data-stu-id="52578-117">By default, this setting is taken from the journal name.</span></span> <span data-ttu-id="52578-118">De instelling voor de journaalnaam wordt standaard overgenomen van de instelling op de pagina **Grootboekparameters** wanneer de journaalnaam wordt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="52578-118">By default, the setting for the journal name is taken from the setting on the **General ledger parameters** page when the journal name is created.</span></span> <span data-ttu-id="52578-119">In de volgende secties wordt uitgelegd hoe u vertraagde belastingberekening inschakelt voor rechtspersonen, journaalnamen en journaalkopteksten.</span><span class="sxs-lookup"><span data-stu-id="52578-119">The following sections explain how to turn on delayed tax calculation for legal entities, journal names, and journal headers.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a><span data-ttu-id="c03ca-119">Berekening van vertraagde btw per rechtspersoon inschakelen</span><span class="sxs-lookup"><span data-stu-id="c03ca-119">Enable delayed tax calculation by legal entity</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a><span data-ttu-id="52578-120">Vertraagde btw-berekening inschakelen op het niveau van de rechtspersoon</span><span class="sxs-lookup"><span data-stu-id="52578-120">Turn on delayed tax calculation at the legal entity level</span></span>
 
-1. <span data-ttu-id="c03ca-120">Ga naar **Grootboek > Grootboek instellen > Grootboekparameters**</span><span class="sxs-lookup"><span data-stu-id="c03ca-120">Go to **General ledger > Ledger setup > General ledger parameters**</span></span>
-2. <span data-ttu-id="c03ca-121">Klik op het tabblad **Btw**</span><span class="sxs-lookup"><span data-stu-id="c03ca-121">Click **Sales tax** tab</span></span>
-3. <span data-ttu-id="c03ca-122">Zoek op het sneltabblad **Algemeen** de parameter **Vertraagde belastingberekening** en schakel deze in/uit</span><span class="sxs-lookup"><span data-stu-id="c03ca-122">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+1. <span data-ttu-id="52578-121">Ga naar **Grootboek \> Grootboek instellen \> Grootboekparameters**.</span><span class="sxs-lookup"><span data-stu-id="52578-121">Go to **General ledger \> Ledger setup \> General ledger parameters**.</span></span>
+2. <span data-ttu-id="52578-122">Stel op het tabblad **Btw** op het sneltabblad **Algemeen** de optie **Vertraagde belastingberekening** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="52578-122">On the **Sales tax** tab, on the **General** FastTab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-![](media/delayed-tax-calculation-gl.png)
+![Afbeelding van grootboekparameters](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a><span data-ttu-id="52578-124">Vertraagde btw-berekening inschakelen op het niveau van de journaalnaam</span><span class="sxs-lookup"><span data-stu-id="52578-124">Turn on delayed tax calculation at the journal name level</span></span>
 
+1. <span data-ttu-id="52578-125">Ga naar **Grootboek \> Journaalinstellingen \> Journaalnamen**.</span><span class="sxs-lookup"><span data-stu-id="52578-125">Go to **General ledger \> Journal setup \> Journal names**.</span></span>
+2. <span data-ttu-id="52578-126">Stel in de sectie **Btw** op het sneltabblad **Algemeen** de optie **Vertraagde belastingberekening** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="52578-126">On the **General** FastTab, in the **Sales tax** section, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a><span data-ttu-id="c03ca-123">Vertraagde belastingberekening inschakelen per journaalnaam</span><span class="sxs-lookup"><span data-stu-id="c03ca-123">Enable delayed tax calculation by journal name</span></span>
+![Afbeelding van journaalnamen](media/delayed-tax-calculation-journal-name.png)
 
-1. <span data-ttu-id="c03ca-124">Ga naar **Grootboek > Journaalinstellingen > Journaalnamen**</span><span class="sxs-lookup"><span data-stu-id="c03ca-124">Go to **General ledger > Journal setup > Journal names**</span></span>
-2. <span data-ttu-id="c03ca-125">Zoek op het sneltabblad **Algemeen** de parameter **Vertraagde belastingberekening** en schakel deze in/uit</span><span class="sxs-lookup"><span data-stu-id="c03ca-125">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a><span data-ttu-id="52578-128">Vertraagde btw-berekening inschakelen op het niveau van de journaalkoptekst</span><span class="sxs-lookup"><span data-stu-id="52578-128">Turn on delayed tax calculation at the journal header level</span></span>
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. <span data-ttu-id="52578-129">Ga naar **Grootboek \> Journaalboekingen \> Algemene journalen**.</span><span class="sxs-lookup"><span data-stu-id="52578-129">Go to **General ledger \> Journal entries \> General journals**.</span></span>
+2. <span data-ttu-id="52578-130">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="52578-130">Select **New**.</span></span>
+3. <span data-ttu-id="52578-131">Selecteer een journaalnaam.</span><span class="sxs-lookup"><span data-stu-id="52578-131">Select a journal name.</span></span>
+4. <span data-ttu-id="52578-132">Stel op het tabblad **Instellingen** de optie **Vertraagde belastingberekening** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="52578-132">On the **Setup** tab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a><span data-ttu-id="c03ca-126">Vertraagde belastingberekening inschakelen per journaal</span><span class="sxs-lookup"><span data-stu-id="c03ca-126">Enable delayed tax calculation by journal</span></span>
-
-1. <span data-ttu-id="c03ca-127">Ga naar **Grootboek > Journaalboekingen > Algemene journalen**</span><span class="sxs-lookup"><span data-stu-id="c03ca-127">Go to **General ledger > Journal entries > General journals**</span></span>
-2. <span data-ttu-id="c03ca-128">Klik op **Nieuw**</span><span class="sxs-lookup"><span data-stu-id="c03ca-128">Click **New**</span></span>
-3. <span data-ttu-id="c03ca-129">Selecteer een journaalnaam</span><span class="sxs-lookup"><span data-stu-id="c03ca-129">Select a journal name</span></span>
-4. <span data-ttu-id="c03ca-130">Klik op **Instellen**</span><span class="sxs-lookup"><span data-stu-id="c03ca-130">Click **Setup**</span></span>
-5. <span data-ttu-id="c03ca-131">Zoek de parameter **Vertraagde belastingberekening** en schakel deze in/uit</span><span class="sxs-lookup"><span data-stu-id="c03ca-131">Find parameter **Delayed tax calculation**, turn on/off it</span></span>
-
-![](media/delayed-tax-calculation-journal-header.png)
+![Afbeelding van grootboekpagina](media/delayed-tax-calculation-journal-header.png)
