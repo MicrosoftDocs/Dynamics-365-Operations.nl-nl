@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249559"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653506"
 ---
 # <a name="demand-forecasting-setup"></a>Instelling van vraagprognose
 
@@ -72,7 +72,7 @@ Om de prognose te maken, gebruikt Supply Chain Management een Machine Learning-w
 
 **Opmerking:** De Azure-opslagaccountnaam en sleutel zijn alleen vereist wanneer u een aangepast opslagaccount gebruikt. Als u de on-premises versie gebruikt, moet u een aangepaste opslagaccount bij Azure hebben, zodat de Machine Learning-service toegang heeft tot de historische gegevens. 
 
-Om vraagvoorspellingen te maken, kunt u uw eigen service implementeren door Machine Learning Studio te gebruiken of de vraagprognose-experimenten van Supply Chain Management. Instructies voor het implementeren van de vraagprognose-experimenten als een webservice, zijn beschikbaar in Finance and Operations. Op de pagina **Parameters voor vraagprognose** klikt u op het tabblad **Azure Machine Learning**.
+Om vraagvoorspellingen te maken, kunt u uw eigen service implementeren door Machine Learning Studio te gebruiken of de vraagprognose-experimenten van Supply Chain Management. Instructies voor het implementeren van de vraagprognose-experimenten als een webservice, zijn beschikbaar in Supply Chain Management. Op de pagina **Parameters voor vraagprognose** klikt u op het tabblad **Azure Machine Learning**.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Instellingen machine learning-service voor vraagprognoses
 Als u de parameters die kunnen worden geconfigureerd voor de vraagprognoseservice, gaat u naar **Hoofdplanning** &gt; **Instellen** &gt; **Vraagprognose** &gt; **Parameters van prognosealgoritme**. Op de pagina **Parameters van prognosealgoritme** worden de standaardwaarden voor de parameters weergegeven. U kunt deze parameters overschrijven op de pagina **Parameters voor vraagprognose**. Gebruik het tabblad **Algemeen** om de parameters globaal te overschrijven, of gebruik het tabblad **Artikeltoewijzingssleutels** om de parameters per artikeltoewijzingssleutel te overschrijven. De parameters die voor een artikeltoewijzingssleutel worden overschreven beïnvloeden alleen de prognose van artikelen die aan de artikeltoewijzingssleutel zijn gekoppeld.

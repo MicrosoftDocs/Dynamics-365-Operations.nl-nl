@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11f784e4c17ad5b764cadd914f4959f4be160913
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: d4804d5f38fb65aa8ab3eafceccbbc6f52f2e81b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783175"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569933"
 ---
 # <a name="functional-location-lifecycle-states"></a>Levenscyclusstatussen van functionele locatie
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In dit onderwerp wordt beschreven hoe u levenscyclusstatussen van functionele locaties en levenscyclusmodellen instelt in Activabeheer. Levenscyclusstatussen van functionele locaties definiëren de statussen die een functionele locatie kan doorlopen, bijvoorbeeld gemaakt, actief en beëindigd. U kunt alle functionele locaties weergeven, ongeacht hun levenscyclusstatus, op de lijstpagina **Alle functionele locaties**. U kunt de status van een functionele locatie wijzigen door deze te selecteren op de lijstpagina **Alle functionele locaties** en **Status van functionele locatie bijwerken** te selecteren.
 

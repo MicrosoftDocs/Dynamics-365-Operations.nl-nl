@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4c9a2fee7d43142f8bb17f4e819c9949a2a20c41
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922017"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570025"
 ---
 # <a name="maintenance-rounds"></a>Onderhoudsrondes
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In **Activabeheer** kunt u onderhoudsronden maken voor verschillende activa. Daarop kunt u met regelmatige tussenpozen een soortgelijke taak uitvoeren. Bijvoorbeeld smeertaken of veiligheidsinspectietaken die voor een aantal machines binnen dezelfde intervallen moeten worden uitgevoerd. De eerste stap bestaat uit het maken van een onderhoudsronde, inclusief activa waarvoor eenzelfde onderhoudstaak moet worden uitgevoerd. Vervolgens plant u de onderhoudsronden. Wanneer u de planning van de onderhoudsronden hebt voltooid, kunt u alle taakrecords voor de ronden bekijken in **Hele onderhoudsschema** en **Openstaande onderhoudsschemaregels**.
 

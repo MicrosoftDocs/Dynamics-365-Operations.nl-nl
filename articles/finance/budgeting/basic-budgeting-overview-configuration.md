@@ -18,14 +18,14 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 349f720ee4cfb612ca4f4f50a9e081f3343f756d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
+ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188689"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2667455"
 ---
-# <a name="budgeting-overview"></a>Budgetteringsoverzicht 
+# <a name="budgeting-overview"></a>Budgetteringsoverzicht
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in M
 <a name="overview"></a>Overzicht
 --------
 
-Het goedgekeurde budget voor een rechtspersoon wordt beheerd in een document dat een *budgetregisterregel* wordt genoemd. De regels in een budgetjournaalpostdocument worden *budgetrekening*posten genoemd, en bevatten financiële dimensiegegevens, datums en de bedragen van het goedgekeurde budget. Het document met budgetjournaalposten is geïntegreerd met elementaire financiële rapporten en querypagina´s waarin werkelijke bedragen worden vergeleken met gebudgetteerde bedragen. 
+Het goedgekeurde budget voor een rechtspersoon wordt beheerd in een document dat een *budgetregisterregel* wordt genoemd. De regels in een budgetjournaalpostdocument worden *budgetrekeningposten* genoemd, en bevatten financiële dimensiegegevens, datums en de bedragen van het goedgekeurde budget. Het document met budgetjournaalposten is geïntegreerd met elementaire financiële rapporten en querypagina´s waarin werkelijke bedragen worden vergeleken met gebudgetteerde bedragen. 
 
 Er zijn meerdere methoden om budgetregisterposten te maken:
 
@@ -69,6 +69,12 @@ Definieer een *budgetmodel* dat correspondeert met alle of enkele budgetten. U 
 Met budgetcodes kunt u een audittrail krijgen van goedgekeurde budgetwijzigingen in de loop van de budgetcyclus. Als een werkstroom is gekoppeld aan een budgetcode, wordt de werkstroom ingeschakeld voor alle budgetjournaalposten die de desbetreffende budgetcode gebruiken en moeten werkstroomstappen worden uitgevoerd voordat de budgetjournaalpost de fase **Voltooid** kan bereiken.  
 
 U kunt desgewenst ook *budgetoverboekingsregels* instellen. Als u budgetoverboekingsregels wilt gebruiken, schakelt u **Regels voor budgetoverboekingen gebruiken** op de pagina **Budgetparameters** in. Wanneer de budgetoverboekingsregels worden gebruikt, als een gebruiker een document maakt door een budgetcode van het type **Overboeking** te gebruiken, worden de budgetsaldi niet worden bijgewerkt als de budgetoverboekingsregels wordt geschonden. U kunt bijvoorbeeld budgetoverdrachtdocumenten toestaan waar het onkostenbudget wordt overgebracht tussen de hoofdrekeningen voor de afdeling Verkoop en marketing, maar kunt verbieden dat budget van of naar die afdeling wordt overgebracht, tenzij workflowgoedkeuring is verleend voor dat type budgetrekeningpost.
+
+Functionaliteit die in Microsoft Dynamics 365 Finance versie 10.0.7 (januari 2020) werd geïntroduceerd voegde mogelijkheden en flexibiliteit toe voor budgetregistervermeldingen. Als u deze uitbreidingen wilt inschakelen, gaat u naar de werkruimte **Functiebeheer** en selecteert u de **Budgetregistervermeldingen voor alleen hoeveelheid** en/of **Budgetregistervermeldingen standaard van bedragtype**.
+
+Met de functie **Budgetregistervermeldingen voor alleen hoeveelheid** kunt u een budgetregistervermelding met alleen hoeveelheden boeken. U kunt bijvoorbeeld een budgetregel boeken met een hoeveelheid van 32 en een prijs van nul, wat resulteert in een bedrag van nul. U kunt deze hoeveelheid vervolgens binnen de context van een financieel rapport gebruiken om een prijs per hoeveelheid te bepalen. U ziet dat er geen query's of rapporten zijn bijgewerkt als onderdeel van deze functie. Met deze functie kunt u alleen een bedrag van nul boeken.
+
+De functie **Budgetregistervermeldingen standaard van bedragtype** maakt het mogelijk dat het standaard bedragtype binnen een budgetregistervermelding een ander bedragtype is dan onkosten. Voor de budgetregistervermeldingsregel wordt nu standaard onkosten gebruikt wanneer het hoofdrekeningtype onkosten is, wordt standaard opbrengst gebruikt als het hoofdrekeningtype onkosten is en wordt standaard onkosten gebruikt voor alle andere rekeningtypen.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Werkruimten en querypagina's gebruiken om budget vs. werkelijk bij te houden
 De budgetmanager kan de huidige status van een budget controleren in de werkruimte **Grootboekbudgetten en prognoses**. De tabbladen **Onkostenbudgetoverschrijding** en **Inkomsten onder budget** biedt een snelle weergave van de financiële dimensies waarin de budgetdoelen niet worden gehaald of de drempel benaderen. U kunt het budgetdrempelpercentage en de financiële dimensiesets personaliseren die op deze tabbladen worden gebruikt door op **Mijn werkruimte configureren** te klikken. U kunt klikken op **Beheerders van eenheden** om de werknemers weer te geven die voor specifieke financiële dimensiecombinaties verantwoordelijk zijn die op deze tabbladen zijn geselecteerd. Als u bijvoorbeeld ziet dat het onkostenbudget van de afdeling Bedrijfsactiviteiten over de budgetdrempel gaat, kunt u de manager van de afdeling Bedrijfsactiviteiten gemakkelijk vinden en contacteren om het probleem te bespreken. 

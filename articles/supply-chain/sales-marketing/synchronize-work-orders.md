@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 3678fbca8244ae6dcd050f6a91ff3b35d90e1064
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 5c57b8d1e09fd57611accec83ec3da4bc596fd00
+ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251702"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "2627546"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Werkorders synchroniseren met projecten van Field Service Supply Chain Management
 
@@ -40,7 +40,7 @@ In dit onderwerp worden alleen de verschillen tussen de twee sjablonen beschreve
 - **Werkorders met Project (Field Service naar Supply Chain Management)**
 - **Werkorders (Field Service naar Supply Chain Management)**
 
-Het belangrijkste verschil is dat deze sjabloon toewijzing van het projectnummer toegewezen aan de Werkorder in Field Service omvat, zodat de Verkooporder gemaakt in Supply Chain Management het projectnummer bevat en dat de facturering in het gerelateerde project kan worden uitgevoerd. Daarnaast worden de functies voor geavanceerde query's en filters gebruikt.
+Het belangrijkste verschil is dat deze sjabloon toewijzing van het projectnummer omvat dat in Field Service aan de werkorder is toegewezen, zodat de Verkooporder die in Supply Chain Management is gemaakt, het projectnummer bevat en dat de facturering in het gerelateerde project kan worden uitgevoerd. Daarnaast worden de functies voor geavanceerde query's en filters gebruikt.
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 

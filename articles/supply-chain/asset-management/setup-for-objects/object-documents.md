@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 5b830d835d99122a8c0572481f4c229c37d97d0c
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024518"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653246"
 ---
 # <a name="asset-documents"></a>Activadocumenten
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In dit onderwerp worden activadocumenten in Activabeheer uitgelegd.
 
-In Activabeheer kunt u documenten zo instellen dat deze automatisch worden gekoppeld aan bijvoorbeeld taaktypen, activafabrikanten, activatypen of activa. Deze functionaliteit is handig wanneer bijgewerkte documentversies worden vrijgegeven. In dat geval hoeft u alleen het bijgewerkte document op de standaardlocatie te plaatsen die u voor uw documenten in Finance and Operations gebruikt en het document te koppelen aan de activadocumentrecord die u hebt gemaakt. Het bijgewerkte document kan vervolgens worden geopend vanuit de menuopties **Alle activa**, **Actieve activa**, **Mijn actieve activa**, **Alle werkorders** en **Actieve werkordertaken**. Bij het proces voor het koppelen van documenten aan een activadocumentrecord wordt gebruikgemaakt van het standaardsysteem voor documentverwerking.
+In Activabeheer kunt u documenten zo instellen dat deze automatisch worden gekoppeld aan bijvoorbeeld taaktypen, activafabrikanten, activatypen of activa. Deze functionaliteit is handig wanneer bijgewerkte documentversies worden vrijgegeven. In dat geval hoeft u alleen het bijgewerkte document op de standaardlocatie te plaatsen die u voor uw documenten in Supply Chain Management gebruikt en het document te koppelen aan de activadocumentrecord die u hebt gemaakt. Het bijgewerkte document kan vervolgens worden geopend vanuit de menuopties **Alle activa**, **Actieve activa**, **Mijn actieve activa**, **Alle werkorders** en **Actieve werkordertaken**. Bij het proces voor het koppelen van documenten aan een activadocumentrecord wordt gebruikgemaakt van het standaardsysteem voor documentverwerking.
 
 **Voorbeeld 1:** een document dat is gerelateerd aan een taaktype kan een procedure voor dat taaktype beschrijven.
 

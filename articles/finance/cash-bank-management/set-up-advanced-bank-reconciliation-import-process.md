@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba85b63abc11c9f32023e8499a02728dfc86bd1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188252"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578190"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Het importproces voor geavanceerde bankafstemming instellen
 
@@ -36,7 +36,7 @@ De instelling voor de importeren van bankafschriften varieert, afhankelijk van d
 ## <a name="set-time-zone-preference"></a>Tijdzone-voorkeur instellen
 Wanneer u de instellingen voor het importeren van bankafschriften configureert, kan het belangrijk zijn om de tijdzone van de datum-tijdgegevens in de bankafschriftbestanden te overwegen die worden geïmporteerd. De standaardinstelling is dat datum- en tijdwaarden al in UTC (Coordinated Universal Time) worden weergegeven en dat er geen tijdzone-conversie wordt toegepast wanneer u de gegevens importeert. 
 
-Er is een optie beschikbaar om een tijdzone op te geven om te gebruiken voor het importeren van gegevens. Deze optie is beschikbaar in het veld voor **Tijdzone-voorkeuren** op elke pagina met **Indelingsgegevens voor brongegevens** (Sneltabblad **Gegevensbeheer werkgebied > Gegevensbronnen configureren > Een gegevensindeling selecteren > Landinstellingen**). Deze voorkeur voor de tijdzone die u invoert, is van toepassing op alle importbewerkingen die van de indeling voor brongegevens gebruikmaken. U kunt zoveel indelingen van gegevensbronnen maken als nodig is voor het importeren van gegevens uit meerdere tijdzones. De voorkeursinstelling voor de tijdzone is de lokale tijdzone van de datum- en tijdgegevens in het importbestand. De voorkeursinstelling voor de tijdzone is de lokale tijdzone van de datum-tijdgegevens in het importbestand. 
+Er is een optie beschikbaar om een tijdzone op te geven om te gebruiken voor het importeren van gegevens. Deze optie is beschikbaar in het veld voor **Tijdzone-voorkeuren** op elke pagina met **Indelingsgegevens voor brongegevens** (Sneltabblad **Gegevensbeheer werkgebied > Gegevensbronnen configureren > Een gegevensindeling selecteren > Landinstellingen**). Deze voorkeur voor de tijdzone die u invoert, is van toepassing op alle importbewerkingen die van de indeling voor brongegevens gebruikmaken. U kunt zoveel indelingen van gegevensbronnen maken als nodig is voor het importeren van gegevens uit meerdere tijdzones.  
 
 Deze tijdzone komt mogelijk niet overeen met de tijdzone van een gebruiker of bedrijf, dus zorg ervoor dat u duidelijk ziet in welke tijd zone de datum- en tijdgegevens worden gebruikt. Het is raadzaam om de volgende punten bij het instellen van een voorkeursinstelling voor de tijdzone in aanmerking te nemen. 
 

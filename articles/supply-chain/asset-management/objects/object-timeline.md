@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1aed71339092097d5c9ad218bec18627a5b415b6
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 2fb91d4c0bde32ca18d66662bc8097259a8c65cd
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783191"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571433"
 ---
 # <a name="asset-event-history"></a>Gebeurtenishistorie van activum
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In dit onderwerp wordt uitgelegd hoe u een gebeurtenishistorie van een activum opent in Activabeheer. De pagina **Gebeurtenishistorie van activum** toont de registratie die tijdens de levensduur van een activum is gemaakt. U kunt deze pagina openen via de menu-items **Alle activa**, **Actieve activa** en **Mijn actieve activa**. Selecteer een activum en selecteer **Gebeurtenishistorie**.
 

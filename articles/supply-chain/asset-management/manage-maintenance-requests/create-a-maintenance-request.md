@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 7fc9ec2f6a9a8a11d824e4b5c13d5aa173541454
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024632"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571916"
 ---
 # <a name="create-maintenance-requests"></a>Onderhoudsverzoeken maken
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Onderhoudsverzoeken kunnen worden gebruikt als onderhoudsmedewerkers of productiemedewerkers ontdekken dat apparatuur moet worden gerepareerd, maar de reparatie niet meteen kan worden uitgevoerd.
 
@@ -55,7 +55,7 @@ De sectie **Actieve onderhoudsverzoeken** van het deelvenster **Verwante informa
 11. Voer in het veld **Notities** eventuele aanvullende notities in die vereist zijn.
 12. Selecteer **OK**.
 
-![Figuur 1](media/03-manage-maintenance-requests.png)
+![Onderhoudsverzoek maken](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Daaropvolgende verwerking van onderhoudsverzoeken
 
@@ -70,7 +70,7 @@ In de detailweergave u diverse gegevens bijwerken. Hieronder vindt u enkele voor
 - Selecteer een type onderhoudstaak en, als deze informatie relevant is, een gerelateerde onderhoudstaakvariant en een vakgebied.
 - Voer in de velden **Breedtegraad** en **Lengtegraad** de geografische coördinaten in. Alle coördinaten die aan een onderhoudsverzoek worden toegevoegd, worden automatisch overgebracht naar een gerelateerde werkorder. 
 
-![Figuur 2](media/04-manage-maintenance-requests.png)
+![Onderhoudsverzoek bijwerken](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Als u een activum selecteert wanneer u een onderhoudsverzoek maakt, kunt u één fout aan het activum toevoegen. Nadat het onderhoudsverzoek is gemaakt, kunt u zo nodig meer fouten toevoegen. Als u fouten wilt toevoegen, selecteert u **Activafout** op de pagina **Alle onderhoudsverzoeken**.

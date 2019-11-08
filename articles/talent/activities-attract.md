@@ -1,5 +1,5 @@
 ---
-title: Activiteiten in de processen in Microsoft Dynamics 365 Talent - Attract
+title: Activiteiten in aanstellingsprocessen
 description: Dit onderwerp biedt informatie over de verschillende soorten activiteiten die kunnen worden gebruikt in het aanstellingsproces in Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 09ac8f5431de0809b9a3a23e1175d5027153e96c
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008680"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552158"
 ---
 # <a name="activities-in-hiring-processes"></a>Activiteiten in aanstellingsprocessen
 

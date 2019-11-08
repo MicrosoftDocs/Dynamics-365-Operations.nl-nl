@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432a235668bbd969f497003a98b7f66390e5308f
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 63f436ffd01ac56bb4bc0021e226dad46d7c3377
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790480"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569910"
 ---
 # <a name="responsible-maintenance-workers"></a>Verantwoordelijke onderhoudsmedewerkers
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Verantwoordelijke onderhoudsmedewerkers kunnen worden gerelateerd aan activumtypen, activa, functionele locaties, categorieën met typen onderhoudstaken, typen onderhoudstaken, varianten op typen onderhoudstaken en transacties. Ze kunnen worden gebruikt met werkorders en onderhoudsverzoeken om een voorkeur aan te geven voor de onderhoudsmedewerkers die verantwoordelijk moeten zijn voor een werkorder. (Deze onderhoudsmedewerkers zijn echter niet noodzakelijkerwijs dezelfde medewerkers die zijn gepland om de werkorder uit te voeren.) Het gebruik van deze functionaliteit is optioneel. Deze kan bijvoorbeeld worden gebruikt om verantwoordelijke medewerkers of medewerkersgroepen voor specifieke werktypen of werkgebieden te selecteren.
 
@@ -53,4 +53,4 @@ Voordat u verantwoordelijke onderhoudsmedewerkers kunt instellen, moet u de mede
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Verantwoordelijke onderhoudsmedewerkers**.
 
-![Figuur 1](media/08-setup-for-requests.png)
+![Pagina Verantwoordelijke onderhoudsmedewerkers](media/08-setup-for-requests.png)

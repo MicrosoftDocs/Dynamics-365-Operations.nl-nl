@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: e1bddb65fd5fd73e879d8a95decc9f3e4f7f37e4
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249378"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653436"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Externe catalogus instellen voor PunchOut eProcurement
 
 [!include [banner](../includes/banner.md)]
 
-Met de externe catalogus zorgt u ervoor dat de product- en prijsinformatie die u vervolgens in Dynamics 365 for Finance and Operations juli 2017 verwerkt, nauwkeurig en up-to-date is. De bestelopdracht kan vervolgens worden goedgekeurd en geconverteerd naar een inkooporder en een order kan bij de leverancier worden geplaatst.
+Door de externe catalogus te gebruiken, weet u zeker dat de product- en prijsinformatie die u vervolgens verwerkt in Supply Chain Management, nauwkeurig en up-to-date is. De bestelopdracht kan vervolgens worden goedgekeurd en geconverteerd naar een inkooporder en een order kan bij de leverancier worden geplaatst.
 
 Wanneer de externe catalogus is ingesteld en een werknemer een bestelopdracht voorbereidt, is er een optie om door te leiden naar een externe site, de externe catalogus, en de winkelwagen te retourneren die is gemaakt op de externe site. Deze mededeling is gebaseerd op het protocol cXML en moet worden ingesteld tussen de systemen van de kopende organisatie en de verkopende organisatie.
 
@@ -54,14 +54,14 @@ De externe catalogus moet ervoor zorgen dat een werknemer die een opdracht tot i
 Deze sectie biedt meer details over taak 4 uit de vorige sectie.
 
 1. Voer een naam en omschrijving in voor de externe leverancierscatalogus. De naam die u invoert, wordt weergegeven op de winkelwagen die de externe catalogus vertegenwoordigt die wordt weergegeven aan werknemers die een opdracht tot inkoop maken. Een werknemer kan op de winkelwagen klikken om de catalogus te openen op de externe catalogussite van de leverancier.
-2. Voeg een afbeelding toe met behulp van de actie  **Externe catalogusafbeelding**. De afbeelding wordt weergegeven op de winkelwagen die de externe catalogus vertegenwoordigt die wordt weergegeven aan werknemers die een opdracht tot inkoop maken. Houd er rekening mee dat de breedte en hoogte van de afbeelding gelijk moeten zijn. Anders wordt de afbeelding niet correct weergegeven.
+2. Voeg een afbeelding toe met behulp van de actie **Externe catalogusafbeelding**. De afbeelding wordt weergegeven op de winkelwagen die de externe catalogus vertegenwoordigt die wordt weergegeven aan werknemers die een opdracht tot inkoop maken. Houd er rekening mee dat de breedte en hoogte van de afbeelding gelijk moeten zijn. Anders wordt de afbeelding niet correct weergegeven.
 3. Geef aan of de externe cataloguswebsite van de leverancier moet worden weergegeven in hetzelfde browservenster als waarin de werknemer de inkoopopdracht heeft gemaakt, of dat deze in een nieuw venster wordt geopend.
 4. Selecteer de leverancier voor de catalogus. In de lijst **Rechtspersonen** is er een rij voor elke rechtspersoon waarvoor de leverancier is ingesteld. Als u wilt toestaan dat gebruikers producten rechtstreeks uit de catalogus van de leverancier bestellen in sommige rechtspersonen maar niet in andere, kunt u dit instellen met de knoppen **Toegang voorkomen** of **Toegang toestaan** voor elke rechtspersoon waarvoor u de catalogus al dan niet toegankelijk wilt maken.
 5. Voer in het veld **Standaardvervalperiode (dagen)** het aantal dagen in dat een offerte uit de externe catalogus geldig is en kan worden gebruikt om in te kopen bij de externe leverancier. Wanneer een offerte wordt gemaakt en opgehaald van de externe catalogussite van de leverancier, dan is de offerte geldig met ingang van de huidige systeemdatum en blijft geldig gedurende het aantal dagen dat u in dit veld invoert.
-6. Klik op de knop **Toevoegen** om de aanschaffingscategorieën aan de externe catalogus toe te wijzen. Selecteer vervolgens een categorie in de lijst Categorienaam. De lijst met categorieën is een superset van aanschaffingscategorieën waaraan de leverancier is toegewezen in alle rechtspersonen die zijn ingesteld voor de leverancier.
+6. Klik op de knop **Toevoegen** om de aanschaffingscategorieën aan de externe catalogus toe te wijzen. Selecteer vervolgens een categorie in de lijst Categorienaam. De lijst met categorieën is een superset van aanschaffingscategorieën waaraan de leverancier is toegewezen in alle rechtspersonen die zijn ingesteld voor de leverancier.
 
     > [!NOTE]
-    > Aanschaffingsbeleidsregels worden gebruikt om toegang tot categorieën toe te staan of te verbieden voor de kopende rechtspersoon of de ontvangende operationele eenheid. Punchout naar een externe catalogus vereist dat toegang wordt toegestaan tot tenminste één van de aanschaffingscategorieën die is toegewezen aan de catalogus.
+    > Aanschaffingsbeleidsregels worden gebruikt om toegang tot categorieën toe te staan of te verbieden voor de kopende rechtspersoon of de ontvangende operationele eenheid. Punchout naar een externe catalogus vereist dat toegang wordt toegestaan tot tenminste één van de aanschaffingscategorieën die is toegewezen aan de catalogus.
 
 7. Stel het cXML bericht voor instellen van de aanvraag in, dat wordt verzonden naar de leverancier. De automatisch gegenereerde berichtindeling is de minimale sjabloon die is vereist om een sessie starten. Vul waarden in voor de codes.
 

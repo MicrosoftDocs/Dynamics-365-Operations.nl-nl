@@ -3,7 +3,7 @@ title: Integratie van Dynamics 365 Talent met Dynamics 365 Finance - veelgesteld
 description: In dit onderwerp wordt uitgelegd welke gegevens in een integratie van Talent en Finance worden gesynchroniseerd.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251009"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622763"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Integratie van Dynamics 365 Talent met Dynamics 365 Finance - veelgestelde vragen
 
@@ -35,6 +35,10 @@ In dit onderwerp wordt antwoord gegeven op veelgestelde vragen over welke gegeve
 Met Core HR wordt een subset van de gegevens gesynchroniseerd. Zie voor een overzicht van alle entiteiten [Integratie van Dynamics 365 Talent met Dynamics 365 Finance](talent-financeandoperations-integration.md).
 
 Voor Attract en Onboard zijn alle gegevens systeemeigen voor Common Data Service.
+
+## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Waarom zie ik geen gegevens die zijn gesynchroniseerd met Common Data Service?
+
+Synchronisatie met Common Data Service is standaard uitgeschakeld in nieuwe omgevingen die de opgegeven demogegevens niet bevatten. Standaard is deze ingeschakeld in nieuwe omgevingen die demogegevens bevatten, en gegevenssynchronisatie begint wanneer de omgeving wordt ingericht. Wanneer uw omgeving klaar is om gegevens te synchroniseren, kunt u de integratie inschakelen. Meer informatie vindt u in [Common Data Service-integratie configureren](hr-common-data-service-integration.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Kan ik een nieuwe toewijzing maken zonder de sjablonen te gebruiken?
 

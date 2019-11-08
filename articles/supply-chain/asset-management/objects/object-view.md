@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63e5ec5b2a47706763df8105932d722986535a9b
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: fa458d95592741eacc86ce96b794a7216b37ec84
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783179"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571410"
 ---
 # <a name="asset-view"></a>Activaweergave
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In dit onderwerp wordt de activaweergave in Activabeheer beschreven. Op de pagina **Activaweergave** worden actieve activa en functionele locaties weergegeven in een structuurweergave. Daarom kunt u gemakkelijk een overzicht van de activarelaties met functionele locaties bekijken. Bovendien kunt u gedetailleerde informatie over functionele locaties, activa en gerelateerde stuklijsten weergeven. U kunt ook een snel overzicht krijgen van actieve onderhoudsaanvragen en werkorders die betrekking hebben op een activum.
 

@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024655"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653318"
 ---
 # <a name="register-consumption"></a>Verbruik registreren
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Wanneer een onderhoudstaak voor een werkorder is voltooid, is de volgende stap het maken van verbruiksregistraties en het boeken van de journalen. U kunt registraties maken voor de volgende verbruikstypen: uren, artikelen en onkosten. De verschillende verbruikstypen worden geregistreerd en geboekt op de pagina **Werkorderjournalen**. De journaalinstellingen in **Activabeheer** worden gebruikt voor het maken en boeken van afzonderlijke journalen voor uren, artikelen en onkosten in de module **Projectbeheer en boekhouding**.
 
-U kunt mogelijk prognoseregels toevoegen aan of verwijderen uit een werkorder. De instelling van een levenscyclusstatus, het gerelateerde project type en de faseregels die betrekking hebben op het projecttype bepalen of u journaalregels kunt toevoegen of bewerken. Lees meer over de levenscyclusstatussen van werkorders en gerelateerde projectfasen in [Integratie met Projectbeheer en boekhouding](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+In sommige gevallen kunt u prognoseregels toevoegen aan of verwijderen uit een werkorder. De instelling van een levenscyclusstatus, het gerelateerde project type en de faseregels die betrekking hebben op het projecttype bepalen of u journaalregels kunt toevoegen of bewerken. Lees meer over de levenscyclusstatussen van werkorders en gerelateerde projectfasen in [Integratie met Projectbeheer en boekhouding](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >U kunt het automatisch boeken van journalen instellen in de levenscyclusstatus van werkorders. Zie [Levenscyclusstatussen van werkorder](../setup-for-work-orders/work-order-lifecycle-states.md) voor meer informatie.
@@ -50,10 +50,10 @@ U kunt mogelijk prognoseregels toevoegen aan of verwijderen uit een werkorder. D
 
 6. Klik op **Journalen boeken** om de journaalregels te boeken.
 
-7. Nadat u de verbruiksjournalen hebt geboekt, kunt u de levenscyclusstatus van de werkorder bijwerken, bijvoorbeeld naar Beëindigd, om aan te geven dat de werkorder is voltooid.
+7. Nadat u de verbruiksjournalen hebt geboekt, kunt u de levenscyclusstatus van de werkorder bijwerken. Als u bijvoorbeeld wilt aangeven dat de werkorder is voltooid, kunt u de levenscyclusstatus wijzigen in 'Beëindigd'.
 
-- Selecteer in het veld **Weergeven** boven aan de pagina **Werkorderjournalen** de journaalregels die u wilt zien: Alle, Niet geboekt of Geboekt. Voor geboekte journalen is het selectievakje **Geboekt** ingeschakeld.  
-- Wanneer er artikelregels worden gemaakt in het werkorderjournaal, worden productdimensies en traceringsdimensies die betrekking hebben op het artikel automatisch overgenomen op de journaalregel.  
+    - Selecteer in het veld **Weergeven** bovenaan de pagina **Werkorderjournalen** de journaalregels die u wilt zien: **Alle**, **Niet geboekt** of **Geboekt**. Voor geboekte journalen is het selectievakje **Geboekt** ingeschakeld.  
+    - Wanneer er artikelregels worden gemaakt in het werkorderjournaal, worden productdimensies en traceringsdimensies die betrekking hebben op het artikel automatisch overgenomen op de journaalregel.  
 
 In de volgende schermafbeelding ziet u een voorbeeld van uren- en artikelregistraties in een werkorder in **Werkorderjournalen**.
 
@@ -76,7 +76,7 @@ Als een werkorder verschillende werkordertaken bevat, kunt u openingstijden regi
 
 6. Voeg in het veld **Uren** het aantal werkuren in dat moet worden gesplitst.
 
-![Figuur 2](media/02-consumption.png)
+    ![Figuur 2](media/02-consumption.png)
 
 7. Klik op **OK**.
 
@@ -88,10 +88,10 @@ Als een werkorder verschillende werkordertaken bevat, kunt u openingstijden regi
 
 Wanneer u verbruiksregistraties uitvoert, worden financiële dimensies met betrekking tot de verschillende registratietypen in een specifieke volgorde aan de registraties toegevoegd. 
 
-*Uur- en onkostenregistraties:* eerst worden financiële dimensies uit de journaalkoptekst toegevoegd, indien van toepassing. Vervolgens worden financiële dimensies uit het gerelateerde werkorderproject toegevoegd. Tot slot worden financiële dimensies van de resource (medewerker) toegevoegd.
+- *Uur- en onkostenregistraties:* eerst worden financiële dimensies uit de journaalkoptekst toegevoegd, indien van toepassing. Vervolgens worden financiële dimensies uit het gerelateerde werkorderproject toegevoegd. Tot slot worden financiële dimensies van de resource (medewerker) toegevoegd.
 
-*Uurregistraties:* eerst worden financiële dimensies uit de journaalkoptekst toegevoegd, indien van toepassing. Vervolgens worden financiële dimensies uit het gerelateerde werkorderproject toegevoegd. Vervolgens worden financiële dimensies van de site toegevoegd. Tot slot worden financiële dimensies van het artikel toegevoegd.
+- *Uurregistraties:* eerst worden financiële dimensies uit de journaalkoptekst toegevoegd, indien van toepassing. Vervolgens worden financiële dimensies uit het gerelateerde werkorderproject toegevoegd. Vervolgens worden financiële dimensies van de site toegevoegd. Tot slot worden financiële dimensies van het artikel toegevoegd.
 
 >[!NOTE]
->Voor alle drie de registratietypen wordt de combinatie van financiële dimensies gevalideerd en ongeldige combinaties worden blanco gemaakt. Dit zijn standaardinstellingen in Finance and Operations.
+>Voor alle drie de registratietypen wordt de combinatie van financiële dimensies gevalideerd en ongeldige combinaties worden blanco gemaakt. Dit zijn standaardinstellingen in Finance and Operations-apps.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2c748fd230796643f1ed6279743da532e7cb320
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 99f76c684150f154404cbb241daacb7a8d05f7f9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874803"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571755"
 ---
 # <a name="create-maintenance-budgets"></a>Onderhoudsbudgetten maken
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 
@@ -53,7 +53,7 @@ Onderhoudsbudgetten zijn gebaseerd op de kostentypen die worden gebruikt in Acti
     > [!NOTE]
     > Nadat u een onderhoudsbudget hebt goedgekeurd, kunt u de gerelateerde regels niet opnieuw berekenen of aanpassen op de pagina **Budgetregels voor onderhoud**, tenzij u eerst de goedkeuring verwijdert. Als u de goedkeuring van een onderhoudsbudget wilt verwijderen, selecteert u het op de pagina **Onderhoudsbudgetten** en selecteert u vervolgens **Goedkeuren**. Selecteer vervolgens in het dialoogvenster **Budget goedkeuren** de optie **OK**.
 
-![Figuur 1](media/01-maintenance-budgets.png)
+![Onderhoudsbudgetten](media/01-maintenance-budgets.png)
 
 U kunt ook een nieuw onderhoudsbudget maken door een bestaand budget te kopiëren. Selecteer op de pagina **Onderhoudsbudgetten** het te kopiëren budget en selecteer vervolgens **kopiëren**. Deze benadering is handig als u bijvoorbeeld een budget hebt gemaakt voor één maand en dit wilt kopiëren naar andere maanden.
 

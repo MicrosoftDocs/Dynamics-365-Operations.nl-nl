@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71905d5b362c80d48b78210b59cacfb1e7899757
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: da60d098aff96780ca1e40832db34e3c9cc835e7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874688"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569680"
 ---
 # <a name="warranty-agreements"></a>Garantieovereenkomsten
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 In Asset Management kunt u garantievoorwaarden instellen die kunnen worden verbonden met een activum of een activatype. Er worden garantievoorwaarden gemaakt voor een specifieke periode. U kunt de garantie instellen om volledige dekking of een deel van de dekking te bieden en u kunt voorwaarden instellen die zijn gerelateerd aan uren, onkosten en artikelen.
@@ -54,4 +54,4 @@ Een garantieovereenkomst kan meerdere overeenkomstregels bevatten om de garantie
     3. Typ een getal in het veld **Interval**. Dit veld bepaalt het aantal Perioden waarvoor de garantie geldig moet zijn.
     4. Voer in veld **Percentage** het dekkingspercentage voor de garantieregel in. Het percentage geeft aan hoeveel door uw bedrijf wordt gedekt.
 
-![Figuur 1](media/01-warranty.png)
+![Pagina Garantie](media/01-warranty.png)

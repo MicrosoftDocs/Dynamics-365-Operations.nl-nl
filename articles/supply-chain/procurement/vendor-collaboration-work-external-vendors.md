@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250184"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653597"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Leverancierssamenwerking met externe leveranciers
 
@@ -190,7 +190,7 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 Leveranciers hoeven een inkooporder niet te bevestigen via de interface voor leverancierssamenwerking. Ze kunnen ook een e-mail verzenden of hun acceptatie van een inkooporder via andere kanalen doorgeven. U kunt de order vervolgens handmatig bevestigen. In dit geval ontvangt u een waarschuwing dat de order wordt bevestigd, zelfs als er geen antwoord van de leverancier is. De inkooporder wordt vervolgens in de bevestigingshistorie weergegeven als een openstaande bevestigde order die geen antwoorden heeft. Op dat punt heeft de leverancier niet meer de mogelijkheid om de inkooporder te bevestigen of af te wijzen.
 
 > [!NOTE]
-> De versie van de inkooporder die beschikbaar is voor andere processen in Finance and Operations is altijd de laatste versie, ook als deze versie nog niet is geregistreerd in de interface voor leverancierssamenwerking.
+> De versie van de inkooporder die beschikbaar is voor andere processen in Supply Chain Management is altijd de laatste versie, ook als deze versie nog niet is geregistreerd in de interface voor leverancierssamenwerking.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versies en status als u wijzigingsbeheer gebruikt
 

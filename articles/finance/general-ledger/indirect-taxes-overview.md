@@ -3,7 +3,7 @@ title: Btw-overzicht
 description: In dit onderwerp vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2741eb51f93f2f0b627dd8676629077b6df0f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
+ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186458"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2666825"
 ---
 # <a name="sales-tax-overview"></a>Btw-overzicht
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 In dit onderwerp vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
 
@@ -94,5 +92,8 @@ Gewoonlijk zou u 2.500 aan de belastingdienst moeten betalen wanneer de factuur 
 
 Echter, als u een voorwaardelijke BTW gebruikt, hoeft u pas met de belastingdienst te vereffenen wanneer u de betaling van de klant op 30 juli ontvangt.
 
+### <a name="postdated-check"></a>Gepostdateerde cheque
+
+Als u gepostdateerde cheques gebruikt als betalingsmethode, vindt geen afstemming met de bankrekening plaats wanneer de betaling wordt uitgevoerd. In sommige landen wordt de btw een 'gerealiseerde' schuld als de betaling wordt vereffend, wat betekent dat de gepostdateerde cheque is vereffend. U kunt deze optie inschakelen door **De voorwaardelijke belasting realiseren wanneer gepostdateerde cheques worden geïnd** in **Contanten en bankbeheer > Instellingen > Parameters voor Contanten en bankbeheer > Gepostdateerde cheques**.
 
 Zie [Bronbelasting instellen](tasks/set-up-withholding-tax.md) voor meer informatie.

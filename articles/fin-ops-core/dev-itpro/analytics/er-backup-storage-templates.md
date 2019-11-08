@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8b4e783f79b02c77a27fc59c2f4be8a192f2f476
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248695"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553086"
 ---
 # <a name="backup-storage-of-er-templates"></a>Back-upopslag van ER-sjablonen
 
@@ -33,7 +33,7 @@ Zakelijke gebruikers gebruiken het [ER-raamwerk (elektronische rapportage)](gene
 
 Elke geconfigureerde indeling kan als onderdeel van een ER-oplossing worden gepubliceerd. Elke ER-oplossing kan vanuit één exemplaar van Finance and Operations worden geëxporteerd en in een ander exemplaar worden geïmporteerd.
 
-Het ER-raamwerk gebruikt het [raamwerk voor documentbeheer](../../fin-and-ops/organization-administration/configure-document-management.md) om de vereiste sjablonen te bewaren voor het huidige exemplaar van Finance and Operations. Afhankelijk van de instellingen van het ER-raamwerk kan Microsoft Azure-blobopslag of een Microsoft SharePoint-map worden geselecteerd als de fysieke primaire opslaglocatie voor sjablonen. (Zie [Het noodraamwerk configureren](electronic-reporting-er-configure-parameters.md)voor meer informatie.) De tabel DocuValue bevat een afzonderlijke record voor elke sjabloon. In elke record bevat het veld **AccessInformation** het pad van een sjabloonbestand dat zich in de geconfigureerde opslaglocatie bevindt.
+Het ER-raamwerk gebruikt het [raamwerk voor documentbeheer](../../fin-ops/organization-administration/configure-document-management.md) om de vereiste sjablonen te bewaren voor het huidige exemplaar van Finance and Operations. Afhankelijk van de instellingen van het ER-raamwerk kan Microsoft Azure-blobopslag of een Microsoft SharePoint-map worden geselecteerd als de fysieke primaire opslaglocatie voor sjablonen. (Zie [Het noodraamwerk configureren](electronic-reporting-er-configure-parameters.md)voor meer informatie.) De tabel DocuValue bevat een afzonderlijke record voor elke sjabloon. In elke record bevat het veld **AccessInformation** het pad van een sjabloonbestand dat zich in de geconfigureerde opslaglocatie bevindt.
 
 Wanneer u Finance and Operations beheert, kunt u besluiten om het huidige exemplaar naar een andere locatie te migreren. U kunt bijvoorbeeld uw productie-exemplaar migreren naar een nieuwe sandbox-omgeving. Als u het ER-raamwerk voor het opslaan van sjablonen in de blobopslag hebt geconfigureerd, verwijst de tabel DocuValue in de nieuwe sandbox-omgeving naar het blobopslag-exemplaar in de productieomgeving. Dit exemplaar kan echter niet worden geopend vanuit de sandbox-omgeving omdat het migratieproces de migratie van artefacten in de blobopslag niet ondersteunt. Daarom wordt er een uitzondering gemaakt wanneer u een ER-indeling probeert uit te voeren die een sjabloon gebruikt om bedrijfsdocumenten te genereren, en ziet u een waarschuwing over de ontbrekende sjabloon. U kunt ook het ER-hulpprogramma voor opschonen gebruiken om de ER-indelingsconfiguratie met de sjabloon te verwijderen en vervolgens opnieuw te importeren. Omdat u mogelijk verschillende ER-indelingsconfiguraties hebt, kan dit proces veel tijd in beslag nemen.
 

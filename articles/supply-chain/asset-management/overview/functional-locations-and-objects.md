@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5271b673d758608cae8e43d72b7e75b259d5f142
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024609"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653342"
 ---
 # <a name="functional-locations-and-assets"></a>Functionele locaties en activa
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In dit onderwerp worden de functionele locaties en activa in Activabeheer beschreven. Activabeheer is een geavanceerde module voor het beheren van activa en onderhoudstaken in Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>Overzicht
 
-Activabeheer is naadloos geïntegreerd met verschillende modules in Finance and Operations. In de volgende afbeelding ziet u de interfaces met andere modules.
+Activabeheer is naadloos geïntegreerd met verschillende modules in andere Finance and Operations-apps. In de volgende afbeelding ziet u de interfaces met andere modules.
 
-![Figuur 1](media/01-overview-image.png)
+![Diagram waarin wordt getoond hoe Activabeheer samenwerkt met andere modules](media/01-overview-image.png)
 
 Met Activabeheer kunt u alle taken efficiënt beheren en uitvoeren die betrekking hebben op het beheren en onderhouden van allerlei soorten apparatuur in uw bedrijf. Deze apparatuur omvat machines, productieapparatuur en voertuigen. Activabeheer ondersteunt ook oplossingen in tal van industrieën.
 
 In de volgende afbeelding ziet u een overzicht van de hoofdfunctionaliteit die wordt gedekt door Activabeheer.
 
-![Figuur 2](media/02-overview-image.png)
+![Diagram met de hoofdfunctionaliteit in Activabeheer](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Functionele locaties en activa
 
@@ -53,8 +53,8 @@ Activakosten volgen altijd de locatie van het activum. Met andere woorden, als u
 
 De manier waarop u uw hiërarchie van functionele locaties bouwt, is afhankelijk van de vereisten van uw bedrijf voor het onderhouden van interne apparatuur of het onderhoud van klantapparatuur. In de volgende afbeelding ziet u een voorbeeld van functionele locaties die zijn gebaseerd op geografische locaties.
 
-![Figuur 3](media/03-overview-image.png)
+![Diagram met functionele locaties op basis van geografische locaties](media/03-overview-image.png)
 
 In de volgende afbeelding ziet u een voorbeeld van functionele locaties die zijn gebaseerd op klanten.
 
-![Figuur 4](media/04-overview-image.png)
+![Diagram met functionele locaties op basis van klanten](media/04-overview-image.png)

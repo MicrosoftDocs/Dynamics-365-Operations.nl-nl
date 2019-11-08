@@ -1,6 +1,6 @@
 ---
-title: Overzicht van de app voor magazijnbeheer installeren en configureren
-description: In dit onderwerp wordt beschreven hoe u de Dynamics 365 Supply Chain Management - Warehousing-app kunt installeren en configureren.
+title: Overzicht van de Magazijnbeheer-app installeren en configureren
+description: In dit onderwerp wordt beschreven hoe u de Dynamics 365 for Finance and Operations - Warehousing-app kunt installeren en configureren.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251495"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548963"
 ---
-# <a name="install-and-configure-the-warehousing-app-overview"></a>Overzicht van de app voor magazijnbeheer installeren en configureren
+# <a name="install-and-configure-the-warehousing-app-overview"></a>Overzicht van de Magazijnbeheer-app installeren en configureren
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251495"
 > In dit onderwerp wordt beschreven hoe u magazijnbeheer voor cloudimplementaties configureert. Als u wilt weten hoe u magazijnbeheer configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-In dit onderwerp wordt beschreven hoe u de Dynamics 365 Supply Chain Management - Warehousing-app kunt installeren en configureren.
+In dit onderwerp wordt beschreven hoe u de Dynamics 365 for Finance and Operations - Warehousing-app kunt installeren en configureren.
 
 De Warehousing-app is beschikbaar in Google Play Store en Windows Store. Voor de huidige versie van Dynamics 365 Supply Chain Management wordt deze app geleverd als een zelfstandig onderdeel. Dit betekent dat u het zelf moet implementeren op apparaten die worden gebruikt voor magazijntaken. Om de app te kunnen gebruiken, moet u de app downloaden op elk apparaat en configureren om verbinding te maken met uw Supply Chain Management-omgeving. In dit onderwerp wordt beschreven hoe u de app op uw apparaten installeert. Ook wordt uitgelegd hoe u de app configureert om verbinding te maken met uw Supply Chain Management-omgeving.
 

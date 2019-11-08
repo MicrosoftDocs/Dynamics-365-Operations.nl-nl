@@ -3,7 +3,7 @@ title: Werkordergroepen
 description: In dit onderwerp wordt beschreven hoe u met werkordergroepen in Activabeheer werkt.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,95 +16,96 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 069fa02073808fd7bbaac9bc1603e49ce4d450eb
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 161244cb4451ddc7b13b579fd02e828a61adeea4
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875589"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626357"
 ---
 # <a name="work-order-pools"></a>Werkordergroepen
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
+U kunt werkordergroepen gebruiken om werkorders te groeperen die iets gemeenschappelijk hebben. Hier volgen enkele voorbeelden van zaken waarvoor u werkordergroepen kunt maken:
+
+- Werkploegen, zoals Onderhoudsploeg A of Onderhoudsploeg B  
+
+- Professionele vaardigheden, zoals elektriciens of loodgieters  
+
+- Fysieke locaties  
+
+- Tijdschema's, zoals weken of andere perioden  
+
+U kunt een werkorder zo nodig in meerdere werkplaatsgroepen plaatsen.
 
 
-U kunt werkordergroepen gebruiken om werkorders te groeperen die iets gemeenschappelijk hebben. U kunt bijvoorbeeld werkordergroepen maken voor
+## <a name="create-a-work-order-pool"></a>Een werkordergroep maken
 
-- werkploegen, zoals Onderhoudsploeg A, Onderhoudsploeg B  
+Op de lijstpagina **Alle werkordergroepen** of **Actieve werkordergroepen** kunt u een overzicht van uw werkordergroepen bekijken en nieuwe groepen maken.
 
-- professionele vaardigheden, zoals elektriciens of loodgieters  
+1. Selecteer **Activabeheer** > **Algemeen** > **Werkordergroepen** > **Alle werkordergroepen** of **Actieve werkordergroepen**.
 
-- fysieke locaties  
+2. Selecteer **Nieuw**.
 
-- tijdschema's, zoals weken of andere perioden  
+3. Voer in het veld **Groep** een id voor de werkordergroep in.
 
+4. in het veld **Naam** een naam in.
 
-Indien nodig kan één werkorder in een groot aantal werkordergroepen worden geplaatst.
+5. Stel de optie **Actief** in op **Ja** om aan te geven dat de werkordergroep actief is.
 
+6. Stel de optie **Werkorderrelaties verwijderen** in op **Ja** als u wilt dat werkorders automatisch uit de werkordergroep moeten worden verwijderd.
 
-## <a name="create-work-order-pool"></a>Werkordergroep maken
+7. Selecteer in het veld **Levenscyclusstatus verwijderen** de status van de levenscyclus van de werkorder. De levenscyclusstatus voor het voltooien van een werkorder kan bijvoorbeeld worden ingesteld om automatisch relaties met werkordergroepen te verwijderen.
 
-In **Alle werkordergroepen** of **Actieve werkordergroepen** kunt u een overzicht van uw werkordergroepen bekijken en nieuwe groepen maken.
+    U kunt direct beginnen met het toevoegen van werkorders aan uw werkordergroep.
 
-1. Klik op **Activabeheer** > **Algemeen** > **Werkordergroepen** > **Alle werkordergroepen** of **Actieve werkordergroepen**.
+8. Selecteer op het sneltabblad **Werkorders** de optie **Regel toevoegen**.
 
-2. Klik op **Nieuw**.
+9. Selecteer een werkorder in het veld **Werkorder**. De gerelateerde velden worden automatisch bijgewerkt.
 
-3. Geef een werkordergroep-id op in het veld **Groep** en een naam in het veld **Naam**.
+10. Herhaal stap 8 en 9 als u nog meer werkorders wilt toevoegen.
 
-4. Selecteer Ja met de wisselknop **Actief** om aan te geven dat de werkordergroep actief is.
+11. Als de werkorders die u hebt toegevoegd in een bepaalde volgorde moeten worden uitgevoerd, kunt u in het veld **Sorteervolgorde** de getallen **1**, **2**, **3**, enzovoort, invoeren om die volgorde op te geven.
 
-5. Selecteer Ja met de wisselknop **Werkorderrelaties verwijderen** als u wilt dat werkorders automatisch uit de werkordergroep moeten worden verwijderd.
+12. Als u een lijst wilt weergeven met alle werkorders die in de werkordergroep zijn opgenomen, gaat u in het actievenster naar het tabblad **Werkordergroep** en selecteert u in de groep **Voor werkordergroep weergeven** de optie **Werkorders** om de lijstpagina **Alle werkorders** te openen.
 
-6. Selecteer in het veld **Levenscyclusstatus verwijderen** de status van de levenscyclus van de werkorder. De levenscyclusstatus voor het voltooien van een werkorder kan bijvoorbeeld worden ingesteld om automatisch relaties met werkordergroepen te verwijderen.
+13. Als u de capaciteitsbelasting voor de onderhoudsplanning, niet-geplande werkorders en geplande werkorders wilt berekenen en weergeven, gaat u naar het actievenster en selecteert u op het tabblad **Werkordergroep** in de groep **Voor werkordergroep weergeven** de optie **Capaciteitsbelasting** om het dialoogvenster **Capaciteitsbelasting berekenen** te openen.
 
-7. U kunt direct beginnen met het toevoegen van werkorders aan uw werkordergroep. Klik op het sneltabblad **Werkorders** op **Regel toevoegen**.
+14. Als u de prognoses voor artikelen (reserve-onderdelen en andere noodzakelijke artikelen) voor de onderhoudsplanning, niet-geplande werkorders en geplande werkorders wilt berekenen en weergeven, gaat u naar het actievenster en selecteert u op het tabblad **Werkordergroep** in de groep **Voor werkordergroep weergeven** de optie **Artikelprognose** om het dialoogvenster **Artikelprognose berekenen** te openen.
 
-8. Selecteer een werkorder in het veld **Werkorder**. De gerelateerde velden worden automatisch bijgewerkt.
+15. Als u een lijst wilt weergeven met opdrachten tot inkoop voor de werkorders in de werkordergroep, gaat u in het actievenster naar het tabblad **Werkordergroep** en selecteert u in de groep **Inkoop** de optie **Opdracht tot inkoop voor werkorder** om de lijstpagina **Opdracht tot inkoop voor werkorder** te openen.
 
-9. Herhaal stap 7-8 als u meer werkorders wilt toevoegen.
-
-10. In het veld **Sorteervolgorde** kunt u aangeven of de werkorders in een bepaalde volgorde moeten worden uitgevoerd. Voeg getallen 1, 2, 3, enzovoort in om een specifieke volgorde voor de geselecteerde werkorders aan te geven.
-
-11. Klik op de knop **Werkorders** om een lijst weer te geven van alle werkorders in de werkordergroep.
-
-12. Klik op de knop **Capaciteitsbelasting** als u **Capaciteitsbelasting** wilt openen om de capaciteitsbelasting te berekenen en weer te geven voor onderhoudsplanning, niet-geplande werkorders en geplande werkorders.
-
-13. Klik op de knop **Artikelprognose** om de **Artikelprognose** te openen waar u prognoses voor artikelen (reserve-onderdelen en andere vereiste artikelen) kunt berekenen en weergeven met betrekking tot onderhoudsplanning, niet-geplande werkorders en geplande werkorders.
-
-14. Klik op de knop **Opdracht tot inkoop voor werkorder** om de lijst **Opdracht tot inkoop voor werkorder** te openen en een lijst weer te geven van inkoopbestelopdrachten die betrekking hebben op de werkorders in de werkordergroep.
-
-15. Klik op de knop **Inkoop werkorder** om de lijst **Inkoop werkorder** te openen en een lijst weer te geven van inkooporders die betrekking hebben op de werkorders in de werkordergroep.
+16. Als u een lijst wilt weergeven met opdrachten voor de werkorders in de werkordergroep, gaat u in het actievenster naar het tabblad **Werkordergroep** en selecteert u in de groep **Inkoop** de optie **Opdracht tot inkoop voor werkorder** om de lijstpagina **Opdracht tot inkoop voor werkorder** te openen.
 
 >[!NOTE]
->Wanneer een werkordergroep niet meer relevant is voor uw werkplanning, stelt u het selectievakje **Actief** voor die groep in de lijstweergave van de **Werkordergroep** in op Nee.
+>Wanneer een werkordergroep niet meer relevant is voor uw werkplanning, stelt u de optie **Actief** voor die groep in de lijstweergave van de **Werkordergroep** in op **Nee**.
 
-Schakel het selectievakje **Werkorderrelaties verwijderen** in als u alle werkorderregels wilt verwijderen, bijvoorbeeld om een lege groep te maken die u later voor andere werkorders kunt gebruiken. Vergeet niet om het selectievakje **Werkorderrelaties verwijderen** uit te schakelen als u de werkordergroep later wilt gebruiken om nieuwe werkorderrelaties te maken.
+Als u alle werkorderregels wilt verwijderen, stelt u de optie **Werkorderrelaties verwijderen** in op **Ja**. Deze optie is handig als u bijvoorbeeld een lege groep wilt maken die u later voor andere werkorders kunt gebruiken. Wanneer u later de werkordergroep wilt gebruiken om nieuwe werkorderrelaties te maken, mag u niet vergeten om de optie **Werkorderrelaties verwijderen** in te stellen op **Nee**.
 
+In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Werkordergroep**.
 
 ![Figuur 1](media/22-work-orders.png)
 
 
-## <a name="add-work-order-to-a-work-order-pool"></a>Werkorder toevoegen aan een werkordergroep
+## <a name="add-a-work-order-to-a-work-order-pool"></a>Een werkorder toevoegen aan een werkordergroep
 
-Zoals in bovenstaande sectie is beschreven, kunt u werkorders aan een werkordergroep toevoegen wanneer u de groep maakt. U kunt een werkorder ook aan een werkordergroep toevoegen vanuit de lijst **Alle werkorders**.
+Zoals in de voorgaande sectie is beschreven, kunt u werkorders aan een werkordergroep toevoegen wanneer u die groep maakt. U kunt werkorders ook aan een werkordergroep toevoegen via de lijstpagina **Alle werkorders** of **Actieve werkorders**.
 
-1. Klik op **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
+1. Selecteer de werkorder en selecteer vervolgens in het actievenster op het tabblad **Werkorder** in de groep **Onderhoud** de optie **Werkordergroep**.
 
 2. Selecteer de werkorder in de lijst en klik op **Werkordergroep**.
 
-3. Selecteer Toevoegen in het veld **Toevoegen/verwijderen**.
+3. Selecteer in het dialoogvenster **Werkordergroep onderhouden** in het veld **Toevoegen/verwijderen** de optie **Toevoegen**.
 
-4. Selecteer de werkordergroep in het veld **Groep**.
+4. Selecteer in het veld **Groep** de werkordergroep.
 
-5. Klik op **OK**.
+5. Selecteer **OK**.
 
-6. Nadat u een werkorder aan een werkordergroep hebt toegevoegd, kunt u de werkorders in een bepaalde volgorde in de groep plaatsen. Open een van de lijstpagina's met werkordergroepen, selecteer de groep en klik op **Bewerken**. Pas de sorteervolgorde van de werkorders in de groep aan in het formulier **Werkordergroep** > sneltabblad **Werkorders** > veld **Sorteervolgorde**.
+6. Als u de werkorder die u hebt toegevoegd in een bepaalde volgorde in de werkordergroep wilt plaatsen, selecteert u de groep op de lijstpagina **Alle werkordergroepen** of **Actieve werkordergroepen** en selecteert u **Bewerken**. Klik vervolgens op de pagina **Werkordergroep** op het sneltabblad **Werkorders** en gebruik het veld **Sorteervolgorde** om de sorteervolgorde van de werkorders in de groep aan te passen.
 
-Als u de geselecteerde werkorder uit een werkordergroep wilt verwijderen, selecteert u in stap 3 de optie Verwijderen.
+Als u een werkorder uit een werkordergroep wilt verwijderen, herhaalt u deze stappen, maar selecteert u in stap 3 de optie **Verwijderen**.
 
