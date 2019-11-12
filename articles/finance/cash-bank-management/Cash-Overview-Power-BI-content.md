@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 553a4a5d25e126923576569b48414c46aab991ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177193"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553135"
 ---
 # <a name="cash-overview-power-bi-content"></a>Power BI-inhoud - overzicht van contant geld
 
@@ -40,15 +40,14 @@ De volgende instellingen moeten worden geconfigureerd om gegevens te kunnen weer
 1. Ga naar **Systeembeheer > Instellen > Systeemparameters** om **Systeemvaluta** en **Systeemwisselkoers** in te stellen.
 2. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in.
 2. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, valuta voor boekhouding en systeemvaluta, en valuta voor boekhouding en bankvaluta's. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
-3. Configureer Cashflowprognose en voer dit uit. Zie <a href="https://docs.microsoft.com/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
-">Cashflowprognose</a> voor meer informatie over het instellen van Cashflowprognose. 
+3. Configureer Cashflowprognose en voer dit uit. Zie [Cashflowprognose](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting) voor meer informatie over het instellen van Cashflowprognose. 
 4. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **LedgerCovLiquidityMeasurement** te vernieuwen.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 
 Rapporten uit de Power BI-inhoud **Overzicht van contant geld** worden weergegeven in de werkgebieden **Overzicht van contant geld** en **Bankbeheer**.
 
-Als u de cashflowprognoserapporten wilt weergeven met gegevens, moet u eerst het prognoseberekeningsproces uitvoeren met de functie **Cashflowprognoses berekenen** in Contanten en bankbeheer.  Dit moet worden uitgevoerd voor elk bedrijf dat wordt opgenomen in de prognose.  Vernieuw de samengevoegde meting LedgerCovLiquidityMeasurement op de pagina **Entiteitopslag**.  
+Als u de cashflowprognoserapporten wilt weergeven met gegevens, moet u eerst het prognoseberekeningsproces uitvoeren met de functie **Cashflowprognoses berekenen** in Contanten en bankbeheer. Dit moet worden uitgevoerd voor elk bedrijf dat wordt opgenomen in de prognose.  Vernieuw de samengevoegde meting LedgerCovLiquidityMeasurement op de pagina **Entiteitopslag**.  
 
 Voor demonstratiedoeleinden kunt u demogegevens voor cashflowprognoses toevoegen met de pagina **Gegevens genereren** vanuit de module Demogegevens.  Met dit script worden gegevens ingevoegd in de cashflowprognosetabellen om snel gegevens in te vullen die nodig zijn voor rapporten.  Deze module is alleen beschikbaar als u het model van de Demogegevenssuite hebt geïmplementeerd in de omgeving. 
 

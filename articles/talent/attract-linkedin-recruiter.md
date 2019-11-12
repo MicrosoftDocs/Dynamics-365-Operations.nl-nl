@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008565"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551559"
 ---
-# <a name="source-candidates-with-linkedin-recruiter"></a>Kandidaten zoeken met LinkedIn Recruiter
+# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>Kandidaten zoeken met LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract
 [!include[banner](../includes/banner.md)]
 
 LinkedIn is het grootste onlinenetwerk voor professionals ter wereld en biedt u toegang tot de beste talenten wereldwijd. Met Microsoft Dynamics 365 Talent: Attract kunt u kandidaten rechtstreeks vanuit LinkedIn zoeken. Het is dus eenvoudiger dan ooit om het talent te vinden dat u nodig hebt om uw openstaande posities in te vullen. Nadat u de verbinding met LinkedIn hebt ingesteld via Attract, kunt u potentiële LinkedIn-kandidaten voor uw posities weergeven en deze met slechts één klik exporteren in Attract.

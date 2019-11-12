@@ -1,9 +1,9 @@
 ---
-title: Nieuwe of gewijzigde functies in Dynamics 365 Talent (31 juli 2019)
+title: Nieuwe of gewijzigde functies in Dynamics 365 Talent (30 juli 2019)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
-ms.date: 7/30/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3676a0a1fa77285d0203e8e49725cb1c1b742d39
+ms.sourcegitcommit: 029c1882bef558b6a45843548e94ab8369ed9870
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010240"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2651706"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 Talent (30 juli 2019)
 
@@ -45,7 +45,7 @@ Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.24
 
 Wij zijn blij om te kunnen bekendmaken dat de regio's Canada en Zuidoost-Azië sinds 1 augustus 2019 beschikbaar zijn voor Talent. Met deze wijziging kunt u omgevingen maken in de Canadese en Aziatische regio's en alle Talent-gegevens worden uitsluitend in die locaties beheerd. U kunt een omgeving maken in deze nieuwe regio's maken door de locatie te selecteren in het dialoogvenster Nieuwe omgeving en deze omgeving te gebruiken om Talent in te richten in LCS op de wijze die wordt beschreven in [Talent inrichten](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
-Gegevensmigratie van bestaande projecten van andere regio's naar de Canadese en Aziatische regio's wordt niet ondersteund. Alleen nieuwe projecten kunnen worden ingericht voor de nieuwe ondersteunde regio's.
+Gegevensmigratie van bestaande projecten van andere regio's naar de Canadese en Aziatische regio's wordt niet ondersteund. Alleen nieuwe projecten kunnen worden ingericht voor deze nieuwe ondersteunde regio's.
 
 ### <a name="new-active-positions-list-page"></a>Nieuwe lijstpagina Actieve posities
 
@@ -57,7 +57,7 @@ Met de wijzigingen van deze week wordt een probleem opgelost waarbij alleen dire
 
 ### <a name="fte-analysis-displaying-incorrect-fte-number"></a>FTE-analyse waarin het onjuist FTE-nummer wordt weergegeven
 
-**FTE-analyse** is gecorrigeerd op het tabblad **Analyses** van **Personeelsbeheer**.
+**FTE-analyse** is gecorrigeerd op het tabblad **Analyses** voor **Personeelsbeheer**.
 
 ### <a name="final-comments-label-translation"></a>Vertaling van label Laatste opmerkingen
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249489"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653643"
 ---
 # <a name="product-configuration-overview"></a>Overzicht van Productconfiguratie
 
@@ -73,7 +73,7 @@ Tabelbeperkingen kunnen door de gebruiker of door het systeem zijn gedefinieerd.
 
 Een door de gebruiker gedefinieerde tabelbeperking wordt gemaakt door de gebruiker. De gebruiker selecteert een combinatie van kenmerktypen om de kolommen van de tabel weer te geven, en voert vervolgens waarden uit de domeinen van het geselecteerde kenmerktype in om de rijen in de tabelbeperking te vormen.  
 
-Een door het systeem gedefinieerde tabelbeperking wordt gedefinieerd door te selecteren welke tabel als referentie wordt gebruikt en vervolgens velden in deze tabel te selecteren om de kolommen te vormen in de beperking. De rijen van de tabelbeperking zijn de rijen van de Finance and Operations-tabel die aanwezig zijn tijdens de configuratie.  
+Een door het systeem gedefinieerde tabelbeperking wordt gedefinieerd door te selecteren welke tabel als referentie wordt gebruikt en vervolgens velden in deze tabel te selecteren om de kolommen te vormen in de beperking. De rijen van de tabelbeperking zijn de rijen van de Supply Chain Management-tabel die aanwezig zijn tijdens de configuratie.  
 
 Een tabelbeperking wordt opgenomen in een model voor productconfiguratie door naar de definitie van de tabelbeperking te verwijzen en de betreffende kenmerken in het model toe te wijzen aan de kolommen in de tabelbeperking.
 

@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6fad4d57b8e08c839ac0ffac2324c02304335ef
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 953c4bb17329205c5d8d14b6570a6bac152e9320
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887223"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652144"
 ---
 # <a name="schedule-work-orders"></a>Werkorders plannen
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-In dit onderwerp wordt uitgelegd hoe u werkorders plant in Activabeheer. Het vereiste aantal uren voor een werkorder wordt gedefinieerd op basis van het totaal aan voorspelde uren van de werkordertaken min de geboekte uren. Als er meer tijd nodig is, moet de prognose op de werkorder dienovereenkomstig worden aangepast. In **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders** kunt u prognoses in een werkorder weergeven of bewerken door de werkorder te selecteren en te klikken op **Prognose** op het tabblad **Werkorder**. Wanneer werkorders zijn gemaakt en geraamd, moeten de vereiste onderhoudsmedewerkers en hulpmiddelen worden toegewezen om de werkorders te voltooien.
+In dit onderwerp wordt uitgelegd hoe u werkorders plant in Activabeheer. 
+
+Het vereiste aantal uren voor een werkorder wordt gedefinieerd op basis van het totaal aan voorspelde uren min de geboekte uren. Als er meer tijd nodig is, moet de prognose dienovereenkomstig worden aangepast. In **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders** kunt u prognoses in een werkorder weergeven of bewerken door de werkorder te selecteren en te klikken op **Prognose** op het tabblad **Werkorder**. Wanneer werkorders zijn gemaakt en geraamd, moeten de vereiste onderhoudsmedewerkers en hulpmiddelen worden toegewezen om de werkorders te voltooien.
 
 Alleen werkorders met een levenscyclusstatus voor werkorders die planning toestaat, kunnen worden gepland. U kunt planning toestaan via **Activabeheer** > **Instellingen** > **Werkorders** > **Levenscyclusstatussen** > het sneltabblad **Algemeen** > de wisselknop **Planning toestaan**.
 
@@ -43,8 +45,8 @@ Alleen werkorders met een levenscyclusstatus voor werkorders die planning toesta
 
 4. In het dialoogvenster **Werkorders plannen** kunt u zo nodig selecties toevoegen met betrekking tot de verwachte begindatum en het serviceniveau. Als in het planningsproces capaciteitsbeperkingen in acht moeten worden genomen voor resources die al zijn gepland voor andere taken, moet u ervoor zorgen dat de wisselknoppen **Activum**, **Hulpmiddel** en **Medewerker** zijn ingesteld op Ja.
 
->[!NOTE]
->Als u de wisselknoppen **Activum**, **Hulpmiddel** en **Medewerker** instelt op Nee, worden bestaande reserveringen genegeerd. In het infologboek wordt een lijst met overlappende werkorderplanningen weergegeven en u kunt op de berichten klikken om een werkorder te openen en opnieuw te plannen, indien nodig.
+    [!NOTE]
+    Als u de wisselknoppen **Activum**, **Hulpmiddel** en **Medewerker** instelt op Nee, worden bestaande reserveringen genegeerd. In het infologboek wordt een lijst met overlappende werkorderplanningen weergegeven en u kunt op de berichten klikken om een werkorder te openen en opnieuw te plannen, indien nodig.
 
 5. Als u gedetailleerde informatie over het planningsproces wilt weergeven, stelt u de wisselknop in op **Uitgebreid**. Dit betekent dat er gedetailleerde informatie over de berekende scores voor de werkorders en onderhoudsmedewerkers wordt weergegeven in het infologboek.
 
@@ -114,5 +116,7 @@ De beoordelingsscores die betrekking hebben op de berekening van onderhoudsmedew
 
 ## <a name="competencies-used-in-work-order-scheduling"></a>Competenties die worden gebruikt bij het plannen van werkorders
 
-Er kunnen vaardigheden en certificaatvereisten worden ingesteld voor onderhoudstaaktypen (**Activabeheer** > **Instellingen** > **Taken** > **Onderhoudstaaktypen**) en onderhoudstaakspecialismen (**Activabeheer** > **Instellingen** > **Taken** > **Specialisme onderhoudstaak**). Voor werkordertaken worden typen onderhoudstaken en onderhoudstaakspecialismen geselecteerd. Als vaardigheden of certificaten zijn geselecteerd voor een type onderhoudstaak of een onderhoudstaakspecialisme en dat type onderhoudstaak of onderhoudstaakspecialisme wordt gebruikt voor een werkorder, worden alleen onderhoudsmedewerkers met overeenkomende vaardigheden en certificaten ingepland voor werk aan de werkorder.
+Er kunnen vaardigheden en certificaatvereisten worden ingesteld voor onderhoudstaaktypen (**Activabeheer** > **Instellingen** > **Taken** > **Onderhoudstaaktypen**) en onderhoudstaakspecialismen (**Activabeheer** > **Instellingen** > **Taken** > **Specialisme onderhoudstaak**). 
+
+Voor werkordertaken worden typen onderhoudstaken en onderhoudstaakspecialismen geselecteerd. Als vaardigheden of certificaten zijn geselecteerd voor een type onderhoudstaak of een onderhoudstaakspecialisme en dat type onderhoudstaak of onderhoudstaakspecialisme wordt gebruikt voor een werkorder, worden alleen onderhoudsmedewerkers met overeenkomende vaardigheden en certificaten ingepland voor werk aan de werkorder.
 

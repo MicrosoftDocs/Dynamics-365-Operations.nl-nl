@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181330"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578213"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Verbeteringen in het traceren van de resultaten van gegenereerde ER-rapporten en het vergelijken hiervan met basislijnwaarden
 
@@ -71,9 +71,6 @@ De basislijn is toegevoegd voor de geselecteerde indeling **Indeling voor leren 
 5. Geef in het veld **Id opgeven** het cijfer **1** op.
 6. Stel de optie **Basislijnbestanden maken** op **Ja** in.
 7. Selecteer **OK**.
-
-    ![Het dialoogvenster Parameters elektronisch rapport](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "Schermafbeelding van het dialoogvenster Parameters elektronisch rapport")
-
 8. Selecteer **Basislijnen**.
 
     ![De pagina Basislijnen voor ER-indeling](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
@@ -140,9 +137,6 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het
 
 1. Selecteer op de pagina **Configuraties** op het sneltabblad **Vervangingen** de optie **Onderdelen selecteren**.
 2. Vouw in de structuur met indelingsonderdelen **Uitvoer** uit, vervolgens **Uitvoer\\Document** en schakel het selectievakje voor **Uitvoer\\Document\\ProcessingDateTime** in.
-
-    ![Het dialoogvenster Onderdelen selecteren](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "Schermafbeelding van het dialoogvenster Onderdelen selecteren")
-
 3. Selecteer **OK**.
 
 ![De pagina Basislijnen voor ER-indeling](media/GER-BaselineSample-AddBaseline4.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
@@ -162,19 +156,14 @@ Door specifieke ER-parameters in te stellen, kunt u meldingen onderdrukken die w
 1. Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** de optie **Gebruikersparameters**.
 2. Stel de optie **Waarschuwingen voor basislijn** in op **Ja** en selecteer **OK**.
 
-![Het dialoogvenster Gebruikersparameters](media/GER-BaselineSample-ERUserParameters1.png "Schermafbeelding van het dialoogvenster Gebruikersparameters")
-
 ### <a name="review-the-generated-baseline-file"></a>Het gegenereerde basislijnbestand bekijken
 
 1. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
 2. Selecteer **Basislijnen**.
 3. Selecteer **Bijlagen**.
-
-    ![De pagina Bijlagen](media/GER-BaselineSample-AttachedBaselineFile.PNG "Schermafbeelding van de pagina Bijlagen")
-
     > [!NOTE]
     > Het gegenereerde bestand bevat de tekst voor de verwerkingsdatum en -tijd (**"#"**) uit de binding die is geconfigureerd in de toegevoegde basislijnregel, niet uit de binding van de indeling.
-
+    
 4. Sluit de pagina **Bijlagen**.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>De ontworpen ER-indeling uitvoeren en het logboek controleren om de resultaten te analyseren

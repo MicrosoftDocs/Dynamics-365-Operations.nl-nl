@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278319"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653689"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Help-bronnen voor Supply Chain Management
 
@@ -39,7 +39,7 @@ Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365-routekaart</a> o
 Selecteer een functiegebied voor meer informatie hierover.
 
 - [Activabeheer](asset-management/index.md)
-- [Kostprijsboekhouding](../financials/cost-accounting/cost-accounting-home-page.md)
+- [Kostprijsboekhouding](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Kostenbeheer](cost-management/cost-management-home-page.md)  
 - [Voorraadbeheer](inventory/inventory-home-page.md)
 - [Hoofdplanning](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ In deze opnamen van technische conferenties wordt productfunctionaliteit in de v
 -  [Transportbeheer (TMS) in de nieuwe Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Weblogs
-Er zijn veel onderwerpen over productie en supply chain management beschikbaar in de blog van het <a href="https://blogs.msdn.microsoft.com/axmfg/">R&D-team voor Dynamics AX Manufacturing</a> en de <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog van het R&D-team voor Supply Chain Management in Dynamics AX</a>. De meeste hiervan zijn geschreven voor de vorige versie van Finance and Operations, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie. 
+Er zijn veel onderwerpen over productie en Supply Chain Management beschikbaar in de blog van het <a href="https://blogs.msdn.microsoft.com/axmfg/">R&D-team voor Dynamics AX Manufacturing</a> en de <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog van het R&D-team voor Supply Chain Management in Dynamics AX</a>. De meeste hiervan zijn geschreven voor de vorige versie, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie. 
 
 ## <a name="white-papers"></a>Technische documenten
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Praktijkoefeningen voor kostprijsboekhouding</a> 

@@ -19,27 +19,25 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58ff596314d348a465ba6ee23369f09e74d580eb
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 265e4dd4be63f70a29e46b6acf7db514feb599a4
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248862"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652167"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Inkooporders goedkeuren en bevestigen
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 In dit onderwerp worden de statussen beschreven die een inkooporder (IO) doorloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO's.
 
 Nadat een inkooporder (IO) is gemaakt, moet deze mogelijk een goedkeuringsproces doorlopen. Nadat de leverancier heeft ingestemd met de order, wordt de IO ingesteld op de status **Bevestigd**.
 
 ## <a name="approval-of-purchase-orders"></a>Goedkeuring van inkooporders
-IO's die geen gebruikmaken van wijzigingsbeheer hebben de status **Goedgekeurd** zodra zij worden gemaakt, terwijl IO's die wel gebruikmaken van wijzigingsbeheer de status **Concept** hebben meteen nadat zij zijn gemaakt. Een IO die is gemaakt door een geplande order uit de hoofdplanning te bevestigen, wordt altijd ingesteld op de status **Goedgekeurd**, ongeacht de instellingen voor wijzigingsbeheer. Een IO maakt alleen voorraadtransacties als deze de status **Goedgekeurd** bereikt. Daarom wordt die voorraad pas weergegeven als beschikbaar voor reservering of markering nadat de order is geaccepteerd.  
+IO's die geen gebruikmaken van wijzigingsbeheer hebben de status **Goedgekeurd** zodra zij worden gemaakt, terwijl IO's die wel gebruikmaken van wijzigingsbeheer meteen nadat zij zijn gemaakt de status **Concept** hebben. Een IO die is gemaakt door een geplande order uit de hoofdplanning te bevestigen, wordt altijd ingesteld op de status **Goedgekeurd**, ongeacht de instellingen voor wijzigingsbeheer. Een IO maakt alleen voorraadtransacties als deze de status **Goedgekeurd** bereikt. Daarom wordt die voorraad pas weergegeven als beschikbaar voor reservering of markering wanneer de order is geaccepteerd.
 
-U schakelt wijzigingsbeheer voor IO's in door de optie **Wijzigingsbeheer activeren** in te stellen op de pagina **Parameters voor inkoopbeheer**. Als wijzigingsbeheer is ingeschakeld, moeten IO's een goedkeuringsworkflow doorlopen nadat zij zijn voltooid. Supply Chain Management heeft een werkstroomverwerkingseditor waarin u een werkstroom voor het goedkeuringsproces kunt definiëren. Deze workflow kan regels bevatten voor automatische goedkeuring, regels om te bepalen wie wordt aangewezen voor het goedkeuren van bepaalde IO's en regels voor het escaleren van een workflow die al lange tijd wacht op goedkeuring. U kunt het proces voor veranderingenbeheer inschakelen voor alle leveranciers of voor specifieke leveranciers. U kunt ook het proces instellen zodat dit kan worden overschreven voor afzonderlijke IO's.  
+U schakelt wijzigingsbeheer voor IO's in door de optie **Wijzigingsbeheer activeren** in te stellen op de pagina **Parameters voor inkoopbeheer**. Als wijzigingsbeheer is ingeschakeld, moeten IO's een goedkeuringsworkflow doorlopen nadat zij zijn voltooid. Supply Chain Management heeft een werkstroomverwerkingseditor waarin u een werkstroom voor het goedkeuringsproces kunt definiëren. Deze workflow kan regels bevatten voor automatische goedkeuring, regels om te bepalen wie wordt aangewezen voor het goedkeuren van bepaalde IO's en regels voor het escaleren van een workflow die al lange tijd wacht op goedkeuring. U kunt het proces voor veranderingenbeheer inschakelen voor alle leveranciers of voor specifieke leveranciers. U kunt ook het proces instellen zodat dit kan worden overschreven voor afzonderlijke IO's.
 
 Als wijzigingsbeheer is ingeschakeld, doorlopen IO's zes goedkeuringsstatussen, van **Concept** tot **Voltooid**. Nadat een order is goedgekeurd, moeten gebruikers die deze willen wijzigen de actie **Wijziging aanvraag** gebruiken.
 
@@ -53,11 +51,11 @@ Als wijzigingsbeheer is ingeschakeld, doorlopen IO's zes goedkeuringsstatussen, 
 | Voltooid       | De IO is definitief gemaakt. Deze is nu financieel afgesloten en kan niet meer worden gewijzigd. | Nee                        |
 
 ## <a name="confirming-purchase-orders"></a>Inkooporders bevestigen
-IO's met de goedkeuringsstatus **Goedgekeurd** kunnen aanvullende stappen doorlopen voordat ze worden bevestigd. Zo moet u bijvoorbeeld mogelijk een inkooponderzoek naar de leverancier verzenden voor informatie over prijzen, kortingen of leverdatums. In dat geval kunt u de IO instellen op de status **Bij externe herziening** met behulp van de actie **Inkooponderzoek**.  
+IO's met de goedkeuringsstatus **Goedgekeurd** kunnen aanvullende stappen doorlopen voordat ze worden bevestigd. Zo moet u bijvoorbeeld mogelijk een inkooponderzoek naar de leverancier verzenden voor informatie over prijzen, kortingen of leverdatums. In dat geval kunt u de IO instellen op de status **Bij externe herziening** met behulp van de actie **Inkooponderzoek**.
 
-Leveranciers die zijn ingesteld voor gebruik van het leveranciersportaal kunnen orders op de portal controleren en deze goedkeuren of afwijzen. Tijdens dit controleproces, heeft de IO de status **Bij externe herziening**. De leveranciersportal kan zo worden geconfigureerd dat een bevestiging van de leverancier automatisch de order bevestigt in Supply Chain Management. U kunt ook handmatig een IO bevestigen nadat u een bevestiging van de leverancier hebt ontvangen. Als een leverancier een IO afwijst, wordt de afwijzing ontvangen samen met de reden voor de afwijzing en suggesties voor wijzigingen. In dat geval blijft de status van de IO **Bij externe herziening**.  
+Leveranciers die zijn ingesteld voor gebruik van het leveranciersportaal kunnen orders op de portal controleren en deze goedkeuren of afwijzen. Tijdens dit controleproces, heeft de IO de status **Bij externe herziening**. De leveranciersportal kan zo worden geconfigureerd dat een bevestiging van de leverancier automatisch de order bevestigt in Supply Chain Management. U kunt ook handmatig een IO bevestigen nadat u een bevestiging van de leverancier hebt ontvangen. Als een leverancier een IO afwijst, wordt de afwijzing ontvangen samen met de reden voor de afwijzing en suggesties voor wijzigingen. In dat geval blijft de status van de IO **Bij externe herziening**.
 
-Er is ook een optie om een pro forma-bevestiging voor een order te genereren voordat de werkelijke bevestiging is verwerkt. Deze optie maakt gewoon een rapport dat u met de leverancier kunt delen. Er wordt geen journaalinformatie gemaakt.  
+Er is ook een optie om een pro forma-bevestiging voor een order te genereren voordat de werkelijke bevestiging is verwerkt. Deze optie maakt gewoon een rapport dat u met de leverancier kunt delen. Er wordt geen journaalinformatie gemaakt.
 
 Nadat de leverancier akkoord is gegaan met de order, is de volgende stap het vastleggen van de IO als Toegezegd. U kunt deze stap uitvoeren met behulp van de actie **Bevestiging** of de actie **Bevestigen**. Deze beide acties stellen de goedkeuringsstatus van de order in op **Bevestigd**. Bij bevestiging van een order worden twee extra processen gestart:
 
@@ -67,13 +65,25 @@ Nadat de leverancier akkoord is gegaan met de order, is de volgende stap het vas
 Een leverancier kan verzoeken om een bepaalde type zekerheid dat betaling voor een aankoop zal plaatsvinden. Er zijn verschillende methoden voor het verstrekken van deze garantie binnen de leveranciersprocessen. Zo worden bijvoorbeeld met de actie **Vooruitbetaling** fondsen gereserveerd voor de IO en deze vooruitbetaling wordt vastgelegd in de IO.
 
 ## <a name="changing-purchase-orders"></a>Inkooporders wijzigen
-In sommige gevallen moet u mogelijk een IO wijzigen nadat deze de goedkeuringsstatus **Goedgekeurd** of **Bevestigd** heeft bereikt.  
+In sommige gevallen moet u mogelijk een IO wijzigen nadat deze de goedkeuringsstatus **Goedgekeurd** of **Bevestigd** heeft bereikt.
 
-Als de IO is gemaakt met behulp van een proces voor wijzigingsbeheer, kunt u wijzigingen aanbrengen door de order in te trekken of, als de order al goedgekeurd is, door de actie **Wijziging aanvraag** te gebruiken. In dat geval wordt de goedkeuringsstatus terug gewijzigd in **Concept** en kunt u de order aanpassen. Nadat het aanbrengen van wijzigingen is voltooid, moet u wellicht de IO indien voor hernieuwde goedkeuring. U kunt de typen wijzigingen configureren die hernieuwde goedkeuring vereisen door een beleidsregel **Regel voor het opnieuw goedkeuren van inkooporders** te gebruiken op de pagina **Inkoopbeleid**.  
+Als de IO is gemaakt met behulp van een proces voor wijzigingsbeheer, kunt u wijzigingen aanbrengen door de order in te trekken of, als de order al goedgekeurd is, door de actie **Wijziging aanvraag** te gebruiken. In dat geval wordt de goedkeuringsstatus terug gewijzigd in **Concept** en kunt u de order aanpassen. Nadat het aanbrengen van wijzigingen is voltooid, moet u wellicht de IO indienen om opnieuw te worden goedgekeurd. U kunt de typen wijzigingen configureren die hernieuwde goedkeuring vereisen door een beleidsregel **Regel voor het opnieuw goedkeuren van inkooporders** te gebruiken op de pagina **Inkoopbeleid**.
 
 Als een deel van de bestelde hoeveelheid voor een IO-regel is geleverd, kunt u de bestelde hoeveelheid niet meer wijzigen. U kunt echter wel de hoeveelheid voor **Nog te leveren** op de regel aanpassen. U kunt dan de actie **Voltooien** gebruiken om regels te annuleren en verdere verwerking te voorkomen. 
 
 Nadat eeen order is bevestigd, kunt u deze niet langer verwijderen. U kunt echter wel de totale hoeveelheid of de eventuele resterende hoeveelheid voor een order annuleren, op voorwaarde dat de hoeveelheid nog niet is ontvangen of gefactureerd.
+
+## <a name="canceling-purchase-orders"></a>Inkooporders annuleren
+
+Een IO kan worden geannuleerd met de actie **Annuleren** in de koptekst.
+
+Als de hoeveelheid gedeeltelijk is geregistreerd, ontvangen of gefactureerd, kunt u alleen de resterende niet-geregistreerde, ontvangen of gefactureerde hoeveelheid annuleren. De orderhoeveelheid wordt vervolgens overeenkomstig verminderd. Wanneer de hoeveelheid op de regel is bijgewerkt, wordt ook de regelstatus bijgewerkt. Stel, de oorspronkelijke hoeveelheid op de regel is 5 en er wordt een hoeveelheid van 3 ontvangen. In dit geval kunnen er slechts twee worden geannuleerd. Vervolgens wordt de regel bijgewerkt naar de status **Ontvangen**.
+
+Als er een leveringsrestant aan de orderregel wordt toegevoegd en hiermee de hoeveelheid op de orderregel wordt overschreden, wordt met de actie **Annuleren** niet de overtollige hoeveelheid geannuleerd. In plaats daarvan behoudt de regel de status **Openstaande order**, omdat deze een resterende hoeveelheid heeft. Stel, de oorspronkelijke hoeveelheid op de regel is 5 en het leveringsrestant is 7. Als de order wordt geannuleerd, worden er vijf geannuleerd en blijft er een hoeveelheid van 2 over, zoals u in de voorraadtransacties kunt zien.
+
+Als u de hele hoeveelheid op een inkooporderregel wilt annuleren, moet u de hoeveelheid van het leveringsrestant op de regel annuleren. De regel wordt vervolgens bijgewerkt naar de status **Geannuleerd**.
+
+Als een inkooporder onder wijzigingsbeheer valt, moeten wijzigingen, zoals het annuleren van de order of het leveringsrestant, worden ingediend bij het werkstroomsysteem en worden goedgekeurd voordat het proces kan worden voltooid en de voorraadtransacties kunnen worden bijgewerkt als geannuleerd.
 
 <a name="additional-resources"></a>Aanvullende resources
 --------
@@ -84,7 +94,7 @@ Nadat eeen order is bevestigd, kunt u deze niet langer verwijderen. U kunt echte
 
 [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
 
-[Overzicht van leveranciersfacturen](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Overzicht van leveranciersfacturen](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

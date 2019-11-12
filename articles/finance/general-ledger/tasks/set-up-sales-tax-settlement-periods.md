@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cff84f8f6c42fd064258b8ca53e24acc8059977
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c17a0240c29dad58c958ab1ce844ee5d8384bd1f
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175362"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658924"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Btw-vereffeningsperioden instellen
 
@@ -42,7 +42,7 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 9. Voer het aantal periode-intervaleenheden per periode in. Bijvoorbeeld, een kwartaal heeft 3 maanden.
 10. Schakel het selectievakje **Batchverwerking gebruiken voor btw-vereffening** in of uit. Het vereffeningsproces voor de vereffeningsperiode kan als batchtaak in de achtergrond worden verwerkt. Dit wordt aanbevolen voor een groot aantal btw-transacties binnen een periode-interval.  
     > [!NOTE]
-    > Momenteel wordt dit niet ondersteund in Oostenrijk, België, Spanje, Italië, Japan en Nederland.
+    > Momenteel wordt dit niet ondersteund in Spanje, Japan en Nederland.
 11. Schakel het selectievakje **Genereren van tegengerekende btw-transacties voorkomen** in of uit. Standaard genereert het systeem tegengerekende btw-transacties tijdens het vereffeningsproces, wat kan leiden tot prestatieprobleem als er een groot aantal btw-transacties binnen een periode-interval is. Schakel dit selectievakje in om genereren van tegengerekende btw-transacties te voorkomen.
 12. Vouw het tabblad **Periode-intervallen** uit.
 13. Selecteer **Toevoegen**.

@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c24ce4dab179f439521c22e196b0b190821bc60f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 735f2d3d2f95185e886321c043cebcb6692fe8b1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561405"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570835"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO met fysieke waarde en markering
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 FIFO (First in, First out) is een voorraadmodel waarin de eerste ontvangsten het eerst worden uitgegeven. Financieel bijgewerkte uitgiften uit de voorraad worden vereffend met de eerste financieel bijgewerkte ontvangsten in de voorraad op basis van de financiële datum van de voorraadtransactie. 
 
@@ -54,7 +52,9 @@ In dit voorbeeld is de artikelmodelgroep niet gemarkeerd voor het opnemen van de
 -   5b. Financiële voorraaduitgifte voor de hoeveelheid 1 tegen een prijs van USD 20,00 per stuk (lopend gemiddelde van financieel bijgewerkte transacties).
 -   6. Voorraadafsluiting is uitgevoerd. Op basis van de FIFO-methode wordt de eerste financieel bijgewerkte uitgifte vereffend met de eerste financieel bijgewerkte ontvangst. Op de uitgiftetransactie wordt een correctie van USD -10,00 doorgevoerd.
 
-De nieuwe lopende gemiddelde kostprijs staat voor het gemiddelde van de bijgewerkte financiële transacties. In de volgende afbeeldingen worden de effecten van het FIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. ![FIFO zonder fysieke waarde opnemen](./media/fifowithoutincludephysicalvalue.gif) 
+De nieuwe lopende gemiddelde kostprijs staat voor het gemiddelde van de bijgewerkte financiële transacties. In de volgende afbeeldingen worden de effecten van het FIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. 
+
+![FIFO zonder fysieke waarde opnemen](./media/fifowithoutincludephysicalvalue.gif) 
 
 **Uitleg bij het diagram**
 
@@ -84,7 +84,9 @@ Als u het selectievakje **Fysieke waarde opnemen** inschakelt voor een artikel o
 -   6a. Fysieke voorraaduitgifte voor de hoeveelheid 1 met een kostprijs van USD 21,25 per stuk.
 -   7. Voorraadafsluiting is uitgevoerd. Op basis van de FIFO-methode wordt de eerste financiële uitgiftetransactie gecorrigeerd of vereffend met de eerste bijgewerkte (financiële of fysieke) ontvangst.
 
-Transactie 5b wordt vereffend met ontvangsttransactie 1b. Er wordt een correctie van EUR -11,25 toegepast op deze uitgiftetransactie. De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 27,50. In de volgende afbeelding worden de effecten van het FIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** wordt gebruikt. ![FIFO met fysieke waarde opnemen](./media/fifowithincludephysicalvalue.gif) 
+Transactie 5b wordt vereffend met ontvangsttransactie 1b. Er wordt een correctie van EUR -11,25 toegepast op deze uitgiftetransactie. De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 27,50. In de volgende afbeelding worden de effecten van het FIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** wordt gebruikt. 
+
+![FIFO met fysieke waarde opnemen](./media/fifowithincludephysicalvalue.gif) 
 
 **Uitleg bij het diagram**
 
@@ -114,7 +116,9 @@ Markeren is een proces waarmee u een uitgiftetransactie aan een ontvangsttransac
 -   6a. Fysieke voorraaduitgifte voor de hoeveelheid 1 met een kostprijs van USD 21,25 per stuk.
 -   7. Voorraadafsluiting is uitgevoerd. Omdat de financieel bijgewerkte FIFO-transactie is gemarkeerd voor een bestaande ontvangst, worden deze transacties met elkaar vereffend en wordt er niet gecorrigeerd.
 
-De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 27,50. In het volgende afbeelding worden de effecten van het FIFO-voorraadmodel op deze reeks transacties weergegeven wanneer markering tussen uitgiften en ontvangsten wordt gebruikt. ![FIFO met markering](./media/fifowithmarking.gif) 
+De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 27,50. In het volgende afbeelding worden de effecten van het FIFO-voorraadmodel op deze reeks transacties weergegeven wanneer markering tussen uitgiften en ontvangsten wordt gebruikt. 
+
+![FIFO met markering](./media/fifowithmarking.gif) 
 
 **Uitleg bij het diagram**
 

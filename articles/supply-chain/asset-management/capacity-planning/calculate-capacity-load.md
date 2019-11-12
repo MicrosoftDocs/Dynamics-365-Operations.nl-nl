@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 82f65293679591f278e0e3b79c112ba36debc3bb
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: da737cedfcd678a835e85a2b82a05394d771f8cc
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2277938"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652259"
 ---
 # <a name="calculate-capacity-load"></a>Capaciteitsbelasting berekenen
 
 [!include [banner](../../includes/banner.md)]
 
 
-In Activabeheer kunt u de capaciteitsbelasting berekenen voor
+In Activabeheer kunt u de capaciteitsbelasting berekenen voor:
 
 - onderhoudsschemaregels  
 - werkorders die nog niet zijn gepland  
@@ -46,16 +46,18 @@ Dit is handig als u een overzicht wilt weergeven van de verwachte capaciteitsbel
 
 4. Selecteer Ja voor de wisselknop **Werkorder opnemen** als u werkordertaken wilt opnemen in de berekening.
 
-5. Gebruik het veld **Niveau** om aan te geven hoe gedetailleerd u de capaciteitsbelastingsregels wilt berekenen met betrekking tot functionele locaties. Als u bijvoorbeeld het getal 1 invoegt in het veld en u een structuur met meerdere niveaus voor functionele locaties hebt, worden alle onderhoudsschemaregels en werkorders voor een functionele locatie weergegeven op het hoogste niveau. Daarom kunnen de uren op een regel zijn opgeteld op basis van functionele locaties die zich op een lager niveau bevinden. Als u het getal 0 in het veld **Niveau** invoegt, wordt er een gedetailleerd resultaat met alle onderhoudsschemaregels en alle werkorders weergegeven op alle niveaus voor functionele locaties waarop deze betrekking hebben.
+5. Gebruik het veld **Niveau** om aan te geven hoe gedetailleerd u de capaciteitsbelastingsregels wilt berekenen met betrekking tot functionele locaties. 
+
+    Als u bijvoorbeeld het getal 1 invoegt in het veld en u een structuur met meerdere niveaus voor functionele locaties hebt, worden alle onderhoudsschemaregels en werkorders voor een functionele locatie weergegeven op het hoogste niveau. Daarom kunnen de uren op een regel zijn opgeteld op basis van functionele locaties die zich op een lager niveau bevinden. 
+    
+    Als u het getal 0 in het veld **Niveau** invoegt, wordt er een gedetailleerd resultaat met alle onderhoudsschemaregels en alle werkorders weergegeven op alle niveaus voor functionele locaties waarop deze betrekking hebben.
 
 6. Klik op **OK** om de berekening te starten.
 
-7. Klik in de actievenstergroepen **Groeperen op** op de relevante knoppen om het vereiste detailniveau van de kostenberekening weer te geven. De geselecteerde knoppen in de actieschermgroep zijn in een blauwe kleur gemarkeerd. U kunt knoppen activeren of deactiveren door erop te klikken.
+7. Klik in de groepen **Groeperen op...** op de relevante knoppen om het vereiste detailniveau van de kostenberekening weer te geven. In de onderstaande schermopname worden de geselecteerde knoppen **Groeperen op** in blauwe kleur gemarkeerd. U kunt knoppen activeren of deactiveren door erop te klikken.
 
-De volgende afbeelding toont een voorbeeld van de interface.
-
-![Figuur 1](media/01-capacity-planning.png)
+    ![Figuur 1](media/01-capacity-planning.png)
 
 >[!NOTE]
->Als u zich alleen wilt richten op capaciteitsplanning voor geplande werkorders, raadpleegt u [Capaciteitsbelasting voor geplande werkorders berekenen](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
+>Zie [Capaciteitsbelasting voor geplande werkorders berekenen](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md) als u zich alleen wilt richten op capaciteitsplanning voor geplande werkorders.
 

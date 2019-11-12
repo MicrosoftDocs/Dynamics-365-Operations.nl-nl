@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f68e11a1cd14bc35282b957a4262cbecdd627b3b
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 151db9ca8a121759e39b690ec296b36a18dc1729
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790482"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571157"
 ---
-# <a name="maintenance-request-states"></a>Statussen van onderhoudsverzoeken
+# <a name="maintenance-request-lifecycle-states"></a>Statussen van levenscyclus voor onderhoudsverzoeken
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Levenscyclusstatussen van onderhoudsverzoeken bepalen de fasen die een verzoek kan doorlopen. Voorbeelden zijn **Gemaakt**, **Actief** en **Beëindigd**. Wanneer een onderhoudsverzoek wordt geconverteerd naar een werkorder, moet de levenscyclusstatus van het onderhoudsverzoek worden bijgewerkt naar **Beëindigd** of **Gesloten** om aan te geven dat het onderhoudsverzoek niet langer actief is. Op de pagina **Alle onderhoudsverzoeken** worden alle onderhoudsverzoeken weergegeven, ongeacht de levenscyclusstatus.
@@ -51,7 +51,7 @@ Levenscyclusstatussen van onderhoudsverzoeken bepalen de fasen die een verzoek k
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Levenscyclusstatussen van onderhoudsverzoeken**.
 
-![Figuur 1](media/02-setup-for-requests.png)
+![Pagina Statussen van levenscyclus voor onderhoudsverzoeken](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Levenscyclusstatussen, levenscyclusstatusgroepen en -typen van onderhoudsverzoeken zijn gerelateerd aan en worden op dezelfde manier gebruikt als levenscyclusstatussen, levenscyclusstatusgroepen en -typen van werkorders. 
@@ -80,4 +80,4 @@ Nadat u de levenscyclusstatussen hebt gemaakt die vereist zijn voor uw onderhoud
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Levenscyclusmodellen van onderhoudsverzoeken**.
 
-![Figuur 2](media/06-setup-for-requests.png)
+![Pagina Levenscyclusmodellen van onderhoudsverzoeken](media/06-setup-for-requests.png)

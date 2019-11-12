@@ -3,7 +3,7 @@ title: Projectfacturering
 description: Dit artikel biedt een overzicht van projectfacturen voor tijd- en materiaalprojecten en projecten met een vaste prijs. Het bevat informatie over factuurvoorstellen (voorlopige facturen), factuurbeheer, a conto-facturering, leveranciersfacturering en creditnota's.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d91f6b1ccc3254e2c04d24c5f9bf2014c64e50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177234"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658615"
 ---
 # <a name="project-invoicing"></a>Projectfacturering
 
@@ -55,6 +55,9 @@ U kunt factuurvoorstellen maken voor de volgende transacties:
 -   Bedragen die door klanten op eerdere projectfacturen zijn ingehouden.
 -   Creditnota's
 -   Bedragen die een klant aan u heeft betaald voordat een project wordt gestart.
+
+> [!NOTE]
+> Met de functie **Sorteren op resources inschakelen tijdens het maken van een projectfactuurvoorstel** kan de projectaccountant bij het maken van een nieuw projectfactuurvoorstel de projecttransacties die beschikbaar zijn voor facturering op resource sorteren. Het raster waarin de beschikbare projecttransacties worden weergegeven, heeft een afzonderlijk veld voor Resource-id en Resource, zodat de gebruiker op resourcenaam kan filteren en sorteren. Deze functie is standaard uitgeschakeld en kan worden ingeschakeld in **Werkgebieden > Functiebeheer**. Neem contact op met uw systeembeheerder voor hulp bij het inschakelen van deze functie.
 
 U kunt kostentransacties in een factuurvoorstel maken. U kunt ook de verkoopprijs wijzigen voor uur-, onkosten-, artikel- en bijzondere-kostentransacties. Als u een factuurvoorstel boekt, worden de bijgewerkte prijzen en transacties toegevoegd aan projectrapporten en de transactiehistorie. 
 
@@ -105,7 +108,7 @@ U kunt bijvoorbeeld het volgende factureringsschema instellen:
 Wanneer de mijlpaalbetalingen kunnen worden gefactureerd, gebruikt u de procedure voor de facturering van a conto-bedragen.
 
 ## <a name="vendor-invoicing"></a>Leveranciersfacturering
-Wanneer u een artikel van een leverancier bestelt en het artikel aan een project toewijst, bepaalt de eigenschap die u voor de inkooporderregel voor dat artikel selecteert of het ingekochte artikel aan een klant wordt gefactureerd. Als u standaardregeleigenschappen instelt, worden deze weergegeven voor het artikel op de inkooporderregel (Regeldetails &gt; Project &gt; Regeleigenschap). Er zijn twee manieren om de regeleigenschap te wijzigen:
+Wanneer u een artikel van een leverancier bestelt en het artikel aan een project toewijst, bepaalt de eigenschap die u voor de inkooporderregel voor dat artikel selecteert of het ingekochte artikel aan een klant wordt gefactureerd. Als u standaardregeleigenschappen instelt, worden deze weergegeven voor het artikel op de inkooporderregel (Regeldetails &gt; Project &gt; Regeleigenschap). Er zijn twee manieren om de regeleigenschap te wijzigen:
 
 -   Het factureren van de klant van het project voor het artikel: stel de regeleigenschap voor het artikel in op een toerekenbare waarde op de inkooporder en factureer vervolgens de klant door de juiste projectfactureringsmethode te gebruiken.
 -   Factureer niet de projectklant voor het artikel: selecteert niet de regeleigenschap **Toerekenbaar** op de inkooporderregel voor het artikel. U kunt de inkooporder vervolgens factureren en verder hoeft u niets te doen.

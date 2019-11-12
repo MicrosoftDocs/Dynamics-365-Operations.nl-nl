@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660038060826ade9301e50143e49b53ba3fcd3ab
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f96fcc7ebb8928c6d6b17b30465ad1625d9b5be4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783185"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571065"
 ---
-# <a name="asset-criticalities"></a>Kritieke eigenschappen van activa
+# <a name="asset-criticality-types"></a>Typen kritieke eigenschappen van activa
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In het onderwerp wordt uitgelegd hoe u typen kritieke eigenschappen van activa maakt in Activabeheer. Kritieke eigenschappen van activa zijn gerelateerd aan activa en worden overgebracht naar werkorders. Zij kunnen niet worden gewijzigd in een werkorder. Kritieke eigenschappen van activa worden gebruikt voor het berekenen van kritieke eigenschappen van een werkorder tijdens de planning van de werkorder. Met andere woorden, zij worden gebruikt om te berekenen in hoeverre een onderhoudstaak voor een activum van invloed is op het productieschema en de productiviteit in uw bedrijf. Zie [Parameters voor activabeheer](../setup-for-objects/enterprise-asset-management-parameters.md) voor meer informatie over de instellingen die zijn gerelateerd aan de berekening van beoordelingsscores voor de planning van werkorders.
 
@@ -43,7 +43,7 @@ Als u kritieke eigenschappen wilt instellen, maakt u eerst de typen kritieke eig
 4. Voer in het veld **Naam** een naam voor het type kritieke eigenschappen in.
 5. Voer in het veld **Factor** een factor in. Deze factor wordt gebruikt tijdens de berekening van de werkorderplanning om de record voor kritieke eigenschappen te bepalen die moet worden gebruikt. (Er wordt altijd gebruikgemaakt van de record met de hoogste factor.) Deze instelling is relevant als, zoals wordt weergegeven in de volgende afbeelding, regels voor kritieke eigenschappen worden gemaakt met dezelfde waarde voor kritieke eigenschappen.
 
-    ![Figuur 1](media/23-setup-for-objects.png)
+    ![Pagina Typen kritieke eigenschappen](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Kritieke eigenschappen van activa instellen
 

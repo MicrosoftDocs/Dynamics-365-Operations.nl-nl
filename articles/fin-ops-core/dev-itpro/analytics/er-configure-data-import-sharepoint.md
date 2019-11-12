@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181514"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564932"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Gegevensimport uit SharePoint configureren
 
@@ -62,9 +62,9 @@ Speel de taakbegeleidingen **ER-gegevens importeren uit een Microsoft Excel-best
 > De indeling voor het importeren van leverancierstransacties is geselecteerd als de standaardmodeltoewijzing. Dus als u een modeltoewijzing uitvoert van het **1099 Payments model** en die modeltoewijzing van het type **Tot bestemming** is, voert de modeltoewijzing deze indeling uit om gegevens uit externe bestanden te importeren. Vervolgens worden deze gegevens gebruikt om toepassingstabellen bij te werken.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>Toegang tot SharePoint voor opslag van bestanden configureren
-Als u elektronische rapportbestanden op een SharePoint-locatie wilt opslaan, moet u de toegang tot het SharePoint Server-exemplaar configureren dat wordt gebruikt door het huidige bedrijf. In dit voorbeeld is het bedrijf USMF. Zie voor instructies [SharePoint-oplag configureren](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Als u elektronische rapportbestanden op een SharePoint-locatie wilt opslaan, moet u de toegang tot het SharePoint Server-exemplaar configureren dat wordt gebruikt door het huidige bedrijf. In dit voorbeeld is het bedrijf USMF. Zie voor instructies [SharePoint-oplag configureren](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Voer de stappen in [SharePoint-opslag configureren](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage) uit.
+1. Voer de stappen in [SharePoint-opslag configureren](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage) uit.
 2. Open de geconfigureerde SharePoint-site.
 3. Maak de volgende mappen waarin inkomende bestanden voor elektronische aangifte kunnen worden opgeslagen:
 
@@ -80,7 +80,7 @@ Als u elektronische rapportbestanden op een SharePoint-locatie wilt opslaan, moe
     - Map voor bestanden met een fout - Deze map zou worden gebruikt voor bestanden die niet kunnen worden geïmporteerd.
 
 4. Ga naar **Organisatiebeheer > Documentbeheer > Documenttypen**.
-5. Maak de volgende documenttypen die worden gebruikt om toegang te krijgen tot de SharePoint-mappen die u zojuist hebt gemaakt. Zie [Documenttypen configureren](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types) voor instructies.
+5. Maak de volgende documenttypen die worden gebruikt om toegang te krijgen tot de SharePoint-mappen die u zojuist hebt gemaakt. Zie [Documenttypen configureren](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) voor instructies.
 
 |Documenttype       | Groep              | Locatie      | SharePoint-map      |
 |--------------------|--------------------|---------------|------------------------|

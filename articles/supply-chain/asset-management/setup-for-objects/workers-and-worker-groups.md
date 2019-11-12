@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c85fc24cdf0b3cd1a188ccf0f477ffbfa5fab960
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f0a8fcf26da02bd42f6ee45687c585091e3b945e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783170"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570973"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Onderhoudsmedewerkers en medewerkersgroepen
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In dit onderwerp worden onderhoudsmedewerkers en medewerkersgroepen in Activabeheer uitgelegd. In Activabeheer kunt u onderhoudsmedewerkers verbinden met functionele locaties. (Zie [Functionele locaties maken](../functional-locations/create-functional-locations.md) voor meer informatie over functionele locaties.) Deze functionaliteit kan handig zijn als u bijvoorbeeld een onderhoudstaak wilt plannen op een machine die zich op functionele locatie 01 bevindt en u onderhoudsmedewerkers wilt toewijzen vanaf dezelfde locatie om de taak uit te voeren.
 
@@ -50,7 +50,7 @@ U kunt ook groepen onderhoudsmedewerkers maken en hieraan onderhoudsmedewerkers 
 7. Selecteer op het sneltabblad **Functionele locaties** de optie **Toevoegen** en selecteer vervolgens een functionele locatie voor de onderhoudsmedewerker. Geef ook op welke locatie de primaire functionele locatie voor de medewerker is.
 
     > [!NOTE]
-    > Wanneer u functionele locaties aan een werknemer toevoegt, worden alle actieve activa die zijn gerelateerd aan die functionele locaties weergegeven in verschillende menuopties, zoals **Mijn activa activa** en **Mijn actieve functionele locaties**. Ze worden ook weergegeven in de zoekopdrachten voor activa die worden weergegeven wanneer u een nieuw activum of een nieuwe onderhoudsaanvraag of werkorder maakt.
+    > Wanneer u functionele locaties aan een werknemer toevoegt, worden alle actieve activa die zijn gerelateerd aan die functionele locaties weergegeven in verschillende menuopties, zoals **Mijn activa activa** en **Mijn actieve functionele locaties**. Ze worden ook weergegeven in de zoekopdrachten voor activa die worden weergegeven wanneer u een nieuw activum of een nieuw onderhoudsverzoek of werkorder maakt.
 
     De velden op het sneltabblad **Details** tonen het aantal groepen onderhoudsmedewerkers en functionele locaties waaraan de geselecteerde onderhoudsmedewerker is gekoppeld.
 

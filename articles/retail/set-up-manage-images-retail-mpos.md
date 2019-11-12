@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 1776220766984339c7c289f7b55252fb0c0bb2a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024839"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570651"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Instellen en beheren van afbeeldingen voor Retail Modern POS (MPOS)
 
@@ -83,9 +83,7 @@ In de volgende procedures zijn afbeeldingen ingesteld voor de catalogusentiteit 
     [![Het dialoogvenster Afbeeldingen](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
-> U kunt dezelfde procedure gebruiken voor alle vijf de rechtspersonen die worden ondersteund: Werknemer, Klant, Catalogus, Categorie en Producten. 'Catalogusproducten' (producten die zijn ingesteld op catalogusniveau) en 'kanaalproducten' (producten die zijn ingesteld op kanaalniveau) gebruiken de mediasjabloon die is ingesteld voor de productentiteit. Voor de productmediasjabloon kunt u het aantal productafbeeldingen selecteren dat per product moet worden weergegeven. U kunt ook de standaardafbeelding voor een bepaald product instellen. Op deze manier kunt u lege afbeeldingen in MPOS voorkomen en helpen te regelen welke afbeelding als standaardafbeelding voor een productartikel wordt gebruikt. In het volgende voorbeeld heeft elk product vijf afbeeldingen en de eerste afbeelding is ingesteld als de standaardafbeelding. Productvarianten worden op dezelfde manier verwerkt als hoofdproducten. De bestandsnaam van het afbeeldingsbestand moet op het productnummer moeten worden gebaseerd. Sommige tekens zijn ook voor wisseltekens terwijl de bestandsnaam wordt gegenereerd. Daarom is het goed om de bestandsnaam te verifiëren door de sectie **Afbeeldings-URL's voor Excel genereren** te gebruiken.
->
-> [![Het dialoogvenster Mediasjabloon definiëren](./media/prods.png)](./media/prods.png)
+> U kunt dezelfde procedure gebruiken voor alle vijf de rechtspersonen die worden ondersteund: Werknemer, Klant, Catalogus, Categorie en Producten. 'Catalogusproducten' (producten die zijn ingesteld op catalogusniveau) en 'kanaalproducten' (producten die zijn ingesteld op kanaalniveau) gebruiken de mediasjabloon die is ingesteld voor de productentiteit. Voor de productmediasjabloon kunt u het aantal productafbeeldingen selecteren dat per product moet worden weergegeven. U kunt ook de standaardafbeelding voor een bepaald product instellen. Op deze manier kunt u lege afbeeldingen in MPOS voorkomen en helpen te regelen welke afbeelding als standaardafbeelding voor een productartikel wordt gebruikt. In het volgende voorbeeld heeft elk product vijf afbeeldingen en de eerste afbeelding is ingesteld als de standaardafbeelding. Productvarianten worden op dezelfde manier verwerkt als hoofdproducten. De bestandsnaam van het afbeeldingsbestand moet op het productnummer moeten worden gebaseerd. Sommige tekens zijn ook voor wisseltekens terwijl de bestandsnaam wordt gegenereerd. Daarom is het goed om de bestandsnaam te verifiëren door de sectie **Afbeeldings-URL's voor Excel genereren** te gebruiken. Zie de sectie [Wijzigingen overschrijven met Bewerken in Excel](#overwrite-by-using-edit-in-excel) verderop in dit artikel.
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Synchronisatietaken om een mediasjabloon naar de kanaalkant te verzenden
 
@@ -110,8 +108,6 @@ Zoals u in de vorige sectie hebt geleerd, ondersteunt de mediasjabloon voor een 
 
     > [!IMPORTANT]
     > Wanneer de mediasjabloon is gewijzigd, moet u klikken op **Genereren** voordat u de functionaliteit Bewerken in Excel kunt gebruiken.
-
-    [![Het sneltabblad Afbeeldings-URL's voor Excel genereren](./media/excel1.jpg)](./media/excel1.jpg)
 
     U ziet nu een voorbeeld van de afbeeldings-URL's die zijn gegenereerd op basis van de laatst opgeslagen mediasjabloon.
 

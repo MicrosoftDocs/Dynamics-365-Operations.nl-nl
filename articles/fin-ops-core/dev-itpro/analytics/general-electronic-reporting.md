@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ce7b5418ab9e1a9abd6c3206c74c5a1cf739a3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181882"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578236"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -71,9 +71,8 @@ Een modeltoewijzing die ondersteuning biedt voor uitgaande elektronische documen
 
 - Er kunnen verschillende gegevenstypen worden gebruikt als gegevensbronnen voor een gegevensmodel. Er kan bijvoorbeeld gebruik worden gemaakt van tabellen, gegevensentiteiten, methoden of opsommingen.
 - Er worden gebruikerinvoerparameters ondersteund die kunnen worden gedefinieerd als gegevensbronnen voor een gegevnsmodel wanneer bepaalde gegevens moeten worden opgegeven tijdens de uitvoering.
-- Hij biedt ondersteuning voor de transformatie van gegevens in de vereiste groepen. Ook kunt u hiermee filteren, sorteren en gegevens optellen en logische berekende velden toevoegen die zijn ontwikkeld door middel van formules die vergelijkbaar zijn met Microsoft Excel-formules, zoals hieronder afgebeeld. Zie voor meer informatie het onderwerp [Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md).
+- Hij biedt ondersteuning voor de transformatie van gegevens in de vereiste groepen. Ook kunt u hiermee filteren, sorteren en gegevens optellen en logische berekende velden toevoegen die zijn ontwikkeld door middel van formules die vergelijkbaar zijn met Microsoft Excel-formules. Zie voor meer informatie het onderwerp [Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md).
 
-[![Formuleontwerper](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Een modeltoewijzing die ondersteuning biedt voor inkomende elektronische documenten, heeft de volgende mogelijkheden:
 
@@ -196,9 +195,7 @@ Vereiste opslagplaatsen voor **LCS-project**, **Bestandssysteem** en **Regulator
 ## <a name="supported-scenarios"></a>Ondersteunde scenario's
 ### <a name="building-a-data-model"></a>Een gegevensmodel maken
 
-ER biedt een modelontwerper waarmee u een gegevensmodel kunt maken voor een bepaald bedrijfsdomein. Alle domeinspecifieke bedrijfsentiteiten, en de relaties hiertussen, kunnen als een hiërarchische structuur worden voorgesteld in een gegevensmodel. In de volgende afbeelding ziet u een voorbeeld van dit type gegevensmodel (het gegevensmodel van het betalingsdomein).
-
-[![Domeingegevensmodel Betalingen](./media/ER-overview-04.png)](./media/ER-overview-04.png)
+ER biedt een modelontwerper waarmee u een gegevensmodel kunt maken voor een bepaald bedrijfsdomein. Alle domeinspecifieke bedrijfsentiteiten, en de relaties hiertussen, kunnen als een hiërarchische structuur worden voorgesteld in een gegevensmodel. 
 
 Speel de taakbegeleiding **ER Ontwerp domeinspecifiek gegevensmodel** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
 
@@ -209,24 +206,14 @@ De inhoud van een gegevensmodel (labels en omschrijvingen) kan worden vertaald i
 - Tijdens het ontwerpproces om de inhoud begrijpelijker te maken voor ontwerpers van indelingen die een andere taal spreken en die het gegevensmodel gebruiken voor gegevenstoewijzing van indelingscomponenten.
 - Maak tijdens de uitvoering de inhoud gebruiksvriendelijker door aanwijzingen en help te presenteren voor uitvoeringsparameters en tevens geconfigureerde validatieberichten (fouten en waarschuwingen) in de taal die de voorkeur heeft van de aangemelde gebruiker.
 
-In de volgende afbeelding ziet u een voorbeeld waarin de inhoud van een gegevensmodel is vertaald vanuit het Engels naar het Japans.
-
-[![Inhoud van gegevensmodel in Engels](./media/ER-overview-05.png)](./media/ER-overview-05.png)
-
-[![Inhoud van gegevensmodel vertaald in Japans](./media/ER-overview-06.png)](./media/ER-overview-06.png)
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Gegevensmodeltoewijzingen voor uitgaande documenten configureren
 
-ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke toepassingsgegevensbronnen. Op basis van de toewijzing worden de gegevens geïmporteerd tijdens de uitvoering vanuit de geselecteerde gegevensbronnen in het gegevensmodel. Het gegevensmodel wordt vervolgens gebruikt als een abstracte gegevensbron van ER-indelingen die uitgaande elektronische documenten genereren. De volgende afbeelding laat een voorbeeld zien van dit type gegevensmodeltoewijzing (de modeltoewijzing **SEPA-kredietoverdracht** van het domeingegevensmodel voor betaling).
-
-[![Voorbeeld van een gegevensmodeltoewijzing](./media/ER-overview-07.png)](./media/ER-overview-07.png)
+ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke toepassingsgegevensbronnen. Op basis van de toewijzing worden de gegevens geïmporteerd tijdens de uitvoering vanuit de geselecteerde gegevensbronnen in het gegevensmodel. Het gegevensmodel wordt vervolgens gebruikt als een abstracte gegevensbron van ER-indelingen die uitgaande elektronische documenten genereren. 
 
 Speel de taakbegeleidingen **ER Definieer modeltoewijzing en selecteer gegevensbronnen** en **ER Wijs gegevensmodel toe aan geselecteerde gegevensbronnen** (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** af om uzelf vertrouwd te maken met de details van dit scenario.
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Gegevensmodeltoewijzingen voor inkomende documenten configureren
-ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke bestemmingen. Gegevensmodellen kunnen bijvoorbeeld worden toegewezen aan de bewerkbare gegevenscomponenten, zoals tabellen, gegevensentiteiten en weergaven. Op basis van de toewijzing worden de gegevens bijgewerkt tijdens de uitvoering met de gegevens uit het gegevensmodel. Als abstracte opslag van de ER-indeling wordt het gegevensmodel gevuld met gegevens die worden geïmporteerd vanuit een inkomend elektronisch document. In de volgende afbeelding ziet u een voorbeeld van dit type gegevensmodeltoewijzing. In dit voorbeeld wordt de modeltoewijzing **Importtoewijzing voor NETS** van het domeingegevensmodel Betalingen gebruikt ter ondersteuning van de import van bankafschriften in de NETS-bankindeling voor Noorwegen.
-
-[![Voorbeeld van importtoewijzing voor NETS-gegevensmodel](./media/ER-overview-08.png)](./media/ER-overview-08.png)
+ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke bestemmingen. Gegevensmodellen kunnen bijvoorbeeld worden toegewezen aan de bewerkbare gegevenscomponenten, zoals tabellen, gegevensentiteiten en weergaven. Op basis van de toewijzing worden de gegevens bijgewerkt tijdens de uitvoering met de gegevens uit het gegevensmodel. Als abstracte opslag van de ER-indeling wordt het gegevensmodel gevuld met gegevens die worden geïmporteerd vanuit een inkomend elektronisch document. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Een ontworpen modelonderdeel opslaan als modelconfiguratie
 
@@ -236,24 +223,18 @@ Speel de taakbegeleiding **ER Wijs gegevensmodel toe aan geselecteerde gegevensb
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Een indeling maken die een gegevensmodel als basis gebruikt
 
-ER ondersteunt een indelingsontwerper die u kunt gebruiken om de indeling van een elektronisch document te maken voor een geselecteerd bedrijfsdomein door het modelonderdeel als basis te selecteren. Dezelfde ER-indelingsontwerper stelt u in staat een indeling als gegevensbron toe te wijzen die u maakt voor de gegevensmodeltoewijzing van een geselecteerd domein. In de volgende afbeelding wordt een voorbeeld weergegeven van dit type indeling (de indelingsconfiguratie die de **BACS**-betalingsindeling voor het Verenigd Koninkrijk ondersteunt).
-
-[![Voorbeeld van een indeling die een gegevensmodel als basis heeft](./media/ER-overview-09.png)](./media/ER-overview-09.png)
+ER ondersteunt een indelingsontwerper die u kunt gebruiken om de indeling van een elektronisch document te maken voor een geselecteerd bedrijfsdomein door het modelonderdeel als basis te selecteren. Dezelfde ER-indelingsontwerper stelt u in staat een indeling als gegevensbron toe te wijzen die u maakt voor de gegevensmodeltoewijzing van een geselecteerd domein. 
 
 Speel de taakbegeleiding **ER Ontwerp domeinspecifieke indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Een configuratie bouwen voor het genereren van elektronische documenten in OPENXML-werkbladindeling
 
-De ER-indelingsontwerper kan worden gebruikt om een bepaald elektronisch document te maken in OPENXML-werkbladindeling. In de volgende afbeelding ziet u een voorbeeld van dit type indeling (een indelingsconfiguratie voor het genereren van een OPENXML-werkblad met gegevens van een geselecteerd betalingsdagboek).
-
-[![Afb-ER-indeling-Excel](./media/ER-overview-10.png)](./media/ER-overview-10.png)
+De ER-indelingsontwerper kan worden gebruikt om een bepaald elektronisch document te maken in OPENXML-werkbladindeling. 
 
 Speel de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario. Als onderdeel van de taakbegeleidingsstap voor het importeren van een sjabloon, gebruikt u het Excel-bestand [Sjabloon van betalingsrapport (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) als sjabloon.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Een configuratie bouwen voor het genereren van elektronische documenten in Word-documentindeling
 De ER-indelingsontwerper kan worden gebruikt om een bepaald elektronisch document te maken in een Word-documentindeling. In de volgende afbeelding ziet u een voorbeeld van dit type indeling. Merk op dat deze indeling de bestaande ER-configuratie gebruikt, die oorspronkelijk is opgezet voor het genereren van de rapportuitvoer in OPENXML-indeling.
-
-[![Afb-ER-indeling-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
 
 Speel de taakbegeleiding ER: een configuratie ontwerpen voor het genereren van rapporten in Microsoft Word-indeling af (onderdeel van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)) om vertrouwd te raken met de details van dit scenario. Gebruik de volgende Word-bestanden als sjablonen voor de ER-indeling als onderdeel van de taakbegeleidingfase voor het importeren van een sjabloon:
 
@@ -261,11 +242,7 @@ Speel de taakbegeleiding ER: een configuratie ontwerpen voor het genereren van r
 - [Gebonden sjabloon van betalingsrapport (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Een configuratie bouwen om gegevens te importeren vanuit inkomende elektronische documenten
-De ER-indelingsontwerper kan worden gebruikt om een elektronisch document te beschrijven dat is gepland voor het importeren van gegevens in de indeling XML of tekst. De ontworpen indeling wordt gebruikt om inkomende documenten te parseren. De ER-indelingstoewijzingsontwerper kan worden gebruikt voor het definiëren van het binden van de elementen van de ontworpen indeling aan het gegevensmodel. In de volgende afbeeldingen ziet u een voorbeeld van dit type indeling en indelingstoewijzing. In dit voorbeeld worden NETS-bankafschriften geïmporteerd met betalingsgegevens van leveranciers in tekst zonder opmaak.
-
-[![ER-indelingsontwerper](./media/ER-overview-12.png)](./media/ER-overview-12.png)
-
-[![ER-ontwerper-modeltoewijzingen](./media/ER-overview-13.png)](./media/ER-overview-13.png)
+De ER-indelingsontwerper kan worden gebruikt om een elektronisch document te beschrijven dat is gepland voor het importeren van gegevens in de indeling XML of tekst. De ontworpen indeling wordt gebruikt om inkomende documenten te parseren. De ER-indelingstoewijzingsontwerper kan worden gebruikt voor het definiëren van het binden van de elementen van de ontworpen indeling aan het gegevensmodel. 
 
 Speel de taakbegeleiding ER: vereiste configuraties maken voor het importeren van gegevens uit een extern bestand af (onderdeel van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)) om vertrouwd te raken met de details van dit scenario. Gebruik de volgende bestanden om deze begeleider af te spelen:
 
@@ -280,11 +257,7 @@ ER kan een ontworpen indeling samen met de geconfigureerde gegevenstoewijzingen 
 
 ### <a name="configuring-finance-to-start-to-use-a-created-format-internally"></a>Finance configureren om een gemaakte indeling intern te gaan gebruiken
 
-De toepassing kan worden geconfigureerd voor gebruik van een gemaakte indeling voor het genereren van elektronische rapporten. De verwijzing naar de gemaakte indelingsconfiguratie moet worden gedefinieerd in de instellingen van een specifiek domein. Als u bijvoorbeeld een configuratie in ER-indeling wilt gaan gebruiken voor elektronische betalingen aan leveranciers in BACS-indeling, moet naar de indelingsconfiguratie worden verwezen in specifieke betalingsmethoden, zoals in de volgende afbeeldingen wordt weergegeven:
-
-[![Configuratie in indeling BACS (UK)](./media/ER-overview-14.png)](./media/ER-overview-14.png)
-
-[![Verwijzen naar de indeling BACS (UK) in een betalingsmethode](./media/ER-overview-15.png)](./media/ER-overview-15.png)
+De toepassing kan worden geconfigureerd voor gebruik van een gemaakte indeling voor het genereren van elektronische rapporten. De verwijzing naar de gemaakte indelingsconfiguratie moet worden gedefinieerd in de instellingen van een specifiek domein. Als u bijvoorbeeld een configuratie in ER-indeling wilt gaan gebruiken voor elektronische betalingen aan leveranciers in BACS-indeling, moet naar de indelingsconfiguratie worden verwezen in specifieke betalingsmethoden.
 
 Speel de taakbegeleiding **ER Gebruik indeling om nieuwe elektronische documenten voor betalingen te genereren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)**) om bekend te raken met de details van dit scenario.
 

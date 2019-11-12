@@ -3,7 +3,7 @@ title: Inkoop
 description: In dit onderwerp wordt de inkoop in Activabeheer uitgelegd.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,85 +16,87 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1678dbe2432e4be46aebb40a12e73dfd695c3e77
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: ec14f645af5dfdb3e840624e4cec95c46cfbbc25
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875586"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626426"
 ---
 # <a name="procurement"></a>Inkoop
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+In Activabeheer kunt u een overzicht bekijken van opdrachten tot inkoop en inkooporders die betrekking hebben op werkorders. U kunt ook vanuit een werkorder een inkooporder of opdracht tot inkoop maken.
 
-In Activabeheer kunt u een overzicht bekijken van opdrachten tot inkoop en inkooporders met betrekking tot werkorders. Het is ook mogelijk om vanuit een werkorder een inkooporder of opdracht tot inkoop te maken.
+De lijstpagina **Opdracht tot inkoop voor werkorder** (**Activabeheer** > **Algemeen** > **Inkoop** > **Opdracht tot inkoop voor werkorder**) toont een lijst van opdrachten tot inkoop die betrekking hebben op werkorders. Wanneer u op deze pagina een werkordertaak selecteert, kunt u de knoppen in de groep **Tonen** van het tabblad **Opdracht tot inkoop voor werkorder** van het actievenster gebruiken om diverse acties uit te voeren:
 
-In de lijst **Opdracht tot inkoop voor werkorder** (**Activabeheer** > **Algemeen** > **Inkoop** > **Opdracht tot inkoop voor werkorder**) ziet u een lijst van opdrachten tot inkoop die betrekking hebben op werkorders.
+- Selecteer **Opdracht tot inkoop** om de gerelateerde opdracht tot inkoop te openen. 
+- Selecteer **Werkorder** om de gerelateerde werkorder te openen.
+- Voor een overzicht van waar het artikel op de geselecteerde regel wordt gebruikt in relatie tot activa, standaardwaarden voor taaktypen, reserveonderdelen en werkorders in Activabeheer, selecteert u **Artikel waar gebruikt**. Zie [Artikel waar gebruikt](../controlling-and-reporting/item-where-used.md) voor meer informatie over dit overzicht.
 
-- Selecteer een werkordertaak in de lijst **Opdracht tot inkoop voor werkorder** en klik op de knop **Opdracht tot inkoop** om de betreffende opdracht tot inkoop te openen.  
-- Selecteer een werkordertaak in de lijst **Opdracht tot inkoop voor werkorder** en klik op de knop **Werkorder** om de betreffende werkorder te openen.  
-- Selecteer een werkordertaak in de lijst **Opdracht tot inkoop voor werkorder** en klik op de knop **Artikel waar gebruikt** voor een overzicht van waar het artikel op de geselecteerde regel in Activabeheer wordt gebruikt in relatie tot activa, standaardwaarden voor onderhoudstaaktypen, reserveonderdelen en werkorders. 
+In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Opdracht tot inkoop voor werkorder**.
 
 ![Figuur 1](media/08-work-orders.png)
 
 
-In de lijst **Opdracht tot inkoop voor werkorder** (**Activabeheer voor bedrijven** > **Algemeen** > **Inkoop** > **Opdracht tot inkoop voor werkorder**) ziet u een lijst van inkooporders die betrekking hebben op werkorders.
+De lijstpagina **Inkoop werkorder** (**Activabeheer** > **Algemeen** > **Inkoop** > **Inkoop werkorder**) toont een lijst van inkooporders die betrekking hebben op werkorders. Wanneer u op deze pagina een werkordertaak selecteert, kunt u de knoppen in de groep **Tonen** van het tabblad **Inkoop werkorder** van het actievenster gebruiken om diverse acties uit te voeren:
 
-- Selecteer een werkordertaak in de lijst **Opdracht tot inkoop voor werkorder** en klik op de knop **Inkooporder** om de betreffende inkooporder te openen.  
-- Selecteer een werkordertaak in de lijst **Inkoop werkorder** en klik op de knop **Werkorder** om de betreffende werkorder te openen.  
-- Selecteer een werkordertaak in de lijst **Inkoop werkorder** en klik op de knop **Artikel waar gebruikt** voor een overzicht van waar het artikel op de geselecteerde regel in Activabeheer wordt gebruikt in relatie tot activa, standaardwaarden voor onderhoudstaaktypen, reserveonderdelen en werkorders. 
+- Selecteer **Inkooporder** om de gerelateerde inkooporder te openen. 
+- Selecteer **Werkorder** om de gerelateerde werkorder te openen.
+- Voor een overzicht van waar het artikel op de geselecteerde regel wordt gebruikt in relatie tot activa, standaardwaarden voor taaktypen, reserveonderdelen en werkorders in Activabeheer, selecteert u **Artikel waar gebruikt**. Zie [Artikel waar gebruikt](../controlling-and-reporting/item-where-used.md) voor meer informatie over dit overzicht.
+
+In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Inkoop werkorder**.
 
 ![Figuur 2](media/09-work-orders.png)
 
 
-In de lijsten hierboven ziet u rechts op elke regel een pictogram met betrekking tot de leveringsdatum. Als het pictogram een uitroepteken in een rode cirkel bevat, betekent dit dat de levering voor de betreffende opdracht tot inkoop of inkooporder mogelijk is vertraagd.
+Op de lijstpagina **Inkoop werkorder** en de lijstpagina **Opdracht tot inkoop voor werkorder** wordt er rechts van elke regel een symbool weergegeven dat is gerelateerd aan de controle van de leveringsdatum. Als het pictogram een uitroepteken in een rode cirkel is, betekent dit dat de levering van de betreffende inkooporder of opdracht tot inkoop mogelijk is vertraagd.
 
-Op een opdracht tot inkoop vindt u de datum die wordt gebruikt om een mogelijke vertraging te berekenen in het formulier **Opdrachten tot inkoop** > sneltabblad **Koptekst van opdracht tot inkoop**> veld **Gevraagde datum**. Deze datum wordt op dezelfde manier vergeleken met de beschikbare datum op de werkorder of werkordertaak als de datum van de inkooporder.
+Voor een inkooporder heeft de datum betrekking op de inkooporderregel die is gebruikt om een mogelijke vertraging te berekenen. Als u deze datum wilt bekijken, selecteert u de inkooporderregel op de pagina **Inkooporder**. De datum wordt weergegeven in het veld **Bevestigde leveringsdatum** van het tabblad **Instellingen** van het sneltabblad **Regeldetails**. Als het veld **Bevestigde leveringsdatum** niet is ingesteld, wordt de datum in het veld **Leveringsdatum** van het sneltabblad **Inkooporderkoptekst** voor de berekening gebruikt. Een van deze datums wordt in de volgende volgorde vergeleken met de beschikbare datum op de werkorder of werkordertaak:
 
-De datum op een inkooporder die wordt gebruikt om een mogelijke vertraging te berekenen, is de datum die is gekoppeld aan de inkooporderregel. Deze wordt weergegeven in het formulier **Inkooporder** > selecteer inkooporderregel > sneltabblad **Regeldetails** > tabblad **Instellingen** > **Bevestigde leveringsdatum**. Als dat veld niet is ingevuld, wordt de datum in het veld **Leveringsdatum** op het sneltabblad **Inkooporderkoptekst** gebruikt. Een van deze datums wordt in de volgende volgorde vergeleken met de beschikbare datum op de werkorder of werkordertaak:
+1. Werkelijke begindatum op de werkorder  
 
-- Werkelijke begindatum op de werkorder of  
+2. Geplande begindatum op de betreffende werkordertaak 
 
-- Geplande begindatum op de betreffende werkordertaak of  
+3. Geplande begindatum op de werkorder 
 
-- Geplande begindatum op de werkorder of  
+4. Verwachte begindatum op de werkorder 
 
-- Verwachte begindatum op de werkorder  
+Voor een opdracht tot inkoop wordt de datum in het veld **Gevraagde datum** op het sneltabblad **Inkooporderkoptekst** van de pagina **Opdrachten tot inkoop** gebruikt om een mogelijke vertraging te berekenen. De datum in dat veld wordt in dezelfde volgorde met de beschikbare datum op de werkorder of werkordertaak vergeleken als bij een inkooporder.
 
 
-## <a name="create-purchase-order-from-a-work-order"></a>Een inkooporder maken op basis van een werkorder
+## <a name="create-a-purchase-order-from-a-work-order"></a>Een inkooporder maken op basis van een werkorder
 
-Selecteer in **Alle werkorders** een werkordertaak en maak een bijbehorende inkooporder of opdracht tot inkoop. U zorgt er zo voor dat projectrelaties tussen de inkooporder of de opdracht tot inkoop en de werkorder behouden blijven.
+Op de lijstpagina **Alle werkorders** kunt u een werkordertaak selecteren en vervolgens een bijbehorende inkooporder of opdracht tot inkoop maken. Op die manier kunt projectrelaties tussen de inkooporder of de opdracht tot inkoop en de werkorder bewerkstelligen.
 
-1. Klik op **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
+1. Selecteer **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
 
-2. Selecteer in de lijst **Alle werkorders** of **Actieve werkorders** de werkorder waarvoor u een inkooporder wilt maken. Klik vervolgens op **Bewerken**.
+2. Selecteer de werkorder waarvoor u een inkooporder wilt maken en selecteer **Bewerken**.
 
-3. Selecteer in het formulier **Werkorder** > tabblad **Onderhoudstaken voor werkorders** de werkordertaak waarvoor u de inkooporder wilt maken.
+3. Selecteer op het sneltabblad **Onderhoudstaken voor werkorders** de werkordertaak waarvoor u de inkooporder wilt maken.
 
-4. Klik op **Artikeltaken** > **Inkooporder van werkordertaak**.
+4. Selecteer **Artikeltaken** > **Inkooporder van werkordertaak**.
 
 5. Klik op de lijstpagina **Projectinkooporders** op **Nieuw**.
 
 6. Maak de inkooporder.
 
 >[!NOTE]
->Het maken van een opdracht tot inkoop is bijna gelijk aan het maken van een inkooporder. Het enige verschil is dat u in de bovenstaande procedure in stap 2 op **Artikeltaken** > **Opdracht tot inkoop van werkordertaak** klikt.
+>Voer dezelfde stappen uit om een bijbehorende opdracht tot inkoop te maken. Selecteer in stap 4 echter **Artikeltaken** > **Opdracht tot inkoop van werkorder**.
+
 
 ## <a name="project-relation-between-work-order-and-purchase-order-or-purchase-requisition"></a>Projectrelatie tussen werkorder en inkooporder of opdracht tot inkoop
 
-Een inkooporderregel of regel in een opdracht tot inkoop is gerelateerd aan een werkordertaak via het werkorderproject en het gerelateerde nummer van de projectactiviteit. Wanneer u een inkooporder of opdracht tot inkoop maakt vanuit een werkordertaak, is het bijbehorende nummer van de projectactiviteit verplicht. Het nummer van de projectactiviteit wordt automatisch ingevoegd op een inkooporder of opdracht tot inkoop als de bijbehorende werkorder werkordertaken bevat die allemaal hetzelfde type onderhoudstaak gebruiken. Als de werkordertaken verschillende onderhoudstaaktypen bevatten, moet u het nummer van de projectactiviteit handmatig invoegen.
+Een inkooporderregel of regel in een opdracht tot inkoop is gerelateerd aan een werkordertaak via het werkorderproject en het gerelateerde nummer van de projectactiviteit. Wanneer u een inkooporder of opdracht tot inkoop maakt vanuit een werkordertaak, is het bijbehorende nummer van de projectactiviteit verplicht. Als alle werkordertaken in de betreffende werkorder hetzelfde type onderhoudstaak hebben, wordt het nummer van de projectactiviteit automatisch ingevoegd op de inkooporder of opdracht tot inkoop. Als de werkordertaken verschillende typen onderhoudstaken hebben, moet u het nummer van de projectactiviteit handmatig op de inkooporder of opdracht tot inkoop invoeren.
 
-Als u het activiteitsnummer met betrekking tot een inkooporderregel wilt bekijken of invoegen, opent u **Inkoop werkorder** > selecteert u de inkooporderrecord > klikt u op de inkooporder in de kolom **Inkooporder** > sneltabblad **Regeldetails** > tabblad **Project** > veld **Activiteitsnummer**.
+Als u het activiteitsnummer wilt bekijken of invoeren dat aan een inkooporderregel is gekoppeld, selecteert u de inkooporderrecord op de lijstpagina **Inkoop werkorder** en selecteert u vervolgens in de kolom **Inkooporder** de koppeling voor de inkooporder. U vindt het veld **Activiteitsnummer** op het tabblad **Project** van het sneltabblad **Regeldetails**.
 
+In onderstaande afbeelding ziet u een voorbeeld van de pagina **Inkooporder** met de focus op het **Activiteitsnummer**.
 
 ![Figuur 3](media/10-work-orders.png)
 
-
-En als u het activiteitsnummer met betrekking tot een regel in de opdracht tot inkoop voor werkorder wilt bekijken of invoegen, opent u **Opdracht tot inkoop voor werkorder** > selecteert u de record van de opdracht tot inkoop > klikt u op de opdracht tot inkoop in de kolom **Opdracht tot inkoop** > sneltabblad **Regeldetails** > tabblad **Project** > veld **Activiteitsnummer**.
+En als u het activiteitsnummer wilt bekijken of invoeren dat aan een regel voor een opdracht tot inkoop voor werkorder is gekoppeld, selecteert u de record van de opdracht tot inkoop op de lijstpagina **Opdracht tot inkoop voor werkorder** en selecteert u in de kolom **Opdracht tot inkoop** de koppeling voor de opdracht tot inkoop. U vindt het veld **Activiteitsnummer** op het tabblad **Project** van het sneltabblad **Regeldetails**.
 

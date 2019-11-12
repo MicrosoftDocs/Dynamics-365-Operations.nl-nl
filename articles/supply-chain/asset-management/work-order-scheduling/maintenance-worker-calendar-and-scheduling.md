@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f86f6475e5226443f5e4d43fb91acafe2afdbb9
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: aa2d50a976af7ee7dde5335f94336b995fdc2d11
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887383"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652052"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Kalender en planning van onderhoudsmedewerkers
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Wanneer u werkorders plant, maakt u een planning voor onderhoudsmedewerkers, hulpmiddelen en activa. Om de planning voor onderhoudsmedewerkers uit te voeren, moet u voor elke onderhoudsmedewerker een kalender instellen. Onderhoudsmedewerkers zijn gerelateerd aan een resource en er worden werktijdkalenders ingesteld voor resources. U kunt de resource en kalender gerelateerd aan een medewerker instellen in **Activabeheer** > **Instellingen** > **Medewerkers** > **Medewerkers**. Dit wordt beschreven in [Onderhoudsmedewerkers en medewerkersgroepen](../setup-for-objects/workers-and-worker-groups.md).
+Wanneer u werkorders plant, maakt u een planning voor onderhoudsmedewerkers, hulpmiddelen en activa. Om onderhoudsmedewerkers in te plannen, moet u voor elke onderhoudsmedewerker een kalender instellen. Onderhoudsmedewerkers zijn gerelateerd aan een resource en er worden werktijdkalenders ingesteld voor resources. U kunt de resource en kalender instellen in **Activabeheer** > **Instellingen** > **Medewerkers** > **Medewerkers**. Dit wordt beschreven in [Onderhoudsmedewerkers en medewerkersgroepen](../setup-for-objects/workers-and-worker-groups.md).
 
 In de volgende schermafbeelding ziet u een voorbeeld van een onderhoudsmedewerker die is gerelateerd aan een resource die de werktijdkalender Productie gebruikt.
 

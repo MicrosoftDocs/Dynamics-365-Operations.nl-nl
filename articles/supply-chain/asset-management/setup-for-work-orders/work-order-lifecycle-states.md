@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 69d06ff649f4453df22d55062b43bcc8d4ecd763
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: f531f51d7f42f88e4da2d046e61313e9ada2b259
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874711"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569795"
 ---
 # <a name="work-order-lifecycle-states"></a>Levenscyclusstatussen van werkorders
 
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Levenscyclusstatussen van werkorders bepalen de statussen die een werkorder kan doorlopen. Voorbeelden zijn **Gemaakt**, **Gepland**, **In uitvoering** en **Beëindigd**. Levenscyclusstatussen van werkorders kunnen handmatig worden bijgewerkt op een werkorder of automatisch worden bijgewerkt (bijvoorbeeld tijdens het plannen van de werkorder).
 
@@ -38,7 +38,7 @@ De levenscyclusstatussen van werkorders die nodig zijn voor uw werkorders moeten
 
 In de volgende tabel worden de opties in de secties **Werkorder** en **Planning** op het Sneltabblad **Algemeen** van de pagina **Levenscyclusstatus van werkorder** (**Activabeheer** \> **Instellen** \> **Werkorders** \> **Levenscyclusstatussen**).
 
-![Figuur 1](media/09-setup-for-work-orders.png)
+![Pagina Levenscyclusstatus van werkorder](media/09-setup-for-work-orders.png)
 
 | Optienaam                   | Beschrijving |
 |-------------------------------|-------------|
@@ -85,7 +85,7 @@ In de volgende tabel worden de opties in de secties **Werkorder** en **Planning*
     > [!NOTE]
     > Als u het planningsregels wilt zien die aan werkordertaken zijn gekoppeld, selecteert u **Activiteitenbeheer** \> **Algemene** \> **Werkorders** \> **Alle werkorders**, **Actieve werkorders** of **Mijn actieve werkorders**. Open de werkorder, selecteer de werkordertaak op het Sneltabblad **Werkordertaken** en bekijk gerelateerde informatie over het Sneltabblad **Regeldetails**. In het veld **Status** op het tabblad **Planning** wordt de status van de werkordertaak weergegeven. Het veld **Status** kan op de volgende waarden worden ingesteld: **Gepland**, **Gereed**, **Gestart**, **Gestopt**en **Beëindigd**.
 
-13. Selecteer in de sectie **Onderhoudsaanvragen** in het vel **Levenscyclusstatus** de levenscyclusstatus van de onderhoudsaanvraag waarnaar gerelateerde onderhoudsaanvragen moeten worden bijgewerkt. Deze update wordt automatisch uitgevoerd. U kunt dit alleen doen als de status van de levenscyclusstatus van de onderhoudsaanvraag is geselecteerd in het model voor de levenscyclusstatus van de onderhoudsaanvraag dat wordt gebruikt voor de onderhoudsaanvraag.
+13. Selecteer in de sectie **Onderhoudsverzoeken** in het veld **Levenscyclusstatus** de levenscyclusstatus van het onderhoudsverzoek waarnaar gerelateerde onderhoudsverzoeken moeten worden bijgewerkt. Deze update wordt automatisch uitgevoerd. U kunt dit alleen doen als de status van de levenscyclusstatus van het onderhoudsverzoek is geselecteerd in het model voor de levenscyclusstatus van het onderhoudsverzoek dat wordt gebruikt voor het onderhoudsverzoek.
 14. Stel in sectie **Activa** de optie **Activumstuklijst bijwerken** in op **Ja** als alle artikelen die op een werkorder worden gebruikt, automatisch moeten worden bijgewerkt op de pagina **Activumstuklijst** wanneer de werkorder wordt bijgewerkt met deze levenscyclusstatus. Deze instelling kan relevant zijn als bijvoorbeeld de levenscyclusstatus van de werkorder de werkorder als voltooid of beëindigd definieert.
 15. In de sectie **Werkordergroep** stelt u de optie **Groepsverwijzing verwijderen** in op **Ja** als werkorders die zich in deze levenscyclusstatus bevinden, automatisch moeten worden verwijderd uit de werkordergroepen.
 16. Selecteer in het Sneltabblad **Valideren** de validatietypen die in deze levenscyclusstatus moeten worden geactiveerd door de relevante opties op **Ja**in te stellen. Selecteer vervolgens in het veld **Type** voor elk validatietype dat u selecteert, het type bericht dat moet worden weer gegeven als verplichte velden, die zijn gerelateerd aan het validatietype, niet zijn gevalideerd. Als u **Fout**selecteert, wordt de status van de levenscyclusstatus van de werkorder geannuleerd totdat de gerelateerde verplichte velden op de werkorder zijn bijgewerkt.
@@ -96,7 +96,7 @@ In de volgende tabel worden de opties in de secties **Werkorder** en **Planning*
     - Als de optie **Onderhoudsuitval** is ingesteld op **Ja** voor de levenscyclusstatus waaraan een werkorder wordt bijgewerkt, wordt de tijdige validatie van de uitvaltijd uitgevoerd op het activum dat aan de werkorder is gekoppeld. Als er een tijdregistratie voor onderhoud is uitgevoerd maar er is geen registratie **Beëindigd**, wordt een bericht weergegeven wanneer de werkorder wordt bijgewerkt tot deze levenscyclusstatus.
     - Als de standaard projectinstellingen niet alle fasen bevatten die u nodig hebt voor de instellingen van het Activabeheer, kunt u door de gebruiker gedefinieerde projectfasen instellen in het tabblad **Projectfase** van de pagina **Projectmanagement- en boekhoudparameters**. In de volgende afbeelding ziet u het tabblad **Projectfase** op de pagina **Projectmanagement- en boekhoudparameters**.
 
-    ![Figuur 2](media/10-setup-for-work-orders.png)
+    ![Pagina Projectfasen instellen voor diverse projecttypen](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Als de levenscyclusstatus waarvoor u een werkorder bijwerkt inactief is, worden journalen die aan de werkorder zijn gekoppeld, maar die nog niet zijn geboekt, automatisch verwijderd. Hierdoor kunnen ongebruikte gegevens automatisch worden opgeruimd. (Een levenscyclusstatus is niet actief als de optie **Actief** voor deze optie is ingesteld op **Nee** in het Sneltabblad **Algemeen** van de pagina **Levenscyclusstatus van werkorders**.)
@@ -110,11 +110,11 @@ Levenscyclusmodellen verwijzen naar workflows en levenscyclusstatussen worden in
 De reden voor het gebruik van typen is dat wanneer een type wordt gedefinieerd voor bijvoorbeeld een werkorder of een activum, de gerelateerde werkprocessen (levenscyclusstatussen) automatisch worden gedefinieerd. Zie [Werkordertypes](../setup-for-work-orders/work-order-types.md) voor meer informatie over het instellen van werkordertypes.
 
 > [!NOTE]
-> De levenscyclusstatussen, levenscyclusmodellen en types zijn ook van toepassing op functionele locaties, activa en onderhoudsaanvragen, naast werkorders.
+> De levenscyclusstatussen, levenscyclusmodellen en types zijn ook van toepassing op functionele locaties, activa en onderhoudsverzoeken, naast werkorders.
 
 In de volgende afbeelding ziet u de relatie tussen werkordertypen, levenscyclusmodellen en levenscyclusstatussen.
 
-![Figuur 3](media/11-setup-for-work-orders.png)
+![Pagina Werkordertype vergeleken met pagina Levenscyclusmodellen van werkorder](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Levenscyclusmodellen van werkorder
 
@@ -138,4 +138,4 @@ Nadat u de levenscyclusstatussen voor werkorders hebt gemaakt die vereist zijn v
 8. Selecteer in het veld **Niet-geplande levenscyclusstatus** de levenscyclusstatus die altijd moet worden geselecteerd voor een werkorder als de werkorderplanning wordt verwijderd.
 9. Sla het levenscyclusmodel voor de werkorder op.
 
-![Figuur 4](media/15-setup-for-work-orders.png)
+![Pagina Levenscyclusmodellen van werkorder](media/15-setup-for-work-orders.png)

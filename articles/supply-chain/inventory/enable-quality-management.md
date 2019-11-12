@@ -3,7 +3,7 @@ title: Overzicht kwaliteitsbeheer
 description: In dit onderwerp wordt beschreven hoe u kwaliteitsbeheer in Dynamics 365 Supply Chain Management kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba38f9c43fed81768155a27dda88a4bfb4a7828e
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249570"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653551"
 ---
 # <a name="quality-management-overview"></a>Overzicht kwaliteitsbeheer
 
@@ -32,7 +32,7 @@ ms.locfileid: "2249570"
 
 In dit onderwerp wordt beschreven hoe u kwaliteitsbeheer in Dynamics 365 Supply Chain Management kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
 
-Kwaliteitsbeheer kan u helpen keerpunttijden te beheren wanneer u te maken hebt met niet-overeenkomende producten, ongeacht hun punt van oorsprong. Omdat typen diagnoses aan correctierapportage zijn gekoppeld, kan Finance and Operations taken plannen om problemen te corrigeren en te voorkomen dat deze worden herhaald.
+Kwaliteitsbeheer kan u helpen keerpunttijden te beheren wanneer u te maken hebt met niet-overeenkomende producten, ongeacht hun punt van oorsprong. Omdat typen diagnoses aan correctierapportage zijn gekoppeld, kan Supply Chain Management taken plannen om problemen te corrigeren en te voorkomen dat deze worden herhaald.
 
 Naast functionaliteit voor het beheer van non-conformiteit omvat het kwaliteitsbeheer functionaliteit voor het bijhouden van problemen op probleemtype (ook interne problemen) en om oplossingen als kortetermijn- of langetermijnoplossingen te identificeren. De statistieken over Key Performance Indicators (KPI´s) bieden inzicht in de geschiedenis van eerdere niet-conformeringsproblemen en de oplossingen die zijn gebruikt om ze te corrigeren. U kunt de historische gegevens gebruiken om de efficiëntie van eerdere kwaliteitsmetingen te controleren en passende stappen voor de toekomst te definiëren.
 
@@ -290,6 +290,256 @@ De volgende tabel bevat meer informatie over de manier waarop kwaliteitsorders k
 <td></td>
 <td></td>
 <td>Er dient handmatig een kwaliteitsorder te worden gemaakt voor de voorraadhoeveelheid van een artikel. Fysieke voorhanden voorraad is vereist.</td>
+</tr>
+</tbody>
+</table>
+
+## <a name="quality-order-auto-generation-examples"></a>Voorbeelden van het automatisch genereren van kwaliteitsorders
+
+### <a name="purchasing"></a>Inkoop
+
+Als u in de inkoop het veld **Gebeurtenistype** instelt op **Productontvangstbon** en het veld **Uitvoering** op **Na** op de pagina **Kwaliteitskoppelingen**, krijgt u de volgende resultaten: 
+
+- Als de optie **Per bijgewerkte hoeveelheid** is ingesteld op **Ja**, wordt voor elke ontvangst een kwaliteitsorder gegenereerd voor de inkooporder, op basis van de ontvangen hoeveelheid en instellingen in de artikelbemonstering. Telkens wanneer een hoeveelheid wordt ontvangen op basis van de inkooporder, worden nieuwe kwaliteitsorders gegenereerd op basis van de nieuw ontvangen hoeveelheid.
+- Als de optie **Per bijgewerkte hoeveelheid** is ingesteld op **Nee**, wordt voor de eerste ontvangst een kwaliteitsorder gegenereerd voor de inkooporder, op basis van de ontvangen hoeveelheid. Daarnaast worden een of meer kwaliteitsorders gemaakt op basis van de resterende hoeveelheid, afhankelijk van de traceringsdimensies. Er worden geen kwaliteitsorders gegenereerd voor volgende ontvangsten op de inkooporder.
+
+<table>
+<tbody>
+<tr>
+<th>Specificatie van kwaliteit</th>
+<th>Per bijgewerkte hoeveelheid</th>
+<th>Per traceringsdimensie</th>
+<th>Resultaat</th>
+</tr>
+<tr>
+<td>Percentage: 10%</td>
+<td>Ja</td>
+<td>
+<p>Batchnummer: Nee</p>
+<p>Serienummer: Nee</p>
+</td>
+<td>
+<p>Orderhoeveelheid: 100</p>
+<ol>
+<li>Gereedmelden voor 30
+<ul>
+<li>Kwaliteitsorder nr. 1 voor 3 (10% van 30)</li>
+</ul>
+</li>
+<li>Gereedmelden voor 70
+<ul>
+<li>Kwaliteitsorder nr. 2 voor 7 (10% van de resterende orderhoeveelheid, die gelijk is aan 70 in dit geval)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Vaste hoeveelheid: 1</td>
+<td>Nee</td>
+<td>
+<p>Batchnummer: Nee</p>
+<p>Serienummer: Nee</p>
+</td>
+<td>Orderhoeveelheid: 100
+<ol>
+<li>Gereedmelden voor 30
+<ul>
+<li>Kwaliteitsorder nr. 1 wordt gemaakt voor 1 (voor de eerste gereedgemelde hoeveelheid, met de vaste waarde 1).</li>
+<li>Er worden geen kwaliteitsorders meer gemaakt voor de resterende hoeveelheid.</li>
+</ul>
+</li>
+<li>Gereedmelden voor 10
+<ul>
+<li>Er worden geen kwaliteitsorders gemaakt.</li>
+</ul>
+</li>
+<li>Gereedmelden voor 60
+<ul>
+<li>Er worden geen kwaliteitsorders gemaakt.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Vaste hoeveelheid: 1</td>
+<td>Ja</td>
+<td>
+<p>Batchnummer: Ja</p>
+<p>Serienummer: Ja</p>
+</td>
+<td>
+<p>Orderhoeveelheid: 10</p>
+<ol>
+<li>Gereedmelden voor 3
+<ul>
+<li>Kwaliteitsorder nr. 1 voor 1 van batchnr. b1, serienr. s1</li>
+<li>Kwaliteitsorder nr. 2 voor 1 van batchnr. b2, serienr. s2</li>
+<li>Kwaliteitsorder nr. 3 voor 1 van batchnr. b3, serienr. s3</li>
+</ul>
+</li>
+<li>Gereedmelden voor 2
+<ul>
+<li>Kwaliteitsorder nr. 4 voor 1 van batchnr. b4, serienr. s4</li>
+<li>Kwaliteitsorder nr. 5 voor 1 van batchnr. b5, serienr. s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Opmerking:</strong> de batch kan opnieuw worden gebruikt.</p>
+</td>
+</tr>
+<tr>
+<td>Vaste hoeveelheid: 2</td>
+<td>Nee</td>
+<td>
+<p>Batchnummer: Ja</p>
+<p>Serienummer: Ja</p>
+</td>
+<td>
+<p>Orderhoeveelheid: 10</p>
+<ol>
+<li>Gereedmelden voor 4
+<ul>
+<li>Kwaliteitsorder nr. 1 voor 1 van batchnr. b1, serienr. s1.</li>
+<li>Kwaliteitsorder nr. 2 voor 1 van batchnr. b2, serienr. s2.</li>
+<li>Kwaliteitsorder nr. 3 voor 1 van batchnr. b3, serienr. s3.</li>
+<li>Kwaliteitsorder nr. 4 voor 1 van batchnr. b4, serienr. s4.</li>
+<li>Er worden geen kwaliteitsorders meer gemaakt voor de resterende hoeveelheid.</li>
+</ul>
+</li>
+<li>Gereedmelden voor 6
+<ul>
+<li>Er worden geen kwaliteitsorders gemaakt.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="production"></a>Productie
+
+Als u in de productie het veld **Gebeurtenistype** instelt op **Rapporteren als gereed** en het veld **Uitvoering** op **Na** op de pagina **Kwaliteitskoppelingen**, krijgt u de volgende resultaten:
+
+- Als de optie **Per bijgewerkte hoeveelheid** is ingesteld op **Ja**, wordt een kwaliteitsorder gegenereerd op basis van elke gereedgemelde hoeveelheid en instellingen in de artikelbemonstering. Telkens wanneer een hoeveelheid wordt gereedgemeld op basis van de productieorder, worden nieuwe kwaliteitsorders gegenereerd op basis van de nieuw gereedgemelde hoeveelheid. Deze generatielogica is consistent met inkoop.
+- Als de optie **Per bijgewerkte hoeveelheid** is ingesteld op **Nee**, wordt voor de eerste gereedgemelde hoeveelheid een kwaliteitsorder gegenereerd op basis van de gereedgemelde hoeveelheid. Daarnaast worden een of meer kwaliteitsorders gemaakt op basis van de resterende hoeveelheid, afhankelijk van de traceringsdimensies van de artikelbemonstering. Er worden geen kwaliteitsorders gegenereerd voor daaropvolgende gereedgemelde hoeveelheden.
+
+<table>
+<tbody>
+<tr>
+<th>Specificatie van kwaliteit</th>
+<th>Per bijgewerkte hoeveelheid</th>
+<th>Per traceringsdimensie</th>
+<th>Resultaat</th>
+</tr>
+<tr>
+<td>Percentage: 10%</td>
+<td>Ja</td>
+<td>
+<p>Batchnummer: Nee</p>
+<p>Serienummer: Nee</p>
+</td>
+<td>
+<p>Orderhoeveelheid: 100</p>
+<ol>
+<li>Gereedmelden voor 30
+<ul>
+<li>Kwaliteitsorder nr. 1 voor 3 (10% van 30)</li>
+</ul>
+</li>
+<li>Gereedmelden voor 70
+<ul>
+<li>Kwaliteitsorder nr. 2 voor 7 (10% van de resterende orderhoeveelheid, die gelijk is aan 70 in dit geval)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Vaste hoeveelheid: 1</td>
+<td>Nee</td>
+<td>
+<p>Batchnummer: Nee</p>
+<p>Serienummer: Nee</p>
+</td>
+<td>Orderhoeveelheid: 100
+<ol>
+<li>Gereedmelden voor 30
+<ul>
+<li>Kwaliteitsorder nr. 1 voor 1 (voor de eerste gereedgemelde hoeveelheid, met de vaste waarde 1)</li>
+<li>Kwaliteitsorder nr. 2 voor 1 (voor de resterende hoeveelheid, die nog steeds de vaste waarde 1 heeft)</li>
+</ul>
+</li>
+<li>Gereedmelden voor 10
+<ul>
+<li>Er worden geen kwaliteitsorders gemaakt.</li>
+</ul>
+</li>
+<li>Gereedmelden voor 60
+<ul>
+<li>Er worden geen kwaliteitsorders gemaakt.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Vaste hoeveelheid: 1</td>
+<td>Ja</td>
+<td>
+<p>Batchnummer: Ja</p>
+<p>Serienummer: Ja</p>
+</td>
+<td>
+<p>Orderhoeveelheid: 10</p>
+<ol>
+<li>Gereedmelden voor 3: 1 voor nr. b1 nr. s1, 1 voor nr. b2 nr. s2 en 1 voor nr. b3 nr. s3
+<ul>
+<li>Kwaliteitsorder nr. 1 voor 1 van batchnr. b1, serienr. s1</li>
+<li>Kwaliteitsorder nr. 2 voor 1 van batchnr. b2, serienr. s2</li>
+<li>Kwaliteitsorder nr. 3 voor 1 van batchnr. b3, serienr. s3</li>
+</ul>
+</li>
+<li>Gereedmelden voor 2: 1 voor nr. b4 nr. s4 en 1 voor nr. b5 nr. s5
+<ul>
+<li>Kwaliteitsorder nr. 4 voor 1 van batchnr. b4, serienr. s4</li>
+<li>Kwaliteitsorder nr. 5 voor 1 van batchnr. b5, serienr. s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Opmerking:</strong> de batch kan opnieuw worden gebruikt.</p>
+</td>
+</tr>
+<tr>
+<td>Vaste hoeveelheid: 2</td>
+<td>Nee</td>
+<td>
+<p>Batchnummer: Ja</p>
+<p>Serienummer: Ja</p>
+</td>
+<td>
+<p>Orderhoeveelheid: 10</p>
+<ol>
+<li>Gereedmelden voor 4: 1 voor nr. b1 nr. s1, 1 voor nr. b2 nr. s2, 1 voor nr. b3 nr. s3 en 1 voor nr. b4, nr. s4
+<ul>
+<li>Kwaliteitsorder nr. 1 voor 1 van batchnr. b1, serienr. s1</li>
+<li>Kwaliteitsorder nr. 2 voor 1 van batchnr. b2, serienr. s2</li>
+<li>Kwaliteitsorder nr. 3 voor 1 van batchnr. b3, serienr. s3</li>
+<li>Kwaliteitsorder nr. 4 voor 1 van batchnr. b4, serienr. s4</li>
+</ul>
+<ul>
+<li>Kwaliteitsorder nr. 5 voor 2 zonder verwijzing naar een batch- en serienummer</li>
+</ul>
+</li>
+<li>Gereedmelden voor 6: 1 voor nr. b5 nr. s5, 1 voor nr. b6 nr. s6, 1 voor nr. b7 nr. s7, 1 voor nr. b8 nr. s8, 1 voor nr. b9 nr. s9; en 1 voor nr. b10 nr. s10
+<ul>
+<li>Er worden geen kwaliteitsorders gemaakt.</li>
+</ul>
+</li>
+</ol>
+</td>
 </tr>
 </tbody>
 </table>

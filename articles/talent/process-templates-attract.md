@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 694835d20e3401aaeb22aa19082a2cd0e3a0163a
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010701"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622713"
 ---
-# <a name="create-a-process-template"></a>Een processjabloon maken
+# <a name="create-a-process-template-in-attract"></a>Een processjabloon maken in Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -43,7 +43,7 @@ Alleen beheerders kunnen de standaardsjabloon instellen. De standaardsjabloon wo
 
 ## <a name="create-a-process-template"></a>Een processjabloon maken
 
-Beheerders, wervers en aanstellend managers kunnen processjablonen maken. Een processjabloon bestaat uit *fasen* en *activiteiten*. Fasen groeperen een of meer activiteiten. Standaard heeft elke processjabloon Prospect-, Sollicitatie- en Aanbiedingsactiviteiten. De fasen die deze activiteiten bevatten, kunnen worden hernoemd. U kunt meer fasen toevoegen door **+ Nieuwe fase** te selecteren. U kunt activiteiten aan een fase toevoegen door ze te slepen naar de juiste fase of door erop te dubbelklikken in de activiteitenlijst.
+Beheerders, wervers en aanstellend managers kunnen processjablonen maken. Een processjabloon bestaat uit *fasen* en *activiteiten*. Fasen groeperen een of meer activiteiten. Standaard heeft elke processjabloon Prospect-, Sollicitatie- en Aanbiedingsactiviteiten. De fasen die deze activiteiten bevatten, kunnen worden hernoemd. U kunt meer fasen toevoegen door **+ Nieuwe fase** te selecteren. U kunt activiteiten aan een fase toevoegen door ze naar de juiste fase te slepen of door erop te dubbelklikken in de activiteitenlijst.
 
 > [!NOTE]
 > Fasenamen zijn zichtbaar voor kandidaten op de pagina **Sollicitatiestatus**. U moet dit feit overwegen wanneer u namen voor fasen kiest.

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5f1860907e3cc3c4830cc385771d5924c609ea6
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 0734416eccf149330b390cce897d2c254f6c698b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847523"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571617"
 ---
 # <a name="maintenance-request-reports"></a>Rapporten over onderhoudsaanvragen
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In Activabeheer kunt u twee rapporten genereren die zijn gerelateerd aan onderhoudsverzoeken. Eén rapport bevat details en het andere rapport bevat een lijst die kan worden gebruikt voor planning en follow-up.
 
@@ -44,7 +44,7 @@ Het rapport **Details van het onderhoudsverzoek** bevat informatie die is gerela
 
 In de volgende afbeelding ziet u een voorbeeld van het rapport **Details onderhoudsverzoek**.
 
-![Figuur 1](media/09-manage-maintenance-requests.png)
+![Rapport met Gegevens over onderhoudsaanvragen](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Een lijstrapport over een onderhoudsverzoek maken
 
@@ -57,4 +57,4 @@ Het rapport **Lijst onderhoudsverzoeken** bevat een lijst met alle onderhoudsver
 
 In de volgende afbeelding ziet u een voorbeeld van het rapport **Lijst onderhoudsverzoeken** voor alle actieve onderhoudsverzoeken.
 
-![Figuur 2](media/10-manage-maintenance-requests.png)
+![Rapport met lijst van onderhoudsaanvragen](media/10-manage-maintenance-requests.png)

@@ -18,43 +18,43 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0c0dd1e306c54d3f99b86ad6f1816d5acabe6c18
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: d7684d1a4f78c95ebc7fd0a88f1c7dc7fead0303
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887154"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652098"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>Capaciteitsbelasting voor geplande werkorders berekenen
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 U kunt de capaciteitsbelasting voor geplande werkorders berekenen om een overzicht te krijgen van de werkbelasting van resources voor een specifieke periode. Er kunnen berekeningen worden uitgevoerd voor de volgende resources: onderhoudsmedewerkers, medewerkersgroepen, hulpmiddelen en activa.
 
 1. Klik op **Activabeheer** > **Query's** > **Planning** > **Capaciteitsbelasting**.
 
-2. Selecteer in het dialoogvenster **Capaciteitsbelasting berekenen** in het veld **Weergeven** het belastingtype dat u wilt berekenen: Capaciteit, Gereserveerd of Rest.
+2. Selecteer in het dialoogvenster **Capaciteitsbelasting berekenen** in het veld **Weergeven** het belastingtype dat u wilt berekenen: **Capaciteit**, **Gereserveerd** of **Rest**.
 
-3. Selecteer Ja voor de wisselknop **Nul overslaan** als u geen resultaten voor nul wilt weergeven.
+3. Selecteer **Ja** voor de wisselknop **Nul overslaan** als u geen resultaten voor nul wilt weergeven.
 
-4. Selecteer de resourcetypen waarvoor u de capaciteitsbelasting wilt berekenen door Ja te selecteren voor de relevante wisselknoppen: **Medewerker**, **Onderhoudsmedewerkersgroep**, **Hulpmiddel** en **Activum**.
+4. Selecteer de resourcetypen waarvoor u de capaciteitsbelasting wilt berekenen door **Ja** te selecteren voor de relevante wisselknoppen: **Medewerker**, **Onderhoudsmedewerkersgroep**, **Hulpmiddel** en **Activum**.
 
 5. Selecteer de begindatum voor de berekening in het veld **Begindatum**.
 
-6. Selecteer in het veld **Intervaltype** het interval voor de berekening: Dag, Week, Maand of Kwartaal.
+6. Selecteer in het veld **Intervaltype** het interval voor de berekening: **Dag**, **Week**, **Maand** of **Kwartaal**.
 
-7. In het veld **Periodefrequentie** voegt u het aantal intervallen in dat u wilt berekenen. Als u bijvoorbeeld Dag hebt geselecteerd als het type interval en u geeft het getal 5 opgeeft in dit veld, wordt er een berekening van vijf dagen vanaf de begindatum uitgevoerd.
+7. In het veld **Periodefrequentie** voegt u het aantal intervallen in dat u wilt berekenen. Als u bijvoorbeeld **Dag** hebt geselecteerd als het type interval en u typt het getal 5 in dit veld, wordt er een berekening van vijf dagen vanaf de begindatum uitgevoerd.
 
 8. Klik op **OK** om de berekening te starten.
 
-De volgende afbeelding laat het resultaat zien van een berekening die drie weken omvat voor het belastingtype Gereserveerd.
+De volgende afbeelding laat het resultaat zien van een berekening die drie weken omvat voor het belastingtype **Gereserveerd**.
 
 ![Figuur 1](media/08-work-order-scheduling.png)
 
->[!NOTE]
->Als u het belastingtype Capaciteit of Resterend selecteert voor de berekening, wordt hetzelfde resultaat weergegeven als er geen reserveringen zijn gemaakt voor de resources in de geselecteerde periode.
+[!NOTE]
+Als u het belastingtype **Capaciteit** of **Rest** selecteert voor de berekening, wordt hetzelfde resultaat weergegeven als er geen reserveringen zijn gemaakt voor de resources in de geselecteerde periode.
 
 Zie [Capaciteitsbelasting berekenen](../capacity-planning/calculate-capacity-load.md) voor informatie over het berekenen van de capaciteitsbelasting voor onderhoudsschemaregels en niet geplande werkorders.
 

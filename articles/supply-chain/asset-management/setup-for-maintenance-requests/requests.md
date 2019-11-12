@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 609146ebc5a31e5b28ca9ed6e04ed82b6bb1b03e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250916"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571111"
 ---
 # <a name="maintenance-requests"></a>Onderhoudsverzoeken
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 U kunt verschillende typen verzoeken instellen om in uw bedrijf te gebruiken. Onderhoudsverzoeken zijn geordend op type. Onderhoudsverzoeken worden gebruikt om aan te geven dat een werkorder voor een bepaalde taak is vereist. Een onderhoudsverzoek kan worden gemaakt door elke gebruiker die toegang heeft tot de functionaliteit van Activabeheer. Een planner of manager kan vervolgens bepalen of een onderhoudsverzoek moet worden geconverteerd naar een werkorder, of dat deze een eigen levenscyclus moet voltooien.
 
@@ -41,4 +41,4 @@ U kunt verschillende typen verzoeken instellen om in uw bedrijf te gebruiken. On
 
 In de volgende afbeelding ziet u een voorbeeld van de lijstpagina **Alle onderhoudsverzoeken**.
 
-![Figuur 1](media/01-setup-for-requests.png)
+![Lijstpagina Alle onderhoudsverzoeken](media/01-setup-for-requests.png)

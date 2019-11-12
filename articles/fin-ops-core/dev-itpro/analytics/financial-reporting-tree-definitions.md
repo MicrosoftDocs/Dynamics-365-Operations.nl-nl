@@ -3,7 +3,7 @@ title: Rapportagestructuurdefinities in financiële rapporten
 description: Dit artikel bevat informatie over rapportagestructuurdefinities. Een rapportagestructuurdefinitie is een rapportonderdeel, of bouwsteen, die helpt bij het definiëren van de structuur en de hiërarchie van uw organisatie.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
+ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181813"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564162"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Rapportagestructuurdefinities in financiële rapporten
 
@@ -50,7 +50,7 @@ Een rapportagestructuurdefinitie bevat de kolommen die in de volgende tabel word
 
 | Rapportagestructuurkolom | Beschrijving |
 |-----------------------|-------------|
-| Bedrijf               | De naam van het bedrijf voor de rapportage-eenheid. Door middel van de waarde **@ANY**, die normaal gesproken alleen op overzichtsniveau wordt toegewezen, kan de rapporteringsstructuur worden gebruikt voor alle bedrijven. Aan alle onderliggende vertakkingen is een bedrijf toegewezen. |
+| Bedrijf               | De naam van het bedrijf voor de rapportage-eenheid. Door middel van de waarde **\@ANY**, die normaal gesproken alleen op overzichtsniveau wordt toegewezen, kan de rapporteringsstructuur worden gebruikt voor alle bedrijven. Aan alle onderliggende vertakkingen is een bedrijf toegewezen. |
 | Naam van eenheid             | De code die deze rapportage-eenheid identificeert in de grafische rapportagestructuur. Zorg ervoor dat u een unieke code vaststelt die consistent is en die gemakkelijk te begrijpen is voor gebruikers. |
 | Omschrijving van eenheid      | De titel van de rapportage-eenheid wordt weergegeven in de kop- of voettekst van het rapport als u **UnitDesc** opgeeft als een code in het tabblad **Kop- en voetteksten** van de rapportdefinitie. De titel verschijnt in de omschrijving van de rapportrij als u **UnitDesc** opgeeft in de cel **Omschrijving** van de rijdefinitie. |
 | Dimensies            | Een rapportage-eenheid die informatie rechtstreeks uit de financiële gegevens haalt. Deze definieert de logische plaatsing en de lengte voor de rekening en de gerelateerde segmenten. Elke rapportage-eenheidrij moet een dimensie in deze kolom hebben. U kunt ook een dimensie opnemen in een samenvattingseenheidrij (bijvoorbeeld voor uitgaven die rechtstreeks zijn gerelateerd aan die eenheid). Als u een dimensie invoert in een samenvattingseenheidrij, mogen rekeningen die in bovenliggende eenheden worden gebruikt niet in onderliggende eenheden worden gebruikt. Anders kunnen er dubbele bedragen ontstaan. |

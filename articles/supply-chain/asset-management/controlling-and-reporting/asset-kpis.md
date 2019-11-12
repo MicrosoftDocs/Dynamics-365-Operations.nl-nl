@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918413"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652374"
 ---
 # <a name="asset-kpis"></a>Activum-KPI's
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In Activabeheer kunt u verschillende KPI's (Key Performance Indicators) berekenen voor activa en activatypen. Met KPI's krijgt u een overzicht van de prestaties van activa in relatie tot, bijvoorbeeld, uptime, downtime, reparatietijd en de gemiddelde tijd tussen fouten.
 
@@ -85,7 +85,7 @@ In de volgende tabel vindt u een omschrijving van de velden op de pagina **KPI's
 
 De volgende afbeelding toont een schermafbeelding van een KPI-berekening voor vier activa.
 
-![Figuur 1](media/11-controlling-and-reporting.png)
+![Schermopname van een KPI-berekening voor vier activa](media/11-controlling-and-reporting.png)
 
 - U kunt meerdere activa selecteren in **Alle activa** en op de knop **KPI's voor activa** op het tabblad **Algemeen** klikken. Klik vervolgens op **OK** in het dialoogvenster **KPI's voor activa berekenen** om KPI's te berekenen voor de geselecteerde activa.  
 - De resultaten van een KPI-berekening kunnen de [registraties van uitvaltijd voor onderhoud](../work-orders/maintenance-downtime.md) omvatten, afhankelijk van de instellingen en het gebruik van redencodes voor uitvaltijd voor onderhoud. 

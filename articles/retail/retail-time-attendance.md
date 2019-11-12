@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 887b0ff8bf78cd99b3a2ec34416f0265297f556a
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024978"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570094"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Tijd- en aanwezigheidsbeheer in Retail
 
@@ -34,7 +34,7 @@ In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beh
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Het instellen en inplannen van medewerkers beheren
 
-### <a name="initial-configuration"></a> initiële configuratie
+### <a name="initial-configuration"></a>initiële configuratie
 
 - Voer de stappen in de configuratiewizard uit.
 - Werknemers registreren als tijdregistratiewerknemers.
@@ -100,7 +100,7 @@ Zie voor informatie over de configuratiestappen [Tijd en aanwezigheid instellen]
         </tbody>
         </table>
 
-        [![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)
+        [![Statussen van tijdklok](./media/timeclockstates.png)](./media/timeclockstates.png)
 
 - Bekijk het bevestigingsbericht weergeven, en controleer of de huidige activiteitstijd correct is.
 - Logboek:

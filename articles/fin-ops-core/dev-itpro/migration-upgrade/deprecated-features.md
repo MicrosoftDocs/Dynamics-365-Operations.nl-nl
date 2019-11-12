@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte functies voor Finance and Operations
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70bb8404c5b0e2422948d0b89311c384e3686710
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181077"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658685"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Verwijderde of afgeschafte functies voor Finance and Operations
 
@@ -38,13 +38,42 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 > [!NOTE]
 > Vanaf de release uit juli 2017 van Finance and Operations met Platform update 8 wordt het type implementatie aangegeven voor elke verwijderde of afgeschafte functie. Alle eerdere versies die in dit onderwerp worden vermeld, ondersteunen alleen cloudimplementaties.
 
-> Gedetailleerde informatie over objecte in Finance and Operations is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations.
+Gedetailleerde informatie over objecte in Finance and Operations is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations.
 
+## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 met Platformupdate 31
+
+### <a name="chinese-voucher-types-without-account-groups-selection"></a>Chinese boekstuktypen zonder selectie van rekeninggroepen
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Gewijzigd in de functie met selectie van rekeninggroepen. |
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden**         | Aanvraag |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: op 1 december 2020 worden Chinese boekingstypen niet meer ondersteund zonder dat rekeninggroepen zijn geselecteerd. Meer informatie over het nieuwe functieontwerp is te vinden in Nieuwe functies in 10.0.7 |
 
 ## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 met Platform update 30
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.6 met platformupdate 30 is beschikbaar voor gebruikers in kwestie als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Windows schaft het gebruik van SHA1 af, zoals is gedocumenteerd in [Afdwinging van SHA1-certificaten in Windows](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden**         | Aanvraag |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: vanaf 1 april 2020 moeten ontwikkelaars de nieuwe API gebruiken. |
+
+### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Windows schaft het gebruik van SHA1 af, zoals is gedocumenteerd in [Afdwinging van SHA1-certificaten in Windows](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden**         | Platform |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: vanaf 1 april 2020 moeten ontwikkelaars de nieuwe API gebruiken. |
+
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
@@ -308,7 +337,7 @@ Er zijn geen onderdelen verwijderd of vervangen in deze versie. Platformupdate 1
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise edition 7.3 met Platform update 12
 
 ### <a name="personalized-product-recommendations"></a>Gepersonaliseerde productaanbevelingen 
-Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie [Persoonlijke productaanbevelingen](../../retail/personalized-product-recommendations.md) voor meer informatie.  
+Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie voor meer informatie [Overzicht met productaanbevelingen](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -413,7 +442,7 @@ Gebruikers kunnen dit certificaat downloaden vanuit de overheidsportal.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Gepersonaliseerde productaanbevelingen 
-Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie [Persoonlijke productaanbevelingen](../../retail/personalized-product-recommendations.md) voor meer informatie.  
+Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie voor meer informatie [Overzicht met productaanbevelingen](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -445,7 +474,7 @@ Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onde
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Dubbele functionaliteit.       |
-| **Vervangen door een andere functie?**   | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie voor meer informatie over instellingen en vereisten, [installeren en configureren van Microsoft Dynamics 365 for Finance and Operations - magazijnbeheer](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Vervangen door een andere functie?**   | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie voor meer informatie over instellingen en vereisten, [installeren en configureren van Microsoft Dynamics 365 for Finance and Operations - magazijnbeheer](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Betrokken productgebieden**         | Magazijnbeheer, Transportbeheer     |
 | **Implementatieoptie**              | Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onderdeel dat is bedoeld voor on-premises zelfimplementatie.               |
 | **Status**                         | Afgeschaft: doeltijd voor verwijdering van de functionaliteit is kwartaal 4 van 2019.   |
@@ -1215,7 +1244,7 @@ Product Builder werd gebruikt om dynamisch items te configureren vanuit een verk
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Product Builder liet gebruikers X++-code zien en wordt niet ondersteund in de huidige versie van Dynamics AX. Het is verwijderd om dubbele onderhoudsinspanningen te voorkomen in overlappende codebases van aanzienlijke omvang.  |
-| **Vervangen door een andere functie?**   | Ja. De op beperkingen gebaseerde configuratie werd geïntroduceerd in Dynamics AX 2012, waarin al werd aangekondigd dat Product Builder in toekomstige versies zou worden afgeschaft. De op beperkingen gebaseerde configuratie wordt geselecteerd in productmodellen om de configuratie mogelijk te maken. Zie voor meer informatie [Een productconfiguratiemodel opstellen](../../supply-chain/pim/build-product-configuration-model.md). |
+| **Vervangen door een andere functie?**   | Ja. De op beperkingen gebaseerde configuratie werd geïntroduceerd in Dynamics AX 2012, waarin al werd aangekondigd dat Product Builder in toekomstige versies zou worden afgeschaft. De op beperkingen gebaseerde configuratie wordt geselecteerd in productmodellen om de configuratie mogelijk te maken. Zie voor meer informatie [Een productconfiguratiemodel opstellen](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Betrokken productgebieden**         | Productiegegevensbeheer, Verkoop en marketing  |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.      |
 

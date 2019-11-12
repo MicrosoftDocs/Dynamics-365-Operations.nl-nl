@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c84b08ec45dfa7aa9c7b913087a2518bfeedf87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 05dee1efc4e817795824e3fa1c41093d48a97d78
+ms.sourcegitcommit: 219a73371638a9a4c6076d4c88b95fb2ebe95b00
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181560"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2652612"
 ---
 # <a name="business-document-management-overview"></a>Overzicht van Beheer van bedrijfsdocumenten
 
@@ -120,7 +120,7 @@ Gebruik de volgende procedure om de functionaliteit voor Beheer van bedrijfsdocu
 
 ![Werkgebied Functiebeheer](./media/BDM-Overview-FMEnabling.png)
 
-Zie [Overzicht Functiebeheer](../../fin-and-ops/get-started/feature-management/feature-management-overview.md)voor meer informatie over het activeren van nieuwe functies.
+Zie [Overzicht Functiebeheer](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)voor meer informatie over het activeren van nieuwe functies.
 
 ## <a name="configure-parameters"></a>Parameters configureren
 
@@ -137,7 +137,7 @@ Voor dit documenttype moeten de volgende kenmerkwaarden worden geselecteerd.
 | Groep               | Bestand                  |
 | Locatie            | SharePoint            |
 
-Zie [Documentbeheer configureren](../../fin-and-ops/organization-administration/configure-document-management.md) voor informatie over het instellen van de vereiste parameters voor documentbeheer en documenttypen.
+Zie [Documentbeheer configureren](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) voor informatie over het instellen van de vereiste parameters voor documentbeheer en documenttypen.
 
 ![Documenttype voor Documentbeheer instellen](./media/BDM-Overview-DMSetting.png)
 

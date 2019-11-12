@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026711"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653413"
 ---
 # <a name="warehouse-configuration-overview"></a>Overzicht van Magazijnconfiguratie
 
@@ -34,7 +34,7 @@ In dit artikel wordt beschreven hoe u een magazijn configureert. Er wordt aangeg
 **Opmerking:** dit artikel is van toepassing op de functies in de module **Magazijnbeheer** (geavanceerde magazijnen). Het is niet van toepassing op magazijnfuncties in de module **Voorraadbeheer**.
 
 ## <a name="warehouse-layout"></a>Magazijnindeling
-Het Magazijnbeheersysteem in Finance and Operations biedt u flexibele manieren om uw magazijnindeling te definiëren voor het wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
+Het Magazijnbeheersysteem in Supply Chain Management biedt u flexibele manieren om uw magazijnindeling te definiëren voor wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
 
 -   U kunt opslaggebieden met hoge prioriteit en lage prioriteit ontwikkelen voor optimale plaatsing van goederen.
 -   U kunt uw magazijn in zones verdelen voor verschillende opslagbehoeften, zoals temperatuurvereisten of diverse omzettarieven voor artikelen.
@@ -42,7 +42,7 @@ Het Magazijnbeheersysteem in Finance and Operations biedt u flexibele manieren o
 -   U kunt locaties groeperen door de instellingen voor fysieke capaciteitsbeperking te gebruiken.
 -   U kunt bepalen hoe de artikelen worden opgeslagen en verzameld, gebaseerd op query-bepaalde regels.
 
-Als u magazijnbeheer in Finance and Operations wilt gebruiken, moet u een magazijn maken en dit inschakelen voor meer geavanceerde of gespecialiseerde magazijnbeheeractiviteiten. Selecteer op de pagina **Magazijnen** de optie **Magazijnbeheerprocessen gebruiken**.
+Als u magazijnbeheer in Supply Chain Management wilt gebruiken, moet u een magazijn maken en dit inschakelen voor meer geavanceerde of gespecialiseerde magazijnbeheeractiviteiten. Selecteer op de pagina **Magazijnen** de optie **Magazijnbeheerprocessen gebruiken**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Zonegroepen, zones, locatietypen en locaties
 
@@ -54,7 +54,7 @@ Als onderdeel van het proces voor een magazijnindeling moet u de magazijnzonegro
 -   **Locatietypen**: de logische of fysieke groepering van de magazijnlocaties. U kunt bijvoorbeeld een locatietype voor alle faseringslocaties maken. De verplichte instellingen op de pagina **Parameters voor magazijnbeheer** bevorderen het proces om faseringslocatietypen en het uiteindelijke verzendlocatietype te definiëren.
 -   **Locaties**: het laagste locatiegegevensniveau. De locaties worden gebruikt om te traceren waar de voorhanden voorraad wordt opgeslagen en in een magazijn verzameld.
 
-De rechtspersonen die u maakt om uw magazijnindeling te definiëren, worden gebruikt in de query's die u in de werksjablonen instelt om werkorders in het magazijn te sturen. Wanneer u dus de zones, locatietypen, enzovoort selecteert, moet u er dus rekening mee houden hoe de verschillende gebieden in het magazijn voor verschillende processen worden gebruikt. Houd bovendien rekening met factoren zoals de fysieke kenmerken van een specifiek gebied. Er kunnen bijvoorbeeld gebieden zijn waarin u alleen een bepaald type vorkheftruck kunt gebruiken. Of, als uw bedrijf zowel productie als gereed gemelde goederen binnen dezelfde faciliteit heeft, kunt u wellicht één magazijn in Finance and Operations maken maar hierbij de twee bewerkingen van elkaar scheiden door twee zonegroepen te maken. Geef uw entiteiten beschrijvende namen, zodat het eenvoudig is om te identificeren wanneer u ze in sjabloonquery's gebruikt.
+De rechtspersonen die u maakt om uw magazijnindeling te definiëren, worden gebruikt in de query's die u in de werksjablonen instelt om werkorders in het magazijn te sturen. Wanneer u dus de zones, locatietypen, enzovoort selecteert, moet u er dus rekening mee houden hoe de verschillende gebieden in het magazijn voor verschillende processen worden gebruikt. Houd bovendien rekening met factoren zoals de fysieke kenmerken van een specifiek gebied. Er kunnen bijvoorbeeld gebieden zijn waarin u alleen een bepaald type vorkheftruck kunt gebruiken. Of, als uw bedrijf zowel productie als gereed gemelde goederen binnen dezelfde faciliteit heeft, kunt u wellicht één magazijn in Supply Chain Management maken maar hierbij de twee bewerkingen van elkaar scheiden door twee zonegroepen te maken. Geef uw entiteiten beschrijvende namen, zodat het eenvoudig is om te identificeren wanneer u ze in sjabloonquery's gebruikt.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Locatie-opslaglimieten, locatieprofielen en vaste orderverzamellocaties
 

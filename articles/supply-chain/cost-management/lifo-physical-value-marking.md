@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565691"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569266"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO met fysieke waarde en markering
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 LIFO (Last in, First out) is een voorraadmodel waarin de laatste (nieuwste) ontvangsten het eerst worden uitgegeven. Uitgiften uit de voorraad worden vereffend met de laatste ontvangsten in de voorraad op basis van de datum van de voorraadtransactie. 
 
@@ -56,7 +54,9 @@ In dit voorbeeld is de artikelmodelgroep niet gemarkeerd voor het opnemen van de
 -   5b. Financiële voorraaduitgifte voor de hoeveelheid 1 tegen een prijs van USD 20,00 per stuk (lopend gemiddelde van financieel bijgewerkte transacties).
 -   6. Voorraadafsluiting is uitgevoerd. De laatste, financieel bijgewerkte uitgifte wordt op basis van de LIFO-methode vereffend met de laatste, financieel bijgewerkte ontvangst. Op de uitgiftetransactie wordt een correctie van USD 10,00 doorgevoerd.
 
-De nieuwe lopende gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel bijgewerkte transacties met EUR 15,00. In de volgende afbeeldingen worden de effecten van het LIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. ![LIFO zonder fysieke waarde opnemen](./media/lifowithoutincludephysicalvalue.gif) 
+De nieuwe lopende gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel bijgewerkte transacties met EUR 15,00. In de volgende afbeeldingen worden de effecten van het LIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. 
+
+![LIFO zonder fysieke waarde opnemen](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Uitleg bij het diagram**
 
@@ -90,7 +90,9 @@ De volgende afbeelding geeft deze transacties weer:
 
 Transactie 6a wordt gecorrigeerd naar ontvangsttransactie 4b. Deze transacties worden niet vereffend, omdat de ontvangst fysiek maar niet financieel wordt bijgewerkt. In plaats daarvan wordt er alleen een correctie van USD 8,75 naar de fysieke uitgiftetransactie geboekt. Transactie 5b wordt gecorrigeerd naar fysieke ontvangsttransactie 3a. Deze transacties worden niet door het systeem vereffend, omdat deze beide transacties niet financieel worden bijgewerkt. In plaats daarvan wordt er alleen een correctie van USD -3,75 naar de fysieke uitgiftetransactie geboekt. De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 20,00. 
 
-In de volgende afbeelding worden de effecten van het LIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** wordt gebruikt. ![LIFO met fysieke waarde opnemen](./media/lifowithincludephysicalvalue.gif) 
+In de volgende afbeelding worden de effecten van het LIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** wordt gebruikt. 
+
+![LIFO met fysieke waarde opnemen](./media/lifowithincludephysicalvalue.gif) 
 
 **Uitleg bij het diagram**
 
@@ -132,7 +134,9 @@ De volgende afbeelding geeft deze transacties weer:
 
 De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 27,50. 
 
-In het volgende afbeelding worden de effecten van het LIFO-voorraadmodel op deze reeks transacties weergegeven wanneer markering tussen uitgiften en ontvangsten wordt gebruikt. ![LIFO met markering](./media/lifowithmarking.gif) 
+In het volgende afbeelding worden de effecten van het LIFO-voorraadmodel op deze reeks transacties weergegeven wanneer markering tussen uitgiften en ontvangsten wordt gebruikt. 
+
+![LIFO met markering](./media/lifowithmarking.gif) 
 
 **Uitleg bij diagram**
 
@@ -146,7 +150,4 @@ In het volgende afbeelding worden de effecten van het LIFO-voorraadmodel op deze
 - Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 - Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
 - Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
-
-
-
 

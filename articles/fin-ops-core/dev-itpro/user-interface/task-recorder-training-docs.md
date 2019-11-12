@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc8e4b942c3c5307d90bfd08a33a8b27c4352d2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249722"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658805"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Documentatie of training maken met Taakrecorder
 
@@ -40,7 +40,7 @@ In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, 
 Taakrecorder is een hulpmiddel waarmee u de acties vast kunt leggen die u uitvoert in de gebruikersinterface (UI) van het product. Wanneer u Taakregistratie gebruikt, worden alle gebeurtenissen die u in de UI uitvoert die voor de server worden uitgevoerd, inclusief het toevoegen van waarden, wijzigen van instellingen, verwijderen van gegevens, vastgelegd. De stappen die u registreert worden samen een *taakregistratie* genoemd. Taakregistraties kunnen op verschillende manieren worden gebruikt:
 
 -   **Taakregistratie kunnen worden afgespeeld als taakbegeleidingen.** Taakbegeleidingen zijn een integraal onderdeel van de gebruikerservaring in de Help. Een taakbegeleiding is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. De gebruiker wordt door middel van een pop-upprompt (of ballon) om elke stap te voltooien, door de hele UI en het wijst naar het UI-element waarmee de gebruiker interactie aan moet gaan. De 'ballon' geeft ook informatie over het werken met het element, zoals 'Klik hier' of 'In dit veld een waarde invoeren'. Een taakbegeleiding wordt uitgevoerd op de huidige gegevensset van de gebruiker en de ingevoerde gegevens worden opgeslagen in de omgeving van de gebruiker.
--   **Taakregistraties kunnen als procedurestappen in het Help-deelvenster worden weergegeven.** U kunt het Help-deelvenster gebruiken om te zoeken naar Taakregistraties en deze weer te geven. U kunt het Help-deelvenster openen door te klikken op het pictogram **?** bovenin de navigatiebalk of u kunt de sneltoetscombinatie  **Ctrl+Shift+?** gebruiken. U kunt de stappen van een taakregistratie in het Help-deelvenster lezen, of u kunt ervoor kiezen de registratie als een taakbegeleiding af te spelen zodat deze u door UI begeleidt.
+-   **Taakregistraties kunnen als procedurestappen in het Help-deelvenster worden weergegeven.** U kunt het Help-deelvenster gebruiken om te zoeken naar Taakregistraties en deze weer te geven. U kunt het Help-deelvenster openen door te klikken op het pictogram **?** bovenin de navigatiebalk of u kunt de sneltoetscombinatie **Ctrl+Shift+?** gebruiken. U kunt de stappen van een taakregistratie in het Help-deelvenster lezen, of u kunt ervoor kiezen de registratie als een taakbegeleiding af te spelen zodat deze u door UI begeleidt.
 -   **Taakregistraties kunnen worden opgeslagen in BPM.** U kunt uw taakregistratie opslaan op een regel van een hiërarchie in een BPM-bibliotheek in Lifecycle Services (LCS). Een lijst van stappen en een bedrijfsprocesstroomdiagram worden van de registratie gegenereerd. Taakregistraties die in een taak BPM-bibliotheek zijn opgeslagen, kunnen als Help worden weergegeven.
 -   **Taakregistraties kunnen als Word-documenten worden opgeslagen.** Zo kunt u eenvoudig afdrukbare trainingshandleidingen produceren.
 
@@ -68,21 +68,21 @@ Of u nou een nieuwe taakregistratie maakt of uw registratie baseert op een Micro
 
 Dit is het bewerkingsdeelvenster dat u ziet wanneer u een aantekening toevoegt als u de registratie maakt. Typ een titelaantekening in het vak **Titel**. 
 
-[![screen1](./media/screen1.png)](./media/screen1.png) 
+[![Bewerkingsvenster met titelaantekening](./media/screen1.png)](./media/screen1.png) 
 
 Zo ziet de titelaantekening eruit in de "ballon" in de taakbegeleiding. 
 
-[![screen2](./media/screen2.png)](./media/screen2.png)
+[![Weergave van titelaantekening in taakbegeleider](./media/screen2.png)](./media/screen2.png)
 
 -   **Opmerkingen:** een notitiesaantekening wordt weergegeven na de staptekst die taakregistratie automatisch genereert. In de taakbegeleiding wordt deze alleen zichtbaar als de gebruiker op de koppeling **Meer weergeven** in de ballon van de taakbegeleiding klikt. Gebruik dit type aantekening om alles te beschrijven wat een gebruiker moet weten om de stap te voltooien.
 
 Dit is het bewerkingsdeelvenster dat u ziet wanneer u een aantekening toevoegt als u de registratie maakt. Typ een aantekening voor notities in het vak **Notities**. 
 
-[![screen3](./media/screen3.png)](./media/screen3.png) 
+[![Bewerkingsdeelvenster met aantekening in het vak Notities](./media/screen3.png)](./media/screen3.png) 
 
 Zo ziet de notitieaantekening eruit in de 'ballon' in de taakbegeleiding.
 
-[![screen4](./media/screen4.png)](./media/screen4.png)
+[![Weergave van notities in taakbegeleider](./media/screen4.png)](./media/screen4.png)
 
 -   **Infostap**: deze aantekeningen worden gemaakt door met de rechtermuisknop te klikken op een besturingselement of overal op een formulier &lt; **Taakrecorder** &lt; **Infostap toevoegen. **Infostappen verschijnen als genummerde stap bij het punt waar u ze invoegt, zelfs als geen actie in de UI is geregistreerd. U kunt een infostap op formulierniveau toevoegen of een infostap toevoegen die aan een besturingselement is gekoppeld. Wanneer een infostap met een formulier is gekoppeld, wordt de taakbegeleidingballon ergens op het formulier weergegeven, zonder aanwijzer, wanneer de taakbegeleiding wordt afgespeeld. Wanneer een infostap aan een besturingselement is gekoppeld, wijst de taakbegeleidingballon naar het besturingselement wanneer de taakbegeleiding wordt afgespeeld. In het Help-deelvenster wordt een infostapaantekening als een genummerde stap weergegeven met de tekst u hebt ingevoerd. De stappen van de gebruiksinfo om de gebruiker voor de volgende stappen voor te bereiden, beschrijven stappen die buiten de toepassing moeten worden uitgevoerd of naar andere registraties (hoewel u geen hyperlinks in aantekeningen kunt maken.) moeten verwijzen.
 

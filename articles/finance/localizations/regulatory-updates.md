@@ -3,7 +3,7 @@ title: Wettelijk voorgeschreven updates
 description: Dit onderwerp bevat een lijst van geplande updates en vrijgegeven reglementaire updates voor Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2019
+ms.date: 10/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc5a9669a9c6c298a4f9df52346b8a075ba177e0
-ms.sourcegitcommit: a4e1a28b4733f3356e5a2237c8ba5d93f9799391
+ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2517306"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653199"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -28,9 +28,7 @@ ms.locfileid: "2517306"
 
 In dit onderwerp worden de reglementaire updates genoemd die zijn gepland en vrijgegeven in door Dynamics 365 Finance ondersteunde lokalisaties. Leveringstijdlijnen kunnen worden gewijzigd en verwachte functionaliteit kan verschillen of niet worden vrijgegeven. Lees [Microsoft-beleid](https://go.microsoft.com/fwlink/p/?linkid=2007332) voor meer informatie. 
 
-Wettelijk voorgeschreven updates zijn functies die worden geïmplementeerd ter ondersteuning van nieuwe of gewijzigde landspecifieke wetgeving. Raadpleeg de volgende bronnen voor meer informatie over geplande en vrijgegeven land-specifieke functies.
-- [Releaseopmerkingen van Dynamics 365 en Power Platform](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Wat is er nieuw in Microsoft Dynamics 365 for Finance and Operations](../../fin-and-ops/get-started/whats-new-changed.md)
+Wettelijk voorgeschreven updates zijn functies die worden geïmplementeerd ter ondersteuning van nieuwe of gewijzigde landspecifieke wetgeving. Raadpleeg de [Dynamics 365- en Power Platform-releaseplannen](https://docs.microsoft.com/business-applications-release-notes/index) voor meer informatie over geplande en vrijgegeven landspecifieke functies.
 
 Microsoft streeft ernaar nieuwe wettelijke eisen zo vroeg mogelijk te implementeren. De werkelijke leveringsdatum is afhankelijk van de aankondigingsdatum van de wet, de beschikbaarheid van de vereistedetails van de lokale autoriteiten, de beschikbaarheid van de validatiehulpprogramma's en de grootte en complexiteit van de wijziging.
 
@@ -44,13 +42,19 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 
 |Geplande vrijgavedatum:|Versie van release|Land/regio|Wettelijke update|
 |--------------------|---------------|-------|-------|
-|      Augustus 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilië      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.10    |
-|      Augustus 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilië      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.20    |
-|      Augustus 2019          |   10.0.6(PEAP)      | Brazilië      |   DRCST-declaratie SC   |
-|      Augustus 2019          |   10.0.6(PEAP), 10.0.5HF      | Brazilië     |   Nieuwe wetgeving die betrekking heeft op de EFD-ICMS/IPI, wordt geïmplementeerd door de staat RJ. Resolutie 13/19 van Rio de Janeiro (RJ) is voor "Speciale procedures die moeten worden toegepast bij Vrijspraak     |
-|      Augustus 2019          |   10.0.6(PEAP)      | Brazilië      |   Fiscale verklaring CAT 42/18    |
-|      Augustus 2019          |   10.0.6(PEAP)      | Italië      |   Wijzigingen in btw-beheer door D.L. 119 van 23 okt 2018- Dynamics 365 for Finance and Operations v.10.0.6  |
-|      Augustus 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japan      |   Wijziging in tarief verbruiksbelasting en verlaagd belastingtarief worden ingevoerd    |
+|      november 2019          |   10.0.7(PEAP)      | Italië      |   Wijzigingen in btw-beheer door D.L. 119 van 23 okt 2019: driemaandelijkse btw-aangifte ("Lipe 2018")    |
+|      november 2019          |   10.0.7(PEAP)      | Italië      |   Retail - Klantgegevens in beheren in POS |
+|      november 2019          |   10.0.7(PEAP)      | Italië      |   Retail - klantgegevens in fiscaal ontvangstbewijs afdrukken | 
+|      november 2019          |   10.0.7(PEAP)      | Japan      |   Wijziging in verbruikstarief en verlaagd belastingtarief worden ingevoerd (factuurindelingen) | 
+|      november 2019          |   10.0.7(PEAP)      | Mexico      |   Regel 2.7.2.9 bijwerken - De tijdzone gebruiken van de postcode van de instantie die het CFDI-document uitgeeft | 
+|      november 2019          |   10.0.7(PEAP)      | Verenigd Koninkrijk     |   Digitaal belastingaangifte doen - Btw-aangifte maken voor bedrijven die als btw-groep aangifte doen in dezelfde systeemdatabase v.10 | 
+|      November - augustus 2019          |   10.0.7 (PEAP), 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilië      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.20    |
+|      November - augustus 2019          |   10.0.7 (PEAP), 10.0.6      | Brazilië      |   DRCST-declaratie SC   |
+|      November - augustus 2019          |   10.0.7 (PEAP), 10.0.6      | Italië      |   Wijzigingen in btw-beheer door D.L. 119 van 23 okt 2018 - Dynamics 365 for Finance and Operations  |
+|      Augustus 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilië      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.10    |
+|      Augustus 2019          |   10.0.6, 10.0.5HF      | Brazilië     |   Nieuwe wetgeving die betrekking heeft op de EFD-ICMS/IPI, wordt geïmplementeerd door de staat RJ. Resolutie 13/19 van Rio de Janeiro (RJ) is voor "Speciale procedures die moeten worden toegepast bij Vrijspraak     |
+|      Augustus 2019          |   10.0.6      | Brazilië      |   Fiscale verklaring CAT 42/18    |
+|      Augustus 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japan      |   Wijziging in tarief verbruiksbelasting en verlaagd belastingtarief worden ingevoerd    |
 |      Augustus-juli 2019          |   10.0.5, 10.0.4HF, 10.0.3HF      | Spanje      |   Spanje: SII: Vanaf 1 oktober 2019 zijn de validatieregels gewijzigd    |
 |      Juli 2019          |   10.0.5, 10.0.4HF, 10.0.2HF      | Brazilië      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.00  |
 |      Juli 2019          |   10.0.5      | Brazilië      |   Praktische gids sped-bijdragen 1.31. nieuwe richtlijnen    |
@@ -66,7 +70,7 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 |      2019 april          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brazilië     |   SPED ECD - indeling 7    |
 |      2019 april          |   10.0.3      | Brazilië      |   SPED ECF - indeling 5 voor 2019    |
 |      2019 april          |   10.0.3      | India      |   Correctie van btw in de douanevaluta in BOE in plaats van in de transactievaluta    |
-|      2019 april          |   10.0.3      | India      |   Calculatie van belasting in de douanevaluta in BOE in plaats van in de transactievaluta)    |
+|      2019 april          |   10.0.3      | India      |   Berekening van belasting in douanevaluta in BOE in plaats van in de transactievaluta   |
 |      2019 april          |   10.0.3, 10.02HF, 10.0.1HF      | India      |   Wijziging van notatie van IEC-nummer    |
 |      2019 april          |   10.0.3      | Litouwen      |   Litouwen: In een i.SAF-rapport kunnen gebruikers systeem-btw-codes definiëren in combinatie met wettelijke belastingcodes)    |
 |      2019 april          |   10.0.3      | Polen      |   SAF-facturen (JPK_FA) v.2 vanaf 1 juli 2019    |

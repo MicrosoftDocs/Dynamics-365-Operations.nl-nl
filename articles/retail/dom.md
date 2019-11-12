@@ -3,7 +3,7 @@ title: Gedistribueerd orderbeheer
 description: In dit onderwerp wordt de functionaliteit voor gedistribueerd orderbeheer in Dynamics 365 Retail beschreven.
 author: josaw1
 manager: AnnBe
-ms.date: 11/15/2018
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fee0d9257af86a734a60b469db3a006435f1d3d2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
+ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023414"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578479"
 ---
 # <a name="distributed-order-management-dom"></a>Gedistribueerd orderbeheer
 
@@ -94,6 +94,7 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
         - **Gedeeltelijke regels vervullen?** – Als deze optie is ingesteld op **Ja**, kan ook slechts een gedeeltelijke hoeveelheid van orderregels worden afgehandeld. Deze gedeeltelijke afhandeling wordt uitgevoerd door de orderregel op te splitsen.
         - **Order afhandelen vanaf slechts één locatie**: als deze optie is ingesteld op **Ja**, worden alle regels in een order afgehandeld via één locatie.
 
+
         In de volgende tabel wordt uitgelegd welk gedrag optreedt wanneer een combinatie van deze parameters wordt gedefinieerd.
 
         |      | Gedeeltelijke orders vervullen | Gedeeltelijke regels vervullen | Order afhandelen vanaf slechts één locatie | Beschrijving |
@@ -110,19 +111,22 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
 
         \* Als **Gedeeltelijke orders vervullen** is ingesteld op **Nee**, wordt er altijd van uitgegaan dat **Gedeeltelijke regels vervullen** ook is ingesteld op **Nee**, ook als dit niet het geval is.
 
-    - **Regel voor offline afhandelingslocatie**: met deze regel kunnen organisaties een locatie of groep locaties als offline of niet beschikbaar instellen voor DOM, zodat orders daar niet kunnen worden toegewezen voor afhandeling.
+> [!NOTE]
+> In Retail versie 10.0.5 is de parameter is de pararmeter **Order afhandelen vanaf slechts één locatie** gewijzigd in **Maximum afhandelingslocaties**. In plaats van een gebruiker in staat te stellen om te bepalen of orders alleen kunnen worden afgehandeld vanuit één locatie of vanuit zoveel locaties als mogelijk is, kunnen gebruikers nu opgeven of het afhandelen kan worden uitgevoerd vanuit een bepaalde set locaties (maximaal 5) of vanuit zoveel locaties als mogelijk is. Dit biedt meer flexibiliteit als het gaat om het aantal locaties waar de order kan worden afgehandeld.
+
+   - **Regel voor offline afhandelingslocatie**: met deze regel kunnen organisaties een locatie of groep locaties als offline of niet beschikbaar instellen voor DOM, zodat orders niet aan die locaties kunnen worden toegewezen voor afhandeling.
     - **Regel voor maximale afwijzingen**: met deze regel kunnen organisaties een drempelwaarde voor afwijzingen opgeven. Wanneer de drempelwaarde wordt bereikt, wordt een order of orderregel door de DOM-processor als uitzondering gemarkeerd en wordt deze uitgesloten van verdere verwerking.
 
         Als orderregels zijn toegewezen aan een locatie, kan de locatie een toegewezen orderregel afwijzen als deze om een of andere reden niet kan worden afgehandeld. Afgewezen regels worden als uitzondering gemarkeerd en weer opgenomen in de groep voor verwerking tijdens de volgende uitvoering. Tijdens de volgende uitvoering wordt geprobeerd de afgewezen regel toe te wijzen aan een andere locatie. Ook de nieuwe locatie kan de toegewezen orderregel afwijzen. Deze cyclus van toewijzing en afwijzing kan meerdere keren worden herhaald. Wanneer de opgegeven drempelwaarde voor het aantal afwijzingen wordt bereikt, wordt de orderregel als permanente uitzondering gemarkeerd en wordt de regel niet meer gekozen voor toewijzing. De orderregel komt pas weer in aanmerking voor toewijzing als een gebruiker de status van de orderregel opnieuw instelt.
 
-    - **Regel voor maximale afstand**: met deze regel kunnen organisaties de maximale afstand van een locatie of groep locaties voor afhandeling van de order opgeven. Als er meerdere regels met verschillende maximumafstanden zijn opgegeven voor een locatie, wordt de kortste maximumafstand toegepast.
+   - **Regel voor maximale afstand**: met deze regel kunnen organisaties de maximale afstand van een locatie of groep locaties voor afhandeling van de order opgeven. Als er meerdere regels met verschillende maximumafstanden zijn opgegeven voor een locatie, wordt de kortste maximumafstand toegepast.
     - **Regel voor maximumorders**: met deze regel kunnen organisaties opgeven hoeveel orders maximaal kunnen worden verwerkt op een kalenderdag. Als het maximum aantal orders voor één dag is toegewezen aan een locatie, worden er de rest van die kalenderdag geen orders meer toegewezen aan die locatie.
 
-    Voor alle bovenstaande regeltypen kunnen de volgende algemene kenmerken worden opgegeven:
+   Voor alle bovenstaande regeltypen kunnen de volgende algemene kenmerken worden opgegeven:
 
-    - **Begindatum** en **Einddatum**: met deze velden kunt u voor elke regel geldigheidsdatums instellen.
-    - **Uitgeschakeld**: alleen regels met de waarde **Nee** voor dit veld worden gebruikt tijdens een DOM-uitvoering.
-    - **Vaste beperking**: een regel kan als vaste beperking of niet-vaste beperking worden gedefinieerd. Elke DOM-uitvoering wordt op twee manieren uitgevoerd. De eerste keer wordt elke regel beschouwd als een vaste beperking, ongeacht de instelling van dit veld. Met andere woorden: elke regel wordt toegepast. De enige uitzondering is de regel **Prioriteit van locatie**. Voor de tweede uitvoering worden de regels verwijderd die niet als vaste beperking zijn ingesteld. De orders of orderregels die niet aan locaties waren toegewezen toen alle regels werden toegepast, worden toegewezen aan locaties.
+   - **Begindatum** en **Einddatum**: met deze velden kunt u voor elke regel geldigheidsdatums instellen.
+   - **Uitgeschakeld**: alleen regels met de waarde **Nee** voor dit veld worden gebruikt tijdens een DOM-uitvoering.
+   - **Vaste beperking**: een regel kan als vaste beperking of niet-vaste beperking worden gedefinieerd. Elke DOM-uitvoering wordt op twee manieren uitgevoerd. De eerste keer wordt elke regel beschouwd als een vaste beperking, ongeacht de instelling van dit veld. Met andere woorden: elke regel wordt toegepast. De enige uitzondering is de regel **Prioriteit van locatie**. Voor de tweede uitvoering worden de regels verwijderd die niet als vaste beperking zijn ingesteld. De orders of orderregels die niet aan locaties waren toegewezen toen alle regels werden toegepast, worden toegewezen aan locaties.
 
 10. Afhandelingsprofielen worden gebruikt om een verzameling regels, rechtspersonen, oorsprongen van verkooporders en leveringsmethoden te groeperen. Elke DOM-uitvoering vindt plaats voor een bepaald afhandelingsprofiel. Op deze manier kunnen organisaties een verzameling regels opgeven en uitvoeren voor een verzameling rechtspersonen, voor orders met bepaalde oorsprongen van verkooporders en leveringsmethoden. Als er verschillende verzamelingen regels moeten worden uitgevoerd voor verschillende verzamelingen oorsprongen van verkooporders of leveringsmethoden, kunnen de afhandelingsprofielen overeenkomstig worden gedefinieerd. Ga als volgt te werk om afhandelingsprofielen in te stellen:  
 
