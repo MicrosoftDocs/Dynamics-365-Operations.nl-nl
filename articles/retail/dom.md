@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
-ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
+ms.openlocfilehash: 10d894bb65031741a5ec8365f7f8db76b58ab334
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578479"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693107"
 ---
 # <a name="distributed-order-management-dom"></a>Gedistribueerd orderbeheer
 
@@ -37,7 +37,7 @@ DOM-systemen optimaliseren de orderafhandeling in een complex netwerk van system
 
 In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-systeem weergegeven.
 
-![Levenscyclus van verkooporder in een DOM-systeem](./media/flow.png "Levenscyclus van verkooporder in een DOM-systeem")
+![Levenscyclus van verkooporders in de context van DOM](./media/flow.png "Levenscyclus van verkooporders in de context van DOM")
 
 ## <a name="set-up-dom"></a>DOM instellen
 
@@ -179,7 +179,7 @@ De volgende orders en orderregels worden verwerkt in het DOM-systeem:
 
 Nadat de regels, voorraadbeperkingen en optimalisatie zijn toegepast, wordt de locatie gekozen die het dichtst bij het afleveradres van de klant ligt.
 
-![Criteria voor verkooporders](./media/ordercriteria.png "Criteria voor verkooporders")
+![Criteria voor verkooporder](./media/ordercriteria.png "Criteria voor verkooporder")
 
 ## <a name="results-of-dom-runs"></a>Resultaten van DOM-uitvoeringen
 

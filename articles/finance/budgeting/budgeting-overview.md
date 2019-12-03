@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184066"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772646"
 ---
 # <a name="budgeting-home-page"></a>Startpagina van Budgettering
 
@@ -42,12 +42,12 @@ De processen voor zowel strategische planning op de lange termijn als jaarlijkse
 
 Tot slot kunnen zeer volwassen organisaties een organisatiecultuur creëren waarin werknemers worden onderwezen in organisatorische doelen en deze doelen volgen via beleidsregels, zoals "Onlinevergadering overwegen in plaats van reizen". De toepassing bevat een raamwerk voor budgetbeheer waarmee het management van het bedrijf kan kiezen voor de harde lijn (geen boekingen die over het budget heen gaan) of de zachte lijn (gebruikers worden gewaarschuwd als ze de beschikbare budgetfondsen overschrijden en kunnen zelf bepalen hoe ze verdergaan). Tot slot kunt u voortschrijdende prognoses gebruiken. Een voortschrijdende prognose is een normale vergelijking tussen gebudgetteerde en werkelijke bedragen en wordt gebruikt om te bepalen hoe goed het bedrijf werkt met betrekking tot het budget. Een voortschrijdende prognose wordt ook gebruikt om trends te identificeren. In Finance and Operations worden voortschrijdende prognoses ondersteund via een budgetplandocument als oorspronkelijke planningsactiviteiten. Ze kunnen tegelijk met de planning voor de komende budgetcyclus worden uitgevoerd.
 
--   [Basisbudgettering: overzicht en configuratie](basic-budgeting-overview-configuration.md)
--   [Budgetbeheer: overzicht en configuratie](budget-control-overview-configuration.md)
--   [Budgetplanning: overzicht en configuratie](budget-planning-overview-configuration.md)
+-   [Overzicht van Budgettering](basic-budgeting-overview-configuration.md)
+-   [Overzicht van Budgetbeheer](budget-control-overview-configuration.md)
+-   [Overzicht van Budgetplanning](budget-planning-overview-configuration.md)
 -   [Prognosepositie](position-forecasting.md)
 -   [Verantwoordingsdocumenten voor budgetplanning](budget-planning-justification-docs.md)
--   [Microsoft Excel-sjablonen voor budgetplanning](budget-planning-excel-templates.md)
+-   [Sjablonen voor budgetplanning in Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Budgetteringstools
 [![Budgetteringstools](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 

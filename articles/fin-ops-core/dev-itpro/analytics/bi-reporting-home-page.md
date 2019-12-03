@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536842"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771559"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Startpagina BI en rapportage
 
@@ -48,7 +48,7 @@ Zie de volgende onderwerpen voor meer informatie:
 - [Integratie met Power BI Embedded](power-bi-embedded-integration.md)
 - [Analyses aan werkgebieden toevoegen met Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Analytische werkgebieden en rapporten beveiligen met Power BI Embedded](secure-analytical-workspaces.md)
-- [Power BI-inhoud voor Finance and Operations](power-bi-home-page.md)
+- Startpagina van [Power BI-inhoud](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Bedrijfsdocumenten en afdrukken
 Rapportage-oplossingen worden vaak gebruikt voor het vastleggen en communiceren van de details van zakelijke transacties. Daarom moet een rapportage-oplossing in staat zijn fysieke uitingen van zakelijke gegevens te produceren met behulp van bestaande apparaten, zoals netwerkprinters. Voorbeelden van bedrijfsdocumenten zijn verkoopfacturen, klantoverzichten en cheques.
@@ -57,9 +57,9 @@ Rapportage-oplossingen worden vaak gebruikt voor het vastleggen en communiceren 
 
 Zie de volgende onderwerpen voor meer informatie:
 
-- [Overzicht van documentrapportservices](document-reporting-services.md)
-- [Afdrukken in toepassingen van Finance and Operations](print-documents.md)
-- [De documentrouteringsagent installeren om netwerkprinterapparatuur in te schakelen](install-document-routing-agent.md)
+- [Documentrapportservices](document-reporting-services.md)
+- [Overzicht van Documenten afdrukken](print-documents.md)
+- [De documentrouteringsagent installeren om afdrukken via het netwerk in te schakelen](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Elektronische rapportage
 Elektronische rapportage (ER) is het hulpmiddel waarmee u indelingen voor elektronische documenten kunt configureren die voldoen aan de wettelijke voorschriften van verschillende landen of regio's. De toepassingen van elektronische rapportage omvatten financiële controle, btw-aangifte en elektronische facturering.
@@ -68,9 +68,9 @@ Elektronische rapportage (ER) is het hulpmiddel waarmee u indelingen voor elektr
 
 Zie de volgende onderwerpen voor meer informatie:
 
-- [Overzicht van elektronische rapportage](general-electronic-reporting.md)
-- [De levenscyclus van de configuratie van elektronische rapportage beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [Een configuratie voor elektronische rapportage maken](electronic-reporting-configuration.md)
+- [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
+- [De levenscyclus van de configuratie van elektronische rapportage (ER) beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Configuraties voor elektronische rapportage (ER) maken](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Financiële rapportage
 Er worden standaard financiële rapporten geleverd die gebruikmaken van de standaard hoofdrekeningcategorieën. U kunt de rapportontwerpfunctie gebruiken voor het maken of wijzigen van traditionele financiële overzichten, zoals inkomensoverzichten en balansen. U kunt vervolgens de resultaten delen met andere leden van uw organisatie. Voorbeelden van financiële rapportage omvatten balansen, cashflow- en proefbalansoverzicht jaar over jaar.
@@ -79,14 +79,14 @@ Er worden standaard financiële rapporten geleverd die gebruikmaken van de stand
 
 Zie de volgende onderwerpen voor meer informatie:
 
-- [Financiële rapportage for Finance and Operations](financial-reporting-intro.md)
-- [Een financieel rapport genereren](generate-financial-report.md)
+- [Financiële rapportage](financial-reporting-intro.md)
+- [Financiële rapporten genereren](generate-financial-report.md)
 - [Onderdelen van een financieel rapport](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>Rapporten met technische naslaginformatie
 De volgende rapporten bevatten Naslag informatie over de objecten:
 
-- [Rapport Gegevensentiteiten](../data-entities/data-entities-report.md)
+- [Informatie zoeken over standaardgegevensentiteiten](../data-entities/data-entities-report.md)
 - [Rapport Licentiecodes en configuratiesleutels](../sysadmin/license-codes-configuration-keys-report.md)
-- [Rapport SQL Server Reporting Services-rapporten](SSRS-report.md)
+- [Beschikbare SQL Server Reporting Services-rapporten (SSRS)](SSRS-report.md)
 - [Rapport over workflowtypen](../../fin-ops/organization-administration/workflow-types-report.md)

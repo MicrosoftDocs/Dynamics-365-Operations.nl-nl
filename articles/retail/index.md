@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e77fd279ddec5eb02e226776eecb1223283313c3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278101"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811921"
 ---
 # <a name="help-resources-for-dynamics-365-retail"></a>Help-bronnen voor Dynamics 365 Retail
 
@@ -81,10 +81,10 @@ U kunt verschillende onderdelen instellen voor het definiëren van de relaties t
 
 Als u bent gevraagd om uw omgeving aan te passen, of als u verantwoordelijk bent voor het implementeren en onderhouden van het systeem, bekijkt u naast de meer algemene inhoud ook de specifieke inhoud voor ontwikkelaars en systeembeheerders van Retail.
 
-- [Dynamics 365 Retail voor IT-professionals en ontwikkelaars](dev-itpro/dev-retail-home-page.md)
+- [Retail voor IT-professionals en ontwikkelaars](dev-itpro/dev-retail-home-page.md)
 - [Ontwikkeling en beheer voor Dynamics 365 Finance](../dev-itpro/dev-tools/developer-home-page.md)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 ### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
