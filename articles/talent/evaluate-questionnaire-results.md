@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517744"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813978"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>De resultaten van vragenlijsten bekijken en evalueren
 
@@ -57,7 +57,8 @@ Via de pagina **Antwoorden** kunt u details bekijken over antwoorden, verdiende 
 -   **Antwoordrapport** - Dit rapport geeft de antwoorden die de respondent voor elke vraag in de vragenlijst heeft geselecteerd.
 -   **Incorrecte antwoorden** – Dit rapport geeft informatie over de onjuiste antwoorden die de respondent heeft geselecteerd.
 
-**Opmerking:** het rapport **Resultaten** is alleen beschikbaar als u resultatengroepen op de vragenlijst gebruikt en u **Vragenlijsten** hebt geselecteerd op de pagina **Vragenlijsten**. Het rapport **Antwoord** en het rapport **Incorrecte antwoorden** zijn alleen beschikbaar als u **Antwoordrapport** hebt geselecteerd op de pagina **Vragenlijsten**.
+> [!NOTE]
+> Het rapport **Resultaten** is alleen beschikbaar als u resultatengroepen voor de vragenlijst gebruikt en u **Vragenlijsten** hebt geselecteerd op de pagina **Vragenlijsten**. Het rapport **Antwoord** en het rapport **Incorrecte antwoorden** zijn alleen beschikbaar als u **Antwoordrapport** hebt geselecteerd op de pagina **Vragenlijsten**.
 
 ## <a name="questionnaire-statistics"></a>Vragenlijststatistieken
 U kunt vragenlijststatistieken gebruiken voor het analyseren van de resultaten van een ingevulde vragenlijst die is gebaseerd op berekeningen die u definieert. Voer de volgende taken uit om berekeningen te definiëren:
@@ -77,7 +78,7 @@ De instellingen die u definieert, worden opgeslagen en kunnen worden gebruikt om
 
 [Vragenlijsten ontwerpen](design-questionnaires.md)
 
-[Vragenlijsten gebruiken](questionnaires.md)
+[Vragenlijsten](questionnaires.md)
 
-[Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)
+[Vragenlijsten plannen en distribueren](distribute-questionnaires.md)
 

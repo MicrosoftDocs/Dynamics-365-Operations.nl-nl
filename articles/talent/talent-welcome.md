@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: edc2f59752a32b9cd20902d0b7a1edfe3ba4d15b
-ms.sourcegitcommit: ff160a9f9879f3ec015ffef11fbc8b7c1b84a59d
+ms.openlocfilehash: 841ef8f2b7c319e0a6b3a9ce9a9e4959e70aa8cd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552945"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812759"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>Welkom bij Dynamics 365 Talent
 
@@ -53,10 +53,10 @@ Kennismaken met Dynamics 365 Talent door te kijken naar de video [Aan de slag me
 Tijdens het werken met Talent kunt u bepalen hoe u uw organisatie wilt structureren met behulp van elementen, zoals afdelingen, taken en posities. Dit zijn enkele van de basiselementen die u gaat configureren. Individuele werknemers worden toegewezen aan posities die aan taken zijn gekoppeld.
 
 -   [Uw werknemers organiseren met afdelingen, taken en posities](departments-jobs-positions.md)
--   [Bedrijfsspecifieke HR-parameters instellen](set-up-company-specific-hr-parameters.md)
--   [HR-parameters instellen voor rechtspersonen](set-up-hr-parameters-across-legal-entities.md) 
+-   [Bedrijfsspecifieke parameters voor Human Resources (HR) instellen](set-up-company-specific-hr-parameters.md)
+-   [Parameters voor Human Resources (HR) instellen voor rechtspersonen](set-up-hr-parameters-across-legal-entities.md) 
 -   [Veelgestelde vragen over personeelsacties](personnel-actions-faq.md)
--   [Overzicht van verlof en verzuim](leave-absence-overview.md)
+-   [Beheer van verlof en verzuim](leave-absence-overview.md)
 -   [Dynamics 365 Talent gebruiken: Verlof en verzuim (video)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [Personeelsbeheer in Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
@@ -64,8 +64,8 @@ Tijdens het werken met Talent kunt u bepalen hoe u uw organisatie wilt structure
 
 Talent bevat Attract, waarmee u kandidaten kunt identificeren, sollicitatiegesprekken kunt voeren en nieuwe medewerkers kunt aanstellen die beschikken over de vaardigheden die uw organisatie nodig heeft. Terwijl u van werving naar inhuur gaat, kan de app Onboard u helpen uw nieuwe werknemer in uw organisatie op te nemen door nauwkeurig aan te geven welke verwachtingen er worden gesteld, informatie te verstrekken die zij nodig hebben om aan de slag te gaan met collega's en hen voor te bereiden voor succes in hun nieuwe rol.  
 
-- [Overzicht van Attract](attract-overview.md)
-- [Overzicht van Onboard](create-onboarding-experience.md)
+- [Microsoft Dynamics 365 Talent - Functies en voorzieningen van Attract](attract-overview.md)
+- [Aan de slag met Onboard](create-onboarding-experience.md)
 
 ## <a name="retain-and-motivate-employees"></a>Werknemers vasthouden en motiveren
 
@@ -82,15 +82,15 @@ U kunt plannen instellen om effectief en op billijke wijze compensatie te behere
 U kunt doelen instellen, prestatiebeoordelingen uitvoeren en feedback volgen om uw werknemers te helpen hun loopbaandoelstellingen te realiseren zodat zij kunnen voorzien in essentiële zakelijke behoeften. U kunt bovendien werknemers helpen om benodigde vaardigheden te ontwikkelen door docenten, cursustypen, cursussen, cursusomschrijvingen, agenda's, paden en sessies in te stellen voordat u een docent aan een cursus toewijst of iemand inschrijft voor een cursus. Docenten moeten al bestaan als werknemers, sollicitanten of contactpersonen.
 
 -   [Prestatiebeheer](performance-management-overview.md)
--   [Personeelsvaardigheden en zakelijke behoeften afstemmen](skills.md)
--   [Training verstrekken via cursussen](courses.md)
+-   [Personeelsvaardigheden afstemmen op zakelijke behoeften](skills.md)
+-   [Trainingscursussen instellen](courses.md)
 -   [Beheer van werknemerontwikkeling in Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Vergoedingen maken en onderhouden
 
 Naast compensatie van uw personeel via lonen, salarissen en bonussen, kunt u vergoedingsprogramma's ontwikkelen, zoals een ziektekostenverzekering en pensioenplannen. U kunt ook vergoedingen beheren zoals leenprogramma's, waarbij uw bedrijf artikelen, zoals computers en telefoons, uitleent aan haar werknemers.
 
--   [Een vergoedingsprogramma beheren](manage-benefit-program.md)
+-   [Een vergoedingenprogramma definiëren en beheren](manage-benefit-program.md)
 -   [Beleid inzake geschiktheid voor vergoedingen](benefit-eligibility-policies.md)
 -   [Artikelen beheren die aan werknemers worden uitgeleend](loan-items.md)
 -   [Beheer van werknemervergoedingen in Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
@@ -107,6 +107,6 @@ Talent kan u helpen een veilige werkomgeving te handhaven die voldoet aan de toe
 U kunt vragenlijsten ontwerpen en laten invullen om informatie te verzamelen die voor allerlei doelen wordt gebruikt. Met de vragenlijstfunctie kunt u vragenlijsten ontwerpen en maken. Wanneer een vragenlijst klaar is, distribueert u deze op brede schaal of aan een specifieke groep respondenten om in te vullen. Nadat de respondenten hun antwoorden hebben verstrekt, kunt u de resultaten gaan bekijken en analyseren.
 
 -   [Vragenlijsten](questionnaires.md)
--   [Een vragenlijst ontwerpen](design-questionnaires.md)
--   [Een vragenlijst verspreiden en invullen](distribute-questionnaires.md)
--   [De resultaten van een vragenlijst bekijken en evalueren](evaluate-questionnaire-results.md)
+-   [Vragenlijst ontwerpen](design-questionnaires.md)
+-   [Vragenlijsten plannen en distribueren](distribute-questionnaires.md)
+-   [De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)

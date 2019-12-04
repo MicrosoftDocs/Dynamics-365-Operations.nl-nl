@@ -18,18 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e4bc3ed1507dfc7d0d507772591d15adc018de97
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 0ca69e0229d00ec6e2b824c289fec737b80b9a88
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653295"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773375"
 ---
 # <a name="asset-management-overview"></a>Overzicht van Activabeheer
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 
 Activabeheer is een geavanceerde module voor het beheren van activa en onderhoudstaken in Dynamics 365 Supply Chain Management. Activabeheer integreert naadloos met verschillende modules in Finance and Operations-apps. 

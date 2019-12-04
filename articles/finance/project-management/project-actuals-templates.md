@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0aeaa1ee4c35ca42a5382b3c7ff3519cba52996c
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 302ac0f456dd8a24dc02948ee657e359f5a9c844
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250525"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770330"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Werkelijke projectwaarden rechtstreeks vanuit Project Service Automation synchroniseren met het projectintegratiejournaal in Finance and Operations
 
@@ -50,7 +50,7 @@ De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen 
 
 ### <a name="template-and-tasks"></a>Sjabloon en taken
 
-Selecteer voor toegang tot de beschikbare sjablonen in het Microsoft PowerApps-beheercentrum de optie **Projecten** en selecteer vervolgens in de rechterbovenhoek de optie **Nieuw project** om openbare sjablonen te selecteren.
+Selecteer voor toegang tot de beschikbare sjablonen in het Microsoft Power Apps-beheercentrum de optie **Projecten** en selecteer vervolgens in de rechterbovenhoek de optie **Nieuw project** om openbare sjablonen te selecteren.
 
 De volgende sjabloon en onderliggende taken worden gebruikt voor het synchroniseren van werkelijke projectwaarden vanuit Project Service Automation naar Finance:
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251347"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814070"
 ---
 # <a name="prospect-to-cash"></a>Van prospect naar contant geld
 
@@ -36,12 +36,12 @@ Bekijk de korte YouTube-video voor meer informatie over de integratie van Integr
 
 In de huidige versie biedt de oplossing Prospect naar contant geld de volgende typen directe synchronisatie:
 
-- [Rekeningen in Sales onderhouden en direct vanuit Sales naar Supply Chain Management synchroniseren](accounts-template-mapping-direct.md)
-- [Producten in Supply Chain Management onderhouden en direct met Sales synchroniseren](products-template-mapping-direct.md)
-- [Contactpersonen in Sales onderhouden en direct synchroniseren met contactpersonen of klanten in Supply Chain Management](contacts-template-mapping-direct.md)
-- [Verkoopoffertes rechtstreeks vanuit Sales synchroniseren met Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
+- [Rekeningen rechtstreeks vanuit Sales synchroniseren met klanten in Supply Chain Management](accounts-template-mapping-direct.md)
+- [Producten rechtstreeks vanuit Supply Chain Management synchroniseren met producten in Sales](products-template-mapping-direct.md)
+- [Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Supply Chain Management](contacts-template-mapping-direct.md)
+- [Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
 - [Verkooporders rechtstreeks tussen Sales en Supply Chain Management synchroniseren](sales-order-template-mapping-direct-two-ways.md)
-- [Verkoopfactuur rechtstreeks vanuit Supply Chain Management synchroniseren met Sales](sales-invoice-template-mapping-direct.md)
+- [Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Supply Chain Management naar Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>Systeemvereisten voor Supply Chain Management
 Integratie van Prospect met contant geld wordt ondersteund door de volgende versies:

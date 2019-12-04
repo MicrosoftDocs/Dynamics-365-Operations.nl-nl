@@ -1,6 +1,6 @@
 ---
-title: Intelligente aanbevelingen
-description: In dit onderwerp wordt uitgelegd hoe machine learning kan worden gebruikt voor aanbevelingen van functies en sollicitanten.
+title: Intelligente aanbevelingen in Attract
+description: In dit artikel wordt uitgelegd hoe machine learning kan worden gebruikt voor aanbevelingen van functies en sollicitanten in Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/16/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741747"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832786"
 ---
-# <a name="intelligent-recommendations"></a>Intelligente aanbevelingen
+# <a name="intelligent-recommendations-in-attract"></a>Intelligente aanbevelingen in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Machine learning kan wervers en aanstellend managers helpen snel de beste kandidaten voor een positie te bepalen. Het kan prospects ook helpen de positie te vinden die het best past bij hun profiel en interesses. Naarmate deze functies worden gebruikt en feedback wordt gegeven, worden aanbevelingen beter.
 
 > [!NOTE] 
 > - De intelligente aanbevelingsfuncties zijn alleen beschikbaar met de [Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Functionaliteit die in dit onderwerp wordt vermeld, is beschikbaar als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Als u deze functie wilt gebruiken, vraagt u een beheerder om deze in te schakelen via **Beheercentrum** in Attract. Stel **Kandidaataanbeveling**, **Functieaanbeveling** en **Prospectaanbeveling** in op **Aan**. Zie voor meer informatie [Toegang tot voorbeeldfuncties in Talent](./access-preview-feature.md). 
+> - Functionaliteit die in dit onderwerp wordt vermeld, is beschikbaar als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Als u deze functie wilt gebruiken, vraagt u een beheerder om deze in te schakelen via **Beheercentrum** in Attract. Stel **Kandidaataanbeveling**, **Functieaanbeveling** en **Prospectaanbeveling** in op **Aan**. Zie voor meer informatie [Toegang tot voorbeeldfuncties in Microsoft Dynamics 365 Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Aanbevelingen voor kandidaat

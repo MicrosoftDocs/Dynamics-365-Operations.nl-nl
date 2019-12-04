@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db85db993c5368eaaa6ddfcc3dd02a2c2aa2be01
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 184a6bf9ad43280de135a326688dedd4a5f03a6f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188298"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772600"
 ---
 # <a name="letters-of-credit"></a>Kredietbrieven
 
@@ -46,10 +46,10 @@ Een kredietbrief kan herroepelijk of onherroepelijk zijn. De aard van een kredie
 
 Zie de volgende onderwerpen voor meer informatie:
 
-[Een kredietbrief importeren](tasks/import-letter-credit.md)
+[Kredietbrief importeren](tasks/import-letter-credit.md)
 
-[Een kredietbrief exporteren](tasks/export-letter-credit.md)
+[Kredietbrief exporteren](tasks/export-letter-credit.md)
 
-[Een bankfaciliteit maken voor een kredietbrief](tasks/create-bank-facility-agreement-letter-credit.md)
+[Een bankfaciliteitsovereenkomst maken voor een kredietbrief](tasks/create-bank-facility-agreement-letter-credit.md)
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6206b3a1ac298af98e4b69b6800b9a493658c4ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ecaeb80f3cda2ee24533ed263df63cc10c5ffc65
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181284"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771091"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>De levenscyclus van de configuratie van elektronische rapportage (ER) beheren
 
@@ -33,7 +33,7 @@ In dit onderwerp wordt beschreven hoe u de levenscyclus van ER-configuratie (ele
 
 ## <a name="overview"></a>Overzicht
 
-Elektronische rapportage (ER) is een engine die officieel vereiste en land/regio-specifieke elektronische documenten ondersteunt. Over het algemeen wordt er bij ER uitgegaan van een mogelijkheid om de volgende taken voor één elektronisch document uit te voeren. Zie voor meer informatie [Overzicht elektronische rapportage](general-electronic-reporting.md).
+Elektronische rapportage (ER) is een engine die officieel vereiste en land/regio-specifieke elektronische documenten ondersteunt. Over het algemeen wordt er bij ER uitgegaan van een mogelijkheid om de volgende taken voor één elektronisch document uit te voeren. Zie voor meer informatie [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md).
 
 - Een sjabloon voor een elektronisch document ontwerpen:
 
@@ -87,4 +87,4 @@ ER-configuraties die zijn ontworpen in de ontwikkelomgeving, kunnen worden geüp
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van elektronische rapportage](general-electronic-reporting.md)
+[Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2e5144517a880c41cf04998ed53a826a75ecefb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3d1d8952324bb16bcfa6a8b42fc4f157edb75cf1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177252"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811298"
 ---
 # <a name="electronic-signatures-overview"></a>Overzicht van Elektronische handtekeningen
 
@@ -44,7 +44,7 @@ Elektronische handtekeningen zijn volgens de wetgeving vereist voor verschillend
 
 U kunt elektronische handtekeningen gebruiken voor belangrijke bedrijfsprocessen. Een aantal processen bevat ingebouwde functies voor elektronische handtekeningen. Daarnaast kunt u aangepaste vereisten voor handtekeningen maken voor databasetabellen en -velden.
 
-Elektronische handtekeningen bevatten ingebouwde functionaliteit voor digitale handtekeningen. Elke gebruiker die documenten ondertekent, moet een geldig cryptografisch certificaat ophalen. Wanneer een document wordt ondertekend, wordt de persoonlijke sleutel die aan dit certificaat is gekoppeld, gevalideerd. Elektronische-handtekeninggegevens worden geregistreerd in een logboek voor de benodigde informatie voor een audittrail. Zie [Elektronische handtekeningen instellen (taakbegeleiding)](tasks/set-up-electronic-signatures.md) voor meer informatie over het instellen van elektronische handtekeningen.
+Elektronische handtekeningen bevatten ingebouwde functionaliteit voor digitale handtekeningen. Elke gebruiker die documenten ondertekent, moet een geldig cryptografisch certificaat ophalen. Wanneer een document wordt ondertekend, wordt de persoonlijke sleutel die aan dit certificaat is gekoppeld, gevalideerd. Elektronische-handtekeninggegevens worden geregistreerd in een logboek voor de benodigde informatie voor een audittrail. Zie [Elektronische handtekeningen instellen](tasks/set-up-electronic-signatures.md) voor meer informatie over het instellen van elektronische handtekeningen.
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Gebruikers die toegang tot elektronische handtekeningen nodig hebben
 

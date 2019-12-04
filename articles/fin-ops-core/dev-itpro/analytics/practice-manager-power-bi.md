@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6e6b8d6243c1f7c5831baaee91baf38d51e0c26
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185239"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769992"
 ---
 # <a name="practice-manager-power-bi-content"></a>Power BI-inhoud Praktijkbeheerder
 
@@ -58,7 +58,7 @@ De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het da
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 
-De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud **Praktijkbeheerder** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
+De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud **Praktijkbeheerder** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
 
 In de volgende secties worden de samengevoegde metingen uitgelegd die worden gebruikt in elke entiteit.
 

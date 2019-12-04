@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 24500ff46cc77ca8fa59c0c16427d9f05f33a87e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 04b3fb3038a1373e203ec240a0163cf67de655cc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549983"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813832"
 ---
 # <a name="set-up-consignment"></a>Consignatie instellen
 
@@ -31,7 +31,7 @@ ms.locfileid: "1549983"
 
 In dit onderwerp wordt uitgelegd hoe u bewerkingen voor inkomende consignatievoorraad configureert.
 
-De consignatievoorraad is de voorraad die eigendom is van een leverancier, maar die op uw locatie is opgeslagen. Wanneer u klaar bent om de voorraad te verbruiken of te gebruiken, neemt u het eigendom van de voorraad over. In dit onderwerp worden de instellingen beschreven die nodig zijn voor consignatieprocessen. Meer informatie over consignatieprocessen vindt u in [Consignatie](consignment.md).
+De consignatievoorraad is de voorraad die eigendom is van een leverancier, maar die op uw locatie is opgeslagen. Wanneer u klaar bent om de voorraad te verbruiken of te gebruiken, neemt u het eigendom van de voorraad over. In dit onderwerp worden de instellingen beschreven die nodig zijn voor consignatieprocessen. Meer informatie over consignatieprocessen vindt u in [Consignatie instellen](consignment.md).
 
 ## <a name="inventory-owners"></a>Voorraadeigenaren
 Om fysieke binnenkomende consignatievoorraad te kunnen registreren, moet u een leverancier/eigenaar definiëren. Dit doet u op de pagina **Voorraadeigenaar**. Als u een **Leveranciersaccount** selecteert, worden standaardwaarden gegenereerd voor de velden **Naam** en **Eigenaar**. De waarde in het veld **Eigenaar** is zichtbaar voor de leverancier. Het kan nuttig zijn om deze waarde te wijzigen, als de namen van uw leveranciersaccounts niet eenvoudig herkenbaar zijn voor externe partijen. U kunt de waarde in het veld **Eigenaar** bewerken, maar alleen tot het moment dat u de **Voorraadeigenaar**-record opslaat. In het veld **Naam** wordt de naam ingevuld van de partij waaraan de leveranciersaccount is gekoppeld. Deze waarde kan niet worden gewijzigd.
@@ -49,4 +49,4 @@ In het journaal **Wijziging aan voorraadeigendom** wordt de overdracht van eigen
 [![journaal-wijziging-voorraadeigendom](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Leverancierssamenwerking in consignatieprocessen
-Als uw leveranciers de interface van de leverancierssamenwerking gebruiken, kunnen ze daarmee het verbruik van voorraad op uw locatie volgen. Meer informatie over het configureren van leveranciers voor leverancierssamenwerking vindt u in [Beveiliging configureren voor leverancierssamenwerkingsgebruikers](../procurement/configure-security-vendor-portal-users.md).
+Als uw leveranciers de interface van de leverancierssamenwerking gebruiken, kunnen ze daarmee het verbruik van voorraad op uw locatie volgen. Zie [Gebruikersbeveiliging in leveranciersportal](../procurement/configure-security-vendor-portal-users.md) voor meer informatie over het configureren van leveranciers voor leverancierssamenwerking.

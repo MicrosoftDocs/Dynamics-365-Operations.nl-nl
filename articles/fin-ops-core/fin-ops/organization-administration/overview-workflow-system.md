@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190000"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812358"
 ---
 # <a name="workflow-system-overview"></a>Overzicht van Workflowsysteem
 
@@ -57,18 +57,18 @@ Als uw organisatie werkt met het werkstroomsysteem, levert dat tal van voordelen
 
 ## <a name="workflow-content"></a>Workflowinhoud
 
-+ [Workflowarchitectuur](workflow-system-architecture.md)
++ [Workflowsysteemarchitectuur](workflow-system-architecture.md)
 + [Workflowelementen](workflow-elements.md)
-+ [Workflowacties](workflow-actions.md)
-+ [Een workflow maken](create-workflow.md)
++ [Acties in goedkeuringsprocessen voor workflows](workflow-actions.md)
++ [Overzicht van Workflows maken](create-workflow.md)
 + [Workfloweigenschappen configureren](configure-workflow-properties.md)
-+ [Een handmatige taak configureren in een workflow](configure-manual-task-workflow.md)
-+ [Een geautomatiseerde taak configureren in een workflow](configure-automated-task-workflow.md)
-+ [Een goedkeuringsproces configureren in een workflow](configure-approval-process-workflow.md)
-+ [Een goedkeuringsstap configureren in een workflow](configure-approval-step-workflow.md)
-+ [Een handmatige beslissing configureren in een workflow](configure-manual-decision-workflow.md)
-+ [Een voorwaardelijke beslissing configureren in een workflow](configure-conditional-decision-workflow.md)
-+ [Een parallelle activiteit in een workflow configureren](configure-parallel-activity-workflow.md)
-+ [Een parallelle vertakking in een workflow configureren](configure-parallel-branch-workflow.md)
-+ [Een workflow voor regelartikelen configureren](configure-line-item-workflow.md)
-+ [Veelgestelde vragen workflow](workflow-FAQ.md)
++ [Handmatige taken configureren in een workflow](configure-manual-task-workflow.md)
++ [Geautomatiseerde taken configureren in een workflow](configure-automated-task-workflow.md)
++ [Goedkeuringsprocessen configureren in een workflow](configure-approval-process-workflow.md)
++ [Goedkeuringsstappen configureren in een workflow](configure-approval-step-workflow.md)
++ [Handmatige beslissingen configureren in een workflow](configure-manual-decision-workflow.md)
++ [Voorwaardelijke beslissingen configureren in een workflow](configure-conditional-decision-workflow.md)
++ [Parallelle activiteiten in een workflow configureren](configure-parallel-activity-workflow.md)
++ [Parallelle vertakkingen in een workflow configureren](configure-parallel-branch-workflow.md)
++ [Workflows voor regelitems configureren](configure-line-item-workflow.md)
++ [Veelgestelde vragen over werkstromen](workflow-FAQ.md)

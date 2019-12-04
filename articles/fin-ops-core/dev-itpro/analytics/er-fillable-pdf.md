@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181445"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771301"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-configuraties ontwerpen om in te vullen in PDF-sjablonen
 
@@ -46,7 +46,7 @@ Voordat u begint, moet u een van de volgende typen toegang hebben, afhankelijk v
     - Functioneel consultant elektronische rapportage
     - Systeembeheerder
 
-U moet ook de procedure [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md) uitvoeren.
+U moet ook de procedure [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md) uitvoeren.
 
 Tot slot moet u de volgende bestanden downloaden vanaf [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
 
@@ -300,5 +300,5 @@ In de volgende afbeelding ziet u een voorbeeld van een andere pagina van het geg
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-- [Een ER-configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling](tasks/er-design-reports-openxml-2016-11.md)
-- [ER-configuraties ontwerpen om rapporten in Microsoft Word-indeling te genereren](tasks/er-design-configuration-word-2016-11.md)
+- [ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)](tasks/er-design-reports-openxml-2016-11.md)
+- [ER-configuraties ontwerpen om rapporten in Word-indeling te genereren](tasks/er-design-configuration-word-2016-11.md)

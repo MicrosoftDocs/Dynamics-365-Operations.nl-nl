@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7b6b3cced92920ef5a253ca15793f26f244475fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186596"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771840"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Overzicht van Financiële consolidaties en valutaomzetting
 
@@ -91,7 +91,7 @@ De derde optie is het gebruik van consolidatierekeninggroepen. U kunt zoveel con
 ![Toewijzing op de pagina Aanvullende consolidatierekeningen](./media/additional-consolidation-accounts.png "Toewijzing op de pagina Aanvullende consolidatierekeningen")
 
 ## <a name="consolidating-online"></a>Online consolideren
-Zie voor informatie over het invoeren van details van online consolidaties [Online consolideren](./consolidate-online.md).
+Zie voor informatie over het invoeren van details van online consolidaties [Online financiële consolidaties](./consolidate-online.md).
 
 ## <a name="managing-consolidation-transactions"></a>Consolidatietransacties beheren
 Als u de resultaten van de consolidatie wilt bekijken, hebt u meerdere opties:

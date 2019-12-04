@@ -1,9 +1,9 @@
 ---
-title: Systeemvereisten en updatebeleid voor Talent
-description: In dit onderwerp worden vereisten voor Dynamics 365 Talent weergegeven. Ook wordt het updatebeleid beschreven.
+title: Systeemvereisten voor Talent
+description: In dit onderwerp worden vereisten voor Dynamics 365 Talent weergegeven.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/02/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
+ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024155"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2818474"
 ---
-# <a name="talent-system-requirements-and-update-policy"></a>Systeemvereisten en updatebeleid voor Talent
+# <a name="talent-system-requirements"></a>Systeemvereisten voor Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -54,7 +54,7 @@ Als u de laatste versie van elke webbrowser wilt opzoeken, gaat u naar de websit
 
 ## <a name="supported-microsoft-office-applications"></a>Ondersteunde Microsoft Office-toepassingen
 
-* Als u de invoegtoepassingen voor Microsoft Excel en Word wilt uitvoeren, moet Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over de versievereisten [Probleemoplossing voor Office-integratie](../dev-itpro/office-integration/office-integration-troubleshooting.md "Probleemoplossing voor Office-integratie").
+* Als u de invoegtoepassingen voor Microsoft Excel en Word wilt uitvoeren, moet Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over de versievereisten [Probleemoplossing voor Office-integratie](../dev-itpro/office-integration/office-integration-troubleshooting.md "Problemen met Office-integratie oplossen").
 * Als u documenten wilt weergeven die worden gegenereerd door de functie Exporteren naar Excel of Exporteren naar Word, moet Microsoft Office 2007 of hoger zijn geïnstalleerd.
 
 ## <a name="regional-availability-languages-and-localization"></a>Regionale beschikbaarheid, talen en lokalisatie
@@ -66,8 +66,3 @@ U kunt een PDF-bestand downloaden met de landen, regio's en talen die door Talen
 
 Zie [Globalisatie](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region) als u een ontwikkelaar bent die geïnteresseerd is in het maken van land- of regiospecifieke aanpassingen of in het maken van een oplossing voor een land dat of regio die momenteel niet door Microsoft wordt ondersteund.
 
-## <a name="update-policy"></a>Updatebeleid
-
-Talent wordt aangeboden via de cloud. Updates voor Talent vinden doorlopend plaats en worden automatisch toegepast door Microsoft.
-
-Er worden regelmatig updates uitgebracht en doorgevoerd in alle omgevingen. Talent wordt ondersteund volgens het [Microsoft Support Lifecycle-beleid](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft-ondersteuningslevensduur"), dat consistente en voorspelbare richtlijnen bevat voor de beschikbaarheid van productondersteuning.

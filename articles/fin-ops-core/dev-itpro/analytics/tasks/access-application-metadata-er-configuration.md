@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bfe007995c894d6cc86d07ef2b52da65e32e950
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182733"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772458"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>De toepassingsmetagegevens gebruiken met de ER‑configuratie
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configuration Service (RCS) in de rol van systeembeheerder of ER-ontwikkelaar een nieuwe ER-modeltoewijzing kan maken met gebruik van de metagegevens van de toepassing. De metagegevens van de toepassing worden benaderd via een ER-metagegevensconfiguratie die een voorbeeldset bevat van metagegevens voor de toegang tot buitenlandse handelstransacties. Als u deze stappen wilt uitvoeren, moet u eerst in RCS de stappen voltooien in het onderwerp [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md)‑procedure. Voer vervolgens de stappen uit in het onderwerp, [(ER) Toepassingsmetagegevens voorbereiden voor gebruik in RCS](prepare-application-metadata-rcs.md).
+In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configuration Service (RCS) in de rol van systeembeheerder of ER-ontwikkelaar een nieuwe ER-modeltoewijzing kan maken met gebruik van de metagegevens van de toepassing. De metagegevens van de toepassing worden benaderd via een ER-metagegevensconfiguratie die een voorbeeldset bevat van metagegevens voor de toegang tot buitenlandse handelstransacties. Als u deze stappen wilt uitvoeren, moet u eerst in RCS de stappen voltooien in het onderwerp [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md)‑procedure. Voer vervolgens de stappen uit in het onderwerp, [Toepassingsmetagegevens voorbereiden voor gebruik in RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Vereisten
 1. Ga naar **Alle werkgebieden** > **Elektronische rapportage**. 
@@ -35,7 +35,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 
 ## <a name="import-metadata-configuration"></a>Importeren metagegevensconfiguratie 
 1. Klik op **Metagegevensconfiguraties**. 
-2. De ER metagegevensconfiguratie importeren die metadata bevat uit de toepassing die is geconfigureerd voor het genereren van elektronische documenten voor buitenlandse handel. Deze ER metagegevensconfiguratie is geëxporteerd als XML-bestand terwijl de stappen in de [(ER) Toepassingsmetagegevens voorbereiden voor gebruik in RCS](prepare-application-metadata-rcs.md)‑procedure zijn voltooid. 
+2. De ER metagegevensconfiguratie importeren die metadata bevat uit de toepassing die is geconfigureerd voor het genereren van elektronische documenten voor buitenlandse handel. Deze ER-metagegevensconfiguratie is geëxporteerd als XML-bestand terwijl de stappen in de procedure [Toepassingsmetagegevens voorbereiden voor gebruik in RCS](prepare-application-metadata-rcs.md) zijn voltooid. 
 3. Klik op **Uitwisselen**. 
 4. Klik op **Laden uit XML-bestand**. 
 5. Klik op **Bladeren** en selecteer het bestand 'Buitenlandse handel metagegevens.xml'. 

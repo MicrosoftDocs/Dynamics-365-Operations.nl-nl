@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550852"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772382"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Bijna realtime gegevensintegratie met Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 In de huidige digitale wereld gebruiken bedrijfsecosystemen de Microsoft Dynamics 365-toepassingen als geheel. Omdat gegevens van mensen, klanten, bewerkingen en IoT-apparaten (Internet of Things) in één bron terechtkomen, ontstaat er een mogelijkheid voor digitale feedbacklussen. Om deze ervaring te bereiken, is integratie tussen Finance and Operations-apps en andere Dynamics 365-toepassingen essentieel. Bepaalde toepassingen zijn gebouwd op Common Data Service. Dankzij de integratie tussen Finance and Operations-apps en Common Data Service kunnen andere toepassingen coherent en vloeiend communiceren met Finance and Operations.
 
@@ -38,13 +36,16 @@ Finance and Operations-apps en Common Data Service bieden voor near realtime geg
 
 ![Overzichtsdiagram van de architectuur](media/dual-write-overview.jpg)
 
-De volgende waardeproposities zijn beschikbaar voor klanten:
+De volgende waardeproposities zijn beschikbaar:
 
 + [Organisatiehiërarchie in Common Data Service](dual-write-organization.md)
 + [Bedrijfsconcept in Common Data Service](dual-write-company.md)
 + [Geïntegreerd klantmodel](dual-write-customer.md)
++ [Geïntegreerd grootboek](dual-write-ledger.md)
++ [Uniforme productervaring](dual-write-product.md)
 + [Geïntegreerd leveranciersmodel](dual-write-vendor.md)
-+ Uniform productmodel
++ [Geïntegreerde locaties en magazijnen](dual-write-sites-and-warehouses.md)
++ [Geïntegreerde hoofdgegevens voor belasting](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>Systeemvereisten
 
@@ -58,7 +59,7 @@ Synchrone, bidirectionele, near realtime gegevensstromen vereisen de volgende ve
 Volg deze stappen om de integratie tussen Finance and Operations-apps en Common Data Service in te stellen.
     
 1. Voor de installatie van het systeem voor Twee keer wegschrijven raadpleegt u de [stapsgewijze handleiding](https://aka.ms/dualwrite-docs) over het aankondigen van de preview voor Twee keer wegschrijven.
-2. Download en installeer de oplossing vanuit de groep [Integratie tussen Finance and Operations, Common Data Service en Customer Engagement](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096)Yammer. Het pakket bevat vijf oplossingen:
+2. Download en installeer de oplossing vanuit de Yammer-groep [Integratie tussen Finance and Operations, Common Data Service en Customer Engagement](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096). Het pakket bevat vijf oplossingen:
 
     + Dynamics365Company
     + CurrencyExchangeRates

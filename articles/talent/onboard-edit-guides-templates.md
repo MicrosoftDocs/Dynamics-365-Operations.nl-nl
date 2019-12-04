@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551997"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812874"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Handleidingen en sjablonen voor onboarding bewerken in Dynamics 365 Talent - Onboard
 
@@ -124,7 +124,7 @@ Uw wijzigingen doorvoeren:
 
     - Als u een YouTube-video wilt toevoegen, sleept u het item **YouTube** naar het bewerkingsgebied, voert u een naam en omschrijving voor de activiteit in en voert u de URL voor de YouTube-video in.
     - Als u een Sway-presentatie of -nieuwsbrief wilt toevoegen, sleept u het item **Sway** naar het bewerkingsgebied, voert u een naam en omschrijving voor de activiteit in en voert u de ingesloten URL voor de Sway-presentatie of -nieuwsbrief in.
-    - Als u een PowerApps-app wilt toevoegen, sleept u het item **PowerApps** naar het bewerkingsgebied, voert u een naam en omschrijving voor de activiteit in en selecteert u de PowerApps-app of voert u de id van de PowerApps-app in.
+    - Als u een Microsoft Power Apps-app wilt toevoegen, sleept u het item **Power Apps** naar het bewerkingsgebied, voert u een naam en omschrijving voor de activiteit in en selecteert u de Power Apps-app of voert u de id van de Power Apps-app in.
     - Als u een Microsoft Stream-video wilt toevoegen, sleept u het item **Microsoft Stream** naar het bewerkingsgebied, voert u een naam en omschrijving voor de activiteit in en voert u de URL voor de Microsoft Stream-video in.
     - Als u een Microsoft Forms-formulier wilt toevoegen, sleept u het item **Microsoft Forms** naar het bewerkingsgebied, voert u een naam en omschrijving voor de activiteit in, voert u de URL voor het Microsoft Forms-formulier in en geeft u de grootte van het schermgebied op.
     - Als u een iframe met webinhoud wilt toevoegen, sleept u het item **Webinhoud (iframe)** naar het bewerkingsgebied, voert u een naam en omschrijving voor de activiteit in, voert u de URL voor de webinhoud in en geeft u de grootte van het schermgebied op.
@@ -186,6 +186,6 @@ Als u een contactpersoon wilt bewerken, selecteert u de knop **Bewerken** (het p
 ### <a name="see-also"></a>Zie ook
 
 - [De Onboard-app uitproberen of kopen](https://dynamics.microsoft.com/talent/onboard/)
-- [Nieuwe functies](./whats-new.md)
-- [Opmerkingen bij release](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Ondersteuning](./talent-support.md)
+- [Nieuwe of gewijzigde functies in Dynamics 365 Talent](./whats-new.md)
+- [Vrijgaveplannen](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Ondersteuning voor Microsoft Dynamics 365 Talent](./talent-support.md)

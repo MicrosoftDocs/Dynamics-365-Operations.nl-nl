@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc1e1eb9d8ede1d07a873ca98a1c385cf0126c3f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5985042567a29f5a9cac38912cbf9c3c0eb9c8bd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557518"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814462"
 ---
 # <a name="nonconformance-management"></a>Niet-conformiteitsbeheer
 
@@ -49,8 +49,8 @@ Ga als volgt te werk om niet-conformeringsbeheer in te schakelen:
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Een niet-conformiteit maken en verwerken (Taakbegeleiding)](tasks/create-process-non-conformance.md)
+[Een conformiteit maken en verwerken](tasks/create-process-non-conformance.md)
 
 [Processen voor kwaliteitsbeheer](quality-management-processes.md)
 
-[Vereisten voor niet-conformiteitsbeheer instellen (Taakbegeleiding)](tasks/set-up-prerequisites-nonconformance-management.md)
+[Vereisten voor niet-conformeringsbeheer instellen](tasks/set-up-prerequisites-nonconformance-management.md)

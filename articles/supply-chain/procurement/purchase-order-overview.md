@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572191"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815360"
 ---
 # <a name="purchase-order-overview"></a>Overzicht van inkooporders
 
@@ -41,8 +41,8 @@ In de werkruimten **Voorbereiding van inkooporder** en **Inkooporderontvangst en
 
 De volgende artikelen bieden een overzicht van de verschillende fasen die een inkooporder doorloopt:
 
--   [Inkooporder maken](purchase-order-creation.md)
--   [Goedkeuring en bevestiging van inkooporder](purchase-order-approval-confirmation.md)
+-   [Inkooporders maken](purchase-order-creation.md)
+-   [Inkooporders goedkeuren en bevestigen](purchase-order-approval-confirmation.md)
 -   [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
 -   [Overzicht van leveranciersfacturen](../../financials/accounts-payable/vendor-invoices-overview.md)
 
@@ -82,9 +82,9 @@ Het veld **Goedkeuringsstatus** wordt gebruikt wanneer een inkooporder een contr
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Inkooporder maken](purchase-order-creation.md)
+[Inkooporders maken](purchase-order-creation.md)
 
-[Goedkeuring en bevestiging van inkooporder](purchase-order-approval-confirmation.md)
+[Inkooporders goedkeuren en bevestigen](purchase-order-approval-confirmation.md)
 
 [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
 

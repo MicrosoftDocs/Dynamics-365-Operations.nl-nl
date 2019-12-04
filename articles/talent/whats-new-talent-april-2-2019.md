@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 86d81d60fcbc77375f3b8c525e8c084e3a3d8a99
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026066"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773688"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (2 april 2019)
 
@@ -63,7 +63,7 @@ Zie voor meer details over Platformupdate 25 voor Finance and Operations [Voorbe
 In veel organisaties hebben managers voor compensaties en vergoedingen mogelijk alleen toegang tot bepaalde compensatierecords. Deze kunnen records bevatten voor leidinggevenden of regionale werknemers. Met deze wijziging kan HR compensatieplannen beheren en onderhouden voor verschillende werknemersgroepen in de organisatie. U kunt beveiligingsrollen toewijzen aan vaste en variabele regelingen. Deze beveiligingsrollen bepalen de toegang tot regelingen en gerelateerde werknemersgegevens, zoals salaris- of bonusrecords, zodat alleen die rollen compensatie voor de werknemersgroepen kunnen verwerken.
 
 ### <a name="upgrade-to-common-data-service"></a>Upgrade naar Common Data Service
-Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-Beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het Microsoft Power Apps-Beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Preview
 

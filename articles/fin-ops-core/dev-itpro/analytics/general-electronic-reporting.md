@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578236"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771068"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -71,7 +71,7 @@ Een modeltoewijzing die ondersteuning biedt voor uitgaande elektronische documen
 
 - Er kunnen verschillende gegevenstypen worden gebruikt als gegevensbronnen voor een gegevensmodel. Er kan bijvoorbeeld gebruik worden gemaakt van tabellen, gegevensentiteiten, methoden of opsommingen.
 - Er worden gebruikerinvoerparameters ondersteund die kunnen worden gedefinieerd als gegevensbronnen voor een gegevnsmodel wanneer bepaalde gegevens moeten worden opgegeven tijdens de uitvoering.
-- Hij biedt ondersteuning voor de transformatie van gegevens in de vereiste groepen. Ook kunt u hiermee filteren, sorteren en gegevens optellen en logische berekende velden toevoegen die zijn ontwikkeld door middel van formules die vergelijkbaar zijn met Microsoft Excel-formules. Zie voor meer informatie het onderwerp [Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md).
+- Hij biedt ondersteuning voor de transformatie van gegevens in de vereiste groepen. Ook kunt u hiermee filteren, sorteren en gegevens optellen en logische berekende velden toevoegen die zijn ontwikkeld door middel van formules die vergelijkbaar zijn met Microsoft Excel-formules. Zie voor meer informatie het onderwerp [Formuleontwerper in elektronische rapportage (ER)](general-electronic-reporting-formula-designer.md).
 
 
 Een modeltoewijzing die ondersteuning biedt voor inkomende elektronische documenten, heeft de volgende mogelijkheden:
@@ -362,5 +362,5 @@ Met ER kunt u automatisch wijzigingen in de meest recente versie van het basison
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-- [Lokalisatievereisten – Een configuratie voor elektronische rapportage maken](electronic-reporting-configuration.md)
-- [De levenscyclus van de configuratie van elektronische rapportage beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [ER-configuraties (Elektronische rapportage) maken](electronic-reporting-configuration.md)
+- [De levenscyclus van de configuratie van elektronische rapportage (ER) beheren](general-electronic-reporting-manage-configuration-lifecycle.md)

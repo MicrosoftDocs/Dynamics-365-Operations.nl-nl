@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622763"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830181"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Integratie van Dynamics 365 Talent met Dynamics 365 Finance - veelgestelde vragen
 
@@ -48,7 +48,7 @@ Sjablonen vormen het beginpunt. U kunt uw eigen sjabloon maken, maar een sjabloo
 
 Common Data Service bevat momenteel geen financiële dimensies en daardoor maken ze geen deel uit van de standaardsjabloon. Deze entiteit is gepland, maar momenteel is nog niet bekend wanneer deze beschikbaar is.
 
-Voor gegevens die zich bevinden in Finance maar niet in Talent, koppelt u de twee systemen met behulp van **Koppelingen configureren** in Talent. Zie voor meer informatie over het configureren van koppelingen tussen Talent en Finance [Wat is nieuw of gewijzigd in Dynamics 365 Talent: Core HR (31 oktober 2018)](whats-new-talent-october-31.md).
+Voor gegevens die zich bevinden in Finance maar niet in Talent, koppelt u de twee systemen met behulp van **Koppelingen configureren** in Talent. Zie voor meer informatie over het configureren van koppelingen tussen Talent en Finance [Wat is nieuw of gewijzigd in Dynamics 365 Talent - Core HR (31 oktober 2018)](whats-new-talent-october-31.md).
 
 ![Financiële dimensies toewijzen](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ U kunt met behulp van 'Geavanceerde query' brongegevens filteren en wijzigen voo
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Kan ik opgeven welke velden moeten worden verzonden naar Finance voor een bepaalde entiteit?
 
 Velden kunnen worden toegevoegd aan of verwijderd uit de integratietaak. Niet alle gegevensvelden die aanwezig zijn in de entiteit Common Data Service worden ingevuld vanuit Core HR.
-Aanvullende gegevens kunnen worden ingevuld via PowerApps.
+Aanvullende gegevens kunnen worden ingevuld via Power Apps.
 
 ![Velden toevoegen aan en verwijderen uit een integratietaak](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -119,19 +119,19 @@ Zoek de tijd op van de uitvoeringsgeschiedenis van Gegevensintegrator en zoek na
 
 1. Leg de taakindex in Gegevensintegrator vast (in dit voorbeeld is dit '9').
 
-![Taakindex in Gegevensintegrator vastleggen](media/CaptureTaskIndex.png)
+    ![Taakindex in Gegevensintegrator vastleggen](media/CaptureTaskIndex.png)
 
 2. Houd de uitvoeringstijd van het project bij.
 
-![Uitvoeringstijd van project bijhouden](media/CaptureTimeOfExecution.png)
+    ![Uitvoeringstijd van project bijhouden](media/CaptureTimeOfExecution.png)
 
 3. Geef index - 1 op in Finance. In dit voorbeeld komt het project met achtervoegsel '8' en uitvoeringstijd van index '0' overeen met de uitvoeringstijd in stap 2.
 
-![Index identificeren](media/IdentifyIndex.png)
+    ![Index identificeren](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Nadat ik Talent en Finance heb geïntegreerd, zie ik mijn Talent-gegevens in Finance niet. Wat moet ik doen?
 
-De integratie met Finance is een proces dat uit twee stappen bestaat. Controleer eerst of de Talent-gegevens zijn bijgewerkt en beschikbaar zijn in Common Data Service. Dit is een bijna realtime-synchronisatie en kan in PowerApps worden geverifieerd door te kijken naar de gegevens in de gegevensentiteiten.
+De integratie met Finance is een proces dat uit twee stappen bestaat. Controleer eerst of de Talent-gegevens zijn bijgewerkt en beschikbaar zijn in Common Data Service. Dit is een bijna realtime-synchronisatie en kan in Power Apps worden geverifieerd door te kijken naar de gegevens in de gegevensentiteiten.
 
 ![Gegevens in Common Data Service](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ Vernieuw de gegevensentiteiten in Finance door naar **Gegevensbeheer \> Raamwerk
 
   - [Foutbeheer en probleemoplossing van Gegevensintegrator](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Reageren op DSR-aanvragen voor door het systeem gegenereerde logboeken in PowerApps, Microsoft Flow en Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Reageren op DSR-aanvragen voor door het systeem gegenereerde logboeken in Power Apps, Microsoft Power Automate en Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Gegevensbeheer:
 

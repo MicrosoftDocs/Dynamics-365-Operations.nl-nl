@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8f1f8ed86af5b9fcb6ede91621b9227115bd2b59
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9d307ceae85773feb58d11e575df27e74b065cd3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175162"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773444"
 ---
 # <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
@@ -263,11 +263,11 @@ Het btw-overzicht voor elk land moet voldoen aan de vereisten van de wetgeving v
 |----------------|---------------------------------------------------------------------------------|
 | Oostenrijk        |  [Details btw-overzicht voor Oostenrijk](emea-aut-vat-statement-details.md)         |
 | België        |                                                                                 |
-| Tsjechische Republiek |  [Details btw-overzicht voor de Tsjechische Republiek](emea-cze-vat-statement-details.md)   |
+| Tsjechische Republiek |  [Btw-overzicht voor Tsjechië](emea-cze-vat-statement-details.md)   |
 | Estland        |  [Details btw-overzicht voor Estland](emea-est-vat-statement-details.md) |
 | Finland        |                                                                                 |
 | Duitsland        |                                                                                 |
-| Italië          | [Details btw-overzicht voor Italië](emea-ita-vat-statements-details.md)            |
+| Italië          | [Details btw-overzichten voor Italië](emea-ita-vat-statements-details.md)            |
 | Letland         | [Details btw-overzicht voor Letland](emea-lva-vat-statement-details.md)           |
 | Litouwen      | [Details btw-overzicht voor Litouwen](emea-ltu-vat-statement-details.md)         |
 | Nederland    |                                                                                 |

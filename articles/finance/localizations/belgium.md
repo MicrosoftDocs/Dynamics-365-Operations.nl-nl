@@ -15,12 +15,12 @@ ms.search.region: belgium
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a269344a904cf3643591cb92f847c6013a106f33
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6cb8ab8e2e257113bbe8b076d8daa811e2a730f6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176158"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772870"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 
@@ -41,7 +41,7 @@ Voor informatie over het instellen en maken van de INTERVAT-belastingaangifte vo
 
 | Rapport                     | Naar het rapport navigeren | Aanvullende gegevens                 |
 |----------------------------|--------------------------|----------------------------------------|
-|Rapport Belgisch Luxemburgs Wissel Instituut (BLWI)|**Btw** > **Aangiften** > **Buitenlandse handel** > **BLWI** | Als u de BLWI-informatie wilt instellen, raadpleegt u [Betalingssaldi instellen](tasks/be-00011-set-up-payment-balance-reporting.md). Als u het BLWI-rapport wilt genereren, raadpleegt u [Transacties maken en overboeken naar het BLWI](tasks/be-00011-create-transfer-blwi.md).| 
+|Rapport Belgisch Luxemburgs Wissel Instituut (BLWI)|**Btw** > **Aangiften** > **Buitenlandse handel** > **BLWI** | Zie [Rapportage voor betalingssaldo instellen (België)](tasks/be-00011-set-up-payment-balance-reporting.md) als u de BLWI-informatie wilt instellen. Zie [Transacties maken en overboeken naar het BLWI (België)](tasks/be-00011-create-transfer-blwi.md) als u het BLWI-rapport wilt genereren.| 
 |PRODCOM-rapport|**Btw** > **Aangiften** > **Buitenlandse handel** > **PRODCOM**|Fabrikanten van industriële producten verzenden het PRODCOM-rapport aan het Nationaal Instituut voor de Statistiek (NIS) in reactie op het jaarlijkse PRODCOM-onderzoek. Het PRODCOM-rapport bevat productiestatistieken voor industriële producten die worden vervaardigd door productiebedrijven die in België gevestigd zijn. Dit rapport wordt meestal gebruikt door accountants en boekhoudmanagers. Zie voor meer informatie [PRODCOM instellen en onderhouden](emea-bel-prodcom-report.md). |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen

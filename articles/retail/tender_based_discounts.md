@@ -3,7 +3,7 @@ title: Kortingen op basis van een betalingsmethode
 description: Dit onderwerp bevat een overzicht van de functionaliteit waarmee detailhandelaren kortingen voor specifieke betalingstypen kunnen configureren.
 author: bebeale
 manager: AnnBe
-ms.date: 10/25/19
+ms.date: 10/30/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 245ee647a3b86303df046fda5bba406c7a2485b5
-ms.sourcegitcommit: b0c176d5d24939307c6d0a6dbe7656007ca53710
+ms.openlocfilehash: ed17b43ac16ebcd310716271b84bbbd904a3253a
+ms.sourcegitcommit: dc31a0f0d9216aa05be76046ac7410702b20706f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "2673560"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692218"
 ---
 # <a name="tender-based-discounts"></a>Kortingen op basis van een betalingsmethode
 
@@ -40,6 +40,7 @@ In Microsoft Dynamics 365 Retail kunnen detailhandelaren een kortingspercentage 
 Kortingen op basis van een betalingsmethode concurreren niet met kortingen op basis van artikelen, zoals periodieke of handmatige kortingen. Deze worden altijd samengesteld na de artikelkortingen. Dus zelfs als een exclusieve periodieke korting op een artikel wordt toegepast, wordt de korting op basis van de betalingsmethode boven op de exclusieve periodieke korting toegepast. En als er een drempelkorting wordt toegepast op de transactie en de korting op basis van de betalingsmethode het totaal doet afnemen tot onder de drempelwaarde, wordt de drempelkorting toch toegepast op de transactie.
 
 Ook al verminderen kortingen op basis van betalingsmethode het subtotaal, dit heeft geen invloed op automatische kosten die op de transactie worden toegepast. Als de leveringskosten bijvoorbeeld als $ 5 zijn omdat het subtotaal hoger is dan $ 100, en de korting op basis van betalingsmethode het bedrag vermindert tot minder dan $ 100, dan zijn de leveringskosten voor de order nog steeds $ 5.
+
 
 > [!NOTE]
 > Kortingen op basis van betalingsmethode worden evenredig verdeeld over de desbetreffende verkoopregels en verminderen het bedrag exclusief btw van de afzonderlijke regels. Als er meerdere kortingen op basis van betalingsmethode voor een betalingsmethode zijn geconfigureerd (bijvoorbeeld contant), wordt alleen de beste korting op basis van betalingsmethode toegepast.
@@ -57,6 +58,7 @@ Voor creditcardbetalingen kunnen detailhandelaren de korting op basis van betali
 
 Om een dergelijke situatie te voorkomen, ziet de kassamedewerker wanneer een klant met een creditcard betaalt, een dialoogvenster met een overzicht van creditcards die de klant extra besparingen geven. De kassamedewerker kan de klant vervolgens vragen of de klant een van de voorkeurskaarten wil gebruiken om meer korting te krijgen. Als de kassamedewerker een voorkeurskaart gebruikt, wordt de korting op basis van betalingsmethode op de transactie toegepast en wordt het verlaagde bedrag in het betalingsvenster weergegeven. De autorisatie geldt dan voor het verlaagde bedrag. Als de klant een andere kaart invoert dan de kaart die de kassamedewerker heeft geselecteerd, wordt een foutbericht weergegeven en wordt de autorisatie ongeldig gemaakt.
 
+
 ## <a name="call-center-user-experience"></a>Gebruikerservaring van callcenter
 
 Wanneer de gebruiker tijdens een order via een callcenter de optie **Voltooien** selecteert, wordt het scherm **Totalen** weergegeven. In eerste instantie bevatten de totalen in dit scherm geen kortingen op basis van betalingsmethode omdat de betalingsmethode nog niet is geselecteerd. Als de gebruiker in het scherm **Betaling toevoegen** de betalingsmethode selecteert waarvoor de korting op basis van betalingsmethode is geconfigureerd, wordt het betalingsbedrag automatisch aangepast, zodat dit het kortingsbedrag weerspiegelt. Net als de klant bij het POS kan de callcenterklant besluiten om de volledige of een gedeeltelijke betaling te doen. Op basis van het betaalde bedrag wordt de korting op basis van betalingsmethode op de verkooporder toegepast.
@@ -66,7 +68,7 @@ Wanneer de gebruiker tijdens een order via een callcenter de optie **Voltooien**
 
 ## <a name="exclude-items-from-discounts"></a>Artikelen uitsluiten van kortingen
 
-Detailhandelaren kiezen er vaak voor om bepaalde producten, zoals nieuwe artikelen of veelgevraagde artikelen, uit te sluiten van kortingen. Ze willen misschien echter alsnog kortingen op basis van betalingsmethode toepassen. Een detailhandelaar configureert Retail bijvoorbeeld zo dat kortingen op basis van betalingsmethode of handmatige kortingen niet zijn toegestaan. Als de klant echter betaalt met de voorkeursbetaalmethode, wordt de korting op basis van betalingsmethode alsnog in Retail toegepast. Om Retail op deze manier in te stellen, moeten detailhandelaren de opties **Alle kortingen voorkomen** en **Kortingen op basis van betalingsmethode voorkomen** uitschakelen en de optie **Detailhandelkortingen voorkomen** en **Handmatige kortingen voorkomen** inschakelen. De opties vindt u op het tabblad **Retail** van de pagina **Vrijgegeven producten**.
+Detailhandelaren kiezen er vaak voor om bepaalde producten, zoals nieuwe artikelen of veelgevraagde artikelen, uit te sluiten van kortingen. Ze willen misschien echter alsnog kortingen op basis van betalingsmethode toepassen. Een detailhandelaar configureert Retail bijvoorbeeld zo dat kortingen op basis van betalingsmethode of handmatige kortingen niet zijn toegestaan. Als de klant echter betaalt met de voorkeursbetaalmethode, wordt de korting op basis van betalingsmethode alsnog in Retail toegepast. Om Retail op deze manier in te stellen, moeten detailhandelaren naar **Productgegevensbeheer > Producten > Vrijgegeven producten** gaan, het artikel selecteren en op het sneltabblad **Retail** de opties **Alle kortingen verhinderen** en **Kortingen op basis van betalingsmethode verhinderen** op **Nee** en de opties **Detailhandelkortingen voorkomen** en **Handmatige kortingen verhinderen** op **Ja** instellen.
 
 > [!NOTE]
-> Wanneer de configuratie **Alle kortingen voorkomen** is ingeschakeld, worden er geen kortingen toegepast op het product. Er worden zelfs geen kortingen op basis van betalingsmethode toegepast.
+> Wanneer de configuratie **Alle kortingen voorkomen** is ingesteld op **Ja**, worden er geen kortingen toegepast op het product. Er worden zelfs geen kortingen op basis van betalingsmethode toegepast.

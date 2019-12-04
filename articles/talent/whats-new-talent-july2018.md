@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 6ed1e4afcaeee03474d4c0ce20ac7864fb11ce78
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551767"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812713"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent - Core HR (juli 2018)
 
@@ -31,11 +31,11 @@ ms.locfileid: "2551767"
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent: Core HR.
 
-## <a name="powerapps-personalization"></a>PowerApps-personalisatie
+## <a name="power-apps-personalization"></a>Power Apps-personalisatie
 
-Talent ondersteunt integratie met de Microsoft PowerApps-service. PowerApps stelt zowel ontwikkelaars als niet-technische gebruikers in staat aangepaste zakelijke toepassingen te maken voor mobiele apparaten, tablets en het web zonder code te hoeven schrijven. Apps die u, uw organisatie of anderen ontwikkelen met PowerApps kunnen vervolgens worden geïntegreerd in de Talent-client om de functionaliteit van het product te verbeteren. U kunt bijvoorbeeld een app bouwen als aanvulling op Talent met informatie die uit een ander systeem wordt opgehaald.
+Talent ondersteunt integratie met de Microsoft Power Apps-service. Power Apps stelt zowel ontwikkelaars als niet-technische gebruikers in staat aangepaste zakelijke toepassingen te maken voor mobiele apparaten, tablets en het web zonder code te hoeven schrijven. Apps die u, uw organisatie of anderen ontwikkelen met Power Apps kunnen vervolgens worden geïntegreerd in de Talent-client om de functionaliteit van het product te verbeteren. U kunt bijvoorbeeld een app bouwen als aanvulling op Talent met informatie die uit een ander systeem wordt opgehaald.
 
-Zie [PowerApps-apps insluiten](../fin-and-ops/get-started/embed-power-apps.md) voor meer informatie.
+Zie [Power Apps-apps insluiten](../fin-and-ops/get-started/embed-power-apps.md) voor meer informatie.
 
 ## <a name="ceridian-payroll-integration"></a>Integratie met Ceridian-salarisadministratie
 
@@ -46,7 +46,7 @@ Integratie tussen Talent en Ceridian Dayforce is nu beschikbaar voor de Verenigd
 - Salarisgegevens, zoals betalingscycli, salarisperioden en inkomstencodes
 - Medewerkergegevens
 
-Zie [Uw salarisintegratie configureren](configure-payroll-integration.md) voor meer informatie.
+Zie [De integratie van de salarisadministratie tussen Talent en Dayforce configureren](configure-payroll-integration.md) voor meer informatie.
 
 ## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a>Btw-regio's voor werknemers zijn uitgebreid tot buiten de Verenigde Staten
 

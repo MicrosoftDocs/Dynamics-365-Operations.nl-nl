@@ -1,5 +1,5 @@
 ---
-title: Kandidaten zoeken met talentenpools in Microsoft Dynamics 365 Talent - Attract
+title: Kandidaten zoeken in talentenpools in Attract
 description: In dit onderwerp wordt uitgelegd hoe u talentenpools maakt en instelt in Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551113"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833013"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>Kandidaten zoeken met talentenpools in Microsoft Dynamics 365 Talent - Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>Kandidaten zoeken in talentenpools in Attract
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 Wervers en aanstellend managers kunnen hun kandidaten ordenen met behulp van de functionaliteit voor talentenpools in Attract. Talentenpools kunnen u helpen alle kandidaten die solliciteren naar functies in uw bedrijf bij te houden en met hen te communiceren.
 
@@ -116,7 +115,7 @@ Alle gebruikers hebben een gemeenschappelijke weergave van de kandidaatprofielen
 
     Als u een document wilt weergeven, selecteert u de documentnaam in de lijst van documenten. U kunt Microsoft Word-documenten in de toepassing bekijken met behulp van Microsoft Office 365. U kunt ook de documenten downloaden naar uw lokale computer met behulp van de optie **Downloaden** voor elk document.
 
-- Het tabblad **LinkedIn** bevat de LinkedIn-informatie van de kandidaat. Als u dit tabblad wilt gebruiken, moet u uw LinkedIn-account in de gebruikersinstellingen verbinden en moet de LinkedIn Recruiter-verbinding van uw omgeving tot stand zijn gebracht. Zie voor meer informatie [Aanstelling met LinkedIn Recruiter](./attract-linkedin-recruiter.md).
+- Het tabblad **LinkedIn** bevat de LinkedIn-informatie van de kandidaat. Als u dit tabblad wilt gebruiken, moet u uw LinkedIn-account in de gebruikersinstellingen verbinden en moet de LinkedIn Recruiter-verbinding van uw omgeving tot stand zijn gebracht. Zie [Kandidaten zoeken met LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md) voor meer informatie.
 
 > [!NOTE]
 > Alleen kandidaten kunnen hun vaardigheden, opleidingshistorie en werkervaring bijwerken.

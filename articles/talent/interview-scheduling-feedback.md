@@ -1,5 +1,5 @@
 ---
-title: Plannen van sollicitatiegesprekken en feedback
+title: Interviews plannen in Attract
 description: Dit onderwerp biedt informatie over het plannen van sollicitatiegesprekken en feedbackactiviteiten in Attract.
 author: hasrivas
 manager: AnnBe
@@ -14,18 +14,18 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517699"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832740"
 ---
-# <a name="interview-scheduling-and-feedback"></a>Plannen van sollicitatiegesprekken en feedback
+# <a name="schedule-interviews-in-attract"></a>Interviews plannen in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-## <a name="scheduler-activity"></a>Planneractiviteit
+## <a name="scheduler-activity"></a>Activiteit van planner
 
 De planneractiviteit is optioneel en bestaat uit twee onderdelen: Beschikbaarheid van kandidaat aanvragen en Planning. Met de component Beschikbaarheid van kandidaat kunt u e-mail gebruiken om te informeren naar de beschikbaarheid van een kandidaat. De component Planning biedt de mogelijkheid sollicitatiegesprekken met de kandidaat en het aanstellend team te plannen.
 

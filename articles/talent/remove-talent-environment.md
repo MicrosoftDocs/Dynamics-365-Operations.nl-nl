@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: bbc65a77b7c3df6545dfd7aa2109aba5c4e1b57b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010610"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773029"
 ---
 # <a name="remove-talent-environments"></a>Talent-omgevingen verwijderen
 
@@ -34,7 +34,7 @@ In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- 
 
 Talent-testdrives zijn zo ingesteld dat ze na 60 dagen verlopen. Eigenaren van testdrive-omgevingen kunnen echter hun evaluatie eerder beëindigen met de volgende stappen. 
 
-1. Naar het [PowerApps Beheercentrum](https://admin.businessplatform.microsoft.com/) navigeren.
+1. Naar het [Power Apps Beheercentrum](https://admin.businessplatform.microsoft.com/) navigeren.
 2. Selecteer **Omgevingen**.
 3. Selecteer de testdrive-omgeving die een naampatroon heeft zoals: TestDrive - alias@domein
 4. Selecteer **Verwijderen** en bevestig de beslissing. 
@@ -45,14 +45,14 @@ De bestaande testdrive-omgeving wordt verwijderd. Wanneer deze is verwijderd, ku
 
 In dit onderwerp wordt ervan uitgegaan dat u Talent hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). 
 
-Aangezien één Talent-omgeving is opgenomen in één PowerApps-omgeving, zijn twee opties mogelijk. De eerste optie is het verwijderen van de gehele PowerApps-omgeving; bij de tweede optie verwijdert u alleen Talent. De eerste optie is het beste wanneer u een PowerApps-omgeving speciaal voor Talent hebt gemaakt en u net met de implementatie bent begonnen, of wanneer er geen integratie is uitgevoerd. De tweede optie is geschikt wanneer u een PowerApps-omgeving hebt die is voorzien van veel gegevens, die worden gebruikt in PowerApps en Flows.
+Aangezien één Talent-omgeving is opgenomen in één Power Apps-omgeving, zijn twee opties mogelijk. De eerste optie is het verwijderen van de gehele Power Apps-omgeving; bij de tweede optie verwijdert u alleen Talent. De eerste optie is het beste wanneer u een Power Apps-omgeving speciaal voor Talent hebt gemaakt en u net met de implementatie bent begonnen, of wanneer er geen integratie is uitgevoerd. De tweede optie is geschikt wanneer u een Power Apps-omgeving hebt die is voorzien van veel gegevens, die worden gebruikt in Power Apps en Power Automate.
 
 > [!Important]
-> Controleer voordat u de PowerApps-omgeving verwijdert, of deze niet wordt gebruikt voor de integratie van gegevens buiten het bereik van Talent. Houd er ook rekening mee dat de standaard PowerApps-omgevingen niet kunnen worden verwijderd. 
+> Controleer voordat u de Power Apps-omgeving verwijdert, of deze niet wordt gebruikt voor de integratie van gegevens buiten het bereik van Talent. Houd er ook rekening mee dat de standaard Power Apps-omgevingen niet kunnen worden verwijderd. 
 
-De gehele PowerApps-omgeving, inclusief Talent en de bijbehorende Apps en Flows verwijderen:
+De gehele Power Apps-omgeving, inclusief Talent en de bijbehorende apps en stromen, verwijderen:
 
-1. Naar het [PowerApps Beheercentrum](https://admin.businessplatform.microsoft.com/) navigeren.
+1. Naar het [Power Apps Beheercentrum](https://admin.businessplatform.microsoft.com/) navigeren.
 2. Selecteer **Omgevingen**.
 3. Selecteer de omgeving die u wilt verwijderen.
 4. Selecteer **Verwijderen** en bevestig de beslissing. 
@@ -63,7 +63,7 @@ De gehele PowerApps-omgeving, inclusief Talent en de bijbehorende Apps en Flows 
 9. Selecteer het exemplaar dat u wilt verwijderen. 
 10. Selecteer **Exemplaar verwijderen** en bevestig uw keuze.  
 
-Als u een Talent-omgeving wilt verwijderen uit een bestaande PowerApps-omgeving, gaat u als volgt te werk. Contact opnemen met ondersteuning en het Talent DevOps-team is tijdelijk totdat deze functie rechtstreeks in de LCS is ingeschakeld.
+Als u een Talent-omgeving wilt verwijderen uit een bestaande Power Apps-omgeving, gaat u als volgt te werk. Contact opnemen met ondersteuning en het Talent DevOps-team is tijdelijk totdat deze functie rechtstreeks in de LCS is ingeschakeld.
 
 1. Neem contact op met ondersteuning om een aanvraag voor verwijderen in te dienen.
 2. Het ondersteuningsteam dient een aanvraag voor verwijderen in bij het Talent DevOps-team. 

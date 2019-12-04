@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551467"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832972"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - Attract oplossen
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Gebruik de volgende informatie om eventuele problemen bij het plaatsen van vacatures vanuit Microsoft Dynamics 365 Talent: Attract op LinkedIn op te lossen.
 
@@ -42,18 +42,18 @@ Voer de volgende stappen uit als u problemen hebt bij het aanmelden bij LinkedIn
 
 Als uw vacature na 24 uur nog niet op LinkedIn is verschenen, voert u de volgende stappen uit:
 
-1. Controleer of uw bedrijfs-ID voor LinkedIn is toegewezen aan uw LinkedIn-bedrijfspagina en juist is ingevoerd in het Attract-beheercentrum. Zie [Integratie met LinkedIn instellen](attract-admin-linkedin.md) voor meer informatie over het wijzigen van LinkedIn-instellingen in het beheercentrum. Raadpleeg [Associëren uw LinkedIn bedrijf ID met de LinkedIn Job Board-Veelgestelde vragen](https://www.linkedin.com/help/linkedin/answer/98972) voor meer informatie over bedrijfs-ID's voor LinkedIn.
+1. Controleer of uw bedrijfs-ID voor LinkedIn is toegewezen aan uw LinkedIn-bedrijfspagina en juist is ingevoerd in het Attract-beheercentrum. Zie [Integratie instellen met LinkedIn for Microsoft Dynamics 365 Talent - Attract](attract-admin-linkedin.md) voor meer informatie over het wijzigen van LinkedIn-instellingen in het beheercentrum. Raadpleeg [Associëren uw LinkedIn bedrijf ID met de LinkedIn Job Board-Veelgestelde vragen](https://www.linkedin.com/help/linkedin/answer/98972) voor meer informatie over bedrijfs-ID's voor LinkedIn.
 2. Controleer de functiegegevens op LinkedIn om er zeker van te zijn dat het adres compleet is. Als u een vacature wilt plaatsen, heeft LinkedIn minimaal de plaats en het land of de regio van de functie nodig.
 3. Zorg ervoor dat de vacature niet een kopie is van een andere vacature die op LinkedIn is geplaatst. Op LinkedIn worden vacatures die exact overeenkomen met LinkedIn Premium Job Slots of Limited Listings van een andere bron niet geplaatst. Controleer of de vacature niet al handmatig door een andere persoon in uw bedrijf is geplaatst.
 
 ## <a name="see-also"></a>Zie ook
 
-[Veelgestelde vragen over LinkedIn](./attract-linkedin-faq.md)
+[Veelgestelde vragen over integratie van Attract met LinkedIn](./attract-linkedin-faq.md)
 
-[Vacatures plaatsen op LinkedIn vanuit Attract](./attract-post-jobs-to-linkedin.md)
+[Vacatures plaatsen op LinkedIn vanuit Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[Kandidaten zoeken met LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Kandidaten zoeken met LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[Vacatures maken](./creating-jobs-attract.md)
+[Functies maken, goedkeuren en boeken in Attract](./creating-jobs-attract.md)
 
-[Problemen met integratie met LinkedIn oplossen](./attract-troubleshoot-linkedin.md)
+[Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - Attract oplossen](./attract-troubleshoot-linkedin.md)

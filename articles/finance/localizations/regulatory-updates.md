@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 480253d1401c567e27f636f8a2b19fa3937e89e5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653199"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770379"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -82,11 +82,11 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 |      2019 april          |   10.0.1      | Hongarije      |  Hongarije: online facturering v. 1.1 2019  |
 |      2019 april          |   10.0.1      | Japan      |  2019 Verandering van Japans tijdperk  |
 |      2019 april          |   10.0.1      |    Rusland     |Wijzigingen in aangifte van belasting op grondbezit van 2018 |
-|      2019 april          |   10.0.1      |    Rusland     |[Wijzigingen in aangifte van onroerendgoedbelasting van 2019](rus-assessed-tax-declaration.md)|
+|      2019 april          |   10.0.1      |    Rusland     |[Beoordeelde belastingaangifte](rus-assessed-tax-declaration.md)|
 |      2019 april          |   10.0.1      |    Rusland     |Wijzigingen in aangifte van transportbelasting van 2019  |
-|      2019 april          |   10.0.1      |    Rusland     |[Wijzigingen van indeling btw-aangifte van 2019](rus-VAT-declaration.md) |
+|      2019 april          |   10.0.1      |    Rusland     |[Btw-aangifte](rus-VAT-declaration.md) |
 |      2019 april          |   10.0.1      |    Rusland     |Wijzigingen van indeling voor btw-aangifte van 2019 (verkoop- en inkoopboeken) |
-|      2019 april          |   10.0.1      |    Verenigd Koninkrijk     |[Wijziging in indiening van btw-aangifte (belasting digitaal maken)](emea-gbr-mtd-vat-integration.md)    |    
+|      2019 april          |   10.0.1      |    Verenigd Koninkrijk     |[Finance and Operations voorbereiden voor integratie met MTD voor btw](emea-gbr-mtd-vat-integration.md)    |    
 |      2019 maart          |   10.0.0      |    Oostenrijk   |   Wijzigingen in Kammerumlage 2019 (inkoopheffing)    |
 |      2019 maart          |   10.0.0      |    Brazilië    |     SPED EFD-bijdragen - indeling 004 en 005  |
 |      2019 maart          |   10.0.0      |    Maleisië     |Maleisië vervangt GST door SST, Sales & Services Tax        |

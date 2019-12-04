@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570235"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771817"
 ---
 # <a name="general-journal-processing"></a>Algemene journaalverwerking
 
@@ -85,7 +85,7 @@ De instelling van de hoofdrekening biedt veel opties voor algemene journaalverwe
 Boekhoudingsstructuren en geavanceerde regelsstructuren zijn uiterst belangrijk om te garanderen dat de gegevens die vereist zijn voor financiële rapportage en prestatie-opvolging worden vastgelegd tijdens de verwerking van het algemene journaal en eventuele documentatie. Met boekhoudingsstructuren en geavanceerde regelsstructuren kunt u de gegevensinvoerervaring aanpassen. U kunt ervoor zorgen dat gegevens alleen kunnen worden ingevoerd voor financiële dimensies die in elke situatie relevant zijn. Daarnaast kunt u de vereiste afdwingen dat altijd verplichte en juiste gegevens worden vastgelegd.
 
 Zie de volgende onderwerpen voor meer informatie:
-- [Planning: rekeningschema](plan-chart-of-accounts.md). 
+- [Uw rekeningschema plannen](plan-chart-of-accounts.md) 
 - [Geavanceerde regels voor journalen maken](tasks/create-advanced-rules-journals.md)
 - [Een journaalboeking maken met een sjabloon](tasks/create-journal-entry-template.md)
 - [Journalen maken en valideren](tasks/create-validate-journals.md)

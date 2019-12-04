@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658685"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811988"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Verwijderde of afgeschafte functies voor Finance and Operations
 
@@ -348,7 +348,7 @@ Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevel
 | **Status**                         |Verwijderd sinds 15 februari 2018. Dit geldt voor klanten met Dynamics 365 for Operations 1611 en hoger.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Uitbreiding van de lijst met functies voor elektronische rapportage (ER)
-De mogelijkheid om aangepaste functies te introduceren voor gebruik in de ER-opbouwfunctie (zie voor meer informatie [De lijst met functies voor elektronische rapportage uitbreiden](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) wordt niet meer ondersteund. Als gevolg van wijzigingen in de ER-API's is de API voor het aanroepen van ingebouwde functies vanuit de ER-opbouwfunctie nu een interne API die niet meer kan worden uitgebreid.
+De mogelijkheid om aangepaste functies te introduceren voor gebruik in de ER-opbouwfunctie (zie voor meer informatie [De lijst met functies voor elektronische rapportage (ER) uitbreiden](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) wordt niet meer ondersteund. Als gevolg van wijzigingen in de ER-API's is de API voor het aanroepen van ingebouwde functies vanuit de ER-opbouwfunctie nu een interne API die niet meer kan worden uitgebreid.
 
 |   |  |
 |------------|--------------------|
@@ -474,7 +474,7 @@ Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onde
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Dubbele functionaliteit.       |
-| **Vervangen door een andere functie?**   | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie voor meer informatie over instellingen en vereisten, [installeren en configureren van Microsoft Dynamics 365 for Finance and Operations - magazijnbeheer](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Vervangen door een andere functie?**   | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie [Overzicht van het installeren en configureren van de Warehousing-app](../../../supply-chain/warehousing/install-configure-warehousing-app.md) voor meer informatie over instellingen en vereisten. |
 | **Betrokken productgebieden**         | Magazijnbeheer, Transportbeheer     |
 | **Implementatieoptie**              | Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onderdeel dat is bedoeld voor on-premises zelfimplementatie.               |
 | **Status**                         | Afgeschaft: doeltijd voor verwijdering van de functionaliteit is kwartaal 4 van 2019.   |
@@ -1244,7 +1244,7 @@ Product Builder werd gebruikt om dynamisch items te configureren vanuit een verk
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Product Builder liet gebruikers X++-code zien en wordt niet ondersteund in de huidige versie van Dynamics AX. Het is verwijderd om dubbele onderhoudsinspanningen te voorkomen in overlappende codebases van aanzienlijke omvang.  |
-| **Vervangen door een andere functie?**   | Ja. De op beperkingen gebaseerde configuratie werd geïntroduceerd in Dynamics AX 2012, waarin al werd aangekondigd dat Product Builder in toekomstige versies zou worden afgeschaft. De op beperkingen gebaseerde configuratie wordt geselecteerd in productmodellen om de configuratie mogelijk te maken. Zie voor meer informatie [Een productconfiguratiemodel opstellen](../../../supply-chain/pim/build-product-configuration-model.md). |
+| **Vervangen door een andere functie?**   | Ja. De op beperkingen gebaseerde configuratie werd geïntroduceerd in Dynamics AX 2012, waarin al werd aangekondigd dat Product Builder in toekomstige versies zou worden afgeschaft. De op beperkingen gebaseerde configuratie wordt geselecteerd in productmodellen om de configuratie mogelijk te maken. Zie [Overzicht van productconfiguratie](../../../supply-chain/pim/build-product-configuration-model.md) voor meer informatie. |
 | **Betrokken productgebieden**         | Productiegegevensbeheer, Verkoop en marketing  |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.      |
 

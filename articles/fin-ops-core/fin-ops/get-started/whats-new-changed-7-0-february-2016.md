@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e39328c73fe3dd101e32ec04d895483335184ae7
-ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
+ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "2627646"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811477"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
 
@@ -322,7 +322,7 @@ Deze functie werkt onafhankelijk van kostprijsberekeningmethodes die aan het gep
 <tr>
 <td>Gebruik begeleide procedurele Help (taakbegeleidingen) en concepuele onderwerpen door op <strong>Help</strong> te klikken.</td>
 <td>Het Help-systeem van AX 2012 wijst de weg naar HTML-onderwerpen die op een lokale webserver zijn opgeslagen. Klanten en partners kunnen hun eigen Help maken.</td>
-<td>Het Help-systeem in de huidige versie van AX geeft taakbegeleidingen weer die zijn opgeslagen in de BPM van Microsoft Dynamics Lifecycle Services (LCS). Het Help-systeem geeft ook onderwerpen van de MicrosoftDocs-site weer. Zie voor meer informatie <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Help bij Dynamics AX - Aan de slag</a> en <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Nieuwe taakbegeleidingen beschikbaar (februari 2016)</a>.</td>
+<td>Het Help-systeem in de huidige versie van AX geeft taakbegeleidingen weer die zijn opgeslagen in de BPM van Microsoft Dynamics Lifecycle Services (LCS). Het Help-systeem geeft ook onderwerpen van de MicrosoftDocs-site weer. Zie <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Help-systeem</a> en <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nieuwe taakbegeleidingen (februari 2016)</a> voor meer informatie.</td>
 <td>De taakbegeleidingen bieden een interactieve geleide ervaring die u door de stappen van een taak of een bedrijfsproces leidt. U kunt de taakbegeleidingen die Microsoft biedt downloaden en aanpassen. Het onderwerp biedt een snellere en flexibelere manier om productdocumentatie te maken, leveren en bijwerken. Zo helpt het te garanderen dat u toegang tot de meest recente technische informatie hebt.</td>
 </tr>
 </tbody>
@@ -1029,8 +1029,8 @@ Geen nieuwe functies zijn toegevoegd.
 |------------------|------------------|-----------------|------------------------|
 | Download, installeer en configureer de Magazijn-portal voor mobiele apparaten. | U kunt de portal downloaden, installeren en configureren tijdens het installatieproces van Microsoft Dynamics AX, door een standaardsetup. Het is ontworpen voor zelfgestuurde implementatie en configuratie on-premises. | U kunt een zelfstandig installatieprogramma downloaden via een menu-item in Magazijnbeheer. Het is ontworpen voor zelfgestuurde implementatie en configuratie on-premises. | Wanneer u de functionaliteit voor gebruik van mobiele apparaten opzet, moet u de magazijnportal voor mobiele apparaten lokaal installeren en configureren en een verbinding opzetten met het Dynamics AX-programma in de cloud. |
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
-[Wat is nieuw of gewijzigd](whats-new-changed.md)
+[Startpagina Nieuw of gewijzigd in Finance and Operations](whats-new-changed.md)
 
-[Nieuwe taakbegeleidingen beschikbaar (februari 2016)](new-task-guides-available-february-2016.md)
+[Nieuwe taakbegeleidingen (februari 2016)](new-task-guides-available-february-2016.md)

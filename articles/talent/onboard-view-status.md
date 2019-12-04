@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009826"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814715"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>De status van onboardingmedewerkers en uw taken weergeven
 
@@ -54,6 +54,6 @@ Met Microsoft Dynamics 365 Talent: Onboard kunt u de voortgang van uw nieuwe med
 ### <a name="see-also"></a>Zie ook
 
 - [De Onboard-app uitproberen of kopen](https://dynamics.microsoft.com/talent/onboard/)
-- [Nieuwe functies](./whats-new.md)
-- [Opmerkingen bij release](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Ondersteuning](./talent-support.md)
+- [Nieuwe of gewijzigde functies in Dynamics 365 Talent](./whats-new.md)
+- [Vrijgaveplannen](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Ondersteuning voor Microsoft Dynamics 365 Talent](./talent-support.md)

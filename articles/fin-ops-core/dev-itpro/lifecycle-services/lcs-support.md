@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36adc1f754c918a9fdf8410572f3199cdb63766
-ms.sourcegitcommit: e16b8c248fc2c2a60dc7b803320f942a35b443c5
+ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577491"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812130"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Ondersteuning krijgen voor Finance and Operations-apps of Lifecycle Services (LCS)
 
@@ -88,8 +88,8 @@ Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSour
 </table>
 
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 - [Ondersteuning voor Dynamics 365 Retail](../../../retail/retail-support.md)
-- [Ondersteuning voor Dynamics 365 Talent](../../../talent/talent-support.md)
+- [Ondersteuning voor Microsoft Dynamics 365 Talent](../../../talent/talent-support.md)
 - Zie [Ondersteuningservaringen voor Finance and Operations-apps beheren](cloud-powered-support-lcs.md) voor meer informatie over ondersteuningsmogelijkheden voor Microsoft Dynamics.
 

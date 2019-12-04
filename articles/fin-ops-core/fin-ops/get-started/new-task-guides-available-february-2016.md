@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190943"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811621"
 ---
 # <a name="new-task-guides-february-2016"></a>Nieuwe taakbegeleidingen (februari 2016)
 
@@ -32,9 +32,9 @@ Dit onderwerp geeft een overzicht van de taakbegeleidingen die zijn uitgebracht 
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Taakbegeleidingen in de (februari 2016) APQC Unified Library voor Microsoft Dynamics AX
 
-De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedoeld om te worden gebruikt voor de Help bij Dynamics AX versie 7.0.0. Als u gelokaliseerde versies van deze taakbegeleidingen nodig hebt, zijn deze beschikbaar in de APQC Unified Library (mei 2016) voor Microsoft Dynamics AX. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
+De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedoeld om te worden gebruikt voor de Help bij Dynamics AX versie 7.0.0. Als u gelokaliseerde versies van deze taakbegeleidingen nodig hebt, zijn deze beschikbaar in de APQC Unified Library (mei 2016) voor Microsoft Dynamics AX. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Help-systeem](help-overview.md).
 
-### <a name="accounts-payable"></a>Leveranciers    
+### <a name="accounts-payable"></a>Leveranciers
 
 | BPM-regel                                                  | Land/regio |
 |-----------------------------------------------------------|----------------|

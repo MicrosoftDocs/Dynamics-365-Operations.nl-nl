@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d51b9a7684e460d555632c3896e9dd8a4e10d92c
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 005b04bd4c3476356f30ba8e97564f83307a64c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626173"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811735"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Automatisch bijwerken van activatellers
 
@@ -43,16 +43,16 @@ Zoals hierboven aangegeven, kunnen automatische tellers worden bijgewerkt vanuit
 
 2. Selecteer in het veld **Begindatum** de begindatum van de automatische update.
 
->[!NOTE]
->De datum in dit veld is de datum voor onderhanden werk uit **Routetransacties** (**Productiebeheer** > **Query's en rapporten** > **Productie** > **Routetransacties** > **Fysieke datum**).
+    >[!NOTE]
+    >De datum in dit veld is de datum voor onderhanden werk uit **Routetransacties** (**Productiebeheer** > **Query's en rapporten** > **Productie** > **Routetransacties** > **Fysieke datum**).
 
 3. Op het sneltabblad **Op te nemen records** kunt u specifieke activa, activatypen of resources voor de automatische update selecteren. Selecteer **Filter**en selecteer de relevante selecties.
 
 4. Indien nodig kunt u de automatische update op het Sneltabblad **Op de achtergrond uitvoeren** instellen als een batchtaak.
 
-In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Activumtellers bijwerken**.
+    In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Activumtellers bijwerken**.
 
-![Figuur 1](media/12-work-orders.png)
+    ![Figuur 1](media/12-work-orders.png)
 
 5. Selecteer **OK**. 
 

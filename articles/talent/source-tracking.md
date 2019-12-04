@@ -1,5 +1,5 @@
 ---
-title: Bronnen volgen voor kandidaatprofielen en sollicitaties
+title: Kandidaatbronnen bijhouden in Attract
 description: Dit onderwerp bevat informatie over het bijhouden van de bron voor kandidaatprofielen en -sollicitaties.
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551882"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832643"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Bronnen volgen voor kandidaatprofielen en sollicitaties
+# <a name="track-candidate-sources-in-attract"></a>Kandidaatbronnen bijhouden in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > Functionaliteit die in dit onderwerp wordt vermeld, is beschikbaar als onderdeel van een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Als u deze functie wilt gebruiken, vraagt u een beheerder om deze in te schakelen via de **Beheerinstellingen** in Attract. Een toekomstige versie bevat rapporten voor het bijhouden van bronnen. Zie voor meer informatie [Toegang tot voorbeeldfuncties in Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

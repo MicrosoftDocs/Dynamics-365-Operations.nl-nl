@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177283"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811502"
 ---
 # <a name="view-and-export-field-descriptions"></a>Veldomschrijvingen weergeven en exporteren
 
@@ -35,7 +35,7 @@ Enkele van de complexere velden hebben veldbeschrijvingen. Deze beschrijvingen w
 
 Niet alle pagina's hebben veldomschrijvingen. We willen alleen beschrijvingen geven voor de complexere velden en niet voor de velden waarvoor het gebruik duidelijk is. Daarom hebben sommige pagina's geen veldbeschrijvingen, sommige pagina's een paar beschrijvingen en sommige van de meer complexe pagina's, zoals veel van de pagina's met parameters, veel beschrijvingen.
 
-Als u toegang hebt tot de ontwikkelomgeving kunt u nieuwe veldbeschrijvingen toevoegen en bestaande beschrijvingen aanpassen. U kunt bijvoorbeeld bedrijfsspecifieke informatie toevoegen aan een veldbeschrijving. Zie [Help voor velden aanpassen](../../dev-itpro/user-interface/customize-field-help.md) voor meer informatie.
+Als u toegang hebt tot de ontwikkelomgeving kunt u nieuwe veldbeschrijvingen toevoegen en bestaande beschrijvingen aanpassen. U kunt bijvoorbeeld bedrijfsspecifieke informatie toevoegen aan een veldbeschrijving. Zie [Veldbeschrijvingen aanpassen](../../dev-itpro/user-interface/customize-field-help.md) voor meer informatie.
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Zie veldbeschrijvingen in de gebruikersinterface.
 
@@ -107,4 +107,4 @@ Zie de sectie 'Zoeken naar pagina's' eerder in dit artikel voor meer informatie 
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Help voor velden aanpassen](../../dev-itpro/user-interface/customize-field-help.md)
+[Veldbeschrijvingen aanpassen](../../dev-itpro/user-interface/customize-field-help.md)

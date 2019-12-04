@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177190"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772623"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Instellingsproces van geavanceerde bankafstemming
 
@@ -31,7 +31,7 @@ ms.locfileid: "2177190"
 
 Met Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 Finance. In dit artikel worden de instellingsregels voor afstemming uitgelegd.  
 
-Er moet een aantal onderdelen worden ingesteld voordat u de functie voor geavanceerde bankafstemming kunt gebruiken. Zie voor meer informatie over het instellen van de import van bankafschriften [Het importproces van bankafschriften instellen](set-up-advanced-bank-reconciliation-import-process.md).  Vereisten voor het instellen van het afstemmingsproces worden hieronder gedetailleerd beschreven.
+Er moet een aantal onderdelen worden ingesteld voordat u de functie voor geavanceerde bankafstemming kunt gebruiken. Zie [Het importproces voor geavanceerde bankafstemming instellen](set-up-advanced-bank-reconciliation-import-process.md) voor meer informatie over het instellen van de import van bankafschriften.  Vereisten voor het instellen van het afstemmingsproces worden hieronder gedetailleerd beschreven.
 
 ## <a name="transaction-codes"></a>Transactiecodes
 Transactiecodes kunnen worden gebruikt als onderdeel van de afstemmingsregels voor bankafstemming. Met transactiecodes kunnen alleen dezelfde typen transacties tussen Finance en uw bankafschrift gemakkelijker worden afgestemd. Voor dit type afstemming moet u eerst transactietypen definiëren die worden gebruikt voor banktransacties van Finance en deze typen vervolgens afstemmen met transactiecodes voor afschriften die door uw bank worden gebruikt. Transactietypen voor banktransacties worden gedefinieerd op de pagina **Banktransactietype**. Op deze pagina definieert u ook de hoofdrekening die moet worden gebruikt voor boekingen die zijn gekoppeld aan dit transactietype. 

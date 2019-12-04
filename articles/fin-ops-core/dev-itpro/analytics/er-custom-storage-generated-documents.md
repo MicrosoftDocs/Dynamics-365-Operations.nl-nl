@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569079"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771393"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Een aangepaste opslaglocatie voor gegenereerde documenten opgeven
 
@@ -54,7 +54,7 @@ In de huidige topologie [maakt u een nieuwe ER-indeling](tasks/er-format-configu
 
 ## <a name="create-a-new-document-type"></a>Een nieuw documenttype maken
 
-Als u wilt opgeven hoe documenten worden doorgestuurd waarmee een ER-indeling wordt gegenereerd, moet u [ER-bestemmingen](electronic-reporting-destinations.md) configureren. In elke ER-bestemming die is geconfigureerd voor het opslaan van gegenereerde documenten zoals bestanden, moet u een documenttype van het raamwerk voor documentbeheer opgeven. Verschillende documenttypen kunnen worden gebruikt om documenten door te sturen waarmee verschillende ER-indelingen worden gegenereerd.
+Als u wilt opgeven hoe documenten worden doorgestuurd waarmee een ER-indeling wordt gegenereerd, moet u [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md) configureren. In elke ER-bestemming die is geconfigureerd voor het opslaan van gegenereerde documenten zoals bestanden, moet u een documenttype van het raamwerk voor documentbeheer opgeven. Verschillende documenttypen kunnen worden gebruikt om documenten door te sturen waarmee verschillende ER-indelingen worden gegenereerd.
 
 1. Voeg een nieuw [documenttype](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) toe voor de ER-indeling die u eerder hebt gemaakt of geïmporteerd. In de volgende afbeelding is het documenttype **FileX**.
 2. Als u dit documenttype wilt onderscheiden van andere documenttypen, neemt u een specifiek trefwoord in de naam op. In de volgende afbeelding is de naam bijvoorbeeld **(LOCAL) map**.
@@ -171,7 +171,7 @@ De gebeurtenis **AttachingFile()** wordt geactiveerd wanneer de volgende ER-best
 2. Ga naar **Organisatiebeheer \> Elektronische rapportage \> Elektronische rapportagetaken**. Zoek de record die is gemaakt voor deze uitvoeringstaak en waaraan het gegenereerde bestand is gekoppeld.
 3. Verken de lokale map **C:\\0** om hetzelfde gegenereerde bestand te zoeken.
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
-- [Bestemmingen van elektronische rapportage](electronic-reporting-destinations.md)
-- [Startpagina voor uitbreidbaarheid](../extensibility/extensibility-home-page.md)
+- [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
+- [Startpagina voor Uitbreidbaarheid](../extensibility/extensibility-home-page.md)

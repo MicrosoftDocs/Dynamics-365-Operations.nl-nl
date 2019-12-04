@@ -1,5 +1,5 @@
 ---
-title: Bedrijfsgegevens configureren in Microsoft Dynamics 365 Talent - Attract
+title: Bedrijfsgegevens configureren in Attract
 description: In dit onderwerp wordt uitgelegd hoe u bedrijfsgegevens en -branding voor Microsoft Dynamics 365 Talent - Attract configureert.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551587"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833249"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>Bedrijfsgegevens configureren in Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>Bedrijfsgegevens configureren in Attract
+
+[!include [banner](includes/banner.md)]
 
 Het beheercentrum in Microsoft Dynamics 365 Talent: Attract bevat configuratie-instellingen, integratieopties en instellingsopties voor de Attract-toepassing.
 
@@ -48,11 +49,11 @@ Wanneer nieuwe functies worden toegevoegd, kunnen deze worden vrijgegeven in een
 
 ## <a name="template-management"></a>Sjabloonbeheer
 
-Een processjabloon bevat alle activiteiten die moeten worden opgenomen als onderdeel van het aanstellingsproces voor een functie. Uw organisatie kan alle teamleden of alleen beheerders toestaan aanstellingsprocessjablonen te maken. Als u teamleden wilt toestaan hun eigen aanstellingsprocessjablonen te maken, schakelt u de sjabloonbeheerfunctionaliteit in. Zie voor meer informatie over processjablonen [Processjablonen in Attract](./process-templates-attract.md).
+Een processjabloon bevat alle activiteiten die moeten worden opgenomen als onderdeel van het aanstellingsproces voor een functie. Uw organisatie kan alle teamleden of alleen beheerders toestaan aanstellingsprocessjablonen te maken. Als u teamleden wilt toestaan hun eigen aanstellingsprocessjablonen te maken, schakelt u de sjabloonbeheerfunctionaliteit in. Zie voor meer informatie over processjablonen [Een processjabloon maken in Attract](./process-templates-attract.md).
 
-## <a name="email-template-settings"></a>Instellingen e-mailsjabloon
+## <a name="email-template-settings"></a>Instellingen van e-mailsjabloon
 
-Organisaties kunnen e-mailsjablonen voor verschillende scenario's maken. U kunt de koptekstafbeelding selecteren om op te nemen in de e-mailsjablonen. De geselecteerde koptekst wordt vervolgens weergegeven in alle e-mailsjablonen. In de voettekst van de sjabloon kunt u een koppeling toevoegen naar de privacyverklaring van uw organisatie en gebruiksvoorwaarden voor communicatie. Zie voor meer informatie [E-mailsjablonen in Attract](./email-templates.md).
+Organisaties kunnen e-mailsjablonen voor verschillende scenario's maken. U kunt de koptekstafbeelding selecteren om op te nemen in de e-mailsjablonen. De geselecteerde koptekst wordt vervolgens weergegeven in alle e-mailsjablonen. In de voettekst van de sjabloon kunt u een koppeling toevoegen naar de privacyverklaring van uw organisatie en gebruiksvoorwaarden voor communicatie. Zie [E-mailsjablonen](./email-templates.md) voor meer informatie.
 
 ## <a name="offer-process"></a>Aanbiedingsproces
 

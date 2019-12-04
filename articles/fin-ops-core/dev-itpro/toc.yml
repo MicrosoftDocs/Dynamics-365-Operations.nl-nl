@@ -2,6 +2,8 @@
   items:
     - name: Ontwikkeling en beheer voor Finance and Operations-apps
       items:
+        - name: Documentatie over Finance and Operations-apps
+          href: ../fin-ops/index.md
         - name: Ontwikkeling en beheer voor Finance and Operations-apps
           href: index.md
         - name: Nieuwe of gewijzigde functies
@@ -128,16 +130,28 @@
                           href: data-entities/dual-write-overview.md
                         - name: Organisatiehiërarchie van Common Data Service
                           href: data-entities/dual-write-organization.md
-                        - name: Bedrijfsconcept in Common Data Services
-                          href: data-entities/dual-write-company.md
+                        - name: Bedrijfsintegratie
+                          items:
+                            - name: Bedrijfsconcept in Common Data Services
+                              href: data-entities/dual-write-company.md
+                            - name: Automatisch laden met bedrijfsgegevens
+                              href: data-entities/dual-write-bootstrap.md
                         - name: Model voor geïntegreerde klanten
                           href: data-entities/dual-write-customer.md
+                        - name: Geïntegreerd grootboek
+                          href: data-entities/dual-write-ledger.md
                         - name: Uniforme productervaring
                           href: data-entities/dual-write-product.md
-                        - name: Model voor geïntegreerde leveranciers
-                          href: data-entities/dual-write-vendor.md
+                        - name: Integratie van leverancier
+                          items:
+                            - name: Model voor geïntegreerde leveranciers
+                              href: data-entities/dual-write-vendor.md
+                            - name: Schakelen tussen leverancierontwerpen
+                              href: data-entities/dual-write-vendor-switch.md
                         - name: Geïntegreerde locaties en magazijnen
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: Model voor geïntegreerde belasting
+                          href: data-entities/dual-write-tax.md
                         - name: Initiële synchronisatie
                           href: data-entities/dual-write-initial.md
                         - name: Problemen met gegevensintegratie oplossen
@@ -418,6 +432,8 @@
                   href: user-interface/client-disconnected.md
                 - name: Problemen oplossen met on-premises implementaties
                   href: deployment/troubleshoot-on-prem.md
+                - name: Scripts voor het oplossen van problemen in on-premises omgevingen
+                  href: deployment/onprem-tsg-implementations.md
                 - name: Certificaatrotatie
                   href: deployment/certificate-rotation-on-prem.md
             - name: Aangepaste code implementeren
@@ -1024,7 +1040,7 @@
                       href: mobile-apps/platform/client-apis/modules/event-ievent.md
                     - name: Module Besturingselement
                       href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
-                    - name: Module Container
+                    - name: Containermodule
                       href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
                     - name: Module Veld
                       href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md

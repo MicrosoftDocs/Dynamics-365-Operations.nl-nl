@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248920"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813357"
 ---
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Dit artikel biedt informatie over inkoopovereenkomsten. Een inkoopovereenkomst is een contract dat een organisatie ertoe verbindt een opgegeven aantal of bedrag in te kopen via meerdere inkooporders in een bepaalde periode. De koper ontvangt in ruil voor deze toezegging speciale prijzen en kortingen. 
 
@@ -80,6 +81,9 @@ Wanneer u een inkooporder maakt, kunt u er een inkoopovereenkomst op toepassen. 
 U kunt een inkoopovereenkomst alleen selecteren wanneer u een inkooporder maakt. U kunt geen inkoopovereenkomst selecteren nadat de inkooporder is gemaakt.  
 In sommige situaties waarin verkooporders indirect worden gemaakt, is het mogelijk te bepalen of Supply Chain Management automatisch moet zoeken naar relevante inkoopovereenkomsten. U kunt dit bijvoorbeeld doen wanneer u automatisch geplande inkooporders goedkeurt of inkooporders maakt die zijn gebaseerd op verkooporders.
 
+## <a name="matching-policy-on-purchase-agreements"></a>Overeenstemmingsbeleid voor inkoopovereenkomsten
+U kunt een regelovereenstemmingsbeleid definiëren in de koptekst van de inkoopovereenkomst. Met dit regelovereenstemmingsbeleid wordt het regelovereenstemmingsbeleid voor de leveranciersparameters gerespecteerd wanneer het veld **Overschrijven van overeenstemmingsbeleid toestaan** op de pagina **Parameters van module Leveranciers** (op het sneltabblad **Prijs- en hoeveelheidsvereffening**) is ingesteld op **Hoger dan bedrijfsbeleid**. Documenten die naar de inkoopovereenkomst verwijzen, gebruiken het regelovereenstemmingsbeleid dat is gedefinieerd in de koptekst van de inkoopovereenkomst, tenzij anders is opgegeven in het inkoopbeleid voor dit artikel, de combinatie van artikel en leverancier of de categorie.
+
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Inkoopovereenkomsten en intercompany-handel
 Intercompany-handelsrelaties kunnen worden gemaakt tussen leveranciersrekeningen en klantenrekeningen van verschillende rechtspersonen. Wanneer een verkooporder of inkooporder is gemaakt voor een van de partijen, wordt een intercompany-orderketen gemaakt. In de orderketen worden de verkooporder en inkooporder gemaakt in de juiste rechtspersonen.  
 
@@ -93,9 +97,9 @@ U kunt financiële dimensies kopiëren naar documentkopteksten of naar afzonderl
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Een nieuwe inkoopovereenkomst maken (Taakbegeleiding)](tasks/create-purchase-agreement.md)
+[Een inkoopovereenkomst maken](tasks/create-purchase-agreement.md)
 
-[Een vrijgaveorder voor inkoop maken op basis van een inkoopovereenkomst (Taakbegeleiding)](tasks/create-purchase-release-order-purchase-agreement.md)
+[Een vrijgaveorder maken voor inkoop van een inkoopovereenkomst](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

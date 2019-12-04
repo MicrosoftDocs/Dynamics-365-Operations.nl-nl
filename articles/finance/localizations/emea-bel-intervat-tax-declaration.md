@@ -17,12 +17,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: bb6a2b664caaf71211d4fe28c8bb18ee90c684cf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e427599c3d52788458d4399769aabfa48aeb0731
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176156"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772860"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
@@ -45,15 +45,12 @@ De volgende tabel bevat de vereisten die moeten worden ingesteld voordat u begin
 |Instelling| Btw-aangiftecodes|Stel btw-aangiftecodes in op de pagina <strong>Btw-aangiftecodes</strong> pagina (klik op <strong>Btw</strong> &gt; <strong>Instelling</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-aangiftecodes</strong>). Btw-aangiftecodes waarvoor het selectievakje <strong>Btw-correctie</strong> is ingeschakeld, zijn beschikbaar voor selectie op de pagina <strong>Extra btw-aangiftevakken</strong> (klik op <strong>Btw-correcties</strong> &gt; <strong>Correcties</strong>). Een voorbeeld van btw-aangiftecodes vindt u verderop in dit onderwerp.|
 |Instelling| Btw-codes|Vul de velden op de tabbladen <strong>Rapport</strong> en <strong>Rapportinstelling - creditnota</strong> tabbladen van de pagina <strong>Btw-codes</strong> in (klik op <strong>Btw</strong> &gt; <strong>Indirecte belastingen</strong> &gt; <strong>Btw-codes</strong>). Selecteer waarden in de tabel <strong>Btw-aangiftecodes</strong>. |
 |Instelling| INTERVAT-instellingen|Maak elementen voor INTERVAT op de pagina <strong>INTERVAT-instellingen</strong> (klik op <strong>Btw</strong> &gt; <strong>Instelling</strong> &gt; <strong>Btw</strong> &gt; <strong>INTERVAT-instellingen</strong>). Met INTERVAT kunt u elektronische belastingaangiften invullen in België. De informatie die u op deze pagina invoert wordt gebruikt wanneer u op <strong>Website openen</strong> op de pagina <strong>INTERVAT-belastingaangifte</strong> klikt. U moet een element maken voor elke taal en voor het programma waarmee u naar websites gaat. Vul de volgende velden in: Taal, Omschrijving, URL.
-|Instelling| Btw-nummer|Maak btw-vrijstellingsnummers voor uw tegenpartijen op de pagina <strong>Btw-vrijstellingnummers</strong> (klik op <strong>Belasting</strong> &gt; <strong>Instellen</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-vrijstellingsnummers</strong>). Voor elk BTW-vrijstellingsnummer, maak een registratie op de pagina, en geef de volgende informatie:|
-|     |                  |Land/regio</strong> Selecteer het land of de regio van de btw-registratie van de tegenpartij.|
-|     |                  |Btw-vrijstellingsnummer</strong> Voer het btw-vrijstellingsnummer van de tegenpartij in.|
-|     |                  |Bedrijfsnaam</strong> (optioneel) Voer de naam van de tegenpartij in.|
-|Instelling|Parameters buitenlandse handel|Stel parameters voor buitenlandse handel in op het tabblad <strong>Land-/regio-eigenschappen</strong> van de pagina <strong><strong>Parameters buitenlandse handel</strong></strong> (klik op <strong>Btw</strong> &gt; <strong>Instellen</strong> &gt; <strong>Buitenlandse handel</strong> &gt; <strong>Parameters buitenlandse handel</strong>). |
+|Instelling| Btw-nummer|Maak btw-vrijstellingsnummers voor uw tegenpartijen op de pagina <strong>Btw-vrijstellingnummers</strong> (klik op <strong>Belasting</strong> &gt; <strong>Instellen</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-vrijstellingsnummers</strong>). Voor elk BTW-vrijstellingsnummer, maak een registratie op de pagina, en geef de volgende informatie: <ul><li>**Land/regio:** selecteer het land of de regio van de BTW registratie van de tegenpartij.</li> <li>**BTW-vrijstellingsnummer:** voer het BTW-vrijstellingsnummer van de tegenpartij in.</li> <li>**Bedrijfsnaam:** (optioneel) Voer de naam van de tegenpartij in. </li></ul> |
+|Instellen|Parameters buitenlandse handel|Stel parameters voor buitenlandse handel in op het tabblad <strong>Land-/regio-eigenschappen</strong> van de pagina <strong><strong>Parameters buitenlandse handel</strong></strong> (klik op <strong>Btw</strong> &gt; <strong>Instellen</strong> &gt; <strong>Buitenlandse handel</strong> &gt; <strong>Parameters buitenlandse handel</strong>). |
 |Instelling|Configuratie van INTERVAT-belastingaangifte|Configureer een model en indeling voor elektronische aangifte voor het rapport. Zie de sectie &quot;Het model en de indeling voor elektronische aangifte configureren voor het rapport&quot; verderop in dit onderwerp. Informatie over het maken en onderhouden van ER-configuraties is te vinden in de ER-documentatie.|
 
 
-Meer informatie over het opstellen van het btw-overzicht raadpleegt u [(EU) Btw-aangifte](emea-vat-reporting.md).
+Zie [Btw-aangifte voor Europa](emea-vat-reporting.md) voor meer informatie over het opstellen van het btw-overzicht.
 
 ### <a name="example-setup-of-sales-tax-reporting-codes"></a>Voorbeeld: instelling van btw-aangiftecodes
 

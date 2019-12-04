@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: ''
+ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 05dee1efc4e817795824e3fa1c41093d48a97d78
-ms.sourcegitcommit: 219a73371638a9a4c6076d4c88b95fb2ebe95b00
+ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
+ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2652612"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "2824515"
 ---
 # <a name="business-document-management-overview"></a>Overzicht van Beheer van bedrijfsdocumenten
 
-Zakelijke gebruikers gebruiken het [ER-raamwerk (elektronische rapportage)](general-electronic-reporting.md) om indelingen voor uitgaande documenten te configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Gebruikers kunnen ook de gegevensstroom definiëren om op te geven welke toepassingsgegevens in gegenereerde documenten worden geplaatst. Het ER-raamwerk genereert uitgaande documenten in Microsoft Office-indelingen (Excel-werkmappen of Word-documenten) met behulp van vooraf gedefinieerde sjablonen. De sjablonen worden gevuld met vereiste gegevens in overeenstemming met de geconfigureerde gegevensstroom wanneer vereiste documenten worden gegenereerd. Elke geconfigureerde indeling kan als onderdeel van een ER-oplossing worden gepubliceerd om specifieke uitgaande documenten te genereren. Dit wordt weergegeven in een configuratie met de ER-indeling die sjablonen kan bevatten die u kunt gebruiken om verschillende uitgaande documenten te genereren. Zakelijke gebruikers kunnen dit raamwerk gebruiken om vereiste bedrijfsdocumenten te beheren.
+Zakelijke gebruikers gebruiken het [ER-overzicht (elektronische rapportage)](general-electronic-reporting.md) om indelingen voor uitgaande documenten te configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Gebruikers kunnen ook de gegevensstroom definiëren om op te geven welke toepassingsgegevens in gegenereerde documenten worden geplaatst. Het ER-raamwerk genereert uitgaande documenten in Microsoft Office-indelingen (Excel-werkmappen of Word-documenten) met behulp van vooraf gedefinieerde sjablonen. De sjablonen worden gevuld met vereiste gegevens in overeenstemming met de geconfigureerde gegevensstroom wanneer vereiste documenten worden gegenereerd. Elke geconfigureerde indeling kan als onderdeel van een ER-oplossing worden gepubliceerd om specifieke uitgaande documenten te genereren. Dit wordt weergegeven in een configuratie met de ER-indeling die sjablonen kan bevatten die u kunt gebruiken om verschillende uitgaande documenten te genereren. Zakelijke gebruikers kunnen dit raamwerk gebruiken om vereiste bedrijfsdocumenten te beheren.
 
 **Beheer van bedrijfsdocumenten** is gebaseerd op het ER-raamwerk en stelt zakelijke gebruikers in staat zakelijke documentsjablonen te bewerken met de Microsoft Office 365-service of de toepasselijke Microsoft Office-bureaubladtoepassing. Wijzigingen in de documenten kunnen betrekking hebben op het wijzigen in het ontwerp van bedrijfsdocumenten en het toevoegen van tijdelijke aanduidingen voor extra gegevens zonder wijzigingen in broncode en nieuwe implementaties. Er is geen kennis van het ER-raamwerk nodig om sjablonen van bedrijfsdocumenten bij te werken.
 
@@ -58,21 +59,17 @@ De volgende rapporten met Excel-sjablonen zijn beschikbaar in de release van de 
 
 Meer rapporten worden beschikbaar. Speciale meldingen over aanvullende rapporten worden afzonderlijk verzonden. 
 
-Een volledige lijst met alle rapporten die zijn gepland voor de release van oktober 2019, vindt u in [Configureerbare rapportage voor bedrijfsdocumenten in Word en Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
-
-# <a name="example-enable-configure-and-use-business-document-management"></a>Voorbeeld: Beheer van bedrijfsdocumenten inschakelen, configureren en gebruiken
-
-Voor meer informatie over deze functie kunt u het voorbeeld in dit onderwerp uitvoeren.
+Een volledige lijst met alle rapporten die zijn gepland voor de release van oktober 2019, vindt u in [Configureerbare rapportage voor bedrijfsdocumenten in Word en Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Voor meer informatie over deze functie kunt u het voorbeeld in dit onderwerp uitvoeren.
 
 ## <a name="configure-er-parameters"></a>ER-parameters configureren
 
-Omdat Beheer van bedrijfsdocumenten bovenop het ER-raamwerk is gebouwd, moet u de ER-parameters configureren om te werken met Beheer van bedrijfsdocumenten. Hiervoor stelt u ER-parameters in, zoals wordt beschreven in [Het ER-raamwerk configureren](electronic-reporting-er-configure-parameters.md). U moet ook een nieuwe configuratieprovider toevoegen, zoals wordt beschreven in [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Omdat Beheer van bedrijfsdocumenten bovenop het ER-raamwerk is gebouwd, moet u de ER-parameters configureren om te werken met Beheer van bedrijfsdocumenten. Hiervoor stelt u ER-parameters in, zoals wordt beschreven in [Raamwerk elektronische rapportage (ER) configureren](electronic-reporting-er-configure-parameters.md). U moet ook een nieuwe configuratieprovider toevoegen, zoals wordt beschreven in [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![ER-werkruimte](./media/BDM-Overview-ERSetting.png)
 
 ## <a name="import-er-solutions"></a>ER-oplossingen importeren
 
-U moet ER-configuraties die sjablonen voor bedrijfsdocumenten bevatten, importeren naar het huidige exemplaar. Download en bewaar de volgende bestanden lokaal om deze procedure te voltooien.
+In het voorbeeld van deze procedure worden voorbeelden van ER-configuraties gebruikt. U moet in uw huidige exemplaar van Dynamics 365 Finance de ER-configuraties importeren die de bedrijfsdocumentsjablonen bevatten die kunnen worden bewerkt met behulp van Beheer van bedrijfsdocumenten. Download en bewaar de volgende bestanden lokaal om deze procedure te voltooien.
 
 **Voorbeeld ER-oplossing voor klantfacturering**
 
@@ -105,7 +102,13 @@ Gebruik de volgende procedure om elk bestand te importeren. Importeer de configu
 
 ![Pagina ER-configuraties](./media/BDM-Overview-ERSolutions.png)
 
+
+U kunt ook de officiële gepubliceerde ER-indelingsconfiguraties uit Microsoft Dynamics Lifecycle Services (LCS) importeren. Als u deze procedure wilt uitvoeren, kunt u bijvoorbeeld de laatste versie van de ER-indelingsconfiguratie **Vrije-tekstfactuur (Excel)** importeren. De bijbehorende configuraties voor ER-gegevensmodellen en ER-modeltoewijzingen worden automatisch geïmporteerd.
+
+![De inhoudspagina LCS-bibliotheek voor gedeelde activa](./media/BDM-Overview-SharedAssetLibrary.png)
+
 Zie [De levenscyclus van de configuratie van elektronische rapportage beheren](general-electronic-reporting-manage-configuration-lifecycle.md) voor meer informatie over het importeren van ER-configuraties.
+
 
 ## <a name="enable-business-document-management"></a>Beheer van bedrijfsdocumenten inschakelen
 
@@ -118,9 +121,12 @@ Gebruik de volgende procedure om de functionaliteit voor Beheer van bedrijfsdocu
 3. Selecteer **Nu inschakelen** om de geselecteerde functie in te schakelen.
 4. Vernieuw de pagina om de nieuwe functie te openen.
 
+>[!NOTE]
+> Ook moet u **Office-achtige UI-ervaring voor Beheer van bedrijfsdocumenten** inschakelen voor het gebruik van de nieuwe interface voor Beheer van bedrijfsdocumenten
+
 ![Werkgebied Functiebeheer](./media/BDM-Overview-FMEnabling.png)
 
-Zie [Overzicht Functiebeheer](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)voor meer informatie over het activeren van nieuwe functies.
+Zie [Overzicht Functiebeheer](../../fin-ops/get-started/feature-management/feature-management-overview.md)voor meer informatie over het activeren van nieuwe functies.
 
 ## <a name="configure-parameters"></a>Parameters configureren
 
@@ -137,7 +143,7 @@ Voor dit documenttype moeten de volgende kenmerkwaarden worden geselecteerd.
 | Groep               | Bestand                  |
 | Locatie            | SharePoint            |
 
-Zie [Documentbeheer configureren](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) voor informatie over het instellen van de vereiste parameters voor documentbeheer en documenttypen.
+Zie [Documentbeheer configureren](../../fin-ops/organization-administration/configure-document-management.md) voor informatie over het instellen van de vereiste parameters voor documentbeheer en documenttypen.
 
 ![Documenttype voor Documentbeheer instellen](./media/BDM-Overview-DMSetting.png)
 
@@ -179,21 +185,21 @@ Gebruik de volgende procedure om de toegangsmachtigingen voor Beheer van bedrijf
 1. Meld u als een gebruiker met toegang tot de pagina **Configurator van toegangsmachtigingen** aan.
 2. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Beheer van bedrijfsdocumenten** \> **Toegangsmachtigingen beheren**.
 
-Let op de melding dat het gebruik van toegangsmachtigingen voor Beheer van bedrijfsdocumenten momenteel niet is ingeschakeld.
+    Let op de melding dat het gebruik van toegangsmachtigingen voor Beheer van bedrijfsdocumenten momenteel niet is ingeschakeld.
 
-![De pagina Configurator van toegangsmachtigingen voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-TemplatesAccess1.png)
+    ![De pagina Configurator van toegangsmachtigingen voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-TemplatesAccess1.png)
 
-Met deze instelling kan elke gebruiker die is toegewezen aan een beveiligingsrol die is geconfigureerd voor het uitvoeren van de functie **Bedrijfsdocumentsjablonen beheren** (AOT-naam **ERBDManageTemplates**), het werkgebied Beheer van bedrijfsdocumenten openen en elke sjabloon bewerken die beschikbaar is.
+    Met deze instelling kan elke gebruiker die is toegewezen aan een beveiligingsrol die is geconfigureerd voor het uitvoeren van de functie **Bedrijfsdocumentsjablonen beheren** (AOT-naam **ERBDManageTemplates**), het werkgebied Beheer van bedrijfsdocumenten openen en elke sjabloon bewerken die beschikbaar is.
 
-In de volgende afbeelding ziet u wat er beschikbaar is in het werkgebied Beheer van bedrijfsdocumenten voor gebruikers die zijn toegewezen aan de rol **Klantenadministrateur**. Met de huidige instelling voor toegangsmachtigingen kan de gebruiker bedrijfsdocumentsjablonen bewerken vanuit verschillende functionele gebieden, zoals facturering, wettelijke rapportage en betalingen.
+    In de volgende afbeelding ziet u wat er beschikbaar is in het werkgebied Beheer van bedrijfsdocumenten voor gebruikers die zijn toegewezen aan de rol **Klantenadministrateur**. Met de huidige instelling voor toegangsmachtigingen kan de gebruiker bedrijfsdocumentsjablonen bewerken vanuit verschillende functionele gebieden, zoals facturering, wettelijke rapportage en betalingen.
 
-![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. Selecteer op de pagina **Configurator van toegangsmachtigingen** de optie **Toegangsmachtigingen instellen**.
 4. Schakel in het dialoog venster **Instellingen van toegangsmachtigingen voor het bewerken van sjablonen** de optie **Geconfigureerde toegangsmachtigingen toepassen** in.
 5. Selecteer **OK** om te bevestigen dat de toegangsmachtigingen voor Beheer van bedrijfsdocumenten zijn ingeschakeld.
 
-![De pagina Configuratie van toegangsmachtigingen voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-TemplatesAccess2.png)
+    ![De pagina Configuratie van toegangsmachtigingen voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. Selecteer **Toevoegen** om een nieuwe zakelijke rol in te voeren waarvoor toegangsmachtigingen voor sjablonen voor Beheer van bedrijfsdocumenten moeten worden geconfigureerd.
 7. Selecteer in het dialoogvenster **Beveiligingsrollen** de rol **Klantadministrateur** en selecteer vervolgens **OK** om de geselecteerde rol te bevestigen.
@@ -201,11 +207,11 @@ In de volgende afbeelding ziet u wat er beschikbaar is in het werkgebied Beheer 
 9. Selecteer in het veld **Type code** de optie **Functiegebied** en selecteer in het veld **Id** de optie **Facturering**.
 10. Selecteer **Opslaan** om geconfigureerde toegangsmachtigingen voor de geselecteerde rol op te slaan.
 
-  De huidige instelling betekent dat voor alle gebruikers die zijn toegewezen aan de rol **Klantadministrateur** en die de functie **Bedrijfsdocumentsjablonen beheren** (AOT-naam **ERBDManageTemplates**) uitvoeren, configuratiesjablonen met ER-indeling met de waarde **Facturering** voor de code **Functiegebied** beschikbaar zijn voor bewerken in het werkgebied Beheer van bedrijfsdocumenten.
+    De huidige instelling betekent dat voor alle gebruikers die zijn toegewezen aan de rol **Klantadministrateur** en die de functie **Bedrijfsdocumentsjablonen beheren** (AOT-naam **ERBDManageTemplates**) uitvoeren, configuratiesjablonen met ER-indeling met de waarde **Facturering** voor de code **Functiegebied** beschikbaar zijn voor bewerken in het werkgebied Beheer van bedrijfsdocumenten.
 
 11. Ga naar het deelvenster **Gerelateerde informatie** aan de rechterkant van de huidige pagina. In het deelvenster **Verwante informatie** wordt weergegeven hoe de geconfigureerde toegangsmachtigingen worden toegepast, inclusief welke ER-configuratiesjablonen er beschikbaar zijn voor gebruikers die zijn toegewezen aan de rol **Klantenadministrateur**.
 
-![De pagina Configuratie van toegangsmachtigingen voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-TemplatesAccess3.png)
+    ![De pagina Configuratie van toegangsmachtigingen voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. Selecteer op het tabblad **Toegangsmachtigingen per configuratie** de optie **Toevoegen**.
 13. Markeer in het dialoogvenster **Configuratie selecteren** de ER-indelingsconfiguratie **Intrastat-rapport**.
@@ -252,21 +258,31 @@ De optie **Sjabloon bewerken** is beschikbaar voor de geselecteerde sjabloon. De
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Bewerking van sjablonen starten die eigendom zijn van andere providers
 
-1. Selecteer in het werkgebied Beheer van bedrijfsdocumenten de sjabloon **FTI-rapport klant (GER)** in de lijst.
-2. Selecteer het tabblad **Details**.
+1. Selecteer **Nieuw document** in het werkgebied Beheer van bedrijfsdocumenten.
 
-![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingTemplate3.png)
+![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM_overview_new_template1.png)
 
-De optie **Nieuw document** is beschikbaar voor de geselecteerde sjabloon. Deze optie is altijd beschikbaar voor een sjabloon in een ER-indelingsconfiguratie die wordt geleverd door een andere provider (**Microsoft** in dit voorbeeld). Wanneer **Nieuw document** wordt geselecteerd, kan een nieuwe sjabloon worden bewerkt. De bewerkte sjabloon wordt vervolgens opgeslagen in een nieuwe ER-indelingsconfiguratie die automatisch wordt gegenereerd.
+2. Selecteer het document dat u als een sjabloon wilt gebruiken.
+
+![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM_overview_new_template2.png)
+
+3. Klik op **Document maken**.
+4. Wijzig zo nodig in het veld **Titel** de titel van de bewerkbare sjabloon. De tekst wordt gebruikt als naam voor de ER-indelingsconfiguratie die automatisch wordt gemaakt. De conceptversie van deze configuratie (**Kopie FTI-rapport klant (GER)**) waarin de bewerkte sjabloon wordt opgenomen, wordt automatisch gemarkeerd om deze ER-indeling voor de huidige gebruiker uit te voeren. Tegelijkertijd wordt de niet-gewijzigde oorspronkelijke sjabloon van de ER-basisindelingsconfiguratie gebruikt om deze ER-indeling voor andere gebruikers uit te voeren.
+5. Wijzig in het veld **Naam** de naam van de eerste revisie van de bewerkbare sjabloon die automatisch wordt gemaakt.
+6. Wijzig in het veld **Opmerking** de opmerking voor de automatisch gemaakte revisie van de bewerkbare sjabloon.
+7. Selecteer **OK** om het begin van het bewerkingsproces te bevestigen.
+
+![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM_overview_new_template3.png)
+
+De optie **Nieuw document** is altijd beschikbaar voor een sjabloon in een ER-indelingsconfiguratie die wordt geleverd door een andere provider (Microsoft in dit voorbeeld). Wanneer u op **Nieuw document** klikt, ziet u alle sjablonen die eigendom zijn van huidige en andere providers. Nadat u de sjabloon hebt gekozen, wordt deze geopend om te worden bewerkt. De bewerkte sjabloon wordt vervolgens opgeslagen in een nieuwe ER-indelingsconfiguratie die automatisch wordt gegenereerd.
 
 ### <a name="start-editing-a-template"></a>Een sjabloon bewerken
 
-1. Selecteer **Nieuw document** in de geselecteerde sjabloon.
-2. Wijzig zo nodig in het veld **Titel** de titel van de bewerkbare sjabloon. De tekst wordt gebruikt als naam voor de ER-indelingsconfiguratie die automatisch wordt gemaakt. De conceptversie van deze configuratie (**Kopie FTI-rapport klant (GER)**) waarin de bewerkte sjabloon wordt opgenomen, wordt automatisch gemarkeerd om deze ER-indeling voor de huidige gebruiker uit te voeren. Tegelijkertijd wordt de niet-gewijzigde oorspronkelijke sjabloon van de ER-basisindelingsconfiguratie gebruikt om deze ER-indeling voor andere gebruikers uit te voeren.
-3. Wijzig in het veld **Naam** de naam van de eerste revisie van de bewerkbare sjabloon die automatisch wordt gemaakt.
-4. Wijzig in het veld **Opmerking** de opmerking voor de automatisch gemaakte revisie van de bewerkbare sjabloon.
+1. Selecteer **Document bewerken** in de geselecteerde sjabloon.
+2. Wijzig in het veld **Naam** de naam van de eerste revisie van de bewerkbare sjabloon die automatisch wordt gemaakt.
+3. Wijzig in het veld **Opmerking** de opmerking voor de automatisch gemaakte revisie van de bewerkbare sjabloon.
 
-![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingTemplate4.png)
+    ![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM_overview_new_template4.png)
 
 5. Selecteer **OK** om het begin van het bewerkingsproces te bevestigen.
 
@@ -285,15 +301,15 @@ Wijzig de sjabloon met behulp van de functionaliteit van Office 365. Wijzig in O
 1. Selecteer de optie **Openen in bureaubladtoepassing** om de sjabloon te wijzigen met behulp van de functionaliteit van de Office-bureaubladtoepassing (Excel in dit voor beeld). De bewerkbare sjabloon wordt gekopieerd van de permanente opslag naar de tijdelijke opslag die is geconfigureerd in de parameters voor Beheer van bedrijfsdocumenten als een SharePoint-map.
 2. Bevestig dat u de sjabloon wilt openen vanuit de tijdelijke bestandsopslag in de Office-bureaubladtoepassing Excel.
 
-![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingLayout3.png)
+    ![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingLayout3.png)
 
 3. Wijzig de sjabloon. Wijzig bijvoorbeeld het lettertypekleur van de veldprompts in de sjabloonkoptekst van **Zwart** in **Blauw**.
 
-![Sjablooneditor voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingLayout4.png)
+    ![Sjablooneditor voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingLayout4.png)
 
 4. Selecteer **Opslaan** in de Excel-bureaubladtoepassing om de wijzigingen in de sjabloon op te slaan in de tijdelijke opslag.
 
-![Sjablooneditor voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingLayout5.png)
+    ![Sjablooneditor voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingLayout5.png)
 
 5. Sluit de Excel-bureaubladtoepassing.
 6. Selecteer **Opgeslagen kopie synchroniseren** om de tijdelijke sjabloonopslag te synchroniseren met de permanente sjabloonopslag.
@@ -307,7 +323,7 @@ Wijzig de sjabloon met behulp van de functionaliteit van Office 365. Wijzig in O
 2. Selecteer **Indeling weergeven** om de huidige structuur van de indeling weer te geven vanuit de ER-basisindelingsconfiguratie die moet worden afgestemd op de bewerkbare sjabloon. 
 3. Selecteer **Indeling verbergen** om het deelvenster te sluiten.
 
-![Pagina BDM-sjablooneditor](./media/BDM-Overview-EditingTemplate6.png)
+    ![Pagina BDM-sjablooneditor](./media/BDM-Overview-EditingTemplate6.png)
 
 4. Sluit de pagina **BDM-sjablooneditor**.
 
@@ -323,7 +339,7 @@ De bijgewerkte sjabloon wordt weergegeven op het tabblad **Sjabloon**. U ziet da
 4. Selecteer het niveau **Module - Klanten** \> **Documenten** \> **Vrije-tekstfactuur** \> **Oorspronkelijk document** om het bereik van facturen voor verwerking op te geven.
 5. Selecteer in het veld **Rapportindeling** de ER-indeling **Kopie FTI-rapport klant (GER)** voor het opgegeven documentniveau.
 
-![Pagina Afdrukbeheerinstellingen](./media/BDM-Overview-TestRun1.png)
+    ![Pagina Afdrukbeheerinstellingen](./media/BDM-Overview-TestRun1.png)
 
 6. Druk op **ESC** om de huidige pagina te sluiten.
 7. Selecteer **Afdrukken** en klik op **Geselecteerd**.
@@ -340,9 +356,9 @@ De gewijzigde sjabloon wordt gebruikt om het rapport met vrije-tekstfacturen voo
 3. Wijzig zo nodig in het veld **Naam** de naam van de tweede revisie en baseer deze op de huidige actieve eerste revisie.
 4. Wijzig zo nodig in het veld **Opmerking** de opmerking voor de automatisch gemaakte revisie van de bewerkbare sjabloon.
 
-![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-AddRevision.png)
+    ![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-AddRevision.png)
 
-U hebt een nieuwe revisie van uw sjabloon gemaakt die is opgeslagen in de permanente sjabloonopslag. U kunt nu doorgaan met het bewerken van de sjabloon van de tweede revisie die momenteel als actief is geselecteerd.
+    U hebt een nieuwe revisie van uw sjabloon gemaakt die is opgeslagen in de permanente sjabloonopslag. U kunt nu doorgaan met het bewerken van de sjabloon van de tweede revisie die momenteel als actief is geselecteerd.
 
 5. Selecteer de eerste revisie en selecteer vervolgens **Instellingen als actief**. U kunt een andere revisie als actief selecteren als u wilt terugkeren naar die revisie van de sjabloon.
 6. Selecteer de tweede revisie en selecteer vervolgens **Verwijderen**.
@@ -370,7 +386,7 @@ Wanneer u de sjabloon bewerkt vanuit een ER-indeling die eigendom is van de huid
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
-#### <a name="i-selected-new-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Ik heb **Nieuw document** geselecteerd, maar in plaats van de pagina **BDM-sjablooneditor** te openen in Finance and Operations, ben ik doorgestuurd naar de Office 365-webpagina.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Ik heb **Document bewerken** geselecteerd, maar in plaats van de pagina **BDM-sjablooneditor** te openen in Finance and Operations, ben ik doorgestuurd naar de Office 365-webpagina.
 Dit is een bekend probleem met de Office 365-omleiding. Dit gebeurt wanneer u zich de eerste keer aanmeldt bij Office 365. Als u dit probleem wilt verhelpen, selecteert u de knop **Vorige** in de browser om terug te gaan.
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Ik begrijp hoe ik een sjabloon kan bewerken met Office 365 in de eerste toepassingssessie en hoe ik de sjabloon in de tweede toepassingssessie gebruik om de sjabloon aan te passen en hoe ik mijn wijzigingen kan zien die van invloed zijn op het gegenereerde bedrijfsdocument. Kan ik dit doen met de Office-bureaubladtoepassing?
@@ -386,12 +402,12 @@ Waarschijnlijk bent u aangemeld bij het huidige exemplaar van de app van het Azu
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van elektronische rapportage](general-electronic-reporting.md)
+[Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
-[Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling](tasks/er-design-reports-openxml-2016-11.md)
+[ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)](tasks/er-design-reports-openxml-2016-11.md)
 
 [ER-configuraties ontwerpen om rapporten in Word-indeling te genereren](tasks/er-design-configuration-word-2016-11.md)
 
 [Afbeeldingen en vormen insluiten in documenten die u genereert met ER](electronic-reporting-embed-images-shapes.md)
 
-[Elektronische aangifte configureren om gegevens op te halen in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+[Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)

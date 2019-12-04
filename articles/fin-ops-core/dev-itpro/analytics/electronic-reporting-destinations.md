@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181261"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771464"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -122,7 +122,7 @@ Als u **Ingeschakeld** instelt op **Ja**, wordt een voorbeeld van de uitvoer gem
 
 ### <a name="power-bi-destination"></a>Power BI-bestemming
 
-Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om gegevens van uw exemplaar over te dragen aan Microsoft Power BI-services. De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint Server-exemplaar dat voor dit doel moet worden geconfigureerd. Zie [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Finance te voorzien voor meer informatie](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om gegevens van uw exemplaar over te dragen aan Microsoft Power BI-services. De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint Server-exemplaar dat voor dit doel moet worden geconfigureerd. Zie [Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md) voor meer informatie.
 
 > [!TIP]
 > Als u het standaardgedrag wilt negeren (dat wil zeggen het dialoogvenster voor een configuratie), kunt u een bestemmingsverwijzing en een bestandsbestemming voor het hoofduitvoeronderdeel maken en vervolgens alle bestemmingen uitschakelen.
@@ -163,4 +163,4 @@ Voorwaarde is dat uw indeling beschikbaar moet zijn in de ER-configuraties. Als 
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van elektronische rapportage](general-electronic-reporting.md)
+[Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)

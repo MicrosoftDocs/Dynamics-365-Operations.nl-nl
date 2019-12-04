@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 037d4971fe0a5a9d08f0ed20d2482b8feb9aa4f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 44d404aaafd124a5d5a9d92cac8add51f1ee846a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177172"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771979"
 ---
 # <a name="cost-element-dimensions"></a>Dimensies van kostenelement
 
@@ -66,7 +66,7 @@ Er zijn twee typen kostenelementen: primaire kostenelementen en secundaire koste
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Dimensies van kostenelementen en dimensieleden van kostenelementen.
 Kostenelementen worden ook aangeduid als *kostenelementendimensies*. De individuele dimensiewaarden staan bekend als *kostenelementdimensieleden*. Stel dat u een rekeningschemastructuur hebt, die de basis voor de wettelijk voorgeschreven rapportage vormt. Deze structuur wordt gebruikt als de kostenelementendimensie. De rekeningen, die de primaire kostenelementen vormen, zijn vertegenwoordigd als de kostenelementendimensieleden in Kostprijsboekhouding. In de onderstaande schermopname ziet u een voorbeeld van Hoofdrekeningen als de kostenelementdimensie met de werkelijke hoofdrekeningen als kostenelementdimensieleden. 
 
-[![dimensies-kostenelement](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Schermopname van hoofdrekeningen als kostenelementdimensie](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Kostenelementdimensieleden importeren door middel van gegevensconnectors
 Om gemakkelijker leden van kostenelementdimensies te kunnen configureren in Kostenprijsboekhouding, kunt u met vooraf gemaakte gegevensconnectors of zelf samengestelde connectors de primaire kostenelementen ophalen vanuit een of meer bronsystemen.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eef9d8c58d19b05901035f4c679ee7d9902819
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177139"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771914"
 ---
 # <a name="set-up-fixed-assets"></a>Vaste activa instellen
 
@@ -51,7 +51,7 @@ Nadat u afschrijvingsprofielen hebt ingesteld, moet u de vereiste boeken voor uw
 
 Een primair afschrijvingsprofiel wordt toegewezen aan elk boek. De boeken hebben ook of een alternatief afschrijvingsprofiel, als dit type profiel van toepassing is. Als u het vaste-activaboek automatisch wilt opnemen in afschrijvingsruns, moet u de optie **Afschrijving berekenen** inschakelen. Als deze optie niet voor een activum is ingeschakeld, slaat het afschrijvingsvoorstel het activum over.
 
-U kunt ook afgeleide boeken instellen. De opgegeven afgeleide transacties worden geboekt tegen de afgeleide boeken, als een exacte kopie van de primaire transactie. Daarom worden afgeleide transacties gewoonlijk ingesteld voor verwervingen en afstotingen, niet voor afschrijvingstransacties. Zie [Boeken instellen](tasks/set-up-value-models.md) voor meer informatie.
+U kunt ook afgeleide boeken instellen. De opgegeven afgeleide transacties worden geboekt tegen de afgeleide boeken, als een exacte kopie van de primaire transactie. Daarom worden afgeleide transacties gewoonlijk ingesteld voor verwervingen en afstotingen, niet voor afschrijvingstransacties. Zie [Waardemodellen instellen](tasks/set-up-value-models.md) voor meer informatie.
 
 ## <a name="fixed-asset-posting-profiles"></a>Boekingsprofielen vaste activa
 

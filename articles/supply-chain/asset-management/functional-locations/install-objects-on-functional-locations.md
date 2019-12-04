@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8619c6cde484c41ec01e96eb4626366f1955b5d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571801"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811815"
 ---
 # <a name="install-assets-on-functional-locations"></a>Activa installeren op functionele locaties
 
@@ -31,7 +31,7 @@ ms.locfileid: "2571801"
 
  
 
-Nadat u structuren voor functionele locaties hebt gemaakt, is de volgende stap het installeren van activa op de relevante functionele locaties. In dit onderwerp wordt uitgelegd hoe u activa installeert op deze functionele locaties in Activabeheer. Zie [Activa](../objects/introduction-to-objects.md) voor meer informatie over het maken van activa.
+Nadat u structuren voor functionele locaties hebt gemaakt, is de volgende stap het installeren van activa op de relevante functionele locaties. In dit onderwerp wordt uitgelegd hoe u activa installeert op deze functionele locaties in Activabeheer. Zie [Inleiding tot activa](../objects/introduction-to-objects.md) voor meer informatie over het maken van activa.
 
 Als u een activastructuur hebt gemaakt, moet de hele activastructuur worden geïnstalleerd op een functionele locatie. Daarom kunnen alleen bovenliggende activa (activa op het hoogste niveau die geen bovenliggend activum hebben) worden geselecteerd op een functionele locatie. Alle gerelateerde onderliggende activa (subactiva) worden ook op de functionele locatie geïnstalleerd. Wanneer u activa op een functionele locatie installeert, worden de financiële dimensies van de functionele locatie mogelijk automatisch naar deze activa overgebracht. Dit is afhankelijk van de instellingen voor het type functionele locatie dat voor de functionele locatie is geselecteerd. Zie [Typen functionele locaties](../setup-for-functional-locations/functional-location-types.md) voor meer informatie over het instellen van typen functionele locaties.
 

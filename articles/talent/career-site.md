@@ -1,5 +1,5 @@
 ---
-title: Uw vacaturesite instellen in Microsoft Dynamics 365 Talent - Attract
+title: Uw vacaturesite instellen in Attract
 description: Dit onderwerp bevat een overzicht van de functionaliteit voor op kandidaten gerichte vacaturesite in Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 256ef1b335ddf0c908704b14eca0883ee98d2038
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: d4a1e7c19ccec6ae32e46ec7d58604b162418953
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551090"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832949"
 ---
-# <a name="set-up-your-career-site-in-microsoft-dynamics-365-talent---attract"></a>Uw vacaturesite instellen in Microsoft Dynamics 365 Talent - Attract
+# <a name="set-up-your-career-site-in-attract"></a>Uw vacaturesite instellen in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dit onderwerp bevat een overzicht van de functionaliteit voor een op kandidaten gerichte vacaturesite in Microsoft Dynamics 365 Talent: Attract. Ook wordt uitgelegd hoe u deze functionaliteit instelt.
 

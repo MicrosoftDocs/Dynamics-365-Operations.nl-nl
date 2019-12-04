@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025997"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812690"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (20 maart 2019)
 
@@ -43,7 +43,7 @@ Met deze functie kunnen zoekmachinecrawlers functiepublicaties op de Attract-vac
 Als kandidaten de sociale referenties zijn vergeten die zijn gebruikt om te solliciteren op een functie bij het openen van een koppeling die is opgeslagen of per e-mail is verzonden aan hen, zien ze voortaan een hint met de naam van de provider en de gebruikersnaam (afgeschermd). Op deze manier gebruiken ze de juiste referenties voor toegang tot hun sollicitatie.
 
 ### <a name="help-internal-candidates-explore-internal-jobs"></a>Interne kandidaten helpen bij het verkennen van interne functies
-Het probleem waarbij externe kandidaten de naam van de werver of de aanstellende manager van een functie kunnen zien, is opgelost. Nu kunnen alleen interne kandidaten de leden van het aanstellende team voor een functie zien. Ook is het gemakkelijker voor interne kandidaten om alleen-interne functies te bekijken en erop te solliciteren. Wanneer een kandidaat toegang probeert te krijgen tot de koppeling om een alleen-intern project te bekijken of erop te solliciteren, is verificatie met Azure Active Directory-referenties vereist. Interne kandidaten hebben ook de mogelijkheid om contact op te nemen met de leden van het aanstellende team om aan te geven dat ze belangstelling hebben voor de functie of er meer over willen weten. Deze functie is beschikbaar voor alle functies voor alleen interne kandidaten. Zie voor meer informatie [Vacaturesitefunctionaliteit in Attract](./career-site.md).
+Het probleem waarbij externe kandidaten de naam van de werver of de aanstellende manager van een functie kunnen zien, is opgelost. Nu kunnen alleen interne kandidaten de leden van het aanstellende team voor een functie zien. Ook is het gemakkelijker voor interne kandidaten om alleen-interne functies te bekijken en erop te solliciteren. Wanneer een kandidaat toegang probeert te krijgen tot de koppeling om een alleen-intern project te bekijken of erop te solliciteren, is verificatie met Azure Active Directory-referenties vereist. Interne kandidaten hebben ook de mogelijkheid om contact op te nemen met de leden van het aanstellende team om aan te geven dat ze belangstelling hebben voor de functie of er meer over willen weten. Deze functie is beschikbaar voor alle functies voor alleen interne kandidaten. Zie [Uw vacaturesite instellen in Microsoft Dynamics 365 Talent - Attract](./career-site.md) voor meer informatie.
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Tweede plaatsen aanwijzen om sollicitanten met een hoge waarde voor toekomstige posities toe te wijzen
 Wervers en aanstellende managers houden vaak een actieve lijst bij van sollicitanten die geschikt zijn voor de positie, maar aan wie de functie niet kan worden aangeboden omdat de positie al is ingevuld. Dergelijke sollicitanten, zogenaamde tweedeplaatskandidaten, zijn waardevol omdat ze tijd kunnen besparen als een vergelijkbare positie de volgende keer vrij komt. In Attract kunnen wervers en aanstellende managers tweedeplaatskandidaten op de lijst met sollicitanten aanwijzen als de sollicitant naar de fase Aanbieding is verplaatst. De aanduiding van tweede plaats wordt in de lijst met sollicitanten voor de functie weergegeven, maar ook in de weergave van de talentenpool wanneer deze sollicitanten lid zijn van een van de pools van de werver of aanstellende manager. Daarnaast worden de aanduiding weergegeven in de functiehistorie als onderdeel van het talentenpoolprofiel van een kandidaat. U kunt een voorbeeld van deze functie bekijken door een beheerder de functie te laten inschakelen met [Functiebeheer in het Beheercentrum](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e9fe8f78121428770e6516159f5eceb6976c4c9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdfa9ed24d0456d9beaec03ebac89098131d0675
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181790"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771137"
 ---
 # <a name="financial-reporting"></a>Financiële rapportage
 
@@ -47,14 +47,14 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 | Onderdeel        | Functies | Aanvullende gegevens |
 |------------------|-----------|------------------------|
 | Report Designer  | Maak rapportbouwstenen die kunnen worden gecombineerd om een rapport te definiëren en te genereren. De Rapportwizard begeleidt minder ervaren gebruikers door het ontwerpproces. Gevorderde gebruikers kunnen nieuwe rapportbouwstenen maken of bestaande bouwstenen wijzigen zodat deze aan hun vereisten voldoen. | |
-| Rapportplanningen | Plan een enkel rapport of een groep van rapporten zodat dit/deze op regelmatige basis wordt gegenereerd. | [Een financieel rapport maken](generate-financial-report.md) |
+| Rapportplanningen | Plan een enkel rapport of een groep van rapporten zodat dit/deze op regelmatige basis wordt gegenereerd. | [Financiële rapporten genereren](generate-financial-report.md) |
 
 ## <a name="features"></a>Functies
 <table>
 <thead>
 <tr>
 <th>Functie</th>
-<th>Omschrijving</th>
+<th>Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -96,4 +96,4 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 </table>
 
 ## <a name="additional-resources"></a>Aanvullende resources
-[Een financieel rapport genereren](generate-financial-report.md)
+[Financiële rapporten genereren](generate-financial-report.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 168c2fb9edfc994617ef6764a5b9f5949d599882
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186320"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771747"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Btw-betalingen en afrondingsregels
 
@@ -126,7 +126,7 @@ afronding (1,0151, 0,00) = 1,0151 afronding (1,0149, 0,00) = 1,0149
 Zie de volgende onderwerpen voor meer informatie:
 - [Btw-overzicht](indirect-taxes-overview.md)
 - [Een btw-betaling maken](tasks/create-sales-tax-payment.md)
-- [Verkooptransacties maken in documenten](tasks/create-sales-tax-transactions-documents.md)
+- [Btw-transacties maken in documenten](tasks/create-sales-tax-transactions-documents.md)
 - [Geboekte btw-transacties weergeven](tasks/view-posted-sales-tax-transactions.md)
 - [Afrondingsfunctie](https://msdn.microsoft.com/library/aa850656.aspx)
 

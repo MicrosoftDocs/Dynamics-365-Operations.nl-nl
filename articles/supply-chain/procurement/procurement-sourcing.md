@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558214"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813381"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Startpagina Inkoopbeheer
 
@@ -39,16 +39,16 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 -   [Machtigingen instellen voor het bestellen van producten namens iemand anders](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>Offerteaanvragen
--   [Offerteaanvragen](request-quotations.md)
+-   [Overzicht van Offerteaanvragen](request-quotations.md)
 -   [Een offerteaanvraag maken](tasks/create-request-quotation.md)
 -   [Offerteaanvraagbiedingen invoeren en vergelijken en contracten toekennen](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [Een scoringsmethode maken voor offerteaanvragen](tasks/create-scoring-method-rfqs.md)
 -   [Aanvraagtypen en scoringscriteria maken voor offerteaanvragen](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
 ## <a name="vendor-management-and-collaboration"></a>Leveranciersbeheer en samenwerking
--   [Leverancieraccounts instellen](set-up-vendor-accounts.md)
+-   [Leveranciersrekeningen instellen](set-up-vendor-accounts.md)
 -   [Een leverancierrekening maken](tasks/create-vendor-account.md)
--   [Een bankrekening van een leverancier maken](tasks/create-vendor-bank-account.md)
+-   [Een nieuwe leveranciersbankrekening maken](tasks/create-vendor-bank-account.md)
 -   [Zoeken naar leveranciers](tasks/search-vendors.md)
 -   [Leveranciers voor specifieke producten goedkeuren](tasks/approve-vendors-specific-products.md)
 -   [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md)
@@ -58,12 +58,12 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 -   [Demoscript Inkomende consignatievoorraad voor Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(whitepaper)
 -   [Consignmentvoorraad bewaken door middel van leverancierssamenwerking](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Samenwerken met leveranciers via de portal Leveranciers](collaborate-vendors-vendor-portal.md) (alleen versies van Dynamics AX van februari 2016 en mei 2016)
--   [Configuratie van beveiliging voor Leveranciersportal-gebruikers](configure-security-vendor-portal-users.md) (alleen versies van Finance and Operations van februari 2016 en mei 2016)
--   [Mobiel werkgebied voor leverancierssamenwerking voorMicrosoft Dynamics 365 for Finance and Operations-app](vendor-collaboration-mobile-workspace.md)
+-   [Gebruikersbeveiliging in leveranciersportal](configure-security-vendor-portal-users.md) (alleen versies van Finance and Operations van februari 2016 en mei 2016)
+-   [Mobiel werkgebied voor leverancierssamenwerking](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Beheer inkoopproducten
--   [Aanschaffingscatalogi](procurement-catalogs.md)
--   [Een inkoopcatalogus maken](tasks/create-procurement-catalog.md)
+-   [Overzicht van Aanschaffingscatalogi](procurement-catalogs.md)
+-   [Inkooporders maken](tasks/create-procurement-catalog.md)
 -   [Leverancierscatalogi importeren](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (blogbericht)
 -   [Een hiërarchie van aanschaffingscategorieën instellen](tasks/set-up-procurement-category-hierarchy.md)
 -   [Beleid instellen voor categoriehiërarchieën voor aanschaffing](tasks/set-up-policies-procurement-category-hierarchies.md)
@@ -72,7 +72,7 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 ## <a name="procurement"></a>Inkoop
 -   [Overzicht van inkooporders](purchase-order-overview.md)
 -   [Inkooporder maken](purchase-order-creation.md)
--   [Goedkeuring en bevestiging van inkooporder](purchase-order-approval-confirmation.md)
+-   [Inkooporders goedkeuren en bevestigen](purchase-order-approval-confirmation.md)
 -   [Inkooporder maken](tasks/create-purchase-order.md)
 -   [Een herhalingsinkooporder maken](tasks/create-repeat-purchase-order.md)
 -   [Een inkooporder maken op basis van een verkooporder](../sales-marketing/tasks/create-purchase-order-sales-order.md)
@@ -99,11 +99,8 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 -   [De ontvangst van goederen registreren voor de inkooporder](tasks/record-receipt-goods-purchase-order.md)
 -   [Workflow voor opdracht tot inkoop](purchase-requisitions-workflow.md)
 -   [Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (whitepaper)
--   [Inkoopbeleid](purchase-policies.md)
+-   [Overzicht van Aanschafbeleid](purchase-policies.md)
 -   [Een aanschafbeleid maken](tasks/create-purchasing-policies.md)
-
-
-
 
 
 

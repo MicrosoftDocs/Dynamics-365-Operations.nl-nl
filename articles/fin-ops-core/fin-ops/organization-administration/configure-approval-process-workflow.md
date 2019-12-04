@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b09d09464eae932bf9caf4f2ea38cbbb3b4f0162
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190207"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811376"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Goedkeuringsprocessen configureren in een workflow
 
@@ -182,4 +182,4 @@ Een goedkeuringsproces bestaat uit goedkeuringsstappen. Voer de volgende procedu
 
 1. Dubbelklik in de workfloweditor op het goedkeuringsproces. De workfloweditor geeft de stappen van het goedkeuringsproces weer.
 2. Sleep de goedkeuringsstappen die u wilt toevoegen van het gebied **Workflowelementen** naar het tekenpapier.
-3. Zie [Een goedkeuringsstap configureren](configure-approval-step-workflow.md) als u een goedkeuringsstap wilt configureren.
+3. Zie [Goedkeuringsstappen configureren in een workflow](configure-approval-step-workflow.md) als u een goedkeuringsstap wilt configureren.

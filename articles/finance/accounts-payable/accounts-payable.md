@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658731"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772232"
 ---
 # <a name="accounts-payable-home-page"></a>Startpagina van Leveranciers
 
@@ -41,7 +41,7 @@ U kunt leveranciersfacturen handmatig invoeren of elektronisch ontvangen via een
 
 Stel leveranciersgroepen, leveranciers, boekingsprofielen, verschillende betalingsopties en parameters met betrekking tot leveranciers, toeslagen, leveringen en bestemmingen, promessen en andere typen leveranciersgegevens in. 
 
-[Leveranciers configureren](accounts-payable-overview.md)
+[Overzicht van Leveranciers configureren](accounts-payable-overview.md)
 
 [Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -51,17 +51,17 @@ Stel leveranciersgroepen, leveranciers, boekingsprofielen, verschillende betalin
 
 In de module Leveranciers kunt u facturen en uitgaande uitgaven aan leveranciers bijhouden.
 
-[Factuurvereffening voor leveranciers](accounts-payable-invoice-matching.md)
+[Overzicht van Factuurvereffening voor leveranciers](accounts-payable-invoice-matching.md)
 
 [Boekingsprofielen van leverancier](vendor-posting-profiles.md)
 
-[Validatie voor factuurmatching instellen voor leveranciers](tasks/set-up-accounts-payable-invoice-matching-validation.md)
+[Validatie voor factuurvereffening instellen voor leveranciers](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
 [Drieweg-overeenstemmingsbeleid](three-way-matching-policies.md)
 
 [Factuurvereffening en intercompany-inkooporders](invoice-matching-intercompany-purchase-orders.md)
 
-[Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Overzicht van Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Standaardtegenrekeningen voor leveranciersfactuurjournalen en factuurgoedkeuringsjournalen](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,11 +93,11 @@ Een door het systeem gedefinieerd betalingstype, zoals, cheque, elektronische be
 
 [Een contantkorting nemen buiten de periode van contantkorting](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Elektronische aangifte van cheques voor leveranciers](electronic-reporting-sample-vendor-checks.md)
+[Elektronische aangifte van voorbeeldcheques voor leveranciers](electronic-reporting-sample-vendor-checks.md)
 
 [Een leveranciersbetaling omkeren](reverse-vendor-payment.md)
 
-[Vooruitbetalingsfacturen en overzicht van vooruitbetalingen](prepayments-invoices-vs-prepayments.md)
+[Vooruitbetalingsfacturen versus vooruitbetalingen](prepayments-invoices-vs-prepayments.md)
 
 [Gecentraliseerde betalingen voor Leveranciers](centralized-payments-accounts-payable.md)
 
@@ -107,23 +107,23 @@ De volgende onderwerpen bevatten informatie over het beheren van vereffeningen. 
 
 [Vereffening configureren](../cash-bank-management/configure-settlement.md)
 
-[Een gedeeltelijke leveranciersbetaling vereffenen vóór de kortingsdatum](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Een gedeeltelijke leveranciersbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [Een gedeeltelijke leveranciersbetaling vereffenen met kortingen op creditnota's van de leverancier](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [Een gedeeltelijke leveranciersbetaling met meerdere kortingsperioden vereffenen](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Een gedeeltelijke leveranciersbetaling of laatste betaling vereffenen vóór de kortingsdatum](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Een gedeeltelijke leverancierdbetaling en de definitieve betaling volledig vereffenen vóór de kortingsdatum](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [Enkel boekstuk met meerdere klant- of leveranciersrecords](single-voucher-multiple-customer-vendor-records.md)
 
 
 
-### <a name="additional-resources"></a>Aanvullende resources
+### <a name="additional-resources"></a>Aanvullende bronnen
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
-Ga naar de [releaseopmerkingen bij Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
+Ga naar de [releaseplannen voor Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
 
 #### <a name="blogs"></a>Weblogs
 

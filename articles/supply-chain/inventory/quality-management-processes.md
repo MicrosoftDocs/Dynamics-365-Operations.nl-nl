@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22372bd2d42b526d10e39174e7fb5ec5281d1b73
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 544721af404775a6d8b65628848caa84ceaebe30
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572783"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813817"
 ---
 # <a name="quality-management-processes"></a>Processen voor kwaliteitsbeheer
 
@@ -90,14 +90,14 @@ Het is daarom een goed idee om een uniek documenttype voor correcties te defini√
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Kwaliteitsbeheer inschakelen](enable-quality-management.md)
+[Overzicht van Kwaliteitsbeheer](enable-quality-management.md)
 
-[Niet-conformeringsbeheer inschakelen](enable-nonconformance-management.md)
+[Beheer van niet-conformering](enable-nonconformance-management.md)
 
 [Voorraadblokkering](inventory-blocking.md)
 
 [Quarantaineorders](quarantine-orders.md)
 
-[Kwaliteitsorders instellen (Taakbegeleiding)](tasks/set-up-quality-orders.md)
+[Kwaliteitsorders instellen](tasks/set-up-quality-orders.md)
 
-[De kwaliteit van goederen controleren (Taakbegeleiding)](tasks/inspect-quality-goods.md)
+[Inspecteer de kwaliteit van goederen](tasks/inspect-quality-goods.md)

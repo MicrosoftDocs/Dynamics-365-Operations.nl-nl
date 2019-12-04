@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570996"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812232"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten
 
@@ -33,7 +33,7 @@ ms.locfileid: "2570996"
 
 Aan elk activum wordt een activatype gekoppeld. Activatypen bepalen de typen onderhoudstaken (en dus ook de onderhoudstaken) die op activa kunnen worden uitgevoerd. Wanneer u een werkorder maakt, moet u een onderhoudstaak selecteren. Op een activum kunt u alleen de typen onderhoudstaken selecteren die zijn gedefinieerd voor het activumtype dat voor het activum is ingesteld.
 
-Zie [Activa en werkorders](../overview/functional-locations-and-objects.md)voor een grafisch overzicht van de typen activa en onderhoudstaken en de verbinding met werkorders.
+Zie [Functionele locaties en activa](../overview/functional-locations-and-objects.md) voor een grafisch overzicht van de typen activa en onderhoudstaken en de verbinding met werkorders.
 
 Varianten van types onderhoudstaak kunnen worden ingesteld voor een type onderhoudstaak. Varianten van het type onderhoudstaak definiëren variaties van een taaktype, zoals grootten (klein, normaal of groot), perioden (wekelijks, tweewekelijks, één maand of drie maanden) en configuraties (laag standaard, flexibel of hoge prestaties).
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250709"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815129"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Handmatige correcties aanbrengen in de basislijnprognose
 
@@ -66,7 +66,7 @@ Op de pagina **Details van vraagprognose** wordt de volgende informatie in grafi
 -   De nieuwe vraagprognosewaarden en de bedragen waarvoor deze handmatig zijn gecorrigeerd.
 -   Het betrouwbaarheidsinterval voor de geprognosticeerde waarden.
 -   Het prognosemodel dat is gebruikt om de prognose te genereren. Als u geaggregeerde gegevens bekijkt, ziet u de lijst met alle methoden die zijn gebruikt voor alle geaggregeerde tijdreeksen.
--   De interne modeljuistheid (MAPE). Voor meer informatie over prognoseaccuratesse zie [Prognoseaccuratesse controleren](monitor-forecast-accuracy.md).
+-   De interne modeljuistheid (MAPE). Zie voor meer informatie over prognoseaccuratesse [Prognosenauwkeurigheid controleren](monitor-forecast-accuracy.md).
 
 **Opmerkingen:**
 
@@ -78,9 +78,9 @@ U kunt ook handmatige aanpassingen uitvoeren aan de prognose op de pagina **Deta
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Nauwkeurigheid van vraagprognose bewaken](monitor-forecast-accuracy.md)
+[Prognosenauwkeurigheid controleren](monitor-forecast-accuracy.md)
 
-[Statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
+[Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
 
 
 

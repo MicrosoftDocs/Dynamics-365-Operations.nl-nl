@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e6f0b75c8d81a5ac6ec90020375aec39120d4406
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278124"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811211"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten
 
 [!include [banner](includes/banner.md)]
 
 
-In dit onderwerp wordt beschreven hoe u een besturingselement voor aanbevelingen kunt toevoegen aan het transactiescherm op een POS-apparaat (Point of Sale) met behulp van de schermindelingsontwerper in Microsoft Dynamics 365 Retail. Meer informatie over productaanbevelingen vindt u in de [documenten met productaanbevelingen voor POS.](product.md)
+In dit onderwerp wordt beschreven hoe u een besturingselement voor aanbevelingen kunt toevoegen aan het transactiescherm op een POS-apparaat (Point of Sale) met behulp van de schermindelingsontwerper in Microsoft Dynamics 365 Retail. Meer informatie over productaanbevelingen vindt u in de [documenten met productaanbevelingen voor POS](product.md).
 
 
 Wanneer u Microsoft Dynamics 365 Retail gebruikt, kunt u productaanbevelingen weergeven op uw POS-apparaat. Als u productaanbevelingen wilt weergeven, moet u een besturingselement toevoegen aan het transactiescherm met de schermindelingsontwerper. 
@@ -98,6 +98,6 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[productaanbevelingen op POS](product.md)
+[Productaanbevelingen op POS](product.md)
 
-[overzicht van productaanbevelingen](../commerce/product-recommendations.md)
+[Overzicht productaanbevelingen](../commerce/product-recommendations.md)

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba01f0d16341eb9b0ec0918798e458626b5ef90e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025048"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811188"
 ---
 # <a name="retail-peripherals"></a>Randapparatuur detailhandel
 
@@ -35,11 +35,17 @@ In dit onderwerp worden de concepten beschreven die verband houden met detailhan
 
 ### <a name="pos-registers"></a>POS-kassa's
 
-Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**. De POS-kassa is een entiteit waarmee de kenmerken worden gedefinieerd van een specifiek exemplaar van het POS. Deze kenmerken omvatten het hardwareprofiel of de instellingen voor detailhandelrandapparaten die worden gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen en de visuele ervaring voor de gebruiker die zich bij die kassa aanmeldt.
+Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**. 
+
+De POS-kassa is een entiteit waarmee de kenmerken worden gedefinieerd van een specifiek exemplaar van het POS. Deze kenmerken omvatten het hardwareprofiel of de instellingen voor detailhandelrandapparaten die worden gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen en de visuele ervaring voor de gebruiker die zich bij die kassa aanmeldt.
 
 ### <a name="devices"></a>Apparaten
 
-Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Apparaten**. Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa. Bij het maken van een apparaat, wordt het toegewezen aan een POS-kassa. De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat. Apparaten kunnen worden toegewezen aan de volgende toepassingstypen: Retail Modern POS, Detailhandelcloud-POS, Retail Modern POS - Windows Phone, Retail Modern POS - Android en Retail Modern POS - iOS.
+Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Apparaten**. 
+
+Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa. Bij het maken van een apparaat, wordt het toegewezen aan een POS-kassa. De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat. 
+
+Apparaten kunnen worden toegewezen aan de volgende toepassingstypen: Retail Modern POS, Detailhandelcloud-POS, Retail Modern POS - Windows Phone, Retail Modern POS - Android en Retail Modern POS - iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -63,11 +69,15 @@ POS-randapparaten zijn apparaten die expliciet worden ondersteund voor POS-funct
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navigatie: klik op **Detailhandel** &gt; **Kanalen** &gt; **Detailhandelwinkels** &gt; **Alle detailhandelwinkels**. Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**. De instelling **Hardwarestation** is een instelling op afzetkanaalniveau, die wordt gebruikt voor het definiëren van situaties waarin de logica voor detailhandelrandapparaten wordt geïmplementeerd. Deze instelling op het afzetkanaalniveau wordt gebruikt om de kenmerken van het hardwarestation te bepalen. Hiermee wordt ook een overzicht gemaakt van hardwarestations, die beschikbaar zijn voor een Modern POS-exemplaar in een bepaalde winkel. Het hardwarestation is ingebouwd in het Modern POS-programma voor Windows. Het hardwarestation kan ook onafhankelijk worden geïmplementeerd als een zelfstandig Microsoft Internet Information Services-programma (IIS). In dit geval vindt toegang plaats via een netwerk.
+Navigatie: klik op **Detailhandel** &gt; **Kanalen** &gt; **Detailhandelwinkels** &gt; **Alle detailhandelwinkels**. 
+
+Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**. De instelling **Hardwarestation** is een instelling op afzetkanaalniveau, die wordt gebruikt voor het definiëren van situaties waarin de logica voor detailhandelrandapparaten wordt geïmplementeerd. Deze instelling op het afzetkanaalniveau wordt gebruikt om de kenmerken van het hardwarestation te bepalen. Hiermee wordt ook een overzicht gemaakt van hardwarestations, die beschikbaar zijn voor een Modern POS-exemplaar in een bepaalde winkel. Het hardwarestation is ingebouwd in het Modern POS-programma voor Windows. Het hardwarestation kan ook onafhankelijk worden geïmplementeerd als een zelfstandig Microsoft Internet Information Services-programma (IIS). In dit geval vindt toegang plaats via een netwerk.
 
 ### <a name="hardware-profile"></a>Hardwareprofiel
 
-Navigatie: klik op **Retail** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**. Het hardwareprofiel is een lijst apparaten die zijn geconfigureerd voor een POS-kassa of een hardwarestation. Het hardwareprofielen kan rechtstreeks aan de POS-kassa of een hardwarestation worden toegewezen.
+Navigatie: klik op **Retail** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**. 
+
+Het hardwareprofiel is een lijst apparaten die zijn geconfigureerd voor een POS-kassa of een hardwarestation. Het hardwareprofielen kan rechtstreeks aan de POS-kassa of een hardwarestation worden toegewezen.
 
 ## <a name="devices-classes"></a>Apparaatklassen
 POS-randapparaten worden meestal onderverdeeld in klassen. In deze sectie worden een overzicht gegeven (samen met een beschrijving) van de apparaten die Modern POS ondersteunt.
@@ -202,11 +212,11 @@ De logica die fysiek aangesloten randapparaten en randapparaten in een netwerk a
 
 ### <a name="hardware-station-installation"></a>Het hardwarestation installeren
 
-Zie voor meer informatie het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).
+Zie voor meer informatie het onderwerp [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Modern POS voor Windows installeren en configureren
 
-Zie voor meer informatie het onderwerp [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).
+Zie voor meer informatie [Retail Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Een OPOS-apparaat installeren en configureren
 
@@ -523,7 +533,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 
 ## <a name="configuration-for-supported-scenarios"></a>Configuratie voor ondersteunde scenario's
 
-Zie voor meer informatie over het maken van hardwareprofielen het onderwerp [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md).
+Zie [Randapparaten aansluiten op het verkooppunt (POS)](define-maintain-channel-clients-registers-hw-stations.md) voor meer informatie over het maken van hardwareprofielen.
 
 > [!NOTE]
 > Voor Retail versie 1611 wordt het hardwarestation-profiel niet meer gebruikt. Kenmerken die u hebt ingesteld in het hardwarestationprofiel maken nu deel uit van het hardwarestation zelf.
@@ -566,8 +576,8 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients met een hardw
 4. Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 5. Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 6. Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
-7. Installeer het hardwarestation. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).
-8. Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).
+7. Installeer het hardwarestation. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md).
+8. Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS [Retail Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md).
 9. Meld u aan bij Modern POS en selecteer **Niet-ladebewerkingen uitvoeren**.
 10. Start de bewerking **Hardwarestations beheren**.
 11. Klik op **Beheren**.
@@ -595,8 +605,8 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients die hardwares
 5. Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 6. Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 7. Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
-8. Installeer het hardwarestation op elke hostcomputer die u in stap 2 en 3 hebt ingesteld. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).
-9. Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).
+8. Installeer het hardwarestation op elke hostcomputer die u in stap 2 en 3 hebt ingesteld. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md).
+9. Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS [Retail Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md).
 10. Meld u aan bij Modern POS en selecteer **Niet-ladebewerkingen uitvoeren**.
 11. Start de bewerking **Hardwarestations beheren**.
 12. Klik op **Beheren**.
@@ -655,7 +665,7 @@ Volgens de huidige beveiligingsnormen moeten de volgende instellingen worden geb
 
 ## <a name="peripheral-simulator"></a>Randapparatuursimulator
 
-Zie voor meer informatie het onderwerp [Simulator voor detailhandelrandapparaten](dev-itpro/retail-peripheral-simulator.md).
+Zie voor meer informatie het onderwerp [Randapparatuursimulator voor detailhandel](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Door Microsoft geteste randapparaten
 

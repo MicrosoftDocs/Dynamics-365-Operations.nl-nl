@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Aanmelden voor preview-abonnementen
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: Inzichten in klantbetalingen (preview)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Updates van service met één versie
               items:
                 - name: Overzicht van updates van service met één versie
@@ -2239,6 +2241,8 @@
                       href: localizations/rus-currency-sale-purchase.md
                     - name: Kleine kas
                       href: localizations/emea-petty-cash.md
+                    - name: Contanten - lokale primaire formulieren en collectieve rapporten
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: Btw
                   items:
                     - name: Specifiek lokaal boeken van te betalen btw
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Vooruitbetalingsbeheer
                       href: localizations/rus-prepayments-management.md
+                    - name: Inkomende btw herstellen
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: Vaste activa
                   items:
                     - name: Vaste activa beheren
@@ -2313,6 +2319,14 @@
                       href: localizations/rus-cash-flow.md
                     - name: Toewijzing van diverse toeslagen in verhouding tot gewicht en volume
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: Diverse toeslagen van derde
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: Voorraad
+                  items:
+                    - name: Goederen in transit vanaf leverancier
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: Douaneaangiftenummers
+                      href: localizations/rus-custom-declaration-number.md
                 - name: Rapportage
                   items:
                     - name: Financiële rapportage
@@ -2335,6 +2349,8 @@
                       href: localizations/rus-officials.md
                     - name: Bedrijfsdivisies
                       href: localizations/rus-company-divisions.md
+                    - name: Russische adresnotaties en import uit FIAS
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: Uitgestelde posten
                   items:
                     - name: Uitgestelde posten instellen
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Configuraties importeren uit RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Zelfstudies
+                  items:
+                    - name: JOIN-gegevensbronnen gebruiken om gegevens uit meerdere toepassingstabellen op te halen in ER-modeltoewijzingen (elektronische rapportage)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: Oplossingen voor elektronische rapportage gebruiken in Finance and Operations
                   items:
                     - name: Het raamwerk configureren
@@ -2903,6 +2925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Overzicht van Beheer van bedrijfsdocumenten
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: Nieuwe velden toevoegen aan een sjabloon voor bedrijfsdocumenten in Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: API ER-raamwerk
                   items:
                     - name: De lijst met functies voor elektronische rapportage uitbreiden

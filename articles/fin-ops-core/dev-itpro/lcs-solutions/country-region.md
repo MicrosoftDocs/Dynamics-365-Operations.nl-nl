@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 058adaef91a7b30e25bea603625116e97009cf55
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537019"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812083"
 ---
 # <a name="globalization-resources"></a>Globalisatieresources
 
@@ -45,10 +45,10 @@ Dit onderwerp bevat een lijst met resources waarmee u het volgende kunt doen:
 
 ### <a name="developing-localized-solutions"></a>Gelokaliseerde oplossingen ontwikkelen
 De volgende resources bieden richtlijnen en informatie ter ondersteuning van ontwikkelaars en ISV's die land-/regiospecifieke aanpassingen uitvoeren of een oplossing ontwikkelen voor een land dat niet door Microsoft wordt ondersteund.
--   [Aparte lokalisatiemodellen](separate-localization-models.md)
+-   [Scheiding van lokalisatiemodellen](separate-localization-models.md)
 -   [Land-/regiocontext toepassen](apply-country-context.md)
--   [Wettelijke certificeringen](regulatory-certifications.md)
--   [Lokalisatiefuncties classificeren](classify-localization-features.md)
+-   [Wettelijk voorgeschreven certificaatgegevens in functietitels](regulatory-certifications.md)
+-   [Classificatie van lokalisatiefuncties](classify-localization-features.md)
 -   [Landcodes - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
 ### <a name="regulatory-updates-and-communication"></a>Wettelijk voorgeschreven updates en communicatie
@@ -57,36 +57,36 @@ De volgende resources bevatten informatie over geplande en nieuwe lokalisatiefun
 #### <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 -   [Wettelijk voorgeschreven updates](../../../finance/localizations/regulatory-updates.md)
 -   [Lokalisatie-portal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (wekelijks bijgewerkt)
--   [LCS-problemen zoeken](../lifecycle-services/issue-search-lcs.md) (dagelijks bijgewerkt)
+-   [Problemen zoeken in Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (dagelijks bijgewerkt)
 
 #### <a name="communication-and-alerts"></a>Communicatie en waarschuwingen
--   [Communicatie over opvolging van en updates in regelgeving](regulatory-watch-communication.md)
--   [Microsoft informeren over waarschuwingen voor land-/regiospecifieke voorschriften en de status van wettelijk voorgeschreven functies bijhouden](submit-localization-alerts.md)
+-   [Opvolgen van regelgeving en communicatie over updates in regelgeving](regulatory-watch-communication.md)
+-   [Meldingen indienen over land-/regiospecifieke wettelijk voorgeschreven functies](submit-localization-alerts.md)
 
-#### <a name="dynamics-365-release-notes"></a>Dynamics 365-releaseopmerkingen
-De [Dynamics 365-releaseopmerkingen](https://docs.microsoft.com/business-applications-release-notes/) bevatten beschrijvingen van nieuwe en verbeterde functies die zijn gepland voor de zakelijke toepassingen en toepassingsplatforms van Dynamics 365. 
+#### <a name="dynamics-365-release-plans"></a>Dynamics 365-releaseplannen
+De [Dynamics 365-releaseplannen](https://docs.microsoft.com/business-applications-release-notes/) bevatten beschrijvingen van nieuwe en verbeterde functies die zijn gepland voor de zakelijke toepassingen en toepassingsplatforms van Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Nieuw in Finance and Operations-apps
-In [Nieuwe inhoud](../../fin-ops/get-started/whats-new-changed.md) worden de functies vermeld die zijn opgenomen in specifieke releases van de Finance and Operations-apps.
+Op de [startpagina Nieuw of gewijzigd in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) worden de functies vermeld die zijn opgenomen in specifieke releases van de Finance and Operations-apps.
 
 ### <a name="electronic-reporting"></a>Elektronische rapportage
 Met het hulpmiddel voor elektronische rapportage (ER) kunt u indelingen voor elektronische documenten configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Met ER kunt u deze indelingen beheren gedurende hun hele levenscyclus. Raadpleeg een van de volgende onderwerpen voor meer informatie:
--   [Overzicht van elektronische rapportage](../analytics/general-electronic-reporting.md)
--   [De levenscyclus van de configuratie van elektronische rapportage beheren](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [Een configuratie voor elektronische rapportage maken](../analytics/electronic-reporting-configuration.md)
--   [De lijst met functies voor elektronische rapportage uitbreiden](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [Bestemmingen van elektronische rapportage](../analytics/electronic-reporting-destinations.md)
+-   [Overzicht van elektronische rapportage (ER)](../analytics/general-electronic-reporting.md)
+-   [De levenscyclus van de configuratie van elektronische rapportage (ER) beheren](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [Configuraties voor elektronische rapportage (ER) maken](../analytics/electronic-reporting-configuration.md)
+-   [De lijst met functies voor elektronische rapportage (ER) uitbreiden](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [Bestemmingen van elektronische rapportage (ER)](../analytics/electronic-reporting-destinations.md)
 -   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Configuraties van elektronische aangifte importeren](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Elektronische aangifte configureren om gegevens op te halen in Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Elektronische documenten genereren en toepassingsgegevens bijwerken via het hulpmiddel voor elektronische aangifte](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Configuraties van elektronische aangifte (ER) importeren](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [Elektronische aangifte (ER) configureren om gegevens op te halen in Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektronische documenten genereren en toepassingsgegevens bijwerken met ER](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>Taakbegeleidingen
 Taakbegeleidingen zijn beschikbaar vanuit het Help-venster van het product en bieden een begeleid overzicht van belangrijke bedrijfsprocessen. U kunt een taakbegeleiding openen om de stappen van een bedrijfsproces te lezen of u kunt een taakbegeleiding afspelen om een bedrijfsproces te doorlopen en gegevens in te voeren.
 
 U kunt taakbegeleidingen zoeken door naar een pagina in de toepassing te gaan en op Help te klikken. Taakbegeleidingen die gebruikmaken van de pagina worden weergegeven in het Help-venster. U kunt het Help-venster ook gebruiken om op titel naar taakbegeleidingen te zoeken.
 
-Zie [Taakbegeleidingen](../../fin-ops/get-started/help-overview.md#task-guides) voor meer informatie.
+Meer informatie vindt u in het [Help-systeem](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
 ### <a name="countryregion-specific-help-content"></a>Inhoud van land-/regiospecifieke Help

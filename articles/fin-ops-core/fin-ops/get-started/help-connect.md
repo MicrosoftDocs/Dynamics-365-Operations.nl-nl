@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537850"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812575"
 ---
 # <a name="connect-the-help-system"></a>Verbinding maken met het Help-systeem
 
@@ -80,7 +80,7 @@ U kunt taakbegeleiders maken om aangepaste Help te maken of een website te koppe
 
 U kunt voor aangepaste Help voor uw implementatie van Finance, Supply Chain Management en Retail maken door taakregistraties te maken die uw implementatie weerspiegelen en ze op te slaan in een LCS-bibliotheek voor bedrijfsprocessen. U kunt geen aangepaste taakbegeleidingen voor Talent maken.
 
-Voor partners: als u een bibliotheek propageert als bedrijfsbibliotheek en deze in een oplossing opneemt, wordt deze beschikbaar voor uw klanten. U kunt een kopie van de globale APQC Unified-bibliotheek maken en vervolgens uw kopie openen, hierin taakregistraties openen, deze wijzigen en de registraties met uw wijzigingen opslaan. Zie [Een taakregistratie voor een documentatie of training maken](../../dev-itpro/user-interface/task-recorder.md) voor meer informatie.
+Voor partners: als u een bibliotheek propageert als bedrijfsbibliotheek en deze in een oplossing opneemt, wordt deze beschikbaar voor uw klanten. U kunt een kopie van de globale APQC Unified-bibliotheek maken en vervolgens uw kopie openen, hierin taakregistraties openen, deze wijzigen en de registraties met uw wijzigingen opslaan. Zie [Resources voor Taakrecorder](../../dev-itpro/user-interface/task-recorder.md) voor meer informatie.
 
 ### <a name="connect-a-custom-site"></a>Verbinding maken met een aangepaste site
 
@@ -91,8 +91,8 @@ Microsoft heeft een whitepaper en voorbeeldcode beschikbaar gesteld waarin wordt
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Help-overzicht](help-overview.md)
+[Help-systeem](help-overview.md)
 
-[Overzicht taakrecorder](../../dev-itpro/user-interface/task-recorder.md)
+[Resources voor Taakrecorder](../../dev-itpro/user-interface/task-recorder.md)
 
-[Een taakregistratie voor een documentatie of training maken](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Documentatie of training maken met Taakrecorder](../../dev-itpro/user-interface/task-recorder-training-docs.md)

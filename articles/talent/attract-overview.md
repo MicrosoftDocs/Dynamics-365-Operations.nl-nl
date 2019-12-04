@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent - functies en voorzieningen van Attract
+title: Functies en voorzieningen van Attract
 description: Dit onderwerp beschrijft de functies die Microsoft Dynamics 365 Talent - Attract biedt voor het beheer van het aanstellingsproces.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552066"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833064"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Microsoft Dynamics 365 Talent - functies en voorzieningen van Attract
+# <a name="attract-features-and-capabilities"></a>Functies en voorzieningen van Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ Attract biedt een vooraf gedefinieerd aanstellingsproces dat vier algemene fasen
 Kandidaten ontvangen zodra ze zijn toegevoegd aan een functie een e-mail met een koppeling om de webapp te downloaden. De app biedt kandidaten meer informatie en wordt gebruikt om te communiceren met het aanstellend team. Kandidaten kunnen deze ook gebruiken om hun beschikbaarheid voor gesprekken aan te geven.
 
 ## <a name="analytic-reports"></a>Analytische rapporten
-Wervingsteams kunnen de metrische gegevens van het wervingsproces gebruiken voor een enkele taak of samengevoegd voor alle taken via [analytische rapporten in Attract](analytic-reports.md). Deze functie is momenteel in [preview](access-preview-feature.md) voor klanten met de [Uitgebreide invoegtoepassing voor aanstellingen](attract-comprehensive-hiring.md).
+Wervingsteams kunnen de metrische gegevens van het wervingsproces gebruiken voor een enkele taak of samengevoegd voor alle taken via [analytische rapporten in Attract](analytic-reports.md). Deze functie is momenteel in [preview](access-preview-feature.md) voor klanten met de [Welke versie van Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).

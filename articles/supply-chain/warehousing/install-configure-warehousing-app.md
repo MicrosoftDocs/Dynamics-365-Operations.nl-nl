@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
-ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
+ms.openlocfilehash: df0bc9ff2405cc2f370ea777a70e005a1ff338a0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2548963"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814945"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>Overzicht van de Magazijnbeheer-app installeren en configureren
 
@@ -62,15 +62,32 @@ Als u de app wilt inschakelen voor interactie met een specifieke Supply Chain Ma
 
 1.  Ga in een webbrowser naar <https://portal.azure.com>.
 2.  Voer de naam en het wachtwoord in voor de gebruiker die toegang heeft tot het Azure-abonnement.
-3.  Klik in Azure Portal in het linkernavigatievenster op **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+3.  Klik in Azure Portal in het linkernavigatievenster op **Azure Active Directory**.
+
+    [![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+
 4.  Controleer of het Active Directory-exemplaar het exemplaar is dat wordt gebruikt door Supply Chain Management.
-5.  Klik in de lijst op **App-registraties**. [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+5.  Klik in de lijst op **App-registraties**. 
+
+    [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+
 6.  Klik in het bovenste deelvenster op **Nieuwe registratie**. De wizard **Een toepassing registreren** wordt gestart.
-7.  Voer een naam voor de toepassing in en selecteer **Alleen accounts in deze organisatieadreslijst**. Klik op **Registreren**.  [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
-8.  Uw nieuwe app-registratie wordt geopend. [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+7.  Voer een naam voor de toepassing in en selecteer **Alleen accounts in deze organisatieadreslijst**. Klik op **Registreren**.  
+
+    [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+
+8.  Uw nieuwe app-registratie wordt geopend. 
+
+    [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+
 9.  Vergeet de **toepassings-id** niet. U hebt deze later nodig. De **toepassings-id** wordt hierna aangeduid als de **client-id**.
-10. Klik op **Certificaat en geheimen** in het deelvenster **Beheer**. Klik op **Nieuw clientgeheim**. [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
-11. Maak een sleutel door een sleutelomschrijving en een duur in te voeren in het gedeelte **Wachtwoorden**. Klik op **Toevoegen** en kopieer de sleutel. Naar deze sleutel wordt later verwezen als **Clientgeheim**. [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
+10. Klik op **Certificaat en geheimen** in het deelvenster **Beheer**. Klik op **Nieuw clientgeheim**. 
+
+    [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
+
+11. Maak een sleutel door een sleutelomschrijving en een duur in te voeren in het gedeelte **Wachtwoorden**. Klik op **Toevoegen** en kopieer de sleutel. Naar deze sleutel wordt later verwezen als **Clientgeheim**. 
+
+    [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Een gebruikersaccount in Supply Chain Management maken en configureren
 Als u Supply Chain Management wilt inschakelen om uw Azure AD-toepassing te gebruiken, moet u de volgende configuratiestappen uitvoeren:
@@ -78,28 +95,47 @@ Als u Supply Chain Management wilt inschakelen om uw Azure AD-toepassing te gebr
 1.  Maak een gebruiker die met de gebruikersreferenties van de app Warehousing overeenkomt.
     1.  Ga naar **Systeembeheer** &gt; **Algemeen** &gt; **Gebruikers**.
     2.  Maak een nieuwe gebruiker.
-    3.  Wijs de gebruiker van het mobiele apparaat voor Magazijnbeheer toe, zoals in de volgende schermopname wordt weergegeven. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
+    3.  Wijs de gebruiker van het mobiele apparaat voor Magazijnbeheer toe, zoals in de volgende schermopname wordt weergegeven. 
+    
+        [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
 2.  Koppel uw Azure Active Directory-toepassing aan de gebruiker van de app voor magazijnbeheer.
     1.  Ga in Supply Chain Management naar **Systeembeheer** &gt; **Instellen** &gt; **Azure Active Directory-toepassingen**.
     2.  Maak een nieuwe regel.
-    3.  Voer de **Client-ID** in (verkregen in het laatste gedeelte), geef deze een naam en selecteer de eerder gemaakte gebruiker. Het is raadzaam al uw apparaten te labelen, zodat u eenvoudig de toegang ervan tot Supply Chain Management van deze pagina kunt verwijderen voor het geval u ze kwijt raakt. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
+    3.  Voer de **Client-ID** in (verkregen in het laatste gedeelte), geef deze een naam en selecteer de eerder gemaakte gebruiker. Het is raadzaam al uw apparaten te labelen, zodat u eenvoudig de toegang ervan tot Supply Chain Management van deze pagina kunt verwijderen voor het geval u ze kwijt raakt. 
+    
+        [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
 
 ## <a name="configure-the-application"></a>De toepassing configureren
 U moet de app configureren op het apparaat om verbinding te maken met de Supply Chain Management-server via de Azure AD-toepassing. Hiervoor moet u de volgende stappen uitvoeren.
 
 1.  Ga in de app naar **Verbindingsinstellingen**.
-2.  Schakel het veld **Demomodus** uit. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+2.  Schakel het veld **Demomodus** uit. <br>
+
+    [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+
 3.  Voer de volgende gegevens in: 
     + **Client-id Azure Active Directory**: De client-id wordt verkregen in stap 9 in "Een webservicetoepassing maken in Active Directory". 
     + **Clientgeheim Azure Active Directory**: Het clientgeheim wordt verkregen in stap 11 in "Een webservicetoepassing maken in Active Directory". 
-    + **Resource Azure Active Directory**: de resource van Azure AD toont de hoofd-URL van Supply Chain Management. **Opmerking**: dit veld mag niet met een slash (/) worden afgesloten. 
-    + **Tenant Azure Active Directory**: de Azure AD-tenant die wordt gebruikt met de Supply Chain Management-server: `https://login.windows.net/your-AD-tenant-ID`. Bijvoorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
-    <br>**Opmerking**: dit veld mag niet met een slash (/) worden afgesloten. 
-    + **Bedrijf**: voer de rechtspersoon in Supply Chain Management in waarmee de toepassing verbinding moet maken. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
-4.  Selecteer de knop **Terug** in de linkerbovenhoek van de toepassing. De toepassing maakt nu verbinding met uw Supply Chain Management-server en het aanmeldingsscherm wordt voor de magazijnmedewerker weergegeven. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+    + **Resource Azure Active Directory**: de resource van Azure AD toont de hoofd-URL van Supply Chain Management. 
+    
+        > [!NOTE]
+        > Dit veld mag niet met een slash (/) worden afgesloten. 
 
-Meer informatie over het instellen van de app Warehousing om streepjescodes te scannen met behulp van een camera op een mobiel apparaat vindt u in [Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations – Warehousing](scan-bar-codes-using-a-camera.md)
+    + **Tenant Azure Active Directory**: de Azure AD-tenant die wordt gebruikt met de Supply Chain Management-server: `https://login.windows.net/your-AD-tenant-ID`. Voorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    
+        > [!NOTE]
+        > Dit veld mag niet met een slash (/) worden afgesloten. 
+    
+    + **Bedrijf**: voer de rechtspersoon in Supply Chain Management in waarmee de toepassing verbinding moet maken. <br>
+    
+    [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+
+4.  Selecteer de knop **Terug** in de linkerbovenhoek van de toepassing. De toepassing maakt nu verbinding met uw Supply Chain Management-server en het aanmeldingsscherm wordt voor de magazijnmedewerker weergegeven.
+
+    [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+
+Meer informatie over het instellen van de app Warehousing om streepjescodes te scannen met behulp van een camera op een mobiel apparaat vindt u in [Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations – Warehousing-app](scan-bar-codes-using-a-camera.md).
 
 ## <a name="remove-access-for-a-device"></a>Toegang voor een apparaat verwijderen
 In geval van een verloren of beschadigd apparaat moet u de toegang tot Supply Chain Management voor het apparaat verwijderen. In de volgende stappen wordt het aanbevolen proces beschreven om toegang uit te schakelen.

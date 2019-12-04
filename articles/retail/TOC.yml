@@ -850,6 +850,8 @@
           items:
             - name: Loyaliteitsoverzicht
               href: set-up-customer-loyalty-program.md
+            - name: Clientelingoverzicht
+              href: clienteling-overview.md
         - name: Betalingen
           items:
             - name: Betalingsmethoden
@@ -1268,8 +1270,6 @@
                   href: Open-URL-in-POS.md
                 - name: De POS-indelingsontwerper installeren
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS in offlinemodus
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: De weergave van POS Dual-scherm uitbreiden
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: Uitbreidbaarheid Retail Modern POS- en Cloud-POS-activering
@@ -1332,6 +1332,8 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: Een retourbeleid implementeren met triggers
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: Uitbreidingsgebeurtenissen vastleggen in Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: Uitbreidbaarheid van e-Commerce
               items:
                 - name: Online winkels configureren

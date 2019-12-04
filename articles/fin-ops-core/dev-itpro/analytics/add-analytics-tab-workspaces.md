@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: dd88537506521fd37aa170c7e8f43bcf5a106836
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174346"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771628"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met Power BI Embedded
 
@@ -102,7 +102,7 @@ U hebt nu de besturingselementen voor het formulier toegevoegd die worden gebrui
 > [!NOTE]
 > Voor ingesloten werkgebieden kunt u het beste uitbreidingen gebruiken om de pagina's **Filtervenster** en **Tabblad** te verbergen vanwege de consistentie.
 
-U hebt nu de taak voor het uitbreiden van de formulierdefinitie van de toepassing voltooid. Voor meer informatie over het gebruik van uitbreidingen en aanpassingen zie [Aanpassen met extensies en overlayering](../extensibility/customization-overlayering-extensions.md).
+U hebt nu de taak voor het uitbreiden van de formulierdefinitie van de toepassing voltooid. Voor meer informatie over het gebruik van uitbreidingen en aanpassingen zie [Aanpassen via extensies en overlayering](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X ++-bedrijfslogica toevoegen om een besturingselement voor weergave in te sluiten
 Volg deze stappen om bedrijfslogica toe te voegen voor het initialiseren van het rapportweergave-besturingselement dat is ingesloten in het werkgebied **Reserveringsbeheer**.

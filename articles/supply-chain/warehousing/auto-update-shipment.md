@@ -3,7 +3,7 @@ title: Zendingen automatisch bijwerken
 description: Dit onderwerp biedt een overzicht van de functionaliteit waarmee zendingen automatisch worden bijgewerkt.
 author: josaw1
 manager: AnnBe
-ms.date: 08/13/2019
+ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 160ad55a12d13fdb64e55effaabb1848179e71cf
-ms.sourcegitcommit: c35dfce2c0605d6f46365ce5d985c22187d21761
+ms.openlocfilehash: e42e7f19311adee7cc48f0ad0b59a4d0d54df9aa
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1986112"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773538"
 ---
 # <a name="shipment-auto-updates"></a>Zendingen automatisch bijwerken
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 De functie voor het automatisch bijwerken van zendingen werkt automatisch de hoeveelheden (zowel toe- als afname) bij op een ladingsregel die aan een zending is gekoppeld, nadat de lading aan een magazijn is vrijgegeven. Deze functionaliteit blijft ingeschakeld totdat de ladingsregel voor de verzending of lading wordt verwerkt in een wave. Wanneer de update wordt gebruikt, kunnen orderupdates automatisch doorstromen naar het magazijn, zonder dat er handmatig magazijntaken worden gemaakt.

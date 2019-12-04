@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249827"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815267"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integratie met Microsoft Dynamics 365 Field Service - Overzicht
 
@@ -41,9 +41,9 @@ De eerste fase van de integratie tussen Field Service en Supply Chain Management
 
 In de eerste fase van de integratie tussen Field Service en Supply Chain Management wordt de synchronisatie gestart van de volgende items:
 
-- [Producten in Supply Chain Management met producten van Field Service die informatie over het producttype bevatten](field-service-product.md)
-- [Werkorders in Field Service met verkooporders in Supply Chain Management](field-service-work-order.md)
-- [Facturen in Field Service vrije-tekstfacturen in Supply Chain Management](field-service-invoice.md)
+- [Producten in Supply Chain Management synchroniseren met producten in Field Service](field-service-product.md)
+- [Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management](field-service-work-order.md)
+- [Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Supply Chain Management](field-service-invoice.md)
 
 Bekijk de korte YouTube-video om een voorbeeld te zien van hoe u een werkorder synchroniseert tussen Field Service en Supply Chain Management: [Een werkorder synchroniseren met Integratie van Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo).
 

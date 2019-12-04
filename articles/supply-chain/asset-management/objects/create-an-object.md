@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4759f55eceba923b47d906a764edcad34bf2f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 80236da5220aa9c70d5c488c09b457a470f0225a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571594"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811844"
 ---
 # <a name="create-an-asset"></a>Een activum maken
 
@@ -36,15 +36,15 @@ In dit onderwerp wordt beschreven hoe u een activum maakt in Activabeheer.
 1. Klik op **Activabeheer** > **Algemeen** > **activa** > **Alle activa** of **Actieve activa**.
 2. Klik op de knop **Nieuw**.
 3. Voeg in het dialoogvenster **Activa maken** gegevens in met betrekking tot **Activum** (de activa-id) en de naam van het activum. Selecteer datum en tijd voor het activum in het veld **Geldig vanaf**. Vanaf die datum kunt u het activum op een functionele locatie installeren en het activum verplaatsen en vervangen in een activastructuur.
-4. Selecteer in het veld **Type activa** het activumtype voor het activum (verplicht veld). Selecteer indien nodig **Activafabrikant** en **Activamodel** voor het activum. Als er slechts één product is ingesteld, wordt dat product automatisch geselecteerd in het veld **Activafabrikant**. De selecties die beschikbaar zijn in de velden **Activafabrikant** en **Activamodel** zijn afhankelijk van de instellingen in [Activafabrikant en -model](../setup-for-objects/product-and-model.md).
+4. Selecteer in het veld **Type activa** het activumtype voor het activum (verplicht veld). Selecteer indien nodig **Activafabrikant** en **Activamodel** voor het activum. Als er slechts één product is ingesteld, wordt dat product automatisch geselecteerd in het veld **Activafabrikant**. De selecties die beschikbaar zijn in de velden **Activafabrikant** en **Activamodel** zijn afhankelijk van de instellingen in [Activafabrikanten en -modellen](../setup-for-objects/product-and-model.md).
 5. In de groep **Bovenliggend activum** is het veld **Activum** standaard leeg. Indien nodig kunt u een bovenliggend activum selecteren en vervolgens worden alle velden in de groep **Bovenliggend activum** automatisch ingevuld.
 >[!NOTE]  
->Wanneer u een bovenliggend activum selecteert, zijn er twee of drie tabbladen beschikbaar: het tabblad **Mijn activa** bevat activa die zijn gerelateerd aan de functionele locaties waaraan u (de onderhoudsmedewerker die is aangemeld bij het systeem) kan worden toegewezen. Als er geen functionele locaties zijn ingesteld voor een onderhoudsmedewerker in het formulier [Onderhoudsmedewerkers](../setup-for-objects/workers-and-worker-groups.md), is het tabblad **Mijn activa** niet zichtbaar. Het tabblad **Actieve activa** bevat een lijst met alle activa met de levenscyclusstatus 'Actief' voor activa. Op het tabblad **Activaweergave** wordt een structuurweergave getoond van functionele locaties en elementen die op die locaties zijn geïnstalleerd.
+>Wanneer u een bovenliggend activum selecteert, zijn er twee of drie tabbladen beschikbaar: het tabblad **Mijn activa** bevat activa die zijn gerelateerd aan de functionele locaties waaraan u (de onderhoudsmedewerker die is aangemeld bij het systeem) kan worden toegewezen. Als er geen functionele locaties zijn ingesteld voor een onderhoudsmedewerker in het formulier [Onderhoudsmedewerkers en groepen werknemers](../setup-for-objects/workers-and-worker-groups.md), is het tabblad **Mijn activa** niet zichtbaar. Het tabblad **Actieve activa** bevat een lijst met alle activa met de levenscyclusstatus 'Actief' voor activa. Op het tabblad **Activaweergave** wordt een structuurweergave getoond van functionele locaties en elementen die op die locaties zijn geïnstalleerd.
 
 6. De standaard functionele locatie die u hebt ingesteld, wordt voorgesteld voor het activum in het veld **Activagroep** > **Functionele locatie** . Selecteer indien nodig een andere functionele locatie.
 
 >[!NOTE]
->Nadat u een activum hebt gemaakt, kunt u dit op een andere functionele locatie installeren, indien nodig. Alleen activa van het hoogste niveau (activa zonder huidig bovenliggend activum) kunnen op een functionele locatie worden geïnstalleerd. Dit betekent dat u zowel het hoogste niveau als alle onderliggende activa op de geselecteerde functionele locatie installeert. Lees meer over het installeren van activa op functionele locaties in [Functionele locaties](../functional-locations/introduction-to-functional-locations.md).
+>Nadat u een activum hebt gemaakt, kunt u dit op een andere functionele locatie installeren, indien nodig. Alleen activa van het hoogste niveau (activa zonder huidig bovenliggend activum) kunnen op een functionele locatie worden geïnstalleerd. Dit betekent dat u zowel het hoogste niveau als alle onderliggende activa op de geselecteerde functionele locatie installeert. Lees meer over het installeren van activa op functionele locaties in [Inleiding tot functionele locaties](../functional-locations/introduction-to-functional-locations.md).
 
 7. Klik op **OK**.
 8. Selecteer het activum in de lijst **Alle activa** en klik op de knop **Bewerken** als u nadere informatie aan het activum wilt toevoegen.
@@ -53,13 +53,13 @@ In dit onderwerp wordt beschreven hoe u een activum maakt in Activabeheer.
 
 De functionele locatie waaraan het activum is gerelateerd, wordt weergegeven in het veld **Functionele locatie**. Als het activum een bovenliggend activum is, wordt het aantal onderliggende activa dat gerelateerd aan het activum weergegeven in het veld **Onderliggende**. Als het activum een subactivum van een bestaand activum is, wordt de id van het bovenliggende activum weergegeven in het veld **Bovenliggend**.
 
-U kunt gegevens in **Activafabrikant** en **Activamodel** voor het activum bewerken. Deze worden gebruikt voor het beheren van reserveonderdelen, alternatieve reserveonderdelen en standaardwaarden voor taaktypen. Raadpleeg [Activafabrikant en -model](../setup-for-objects/product-and-model.md) voor meer informatie. U kunt desgewenst ook informatie over **modeljaar** en **serienummer** toevoegen.
+U kunt gegevens in **Activafabrikant** en **Activamodel** voor het activum bewerken. Deze worden gebruikt voor het beheren van reserveonderdelen, alternatieve reserveonderdelen en standaardwaarden voor taaktypen. Raadpleeg [Activafabrikanten en -modellen](../setup-for-objects/product-and-model.md) voor meer informatie. U kunt desgewenst ook informatie over **modeljaar** en **serienummer** toevoegen.
 
 **Huidige levenscyclusstatus** wordt gebruikt om te definiëren of het activum actief of inactief is. Bij het maken van een activum wordt de fase altijd ingesteld op de eerste fase in de activafasegroep. Wanneer u klaar bent om een activum te activeren, klikt u op **Activastatus bijwerken** en selecteert u de levenscyclusstatus die u hebt gedefinieerd als 'activum actief'. Vervolgens klikt u op **OK**.
 
 **Opmerking:** wanneer een activum is ingesteld op 'inactief', is het niet meer mogelijk om werkorders voor het activum te maken. U kunt ook geen preventieve onderhoudstaken plannen voor een inactief activum.
 
-De velden **Serviceniveau** en **Kritieke eigenschap** hebben betrekking op werkorders die voor het activum zijn gemaakt. In de velden worden de waarden voor **Serviceniveau** en **Kritieke eigenschap** weergegeven die zijn berekend voor de huidige instellingen voor het activum. Raadpleeg [Serviceniveaus voor activa](../setup-for-objects/object-priorities.md) en [Kritieke eigenschappen voor activa](../setup-for-objects/object-criticalities.md) met betrekking tot de instelling van deze waarden.
+De velden **Serviceniveau** en **Kritieke eigenschap** hebben betrekking op werkorders die voor het activum zijn gemaakt. In de velden worden de waarden voor **Serviceniveau** en **Kritieke eigenschap** weergegeven die zijn berekend voor de huidige instellingen voor het activum. Raadpleeg [Serviceniveaus voor activa](../setup-for-objects/object-priorities.md) en [Typen kritieke eigenschappen van activa](../setup-for-objects/object-criticalities.md) met betrekking tot de instelling van deze waarden.
 
 ## <a name="asset"></a>Activum
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90d9176a2ca37b581ef82306cc1ceef515ceb624
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6c15402993568c53eda8e03351fc2fccbcd82ab8
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187884"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770822"
 ---
 # <a name="cost-object-dimensions"></a>Dimensies van kostenobject
 
@@ -37,7 +37,7 @@ Een kostenobject kan elk type object zijn dat u wilt ramen, waaraan u kosten wil
 ## <a name="cost-object-dimensions-and-cost-object-dimension-members"></a>Kostenobjectdimensies en leden van kostenobjectdimensies
 Kostenobjecten worden ook wel *kostenobjectdimensies* genoemd. Nadat u hebt bepaald naar welke entiteit de kostenobjectdimensie moet verwijzen, moet u de afzonderlijke dimensiewaarden opgeven of deze in Kostprijsboekhouding importeren vanuit andere bronsystemen. Deze individuele dimensiewaarden staan bekend als *kostenobjectdimensieleden*. Stel dat u de financiële dimensie met de naam Kostenplaats gebruiken als de kostenobjectdimensie. Om te zien hoe kosten naar de individuele kostenplaatsen doorstromen, moet u de leden van de kostenobjectdimensie importeren. In dit geval zijn de leden van de kostenobjectdimensie de daadwerkelijke kostenplaatsen, zoals Verkoop, Productie, Administratie en Geografische locaties. In de onderstaande schermopname ziet u een voorbeeld van Kostenplaatsen als de kostenobjectdimensie met de werkelijke kostenplaatsen als kostenobjectdimensieleden. 
 
-[![dimensies-kostenobject](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
+[![Schermopname met kostenplaatsen als dimensie van kostenobject](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>Kostenobjectdimensieleden importeren door middel van gegevensconnectors
 Om het importeren van kostenobjectdimensieleden eenvoudiger te maken, gebruikt u gegevensconnectors om de waarden op te halen uit de entiteiten die u wilt gebruiken als kostenobjectdimensies. U kunt de vooraf aangemaakte gegevensconnectors gebruiken, of aangepaste gegevensconnectors die u zelf samenstelt.

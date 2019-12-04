@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025766"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812334"
 ---
 # <a name="call-center-sales-functionality"></a>Verkoopfunctionaliteit callcenter
 
@@ -44,17 +44,17 @@ Deze pagina bevat koppelingen naar relevante documentatie met betrekking tot de 
 
 ## <a name="configure-the-call-center"></a>Het callcenter configureren
 
-[Orderverwerkingsopties instellen](set-up-order-processing-options.md)
+[Callcenterkanalen instellen](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Orderverwerking configureren
 
-[Fraudewaarschuwingen instellen](set-up-fraud-alerts.md)
+[Fraudewaarschuwingen van callcenters instellen en gebruiken](set-up-fraud-alerts.md)
 
-[Handmatige orderwachtstanden](work-with-order-holds.md)
+[Configureren en werken met orderwachtstanden voor callcenters](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Betalingsverwerking configureren
 
-[Betalingsmethoden in een callcenter](work-with-payments.md)
+[Betalingsmethoden in callcenters](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Leveringsmethoden configureren
 
@@ -64,8 +64,8 @@ Deze pagina bevat koppelingen naar relevante documentatie met betrekking tot de 
 
 [Callcentercatalogi](call-center-catalogs.md)
 
-[RFM-analyse instellen](set-up-rfm-analysis.md)
+[Recency-, frequentie- en monetaire analyse (RFM) instellen](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Continuïteitsprogramma's configureren
 
-[Een continuïteitsprogramma instellen voor een callcenter](set-up-continuity-program.md)
+[Continuïteitsprogramma's instellen voor callcenters](set-up-continuity-program.md)

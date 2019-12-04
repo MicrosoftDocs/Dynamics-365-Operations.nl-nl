@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658805"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812644"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Documentatie of training maken met Taakrecorder
 
@@ -84,7 +84,7 @@ Zo ziet de notitieaantekening eruit in de 'ballon' in de taakbegeleiding.
 
 [![Weergave van notities in taakbegeleider](./media/screen4.png)](./media/screen4.png)
 
--   **Infostap**: deze aantekeningen worden gemaakt door met de rechtermuisknop te klikken op een besturingselement of overal op een formulier &lt; **Taakrecorder** &lt; **Infostap toevoegen. **Infostappen verschijnen als genummerde stap bij het punt waar u ze invoegt, zelfs als geen actie in de UI is geregistreerd. U kunt een infostap op formulierniveau toevoegen of een infostap toevoegen die aan een besturingselement is gekoppeld. Wanneer een infostap met een formulier is gekoppeld, wordt de taakbegeleidingballon ergens op het formulier weergegeven, zonder aanwijzer, wanneer de taakbegeleiding wordt afgespeeld. Wanneer een infostap aan een besturingselement is gekoppeld, wijst de taakbegeleidingballon naar het besturingselement wanneer de taakbegeleiding wordt afgespeeld. In het Help-deelvenster wordt een infostapaantekening als een genummerde stap weergegeven met de tekst u hebt ingevoerd. De stappen van de gebruiksinfo om de gebruiker voor de volgende stappen voor te bereiden, beschrijven stappen die buiten de toepassing moeten worden uitgevoerd of naar andere registraties (hoewel u geen hyperlinks in aantekeningen kunt maken.) moeten verwijzen.
+-   **Infostap**: deze aantekeningen worden gemaakt door met de rechtermuisknop op een besturingselement of ergens in een formulier &lt; **Taakrecorder** &lt; **Infostap toevoegen** te klikken. Infostappen verschijnen als genummerde stap bij het punt waar u ze invoegt, zelfs als geen actie in de UI is geregistreerd. U kunt een infostap op formulierniveau toevoegen of een infostap toevoegen die aan een besturingselement is gekoppeld. Wanneer een infostap met een formulier is gekoppeld, wordt de taakbegeleidingballon ergens op het formulier weergegeven, zonder aanwijzer, wanneer de taakbegeleiding wordt afgespeeld. Wanneer een infostap aan een besturingselement is gekoppeld, wijst de taakbegeleidingballon naar het besturingselement wanneer de taakbegeleiding wordt afgespeeld. In het Help-deelvenster wordt een infostapaantekening als een genummerde stap weergegeven met de tekst u hebt ingevoerd. De stappen van de gebruiksinfo om de gebruiker voor de volgende stappen voor te bereiden, beschrijven stappen die buiten de toepassing moeten worden uitgevoerd of naar andere registraties (hoewel u geen hyperlinks in aantekeningen kunt maken.) moeten verwijzen.
 
 **Bepaal hoe lang het duurt om de registratie te maken**
 
@@ -97,7 +97,7 @@ Zo ziet de notitieaantekening eruit in de 'ballon' in de taakbegeleiding.
 **Bepaal waar in de UI een registratie moet worden gestart** De pagina waarop u bent wanneer het opnemen van een taakregistratie start, bepaalt voor welke pagina de taakbegeleiding wordt weergegeven. Als u bijvoorbeeld wilt dat uw taakregistratie wordt vermeld in het Help-deelvenster wanneer een gebruiker klikt op de parameterspagina van Grootboek, dan moet u de registratie op die pagina starten. **Registraties opslaan als .axtr-bestanden** Wanneer u klaar bent met het maken of bewerken van een taakregistratie, krijgt u verschillende opties voor hoe u de registratie wilt downloaden of opslaan. U kunt het bestand downloaden als een taakregistratiepakket (.axtr), als onbewerkt registratiebestand (xml-bestand ) downloaden, als Word-document downloaden, of het bestand in een LCS-bibliotheek opslaan. Het is daarom een goed idee om de taakregistratie op te slaan als een taakregistratiepakketbestand (.axtr). Dit zal helpen om het onderhoud van het bestand eenvoudiger te maken als de procedures of de aantekeningen later moeten wijzigen. Als u het bestand als een Word-document wilt downloaden, slaat u het ook op als een taakregistratiepakketbestand.
 
 ## <a name="create-your-task-recording"></a>Uw taakregistratie maken
-Voor gedetailleerde stapsgewijze instructies, zie [Een taakregistratie maken](task-recorder.md).
+Zie voor gedetailleerde stapsgewijze instructies [Resources voor Taakrecorder](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Taakregistraties van Microsoft kopiëren en aanpassen
 U kunt de taakregistraties van Microsoft downloaden en bewerken om ze voor uw eigen Help-documentatie of trainingsmaterialen te gebruiken. Om een Microsoft-taakregistratie te downloaden, volgt u deze stappen:
@@ -115,14 +115,14 @@ U kunt de taakregistraties van Microsoft downloaden en bewerken om ze voor uw ei
 11. Geef op hoe u de taakregistratie wilt opslaan.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Uw taakregistraties opnemen in het Help-deelvenster
-Om uw eigen taakregistraties in het Help-deelvenster weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Voor meer informatie, zie [Het Help-systeem verbinden](../../fin-ops/get-started/help-connect.md).
+Om uw eigen taakregistraties in het Help-deelvenster weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Zie voor meer informatie [Verbinding maken met het Help-systeem](../../fin-ops/get-started/help-connect.md).
 
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Help-overzicht](../../fin-ops/get-started/help-overview.md)
+[Help-systeem](../../fin-ops/get-started/help-overview.md)
 
-[Help verbinden](../../fin-ops/get-started/help-connect.md)
+[Verbinding maken met het Help-systeem](../../fin-ops/get-started/help-connect.md)
 
 [Taakrecorder](task-recorder.md)
 

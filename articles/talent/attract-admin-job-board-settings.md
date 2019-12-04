@@ -1,5 +1,5 @@
 ---
-title: Broadbean-integratie inschakelen in Microsoft Dynamics 365 Talent - Attract
+title: Broadbean-integratie inschakelen in Attract
 description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 Talent - Attract kunt configureren om vacatures te plaatsen op externe banensites zoals Broadbean.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0ca655655f79ddf88b6f6c7377a1b596477c35a7
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 10b612711e81b2b368ed23fdd95ab6a66451f0ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552135"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833203"
 ---
-# <a name="enable-broadbean-integration-in-microsoft-dynamics-365-talent---attract"></a>Broadbean-integratie inschakelen in Microsoft Dynamics 365 Talent - Attract
+# <a name="enable-broadbean-integration-in-attract"></a>Broadbean-integratie inschakelen in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 U wilt uw openstaande posities aan zoveel mogelijk kandidaten voorleggen. Wervingssites, zoals Broadbean, helpen u bij het realiseren van dit doel. Met Microsoft Dynamics 365 Talent: Attract kunt u nu functies publiceren naar Broadbean en Microsoft biedt voortdurend nieuwe aanbiedingen in dit gebied.
 

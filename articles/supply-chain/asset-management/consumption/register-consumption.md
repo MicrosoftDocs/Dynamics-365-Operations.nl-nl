@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653318"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812255"
 ---
 # <a name="register-consumption"></a>Verbruik registreren
 
@@ -33,7 +33,7 @@ ms.locfileid: "2653318"
 
 Wanneer een onderhoudstaak voor een werkorder is voltooid, is de volgende stap het maken van verbruiksregistraties en het boeken van de journalen. U kunt registraties maken voor de volgende verbruikstypen: uren, artikelen en onkosten. De verschillende verbruikstypen worden geregistreerd en geboekt op de pagina **Werkorderjournalen**. De journaalinstellingen in **Activabeheer** worden gebruikt voor het maken en boeken van afzonderlijke journalen voor uren, artikelen en onkosten in de module **Projectbeheer en boekhouding**.
 
-In sommige gevallen kunt u prognoseregels toevoegen aan of verwijderen uit een werkorder. De instelling van een levenscyclusstatus, het gerelateerde project type en de faseregels die betrekking hebben op het projecttype bepalen of u journaalregels kunt toevoegen of bewerken. Lees meer over de levenscyclusstatussen van werkorders en gerelateerde projectfasen in [Integratie met Projectbeheer en boekhouding](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+In sommige gevallen kunt u prognoseregels toevoegen aan of verwijderen uit een werkorder. De instelling van een levenscyclusstatus, het gerelateerde project type en de faseregels die betrekking hebben op het projecttype bepalen of u journaalregels kunt toevoegen of bewerken. Zie [Prognoses, werkorders en projecten](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md) voor meer informatie over levenscyclusstatussen van werkorders en gerelateerde projectfasen.
 
 >[!NOTE]
 >U kunt het automatisch boeken van journalen instellen in de levenscyclusstatus van werkorders. Zie [Levenscyclusstatussen van werkorder](../setup-for-work-orders/work-order-lifecycle-states.md) voor meer informatie.

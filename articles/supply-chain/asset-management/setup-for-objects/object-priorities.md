@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1e2f8d2ac0c48d4f92b15ec345ffa650b71df0b
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 6dad0cb480f69eac84df5ea9a67f2adb94e2f52c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571019"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811798"
 ---
 # <a name="asset-service-levels"></a>Serviceniveaus van activa
 
@@ -33,7 +33,7 @@ ms.locfileid: "2571019"
 
 In dit onderwerp worden serviceniveaus voor activa in Activabeheer uitgelegd. Serviceniveaus van activa zijn gerelateerd aan activa en worden overgebracht naar onderhoudsaanvragen en werkorders. Ze worden gebruikt om de prioriteit van werkorders te berekenen tijdens de planning van de werkorder. Serviceniveaus van activa kunnen worden gewijzigd als er wijzigingen nodig zijn.
 
-Zie [Parameters voor Activabeheer](../setup-for-objects/enterprise-asset-management-parameters.md) voor meer informatie over de instellingen die zijn gerelateerd aan de berekening van beoordelingsscores voor de planning van werkorders. U moet ten minste één standaardrecord instellen voor het serviceniveau van de activa. Deze standaardrecord wordt gebruikt als er geen andere overeenkomst wordt gevonden tijdens de planning van de werkorder.
+Zie [Parameters voor activabeheer](../setup-for-objects/enterprise-asset-management-parameters.md) voor meer informatie over de instellingen die zijn gerelateerd aan de berekening van beoordelingsscores voor de planning van werkorders. U moet ten minste één standaardrecord instellen voor het serviceniveau van de activa. Deze standaardrecord wordt gebruikt als er geen andere overeenkomst wordt gevonden tijdens de planning van de werkorder.
 
 **Voorbeeld 1**: het standaard serviceniveau dat wordt gebruikt als er geen andere overeenkomst wordt gevonden. In deze record selecteert u alleen een serviceniveau.
 

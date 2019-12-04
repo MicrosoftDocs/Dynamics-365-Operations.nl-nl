@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 521fdc98c8af51f6f244f9aa606ce047d014edf1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3cb3b25503b559f21c45c0232a8c0abd3e415eb3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250433"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773617"
 ---
 # <a name="project-mobile-applications-overview"></a>Overzicht van Mobiele Project-toepassingen
 
@@ -45,4 +45,7 @@ Mijn urenstaten (geoptimaliseerd voor mobiel) en Urenstaten voor mijn controle (
 
 ## <a name="for-more-information"></a>Meer informatie
 
-Zie voor meer informatie [Mobiele toepassing Microsoft Dynamics 365 Project Timesheet](project-timesheet.md), [Projecttijdinvoer]( project-time-entry-mobile-workspace.md), [Projectroosters op een mobiel apparaat](Mobile-timesheets.md) en [Aangepaste velden voor de mobiele app Projectrooster implementeren](custom-fields-mobile.md).
+- [Mobiele toepassing voor projecturenstaten](project-timesheet.md)
+- [Projecttijdinvoer]( project-time-entry-mobile-workspace.md)
+- [Project Timesheets op een mobiel apparaat](Mobile-timesheets.md)
+- [Aangepaste velden voor de app Microsoft Dynamics 365 Project Timesheet implementeren in iOS en Android](custom-fields-mobile.md)

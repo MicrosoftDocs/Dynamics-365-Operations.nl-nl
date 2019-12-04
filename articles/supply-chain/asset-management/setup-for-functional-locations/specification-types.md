@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07f303b72f286c33979181fca1592b47efa1303
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 625e2c6a6b385c69d33ec4325a462310a37f1eed
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571226"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812186"
 ---
 # <a name="maintenance-attribute-types"></a>Typen onderhoudskenmerken
 
@@ -33,9 +33,9 @@ ms.locfileid: "2571226"
 
 In dit onderwerp wordt uitgelegd hoe u kenmerktypen maakt in Activabeheer. Kenmerken worden gebruikt om de eigenschappen van verschillende elementen te beschrijven. U kunt kenmerken instellen voor de volgende elementen:
 
-- [Typen functionele locaties](../setup-for-functional-locations/functional-location-types.md)
-- [Functionele locaties](../functional-locations/create-functional-locations.md)
-- [Activatypen](../setup-for-objects/object-types.md)
+- [Functionele locatietypen](../setup-for-functional-locations/functional-location-types.md)
+- [Functionele locaties maken](../functional-locations/create-functional-locations.md)
+- [Typen activa](../setup-for-objects/object-types.md)
 - Activa
 
 De kenmerken die u kunt instellen, variëren, afhankelijk van het element. Zo kunt u bijvoorbeeld voor een functionele locatie kenmerken instellen voor de configuratie en de fysieke grootte van de locatie. Voor een activatype of een activum kunt u kenmerken instellen voor motorinhoud, stroomverbruik en maximale belastingscapaciteit onder verschillende omstandigheden.

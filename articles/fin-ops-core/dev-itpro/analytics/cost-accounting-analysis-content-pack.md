@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 21ff82df71e352ca176aa1635a5ffb478bbcaf0e
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 0fc9877fdca2d2f85f4f9609616d8d21ab7b5174
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536819"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771582"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Analyse van kostprijsboekhouding Power BI-inhoud
 
@@ -40,7 +40,7 @@ Met de inhoud **Analyse kostprijsboekhouding** kunnen kostenaccountants analyser
 
 Zie voor meer informatie over kostprijsboekhouding [Startpagina kostprijsboekhouding](../../../finance/cost-accounting/cost-accounting-home-page.md).
 
-Als u beveiliging op toegangsniveau in kostprijsboekhouding definieert en combineert met beveiliging op rijniveau in Power BI, kunt u alle kostenobjecteigenaren toegang verlenen tot de Power BI-inhoud voor **Analyse kostprijsboekhouding**. Alle gegevens in de visualisaties worden vervolgens gefilterd op basis van het toegangsniveau dat in de kostprijsboekhouding wordt beheerd. Zie voor meer informatie over beveiliging op toegangsniveau en beveiliging op rijniveau [Beveiliging instellen voor kostprijsboekhoudingsinhoud voor Power BI](setup-security-cost-accounting-content-pack.md).
+Als u beveiliging op toegangsniveau in kostprijsboekhouding definieert en combineert met beveiliging op rijniveau in Power BI, kunt u alle kostenobjecteigenaren toegang verlenen tot de Power BI-inhoud voor **Analyse kostprijsboekhouding**. Alle gegevens in de visualisaties worden vervolgens gefilterd op basis van het toegangsniveau dat in de kostprijsboekhouding wordt beheerd. Zie [Beveiliging instellen voor de kostprijsboekhoudingsanalyse van Power BI-inhoud](setup-security-cost-accounting-content-pack.md) voor meer informatie over beveiliging op toegangsniveau en beveiliging op rijniveau .
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 U vindt de Power BI-inhoud voor **Analyse kostprijsboekhouding** in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
@@ -74,7 +74,7 @@ De inhoud bevat een reeks rapportpagina's. Elke pagina bestaat uit een set metri
 |                                  | Werkelijke kosten per dimensielidnaam kostenobject en dimensielidnaam kostenelement                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-De volgende gegevens worden gebruikt om de rapportpagina's in de Power BI-inhoud **Analyse kostprijsboekhouding** in te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
+De volgende gegevens worden gebruikt om de rapportpagina's in de Power BI-inhoud **Analyse kostprijsboekhouding** in te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
 
 De volgende belangrijke samengevoegde metingen worden gebruikt als de basis van de inhoud.
 

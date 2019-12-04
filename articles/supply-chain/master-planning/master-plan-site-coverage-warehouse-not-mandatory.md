@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9475a7fbe40d7feb60c23e0d7164222469dffa75
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 43989f95764a60dc7f5662ef74c005c5fddaa275
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552317"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813726"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Hoofdplanning voor locatiebehoefte, magazijn niet verplicht
 
@@ -51,15 +51,15 @@ In de volgende afbeelding ziet u hoe de hoofdplanning verdergaat. In deze afbeel
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Hoofdplanning en de functionaliteit voor meerdere locaties](master-plan-multisite-functionality.md)
+[Overzicht van Hoofdplannen en functionaliteit voor meerdere locaties](master-plan-multisite-functionality.md)
 
-[Hoofdplanning - locatiebehoefte, magazijn verplicht](master-plan-site-coverage-warehouse-mandatory.md)
+[Hoofdplanning voor locatie- en magazijnbehoefte, magazijn verplicht](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Hoofdplanning - locatie- en magazijnbehoefte, magazijn niet verplicht](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[Hoofdplanning voor locatiebehoefte, magazijn verplicht](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Hoofdplanning - locatie en magazijnbehoefte, magazijn verplicht](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Hoofdplanning voor locatiebehoefte, magazijn niet verplicht](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Hoofdplanning - hoe de stuklijstversie wordt bepaald](master-plan-bom-version-determined.md)
+[De stuklijstversie bepalen](master-plan-bom-version-determined.md)
 
 
 

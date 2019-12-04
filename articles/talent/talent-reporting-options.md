@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 50342c847200d015a66c6f22007070bb26c6caef
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: ecbeb03b535f19131ddc6649d005702876bab65c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009347"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772960"
 ---
 # <a name="reporting-options-in-talent"></a>Rapportageopties in Talent
 
@@ -42,7 +42,7 @@ De gebruiker kan de ingesloten Microsoft Power BI-rapporten niet aanpassen.
 
 **Oplossing**
 
-- De Core HR-gegevens die naar Common Data Service stromen, kunnen via de PowerApps Common Data Service-connector aan Power BI Desktop worden gerapporteerd. Common Data Service bevat een subset van Core HR-gegevens. Raadpleeg voor meer informatie over Power BI en dashboards [Power BI-rapporten en dashboards maken met PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
+- De Core HR-gegevens die naar Common Data Service stromen, kunnen via de Power Apps Common Data Service-connector aan Power BI Desktop worden gerapporteerd. Common Data Service bevat een subset van Core HR-gegevens. Raadpleeg voor meer informatie over Power BI en dashboards [Power BI-rapporten en dashboards maken met Power Apps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - Elektronische rapportage (ER) is beschikbaar voor sommige rapporten in Talent. Door de klant gestuurde aanpassingen kunnen worden uitgevoerd via de ER-configuratieopties.
 - Gegevens kunnen worden geëxporteerd naar Microsoft Excel of Microsoft Word met behulp van de verschillende gegevensentiteiten die Talent biedt dankzij de integratie met Microsoft Office.
 

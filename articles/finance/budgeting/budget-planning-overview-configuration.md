@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177199"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772025"
 ---
 # <a name="budget-planning-overview"></a>Overzicht budgetplanning
 
@@ -155,7 +155,8 @@ Voor het voorbeeldschema kunt u kolommen maken voor Verkoop vorig jaar, Contract
 
 U kunt ook aangeven of elk indelingselement (kolom) bewerkbaar is en of het beschikbaar is in een werkbladsjabloon die voor die indeling is gemaakt. Voor het voorbeeldschema zijn in de indeling die voor de ramingsfase wordt gebruikt, de prognosekolommen bewerkbaar, terwijl de kolommen Verkoop vorig jaar en Contracten alleen-lezen zijn.
 
-[!Note] Standaard bent u beperkt tot 36 kolommen, tenzij u budgetplanning uitbreidt met de stappen in [De indeling van de budgetplanning uitbreiden](./extending-budget-planning-layout.md).
+> [!NOTE] 
+> Standaard bent u beperkt tot 36 kolommen, tenzij u budgetplanning uitbreidt met de stappen in [De indeling van de budgetplanning uitbreiden](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Sjablonen
 

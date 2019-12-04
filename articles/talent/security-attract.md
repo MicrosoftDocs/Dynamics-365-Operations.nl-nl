@@ -1,5 +1,5 @@
 ---
-title: Beveiliging en rollenbeheer in Attract
+title: Gebruikersmachtigingen instellen in Attract
 description: Dit onderwerp biedt informatie over rolbeveiliging in Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7db2ac241db121f07eb3524c7c5c9a8f64e78537
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: efac512cfa07bb2183f06b8be45f74bef9af0767
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551421"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832693"
 ---
-# <a name="security-and-role-management-in-attract"></a>Beveiliging en rollenbeheer in Attract
+# <a name="set-user-permissions-in-attract"></a>Gebruikersmachtigingen instellen in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In Microsoft Dynamics 365 Talent: Attract wordt op rollen gebaseerde beveiliging gebruikt. Toegang wordt met andere woorden niet verleend aan afzonderlijke gebruikers, maar aan de beveiligingsrollen waaraan de gebruikers zijn toegewezen. Een gebruiker aan wie een beveiligingsrol is toegewezen, heeft toegang tot de set bevoegdheden die aan die rol zijn gekoppeld.
 
@@ -52,7 +52,7 @@ De volgende secties bieden een beschrijving op hoog niveau van elke rol. De tabe
 
 ## <a name="administrator"></a>Beheerder
 
-Gebruikers die zijn toegewezen aan de rol Beheerder, kunnen alle gegevens in Attract openen en wijzigen. Beheerders kunnen gegevens maken, lezen, bijwerken en verwijderen. Ze hebben ook toegang tot het beheercentrum, waar ze de Attract-toepassing kunnen configureren en gebruikersgegevens kunnen instellen. Het wordt aangeraden dat ten minste één persoon wordt toegewezen aan de beheerdersrol. Standaard wordt de omgevingsbeheerder in Microsoft PowerApps ingesteld als beheerder in Attract. Als u zich hebt aangemeld voor de evaluatieversie van Attract, wordt automatisch de rol beheerder aan u toegewezen. Op dit moment moeten gebruikers die de rol Beheerder hebben, voor het maken van taken ook de rol Werver of de rol Aanstellend manager hebben.
+Gebruikers die zijn toegewezen aan de rol Beheerder, kunnen alle gegevens in Attract openen en wijzigen. Beheerders kunnen gegevens maken, lezen, bijwerken en verwijderen. Ze hebben ook toegang tot het beheercentrum, waar ze de Attract-toepassing kunnen configureren en gebruikersgegevens kunnen instellen. Het wordt aangeraden dat ten minste één persoon wordt toegewezen aan de beheerdersrol. Standaard wordt de omgevingsbeheerder in Microsoft Power Apps ingesteld als beheerder in Attract. Als u zich hebt aangemeld voor de evaluatieversie van Attract, wordt automatisch de rol beheerder aan u toegewezen. Op dit moment moeten gebruikers die de rol Beheerder hebben, voor het maken van taken ook de rol Werver of de rol Aanstellend manager hebben.
 
 ## <a name="hiring-manager"></a>Aanstellend manager
 

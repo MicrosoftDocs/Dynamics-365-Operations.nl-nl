@@ -3,7 +3,7 @@ title: Gebruikers aan beveiligingsrollen toewijzen
 description: Voor toegang tot Finance and Operations-apps moeten gebruikers worden toegewezen aan beveiligingsrollen.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4daecc1acd589cd1656402244e5325382a407e7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
+ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180962"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2807991"
 ---
 # <a name="assign-users-to-security-roles"></a>Gebruikers aan beveiligingsrollen toewijzen
 
@@ -37,6 +37,9 @@ Als u andere dan algemene mogelijkheden wilt gebruiken, moeten gebruikers aan be
 5. Klik in de lijst **Regelnaam lidmaatschap** op de koppeling in de geselecteerde rij.
 6. Klik op **Query bewerken**. Bewerk de query indien nodig.  
 7. Klik op **OK**.
+8. Klik op **Automatische roltoewijzing uitvoeren**.
+9. Ga naar **Navigatiedeelvenster > modules > Systeembeheer > Gebruikers > Gebruikers** (in het ideale geval op een afzonderlijk tabblad van de browser).
+10. Controleer de rollen die aan verschillende gebruikers zijn toegewezen om te bevestigen dat de query voor roltoewijzing juist is. Pas aan en voer opnieuw uit, indien nodig.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Gebruikers uitsluiten van automatische roltoewijzing
 1. Sluit de pagina.

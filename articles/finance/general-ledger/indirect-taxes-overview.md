@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
-ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
+ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2666825"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770661"
 ---
 # <a name="sales-tax-overview"></a>Btw-overzicht
 
@@ -38,7 +38,7 @@ Het btw-raamwerk ondersteunt veel typen indirecte belastingen zoals btw, belasti
 
 In het volgende diagram worden de verschillende rechtspersonen in de btw-structuur en hun onderlinge relaties beschreven.
 
-[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagram met overzicht van entiteiten voor btw-instellingen](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Voor elk type btw waarvoor een bedrijf zich moet verantwoorden, moet een btw-code worden gedefinieerd. In een btw-code worden de btw-tarieven en berekeningsregels voor de btw opgeslagen. 
 
