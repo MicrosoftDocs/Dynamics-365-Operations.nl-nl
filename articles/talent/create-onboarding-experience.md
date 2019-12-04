@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8c11186ff3f95a7f1e00f9e42d7b78f5a68957b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008123"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813932"
 ---
 # <a name="get-started-with-onboard"></a>Aan de slag met Onboard
 
@@ -35,17 +35,17 @@ Met Onboard kunt u snel een onboardinghandleiding maken om uw nieuwe medewerkers
 
 Zie de volgende onderwerpen voor informatie over hoe u de Onboard-app krijgt en gebruikt:
 
-- [De Onboard-app ophalen](./onboard-get-app.md)
-- [Een onboardinghandleiding maken](./onboard-create-guide.md)
-- [Een onboardingsjabloon maken](./onboard-create-template.md)
-- [Onboardinghandleidingen en -sjablonen bewerken](./onboard-edit-guides-templates.md)
-- [Inhoud delen met andere bijdragers](./onboard-share-template.md)
-- [De status van taken en onboardingmedewerkers weergeven](./onboard-view-status.md)
-- [Aanstellingsteams maken in Onboard](./onboard-create-team.md)
+- [De app Dynamics 365 Talent - Onboard downloaden](./onboard-get-app.md)
+- [Een onboardinghandleiding maken en verzenden met Dynamics 365 Talent - Onboard](./onboard-create-guide.md)
+- [Een onboardingsjabloon maken met Dynamics 365 Talent - Onboard](./onboard-create-template.md)
+- [Handleidingen en sjablonen voor onboarding bewerken in Dynamics 365 Talent - Onboard](./onboard-edit-guides-templates.md)
+- [Inhoud delen met andere bijdragers in Dynamics 365 Talent - Onboard](./onboard-share-template.md)
+- [De status van onboardingmedewerkers en uw taken weergeven](./onboard-view-status.md)
+- [Een aanstellingsteam maken met Dynamics 365 Talent - Onboard](./onboard-create-team.md)
 
 ## <a name="see-also"></a>Zie ook
 
 - [De Onboard-app uitproberen of kopen](https://dynamics.microsoft.com/talent/onboard/)
-- [Nieuwe functies](./whats-new.md)
-- [Opmerkingen bij release](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Ondersteuning](./talent-support.md)
+- [Nieuwe of gewijzigde functies in Dynamics 365 Talent](./whats-new.md)
+- [Vrijgaveplannen](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Ondersteuning voor Microsoft Dynamics 365 Talent](./talent-support.md)

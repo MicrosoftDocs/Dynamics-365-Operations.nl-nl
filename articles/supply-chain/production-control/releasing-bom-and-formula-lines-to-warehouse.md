@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3677db634366ecfe6a26f2f5e01532ce5a087593
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249923"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815244"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Stuklijst- en formuleregels vrijgeven aan het magazijn
 
@@ -31,7 +31,7 @@ ms.locfileid: "2249923"
 In dit onderwerp wordt het proces voor het vrijgeven van grondstoffen voor stuklijst- en formuleregels aan het magazijn beschreven. Wanneer u een stuklijst- of formuleregel aan het magazijn vrijgeeft, bepaalt het systeem eerst of er al materiaal beschikbaar is op de productie-invoerlocatie op de werkvloer waar het materiaal voor het productieproces wordt verbruikt.
 
 - Als het materiaal beschikbaar is op de productie-invoerlocatie, wordt het materiaal van die locatie verzameld direct nadat het signaal voor de vrijgave van materiaal aan het magazijn is gegeven.
-- Als het materiaal niet beschikbaar is op de productie-invoerlocatie, wordt met de materiaalvrijgave aangegeven dat materiaal van locaties in het magazijn moet worden verplaatst naar de productie-invoerlocatie. Het materiaal wordt verplaatst via magazijnwerk voor het verzamelen van grondstoffen. Daarom moeten er magazijnprocessen voor het verzamelen van grondstoffen worden geconfigureerd. Zie voor meer informatie [Aanvulling](../warehousing/replenishment.md) en [Magazijnwerk beheren met werksjablonen en locatierichtlijnen](../warehousing/control-warehouse-location-directives.md).
+- Als het materiaal niet beschikbaar is op de productie-invoerlocatie, wordt met de materiaalvrijgave aangegeven dat materiaal van locaties in het magazijn moet worden verplaatst naar de productie-invoerlocatie. Het materiaal wordt verplaatst via magazijnwerk voor het verzamelen van grondstoffen. Daarom moeten er magazijnprocessen voor het verzamelen van grondstoffen worden geconfigureerd. Zie voor meer informatie [Overzicht van Aanvulling](../warehousing/replenishment.md) en [Magazijnwerk beheren met werksjablonen en locatierichtlijnen](../warehousing/control-warehouse-location-directives.md).
 
 ## <a name="methods-for-releasing-bom-and-formula-lines"></a>Methoden voor het vrijgeven van stuklijst- en formuleregels
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce8ebaf32b30c57b307f0d8799660ba6b42365a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0373448cba908c1ba3889c3e533c205e0410bab8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543509"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813611"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Verwijder uitschieters uit historische transactiegegevens bij het berekenen van een vraagprognose
 
@@ -45,9 +45,9 @@ U kunt uitschieters uitsluiten om de prognosenauwkeurigheid te verbeteren. Deze 
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Inleiding op vraagprognoses](introduction-demand-forecasting.md)
+[Overzicht van Vraagprognose](introduction-demand-forecasting.md)
 
-[Nauwkeurigheid van vraagprognose bewaken](monitor-forecast-accuracy.md)
+[Prognosenauwkeurigheid controleren](monitor-forecast-accuracy.md)
 
 
 

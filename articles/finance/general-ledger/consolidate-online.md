@@ -16,25 +16,25 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551652"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770730"
 ---
 # <a name="online-financial-consolidations"></a>Online financiële consolidaties
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft online financiële consolidaties in het grootboek. Voordat u dit onderwerp leest, moet u eerst het onderwerp [Financiële consolidatie en valutaomrekening](financial-consolidations-currency-translation.md) lezen.
+Dit onderwerp beschrijft online financiële consolidaties in het grootboek. Voordat u dit onderwerp leest, moet u eerst het onderwerp [Overzicht van Financiële consolidaties en valutaomzetting](financial-consolidations-currency-translation.md) lezen.
 
 Nadat u uw instellingen hebt voltooid, voert u de details van de consolidatie in op de pagina **Consolideren [online]**. Wanneer u klaar bent, kunt u klikken op **OK** of **Batch** om de consolidatie te verwerken.
 
 ## <a name="criteria"></a>Criteria
 Op het tabblad **Criteria** van de pagina **Consolideren [online]** definieert u de rekeningen, de perioden en het type gegevens dat wordt geconsolideerd.
 
-![Tabblad criteria](./media/criteria-consolidate-online.png "Tabblad Criteria")
+![Tabblad Criteria](./media/criteria-consolidate-online.png "Tabblad Criteria")
 
 Hier volgt een uitleg van de verschillende velden op dit tabblad:
 
@@ -89,10 +89,10 @@ Op het tabblad **Valutaomrekening** definieert u de rechtspersoon, de rekening, 
 - **Transactiedatum**: de datum van elke transactie wordt gebruikt voor het selecteren van een wisselkoers. Deze optie wordt meestal gebruikt voor vaste activa en wordt vaak een historische wisselkoers genoemd. U kunt geen voorbeeld van het tarief zien, omdat er veel tarieven voor de verschillende transacties in het rekeningbereik zijn.
 - **Door gebruiker gedefinieerde tarief**: nadat u deze optie hebt geselecteerd, kunt u de gewenste wisselkoers invoeren. Deze optie kan handig zijn voor gemiddelde wisselkoersen of als u consolideert met een vaste wisselkoers.
 
-![Tabblad Valutaomrekening](./media/currency-translation-cons-online.png "Tabblad Valutaomrekening")
+![Tabblad Valutaomzetting](./media/currency-translation-cons-online.png "Tabblad Valutaomzetting")
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-Zie het bovenliggende onderwerp van dit onderwerp [Financiële consolidaties en valutaomrekening](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
+Zie het bovenliggende onderwerp van dit onderwerp [Overzicht van Financiële consolidaties en valutaomzetting](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
 
 Zie voor informatie over scenario's waarin u mogelijk geconsolideerde financiële overzichten genereert [Geconsolideerde financiële overzichten genereren](./generating-consolidated-financial-statements.md).

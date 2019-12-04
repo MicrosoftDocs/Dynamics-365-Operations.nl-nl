@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 7134dc49c0e767d3bc4dc32e4feeb0e83a168e86
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 930c744ff2a28451d4267f060867b4b6474d45e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190920"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811573"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)
 
@@ -32,7 +32,7 @@ In dit artikel worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zij
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Taakbegeleidingen in de APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX
 
-De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld om te worden gebruikt voor de Help bij Microsoft Dynamics AX versie mei 2016 en de Microsoft Dynamics AX release van februari 2016. Gelokaliseerde versies van de taakbegeleidingen die zijn uitgebracht in de APQC Unified Library (februari 2016) zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
+De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld om te worden gebruikt voor de Help bij Microsoft Dynamics AX versie mei 2016 en de Microsoft Dynamics AX release van februari 2016. Gelokaliseerde versies van de taakbegeleidingen die zijn uitgebracht in de APQC Unified Library (februari 2016) zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Help-systeem](help-overview.md).
 
 > [!NOTE]
 > Een sterretje (\*) naast de titel van een BPM-regel (Business Process Modeler) geeft aan dat de taakbegeleiding voor dat bedrijfsproces is gemaakt voor de update van Dynamicxs AX van mei 2016 en niet wordt ondersteund in eerdere versies van Microsoft Dynamics AX.
@@ -185,9 +185,9 @@ De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld o
 | Containervorming instellen                                         | Algemeen         |
 | Handmatige verpakking instellen                                           | Globaal         |
 | Transportbeperkingen voor een artikel instellen                   | Globaal         |
-| \*Werkbeleid voor een magazijn instellen                                 | Globaal         |
+| \*Werkbeleid voor een magazijn instellen                                | Globaal         |
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Nieuwe taakbegeleidingen (februari 2016)](new-task-guides-available-february-2016.md)
 

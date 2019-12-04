@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190092"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811284"
 ---
 # <a name="create-workflows-overview"></a>Overzicht van Workflows maken
 
@@ -54,21 +54,21 @@ Volg deze stappen om de eigenschappen van de workflow te configureren.
 
 1. Klik op het tekenpapier om ervoor te zorgen dat er geen workflowelement is geselecteerd.
 2. Klik op **Eigenschappen** om het formulier **Eigenschappen** voor de workflow te openen.
-3. Volg de procedures in het onderwerp [De eigenschappen van een workflow configureren](configure-workflow-properties.md).
+3. Volg de procedures in het onderwerp [Workfloweigenschappen configureren](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>De elementen van de workflow configureren
 
 Configureer elk element dat u op het tekenpapier hebt gesleept. Zie de volgende onderwerpen voor meer informatie over het configureren van elk workflowelement:
 
-- [Een handmatige taak configureren](configure-manual-task-workflow.md)
-- [Een geautomatiseerde taak configureren](configure-automated-task-workflow.md)
-- [Een goedkeuringsproces configureren](configure-approval-process-workflow.md)
-- [Een goedkeuringsstap configureren](configure-approval-step-workflow.md)
-- [Een handmatige beslissing configureren](configure-manual-decision-workflow.md)
-- [Een voorwaardelijke beslissing configureren](configure-conditional-decision-workflow.md)
-- [Een parallelle activiteit configureren](configure-parallel-activity-workflow.md)
+- [Handmatige taken configureren in een workflow](configure-manual-task-workflow.md)
+- [Geautomatiseerde taken configureren in een workflow](configure-automated-task-workflow.md)
+- [Goedkeuringsprocessen configureren in een workflow](configure-approval-process-workflow.md)
+- [Goedkeuringsstappen configureren in een workflow](configure-approval-step-workflow.md)
+- [Handmatige beslissingen configureren in een workflow](configure-manual-decision-workflow.md)
+- [Voorwaardelijke beslissingen configureren in een workflow](configure-conditional-decision-workflow.md)
+- [Parallelle vertakkingen in een workflow configureren](configure-parallel-activity-workflow.md)
 - [Een parallelle vertakking configureren](configure-parallel-branch-workflow.md)
-- [Een workflow voor regelartikelen configureren](configure-line-item-workflow.md)
+- [Workflows voor regelitems configureren](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Eventuele fouten of waarschuwingen oplossen
 

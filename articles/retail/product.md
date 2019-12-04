@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278370"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811112"
 ---
 # <a name="product-recommendations-on-pos"></a>Productaanbevelingen op POS
 
@@ -40,13 +40,13 @@ Productaanbevelingen zijn ingeschakeld voor de volgende POS-scenario's. Ze zijn 
 
 1. Op de pagina **Productdetails**:
 
-    - • Als een winkelmedewerker een pagina met **productdetails** bezoekt wanneer hij eerdere transacties via verschillende kanalen bekijkt, worden door de aanbevelingsservice extra artikelen voorgesteld die veelal samen worden gekocht.
+    - Als een winkelmedewerker een pagina met **productdetails** bezoekt wanneer hij eerdere transacties via verschillende kanalen bekijkt, worden door de aanbevelingsservice extra artikelen voorgesteld die veelal samen worden gekocht.
 
     [![Aanbevelingen op de pagina Productgegevens](./media/proddetails.png)](./media/proddetails.png)
 
 2. Op de pagina **Transactie**:
 
-    - • De aanbevelingsengine stelt artikelen voor op basis van de volledige lijst met artikelen in de mand die vaak samen worden gekocht.
+    - De aanbevelingsengine stelt artikelen voor op basis van de volledige lijst met artikelen in de mand die vaak samen worden gekocht.
 
     > [!NOTE]
     > Om aanbevelingen weer te geven op de pagina **Transactie**, moet de detailhandelaar de schermindeling in Dynamics 365 for Retail bijwerken. Het besturingselement **Aanbevelingen** moet aan de pagina **Transactie** worden toegevoegd.
@@ -69,10 +69,12 @@ Volg deze stappen om productaanbevelingen in te stellen:
 
 - Ga naar **Detailhandelparameters** \> **Lijsten met aanbevelingen** \> **Productaanbevelingen uitschakelen** en start **Algemene configuratietaak \[9999\]**. 
 - Als u het besturingselement **Aanbevelingen** hebt toegevoegd aan uw transactiescherm met **Ontwerper van schermindeling**, verwijdert u dat ook.
-- Als u nog meer vragen hebt, raadpleegt u de [Veelgestelde vragen over aanbevelingen](../commerce/faq-recommendations.md) voor meer informatie.
+- Als u nog meer vragen hebt, raadpleegt u [Veelgestelde vragen over aanbevelingen](../commerce/faq-recommendations.md) voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Een besturingselement voor aanbevelingen toevoegen aan de transactiepagina op een POS-apparaat](add-recommendations-control-pos-screen.md)
-[Overzicht van productaanbevelingen](../commerce/product-recommendations.md)
+[Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten](add-recommendations-control-pos-screen.md)
+
+[Overzicht productaanbevelingen](../commerce/product-recommendations.md)
+
 [Productaanbevelingen inschakelen](../commerce/enable-product-recommendations.md) 

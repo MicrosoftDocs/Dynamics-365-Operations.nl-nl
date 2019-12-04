@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 0468cb0b1717b7cf0ccb391da09a4e7d788124f3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571249"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812209"
 ---
 # <a name="functional-location-types"></a>Functionele locatietypen
 
@@ -56,7 +56,7 @@ Nu wordt een standaardtype functionele locatie gemaakt dat alleen wordt gebruikt
 3. Geef een type-id voor de functionele locatie op in het veld **Type functionele locatie** en een naam in het veld **Naam**.
 4. Selecteer in het veld **Levenscyclusmodel van functionele locatie** een model voor de levenscyclus. Raadpleeg de [Status van levenscyclus voor functionele locaties](../setup-for-functional-locations/functional-location-stages.md) voor meer informatie over de levenscyclusstatussen van functionele locatie en levenscyclusmodellen.
 5. Selecteer "Ja" op de schakelknop **Meerdere activa** als u wilt dat meerdere activa kunnen worden geïnstalleerd op een functionele locatie met dit functionele locatietype. Als u "Nee" selecteert, kunt u slechts *één* activum installeren op een functionele locatie met dit functionele locatietype.
-6. Selecteer "Ja" op de wisselknop **Activumdimensie bijwerken** als u wilt dat activa die op een functionele locatie van dit type worden geïnstalleerd, automatisch de financiële dimensies te gebruiken die samenhangen met de functionele locatie. Dit betekent dat als u financiële dimensies wijzigt in het formulier [Functionele locatie](../functional-locations/create-functional-locations.md) en de functionele locatie een functioneel locatietype gebruikt waarbij deze wisselknop is ingesteld op "Ja", financiële dimensies automatisch worden bijgewerkt voor alle activa die zijn geïnstalleerd op die functionele locatie.
+6. Selecteer "Ja" op de wisselknop **Activumdimensie bijwerken** als u wilt dat activa die op een functionele locatie van dit type worden geïnstalleerd, automatisch de financiële dimensies te gebruiken die samenhangen met de functionele locatie. Dit betekent dat als u financiële dimensies wijzigt in het formulier [Functionele locaties maken](../functional-locations/create-functional-locations.md) en de functionele locatie een functioneel locatietype gebruikt waarbij deze wisselknop is ingesteld op Ja, financiële dimensies automatisch worden bijgewerkt voor alle activa die zijn geïnstalleerd op die functionele locatie.
 7. Het veld **Activumtype** wordt gebruikt als u automatisch *één* activum wilt maken voor de functionele locatie met dezelfde id en naam als de functionele locatie die u maakt. Dit kan bijvoorbeeld relevant zijn als u een statische functionele locatie maakt, zoals een gebouw of een pijplijn. Selecteer in dat geval het activumtype dat u wilt gebruiken voor het automatisch gemaakte activum. Houd er rekening mee dat als u een selectie maakt in dit veld, de wisselknop **Meerdere activa** moet worden ingesteld op "Nee".
 8. Selecteer op het sneltabblad **Activatypen** de activatypen die moeten worden gerelateerd aan het functionele locatietype. Selecteer **Regel toevoegen** en selecteer de activatypen. Als u hier activatypen toevoegt, kunnen alleen activa die deze activatypen gebruiken, op een functionele locatie worden geïnstalleerd met behulp van dit type functionele locatie. Als er geen activatypen zijn geselecteerd op het sneltabblad **Activatypen**, kunnen alle activatypen worden geïnstalleerd.
 9. Selecteer op het sneltabblad **Onderhoudsplannen** de onderhoudsplannen die automatisch moeten worden ingesteld op nieuwe functionele locaties met dit type functionele locatie. Selecteer **Regel toevoegen** en selecteer de onderhoudsplannen. Als u hier onderhoudsplannen toevoegt, kunnen alleen die plannen worden gebruikt op een functionele locatie met dit type functionele locatie.

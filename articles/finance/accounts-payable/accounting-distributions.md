@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f7d98d7ab9b375bfeb8784596753ca956f96e36
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e9f185ac95371bb841e55184650b8089040676c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189724"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772255"
 ---
 # <a name="accounting-distributions"></a>Boekhoudingsverdelingen
 
@@ -55,6 +55,6 @@ De algemene boekhoudingsverdelingsmogelijkheden bevatten de volgende opties om b
 -   **Verdelingen weergeven**: de boekhoudingsverdelingen voor alle regels en monetaire bedragen in het document weergeven. In deze weergave kunt u de boekhoudingsverdelingen niet wijzigen.
 
 
-Zie [Boekhoudingsverdelingen en journaalposten in de subadministratie voor facturen met vrije tekst](accounting-distributions-subledger-journal-entries-vendor-invoices.md) voor meer informatie.
+Zie [Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen](accounting-distributions-subledger-journal-entries-vendor-invoices.md) voor meer informatie.
 
 

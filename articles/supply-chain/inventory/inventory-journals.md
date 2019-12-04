@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c4a2696b015611f4430ad5dfa1c61c1c4f913a9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c6774a41887e74bfdb1fa6a9221264b0c8454c70
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570789"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814347"
 ---
 # <a name="inventory-journals"></a>Voorraadjournalen
 
@@ -74,7 +74,7 @@ De journalen voor productie-invoer werken als de artikelontvangstjournalen, maar
 
 ### <a name="counting"></a>Tellen
 
-De tellijsten laten u de huidige voorhanden voorraad corrigeren die voor artikelen of groepen artikelen is geregistreerd, en boeken dan de werkelijke materiële telling zodat u de correcties kunt maken die nodig zijn om de verschillen af te stemmen. U kunt telbeleid koppelen aan telgroepen om artikelen te groeperen die uiteenlopende kenmerken hebben, zodat die artikelen in een teljournaal kunnen worden opgenomen. U kunt bijvoorbeeld telgroepen configureren om artikelen te tellen die een specifieke frequentie hebben, of om artikelen te tellen wanneer de voorraad daalt tot een bepaald niveau. Zie voor informatie over het definiëren van telgroepen [Voorraadtellingsprocessen definiëren (taakbegeleider)](tasks/define-inventory-counting-processes.md).
+De tellijsten laten u de huidige voorhanden voorraad corrigeren die voor artikelen of groepen artikelen is geregistreerd, en boeken dan de werkelijke materiële telling zodat u de correcties kunt maken die nodig zijn om de verschillen af te stemmen. U kunt telbeleid koppelen aan telgroepen om artikelen te groeperen die uiteenlopende kenmerken hebben, zodat die artikelen in een teljournaal kunnen worden opgenomen. U kunt bijvoorbeeld telgroepen configureren om artikelen te tellen die een specifieke frequentie hebben, of om artikelen te tellen wanneer de voorraad daalt tot een bepaald niveau. Voor informatie over het definiëren van telgroepen, zie [Voorraadtellingsprocessen definiëren](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Telling labels
 

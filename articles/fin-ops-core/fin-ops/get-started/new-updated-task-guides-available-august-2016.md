@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177288"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812527"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)
 
@@ -32,7 +32,7 @@ In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die z
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Taakbegeleidingen in de APQC Unified Library (augustus 2016, alle talen) voor Microsoft Dynamics AX
 
-De APQC Unified Library (augustus 2016, alle talen) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help bij update 2 van het Microsoft Dynamics AX-platform (augustus 2016), de toepassingsupdate voor Dynamics AX van mei 2016 en de release van Microsoft Dynamics AX voor februari 2016. Zie voor meer informatie over deze versies [Wat is nieuw of gewijzigd](whats-new-changed.md). Gelokaliseerde versies van de taakbegeleidingen zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
+De APQC Unified Library (augustus 2016, alle talen) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help bij update 2 van het Microsoft Dynamics AX-platform (augustus 2016), de toepassingsupdate voor Dynamics AX van mei 2016 en de release van Microsoft Dynamics AX voor februari 2016. Zie [Startpagina Nieuw of gewijzigd in Finance and Operations](whats-new-changed.md) voor meer informatie over deze versies. Gelokaliseerde versies van de taakbegeleidingen zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Help-systeem](help-overview.md).
 
 ### <a name="data-access"></a>Gegevenstoegang
 

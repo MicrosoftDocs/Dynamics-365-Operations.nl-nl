@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177170"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771956"
 ---
 # <a name="cost-accounting-home-page"></a>Startpagina Kostprijsboekhouding
 
@@ -39,17 +39,17 @@ Het volgende leertraject toont de belangrijkste concepten en taken met die het r
 
 |      |   |
 |------|---|
-|  [Basisentiteiten configureren (eLearning)](https://mbspartner.microsoft.com/Home) (vereist een CustomerSource-account)  |[Dimensies maken](cost-elements.md)  |
-|  [Een Dimensiehiërarchieën maken](dimension-hierarchy.md)  |[Basisinstellingen maken](./tasks/define-cost-control-units.md)| 
-| [Toewijzingsbasis definiëren](allocation-bases.md)|[Beleid definiëren](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [Gegevensbron en gegevensprovider](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Gegevensbron en gegevensprovider](./tasks/process-trace-source-data.md)     | 
-|[Overheadberekening](overhead-calculation.md)  | [Analyse en rapportage](cost-control-workspace.md)   |
+|  [Basisentiteiten configureren (eLearning)](https://mbspartner.microsoft.com/Home) (vereist een CustomerSource-account)  |[Dimensies van kostenelement](cost-elements.md)  |
+|  [Dimensiehiërarchie](dimension-hierarchy.md)  |[Kostenbeheereenheden definiëren](./tasks/define-cost-control-units.md)| 
+| [Toewijzingsgrondslagen](allocation-bases.md)|[Een kostentoewijzingsbeleid maken en toewijzen aan een kostenbeheereenheid](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Een gegevensbron beheren voor het grootboek van kostprijsboekhouding](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Brongegevens verwerken en traceren](./tasks/process-trace-source-data.md)     | 
+|[Overheadberekening](overhead-calculation.md)  | [Werkgebied voor kostenbeheer](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Aan de slag-video's<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [Aan de slag met kostprijsboekhouding](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Mobiel werkgebied voor kostprijsboekhouding](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Excel gebruiken voor kostprijsboekhoudingsanalyse](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 

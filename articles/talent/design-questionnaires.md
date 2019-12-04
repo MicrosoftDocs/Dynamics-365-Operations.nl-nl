@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 8d94cf24040e5f653bc053f2df0a45e1afa23adc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517730"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813909"
 ---
 # <a name="design-questionnaires"></a>Vragenlijsten ontwerpen
 
@@ -110,7 +110,8 @@ Antwoordgroepen en antwoorden zijn onderdelen van de hoeveelheid informatie waar
 
 U kunt een antwoordgroep gebruiken voor meer dan één vraag in dezelfde vragenlijst en in meer dan één vragenlijst. 
 
-**Opmerking:** als u antwoordtekst in antwoordgroepen aanpast die al is gebruikt op ingevulde vragenlijsten, kunnen de gegevens moeilijk te beoordelen worden, en zijn de vragenlijstresultaten mogelijk niet meer lang geldig. Als u een antwoordgroep moet wijzigen, overweeg dan om een nieuwe antwoordgroep te maken in plaats van het een bestaande te wijzigen. U kunt geen antwoordgroepen verwijderen die aan een vraag of antwoord zijn gekoppeld, of die zijn beantwoord.
+> [!NOTE]
+> Als u antwoordtekst in antwoordgroepen aanpast die al is gebruikt op ingevulde vragenlijsten, kunnen de gegevens moeilijk te beoordelen worden, en zijn de vragenlijstresultaten mogelijk niet meer geldig. Als u een antwoordgroep moet wijzigen, overweeg dan om een nieuwe antwoordgroep te maken in plaats van het een bestaande te wijzigen. U kunt geen antwoordgroepen verwijderen die aan een vraag of antwoord zijn gekoppeld, of die zijn beantwoord.
 
 ### <a name="questions"></a>Vragen
 
@@ -118,12 +119,16 @@ Een vragenlijst moet vragen bevatten. Vragen kan open of meerkeuze zijn.
 
 -   Antwoorden op open vragen worden niet geregeld en respondenten kunnen hun antwoorden typen.
 -   Bij meerkeuzevragen is een lijst met vooraf gedefinieerde antwoordopties nodig en de vragen kunnen worden gestructureerd zodat een respondent een of meer antwoorden kan selecteren. De vragen moeten zijn ontworpen om specifieke informatie van een respondent te onthullen en moeten aan een antwoordgroep zijn gekoppeld die de antwoordopties voor elke meerkeuzevraag bevat. 
-     -  **Opmerking:** voordat u meerkeuzevragen kunt instellen, moet u antwoordgroepen en antwoorden maken.
+
+    > [!NOTE]
+    > Voordat u meerkeuzevragen kunt instellen, moet u antwoordgroepen en antwoorden maken.
 
 Vragen kunnen worden gerangschikt in een voorwaardelijke vragenhiërarchie, zodat secundaire vragen afhankelijk zijn van het antwoord dat de respondent op de vorige vraag heeft geselecteerd. U kunt de vragen eerst schrijven en ze vervolgens later in een hiërarchie ordenen.
 
 ## <a name="setting-up-questionnaires"></a>Vragenlijsten instellen
-**Opmerking:** voordat u een vragenlijst kunt instellen, moet u vragen, antwoorden en vereisten instellen. 
+
+> [!NOTE]
+> Voordat u een vragenlijst kunt instellen, moet u vragen, antwoorden en vereisten instellen. 
 
 Voor elke vragenlijst kunt u de volgende informatie opgeven:
 
@@ -159,7 +164,8 @@ Op de pagina **Vragenlijsten** kunt u de volgende taken uitvoeren:
 -   Vragen verwijderen en toevoegen.
 -   Wijzigingen aanbrengen in de resultaatgroepen en het volgnummer. 
 
-**Waarschuwing:** wees voorzichtig wanneer u wijzigingen aanbrengt in vragenlijsten die al zijn beantwoord. Wijzigingen kunnen de juistheid van de statistieken negatief beïnvloeden, wat kan leiden tot een zwakke basis voor evaluatie. Het is beter een nieuwe vraag te maken dan er een te wijzigen die al is beantwoord.
+> [!CAUTION]
+> Wees voorzichtig wanneer u wijzigingen aanbrengt in vragenlijsten die al zijn beantwoord. Wijzigingen kunnen de juistheid van de statistieken negatief beïnvloeden, wat kan leiden tot een zwakke basis voor evaluatie. Het is beter een nieuwe vraag te maken dan er een te wijzigen die al is beantwoord.
 
 In een vragenlijst kunt u de volgende typen vragen verwijderen:
 
@@ -177,7 +183,8 @@ Een resultaatgroep wordt gebruikt om punten te berekenen en de resultaten van ee
 -   Statistieken genereren voor elke resultaatgroep waarmee u de resultaten beter kunt analyseren.
 -   Een rapport afdrukken met de resultaten voor elke resultaatgroep en ook optionele punten/teksten die zijn gebaseerd op punten die zijn verdiend in elke resultaatgroep.
 
-**Opmerking:** voordat u resultaatgroepen kunt configureren, moet u de volgende taken uitvoeren:
+> [!NOTE]
+> Voordat u resultaatgroepen kunt configureren, moet u de volgende taken uitvoeren:
 
 -   Gesloten vragen instellen. Voor een meerkeuzevraag, moet op de pagina **Vragen** het invoertype **Selectievakje**, **Alternatieve knop** of **Keuzelijst met invoervak** zijn.
 -   Punten definiëren voor antwoorden in de antwoordgroepen die aan elke vraag zijn toegewezen.
@@ -187,7 +194,8 @@ Als u vragen wilt koppelen aan een vragenlijst door resultaatgroepen te gebruike
 
 U kunt meerdere resultaatgroepen instellen om de punten die door een respondent in elke categorie zijn verdiend, te evalueren. Nadat een vragenlijst is voltooid, kunt u de behaalde punten voor elke resultatengroep weergeven. 
 
-**Tip:** als u een vragenlijst met punten wilt evalueren, maar niet voor afzonderlijke categorieën, kunt u alle vragen toevoegen aan één resultaatgroep. 
+> [!TIP]
+> Als u een vragenlijst met punten wilt evalueren, maar niet voor afzonderlijke categorieën, kunt u alle vragen toevoegen aan één resultaatgroep. 
 
 Voor elke resultaatgroep kunt u ook een of meer op punten gebaseerde berichten instellen die respondenten ontvangen nadat ze de vragenlijst hebben voltooid. De weergegeven tekst kan variëren afhankelijk van de score die een respondent bereikt in een resultaatgroep. Als u op punten gebaseerde berichten gebruikt, definieert u puntenintervallen en een omschrijving van elk interval. Als een respondent een score behaalt in een bepaald interval, wordt de tekst voor dat interval opgenomen in het resultaatrapport. 
 
@@ -213,13 +221,15 @@ De volgende tabel geeft de op punten gebaseerde berichten weer die u voor de res
 
 U kunt puntintervallen en teksten instellen voor elke resultaatgroep op een vragenlijst. Teksten die overeenkomen met de score van elke respondent, worden voor elke resultaatgroep weergegeven. 
 
-**Opmerking:** u kunt intervallen en teksten veranderen.. Als een vragenlijst is voltooid, kunnen wijzigingen echter resulteren in verschillen tussen eerdere en nieuwe resultaatrapporten.
+> [!NOTE]
+> U kunt intervallen en teksten veranderen. Als een vragenlijst is voltooid, kunnen wijzigingen echter resulteren in verschillen tussen eerdere en nieuwe resultaatrapporten.
 
 ### <a name="conditional-question-hierarchies"></a>Hiërarchieën van voorwaardelijke vragen
 
 Hiërarchieën van voorwaardelijke vragen zijn optioneel wanneer u een vragenlijst opstelt. 
 
-**Opmerking:** voordat u een hiërarchie van voorwaardelijke vragen kunt maken, moet u vragen waaraan antwoordgroepen zijn toegewezen, aan de vragenlijst koppelen. 
+> [!NOTE]
+> Voordat u een hiërarchie van voorwaardelijke vragen kunt maken, moet u vragen waaraan antwoordgroepen zijn toegewezen, aan de vragenlijst koppelen. 
 
 Voor het gebruiken van voorwaardelijke vragen voor het maken van een vraaghiërarchie in een vragenlijst kunt u de volgorde waarin vragen worden weergegeven afhankelijk maken van de antwoorden die door een respondent voor elke vraag worden geselecteerd. Door de vraagvolgorde te baseren op het antwoord van een respondent, kunt u de vragenlijst aanpassen terwijl de respondent hem invult.
 
@@ -232,9 +242,9 @@ U kunt een vragenlijst ook zo opzetten dat als een respondent antwoord A selecte
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Vragenlijsten gebruiken](questionnaires.md)
+[Vragenlijsten](questionnaires.md)
 
-[Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)
+[Vragenlijsten plannen en distribueren](distribute-questionnaires.md)
 
 [De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)
 

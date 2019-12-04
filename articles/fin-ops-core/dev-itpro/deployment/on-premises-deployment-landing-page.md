@@ -3,7 +3,7 @@ title: Startpagina van On-premises implementatie
 description: Dit onderwerp bevat informatie en koppelingen naar inhoud over on-premises implementaties.
 author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 52418030c0c7a56e549e6645beae1d94ae7bfafd
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536942"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770941"
 ---
 # <a name="on-premises-deployment-home-page"></a>Startpagina van On-premises implementatie
 
@@ -31,17 +31,17 @@ ms.locfileid: "2536942"
 U kunt Dynamics 365 Finance and Operations (on-premises) implementeren. Wanneer u een on-premises implementatietype kiest, zullen de systeemvereisten, de grootte van de hardware en de functionaliteit verschillen van een cloudimplementatie. Dit onderwerp bevat koppelingen naar inhoud met specifieke informatie over on-premises implementaties.
 
 ## <a name="get-started"></a>Aan de slag
-- [On-premises implementatie-optie](on-premises-overview.md)
+- [Overzicht van On-premises implementatie](on-premises-overview.md)
 - [On-premises implementaties plannen en voorbereiden](plan-onprem-deployment.md)
-- [Systeemvereisten voor on-premises-implementaties](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Grootte van de hardware voor on-premises omgevingen vaststellen](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Finance and Operations (on-premises) aanschaffen](../../fin-ops/get-started/purchase-on-premises.md)
+- [Systeemvereisten voor on-premises implementaties](../../fin-ops/get-started/system-requirements-on-prem.md)
+- [Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
+- [Finance + Operations (on-premises) aanschaffen](../../fin-ops/get-started/purchase-on-premises.md)
 - [Vergelijking van functies tussen cloud en on-premises](../../fin-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Onboarden
 - [Een on-premises project instellen in Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [On-premises omgevingen instellen en implementeren (platvormupdate 12 en later)](setup-deploy-on-premises-pu12.md)
-- [On-premises omgevingen instellen en implementeren (Platform update 8 en 11)](setup-deploy-on-premises-pu8-pu11.md)
+- [On-premises omgevingen instellen en implementeren (Platformupdates 8 en 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [Netwerkprinterapparaten installeren in on-premises omgevingen](../analytics/install-network-printer-onprem.md)
 - [SQL Server Reporting Services configureren voor on-premises implementaties](../analytics/configure-ssrs-on-premises.md)
 - [Aangepaste modellen ontwikkelen voor on-premises-omgevingen](develop-deploy-custom-models-on-premises.md)
@@ -50,8 +50,8 @@ U kunt Dynamics 365 Finance and Operations (on-premises) implementeren. Wanneer 
 - [Documentbeheer configureren](../../fin-ops/organization-administration/configure-document-management.md)
 - [Configuraties van elektronische rapportage importeren](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Mogelijkheden voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties](../analytics/printing-capabilities-on-premises.md)
-- [Reverse-proxy's voor on-premises omgevingen configureren](onprem-reverseproxy.md)
-- [Technische ondersteuning instellen](../lifecycle-services/support-experience.md)
+- [Proxy's voor on-premises omgevingen configureren](onprem-reverseproxy.md)
+- [Technische ondersteuning instellen voor Finance and Operations-apps](../lifecycle-services/support-experience.md)
 - [Internetverbinding voor client](../user-interface/client-disconnected.md)
 - [Updates toepassen op on-premises implementaties](apply-updates-on-premises.md)
 - [On-premises omgevingen opnieuw implementeren](redeploy-on-prem.md)
@@ -67,9 +67,10 @@ U kunt Dynamics 365 Finance and Operations (on-premises) implementeren. Wanneer 
 
 ## <a name="other-resources"></a>Overige bronnen
 - [Problemen oplossen met on-premises implementaties](troubleshoot-on-prem.md)
+- [Scripts voor het oplossen van problemen in on-premises omgevingen](onprem-tsg-implementations.md)
 - [Certificaatrotatie](certificate-rotation-on-prem.md)
 - [On-premises diagnoses](on-premises-diagnostics.md)
-- [Functies die niet zijn geïmplementeerd in on-premises implementaties](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [Verwijderde of verouderde functies](../migration-upgrade/deprecated-features.md)
+- [Functies die niet worden geïmplementeerd in on-premises implementaties](../../fin-ops/get-started/features-not-implemented-on-prem.md)
+- [Verwijderde of afgeschafte functies voor Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Lifecycle-beleid voor software en on-premises versies](../migration-upgrade/on-prem-version-update-policy.md)
  

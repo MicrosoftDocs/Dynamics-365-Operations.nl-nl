@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550079"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771324"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type Berekend veld
 
@@ -55,7 +55,7 @@ Download vanuit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/
 | Voorbeeldconfiguratie van ER-indeling        | Indeling voor het leren van parameteraanroepen.versie.1.xml  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Meld u aan bij uw RCS-exemplaar
-In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc. Eerst moet u in RCS de stappen uitvoeren in de procedure [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md):
+In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc. Eerst moet u in RCS de stappen uitvoeren in de procedure [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md):
 
 1. Selecteer **Elektronische aangifte** in het standaarddashboard.
 2. Selecteer **Rapportageconfiguraties**.
@@ -75,21 +75,21 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc
 3. Selecteer **Ontwerper**.
 4. Selecteer **Ontwerper**.  
    
-Deze ER-modeltoewijzing is ontworpen om het volgende te doen:
+    Deze ER-modeltoewijzing is ontworpen om het volgende te doen:
 
-- Het ophalen van de lijst met btw-codes (**Btw**-gegevensbron) in de tabel **TaxTable**.
-- Het ophalen van de lijst met btw-transacties (**Trans**-gegevensbron) in de tabel **TaxTrans**:
+    - Het ophalen van de lijst met btw-codes (**Btw**-gegevensbron) in de tabel **TaxTable**.
+    - Het ophalen van de lijst met btw-transacties (**Trans**-gegevensbron) in de tabel **TaxTrans**:
     
-    - Het groeperen van opgehaalde trans acties (**GR**-gegevensbron) op btw-code.
-    - Het berekenen voor gegroepeerde transacties na geaggregeerde waarden per btw-code:
+        - Het groeperen van opgehaalde trans acties (**GR**-gegevensbron) op btw-code.
+        - Het berekenen voor gegroepeerde transacties na geaggregeerde waarden per btw-code:
 
-        - Het optellen van btw-basiswaarden.
-        - Het optellen van btw-waarden.
-        - Het bepalen van het minimale toegepaste belastingtarief.
+            - Het optellen van btw-basiswaarden.
+            - Het optellen van btw-waarden.
+            - Het bepalen van het minimale toegepaste belastingtarief.
 
-Met de modeltoewijzing in deze configuratie wordt het basisgegevensmodel geïmplementeerd voor elke ER-indeling die voor dit model is gemaakt en in Finance and Operations wordt uitgevoerd. Dat betekent dat de inhoud van de gegevensbronnen **Btw** en **GR** worden weergegeven voor ER-indelingen zoals abstracte gegevensbronnen.
+    Met de modeltoewijzing in deze configuratie wordt het basisgegevensmodel geïmplementeerd voor elke ER-indeling die voor dit model is gemaakt en in Finance and Operations wordt uitgevoerd. Dat betekent dat de inhoud van de gegevensbronnen **Btw** en **GR** worden weergegeven voor ER-indelingen zoals abstracte gegevensbronnen.
 
-  ![De pagina Ontwerper modeltoewijzingen met Btw- en GR-gegevensbronnen](media/er-calculated-field-type-01.png)
+    ![De pagina Ontwerper modeltoewijzingen met Btw- en GR-gegevensbronnen](media/er-calculated-field-type-01.png)
 
 5.  Sluit de pagina **Ontwerper modeltoewijzing**.
 6.  Sluit de pagina **Modeltoewijzing**.
@@ -100,25 +100,25 @@ Met de modeltoewijzing in deze configuratie wordt het basisgegevensmodel geïmpl
 2. Selecteer **Indeling voor het leren van parameteraanroepen**.
 3. Selecteer **Ontwerper**. Deze ER-indeling is ontworpen om het volgende te doen:
 
-  - Het genereren van een belastingaangifte in XML-indeling.
-  - Het opgeven van de volgende belastingniveaus in de belastingaangifte: normaal, verlaagd en geen.
-  - Het opgeven van meerdere details voor elk belastingniveau, met een verschillend aantal details op elk niveau.
+    - Het genereren van een belastingaangifte in XML-indeling.
+    - Het opgeven van de volgende belastingniveaus in de belastingaangifte: normaal, verlaagd en geen.
+    - Het opgeven van meerdere details voor elk belastingniveau, met een verschillend aantal details op elk niveau.
 
-  ![Pagina Indelingsontwerper](media/er-calculated-field-type-02.png)
+    ![Pagina Indelingsontwerper](media/er-calculated-field-type-02.png)
 
 4. Selecteer **Toewijzing**.
 5. Vouw de items **Model**, **Gegevens** en **Overzicht** uit. 
 
-   Het berekende veld **Model.Data.Summary.Level** bevat de expressie die de code van het belastingniveau (**Normaal**, **Verlaagd**, **Geen** of **Overige**) als een tekstwaarde retourneert voor elke belastingcode die in runtime kan worden opgehaald uit de gegevensbron **Model.Data.Summary**.
+    Het berekende veld **Model.Data.Summary.Level** bevat de expressie die de code van het belastingniveau (**Normaal**, **Verlaagd**, **Geen** of **Overige**) als een tekstwaarde retourneert voor elke belastingcode die in runtime kan worden opgehaald uit de gegevensbron **Model.Data.Summary**.
 
-  ![Pagina Indelingsontwerper met details van het gegevensmodel Model voor het leren van parameteraanroepen](media/er-calculated-field-type-03.png)
+    ![Pagina Indelingsontwerper met details van het gegevensmodel Model voor het leren van parameteraanroepen](media/er-calculated-field-type-03.png)
 
 6. Vouw het item **Model**.**Data2** uit.
 7. Vouw het item **Model**.**Data2.Summary2** uit.
    
-   De gegevensbron **Model**.**Data2.Summary2** is geconfigureerd om de transactiegegevens van de gegevensbron **Model.Data.Summary** te groeperen op belastingniveau (geretourneerd door het berekende veld **Model.Data.Summary.Level**) en de aggregaties te berekenen.
+    De gegevensbron **Model**.**Data2.Summary2** is geconfigureerd om de transactiegegevens van de gegevensbron **Model.Data.Summary** te groeperen op belastingniveau (geretourneerd door het berekende veld **Model.Data.Summary.Level**) en de aggregaties te berekenen.
 
-  ![Pagina Indelingsontwerper met details van de gegevensbron Model.Data2.Summary2](media/er-calculated-field-type-04.png)
+    ![Pagina Indelingsontwerper met details van de gegevensbron Model.Data2.Summary2](media/er-calculated-field-type-04.png)
 
 8. Controleer de berekende velden **Model**.**Data2.Level1**, **Model**.**Data2.Level2** en **Model**.**Data2.Level3**. Deze berekende velden worden gebruikt om de lijst met **Model**.**Data2. Summary2**-records te filteren en alleen de records weer te geven die een bepaald belastingniveau vertegenwoordigen.
 9. Sluit de pagina **Indelingsontwerper**.
@@ -339,4 +339,4 @@ U kunt gecontroleerde configuraties vanuit RCS importeren door de ER-opslagplaat
 8. Vergelijk de inhoud van de gegenereerde uitvoer.
 
 ## <a name="additional-resources"></a>Aanvullende resources
-[Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
+[Formuleontwerper in elektronische rapportage (ER)](general-electronic-reporting-formula-designer.md)

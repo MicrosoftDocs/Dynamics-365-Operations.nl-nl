@@ -1,5 +1,5 @@
 ---
-title: Toegang tot voorbeeldfuncties in Microsoft Dynamics 365 Talent
+title: Functies beheren
 description: In dit onderwerp wordt beschreven hoe een beheerder de voorbeeldfuncties in Microsoft Dynamics 365 Talent kan inschakelen en krijgt u een overzicht van de functies die momenteel zijn ingeschakeld voor het voorbeeld.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551588"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833295"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Toegang tot voorbeeldfuncties in Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>Functies beheren
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Als onderdeel van onze doorlopende implementatie van HCM-mogelijkheden (human capital management) voor Microsoft Dynamics 365 Talent willen we klanten zo snel mogelijk laten kennismaken met nieuwe functies. Beheerders kunnen voorbeeldfuncties in hun omgevingen zien en gebruiken. Deze functies zijn bijna gereed voor algemene beschikbaarheid en zijn uitgebreid getest. Het enige wat we nog willen doen is een definitieve ronde van feedback van klanten en validatie voordat we de functies algemeen vrijgeven.
 
@@ -117,6 +117,6 @@ Vermeld geen persoonlijke gegevens (gegevens die uw identiteit vrijgeven) als u 
 ## <a name="see-also"></a>Zie ook
 
 - [Talent-apps proberen of kopen](https://dynamics.microsoft.com/talent/overview/)
-- [Wat is er nieuw](./whats-new.md)
-- [Opmerkingen bij release](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Ondersteuning voor Talent](./talent-support.md)
+- [Nieuwe of gewijzigde functies in Dynamics 365 Talent](./whats-new.md)
+- [Vrijgaveplannen](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Ondersteuning voor Microsoft Dynamics 365 Talent](./talent-support.md)

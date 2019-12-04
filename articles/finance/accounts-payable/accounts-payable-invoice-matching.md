@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b45c6f20bf5b6fb02379f71b5806c6c147789e73
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a8e283038a0cc1c9834a827c453f2951e9e87bcf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189747"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772278"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Overzicht van Factuurvereffening voor leveranciers
 
@@ -189,7 +189,7 @@ Leverancierfacturen zijn vaak gebaseerd op productontvangstbonnen die staan voor
 -   Geef factuurbedragen op die niet zijn opgenomen in de oorspronkelijke inkooporder, zodat de factuurgegevens overeenkomen met de factuur die u hebt ontvangen van de leverancier. U kunt de toeslagen voor inkooporders vergelijken met de toeslagen voor facturen. U kunt indien nodig toeslagen toevoegen aan facturen en deze toewijzen aan factuurregels.
 -   Geef prijsverschillen tussen de netto-eenheidsprijs van de factuur en de netto-eenheidsprijs van de inkooporder op en keur deze goed. U kunt prijstolerantiepercentages instellen voor uw rechtspersonen, leveranciers, en artikelen. Als de leverancierfactuurregelprijs niet binnen de prijstolerantie valt, kunt u de factuur opslaan totdat deze is goedgekeurd voor boeking of totdat u een correctie ontvangt van de leverancier.
 
-Zie voor meer informatie [Drieweg-overeenstemmingsbeleid](three-way-matching-policies.md) en [Validatie voor factuurmatching instellen voor leveranciers](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
+Zie voor meer informatie [Drieweg-overeenstemmingsbeleid](three-way-matching-policies.md) en [Validatie van factuurvereffening instellen voor leveranciers](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

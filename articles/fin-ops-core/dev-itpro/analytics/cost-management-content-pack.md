@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd76fc771c370d8d769a97d3b33003f632717f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174185"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771512"
 ---
 # <a name="cost-management-power-bi-content"></a>Power BI-inhoud - kostenbeheer
 
@@ -37,7 +37,7 @@ De Microsoft Power BI-inhoud van **Kostenbeheer** is bedoeld voor voorraadboekho
 > [!NOTE]
 > De in dit onderwerp beschreven Power BI-inhoud voor **Kostenbeheer** is van toepassing op Dynamics 365 Finance and Operations 8.0.
 > 
-> Het Power BI-inhoudpakket voor **Kostenbeheer** dat beschikbaar is op de site AppSource, is afgeschaft. Zie voor meer informatie hierover [Power BI-inhoudpakketten beschikbaar op AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Het Power BI-inhoudpakket voor **Kostenbeheer** dat beschikbaar is op de site AppSource, is afgeschaft. Zie [Verwijderde of afgeschafte functies voor Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) voor meer informatie over die afschaffing.
 
 Deze Power BI-inhoud biedt een gecategoriseerde indeling waarmee u de prestaties van voorraden kunt controleren en kunt visualiseren hoe kostenstromen verlopen. U vindt de beheerinzichten zoals omloopsnelheid, aantal dagen dat de voorraad voorhanden is, nauwkeurigheid en 'ABC-classificatie' op het gewenste totalliseringsniveau (bedrijf, artikel, artikelgroep of locatie). De beschikbare informatie kan ook worden gebruikt als een uitgebreide aanvulling op het financiële overzicht.
 
@@ -172,7 +172,7 @@ De volgende tabellen bevatten een overzicht van de visualisaties in de Power BI-
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 
-Gegevens uit de toepassing worden gebruikt om de rapportpagina's in de Power BI-inhoud voor **Kostenbeheer** in te vullen. Deze gegevens worden vertegenwoordigd als samengevoegde metingen die worden klaargezet in de entiteitopslag. Dit is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Power BI-integratie met entiteitopslag](power-bi-integration-entity-store.md).
+Gegevens uit de toepassing worden gebruikt om de rapportpagina's in de Power BI-inhoud voor **Kostenbeheer** in te vullen. Deze gegevens worden vertegenwoordigd als samengevoegde metingen die worden klaargezet in de entiteitopslag. Dit is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
 
 De belangrijkste geaggregeerde metingen van de volgende objecten worden gebruikt als basis voor de Power BI-inhoud.
 

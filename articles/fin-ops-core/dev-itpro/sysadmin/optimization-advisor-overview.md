@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191403"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811965"
 ---
 # <a name="optimization-advisor-overview"></a>Overzicht van Optimalisatie-advies
 
@@ -38,7 +38,7 @@ Een onjuiste configuratie en instellingen van een module hebben een negatief eff
 
 Het werkgebied **Optimization advisor** is een hulpprogramma waarmee hoofdgebruikers, analisten, functionele consultants en IT-ondersteuning problemen in de moduleconfiguratie en zakelijke gegevens kunnen vaststellen. Optimization advisor suggereert aanbevolen procedures voor de configuratie van de module en zakelijke gegevens die verouderd of onjuist zijn.
 
-Optimization advisor voert regelmatig een set best practice-regels uit. Er is een standaardset van regels beschikbaar, maar gebruikers kunnen ook regels maken die specifiek zijn voor hun aanpassingen, oplossingen van onafhankelijke softwareleveranciers (ISV's) en hun zakelijke gegevens. Zie [Nieuwe regels maken](./create-rules-optimization-advisor.md) voor meer informatie over het maken van regels.
+Optimization advisor voert regelmatig een set best practice-regels uit. Er is een standaardset van regels beschikbaar, maar gebruikers kunnen ook regels maken die specifiek zijn voor hun aanpassingen, oplossingen van onafhankelijke softwareleveranciers (ISV's) en hun zakelijke gegevens. Zie [Regels maken voor Optimalisatie-advies](./create-rules-optimization-advisor.md) voor meer informatie over het maken van regels.
 
 Wanneer een overtreding van een regel wordt gevonden, wordt een optimalisatiemogelijkheid gegenereerd die wordt weergegeven in het werkgebied **Optimization advisor**. Een gebruiker kan correctieve actie ondernemen vanuit het werkgebied **Optimization advisor**.
 
@@ -90,8 +90,8 @@ Als u een mogelijkheid niet van toepassing is op uw rol, selecteert u **Verberge
 
 Als u de evaluatie van specifieke regels wilt deactiveren, selecteert u de mogelijkheid die is gegenereerd door de regel en vervolgens **Analyse deactiveren**.
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
-[Nieuwe regels maken](./create-rules-optimization-advisor.md)
+[Regels maken voor Optimalisatie-advies](./create-rules-optimization-advisor.md)
 
 [Optimization advisor in Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

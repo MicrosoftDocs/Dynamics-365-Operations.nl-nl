@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e2613a9adf60699a1c20b780e1acf2afb99d37d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0dc71f819f132b91fe153f83089eab24fa33173a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182871"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772483"
 ---
 # <a name="production-performance-power-bi-content"></a>Power BI-inhoud Productieprestaties
 
@@ -62,7 +62,7 @@ In de volgende tabel vindt u een overzicht van de visualisaties die worden meege
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 
-De volgende gegevens worden gebruikt voor de rapportpagina's in de Power BI-inhoud **Productieprestaties**. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie over de entiteitopslag, [Power BI-integratie met de Entiteitopslag](power-bi-integration-entity-store.md).
+De volgende gegevens worden gebruikt voor de rapportpagina's in de Power BI-inhoud **Productieprestaties**. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie over de entiteitopslag [Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
 
 In de volgende tabel ziet u de belangrijke geaggregeerde metingen die worden gebruikt als basis voor de Power BI-inhoud.
 

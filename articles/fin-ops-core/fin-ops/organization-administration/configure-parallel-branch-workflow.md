@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2339c6f901a3ef39ad4f9586b2f391b966a3df98
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2058eaac77282946559cae11fcec8152658fc96b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190138"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811352"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>Parallelle vertakkingen in een workflow configureren
 
@@ -46,8 +46,8 @@ Voer deze stappen uit om een naam op te geven voor een parallelle vertakking.
 Voer deze stappen uit om de elementen van een parallelle vertakking te ontwerpen en te configureren.
 
 1. Dubbelklik op de parallelle vertakking.
-2. Sleep workflowelementen op het tekenpapier en configureer de elementen, net als bij het maken van een andere workflow. Zie [Een workflow maken](create-workflow.md) voor meer informatie.
+2. Sleep workflowelementen op het tekenpapier en configureer de elementen, net als bij het maken van een andere workflow. Zie [Overzicht van Workflows maken](create-workflow.md) voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Een workflow maken](create-workflow.md)
+[Overzicht van Workflows maken](create-workflow.md)

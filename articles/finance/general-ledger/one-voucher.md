@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553182"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810694"
 ---
 # <a name="one-voucher"></a>Eén boekstuk
 
@@ -83,6 +83,9 @@ Op basis van informatie van klanten heeft Microsoft de volgende lijst opgesteld 
 
 De volgende scenario's kunnen alleen met de functionaliteit Eén boekstuk worden uitgevoerd. Als uw organisatie een van deze scenario's heeft, moet u inschakelen dat meerdere transacties kunnen worden ingevoerd in een boekstuk door wijziging van de instelling van de parameter **Meerdere transacties binnen één boekstuk toestaan** op de pagina **Grootboekparameters**. Deze functionele hiaten worden door andere functies opgevuld in latere releases.
 
+> [!Note]
+> [Voor elk van de volgende scenario's moet het veld **Meerdere transacties binnen één boekstuk toestaan** zijn ingesteld op Ja op het sneltabblad **Algemeen** op de pagina **Grootboekparameters**.]
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Betalingen van leverancier of klant als een overzicht naar een bankrekening boeken
 
 **Scenario** Een organisatie geeft een lijst met leveranciers en bedragen door aan de bank en de bank gebruikt deze lijst om de leveranciers te betalen uit naam van de organisatie. De bank boekt het totaal van de betalingen als één enkele opname op de bankrekening.
@@ -120,6 +123,9 @@ Met de volgende vaste-activatransacties worden ook meerdere transacties gemaakt 
 - Een activum wordt opgesplitst.
 - Een parameter voor het berekenen van afschrijving bij buitengebruikstelling wordt ingeschakeld en vervolgens wordt het activum afgestoten.
 - De servicedatum van ene activum valt vóór de verwervingsdatum. Daarom wordt een afschrijvingscorrectie geboekt.
+
+> [!Note]
+> Wanneer u trans acties invoert, moet u ervoor zorgen dat alle transacties van toepassing zijn op hetzelfde vaste activum. Het boekstuk wordt niet geboekt als het meer dan één vast activum bevat, zelfs niet als het veld **Nieuw boekstuk** veld is ingesteld op Maximaal één boekstuknummer op de pagina **Journaalnamen** in Grootboek. Als u meer dan één vast activum in het boekstuk opneemt, wordt het bericht **Er kan niet meer dan één vaste-activatransactie per boekstuk zijn** weergegeven en kunt u het boekstuk niet boeken.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Wissels en promessen
 Wissels en promessen vereisen dat Eén boekstuk wordt gebruikt, omdat de transacties het klant- of leverancierssaldo van de ene Klanten/Leveranciers-grootboekrekening naar de andere verplaatsen, op basis van de status van de betaling.

@@ -1,5 +1,5 @@
 ---
-title: Analytische rapporten gebruiken in Microsoft Dynamics 365 Talent - Attract
+title: Analytische rapporten gebruiken in Attract
 description: In dit onderwerp worden de analytische rapporten voor inzichten in het aanstellingsproces in Microsoft Dynamics 365 Talent - Attract beschreven
 author: fewatson
 manager: AnnBe
@@ -19,14 +19,16 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 5a4d160e8c90725d5ea129a76fd48da1c5af7900
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4ae608bbca111313d8c77e63f6a7a95813f6e5cd
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551513"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833226"
 ---
-# <a name="use-analytic-reports-in-microsoft-dynamics-365-talent---attract"></a>Analytische rapporten gebruiken in Microsoft Dynamics 365 Talent - Attract
+# <a name="use-analytic-reports-in-attract"></a>Analytische rapporten gebruiken in Attract
+
+[!include [banner](includes/banner.md)]
 
 Analytische rapporten in Microsoft Dynamics 365 Talent: Attract bieden een standaardoplossing voor inzichten in het aanstellingsproces. Tot de beschikbare functies behoren:
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76bae24a975c922ea49ee2584e87cf43ccca61c7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177111"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770592"
 ---
 # <a name="posting-definitions"></a>Boekdefinities
 
@@ -59,6 +59,6 @@ De volgende beperkingen gelden wanneer u koppelingen maakt in boekingsdefinities
 -   U kunt een boekingsdefinitie toewijzen aan ieder transactietype, maar het transactietype moet zich in dezelfde module bevinden als de boekingsdefinitie. Gebruik de pagina **Boekdefinities voor transacties** om te zien in welke module een transactietype zich bevindt.
 
 
-Zie voor meer informatie [Voorbeelden van boekingsdefinities](example-posting-definitions.md). 
+Zie voor meer informatie [Voorbeelden van boekdefinities](example-posting-definitions.md). 
 
 

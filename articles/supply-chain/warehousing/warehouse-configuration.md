@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653413"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814899"
 ---
 # <a name="warehouse-configuration-overview"></a>Overzicht van Magazijnconfiguratie
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653413"
 
 In dit artikel wordt beschreven hoe u een magazijn configureert. Er wordt aangegeven hoe u een magazijnindeling en magazijnprocessen inschakelt.
 
-**Opmerking:** dit artikel is van toepassing op de functies in de module **Magazijnbeheer** (geavanceerde magazijnen). Het is niet van toepassing op magazijnfuncties in de module **Voorraadbeheer**.
+> [!NOTE]
+> Dit artikel is van toepassing op de functies in de module **Magazijnbeheer** (geavanceerde magazijnen). Het is niet van toepassing op magazijnfuncties in de module **Voorraadbeheer**.
 
 ## <a name="warehouse-layout"></a>Magazijnindeling
 Het Magazijnbeheersysteem in Supply Chain Management biedt u flexibele manieren om uw magazijnindeling te definiëren voor wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
@@ -114,7 +115,7 @@ Om het gemakkelijker en sneller te maken om de acties te definiëren die zijn ge
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Locaties in een WMS-magazijn configureren](tasks/configure-locations-wms-enabled-warehouse.md) (taakbegeleider)
+[Locaties in een WMS-magazijn configureren](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

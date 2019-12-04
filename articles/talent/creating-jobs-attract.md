@@ -1,5 +1,5 @@
 ---
-title: Functies maken, goedkeuren en boeken in Attract
+title: Een taak maken in Attract
 description: Dit onderwerp beschrijft de elementen van een functie in Attract. Ook wordt uitgelegd hoe u een functie maakt.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551067"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832926"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Functies maken, goedkeuren en boeken in Attract
+# <a name="create-a-job-in-attract"></a>Een taak maken in Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Als positiebeheer is ingeschakeld in het beheercentrum, is de zoekopdracht **Pos
 > [!NOTE]
 > Positiebeheer is beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen.
 
-Afhankelijk van de instellingen in de aanbiedingsactiviteit van het aanstellingsproces kan een positienummer tweemaal in een aanbieding worden gebruikt. Zie [Aanstellingsproces](./activities-attract.md) voor meer informatie.
+Afhankelijk van de instellingen in de aanbiedingsactiviteit van het aanstellingsproces kan een positienummer tweemaal in een aanbieding worden gebruikt. Zie [Activiteiten in aanstellingsprocessen](./activities-attract.md)voor meer informatie.
 
 Attract bevat een standaardset met **vaardigheden**. Deze vaardigheden worden als suggesties weergegeven terwijl u typt. U kunt meer vaardigheden toevoegen door de nieuwe vaardigheidstekst in te voeren en vervolgens op Enter te drukken.
 
@@ -67,7 +67,7 @@ Het wervingsteam kan worden bijgewerkt nadat de functie is geactiveerd.
 
 Standaardgegevens over het aanstellingsproces zijn gebaseerd op de processjabloon die is geselecteerd toen de functie werd gemaakt. Als een specifieke sjabloon op dat moment niet was geselecteerd, wordt de standaardsjabloon gebruikt. Wanneer u het aanstellingsproces definieert, kunt u verschillende fasen toevoegen of verwijderen, met uitzondering van de fasen Prospect, Sollicitatie en Aanbieding. Hoewel de fase Prospect niet kan worden verwijderd, kan deze wel worden uitgeschakeld. U kunt in elke fase een of meer vooraf gedefinieerde activiteiten toevoegen of verwijderen.
 
-Zie voor meer informatie over activiteiten die kunnen worden toegevoegd aan het aanstellingsproces, [Aanstellingsactiviteiten in Attract](./activities-attract.md).
+Zie [Activiteiten in aanstellingsprocessen](./activities-attract.md) voor meer informatie over activiteiten die kunnen worden toegevoegd aan het aanstellingsproces.
 
 > [!NOTE]
 > Het aanstellingsproces kan niet worden bijgewerkt nadat een functie is geactiveerd.
@@ -76,7 +76,7 @@ Zie voor meer informatie over activiteiten die kunnen worden toegevoegd aan het 
 
 Nadat een functie is geactiveerd, kan deze worden geplaatst. Alleen wervers en beheerders kunnen functies plaatsen. De functie kan worden geplaatst op Talent Loopbanen (een Dynamics 365 Talent-vacaturesite) of LinkedIn. Het Attract-team werkt voortdurend aan partnerschappen met functiebordproviders. Deze lijst wordt in de loop van de tijd uitgebreid. Wanneer een functie als alleen intern wordt gepubliceerd, moeten kandidaten een AAD-account hebben om de functie te bekijken en erop te solliciteren. Als de functie als openbaar wordt weergegeven, kunnen de kandidaten functies bekijken en erop solliciteren met alle verificatieopties. 
 
-Zie voor meer informatie over vacatures [Carrièresitefunctionaliteit in Attract](career-site.md).
+Zie [Uw vacaturesite instellen in Microsoft Dynamics 365 Talent - Attract](career-site.md) voor meer informatie over vacatures.
 
 > [!NOTE]
 > De functionaliteit voor personeelsadvertenties is alleen beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen voor Attract.
@@ -90,7 +90,7 @@ Nadat een functie is geactiveerd, kan deze worden geboekt en kunnen er prospects
 
 ## <a name="prospects-and-applicants"></a>Prospects en sollicitanten
 
-De optie om prospects aan een functie toe te voegen wordt ingesteld in de [activiteit Prospect](./activities-attract.md#prospect-activity) in het aanstellingsproces. Deze optie moet worden ingesteld voordat u de functie activeert. Nadat een functie is geactiveerd, kunnen er prospects en sollicitanten aan worden toegevoegd.
+De optie om prospects aan een functie toe te voegen wordt ingesteld in de [Activiteiten in aanstellingsprocessen](./activities-attract.md#prospect-activity) tijdens het aanstellingsproces. Deze optie moet worden ingesteld voordat u de functie activeert. Nadat een functie is geactiveerd, kunnen er prospects en sollicitanten aan worden toegevoegd.
 
 ## <a name="approvals"></a>Goedkeuringen
 

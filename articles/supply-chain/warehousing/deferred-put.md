@@ -3,7 +3,7 @@ title: Uitgestelde verwerking van magazijnwerk
 description: In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen in magazijnwerk beschikbaar maakt in Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026911"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815783"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Uitgestelde verwerking van magazijnwerk
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026911"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen voor magazijnwerk beschikbaar maakt in Dynamics 365 Supply Chain Management.
-
 
 Met de functionaliteit voor uitgestelde verwerking kunnen magazijnmedewerkers doorgaan met ander werk terwijl de wegzetbewerking op de achtergrond wordt verwerkt. Uitgestelde verwerking is nuttig wanneer veel werkregels moeten worden verwerkt en de werknemer dat werk asynchroon kan laten verwerken. Het is ook handig wanneer de server ad-hoc of niet-geplande verhogingen in verwerkingstijd kan hebben, en de toegenomen verwerkingstijd kan invloed hebben op de productiviteit van de gebruiker.
 
@@ -50,6 +49,8 @@ Beleid wordt geconfigureerd op de pagina **Werkverwerkingsbeleid**. In de volgen
 | Methode voor werkverwerking          | De methode die wordt gebruikt om de werkregel te verwerken. Als de methode is ingesteld op **Direct**, lijkt het erop dat er geen werkverwerkingsbeleid wordt gebruikt om de regel te verwerken. Als de methode is ingesteld op **Uitgesteld**, wordt uitgestelde verwerking gebruikt die gebruikmaakt van het batchframework. |
 | Drempel voor uitgestelde verwerking   | De waarde **0** (nul) betekent dat er geen drempel is. In dit geval wordt uitgestelde verwerking gebruikt waar dat kan. Als de specifieke drempelberekening onder de drempelwaarde ligt, wordt de methode Direct gebruikt. Anders wordt de methode Uitgesteld gebruikt waar dat kan. Voor verkoop- en overdrachtsgerelateerd werk wordt de drempel berekend als het aantal gekoppelde bronbelastingsregels dat voor het werk wordt verwerkt. Voor aanvullingswerk wordt de drempel berekend als het aantal werkregels dat door het werk wordt aangevuld. Door een drempelwaarde van bijvoorbeeld **5** in te stellen voor verkoop, gebruiken kleinere werken met minder dan vijf oorspronkelijke bronbelastingsregels geen uitgestelde verwerking, maar grotere werken gebruiken deze wel. De drempelwaarde heeft alleen effect als de werkverwerkingsmethode is ingesteld op **Uitgesteld**. |
 | Batchgroep voor uitgestelde verwerking |De batchgroep die wordt gebruikt voor verwerking. |
+
+Voor uitgestelde opslagbewerkingen worden de volgende typen werkorders ondersteund: verkooporder, uitgifte van overboekingsorder en aanvulling.
 
 ## <a name="assigning-the-work-creation-policy"></a>Het beleid voor het maken van werk toewijzen
 
@@ -99,7 +100,7 @@ Er zijn verschillende scenario's waarbij uitgestelde wegzetverwerking niet wordt
 - Het werk wordt dan handmatig voltooid.
 - Het werk wordt voltooid met behulp van automatisch aanvullen.
 - Controlesjablonen worden gebruikt.
-- Het werk maakt gebruik van containers.
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>De uitgestelde verwerkingstaken bewaken vanuit de werkruimte voor bewaking van uitgaand werk
 

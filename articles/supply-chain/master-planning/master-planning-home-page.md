@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0588ad24cb28a32557361e1a2e5391502a8b46d7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250686"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814256"
 ---
 # <a name="master-planning-home-page"></a>Startpagina Hoofdplanning
 
@@ -39,9 +39,9 @@ In Hoofdplanning worden de gegevens gebruikt om de vereisten te berekenen en gep
 
 De drie belangrijkste planningsprocessen zijn:
 
--  **Hoofdplanning**: met het hoofdplan worden nettovereisten berekend. Deze planning wordt gebaseerd op de werkelijke huidige orders en biedt bedrijven de mogelijkheid om de voorraadaanvulling op korte termijn, van dag tot dag, te bepalen. Een andere treffende beschrijving is *plan met nettovereisten*. Zie [Hoofdplanning](master-plans.md) voor meer informatie. 
+-  **Hoofdplanning**: met het hoofdplan worden nettovereisten berekend. Deze planning wordt gebaseerd op de werkelijke huidige orders en biedt bedrijven de mogelijkheid om de voorraadaanvulling op korte termijn, van dag tot dag, te bepalen. Een andere treffende beschrijving is *plan met nettovereisten*. Zie voor meer informatie [Overzicht van Hoofdplannen](master-plans.md). 
 
--  **Prognoseplanning**: hiermee worden brutovereisten berekend. Deze planning is gebaseerd op toekomstige projecties (of prognoses) en biedt bedrijven de mogelijkheid een langetermijnplanning voor materialen en capaciteit te maken. Zie [Prognoseplanning](introduction-demand-forecasting.md) voor meer informatie. 
+-  **Prognoseplanning**: hiermee worden brutovereisten berekend. Deze planning is gebaseerd op toekomstige projecties (of prognoses) en biedt bedrijven de mogelijkheid een langetermijnplanning voor materialen en capaciteit te maken. Zie voor meer informatie [Overzicht van Vraagprognose](introduction-demand-forecasting.md). 
 
 -  **Intercompany-hoofdplanning**: in het intercompany-hoofdplan worden nettovereisten voor rechtspersonen berekend. Vraag en aanbod tussen bedrijven worden met elkaar verbonden, niet alleen bevestigde vraag en aanbod voor de korte termijn, maar ook geplande, nog niet gefiatteerde vraag en aanbod voor de lange termijn. Zie voor meer informatie [Intercompany-hoofdplanning](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (CustomerSource-account vereist). 
 
@@ -57,15 +57,15 @@ Het volgende leertraject toont de belangrijkste concepten en taken die het raamw
 
 ## <a name="quick-links"></a>Snelkoppelingen
 
-- [Hoofdplannen](master-plans.md)  
+- [Overzicht van Hoofdplannen](master-plans.md)  
 - [Een plan met beperkingen genereren](./tasks/constrained-plan.md)
 - [Een materiaalplan voor co-producten maken](./tasks/create-material-plan-co-products.md)
-- [Hoofdplanning en de functionaliteit voor meerdere locaties](master-plan-multisite-functionality.md)
+- [Overzicht van Hoofdplannen en functionaliteit voor meerdere locaties](master-plan-multisite-functionality.md)
 - [Een intercompany-plan maken](./tasks/create-intercompany-plan.md)
-- [Overzicht vraagprognose](introduction-demand-forecasting.md)
-- [Reductiesleutels](reduction-keys.md)
+- [Overzicht van Vraagprognose](introduction-demand-forecasting.md)
+- [Reductiesleutels van prognose](reduction-keys.md)
                                   
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 ### <a name="roadmaps"></a>Routekaarten
 Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om te zien welke nieuwe functies zijn vrijgegeven en welke nieuwe functies in ontwikkeling zijn.

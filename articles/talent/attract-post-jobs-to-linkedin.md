@@ -1,5 +1,5 @@
 ---
-title: Vacatures plaatsen op LinkedIn vanuit Microsoft Dynamics 365 Talent - Attract
+title: Vacatures plaatsen op LinkedIn vanuit Attract
 description: In dit onderwerp wordt uitgelegd hoe u Dynamics 365 Talent - Attract gebruikt voor het plaatsen van vacatures op LinkedIn.
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551490"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832995"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>Vacatures plaatsen op LinkedIn vanuit Microsoft Dynamics 365 Talent - Attract
+# <a name="post-jobs-to-linkedin-from-attract"></a>Vacatures plaatsen op LinkedIn vanuit Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 LinkedIn is het grootste onlinenetwerk voor professionals en biedt u toegang tot de beste talenten wereldwijd. Met Microsoft Dynamics 365 Talent: Attract kunt u de talenten krijgen die u nodig hebt omdat u uw vacatures rechtstreeks vanuit Attract op LinkedIn kunt plaatsen.
 
@@ -46,7 +46,7 @@ In de volgende tabel worden de acties weergegeven die u kunt uitvoeren op Linked
 
 Zie voor meer informatie over gebruikersrollen in Attract [Beveiliging en rollenbeheer in Attract](./security-attract.md).
 
-Zie [Integratie met LinkedIn instellen](./attract-admin-linkedin.md) als u een beheerder bent en meer informatie nodig hebt over het configureren van de LinkedIn-Integratie met Attract.
+Zie [Integratie met LinkedIn for Microsoft Dynamics 365 Talent - Attract instellen](./attract-admin-linkedin.md) als u een beheerder bent en meer informatie nodig hebt over het configureren van de LinkedIn-integratie met Attract.
 
 Vacatures die worden gepubliceerd naar LinkedIn, worden weergegeven op de live LinkedIn-site. Er is geen testomgeving voor het plaatsen van vacatures op LinkedIn. Zorg er daarom voor dat u niet per ongeluk testvacatures plaatst.
 
@@ -67,15 +67,15 @@ Wanneer geïnteresseerde kandidaten **Weergeven** naast uw vacature selecteren, 
 
 Alle geplaatst vacatures via Attract zijn beperkte aanbiedingen. Zie voor meer informatie over beperkte aanbiedingen op LinkedIn [Beperkte aanbiedingen VS Premium job slots voor Job Wrapping](https://www.linkedin.com/help/recruiter/answer/79049).
 
-Zie [Problemen oplossen met vacatures plaatsen in LinkedIn](./attract-troubleshoot-linkedin.md) als u problemen hebt met het plaatsen van vacatures op LinkedIn.
+Zie [Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - Attract oplossen](./attract-troubleshoot-linkedin.md) als u problemen hebt met het plaatsen van vacatures in LinkedIn.
 
 ## <a name="see-also"></a>Zie ook
 
-[Veelgestelde vragen over LinkedIn](./attract-linkedin-faq.md)
+[Veelgestelde vragen over integratie van Attract met LinkedIn](./attract-linkedin-faq.md)
 
-[Integratie met LinkedIn instellen](./attract-admin-linkedin.md)
+[Integratie met LinkedIn instellen voor Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[Vacatures maken](./creating-jobs-attract.md)
+[Functies maken, goedkeuren en boeken in Attract](./creating-jobs-attract.md)
 
 [Kandidaten zoeken met LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 

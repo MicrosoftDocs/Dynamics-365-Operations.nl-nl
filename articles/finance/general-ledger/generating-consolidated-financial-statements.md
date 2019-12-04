@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177117"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770684"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 
@@ -41,7 +41,7 @@ De eenvoudigste methode voor consolidatie met behulp van Financiële rapportage 
 
 In de volgende afbeelding ziet u hoe u een rapporteringsstructuurdefinitie kunt gebruiken in Financiële rapportage om elk bedrijf te identificeren dat u consolideert.
 
-![Rapporteringsstructuurdefinitie](./media/reporting-tree-definition.png "Rapporteringsstructuurdefinitie")
+![Rapportagestructuurdefinitie](./media/reporting-tree-definition.png "Rapportagestructuurdefinitie")
 
 Zoals het geconsolideerde rapport in de volgende afbeelding laat zien, kunt u wanneer u de rapporteringsstructuur samen met een rapportdefinitie gebruikt, elk bedrijf afzonderlijk weergeven. De geconsolideerde bedragen worden weergegeven op overzichtsniveau.
 
@@ -111,7 +111,7 @@ Een andere optie voor minderheidsbelang is 100 procent van de dochtermaatschappi
 
 Zoals u in de volgende afbeelding ziet, kunnen een **IF THEN ELSE**-instructie en kolombeperking in de rijdefinitie worden gebruikt om een minderheidsbelang te berekenen in financiële rapporten.
 
-![Eigendom als een afzonderlijke rij in het geconsolideerde rapport weergeven](./media/Showing-ownership-separate-row-consolidated-report.png "Eigendom als een afzonderlijke rij in het geconsolideerde rapport weergeven")
+![Eigendom als een afzonderlijke rij weergeven in het geconsolideerde rapport](./media/Showing-ownership-separate-row-consolidated-report.png "Eigendom als een afzonderlijke rij weergeven in het geconsolideerde rapport")
 
 ## <a name="multiple-charts-of-accounts-across-legal-entities"></a>Meerdere rekeningschema's voor rechtspersonen
 Verschillende rechtspersonen hebben vaak verschillende rekeningschema's, maar willen wel geconsolideerde financiële overzichten maken. In dit geval kan Financiële rapportage worden gebruikt voor het consolideren van de gegevens, zodat u geconsolideerde financiële rapporten kunt genereren. Hier vindt u de hoofdstappen voor consolidatie wanneer er verschillende rekeningschema's bestaan voor rechtspersonen.
@@ -221,6 +221,6 @@ Om correct omgerekende bedragen te verkrijgen als valuta's worden gebruikt, word
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-Zie het bovenliggende onderwerp van dit onderwerp [Financiële consolidaties en valutaomrekening](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
+Zie het bovenliggende onderwerp van dit onderwerp [Overzicht van Financiële consolidaties en valutaomzetting](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
 
-Zie voor informatie over het invoeren van details van online consolidaties [Online consolideren](./consolidate-online.md).
+Zie voor informatie over het invoeren van details van online consolidaties [Online financiële consolidaties](./consolidate-online.md).

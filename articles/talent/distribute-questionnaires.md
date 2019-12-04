@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026251"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814738"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Vragenlijsten plannen en distribueren
 
@@ -54,7 +54,8 @@ Als u een vragenlijstgroep wilt toewijzen aan een vragenlijst, klik u op de pagi
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Geplande antwoordsessies in een vragenlijst
 Geplande antwoordsessies zijn vragenlijsten waarvoor u de respondenten hebt aangesteld en geselecteerd. 
 
-> **Opmerking:** voordat u geplande antwoordsessies kunt opzetten, dient u een vragenlijst te ontwerpen. 
+> [!NOTE]
+>   Voordat u geplande antwoordsessies kunt opzetten, dient u een vragenlijst te ontwerpen. 
 
 Op de pagina **Geplande antwoordsessie** kunt u een geplande antwoordsessie voor een individuele werknemer maken. De lijst op de pagina toont alle geplande vragenlijsten. 
 
@@ -108,12 +109,14 @@ Als u een geplande antwoordsessie gebruikt, moet u de persoon direct, zoals tele
 
 Gebruik de pagina **Vragenlijstplanningen** om een e-mailbericht op te stellen en te versturen naar alle respondenten die aan de vragenlijst zijn gekoppeld. Voer de e-mailtekst in op het tabblad **E-mail voor werknemersselfservice**. Nadat de planning is gestart, klikt u op **Functies** &gt; **E-mailbericht verzenden** om het e-mailbericht te genereren en te verzenden naar de respondenten. Respondenten kunnen zich vervolgens aanmelden bij de website en de vragenlijst invullen. 
 
-> **Opmerking:** voordat u de e-mailfunctionaliteit kunt gebruiken, moet de IT-beheerder de e-mailinstellingen op de pagina **E-mailparameters** invoeren.
+> [!NOTE]
+>   Voordat u de e-mailfunctionaliteit kunt gebruiken, moet de IT-beheerder de e-mailinstellingen op de pagina **E-mailparameters** invoeren.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Een geplande vragenlijst beëindigen
 U kunt een geplande vragenlijst beëindigen nadat alle respondenten hun toegewezen antwoordsessies hebben voltooid. Nadat een geplande vragenlijst is beëindigd, kunt u de instellingen niet kopiëren naar een nieuwe planning. 
 
-> **Opmerking:** als een of meer respondenten de vragenlijst niet hebben ingevuld maar u de planning toch wilt beëindigen, moet u eerst die respondenten uit de lijst verwijderen op de pagina **Geplande antwoordsessie**. Vervolgens kunt u de planning beëindigen.
+> [!NOTE]
+>   Als een of meer respondenten de vragenlijst niet hebben ingevuld maar u de planning toch wilt beëindigen, moet u eerst die respondenten uit de lijst verwijderen op de pagina **Geplande antwoordsessie**. Vervolgens kunt u de planning beëindigen.
 
 ## <a name="completing-questionnaires"></a>Vragenlijsten invullen
 Nadat u een vragenlijst hebt ontworpen en verspreid, kan de vragenlijst worden ingevuld door geselecteerde respondenten. U kunt de vragenlijsten die voor u beschikbaar zijn, op twee manieren openen:
@@ -128,7 +131,7 @@ Vragenlijsten kunnen beschikbaar worden gesteld aan alle personen in een netwerk
 
 [Vragenlijsten ontwerpen](design-questionnaires.md)
 
-[Vragenlijsten gebruiken](questionnaires.md)
+[Vragenlijsten](questionnaires.md)
 
 [De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)
 

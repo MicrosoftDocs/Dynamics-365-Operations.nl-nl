@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 167afa70bfa35b966081709f1587d61d401d318f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184342"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769605"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Best practices voor het importeren van boekstukken met de entiteit Algemeen journaal
 
@@ -57,7 +57,7 @@ In de volgende secties wordt het effect van deze instellingen beschreven en word
 
 ### <a name="voucher-number"></a>Boekstuknummer
 
-- Als u de instelling **Op sets gebaseerde verwerking** gebruikt in de entiteit Algemeen journaal, moet het boekstuknummer worden opgegeven in het geïmporteerde bestand. Aan elke transactie in het algemeen journaal wordt het boekstuknummer toegewezen dat is verstrekt in het geïmporteerde bestand, zelfs als het boekstuk niet in evenwicht is. Als u de op sets gebaseerde verwerking wilt gebruiken, maar ook gebruik wilt maken van de nummerreeks die is gedefinieerd voor boekstuknummers, is er een hotfix beschikbaar voor de versie van februari 2016. Het nummer van de hotfix is 3170316 en deze kan worden gedownload vanuit Lifecycle Services (LCS). Zie voor meer informatie [Hotfixes downloaden vanuit Lifecycle Services](../migration-upgrade/download-hotfix-lcs.md).
+- Als u de instelling **Op sets gebaseerde verwerking** gebruikt in de entiteit Algemeen journaal, moet het boekstuknummer worden opgegeven in het geïmporteerde bestand. Aan elke transactie in het algemeen journaal wordt het boekstuknummer toegewezen dat is verstrekt in het geïmporteerde bestand, zelfs als het boekstuk niet in evenwicht is. Als u de op sets gebaseerde verwerking wilt gebruiken, maar ook gebruik wilt maken van de nummerreeks die is gedefinieerd voor boekstuknummers, is er een hotfix beschikbaar voor de versie van februari 2016. Het nummer van de hotfix is 3170316 en deze kan worden gedownload vanuit Lifecycle Services (LCS). Zie voor meer informatie [Updates downloaden vanuit Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
 
     - U kunt deze functionaliteit inschakelen door in de journaalnaam die wordt gebruikt voor imports, **Nummertoewijzing tijdens boeking** in te stellen op **Ja**.
     - Er moet nog steeds een boekstuknummer worden gedefinieerd in het geïmporteerde bestand. Dit nummer is echter tijdelijk en wordt overschreven door het boekstuknummer als het journaal wordt geboekt. U moet ervoor zorgen dat de regels van het journaal juist zijn gegroepeerd op tijdelijk boekstuknummer. Stel bijvoorbeeld dat tijdens het boeken drie regels worden gevonden die een tijdelijke boekstuknummer 1 hebben. Het tijdelijke boekstuknummer van alle drie de regels worden overschreven door het volgende nummer uit de nummerreeks. Als deze drie regels geen evenwichtige vermelding zijn, wordt het boekstuk niet geboekt. Vervolgens geldt dat, als er regels worden gevonden die een tijdelijk boekstuknummer van 2 hebben, dit nummer wordt overschreven door het volgende boekstuknummer in de nummerreeks enzovoort.

@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184526"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772432"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Bedrijfsconcept in Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 In Finance and Operations is het concept *bedrijf* zowel een juridische constructie als een bedrijfsconstructie. Het is ook een beveiligings- en zichtbaarheidsgrens voor gegevens. Gebruikers werken altijd in de context van één bedrijf en de meeste gegevens zijn verdeeld per bedrijf.
 
@@ -60,12 +58,14 @@ Zoals u in de voorgaande afbeelding kunt zien, is deze 1:1-toewijzing tussen bed
 
 In een laatste onderwerp wordt beschreven hoe Twee keer wegschrijven bepaalt aan welk eigenaarsteam records moeten worden toegewezen. Dit gedrag wordt bepaald met het veld **Standaardeigenaarsteam** van de record cdm\_Company. Wanneer een cdm\_Company-record is ingeschakeld voor Twee keer wegschrijven, maakt een invoegtoepassing automatisch de gekoppelde bedrijfseenheid en het eigenaarsteam (als dit nog niet bestaat) en wordt het veld **Standaardeigenaarsteam** ingesteld. De beheerder kan dit veld wijzigen in een andere waarde. De beheerder kan het veld echter niet wissen zolang de entiteit is ingeschakeld voor Twee keer wegschrijven.
 
+> [!div class="mx-imgBorder"]
 ![Veld Standaardeigenaarsteam](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Bedrijfsstriping en -bootstrapping
 
 Common Data Service-integratie bewerkstelligt bedrijfspariteit door een bedrijfs-id te gebruiken om gegevens te stripen. Zoals u in de volgende afbeelding kunt zien, worden alle bedrijfsspecifieke entiteiten uitgebreid zodat ze een N:1-relatie (veel-op-één) hebben met de entiteit cdm\_Company.
 
+> [!div class="mx-imgBorder"]
 ![N:1-relatie tussen een bedrijfsspecifieke entiteit en de entiteit cdm_Company](media/dual-write-bootstrapping.png)
 
 + De waarde voor records wordt alleen-lezen nadat een bedrijf is toegevoegd en opgeslagen. Dat betekent dat gebruikers ervoor moeten zorgen dat ze het juiste bedrijf selecteren.

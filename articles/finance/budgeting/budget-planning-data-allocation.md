@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08141615e36c7bfe8b8a7984322dbb985568ee51
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177200"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772071"
 ---
 # <a name="budget-planning-data-allocation"></a>Gegevenstoewijzing voor budgetplanning
 
@@ -36,28 +36,28 @@ U kunt de gegevens in een budgetplan op verschillende manieren verspreiden om de
 ## <a name="allocation-methods"></a>Toewijzingsmethodes
 Drie toewijzingsmethoden (Toewijzen aan perioden, Toewijzen aan dimensies en Grootboektoewijzingsregels gebruiken) kunnen de budgetplanregels maken die op regels in hetzelfde budgetplan zijn gebaseerd. Drie andere methoden (Samenvoegen, Verdelen en Kopiëren uit budgetplan) kunnen budgetplanregels maken in andere budgetplannen. Voor alle zes toewijzingsmethoden geeft u het doelscenario op. Het doelscenario kan gelijk zijn aan het bronscenario of van het bronscenario verschillen. Bovendien kunt u opgeven of de nieuwe regels aan het budgetplan worden toegevoegd of de huidige regels in het budgetplan vervangen.
 
-[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+[![Toewijzingsmethode Toewijzen aan perioden](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Toewijzen aan perioden** – Een periodetoewijzingscategorie wordt gebruikt om de budgetplanregels toe te wijzen vanuit het bronbudgetplanscenario aan perioden in het doelscenario. Het bronbedrag is toegewezen aan meerdere regels in het doelscenario, op basis van het percentage en de datum die zijn opgegeven in de periodetoewijzingscategorie.         
 
-[![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
+[![Toewijzingsmethode Toewijzen aan dimensies](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Toewijzen aan dimensies** – De budgetplanregels worden toegewezen van het bronbudgetplanningsscenario aan een of meer regels in het doelscenario, op basis van de percentages en financiële dimensies die in een geselecteerde budgettoewijzingstermijn worden gedefinieerd.           
 
-![AggregateChart](./media/aggregatechart-300x230.png)
+![Samenvoegingsgrafiek](./media/aggregatechart-300x230.png)
 **Samenvoegen** - De budgetplanregels worden samengevoegd vanuit het bronbudgetplanscenario in de gekoppelde (onderliggende) budgetplannen met het doelscenario in het bovenliggende budgetplan. Dankzij deze methode kunnen budgetbedragen die op een lager niveau in de organisatie zijn voorbereid op een hoger niveau worden geconsolideerd.          
 
-[![DistributeChart](./media/distributechart-300x230.png)](./media/distributechart.png)
+[![Verdelingsgrafiek](./media/distributechart-300x230.png)](./media/distributechart.png)
 **Verdelen** – De budgetplanregels worden verdeeld van het bronbudgetplanningsscenario in het bovenliggende budgetplan naar het doelscenario in de gekoppelde (onderliggende) budgetplannen, op basis van de financiële dimensies van de organisatie-eenheden van de gekoppelde plannen. Dankzij deze methode kunnen budgetbedragen die op een hoger niveau in de organisatie zijn voorbereid worden verdeeld voor meer gelokaliseerde controle.           
 
-[![LedgerAllocationRules](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
+[![Grootboektoewijzingsregels](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
 **Grootboektoewijzingsregels gebruiken** - De budgetplanregels worden verdeeld vanuit het bronbudgetplanningsscenario naar het doelscenario, op basis van de grootboektoewijzingsregel die is geselecteerd. 
 
-[![CopyFromBudgetPlan](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
+[![Kopiëren uit budgetplan](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
 **Kopiëren uit budgetplan** – Zoals in de toewijzingsmethode Verdelen, worden de budgetplanregels gemaakt in het doel, op basis van regels in een gerelateerd budgetplan. Voor deze rapportagemethode moet het bronbudgetplan echter geen bovenliggende zijn maar kan deze zich op elk hoger niveau in de budgetplanhiërarchie bevinden. Deze toewijzingsmethode is handig als de geconsolideerde bedragen oorspronkelijk op een veel hoger niveau worden gebudgetteerd, en moeten worden overgebracht naar een lager niveau van de organisatie voor gedetailleerde controle en correctie voordat deze goedkeuring op het hoogste niveau kunnen ontvangen.          
 
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>Gebruik van toewijzingsmethoden in een budgetplan
 Om toewijzingen uit te voeren op de pagina van het budgetplan, selecteert u de regels die u wilt toewijzen en klikt u vervolgens op **Budget toewijzen**.
 
-[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
+[![Knop Budget toewijzen](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
 Selecteer vervolgens een toewijzingsmethode. De resterende velden worden vervolgens ingesteld, op basis van de methode die u hebt geselecteerd. Deze velden bevatten de bron en het doel van de gegevens van het budgetplan en een optie waarmee u de bron met een bepaalde factor kunt vermenigvuldigen wanneer de doelbedragen zijn gemaakt, om bulkcorrectie te vereenvoudigen. U kunt ook de optie **Toevoegen aan plan** instellen. Selecteer **Nee** om de bestaande budgetplanregels te vervangen of selecteer **Ja** om de bestaande budgetplanregels te behouden en nieuwe regels toe te voegen voor de toegewezen bedragen.
 
@@ -70,7 +70,7 @@ Maak vervolgens een fasetoewijzing op de pagina **Configuratie budgetplanning**.
 
 Voeg tot slot een geautomatiseerde taak toe voor de toewijzing van de budgetplanningsfase op de gewenste workflowfase. In het volgende voorbeeld zijn twee toewijzingen van de budgetplanningsfase (in rood aangegeven) ingevoegd in de workflow.
 
-[![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+[![Toewijzingen voor budgetplanningfase](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
 
 
 

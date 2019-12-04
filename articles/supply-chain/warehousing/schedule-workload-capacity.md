@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d5d878b0fe4e6b65aa2439d7ef7312eda1895823
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559022"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814922"
 ---
 # <a name="schedule-workload-capacity"></a>Werkbelastingcapaciteit plannen
 
@@ -30,7 +30,7 @@ ms.locfileid: "1559022"
 
 U kunt de werkbelastingcapaciteit voor magazijnen plannen, en tevens kunt u de huidige en toekomstige werkbelasting voor de werknemers in individuele magazijnen voorstellen. U kunt de werkbelasting voor het hele magazijn opstellen of u kunt de werkbelasting apart voor inkomende en uitgaande werkbelasting opstellen.
 
-Om de werkbelastingsuitvoer voor geselecteerde magazijnen te voorspellen, moeten de hoofdplanningsgegevens beschikbaar zijn voor die magazijnen. Zie voor meer informatie [Hoofdplannen](../master-planning/master-plans.md).
+Om de werkbelastingsuitvoer voor geselecteerde magazijnen te voorspellen, moeten de hoofdplanningsgegevens beschikbaar zijn voor die magazijnen. Zie voor meer informatie [Overzicht van Hoofdplannen](../master-planning/master-plans.md).
 
 ## <a name="schedule-and-view-workloads-for-a-warehouse"></a>Planning en weergave werklast voor een magazijn
 

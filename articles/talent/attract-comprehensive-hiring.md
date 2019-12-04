@@ -1,5 +1,5 @@
 ---
-title: Welke versie van Microsoft Dynamics 365 Talent - Attract
+title: Een versie van Attract kiezen
 description: Dit onderwerp bevat informatie over de mogelijkheden van de verschillende versies van Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 54f206aed196be5bbfa0de5b632f20519c2680ea
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 701ce0d710c20deb793534581c276edf02426a4b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550431"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833156"
 ---
-# <a name="which-version-of-microsoft-dynamics-365-talent---attract"></a>Welke versie van Microsoft Dynamics 365 Talent - Attract
+# <a name="choose-a-version-of-attract"></a>Een versie van Attract kiezen
 
-[!include[banner](../includes/banner.md)]
+[[!include [banner](includes/banner.md)]
 
 Welke versie van Microsoft Dynamics 365 Talent: Attract de juiste is voor u, is afhankelijk van de grootte en behoeften van uw organisatie. De basisversie van Attract biedt een subset van functionaliteit die is gericht op kleinere teams of organisaties waarin de aanstellende manager de primaire gebruiker is. U kunt beginnen met het gebruik van de basisversie van Attract met een of meer licenties.
 

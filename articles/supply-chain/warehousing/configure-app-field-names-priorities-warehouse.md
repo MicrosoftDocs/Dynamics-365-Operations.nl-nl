@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251080"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814968"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Veldnamen in magazijnapp configureren
 
@@ -32,7 +32,8 @@ ms.locfileid: "2251080"
 
 In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 Supply Chain Management. 
 
-**Opmerking:** dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren en hoe ze worden gebruikt in Magazijnbeheer. Raadpleeg voor gedetailleerde informatie over het configureren van de verbinding met Magazijnbeheer, de zelfstudie [Magazijnbeheer installeren en configureren](install-configure-warehousing-app.md).
+> [!NOTE]
+> Dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren en hoe ze worden gebruikt in Magazijnbeheer. Raadpleeg de zelfstudie [Overzicht van de Magazijnbeheer-app installeren en configureren](install-configure-warehousing-app.md) voor gedetailleerde informatie over het configureren van de verbinding met Magazijnbeheer.
 
 ## <a name="configure-warehouse-app-field-names"></a>Veldnamen van magazijnapp configureren
 
@@ -139,7 +140,7 @@ Op basis van de instellingen van de veldprioriteit van de magazijnapp in de bove
 
 De resterende metagegevens, bijvoorbeeld Locatie, worden niet weergegeven op de taakpagina, maar worden op een detailpagina weergegeven. Raadpleeg voor meer informatie en voorbeelden van de gebruikersinterface het blogbericht [Finance and Operations - Magazijnbeheer aankondigen](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-<a name="additional-resources"></a>Aanvullende bronnen
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Microsoft Dynamics 365 for Finance and Operations – Magazijnbeheer installeren en configureren](install-configure-warehousing-app.md)
+[Overzicht van de Magazijnbeheer-app installeren en configureren](install-configure-warehousing-app.md)

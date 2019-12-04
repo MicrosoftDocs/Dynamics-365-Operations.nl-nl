@@ -1,5 +1,5 @@
 ---
-title: E-mailsjablonen
+title: E-mailsjablonen maken in Attract
 description: Dit onderwerp bevat informatie over de e-mailsjablonen die u kunt maken en gebruiken in Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008031"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832879"
 ---
-# <a name="email-templates"></a>E-mailsjablonen
-[!include[banner](../includes/banner.md)]
+# <a name="create-email-templates-in-attract"></a>E-mailsjablonen maken in Attract
+
+[!include [banner](includes/banner.md)]
 
 Met behulp van de e-mailsjabloonbibliotheek kunnen beheerders een uniform thema en merkherkenning maken voor alle e-mails die worden verzonden via Microsoft Dynamics 365 Talent: Attract en Offer. Beheerders kunnen ook een verzameling e-mailinhoudssjablonen samenstellen die andere gebruikers kunnen gebruiken. Het aanstellend team kan deze sjablonen gebruiken in hun werkstroom om e-mails efficiënter te verzenden. Sommige e-mailberichten zijn geconfigureerd om automatisch te worden verzonden en de beheerder kan de e-mailsjabloonbibliotheek gebruiken om de inhoud van die e-mails aan te passen.
 

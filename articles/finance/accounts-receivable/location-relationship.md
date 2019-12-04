@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a4945f47c86d490f40a6b00cb823e6a6005e0ee4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550504"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770891"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Locatie en partijrelatietypen toevoegen 
 
@@ -41,7 +41,7 @@ Er zijn twee manieren voor het toevoegen van nieuwe locatierollen voor adres- en
 
     1.  Maak een extensie van de opsomming **LogisticsLocationRoleType** en voeg de nieuwe rol in de extensie toe. 
   
-        ![LogisticsLocationRoleType](media/Logistics.PNG)
+        ![Extensie voor opsomming LogisticsLocationRoleType](media/Logistics.PNG)
 
     2. Maak een nieuw resourcebestand voor de nieuwe rol en wijs een waarde toe voor de eigenschappen ervan.
      
@@ -69,7 +69,7 @@ Er zijn twee manieren om een nieuw relatietype toe te voegen:
 
     2. Maak een initialisatiefunctie voor dit nieuwe type. U vindt enkele voorbeelden in de kerncode. Een ervan is **DirRelationshipTypeChildInitialize**. Dit is een initialisatieklasse voor partijrelatietype 'Onderliggend'. U kunt beginnen met uw initialisatiefunctie door deze code te kopiëren en te plakken en vervolgens de gemarkeerde gebieden bij te werken.
     
-    ![DirRelationshipChild](media/DirRelationship.PNG)
+    ![Initialisatiefunctie DirRelationshipChild](media/DirRelationship.PNG)
 
     3.  Als u het vullen van het nieuwe relatietype wilt testen, kunt u een uitvoerbare klasse maken en DirDataPopulation::insertDirRelationshipTypes() in Main() aanroepen. U ziet nu het nieuwe relatietype in de **DirRelationshipTypeTable** en het nieuwe relatietype zal beschikbaar zijn op de pagina **Relatietypen**.
 

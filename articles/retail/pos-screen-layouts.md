@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025262"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811775"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Schermindelingen voor het verkooppunt (POS)
 
@@ -171,7 +171,7 @@ In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kun
 
     - **Actie**: selecteer in de lijst met relevante POS-bewerkingen de bewerking die wordt geactiveerd als op de knop wordt geklikt in het POS.
 
-        Zie [POS-bewerkingen, online en offline](pos-operations.md) voor een overzicht van ondersteunde POS-bewerkingen.
+        Zie [Online en offline verkooppuntbewerkingen (POS)](pos-operations.md) voor een overzicht van ondersteunde POS-bewerkingen.
 
     - **Actieparameters**: voor sommige POS-bewerkingen worden aanvullende parameters gebruikt wanneer ze worden aangeroepen. Gebruikers kunnen voor de bewerking Product toevoegen bijvoorbeeld opgeven welk product moet worden toegevoegd.
     - **Knoptekst**: geef de tekst op die moet worden weergegeven op de knop in het POS.
@@ -193,4 +193,4 @@ In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kun
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[De Retail POS-indelingsontwerper installeren](install-pos-layout-designer.md)
+[De indelingsontwerper voor Retail-verkooppunten (POS) installeren](install-pos-layout-designer.md)

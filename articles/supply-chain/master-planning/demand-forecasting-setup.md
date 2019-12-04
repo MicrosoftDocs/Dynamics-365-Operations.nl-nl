@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653506"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813794"
 ---
 # <a name="demand-forecasting-setup"></a>Instelling van vraagprognose
 
@@ -70,7 +70,8 @@ Om de prognose te maken, gebruikt Supply Chain Management een Machine Learning-w
 -   Azure-naam van opslagaccount
 -   Azure-sleutel van opslagaccount
 
-**Opmerking:** De Azure-opslagaccountnaam en sleutel zijn alleen vereist wanneer u een aangepast opslagaccount gebruikt. Als u de on-premises versie gebruikt, moet u een aangepaste opslagaccount bij Azure hebben, zodat de Machine Learning-service toegang heeft tot de historische gegevens. 
+> [!NOTE]
+> De Azure-opslagaccountnaam en sleutel zijn alleen vereist wanneer u een aangepast opslagaccount gebruikt. Als u de on-premises versie gebruikt, moet u een aangepaste opslagaccount bij Azure hebben, zodat de Machine Learning-service toegang heeft tot de historische gegevens. 
 
 Om vraagvoorspellingen te maken, kunt u uw eigen service implementeren door Machine Learning Studio te gebruiken of de vraagprognose-experimenten van Supply Chain Management. Instructies voor het implementeren van de vraagprognose-experimenten als een webservice, zijn beschikbaar in Supply Chain Management. Op de pagina **Parameters voor vraagprognose** klikt u op het tabblad **Azure Machine Learning**.
 
@@ -93,9 +94,9 @@ Op het tabblad **Toewijzingssleutels** kunt u de **Parameters van prognosealgori
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Inleiding op vraagprognoses](introduction-demand-forecasting.md)
+[Overzicht van Vraagprognose](introduction-demand-forecasting.md)
 
-[Statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
+[Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
 
 [Handmatige correcties aanbrengen in de basislijnprognose](manual-adjustments-baseline-forecast.md)
 

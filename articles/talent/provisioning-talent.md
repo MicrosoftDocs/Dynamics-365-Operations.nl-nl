@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 2bb5dd5e29559807e40b66ad7f9c061bf510ed67
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba0d11efe868d57c74f6ae4b069d1cb8351f7213
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026136"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773052"
 ---
 # <a name="provision-talent"></a>Talent inrichten
 
@@ -49,12 +49,12 @@ Nadat u een LCS-project hebt gemaakt, kunt u Talent inrichten in een omgeving.
 1. Selecteer in uw LCS-project de tegel **Beheer Talent-app**.
 2. Geef aan of dit een sandbox- of productie-exemplaar van Talent is. Vroege previewfuncties kunnen beschikbaar zijn in sandbox-exemplaren om in een vroeg stadium feedback te krijgen en tests uit te voeren. 
     > [!NOTE]
-    > Het type Talent-exemplaar staat los van het exemplaartype van de PowerApps-omgeving die u instelt in het PowerApps-beheercentrum.
+    > Het type Talent-exemplaar staat los van het exemplaartype van de Microsoft Power Apps-omgeving die u instelt in het Power Apps-beheercentrum.
 3. Selecteer de optie **Demonstratiegegevens opnemen** als u wilt dat in uw omgeving dezelfde demogegevensset wordt opgenomen die is gebruikt in de ervaring Talent-testdrive. Dit is nuttig voor de langetermijndemo of -trainingsomgevingen en mag nooit worden gebruikt voor productieomgevingen.  Houd er rekening mee dat u deze optie bij de aanvankelijke implementatie moet kiezen. U kunt een bestaande implementatie niet later bijwerken.
-4. Talent wordt altijd ingericht in een Microsoft PowerApps-omgeving om de PowerApps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie “Een PowerApps-omgeving selecteren“ in dit onderwerp voordat u doorgaat. Als u nog geen PowerApps-omgeving hebt, selecteert u Omgevingen beheren in LCS of gaat u naar het PowerApps-beheercentrum. Volg daarna de stappen voor [Een PowerApps-omgeving maken](https://docs.microsoft.com/powerapps/administrator/create-environment).
+4. Talent wordt altijd ingericht in een Microsoft Power Apps-omgeving om de Power Apps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie “Een Power Apps-omgeving selecteren“ in dit onderwerp voordat u doorgaat. Als u nog geen Power Apps-omgeving hebt, selecteert u Omgevingen beheren in LCS of gaat u naar het Power Apps-beheercentrum. Volg daarna de stappen voor [Een Power Apps-omgeving maken](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
     > [!NOTE]
-    > Om bestaande omgevingen weer te geven of nieuwe omgevingen te maken, moet de tenantbeheerder die Talent inricht, worden toegewezen aan de PowerApps P2-licentie. Als uw organisatie geen PowerApps P2-licentie heeft, kunt u er een krijgen van uw provider van cloudoplossingen of downloaden via de [pagina met PowerApps-prijzen](https://powerapps.microsoft.com/pricing/).
+    > Om bestaande omgevingen weer te geven of nieuwe omgevingen te maken, moet de tenantbeheerder die Talent inricht, worden toegewezen aan de Power Apps P2-licentie. Als uw organisatie geen Power Apps P2-licentie heeft, kunt u er een krijgen van uw provider van cloudoplossingen of downloaden via de [pagina met Power Apps-prijzen](https://powerapps.microsoft.com/pricing/).
 
 5. Selecteer de omgeving waarin Talent moet worden ingericht.
 6. Selecteer **Ja** om akkoord te gaan met de voorwaarden en te beginnen met implementeren.
@@ -68,19 +68,19 @@ Nadat u een LCS-project hebt gemaakt, kunt u Talent inrichten in een omgeving.
 
     > Omdat er slechts twee LCS-omgevingen zijn toegestaan als onderdeel van het Talent-abonnement, kunt u ook overwegen gebruik te maken van gratis 60 dagen [Talent-proefomgeving](https://dynamics.microsoft.com/talent/overview/). Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor HR Core. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Ze zijn niet bedoeld als productieomgevingen. Wanneer een proefomgeving na 60 dagen verloopt, worden alle gegevens erin permanent verwijderd. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
 
-## <a name="select-a-powerapps-environment"></a>Een PowerApps-omgeving selecteren
+## <a name="select-a-power-apps-environment"></a>Een Power Apps-omgeving selecteren
 
-Dankzij de integratie tussen Talent en de PowerApps-omgevingen kunt u Talent-gegevens integreren en het gebruik ervan uitbreiden met PowerApps-tools. Informatie over dat het doel van PowerApps-omgevingen helpt niet alleen bij het maken van toepassingen om Talent uit te breiden, maar ook bij het selecteren van de juiste omgeving voor Talent. Zie voor meer informatie over PowerApps-omgevingen, inclusief het omgevingsbereik, omgevingstoegang en het maken en kiezen van een omgeving [Aankondiging van PowerApps-omgevingen](https://powerapps.microsoft.com/blog/powerapps-environments/). 
+Dankzij de integratie tussen Talent en de Power Apps-omgevingen kunt u Talent-gegevens integreren en het gebruik ervan uitbreiden met Power Apps-tools. Informatie over dat het doel van Power Apps-omgevingen helpt niet alleen bij het maken van toepassingen om Talent uit te breiden, maar ook bij het selecteren van de juiste omgeving voor Talent. Zie voor meer informatie over Power Apps-omgevingen, inclusief het omgevingsbereik, omgevingstoegang en het maken en kiezen van een omgeving [Aankondiging van Power Apps-omgevingen](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
-Gebruik de volgende richtlijnen bij het bepalen in welke PowerApps-omgeving u Talent wilt implementeren: 
+Gebruik de volgende richtlijnen bij het bepalen in welke Power Apps-omgeving u Talent wilt implementeren: 
 
-1. Selecteer in LCS **Omgevingen beheren** of ga rechtstreeks naar het PowerApps-beheercentrum waar u bestaande omgevingen weergeeft en nieuwe omgevingen maakt.
-2. Eén Talent-omgeving wordt toegewezen aan één PowerApps-omgeving.
-3. Een PowerApps-omgeving bevat de toepassing Talent samen met de bijbehorende PowerApps-, Flow- en Common Data Service-toepassingen. Als de PowerApps-omgeving wordt verwijderd, worden ook de toepassingen erin gewist. Tijdens het inrichten van een Talent-omgeving kunt u een omgeving **Proef** of **Productie** inrichten. Kies het type omgeving op basis van hoe de omgeving wordt gebruikt. 
-4. Gegevensintegratie en teststrategieën moeten worden overwogen, zoals Sandbox, UAT of Productie. Het is raadzaam dat u rekening houdt met de verschillende gevolgen voor uw implementatie, aangezien de toewijzing van een Talent-omgeving aan een PowerApps-omgeving later niet eenvoudig te wijzigen is.
-5. De volgende PowerApps-omgevingen kunnen niet worden gebruikt voor Talent en worden gefilterd in de selectielijst binnen LCS:
+1. Selecteer in LCS **Omgevingen beheren** of ga rechtstreeks naar het Power Apps-beheercentrum waar u bestaande omgevingen weergeeft en nieuwe omgevingen maakt.
+2. Eén Talent-omgeving wordt toegewezen aan één Power Apps-omgeving.
+3. Een Power Apps-omgeving bevat de toepassing Talent samen met de bijbehorende Power Apps-, Power Automate- en Common Data Service-toepassingen. Als de Power Apps-omgeving wordt verwijderd, worden ook de toepassingen erin gewist. Tijdens het inrichten van een Talent-omgeving kunt u een omgeving **Proef** of **Productie** inrichten. Kies het type omgeving op basis van hoe de omgeving wordt gebruikt. 
+4. Gegevensintegratie en teststrategieën moeten worden overwogen, zoals Sandbox, UAT of Productie. Het is raadzaam dat u rekening houdt met de verschillende gevolgen voor uw implementatie, aangezien de toewijzing van een Talent-omgeving aan een Power Apps-omgeving later niet eenvoudig te wijzigen is.
+5. De volgende Power Apps-omgevingen kunnen niet worden gebruikt voor Talent en worden gefilterd in de selectielijst binnen LCS:
  
-    - **Standaard PowerApps-omgevingen**: hoewel elke tenant automatisch een standaard PowerApps-omgeving heeft, wordt gebruik niet aanbevolen met Talent omdat alle tenantgebruikers toegang hebben tot de PowerApps-omgeving. Ze kunnen bij het testen en verkennen van de PowerApps- of Flow-integraties per ongeluk productiegegevens beschadigen.
+    - **Standaard Power Apps-omgevingen**: hoewel elke tenant automatisch een standaard Power Apps-omgeving heeft, wordt gebruik niet aanbevolen met Talent omdat alle tenantgebruikers toegang hebben tot de Power Apps-omgeving. Ze kunnen bij het testen en verkennen van de Power Apps- of Power Automate-integraties per ongeluk productiegegevens beschadigen.
    
     - **Proefomgevingen**: deze omgevingen worden gemaakt met een vervaldatum en verlopen na die tijd, waardoor uw omgeving en alle Talent-exemplaren in de omgeving automatisch worden verwijderd.
    

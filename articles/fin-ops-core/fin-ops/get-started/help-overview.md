@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537827"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811667"
 ---
 # <a name="help-system"></a>Help-systeem
 
@@ -82,7 +82,7 @@ Raadpleeg voor meer informatie onze [handleiding voor bijdragers](https://docs.m
 
 Een taakbegeleiding is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. U kunt een taakbegeleiding openen (afspelen) via het deelvenster Help. Wanneer u eerst op een taakbegeleiding klikt, worden in het deelvenster Help de stapsgewijze instructies voor de taak weergegeven. Gelokaliseerde taakbegeleidingen zijn beschikbaar.
 
-Door Microsoft geleverde taakbegeleiderbibliotheken voor releases tot en met december 2017 voor Dynamics 365 for Finance and Operations. In de sectie [Taakbegeleiders openen via het deelvenster Help](help-overview.md#accessing-task-guides-from-the-help-pane) wordt beschreven hoe u de juiste taakbegeleiders voor uw product vindt.
+Door Microsoft geleverde taakbegeleiderbibliotheken voor releases tot en met december 2017 voor Dynamics 365 for Finance and Operations. In de sectie [Help-systeem](help-overview.md#accessing-task-guides-from-the-help-pane) wordt beschreven hoe u de juiste taakbegeleiders voor uw product vindt.
 
 ![Leesweergave van taakbegeleiding](./media/task-guide-ops.png)
 
@@ -93,7 +93,7 @@ U kunt met de interactieve taakbegeleiding beginnen door op **Taakbegeleiding st
 > [!IMPORTANT]
 > De gegevens die u invoert wanneer u een taakbegeleider afspeelt, zijn echt. Als u in een productieomgeving bent, worden de gegevens ingevoerd in het bedrijf dat u momenteel gebruikt.
 
-U kunt Taakregistratie gebruiken om uw eigen aangepaste taakbegeleiders te maken. Zie [Documentatie of trainingen maken via taakregistraties](../../dev-itpro/user-interface/task-recorder-training-docs.md) voor meer informatie.
+U kunt Taakregistratie gebruiken om uw eigen aangepaste taakbegeleiders te maken. Zie [Documentatie of training maken met Taakrecorder](../../dev-itpro/user-interface/task-recorder-training-docs.md) voor meer informatie.
 
 ## <a name="in-product-help"></a>Help in het product
 
@@ -144,13 +144,12 @@ Vertaalde taakbegeleidingen worden vrijgegeven in bibliotheken waarvan de titel 
 
 U kunt Help-informatie voor uw gebruikers maken door aangepaste taakbegeleiders te maken of uw eigen website te verbinden met het Help-venster. Zie voor meer informatie:
 
-- [Een taakregistratie voor een documentatie of training maken](../../dev-itpro/user-interface/task-recorder.md).
+- [Resources voor Taakrecorder](../../dev-itpro/user-interface/task-recorder.md).
 - [Aangepaste Help maken (whitepaper)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-- [Taakregistratie](../../dev-itpro/user-interface/task-recorder.md)
-- [Documentatie of trainingen maken met taakregistraties](../../dev-itpro/user-interface/task-recorder.md)
+- [Resources voor Taakrecorder](../../dev-itpro/user-interface/task-recorder.md)
 
 In de volgende tabel worden onze websites weergegeven. Sites die een sterretje (\*) naast de naam hebben, vereisen dat u zich aanmeldt via een account die aan een serviceplan is gekoppeld.
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865323"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813541"
 ---
 # <a name="product-lifecycle-state-overview"></a>Overzicht van Levenscyclusstatus van producten
 
@@ -107,9 +107,9 @@ Gebruik de volgende criteria voor het selecteren en bijwerken van de vrijgegeven
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
--  [Een nieuwe status van productlevenscyclus maken (taakbegeleiding)](tasks/new-product-lifecycle-state.md)
--  [Een standaardstatus van productlevenscyclus maken (taakbegeleiding)](tasks/default-product-lifecycle-state.md)
--  [De status van een productlevenscyclus toewijzen aan een vrijgegeven productmodel (taakbegeleiding)](tasks/product-lifecycle-state-released-product-master.md)
--  [De status van een productlevenscyclus toewijzen aan een vrijgegeven product (taakbegeleiding)](tasks/product-lifecycle-state-released-product.md)
--  [Verouderde productvarianten zoeken en een status voor de productlevenscyclus toewijzen (taakbegeleiding)](tasks/obsolete-product-variants.md)
--  [Een status voor de productlevenscyclus maken om producten uit te sluiten van Hoofdplanning (taakbegeleiding)](tasks/exclude-products-master-planning.md)
+-  [Nieuwe status van levenscyclus van producten maken](tasks/new-product-lifecycle-state.md)
+-  [Standaardstatus van levenscyclus van producten maken](tasks/default-product-lifecycle-state.md)
+-  [De status van een productlevenscyclus toewijzen aan een vrijgegeven productmodel](tasks/product-lifecycle-state-released-product-master.md)
+-  [De status van een productlevenscyclus toewijzen aan een vrijgegeven product](tasks/product-lifecycle-state-released-product.md)
+-  [Verouderde productvarianten zoeken en een status voor de productlevenscyclus toewijzen](tasks/obsolete-product-variants.md)
+-  [Een status voor de productlevenscyclus maken om producten uit te sluiten van Hoofdplanning](tasks/exclude-products-master-planning.md)

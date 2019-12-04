@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0714314b68651e4b96f83d1073c4e35f5b27b013
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551628"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771794"
 ---
 # <a name="general-ledger-and-financial-reporting-overview"></a>Overzicht van Grootboek en Financiële rapportage
 
@@ -51,11 +51,11 @@ Bovendien moeten de regels periodiek worden bijgewerkt wanneer de belastingdiens
  - [Btw-betalingen en afrondingsregels](round-sales-tax-payments.md)
 
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
-Ga naar [Microsoft Dynamics 365-releaseopmerkingen](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies zijn gepland. 
+Lees de [releaseplannen voor Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
 
 #### <a name="blogs"></a>Weblogs
 

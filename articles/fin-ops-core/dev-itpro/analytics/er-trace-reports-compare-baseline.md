@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1643e7fb3128faf6ad638d4cdad313b3667463b1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181675"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771232"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Gegenereerde rapportresultaten traceren en vergelijken met basislijnwaarden
 
@@ -44,10 +44,10 @@ Voor meer informatie over deze functie speelt u de taakbegeleidingen **ER-rappor
 
 In deze procedure wordt uitgelegd hoe u het ER-Framework kunt configureren voor het verzamelen van informatie over de uitvoering van ER-indelingen en vervolgens de resultaten van die uitvoeringen kunt evalueren. Als onderdeel van deze evaluatie worden gegenereerde documenten vergeleken met hun basislijnbestanden. In dit voorbeeld maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf, Litware, Inc. Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektronische aangifteontwikkelaar. Deze stappen kunnen worden voltooid met elke dataset.
 
-Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen voltooien in [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen voltooien in [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
-2. Controleer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. wordt vermeld en of het is gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooit u de stappen in [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Controleer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. wordt vermeld en of het is gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooit u de stappen in [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ### <a name="configure-document-management-parameters"></a>Parameters voor documentbeheer configureren
 
@@ -55,7 +55,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen
 2. Geef in het veld **Klasse** de tekst **Bestand bijvoegen** op.
 3. Geef in het veld **Groep** de tekst **Bestand** op.
 
-![De pagina Documenttypen](media/GER-BaselineSample-SetupDocumentType.PNG "Schermafbeelding van de pagina Documenttypen")
+![Pagina Documenttypen](media/GER-BaselineSample-SetupDocumentType.PNG "Schermafbeelding van de pagina Documenttypen")
 
 > [!NOTE]
 > Een nieuw documenttype met dezelfde naam moet worden geconfigureerd voor elke gegevensset waarvoor u de ER-basislijnfunctie wilt gebruiken.
@@ -64,7 +64,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen
 
 1. Selecteer in het werkgebied **Elektronische rapportage** in de sectie **Verwante koppelingen** de optie **Parameters van elektronische rapportage**.
 
-    ![Het werkgebied Elektronische rapportage](media/GER-BaselineSample-ERWorkspace.PNG "Schermafbeelding van het werkgebied Elektronische rapportage")
+    ![Werkgebied voor elektronische rapportage](media/GER-BaselineSample-ERWorkspace.PNG "Schermafbeelding van het werkgebied Elektronische rapportage")
 
 2. Typ of selecteer op het tabblad **Bijlagen** in het veld **Basislijn** het documenttype dat u zojuist hebt gemaakt.
 
@@ -93,7 +93,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen
 8. Selecteer **Status wijzigen**.
 9. Selecteer **Voltooid** en vervolgens **OK**.
 
-![De pagina Configuraties](media/GER-BaselineSample-ModelComplete.PNG "Schermafbeelding van de pagina Configuraties")
+![Pagina Configuraties](media/GER-BaselineSample-ModelComplete.PNG "Schermafbeelding van de pagina Configuraties")
 
 ### <a name="add-a-new-er-format-configuration"></a>Een nieuwe ER-indelingsconfiguratie toevoegen
 
@@ -131,7 +131,7 @@ In dit voorbeeld maakt u een eenvoudige ER-indeling voor het genereren van XML-d
     2. Geef in het veld **Naam** de tekst **Id** op.
     3. Selecteer **OK**.
 
-    ![De pagina Indelingsontwerper](media/GER-BaselineSample-FormatLayoutDesign.PNG "Schermafbeelding van de pagina Indelingsontwerper")
+    ![Pagina Indelingsontwerper](media/GER-BaselineSample-FormatLayoutDesign.PNG "Schermafbeelding van de pagina Indelingsontwerper")
 
 8. Selecteer op het tabblad **Toewijzing** de optie **Verwijderen**.
 9. Selecteer **Basis toevoegen**.
@@ -144,7 +144,7 @@ In dit voorbeeld maakt u een eenvoudige ER-indeling voor het genereren van XML-d
 11. Select **Uitvoer\\Document\\Id** in de structuur.
 12. Selecteer **Binden** en vervolgens **Opslaan**.
 
-![De pagina Indelingsontwerper](media/GER-BaselineSample-FormatMappingDesign.PNG "Schermafbeelding van de pagina Indelingsontwerper")
+![Pagina Indelingsontwerper](media/GER-BaselineSample-FormatMappingDesign.PNG "Schermafbeelding van de pagina Indelingsontwerper")
 
 Op basis van de ontworpen structuur genereert de geconfigureerde indeling een XML-bestand. Deze XML bevat het element **Basis** met het kenmerk **Id** dat is ingesteld op de waarde die de gebruiker invoert in het dialoogvenster ER-runtime.
 
@@ -154,7 +154,7 @@ Op basis van de ontworpen structuur genereert de geconfigureerde indeling een XM
 2. Geef in het veld **Id opgeven** het cijfer **1** op.
 3. Selecteer **OK**.
 
-    ![Het dialoogvenster Parameters elektronisch rapport](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Schermafbeelding van het dialoogvenster Parameters elektronisch rapport")
+    ![Dialoogvenster Parameters elektronisch rapport](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Schermafbeelding van het dialoogvenster Parameters elektronisch rapport")
 
 4. Sla een lokale kopie op van het gegenereerde bestand **out.Admin.xml**, zodat u het later kunt gebruiken als basislijn voor deze ER-indeling.
 
@@ -166,7 +166,7 @@ Op basis van de ontworpen structuur genereert de geconfigureerde indeling een XM
 2. Stel de optie **Uitvoeren in foutoplossingsmodus** in op **Ja**.
 3. Selecteer **OK**.
 
-![Het dialoogvenster Gebruikersparameters](media/GER-BaselineSample-ERUserParameters.PNG "Schermafbeelding van het dialoogvenster Gebruikersparameters")
+![Dialoogvenster voor gebruikersparameters](media/GER-BaselineSample-ERUserParameters.PNG "Schermafbeelding van het dialoogvenster Gebruikersparameters")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Een nieuwe basislijn voor een ontworpen ER-indeling toevoegen
 
@@ -215,7 +215,7 @@ De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basi
 5. Selecteer **OK**.
 6. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Foutopsporingslogboeken voor configuraties**.
 
-    ![De pagina Uitvoeringslogboeken voor elektronische rapportage](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Schermafbeelding van de pagina Uitvoeringslogboeken voor elektronische rapportage")
+    ![Pagina Elektronische uitvoeringslogboeken](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Schermafbeelding van de pagina Uitvoeringslogboeken voor elektronische rapportage")
 
     > [!NOTE]
     > Het uitvoeringslogboek bevat informatie over de resultaten van de vergelijking van het gegenereerde bestand met de geconfigureerde basislijn. In dit voorbeeld geeft het logboek aan dat het gegenereerde bestand en de basislijn gelijk zijn.
@@ -231,7 +231,7 @@ De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basi
 5. Selecteer **OK**.
 6. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Foutopsporingslogboeken voor configuraties**.
 
-    ![De pagina Uitvoeringslogboeken voor elektronische rapportage](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Schermafbeelding van de pagina Uitvoeringslogboeken voor elektronische rapportage")
+    ![Pagina Elektronische uitvoeringslogboeken](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Schermafbeelding van de pagina Uitvoeringslogboeken voor elektronische rapportage")
 
     > [!NOTE]
     > Het uitvoeringslogboek bevat informatie over de resultaten van de vergelijking van het gegenereerde bestand met de geconfigureerde basislijn. In dit voorbeeld geeft het logboek aan dat het gegenereerde bestand en de basislijn niet gelijk zijn.
@@ -243,4 +243,4 @@ De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basi
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-- [ER-raamwerk configureren](electronic-reporting-er-configure-parameters.md)
+- [Raamwerk elektronische rapportage (ER) configureren](electronic-reporting-er-configure-parameters.md)

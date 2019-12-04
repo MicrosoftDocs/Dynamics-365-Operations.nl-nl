@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07774e607abc90951c27100e749645d8a476b6a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79329b60f0aa7ce196b55a1483b07f8b9ea7e3cf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175357"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771700"
 ---
 # <a name="view-journal-entries-and-transactions"></a>Journaalboekingen en transacties weergeven
 
@@ -56,8 +56,8 @@ Naast de financiële rapporten kunt u de volgende grootboekrapporten gebruiken o
 ## <a name="additional-resources"></a>Aanvullende resources
 - [Grootboekrekeningsaldi](general-ledger-account-balances.md) 
 - [Bronverkenner voor boekhouding](../accounts-payable/accounting-source-explorer.md)
-- [Financiële rapportage](financial-reporting-getting-started.md)
-- [Journaalboekingen weergeven](tasks/view-journal-entries-or-transactions.md)
+- [Overzicht van Financiële rapportage](financial-reporting-getting-started.md)
+- [Journaalboekingen of transacties weergeven](tasks/view-journal-entries-or-transactions.md)
 
 
 

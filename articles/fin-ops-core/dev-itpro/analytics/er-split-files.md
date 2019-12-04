@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: cde95430022d94c42bdd985b5e4a8f9f5147d000
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 804878150f035adc051e89ec6be44457ad58e87e
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181353"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771186"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
 
@@ -45,6 +45,6 @@ Voor meer informatie over deze functie speelt u de taakbegeleiding **ER gesplits
 - [ER-indelingsconfiguratie - XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 
 ## <a name="additional-resources"></a>Aanvullende resources
-[Bestemmingen van elektronische rapportage](electronic-reporting-destinations.md)
+[Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 
-[Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md)
+[Formuleontwerper in elektronische rapportage (ER)](general-electronic-reporting-formula-designer.md)

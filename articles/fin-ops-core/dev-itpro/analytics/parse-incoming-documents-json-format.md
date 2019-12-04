@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 92ef83bc1783b00a4d7d9739ca1c17e863c7ff44
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8be4e225507a18a92d642ff0f3a6ca3d0ff68564
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185262"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772530"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>Inkomende documenten in JSON-indeling parseren
 
@@ -46,7 +46,7 @@ Voordat u de taakbegeleider ER Een indelingsconfiguratie maken om gegevens uit e
 - JSON-matrices kunnen alleen geneste elementen zijn van de eigenschapselementen van een object.
 - JSON-matrices kunnen alleen JSON-objecten bevatten. Ze kunnen geen directe tekenreeks/numerieke waarden en geneste matrices bevatten. Elementen in deze matrices worden geparseerd in de volgorde waarin ze in de indeling zijn opgegeven. Voor elk JSON-object wordt rekening gehouden met instellingen voor multipliciteit.
 
-Bovendien moet u de taakbegeleider [ER Vereiste configuraties maken om gegevens te importeren uit een extern bestand voor elektronische rapportage](tasks/er-required-configurations-import-data.md) uitvoeren als u dit nog niet hebt gedaan. Download het volgende bestand om de taakbegeleiding te voltooien.
+Bovendien moet u de taakbegeleider [ER Vereiste configuraties maken om gegevens te importeren uit een extern bestand](tasks/er-required-configurations-import-data.md) uitvoeren als u dit nog niet hebt gedaan. Download het volgende bestand om de taakbegeleiding te voltooien.
 
 | Titel                  | Bestandsnaam |
 |------------------------|-----------|

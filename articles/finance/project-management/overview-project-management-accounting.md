@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185630"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770354"
 ---
 # <a name="project-management-and-accounting-overview"></a>Overzicht van Projectbeheer en boekhouding
 
@@ -72,7 +72,7 @@ Zie [Projectcontracten](project-contracts.md) voor meer informatie over projectc
 
 De mate van detail in een WBS is afhankelijk van het niveau van nauwkeurigheid dat is vereist in ramingen en het niveau van tracering dat is vereist voor die ramingen. Projecten met een zeer lage tolerantie voor vertragingen in planning of overschrijding van kosten vereisen gewoonlijk een gedetailleerdere werkspecificatiestructuur, en vereisen ook dat de werkvoortgang en kosten nauwgezet worden bijgehouden met betrekking tot de werkspecificatiestructuur. 
 
-Zie [Structuren voor werkspecificatie](work-breakdown-structures.md) voor meer informatie.
+Zie [Overzicht van Structuren voor werkspecificatie](work-breakdown-structures.md) voor meer informatie.
 
 ### <a name="create-project-forecasts-and-budgets"></a>Projectprognoses en -budgetten maken
 
@@ -134,7 +134,7 @@ Tijdens het uitvoeren van projecten registreren teamleden of managers de werkz
 
 Een werkspecificatiestructuur is een omschrijving van werkzaamheden die voor een project worden voltooid. Een werkspecificatiestructuur is een hiërarchie van taken. Deze structuur houdt niet alleen het werk voor elke taak in, maar ook de omvang, kosten en de duur van de taak. 
 
-Zie [Structuren voor werkspecificatie](work-breakdown-structures.md) voor meer informatie.
+Zie [Overzicht van Structuren voor werkspecificatie](work-breakdown-structures.md) voor meer informatie.
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Projectprognoses en -budgetten beheren
 

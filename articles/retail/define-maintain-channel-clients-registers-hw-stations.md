@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019388"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811235"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Randapparaten aansluiten op het verkooppunt (POS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019388"
 In dit onderwerp wordt beschreven hoe u randapparatuur aansluit op uw Retail POS.
 
 > [!NOTE]
-> Raadpleeg voor specifieke installatie-instructies [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md) en [Download/installatie van Self-service implementatie van Retail Modern POS en activering van moderne POS- en Cloud POS-apparaten](retail-modern-pos-device-activation.md).
+> Zie [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md) en [Retail Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md) voor specifieke installatie-instructies.
 
 ## <a name="key-components"></a>Belangrijke onderdelen
 
@@ -139,7 +139,7 @@ Het functionaliteitsprofiel wordt ingesteld op het winkelniveau. Het wordt gebru
 
 - Sneltabblad **Informatiecodes**:
 
-    - Alle aspecten van beheer van informatiecodes op het POS. Zie voor meer informatie [Informatiecodes](info-codes-retail.md).
+    - Alle aspecten van beheer van informatiecodes op het POS. Zie [Informatiecodes en informatiecodegroepen](info-codes-retail.md) voor nadere details.
 
 - Sneltabblad **Ontvangstbewijsnummering**:
 

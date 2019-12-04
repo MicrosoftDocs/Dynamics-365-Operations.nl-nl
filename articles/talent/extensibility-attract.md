@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5db954d8847c252bee1c8e50acae546852ae9b94
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 9d12a4d48aa369884804c2a0bce9834534b1bec6
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026228"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832856"
 ---
 # <a name="extensibility-in-attract"></a>Uitbreidbaarheid in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Talent is ontwikkeld op Common Data Service en kan op verschillende manieren worden uitgebreid met behulp van het Microsoft Power Platform en de mogelijkheden die Common Data Service biedt. Daarom kunt u het systeem configureren en aanpassen met behulp van Microsoft PowerApps en Microsoft Flow. U kunt ook extra analyses over personen krijgen met behulp van Microsoft Power BI. Bovendien maken nieuwe aangepaste activiteiten, zoals de PowerApps en webcontentactiviteiten (iFrame) het aanstellingsproces flexibeler dan ooit. Met deze activiteiten kunt u het aanstellingsproces aanpassen aan uw zakelijke behoeften en processen, en zorgen dat zowel het aanstellingsteam als de kandidaten een naadloze, aangepaste ervaring krijgen.
+Microsoft Dynamics 365 Talent is ontwikkeld op Common Data Service en kan op verschillende manieren worden uitgebreid met behulp van het Microsoft Power Platform en de mogelijkheden die Common Data Service biedt. Daarom kunt u het systeem configureren en aanpassen met behulp van Microsoft Power Apps en Microsoft Power Automate. U kunt ook extra analyses over personen krijgen met behulp van Microsoft Power BI. Bovendien maken nieuwe aangepaste activiteiten, zoals de Power Apps en webcontentactiviteiten (iFrame) het aanstellingsproces flexibeler dan ooit. Met deze activiteiten kunt u het aanstellingsproces aanpassen aan uw zakelijke behoeften en processen, en zorgen dat zowel het aanstellingsteam als de kandidaten een naadloze, aangepaste ervaring krijgen.
 
 ## <a name="extending-option-sets-in-attract"></a>Optiesets uitbreiden in Attract
 
@@ -40,7 +40,7 @@ Een **Optieset** (selectielijst) is een type veld dat kan worden opgenomen in ee
 
 Hieronder ziet u de stappen voor het bijwerken van het veld **Reden voor afwijzing** met waarden die specifiek voor uw bedrijf gelden.  
 
-1. Als u de optieset **Reden voor afwijzing** wilt uitbreiden, gaat u naar de [PowerApps-beheer-website](https://admin.powerapps.com).
+1. Als u de optieset **Reden voor afwijzing** wilt uitbreiden, gaat u naar de [Power Apps-beheer-website](https://admin.powerapps.com).
 2. Mogelijk wordt u gevraagd u aan te melden bij uw account. Geef uw gebruikers-ID- en wachtwoordreferenties op die u gebruikt voor aanmelding bij Dynamics365 en/of Office365. Klik vervolgens op **Volgende**.
 3. Selecteer op het tabblad **Omgevingen** de omgeving die u wilt beheren, en dubbelklik erop om het tabblad **Details** te openen.
 4. Selecteer op het tabblad **Details** **Dynamics 365-beheercentrum**.
@@ -58,15 +58,15 @@ Hieronder ziet u de stappen voor het bijwerken van het veld **Reden voor afwijzi
 
 Omdat alle gegevens uit Attract zich in Common Data Service bevinden, kunt u hulpprogramma's van het Microsoft Power Platform gebruiken om uw unieke bedrijfsbehoeften op te nemen in Attract.
 
-### <a name="powerapps"></a>PowerApps
+### <a name="power-apps"></a>Power Apps
 
-U kunt PowerApps gebruiken om eenvoudig apps te maken die uw Attract-gegevens verbinden, en die expressies gebruiken zoals de expressies in Microsoft Excel om logica toe te voegen. Apps die u maakt met behulp van PowerApps, kunnen worden uitgevoerd op het web en op Apple iOS- en Google Android-apparaten.
+U kunt Power Apps gebruiken om eenvoudig apps te maken die uw Attract-gegevens verbinden, en die expressies gebruiken zoals de expressies in Microsoft Excel om logica toe te voegen. Apps die u maakt met behulp van Power Apps, kunnen worden uitgevoerd op het web en op Apple iOS- en Google Android-apparaten.
 
-U kunt bijvoorbeeld vacaturebeurzen eenvoudiger voor wervers maken door een lichtgewicht app te ontwikkelen waarmee ze cv's kunnen scannen en kandidaten kunnen voorstellen voor een positie in Attract. U kunt ook een app maken die helpt voldoen aan de behoeften aan conformiteit van uw organisatie. Zie voor meer informatie over PowerApps en hoe u deze gebruikt om apps te bouwen [Gegevens integreren in Common Data Service](https://docs.microsoft.com/powerapps).
+U kunt bijvoorbeeld vacaturebeurzen eenvoudiger voor wervers maken door een lichtgewicht app te ontwikkelen waarmee ze cv's kunnen scannen en kandidaten kunnen voorstellen voor een positie in Attract. U kunt ook een app maken die helpt voldoen aan de behoeften aan conformiteit van uw organisatie. Zie voor meer informatie over Power Apps en hoe u deze gebruikt om apps te bouwen [Gegevens integreren in Common Data Service](https://docs.microsoft.com/powerapps).
 
-### <a name="microsoft-flow"></a>Microsoft Flow 
+### <a name="microsoft-power-automate"></a>Microsoft Power Automate 
 
-U kunt Microsoft Flow gebruiken om geautomatiseerde werkstromen te maken die op Attract-gegevens worden uitgevoerd. U kunt eenvoudig verbinding maken met tal van populaire apps en services zonder code te schrijven. Door stromen te maken die interactie hebben met de Attract-entiteiten Functie, Kandidaat en Sollicitatie in Common Data Service, kunt u verschillende acties automatiseren. Wanneer een kandidaat bijvoorbeeld een aanbieding accepteert, kan een melding worden verzonden aan een onboardingteam of kan het nieuws worden aangekondigd op Twitter. Zie de  [Documentatie van Microsoft Flow](https://docs.microsoft.com/flow/) voor meer informatie over stromen.
+U kunt Microsoft Power Automate gebruiken om geautomatiseerde werkstromen te maken die op Attract-gegevens worden uitgevoerd. U kunt eenvoudig verbinding maken met tal van populaire apps en services zonder code te schrijven. Door stromen te maken die interactie hebben met de Attract-entiteiten Functie, Kandidaat en Sollicitatie in Common Data Service, kunt u verschillende acties automatiseren. Wanneer een kandidaat bijvoorbeeld een aanbieding accepteert, kan een melding worden verzonden aan een onboardingteam of kan het nieuws worden aangekondigd op Twitter. Zie de [documentatie van Power Automate](https://docs.microsoft.com/flow/) voor meer informatie over stromen.
 
 ### <a name="power-bi"></a>Power BI
 
@@ -74,18 +74,18 @@ Met Power BI BI kunt u aangepaste rapporten en dashboards maken en weergeven die
 
 ### <a name="custom-activities"></a>Aangepaste activiteiten 
 
-U kunt aangepaste activiteiten, zoals de PowerApps-apps en webcontentactiviteiten (iframe), toevoegen op het niveau van het taaksjabloonproces of terwijl u een nieuwe functie maakt. Met deze activiteiten kunt u het aanstellingsproces aanpassen en bedrijfslogica introduceren die uniek is voor uw organisatie in Attract.
+U kunt aangepaste activiteiten, zoals de Power Apps-apps en webcontentactiviteiten (iframe), toevoegen op het niveau van het taaksjabloonproces of terwijl u een nieuwe functie maakt. Met deze activiteiten kunt u het aanstellingsproces aanpassen en bedrijfslogica introduceren die uniek is voor uw organisatie in Attract.
 
-#### <a name="powerapps-activity"></a>PowerApps-activiteit 
+#### <a name="power-apps-activity"></a>Power Apps-activiteit 
 
-Met de activiteit PowerApps kan de maker van een functie of functieprocessjabloon een PowerApps-app insluiten in de aanstellingsstroom. Nadat u de app hebt gemaakt en gepubliceerd, kunt u de app-id ervan invoeren in de activiteitconfiguraties. Met behulp van een PowerApps-app kunt u gegevens lezen en schrijven in Common Data Service. U kunt de app zelfs koppelen aan een stroom. U hebt bijvoorbeeld een app die wervers gebruiken om een formulier in te vullen terwijl ze telefonische sollicitatiegesprekken houden. In dit geval kunt u de app koppelen aan een stroom die bepaalt of een sollicitant verder kan gaan in het sollicitatieproces. Dit type activiteit kan alleen worden bekeken door leden van het aanstellend team. Zie voor meer informatie over het configureren van de activiteit PowerApps, [Activiteiten in Attract](./activities-attract.md).
+Met de activiteit Power Apps kan de maker van een functie of functieprocessjabloon een Power Apps-app insluiten in de aanstellingsstroom. Nadat u de app hebt gemaakt en gepubliceerd, kunt u de app-id ervan invoeren in de activiteitconfiguraties. Met behulp van een Power Apps-app kunt u gegevens lezen en schrijven in Common Data Service. U kunt de app zelfs koppelen aan een stroom. U hebt bijvoorbeeld een app die wervers gebruiken om een formulier in te vullen terwijl ze telefonische sollicitatiegesprekken houden. In dit geval kunt u de app koppelen aan een stroom die bepaalt of een sollicitant verder kan gaan in het sollicitatieproces. Dit type activiteit kan alleen worden bekeken door leden van het aanstellend team. Zie voor meer informatie over het configureren van de activiteit Power Apps, [Activiteiten in aanstellingsprocessen](./activities-attract.md).
 
 > [!NOTE]
-> De PowerApps-activiteit is alleen beschikbaar met de uitgebreide invoegtoepassing voor aanstellingen.
+> De Power Apps-activiteit is alleen beschikbaar met de uitgebreide invoegtoepassing voor aanstellingen.
 
 #### <a name="web-content-iframe-activity"></a>Activiteit Webinhoud (iframe)
 
-Met de activiteit Web-inhoud (iframe) kunt u een aangepaste weboplossing insluiten die u hebt gemaakt in het aanstellingsproces of de kandidaatportal. U kunt gegevens direct lezen en schrijven uit Common Data Service. U kunt ook de oplossing aanpassen zodat deze stromen activeert of gebruikmaakt van functies van Microsoft Azure. Zie voor meer informatie over het configureren van de activiteit Webinhoud [Activiteiten in Attract](./activities-attract.md).
+Met de activiteit Web-inhoud (iframe) kunt u een aangepaste weboplossing insluiten die u hebt gemaakt in het aanstellingsproces of de kandidaatportal. U kunt gegevens direct lezen en schrijven uit Common Data Service. U kunt ook de oplossing aanpassen zodat deze stromen activeert of gebruikmaakt van functies van Microsoft Azure. Zie voor meer informatie over het configureren van de activiteit Webinhoud [Activiteiten in aanstellingsprocessen](./activities-attract.md).
 
 > [!NOTE]
 > De activiteit Webinhoud is alleen beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen.

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd57b702220374ef5ac48e1af7c42827a21e7517
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547096"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813588"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Berekeningen voor productconfiguratiemodellen: veelgestelde vragen
 
@@ -37,7 +37,7 @@ Berekeningen kunnen voor rekenkundige of logische bewerkingen worden gebruikt. D
 ## <a name="what-is-a-calculation"></a>Wat is een berekening?
 Een berekening is een element dat u in een productconfiguratiemodel kunt gebruiken. Berekeningen vullen beperkingen aan door u in staat te stellen decimale getallen te gebruiken om waarden te berekenen wanneer u een product configureert. Bovendien zijn voor de berekeningen een grotere set operators beschikbaar dan voor beperkingen.  
 
-Zoals een beperking, wordt een berekening gekoppeld aan een specifieke component in een model voor productconfiguratie en kan de berekening niet worden hergebruikt of worden gedeeld met een andere component. Een belangrijk verschil tussen berekeningen en beperkingen is dat berekeningen imperatief (één richting) zijn, terwijl beperkingen verklarend (twee richtingen) zijn. Raadpleeg [Expressiebeperkingen en tabelbeperkingen](expression-constraints-table-constraints-product-configuration-models.md) voor meer informatie over beperkingen.  
+Zoals een beperking, wordt een berekening gekoppeld aan een specifieke component in een model voor productconfiguratie en kan de berekening niet worden hergebruikt of worden gedeeld met een andere component. Een belangrijk verschil tussen berekeningen en beperkingen is dat berekeningen imperatief (één richting) zijn, terwijl beperkingen verklarend (twee richtingen) zijn. Zie [Expressiebeperkingen en tabelbeperkingen in productconfiguratiemodellen](expression-constraints-table-constraints-product-configuration-models.md) voor meer informatie over beperkingen.  
 
 Een berekening bestaat uit een berekeningsexpressie en een doelkenmerk.
 
@@ -88,7 +88,7 @@ Nr. De waarden die u instelt wanneer u een product configureert, zijn de waarden
 Als u een invoerwaarde in een berekening verwijdert, wordt de waarde van het doelkenmerk ook verwijderd.
 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>Waarom krijg ik een foutbericht dat zegt dat mijn model in tegenspraak is?
-Dit bericht verschijnt wanneer een berekening een fout bevat of wanneer er een tegenspraak aanwezig is in een of meerdere beperkingen. Raadpleeg [Expressiebeperkingen en tabelbeperkingen](expression-constraints-table-constraints-product-configuration-models.md) voor meer informatie over tegenspraak. Hier volgen enkele situaties waarin er fouten in berekeningen kunnen optreden:
+Dit bericht verschijnt wanneer een berekening een fout bevat of wanneer er een tegenspraak aanwezig is in een of meerdere beperkingen. Zie [Expressiebeperkingen en tabelbeperkingen in productconfiguratiemodellen](expression-constraints-table-constraints-product-configuration-models.md) voor meer informatie over tegenspraak in beperkingen. Hier volgen enkele situaties waarin er fouten in berekeningen kunnen optreden:
 
 -   Een waarde wordt gedeeld door 0 (nul).
 -   Een conflict bestaat tussen deze volgende twee elementen:

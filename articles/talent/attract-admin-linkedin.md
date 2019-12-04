@@ -1,5 +1,5 @@
 ---
-title: Integratie met LinkedIn instellen voor Microsoft Dynamics 365 Talent - Attract
+title: LinkedIn-integratie met Attract instellen
 description: In dit onderwerp wordt uitgelegd hoe u LinkedIn-Integratie configureert voor Microsoft Dynamics 365 Talent - Attract, zodat u eenvoudig vacatures op LinkedIn kunt plaatsen vanuit Attract en uw wervers hun wervingsinformatie kunnen synchroniseren met het LinkedIn-profiel van een kandidaat.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5cdce69396d6972d810e65e15b27c79119a0a9e6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552112"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833179"
 ---
-# <a name="set-up-integration-with-linkedin-for-microsoft-dynamics-365-talent---attract"></a>Integratie met LinkedIn instellen voor Microsoft Dynamics 365 Talent - Attract
+# <a name="set-up-linkedin-integration-with-attract"></a>LinkedIn-integratie met Attract instellen
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Help uw wervers en aanstellende managers toptalent te werven door LinkedIn-integratie met Microsoft Dynamics 365 Talent: Attract te configureren. Met Attract kunt u vacatures direct op LinkedIn plaatsen, het grootste onlinenetwerk voor professionals.
 
@@ -41,11 +41,11 @@ Attract biedt twee manieren om te integreren met LinkedIn om kandidaten te zoeke
 U kunt beide opties configureren op het tabblad **LinkedIn-integratie** in het beheercentrum. Ga naar <https://attract.talent.dynamics.com/adminsettings> om het beheercentrum te openen.
 
 > [!NOTE]
-> Om LinkedIn Recruiter-integratie met Attract te kunnen gebruiken, hebt u de [licenties voor Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) en [LinkedIn Recruiter nodig](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18). Zie [Welke versie van Attract?](./attract-comprehensive-hiring.md) voor meer informatie.
+> Om LinkedIn Recruiter-integratie met Attract te kunnen gebruiken, hebt u de [licenties voor Uitgebreide invoegtoepassing voor aanstellingen](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) en [LinkedIn Recruiter nodig](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18). Zie [Welke versie van Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md) voor meer informatie.
 
-Zie [Problemen met integratie met LinkedIn oplossen](./attract-troubleshoot-linkedin.md) als u problemen hebt met het plaatsen van vacatures op LinkedIn.
+Zie [Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - Attract oplossen](./attract-troubleshoot-linkedin.md) als u problemen hebt met het plaatsen van vacatures in LinkedIn.
 
-Zie voor meer informatie over andere manieren om vacatures op LinkedIn te plaatsen [Veelgestelde vragen over LinkedIn](./attract-linkedin-faq.md).
+Zie [Veelgestelde vragen over integratie van Attract met LinkedIn](./attract-linkedin-faq.md) voor meer informatie over andere manieren om vacatures op LinkedIn te plaatsen.
 
 ## <a name="configure-job-posting-to-linkedin"></a>Het plaatsen van vacatures op LinkedIn configureren
 
@@ -98,7 +98,7 @@ Als u wervers wilt machtigen om functies te zoeken via LinkedIn Recruiter, moet 
 
 U kunt kandidaten toestaan om op uw functies te solliciteren via hun LinkedIn-profielen. Ga naar [The Power of LinkedIn Everywhere: Apply with LinkedIn](https://blog.linkedin.com/2011/07/24/apply-with-linkedin) (Engelstalig) voor meer informatie over Solliciteren met LinkedIn.
 
-Van deze functie kan momenteel een voorbeeld worden bekeken. Voordat u deze stappen uitvoert, moet u controleren of Solliciteren met LinkedIn is ingeschakeld. Zie voor meer informatie over het inschakelen van voorbeeldfuncties  [Toegang tot voorbeeldfuncties in Talent](./access-preview-feature.md).
+Van deze functie kan momenteel een voorbeeld worden bekeken. Voordat u deze stappen uitvoert, moet u controleren of Solliciteren met LinkedIn is ingeschakeld. Zie [Toegang tot voorbeeldfuncties in Microsoft Dynamics 365 Talent](./access-preview-feature.md) voor meer informatie over het inschakelen van voorbeeldfuncties.
 
 1. Selecteer in het menu **Instellen** (het tandwielsymbool) in de rechterbovenhoek de optie **Beheercentrum**. U kunt ook naar <https://attract.talent.dynamics.com/adminsettings> gaan.
 2. Selecteer het tabblad **LinkedIn-integratie**.
@@ -109,12 +109,12 @@ Van deze functie kan momenteel een voorbeeld worden bekeken. Voordat u deze stap
 
 ## <a name="see-also"></a>Zie ook
 
-[Veelgestelde vragen over LinkedIn](./attract-linkedin-faq.md)
+[Veelgestelde vragen over integratie van Attract met LinkedIn](./attract-linkedin-faq.md)
 
-[Vacatures plaatsen op externe sites van Attract](./posting-jobs-external.md)
+[Vacatures plaatsen op externe vacaturesites vanuit Attract](./posting-jobs-external.md)
 
-[Kandidaten zoeken met LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Kandidaten zoeken met LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[Vacatures maken](./creating-jobs-attract.md)
+[Functies maken, goedkeuren en boeken in Attract](./creating-jobs-attract.md)
 
-[Problemen met integratie met LinkedIn oplossen](./attract-troubleshoot-linkedin.md)
+[Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - Attract oplossen](./attract-troubleshoot-linkedin.md)

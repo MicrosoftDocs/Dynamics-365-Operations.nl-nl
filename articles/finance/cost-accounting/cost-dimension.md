@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187907"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770845"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensies maken en dimensieleden importeren
 
@@ -44,11 +44,10 @@ De volgende afbeelding illustreert de dimensies die worden gebruikt in Kostprijs
 Nadat de gegevens in Kostprijsboekhouding zijn geïmporteerd, kunt u hiermee verschillende perspectieven ontwikkelen die managers inzicht bieden in alle niveaus van de organisatie. De volgende onderwerpen bieden informatie over het maken van dimensies en het importeren van dimensieleden. 
 
 -  [Dimensies van kostenelement](cost-elements.md)
--  [Kostenelementen maken (taakbegeleiding)](./tasks/create-cost-elements.md)
+-  [Kostenelementen maken](./tasks/create-cost-elements.md)
 -  [Dimensies van kostenobject](cost-objects.md)
--  [Kostenelementen maken (taakbegeleiding)](./tasks/create-cost-objects.md)
 -  [Dimensieleden van kostenelement toewijzen aan een gemeenschappelijke set van dimensieleden](map-cost-elements-dimension-members.md)
--  [Een dimensie van een kostenelement toewijzen (taakbegeleiding)](./tasks/map-cost-element-dimension.md)
+-  [Een kostenelementdimensie toewijzen](./tasks/map-cost-element-dimension.md)
 -  [Statistische dimensieleden en sjablonen van provider van statistische maateenheden](statistical-measure-provider-template.md)
 
 

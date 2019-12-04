@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 50ce332673e130dace38f596020973d37c34b566
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248952"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813495"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gebruikers van leverancierssamenwerking beheren
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248952"
 
 In dit onderwerp wordt beschreven hoe u de inrichting van nieuwe gebruikers van de leverancierssamenwerking kunt aanvragen en hoe u nieuwe contactpersonen van de nieuwe leverancierssamenwerking kunt toevoegen. 
 
-De interface voor leverancierssamenwerking in Dynamics 365 Supply Chain Management bevat informatie over inkooporders, facturen en consignatievoorraad voor externe leveranciers. U kunt nieuwe contactpersonen voor leverancierssamenwerking maken en vragen of nieuwe gebruikers worden ingericht als u als externe leverancier met de beveiligingsrol **Leveranciersbeheerder (extern)** of vergelijkbare machtigingen werkt. U kunt deze taken ook uitvoeren als u als inkoopmedewerker werkt. In dit onderwerp verwijst deze rol naar een inkoopmedewerker die in het bedrijf werkt dat het exemplaar van Supply Chain Management bezit. Zie [Leverancier met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md) voor meer informatie over het gebruik van leverancierssamenwerking als u een externe leverancier bent.  
+De interface voor leverancierssamenwerking in Dynamics 365 Supply Chain Management bevat informatie over inkooporders, facturen en consignatievoorraad voor externe leveranciers. U kunt nieuwe contactpersonen voor leverancierssamenwerking maken en vragen of nieuwe gebruikers worden ingericht als u als externe leverancier met de beveiligingsrol **Leveranciersbeheerder (extern)** of vergelijkbare machtigingen werkt. U kunt deze taken ook uitvoeren als u als inkoopmedewerker werkt. In dit onderwerp verwijst deze rol naar een inkoopmedewerker die in het bedrijf werkt dat het exemplaar van Supply Chain Management bezit. Zie [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md) voor meer informatie over het gebruik van leverancierssamenwerking als u een externe leverancier bent.  
 
 Zie [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md) voor meer informatie over het gebruik van leverancierssamenwerking als u een inkoopmedewerker bent.
 

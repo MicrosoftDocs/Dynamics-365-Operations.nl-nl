@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191242"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812621"
 ---
 # <a name="before-you-buy"></a>Voordat u gaat kopen
 
@@ -41,8 +41,8 @@ De volgende overwegingen moeten in acht worden genomen wanneer u on-premises kie
 
 - Vereisten op het gebied van regelgeving en naleving die niet beschikbaar zijn in de cloudcertificeringen
 - Verbroken bedrijfsproces met onregelmatige internetverbinding vereist voor toegang tot Microsoft Dynamics Lifecycle Services (LCS) voor beheer van levenscycli van toepassingen
-- [Functies die momenteel niet zijn geïmplementeerd in On-premises implementaties](features-not-implemented-on-prem.md)
-- [Minimale vereisten voor de infrastructuur](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [Functies die niet worden geïmplementeerd in on-premises implementaties](features-not-implemented-on-prem.md)
+- [Systeemvereisten voor on-premises implementaties](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > On-premises implementaties van Microsoft Dynamics 365 for Finance and Operations worden niet ondersteund op een openbare cloud-infrastructuur, met inbegrip van Azure.
@@ -78,7 +78,7 @@ Een Microsoft Cloud Solution Provider werkt nauw met u samen om de behoeften van
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Kopen via een Dynamics-partner (on-premises)
 
-Werk samen met een partner om Finance and Operations on-premises aan te schaffen. Voor meer informatie, zie [Kopen van Dynamics 365 for Finance and Operations (on-premises)](purchase-on-premises.md)
+Werk samen met een partner om Finance and Operations on-premises aan te schaffen. Zie [Finance and Operations (on-premises) kopen](purchase-on-premises.md) voor meer informatie.
 
 ### <a name="choose-your-support-option"></a>Kies uw ondersteuningsoptie
 
@@ -91,7 +91,7 @@ Meer informatie:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Stap vier: Informatie over FastTrack en uw implementatie plannen
 
-Microsoft FastTrack for Dynamics 365 is onze succesvolle klantenservice die is bedoeld om u te helpen bij een probleemloze en betrouwbare overgang naar Dynamics 365, zodat u sneller zakelijke voordelen kunt realiseren. Wanneer u deelneemt aan het het FastTrack-programma, ontvangt u richtlijnen voor aanbevolen procedures en het plannen van succesvolle implementaties. Ook leert u manieren om nieuwe gebruikers op weg te helpen en de mogelijkheden uit te breiden: alles in uw eigen tempo. Bovendien hebt u toegang tot technische informatiebronnen van Microsoft zodat uw ervaring met Dynamics 365 een succes wordt. Meer informatie: [Overzicht van Microsoft FastTrack for Dynamics 365](fasttrack-dynamics-365-overview.md)
+Microsoft FastTrack for Dynamics 365 is onze succesvolle klantenservice die is bedoeld om u te helpen bij een probleemloze en betrouwbare overgang naar Dynamics 365, zodat u sneller zakelijke voordelen kunt realiseren. Wanneer u deelneemt aan het het FastTrack-programma, ontvangt u richtlijnen voor aanbevolen procedures en het plannen van succesvolle implementaties. Ook leert u manieren om nieuwe gebruikers op weg te helpen en de mogelijkheden uit te breiden: alles in uw eigen tempo. Bovendien hebt u toegang tot technische informatiebronnen van Microsoft zodat uw ervaring met Dynamics 365 een succes wordt. Meer informatie: [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Als u een upgrade uitvoert van Dynamics AX 2012 of migreert van AX 2009
 

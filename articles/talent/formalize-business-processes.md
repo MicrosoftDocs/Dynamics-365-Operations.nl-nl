@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008359"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832810"
 ---
 # <a name="formalize-business-processes"></a>Bedrijfsprocessen formaliseren
 
-[!include[banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Met de functie Bedrijfsproces kunt u een sjabloon voor bedrijfsprocessen maken voor processen die moeten worden voltooid in uw organisatie. Uw bedrijf voert bijvoorbeeld elk jaar een HR-controle uit. In dit geval kunt u een sjabloon maken om alle taken bij te houden waaruit het controleproces bestaat. Met deze sjabloon kan er vervolgens voor worden gezorgd dat bij elke controle alle taken worden uitgevoerd. Als de taken in een bepaalde volgorde moeten worden uitgevoerd, kan de sjabloon helpen garanderen dat ze worden uitgevoerd in de juiste volgorde.
 

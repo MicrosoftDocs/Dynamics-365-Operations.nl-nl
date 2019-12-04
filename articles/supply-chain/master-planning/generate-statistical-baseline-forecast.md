@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ce8c1e7a3a4533516d8f2e2b0af46633e4c7667
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c0d9b8708df413118d6e1c1dbe788ce4f6ed5b2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250732"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815175"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Een statistische basislijnprognose genereren
 
@@ -73,8 +73,8 @@ Als de prognose niet wordt gegenereerd voor een grote set artikelen, maar bijvoo
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-- [Instelling van vraagprognose](demand-forecasting-setup.md)
+- [Instelling van Vraagprognose](demand-forecasting-setup.md)
 
 - [Handmatige correcties aanbrengen in de basislijnprognose](manual-adjustments-baseline-forecast.md)
 
-- [De gecorrigeerde prognose autoriseren](authorize-adjusted-forecast.md)
+- [Een gecorrigeerde vraagprognose autoriseren](authorize-adjusted-forecast.md)

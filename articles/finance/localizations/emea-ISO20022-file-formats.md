@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4ef97d30ca2d8a9c27ce656c82d2a415682ce075
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b809ba8d92772d8f3f416d4854d4af322e6f954a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551218"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773426"
 ---
 # <a name="import-iso20022-files"></a>ISO20022-bestanden importeren
 
@@ -49,7 +49,7 @@ U moet aan de volgende vereisten voldoen om bankmeldingen in de indeling camt.05
 
     - Voer in het veld **Betalingen van klant, rekeninglengte** de lengte van de klantcode in die wordt gebruikt in de ISR-verwijzingen of voor automatische identificatie van de klant.
     - Zorg ervoor dat het klantnummer en het factuurnummer (nummerreeksen) alleen cijfers bevatten. Ze mogen geen andere tekens bevatten. Het factuurnummer mag geen voorloopnullen bevatten.
-    - Voer ESR, BESR en routeringsnummer in voor de bankrekening van de rechtspersoon. Zie voor meer informatie [Verouderde ESR-functie](emea-che-esr-customer-payments-import.md), omdat dezelfde instellingen vereist zijn.
+    - Voer ESR, BESR en routeringsnummer in voor de bankrekening van de rechtspersoon. Zie [ESR-klantbetalingen importeren](emea-che-esr-customer-payments-import.md) voor meer informatie, omdat vergelijkbare instellingen vereist zijn.
     
 ## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a>Het bestand camt.054 met de kredietbrief in het klantbetalingsjournaal importeren
 1. Klik op de pagina **Journaalregels met betalingen van klant** op **Functies** > **Betalingen importeren**.
@@ -127,5 +127,5 @@ Raadpleeg voor meer informatie over de elektronische aangifte [Overzicht van ele
 - [Bankrekeningen voor ISO20022-automatische overschrijvingen voor een bank instellen](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
 - [Klanten en bankrekeningen van klanten instellen voor ISO20022-automatische overschrijvingen](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)
 - [Betalingsmethode voor ISO20022-kredietoverdracht instellen](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
-- [Betalingsmethode voor ISO20022 automatische incasso instellen](./tasks/setup-method-payment-iso20022-direct-debit.md)
+- [Betalingsmethode voor ISO20022 automatische afschrijving instellen](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Leveranciers en bankrekeningen voor leveranciers voor ISO20022-kredietoverdrachten instellen](./tasks/set-up-vendor-iso20022-credit-transfers.md)

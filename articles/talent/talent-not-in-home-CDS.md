@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 956af80a8ab2f454d9f523d3c74dda754ef0f793
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 7f0cc1c7ec1234b7eedaade0ffadb66965ed2121
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009371"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772983"
 ---
 # <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a>Talent wordt niet weergegeven tussen de Microsoft Dynamics 365-apps (Common Data Service 1.0)
 
@@ -34,9 +34,9 @@ De klant ziet de Microsoft Dynamics 365 Talent-app niet tussen de Microsoft Dyna
 
 **Resolutie**
 
-De gebruiker moet worden toegevoegd aan de rol Maker omgeving voor de omgeving in Microsoft PowerApps.
+De gebruiker moet worden toegevoegd aan de rol Maker omgeving voor de omgeving in Microsoft Power Apps.
 
-1. De beheerder met een PowerApps Plan 2-licentie moet het [PowerApps-Beheerportal](https://preview.admin.powerapps.com/) openen.
+1. De beheerder met een Power Apps Plan 2-licentie moet het [Power Apps-Beheerportal](https://preview.admin.powerapps.com/) openen.
 2. Selecteer **Omgevingen** en selecteer de juiste omgeving voor Talent.
 3. Selecteer op het tabblad **Beveiliging** op het tabblad **Omgevingsrollen** de optie **Maker omgeving**.
 

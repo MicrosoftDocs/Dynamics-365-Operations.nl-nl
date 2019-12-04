@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626242"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811733"
 ---
 # <a name="manually-created-work-orders"></a>Handmatig gemaakte werkorders
 
@@ -70,7 +70,7 @@ Let op de volgende punten:
 
 - In de detailweergave op de lijstpagina **Alle werkorders** kunt u verschillende activa aan een werkorder toevoegen. Daarvoor voegt u regels toe op het sneltabblad **Onderhoudstaken voor werkorders**. Op een activum kunt u alleen de typen onderhoudstaken selecteren die zijn gedefinieerd voor het activumtype dat voor het activum is geselecteerd.  
 
-- Als u het serviceniveau of de kritieke eigenschappen van een activum in deze instellingen wijzigt nadat u het activum al hebt gebruikt op een werkorder, worden het serviceniveau of de kritieke eigenschappen van de werkorder niet dienovereenkomstig bijgewerkt. Zie [Serviceniveaus van activa](../setup-for-objects/object-priorities.md) en [Kritieke eigenschappen van activum](../setup-for-objects/object-criticalities.md) voor meer informatie over serviceniveaus en kritieke eigenschappen.
+- Als u het serviceniveau of de kritieke eigenschappen van een activum in deze instellingen wijzigt nadat u het activum al hebt gebruikt op een werkorder, worden het serviceniveau of de kritieke eigenschappen van de werkorder niet dienovereenkomstig bijgewerkt. Zie [Serviceniveaus van activa](../setup-for-objects/object-priorities.md) en [Typen kritieke eigenschappen van activa](../setup-for-objects/object-criticalities.md) voor meer informatie over serviceniveaus en kritieke eigenschappen.
 
 - De kritieke eigenschappen van een werkorder worden telkens opnieuw berekend wanneer een werkordertaak wordt toegevoegd aan of verwijderd uit de werkorder.
 

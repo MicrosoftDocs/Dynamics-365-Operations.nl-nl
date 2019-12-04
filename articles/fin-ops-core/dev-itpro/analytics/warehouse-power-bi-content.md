@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c5d07cb9fbb32a2d9b8be11179dbba00ee73d28b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b5fbe5ffa74953588a2357948319f5cf21f7ad36
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184572"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769756"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Power BI-inhoud Magazijnprestaties
 
@@ -78,7 +78,7 @@ De Power BI-inhoud **Magazijnprestaties** bevat een rapport. Dit rapport bestaat
 | Verzendprestaties        | Verzonden per locatie/magazijn              | Het percentage dat te vroeg, op tijd of te laat is verzonden per locatie of magazijn. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Het gegevensmodel en de berekeningen begrijpen
-De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud **Magazijnprestaties** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
+De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud **Magazijnprestaties** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
 
 De volgende belangrijke samengevoegde metingen worden gebruikt als de basis van de inhoud.
 

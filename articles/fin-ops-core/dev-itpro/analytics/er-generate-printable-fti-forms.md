@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181422"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771278"
 ---
 # <a name="generate-printable-fti-forms"></a>Afdrukbare FTI-formulieren genereren
 
@@ -41,7 +41,7 @@ Naast de bestaande mogelijkheid van het genereren van afdrukbare FTI-formulieren
 Als onderdeel van uw aangepaste oplossing voor afdrukbare FTI-formulieren, moet u een reeks ER-configuraties maken.
 
 ### <a name="configure-the-er-data-model"></a>Het ER-gegevensmodel configureren
-Uw toepassing moet de configuratie van het ER-gegevensmodel bevatten die een gegevensmodel bevat waarmee het bedrijfsdomein voor klantfacturering wordt beschreven. Als vereiste geldt dat de naam van het gegevensmodel **CustomersInvoicing** moet zijn. Zie [Een domeinspecifiek gegevensmodel voor elektronische aangifte ontwerpen (ER)](tasks/er-design-domain-specific-data-model-2016-11.md) voor informatie over het ontwerpen van ER-gegevensmodellen.
+Uw toepassing moet de configuratie van het ER-gegevensmodel bevatten die een gegevensmodel bevat waarmee het bedrijfsdomein voor klantfacturering wordt beschreven. Als vereiste geldt dat de naam van het gegevensmodel **CustomersInvoicing** moet zijn. Zie [ER Ontwerp domeinspecifiek gegevensmodel](tasks/er-design-domain-specific-data-model-2016-11.md) voor informatie over het ontwerpen van ER-gegevensmodellen.
 
 ### <a name="configure-the-er-model-mapping"></a>De ER-modeltoewijzing configureren
 Uw toepassing moet de toewijzing van het ER-model voor het gegevensmodel CustomersInvoicing bevatten. De modeltoewijzing kan plaatsvinden in de configuratie van het ER-gegevensmodel of in de configuratie van de ER-modeltoewijzing. De naam van de basisdescriptor van de modeltoewijzing moet echter **FreeTextInvoice** zijn.
@@ -62,7 +62,7 @@ De toewijzing moet de volgende gegevensbronnen bevatten:
 
 De details van de integratie van toepassingen met het ER-raamwerk zijn te vinden in de klasse **ERPrintMgmtReportFormatSubscriber** (integratiemodel voor ER-toepassingssuite) in de broncode van de toepassing.
 
-Zie [Modeltoewijzing definiëren en gegevensbronnen selecteren voor elektronische aangifte (ER)](tasks/er-define-model-mapping-select-data-sources-2016-11.md) voor meer informatie over het ontwerp van ER-modeltoewijzingen.
+Zie [ER-modeltoewijzingen definiëren en gegevensbronnen hiervoor selecteren](tasks/er-define-model-mapping-select-data-sources-2016-11.md) voor meer informatie over het ontwerp van ER-modeltoewijzingen.
 
 ### <a name="configure-the-er-format"></a>De ER-indeling configureren
 In uw toepassingsexemplaar moet u over de configuratie van de ER-indeling beschikken die zal worden gebruikt voor het genereren van FTI formulieren. 
@@ -70,7 +70,7 @@ In uw toepassingsexemplaar moet u over de configuratie van de ER-indeling beschi
 > [!NOTE]
 > Deze indelingsconfiguratie moet worden gemaakt voor het gegevensmodel CustomersInvoicing en moet gebruikmaken van de modeltoewijzing met de basisdescriptor **FreeTextInvoice**.
 
-Zie [Een indelingsconfiguratie maken voor elektronische aangifte (ER)](tasks/er-format-configuration-2016-11.md) voor informatie over het configureren van ER-indelingen. Zie [Een configuratie ontwerpen voor het genereren van rapporten in OpenXML-indeling voor elektronische aangifte (ER)](tasks/er-design-reports-openxml-2016-11.md) voor informatie over het ontwerpen van ER-indelingen voor het genereren van rapporten in OpenXML-indeling.
+Zie [ER: Een indelingsconfiguratie maken (november 2016)](tasks/er-format-configuration-2016-11.md) voor informatie over het configureren van ER-indelingen. Zie [ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)](tasks/er-design-reports-openxml-2016-11.md) voor informatie over het ontwerpen van ER-indelingen voor het genereren van rapporten in OpenXML-indeling.
 
 ## <a name="configure-print-management"></a>Afdrukbeheer configureren
 Als u FTI-formulieren wilt genereren met behulp van het ER-raamwerk, kunt u ER-indelingen toewijzen op dezelfde manier als waarop u SSRS-rapporten toewijst. Als u de ER-indeling wilt koppelen aan alle FTI's voor Klanten, gaat u naar **Klanten** \> **Instelling** \> **ormulieren** \> **Formulierinstellingen** \> **Algemeen** \> **Afdrukbeheer** \> **Vrije-tekstfactuur** \> **Origineel**. Als u de ER-indeling wilt koppelen aan een bepaalde klant of factuur, voert u de volgende stappen uit.
@@ -94,7 +94,7 @@ U kunt FTI-formulieren genereren door facturen te selecteren per bereik of per s
 
 ![Voorbeeld van factuur](media/FTIbyGER-InvoiceExcelPreview.png)
 
-Wanneer u ER-indelingen gebruikt voor het op deze manier afdrukken van FTI-formulieren, worden de standaard ER-bestandsbestemmingen gebruikt. U kunt de bestemming niet wijzigen. Zie [Bestemmingen van elektronische rapportage](electronic-reporting-destinations.md) voor meer informatie over het configureren van de ER-bestemmingen voor ER-indelingen.
+Wanneer u ER-indelingen gebruikt voor het op deze manier afdrukken van FTI-formulieren, worden de standaard ER-bestandsbestemmingen gebruikt. U kunt de bestemming niet wijzigen. Zie [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md) voor meer informatie over het configureren van de ER-bestemmingen voor ER-indelingen.
 
 U kunt ook FTI-formulieren genereren wanneer u een FTI boekt door **Factuur afdrukken** in te schakelen en **Bestemmingen van afdrukbeheer gebruiken** uit te schakelen.
 
@@ -224,4 +224,4 @@ De expressie **Emailing.TxtToUse.Body** van de voorbeeldindeling is geconfiguree
 ![E-mailadres](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Aanvullende resources
-[Overzicht van elektronische rapportage](general-electronic-reporting.md)
+[Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)

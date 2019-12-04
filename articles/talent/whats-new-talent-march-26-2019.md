@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023879"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812736"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (26 maart 2019)
 
@@ -75,11 +75,11 @@ In deze release worden vastecompensatieplannen nu weergegeven wanneer gebruikers
 Met deze versie kunt u nu functierecords verwijderen met de optie **Openen in Excel** in Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Upgrade naar Common Data Service
-Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het PowerApps-Beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Uiterste datums voor een upgrade naar Common Data Service naderen snel. Meld u aan bij het Power Apps-Beheercentrum om te bepalen of een upgrade op uw database moet worden uitgevoerd. Zie voor meer informatie over uiterste datums en de nodige stappen om te upgraden [Upgraden naar Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Preview
 
-Zie voor informatie over het inschakelen van voorbeeldfuncties  [Toegang tot voorbeeldfuncties in Talent](./access-preview-feature.md).
+Zie voor informatie over het inschakelen van voorbeeldfuncties [Toegang tot voorbeeldfuncties in Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>Toestaan dat redencodes voor verloftypen worden opgegeven
 Organisaties hebben mogelijk extra informatie met betrekking tot verlofaanvragen nodig. Om deze informatie te verkrijgen, moeten werknemers een redencode voor hun verlofaanvragen opnemen. Met deze release kunt u nu de redencodes opgeven die zijn gekoppeld aan een bepaald verloftype en kunnen werknemers een redencode in hun verlofaanvragen selecteren.

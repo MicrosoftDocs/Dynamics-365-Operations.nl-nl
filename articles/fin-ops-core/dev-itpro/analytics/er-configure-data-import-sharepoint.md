@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
-ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
+ms.openlocfilehash: c11123c0d53fcf4ba67e83fe64d2d6e692d5b6f1
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564932"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771347"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Gegevensimport uit SharePoint configureren
 
@@ -43,7 +43,7 @@ Om de voorbeelden in dit onderwerp te kunnen voltooien, moet u toegang tot het v
 - ER-indeling en modelconfiguraties voor 1099-betalingen.
 
 ### <a name="create-required-er-configurations"></a>Vereiste ER-configuraties maken
-Speel de taakbegeleidingen **ER-gegevens importeren uit een Microsoft Excel-bestand** af, die deel uitmaken van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)**. Deze taakbegeleidingen begeleiden u bij het ontwerpen en gebruiken van ER-configuraties om interactief leverancierstransacties te importeren uit Microsoft Excel-bestanden. Zie voor meer informatie [Inkomende documenten parseren in Microsoft Excel](parse-incoming-documents-excel.md). Nadat u de taakbegeleidingen hebt voltooid, hebt u het volgende ingesteld.
+Speel de taakbegeleidingen **ER-gegevens importeren uit een Microsoft Excel-bestand** af, die deel uitmaken van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)**. Deze taakbegeleidingen begeleiden u bij het ontwerpen en gebruiken van ER-configuraties om interactief leverancierstransacties te importeren uit Microsoft Excel-bestanden. Zie voor meer informatie [Inkomende documenten in Excel-indeling parseren](parse-incoming-documents-excel.md). Nadat u de taakbegeleidingen hebt voltooid, hebt u het volgende ingesteld.
 
 #### <a name="er-configurations"></a>ER-configuraties
 

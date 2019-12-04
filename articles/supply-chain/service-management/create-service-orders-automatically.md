@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee68190b117b974ff4131f5d2237d138cac1fda3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7d91ccc6a3ebaff220c8a876944b90d910399660
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552271"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814024"
 ---
 # <a name="create-service-orders-automatically"></a>Automatisch serviceorders maken    
 
@@ -60,7 +60,7 @@ Wanneer u handmatig of automatisch serviceorders maakt vanaf de serviceovereenko
 
 2.  Klik op **Selecteren** om criteria voor het maken van serviceorders te selecteren en toe te voegen of te verwijderen.
 
-3.  Klik tot slot op **OK**.
+3.  Klik op **OK**.
 
 ## <a name="see-also"></a>Zie ook
 

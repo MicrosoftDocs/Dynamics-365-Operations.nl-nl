@@ -17,12 +17,12 @@ ms.search.region: Belgium, Norway, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c2ad9c8daf40750839ed7b16fb529e0de35d19a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3fbdefce85fbd7aee228cdcb58f29007478c1485
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176157"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772872"
 ---
 # <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a>Bankafschriften en betalingsafstemming voor de EU
 
@@ -46,14 +46,14 @@ Naast een bankafschrift kunnen banken specifieke berichten verschaffen met infor
 
 ### <a name="import-formats"></a>Importindelingen
 
--   ISO 20022 [camt.054](emea-ISO20022-file-formats.md) bankmeldingsbericht
+-   [ISO 20022 camt.054](emea-ISO20022-file-formats.md) bankmeldingsbericht
 -   [Nets-importindeling](emea-nor-nets-import-format.md) - Complexe functie voor Noorse betalingsindelingen
--   [ESR](emea-che-esr-customer-payments-import.md)-klantbetalingen importeren
+-   [ESR-klantbetalingen importeren](emea-che-esr-customer-payments-import.md) 
 -   Importbetalingsindelingen voor Zweden - BankGirot Max- en BankGirot OCR-indelingen
 
 ### <a name="return-formats"></a>Retourindelingen
 
--   ISO 20022 [pain.002](emea-ISO20022-file-formats.md) betalingsstatusrapport
+-   [ISO 20022 pain.002](emea-ISO20022-file-formats.md) betalingsstatusrapport
 -   (DNK) BetalingsserviceBasis-returformat: retourindeling voor Betalingsservice-exportindeling voor klanten
 -   [Importbetalingsindelingen voor Zweden](emea-swe-payment-formats-import.md) -Bankgirot Autogiro-retouren
 -   (SWE) BankGirot-retour: retourindeling leveranciersbetalingen. Dit komt overeen met de Bankgirot-exportindeling

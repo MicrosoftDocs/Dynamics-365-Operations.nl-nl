@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a476163ba6f66ab60ed8bfea6198d02f13ac5136
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182710"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769873"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Metagegevens van de toepassing openen door gebruik van verbonden toepassingen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configuration Service (RCS) in de rol van systeembeheerder of ER-ontwikkelaar een nieuwe ER-modeltoewijzing kan maken met gebruik van de metagegevens van Finance and Operations. Toepassingsmetagegevens worden online benaderd via de met de toepassing RCS verbonden toepassing. Voorbeeld ER modeltoewijzing wordt geconfigureerd voor het openen van transacties van buitenlandse handel. Als u deze stappen wilt uitvoeren, moet u eerst in RCS de stappen voltooien in het onderwerp [Een configuratieprovider maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md). Als u de stappen in het onderwerp [Open toepassingsmetagegevens met gebruik van de ER‑configuratie](access-application-metadata-er-configuration.md)niet hebt voltooid, gaat u naar de [pagina voorbeelden van elektronische rapportage](https://go.microsoft.com/fwlink/?linkid=862266) voor het downloaden en opslaan van de volgende ER‑configuratie: Buitenlandse handel metagegevens.xml; Buitenlandse handel toewijzing.xml; . XML en voltooi dan de stappen van de procedure.
+In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configuration Service (RCS) in de rol van systeembeheerder of ER-ontwikkelaar een nieuwe ER-modeltoewijzing kan maken met gebruik van de metagegevens van Finance and Operations. Toepassingsmetagegevens worden online benaderd via de met de toepassing RCS verbonden toepassing. Voorbeeld ER modeltoewijzing wordt geconfigureerd voor het openen van transacties van buitenlandse handel. Als u deze stappen wilt uitvoeren, moet u in RCS eerst de stappen voltooien in het onderwerp [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md). Als u de stappen in het onderwerp [Open toepassingsmetagegevens met gebruik van de ER‑configuratie](access-application-metadata-er-configuration.md)niet hebt voltooid, gaat u naar de [pagina voorbeelden van elektronische rapportage](https://go.microsoft.com/fwlink/?linkid=862266) voor het downloaden en opslaan van de volgende ER‑configuratie: Buitenlandse handel metagegevens.xml; Buitenlandse handel toewijzing.xml; . XML en voltooi dan de stappen van de procedure.
 
 ## <a name="prerequisites"></a>Vereisten
 1. Ga naar **Alle werkgebieden** > **Elektronische rapportage**. 
-2. Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooi dan de stappen in de procedure [Een configuratieprovider maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md). 
+2. Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooi dan de stappen in de procedure [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md). 
 
 ## <a name="get-required-er-configurations"></a>De vereiste ER-configuraties verkrijgen
 1. Klik op **Rapportconfiguraties**. 
-2. Als u de stappen in de procedure [(RCS) Gebruik de toepassingsmetagegevens met gebruik van de ER‑configuratie](access-application-metadata-er-configuration.md) al hebt voltooid, beschikt u al over alle benodigde ER‑configuraties (metagegevens buitenlandse handel, model- en toewijzingsconfiguraties) in het huidige RCS‑exemplaar. U kunt alle overige stappen in deze subtaak overslaan. 
+2. Als u de stappen in de procedure [Gebruik de toepassingsmetagegevens met gebruik van de ER‑configuratie](access-application-metadata-er-configuration.md) al hebt voltooid, beschikt u al over alle benodigde ER‑configuraties (metagegevens buitenlandse handel, model- en toewijzingsconfiguraties) in het huidige RCS‑exemplaar. U kunt alle overige stappen in deze subtaak overslaan. 
 3. Klik op **Uitwisselen**. 
 4. Klik op **Laden uit XML-bestand**. 
 5. Klik op **Bladeren** en selecteer het bestand **Buitenlandse handel metagegevens.xml**. 
@@ -72,8 +72,8 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 4. Selecteer in de structuur **Buitenlandse handel model\Buitenlandse handel toewijzing**. 
 5. Vouw de sectie **Vereisten** uit. 
 
-> [!NOTE]
-> Deze toewijzing verwijst momenteel naar de metagegevensconfiguratie. De metagegevens van de toepassing van deze configuratie worden aangeboden wanneer deze modeltoewijzing wordt ontworpen. 
+    > [!NOTE]
+    > Deze toewijzing verwijst momenteel naar de metagegevensconfiguratie. De metagegevens van de toepassing van deze configuratie worden aangeboden wanneer deze modeltoewijzing wordt ontworpen. 
 
 6. Klik op **Ontwerper**. 
 7. Klik op **Ontwerper**. 
@@ -81,8 +81,8 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 9. Klik op **Basis toevoegen**. 
 10. Typ of selecteer een waarde in het veld **Tabel**. 
 
-> [!NOTE]
-> Deze toewijzing verwijst momenteel naar de metagegevensconfiguratie. De metagegevens van de toepassing van deze configuratie worden aangeboden wanneer deze modeltoewijzing wordt ontworpen. 
+    > [!NOTE]
+    > Deze toewijzing verwijst momenteel naar de metagegevensconfiguratie. De metagegevens van de toepassing van deze configuratie worden aangeboden wanneer deze modeltoewijzing wordt ontworpen. 
 
 11. Klik op **Annuleren**. 
 12. Sluit de pagina. 
@@ -92,8 +92,8 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 1. Klik op **Bewerken**. 
 2. Selecteer de **MyConnectedApp** toepassing. 
 
-> [!NOTE]
-> Op dit moment verwijst deze toewijzing naar de metagegevens van de geselecteerde gekoppelde toepassing. Wanneer dezelfde toewijzing tegelijkertijd verwijst naar de configuratie van de metagegevens en de gekoppelde toepassing, dan worden de metagegevens van de verbonden toepassing gebruikt. 
+    > [!NOTE]
+    > Op dit moment verwijst deze toewijzing naar de metagegevens van de geselecteerde gekoppelde toepassing. Wanneer dezelfde toewijzing tegelijkertijd verwijst naar de configuratie van de metagegevens en de gekoppelde toepassing, dan worden de metagegevens van de verbonden toepassing gebruikt. 
 
 3. Klik op **Ontwerper**. 
 4. Klik op **Ontwerper**. 
@@ -101,14 +101,14 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 6. Klik op **Basis toevoegen**. 
 7. Typ of selecteer een waarde in het veld **Tabel**. 
 
-> [!NOTE]
-> Er zijn nu meer dan twee toepassingstabellen aangeboden, omdat deze toewijzing alle metagegevens van de verbonden toepassing gebruikt die hieraan is toegewezen. 
+    > [!NOTE]
+    > Er zijn nu meer dan twee toepassingstabellen aangeboden, omdat deze toewijzing alle metagegevens van de verbonden toepassing gebruikt die hieraan is toegewezen. 
 
 8. Klik op **Annuleren**. 
 9. Klik op **Valideren**. 
 
-> [!NOTE]
-> We hebben elementen van het gegevensmodel gebonden met items van gegevensbronnen die worden beschreven met behulp van details van metagegevens van de verbonden toepassing die is toegewezen voor deze toewijzing. 
+    > [!NOTE]
+    > We hebben elementen van het gegevensmodel gebonden met items van gegevensbronnen die worden beschreven met behulp van details van metagegevens van de verbonden toepassing die is toegewezen voor deze toewijzing. 
 
 10. Sluit de pagina. 
 11. Sluit de pagina. 

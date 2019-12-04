@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74750397dc344d74c018c27114357d3d05b95b7e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550102"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771255"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Toepassingsspecifieke metagegevens voorbereiden voor RCS en ER
 
@@ -43,7 +43,7 @@ Voor dit voorbeeld gaat u RCS gebruiken om een ER-oplossing te ontwerpen voor de
 > In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf, Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd.
 
 1. Ga naar **Organisatiebeheer \> Werkgebieden \> Elektronische rapportage**.
-2. Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooi dan de procedure [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooit u de procedure [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Selecteer **Metagegevensconfiguraties**.
 4. Selecteer **Configuratie maken**.
 5. Voer in het vervolgkeuzemenu in het veld **Naam** een naam in. Voer voor dit voorbeeld **Metagegevens buitenlandse handel** in.
@@ -54,14 +54,14 @@ Voor dit voorbeeld gaat u RCS gebruiken om een ER-oplossing te ontwerpen voor de
     > [!NOTE]
     > U kunt alle metagegevens voor de gehele toepassing of voor geselecteerde modellen of modules selecteren. Houd er in beide gevallen rekening mee dat de volgende metagegevens automatisch worden toegevoegd: tabellen met records, inventarisaties en uitgebreide gegevenstypen (EDT's). Als er aanvullende typen metagegevens nodig zijn, moeten deze handmatig worden toegevoegd.
 
-U moet metagegevens toevoegen die zijn gerelateerd aan transacties voor buitenlandse handel en handmatig metagegevensitems selecteren.
+    U moet metagegevens toevoegen die zijn gerelateerd aan transacties voor buitenlandse handel en handmatig metagegevensitems selecteren.
 
 9. Selecteer **Gegevensbron toevoegen \> Tabelrecords**.
 10. Filter op de waarde **Intrastat** in het veld **Naam**.
 11. Selecteer de **Intrastat** -tabelrecord.
 12. Selecteer **OK**.
 
-U moet metagegevens over de Intrastat-tabelrecords toevoegen.
+    U moet metagegevens over de Intrastat-tabelrecords toevoegen.
 
 13. Selecteer in de structuur **Tabelrecords Intrastat \> \>Relaties \> IntrastatCommodity (tabelrecords EcoResCategory**).
 14. Selecteer **Metagegevens toevoegen**.
@@ -95,11 +95,11 @@ De volgende procedure laat zien hoe een gebruiker met de rol **Systeembeheerder*
 
 Voordat u deze procedure kunt uitvoeren, moet u eerst de volgende procedures voltooien:
 
-- [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md)
+- [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md)
 - [Toepassingsmetagegevens die kunnen worden gebruikt in RCS voorbereiden](#prepare-application-metadata-that-can-be-used-in-rcs)
 
 1. Ga naar **Alle werkgebieden \> Elektronische rapportage**.
-2. Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooi dan de procedure [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooit u de procedure [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Importeer de ER‑metagegevensconfiguratie die metagegevens voor de toepassing bevat en die is geconfigureerd voor het genereren van elektronische documenten voor het domein buitenlandse handel. U hebt deze metagegevensconfiguratie gemaakt en als XML-bestand geëxporteerd in de procedure [Voorbereiden van metagegevens die kunnen worden gebruikt in RCS](#prepare-application-metadata-that-can-be-used-in-rcs) eerder in dit onderwerp.
 
     1. Selecteer **Metagegevensconfiguraties**.
@@ -201,7 +201,7 @@ Als u wenst, kunt u de bestaande set metagegevens uitbreiden in de toepassing. V
 
 De volgende procedure laat zien hoe een gebruiker met de rol **Systeembeheerder** of **Ontwikkelaar elektronische rapportage** een nieuwe ER-modeltoewijzing kan ontwerpen door metagegevens van de toepassing te gebruiken. Toepassingsmetagegevens worden online benaderd via een RCS verbonden toepassing. Er wordt een voorbeeld ER modeltoewijzing geconfigureerd voor het openen van transacties van buitenlandse handel.
 
-Als u de stappen in deze procedure wilt voltooien, moet u eerst de stappen in de procedure [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md) in RCS voltooien. Als u de procedure [Open toepassingsmetagegevens met gebruik van een ER‑configuratie](#access-application-metadata-by-using-an-er-configuration) eerder in dit onderwerp niet hebt voltooid, gaat u naar de pagina [Taakbegeleiders voor elektronische rapportage voor Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) voor het vooraf downloaden van de volgende ER‑configuratiebestanden en deze lokaal opslaan: **Buitenlandse handel metagegevens.xml**, **Buitenlandse handel model.xml en** en **Buitenlandse handel toewijzing.xml**.
+Als u de stappen in deze procedure wilt voltooien, moet u eerst de stappen in de procedure [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md) in RCS voltooien. Als u de procedure [Open toepassingsmetagegevens met gebruik van een ER‑configuratie](#access-application-metadata-by-using-an-er-configuration) eerder in dit onderwerp niet hebt voltooid, gaat u naar de pagina [Taakbegeleiders voor elektronische rapportage voor Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) voor het vooraf downloaden van de volgende ER‑configuratiebestanden en deze lokaal opslaan: **Buitenlandse handel metagegevens.xml**, **Buitenlandse handel model.xml en** en **Buitenlandse handel toewijzing.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>De vereiste ER-configuraties verkrijgen

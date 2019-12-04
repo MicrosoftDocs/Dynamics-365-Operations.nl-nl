@@ -1,6 +1,6 @@
 ---
-title: Een processjabloon maken in Attract
-description: Dit onderwerp biedt informatie over het maken van een processjabloon in Attract.
+title: Een aanstellingsprocessjabloon maken in Attract
+description: Dit onderwerp biedt informatie over het maken van een aanstellingsprocessjabloon in Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622713"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832553"
 ---
-# <a name="create-a-process-template-in-attract"></a>Een processjabloon maken in Attract
+# <a name="create-a-hiring-process-template-in-attract"></a>Een aanstellingsprocessjabloon maken in Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ Beheerders, wervers en aanstellend managers kunnen processjablonen maken. Een pr
 > [!NOTE]
 > Fasenamen zijn zichtbaar voor kandidaten op de pagina **Sollicitatiestatus**. U moet dit feit overwegen wanneer u namen voor fasen kiest.
 
-Zie voor meer informatie over activiteiten, [Activiteiten voor aanstellingsproces in Attract](./activities-attract.md).
+Zie voor meer informatie over activiteiten, [Activiteiten in aanstellingsprocessen](./activities-attract.md).
 
 Volg deze stappen om een aanstellingsprocessjabloon te maken.
 

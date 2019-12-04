@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024224"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814600"
 ---
 # <a name="questionnaires"></a>Vragenlijsten
 
@@ -44,7 +44,7 @@ De volgende tabel bevat koppelingen naar informatie over de kerntaken van vragen
 | Onderwerp| Omschrijving|
 |------|------------|
 | [Een vragenlijst ontwerpen](design-questionnaires.md)  | Dit artikel bevat informatie over het ontwerpen van een vragenlijst. Het ontwerpproces omvat het instellen van vereisten, antwoorden en vragen, en vervolgens het combineren hiervan in een vragenlijst. |
-| [Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)  | Dit artikel geeft informatie over het verspreiden van een vragenlijst onder respondenten en het uitvoeren van vragenlijsten.                                                                       |
+| [Vragenlijsten plannen en distribueren](distribute-questionnaires.md)  | Dit artikel geeft informatie over het verspreiden van een vragenlijst onder respondenten en het uitvoeren van vragenlijsten.                                                                       |
 | [De resultaten van een vragenlijst bekijken en evalueren](evaluate-questionnaire-results.md) | Dit artikel biedt informatie over het weergeven en evalueren van de resultaten van ingevulde vragenlijsten.                                                                                        |
 
 
@@ -54,7 +54,7 @@ De volgende tabel bevat koppelingen naar informatie over de kerntaken van vragen
 
 [Vragenlijsten ontwerpen](design-questionnaires.md)
 
-[Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)
+[Vragenlijsten plannen en distribueren](distribute-questionnaires.md)
 
 [De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)
 
