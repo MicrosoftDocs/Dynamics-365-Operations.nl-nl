@@ -1,0 +1,87 @@
+---
+title: Een bestaande sitepagina wijzigen
+description: In dit onderwerp wordt beschreven hoe u een bestaande sitepagina wijzigt in Microsoft Dynamics 365 Commerce.
+author: psimolin
+manager: annbe
+ms.date: 10/01/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application user
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: psimolin
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: ddbef381e9ded18ed1c9226057cac482d4c6e24d
+ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2698367"
+---
+# <a name="modify-an-existing-site-page"></a>Een bestaande sitepagina wijzigen
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+In dit onderwerp wordt beschreven hoe u een bestaande sitepagina wijzigt in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
+
+Wanneer u een pagina wilt wijzigen, moet u de pagina eerst openen in de pagina-editor. Ga naar de site die de pagina bevat en zoek in de lijst met pagina's naar de gewenste pagina. Als u de pagina niet kunt vinden, gebruikt u de uitgebreide zoekfunctie van het ontwerpgereedschap. Typ de exacte paginanaam of typ de eerste paar letters van de pagina en vervolgens een asterisk (\*). Er wordt een gefilterde lijst met pagina's weergegeven. U kunt deze lijst gebruiken om de gewenste pagina te zoeken. Nadat u de juiste pagina hebt gevonden, selecteert u de paginanaam om de pagina te openen in de pagina-editor.
+
+> [!TIP]
+> Als de pagina in de paginacontrole wordt weergegeven, kunt u deze selecteren en uitchecken voordat u deze opent in de pagina-editor. Op deze manier kunt u meerdere pagina's tegelijk uitchecken.
+
+Nadat de pagina is geopend in de pagina-editor, moet u ervoor zorgen dat deze naar u is uitgecheckt. De opdrachtbalk in het ontwerpgereedschap is dynamisch, contextgevoelig en statusgevoelig. Daarom worden alleen de acties weergegeven die u kunt uitvoeren op de pagina. Als de pagina bijvoorbeeld niet naar u is uitgecheckt, worden de knoppen **Opslaan** en **Inchecken** niet weergegeven op de opdrachtbalk. De status van de pagina wordt ook weergegeven aan de rechterkant van het venster.
+
+Als de pagina nog niet is uitgecheckt naar u, selecteert u **Uitchecken** op de opdrachtbalk. De opdrachtbalk wordt gewijzigd om de nieuwe status van de pagina weer te geven. U ontvangt ook een melding met de mededeling dat de pagina naar u is uitgecheckt.
+
+De volgende stap is het aanbrengen van de wijzigingen. Vaak gebruikt u de overzichtsstructuur van de pagina aan de linkerkant om de module te zoeken en te selecteren die u wilt wijzigen. Vervolgens brengt u wijzigingen aan in het deelvenster Eigenschappen aan de rechterkant. 
+
+Door uw wijziging kunnen echter soms modellen of fragmenten worden toegevoegd of verwijderd. Als u een fragment of module wilt toevoegen, gebruikt u de overzichtsstructuur om het vak te vinden waaraan u de module of het fragment wilt toevoegen. Selecteer vervolgens de knop met het weglatings teken (**...**) voor dat vak. Er wordt een menu weergegeven met opdrachten voor het toevoegen van een module of fragment. Als u een module of fragment wilt verwijderen, gaat u ernaartoe en selecteert u het in de overzichtsstructuur. Selecteer de knop met het weglatingsteken en de opdracht om de module of het fragment te verwijderen.
+
+> [!TIP]
+> U kunt ook de eigenschappen van de modules weergeven en bewerken door ze direct te selecteren in het WYSIWYG-voorbeeld.
+
+Nadat u de gewenste wijzigingen hebt aangebracht en het effect hiervan hebt bekeken, schakelt u **Inchecken** op de opdrachtbalk in. 
+
+Selecteer **Publiceren** op de opdrachtbalk om uw wijzigingen direct te publiceren. De laatst ingecheckte versie van de pagina die u hebt gewijzigd, wordt gepubliceerd en wordt beschikbaar voor externe gebruikers die uw site bekijken. 
+
+## <a name="example-change-the-video-on-the-home-page"></a>Voorbeeld: de video wijzigen op de startpagina
+
+In het volgende voorbeeld ziet u hoe u de startpagina kunt wijzigen door de video te wijzigen die wordt weergegeven in de videospelermodule.
+
+1. Selecteer onder **Sites** de naam **Fabrikam** (of de naam van uw site).
+1. Selecteer **Pagina's** in het navigatievenster aan de linkerkant.
+1. Zoek en selecteer de startpagina om deze te openen in de pagina-editor.
+1. Selecteer **Uitchecken** op de opdrachtbalk.
+1. Selecteer het vak **Hoofd** in het paginaoverzicht.
+1. Vouw onder het vak **Hoofd** alle modules met vloeibare containers uit.
+1. Zoek en selecteer de videospelermodule.
+1. Selecteer in het eigenschappenvenster aan de rechterkant de eigenschap **Video**. De assetkiezer verschijnt.
+1. Selecteer in de assetkiezer een beschikbare video-asset of selecteer **Nieuwe asset uploaden** om een nieuwe video-asset te uploaden.
+1. Selecteer **OK**.
+1. Selecteer **Opslaan** en vervolgens **Inchecken**.
+1. Voer in het veld **Opmerkingen** **Video gewijzigd** in en selecteer vervolgens **OK**.
+1. Selecteer **Voorbeeld** om de bijgewerkte pagina te bekijken. Wanneer u klaar bent, sluit u het tabblad Voorbeeld om terug te keren naar het ontwerpgereedschap.
+1. Selecteer **Publiceren**.
+
+## <a name="additional-resources"></a>Aanvullende resources
+
+[Een nieuwe sitepagina toevoegen](add-new-page.md)
+
+[Pagina-indelingen selecteren](select-page-layouts.md)
+
+[Metagegevens SEO beheren](manage-seo-metadata.md)
+
+[Een pagina opslaan, voorvertonen en publiceren](save-preview-publish-page.md)
+
+[Een productpagina verrijken](enrich-product-page.md)
+
+[Een landingspagina voor een categorie verrijken](enrich-category-page.md)
