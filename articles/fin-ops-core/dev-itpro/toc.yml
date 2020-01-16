@@ -8,7 +8,9 @@
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
-            - name: Preview van functies in platform update 31 (januari 2020)
+            - name: Preview van functies in platform update 32 (februari 2020)
+              href: get-started/whats-new-platform-update-32.md
+            - name: Platform update 31 (januari 2020)
               href: get-started/whats-new-platform-update-31.md
             - name: Platform update 30 (november 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: Platform update 15 (maart 2018)
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Nieuwe of gewijzigde functies in eerdere versies
+              items:
+                - name: Startpagina Nieuwe of gewijzigde functies in Finance and Operations
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: Zakelijke gebeurtenissen
           items:
             - name: Overzicht van Zakelijke gebeurtenissen
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Integratie PowerBI.com met on-premises omgevingen
                   href: analytics/entity-store-on-prem.md
-                - name: Reverse-proxy's voor on-premises omgevingen configureren
+                - name: Proxy's voor on-premises omgevingen configureren
                   href: deployment/onprem-reverseproxy.md
                 - name: Updates toepassen op een on-premises implementatie
                   href: deployment/apply-updates-on-premises.md
@@ -716,7 +722,7 @@
                       href: extensibility/customize-model-elements-extensions.md
                     - name: Aanpassen via extensies en overlayering
                       href: extensibility/customization-overlayering-extensions.md
-                - name: NIeuwe functies
+                - name: Nieuwe functies
                   items:
                     - name: Nieuwe of gewijzigde functies voor uitbreidbaarheid
                       href: extensibility/extensibility-new.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Bekende problemen
                   href: lifecycle-services/known-issues.md
+                - name: Verwijderde of afgeschafte functies in Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Gebruikershandleiding Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Abonnementsschatting
