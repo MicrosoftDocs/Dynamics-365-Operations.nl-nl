@@ -62,18 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nieuwe of gewijzigde functies
               items:
-                - name: Preview van functies in Supply Chain Management versie 10.0.7 (december 2019)
+                - name: Supply Chain Management versie 10.0.7 (december 2019)
                   href: get-started/whats-new-scm-10-0-7.md
                 - name: Supply Chain Management 10.0.6 (november 2019)
                   href: get-started/whats-new-scm-10-0-6.md
                 - name: Nieuwe of gewijzigde functies in eerdere versies
                   items:
-                    - name: Startpagina Nieuw of gewijzigd in Finance and Operations
+                    - name: Startpagina Nieuwe of gewijzigde functies in Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations-apps 10.0.5 (oktober 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations 10.0.4 (juli 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Verwijderde of verouderde functies
@@ -264,7 +260,7 @@
                 - name: Activa maken op basis van inkooporders
                   href: asset-management/objects/create-objects-based-on-purchase-orders.md
                 - name: Activumstuklijst
-                  href: /asset-management/objects/object-bom.md
+                  href: asset-management/objects/object-bom.md
                 - name: Gebeurtenishistorie van activum
                   href: asset-management/objects/object-timeline.md
                 - name: Activumweergave
@@ -592,7 +588,7 @@
                 - name: Analyse van productieorderkosten
                   href: cost-management/production-order-cost-analysis.md
                 - name: Raming van productieorderkosten
-                  href: /cost-management/production-order-cost-estimation.md
+                  href: cost-management/production-order-cost-estimation.md
                 - name: Huidige OHW-status op een productieorder weergeven
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: 'Actieve, geraamde en gerealiseerde kosten voor een productieorder vergelijken'
@@ -1099,6 +1095,8 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: Vertragingen
                   href: master-planning/delays.md
+                - name: Een hoofdplanningstaak annuleren
+                  href: master-planning/cancel-master-planning-job.md
                 - name: Tracering gebruiken voor explosie
                   href: master-planning/trace-explosion.md
                 - name: Actieberichten
@@ -1515,6 +1513,8 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Een vrijgegeven product maken voor een enkel bedrijf
                   href: pim/tasks/create-released-product-single-company.md
+                - name: Gegevensentiteiten gebruiken
+                  href: pim/data-entities.md
                 - name: Levenscyclusstatus van product
                   items:
                     - name: Overzicht van Levenscyclusstatus van producten
@@ -2349,6 +2349,10 @@
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                 - name: Magazijnwerk voor afhandeling van uitzonderingen annuleren
                   href: warehousing/cancel-warehouse-work.md
+                - name: Door systeem gestuurde clusterverzameling
+                  href: warehousing/system-directed-cluster-pick.md
+                - name: Orderverzamelregels groeperen
+                  href: warehousing/pick-line-grouping.md
             - name: Voorraadtelling
               items:
                 - name: Redencodes voor voorraadtelling
