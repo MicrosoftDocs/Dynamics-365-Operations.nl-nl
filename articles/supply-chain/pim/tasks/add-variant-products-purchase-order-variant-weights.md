@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,35 +16,35 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 446260a09bd5177877637ac8a288ad584dfa2b2b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adb2300e51f8b5383eee4dea0dffe4129dc8a536
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568691"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934812"
 ---
-# <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a><span data-ttu-id="8602a-103">Productvarianten toevoegen aan inkooporder met verschillende gewichten</span><span class="sxs-lookup"><span data-stu-id="8602a-103">Add variant products to purchase orders using variant weights</span></span>
+# <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a><span data-ttu-id="65ae6-103">Productvarianten toevoegen aan inkooporder met verschillende gewichten</span><span class="sxs-lookup"><span data-stu-id="65ae6-103">Add variant products to purchase orders using variant weights</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="8602a-104">Deze procedure doorloopt de stappen voor het gebruik van variantgewichten om inkooporderregels automatisch te vullen voor elke variant van een product.</span><span class="sxs-lookup"><span data-stu-id="8602a-104">This procedure walks through the steps for using variant weights to auto populate purchase order lines for each variant of a product.</span></span> <span data-ttu-id="8602a-105">Wanneer u de hoeveelheid selecteert van het product dat u wilt aanschaffen, worden inkooporderregels gemaakt voor alle varianten van het product met voorgestelde hoeveelheden op basis van de gewichten die zijn geconfigureerd voor de productvarianten.</span><span class="sxs-lookup"><span data-stu-id="8602a-105">When you select the quantity of the product you want to purchase, purchase order lines are created for all the variants of the product with suggested quantities based on the weights configured on the product variants.</span></span> <span data-ttu-id="8602a-106">Deze procedure omvat geen stappen voor het configureren van gewichtwaarden voor productdimensies en productvarianten.</span><span class="sxs-lookup"><span data-stu-id="8602a-106">This procedure doesn’t include steps to configure weight values on product dimensions and product variants.</span></span> <span data-ttu-id="8602a-107">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="8602a-107">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="65ae6-104">Deze procedure doorloopt de stappen voor het gebruik van variantgewichten om inkooporderregels automatisch te vullen voor elke variant van een product.</span><span class="sxs-lookup"><span data-stu-id="65ae6-104">This procedure walks through the steps for using variant weights to auto populate purchase order lines for each variant of a product.</span></span> <span data-ttu-id="65ae6-105">Wanneer u de hoeveelheid selecteert van het product dat u wilt aanschaffen, worden inkooporderregels gemaakt voor alle varianten van het product met voorgestelde hoeveelheden op basis van de gewichten die zijn geconfigureerd voor de productvarianten.</span><span class="sxs-lookup"><span data-stu-id="65ae6-105">When you select the quantity of the product you want to purchase, purchase order lines are created for all the variants of the product with suggested quantities based on the weights configured on the product variants.</span></span> <span data-ttu-id="65ae6-106">Deze procedure omvat geen stappen voor het configureren van gewichtwaarden voor productdimensies en productvarianten.</span><span class="sxs-lookup"><span data-stu-id="65ae6-106">This procedure doesn’t include steps to configure weight values on product dimensions and product variants.</span></span> <span data-ttu-id="65ae6-107">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="65ae6-107">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="8602a-108">Ga naar Leveranciers > Inkooporders > Alle inkooporders.</span><span class="sxs-lookup"><span data-stu-id="8602a-108">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="8602a-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="8602a-109">Click New.</span></span>
-3. <span data-ttu-id="8602a-110">Klik in het veld Leverancierrekening op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="8602a-110">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="8602a-111">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="8602a-111">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="8602a-112">Schakel de uitbreiding van de sectie Algemeen om.</span><span class="sxs-lookup"><span data-stu-id="8602a-112">Toggle the expansion of the General section.</span></span>
-6. <span data-ttu-id="8602a-113">Klik in het veld Locatie op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="8602a-113">In the Site field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="8602a-114">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="8602a-114">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="8602a-115">Klik in het veld Magazijn op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="8602a-115">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="8602a-116">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="8602a-116">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="8602a-117">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="8602a-117">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="8602a-118">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="8602a-118">Click OK.</span></span>
-12. <span data-ttu-id="8602a-119">Schakel de uitbreiding van de sectie Regeldetails om.</span><span class="sxs-lookup"><span data-stu-id="8602a-119">Toggle the expansion of the Line details section.</span></span>
-13. <span data-ttu-id="8602a-120">Klik op het tabblad Varianten.</span><span class="sxs-lookup"><span data-stu-id="8602a-120">Click the Variants tab.</span></span>
-14. <span data-ttu-id="8602a-121">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="8602a-121">Click Add line.</span></span>
-15. <span data-ttu-id="8602a-122">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="8602a-122">In the list, mark the selected row.</span></span>
-16. <span data-ttu-id="8602a-123">Typ '0140' in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="8602a-123">In the Item number field, type '0140'.</span></span>
-17. <span data-ttu-id="8602a-124">Stel Hoeveelheid in op '1000'.</span><span class="sxs-lookup"><span data-stu-id="8602a-124">Set Quantity to '1000'.</span></span>
-18. <span data-ttu-id="8602a-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="8602a-125">Click Save.</span></span>
+1. <span data-ttu-id="65ae6-108">Ga naar Leveranciers > Inkooporders > Alle inkooporders.</span><span class="sxs-lookup"><span data-stu-id="65ae6-108">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="65ae6-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="65ae6-109">Click New.</span></span>
+3. <span data-ttu-id="65ae6-110">Klik in het veld Leverancierrekening op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="65ae6-110">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="65ae6-111">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="65ae6-111">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="65ae6-112">Schakel de uitbreiding van de sectie Algemeen om.</span><span class="sxs-lookup"><span data-stu-id="65ae6-112">Toggle the expansion of the General section.</span></span>
+6. <span data-ttu-id="65ae6-113">Klik in het veld Locatie op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="65ae6-113">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="65ae6-114">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="65ae6-114">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="65ae6-115">Klik in het veld Magazijn op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="65ae6-115">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="65ae6-116">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="65ae6-116">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="65ae6-117">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="65ae6-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="65ae6-118">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="65ae6-118">Click OK.</span></span>
+12. <span data-ttu-id="65ae6-119">Schakel de uitbreiding van de sectie Regeldetails om.</span><span class="sxs-lookup"><span data-stu-id="65ae6-119">Toggle the expansion of the Line details section.</span></span>
+13. <span data-ttu-id="65ae6-120">Klik op het tabblad Varianten.</span><span class="sxs-lookup"><span data-stu-id="65ae6-120">Click the Variants tab.</span></span>
+14. <span data-ttu-id="65ae6-121">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="65ae6-121">Click Add line.</span></span>
+15. <span data-ttu-id="65ae6-122">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="65ae6-122">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="65ae6-123">Typ '0140' in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="65ae6-123">In the Item number field, type '0140'.</span></span>
+17. <span data-ttu-id="65ae6-124">Stel Hoeveelheid in op '1000'.</span><span class="sxs-lookup"><span data-stu-id="65ae6-124">Set Quantity to '1000'.</span></span>
+18. <span data-ttu-id="65ae6-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="65ae6-125">Click Save.</span></span>
 

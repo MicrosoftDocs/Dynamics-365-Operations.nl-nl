@@ -17,39 +17,37 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7f0cc1c7ec1234b7eedaade0ffadb66965ed2121
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a44d2e43752960d3026fa7ac92c7b261aee05448
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772983"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897022"
 ---
-# <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a><span data-ttu-id="200f7-103">Talent wordt niet weergegeven tussen de Microsoft Dynamics 365-apps (Common Data Service 1.0)</span><span class="sxs-lookup"><span data-stu-id="200f7-103">Talent doesn't appear among the Microsoft Dynamics 365 apps (Common Data Service 1.0)</span></span>
+# <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a><span data-ttu-id="54e7a-103">Talent wordt niet weergegeven tussen de Microsoft Dynamics 365-apps (Common Data Service 1.0)</span><span class="sxs-lookup"><span data-stu-id="54e7a-103">Talent doesn't appear among the Microsoft Dynamics 365 apps (Common Data Service 1.0)</span></span>
 
-[!include [banner](includes/banner.md)]
+<span data-ttu-id="54e7a-104">**Uitgifte**</span><span class="sxs-lookup"><span data-stu-id="54e7a-104">**Issue**</span></span>
 
-<span data-ttu-id="200f7-104">**Uitgifte**</span><span class="sxs-lookup"><span data-stu-id="200f7-104">**Issue**</span></span>
+<span data-ttu-id="54e7a-105">De klant ziet de Microsoft Dynamics 365 Talent-app niet tussen de Microsoft Dynamics 365-apps.</span><span class="sxs-lookup"><span data-stu-id="54e7a-105">The customer doesn't see the Microsoft Dynamics 365 Talent app among the Microsoft Dynamics 365 apps.</span></span>
 
-<span data-ttu-id="200f7-105">De klant ziet de Microsoft Dynamics 365 Talent-app niet tussen de Microsoft Dynamics 365-apps.</span><span class="sxs-lookup"><span data-stu-id="200f7-105">The customer doesn't see the Microsoft Dynamics 365 Talent app among the Microsoft Dynamics 365 apps.</span></span>
+<span data-ttu-id="54e7a-106">**Resolutie**</span><span class="sxs-lookup"><span data-stu-id="54e7a-106">**Resolution**</span></span>
 
-<span data-ttu-id="200f7-106">**Resolutie**</span><span class="sxs-lookup"><span data-stu-id="200f7-106">**Resolution**</span></span>
+<span data-ttu-id="54e7a-107">De gebruiker moet worden toegevoegd aan de rol Maker omgeving voor de omgeving in Microsoft Power Apps.</span><span class="sxs-lookup"><span data-stu-id="54e7a-107">The user must be added to the Environment Maker role for the environment in Microsoft Power Apps.</span></span>
 
-<span data-ttu-id="200f7-107">De gebruiker moet worden toegevoegd aan de rol Maker omgeving voor de omgeving in Microsoft Power Apps.</span><span class="sxs-lookup"><span data-stu-id="200f7-107">The user must be added to the Environment Maker role for the environment in Microsoft Power Apps.</span></span>
-
-1. <span data-ttu-id="200f7-108">De beheerder met een Power Apps Plan 2-licentie moet het [Power Apps-Beheerportal](https://preview.admin.powerapps.com/) openen.</span><span class="sxs-lookup"><span data-stu-id="200f7-108">The admin user who has a Power Apps Plan 2 license must open the [Power Apps Admin portal](https://preview.admin.powerapps.com/).</span></span>
-2. <span data-ttu-id="200f7-109">Selecteer **Omgevingen** en selecteer de juiste omgeving voor Talent.</span><span class="sxs-lookup"><span data-stu-id="200f7-109">Select **Environments**, and select the correct environment for Talent.</span></span>
-3. <span data-ttu-id="200f7-110">Selecteer op het tabblad **Beveiliging** op het tabblad **Omgevingsrollen** de optie **Maker omgeving**.</span><span class="sxs-lookup"><span data-stu-id="200f7-110">On the **Security** tab, on the **Environment roles** tab, select **Environment Maker**.</span></span>
+1. <span data-ttu-id="54e7a-108">De beheerder met een Power Apps Plan 2-licentie moet het [Power Apps-Beheerportal](https://preview.admin.powerapps.com/) openen.</span><span class="sxs-lookup"><span data-stu-id="54e7a-108">The admin user who has a Power Apps Plan 2 license must open the [Power Apps Admin portal](https://preview.admin.powerapps.com/).</span></span>
+2. <span data-ttu-id="54e7a-109">Selecteer **Omgevingen** en selecteer de juiste omgeving voor Talent.</span><span class="sxs-lookup"><span data-stu-id="54e7a-109">Select **Environments**, and select the correct environment for Talent.</span></span>
+3. <span data-ttu-id="54e7a-110">Selecteer op het tabblad **Beveiliging** op het tabblad **Omgevingsrollen** de optie **Maker omgeving**.</span><span class="sxs-lookup"><span data-stu-id="54e7a-110">On the **Security** tab, on the **Environment roles** tab, select **Environment Maker**.</span></span>
 
     ![Het tabblad Omgevingsrollen](media/environment-roles.png)
 
-4. <span data-ttu-id="200f7-112">Voeg op het tabblad **Gebruikers** de gebruiker of uw organisatie toe.</span><span class="sxs-lookup"><span data-stu-id="200f7-112">On the **Users** tab, add the user or your organization.</span></span>
+4. <span data-ttu-id="54e7a-112">Voeg op het tabblad **Gebruikers** de gebruiker of uw organisatie toe.</span><span class="sxs-lookup"><span data-stu-id="54e7a-112">On the **Users** tab, add the user or your organization.</span></span>
 
     ![Het tabblad Gebruikers](media/environment-maker.png)
 
-5. <span data-ttu-id="200f7-114">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="200f7-114">Select **Save**.</span></span>
-6. <span data-ttu-id="200f7-115">De gebruiker moet zich nu aanmelden bij [Microsoft Dynamics 365](https://home.dynamics.com/).</span><span class="sxs-lookup"><span data-stu-id="200f7-115">The user must now sign in to [Microsoft Dynamics 365](https://home.dynamics.com/).</span></span>
-7. <span data-ttu-id="200f7-116">Selecteer **Synchroniseren** om de gebruikersapps bij te werken.</span><span class="sxs-lookup"><span data-stu-id="200f7-116">Select **Sync** to update the user apps.</span></span>
+5. <span data-ttu-id="54e7a-114">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="54e7a-114">Select **Save**.</span></span>
+6. <span data-ttu-id="54e7a-115">De gebruiker moet zich nu aanmelden bij [Microsoft Dynamics 365](https://home.dynamics.com/).</span><span class="sxs-lookup"><span data-stu-id="54e7a-115">The user must now sign in to [Microsoft Dynamics 365](https://home.dynamics.com/).</span></span>
+7. <span data-ttu-id="54e7a-116">Selecteer **Synchroniseren** om de gebruikersapps bij te werken.</span><span class="sxs-lookup"><span data-stu-id="54e7a-116">Select **Sync** to update the user apps.</span></span>
 
     ![De knop Synchroniseren](media/get-more.png)
 
-    <span data-ttu-id="200f7-118">Als de synchronisatie is voltooid, wordt Talent weergegeven op de startpagina.</span><span class="sxs-lookup"><span data-stu-id="200f7-118">After synchronization is completed, Talent will appear on the home page.</span></span>
+    <span data-ttu-id="54e7a-118">Als de synchronisatie is voltooid, wordt Talent weergegeven op de startpagina.</span><span class="sxs-lookup"><span data-stu-id="54e7a-118">After synchronization is completed, Talent will appear on the home page.</span></span>

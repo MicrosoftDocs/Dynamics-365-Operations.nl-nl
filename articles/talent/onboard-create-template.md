@@ -16,49 +16,49 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 55853418eacd179b7bb50b7e4385300bdcb27abe
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5c322a0dd9a3c61a2d333fdc716acde88a2165f0
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812897"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898220"
 ---
-# <a name="create-an-onboarding-template-by-using-dynamics-365-talent---onboard"></a><span data-ttu-id="5fc57-104">Een onboardingsjabloon maken met Dynamics 365 Talent - Onboard</span><span class="sxs-lookup"><span data-stu-id="5fc57-104">Create an onboarding template by using Dynamics 365 Talent - Onboard</span></span>
+# <a name="create-an-onboarding-template"></a><span data-ttu-id="bf72f-104">Een onboardingsjabloon maken</span><span class="sxs-lookup"><span data-stu-id="bf72f-104">Create an onboarding template</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="5fc57-105">Microsoft Dynamics 365 Talent: Onboard biedt verschillende sjablonen die u kunnen helpen zo snel mogelijk een onboardinghandleiding te maken.</span><span class="sxs-lookup"><span data-stu-id="5fc57-105">Microsoft Dynamics 365 Talent: Onboard provides various templates that can help you create an onboarding guide as quickly as possible.</span></span> <span data-ttu-id="5fc57-106">U kunt een of meer van deze sjablonen gebruiken of uw eigen sjablonen maken.</span><span class="sxs-lookup"><span data-stu-id="5fc57-106">You can use one or more of these templates, or you can create your own templates.</span></span> <span data-ttu-id="5fc57-107">Onboard biedt voorbeeldtekst die u kunt gebruiken wanneer u uw eigen sjablonen maakt.</span><span class="sxs-lookup"><span data-stu-id="5fc57-107">Onboard provides sample text that you can use when you create your own templates.</span></span> <span data-ttu-id="5fc57-108">Daarom is het proces ook gemakkelijk als u een geheel nieuwe sjabloon maakt.</span><span class="sxs-lookup"><span data-stu-id="5fc57-108">Therefore, the process is easy even if you start from scratch.</span></span>
+<span data-ttu-id="bf72f-105">Microsoft Dynamics 365 Talent: Onboard biedt verschillende sjablonen die u kunnen helpen zo snel mogelijk een onboardinghandleiding te maken.</span><span class="sxs-lookup"><span data-stu-id="bf72f-105">Microsoft Dynamics 365 Talent: Onboard provides various templates that can help you create an onboarding guide as quickly as possible.</span></span> <span data-ttu-id="bf72f-106">U kunt een of meer van deze sjablonen gebruiken of uw eigen sjablonen maken.</span><span class="sxs-lookup"><span data-stu-id="bf72f-106">You can use one or more of these templates, or you can create your own templates.</span></span> <span data-ttu-id="bf72f-107">Onboard biedt voorbeeldtekst die u kunt gebruiken wanneer u uw eigen sjablonen maakt.</span><span class="sxs-lookup"><span data-stu-id="bf72f-107">Onboard provides sample text that you can use when you create your own templates.</span></span> <span data-ttu-id="bf72f-108">Daarom is het proces ook gemakkelijk als u een geheel nieuwe sjabloon maakt.</span><span class="sxs-lookup"><span data-stu-id="bf72f-108">Therefore, the process is easy even if you start from scratch.</span></span>
 
-## <a name="create-an-onboarding-template-from-an-existing-template"></a><span data-ttu-id="5fc57-109">Een onboardingsjabloon maken op basis van een bestaande sjabloon</span><span class="sxs-lookup"><span data-stu-id="5fc57-109">Create an onboarding template from an existing template</span></span>
+## <a name="create-an-onboarding-template-from-an-existing-template"></a><span data-ttu-id="bf72f-109">Een onboardingsjabloon maken op basis van een bestaande sjabloon</span><span class="sxs-lookup"><span data-stu-id="bf72f-109">Create an onboarding template from an existing template</span></span>
 
-1. <span data-ttu-id="5fc57-110">Selecteer **Sjablonen** in het linkermenu.</span><span class="sxs-lookup"><span data-stu-id="5fc57-110">On the left menu, select **Templates**.</span></span>
-2. <span data-ttu-id="5fc57-111">Selecteer een sjabloon onder **Veelgebruikte sjablonen uit de galerie** of **Mijn sjablonen**.</span><span class="sxs-lookup"><span data-stu-id="5fc57-111">Under **Popular templates from the gallery** or **My templates**, select a template.</span></span> <span data-ttu-id="5fc57-112">Als u meer sjablonen wilt weergeven, selecteert u **Meer in sjabloongalerie**.</span><span class="sxs-lookup"><span data-stu-id="5fc57-112">To view more templates, select **More in template gallery**.</span></span>
-3. <span data-ttu-id="5fc57-113">Volg één van deze stappen:</span><span class="sxs-lookup"><span data-stu-id="5fc57-113">Follow one of these steps:</span></span>
+1. <span data-ttu-id="bf72f-110">Selecteer **Sjablonen** in het linkermenu.</span><span class="sxs-lookup"><span data-stu-id="bf72f-110">On the left menu, select **Templates**.</span></span>
+2. <span data-ttu-id="bf72f-111">Selecteer een sjabloon onder **Veelgebruikte sjablonen uit de galerie** of **Mijn sjablonen**.</span><span class="sxs-lookup"><span data-stu-id="bf72f-111">Under **Popular templates from the gallery** or **My templates**, select a template.</span></span> <span data-ttu-id="bf72f-112">Als u meer sjablonen wilt weergeven, selecteert u **Meer in sjabloongalerie**.</span><span class="sxs-lookup"><span data-stu-id="bf72f-112">To view more templates, select **More in template gallery**.</span></span>
+3. <span data-ttu-id="bf72f-113">Volg één van deze stappen:</span><span class="sxs-lookup"><span data-stu-id="bf72f-113">Follow one of these steps:</span></span>
 
-    - <span data-ttu-id="5fc57-114">Als de sjabloon uit de galerie komt, selecteert u **Opslaan als sjabloon**, voert u een nieuwe naam voor de sjabloon in en selecteert u **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="5fc57-114">If the template is from the gallery, select **Save as my template**, enter a new name for the template, and select **Save**.</span></span>
-    - <span data-ttu-id="5fc57-115">Als de sjabloon uit **Mijn sjablonen** komt, selecteert u **Opslaan als sjabloon**, voert u een nieuwe naam voor de sjabloon in en selecteert u **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="5fc57-115">If the template is from **My templates**, select **Save as template**, enter a new name for the template, and select **Save**.</span></span>
+    - <span data-ttu-id="bf72f-114">Als de sjabloon uit de galerie komt, selecteert u **Opslaan als sjabloon**, voert u een nieuwe naam voor de sjabloon in en selecteert u **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="bf72f-114">If the template is from the gallery, select **Save as my template**, enter a new name for the template, and select **Save**.</span></span>
+    - <span data-ttu-id="bf72f-115">Als de sjabloon uit **Mijn sjablonen** komt, selecteert u **Opslaan als sjabloon**, voert u een nieuwe naam voor de sjabloon in en selecteert u **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="bf72f-115">If the template is from **My templates**, select **Save as template**, enter a new name for the template, and select **Save**.</span></span>
 
-    <span data-ttu-id="5fc57-116">[![Een sjabloon maken op basis van een bestaande sjabloon](./media/onboard-save-template.png)](./media/onboard-save-template.png)</span><span class="sxs-lookup"><span data-stu-id="5fc57-116">[![Creating a template from an existing template](./media/onboard-save-template.png)](./media/onboard-save-template.png)</span></span>
+    <span data-ttu-id="bf72f-116">[![Een sjabloon maken op basis van een bestaande sjabloon](./media/onboard-save-template.png)](./media/onboard-save-template.png)</span><span class="sxs-lookup"><span data-stu-id="bf72f-116">[![Creating a template from an existing template](./media/onboard-save-template.png)](./media/onboard-save-template.png)</span></span>
 
-## <a name="create-a-new-onboarding-template"></a><span data-ttu-id="5fc57-117">Een nieuwe onboardingsjabloon maken</span><span class="sxs-lookup"><span data-stu-id="5fc57-117">Create a new onboarding template</span></span>
+## <a name="create-a-new-onboarding-template"></a><span data-ttu-id="bf72f-117">Een nieuwe onboardingsjabloon maken</span><span class="sxs-lookup"><span data-stu-id="bf72f-117">Create a new onboarding template</span></span>
 
-1. <span data-ttu-id="5fc57-118">Selecteer **Sjablonen** in het linkermenu.</span><span class="sxs-lookup"><span data-stu-id="5fc57-118">On the left menu, select **Templates**.</span></span>
-2. <span data-ttu-id="5fc57-119">Selecteer onder **Mijn sjablonen** de tegel **Toevoegen** (plusteken \[**+**\]).</span><span class="sxs-lookup"><span data-stu-id="5fc57-119">Under **My templates**, select the **Add** (plus sign \[**+**\]) tile.</span></span>
+1. <span data-ttu-id="bf72f-118">Selecteer **Sjablonen** in het linkermenu.</span><span class="sxs-lookup"><span data-stu-id="bf72f-118">On the left menu, select **Templates**.</span></span>
+2. <span data-ttu-id="bf72f-119">Selecteer onder **Mijn sjablonen** de tegel **Toevoegen** (plusteken \[**+**\]).</span><span class="sxs-lookup"><span data-stu-id="bf72f-119">Under **My templates**, select the **Add** (plus sign \[**+**\]) tile.</span></span>
 
-    <span data-ttu-id="5fc57-120">[![Een nieuwe sjabloon maken](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)</span><span class="sxs-lookup"><span data-stu-id="5fc57-120">[![Creating a new template](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)</span></span>
+    <span data-ttu-id="bf72f-120">[![Een nieuwe sjabloon maken](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)</span><span class="sxs-lookup"><span data-stu-id="bf72f-120">[![Creating a new template](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)</span></span>
 
-3. <span data-ttu-id="5fc57-121">Voer in het dialoogvenster **Een handleidingsjabloon maken** een naam in voor de sjabloon en selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="5fc57-121">In the **Create a guide template** dialog box, enter a name for the template, and then select **Save**.</span></span>
+3. <span data-ttu-id="bf72f-121">Voer in het dialoogvenster **Een handleidingsjabloon maken** een naam in voor de sjabloon en selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="bf72f-121">In the **Create a guide template** dialog box, enter a name for the template, and then select **Save**.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="5fc57-122">Volgende stappen</span><span class="sxs-lookup"><span data-stu-id="5fc57-122">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="bf72f-122">Volgende stappen</span><span class="sxs-lookup"><span data-stu-id="bf72f-122">Next steps</span></span>
 
-- [<span data-ttu-id="5fc57-123">Onboardinghandleidingen en -sjablonen bewerken</span><span class="sxs-lookup"><span data-stu-id="5fc57-123">Edit onboarding guides and templates</span></span>](./onboard-edit-guides-templates.md)
-- [<span data-ttu-id="5fc57-124">Inhoud delen met andere bijdragers</span><span class="sxs-lookup"><span data-stu-id="5fc57-124">Share content with other contributors</span></span>](./onboard-share-template.md)
-- [<span data-ttu-id="5fc57-125">De status van taken en onboardingmedewerkers weergeven</span><span class="sxs-lookup"><span data-stu-id="5fc57-125">View the status of tasks and onboarding employees</span></span>](./onboard-view-status.md)
-- [<span data-ttu-id="5fc57-126">Aanstellingsteams maken in Onboard</span><span class="sxs-lookup"><span data-stu-id="5fc57-126">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
+- [<span data-ttu-id="bf72f-123">Onboardinghandleidingen en -sjablonen bewerken</span><span class="sxs-lookup"><span data-stu-id="bf72f-123">Edit onboarding guides and templates</span></span>](./onboard-edit-guides-templates.md)
+- [<span data-ttu-id="bf72f-124">Inhoud delen met andere bijdragers</span><span class="sxs-lookup"><span data-stu-id="bf72f-124">Share content with other contributors</span></span>](./onboard-share-template.md)
+- [<span data-ttu-id="bf72f-125">De status van taken en onboardingmedewerkers weergeven</span><span class="sxs-lookup"><span data-stu-id="bf72f-125">View the status of tasks and onboarding employees</span></span>](./onboard-view-status.md)
+- [<span data-ttu-id="bf72f-126">Aanstellingsteams maken in Onboard</span><span class="sxs-lookup"><span data-stu-id="bf72f-126">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
 
-### <a name="see-also"></a><span data-ttu-id="5fc57-127">Zie ook</span><span class="sxs-lookup"><span data-stu-id="5fc57-127">See also</span></span>
+### <a name="see-also"></a><span data-ttu-id="bf72f-127">Zie ook</span><span class="sxs-lookup"><span data-stu-id="bf72f-127">See also</span></span>
 
-- [<span data-ttu-id="5fc57-128">De Onboard-app uitproberen of kopen</span><span class="sxs-lookup"><span data-stu-id="5fc57-128">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
-- [<span data-ttu-id="5fc57-129">Nieuwe of gewijzigde functies in Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="5fc57-129">What's new or changed in Dynamics 365 Talent</span></span>](./whats-new.md)
-- [<span data-ttu-id="5fc57-130">Vrijgaveplannen</span><span class="sxs-lookup"><span data-stu-id="5fc57-130">Release plans</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
-- [<span data-ttu-id="5fc57-131">Ondersteuning voor Microsoft Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="5fc57-131">Get support for Microsoft Dynamics 365 Talent</span></span>](./talent-support.md)
+- [<span data-ttu-id="bf72f-128">De Onboard-app uitproberen of kopen</span><span class="sxs-lookup"><span data-stu-id="bf72f-128">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
+- [<span data-ttu-id="bf72f-129">Nieuwe of gewijzigde functies in Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="bf72f-129">What's new or changed in Dynamics 365 Talent</span></span>](./whats-new.md)
+- [<span data-ttu-id="bf72f-130">Vrijgaveplannen</span><span class="sxs-lookup"><span data-stu-id="bf72f-130">Release plans</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
+- [<span data-ttu-id="bf72f-131">Ondersteuning voor Microsoft Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="bf72f-131">Get support for Microsoft Dynamics 365 Talent</span></span>](./talent-support.md)
