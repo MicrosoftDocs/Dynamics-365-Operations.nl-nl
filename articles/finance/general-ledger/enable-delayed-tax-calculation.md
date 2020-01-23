@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
-ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
+ms.openlocfilehash: ed8e5f930bbb6b0fb570ba1eb23c0816210c1814
+ms.sourcegitcommit: bfd6142569196a060e3f37893c78f00c40a2a18c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2623516"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2946161"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Vertraagde belastingberekening inschakelen in journalen
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
+
 
 In dit onderwerp wordt uitgelegd hoe u btw-berekening in journalen kunt vertragen. Deze mogelijkheid helpt de prestaties van belastingberekeningen te verbeteren wanneer er veel journaalregels zijn.
 

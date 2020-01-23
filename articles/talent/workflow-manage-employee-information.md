@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2c18d753eba18c4cc7b2ba2d8dd35d8d99afae7e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 58acd34e411dc6deb5e369bb39165ce82fb1c44f
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517720"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898938"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Informatie over werknemers beheren met behulp van workflows
-
-[!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de workflowmogelijkheid voor Human resources kunt gebruiken om werknemersgegevens te beheren. U kunt bijvoorbeeld een workflow aan een positie koppelen en een goedkeuringsworkflow configureren die wordt gestart wanneer werknemers hun record wijzigen.
 

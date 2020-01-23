@@ -3,7 +3,7 @@ title: Overzicht van Levenscyclusstatus van producten
 description: Een levenscyclusstatus documenteert de levenscyclusstatus van een vrijgegeven product of productvariant.
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813541"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934835"
 ---
 # <a name="product-lifecycle-state-overview"></a>Overzicht van Levenscyclusstatus van producten
 
@@ -74,11 +74,7 @@ Voor gedetailleerde informatie over het gebruik van de status van een productlev
 
 ## <a name="default-migration-import-and-export"></a>Standaardmigratie, -import en -export 
 
-De statussen voor productlevenscycli worden niet ondersteund door gegevensentiteiten en de status van de levenscyclus kan niet op een variabele status worden ingesteld via de vrijgegeven productgegevensentiteiten.
-
--  Bij migratie vanuit eerdere versies is de status van de levenscyclus van alle producten en productvarianten leeg.  
--  Bij het importeren van vrijgegeven producten via een gegevensentiteit wordt de standaardstatus voor de levenscyclus toegepast bij het maken.  
--  Bij het importeren van vrijgegeven productvarianten via een gegevensentiteit wordt de status van de productlevenscyclus van het vrijgegeven productmodel geïmporteerd.   
+De statussen voor productlevenscycli worden ondersteund door gegevensentiteiten en de status van de levenscyclus kan op een variabele status worden ingesteld via de entiteit voor vrijgegeven productgegevens of vrijgegeven variantgegevens.
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Verouderde producten en productvarianten zoeken 
 

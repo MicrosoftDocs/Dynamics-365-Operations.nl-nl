@@ -3,7 +3,7 @@ title: Het globale adresboek en andere adresboeken plannen
 description: In dit onderwerpen worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u het globaal adresboek en enige aanvullende adresboeken instelt en configureert.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190023"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883406"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Het globale adresboek en andere adresboeken plannen
 
@@ -35,7 +35,7 @@ In dit onderwerpen worden de overwegingen en de beslissingen beschreven die u ti
 
 Voordat u met het algemene adresboek begint te werken, moet u de standaardwaarden hiervoor definiëren. Deze standaardwaarden worden vervolgens gebruikt voor alle aanvullende adresboeken die u maakt.
 
-**Beslissingen:**
+**Beslissingen**
 
 - In welke volgorde wilt u namen weergeven voor partijregistraties van het type **Persoon**? Eén volgorde is bijvoorbeeld achternaam, tweede voornaam, voornaam.
 - Moeten partijregistraties worden verwijderd uit het adresboek wanneer de rolregistratie wordt verwijderd? Moet de partijregistratie bijvoorbeeld ook worden verwijderd als een klantregistratie wordt verwijderd?
@@ -58,11 +58,3 @@ Nadat u het algemene adresboek hebt gemaakt, kunt u desgewenst extra adresboeken
 **Beslissing:**
 
 - Hoeveel extra adresboeken maakt u?
-
-### <a name="address-book-security"></a>Beveiliging van adresboeken
-
-U kunt adresboeken op elk moment maken en u kunt ook op elk moment beveiligingsparameters instellen voor de adresboeken. U hoeft geen beveiligingsbevoegdheden in te stellen voor een adresboek, maar in dat geval kunnen alle werknemers in uw organisatie wel alle partijregistraties in dat adresboek bekijken. U kunt beveiligingsbevoegdheden voor partijregistraties instellen via adresboeken. Beveiligingbevoegdheden worden gebaseerd op teams. Op deze manier kunnen alleen werknemers die aan een team zijn toegewezen dat toegang heeft tot een adresboek, de partijregistraties in dat adresboek weergeven. U moet de teams selecteren die toegang hebben tot elk adresboek. Voor elk adresboek kunt u beveiligingsbevoegdheden instellen die toegang geven of weigeren aan specifieke teams. Wanneer u een team toegang geeft tot een adresboek, kunnen alle teamleden de registraties in het adresboek weergeven. Als u een team geen toegang tot een adresboek verleent, kunnen de teamleden het adresboek of de inhoud ervan niet zien.
-
-**Beslissing:**
-
-- Welke teams moeten toegang hebben tot elk nieuw adresboek dat u maakt?

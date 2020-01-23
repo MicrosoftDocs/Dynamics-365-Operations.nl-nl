@@ -3,7 +3,7 @@ title: Geplande orders onderhouden
 description: Dit onderwerp bevat informatie over het beheer van geplande orders. Het beschrijft hoe u de status van geplande orders kunt bijwerken en fiatteren en hoe u kunt filteren voor geplande orders die dezelfde status als een geselecteerde geplande order hebben.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/07/2019
+ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: ec67caf596b0efc256c957eca17a04509fe86855
+ms.sourcegitcommit: 274ff2bb6872ff714781b348b29fd9f1affff9d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813771"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "2904031"
 ---
 # <a name="maintain-planned-orders"></a>Geplande orders onderhouden
 
@@ -39,7 +39,7 @@ U kunt het veld **Status** gebruiken om uw voortgang bij te houden. De volgende 
 
 -   Wanneer geplande orders door de hoofdplanning worden gegenereerd, hebben de geplande orders de status **Niet-verwerkt**.
 -   Wanneer u besluit een geplande order niet te fiatteren, kunt u die order de status **Voltooid** geven.
--   Als u een geplande order wilt fiatteren, kunt u de status wijzigen in **Goedgekeurd**. Geplande orders met de status **Goedgekeurd** worden geëerbiedigd door de hoofdplanning. Ze worden dus niet gewijzigd of verwijderd tijdens een latere hoofdplanningsuitvoering. 
+-   Als u een geplande order wilt fiatteren, kunt u de status wijzigen in **Goedgekeurd**. Geplande orders met de status **Goedgekeurd** worden geëerbiedigd door de hoofdplanning. Ze worden dus niet gewijzigd of verwijderd tijdens een latere hoofdplanningsuitvoering. Om dit te bereiken, kopieert de planningslogica de **goedgekeurde** geplande orders van de oude planversie naar de nieuwe planversie tijdens de hoofdplanning.
 
 ## <a name="firming-planned-orders"></a>Geplande orders fiatteren 
 Door geplande orders te fiatteren, worden echte orders gemaakt. Dit worden ook wel *vrijgegeven* of *openstaande orders* genoemd. Wanneer een geplande order wordt gefiatteerd, wordt die order naar de ordersectie van de relevante module verplaatst.
@@ -58,6 +58,8 @@ Als u meerdere orders tegelijk wilt fiatteren, kunt u de uitvoeringstijd of pres
 -   **Parallel fiatteren**: als **Ja** is ingesteld, wordt het fiatteringsproces uitgevoerd parallel met het aantal threads dat is gedefinieerd in **Aantal threads**.
 -   **Aantal threads** : hiermee bepaalt u het aantal threads waarmee het fiatterinigsproces parallel moet worden uitgevoerd. De parameter wordt alleen weergegeven als **Parallel fiatteren** is ingesteld op **Ja**.
 
+> [!NOTE]
+> De optie voor **Parallel fiatteren** wordt alleen weergegeven wanneer er meer dan één geplande order is geselecteerd voor fiattering.
 
 <a name="additional-resources"></a>Aanvullende resources
 --------

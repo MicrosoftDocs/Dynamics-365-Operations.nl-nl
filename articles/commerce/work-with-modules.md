@@ -3,7 +3,7 @@ title: Werken met modules
 description: In dit onderwerp wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06a26e5dfd35bf229e67ed27213210d0da726bdf
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698068"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914789"
 ---
 # <a name="work-with-modules"></a>Werken met modules
 
@@ -128,4 +128,6 @@ Voer de volgende stappen uit om een containermodule op een pagina te configurere
 [Een containermodule toevoegen aan een pagina](add-container-module.md)
 
 [Modules voor het plaatsen van inhoud aan een pagina toevoegen](add-content-placement-modules.md)
+
+[Werken met publicatiegroepen](publish-groups.md)
 

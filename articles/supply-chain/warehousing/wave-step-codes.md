@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f89c6098db9e2e3a9aa4ee3666e4b9ae608f054
-ms.sourcegitcommit: d8f1135cdbc2deca70bc4b2805a0519253c9a31f
+ms.openlocfilehash: 1a1a32495b63a5a67a49bf3b02710aba63c1e2f0
+ms.sourcegitcommit: bfd6142569196a060e3f37893c78f00c40a2a18c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1992352"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2946185"
 ---
 # <a name="wave-step-codes"></a>Wave-stapcodes
 
 [!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
-
-## <a name="about-wave-step-codes"></a>Wave-stapcodes
 
 Wave-stapcodes zijn codes die gebruikers kunnen instellen en gebruiken om specifieke instanties van wave-methoden aan een bijbehorende sjabloon te koppelen. De sjablonen bevatten sjablonen voor aanvulling, containers, afdrukken van etiketten, belasting bouwen en sorteren.
 
@@ -39,7 +37,7 @@ Wanneer er geen wave-stapcodes worden gebruikt, moeten gebruikers vrije tekst in
 Wave-stapcodes voor een specifiek wave-staptype worden ingesteld op een afzonderlijke pagina. Voor elke wave-stapmethode-instantie in een wave-sjabloon waarvoor een wave-stapcode moet worden gebruikt, moet de wave-stapcode worden geselecteerd in een vervolgkeuzelijst. De selectie in een vervolgkeuzelijst vervangt vrije tekstinvoer en vermindert het risico en de impact van de menselijke fout. Met instellingscodes wordt een wave-stapmethode in een wave-sjabloon gekoppeld aan een doelsjabloon voor de methode.
 
 > [!NOTE]
-> Het gebruik van de wave-stapcode is optioneel en de opname is per rechtspersoon. Als een bepaalde rechtspersoon de functie gebruikt, worden alle bestaande wave-stapcodes in die rechtspersoon dus bijgewerkt naar de nieuwe structuur.
+> Het gebruik van de functie voor wave-stapcodes is optioneel. Het is organisatiebreed ingeschakeld voor alle rechtspersonen.
 
 ## <a name="setup-demo"></a>Demo instellen 
 
@@ -49,20 +47,20 @@ Voor deze demo moeten demogegevens worden geïnstalleerd en moet u het **USMF**-
 
 Voer de volgende stappen uit om de functie wave-stapcodes in te schakelen.
 
-1. Ga naar **Magazijnbeheer \> Instellingen \> Parameters voor magazijnbeheer**.
-2. Stel op het tabblad **Algemeen** op het sneltabblad **Wave-goedkeuring** de optie **Wave-stapcodes inschakelen** in op **Ja**.
+1. Ga naar **Functiebeheer**.
+2. Schakel de functie **Organisatiebrede wave-stapcode inschakelen** in.
 
-Alle bestaande vrije teksten uit de Wave-stap worden bijgewerkt naar de nieuwe structuur. Nadat deze upgrade voor een rechts persoon is voltooid, is de optie **Wave-stapcodes** inschakelen niet meer beschikbaar op de pagina **Parameters voor magazijnbeheer**.
+Alle bestaande vrije teksten uit de wave-stap in alle rechtspersonen worden bijgewerkt naar de nieuwe structuur. Nadat deze upgrade voor alle rechtspersonen is voltooid, wordt de functie ingeschakeld. Als de functie niet kan worden ingeschakeld voor een of meer rechtspersonen, wordt de functie voor geen enkele rechtspersoon ingeschakeld.
 
-Validaties worden uitgevoerd tijdens de upgrade en als de upgrade mislukt, wordt een foutbericht weer gegeven. Een upgrade kan mislukken vanwege de volgende conflicten:
+Tijdens het inschakelen worden validaties uitgevoerd tijdens de gegevensupgrade. Als de upgrade mislukt, wordt een foutbericht weergegeven. Een upgrade kan mislukken vanwege de volgende conflicten:
 
 - Er zijn dubbele wave-stapteksten beschikbaar.
 - Aanpassingen bestaan.
 - Een wave-stapvrije tekst die is gekoppeld aan een instantie van de wave-stapmethode komt niet overeen met het verwachte sjabloontype.
 
-Nadat u de conflicten die tijdens de validaties zijn geïdentificeerd hebt opgelost, kunt u het upgradeproces opnieuw uitvoeren.
+Nadat u de conflicten die tijdens de validaties zijn geïdentificeerd hebt opgelost, kunt u de functie opnieuw proberen uit te voeren.
 
-Wanneer de upgrade slaagt, wordt de pagina met **Wave-stapcodes** (**Magazijnbeheer \> Instellingen \> Waves \> Wave-stapcodes**) weer beschikbaar. Op deze pagina worden de wave-stapcodes weergegeven die zijn bijgewerkt toen de functie voor wave-stapcodes werd ingeschakeld.
+Wanneer de functie is ingeschakeld, wordt de pagina met **wave-stapcodes** (**Magazijnbeheer \> Instellingen \> Waves \> Wave-stapcodes**) weer beschikbaar. Op deze pagina worden de wave-stapcodes weergegeven die zijn bijgewerkt toen de functie voor organisatiebrede wave-stapcodes werd ingeschakeld.
 
 ### <a name="create-new-wave-step-codes"></a>Nieuwe wave-stapcodes maken
 
@@ -94,3 +92,5 @@ Met de volgende procedure kunt u garanderen dat de aanvullingssjabloon die u heb
 4. Ga naar **Magazijnbeheer \> Instellingen \> Waves \> Wave-sjablonen** en selecteer de wave-sjabloon die u wilt gebruiken.
 5. Selecteer in de sjabloon op het sneltabblad **Methoden** de methode **Aanvulling**.
 6. Selecteer in het veld **Wave-stapcode** de wave-stapcode die u voor de aanvullingssjabloon hebt gemaakt.
+
+U voert deze stappen uit voor elke rechtspersoon.

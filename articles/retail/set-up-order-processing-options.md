@@ -3,7 +3,7 @@ title: Callcenterkanalen instellen
 description: Dit onderwerp biedt informatie over het verwerken van procesorders voor callcenters met gebruik van Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/16/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4ebe25f91cd4228537254dc0b7891c8584981775
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024816"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934695"
 ---
 # <a name="set-up-call-center-channels"></a>Callcenterkanalen instellen
 
@@ -81,3 +81,6 @@ Gebruikers die niet zijn gekoppeld aan een callcenterkanaal gebruiken de standaa
 
 
 Nadat u het callcenterkanaal hebt geconfigureerd en kanaalgebruikers hebt gedefinieerd, kunt u het gewenste systeemgedrag bevorderen door te zorgen dat alle vereiste callcenterparameters zijn gedefinieerd in **Retail** \> **Kanaalinstelling** \> **Instellingen van callcenter** \> **Parameters van callcenter**. Zorg ook dat gerelateerde nummerreeksen zijn gedefinieerd.
+
+> [!NOTE]
+> Als u de functionaliteit voor callcenters wilt gebruiken, moet de configuratiesleutel voor **Meerdere verzendadressen** zijn ingeschakeld. Deze configuratiesleutel kunt u vinden in de **handelsconfiguratiesleutels** onder **Systeembeheer**\> **Instellingen** \> **Licentieconfiguratie**. Dit is vereist vanwege de callcenterfunctionaliteit die verschillende validaties uitvoert op basis van het afleveradres dat is geconfigureerd op het niveau van de verkooporderregel. 

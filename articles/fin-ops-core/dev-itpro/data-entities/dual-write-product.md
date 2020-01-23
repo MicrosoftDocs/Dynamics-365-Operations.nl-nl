@@ -3,7 +3,7 @@ title: Geïntegreerde productervaring
 description: In dit onderwerp wordt de integratie van productgegevens tussen Finance and Operations-apps en Common Data Service beschreven.
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769724"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914766"
 ---
 # <a name="unified-product-experience"></a>Geïntegreerde productervaring
 
@@ -52,7 +52,7 @@ Productinformatie bevat alle informatie die betrekking heeft op het product en d
 
 Finance en Operations | Andere Dynamics 365-apps | Beschrijving
 -----------------------|--------------------------------|---
-Vrijgegeven producten V2 | msdyn\_sharedproductdetails | De entiteit **msdyn\_sharedproductdetails** bevat de velden van Finance and Operations-apps die het product definiëren en die de financiële en beheergegevens van het product bevatten. De volgende tabel geeft de toewijzingen weer.
+Vrijgegeven producten V2 | msdyn\_sharedproductdetails | De entiteit **msdyn\_sharedproductdetails** bevat de velden van Finance and Operations-apps die het product definiëren en die de financiële en beheergegevens van het product bevatten. 
 Door Common Data Service vrijgegeven verschillende producten | Product | De entiteit **Product** bevat de velden die het product definiëren. Het bevat afzonderlijke producten (producten met het subtype product) en de productvarianten. De volgende tabel geeft de toewijzingen weer.
 Met streepjescode geïdentificeerd productnummer | msdyn\_productbarcodes | Productstreepjescodes worden gebruikt om producten op unieke wijze te identificeren.
 Standaard orderinstellingen | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Eenheidsomrekeningen | msdyn_ unitofmeasureconversions
 Productspecifieke conversie van maateenheid | msdyn_productspecificunitofmeasureconversion
 Productcategorieën | msdyn_productcategories | Alle productcategorieën en informatie over de structuur en kenmerken van deze producten zijn opgenomen in de entiteit productcategorie. 
 Hiërarchieën van productcategorieën | msdyn_productcategoryhierarhies | U gebruikt producthiërarchieën om producten te categoriseren of te groeperen. De categoriehiërarchieën zijn beschikbaar in Common Data Service via de entiteit Productcategoriehiërarchie. 
-Hiërarchierollen van productcategorieën | msdyn_productcategoryhierarchies | Producthiërarchieën kunnen worden gebruikt voor verschillende rollen in D365 Finance and Operations. Om te specificeren welke categorie wordt gebruikt in elke rol wordt de entiteit rol van productcategorie gebruikt met de volgende toewijzingen. 
+Hiërarchierollen van productcategorieën | msdyn_productcategoryhierarchies | Producthiërarchieën kunnen worden gebruikt voor verschillende rollen in D365 Finance and Operations. Om te specificeren welke categorie wordt gebruikt in elke rol wordt de entiteit rol van productcategorie gebruikt. 
 Toewijzingen van productcategorieën | msdyn_productcategoryassignments | Als u een product aan een categorie wilt toewijzen, kunt u de entiteit productcategorietoewijzingen gebruiken.
 
 ## <a name="integration-of-products"></a>Integratie van producten

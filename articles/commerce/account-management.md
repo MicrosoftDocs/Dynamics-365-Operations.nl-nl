@@ -3,7 +3,7 @@ title: Accountbeheerpagina's en -modules
 description: In dit onderwerp worden de pagina's en modules voor accountbeheer in Microsoft Dynamics 365 Commerce besproken.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3986505a7e0e8d33d5b8ff2c06f493335731a8d9
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785371"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885804"
 ---
 # <a name="account-management-pages-and-modules"></a>Accountbeheerpagina's en -modules
 
@@ -58,7 +58,7 @@ De pagina Orderdetails bevat gedetailleerde informatie voor elke order en wordt 
 
 ### <a name="user-profile-page"></a>Pagina Gebruikersprofiel
 
-Op de pagina Gebruikersprofiel worden de gegevens van het gebruikersaccount weergegeven, zoals naam en e-mailadres van de gebruiker. Hiervoor wordt de gebruikersprofielmodule gebruikt. Het e-mailadres kan niet worden verwijderd, maar wel worden bewerkt.
+Op de pagina Gebruikersprofiel worden de gegevens van een gebruikersaccount weergegeven, zoals naam en e-mailadres van de gebruiker. Hiervoor wordt de gebruikersprofielmodule gebruikt. Het e-mailadres kan niet worden verwijderd, maar wel worden bewerkt. De gebruikersprofielpagina bevat ook gebruikersvoorkeuren waarmee een gebruiker zich kan aan- of afmelden voor bepaalde functies, zoals personalisatie van aanbevelingslijsten. 
 
 ### <a name="user-address-page"></a>Pagina Gebruikersadres
 

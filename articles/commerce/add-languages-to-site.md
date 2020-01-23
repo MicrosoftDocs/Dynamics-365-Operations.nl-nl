@@ -3,7 +3,7 @@ title: Talen toevoegen aan uw site
 description: In dit onderwerp wordt uitgelegd hoe u ondersteuning voor extra talen toevoegt aan een Microsoft Dynamics 365 Commerce-site.
 author: bicyclingfool
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 26031d386d8e332c07752d8797416491a86649a8
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696802"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914603"
 ---
 # <a name="add-languages-to-your-site"></a>Talen toevoegen aan uw site
 
@@ -166,6 +166,8 @@ De taal die u hebt toegevoegd, is nu beschikbaar, zodat u de site kunt configure
 [Een logo toevoegen](add-logo.md)
 
 [Selecteer een thema voor de site](select-site-theme.md)
+
+[Werken met CSS-overschrijvingsbestanden](css-override-files.md)
 
 [Een favicon toevoegen](add-favicon.md)
 

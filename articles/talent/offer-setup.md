@@ -3,7 +3,7 @@ title: Aanbiedingsbeheer instellen in Attract
 description: In dit onderwerp wordt beschreven hoe u aanbiedingen instelt in Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832717"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890550"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Aanbiedingsbeheer instellen in Attract
 
@@ -45,9 +45,11 @@ Aanbiedingsgegevens zijn de kleinste eenheid in de aanbiedingspakketsjabloon. Ee
 
     >[!NOTE]
     > De pagina **Gegevens van aanbieding** bevat de secties **Details van kandidaat** en **Functiedetails**. Attract biedt standaard enkele tijdelijke aanduidingen voor aanbiedingsgegevens.
-    
+    > 
     > Er zijn secties op de pagina waarmee u verschillende tijdelijke aanduidingen voor aanbiedingsgegevens in logische groepen kunt ordenen. Deze secties kunnen helpen bij het onderhoud van aanbiedingsgegevens en het invullen van gegevens tijdens het maken van aanbiedingen.
-
+    > 
+    > Als u een lijst met waarden voor een tijdelijke aanduiding wilt maken, uploadt u een Excel-werkblad met één kolom met de tijdelijke aanduiding als de kolomtitel en de lijst met keuzen in de rijen eronder. Als in een andere gegevensregelset naar dezelfde tijdelijke aanduiding wordt verwezen, moet u ervoor zorgen dat deze een gemeenschappelijke set waarden hebben.
+    
 1.  Als u een nieuwe sectie voor aanbiedingsgegevens wilt maken, klikt u op **Een sectie toevoegen** en voert u een unieke naam voor de sectie in.
 
 1.  Als u tijdelijke aanduidingen voor aanbiedingsgegevens aan een sectie wilt toevoegen, klikt u op **Gegevens van aanbieding toevoegen** en voert u een unieke naam voor de tijdelijke aanduiding in.

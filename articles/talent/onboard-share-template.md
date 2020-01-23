@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812828"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897138"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Inhoud delen met andere bijdragers in Dynamics 365 Talent - Onboard
+# <a name="share-content-with-other-contributors"></a>Inhoud delen met andere bijdragers
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ Met Microsoft Dynamics 365 Talent: Onboard kunt u onboardinghandleidingen en -sj
 
 3. Stel onder **Delen met**, als ontvangers de handleiding moeten kunnen wijzigen, de optie **Kunnen deze personen bewerkingen invoeren** in op **Aan**. Als ontvangers per e-mail moeten worden geïnformeerd dat u de handleiding met hen hebt gedeeld, stelt u **E-mailmelding verzenden naar ontvangers** in op **Aan**.
 
-    ![[Toegangs- en e-mailvoorkeuren voor een onboardinghandleiding instellen](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
+    ![[Toegangs- en e-mailvoorkeuren instellen voor een onboardinghandleiding](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
 
 4. Voer een naam of e-mailadres in en selecteer de gewenste ontvanger in de vervolgkeuzelijst.
 5. Op het tabblad **Toegang beheren** kunt u zien of wijzigen wat ontvangers met de handleiding kunnen doen. Als u de toegang van een geadresseerde wilt wijzigen, selecteert u in de vervolgkeuzelijst naast de naam van de geadresseerde de optie **Kan weergeven**, **Kan bewerken** of **Verwijderen**, indien van toepassing.

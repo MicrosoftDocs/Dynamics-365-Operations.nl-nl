@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3dbf5807a213e425b24d5a4809df694393faeb9b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 03e2557e29194f17a9a586470ced5b352408b07c
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832763"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898637"
 ---
 # <a name="leave-and-absence-concepts"></a>De concepten verlof en verzuim
-
-[!include [banner](includes/banner.md)]
 
 Op basis van de hier beschreven concepten en termen kunt u bepalen hoe aan een werknemer verlof wordt toegekend en hoe de tijdsaldi van die werknemer worden berekend. Zie [Beheer van verlof en verzuim](https://docs.microsoft.com/dynamics365/unified-operations/talent/leave-absence-overview) voor meer informatie over verlof- en verzuimbeheer.
 

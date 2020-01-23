@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 7f05e119f02d2d5e7c76c554d6a8b3db97c86ab0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653643"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934858"
 ---
 # <a name="product-configuration-overview"></a>Overzicht van Productconfiguratie
 
@@ -61,7 +61,7 @@ Een productconfiguratiemodel bestaat uit een of meerdere onderdelen die door sub
 Elke component heeft een of meer kenmerken die de eigenschappen ervan identificeren. De kenmerken zijn wat gebruikers tijdens het configuratieproces kiezen. Kenmerken bepalen relaties tussen en binnen componenten door middel van opname in beperkingen of berekeningen. Via voorwaarden die op stuklijstregels worden toegepast, kunnen de kenmerken worden gebruikt om te bepalen uit welke fysieke onderdelen het geconfigureerde product moet bestaan. Bovendien kan een kenmerk de eigenschap van een stuklijstregel bepalen door middel van een toewijzingsmechanisme. Vergelijkbare functionaliteit er bestaat voor routebewerkingen voor zowel opname als eigenschapsinstellingen.
 
 >[!NOTE]
-> Wanneer u kenmerktypen maakt, moet u geen groot aantal waarden maken voor het domein van het kenmerktype. Dit kan leiden tot vertragingen in de productconfiguratie. 
+> Wanneer u kenmerktypen maakt, moet u niet een groot aantal waarden maken voor het domein van het kenmerktype. Dit kan leiden tot vertragingen in de productconfiguratie. 
 
 ### <a name="expression-constraints"></a>Expressiebeperkingen
 

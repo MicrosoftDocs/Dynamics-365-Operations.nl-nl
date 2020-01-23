@@ -3,7 +3,7 @@ title: Instelling van vraagprognose
 description: In dit onderwerp worden de insteltaken beschreven die u moet uitvoeren ter voorbereiding op de vraagprognose.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813794"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935486"
 ---
 # <a name="demand-forecasting-setup"></a>Instelling van vraagprognose
 
@@ -63,7 +63,7 @@ U kunt op elk moment prognosedimensies toevoegen aan de lijst met dimensies die 
 
 Niet alle artikelen gedragen zich op dezelfde vanuit een vraagprognoseperspectief. Vergelijkbare artikelen kunnen in één artikeltoewijzingssleutel worden gegroepeerd, en de parameters zoals transactietypen en de instellingen voor de prognosemethode kunnen per artikeltoewijzingssleutel worden ingesteld. Klik op **Artikeltoewijzingssleutels** in het linkerdeelvenster van de pagina **Parameters voor vraagprognose**. 
 
-Om de prognose te maken, gebruikt Supply Chain Management een Machine Learning-webservice. Om verbinding met de service te maken, moet u de volgende gegevens verstrekken als u zich aanmeldt bij Microsoft Azure Machine Learning Studio:
+Om de prognose te maken, gebruikt Supply Chain Management een Machine Learning-webservice. Om verbinding met de service te maken, moet u de volgende gegevens verstrekken als u zich aanmeldt bij Microsoft Azure Machine Learning Studio (klassiek):
 
 -   Application Programming Interface (API)-sleutel voor webservice
 -   Eindpunt-URL webservice
@@ -71,7 +71,7 @@ Om de prognose te maken, gebruikt Supply Chain Management een Machine Learning-w
 -   Azure-sleutel van opslagaccount
 
 > [!NOTE]
-> De Azure-opslagaccountnaam en sleutel zijn alleen vereist wanneer u een aangepast opslagaccount gebruikt. Als u de on-premises versie gebruikt, moet u een aangepaste opslagaccount bij Azure hebben, zodat de Machine Learning-service toegang heeft tot de historische gegevens. 
+> De Azure-opslagaccountnaam en sleutel zijn alleen vereist wanneer u een aangepast opslagaccount gebruikt. Als u de on-premises versie gebruikt, moet u een aangepaste opslagaccount bij Azure hebben, zodat Machine Learning toegang heeft tot de historische gegevens. 
 
 Om vraagvoorspellingen te maken, kunt u uw eigen service implementeren door Machine Learning Studio te gebruiken of de vraagprognose-experimenten van Supply Chain Management. Instructies voor het implementeren van de vraagprognose-experimenten als een webservice, zijn beschikbaar in Supply Chain Management. Op de pagina **Parameters voor vraagprognose** klikt u op het tabblad **Azure Machine Learning**.
 

@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b6be53e9a2065373ca37c2791568a8161823803f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 86e74086a5a74c7af5f2572d1a653a1658d729c0
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772405"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853854"
 ---
-## <a name="integrated-tax"></a>Geïntegreerde belasting
+# <a name="integrated-tax"></a>Geïntegreerde belasting
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ Belastinginstellingsgegevens bepalen de instellingen voor zowel indirecte belast
 
 Belastinggegevens omvatten een verzameling entiteitstoewijzingen die samenwerken tijdens de interactie van gegevens, zoals in de volgende tabel wordt weergegeven.
 
-Finance en Operations   | Customer Engagement-toepassing
+Finance en Operations   | Andere Dynamics 365-apps
 -------------------------|---------------------------------
 Belastingcodes                  | msdyn\_taxcodes.md
 Belastinggroepen               | msdyn\_taxgroups.md

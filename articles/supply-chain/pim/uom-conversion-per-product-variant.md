@@ -3,12 +3,12 @@ title: Conversie van maateenheid per productvariant
 description: In dit onderwerp wordt uitgelegd hoe conversies van maateenheden kunnen worden ingesteld voor productvarianten.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249443"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935094"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversie van maateenheid per productvariant
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 In dit onderwerp wordt uitgelegd hoe conversies van maateenheden kunnen worden ingesteld voor productvarianten. Het bevat een voorbeeld van de instellingen.
 
 Met deze functie kunnen bedrijven verschillende eenheidconversies tussen de varianten van hetzelfde product definiëren. Het volgende voorbeeld wordt gebruikt in dit onderwerp. Een bedrijf verkoopt T-shirts in de maten Small, Medium, Large en Extra large. Het T-shirt is gedefinieerd als een product en de verschillende maten zijn gedefinieerd als varianten van het product. De T-shirts zijn verpakt in dozen en er passen vijf T-shirts in een doos, met uitzondering van de T-shirts met de maat Extra large, waarvan er maar vier passen in een doos. Het bedrijf wil de verschillende varianten van de T-shirts in de eenheid **Stuks** bijhouden, maar verkoopt de T-shirts in de eenheid **Dozen**. De conversie tussen de voorraadeenheid en de verkoopeenheid is 1 doos = 5 stuks, met uitzondering van de variant Extra large waarvoor de conversie 1 doos = 4 stuks geldt.
-
-## <a name="setup"></a>Instellen
-
-U kunt de parameters configureren voor het gebruik van de functie voor producten die zijn ingeschakeld voor **Alle processen** of alleen voor het product dat is ingeschakeld voor **Magazijnprocessen**. Gebruik hiervoor de optie **Maateenheidconversies inschakelen** op de pagina **Productgegevensparameters instellen**.
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Een product voor eenheidconversie per variant instellen
 
 Productvarianten kunnen alleen worden gemaakt voor producten van het **productsubtype** **Productmodel**. Zie [Een productmodel maken](tasks/create-product-master.md) voor meer informatie.
 
 De functie is niet ingeschakeld voor producten die zijn ingesteld voor processen van het type Variabel gewicht. 
-
-Schakel tijdens het maken van een productmodel maateenheidconversie in met de optie **Maateenheidconversies inschakelen** op de pagina **Productdetails**.
 
 Wanneer het productmodel met vrijgegeven productvarianten is gemaakt, kunnen eenheidconversies per variant worden ingesteld. U kunt het menu-item voor het openen van de pagina voor eenheidconversie in de context van een product of productvariant vinden op de volgende pagina's.
 

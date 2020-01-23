@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772382"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853901"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Bijna realtime gegevensintegratie met Common Data Service
 
@@ -59,7 +59,7 @@ Synchrone, bidirectionele, near realtime gegevensstromen vereisen de volgende ve
 Volg deze stappen om de integratie tussen Finance and Operations-apps en Common Data Service in te stellen.
     
 1. Voor de installatie van het systeem voor Twee keer wegschrijven raadpleegt u de [stapsgewijze handleiding](https://aka.ms/dualwrite-docs) over het aankondigen van de preview voor Twee keer wegschrijven.
-2. Download en installeer de oplossing vanuit de Yammer-groep [Integratie tussen Finance and Operations, Common Data Service en Customer Engagement](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096). Het pakket bevat vijf oplossingen:
+2. Download en installeer de oplossing via de Yammer-groep [Fin Ops and CDS/CE Integration via Dual-Write](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096). Het pakket bevat vijf oplossingen:
 
     + Dynamics365Company
     + CurrencyExchangeRates

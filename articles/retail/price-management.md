@@ -3,7 +3,7 @@ title: Verkoopprijsbeheer detailhandel
 description: Dit onderwerp beschrijft de concepten voor het maken en beheren van verkoopprijzen in Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025213"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934766"
 ---
 # <a name="retail-sales-price-management"></a>Verkoopprijsbeheer van detailhandel
 
@@ -221,11 +221,11 @@ Er wordt één prijscalculatie-engine gebruikt voor het berekenen van de detailh
 
 Adviesprijs is ontworpen om te gebruiken met detailhandelsentiteiten in plaats van niet-detailhandelsentiteiten. Het is vooral ontworpen om prijzen in te stellen per winkel, niet per magazijn.
 
-De adviseprijsengine ondersteunt niet de volgende prijsbepalingsfuncties:
+De adviesprijsengine ondersteunt de volgende prijsbepalingsfuncties **niet**:
 
-- Prijs instellen met site- en magazijndimensies.
-- Op kenmerken gebaseerde prijzen
-- Leverancierskorting pass-through
+- Het instellen van prijzen op basis van de opslagdimensies van de vestiging of de vestiging en het magazijn wordt niet ondersteund. Als u alleen de vestigingsdimensie in de handelsovereenkomsten opgeeft, wordt voor de detailhandelprijzen de vestiging genegeerd en wordt de handelsovereenkomst toegepast op alle vestigingen. Als u zowel vestiging als magazijn opgeeft, is het gedrag niet gedefinieerd/niet getest omdat wordt verwacht dat detailhandelaren de winkelprijsgroepen gebruiken om de prijzen voor elke winkel en elk magazijn te beheren.
+- Prijzen op basis van kenmerk worden niet ondersteund.
+- Leverancierskortingen worden niet ondersteund.
 
 Bovendien ondersteunt de adviseprijsengine **alleen** de volgende prijsbepalingsfuncties:
 

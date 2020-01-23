@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 91b154a2379d6f0bdf8bea322c99be9e1c1925c9
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b0bcef9673970ad921f6ca5c6715b7086bcd8c4b
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517716"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898151"
 ---
 # <a name="personnel-actions-faq"></a>FAQ over personeelsacties
-
-[!include [banner](includes/banner.md)]
 
 Dit onderwerp bevat antwoorden op vragen die u mogelijk hebt als uw organisatie personeelsacties gebruikt. Personeelsacties zijn aanvullende stappen die u moet voltooien wanneer u bepaalde personeelsgerelateerde taken uitvoert. Voorbeelden van taken die mogelijk personeelsacties vereisten, zijn wanneer u nieuwe posities maakt, bestaande positiewaarden aanpast, nieuwe werknemers aanneemt, werknemers overdraagt, compensaties van werknemers wijzigt, positietoewijzingen wijzigt of werknemers beëindigt.
 

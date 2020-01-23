@@ -3,7 +3,7 @@ title: Geavanceerde filter- en querysyntaxis
 description: In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u het dialoogvenster Geavanceerd filteren/sorteren of de operator komt overeen in het filtervenster of de filters in de rasterkolomkoppen gebruikt.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180824"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931283"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Geavanceerde filter- en querysyntaxis
 
@@ -114,6 +114,12 @@ In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn 
 <td>Overeenkomend met de waarden die zijn gescheiden door een komma</td>
 <td>Typ alle zoekcriteria en scheid deze met behulp van komma's.</td>
 <td><strong>A, D, F, G</strong> heeft &quot;A&quot;, &quot;D&quot;, &quot;F&quot; en &quot;G&quot; als resultaat. De zoekopdracht <strong>10, 20, 30, 100</strong> heeft exact &quot;10, 20, 30, 100&quot; als resultaat.</td>
+</tr>
+<tr>
+<td>"" (twee dubbele aanhalingstekens)</td>
+<td>Overeenkomend met een lege waarde</td>
+<td>Typ twee opeenvolgende dubbele aanhalingstekens om te filteren op lege waarden in dat veld.</td>
+<td>Met twee opeenvolgende dubbele aanhalingstekens (<strong>""</strong>) wordt gezocht naar rijen zonder waarde voor de huidige kolom.</td>
 </tr>
 <tr>
 <td>(<span class="code">SQL-instructie</span>) (SQL-instructie tussen haakjes)</td>

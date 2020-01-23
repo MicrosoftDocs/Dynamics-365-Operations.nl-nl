@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824515"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933903"
 ---
 # <a name="business-document-management-overview"></a>Overzicht van Beheer van bedrijfsdocumenten
 
-Zakelijke gebruikers gebruiken het [ER-overzicht (elektronische rapportage)](general-electronic-reporting.md) om indelingen voor uitgaande documenten te configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Gebruikers kunnen ook de gegevensstroom definiëren om op te geven welke toepassingsgegevens in gegenereerde documenten worden geplaatst. Het ER-raamwerk genereert uitgaande documenten in Microsoft Office-indelingen (Excel-werkmappen of Word-documenten) met behulp van vooraf gedefinieerde sjablonen. De sjablonen worden gevuld met vereiste gegevens in overeenstemming met de geconfigureerde gegevensstroom wanneer vereiste documenten worden gegenereerd. Elke geconfigureerde indeling kan als onderdeel van een ER-oplossing worden gepubliceerd om specifieke uitgaande documenten te genereren. Dit wordt weergegeven in een configuratie met de ER-indeling die sjablonen kan bevatten die u kunt gebruiken om verschillende uitgaande documenten te genereren. Zakelijke gebruikers kunnen dit raamwerk gebruiken om vereiste bedrijfsdocumenten te beheren.
+Zakelijke gebruikers gebruiken het raamwerk van [ER (Elektronische rapportage)](general-electronic-reporting.md) om indelingen voor uitgaande documenten te configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Gebruikers kunnen ook de gegevensstroom definiëren om op te geven welke toepassingsgegevens in gegenereerde documenten worden geplaatst. Het ER-raamwerk genereert uitgaande documenten in Microsoft Office-indelingen (Excel-werkmappen of Word-documenten) met behulp van vooraf gedefinieerde sjablonen. De sjablonen worden gevuld met vereiste gegevens in overeenstemming met de geconfigureerde gegevensstroom wanneer vereiste documenten worden gegenereerd. Elke geconfigureerde indeling kan als onderdeel van een ER-oplossing worden gepubliceerd om specifieke uitgaande documenten te genereren. Dit wordt weergegeven in een configuratie met de ER-indeling die sjablonen kan bevatten die u kunt gebruiken om verschillende uitgaande documenten te genereren. Zakelijke gebruikers kunnen dit raamwerk gebruiken om vereiste bedrijfsdocumenten te beheren.
 
 **Beheer van bedrijfsdocumenten** is gebaseerd op het ER-raamwerk en stelt zakelijke gebruikers in staat zakelijke documentsjablonen te bewerken met de Microsoft Office 365-service of de toepasselijke Microsoft Office-bureaubladtoepassing. Wijzigingen in de documenten kunnen betrekking hebben op het wijzigen in het ontwerp van bedrijfsdocumenten en het toevoegen van tijdelijke aanduidingen voor extra gegevens zonder wijzigingen in broncode en nieuwe implementaties. Er is geen kennis van het ER-raamwerk nodig om sjablonen van bedrijfsdocumenten bij te werken.
 
@@ -59,7 +59,7 @@ De volgende rapporten met Excel-sjablonen zijn beschikbaar in de release van de 
 
 Meer rapporten worden beschikbaar. Speciale meldingen over aanvullende rapporten worden afzonderlijk verzonden. 
 
-Een volledige lijst met alle rapporten die zijn gepland voor de release van oktober 2019, vindt u in [Configureerbare rapportage voor bedrijfsdocumenten in Word en Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Voor meer informatie over deze functie kunt u het voorbeeld in dit onderwerp uitvoeren.
+Een volledige lijst met alle rapporten die zijn gepland voor de release van oktober 2019, vindt u in [Configureerbare rapportage voor bedrijfsdocumenten in Word en Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Voor meer informatie over deze functie kunt u het voorbeeld in dit onderwerp uitvoeren.
 
 ## <a name="configure-er-parameters"></a>ER-parameters configureren
 

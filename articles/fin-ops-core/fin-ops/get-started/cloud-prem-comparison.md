@@ -3,7 +3,7 @@ title: Vergelijking van functies tussen cloud en on-premises
 description: In dit onderwerp ziet u welke functies worden ondersteund in de cloud en on-premises.
 author: sericks007
 manager: AnnBe
-ms.date: 10/11/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 8fa5ff0de4e97d5dc178581f721f3a6ea72fc974
-ms.sourcegitcommit: 70c6257bd6833de3e8de34d9a7561088194e59cc
+ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
+ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2573925"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935382"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Vergelijking van functies tussen cloud en on-premises
 
@@ -48,7 +48,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 | Gegevensbeheer en -integratie      |                                                                                           | Ja       | Ja             |
 |                                      | Uitbreiding op configuratiebasis                                                            | Ja       | Nee              |
 |                                      | Gegevens exporteren naar uw eigen datawarehouse                                                    | Ja       | Ja             |
-|                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Nee              |
+|                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Ja              |
 |                                      | Gegevensintegraties                                                                         | Ja       | Ja             |
 | Documentbeheer                  |                                                                                           | Ja       | Ja             |
 | Financieel beheer                 |                                                                                           | Ja       | Ja             |
@@ -148,7 +148,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 
 ## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
 
-Als u een lijst wilt zien van de retailmogelijkheden die beschikbaar in on-premises implementaties, raadpleegt u [Retail-functies voor on-premises implementaties](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/PeterRFriis-patch-1/articles/retail/retail-onprem.md).
+Als u een lijst wilt zien van de retailmogelijkheden die beschikbaar in on-premises implementaties, raadpleegt u [Retail-functies voor on-premises implementaties](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812302"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915242"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Overzicht van fiscale integratie voor detailhandelskanalen
 
@@ -138,9 +138,14 @@ De volgende fiscale integratievoorbeelden zijn momenteel beschikbaar in de Retai
 - [Voorbeeld van integratie van fiscale printer voor Polen](emea-pol-fpi-sample.md)
 - [Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk](emea-aut-fi-sample.md)
 - [Voorbeeld van integratie van fiscale registratieservice voor Tsjechië](emea-cze-fi-sample.md)
+- [Regeleenheidintegratievoorbeeld voor Zweden](./emea-swe-fi-sample.md)
 
 De volgende fiscale Integratiefunctionaliteit is ook beschikbaar in de Retail-SDK, maar maakt op het moment geen gebruik van het fiscale integratieraamwerk. Migratie van deze functionaliteit naar het fiscale integratieraamwerk is gepland voor latere updates.
 
-- [Kassafunctionaliteit voor Frankrijk](emea-fra-cash-registers.md)
-- [Kassafunctionaliteit voor Noorwegen](emea-nor-cash-registers.md)
-- [Voorbeeld voor Retail POS-integratie met regeleenheden voor Zweden](./retail-sdk-control-unit-sample.md)
+
+- [Digitale handtekening voor Frankrijk](emea-fra-cash-registers.md)
+- [Digitale handtekening voor Noorwegen](emea-nor-cash-registers.md)
+
+De volgende verouderde functionaliteit voor fiscale integratie die beschikbaar is in Retail SDK maakt geen gebruik van het raamwerk voor fiscale integratie en wordt afgeschaft in latere updates:
+
+- [Regeleenheidintegratievoorbeeld voor Zweden (verouderd)](./retail-sdk-control-unit-sample.md)
