@@ -3,7 +3,7 @@ title: Melden als voltooid aan een nummerplaatgestuurde locatie vanaf het taakka
 description: Dit onderwerp beschrijft het proces voor het voltooien van eindproducten voor een productieorder tot aan de voorraad wanneer een nummerplaat de locatie beheert.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 09/06/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: cb809e596fd6bf3030bcee460838798435512b95
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 63073035941cd2ef343c65364536fe76a9b71430
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572124"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935117"
 ---
 [!include [banner](../includes/banner.md)]
 
@@ -32,4 +32,10 @@ ms.locfileid: "2572124"
 
 Het proces met de naam Gereedmelding voltooit eindproducten op een productieorder in de voorraad. Als het voltooide product is ingeschakeld voor de geavanceerde magazijnprocessen, wordt het product gereedgemeld aan een locatie die de productie-uitvoerlocatie wordt genoemd. Zie [productie-uitvoerlocatie](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location)voor informatie over het instellen van de productie-uitvoerlocatie.
 
-U moet een bestaand nummerplaatnummer selecteren om deze taak te voltooien. Als de productie-uitvoerlocatie is ingesteld voor tracering met een nummerplaat, moet er een nummerplaatnummer worden opgenomen wanneer de productie-uitvoerlocatie wordt gereedgemeld. Het veld **Nummerplaat** wordt weer gegeven op de prompt **Voortgang rapporteren** van de pagina **Taakkaartapparaat**. Het veld wordt alleen weer gegeven op de prompt **Voortgang rapporteren** bij het rapporteren van de laatste bewerking van de productieorder. Het veld wordt alleen weergegeven als het artikel voor de productieorder is ingeschakeld voor magazijnbeheerprocessen. 
+Als de productie-uitvoerlocatie wordt gecontroleerd op nummerplaat, moet een nummerplaat worden opgegeven bij het gereedmelden. Het veld **Nummerplaat** wordt weer gegeven op de prompt **Voortgang rapporteren** van de pagina **Taakkaartapparaat**. Het veld is alleen zichtbaar bij **Voortgang melden** bij het rapporteren over de laatste bewerking van de productieorder en als het artikel voor de productieorder is ingeschakeld voor de magazijnbeheerprocessen. 
+
+Er zijn twee opties voor het opgeven van de nummerplaat
+- De gebruiker selecteert een bestaande nummerplaat in het veld Nummerplaat.
+- De nummerplaat wordt automatisch gegenereerd op basis van een nummerreeks en wordt standaard opgenomen in het veld Nummerplaat.
+
+U configureert de optie om de nummerplaat automatisch te laten genereren door de optie **Nummerplaat genereren** op de pagina **Taakkaart configureren voor apparaten** te selecteren.

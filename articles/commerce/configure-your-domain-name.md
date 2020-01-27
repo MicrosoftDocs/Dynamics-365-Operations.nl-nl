@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a988f533757cc3f8555fcf4fb724a22a5b014f8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 8f73c034563fb1cc6b05091b4c47e2a788d1a8b6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770453"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945531"
 ---
 # <a name="configure-your-domain-name"></a>Uw domeinnaam configureren
 
@@ -43,16 +43,16 @@ Als u na de e-commerce-initialisatie nieuwe domeinen wilt koppelen aan uw e-comm
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Online winkeloverzicht](online-store-overview.md)
+[Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
 
 [Een e-commerce-site maken](create-ecommerce-site.md)
 
-[Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
-
 [Een online-site koppelen aan een kanaal](associate-site-online-store.md)
+
+[Robots.txt-bestanden beheren](manage-robots-txt-files.md)
+
+[Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md)
 
 [Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen](add-cdn-support.md)
 
 [Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
-
-[Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md)

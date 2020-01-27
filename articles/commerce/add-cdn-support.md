@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fb757672fffb56892837c066d552773908dd1ec1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: d2d64f0de5287a764cb2e40b99a08084494bf53c
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696963"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945623"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen
 
@@ -140,16 +140,16 @@ Uw CDN is nu correct geconfigureerd voor gebruik met uw Commerce-site.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Online winkeloverzicht](online-store-overview.md)
-
-[Een e-commerce-site maken](create-ecommerce-site.md)
+[Uw domeinnaam configureren](configure-your-domain-name.md)
 
 [Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
 
+[Een e-commerce-site maken](create-ecommerce-site.md)
+
 [Een online-site koppelen aan een kanaal](associate-site-online-store.md)
 
-[Uw domeinnaam configureren](configure-your-domain-name.md)
-
-[Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
+[Robots.txt-bestanden beheren](manage-robots-txt-files.md)
 
 [Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md)
+
+[Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)

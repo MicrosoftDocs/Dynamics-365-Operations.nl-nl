@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 701ce0d710c20deb793534581c276edf02426a4b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 380f72f564d800d3f5b2e9f8fd3a5f8e8c9e81d5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833156"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898529"
 ---
 # <a name="choose-a-version-of-attract"></a>Een versie van Attract kiezen
 
-[[!include [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Welke versie van Microsoft Dynamics 365 Talent: Attract de juiste is voor u, is afhankelijk van de grootte en behoeften van uw organisatie. De basisversie van Attract biedt een subset van functionaliteit die is gericht op kleinere teams of organisaties waarin de aanstellende manager de primaire gebruiker is. U kunt beginnen met het gebruik van de basisversie van Attract met een of meer licenties.
 

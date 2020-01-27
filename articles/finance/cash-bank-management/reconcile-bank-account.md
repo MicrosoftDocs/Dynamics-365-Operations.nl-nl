@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188275"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888650"
 ---
 # <a name="reconcile-a-bank-account"></a>Een bankrekening afstemmen
 
@@ -64,7 +64,7 @@ U kunt een rekeningafschrift niet afstemmen op een bankrekening als een van de c
 
 8.  Gebruik het rapport **Niet-afgestemde banktransacties** om banktransacties weer te geven die nog niet zijn afgestemd. Als u het bankafschrift voor een bankrekening wilt weergeven, gebruikt u het rapport **Bankafschrift**.
 
-# <a name="cancel-bank-statement-reconciliation"></a>Afstemming van bankafschriften annuleren 
+## <a name="cancel-bank-statement-reconciliation"></a>Afstemming van bankafschriften annuleren 
 
 Met de functie Afstemming bankafschrift annuleren kunt u de afstemming van bankafschriften annuleren. Als u deze functie wilt gebruiken, schakelt u de functie **Afstemming bankafschrift annuleren** in de werkruimte **Functiebeheer** in. U moet ook de parameter **Bewerken van bankafschriften toestaan** inschakelen. Als u dit wilt doen, gaat u naar **Contanten en bankbeheer > Instellen > Parameters voor Contanten en bankbeheer > Bankafstemming**.
  

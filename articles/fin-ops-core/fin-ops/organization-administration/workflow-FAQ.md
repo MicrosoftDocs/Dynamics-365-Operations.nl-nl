@@ -3,7 +3,7 @@ title: Veelgestelde vragen workflow
 description: In dit onderwerp worden antwoorden op veelgestelde vragen over het workflowsysteem gegeven.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/19/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772692"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934904"
 ---
 # <a name="workflow-faq"></a>Veelgestelde vragen over werkstromen
 
@@ -37,7 +37,7 @@ Elke melding is voor een ander werkitem, maar doordat de meldingen op elkaar lij
 Er geldt momenteel een beperking in de functie voor het exporteren van werkstromen waardoor namen van werkstromen niet langer kunnen zijn dan 48 tekens. Als u een naam gebruikt die langer is dan 48 tekens, kan het foutbericht 'Server kon de aanvraag niet verifiëren' worden weergegeven en/of kan worden voorkomen dat een bestand wordt geëxporteerd zonder bestandstype. Het volgende blogbericht bevat nadere details: [Problemen bij het exporteren van werkstromen oplossen](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>Kan de indiener van een workflow de workflow ook goedkeuren?
-Ja, een indiener van een workflow kan de workflow ook goedkeuren als deze op die manier is geconfigureerd. Als u dit gedrag wilt voorkomen, stelt u **Workflowparameters > Algemeen > Fiatteur > Goedkeuring door indiener niet toestaan** in op **Ja**.
+Ja, een indiener van een workflow kan de workflow ook goedkeuren als deze op die manier is geconfigureerd. Als u dit gedrag wilt voorkomen, stelt u **Systeembeheer > Workflow > Workflowparameters > Algemeen > Fiatteur > Goedkeuring door indiener niet toestaan** in op **Ja**.
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>Kan ik waarschuwingen aan workflows toevoegen om gebruikers te voorzien van meldingen?
 Hier volgen enkele belangrijke punten met betrekking tot het toevoegen van waarschuwingen aan workflows om meldingen te geven:
@@ -51,3 +51,6 @@ Hier volgen enkele belangrijke punten met betrekking tot het toevoegen van waars
     - [Workflows bevatten zakelijke gebeurtenissen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) die de klant kan gebruiken voor het activeren van flows met de gewenste meldingen.   
 
 Als gebruikers niet de juiste meldingen vanuit het actiecentrum ontvangen wanneer aan hen een workflowwerkitem wordt toegewezen, gebruikt u [Zakelijke gebeurtenissen voor workflows](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) met Microsoft Power Automate om aanvullende of andere meldingen te bieden.
+
+## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>Workfloweditor kan niet worden gestart onder ADFS 
+Wanneer de workfloweditor wordt uitgevoerd onder AD FS (Active Directory Federation Services) in een bijgewerkte omgeving, kan de workfloweditor problemen ondervinden bij het starten. Als dit het geval is, zorgt u ervoor dat de URL https://dynamicsaxworkfloweditor/ wordt toegevoegd aan de eigenschap **Microsoft Dynamics 365 for Operations On-premises - Workflow - Systeemeigen toepassing** in de AD FS-instellingen.

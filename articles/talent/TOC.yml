@@ -8,6 +8,12 @@
         - name: Nieuwe of gewijzigde functies in Talent
           href: whats-new.md
           items:
+            - name: 17 december 2019
+              href: whats-new-talent-december-17-2019.md
+            - name: 12 december 2019
+              href: whats-new-talent-december-12-2019.md
+            - name: 3 december 2019
+              href: whats-new-talent-december-3-2019.md
             - name: 19 november 2019
               href: whats-new-talent-november-19-2019.md
             - name: 12 november 2019
@@ -26,16 +32,16 @@
               href: whats-new-talent-september-17-2019.md
             - name: 10 september 2019
               href: whats-new-talent-september-12-2019.md
-            - name: 27 augustus 2019
-              href: whats-new-talent-august-28-2019.md
-            - name: 22 augustus 2019
-              href: whats-new-talent-august-21-2019.md
-            - name: 13 augustus 2019
-              href: whats-new-talent-august-15-2019.md
-            - name: 6 augustus 2019
-              href: whats-new-talent-august-7-2019.md
-            - name: Wat is nieuw - archieven 2019
+            - name: Nieuwe functies in archieven 2019
               items:
+                - name: 27 augustus 2019
+                  href: whats-new-talent-august-28-2019.md
+                - name: 22 augustus 2019
+                  href: whats-new-talent-august-21-2019.md
+                - name: 13 augustus 2019
+                  href: whats-new-talent-august-15-2019.md
+                - name: 6 augustus 2019
+                  href: whats-new-talent-august-7-2019.md
                 - name: 30 juli 2019
                   href: whats-new-talent-july-31-2019.md
                 - name: 23 juli 2019
@@ -94,7 +100,7 @@
                   href: whats-new-talent-january-17.md
                 - name: 11 januari 2019
                   href: whats-new-talent-january-11.md
-            - name: Wat is nieuw - archieven 2018
+            - name: Nieuwe functies in archieven 2018
               items:
                 - name: 14 december 2018
                   href: whats-new-talent-december-14.md
@@ -134,32 +140,28 @@
           href: hr-copy-instance.md
         - name: Talent-omgevingen verwijderen
           href: remove-talent-environment.md
-        - name: Inrichten voor de app Onboard
+        - name: Functies beheren
+          href: access-preview-feature.md
+        - name: Onboard inrichten
           href: modular-app-tech-faq.md
-        - name: PowerApps-apps insluiten
+        - name: Power Apps-apps insluiten
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR en Common Data Service
+        - name: Core HR-entiteiten in Common Data Service
           href: CoreHREntities.md
         - name: Ondersteuning voor Talent
           href: talent-support.md
     - name: Personeelswerving in uw organisatie met Attract
       items:
-        - name: Welke versie van Attract?
+        - name: Een versie van Attract kiezen
           href: attract-comprehensive-hiring.md
         - name: Functies en voorzieningen van Attract
           href: attract-overview.md
-        - name: Veelgestelde vragen
-          items:
-            - name: Veelgestelde vragen over LinkedIn-integratie
-              href: attract-linkedin-faq.md
         - name: Systeeminstellingen configureren
           items:
             - name: Bedrijfsgegevens configureren
               href: admin-settings-attract.md
             - name: Gebruikersmachtigingen instellen
               href: security-attract.md
-            - name: Functies beheren
-              href: access-preview-feature.md
             - name: Uw vacaturesite instellen
               href: career-site.md
             - name: Broadbean-integratie inschakelen
@@ -168,13 +170,15 @@
               href: attract-configure-email-settings.md
             - name: LinkedIn-integratie instellen
               href: attract-admin-linkedin.md
+            - name: Veelgestelde vragen over LinkedIn-integratie
+              href: attract-linkedin-faq.md
         - name: Een aanstellingsproces maken
           items:
-            - name: Een processjabloon maken
+            - name: Een aanstellingsprocessjabloon maken
               href: process-templates-attract.md
-            - name: Activiteiten in aanstellingsprocessen
+            - name: Activiteiten toevoegen aan een aanstellingsproces
               href: activities-attract.md
-            - name: E-mailsjablonen
+            - name: E-mailsjablonen maken
               href: email-templates.md
             - name: Analytische rapporten gebruiken
               href: analytic-reports.md
@@ -197,10 +201,10 @@
             - name: Kandidaatbronnen bijhouden
               href: source-tracking.md
             - name: Intelligente aanbevelingen
-              href: Intelligent-Recommendations.md
+              href: intelligent-recommendations.md
         - name: Sollicitatiegesprekken instellen
           items:
-            - name: Plannen van sollicitatiegesprekken en feedback
+            - name: Sollicitatiegesprekken plannen
               href: interview-scheduling-feedback.md
         - name: Een voorstel doen
           items:
@@ -433,7 +437,7 @@
       items:
         - name: Ingesloten Power BI in werkgebieden
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Talent uitbreiden met PowerApps en Microsoft Flow - voorbeeldscenario's
+        - name: Talent uitbreiden met Power Apps en Power Automate
           href: extensibility-examples.md
         - name: Mobiele app
           items:
@@ -443,8 +447,6 @@
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Mobiel werkgebied Mijn team
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Mobiele werkgebieden publiceren
-              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Wijzigingen bijhouden in wervingsgegevens
           href: process-auditing.md
         - name: Uitbreidbaarheid in Attract

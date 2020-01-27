@@ -3,7 +3,7 @@ title: Power Apps insluiten
 description: In dit onderwerp wordt beschreven hoe Power Apps wordt ingesloten in de client om de functionaliteit van het product te verbeteren.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824488"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870236"
 ---
 # <a name="embed-microsoft-power-apps"></a>Microsoft Power Apps insluiten
 
@@ -55,7 +55,7 @@ De volgende instructies laten zien hoe u een Power App insluit in de webclient.
 
     - Het veld **Naam** geeft de weergegeven tekst aan voor de knop of het tabblad met de ingesloten Power App. Vaak zult u de naam van de Power App in dit veld willen herhalen.
     - **App-id** is de GUID voor de Power App die u wilt insluiten. Als u deze waarde wilt ophalen, gaat u naar de Power App op [web.powerapps.com](https://web.powerapps.com) en zoekt u het veld **App-id** onder **Details**.
-    - Voor **Gegevens invoeren voor de Power App** kunt u eventueel het veld selecteren dat de gegevens bevat die u als invoer wilt doorgeven aan de Power App. Raadpleeg de sectie [Een Power App bouwen die gebruikmaakt van gegevens uit Finance and Operations-apps](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps) verderop in dit onderwerp voor meer informatie over hoe de Power App toegang krijgt tot gegevens uit Finance and Operations-apps.
+    - Voor **Gegevens invoeren voor de Power App** kunt u eventueel het veld selecteren dat de gegevens bevat die u als invoer wilt doorgeven aan de Power App. Raadpleeg de sectie [Een Power App bouwen die gebruikmaakt van gegevens uit Finance and Operations-apps](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) verderop in dit onderwerp voor meer informatie over hoe de Power App toegang krijgt tot gegevens uit Finance and Operations-apps.
     - Kies de **toepassingsgrootte** die overeenkomt met het type Power App dat u insluit. Selecteer **Dun** voor Power Apps voor mobiele apparaten en **Breed** voor Power Apps voor tabletten. Zo zorgt u dat voldoende schijfruimte wordt gereserveerd voor de ingesloten Power App.
     - Het sneltabblad **Rechtspersonen** biedt de mogelijkheid om te kiezen voor welke rechtspersonen de Power App beschikbaar is. De standaardwaarde is dat de Power App voor alle rechtspersonen wordt weergegeven.
 
@@ -101,7 +101,7 @@ Ga als volgt te werk om de configuratie van een ingesloten Power App te bewerken
 
 Nadat een Power App is ingesloten op een pagina, zijn er twee manieren om deze te verwijderen:
 
-- Ga naar het deelvenster **Een Power App bewerken** aan de hand van de instructies in [Een ingesloten Power App bewerken](#editing-an-embedded-powerapp) hierboven. Bevestig dat het deelvenster de informatie bevat voor de ingesloten Power App die u wilt verwijderen en klik op de knop **Verwijderen**.
+- Ga naar het deelvenster **Een Power App bewerken** aan de hand van de instructies in [Een ingesloten Power App bewerken](#editing-an-embedded-power-app) hierboven. Bevestig dat het deelvenster de informatie bevat voor de ingesloten Power App die u wilt verwijderen en klik op de knop **Verwijderen**.
 - Omdat een ingesloten Power App wordt opgeslagen als persoonlijke gegevens, worden bij het wissen van aanpassingen op uw pagina ook eventuele ingesloten Power Apps op die pagina verwijderd. Houd er rekening mee dat het wissen van de aanpassingen van de pagina definitief is. Als u uw aanpassingen op een pagina wilt verwijderen, selecteert u **Opties** en klikt u vervolgens op **Dit formulier aanpassen**. Selecteer onder het menu **Beheren** de knop **Wissen**. Na het vernieuwen van uw browser worden alle vorige aanpassingen voor deze pagina verwijderd. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie over het optimaliseren van pagina's met aanpassingen.
 
 ## <a name="appendix"></a>Bijlage

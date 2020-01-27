@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009417"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915196"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Gestroomlijnde invoer en navigatie voor werknemers
 
-[!include [banner](includes/banner.md)]
-
 In Dynamics 365 Talent kunnen van medewerkers- en aanstellingsgegevens efficiënt worden ingevoerd. U kunt werkhistoriegegevens snel bijwerken voor vroegere, actieve en toekomstige medewerkers en contractanten.
 
-U kunt ook een vereenvoudigde navigatie-ervaring inschakelen om snel gerelateerde informatie te vinden en de nodige wijzigingen aan te brengen. Deze functionaliteit is nu beschikbaar in sandbox-omgevingen. Als u deze functie wilt inschakelen, navigeert u naar **Systeembeheer > Koppelingen > Instellingen > Systeemparameters > Voorbeeldfuncties**. Selecteer **Verbeterd medewerkersformulier en navigatie**. Hierdoor worden deze wijzigingen voor alle gebruikers ingeschakeld. U kunt deze optie op elk gewenst moment uitschakelen.
+U kunt ook een vereenvoudigde navigatie-ervaring inschakelen om snel gerelateerde informatie te vinden en de nodige wijzigingen aan te brengen. Deze functionaliteit is nu beschikbaar in alle sandbox-omgevingen. Als u deze functie wilt inschakelen, navigeert u naar **Systeembeheer > Functiebeheer > Nieuw > Gestroomlijnde invoer voor werknemers > Inschakelen**. Hierdoor worden deze wijzigingen voor alle gebruikers ingeschakeld. U kunt deze optie op elk gewenst moment uitschakelen.
 
 ## <a name="view-options"></a>Opties weergeven
 

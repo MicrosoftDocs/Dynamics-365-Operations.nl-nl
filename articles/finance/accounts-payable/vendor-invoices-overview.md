@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
+ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772163"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2890322"
 ---
 # <a name="vendor-invoices-overview"></a>Overzicht van leveranciersfacturen
 
@@ -76,7 +76,7 @@ Wanneer u de factuur boekt, wordt de hoeveelheid bij **Resterend gedeelte van fa
 
 Bij deze optie wordt ervan uitgegaan dat er minimaal één productontvangstbon is geboekt voor de inkooporder. De leveranciersfactuur is gebaseerd op deze productontvangstbonnen en hieruit worden de hoeveelheden overgenomen. De financiële gegevens voor de factuur zijn gebaseerd op de gegevens die worden ingevoerd wanneer u de factuur boekt.
 
-Zie [Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md) voor meer informatie.
+Zie [Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md) voor meer informatie.
 
 ## <a name="working-with-multiple-invoices"></a>Werken met meerdere facturen
 

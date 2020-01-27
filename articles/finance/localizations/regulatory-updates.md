@@ -3,7 +3,7 @@ title: Wettelijk voorgeschreven updates
 description: Dit onderwerp bevat een lijst van geplande updates en vrijgegeven reglementaire updates voor Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/23/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 480253d1401c567e27f636f8a2b19fa3937e89e5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: dc919d232f0e4f0cfbab372b9fdded2657906a1d
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770379"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934672"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -42,58 +42,46 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 
 |Geplande vrijgavedatum:|Versie van release|Land/regio|Wettelijke update|
 |--------------------|---------------|-------|-------|
-|      november 2019          |   10.0.7(PEAP)      | Italië      |   Wijzigingen in btw-beheer door D.L. 119 van 23 okt 2019: driemaandelijkse btw-aangifte ("Lipe 2018")    |
-|      november 2019          |   10.0.7(PEAP)      | Italië      |   Retail - Klantgegevens in beheren in POS |
-|      november 2019          |   10.0.7(PEAP)      | Italië      |   Retail - klantgegevens in fiscaal ontvangstbewijs afdrukken | 
-|      november 2019          |   10.0.7(PEAP)      | Japan      |   Wijziging in verbruikstarief en verlaagd belastingtarief worden ingevoerd (factuurindelingen) | 
-|      november 2019          |   10.0.7(PEAP)      | Mexico      |   Regel 2.7.2.9 bijwerken - De tijdzone gebruiken van de postcode van de instantie die het CFDI-document uitgeeft | 
-|      november 2019          |   10.0.7(PEAP)      | Verenigd Koninkrijk     |   Digitaal belastingaangifte doen - Btw-aangifte maken voor bedrijven die als btw-groep aangifte doen in dezelfde systeemdatabase v.10 | 
-|      November - augustus 2019          |   10.0.7 (PEAP), 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilië      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.20    |
-|      November - augustus 2019          |   10.0.7 (PEAP), 10.0.6      | Brazilië      |   DRCST-declaratie SC   |
-|      November - augustus 2019          |   10.0.7 (PEAP), 10.0.6      | Italië      |   Wijzigingen in btw-beheer door D.L. 119 van 23 okt 2018 - Dynamics 365 for Finance and Operations  |
-|      Augustus 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilië      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.10    |
-|      Augustus 2019          |   10.0.6, 10.0.5HF      | Brazilië     |   Nieuwe wetgeving die betrekking heeft op de EFD-ICMS/IPI, wordt geïmplementeerd door de staat RJ. Resolutie 13/19 van Rio de Janeiro (RJ) is voor "Speciale procedures die moeten worden toegepast bij Vrijspraak     |
-|      Augustus 2019          |   10.0.6      | Brazilië      |   Fiscale verklaring CAT 42/18    |
-|      Augustus 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japan      |   Wijziging in tarief verbruiksbelasting en verlaagd belastingtarief worden ingevoerd    |
-|      Augustus-juli 2019          |   10.0.5, 10.0.4HF, 10.0.3HF      | Spanje      |   Spanje: SII: Vanaf 1 oktober 2019 zijn de validatieregels gewijzigd    |
-|      Juli 2019          |   10.0.5, 10.0.4HF, 10.0.2HF      | Brazilië      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.00  |
-|      Juli 2019          |   10.0.5      | Brazilië      |   Praktische gids sped-bijdragen 1.31. nieuwe richtlijnen    |
-|      Juli 2019          |   10.0.5      | Mexico      |   MX -CFDI 3.3 - De details van IEPS-belastingtransacties in XML moeten optioneel zijn, afhankelijk van klantprofiel    |
-|      Juni - juli 2019          |   10.0.5, 10.0.3HF      | Verenigd Koninkrijk      |   Belasting digitaal maken - parameters over oorspronkelijk apparaat ter preventie van fraude - 10.0.5    |
-|      mei 2019          |   10.0.4      | Brazilië      |   Binnenkomend fiscaal document 66    |
-|      mei 2019          |   10.0.4, 10.0.3HF, 10.02HF, 10.0.1HF      | Brazilië      |   NF-e Besluit 54.308/18 - RS    |
-|      mei 2019          |   10.0.4, 10.0.3HF, 10.0.2HF, 10.0.1HF      | Brazilië      |   NF-e en NFC-e - Resolutie 13/2019 en Verordening SUCIEF 55/2019- RJ - nieuwe voorwaarden voor uitvoer van vrijstellingslabels in NF-e    |
-|      mei 2019          |   10.0.4, 10.0.3HF      | India      |   De weergave van Plaats van levering en Provincie in de GST-belastingfactuur    |
-|      mei 2019          |   10.0.4      | Mexico      |   DIOT-aangifte van derden - wijzigingen in indeling 2019    |
-|      2019 april          |   10.0.3      | Brazilië      |   Door ICMS-correcties in fiscale documenten is tabel 5.2 van kracht    |
-|      2019 april          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brazilië      |   NF-e nieuw NT 2018.005 - v.1.20    |
-|      2019 april          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brazilië     |   SPED ECD - indeling 7    |
-|      2019 april          |   10.0.3      | Brazilië      |   SPED ECF - indeling 5 voor 2019    |
-|      2019 april          |   10.0.3      | India      |   Correctie van btw in de douanevaluta in BOE in plaats van in de transactievaluta    |
-|      2019 april          |   10.0.3      | India      |   Berekening van belasting in douanevaluta in BOE in plaats van in de transactievaluta   |
-|      2019 april          |   10.0.3, 10.02HF, 10.0.1HF      | India      |   Wijziging van notatie van IEC-nummer    |
-|      2019 april          |   10.0.3      | Litouwen      |   Litouwen: In een i.SAF-rapport kunnen gebruikers systeem-btw-codes definiëren in combinatie met wettelijke belastingcodes)    |
-|      2019 april          |   10.0.3      | Polen      |   SAF-facturen (JPK_FA) v.2 vanaf 1 juli 2019    |
-|      2019 april          |   10.0.2      | Italië      |   Italië: ¨nieuwe Spesometro¨ (Esterometro) om het splitsen van bestanden op bestandsvolume te ondersteunen en het aantal records te beperken    |
-|      2019 april          |   10.0.1      |    Oostenrijk     |Detailhandel - Fiscale integratie         |
-|      2019 april          |   10.0.1      |    Europa     |E-facturering - Export van klantfacturen in de indeling PEPPOL BIS 3         |
-|      2019 april          |   10.0.1      |    Europa     |E-facturering - Import van leveranciersfacturen in de indeling PEPPOL BIS 3         |
-|      2019 april          |   10.0.1      |   Duitsland     |E-facturering - Export van klantfacturen in de indeling xRechnung 1.1         |
-|      2019 april          |   10.0.1      | Hongarije      |  Hongarije: online facturering v. 1.1 2019  |
-|      2019 april          |   10.0.1      | Japan      |  2019 Verandering van Japans tijdperk  |
-|      2019 april          |   10.0.1      |    Rusland     |Wijzigingen in aangifte van belasting op grondbezit van 2018 |
-|      2019 april          |   10.0.1      |    Rusland     |[Beoordeelde belastingaangifte](rus-assessed-tax-declaration.md)|
-|      2019 april          |   10.0.1      |    Rusland     |Wijzigingen in aangifte van transportbelasting van 2019  |
-|      2019 april          |   10.0.1      |    Rusland     |[Btw-aangifte](rus-VAT-declaration.md) |
-|      2019 april          |   10.0.1      |    Rusland     |Wijzigingen van indeling voor btw-aangifte van 2019 (verkoop- en inkoopboeken) |
-|      2019 april          |   10.0.1      |    Verenigd Koninkrijk     |[Finance and Operations voorbereiden voor integratie met MTD voor btw](emea-gbr-mtd-vat-integration.md)    |    
-|      2019 maart          |   10.0.0      |    Oostenrijk   |   Wijzigingen in Kammerumlage 2019 (inkoopheffing)    |
-|      2019 maart          |   10.0.0      |    Brazilië    |     SPED EFD-bijdragen - indeling 004 en 005  |
-|      2019 maart          |   10.0.0      |    Maleisië     |Maleisië vervangt GST door SST, Sales & Services Tax        |
+|      Brazilië        |   2019 december       | 10.0.8      |   SPED fiscale indeling 014 |
+|      Brazilië         |   November - augustus 2019       | 10.0.7, 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.20    |
+|      Brazilië          |   November - augustus 2019       | 10.0.7, 10.0.6      |   DRCST-declaratie SC   |
+|      Brazilië         |   Augustus 2019       | 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.10    |
+|      Brazilië          |   Augustus 2019      | 10.0.6HF, 10.0.5HF, 10.0.4HF     |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.10    |
+|      Brazilië          |   Augustus 2019      | 10.0.6, 10.0.5HF     |   Nieuwe wetgeving die betrekking heeft op de EFD-ICMS/IPI, wordt geïmplementeerd door de staat RJ. Resolutie 13/19 van Rio de Janeiro (RJ) is voor "Speciale procedures die moeten worden toegepast bij Vrijspraak     |
+|      Brazilië          |   Augustus 2019      | 10.0.6        |   Fiscale verklaring CAT 42/18    |
+|      Brazilië          |   Juli 2019     | 10.0.5, 10.0.4HF, 10.0.2HF      |   Een nieuwe versie van technische notities voor NF-e: NT 2019.001 versie 1.00  |
+|      Brazilië          |   Juli 2019     | 10.0.5      |   Praktische gids sped-bijdragen 1.31. nieuwe richtlijnen    |
+|      Brazilië          |   mei 20191     | 10.0.4      |   Binnenkomend fiscaal document 66    |
+|      Brazilië          |   mei 2019      | 10.0.4      |   NF-e Besluit 54.308/18 - RS    |
+|      Brazilië          |   mei 2019      | 10.0.4      |   NF-e en NFC-e - Resolutie 13/2019 en Verordening SUCIEF 55/2019- RJ - nieuwe voorwaarden voor uitvoer van vrijstellingslabels in NF-e    |
+|      India          |   Augustus 2019     | 10.0.6       |   Detailhandel: beheer van klant registratienummers van POS voor India    |
+|      India          |   mei 2019     | 10.0.4      |   De weergave van Plaats van levering en Provincie in de GST-belastingfactuur    |
+|      Italië          |   2019 december       | 10.0.8      |   Wijzigingen in btw-beheer door D.L. 119 van 23 oktober 2018: Jaarlijkse belastingaangifte |
+|      Italië         |   november 2019       | 10.0.7      |   Wijzigingen in btw-beheer door D.L. 119 van 23 okt 2019: driemaandelijkse btw-aangifte ("Lipe 2018")    |
+|      Italië         |   november 2019     | 10.0.7      |   Retail - Klantgegevens in beheren in POS |
+|      Italië         |   november 2019      | 10.0.7      |   Retail - klantgegevens in fiscaal ontvangstbewijs afdrukken |
+|      Italië         |   November - augustus 2019     | 10.0.7, 10.0.6      |   Wijzigingen in btw-beheer door D.L. 119 van 23 okt 2018 - Dynamics 365 for Finance and Operations  |
+|      Italië          |   Augustus 2019      | 10.0.6      |   Datum van btw-register    |
+|      Italië          |   Augustus 2019     | 10.0.6      |   Btw-beheer op datum van btw-register    |
+|      Japan          |   December - november 2019     | 10.0.8, 10.0.7HF       |   Wijziging in tarief verbruiksbelasting en verlaagd belastingtarief worden ingevoerd (Verbruiksbelastingrapport) |
+|      Japan         |   november 2019      | 10.0.7       |   Wijziging in verbruikstarief en verlaagd belastingtarief worden ingevoerd (factuurindelingen) |
+|      Japan          |   november 2019     | 10.0.6HF     |   Wijziging in tarief verbruiksbelasting en verlaagd belastingtarief worden ingevoerd (Verbruiksbelastingrapport)  |
+|      Japan          |   Augustus 2019      | 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      |   Wijziging in tarief verbruiksbelasting en verlaagd belastingtarief worden ingevoerd    |
+|      Mexico          |   December - oktober 2019    | 10.0.8, 10.0.7HF, 10.0.6HF        |   Detailhandel - CFDI algemeen: div. opl. 2019 - c_CodigoPostal en tijdzone |
+|     Mexico          |   November - september 2019       | 10.0.7, 10.0.6HF      |   Regel 2.7.2.9 bijwerken - De tijdzone gebruiken van de postcode van de instantie die het CFDI-document uitgeeft |
+|      Mexico           |   December - oktober 2019      | 10.0.8, 10.0.7HF, 10.0.6HF     |   Codevalidatie in product- en servicecatalogus |
+|      Mexico         |   Juli 2019     | 10.0.5      |   MX -CFDI 3.3 - De details van IEPS-belastingtransacties in XML moeten optioneel zijn, afhankelijk van klantprofiel    |
+|      Mexico          |   mei 2019     | 10.0.4      |   DIOT-aangifte van derden - wijzigingen in indeling 2019    |
+|      Polen          |   November - oktober 2019     | 10.0.7, 10.0.6HF Polen     |   Verplichte gesplitste betaling - 10.0.7 |
+|      Singapore           |   2019 december     | 10.0.7      |   GST-retourrapport |
+|      Spanje          |   Augustus-juli 2019      | 10.0.5, 10.0.4HF      |   Spanje: SII: Vanaf 1 oktober 2019 zijn de validatieregels gewijzigd    |
+|      Verenigd Koninkrijk          |   2019 december       | 10.0.8      |   Belasting digitaal maken - Toestemming van systeembeheerder om informatie buiten D365 te verzenden met behulp van de integratie met HMRC |
+|      Verenigd Koninkrijk          |   november 2019     | 10.0.7     |   Digitaal belastingaangifte doen - Btw-aangifte maken voor bedrijven die als btw-groep aangifte doen in dezelfde systeemdatabase v.10 |
+|      Verenigd Koninkrijk          |   Juni - juli 2019      | 10.0.5     |   Belasting digitaal maken - Parameters over oorspronkelijk apparaat ter preventie van fraude - 10.0.5    |
 
 
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 - Zoek naar alle geplande en wettelijke updates op [Lifecycle Service - probleem zoeken](https://lcs.dynamics.com/Logon/Index) (aanmelden vereist).
 - Voor een overzicht van de taalversies die worden ondersteund voor , raadpleegt u de [Internationale beschikbaarheidshandleiding](https://aka.ms/dynamics_365_international_availability_deck).
 

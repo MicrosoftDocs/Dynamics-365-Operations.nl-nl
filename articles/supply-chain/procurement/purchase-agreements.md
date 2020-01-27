@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813357"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902427"
 ---
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
@@ -36,7 +36,14 @@ Inkoopovereenkomsten kunnen gelden voor een bepaalde hoeveelheid van een product
 
 Op de pagina **Inkoopovereenkomsten** kunt u inkoopovereenkomsten maken, toepassen en opvolgen die tussen uw organisatie en de leveranciers bestaan. Zo kunt na de aanmaak van een inkoopovereenkomst direct vanuit de overeenkomst een order plaatsen. Elke inkoopovereenkomst heeft een geldigheidsduur die is gedefinieerd door de persoon die de inkoopovereenkomst maakt. De afleverdatum van een inkoop moet binnen de werkelijke data van deze geldigheidsperiode vallen.  
 
-Nadat u een inkoopovereenkomst maakt, moet u deze activeren voordat het van kracht wordt. Om een inkoopovereenkomst te activeren, stelt u de optie **Overeenkomst als effectief markeren** in op **Ja**.
+Nadat u een inkoopovereenkomst maakt, moet u deze activeren voordat het van kracht wordt. Om een inkoopovereenkomst te activeren, stelt u de optie **Overeenkomst als effectief markeren** in op **Ja**. 
+
+Als u wilt voorkomen dat uw inkoopovereenkomst wordt gebruikt en bevestigd, markeert u de overeenkomststatus als **Afgesloten**. Na deze wijziging kunt u de status nog steeds op elk gewenst moment bijwerken naar **Effectief**.
+
+## <a name="responsible-workers-on-purchase-agreements"></a>Verantwoordelijke medewerkers in inkoopovereenkomsten
+
+U kunt een primaire verantwoordelijke medewerker en secundaire verantwoordelijke medewerker identificeren in de classificatie van de inkoopovereenkomst. Deze waarden worden overgenomen door de resulterende inkoopovereenkomst. U bent niet verplicht om verantwoordelijke medewerkers toe te voegen aan de inkoopovereenkomst en ze kunnen rechtstreeks per geval worden gewijzigd in de inkoopovereenkomst zelf. U kunt geen secundaire verantwoordelijke medewerker zonder een primaire verantwoordelijke medewerker opgeven, hoewel u geen secundaire verantwoordelijke medewerker hoeft te hebben. U kunt dezelfde werknemer niet opgeven als primaire en secundaire verantwoordelijke medewerker. 
+
 
 ## <a name="commitment-types"></a>Toezeggingstypen
 Elke regel in een inkoopovereenkomst staat voor een toezegging om iets te kopen. U kunt regels uit meerdere inkooporders gebruiken om te voldoen aan de verbintenis. Er zijn vier typen toezeggingen:

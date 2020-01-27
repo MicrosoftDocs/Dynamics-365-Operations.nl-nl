@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fd70b29089a4bf05c8fa9e3591fdb22383ea0cdc
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 6dce39bc529bf6dd6079ed900af12510c0773f9a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009711"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2899077"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-16-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 Talent (16 juli 2019)
-
-[!include [banner](includes/banner.md)]
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 

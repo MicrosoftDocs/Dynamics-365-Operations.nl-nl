@@ -3,7 +3,7 @@ title: Videospelermodule
 description: In dit onderwerp wordt beschreven wat videospelermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32504351f712c83ba8f593c17d2e51c532374311
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1c78583f39dbacdc7b38e89c33e67ae23731bf8a
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785324"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885896"
 ---
 # <a name="video-player-module"></a>Videospelermodule
 
@@ -57,6 +57,8 @@ De omgevingsvideospeler ondersteunt korte informatieve video's. Deze module moet
 ## <a name="video-player-module"></a>Videospelermodule
 
 De module van de videospeler kan worden gebruikt om video's te presenteren op een e-commercesite. De module ondersteunt alle afspeelmogelijkheden, zoals afspelen, pauzeren, volledig beeld en ondertiteling. De module van de videospeler ondersteunt ook het aanpassen van de ondertiteling voor Microsoft-standaarden voor toegankelijkheid. U kunt bijvoorbeeld de tekengrootte en de achtergrondkleur aanpassen.
+
+De videospelermodule ondersteunt ook secundaire audiotracks. Wanneer een video wordt geüpload, kan ook een secundaire audiotrack worden geüpload. De videospelermodule kan vervolgens de secundaire audiotrack afspelen als een gebruiker deze selecteert.
 
 ### <a name="examples-of-video-player-modules-in-e-commerce"></a>Voorbeelden van videospelermodules in e-commerce
 

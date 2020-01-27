@@ -1,9 +1,9 @@
 ---
 title: Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 description: Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812552"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870259"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 
@@ -137,7 +137,7 @@ Voor de algemene beschikbaarheid hoeft slechts één SSRS-knooppunt te worden ge
 
 ## <a name="environment-orchestrator"></a>Orchestrator-omgeving
 
-De Orchestrator-service beheert uw implementatie en de gerelateerde communicatie met LCS. Deze service wordt geïmplementeerd als de primaire Service Fabric-service en vereist ten minste drie VM's. Deze service bevindt zich op dezelfde locatie als de Service Fabric-configuratieservices. De omvang moet voldoen aan de piekbelasting van het cluster. Zie voor meer informatie [Overwegingen bij capaciteitsplanning van Service Fabric-cluster](/azure/service-fabric/service-fabric-cluster-capacity).
+De Orchestrator-service beheert uw implementatie en de gerelateerde communicatie met LCS. Deze service wordt geïmplementeerd als de primaire Service Fabric-service en vereist ten minste drie VM's. Deze service bevindt zich op dezelfde locatie als de Service Fabric-configuratieservices. De omvang moet voldoen aan de piekbelasting van het cluster. Zie voor meer informatie [Implementatie van Service Fabric-cluster plannen en voorbereiden](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualisering en te veel abonnementen
 

@@ -3,7 +3,7 @@ title: Toegankelijkheidsfuncties
 description: In dit onderwerp wordt de functionaliteit beschreven die is ontworpen voor gebruikers met verschillende handicaps.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/10/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7cc63320a3ba055a0c18ab59447f34a86bc0dc87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8ec4ee4654bdf306e179dcac5bf246df7f2b8cf7
+ms.sourcegitcommit: c3bc5dd007d9f063631232497bd4cda9214e2e5b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180847"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2872437"
 ---
 # <a name="accessibility-features"></a>Toegankelijkheidsopties
 
@@ -40,7 +40,7 @@ Alledaags systeemgebruik bestaat voor veel gebruikers voor een aanzienlijk deel 
 
 Elke pagina die kan worden geopend via het menu in het deelvenster Navigatie, het deelvenster uiterst links, is ook beschikbaar via het vak **Zoeken**. Druk op Alt+G om focus te verplaatsen naar het vak **Zoeken** en typ vervolgens de naam of omschrijving van de pagina.
 
-!['Bankrekeningen' ingevoerd in het zoekvak](media/6d08b0be32808221023e2aa92d69fd70.png "'bankrekeningen' ingevoerd in het zoekvak")
+![Bankrekeningen ingevoerd in het vak Zoeken](media/6d08b0be32808221023e2aa92d69fd70.png "bankrekeningen ingevoerd in het vak Zoeken")
 
 Zie [Navigatiezoekfunctie](navigation-search.md) voor meer informatie.
 
@@ -55,7 +55,7 @@ Elke actie die beschikbaar is op een pagina, kan worden uitgevoerd met een toets
 
 U wilt de actie **Logboek voor e-mailmelding** uitvoeren die wordt weergegeven in de groep **E-mailmelding** op het tabblad **Verkooporder** in het actievenster.
 
-![Actie Logboek voor e-mailmelding in het actievenster](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Actie 'Logboek voor e-mailmelding' in het actievenster.")
+![Actie Logboek voor e-mailmelding in het actievenster](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Actie Logboek voor e-mailmelding in het actievenster")
 
 U kunt uw toetsenbord gebruiken. Druk op Ctrl+F6 om de focus te verplaatsen naar het actievenster en druk vervolgens herhaaldelijk op Tab tot de focus is verplaatst naar de actie **Logboek voor e-mailmelding**.
 
@@ -65,11 +65,11 @@ U kunt de actie echter ook directer uitvoeren. Druk op een willekeurige plek op 
 
 Typ in het zoekvak woorden om de actie te beschrijven. De actie wordt beschikbaar gesteld voor u en u kunt deze direct uitvoeren. Door **e-mail**, **meldi** (een gedeeltelijk woord) of **logboek** te typen, kunt u bijvoorbeeld naar de functionaliteit Logboek voor e-mailmelding springen.
 
-!['E-mail' ingevoerd in het zoekvak](media/image4.png "'e-mail' ingevoerd in het zoekvak")
+![E-mail ingevoerd in het zoekvak](media/image4.png "e-mail ingevoerd in het zoekvak")
 
-!['Melding' ingevoerd in het zoekvak](media/image5.png "'melding' ingevoerd in het zoekvak")
+![Meldi ingevoerd in het zoekvak](media/image5.png "meldi ingevoerd in het zoekvak")
 
-!['Logboek' ingevoerd in het zoekvak](media/image6.png "'logboek' ingevoerd in het zoekvak")
+![Logboek ingevoerd in het zoekvak](media/image6.png "logboek ingevoerd in het zoekvak")
 
 Wanneer u klaar bent, kunt u nogmaals op Ctrl+apostrof drukken om de focus weer te verplaatsen naar het veld waarmee u werkte voordat u de actiezoekopdracht uitvoerde.
 
@@ -81,7 +81,7 @@ Bij alledaags gebruik van het systeem is niet elk veld nodig om veelvoorkomende 
 
 Het kan echter gebeuren dat sommige velden die u vaak gebruikt voor taken niet zijn opgenomen in de standaardtabvolgorde. In dat geval kunt u de toetsenbordacties van Windows Verteller gebruiken om toegang tot deze velden te krijgen en hun inhoud te controleren. Ook kunt u de optie **Verbeterde tabbladreeks** op de pagina **Opties** inschakelen. Met deze optie maakt u alle bewerkbare en alleen-lezenvelden onderdeel van de tabvolgorde. Vervolgens kunt u door middel van pagina-aanpassingen een aangepaste tabvolgorde maken en velden weglaten die niet deel hoeven uit te maken van de tabvolgorde. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie over aanpassingen.
 
-![Optie 'Uitgebreide tabbladreeks'](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Optie 'Uitgebreide tabbladreeks'")
+![Optie Verbeterde tabbladreeks](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Optie Verbeterde tabbladreeks")
 
 ## <a name="form-patterns"></a>Formulierpatronen
 
@@ -92,6 +92,8 @@ Zie [Formulierstijlen en -patronen](../../dev-itpro/user-interface/form-styles-p
 ## <a name="responsive-layout"></a>Responsieve indeling
 
 Het product is ontworpen voor gebruik op verschillende apparaten en vormfactoren, van de kleinste schermen tot grote schermen met de hoogste resolutie. Dankzij onze engine met responsieve indeling kunnen gebruikers inzoomen tot een vergrotingsfactor van 200 procent (en in sommige gevallen zelfs nog meer).
+
+Op smartphones en andere kleine schermen zullen de besturingselementen en de formulierindeling responsief worden aangepast om ervoor te zorgen dat de kerngegevens goed zichtbaar zijn. Dit responsieve gedrag kan er ook toe leiden dat het aantal kolommen in groepen en tabs wordt beperkt tot één kolom, shell-elementen worden verborgen en het actievenster wordt samengevouwen.
 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Richtlijnen om ontwikkelaars en klanten toegankelijk denken in hun aanpassingen te laten verwerken
 

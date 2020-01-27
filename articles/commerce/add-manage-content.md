@@ -3,7 +3,7 @@ title: Manieren om inhoud toe te voegen
 description: Dit onderwerp bevat informatie over het toevoegen en beheren van inhoud op uw Microsoft Dynamics 365 Commerce-site.
 author: phinneyridge
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3d91235837aee9ad06466ffe47727b435e39094f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2232dc7cdd24416b0df0919b96cd5d1f8113299f
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770523"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914649"
 ---
 # <a name="ways-to-add-content"></a>Manieren om inhoud toe te voegen
 
@@ -46,7 +46,9 @@ De volgende onderwerpen bevatten gedetailleerde informatie over het toevoegen en
 
 [Woordenlijst voor paginamodellen](page-elements-overview.md)
 
-[Statussen en levenscyclus document](document-states-overview.md)
+[Statussen en levenscyclus van document](document-states-overview.md)
+
+[Werken met publicatiegroepen](publish-groups.md)
 
 [Werken met modules](work-with-modules.md)
 

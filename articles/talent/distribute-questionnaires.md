@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: bc392c965a0d3bc308e0396263e84ecf1e713491
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814738"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898358"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Vragenlijsten plannen en distribueren
-
-[!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de vragenlijsten die u ontwerpt kunt distribueren, zodat ze beschikbaar zijn voor de persoon of groep personen die de lijsten gaat invullen. 
 

@@ -3,7 +3,7 @@ title: Help-bronnen voor Supply Chain Management
 description: Deze pagina bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies van Supply Chain Management.
 author: josaw1
 manager: AnnBe
-ms.date: 10/01/2019
+ms.date: 11/26/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4926cd63aa360c7e08a0a435f7609017f02cb229
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0b5f82d76f2e285b6318d900d41919aae14ec71a
+ms.sourcegitcommit: b8a51a0ba8fc33576ff78e5bbe826c14e1df2844
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814416"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853983"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Help-bronnen voor Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "2814416"
 
 Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies van Dynamics 365 Supply Chain Management. 
 
-## <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
+## <a name="whats-new-and-in-development"></a>Nieuw functies en functies in ontwikkeling
 Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365-routekaart</a> om te zien welke nieuwe functies worden vrijgegeven en welke nieuwe functies in ontwikkeling zijn. 
 
 ## <a name="core-concepts-and-tasks"></a>Kernconcepten en -taken
@@ -115,7 +115,6 @@ Er zijn veel onderwerpen over productie en Supply Chain Management beschikbaar i
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Praktijkoefeningen voor kostprijsboekhouding</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing: Capable to Promise en planning van kanbantaken</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Stuklijstberekening aan de hand van kostprijsberekening</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobiliteit in het magazijn vergemakkelijkt door Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>eLearning-cursussen
 Voor meer informatie over training voor Dynamics 365 raadpleegt u de <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics-leerportal</a>. (CustomerSource-account vereist) 

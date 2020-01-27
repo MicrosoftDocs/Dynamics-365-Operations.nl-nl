@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: caa449feba22c5804799b5317a8e29c139cc440e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f67296797d9a671ae071a13b1bbda73cf3fc6e7f
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177120"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915172"
 ---
 # <a name="financial-reporting-overview"></a>Overzicht van Financiële rapportage
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage en hoe u de financiële rapportagemogelijkheden kunt gebruiken. Het bevat ook een omschrijving van de financiële standaardrapporten die worden geleverd.
 
@@ -79,6 +81,18 @@ De functies voor financiële rapportage zijn beschikbaar voor gebruikers aan wie
 | Financiële rapporten weergeven                | Financiële prestaties beoordelen          | Niet toegewezen                                                                   |
 
 Nadat een gebruiker is toegevoegd of een rol is gewijzigd, moet de gebruiker binnen enkele minuten toegang hebben tot financiële rapportage. **Opmerking:** de rol sysadmin wordt toegevoegd aan alle rollen in de financiële rapportage.
+
+## <a name="report-deletions-and-expirations"></a>Verwijderde en verlopen rapporten
+Gebruikers die een rapport genereren, kunnen hun eigen rapporten verwijderen. Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** kunnen rapporten van anderen verwijderen. 
+
+Vanaf de 10.0.7-release is het concept van vervaldatums geïntroduceerd. Een nieuwe verplichte functie wordt ingeschakeld in het werkgebied voor functiebeheer. Deze functie omvat de volgende wijzigingen:
+* Nieuwe gegenereerde rapporten krijgen automatisch een vervaldatum van 90 dagen vanaf het moment dat ze worden gegenereerd
+* Alle bestaande rapporten van vóór de installatie van de functie krijgen een vervalperiode van 90 dagen. De datum kan gedurende een korte periode als leeg worden weergegeven totdat de service voor financiële rapportage wordt uitgevoerd, er een rapport wordt gegenereerd en de service de update uitvoert op bestaande rapporten met een lege vervaldatum. 
+* Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** hebben toegang tot deze functionaliteit. Elke gebruiker met de functie **Financiële rapporten onderhouden** met de bevoegdheid **Vervaldatum van financiële rapporten onderhouden** kan ook de vervalperiode wijzigen. Momenteel zijn er twee opties beschikbaar: 
+  * Een vervalperiode van 90 dagen
+  * Een optie om in te stellen dat het rapport nooit vervalt
+
+Wanneer een vervalperiode zoals 90 dagen wordt geselecteerd, wordt deze 90 dagen vanaf vandaag verleend. Dit is anders dan de 90 dagen vanaf de oorspronkelijke generatiedatum ingesteld tijdens het genereren van rapporten. 
 
 ## <a name="default-reports"></a>Standaardrapporten
 Financiële rapportage bevat 22 standaard financiële rapporten. Elk rapport maakt gebruik van de standaard hoofdrekeningcategorieën. U kunt deze rapporten ongewijzigd of als starpunt voor uw financiële rapportagevereisten gebruiken. Naast de normale financiële overzichten, zoals Inkomensoverzicht en Balans, bevatten deze standaardrapporten ook rapporten waarop de verschillende typen financiële rapporten die u kunt maken, worden weergegeven. 

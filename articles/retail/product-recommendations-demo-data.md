@@ -3,7 +3,7 @@ title: Demogegevens voor productaanbevelingen voor meerdere kanalen
 description: Dit document biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 12/1/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81af4c1bb7828c9b346a3ef514d8657e853dcefb
-ms.sourcegitcommit: c526cfd1f823df1ff33ded95e599a72f0a15cc5a
+ms.openlocfilehash: 31aa5dbd2fa814fd572024a4ae36b9d9b46a2fb0
+ms.sourcegitcommit: 398c0652acde12c953de007d06055456d6e0a516
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2225771"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2872321"
 ---
 # <a name="omni-channel-product-recommendations-demo-data"></a>Demogegevens voor productaanbevelingen voor meerdere kanalen
 
 Dit document biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
 
-Productaanbevelingen voor meerdere kanalen bieden een reeks redactioneel samengestelde of door het programma gegenereerde, geordende lijsten met producten. Deze lijsten kunnen worden gebruikt in verschillende scenario's, afhankelijk van de zakelijke behoefte. Meer informatie over lijsten met productaanbevelingen vindt u in [Overzicht van productaanbevelingen](product-recommendaitons-overview.md).
+Productaanbevelingen voor meerdere kanalen bieden een reeks redactioneel samengestelde of door het programma gegenereerde, geordende lijsten met producten. Deze lijsten kunnen worden gebruikt in verschillende scenario's, afhankelijk van de zakelijke behoefte. Meer informatie over lijsten met productaanbevelingen vindt u in [Overzicht van productaanbevelingen](../commerce/product-recommendations.md).
 
 Productaanbevelingen voor Dynamics-omgevingen van Tier 2 en hoger worden automatisch berekend op basis van klantgegevens.
 Door het gebruik van demogegevens voor productaanbevelingen worden geen productaanbevelingen uitgeschakeld die al in de omgeving zijn ingericht, en er zijn geen kosten verbonden aan het gebruik.
@@ -68,6 +68,6 @@ De extensie bevat een gegevensbestand met de naam RecoMockDataset.csv waarmee de
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van productaanbevelingen](product-recommendations-overview.md)
+[Overzicht van productaanbevelingen](../commerce/product-recommendations.md)
 
-[Omgevingsplanning](environment-planning.md)
+[Omgevingsplanning](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)

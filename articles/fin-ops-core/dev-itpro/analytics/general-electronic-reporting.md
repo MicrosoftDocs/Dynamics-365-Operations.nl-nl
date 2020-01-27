@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771068"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933927"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -51,12 +51,12 @@ De ER-engine biedt de volgende mogelijkheden:
 
 ER ondersteunt twee typen onderdelen: **Gegevensmodel** en **Indeling**.
 
-#### <a name="data-model-components"></a>Gegevensmodelonderdelen
+#### <a name="data-model-and-model-mapping-components"></a>Onderdelen van gegevensmodel en modeltoewijzing
 
 Een gegevensmodelonderdeel is een abstracte representatie van een gegevensstructuur. Hiermee wordt een specifiek bedrijfsdomeingebied beschreven met voldoende detail om te voldoen aan de rapportagevereisten voor dat domein. Een gegevensmodelonderdeel bestaat uit de volgende elementen:
 
-- Een gegevensmodel, als een set domeinspecifieke bedrijfsentiteiten en een hiërarchisch gestructureerde definitie van relaties tussen deze entiteiten
-- Een modeltoewijzing die geselecteerde toepassingsgegevensbronnen koppelt aan individuele elementen van een gegevensmodel dat, tijdens de uitvoering, de gegevensstroom en regels voor het invullen van bedrijfsgegevens in een gegevensmodelonderdeel.
+- <a name="DataModelComponent"></a>Een gegevensmodel, als een set domeinspecifieke bedrijfsentiteiten en een hiërarchisch gestructureerde definitie van relaties tussen deze entiteiten
+- <a name="ModelMappingComponent"></a>Een modeltoewijzing die geselecteerde toepassingsgegevensbronnen koppelt aan individuele elementen van een gegevensmodel dat, tijdens de uitvoering, de gegevensstroom en regels voor het invullen van bedrijfsgegevens in een gegevensmodelonderdeel.
 
 Een bedrijfsentiteit van een gegevensmodel wordt voorgesteld als een container (record). Bedrijfsonderdeeleigenschappen worden weergegeven als gegevensitems (velden). Elk gegevensitem heeft een unieke naam, label, omschrijving en waarde. De waarde van elk gegevensitem kan zodanig worden ontworpen dat deze wordt herkend als een tekenreeks, geheel getal, reëel getal, datum, opsomming, Boolean enzovoort. Bovendien kan het een andere record of lijst met records zijn.
 
@@ -81,7 +81,7 @@ Een modeltoewijzing die ondersteuning biedt voor inkomende elektronische documen
 
 Een gegevensmodelonderdeel is ontworpen voor elk zakelijk domein dat moet worden gebruikt als centrale gegevensbron voor rapportage, waarmee rapportage wordt geïsoleerd van de fysieke implementatie van gegevensbronnen voor Finance and Operations. Het vertegenwoordigt domeinspecifieke zakelijke concepten en functionaliteit in een indeling die het initiële ontwerp en later onderhoud van een rapportageformulier efficiënter maakt.
 
-#### <a name="format-components-for-outgoing-electronic-documents"></a>Indelingscomponent voor uitgaande elektronische documenten
+#### <a name="FormatComponentOutbound"></a>Indelingscomponent voor uitgaande elektronische documenten
 
 Een indelingsonderdeel is het schema van de rapportage-uitvoer die wordt gegenereerd tijdens de uitvoering. Een schema bestaat uit de volgende elementen:
 
@@ -107,7 +107,7 @@ In de volgende afbeelding ziet u hoe de gegevensstroomm voor deze indelingen ver
 
 Voor het uitvoeren van een enkele ER-indelingsconfiguratie en het genereren van een uitgaand elektronisch document moet u de toewijzing van de indelingsconfiguratie bepalen.
 
-#### <a name="format-components-for-incoming-electronic-documents"></a>Indelingscomponent voor inkomende elektronische documenten
+#### <a name="FormatComponentInbound"></a>Indelingscomponent voor inkomende elektronische documenten
 Een indelingscomponent is het schema van het inkomende document dat tijdens de uitvoering wordt geïmporteerd. Een schema bestaat uit de volgende elementen:
 
 - Een indeling die de structuur en de inhoud definieert van het inkomende elektronische document dat gegevens bevat die tijdens de uitvoering worden geïmporteerd. Een indelingscomponent wordt gebruikt om een inkomend document te parseren in verschillende indelingen, zoals tekst en XML.
@@ -144,7 +144,7 @@ Toegang tot ER-indelingsonderdelen is afhankelijk van de instelling voor de ISO 
 
 Verschillende versies van een gegevensindelingsonderdeel kunnen verschillende instellingen hebben voor ISO-land-/regiocodes.
 
-#### <a name="configuration"></a>Configuratie
+#### <a name="Configuration"></a>Configuratie
 
 De ER-configuratie is de wrapper voor een bepaald ER-onderdeel. Dat onderdeel kan een gegevensmodelonderdeel zijn of een indelingscomponent. Een configuratie kan verschillende versies van een ER-onderdeel bevatten. Elke configuratie is gemarkeerd als eigendom van een bepaalde configuratieprovider. De **Concept**-versie van een onderdeel van een configuratie kan worden bewerkt als de eigenaar van de configuratie als een actieve provider is geselecteerd in de ER-instellingen in de toepassing.
 
@@ -154,13 +154,13 @@ De indelingsconfiguratie die wordt gemaakt bevat een indelingscomponent. Het geg
 
 Een ER-configuratie wordt gedeeld voor toepassingsbedrijven.
 
-#### <a name="provider"></a>Provider
+#### <a name="Provider"></a>Provider
 
 De ER-provider is de partij-id die wordt gebruikt om de auteur (eigenaar) van elke ER-configuratie aan te duiden. Via ER kunt u de lijst met configuratieproviders beheren. Indelingsconfiguraties die worden vrijgegeven voor elektronische documenten als onderdeel van de Finance and Operations-oplossing zijn gemarkeerd als het eigendom van de configuratieprovider **Microsoft**.
 
 Voor informatie over het registreren van een nieuwe ER-provider speelt u de taakbegeleiding **ER Een configuratieprovider maken en deze als actief markeren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen van IT-services/oplossingen ophalen/ontwikkelen (10677)**).
 
-#### <a name="repository"></a>Opslagplaats
+#### <a name="Repository"></a>Opslagplaats
 
 In een ER-opslagplaats worden ER-configuraties opgeslagen. De volgende typen ER-opslagplaatsen worden momenteel ondersteund: 
 

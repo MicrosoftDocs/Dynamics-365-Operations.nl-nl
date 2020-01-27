@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c1d1ec695626404389dec2b07dd6e34358cd2d5a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2fb188498705dcbad841645ced43e6a1715cbbd0
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176151"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915161"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Ondersteunde standaarden voor elektronische facturering in Europa
 
@@ -37,13 +37,15 @@ Implementatie en goedkeuring van elektronische facturering binnen de Europese Un
 De volgende landspecifieke indelingen van elektronische facturen zijn beschikbaar:
 
 -   OIOUBL v.2.02 voor Denemarken
--   EHF v.2.0.8 voor Noorwegen
+-   EHF v. 3.0 voor Noorwegen
 -   PEPPOL BIS v.2 voor Oostenrijk, Frankrijk en België
 -   UBL-OHNL 1.9 voor Nederland
 -   FacturaE v.3.2.1 voor Spanje
 -   FatturaPA v.1.2 voor Italië
+-   xRechnung v. 1.2 voor Duitsland
+-   Open PEPPOL BIS Billing v.3.0 voor de Europese Unie
 
-Elektronische facturering is gebaseerd op [elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md). Er is een gegevensmodel met een **klantfactuurmodel** en een aantal landspecifieke configuraties voor elektronische rapportopmaken voor Oostenrijk (AT), Denemarken (DK), Italië (IT), Noorwegen (NO), Spanje (ES), Frankrijk (FR), België (BE) en Nederland (NL).
+Elektronische facturering is gebaseerd op [ER (Elektronische rapportage)](../../dev-itpro/analytics/general-electronic-reporting.md). Er is een gegevensmodel met een **klantfactuurmodel** en een aantal land-/regiospecifieke configuraties voor ER-indelingen voor Oostenrijk (AT), Denemarken (DK), Italië (IT), Noorwegen (NO), Spanje (ES), Frankrijk (FR), België (BE) en Nederland (NL).
 
 -   OIOUBL Verkoopfactuur - voor AT, DK en NO
 -   OIOUBL Verkoopcreditnota - voor AT, DK en NO
@@ -65,6 +67,12 @@ Elektronische facturering is gebaseerd op [elektronische rapportage](../../dev-i
 -   Verkoopfactuur (IT)
 -   Projectfactuur (ES)
 -   Projectfactuur (IT)
+-   Verkoopfactuur DE
+-   Projectfactuur DE
+-   Peppol-verkoopfactuur - voor EU
+-   Peppol-verkoopcreditnota - voor EU
+-   Peppol-projectfactuur - voor EU
+-   Peppol-projectcreditnota - voor EU
 
 De elektronische facturen en creditnota's die u genereert, bevatten vereiste gegevens zoals een EAN-nummer (European Article Numbering), de contactpersoon, het dimensierekeningnummer en adresgegevens van de klant. Er worden validatieregels worden toegepast wanneer facturen worden gegenereerd om te controleren of de juiste gegevens zijn ingevoerd. De set met vereiste gegevens kan verschillen van land tot land. Omdat de vereiste en de ondersteunde landen en indelingen kunnen veranderen, moet u altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben.
 

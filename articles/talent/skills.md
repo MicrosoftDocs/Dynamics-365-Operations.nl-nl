@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: d5fe56c949975f8cd07b54308cec43f833cc9d69
-ms.sourcegitcommit: 0dd8d0510214f92936a9dd214b404c5c8103587b
+ms.openlocfilehash: 7e1e5123d2702a4d9e1056d28a38a8075f117ee3
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2419218"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898036"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>Personeelsvaardigheden afstemmen op bedrijfsbehoeften
-
-[!include [banner](includes/banner.md)]
 
 U kunt de vaardigheden bijhouden die de werknemers, sollicitanten of de contactpersonen hebben of zouden moeten hebben om hun functie effectief te vervullen. U kunt ook opgeven welke vaardigheden voor een bepaalde functie zijn vereist.
 

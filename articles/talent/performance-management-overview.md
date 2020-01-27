@@ -3,7 +3,7 @@ title: Prestatiebeheer
 description: Met het prestatiebeheerproces kunnen werknemers hun prestaties met hun manager documenteren en bespreken. Managers kunnen vervolgens feedback en ondersteuning geven voor de werknemers.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590500"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921145"
 ---
 # <a name="performance-management"></a>Prestatiebeheer
-
-[!include [banner](includes/banner.md)]
 
 Met het prestatiebeheerproces kunnen werknemers hun prestaties met hun manager documenteren en bespreken. Managers kunnen vervolgens feedback en ondersteuning geven voor de werknemers.  
 
@@ -91,6 +89,8 @@ U kunt voor meer gedetailleerde beoordelingen actieve en voltooide doelstellinge
 U kunt ook in het gedeelte **Competenties** de competenties van de werknemer bespreken, bekijken en beoordelen. U kunt zoveel competenties toevoegen als nodig zijn en u kunt kiezen of de competentie moet worden beoordeeld. 
 
 U kunt nieuwe beoordelingen maken die zijn gebaseerd op sjablonen die u hebt gemaakt. U kunt bijvoorbeeld een sjabloon hebben voor één-op-één besprekingen, ontwikkelingsplannen of periodieke beoordelingen. U kunt de sjabloon selecteren wanneer u een nieuwe beoordeling maakt.
+
+Als u beoordelingen wilt afdrukken, selecteert u de knop **Beoordeling afdrukken**. Als u de knop niet ziet op de pagina **Beoordeling**, controleert u of u de functie hebt ingeschakeld in het werkgebied **Functiebeheer**. Zie [Overzicht Functiebeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)voor meer informatie over Functiebeheer.
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Componenten die u in de prestatiebeoordelingen kunt opnemen
 U kunt verschillende soorten informatie opnemen in de prestatiebeoordelingen. Ze bevatten beoordelingsdetails, metingen, activiteiten, waarderingen, afmeldingen en bijlagen.

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 99a7e6130d45229011a185087d4872fe34b8224a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023948"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897621"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 Talent (9 juli 2019)
-
-[!include [banner](includes/banner.md)]
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
@@ -36,6 +34,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 Deze versie bevat kleine correcties voor Dynamics 365 Talent: Attract.
 
 ### <a name="coming-soon-in-attract"></a>Binnenkort in Attract
+
 #### <a name="job-approvals-appear-on-the-home-page"></a>Functiegoedkeuringen worden weergegeven op de startpagina
 
 Goedkeuringen worden weergegeven in de sectie **Goedkeuringen** op het dashboard. Fiatteurs kunnen hun goedkeuringen controleren onder **Aan u toegewezen**, waar de taak-ID, functietitel, andere fiatteurs en de toewijzingsdatum worden weergegeven. Gebruikers die een functie ter goedkeuring indienen, kunnen hun functies controleren onder **Aangevraagd door u**, waar de fiatteurs worden weergegeven die de ingediende functie nog moeten goedkeuren.
@@ -50,7 +49,7 @@ Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.23
 
 ### <a name="platform-update-28-for-finance-and-operations"></a>Platformupdate 28 voor Finance and Operations
 
-Zie voor meer details over Platformupdate 28 voor Finance and Operations [Voorbeeldfuncties in Dynamics 365 Finance and Operations-platformupdate 28 (juli 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Zie voor meer details over Platformupdate 28 voor Finance and Operations [Voorbeeldfuncties in Dynamics 365 Finance and Operations-platformupdate 28 (juli 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Entiteitsondersteuning voor aangepaste velden in Common Data Service 
 
