@@ -52,7 +52,7 @@
           href: ../../dev-itpro/business-events/how-to/how-to-eventgrid.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Zakelijke gebeurtenissen en Azure Service Bus
           href: ../../dev-itpro/business-events/how-to/how-to-servicebus.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Zakelijke gebeurtenissen en workflowgoedkeuringen
+        - name: Zakelijke gebeurtenissen en werkstroomgoedkeuringen
           href: ../../dev-itpro/business-events/how-to/how-to-workflow.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Zakelijke gebeurtenissen en Microsoft Forms Pro
           href: ../../dev-itpro/business-events/how-to/FormsPro.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -92,7 +92,7 @@
           href: ../../dev-itpro/data-entities/recurring-integrations.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Services testen met hulpprogramma's van derden
           href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Connector Finance and Operations
+    - name: Finance and Operations-connector
       href: ../../dev-itpro/data-entities/fin-ops-connector.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Ontwikkeling voor integratie
       items:
@@ -142,7 +142,7 @@
                       href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
                       href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales
+                    - name: Producten in Finance and Operations rechtstreeks synchroniseren met producten in Sales
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations
                       href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -156,7 +156,7 @@
                   items:
                     - name: Overzicht van Integratie met Field Service configureren
                       href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Producten van Finance and Operations synchroniseren met producten in Field Service
+                    - name: Producten in Finance and Operations synchroniseren met producten in Field Service
                       href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
                       href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -172,7 +172,7 @@
                       href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Magazijnen van Finance and Operations synchroniseren met Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Werkorders synchroniseren met project van Field Service naar Finance and Operations
+                    - name: Werkorders met projecten synchroniseren vanuit Field Service naar Finance and Operations
                       href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Project Service Automation-integratie configureren
                   items:
@@ -332,7 +332,7 @@
           href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Azure ExpressRoute en Finance and Operations
           href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Architectuur voor Finance and Operations
+        - name: Finance and Operations-architectuur
           href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Updates toepassen op cloudomgevingen
           href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -672,7 +672,7 @@
               href: ../../dev-itpro/extensibility/customize-model-elements-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
             - name: Aanpassen via extensies en overlayering
               href: ../../dev-itpro/extensibility/customization-overlayering-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: NIeuwe functies
+        - name: Nieuwe functies
           items:
             - name: Nieuwe of gewijzigde functies voor uitbreidbaarheid
               href: ../../dev-itpro/extensibility/extensibility-new.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Toegang tot vertrouwelijke gegevens beheren
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Reageren op aanvragen voor persoonlijke gegevens met behulp van Talent
+        - name: Reageren op aanvragen voor persoonlijke gegevens met behulp van Human Resources
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Reageren op aanvragen voor persoonlijke gegevens in AX 2012
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -912,7 +912,7 @@
       href: ../../dev-itpro/lifecycle-services/using-activity-diagrams.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: BPM-bibliotheken synchroniseren met Azure DevOps
       href: ../../dev-itpro/lifecycle-services/synchronize-bpm-vsts.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Testbibliotheken voor gebruikersacceptatie maken met taakbegeleidingen en BPM
+    - name: Testbibliotheken voor gebruikersacceptatie maken met taakbegeleiders en BPM
       href: ../../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Stroomdiagrammen in Modelleertool bedrijfsprocessen
       href: ../../dev-itpro/lifecycle-services/flowcharts-business-process-modeler.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -996,7 +996,7 @@
               href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md?toc=/dynamics365/unified-operations/financials/toc.json
             - name: Module Besturingselement
               href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
-            - name: Module Container
+            - name: Containermodule
               href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
             - name: Module Veld
               href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md?toc=/dynamics365/unified-operations/financials/toc.json

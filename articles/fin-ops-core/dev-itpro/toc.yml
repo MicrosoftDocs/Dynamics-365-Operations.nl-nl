@@ -2,44 +2,56 @@
   items:
     - name: Ontwikkeling en beheer voor Finance and Operations-apps
       items:
-        - name: Documentatie over Finance and Operations-apps
+        - name: Documentatie voor Finance and Operations-apps
           href: ../fin-ops/index.md
         - name: Ontwikkeling en beheer voor Finance and Operations-apps
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
-            - name: Preview van functies in platform update 32 (februari 2020)
-              href: get-started/whats-new-platform-update-32.md
-            - name: Platform update 31 (januari 2020)
-              href: get-started/whats-new-platform-update-31.md
-            - name: Platform update 30 (november 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: Platform update 29 (oktober 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-29.md
-            - name: Platform update 28 (juli 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-28.md
-            - name: Platform update 27 (juni 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-27.md
-            - name: Platform update 26 (mei 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-26.md
-            - name: Platform update 25 (april 2019)
-              href: ../fin-ops/get-started/whats-new-platform-25.md
-            - name: Platform update 24 (maart 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-24.md
-            - name: Platform update 23 (januari 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (december 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-22.md
-            - name: Platform update 21 (november 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-21.md
-            - name: Platform update 20 (september 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-20.md
-            - name: Platform update 15 (maart 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-15.md
-            - name: Nieuwe of gewijzigde functies in eerdere versies
+            - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Nieuwe of gewijzigde functies in Platformupdates
               items:
-                - name: Startpagina Nieuwe of gewijzigde functies in Finance and Operations
-                  href: ../fin-ops/get-started/whats-new-changed.md
+                - name: Startpagina van nieuwe of gewijzigde functies in Platformupdates
+                  href: get-started/whats-new-home-page.md
+                - name: Platform update 33 (april 2020)
+                  href: get-started/whats-new-platform-update-33.md
+                - name: Platform update 32 (februari 2020)
+                  href: get-started/whats-new-platform-update-32.md
+                - name: Platform update 31 (januari 2020)
+                  href: get-started/whats-new-platform-update-31.md
+                - name: Platform update 30 (november 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
+                - name: Platform update 29 (oktober 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
+                - name: Platform update 28 (juli 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
+                - name: Platform update 27 (juni 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
+                - name: Platform update 26 (mei 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
+                - name: Platform update 25 (april 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-25.md
+                - name: Platform update 24 (maart 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
+                - name: Platform update 23 (januari 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
+                - name: Platform update 22 (december 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
+                - name: Platform update 21 (november 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
+                - name: Platform update 20 (september 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
+                - name: Platform update 15 (maart 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Verwijderde of verouderde functies
+              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: AX 2012-functies die zijn uitgesteld
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Functies die niet worden geïmplementeerd in on-premises implementaties
+              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Zakelijke gebeurtenissen
           items:
             - name: Overzicht van Zakelijke gebeurtenissen
@@ -66,7 +78,7 @@
                   href: business-events/how-to/how-to-eventgrid.md
                 - name: Zakelijke gebeurtenissen en Azure Service Bus
                   href: business-events/how-to/how-to-servicebus.md
-                - name: Zakelijke gebeurtenissen en workflowgoedkeuringen
+                - name: Zakelijke gebeurtenissen en werkstroomgoedkeuringen
                   href: business-events/how-to/how-to-workflow.md
                 - name: Zakelijke gebeurtenissen en Microsoft Forms Pro
                   href: business-events/how-to/FormsPro.md
@@ -108,7 +120,7 @@
                   href: data-entities/recurring-integrations.md
                 - name: Services testen met hulpprogramma's van derden
                   href: data-entities/third-party-service-test.md
-            - name: Connector Finance and Operations
+            - name: Finance and Operations-connector
               href: data-entities/fin-ops-connector.md
             - name: Ontwikkeling voor integratie
               items:
@@ -133,35 +145,35 @@
                     - name: 'Synchrone, bidirectionele integratie'
                       items:
                         - name: Bijna realtime gegevensintegratie
-                          href: data-entities/dual-write-overview.md
+                          href: data-entities/dual-write/dual-write-overview.md
                         - name: Organisatiehiërarchie van Common Data Service
-                          href: data-entities/dual-write-organization.md
+                          href: data-entities/dual-write/organization-mapping.md
                         - name: Bedrijfsintegratie
                           items:
                             - name: Bedrijfsconcept in Common Data Services
-                              href: data-entities/dual-write-company.md
+                              href: data-entities/dual-write/company-data.md
                             - name: Automatisch laden met bedrijfsgegevens
-                              href: data-entities/dual-write-bootstrap.md
+                              href: data-entities/dual-write/bootstrap-company-data.md
                         - name: Model voor geïntegreerde klanten
-                          href: data-entities/dual-write-customer.md
+                          href: data-entities/dual-write/customer-mapping.md
                         - name: Geïntegreerd grootboek
-                          href: data-entities/dual-write-ledger.md
+                          href: data-entities/dual-write/ledger-mapping.md
                         - name: Uniforme productervaring
-                          href: data-entities/dual-write-product.md
+                          href: data-entities/dual-write/product-mapping.md
                         - name: Integratie van leverancier
                           items:
                             - name: Model voor geïntegreerde leveranciers
-                              href: data-entities/dual-write-vendor.md
+                              href: data-entities/dual-write/vendor-mapping.md
                             - name: Schakelen tussen leverancierontwerpen
-                              href: data-entities/dual-write-vendor-switch.md
+                              href: data-entities/dual-write/vendor-switch.md
                         - name: Geïntegreerde locaties en magazijnen
-                          href: data-entities/dual-write-sites-and-warehouses.md
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
                         - name: Model voor geïntegreerde belasting
-                          href: data-entities/dual-write-tax.md
+                          href: data-entities/dual-write/tax-mapping.md
                         - name: Initiële synchronisatie
-                          href: data-entities/dual-write-initial.md
+                          href: data-entities/dual-write/initial-sync.md
                         - name: Problemen met gegevensintegratie oplossen
-                          href: data-entities/dual-write-troubleshooting.md
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                     - name: 'Asynchrone, unidirectionele integratie'
                       items:
                         - name: Een scenario van prospect tot contant geld configureren
@@ -170,7 +182,7 @@
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
                             - name: Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales
+                            - name: Producten in Finance and Operations rechtstreeks synchroniseren met producten in Sales
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
                             - name: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations
                               href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
@@ -184,7 +196,7 @@
                           items:
                             - name: Overzicht van Integratie met Field Service configureren
                               href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: Producten van Finance and Operations synchroniseren met producten in Field Service
+                            - name: Producten in Finance and Operations synchroniseren met producten in Field Service
                               href: ../../supply-chain/sales-marketing/field-service-product.md
                             - name: Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
                               href: ../../supply-chain/sales-marketing/field-service-work-order.md
@@ -200,7 +212,7 @@
                               href: ../../supply-chain/sales-marketing/synchronize-project-list.md
                             - name: Magazijnen van Finance and Operations synchroniseren met Field Service
                               href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Werkorders synchroniseren met project van Field Service naar Finance and Operations
+                            - name: Werkorders met projecten synchroniseren vanuit Field Service naar Finance and Operations
                               href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                         - name: Project Service Automation-integratie configureren
                           items:
@@ -380,7 +392,7 @@
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute en Finance and Operations
                   href: deployment/expressroute.md
-                - name: Architectuur voor Finance and Operations
+                - name: Finance and Operations-architectuur
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Updates toepassen op cloudomgevingen
                   href: deployment/apply-deployable-package-system.md
@@ -912,7 +924,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: Toegang tot vertrouwelijke gegevens beheren
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: Reageren op aanvragen voor persoonlijke gegevens met behulp van Talent
+                - name: Reageren op aanvragen voor persoonlijke gegevens met behulp van Human Resources
                   href: gdpr/respond-dsr-request-talent.md
                 - name: Reageren op aanvragen voor persoonlijke gegevens in AX 2012
                   href: gdpr/gdpr-ax2012.md
@@ -964,7 +976,7 @@
               href: lifecycle-services/using-activity-diagrams.md
             - name: BPM-bibliotheken synchroniseren met Azure DevOps
               href: lifecycle-services/synchronize-bpm-vsts.md
-            - name: Testbibliotheken voor gebruikersacceptatie maken met taakbegeleidingen en BPM
+            - name: Testbibliotheken voor gebruikersacceptatie maken met taakbegeleiders en BPM
               href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
             - name: Stroomdiagrammen in Modelleertool bedrijfsprocessen
               href: lifecycle-services/flowcharts-business-process-modeler.md
@@ -1420,7 +1432,7 @@
               items:
                 - name: Proces voor overschakeling naar de nieuwste update
                   href: migration-upgrade/upgrade-latest-update.md
-                - name: Paden naar Eén versie
+                - name: Paden naar één versie
                   items:
                     - name: Self-service-upgrade naar de meest recente versie
                       href: migration-upgrade/self-service-upgrade.md
@@ -1672,5 +1684,7 @@
       href: ../../supply-chain/index.md
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
+    - name: Dynamics 365 Commerce
+      href: ../../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../../retail/index.md
+      href: ../../commerce/index.md
