@@ -1,0 +1,8 @@
+## <a name="withholding-tax-groups-to-msdyn_withholdingtaxgroups"></a><span data-ttu-id="573bb-101">Bronbelastinggroepen naar msdyn_withholdingtaxgroups</span><span class="sxs-lookup"><span data-stu-id="573bb-101">Withholding tax groups to msdyn_withholdingtaxgroups</span></span>
+
+<span data-ttu-id="573bb-102">Deze sjabloon synchroniseert gegevens tussen Finance and Operations-apps en Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="573bb-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="573bb-103">Finance and Operations-veld</span><span class="sxs-lookup"><span data-stu-id="573bb-103">Finance and Operations field</span></span> | <span data-ttu-id="573bb-104">Toewijzingstype</span><span class="sxs-lookup"><span data-stu-id="573bb-104">Map type</span></span> | <span data-ttu-id="573bb-105">Ander Dynamics 365-veld</span><span class="sxs-lookup"><span data-stu-id="573bb-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="573bb-106">Standaardwaarde</span><span class="sxs-lookup"><span data-stu-id="573bb-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="573bb-107">WITHHOLDINGTAXGROUPCODE</span><span class="sxs-lookup"><span data-stu-id="573bb-107">WITHHOLDINGTAXGROUPCODE</span></span> | = | <span data-ttu-id="573bb-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="573bb-108">msdyn_name</span></span> | 
+<span data-ttu-id="573bb-109">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="573bb-109">DESCRIPTION</span></span> | = | <span data-ttu-id="573bb-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="573bb-110">msdyn_description</span></span> | 
