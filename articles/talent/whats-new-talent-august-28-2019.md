@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1d7e5be0d9ba5e372e57f06fec77326561196626
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 1f19049b362070e2573db769bf7070ace0028406
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899238"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005935"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-27-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 for Talent (27 augustus 2019)
 
@@ -87,4 +87,4 @@ Zie [Gestroomlijnde invoer en navigatie voor werknemers](./streamlined-employee-
 
 ### <a name="platform-update-29"></a>Platformupdate 29
 
-Zie voor meer details over platformupdate 29 [Voorbeeldfuncties in Dynamics 365 for Finance and Operations platformupdate 29 (oktober 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Zie voor meer details over platformupdate 29 [Voorbeeldfuncties in Dynamics 365 for Finance and Operations platformupdate 29 (oktober 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

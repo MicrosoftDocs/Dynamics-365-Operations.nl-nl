@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815337"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003648"
 ---
 # <a name="purchase-requisition-overview"></a>Overzicht opdracht tot inkoop
 
@@ -81,7 +81,7 @@ De algemene status van een opdracht tot inkoop wordt bepaald door de status van 
 <li><strong>Wordt gecontroleerd</strong> - De regels van de opdracht tot inkoop zijn ingediend ter beoordeling. Wanneer een regel in een opdracht tot inkoop het workflowproces heeft voltooid, blijft de status <strong>Wordt gecontroleerd</strong> totdat overige regels van de opdracht tot inkoop zijn beoordeeld.</li>
 <li><strong>Geweigerd:</strong> Een regel van een inkoopopdracht is geweigerd. Regels van een opdracht tot inkoop die zijn geweigerd, kunnen worden aangepast en opnieuw ingediend.</li>
 </ul>
-Als u een regel in een opdracht tot inkoop die is afgewezen opnieuw indient, dan begint het controleproces voor alle regels in de opdracht tot inkoop die nog moeten worden gecontroleerd opnieuw. <strong>Opmerking:</strong> U kunt een opdracht tot inkoop intrekken die al is ingediend. Wanneer u een opdracht tot inkoop intrekt, worden alle andere regels in de opdracht tot inkoop ook ingetrokken. Regels van een opdracht tot inkoop die zijn ingetrokken, kunnen worden verwijderd.</td>
+Als u een regel in een opdracht tot inkoop die is afgewezen opnieuw indient, dan begint het controleproces voor alle regels in de opdracht tot inkoop die nog moeten worden gecontroleerd opnieuw. </br><strong>Opmerking:</strong> U kunt een opdracht tot inkoop intrekken die al is ingediend. Wanneer u een opdracht tot inkoop intrekt, worden alle andere regels in de opdracht tot inkoop ook ingetrokken. Regels van een opdracht tot inkoop die zijn ingetrokken, kunnen worden verwijderd.</td>
 </tr>
 <tr class="odd">
 <td>Geweigerd</td>
@@ -109,7 +109,7 @@ Als u een regel in een opdracht tot inkoop die is afgewezen opnieuw indient, dan
 <tr class="odd">
 <td>Geannuleerd</td>
 <td>Geannuleerd</td>
-<td>De geselecteerde opdracht tot inkoop en alle opdracht tot inkoopregels zijn geannuleerd. <strong>Opmerking:</strong> als u een artikel op een regel in een opdracht tot inkoop niet meer nodig hebt, moet u de regel in de opdracht tot inkoop annuleren als deze al is goedgekeurd. Alleen regels van een opdracht tot inkoop die zijn goedgekeurd, kunnen worden geannuleerd. Als er regels in de opdracht tot inkoop nog moeten worden gecontroleerd, dan heeft de opdracht tot inkoop de status <strong>Wordt gecontroleerd</strong>. In dit geval kunt u de opdracht tot inkoop intrekken en de juiste regel in de opdracht tot inkoop verwijderen.</td>
+<td>De geselecteerde opdracht tot inkoop en alle opdracht tot inkoopregels zijn geannuleerd.</br> <strong>Opmerking:</strong> als u een artikel op een regel in een opdracht tot inkoop niet meer nodig hebt, moet u de regel in de opdracht tot inkoop annuleren als deze al is goedgekeurd. Alleen regels van een opdracht tot inkoop die zijn goedgekeurd, kunnen worden geannuleerd. Als er regels in de opdracht tot inkoop nog moeten worden gecontroleerd, dan heeft de opdracht tot inkoop de status <strong>Wordt gecontroleerd</strong>. In dit geval kunt u de opdracht tot inkoop intrekken en de juiste regel in de opdracht tot inkoop verwijderen.</td>
 </tr>
 <tr class="even">
 <td>Gesloten</td>
@@ -156,7 +156,8 @@ In sommige gevallen moet u een proces voor offerteaanvraag (RFQ) opstarten om de
 
 U kunt een opdracht tot inkoop in de wachtstand plaatsen door het selecteren van het selectievakje **In wachtstand** op de pagina **Details opdracht tot inkoop**. Verwerking van de opdracht tot inkoop kan alleen worden voortgezet nadat u de blokkering hebt verwijderd door het selectievakje uit te schakelen.  
 
-**Opmerking:** In eProcurement kan de offerteaanvraag voor uw opdracht tot inkoop leveranciers mogelijk toestaan om alternatieve regels toe te voegen. In dit geval geeft uw opdracht tot inkoop goedgekeurd alternatieven weer.
+> [!NOTE]
+> In eProcurement kan de offerteaanvraag voor uw opdracht tot inkoop leveranciers mogelijk toestaan om alternatieve regels toe te voegen. In dit geval geeft uw opdracht tot inkoop goedgekeurd alternatieven weer.
 
 ## <a name="demand-consolidation"></a>Vraagconsolidatie
 Door inkoopbestelopdrachtregels van meerdere inkoopbestelopdrachten samen te voegen, kunt u uw onderhandelingspositie met uw leveranciers verstevigen om betere prijzen, lagere verzendkosten en lagere overheadkosten te verkrijgen.  
@@ -172,7 +173,8 @@ Een samenvoegingsmogelijkheid is een reeks regels in de opdracht voor inkoop die
 
 Nadat u opdrachtregels aan een samenvoegingsmogelijkheid hebt toegevoegd en vereiste wijzigingen hebt aangebracht, kunt u een inkooporder maken voor de samengevoegde regels in de opdracht tot inkoop.  
 
-**Opmerking:** Wijzigingen die u aanbrengt aan een opdracht tot inkoop op de pagina **Consolidatie opdracht tot inkoop** worden weergegeven op de inkooporder die u maakt. In de opdracht tot inkoop blijft de regel ongewijzigd, zodat de geschiedenis wordt behouden.  
+> [!NOTE]
+> Wijzigingen die u aanbrengt aan een opdracht tot inkoop op de pagina **Consolidatie opdracht tot inkoop** worden weergegeven op de inkooporder die u maakt. In de opdracht tot inkoop blijft de regel ongewijzigd, zodat de geschiedenis wordt behouden.  
 
 Als u een inkooporder wilt maken voor regels in de opdracht tot inkoop die niet in aanmerking komen voor consolidatie of die niet zijn geselecteerd voor een samenvoegingsmogelijkheid, moet u de regels handmatig verwerken.
 

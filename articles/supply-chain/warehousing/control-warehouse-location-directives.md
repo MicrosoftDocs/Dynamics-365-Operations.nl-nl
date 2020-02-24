@@ -3,7 +3,7 @@ title: Magazijnwerk beheren met werksjablonen en locatierichtlijnen
 description: In dit onderwerp wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt uitgevoerd in het magazijn.
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026904"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028023"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Magazijnwerk beheren met werksjablonen en locatierichtlijnen
 
@@ -152,7 +152,7 @@ Selecteer deze optie om batchstrategieën voor de artikelen te gebruiken die voo
 ### <a name="strategy"></a>Strategie
 
 -   **Consolideren**: deze optimalisatiestrategie wordt gebruikt om artikelen in een bepaalde locatie te consolideren wanneer vergelijkbare artikelen beschikbaar zijn. Dit werkt alleen voor de locatie-instructie van het type Wegzetten. Algemene instellingen voor wegzetten zijn bedoeld om te consolideren op de eerste actieregel en bij de tweede poging weg te zetten zonder consolidatie. Door goederen te consolideren, wordt orderverzamelen later efficiënter.
--   **Verpakkingshoeveelheid afstemmen**: deze optimalisatiestrategie wordt gebruikt om te controleren of een orderverzamellocatie de benodigde verpakkingshoeveelheid heeft. Dit werkt alleen voor een locatie-instructie van het type Verzamelen. 
+-   **Verpakkingshoeveelheid afstemmen**: met deze strategie wordt een locatie gevonden die een nummerplaat bevat met de exact vereiste hoeveelheid. Het kan niet worden gebruikt bij locaties niet met nummerplaten worden beheerd. Deze strategie werkt alleen voor locatie-instructies van het type verzamelwerk.
 -   **FEFO-batchreservering**: deze strategie wordt gebruikt wanneer voorraad wordt gevonden door middel van een batchvervaldatum en voor een batchreservering wordt toegewezen. U kunt deze strategie alleen maar voor batch ingeschakelde artikelen gebruiken. Dit werkt alleen voor locatie-instructies van het type verzamelwerk. 
 -   **Naar volledige LP afronden**: deze strategie wordt gebruikt om de voorraadhoeveelheid naar boven af te ronden om de hoeveelheid toegewezen nummerplaten (LP) te verzamelen. U kunt deze strategie alleen gebruiken voor het aanvullingstype van de locatie-instructie van het type Verzamelen. 
 -   **Lege locatie zonder inkomend werk**: deze strategie wordt gebruikt om blanco locaties te vinden. De locatie wordt beschouwd als leeg als het geen fysieke voorraad en geen verwacht inkomend werk heeft. Deze strategie wordt alleen gebruikt voor een locatie-instructie van het type Wegzetten. 

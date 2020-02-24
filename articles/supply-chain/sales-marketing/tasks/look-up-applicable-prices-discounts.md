@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db9caaa7f425133eda7a5f225b39ca52e11e0716
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835572"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025823"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Van toepassing zijnde prijzen en kortingen opzoeken
 
@@ -49,7 +49,7 @@ Deze procedure laat zien hoe u de prijs en/of de korting vindt voor een product 
 10. Sluit de pagina.
 
 ## <a name="find-the-applicable-discount"></a>De toepasselijke korting zoeken
-    * Zorg ervoor dat het veld Klantrekening klantnummer US-001 bevat.    
+Zorg ervoor dat het veld Klantrekening klantnummer US-001 bevat.    
 1. Typ in het veld Artikelnummer de waarde 'T0012'.
     * Zorg dat het veld Hoeveelheid is ingesteld op 1.  
     * De volgende prijsgegevens die worden weergegeven voor product T0012, komen uit een of meerdere handelsovereenkomsten: de eenheidsprijs is CAD 1,000 en het kortingspercentage is 5.  

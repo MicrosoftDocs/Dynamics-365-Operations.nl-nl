@@ -3,7 +3,7 @@ title: Automatische vereffening en prioriteitstelling
 description: Dit onderwerp beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 01/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73a4403ec3265d9ab68c5cd906965a1c28ca7352
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b596557e80035e8d62d01f156a6678c75e4ae573
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189218"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000042"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Automatische vereffening en prioriteitstelling
 
@@ -76,8 +76,8 @@ Als er geen vereffeningsprioriteit voor de gebruiker gedefinieerd is, worden tra
 |---------------|------------|---------|--------------------------------|------------------|---------|----------|
 | Factuur 1     | 8/15/2015  | 10001   | 100,00                         | 100,00           | 0,00    | USD      |
 | Factuur 2     | 9/1/2015   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
-| Factuur 3     | 10/15/2015 |         | 500,00                         | 350,00           | 150,00  | USD      |
-| Rentenota | 10/15/2015 |         | 7,00                           | 0,00             | 0,00    | USD      |
+| Factuur 3     | 10/15/2015 |         | 500.00                         | 350.00           | 150.00  | EUR      |
+| Rentenota | 10/15/2015 |         | 7.00                           | 0,00             | 7.00    | EUR      |
 
 
 

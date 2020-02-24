@@ -1,9 +1,9 @@
 ---
 title: Een e-commerce-site maken
-description: In dit onderwerp worden de taken beschreven die betrekking hebben op het maken van een nieuwe e-commerce-site in Dynamics 365 Commerce.
+description: In dit onderwerp worden de stappen en informatie beschreven die nodig zijn om een nieuwe e-Commerce-site in Dynamics 365 Commerce site builder te maken.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945830"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002008"
 ---
 # <a name="create-an-e-commerce-site"></a>Een e-commerce-site maken
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de taken beschreven die betrekking hebben op het maken van een nieuwe e-commerce-site in Dynamics 365 Commerce.
+In dit onderwerp worden de stappen en informatie beschreven die nodig zijn om een nieuwe e-Commerce-site in Dynamics 365 Commerce site builder te maken.
 
-## <a name="overview"></a>Overzicht
+Als u uw e-Commerce-site wilt gaan ontwikkelen, moet u eerst een nieuwe site in site builder maken. 
 
-Als u uw e-commerce-site wilt gaan ontwikkelen, moet u eerst een nieuwe site in de ontwerpomgeving van de si te maken. Voordat u een nieuwe site kunt maken, moet er minimaal één online winkel zijn gemaakt in Dynamics 365 Retail. 
+
+Als u uw e-commerce-site wilt gaan ontwikkelen, moet u eerst een nieuwe site in de ontwerpomgeving van de si te maken. Voordat u een nieuwe site kunt maken, moet er minimaal één online winkel zijn gemaakt in Commerce. 
+
 
 ## <a name="set-up-your-site"></a>Uw site instellen
 
 Ga als volgt te werk als u uw site wilt instellen.
 
-1. Selecteer in Microsoft Lifecycle Services (LCS) de koppeling voor de ontwerpomgeving voor sites. 
+1. Open de site builder-omgeving. U vindt een koppeling naar de site builder in Microsoft Lifecycle Services (LCS) op de pagina omgevingsfuncties voor Commerce.
 1. Selecteer **Nieuwe site** op de startpagina voor de ontwerpomgeving voor sites.
 1. Geef in het dialoogvenster **Nieuwe site** de volgende informatie op.
 

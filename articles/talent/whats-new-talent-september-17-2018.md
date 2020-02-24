@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80d71d2390e7b6e39798d0f061b584ad229a2459
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20d3da65028b455ab1602e3a8b443ea7e585b1f0
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897299"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030891"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-17-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent - Core HR (17 september 2018)
 
@@ -37,11 +37,11 @@ Er is een nieuw toerekeningstype toegevoegd aan verlofplannen. Het toerekeningss
 
 ## <a name="platform-update-18-for-finance-and-operations"></a>Platformupdate 18 voor Finance and Operations
 
-Platformupdate 18 voor Finance and Operations maakt nu deel uit van de Talent-release. 
+Platformupdate 18 voor Finance and Operations maakt nu deel uit van de Talent-versie. 
 
 -   Verplichte en andere velden kunnen worden verborgen door middel van personalisatie. Zo beschikt een gebruiker over een vereenvoudigde ervaring waarbij verplichte velden die standaard worden ingevuld op basis van zakelijke logica niet worden weergegeven. Verborgen verplichte velden zijn ook tijdelijk zichtbaar als ze leeg zijn terwijl wordt geprobeerd op te slaan.
 
--   Met platformupdate 18 voor Finance and Operations zijn de visuele elementen van de Talent-webclient nu in overeenstemming met Microsoft Fluent Design.
+-   Met platformupdate 18 voor Finance and Operations sluiten de visuele elementen van de Talent-webclient nu aan op het Microsoft Fluent Design.
 
     -   Wanneer velden nu in de leesmodus worden weergegeven, hoeft u alleen maar de optie voor bewerken in de velden te selecteren om het formulier bewerkbaar te maken.
 
@@ -49,7 +49,7 @@ Platformupdate 18 voor Finance and Operations maakt nu deel uit van de Talent-re
 
     -   Koppen in de werkruimten en pagina's worden vet weergegeven.
 
--   Het gedrag van niet-vervangende zoekopdrachten is verbeterd. Zie voor meer informatie [Verbeterd gedrag voor niet-vervangende zoekopdrachten](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).
+-   Het gedrag van niet-vervangende zoekopdrachten is verbeterd. Zie voor meer informatie [Verbeterd gedrag voor niet-vervangende zoekopdrachten](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/non-replacing-lookups).
 
 ## <a name="bug-fixes"></a>Correcties
 

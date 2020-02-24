@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812381"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003674"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Overzicht van Organisaties en organisatiehiërarchieën
 
@@ -47,7 +47,7 @@ Een bedrijf is een type rechtspersoon. Momenteel zijn bedrijven het enige type r
 
 Een operationele eenheid is een organisatie die wordt gebruikt om het beheer van economische middelen en operationele processen in een bedrijf te verdelen. Personen in een operationele eenheid moeten optimaal gebruikmaken van schaarse middelen, processen verbeteren en rekenschap afleggen van hun prestaties.
 
-De typen operationele eenheden omvatten kostenplaatsen, bedrijfseenheden, afdelingen, waardestromen en detailhandelkanalen. De volgende tabel bevat meer informatie over elk type operationele eenheid.
+De typen operationele eenheden omvatten kostenplaatsen, bedrijfseenheden, afdelingen, waardestromen en Commerce-kanalen. De volgende tabel bevat meer informatie over elk type operationele eenheid.
 
 | Type operationele eenheid | Omschrijving | Doel |
 |---------------------|-------------|---------|
@@ -55,7 +55,7 @@ De typen operationele eenheden omvatten kostenplaatsen, bedrijfseenheden, afdeli
 | Bedrijfseenheid       | Een semi-zelfstandige operationele eenheid die is gemaakt om strategische doelstellingen van de onderneming te behalen. | Deze optie wordt gebruikt voor financiële rapportages die zijn gebaseerd op industrieën of productlijnen van de organisatie, onafhankelijk van rechtspersonen. |
 | Waardestroom        | Een bewerkingseenheid waarmee één of meer productiestromen worden beheerd. | Deze optie wordt vaak gebruikt bij lean manufacturing om de activiteiten en stromen te beheren die zijn vereist voor de levering van een product of service aan klanten. |
 | Afdeling          | Een operationele eenheid waarmee een categorie of functioneel onderdeel van een organisatie wordt aangegeven voor het uitvoeren van een specifieke taak, zoals verkoop of boekhouding. | Deze optie wordt gebruikt voor de rapportage over functionele gebieden. Een afdeling kan verantwoordelijk zijn voor winst en verlies en kan bestaan uit een groep kostenplaatsen. |
-| Detailhandelkanaal      | Een operationele eenheid die een fysieke winkel, een online winkel of een online handelsplaats vertegenwoordigt. | Gebruikt voor het beheer en de operationele controle van een of meer winkels binnen of tussen verschillende rechtspersonen. |
+| Commerce-kanaal      | Een operationele eenheid die een fysieke winkel, een online winkel of een online handelsplaats vertegenwoordigt. | Gebruikt voor het beheer en de operationele controle van een of meer winkels binnen of tussen verschillende rechtspersonen. |
 
 ### <a name="teams"></a>Teams
 

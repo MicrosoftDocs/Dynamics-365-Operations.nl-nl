@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771628"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025849"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met Power BI Embedded
 
@@ -29,7 +29,7 @@ ms.locfileid: "2771628"
 > [!NOTE]
 > Deze functie wordt ondersteund in Finance and Operations (versie 7.2 en hoger).
 
-## <a name="introduction"></a>Inleiding
+## <a name="introduction"></a>Introductie
 In dit onderwerp wordt beschreven hoe u een Microsoft Power BI-rapport insluit op het tabblad **Analyses** van een werkgebied. In het hier gebruikte voorbeeld wordt het werkgebied **Reserveringenbeheer** in de toepassing Wagenparkbeheer uitgebreid om een analytisch werkgebied in te sluiten in het tabblad **Analyses**.
 
 ## <a name="prerequisites"></a>Vereisten
@@ -111,7 +111,7 @@ Volg deze stappen om bedrijfslogica toe te voegen voor het initialiseren van het
 2. Druk op F7 om toegang te krijgen tot de code achter de codedefinitie.
 3. Voeg de volgende X++-code toe:
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ U hebt nu de taak voltooid voor het toevoegen van bedrijfslogica voor het initia
 Deze sectie bevat informatie over de helperklasse die wordt gebruikt om een Power BI-rapport (.pbix-resource) in te sluiten in een besturingselement voor een formuliergroep.
 
 #### <a name="syntax"></a>Syntaxis
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

@@ -3,7 +3,7 @@ title: Aan de slag met Planningsoptimalisatie
 description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met de functionaliteit Planningsoptimalisatie.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/29/2019
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 37c2acb2397b2a0ad69272c0645bd200a8d7910d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773931"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971459"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
@@ -47,15 +47,17 @@ Als u Planningsoptimalisatie wilt gebruiken, moet u de invoegtoepassing Planning
 
 1. Meld u aan bij LCS en open de gewenste omgeving.
 1. Ga naar **Volledige details**.
-1. Selecteer **Onderhouden** of ga omlaag naar het sneltabblad **Invoegtoepassingen voor omgeving**.
+1. Schuif omlaag naar het sneltabblad **Invoegtoepassingen voor omgeving**.
 1. Selecteer **Een nieuwe invoegtoepassing installeren**.
 1. Selecteer **Planningsoptimalisatie**.
 1. Volg de installatiehandleiding en ga akkoord met de voorwaarden en bepalingen.
 1. Selecteer **Installeren**.
+1. Op het sneltabblad **Invoegtoepassingen voor omgeving** zou u moeten zien dat planningsoptimalisatie wordt geïnstalleerd.
+1. Na een paar minuten moet **Installeren** veranderen in **Geïnstalleerd** (u moet de pagina mogelijk vernieuwen). Wanneer Planningsoptimalisering is geïnstalleerd, kunt u het activeren in Dynamics 365 Supply Chain Management.
 
 ### <a name="planning-optimization-integration"></a>Integratie van Planningsoptimalisatie
 
-Als u wilt configureren of de invoegtoepassing Planningsoptimalisatie moet worden gebruikt voor de hoofdplanning, gaat u naar **Hoofdplanning** \> **Instellen** \> **Integratie van Planningsoptimalisatie** \> **Integratieparameters**.
+Als u wilt configureren of de invoegtoepassing Planningsoptimalisatie moet worden gebruikt voor hoofdplanning, gaat u naar **Hoofdplanning** \> **Instellen** \> **Integratie van Planningsoptimalisatie**.
 
 #### <a name="connection-status"></a>Verbindingsstatus
 

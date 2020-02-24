@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914836"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002677"
 ---
 # <a name="templates-and-layouts-overview"></a>Overzicht sjablonen en indelingen
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Sjablonen zijn een basiselement van het Microsoft Dynamics 365 Commerce-paginamodel. Als u de werkstromen voor site-ontwerpen doelmatiger en consistenter wilt maken, is het belangrijk dat u de voordelen van sjablonen voor uw website leer kennen. Vroege beslissingen over de sjabloonstructuur zijn belangrijk en kunnen grote invloed hebben op kosten en flexibiliteit voor merkupdates voor elke dag, per seizoen of voor de hele site. Goed gestructureerde sjablonen hebben ook andere voordelen. Ze helpen bijvoorbeeld bij het optimaliseren van de scores van de zoekmachine (SEO) voor de hele site en bij het beperken van het aantal fouten.

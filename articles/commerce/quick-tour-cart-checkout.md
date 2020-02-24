@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697837"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002930"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>Overzicht van pagina's met winkelwagen en kassa
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp vindt u een overzicht van de pagina's met winkelwagen en kassa in Microsoft Dynamics 365 Commerce.
@@ -65,11 +65,11 @@ De hoofdtekst van de kassapagina omvat alle ordergegevens. Deze informatie omvat
 
 ### <a name="shipping-address"></a>Verzendadres
 
-Een verzendadres is vereist als artikelen moeten worden verzonden. De indeling van de verzendadressen voor elke landinstelling kan worden geconfigureerd in Dynamics 365 Retail. Als de artikelen bijvoorbeeld naar de Verenigde Staten worden verzonden, moet het verzendadres een straat, provincie en postcode bevatten. Sommige basisvalidaties worden uitgevoerd voor velden met verzendadressen, zoals validatie van alfanumerieke tekens, maximale lengte en getallen. Hoewel de geldigheid van het adres zelf niet wordt gecontroleerd, kan deze verificatie worden uitgevoerd met behulp van aangepaste services van derden.
+Een verzendadres is vereist als artikelen moeten worden verzonden. De indeling van de verzendadressen voor elke landinstelling kan worden geconfigureerd in Dynamics 365 Commerce. Als de artikelen bijvoorbeeld naar de Verenigde Staten worden verzonden, moet het verzendadres een straat, provincie en postcode bevatten. Sommige basisvalidaties worden uitgevoerd voor velden met verzendadressen, zoals validatie van alfanumerieke tekens, maximale lengte en getallen. Hoewel de geldigheid van het adres zelf niet wordt gecontroleerd, kan deze verificatie worden uitgevoerd met behulp van aangepaste services van derden.
 
 Het verzendadres wordt toegepast op alle artikelen in de winkelwagen waarvoor de optie verzenden is geselecteerd. Als u de uitcheckstroom gebruikt die is opgenomen in het online startpakket, kunnen afzonderlijke winkelwagenartikelen niet naar verschillende adressen worden verzonden. Als u deze mogelijkheid nodig hebt, kunt u deze implementeren door de kassamodules aan te passen.
 
-Wanneer het verzendadres is opgegeven, worden de verzendmethoden weergegeven die beschikbaar zijn in de online winkel van Dynamics 365 Commerce. De verzendmethoden en de ondersteunde adressen kunnen in Retail worden geconfigureerd.
+Wanneer het verzendadres is opgegeven, worden de verzendmethoden weergegeven die beschikbaar zijn in de online winkel van Dynamics 365 Commerce. De verzendmethoden en de ondersteunde adressen kunnen in Commerce worden geconfigureerd.
 
 ### <a name="payment"></a>Betaling
 

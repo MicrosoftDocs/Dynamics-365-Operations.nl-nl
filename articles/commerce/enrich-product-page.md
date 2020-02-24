@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9c0f329d21cdda5c36a39a8c602d5925b720f52
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945738"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003068"
 ---
 # <a name="enrich-a-product-page"></a>Een productpagina verrijken
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een productpagina verrijkt in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Overzicht
 
-Standaard gebruikt uw site een algemene pagina om productgegevens weer te geven. Deze pagina bevat de basisgegevens over het product en de besturingselementen die nodig zijn om het product te verkopen. U kunt echter de informatie van de Retail Server aanvullen met extra afbeeldingen of tekst voor een specifiek product. Dit proces wordt het verrijken van de productpagina genoemd.
+Standaard gebruikt uw site een algemene pagina om productgegevens weer te geven. Deze pagina bevat de basisgegevens over het product en de besturingselementen die nodig zijn om het product te verkopen. U kunt echter de informatie van de Commerce Scale Unit aanvullen met extra afbeeldingen of tekst voor een specifiek product. Dit proces wordt het verrijken van de productpagina genoemd.
 
-In veel gevallen zult u specifieke aanvullende inhoud voor uw producten willen gebruiken. Wanneer u naar **Detailhandel** gaat in het ontwerpprogramma, ziet u een lijst met producten uit het afzetkanaal dat aan de site is toegewezen. In deze lijst geeft de kolom **Verrijkt** aan of de productpagina voor een product is verrijkt. Als er een vinkje in de kolom staat, bestaat er een verrijkte product pagina voor het product. Als er geen vinkje wordt weergegeven, worden de standaard productpagina en -inhoud voor het product gebruikt. U kunt zowel verrijkte als niet-verrijkte productpagina's voorvertonen door een productnaam in de lijst te selecteren.
+In veel gevallen zult u specifieke aanvullende inhoud voor uw producten willen gebruiken. Wanneer u naar **Retail en Commerce** gaat in het ontwerpprogramma, ziet u een lijst met producten uit het afzetkanaal dat aan de site is toegewezen. In deze lijst geeft de kolom **Verrijkt** aan of de productpagina voor een product is verrijkt. Als er een vinkje in de kolom staat, bestaat er een verrijkte product pagina voor het product. Als er geen vinkje wordt weergegeven, worden de standaard productpagina en -inhoud voor het product gebruikt. U kunt zowel verrijkte als niet-verrijkte productpagina's voorvertonen door een productnaam in de lijst te selecteren.
 
 ## <a name="enrich-a-product-page"></a>Een productpagina verrijken
 

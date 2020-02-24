@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d66cc69da08478ceb931fab594da51bafcacc38
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3fe08b30977b8515ffd8d0acc1fd8f4b3085de93
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185078"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026081"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Ontwerp domeinspecifiek gegevensmodel
 
@@ -48,7 +48,7 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf, Litware, In
 4. Klik op de knop "Configuratie maken" om de taak van het maken van een configuratie te voltooien
 
 ## <a name="create-a-data-model"></a>Een gegevensmodel maken
-    * U maakt een nieuw gegevensmodel voor de geselecteerde configuratie. Deze configuratieversie heeft de status Concept.  
+U maakt een nieuw gegevensmodel voor de geselecteerde configuratie. Deze configuratieversie heeft de status Concept.  
 1. Klik op Ontwerper.
 
 ## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a>De structuur van een partij die deelneemt aan een betalingsproces definiëren

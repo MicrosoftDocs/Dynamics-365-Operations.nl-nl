@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b409b6cd5eb8c1b96ffb9cc1df47ff88019989f9
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: f8c2cdbf055a2854c4140d3ccc264da260c7cdf5
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945990"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002261"
 ---
 # <a name="compliance-overview"></a>Conformiteitsoverzicht
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Dit onderwerp is een overzicht van de compliancerichtlijnen die bij Microsoft Dynamics 365 Commerce worden geleverd zodat u ervoor kunt zorgen dat de sites van uw bedrijf compliant zijn. Compliance is een belangrijke factor voor alle bedrijven, omdat ze er hiermee voor zorgen dat hun gebruikers verbinding kunnen maken met hun site-inhoud. Door compliant te blijven, kunt u uw bedrijf ook helpen beschermen tegen dure juridische stappen of flinke boetes.

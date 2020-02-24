@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af8a30e69d9ed143e045950efdcece207f6da14c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697929"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003229"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>Productaanbevelingen ontvangen met behulp van demogegevens
 Dit document biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
@@ -39,7 +39,7 @@ Voor Tier 1-omgevingen zijn productaanbevelingen alleen gebaseerd op de statisch
 Voor het inschakelen van demogegevens voor productaanbevelingen moet u de demo-uitbreiding voor Dynamics 365 Commerce-preview implementeren in de respectievelijke omgeving. Als u dit doet, worden demogegevens van productaanbevelingen automatisch ingeschakeld.
 
 ## <a name="default-demo-data"></a>Standaard demogegevens
-Elke omgeving van het Onebox-type bevat een vooraf geladen set met productaanbevelingen die zijn opgeslagen in het bestand met door komma's gescheiden waarden 'reco_demo_data. csv', dat op Retail Server bevindt.
+Elke omgeving van het Onebox-type bevat een vooraf geladen set met productaanbevelingen die zijn opgeslagen in het bestand met door komma's gescheiden waarden 'reco_demo_data. csv' dat zich op de Commerce Scale Unit bevindt.
 
 De gegevens zijn onderverdeeld in de volgende kolommen.
 

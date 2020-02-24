@@ -3,7 +3,7 @@ title: Voorraadblokkering
 description: Dit onderwerp geeft een overzicht van voorraadblokkering, dat deel van het kwaliteitsinspectieproces in Supply Chain Management is. U kunt voorraadblokkering gebruiken om te voorkomen dat artikelen worden verwerkt of verbruikt.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814370"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971482"
 ---
 # <a name="inventory-blocking"></a>Voorraadblokkering
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel geeft een overzicht van voorraadblokkering, dat deel van het kwaliteitsinspectieproces in Supply Chain Management is. U kunt voorraadblokkering gebruiken om te voorkomen dat artikelen worden verwerkt of verbruikt.
+Dit onderwerp geeft een overzicht van voorraadblokkering, dat deel van het kwaliteitsinspectieproces in Supply Chain Management is. U kunt voorraadblokkering gebruiken om te voorkomen dat artikelen worden verwerkt of verbruikt.
 
 U kunt op de volgende manieren voorraadartikelen blokkeren:
 -   Handmatig
@@ -44,6 +44,9 @@ U kunt een hoeveelheid van een artikel blokkeren door een transactie te maken op
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Artikelen blokkeren door een kwaliteitsorder te maken
 U kunt artikelen opgeven die moeten worden geïnspecteerd door een kwaliteitsorder te maken op de pagina **Kwaliteitsorders**. Wanneer u een kwaliteitsorder maakt, wordt de hoeveelheid die u opgeeft voor een artikel geblokkeerd. Het bemonsteringsplan dat is gekoppeld aan een kwaliteitsorder bepaalt alleen de hoeveelheid artikelen die moet worden geïnspecteerd, niet de hoeveelheid die wordt geblokkeerd. De hoeveelheid die wordt ingevoerd in de kwaliteitsorder is de geblokkeerde hoeveelheid, ongeacht de hoeveelheid die volgens het bemonsteringsplan moet worden verzonden voor inspectie.
 
+> [!NOTE]
+> Het gebruik van de batchvervaldatum en blokkering van voorraadstatusfuncties worden niet ondersteund door de hoofdplanning. Dit kan leiden tot dubbele uitsluiting van voorhanden voorraad, wat kan optreden tijdens hoofdplanning. Het is raadzaam om in plaats van de voorraad status te vertrouwen op batchbeschikkingscodes voor het blokkeren van vervallen batches.
+
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Artikelen blokkeren via een proces waarmee een kwaliteitsorder wordt gegenereerd
 Als in een kwaliteitsinspectieproces wordt opgegeven dat een artikel moet worden geïnspecteerd, wordt een hoeveelheid van het artikel automatisch geblokkeerd. Dus wanneer een kwaliteitsorder automatisch wordt gegenereerd, bepaalt het artikelbemonsteringsplan dat is gekoppeld aan de kwaliteitsorder, zowel de hoeveelheid artikelen die wordt geblokkeerd als de hoeveelheid artikelen die moet worden geïnspecteerd. Als het selectievakje **Volledig blokkeren** op de pagina **Artikelbemonstering** is ingeschakeld, wordt de volledige hoeveelheid van, bijvoorbeeld een inkooporder, geblokkeerd tijdens de inspectie, ongeacht de hoeveelheid voor artikelbemonstering.
 ### <a name="example"></a>Voorbeeld
@@ -55,7 +58,7 @@ In het volgende voorbeeld wordt een kwaliteitsorder gegenereerd wanneer de pakbo
 | Met een kwaliteitskoppeling wordt opgegeven dat bij het boeken van een pakbon voor een inkooporder een kwaliteitsorder moet worden gegenereerd. Met het artikelbemonsteringsplan van de kwaliteitsorder wordt bepaald dat 10 procent van de hoeveelheid op de inkooporderregel moet worden geïnspecteerd. Verder moet, omdat het selectievakje **Volledige blokkering** is ingeschakeld in de instellingen voor de artikelbemonstering, de volledige hoeveelheid van de inkooporderregel worden geblokkeerd tijdens de inspectie, ongeacht de hoeveelheid die wordt verzonden voor inspectie. | De pakbon wordt geboekt. | Een kwaliteitsorder wordt gegenereerd. Tien procent van de inkooporderhoeveelheid voor het artikel wordt naar inspectie verzonden. De volledige hoeveelheid van de inkooporderregel wordt geblokkeerd. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Artikelen blokkeren via blokkering van voorraadstatus
-U kunt opgeven welke voorraadstatussen blokkeringsstatussen zijn door de parameter **Voorraadblokkering** op de pagina **Voorraadstatussen** te gebruiken .  U kunt geen voorraadstatussen als blokkeringsstatus gebruiken voor productieorders, verkooporders, transferorders, uitgaande transacties of projectintegraties. Gebruik voor uitgaand werk artikelen met een beschikbare voorraadstatus. Als artikelen de status **Verbroken** hebben en de hoofdplanning op deze artikelen wordt uitgevoerd, worden de artikelen als ontbrekend beschouwd en wordt de voorraad automatisch aangevuld.
+U kunt opgeven welke voorraadstatussen blokkeringsstatussen zijn door de parameter **Voorraadblokkering** op de pagina **Voorraadstatussen** te gebruiken . U kunt geen voorraadstatussen als blokkeringsstatus gebruiken voor productieorders, verkooporders, transferorders, uitgaande transacties of projectintegraties. Gebruik voor uitgaand werk artikelen met een beschikbare voorraadstatus. Als artikelen de status **Verbroken** hebben en de hoofdplanning op deze artikelen wordt uitgevoerd, worden de artikelen als ontbrekend beschouwd en wordt de voorraad automatisch aangevuld.
 
 
 

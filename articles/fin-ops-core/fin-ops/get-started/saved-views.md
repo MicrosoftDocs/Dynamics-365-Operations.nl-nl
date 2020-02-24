@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 2f76c4e50649d3eda951940a2186348c29474dc6
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658662"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017699"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -37,7 +37,7 @@ Bij traditionele personalisatie beschikten gebruikers slechts over één set per
 
 -    Weergaven die voor bepaalde pagina typen worden gemaakt, kunnen ook door de gebruiker toegevoegde filters of sorteringen bevatten. Hierdoor kunnen gebruikers snel terugkeren naar vaak gefilterde gegevens sets. Zie het gedeelte [Welke pagina's weergaven ondersteunen](saved-views.md#what-pages-support-views) voor meer informatie. 
 
--    Weergaven kunnen worden gepubliceerd voor gebruikers in specifieke beveiligingsrollen en specifieke rechtspersonen. Daarom kan elke gebruiker die een opgegeven rol heeft in een bepaalde rechtspersoon, toegang krijgen tot die weergave en deze weergave gebruiken, zelfs als die gebruiker deze mogelijk niet kan aanpassen. Dankzij deze publicatiefunctie kunnen organisaties standaardweergaven voor bedrijven definiëren die voor hun bedrijf zijn geoptimaliseerd. Meer informatie vindt u in de sectie [Persoonlijke instellingen op een organisatieniveau beheren met weergaven](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
+-    Weergaven kunnen worden gepubliceerd voor gebruikers in specifieke beveiligingsrollen en specifieke rechtspersonen. Daarom kan elke gebruiker die een opgegeven rol heeft in en toegang tot een bepaalde rechtspersoon, toegang krijgen tot die weergave en deze gebruiken, zelfs als die gebruiker deze mogelijk niet kan aanpassen. Dankzij deze publicatiefunctie kunnen organisaties standaardweergaven voor bedrijven definiëren die voor hun bedrijf zijn geoptimaliseerd. Meer informatie vindt u in de sectie [Persoonlijke instellingen op een organisatieniveau beheren met weergaven](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
 
 -    In tegenstelling tot bij traditionele personalisatie worden weergaven niet automatisch opgeslagen wanneer een gebruiker expliciete aanpassingen uitvoert of een lijst filtert. Expliciete opslag is vereist om flexibiliteit te bieden bij het maken van een weergave voor- of nadat de wijzigingen gekoppeld aan die weergave zijn aangebracht en om ervoor te zorgen dat weergavedefinities niet per ongeluk worden gewijzigd door filters of persoonlijke instellingen die niet zijn bedoeld voor langetermijngebruik.  
 
@@ -71,7 +71,7 @@ Voer de volgende stappen uit als u deze wijzigingen wilt opslaan.
 2.  De bestaande weergave wijzigen:
      1. Selecteer **Opslaan**. Deze actie wordt niet ingeschakeld voor vergrendelde weergaven. 
 3.  Een nieuwe weergave maken:
-     1.    Selecteer **Opslaan als**. 
+     1.    Selecteer **Opslaan als...**. 
      2.    Voer een naam en desgewenst een omschrijving in.
      3.    Selecteer **Opslaan**.
 
@@ -83,7 +83,7 @@ Volg deze stappen om de standaardweergave voor een pagina te wijzigen:
 2.  Selecteer de weergavenaam om de weergavekiezer te openen. 
 3.  Selecteer **Meer** en **Vastmaken als standaard**.  
 
-Als u een nieuwe weergave maakt (met de actie **Opslaan als**), kunt u hiervan ook de standaardweergave maken door de optie **Vastmaken als standaard** in te stellen voordat u de weergave opslaat.
+Als u een nieuwe weergave maakt (met de actie **Opslaan als...**), kunt u hiervan ook de standaardweergave maken door de optie **Vastmaken als standaard** in te stellen voordat u de weergave opslaat.
 
 In sommige gevallen wordt de query die is gekoppeld aan de standaardweergave niet uitgevoerd wanneer u voor het eerst naar een pagina gaat. Als u bijvoorbeeld via een tegel naar een pagina navigeert, wordt de query van de tegel uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Als u naar een pagina navigeert waarvan de klassieke weergave al een gedefinieerde query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. In dat geval wordt u gewaarschuwd door een informatief bericht wanneer de weergave wordt geladen. Als u naar een andere weergave schakelt nadat de pagina is geladen, wordt de weergavequery weer zoals verwacht uitgevoerd.
 
@@ -99,11 +99,11 @@ De volgende set acties is beschikbaar voor een lijst met beschikbare weergaven v
 Eventuele wijzigingen in dit dialoogvenster worden pas van kracht als u de knop **Opslaan** selecteert.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Persoonlijke instellingen op een organisationeel niveau beheren met weergaven
-In deze sectie wordt beschreven hoe beheer van persoonlijke instellingen werkte voordat er weergaven beschikbaar waren, zodat u beter begrijpt hoe opgeslagen weergaven het beheer van persoonlijke instellingen op organisatieniveau kunnen verbeteren.
+In deze sectie worden enkele verschillen beschreven in het beheer van persoonlijke instellingen met en zonder de functie opgeslagen weergaven, zodat u beter begrijpt hoe opgeslagen weergaven het beheer van persoonlijke instellingen op organisatieniveau kunnen verbeteren.
 
 Zonder weergaven pasten beheerders een set persoonlijke instellingen voor een pagina toe op een gebruiker of een groep gebruikers via de pagina Persoonlijke instellingen. Als deze gebruikers over rechten voor persoonlijke instellingen beschikten, werden de persoonlijke instellingen toegepast op die pagina. Het was echter niet mogelijk om te voorkomen dat gebruikers de pagina verder zouden aanpassen. wat betekende dat de organisatie niet kon garanderen dat de gebruikers over een consistente gebruikersinterface beschikten. Als een van deze gebruikers niet over rechten voor persoonlijke instellingen beschikte, werden de persoonlijke instellingen die door een beheerder waren toegewezen, niet geladen. En als nieuwe gebruikers in een organisatie werden aangesteld, moesten beheerders handmatig een verzameling persoonlijke instellingen voor die gebruiker laden. Er was geen automatisch mechanisme om op te geven dat een bepaalde set persoonlijke instellingen beschikbaar moesten zijn voor gebruikers met die rol.
 
-De functie voor opgeslagen weergaven maakt het beheer van persoonlijke instellingen voor een organisatie aanzienlijk eenvoudiger, voornamelijk omdat weergaven kunnen worden gepubliceerd aan groepen gebruikers. Wanneer een weergave is gepubliceerd, kan elke gebruiker die een van de gedefinieerde beveiligingsrollen heeft en zich in de opgegeven rechtspersonen bevindt, toegang krijgen tot de weergave en deze gebruiken, zelfs als die gebruiker deze mogelijk niet kan aanpassen. Hoewel elke gebruiker een kopie heeft van de gepubliceerde weergave waarin het paginagebruik (impliciete persoonlijke instellingen) automatisch wordt toegepast, kan geen enkele gebruiker expliciete persoonlijke instellingen of queryupdates opslaan in de gepubliceerde weergave. (Met andere woorden: gepubliceerde weergaven zijn vergrendeld.) En als nieuwe gebruikers rollen krijgen in rechtspersonen waarnaar weergaven zijn gepubliceerd, zien deze gebruikers automatisch de weergaven die aan hun rollen en rechtspersonen zijn gekoppeld. De beheerder hoeft geen aanvullende actie uit te voeren. En als gebruikers in een organisatie van rol veranderen of toegang krijgen tot andere rechtspersonen, hebben ze mogelijk geen toegang meer tot de weergaven die eerder aan hen waren gepubliceerd. Ook hier hoeft de beheerder geen verdere actie te ondernemen.
+De functie voor opgeslagen weergaven maakt het beheer van persoonlijke instellingen voor een organisatie aanzienlijk eenvoudiger, voornamelijk omdat weergaven kunnen worden gepubliceerd aan groepen gebruikers. Wanneer een weergave is gepubliceerd, kan elke gebruiker die een van de gedefinieerde beveiligingsrollen heeft en toegang heeft tot de opgegeven rechtspersonen, de weergave zien en deze gebruiken, zelfs als die gebruiker deze mogelijk niet kan aanpassen. Hoewel elke gebruiker een kopie heeft van de gepubliceerde weergave waarin het paginagebruik (impliciete persoonlijke instellingen) automatisch wordt toegepast, kan geen enkele gebruiker expliciete persoonlijke instellingen of queryupdates opslaan in de gepubliceerde weergave. Anders gezegd, gepubliceerde weergaven zijn vergrendeld. En als nieuwe gebruikers rollen krijgen in rechtspersonen waarnaar weergaven zijn gepubliceerd, zien deze gebruikers automatisch de weergaven die aan hun rollen en rechtspersonen zijn gekoppeld. Hier hoeft de beheerder geen verdere actie te ondernemen. En als gebruikers in een organisatie van rol veranderen of toegang krijgen tot andere rechtspersonen, hebben ze mogelijk geen toegang meer tot de weergaven die eerder aan hen waren gepubliceerd. Ook hier hoeft de beheerder geen verdere actie te ondernemen.
 
 Updates voor een gepubliceerde weergave kunnen eenvoudig naar gebruikers worden gedistribueerd door de weergave opnieuw naar de betreffende beveiligingsrollen en rechtspersonen te publiceren.
 
@@ -119,7 +119,8 @@ Voer deze stappen uit om een weergave te publiceren:
 4.  Voer een naam en desgewenst een omschrijving voor de weergave in. De naam die u invoert, is de naam die gebruikers die deze weergave ontvangen, te zien krijgen in hun weergavekiezers. De namen van gepubliceerde weergaven voor een pagina moeten uniek zijn. Dubbele namen zijn niet toegestaan, ook niet als de lijst met rollen of rechtspersonen waarop de weergaven worden toegepast, verschilt.
 5.  Voeg de beveiligingsrollen toe die overeenkomen met de gebruikers voor wie deze weergave is bedoeld.
 6. Voeg de rechtspersonen toe waarvoor deze weergave beschikbaar moet zijn. 
-7.  Selecteer **Publiceren**.
+7. [10.0.9/platformupdate 33 of hoger] Bepaal of de weergave moet worden gepubliceerd als de standaardweergave voor de geselecteerde gebruikers. Een weergave instellen als standaardweergave betekent dat gebruikers deze weergave zien de volgende keer dat ze de doelpagina openen. Hierdoor wordt de standaardweergave voor deze gebruikers gewijzigd. Gebruikers kunnen hun eigen standaardweergave echter nog steeds wijzigen nadat de publicatie heeft plaatsgevonden.    
+8.  Selecteer **Publiceren**.
 
 In sommige omgevingen kan het enige tijd duren (maximaal een uur) voordat gebruikers de gepubliceerde weergave kunnen zien.
 
@@ -132,7 +133,8 @@ Als de wijzigingen die u wilt aanbrengen in een gepubliceerde weergave alleen be
 3.  Selecteer **Ja** als u de bestaande weergave wilt bijwerken (of **Nee** als u deze wilt publiceren onder een andere naam).
 4.  Werk de naam, omschrijving en/of beveiligingsrollen voor de weergave bij. 
 5.  Selecteer **Publiceren**. 
-6.  Als u de naam van de gepubliceerde weergave hebt bijgewerkt, moet u ook de gepubliceerde weergave met de oude naam verwijderen (zie **Gepubliceerde weergaven beheren** voor meer informatie). 
+6.  [10.0.8/platformupdate 32 of eerder] Als u de naam van de gepubliceerde weergave hebt bijgewerkt, moet u ook de gepubliceerde weergave met de oude naam verwijderen (zie **Gepubliceerde weergaven beheren** voor meer informatie). 
+7. [10.0.9/platform update 33 of hoger] Als u deze gepubliceerde weergave eerder had ingesteld als standaardweergave, wordt dit opnieuw de standaardweergave voor deze gebruikers nadat hij opnieuw is gepubliceerd.  
 
 Als de wijzigingen in de gepubliceerde weergave betrekking hebben op de persoonlijke instellingen of filters gekoppeld aan de weergave, gaat u als volgt te werk: 
 1.  Schakel over naar de gepubliceerde weergave die u wilt wijzigen. 
@@ -148,13 +150,15 @@ Hoewel alle gebruikers het tabblad **Mijn weergaven** met hun persoonlijke weerg
 De volgende set acties is beschikbaar voor de lijst met alle gepubliceerde weergaven voor de pagina. 
 
 -    **Publiceren**: gebruik de actie **Publiceren** om een weergave opnieuw te publiceren nadat publicatieparameters (naam, omschrijving, beveiligingsrollen of rechtspersonen) zijn gewijzigd.
--    **Verwijderen**: gebruik de actie **Verwijderen** om een gepubliceerde weergave definitief te verwijderen. Met deze actie verwijdert u de weergave voor alle gebruikers in het systeem.  
- 
-Eventuele wijzigingen in dit dialoogvenster worden pas van kracht als u de knop **Opslaan** selecteert.
+-    **Verwijderen**: gebruik de actie **Verwijderen** om een gepubliceerde weergave definitief te verwijderen. Met deze actie verwijdert u de weergave voor alle gebruikers in het systeem. Het verwijderen van gepubliceerde weergaven wordt pas van kracht nadat u op de knop **Opslaan** hebt geklikt.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Hoe schakel ik opgeslagen weergaven in mijn omgeving in? 
-Volg de onderstaande stappen om opgeslagen weergaven in te schakelen terwijl de functie in preview is: 
+Opmerking: Voor de functie **Opgeslagen weergaven** moet het personalisatiesysteem in Finance and Operations zijn ingeschakeld. Als persoonlijke instellingen zijn uitgeschakeld voor de gehele omgeving, worden weergaven wel uitgeschakeld, ook als u de onderstaande stappen uitvoert. 
+
+**10.0.9/platform update 33 en hoger** De functie **Opgeslagen weergaven** is in alle omgevingen meteen beschikbaar in Functiebeheer. Net als andere openbare previewfuncties is het inschakelen van deze functie in productie afhankelijk [van de Aanvullende gebruiksrechtovereenkomst](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/platform update 32 en eerder** De functie **Opgeslagen weergaven** kan worden ingeschakeld in omgevingen in laag 1 (Dev/Test) en in laag 2 (Sandbox) om extra tests en ontwerpwijzigingen te kunnen doorvoeren, door de volgende stappen uit te voeren.
 
 1.  **De vlucht inschakelen**: voer de volgende SQL-instructie uit: 
 
@@ -168,15 +172,12 @@ Volg de onderstaande stappen om opgeslagen weergaven in te schakelen terwijl de 
 
 Alle volgende gebruikerssessies worden gestart met opgeslagen weergaven ingeschakeld.
 
-Opgeslagen weergaven kan alleen worden gebruikt in Laag 1- (Ontwikkelen en testen) en Laag 2-omgevingen (Sandbox) om extra tests en ontwerpwijzigingen te verstrekken. Een preview van Opgeslagen weergaven zal in een toekomstige versie beschikbaar in productieomgevingen.
-
-Als persoonlijke instellingen zijn uitgeschakeld voor de omgeving, worden weergaven wel uitgeschakeld, ook als u de bovenstaande stappen uitvoert. De functie voor weergaven is namelijk gebouwd boven op het subsysteem voor persoonlijke instellingen.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Wat gebeurt er met bestaande persoonlijke instellingen wanneer weergaven worden ingeschakeld? 
 Wanneer weergaven worden ingeschakeld, worden bestaande persoonlijke instellingen voor een gebruiker en formulier opgeslagen in een nieuwe weergave met de naam **Mijn weergave** die automatisch wordt ingesteld als de standaardweergave. Dit is bedoeld om ervoor te zorgen dat er een consistente gebruikerservaring bestaat voor- en nadat weergaven worden ingeschakeld, behalve dat de weergavekiezer wordt weergegeven in formulieren.  
 
 ### <a name="what-pages-support-views"></a>Welke pagina's ondersteunen weergaven? 
-Weergaven zijn beschikbaar op de meeste, maar niet alle pagina's. Weergaven zijn momenteel beschikbaar op alle pagina's in het volledige scherm, met uitzondering van dashboards en werkgebieden. Andere pagina's, zoals dialoogvensters, vervolgkeuzemenu's, zoekopdrachten en verbeterde voorbeelden ondersteunen momenteel ook geen weergaven. Mogelijk bieden andere paginatypen, zoals werkgebieden en dialoogvensters, wel ondersteuning voor weergaven in toekomstige updates.   
+Weergaven zijn beschikbaar op de meeste, maar niet alle pagina's. Weergaven zijn momenteel beschikbaar op alle pagina's in het volledige scherm, met uitzondering van dashboards en werkgebieden. Andere pagina's, zoals dialoogvensters, vervolgkeuzemenu's, zoekopdrachten en verbeterde voorbeelden, ondersteunen momenteel geen weergaven. Mogelijk bieden andere paginatypen, zoals werkgebieden en dialoogvensters, wel ondersteuning voor weergaven in toekomstige updates.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>Wie mag weergaven publiceren?
 Alleen systeembeheerders en gebruikers aan wie de rol **Beheerder van opgeslagen weergaven** is toegewezen, zijn gemachtigd om weergaven te publiceren. 
@@ -184,12 +185,14 @@ Alleen systeembeheerders en gebruikers aan wie de rol **Beheerder van opgeslagen
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>Waarom kan ik filters niet opslaan met deze weergave? 
 Er zijn een aantal redenen waarom een filter mogelijk niet wordt opgeslagen met een weergave: 
 
-- Het opslaan van filters wordt mogelijk niet door de pagina ondersteund als onderdeel van de weergavedefinitie. Alleen voor pagina's met grote weergavekiezers kunnen persoonlijke instellingen en querywijzigingen worden opgeslagen als weergave. Zie Schakelen tussen weergaven voor meer informatie. 
-
-- Als de weergave de standaardweergave is en het navigatiepad naar de pagina een query bevat, wordt de query van de weergave in eerste instantie mogelijk niet toegepast. De twee belangrijkste scenario's hiervoor zijn: 
-     - Als u van een tegel naar een pagina navigeert, wordt de query uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. 
-     - Als u naar een pagina gaat en dat invoerpunt query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. 
-     
-  In dat geval moet u worden gewaarschuwd door een informatief bericht wanneer de weergave wordt geladen. U kunt ook bevestigen door naar deze pagina over te schakelen nadat de pagina is geladen,aangezien de weergavequery in dat geval sowieso moet worden uitgevoerd.  
+- Het opslaan van filters wordt mogelijk niet door de pagina ondersteund als onderdeel van de weergavedefinitie. Alleen voor pagina's met grote weergavekiezers kunnen persoonlijke instellingen en querywijzigingen worden opgeslagen als weergave. Zie **Schakelen tussen weergaven** voor meer informatie. 
 
 - De desbetreffende pagina kan weergaven mogelijk niet goed ondersteunen, omdat deze de weergavequery volledig kan negeren of kan werken op een tijdelijke tabel waarvan de gegevens niet persistent zijn. 
+
+### <a name="what-data-will-i-see-when-i-visit-a-page"></a>Welke gegevens worden weergegeven wanneer ik een pagina bezoek? 
+Voor pagina's met kleine weergavekiezers (alleen persoonlijke instellingen kunnen in de weergave worden opgeslagen) worden dezelfde gegevens weergegeven als bij elk voorgaande bezoek aan de pagina. 
+
+Voor pagina's met grote weergavekiezers (persoonlijke instellingen en query's kunnen in de weergave worden opgeslagen) ziet u primair de gegevens die zijn gekoppeld aan de query die bij uw standaardweergave hoort. Hierop zijn twee belangrijke uitzonderingen: als u van een tegel naar een pagina navigeert, wordt de query uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Als u deze tegel hebt gemaakt nadat weergaven zijn ingeschakeld, wordt door het selecteren van een tegel de pagina geopend met de weergave die aan die tegel is gekoppeld.   
+     - Als u naar een pagina gaat en dat ingangspunt een query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. Wanneer dat gebeurt, moet u een waarschuwing krijgen in een informatief bericht wanneer de weergave wordt geladen. U kunt ook bevestigen door naar deze pagina over te schakelen nadat de pagina is geladen,aangezien de weergavequery in dat geval sowieso moet worden uitgevoerd.  
+
+

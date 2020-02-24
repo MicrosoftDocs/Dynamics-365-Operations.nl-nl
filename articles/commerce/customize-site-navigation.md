@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914905"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001824"
 ---
 # <a name="customize-site-navigation"></a>Sitenavigatie aanpassen
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een aangepaste online navigatiehiërarchie kunt maken om uw producten te ordenen op uw Microsoft Dynamics 365 Commerce-site.
@@ -35,11 +35,11 @@ In dit onderwerp wordt beschreven hoe u een aangepaste online navigatiehiërarch
 
 Met online winkels kunnen klanten producten bekijken en bladeren door middel van productcategorieën. Deze functie wordt meestal geboden door tabbladen boven aan de pagina of door een navigatiebalk aan de linkerkant. In Dynamics 365 Commerce maakt en beheert u de hiërarchiestructuur van uw categorienavigatie en de producten die in de verschillende categorieën zijn opgenomen.
 
-## <a name="create-a-retail-channel-navigation-hierarchy"></a>Een navigatiehïerarchie voor uw detailhandelafzetkanaal maken
+## <a name="create-a-channel-navigation-hierarchy"></a>Een afzetkanaalnavigatiehiërarchie maken
 
-Voer de volgende stappen uit om een navigatiehiërarchie voor uw detailhandelafzetkanaal te maken.
+Voer de volgende stappen uit om een navigatiehiërarchie voor een kanaal te maken.
 
-1. Ga naar **Detailhandel \> Producten en categorieën \> Categorie- en productbeheer**.
+1. Ga naar **Retail en Commerce \> Producten en categorieën \> Categorie- en productbeheer**.
 1. Selecteer **Categoriehiërarchieën**en vervolgens **Nieuw**.
 1. Geef de hiërarchie een naam.
 
@@ -57,28 +57,28 @@ De categorieën die u definieert, worden standaard in alfabetische volgorde op d
 
 ## <a name="assign-a-category-hierarchy-type"></a>Wijs een categoriehiërarchietype toe
 
-1. Ga naar **Detailhandel \> Producten en categorieën \> Categorie- en productbeheer**.
+1. Ga naar **Retail en Commerce \> Producten en categorieën \> Categorie- en productbeheer**.
 1. Selecteer **Categoriehiërarchieën**.
 1. Selecteer in het Actievenster op het tabblad **Categoriehiërarchie** in de groep **Instellen** de optie **Gekoppeld hiërarchietype**.
 1. Selecteer **Nieuw**.
-1. Selecteer **Navigatiehiërarchie voor detailhandelafzetkanaal** in het veld **Categoriehiërarchietype**.
+1. Selecteer **Kanaalnavigatiehiërarchie** in het veld **Categoriehiërarchietype**.
 1. Selecteer in het veld **Categoriehiërarchie** de afzetkanaalnavigatiehiërarchie die u eerder hebt gemaakt.
 
 ## <a name="publish-new-or-updated-navigation-hierarchies"></a>Nieuwe of bijgewerkte navigatiehiërarchieën publiceren
 
 Voer de volgende stappen uit om de navigatiehiërarchie beschikbaar te maken voor uw online winkel.
 
-1. Ga naar **Detailhandel \> Kanaalinstellingen \> Kanaalcategorieën en productkenmerken**.
+1. Ga naar **Retail en Commerce \> Kanaalinstellingen \> Kanaalcategorieën en productkenmerken**.
 1. Selecteer uw online winkel in de structuur aan de linkerkant.
 1. Selecteer **Afzetkanaalupdates publiceren**.
-1. Klik op **Detailhandel \> IT detailhandel \> Distributieplanning**.
+1. Ga naar **Retail en Commerce \> Retail en Commerce IT \> Distributieplanning**.
 1. Zoek en selecteer in de lijst **Taak 1040**.
 1. Selecteer **Nu uitvoeren**.
 1. Herhaal stap 5 en 6 voor de projecten 1070 en 1150.
 
 ## <a name="show-categories-on-your-site"></a>Categorieën op uw site weergeven
 
-Als u de categoriehiërarchie wilt weergeven in uw online winkel, moet u de navigatiemenumodule toevoegen aan de desbetreffende locatie in een sjabloon of fragment. Vervolgens wordt de navigatiehiërarchie in de navigatiemenumodule weergegeven, als u uw navigatiehiërarchie voor de detailhandel hebt gepubliceerd in het afzetkanaal waaraan uw site is gekoppeld.
+Als u de categoriehiërarchie wilt weergeven in uw online winkel, moet u de navigatiemenumodule toevoegen aan de desbetreffende locatie in een sjabloon of fragment. Vervolgens wordt de navigatiehiërarchie in de navigatiemenumodule weergegeven, als u uw navigatiehiërarchie hebt gepubliceerd in het kanaal waaraan uw site is gekoppeld.
 
 > [!NOTE]
 > Met de navigatiemenumodule die is opgenomen in het startpakket voor winkels kunnen gebruikers alleen navigeren naar categorieën zonder subcategorieën. Als u wilt dat uw klanten kunnen navigeren naar categorieën met subcategorieën, moet u de navigatiemenumodule aanpassen.

@@ -1,6 +1,6 @@
 ---
 title: Rapporten van online kanalen genereren
-description: In dit onderwerp wordt beschreven hoe u rapporten voor uw online afzetkanaal genereert in Microsoft Dynamics 365 Retail.
+description: In dit onderwerp wordt beschreven hoe u rapporten voor uw online afzetkanaal genereert in Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 10/01/2019
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77737c134df8f3ba598fe9026fa7c01ca9976733
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: fd40aabdf40e0f2bb257b914326df5595a0e6945
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698045"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002999"
 ---
 # <a name="generate-online-channel-reports"></a>Rapporten van online kanalen genereren
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u rapporten voor uw online afzetkanaal genereert in Microsoft Dynamics 365 Retail.
+In dit onderwerp wordt beschreven hoe u rapporten voor uw online afzetkanaal genereert in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Overzicht
 
-U kunt verschillende rapporten in Retail genereren en weergeven hoe uw online kanaal presteert.
+U kunt verschillende rapporten in Commerce genereren en weergeven hoe uw online kanaal presteert.
 
 ## <a name="channel-summary-report"></a>Rapport afzetkanaalsamenvatting
 
@@ -46,7 +46,7 @@ In het **Rapport afzetkanaalsamenvatting** wordt een overzicht weergegeven van d
 
 Ga als volgt te werk om een **Rapport afzetkanaalsamenvatting** te genereren.
 
-1. Ga naar **Detailhandel \> Query's en rapporten \> Verkooprapporten \> Rapport afzetkanaalsamenvatting**.
+1. Ga naar **Retail en Commerce \> Query's en rapporten \> Verkooprapporten \> Rapport afzetkanaalsamenvatting**.
 1. Voer een datum in het veld **Begindatum** in.
 1. Voer een datum in het veld **Einddatum** in.
 1. Selecteer het online kanaal in het veld **Afzetkanaal**.
@@ -58,7 +58,7 @@ In het **Rapport afzetkanaalverkoop per jaar** ziet u een vergelijking van de ve
 
 Ga als volgt te werk om een **Rapport afzetkanaalverkoop per jaar** te genereren.
 
-1. Ga naar **Detailhandel \> Query's en rapporten \> Verkooprapporten \> Rapport afzetkanaalverkoop per jaar**.
+1. Ga naar **Retail en Commerce \> Query's en rapporten \> Verkooprapporten \> Rapport afzetkanaalverkoop per jaar**.
 1. Voer een jaar in in het veld **Van kalenderjaar**.
 1. Voer een jaar in in het veld **Tot kalenderjaar**.
 1. Selecteer het online kanaal in het veld **Afzetkanaal**.
@@ -70,7 +70,7 @@ In het **Rapport afzetkanaalverkoop per uur** worden verkoopstatistieken per uur
 
 Ga als volgt te werk om een **Rapport afzetkanaalverkoop per uur** te genereren.
 
-1. Ga naar **Detailhandel \> Query's en rapporten \> Verkooprapporten \> Rapport afzetkanaalverkoop per uur**.
+1. Ga naar **Retail en Commerce \> Query's en rapporten \> Verkooprapporten \> Rapport afzetkanaalverkoop per uur**.
 1. Voer een datum in het veld **Begindatum** in.
 1. Voer een datum in het veld **Einddatum** in.
 1. Selecteer het online kanaal in het veld **Afzetkanaal**.
@@ -82,7 +82,7 @@ In het rapport **Beste klanten** worden verkoopstatistieken weergegeven voor de 
 
 Ga als volgt te werk om een rapport **Beste klanten** te genereren.
 
-1. Ga naar **Detailhandel \> Query's en rapporten \> Verkooprapporten \> Rapport Beste klanten**.
+1. Ga naar **Retail en Commerce \> Query's en rapporten \> Verkooprapporten \> Rapport Beste klanten**.
 1. Voer een datum in het veld **Begindatum** in.
 1. Voer een datum in het veld **Einddatum** in.
 1. Selecteer het online kanaal in het veld **Afzetkanaal**.
@@ -94,7 +94,7 @@ In het rapport **Topkortingen** worden verkoopstatistieken weergegeven voor de b
 
 Ga als volgt te werk om een rapport **Topkortingen** te genereren.
 
-1. Ga naar **Detailhandel \> Query's en rapporten \> Verkooprapporten \> Rapport Topkortingen**.
+1. Ga naar **Retail en Commerce \> Query's en rapporten \> Verkooprapporten \> Rapport Topkortingen**.
 1. Voer een datum in het veld **Begindatum** in.
 1. Voer een datum in het veld **Einddatum** in.
 1. Selecteer het online kanaal in het veld **Afzetkanaal**.
@@ -106,7 +106,7 @@ In het rapport **Topproducten** worden verkoopstatistieken weergegeven voor de b
 
 Ga als volgt te werk om een rapport **Topproducten** te genereren.
 
-1. Ga naar **Detailhandel \> Query's en rapporten \> Verkooprapporten \> Rapport Topproducten**.
+1. Ga naar **Retail en Commerce \> Query's en rapporten \> Verkooprapporten \> Rapport Topproducten**.
 1. Voer een datum in het veld **Begindatum** in.
 1. Voer een datum in het veld **Einddatum** in.
 1. Selecteer het online kanaal in het veld **Afzetkanaal**.
@@ -118,7 +118,7 @@ In het rapport **Verkoop van categorie** worden de verkoopstatistieken voor een 
 
 Ga als volgt te werk om een rapport **Verkoop van categorie** te genereren.
 
-1. Ga naar **Detailhandel \> Query's en rapporten \> Verkooprapporten \> Rapport Verkoop van categorie**.
+1. Ga naar **Retail en Commerce \> Query's en rapporten \> Verkooprapporten \> Rapport Verkoop van categorie**.
 1. Voer een datum in het veld **Begindatum** in.
 1. Voer een datum in het veld **Einddatum** in.
 1. Selecteer het online kanaal in het veld **Afzetkanaal**.
@@ -130,7 +130,7 @@ In het rapport **Verkoop van organisatie** worden de prestaties van uw winkels w
 
 Ga als volgt te werk om een rapport **Verkoop van organisatie** te genereren.
 
-1. Ga naar **Detailhandel \> Query's en rapporten \> Verkooprapporten \> Rapport Verkoop van organisatie**.
+1. Ga naar **Retail en commerce \> Query's en rapporten \> Verkooprapporten \> Rapport Verkoop van organisatie**.
 1. Voer een datum in het veld **Begindatum** in.
 1. Voer een datum in het veld **Einddatum** in.
 1. Selecteer **OK**.

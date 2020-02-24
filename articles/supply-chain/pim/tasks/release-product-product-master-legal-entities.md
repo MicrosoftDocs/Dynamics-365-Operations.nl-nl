@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cc1f4a7e18b43d3ea83575eaf1de71ed3956c01f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 25f84d960be4f4e8ff1b569d00b356390c232a2c
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844253"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003899"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Een product/productmodel vrijgeven aan rechtspersonen
 
@@ -29,7 +29,7 @@ ms.locfileid: "1844253"
 
 Deze procedure laat zien hoe u een product of productmodel vrijgeeft aan een of meer rechtspersonen. Het demobedrijf dat wordt gebruikt om deze taak te maken is USRT en de taak is bedoeld voor de merchandisingmanager en de productontwerper.
 
-1. G naar Detailhandel en commerce > .. > Producten per categorie.
+1. G naar Retail en Commerce > .. > Producten per categorie.
 2. Markeer in de lijst de geselecteerde rij.
 3. Klik op Producten vrijgeven.
 4. Klik op Volgende.

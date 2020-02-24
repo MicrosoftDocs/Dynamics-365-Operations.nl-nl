@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570743"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003991"
 ---
 # <a name="product-information-overview"></a>Overzicht met productinformatie
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570743"
 
 Dit onderwerp biedt informatie over productgegevensbeheer. Productgegevensbeheer werkt met een gedeelde productdefinitie, categorisatie en id's in alle rechtspersonen en specifieke configuraties van een product, zodat deze past in de bedrijfsprocessen. 
 
-Productgegevens vormen de basis van toepassingen voor supply chain en retail in alle bedrijfstakken. Het verwijst naar processen en technologieën die gericht zijn op centraal beheer van informatie over producten (bijvoorbeeld in de toeleveringsketens). Het is essentieel dat gedeelde definities, documentatie, kenmerken en id's van producten worden gebruikt. In de verschillende modules van een oplossing zijn productspecifieke informatie en configuratie vereist om de bedrijfsprocessen te beheren die zijn gerelateerd aan specifieke producten, productfamilies of productcategorieën.
+Productgegevens vormen de basis van toepassingen voor supply chain en commerce in alle bedrijfstakken. Het verwijst naar processen en technologieën die gericht zijn op centraal beheer van informatie over producten (bijvoorbeeld in de toeleveringsketens). Het is essentieel dat gedeelde definities, documentatie, kenmerken en id's van producten worden gebruikt. In de verschillende modules van een oplossing zijn productspecifieke informatie en configuratie vereist om de bedrijfsprocessen te beheren die zijn gerelateerd aan specifieke producten, productfamilies of productcategorieën.
 
 ## <a name="product-definition"></a>Productdefinitie
 

@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843236"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026309"
 ---
 # <a name="reconcile-freight-manually"></a>Handmatig vracht afstemmen
 
@@ -37,7 +37,7 @@ Deze procedure laat zien hoe u vracht handmatig afstemt. Dit wordt gewoonlijk ge
 3. Selecteer in de lijst de lading met id 00006.
 
 ## <a name="create-a-carrier-invoice"></a>Een leverancierfactuur maken
-    * Als u handmatig vracht afstemt en vervoerderfacturen niet automatisch ontvangt, kunt u een factuur maken op basis van de vrachtfactuur.  
+Als u handmatig vracht afstemt en vervoerderfacturen niet automatisch ontvangt, kunt u een factuur maken op basis van de vrachtfactuur.  
 1. Klik op Verwante informatie.
 2. Klik op Details vrachtfactuur weergeven.
 3. Klik op Vrachtfactuur genereren.
@@ -45,7 +45,7 @@ Deze procedure laat zien hoe u vracht handmatig afstemt. Dit wordt gewoonlijk ge
 5. Klik op OK.
 
 ## <a name="reconcile-the-invoice"></a>De factuur afstemmen
-    * Wanneer u een vervoerderfactuur en een vrachtfactuur afstemt, wordt dat regel voor regel gedaan.  
+Wanneer u een vervoerderfactuur en een vrachtfactuur afstemt, wordt dat regel voor regel gedaan.  
 1. Klik op Vrachtfacturen en facturen vereffenen.
 2. Vouw de sectie Factuurdetails uit.
 3. Vouw de sectie Niet-afgestemde details vrachtfactuur uit.

@@ -10,23 +10,23 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 272cf991301fa5c2df8a6de3354588fc372fa92f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248728"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005604"
 ---
 # <a name="my-team-mobile-workspace"></a>Mobiel werkgebied Mijn team
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt informatie over het mobiele werkgebied **Mijn team**. In deze werkruimte kunnen managers hun directe ondergeschikten en uitgebreide personeel weergeven. Ze kunnen ook lof versturen voor personen in hun rapportageketen.
+Dit onderwerp biedt informatie over het mobiele werkgebied **Mijn team**. In dit werkgebied kunnen managers hun directe ondergeschikten en uitgebreide personeel weergeven. Ze kunnen ook lof versturen voor personen in hun rapportageketen.
 
 Dit mobiele werkgebied is bedoeld om samen te worden gebruikt met de mobiele app van Finance and Operations.
 
@@ -53,11 +53,11 @@ Voordat u dit mobiele werkgebied kunt gebruiken, moet aan de volgende voorwaarde
 <tr class="odd">
 <td>Een van de volgende producten moet worden geïmplementeerd in uw organisatie:
 <ul><li>Een Finance and Operations-app</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Systeembeheerder</td>
-<td>Als geen Finance and Operations-app in uw organisatie hebt geïmplementeerd, raadpleegt u <a href="../deployment/deploy-demo-environment.md">Een demo-omgeving implementeren</a>. Als u Talent nog niet hebt geïmplementeerd in uw organisatie, kan de systeembeheerder toegang krijgen tot een evaluatieversie vanaf de <a href="https://www.microsoft.com/dynamics365/talent">webpagina Talent</a>.
+<td>Als u geen Finance and Operations-app in uw organisatie hebt geïmplementeerd, raadpleegt u <a href="../deployment/deploy-demo-environment.md">Een demo-omgeving implementeren</a>. Als u Human Resources nog niet hebt geïmplementeerd in uw organisatie, kan de systeembeheerder toegang krijgen tot een evaluatieversie vanaf de <a href="https://dynamics.microsoft.com/human-resources/overview/">webpagina Human Resources</a>.
 </td>
 </tr>
 <tr class="even">
@@ -70,14 +70,14 @@ Voordat u dit mobiele werkgebied kunt gebruiken, moet aan de volgende voorwaarde
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
 
-Download en installeer de mobiele app van Finance and Operations:
+Download en installeer de mobiele Finance and Operations-app:
 
 -   [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Aanmelden bij de mobiele app
 1.  Start de app op uw mobiele apparaat.
-2.  Voer uw URL voor Microsoft Dynamics365 in.
+2.  Voer uw URL voor Microsoft Dynamics 365 in.
 3.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 

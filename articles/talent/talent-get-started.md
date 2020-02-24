@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c3a2881ede53e4adfba775b9bb23071468c8f602
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024238"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006512"
 ---
 # <a name="get-started-with-talent"></a>Aan de slag met Talent
 
@@ -31,7 +31,7 @@ ms.locfileid: "2024238"
 In Microsoft Dynamics 365 Talent past u de gebruikersinterface gemakkelijk aan en stelt u eenvoudig opties in om de software intuïtiever te maken voor uw behoeften. Dit onderwerp bevat koppelingen naar onderwerpen met informatie over het aanpassen van de gebruikersinterface aan uw voorkeuren. Het onderwerp bevat ook koppelingen naar informatie waarmee u gegevens in het systeem efficiënter en nauwkeuriger kunt vinden. 
 
 > [!NOTE] 
-> De volgende drie producten hangen nauw samen: Dynamics 365 Finance; Dynamics 365 Retail en Dynamics 365 Talent. Dezelfde functionaliteit kan in alle drie de producten voorkomen. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail de productnaam Dynamics 365 Retail gebruikt. In onderwerpen die voornamelijk zijn gerelateerd aan Talent, is de productnaam Dynamics 365 Talent en in onderwerpen die voornamelijk betrekking hebben op HR, is de productnaam Dynamics 365 Finance. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
+> De volgende drie producten hangen nauw samen: Dynamics 365 Finance; Dynamics 365 Commerce en Dynamics 365 Talent. Dezelfde functionaliteit kan in alle drie de producten voorkomen. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Commerce de productnaam Dynamics 365 Commerce gebruikt. In onderwerpen die voornamelijk zijn gerelateerd aan Talent, is de productnaam Dynamics 365 Talent en in onderwerpen die voornamelijk betrekking hebben op HR, is de productnaam Dynamics 365 Finance. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
 
 ## <a name="personalizing-talent"></a>Talent aanpassen 
 In de volgende onderwerpen wordt getoond hoeveel functies in Talent zo kunnen worden ingesteld dat het gemakkelijker voor u wordt om u uw werk sneller te doen. 

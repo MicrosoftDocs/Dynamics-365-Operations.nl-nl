@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635121"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031062"
 ---
 # <a name="master-planning-setup-wizard"></a>Wizard voor instellen van hoofdplanning
 
@@ -32,7 +32,7 @@ ms.locfileid: "2635121"
 
 Dit onderwerp bevat een handleiding voor de **wizard Hoofdplanning instellen**. Hierin wordt uitgelegd hoe parametersuggesties worden berekend en bevat ook voorbeelden die laten zien hoe verschillende bedrijven de hoofdplanning instellen op basis van hun bedrijfsbehoeften.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
 De video [Wizard voor instellen van hoofdplanning in Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (zie hierboven) is opgenomen in de [Finance and Operations-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
 

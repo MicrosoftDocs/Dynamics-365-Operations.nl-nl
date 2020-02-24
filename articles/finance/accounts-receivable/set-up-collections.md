@@ -1,5 +1,5 @@
 ---
-title: Crediteringen en aanmaningen configureren
+title: Verzamelingen opzetten
 description: In dit artikel wordt beschreven hoe u de incassofunctie configureert.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,18 +18,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177208"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013158"
 ---
-# <a name="set-up-credit-and-collections"></a>Crediteringen en aanmaningen configureren
+# <a name="set-up-collections"></a>Verzamelingen opzetten
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u de incassofunctie configureert.
+In dit artikel wordt beschreven hoe u de incassofunctie configureert. U moet een aantal configuratiestappen uitvoeren wanneer u de incassomogelijkheid gebruikt. Er zijn ook enkele optionele mogelijkheden, waaronder klantverzamelingen en incassoteams. 
+
+- Ouderdomsperiodedefinities
+- Ouderdomsmomentopnamen
+- Journaalnamen
+- Redencode voor afschrijvingstransacties
+- Incassomedewerkers
+- Afschrijvingsrekening
+- Informatie over onvoldoende fondsen
+- Outlook-instellingen voor gebruikers van de pagina **Incasso's**
+- E-mailadressen
+
+Deze punten worden in meer detail besproken in de rest van dit onderwerp. 
 
 <a name="set-up-aging-period-definitions"></a>Ouderdomsperiodedefinities instellen
 -------------------------------
@@ -46,12 +58,12 @@ U kunt klantverzamelingen instellen die klantengroepen vertegenwoordigen. U kunt
 Als er meerdere mensen binnen uw organisatie incassowerk uitvoeren, kunt u een team van incassomedewerkers instellen. U kunt het team selecteren op de pagina **Parameters van module Klanten**. Als u geen team van incassomedewerkers maakt, wordt er automatisch een gemaakt wanneer u incassomedewerkers instelt op de pagina **Incassomedewerker**.
 
 ## <a name="set-up-a-collections-case-category"></a>Een aanvraagcategorie voor collecties instellen
-Als u uw incassowerkzaamheden organiseert door middel van aanvragen, stelt u een aanvraagcategorie in met het categorietype **Aanmaningen**. Deze instelling is alleen vereist wanneer u de aanvraagfunctionaliteit op de pagina **Aanmaningen** gebruikt.
+Als u uw incassowerkzaamheden organiseert door middel van aanvragen, stelt u een aanvraagcategorie in met het categorietype **Incasso's**. Dit is alleen vereist wanneer u de aanvraagfunctionaliteit op de pagina **Incasso's** gebruikt.
 
 ## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Journaalnamen instellen (vereffening, afschrijven en NSF)
-Stel de journaalnamen in die worden gebruikt wanneer transacties op de pagina **Aanmaningen** worden verwerkt. Deze verwerking omvat het vereffenen van een transactie, het afschrijven van een transactie, of het verwerken van een betaling met ontoereikend saldo (NSF).
+Stel de journaalnamen in die worden gebruikt wanneer transacties op de pagina **Aanmaningen** worden verwerkt. Deze verwerking omvat het vereffenen van een transactie, het afschrijven van een transactie en het verwerken van een betaling met ontoereikend saldo (NSF).
 
-| Beschrijving | Journaaltype     |
+| Beschrijving | Type journaal     |
 |-------------|------------------|
 | Vereffening  | Betaling van klant |
 | Afschrijven   | Dagelijks            |
@@ -78,16 +90,19 @@ Werk de bankrekeningen bij, zodat deze het juiste journaal hebben wanneer NSF-be
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Outlook-instellingen instellen voor gebruikers van de pagina Incasso's
 Voordat werknemers activiteiten kunnen maken of e-mailberichten kunnen verzenden door middel van de pagina **Incasso's**, moet u verifiëren of de **Microsoft Outlook configuratiesleutel Synchronisatie** is geselecteerd en dat de Outlook-synchronisatie is ingesteld voor deze werknemers.
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>E-mail- en adresinstellingen instellen voor de contactpersoon voor incasso's voor de klant
-Stel e-mailadressen voor klantcontactpersonen in als u e-mailberichten naar deze contactpersonen wilt verzenden vanaf de pagina **Incasso's**. De contactpersoon voor incasso's wordt als de standaard contactpersoon gebruikt op de pagina **Aanmaningen**. U kunt een adres voor het overzicht voor de klant instellen als overzichten een ander adres dan het primaire adres moeten gebruiken. 
+## <a name="set-up-email-and-addresses"></a>E-mailadressen en adressen instellen
+U kunt via e-mail communiceren met klanten en verkopers over incassokwesties en e-mail berichten verzenden vanaf de pagina **Incasso's**. 
+
+### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>E-mail- en adresinstellingen instellen voor de contactpersoon voor incasso's voor de klant
+Stel e-mailadressen voor klantcontactpersonen in om e-mailberichten naar deze contactpersonen te verzenden vanaf de pagina **Incasso's**. De contactpersoon voor incasso's wordt als de standaard contactpersoon gebruikt op de pagina **Aanmaningen**. U kunt een adres voor het overzicht voor de klant instellen als overzichten een ander adres dan het primaire adres moeten gebruiken. 
 
 Selecteer op het sneltabblad **Crediteringen en aanmaningen** in het veld **Contactpersoon voor incasseringen** de persoon binnen de klantorganisatie die samenwerkt met uw incassomedewerker. Deze contactpersoon wordt als standaard contactpersoon gebruikt op de pagina **Aanmaningen** en is degene naar wie e-mailberichten worden verzonden. 
 
 > [!NOTE] 
 > Als geen contactpersoon voor incasso's voor een klant is opgegeven, wordt de primaire contactpersoon voor de klant gebruikt. Als er geen primaire contactpersoon is opgegeven, worden e-mailberichten verzonden naar het eerste adres op de pagina **Contactpersonen**.
 
-## <a name="set-up-email-settings-for-salespeople"></a>E-mailinstellingen instellen voor verkopers
-Stel e-mailadressen voor verkopers in als u e-mailberichten naar verkopers wilt verzenden vanaf de pagina **Aanmaningen**. Stel een e-mailadres in voor iedere verkoopvertegenwoordiger in iedere provisieverkoopgroep. De verkoopvertegenwoordiger waarvan het selectievakje **Contactpersoon** is geselecteerd, is de standaardverkoper waarnaar e-mailberichten worden verzonden. 
+### <a name="set-up-email-settings-for-salespeople"></a>E-mailinstellingen instellen voor verkopers
+Stel e-mailadressen voor verkopers in om e-mailberichten naar verkopers te verzenden vanaf de pagina **Incasso's**. Stel een e-mailadres in voor iedere verkoopvertegenwoordiger in iedere provisieverkoopgroep. De verkoopvertegenwoordiger waarvan het selectievakje **Contactpersoon** is geselecteerd, is de standaardverkoper waarnaar e-mailberichten worden verzonden. 
 
 Als er geen verkoopvertegenwoordiger is opgegeven, wordt de primaire verkoper voor de organisatie van de klant gebruikt. Als geen primaire verkoper is opgegeven, worden e-mailberichten verzonden naar het eerste adres op de pagina.
 

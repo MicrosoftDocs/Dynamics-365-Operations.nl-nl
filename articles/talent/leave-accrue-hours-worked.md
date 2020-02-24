@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 938d2eea7b9e85b19e9c1e3e0930f625224b880d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 229ae14b9e2dedcd0ade094a772f16c0524d32a7
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898614"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006073"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>Verlof toerekenen op basis van gewerkte uren
 
 ## <a name="overview"></a>Overzicht
 
-Organisaties met medewerkers die per uur worden betaald, kunnen verlof toekennen op basis van gewerkte uren in plaats van de diensttijd bij de organisatie. De gewerkte uren worden doorgaans opgeslagen in een tijd- en aanwezigheidssysteem. In Talent: Core HR kunnen deze normale werkuren en overwerkuren worden geïmporteerd en worden gebruikt als basis voor de toekenning.
+Organisaties met medewerkers die per uur worden betaald, kunnen verlof toekennen op basis van gewerkte uren in plaats van de diensttijd bij de organisatie. De gewerkte uren worden doorgaans opgeslagen in een tijd- en aanwezigheidssysteem. 
 
 ## <a name="leave-plans"></a>Verlofplannen
 

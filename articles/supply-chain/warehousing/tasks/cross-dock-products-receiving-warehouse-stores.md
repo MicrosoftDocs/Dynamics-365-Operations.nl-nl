@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563384"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004083"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Producten cross-docken vanuit ontvangend magazijn naar winkels
 
@@ -31,7 +31,7 @@ Deze procedure doorloopt de stappen om een cross-dock te maken en te verwerken o
 
 1. Ga naar Alle inkooporders.
 2. Selecteer een inkooporder in de lijst en klik op de koppeling om de order te openen.
-3. Klik op Detailhandel in het actievenster.
+3. Klik in het actievenster op Retail en Commerce.
 4. Klik op Cross-docken.
 5. Klik op Bewerken.
     * De categorie kan worden gebruikt om de artikelen in de sectie Regels te filteren.  

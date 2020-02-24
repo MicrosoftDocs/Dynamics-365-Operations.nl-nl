@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934881"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004014"
 ---
 # <a name="product-identifiers"></a>Product-id's 
 
@@ -88,7 +88,7 @@ Op de pagina **Extern-artikelomschrijvingen** kunt u het artikelnummer van de kl
 | Omschrijving | De naam die de klant aan het artikel koppelt | De naam die de leverancier aan het artikel koppelt |
 | Tekst extern artikel | De artikelomschrijving van de klant | De artikelomschrijving van de leverancier |
 
-Als veel klanten of leveranciers hetzelfde artikelnummer gebruiken (zoals in het geval van een inkopersvereniging of een detailhandelgroep), kunt u groepen klanten of leveranciers maken om het beheer van externe productgegevens te vereenvoudigen.
+Als veel klanten of leveranciers hetzelfde artikelnummer gebruiken (zoals in het geval van een inkopersvereniging of een Commerce-groep), kunt u groepen klanten of leveranciers maken om het beheer van externe productgegevens te vereenvoudigen.
 
 - Voor klantengroepen gaat u naar **Verkoop** &gt; **Instellingen** &gt; **Artikelen** &gt; **Extern-artikelomschrijving** om de groepen en de bijbehorende artikelnummers te maken en te beheren. Als u klanten wilt koppelen aan een groep, gaat u naar **Klanten** &gt; **Klanten** &gt; **Alle klanten** en geeft u op het sneltabblad **Standaardwaarden verkooporders** een waarde op in het veld **Artikel - klantengroep**.
 - Voor leveranciersgroepen gaat u naar **Inkoop en sourcing** &gt; **Instellingen** &gt; **Groep extern-artikelomschrijvingen** om de groepen en de bijbehorende artikelnummers te maken en te beheren. Als u leveranciers wilt koppelen aan een groep, gaat u naar **Crediteuren** &gt; **Leveranciers** &gt; **Alle leveranciers** en geeft u op het sneltabblad **Details over inkooporders** een waarde op in het veld **Artikel - Leveranciersgroep**.
