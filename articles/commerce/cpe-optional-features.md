@@ -1,5 +1,5 @@
 ---
-title: Optionele functies voor een preview-omgeving van Commerce configureren
+title: Optionele functies voor een Dynamics 365 Commerce-previewomgeving configureren
 description: In dit onderwerp wordt uitgelegd hoe u optionele functies voor een preview-omgeving van Microsoft Dynamics 365 Commerce configureert.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2c4872cdebc414eaa865af025237bd9e1d14bfd2
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906111"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024724"
 ---
-# <a name="configure-optional-features-for-a-commerce-preview-environment"></a>Optionele functies voor een preview-omgeving van Commerce configureren
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Optionele functies voor een Dynamics 365 Commerce-previewomgeving configureren
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u optionele functies voor een preview-omgeving van Microsoft Dynamics 365 Commerce configureert.
@@ -173,13 +173,13 @@ De volgende tokens worden voor elk product in de order vervangen door waarden.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van Commerce preview-omgeving](cpe-overview.md)
+[Omgevingsoverzicht Dynamics 365 Commerce-preview](cpe-overview.md)
 
-[Een preview-omgeving van Commerce inrichten](provisioning-guide.md)
+[Een previewomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
 
-[Een preview-omgeving van Commerce configureren](cpe-post-provisioning.md)
+[Een Dynamics 365 Commerce-preview-omgeving configureren](cpe-post-provisioning.md)
 
-[Veelgestelde vragen over de preview-omgeving van Commerce](cpe-faq.md)
+[Veelgestelde vragen over Dynamics 365 Commerce-preview-omgeving](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -188,5 +188,3 @@ De volgende tokens worden voor elk product in de order vervangen door waarden.
 [Microsoft Azure-portal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce-website](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Help-bronnen voor Dynamics 365 Retail](../retail/index.md)

@@ -3,7 +3,7 @@ title: Een auteursrechtmelding toevoegen
 description: In dit onderwerp wordt beschreven hoe u copyrightgegevens kunt toevoegen aan uw e-commerce-website.
 author: psimolin
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914561"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025477"
 ---
 # <a name="add-a-copyright-notice"></a>Een auteursrechtmelding toevoegen
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u copyrightgegevens kunt toevoegen aan uw e-commerce-website.
@@ -48,8 +48,8 @@ Voer de volgende stappen uit om copyrightgegevens toe te voegen onder aan elke p
 1. Selecteer in de navigatiepagina de knop met het weglatingsteken (**...**) naast **Voettekst** en vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Voettekstcategorie** en selecteer vervolgens **OK**.
 1. Selecteer in de navigatiepagina de knop met het weglatingsteken naast **Voettekstcategorie** en vervolgens **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Blokitem met uitgebreide inhoud**en selecteer vervolgens **OK**.
-1. Selecteer in het navigatiedeelvenster de optie **Blokitem met uitgebreide inhoud**.
+1. Selecteer in het dialoogvenster **Tekstblok** en selecteer vervolgens **OK**.
+1. Selecteer **Tekstblok**in het navigatievenster.
 1. Voeg in het deelvenster Eigenschappen rechts in het veld **Alinea** het copyrightbericht toe. Voer bijvoorbeeld **(C) Fabrikam 2019** in.
 1. Selecteer **Opslaan**, **Inchecken** en vervolgens **Publiceren**.
 1. Ga naar **Sjablonen**, selecteer de sjabloon en selecteer **Uitchecken**.

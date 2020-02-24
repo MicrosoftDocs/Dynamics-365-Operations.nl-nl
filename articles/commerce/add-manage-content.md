@@ -1,9 +1,9 @@
 ---
 title: Manieren om inhoud toe te voegen
-description: Dit onderwerp bevat informatie over het toevoegen en beheren van inhoud op uw Microsoft Dynamics 365 Commerce-site.
+description: Dit onderwerp bevat een overzicht en specifieke koppelingen voor waar en hoe u kunt beginnen met het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,43 +17,40 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2232dc7cdd24416b0df0919b96cd5d1f8113299f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 916e28c2628613332246d19af0fae81f258404b0
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914649"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025710"
 ---
 # <a name="ways-to-add-content"></a>Manieren om inhoud toe te voegen
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat informatie over het toevoegen en beheren van inhoud op uw Microsoft Dynamics 365 Commerce-site.
+Dit onderwerp bevat een overzicht en koppelingen naar documentatie over het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
 
 ## <a name="overview"></a>Overzicht
 
-Er zijn vele manieren om het uiterlijk en de inhoud van uw site te wijzigen. Afhankelijk van het vereiste aanpassingsniveau kunnen veel van deze wijzigingen worden geïmplementeerd door niet-ontwikkelaars. Er hoeft bijvoorbeeld geen code te worden geschreven voor het maken van sjablonen, het selecteren van thema's en het selecteren en configureren van modules. Ontwikkelvaardigheden zijn daarentegen wel vereist voor het maken van een nieuw thema of een nieuwe module, omdat daarvoor de e-commerce Software Development Kit (SDK) en de implementatiewerkstroom voor Microsoft Dynamics Lifecycle Services (LCS) moeten worden gebruikt.
+Er zijn vele manieren om het uiterlijk en de inhoud van uw site te wijzigen. Afhankelijk van het vereiste aanpassingsniveau kunnen veel van deze wijzigingen door niet-ontwikkelaars worden geïmplementeerd in Site Builder, de webontwerpwerkset van Dynamics 365 Commerce. Met Site Builder kunt u sjablonen maken, thema's selecteren en modules selecteren en configureren zonder code te schrijven. Ontwikkelvaardigheden zijn daarentegen wel vereist voor het maken van een nieuw thema of een nieuwe module, omdat daarvoor de e-commerce Software Development Kit (SDK) en de implementatiewerkstroom voor Microsoft Dynamics Lifecycle Services (LCS) moeten worden gebruikt.
 
-De volgende onderwerpen bevatten gedetailleerde informatie over het toevoegen en beheren van inhoud op uw site. Ze zijn gericht op gebieden van uw site waarvoor geen ontwikkelaar nodig is. Zo nodig worden taken aangeduid waarvoor de SDK wel vereist is.
+De volgende onderwerpen zijn goede uitgangspunten om inzicht te krijgen in hoe u sitecontent toevoegt en beheert. De meeste onderwerpen die hier worden genoemd, zijn gericht op aspecten van uw site waarvoor geen ontwikkelaar nodig is. Sommige gaan over basisbewerkingen van de content, terwijl andere betrekking hebben op de taken van sitebeheerders. In al deze onderwerpen worden specifieke taken aangegeven waarvoor mogelijk SDK-werk nodig is. In elk onderwerp wordt ervan uitgegaan dat u al een site hebt ingericht en toegang hebt gekregen tot de Site Builder-werkset voor uw site.
 
+Selecteer een van de volgende onderwerpen om aan de slag te gaan.
+
+- Zie [Woordenlijst voor paginamodellen](page-elements-overview.md) om vertrouwd te raken met de terminologie voor contentbeheer die wordt gebruikt in Site Builder en in deze documentatie.
+- Zie [Werken met modules](work-with-modules.md) voor informatie over het werken met modules in werkstromen voor contentbeheer.
 - Zie [Werken met modules](work-with-modules.md)voor het wijzigen van de tekst, afbeeldingen of video op een bestaande sitepagina.
-- Zie [Werken met sjablonen](work-with-templates.md) om te zorgen voor een betrouwbare, merkgerichte ervaring voor auteurs van webinhoud.
+- Zie [Werken met fragmenten](work-with-fragments.md) om te zien hoe fragmenten contentbeheer efficiënter en flexibeler kunnen maken.
+- Zie [Overzicht sjablonen en indelingen](templates-layouts-overview.md) en [Werken met sjablonen](work-with-templates.md) om te zorgen voor een succesvolle merkgetrouwe ontwerpervaring voor auteurs van webcontent.
 - Zie [Werken met indelingen](work-with-layouts.md) voor het opnieuw rangschikken van secties op een sitepagina.
-- Zie [Een sitethema selecteren](select-site-theme.md) als u de lettertypen, kleuren en het algemene uiterlijk van sitepagina's wilt wijzigen.
+- Zie [Een sitethema selecteren](select-site-theme.md) of [Werken met CSS-overschrijvingsbestanden](css-override-files.md) voor informatie over het wijzigen van de lettertypen, kleuren en het algemene uiterlijk van sitepagina's.
+- Zie [Sitenavigatie aanpassen](customize-site-navigation.md) als u navigatie-opties opnieuw wilt ordenen of nieuwe wilt toevoegen.
+- Zie [Werken met publicatiegroepen](publish-groups.md) voor informatie over de fasering, preview en publicatie van een grote set gelijktijdige wijzigingen in de webcontent.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Woordenlijst voor paginamodellen](page-elements-overview.md)
+[Overzicht van pagina schrijven](authoring-home-overview.md)
 
 [Statussen en levenscyclus van document](document-states-overview.md)
-
-[Werken met publicatiegroepen](publish-groups.md)
-
-[Werken met modules](work-with-modules.md)
-
-[Werken met fragmenten](work-with-fragments.md)
-
-[Overzicht sjablonen en indelingen](templates-layouts-overview.md)
-
-[Sitenavigatie aanpassen](customize-site-navigation.md)

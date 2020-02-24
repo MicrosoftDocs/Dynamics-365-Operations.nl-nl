@@ -1,0 +1,163 @@
+---
+title: Een nieuw vergoedingsplan maken
+description: Vergoedingsplannen maken in Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: BenefitPlanListPage, BenefitWorkspace
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 97c3acf1294b7a8c2496f23a32918152f50a9e5e
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3008634"
+---
+# <a name="create-a-benefits-plan"></a>Een nieuw vergoedingsplan maken
+
+[!include [banner](includes/preview-feature.md)]
+
+In dit artikel wordt beschreven hoe u vergoedingsplannen in Dynamics 365 Human Resources instelt.
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
+
+2. Selecteer **Nieuw**.
+
+3. Geef op het tabblad **Algemeen** waarden op voor de volgende velden:
+
+   | Veld | Beschrijving |
+   | --- | --- |
+   | Plan | Een unieke id voor het plan. |
+   | Beschrijving | Een omschrijving van het plan. |
+   | Plantype | Wanneer u een nieuw plan maakt, moet u het plantype opgeven. Een plantype is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype geeft aan of een werknemer zich kan inschrijven voor meerdere plannen van dat type en of contactpersonen begunstigden of gezinsleden zijn. In het plantype worden ook de dekkingsopties gedefinieerd. U kunt nieuwe aangepaste plantypen maken die zijn afgestemd op de door u aangeboden vergoedingen. De belangrijkste typen vergoedingsplannen zijn: <ul><li>401K</li><li>ADD</li><li>Dental</li><li>Fitness</li><li>FSA</li><li>Life</li><li>LTD</li><li>Medical</li><li>PTO</li><li>STD</li><li>Vision</li></ul> |
+   | Code van plantype | De plantypecode van het plantype. |
+   | Programma | Geeft een programma aan waaraan u het plan desgewenst kunt toewijzen. |
+   | Bundel | Geeft een bundel aan waaraan u het plan desgewenst kunt toewijzen. |
+   | Master | Geeft aan of het plan het hoofdplan is binnen de bundel waaraan het is toegewezen. |
+   | Status | Geeft de huidige status van het vergoedingsplan aan. De standaardwaarde is Actief. Als u de status wijzigt in Inactief, is het plan niet beschikbaar als keuzemogelijkheid tijdens de inschrijving. |
+   | Geldig vanaf datum en tijd | De datum en het tijdstip waarop het plan start. De standaardwaarde is de huidige systeemdatum. |
+   | Geldig tot datum en tijd | De datum en het tijdstip waarop het plan eindigt (de status is ingesteld op inactief). De standaardwaarde is 12/31/2154, wat 'nooit' betekent. |
+
+4. Geef op het tabblad **Configuratie** waarden op voor de volgende velden, afhankelijk van het type plan dat u gaat maken:
+
+   | Plantype | Veld | Beschrijving |
+   | --- | --- | --- |
+   | Medical (Medical, Dental, Vision, HMO) | COBRA | Geeft aan of het plan in aanmerking komt voor COBRA (Consolidated Omnibus Budget Reconciliation Act). |
+   | Medical (Medical, Dental, Vision, HMO) | HIPAA | Geeft aan of het plan in aanmerking komt voor HIPAA is (Health Insurance Portability and Accountability Act). |
+   | <ul><li>Medical (Medical, Dental, Vision, HMO)</li><li>Overige (PTO, Fitness)</li><li>Overige</li><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li><li>Pensioenplan (bijvoorbeeld 401(k))</li><li>FSA</li></ul> | In aanmerking komende voorbelasting | Geeft aan of er bijdragen kunnen worden geleverd aan het plan voordat er belasting wordt toegepast. |
+   | <ul><li>Medical (Medical, Dental, Vision, HMO)</li><li>Overige (PTO, Fitness)</li><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li><li>Pensioenplan (bijvoorbeeld 401(k))</li><li>FSA</li></ul> | In aanmerking komende belasting boeken | Geeft aan of er bijdragen kunnen worden geleverd aan het plan nadat er belasting is toegepast. |
+   | <ul><li>Medical (Medical, Dental, Vision, HMO)</li><li>Overige (PTO, Fitness)</li><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li><li>Pensioenplan (bijvoorbeeld 401(k))</li><li>FSA</li></ul> | Inzender | Geeft aan wie bijdraagt aan het plan: de werknemer, de werkgever of beide. |
+   | <ul><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li></ul> | Minimale dekking | Het minimumbedrag aan verzekeringsdekking dat nodig is voor het plan. |
+   | <ul><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li></ul> | Maximale dekking | Het maximumbedrag aan verzekeringsdekking dat nodig is voor het plan. |
+   | <ul><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li></ul> | Dekkingsverhogingen gebruiken | Geeft aan of moet worden gecontroleerd of het dekkingsbedrag overeenkomt met een geldig incrementeel bedrag. |
+   | <ul><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li></ul> | Verhogingsbedrag | Het incrementele bedrag aan verzekeringsdekking dat nodig is voor het plan. Als het incrementele bedrag bijvoorbeeld 1.000 is, kan een werknemer geen verzekering van €200.500 hebben; het bedrag moet naar boven worden afgerond op €201.000 of naar beneden worden afgerond op €200.000. |
+   | <ul><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li></ul> | Verhogingsrichting | Geeft de richting voor afronden aan, omhoog of omlaag, wanneer het dekkingsbedrag niet voldoet aan de waarde van het verhogingsbedrag. |
+   | ADD (Basic life, Voluntary life) | Bewijs van verzekerbaarheid | Geeft aan of een werknemer bewijs moet leveren van de verzekerbaarheid. |
+   | ADD (Basic life, Voluntary life) | Bedrag | Het bedrag in valuta voor de boekhouding. Dit veld is alleen actief als het selectievakje Bewijs van verzekerbaarheid is ingeschakeld. |
+   | <ul><li>Pensioenplan (bijvoorbeeld 401(k))</li><li>FSA</li></ul> | Minimale jaarlijkse bijdrage | Het bedrag van de minimale bijdrage die nodig is voor het plan. |
+   | <ul><li>Pensioenplan (bijvoorbeeld 401(k))</li><li>FSA</li></ul> | Maximale jaarlijkse bijdrage | Het bedrag van de maximale bijdrage die nodig is voor het plan. |
+   | Pensioenplan (bijvoorbeeld 401(k)) | Maximum jaarlijks bedrag werkgever | Het maximale bedrag dat een werkgever mag bijdragen aan het pensioenplan van een werknemer tijdens een vergoedingsperiode. U moet het selectievakje Match werkgever inschakelen als u dit veld wilt gebruiken. |
+   | Pensioenplan (bijvoorbeeld 401(k)) | Werkgeversmatch | Geeft aan of de werkgever bijdraagt aan het pensioenplan van de werknemer. |
+   | Pensioenplan (bijvoorbeeld 401(k)) | Matchpercentage werkgever | Het percentage van een werknemersbijdrage dat de werkgever zal matchen. |
+   | Pensioenplan (bijvoorbeeld 401(k)) | Limiet werkgeversmatch | Het maximale percentage dat de werkgever zal matchen. Als een werkgever bijvoorbeeld 100% van de werknemersbijdragen matcht tot maximaal 6% van het salaris van de werknemer, is de limiet voor de werkgeversmatch 6%. |
+
+5. Geef op het tabblad **Instellingen** de waarden op voor de volgende velden:
+
+   | Veld | Beschrijving |
+   | --- | --- |
+   | Inschrijving toestaan/voortzetten | Geeft aan of werknemers zich voor het plan kunnen inschrijven als ze voldoen aan de vereisten om in aanmerking te komen.</br></br>Als deze optie is ingesteld op Nee, is het plan niet beschikbaar voor werknemers wanneer u de geschiktheid verwerkt. |
+   | Automatisch inschrijven vanaf voorafgaand jaar | Geeft aan of een in aanmerking komende werknemer automatisch wordt ingeschreven in het plan bij inschrijving in het vorige jaar. |
+   | Standaard automatisch inschrijven | Geeft aan of het plan standaard wordt geselecteerd voor inschrijving. Het plan is niet verplicht, zodat de werknemer de standaardselectie kan wijzigen. |
+   | Gesloten voor nieuwe inschrijvingen | Geeft aan of het plan uitsluitend beschikbaar is voor in aanmerking komende werknemers die zich in het voorgaande jaar hebben ingeschreven. |
+   | Verplicht plan | Geeft aan of werknemers automatisch voor het plan moeten worden ingeschreven. Werknemers kunnen de inschrijvingsselectie niet wijzigen. |
+   | Begindatum | De datum waarop het plan is gemaakt in het bedrijf. |
+   | Leverancier (leverancier vergoedingsplan) | De leverancier aan wie het bedrijf de premies betaalt voor het plan. |
+   | Naam (leverancier vergoedingsplan) | De naam van de leverancier. |
+   | Leveranciersverwijzing (leverancier vergoedingsplan) | De verwijzing van de leverancier voor het plan. Bijvoorbeeld het groepsplannummer van het bedrijf. |
+   | Alternatieve verwijzing (leverancier vergoedingsplan) | De alternatieve verwijzing van de leverancier voor het plan. Bijvoorbeeld het rekeningnummer van het bedrijf. |
+   | Valuta (leverancier vergoedingsplan) | De valuta die wordt gebruikt om premies aan de leverancier te betalen. |
+   | Onkostenrekening (leverancier vergoedingsplan) | De grootboekrekening die wordt gebruikt als de onkostenrekening voor planpremies. |
+   | Leverancier (beheerder vergoedingsplan) | De leverancier die door het bedrijf wordt betaald om het plan te beheren. Als het een zelf beheerd plan is, laat u dit veld leeg. |
+   | Naam (beheerder vergoedingsplan) | De naam van de leverancier die de beheerder is van het vergoedingsplan. |
+   | Leveranciersverwijzing (beheerder vergoedingsplan) | De verwijzing voor het plan van de leverancier die de beheerder is. |
+   | Alternatieve verwijzing (beheerder vergoedingsplan) | De alternatieve verwijzing voor het plan van de leverancier die de beheerder is. |
+   | Valuta (beheerder vergoedingsplan) | De valuta die wordt gebruikt om de beheerder van het vergoedingsplan te betalen. |
+   | Onkostenrekening (beheerder vergoedingsplan) | De grootboekrekening die wordt gebruikt als de onkostenrekening voor de kosten die aan het beheer van het plan zijn gekoppeld. |
+
+6. Filter de gegevens via het tabblad **Filters** indien nodig. U kunt filteren op de volgende velden:
+
+   - Bedrijfseenheid
+   - Departement
+   - Rechtspersoon
+   - Locatie
+   - Positie
+
+7. Geef op het tabblad **Geschiktheidsregels** waarden op voor de volgende velden:
+
+   | Veld | Beschrijving |
+   | --- | --- |
+   | Regelnummer | Het regelnummer van de geschiktheidsregel. |
+   | Geschiktheidsregel | Een geschiktheidsregel die moet worden toegepast op het vergoedingsplan. Deze geschiktheidsregel wordt toegepast op het corresponderende actietype en gekoppeld aan de opgegeven wachttijd voor een dekking en inhoudingen. |
+   | Actietype | De actie voor het toepassen van de geschiktheidsregel op de inschrijving voor, of de vervaldatum van, een vergoedingsplan. |
+   | Wachtperiode voor dekking | Een waarde uit het formulier Wachttijden. De wachttijd voor de dekking bepaalt het aantal dagen of maanden dat een werknemer moet wachten voor deze aanspraak kan maken op de dekking van een vergoedingsplan of de vervaldatum van het vergoedingsplan op basis van de criteria in de geschiktheidsregel en het actietype. |
+   | Wachtperiode voor inhouding | Een waarde uit het formulier Wachttijden. De wachttijd voor inhoudingen bepaalt het aantal dagen of maanden dat een werknemer moet wachten voor inhoudingen op het salaris beginnen voor het vergoedingsplan op basis van de criteria in de geschiktheidsregel en het actietype. |
+
+8. Selecteer **Opslaan**.
+
+## <a name="view-enrolled-workers"></a>Ingeschreven medewerkers weergeven
+
+U kunt de medewerkers weergeven die zich hebben ingeschreven voor een geselecteerd vergoedingsplan.
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
+
+2. Selecteer **Geregistreerde medewerkers**.
+
+## <a name="attach-coverage-options"></a>Dekkingsopties koppelen
+
+U kunt dekkingsopties toevoegen aan het geselecteerde vergoedingsplan. Door het koppelen van dekkingsopties worden de instellingen voor tarief en inhoudingen voor een dekkingsoptie gecombineerd.  Voorbeeld: voor een medisch plan selecteert de gebruiker een optie voor gezinsdekking.  Vervolgens moet deze gebruiker het gezinstarief selecteren voor het gekoppelde plan (ingesteld bij tariefinstellingen) en de inhouding selecteren voor het gekoppelde plan (ingesteld bij tariefinstellingen). Dit levert de kosten op voor de werkgever en werknemer voor een geselecteerde dekking. Vervolgens herhaalt u het proces voor een werknemer+1-dekking of een werknemersdekking.
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
+
+2. Selecteer **Dekkingsopties koppelen**.
+
+## <a name="override-eligibility-rules"></a>Geschiktheidsregels overschrijven
+
+U kunt medewerkers aan een plan toevoegen als uitzonderingen op de geschiktheidsregels. Iedere medewerker die u toevoegt, komt in aanmerking voor het vergoedingsplan.
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
+
+2. Selecteer **Geschiktheidsregel overschrijven**.
+
+## <a name="view-attached-periods"></a>Gekoppelde perioden weergeven
+
+U kunt een lijst met de beschikbare vergoedingsperioden weergeven.
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
+
+2. Selecteer **Perioden**.
+
+## <a name="view-plan-information"></a>Plangegevens weergeven
+
+U kunt een omschrijving opgeven van het plan om werknemers te helpen bij het selecteren van hun vergoedingen. De plangegevens die u hier invoert, worden weergegeven in Werknemerselfservice bij het aanwijzen van het plan in de lijst met dekkingsopties.
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
+
+2. Selecteer **Plangegevens**.
+
+## <a name="view-flex-credit-programs"></a>Programma's voor flexibele kredieten weergeven
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
+
+2. Selecteer **Flex-kredietprogramma's**.

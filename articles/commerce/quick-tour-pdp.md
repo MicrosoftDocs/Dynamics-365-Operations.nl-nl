@@ -3,7 +3,7 @@ title: Overzicht van de pagina met productgegevens
 description: In dit onderwerp vindt u een overzicht van de pagina's met productgegevens (PDP's) in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3b02d50adbfcda27d590bcb87fd9669d67d4a01c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697860"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025920"
 ---
 # <a name="overview-of-product-details-pages"></a>Overzicht van de pagina met productgegevens
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp vindt u een overzicht van de pagina's met productgegevens (PDP's) in Microsoft Dynamics 365 Commerce.
@@ -43,9 +43,9 @@ In de volgende afbeelding ziet u een voorbeeld van een PDP.
 
 Een PDP bevat bovenaan een koptekst waarin alle productcategorieën en andere pagina's worden weergegeven waar de detailhandelaar de klanten doorheen wil laten bladeren. Onder aan de pagina staat een voettekst die snelkoppelingen bevat naar verschillende onderwerpen waarin klanten mogelijk geïnteresseerd zijn.
 
-## <a name="buy-box-module"></a>Koopvakmodule
+## <a name="buy-box-module"></a>Module met vakje voor kopen
 
-De belangrijkste module op een PDP is de koopvakmodule. Daarom is dit het eerste item in de hoofdsectie van de pagina. Een koopvakmodule is een containermodule die verschillende modules bevat met de belangrijkste informatie over het product. Deze informatie omvat de productnaam, productafbeeldingen, de omschrijving, de prijs en productbeoordelingen.
+De belangrijkste module op een PDP is de koopvakmodule, die wordt weergegeven als eerste item in de hoofdsectie van de pagina. Een koopvakmodule toont belangrijke productinformatie, zoals de productnaam, de productbeschrijving, de productprijs, productafbeeldingen en productbeoordelingen.
 
 Met de koopvakmodule kan de klant product opties selecteren (bijvoorbeeld grootte, stijl en kleur) en het product aan de winkelwagen toevoegen. Bovendien kan de klant het product online kopen en in een winkel ophalen. De module Online kopen en ophalen in winkel gebruikt integratie met Bing Maps-API's (Application Programming Interface) om te zoeken naar winkels in de buurt of op een andere locatie die door de klant is opgegeven.
 
@@ -53,7 +53,7 @@ Voor een koopvakmodule is een product-id vereist. Deze id wordt afgeleid van de 
 
 ## <a name="product-specifications-module"></a>Module Productspecificaties
 
-U kunt de module Productspecificaties gebruiken om extra informatie over het product weer te geven. Deze gegevens worden opgehaald uit productkenmerken in Dynamics 365 Retail. In de module Productspecificaties wordt elk kenmerk weergegeven waarvan de eigenschap **Zichtbaar** is ingesteld op **True**. Hiervoor is een product-id nodig om de productkenmerken op te halen.
+U kunt de module Productspecificaties gebruiken om extra informatie over het product weer te geven. Deze gegevens worden opgehaald uit productkenmerken in Commerce. In de module Productspecificaties wordt elk kenmerk weergegeven waarvan de eigenschap **Zichtbaar** is ingesteld op **True**. Hiervoor is een product-id nodig om de productkenmerken op te halen.
 
 ## <a name="recommendations-module"></a>Aanbevelingsmodule
 
@@ -62,17 +62,23 @@ De aanbevelingsmodule is een belangrijke module op een PDP. Als klanten zoeken n
 Er zijn verschillende typen aanbevelingslijsten beschikbaar:
 
 - De lijst **Anderen vinden dit ook leuk** is gebaseerd op machine learning. De transactiehistorie van andere klanten wordt gebruikt om aanbevelingen te geven. Deze lijst wordt gegenereerd door de aanbevelingenservice en lijkt op de lijsten 'Klanten die dit hebben gekocht, kochten ook...'. Voor het genereren van deze lijst is een product-id vereist.
-- Een lijst **Verwant** kan worden geconfigureerd voor een detailhandelsproduct. Voor bijvoorbeeld een bruine leren reistas kunt u meer tassen voor de lijst configureren die zijn gemaakt van leer of die zijn ontworpen voor reisdoeleinden. Andere typen verwante lijsten, zoals **Accessoires** en **Meer als dit**, kunnen ook worden geconfigureerd. Voor het genereren van deze lijst is een product-id vereist. Daarom is de lijst leeg als deze wordt toegevoegd aan een startpagina als de paginacontext geen product-id bevat.
+- Een lijst **Verwant** kan worden geconfigureerd in Commerce. Voor bijvoorbeeld een bruine leren reistas kunt u meer tassen voor de lijst configureren die zijn gemaakt van leer of die zijn ontworpen voor reisdoeleinden. Andere typen verwante lijsten, zoals **Accessoires** en **Meer als dit**, kunnen ook worden geconfigureerd in Commerce. Voor het genereren van deze lijst is een product-id vereist. Daarom is de lijst leeg als deze wordt toegevoegd aan een startpagina als de paginacontext geen product-id bevat.
 - Algoritmisch gegenereerde aanbevelingslijsten, zoals **Trending**, **Best verkocht** en **Nieuw**, kunnen worden gebruikt voor PDP's. Hoewel deze lijsten mogelijk niet rechtstreeks verband houden met het product op de PDP, is het ook een manier waarmee klanten producten kunnen vinden die ze interessant vinden. Voor deze typen lijsten is geen product-id vereist. Dit zijn algemene lijsten die worden gegenereerd op basis van winkelpatronen op de site.
 - Redactionele lijsten zijn handmatig opgesteld. Een detailhandelaar kan bijvoorbeeld handmatig lijsten maken van producten die hij wil laten opvallen.
 
-## <a name="ratings-and-reviews-module"></a>Beoordelings- en recensiemodule
+## <a name="ratings-and-reviews-modules"></a>Beoordelings- en recensiemodules
 
-In de Beoordelings- en recensiemodule worden beoordelingen en recensies van andere klanten weergegeven. Ook kan een klant zijn of haar eigen beoordeling van het product schrijven. Bovendien bevat de module een histogram waarin de trend van de beoordelingen voor het product wordt weergegeven. Zie voor meer informatie [Overzicht beoordelingen en recensies](ratings-reviews-overview.md).
+U kunt drie modules gebruiken om recensies weer te geven en toe te voegen:
+
+- **Recensies**: in deze module worden beoordelingen en recensies van andere klanten weergegeven. Klanten kunnen de recensies sorteren en filteren. Met deze module kunnen klanten ook recensies leuk of niet leuk vinden en problemen melden.
+- **Recensie schrijven**: met deze module kunnen klanten hun eigen recensies van een product schrijven.
+- **Beoordelingshistogram**: deze module bevat een histogram waarin de beoordelingstrend voor een product wordt weergegeven.
+
+Zie voor meer informatie [Overzicht beoordelingen en recensies](ratings-reviews-overview.md).
 
 ## <a name="marketing-modules"></a>Marketingmodules
 
-Als marketinginhoud uniek is voor een specifiek product, kan elke marketingmodule aan de PDP worden toegevoegd. U kunt marketingmodules toevoegen aan een PDP door de pagina te verrijken. 
+Als marketinginhoud uniek is voor een specifiek product, kan elke marketingmodule aan de PDP worden toegevoegd. U kunt marketingmodules toevoegen aan een PDP door de pagina te verrijken. Zie [Een productpagina verrijken](enrich-product-page.md) voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
@@ -83,3 +89,5 @@ Als marketinginhoud uniek is voor een specifiek product, kan elke marketingmodul
 [Overzicht van pagina's met winkelwagen en kassa](quick-tour-cart-checkout.md)
 
 [Overzicht van pagina's voor accountbeheer](quick-tour-account-management.md)
+
+[Een pagina met productgegevens verrijken](enrich-product-page.md)

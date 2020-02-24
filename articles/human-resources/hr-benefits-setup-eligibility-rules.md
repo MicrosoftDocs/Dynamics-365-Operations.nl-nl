@@ -1,0 +1,179 @@
+---
+title: Geschiktheidsregels en -opties configureren
+description: Stel de geschiktheidsregels en -opties in voor vergoedingen in Microsoft Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3008681"
+---
+# <a name="configure-eligibility-rules-and-options"></a>Geschiktheidsregels en -opties configureren
+
+[!include [banner](includes/preview-feature.md)]
+
+Nadat u de vereiste parameters voor vergoedingenbeheer hebt geconfigureerd in Microsoft Dynamics 365 Human Resources, kunt u geschiktheidsregels, bundels, perioden en programma's maken die u aan uw vergoedingsplannen gaat koppelen.
+
+## <a name="create-an-eligibility-rule"></a>Een geschiktheidsregel maken
+
+Met geschiktheidsregels wordt gedefinieerd welke werknemers zich kunnen inschrijven bij elk vergoedingsplan. Nadat u geschiktheidsregels hebt gedefinieerd, wijst u deze toe aan vergoedingsplannen. Vervolgens kunt u de geschiktheid voor inschrijving verwerken om te zien welke werknemers in aanmerking komen voor elk plan. 
+
+Tijdens open inschrijving kunnen werknemers vergoedingsplannen selecteren. Als ze niet in aanmerking komen voor een vergoedingsplan dat is gebaseerd op geschiktheidsregels nadat ze al zijn ingeschreven, worden ze niet automatisch weer uitgeschreven. Gewoonlijk wordt, wanneer zich een levensgebeurtenis voordoet die van invloed is op de geschiktheid voor een plan, een inschrijvingsperiode geïnitieerd voor de werknemer om plannen te selecteren waarvoor hij of zij in aanmerking komt. 
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Geschiktheidsregels en -opties**.
+
+2. Selecteer op het tabblad **Geschiktheidsregels** de optie **Nieuw** om een geschiktheidsregel te maken. Selecteer **Gekoppelde plannen** om plannen weer te geven die aan een geschiktheidsregel zijn gekoppeld.
+
+3. Geef de waarden op voor de volgende velden:
+
+   | Veld | Beschrijving |
+   | --- | --- |
+   | **Geschiktheidsregel** | Een unieke id voor de geschiktheidsregel. |
+   | **Beschrijving** | Een beschrijving van de geschiktheidsregel. |
+   | **Geldig vanaf datum en tijd** | De begindatum van de geschiktheidsregel. | 
+   | **Geldig tot datum en tijd** | De einddatum van de geschiktheidsregel. |
+   | **Gebruikerstype werknemer** | Geeft aan of het werknemerstype van de werknemer moet worden gebruikt in de geschiktheidsregel. |
+   | **Type medewerker** | Het werknemertype, als de schakeloptie **Werknemertype gebruiken** is ingesteld op **Ja**. |
+   | **Werknemerstatus gebruiken** | Geeft aan of het werknemertype van de werknemer moet worden gebruikt in de geschiktheidsregel. |
+   | **Status** | De werknemerstatus, als de schakeloptie **Werknemerstatus gebruiken** is ingesteld op **Ja**. Als de schakeloptie **Werknemerstatus gebruiken** is ingesteld op **Nee**, wordt het veld niet gebruikt. |
+   | **Aanstellingscategorie gebruiken** | Geeft aan of het waarde voor **Aanstellingscategorie** van de werknemer moet worden gebruikt als onderdeel van de geschiktheidsregel voor vergoedingen. | 
+   | **Aanstellingscategorie** | De aanstellingscategorie van de werknemer als de schakeloptie **Aanstellingscategorie gebruiken** is ingesteld op **Ja**. |
+   | **Nieuwe aanstellingsregel gebruiken** | Geeft aan of de waarde voor een nieuwe aanstellingsperiode van een nieuw aangenomen werknemer wordt gebruikt als onderdeel van de geschiktheidsregel voor vergoedingen. |
+   | **Inschrijvingsperiode** | De tijdsperiode waarin inschrijving van nieuw aangenomen werknemers is toegestaan. Als u dit ook instelt in parameters, heeft de parameterinstelling voorrang op deze waarde. |
+
+4. Selecteer onder **Aanvullende criteria** de volgende opties en voeg zo nodig informatie toe:
+
+   | Optie | Beschrijving |
+   | --- | --- |
+   | **Geschikte leeftijd** | Geeft het leeftijdsbereik of de leeftijdsbereiken aan die zijn vereist om aan de geschiktheidsregel te voldoen. |
+   | **Geschikte afdeling** | Geeft de afdeling of afdelingen aan waartoe een werknemer moet behoren om aan de geschiktheidsregel te voldoen. |
+   | **Geschikt aanstellingstype** | Geeft het type of de typen aanstelling aan waaronder een werknemer moet zijn gecategoriseerd om aan de geschiktheidsregel te voldoen. Bijvoorbeeld voltijd of deeltijd. |
+   | **Geschikte taak** | Geeft de functie of functies aan die aan de geschiktheidsregel voldoen. Functies zijn gekoppeld aan posities en posities worden bekleed door werknemers. |
+   | **Geschikte taakfunctie** | Geeft de functiepositie of -posities aan die aan een geschiktheidsregel voldoen. Bijvoorbeeld verkoopmedewerkers of technici. |
+   | **Geschikt taaktype** | Geeft het functietype of de functietypen aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld administratief of leidinggevend. |
+   | **In aanmerking komende rechtspersoon** | Geeft de rechtspersoon of rechtspersonen aan die geldig zijn voor de geschiktheidsregel. Bijvoorbeeld Contoso Entertainment System USA. |
+   | **Geschikte compensatieregio** | Geeft de werknemerslocatie aan die aan de geschiktheidsregel voldoet. Bijvoorbeeld VS - midden. |
+   | **Geschikte positie** | Geeft de positie of posities aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld HR-assistent of HR-manager. |
+   | **Geschikt positietype** | Geeft het positietype of de positietypen aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld voltijd. |
+   | **Geschikte status** | Geeft de staten of provincies aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld North Dakota VS of British Columbia, Canada. |
+   | **Geschikte arbeidsvoorwaarden** | Geeft de arbeidsvoorwaarden aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld individueel of groepscontract. |
+   | **In aanmerking komende vereniging** | Geeft de lidmaatschappen van vakverenigingen aan die aan de geschiktheidsregel voldoen. Voorbeeld: Forklift Drivers of America. </br></br>Wanneer u een op vakbondslidmaatschap gebaseerde geschiktheidsregel gebruikt, moet in de vakbondsrecord van de werknemer de einddatum zijn ingevuld. U kunt dit veld niet leeg laten. |
+   | **Geschikte postcode** | Geeft de postcodes aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld 58104. |
+
+5. Onder **Aanvullende details** kunt u de volgende aanvullende gegevens weergeven:
+
+   | Veld | Beschrijving |
+   | --- | --- |
+   | **Veld met geschikte gebruiker** | Geeft aanvullende geschiktheidsregels aan die zijn gebaseerd op door de klant gedefinieerde velden. |
+   | **Geschiktheidstype** | Geeft de criteriacategorie aan die u onder **Aanvullende criteria** hebt geselecteerd. |
+   | **Geschiktheidsverwijzing** | Geeft de waarden aan die u onder **Aanvullende criteria** hebt geselecteerd. |
+   | **Beschrijving** | De beschrijving die u onder **Aanvullende criteria** hebt geselecteerd. |
+
+6. Selecteer **Opslaan**.
+
+## <a name="configure-bundles"></a>Bundels configureren
+
+Bundels zijn een reeks gerelateerde vergoedingsplannen. U kunt vergoedingsbundels gebruiken om vergoedingsplannen te groeperen die een werknemer moet kiezen om zich in te schrijven bij bepaalde vergoedingsplannen die afhankelijk kunnen zijn van andere inschrijvingen voor vergoedingsplannen. Voorbeelden van wanneer u een bundel kunt gebruiken, zijn:
+
+- Een bundel met een ziektekostenverzekering die een hoge aftrekbare ziektekostenverzekering omvat met een bijbehorende spaarrekening voor gezondheidszorg (HSA).
+
+- Een levensverzekeringsplan met een verplichte levensverzekering voor een werknemer, gebundeld met een levensverzekering voor gezinsleden. Dit zou ervoor zorgen dat een werknemer geen levensverzekering voor gezinsleden kan selecteren zonder zich aan te melden voor verzekering van de werknemer.
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Geschiktheidsregels en -opties**.
+
+2. Selecteer op het tabblad **Bundels** de optie **Nieuw** om een bundel te maken. Selecteer **Gekoppelde plannen** om plannen weer te geven die aan een bundel zijn gekoppeld.
+
+3. Geef de waarden op voor de volgende velden:
+
+   | Veld | Beschrijving |
+   | --- | --- |
+   | **Bundel** | Een unieke id voor de bundel. |
+   | **Beschrijving** | Een beschrijving van de bundel. |
+   | **Hoofdvrachtbrief** | Geeft aan of een van de plannen in de bundel moet worden gemarkeerd als het hoofdplan. Het hoofdplan moet worden geselecteerd tijdens een open inschrijving als onderdeel van de bundel voordat de vergoedingsbeheerder de keuzen voor vergoedingen van de werknemer kan bevestigen. |
+   | **Geldig vanaf datum en tijd** | De datum en tijd waarop de bundel actief wordt. |
+   | **Geldig tot** | De datum waarop de bundel verloopt. De standaardwaarde is 12/31/2154, wat voor nooit staat. |
+
+4. Selecteer **Opslaan**.
+
+## <a name="configure-periods"></a>Perioden configureren
+
+Perioden bepalen wanneer vergoedingen van kracht zijn en wanneer werknemers zich mogen inschrijven. U kunt zoveel perioden maken als u wilt om open inschrijving voor vergoedingen en perioden voor vergoedingen te behouden. Vergoedingsplanjaren kunnen al dan niet een kalenderjaar volgen. 
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Geschiktheidsregels en -opties**.
+
+2. Selecteer op het tabblad **Perioden** de optie **Nieuw** om een periode te maken. Selecteer **Plannen koppelen** om een proces uit te voeren waarbij alle geldige actieve vergoedingsplannen aan de vergoedingsperiode worden gekoppeld. Selecteer **Gekoppelde plannen** om plannen weer te geven die aan een bundel zijn gekoppeld. 
+
+3. Geef de waarden op voor de volgende velden:
+
+   | Veld | Beschrijving |
+   | --- | --- |
+   | **Periode** | Een unieke id voor de periode. |
+   | **Geldig vanaf datum en tijd** | De begindatum en -tijd waarop de vergoedingsperiode actief is. |
+   | **Geldig tot datum en tijd** | De datum en tijd waarop de vergoedingsperiode inactief wordt. |
+   | **Begin inschrijving** | De begindatum voor open inschrijving. Open inschrijving is wanneer een werknemer vergoedingskeuze kan maken via selfservice. |
+   | **Einde inschrijving** | De einddatum voor open inschrijving. |
+   | **Open** | Geeft aan of de periode open is op basis van de systeemdatum en de begindatum en -tijd en de einddatum en -tijd van de geldigheidsperiode. | 
+   | **Vorige periode** | Geeft de vergoedingsperiode aan die voorafgaat aan de geselecteerde vergoedingsperiode. Deze informatie wordt gebruikt tijdens de inschrijving van de geschiktheid voor een vergoeding om plannen, dekkingsopties en aangewezen personen uit een voorafgaand jaar toe te wijzen. |
+ 
+4. Selecteer **Opslaan**.
+
+## <a name="use-a-flex-credit-program"></a>Een flex-kredietprogramma gebruiken
+
+U kunt flex-kredietprogramma's gebruiken om werknemers in te schrijven voor vergoedingen op basis van een vooraf bepaald aantal flex-kredieten. Werknemers kunnen kiezen hoe zij hun flex-kredieten willen toewijzen. Als een werknemer bijvoorbeeld onder het ziektekostenverzekeringsplan van zijn of haar echtgenoot of echtgenote valt, kan deze werknemer de kredieten die hij of zij anders zou hebben gebruikt voor gezondheidszorg, nu gebruiken voor andere vergoedingen.
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Geschiktheidsregels en -opties**.
+
+2. Selecteer op het tabblad **Perioden** de optie **Flex-kredietprogramma's**.
+
+3. Selecteer een flex-kredietprogramma dat moet worden toegepast. De velden bevatten de volgende informatie:
+
+   | Veld | Beschrijving |
+   | --- | --- |
+   | Vergoedingskrediet-id | De unieke id van het flex-kredietprogramma. |
+   | Beschrijving | Een omschrijving van het flex-kredietprogramma. | 
+   | Begindatum | De datum waarop het flex-kredietprogramma actief wordt. |
+   | Einddatum | De einddatum van het flex-kredietprogramma. U kunt de standaardwaarde (12/31/2154) laten staan om aan te geven dat het Flex-kredietprogramma geen geplande vervaldatum heeft. |
+   | Totale kredietwaarde | Het aantal kredieten dat iedere werknemer dient te gebruiken voor zijn of haar vergoedingen. |
+   | Omslagregel | De regel die moet worden gebruikt voor het evenredig verdelen van flex-kredieten wanneer een werknemer in dienst wordt genomen midden in een flex-kredietperiode. </br></br><ul><li>**Geen** – de werknemer ontvangt geen flex-kredieten als deze is aangesteld nadat de periode van het flex-kredietprogramma is gestart.</li><li>**Volledig krediet** – de werknemer ontvangt het volledige aantal flex-kredieten, ongeacht het moment waarop deze is aangesteld.</li><li>**Evenredig** – de werknemer ontvangt een evenredig aantal flex-kredieten op basis van de begindatum.</li></ul> |
+   | Formule voor het berekenen van een evenredig aantal flex-kredieten | De regel die moet worden gebruikt voor het evenredig verdelen van het aantal flex-kredieten voor werknemers die in dienst wordt genomen midden in een vergoedingsperiode voor het flex-kredietprogramma. Het evenredige aantal flex-kredieten wordt berekend op basis van de begindatum van de aanstelling. Dit veld wordt alleen gebruikt als u **Evenredig** selecteert in het veld **Evenredigheidsregel**. </br></br><ul><li>**Dagelijks** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op dagniveau. Het totale aantal flex-kredieten wordt gedeeld door het aantal dagen in de periode. Als uw vergoedingsperiode bijvoorbeeld 400 dagen is, wordt het totale aantal flex-kredieten door 400 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per dag ontvangen.</li><li>**Huidige maand** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op maandniveau, afgerond op de huidige maand. Het totale aantal flex-kredieten wordt gedeeld door het aantal maanden in de periode. Als uw vergoedingsperiode bijvoorbeeld 15 maanden is, wordt het totale aantal flex-kredieten door 15 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per maand ontvangen.</li><li>**Volgende maand** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op maandniveau, afgerond op de volgende maand. Het totale aantal flex-kredieten wordt gedeeld door het aantal maanden in de periode. Als uw vergoedingsperiode bijvoorbeeld 15 maanden is, wordt het totale aantal flex-kredieten door 15 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per maand ontvangen.</li></ul> |
+   
+   Zorg ervoor dat elk vergoedingsplan is ingeschreven voor slechts één flex-kredietprogramma per vergoedingsperiode. Anders weet het systeem niet welk flex-kredietprogramma wordt gebruikt om flex-kredieten toe te kennen en treden er problemen op. 
+
+## <a name="configure-programs"></a>Programma's configureren
+
+Programma's zijn een reeks vergoedingsplannen die een gemeenschappelijke set geschiktheidsregels hebben. U kunt geschiktheidsregels definiëren voor het gehele programma in plaats van voor afzonderlijke plannen. Bijvoorbeeld een FTE-programma voor Contoso Canada of een Executive-programma voor Contoso Europe. 
+
+1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Geschiktheidsregels en -opties**.
+
+2. Selecteer op het tabblad **Programma's** de optie **Nieuw** om een programma te maken. Als u uitzonderingen wilt maken voor werknemers die niet voldoen aan de vereisten voor de geschiktheidsregel, selecteert u **Geschiktheidsregel negeren**. Selecteer **Gekoppelde plannen** om plannen weer te geven die aan een programma zijn gekoppeld.
+
+3. Geef de waarden op voor de volgende velden:
+
+   | Veld | Beschrijving |
+   | --- | --- |
+   | **Programma** | Een unieke id voor het programma. |
+   | **Beschrijving** | Een beschrijving van het programma. | 
+   | **Geldig vanaf datum en tijd** | De datum en tijd waarop het programma actief wordt. |
+   | **Geldig tot datum en tijd** | De datum en tijd waarop het programma afloopt. De standaardwaarde is 12/31/2154, wat voor nooit staat. |
+   | **Wachtperiode voor dekking** | De periode die een werknemer moet wachten voordat de dekking start voor het vergoedingsprogramma. |
+   | **Wachtperiode voor inhouding** | De periode die een werknemer wacht voordat inhoudingen beginnen voor het vergoedingsprogramma. |
+   | **Geschiktheidsregels** | Selecteer de geschiktheidsregels die u wilt toepassen op het vergoedingsprogramma. U definieert de geschiktheidsregels op het tabblad **Geschiktheidsregels** op deze pagina. |
+   
+4. Selecteer **Opslaan**.

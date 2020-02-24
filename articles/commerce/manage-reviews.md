@@ -3,7 +3,7 @@ title: Beoordelingen en recensies beheren
 description: In dit onderwerp wordt uitgelegd hoe u beoordelingen en recensies beheert met behulp van het moderatorhulpprogramma Microsoft Dynamics 365 Commerce Beoordelingen en recensies.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9becdce5ae36ac637043b9d0febfbbff2392aa9
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698021"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027237"
 ---
 # <a name="manage-ratings-and-reviews"></a>Beoordelingen en recensies beheren
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u beoordelingen en recensies beheert met behulp van het moderatorhulpprogramma Microsoft Dynamics 365 Commerce Beoordelingen en recensies.
@@ -39,6 +38,16 @@ Dynamics 365 Commerce gebruikt Microsoft Azure Cognitieve service om de recensie
 - Recensies beheren door ze te beantwoorden of te verwijderen.
 - De beoordelingen van een klant verwijderen op verzoek van de klant.
 - Gegevens van beoordelingen en recensies voor alle producten importeren in een Microsoft Power BI-sjabloon, zodat trends kunnen worden geanalyseerd.
+
+## <a name="access-ratings-and-reviews-moderation-features"></a>Toegang verkrijgen tot moderatorfuncties voor beoordelingen en recensies
+
+Ga als volgt te werk om moderatorfuncties voor beoordelingen en recensies te bekijken in het beheerhulpprogramma voor e-Commerce-sites.
+
+1. Meld u aan bij [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
+1. Open het project dat de omgeving bevat waarin u e-commerce wilt initialiseren.
+1. Selecteer de omgeving in de sectie **Omgevingen**.
+1. Selecteer **Retail beheren** onder **Omgevingsfuncties**.
+1. Selecteer op het tabblad **e-Commerce** onder **Koppelingen** de optie **Beheerhulpprogramma voor e-Commerce-sites**.
 
 ## <a name="read-a-review"></a>Een recensie lezen 
 
