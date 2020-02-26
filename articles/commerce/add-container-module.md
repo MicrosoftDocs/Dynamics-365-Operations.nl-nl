@@ -3,7 +3,7 @@ title: Module Container
 description: In dit onderwerp wordt beschreven wat containermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,27 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697055"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025523"
 ---
 # <a name="container-module"></a>Module Container
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven wat containermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Overzicht
 
-Een container module is een module waarin andere modules worden gehost. Dit is de meest algemene container die wordt gebruikt in Dynamics 365 Commerce. Het primaire doel van een containermodule is het definiëren van de indeling van de opgenomen modules, door de ingestelde eigenschappen. Deze modules kunnen bijvoorbeeld naast elkaar worden weergegeven in een indeling met twee kolommen, drie kolommen, vier kolommen of zes kolommen. Ze kunnen ook worden beperkt tot de breedte van de container of ze kunnen het scherm vullen. Er kan een koptekst aan elke containermodule worden toegevoegd.
+Een container module is een module waarin andere modules worden gehost. Het primaire doel van een containermodule is het definiëren van de indeling van de modules die de container bevat, door de ingestelde eigenschappen. Deze modules kunnen bijvoorbeeld naast elkaar worden weergegeven in een indeling met twee kolommen, drie kolommen, vier kolommen of zes kolommen. Ze kunnen ook worden beperkt tot de breedte van de container of ze kunnen het scherm vullen. Er kan een koptekst aan elke containermodule worden toegevoegd.
 
-Er zijn drie standaardtypen containermodules: container, container met 2 vakken en container met 3 vakken. Modules van elk moduletype kunnen in deze containers worden geplaatst. Er zijn ook speciale typen containermodules, zoals carrousel, uitgebreid blokinhoud, inhoudplaatsing, winkelwagen, kassa, koopvak, koptekst en voettekst. Deze containers hebben specifieke doeleinden en kunnen alleen specifieke ondersteunde moduletypen opnemen.
+Drie containermodules worden ondersteund: container, container met 2 vakken en container met 3 vakken. Modules van elk type kunnen in deze containers worden geplaatst. 
 
-Het is raadzaam om modules in een container te plaatsen, zodat deze kunnen worden beperkt tot de breedte van de container.
+> [!NOTE] 
+> Het is raadzaam om modules altijd in een containermodule te plaatsen, zodat deze kunnen worden beperkt tot de breedte van de container.
 
 ## <a name="examples-of-container-modules-in-e-commerce"></a>Voorbeelden van containermodules in e-commerce
 
@@ -98,20 +99,19 @@ U kunt aanvullende eigenschappen gebruiken om de indeling van verschillende view
 
 Voer de volgende stappen uit om een containerspelermodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
-1. Maak een paginasjabloon met de naam **containersjabloon**.
-1. Voeg in het **hoofdvak** van de standaardpagina een containermodule toe.
-1. Voeg in de containermodule een functiemodule toe.
-1. Check de sjabloon in en publiceer deze.
+1. Maak een paginasjabloon met de naam **containersjabloon**. 
+1. Voeg in het vak **Hoofdtekst** een module **Standaardpagina** toe.
+1. Voltooi het bewerken van de sjabloon en publiceer deze.
 1. Gebruik de containersjabloon die u zojuist hebt gemaakt om een pagina met de naam **containerpagina** te maken.
 1. Voeg in het **hoofdvak** van de nieuwe pagina een containermodule toe.
-1. Stel in het eigenschappenvenster voor de containermodule de eigenschap **Aantal kolommen** in op **1** en de eigenschap **Breedte** op **Passen in container**.
-1. Voeg in de containermodule een functiemodule toe.
-1. Configureer een koptekst in het eigenschappenvenster voor de functiemodule.
+1. Stel in het eigenschappenvenster voor de containermodule de eigenschap **Aantal kolommen** in op **1** en de eigenschap **Breedte** op **Container vullen**.
+1. Voeg in de containermodule een inhoudsblokmodule toe.
+1. Configureer in het eigenschappenvenster voor de inhoudsblokmodule de kop, de afbeelding en de indeling.
 1. Sla de pagina op en bekijk een voorbeeld. Er moet een functiemodule worden weergegeven die past binnen de breedte van de containermodule.
-1. Wijzig in het eigenschappenvenster voor de containermodule de waarde voor de eigenschap **Aantal kolommen** in **3**.
-1. Voeg nog twee functiemodules toe aan de containermodule.
-1. Sla de pagina op en bekijk een voorbeeld. Er worden nu drie functiemodules naast elkaar worden weergegeven.
-1. Nadat u de gewenste indeling hebt verkregen, checkt u de pagina in en publiceert u deze.
+1. Wijzig in het eigenschappenvenster voor de containermodule de waarde van de eigenschap **Aantal kolommen** in **3**.
+1. Voeg nog twee inhoudsblokmodules toe aan de containermodule.
+1. Sla de pagina op en bekijk een voorbeeld. Er worden nu drie inhoudsblokmodules naast elkaar weergegeven.
+1. Nadat u de gewenste indeling hebt verkregen, voltooit u het bewerken van de pagina en publiceert u deze.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
@@ -119,15 +119,13 @@ Voer de volgende stappen uit om een containerspelermodule aan een nieuwe pagina 
 
 [Carrouselmodule](add-carousel.md)
 
-[Inhoudsrijke-blokmodule](add-content-rich-block.md)
+[Tekstblokmodule](add-content-rich-block.md)
 
-[Module voor het plaatsen van inhoud](add-content-placement-modules.md)
+[Module met vakje voor kopen](add-buy-box.md)
 
-[Module voor vakje voor kopen](add-buy-box.md)
+[Winkelwagenmodule](add-cart-module.md)
 
-[Module Winkelwagen](add-cart-module.md)
-
-[Kassamodule](add-checkout-module.md)
+[Betalingsmodule](add-checkout-module.md)
 
 [Koptekstmodule](author-header-module.md)
 

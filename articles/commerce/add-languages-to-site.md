@@ -17,30 +17,30 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914603"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001410"
 ---
 # <a name="add-languages-to-your-site"></a>Talen toevoegen aan uw site
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u ondersteuning voor extra talen toevoegt aan een Microsoft Dynamics 365 Commerce-site.
 
 ## <a name="overview"></a>Overzicht
 
-U kunt uw website lokaliseren in elke taal die door Dynamics 365 Commerce wordt ondersteund. (De lijst met ondersteunde talen wordt later in dit onderwerp weergegeven.) Als u een taal op uw website wilt toevoegen, moet u deze eerst toevoegen aan een online winkel die aan uw site is gekoppeld.
+U kunt uw website lokaliseren in elke taal die door Commerce wordt ondersteund. (De lijst met ondersteunde talen wordt later in dit onderwerp weergegeven.) Als u een taal op uw website wilt toevoegen, moet u deze eerst toevoegen aan een online winkel die aan uw site is gekoppeld.
 
 ## <a name="add-a-language-to-an-online-store"></a>Een taal toevoegen aan een online winkel
 
 Volg deze stappen als u een taal aan een online winkel wilt toevoegen.
 
-1. Open de Dynamics 365 Retail-omgeving voor uw site.
-1. Ga naar **Detailhandel \> Afzetkanalen \> Online winkels** om toegang te krijgen tot de lijst met online winkels die voor uw omgeving zijn geconfigureerd U kunt ook **online winkels** invoeren als zoekterm.
+1. Open de Dynamics 365 Commerce-omgeving voor uw site.
+1. Ga naar **Retail en Commerce \> Afzetkanalen \> Online winkels** om toegang te krijgen tot de lijst met online winkels die voor uw omgeving zijn geconfigureerd. U kunt ook **online winkels** invoeren als zoekterm.
 1. Selecteer de online winkel waarvoor u een taal wilt toevoegen.
 1. Selecteer op het sneltabblad **Talen** de optie **Toevoegen**.
 1. Selecteer in het veld **Taal** de taal die u wilt toevoegen.

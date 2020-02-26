@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb369e6d1356ba13a2310d523b671ac57b9642bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e249c7d450510a3a9a33158e9e1c33f832a1f91c
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770041"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024974"
 ---
 # <a name="product-recommendations-overview"></a>Overzicht productaanbevelingen
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Commerce kan worden gebruikt om productaanbevelingen weer te geven op de e-commercewebsite en het POS-apparaat (Point of Sale). Productaanbevelingen zijn artikelen waarin een klant mogelijk geïnteresseerd is. De aanbevelingen zijn gebaseerd op de inkooptrends van andere klanten in online en fysieke winkels.
@@ -45,6 +44,7 @@ Productaanbevelingen zijn beschikbaar voor de volgende scenario's:
 - **Op elke winkelpagina voor browsen of landingspagina's in e-commerce:** als klanten of winkelmedewerkers een winkelpagina bezoeken, kan de aanbevelingsengine producten voorstellen in de lijsten **Nieuw**, **Best verkocht** en **Trending**.
 - **Op de pagina Productgegevens:** als klanten of winkelmedewerkers een pagina met **productgegevens** bezoeken, worden er extra artikelen voorgesteld die mogelijk ook worden gekocht. Deze artikelen worden weergegeven in de lijst **Anderen vinden dit ook leuk**.
 - **Op de pagina Transactie of uitchecken:** de aanbevelingsengine suggereert artikelen op basis van de hele lijst met artikelen in het mandje. Deze artikelen worden weergegeven in de lijst met **Vaak samen gekocht**.
+- **Persoonlijke aanbevelingen:** merchandizers kunnen aangemelde klanten een persoonlijke lijst **Selectie voor u** sturen, naast nieuwe functionaliteit waarmee bestaande lijstscenario's kunnen worden gepersonaliseerd op basis van die klant. Zie voor meer informatie de functiedocumentatie: [Persoonlijke aanbevelingen inschakelen.](personalized-recommendations.md)
 
 ## <a name="recommendation-service"></a>Aanbevelingsservice
 
@@ -56,6 +56,10 @@ Productaanbevelingen gebruiken de machine learning-technologie voor aanbevelinge
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Productaanbevelingen inschakelen](enable-product-recommendations.md)
+
+[Persoonlijke aanbevelingen inschakelen](personalized-recommendations.md)
+
+[Overzicht productverzamelingsmodule](product-collection-module-overview.md)
 
 [Lijst met gecureerde productaanbevelingen maken](create-editorial-recommendation-lists.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Btw-overeenkomst en -overschrijvingen
-description: Deze procedure laat zien hoe u btw-groepen kunt toewijzen aan detailhandelkanalen.
+description: Deze procedure laat zien hoe u btw-groepen kunt toewijzen aan kanalen voor handel.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 40723d35c1914f6cec6aa361a6c38100d1667cb6
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026596"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003622"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Btw-overeenkomst en -overschrijvingen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u btw-groepen kunt toewijzen aan detailhandelkanalen. Ook wordt het proces doorlopen van het maken van een nieuwe btw-overschrijving en het toewijzen hiervan aan een bestaande groep voor btw-overschrijving. Deze procedure gebruikt het demobedrijf USRT.
+Deze procedure laat zien hoe u btw-groepen kunt toewijzen aan kanalen voor handel. Ook wordt het proces doorlopen van het maken van een nieuwe btw-overschrijving en het toewijzen hiervan aan een bestaande groep voor btw-overschrijving. Deze procedure gebruikt het demobedrijf USRT.
 
-1. Ga naar Detailhandel en commerce > Kanalen > Detailhandelwinkels > Alle detailhandelwinkels.
-2. Klik in de lijst op de koppeling Id van detailhandelafzetkanaal voor "Houston".
+1. Ga naar Retail en Commerce > Kanalen > Winkels > Alle winkels.
+2. Klik in de lijst op de koppeling Kanaal-id voor "Houston".
 3. Klik op Bewerken.
     * Het veld Btw-groep bevat de lijst met btw-groepen voor het huidige bedrijf. De huidige toegewezen groep is een algemene btw-groep genaamd "Texas". Er zijn ook btw-groepen voor 'Washington' en 'Washington, King County.' Btw-groepen kunnen van toepassing zijnde belastingen voor meerdere gemeenten bevatten.  
     * In het veld Btw-overschrijving kunnen groepen voor btw-overschrijving aan het kanaal worden toegewezen. Groepen voor btw-overschrijving kunnen worden gebruikt om btw-overschrijvingen te groeperen die werken voor meerdere winkelen. In plaats van btw-overschrijvingen handmatig één voor één toe te wijzen, kan de groep worden gemaakt en rechtstreeks aan de kanalen worden toegewezen om tijd te besparen.  
@@ -43,8 +43,8 @@ Deze procedure laat zien hoe u btw-groepen kunt toewijzen aan detailhandelkanale
 10. Stel de status in op "Inschakelen".
 11. Vouw de sectie Overschrijving uit of samen.
 12. Selecteer een optie in het veld Type.
-    * Btw-groepen voor artikel kunnen worden gebruikt om de btw te negeren voor specifieke artikelen die bij de groep behoren. Zo worden bijvoorbeeld voedingsartikelen meestal anders belast dan harde goederen en hebben waarschijnlijk een eigen btw-groep.     Btw-groepen zijn groepen belastingen op een bepaald kanaal van toepassing zijn. Als bijvoorbeeld een kanaal zowel aan de detailhandel als business-to-business verkoopt, kunnen verschillende btw-groepen voor artikelen worden gebruikt. Alle relevante belastingen worden dan aan de btw-groep toegewezen.  
-    * U kunt nu de "Vanaf"- en "T/m"-btw of "Vanaf btw-groep" en "T/m btw-groep" selecteren om uw eigen btw-overschrijving te maken.    Het veld "Vanaf" geeft de btw of btw-groep aan die moet worden overschreven. Overschrijving van btw-groep van artikel biedt andere opties dan overschrijving van btw-groep.    Btw-overschrijvingen kunnen worden ingesteld voor het overschrijven van btw over hele transacties of over specifieke regels in de transactie.  
+    * Btw-groepen voor artikel kunnen worden gebruikt om de btw te negeren voor specifieke artikelen die bij de groep behoren. Zo worden bijvoorbeeld voedingsartikelen meestal anders belast dan harde goederen en hebben waarschijnlijk een eigen btw-groep. Btw-groepen zijn groepen belastingen op een bepaald kanaal van toepassing zijn. Als bijvoorbeeld een kanaal zowel aan de detailhandel als business-to-business verkoopt, kunnen verschillende btw-groepen voor artikelen worden gebruikt. Alle relevante belastingen worden dan aan de btw-groep toegewezen.  
+    * U kunt nu de "Vanaf"- en "T/m"-btw of "Vanaf btw-groep" en "T/m btw-groep" selecteren om uw eigen btw-overschrijving te maken. Het veld "Vanaf" geeft de btw of btw-groep aan die moet worden overschreven. Overschrijving van btw-groep van artikel biedt andere opties dan overschrijving van btw-groep. Btw-overschrijvingen kunnen worden ingesteld voor het overschrijven van btw over hele transacties of over specifieke regels in de transactie.  
 13. Klik op Opslaan.
 14. Sluit de pagina.
 15. Ga naar Detailhandel en commerce > Kanaalinstellingen > Btw > Groepen voor btw-overschrijving.

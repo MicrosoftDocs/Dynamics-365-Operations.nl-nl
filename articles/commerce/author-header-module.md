@@ -1,9 +1,9 @@
 ---
 title: Koptekstmodule
-description: In dit onderwerp wordt beschreven wat koptekstmodules zijn en hoe u ze maakt in Microsoft Dynamics 365 Commerce.
+description: In dit onderwerp wordt beschreven wat koptekstmodules zijn en hoe u paginakopteksten maakt in Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,60 +17,60 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cc98419077f6f563ea2265d4e68ba809971cfbd6
-ms.sourcegitcommit: ff93b8f6a11993f2cd00be2da7aa77ef0d950ab8
+ms.openlocfilehash: efadd19681bbb21ea5b2b469e55bc6f4b0535046
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885473"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025649"
 ---
 # <a name="header-module"></a>Koptekstmodule
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat koptekstmodules zijn en hoe u ze maakt in Microsoft Dynamics 365 Commerce.
+In dit onderwerp wordt beschreven wat koptekstmodules zijn en hoe u paginakopteksten maakt in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Overzicht
 
-Een koptekstmodule is een speciale container die wordt gebruikt om alle modules te hosten die worden weergegeven in de koptekst van een pagina. De module kan bijvoorbeeld uw sitelogo, koppelingen naar de navigatiehiërarchie, koppelingen naar andere pagina's op de site en de zoekbalk bevatten.
+In Dynamics 365 Commerce bestaat een paginakoptekst uit meerdere modules, zoals modules voor de koptekst, het navigatiemenu, zoeken, promotiebanner en cookietoestemming. 
 
-Een koptekstmodule wordt automatisch geoptimaliseerd voor het apparaat waarop de site wordt weergegeven (dat wil zeggen: een desktopapparaat of een mobiel apparaat). Op een mobiel apparaat wordt de navigatiebalk bijvoorbeeld samengevouwen in een **Menu**-knop (soms een *hamburgermenu* genoemd).
+De koptekstmodule bevat een sitelogo, koppelingen naar de navigatiehiërarchie, koppelingen naar andere pagina's op de site, een winkelwagensymbool, een verlanglijstsymbool, aanmeldingsopties en de zoekbalk. Een koptekstmodule wordt automatisch geoptimaliseerd voor het apparaat waarop de site wordt weergegeven (met andere woorden, voor een desktopapparaat of een mobiel apparaat). Op een mobiel apparaat wordt de navigatiebalk bijvoorbeeld samengevouwen in een **Menu**-knop (soms een *hamburgermenu* genoemd).
 
-## <a name="properties-of-a-header"></a>Eigenschappen van een koptekst
+## <a name="properties-of-a-header-module"></a>Eigenschappen van een koptekstmodule
 
-Net als algemene containers ondersteunt een koptekstmodule de eigenschappen **kop** en **breedte**.
+Een koptekstmodule ondersteunt de eigenschappen **Logoafbeelding**, **Logokoppeling** en **Mijn account-koppelingen**. 
 
-Een koptekstmodule heeft meerdere vakken. Er zijn bijvoorbeeld vakken voor informatiebericht, navigatiemenu, logo, zoekbalk, winkelwagenpictogram, verlanglijstpictogram en accountgegevens. Elk vak ondersteunt een specifieke set modules.
+De eigenschappen **Logoafbeelding** en **Logokoppeling** worden gebruikt om een logo op de pagina te definiëren. Zie voor meer informatie [Een logo toevoegen](add-logo.md). 
+
+De eigenschap **Mijn accounts-koppeling** kan worden gebruikt om accountpagina's te definiëren waarop de site-eigenaar snelkoppelingen wil weergeven in de koptekst.
 
 ## <a name="modules-that-are-available-in-a-header-module"></a>Modules die beschikbaar zijn in een koptekstmodule
 
 De volgende modules kunnen in een koptekstmodule worden gebruikt:
 
-- **Navigatiemenu** : het navigatiemenu vertegenwoordigt de navigatiehiërarchie in het afzetkanaal en andere statische navigatiekoppelingen. De navigatiehiërarchie voor het afzetkanaal kan worden geconfigureerd in Dynamics 365 Retail. Geconfigureerde artikelen worden vervolgens weergegeven als koptekstnavigatie. Daarnaast kunnen statische navigatiekoppelingen worden geconfigureerd en kunnen relatieve koppelingen naar andere pagina's op de e-commerce-site worden aangeleverd. De koptekst zelf kan links, rechts of in het midden worden uitgelijnd.
-- **Winkelwagenpictogram**: het winkelwagenpictogram is een speciaal pictogram dat de winkelwagen vertegenwoordigt. Het wordt weergegeven in de koptekst en geeft het aantal artikelen in de winkelwagen aan. Een koppeling naar de pagina Winkelwagen moet aan het winkelwagenpictogram zijn gekoppeld, zodat klanten worden omgeleid naar de pagina Winkelwagen wanneer ze het pictogram selecteren.
-- **Verlanglijstpictogram**: het verlanglijstpictogram wordt weergegeven in de koptekst en geeft het aantal artikelen aan dat aan de verlanglijst van de klant is toegevoegd. Een koppeling naar de pagina Verlanglijst moet aan dit pictogram zijn gekoppeld, zodat klanten worden omgeleid naar de pagina Verlanglijst wanneer ze het pictogram selecteren.
-- **Aanmeldmodule** : de aanmeldmodule wordt weergegeven in de koptekst. Klanten kunnen zich aanmelden bij hun account of zich registreren voor een account. Als de klant al is aangemeld, kan de module worden geconfigureerd voor het weergeven van koppelingen naar de pagina Account, de pagina Orderhistorie of een andere pagina.
-- **Logomodule**: deze module toont het logo dat de detailhandelaar en het merk vertegenwoordigt. Het is een afbeelding met een koppeling. De koppeling wordt doorgaans zo geconfigureerd dat deze een omleiding naar de startpagina heeft. Zo kunnen klanten snel terugkeren naar de startpagina vanaf een willekeurige pagina op de site.
-- **Waarschuwing**: er wordt een waarschuwing weergegeven in de koptekst om een inline bericht weer te geven dat van toepassing is op alle pagina's op de site. Een waarschuwing kan bijvoorbeeld een bericht weergeven als 'Jaarlijkse uitverkoop eindigt over 2 dagen'.
-- **Zoekbalk** : in de zoekbalk kunnen gebruikers zoekwoorden invoeren om naar producten te zoeken. De module moet worden geconfigureerd met de URL van de pagina met zoekresultaten. De parameter voor de querytekenreeks kan worden geconfigureerd (met de standaardwaarde **"q"**). De zoekbalk heeft een vak voor automatisch suggesties waar de module voor automatische suggesties moet worden toegevoegd.
-- **Autosuggest** : de module Autosuggest geeft automatisch de voorgestelde resultaten weer. Deze resultaten kunnen trefwoorden, producten of categorieën zijn waarin de zoekterm wordt gevonden.
+- **Navigatiemenu** : het navigatiemenu vertegenwoordigt de navigatiehiërarchie in het afzetkanaal en andere statische navigatiekoppelingen. De navigatiehiërarchie voor het afzetkanaal kan worden geconfigureerd in Dynamics 365 Commerce. Het navigatiemenu heeft een eigenschap **Navigatiebron** die wordt gebruikt om menuopdrachten voor Retail Server-navigatie en statische menu-opdrachten op te geven als een bron. Als statische menu-items als bron zijn opgegeven, kunnen er relatieve koppelingen naar andere pagina's op de site worden gegeven. Geconfigureerde artikelen worden vervolgens weergegeven als koptekstnavigatie. 
+- **Zoeken** : met de zoekbalkmodule kunnen gebruikers zoekwoorden invoeren om naar producten te zoeken. De URL van de standaardzoekpagina en de zoekqueryparameters moeten worden opgegeven via **Site-instellingen \> Extensies**. De zoekmodule bevat eigenschappen waarmee u de zoekknop of het zoeklabel kunt onderdrukken zoals u dat nodig acht. De zoekmodule ondersteunt ook opties voor automatisch suggesties, zoals zoekresultaten voor product, trefwoord en categorie.
 
-## <a name="create-a-header-module"></a>Een koptekstmodule maken
+## <a name="create-a-header-module-for-a-page"></a>Een koptekstmodule maken voor een pagina
 
 Volg deze stappen om een koptekstmodule te maken.
 
-1. Maak een paginafragment dat een koptekstmodule bevat.
-1. Voeg modules toe aan de vakken in de koptekstmodule.
-1. Werk de instellingen voor elke module bij.
-1. Sla het paginafragment op. 
-1. Check de pagina in en publiceer deze.
+1. Maak een fragment met de naam **Koptekstfragment** en voeg hieraan een containermodule toe.
+1. Stel in het eigenschappenvenster voor de containermodule de eigenschap **Breedte** in op **Container vullen**.
+1. Voeg promobannermodules en cookietoestemmingsmodules toe aan de containermodule.
+1. Voeg nog een containermodule toe aan het fragment en stel de eigenschap **Breedte** in op **Container vullen**.
+1. Voeg een koptekstmodule toe aan de tweede containermodule.
+1. Voeg in de **Navigatiemenu**sleuf van de koptekstmodule een navigatiemenumodule toe. 
+1. Configureer de eigenschappen van de navigatiemenumodule in het eigenschappenvenster van de navigatiemenumodule.
+1. Voeg in de sleuf **Zoeken** van de koptekstmodule een zoekmodule toe. 
+1. Configureer de eigenschappen van de zoekmodule in het eigenschappenvenster van de zoekmodule. 
+1. Sla het paginafragment op, voltooi de bewerking ervan en publiceer het fragment. 
 
 Volg deze stappen op elke paginasjabloon die voor de site wordt gemaakt om te garanderen dat een koptekst op elke pagina wordt weergegeven.
 
-1. Voeg op de standaardpagina het paginafragment met de koptekstmodule toe aan de koptekst in het hoofdvak.
-1. Sla de sjabloon op. 
-1. Check de sjabloon in en publiceer deze.
+1. Voeg in de **Hoofd**sleuf van de standaardpagina het koptekstpaginafragment met de koptekstmodule toe aan de koptekst.
+1. Sla de sjabloon op, voltooi de bewerking ervan en publiceer deze.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
@@ -82,7 +82,7 @@ Volg deze stappen op elke paginasjabloon die voor de site wordt gemaakt om te ga
 
 [Winkelwagenmodule](add-cart-module.md)
 
-[Kassamodule](add-checkout-module.md)
+[Betalingsmodule](add-checkout-module.md)
 
 [Orderbevestigingsmodule](order-confirmation-module.md)
 

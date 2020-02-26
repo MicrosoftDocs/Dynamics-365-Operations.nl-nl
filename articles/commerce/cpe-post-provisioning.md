@@ -1,5 +1,5 @@
 ---
-title: Een preview-omgeving van Commerce configureren
+title: Een previewomgeving voor Dynamics 365 Commerce configureren
 description: In dit onderwerp wordt uitgelegd hoe u een preview-omgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f19d03f3f2f5a9f6f7ba08b682277e4e3b764d10
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906134"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024701"
 ---
-# <a name="configure-a-commerce-preview-environment"></a>Een preview-omgeving van Commerce configureren
+# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Een previewomgeving voor Dynamics 365 Commerce configureren
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u een preview-omgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
@@ -142,13 +142,13 @@ Zie [Optionele functies voor een preview-omgeving van Commerce configureren](cpe
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van Commerce preview-omgeving](cpe-overview.md)
+[Omgevingsoverzicht Dynamics 365 Commerce-preview](cpe-overview.md)
 
-[Een preview-omgeving van Commerce inrichten](provisioning-guide.md)
+[Een previewomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
 
-[Optionele functies voor een preview-omgeving van Commerce configureren](cpe-optional-features.md)
+[Optionele functies voor een Dynamics 365 Commerce-preview-omgeving configureren](cpe-optional-features.md)
 
-[Veelgestelde vragen over de preview-omgeving van Commerce](cpe-faq.md)
+[Veelgestelde vragen over Dynamics 365 Commerce-preview-omgeving](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -157,5 +157,3 @@ Zie [Optionele functies voor een preview-omgeving van Commerce configureren](cpe
 [Microsoft Azure-portal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce-website](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Help-bronnen voor Dynamics 365 Retail](../retail/index.md)

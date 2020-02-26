@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d949be57d9e9fe744860f5c4045bef2923b7f284
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249176"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026105"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 
@@ -49,7 +49,7 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
 7. Selecteer Microsoft Dynamics 365 for Operations (1611).
 8. Typ in het veld Versie '[7.1.1541.3036,8)'.
     * [7.1.1541.3036,8)  
-    * Afhankelijkheden die u invoert, worden geëvalueerd wanneer deze configuratie wordt gedownload via een ER-opslagplaats. Deze configuratieversie wordt gedownload van de ER-opslagplaats als versie 1 van de configuratie van het 'Voorbeeldgegevensmodel' al bestaat of eerder is gedownload. Als het van tevoren is gedownload, moet het worden voltooid in Finance and Operations versie 7.1.1541.3036 of hoger, maar niet hoger zijn dan de primaire versie 8.   
+    * Afhankelijkheden die u invoert, worden geëvalueerd wanneer deze configuratie wordt gedownload via een ER-opslagplaats. Deze configuratieversie wordt gedownload van de ER-opslagplaats als versie 1 van de configuratie van het 'Voorbeeldgegevensmodel' al bestaat of eerder is gedownload. Als het van tevoren is gedownload, moet het worden voltooid in Finance and Operations versie 7.1.1541.3036 of hoger, maar niet hoger zijn dan hoofdversie 8.   
 9. Klik op Opslaan.
 10. Sluit de pagina.
 11. Klik op Status wijzigen.
@@ -109,7 +109,7 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
     * Versie 1.1 van deze modeltoewijzing is geüpload naar LCS via het LCS-project voor de ER-opslagplaats die eerder is geconfigureerd.   
 
 ## <a name="evaluate-er-configuration-dependencies"></a>ER-afhankelijkheden evalueren
-    * We verwijderen gemaakte configuraties uit het systeem en downloaden deze terug uit de LCS-opslagplaats.  
+We verwijderen gemaakte configuraties uit het systeem en downloaden deze terug uit de LCS-opslagplaats.  
 1. Selecteer in de structuur 'Voorbeeldgegevensmodel\Voorbeeldtoewijzing'.
 2. Klik op Verwijderen.
 3. Klik op Ja.
@@ -139,5 +139,5 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
 25. Ga naar Organisatiebeheer > Elektronische rapportage > Configuraties.
 26. Vouw in de structuur 'Voorbeeldgegevensmodel' uit.
     * Houd er rekening mee dat de modeltoewijzingsconfiguratie 'Voorbeeldtoewijzing' is gedownload met de geselecteerde gegevensmodelconfiguratie. De twee bestanden worden samen gedownload omdat 'Voorbeeldtoewijzing' is gedefinieerd als implementatie van het geselecteerde gegevensmodel en omdat het toepasbaar is op de toepassing. De configuratie 'Voorbeeldtoewijzing (alternatief)' is niet gedownload omdat niet is voldaan aan de voorwaarde voor de vereiste toepassingsversie.   
-    * Als u zich aanmeldt bij Finance and Operations, Enterprise edition, dezelfde provider registreert, toegang krijgt tot hetzelfde LCS-project en dezelfde gegevensmodelconfiguratie downloadt, wordt de configuratie 'Voorbeeldtoewijzing (alternatief)' gedownload en wordt de configuratie 'Voorbeeldtoewijzing' overgeslagen.  
+    * Als u zich aanmeldt bij Finance and Operations, dezelfde provider registreert, toegang krijgt tot hetzelfde LCS-project en dezelfde gegevensmodelconfiguratie downloadt, wordt de configuratie 'Voorbeeldtoewijzing (alternatief)' gedownload en wordt de configuratie 'Voorbeeldtoewijzing' overgeslagen.  
 

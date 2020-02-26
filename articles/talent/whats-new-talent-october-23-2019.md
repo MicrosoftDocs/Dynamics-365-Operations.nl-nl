@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7506953c797f5a55a93f1169bf48af8b06eb440e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896791"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006259"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (23 oktober 2019)
 
@@ -41,7 +41,7 @@ Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.25
 
 ### <a name="platform-update-30-for-finance-and-operations-apps"></a>Platformupdate 30 voor Finance and Operations-apps
 
-Zie [Nieuw of gewijzigd in platformupdate 30 voor Finance and Operations-apps (november 2019)](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30) voor meer informatie.
+Meer informatie vindt u in [Nieuw of gewijzigd in platformupdate 30 voor Finance and Operations-apps (november 2019)](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Preview-functie Open inschrijving voor voordelen verwijderen
 
@@ -89,4 +89,4 @@ Zie [Beoordelingen van afdrukprestaties](https://docs.microsoft.com/dynamics365-
 
 Functies worden toegevoegd en bijgewerkt in elke release. De Functiebeheerervaring biedt een werkgebied waarin u een lijst met functies kunt weergeven die in elke release zijn geleverd. Nieuwe functies zijn standaard uitgeschakeld. U kunt het werkgebied gebruiken om deze in te schakelen en de bijbehorende documenten weer te geven.
 
-Voor meer informatie over de wijzigingen in functiebeheer raadpleegt u [Overzicht van Functiebeheer](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Voor meer informatie over de wijzigingen in functiebeheer raadpleegt u [Overzicht van Functiebeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).

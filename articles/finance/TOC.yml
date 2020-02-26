@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Automatisering van gegevenstaak
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: ISV-oplossingen leveren met Eén versie
+                - name: ISV-oplossingen leveren met één versie
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: Acceptatietests voor gebruikers maken en automatiseren
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -58,22 +58,24 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Magazijnbeheer configureren voor on-premises implementaties
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations-apps geëxploiteerd door 21Vianet in China
+                - name: Finance and Operations-apps die worden geëxploiteerd door 21Vianet in China
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
                 - name: Finance and Operations-apps in Frankrijk
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Nieuwe of gewijzigde functies
               items:
-                - name: Finance versie 10.0.7 (januari 2020)
-                  href: get-started/whats-new-changed-10-0-7.md
-                - name: Finance versie 10.0.6 (november 2019)
-                  href: get-started/whats-new-finance-10-0-6.md
-                - name: Nieuwe of gewijzigde functies in eerdere versies
+                - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+                - name: Nieuwe of gewijzigde functies in Finance
                   items:
-                    - name: Startpagina Nieuwe of gewijzigde functies in Finance and Operations
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Finance and Operations, Enterprise edition 7.3'
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
+                    - name: Startpagina van Nieuwe of gewijzigde functies in Finance
+                      href: get-started/whats-new-home-page.md
+                    - name: Finance versie 10.0.9 (april 2020)
+                      href: get-started/whats-new-changed-10-0-9.md
+                    - name: Finance versie 10.0.8 (februari 2020)
+                      href: get-started/whats-new-changed-10-0-8.md
+                    - name: Finance versie 10.0.7 (januari 2020)
+                      href: get-started/whats-new-changed-10-0-7.md
                 - name: Verwijderde of verouderde functies
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
                 - name: AX 2012-functies die zijn uitgesteld
@@ -204,6 +206,8 @@
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-approval-journal.md
                 - name: Factuurgegevens invoeren in het AP-systeem met behulp van de facturengroep
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-invoice-pool.md
+                - name: Leveranciers kopiëren met behulp van gedeelde nummerreeksen
+                  href: accounts-payable/vendor-copy.md
                 - name: Een leveranciersfactuur in het factuurjournaal registreren
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
             - name: Facturen en hoofdgegevens controleren in leveranciers
@@ -216,7 +220,7 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Validatie voor factuurvereffening instellen voor leveranciers
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen
+            - name: Boekhoudingsverdelingen en journaals in de subadministratie voor leveranciersfacturen
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Factuurvereffening en intercompany-inkooporders
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -230,7 +234,7 @@
               href: accounts-payable/set-up-generate-positive-pay-files.md
             - name: Standaardtegenrekeningen voor leveranciersfactuurjournalen en factuurgoedkeuringsjournalen
               href: accounts-payable/default-offset-accounts-vendor-invoice-journals.md
-            - name: Leveranciersworkflow
+            - name: Leverancierswerkstroom
               href: accounts-payable/vendor-workflow.md
             - name: Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen
               items:
@@ -262,9 +266,9 @@
                   href: cash-bank-management/settle-remainder.md
                 - name: Overzicht van leveranciersbetaling
                   href: cash-bank-management/tasks/vendor-payment-overview.md
-                - name: Werkgebied voor betalingen aan leveranciers
+                - name: Werkgebied voor leveranciersbetalingen
                   href: accounts-payable/vendor-payments-workspace.md
-                - name: Een indirecte wisselkoers opgeven
+                - name: De indirecte wisselkoers opgeven
                   href: accounts-payable/specify-cross-rate.md
                 - name: Bijzondere kosten voor leveranciersbetalingen definiëren
                   href: accounts-payable/tasks/define-vendor-payment-fees.md
@@ -272,9 +276,9 @@
                   href: accounts-payable/tasks/define-vendor-payment-terms.md
                 - name: Leveranciersbetalingen maken met behulp van een betalingsvoorstel
                   href: accounts-payable/create-vendor-payments-payment-proposal.md
-                - name: Een leveranciersbetaling omkeren
+                - name: Een leveranciersbetaling terugboeken
                   href: accounts-payable/reverse-vendor-payment.md
-                - name: Elektronische aangifte van cheques voor leveranciers
+                - name: Elektronische aangifte van voorbeeldcheques voor leveranciers
                   href: accounts-payable/electronic-reporting-sample-vendor-checks.md
                 - name: Vooruitbetalingsfacturen en overzicht van vooruitbetalingen
                   href: accounts-payable/prepayments-invoices-vs-prepayments.md
@@ -300,6 +304,18 @@
           items:
             - name: Startpagina van Klanten
               href: accounts-receivable/accounts-receivable.md
+            - name: Voorwaarden voor klantbetalingen vaststellen
+              href: general-ledger/tasks/establish-customer-payment-terms.md
+            - name: Betalingsmethode van klant vaststellen
+              href: accounts-receivable/tasks/establish-customer-method-payment.md
+            - name: Tarieven voor klantbetalingen vaststellen
+              href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: Boekingsprofielen van klant
+              href: accounts-receivable/customer-posting-profiles.md
+            - name: Klanten kopiëren met behulp van gedeelde nummerreeksen
+              href: accounts-receivable/copy-customer.md
+            - name: Klantenwerkstroom
+              href: accounts-receivable/customer-workflow.md
             - name: Crediteringen en aanmaningen in Klanten
               href: accounts-receivable/collections-credit-accounts-receivable.md
             - name: Klanten en crediteringen en aanmaningen configureren
@@ -318,72 +334,58 @@
               href: accounts-receivable/revenue-recognition-so-basics.md
             - name: Terugkerende facturen instellen en verwerken
               href: accounts-receivable/set-up-process-recurring-invoices.md
-            - name: Boekhoudingsverdelingen en journaalposten in de subadministratie voor vrije-tekstfacturen
+            - name: Boekhoudingsverdelingen en journaals in de subadministratie voor vrije-tekstfacturen
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Boekingsprofielen van klant
               href: accounts-receivable/customer-posting-profiles.md
             - name: Overzicht SEPA-incasso
               href: accounts-receivable/sepa-direct-debit-overview.md
-            - name: SEPA-mandaat voor automatische afschrijving
+            - name: Mandaat voor automatische afschrijving instellen voor SEPA
               href: accounts-receivable/sepa-direct-debit-mandate.md
-            - name: 'Instelling, autorisatie en registratie van creditcards'
+            - name: 'Creditcards instellen, autoriseren en registreren'
               href: accounts-receivable/credit-card-authorizations.md
             - name: Een vrije-tekstfactuur invoeren
               href: accounts-receivable/create-free-text-invoice-new.md
+            - name: Boekhoudingsverdelingen en journaals in de subadministratie voor vrije-tekstfacturen
+              href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Een sjabloon voor vrije-tekstfacturen maken
               href: accounts-receivable/create-free-text-invoice-template-new.md
             - name: Een vrije-tekstfactuur corrigeren
               href: accounts-receivable/correct-free-text-invoice.md
             - name: Een sjabloon voor vrije-tekstfacturen toewijzen aan een klant
               href: accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
+            - name: Terugkerende facturen instellen en verwerken
+              href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Terugkerende vrije-tekstfacturen genereren en boeken
               href: accounts-receivable/tasks/post-recurring-free-text-invoices.md
             - name: Facturen van verkooporder maken
               href: accounts-receivable/tasks/create-sales-order-invoices.md
-            - name: Rentepercentages instellen voor een rentecode
-              href: accounts-receivable/set-up-interest-rates-interest-code.md
-            - name: 'Bijzondere kosten voor rente kwijtschelden, opnieuw invoeren of omkeren'
-              href: accounts-receivable/waive-reinstate-reverse-interest-fees.md
-            - name: Rente verwerken
-              href: accounts-receivable/tasks/process-interest.md
             - name: Een klantfactuur maken
               href: accounts-receivable/configure-customer-invoices.md
-            - name: Klantbetalingen storten
-              href: accounts-receivable/tasks/deposit-customer-payments.md
-            - name: Voorwaarden voor klantbetalingen vaststellen
-              href: general-ledger/tasks/establish-customer-payment-terms.md
-            - name: Betalingsmethode van klant vaststellen
-              href: accounts-receivable/tasks/establish-customer-method-payment.md
-            - name: Tarieven voor klantbetalingen vaststellen
-              href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: Lijstpagina met klanttransacties
+              href: accounts-receivable/customer-transactions-list-page.md
             - name: Wissels instellen
               href: accounts-receivable/set-up-bills-exchange.md
             - name: Klanten sluiten
               href: accounts-receivable/close-accounts-receivable.md
-            - name: Een aanmaningsreeks maken
-              href: accounts-receivable/tasks/create-collection-letter-sequence.md
-            - name: Aanmaningen verwerken
-              href: accounts-receivable/tasks/process-collection-letters.md
-            - name: Een mandaat voor automatische afschrijving maken voor een klant
-              href: accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-            - name: Een rentecode met een bereik maken
-              href: accounts-receivable/tasks/create-interest-code-range.md
-            - name: Een afschrijvingsjournaal voor een klant maken
-              href: accounts-receivable/tasks/create-write-off-journal-customer.md
-            - name: Informatie over ouderdom van klanten instellen en genereren
-              href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-            - name: Klanten kopiëren met behulp van gedeelde nummerreeksen
-              href: accounts-receivable/copy-customer.md
-            - name: Klantenworkflow
-              href: accounts-receivable/customer-workflow.md
             - name: Betalingen en vereffeningen
               items:
+                - name: Overzicht van opbrengsten voor reserves
+                  href: accounts-receivable/revenue-recognition-overview.md
                 - name: Overzicht van klantbetalingen
                   href: cash-bank-management/tasks/customer-payment-overview.md
-                - name: Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten
-                  href: accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Gecentraliseerde betalingen voor Klanten
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
+                - name: Klantbetalingen storten
+                  href: accounts-receivable/tasks/deposit-customer-payments.md
+                - name: Overzicht SEPA-incasso
+                  href: accounts-receivable/sepa-direct-debit-overview.md
+                - name: SEPA-mandaat voor automatische afschrijving
+                  href: accounts-receivable/sepa-direct-debit-mandate.md
+                - name: Een mandaat voor automatische afschrijving maken voor een klant
+                  href: accounts-receivable/tasks/create-direct-debit-mandate-customer.md
+                - name: Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingsperioden omvatten
+                  href: accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Een gedeeltelijke klantbetaling of laatste betaling vereffenen vóór de kortingsdatum
                   href: accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md
                 - name: Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum
@@ -396,8 +398,48 @@
                   href: accounts-receivable/reimburse-customers.md
                 - name: Klantbetalingen voor een gedeeltelijk bedrag
                   href: accounts-receivable/customer-payments-partial-amount.md
-                - name: Lijstpagina met klanttransacties
-                  href: accounts-receivable/customer-transactions-list-page.md
+            - name: Crediteringen en aanmaningen
+              items:
+                - name: Overzicht van crediteringen en aanmaningen
+                  href: accounts-receivable/cm-credit-and-collections-overview.md
+                - name: Kredietbeheer instellen
+                  href: accounts-receivable/cm-credit-mgmt-setup.md
+                - name: Informatie voor het instellen van kredietbeheer
+                  href: accounts-receivable/cm-setup-information.md
+                - name: Informatie voor kredietbeheer toevoegen voor een klant
+                  href: accounts-receivable/cm-add-credit-mgmt-information-customer.md
+                - name: Klantkredietgroepen
+                  href: accounts-receivable/cm-customer-credit-groups.md
+                - name: Correcties kredietlimiet
+                  href: accounts-receivable/cm-credit-limit-adjustments.md
+                - name: Kredietblokkeringen voor verkooporders
+                  href: accounts-receivable/cm-sales-order-credit-holds.md
+                - name: Periodieke taken voor kredietbeheer
+                  href: accounts-receivable/cm-periodic-tasks.md
+                - name: Basisbegrippen voor aanmaningsbeheer
+                  href: accounts-receivable/cm-collections-concepts.md
+                - name: Klanten en crediteringen en aanmaningen configureren
+                  href: accounts-receivable/accounts-receivables-set-up-overview.md
+                - name: Crediteringen en aanmaningen instellen
+                  href: accounts-receivable/set-up-collections.md
+            - name: Rentepercentages instellen voor een rentecode
+              href: accounts-receivable/set-up-interest-rates-interest-code.md
+            - name: Een rentecode met een bereik maken
+              href: accounts-receivable/tasks/create-interest-code-range.md
+            - name: 'Bijzondere kosten voor rente kwijtschelden, opnieuw invoeren of omkeren'
+              href: accounts-receivable/waive-reinstate-reverse-interest-fees.md
+            - name: Rente verwerken
+              href: accounts-receivable/tasks/process-interest.md
+            - name: Incassogegevens controleren
+              href: accounts-receivable/tasks/review-collections-information.md
+            - name: Een aanmaningsreeks maken
+              href: accounts-receivable/tasks/create-collection-letter-sequence.md
+            - name: Aanmaningen verwerken
+              href: accounts-receivable/tasks/process-collection-letters.md
+            - name: Informatie over ouderdom van klanten instellen en genereren
+              href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Een afschrijvingsjournaal voor een klant maken
+              href: accounts-receivable/tasks/create-write-off-journal-customer.md
         - name: Budgettering
           items:
             - name: Startpagina van Budgettering
@@ -414,8 +456,10 @@
               href: budgeting/budget-planning-justification-docs.md
             - name: Een budget maken voor transactierekeningen en totaalrekeningen
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: Sjablonen voor budgetplanning in Excel
+            - name: Excel-sjablonen voor budgetplanning
               href: budgeting/budget-planning-excel-templates.md
+            - name: De indeling van de budgetplanning uitbreiden
+              href: budgeting/extending-budget-planning-layout.md
             - name: Probleemoplossing met positiebudgettering
               href: budgeting/position-budgeting-set-up-issues.md
             - name: Budgetplanning
@@ -450,13 +494,13 @@
               href: cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
             - name: Bankfaciliteiten en boekingsprofielen voor kredietbrief instellen
               href: cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
-            - name: Brieven over commanditaire kredieten en invoerincasso's
+            - name: Kredietbrieven en invoerincasso's
               href: cash-bank-management/letters-of-credit-import-collections.md
-            - name: Een kredietbrief exporteren
+            - name: Kredietbrief voor export
               href: cash-bank-management/tasks/export-letter-credit.md
-            - name: Een kredietbrief importeren
+            - name: Kredietbrief voor import
               href: cash-bank-management/tasks/import-letter-credit.md
-            - name: Garantiebrieven
+            - name: Borgstellingen
               href: cash-bank-management/letters-of-guarantee.md
             - name: Borgstellingstransactie
               href: cash-bank-management/tasks/letter-guarantee-transaction.md
@@ -486,11 +530,11 @@
               href: cash-bank-management/set-up-centralized-payments.md
             - name: Automatische vereffening en prioriteitstelling
               href: accounts-receivable/automatic-settlement-prioritization.md
-            - name: Eenvoudige bankafstemming
+            - name: Een bankrekening afstemmen
               href: cash-bank-management/reconcile-bank-account.md
             - name: Geavanceerde bankafstemming
               items:
-                - name: Taken voor het instellen van geavanceerde bankafstemming
+                - name: Instellingsproces van geavanceerde bankafstemming
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
                 - name: Het importproces voor geavanceerde bankafstemming instellen
                   href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
@@ -562,7 +606,7 @@
               href: cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
             - name: Beleid voor totalisering van kosten maken
               href: cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: Gegevensbron beheren voor het grootboek van kostprijsboekhouding
+            - name: Een gegevensbron beheren voor het grootboek van kostprijsboekhouding
               href: cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
             - name: Brongegevens verwerken en traceren
               href: cost-accounting/tasks/process-trace-source-data.md
@@ -586,7 +630,7 @@
           items:
             - name: Overzicht van Onkostenbeheer
               href: expense-management/expense-management.md
-            - name: Nieuwe invulling voor het begrip onkostennota's
+            - name: Nieuwe invulling voor het begrip onkostendeclaratie
               href: expense-management/ExpenseWorkspaceNew.md
             - name: Onkostenbeheer plannen
               href: expense-management/plan-expense-management.md
@@ -594,23 +638,27 @@
               href: expense-management/Expense-Management-Parameters.md
             - name: Mobiel werkgebied voor onkostenbeheer
               href: expense-management/expense-management-mobile-workspace.md
-            - name: Workflows instellen voor onkostenbeheer
+            - name: Werkstromen instellen voor onkostenbeheer
               href: expense-management/expense-workflows.md
-            - name: Workflow voor onkostenbeheer
+            - name: Werkstroom voor onkostenbeheer
               href: expense-management/expense-workflow.md
+            - name: Onkostendelegering beheren
+              href: expense-management/manage-expense-delegation.md
+            - name: Verwerking van onkostenkwitanties
+              href: expense-management/expense-receipt-processing.md
             - name: Creditcardtransacties importeren en onderhouden
               href: expense-management/import-credit-card.md
-            - name: Verdelingen in een onkostennota
+            - name: Verdelingen in een onkostendeclaratie
               href: expense-management/expense-report-distributions.md
             - name: Intercompany-onkosten
               href: expense-management/intercompany-expense.md
             - name: Onkostenbeleid
               href: expense-management/travel-expense-policies.md
-            - name: Een onkostennota weergeven
+            - name: Een onkostendeclaratie weergeven
               href: expense-management/view-expense-report.md
-            - name: Een onkostennota boeken
+            - name: Een onkostendeclaratie boeken
               href: expense-management/post-expense.md
-            - name: Onkostennota's en meerdere goedkeurders
+            - name: Onkostendeclaraties en meerdere goedkeurders
               href: expense-management/expense-report-multiple-approvers.md
             - name: Btw-restitutie in Onkostenbeheer
               href: expense-management/VAT-expense-report.md
@@ -618,7 +666,7 @@
               href: expense-management/per-diem.md
             - name: Reisaanvragen
               href: expense-management/travel-req.md
-            - name: Persoonlijke onkosten in een onkostennota
+            - name: Persoonlijke onkosten in een onkostendeclaratie
               href: expense-management/personal-expenses.md
         - name: Vaste activa
           items:
@@ -790,7 +838,7 @@
                   href: general-ledger/process-allocations.md
                 - name: Financiële dimensies
                   href: general-ledger/financial-dimensions.md
-                - name: Consolidatierekeninggroepen en -rekeningen
+                - name: Groep met consolidatierekeningen en extra consolidatierekeningen
                   href: budgeting/consolidation-account-groups-consolidation-accounts.md
                 - name: Overzicht van consolidatie en schrapping
                   href: budgeting/consolidation-elimination-overview.md
@@ -830,6 +878,8 @@
                   href: general-ledger/tasks/create-journal-entry-template.md
                 - name: Toenametransacties voor grootboek maken
                   href: general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Overboeken vanuit de subadministratie naar het grootboek
+                  href: general-ledger/subledger-transfer.md
                 - name: Journaalregels en documenten publiceren vanuit Excel
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Journaalboekingen en transacties weergeven
@@ -962,6 +1012,8 @@
               href: public-sector/forecast-positions.md
             - name: Prognosepositierapporten in de openbare sector
               href: public-sector/forecast-position-reports.md
+            - name: De query Kaspositie instellen en uitvoeren
+              href: public-sector/cash-position-inquiry-setup.md
             - name: Leveranciers in de openbare sector
               items:
                 - name: Overzicht van Leveranciers in de openbare sector
@@ -1024,7 +1076,7 @@
                   href: public-sector/rules-reservation-types.md
                 - name: Algemene budgetreserveringen onderhouden
                   href: public-sector/general-budget-reservation-tasks.md
-                - name: Algemene budgetreserveringen instellen en deze indienen bij een workflow
+                - name: Algemene budgetreserveringen instellen en deze indienen bij een werkstroom
                   href: public-sector/workflow-general-budget-reservations.md
                 - name: Projectadministratie met algemene budgetreserveringen
                   href: public-sector/general-budget-reservations-project-accounting.md
@@ -1064,10 +1116,12 @@
           items:
             - name: Overzicht van Financiële rapportage
               href: general-ledger/financial-reporting-getting-started.md
-            - name: Overzicht van Financiële rapportage
+            - name: Overzicht van financiële rapportage
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Onderdelen van een financieel rapport
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Valutamogelijkheden in financiële rapportage
+              href: general-ledger/financial-reporting-currency-capability.md
             - name: Financiële rapporten balans
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Financiële rapporten genereren
@@ -1242,6 +1296,8 @@
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: SPED fiscale 2020-aanvullende informatie van de ICMS-ST voor SPED fiscale indeling 014
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
+                - name: SPED Fiscal – Indeling 014
+                  href: localizations/latam-bra-sped-fiscal-layout-014.md
                 - name: Parameters voor rechtspersonen
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Parameters voor rechtspersonen instellen
@@ -1554,7 +1610,9 @@
                   href: localizations/emea-tax-directives.md
                 - name: Bijwerken hoe bedragen worden weergegeven in rapporten en documenten
                   href: localizations/emea-amount-printing-forms.md
-                - name: Belasting op de toegevoegde waarde (Btw)
+                - name: Fiscale gegevens uit een factuurrekening gebruiken
+                  href: localizations/use-fiscal-data-from-invoice-account.md
+                - name: Belasting toegevoegde waarde (btw)
                   items:
                     - name: Btw-id instellen
                       href: localizations/tasks/eur-00015-vat-id.md
@@ -1911,10 +1969,16 @@
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Beheer van geavanceerde notities
                   href: localizations/emea-ita-exil-structured-notes.md
+                - name: Intentieverklaring - gebruikelijke exporteurs factureren
+                  href: localizations/emea-ita-exil-intent-letter.md
                 - name: Factuur met belasting voor gratis geleverde goederen
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Verbeterde query over debet- of creditvereffeningen
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Grootboeksimulaties (Italië)
+                  href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Unieke certificering
+                  href: localizations/emea-ita-exil-unique-certification.md
             - name: Japan
               items:
                 - name: Overzicht Japan
@@ -2099,6 +2163,8 @@
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
                 - name: Details btw-overzicht
                   href: localizations/emea-ltu-vat-statement-details.md
+                - name: i.SAF-rapportage voor Litouwen
+                  href: localizations/emea-ltu-isaf.md
             - name: Maleisië
               items:
                 - name: Overzicht Maleisië
@@ -2231,6 +2297,10 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Omrekening grootboek
                       href: localizations/rus-ledger-translation-procedure.md
+                    - name: Overzichten van omzetsaldi
+                      href: localizations/rus-turnover-balance-statement-reports.md
+                    - name: Rapporten over rekeningactiviteiten
+                      href: localizations/rus-account-activity-reports.md
                 - name: Voorschothouders
                   items:
                     - name: Overzicht van Voorschothouders voor Rusland
@@ -2339,12 +2409,26 @@
                       href: localizations/rus-miscellaneous-charges.md
                     - name: Diverse toeslagen van derde
                       href: localizations/rus-third-party-misc-charges.md
+                    - name: Overeenkomsten
+                      items:
+                        - name: Overzicht van Overeenkomsten
+                          href: localizations/rus-agreements.md
+                        - name: Overeenkomsten instellen en maken
+                          href: localizations/rus-set-up-and-create-agreements.md
+                        - name: Transacties registreren met verwijzing naar overeenkomsten
+                          href: localizations/rus-register-transactions-with-reference-to-agreements.md
+                        - name: Query's en rapporten met overeenkomsten
+                          href: localizations/rus-inquiries-reports-agreements.md
                 - name: Voorraad
                   items:
                     - name: Goederen in transit vanaf leverancier
                       href: localizations/rus-goods-transit-vendor.md
                     - name: Douaneaangiftenummers
                       href: localizations/rus-custom-declaration-number.md
+                    - name: Structuur voor voorraadkosten
+                      href: localizations/rus-inventory-cost-structure.md
+                    - name: Wizard Voorraadcorrectie
+                      href: localizations/rus-inventory-adjustment-wizard.md
                 - name: Rapportage
                   items:
                     - name: Financiële rapportage
@@ -2359,6 +2443,8 @@
                       href: localizations/rus-transport-tax-declaration.md
                     - name: Belastingaangifte land
                       href: localizations/rus-land-tax-declaration.md
+                    - name: Aangifte winstbelasting
+                      href: localizations/rus-profit-tax-declaration.md
                 - name: Organisatiebeheer
                   items:
                     - name: Info over belastingregistratie gerelateerd aan adres
@@ -2457,6 +2543,10 @@
                   href: localizations/apac-tha-unrealized-vat.md
                 - name: Bronbelasting
                   href: localizations/apac-tha-withholding-tax.md
+            - name: Verenigde Arabische Emiraten (VAE)
+              items:
+                - name: Belasting toegevoegde waarde (btw) instellen en er aangifte van doen
+                  href: localizations/uae-vat-setup-reporting.md
             - name: Verenigd Koninkrijk
               items:
                 - name: Overzicht Verenigd Koninkrijk
@@ -2489,51 +2579,59 @@
           items:
             - name: Overzicht van Human resources
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Een strategie voor Human resources ontwikkelen
+            - name: Human Resources instellen
               items:
-                - name: Doelstellingen maken
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-goal.md
-                - name: 'Uw personeel structureren met afdelingen, taken en posities'
-                  href: ../talent/departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Taakonderdelen instellen
-                  href: ../talent/create-job.md?toc=/dynamics365/finance/toc.json
-                - name: Nieuwe afdelingen definiëren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-new-departments.md
-                - name: Nieuwe taken definiëren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-new-jobs.md
-                - name: Een afdeling maken en koppelen aan de afdelingshiërarchie
-                  href: ../talent/create-department-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: Kalenders maken en werktijden genereren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-calendar-working-times.md
-                - name: HR-parameters instellen voor rechtspersonen
-                  href: ../talent/set-up-hr-parameters-across-legal-entities.md?toc=/dynamics365/finance/toc.json
-                - name: Bedrijfsspecifieke HR-parameters instellen
-                  href: ../talent/set-up-company-specific-hr-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Human Resources-parameters configureren
+                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Gedeelde Human Resources-parameters onderhouden
+                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Werkstromen voor Human Resources instellen
+                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                - name: Datum- en tijdvelden begrijpen
+                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
+            - name: Personeelsbeheer
+              items:
+                - name: Uw personeel organiseren
+                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
+                - name: De onderdelen van een taak instellen
+                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Afdelingen definiëren
+                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
+                - name: Een afdeling aan een hiërarchie toevoegen
+                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
+                - name: Taken definiëren
+                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Een werktijdenkalender maken
+                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
                 - name: Veelgestelde vragen over personeelsacties
-                  href: ../talent/personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Workflow gebruiken om werknemersgegevens te beheren
-                  href: ../talent/workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Rapporteringsrelaties voor posities wijzigen
-                  href: ../fin-ops-core/fin-ops/hr/tasks/modify-reporting-relationships-position.md
-                - name: Sollicitatiepostvakrecords goedkeuren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/approve-application-inbox-records.md
+                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
+                - name: Werknemersgegevens beheren met behulp van werkstromen
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
+                - name: Rapporteringsrelaties voor een positie wijzigen
+                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
                 - name: Gegevens medewerker invoeren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-worker-information.md
+                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
                 - name: Artikelen uitlenen aan medewerkers
-                  href: ../fin-ops-core/fin-ops/hr/tasks/loan-item-worker.md
+                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
                 - name: Leenartikelen maken
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-loan-items.md
-                - name: Artikelen beheren die aan werknemers worden uitgeleend
-                  href: ../talent/loan-items.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
+                - name: Leenartikelen beheren
+                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
                 - name: Een opvolgingsplan ontwikkelen
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-succession-plan.md
+                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
                 - name: Project Timesheets invoeren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-project-timesheets.md
-                - name: E-mailsjablonen beheren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-email-templates.md
-                - name: Verloven beheren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-leave-absence.md
-            - name: Werving
+                  href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
+                - name: Projecten voor massaal aanstellen
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
+                - name: Een project voor massaal aanstellen maken
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
+                - name: Posities instellen
+                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
+                - name: Informatie over letsel en ziekten instellen
+                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+                - name: Informatie over letsel en ziekte bij werknemers bijhouden
+                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+            - name: Kandidaten werven
               items:
                 - name: Wervingsprocessen beheren
                   href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
@@ -2553,76 +2651,80 @@
                   href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
                 - name: Middelen voor selectie van kandidaten identificeren en implementeren
                   href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Medewerkers motiveren
+            - name: Compensatieplannen instellen
               items:
-                - name: Compensatieplannen
-                  href: ../talent/compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Plannen voor vaste compensatie maken
-                  href: ../talent/create-fixed-compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Plannen voor variabele compensatie maken
-                  href: ../talent/create-variable-compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Compensatieprocessen definiëren en resultaten berekenen
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-compensation-process-calculate-results.md
-                - name: Compensatie verwerken
-                  href: ../talent/process-compensation.md?toc=/dynamics365/finance/toc.json
+                - name: Overzicht van compensatieplannen
+                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Compensatierasters instellen
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-compensation-grids.md
-                - name: Salaris-/compensatiestructuren en -plannen ontwikkelen
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-salary-compensation-structure-plan.md
-                - name: Informatie toevoegen aan uw prestatiejournaal en lovende kritiek verzenden
-                  href: ../fin-ops-core/fin-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md
+                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
+                - name: Een structuur en plan voor compensatie ontwikkelen
+                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
+                - name: Plannen voor vaste compensatie maken
+                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
+                - name: Plannen voor variabele compensatie maken
+                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
                 - name: Werknemers inschrijven voor een vaste compensatieregeling
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-employee-fixed-compensation-plan.md
+                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
                 - name: Werknemers inschrijven voor een variabele compensatieregeling
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-employee-variable-compensation-plan.md
-                - name: Prestatiebeoordelingen maken
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-performance-review.md
-            - name: Werknemers ontwikkelen en trainen
+                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
+                - name: Compensatieproces definiëren en resultaten berekenen
+                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
+                - name: Compensatieplannen verwerken
+                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
+            - name: Vergoedingen beheren
+              items:
+                - name: Een vergoedingenprogramma definiëren en beheren
+                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
+                - name: Beleid betreffende geschiktheid voor vergoedingen
+                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
+                - name: Proces voor geschiktheid voor vergoeding
+                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
+                - name: Regels en beleid van de vergoedingsgeschiktheid definiëren
+                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
+                - name: Een vergoedingenprogramma voor werknemers maken
+                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
+                - name: Nieuwe vergoedingen maken
+                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
+                - name: Medewerkers inschrijven voor vergoedingen
+                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
+                - name: Vervaldatums voor vergoeding beheren
+                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
+                - name: ACA-rapporten genereren
+                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Werknemers ontwikkelen
               items:
                 - name: Overzicht van prestatiebeheer
-                  href: ../talent/performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Personeelsvaardigheden afstemmen op zakelijke behoeften
-                  href: ../talent/skills.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
+                - name: Personeelsvaardigheden afstemmen
+                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
+                - name: Toevoegen aan uw prestatiejournaal
+                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
+                - name: Een doelstelling maken
+                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
+                - name: Een prestatiebeoordeling maken
+                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
+            - name: Cursussen maken
+              items:
                 - name: Trainingscursussen instellen
-                  href: ../talent/courses.md?toc=/dynamics365/finance/toc.json
-            - name: Vergoedingen maken en onderhouden
-              items:
-                - name: Een vergoedingenprogramma beheren
-                  href: ../talent/manage-benefit-program.md?toc=/dynamics365/finance/toc.json
-                - name: Beleid inzake geschiktheid voor vergoedingen
-                  href: ../talent/benefit-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: Proces voor geschiktheid voor vergoeding
-                  href: ../fin-ops-core/fin-ops/hr/tasks/benefit-eligibility-process.md
-                - name: Regels en beleid van de vergoedingsgeschiktheid definiëren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-benefit-eligibility-rules-policies.md
-                - name: Een vergoedingenprogramma voor werknemers maken
-                  href: ../fin-ops-core/fin-ops/hr/tasks/deliver-employee-benefits-program.md
-                - name: Nieuwe vergoedingen maken
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-new-benefit.md
-                - name: Werknemers voor vergoedingen inschrijven en vergoedingen verwijderen van werknemers
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-remove-benefits-workers.md
-                - name: Vervaldatums voor vergoeding beheren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-benefit-expiration-dates.md
-            - name: Gegevens verzamelen via vragenlijsten
-              items:
-                - name: Vragenlijsten
-                  href: ../talent/questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Een vragenlijst ontwerpen
-                  href: ../talent/design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Een vragenlijst distribueren en invullen
-                  href: ../talent/distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
+                - name: Overzicht van vragenlijsten
+                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Vragenlijsten ontwerpen
+                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Vragenlijsten distribueren en plannen
+                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
                 - name: Vragenlijsten distribueren met een planning
-                  href: ../fin-ops-core/fin-ops/hr/tasks/distribute-questionnaires-scheduling.md
-                - name: De resultaten van een vragenlijst evalueren
-                  href: ../talent/evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
+                - name: Resultaten van vragenlijst weergeven
+                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
                 - name: Resultaten vragenlijst analyseren
-                  href: ../fin-ops-core/fin-ops/hr/tasks/analyze-questionnaire-results.md
-                - name: Open vragen maken
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-open-ended-question.md
-                - name: Meerkeuzevragen maken
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-closed-ended-question.md
-                - name: Vragen afhankelijk maken van het antwoord op de vorige vraag
-                  href: ../fin-ops-core/fin-ops/hr/tasks/make-question-dependent-answer-previous-question.md
+                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                - name: Een open vraag maken
+                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Een meerkeuzevraag maken
+                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Een afhankelijke vraag maken
+                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
             - name: Veiligheid en conformiteit op de werkplek (Verenigde Staten)
               items:
                 - name: Verificatie van formulier I-9
@@ -2635,15 +2737,11 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
                 - name: Verblijven voor werknemers beheren
                   href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-                - name: Informatie over letsel en ziekten instellen
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-injury-illness-information.md
-                - name: Informatie over letsel en ziekte bij werknemers bijhouden
-                  href: ../fin-ops-core/fin-ops/hr/tasks/maintain-employee-injury-illness-information.md
         - name: Intelligence
           items:
             - name: Startpagina van Intelligence
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/finance/toc.json
-            - name: Informatietoegang en -rapportage
+            - name: Toegang tot informatie en rapportage
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Power BI-inhoud
               items:
@@ -2653,7 +2751,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Vergoedingen
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: Overzicht van Contant geld
+                - name: 'Power BI-inhoud: overzicht van contant geld'
                   href: cash-bank-management/Cash-Overview-Power-BI-content.md
                 - name: CFO-overzicht
                   href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/finance/toc.json
@@ -2779,8 +2877,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-                - name: Formuleontwerper in elektronische aangifte
-                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                - name: Formuleontwerpers in elektronische rapportage
+                  items:
+                    - name: Formuleontwerper
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                    - name: Geavanceerde formuleontwerper
+                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
                 - name: Formuletaal en -functies
                   items:
                     - name: Formuletaal
@@ -2859,7 +2961,7 @@
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?toc=/dynamics365/finance/toc.json
                             - name: StringJoin
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
-                            - name: Waar
+                            - name: Where
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/finance/toc.json
                         - name: Logische
                           items:
@@ -2895,10 +2997,10 @@
                           items:
                             - name: Registratiefuncties
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/finance/toc.json
-                            - name: NullContainer
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
                             - name: EmptyRecord
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
+                            - name: NullContainer
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
                         - name: Text
                           items:
                             - name: Tekstfuncties
@@ -2973,8 +3075,6 @@
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/finance/toc.json
                             - name: FA_Balance
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/finance/toc.json
-                            - name: CH_Bank_Mod_10
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/finance/toc.json
                             - name: FA_Sum
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/finance/toc.json
                             - name: GetCurrentCompany
@@ -2995,37 +3095,37 @@
                           items:
                             - name: Type conversiefuncties
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/finance/toc.json
-                            - name: Int64Value
+                            - name: 'Type: Int64Value'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/finance/toc.json
-                            - name: IntValue
+                            - name: 'Type: IntValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: NumberValue
+                            - name: 'Type: NumberValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
-                            - name: Value
+                            - name: 'Type: Value'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Datum- en tijdcategorie: DateTimeValue'
+                            - name: 'Datum en tijd: DateTimeValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Datum- en tijdcategorie: DateToDateTime'
+                            - name: 'Datum en tijd: DateToDateTime'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Datum- en tijdcategorie: DateValue'
+                            - name: 'Datum en tijd: DateValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Lijstcategorie: List'
+                            - name: 'Lijst: List'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Lijstcategorie: ListOfFields'
+                            - name: 'Lijst: ListOfFields'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Lijstcategorie: Split'
+                            - name: 'Lijst: Split'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Lijstcategorie: StringJoin'
+                            - name: 'Lijst: StringJoin'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tekstcategorie: Char'
+                            - name: 'Tekst: Char'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tekstcategorie: GuidValue'
+                            - name: 'Tekst: GuidValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tekstcategorie: NumberFormat'
+                            - name: 'Tekst: NumberFormat'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tekstcategorie: QrCode'
+                            - name: 'Tekst: QRCode'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tekstcategorie: Text'
+                            - name: 'Tekst: Text'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
                 - name: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
@@ -3151,7 +3251,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
                 - name: Zelfstudies
                   items:
-                    - name: JOIN-gegevensbronnen gebruiken om gegevens uit meerdere toepassingstabellen op te halen in ER-modeltoewijzingen (elektronische rapportage)
+                    - name: JOIN-gegevensbronnen gebruiken om gegevens uit meerdere toepassingstabellen op te halen
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
                     - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
@@ -3159,6 +3259,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
                     - name: De parameters van een ER-indeling per rechtspersoon instellen
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
+                    - name: De uitvoering van ER-opmaakelementen uitstellen
+                      items:
+                        - name: De uitvoering van een volgorde-element uitstellen
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                        - name: De uitvoering van een XML-element uitstellen
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
                 - name: Oplossingen voor elektronische rapportage gebruiken in Finance and Operations
                   items:
                     - name: Het raamwerk configureren
@@ -3173,8 +3279,24 @@
                       items:
                         - name: Overzicht van bestemmingen
                           href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/finance/toc.json
+                        - name: Bestemmingstypen
+                          items:
+                            - name: Bestemming voor archieven
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                            - name: Bestemming voor e-mail
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                            - name: Bestemming voor bestanden
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                            - name: Bestemming voor Power BI
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                            - name: Bestemming voor printers
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                            - name: Bestemming voor scherm
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                         - name: Bestemmingen configureren
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Een verwijzing naar een ER-indeling instellen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Gegenereerde rapporten automatisch valideren
                       items:
                         - name: Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden
@@ -3195,6 +3317,8 @@
                       items:
                         - name: Overzicht van Beheer van bedrijfsdocumenten
                           href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                        - name: Nieuwe gebruikersinterface voor documenten in beheer van bedrijfsdocumenten
+                          href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
                         - name: Nieuwe velden toevoegen aan een sjabloon voor bedrijfsdocumenten in Microsoft Excel
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: API ER-raamwerk
@@ -3285,7 +3409,7 @@
           items:
             - name: Overzicht van Office-integratie
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/finance/toc.json
-            - name: Zelfstudie Office-integratie
+            - name: Zelfstudie voor Office-integratie
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: Entiteitsgegevens in Excel openen en bijwerken met de Excel-invoegtoepassing
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
@@ -3337,21 +3461,21 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Adresboeken configureren
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/finance/toc.json
-            - name: Workflowsysteem
+            - name: Werkstroomsysteem
               items:
-                - name: Overzicht van Workflowsysteem
+                - name: Overzicht van Werkstroomsysteem
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/finance/toc.json
-                - name: Workflowsysteemarchitectuur
+                - name: Werkstroomsysteemarchitectuur
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/finance/toc.json
-                - name: Workflowelementen
+                - name: Werkstroomelementen
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/finance/toc.json
-                - name: Workflowacties
+                - name: Werkstroomacties
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/finance/toc.json
-                - name: Workflows maken
+                - name: Werkstromen maken
                   items:
-                    - name: Overzicht van Workflows maken
+                    - name: Overzicht van Werkstromen maken
                       href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/finance/toc.json
-                    - name: Workfloweigenschappen configureren
+                    - name: Werkstroomeigenschappen configureren
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/finance/toc.json
                     - name: Handmatige taken configureren
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/finance/toc.json
@@ -3369,37 +3493,37 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/finance/toc.json
                     - name: Parallelle vertakkingen configureren
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/finance/toc.json
-                    - name: Workflows voor regelitems configureren
+                    - name: Werkstromen voor regelitems configureren
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/finance/toc.json
-                - name: De batchtaak voor Workflowberichtverwerking configureren als kritiek
+                - name: De batchtaak voor Werkstroomberichtverwerking configureren als kritiek
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/finance/toc.json
-                - name: Werkitems in een workflow delegeren
+                - name: Werkitems in een werkstroom delegeren
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/finance/toc.json
-                - name: Workflowhistorie bekijken
+                - name: Werkstroomhistorie bekijken
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/finance/toc.json
-                - name: Het systeem configureren om workflowberichten te verzenden naar gebruikers
+                - name: Het systeem configureren om werkstroomberichten te verzenden naar gebruikers
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/finance/toc.json
-                - name: Workflowtypen
+                - name: Werkstroomtypen
                   items:
-                    - name: Een workflowtype maken
+                    - name: Een werkstroomtype maken
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/finance/toc.json
-                    - name: Controlelijst voor workflowtype
+                    - name: Controlelijst voor werkstroomtype
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/finance/toc.json
-                    - name: Een workflowcategorie maken
+                    - name: Een werkstroomcategorie maken
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/finance/toc.json
-                    - name: Een query voor een workflowtype maken
+                    - name: Een query voor een werkstroomtype maken
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/finance/toc.json
-                    - name: Een nieuw workflowtype maken
+                    - name: Een nieuw werkstroomtype maken
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/finance/toc.json
-                    - name: Een workflowdocumentklasse maken
+                    - name: Een werkstroomdocumentklasse maken
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/finance/toc.json
                     - name: Een SubmitToworkflow-klasse maken
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/finance/toc.json
-                    - name: Een workflowdocumentklasse koppelen aan een workflowtype
+                    - name: Een werkstroomdocumentklasse koppelen aan een werkstroomtype
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/finance/toc.json
-                - name: Rapport over workflowtypen
+                - name: Rapport over werkstroomtypen
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/finance/toc.json
-                - name: Veelgestelde vragen over workflows
+                - name: Veelgestelde vragen over werkstromen
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/finance/toc.json
             - name: Waarschuwingen
               items:
@@ -3561,5 +3685,7 @@
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
+    - name: Dynamics 365 Commerce
+      href: ../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../retail/index.md
+      href: ../commerce/index.md

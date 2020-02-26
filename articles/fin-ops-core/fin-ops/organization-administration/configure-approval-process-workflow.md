@@ -3,7 +3,7 @@ title: Goedkeuringsprocessen configureren in een workflow
 description: Met behulp van de volgende procedure kunt u de eigenschappen van het goedkeuringsproces configureren.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
+ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811376"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "2983759"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Goedkeuringsprocessen configureren in een workflow
 
@@ -138,11 +138,12 @@ U kunt meldingen naar gebruikers verzenden wanneer een document is goedgekeurd, 
 
 ## <a name="specify-a-final-approver"></a>Een definitieve fiatteur opgeven
 
-Mogelijk wilt u een definitieve fiatteur aanduiden voor gevallen waarin de fiatteur de persoon is die het document ter goedkeuring heeft ingediend. Volg deze stappen om een definitieve fiatteur op te geven.
+U kunt een laatste fiatteur aanwijzen voor scenario's waarbij de fiatteur de persoon is die het document ter goedkeuring heeft ingediend en de optie 'goedkeuring door indiener toestaan' wordt gebruikt. Volg deze stappen om een definitieve fiatteur op te geven.
 
-1. Klik in het linkerdeelvenster op **Geavanceerde instellingen**.
-2. Schakel het selectievakje **Definitieve fiatteur gebruiken** in.
-3. Selecteer de gebruiker die de definitieve fiatteur is in de lijst.
+1. Als u een goedkeuringsproces wilt configureren, klikt u in de workfloweditor met de rechtermuisknop op het goedkeuringselement en selecteert u **Eigenschappen** om het formulier **Eigenschappen** te openen.
+2. Klik in het linkerdeelvenster op **Geavanceerde instellingen**.
+3. Schakel het selectievakje **Definitieve fiatteur gebruiken** in.
+4. Selecteer een gebruiker die de laatste fiatteur is in de lijst.
 
 ## <a name="set-a-time-limit"></a>Een tijdslimiet instellen
 

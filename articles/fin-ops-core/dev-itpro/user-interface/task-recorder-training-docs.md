@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812644"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006190"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Documentatie of training maken met Taakrecorder
 
@@ -32,7 +32,7 @@ ms.locfileid: "2812644"
 In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, hoe u taakregistraties maakt en hoe u Microsoft-taakbegeleidingen aanpast en opneemt in uw Help.
 
 > [!IMPORTANT]
-> U kunt uw eigen taakbegeleidingen voor Dynamics 365 Talent vastleggen, maar u kunt deze nu niet opslaan in een BPM-bibliotheek (Business Process Modeler) of openen vanuit het deelvenster Help. U kunt de taakbegeleidingen lokaal of op een netwerklocatie opslaan en vervolgens openen en afspelen met Taakrecorder. 
+> U kunt uw eigen taakbegeleiders voor Dynamics 365 Human Resources opnemen, maar u kunt deze nu niet opslaan in een BPM-bibliotheek (Business Process Modeler) of openen vanuit het deelvenster Help. U kunt de taakbegeleidingen lokaal of op een netwerklocatie opslaan en vervolgens openen en afspelen met Taakrecorder. 
 
 <a name="learn-about-task-recorder"></a>Meer informatie over Taakregistratie
 -------------------------

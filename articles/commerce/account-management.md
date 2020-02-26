@@ -3,7 +3,7 @@ title: Accountbeheerpagina's en -modules
 description: In dit onderwerp worden de pagina's en modules voor accountbeheer in Microsoft Dynamics 365 Commerce besproken.
 author: v-chgri
 manager: annbe
-ms.date: 12/02/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
-ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
+ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2885804"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025670"
 ---
 # <a name="account-management-pages-and-modules"></a>Accountbeheerpagina's en -modules
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp worden de pagina's en modules voor accountbeheer in Microsoft Dynamics 365 Commerce besproken.
@@ -40,13 +40,12 @@ Accountbeheer verwijst naar een groep pagina's die wordt gebruikt voor het beher
 
 Op de landingspagina accountbeheer worden de volgende modules gebruikt:
 
-- **Plaatsing van inhoud**: deze module is een containermodule die alle modules op de landingspagina voor accountbeheer bevat.
-- **Welkomstitem voor account**: deze module wordt gebruikt om een welkomstbericht te geven op de pagina voor accountbeheer. Het bevat eigenschappen voor de koptekst en de tegelgrootte. De eigenschap **Tegelgrootte** definieert de breedte van de module in de inhoudplaatsingsmodule. De waarden lopen uiteen van **1** tot **12**, waarbij **12** de volledige breedte van de container voor inhoudplaatsing aangeeft.
-- **Item voor plaatsing van accountorders**: deze module wordt gebruikt om een overzicht te bieden van het aantal orders dat door het gebruikersaccount is geplaatst. Het bevat eigenschappen voor de koptekst, de tegelgrootte en de koppeling voor details weergeven. De koppeling Details weergeven moet zijn geconfigureerd voor omleiding naar de pagina Orderhistorie.
-- **Item voor plaatsing van accountprofiel**: deze module wordt gebruikt om een overzicht van het gebruikersprofiel te bieden. Het bevat eigenschappen voor de koptekst, de tegelgrootte en de koppeling voor details weergeven. De koppeling Details weergeven moet zijn geconfigureerd voor omleiding naar de pagina Gebruikersprofiel.
-- **Item met verlanglijst voor account** : deze module wordt gebruikt om een overzicht te bieden van de artikelen op de verlanglijst van de klant. Het heeft bijvoorbeeld de status "U hebt 10 artikelen op uw verlanglijst". Het bevat eigenschappen voor de koptekst, de tegelgrootte en de koppeling voor details weergeven. De koppeling Details weergeven moet zijn geconfigureerd voor omleiding naar de pagina Verlanglijst.
-- **Item voor accountadres**: deze module wordt gebruikt om een overzicht van de adressen van de gebruiker te bieden. Het heeft bijvoorbeeld de status "U hebt twee adressen toegevoegd aan uw account". Het bevat eigenschappen voor de koptekst, de tegelgrootte en de koppeling voor details weergeven. De koppeling Details weergeven moet zijn geconfigureerd voor omleiding naar de pagina Gebruikersadres.
-- **Item voor accountloyaliteit**: deze module wordt gebruikt om informatie over loyaliteitsprogramma's weer te geven en te koppelen. Het bevat eigenschappen voor de koptekst, de tegelgrootte en koppelingen voor details weergeven en lid worden. De koppeling Details weergeven moet zijn geconfigureerd voor omleiding naar de loyaliteitspagina. De koppeling voor lid worden moet zijn geconfigureerd voor het omleiden naar een pagina waar gebruikers kunnen deelnemen aan het loyaliteitsprogramma.
+- **Container**: alle landingspaginamodules voor accountbeheer moeten in een container worden geplaatst. 
+- **Welkomsttegel voor account**: deze module wordt gebruikt om een welkomstbericht te geven op de pagina voor accountbeheer. Deze bevat eigenschappen voor de koptekst.
+- **Algemene accounttegel**: deze module kan worden gebruikt voor het verstrekken van kopteksten en koppelingen voor pagina's voor accountbeheer, zoals de pagina's Ordergeschiedenis of Mijn profiel. De algemene tegelmodule kan worden gebruikt om een tegel voor elke pagina te configureren. In Fabrikam wordt deze module gebruikt voor koppelingen op de pagina Ordergeschiedenis en Mijn profiel op de landingspagina voor accountbeheer.
+- **Verlanglijsttegel voor account**: deze module wordt gebruikt om een overzicht te geven van de artikelen op de verlanglijst van de klant. Het heeft bijvoorbeeld de status "U hebt 10 artikelen op uw verlanglijst". Deze bevat eigenschappen voor de koptekst en de koppeling Details weergeven. De koppeling Details weergeven moet zijn geconfigureerd voor omleiding naar de pagina Verlanglijst. 
+- **Adrestegel voor account**: deze module wordt gebruikt om een overzicht van de adressen van de gebruiker te bieden. Het heeft bijvoorbeeld de status "U hebt twee adressen toegevoegd aan uw account". Deze bevat eigenschappen voor de koptekst en de koppeling Details weergeven. De koppeling Details weergeven moet zijn geconfigureerd voor omleiding naar de pagina Gebruikersadres.
+- **Loyaliteitstegel voor account**: deze module wordt gebruikt om informatie over loyaliteitsprogramma's weer te geven en te koppelen. Deze tegel heeft twee statussen: de ene status bevat koppelingen om deel te nemen aan een loyaliteitsprogramma als de gebruiker nog geen lid is. De andere status toont koppelingen om de pagina met loyaliteitsgegevens weer te geven als de gebruiker al lid is. Eigenschappen zijn onder andere de koptekst, de koppeling Aanmelden en de koppeling Loyaliteit weergeven. De koppeling Loyaliteit weergeven moet zijn geconfigureerd voor omleiding naar de loyaliteitspagina. De koppeling Aanmelden moet zijn geconfigureerd voor het omleiden naar een pagina waar gebruikers kunnen deelnemen aan het loyaliteitsprogramma. 
 
 ### <a name="order-history-page"></a>Pagina Orderhistorie
 
@@ -58,7 +57,7 @@ De pagina Orderdetails bevat gedetailleerde informatie voor elke order en wordt 
 
 ### <a name="user-profile-page"></a>Pagina Gebruikersprofiel
 
-Op de pagina Gebruikersprofiel worden de gegevens van een gebruikersaccount weergegeven, zoals naam en e-mailadres van de gebruiker. Hiervoor wordt de gebruikersprofielmodule gebruikt. Het e-mailadres kan niet worden verwijderd, maar wel worden bewerkt. De gebruikersprofielpagina bevat ook gebruikersvoorkeuren waarmee een gebruiker zich kan aan- of afmelden voor bepaalde functies, zoals personalisatie van aanbevelingslijsten. 
+Op de pagina Gebruikersprofiel worden de gegevens van een gebruikersaccount weergegeven, zoals naam en e-mailadres van de gebruiker. Deze gebruikt gebruikersprofielgegevens en gebruikersprofielbewerkingsmodules. Het e-mailadres kan niet worden verwijderd, maar wel worden bewerkt. De gebruikersprofielpagina bevat ook gebruikersvoorkeuren waarmee een gebruiker zich kan aan- of afmelden voor bepaalde functies, zoals personalisatie van aanbevelingslijsten. 
 
 ### <a name="user-address-page"></a>Pagina Gebruikersadres
 
@@ -70,19 +69,21 @@ Op de pagina Verlanglijst worden de artikelen weergegeven die zijn toegevoegd aa
 
 ### <a name="loyalty-page"></a>Loyaliteitspagina
 
-Met de loyaliteitspagina kunnen klanten deelnemen aan een loyaliteitsprogramma of, als ze al lid zijn, de programmadetails weergeven. Ze kunnen ook de punten bekijken die zij hebben verdiend en in recente transacties hebben ingewisseld.
+Op de loyaliteitspagina kunnen klanten hun loyaliteitsgegevens bekijken als ze al lid zijn van een loyaliteitsprogramma. Ze kunnen ook de punten bekijken die zij hebben verdiend en in recente transacties hebben ingewisseld. Op de pagina wordt de loyaliteitsgegevensmodule gebruikt om de loyaliteitsgegevens te presenteren. 
+
+Om deel te nemen aan een loyaliteitsprogramma, kan een marketingpagina worden gemaakt met modules voor aanmelden en loyaliteitsvoorwaarden. Als de gebruiker geen lid is van een loyaliteitsprogramma, bieden deze modules de gebruiker de gelegenheid om zich te registreren.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht starterskit](starter-kit-overview.md)
 
-[Module Container](add-container-module.md)
+[Containermodule](add-container-module.md)
 
 [Koopvakmodule](add-buy-box.md)
 
 [Winkelwagenmodule](add-cart-module.md)
 
-[Kassamodule](add-checkout-module.md)
+[Betalingsmodule](add-checkout-module.md)
 
 [Orderbevestigingsmodule](order-confirmation-module.md)
 

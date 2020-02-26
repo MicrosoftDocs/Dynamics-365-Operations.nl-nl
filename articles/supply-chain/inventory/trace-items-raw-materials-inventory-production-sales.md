@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562525"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004060"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Artikelen en grondstoffen in voorraad, productie en verkoop traceren
 
@@ -44,7 +44,7 @@ Artikeltracering is een BI-hulpmiddel (business intelligence) dat inzicht geeft 
 -   Onderzoeken waar een artikel of een grondstof in de productie van een ander artikel is verbruikt.
 
 ## <a name="what-can-i-trace-and-are-there-any-limitations"></a>Wat kan ik traceren, en zijn er eventuele beperkingen?
-U kunt historische voorraadtransacties voor artikelen en grondstoffen traceren via een artikelnummer en een traceringsdimensie, zoals een serienummer, batchnummer of een leveranciersbatchnummer. U kunt een artikel of grondstof alleen traceren als er een traceringsdimensie aan is toegewezen. Omdat de tracering is gebaseerd op voorraadtransacties, zijn er bepaalde beperkingen tijdens het traceren van artikelen. Er zijn bijvoorbeeld beperkingen wat betreft transacties voor projecten, vaste activa en detailhandel. Bovendien worden de co-producten weergegeven in de traceringsdetails, maar zijn de bijproducten niet opgenomen. De tracering bevat alle magazijntransacties van de ene locatie naar een andere. Daarom kan de hoeveelheid informatie overweldigend zijn. De tracering wordt weergegeven voor één rechtspersoon tegelijk. Er zijn geen capaciteiten voor meerdere bedrijven in een intercompany-context. U moet een nieuwe tracering voor elk bedrijf starten waar een artikel wordt ontvangen of uitgegeven.
+U kunt historische voorraadtransacties voor artikelen en grondstoffen traceren via een artikelnummer en een traceringsdimensie, zoals een serienummer, batchnummer of een leveranciersbatchnummer. U kunt een artikel of grondstof alleen traceren als er een traceringsdimensie aan is toegewezen. Omdat de tracering is gebaseerd op voorraadtransacties, zijn er bepaalde beperkingen tijdens het traceren van artikelen. Er zijn bijvoorbeeld beperkingen wat betreft transacties voor projecten, vaste activa en handel. Bovendien worden de co-producten weergegeven in de traceringsdetails, maar zijn de bijproducten niet opgenomen. De tracering bevat alle magazijntransacties van de ene locatie naar een andere. Daarom kan de hoeveelheid informatie overweldigend zijn. De tracering wordt weergegeven voor één rechtspersoon tegelijk. Er zijn geen capaciteiten voor meerdere bedrijven in een intercompany-context. U moet een nieuwe tracering voor elk bedrijf starten waar een artikel wordt ontvangen of uitgegeven.
 
 ## <a name="what-criteria-can-i-specify-for-an-item-trace"></a>Welke criteria kan ik voor een artikeltracering opgeven?
 De criteria die voor een artikeltracering vereist zijn, zijn het artikelnummer, een traceringsdimensie (zoals een of batchnummer of een serienummer) en de richting. De volgende tabel beschrijft de criteria die u in een artikeltracering kunt gebruiken.

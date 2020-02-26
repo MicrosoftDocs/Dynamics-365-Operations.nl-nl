@@ -3,7 +3,7 @@ title: Een nieuwe e-commerce-tenant implementeren
 description: In dit onderwerp wordt beschreven hoe u een nieuwe e-commerce-tenant implementeert met behulp van Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945508"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001778"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Een nieuwe e-commerce-tenant implementeren
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een nieuwe e-commerce-site implementeert met behulp van Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="overview"></a>Overzicht
-    
+
 Microsoft Dynamics Lifecycle Services (LCS) is een cloudwerkgebied dat door partners en klanten wordt gebruikt voor het beheer van hun projecten en omgevingen, het weergeven van de meest recente informatie over producten en functies van Microsoft Dynamics en het maken, volgen en zoeken van ondersteuningsaanvragen. Beheerfuncties voor e-commerce zijn in LCS geïntegreerd.
 
 Zie de [gebruikershandleiding van Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) voor meer informatie over LCS.
@@ -80,11 +80,16 @@ Nadat u de vereiste informatie hebt verzameld, voert u de volgende stappen uit o
 1. Vul de vereiste informatie in op de volgende pagina en verzend het formulier. U keert terug naar het tabblad **e-Commerce** en u ziet dat de initialisatie is gestart.
 1. Als u de initialisatiestatus wilt weergeven, kiest u **Vernieuwen** of keert u later terug naar het tabblad **e-Commerce**.
     
-Wanneer e-Commerce via LCS wordt geïnitialiseerd, worden verscheidene onderdelen ingesteld die nodig zijn voor e-commerce en die aan de omgeving worden gekoppeld. Nadat de inrichting is voltooid, wordt het tabblad **e-Commerce** op de pagina **Beheer detailhandel** bijgewerkt om de inrichting weer te geven. Op de pagina worden de nieuwste implementaties van aanpassingen en de status van andere lopende implementaties weergegeven. De pagina bevat ook koppelingen naar de e-commerce-site en het hulpprogramma voor e-commerce-sitebeheer (het ontwerpgereedschap).
+Wanneer e-Commerce via LCS wordt geïnitialiseerd, worden verscheidene onderdelen ingesteld die nodig zijn voor e-commerce en die aan de omgeving worden gekoppeld. Nadat de inrichting is voltooid, wordt het tabblad **e-Commerce** op de pagina **Retail-beheer** bijgewerkt om de inrichting weer te geven. Op de pagina worden de nieuwste implementaties van aanpassingen en de status van andere lopende implementaties weergegeven. De pagina bevat ook koppelingen naar de e-Commerce-site en de site builder voor de e-Commerce-site waar sites worden geschreven.
 
-## <a name="access-the-authoring-environment"></a>Toegang tot de ontwerpomgeving
+## <a name="access-site-builder"></a>Site builder openen
 
-Ga naar het tabblad **e-Commerce** op de pagina **Detailhandelbeheer** om de ontwerpomgeving te openen. Hier vindt u koppelingen naar uw e-commerce-site en het hulpprogramma voor sitebeheer.
+Ga naar het tabblad **e-Commerce** op de pagina **Retail-beheer** in LCS en selecteer de koppeling **Beheerhulpprogramma van de e-Commerce-site** om toegang te krijgen tot site builder. De landingspagina voor site builder is een weergave op tenantniveau. Op deze pagina kunt u het volgende doen:
+
+- Instellingen op tenantniveau wijzigen.
+- Naar een site gaan die u hebt gemaakt en waarvoor u weergavemachtiging hebt. 
+- Toegang verkrijgen tot beoordelingsfuncties, zoals moderator en rapportage.
+- Maak een nieuwe site. Zie [Een e-Commerce-site maken](create-ecommerce-site.md) voor meer informatie over het maken van een nieuwe site. 
 
 ## <a name="additional-resources"></a>Aanvullende resources
 

@@ -1,6 +1,6 @@
 ---
-title: Ondersteuning krijgen voor Finance and Operations-apps of Lifecycle Services (LCS)
-description: In dit onderwerp wordt uitgelegd hoe u ondersteuning kunt krijgen bij Finance and Operations-apps of Microsoft Dynamics Lifecycle Services (LCS).
+title: Ondersteuning vragen voor Finance and Operations-apps of Lifecycle Services (LCS)
+description: In dit onderwerk wordt uitgelegd hoe u ondersteuning kunt krijgen bij Finance and Operations-apps of Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
 ms.date: 10/14/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812130"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005511"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Ondersteuning krijgen voor Finance and Operations-apps of Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Ondersteuning vragen voor Finance and Operations-apps of Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u ondersteuning kunt krijgen bij Finance and Operations-apps of Microsoft Dynamics Lifecycle Services (LCS). 
+In dit onderwerk wordt uitgelegd hoe u ondersteuning kunt krijgen bij Finance and Operations-apps of Microsoft Dynamics Lifecycle Services (LCS). 
 
 ## <a name="contact-support"></a>Contact opnemen met ondersteuning
 
@@ -72,7 +72,7 @@ Opmerking: Microsoft Premier-klanten en Partners kunnen ook Premier-ondersteunin
 <td>Als u problemen hebt wanneer u een ticket probeert in te dienen bij Microsoft via de tegel <strong>Ondersteuning</strong> in LCS, raadpleegt u <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Neem contact op met Microsoft Business Solutions Support</span></a> voor informatie over contact met een Microsoft Dynamics Regional Operations Center. Het ondersteuningsteam kunt u helpen bij het oplossen van de volgende typen technische problemen:
 <ul>
 <li>Fouten die optreden bij het gebruik van LCS of problemen bij het toegang krijgen tot LCS.</li>
-<li>Fouten die optreden bij het gebruik van Finance and Operations-apps.</li>
+<li>Fouten die optreden wanneer u Finance and Operations-apps gebruikt.</li>
 </ul>
 Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSource, e-learning, Zoeken, Knowledge Base, het downloaden van bestanden en pagina- of systeemfouten gaat u naar <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Website-ondersteuning</span></a>.</td>
 </tr>
@@ -90,6 +90,6 @@ Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSour
 
 ## <a name="additional-resources"></a>Aanvullende resources
 - [Ondersteuning voor Dynamics 365 Retail](../../../retail/retail-support.md)
-- [Ondersteuning voor Microsoft Dynamics 365 Talent](../../../talent/talent-support.md)
-- Zie [Ondersteuningservaringen voor Finance and Operations-apps beheren](cloud-powered-support-lcs.md) voor meer informatie over ondersteuningsmogelijkheden voor Microsoft Dynamics.
+- [Ondersteuning voor Microsoft Dynamics 365 Human Resources](../../../human-resources/hr-admin-troubleshooting-support.md)
+- Zie [De ondersteuningservaringen voor Finance and Operations-apps beheren](cloud-powered-support-lcs.md) voor meer informatie over ondersteuningsmogelijkheden voor Microsoft Dynamics.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184733"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026235"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER: onderdelen van de nieuwe indeling toewijzen aan gegevensmodelelementen (november 2016)
 
@@ -98,7 +98,7 @@ In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder
 2. Sluit de pagina.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Status van de huidige versie van de indelingsconfiguratie wijzigen
-    * In de volgende stappen gaat u de status van de indelingsconfiguratie wijzigen van Concept naar Voltooid, om deze beschikbaar te maken voor het genereren van betalingsdocumenten.  
+In de volgende stappen gaat u de status van de indelingsconfiguratie wijzigen van Concept naar Voltooid, om deze beschikbaar te maken voor het genereren van betalingsdocumenten.  
 1. Klik op Status wijzigen.
 2. Klik op Voltooien.
 3. Typ een waarde in het veld Omschrijving.
@@ -108,7 +108,7 @@ In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder
     * Merk op dat de configuratie wordt opgeslagen als voltooide versie 1.1: versie 1 van de indeling, gebaseerd op versie 1 van het gegevensmodel.  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>Ingangsdatum voor voltooide versie van indeling definiëren
-    * Elke indelingsversie kan worden geconfigureerd als beschikbaar voor gebruik vanaf een bepaalde datum. Wanneer meer dan één indelingsversie actief is op een bepaalde datum, wordt de meest recente indeling (op basis van versienummer) geselecteerd voor gebruik. De waarde van de sessiedatum wordt gebruikt voor selectie van de juiste versie.  
+Elke indelingsversie kan worden geconfigureerd als beschikbaar voor gebruik vanaf een bepaalde datum. Wanneer meer dan één indelingsversie actief is op een bepaalde datum, wordt de meest recente indeling (op basis van versienummer) geselecteerd voor gebruik. De waarde van de sessiedatum wordt gebruikt voor selectie van de juiste versie.  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Toegang tot gemaakte indeling van bedrijven beperken
 1. Vouw de sectie ISO-land-/regiocodes uit.

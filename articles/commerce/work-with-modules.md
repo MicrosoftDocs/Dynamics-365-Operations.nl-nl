@@ -3,7 +3,7 @@ title: Werken met modules
 description: In dit onderwerp wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914789"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025874"
 ---
 # <a name="work-with-modules"></a>Werken met modules
 
 In dit onderwerp wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Overzicht
@@ -99,12 +99,10 @@ In de volgende procedures wordt beschreven hoe u inhouds- en containermodules co
 
 Voer de volgende stappen uit om een inhoudsmodule op een pagina te configureren.
 
-1. Selecteer in het overzichtsvenster aan de linkerkant een type inhoudsmodule (bijvoorbeeld **functie**, **held** of **banner**).
-1. Vouw in het deelvenster Eigenschappen rechts de geneste besturingselementen uit door de kopteksten te selecteren en stel de vereiste waarden voor besturingselementen in.
-1. Als het deelvenster Eigenschappen een sectie **Gegevensconfiguratie** bevat, selecteert u dit om het uit te vouwen. Anders gaat u naar stap 5.
-1. Als er een knop **Gegevensbron toevoegen** is, selecteert u deze en selecteert u vervolgens de toe te voegen inhoudsitems.
-1. Voer instellingen in voor verplichte of gewenste modulebesturingselementen.
-1. Selecteer **Opslaan**.
+1. Vouw in het overzichtsvenster aan de linkerkant de boomstructuur uit en selecteer een van de inhoudsmodules (bijvoorbeeld **Functie**, **Held** of **Banner**).
+1. Zoek in het eigenschappenvenster aan de rechterkant de inhoud en instellingen van de module.
+1. Geef waar nodig eigenschappen op voor besturingselementen van de module.
+1. Selecteer **Opslaan** op de opdrachtbalk. Hierdoor wordt ook het canvas met de voorbeeldweergave vernieuwd.
 
 ### <a name="configure-a-container-module"></a>Een containermodule configureren
 
@@ -112,7 +110,7 @@ Voer de volgende stappen uit om een containermodule op een pagina te configurere
 
 1. Selecteer een containermodule op de pagina (bijvoorbeeld een carrousel of een vloeibare containermodule).
 1. Vouw in het deelvenster Eigenschappen rechts de geneste besturingselementen uit door de kopteksten te selecteren en stel de vereiste waarden voor besturingselementen in.
-1. Selecteer in het overzichtsvenster aan de linkerkant de knop met het weglatingsteken naast de naam van de containermodule of van vakken in de container, en selecteer **Module toevoegen**. Voeg vervolgens onderliggende modules toe aan de geselecteerde container. Zie de procedure [Een module toevoegen](#add-a-module) eerder in dit onderwerp voor meer informatie.
+1. Selecteer in het overzichtsvenster aan de linkerkant de knop met het weglatingsteken naast de naam van de containermodule of van vakken in de container, en selecteer **Module toevoegen**. Voeg vervolgens onderliggende modules toe aan de geselecteerde container. Zie de sectie [Werken met modules](#add-a-module) eerder in dit onderwerp voor meer informatie.
 1. Als er meerdere onderliggende modules op hetzelfde niveau zijn in een bovenliggende container, kunt u de weergavevolgorde in de bovenliggende container wijzigen. Selecteer de knop met het weglatingsteken voor een module en gebruik vervolgens de knoppen pijl-omhoog en pijl-omlaag.
 
 ## <a name="additional-resources"></a>Aanvullende resources
@@ -127,7 +125,5 @@ Voer de volgende stappen uit om een containermodule op een pagina te configurere
 
 [Een containermodule toevoegen aan een pagina](add-container-module.md)
 
-[Modules voor het plaatsen van inhoud aan een pagina toevoegen](add-content-placement-modules.md)
-
-[Werken met publicatiegroepen](publish-groups.md)
+[Werken met groepen publiceren](publish-groups.md)
 

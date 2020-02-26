@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899022"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006282"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 Talent (30 juli 2019)
 
@@ -41,7 +41,7 @@ Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.24
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Regio-ondersteuning voor Canada en Zuidoost-Azië
 
-Wij zijn blij om te kunnen bekendmaken dat de regio's Canada en Zuidoost-Azië sinds 1 augustus 2019 beschikbaar zijn voor Talent. Met deze wijziging kunt u omgevingen maken in de Canadese en Aziatische regio's en alle Talent-gegevens worden uitsluitend in die locaties beheerd. U kunt een omgeving maken in deze nieuwe regio's maken door de locatie te selecteren in het dialoogvenster Nieuwe omgeving en deze omgeving te gebruiken om Talent in te richten in LCS op de wijze die wordt beschreven in [Talent inrichten](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Wij zijn blij om te kunnen bekendmaken dat de regio's Canada en Zuidoost-Azië sinds 1 augustus 2019 beschikbaar zijn voor Talent. Met deze wijziging kunt u omgevingen maken in de Canadese en Aziatische regio's en alle Talent-gegevens worden uitsluitend in die locaties beheerd. U kunt een omgeving maken in deze nieuwe regio's maken door de locatie te selecteren in het dialoogvenster Nieuwe omgeving en deze omgeving te gebruiken om Talent in te richten in LCS op de wijze die wordt beschreven in [Talent inrichten](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Gegevensmigratie van bestaande projecten van andere regio's naar de Canadese en Aziatische regio's wordt niet ondersteund. Alleen nieuwe projecten kunnen worden ingericht voor deze nieuwe ondersteunde regio's.
 

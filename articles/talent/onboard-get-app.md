@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 8739bb1afdbea40c7f1c77064ee6b052516903d1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 1b59fdbdd9ed46f42afd3e7310d2cd3f076edd95
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898197"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006374"
 ---
 # <a name="get-the-onboard-app"></a>De Onboard-app ophalen
 
@@ -32,7 +32,7 @@ U kunt een demo bekijken en de Microsoft Dynamics 365 Talent: Onboard-app gratis
 > [!NOTE]
 > Voor de gratis proefversie hebt u een zakelijke e-mailaccount nodig.
 
-U een abonnement op Onboard aanschaffen als een zelfstandige app of een onderdeel van Dynamics 365 Talent. Talent is een uitgebreid HCM-systeem (Human Capital Management) dat Dynamics 365 Talent: Attract, Onboard en Core HR omvat. Meer informatie over het aanschaffen van Onboard vindt u op de [Onboard-productpagina](https://dynamics.microsoft.com/talent/onboard/).
+U een abonnement op Onboard aanschaffen als een zelfstandige app of een onderdeel van Dynamics 365 Talent. Meer informatie over het aanschaffen van Onboard vindt u op de [Onboard-productpagina](https://dynamics.microsoft.com/talent/onboard/).
 
 Tijdens de proef- of aankoopprocedure stelt u uw e-mailadres en wachtwoord voor Microsoft 365 in. Noteer deze.
 

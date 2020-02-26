@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
-ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
+ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935382"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005721"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Vergelijking van functies tussen cloud en on-premises
 
@@ -32,8 +32,8 @@ Dit onderwerp bevat een vergelijking van de beschikbare functies in cloud versus
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
-- [Dynamics 365 Retail](cloud-prem-comparison.md#dynamics-365-retail)
-- [Dynamics 365 Talent](cloud-prem-comparison.md#dynamics-365-talent)
+- [Dynamics 365 Commerce](cloud-prem-comparison.md#dynamics-365-commerce)
+- [Dynamics 365 Human Resources](cloud-prem-comparison.md#dynamics-365-human-resources)
 
 Ook vindt u hier informatie over de [ontwikkelings- en beheerfuncties](cloud-prem-comparison.md#development-and-administration-features).
 
@@ -45,8 +45,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |---------------------|-----------------------------|-----------|-----------------|
 | Conformiteit en certificaten        |                                                                                           | Ja       | Ja             |
 |                                      | SOC 1-certificering van type 1                                                                | Ja       | Nee              |
-| Gegevensbeheer en -integratie      |                                                                                           | Ja       | Ja             |
-|                                      | Uitbreiding op configuratiebasis                                                            | Ja       | Nee              |
+| Gegevensbeheer en -integratie      |                                                                                           | Ja       | Ja             
 |                                      | Gegevens exporteren naar uw eigen datawarehouse                                                    | Ja       | Ja             |
 |                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Ja              |
 |                                      | Gegevensintegraties                                                                         | Ja       | Ja             |
@@ -146,15 +145,15 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 | Ondersteuning                              |                                                                                           | Ja       | Ja             |
 |                                      | Toegang tot ondersteuning via het menu Help en ondersteuning                                             | Ja       | Nee              |
 
-## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
+## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Als u een lijst wilt zien van de retailmogelijkheden die beschikbaar in on-premises implementaties, raadpleegt u [Retail-functies voor on-premises implementaties](../../../retail/retail-onprem.md).
+Voor een lijst van retailmogelijkheden die in on-premises implementaties beschikbaar zijn, raadpleegt u [Retail-functies die beschikbaar zijn voor on-premises implementaties](../../../retail/retail-onprem.md).
 
-## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
+## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
 | **Gebied**         | **Functie**         | **Cloud** | **On-premises** |
 |------------------|---------------------|-----------|-----------------|
-| Alle talentgebieden | Alle talentfuncties | Ja       | Nee              |
+| Alle Human Resources-gebieden | Alle Human Resources-functies | Ja       | Nee              |
 
 ## <a name="development-and-administration-features"></a>Ontwikkelings- en beheerfuncties
 

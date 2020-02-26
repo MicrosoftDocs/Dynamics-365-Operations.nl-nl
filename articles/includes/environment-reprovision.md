@@ -1,7 +1,7 @@
-Bij het kopiëren van een database tussen omgevingen moet u het inrichtingshulpprogramma voor de omgeving opnieuw uitvoeren voordat de gekopieerde database volledig functioneel is, om ervoor te zorgen dat alle Retail-onderdelen bijgewerkt zijn.
+Bij het kopiëren van een database tussen omgevingen moet u het inrichtingshulpprogramma voor de omgeving opnieuw uitvoeren voordat de gekopieerde database volledig functioneel is, om ervoor te zorgen dat alle Commerce-onderdelen bijgewerkt zijn.
 
 > [!IMPORTANT]
-> We raden u aan deze procedure uit te voeren, ongeacht of u Retail-onderdelen gebruikt of niet, omdat Retail-functionaliteit is opgenomen in alle omgevingen. 
+> We raden u aan deze procedure uit te voeren, ongeacht of u Commerce-onderdelen gebruikt of niet, omdat Commerce-functionaliteit is opgenomen in alle omgevingen. 
 
 Voordat u doorgaat, moet u controleren of aan de volgende vereisten wordt voldaan:
 1. Als u een upgrade uitvoert naar release 7.2.11792.56024 van juli 2017 (ook bekend als 7.2), past u de volgende X++-toepassingshotfixes toe in de doelomgeving voordat u de gegevensupgrade in die omgeving uitvoert. Hiermee wordt voorkomen dat verschillende fouten optreden tijdens de gegevensupgrade:

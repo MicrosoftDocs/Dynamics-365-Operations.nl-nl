@@ -1,6 +1,6 @@
 ---
-title: Documentatie over Finance and Operations-apps
-description: Documentatie over Finance and Operations-apps.
+title: Documentatie voor Finance and Operations-apps
+description: Documentatie voor Finance and Operations-apps.
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770914"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005535"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Documentatie over Finance and Operations-apps
+# <a name="finance-and-operations-application-documentation"></a>Documentatie voor Finance and Operations-apps
 
 [!include [banner](includes/banner.md)]
 
 Informatie over hoe u Finance and Operations-apps voor uw bedrijf kunt laten werken met behulp van de informatiebronnen in dit onderwerp. Hiermee kunt u interessante inhoud vinden voor eindgebruikers, ontwikkelaars en IT-professionals. 
 
-Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamics 365 Retail en Talent. 
+Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamics 365 Commerce en Dynamics 365 Human Resources. 
 
 <table>
 <colgroup>
@@ -46,7 +46,7 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Een implementatieoptie kiezen</a></p>
  <p><a href="get-started/purchase-on-premises.md">Finance and Operations (on-premises) aanschaffen</a></p>
 
-<h3><a href="imp-lifecycle/implementation-lifecycle.md">Implementatie van levenscyclus</a></h3>
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">Levenscyclus van de implementatie</a></h3>
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Onboarding van een project</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Voorbereiden voor go-live</a></p>
@@ -84,9 +84,9 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regionale wettelijk voorgeschreven functies</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">Vergoedingen</a></p>
-<p><a href="../../talent/performance-management-overview.md">Ontwikkeling en training van werknemers</a></p>
-<p><a href="../../talent/questionnaires.md">Vragenlijst</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Vergoedingen</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Ontwikkeling en training van werknemers</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Vragenlijsten</a></p>
 <p><a href="hr/manage-recruiting-process.md">Werving</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">Salarisadministratie VS</a></p>
 
@@ -129,16 +129,17 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 </td>
 <td>
 <h3>Verwante producten</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
 <p><a href="../../retail/call-center-functionality.md">Callcenter</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">Kanaalinstelling en -beheer</p>
+<p><a href="../../retail/define-maintain-retail-channels.md">Kanalen instellen en beheren</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS en Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Retail-ontwikkelaar en -beheer</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Commerce-ontwikkelaar en -beheer</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">Vergoedingen</a></p>
-<p><a href="../../talent/performance-management-overview.md">Ontwikkeling en training van werknemers</a></p>
-<p><a href="../../talent/questionnaires.md">Vragenlijst</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Beheerdershandleiding</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Ontwikkelaarshandleiding</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Gebruikershandleiding</a></p>
+
 
 </td>
 </tr>

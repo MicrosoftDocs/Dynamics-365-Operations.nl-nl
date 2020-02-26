@@ -3,7 +3,7 @@ title: Leveranciersaccounts instellen
 description: In dit onderwerp worden de soorten gegevens beschreven, die u moet opgeven wanneer u een nieuwe leverancieraccount maakt.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249382"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012440"
 ---
 # <a name="set-up-vendor-accounts"></a>Leveranciersaccounts instellen
 
@@ -88,7 +88,7 @@ U kunt een leverancier in de wachtstand zetten voor diverse transactietypen. De 
 -   **Factuur**: voor de leverancier kunnen geen facturen worden gemaakt of geboekt.
 -   **Alle**: De leverancier is voor alle transactietypes in de wachtstand geplaatst. Deze transactietypen zijn onder andere opdrachten tot inkoop, facturen en betalingen.
 -   **Betaling**: er kunnen geen betalingen worden gegenereerd voor de leverancier.
--   **Bestelopdracht:** Er kunnen alleen opdrachten tot inkoop worden gemaakt Geen andere transacties kunnen worden aangemaakt.
+-   **Inkoop**: Opdrachten tot inkoop kunnen niet worden gemaakt voor de leverancier en de inkoopregels die al zijn gemaakt voordat de leverancier in de wachtstand werd gezet, kunnen niet worden omgezet naar een inkooporder. De inkoopregels voor de leverancier worden geannuleerd als uw beleid is ingesteld op het automatisch maken van inkooporders.
 -   **Nooit**: de leverancier wordt nooit inactief gemaakt.
 
 Wanneer u een leverancier in de wachtstand zet, kunt u ook een reden opgeven en de datum waarop de wachtstandstatus eindigt. Als u geen einddatum invoert, blijft de blokkeringsstatus van de leverancier voor onbepaalde tijd actief.

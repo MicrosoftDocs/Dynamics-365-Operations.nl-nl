@@ -3,7 +3,7 @@ title: Overzicht van Beheer van bedrijfsdocumenten
 description: Dit onderwerp biedt informatie over het gebruiken van de functie Beheer van bedrijfsdocumenten van het ER-raamwerk.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/09/2019
+ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
+ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933903"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "2957362"
 ---
 # <a name="business-document-management-overview"></a>Overzicht van Beheer van bedrijfsdocumenten
 
@@ -122,7 +122,7 @@ Gebruik de volgende procedure om de functionaliteit voor Beheer van bedrijfsdocu
 4. Vernieuw de pagina om de nieuwe functie te openen.
 
 >[!NOTE]
-> Ook moet u **Office-achtige UI-ervaring voor Beheer van bedrijfsdocumenten** inschakelen voor het gebruik van de nieuwe interface voor Beheer van bedrijfsdocumenten
+> Zie [Nieuwe documentgebruikersinterface in Beheer van bedrijfsdocumenten](er-business-document-management-new-template-ui.md) voor meer informatie over het gebruik van de nieuwe documentgebruikersinterface in Beheer van bedrijfsdocumenten.
 
 ![Werkgebied Functiebeheer](./media/BDM-Overview-FMEnabling.png)
 
@@ -147,7 +147,7 @@ Zie [Documentbeheer configureren](../../fin-ops/organization-administration/conf
 
 ![Documenttype voor Documentbeheer instellen](./media/BDM-Overview-DMSetting.png)
 
-### <a name="set-up-parameters"></a>Parameters instellen
+### <a name="SetupBdmParameters">Parameters instellen</a>
 
 Op de pagina **Parameters voor bedrijfsdocumenten** kunnen elementaire parameters voor Beheer van bedrijfsdocumenten worden ingesteld. Alleen specifieke gebruikers hebben toegang tot de pagina. Dit zijn:
 
@@ -166,6 +166,9 @@ Gebruik de volgende procedure om de basisparameters in te stellen voor alle rech
 ![Parameters voor Beheer van bedrijfsdocumenten instellen](./media/BDM-Overview-BDMSetting.png)
 
 Het geselecteerde documenttype is specifiek voor het bedrijf en wordt gebruikt wanneer de gebruiker werkt met Beheer van bedrijfsdocumenten in het bedrijf waarvoor het geselecteerde documenttype is geconfigureerd. Wanneer de gebruiker met Beheer van bedrijfsdocumenten werkt in een ander bedrijf, wordt hetzelfde geselecteerde documenttype gebruik als dit niet is geconfigureerd voor dit bedrijf. Wanneer wel een document type is geconfigureerd, wordt dit gebruikt in plaats van het type dat is geselecteerd in het veld **SharePoint-documenttype**.
+
+> [!NOTE]
+> De parameter **SharePoint-documenttype** definieert een SharePoint-map als tijdelijke opslag voor sjablonen die bewerkbaar zijn met Microsoft Excel of Word. U moet deze parameter instellen als u deze Office-bureaubladtoepassingen wilt gebruiken voor het bewerken van sjablonen. Zie [Een sjabloon bewerken in de Office-bureaubladtoepassing](#EditInOfficeDesktopApp) voor meer informatie. U kunt deze parameter leeg laten als u de sjabloon wilt wijzigen door alleen de functionaliteit in Office 365 te gebruiken. Zie [Een sjabloon bewerken in Office 365](#EditInOffice365) voor meer informatie.
 
 ## <a name="configure-access-permissions"></a>Toegangsmachtigingen configureren
 
@@ -258,23 +261,18 @@ De optie **Sjabloon bewerken** is beschikbaar voor de geselecteerde sjabloon. De
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Bewerking van sjablonen starten die eigendom zijn van andere providers
 
-1. Selecteer **Nieuw document** in het werkgebied Beheer van bedrijfsdocumenten.
+1. Selecteer in het werkgebied Beheer van bedrijfsdocumenten het document dat u als sjabloon wilt gebruiken.
 
-![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM_overview_new_template1.png)
+![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingTemplate3.png)
 
-2. Selecteer het document dat u als een sjabloon wilt gebruiken.
+3. Selecteer **Nieuw document** en wijzig zo nodig in het veld **Titel** de titel van de bewerkbare sjabloon. De tekst wordt gebruikt als naam voor de ER-indelingsconfiguratie die automatisch wordt gemaakt. De conceptversie van deze configuratie (**Kopie FTI-rapport klant (GER)**) waarin de bewerkte sjabloon wordt opgenomen, wordt automatisch gemarkeerd om deze ER-indeling voor de huidige gebruiker uit te voeren. Tegelijkertijd wordt de niet-gewijzigde oorspronkelijke sjabloon van de ER-basisindelingsconfiguratie gebruikt om deze ER-indeling voor andere gebruikers uit te voeren.
+4. Wijzig in het veld **Naam** de naam van de eerste revisie van de bewerkbare sjabloon die automatisch wordt gemaakt.
+5. Wijzig in het veld **Opmerking** de opmerking voor de automatisch gemaakte revisie van de bewerkbare sjabloon.
+6. Selecteer **OK** om het begin van het bewerkingsproces te bevestigen.
 
-![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM_overview_new_template2.png)
+![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingTemplate4.png)
 
-3. Klik op **Document maken**.
-4. Wijzig zo nodig in het veld **Titel** de titel van de bewerkbare sjabloon. De tekst wordt gebruikt als naam voor de ER-indelingsconfiguratie die automatisch wordt gemaakt. De conceptversie van deze configuratie (**Kopie FTI-rapport klant (GER)**) waarin de bewerkte sjabloon wordt opgenomen, wordt automatisch gemarkeerd om deze ER-indeling voor de huidige gebruiker uit te voeren. Tegelijkertijd wordt de niet-gewijzigde oorspronkelijke sjabloon van de ER-basisindelingsconfiguratie gebruikt om deze ER-indeling voor andere gebruikers uit te voeren.
-5. Wijzig in het veld **Naam** de naam van de eerste revisie van de bewerkbare sjabloon die automatisch wordt gemaakt.
-6. Wijzig in het veld **Opmerking** de opmerking voor de automatisch gemaakte revisie van de bewerkbare sjabloon.
-7. Selecteer **OK** om het begin van het bewerkingsproces te bevestigen.
-
-![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM_overview_new_template3.png)
-
-De optie **Nieuw document** is altijd beschikbaar voor een sjabloon in een ER-indelingsconfiguratie die wordt geleverd door een andere provider (Microsoft in dit voorbeeld). Wanneer u op **Nieuw document** klikt, ziet u alle sjablonen die eigendom zijn van huidige en andere providers. Nadat u de sjabloon hebt gekozen, wordt deze geopend om te worden bewerkt. De bewerkte sjabloon wordt vervolgens opgeslagen in een nieuwe ER-indelingsconfiguratie die automatisch wordt gegenereerd.
+De optie **Nieuw document** is altijd beschikbaar voor een sjabloon in een ER-indelingsconfiguratie die wordt verschaft door de huidige en een andere provider (Microsoft in dit geval) die geen revisie heeft. De bewerkte sjabloon wordt vervolgens opgeslagen in een nieuwe ER-indelingsconfiguratie die automatisch wordt gegenereerd.
 
 ### <a name="start-editing-a-template"></a>Een sjabloon bewerken
 
@@ -282,7 +280,7 @@ De optie **Nieuw document** is altijd beschikbaar voor een sjabloon in een ER-in
 2. Wijzig in het veld **Naam** de naam van de eerste revisie van de bewerkbare sjabloon die automatisch wordt gemaakt.
 3. Wijzig in het veld **Opmerking** de opmerking voor de automatisch gemaakte revisie van de bewerkbare sjabloon.
 
-    ![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM_overview_new_template4.png)
+    ![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingTemplate5.png)
 
 5. Selecteer **OK** om het begin van het bewerkingsproces te bevestigen.
 
@@ -290,13 +288,16 @@ De pagina **BDM-sjablooneditor** wordt geopend. De geselecteerde sjabloon is bes
 
 ![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-office-365"></a>Een sjabloon bewerken in Office 365
+### <a name="EditInOffice365">Een sjabloon bewerken in Office 365</a>
 
-Wijzig de sjabloon met behulp van de functionaliteit van Office 365. Wijzig in Office Online bijvoorbeeld het lettertype van de veldprompts in de sjabloonkoptekst van **Normaal** in **Vet**. Deze wijzigingen worden automatisch opgeslagen voor de bewerkbare sjabloon die is opgeslagen in de opslagruimte van de primaire sjabloon (standaard is dit de Azure Blob-opslag) die is geconfigureerd voor het ER-raamwerk.
+U kunt de sjabloon wijzigen met Office 365. Wijzig in Office Online bijvoorbeeld het lettertype van de veldprompts in de sjabloonkoptekst van **Normaal** in **Vet**. Deze wijzigingen worden automatisch opgeslagen in de bewerkbare sjabloon die wordt opgeslagen in de primaire opslagruimte van de sjabloon (standaard de Azure Blob-opslag). Dit wordt geconfigureerd voor het ER-raamwerk.
 
 ![Sjablooneditor voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a>Een sjabloon bewerken in de Office-bureaubladtoepassing
+### <a name="EditInOfficeDesktopApp">Een sjabloon bewerken in de Office-bureaubladtoepassing</a>
+
+> [!NOTE]
+> Deze functie is alleen beschikbaar wanneer de parameter **SharePoint-documenttype** juist is geconfigureerd. Zie [Parameters configureren](#SetupBdmParameters) voor meer informatie.
 
 1. Selecteer de optie **Openen in bureaubladtoepassing** om de sjabloon te wijzigen met behulp van de functionaliteit van de Office-bureaubladtoepassing (Excel in dit voor beeld). De bewerkbare sjabloon wordt gekopieerd van de permanente opslag naar de tijdelijke opslag die is geconfigureerd in de parameters voor Beheer van bedrijfsdocumenten als een SharePoint-map.
 2. Bevestig dat u de sjabloon wilt openen vanuit de tijdelijke bestandsopslag in de Office-bureaubladtoepassing Excel.
@@ -411,3 +412,4 @@ Waarschijnlijk bent u aangemeld bij het huidige exemplaar van de app van het Azu
 [Afbeeldingen en vormen insluiten in documenten die u genereert met ER](electronic-reporting-embed-images-shapes.md)
 
 [Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+

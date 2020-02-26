@@ -1,9 +1,9 @@
 ---
-title: Startpagina Nieuw of gewijzigd in Finance and Operations
-description: Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente toepassingen van Finance and Operations.
+title: Startpagina van Nieuwe of gewijzigde functies in Finance and Operations-apps
+description: Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente versies van Finance and Operations-apps.
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,329 +18,31 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: e7a3d32ba9c9ac0f6497db78d125dc34b4cfbc61
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 70901bedff1babadff6586aa2f584db87d71bcc7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811428"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003778"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>Startpagina Nieuw of gewijzigd in Finance and Operations
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Startpagina van Nieuwe of gewijzigde functies in Finance and Operations-apps
 [!include [banner](../includes/banner.md)]
 
-Vanaf oktober 2019 wordt deze pagina niet meer onderhouden. De informatie in dit onderwerp geeft aan waar u functie-informatie kunt vinden voor Finance and Operations-toepassingen die vóór oktober 2019 zijn uitgebracht.
-
-Zie voor informatie over hoe u een upgrade naar de meest recente versie uitvoert [Proces voor overschakeling naar de nieuwste update van Finance and Operations](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 [!include [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Toepassingsversies
 
-In deze tabel worden de belangrijkste versies van de toepassing weergegeven. Zie voor maandelijkse cloudupdates [Lifecycle-beleid voor software en cloudversies](../../dev-itpro/migration-upgrade/versions-update-policy.md).
+Toelichting op wat er nieuw of gewijzigd is in alle versies van een Finance and Operations-app vindt u in de volgende onderwerpen:
 
-<table>
-<thead>
-<tr>
-<th>Vrijgave</th>
-<th>Versie</th>
-<th>Build nr.</th>
-<th>Beschikbaarheid</th>
-<th>Meer informatie</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.5</td>
-<td>10.0.197</td>
-<td>2019 oktober</td>
-<td><a href="whats-new-changed-10-0-5.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 10.0.5 (oktober 2019)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.4</td>
-<td>10.0.136</td>
-<td>Juli 2019</td>
-<td><a href="whats-new-changed-10-0-4.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 10.0.4 (juli 2019)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.3</td>
-<td>10.0.107</td>
-<td>2019 juni</td>
-<td><a href="whats-new-changed-10-0-3.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 10.0.3 (juni 2019)</a></td>
-</tr><tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.2</td>
-<td>10.0.80</td>
-<td>mei 2019</td>
-<td><a href="whats-new-changed-10-0-2.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 10.0.2 (mei 2019)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.1</td>
-<td>10.0.51</td>
-<td>2019 april</td>
-<td><a href="whats-new-changed-10-0-1.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 10.0.1 (april 2019)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0</td>
-<td>10.0.8</td>
-<td>2019 april</td>
-<td><a href="whats-new-changed-10-0-1.md">Wat is nieuw of gewijzigd in Finance and Operations versie 10.0 (april 2019) </a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>8.1.3</td>
-<td>8.1.227</td>
-<td>januari 2019</td>
-<td><a href="whats-new-changed-8-1-3.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 8.1.3 (januari 2019)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>8.1.2</td>
-<td>8.1.195</td>
-<td>2018 december</td>
-<td><a href="whats-new-changed-8-1-2.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 8.1.2 (december 2018)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>8.1.1</td>
-<td>8.1.170</td>
-<td>2018 oktober</td>
-<td><a href="whats-new-changed-8-1-1.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 8.1.1 (oktober 2018)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>8.1</td>
-<td>8.1.136</td>
-<td>2018 oktober</td>
-<td><a href="whats-new-changed-8-1-October-2018.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 8.1 (oktober 2018)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>8.0</td>
-<td>8.0.30, 8.0.35</td>
-<td>2018 april</td>
-<td><a href="whats-new-changed-8-0-April-2018.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 8.0 (april 2018)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>7.3</td>
-<td>7.3.11971.56116</td>
-<td>2017 december</td>
-<td><a href="whats-new-application-7.3-update.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations Enterprise Edition 7.3</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Juli 2017</td>
-<td>7.2.11792.56024</td>
-<td>2017 juni</td>
-<td><a href="whats-new-application-July-2017-update.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations Enterprise Edition (juli 2017)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Operations</td>
-<td>1611</td>
-<td>7.1.1541.3036</td>
-<td>november 2016</td>
-<td><a href="whats-new-dynamics-365-operations-1611.md">Wat is nieuw of gewijzigd in Dynamics 365 for Operations versie 1611 (november 2016)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics AX</td>
-<td>7.0.1</td>
-<td>7.0.1265.23014</td>
-<td>mei 2016</td>
-<td><a href="whats-new-changed-application-version-7-0-1-may-2016.md">Wat is nieuw of gewijzigd in Dynamics AX toepassingsversie 7.0.1 (mei 2016)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics AX</td>
-<td>7.0</td>
-<td>7.0.1265.3015</td>
-<td>2016 februari</td>
-<td><a href="whats-new-changed-7-0-february-2016.md">Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)</a></td>
-</tr>
-</tbody>
-</table>
+- **Finance:** [Nieuwe of gewijzigde functies in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md) 
+- **Supply Chain Management:** [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
+- **Commerce:** [Nieuwe of gewijzigde functies in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)
 
-## <a name="platform-releases"></a>Platformversies
+## <a name="platform-updates"></a>Platformupdates
 
-<table>
-<thead>
-<tr>
-<th>Vrijgave</th>
-<th>Versie</th>
-<th>Build nr.</th>
-<th>Beschikbaarheid</th>
-<th>Meer informatie</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformupdate 29</td>
-<td>7.0.5372</td>
-<td>2019 oktober</td>
-<td><a href="whats-new-platform-update-29.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations-platformupdate 29 (oktober 2019)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformupdate 28</td>
-<td>7.0.5314</td>
-<td>Juli 2019</td>
-<td><a href="whats-new-platform-update-28.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 28 (juli 2019)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformupdate 27</td>
-<td>7.0.5286</td>
-<td>2019 juni</td>
-<td><a href="whats-new-platform-update-27.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 27 (juni 2019)</a></td>
-</tr><tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformupdate 26</td>
-<td>7.0.5257</td>
-<td>mei 2019</td>
-<td><a href="whats-new-platform-update-26.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 26 (mei 2019)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformupdate 25</td>
-<td>7.0.5222</td>
-<td>2019 april</td>
-<td><a href="whats-new-platform-25.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 25 (april 2019)</a></td>
-</tr><tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformupdate 24</td>
-<td>7.0.5179</td>
-<td>2019 maart</td>
-<td><a href="whats-new-platform-update-24.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 24 (maart 2019)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformupdate 23</td>
-<td>7.0.5126</td>
-<td>januari 2019</td>
-<td><a href="whats-new-platform-update-23.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 23 (januari 2019)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformupdate 22</td>
-<td>7.0.5095</td>
-<td>2018 december</td>
-<td><a href="whats-new-platform-update-22.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 22 (december 2018)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformupdate 21</td>
-<td>7.0.5073</td>
-<td>november 2018</td>
-<td><a href="whats-new-platform-update-21.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 21 (november 2018)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platformupdate 20</td>
-<td>7.0.5030</td>
-<td>2018 september</td>
-<td><a href="whats-new-platform-update-20.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations platformupdate 20 (september 2018)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Platformupdate 15</td>
-<td>7.0.4841</td>
-<td>2018 maart</td>
-<td><a href="whats-new-platform-update-15.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise Edition platformupdate 15 (maart 2018)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Platformupdate 12</td>
-<td>7.0.4709</td>
-<td>november 2017</td>
-<td><a href="whats-new-platform-update-12.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise Edition platformupdate 12 (november 2017)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Platformupdate 11</td>
-<td>7.0.4679.35176</td>
-<td>2017 oktober</td>
-<td><a href="whats-new-platform-update-11.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise Edition platformupdate 11 (oktober 2017)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Platformupdate 10</td>
-<td>7.0.4641.16233</td>
-<td>2017 augustus</td>
-<td><a href="whats-new-platform-update-10.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise Edition platformupdate 10 (augustus 2017)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Platformupdate 9</td>
-<td>7.0.4612.35162</td>
-<td>Juli 2017</td>
-<td><a href="whats-new-platform-update-9.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise Edition platformupdate 9 (juli 2017)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Platformupdate 8</td>
-<td>7.0.4565.16212</td>
-<td>2017 juni</td>
-<td><a href="whats-new-platform-update-8.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise Edition platformupdate 8 (juni 2017)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics 365 for Operations</td>
-<td>Platformupdate 7</td>
-<td>7.0.4542.16189</td>
-<td>mei 2017</td>
-<td><a href="whats-new-platform-update-7.md">Wat is nieuw of gewijzigd in Dynamics 365 for Operations platformupdate 7 (mei 2017)</a></td>
-</tr>
-<tr>
-<td>Dynamics 365 for Operations</td>
-<td>Platformupdate 6</td>
-<td>7.0.4509.16180</td>
-<td>2017 april</td>
-<td><a href="whats-new-platform-update-6.md">Wat is nieuw of gewijzigd in Dynamics 365 for Operations platformupdate 6 (april 2017)</a></td>
-</tr>
-<tr>
-<td>Dynamics 365 for Operations</td>
-<td>Platformupdate 5</td>
-<td>7.0.4475.16165</td>
-<td>2017 maart</td>
-<td><a href="whats-new-platform-update-5.md">Wat is nieuw of gewijzigd in Dynamics 365 for Operations platformupdate 5 (maart 2017)</a></td>
-</tr>
-<tr>
-<td>Dynamics 365 for Operations</td>
-<td>Platformupdate 4</td>
-<td>7.0.4425.16161</td>
-<td>2017 februari</td>
-<td><a href="whats-new-platform-update-4.md">Wat is nieuw of gewijzigd in Dynamics 365 for Operations platformupdate 4 (februari 2017)</a></td>
-</tr>
-<tr>
-<td>Dynamics 365 for Operations</td>
-<td>Platformupdate 3</td>
-<td>7.0.4307.16141</td>
-<td>november 2016</td>
-<td><a href="whats-new-platform-update-3.md">Wat is nieuw of gewijzigd in Dynamics 365 for Operations platformupdate 3 (november 2016)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics AX</td>
-<td>Platformupdate 2</td>
-<td>7.0.4230.16130</td>
-<td>2016 augustus</td>
-<td><a href="whats-new-platform-update-2.md">Wat is nieuw of gewijzigd in Dynamics AX platformupdate 2 (augustus 2016)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics AX</td>
-<td>Platformupdate 1</td>
-<td>7.0.4127.16103</td>
-<td>mei 2016</td>
-<td><a href="whats-new-changed-platform-version-7-1-may-2016.md">Wat is nieuw of gewijzigd in Dynamics AX platformupdate 1 (mei 2016)</a></td>
-</tr>
-<tr>
-<td>Microsoft Dynamics AX</td>
-<td>7.0</td>
-<td>7.0.4030.16079</td>
-<td>2016 februari</td>
-<td><a href="whats-new-changed-7-0-february-2016.md">Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)</a></td>
-</tr>
-</tbody>
-</table>
+Informatie over wat er nieuw of gewijzigd is in de platformupdates voor de Finance and Operations-apps vindt u in het volgende onderwerp:
+
+- [Wat is nieuw of gewijzigd in de platformupdates](../../dev-itpro/get-started/whats-new-home-page.md)
+
+

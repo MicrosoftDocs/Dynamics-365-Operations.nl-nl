@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 745a772ec12dff4e40639dbd7df0a713f5869516
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a01201ae4934f6650f85634a230469c6272b36b9
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897782"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006489"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-6-2019"></a>Nieuwe of gewijzigde functies in Dynamics 365 Talent (6 augustus 2019)
 
@@ -59,4 +59,4 @@ Met een nieuwe optie kunnen managers de prestaties van hun directe en indirecte 
 
 ### <a name="platform-update-29-for-finance-and-operations"></a>Platformupdate 29 voor Finance and Operations
 
-Zie voor meer details over Platformupdate 29 voor Finance and Operations [Voorbeeldfuncties in Dynamics 365 Finance and Operations-platformupdate 29 (oktober 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Meer informatie over platformupdate 29 voor Finance and Operations vindt u in [Previewfuncties in Dynamics 365 Finance and Operations-platformupdate 29 (oktober 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771393"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030861"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Een aangepaste opslaglocatie voor gegenereerde documenten opgeven
 
@@ -56,7 +56,7 @@ In de huidige topologie [maakt u een nieuwe ER-indeling](tasks/er-format-configu
 
 Als u wilt opgeven hoe documenten worden doorgestuurd waarmee een ER-indeling wordt gegenereerd, moet u [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md) configureren. In elke ER-bestemming die is geconfigureerd voor het opslaan van gegenereerde documenten zoals bestanden, moet u een documenttype van het raamwerk voor documentbeheer opgeven. Verschillende documenttypen kunnen worden gebruikt om documenten door te sturen waarmee verschillende ER-indelingen worden gegenereerd.
 
-1. Voeg een nieuw [documenttype](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) toe voor de ER-indeling die u eerder hebt gemaakt of geïmporteerd. In de volgende afbeelding is het documenttype **FileX**.
+1. Voeg een nieuw [documenttype](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) toe voor de ER-indeling die u eerder hebt gemaakt of geïmporteerd. In de volgende afbeelding is het documenttype **FileX**.
 2. Als u dit documenttype wilt onderscheiden van andere documenttypen, neemt u een specifiek trefwoord in de naam op. In de volgende afbeelding is de naam bijvoorbeeld **(LOCAL) map**.
 3. Geef in het veld **Klasse** **Bestand bijvoegen** op.
 4. Geef in het veld **Groep** **Bestand** op.
@@ -70,7 +70,7 @@ Als u wilt opgeven hoe documenten worden doorgestuurd waarmee een ER-indeling wo
 
 Controleer de code van de methode **insertFile()** van de klasse **ERDocuManagement**. Merk op dat de gebeurtenis **AttachingFile()** wordt geactiveerd terwijl het gegenereerde bestand aan een record wordt gekoppeld.
 
-```
+```xpp
 /// <summary>
 /// Inserts file as attachment in Document Management.
 /// </summary>
@@ -131,7 +131,7 @@ De gebeurtenis **AttachingFile()** wordt geactiveerd wanneer de volgende ER-best
     1. Sla gegenereerde bestanden op in een map van het lokale bestandssysteem van de server waarop de service Application Object Server (AOS) wordt uitgevoerd.
     2. Sla deze gegenereerde bestanden alleen op als het nieuwe documenttype (bijvoorbeeld het type **FileX** met het trefwoord '(LOCAL)' in de naam) wordt gebruikt terwijl een bestand wordt gekoppeld aan de record in het logboek van de ER-uitvoeringstaak.
 
-    ```
+    ```xpp
     class ERDocuSubscriptionSample
     {
         void new()

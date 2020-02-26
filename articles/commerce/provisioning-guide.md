@@ -1,9 +1,9 @@
 ---
-title: Een preview-omgeving van Commerce inrichten
+title: Een preview-omgeving inrichten voor Dynamics 365 Commerce
 description: In dit onderwerp wordt uitgelegd hoe u een preview-omgeving van Microsoft Dynamics 365 Commerce inricht.
 author: psimolin
 manager: annbe
-ms.date: 01/06/2020
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,28 +18,28 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b77d2cbbc100aeae5dcd53ddbe69ff2e4435da13
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934743"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024631"
 ---
-# <a name="provision-a-commerce-preview-environment"></a>Een preview-omgeving van Commerce inrichten
+# <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Een preview-omgeving inrichten voor Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een preview-omgeving van Microsoft Dynamics 365 Commerce inricht.
+In dit onderwerp wordt uitgelegd hoe u een preview-omgeving voor Dynamics 365 Commerce inricht.
 
-Voordat u begint, is het raadzaam om dit hele onderwerp door te nemen om een idee te krijgen van wat het proces inhoudt en wat dit onderwerp bevat.
+Voordat u begint, kunt u het beste dit onderwerp snel doorlezen om een idee te krijgen van wat nodig is voor het proces.
 
 > [!NOTE]
-> Als u nog geen toegang hebt gekregen tot de preview van Dynamics 365 Commerce, kunt u toegang tot de preview-versie aanvragen via de [website van Commerce](https://aka.ms/Dynamics365CommerceWebsite).
+> Als u nog geen toegang hebt gekregen tot de preview van Dynamics 365 Commerce, kunt u toegang tot de preview-versie aanvragen via de [website van Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite).
 
 ## <a name="overview"></a>Overzicht
 
-Als u uw preview-omgeving van Commerce wilt inrichten, moet u een project maken met een specifieke productnaam en een specifiek producttype. De omgeving en Retail Cloud Scale Unit (RCSU) beschikken ook over specifieke parameters die u moet gebruiken wanneer u e-Commerce later inricht. De instructies in dit onderwerp beschrijven alle vereiste stappen die u moet voltooien en de parameters die u moet gebruiken.
+Als u uw preview-omgeving van Commerce wilt inrichten, moet u een project maken met een specifieke productnaam en een specifiek producttype. De omgeving en Commerce Scale Unit (CSU) beschikken ook over specifieke parameters die u moet gebruiken wanneer u e-Commerce later inricht. De instructies in dit onderwerp beschrijven alle vereiste stappen voor het voltooien van de inrichting en de parameters die u moet gebruiken.
 
 Nadat de inrichting van de preview-omgeving van Commerce is voltooid, moet u een aantal stappen uitvoeren om de preview-omgeving voor te bereiden. Sommige stappen zijn optioneel, afhankelijk van de aspecten van het systeem die u wilt evalueren. U kunt de optionele stappen altijd later voltooien.
 
@@ -52,69 +52,21 @@ Als u vragen hebt over de inrichtingsstappen of als u problemen ondervindt, laat
 Aan de volgende voorwaarden moeten zijn voldaan voordat u uw preview-omgeving van Commerce inricht:
 
 - U hebt toegang tot de Microsoft Dynamics Lifecycle Services-portal (LCS).
+- U bent een bestaande Microsoft Dynamics 365-partner of -klant en kunt een Dynamics 365 Commerce-project maken.
 - U bent geaccepteerd voor het Dynamics 365 Commerce Preview-programma.
-- U hebt de vereiste machtigingen om een project te maken voor **Potentiële presales** uitverkoop of **Migreren, oplossingen maken en informatie over**.
+- U hebt de vereiste machtigingen om een project te maken voor **Migreren, oplossingen maken en informatie over**.
 - U bent lid van de rol **Omgevingsbeheerder** of **Projecteigenaar** in het project waar u de omgeving gaat inrichten.
 - U hebt beheerderstoegang tot uw Microsoft Azure-abonnement of contact met een abonnementsbeheerder die de twee stappen kan uitvoeren waarvoor beheerdersmachtigingen namens u nodig zijn.
 - U hebt uw Azure Active Directory-tenant-id (Azure AD) bij de hand.
 - U hebt een Azure AD-beveiligingsgroep gemaakt om te gebruiken als e-Commerce-systeembeheerdersgroep en u hebt de id bij de hand.
 - U hebt een Azure AD-beveiligingsgroep gemaakt om te gebruiken als moderatorgroep voor beoordelingen en recensies en u hebt de id bij de hand. (Deze beveiligingsgroep kan dezelfde zijn als de systeembeheerdersgroep van e-Commerce.)
 
-### <a name="find-your-azure-ad-tenant-id"></a>Uw Azure AD-tenant-id zoeken
-
-Uw Azure AD-tenant-id is een globale unieke id (GUID) met een indeling zoals **72f988bf-86f1-41af-91ab-2d7cd011db47**.
-
-#### <a name="find-your-azure-ad-tenant-id-by-using-the-azure-portal"></a>Uw Azure AD-tenant-id zoeken via de Azure-portal
-
-1. Meld u aan bij de [Azure-portal](https://portal.azure.com/).
-1. Controleer of u de juiste map hebt geselecteerd.
-1. Selecteer **Azure Active Directory** in het linkermenu.
-1. Selecteer **Eigenschappen** onder **Beheren**. Uw Azure AD-tenant-id wordt weergegeven onder **Directory-id**.
-
-#### <a name="find-your-azure-ad-tenant-id-by-using-openid-connect-metadata"></a>Uw Azure AD-tenant-id zoeken in metagegevens van OpenID Connect
-
-Maak een OpenID-URL door **\{UW\_DOMEIN\}** te vervangen door uw domein, bijvoorbeeld `microsoft.com`. `https://login.microsoftonline.com/{YOUR_DOMAIN}/.well-known/openid-configuration` wordt bijvoorbeeld `https://login.microsoftonline.com/microsoft.com/.well-known/openid-configuration`.
-
-1. Ga naar de OpenID-URL die uw domein bevat.
-
-    U vindt uw Azure AD-tenant-id in meerdere eigenschapswaarden.
-
-1. Ga naar **authorization\_endpoint** en extraheer de GUID direct na `login.microsoftonline.com/`.
-
-### <a name="find-your-azure-ad-security-group-id"></a>De id van uw Azure AD-beveiligingsgroep zoeken
-
-De id van uw Azure AD-beveiligingsgroep is een GUID met een indeling als **436ea7f5-ee6c-40c1-9f08-825c5811066a**.
-
-Bij deze procedure wordt ervan uitgegaan dat u lid bent van de groep waarvoor u de id probeert te vinden.
-
-1. Open de [grafiekverkenner](https://developer.microsoft.com/graph/graph-explorer#).
-1. Selecteer **Aanmelden bij Microsoft** en meld u aan met uw referenties.
-1. Selecteer **Meer voorbeelden weergeven** links.
-1. Schakel **Groepen** in het rechterdeelvenster in.
-1. Sluit het rechterdeelvenster.
-1. Selecteer **Alle groepen waartoe ik behoor**.
-1. Zoek uw groep in het veld **Voorbeeld van antwoord**. De beveiligingsgroep-id wordt weergegeven onder de eigenschap **id**.
-
 ## <a name="provision-your-commerce-preview-environment"></a>Uw preview-omgeving van Commerce inrichten
 
 In deze procedures wordt uitgelegd hoe u een preview-omgeving van Commerce inricht. Als u dit hebt gedaan, is de preview-omgeving van Commerce gereed voor configuratie. Alle activiteiten die hier worden beschreven, vinden plaats in de LCS-portal.
 
 > [!IMPORTANT]
-> Preview-toegang is gekoppeld aan de LCS-account en organisatie die u hebt opgegeven in uw preview-toepassing. U moet dezelfde account gebruiken om de preview-omgeving van Commerce in te richten. Als u een andere LCS-account of tenant voor de preview-omgeving van Commerce moet gebruiken, moet u deze gegevens aan Microsoft verstrekken. Zie de sectie [Ondersteuning voor preview-omgeving van Commerce](#commerce-preview-environment-support) verderop in dit onderwerp voor contactgegevens.
-
-### <a name="grant-access-to-e-commerce-applications"></a>Toegang verlenen tot e-Commerce-toepassingen
-
-> [!IMPORTANT]
-> De persoon die zich aanmeldt, moet een Azure AD-tenantbeheerder met de Azure AD-tenant-id zijn. Als u deze stap niet kunt voltooien, mislukken de resterende inrichtingsstappen ook.
-
-Ga als volgt te werk om e-Commerce-toepassingen te autoriseren voor toegang tot uw Azure-abonnement.
-
-1. Stel een URL in de volgende indeling samen:
-
-    `https://login.windows.net/{AAD_TENANT_ID}/oauth2/authorize?client_id=fbcbf727-cd18-4422-a723-f8274075331a&response_type=code&redirect_uri=https://sb.manage.commerce.dynamics.com/_commerce/Consent&response_mode=query&prompt=admin_consent&state=12345`
-
-1. Kopieer en plak de URL in uw browser of teksteditor en vervang **\{AAD\_TENANT\_ID\}** door uw Azure AD-tenant-id. Open de URL.
-1. Meld u aan in het dialoogvenster voor aanmelding bij Azure AD en bevestig dat u **Dynamics 365 Commerce (preview)** toegang wilt verlenen tot uw abonnement. U wordt omgeleid naar een pagina waarop wordt aangegeven of de bewerking is geslaagd.
+> Preview-toegang is gekoppeld aan de LCS-account en organisatie die u hebt opgegeven in uw Commerce preview-toepassing. U moet dezelfde account gebruiken om de preview-omgeving van Commerce in te richten. Als u een andere LCS-account of tenant voor de preview-omgeving van Commerce moet gebruiken, moet u deze gegevens aan Microsoft verstrekken. Zie de sectie [Ondersteuning voor preview-omgeving van Commerce](#commerce-preview-environment-support) verderop in dit onderwerp voor contactgegevens.
 
 ### <a name="confirm-that-preview-features-are-available-and-turned-on-in-lcs"></a>Controleren of de preview-functies beschikbaar zijn en zijn ingeschakeld in LCS
 
@@ -210,12 +162,12 @@ In de volgende afbeelding ziet u de acties die moeten worden ondernomen op de LC
 Ga als volgt te werk om de omgeving te implementeren.
 
 > [!NOTE]
-> Het is mogelijk dat u de stappen 6, 7 en/of 8 niet hoeft te voltooien, omdat pagina's met één optie worden overgeslagen. Controleer in de weergave **Omgevingsparameters** of u de tekst **Dynamics 365 Commerce (Preview) - Demo (10.0.6 met Platform update 30)** direct boven het veld **Omgevingsnaam** ziet. Zie de afbeelding die na stap 8 wordt weergegeven.
+> Het is mogelijk dat u de stappen 6, 7 en/of 8 niet hoeft te voltooien, omdat pagina's met één optie worden overgeslagen. Controleer in de weergave **Omgevingsparameters** of u de tekst **Dynamics 365 Commerce - Demo (10.0.* x* met Platform update *xx*)** direct boven het veld **Omgevingsnaam** ziet. Zie de afbeelding die na stap 8 wordt weergegeven voor nadere details.
 
 1. Selecteer in het bovenste menu de optie **Cloudomgevingen**.
 1. Selecteer **Toevoegen** om een omgeving toe te voegen.
-1. Selecteer **10.0.6** in het veld **Toepassingsversie**.
-1. Selecteer bij **Platformversie** de optie **Platformupdate 30**.
+1. Selecteer in het veld **Toepassingsversie** de meest recente versie. Als u specifiek een andere toepassingsversie dan de meest recente versie wilt selecteren, moet u geen eerdere versie dan **10.0.8** selecteren.
+1. Gebruik in het veld **Platformversie** de platform versie die automatisch wordt gekozen voor de toepassingsversie die u hebt geselecteerd. 
 
     ![Toepassings- en platformversies selecteren](./media/project1.png)
 
@@ -224,7 +176,7 @@ Ga als volgt te werk om de omgeving te implementeren.
 
     ![De omgevingstopologie 1 selecteren](./media/project2.png)
 
-1. Selecteer **Dynamics 365 Commerce (Preview) - Demo** als de omgevingstopologie. Als u één Azure-connector eerder hebt geconfigureerd, wordt deze gebruikt voor deze omgeving. Als u meerdere Azure-connectors hebt geconfigureerd, kunt u kiezen welke connector u wilt gebruiken: **VS - oost**, **VS - oost 2**, **VS - west**, **VS - west 2**. (Voor de beste end-to-end-prestaties raden we aan **VS - west 2** te selecteren.)
+1. Selecteer **Dynamics 365 Commerce - Demo** als de omgevingstopologie. Als u één Azure-connector eerder hebt geconfigureerd, wordt deze gebruikt voor deze omgeving. Als u meerdere Azure-connectors hebt geconfigureerd, kunt u kiezen welke connector u wilt gebruiken: **VS - oost**, **VS - oost 2**, **VS - west**, **VS - west 2**. (Voor de beste end-to-end-prestaties raden we aan **VS - west 2** te selecteren.)
 
     ![De omgevingstopologie 2 selecteren](./media/project3.png)
 
@@ -241,39 +193,38 @@ Ga als volgt te werk om de omgeving te implementeren.
 
 1. Voordat u verdergaat, moet u controleren of de omgevingsstatus **Geïmplementeerd** is.
 
-### <a name="initialize-rcsu"></a>RCSU initialiseren
+### <a name="initialize-the-commerce-scale-unit-csu"></a>De CSU (Commerce Scale Unit) initialiseren
 
-Ga als volgt te werk om RCSU te initialiseren.
+Ga als volgt te werk om CSU te initialiseren.
 
 1. Selecteer in de weergave **Cloudomgevingen** uw omgeving in de lijst.
 1. Klik op **Volledige details** in de omgevingsweergave rechts. De weergave met omgevingsdetails wordt weergegeven.
 1. Selecteer **Beheren** onder **Omgevingsfuncties**.
-1. Selecteer **Initialiseren** op het tabblad **Retail**. De weergave RCSU-initialisatieparameters wordt weergegeven.
+1. Selecteer **Initialiseren** op het tabblad **Commerce**. De weergave CSU-initialisatieparameters wordt weergegeven.
 1. Kies voor **Regio** de optie **VS - oost**, **VS - oost 2**, **VS - west** of **VS - west 2**.
-1. Selecteer in het veld **Versie** de optie **Een versie opgeven** in de lijst en geef **9.16.19262.5** op in het veld dat wordt weergegeven. Geef de exacte versie op die hier wordt aangegeven. Anders moet u RCSU later bijwerken naar de juiste versie.
+1. Selecteer in het veld **Versie** de optie **Een versie opgeven** in de lijst en geef **9.18.20014.4** op in het veld dat wordt weergegeven. Geef de exacte versie op die hier wordt aangegeven. Anders moet u RCSU later bijwerken naar de juiste versie.
 1. Schakel de optie **Extensie toepassen** in.
 1. Selecteer **Extensie voor Commerce Preview-demobasis** in de lijst met extensies.
 1. Selecteer **Initialiseren**.
-1. Controleer op de bevestigingspagina voor de implementatie of de details juist zijn en klik op **Ja**. U keert terug naar de weergave **Beheer detailhandel** waar het tabblad **Detailhandel** is geselecteerd. Uw RCSU is in de wachtrij geplaatst voor inrichting.
-1. Voordat u verdergaat, moet u controleren of de RCSU-status **Gelukt** is. Initialisatie duurt ongeveer twee tot vijf uur.
+1. Controleer op de bevestigingspagina voor de implementatie of de details juist zijn en klik op **Ja**. De weergave **Commerce-beheer** wordt opnieuw weergegeven, waarbij het tabblad **Commerce** is geselecteerd. Uw CSU is in de wachtrij geplaatst voor inrichting.
+1. Voordat u verdergaat, moet u controleren of de CSU-status **Gelukt** is. Initialisatie duurt ongeveer twee tot vijf uur.
 
 ### <a name="initialize-e-commerce"></a>e-Commerce initialiseren
 
 Ga als volgt te werk om e-Commerce te initialiseren.
 
-1. Controleer op het tabblad **e-Commerce (preview)** de toestemming voor de preview en selecteer vervolgens **Instellen**.
+1. Controleer op het tabblad **e-Commerce** de toestemming voor de preview en selecteer vervolgens **Instellen**.
 1. Voer een naam in bij **Tenantnaam e-Commerce**. Houd er rekening mee dat deze naam wordt weergegeven in sommige URL's die naar uw e-Commerce-exemplaar verwijzen.
-1. Selecteer uw RCSU in de lijst in het veld **Naam Retail Cloud Scale Unit**. (De lijst moet slechts één optie hebben.)
+1. Selecteer in het veld **Naam Commerce Scale Unit** uw CSU in de lijst. (De lijst moet slechts één optie hebben.)
 
     Het veld **Geografie van e-Commerce** wordt automatisch ingevuld en kan niet worden gewijzigd.
 
 1. Selecteer **Volgende** om door te gaan.
 1. Voer in het veld **Ondersteunde hostnamen** een geldig domein in, bijvoorbeeld `www.fabrikam.com`.
-1.  Voer in het veld **AAD-beveiligingsgroep voor systeembeheer** de eerste paar letters in van de naam van de beveiligingsgroep die u wilt gebruiken. Selecteer het pictogram van het vergrootglas om de zoekresultaten weer te geven. Selecteer een beveiligingsgroep in de lijst.
-2.  Voer in het veld **AAD-beveiligingsgroep voor moderator van beoordelingen en recensies** de eerste paar letters in van de naam van de beveiligingsgroep die u wilt gebruiken. Selecteer het pictogram van het vergrootglas om de zoekresultaten weer te geven. Selecteer een beveiligingsgroep in de lijst.
+1.  Voer in het veld **AAD-beveiligingsgroep voor systeembeheer** de eerste paar letters in van de naam van de beveiligingsgroep die u wilt gebruiken. Selecteer het pictogram van het vergrootglas om de zoekresultaten weer te geven. Selecteer de juiste beveiligingsgroep in de lijst.
+2.  Voer in het veld **AAD-beveiligingsgroep voor moderator van beoordelingen en recensies** de eerste paar letters in van de naam van de beveiligingsgroep die u wilt gebruiken. Selecteer het pictogram van het vergrootglas om de zoekresultaten weer te geven. Selecteer de juiste beveiligingsgroep in de lijst.
 1. Laat **Service voor beoordelingen en recensies inschakelen** ingeschakeld.
-1. Als u de stap voor toestemming van Microsoft Azure Active Directory (Azure AD) zoals beschreven in de sectie Toegang verlenen tot e-Commerce-toepassingen al hebt voltooid, schakelt u het selectievakje in om uw toestemming te bevestigen. Als u deze stap nog niet hebt voltooid, moet u dat doen voordat u verdergaat met de initialisatie. Selecteer de koppeling in de tekst naast het selectievakje om het dialoogvenster voor toestemming te openen en de stap te voltooien.
-1. Selecteer **Initialiseren**. U keert terug naar de weergave **Beheer detailhandel** waarin het tabblad **e-Commerce (Preview)** is geselecteerd. De initialisatie van e-Commerce is gestart.
+1. Selecteer **Initialiseren**. De weergave **Commerce-beheer** wordt opnieuw weergegeven, waarbij het tabblad **e-Commerce** is geselecteerd. De initialisatie van e-Commerce is gestart.
 1. Voordat u verdergaat, moet u wachten tot de initialisatiestatus van e-Commerce **Geïnitieerd** is.
 1. Let onder **Koppeling** in de rechterbenedenhoek op de URL's voor de volgende koppelingen en noteer deze:
 
@@ -292,13 +243,13 @@ Zie [Een preview-omgeving van Commerce configureren](cpe-post-provisioning.md) o
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van Commerce preview-omgeving](cpe-overview.md)
+[Omgevingsoverzicht Dynamics 365 Commerce-preview](cpe-overview.md)
 
-[Een preview-omgeving van Commerce configureren](cpe-post-provisioning.md)
+[Een Dynamics 365 Commerce-preview-omgeving configureren](cpe-post-provisioning.md)
 
-[Optionele functies voor een preview-omgeving van Commerce configureren](cpe-optional-features.md)
+[Optionele functies voor een Dynamics 365 Commerce-preview-omgeving configureren](cpe-optional-features.md)
 
-[Veelgestelde vragen over de preview-omgeving van Commerce](cpe-faq.md)
+[Veelgestelde vragen over Dynamics 365 Commerce-preview-omgeving](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -308,4 +259,3 @@ Zie [Een preview-omgeving van Commerce configureren](cpe-post-provisioning.md) o
 
 [Dynamics 365 Commerce-website](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Help-bronnen voor Dynamics 365 Retail](../retail/index.md)

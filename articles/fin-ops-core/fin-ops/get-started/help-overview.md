@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811667"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005698"
 ---
 # <a name="help-system"></a>Help-systeem
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811667"
 Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem. Het Help-systeem wordt gedeeld door de volgende producten:
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 U kunt Help openen vanuit het Help-venster in elk product dat u gebruikt. 
 
@@ -42,7 +42,7 @@ U kunt Help openen vanuit het Help-venster in elk product dat u gebruikt.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Help op docs.microsoft.com
 
-De site docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) is de primaire bron van productdocumentatie voor de hierboven vermelde toepassingen. De site biedt de volgende functies:
+De site docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) is de primaire bron van productdocumentatie voor de hierboven vermelde toepassingen. De site biedt de volgende functies:
 
 - **Toegang tot de meest recente inhoud**: de site biedt ons een snellere en flexibelere manier om productdocumentatie te maken, leveren en bij te werken. Zo helpt het te garanderen dat u toegang tot de meest recente technische informatie hebt.
 - **Inhoud die door deskundigen is geschreven**: de site bevat een uitgebreidere set productdocumentatie die door communityleden in en buiten Microsoft kan worden verbeterd.
@@ -73,7 +73,7 @@ U kunt bijdragen aan en wijzigingen aanbrengen in de documentatie. Om te beginne
 
 De video [Bijdragen aan de Microsoft Dynamics 365-documentatie](https://youtu.be/m5djioozRbg) (zie hierboven) is te vinden op het Microsoft Dynamics 365-kanaal op YouTube.
 
-Raadpleeg voor meer informatie onze [handleiding voor bijdragers](https://docs.microsoft.com/en-us/contribute).
+Raadpleeg voor meer informatie onze [handleiding voor bijdragers](https://docs.microsoft.com/contribute).
 
 > [!NOTE]
 > Op dit moment accepteren we alleen bijdragen aan onze Engelse inhoud.
@@ -106,12 +106,12 @@ Voor toegang tot de Help-inhoud klikt u op het pictogram **Help** (**?**) en kie
 Via het deelvenster Help kunt u artikelen openen die betrekking hebben op de client. Als u het deelvenster Help voor het eerst opent en op het tabblad **Help** klikt, worden de artikelen weergegeven die betrekking hebben op de pagina die nu is geopend. Als er geen artikelen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Wanneer u op een artikel in het deelvenster Help klikt, wordt een nieuw tabblad geopend in de browser en wordt het artikel weergegeven.
 
 > [!IMPORTANT]
-> Deze sectie geldt niet voor Dynamics 365 Talent. Het Help-systeem voor Talent is automatisch gekoppeld aan taakbegeleidingen voor het product. U kunt ook geen aangepaste taakbegeleidingen voor Talent maken.
+> Deze sectie geldt niet voor Dynamics 365 Human Resources. Het Help-systeem voor Human Resources is automatisch verbonden met taakbegeleidingen voor het product. U kunt ook geen aangepaste taakbegeleidingen voor Human Resources maken.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>taakbegeleidingen openen via het deelvenster Help
 
-Voordat u taakbegeleidingen via het deelvenster Help kunt openen, moet een Systeembeheerder naar de pagina **Systeemparameters** in Finance, Supply Chain Management en Retail gaan en enkele instellingen configureren.
+Voordat u taakbegeleidingen via het deelvenster Help kunt openen, moet een systeembeheerder naar de pagina **Systeemparameters** in Finance, Supply Chain Management en Commerce gaan en enkele instellingen configureren.
 
 > [!NOTE]
 > - Voordat u help kunt configureren, moet u zijn aangemeld met een account in de dezelfde tenant als de tenant waarin de app wordt geïmplementeerd.

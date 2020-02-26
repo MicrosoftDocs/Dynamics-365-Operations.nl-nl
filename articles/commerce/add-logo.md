@@ -3,7 +3,7 @@ title: Een logo toevoegen
 description: In dit onderwerp wordt beschreven hoe u een logo aan uw site toevoegt in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23bac9aae6beb59912bbc9e1f2c6958c007550b0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914613"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025681"
 ---
 # <a name="add-a-logo"></a>Een logo toevoegen
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een logo aan uw site toevoegt in Microsoft Dynamics 365 Commerce.
@@ -43,7 +43,7 @@ U kunt een logo direct aan een sjabloon, indeling of pagina toevoegen. Op deze m
 
 Voordat u een logo aan alle pagina's van uw site kunt toevoegen, moet u deze taken uitvoeren.
 
-1. Upload uw logo naar de functie voor het beheren van digitale activa die u opent via de pagina **Activa**.
+1. Upload uw logo naar de mediabibliotheek.
 1. Maak een koptekstfragment. Zie [Werken met fragmenten](work-with-fragments.md) voor meer informatie over het maken en gebruiken van fragmenten.
 1. Neem het koptekstfragment op in de sjabloon die door de pagina's van uw site worden gebruiken voor hun indelings- en moduleopties. Zie [Werken met sjablonen](work-with-templates.md) voor meer informatie over het gebruik van sjablonen.
 
@@ -51,13 +51,11 @@ Voordat u een logo aan alle pagina's van uw site kunt toevoegen, moet u deze tak
 
 Volg deze stappen om een logo toe te voegen aan het koptekstfragment voor uw site.
 
-1. Selecteer in het navigatiedeelvenster aan de linkerkant **Fragmenten** en selecteer vervolgens het koptekstfragment dat u hebt gemaakt.
-2. Selecteer **Uitchecken**.
-3. Vouw het vak **Koptekst** en vervolgens het vak **Logo** uit.
-4. Selecteer de knop met het weglatingsteken (**...**) voor het vak **Logo** en selecteer **Module toevoegen**.
-5. Selecteer de logomodule.
-6. Vervolgens configureert u in het deelvenster Eigenschappen rechts de logomodule.
-7. Sla het koptekstfragment op, check het in en publiceer het.
+1. Selecteer **Paginafragmenten** in het navigatievenster aan de linkerkant.
+1. Selecteer het koptekstfragment dat u eerder hebt gemaakt en selecteer **Bewerken**.
+1. Vouw de koptekstmodule uit.
+1. Geef in het eigenschappenvenster voor de koptekstmodule een afbeelding op en een koppeling voor het logo. 
+1. Sla het koptekstfragment op, voltooi de bewerking ervan en publiceer het fragment.
 
 Als u het bijgewerkte koptekstfragment publiceert, wordt uw logo weergegeven op alle sitepagina's die gebruikmaken van de sjabloon die het koptekstfragment bevat.
 
