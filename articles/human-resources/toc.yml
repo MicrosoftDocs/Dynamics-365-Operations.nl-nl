@@ -5,6 +5,10 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 18 februari 2020
+          href: hr-whats-new-2020-02-18.md
+        - name: 12 februari 2020
+          href: hr-whats-new-2020-02-12.md
         - name: 7 februari 2020
           href: hr-whats-new-2020-02-07.md
         - name: 3 februari 2020
@@ -281,7 +285,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
                     - name: Een werkstroomdocumentklasse maken
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Een SubmitTowerkstroom-klasse maken
+                    - name: Een SubmitToworkflow-klasse maken
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
                     - name: Een werkstroomdocumentklasse koppelen aan een werkstroomtype
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
