@@ -74,7 +74,7 @@
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Gefaseerde implementatie (N-1) installeren, configureren en wijzigen'
                   href: dev-itpro/n-1-installation-configuration.md
-                - name: De Retail-kanaaluitbreiding upgraden naar de meest recente Retail SDK
+                - name: De detailhandelafzetkanaaluitbreiding upgraden naar de meest recente Retail SDK
                   href: dev-itpro/retailSDK-update.md
             - name: Nieuwe of gewijzigde functies
               items:
@@ -166,6 +166,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
                 - name: Opgeslagen weergaven
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: Rastermogelijkheden
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Maken en werken met aangepaste velden
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: PowerApps-apps insluiten
@@ -438,8 +440,6 @@
                   href: configure-call-center-delivery.md
                 - name: Fraudewaarschuwingen instellen en ermee werken
                   href: set-up-fraud-alerts.md
-                - name: Continuïteitsprogramma's instellen voor callcenters
-                  href: set-up-continuity-program.md
             - name: Aanvullende configuratie van afzetkanalen
               items:
                 - name: Een afzetkanaal toevoegen aan een organisatiehiërarchie
@@ -450,6 +450,12 @@
                       href: omni-auto-charges.md
                     - name: Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels
                       href: pro-rate-charges-matching-lines.md
+                - name: Continuïteitsprogramma's beheren
+                  items:
+                    - name: Continuïteitsprogramma's instellen voor callcenters
+                      href: set-up-continuity-program.md
+                    - name: Continuïteitsplanningen definiëren
+                      href: tasks/define-continuity-schedules.md
                 - name: Beheer van detailhandelwinkel
                   items:
                     - name: Openingstijden maken en wijzigen
@@ -460,8 +466,6 @@
                   items:
                     - name: Configureren en werken met orderwachtstanden voor callcenters
                       href: work-with-order-holds.md
-                    - name: Continuïteitsplanningen definiëren
-                      href: tasks/define-continuity-schedules.md
                 - name: Betalingen
                   items:
                     - name: Betalingsmethoden
@@ -478,6 +482,8 @@
                       href: dev-itpro/adyen-connector.md
                     - name: Online betaalmiddelen opslaan met de Adyen-connector
                       href: dev-itpro/adyen-connector-listpi.md
+                    - name: Naadloos overschakelen naar offline bewerkingen voor cadeaukaarten en creditnota's
+                      href: dev-itpro/seamless-offline-improvements.md
                     - name: Scenario's voor het betalen van facturen instellen
                       href: payinvoice.md
                     - name: Voorkomen van dubbele betalingen
@@ -494,9 +500,9 @@
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Detailhandelproducten instellen
                   href: set-up-retail-products.md
-                - name: Producthiërarchie detailhandel
+                - name: Producthiërarchie
                   items:
-                    - name: Detailhandelhiërarchieën
+                    - name: Commerce-hiërarchieën
                       href: retail-hierarchies.md
                     - name: Een nieuwe producthiërarchie maken
                       href: create-product-hierarchy.md
@@ -624,6 +630,12 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: RegeIs en parameters instellen voor het cross-docken en klantlevering
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: Binnenkomende voorraadbewerking in POS
+                      href: pos-inbound-inventory-operation.md
+                    - name: Uitgaande voorraadbewerking in POS
+                      href: pos-outbound-inventory-operation.md
+                    - name: Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen
+                      href: calculated-inventory-retail-channels.md
                 - name: Inkooporders
                   items:
                     - name: Overzicht van inkooporders
@@ -726,6 +738,18 @@
               href: tasks/store-configurations-retail-statements.md
             - name: Online verkopen en betalingen boeken
               href: tasks/posting-online-sales-payments.md
+        - name: Medewerkerstaken beheren
+          items:
+            - name: Overzicht van Taakbeheer
+              href: task-mgmt-overview.md
+            - name: Taakbeheer configureren
+              href: task-mgmt-configure.md
+            - name: Takenlijsten maken en taken toevoegen
+              href: task-mgmt-create-lists.md
+            - name: Takenlijsten toewijzen aan winkels of werknemers
+              href: task-mgmt-assign-lists.md
+            - name: Taakbeheer in POS
+              href: task-mgmt-pos.md
         - name: Uw e-commerce-site beheren
           items:
             - name: Online winkeloverzicht
@@ -880,6 +904,8 @@
                   items:
                     - name: Module met vakje voor kopen
                       href: add-buy-box.md
+                    - name: Beoordelings- en recensiemodules
+                      href: ratings-reviews-modules.md
                 - name: Inkoopmodules
                   items:
                     - name: Winkelwagenmodule
@@ -1056,6 +1082,8 @@
               items:
                 - name: Overzicht van Documentrapportservices
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Ondersteunde lettertypen
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: SSRS configureren voor on-premises implementaties
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Afdrukken
@@ -1740,7 +1768,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/commerce/toc.json
                     - name: Een werkstroomdocumentklasse maken
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/commerce/toc.json
-                    - name: Een SubmitTowerkstroom-klasse maken
+                    - name: Een SubmitToworkflow-klasse maken
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Een werkstroomdocumentklasse koppelen aan een werkstroomtype
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/commerce/toc.json
@@ -1834,8 +1862,6 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Voorbeelden van modules weergeven en fouten in modules opsporen
                       href: e-commerce-extensibility/test-module.md
-                    - name: Fouten in modules opsporen
-                      href: e-commerce-extensibility/debug-modules.md
                     - name: Modules testen met behulp van een dummy
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Modules testen met behulp van dummypagina's
@@ -1976,6 +2002,8 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: Implementatierichtlijnen voor apparaatbeheer
                   href: implementation-considerations-devices.md
+                - name: Gebeurtenissen en afhandelingroutines voor POS-winkelwagenweergave
+                  href: dev-itpro/cart-view-handlers.md
             - name: Uitbreidbaarheid van Hardware Station
               items:
                 - name: Hardware Station en uitbreidbaarheid
@@ -2006,7 +2034,7 @@
                   href: dev-itpro/commerce-runtime-extensibility.md
                 - name: Voorkeurgegevens klant toevoegen aan een kanaaldatabases
                   href: dev-itpro/add-customer-preference-channel.md
-                - name: Geheimen voor Retail-kanalen beheren
+                - name: Geheimen voor detailhandelafzetkanalen beheren
                   href: dev-itpro/manage-secrets.md
                 - name: Eigenschappen toevoegen aan verkooporders
                   href: dev-itpro/add-properties-sales-order.md
@@ -2032,6 +2060,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Uitbreidingsgebeurtenissen vastleggen in Application Insights
                   href: dev-itpro/commerce-application-insights.md
+                - name: Async Commerce-API's (CRT) maken in uw bedrijfslogica
+                  href: dev-itpro/async-commerce-extension.md
             - name: Uitbreidbaarheid betalingsconnector
               items:
                 - name: Betalingsintegratie maken voor een betalingsterminal
@@ -2048,7 +2078,9 @@
                   href: payment-connector-data-fields.md
                 - name: Bescherming tegen dubbele betaling inschakelen voor betalingsconnector
                   href: dev-itpro/duplicate-payment-protection.md
-            - name: Uitbreidbaarheid van e-Commerce van derde
+                - name: Betalingspakket maken voor Toepassingsverkenner in Service Fabric-implementaties
+                  href: dev-itpro/payment-connector-package.md
+            - name: Uitbreidbaarheid van e-commerce van derde
               items:
                 - name: Online winkels configureren
                   href: dev-itpro/configure-online-store.md
@@ -2060,8 +2092,6 @@
               href: dev-itpro/extension-resource-localization.md
     - name: Ontwikkeling en beheer voor Finance and Operations-apps
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: Dynamics 365 Retail
-      href: index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management

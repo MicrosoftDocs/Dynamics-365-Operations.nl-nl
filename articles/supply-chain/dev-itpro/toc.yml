@@ -336,7 +336,7 @@
           href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Updates toepassen op cloudomgevingen
           href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: Updates en uitbreidingen toepassen op in de cloud gehoste Retail-kanaalonderdelen
+        - name: Updates en uitbreidingen toepassen op in de cloud gehoste detailhandelafzetkanaalonderdelen
           href: ../../dev-itpro/deployment/Update-retail-channel.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Retail Cloud Scale Unit initialiseren
           href: ../../dev-itpro/deployment/Initialize-Retail-Channels.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -456,8 +456,6 @@
           items:
             - name: Overzicht van Modellen en gegevensmodelelementen maken
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Richtlijnen voor namen van uitbreidingen
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Modelaanpassingen uitschakelen en functionaliteit afschaffen
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Rapport Aanpassingsanalyse
@@ -1370,7 +1368,7 @@
       items:
         - name: Proces voor overschakeling naar de nieuwste update
           href: ../../dev-itpro/migration-upgrade/upgrade-latest-update.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: Paden naar Eén versie
+        - name: Paden naar één versie
           items:
             - name: Self-service-upgrade naar de meest recente versie
               href: ../../dev-itpro/migration-upgrade/self-service-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
