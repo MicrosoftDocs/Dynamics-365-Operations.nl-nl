@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7fe2cbb5421da3c6dd1d044316b276836c5e5c1
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 45e95751e3adfe6aa208daaba774a349216e1f1f
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917299"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042062"
 ---
-# <span data-ttu-id="8ea4b-103"><a name="INDEX">De ER-functie INDEX</a></span><span class="sxs-lookup"><span data-stu-id="8ea4b-103"><a name="INDEX">INDEX ER function</a></span></span>
+# <span data-ttu-id="ab6c2-103"><a name="INDEX">De ER-functie INDEX</a></span><span class="sxs-lookup"><span data-stu-id="ab6c2-103"><a name="INDEX">INDEX ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8ea4b-104">De functie `INDEX` retourneert een waarde van het type *Container (record)* die wordt geselecteerd op basis van de opgegeven numerieke index in de opgegeven lijst.</span><span class="sxs-lookup"><span data-stu-id="8ea4b-104">The `INDEX` function returns a *Container (record)* value that is selected by using the specified numeric index in the specified list.</span></span> <span data-ttu-id="8ea4b-105">Er wordt een uitzondering gegenereerd als de index zich buiten het bereik van de records in de opgegeven lijst bevindt.</span><span class="sxs-lookup"><span data-stu-id="8ea4b-105">If the index is out of range for the records in the specified list, an exception is thrown.</span></span>
+<span data-ttu-id="ab6c2-104">De functie `INDEX` retourneert een waarde van het type *Container (record)* die wordt geselecteerd op basis van de opgegeven numerieke index in de opgegeven lijst.</span><span class="sxs-lookup"><span data-stu-id="ab6c2-104">The `INDEX` function returns a *Container (record)* value that is selected by using the specified numeric index in the specified list.</span></span> <span data-ttu-id="ab6c2-105">Er wordt een uitzondering gegenereerd als de index zich buiten het bereik van de records in de opgegeven lijst bevindt.</span><span class="sxs-lookup"><span data-stu-id="ab6c2-105">If the index is out of range for the records in the specified list, an exception is thrown.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8ea4b-106">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="8ea4b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ab6c2-106">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="ab6c2-106">Syntax</span></span>
 
-```
+```vb
 INDEX (list, index)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="8ea4b-107">Argumenten</span><span class="sxs-lookup"><span data-stu-id="8ea4b-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="ab6c2-107">Argumenten</span><span class="sxs-lookup"><span data-stu-id="ab6c2-107">Arguments</span></span>
 
-<span data-ttu-id="8ea4b-108">`list`: *Recordlijst*</span><span class="sxs-lookup"><span data-stu-id="8ea4b-108">`list`: *Record list*</span></span>
+<span data-ttu-id="ab6c2-108">`list`: *Recordlijst*</span><span class="sxs-lookup"><span data-stu-id="ab6c2-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="8ea4b-109">Het geldige pad van een gegevensbron van het gegevenstype *Recordlijst*.</span><span class="sxs-lookup"><span data-stu-id="8ea4b-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="ab6c2-109">Het geldige pad van een gegevensbron van het gegevenstype *Recordlijst*.</span><span class="sxs-lookup"><span data-stu-id="ab6c2-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-<span data-ttu-id="8ea4b-110">`index`: *Geheel getal*</span><span class="sxs-lookup"><span data-stu-id="8ea4b-110">`index`: *Integer*</span></span>
+<span data-ttu-id="ab6c2-110">`index`: *Geheel getal*</span><span class="sxs-lookup"><span data-stu-id="ab6c2-110">`index`: *Integer*</span></span>
 
-<span data-ttu-id="8ea4b-111">Een numerieke index die de positie van de gewenste record in de opgegeven lijst aangeeft.</span><span class="sxs-lookup"><span data-stu-id="8ea4b-111">A numeric index that indicates the position of the desired record in the specified list.</span></span>
+<span data-ttu-id="ab6c2-111">Een numerieke index die de positie van de gewenste record in de opgegeven lijst aangeeft.</span><span class="sxs-lookup"><span data-stu-id="ab6c2-111">A numeric index that indicates the position of the desired record in the specified list.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="8ea4b-112">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="8ea4b-112">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ab6c2-112">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="ab6c2-112">Return values</span></span>
 
-<span data-ttu-id="8ea4b-113">*Container (record)*</span><span class="sxs-lookup"><span data-stu-id="8ea4b-113">*Container (record)*</span></span>
+<span data-ttu-id="ab6c2-113">*Container (record)*</span><span class="sxs-lookup"><span data-stu-id="ab6c2-113">*Container (record)*</span></span>
 
-<span data-ttu-id="8ea4b-114">De resulterende recordwaarde.</span><span class="sxs-lookup"><span data-stu-id="8ea4b-114">The resulting record value.</span></span>
+<span data-ttu-id="ab6c2-114">De resulterende recordwaarde.</span><span class="sxs-lookup"><span data-stu-id="ab6c2-114">The resulting record value.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="8ea4b-115">Voorbeeld 1</span><span class="sxs-lookup"><span data-stu-id="8ea4b-115">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="ab6c2-115">Voorbeeld 1</span><span class="sxs-lookup"><span data-stu-id="ab6c2-115">Example 1</span></span>
 
-<span data-ttu-id="8ea4b-116">Als u de gegevensbron **DS** van het type *Berekend veld* invoert en deze de expressie `SPLIT ("A|B|C", "|")` bevat, retourneert de expressie `DS.Value` de tekstwaarde **B** voor de tweede record van deze recordlijst.</span><span class="sxs-lookup"><span data-stu-id="8ea4b-116">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `DS.Value` returns the text value **"B"** for the second record of this record list.</span></span> <span data-ttu-id="8ea4b-117">De expressie `INDEX (SPLIT ("A|B|C", "|"), 2).Value` retourneert ook de tekstwaarde **B**.</span><span class="sxs-lookup"><span data-stu-id="8ea4b-117">The expression `INDEX (SPLIT ("A|B|C", "|"), 2).Value` also returns the text value **"B"**.</span></span>
+<span data-ttu-id="ab6c2-116">Als u de gegevensbron **DS** van het type *Berekend veld* invoert en deze de expressie `SPLIT ("A|B|C", "|")` bevat, retourneert de expressie `DS.Value` de tekstwaarde **B** voor de tweede record van deze recordlijst.</span><span class="sxs-lookup"><span data-stu-id="ab6c2-116">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `DS.Value` returns the text value **"B"** for the second record of this record list.</span></span> <span data-ttu-id="ab6c2-117">De expressie `INDEX (SPLIT ("A|B|C", "|"), 2).Value` retourneert ook de tekstwaarde **B**.</span><span class="sxs-lookup"><span data-stu-id="ab6c2-117">The expression `INDEX (SPLIT ("A|B|C", "|"), 2).Value` also returns the text value **"B"**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="8ea4b-118">Voorbeeld 2</span><span class="sxs-lookup"><span data-stu-id="8ea4b-118">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="ab6c2-118">Voorbeeld 2</span><span class="sxs-lookup"><span data-stu-id="ab6c2-118">Example 2</span></span>
 
-<span data-ttu-id="8ea4b-119">Als u de gegevensbron **DS** van het type *Berekend veld* invoert en deze de expressie `SPLIT ("A|B|C", "|")` bevat, genereert de expressie `INDEX (SPLIT ("A|B|C", "|"), 4).Value` een uitzondering tijdens runtime.</span><span class="sxs-lookup"><span data-stu-id="8ea4b-119">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `INDEX (SPLIT ("A|B|C", "|"), 4).Value` throws an exception at runtime.</span></span>
+<span data-ttu-id="ab6c2-119">Als u de gegevensbron **DS** van het type *Berekend veld* invoert en deze de expressie `SPLIT ("A|B|C", "|")` bevat, genereert de expressie `INDEX (SPLIT ("A|B|C", "|"), 4).Value` een uitzondering tijdens runtime.</span><span class="sxs-lookup"><span data-stu-id="ab6c2-119">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `INDEX (SPLIT ("A|B|C", "|"), 4).Value` throws an exception at runtime.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="8ea4b-120">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="8ea4b-120">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ab6c2-120">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="ab6c2-120">Additional resources</span></span>
 
-[<span data-ttu-id="8ea4b-121">Lijstfuncties</span><span class="sxs-lookup"><span data-stu-id="8ea4b-121">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="ab6c2-121">Lijstfuncties</span><span class="sxs-lookup"><span data-stu-id="ab6c2-121">List functions</span></span>](er-functions-category-list.md)

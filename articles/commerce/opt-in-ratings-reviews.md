@@ -18,49 +18,49 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eda7fbaeea8d3c1a07f7b43cafe44886d149a211
-ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
+ms.openlocfilehash: cbdb69202ebec19f4442041cfb1f99857da36d2e
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027260"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057505"
 ---
-# <a name="opt-in-to-use-ratings-and-reviews"></a><span data-ttu-id="3360d-103">Aanmelden om beoordelingen en recensies te gebruiken</span><span class="sxs-lookup"><span data-stu-id="3360d-103">Opt in to use ratings and reviews</span></span>
+# <a name="opt-in-to-use-ratings-and-reviews"></a><span data-ttu-id="2f43a-103">Aanmelden om beoordelingen en recensies te gebruiken</span><span class="sxs-lookup"><span data-stu-id="2f43a-103">Opt in to use ratings and reviews</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="3360d-104">In dit onderwerp wordt uitgelegd hoe u zich kunt aanmelden voor beoordelingen en recensies op uw Microsoft Dynamics 365 Commerce-site.</span><span class="sxs-lookup"><span data-stu-id="3360d-104">This topic explains how to opt in to use ratings and reviews on your Microsoft Dynamics 365 Commerce site.</span></span>
+<span data-ttu-id="2f43a-104">In dit onderwerp wordt uitgelegd hoe u zich kunt aanmelden voor beoordelingen en recensies op uw Microsoft Dynamics 365 Commerce-site.</span><span class="sxs-lookup"><span data-stu-id="2f43a-104">This topic explains how to opt in to use ratings and reviews on your Microsoft Dynamics 365 Commerce site.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="3360d-105">Overzicht</span><span class="sxs-lookup"><span data-stu-id="3360d-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="2f43a-105">Overzicht</span><span class="sxs-lookup"><span data-stu-id="2f43a-105">Overview</span></span>
 
-<span data-ttu-id="3360d-106">De oplossing voor beoordelingen en recensies is een oplossing voor meerdere kanalen die u beschikbaar kunt maken in Dynamics 365 Commerce met behulp van Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="3360d-106">The ratings and reviews solution is an omni-channel solution that you can make available in Dynamics 365 Commerce by using Microsoft Dynamics Lifecycle Services (LCS).</span></span> <span data-ttu-id="3360d-107">LCS is een beheerportal die door detailhandelaren wordt gebruikt voor het beheren voor hun omgevingen van inrichten tot het uit bedrijf nemen.</span><span class="sxs-lookup"><span data-stu-id="3360d-107">LCS is an administration portal that retailers use to manage their environments from provisioning to decommissioning.</span></span>
+<span data-ttu-id="2f43a-106">De oplossing voor beoordelingen en recensies is een oplossing voor meerdere kanalen die u beschikbaar kunt maken in Dynamics 365 Commerce met behulp van Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="2f43a-106">The ratings and reviews solution is an omni-channel solution that you can make available in Dynamics 365 Commerce by using Microsoft Dynamics Lifecycle Services (LCS).</span></span> <span data-ttu-id="2f43a-107">LCS is een beheerportal die door detailhandelaren wordt gebruikt voor het beheren voor hun omgevingen van inrichten tot het uit bedrijf nemen.</span><span class="sxs-lookup"><span data-stu-id="2f43a-107">LCS is an administration portal that retailers use to manage their environments from provisioning to decommissioning.</span></span>
 
-<span data-ttu-id="3360d-108">Als u de oplossing voor beoordelingen en recensies op uw Commerce-website wilt gebruiken, moet u zich aanmelden voor beoordelingen en recensies tijdens de implementatie van uw e-Commercesite op Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="3360d-108">If you want to use the ratings and reviews solution on your Commerce website, you must opt in for ratings and reviews during deployment of your e-Commerce site on Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="2f43a-108">Als u de oplossing voor beoordelingen en recensies op uw Commerce-website wilt gebruiken, moet u zich aanmelden voor beoordelingen en recensies tijdens de implementatie van uw e-Commercesite op Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="2f43a-108">If you want to use the ratings and reviews solution on your Commerce website, you must opt in for ratings and reviews during deployment of your e-Commerce site on Dynamics 365 Commerce.</span></span>
 
-## <a name="opt-in-to-use-ratings-and-reviews"></a><span data-ttu-id="3360d-109">Aanmelden om beoordelingen en recensies te gebruiken</span><span class="sxs-lookup"><span data-stu-id="3360d-109">Opt in to use ratings and reviews</span></span>
+## <a name="opt-in-to-use-ratings-and-reviews"></a><span data-ttu-id="2f43a-109">Aanmelden om beoordelingen en recensies te gebruiken</span><span class="sxs-lookup"><span data-stu-id="2f43a-109">Opt in to use ratings and reviews</span></span>
 
-<span data-ttu-id="3360d-110">Voer de volgende stappen uit om u aan te melden voor beoordelingen en recensies op uw site.</span><span class="sxs-lookup"><span data-stu-id="3360d-110">To opt in to use ratings and reviews on your site, follow these steps.</span></span>
+<span data-ttu-id="2f43a-110">Voer de volgende stappen uit om u aan te melden voor beoordelingen en recensies op uw site.</span><span class="sxs-lookup"><span data-stu-id="2f43a-110">To opt in to use ratings and reviews on your site, follow these steps.</span></span>
 
-1. <span data-ttu-id="3360d-111">Volg de stappen in [Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="3360d-111">Follow the steps in [Deploy a new e-Commerce site](deploy-ecommerce-site.md).</span></span>
-1. <span data-ttu-id="3360d-112">Terwijl u nog bezig bent in LCS, gaat u naar **Implementatie Retail instellen \> Overige instellingen**.</span><span class="sxs-lookup"><span data-stu-id="3360d-112">While you're still in LCS, go to **Retail deployment setup \> Other settings**.</span></span>
-1. <span data-ttu-id="3360d-113">Stel de optie **Service voor beoordelingen en recensies inschakelen** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="3360d-113">Set the **Enable ratings and reviews service** option to **Yes**.</span></span>
-1. <span data-ttu-id="3360d-114">Voer in het veld **AAD-beveiligingsgroep voor moderator van beoordelingen en recensies (beveiligingsgroepsobject-id)** de id in van de Microsoft Azure Active Directory (Azure AD)-beveiligingsgroep die de moderators voor beoordelingen en recensies bevat.</span><span class="sxs-lookup"><span data-stu-id="3360d-114">In the **AAD security group for ratings and review moderator (security group object id)** field, enter the ID of the Microsoft Azure Active Directory (Azure AD) security group that includes the ratings and reviews moderators.</span></span>
+1. <span data-ttu-id="2f43a-111">Volg de stappen in [Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="2f43a-111">Follow the steps in [Deploy a new e-Commerce site](deploy-ecommerce-site.md).</span></span>
+1. <span data-ttu-id="2f43a-112">Terwijl u nog bezig bent in LCS, gaat u naar **Implementatie Retail instellen \> Overige instellingen**.</span><span class="sxs-lookup"><span data-stu-id="2f43a-112">While you're still in LCS, go to **Retail deployment setup \> Other settings**.</span></span>
+1. <span data-ttu-id="2f43a-113">Stel de optie **Service voor beoordelingen en recensies inschakelen** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="2f43a-113">Set the **Enable ratings and reviews service** option to **Yes**.</span></span>
+1. <span data-ttu-id="2f43a-114">Voer in het veld **AAD-beveiligingsgroep voor moderator van beoordelingen en recensies (beveiligingsgroepsobject-id)** de id in van de Microsoft Azure Active Directory (Azure AD)-beveiligingsgroep die de moderators voor beoordelingen en recensies bevat.</span><span class="sxs-lookup"><span data-stu-id="2f43a-114">In the **AAD security group for ratings and review moderator (security group object id)** field, enter the ID of the Microsoft Azure Active Directory (Azure AD) security group that includes the ratings and reviews moderators.</span></span>
 
     ![Aanmelden om beoordelingen en recensies te gebruiken](media/LCS_RnR_Preference.png)
 
-1. <span data-ttu-id="3360d-116">Voltooi het initialisatieproces voor e-commerce.</span><span class="sxs-lookup"><span data-stu-id="3360d-116">Complete the e-Commerce initialization process.</span></span>
+1. <span data-ttu-id="2f43a-116">Voltooi het initialisatieproces voor e-commerce.</span><span class="sxs-lookup"><span data-stu-id="2f43a-116">Complete the e-Commerce initialization process.</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="3360d-117">Als u een bestaande Dynamics 365 Commerce-klant bent die al een e-Commercesite heeft geïmplementeerd zonder zich bij beoordelingen en recensies te hebben aangemeld en nu beoordelingen en recensies uit het Dynamics 365 Commerce-pakket wil gebruiken, moet u een serviceaanvraag indienen.</span><span class="sxs-lookup"><span data-stu-id="3360d-117">If you are an existing Dynamics 365 Commerce customer who has already deployed an e-Commerce site without having opted in for ratings and reviews and now want to use ratings and reviews from the Dynamics 365 Commerce package, please submit a service request.</span></span> <span data-ttu-id="3360d-118">Zie [Proces voor het indienen van serviceaanvragen](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json) voor informatie over het indienen van een serviceaanvraag.</span><span class="sxs-lookup"><span data-stu-id="3360d-118">For information about how to submit a service request, see [Submit service requests process](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json).</span></span> 
+> <span data-ttu-id="2f43a-117">Als u een bestaande Dynamics 365 Commerce-klant bent die al een e-Commercesite heeft geïmplementeerd zonder zich bij beoordelingen en recensies te hebben aangemeld en nu beoordelingen en recensies uit het Dynamics 365 Commerce-pakket wil gebruiken, moet u een serviceaanvraag indienen.</span><span class="sxs-lookup"><span data-stu-id="2f43a-117">If you are an existing Dynamics 365 Commerce customer who has already deployed an e-Commerce site without having opted in for ratings and reviews and now want to use ratings and reviews from the Dynamics 365 Commerce package, please submit a service request.</span></span> <span data-ttu-id="2f43a-118">Zie [Proces voor het indienen van serviceaanvragen](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json) voor informatie over het indienen van een serviceaanvraag.</span><span class="sxs-lookup"><span data-stu-id="2f43a-118">For information about how to submit a service request, see [Submit service requests process](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json).</span></span> 
 
-## <a name="additional-resources"></a><span data-ttu-id="3360d-119">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="3360d-119">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2f43a-119">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="2f43a-119">Additional resources</span></span>
 
-[<span data-ttu-id="3360d-120">Overzicht beoordelingen en recensies</span><span class="sxs-lookup"><span data-stu-id="3360d-120">Ratings and reviews overview</span></span>](ratings-reviews-overview.md)
+[<span data-ttu-id="2f43a-120">Overzicht beoordelingen en recensies</span><span class="sxs-lookup"><span data-stu-id="2f43a-120">Ratings and reviews overview</span></span>](ratings-reviews-overview.md)
 
-[<span data-ttu-id="3360d-121">Beoordelingen en recensies beheren</span><span class="sxs-lookup"><span data-stu-id="3360d-121">Manage ratings and reviews</span></span>](manage-reviews.md)
+[<span data-ttu-id="2f43a-121">Beoordelingen en recensies beheren</span><span class="sxs-lookup"><span data-stu-id="2f43a-121">Manage ratings and reviews</span></span>](manage-reviews.md)
 
-[<span data-ttu-id="3360d-122">Beoordelingen en recensies configureren</span><span class="sxs-lookup"><span data-stu-id="3360d-122">Configure ratings and reviews</span></span>](configure-ratings-reviews.md)
+[<span data-ttu-id="2f43a-122">Beoordelingen en recensies configureren</span><span class="sxs-lookup"><span data-stu-id="2f43a-122">Configure ratings and reviews</span></span>](configure-ratings-reviews.md)
 
-[<span data-ttu-id="3360d-123">Productbeoordelingen synchroniseren in Dynamics 365 Retail</span><span class="sxs-lookup"><span data-stu-id="3360d-123">Sync product ratings in Dynamics 365 Retail</span></span>](sync-product-ratings.md)
+[<span data-ttu-id="2f43a-123">Productbeoordelingen synchroniseren in Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="2f43a-123">Sync product ratings in Dynamics 365 Commerce</span></span>](sync-product-ratings.md)
 
 
