@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51d344d7b7a792d0cdf3eeb7f5c6e1a9b2b8bf19
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022087"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057932"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Randapparaten aansluiten op het verkooppunt (POS)
 
@@ -43,7 +43,7 @@ Er worden verschillende onderdelen gebruikt voor het definiëren van de relatie 
 
 Navigatie: klik op **Retail en Commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Kassa's**.
 
-De POS-kassa is een entiteit waarmee de kenmerken worden gedefinieerd voor een specifiek POS. Deze kenmerken omvatten het hardwareprofiel of de instellingen voor detailhandelrandapparaten die worden gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen en de visuele ervaring voor de gebruiker die zich bij die kassa aanmeldt.
+De POS-kassa is een entiteit waarmee de kenmerken worden gedefinieerd voor een specifiek POS. Deze kenmerken omvatten het hardwareprofiel of de instellingen voor randapparaten die worden gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen en de visuele ervaring voor de gebruiker die zich bij die kassa aanmeldt.
 
 ### <a name="devices"></a>Apparaten
 
@@ -67,7 +67,7 @@ Een hardwareprofiel identificeert de hardware die is verbonden met een POS-kassa
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navigatie: klik op **Retail en Commerce** &gt; **Kanalen** &gt; **Retail-winkels** &gt; **Alle Retail-winkels**. Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**.
+Navigatie: klik op **Detailhandel en commerce** &gt; **Kanalen** &gt; **Winkels** &gt; **Alle winkels**. Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**.
 
 Een hardwarestation is een exemplaar van de bedrijfslogica die POS-randapparatuur aanstuurt. Een hardwarestations wordt automatisch geïnstalleerd samen met MPOS. Ook kan het hardwarestation worden geïnstalleerd als zelfstandig onderdeel en vervolgens door MPOS of Cloud POS worden geopend via een webservice. Het hardwarestation moet worden gedefinieerd op het kanaalniveau.
 
@@ -87,7 +87,7 @@ Als u MPOS wilt verbinden met POS-randapparaten volgens een traditioneel, vast P
 
 Nadat u het hardwareprofiel hebt toegewezen, synchroniseert u wijzigingen met de kanaaldatabase via de distributieplanning **Kassa's**. Vindt u de distributieplanningen onder **Retail en Commerce** &gt; **Retail en Commerce IT** &gt; **Distributieplanning**. 
 
-Stel vervolgens een "lokaal" hardwarestation in op het kanaal. Klik op **Retail en Commerce** &gt; **Kanalen** &gt; **Retail-winkels** &gt; **Alle Retail-winkels** en selecteer een winkel. 
+Stel vervolgens een "lokaal" hardwarestation in op het kanaal. Klik op **Detailhandel en commerce** &gt; **Afzetkanalen** &gt; **Winkels** &gt; **Alle winkels** en selecteer een winkel. 
 
 Klik vervolgens op het sneltabblad **Hardwarestations** op **Toevoegen** om een hardwarestation toe te voegen. Voer een beschrijving in, voer **localhost** in als hostnaam en synchroniseer vervolgens de wijzigingen met het kanaal via de distributieplanning **Kanaalconfiguratie**. Vindt u de distributieplanningen onder **Retail en Commerce** &gt; **Retail en Commerce IT** &gt; **Distributieplanning**. 
 
@@ -104,7 +104,7 @@ Gebruik tot slot, in MPOS, de bewerking **Hardwarestation selecteren** om het ha
 
 In dit scenario wordt een zelfstandig hardwarestation gedeeld door MPOS- en Cloud POS-clients. In dit scenario moet u een profiel voor een hardwarestation maken om het downloadpakket, de poort en het hardwareprofiel op te geven dat het hardwarestation gebruikt. U kunt het profiel voor een hardwarestation vinden onder **Retail en Commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Profielen van hardwarestation**. 
 
-Nadat u het profiel van een hardwarestation hebt gemaakt, gaat u naar het specifieke Retail-kanaal (**Retail en Commerce** &gt; **Kanalen** &gt; **Winkels** &gt; **Alle winkels**) en voegt u een nieuw hardwarestation toe. Wijs dit nieuwe hardwarestation toe aan het profiel van een hardwarestation dat eerder is gemaakt. 
+Nadat u het profiel van een hardwarestation hebt gemaakt, gaat u naar het specifieke kanaal (**Detailhandel en commerce** &gt; **Afzetkanalen** &gt; **Winkels** &gt; **Alle winkels**) en voegt u een nieuw hardwarestation toe. Wijs dit nieuwe hardwarestation toe aan het profiel van een hardwarestation dat eerder is gemaakt. 
 
 Geef vervolgens een beschrijving op die de kassamedewerker helpt bij het identificeren van het hardwarestation. Voer in het veld **Hostnaam** de URL in van de URL van de hostcomputer. Gebruik de volgende notatie: `https://<MachineName:Port>/HardwareStation`. (Vervang **&lt;Computernaam:Poort&gt;** met de werkelijke computernaam van het hardwarestation en de poort die is opgegeven in het profiel voor het hardwarestation.) Voor een zelfstandig hardwarestation moet u ook de terminal-ID voor elektronische betalingen (EFT) opgeven. Deze waarde identificeert de EFT-terminal die is verbonden met het hardwarestation als de betalingsconnector met de betalingsprovider communiceert. 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024701"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057712"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Een previewomgeving voor Dynamics 365 Commerce configureren
 
@@ -35,7 +35,7 @@ In dit onderwerp wordt uitgelegd hoe u een preview-omgeving van Microsoft Dynami
 
 Voltooi de procedures in dit onderwerp pas nadat uw preview-omgeving van Commerce is ingericht. Zie [Een preview-omgeving van Commerce inrichten](provisioning-guide.md) voor meer informatie over hoe u uw preview-omgeving van Commerce inricht.
 
-Nadat uw preview-omgeving van Commerce end-to-end is ingericht, moeten extra configuratiestappen worden voltooid voordat u kunt beginnen met het evalueren van de omgeving. Als u deze stappen wilt uitvoeren, moet u Microsoft Dynamics Lifecycle Services (LCS) Dynamics 365 Commerce en Dynamics 365 Retail gebruiken.
+Nadat uw preview-omgeving van Commerce end-to-end is ingericht, moeten extra configuratiestappen worden voltooid voordat u kunt beginnen met het evalueren van de omgeving. Als u deze stappen wilt uitvoeren, moet u Microsoft Dynamics Lifecycle Services (LCS) en Dynamics 365 Commerce gebruiken.
 
 ## <a name="before-you-start"></a>Voordat u begint
 
@@ -53,7 +53,7 @@ Nadat uw preview-omgeving van Commerce end-to-end is ingericht, moeten extra con
 
 Ga als volgt te werk om een medewerker te koppelen aan uw identiteit in LCS.
 
-1. Ga in het menu links naar **Modules \> Detailhandel \> Werknemers \> Werknemers**.
+1. Ga in het menu links naar **Modules \> Detailhandel en commerce \> Werknemers \> Medewerkers**.
 1. Zoek en selecteer record **000713 - Andrew Collette**.
 1. Selecteer **Detailhandel** in het actievenster.
 1. Selecteer **Bestaande identiteit koppelen**.
@@ -91,12 +91,12 @@ Ga als volgt te werk om te beginnen met het instellen van uw voorbeeldsite in Co
 1. Laat de waarde van het veld **Pad** ongewijzigd.
 1. Selecteer **OK**. De lijst met pagina's op de site wordt weergegeven.
 
-## <a name="enable-jobs-in-retail"></a>Taken inschakelen in Retail
+## <a name="enable-jobs"></a>Taken inschakelen
 
-Ga als volgt te werk om taken in Retail in te schakelen.
+Ga als volgt te werk om taken in Commerce in te schakelen.
 
 1. Meld u aan bij de omgeving (HQ).
-1. Ga in het menu links naar **Detailhandel \> Query's en rapporten \> Batchtaken**.
+1. Ga in het menu links naar **Detailhandel en commerce \> Query's en rapporten \> Batchtaken**.
 
     De resterende stappen van deze procedure moeten worden voltooid voor elk van de volgende taken:
 
@@ -112,11 +112,11 @@ Ga als volgt te werk om taken in Retail in te schakelen.
     1. Selecteer in het actievenster op het tabblad **Batchtaak** de optie **Status wijzigen**.
     1. Selecteer **Wachten** en vervolgens **OK**.
 
-### <a name="run-full-data-synchronization-in-retail"></a>Volledige gegevenssynchronisatie uitvoeren in Retail
+### <a name="run-full-data-synchronization"></a>Volledige gegevenssynchronisatie uitvoeren
 
-Voer de volgende stappen uit om een volledige gegevenssynchronisatie in Retail uit te voeren.
+Voer de volgende stappen uit om een volledige gegevenssynchronisatie in Commerce uit te voeren.
 
-1. Ga in het menu links naar **Modules \> Detailhandel \> Instelling van hoofdkantoor \> Detailhandel planner \> Kanaaldatabase**.
+1. Ga in het menu links naar **Modules \> Detailhandel en commerce \> Instelling van hoofdkantoor \> Detailhandel planner \> Kanaaldatabase**.
 1. In de lijst links is het kanaal **Standaard** geselecteerd. Selecteer het andere beschikbare kanaal. Dit kanaal heeft de naam **scXXXXXXXXX**.
 1. Selecteer **Volledige gegevenssynchronisatie** in het actievenster.
 1. Voer **9999** in als de distributieplanning.

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1fffc7141c041873f39f716aaf1a775984ef499c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 508fda28d8f815f030e7b163709393f70904a5fd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022075"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057689"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Kiezen tussen Modern POS (MPOS) en Cloud POS
 
@@ -60,7 +60,7 @@ Hoewel MPOS en CPOS grotendeels identiek zijn, zijn er enkele belangrijke versch
 MPOS op een Windows-, iOS- of Android-apparaat is een toepassing die wordt verpakt voor en geïnstalleerd en onderhouden op dat apparaat.
 
 - **Windows**: de MPOS-toepassing voor Windows bevat alle toepassingscode en de ingesloten CRT (commerce runtime). 
-- **iOS/Android**: op deze platforms fungeert de toepassing als host voor de CPOS-toepassingscode. Met andere woorden, de toepassingscode wordt opgehaald van de CPOS-server op Microsoft Azure of de Commerce Scale Unit. Zie voor meer informatie [Retail Store Scale Unit -overzicht](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android**: op deze platforms fungeert de toepassing als host voor de CPOS-toepassingscode. Met andere woorden, de toepassingscode wordt opgehaald van de CPOS-server op Microsoft Azure of de Commerce Scale Unit. Zie voor meer informatie [Overzicht van Commerce Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 

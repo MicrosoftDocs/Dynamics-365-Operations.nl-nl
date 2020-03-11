@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024724"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057735"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Optionele functies voor een Dynamics 365 Commerce-previewomgeving configureren
 
@@ -63,8 +63,8 @@ Als u functies voor beheer van digitale activa wilt evalueren door nieuwe Omnich
 
 ### <a name="update-the-media-base-url"></a>De basis-URL voor media bijwerken
 
-1. Meld u aan bij Dynamics 365 Retail.
-1. Ga in het menu links naar **Modules \> Detailhandel \> Afzetkanaalinstellingen \> Afzetkanaalprofielen**.
+1. Meld u aan bij Dynamics 365 Commerce.
+1. Ga in het menu links naar **Modules \> Detailhandel en commerce \> Afzetkanaalinstellingen \> Afzetkanaalprofielen**.
 1. Selecteer **Bewerken**.
 1. Vervang onder **Profieleigenschappen** de waarde voor **Basis-URL voor mediaserver** door de basis-URL voor media die u eerder hebt gemaakt.
 1. Selecteer het andere kanaal in de lijst aan de linkerkant, onder het **standaardkanaal**.
@@ -77,7 +77,7 @@ Als u functies voor beheer van digitale activa wilt evalueren door nieuwe Omnich
 > [!NOTE]
 > De SMTP-server of e-mailservice die u hier invoert, moet toegankelijk zijn vanuit het Azure-abonnement dat u voor de omgeving gebruikt.
 
-1. Meld u aan bij Retail.
+1. Meld u aan bij Commerce.
 1. Ga in het menu links naar **Modules \> Systeembeheer \> Instellingen \> E-mail \> E-mailparameters**.
 1. Voer op het tabblad **SMTP-instellingen** in het veld **Naam SMTP-relaisserver** de FQDN-naam of het IP-adres in van de SMTP-server of e-mailservice.
 1. Voer in het veld **SMTP-poortnummer** het poortnummer in. (Als u SSL \[Secure Sockets Layer \] gebruikt, is het standaardpoortnummer **25**.)
@@ -92,7 +92,7 @@ Als u functies voor beheer van digitale activa wilt evalueren door nieuwe Omnich
 
 Voor elke transactionele gebeurtenis waarvoor u e-mailberichten wilt verzenden, moet u de e-mailsjabloon bijwerken met een geldig e-mailadres van de afzender.
 
-1. Meld u aan bij Retail.
+1. Meld u aan bij Commerce.
 1. Ga in het menu links naar **Modules \> Organisatiebeheer \> Instellingen \> E-mailsjablonen van organisatie**.
 1. Selecteer **Lijst weergeven**.
 1. Volg deze stappen voor elke sjabloon in de lijst:
@@ -115,7 +115,7 @@ Mogelijk wilt u de e-mailsjablonen aanpassen zodat deze verschillende afbeelding
     - Sjabloon voor orderverzameling
 
 1. Pas de sjablonen aan met een tekst- of HTML-editor. Zie de lijst met [ondersteunde tokens](#supported-tokens-in-the-email-template) verderop in dit onderwerp.
-1. Meld u aan bij Retail.
+1. Meld u aan bij Commerce.
 1. Ga in het menu links naar **Modules \> Organisatiebeheer \> Instellingen \> E-mailsjablonen van organisatie**.
 1. Vouw de lijst links uit om alle sjablonen te bekijken.
 1. Voer de volgende stappen uit voor elke sjabloon die u wilt aanpassen:

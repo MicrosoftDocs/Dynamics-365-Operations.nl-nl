@@ -3,7 +3,7 @@ title: Startpagina van Nieuwe of gewijzigde functies in Finance and Operations-a
 description: Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente versies van Finance and Operations-apps.
 author: josaw1
 manager: AnnBe
-ms.date: 01/31/2020
+ms.date: 02/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 70901bedff1babadff6586aa2f584db87d71bcc7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 39f72c534c7179f4535e6eb8a31ef7e9b72b7b88
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003778"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076022"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Startpagina van Nieuwe of gewijzigde functies in Finance and Operations-apps
 [!include [banner](../includes/banner.md)]
@@ -38,11 +38,17 @@ Toelichting op wat er nieuw of gewijzigd is in alle versies van een Finance and 
 - **Finance:** [Nieuwe of gewijzigde functies in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md) 
 - **Supply Chain Management:** [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce:** [Nieuwe of gewijzigde functies in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)
+- **Human Resources:** [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Platformupdates
 
 Informatie over wat er nieuw of gewijzigd is in de platformupdates voor de Finance and Operations-apps vindt u in het volgende onderwerp:
 
-- [Wat is nieuw of gewijzigd in de platformupdates](../../dev-itpro/get-started/whats-new-home-page.md)
+- [Nieuwe of gewijzigde functies in Platformupdates](../../dev-itpro/get-started/whats-new-home-page.md)
+
+## <a name="lifecycle-services-releases"></a>Lifecycle Services-releases
+Een toelichting op wat er nieuw of gewijzigd is in Lifecycle Services vindt u in het volgende onderwerp:
+
+- [Nieuwe of gewijzigde functies in Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 

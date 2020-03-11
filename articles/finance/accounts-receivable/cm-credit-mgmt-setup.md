@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02d7e2238e58098428397121de848a1947a991ad
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015177"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071655"
 ---
 # <a name="credit-management-parameters-setup"></a>Parameters voor kredietbeheer instellen
 
@@ -38,8 +38,8 @@ Er zijn vier sneltabbladen waar u de parameters voor kredietbeheer kunt wijzigen
 - Stel de optie **Toestaan dat verkooporderwaarde wordt bewerkt nadat orderwachtstand is vrijgegeven** in op **Ja** om te vereisen dat de boekingsregels opnieuw worden gecontroleerd als de verkooporderwaarde (de berekende prijs) wordt gewijzigd nadat de verkooporder is vrijgegeven vanuit de wachtstandenlijst. .
 - Selecteer in het veld **Redenen voor geannuleerde orders** de reden van de vrijgave die standaard wordt gebruikt wanneer een verkooporder wordt geannuleerd die in de wachtstand voor kredietbeheer stond.
 - Stel de optie **Kredietlimiet van kredietgroepen van klant controleren** in op **Ja** als u de kredietlimiet van een kredietgroep van klant wilt controleren wanneer de klant voor een verkooporder tot een kredietgroep van klant behoort. De kredietlimiet voor de groep wordt gecontroleerd en als deze voldoende is, wordt de kredietlimiet voor de klant gecontroleerd.
-- Stel de optie **Kredietlimiet controleren wanneer betalingsvoorwaarden veranderen** in op **Ja** als u wilt dat de classificatie van de betalingsvoorwaarden wordt gecontroleerd om na te gaan of de nieuwe betalingsvoorwaarden verschillen van die op de oorspronkelijke verkooporder. Als de nieuwe betalingsvoorwaarden een hogere classificatie hebben dan de oorspronkelijke betalingsvoorwaarden, wordt de order in de wachtstand voor kredietbeheer geplaatst.
-- Stel de optie **Kredietlimiet controleren wanneer een betalingskorting verandert** in op **Ja** als u wilt dat de classificatie van de betalingskorting wordt gecontroleerd om na te gaan of de nieuwe betalingskorting verschilt van die op de oorspronkelijke verkooporder. Als de nieuwe betalingskorting een hogere classificatie heeft dan de oorspronkelijke betalingskorting, wordt de order in de wachtstand voor kredietbeheer geplaatst.
+- Stel de optie **Kredietlimiet controleren wanneer betalingsvoorwaarden veranderen** in op **Ja** als u wilt dat de classificatie van de betalingsvoorwaarden wordt gecontroleerd om na te gaan of de betalingsvoorwaarden op de verkooporder verschillen van de standaardbetalingsvoorwaarden voor de klant. Als de nieuwe betalingsvoorwaarden een hogere classificatie hebben dan de oorspronkelijke betalingsvoorwaarden, wordt de order in de wachtstand voor kredietbeheer geplaatst.
+- Stel de optie **Kredietlimiet controleren wanneer een betalingskorting verandert** in op **Ja** als u wilt dat de classificatie van de betalingskorting wordt gecontroleerd om na te gaan of de contantkorting op de verkooporder verschilt van de standaardcontantkorting voor de klant. Als de nieuwe betalingskorting een hogere classificatie heeft dan de oorspronkelijke betalingskorting, wordt de order in de wachtstand voor kredietbeheer geplaatst.
 - Selecteer in het veld **Reden voor het vrijgeven van gewijzigde orders** de reden voor vrijgave die standaard wordt gebruikt wanneer gewijzigde orders automatisch worden vrijgegeven uit de wachtstand voor kredietbeheer.
 - Stel de optie **Blokkeerregel Kredietlimiet verlopen negeren wanneer vervaldatum leeg is** in op **Ja** als u het gedrag van de regel **Kredietlimiet verlopen** wilt beheren. Stel de optie in op **Nee** als u een order wilt blokkeren wanneer de vervaldatum leeg is.
 - In Magazijnbeheer kunnen ladingen worden gemaakt op het moment dat de verkooporder wordt ingevoerd. Stel de optie **Geblokkeerde ladingsregels verwijderen** in op **Nee** als u verkooporderregels op de lading wilt laten staan wanneer een verkooporder in de kredietwachtstand staat. De lading kan niet worden verwerkt terwijl de verkooporder in de wachtstand staat. Stel de optie in op **Ja** als u verkooporderregels uit de lading wilt verwijderen wanneer een verkooporder in de kredietwachtstand staat. De lading kan dan worden verwerkt.

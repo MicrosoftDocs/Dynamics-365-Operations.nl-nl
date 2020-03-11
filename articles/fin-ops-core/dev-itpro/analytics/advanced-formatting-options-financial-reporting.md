@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a46ff0a1d6e29cc567a86fae60ff803a102d1a2e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181215"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071585"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Geavanceerde opmaakopties in financiële rapportage
 
@@ -216,7 +216,7 @@ In dit voorbeeld betekent de berekeningsformule **@100+@330** dat het bedrag in 
 Wanneer de rij in een rijdefinitie de opmaakcode **CAL** heeft en u een rekenkundige berekening in de cel **Gerelateerde formules/rijen/eenheden** invoert, moet u de letter van de gekoppelde kolom en rij ook invoeren op het rapport. Voer bijvoorbeeld **A.120** in voor kolom A, rij 120. U kunt ook een apenstaartje (@) gebruiken om alle kolommen aan te geven. Voer bijvoorbeeld **@120** in voor alle kolommen in rij 120. Een wiskundige berekening die geen kolomletter of een apenstaartje (@) bevat, wordt beschouwd als een reëel getal.
 
 > [!NOTE]
-> Als u een labelrijcode gebruikt om naar een rij te verwijzen, moet u een punt (.) gebruiken als scheidingsteken tussen de kolomletter en het label (bijvoorbeeld **A.GROSSMARGIN\_A.SALES**). Als u een @-teken gebruikt, is een scheidingsteken niet vereist (bijvoorbeeld **@GROSS\__MARGIN/@SALES**).
+> Als u een labelrijcode gebruikt om naar een rij te verwijzen, moet u een punt (.) gebruiken als scheidingsteken tussen de kolomletter en het label (bijvoorbeeld **A.GROSSMARGIN\_A.SALES**). Als u een @-teken gebruikt, is een scheidingsteken niet vereist (bijvoorbeeld **\@GROSS\_MARGIN/@SALES**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Voorbeeld van een berekeningsformule voor een specifieke kolom
 

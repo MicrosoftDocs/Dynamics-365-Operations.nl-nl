@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773640"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080767"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Aangepaste velden voor de app Microsoft Dynamics 365 Project Timesheet implementeren in iOS en Android
 
@@ -183,7 +183,7 @@ In het volgende voorbeeld wordt een tekenreeksveld voor tijdsinvoeren weergegeve
 
 U kunt de methode **TSTimesheetCustomField::newFromMetatdata()** gebruiken om de initialisatie van de eigenschappen van aangepaste velden te vereenvoudigen: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** en **numberOfDecimals**. U kunt deze parameters ook handmatig instellen, zoals u wilt.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 De methode **buildCustomFieldListForEntry** wordt gebruikt om waarden in te voeren op de opgeslagen urenstaatregels in de mobiele app. Een TSTimesheetTrans-record wordt als parameter gebruikt. Velden uit deze record kunnen worden gebruikt om de waarde voor het aangepaste veld in de app in te vullen.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ Als u een aangepast veld op de normale wijze weer in de database wilt opslaan, m
 > [!NOTE]
 > In het volgende voorbeeld wordt de door de gebruiker geselecteerde waarde **firstOption** of **secondOption** als onbewerkte tekenreekswaarde opgeslagen in de database. Als het databaseveld een veld van het type **Opsomming** is, kunnen deze waarden handmatig worden toegewezen aan een opsommingswaarde en vervolgens worden opgeslagen in een opsommingsveld in de databasetabel.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ Met deze code bepaalt u de weergave-instellingen voor het veld in de app. U bepa
 
 In het volgende voorbeeld wordt een berekende waarde in de koptekstsectie van de app weergegeven.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 De methode **buildCustomFieldListForHeader** wordt gebruikt om koptekstdetails voor urenstaten in te vullen in de mobiele app. Een TSTimesheetTable-record wordt als parameter gebruikt. Velden uit deze record kunnen worden gebruikt om de waarde voor het aangepaste veld in de app in te vullen. In het volgende voorbeeld worden geen waarden gelezen uit de database. In plaats daarvan wordt X + +-logica gebruikt om een berekende waarde te genereren die vervolgens wordt weergegeven in de app.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

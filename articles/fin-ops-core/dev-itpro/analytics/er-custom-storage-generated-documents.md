@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 98c08ae2ab4c7cceadb6caaf98fa431e56be4b97
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030861"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042729"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Een aangepaste opslaglocatie voor gegenereerde documenten opgeven
 
@@ -69,6 +69,7 @@ Als u wilt opgeven hoe documenten worden doorgestuurd waarmee een ER-indeling wo
 ## <a name="review-source-code"></a>Broncode controleren
 
 Controleer de code van de methode **insertFile()** van de klasse **ERDocuManagement**. Merk op dat de gebeurtenis **AttachingFile()** wordt geactiveerd terwijl het gegenereerde bestand aan een record wordt gekoppeld.
+
 
 ```xpp
 /// <summary>

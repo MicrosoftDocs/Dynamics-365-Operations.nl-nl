@@ -18,25 +18,36 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9ae80dd92fdb0ec4b33c2e42d4b6ec264aaf62de
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: f36aba8a68ea8cc261423f79db00e175df1cf349
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008689"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075943"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Nieuwe of gewijzigde functies in Human Resources
 
-Elke week brengen we een nieuwe release uit voor Microsoft Dynamics Human Resources. De artikelen in deze sectie beschrijven de wijzigingen die elke week worden aangebracht.
+Elke week brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De artikelen in deze sectie beschrijven de wijzigingen die elke week worden aangebracht.
 
-Zie de volgende bronnen voor meer informatie over geplande nieuwe functies of het updateproces voor Human Resources:
+Zie het volgende artikel voor meer informatie over geplande nieuwe functies of het updateproces voor Human Resources:
 
 - [Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
-- [Updateproces](hr-admin-setup-update-process.md)
+- [Het updateproces](hr-admin-setup-update-process.md)
 
 - [Functies beheren](hr-admin-manage-features.md)
 
-## <a name="whats-new-weekly-releases"></a>Nieuwe wekelijkse releases
+## <a name="human-resources-weekly-releases"></a>Wekelijkse releases van Human Resources
 
+Zie de volgende artikelen voor wat er nieuw of gewijzigd is in elke wekelijkse versies van Human Resources:
+
+[18 februari 2020](hr-whats-new-2020-02-18.md)</br>
+[12 februari 2020](hr-whats-new-2020-02-12.md)</br>
+[7 februari 2020](hr-whats-new-2020-02-07.md)</br>
 [3 februari 2020](hr-whats-new-2020-02-03.md)
+
+## <a name="see-also"></a>Zie ook
+
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Het updateproces](hr-admin-setup-update-process.md)</br>
+[Functies beheren](hr-admin-manage-features.md)

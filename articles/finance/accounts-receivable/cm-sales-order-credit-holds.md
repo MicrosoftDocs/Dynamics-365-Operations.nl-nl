@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015180"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057665"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Kredietblokkeringen voor verkooporders
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ Verkooporders die geforceerd zijn geblokkeerd, kunnen niet met workflow worden v
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>Orders vrijgeven die aan de blokkeringslijst van kredietbeheer zijn toegevoegd met een geforceerde kredietblokkering
 Verkooporders met een geforceerde blokkeringsreden kunnen niet automatisch worden vrijgegeven. Als de verkooporder geforceerd is geblokkeerd en u hebt een proces gebruikt waarmee verkooporders automatisch worden vrijgegeven, wordt de verkooporder weergegeven als **Gereed voor vrijgave** en blijft deze in de blokkeringslijst staan. U moet het menu **Vrijgeven** gebruiken om de order vrij te geven.
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>Ondersteuning voor vrije-tekst facturen, detailhandelorders en projectfacturen in kredietbeheer 
-Kredietbeheer kan momenteel alleen worden gebruikt voor verkooporders. Vrije-tekst facturen, Retail POS-verkooporders en Callcenter-orders gebruiken de tijdelijke kredietlimieten en verzekering/garanties die u toevoegt om de kredietlimiet aan te passen. Ze maken geen gebruik van de blokkeringsregels en ze worden niet in de blokkeringslijst geplaatst als er een probleem is met de kredietlimiet.
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>Ondersteuning voor vrije-tekst facturen, orders en projectfacturen in kredietbeheer 
+Kredietbeheer kan momenteel alleen worden gebruikt voor verkooporders. Vrije-tekst facturen, POS-verkooporders en Callcenter-orders gebruiken de tijdelijke kredietlimieten en verzekering/garanties die u toevoegt om de kredietlimiet aan te passen. Ze maken geen gebruik van de blokkeringsregels en ze worden niet in de blokkeringslijst geplaatst als er een probleem is met de kredietlimiet.
 
 Er is geen ondersteuning voor projectfacturen in kredietbeheer.

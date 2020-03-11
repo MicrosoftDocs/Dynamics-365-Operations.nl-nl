@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b4ee6b128e473d0999885f1cb1b4dbb015026c4e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022147"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057204"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Fraudewaarschuwingen van callcenters instellen en gebruiken
 
@@ -54,6 +54,7 @@ Gebruik tot slot het veld **Type fraudeopmerking** om het documenttype op te gev
 Het systeem verwijst naar twee soorten fraudecriteria om te controleren of een order in de wachtstand moet worden geplaatst voor fraudebeoordeling:
 
 - **Statische fraudegegevens** gebruikt een specifieke waarde, zoals een telefoonnummer dat in een lijst met geblokkeerde nummers is geplaatst of een e-mailadres dat is gemarkeerd omdat bekend is dat het eerder is gebruikt voor frauduleuze transacties. Als u statische fraudegegevens wilt instellen, gaat u naar **Detailhandel en commerce** \> **Kanaalinstellingen** \> **Instellingen van callcenter** \> **Fraude** \> **Statische fraudegegevens**. Op de pagina **Statische fraudegegevens** kunt u fraudecriteria handmatig of via gegevensimport toevoegen. Scores worden gekoppeld aan de frauduleuze informatie. Als de fraudecontrolefunctie is ingeschakeld, wordt elke verkooporder die wordt ingevoerd, vergeleken met de statische gegevens. Als de gegevens worden gevonden in het factureringsadres van de klant of het leveringsadres dat is gekoppeld aan de orderkop, of als de gegevens worden gevonden in de leveringsadressen die zijn gekoppeld aan regels in die verkooporder, worden de scores van alle overeenkomsten opgeteld en vergeleken met de waarde **Minimale score** om te bepalen of de order in de wachtstand moet worden geplaatst.
+
 - **Frauderegels** bestaan uit door de gebruiker gedefinieerde variabelen en de voorwaarden die zijn gedefinieerd voor die variabelen. Als regels wilt maken, gaat u naar **Detailhandel en commerce** \> **Kanaalinstellingen** \> **Instellingen van callcenter** \> **Fraude** \> **Regels**. Met frauderegels kan een bedrijf een complexere regelset configureren die **AND**- of **OR**-instructies kan bevatten voor het evalueren van meerdere voorwaarden. Een gebruiker wil bijvoorbeeld dat alle orders voor klanten die behoren tot een bepaalde klantgroep en die een specifiek product hebben besteld, in de wachtstand worden geplaatst voor fraudecontrole. In dit geval worden de voorwaarden voor het valideren van de klant en de producten gedefinieerd op de pagina **Regels**, en wordt een AND-voorwaarde gebruikt. Een order wordt vervolgens alleen in de wachtstand geplaatst als beide voorwaarden waar zijn en als de scorewaarde die aan deze regel wordt toegewezen, plus de scorewaarde van andere regels waarmee de order overeenkomt, ertoe leidt dat de totale fraudescore van de order de waarde **Minimale score** overschrijdt die is gedefinieerd op de pagina **Parameters van callcenter**.
 
 > [!NOTE]

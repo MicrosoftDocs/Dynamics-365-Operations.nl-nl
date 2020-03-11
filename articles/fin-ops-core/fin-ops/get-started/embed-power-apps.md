@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 9585d5a399ebf45b0ad7640f3c4e48d8afc46cd8
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017723"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042937"
 ---
 # <a name="embed-microsoft-power-apps"></a>Microsoft Power Apps insluiten
 
@@ -55,7 +55,7 @@ De volgende instructies laten zien hoe u een app van Power Apps insluit in de we
 
     - Het veld **Naam** geeft de weergegeven tekst aan voor de knop of het tabblad met de ingesloten app. Vaak zult u de naam van de app in dit veld willen herhalen.
     - **App-id** is de GUID voor de app die u wilt insluiten. Als u deze waarde wilt ophalen, gaat u naar de app op [web.powerapps.com](https://web.powerapps.com) en zoekt u het veld **App-id** onder **Details**.
-    - Voor **Context invoeren voor de app** kunt u eventueel het veld selecteren dat de gegevens bevat die u als invoer wilt doorgeven aan de app. Raadpleeg de sectie [Apps bouwen die gebruikmaken van gegevens uit Finance and Operations-apps](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) verderop in dit onderwerp voor meer informatie over hoe de app toegang krijgt tot gegevens uit Finance and Operations-apps.
+    - Voor **Context invoeren voor de app** kunt u eventueel het veld selecteren dat de gegevens bevat die u als invoer wilt doorgeven aan de app. Raadpleeg de sectie [Een app bouwen die gebruikmaakt van gegevens die vanuit Finance and Operations-apps zijn verzonden](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps) verderop in dit onderwerp voor meer informatie over hoe de app toegang krijgt tot gegevens uit Finance and Operations-apps.
     - Kies de **Toepassingsgrootte** die overeenkomt met het type app dat u insluit. Selecteer **Dun** voor apps voor mobiele apparaten en **Breed** voor apps voor tablets. Zo zorgt u dat voldoende schijfruimte wordt gereserveerd voor de ingesloten app.
     - Het sneltabblad **Rechtspersonen** biedt de mogelijkheid om te kiezen voor welke rechtspersonen de app beschikbaar is. De standaardwaarde is dat de app voor alle rechtspersonen toegankelijk is. Deze optie is alleen beschikbaar als de functie [Opgeslagen weergaven](saved-views.md) is uitgeschakeld. 
 
@@ -76,7 +76,7 @@ Een belangrijk onderdeel van het bouwen van een app van Power Apps die wordt ing
 
 Voor de functie OnStart van de app kunt u de invoergegevens van Finance and Operations-apps bijvoorbeeld instellen op een variabele als hieronder:
 
-```
+```powerapps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
@@ -101,7 +101,7 @@ Ga als volgt te werk om de configuratie van een ingesloten app te bewerken:
 
 Nadat een app is ingesloten op een pagina, zijn er twee manieren om deze te verwijderen:
 
-- Ga naar het deelvenster **Een app bewerken** aan de hand van de instructies in [Een ingesloten app bewerken](#editing-an-embedded-power-app) hierboven. Bevestig dat het deelvenster de informatie bevat voor de ingesloten app die u wilt verwijderen en klik op de knop **Verwijderen**.
+- Ga naar het deelvenster **Een app bewerken** aan de hand van de instructies in [Een ingesloten app bewerken](#editing-an-embedded-app) hierboven. Bevestig dat het deelvenster de informatie bevat voor de ingesloten app die u wilt verwijderen en klik op de knop **Verwijderen**.
 - Omdat de ingesloten app wordt opgeslagen als persoonlijke gegevens, worden bij het wissen van aanpassingen op uw pagina ook eventuele ingesloten apps op die pagina verwijderd. Houd er rekening mee dat het wissen van de aanpassingen van de pagina definitief is. Als u uw aanpassingen op een pagina wilt verwijderen, selecteert u **Opties** en klikt u op **Deze pagina aanpassen** en tot slot op de knop **Wissen**. Na het vernieuwen van uw browser worden alle vorige aanpassingen voor deze pagina verwijderd. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie over het optimaliseren van pagina's met aanpassingen.
 
 ## <a name="appendix"></a>Bijlage
@@ -115,7 +115,7 @@ Standaard kunt u apps op elke pagina insluiten, hetzij onder de menuknop Power A
 
 Het volgende voorbeeld toont een nieuwe klasse met de twee methoden die nodig zijn voor het configureren van de plaats waar apps kunnen worden ingesloten.
 
-```
+```powerapps
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]
 
 public final class ClassTest_Extension

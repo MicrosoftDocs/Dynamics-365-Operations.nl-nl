@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b29302ffe534f2439519e57c6a6b8c94c1df8d62
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 198210f15e75de761dbb03e5087ba7c77a95721a
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917138"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041740"
 ---
 # <a name="IF">De ER-functie IF</a>
 
@@ -33,7 +33,7 @@ De functie `IF` retourneert de eerste opgegeven waarde als aan de opgegeven voor
 
 ## <a name="syntax"></a>Syntaxis
 
-```
+```vb
 IF (condition, first value, second value) as any of the supported data types
 ```
 

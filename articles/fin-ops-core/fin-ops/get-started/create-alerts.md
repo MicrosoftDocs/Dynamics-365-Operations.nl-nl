@@ -3,7 +3,7 @@ title: Waarschuwingsregels maken
 description: Dit onderwerp bevat informatie over waarschuwingen en uitleg over het maken van een waarschuwingsregel zodat u een bericht ontvangt over gebeurtenissen zoals een datum of een specifieke wijziging.
 author: tjvass
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c37ddc52ef576a15dd35cc155e99821c74631a46
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180709"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075919"
 ---
 # <a name="create-alert-rules"></a>Waarschuwingsregels maken
 
@@ -31,7 +31,11 @@ ms.locfileid: "2180709"
 
 Bepaal voordat u een waarschuwingsregel instelt, wanneer of in welke situaties u waarschuwingen wilt ontvangen. Als u weet over welke gebeurtenis u wilt worden gewaarschuwd, gaat u naar de pagina met de gegevens die de gebeurtenis veroorzaken. De gebeurtenis kan een datum zijn die aanbreekt of een specifieke wijziging die plaatsvindt. Daarom moet u de pagina vinden waar de datum is gespecificeerd of die het veld bevat dat verandert of de nieuwe record. Wanneer u deze informatie hebt, kunt u de waarschuwingsregel maken.
 
-Wanneer u een waarschuwingsregel maakt, geeft u de criteria op waaraan moet zijn voldaan voordat een waarschuwing wordt geactiveerd. De criteria zijn in feite de overeenkomst tussen het plaatsvinden van een gebeurtenis en het voldoen aan bepaalde voorwaarden. Wanneer er een gebeurtenis plaatsvindt, start het systeem een controle aan de hand van de voorwaarden die zijn ingesteld.
+Wanneer u een waarschuwingsregel maakt, geeft u de criteria op waaraan moet zijn voldaan voordat een waarschuwing wordt geactiveerd. Criteria vormen in feite de overeenkomst tussen het plaatsvinden van een gebeurtenis en het voldoen aan bepaalde voorwaarden. Wanneer er een gebeurtenis plaatsvindt, start het systeem een controle aan de hand van de voorwaarden die zijn ingesteld.
+
+## <a name="ensure-the-alert-batch-jobs-are-running"></a>Controleren of de batchtaken voor waarschuwing worden uitgevoerd
+
+De batchtaken voor gegevenswijziging en waarschuwingen bij vervaldatums moeten worden uitgevoerd om de waarschuwingsvoorwaarden te kunnen verwerken en de meldingen te kunnen verzenden. Als u batchtaken wilt uitvoeren, gaat u naar **Systeembeheer** > **Periodieke taken** > **Waarschuwingen** en voegt u een nieuwe batchtaak toe voor **Waarschuwingen op basis van wijzigingen** of **Waarschuwingen voor vervaldatum**. Als er een lange en regelmatig uitgevoerde batchtaak nodig is, selecteert u **Terugkeerpatroon** en stelt u **Geen einddatum** in met een **Terugkeerpatroon** van **Minuten** en een **Aantal** van **1**.
 
 ## <a name="events"></a>Gebeurtenissen
 
@@ -51,7 +55,7 @@ Wijzigingen die optreden kunnen worden gestart door een gebruiker. Een gebruiker
 
 ## <a name="conditions"></a>Voorwaarden
 
-Op het sneltabblad **Waarschuw mij voor** van het dialoogvenster **Waarschuwingsregel maken** kunt u voorwaarden gebruiken, om te bepalen wanneer u waarschuwingen over gebeurtenissen ontvangt.
+Op het sneltabblad **Waarschuw mij voor** in het dialoogvenster **Waarschuwingsregel maken** kunt u voorwaarden gebruiken, om te bepalen wanneer u waarschuwingen over gebeurtenissen ontvangt.
 
 U kunt bijvoorbeeld opgeven dat het systeem u moet waarschuwen als de status van inkooporders wijzigt, maar alleen als de status overeenkomt met een bepaalde set voorwaarden. U wilt bijvoorbeeld worden gewaarschuwd wanneer de status van een inkooporder verandert in **Ontvangen**. Deze wijziging in status is de gebeurtenis die de waarschuwing activeert.
 
@@ -70,16 +74,21 @@ Geef op het sneltabblad **Waarschuw mij met** van het dialoogvenster **Waarschuw
 
 ## <a name="user-id"></a>Gebruikers-ID
 
-Geef op het sneltabblad **Waarschuwing voor wie** van het dialoogvenster **Waarschuwingsregel maken** op welke gebruiker de waarschuwingsberichten moet ontvangen. Uw gebruikers-ID is standaard geselecteerd. Deze optie is beperkt tot beheerders van de organisatie.
+Geef op het sneltabblad **Waarschuwing voor wie** van het dialoogvenster **Waarschuwingsregel maken** op welke gebruiker de waarschuwingsberichten moet ontvangen. Uw gebruikers-ID is standaard geselecteerd. De mogelijkheid om de gebruiker te wijzigen die de waarschuwing ontvangt, is beperkt tot organisatiebeheerders.
+
+## <a name="alerts-as-business-events"></a>Waarschuwingen als zakelijke gebeurtenissen
+
+Waarschuwingen kunnen extern worden verzonden via het raamwerk voor zakelijke gebeurtenissen. Stel bij het maken van een waarschuwing **In gehele organisatie** in op **Nee** en stel **Extern verzenden** in op **Ja**. Nadat u de waarschuwing hebt geactiveerd die de zakelijke gebeurtenis heeft geactiveerd, kunt u een stroom activeren die is gebouwd in Power Automate met de trigger **Als zich een zakelijke gebeurtenis voordoet** op de Finance and Operations-connector of de gebeurtenis expliciet naar een eindpunt voor zakelijke gebeurtenissen verzenden via de **catalogus met zakelijke gebeurtenissen**.
 
 ## <a name="create-an-alert-rule"></a>Een waarschuwingsregel maken
 
+0. Controleren of de batchtaken voor waarschuwing worden uitgevoerd (zie boven).
 1. Open de pagina met de te controleren gegevens.
 2. Selecteer in het Actievenster op het tabblad **Opties** in de groep **Delen** de optie **Een waarschuwingsregel maken**.
 3. Selecteer in het dialoogvenster **Waarschuwingsregel maken** in het veld **Veld** het veld dat gecontroleerd moet worden.
 4. Selecteer in het veld **Gebeurtenis** het type gebeurtenis.
-5. Selecteer een optie op het sneltabblad **Waarschuw mij voor**.
+5. Selecteer de gewenste optie op het sneltabblad **Waarschuw mij voor**. Als u de waarschuwing als een zakelijke gebeurtenis wilt verzenden, moet u ervoor zorgen dat **In de hele organisatie** is ingesteld op **Nee**.
 6. Als u wilt dat de waarschuwingsregel op een bepaalde datum inactief wordt, selecteert u een einddatum in het snelttabblad **Waarschuw mij tot**.
-7. Accepteer op het sneltabblad **Waarschuw mij met** in het veld **Onderwerp** de standaard onderwerpkoptekst voor het e-mailbericht of voer een nieuw onderwerp in. De tekst wordt gebruikt als de onderwerpkoptekst voor het e-mailbericht dat u ontvangt als er een waarschuwing wordt geactiveerd.
+7. Accepteer op het sneltabblad **Waarschuw mij met** in het veld **Onderwerp** de standaard onderwerpkoptekst voor het e-mailbericht of voer een nieuw onderwerp in. De tekst wordt gebruikt als de onderwerpkoptekst voor het e-mailbericht dat u ontvangt als er een waarschuwing wordt geactiveerd. Als u de waarschuwing als een zakelijke gebeurtenis wilt verzenden, stelt u **Extern verzenden** in op **Ja**.
 8. Voer desgewenst een bericht in het veld **Bericht** in. De tekst wordt gebruikt als het bericht dat u ontvangt als er een waarschuwing wordt geactiveerd.
 9. Selecteer **OK** om de instellingen op te slaan en de waarschuwingsregel te maken.

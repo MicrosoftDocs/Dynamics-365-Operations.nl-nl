@@ -3,7 +3,7 @@ title: Vergelijking van functies tussen cloud en on-premises
 description: In dit onderwerp ziet u welke functies worden ondersteund in de cloud en on-premises.
 author: sericks007
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005721"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081965"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Vergelijking van functies tussen cloud en on-premises
 
@@ -81,6 +81,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |                                      | Taakregistratie: taakregistraties opslaan of laden uit de BPM-bibliotheek                         | Ja       | Nee              |
 | Ondersteuning                              |                                                                                           | Ja       | Ja             |
 |                                      | Toegang tot ondersteuning via het menu Help en ondersteuning                                             | Ja       | Nee              |
+|                                      | Zakelijke gebeurtenissen                                                                           | Ja       | Ja (er is een internetverbinding vereist of aangepaste eindpunten moeten worden geïmplementeerd voor het verzenden/ontvangen van zakelijke gebeurtenissen binnen het intranet)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
@@ -147,7 +148,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Voor een lijst van retailmogelijkheden die in on-premises implementaties beschikbaar zijn, raadpleegt u [Retail-functies die beschikbaar zijn voor on-premises implementaties](../../../retail/retail-onprem.md).
+Voor een lijst van mogelijkheden die in on-premises implementaties beschikbaar zijn, raadpleegt u [Functies in Commerce voor on-premises implementaties](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

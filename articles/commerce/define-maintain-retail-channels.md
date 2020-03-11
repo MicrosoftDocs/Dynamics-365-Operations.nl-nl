@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 63639d69af90c6aa37bbf7af7868bca71942063f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022086"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057909"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Detailhandelskanalen definiëren en onderhouden
 
@@ -47,9 +47,9 @@ Voordat u een winkel kunt instellen, moet u enkele vereiste taken uitvoeren:
 3. Nummerreeksen voor winkels, winkeloverzichten en overzichtboekstukken instellen.
 4. Configureer parameters voor Commerce.
 5. De betalingsmethoden instellen die door de winkel worden geaccepteerd.
-6. Om creditcardtransacties op de POS-kassa's van de detailhandelswinkel te kunnen verwerken, kunt u ook betalingsservices instellen.
+6. Om creditcardtransacties op POS-kassa's te kunnen verwerken, kunt u ook betalingsservices instellen.
 7. Btw-groepen instellen.
-8. Detailhandelproducten instellen. Als onderdeel van deze taak kunt u ook producthiërarchieën instellen, productvarianten en productassortimenten.
+8. Stel producten in. Als onderdeel van deze taak kunt u ook producthiërarchieën instellen, productvarianten en productassortimenten.
 9. Productprijsgroepen instellen.
 10. Stel productprijzen in. Als onderdeel van deze taak kunt u ook prijscorrecties, kortingen en kortingsperioden instellen.
 11. Personeelsleden instellen.
@@ -87,5 +87,5 @@ Nadat u de gegevens voor de winkel hebt ingevoerd, voert u deze taken uit om de 
 Commerce gebruikt organisatiehiërarchieën om kanalen structuur te geven. Met organisatiehiërarchieën worden de relaties aangegeven tussen de organisaties waaruit het bedrijf bestaat. Bij het instellen van winkels, kunt u ze toevoegen aan een organisatiehiërarchie. De winkels delen vervolgens gegevens die wordt gebruikt voor assortimenten, aanvulling en rapportering.
 
 > [!NOTE]
-> Als u de functionaliteit voor detailhandelverkoop wilt gebruiken, moet de configuratiesleutel voor **Meerdere verzendadressen** zijn ingeschakeld. Deze configuratiesleutel kunt u vinden in de **handelsconfiguratiesleutels** onder **Systeembeheer**\> **Instellingen** \> **Licentieconfiguratie**. Dit is vereist vanwege de detailhandelfunctionaliteit die verschillende validaties uitvoert op basis van het afleveradres dat is geconfigureerd op het niveau van de verkooporderregel.
+> Als u de verkoopfunctionaliteit voor Commerce wilt gebruiken, moet de configuratiesleutel voor **Meerdere verzendadressen** zijn ingeschakeld. Deze configuratiesleutel kunt u vinden in de **handelsconfiguratiesleutels** onder **Systeembeheer**\> **Instellingen** \> **Licentieconfiguratie**. Dit is vereist vanwege verschillende validaties op basis van het afleveradres dat is geconfigureerd op het niveau van de verkooporderregel.
 

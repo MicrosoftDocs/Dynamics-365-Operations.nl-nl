@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019717"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081146"
 ---
 # <a name="unified-product-experience"></a>Uniforme productervaring
 
@@ -109,7 +109,7 @@ De synchronisatie van producten gebeurt vanuit Finance and Operations-apps naar 
 
 Productdimensies zijn kenmerken die de variant van een product identificeren. De vier productdimensies (kleur, maat, stijl en configuratie) worden ook toegewezen aan Common Data Service voor het definiëren van de productvarianten. In de volgende afbeelding wordt het gegevensmodel voor de productdimensie Kleur weergegeven. Hetzelfde model wordt toegepast op maten, stijlen en configuraties. 
 
-![Gegevensmodel voor producten](media/dual-write-product-2.PNG)
+![Gegevensmodel voor producten](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de art
 
 De maateenheden en de bijbehorende conversies zijn beschikbaar in Common Data Service conform het gegevensmodel dat in het diagram wordt weergegeven.
 
-![Gegevensmodel voor producten](media/dual-write-product-3.PNG)
+![Gegevensmodel voor producten](media/dual-write-product-three.png)
 
 Het concept voor maateenheden is geïntegreerd tussen de Finance and Operations-apps en de andere Dynamics 365-apps. Voor elke eenheidsklasse in een Finance and Operations-app wordt een eenhedengroep gemaakt in een Dynamics 365-app, die de eenheden bevat die bij de eenheidsklasse horen. Er wordt ook een standaard basiseenheid voor elke eenhedengroep gemaakt. 
 
@@ -205,13 +205,13 @@ Voor unieke identificatie van producten tussen Dynamics 365 for Finance and Oper
 
 Voor een andere gebruiker van Dynamics 365-apps wordt het product in de gebruikersinterface geïdentificeerd met **msdyn_productnumber** (de label van het veld is **Productnummer**). In het productformulier worden zowel het bedrijf als msydn_productnumber weergegeven. Het veld (productNumber), de unieke sleutel voor een product, wordt echter niet weergegeven. 
 
-Houd er rekening mee dat als apps boven op Common Data Service worden gebouwd, speciale aandacht moet worden besteed aan het gebruik van het (productNumber), dat wil zeggen de unieke product-id, als integratiesleutel en niet aan msdyn_productnumber, omdat de laatste waarde niet uniek is. 
+Als u apps bouwt op Common Data Service, moet u aandacht besteden aan het gebruik van **productnumber** (de unieke product-id) als integratiesleutel. Maak geen gebruik van **msdyn_productnumber**, omdat dit niet uniek is. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Initiële synchronisatie van producten en migratie van gegevens van Common Data Service naar Finance and Operations
 
 ### <a name="initial-synchronization-of-products"></a>Initiële synchronisatie van producten 
 
-Als twee keer wegschrijven is ingeschakeld, worden producten uit Dynamics 365 Finance and Operations gesynchroniseerd met Common Data Service en andere Dynamics 365-apps. Producten die zijn gemaakt in Common Data Service en andere Dynamics 365-apps vóór twee keer wegschrijven, worden niet bijgewerkt of komen niet overeen met productgegevens uit Finance and Operations.
+Als twee keer wegschrijven is ingeschakeld, worden producten uit Finance and Operations-apps gesynchroniseerd met Common Data Service en andere modelgestuurde apps in Dynamics 365. Producten die zijn gemaakt in Common Data Service en andere Dynamics 365-apps voordat twee keer wegschrijven werd vrijgegeven, worden niet bijgewerkt of komen niet overeen met productgegevens uit Finance and Operations-apps.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Overeenkomende productgegevens uit Finance and Operations en andere Dynamics 365-apps
 

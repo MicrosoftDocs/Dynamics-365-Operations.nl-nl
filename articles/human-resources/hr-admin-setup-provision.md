@@ -3,7 +3,7 @@ title: Human Resources inrichten
 description: ''
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3a7987a9b385fb6ba0294dc46b0d66be8228f06
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026262"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071609"
 ---
 # <a name="provision-human-resources"></a>Human Resources inrichten
 
@@ -62,9 +62,6 @@ Nadat u een LCS-project hebt gemaakt, kunt u Human Resources inrichten in een om
 3. Selecteer de optie **Demogegevens opnemen** als u wilt dat in uw omgeving dezelfde demogegevensset wordt opgenomen die is gebruikt in de Human Resources-testdrive. Dit is nuttig voor de langetermijndemo of -trainingsomgevingen en mag nooit worden gebruikt voor productieomgevingen.  Houd er rekening mee dat u deze optie bij de aanvankelijke implementatie moet kiezen. U kunt een bestaande implementatie niet later bijwerken.
 
 4. Human Resources wordt altijd ingericht in een Microsoft Power Apps-omgeving om de Power Apps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie 'Een Power Apps-omgeving selecteren' van dit artikel voor u doorgaat. Als u nog geen Power Apps-omgeving hebt, selecteert u Omgevingen beheren in LCS of gaat u naar het Power Apps-beheercentrum. Volg daarna de stappen voor [Een Power Apps-omgeving maken](https://docs.microsoft.com/powerapps/administrator/create-environment).
-
-    > [!NOTE]
-    > Om bestaande omgevingen weer te geven of nieuwe omgevingen te maken, moet de tenantbeheerder die Human Resources inricht, worden toegewezen aan de Power Apps P2-licentie. Als uw organisatie geen Power Apps P2-licentie heeft, kunt u er een krijgen van uw provider van cloudoplossingen of downloaden via de [pagina met Power Apps-prijzen](https://powerapps.microsoft.com/pricing/).
 
 5. Selecteer de omgeving waarin Human Resources moet worden ingericht.
 

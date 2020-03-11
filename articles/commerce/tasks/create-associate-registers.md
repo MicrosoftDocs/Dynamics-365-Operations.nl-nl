@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ac5135d0606ffc9816c841637aa032826f87e28
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0ac75d390b8bbb94c6e039b374b51462d348e355
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022133"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057147"
 ---
 # <a name="create-and-associate-registers"></a> Registers maken en koppelen
 
@@ -30,14 +30,14 @@ ms.locfileid: "3022133"
 
 In deze procedure wordt weergegeven hoe u een kassa op het verkooppunt (POS) kunt maken. Bij deze procedure wordt het demobedrijf USRT gebruikt.
 
-1. Ga naar Detailhandel en commerce > Kanaalinstellingen > POS-instellingen > Kassa´s.
+1. Ga naar Retail en Commerce > Kanaalinstellingen > POS-instellingen > Kassa's.
 2. Klik op Nieuw.
 3. Typ in het veld Kassanummer een id voor de nieuwe kassa.
     * De kassa-id bevat gewoonlijk codes die helpen de kassa aan de winkel te koppelen waarvan deze deel uitmaakt en aan de locatie binnen de winkel.  
 4. Typ in het veld Naam een beschrijvende naam voor de kassa.
 5. Typ of selecteer een waarde in het veld Winkelnummer.
 6. Typ of selecteer een waarde in het veld Hardwareprofiel.
-    * Hardwareprofielen worden gebruikt om de randapparaten voor de detailhandel op te geven die aan de kassa worden gekoppeld, zoals kassalade en kassabonprinter.  
+    * Hardwareprofielen worden gebruikt om de randapparaten op te geven die aan de kassa worden gekoppeld, zoals kassalade en kassabonprinter.  
 7. Typ of selecteer een waarde in het veld Visueel profiel.
     * Visuele profielen worden gebruikt om de afbeeldingen op te geven die op de POS-achtergrond en aanmeldingspagina worden gebruikt alsmede thema's voor het POS-systeem.  
 8. Typ een waarde in het veld EFT POS-kassanummer.

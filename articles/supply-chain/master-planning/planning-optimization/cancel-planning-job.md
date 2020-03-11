@@ -1,9 +1,9 @@
 ---
 title: Een planningstaak annuleren
-description: In dit onderwerp wordt uitgelegd hoe u een actieve planningstaak kunt annuleren die gebruikmaakt van de functionaliteit Optimalisatie van planning.
+description: In dit onderwerp wordt uitgelegd hoe u een actieve planningstaak kunt annuleren die gebruikmaakt van de functionaliteit Planningsoptimalisatie.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a2d90f04985fdd66ca83582ee676100fffb26981
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 18c5c7b8030fc6adbc548dab750e4f454aebc867
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773936"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076339"
 ---
+# <a name="cancel-a-planning-job"></a>Een planningstaak annuleren
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
 
-# <a name="cancel-a-planning-job"></a>Een planningstaak annuleren
+In Microsoft Dynamics 365 Supply Chain Management kunt u een actieve planningstaak annuleren die gebruikmaakt van de functionaliteit Planningsoptimalisatie. Wanneer u **Annuleren** selecteert in het dialoogvenster wanneer een taak voor Planningsoptimalisatie rechtstreeks vanuit de gebruikersinterface wordt geactiveerd (niet op de achtergrond), wordt de taak voor Planningsoptimalisatie niet geannuleerd. Zelfs als u een waarschuwing ontvangt zoals 'Bewerking geannuleerd', moet u nog steeds de volgende stappen uitvoeren om een planningstaak met Planningsoptimalisatie te annuleren.
 
-In Microsoft Dynamics 365 Supply Chain Management kunt u een actieve planningstaak annuleren die gebruikmaakt van de functionaliteit Optimalisatie van planning.
 
-Voer de volgende stappen uit om een actieve planningstaak te annuleren.
+Voer de volgende stappen uit om een actieve planningstaak te annuleren. 
 
 > [!NOTE]
 > Alleen actieve taken kunnen worden geannuleerd.
@@ -49,9 +50,9 @@ De taakstatus is **Annuleren** totdat de service Optimalisatie van planning beve
 > [!NOTE]
 > Als u statuswijzigingen wilt bekijken, moet u de pagina vernieuwen door op de knop **Vernieuwen** te klikken.
 
-## <a name="related-resources"></a>Gerelateerde bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van Optimalisatie van planning](planning-optimization-overview.md)
+[Overzicht van Planningsoptimalisatie](planning-optimization-overview.md)
 
 [Aan de slag met Planningsoptimalisatie](get-started.md)
 

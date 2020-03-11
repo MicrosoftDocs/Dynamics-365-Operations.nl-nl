@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9f043d66fbd417633de71b5fa12b13b3f04e3452
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022091"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057805"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Leveringsmethoden en toeslagen van callcenters configureren
 
@@ -66,7 +66,7 @@ Toeslagen kunnen worden geconfigureerd zodat ze worden toegepast voor een bepaal
 
 In de **Regels** kunt u indien nodig een of meer toeslagen definiëren per valuta. Toeslagen moeten worden gekoppeld aan een toeslagencode die u de financiële boekingsregels voor de toeslag definieert. Het veld **Categorie** wordt gebruikt om te definiëren hoe toeslagen worden berekend. Bijvoorbeeld: als klanten een vast tarief in rekening moet worden gebracht van $9,95 om een order te verzenden met een specifieke leveringsmethode, gebruikt u de categorie **Vast**. Als het bedrijf beslist klanten een toeslag van een percentage van het ordertotaal in rekening te brengen voor de leveringskosten, gebruikt u de categorie **Percentage** categorie. De feitelijke kosten voor de klanten worden gedefinieerd in het veld **Waarde van toeslagen**.
 
-Detailhandelbedrijven configureren vaak gelaagde toeslagen. In dit geval wordt het bedrag dat klanten voor de levering betalen gebaseerd op de orderwaarde. Als u gelaagde toeslagen wilt configureren, voert u waarden in de velden **Van-bedrag** en **Tot-bedrag** in, naast dat u de toeslag zelf definieert in het veld **Waarde van toeslagen**. Voor orders met een waarde die kleiner is dan € 50, brengt een detailhandelaar bijvoorbeeld € 5,95 in rekening voor verzending over land. Voor orders met een waarde die gelijk is aan of groter is dan € 50, maar minder dan € 100, brengt de detailhandelaar € 7,95 in rekening. Voor orders met een waarde die gelijk is aan of groter is dan € 100, biedt de detailhandelaar gratis verzending. In de volgende afbeelding ziet u de configuratie van deze kosten.
+Bedrijven configureren vaak gelaagde toeslagen. In dit geval wordt het bedrag dat klanten voor de levering betalen gebaseerd op de orderwaarde. Als u gelaagde toeslagen wilt configureren, voert u waarden in de velden **Van-bedrag** en **Tot-bedrag** in, naast dat u de toeslag zelf definieert in het veld **Waarde van toeslagen**. Voor orders met een waarde die kleiner is dan € 50, brengt een detailhandelaar bijvoorbeeld € 5,95 in rekening voor verzending over land. Voor orders met een waarde die gelijk is aan of groter is dan € 50, maar minder dan € 100, brengt de detailhandelaar € 7,95 in rekening. Voor orders met een waarde die gelijk is aan of groter is dan € 100, biedt de detailhandelaar gratis verzending. In de volgende afbeelding ziet u de configuratie van deze kosten.
 
 ![Voorbeeld van vaste gelaagde toeslagen](media/fixedtieredcharges.png)
 

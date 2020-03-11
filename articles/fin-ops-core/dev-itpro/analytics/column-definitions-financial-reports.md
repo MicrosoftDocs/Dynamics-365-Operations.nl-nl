@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771536"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070755"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolomdefinities in financiële rapporten
 
@@ -120,11 +120,11 @@ De volgende tabel beschrijft de codes voor kolombeperking.
 | ADJ                     | Beperk de bedragen in de kolom tot bedragen van de periodecorrectie, als deze bedragen beschikbaar zijn. |
 | XAD                     | Beperk de bedragen in de kolom, zodat bedragen van de periodecorrectie worden uitgesloten. |
 | GT                      | Beperk de bedragen in de kolom, zodat alleen geboekte transacties worden opgenomen, als deze transacties beschikbaar zijn. |
-| UPT                     | Beperk de bedragen in de kolom, zodat alleen niet-geboekte transacties worden opgenomen, als deze transacties beschikbaar zijn.<p><strong>Opmerking:</strong> Niet alle providers van gegevens ondersteunen niet-geboekte transacties. Zie de <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>handleiding gegevensintegratie</a> voor uw Microsoft Dynamics ERP-systeem voor meer informatie.</p> |
+| UPT                     | Beperk de bedragen in de kolom, zodat alleen niet-geboekte transacties worden opgenomen, als deze transacties beschikbaar zijn.<p><strong>Opmerking:</strong> Niet alle providers van gegevens ondersteunen niet-geboekte transacties. </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Een kolom beperken tot een rapportage-eenheid
 
-1. Open in Rapportontwerper de kolomdefinitie die u wilt wijzigen.
+1. Open in Report Designer de kolomdefinitie die u wilt wijzigen.
 2. Dubbelklik op de cel **Rapportage-eenheid** zodat de kolom wordt beperkt.
 3. Selecteer een structuur in het dialoogvenster **Selectie van rapportage-eenheid** in de lijst **Rapportagestructuur**.
 4. Vouw de lijst van eenheden uit of samen, selecteer een rapportage-eenheid en klik op **OK**.

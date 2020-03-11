@@ -3,7 +3,7 @@ title: Overzicht van Aanvulling
 description: Dit onderwerp beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer.
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251459"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076341"
 ---
 # <a name="replenishment-overview"></a>Overzicht van Aanvulling
 
@@ -49,6 +49,8 @@ Locatie-instructies worden gebruikt om te bepalen welke locatie moet worden aang
 Naast een sjabloon maken, moet u enkele aanvullingsinstellingen opgeven in de wave-sjabloon. De wave-sjabloon moet een wave-stap voor aanvulling bevatten die alleen wordt uitgevoerd als toewijzing van een artikel mislukt. Deze wave-stap voor aanvulling gebruikt een wave-stapcode om te bepalen welke aanvullingssjabloon moet worden gebruikt. U moet niet alleen een wave-stap voor aanvulling instellen, maar ook zorgen dat **Aanvullen** is geselecteerd in de sectie **Methoden** van de wave-sjabloon. 
 
 De pagina **Aanvullingssjabloon** bevat een selectievakje **Gebruik van niet-gereserveerde hoeveelheid door waveaanvraag toestaan**. Schakel dit selectievakje in als u vraagaanvulling wilt toestaan om niet-gereserveerde hoeveelheden van werk af te trekken van werk dat is gegenereerd op basis van de geselecteerde aanvullingssjabloon. Als u sjablonen voor vraagaanvulling in staat wilt stellen om deze logica te gebruiken, moet u dit selectievakje inschakelen voor elke bestaande aanvullingssjabloon. Wanneer de vraagaanvulling in het magazijn wordt geactiveerd, wordt de vraag afgetrokken van het bestaande aanvullingswerk dat niet-gereserveerde hoeveelheden heeft, als het werk afkomstig is uit aanvullingssjablonen waarbij het selectievakje **Gebruik van niet-gereserveerde hoeveelheid door waveaanvraag toestaan** is ingeschakeld.
+
+**Aanvullingseenheid** is de minimum eenheid voor aanvullen. Dit moet een geheel getal zijn dat een veelvoud is van de eenheid. Het systeem voert een afronding uit naar de hoogste eenheid die mogelijk is bij het maken van werk.
 
 Vraagaanvulling wordt ondersteund voor verkooporders, transferorders, productieorders en kanbans. 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: feb28b9c801786f63282c4189d3eeb6d53ed07e1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003137"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057609"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Een profiel voor e-mailmeldingen instellen
 
@@ -41,7 +41,7 @@ Zie [E-mail configureren en verzenden](https://docs.microsoft.com/en-us/dynamics
 
 Voer de volgende stappen uit om een e-mailmeldingsprofiel te maken.
 
-1. Ga in het navigatievenster naar **Modules \> Retail en Commerce \> Instelling van hoofdkantoor \> E-mailmeldingsprofiel voor Retail**.
+1. Ga in het navigatievenster naar **Modules \> Detailhandel en Commerce \> Instelling van hoofdkantoor \> E-mailmeldingsprofiel voor Commerce**.
 1. Klik in het actievenster op **Nieuw**.
 1. Voer in het veld **E-mailmeldingsprofiel** een naam in om het profiel te identificeren.
 1. Voer in het veld **Beschrijving** een relevante beschrijving in.
@@ -71,16 +71,16 @@ De volgende afbeelding toont enkele voorbeelden van e-mailsjablooninstellingen.
 
 Volg deze stappen om een e-mailgebeurtenis te maken.
 
-1. Ga in het navigatievenster naar **Modules \> Retail en Commerce \> Instelling van hoofdkantoor \> E-mailmeldingsprofiel voor Retail**.
+1. Ga in het navigatievenster naar **Modules \> Detailhandel en Commerce \> Instelling van hoofdkantoor \> E-mailmeldingsprofiel voor Commerce**.
 1. Zoek en selecteer de gewenste record in de lijst. 
 1. Selecteer de e-mailsjabloon in de vervolgkeuzelijst **E-mail-id**.
 1. Selecteer het toepasselijke **E-mailmeldingstype** in de vervolgkeuzelijst.
 1. Schakel het selectievakje **Actief** in.
 1. Selecteer **Opslaan** in het actievenster.
 
-De volgende afbeelding toont enkele voorbeelden van instellingen voor meldingen van Retail-meldingen.
+De volgende afbeelding toont enkele voorbeelden van instellingen voor meldingen van meldingen.
 
-![Instellingen voor melding detailhandelgebeurtenissen](media/email-notification-profile.png)
+![Instellingen voor melding van gebeurtenissen](media/email-notification-profile.png)
 
 ## <a name="additional-resources"></a>Aanvullende resources
 

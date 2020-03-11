@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 08fb278a3de0c06715dcd9c252ee6c21b2172cff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
+ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008659"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "3087295"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Een verlof- en verzuimplan maken
 
@@ -61,8 +61,8 @@ U kunt ook verlof toekennen op basis van positie, zoals speciale verlofuren voor
 
       | Basis toerekenperiode | Beschrijving |
       | --- | --- |
-      | Begindatum plan | De begindatum van de toerekenperiode is de datum waarop het plan beschikbaar is. |
-      | Werknemerspecifieke datum | De begindatum van de toerekenperiode is afhankelijk van een werknemersgebeurtenis:</br><ul><li>Aangepast (u moet voor elke afzonderlijke inschrijving een toerekendatum opgeven)</li><li>Jubileumdatum</li><li>Oorspronkelijke datum indiensttreding</li><li>Anciënniteitsdatum</li><li>Aangepaste begindatum van medewerker</li><li>Begindatum van medewerker</li></ul> |
+      | **Begindatum plan** | De begindatum van de toerekenperiode is de datum waarop het plan beschikbaar is. |
+      | **Werknemerspecifieke datum** | De begindatum van de toerekenperiode is afhankelijk van een werknemersgebeurtenis:</br><ul><li>Aangepast (u moet voor elke afzonderlijke inschrijving een toerekendatum opgeven)</li><li>Jubileumdatum</li><li>Oorspronkelijke datum indiensttreding</li><li>Anciënniteitsdatum</li><li>Aangepaste begindatum van medewerker</li><li>Begindatum van medewerker</li></ul> |
 
    3. Selecteer een optie in de vervolgkeuzelijst **Toewijzingsdatum toerekening**:
 

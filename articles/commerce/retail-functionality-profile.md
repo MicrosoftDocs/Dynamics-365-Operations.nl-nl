@@ -1,6 +1,6 @@
 ---
-title: Een functionaliteitsprofiel voor de detailhandel maken
-description: In dit onderwerp wordt beschreven hoe u een nieuw functionaliteitsprofiedl voor de detailhandel maakt in Microsoft Dynamics 365 Commerce.
+title: Een functionaliteitsprofiel voor detailhandel maken
+description: In dit onderwerp wordt beschreven hoe u een nieuw functionaliteitsprofiel maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002838"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057343"
 ---
-# <a name="create-a-retail-functionality-profile"></a>Een functionaliteitsprofiel voor de detailhandel maken
+# <a name="create-a-retail-functionality-profile"></a>Een functionaliteitsprofiel voor detailhandel maken
 
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een nieuw functionaliteitsprofiedl voor de detailhandel maakt in Microsoft Dynamics 365 Commerce.
+In dit onderwerp wordt beschreven hoe u een nieuw functionaliteitsprofiel maakt in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Overzicht
 
-Het functionaliteitsprofiel voor de detailhandel biedt verschillende instellingen voor online kanalen. In elk detailhandelkanaal moet een functionaliteitsprofiel voor de detailhandel worden opgegeven.
+Het functionaliteitsprofiel voor commerce biedt verschillende instellingen voor online kanalen. In elk kanaal moet een functionaliteitsprofiel worden opgegeven.
 
-## <a name="create-a-retail-functionality-profile"></a>Een functionaliteitsprofiel voor de detailhandel maken
+## <a name="create-a-functionality-profile"></a>Een functionaliteitsprofiel maken
 
-Volg deze stappen om een functionaliteitsprofiel voor de detailhandel te maken.
+Volg deze stappen om een functionaliteitsprofiel te maken.
 
 1. Ga in het navigatievenster naar **Modules \> Kanaalinstelling \> POS-profielen \> Functionaliteitsprofielen**.
 1. Selecteer **Nieuw** in het actievenster.
@@ -51,9 +51,9 @@ Volg deze stappen om een functionaliteitsprofiel voor de detailhandel te maken.
 1. Pas in de sectie **Infocodes** zo nodig instellingen aan.
 1. Pas in de sectie **Ontvangstbewijsnummering** zo nodig de overige instellingen aan. 
   
-In de volgende afbeelding ziet u een voorbeeld van een functionaliteitsprofiel voor de detailhandel.
+In de volgende afbeelding ziet u een voorbeeld van een functionaliteitsprofiel.
   
-![Voorbeeld van functionaliteitprofiel detailhandel](media/retail-functionality-profile.png)
+![Voorbeeld van functionaliteitprofiel](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
