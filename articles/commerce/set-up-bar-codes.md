@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 74a08fc168dd3c41fa501ca8110af899a181e333
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 52801e0d09b1d7da50719966700ca45275d702f7
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022149"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057273"
 ---
 # <a name="set-up-bar-codes"></a>Streepjescodes instellen
 
@@ -32,10 +32,10 @@ ms.locfileid: "3022149"
 
 In dit artikel wordt beschreven hoe u barcodes in Dynamics 365 Commerce gebruikt.
 
-U kunt streepjescodes gebruiken voor het kopen en verkopen van producten, om productvarianten bij te houden en om klanten en werknemers in te stellen. U kunt streepjescodes gebruiken om kortingbonnen, cadeaubonnen en creditnota's uit te geven en te verwerken. U kunt detailhandelproducten instellen met standaardstreepjescodes of met op maat gemaakte, interne streepjescodes. Producten kunnen meer dan één streepjescode hebben. Een product kan bijvoorbeeld meerdere streepjescodes hebben indien het afkomstig is van verschillende fabrikanten of indien er varianten zijn op basis van grootte, stijl of kleur. Streepjescodes kunnen het gewicht of de prijs van het product bevatten. Streepjescodemaskers zijn sjablonen die worden gebruikt voor het maken van streepjescodes.
+U kunt streepjescodes gebruiken voor het kopen en verkopen van producten, om productvarianten bij te houden en om klanten en werknemers in te stellen. U kunt streepjescodes gebruiken om kortingbonnen, cadeaubonnen en creditnota's uit te geven en te verwerken. U kunt producten instellen met standaardstreepjescodes of met op maat gemaakte, interne streepjescodes. Producten kunnen meer dan één streepjescode hebben. Een product kan bijvoorbeeld meerdere streepjescodes hebben indien het afkomstig is van verschillende fabrikanten of indien er varianten zijn op basis van grootte, stijl of kleur. Streepjescodes kunnen het gewicht of de prijs van het product bevatten. Streepjescodemaskers zijn sjablonen die worden gebruikt voor het maken van streepjescodes.
 
 > [!NOTE]
-> Als u aan elke variantcombinatie een unieke streepjescode toewijst, kunt u de streepjescode van het artikel bij de kassa scannen en het programma laten bepalen welke variant van het product wordt verkocht. Op die manier kunt u ook verkoopstatistieken op basis van varianten verzamelen en weergeven. Aan elke grootte-, kleur- en stijlgroep kan een uniek nummer worden toegewezen dat die groep in de streepjescode identificeert. Retail gebruikt het streepjescodemasker om automatisch voor elke variantcombinatie streepjescodes te genereren. Deze functionaliteit kan nuttig zijn als er veel maten, kleuren en stijlen zijn, aangezien het aantal combinaties aanzienlijk kan oplopen met elke extra toegevoegde variantcode. Als deze functie niet wordt gebruikt, moeten streepjescodes handmatig worden toegewezen aan elke combinatie die een productvariant representeert.
+> Als u aan elke variantcombinatie een unieke streepjescode toewijst, kunt u de streepjescode van het artikel bij de kassa scannen en het programma laten bepalen welke variant van het product wordt verkocht. Op die manier kunt u ook verkoopstatistieken op basis van varianten verzamelen en weergeven. Aan elke grootte-, kleur- en stijlgroep kan een uniek nummer worden toegewezen dat die groep in de streepjescode identificeert. Commerce gebruikt het streepjescodemasker om automatisch voor elke variantcombinatie streepjescodes te genereren. Deze functionaliteit kan nuttig zijn als er veel maten, kleuren en stijlen zijn, aangezien het aantal combinaties aanzienlijk kan oplopen met elke extra toegevoegde variantcode. Als deze functie niet wordt gebruikt, moeten streepjescodes handmatig worden toegewezen aan elke combinatie die een productvariant representeert.
 
 U kunt de streepjescodes handmatig of automatisch maken. Om streepjescodes te maken, voert u de volgende taken uit in de volgorde waarin ze zijn vermeld.
 
