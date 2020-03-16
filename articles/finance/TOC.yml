@@ -150,6 +150,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/finance/toc.json
                 - name: Opgeslagen weergaven
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/finance/toc.json
+                - name: Rastermogelijkheden
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Maken en werken met aangepaste velden
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: PowerApps-apps insluiten
@@ -940,6 +942,8 @@
                   href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
                 - name: Btw-aangiftecodes instellen
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Ondersteuning van dubbele valuta voor btw
+                  href: general-ledger/dual-currency-for-tax.md
                 - name: Rapport btw-specificatie per grootboektransactie
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Btw-vereffeningsperioden instellen
@@ -1102,6 +1106,8 @@
                   href: public-sector/interest-distribution.md
             - name: Inkoopbeheer in de openbare sector
               href: public-sector/procurement-sourcing-public-sector.md
+            - name: De leveringsdatum voor een regel berekenen op basis van de doorlooptijd
+              href: public-sector/po-delivery-date.md
             - name: Beveiligingsrollen in de openbare sector
               href: public-sector/security-roles-public-sector.md
             - name: Fondsen in de openbare sector
@@ -1298,6 +1304,8 @@
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: SPED Fiscal – Indeling 014
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
+                - name: SPED EFD-bijdragen instellen
+                  href: localizations/latam-bra-sped-contributions.md
                 - name: Parameters voor rechtspersonen
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Parameters voor rechtspersonen instellen
@@ -2807,6 +2815,8 @@
               items:
                 - name: Overzicht van Documentrapportservices
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
+                - name: Ondersteunde lettertypen
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: SSRS configureren voor on-premises implementaties
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Afdrukken
@@ -3686,6 +3696,4 @@
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md

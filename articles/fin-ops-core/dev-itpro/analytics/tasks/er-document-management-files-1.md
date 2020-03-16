@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c6085f2f06fb374887d504c332a34705f0fd9e99
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026129"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042822"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 1: Gegevensmodel voorbereiden)
 
@@ -36,10 +36,14 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Toegang krijgen tot de lijst met configuraties die door Microsoft zijn geleverd
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
-    * Zorg ervoor dat de leverancier 'Litware, Inc.' beschikbaar is en als actief gemarkeerd.  
+
+    Zorg ervoor dat de leverancier 'Litware, Inc.' beschikbaar is en als actief gemarkeerd.  
+
 2. Selecteer 'Litware, Inc.' .
 3. Klik op Opslagplaatsen.
-    * Als een opslagplaats van het type Bron voor bedrijfsactiviteiten bestaat, slaat u de resterende stappen van de huidige deeltaak over.  
+
+    Als een opslagplaats van het type Bron voor bedrijfsactiviteiten bestaat, slaat u de resterende stappen van de huidige deeltaak over.  
+
 4. Klik op Toevoegen om het dialoogvenster te openen.
 5. Voer Bronnen voor bedrijfsactiviteiten in het veld Opslagplaatstype van configuratie in.
 6. Klik op Opslagplaats maken.
@@ -51,9 +55,13 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 3. Klik op Filters weergeven.
 4. Klik op Openen.
 5. Selecteer in de structuur Klantfactuurmodel.
-    * Selecteer de modelconfiguratie Klantfactuurmodel om deze te importeren.  
+
+    Selecteer de modelconfiguratie Klantfactuurmodel om deze te importeren.  
+
 6. Klik op Importeren.
-    * Klik op Importeren voor versie 1 van de geselecteerde configuratie.  
+
+    Klik op Importeren voor versie 1 van de geselecteerde configuratie.  
+
 7. Klik op Ja.
 8. Sluit de pagina.
 9. Sluit de pagina.
@@ -65,6 +73,5 @@ U moet een eigen configuratie van het Klantfactuurmodel maken door deze af te le
 1. Klik op Configuratie maken om het dialoogvenster voor beëindigen te openen.
 2. Typ in het veld Nieuw 'Afleiden van naam: Klantfactuurmodel, Microsoft'.
 3. Typ 'Klantfactuurmodel (aangepast)' in het veld Naam.
-    * Klantfactuurmodel (aangepast)  
 4. Klik op Configuratie maken.
 

@@ -45,7 +45,11 @@
                 - name: Platform update 15 (maart 2018)
                   href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Verwijderde of verouderde functies
-              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+              items:
+                - name: Verwijderde of afgeschafte Platform-functies
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: Verwijderde of afgeschafte functies in eerdere releases
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: AX 2012-functies die zijn uitgesteld
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Functies die niet worden geïmplementeerd in on-premises implementaties
@@ -144,7 +148,9 @@
                       href: data-entities/data-integration-cds.md
                     - name: 'Synchrone, bidirectionele integratie'
                       items:
-                        - name: Bijna realtime gegevensintegratie
+                        - name: Startpagina voor twee keer wegschrijven
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Overzicht van twee keer wegschrijven
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Organisatiehiërarchie van Common Data Service
                           href: data-entities/dual-write/organization-mapping.md
@@ -396,7 +402,7 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Updates toepassen op cloudomgevingen
                   href: deployment/apply-deployable-package-system.md
-                - name: Updates en uitbreidingen toepassen op in de cloud gehoste Retail-kanaalonderdelen
+                - name: Updates en uitbreidingen toepassen op in de cloud gehoste detailhandelafzetkanaalonderdelen
                   href: deployment/Update-retail-channel.md
                 - name: Retail Cloud Scale Unit initialiseren
                   href: deployment/Initialize-Retail-Channels.md
@@ -940,7 +946,7 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS voor partners
                   href: lifecycle-services/getting-started-lcs.md
-                - name: Nieuwe functies
+                - name: Nieuwe of gewijzigde functies in Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Bekende problemen
                   href: lifecycle-services/known-issues.md
@@ -1685,6 +1691,4 @@
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../../commerce/index.md

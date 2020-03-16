@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3f2616fd98b37576625d9586a1cda29ce1b89f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022177"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057482"
 ---
 # <a name="retail-sales-price-management"></a>Verkoopprijsbeheer van detailhandel
 
@@ -43,23 +43,23 @@ De volgende termen worden gebruikt in dit onderwerp.
 
 ## <a name="price-groups"></a>Prijsgroepen
 
-Prijsgroepen vormen de kern van het prijzen- en kortingenbeheer in Commerce. Prijsgroepen worden gebruikt om prijzen en kortingen toe te wijzen aan detailhandelentiteiten (zoals kanalen, catalogi, aansluitingen en loyaliteitsprogramma's). Aangezien prijsgroepen worden gebruikt voor alle prijzen en kortingen, is het belangrijk dat u plant hoe u ze gebruikt voordat u begint.
+Prijsgroepen vormen de kern van het prijzen- en kortingenbeheer in Commerce. Prijsgroepen worden gebruikt om prijzen en kortingen toe te wijzen aan commerce-entiteiten (zoals kanalen, catalogi, aansluitingen en loyaliteitsprogramma's). Aangezien prijsgroepen worden gebruikt voor alle prijzen en kortingen, is het belangrijk dat u plant hoe u ze gebruikt voordat u begint.
 
-Een prijsgroep is in feite alleen een naam, een omschrijving en eventueel een prioriteit voor prijscalculatie. Het belangrijkste punt om te onthouden over prijsgroepen is dat ze worden gebruikt om de veel-op-veel-relaties van kortingen en prijzen met retailentiteiten te beheren.
+Een prijsgroep is in feite alleen een naam, een omschrijving en eventueel een prioriteit voor prijscalculatie. Het belangrijkste punt om te onthouden over prijsgroepen is dat ze worden gebruikt om de veel-op-veel-relaties van kortingen en prijzen met commerce-entiteiten te beheren.
 
-De volgende afbeelding laat zien hoe prijsgroepen worden gebruikt. In deze afbeelding ziet u dat 'Prijsgroep' letterlijk het middelpunt is van prijzen- en kortingsbeheer. De retailentiteiten die u kunt gebruiken voor het beheren van gedifferentieerde prijzen en kortingen staan aan de linkerkant en de werkelijke prijzen- en kortingsrecords aan de rechterkant.
+De volgende afbeelding laat zien hoe prijsgroepen worden gebruikt. In deze afbeelding ziet u dat 'Prijsgroep' letterlijk het middelpunt is van prijzen- en kortingsbeheer. De commerce-entiteiten die u kunt gebruiken voor het beheren van gedifferentieerde prijzen en kortingen staan aan de linkerkant en de werkelijke prijzen- en kortingsrecords aan de rechterkant.
 
 ![Prijsgroepen](./media/PriceGroups.png "Prijsgroepen")
 
-Wanneer u prijsgroepen maakt, moet u niet één prijsgroep gebruiken voor meerdere soorten retailentiteiten. Anders kan het lastig zijn om te bepalen waarom een bepaalde prijs of korting op een transactie wordt toegepast.
+Wanneer u prijsgroepen maakt, moet u niet één prijsgroep gebruiken voor meerdere soorten commerce-entiteiten. Anders kan het lastig zijn om te bepalen waarom een bepaalde prijs of korting op een transactie wordt toegepast.
 
 Zoals de rode streepjeslijn in de afbeelding laat zien, ondersteunt Commerce de basisfunctie van Microsoft Dynamics 365 van prijsgroepen die direct voor een klant zijn ingesteld. In dit geval krijgt u echter alleen verkoopprijshandelsovereenkomsten. Als u klantspecifieke prijzen wilt toepassen, raden wij aan dat u niet prijsgroepen rechtstreeks voor de klant instelt. In plaats daarvan moet u aansluitingen gebruiken.
 
-De volgende secties bevatten meer informatie over de retailentiteiten die u kunt gebruiken om verschillende prijzen in te stellen wanneer prijsgroepen worden gebruikt. De configuratie van prijzen en kortingen voor alle entiteiten is een tweeledig proces. Deze stappen kunnen in een willekeurige volgorde worden uitgevoerd. De logische volgorde is echter om de prijsgroepen eerst in te stellen voor de entiteiten, omdat deze stap waarschijnlijk een eenmalige instelling is die wordt uitgevoerd tijdens de implementatie. Vervolgens kunt u, als prijzen en kortingen zijn gemaakt, de prijsgroepen afzonderlijk instellen voor deze prijzen en kortingen.
+De volgende secties bevatten meer informatie over de commerce-entiteiten die u kunt gebruiken om verschillende prijzen in te stellen wanneer prijsgroepen worden gebruikt. De configuratie van prijzen en kortingen voor alle entiteiten is een tweeledig proces. Deze stappen kunnen in een willekeurige volgorde worden uitgevoerd. De logische volgorde is echter om de prijsgroepen eerst in te stellen voor de entiteiten, omdat deze stap waarschijnlijk een eenmalige instelling is die wordt uitgevoerd tijdens de implementatie. Vervolgens kunt u, als prijzen en kortingen zijn gemaakt, de prijsgroepen afzonderlijk instellen voor deze prijzen en kortingen.
 
 ### <a name="channels"></a>Afzetkanalen
 
-In de detailhandel is het heel gebruikelijk om verschillende prijzen te hanteren voor verschillende kanalen. De twee primaire factoren die invloed hebben op specifieke kanaalprijzen zijn kosten en voorwaarden van de lokale markt.
+In de commerce-sector is het heel gebruikelijk om verschillende prijzen te hanteren voor verschillende kanalen. De twee primaire factoren die invloed hebben op specifieke kanaalprijzen zijn kosten en voorwaarden van de lokale markt.
 
 - **Kosten** : hoe verder een kanaal van de productbron verwijderd is, hoe meer het kost om een product op te slaan. Verse producten hebben bijvoorbeeld een beperkte houdbaarheid en specifieke productievereisten (bijvoorbeeld een groeiseizoen). In de winter kosten kost sla waarschijnlijk meer in noordelijke klimaten dan in zuidelijke klimaten. Als u de prijzen voor kanalen over een groot geografisch gebied instelt, wilt u waarschijnlijk verschillende prijzen instellen in verschillende kanalen.
 - **Lokale marktvoorwaarden**: een winkel die een directe concurrent in de straat heeft, werkt veel prijsgevoeliger dan een winkel die geen directe concurrent in de buurt heeft.
@@ -84,7 +84,7 @@ Sommige detailhandelaren gebruiken fysieke of virtuele catalogi om producten te 
 
 ### <a name="best-practices-for-price-groups"></a>Aanbevolen procedures voor prijsgroepen
 
-Gebruik geen een prijsgroep voor meerdere retailentiteitstypen. Gebruik in plaats daarvan één set met prijsgroepen voor kanalen, een andere set met prijsgroepen voor aansluitingen of loyaliteitsprogramma's, enzovoort. U kunt een voorvoegsel of achtervoegsel toevoegen aan de naam van de prijsgroep om de verschillende typen prijsgroepen visueel te groeperen.
+Gebruik geen een prijsgroep voor meerdere commerce-entiteitstypen. Gebruik in plaats daarvan één set met prijsgroepen voor kanalen, een andere set met prijsgroepen voor aansluitingen of loyaliteitsprogramma's, enzovoort. U kunt een voorvoegsel of achtervoegsel toevoegen aan de naam van de prijsgroep om de verschillende typen prijsgroepen visueel te groeperen.
 
 Stel prijsgroepen niet rechtstreeks in op een klant. Gebruik in plaats daarvan een aansluiting. Op deze manier kunt u alle soorten prijzen en kortingen toewijzen aan klanten, niet alleen handelsovereenkomsten voor verkoopprijzen.
 
@@ -98,7 +98,7 @@ Als u prioriteit voor prijzen gebruikt, moet u een prioriteit voor prijscalculat
 
 De functie prioriteit voor prijscalculatie is geïntroduceerd voor het scenario waarin een detailhandelaar hogere prijzen wil toepassen in een specifieke reeks winkels. Bijvoorbeeld: als een detailhandelaar regionale prijzen heeft gedefinieerd voor de oostkust van de Verenigde Staten, maar hogere prijzen wil berekenen voor bepaalde producten in winkels in New York City, omdat het duurder is om sommige producten daar te verkopen en/of omdat de plaatselijke markt bereid is een hogere prijs te betalen.
 
-Zoals is aangegeven in de sectie 'Beste prijs' van dit onderwerp, selecteert de engine voor detailhandelsprijzen doorgaans de laagste van de twee prijzen. Daarom zal de detailhandelaar meestal niet de hoogste van twee prijzen hanteren in een winkel met prijsgroepen voor zowel oostkust en voor New York. Om dit probleem op te lossen moest de detailhandelaar, voordat de functie voor prioriteit prijscalculatie werd geïntroduceerd, voor elk product tweemaal prijzen definiëren en niet beide prijsgroepen toewijzen. Ook moest de detailhandelaar extra prijsgroepen maken om de producten met hogere prijzen af te scheiden van producten met de gebruikelijke, lagere prijzen.
+Zoals is aangegeven in de sectie 'Beste prijs' van dit onderwerp, selecteert de prijsengine doorgaans de laagste van de twee prijzen. Daarom zal de detailhandelaar meestal niet de hoogste van twee prijzen hanteren in een winkel met prijsgroepen voor zowel oostkust en voor New York. Om dit probleem op te lossen moest de detailhandelaar, voordat de functie voor prioriteit prijscalculatie werd geïntroduceerd, voor elk product tweemaal prijzen definiëren en niet beide prijsgroepen toewijzen. Ook moest de detailhandelaar extra prijsgroepen maken om de producten met hogere prijzen af te scheiden van producten met de gebruikelijke, lagere prijzen.
 
 Met de e functie prioriteit prijscalculatie kan de detailhandelaar echter een prijsprioriteit instellen voor winkelprijzen die hoger zijn dan de prijsprioriteit voor regionale prijzen. De detailhandelaar kan ook alleen een prioriteit prijscalculatie opstellen voor winkelprijzen en regionale prijzen op de standaard prijsprioriteit van 0 (nul) laten staan. Beide instellingen zorgen dat altijd winkelprijzen worden gebruikt vóór regionale prijzen.
 
@@ -142,7 +142,7 @@ De gemakkelijkste plaats om de prijs voor een product in te stellen is rechtstre
 
 Als een product één prijs heeft voor iedereen, is de basisprijs de meest efficiënte manier om de prijs van dat product te beheren. Zelfs als u handelsovereenkomstprijzen toepast, kunt u ook de basisprijs op een product instellen. Als u vervolgens niet een handelsovereenkomst van het type **Alle** gebruikt, hebt u een terugvalprijs die wordt gebruikt wanneer er geen handelsovereenkomst van toepassing is.
 
-Als een detailhandelkanaalsvaluta afwijkt van de bedrijfsvaluta, wordt de basisprijs in dat kanaal bepaald met behulp van valutaconversie op de prijs die is ingesteld op het product.
+Als de valuta van een kanaal afwijkt van de bedrijfsvaluta, wordt de basisprijs in dat kanaal bepaald met behulp van valutaconversie op de prijs die is ingesteld op het product.
 
 Hoewel de prijs per eenheid geen gebruikelijk scenario is, wordt dit ondersteund door de prijsbepalingsengine. Als de prijs per eenheid is ingesteld op een andere waarde dan **0** (nul), is de prijs per eenheid gelijk aan prijs ÷ prijs per eenheid. Als de prijs van een product bijvoorbeeld $10,00 is en de prijs per eenheid 50, is de prijs voor een hoeveelheid van 1 $0,20 (= $10,00 ÷ 50).
 
@@ -150,9 +150,9 @@ Hoewel de prijs per eenheid geen gebruikelijk scenario is, wordt dit ondersteund
 
 U kunt met behulp van het handelsovereenkomstjournaal een verkoopprijshandelsovereenkomst voor elk product maken. In Microsoft Dynamics 365 zijn er drie klantbereiken voor verkoopprijshandelsovereenkomsten: **tabel**, **groep** en **alle**. Het bereik van de klant bepaalt de klanten waarvoor de handelsovereenkomst voor een bepaalde verkoopprijs geldt.
 
-Een verkoopprijshandelsovereenkomst van het type **tabel** geldt voor één klant die rechtstreeks in de handelsovereenkomst is ingesteld. Dit scenario is geen normaal detailhandelscenario voor business-to-consumer (B2C). Als dit echter plaatsvindt, gebruikt de prijsbepalingsengine handelsovereenkomsten van het type **Tabel** voor het bepalen van de prijs.
+Een verkoopprijshandelsovereenkomst van het type **tabel** geldt voor één klant die rechtstreeks in de handelsovereenkomst is ingesteld. Dit scenario is geen normaal scenario voor business-to-consumer (B2C). Als dit echter plaatsvindt, gebruikt de prijsbepalingsengine handelsovereenkomsten van het type **Tabel** voor het bepalen van de prijs.
 
-Een verkoopprijshandelsovereenkomst van het type **groep** wordt meestal gebruikt met de detailhandelsfunctionaliteit. Buiten Commerce zijn verkoopprijshandelsovereenkomsten van het type **Groep** van toepassing voor een eenvoudige klantengroep. In Commerce is het concept van een klantgroep echter uitgebreid zodat deze een meer algemene prijsgroep is. Een prijsgroep kan worden gekoppeld aan een kanaal, aansluiting, loyaliteitsprogramma of catalogus. Zie de sectie 'Prijsgroepen' eerder in dit onderwerp voor gedetailleerde informatie over prijsgroepen.
+Meestal wordt een verkoopprijshandelsovereenkomst van het type **Groep** gebruikt. Buiten Commerce zijn verkoopprijshandelsovereenkomsten van het type **Groep** van toepassing voor een eenvoudige klantengroep. In Commerce is het concept van een klantgroep echter uitgebreid zodat deze een meer algemene prijsgroep is. Een prijsgroep kan worden gekoppeld aan een kanaal, aansluiting, loyaliteitsprogramma of catalogus. Zie de sectie 'Prijsgroepen' eerder in dit onderwerp voor gedetailleerde informatie over prijsgroepen.
 
 > [!NOTE]
 > Een prijs uit een handelsovereenkomst heeft altijd voorrang op de de basisprijs.
@@ -211,7 +211,7 @@ Microsoft SQL Server Express wordt vaak gebruikt voor kanaaldatabases vanwege de
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Prijzen inclusief btw versus prijzen exclusief btw
 
-Wanneer u verkoopprijzen in Dynamics 365 instelt, geeft u niet aan of de waarde van de ingestelde prijs inclusief of exclusief btw is. De waarde is alleen de prijs. Met de instelling **Prijs inclusief btw** voor detailhandelkanalen kunt u echter kanalen zo configureren dat de prijzen al dan niet inclusief btw zijn. Deze instelling is ingesteld voor het kanaal en kan zelfs in één bedrijf wijzigen.
+Wanneer u verkoopprijzen in Dynamics 365 instelt, geeft u niet aan of de waarde van de ingestelde prijs inclusief of exclusief btw is. De waarde is alleen de prijs. Met de instelling **Prijs inclusief btw** voor kanalen kunt u echter kanalen zo configureren dat de prijzen al dan niet inclusief btw zijn. Deze instelling is ingesteld voor het kanaal en kan zelfs in één bedrijf wijzigen.
 
 Als u werkt met inclusief en exclusief btw, is het belangrijk dat u prijzen correct hebt ingesteld, omdat het totale bedrag dat de klant betaalt, niet verandert als de instelling **Prijs inclusief btw** in het kanaal wordt gewijzigd.
 
@@ -219,15 +219,15 @@ Als u werkt met inclusief en exclusief btw, is het belangrijk dat u prijzen corr
 
 Er wordt één prijscalculatie-engine gebruikt voor het berekenen van de prijzen voor alle kanalen: callcenters, winkels en online winkels. Dit is handig voor het inschakelen van de gecombineerde handelsscenario's.
 
-Adviesprijs is ontworpen om te gebruiken met detailhandelsentiteiten in plaats van niet-detailhandelsentiteiten. Het is vooral ontworpen om prijzen in te stellen per winkel, niet per magazijn.
+Prijscalculatie is ontworpen om te gebruiken met detailhandelsentiteiten in plaats van niet-detailhandelsentiteiten. Het is vooral ontworpen om prijzen in te stellen per winkel, niet per magazijn.
 
-De adviesprijsengine ondersteunt de volgende prijsbepalingsfuncties **niet**:
+De prijsengine **biedt geen ondersteuning** voor de volgende prijsbepalingsfuncties:
 
-- Het instellen van prijzen op basis van de opslagdimensies van de vestiging of de vestiging en het magazijn wordt niet ondersteund. Als u alleen de vestigingsdimensie in de handelsovereenkomsten opgeeft, wordt voor de detailhandelprijzen de vestiging genegeerd en wordt de handelsovereenkomst toegepast op alle vestigingen. Als u zowel vestiging als magazijn opgeeft, is het gedrag niet gedefinieerd/niet getest omdat wordt verwacht dat detailhandelaren de winkelprijsgroepen gebruiken om de prijzen voor elke winkel en elk magazijn te beheren.
+- Het instellen van prijzen op basis van de opslagdimensies van de vestiging of de vestiging en het magazijn wordt niet ondersteund. Als u alleen de vestigingsdimensie in de handelsovereenkomsten opgeeft, negeert de prijsengine de vestiging en wordt de handelsovereenkomst toegepast op alle vestigingen. Als u zowel vestiging als magazijn opgeeft, is het gedrag niet gedefinieerd/niet getest omdat wordt verwacht dat detailhandelaren de winkelprijsgroepen gebruiken om de prijzen voor elke winkel en elk magazijn te beheren.
 - Prijzen op basis van kenmerk worden niet ondersteund.
 - Leverancierskortingen worden niet ondersteund.
 
-Bovendien ondersteunt de adviseprijsengine **alleen** de volgende prijsbepalingsfuncties:
+Bovendien ondersteunt de prijsengine **alleen** de volgende prijsbepalingsfuncties:
 
 - De prijs is gebaseerd op de productdimensies in volgorde van de meest specifieke variantprijs naar de minst specifieke variantprijs voor de modelproductprijs. Een prijs die wordt ingesteld via twee productdimensies (bijvoorbeeld kleur en grootte) wordt gebruikt vóór een prijs die is ingesteld via slechts één productdimensie (bijvoorbeeld grootte).
 - Dezelfde prijsgroep kan worden gebruikt om prijzen en kortingen te bepalen.

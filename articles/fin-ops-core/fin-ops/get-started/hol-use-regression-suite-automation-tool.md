@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025799"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070815"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>De zelfstudie voor Regression Suite Automation Tool gebruiken
 
@@ -217,15 +217,15 @@ In de volgende afbeelding ziet u de bedrijfsprocessen voor dit scenario in RSAT.
 
 ## <a name="advanced-scripting"></a>Geavanceerde scripts
 
-### <a name="command-line"></a>Opdrachtregel
+### <a name="cli"></a>CLI
 
-RSAT kan worden aangeroepen vanuit een **opdrachtpromptvenster**.
+RSAT kan worden aangeroepen vanuit een **opdrachtprompt**- of **PowerShell**-venster.
 
 > [!NOTE]
 > Controleer of de omgevingsvariabele **TestRoot** is ingesteld op het installatiepad van RSAT. (In Microsoft Windows opent u **Configuratiescherm**, selecteert u **Systeem en beveiliging \> Systeem \> Geavanceerde systeeminstellingen** en **Omgevingsvariabelen**.)
 
-1. Open een venster **Opdrachtprompt** en typ het volgende als beheerder.
-2. Voer het programma uit vanuit de installatiemap.
+1. Open een **opdrachtprompt**- of **PowerShell**-venster en typ het volgende als beheerder.
+2. Ga naar de installatiedirectory van RSAT.
 
     ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
@@ -242,22 +242,273 @@ RSAT kan worden aangeroepen vanuit een **opdrachtpromptvenster**.
         Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe /settings "C:\Path to\file.settings" command
 
     Available commands:
-        list
-        listtestsuite suite_name
-        download test_case_id output_dir
-        generate test_case_id output_dir
-        generatederived parent_test_case_id test_plan_id test_suite_id
-        generatetestonly test_case_id output_dir
-        edit excel_file
-        playback excel_file
-        playbackmany excel_file1 [excel_file2 [.. excel_fileN]]
-        playbackbyid test_case_id1 [test_case_id2 [.. test_case_idN]]
-        playbacksuite suite_name
-        clear
-        help
+        ?
         about
+        cls
+        download
+        edit
+        generate
+        generatederived
+        generatetestonly
+        generatetestsuite
+        help
+        list
+        listtestplans
+        listtestsuite
+        listtestsuitenames
+        playback
+        playbackbyid
+        playbackmany
+        playbacksuite
         quit
+        upload
+        uploadrecording
+        usage
     ```
+
+#### <a name=""></a>? 
+Hiermee wordt Help weergegeven over alle beschikbare opdrachten en de bijbehorende parameters.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
+
+##### <a name="optional-parameters"></a>Optionele parameters
+
+**``command``**
+
+
+Waarbij ``[command]`` een van de opdrachten is die hieronder zijn opgegeven.
+
+
+#### <a name="about"></a>about
+Hiermee wordt de huidige versie weergegeven.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
+
+#### <a name="cls"></a>cls
+Hiermee wordt het scherm leeggemaakt.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
+
+
+#### <a name="download"></a>download
+Hiermee worden bijlagen voor de opgegeven testaanvraag gedownload naar de uitvoermap. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``test_case_id``** Vertegenwoordigt de id van de testcase.  
+**``output_dir``** Vertegenwoordigt de uitvoermap. De map moet bestaan.
+
+##### <a name="examples"></a>Voorbeelden
+
+``download 123 c:\temp\rsat``   
+``download 765 c:\rsat\last``
+
+
+#### <a name="edit"></a>edit
+Hiermee kunt u het parameterbestand openen in Excel en het bewerken.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``edit``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``excel_file``** Moet een volledig pad naar een bestaand Excel-bestand bevatten.
+
+##### <a name="examples"></a>Voorbeelden
+``edit c:\RSAT\TestCase_123_Base.xlsx``  
+``edit e:\temp\TestCase_456_Base.xlsx``
+
+
+#### <a name="generate"></a>generate
+Hiermee worden testuitvoerings- en parameterbestanden gegenereerd voor de opgegeven testcase in de uitvoermap.
+U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``test_case_id``** Vertegenwoordigt de id van de testcase.  
+**``output_dir``** Vertegenwoordigt de uitvoermap. De map moet bestaan.
+
+##### <a name="examples"></a>Voorbeelden
+``generate 123 c:\temp\rsat``  
+``generate 765 c:\rsat\last``
+
+
+#### <a name="generatederived"></a>generatederived
+Hiermee wordt een nieuwe testcase gegenereerd die is afgeleid van de geleverde testcase. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``parent_test_case_id``** Vertegenwoordigt de id van de bovenligende testcase.  
+**``test_plan_id``** Vertegenwoordigt de id van het testplan.  
+**``test_suite_id``** Vertegenwoordigt de id van de testsuite.
+
+##### <a name="examples"></a>Voorbeelden
+``generatederived 123 8901 678``
+
+
+#### <a name="generatetestonly"></a>generatetestonly
+Hiermee wordt alleen een testuitvoeringsbestand voor de opgegeven testcase gegenereerd in de uitvoermap. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``test_case_id``** Vertegenwoordigt de id van de testcase.  
+**``output_dir``** Vertegenwoordigt de uitvoermap. De map moet bestaan.
+
+##### <a name="examples"></a>Voorbeelden
+``generatetestonly 123 c:\temp\rsat``  
+``generatetestonly 765 c:\rsat\last``
+
+
+#### <a name="generatetestsuite"></a>generatetestsuite
+Hiermee worden alle testcases voor de opgegeven suite gegenereerd in de uitvoermap.
+U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuites op te halen. Gebruik een willekeurige waarde uit de kolom als parameter voor **test_suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``test_suite_name``** Vertegenwoordigt de naam van de testsuite.  
+**``output_dir``** Vertegenwoordigt de uitvoermap. De map moet bestaan.
+
+##### <a name="examples"></a>Voorbeelden
+``generatetestsuite Tests c:\temp\rsat``   
+``generatetestsuite Purchase c:\rsat\last``
+
+
+#### <a name="help"></a>help
+Identiek aan de [?](####?) opdracht
+
+
+#### <a name="list"></a>list
+Hiermee worden alle beschikbare testcases weergegeven.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
+
+
+#### <a name="listtestplans"></a>listtestplans
+Hiermee worden alle beschikbare testplannen weergegeven.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestplans``**
+
+
+#### <a name="listtestsuite"></a>listtestsuite
+Hiermee worden de testcases voor de opgegeven testsuite weergegeven. U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuites op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``suite_name``** Naam van de gewenste suite.
+
+##### <a name="examples"></a>Voorbeelden
+``listtestsuite "sample suite name"``  
+``listtestsuite NameOfTheSuite``
+
+
+#### <a name="listtestsuitenames"></a>listtestsuitenames
+Hiermee worden alle beschikbare testsuites weergegeven.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
+
+
+#### <a name="playback"></a>playback
+Hiermee wordt een testcase afgespeeld met een Excel-bestand.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``excel_file``** Een volledig pad naar het Excel-bestand. Bestand moet bestaan. 
+
+##### <a name="examples"></a>Voorbeelden
+``
+playback c:\RSAT\TestCaseParameters\sample1.xlsx
+playback e:\temp\test.xlsx
+``
+
+
+#### <a name="playbackbyid"></a>playbackbyid
+Hiermee worden meerdere testcases tegelijk afgespeeld.
+U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``test_case_id1``** Id van bestaande testcase.  
+**``test_case_id2``** Id van bestaande testcase.  
+**``test_case_idN``** Id van bestaande testcase.  
+
+##### <a name="examples"></a>Voorbeelden
+``playbackbyid 878``  
+``playbackbyid 2345 667 135``
+
+
+#### <a name="playbackmany"></a>playbackmany
+Hiermee wordt een groot aantal testcases tegelijk afgespeeld met Excel-bestanden.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``excel_file1``** Volledig pad naar het Excel-bestand. Bestand moet bestaan.  
+**``excel_file2``** Volledig pad naar het Excel-bestand. Bestand moet bestaan.  
+**``excel_fileN``** Volledig pad naar het Excel-bestand. Bestand moet bestaan.  
+
+##### <a name="examples"></a>Voorbeelden
+``playbackmany c:\RSAT\TestCaseParameters\param1.xlsx``  
+``playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx``
+
+
+#### <a name="playbacksuite"></a>playbacksuite
+Hiermee worden alle testcases uit de opgegeven testsuite afgespeeld. U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuites op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``suite_name``** Naam van de gewenste suite.
+
+##### <a name="examples"></a>Voorbeelden
+``playbacksuite suiteName``  
+``playbacksuite sample_suite``
+
+
+#### <a name="quit"></a>quit
+Hiermee wordt de toepassing gesloten.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
+
+
+#### <a name="upload"></a>upload
+Hiermee worden alle bestanden geüpload die bij de opgegeven testsuite of testcases horen.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+
+#### <a name="required-parameters"></a>Vereiste parameters
+**``suite_name``** Alle bestanden die bij de opgegeven testsuite of testcases horen worden geüpload.
+**``testcase_id``** Alle bestanden die bij de opgegeven testcase(s) horen worden geüpload.
+
+##### <a name="examples"></a>Voorbeelden
+``upload sample_suite``  
+``upload 123``  
+``upload 123 456``
+
+
+#### <a name="uploadrecording"></a>uploadrecording
+Hiermee worden alleen opnamebestanden geüpload die bij de opgegeven testcases horen.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+
+##### <a name="required-parameters"></a>Vereiste parameters
+**``testcase_id``** Opnamebestanden die bij de opgegeven testcases horen worden geüpload.
+
+##### <a name="examples"></a>Voorbeelden
+``uploadrecording 123``  
+``uploadrecording 123 456``
+
+
+#### <a name="usage"></a>usage
+Hiermee worden twee manieren weergegeven om deze toepassing aan te roepen: een waarbij gebruik wordt gemaakt van een standaard instellingsbestand en een andere waarbij een instellingsbestand wordt geleverd.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell-voorbeelden
 
@@ -271,7 +522,7 @@ U hebt een testscript waarmee u een nieuwe klant kunt maken. Via scripts kan dez
 
 De klant-id heeft de notatie *ATCUS\<nummer\>*, waarbij \<nummer\> voor een waarde tussen **000000001** en **999999999** staat.
 
-In het volgende voorbeeld wordt één parameter (**start**) gebruikt om het eerste nummer te definiëren dat wordt gebruikt. Er wordt een tweede parameter (**nr**) gebruikt om het aantal klanten te definiëren dat moet worden gemaakt. Voor elke iteratie worden de parameters in het Excel-parameterbestand gewijzigd met behulp van een UpdateCustomer-functie. Vervolgens wordt de RSAT-opdrachtregel aangeroepen in een RunTestCase-functie.
+In het volgende voorbeeld wordt één parameter, **start**, gebruikt om het eerste nummer te definiëren dat wordt gebruikt. Er wordt een tweede parameter, **nr**, gebruikt om het aantal klanten te definiëren dat moet worden gemaakt. Voor elke iteratie worden de parameters in het Excel-parameterbestand gewijzigd met behulp van een UpdateCustomer-functie. Vervolgens wordt de RSAT-opdrachtregel aangeroepen in een RunTestCase-functie.
 
 Open Microsoft Windows PowerShell Integrated Scripting Environment (ISE) in de beheermodus en plak de volgende code in het venster met de naam **Untitled1. ps1**.
 

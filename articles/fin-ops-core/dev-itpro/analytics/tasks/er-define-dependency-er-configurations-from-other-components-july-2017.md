@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026105"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042914"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 
@@ -140,4 +140,3 @@ We verwijderen gemaakte configuraties uit het systeem en downloaden deze terug u
 26. Vouw in de structuur 'Voorbeeldgegevensmodel' uit.
     * Houd er rekening mee dat de modeltoewijzingsconfiguratie 'Voorbeeldtoewijzing' is gedownload met de geselecteerde gegevensmodelconfiguratie. De twee bestanden worden samen gedownload omdat 'Voorbeeldtoewijzing' is gedefinieerd als implementatie van het geselecteerde gegevensmodel en omdat het toepasbaar is op de toepassing. De configuratie 'Voorbeeldtoewijzing (alternatief)' is niet gedownload omdat niet is voldaan aan de voorwaarde voor de vereiste toepassingsversie.   
     * Als u zich aanmeldt bij Finance and Operations, dezelfde provider registreert, toegang krijgt tot hetzelfde LCS-project en dezelfde gegevensmodelconfiguratie downloadt, wordt de configuratie 'Voorbeeldtoewijzing (alternatief)' gedownload en wordt de configuratie 'Voorbeeldtoewijzing' overgeslagen.  
-

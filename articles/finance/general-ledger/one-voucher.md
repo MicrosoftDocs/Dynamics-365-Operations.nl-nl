@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810694"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058012"
 ---
 # <a name="one-voucher"></a>Eén boekstuk
 
@@ -156,7 +156,7 @@ Organisaties willen vaak een overzicht naar het grootboek boeken om de hoeveelhe
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>Meerdere niet-geboekte betalingen aan dezelfde factuur vereffenen
 
-Dit scenario komt meestal voor in detailhandelorganisaties waar klanten met meerdere betalingsmethoden voor hun aankopen kunnen betalen. In dit scenario moet de organisatie meerdere niet-geboekte betalingen kunnen vastleggen en deze ten opzichte van de factuur vereffenen.
+Dit scenario komt meestal voor in organisaties waar klanten met meerdere betalingsmethoden voor hun aankopen kunnen betalen. In dit scenario moet de organisatie meerdere niet-geboekte betalingen kunnen vastleggen en deze ten opzichte van de factuur vereffenen.
 
 Een nieuwe functie die is toegevoegd in Microsoft Dynamics 365 for Operations versie 1611 (november 2016) zorgt dat meerdere niet-geboekte betalingen worden vereffend met één factuur. U hoeft niet langer meerdere klantbetalingen in één boekstuk in te voeren.
 

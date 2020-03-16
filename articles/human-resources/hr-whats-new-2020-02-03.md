@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3925450daa92c88d2c8e2ec04f79a7b0f0a36f2d
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 4abf2b8fee05005757388eb3127ec21de98aa3ad
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008644"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076014"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (3 februari 2020)
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Human Resources. Wijzigingen die van toepassing zijn op buildnummer 8.1.2809. De getallen tussen haakjes in sommige koppen verwijzen naar ondersteuningsnummers in Microsoft Dynamics Lifecycle Services (LCS).
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw of gewijzigd zijn. Wijzigingen die van toepassing zijn op buildnummer 8.1.2809. De getallen tussen haakjes in sommige koppen verwijzen naar ondersteuningsnummers in Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="cant-remove-activities-from-performance-review-form-403542"></a>Kan activiteiten niet verwijderen uit formulier Prestatieoverzicht (403542)
 
@@ -46,10 +46,20 @@ De volgende voorbeeldfuncties zijn beschikbaar op 3 februari 2020:
 Binnenkort komt een nieuwe Common Data Service-oplossing beschikbaar met de volgende wijzigingen:
 
 | Beschrijving | Wisselgeld |
-| --- | --- |
-| Wijzigingen in entiteit **Functiepositie** | <ul><li>**Compensatieregio** toegevoegd</li><li>**Financiële dimensies** toegevoegd</li></ul> |
-| Wijzigingen in entiteit **Medewerker** | <ul><li>**Naamsvolgorde** toegevoegd</li><li>**Werkt thuis** toegevoegd</li><li>**Taal** toegevoegd</li><li>**Anciënniteitsdatum** toegevoegd</li><li>**Jubileumdatum** toegevoegd</li><li>**Oorspronkelijke datum indiensttreding** toegevoegd</li></ul> |
-| Wijzigingen in entiteit **Aanstelling** | <ul><li>**Financiële dimensies** toegevoegd</li><li>**Reden van ontslag** toegevoegd</li><li>**Ontslagdatum** gewijzigd van **Overgangsdatum**</li><li>**Proeftijddatum** toegevoegd</li></ul> |
-| Wijzigingen in entiteit **Adres medewerker** | <ul><li>**Adres** toegevoegd</li><li>**Adresregel 1**, **Adresregel 2** en **Adresregel 3** gemarkeerd voor afschaffing</li></ul> |
-| Entiteiten voor nieuwe instellingen voor variabele compensatie | <ul><li>**Type variabelecompensatieplan**</li><li>**Variabelecompensatieplan**</li><li>**Vestigingsregels**</li><li>**Niveau variabelecompensatieplan**</li></ul> |
-| Nieuwe entiteit **Medewerkerkalender aanstelling** | <ul><li>Entiteit **Werkkalender** toegevoegd</li></ul> |
+| ----------------------------------------- | --- |
+| Wijzigingen in de entiteit **Functie/positie** | **Compensatieregio** toegevoegd</br>**Financiële dimensies** toegevoegd |
+| Wijzigingen in entiteit **Medewerker** | **Naamsvolgorde** toegevoegd</br>**Werkt thuis** toegevoegd</br>**Taal** toegevoegd</br>**Anciënniteitsdatum** toegevoegd</br>**Jubileumdatum** toegevoegd</br>**Oorspronkelijke datum indiensttreding** toegevoegd |
+| Wijzigingen in entiteit **Aanstelling** | **Financiële dimensies** toegevoegd</br>**Reden van ontslag** toegevoegd</br>**Ontslagdatum** gewijzigd van **Overgangsdatum**</br>**Proeftijddatum** toegevoegd |
+| Wijzigingen in entiteit **Adres medewerker** | **Adres** toegevoegd</br>**Adresregel 1**, **Adresregel 2** en **Adresregel 3** gemarkeerd voor afschaffing |
+| Entiteiten voor nieuwe instellingen voor variabele compensatie | **Type variabelecompensatieplan**</br>**Variabelecompensatieplan**</br>**Vestigingsregels**</br>**Niveau variabelecompensatieplan** |
+| Nieuwe entiteit **Medewerkerkalender aanstelling** | Entiteit **Werkkalender** toegevoegd |
+| Nieuwe entiteit **Salarispositiedetail** | **Salarispositiedetail** toegevoegd |
+| Nieuwe entiteit **Titel** | **Titel** toegevoegd. De nieuwe entiteit **Titel** wordt opgenomen in het synchronisatie proces tussen Human Resources en Common Data Service. Er wordt niet eerst verwezen vanuit de entiteiten **Functiepositie** of **Functie**. |
+
+## <a name="see-also"></a>Zie ook
+
+[Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Het updateproces](hr-admin-setup-update-process.md)</br>
+[Functies beheren](hr-admin-manage-features.md)
+

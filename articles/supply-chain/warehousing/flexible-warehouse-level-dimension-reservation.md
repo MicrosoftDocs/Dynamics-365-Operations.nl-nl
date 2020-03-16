@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c0baf96315dd9fe6bc1984d337fd1c50ae47016a
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: cd6ec1013de757214db99ada02170bb6e2af96c0
+ms.sourcegitcommit: f52ddcad105aac4ad2caef709751ff80caf363c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031038"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "3036924"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Beleid voor flexibele dimensiereservering op magazijnniveau
 
@@ -46,7 +46,7 @@ In deze scenario's is de uitdaging dat slechts één reserveringshiërarchie kan
 
 ### <a name="business-scenario"></a>Bedrijfsscenario
 
-In dit scenario gebruikt een bedrijf een voorraadstrategie waarin eindproducten worden bijgehouden met batchnummers. In dit bedrijf wordt ook de WHS-werkbelasting gebruikt. Omdat deze werkbelasting goede logica bevat voor het plannen en uitvoeren van magazijnpick- en verzendbewerkingen voor artikelen met batchnummers, worden de meeste gerede artikelen gekoppeld aan een voorraadreserveringshiërarchie van het type 'Batch-onder\[locatie\]'. Het voordeel van dit type operationele instelling is dat beslissingen (in feite reserveringsbeslissingen) over welke batches moeten worden gepickt en waar deze in het magazijn moeten worden geplaatst, worden uitgesteld totdat de magazijnpickbewerkingen beginnen. Ze worden niet genomen wanneer de order van de klant wordt geplaatst.
+In dit scenario gebruikt een bedrijf een voorraadstrategie waarin eindproducten worden bijgehouden met batchnummers. In dit bedrijf wordt ook de WMS-werkbelasting gebruikt. Omdat deze werkbelasting goede logica bevat voor het plannen en uitvoeren van magazijnpick- en verzendbewerkingen voor artikelen met batchnummers, worden de meeste gerede artikelen gekoppeld aan een voorraadreserveringshiërarchie van het type 'Batch-onder\[locatie\]'. Het voordeel van dit type operationele instelling is dat beslissingen (in feite reserveringsbeslissingen) over welke batches moeten worden gepickt en waar deze in het magazijn moeten worden geplaatst, worden uitgesteld totdat de magazijnpickbewerkingen beginnen. Ze worden niet genomen wanneer de order van de klant wordt geplaatst.
 
 Hoewel de reserveringshiërarchie 'Batch-onder\[locatie\]' de bedrijfsdoelstellingen van het bedrijf goed vervult, vereisen veel van de vaste klanten van het bedrijf dezelfde batch als ze eerder kochten, wanneer ze producten opnieuw bestellen. Daarom zoekt het bedrijf naar flexibiliteit in de manier waarop de batchreserveringsregels worden verwerkt, zodat, afhankelijk van de vraag van de klant naar hetzelfde artikel, de volgende werking optreedt:
 

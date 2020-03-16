@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026058"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042845"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Documenten genereren die toepassingsgegevens bevatten
 
@@ -40,10 +40,14 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van systeembehee
 ## <a name="set-up-foreign-trade-parameters"></a>Parameters voor buitenlandse handel instellen
 1. Ga naar Belasting > Instellen > Buitenlandse handel > Parameters buitenlandse handel.
 2. Klik op het tabblad Nummerreeksen.
-    * Bij het archiveren van details van het Intrastat-rapportageproces moeten we records identificeren van elk archief dat we hebben gemaakt. Daarvoor moet een speciale nummerreeks worden geconfigureerd.  
+
+    Bij het archiveren van details van het Intrastat-rapportageproces moeten we records identificeren van elk archief dat we hebben gemaakt. Daarvoor moet een speciale nummerreeks worden geconfigureerd.  
+
 3. Selecteer de verwijzing 'Intrastat-archief-id'.
 4. Typ een waarde in het veld Nummerreekscode.
-    * Typ of selecteer de waarde 'Fore_2' in het veld 'Nummerreekscode'.  
+
+    Typ of selecteer de waarde 'Fore_2' in het veld 'Nummerreekscode'.  
+
 5. ResolveChanges de nummerreekscode.
 6. Klik op Opslaan.
 7. Sluit de pagina.
@@ -54,18 +58,23 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van systeembehee
 3. Selecteer in de structuur 'Intrastat (model)\Intrastat (indeling)'.
 4. Klik op Uitvoeren.
 5. Typ in het veld Invoeren 'intrastat2.xml'.
-    * intrastat2.xml  
 6. Klik op OK.
 
 ## <a name="review-er-format-executions-results"></a>Resultaten van uitvoering van ER-indeling
 Bekijk het gegenereerde XML-bestand.  
 1. Sluit de pagina.
 2. Ga naar Belasting > Aangiften > Buitenlandse handel > Intrastat.
-    * Open dit formulier met Intrastat-transacties die zijn opgenomen in het gegenereerde elektronische document.  
+
+    Open dit formulier met Intrastat-transacties die zijn opgenomen in het gegenereerde elektronische document.  
+
 3. Klik op Intrastat-archief.
-    * Omdat de uitgevoerde ER-indeling nu instellingen bevat voor het bijwerken van toepassingsgegevens, zijn de details van de voltooide Intrastat-rapportage gearchiveerd. In dit formulier ziet u de koptekstrecord van het gemaakte archief.  
+
+    Omdat de uitgevoerde ER-indeling nu instellingen bevat voor het bijwerken van toepassingsgegevens, zijn de details van de voltooide Intrastat-rapportage gearchiveerd. In dit formulier ziet u de koptekstrecord van het gemaakte archief.  
+
 4. Klik op Details.
-    * In dit formulier ziet u de details van het gemaakte archief.  
+
+    In dit formulier ziet u de details van het gemaakte archief.  
+
 5. Sluit de pagina.
 6. Sluit de pagina.
 7. Sluit de pagina.

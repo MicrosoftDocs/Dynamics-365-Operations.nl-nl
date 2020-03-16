@@ -1,6 +1,6 @@
 ---
 title: Groepsgewijs orders voor detailhandeltransacties maken
-description: Dit onderwerp beschrijft het groepsgewijs maken van orders voor detailhandeltransacties in Microsoft Dynamics 365 Commerce.
+description: Dit onderwerp beschrijft het groepsgewijs maken van orders voor winkeltransacties in Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 10/14/2019
@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f691017ad06d3416e4ba0e86d7a0bc207aba5bd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004269"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057142"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>Groepsgewijs orders voor detailhandeltransacties maken (Openbare preview)
 
 [!include [banner](includes/banner.md)]
-
-
 
 In Dynamics 365 Retail versie 10.0.4 en eerder is het boeken van een overzicht een bewerking die aan het einde van de dag plaatsvindt. Alle transacties worden aan het einde van de dag geboekt. Grote transacties moeten vervolgens in een beperkt tijdvenster worden verwerkt, met soms als gevolg dat er fouten optreden bij het laden, vergrendelen en boeken van overzichten. Bovendien kunnen winkeliers gedurende de dag geen opbrengsten en betalingen in hun boeken toerekenen.
 
@@ -51,11 +49,11 @@ Met de openbare preview voor het groepsgewijs maken van orders in Retail versie 
       
      - Het financiële overzicht is ontworpen om aan het einde van de dag te worden gemaakt en ondersteunt alleen de afsluitingsmethode **Ploeg**. Dit overzicht wordt alleen gebruikt voor financiële afstemming en maakt alleen de journalen voor de verschillen tussen het getelde bedrag en het transactiebedrag voor de verschillende betalingsmethoden, samen met journalen voor andere contante transacties.   
 
-4. Als u het transactieoverzicht wilt berekenen, klikt u op **Detailhandel en commerce > IT detailhandel en commerce > POS-boekingen > Transactieoverzichten in batch berekenen**. Als u het transactieoverzicht in batch wilt boeken, klikt u op **Detailhandel en commerce > IT detailhandel en commerce > POS-boekingen > Transactieoverzichten in batch boeken**.
+4. Als u het transactieoverzicht wilt berekenen, klikt u op **Detailhandel en Commerce > IT detailhandel en Commerce > POS-boekingen > Transactieoverzichten in batch berekenen**. Als u het transactieoverzicht in batch wilt boeken, klikt u op **Detailhandel en Commerce > IT detailhandel en Commerce > POS-boekingen > Transactieoverzichten in batch boeken**.
 
-5. Als u het financiële overzicht wilt berekenen, klikt u op **Detailhandel en commerce > IT detailhandel en commerce > POS-boekingen > Financiële overzichten in batch berekenen**. Als u de financiële overzicht in batch wilt boeken, klikt u op **Detailhandel en commerce > IT detailhandel en commerce > POS-boekingen > Financiële overzichten in batch boeken**.
+5. Als u het financiële overzicht wilt berekenen, klikt u op **Detailhandel en Commerce > IT detailhandel en Commerce > POS-boekingen > Financiële overzichten in batch berekenen**. Als u de financiële overzicht in batch wilt boeken, klikt u op **Detailhandel en Commerce > IT detailhandel en Commerce > POS-boekingen > Financiële overzichten in batch boeken**.
 
 > [!NOTE]
-> De menuopdrachten **Detailhandel en commerce > IT detailhandel en commerce > POS-boekingen > Overzichten in batch berekenen** en **Detailhandel en commerce > IT detailhandel en commerce > POS-boekingen > Overzichten in batch boeken** worden vervangen door deze nieuwe functie.
+> De menuopdrachten **Detailhandel en Commerce > IT detailhandel en Commerce > POS-boekingen > Overzichten in batch berekenen** en **Detailhandel en Commerce > IT detailhandel en Commerce > POS-boekingen > Overzichten in batch boeken** worden vervangen door deze nieuwe functie.
 
-U kunt de typen van transactie- en financiële overzichten ook handmatig maken. Ga naar **Detailhandel en commerce > Afzetkanalen > Winkels** en klik op **Overzichten**. Klik op **Nieuw** en selecteer het type overzicht dat u wilt maken. De velden op de pagina **Overzichten** en de acties onder **Overzichtsgroep** op de pagina laten de relevante gegevens en acties zien op basis van het geselecteerde overzichtstype.
+U kunt de typen van transactie- en financiële overzichten ook handmatig maken. Ga naar **Detailhandel en Commerce > Afzetkanalen > Winkels** en klik op **Overzichten**. Klik op **Nieuw** en selecteer het type overzicht dat u wilt maken. De velden op de pagina **Overzichten** en de acties onder **Overzichtsgroep** op de pagina laten de relevante gegevens en acties zien op basis van het geselecteerde overzichtstype.

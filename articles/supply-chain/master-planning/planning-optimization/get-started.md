@@ -3,7 +3,7 @@ title: Aan de slag met Planningsoptimalisatie
 description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met de functionaliteit Planningsoptimalisatie.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/17/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
-ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
+ms.openlocfilehash: 3e64699005387adcc92e2e7c9fefad68a9de85c0
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "2971459"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076127"
 ---
+# <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
 De functie Planningsoptimalisatie ondersteunt momenteel niet alle functies die beschikbaar zijn in de planningsengine die is ingebouwd in Microsoft Dynamics 365 Supply Chain Management. Het is daarom belangrijk dat u evalueert of de functieset die momenteel beschikbaar is in Planningsoptimalisatie voldoet aan uw behoeften. Standaard is de functionaliteit Planningsoptimalisatie niet ingeschakeld in Dynamics Lifecycle Services (LCS). Daarom hebt u de mogelijkheid om uw beoordeling uit te voeren voordat deze is ingeschakeld.
 
@@ -44,6 +44,9 @@ Als u de hoofdplanning kunt uitvoeren met uw huidige licentie, hoeft u geen extr
 ### <a name="install-the-add-in"></a>De invoegtoepassing installeren
 
 Als u Planningsoptimalisatie wilt gebruiken, moet u de invoegtoepassing Planningsoptimalisatie voor Dynamics 365 Supply Chain Management gebruiken. U kunt de invoegtoepassing openen vanuit uw LCS-project en de functie Planningsoptimalisatie inschakelen via de gebruikersinterface van Supply Chain Management.
+
+> [!NOTE]
+> De vereiste voor Planningsoptimalisatie is een omgeving met grote beschikbaarheid voor LCS (geen OneBox-omgeving), met Dynamics 365 Supply Chain Management versie 10.0.7 of hoger.
 
 1. Meld u aan bij LCS en open de gewenste omgeving.
 1. Ga naar **Volledige details**.

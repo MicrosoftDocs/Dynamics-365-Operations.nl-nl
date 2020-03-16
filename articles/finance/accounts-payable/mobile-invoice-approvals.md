@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658639"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059423"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiele factuurgoedkeuringen
 
@@ -54,8 +54,8 @@ Elke organisatie organiseert en definieert bedrijfsprocessen op een andere manie
     -   Hoeveel boekhoudingsverdelingen (totaalprijs, btw, toeslagen, opsplitsingen, enzovoort) zijn er voor een factuurregel? Pas de 80-20-regel opnieuw toe.
     -   Bevatten de facturen ook boekhoudingsverdelingen in de factuurkoptekst? In dat geval moeten deze boekhoudingsverdelingen dan beschikbaar zijn op het apparaat?
 
-> [!NOTE]
-> In dit onderwerp wordt niet uitgelegd hoe boekhoudingsverdelingen kunnen worden bewerkt, omdat deze functionaliteit momenteel niet wordt ondersteund voor mobiele scenario's.
+    > [!NOTE]
+    > In dit onderwerp wordt niet uitgelegd hoe boekhoudingsverdelingen kunnen worden bewerkt, omdat deze functionaliteit momenteel niet wordt ondersteund voor mobiele scenario's.
 
 -   Willen gebruikers bijlagen voor de factuur op het apparaat zien?
 
@@ -158,9 +158,9 @@ De eerste mobiele pagina die u moet ontwerpen, is de lijst met facturen die ter 
     - Factuurnummer
     - Factuurdatum
 
-  Nadat u de velden zijn toegevoegd, moet de mobiele pagina lijken op de volgende afbeelding. 
+    Nadat u de velden zijn toegevoegd, moet de mobiele pagina lijken op de volgende afbeelding. 
     
-   [![Pagina nadat velden zijn toegevoegd.](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Pagina nadat velden zijn toegevoegd.](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  U moet de volgende kolommen nu ook toevoegen, zodat we workflowacties later kunnen inschakelen.
     - Voltooide taak weergeven
@@ -247,9 +247,10 @@ Voeg workflowacties toe met de pagina **VendMobileInvoiceHeaderDetails**. Als u 
     - De extra workflowgerelateerde kolommen worden verborgen die we eerder op de mobiele lijstpagina hebben toegevoegd. We hebben deze kolommen toegevoegd zodat de app die informatie in context heeft en de volgende stap kan worden uitgevoerd.
     - Op basis van de workflowstap die actief is, wordt deze logica toegepast om slechts twee acties weer te geven.
 
-> [!NOTE]
-> De namen van pagina's en andere besturingselementen in de code moet hetzelfde zijn als de namen in het werkgebied.
+    > [!NOTE]
+    > De namen van pagina's en andere besturingselementen in de code moet hetzelfde zijn als de namen in het werkgebied.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ Voeg workflowacties toe met de pagina **VendMobileInvoiceHeaderDetails**. Als u 
                  },
            };
         }
+    ```
 
 2.  Het codebestand uploaden naar het werkgebied door het tabblad **Logica** te selecteren
 3.  Klik op **Gereed** om de bewerkingsmodus af te sluiten.
@@ -341,7 +343,7 @@ Met vereisten voor dit scenario wordt bevestigd dat er alleen verdelingen op reg
 
 1.  Vervang in de URL de naam van de menuoptie, zoals u eerder hebt gedaan. De pagina die verschijnt, moet lijken op de volgende afbeelding.
 
-[![Pagina Alle verdelingen](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Pagina Alle verdelingen](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Open de mobiele ontwerper met de knop **Instellingen** (tandwiel).
 
@@ -367,16 +369,18 @@ Met vereisten voor dit scenario wordt bevestigd dat er alleen verdelingen op reg
 
 10. Klik op **Werkgebied publiceren** om uw werk op te slaan.
 
-> [!NOTE] 
-> De mobiele pagina **Boekhouding weergeven** is nu nog niet gekoppeld aan een van de mobiele pagina's die we tot nu toe hebben ontworpen. Omdat de gebruiker moet kunnen navigeren naar de pagina **Boekhouding weergeven** van de pagina **Factuurdetails** op het mobiele apparaat, moeten wij navigatie verschaffen vanaf de pagina **Factuurdetails** naar de pagina **Boekhouding weergeven**. We stellen deze navigatie in met behulp van aanvullende logica via JavaScript.
+#### <a name="adding-navigation-to-view-accounting-page"></a>Navigatie toevoegen aan de pagina 'Boekhouding weergeven'
+
+De mobiele pagina **Boekhouding weergeven** is nu nog niet gekoppeld aan een van de mobiele pagina's die we tot nu toe hebben ontworpen. Omdat de gebruiker moet kunnen navigeren naar de pagina **Boekhouding weergeven** van de pagina **Factuurdetails** op het mobiele apparaat, moeten wij navigatie verschaffen vanaf de pagina **Factuurdetails** naar de pagina **Boekhouding weergeven**. We stellen deze navigatie in met behulp van aanvullende logica via JavaScript.
 
 1.  Open het .js-bestand dat u eerder hebt gemaakt en voeg de regels toe die in de volgende code zijn gemarkeerd. Deze code doet twee dingen:
     1.  Dit helpt te garanderen dat gebruikers niet rechtstreeks van het werkgebied naar de pagina **Boekhouding weergeven** kunnen navigeren.
     2.  Er wordt een navigatiebesturingselement ingesteld vanaf de pagina **Factuurdetails** naar de pagina **Boekhouding weergeven**.
 
-> [!NOTE] 
-> De namen van pagina's en andere besturingselementen in de code moet hetzelfde zijn als de namen in het werkgebied.
+    > [!NOTE] 
+    > De namen van pagina's en andere besturingselementen in de code moet hetzelfde zijn als de namen in het werkgebied.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ Met vereisten voor dit scenario wordt bevestigd dat er alleen verdelingen op reg
                  },
            };
         }
-
+    ```
+    
 2.  Het codebestand uploaden naar het werkgebied door het tabblad **Logica** te selecteren om de vorige code te overschrijven
 3.  Klik op **Gereed** om de bewerkingsmodus af te sluiten.
 4.  Klik op **Terug** en vervolgens op **Gereed** om het werkgebied af te sluiten

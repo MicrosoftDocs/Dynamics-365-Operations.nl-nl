@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ff9d722640c86333cb1f9174c640adc2e76e9a5f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022196"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057551"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Overzicht van fiscale integratie voor Commerce-kanalen
 
@@ -36,7 +36,7 @@ Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikb
 - Dien veilig informatie die verband houdt met verkopen en retouren die worden voltooid in Retail POS, in bij een externe webservice die wordt bediend door de belastingdienst.
 - Help intactheid van verkooptransactiegegevens garanderen met behulp van digitale ondertekening.
 
-De functionaliteit voor fiscale integratie is een raamwerk dat een gemeenschappelijke oplossing biedt voor verdere ontwikkeling en aanpassing van de integratie tussen Retail POS en fiscale apparaten en services. De functionaliteit bevat ook fiscale integratievoorbeelden die ondersteuning bieden voor elementaire detailhandelscenario's voor specifieke landen of regio's, en die werken met specifieke fiscale apparaten of services. Een fiscaal integratievoorbeeld bestaat uit verschillende uitbreidingen van de Commerce-onderdelen en is opgenomen in de SDK (Software Development Kit). Zie voor meer informatie over de voorbeelden van fiscale integratie [Voorbeelden van fiscale integratie in de Retail-SDK](#fiscal-integration-samples-in-the-retail-sdk). Zie voor informatie over het installeren en gebruiken van de Retail-SDK [Architectuur van Retail-SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+De functionaliteit voor fiscale integratie is een raamwerk dat een gemeenschappelijke oplossing biedt voor verdere ontwikkeling en aanpassing van de integratie tussen Retail POS en fiscale apparaten en services. De functionaliteit bevat ook fiscale integratievoorbeelden die ondersteuning bieden voor basisscenario's voor specifieke landen of regio's, en die werken met specifieke fiscale apparaten of services. Een fiscaal integratievoorbeeld bestaat uit verschillende uitbreidingen van de Commerce-onderdelen en is opgenomen in de SDK (Software Development Kit). Zie voor meer informatie over de voorbeelden van fiscale integratie [Voorbeelden van fiscale integratie in de Retail-SDK](#fiscal-integration-samples-in-the-retail-sdk). Zie voor informatie over het installeren en gebruiken van de Retail-SDK [Architectuur van Retail-SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Ter ondersteuning van andere scenario's die niet worden ondersteund door een fiscaal integratievoorbeeld, om Retail POS te integreren met andere fiscale apparaten of services of om te voldoen aan vereisten van andere landen of regio's, moet u een bestaand fiscaal integratievoorbeeld uitbreiden of een nieuw voorbeeld maken op basis van een bestaand voorbeeld.
 

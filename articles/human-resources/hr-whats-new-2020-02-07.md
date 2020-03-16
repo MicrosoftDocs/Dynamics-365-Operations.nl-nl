@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78043273fb98a12a8d33f7bb94ba8ad2e9fb49fb
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: c6ca9877eb172794c67ac55b8dc54ed28af9576d
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029952"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076265"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (7 februari 2020)
 
@@ -61,12 +61,18 @@ Binnenkort komt een nieuwe Common Data Service-oplossing beschikbaar met de volg
 
 | Beschrijving | Wisselgeld |
 | ----------------------------------------- | --- |
-| Wijzigingen in entiteit **Functiepositie** | **Compensatieregio** toegevoegd</br>**Financiële dimensies** toegevoegd |
+| Wijzigingen in de entiteit **Functie/positie** | **Compensatieregio** toegevoegd</br>**Financiële dimensies** toegevoegd |
 | Wijzigingen in entiteit **Medewerker** | **Naamsvolgorde** toegevoegd</br>**Werkt thuis** toegevoegd</br>**Taal** toegevoegd</br>**Anciënniteitsdatum** toegevoegd</br>**Jubileumdatum** toegevoegd</br>**Oorspronkelijke datum indiensttreding** toegevoegd |
 | Wijzigingen in entiteit **Aanstelling** | **Financiële dimensies** toegevoegd</br>**Reden van ontslag** toegevoegd</br>**Ontslagdatum** gewijzigd van **Overgangsdatum**</br>**Proeftijddatum** toegevoegd |
 | Wijzigingen in entiteit **Adres medewerker** | **Adres** toegevoegd</br>**Adresregel 1**, **Adresregel 2** en **Adresregel 3** gemarkeerd voor afschaffing |
 | Entiteiten voor nieuwe instellingen voor variabele compensatie | **Type variabelecompensatieplan**</br>**Variabelecompensatieplan**</br>**Vestigingsregels**</br>**Niveau variabelecompensatieplan** |
 | Nieuwe entiteit **Medewerkerkalender aanstelling** | Entiteit **Werkkalender** toegevoegd |
 | Nieuwe entiteit **Salarispositiedetail** | **Salarispositiedetail** toegevoegd |
-| Nieuwe entiteit **Titel** | **Titel** toegevoegd. De nieuwe entiteit **Titel** wordt opgenomen in het synchronisatieproces tussen Human Resources en Common Data Service, maar er wordt aanvankelijk niet naar verwezen vanuit de entiteiten **Functiepositie** of **Functie**. |
+| Nieuwe entiteit **Titel** | **Titel** toegevoegd. De nieuwe entiteit **Titel** wordt opgenomen in het synchronisatie proces tussen Human Resources en Common Data Service. Er wordt niet eerst verwezen vanuit de entiteiten **Functiepositie** of **Functie**. |
 
+## <a name="see-also"></a>Zie ook
+
+[Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Het updateproces](hr-admin-setup-update-process.md)</br>
+[Functies beheren](hr-admin-manage-features.md)

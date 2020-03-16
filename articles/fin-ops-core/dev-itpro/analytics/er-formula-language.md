@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1c6a3f3fd5b55012d89a6c9f0bf2ed5dddd13c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916655"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042706"
 ---
 # <a name="electronic-reporting-formula-language"></a>Formuletaal in Elektronische rapportage
 
@@ -154,7 +154,7 @@ MET ER kunt u de lijst met functies uitbreiden die in ER-expressies worden gebru
 
 U kunt samengestelde expressies maken die gebruikmaken van functies uit verschillende categorieën, op voorwaarde dat de gegevenstypen overeenkomen. Wanneer u functies samen gebruikt, moet het gegevenstype van de uitvoer van de ene functie overeenkomen met het invoergegevenstype dat vereist is voor een andere functie. Als u bijvoorbeeld een mogelijke fout over een lege wilt voorkomen in een binding van een veld aan een ER-indelingselement, combineert u functies uit de categorie [List](er-functions-category-list.md) met een functie uit de categorie [Logical](er-functions-category-logical.md), zoals in het volgende voorbeeld wordt getoond. Hier gebruikt de formule de functie [IF](er-functions-logical-if.md) om te testen of de lijst **IntrastatTotals** leeg is voordat deze de waarde van de vereiste aggregatie uit die lijst retourneert. Als de lijst **IntrastatTotals** leeg is, retourneert de formule **0** (nul).
 
-```
+```vb
 IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
@@ -162,7 +162,7 @@ IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded'
 
 Vaak kunt u hetzelfde resultaat voor gegevenstransformatie op meerdere manieren krijgen door functies uit verschillende categorieën of verschillende functies uit dezelfde categorie te gebruiken. De vorige expressie kan bijvoorbeeld ook worden geconfigureerd met de functie [COUNT](er-functions-list-count.md) uit de categorie [List](er-functions-category-list.md).
 
-```
+```vb
 IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 

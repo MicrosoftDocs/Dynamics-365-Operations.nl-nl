@@ -1,6 +1,6 @@
 ---
 title: Regels in de consistentiecontrole voor detailhandeltransacties uitschakelen
-description: In dit onderwerp wordt de functionaliteit beschreven voor het uitschakelen van de regels in de consistentiecontrole voor detailhandeltransacties in Microsoft Dynamics 365 Commerce.
+description: In dit onderwerp wordt de functionaliteit beschreven voor het uitschakelen van de regels in de consistentiecontrole voor transacties in Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 10/15/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b11b901fafc3907e9d3cae5cd554cc9a868a414c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 51a02d6f305cbad9784cf1b811188d0e06b6f15b
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004338"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057632"
 ---
 # <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a>Regels in de consistentiecontrole voor detailhandeltransacties uitschakelen 
 
@@ -33,8 +33,8 @@ ms.locfileid: "3004338"
 
 Detailhandelaren kunnen bedrijfsscenario's en processen hebben die uniek zijn. Daarom zijn niet alle regels die standaard zijn opgenomen in de consistentiecontrole voor handeltransacties van toepassing op alle detailhandelaren. Om verschillen te kunnen verwerken, biedt Microsoft Dynamics 365 Commerce functionaliteit die kan worden gebruikt om de regels die niet van toepassing zijn, uit te schakelen.
 
-Voor het weergeven van de lijst met regels die beschikbaar zijn in de consistentiecontrole voor detailhandeltransacties in uw omgeving en om de status van elke regel weer te geven, gaat u naar **Detailhandel en commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters** en selecteert u het tabblad **Transactievalidatie**.
+Voor het weergeven van de lijst met regels die beschikbaar zijn in de consistentiecontrole voor detailhandeltransacties in uw omgeving en om de status van elke regel weer te geven, gaat u naar **Detailhandel en Commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters** en selecteert u het tabblad **Transactievalidatie**.
 
 Standaard is de status van elke regel ingesteld op **Ingeschakeld**. Daarom worden alle regels gebruikt om detailhandeltransacties te valideren voordat ze in de handelsoverzichten worden opgenomen. Als u een regel wilt uitschakelen, wijzigt u de status in **Uitgeschakeld**. Uitgeschakelde regels worden niet meegenomen wanneer transacties worden gevalideerd tijdens het berekeningsproces van het overzicht.
 
-Als u het gehele validatieproces wilt overslaan, ongeacht de ingeschakelde regels, gaat u naar **Detailhandel en commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters** en stelt u op het tabblad **Transactievalidatie** de optie **Consistentiecontrole voor detailhandeltransacties uitschakelen** in op **Ja**. Als deze optie is ingesteld op **Nee**, kan deze niet worden teruggezet op **Ja** vanuit de gebruikersinterface.
+Als u het gehele validatieproces wilt overslaan, ongeacht de ingeschakelde regels, gaat u naar **Detailhandel en Commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters** en stelt u op het tabblad **Transactievalidatie** de optie **Consistentiecontrole voor Commerce-transacties uitschakelen** in op **Ja**. Als deze optie is ingesteld op **Nee**, kan deze niet worden teruggezet op **Ja** vanuit de gebruikersinterface.

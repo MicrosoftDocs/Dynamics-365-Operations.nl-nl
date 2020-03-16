@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ec42ab920868f541eeac54556f4f24cb1efaa3a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 42448bd54c00b8642b158f422e17d2b46ee25579
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002445"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057874"
 ---
 # <a name="set-up-a-call-center-channel"></a>Een callcenterkanaal instellen
 
@@ -33,7 +33,7 @@ In dit onderwerp wordt beschreven hoe u een nieuw callcenterkanaal maakt in Micr
 
 ## <a name="overview"></a>Overzicht
 
-In Dynamics 365 Commerce is een callcenter een type detailhandelafzetkanaal dat kan worden gedefinieerd in de toepassing. Door een afzetkanaal voor uw callcenter-entiteiten te definiëren, kan het systeem specifieke gegevens en orderverwerkingsinstellingen koppelen aan verkooporders. Een bedrijf kan meerdere callcenterkanalen definiëren in Commerce. 
+In Dynamics 365 Commerce is een callcenter een type afzetkanaal dat kan worden gedefinieerd in de toepassing. Door een afzetkanaal voor uw callcenter-entiteiten te definiëren, kan het systeem specifieke gegevens en orderverwerkingsinstellingen koppelen aan verkooporders. Een bedrijf kan meerdere callcenterkanalen definiëren in Commerce. 
 
 Controleer vóór het maken van een nieuw callcenterkanaal of u de [Vereisten voor het instellen van kanalen](channels-prerequisites.md) hebt voltooid.
 

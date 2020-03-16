@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180985"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081991"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Regels maken voor Optimization advisor
 
@@ -36,7 +36,7 @@ Een *regel* is een controle van toepassingsgegevens. Als aan de voorwaarde die d
 
 Als u een nieuwe regel voor de **Optimization advisor** wilt maken, voegt u een nieuwe klasse toe die de abstracte klasse **SelfHealingRule** uitbreidt, de **IDiagnosticsRule**-interface implementeert en is voorzien van het kenmerk **DiagnosticRule**. De klasse moet ook beschikken over een methode die is voorzien van het kenmerk **DiagnosticsRuleSubscription**. Volgens afspraak wordt dat gedaan in de methode **opportunityTitle**, die later zal worden besproken. Deze nieuwe klasse kan worden toegevoegd aan een aangepast model met een afhankelijkheid van het model **SelfHealingRules**. In het volgende voorbeeld wordt de regel die wordt geïmplementeerd, **RFQTitleSelfHealingRule** genoemd.
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 De abstracte klasse **SelfHealingRule** heeft abstracte methoden die moeten worden geïmplementeerd in overnemende klassen. De kern is de methode **evaluate**, die resulteert in een lijst van de verkoopkansen geïdentificeerd door de regel. Verkoopkansen kunnen per rechtspersoon zijn of kunnen gelden voor het gehele systeem.
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ Verkoopkansen kunnen ook voor meerdere bedrijven zijn. In dit geval is het omvat
 
 De volgende code toont de methode **findRFQCasesWithEmptyTitle**, die de id's van de offerteaanvraaggevallen retourneert die lege titels hebben.
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ De titel die wordt geretourneerd door **opportunityTitle** wordt weergegeven ond
 
 Hier volgt een voorbeeld van de implementatie. Onbewerkte tekenreeksen worden gebruikt ter vereenvoudiging, maar een juiste implementatie vereist labels. 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 De omschrijving die wordt geretourneerd door **opportunityDetails**, wordt weergegeven in het zijvenster met meer informatie over de verkoopkans. Dit gebruikt het argument **SelfHealingOpportunity**, dat een **Gegevens**-veld is dat kan worden gebruikt voor meer informatie over de verkoopkans. In het voorbeeld retourneert de methode de id's van de offerteaanvraaggevallen met een lege titel. 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ De twee resterende te implementeren abstracte methoden zijn **provideHealingActi
 
 **provideHealingAction** retourneert true als een herstelactie wordt verschaft, anders wordt het resultaat false. Als true wordt geretourneerd, moet de methode **performAction** worden geïmplementeerd, anders wordt een fout gegenereerd. De methode **performAction** gebruikt een argument **SelfHealingOpportunity** waarin de gegevens kunnen worden gebruikt voor de actie. In het voorbeeld opent de actie de **PurchRFQCaseTableListPage**, voor handmatige correctie. 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ Afhankelijk van de bijzonderheden van de regel, is het mogelijk een automatische
 > [!NOTE]
 > De menuopdracht moet een actiemenuopdracht zijn voor een correcte beveiliging. Andere typen menuopdrachten, zoals **weergavemenuopdrachten**, werken niet goed.
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 Nadat de regel is gecompileerd, de volgende taak uitvoeren om het te laten weergeven in de gebruikersinterface (UI).
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ De regel wordt weergegeven in het formulier de **Diagnosevalidatieregel** dat be
 
 Het volgende voorbeeld is een codefragment met het geraamte van een regel, met inbegrip van alle vereiste methoden en kenmerken. Hiermee kunt u aan de slag gaan met het schrijven van nieuwe regels. De labels en actiemenuopdrachten in het voorbeeld worden alleen voor demonstratiedoeleinden gebruikt.
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35aad9bf89ba8c1ed6451304d8fc4fc6ffa575b5
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251150"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057774"
 ---
 # <a name="trade-allowance-management"></a>Beheer van handelstoeslag
 
 [!include [banner](../includes/banner.md)]
 
-Beheer van handelstoeslag helpt bedrijven verkooppromotieprogramma's te beheren die in de detailhandel monetaire vergoedingen in de vorm van 'betalen naar prestaties' bieden aan klanten die doelstellingen op gebied van volume en gedrag halen. De mogelijkheden van de functie zijn ontworpen voor bedrijven die zich op uitgebreide promote-to-profit processen richten, van promotiefondsbudgettering en -toewijzing tot vergoedingencontractinstellingen, maken en verwerken van claims, tot betalingsverwerking, tot analyse van effectiviteit van promotie.
+Beheer van handelstoeslag helpt bedrijven verkooppromotieprogramma's te beheren die monetaire vergoedingen in de vorm van 'betalen naar prestaties' bieden aan klanten die doelstellingen op gebied van volume en gedrag halen. De mogelijkheden van de functie zijn ontworpen voor bedrijven die zich op uitgebreide promote-to-profit processen richten, van promotiefondsbudgettering en -toewijzing tot vergoedingencontractinstellingen, maken en verwerken van claims, tot betalingsverwerking, tot analyse van effectiviteit van promotie.
 
 
 Dit artikel biedt een uitgebreid overzicht van de functie Beheer handelstoeslag en maakt u vertrouwd met de gebruikelijke reeks taken die betrekking hebben op het beheren van een verkooppromotieprogramma. Verschillende typen gebruikers die operationele en besluitvormingsverantwoordelijkheden hebben, zullen deze functionaliteit naar verwachting gebruiken om hun respectieve doelen te bereiken:
@@ -61,7 +61,7 @@ Een handelstoeslagovereenkomst is een aanmoedigingsprogramma waar monetaire verg
 
 Fondsen die worden toegewezen aan toeslagovereenkomsten worden vastgelegd op de pagina **Fondsen**. Als u de pagina **Fondsen** wilt openen, selecteert u **Verkoop en marketing** \>**Handelstoeslagen** \> **Fondsen** \> **Fondsen**.
 
-![Pagina Fondsen](./media/trade-allowance-management-funds-page.png "Pagina Fondsen")
+![Fondsenpagina](./media/trade-allowance-management-funds-page.png "Fondsenpagina")
 
 Op de pagina **Fondsen** kunt u de details van promotiefondsen bekijken.
 
@@ -105,7 +105,7 @@ Het tabblad **Merchandisinggebeurtenissen** bevat de typen gebeurtenissen die do
 
 Wanneer u de merchandisinggebeurtenis selecteert en vervolgens het tabblad **Bedragen** selecteert, vindt u de details voor de gebeurtenis.
 
-![Regels voor handelstoeslagovereenkomsten](./media/trade-allowance-management-agreements-lines.png "Regels voor handelstoeslagovereenkomsten")
+![Regels van handelstoeslagovereenkomst](./media/trade-allowance-management-agreements-lines.png "Regels van handelstoeslagovereenkomst")
 
 In de sectie **Handelstoeslagregels** geeft u de hoeveelheids- of bedragbereiken op die de klant moet realiseren voor definities om de beloningen te verkrijgen.
 

@@ -3,7 +3,7 @@ title: Veelgestelde vragen workflow
 description: In dit onderwerp worden antwoorden op veelgestelde vragen over het workflowsysteem gegeven.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934904"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076081"
 ---
 # <a name="workflow-faq"></a>Veelgestelde vragen over werkstromen
 
@@ -48,9 +48,13 @@ Hier volgen enkele belangrijke punten met betrekking tot het toevoegen van waars
     - In een toekomstige voegen we een actiecentrumbericht toe om aan workflowwerkitems aan gebruikers toe te wijzen. 
 - Meldingen toevoegen aan workflows
     - Actiecentrumberichten kunnen worden gemaakt voor specifieke gebruikers, zoals een bericht dat is gemaakt op basis van een workflow in X++.
-    - [Workflows bevatten zakelijke gebeurtenissen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) die de klant kan gebruiken voor het activeren van flows met de gewenste meldingen.   
+    - [Werkstromen bevatten zakelijke gebeurtenissen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) die de klant kan gebruiken voor het activeren van Flows met de gewenste meldingen.   
 
-Als gebruikers niet de juiste meldingen vanuit het actiecentrum ontvangen wanneer aan hen een workflowwerkitem wordt toegewezen, gebruikt u [Zakelijke gebeurtenissen voor workflows](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) met Microsoft Power Automate om aanvullende of andere meldingen te bieden.
+Als gebruikers niet de juiste meldingen vanuit het actiecentrum ontvangen wanneer aan hen een werkitem voor werkstromen wordt toegewezen, gebruikt u [Zakelijke gebeurtenissen voor werkstromen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) met Microsoft Power Automate om aanvullende of andere meldingen te bieden.
 
-## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>Workfloweditor kan niet worden gestart onder ADFS 
+## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Waarom kan ik de werkstroomeditor niet starten onder AD FS?
 Wanneer de workfloweditor wordt uitgevoerd onder AD FS (Active Directory Federation Services) in een bijgewerkte omgeving, kan de workfloweditor problemen ondervinden bij het starten. Als dit het geval is, zorgt u ervoor dat de URL https://dynamicsaxworkfloweditor/ wordt toegevoegd aan de eigenschap **Microsoft Dynamics 365 for Operations On-premises - Workflow - Systeemeigen toepassing** in de AD FS-instellingen.
+
+## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Waarom krijg ik SQL-impasses bij het verwerken van werkstromen? 
+De standaardveldwaarde voor **Aantal werkstroomartikelen per batchtaak** op de pagina **Werkstroomparameters** is 0. De waarde 0 geeft aan dat de standaardwaarde 20 artikelen per batch wordt gewijzigd. Wees voorzichtig met het aanpassen van deze waarde omdat een groot aantal artikelen per batch (> 40) SQL-impasses kan veroorzaken.
+

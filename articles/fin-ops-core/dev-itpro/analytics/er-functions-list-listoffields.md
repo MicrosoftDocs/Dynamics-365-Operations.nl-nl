@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91e4658043278b9b8d73766cc0deac5d50d51a59
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 0d51b59c437bd216c6d229546136bb604239fa92
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916149"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041993"
 ---
 # <a name="LISTOFFIELDS">De ER-functie LISTOFFIELDS</a>
 
@@ -33,13 +33,13 @@ De functie `LISTOFFIELDS` retourneert een *recordlijstwaarde* die wordt gemaakt 
 
 ## <a name="syntax-1"></a>Syntaxis 1
 
-```
+```vb
 LISTOFFIELDS (path)
 ```
 
 ## <a name="syntax-2"></a>Syntaxis 2
 
-```
+```vb
 LISTOFFIELDS (path, language)
 ```
 
@@ -121,7 +121,7 @@ U gebruikt het gegevensbrontype *Berekend veld* om de gegevensbronnen **enumType
 
 In dit geval kunt u de volgende expressie gebruiken om het label van de opsommingswaarde in Zwitsers Duits te krijgen, als deze vertaling beschikbaar is. Als de Zwitsers Duitse vertaling niet beschikbaar is, is het label in het Duits.
 
-```
+```vb
 IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 ```
 

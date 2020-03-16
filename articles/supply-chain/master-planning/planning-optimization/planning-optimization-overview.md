@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: aae9ea56fc2174df56274776993c68b11c0521d0
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 9ccf00b6fcd1e3a6002086360b1a4c5c464ba054
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773932"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076150"
 ---
+# <a name="planning-optimization-overview"></a>Overzicht van Planningsoptimalisatie
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
-
-# <a name="planning-optimization-overview"></a>Overzicht van Planningsoptimalisatie
 
 Met de invoegtoepassing Planningsoptimalisatie voor Microsoft Dynamics 365 Supply Chain Management kan de berekening van de hoofdplanning buiten Dynamics 365 Supply Chain Management en de gerelateerde SQL-database plaatsvinden. De voordelen die zijn gekoppeld aan de functionaliteit Planningsoptimalisatie omvatten betere prestaties en minimale gevolgen voor de SQL-database tijdens uitvoeringen van de hoofdplanning. Snelle planningsuitvoeringen kunnen zelfs tijdens kantooruren worden uitgevoerd, zodat planners direct kunnen reageren op vraag- of parameterwijzigingen.
 
