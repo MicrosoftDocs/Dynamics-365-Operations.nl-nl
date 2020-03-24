@@ -1,9 +1,9 @@
 ---
-title: Productaanbevelingen ontvangen met behulp van demogegevens
+title: Aanbevelingen maken met voorbeeldgegevens
 description: Dit document biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042775"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127831"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>Productaanbevelingen ontvangen met behulp van demogegevens
+# <a name="create-recommendations-with-demo-data"></a>Aanbevelingen maken met voorbeeldgegevens
+
+[!include [banner](includes/banner.md)]
+
 Dit document biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
 
 Productaanbevelingen voor meerdere kanalen bieden een reeks redactioneel samengestelde of door het programma gegenereerde lijsten met producten. Deze lijsten kunnen worden gebruikt in verschillende scenario's, afhankelijk van de zakelijke behoefte. Meer informatie over lijsten met productaanbevelingen vindt u in [Overzicht van productaanbevelingen](product-recommendations.md).
@@ -67,4 +70,22 @@ De extensie bevat een gegevensbestand met de naam RecoMockDataset.csv waarmee u 
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
-[Omgevingsplanning](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+
+[Productaanbevelingen inschakelen](enable-product-recommendations.md)
+
+[Gepersonaliseerde aanbevelingen inschakelen](personalized-recommendations.md)
+
+[Afmelden voor gepersonaliseerde aanbevelingen](personalization-gdpr.md)
+
+[Lijsten met aanbevelingen toevoegen aan e-commerce-site](add-reco-list-to-page.md)
+
+[Productaanbevelingen toevoegen op POS](product.md)
+
+[Aanbevelingen toevoegen aan het transactiescherm](add-recommendations-control-pos-screen.md)
+
+[Resultaten van AI-ML-aanbevelingen aanpassen](modify-product-recommendation-results.md)
+
+[Handmatig gecureerde aanbevelingen maken](create-editorial-recommendation-lists.md)
+
+[Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)

@@ -3,7 +3,7 @@ title: Inkomende voorraadbewerking in POS
 description: In dit onderwerp worden de mogelijkheden van inkomende voorraadbewerking van het verkooppunt (POS) beschreven.
 author: hhaines
 manager: annbe
-ms.date: 02/07/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,17 +19,16 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0f519ac3b5dd854d0c31b67382f46d0ab116ec7e
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: b212906dcf037171af264c60720f361215eed599
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071853"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123894"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Inkomende voorraadbewerking in POS
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In Microsoft Dynamics 365 Commerce versie 10.0.10 en hoger worden inkomende en uitgaande bewerkingen op het verkooppunt (POS) vervangen door de bewerking voor orderverzameling en ontvangst.
 

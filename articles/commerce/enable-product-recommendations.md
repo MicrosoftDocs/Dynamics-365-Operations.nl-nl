@@ -3,7 +3,7 @@ title: Productaanbevelingen inschakelen
 description: In dit onderwerp wordt uitgelegd hoe u productaanbevelingen kunt doen op basis van kunstmatige intelligentie-machine learning (AI-ML) die beschikbaar is voor klanten van Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d3f1bc2526eeacb4bd6338a0679eadd95a75989
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 879fccb063ca0b74e0f022a9edf6a15f7d1311ae
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024951"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127877"
 ---
 # <a name="enable-product-recommendations"></a>Productaanbevelingen inschakelen
 
@@ -38,7 +38,7 @@ Houd er rekening mee dat productaanbevelingen alleen worden ondersteund voor Com
 
 Zie [ADLS in een Dynamics 365-omgeving inschakelen](enable-ADLS-environment.md) voor stapsgewijze instructies voor het inschakelen van ADLS.
 
-Zorg er bovendien voor dat RetailSale-metingen zijn ingeschakeld. [Hier](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-measures) vindt u meer informatie over dit instellingsproces.
+Zorg er bovendien voor dat RetailSale-metingen zijn ingeschakeld. [Hier](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures) vindt u meer informatie over dit instellingsproces.
 
 
 ## <a name="turn-on-recommendations"></a>Aanbevelingen inschakelen
@@ -66,17 +66,27 @@ Nadat u aanbevelingen in de Commerce-backoffice hebt ingeschakeld, moet het deel
 
 Zie [Persoonlijke aanbevelingen inschakelen](personalized-recommendations.md) voor meer informatie over het ontvangen van persoonlijke productaanbevelingen.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
+[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+
 [Gepersonaliseerde aanbevelingen inschakelen](personalized-recommendations.md)
 
-[Lijsten met productaanbevelingen toevoegen aan pagina's](add-reco-list-to-page.md)
+[Afmelden voor gepersonaliseerde aanbevelingen](personalization-gdpr.md)
 
-[Het deelvenster met aanbevelingen toevoegen aan POS-apparaten](add-recommendations-control-pos-screen.md)
+[Lijsten met aanbevelingen toevoegen aan e-commerce-site](add-reco-list-to-page.md)
 
-[Overzicht productverzamelingsmodule](product-collection-module-overview.md)
+[Productaanbevelingen toevoegen op POS](product.md)
 
-[ADLS inschakelen in een Dynamics 365-omgeving](enable-ADLS-environment.md)
+[Aanbevelingen toevoegen aan het transactiescherm](add-recommendations-control-pos-screen.md)
+
+[Resultaten van AI-ML-aanbevelingen aanpassen](modify-product-recommendation-results.md)
+
+[Handmatig gecureerde aanbevelingen maken](create-editorial-recommendation-lists.md)
+
+[Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
+
+[Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
 

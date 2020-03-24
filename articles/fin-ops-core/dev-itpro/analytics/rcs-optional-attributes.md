@@ -16,14 +16,16 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 10795c90cb90961c17a4326b71ed43dc72039f2b
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769942"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117420"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Bestanden in XML-indeling importeren met optionele kenmerken
+
+[!include [banner](../includes/banner.md)]
 
 U kunt ER-indelingen (elektronische rapportage) ontwerpen om inkomende elektronische documenten te parseren in XML-indeling. U kunt bepaalde kenmerken van XML-elementen als optioneel specificeren in de ontworpen ER‑indeling. Hiermee kunt u binnenkomende bestanden met en zonder dergelijke XML-kenmerken op de juiste manier verwerken. Vervolgens kunt u de inhoud van deze bestanden gebruiken om toepassingsgegevens bij te werken.
 
@@ -52,17 +54,17 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 7. Klik op **Toevoegen**.
 8. Klik op **Nieuw** om het uitklapdialoogvenster te openen.
 9. Typ het veld **Naam** 'Lijst'.
-10. Selecteer in het veld **Itemtype** **Recordlijst**.
-11. Klik op **Toevoegen**.
-12. Klik op **Nieuw** om het uitklapdialoogvenster te openen.
-13. Typ in het veld **Naam** 'Code'.
-14. Selecteer in het veld **Itemtype** **Tekenreeks**.
-15. Klik op **Toevoegen**.
-16. Klik op **Opslaan**.
-17. Sluit de pagina.
-18. Klik op **Status wijzigen**.
-19. Klik op **Voltooien**.
-20. Klik op **OK**.
+10.    Selecteer in het veld **Itemtype** **Recordlijst**.
+11.    Klik op **Toevoegen**.
+12.    Klik op **Nieuw** om het uitklapdialoogvenster te openen.
+13.    Typ in het veld **Naam** 'Code'.
+14.    Selecteer in het veld **Itemtype** **Tekenreeks**.
+15.    Klik op **Toevoegen**.
+16.    Klik op **Opslaan**.
+17.    Sluit de pagina.
+18.    Klik op **Status wijzigen**.
+19.    Klik op **Voltooien**.
+20.    Klik op **OK**.
 
 ## <a name="create-a-format-for-data-import"></a>Een indeling maken voor het importeren van gegevens
 1. Klik op **Configuratie maken** om het dialoogvenster voor beëindigen te openen.
@@ -81,32 +83,32 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 7. Selecteer **XML\Element** in de structuur.
 8. Typ in het veld **Naam** 'document'.
 9. Selecteer in het veld **Multiplicity** **Eén veel**.
-10. Klik op **OK**.
-11. Selecteer in de structuur **basis\document**.
-12. Klik op **Toevoegen** om het dialoogvenster voor beëindigen te openen.
-13. Selecteer **XML\Attribute** in de structuur.
-14. Typ in het veld **Naam** 'id'.
-15. Klik op **OK**.
-16. Klik op **Opslaan**.
+10.    Klik op **OK**.
+11.    Selecteer in de structuur **basis\document**.
+12.    Klik op **Toevoegen** om het dialoogvenster voor beëindigen te openen.
+13.    Selecteer **XML\Attribute** in de structuur.
+14.    Typ in het veld **Naam** 'id'.
+15.    Klik op **OK**.
+16.    Klik op **Opslaan**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Een indelingstoewijzing ontwerpen om geparseerde informatie op te slaan in het gegevensmodel
-1.  Klik op **Indeling aan model toewijzen**.
-2.  Klik op **Nieuw**.
-3.  Typ of selecteer een waarde in het veld **Definitie**.
-4.  Typ in het veld **Naam** 'Toewijzing'.
-5.  Klik op **Opslaan**.
-6.  Klik op **Ontwerper**.
-7.  Vouw in de structuur **indeling** uit.
-8.  Vouw in de structuur **format\root: XML Element(root)** uit.
-9.  Selecteer in de structuur **format\root: XML Element(root)\document: XML Element 1..* (document)**.
-10. Klik op **Binden**.
-11. Vouw in de structuur **format\root: XML Element(root)\document: XML Element 1..* uit (document)**.
-12. Selecteer in de structuur **format\root: XML Element(root)\document: XML Element 1..* (document)\id**.
-13. Vouw in de structuur **Lijst = format.root.document** uit.
-14. Selecteer in de structuur **Lijst = format.root.document\Code** uit.
-15. Klik op **Binden**.
-16. Klik op **Opslaan**.
-17. Sluit de pagina.
+1.    Klik op **Indeling aan model toewijzen**.
+2.    Klik op **Nieuw**.
+3.    Typ of selecteer een waarde in het veld **Definitie**.
+4.    Typ in het veld **Naam** 'Toewijzing'.
+5.    Klik op **Opslaan**.
+6.    Klik op **Ontwerper**.
+7.    Vouw in de structuur **indeling** uit.
+8.    Vouw in de structuur **format\root: XML Element(root)** uit.
+9.    Selecteer in de structuur **format\root: XML Element(root)\document: XML Element 1..* (document)**.
+10.    Klik op **Binden**.
+11.    Vouw in de structuur **format\root: XML Element(root)\document: XML Element 1..* uit (document)**.
+12.    Selecteer in de structuur **format\root: XML Element(root)\document: XML Element 1..* (document)\id**.
+13.    Vouw in de structuur **Lijst = format.root.document** uit.
+14.    Selecteer in de structuur **Lijst = format.root.document\Code** uit.
+15.    Klik op **Binden**.
+16.    Klik op **Opslaan**.
+17.    Sluit de pagina.
 
 ## <a name="run-format-mapping"></a>Indelingstoewijzing uitvoeren
 1. Klik op **Uitvoeren**.
@@ -114,7 +116,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 3. Klik op **OK**.
 
 > [!NOTE]
-> Het geselecteerde bestand is niet geïmporteerd omdat het indelingsontwerp ervan uitgaat dat er een 'id'‑kenmerk bestaat voor het element 'document ', maar het geïmporteerde bestand bevat geen kenmerk.
+> Het geselecteerde bestand is niet geïmporteerd omdat het indelingsontwerp ervan uitgaat dat er een id‑kenmerk bestaat voor het element document, maar het geïmporteerde bestand bevat geen kenmerk.
 
 ## <a name="modify-format-structure-to-handle-xml-attribute-as-optional"></a>Indelingsstructuur wijzigen om het XML-kenmerk als optioneel te verwerken
 1. Sluit de pagina.
@@ -128,4 +130,4 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 2. Klik op **Uitvoeren**.
 3. Klik op **Bladeren** en Selecteer het bestand **IncomingdocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Klik op **OK**.
-5. Bekijk het gegenereerde bestand. Zie dat hetzelfde bestand is geïmporteerd omdat het indelingsontwerp nu het 'id'‑kenmerk voor het element 'document' beschouwt als optioneel.
+5. Bekijk het gegenereerde bestand. Zie dat hetzelfde bestand is geïmporteerd omdat het indelingsontwerp nu het id‑kenmerk voor het element document beschouwt als optioneel.

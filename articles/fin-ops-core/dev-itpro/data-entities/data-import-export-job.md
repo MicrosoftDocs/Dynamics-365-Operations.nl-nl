@@ -3,7 +3,7 @@ title: Overzicht van gegevensimport- en exporttaken
 description: Gebruik het werkgebied Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 02/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b852a73268251241cd66a07d7e4f4720706c0d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184549"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124607"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -191,8 +191,11 @@ Bij het plannen van het opschoningsproces moeten de volgende parameters worden o
 
 -   **Aantal dagen om historie te behouden** - Deze instelling wordt gebruikt om te beheren hoeveel uitvoeringshistorie moet worden bewaard. Dit wordt in aantal dagen uitgedrukt. Wanneer de opschoningstaak is gepland als een terugkerende batchtaak, fungeert deze instelling als een continu bewegend venster, waarbij de historie gedurende het opgegeven aantal dagen intact blijft terwijl de rest wordt verwijderd. Standaard is het aantal dagen 7.
 
--   **Aantal uren om de taak uit te voeren** – Afhankelijk van de hoeveelheid historie die moet worden opgeschoond, kan de totale uitvoeringstijd voor de opschoningstaak variëren van enkele minuten tot enkele uren. Omdat het opschonen van de genoemde tabellen moet worden uitgevoerd wanneer er geen andere gegevensbeheeractiviteit in het systeem is, wordt het belangrijk ervoor te zorgen dat de opschoningstaak wordt voltooid voordat de bedrijfsactiviteit wordt gestart.
+-   **Aantal uren om de taak uit te voeren** – Afhankelijk van de hoeveelheid historie die moet worden opgeschoond, kan de totale uitvoeringstijd voor de opschoningstaak variëren van enkele minuten tot enkele uren. Deze parameter moet worden ingesteld op het aantal uren dat de taak wordt uitgevoerd. Nadat de opschoontaak gedurende het opgegeven aantal uren is uitgevoerd, wordt de taak afgesloten en wordt de opschoonbewerking hervat de volgende keer wanneer de taak wordt uitgevoerd op basis van het terugkeerschema.
 
     Een maximale uitvoeringstijd kan worden opgegeven door een maximum in te stellen voor het aantal uren dat de taak met deze instelling moet worden uitgevoerd. De opschoningslogica doorloopt één taakuitvoering-ID tegelijk in een chronologische volgorde, waarbij de oudste het eerst wordt opgeschoond. Er worden geen nieuwe uitvoering-id's voor opschonen meer opgehaald wanneer de resterende uitvoeringsduur binnen de laatste 10% van de opgegeven duur is. In sommige gevallen wordt verwacht dat de opschoningstaak langer duurt dan de opgegeven maximale tijd. Dit is grotendeels afhankelijk van het aantal records dat moet worden verwijderd voor de huidige uitvoerings-id die is gestart voordat de drempel van 10% is bereikt. De opschoning die is gestart, moet worden voltooid om de gegevensintegriteit te waarborgen, wat betekent dat opschonen ondanks overschrijding van de opgegeven limiet wordt voortgezet. Wanneer dit voltooid is, worden geen nieuwe uitvoerings-id's opgehaald en wordt de opschoningstaak voltooid. De resterende uitvoeringshistorie die door gebrek aan uitvoeringstijd niet is opgeschoond, wordt voor de volgende ingeplande opschoning opgehaald. De standaard- en minimumwaarde voor deze instelling is 2 uur.
 
 -   **Terugkerende batch** – De opschoningstaak kan worden uitgevoerd als een eenmalige, handmatige uitvoering, of kan worden gepland voor terugkerende batchuitvoering. De batch kan worden gepland met de instellingen bij **Op de achtergrond uitvoeren**, de standaardinstelling voor batchuitvoering.
+
+> [!NOTE]
+> Als records in de faseringstabellen niet volledig worden opgeschoond, controleert u of de opschoontaak gepland staat voor uitvoering in het terugkeerpatroon. Zoals hierboven beschreven, worden bij een opschoningsbewerking slechts zoveel uitvoerings-id's opgeschoond als mogelijk is binnen het opgegeven maximale aantal uren. Om door te gaan met het opschonen van resterende faseringsrecords, moet de taak worden gepland voor periodieke uitvoering.

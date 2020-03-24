@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 66d5b10e1471b98274d4049df18a2e53873f789a
-ms.sourcegitcommit: 92cd55028be556a0bd41b6972c9c6d14b695dfa0
+ms.openlocfilehash: c04e2b2c0e5d7f28ea688578b3e1d7a1e1d9f6d3
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947475"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117443"
 ---
 # <a name="cancel-a-master-planning-job"></a>Een hoofdplanningstaak annuleren
+
+[!include [banner](../includes/banner.md)]
 
 In Microsoft Dynamics 365 Supply Chain Management zijn er meerdere opties voor het annuleren van een hoofdplanningstaak. U kunt bijvoorbeeld een hoofdplanningstaak annuleren als deze per ongeluk is gestart of langer duurt dan verwacht en u deze wilt beëindigen. U kunt een planningstaak het beste annuleren via de de pagina **Onvoltooide planningsprocessen**. Alternatieve opties op de pagina's **Batchtaken** en **Verbeterde batchtaken** mogen alleen worden gebruikt als het annuleren van de hoofdplanningstaak via de pagina **Onvoltooide planningsprocessen** niet binnen enkele minuten is voltooid.
 

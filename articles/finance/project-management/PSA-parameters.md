@@ -3,7 +3,7 @@ title: Parameters van Project Service Automation-integratie
 description: In dit onderwerp wordt uitgelegd hoe u kunt configureren hoe standaardgegevens worden ingevoerd wanneer u Microsoft Dynamics 365 for Project Service Automation met Microsoft Dynamics 365 Finance integreert.
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: f7cef5384812e0dcb7d5e084ddd7668a7687a259
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd09dad15112fd71bfd386e0072a77a4121c96e0
+ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174813"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096246"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation-integratieparameters
 
 [!include[banner](../includes/banner.md)]
 
 Op de pagina **Integratieparameters Project Service Automation** kunt u configureren hoe standaardgegevens worden ingevoerd wanneer u Dynamics 365 Project Service Automation integreert met Dynamics 365 Finance. Als u projecten met succes wilt synchroniseren vanuit Project Service Automation met Finance, moet u de volgende velden instellen.
+
+Als u de pagina **Project Service Automation-integratieparameters** wilt openen, gaat u naar **Projectbeheer en boekhouding** \> **Instellingen** \> **Dynamics 365 for Project Service Automation-integratieparameters**. 
 
 > [!NOTE]
 > - Projecttaakintegratie, onkostentransactiecategorieën, uurramingen, onkostenramingen en functionaliteitvergrendeling zijn beschikbaar in versie 8.0.

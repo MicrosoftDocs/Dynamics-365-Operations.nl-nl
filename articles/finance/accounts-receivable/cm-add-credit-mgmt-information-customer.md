@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7ad1b8ff9f00dba41c02e6426662a03c6c6211b
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 872d129494b815d6dbf88cc9f84b4e80723a8d6d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015174"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124318"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Informatie over kredietbeheer voor klanten toevoegen
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Nadat u de parameters voor kredietbeheer hebt ingesteld, kunt u meer informatie voor elke klant toevoegen. Deze gegevens sturen de kredietbeheerprocessen aan en bieden tevens aanvullende informatie die incassomedewerkers helpt klanten te beheren.
 

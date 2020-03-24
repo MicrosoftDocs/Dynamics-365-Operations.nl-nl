@@ -1,9 +1,9 @@
 ---
 title: Maken en werken met aangepaste velden
-description: Dit onderwerp beschrijft hoe aangepaste velden te maken om de toepassing aan te passen aan hun bedrijf.
+description: In dit onderwerp wordt aangegeven hoe u in de gebruikersinterface aangepaste velden kunt maken om de toepassing aan te passen aan uw bedrijf.
 author: jasongre
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812500"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112331"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Maken en werken met aangepaste velden
 
 [!include [banner](../includes/banner.md)]
 
-Hoewel er een uitgebreide reeks kant-en-klare velden voor het beheren van een breed scala van bedrijfsprocessen is, is er soms behoefte in een bedrijf om aanvullende informatie bij te houden in het systeem. Voor deze behoefte kunt u aangepaste velden maken om de toepassing aan te passen aan uw bedrijf, als u machtigingen hebt voor de functie.
+Hoewel er een uitgebreide reeks kant-en-klare velden voor het beheren van een breed scala van bedrijfsprocessen is, is er soms behoefte in een bedrijf om aanvullende informatie bij te houden in het systeem. Hoewel programmeurs deze velden kunnen toevoegen als extensies in de hulpprogramma's voor ontwikkelaars, kunnen velden met aangepaste velden direct vanuit de gebruikersinterface worden toegevoegd, zodat u de toepassing via uw webbrowser kunt aanpassen aan uw bedrijf.
 
-De mogelijkheid om aangepaste velden toe te voegen, is beschikbaar in platformupdate 13 en hoger.
+De mogelijkheid om aangepaste velden toe te voegen, is beschikbaar in platformupdate 13 en hoger. Alleen gebruikers met speciale machtigingen hebben toegang tot deze functie.
 
 In deze video wordt getoond hoe gemakkelijk het is een aangepast veld toe te voegen aan een pagina: [Aangepaste velden toevoegen](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -159,3 +159,7 @@ Omwille van prestaties en technische redenen kunnen momenteel alleen aangepaste 
 - De tabel kan niet een andere tabel uitbreiden.
 - De tabel kan niet zijn gemarkeerd als een systeemtabel.
 - De tabel kan geen tijdelijke tabel zijn.
+
+### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Kan ik naar aangepaste velden verwijzen vanuit de hulpprogramma's voor ontwikkelaars?  
+
+Aangepaste velden kunnen alleen via de gebruikersinterface worden beheerd en er kan niet naar worden verwezen op basis van code. 

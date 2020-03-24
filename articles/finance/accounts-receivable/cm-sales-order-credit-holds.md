@@ -1,6 +1,6 @@
 ---
 title: Kredietblokkeringen voor verkooporders
-description: ''
+description: In dit onderwerp wordt beschreven hoe u regels instelt om een kredietblokkering voor een verkooporder op te geven.
 author: mikefalkner
 manager: AnnBe
 ms.date: 01/25/2019
@@ -9,25 +9,23 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 8a0e006be8a72f35d6c6009ca9d67d083b8fac89
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057665"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124249"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Kredietblokkeringen voor verkooporders
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-
-In dit onderwerp wordt beschreven hoe u regels instelt om een kredietblokkering voor een verkooporder op te geven. De blokkeringsregels voor kredietbeheer kunnen van toepassing zijn op een individuele klant of op een groep klanten.  Blokkeringsregels definiëren reacties op de volgende omstandigheden:
+In dit onderwerp wordt beschreven hoe u regels instelt om een kredietblokkering voor een verkooporder op te geven. De blokkeringsregels voor kredietbeheer kunnen van toepassing zijn op een individuele klant of op een groep klanten. Blokkeringsregels definiëren reacties op de volgende omstandigheden:
 
 1. Aantal dagen achterstallig
 2. Status van rekening
@@ -87,9 +85,9 @@ Open het tabblad **Kredietlimiet verlopen** als de blokkeringsregel van toepassi
    - Selecteer **Alle** als de regel van toepassing is op alle klanten. 
 3. Selecteer een **Risicogroep** om de lijst met klanten die een kredietbeheerblokkering krijgen verder te beperken. 
 4. Selecteer het type regel dat u instelt. 
-  - Selecteer **Blokkering** om een regel te maken waarmee een order wordt geblokkeerd. 
-  - Selecteer **Uitsluiting** om een regel te maken waarmee een andere regel wordt uitgesloten van het blokkeren van een order. 
-6. Voer de **Dagen dat kredietlimiet verlopen is** voor de geselecteerde blokkeringsregel voordat een order een kredietbeheerblokkering krijgt. Het aantal dagen achterstallig staat voor extra respijtdagen die worden opgeteld bij het aantal dagen dat de kredietlimiet is vervallen.
+   - Selecteer **Blokkering** om een regel te maken waarmee een order wordt geblokkeerd. 
+   - Selecteer **Uitsluiting** om een regel te maken waarmee een andere regel wordt uitgesloten van het blokkeren van een order. 
+5. Voer de **Dagen dat kredietlimiet verlopen is** voor de geselecteerde blokkeringsregel voordat een order een kredietbeheerblokkering krijgt. Het aantal dagen achterstallig staat voor extra respijtdagen die worden opgeteld bij het aantal dagen dat de kredietlimiet is vervallen.
 
 ### <a name="overdue-amount"></a>Achterstallig bedrag
 
@@ -104,11 +102,10 @@ Open het tabblad **Achterstallig bedrag** als de blokkeringsregel van toepassing
    - Selecteer **Alle** als de regel van toepassing is op alle klanten. 
 3. Selecteer een **Risicogroep** als u de lijst met klanten die een kredietbeheerblokkering krijgen verder wilt beperken. 
 4. Selecteer het type regel dat u instelt. 
-  - Selecteer **Blokkering** om een regel te maken waarmee een order wordt geblokkeerd. 
-  - Selecteer **Uitsluiting** om een regel te maken waarmee een andere regel wordt uitgesloten van het blokkeren van een order. 
+   - Selecteer **Blokkering** om een regel te maken waarmee een order wordt geblokkeerd. 
+   - Selecteer **Uitsluiting** om een regel te maken waarmee een andere regel wordt uitgesloten van het blokkeren van een order. 
 5. Voer **Achterstallig bedrag** in voor de geselecteerde blokkeringsregel voordat een order een kredietbeheerblokkering krijgt ter beoordeling. 
-6. Selecteer het **Waardetype** waarmee wordt bepaald welk type waarde wordt gebruikt om ook te testen hoeveel van de kredietlimiet is gebruikt. Voor blokkeringsregels is een percentage vereist, maar een uitsluiting kan een vast bedrag of een percentage hebben.
-drempel. De drempel heeft betrekking op de kredietlimiet.
+6. Selecteer het **Waardetype** waarmee wordt bepaald welk type waarde wordt gebruikt om ook te testen hoeveel van de kredietlimiet is gebruikt. Voor blokkeringsregels is een percentage vereist, maar een uitsluiting kan een vast bedrag of een percentage hebben. De drempel heeft betrekking op de kredietlimiet.
 7. Voer de waarde voor **Drempel kredietlimiet** voor de geselecteerde regel in voordat voor een klant een kredietblokkering wordt ingesteld. Dit kan een bedrag zijn of een percentage dat is gebaseerd op het waardetype.
 8. De regel controleert of het **Achterstallig bedrag** en de **Drempel voor kredietlimiet** zijn overschreden. 
 
@@ -125,9 +122,9 @@ Selecteer **Verkooporder** als de blokkeringsregel van toepassing is op de waard
    - Selecteer **Alle** als de regel van toepassing is op alle klanten. 
 3. Selecteer een **Risicogroep** als u de lijst met klanten die een kredietbeheerblokkering krijgen verder wilt beperken. 
 4. Selecteer het type regel dat u instelt.  
-  - Selecteer **Blokkering** om een regel te maken waarmee een order wordt geblokkeerd. 
-  - Selecteer **Uitsluiting** om een regel te maken waarmee een andere regel wordt uitgesloten van het blokkeren van een order. 
-6. Voer **Verkooporderbedrag** in voor de geselecteerde blokkeringsregel voordat een order een kredietbeheerblokkering krijgt. 
+   - Selecteer **Blokkering** om een regel te maken waarmee een order wordt geblokkeerd. 
+   - Selecteer **Uitsluiting** om een regel te maken waarmee een andere regel wordt uitgesloten van het blokkeren van een order. 
+5. Voer **Verkooporderbedrag** in voor de geselecteerde blokkeringsregel voordat een order een kredietbeheerblokkering krijgt. 
 
 De verkooporderregel bevat een extra instelling waarmee alle andere regels worden vervangen. Als u een uitsluiting wilt maken waarmee de verkooporder wordt vrijgegeven zonder dat rekening wordt gehouden met andere regels, schakelt u het selectievakje **Verkooporder vrijgeven** op de uitsluitingsregel in.
 
@@ -187,7 +184,7 @@ Het gedrag van de regel **Gebruikte kredietlimiet** verandert op basis van de in
 
 Orders kunnen worden uitgesloten van kredietbeheer, zelfs als er regels gelden. 
 
-- Als u de instellingen voor **Klant uitsluiten van kredietbeheer** bij **Alle klanten > een klant selecteren > Sneltabblad Crediteringen en aanmaningen** wijzigt in **Ja**, worden voor de klant geen orders verwerkt
+- Als u de instellingen voor **Klant uitsluiten van kredietbeheer** bij **Alle klanten > Een klant selecteren > Sneltabblad Crediteringen en aanmaningen** wijzigt in **Ja**, worden voor de klant geen orders verwerkt
 - Als u de waarde bij **Uitsluiten van kredietbeheer** in de **koptekst van verkooporders** op het **sneltabblad Kredietbeheer** wijzigt in **Ja**, worden de regels voor kredietbeheer niet verwerkt. Deze instelling kan alleen worden uitgevoerd door de kredietmedewerker of de kredietbeheerder.
 
 ## <a name="processing-orders-on-hold-using-the-credit-management-hold-list"></a>Geblokkeerde orders verwerken met behulp van de blokkeringslijst van kredietbeheer
@@ -216,8 +213,8 @@ Wanneer u de redenen voor de blokkering hebt onderzocht en u deze hebt verminder
 2) Selecteer een **Reden voor vrijgave** voor de order die is geselecteerd voor vrijgave.  
 3) Voer de **Controledatum** in voor elke order die is geselecteerd voor vrijgave.  
 4) Selecteer het menu **Vrijgeven** in het actievenster om een order vrij te geven. Dit menu is pas beschikbaar nadat transacties zijn geselecteerd. De gebruiker krijgt twee opties:
- - Selecteer **Met boeking** als u de blokkering wilt verwijderen en het document wilt boeken met hetzelfde boekingsproces dat is gebruikt toen het werd geblokkeerd. Als de verkooporderbevestiging bijvoorbeeld is geblokkeerd, wordt de verkooporderbevestiging na vrijgave voltooid. Het formulier voor het boeken van verkooporders wordt weergegeven, zodat de gebruiker de bevestiging kan boeken.
- - Selecteer **Zonder boeking** om de blokkering op te heffen zonder verdere verwerking uit te voeren. De verkooporder kan handmatig worden geboekt.
+   - Selecteer **Met boeking** als u de blokkering wilt verwijderen en het document wilt boeken met hetzelfde boekingsproces dat is gebruikt toen het werd geblokkeerd. Als de verkooporderbevestiging bijvoorbeeld is geblokkeerd, wordt de verkooporderbevestiging na vrijgave voltooid. Het formulier voor het boeken van verkooporders wordt weergegeven, zodat de gebruiker de bevestiging kan boeken.
+   - Selecteer **Zonder boeking** om de blokkering op te heffen zonder verdere verwerking uit te voeren. De verkooporder kan handmatig worden geboekt.
 
 ### <a name="rejecting-orders-in-the-hold-list"></a>Orders in de blokkeringslijst afwijzen
 U kunt het menu **Afwijzen** in het actievenster gebruiken om een verkooporder af te wijzen

@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015170"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3120873"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>De uitvoering van XML-elementen in ER-indelingen uitstellen
 
@@ -47,7 +47,7 @@ De optie **Uitgestelde uitvoering** wordt alleen ondersteund voor XML-elementen 
 
 De optie **Uitgestelde uitvoering** wordt niet ondersteund voor XML-elementen die zich in het opmaakelement **Common\\File** bevinden wanneer de optie **Bestand splitsen** is ingesteld op **Ja**. Zie voor meer informatie over het splitsen van XML-bestanden [Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud](er-split-files.md).
 
-## <a name="Example"></a>Voorbeeld: de uitvoering van een XML-element in een ER-indeling uitstellen
+## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Voorbeeld: de uitvoering van een XML-element in een ER-indeling uitstellen
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker in de [rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) Systeembeheerder of consultant voor elektronische rapportage een ER-indeling kan configureren die een XML-element bevat waarvoor de volgorde van uitvoering verschilt van de volgorde in de indelingshiërarchie.
 

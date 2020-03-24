@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 9e5d90eaf1815bbe54b0bea40d92a0a993a23b75
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057609"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113800"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Een profiel voor e-mailmeldingen instellen
 
@@ -35,7 +35,7 @@ In dit onderwerp wordt beschreven hoe u een profiel voor e-mailmeldingen maakt i
 
 Voordat u kanalen gaat maken, moet u een profiel instellen om ervoor te zorgen dat e-mailmeldingen kunnen worden verzonden voor verschillende gebeurtenissen, zoals het maken van orders, het verzenden van orders en het mislukken van de betaling.
 
-Zie [E-mail configureren en verzenden](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email) voor meer informatie over het configureren van e-mail.
+Zie [E-mail configureren en verzenden](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json) voor meer informatie over het configureren van e-mail.
 
 ## <a name="create-an-email-notification-profile"></a>Een profiel voor e-mailmeldingen maken
 
@@ -84,7 +84,7 @@ De volgende afbeelding toont enkele voorbeelden van instellingen voor meldingen 
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[E-mail configureren en verzenden](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email)
+[E-mail configureren en verzenden](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)
 
 [Overzicht van kanalen](channels-overview.md)
 

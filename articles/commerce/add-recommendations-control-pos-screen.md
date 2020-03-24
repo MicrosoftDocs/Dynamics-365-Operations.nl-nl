@@ -1,9 +1,9 @@
 ---
-title: Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten
+title: Aanbevelingen toevoegen aan het transactiescherm
 description: In dit onderwerp wordt beschreven hoe u een besturingselement voor aanbevelingen kunt toevoegen aan het transactiescherm op een POS-apparaat (Point of Sale) met behulp van de schermindelingsontwerper in Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d6f48197a36f633e3cd63cbad4518f53946fc7f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9117f398ee1d9edbd3aee9bed366eea225964184
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022083"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127670"
 ---
-# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten
+# <a name="add-recommendations-to-the-transaction-screen"></a>Aanbevelingen toevoegen aan het transactiescherm
 
 [!include [banner](includes/banner.md)]
 
@@ -96,8 +96,26 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 11. Selecteer **1090, kassa´s** in de lijst.
 12. Klik op **Nu uitvoeren**.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Productaanbevelingen op POS](product.md)
+[Overzicht productaanbevelingen](product-recommendations.md)
 
-[Overzicht productaanbevelingen](../commerce/product-recommendations.md)
+[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+
+[Productaanbevelingen inschakelen](enable-product-recommendations.md)
+
+[Gepersonaliseerde aanbevelingen inschakelen](personalized-recommendations.md)
+
+[Afmelden voor gepersonaliseerde aanbevelingen](personalization-gdpr.md)
+
+[Lijsten met aanbevelingen toevoegen aan e-commerce-site](add-reco-list-to-page.md)
+
+[Productaanbevelingen toevoegen op POS](product.md)
+
+[Resultaten van AI-ML-aanbevelingen aanpassen](modify-product-recommendation-results.md)
+
+[Handmatig gecureerde aanbevelingen maken](create-editorial-recommendation-lists.md)
+
+[Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
+
+[Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)

@@ -3,7 +3,7 @@ title: Veelgestelde vragen over productaanbevelingen
 description: Dit onderwerp bevat informatie over processen en hulpprogramma's die u kunt gebruiken om problemen op te lossen die betrekking hebben op aanbevelingen van producten of hun resultaten.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7951f92ef68a7a782f2874d7b73d7e45eba0afba
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3add4e2e0d5cc16b561b808aacf5cef94fea5ae5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003022"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127785"
 ---
 # <a name="product-recommendations-faq"></a>Veelgestelde vragen over productaanbevelingen
 
@@ -75,12 +75,28 @@ Zie [Aanbevelingslijsten voor producten toevoegen aan pagina's](add-reco-list-to
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>Hoe schakel ik aanbevelingen in op POS?
 
-Nadat u productaanbevelingen hebt ingeschakeld, moet u het deelvenster met aanbevelingen toevoegen aan het POS-scherm van het besturingselement. Zie [de documentatie bij deze functie](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/add-recommendations-control-pos-screen) voor meer informatie over hoe u het deelvenster met aanbevelingen aan de POS-apparaatindeling kunt toevoegen.
+Nadat u productaanbevelingen hebt ingeschakeld, moet u het deelvenster met aanbevelingen toevoegen aan het POS-scherm van het besturingselement. Zie voor meer informatie [Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten](add-recommendations-control-pos-screen.md)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
+[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+
 [Productaanbevelingen inschakelen](enable-product-recommendations.md)
 
-[Resultaten van productaanbevelingen op basis van AI-ML beheren](modify-product-recommendation-results.md)
+[Gepersonaliseerde aanbevelingen inschakelen](personalized-recommendations.md)
+
+[Afmelden voor gepersonaliseerde aanbevelingen](personalization-gdpr.md)
+
+[Lijsten met aanbevelingen toevoegen aan e-commerce-site](add-reco-list-to-page.md)
+
+[Productaanbevelingen toevoegen op POS](product.md)
+
+[Aanbevelingen toevoegen aan het transactiescherm](add-recommendations-control-pos-screen.md)
+
+[Resultaten van AI-ML-aanbevelingen aanpassen](modify-product-recommendation-results.md)
+
+[Handmatig gecureerde aanbevelingen maken](create-editorial-recommendation-lists.md)
+
+[Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)

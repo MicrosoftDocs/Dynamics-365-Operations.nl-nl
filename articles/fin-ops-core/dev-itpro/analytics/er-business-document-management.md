@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957362"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117332"
 ---
 # <a name="business-document-management-overview"></a>Overzicht van Beheer van bedrijfsdocumenten
+
+[!include [banner](../includes/banner.md)]
 
 Zakelijke gebruikers gebruiken het raamwerk van [ER (Elektronische rapportage)](general-electronic-reporting.md) om indelingen voor uitgaande documenten te configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Gebruikers kunnen ook de gegevensstroom definiëren om op te geven welke toepassingsgegevens in gegenereerde documenten worden geplaatst. Het ER-raamwerk genereert uitgaande documenten in Microsoft Office-indelingen (Excel-werkmappen of Word-documenten) met behulp van vooraf gedefinieerde sjablonen. De sjablonen worden gevuld met vereiste gegevens in overeenstemming met de geconfigureerde gegevensstroom wanneer vereiste documenten worden gegenereerd. Elke geconfigureerde indeling kan als onderdeel van een ER-oplossing worden gepubliceerd om specifieke uitgaande documenten te genereren. Dit wordt weergegeven in een configuratie met de ER-indeling die sjablonen kan bevatten die u kunt gebruiken om verschillende uitgaande documenten te genereren. Zakelijke gebruikers kunnen dit raamwerk gebruiken om vereiste bedrijfsdocumenten te beheren.
 
@@ -147,7 +149,7 @@ Zie [Documentbeheer configureren](../../fin-ops/organization-administration/conf
 
 ![Documenttype voor Documentbeheer instellen](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">Parameters instellen</a>
+### <a name=""></a><a name="SetupBdmParameters">Parameters instellen</a>
 
 Op de pagina **Parameters voor bedrijfsdocumenten** kunnen elementaire parameters voor Beheer van bedrijfsdocumenten worden ingesteld. Alleen specifieke gebruikers hebben toegang tot de pagina. Dit zijn:
 
@@ -158,7 +160,7 @@ Gebruik de volgende procedure om de basisparameters in te stellen voor alle rech
 
 1. Meld u als een gebruiker met toegang tot de pagina **Parameters voor bedrijfsdocumenten** aan.
 2. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Beheer van bedrijfsdocumenten** \> **Parameters bedrijfsdocumenten**.
-3.  Definieer op de pagina **Parameters bedrijfsdocumenten**, op het tabblad **Bijlagen**, in het veld **SharePoint-documenttype** het documenttype dat moet worden gebruikt om sjablonen tijdelijk op te slaan in Office-indelingen, als ze worden bewerkt met de Office-bureaubladtoepassingen. 
+3.    Definieer op de pagina **Parameters bedrijfsdocumenten**, op het tabblad **Bijlagen**, in het veld **SharePoint-documenttype** het documenttype dat moet worden gebruikt om sjablonen tijdelijk op te slaan in Office-indelingen, als ze worden bewerkt met de Office-bureaubladtoepassingen. 
 
 > [!NOTE]
 > Alleen documenttypen die met behulp van een SharePoint-locatie zijn geconfigureerd, zijn beschikbaar voor deze parameter.
@@ -288,13 +290,13 @@ De pagina **BDM-sjablooneditor** wordt geopend. De geselecteerde sjabloon is bes
 
 ![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">Een sjabloon bewerken in Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Een sjabloon bewerken in Office 365</a>
 
 U kunt de sjabloon wijzigen met Office 365. Wijzig in Office Online bijvoorbeeld het lettertype van de veldprompts in de sjabloonkoptekst van **Normaal** in **Vet**. Deze wijzigingen worden automatisch opgeslagen in de bewerkbare sjabloon die wordt opgeslagen in de primaire opslagruimte van de sjabloon (standaard de Azure Blob-opslag). Dit wordt geconfigureerd voor het ER-raamwerk.
 
 ![Sjablooneditor voor Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">Een sjabloon bewerken in de Office-bureaubladtoepassing</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">Een sjabloon bewerken in de Office-bureaubladtoepassing</a>
 
 > [!NOTE]
 > Deze functie is alleen beschikbaar wanneer de parameter **SharePoint-documenttype** juist is geconfigureerd. Zie [Parameters configureren](#SetupBdmParameters) voor meer informatie.

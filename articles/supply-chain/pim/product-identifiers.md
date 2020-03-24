@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
+ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004014"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095612"
 ---
 # <a name="product-identifiers"></a>Product-id's 
 
@@ -43,9 +43,6 @@ In veel gevallen is het productnummer oorspronkelijk niet gemaakt in Dynamics 36
 Wanneer u Supply Chain Management implementeert, moet u extra aandacht aan uw strategie voor productnummers besteden. Een goed nummeringssysteem verbetert de logistieke stromen en kan fouten helpen voorkomen. Een goede product-id bestaat uit maximaal 15 tekens. In het ideale geval bestaat de id uit minder dan 10 tekens en bevat deze niet meer dan vijf classificerende tekens. U kunt ook zoeknamen gebruiken om snelle zoekacties mogelijk te maken. Een zoeknaam is een extra naam die de classificaties van een product vertegenwoordigt.
 
 Wanneer u Common Data Service gebruikt, is het productnummer in Supply Chain Management ook het productnummer in de Common Data Service. Productvarianten worden als aparte producten naar de Common Data Service gesynchroniseerd.
-
-> [!NOTE]
-> Het productnummer kan niet beginnen met %.
 
 ## <a name="item-number-and-product-dimensions"></a>Artikelnummer en productdimensies
 

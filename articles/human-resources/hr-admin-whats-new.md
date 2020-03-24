@@ -1,6 +1,6 @@
 ---
 title: Nieuwe of gewijzigde functies in Human Resources
-description: ''
+description: Elke week brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De artikelen die in deze sectie worden vermeld, beschrijven de wijzigingen die elke week worden aangebracht.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f36aba8a68ea8cc261423f79db00e175df1cf349
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4058618ec95fabc90fdc784552c1920a109e6418
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075943"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123965"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Nieuwe of gewijzigde functies in Human Resources
 
@@ -41,6 +41,9 @@ Zie het volgende artikel voor meer informatie over geplande nieuwe functies of h
 
 Zie de volgende artikelen voor wat er nieuw of gewijzigd is in elke wekelijkse versies van Human Resources:
 
+[10 maart 2020](hr-whats-new-2020-03-10.md)</br>
+[3 maart 2020](hr-whats-new-2020-03-03.md)</br>
+[25 februari 2020](hr-whats-new-2020-02-25.md)</br>
 [18 februari 2020](hr-whats-new-2020-02-18.md)</br>
 [12 februari 2020](hr-whats-new-2020-02-12.md)</br>
 [7 februari 2020](hr-whats-new-2020-02-07.md)</br>

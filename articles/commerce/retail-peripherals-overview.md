@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 14c6f7aaab4c6e4f099f47210f4d89fdfcd33d79
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030838"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124400"
 ---
 # <a name="peripherals"></a>Randapparaten
 
 [!include[banner](includes/banner.md)]
 
-In dit onderwerp worden de concepten beschreven die verband houden met randapparaten in detailhandelwinkels. Hierin worden de verschillende manieren beschreven waarop randapparaten kunnen worden aangesloten op het POS en de onderdelen die de verbinding met het POS afhandelen.
+In dit onderwerp worden de concepten beschreven die verband houden met randapparaten in winkels. Hierin worden de verschillende manieren beschreven waarop randapparaten kunnen worden aangesloten op het POS en de onderdelen die de verbinding met het POS afhandelen.
 
 ## <a name="concepts"></a>Concepten
 
@@ -65,7 +65,7 @@ POS-randapparaten zijn apparaten die expliciet worden ondersteund voor POS-funct
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navigatie: klik op **Retail en Commerce** &gt; **Kanalen** &gt; **Retail-winkels** &gt; **Alle Retail-winkels**. Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**. De instelling **Hardwarestation** is een instelling op afzetkanaalniveau, die wordt gebruikt voor het definiëren van situaties waarin de logica voor detailhandelrandapparaten wordt geïmplementeerd. Deze instelling op het afzetkanaalniveau wordt gebruikt om de kenmerken van het hardwarestation te bepalen. Hiermee wordt ook een overzicht gemaakt van hardwarestations, die beschikbaar zijn voor een Modern POS-exemplaar in een bepaalde winkel. Het hardwarestation is ingebouwd in de Modern POS-programma's voor Windows en Android. Het hardwarestation kan ook onafhankelijk worden geïmplementeerd als een zelfstandig Microsoft Internet Information Services-programma (IIS). In dit geval vindt toegang plaats via een netwerk.
+Navigatie: klik op **Detailhandel en commerce** &gt; **Kanalen** &gt; **Winkels** &gt; **Alle winkels**. Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**. De instelling **Hardwarestation** is een instelling op afzetkanaalniveau, die wordt gebruikt voor het definiëren van situaties waarin de logica voor randapparaten wordt geïmplementeerd. Deze instelling op het afzetkanaalniveau wordt gebruikt om de kenmerken van het hardwarestation te bepalen. Hiermee wordt ook een overzicht gemaakt van hardwarestations, die beschikbaar zijn voor een Modern POS-exemplaar in een bepaalde winkel. Het hardwarestation is ingebouwd in de Modern POS-programma's voor Windows en Android. Het hardwarestation kan ook onafhankelijk worden geïmplementeerd als een zelfstandig Microsoft Internet Information Services-programma (IIS). In dit geval vindt toegang plaats via een netwerk.
 
 ### <a name="hardware-profile"></a>Hardwareprofiel
 
@@ -117,27 +117,30 @@ Ondersteuning voor betalingsapparaten wordt geïmplementeerd via de betalingscon
 ## <a name="supported-interfaces"></a>Ondersteunde interfaces
 ### <a name="opos"></a>OPOS
 
-Om te garanderen dat het grootste aantal apparaten kan worden gebruikt met Commerce, is de industriestandaard OLE voor POS het primaire platform voor randapparatuur voor detailhandel dat wordt ondersteund. De OLE voor POS-norm is opgesteld door de National Retail Federation (NRF), die communicatieprotocollen voor detailhandelrandapparatuur opstelt die de norm in de branche zijn. OPOS is een algemeen geaccepteerde implementatie van de OLE voor POS-norm. Deze is ontwikkeld in de jaren 1990 en sinds die tijd verschillende malen geactualiseerd. OPOS biedt een apparaatstuurprogramma-architectuur die eenvoudige integratie van POS-hardware met Windows-gebaseerde POS-systemen mogelijk maakt. OPOS-besturingselementen handelen de communicatie af tussen hardware en de POS-software. Een OPOS-besturingselement bestaat uit twee onderdelen:
+Om te garanderen dat het grootste aantal apparaten kan worden gebruikt met Commerce, is de industriestandaard OLE voor POS het primaire platform voor randapparatuur dat wordt ondersteund. De OLE voor POS-norm is opgesteld door de National Retail Federation (NRF), die communicatieprotocollen voor randapparatuur opstelt die de norm in de branche zijn. OPOS is een algemeen geaccepteerde implementatie van de OLE voor POS-norm. Deze is ontwikkeld in de jaren 1990 en sinds die tijd verschillende malen geactualiseerd. OPOS biedt een apparaatstuurprogramma-architectuur die eenvoudige integratie van POS-hardware met Windows-gebaseerde POS-systemen mogelijk maakt. OPOS-besturingselementen handelen de communicatie af tussen hardware en de POS-software. Een OPOS-besturingselement bestaat uit twee onderdelen:
 
 -   **Control object**: Het control object voor een apparaatklasse (zoals een regelweergave) biedt de interface voor het softwareprogramma. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) biedt een gestandaardiseerde reeks OPOS Control objects aan, die bekend staan als de Common Control Objects (CCO's). De CCO's worden gebruikt voor het testen van de POS-component van Commerce. Daarom helpt het testen te garanderen dat, als Commerce een apparaatklasse via OPOS ondersteunt, vele typen apparaten worden ondersteund, onder voorwaarde dat de fabrikant een serviceobject levert dat is samengesteld voor OPOS. U hoeft niet expliciet elk apparaattype te testen.
 -   **Serviceobject**: Het serviceobject verzorgt de communicatie tussen het Control Object (CCO) en het apparaat. Meestal wordt voor fysieke apparaten het serviceobject geleverd door de fabrikant van het apparaat. In sommige gevallen moet u misschien het serviceobject downloaden vanaf de website van de fabrikant. Er kan bijvoorbeeld een meer recente serviceobject beschikbaar zijn. Het adres van de website van de fabrikant vindt u in de documentatie bij uw hardware.
 
-[![Controleobject en serviceobject](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Ondersteuning voor de OPOS-implementatie van OLE voor POS helpt te garanderen dat, als de apparaatfabrikanten en POS-uitgevers de standaard correct implementeren, POS-systemen en ondersteunde apparaten kunnen samenwerken, zelfs als ze daarvoor niet samen zijn getest. **Opmerking:** OPOS-ondersteuning biedt geen garantie voor ondersteuning van alle apparaten met OPOS-stuurprogramma's. Microsoft Dynamics 365 for Retail moet eerst ondersteuning voor dat apparaattype of klasse bieden via OPOS. Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's. Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.
+[![Controleobject en serviceobject](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Ondersteuning voor de OPOS-implementatie van OLE voor POS helpt te garanderen dat, als de apparaatfabrikanten en POS-uitgevers de standaard correct implementeren, POS-systemen en ondersteunde apparaten kunnen samenwerken, zelfs als ze daarvoor niet samen zijn getest. 
+
+> [!NOTE]
+> OPOS-ondersteuning garandeert niet de ondersteuning voor alle apparaten met OPOS-stuurprogramma's. Commerce moet eerst ondersteuning voor dat apparaattype of klasse bieden via OPOS. Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's. Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.
 
 ### <a name="windows"></a>Windows
 
-Het afdrukken van kassabonnen op het POS is geoptimaliseerd voor OPOS. Het afdrukken werkt met OPOS vaak veel sneller dan afdrukken via Windows. Daarom is het een goed idee om OPOS te gebruiken, vooral in detailhandelomgevingen waar kassabonnen met 40 kolommen worden afgedrukt en de transactietijden kort moeten zijn. Voor de meeste apparaten gebruikt u OPOS-besturingselementen. Sommige OPOS-kassabonprinters ondersteunen echter ook Windows-stuurprogramma's. Als u een Windows-stuurprogramma gebruikt, hebt u toegang tot de nieuwste lettertypen en kunt één printer via het netwerk bereikbaar maken voor meerdere kassa's. Windows-stuurprogramma's hebben echter nadelen. Dit zijn enkele van veel voorkomende nadelen:
+Het afdrukken van kassabonnen op het POS is geoptimaliseerd voor OPOS. Het afdrukken werkt met OPOS vaak veel sneller dan afdrukken via Windows. Daarom is het een goed idee om OPOS te gebruiken, vooral in omgevingen waar kassabonnen met 40 kolommen worden afgedrukt en de transactietijden kort moeten zijn. Voor de meeste apparaten gebruikt u OPOS-besturingselementen. Sommige OPOS-kassabonprinters ondersteunen echter ook Windows-stuurprogramma's. Als u een Windows-stuurprogramma gebruikt, hebt u toegang tot de nieuwste lettertypen en kunt één printer via het netwerk bereikbaar maken voor meerdere kassa's. Windows-stuurprogramma's hebben echter nadelen. Dit zijn enkele van veel voorkomende nadelen:
 
 -   Met Windows-stuurprogramma's worden afbeeldingen gerenderd vóór het afdrukken. Daarom gaat het afdrukken vaan trager dan op printers die gebruikmaken van OPOS-besturingselementen.
 -   Apparaten die via de printer zijn verbonden ('daisy-chained' oftewel in serie geschakeld) werken mogelijk niet correct met Windows-stuurprogramma's. Bijvoorbeeld gaat de kassalade niet open of de bonprinter functioneert niet zoals u verwacht.
--   OPOS ondersteunt ook een uitgebreidere reeks variabelen die specifiek zijn voor kassabonprinters in de detailhandel, zoals papiersnijden of bon afdrukken.
+-   OPOS ondersteunt ook een uitgebreidere reeks variabelen die specifiek zijn voor kassabonprinters, zoals papiersnijden of bon afdrukken.
 -   Windows-printers worden niet ondersteund via het IIS-hardwarestation. 
 
 Als OPOS-besturingselementen beschikbaar zijn voor uw Windows-printer, functioneert de printer naar verwachting nog steeds correct met Commerce.
 
 ### <a name="universal-windows-platform"></a>Universeel Windows-platform
 
-UWP is, voor de retail-randapparatuur, gerelateerd aan Windows-ondersteuning voor plug en play-apparaten. Wanneer u een Plug en Play-apparaat aansluit op een Windows-versie die dat type apparaat ondersteunt, is geen stuurprogramma vereist om het apparaat te kunnen gebruiken zoals het is bedoeld. Als in Windows bijvoorbeeld een Bluetooth-luidspreker wordt gedetecteerd, is automatisch bekend dat het apparaat het klassetype **Luidspreker** heeft. Het apparaat wordt daarna dus ook behandeld als een luidspreker. Het is niet nodig om het nog verder te configureren. Voor wat betreft POS-apparaten worden veel USB-apparaten na het aansluiten herkend als als HID-apparaten (Human Interface Devices). Het kan echter zijn dat de functionaliteit van het apparaat niet kan worden bepaald, omdat het apparaat niet opgeeft van welke klasse of type het is. In Windows 10 zijn apparaatklassen voor streepjescodescanners en MSR's toegevoegd. Als een apparaat zichzelf bij Windows 10 aanmeld als een apparaat uit een van deze klassen, zal worden geluisterd naar gebeurtenissen van dat apparaat op de overeenkomende momenten. Modern POS ondersteunt UWP MSR's en scanners. Als het gereed is om invoer van een van deze apparaten te ontvangen en een apparaat uit een van deze klassen is aangesloten, kan dat apparaat worden gebruikt. Als bijvoorbeeld een UWP-streepjescodescanner is aangesloten op een computer met Windows 10 en aanmelding met streepjescode is geconfigureerd voor Modern POS, wordt de streepjescodescanner actief op het aanmeldingsscherm. Het is niet nodig om het nog verder te configureren. Aanvullende klassen van point-of-service UWP-apparaten worden toegevoegd aan Windows. Deze klassen bevatten klassen voor kassaladen en kassabonprinters. Ondersteuning voor deze nieuwe apparaatklassen in Modern POS is gepland voor de toekomst.
+UWP is, voor de randapparatuur, gerelateerd aan Windows-ondersteuning voor plug en play-apparaten. Wanneer u een Plug en Play-apparaat aansluit op een Windows-versie die dat type apparaat ondersteunt, is geen stuurprogramma vereist om het apparaat te kunnen gebruiken zoals het is bedoeld. Als in Windows bijvoorbeeld een Bluetooth-luidspreker wordt gedetecteerd, is automatisch bekend dat het apparaat het klassetype **Luidspreker** heeft. Het apparaat wordt daarna dus ook behandeld als een luidspreker. Het is niet nodig om het nog verder te configureren. Voor wat betreft POS-apparaten worden veel USB-apparaten na het aansluiten herkend als als HID-apparaten (Human Interface Devices). Het kan echter zijn dat de functionaliteit van het apparaat niet kan worden bepaald, omdat het apparaat niet opgeeft van welke klasse of type het is. In Windows 10 zijn apparaatklassen voor streepjescodescanners en MSR's toegevoegd. Als een apparaat zichzelf bij Windows 10 aanmeld als een apparaat uit een van deze klassen, zal worden geluisterd naar gebeurtenissen van dat apparaat op de overeenkomende momenten. Modern POS ondersteunt UWP MSR's en scanners. Als het gereed is om invoer van een van deze apparaten te ontvangen en een apparaat uit een van deze klassen is aangesloten, kan dat apparaat worden gebruikt. Als bijvoorbeeld een UWP-streepjescodescanner is aangesloten op een computer met Windows 10 en aanmelding met streepjescode is geconfigureerd voor Modern POS, wordt de streepjescodescanner actief op het aanmeldingsscherm. Het is niet nodig om het nog verder te configureren. Aanvullende klassen van point-of-service UWP-apparaten worden toegevoegd aan Windows. Deze klassen bevatten klassen voor kassaladen en kassabonprinters. Ondersteuning voor deze nieuwe apparaatklassen in Modern POS is gepland voor de toekomst.
 
 ### <a name="keyboard-wedge"></a>Keyboard-wedge
 
@@ -155,13 +158,13 @@ Kassalade, kassabonprinters en betalingsterminals met een netwerkadres kunnen wo
 
 ### <a name="dedicated"></a>Toegewezen
 
-Moderne POS-clients voor Windows en Android bevatten **speciale** of ingebouwde hardwarestations. Deze clients kunnen rechtstreeks met randapparatuur communiceren via bedrijfslogica die in de toepassingen is ingebouwd. De Android-toepassing ondersteunt alleen netwerkapparaten. Voor meer informatie over ondersteuning van randapparatuur voor het Android-besturingssysteem gaat u naar het artikel (POS Hybrid-app instellen in Android en iOS)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp].
+Moderne POS-clients voor Windows en Android bevatten **speciale** of ingebouwde hardwarestations. Deze clients kunnen rechtstreeks met randapparatuur communiceren via bedrijfslogica die in de toepassingen is ingebouwd. De Android-toepassing ondersteunt alleen netwerkapparaten. Voor meer informatie over ondersteuning van randapparatuur voor Android gaat u naar het artikel [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
 
 Als u het speciale hardwarestation wilt gebruiken, wijst u een hardwareprofiel toe aan een kassa die gebruikmaakt van de toepassingen Modern POS voor Windows of Android. Vervolgens maakt u een hardwarestation van het type **Specifiek** voor de winkel waar de kassa wordt gebruikt. Start Modern POS in de niet-lademodus en gebruik de bewerking **Hardwarestations beheren** om de mogelijkheden voor het hardwareadres in te schakelen. Het speciale hardwarestation is standaard actief. Meld u vervolgens af bij Modern POS. Als u zich opnieuw aanmeldt en een ploeg opent, kunt u gebruikmaken van de randapparatuur die in het hardwareprofiel is geconfigureerd. 
 
 ### <a name="shared"></a>Gedeeld 
 
-Dit wordt ook wel het 'IIS'-hardwarestation genoemd. 'IIS' geeft hierbij aan dat de POS-toepassing via Microsoft Internet Information Services verbinding maakt met het hardwarestation. De POS-toepassing maakt verbinding met het IIS-hardwarestation via webservices die worden uitgevoerd op een computer waarop de apparaten zijn aangesloten. Wanneer het gedeelde hardwarestation wordt gebruikt, kunnen de detailhandelrandapparaten die zijn aangesloten op een hardwarestation worden gebruikt door iedere POS-kassa in hetzelfde netwerk als het IIS-hardwarestation. Omdat alleen Modern POS voor Windows en Android ingebouwde ondersteuning heeft voor detailhandelrandapparaten, moeten alle andere Modern POS-toepassingen voor communicatie met POS-randapparaten die zijn geconfigureerd in het hardwareprofiel, gebruik maken van het IIS-hardwarestation. Daarom vereist elk exemplaar van de IIS-hardwarestation een computer waarop de webservice wordt uitgevoerd en de toepassing die met de apparaten communiceert. 
+Dit wordt ook wel het 'IIS'-hardwarestation genoemd. 'IIS' geeft hierbij aan dat de POS-toepassing via Microsoft Internet Information Services verbinding maakt met het hardwarestation. De POS-toepassing maakt verbinding met het IIS-hardwarestation via webservices die worden uitgevoerd op een computer waarop de apparaten zijn aangesloten. Wanneer het gedeelde hardwarestation wordt gebruikt, kunnen de randapparaten die zijn aangesloten op een hardwarestation worden gebruikt door iedere POS-kassa in hetzelfde netwerk als het IIS-hardwarestation. Omdat alleen Modern POS voor Windows en Android ingebouwde ondersteuning heeft voor randapparaten, moeten alle andere Modern POS-toepassingen voor communicatie met POS-randapparaten die zijn geconfigureerd in het hardwareprofiel, gebruik maken van het IIS-hardwarestation. Daarom vereist elk exemplaar van de IIS-hardwarestation een computer waarop de webservice wordt uitgevoerd en de toepassing die met de apparaten communiceert. 
 
 Het gedeelde hardwarestation kan worden gebruikt om meerdere verkooppunten van verkoopclients toe te staan om randapparatuur te delen of om een vastgelegde set of randapparatuur voor een enkel verkooppunt te beheren. 
 
@@ -192,11 +195,11 @@ Zie [Hardwarestation configureren en installeren](retail-hardware-station-config
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Modern POS voor Windows installeren en configureren
 
-Zie [Retail Modern POS configureren, installeren en activeren](retail-modern-pos-device-activation.md)voor meer informatie.
+Zie [Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md) voor meer informatie.
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Modern POS voor Android en iOS installeren en configureren
 
-Zie (POS Hybrid-app instellen in Android en iOS)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp] voor meer informatie.
+Zie [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp) voor meer informatie.
 
 ### <a name="opos-device-setup-and-configuration"></a>Een OPOS-apparaat installeren en configureren
 
@@ -283,14 +286,14 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <td>Wisseluitschrijver</td>
 <td><ul>
 <li>OPOS</li>
-<li>Netwerk <strong>Opmerking:</strong> u kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
+<li>Netwerk </br><strong>Opmerking:</strong> u kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Lade 2</td>
 <td><ul>
 <li>OPOS</li>
-<li>Netwerk <strong>Opmerking:</strong> u kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
+<li>Netwerk </br><strong>Opmerking:</strong> u kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -333,7 +336,8 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Alle Modern POS-clients met een speciaal, 'gedeeld' ISS-hardwarestation
 
-**Opmerking:** Als het IIS-hardwarestation 'toegezegd' is, bestaat er een één-op-één-relatie tussen de POS-client en het hardwarestation.
+> [!NOTE]
+> Als het IIS-hardwarestation 'toegezegd' is, bestaat er een één-op-één-relatie tussen de POS-client en het hardwarestation.
 
 <table>
 <colgroup>
@@ -373,7 +377,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <td>Wisseluitschrijver</td>
 <td><ul>
 <li>OPOS</li>
-<li>Netwerk <strong>Opmerking:</strong> u kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
+<li>Netwerk </br><strong>Opmerking:</strong> u kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -415,7 +419,8 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 
 ### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>Alle Modern POS-clients delen een ISS-hardwarestation
 
-**Opmerking:** als het IIS-hardwarestation 'gedeeld' is, kunnen meerdere apparaten tegelijk gebruikmaken van het hardwarestation. Gebruik in dit scenario alleen de apparaten die worden vermeld in de onderstaande tabel. Als u apparaten probeert te delen die hier niet worden vermeld, zoals streepjescodescanners en MSR's, treden fouten op wanneer meerdere apparaten het zelfde randapparaat willen aanspreken. In de toekomst worden dergelijke configuraties expliciet voorkomen.
+> [!NOTE]
+> Als het IIS-hardwarestation 'gedeeld' is, kunnen meerdere apparaten tegelijk gebruikmaken van het hardwarestation. Gebruik in dit scenario alleen de apparaten die worden vermeld in de onderstaande tabel. Als u apparaten probeert te delen die hier niet worden vermeld, zoals streepjescodescanners en MSR's, treden fouten op wanneer meerdere apparaten het zelfde randapparaat willen aanspreken. In de toekomst worden dergelijke configuraties expliciet voorkomen.
 
 <table>
 <colgroup>
@@ -447,7 +452,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 <td>Wisseluitschrijver</td>
 <td><ul>
 <li>OPOS</li>
-<li>Netwerk <strong>Opmerking:</strong> u kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
+<li>Netwerk </br><strong>Opmerking:</strong> u kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -476,8 +481,12 @@ Deze configuratie is de meestgebruikte configuratie voor traditionele, vaste POS
 
 1.  Maak een hardwareprofiel aan waarin de vereiste randapparaten zijn geconfigureerd.
 2.  Wijs het hardwareprofiel toe aan de POS-kassa.
-3.  Maak een hardwarestation van het type **Specifiek** voor de winkel waar de POS-kassa wordt gebruikt. Eeen beschrijving is optioneel. **Opmerking:** u hoeft geen andere eigenschappen in te stellen voor het hardwarestation. Alle overige vereiste informatie, zoals het hardwareprofiel, komen uit de kassa zelf.
-4.  Klik op **Retail en commerce** &gt; **IT detailhandel** &gt; **Distributieplanning**.
+3.  Maak een hardwarestation van het type **Specifiek** voor de winkel waar de POS-kassa wordt gebruikt. Eeen beschrijving is optioneel. 
+
+    > [!NOTE]
+    > U hoeft geen andere eigenschappen in te stellen voor het hardwarestation. Alle overige vereiste informatie, zoals het hardwareprofiel, komen uit de kassa zelf.
+
+4.  Klik op **Detailhandel en commerce** &gt; **IT detailhandel en commerce** &gt; **Distributieplanning**.
 5.  Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 6.  Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 7.  Modern POS voor Windows installeren en activeren
@@ -485,7 +494,7 @@ Deze configuratie is de meestgebruikte configuratie voor traditionele, vaste POS
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS voor Android met een IPC-hardwarestation (geïntegreerd)
 
-**Nieuw voor 10.0.8**: Epson-netwerkprinters en kassaladen die via de DK poort op deze printers zijn aangesloten, worden nu ondersteund voor de app Modern POS voor Android. Ga voor meer informatie naar het artikel (POS Hybrid-app instellen in Android en iOS)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp].
+**Nieuw voor 10.0.8**: Epson-netwerkprinters en kassaladen die via de DK poort op deze printers zijn aangesloten, worden nu ondersteund voor de app Modern POS voor Android. Ga naar het artikel [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp) voor meer informatie.
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Alle Modern POS-clients met een speciaal, gedeeld ISS-hardwarestation
 
@@ -496,18 +505,19 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients met een hardw
 3.  Stel op het specifieke hardwarestation de volgende eigenschappen in:
     -   **Hostnaam:** De naam van de computer waarop het hardwarestation wordt uitgevoerd. 
     
-    **Opmerking:** Cloud POS kan **localhost** omzetten om de lokale computer te bepalen waarop Cloud POS wordt uitgevoerd. Het certificaat dat is vereist om Cloud POS aan het hardwarestation te koppelen, moet echter ook de computernaam 'Localhost' hebben. Om problemen te voorkomen, is het raadzaam dat u een exemplaar van elk specifiek hardwarestation voor de winkel noemt, al naar gelang wat nodig is. Voor elk hardwarestation moet de hostnaam de specifieke computernaam zijn waarin het hardwarestation wordt geïmplementeerd.
+        > [!NOTE]
+        > Cloud POS kan **localhost** omzetten om de lokale computer te bepalen waarop Cloud POS wordt uitgevoerd. Het certificaat dat is vereist om Cloud POS aan het hardwarestation te koppelen, moet echter ook de computernaam 'Localhost' hebben. Om problemen te voorkomen, is het raadzaam dat u een exemplaar van elk specifiek hardwarestation voor de winkel noemt, al naar gelang wat nodig is. Voor elk hardwarestation moet de hostnaam de specifieke computernaam zijn waarin het hardwarestation wordt geïmplementeerd.
     
     -   **Poort:** De poort die u wilt gebruiken voor het hardwarestation voor communicatie met de Modern POS-client.
     -   **Hardwareprofiel:** Als het hardwareprofiel niet is opgegeven op het hardwarestation zelf, wordt het hardwareprofiel gebruikt dat is toegewezen aan de kassa.
     -   **EFT POS-nummer:** De EFT-terminal-ID die moet worden gebruikt wanneer EFT-autorisaties worden verzonden. Deze ID wordt geleverd door de creditcardverwerker.
     -   **Pakketnaam:** Het hardwarestationpakket dat moet worden gebruikt wanneer het hardwarestation wordt geïmplementeerd.
 
-4.  Klik op **Retail en commerce** &gt; **IT detailhandel** &gt; **Distributieplanning**.
+4.  Klik op **Detailhandel en commerce** &gt; **IT detailhandel en commerce** &gt; **Distributieplanning**.
 5.  Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 6.  Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 7.  Installeer het hardwarestation. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md).
-8.  Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS [Retail Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md).
+8.  Installeer en activeer Modern POS. Zie [Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md) voor meer informatie over het installeren van Modern POS.
 9.  Meld u aan bij Modern POS en selecteer **Niet-ladebewerkingen uitvoeren**.
 10. Start de bewerking **Hardwarestations beheren**.
 11. Klik op **Beheren**.
@@ -531,11 +541,11 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients die hardwares
     -   **Pakketnaam:** Het hardwarestationpakket dat moet worden gebruikt wanneer het hardwarestation wordt geïmplementeerd.
 
 4.  Herhaal stap 2 en 3 voor elk extra hardwarestation dat nodig is in de winkel.
-5.  Klik op **Retail en commerce** &gt; **IT detailhandel** &gt; **Distributieplanning**.
+5.  Klik op **Detailhandel en commerce** &gt; **IT detailhandel en commerce** &gt; **Distributieplanning**.
 6.  Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 7.  Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 8.  Installeer het hardwarestation op elke hostcomputer die u in stap 2 en 3 hebt ingesteld. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md).
-9.  Installeer en activeer Modern POS. Zie [Retail Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md) voor meer informatie over het installeren van Modern POS.
+9.  Installeer en activeer Modern POS. Zie [Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md) voor meer informatie over het installeren van Modern POS.
 10. Meld u aan bij Modern POS en selecteer **Niet-ladebewerkingen uitvoeren**.
 11. Start de bewerking **Hardwarestations beheren**.
 
@@ -546,7 +556,8 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients die hardwares
 16. Nadat alle vereiste hardwarestations zijn gekoppeld, klikt u op **Sluiten**.
 17. Ga naar de pagina voor het selecteren van het hardwarestation en klik op het laatst geselecteerde hardwarestation om dit te activeren. 
 
-**Opmerking:** als apparaten vaak verschillende hardwarestations gebruiken, raden we aan om Modern POS te configureren om kassiers te vragen een hardwarestation te selecteren, op het moment dat ze beginnen de betalingsmethode te selecteren. Klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**. Selecteer de kassa en stel de optie **Selecteren bij offertes** in op **Ja**. Gebruik de distributieplanning **1090** om wijzigingen te synchroniseren naar de kanaaldatabase.
+> [!NOTE]
+> Als apparaten vaak verschillende hardwarestations gebruiken, raden we aan om Modern POS te configureren om kassiers te vragen een hardwarestation te selecteren, op het moment dat ze beginnen de betalingsmethode te selecteren. Klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Kassa's**. Selecteer de kassa en stel de optie **Selecteren bij offertes** in op **Ja**. Gebruik de distributieplanning **1090** om wijzigingen te synchroniseren naar de kanaaldatabase.
 
 ## <a name="extensibility"></a>Uitbreidbaarheid
 Zie voor informatie over uitbreidbaarheidsscenario's voor het hardwarestation het onderwerp [Uitbreidbaarheid van hardwarestations](dev-itpro/hardware-station-extensibility.md).
@@ -554,12 +565,14 @@ Zie voor informatie over uitbreidbaarheidsscenario's voor het hardwarestation he
 ## <a name="security"></a>Beveiliging
 Volgens de huidige beveiligingsnormen moeten de volgende instellingen worden gebruikt in een productieomgeving: 
 
-**Opmerking:** het installatieprogramma van het hardwarestation voert automatisch deze wijzigingen in het register door als onderdeel van de installatie via self-service.
-
+### <a name="hardware-station-installer"></a>Het hardwarestation installeren
+Het installatieprogramma van het hardwarestation voert automatisch deze wijzigingen in het register door als onderdeel van de installatie via self-service.
+ 
 -   Secure Sockets Layer (SSL) moet zijn uitgeschakeld.
 -   Alleen Transport Layer Security (TLS) versie 1.2 (of de actuele hoogste versie) mag zijn ingeschakeld en worden gebruikt. 
 
-**Opmerking:** standaard zijn SSL en alle versies van TLS behalve TLS 1.2 uitgeschakeld. Ga als volgt te werk om deze waarden te bewerken of in te schakelen:
+### <a name="ssl-and-tls"></a>SSL en TLS
+Standaard zijn SSL en alle versies van TLS behalve TLS 1.2 uitgeschakeld. Ga als volgt te werk om deze waarden te bewerken of in te schakelen:
     1.  Druk op de Windows-toets+R om een venster **Uitvoeren** te openen.
     2.  Typ in het veld **Openen** de tekst **Regedit** en klik vervolgens op **OK**.
     3.  Als een venster **Gebruikersaccountbeheer** wordt geopend, klikt u op **Ja**.
@@ -580,10 +593,11 @@ Volgens de huidige beveiligingsnormen moeten de volgende instellingen worden geb
 -   Cross-origin resource sharing (CORS) moet zijn uitgeschakeld en de toegestane origins die worden geaccepteerd, moeten zijn opgeven.
 -   Alleen vertrouwde certificeringsinstanties moeten worden gebruikt om certificaten te krijgen, die worden gebruikt op computers waarop het hardwarestation draait.
 
-**Opmerking:** het is zeer belangrijk dat u beveiligingsrichtlijnen voor IIS en de PCI-vereisten (Payment Card Industry) bestudeert.
+> [!NOTE]
+> Het is zeer belangrijk dat u beveiligingsrichtlijnen voor IIS en de vereisten van de Payment Card Industry (PCI) bestudeert.
 
 ## <a name="peripheral-simulator"></a>Randapparatuursimulator
-Zie voor meer informatie het onderwerp [Randapparatuursimulator voor detailhandel](dev-itpro/retail-peripheral-simulator.md).
+Zie voor meer informatie het onderwerp [Randapparatuursimulator voor Commerce](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Door Microsoft geteste randapparaten
 ### <a name="ipc-built-in-hardware-station"></a>IPC-hardwarestation (geïntegreerd)
@@ -736,7 +750,10 @@ De volgende randapparaten zijn getest met een specifiek (niet-gedeeld) IIS-hardw
 
 ### <a name="shared-iis-hardware-station"></a>Gedeeld ISS-hardwarestation
 
-De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen met Modern POS voor Windows en Cloud POS. **Opmerking:** alleen een printer, betalingsterminal en kassalade worden ondersteund.
+De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen met Modern POS voor Windows en Cloud POS. 
+
+> [!NOTE]
+> Alleen een printer, betalingsterminal en kassalade worden ondersteund.
 
 #### <a name="printer"></a>Printer
 
@@ -817,6 +834,6 @@ De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Randapparatuursimulator voor detailhandel](dev-itpro/retail-peripheral-simulator.md)
+[Randapparatuursimulator voor Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 

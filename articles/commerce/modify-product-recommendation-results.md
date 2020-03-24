@@ -1,9 +1,9 @@
 ---
-title: Resultaten van productaanbevelingen op basis van AI-ML beheren
+title: Resultaten van productaanbevelingen op basis van AI-ML aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u resultaten van productaanbevelingen kunt aanpassen op basis van kunstmatige intelligentie-machine learning (AI-ML) voor uw bedrijf.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5da77f71fb2569adc011bb9ee9c8c795d85545f8
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024997"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127923"
 ---
-# <a name="manage-ai-ml-based-product-recommendation-results"></a>Resultaten van productaanbevelingen op basis van AI-ML beheren
+# <a name="adjust-ai-ml-based-product-recommendation-results"></a>Resultaten van productaanbevelingen op basis van AI-ML aanpassen
 
 
 [!include [banner](includes/banner.md)]
@@ -98,14 +98,26 @@ Voer de volgende stappen uit om handmatig resultaten voor een seed product toe t
 1.  Producten verwijderen uit de tabel: selecteer de regel die u wilt verwijderen en selecteer Verwijderen.
 
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
+[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+
 [Productaanbevelingen inschakelen](enable-product-recommendations.md)
 
-[Persoonlijke aanbevelingen inschakelen](personalized-recommendations.md)
+[Gepersonaliseerde aanbevelingen inschakelen](personalized-recommendations.md)
 
-[Lijsten met productaanbevelingen toevoegen aan pagina's](add-reco-list-to-page.md)
+[Afmelden voor gepersonaliseerde aanbevelingen](personalization-gdpr.md)
 
-[Overzicht productverzamelingsmodule](product-collection-module-overview.md)
+[Lijsten met aanbevelingen toevoegen aan e-commerce-site](add-reco-list-to-page.md)
+
+[Productaanbevelingen toevoegen op POS](product.md)
+
+[Aanbevelingen toevoegen aan het transactiescherm](add-recommendations-control-pos-screen.md)
+
+[Handmatig gecureerde aanbevelingen maken](create-editorial-recommendation-lists.md)
+
+[Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
+
+[Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)

@@ -17,12 +17,12 @@ ms.search.region: Belgium
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fb471bef09e6fc9b12aaee4633a69be8953e96fe
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1c6322d12f59af96db63ec0bf27be5583db606c6
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183825"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091886"
 ---
 # <a name="set-up-and-maintain-prodcom"></a>PRODCOM instellen en onderhouden
 

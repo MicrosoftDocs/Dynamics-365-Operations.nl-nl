@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26c62aa72a7919c780bb709b185b48c97066c538
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e2fa54ff598bb6a09bbcc483995a6e1a3f4286b3
+ms.sourcegitcommit: 16612a632aad9d390f8d80d3fc1f766585b2911e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836307"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3098071"
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a>Een inkooporder maken voor een eenmalige leverancier
 
@@ -37,5 +37,5 @@ Deze procedure laat zien hoe u een inkooporder kunt maken voor een eenmalige lev
     * Er wordt automatisch een leveranciersrekening gemaakt en aan de inkooporder toegewezen. De leveranciersrekening wordt gemaakt op basis van de sjabloon die is opgegeven op het tabblad Algemeen op de pagina Parameters van module Leveranciers.  
 4. Typ in het veld Naam een naam voor de leverancier.
 5. Klik op OK.
-    * De inkooporder kan nu worden voltooid en verwerkt als elke andere order. Er zijn geen speciale kenmerken verbonden aan hoe dit gebeurt. Op de factuur wordt een transactie voor de leveranciersrekening aangegeven die met de order is gemaakt, waarna de betaling wordt verwerkt. Wanneer dit is voltooid, kan de leveranciersrekening worden verwijderd. Dit wordt meestal uitgevoerd door de leveranciersafdeling.  
+    * De inkooporder kan nu worden voltooid en verwerkt als elke andere order. Er zijn geen speciale kenmerken verbonden aan hoe dit gebeurt. Op de factuur wordt een transactie voor de leveranciersrekening aangegeven die met de order is gemaakt, waarna de betaling wordt verwerkt.
 

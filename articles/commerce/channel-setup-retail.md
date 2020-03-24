@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8ac01f36912fa5e8a09bb4f324ef272cec737aa1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002376"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113823"
 ---
 # <a name="set-up-a-retail-channel"></a>Een detailhandelafzetkanaal instellen
 
@@ -66,7 +66,7 @@ In de volgende afbeelding ziet u een voorbeeld van een detailhandelafzetkanaal.
 
 Er zijn talloze andere optionele instellingen die u op basis van de behoeften van de detailhandelwinkel kunt instellen in de secties **Overzicht/afsluiting** en **Overige**.
 
-Zie ook [Schermindelingen voor het POS](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json) voor informatie over het instellen van de standaardschermindeling in de sectie **Schermindeling** en [Retail-hardwarestation configureren en installeren](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation) voor informatie het instellen van de sectie **Hardwarestations**.
+Zie ook [Schermindelingen voor het POS](pos-screen-layouts.md) voor informatie over het instellen van de standaardschermindeling in de sectie **Schermindeling** en [Retail-hardwarestation configureren en installeren](retail-hardware-station-configuration-installation.md) voor informatie het instellen van de sectie **Hardwarestations**.
 
 In de volgende afbeelding ziet u een voorbeeldconfiguratie van een detailhandelafzetkanaal.
 

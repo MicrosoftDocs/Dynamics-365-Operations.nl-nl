@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177201"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106854"
 ---
 # <a name="process-collection-letters"></a>Aanmaningen verwerken
 
@@ -70,7 +70,11 @@ In dit onderwerp leest u hoe u aanmaningen maakt, afdrukt en boekt. Bij deze taa
     1. Selecteer een optie in het veld **Afgedrukt**.
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>Aanmaningen op klantniveau beheren
-U kunt ook aanmaningen op het klantenniveau instellen zodat de aanmaningscode voor elke transactie wordt bijgehouden, maar de verwerking van de aanmaning wordt gebaseerd op één aanmaningsniveau dat wordt opgeslagen voor de klant. Deze ene aanmaning bevat alle achterstallige transacties voor de klant. Omdat de respijtdagen nu op het klantenniveau worden bijgehouden, wordt de volgende aanmaning pas verzonden als het aantal respijtdagen voor de volgende aanmaning in de reeks is verstreken, hoewel transacties achterstallig worden als de laatste aanmaning is verzonden. Met deze optie beperkt u het aantal aanmaningen dat u per klant verzendt. 
+Als aanmaningen worden ingesteld op het transactieniveau, kunnen er meerdere brieven worden gegenereerd voor een klant, gebaseerd op hoelang geleden een transactie heeft plaatsgevonden. Als transacties in verschillende letterreeksen voorkomen, worden afzonderlijke aanmaningen gegenereerd voor elke groep met achterstallige transacties voor de klant. Daarom kan een afzonderlijke klant bijvoorbeeld een aanmaning ontvangen voor transacties die 60 dagen achterstallig zijn en een andere aanmaning voor transacties die 90 dagen achterstallig zijn. 
+
+Elke aanmaning wordt ook gekoppeld aan een aanmaningscode. De aanmaningscode is gekoppeld aan afzonderlijke transacties en wordt gebruikt om te bepalen wanneer de volgende aanmaning moet worden gegenereerd voor elke transactie. Als een transactie bijvoorbeeld meer dan 30 dagen achterstallig is, wordt met de aanmaningscode bepaald dat de volgende aanmaning wordt verzonden wanneer de transactie na 60 dagen nog niet is betaald. 
+
+Aanmaningen kunnen ook worden ingesteld op klantniveau. In dit geval wordt de aanmaningscode voor elke transactie bijgehouden, maar de verwerking van de aanmaning wordt gebaseerd op één aanmaningsniveau dat wordt opgeslagen voor de klant. Deze ene aanmaning bevat alle achterstallige transacties voor de klant. Omdat de respijtdagen nu op het klantniveau worden bijgehouden, wordt de volgende aanmaning pas verzonden als het aantal respijtdagen voor de volgende aanmaning in de reeks is verstreken, hoewel transacties achterstallig worden als de laatste aanmaning is verzonden. Met deze optie beperkt u het aantal aanmaningen dat u per klant moet verzenden.
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>De klant configureren om aanmaningen op klantniveau te beheren
 1.  Ga naar **Navigatievenster > Modules > Crediteringen en aanmaningen > Instellingen > Parameters van module Klanten** en selecteer het tabblad **Aanmaningen**. 

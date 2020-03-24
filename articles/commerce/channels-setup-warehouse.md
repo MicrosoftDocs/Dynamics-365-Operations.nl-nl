@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057851"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113754"
 ---
 # <a name="warehouse-set-up"></a>Magazijninstellingen
 
@@ -33,7 +33,7 @@ In dit onderwerp wordt beschreven hoe u een magazijn instelt dat kan worden gebr
 
 ## <a name="overview"></a>Overzicht
 
-Aan elk Commerce-kanaal moet een geconfigureerd magazijn worden gekoppeld. De volgende procedures bieden de minimale configuratie die is vereist voor het instellen van een magazijn voor een Commerce-kanaal. Zie [Overzicht van Magazijnbeheer](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview) voor meer informatie over magazijninstellingen.
+Aan elk Commerce-kanaal moet een geconfigureerd magazijn worden gekoppeld. De volgende procedures bieden de minimale configuratie die is vereist voor het instellen van een magazijn voor een Commerce-kanaal. Zie [Overzicht van Magazijnbeheer](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json) voor meer informatie over magazijninstellingen.
 
 ## <a name="configure-a-warehouse-site"></a>Een magazijnlocatie configureren
 
@@ -131,7 +131,7 @@ De volgende afbeelding toont details voor een geconfigureerd magazijn.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van Magazijnbeheer](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview)
+[Overzicht van Magazijnbeheer](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
 [Overzicht van kanalen](channels-overview.md)
 
