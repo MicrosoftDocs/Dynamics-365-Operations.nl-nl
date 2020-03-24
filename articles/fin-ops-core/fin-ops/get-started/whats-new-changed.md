@@ -18,37 +18,36 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 39f72c534c7179f4535e6eb8a31ef7e9b72b7b88
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 41ec4737ccb270d2ba84dd473770f18e1aa6b044
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076022"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117379"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="c75f0-103">Startpagina van Nieuwe of gewijzigde functies in Finance and Operations-apps</span><span class="sxs-lookup"><span data-stu-id="c75f0-103">What's new or changed in Finance and Operations apps home page</span></span>
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="9b1dd-103">Startpagina van Nieuwe of gewijzigde functies in Finance and Operations-apps</span><span class="sxs-lookup"><span data-stu-id="9b1dd-103">What's new or changed in Finance and Operations apps home page</span></span>
+
 [!include [banner](../includes/banner.md)]
 
 
-[!include [release notes](../includes/release-notes.md)]
+## <a name="application-releases"></a><span data-ttu-id="9b1dd-104">Toepassingsversies</span><span class="sxs-lookup"><span data-stu-id="9b1dd-104">Application releases</span></span>
 
-## <a name="application-releases"></a><span data-ttu-id="c75f0-104">Toepassingsversies</span><span class="sxs-lookup"><span data-stu-id="c75f0-104">Application releases</span></span>
+<span data-ttu-id="9b1dd-105">Toelichting op wat er nieuw of gewijzigd is in alle versies van een Finance and Operations-app vindt u in de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="9b1dd-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
 
-<span data-ttu-id="c75f0-105">Toelichting op wat er nieuw of gewijzigd is in alle versies van een Finance and Operations-app vindt u in de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="c75f0-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
+- <span data-ttu-id="9b1dd-106">**Finance:** [Nieuwe of gewijzigde functies in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="9b1dd-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="9b1dd-107">**Supply Chain Management:** [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="9b1dd-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="9b1dd-108">**Commerce:** [Nieuwe of gewijzigde functies in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="9b1dd-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span></span>
+- <span data-ttu-id="9b1dd-109">**Human Resources:** [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="9b1dd-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
 
-- <span data-ttu-id="c75f0-106">**Finance:** [Nieuwe of gewijzigde functies in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="c75f0-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="c75f0-107">**Supply Chain Management:** [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="c75f0-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="c75f0-108">**Commerce:** [Nieuwe of gewijzigde functies in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="c75f0-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span></span>
-- <span data-ttu-id="c75f0-109">**Human Resources:** [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="c75f0-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
+## <a name="platform-updates"></a><span data-ttu-id="9b1dd-110">Platformupdates</span><span class="sxs-lookup"><span data-stu-id="9b1dd-110">Platform updates</span></span>
 
-## <a name="platform-updates"></a><span data-ttu-id="c75f0-110">Platformupdates</span><span class="sxs-lookup"><span data-stu-id="c75f0-110">Platform updates</span></span>
+<span data-ttu-id="9b1dd-111">Informatie over wat er nieuw of gewijzigd is in de platformupdates voor de Finance and Operations-apps vindt u in het volgende onderwerp:</span><span class="sxs-lookup"><span data-stu-id="9b1dd-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
 
-<span data-ttu-id="c75f0-111">Informatie over wat er nieuw of gewijzigd is in de platformupdates voor de Finance and Operations-apps vindt u in het volgende onderwerp:</span><span class="sxs-lookup"><span data-stu-id="c75f0-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
+- [<span data-ttu-id="9b1dd-112">Nieuwe of gewijzigde functies in Platformupdates</span><span class="sxs-lookup"><span data-stu-id="9b1dd-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
 
-- [<span data-ttu-id="c75f0-112">Nieuwe of gewijzigde functies in Platformupdates</span><span class="sxs-lookup"><span data-stu-id="c75f0-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
+## <a name="lifecycle-services-releases"></a><span data-ttu-id="9b1dd-113">Lifecycle Services-releases</span><span class="sxs-lookup"><span data-stu-id="9b1dd-113">Lifecycle Services releases</span></span>
+<span data-ttu-id="9b1dd-114">Een toelichting op wat er nieuw of gewijzigd is in Lifecycle Services vindt u in het volgende onderwerp:</span><span class="sxs-lookup"><span data-stu-id="9b1dd-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
 
-## <a name="lifecycle-services-releases"></a><span data-ttu-id="c75f0-113">Lifecycle Services-releases</span><span class="sxs-lookup"><span data-stu-id="c75f0-113">Lifecycle Services releases</span></span>
-<span data-ttu-id="c75f0-114">Een toelichting op wat er nieuw of gewijzigd is in Lifecycle Services vindt u in het volgende onderwerp:</span><span class="sxs-lookup"><span data-stu-id="c75f0-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
-
-- [<span data-ttu-id="c75f0-115">Nieuwe of gewijzigde functies in Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="c75f0-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
+- [<span data-ttu-id="9b1dd-115">Nieuwe of gewijzigde functies in Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="9b1dd-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 

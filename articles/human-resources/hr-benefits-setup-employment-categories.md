@@ -1,6 +1,6 @@
 ---
 title: Dienstverbandcategorieën maken
-description: ''
+description: In Dynamics 365 Human Resources kunnen dienstverbandcategorieën worden ingesteld die overeenkomen met uw medewerkers.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59f03eadb97a00435bc8b7c02de6854439e2b179
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: bad9ea41e0b1367fc660dfbc59595dce81174adc
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008680"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092678"
 ---
-# <a name="create-employment-categories"></a><span data-ttu-id="9247f-102">Dienstverbandcategorieën maken</span><span class="sxs-lookup"><span data-stu-id="9247f-102">Create employment categories</span></span>
+# <a name="create-employment-categories"></a><span data-ttu-id="7b4c3-103">Dienstverbandcategorieën maken</span><span class="sxs-lookup"><span data-stu-id="7b4c3-103">Create employment categories</span></span>
 
 [!include [banner](includes/preview-feature.md)]
 
-<span data-ttu-id="9247f-103">Stel in Dynamics 365 Human Resources dienstverbandcategorieën in voor uw medewerkers.</span><span class="sxs-lookup"><span data-stu-id="9247f-103">Set up employment categories in Dynamics 365 Human Resources to match your workers.</span></span>
+<span data-ttu-id="7b4c3-104">Stel in Dynamics 365 Human Resources dienstverbandcategorieën in voor uw medewerkers.</span><span class="sxs-lookup"><span data-stu-id="7b4c3-104">Set up employment categories in Dynamics 365 Human Resources to match your workers.</span></span>
 
-1. <span data-ttu-id="9247f-104">Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Dienstverbandcategorieën**.</span><span class="sxs-lookup"><span data-stu-id="9247f-104">In the **Benefits management** workspace, under **Setup**, select **Employment categories**.</span></span>
+1. <span data-ttu-id="7b4c3-105">Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Dienstverbandcategorieën**.</span><span class="sxs-lookup"><span data-stu-id="7b4c3-105">In the **Benefits management** workspace, under **Setup**, select **Employment categories**.</span></span>
 
-2. <span data-ttu-id="9247f-105">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="9247f-105">Select **New**.</span></span>
+2. <span data-ttu-id="7b4c3-106">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="7b4c3-106">Select **New**.</span></span>
 
-3. <span data-ttu-id="9247f-106">Geef waarden op voor **Type medewerker**, **Dienstverbandcategorie** en **Beschrijving**.</span><span class="sxs-lookup"><span data-stu-id="9247f-106">Specify values for **Worker type**, **Employment category**, and **Description**.</span></span>
+3. <span data-ttu-id="7b4c3-107">Geef waarden op voor **Type medewerker**, **Dienstverbandcategorie** en **Beschrijving**.</span><span class="sxs-lookup"><span data-stu-id="7b4c3-107">Specify values for **Worker type**, **Employment category**, and **Description**.</span></span>
 
-4. <span data-ttu-id="9247f-107">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="9247f-107">Select **Save**.</span></span> 
+4. <span data-ttu-id="7b4c3-108">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="7b4c3-108">Select **Save**.</span></span> 

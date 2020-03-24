@@ -1,9 +1,9 @@
 ---
 title: Aangepaste velden
-description: ''
+description: U kunt aangepaste velden toevoegen aan pagina's in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,27 +18,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6de1bcc6df5f8e4ab1ebbccb4b9a56f6f019c37f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7348fb9d3457da23fc4e250a1fd3f6cac82bdb5e
+ms.sourcegitcommit: 8493593e1405cde8cde23a3d9eb90385136088e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008613"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3115994"
 ---
-# <a name="custom-fields"></a><span data-ttu-id="c9695-102">Aangepaste velden</span><span class="sxs-lookup"><span data-stu-id="c9695-102">Custom fields</span></span>
+# <a name="custom-fields"></a><span data-ttu-id="83445-103">Aangepaste velden</span><span class="sxs-lookup"><span data-stu-id="83445-103">Custom fields</span></span>
 
-<span data-ttu-id="c9695-103">U kunt aangepaste velden toevoegen aan pagina's in Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="c9695-103">You can add custom fields to pages in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="c9695-104">Zie [Maken en werken met aangepaste velden](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields) voor meer informatie over het maken van aangepaste velden op een pagina .</span><span class="sxs-lookup"><span data-stu-id="c9695-104">For more information about how to create custom fields on a page, see [Create and work with custom fields](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span></span>
+<span data-ttu-id="83445-104">U kunt aangepaste velden toevoegen aan pagina's in Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="83445-104">You can add custom fields to pages in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="83445-105">Zie [Maken en werken met aangepaste velden](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields) voor meer informatie over het maken van aangepaste velden.</span><span class="sxs-lookup"><span data-stu-id="83445-105">For more information about creating custom fields, see [Create and work with custom fields](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span></span>
 
-<span data-ttu-id="c9695-105">De volgende entiteiten in Common Data Service ondersteunen aangepaste velden die zijn gemaakt in Human Resources:</span><span class="sxs-lookup"><span data-stu-id="c9695-105">The following entities in Common Data Service support custom fields created in Human Resources:</span></span>
+<span data-ttu-id="83445-106">De meeste Common Data Service-entiteiten ondersteunen aangepaste velden.</span><span class="sxs-lookup"><span data-stu-id="83445-106">Most Common Data Service entities support custom fields.</span></span> <span data-ttu-id="83445-107">Een volledige lijst met Common Data Service-entiteiten vindt u in [Common Data Service-entiteiten](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span><span class="sxs-lookup"><span data-stu-id="83445-107">For a full list of Common Data Service entities, see [Common Data Service entities](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span></span> 
 
-- <span data-ttu-id="c9695-106">Medewerker</span><span class="sxs-lookup"><span data-stu-id="c9695-106">Worker</span></span>
-- <span data-ttu-id="c9695-107">Etnische afkomst</span><span class="sxs-lookup"><span data-stu-id="c9695-107">Ethnic origin</span></span>
-- <span data-ttu-id="c9695-108">Oorlogsveteraanstatus</span><span class="sxs-lookup"><span data-stu-id="c9695-108">Veteran status</span></span>
-- <span data-ttu-id="c9695-109">Taalcode</span><span class="sxs-lookup"><span data-stu-id="c9695-109">Language code</span></span>
-- <span data-ttu-id="c9695-110">Taak</span><span class="sxs-lookup"><span data-stu-id="c9695-110">Job</span></span>
-- <span data-ttu-id="c9695-111">Taaktype</span><span class="sxs-lookup"><span data-stu-id="c9695-111">Job type</span></span>
-- <span data-ttu-id="c9695-112">Functiepositie</span><span class="sxs-lookup"><span data-stu-id="c9695-112">Job function</span></span>
-- <span data-ttu-id="c9695-113">Positie</span><span class="sxs-lookup"><span data-stu-id="c9695-113">Position</span></span>
-- <span data-ttu-id="c9695-114">Positietype</span><span class="sxs-lookup"><span data-stu-id="c9695-114">Position type</span></span>
+<span data-ttu-id="83445-108">Zorg ervoor dat aangepaste velden die u maakt, worden ingeschakeld, zodat u ze kunt gebruiken in Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="83445-108">Be sure to enable any custom fields that you create so you can use them in Common Data Service.</span></span> <span data-ttu-id="83445-109">Zie [Aangepaste velden in gegevensentiteiten weergeven](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="83445-109">For more information, see [Exposing custom fields on data entities](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span></span>
 
-<span data-ttu-id="c9695-115">Zorg ervoor dat aangepaste velden die u maakt, worden ingeschakeld, zodat u ze kunt gebruiken in Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="c9695-115">Be sure to enable any custom fields that you create so you can use them in Common Data Service.</span></span> <span data-ttu-id="c9695-116">Zie [Aangepaste velden in gegevensentiteiten weergeven](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="c9695-116">For more information, see [Exposing custom fields on data entities](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span></span>
+## <a name="see-also"></a><span data-ttu-id="83445-110">Zie ook</span><span class="sxs-lookup"><span data-stu-id="83445-110">See also</span></span>
+
+[<span data-ttu-id="83445-111">Common Data Service-entiteiten</span><span class="sxs-lookup"><span data-stu-id="83445-111">Common Data Service entities</span></span>](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
+[<span data-ttu-id="83445-112">Maken en werken met aangepaste velden</span><span class="sxs-lookup"><span data-stu-id="83445-112">Create and work with custom fields</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[<span data-ttu-id="83445-113">Aangepaste velden in gegevensentiteiten weergeven</span><span class="sxs-lookup"><span data-stu-id="83445-113">Exposing custom fields on data entities</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
