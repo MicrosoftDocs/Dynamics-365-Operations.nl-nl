@@ -3,7 +3,7 @@ title: Een online winkelafzetkanaal instellen
 description: Dit artikel bevat informatie over online opslagkanalen en hoe ze in Dynamics 365 Commerce worden ingesteld.
 author: kfend
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c427b0eba2120123a47f52029d70896be88b9ec0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b719e40720b091eec879edf332ab63db710a1ebc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022191"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096889"
 ---
 # <a name="set-up-an-online-store-channel"></a>Een online winkelafzetkanaal instellen
 
@@ -71,3 +71,27 @@ Organisatiehiërarchieën worden gebruikt om Commerce-kanalen te structureren en
 Wanneer u een organisatiehiërarchie maakt, kent u er een doelstelling aan toe. Het doel geeft aan hoe de hiërarchie in de bedrijfsstructuur wordt gebruikt. U kunt een organisatiehiërarchie maken voor uw winkels en die hiërarchie gebruiken voor assortimenten, aanvulling en rapportering. 
 
 U kunt ook een afzonderlijke organisatiehiërarchie maken voor elk doel. U kunt ook meerdere hiërarchieën maken met hetzelfde doel en een apart kanaal toewijzen aan elk van deze. Als u productcatalogi wilt publiceren naar de online winkel, moet u de online winkel ten minste toevoegen aan een organisatiehiërarchie voor assortimenten. De producten in een catalogus zijn geselecteerd uit de assortimenten die zijn toegewezen aan de online winkel. Wanneer de catalogus wordt gepubliceerd, vergelijkt het publicatieproces de ingangsdatums voor het assortiment dat is toegewezen aan de online winkel met producten die zijn opgenomen in de catalogus om te bepalen welke producten in de online winkel beschikbaar moeten zijn.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+[Uw domeinnaam configureren](configure-your-domain-name.md)
+
+[Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
+
+[Een e-commerce-site maken](create-ecommerce-site.md)
+
+[Een online-site koppelen aan een kanaal](associate-site-online-store.md)
+
+[Robots.txt-bestanden beheren](manage-robots-txt-files.md)
+
+[URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
+
+[Een B2C-tenant instellen in Commerce](set-up-B2C-tenant.md)
+
+[Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md)
+
+[Meerdere B2C-tenants configureren in een Commerce-omgeving](configure-multi-B2C-tenants.md)
+
+[Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen](add-cdn-support.md)
+
+[Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)

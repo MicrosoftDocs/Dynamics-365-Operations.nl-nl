@@ -14,6 +14,8 @@
               items:
                 - name: Startpagina van nieuwe of gewijzigde functies in Platformupdates
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 34 (mei 2020)
+                  href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (april 2020)
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (februari 2020)
@@ -146,47 +148,73 @@
                   items:
                     - name: Overzicht van Gegevensintegratie via Common Data Service
                       href: data-entities/data-integration-cds.md
-                    - name: 'Synchrone, bidirectionele integratie'
+                    - name: Integratie van twee keer wegschrijven
                       items:
                         - name: Startpagina voor twee keer wegschrijven
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: Overzicht van twee keer wegschrijven
                           href: data-entities/dual-write/dual-write-overview.md
-                        - name: Organisatiehiërarchie van Common Data Service
-                          href: data-entities/dual-write/organization-mapping.md
-                        - name: Bedrijfsintegratie
+                        - name: Instellingen voor twee keer wegschrijven
                           items:
-                            - name: Bedrijfsconcept in Common Data Services
-                              href: data-entities/dual-write/company-data.md
-                            - name: Automatisch laden met bedrijfsgegevens
-                              href: data-entities/dual-write/bootstrap-company-data.md
-                        - name: Model voor geïntegreerde klanten
-                          href: data-entities/dual-write/customer-mapping.md
-                        - name: Geïntegreerd grootboek
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: Uniforme productervaring
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: Integratie van leverancier
+                            - name: Systeemvereisten voor twee keer wegschrijven
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: Ondersteunde scenario's met instellingen voor twee keer wegschrijven
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: Instellingen voor twee keer wegschrijven van Lifecycle Services
+                              href: data-entities/dual-write/lcs-setup.md
+                        - name: Toewijzingsconcepten tussen apps
                           items:
-                            - name: Model voor geïntegreerde leveranciers
-                              href: data-entities/dual-write/vendor-mapping.md
-                            - name: Schakelen tussen leverancierontwerpen
-                              href: data-entities/dual-write/vendor-switch.md
-                        - name: Geïntegreerde locaties en magazijnen
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                        - name: Model voor geïntegreerde belasting
-                          href: data-entities/dual-write/tax-mapping.md
-                        - name: Initiële synchronisatie
-                          href: data-entities/dual-write/initial-sync.md
-                        - name: Problemen met gegevensintegratie oplossen
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: 'Asynchrone, unidirectionele integratie'
+                            - name: Organisatiehiërarchie van Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: Bedrijfsintegratie
+                              items:
+                                - name: Bedrijfsconcept in Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Automatisch laden met bedrijfsgegevens
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Model voor geïntegreerde klanten
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: Productintegratie
+                              items:
+                                - name: Uniforme productervaring
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: Geïntegreerde sites en magazijnen
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Financiële en belastinggegevens
+                              items:
+                                - name: Toegang tot referentiegegevens voor financiën en belastingen
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: Geïntegreerd grootboek
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: Model voor geïntegreerde belasting
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: Integratie van leverancier
+                              items:
+                                - name: Model voor geïntegreerde leveranciers
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Schakelen tussen leverancierontwerpen
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Prospect naar contant geld in twee keer wegschrijven
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Interne activa voor onderhoudsbeurten
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: 'Geïntegreerde medewerker, taak en functie'
+                              href: data-entities/dual-write/integrated-hr.md
+                        - name: Ondersteuning voor twee keer wegschrijven
+                          items:
+                            - name: Ondersteuning voor Field Service-oplossingen en oplossingen voor Project Service Automation
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Initiële synchronisatie
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Problemen met gegevensintegratie oplossen
+                              href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Integratie met Power Platform Data Integrator
                       items:
                         - name: Een scenario van prospect tot contant geld configureren
                           items:
                             - name: Van prospect naar contant geld
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
+                            - name: Rekeningen in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
                             - name: Producten in Finance and Operations rechtstreeks synchroniseren met producten in Sales
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
@@ -332,6 +360,8 @@
                   href: database/import-database.md
                 - name: Tijdgebonden databaseherstel
                   href: database/database-point-in-time-restore.md
+                - name: Tijdgebonden herstel van de productiedatabase naar een sandbox-omgeving
+                  href: database/database-pitr-prod-sandbox.md
             - name: Zelfstudies
               items:
                 - name: Vernieuwen voor opleidingsdoeleinden
@@ -430,6 +460,8 @@
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: Installatiestappen voor onderdelen van detailhandelskanaal in een on-premises omgeving
                       href: deployment/deploy-retail-onprem.md
+                    - name: Hetzelfde AD FS-exemplaar hergebruiken voor meerdere omgevingen
+                      href: deployment/onprem-reuseadfs.md
                 - name: Aangepaste modellen voor on-premises omgevingen ontwikkelen en implementeren
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Integratie PowerBI.com met on-premises omgevingen
@@ -970,24 +1002,34 @@
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Methodologieën maken of bijwerken
               href: lifecycle-services/create-methodology.md
-            - name: Modelleertool bedrijfsprocessen
-              href: lifecycle-services/bpm-overview.md
-            - name: Procesbibliotheken voor Modelleertool bedrijfsprocessen
-              href: lifecycle-services/business-process-libraries-business-process-modeler.md
-            - name: 'Bibliotheken voor Modelleertool bedrijfsprocessen maken, bewerken en doorzoeken'
-              href: lifecycle-services/creating-editing-browsing.md
-            - name: Taken in Modelleertool bedrijfsprocessen voltooien
-              href: lifecycle-services/complete-tasks-bpm.md
-            - name: Werken met activiteitsdiagrammen in BPM-bibliotheken
-              href: lifecycle-services/using-activity-diagrams.md
-            - name: BPM-bibliotheken synchroniseren met Azure DevOps
-              href: lifecycle-services/synchronize-bpm-vsts.md
-            - name: Testbibliotheken voor gebruikersacceptatie maken met taakbegeleiders en BPM
-              href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Stroomdiagrammen in Modelleertool bedrijfsprocessen
-              href: lifecycle-services/flowcharts-business-process-modeler.md
-            - name: Aangepaste bedrijfsprocessen uploaden naar Modelleertool bedrijfsprocessen
-              href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Modelleertool bedrijfsprocessen (BPM)
+              items:
+                - name: Overzicht van Modelleertool bedrijfsprocessen (BPM)
+                  href: lifecycle-services/bpm-overview.md
+                - name: Procesbibliotheken voor Modelleertool bedrijfsprocessen
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: 'Bibliotheken voor Modelleertool bedrijfsprocessen maken, bewerken en doorzoeken'
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: Taken in Modelleertool bedrijfsprocessen voltooien
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: Werken met activiteitsdiagrammen in BPM-bibliotheken
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: BPM-bibliotheken synchroniseren met Azure DevOps
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: Testbibliotheken voor gebruikersacceptatie maken met taakbegeleiders en BPM
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: Stroomdiagrammen in Modelleertool bedrijfsprocessen
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: Aangepaste bedrijfsprocessen uploaden naar Modelleertool bedrijfsprocessen
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Serviceaanvragen
+              items:
+                - name: Cloudbewerkingen en -services
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: Serviceaanvragen indienen bij het Dynamics Service-engineeringteam
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: Veelgestelde vragen over gepland onderhoudsvenster
+                  href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Controle en diagnose
               href: lifecycle-services/monitoring-diagnostics.md
             - name: Omgevingsservices opnieuw starten
@@ -1282,14 +1324,8 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Ondersteuning verkrijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
               href: lifecycle-services/21vianet-support.md
-            - name: Aanvragen indienen bij het Dynamics Service-engineeringteam
-              href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
             - name: Technische ondersteuning instellen voor Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Veelgestelde vragen over gepland onderhoudsvenster
-              href: lifecycle-services/planned-maintenance-window-faq.md
-            - name: Cloudbewerkingen en -services
-              href: lifecycle-services/cloud-operations-servicing.md
             - name: Ervaringen met Finance and Operations-ondersteuning beheren
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Systeembeheer

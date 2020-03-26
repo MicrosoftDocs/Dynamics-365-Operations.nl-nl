@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015169"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124538"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>De uitvoering van reekselementen in ER-indelingen uitstellen
 
@@ -45,7 +45,7 @@ De optie **Uitgestelde uitvoering** wordt alleen ondersteund voor reekselementen
 
 De optie **Uitgestelde uitvoering** is niet van toepassing op reeksen die zijn geconfigureerd als afgekapte reeksen waarvoor de maximumlengte beperkt is.
 
-## <a name="Example"></a>Voorbeeld: de uitvoering van een reekselement in een ER-indeling
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Voorbeeld: de uitvoering van een reekselement in een ER-indeling
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker in de [rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) Systeembeheerder of consultant voor elektronische rapportage een ER-indeling kan configureren die een reekselement bevat waarvoor de volgorde van uitvoering verschilt van de volgorde in de indelingshiërarchie.
 

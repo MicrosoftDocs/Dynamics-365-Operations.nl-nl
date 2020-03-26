@@ -3,7 +3,7 @@ title: ADLS inschakelen in een Dynamics 365 Commerce-omgeving
 description: In dit onderwerp wordt uitgelegd hoe u Azure Data Lake Storage (ADLS) voor een Dynamics 365 Commerce-omgeving kunt inschakelen en testen. Dit is een vereiste voor het inschakelen van productaanbevelingen.
 author: bebeale
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 068eb522bd44e02dd31d3337a051691a956637fc
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025236"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127762"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>ADLS inschakelen in een Dynamics 365 Commerce-omgeving
 
@@ -95,8 +95,22 @@ Als u nog niet klaar bent, voert u de stappen voor [productaanbevelingen en -aan
 
 [Productaanbevelingen inschakelen](enable-product-recommendations.md)
 
-[Lijsten met productaanbevelingen toevoegen aan pagina's](add-reco-list-to-page.md)
+[Gepersonaliseerde aanbevelingen inschakelen](personalized-recommendations.md)
 
-[Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten](../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json)
+[Afmelden voor gepersonaliseerde aanbevelingen](personalization-gdpr.md)
+
+[Lijsten met aanbevelingen toevoegen aan e-commerce-site](add-reco-list-to-page.md)
+
+[Productaanbevelingen toevoegen op POS](product.md)
+
+[Aanbevelingen toevoegen aan het transactiescherm](add-recommendations-control-pos-screen.md)
+
+[Resultaten van AI-ML-aanbevelingen aanpassen](modify-product-recommendation-results.md)
+
+[Handmatig gecureerde aanbevelingen maken](create-editorial-recommendation-lists.md)
+
+[Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
+
+[Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
 
 

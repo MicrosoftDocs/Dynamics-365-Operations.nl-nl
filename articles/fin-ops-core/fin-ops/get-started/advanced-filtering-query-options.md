@@ -1,9 +1,9 @@
 ---
 title: Geavanceerde filter- en querysyntaxis
-description: In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u het dialoogvenster Geavanceerd filteren/sorteren of de operator komt overeen in het filtervenster of de filters in de rasterkolomkoppen gebruikt.
+description: In dit onderwerp worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u het dialoogvenster Geavanceerd filteren/sorteren of de operator komt overeen in het filtervenster of de filters in de rasterkolomkoppen gebruikt.
 author: jasongre
 manager: AnnBe
-ms.date: 01/02/2020
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
-ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
+ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "2931283"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112186"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Geavanceerde filter- en querysyntaxis
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u het dialoogvenster Geavanceerd filteren/sorteren of de operator **komt overeen** in het filtervenster of de filters in de rasterkolomkoppen gebruikt.
+In dit onderwerp worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u het dialoogvenster Geavanceerd filteren/sorteren of de operator **komt overeen** in het filtervenster of de filters in de rasterkolomkoppen gebruikt.
 
 ## <a name="advanced-query-syntax"></a>Geavanceerde querysyntaxis
 
@@ -122,10 +122,11 @@ In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn 
 <td>Met twee opeenvolgende dubbele aanhalingstekens (<strong>""</strong>) wordt gezocht naar rijen zonder waarde voor de huidige kolom.</td>
 </tr>
 <tr>
-<td>(<span class="code">SQL-instructie</span>) (SQL-instructie tussen haakjes)</td>
+<td>(<span class="code">Finance and Operations-query</span>) (Finance and Operations-query tussen haakjes)</td>
 <td>Overeenkomend met een opgegeven query.</td>
-<td>Typ een query als een SQL-instructie tussen haakjes.</td>
-<td><strong><span class="code">(gegevensbron.Veldnaam != &quot;A&quot;)</span></strong></td>
+<td>Typ een query als een SQL-instructie tussen haakjes met de Finance and Operations-querytaal.</td>
+  <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
+       Als een voorbeeld van een syntaxis voor een filtervoorwaarde op een veld uit de hoofdgegevensbron en een veld uit een andere gegevensbron (voor de pagina Alle klanten)</td>
 </tr>
 <tr>
 <td>D</td>

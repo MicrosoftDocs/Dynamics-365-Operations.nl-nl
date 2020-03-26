@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6c19542089526c1e17fb1133d52cf042f244fb80
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002330"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113846"
 ---
 # <a name="set-up-organization-hierarchies"></a>Organisatiehiërarchieën instellen
 
@@ -41,9 +41,9 @@ Voordat u een organisatiehiërarchie maakt, moet u organisaties maken. Zie voor 
 
 
 Zie de volgende onderwerpen voor meer informatie.
-- [Overzicht van Organisaties en organisatiehiërarchieën](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies)
-- [Uw organisatiehiërarchie plannen](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy?toc=/dynamics365/commerce/toc.json)
-- [Een organisatiehiërarchie maken](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy?toc=/dynamics365/commerce/toc.json)
+- [Overzicht van Organisaties en organisatiehiërarchieën](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+- [Uw organisatiehiërarchie plannen](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
+- [Een organisatiehiërarchie maken](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 
 ## <a name="create-an-organizational-hierarchy"></a>Een organisatiehiërarchie maken
 

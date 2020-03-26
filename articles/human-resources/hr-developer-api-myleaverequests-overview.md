@@ -1,6 +1,6 @@
 ---
 title: MyLeaveRequests-overzicht
-description: ''
+description: De entiteit MyLeaveRequests in Microsoft Dynamics 365 Human Resources levert de lijst met verlofaanvragen in het systeem, bereiken (beperkt) tot de aanvragen die toegankelijk zijn voor de huidige gebruiker die een query uitvoert op de entiteit.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66f161d6736b1bb544d02871d9d51b2949b1cfa0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 4bf3b298af9eb39e03514a4005afb43a42908e47
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008615"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092032"
 ---
 # <a name="myleaverequests-overview"></a>MyLeaveRequests-overzicht
 

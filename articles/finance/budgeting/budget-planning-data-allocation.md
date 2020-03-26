@@ -3,7 +3,7 @@ title: Gegevenstoewijzing voor budgetplanning
 description: Dit onderwerp beschrijft de verschillende toewijzingsmethoden die beschikbaar zijn in Microsoft Dynamics 365 Finance en hoe ze kunnen worden gebruikt.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772071"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106877"
 ---
 # <a name="budget-planning-data-allocation"></a>Gegevenstoewijzing voor budgetplanning
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel beschrijft de verschillende toewijzingsmethoden die beschikbaar zijn in Microsoft Dynamics 365 Finance en hoe ze kunnen worden gebruikt.  
+Dit onderwerp beschrijft de verschillende toewijzingsmethoden die beschikbaar zijn in Microsoft Dynamics 365 Finance en hoe ze kunnen worden gebruikt.  
 
 U kunt de gegevens in een budgetplan op verschillende manieren verspreiden om de verwachte bedragen nauwkeurig af te beelden.
 
 ## <a name="allocation-methods"></a>Toewijzingsmethodes
 Drie toewijzingsmethoden (Toewijzen aan perioden, Toewijzen aan dimensies en Grootboektoewijzingsregels gebruiken) kunnen de budgetplanregels maken die op regels in hetzelfde budgetplan zijn gebaseerd. Drie andere methoden (Samenvoegen, Verdelen en Kopiëren uit budgetplan) kunnen budgetplanregels maken in andere budgetplannen. Voor alle zes toewijzingsmethoden geeft u het doelscenario op. Het doelscenario kan gelijk zijn aan het bronscenario of van het bronscenario verschillen. Bovendien kunt u opgeven of de nieuwe regels aan het budgetplan worden toegevoegd of de huidige regels in het budgetplan vervangen.
+
+> [!NOTE] 
+> Er moet een uniek scenario worden gebruikt voor aggregatie dat verschilt van het scenario dat is gebruikt voor distributie of andere wijzigingen die eerder in het bovenliggende plan zijn uitgevoerd.  
 
 [![Toewijzingsmethode Toewijzen aan perioden](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Toewijzen aan perioden** – Een periodetoewijzingscategorie wordt gebruikt om de budgetplanregels toe te wijzen vanuit het bronbudgetplanscenario aan perioden in het doelscenario. Het bronbedrag is toegewezen aan meerdere regels in het doelscenario, op basis van het percentage en de datum die zijn opgegeven in de periodetoewijzingscategorie.         

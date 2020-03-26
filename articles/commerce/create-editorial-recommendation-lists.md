@@ -1,9 +1,9 @@
 ---
-title: Lijst met gecureerde productaanbevelingen maken
-description: In dit onderwerp wordt uitgelegd hoe verkoopadviseurs handmatige productlijsten voor klanten van Microsoft Dynamics 365 Commerce kunnen maken en beheren.
+title: Handmatig gecureerde aanbevelingen maken
+description: In dit onderwerp wordt uitgelegd hoe verkoopadviseurs handmatig productlijsten voor klanten van Microsoft Dynamics 365 Commerce kunnen maken en beheren.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: b39ef61e7dabdd8a53d5666926a95cb7b9e6b9a5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024928"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127716"
 ---
-# <a name="create-curated-product-recommendation-lists"></a>Lijst met gecureerde productaanbevelingen maken
+# <a name="manually-create-curated-recommendations"></a>Handmatig gecureerde aanbevelingen maken
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe verkoopadviseurs handmatige productlijsten voor klanten van Microsoft Dynamics 365 Commerce kunnen maken en beheren.
+In dit onderwerp wordt uitgelegd hoe verkoopadviseurs handmatig productaanbevelingen voor klanten van Microsoft Dynamics 365 Commerce kunnen maken en beheren.
 
 Samengestelde lijsten zijn verzamelingen van afzonderlijke inhoud die door personen worden gemaakt en opgesteld.  
 
@@ -52,12 +52,26 @@ Voer de volgende stappen uit om een lijst met productaanbevelingen te maken.
 
 ![Voorbeeld van samengestelde lijst in backoffice](./media/examplecuratedrecolist.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
+[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+
 [Productaanbevelingen inschakelen](enable-product-recommendations.md)
 
-[Lijsten met productaanbevelingen toevoegen aan pagina's](add-reco-list-to-page.md)
+[Gepersonaliseerde aanbevelingen inschakelen](personalized-recommendations.md)
 
-[Overzicht productverzamelingsmodule](product-collection-module-overview.md)
+[Afmelden voor gepersonaliseerde aanbevelingen](personalization-gdpr.md)
+
+[Lijsten met aanbevelingen toevoegen aan e-commerce-site](add-reco-list-to-page.md)
+
+[Productaanbevelingen toevoegen op POS](product.md)
+
+[Aanbevelingen toevoegen aan het transactiescherm](add-recommendations-control-pos-screen.md)
+
+[Resultaten van AI-ML-aanbevelingen aanpassen](modify-product-recommendation-results.md)
+
+[Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
+
+[Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)

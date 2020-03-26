@@ -1,6 +1,6 @@
 ---
 title: Overzicht
-description: ''
+description: Deze ontwikkelaarsgids bevat een API en een verwijzing naar aangepaste velden. Ook vindt u hier informatie over integratie met andere apps.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 995de90aa7c83b5aad35d935fe021706cf48ec4c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e67882c47ad37805c6f6ce8051fb58363c4bcdcf
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008614"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091986"
 ---
 # <a name="overview"></a>Overzicht
 
@@ -42,9 +42,9 @@ Deze ontwikkelaarsgids bevat een API en een verwijzing naar aangepaste velden. O
   - [Integratie met Common Data Service configureren](hr-admin-integration-common-data-service.md)
   - [Integratie met Finance configureren](hr-admin-integration-finance.md)
   - [Integratie met Dayforce configureren](hr-admin-integration-dayforce.md)
-  - [Een app voor terugkerende gegevensexporten maken](hr-admin-integration-recurring-data-export.md)
+  - [Een app voor het exporteren van terugkerende gegevens maken](hr-admin-integration-recurring-data-export.md)
   - Integreren met Office
-    - [Zelfstudie Office-integratie](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Zelfstudie voor Office-integratie](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Entiteitsgegevens bijwerken in Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Ervaringen met Openen in Excel maken](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Problemen met Office-integratie oplossen](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)

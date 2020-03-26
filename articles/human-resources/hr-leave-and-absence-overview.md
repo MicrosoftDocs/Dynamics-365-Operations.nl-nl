@@ -1,6 +1,6 @@
 ---
 title: Overzicht
-description: ''
+description: In Dynamics 365 Human Resources biedt het werkgebied **Verlof en verzuim** een flexibel raamwerk voor het maken van nieuwe verlofplannen, workflows voor het beheren van aanvragen en een intuïtieve selfservicepagina voor werknemers om verlof aan te vragen.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a36f6b6ba696fa926ab3d6298568dddfce43a57
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008660"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091743"
 ---
 # <a name="overview"></a>Overzicht
 

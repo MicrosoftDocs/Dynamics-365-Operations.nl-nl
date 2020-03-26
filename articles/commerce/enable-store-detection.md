@@ -3,7 +3,7 @@ title: Detectie van winkels op basis van de locatie inschakelen
 description: In dit onderwerp wordt beschreven hoe u de detectie van winkels op locatiebasis voor uw Dynamics 365 Commerce-site inschakelt.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 304d8d2f05916295b9c6320561d6a25ff40df955
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 66ffe56f9d969c9d62ed4ff49f0848fab7e58a56
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003090"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096864"
 ---
 # <a name="enable-location-based-store-detection"></a>Detectie van winkels op basis van de locatie inschakelen
 
@@ -48,11 +48,13 @@ Voer de volgende stappen uit als u winkeldetectie op basis van locatie wilt insc
 1. Selecteer **Site-instellingen**.
 1. Stel de optie **Detectie van winkels op basis van de locatie inschakelen** in op **Aan**.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Uw domeinnaam configureren](configure-your-domain-name.md)
 
 [Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
+
+[Een online winkelafzetkanaal instellen](online-stores.md)
 
 [Een e-commerce-site maken](create-ecommerce-site.md)
 
@@ -60,6 +62,12 @@ Voer de volgende stappen uit als u winkeldetectie op basis van locatie wilt insc
 
 [Robots.txt-bestanden beheren](manage-robots-txt-files.md)
 
+[URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
+
+[Een B2C-tenant instellen in Commerce](set-up-B2C-tenant.md)
+
 [Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md)
+
+[Meerdere B2C-tenants configureren in een Commerce-omgeving](configure-multi-B2C-tenants.md)
 
 [Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen](add-cdn-support.md)

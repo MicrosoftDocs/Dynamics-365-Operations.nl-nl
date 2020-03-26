@@ -1,6 +1,6 @@
 ---
 title: Verlof- en verzuimplannen toerekenen
-description: ''
+description: U kunt verlof en verzuim toerekenen in Dynamics 365 Human Resources voor meerdere werknemers of voor een individu.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28b7d843d9dd652e45c24af09d0414530c06c4ac
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008603"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092333"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Verlof- en verzuimplannen toerekenen
 

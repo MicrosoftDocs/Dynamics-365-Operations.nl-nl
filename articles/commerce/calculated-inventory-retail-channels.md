@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083013"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113915"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Beschikbaarheid van voorraad berekenen voor detailhandelskanalen
 
@@ -41,7 +41,7 @@ In dit onderwerp worden de processen voor gegevenssynchronisatie beschreven die 
 U kunt de volgende API's gebruiken om de beschikbaarheid van voorraad voor een product weer te geven wanneer uw klanten op een e-Commerce-site winkelen.
 
 - **GetEstimatedAvailability**: gebruik deze API om voorraadbeschikbaarheid voor het artikel op te halen in het magazijn van het e-Commerce-afzetkanaal of alle magazijnen die zijn gekoppeld aan de configuratie van de afhandelingsgroep voor het e-Commerce-afzetkanaal. Deze API kan ook worden gebruikt voor magazijnen in een bepaald zoekgebied of een bepaalde radius, op basis van gegevens over lengte- en breedtegraad.
-- **ProductWarehouseInventoryAvailabilities**: gebruik deze API om voorraad voor een artikel uit een bepaald magazijn aan te vragen. U kunt deze bijvoorbeeld gebruiken om de beschikbaarheid van voorraad weer te geven in scenario's waarbij orders worden opgehaald.
+- **GetEstimatedProductWarehouseAvailability**: gebruik deze API om voorraad voor een artikel uit een bepaald magazijn aan te vragen. U kunt deze bijvoorbeeld gebruiken om de beschikbaarheid van voorraad weer te geven in scenario's waarbij orders worden opgehaald.
 
 > [!NOTE]
 > Deze API's vervangen de API's **GetProductAvailabilities** en **GetAvailableInventoryNearby** in Dynamics 365 Retail versie 10.0.7 en eerder.

@@ -3,7 +3,7 @@ title: Opgeslagen weergaven
 description: In dit onderwerp wordt beschreven hoe u de functies voor opgeslagen weergaven gebruikt.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017699"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100303"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -71,7 +71,7 @@ Voer de volgende stappen uit als u deze wijzigingen wilt opslaan.
 2.  De bestaande weergave wijzigen:
      1. Selecteer **Opslaan**. Deze actie wordt niet ingeschakeld voor vergrendelde weergaven. 
 3.  Een nieuwe weergave maken:
-     1.    Selecteer **Opslaan als...**. 
+     1.    Selecteer **Opslaan als**. 
      2.    Voer een naam en desgewenst een omschrijving in.
      3.    Selecteer **Opslaan**.
 
@@ -83,9 +83,9 @@ Volg deze stappen om de standaardweergave voor een pagina te wijzigen:
 2.  Selecteer de weergavenaam om de weergavekiezer te openen. 
 3.  Selecteer **Meer** en **Vastmaken als standaard**.  
 
-Als u een nieuwe weergave maakt (met de actie **Opslaan als...**), kunt u hiervan ook de standaardweergave maken door de optie **Vastmaken als standaard** in te stellen voordat u de weergave opslaat.
+Als u een nieuwe weergave maakt (met de actie **Opslaan als**), kunt u hiervan ook de standaardweergave maken door de optie **Vastmaken als standaard** in te stellen voordat u de weergave opslaat.
 
-In sommige gevallen wordt de query die is gekoppeld aan de standaardweergave niet uitgevoerd wanneer u voor het eerst naar een pagina gaat. Als u bijvoorbeeld via een tegel naar een pagina navigeert, wordt de query van de tegel uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Als u naar een pagina navigeert waarvan de klassieke weergave al een gedefinieerde query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. In dat geval wordt u gewaarschuwd door een informatief bericht wanneer de weergave wordt geladen. Als u naar een andere weergave schakelt nadat de pagina is geladen, wordt de weergavequery weer zoals verwacht uitgevoerd.
+In sommige gevallen wordt de query die is gekoppeld aan de standaardweergave niet uitgevoerd wanneer u voor het eerst naar een pagina gaat. Als u bijvoorbeeld via een tegel naar een pagina navigeert, wordt de query van de tegel uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Als u naar een pagina navigeert waarvan de standaardweergave al een gedefinieerde query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. In dat geval wordt u gewaarschuwd door een informatief bericht wanneer de weergave wordt geladen. Als u naar een andere weergave schakelt nadat de pagina is geladen, wordt de weergavequery weer zoals verwacht uitgevoerd. Vanaf versie 10.0.10 platformupdate 34 bevat het informatieve bericht een ingesloten actie waarmee u de query van de standaardweergave rechtstreeks kunt laden.
 
 ## <a name="managing-personal-views"></a>Persoonlijke weergaven beheren 
 In het dialoogvenster **Mijn weergaven beheren** beschikt u over basisfuncties voor het onderhoud van uw persoonlijke weergaven en de volgorde van weergaven in de weergavekiezer. Als u deze pagina wilt openen, klikt u op de naam van de weergave om de vervolgkeuzelijst van de weergavekiezer te openen en selecteert u **Meer** en **Mijn weergaven beheren**.  

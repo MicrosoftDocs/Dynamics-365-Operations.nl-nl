@@ -1,6 +1,6 @@
 ---
 title: Een exemplaar kopiëren
-description: ''
+description: U kunt Microsoft Dynamics Lifecycle Services (LCS) gebruiken om een Microsoft Dynamics 365 Human Resources-database naar een sandbox-omgeving te kopiëren.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0bbe325edb65cad0c1912e0a6ade559e5675dc58
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: bb363369994d99f358be0c23cdaf1dbc80b644e5
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008572"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092287"
 ---
 # <a name="copy-an-instance"></a>Een exemplaar kopiëren
 
@@ -68,7 +68,7 @@ Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich v
 
 4. Selecteer in het taak venster **Een exemplaar kopiëren** het exemplaar dat u wilt overschrijven en selecteer vervolgens **Kopiëren**. Wacht totdat de waarde in het veld **Kopieerstatus** is bijgewerkt naar **Voltooid**.
 
-   ![[Selecteer het exemplaar dat u wilt overschrijven](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Selecteer de instantie die u wilt overschrijven](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Selecteer **Power Platform** en meld u aan bij het Microsoft Power Platform-beheercentrum.
 

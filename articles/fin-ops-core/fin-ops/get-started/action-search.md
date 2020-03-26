@@ -3,7 +3,7 @@ title: Actiezoekopdracht
 description: In dit artikel wordt de zoekfunctionaliteit voor acties beschreven. Met een actiezoekopdracht kunt u zoeken naar acties op een pagina en deze uitvoeren.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01247aa356625cb759306e5ead2afd3cdeb840f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bd4d81f010149c762dac0f4e6fa912c2e2cef072
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191311"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112163"
 ---
 # <a name="action-search"></a>Actiezoekopdracht
 
@@ -69,6 +69,9 @@ U hebt bijvoorbeeld **tot** in het **actiezoek**-veld getypt en bekijkt nu de re
 In het vorige voorbeeld, werden de resultaten van de actiezoekopdracht van het standaard actievenster bovenaan een pagina weergegeven. De actiezoekopdracht geeft echter ook resultaten weer van zichtbare werkbalken die zich op andere plaatsen op de pagina bevinden. U zoekt bijvoorbeeld naar de knop **Voorhanden voorraad** die zich bevindt op het sneltabblad **Verkooporderregels**. In dit geval geeft het pad van de knop in de lijst met resultaten (**Verkooporderregels** &gt; **Voorraad** &gt; **Weergave**) aan dat deze knop zich bevindt onder de kop **Weergave** op de menuknop **Voorraad** op het sneltabblad **Verkooporderregels**.
 
 [![voorhanden-voorraad](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+
+> [!NOTE]
+> Er zijn knoppen die niet worden weergegeven in de Actiezoekopdracht. Dit zijn onder andere dialoogvensterknoppen en knoppen van subformulieren. 
 
 ## <a name="action-search-vs-navigation-search"></a>Actiezoekopdracht vergeleken met navigatiezoekopdracht
 

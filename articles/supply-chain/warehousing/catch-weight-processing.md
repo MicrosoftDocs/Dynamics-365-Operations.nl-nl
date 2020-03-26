@@ -3,7 +3,7 @@ title: Verwerking van catch weight-producten bij magazijnbeheer
 description: In dit onderwerp wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt gedaan in het magazijn.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2020
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8bc3e3e7bea15127062edfcd362476de97bff07d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004106"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095792"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
@@ -30,10 +30,10 @@ ms.locfileid: "3004106"
 
 ## <a name="feature-exposure"></a>Functierisico
 
-Als u magazijnbeheer wilt gebruiken om catch weight-producten te verwerken, moet u een licentieconfiguratiesleutel gebruiken om de functionaliteit in te schakelen. (Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**. Klik vervolgens op het tabblad **Configuratiesleutels**, vouw **Handel \> Magazijn en transportmanagement** uit en selecteer het selectievakje **Catch weight voor magazijn**.)
+Als u magazijnbeheer wilt gebruiken om catch weight-producten te verwerken, moet u een licentieconfiguratiesleutel gebruiken om de functionaliteit in te schakelen. Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**. Klik vervolgens op het tabblad **Configuratiesleutels**, vouw **Handel \> Magazijn en transportmanagement** uit en selecteer het selectievakje **Catch weight voor magazijn**.
 
 > [!NOTE]
-> De licentieconfiguratiesleutel **Magazijn en transportbeheer** en de licentieconfiguratiesleutel **Procesdistributie \> catch weight** moeten ook zijn ingeschakeld. Als u de configuratiesleutels voor catch weight wilt instellen, moet u de functie ook inschakelen via het werkgebied **Functiebeheer**. De hoofdfunctie die moet worden ingeschakeld, is **Verwerking van catch weight-producten bij magazijnbeheer**. Een andere gerelateerde maar optionele functie die u mogelijk wilt inschakelen, is **Wijzigingen in de voorraadstatus voor catch weight-producten**. Deze functie voegt ondersteuning toe voor wijzigingen in de voorraadstatus voor producten die zijn ingeschakeld voor catch weight.
+> De licentieconfiguratiesleutel **Magazijn en transportbeheer** en de licentieconfiguratiesleutel **Procesdistributie \> catch weight** moeten ook zijn ingeschakeld. Als u de configuratiesleutels voor catch weight wilt instellen, moet u de functie ook inschakelen via het werkgebied **Functiebeheer**. De hoofdfunctie die moet worden ingeschakeld, is **Verwerking van catch weight-producten bij magazijnbeheer**. Twee verwante maar optionele functies die u mogelijk wilt inschakelen, zijn **Wijzigingen in de voorraadstatus voor catch weight-producten** en **Bestaande codes voor catch weight gebruiken bij het gereedmelden van productieorders**.
 
 Nadat de licentieconfiguratiesleutel is ingeschakeld en u een vrijgegeven product maakt, kunt u **Catch weight-** selecteren. U kunt ook het vrijgegeven product koppelen aan een opslagdimensiegroep waarvoor de **Magazijnanagementprocessen gebruiken**-parameter voor is geselecteerd.
 
@@ -107,6 +107,7 @@ En als een artikel labeltracering heeft, is er een parameter voor de **methode v
 **Als gebruik wordt gemaakt van het bijhouden van catch weight-labels**, moet altijd een label worden gemaakt voor elke catch weight-eenheid die wordt ontvangen, en elk label moet altijd worden gekoppeld aan een gewicht.
 
 Bijvoorbeeld: **Doos** is de catch weight-eenheid en u ontvangt een pallet van acht dozen. In dit geval moeten acht unieke catch weight-labels worden gemaakt en aan elk label moet een gewicht worden gekoppeld. Afhankelijk van het inkomende catch weight-label, kan het totale gewicht van alle acht dozen worden vastgelegd en het gemiddelde gewicht kan vervolgens toebedeeld worden aan elke doos, of er kan een uniek gewicht voor elke doos worden vastgelegd.
+Wanneer u de functie **Bestaande codes voor catch weight gebruiken bij het gereedmelden van productieorders** gebruikt terwijl het proces via een menuopdracht op een mobiel apparaat is ingeschakeld, wordt de voorraad bijgewerkt op basis van bestaande codegegevens voor catch weight. Hierdoor wordt in de Magazijnbeheer-app niet gevraagd om de catch weight-codegegevens vast te leggen als onderdeel van een productielijst voor voltooide bewerkingen.
 
 **Als geen gebruik wordt gemaakt van het bijhouden van catch weight-labels** dan kan het gewicht worden vastgelegd voor elke dimensieset (bijvoorbeeld voor elke nummerplaat en traceringsdimensie). Het gewicht kan ook worden vastgelegd op basis van een samengevoegd niveau, zoals vijf nummerplaten (pallets).
 

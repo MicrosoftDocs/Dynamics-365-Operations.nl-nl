@@ -1,6 +1,6 @@
 ---
 title: Plantypen maken
-description: ''
+description: Een plantype in Microsoft Dynamics 365 Human Resources is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype heeft een plantypecode waarmee de regels voor het plantype worden bepaald.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c12eecb38bd943a9c604f878644da289783d3f74
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 8d9bb490326c6dbfafa0f186cd05185ac01bad30
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008626"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092357"
 ---
 # <a name="create-plan-types"></a>Plantypen maken
 

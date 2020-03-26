@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
-ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
+ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2890322"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133891"
 ---
 # <a name="vendor-invoices-overview"></a>Overzicht van leveranciersfacturen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Dit onderwerp biedt algemene informatie over leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.
 
@@ -66,6 +67,16 @@ U kunt aan de leveranciersfactuur een regel toevoegen die niet in de inkooporder
 
 Uw organisatie gebruikt mogelijke workflows om het controleproces voor leveranciersfacturen te beheren. Workflowcontrole kan vereist zijn voor de factuurkoptekst, de factuurregel of voor beide. De besturingselementen voor de workflow zijn van toepassing op de koptekst of op de regel, afhankelijk van waar de focus zich bevindt als u het besturingselement selecteert. In plaats van de knop **Boeken** wordt een knop **Verzenden** weergegeven, die u kunt gebruiken om de leveranciersfactuur door het controleproces te verzenden.
 
+### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Voorkomen dat een factuur wordt ingediend bij de workflow 
+
+U kunt op de volgende manieren voorkomen dat een factuur wordt ingediend bij een workflow.
+
+- **Het factuurtotaal en het geregistreerde totaal komen niet overeen.** De persoon die de factuur heeft ingediend, ontvangt een waarschuwing dat de totalen niet gelijk zijn, zodat deze de saldi kan corrigeren alvorens de factuur opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen wanneer het factuurtotaal en geregistreerde factuurtotaal niet gelijk zijn** op de pagina **Functiebeheer** is ingeschakeld. 
+
+- **Factuur bevat niet-toegewezen toeslagen.** De persoon die de factuur heeft ingediend, ontvangt een waarschuwing dat de factuur niet-toegewezen toeslagen bevat, zodat deze de factuur kan corrigeren alvorens deze opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen wanneer een leveranciersfactuur niet-toegewezen toeslagen bevat** op de pagina **Functiebeheer** is ingeschakeld.
+
+- **Factuur bevat hetzelfde factuurnummer als een andere geboekte factuur.** De persoon die de factuur heeft ingediend, ontvangt een waarschuwing dat een factuur met een dubbel nummer is gevonden, zodat deze de factuur kan corrigeren alvorens deze opnieuw in te dienen bij de workflow. Deze waarschuwing wordt weergegeven wanneer de leveranciersparameter met de naam **Het gebruikte factuurnummer controleren** is ingesteld op **Duplicatie afwijzen**. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen als het factuurnummer al bestaat op een geboekte factuur en het systeem dubbele factuurnummers niet toestaat** op de pagina **Functiebeheer** is ingeschakeld.  
+
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Leveranciersfacturen vereffenen met productontvangstbonnen
 
 U kunt gegevens voor leveranciersfacturen invoeren en opslaan en u kunt factuurregels vergelijken met productontvangstbonregels. U kunt ook gedeeltelijke hoeveelheden voor een regel vergelijken.
@@ -77,6 +88,16 @@ Wanneer u de factuur boekt, wordt de hoeveelheid bij **Resterend gedeelte van fa
 Bij deze optie wordt ervan uitgegaan dat er minimaal één productontvangstbon is geboekt voor de inkooporder. De leveranciersfactuur is gebaseerd op deze productontvangstbonnen en hieruit worden de hoeveelheden overgenomen. De financiële gegevens voor de factuur zijn gebaseerd op de gegevens die worden ingevoerd wanneer u de factuur boekt.
 
 Zie [Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md) voor meer informatie.
+
+## <a name="configure-an-automated-task-for-vendor-invoice-workflow-to-post-the-vendor-invoice-using-a-batch-job"></a>Een geautomatiseerde taak voor de workflow voor leveranciersfacturen configureren om de leveranciersfactuur te boeken met een batchtaak
+
+U kunt een geautomatiseerde boekingstaak toevoegen aan de workflow Leveranciersfactuur, zodat facturen in een batch worden verwerkt. Als u facturen in een batch boekt, wordt het workflowproces voortgezet zonder dat u hoeft te wachten tot de boeking is voltooid. Hierdoor worden de algehele prestaties verbeterd van alle taken die bij de workflow worden ingediend.
+
+Als u een leveranciersfactuur in een batch wilt boeken, schakelt u op de pagina **Functiebeheer** de parameter **Leveranciersfacturen in batch boeken** in. Leveranciersfactuurworkflows worden geconfigureerd via **Leveranciers > Instellingen > Leveranciersworkflows**.
+
+U kunt de taak **De leveranciersfactuur boeken met een batch** in de workfloweditor zien, ongeacht of de functieparameter **Leveranciers in batch boeken** is ingeschakeld. Als de functieparameter niet is ingeschakeld, wordt een factuur met de taak **De leveranciersfactuur boeken met een batch** pas verwerkt in de workflow als de parameter is ingeschakeld. De taak **De leveranciersfactuur boeken met een batch** moet niet worden gebruikt in dezelfde workflow als de geautomatiseerde taak **Leveranciersfacturen boeken**. Bovendien moet de taak **De leveranciersfactuur boeken met een batch** het laatste element in de workflowconfiguratie zijn.
+
+U kunt het aantal facturen opgeven dat in de batch moet worden opgenomen en het aantal uren dat moet worden gewacht voordat een batch opnieuw wordt gepland. Ga hiervoor naar **Leveranciers > Instellingen > Leveranciersparameters > Factuur > Factuurworkflow**. 
 
 ## <a name="working-with-multiple-invoices"></a>Werken met meerdere facturen
 

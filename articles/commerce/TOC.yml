@@ -22,11 +22,13 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: Updates toepassen op cloudomgevingen
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Updates toepassen op on-premises implementaties
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Serviceupdates configureren
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
-                - name: Service-updates onderbreken
+                - name: Serviceupdates onderbreken
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
-                - name: Bericht ontvangen over service-updates
+                - name: Bericht ontvangen over serviceupdates
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Automatisering van gegevenstaak
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
@@ -84,12 +86,12 @@
                   items:
                     - name: Startpagina van Nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce versie 10.0.10 (mei 2020)
+                      href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce versie 10.0.9 (april 2020)
                       href: get-started/whats-new-10-0-9.md
                     - name: Commerce versie 10.0.8 (februari 2020)
                       href: get-started/whats-new-10-0-8.md
-                    - name: Retail versie 10.0.7 (januari 2020)
-                      href: get-started/whats-new-10-0-7.md
                 - name: Verwijderde of verouderde functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Finance and Operations
@@ -336,6 +338,8 @@
                       href: pos-operations.md
                     - name: Apparaatactivering van een aangepaste Modern POS
                       href: dev-itpro/retail-POS-activation-changes.md
+                    - name: Authenticatie in Azure Active Directory voor POS-aanmelding inschakelen
+                      href: aad-pos-logon.md
                     - name: Schermindelingen met demonstratiegegevens in MPOS en Cloud POS
                       href: demo-data.md
                     - name: Producten en klanten zoeken in het POS
@@ -368,6 +372,8 @@
                           href: dev-itpro/retail-peripheral-simulator.md
                         - name: Randapparaten aansluiten op het POS
                           href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: Statuscontrole voor POS-randapparatuur en -services
+                          href: pos-healthcheck.md
                     - name: Schermindelingen
                       items:
                         - name: Indelingen voor schermen met demonstratiegegevens in MPOS/CPOS
@@ -518,7 +524,7 @@
                       href: create-variant-group.md
                 - name: Een nieuw product maken
                   items:
-                    - name: Overzicht van een nieuw product maken
+                    - name: Een nieuw product maken in Commerce
                       href: create-new-product.md
                     - name: Productcategorieën en producten beheren
                       href: category-management-product-creation.md
@@ -570,6 +576,8 @@
                   href: retail-shipping-discount.md
                 - name: Coupons instellen
                   href: retail-coupons.md
+                - name: Kortingen weergeven in POS
+                  href: discounts-pos.md
                 - name: Prijsrapporten
                   href: price-report.md
                 - name: Kanaalspecifieke handelsovereenkomsten maken
@@ -582,8 +590,6 @@
                   href: product-recommendations.md
                 - name: ADLS inschakelen in een Dynamics 365 Commerce-omgeving
                   href: enable-ADLS-environment.md
-                - name: Lijsten met productaanbevelingen toevoegen aan e-commerce-pagina's
-                  href: add-reco-list-to-page.md
                 - name: Productaanbevelingen inschakelen
                   href: enable-product-recommendations.md
                 - name: Gepersonaliseerde aanbevelingen
@@ -592,20 +598,22 @@
                       href: personalized-recommendations.md
                     - name: Afmelden voor gepersonaliseerde aanbevelingen
                       href: personalization-gdpr.md
-                - name: Lijst met gecureerde productaanbevelingen maken
-                  href: create-editorial-recommendation-lists.md
-                - name: Resultaten van productaanbevelingen op basis van AI-ML beheren
+                - name: Lijsten met productaanbevelingen toevoegen aan een e-commerce-site
+                  href: add-reco-list-to-page.md
+                - name: POS-ervaringen
+                  items:
+                    - name: Productaanbevelingen op POS toevoegen
+                      href: product.md
+                    - name: Aanbevelingen toevoegen aan het transactiescherm
+                      href: add-recommendations-control-pos-screen.md
+                - name: Resultaten van productaanbevelingen op basis van AI-ML aanpassen
                   href: modify-product-recommendation-results.md
-                - name: Productaanbevelingen ontvangen met behulp van demogegevens
+                - name: Handmatig gecureerde productaanbevelingen maken
+                  href: create-editorial-recommendation-lists.md
+                - name: Aanbevelingen maken met behulp van demogegevens
                   href: product-recommendations-demo-data.md
                 - name: Veelgestelde vragen over productaanbevelingen
                   href: faq-recommendations.md
-                - name: POS-ervaringen
-                  items:
-                    - name: Productaanbevelingen op POS
-                      href: product.md
-                    - name: Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten
-                      href: add-recommendations-control-pos-screen.md
             - name: Beoordelingen en recensies
               items:
                 - name: Overzicht beoordelingen en recensies
@@ -656,6 +664,8 @@
               items:
                 - name: Een callcenterorder maken
                   href: tasks/create-call-center-orders.md
+                - name: Leveringsmethode wijzigen in POS
+                  href: POS-change-delivery-mode.md
             - name: Gedistribueerd orderbeheer
               items:
                 - name: DOM-overzicht
@@ -766,11 +776,17 @@
                   href: create-ecommerce-site.md
                 - name: Een e-commerce-site koppelen aan een online afzetkanaal
                   href: associate-site-online-store.md
-                - name: Robots.txt-bestanden beheren
+                - name: robots.txt-bestanden beheren
                   href: manage-robots-txt-files.md
+                - name: URL-omleidingen in bulk uploaden
+                  href: upload-bulk-redirects.md
+                - name: Een B2C-tenant instellen in Commerce
+                  href: set-up-B2C-tenant.md
                 - name: Aangepaste pagina's voor gebruikersaanmeldingen instellen
                   href: custom-pages-user-logins.md
-                - name: Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen
+                - name: Meerdere B2C-tenants configureren in een Commerce-omgeving
+                  href: configure-multi-B2C-tenants.md
+                - name: Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen
                   href: add-cdn-support.md
                 - name: Detectie van winkels op basis van de locatie inschakelen
                   href: enable-store-detection.md
@@ -864,6 +880,20 @@
                       href: customize-site-navigation.md
                     - name: Een pagina-URL maken
                       href: create-page-URL.md
+            - name: Digitale activa beheren
+              items:
+                - name: Overzicht van digitaal activabeheer
+                  href: dam-overview.md
+                - name: Afbeeldingen uploaden
+                  href: dam-upload-images.md
+                - name: Video uploaden
+                  href: dam-upload-video.md
+                - name: Andere bestanden uploaden dan afbeeldingen en video's
+                  href: dam-upload-files.md
+                - name: Afbeeldingen bijsnijden
+                  href: dam-crop-images.md
+                - name: Focuspunten van afbeelding aanpassen
+                  href: dam-custom-focal-point.md
             - name: Zorgen dat uw site aan de regels voldoet
               items:
                 - name: Conformiteitsoverzicht
@@ -1828,6 +1858,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Een ontwikkelomgevingsbestand (.env) configureren
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: Azure DevOps-code delen instellen en een build-pijplijn maken
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Platformoverzicht
                   items:
                     - name: Architectuuroverzicht
@@ -1912,6 +1944,10 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Status delen tussen modules
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Overschrijvingen van gegevensactie
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: Gegevensactie-hooks
+                      href: e-commerce-extensibility/data-action-hooks.md
                 - name: Thema's ontwikkelen
                   items:
                     - name: Overzicht van thema's
@@ -2062,6 +2098,8 @@
                   href: dev-itpro/commerce-application-insights.md
                 - name: Async Commerce-API's (CRT) maken in uw bedrijfslogica
                   href: dev-itpro/async-commerce-extension.md
+                - name: Vooraf uitgebreide kolommen in de kanaaldatabase
+                  href: dev-itpro/extended-columns.md
             - name: Uitbreidbaarheid betalingsconnector
               items:
                 - name: Betalingsintegratie maken voor een betalingsterminal

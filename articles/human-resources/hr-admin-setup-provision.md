@@ -1,6 +1,6 @@
 ---
-title: Human Resources inrichten
-description: ''
+title: Human resources inrichten
+description: In dit artikel wordt u door het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 Human Resources geleid.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/18/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071609"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092241"
 ---
-# <a name="provision-human-resources"></a>Human Resources inrichten
+# <a name="provision-human-resources"></a>Human resources inrichten
 
 In dit artikel wordt u door het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 Human Resources geleid. In dit artikel wordt ervan uitgegaan dat u Human Resources hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). Als u een bestaande Microsoft Dynamics 365-licentie hebt waarin het Human Resources-serviceabonnement al is opgenomen en u de stappen in dit artikel niet kunt voltooien, neemt u contact op met de ondersteuning.
 

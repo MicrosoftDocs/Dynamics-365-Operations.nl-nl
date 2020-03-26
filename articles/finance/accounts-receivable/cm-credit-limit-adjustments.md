@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5e2fbe74d24c729711c6b96d5ff2b7f0c82922c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 9b236f489fa2045bdff05f76fadbeacc2f9ed2f4
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015175"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124203"
 ---
 # <a name="credit-limit-adjustments"></a>Correcties kredietlimiet 
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Met kredietlimietcorrecties kunnen creditmanagers de kredietlimieten en vervaldatums van één klant, een groep klanten of alle klanten bijwerken via een boekingsproces. U kunt correctieposten voor kredietlimieten toevoegen om klanten en klantkredietgroepen bij te werken of u kunt ze gebruiken om automatische kredietlimieten te berekenen. De gegevens kunnen vervolgens worden beoordeeld, ter goedkeuring worden verzonden via een workflow en geboekt naar klantrekeningen.
 
