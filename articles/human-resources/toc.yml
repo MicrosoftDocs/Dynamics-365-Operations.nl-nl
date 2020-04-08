@@ -5,6 +5,8 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 19 maart 2020
+          href: hr-whats-new-2020-03-19.md
         - name: 10 maart 2020
           href: hr-whats-new-2020-03-10.md
         - name: 3 maart 2020
@@ -539,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Een afhankelijke vraag maken
               href: hr-learning-depending-question.md
+        - name: Selfservice instellen voor werknemer en manager
+          items:
+            - name: Overzicht van selfservice instellen voor werknemer en manager
+              href: hr-employee-manager-self-service-overview.md
+            - name: Persoonlijke gegevens bewerken
+              href: hr-employee-manager-self-service-edit-personal-information.md
