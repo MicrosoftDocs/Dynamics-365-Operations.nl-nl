@@ -17,29 +17,29 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36bad7424ac247b8fd9a819928837de619e9e258
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 764d1dc1d7fb54e0fa14a681d6d3cdb1d829aa57
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026780"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146118"
 ---
-# <a name="create-a-location-profile"></a><span data-ttu-id="8060b-103">Een locatieprofiel maken</span><span class="sxs-lookup"><span data-stu-id="8060b-103">Create a location profile</span></span>
+# <a name="create-a-location-profile"></a><span data-ttu-id="96341-103">Een locatieprofiel maken</span><span class="sxs-lookup"><span data-stu-id="96341-103">Create a location profile</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8060b-104">In dit onderwerp wordt uitgelegd hoe u een locatieprofiel maakt in Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="8060b-104">This topic explains how to create a location profile in Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="8060b-105">Elke locatie in het magazijn moet een locatieprofiel hebben dat eraan is gekoppeld en dat de eigenschappen beschrijft van de locatie, bijvoorbeeld of de locatie gemengde artikelen toestaat.</span><span class="sxs-lookup"><span data-stu-id="8060b-105">Every location in the warehouse needs to have a location profile associated with it that describes the properties of the location, for example, whether the location allows mixed items.</span></span> <span data-ttu-id="8060b-106">In deze procedure wordt een profiel gemaakt voor een locatie die geen controlenummerplaat vereist.</span><span class="sxs-lookup"><span data-stu-id="8060b-106">In this procedure we’ll create a profile for a location that doesn’t require license plate control.</span></span> <span data-ttu-id="8060b-107">Gemengde artikelen en gemengde voorraadstatussen worden ingeschakeld en cyclustelling is toegestaan.</span><span class="sxs-lookup"><span data-stu-id="8060b-107">We’ll enable mixed items, and mixed inventory statuses, and allow cycle counting.</span></span> <span data-ttu-id="8060b-108">U kunt deze procedure gebruiken in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="8060b-108">You can use this procedure in the USMF demo data company.</span></span>
+<span data-ttu-id="96341-104">In dit onderwerp wordt uitgelegd hoe u een locatieprofiel maakt in Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="96341-104">This topic explains how to create a location profile in Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="96341-105">Elke locatie in het magazijn moet een locatieprofiel hebben dat eraan is gekoppeld en dat de eigenschappen beschrijft van de locatie, bijvoorbeeld of de locatie gemengde artikelen toestaat.</span><span class="sxs-lookup"><span data-stu-id="96341-105">Every location in the warehouse needs to have a location profile associated with it that describes the properties of the location, for example, whether the location allows mixed items.</span></span> <span data-ttu-id="96341-106">In deze procedure wordt een profiel gemaakt voor een locatie die geen controlenummerplaat vereist.</span><span class="sxs-lookup"><span data-stu-id="96341-106">In this procedure we'll create a profile for a location that doesn't require license plate control.</span></span> <span data-ttu-id="96341-107">Gemengde artikelen en gemengde voorraadstatussen worden ingeschakeld en cyclustelling is toegestaan.</span><span class="sxs-lookup"><span data-stu-id="96341-107">We'll enable mixed items, and mixed inventory statuses, and allow cycle counting.</span></span> <span data-ttu-id="96341-108">U kunt deze procedure gebruiken in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="96341-108">You can use this procedure in the USMF demo data company.</span></span>
 
 
-1. <span data-ttu-id="8060b-109">Ga in het navigatievenster naar **Modules > Magazijnbeheer > Instellingen > Magazijn > Locatieprofielen**.</span><span class="sxs-lookup"><span data-stu-id="8060b-109">In the navigation pane, go to **Modules > Warehouse management > Setup > Warehouse > Location profiles**.</span></span>
-2. <span data-ttu-id="8060b-110">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="8060b-110">Select **New**.</span></span>
-3. <span data-ttu-id="8060b-111">Typ een waarde in het veld **Locatieprofiel-id**.</span><span class="sxs-lookup"><span data-stu-id="8060b-111">In the **Location profile ID** field, type a value.</span></span>
-4. <span data-ttu-id="8060b-112">Typ een waarde in het veld **Naam**.</span><span class="sxs-lookup"><span data-stu-id="8060b-112">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="8060b-113">Typ of selecteer een waarde in het veld **Locatie-indeling**.</span><span class="sxs-lookup"><span data-stu-id="8060b-113">In the **Location format** field, enter or select a value.</span></span>
-6. <span data-ttu-id="8060b-114">Typ of selecteer een waarde in het veld **Locatietype**.</span><span class="sxs-lookup"><span data-stu-id="8060b-114">In the **Location type** field, enter or select a value.</span></span>
-7. <span data-ttu-id="8060b-115">Typ of selecteer een waarde in het veld **Id dockbeheerprofiel**.</span><span class="sxs-lookup"><span data-stu-id="8060b-115">In the **Dock management profile ID** field, enter or select a value.</span></span>
-8. <span data-ttu-id="8060b-116">Selecteer **Ja** in het veld **Gemengde artikelen toestaan**.</span><span class="sxs-lookup"><span data-stu-id="8060b-116">Select **Yes** in the **Allow mixed items** field.</span></span>
-9. <span data-ttu-id="8060b-117">Selecteer **Ja** in het veld **Gemengde voorraadstatussen toestaan**.</span><span class="sxs-lookup"><span data-stu-id="8060b-117">Select **Yes** in the **Allow mixed inventory statuses** field.</span></span>
-10. <span data-ttu-id="8060b-118">Selecteer **Ja** in het veld **Cyclustelling toestaan**.</span><span class="sxs-lookup"><span data-stu-id="8060b-118">Select **Yes** in the **Allow cycle counting** field.</span></span>
-11. <span data-ttu-id="8060b-119">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="8060b-119">Select **Save**.</span></span>
+1. <span data-ttu-id="96341-109">Ga in het navigatievenster naar **Modules > Magazijnbeheer > Instellingen > Magazijn > Locatieprofielen**.</span><span class="sxs-lookup"><span data-stu-id="96341-109">In the navigation pane, go to **Modules > Warehouse management > Setup > Warehouse > Location profiles**.</span></span>
+2. <span data-ttu-id="96341-110">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="96341-110">Select **New**.</span></span>
+3. <span data-ttu-id="96341-111">Typ een waarde in het veld **Locatieprofiel-id**.</span><span class="sxs-lookup"><span data-stu-id="96341-111">In the **Location profile ID** field, type a value.</span></span>
+4. <span data-ttu-id="96341-112">Typ een waarde in het veld **Naam**.</span><span class="sxs-lookup"><span data-stu-id="96341-112">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="96341-113">Typ of selecteer een waarde in het veld **Locatie-indeling**.</span><span class="sxs-lookup"><span data-stu-id="96341-113">In the **Location format** field, enter or select a value.</span></span>
+6. <span data-ttu-id="96341-114">Typ of selecteer een waarde in het veld **Locatietype**.</span><span class="sxs-lookup"><span data-stu-id="96341-114">In the **Location type** field, enter or select a value.</span></span>
+7. <span data-ttu-id="96341-115">Typ of selecteer een waarde in het veld **Id dockbeheerprofiel**.</span><span class="sxs-lookup"><span data-stu-id="96341-115">In the **Dock management profile ID** field, enter or select a value.</span></span>
+8. <span data-ttu-id="96341-116">Selecteer **Ja** in het veld **Gemengde artikelen toestaan**.</span><span class="sxs-lookup"><span data-stu-id="96341-116">Select **Yes** in the **Allow mixed items** field.</span></span>
+9. <span data-ttu-id="96341-117">Selecteer **Ja** in het veld **Gemengde voorraadstatussen toestaan**.</span><span class="sxs-lookup"><span data-stu-id="96341-117">Select **Yes** in the **Allow mixed inventory statuses** field.</span></span>
+10. <span data-ttu-id="96341-118">Selecteer **Ja** in het veld **Cyclustelling toestaan**.</span><span class="sxs-lookup"><span data-stu-id="96341-118">Select **Yes** in the **Allow cycle counting** field.</span></span>
+11. <span data-ttu-id="96341-119">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="96341-119">Select **Save**.</span></span>
 
