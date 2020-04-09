@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f27675a2aa2160619bf78eea33bba2ce0b7bd81
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11089584e150a1a302eb969a5fb61cb9d1900901
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188091"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141736"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Een gepostdateerde cheque voor een klant registreren en boeken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-U kunt gegevens van een gepostdateerde cheque die u van een klant hebt ontvangen, registreren. U kunt de gepostdateerde cheque ook boeken en financiële transacties genereren.   Voer de volgende taken uit voordat u een gepostdateerde cheque die u van een klant hebt ontvangen, registreert en boekt:   • Stel gepostdateerde cheques in op de pagina Contanten en bankbeheer • Stel een betalingsmethode voor gepostdateerde cheques in   De rol voor deze procedure is Penningmeester. Bij deze procedure wordt het demobedrijf USMF gebruikt.
+U kunt gegevens van een gepostdateerde cheque die u van een klant hebt ontvangen, registreren. U kunt de gepostdateerde cheque ook boeken en financiële transacties genereren.   Voer de volgende taken uit voordat u een gepostdateerde cheque die u van een klant hebt ontvangen, registreert en boekt:   * Stel gepostdateerde cheques in op de pagina Contanten en bankbeheer * Stel een betalingsmethode voor gepostdateerde cheques in   De rol voor deze procedure is Penningmeester. Bij deze procedure wordt het demobedrijf USMF gebruikt.
 
 1. Ga naar Klanten > Betalingen > Betalingsjournaal.
 2. Klik op Nieuw.

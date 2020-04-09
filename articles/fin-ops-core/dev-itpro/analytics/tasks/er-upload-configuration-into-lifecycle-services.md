@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 980ce00ae702ea0a3394efa15419e0f7b7dc2530
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182204"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143276"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>Een ER-configuratie naar Lifecycle Services uploaden
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken en uploaden.
 
 In dit voorbeeld maakt u een configuratie en uploadt u deze naar LCS voor het voorbeeldbedrijf, Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd aangezien ER-configuraties tussen bedrijven worden gedeeld. Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien. Om deze stappen te kunnen uitvoeren is ook toegang tot LCS vereist.
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
-2. Selecteer ‘Litware, Inc.’ en stel het in als actief.
+2. Selecteer 'Litware, Inc.' en stel het in als actief.
 3. Klik op Configuraties.
 
 ## <a name="create-a-new-data-model-configuration"></a>Een nieuwe gegevensmodelconfiguratie maken
@@ -79,19 +79,19 @@ In dit voorbeeld maakt u een configuratie en uploadt u deze naar LCS voor het vo
 2. Selecteer 'Voorbeeldmodelconfiguratie' in de structuur.
     * Selecteer een gemaakte configuratie die al is voltooid.  
 3. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer de versie van de geselecteerde configuratie met de status ‘Voltooid’.  
+    * Selecteer de versie van de geselecteerde configuratie met de status 'Voltooid'.  
 4. Klik op Status wijzigen.
 5. Klik op Delen.
-    * De configuratiestatus wordt gewijzigd van ‘Voltooid’ in ‘Gedeeld’ wanneer deze wordt gepubliceerd in LCS.  
+    * De configuratiestatus wordt gewijzigd van 'Voltooid' in 'Gedeeld' wanneer deze wordt gepubliceerd in LCS.  
 6. Klik op OK.
 7. Zoek en selecteer de gewenste record in de lijst.
     * Selecteer de configuratieversie met de status ‘Gedeeld’.  
-    * De status van de geselecteerde versie is gewijzigd van ‘Voltooid’ in ‘Gedeeld’.  
+    * De status van de geselecteerde versie is gewijzigd van 'Voltooid' in 'Gedeeld'.  
 8. Sluit de pagina.
 9. Klik op Opslagplaatsen.
     * Hiermee kunt u de lijst met opslagplaatsen voor de configuratieprovider Litware, Inc openen.  
 10. Klik op Openen.
     * Selecteer de LCS-opslagplaats en open deze.  
     * De geselecteerde configuratie wordt getoond als een activum van het geselecteerde LCS-project.  
-    * LCS openen met https://lcs.dynamics.com. Open een project dat eerder is gebruikt voor opslagplaatsregistratie, open de ‘Activabibliotheek’ van dit project en vouw de inhoud van het activumtype ‘GER-configuratie’ uit; de geüploade ER-configuratie is beschikbaar. De geüploade LCS-configuratie kan naar een ander exemplaar worden geïmporteerd als providers toegang tot dit LCS-project hebben.  
+    * LCS openen met https://lcs.dynamics.com. Open een project dat eerder is gebruikt voor opslagplaatsregistratie, open de 'Activabibliotheek' van dit project en vouw de inhoud van het activumtype 'GER-configuratie' uit; de geüploade ER-configuratie is beschikbaar. De geüploade LCS-configuratie kan naar een ander exemplaar worden geïmporteerd als providers toegang tot dit LCS-project hebben.  
 

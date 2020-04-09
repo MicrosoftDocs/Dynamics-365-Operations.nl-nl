@@ -1,5 +1,5 @@
 ---
-title: Workflows voor onkosten instellen
+title: Werkstromen instellen voor Onkostenbeheer
 description: U kunt een werkstroomproces instellen dat wordt gebruikt om documenten voor reizen en onkosten te beoordelen en goed te keuren.
 author: ShylaThompson
 manager: AnnBe
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86cadf7277fbb7e08dad4b5dc2a46e1c6ce5a888
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdd4d69cb86da12e4a265f89c021c238d00cad08
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177157"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3153986"
 ---
-# <a name="set-up-workflows-for-expense"></a>Workflows voor onkosten instellen
+# <a name="set-up-workflows-for-expense-management"></a>Werkstromen instellen voor Onkostenbeheer
 
 [!include [banner](../includes/banner.md)]
 
- U kunt een workflowproces instellen dat wordt gebruikt om documenten voor reizen en onkosten te beoordelen en goed te keuren. Documenten waarvoor workflows kunnen worden gedefinieerd, zijn onkostenrapporten, aanvragen voor reizen en aanvragen voor contante voorschotten.
+U kunt een werkstroomproces instellen dat wordt gebruikt om documenten voor reizen en onkosten te beoordelen en goed te keuren. Documenten waarvoor workflows kunnen worden gedefinieerd, zijn onkostenrapporten, aanvragen voor reizen en aanvragen voor contante voorschotten.
 
 Een workflow vertegenwoordigt een bedrijfsproces. Een werkstroom definieert hoe een document zich door het systeem begeeft en geeft aan wie een taak moet voltooien of een document moet goedkeuren. Als uw organisatie werkt met het werkstroomsysteem, levert dat tal van voordelen op:
 

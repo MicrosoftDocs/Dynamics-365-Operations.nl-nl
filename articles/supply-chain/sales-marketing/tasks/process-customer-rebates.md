@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a6678b09ce4011b7f80d40979209cc2f588df8
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 73bc22949d0b19fa04bf27e6fd7df7b27832795b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994929"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148579"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Klantkortingen genereren en verwerken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure demonstreert hoe u klantkortingen verwerkt van het genereren van de claim tot het doorgeven ervan als toerekeningen aan Debiteuren. U wordt geleid door een specifiek voorbeeld om uit te leggen hoe de verschillende voorwaarden van de kortingsregels van invloed zijn op de uiteindelijke bedragen die aan de klant worden gecrediteerd. U moet het demobedrijf USMF gebruiken en de volgende taken uitvoeren voordat u de begeleiding start: (1) Ga naar de pagina Parameters van module Klanten en vouw het tabblad Prijzen en vervolgens het tabblad Prijsgegevens uit en controleer of de optie Prijsdetails inschakelen is ingesteld op Ja. (2) Ga naar de pagina Kortingsovereenkomsten en selecteer de kortingsovereenkomst van de klant: USMF-000001. Als het veld Goedkeuringsstatus workflow niet is ingesteld op Goedgekeurd, moet u in het actievenster op Validatie klikken om deze goed te keuren.
 
@@ -36,7 +36,7 @@ Deze procedure demonstreert hoe u klantkortingen verwerkt van het genereren van 
     - De overeenkomst is voor een afzonderlijke klant, in dit voorbeeld klant US-009.  
     - Kortingen worden gegeven aan de klant wanneer deze een specifiek product koopt. In dit geval heeft het product artikelnummer T0020.   
     - De verkoopprestaties van de klant, op basis waarvan de kortingsbedragen worden geraamd, worden op wekelijkse basis samengevoegd.  
-    - De instelling voor 'Prijs gehaald uit' is Bruto, wat betekent dat het verkoopbedrag van de regel op basis waarvan de claim wordt geraamd, niet wordt verlaagd met de regelkorting.  
+    - De instelling voor Prijs gehaald uit is Bruto, wat betekent dat het verkoopbedrag van de regel op basis waarvan de claim wordt geraamd, niet wordt verlaagd met de regelkorting.  
     - Het veld Regelafbrekingstype van korting bevat de methode voor het berekenen van kortingen. In dit geval wordt het verkoopdoel op basis waarvan de kortingen worden geraamd, ingesteld op Hoeveelheid.   
     - De regels van de overeenkomst geven het type kortingsbedrag, de werkelijke kortingswaarde en de drempels aan. In dit voorbeeld komt de klant in aanmerking voor een korting van 20 USD per verkochte eenheid als zijn of haar wekelijkse aankopen van het product vallen tussen 1 en 50 eenheden. De korting is 40 USD per verkochte eenheid als de klant meer dan 50 eenheden koopt.  
 2. Sluit de pagina.
@@ -68,7 +68,7 @@ Deze procedure demonstreert hoe u klantkortingen verwerkt van het genereren van 
     - De pagina Kortingen werkt als een workbench waar u kortingsclaims kunt controleren, goedkeuren en verwerken. Nu gaat u de claims verwerken die zijn gemaakt als resultaat van het factureren van een verkooporder voor klant US-009, die valt onder de kortingsovereenkomst USMF-000001.   
     - De eerste regel vertegenwoordigt een kortingsclaim voor 800 USD, die wordt gebaseerd op de verkoop van 40 eenheden van product T0020, berekend tegen 20 USD per eenheid. Dit komt overeen met de voorwaarden van de eerste hoeveelheidscategorie in de kortingsovereenkomst.  
     - De tweede claim is voor 2400 USD, wat is gebaseerd op de verkoop van 60 eenheden van product T0020, berekend tegen 40 USD per eenheid, op basis van de tweede hoeveelheidscategorie in de overeenkomst.  
-    - Beide claims moeten de status 'Te berekenen' hebben. Dit betekent dat ze worden gekoppeld aan een overeenkomst die de verkoopprestaties van de klant op periodieke basis bijhoudt en dat ze opnieuw moeten worden berekend in verband met het totale verkoopvolume binnen de betreffende periode.   
+    - Beide claims moeten de status Te berekenen hebben. Dit betekent dat ze worden gekoppeld aan een overeenkomst die de verkoopprestaties van de klant op periodieke basis bijhoudt en dat ze opnieuw moeten worden berekend in verband met het totale verkoopvolume binnen de betreffende periode.   
 2. Klik op **Cumuleren**.
 3. Typ of selecteer een waarde in het veld **Klant**.
 4. Selecteer de datum van vandaag in het veld **Begindatum**.

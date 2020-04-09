@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b048c49de7357ec1b5cbf36dd4f22a5d3efd443b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189402"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143783"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Validatie van factuurvereffening instellen voor leveranciers
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Controleer voordat u begint of de configuratiesleutel Factuurvereffening is geselecteerd. Als uw rechtspersoon uitgaven bijhoudt, zoals verzendkosten, door kosten te berekenen, moet u er voor zorgen dat de configuratiesleutel Toeslagen is geselecteerd.  Factuurmatching in Klanten is het proces van het vergelijken van de leverancierfactuur-, inkooporder- en productontvangstgegevens. Verschillen in deze documenten worden matchingverschillen genoemd. Matchingverschillen worden vergeleken met de gespecificeerde toleranties. Als een vereffeningsverschil groter is dan het tolerantiepercentage of -bedrag, worden de pictogrammen voor vereffeningsafwijkingen weergegeven op de pagina **Leveranciersfactuur** en op de pagina **Factuurvereffeningsgegevens**.
 

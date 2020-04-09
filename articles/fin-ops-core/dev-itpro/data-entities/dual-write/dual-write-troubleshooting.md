@@ -1,9 +1,9 @@
 ---
-title: Gids voor het oplossen van problemen met gegevensintegratie
-description: Dit onderwerp bevat informatie voor het oplossen van problemen met gegevensintegratie tussen Finance and Operations-apps en Common Data Service.
+title: Algemene problemen oplossen
+description: Dit onderwerp bevat informatie voor het oplossen van algemene problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,57 +18,98 @@ ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 87bdb72024c1c3844ff61e832a92f7edcc77c5d6
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.search.validFrom: 2020-03-16
+ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019721"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172686"
 ---
-# <a name="troubleshooting-guide-for-data-integration"></a>Gids voor het oplossen van problemen met gegevensintegratie
+# <a name="general-troubleshooting"></a>Algemene problemen oplossen
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Schakel logboeken voor invoegtoepassing traceren in Common Data Service in en controleer de foutgegevens met betrekking tot de invoegtoepassing voor Twee keer wegschrijven
 
-Als er een probleem of fout optreedt tijdens de synchronisatie van twee keer wegschrijven, voert u de volgende stappen uit om de fouten in het traceerlogboek te controleren.
+Dit onderwerp bevat informatie voor het oplossen van algemene problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Common Data Service.
 
-1. Voordat u de fouten kunt inspecteren, moet u traceerlogboeken voor invoegtoepassingen inschakelen. Zie voor instructies de sectie "Traceerlogboek weergeven" in de [Zelfstudie: een invoegtoepassing schrijven en registreren](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).
+> [!IMPORTANT]
+> In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
 
-    Nu kunt u de fouten inspecteren.
+## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Wanneer u het pakket voor twee keer wegschrijven probeert te installeren met het hulpprogramma Package Deployer, worden er geen beschikbare oplossingen weergegeven
 
-2. Meld u aan bij Microsoft Dynamics 365 Sales.
-3. Selecteer de knop **Instellingen** (het tandwielsymbool) en selecteer **Geavanceerde instellingen**.
-4. Kies in het menu **Instellingen** de optie **Aanpassen \> Traceerlogboek invoegtoepassing**.
-5. Selecteer de typenaam **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** om de foutdetails weer te geven.
+Sommige versies van het hulpprogramma Package Deployer zijn niet compatibel met het oplossingspakket voor twee keer wegschrijven. Als u het pakket wilt installeren, moet u [versie 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) of hoger van het hulpprogramma Package Deployer gebruiken.
 
-## <a name="inspect-dual-write-synchronization-errors"></a>Synchronisatiefouten met twee schrijfbewerkingen controleren
+Nadat u het hulpprogramma Package Deployer hebt geïnstalleerd, installeert u het oplossingspakket door de volgende stappen uit te voeren.
 
-Volg deze stappen om fouten tijdens het testen te controleren.
+1. Download het meest recente bestand met het oplossingspakket van Yammer.com. Nadat het zipbestand met het pakket is gedownload, klikt u erop met de rechtermuisknop en selecteert u **Eigenschappen**. Schakel het selectievakje **Deblokkeren** in en selecteer vervolgens **Toepassen**. Als het selectievakje **Deblokkeren** niet wordt weergeven, is het zipbestand al gedeblokkeerd en kunt u deze stap overslaan.
+
+    ![Dialoogvenster Eigenschappen](media/unblock_option.png)
+
+2. Pak het zipbestand uit en kopieer alle bestanden in de map **Dynamics365FinanceAndOperationsCommon. PackageDeployer.2.0.438**.
+
+    ![Inhoud van de map Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+
+3. Plak alle gekopieerde bestanden in de map **Tools** van het hulpprogramma Package Deployer. 
+4. Voer **PackageDeployer.exe** uit om de Common Data Service-omgeving te selecteren en de oplossingen te installeren.
+
+    ![Inhoud van de map Tools](media/paste_copied_files.png)
+
+## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>Het traceerlogboek voor de invoegtoepassing inschakelen en weergeven in Common Data Service om foutdetails weer te geven
+
+**Vereiste rol om het traceerlogboek in te schakelen en fouten weer te geven:** systeembeheerder
+
+Voer de volgende stappen uit om het traceerlogboek in te schakelen.
+
+1. Meld u aan bij de Finance and Operations-app, open de pagina **Instellingen** en selecteer vervolgens onder **Systeem** de optie **Beheer**.
+2. Selecteer op de pagina **Beheer** de optie **Systeeminstellingen**.
+3. Ga naar het tabblad **Aanpassen** en selecteer in het veld **Traceren van invoegtoepassing en aangepaste werkstroomactiviteit** **Alle** om het traceerlogboek voor invoegtoepassingen in te schakelen. Als u traceerlogboeken alleen wilt vastleggen wanneer er uitzonderingen optreden, kunt u in plaats daarvan **Uitzondering** selecteren.
+
+
+Voer de volgende stappen uit om het traceerlogboek weer te geven.
+
+1. Meld u aan bij de Finance and Operations-app, open de pagina **Instellingen** en selecteer vervolgens onder **Aanpassen** de optie **Traceerlogboek invoegtoepassing**.
+2. Zoek de traceerlogboeken waarvoor het veld **Type naam** is ingesteld op **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+3. Dubbelklik op een item om het volledige logboek weer te geven en controleer vervolgens op het sneltabblad **Uitvoering** de tekst **Bericht blokkeren**.
+
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>De modus Foutopsporing inschakelen om live synchronisatieproblemen in Finance and Operations-apps op te lossen
+
+**Vereiste rol om de fouten weer te geven:** systeembeheerder
+
+Fouten met twee keer wegschrijven die afkomstig zijn uit Common Data Service, kunnen worden weergegeven in de  Finance and Operations-app. In sommige gevallen is de volledige tekst van het foutbericht niet beschikbaar omdat het bericht te lang is of persoonlijke identificatie gegevens (PII) bevat. U kunt uitgebreide logboekregistratie voor fouten inschakelen door de volgende stappen uit te voeren.
+
+1. Alle projectconfiguraties in Finance and Operations-apps hebben een eigenschap **IsDebugMode** in de entiteit **DualWriteprojectConfiguration**. Open de entiteit **DualWriteProjectConfiguration** met de Excel-invoegtoepassing.
+
+    > [!TIP]
+    > Een eenvoudige manier om de entiteit te openen is om de **ontwerp**modus in de Excel-invoegtoepassing in te schakelen en vervolgens **DualWriteprojectConfigurationEntity** toe te voegen aan het werkblad. zie [Entiteitsgegevens in Excel openen en bijwerken via de Excel-invoegtoepassing](../../office-integration/use-excel-add-in.md) voor meer informatie.
+
+2. Stel de eigenschap **IsDebugMode** in op **Ja** voor het project.
+3. Voer het scenario uit dat fouten genereert.
+4. De uitgebreide logboeken zijn beschikbaar in de tabel DualWriteErrorLog. Als u gegevens wilt opzoeken in de tabelbrowser, gebruikt u de volgende URL (vervang **XXX** waar van toepassing):
+
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Synchronisatiefouten controleren op de virtuele machine voor de Finance and Operations-app
+
+**Vereiste rol om de fouten weer te geven:** systeembeheerder
 
 1. Meld u aan bij Microsoft Dynamics LCS (LifeCycle Services).
-2. Open het LCS-project waarvoor u tests met twee keer wegschrijven wilt uitvoeren.
-3. Selecteer **Cloudomgevingen**.
-4. Maak een verbinding van een extern bureaublad met de virtuele machine (VM) van de toepassing door gebruik te maken van een lokaal account in LCS.
-5. Open Logboeken. 
-6. Ga naar **Logboeken Toepassingen en Services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operationeel**. De fouten en details worden weergegeven.
+2. Open het LCS-project dat u hebt gekozen voor tests met twee keer wegschrijven.
+3. Selecteer de tegel **Cloudomgevingen**.
+4. Gebruik extern bureaublad om u aan te melden bij de virtuele machine (VM) voor de Finance and Operations-app. Gebruik het lokale account dat wordt weergegeven in LCS.
+5. Open Logboeken.
+6. Selecteer **Logboeken Toepassingen en Services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operationeel**.
+7. Bekijk de lijst met recente fouten.
 
-## <a name="unlink-one-common-data-service-environment-from-the-application-and-link-another-environment"></a>Een Common Data Service-omgeving (los)koppelen van de toepassing en een andere omgeving koppelen
+## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Een Common Data Service-omgeving ontkoppelen en een andere omgeving uit een Finance and Operations-app koppelen
 
-Voer de volgende stappen uit om de koppelingen bij te werken.
+**Vereiste referenties om de omgeving te ontkoppelen:** Azure AD-tenantbeheerder
 
-1. Ga naar de toepassingsomgeving.
-2. Open Gegevensbeheer.
-3. Selecteer **Koppeling naar CDS for Apps**.
-4. Selecteer alle toewijzingen die worden uitgevoerd en selecteer **Stoppen**.
-5. Selecteer alle toewijzingen en selecteer vervolgens **Verwijderen**.
+1. Meld u aan bij de Finance and Operations-app.
+2. Ga naar **Werkruimten \> Gegevensbeheer** en selecteer de tegel **Twee keer wegschrijven**.
+3. Selecteer alle actieve toewijzingen en vervolgens **Stoppen**.
+4. Selecteer **Koppeling met omgeving verbreken**.
+5. Selecteer **Ja** om de bewerking te bevestigen.
 
-    > [!NOTE]
-    > De optie **Verwijderen** is niet beschikbaar als de sjabloon **CustomerV3-account** is geselecteerd. Maak de selectie van deze sjabloon waar nodig leeg. **CustomerV3-account** is een oudere ingerichte sjabloon en werkt met de oplossing Prospect naar contant geld. Omdat deze wereldwijd is vrijgegeven, wordt deze weergegeven onder alle sjablonen.
-
-6. Selecteer **Koppeling met omgeving verbreken**.
-7. Selecteer **Ja** om de bewerking te bevestigen.
-8. Volg de stappen in de [installatiehandleiding](https://aka.ms/dualwrite-docs) om de nieuwe omgeving te koppelen.
+U kunt nu een nieuwe omgeving koppelen.

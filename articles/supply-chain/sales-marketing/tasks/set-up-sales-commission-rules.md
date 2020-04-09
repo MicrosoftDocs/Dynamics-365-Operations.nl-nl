@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d575e609ac5289f9acb219322c9df93972e5dfc
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: d9036b5cbad10af725aaaf5d1d9498687c3a1d58
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995208"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146417"
 ---
 # <a name="set-up-sales-commission-rules"></a>Regels voor verkoopprovisie instellen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure toont u hoe u het berekenen en bijhouden van verkoopprovisie instelt en inschakelt. De procedure toont hoe u zowel klant- als artikelprovisiegroepen kunt maken en hoe u geselecteerde klanten en producten aan de respectievelijke groepen koppelt. Deze groepen worden dan gebruikt in de instellingen voor provisieberekening om een combinatie van klant, artikel en vertegenwoordiger te maken die moet overeenkomen met de verkooporder opdat de verkoper in aanmerking komt voor een provisie. Het maken van klant- en artikelprovisiegroepen is optioneel, zoals de berekening van provisie ook voor een afzonderlijk(e) klant en/of artikel kan worden uitgevoerd. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.
 

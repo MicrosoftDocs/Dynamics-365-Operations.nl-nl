@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fcb7b1b12dbf0e49e15aa594b0048a9b9216260
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e612e3cd0343d386da4755f13eca6bf1443816d5
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844855"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150144"
 ---
 # <a name="create-dimension-based-configurations"></a>Op dimensies gebaseerde configuraties maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure laat zien hoe u een configuratie voor een op dimensies gebaseerd product definieert. Dit is de laatste procedure in de reeks waarin wordt uitgelegd hoe u combinaties maakt voor een op dimensies gebaseerde configuratie. De uitvoering van deze procedure is afhankelijk van de gegevens die in de vorige zeven registraties zijn gemaakt. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0119ae07e490f048dbb021983e25889cb1cb42b3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9760aeb823730581aa1f02db1574e6f5eccd1f75
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845340"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145635"
 ---
 # <a name="set-up-quality-orders"></a>Kwaliteitsorders instellen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarbij inkomende voorraad onmiddellijk na aankomstregistratie moet worden geïnspecteerd. De procedure wordt gewoonlijk uitgevoerd door een kwaliteitsmanager. Het proces bevat het maken van een kwaliteitsgroep, om de artikelen te definiëren die zullen worden bemonsterd, en een testgroep voor het groeperen van de tests die zullen worden uitgevoerd op artikelen in de kwaliteitsgroep. U kunt deze taakgeleiding uitvoeren in het demobedrijf USMF.
 
@@ -96,7 +96,7 @@ Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarb
 ## <a name="create-a-test-group"></a>Een testgroep maken
 1. Ga naar **Voorraadbeheer > Instellingen > Kwaliteitsbeheer > Testgroepen**.
 2. Klik op **Nieuw**.
-3. Typ een waarde in het veld **Testgroep**. Geef de **Testgroep** een naam die u zal helpen onthouden welk type testen wordt uitgevoerd en welke kwaliteitsgroep hieraan moet worden gekoppeld. Als het bijvoorbeeld moet worden gebruikt met een kwaliteitsgroep die artikelen selecteert die beginnen met "T" beginnen, kunt u het "T-artikelen testen" noemen.  
+3. Typ een waarde in het veld **Testgroep**. Geef de **Testgroep** een naam die u zal helpen onthouden welk type testen wordt uitgevoerd en welke kwaliteitsgroep hieraan moet worden gekoppeld. Als het bijvoorbeeld moet worden gebruikt met een kwaliteitsgroep die artikelen selecteert die met een T beginnen, kunt u het T-artikelen testen noemen.  
 4. Typ een waarde in het veld **Beschrijving**.
 5. Selecteer in het veld **Artikelbemonstering** de artikelbemonsteringsregel die u eerder hebt gemaakt.
 6. Zoek en selecteer de gewenste record in de lijst.
@@ -116,14 +116,14 @@ Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarb
 1. Ga naar **Voorraadbeheer > Instellingen > Kwaliteitsbeheer > Kwaliteitskoppelingen**.
 2. Klik op **Nieuw**.
 3. Selecteer een optie in het veld **Verwijzingstype**.
-4. Selecteer 'Groep' in het veld **Artikelcode**. In dit voorbeeld selecteren we "Groep" en gebruiken we de kwaliteitsgroep die we eerder hebben gemaakt. U kunt dit ook instellen op "Tabel" om handmatig de artikelen op te geven of "Alle" selecteren om alle artikelen toe te voegen aan de kwaliteitsorder.  
+4. Selecteer 'Groep' in het veld **Artikelcode**. In dit voorbeeld selecteren we Groep en gebruiken we de kwaliteitsgroep die we eerder hebben gemaakt. U kunt dit ook instellen op "Tabel" om handmatig de artikelen op te geven of "Alle" selecteren om alle artikelen toe te voegen aan de kwaliteitsorder.  
 5. Selecteer in het veld **Artikel** de artikelgroep die u eerder hebt gemaakt. Welke opties beschikbaar zijn in het veld Artikel is afhankelijk van wat u hebt ingesteld in het veld Artikelcode.  
 6. Zoek en selecteer de gewenste record in de lijst.
 7. Vouw de sectie Proces uit of samen.
 8. Selecteer een optie in het veld **Gebeurtenistype**. Dit is de gebeurtenis waarmee de test wordt geactiveerd. Welke opties hier beschikbaar zijn is afhankelijk van het proces dat u hebt geselecteerd in het veld Verwijzingstype.  
 9. Selecteer een optie in het veld **Uitvoering**.
 10. Vouw de sectie **Kwaliteitsorderproces** uit of samen.
-11. Klik in het veld **Gebeurtenisblokkering** op de vervolgkeuzeknop om de zoekopdracht te openen. In dit veld wordt de lijst weergegeven van processen die kunnen worden geblokkeerd als de kwaliteitsorder nog open staat. De opties zijn afhankelijk van wat u in het veld Gebeurtenistype hebt geselecteerd.  
+11. Klik in het veld **Gebeurtenisblokkering** op de vervolgkeuzeknop om de zoekopdracht te openen. In dit veld wordt de lijst weergegeven met processen die kunnen worden geblokkeerd als de kwaliteitsorder nog open staat. De opties zijn afhankelijk van wat u in het veld Gebeurtenistype hebt geselecteerd.  
 12. Klik in de lijst op de koppeling in de geselecteerde rij. Dit is afhankelijk van de vorige geselecteerde waarden. Selecteer of de volgende processen moeten worden geblokkeerd terwijl er openstaande kwaliteitsorders aan een brondocumentregel zijn gekoppeld.  
 13. Vouw de sectie **Specificaties** uit of samen.
 14. Selecteer in het veld **Testgroep** de testgroep die u eerder hebt gemaakt.

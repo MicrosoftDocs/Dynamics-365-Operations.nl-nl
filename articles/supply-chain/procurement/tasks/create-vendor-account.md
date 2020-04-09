@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 116085a71e872c13bbf2820f4408e3c7d1261d17
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: ba585a9bb1a296bbf7181530e151d737bfa22fc2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924412"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149591"
 ---
 # <a name="create-a-vendor-account"></a>Een leverancierrekening maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure laat zien hoe u een leveranciersrekening maakt en een adres en contactgegevens toevoegt. De procedure toont niet hoe u alle velden vult voor inkoop- en financiële doelen. Voor meer informatie over deze velden leest u de veldbeschrijvingen. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens. Leveranciersrekeningen worden gewoonlijk gemaakt door een inkoop- of debiteurenmedewerker.
 

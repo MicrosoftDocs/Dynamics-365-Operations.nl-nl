@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 556f99d34521cce70efb64c5fbababd815e8429d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 55260a4d25f41bc649f5e1f1f8c950c6b438ecfb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190460"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144036"
 ---
 # <a name="develop-and-open-job-requisition"></a>Vacatures ontwikkelen en openen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Wervingsprojecten kunnen u helpen uw wervingsproces te beheren. Bij elk wervingsproject kunt u informatie, zoals de functie waarvoor u personeel werft, de naam van de werver, de status van het project en de afdeling waar de functie zich bevindt, instellen voor elk wervingsproject. Nadat u een wervingsproject hebt gemaakt, schrijft u een personeelsadvertentie uit voor het project, publiceert u de functie op Selfservice werknemer-pagina's, koppelt u sollicitaties voor de functie aan het project en houdt u activiteiten voor dat project bij. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. U start de procedure door naar Human resources > Werving > Wervingsprojecten > Wervingsprojecten te gaan
 

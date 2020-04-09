@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d7882a7a17f5736d9d5a11cd91ac963fa89ff12f
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: f2b93f74a121de4c23eb5dddfb94c6596b78544d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042891"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142657"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Ontwerp domeinspecifiek gegevensmodel
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken die een gegevensmodel voor elektronische betalingsdocumenten bevat. Dit gegevensmodel wordt later gebruikt als gegevensbron, wanneer u de indeling van de betalingsdocumenten maakt.
 
@@ -33,7 +33,7 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf, Litware, In
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
 
-    Selecteer de configuratieprovider voor voorbeeldbedrijf, ’Litware, inc.’ Als u deze configuratieprovider niet ziet, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien.  
+    Selecteer de configuratieprovider voor voorbeeldbedrijf, 'Litware, inc.' Als u deze configuratieprovider niet ziet, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" uitvoeren.  
     
 2. Klik op Rapportconfiguraties.
 
@@ -46,7 +46,7 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf, Litware, In
 
     De actieve configuratieprovider wordt hier automatisch ingevoerd. Deze provider kan deze configuratie onderhouden. Andere providers kunnen deze configuratie wel gebruiken, maar niet onderhouden.  
 
-4. Klik op de knop "Configuratie maken" om de taak van het maken van een configuratie te voltooien
+4. Klik op de knop 'Configuratie maken' om de taak van het maken van een configuratie te voltooien
 
 ## <a name="create-a-data-model"></a>Een gegevensmodel maken
 U maakt een nieuw gegevensmodel voor de geselecteerde configuratie. Deze configuratieversie heeft de status Concept.  

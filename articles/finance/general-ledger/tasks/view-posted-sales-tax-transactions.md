@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3f72f12e8afdf190865a77fc6153c0c0a111e5a7
-ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
+ms.openlocfilehash: c10ae427c4dde641c619546ab33503090a7c49fa
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2888604"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144621"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Geboekte btw-transacties weergeven
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In dit onderwerp worden enkele manieren beschreven om geboekte btw-transacties weer te geven. U kunt geboekte btw-transacties bekijken van diverse pagina´s, afhankelijk van wat u wilt bekijken. Bij deze taak wordt het demobedrijf USMF gebruikt.
 

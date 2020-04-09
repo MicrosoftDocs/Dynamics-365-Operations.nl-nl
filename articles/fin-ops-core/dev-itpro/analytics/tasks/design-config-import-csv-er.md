@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf27590d80bbaf7749a0b6e69adc63ddcf4f9380
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c8511b83a5d327f6a1d5c9ace091eae9e546307b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185147"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142229"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>ER-configuraties ontwerpen om gegevens te importeren uit externe CSV-bestanden
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Gebruik deze procedure voor het ontwerpen van ER-configuraties (elektronische rapportage) om gegevens te importeren in de toepassing vanuit een extern bestand in CSV-indeling. In deze procedure maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de procedure 'ER Een configuratieprovider maken en deze als actief markeren'. 
+Gebruik deze procedure voor het ontwerpen van ER-configuraties (elektronische rapportage) om gegevens te importeren in de toepassing vanuit een extern bestand in CSV-indeling. In deze procedure maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de procedure "ER Een configuratieprovider maken en deze als actief markeren". 
 
 Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembeheerder of Elektronische aangifteontwikkelaar. Deze stappen kunnen worden voltooid met de USMF-gegevensset. 
 
@@ -37,7 +37,7 @@ U moet ook de volgende bestanden downloaden en lokaal opslaan: (https://go.micro
     * De volgende stappen laten zien hoe extern bijgehouden leverancierstransacties worden geïmporteerd uit het externe CSV-bestand voor later gebruik in de leveranciersvereffening voor 1099-formulieren.   
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en is gemarkeerd als actief. Als u deze configuratieprovider niet ziet, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" uitvoeren.  
 2. Klik op Rapportconfiguraties.
-3. Pas het filter '1099 Payments model' toe. Als u eerder de procedure ”ER Vereiste configuraties maken om gegevens te importeren uit een extern bestand voor elektronische aangifte” en de configuratie ‘1099 Payments model’ beschikbaar is in de configuratiestructuur, slaat u alle stappen in de volgende subtaak over.   
+3. Pas het filter '1099 Payments model' toe. Als u eerder de procedure "ER Vereiste configuraties maken om gegevens te importeren uit een extern bestand voor elektronische aangifte" en de configuratie '1099 Payments model' beschikbaar is in de configuratiestructuur, slaat u alle stappen in de volgende subtaak over.   
 
 ## <a name="add-a-new-er-model-configuration"></a>Een nieuwe ER-modelconfiguratie toevoegen
 1. U hoeft niet een nieuw model te maken ter ondersteuning van de gegevensimport, maar u laadt het bestand 1099model.xml dat u eerder hebt gedownload. Dit bestand bevat het aangepaste gegevensmodel voor leverancierstransacties. Dit gegevensmodel is al toegewezen aan de benodigde gegevensonderdelen.  
@@ -77,7 +77,7 @@ U moet ook de volgende bestanden downloaden en lokaal opslaan: (https://go.micro
     * Het element Root\Line\Types\Record van het type SEQUENCE is geconfigureerd voor het parseren van de transactieregels. Houd er rekening mee dat de optie 'Aangepast scheidingsteken' is geconfigureerd als een komma. Dit betekent dat de komma wordt gebruikt als scheidingsteken voor velden van dit type regel in het parseerbestand.   
     * Houd er rekening mee dat meerdere geneste elementen van verschillende gegevenstypen zijn toegevoegd voor het element Root\Line\Types\Record voor het parseren van de transactieregels als afzonderlijke velden. De optie 'Toepassing aanhalingstekens' is geconfigureerd als 'Geen'. Dit betekent dat er voor het parseerbestand vanuit wordt gegaan dat alle velden van dit type geen ingesloten tekens hebben.   
 9. Selecteer in de structuur 'Inkomend: File\Root: Sequence\Line: Sequence 1..* \Types: Case\Record: Sequence 1..1 (,)\TransactionDate: DateTime'.
-    * Het element Root\Line\Types\Record\TransactionDate van het type DATETIME is bijvoorbeeld geconfigureerd om de waarde voor datum en tijd van de transactie op te halen uit het parseerbestand in de indeling ‘M/d/jjjj’.   
+    * Het element Root\Line\Types\Record\TransactionDate van het type DATETIME is bijvoorbeeld geconfigureerd om de waarde voor datum en tijd van de transactie op te halen uit het parseerbestand in de indeling 'M/d/jjjj'.   
 10. Selecteer in de structuur 'Inkomend: File\Root: Sequence\Line: Sequence 1..* \Types: Case\Record: Sequence 1..1 (,)\CountryCode: String 0..1 '.
     * Opmerking: het element Root\Line\Types\Record\CountryCode van het type STRING is geconfigureerd met de optie 'Nul een' in het veld 'Multipliciteit'. Voor deze instelling is de waarde van het veld CountryCode in de parseerregel optioneel.   
 11. Selecteer in de structuur 'Inkomend: File\Root: Sequence\Line: Sequence 1..* \Types: Case\Record: Sequence 1..1 (,)\Remark: Sequence 1..1 (,)'.
@@ -102,7 +102,7 @@ U moet ook de volgende bestanden downloaden en lokaal opslaan: (https://go.micro
     * Houd er rekening mee dat de vereiste en optionele indelingselementen, zoals TransactionDate en CountryCode, er anders uitzien in het vooraf gedefinieerde gegevensbrononderdeel voor de 'indeling'.   
 12. Vouw in de structuur 'Transacties = '$both'' uit.
     * Houd er rekening mee dat de elementen van de indeling waarmee de structuur van het geïmporteerde bestand wordt gedefinieerd, zijn gebonden aan de elementen van het gegevensmodel. Op basis van deze bindingen wordt de inhoud van het geïmporteerde CSV-bestand tijdens de uitvoering opgeslagen in het bestaande gegevensmodel. Let op de binding van het element CountryRegion. Voor elk transactie-element in het inkomende bestand waarvoor geen landcodewaarde is opgegeven, wordt standaard de landcode 'V.S.' ingevuld in het gegevensmodel.   
-13. Schakel 'Details weergeven' in.
+13. Schakel de optie 'Details weergeven' in.
 14. Klik op het tabblad Validaties.
 15. Klik op Zoeken.
 16. Typ in het veld Zoeken 'vend'.

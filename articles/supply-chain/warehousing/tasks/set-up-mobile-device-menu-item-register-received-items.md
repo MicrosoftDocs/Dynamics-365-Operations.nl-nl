@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 599a533c90b0346637221fecc78ddd688410fb3c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 5783742b382c333c9ba7b60701c043c74c87c458
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914740"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148303"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Dit onderwerp is gericht op de instelling van een menuopdracht voor een mobiel apparaat. Deze menuopdracht wordt gebruikt voor de registratie van de ontvangst van artikelen die via inkooporders werden besteld. 
 
@@ -45,7 +45,7 @@ U kunt deze begeleiding gebruiken in het demobedrijf USMF. Deze procedure is bed
     - De parameter **Nummerplaatgroepering** werkt in combinatie met de volgordegroep voor de eenheid die is toegewezen aan het artikel dat is ontvangen. U kunt opgeven of ontvangstbewijzen van minder dan of meer dan een pallet moeten worden gegroepeerd in een nummerplaat, of opgedeeld in een aparte nummerplaat voor elke eenheid.  
     - Als u de optie **Nummerplaat maken** selecteert, wordt een uniek nummerplaatnummer gegenereerd op basis van de nummerreeksselectie.  
     - U kunt de sjabloon selecteren die wordt gebruikt wanneer werk wordt gemaakt. Als u bijvoorbeeld een artikel voor een inkooporder registreert, wordt het weggezette werk gegenereerd op basis van het werksjabloon. Als u hier geen werksjabloon selecteert, wijst het systeem een sjabloon toe op basis van de zoekcriteria die aan de sjablonen zijn gekoppeld.  
-    - Als er op het mobiele apparaat beschikkingscodes worden weergegeven, kunnen de medewerkers de status of kwaliteit van de artikelen beoordelen en de gewenste code selecteren. De regels voor de beschikkingscode definiëren of de artikelen voor andere magazijnprocessen beschikbaar zijn. De regels definiëren ook welke locatie-instructie wordt gebruikt voor het werk dat wordt gemaakt.   
+    - Als er op het mobiele apparaat beschikkingscodes worden weergegeven, kunnen de medewerkers de status of kwaliteit van de artikelen beoordelen en de gewenste code selecteren. De regels voor de beschikkingscode definiëren of de artikelen voor andere magazijnprocessen beschikbaar zijn. De regels bepalen ook welke locatie-instructie wordt gebruikt voor het werk dat wordt gemaakt.   
     - Als u de optie **Batchbeschikkingscodes** selecteert, kunnen medewerkers de status of kwaliteit van een batch beoordelen en de gewenste beschikkingscode selecteren. De regels die zijn ingesteld voor de batchbeschikkingscode definiëren of de batch voor andere magazijnprocessen beschikbaar is.  
     - Als u de optie **Etiketten afdrukken** selecteert, wordt een nummerplaatlabel automatisch afgedrukt wanneer de artikelen zijn ontvangen.  
 7. Selecteer **Opslaan**.

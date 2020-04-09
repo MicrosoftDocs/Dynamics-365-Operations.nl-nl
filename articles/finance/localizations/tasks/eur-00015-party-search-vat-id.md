@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0427b6e961173543f860ef6e098fc6248afd3aa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 401971b6f146f1df028291ba0f691ccac5f1966d
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183813"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138994"
 ---
 # <a name="eur-00015-party-search-using-vat-id"></a>EUR-00015 Een partij zoeken door middel van het btw-id
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure laat zien hoe u een partij-zoekopdracht uitvoert met een registratie-id. Voordat u deze procedure kunt uitvoeren, moet u btw-id's instellen en invoeren voor leveranciers, klanten of rechtspersonen.
 

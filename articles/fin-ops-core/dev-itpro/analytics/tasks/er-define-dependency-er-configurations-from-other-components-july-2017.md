@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042914"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142231"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Voordat u deze stappen uitvoert, moet u eerst de stappen in de taakbegeleiding ER modeltoewijzingsconfiguraties uitvoeren en moet u toegang hebben tot Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -78,7 +78,7 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
 5. Klik op Filters weergeven.
 6. Voer een filterwaarde van 'LCS' in het veld 'Typenaam' in met de filteroperator 'bevat'.
     * Als de LCS-opslagplaats al is geregistreerd voor de huidige ER-provider, kunt u de resterende stappen in deze subtaak overslaan. Als de LCS-opslagplaats niet al is geregistreerd, voert u de resterende stappen uit.   
-7. Klik op Toevoegen om het dialoogvenster te openen.
+7. Klik op Toevoegen om het uitklapvenster te openen.
 8. Selecteer 'LCS' in het veld Type opslagplaats van configuratie.
 9. Klik op Opslagplaats maken.
 10. Typ of selecteer een waarde in het veld Project.

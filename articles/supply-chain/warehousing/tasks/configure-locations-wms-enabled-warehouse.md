@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fca4d8673ef7ccb00bc1b216fbe7d56acc2ff142
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 43fd5a293671d63c1c0db3019ba89fdf84f9fff8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994976"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146164"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Locaties in een WMS-magazijn configureren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze begeleiding toont hoe u de locatie-instelling configureert voor een nieuw WMS-magazijn (een magazijn dat geavanceerde magazijnbeheerprocessen gebruikt). Het proces wordt gewoonlijk uitgevoerd door een magazijnmanager. U kunt deze begeleiding uitvoeren in het demobedrijf USMF of met uw eigen gegevens. Een preconditie is dat u ten minste één geconfigureerde site hebt.
 

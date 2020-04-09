@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d785b321037645837dbcbaf28c8ede9b8e97b79
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 20188438a4ca623fc926e6c373fb002f148c3df4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550597"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142473"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>ER Indeling configureren voor tellen en totaliseren (deel 2: Berekeningen configureren)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken voor tellen en totaliseren op basis van gegevens van de reeds gegenereerde tekstuitvoer. Deze stappen kunnen in elk bedrijf worden uitgevoerd.
 
@@ -51,7 +51,7 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
     * Deze markering activeert in runtime het proces van het verzamelen van uitvoerdetails voor het genereren van het Intrastat-bestand.  
     * U moet tellen voor verschillende Intrastat-richtingen, dus voeg een specifieke modelopsomming toe aan de lijst met gegevensbronnen van deze indelingsconfiguratie.  
 3. Klik op het tabblad Toewijzing.
-4. Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.
+4. Klik op Basis toevoegen om het uitklapvenster te openen.
 5. Selecteer in de structuur Gegevensmodel\Opsomming.
 6. Typ Richting in het veld Naam.
 7. Typ of selecteer een waarde in het veld Modelopsomming.
@@ -82,7 +82,7 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 31. Sluit de pagina.
 32. Klik op OK.
 33. Selecteer Intrastat\Gegevens in de structuur.
-34. Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens
+34. Klik op de knop Bewerken voor het veld 'Sleutelnaam verzamelde gegevens'
 35. Klik op Gegevensbron toevoegen.
     * $BlockName  
 36. Klik op Opslaan.
@@ -92,27 +92,27 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
     * IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")  
 40. Klik op Opslaan.
 41. Sluit de pagina.
-    * Tel de regels van deze reeks. De resultaten worden afzonderlijk voor verschillende richtingen gebruikt met de naam 'blok'. De waarde Importeren wordt gebruikt voor Intrastat-transacties voor ontvangsten. De waarde Exporteren wordt gebruikt voor Intrastat-transacties voor verzendingen. Beschouw dit als een virtueel Excel-spreadsheet. Voor elke transactie een rij waarin de eerste kolom 'blok' is ingevuld met de waarden 'Import' en 'Export'.  
+    * Tel de regels van deze reeks. De resultaten worden afzonderlijk voor verschillende richtingen gebruikt met de naam "blok". De waarde "Importeren" wordt gebruikt voor Intrastat-transacties voor ontvangsten. De waarde "Exporteren" wordt gebruikt voor Intrastat-transacties voor verzendingen. Beschouw dit als een virtueel Excel-spreadsheet. Voor elke transactie een rij waarin de eerste kolom "blok" is ingevuld met de waarden "Import" en "Export".  
 42. Vouw in de structuur 'Intrastat\Gegevens: Reeks' uit.
 43. Selecteer in de structuur 'Intrastat\Gegevens: Reeks\Ontvangsten?'.
-44. Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens.
-    * Tel de regels van deze reeks. De resultaten worden onthouden met de naam 'record'.  
+44. Klik op de knop Bewerken voor het veld 'Sleutelnaam verzamelde gegevens'.
+    * Tel de regels van deze reeks. De resultaten worden onthouden met de naam "record".  
 45. Selecteer in de structuur '$RecName'.
 46. Klik op Gegevensbron toevoegen.
 47. Klik op Opslaan.
 48. Sluit de pagina.
-49. Klik op de knop Bewerken voor het veld Sleutelwaarde verzamelde gegevens.
+49. Klik op de knop Bewerken voor het veld 'Sleutelwaarde verzamelde gegevens'
 50. Typ in het veld Formule 'Intrastat.CommodityRecord.CommodityCode'.
 51. Klik op Opslaan.
 52. Sluit de pagina.
-    * Tel de regels van deze reeks. De resultaten worden afzonderlijk voor verschillende basisproductcode gebruikt met de naam 'record'. Beschouw dit als een virtueel Excel-spreadsheet. Voor elke transactie een rij waarin de eerste kolom 'blok' wordt gevuld met de waarden 'Import' en 'Export' en het tweede blok 'record' wordt gevuld met de waarde van de basisproductcode.  
+    * Tel de regels van deze reeks. De resultaten worden afzonderlijk voor verschillende basisproductcode gebruikt met de naam "record". Beschouw dit als een virtueel Excel-spreadsheet. Voor elke transactie een rij waarin de eerste kolom "blok" wordt gevuld met de waarden "Import" en "Export" en het tweede blok "record" wordt gevuld met de waarde van de basisproductcode.  
 53. Select in de structuur 'Intrastat\Gegevens: Reeks\Verzendingen?'.
-54. Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens
+54. Klik op de knop Bewerken voor het veld 'Sleutelnaam verzamelde gegevens'
 55. Selecteer in de structuur '$RecName'.
 56. Klik op Gegevensbron toevoegen.
 57. Klik op Opslaan.
 58. Sluit de pagina.
-59. Klik op de knop Bewerken voor het veld Sleutelwaarde verzamelde gegevens.
+59. Klik op de knop Bewerken voor het veld 'Sleutelwaarde verzamelde gegevens'.
 60. Typ in het veld Formule 'Intrastat.CommodityRecord.CommodityCode'.
 61. Klik op Opslaan.
 62. Sluit de pagina.
@@ -121,18 +121,18 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 65. Klik op het tabblad Indeling.
 66. Selecteer in de structuur 'Intrastat\Gegevens\Verzendingen\Record\Factuurbedrag EUR'.
 67. Klik op het tabblad Toewijzing.
-68. Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens.
+68. Klik op de knop Bewerken voor het veld 'Sleutelnaam verzamelde gegevens'.
 69. Selecteer in de structuur '$InvName'.
 70. Klik op Gegevensbron toevoegen.
 71. Klik op Opslaan.
 72. Sluit de pagina.
-    * Vat de gefactureerde bedragwaarden samen voor regels van deze reeks. De resultaten worden afzonderlijk voor verschillende intrastat-richtingen en basisproductcodes gebruikt met de naam "InvoicedAmountEUR". Beschouw dit als een virtueel gemaakt item in het Excel-spreadsheet. Voor elke transactie een rij waarin de eerste kolom 'blok' is ingevuld met de waarden 'Import' en 'Export'. Het tweede blok 'record' wordt gevuld met de waarde van de basisproductcode, en de derde kolom InvoicedAmountEUR wordt gevuld met de factuurbedragwaarde.  
+    * Vat de gefactureerde bedragwaarden samen voor regels van deze reeks. De resultaten worden afzonderlijk voor verschillende intrastat-richtingen en basisproductcodes gebruikt met de naam "InvoicedAmountEUR". Beschouw dit als een virtueel gemaakt item in het Excel-spreadsheet. Voor elke transactie een rij waarin de eerste kolom "blok" is ingevuld met de waarden "Import" en "Export". Het tweede blok "record" wordt gevuld met de waarde van de basisproductcode, en de derde kolom "InvoicedAmountEUR" wordt gevuld met de factuurbedragwaarde.  
 73. Vouw in de structuur 'Intrastat\Gegevens\Ontvangsten?' uit.
 74. Vouw in de structuur 'Intrastat\Gegevens\Ontvangsten?\Record = Intrastat.CommodityRecord' uit.
 75. Klik op het tabblad Indeling.
 76. Selecteer in de structuur 'Intrastat\Gegevens\Ontvangsten\Record\Factuurbedrag EUR'.
 77. Klik op het tabblad Toewijzing.
-78. Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens.
+78. Klik op de knop Bewerken voor het veld 'Sleutelnaam verzamelde gegevens'.
 79. Selecteer in de structuur '$InvName'.
 80. Klik op Gegevensbron toevoegen.
 81. Klik op Opslaan.

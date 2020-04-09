@@ -16,69 +16,69 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f34302a32b2e06f281dc93d6df160b88ffac7123
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: fc28e9a2170929c6cd8daafd7eae54713cec36ff
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769780"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143195"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>RCS‑bestanden in XML-indeling importeren met optionele kenmerken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER‑indelingsconfiguratie kan ontwerpen om bestanden in XML‑indeling met optionele kenmerken te importeren. Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien. Voordat u begint, moet u het bestand IncomingdocumentToLearnHowToHandleOptionalAttributes.xml downloaden uit het [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684) en lokaal opslaan.
 
-1.  Ga naar **Alle werkgebieden** > **Elektronische rapportage**.
-2.  Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooi dan de stappen in de procedure [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md).
-3.  Klik op **Rapportconfiguraties**.
+1.    Ga naar **Alle werkgebieden** > **Elektronische rapportage**.
+2.    Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooi dan de stappen in de procedure [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md).
+3.    Klik op **Rapportconfiguraties**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Een nieuwe gegevensmodelconfiguratie maken
-1.  Klik op **Configuratie maken** om het dialoogvenster voor beëindigen te openen.
-2.  Typ in het veld **Naam** 'Model voor importeren van XML-bestand'.
-3.  Klik op **Configuratie maken**.
-4.  Klik op **Ontwerper**.
-5.  Klik op **Nieuw** om het uitklapdialoogvenster te openen.
-6.  Typ het veld **Naam** 'Basis'.
-7.  Klik op **Toevoegen**.
-8.  Klik op **Nieuw** om het uitklapdialoogvenster te openen.
-9.  Typ het veld **Naam** 'Lijst'.
-10. Selecteer in het veld **Itemtype** **Recordlijst**.
-11. Klik op **Toevoegen**.
-12. Klik op **Nieuw** om het uitklapdialoogvenster te openen.
-13. Typ in het veld **Naam** 'Code'.
-14. Selecteer in het veld **Itemtype** **Tekenreeks**.
-15. Klik op **Toevoegen**.
-16. Klik op **Opslaan**.
-17. Sluit de pagina.
-18. Klik op **Status wijzigen**.
-19. Klik op **Voltooien**.
-20. Klik op **OK**.
+1.    Klik op **Configuratie maken** om het dialoogvenster voor beëindigen te openen.
+2.    Typ in het veld **Naam** 'Model voor importeren van XML-bestand'.
+3.    Klik op **Configuratie maken**.
+4.    Klik op **Ontwerper**.
+5.    Klik op **Nieuw** om het uitklapdialoogvenster te openen.
+6.    Typ het veld **Naam** 'Basis'.
+7.    Klik op **Toevoegen**.
+8.    Klik op **Nieuw** om het uitklapdialoogvenster te openen.
+9.    Typ het veld **Naam** 'Lijst'.
+10.    Selecteer in het veld **Itemtype** **Recordlijst**.
+11.    Klik op **Toevoegen**.
+12.    Klik op **Nieuw** om het uitklapdialoogvenster te openen.
+13.    Typ in het veld **Naam** 'Code'.
+14.    Selecteer in het veld **Itemtype** **Tekenreeks**.
+15.    Klik op **Toevoegen**.
+16.    Klik op **Opslaan**.
+17.    Sluit de pagina.
+18.    Klik op **Status wijzigen**.
+19.    Klik op **Voltooien**.
+20.    Klik op **OK**.
 
 ## <a name="create-a-format-for-data-import"></a>Een indeling maken voor het importeren van gegevens
-1.  Klik op **Configuratie maken** om het dialoogvenster voor beëindigen te openen.
-2.  Voer in het veld **Nieuw** in 'Indeling gebaseerd op gegevensmodel Model voor importeren van xml‑bestand'.
-3.  Typ in het veld **Naam** 'Indeling voor importeren van XML-bestand'.
-4.  Selecteer **Ja** in het veld **Ondersteunt gegevensimport**.
-5.  Klik op **Configuratie maken**.
+1.    Klik op **Configuratie maken** om het dialoogvenster voor beëindigen te openen.
+2.    Voer in het veld **Nieuw** in 'Indeling gebaseerd op gegevensmodel Model voor importeren van xml‑bestand'.
+3.    Typ in het veld **Naam** 'Indeling voor importeren van XML-bestand'.
+4.    Selecteer **Ja** in het veld **Ondersteunt gegevensimport**.
+5.    Klik op **Configuratie maken**.
 
 ## <a name="design-a-format-to-parse-incoming-file-in-xml-format"></a>Een indeling ontwerpen om het binnenkomende bestand in XML-indeling te parseren
-1.  Klik op **Ontwerper**.
-2.  Klik op **Basis toevoegen** om het dialoogvenster voor beëindiging te openen.
-3.  Selecteer **XML\Element** in de structuur.
-4.  Typ het veld **Naam** 'basis'.
-5.  Klik op **OK**.
-6.  Klik op **Toevoegen** om het dialoogvenster voor beëindigen te openen.
-7.  Selecteer **XML\Element** in de structuur.
-8.  Typ in het veld **Naam** 'document'.
-9.  Selecteer in het veld **Multiplicity** **Eén veel**.
-10. Klik op **OK**.
-11. Selecteer in de structuur **basis\document**.
-12. Klik op **Toevoegen** om het dialoogvenster voor beëindigen te openen.
-13. Selecteer **XML\Attribute** in de structuur.
-14. Typ in het veld **Naam** 'ID'.
-15. Klik op **OK**.
-16. Klik op **Opslaan**.
+1.    Klik op **Ontwerper**.
+2.    Klik op **Basis toevoegen** om het dialoogvenster voor beëindiging te openen.
+3.    Selecteer **XML\Element** in de structuur.
+4.    Typ het veld **Naam** 'basis'.
+5.    Klik op **OK**.
+6.    Klik op **Toevoegen** om het dialoogvenster voor beëindigen te openen.
+7.    Selecteer **XML\Element** in de structuur.
+8.    Typ in het veld **Naam** 'document'.
+9.    Selecteer in het veld **Multiplicity** **Eén veel**.
+10.    Klik op **OK**.
+11.    Selecteer in de structuur **basis\document**.
+12.    Klik op **Toevoegen** om het dialoogvenster voor beëindigen te openen.
+13.    Selecteer **XML\Attribute** in de structuur.
+14.    Typ in het veld **Naam** 'ID'.
+15.    Klik op **OK**.
+16.    Klik op **Opslaan**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Een indelingstoewijzing ontwerpen om geparseerde informatie op te slaan in het gegevensmodel
 1. Klik op **Indeling aan model toewijzen**.
@@ -90,15 +90,15 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 7. Klik op **Ontwerper**.
 8. Vouw in de structuur **indeling** uit.
 9. Vouw in de structuur **format\root: XML Element(root)** uit.
-10. Selecteer in de structuur **format\root: XML Element(root)\document: XML Element 1..* (document)**.
-11. Klik op **Binden**.
-12. Vouw in de structuur **format\root: XML Element(root)\document: XML Element 1..* uit (document)**.
-13. Selecteer in de structuur **format\root: XML Element(root)\document: XML Element 1..* (document)\id**.
-14. Vouw in de structuur **Lijst = format.root.document** uit.
-15. Selecteer in de structuur **Lijst = format.root.document\Code** uit.
-16. Klik op **Binden**.
-17. Klik op **Opslaan**.
-18. Sluit de pagina.
+10.    Selecteer in de structuur **format\root: XML Element(root)\document: XML Element 1..* (document)**.
+11.    Klik op **Binden**.
+12.    Vouw in de structuur **format\root: XML Element(root)\document: XML Element 1..* uit (document)**.
+13.    Selecteer in de structuur **format\root: XML Element(root)\document: XML Element 1..* (document)\id**.
+14.    Vouw in de structuur **Lijst = format.root.document** uit.
+15.    Selecteer in de structuur **Lijst = format.root.document\Code** uit.
+16.    Klik op **Binden**.
+17.    Klik op **Opslaan**.
+18.    Sluit de pagina.
  
 ## <a name="run-format-mapping"></a>Indelingstoewijzing uitvoeren
 1. Klik op **Uitvoeren**.
@@ -106,7 +106,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 3. Klik op **OK**.
 
 > [!NOTE]
-> Het geselecteerde bestand is niet geïmporteerd omdat het indelingsontwerp ervan uitgaat dat er een 'id'‑kenmerk bestaat voor het element 'document ', maar het geïmporteerde bestand bevat geen kenmerk.
+> Het geselecteerde bestand is niet geïmporteerd omdat het indelingsontwerp ervan uitgaat dat er een id‑kenmerk bestaat voor het element document, maar het geïmporteerde bestand bevat geen kenmerk.
 
 ## <a name="modify-format-structure-to-handle-xml-attribute-as-optional"></a>Indelingsstructuur wijzigen om het XML-kenmerk als optioneel te verwerken
 1. Sluit de pagina.
@@ -123,4 +123,4 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 5. Bekijk het gegenereerde bestand. 
 
 > [!NOTE]
-> Hetzelfde bestand is geïmporteerd als het opmaakontwerp, beschouw nu het kenmerk ' id ' voor het element 'document ' als optioneel.
+> Hetzelfde bestand is geïmporteerd als het opmaakontwerp, beschouw nu het kenmerk 'id' voor het element 'document' als optioneel.

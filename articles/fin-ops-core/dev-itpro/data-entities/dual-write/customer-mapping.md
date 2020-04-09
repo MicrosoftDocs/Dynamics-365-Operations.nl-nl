@@ -19,20 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 269346d38eeb3812c352d16f9d50fbcd09307c12
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124584"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172826"
 ---
 # <a name="integrated-customer-master"></a>Model voor geïntegreerde klanten
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Het is gebruikelijk dat klantrecords in meer dan één toepassing worden beheerst. Verkoopactiviteiten kunnen bijvoorbeeld commerciële klantrecords inbrengen via een Sales-toepassing en e-Commerce- of Retail-verkopen kunnen klantrecords inbrengen via een Finance and Operations-toepassing. Ongeacht waar de klantgegevens vandaan komen, worden ze achter de schermen geïntegreerd over toepassingsgrenzen en infrastructuurverschillen heen. Geïntegreerd klantbeheer helpt bij het afhandelen van scenario's met meervoudig beheer en biedt een uitgebreid overzicht van de klant naar de Dynamics 365 Application Suite.
+Klantgegevens kunnen in meerdere Dynamics 365-toepassingen worden beheerd. Een klantrecord kan bijvoorbeeld afkomstig zijn van een verkoopactiviteit in Dynamics 365 Sales (een modelgestuurde app in Dynamics 365) of een record die afkomstig is van een detailhandelactiviteit in Dynamics 365 Commerce (een Finance and Operations-app). Ongeacht waar de klantgegevens vandaan komen, ze worden achter de schermen geïntegreerd. Met het geïntegreerde klantmodel hebt u de flexibiliteit om de hoofdgegevens van klanten te beheren in elke Dynamics 365-toepassing met een uitgebreid overzicht van de klant in de Dynamics 365-toepassingsreeks.
 
 ## <a name="customer-data-flow"></a>Klantgegevensstroom
 
@@ -59,7 +58,6 @@ Klantengroepen             | msdyn_customergroups            | Met deze sjabloon
 Betalingsmethode van klant     | msdyn_customerpaymentmethods    | Met deze sjabloon worden gegevens over de betalingsmethoden van klanten gesynchroniseerd.
 Klanten V3                | rekeningen                        | Met deze sjabloon worden klantmodelgegevens voor commerciële en organisatorische klanten gesynchroniseerd.
 Klanten V3                | contacten                        | Met deze sjabloon worden klantmodelgegevens voor consumenten en eindgebruikers gesynchroniseerd.
-Loyaliteitskaart                | msdyn_loyaltycards              | Met deze sjabloon worden loyaliteitskaartgegevens voor klanten gesynchroniseerd.
 Voor- en achtervoegsel naam                | msdyn_nameaffixes               | Met deze sjabloon worden referentiegegevens over voor- en achtervoegsels van namen voor zowel klanten als leveranciers gesynchroniseerd.
 Betalingsdagregels CDS V2    | msdyn_paymentdaylines           | Met deze sjabloon worden referentiegegevens over betalingsdagregels voor zowel klanten als leveranciers gesynchroniseerd.
 Betalingsdagen CDS            | msdyn_paymentdays               | Met deze sjabloon worden referentiegegevens over betalingsdagen voor zowel klanten als leveranciers gesynchroniseerd.
@@ -78,8 +76,6 @@ Betalingstermijnen            | msdyn_paymentterms              | Met deze sjabl
 [!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
 
 [!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
 

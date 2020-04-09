@@ -1,5 +1,5 @@
 ---
-title: Onkostenworkflow
+title: Werkstroom voor onkostenbeheer
 description: In dit onderwerp wordt uitgelegd hoe u het workflowsysteem in Microsoft Dynamics 365 Finance kunt gebruiken om een beoordelingsproces voor onkostenrapporten in Onkostenbeheer in te stellen.
 author: ShylaThompson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c52915860709e38013ec06204c52bb06de417eb1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5207be92cb58d8ab2658096b3e0f3fc81d73d91e
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187585"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3153966"
 ---
-# <a name="expense-workflow"></a>Onkostenworkflow
+# <a name="expense-management-workflow"></a>Werkstroom voor onkostenbeheer
 
 [!include [banner](../includes/banner.md)]
 

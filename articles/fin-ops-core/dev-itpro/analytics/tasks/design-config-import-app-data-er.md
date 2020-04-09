@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26a3dee8b73ae710def7e526ceefa7194171d716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a261acee47c6d52e3a1390d0e55cb3f9d197efec
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182664"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142230"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>ER-configuraties ontwerpen voor het parseren van inkomende documenten
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Deze procedure toont aan hoe u ER-configuraties (Elektronische rapportage) ontwerpt om een inkomend elektronisch document te parseren. In deze procedure importeert u de vereiste ER-indelingsconfiguraties die zijn gemaakt voor het voorbeeldbedrijf Litware, Inc., en gebruikt u deze vervolgens voor het parseren van inkomende elektronische documenten. Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure 'ER Een configuratieprovider maken en deze als actief markeren' voltooien.
+Deze procedure toont aan hoe u ER-configuraties (Elektronische rapportage) ontwerpt om een inkomend elektronisch document te parseren. In deze procedure importeert u de vereiste ER-indelingsconfiguraties die zijn gemaakt voor het voorbeeldbedrijf Litware, Inc., en gebruikt u deze vervolgens voor het parseren van inkomende elektronische documenten. Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure "ER Een configuratieprovider maken en deze als actief markeren" voltooien.
 
 Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembeheerder of Elektronische aangifteontwikkelaar. 
 
-Deze stappen kunnen worden voltooid met elke dataset. Voordat u begint, downloadt u de bestanden die worden vermeld in het onderwerp 'Inkomende documenten parseren om toepassingsgegevens bij te werken' (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)) en slaat u deze op. De bestanden zijn: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Deze stappen kunnen worden voltooid met elke dataset. Voordat u begint, downloadt u de bestanden die worden vermeld in het onderwerp "Inkomende documenten parseren om toepassingsgegevens bij te werken" (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents) en slaat u deze op. De bestanden zijn: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
-    * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als Actief. Als u deze configuratieprovider niet ziet, voert u eerst de stappen uit in de procedure 'Een configuratieprovider maken en deze als actief markeren'.  
+    * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als Actief. Als u deze configuratieprovider niet ziet, voert u eerst de stappen uit in de procedure "Een configuratieprovider maken en deze als actief markeren".  
 2. Klik op Rapportconfiguraties.
     * Het volgende scenario wordt gebruikt voor het weergeven van de parseermogelijkheden van inkomende elektronische documenten in de XML-indeling: ERP-toepassing vraagt gegevens op van de webservice (bijvoorbeeld http://efsta.org/fiscale EFSTA-service) en parseert de inkomende antwoorden om de toepassingsgegevens dienovereenkomstig bij te werken. Er wordt één ER-indeling gebruikt om zo efficiënt mogelijk te parseren, ondanks de verschillende structuur van de verwachte inkomende documenten in XML-indeling.   
 
@@ -72,7 +72,7 @@ Importeer de ER-modelconfiguratie waarin het voorbeeldgegevensmodel is ontworpen
 21. Vouw in de structuur 'Indeling\Antwoorden: Case(Responses)' uit.
     * Controleer de structuur van de ‘indeling’-gegevensbron. Houd er rekening mee dat alle drie antwoordtypen afzonderlijk worden aangeboden.   
 22. Selecteer in de structuur 'Indeling\Antwoorden: Case(Responses)\aType'.
-    * Het gegevensbronitem ‘aType’ is toegevoegd om het antwoordtype aan te geven en is afhankelijk van het gegevensmodelitem ‘Type’.  
+    * Het gegevensbronitem 'aType' is toegevoegd om het antwoordtype aan te geven en is afhankelijk van het gegevensmodelitem 'Type'.  
 23. Klik op het tabblad Validaties.
 24. Selecteer in de structuur 'Type = format.Responses.aType'.
     * Houd er rekening mee dat de ER-validatie is geconfigureerd om de gebruiker te informeren over de situatie wanneer de antwoordstructuur niet overeenkomt met de bevestiging over de indiening van de transactie of de informatie over de laatst ingediende transactie (aanvraag met niet-ondersteund antwoord).   

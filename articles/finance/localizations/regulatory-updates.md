@@ -3,7 +3,7 @@ title: Wettelijk voorgeschreven updates
 description: Dit onderwerp bevat een lijst van geplande updates en vrijgegeven reglementaire updates voor Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 03/09/2020
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2aea83f99c7e5b017ae0cf9d755882739e22ccb7
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: f35ab4b3ad49edfd0b68f906f44b8a2b04787f1a
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3112750"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161800"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -42,34 +42,38 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 
 |Land/regio|Geplande vrijgavedatum:|Versie van release|Wettelijke update|
 |--------------------|---------------|-------|-------|
-|      Brazilië         |   Maart 2020 - Januari 2020      | 10.0.9, 10.0.8      |   DRCST SC – Ordinance SEF Nº 416    |
-|      Brazilië         |   Maart 2020 - januari 2020     | 10.0.9, 10.0.8      |   SPED-bijdrage - Indeling voor jan-2020    |
+|      Brazilië         |   April 2020 - januari 2020      | 10.0.10, 10.0.9HF, 10.0.8HF      |   DRCST SC – Ordinance SEF Nº 416    |
+|      Brazilië         |   2020 april      | 10.0.10      |   SPED Contribuições (PIS/COFINS) - Blokken M115 en M515    |
+|      Brazilië         |   2020 april      | 10.0.10      |   Sneller bijdragen: records C100 en D100 worden bijgewerkt wanneer het krediet niet kan worden teruggevorderd    |
+|      Brazilië         |   April 2020 - januari 2020     | 10.0.10, 10.0.9HF, 10.0.8HF      |   SPED-bijdrage - Indeling voor jan-2020    |
 |      Brazilië         |   2020 maart       | 10.0.9      |   SPED Fiscal - wijzigingen in record D100 veld COD_MUN_ORI    |
 |      Brazilië         |   Maart 2020 - Januari 2020       | 10.0.9, 10.0.8      |   DRCST SC – Ordinance SEF Nº 254/19    |
 |      Brazilië         |   2020 januari       | 10.0.8      |   Aanvullende informatie over ICMS-ST    |
-|      Brazilië        |   Maart 2020 - Januari 2020       | 10.0.9, 10.0.8HF      |   SPED fiscale indeling 014 |
-|      Brazilië          |   Maart 2020 - Januari 2020       | 10.0.9, 10.0.8HF      |   DRCST SC – Ordinance SEF Nº 343DR   |
-|      Frankrijk          |   2020 maart       | 10.0.9      |   Franse lokalisatie: ISO 20022-indeling voor internationale betaling en treasury-overboeking   |
-|      Hongarije          |   2020 maart       | 10.0.9, 10.0.8      |   Online factureringssysteem v. 2.0 in Finance and Operations    |
-|      India          |   2020 maart       | 10.0.9      |   Nieuwe GSTR (ANX-1 en ANX-2) offline tool retourneren   |
-|      Italië          |   2020 januari       | 10.0.8      |   Wijzigingen in btw-beheer door D.L. 119 van 23 oktober 2018: Jaarlijkse belastingaangifte |
-|      Italië         |   2020 maart     | 10.0.9, 10.0.8HF      |   Retail - Klantgegevens in beheren in POS |
+|      Brazilië         |   Maart 2020 - Januari 2020       | 10.0.9, 10.0.8HF      |   SPED fiscale indeling 014 |
+|      Brazilië         |   Maart 2020 - Januari 2020       | 10.0.9, 10.0.8HF      |   DRCST SC – Ordinance SEF Nº 343DR   |
+|      Frankrijk         |   2020 april       | 10.0.10      |   Aangifte van juridische kosten bij belastingdienst voor zelfstandigen (DAS2)    |
+|      Frankrijk         |   2020 maart       | 10.0.9      |   Franse lokalisatie: ISO 20022-indeling voor internationale betaling en treasury-overboeking    |
+|      India         |   2020 maart      | 10.0.9      |   Nieuwe GSTR (ANX-1 en ANX-2) offline tool retourneren    |
+|      Italië         |   2020 januari      | 10.0.8      |   Wijzigingen in btw-beheer door D.L. 119 van 23 oktober 2018: Jaarlijkse belastingaangifte    |
+|      Italië         |   2020 maart      | 10.0.9, 10.0.8HF      |   Retail - Klantgegevens in beheren in POS |
 |      Italië         |   2020 maart      | 10.0.9, 10.0.8HF      |   Retail - klantgegevens in fiscaal ontvangstbewijs afdrukken |
 |      Japan          |   2020 maart     | 10.0.9, 10.0.8HF     |   Japanse Banks Association vervangt JBA-betalingsindelingen met vaste lengte door ISO20022 |
 |      Japan          |   2020 januari      | 10.0.8       |   Wijziging in tarief verbruiksbelasting en verlaagd belastingtarief worden ingevoerd (Verbruiksbelastingrapport) |
 |      Mexico          |   2020 januari     | 10.0.8        |   Detailhandel - CFDI algemeen: div. opl. 2019 - c_CodigoPostal en tijdzone |
 |      Mexico           |   2020 januari       | 10.0.8     |   Codevalidatie in product- en servicecatalogus |
+|      Nederland          |   2020 april   | 10.0.10     |   Nieuwe versie Nederlandse taxonomie - NT14 |
 |      Noorwegen          |   2020 maart   | 10.0.9, 10.0.8HF     |   SAF-T XSD-update naar versie 1.1 voor Dynamics 365 for Finance and Operations |
 |      Polen          |   2020 maart    | 10.0.9     |   Btw-inkoopregister en SAF btw-inkoopregister: aangepast agentschap van SAD-documenten moet worden vervangen door naam van derde partij en nummer van btw-vrijstelling |
 |      Polen          |   Maart 2020 - Januari 2020   | 10.0.9, 10.0.8HF     |   Retail - Klantgegevens in beheren in POS |
 |      Polen          |   Maart 2020 - Januari 2020     | 10.0.9, 10.0.8HF     |   Retail - klantgegevens in fiscaal ontvangstbewijs afdrukken |
 |      Polen          |   Maart 2020 - Januari 2020     | 10.0.9, 10.0.8     |   SAF-facturen (JPK_FA) v.3 van 2 december 2019 |
-|      Polen          |   Maart 2020 - Januari 2020     | 10.0.9, 10.0.8     |   JPK_VDEK vervangt JPK_VAT (SAF-btw) |
+|      Polen          |   April 2020 - januari 2020     | 10.0.10, 10.0.9, 10.0.8     |   JPK_VDEK vervangt JPK_VAT (SAF-btw) |
 |      Rusland          |   2020 maart     | 10.0.9     |   Indeling van aangifte van onroerendgoedbelasting voor aangifte in 2019 |
 |      Rusland          |   2020 maart     | 10.0.9     |   Updates voor de indeling van aangifte winstbelasting |
 |      Singapore           |   2020 januari     | 10.0.8      |   GST-retourrapport |
 |      Zwitserland           |   2020 maart     | 10.0.9      |   Zwitserse betalingsbon ISR krijgt nieuwe indeling (QR-code) |
-|      Verenigd Koninkrijk          |   2020 januari       | 10.0.8      |   Belasting digitaal maken - Toestemming van systeembeheerder om informatie buiten D365 te verzenden met behulp van de integratie met HMRC |
+|      Verenigd Koninkrijk           |   2020 april     | 10.0.10      |   Aanvullend pakket ter preventie van fraude voor MTD |
+|      Verenigd Koninkrijk         |   2020 januari      | 10.0.8      |   Belasting digitaal maken - Toestemming van systeembeheerder om informatie buiten D365 te verzenden met behulp van de integratie met HMRC    |
 
 
 

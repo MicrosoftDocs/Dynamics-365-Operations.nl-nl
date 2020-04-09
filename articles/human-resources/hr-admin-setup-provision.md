@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092241"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138354"
 ---
 # <a name="provision-human-resources"></a>Human resources inrichten
 
@@ -56,7 +56,7 @@ Nadat u een LCS-project hebt gemaakt, kunt u Human Resources inrichten in een om
 2. Geef aan of dit een sandbox- of productie-exemplaar van Human Resources is. Vroege previewfuncties kunnen beschikbaar zijn in sandbox-exemplaren om in een vroeg stadium feedback te krijgen en tests uit te voeren.
    
     > [!NOTE]
-    > Het exemplaartype voor Talent kan niet meer dan één keer worden gewijzigd. Controleer of het juiste exemplaartype is geselecteerd voordat u doorgaat.</br></br>
+    > Het exemplaartype voor Human Resources kan niet meer dan één keer worden gewijzigd. Controleer of het juiste exemplaartype is geselecteerd voordat u doorgaat.</br></br>
     > Het Human Resources-exemplaar type staat los van het exemplaartype van de Microsoft Power Apps-omgeving dat u instelt in het Power Apps-beheercentrum.
     
 3. Selecteer de optie **Demogegevens opnemen** als u wilt dat in uw omgeving dezelfde demogegevensset wordt opgenomen die is gebruikt in de Human Resources-testdrive. Dit is nuttig voor de langetermijndemo of -trainingsomgevingen en mag nooit worden gebruikt voor productieomgevingen.  Houd er rekening mee dat u deze optie bij de aanvankelijke implementatie moet kiezen. U kunt een bestaande implementatie niet later bijwerken.
@@ -74,7 +74,7 @@ Nadat u een LCS-project hebt gemaakt, kunt u Human Resources inrichten in een om
     > [!NOTE]
     > Als u de definitieve vereisten nog niet hebt goedgekeurd, kunt u een testexemplaar van Human Resources in het project implementeren. Vervolgens kunt u deze instantie gebruiken om uw oplossing te testen tot u uw goedkeuring geeft. Als u uw nieuwe omgeving voor tests gebruikt, moet u deze procedure herhalen om een productieomgeving te maken.
 
-    > Omdat er slechts twee LCS-omgevingen zijn toegestaan als onderdeel van het Human Resources-abonnement, kunt u ook overwegen gebruik te maken van gratis 60 dagen [Human Resources-proefomgeving](https://dynamics.microsoft.com/talent/overview/). Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor Human Resources. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Ze zijn niet bedoeld als productieomgevingen. Wanneer een proefomgeving na 60 dagen verloopt, worden alle gegevens erin permanent verwijderd. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
+    > U kunt overwegen een gratis [proefomgeving van Human Resources](https://dynamics.microsoft.com/talent/overview/) van 60 dagen te gebruiken. Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor Human Resources. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Ze zijn niet bedoeld als productieomgevingen. Wanneer een proefomgeving na 60 dagen verloopt, worden alle gegevens erin permanent verwijderd. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
 
 ## <a name="select-a-power-apps-environment"></a>Een Power Apps-omgeving selecteren
 
@@ -97,7 +97,10 @@ Gebruik de volgende richtlijnen bij het bepalen in welke Power Apps-omgeving u H
     - **Proefomgevingen** - deze omgevingen worden gemaakt met een vervaldatum en verlopen na die tijd, waardoor uw omgeving en alle Human Resources-exemplaren in de omgeving automatisch worden verwijderd.
    
     - **Niet-ondersteunde regio's** - momenteel wordt Human Resources alleen ondersteund in de volgende gebieden: Verenigde Staten, Europa, Verenigd Koninkrijk, Australië, Canada en Azië.
-  
+
+    > [!NOTE]
+    > De Human Resources-omgeving wordt ingericht in de regio waarin de Power Apps-omgeving is ingericht. Het migreren van een Human Resources-omgeving naar een andere regio wordt niet ondersteund.
+
 6. Nadat u hebt vastgesteld welke omgeving de juiste is om te gebruiken, kunt u doorgaan met het inrichtingsproces. 
  
 ## <a name="grant-access-to-the-environment"></a>Toegang verlenen tot de omgeving

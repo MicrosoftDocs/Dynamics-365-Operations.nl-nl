@@ -16,16 +16,16 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3412b4f9b2d25072628eb50f5c763f5a7bce793
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 23b85dc016fe103fbfcc41b344cbc897a5c68365
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551167"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144297"
 ---
 # <a name="adjust-project-transactions"></a>Projecttransacties corrigeren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In deze taakbegeleiding wordt beschreven hoe u een transactie voor een project corrigeert. U kunt projecttransacties echter een voor een corrigeren of selecteren in een lijst met alle projecttransacties. Deze taak wordt meestal uitgevoerd door de projectsupervisor. In deze taakbegeleiding wordt de gegevensset van USSI gebruikt.
 

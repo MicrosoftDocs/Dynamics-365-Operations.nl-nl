@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e1811915d2e88379884f409a533b9eb2deaa97e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e4c2a88d42626082216d77fb39f2ac1dc79be719
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843980"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147222"
 ---
 # <a name="activate-a-production-flow-version"></a>Een productiestroomversie activeren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Voordat kanbantaken kunnen worden gemaakt en activiteiten kunnen worden verwerkt voor een productiestroomversie, moet u de versie activeren. Als best practice activeert u de versie voordat de ingangsdatum en -tijd zijn verlopen. Als u deze taak wilt uitvoeren, moet u een productiestroomversie met de status Concept hebben om de versie te kunnen activeren. 
 

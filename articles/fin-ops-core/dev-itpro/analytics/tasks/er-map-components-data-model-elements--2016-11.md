@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: e77de79113e3f44da1d7f92f17a446df86f6852e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026235"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143025"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER: onderdelen van de nieuwe indeling toewijzen aan gegevensmodelelementen (november 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder of de ER-ontwikkelaar elementen van gegevensmodellen kan toewijzen aan onderdelen van de gemaakte ER-configuratie, waarin een elektronisch document voor het zakelijk domein van betalingen wordt gedefinieerd. Met deze indeling worden later elektronische documenten gegenereerd voor de verwerking van betalingen. In dit voorbeeld maakt u een indelingsconfiguratie voor het voorbeeldbedrijf Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd wanneer ER-configuraties tussen alle bedrijven worden gedeeld. Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de taakbegeleiding 'Een indelingsconfiguratie maken' uitvoeren.
+In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder of de ER-ontwikkelaar elementen van gegevensmodellen kan toewijzen aan onderdelen van de gemaakte ER-configuratie, waarin een elektronisch document voor het zakelijk domein van betalingen wordt gedefinieerd. Met deze indeling worden later elektronische documenten gegenereerd voor de verwerking van betalingen. In dit voorbeeld maakt u een indelingsconfiguratie voor het voorbeeldbedrijf 'Litware, Inc.'. Deze stappen kunnen in elk bedrijf worden uitgevoerd wanneer ER-configuraties tussen alle bedrijven worden gedeeld. Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de taakbegeleiding "Een indelingsconfiguratie maken" uitvoeren.
 
 
 ## <a name="select-a-format-configuration"></a>Een indelingsconfiguratie selecteren

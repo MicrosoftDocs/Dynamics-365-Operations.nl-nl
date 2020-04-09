@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a4c7341941df3ba7bf0a0dfeef8cb3009726838e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772458"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142703"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>De toepassingsmetagegevens gebruiken met de ER‑configuratie
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configuration Service (RCS) in de rol van systeembeheerder of ER-ontwikkelaar een nieuwe ER-modeltoewijzing kan maken met gebruik van de metagegevens van de toepassing. De metagegevens van de toepassing worden benaderd via een ER-metagegevensconfiguratie die een voorbeeldset bevat van metagegevens voor de toegang tot buitenlandse handelstransacties. Als u deze stappen wilt uitvoeren, moet u eerst in RCS de stappen voltooien in het onderwerp [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md)‑procedure. Voer vervolgens de stappen uit in het onderwerp, [Toepassingsmetagegevens voorbereiden voor gebruik in RCS](prepare-application-metadata-rcs.md).
 
@@ -52,28 +52,28 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 7. Typ het veld **Naam** 'Basis'. 
 8. Klik op **Toevoegen**. 
 9. Klik op **Nieuw** om het uitklapdialoogvenster te openen. 
-10. Typ 'Transactie' in het veld **Naam**. 
-11. Selecteer in het veld **Itemtype** **Recordlijst**. 
-12. Klik op **Toevoegen**. 
-13. Klik op **Nieuw** om het uitklapdialoogvenster te openen. 
-14. Typ 'Code basisproduct' in het veld **Naam**. 
-15. Selecteer in het veld **Itemtype** **Tekenreeks**. 
-16. Klik op **Toevoegen**. 
-17. Klik op **Nieuw** om het uitklapdialoogvenster te openen. 
-18. Typ 'Gefactureerd bedrag' in het veld **Naam**. 
-19. Selecteer in het veld **Itemtype** **Werkelijk**. 
-20. Klik op **Toevoegen**. 
-21. Klik op **Nieuw** om het uitklapdialoogvenster te openen. 
-22. Typ 'Datum' in het veld **Naam**. 
-23. Selecteer in het veld **Itemtype** **Datum**. 
-24. Klik op **Toevoegen**. 
-25. Klik op **Basisverwijzing**. 
-26. Klik op **OK**. 
-27. Klik op **Opslaan**. 
-28. Sluit de pagina. 
-29. Klik op **Status wijzigen**. 
-30. Klik op **Voltooien**. 
-31. Klik op **OK**. 
+10.    Typ 'Transactie' in het veld **Naam**. 
+11.    Selecteer in het veld **Itemtype** **Recordlijst**. 
+12.    Klik op **Toevoegen**. 
+13.    Klik op **Nieuw** om het uitklapdialoogvenster te openen. 
+14.    Typ 'Code basisproduct' in het veld **Naam**. 
+15.    Selecteer in het veld **Itemtype** **Tekenreeks**. 
+16.    Klik op **Toevoegen**. 
+17.    Klik op **Nieuw** om het uitklapdialoogvenster te openen. 
+18.    Typ 'Gefactureerd bedrag' in het veld **Naam**. 
+19.    Selecteer in het veld **Itemtype** **Werkelijk**. 
+20.    Klik op **Toevoegen**. 
+21.    Klik op **Nieuw** om het uitklapdialoogvenster te openen. 
+22.    Typ 'Datum' in het veld **Naam**. 
+23.    Selecteer in het veld **Itemtype** **Datum**. 
+24.    Klik op **Toevoegen**. 
+25.    Klik op **Basisverwijzing**. 
+26.    Klik op **OK**. 
+27.    Klik op **Opslaan**. 
+28.    Sluit de pagina. 
+29.    Klik op **Status wijzigen**. 
+30.    Klik op **Voltooien**. 
+31.    Klik op **OK**. 
 
 ## <a name="create-model-mapping-configuration"></a>Configuratie modeltoewijzing maken 
 1. Klik op **Configuratie maken** om het dialoogvenster voor beëindigen te openen. 
@@ -85,43 +85,43 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 7. Klik op **Nieuw**. 
 8. Markeer in de lijst de geselecteerde rij. 
 9. Selecteer in het veld **Vereist onderdeeltype** **Configuratie**. 
-10. Selecteer configuratie **Metagegevens buitenlandse handel**. 
-11. Klik op **Opslaan**. 
-12. De verwijzing naar versie 1 van de configuratie van de 'Metagegevens buitenlandse handel' is toegevoegd. De metagegevens van de toepassing van deze configuratie worden aangeboden wanneer deze modeltoewijzing wordt ontworpen. 
-13. Sluit de pagina. 
-14. Klik op **Ontwerper**. 
-15. Klik op **Ontwerper**. 
-16. Selecteer in de structuur **Dynamics 365 for Operations'\Tabelrecords**. 
-17. Klik op **Basis toevoegen**. 
-18. Typ 'intrastat' in het veld **Naam**. 
-19. Selecteer **Intrastat** tabelrecords. 
-20. Klik op **OK**. 
+10.    Selecteer configuratie **Metagegevens buitenlandse handel**. 
+11.    Klik op **Opslaan**. 
+12.    De verwijzing naar versie 1 van de configuratie van de 'Metagegevens buitenlandse handel' is toegevoegd. De metagegevens van de toepassing van deze configuratie worden aangeboden wanneer deze modeltoewijzing wordt ontworpen. 
+13.    Sluit de pagina. 
+14.    Klik op **Ontwerper**. 
+15.    Klik op **Ontwerper**. 
+16.    Selecteer in de structuur **Dynamics 365 for Operations'\Tabelrecords**. 
+17.    Klik op **Basis toevoegen**. 
+18.    Typ 'intrastat' in het veld **Naam**. 
+19.    Selecteer **Intrastat** tabelrecords. 
+20.    Klik op **OK**. 
 
 > [!NOTE]
 > De enige twee tabellen zijn aangeboden, omdat de enige twee tabellen zijn toegevoegd aan de set metagegevens die momenteel in gebruik zijn. 
 
-21. Klik op **Binden**. 
-22. Vouw in de structuur **Intrastat** uit. 
-23. Selecteer **Intrastat\BedragMST** in de structuur. 
-24. Vouw in de structuur **Transactie = Intrastat** uit. 
-25. Selecteer in de structuur **Transacties = Intrastat\Gefactureerd bedrag**. 
-26. Klik op **Binden**. 
-27. Selecteer **Intrastat\TransDatum** in de structuur. 
-28. Selecteer **Transactie = Intrastat\Datum** in de structuur. 
-29. Klik op **Binden**. 
-30. Vouw in de structuur **Intrastat\>Relaties** uit. 
-31. Vouw in de structuur **Intrastat\>Relaties\IntrastatBasisproduct** uit. 
-32. Selecteer in de structuur **Intrastat\>Relaties\IntrastatBasisproduct\Code**. 
-33. Selecteer in de structuur **Transacties = Intrastat\Basisproductcode**. 
-34. Klik op **Binden**. 
-35. Klik op **Valideren**. 
+21.    Klik op **Binden**. 
+22.    Vouw in de structuur **Intrastat** uit. 
+23.    Selecteer **Intrastat\BedragMST** in de structuur. 
+24.    Vouw in de structuur **Transactie = Intrastat** uit. 
+25.    Selecteer in de structuur **Transacties = Intrastat\Gefactureerd bedrag**. 
+26.    Klik op **Binden**. 
+27.    Selecteer **Intrastat\TransDatum** in de structuur. 
+28.    Selecteer **Transactie = Intrastat\Datum** in de structuur. 
+29.    Klik op **Binden**. 
+30.    Vouw in de structuur **Intrastat\>Relaties** uit. 
+31.    Vouw in de structuur **Intrastat\>Relaties\IntrastatBasisproduct** uit. 
+32.    Selecteer in de structuur **Intrastat\>Relaties\IntrastatBasisproduct\Code**. 
+33.    Selecteer in de structuur **Transacties = Intrastat\Basisproductcode**. 
+34.    Klik op **Binden**. 
+35.    Klik op **Valideren**. 
 
 > [!NOTE]
 > We hebben elementen van het gegevensmodel gebonden met items van gegevensbronnen die worden beschreven met behulp van toepassingsmetagegevens van de ER metagegevensconfiguratie waarnaar wordt verwezen. 
-36. Klik op **Opslaan**. 
-37. Sluit de pagina. 
-38. Sluit de pagina. 
-39. Indien nodig kunt u de bestaande set metagegevens uitbreiden en vervolgens de nieuwe, voltooide versie van de ER-metagegevensconfiguratie exporteren. U kunt deze vervolgens importeren in RCS en de vereisten van de geconfigureerde configuratie van de modeltoewijzing bijwerken naar een nieuwe versie van de geïmporteerde metagegevensconfiguratie. 
+36.    Klik op **Opslaan**. 
+37.    Sluit de pagina. 
+38.    Sluit de pagina. 
+39.    Indien nodig kunt u de bestaande set metagegevens uitbreiden en vervolgens de nieuwe, voltooide versie van de ER-metagegevensconfiguratie exporteren. U kunt deze vervolgens importeren in RCS en de vereisten van de geconfigureerde configuratie van de modeltoewijzing bijwerken naar een nieuwe versie van de geïmporteerde metagegevensconfiguratie. 
 
 > [!NOTE]
 > Deze manier om informatie op te halen over de metagegevens van de toepassing is de enige die beschikbaar is voor lokaal geïmplementeerde toepassingen (wanneer een LBD (Local Business Data) of on-premises implementatiemodel wordt gebruikt).

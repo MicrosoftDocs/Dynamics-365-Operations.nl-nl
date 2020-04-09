@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de075899547d194fb9eb0e68947efd005c101851
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 1a52a7dd3b31c0189577422a79d47b318aae4a05
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550689"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141989"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 5: Indeling aanpassen en uitvoeren)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de Documentbeheerbestanden (bijlagen) in ER-uitvoer. Deze stappen kunnen in het DEMF-bedrijf worden uitgevoerd.
 
-Om deze stappen uit te voeren, moet u eerst de stappen uitvoeren in de procedure 'ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 4: Indeling uitvoeren)'.
+Om deze stappen uit te voeren, moet u eerst de stappen uitvoeren in de procedure "ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 4: Indeling uitvoeren)".
 
 Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
@@ -91,7 +91,7 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 2. Vouw de records uit zodat de sectie () is opgenomen.
 3. Klik op Filter.
 4. Selecteer de rij van het Klantfacturenjournaal en het veld Verkooporder.
-5. Type in het veld Criteria in het veld met criteria voor “Verkooporder” het ordernummer 000148.
+5. Type in het veld Criteria in het veld met criteria voor "Verkooporder" het ordernummer 000148.
     * 000148  
 6. Klik op OK.
 7. Klik op OK.

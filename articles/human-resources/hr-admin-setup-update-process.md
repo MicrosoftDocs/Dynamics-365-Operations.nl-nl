@@ -3,7 +3,7 @@ title: Het updateproces
 description: Microsoft Dynamics 365 Human Resources is echt software in de vorm van een service (SaaS) die voortdurende 'touchless' updates verzorgt met wijzigingen in toepassingen en platforms.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -16,14 +16,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 267682f4497bacf70f93840a948d0e525dfa4aa1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 424027e82717b8636d59289b28978d6ce3c6db4d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092196"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154500"
 ---
 # <a name="update-process"></a>Het updateproces
 
@@ -37,52 +37,39 @@ Er worden regelmatig updates uitgebracht voor alle omgevingen. Human Resources w
 
 Human Resources-updates worden automatisch op alle omgevingen toegepast. Human Resources biedt twee typen releases:
 
-- **Service-updates**: wekelijkse updates die correcties en nieuwe functies bevatten. Service-updates bevatten ook toepasselijke platformupdates wanneer ze worden uitgebracht. Zie [Tabel 3: platform-releases](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases) om na te gaan wanneer platform-updates gewoonlijk worden uitgebracht. Wekelijkse updates worden doorgaans uitgebracht op woensdagen. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/talent/whats-new) voor meer informatie over wekelijkse updates.
+- **Service-updates**: tweewekelijkse updates die correcties en nieuwe functies bevatten. Service-updates bevatten ook toepasselijke platformupdates wanneer ze worden uitgebracht. Zie [Tabel 3: platform-releases](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases) om na te gaan wanneer platform-updates gewoonlijk worden uitgebracht. Tweewekelijkse updates bieden een gefaseerde globale implementatie tussen regio's. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](hr-admin-whats-new.md) voor meer informatie over tweewekelijkse updates.
 
-    Alle ondersteunde gegevenscentra worden wekelijks bijgewerkt, tenzij anders aangegeven. Wekelijkse updates beginnen doorgaans op woensdag en worden op zondag voltooid. In de volgende regio's worden wekelijkse updates uitgebracht: Verenigde Staten, Australië, Europa, Groot-Brittannië, Azië en Canada. 
+    Alle ondersteunde gegevenscentra worden tweewekelijks bijgewerkt, tenzij anders aangegeven. In de volgende regio's worden tweewekelijkse updates uitgebracht: Verenigde Staten, Australië, Europa, Groot-Brittannië, Azië en Canada. 
 
-- **Common Data Service-oplossingsupdates**: deze updates worden ongeveer om de zes weken uitgevoerd, indien nodig. Deze bevatten nieuwe entiteiten en wijzigingen in bestaande entiteiten in Common Data Service. Deze updates worden in dezelfde regio's uitgebracht als de wekelijkse updates en het duurt ongeveer zes weken voordat ze door alle datacentra zijn gerepliceerd. Oplossingsupdates kunnen al dan niet samenvallen met wekelijkse service-updates.
-
-In de volgende tabel ziet u een voorbeeldschema:
-
-| Week | Bijwerkingstype |
-| --- | --- |
-| 1 | Service-update (alle regio's) |
-| 2 | Service-update (alle regio's) + oplossingsupdate (Week 1-regio's) |
-| 3 | Service-update (alle regio's) + oplossingsupdate (Week 2-regio's) |
-| 4 | Service-update (alle regio's) + oplossingsupdate (Week 3-regio's) |
-| 5 | Service-update (alle regio's) + oplossingsupdate (Week 4-regio's) |
-| 6 | Service-update (alle regio's) + oplossingsupdate (Week 5-regio's) |
-| 7 | Service-update (alle regio's) + oplossingsupdate (Week 6-regio's) |
-| 8 | Service-update (alle regio's) |
+- **Common Data Service-oplossingsupdates**: deze updates worden ongeveer om de zes weken uitgevoerd, indien nodig. Deze bevatten nieuwe entiteiten en wijzigingen in bestaande entiteiten in Common Data Service. Deze updates worden in dezelfde regio's uitgebracht als de tweewekelijkse updates en het duurt ongeveer zes weken voordat ze door alle datacentra zijn gerepliceerd. Oplossingsupdates kunnen al dan niet samenvallen met tweewekelijkse service-updates.
 
 > [!NOTE]
 > Oplossingsupdates zijn beschikbaar in alle datacentra zodra deze zijn uitgebracht. Als u niet wilt wachten totdat de updates automatisch worden gerepliceerd, kunt u deze updates handmatig toepassen op elke willekeurige omgeving in elk datacentrum.
 
 Indien nodig biedt Human Resources ook de volgende typen oplossingen:
 
-- **Revisie (hotfix)**: foutcorrecties die kunnen optreden samen met, of los van, een wekelijkse service-updaterelease
+- **Revisie (hotfix)**: foutcorrecties die kunnen optreden samen met, of los van, een tweewekelijkse service-updaterelease
 
-- **Noodoplossing**: proactieve en reactieve hotfixes die zelfstandig zijn, kunnen alleen configuratiewijzigingen of ook codewijzigingen bevatten om problemen met live-sites op te lossen en kunnen los van een wekelijkse service-updaterelease optreden
+- **Noodoplossing**: proactieve en reactieve hotfixes die zelfstandig zijn, kunnen alleen configuratiewijzigingen of ook codewijzigingen bevatten om problemen met live-sites op te lossen en kunnen los van een tweewekelijkse service-updaterelease optreden
 
 Releases worden beoordeeld, getest en gevalideerd in een interne omgeving. Nadat de builds zijn afgemeld, worden ze geïmplementeerd voor productie.
 
-## <a name="exceptions-in-2019"></a>Uitzondering in 2019
+## <a name="release-cadence-exceptions-in-2020"></a>Uitzonderingen in releasetempo in 2020
 
 De volgende datums zijn uitzonderingen op de normale releaseplanning:
 
-| Datum | Beschrijving |
+| Datum | Omschrijving |
 | --- | --- |
-| Week van 25 november | Geen updates |
-| Week van 16 december | Alleen kleine updates |
-| Week van 23 december | Geen updates |
-| Week van 30 december | Geen updates |
+| Week van 23 november | Geen updates |
+| Week van 14 december | Alleen kleine updates |
+| Week van 21 december | Geen updates |
+| Week van 28 december | Geen updates |
 
 ## <a name="communications"></a>Berichtgeving
 
 Op de volgende locaties kunt u nagaan wat er is gepland voor Human Resources en wat we hebben uitgebracht:
 
-- [Dynamics 365 Human Resources-roadmap](https://dynamics.microsoft.com/roadmap/talent/)
+- [Dynamics 365 Human Resources-roadmap](https://dynamics.microsoft.com/roadmap/human-resources/)
 
 - [Dynamics 365-releaseplannen](https://docs.microsoft.com/dynamics365/release-plans/)
 
@@ -114,7 +101,7 @@ Tijdens het testen van preview-functies of het uitproberen van nieuwe mogelijkhe
 
 ## <a name="see-also"></a>Zie ook
 
-- [Releaseplannen voor Dynamics 365 en Power Platform](https://docs.microsoft.com/dynamics365/release-plans)
-- [Nieuwe of gewijzigde functies in Dynamics 365 Human Resource](hr-admin-whats-new.md)
-- [Lifecycle-beleid voor software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Releaseplannen voor Dynamics 365 en Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Nieuwe of gewijzigde functies in Dynamics 365 Human Resource](hr-admin-whats-new.md)</br>
+[Lifecycle-beleid voor software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 

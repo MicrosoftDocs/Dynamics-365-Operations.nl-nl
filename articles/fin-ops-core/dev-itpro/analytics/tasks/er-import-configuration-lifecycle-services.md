@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0830707885e8ed52581aa789df0279d78e3a9c10
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184825"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142381"
 ---
 # <a name="er-import-a-configuration-from-lifecycle-services"></a>Een ER-configuratie vanuit Lifecycle Services importeren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe versie van een ER-configuratie uit Microsoft Lifecycle Services (LCS) kan importeren.
 
@@ -38,13 +38,13 @@ In dit voorbeeld selecteert u de gewenste versie van de ER-configuratie en impor
 1. Selecteer 'Voorbeeldmodelconfiguratie' in de structuur.
     * De eerste versie van een voorbeeldgegevensmodelconfiguratie is gemaakt en gepubliceerd naar LCS tijdens de procedure "Een ER-configuratie naar Lifecycle Services uploaden". In deze procedure verwijdert u deze versie van de ER-configuratie. Deze versie van een voorbeeldgegevensmodelconfiguratie wordt later geïmporteerd vanuit LCS.  
 2. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer de versie van deze configuratie die de status ‘Gedeeld’ heeft. Deze status geeft aan dat de configuratie is gepubliceerd naar LCS.  
+    * Selecteer de versie van deze configuratie die de status 'Gedeeld' heeft. Deze status geeft aan dat de configuratie is gepubliceerd naar LCS.  
 3. Klik op Status wijzigen.
 4. Klik op Beëindigen.
-    * Wijzig de status van de geselecteerde versie van ‘Gedeeld’ in ‘Beëindigd’ om deze voor verwijdering beschikbaar te maken.  
+    * Wijzig de status van de geselecteerde versie van 'Gedeeld' in 'Beëindigd' om deze voor verwijdering beschikbaar te maken.  
 5. Klik op OK.
 6. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer de versie van deze configuratie die de status ‘Beëindigd’ heeft.  
+    * Selecteer de versie van deze configuratie die de status 'Beëindigd' heeft.  
 7. Klik op Verwijderen.
 8. Klik op Ja.
     * De enige conceptversie 2 van de geselecteerde gegevensmodelconfiguratie is beschikbaar.  
@@ -52,7 +52,7 @@ In dit voorbeeld selecteert u de gewenste versie van de ER-configuratie en impor
 
 ## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a>Een gedeelde versie van gegevensmodelconfiguratie importeren vanuit LCS
 1. Markeer in de lijst de geselecteerde rij.
-    * Open de lijst met opslagplaatsen voor de configuratieprovider ‘Litware, Inc.’ Litware, Inc openen.  
+    * Open de lijst met opslagplaatsen voor de configuratieprovider 'Litware, Inc.' Litware, Inc openen.  
 2. Klik op Opslagplaatsen.
 3. Klik op Openen.
     * Selecteer de LCS-opslagplaats en open deze.  
@@ -67,6 +67,6 @@ In dit voorbeeld selecteert u de gewenste versie van de ER-configuratie en impor
 9. Klik op Configuraties.
 10. Selecteer 'Voorbeeldmodelconfiguratie' in de structuur.
 11. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer de versie van deze configuratie die de status ‘Gedeeld’ heeft.  
+    * Selecteer de versie van deze configuratie die de status 'Gedeeld' heeft.  
     * De gedeelde versie 1 van de geselecteerde gegevensmodelconfiguratie is nu ook beschikbaar.  
 

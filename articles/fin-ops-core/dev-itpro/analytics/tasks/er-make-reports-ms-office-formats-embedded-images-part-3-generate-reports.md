@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64fade6578e9cd4f8a51c524e4f6ebbf63b93f20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184756"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143094"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Rapporten genereren in Office-indeling die ingesloten afbeeldingen bevatten
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van 'Systeembeheerder' of 'Elektronische ontwikkelaar' ER-configuraties (Electronic Reporting) kan ontwerpen om elektronische documenten te genereren in MS Office-indelingen (Excel en Word) die ingesloten afbeeldingen bevatten.
 
-In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf Litware, Inc.  Als u deze stappen wilt voltooien, voert u eerst de stappen uit in de taakbegeleiding ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 2: configuraties controleren). Deze stappen kunnen in het USMF-bedrijf worden uitgevoerd.
+In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf 'Litware, Inc.'.  Als u deze stappen wilt voltooien, voert u eerst de stappen uit in de taakbegeleiding "ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 2: configuraties controleren)". Deze stappen kunnen in het 'USMF'-bedrijf worden uitgevoerd.
 
 
 ## <a name="run-format-with-initial-model-mapping"></a>Indeling uitvoeren met initiële modeltoewijzing
@@ -105,7 +105,7 @@ In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf Litw
 9. Klik op Ja.
 10. Klik op Nieuw.
 11. Klik op Bestand.
-    * Klik op Bladeren en selecteer het vooraf gedownloade bestand 'Cheque template Word.docx".  
+    * Klik op Bladeren en selecteer het vooraf gedownloade bestand 'Cheque template Word.docx'.  
 12. Sluit de pagina.
 13. Typ of selecteer een waarde in het veld Sjabloon.
 14. Klik op Opslaan.

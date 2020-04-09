@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 249fde6f7bba5d6e0bc6cfde62fd792dee3f1301
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112415"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172803"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect naar contant geld in twee keer wegschrijven
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 Een belangrijk doel van de meeste bedrijven is het converteren van prospects naar klanten en vervolgens een langdurige zakelijke relatie met deze klanten te onderhouden. In Microsoft Dynamics 365-apps vindt het proces Prospect naar contant geld plaats via offertes of orderverwerkingswerkstromen en worden de financiële gegevens afgestemd en verantwoord. Dankzij de integratie van prospect-naar-contact met twee keer wegschrijven wordt er een workflow gemaakt die een offerte en een order combineert die afkomstig zijn uit Dynamics 365 Sales of Dynamics 365 Supply Chain Management, en worden de offerte en de order beschikbaar gemaakt in beide apps.
 

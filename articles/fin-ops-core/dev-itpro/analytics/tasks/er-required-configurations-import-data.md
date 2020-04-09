@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042868"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143310"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER: vereiste configuraties maken voor het importeren van gegevens uit een extern bestand
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de toepassing kunnen worden geïmporteerd. In dit voorbeeld maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de Taakbegeleiding 'ER Een configuratieprovider maken en deze als actief markeren'. Deze stappen kunnen worden voltooid met de USMF-gegevensset. U moet ook de volgende bestanden downloaden vanaf de koppelingen in het overzichtsonderwerp Electronic Reporting (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de toepassing kunnen worden geïmporteerd. In dit voorbeeld maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de Taakbegeleiding "ER Een configuratieprovider maken en deze als actief markeren". Deze stappen kunnen worden voltooid met de USMF-gegevensset. U moet ook de volgende bestanden downloaden vanaf de koppelingen in het overzichtsonderwerp Electronic Reporting (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
 ER biedt zakelijke gebruikers de mogelijkheid om het proces te configureren voor de import van externe gegevensbestanden in tabellen in de indeling .XML of .TXT. Allereerst moet u een abstract gegevensmodel en een configuratie voor een ER-gegevensmodel opzetten, om de gegevens te vertegenwoordigen die u wilt importeren. Vervolgens moet u de structuur definiëren van het bestand dat u wilt importeren en de methode die u gebruikt om de gegevens van het bestand over te zetten naar het abstracte gegevensmodel. De ER-indelingsconfiguratie die de toewijzing naar het door u ontworpen gegevensmodel bevat, moet voor dat abstracte gegevensmodel worden gemaakt. Vervolgens moet u de gegevensmodelconfiguratie uitbreiden met een toewijzing die beschrijft hoe de geïmporteerde gegevens permanent worden gemaakt als gegevens in het abstracte gegevensmodel en hoe ze worden gebruikt voor het bijwerken van tabellen.  Aan de gegevensmodelconfiguratie van ER moet een nieuwe modeltoewijzing worden toegevoegd, die de binding van het gegevensmodel aan de bestemmingen van de toepassing beschrijft.  
 
@@ -237,7 +237,7 @@ Voer deze toewijzingsindeling uit om te testen. Gebruik het bestand 1099entries.
 19. Sluit de pagina.
 20. Klik op Bewerken.
 
-    Als u de hotfix "KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ) hebt geïnstalleerd, voert u de volgende stap “Turn the flag ‘Default for model mapping’ on” uit voor de opgegeven indelingsconfiguratie. Sla anders de volgende stap over.  
+    Als u de hotfix "KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ) hebt geïnstalleerd, voert u de volgende stap "Turn the flag 'Default for model mapping' on" uit voor de opgegeven indelingsconfiguratie. Sla anders de volgende stap over.  
 
 21. Selecteer in het veld Standaard voor modeltoewijzing de waarde Ja.
 22. Selecteer in de structuur '1099 Payments model'.

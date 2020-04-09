@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769850"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142127"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van Systeembeheerder of Ontwikkelaar voor Elektronische rapportage een nieuwe configuratie voor Elektronische rapportage (ER) kan maken die een sjabloon bevat voor het genereren van elektronische documenten in OPENXML-indeling. Deze configuratie wordt voor de verwerking van leveranciersbetalingen gebruikt.
 
@@ -55,7 +55,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een 
 3. Klik op **Configuratie maken** om het dialoogvenster te openen.
 4. Voer in het veld **Nieuw** `Format based on data model PaymentModel` in. Maak een indeling die op het gegevensmodel PaymentModel is gebaseerd.
 5. Typ in het veld **Naam** `Sample worksheet report`. Voorbeeldwerkbladrapport  
-6. Typ in het veld **Omschrijving** `Sample worksheet report for vendors’ payments`. Voorbeeldwerkbladrapport voor betalingen van leveranciers.  
+6. Typ in het veld **Omschrijving** `Sample worksheet report for vendors' payments`. Voorbeeldwerkbladrapport voor betalingen van leveranciers.  
 7. Typ of selecteer een waarde in het veld **Definitie gegevensmodel**. Selecteer de definitie **CustomerCreditTransferInitiation**.  
 8. Selecteer **Configuratie maken**.
 

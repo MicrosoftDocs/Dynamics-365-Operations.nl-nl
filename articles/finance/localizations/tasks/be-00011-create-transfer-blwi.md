@@ -15,16 +15,16 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14669854a5ef73ea1f0a96ac5997dca69454ff5b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d09feb3d78f4ad4ff8de8fbf564ec7225672e1e9
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183817"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137973"
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Transacties maken en overboeken naar het BLWI (België)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure begeleidt u bij het maken van een BLWI-rapport voor België. Deze procedure is gemaakt met het demogegevensbedrijf USSI. Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres in België hebben. Ook is het nodig om een registratie-id voor België in te stellen en het registratienummer in te vullen, om een BLWI-aangifte te maken.
 

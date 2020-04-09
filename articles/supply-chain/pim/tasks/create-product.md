@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd154aeb037be5ac1062cc12a5911638db5a8239
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 299256dd3eca0488865f42caf31c78cda4328bfb
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003922"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149988"
 ---
 # <a name="create-a-product"></a>Een product maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure doorloopt het maken van een nieuw product in de Commerce-producthiërarchie. Het demobedrijf dat wordt gebruikt om deze taak uit te voeren, is USRT en de taak is bedoeld voor de merchandisingmanager en de productontwerper.
 

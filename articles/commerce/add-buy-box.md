@@ -3,7 +3,7 @@ title: Module voor koopvak
 description: In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025454"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154058"
 ---
 # <a name="buy-box-module"></a>Module voor koopvak
 
@@ -58,7 +58,7 @@ Met thema's kunnen producteigenschappen en actiecontroles uit het koopvak worden
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Modules die in de koopvakmodule kunnen worden gebruikt
 
 - **Mediagalerie** - wordt gebruikt om afbeeldingen van een product te presenteren op een pagina met productdetails. De module kan één tot veel afbeeldingen ondersteunen. Ook miniatuurafbeeldingen worden ondersteund. U kunt de miniatuurafbeeldingen horizontaal rangschikken (als een rij onder de afbeelding) of verticaal (als een kolom naast de afbeelding). De module voor de mediagalerie kan worden toegevoegd aan het vak **Media** in de koopvakmodule. Momenteel worden alleen afbeeldingen ondersteund. 
-- **Winkelselectie**: deze module toont een lijst met nabijgelegen winkels waar een artikel beschikbaar is voor ophalen. Hiermee kunnen gebruikers een locatie invoeren om te zoeken naar winkels in de buurt. De winkelselectiemodule is geïntegreerd in de API (Application Programming Interface) van Bing Kaarten om de locatie te converteren naar een breedtegraad en een lengtegraad. Er is een API-sleutel voor Bing Kaarten vereist. Deze moet worden toegevoegd aan de pagina Gedeelde Retail-parameters in Dynamics 365 Retail. Deze module ondersteunt twee eigenschappen, **Zoekradius** en **Koppeling naar servicevoorwaarden**. De eigenschap **Zoekradius** bepaalt (in mijl) binnen welke straal naar winkels moet worden gezocht. Als er geen waarde is opgegeven, wordt de standaardzoekradius van 50 mijl gebruikt. Als u Bing Kaarten of een externe service gebruikt, kunt u de eigenschap **Koppeling naar servicevoorwaarden** gebruiken om een koppeling naar de servicevoorwaarden te verstrekken. Er is een koppeling naar servicevoorwaarden vereist voor de Bing Kaarten-service. 
+- **Winkelselectie**: deze module toont een lijst met nabijgelegen winkels waar een artikel beschikbaar is voor ophalen. Hiermee kunnen gebruikers een locatie invoeren om te zoeken naar winkels in de buurt. Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over deze module.
 
 ## <a name="buy-box-module-settings"></a>Instellingen voor koopvakmodule
 
@@ -89,15 +89,17 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 1. Sla de pagina op en bekijk een voorbeeld. Voeg de parameter voor de querytekenreeks **?productid=&lt;product id&gt;** toe aan de URL van de voorbeeldpagina. Op die manier wordt de productcontext gebruikt om de voorbeeldpagina te laden en weer te geven.
 1. Sla de pagina op, voltooi de bewerking ervan en publiceer deze. Op de pagina met productgegevens moet nu het koopvak worden weergegeven.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht starterskit](starter-kit-overview.md)
 
-[Module Container](add-container-module.md)
+[Winkelselectiemodule](store-selector.md)
+
+[Containermodule](add-container-module.md)
 
 [Winkelwagenmodule](add-cart-module.md)
 
-[Betalingsmodule](add-checkout-module.md)
+[Kassamodule](add-checkout-module.md)
 
 [Orderbevestigingsmodule](order-confirmation-module.md)
 

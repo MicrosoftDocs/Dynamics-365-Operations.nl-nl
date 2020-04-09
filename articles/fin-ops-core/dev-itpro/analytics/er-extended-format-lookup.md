@@ -3,7 +3,7 @@ title: Uitgebreide indelingszoekactie voor elektronische rapportering (ER)
 description: In dit onderwerp wordt beschreven hoe een ER-indelingsverwijzing kan worden ingesteld in de ER-indelingszoekactie wanneer de vereiste indeling is opgeslagen in de algemene opslagplaats.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/24/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c72335d7d83934146f827ef0bb568b79a585a7a5
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015171"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138855"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Gebruikers toestaan om een ER-indelingsverwijzing in te stellen die informatie opvraagt uit de algemene opslagplaats
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 U kunt het ER-raamwerk ([elektronische rapportage](general-electronic-reporting.md)) gebruiken om [indelingen](general-electronic-reporting.md#FormatComponentOutbound) te configureren voor uitgaande documenten in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. U kunt ook het ER-raamwerk gebruiken om [indelingen](general-electronic-reporting.md#FormatComponentInbound) te configureren voor het parseren van inkomende documenten en om toepassingsgegevens toe te voegen of bij te werken met de informatie in deze documenten. Elk van deze indelingen kan in uw Dynamics 365 Finance-exemplaar worden gebruikt voor het verwerken van inkomende of uitgaande bedrijfsdocumenten als onderdeel van een bepaald bedrijfsproces. 
 

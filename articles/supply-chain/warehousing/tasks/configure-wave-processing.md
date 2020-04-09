@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc28149aa56302e09eb0e7be581a582f58a76416
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9c813a429d7837493663625bde341638eecfc5ee
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847346"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148490"
 ---
 # <a name="configure-wave-processing"></a>Waveverwerking configureren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In deze begeleiding wordt beschreven hoe u de criteria instelt die bepalen wat voor werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt. U kunt de criteria opgeven door wavesjablonen en query's in te stellen die overeenstemmen met een wave met vrijgegeven regels in verkooporders, productieorders of kanbanorders. De waveverwerking wordt gebruikt in magazijnen die de functionaliteit in de module Magazijnbeheer gebruiken, en niet in magazijnen die de functionaliteit in de module Voorraadbeheer gebruiken. U kunt deze procedure in het bedrijf USMF van de demogegevens uitvoeren.
 
@@ -34,7 +34,7 @@ In deze begeleiding wordt beschreven hoe u de criteria instelt die bepalen wat v
 2. Klik op **Nieuw**.
 3. Typ een waarde in het veld **Wavesjabloon**. Wanneer u een wavesjabloon instelt, kunt u de volgorde opgeven waarin de sjablonen worden gematcht met vrijgegeven regels op verkooporders, productieorders of kanbans. Wanneer een regel aan het magazijn of aan productie wordt vrijgegeven, wordt de eerste wavesjabloon gebruikt waarvoor aan de criteria wordt voldaan. Het wordt aanbevolen sjablonen met de meest specifieke criteria boven aan de lijst te plaatsen. Hoe breder de criteria, hoe waarschijnlijker het is dat een regel voldoet aan de criteria, waardoor regels aan de verkeerde wave worden toegewezen.  
 4. Typ een waarde in het veld **Beschrijving van wavesjabloon**.
-5. Typ of selecteer een waarde in het veld **Locatie**. Als u USMF gebruikt, kunt u Vestiging 2 selecteren.  
+5. Typ of selecteer een waarde in het veld **Locatie**. Als u USMF gebruikt, kunt u locatie 2 selecteren.  
 6. Typ of selecteer een waarde In het veld **Magazijn**. Als u USMF gebruikt, kunt u magazijn 24 selecteren.  
 7. Stel het veld **Het maken van waves automatiseren** in op **Ja**. Selecteer deze optie om automatisch een wave te maken wanneer een verkooporder, een productieorder, of een kanban aan het magazijn wordt vrijgegeven.  
 8. Stel de optie **Wave verwerken bij vrijgave door magazijn** in op **Ja**. Selecteer deze optie om de wave automatisch te verwerken en werk te maken wanneer een regel aan het magazijn wordt vrijgegeven.  

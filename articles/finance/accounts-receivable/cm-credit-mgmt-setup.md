@@ -3,7 +3,7 @@ title: Parameters voor kredietbeheer instellen
 description: In dit onderwerp worden de opties beschreven die u kunt gebruiken om kredietbeheer te configureren om tegemoet te komen aan de vereisten van uw bedrijf.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124180"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154523"
 ---
 # <a name="credit-management-parameters-setup"></a>Parameters voor kredietbeheer instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de opties beschreven die u kunt gebruiken om kredietbeheer te configureren om tegemoet te komen aan de vereisten van uw bedrijf. Als u de functies voor kredietbeheer wilt gaan gebruiken, stelt u de parameters in op de pagina **Parameters voor kredietbeheer** (**Kredietbeheer \> Instellen \> Parameters voor kredietbeheer**).
+In dit onderwerp worden de opties beschreven die u kunt gebruiken om kredietbeheer te configureren om tegemoet te komen aan de vereisten van uw bedrijf. Als u de functies voor kredietbeheer wilt gaan gebruiken, stelt u de parameters in op de pagina **Parameters voor crediteringen en aanmaningen** (**Crediteringen en aanmaningen \> Instellen \> Parameters voor crediteringen en aanmaningen**).
 
 ## <a name="credit-parameters"></a>Kredietparameters
 
-Er zijn vier sneltabbladen waar u de parameters voor kredietbeheer kunt wijzigen: **Krediet geblokkeerd**, **Controlepunt voor kredietbeheer**, **Kredietbeheerstatistieken** en **Kredietlimieten**. In de volgende secties worden de instellingen beschreven die beschikbaar zijn op elk sneltabblad.
+Er zijn vier sneltabbladen in de sectie **Krediet** waar u de parameters voor kredietbeheer kunt wijzigen: **Krediet geblokkeerd**, **Controlepunt voor kredietbeheer**, **Kredietbeheerstatistieken** en **Kredietlimieten**. In de volgende secties worden de instellingen beschreven die beschikbaar zijn op elk sneltabblad.
 
 ### <a name="credit-holds"></a>Kredietblokkeringen
 

@@ -3,7 +3,7 @@ title: Mobiele apparaten instellen voor magazijnwerk
 description: In dit onderwerp wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813035"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161823"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten instellen voor magazijnwerk
 
@@ -95,11 +95,11 @@ U kunt een menuoptie instellen die het werk voor een andere werknemer zal maken 
 </tr>
 <tr>
 <td>Ontvangen van nummerplaat</td>
-<td>Ontvangen een binnenkomende belasting door het nummerplaat-ID te gebruiken.</td>
+<td>Ontvang een binnenkomende advance shipping notice (ASN) met behulp van een nummerplaat-id.</td>
 </tr>
 <tr>
-<td>Nummerplaat ontvangen en wegzetten</td>
-<td>Ontvang een binnenkomende lading en zet deze weg met behulp van een nummerplaat-id.</td>
+<td>Ontvangen en wegzetten van nummerplaat</td>
+<td>Ontvang een binnenkomende advance shipping notice (ASN) en zet deze weg met behulp van een nummerplaat-id.</td>
 </tr>
 <tr>
 <td>Artikelontvangst laden</td>
@@ -119,7 +119,7 @@ U kunt een menuoptie instellen die het werk voor een andere werknemer zal maken 
 <td>Registreer de ontvangst van een hoeveelheid van een artikel door het RMA-nummer te registreren, en zet de artikelen weg. Dezelfde werknemer voert beide acties uit.</td>
 </tr>
 <tr>
-<td rowspan="4">Transferorder</td>
+<td rowspan="6">Transferorder</td>
 <td>Ontvangen overboekingorder-artikel</td>
 <td>Registreer de ontvangst van een hoeveelheid van een artikel en maak weggezet werk voor een andere werknemer.
 
@@ -138,6 +138,14 @@ U kunt een menuoptie instellen die het werk voor een andere werknemer zal maken 
 <tr>
 <td>Transferorderregel ontvangen en wegzetten</td>
 <td>Registreer de ontvangst van een hoeveelheid van een artikel, en zet de artikelen weg. Dezelfde werknemer voert beide acties uit.</td>
+</tr>
+<tr>
+<td>Ontvangen van nummerplaat</td>
+<td>Ontvang een binnenkomende advance shipping notice (ASN) met behulp van een nummerplaat-id.</td>
+</tr>
+<tr>
+<td>Ontvangen en wegzetten van nummerplaat</td>
+<td>Ontvang een binnenkomende advance shipping notice (ASN) en zet deze weg met behulp van een nummerplaat-id.</td>
 </tr>
 <tr>
 <td rowspan="4">Productie</td>
