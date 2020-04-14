@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b616998738d6b6986f157d136fc56e061900ef41
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 501936734b6ec970062d0d2cbcc8a3cdc11b934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550527"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142358"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Horizontaal uitvouwbare bereiken gebruiken om kolommen in Excel-rapporten dynamisch toe te voegen (deel 1: Indeling ontwerpen)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker die aan de rol van systeembeheerder of ontwikkelaar elektronische rapportage is toegewezen, een elektronische rapportindeling (ER) kan configureren om rapporten als OPENXML-werkbladen (Excel-bestanden) te genereren waarin de vereiste kolommen dynamisch kunnen worden gemaakt als horizontaal uitvouwbare bereiken. Deze stappen kunnen in elk bedrijf worden uitgevoerd.
 
 Voordat u deze stappen uitvoert, moet u eerst deze taakbegeleidingen uitvoeren: 
 
-'ER Een configuratieprovider maken en deze als actief markeren'
+"ER Een configuratieprovider maken en deze als actief markeren"
 
-'ER Financiële dimensies gebruiken als gegevensbron (Deel 1: gegevensmodel ontwerpen)'
+"ER Financiële dimensies gebruiken als gegevensbron (deel 1: Gegevensmodel ontwerpen)"
 
-'ER Financiële dimensies gebruiken als gegevensbron (Deel 2: modeltoewijzing)'
+"ER Financiële dimensies gebruiken als gegevensbron (deel 2: Modeltoewijzing)"
 
 U moet ook een lokale kopie van de sjabloon met een hier gevonden voorbeeldrapport downloaden en opslaan: [Sample Financial Dimensions Web Service Report](https://go.microsoft.com/fwlink/?linkid=862266).
 
@@ -57,7 +57,7 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 
 ## <a name="design-the-report-format"></a>De rapportindeling ontwerpen
 1. Klik op Ontwerper.
-2. Schakel de wisselknop Details weergeven in.
+2. Schakel de wisselknop 'Details weergeven' in.
 3. Klik in het actievenster op Importeren.
 4. Klik op Importeren uit Excel.
 5. Klik op Bijlagen.
@@ -69,7 +69,7 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
     * Selecteer de gedownloade sjabloon.  
 10. Klik op OK.
     * Voeg een nieuwe reeks toe om dynamisch Excel-uitvoer te maken met net zoveel kolommen als u (in het formulier van het gebruikersdialoogvenster) voor financiële dimensies hebt geselecteerd. Elke cel voor elke kolom geeft één naam van de financiële dimensie weer.  
-11. Klik op Toevoegen om het dialoogvenster te openen.
+11. Klik op Toevoegen om het uitklapvenster te openen.
 12. Selecteer Excel-bereik in de structuur.
 13. Typ in het veld Excel-bereik DimNames.
     * DimNames  

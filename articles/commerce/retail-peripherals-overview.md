@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124400"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154175"
 ---
 # <a name="peripherals"></a>Randapparaten
 
@@ -158,7 +158,7 @@ Kassalade, kassabonprinters en betalingsterminals met een netwerkadres kunnen wo
 
 ### <a name="dedicated"></a>Toegewezen
 
-Moderne POS-clients voor Windows en Android bevatten **speciale** of ingebouwde hardwarestations. Deze clients kunnen rechtstreeks met randapparatuur communiceren via bedrijfslogica die in de toepassingen is ingebouwd. De Android-toepassing ondersteunt alleen netwerkapparaten. Voor meer informatie over ondersteuning van randapparatuur voor Android gaat u naar het artikel [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Moderne POS-clients voor Windows en Android bevatten **speciale** of ingebouwde hardwarestations. Deze clients kunnen rechtstreeks met randapparatuur communiceren via bedrijfslogica die in de toepassingen is ingebouwd. De Android-toepassing ondersteunt alleen netwerkapparaten. Voor meer informatie over ondersteuning van randapparatuur voor Android gaat u naar het artikel [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 Als u het speciale hardwarestation wilt gebruiken, wijst u een hardwareprofiel toe aan een kassa die gebruikmaakt van de toepassingen Modern POS voor Windows of Android. Vervolgens maakt u een hardwarestation van het type **Specifiek** voor de winkel waar de kassa wordt gebruikt. Start Modern POS in de niet-lademodus en gebruik de bewerking **Hardwarestations beheren** om de mogelijkheden voor het hardwareadres in te schakelen. Het speciale hardwarestation is standaard actief. Meld u vervolgens af bij Modern POS. Als u zich opnieuw aanmeldt en een ploeg opent, kunt u gebruikmaken van de randapparatuur die in het hardwareprofiel is geconfigureerd. 
 
@@ -199,7 +199,7 @@ Zie [Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Modern POS voor Android en iOS installeren en configureren
 
-Zie [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp) voor meer informatie.
+Zie [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp) voor meer informatie.
 
 ### <a name="opos-device-setup-and-configuration"></a>Een OPOS-apparaat installeren en configureren
 
@@ -494,7 +494,7 @@ Deze configuratie is de meestgebruikte configuratie voor traditionele, vaste POS
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS voor Android met een IPC-hardwarestation (geïntegreerd)
 
-**Nieuw voor 10.0.8**: Epson-netwerkprinters en kassaladen die via de DK poort op deze printers zijn aangesloten, worden nu ondersteund voor de app Modern POS voor Android. Ga naar het artikel [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp) voor meer informatie.
+**Nieuw voor 10.0.8**: Epson-netwerkprinters en kassaladen die via de DK poort op deze printers zijn aangesloten, worden nu ondersteund voor de app Modern POS voor Android. Ga naar het artikel [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp) voor meer informatie.
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Alle Modern POS-clients met een speciaal, gedeeld ISS-hardwarestation
 

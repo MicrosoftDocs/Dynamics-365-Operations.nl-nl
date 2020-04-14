@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 294e7ac5b1d548982ad402214934afe0cfce475d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f3b31dbf296a06ea6253a8ae71bfea6193a1e03e
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188781"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138018"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Terugkerende vrije-tekstfacturen genereren en boeken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Terugkerende facturen worden gebruikt om klanten regelmatig voor hetzelfde bedrag te factureren. Bij deze registratie wordt het demobedrijf USMF gebruikt. De opname is bedoeld voor de persoon die verantwoordelijk is voor het beheren en verwerken van klantenfacturen.
 

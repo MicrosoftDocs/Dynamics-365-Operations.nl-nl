@@ -1,6 +1,6 @@
 ---
 title: Configuraties importeren voor het genereren van documenten die toepassingsgegevens bevatten
-description: Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure 'ER Een configuratieprovider maken en deze als actief markeren' voltooien.
+description: Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure "ER Een configuratieprovider maken en deze als actief markeren" voltooien.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd7a07d041373b266103f313df1bf2810e9c858
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bfa09fe7059925249f20e1d93bc9d091d6bc63d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182342"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141897"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Configuraties importeren voor het genereren van documenten die toepassingsgegevens bevatten
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure 'ER Een configuratieprovider maken en deze als actief markeren' voltooien.
+Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure "ER Een configuratieprovider maken en deze als actief markeren" voltooien.
 
-De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een elektronisch document te genereren. In deze procedure importeert u de vereiste ER-indelingsconfiguraties die zijn gemaakt voor het voorbeeldbedrijf, Litware, Inc., en genereert u vervolgens elektronische documenten. Deze procedure is gemaakt voor gebruikers met de toegewezen rol van systeembeheerder of elektronische aangifteontwikkelaar. Deze stappen kunnen worden voltooid met de DEMF-gegevensset. Voordat u begint, downloadt u de bestanden die worden genoemd in Help-onderwerp Elektronische documenten genereren en toepassingsgegevens bijwerken met het ER-hulpmiddel (generate-electronic-documents-update-application-data/) en slaat u deze op. De bestanden zijn .XML-Intrastat (model), Intrastat (toewijzing) XML- en .XML-Intrastat (indeling).
+De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een elektronisch document te genereren. In deze procedure importeert u de vereiste ER-indelingsconfiguraties die zijn gemaakt voor het voorbeeldbedrijf, Litware, Inc., en genereert u vervolgens elektronische documenten. Deze procedure is gemaakt voor gebruikers met de toegewezen rol van systeembeheerder of elektronische aangifteontwikkelaar. Deze stappen kunnen worden voltooid met de DEMF-gegevensset. Voordat u begint, downloadt u de bestanden die worden genoemd in Help-onderwerp "Elektronische documenten genereren en toepassingsgegevens bijwerken met het ER-hulpmiddel" (generate-electronic-documents-update-application-data/) en slaat u deze op. De bestanden zijn .XML-Intrastat (model), Intrastat (toewijzing) XML- en .XML-Intrastat (indeling).
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als Actief. Als u deze configuratieprovider niet ziet, voert u eerst de stappen uit in de procedure Een configuratieprovider maken en deze als actief markeren.  
@@ -59,7 +59,7 @@ De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een e
 16. Klik op Ontwerper.
 17. Vouw in de structuur 'Lijst' uit.
 18. Vouw in de structuur 'Transacties= Lijst' uit.
-    * Controleeer de structuur van de modeltoewijzing die gebruikmaakt van het gegevensmodel dat wordt gefilterd op basis van het basisartikel 'voor uitgaand document'. Houd er rekening mee dat de toegevoegde gegevensbron 'Lijst' toegang biedt tot de vereiste toepassingsgegevens, zoals de lijst met records uit de Intrastat-tabel.  
+    * Controleer de structuur van de modeltoewijzing die gebruikmaakt van het gegevensmodel dat wordt gefilterd op basis van het basisartikel 'voor uitgaand document'. Houd er rekening mee dat de toegevoegde gegevensbron 'Lijst' toegang biedt tot de vereiste toepassingsgegevens, zoals de lijst met records uit de Intrastat-tabel.  
 19. Sluit de pagina.
 20. Sluit de pagina.
 21. Klik op Uitwisselen.

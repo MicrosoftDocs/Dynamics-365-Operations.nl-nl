@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30bbb404e624c33e047c5505c5b21565ed8cce10
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec4d86673555f594bb2f81010235fd7eb6e83f27
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847178"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148280"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Handmatige verpakking instellen (februari en mei 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In het verpakkingsproces kunt u producten valideren en verpakken in containers. In dit proces verzamelen magazijnmedewerkers producten van de opslaglocaties en verplaatsen deze naar een inpakstation waar ze de typen en hoeveelheden van artikelen controleren en deze aan de juiste containers toewijzen. Wanneer een container volledig is verpakt, kunnen ze de container sluiten en verplaatsen naar de outbound docks. De producten zijn dan gereed om te verzenden. Bij deze procedure wordt het demobedrijf USMF gebruikt. Deze procedure is uitsluitend bedoeld voor de versies van februari 2016 en mei 2016 van Dynamics 365 for Operations.
 

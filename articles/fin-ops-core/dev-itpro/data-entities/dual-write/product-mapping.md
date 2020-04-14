@@ -19,20 +19,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081146"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173195"
 ---
 # <a name="unified-product-experience"></a>Uniforme productervaring
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Wanneer een zakelijk ecosysteem bestaat uit Dynamics 365-toepassingen, zoals Finance, Supply Chain Management en Sales, gebruiken bedrijven deze toepassingen vaak als bron voor productgegevens. Dit komt omdat deze apps een robuuste productinfrastructuur bieden, aangevuld met geavanceerde prijsbegrippen en nauwkeurige voorraadgegevens. Bedrijven die een extern PLM-systeem (Product Lifecycle Management) gebruiken voor de productgegevens, kunnen producten van Finance and Operations-apps doorsturen naar andere Dynamics 365-apps. De geïntegreerde productervaring brengt het geïntegreerde productgegevensmodel over naar Common Data Service, zodat alle gebruikers, inclusief Power Platform-gebruikers, kunnen profiteren van de uitgebreide productgegevens die afkomstig zijn van Finance and Operations-apps.
+
+Wanneer een zakelijk ecosysteem bestaat uit Dynamics 365-toepassingen, zoals Finance, Supply Chain Management en Sales, gebruiken bedrijven deze toepassingen vaak als bron voor productgegevens. Deze apps bieden namelijk een robuuste productinfrastructuur, aangevuld met geavanceerde prijsbegrippen en nauwkeurige voorraadgegevens. Bedrijven die een extern PLM-systeem (Product Lifecycle Management) gebruiken voor de productgegevens, kunnen producten van Finance and Operations-apps doorsturen naar andere Dynamics 365-apps. De geïntegreerde productervaring brengt het geïntegreerde productgegevensmodel over naar Common Data Service, zodat alle gebruikers, inclusief Power Platform-gebruikers, kunnen profiteren van de uitgebreide productgegevens die afkomstig zijn van Finance and Operations-apps.
 
 Dit is het productgegevensmodel van Sales.
 
@@ -52,7 +52,7 @@ De entiteitstoewijzingen voor twee keer wegschrijven voor producten zijn zo ontw
 
 Productinformatie bevat alle informatie die betrekking heeft op het product en de definitie ervan, zoals de productdimensies of de tracerings- en opslagdimensies. Zoals in de volgende tabel wordt aangegeven, wordt een verzameling entiteitstoewijzingen gemaakt om producten en gerelateerde informatie te synchroniseren.
 
-Finance and Operations | Andere Dynamics 365-apps | Beschrijving
+Finance and Operations-apps | Andere Dynamics 365-apps | Omschrijving
 -----------------------|--------------------------------|---
 Vrijgegeven producten V2 | msdyn\_sharedproductdetails | De entiteit **msdyn\_sharedproductdetails** bevat de velden van Finance and Operations-apps die het product definiëren en die de financiële en beheergegevens van het product bevatten. 
 Door Common Data Service vrijgegeven verschillende producten | Product | De entiteit **Product** bevat de velden die het product definiëren. Het bevat afzonderlijke producten (producten met het subtype product) en de productvarianten. De volgende tabel geeft de toewijzingen weer.
@@ -75,8 +75,8 @@ Eenheid | uoms
 Eenheidsomrekeningen | msdyn_ unitofmeasureconversions
 Productspecifieke conversie van maateenheid | msdyn_productspecificunitofmeasureconversion
 Productcategorieën | msdyn_productcategories | Alle productcategorieën en informatie over de structuur en kenmerken van deze producten zijn opgenomen in de entiteit productcategorie. 
-Hiërarchieën van productcategorieën | msdyn_productcategoryhierarhies | U gebruikt producthiërarchieën om producten te categoriseren of te groeperen. De categoriehiërarchieën zijn beschikbaar in Common Data Service via de entiteit Productcategoriehiërarchie. 
-Hiërarchierollen van productcategorieën | msdyn_productcategoryhierarchies | Producthiërarchieën kunnen worden gebruikt voor verschillende rollen in D365 Finance and Operations. Om te specificeren welke categorie wordt gebruikt in elke rol wordt de entiteit rol van productcategorie gebruikt. 
+Hiërarchieën van productcategorieën | msdyn_productcategoryhierarhies | U gebruikt producthiërarchieën voor het categoriseren of groeperen van producten. De categoriehiërarchieën zijn beschikbaar in Common Data Service via de entiteit Productcategoriehiërarchie. 
+Hiërarchierollen van productcategorieën | msdyn_productcategoryhierarchies | Producthiërarchieën kunnen worden gebruikt voor verschillende rollen in D365 Finance and Operations. Hiermee wordt opgegeven welke categorie wordt gebruikt in elke rol waarvoor de entiteit voor productcategorierollen wordt gebruikt. 
 Toewijzingen van productcategorieën | msdyn_productcategoryassignments | Als u een product aan een categorie wilt toewijzen, kunt u de entiteit productcategorietoewijzingen gebruiken.
 
 ## <a name="integration-of-products"></a>Integratie van producten
@@ -143,7 +143,7 @@ Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de art
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Maateenheid en maateenheidsconversies
 
-De maateenheden en de bijbehorende conversies zijn beschikbaar in Common Data Service conform het gegevensmodel dat in het diagram wordt weergegeven.
+De maateenheden en de bijbehorende conversie zijn beschikbaar in Common Data Service conform het gegevensmodel dat in het diagram wordt weergegeven.
 
 ![Gegevensmodel voor producten](media/dual-write-product-three.png)
 
@@ -153,7 +153,7 @@ Het concept voor maateenheden is geïntegreerd tussen de Finance and Operations-
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Initiële synchronisatie van eenheden bij gegevensafstemming tussen Finance and Operations en Common Data Service
 
@@ -163,16 +163,16 @@ Als twee keer wegschrijven is ingeschakeld, worden eenheden uit Finance and Oper
 
 ### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Overeenkomende eenheden en gegevens uit eenheidsklassen/groepen uit Finance and Operations en andere Dynamics 365-apps
 
-Allereerst is het belangrijk te weten dat de integratiesleutel voor eenheid msdyn_symbol is. Daarom moet deze waarde uniek zijn in Common Data Service of andere Dynamics 365-apps. Omdat in andere Dynamics 365-apps via de combinatie van "Eenhedengroep-id" en "Naam" de uniekheid van een eenheid wordt gedefinieerd, moet u rekening houden met verschillende scenario's voor het afstemmen van eenheidsgegevens tussen Finance and Operations-apps en Common Data Service.
+Allereerst is het belangrijk te weten dat de integratiesleutel voor eenheid msdyn_symbol is. Daarom moet deze waarde uniek zijn in Common Data Service of andere Dynamics 365-apps. Omdat in andere Dynamics 365-apps via de combinatie van Eenhedengroep-id en Naam de uniekheid van een eenheid wordt gedefinieerd, moet u rekening houden met verschillende scenario's voor het afstemmen van eenheidsgegevens tussen Finance and Operations-apps en Common Data Service.
 
 Voor eenheden die overeenkomen met of overlappen in Finance and Operations-apps en andere Dynamics 365-apps:
 
-+ **De eenheid behoort tot een eenhedengroep in andere Dynamics 365-apps die overeenkomt met de bijbehorende eenheidsklasse in Finance and Operations-apps**. In dit geval moet het veld msdyn_symbol in andere Dynamics 365-apps worden ingevuld met het eenheidssymbool uit Finance and Operations-apps. Dus wanneer de gegevens worden afgestemd, wordt de eenhedengroep ingesteld op "Extern onderhouden" in andere Dynamics 365-apps.
++ **De eenheid behoort tot een eenhedengroep in andere Dynamics 365-apps die overeenkomt met de bijbehorende eenheidsklasse in Finance and Operations-apps**. In dit geval moet het veld msdyn_symbol in andere Dynamics 365-apps worden ingevuld met het eenheidssymbool uit Finance and Operations-apps. Dus wanneer de gegevens worden afgestemd, wordt de eenhedengroep ingesteld op Extern onderhouden in andere Dynamics 365-apps.
 + **De eenheid behoort tot een eenhedengroep in andere Dynamics 365-apps die niet overeenkomen met de bijbehorende eenheidsklasse in Finance and Operations-apps (geen bestaande eenheidsklasse in Finance and Operations-apps voor de eenheidsklasse in andere Dynamics 365-apps).** In dit geval moet een willekeurige tekenreeks worden ingevuld bij msdyn_symbol. Let op: deze waarde moet uniek zijn in andere Dynamics 365-apps.
 
 Voor eenheden en eenheidsklassen in Finance and Operations-apps die niet bestaan in andere Dynamics 365-apps:
 
-Als onderdeel van het dubbel schrijven worden de eenhedengroepen van Finance and Operations-apps en de bijbehorende eenheden gemaakt en gesynchroniseerd in andere Dynamics 365-apps en Common Data Service en wordt de eenhedengroep ingesteld op 'Extern onderhouden'. Er is geen extra inspanning voor bootstrapping vereist.
+Als onderdeel van het twee keer wegschrijven worden de eenhedengroepen uit Finance and Operations-apps en de bijbehorende eenheden gemaakt en gesynchroniseerd in andere Dynamics 365-apps en Common Data Service, en wordt de eenhedengroep ingesteld op Extern onderhouden. Er is geen extra inspanning voor bootstrapping vereist.
 
 Voor eenheden in andere Dynamics 365-apps die niet bestaan in Finance and Operations-apps:
 
@@ -203,7 +203,7 @@ Het productbeleid is een set beleidsregels die wordt gebruikt voor het definiër
 
 Voor unieke identificatie van producten tussen Dynamics 365 for Finance and Operations en producten in Common Data Service worden de integratiesleutels gebruikt. Voor producten is **(productnumber)** de unieke sleutel waarmee een product wordt geïdentificeerd in Common Data Service. Het wordt samengesteld door samenvoeging van: **(company, msdyn_productnumber)**. Met **company** wordt de rechtspersoon in Finance and Operations aangegeven en met **msdyn_productnumber** wordt het productnummer aangegeven voor het specifieke product in Finance and Operations. 
 
-Voor een andere gebruiker van Dynamics 365-apps wordt het product in de gebruikersinterface geïdentificeerd met **msdyn_productnumber** (de label van het veld is **Productnummer**). In het productformulier worden zowel het bedrijf als msydn_productnumber weergegeven. Het veld (productNumber), de unieke sleutel voor een product, wordt echter niet weergegeven. 
+Voor gebruikers van andere Dynamics 365-apps wordt het product in de gebruikersinterface geïdentificeerd met **msdyn_productnumber** (het label van het veld is **Productnummer**). In het productformulier worden zowel het bedrijf als msydn_productnumber weergegeven. Het veld (productNumber), de unieke sleutel voor een product, wordt echter niet weergegeven. 
 
 Als u apps bouwt op Common Data Service, moet u aandacht besteden aan het gebruik van **productnumber** (de unieke product-id) als integratiesleutel. Maak geen gebruik van **msdyn_productnumber**, omdat dit niet uniek is. 
 

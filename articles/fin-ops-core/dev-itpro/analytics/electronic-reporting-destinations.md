@@ -3,7 +3,7 @@ title: Bestemmingen van elektronische rapportage (ER)
 description: Dit onderwerp biedt informatie over het beheer van ER-bestemmingen (elektronische rapportage), de ondersteunde typen bestemmingen en beveiligingsoverwegingen.
 author: nselin
 manager: AnnBe
-ms.date: 02/07/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030768"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150810"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -114,7 +114,7 @@ Nadat u deze instellingen hebt voltooid, wordt de optie **Concept uitvoeren** be
 
 [![Optie Concept uitvoeren](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
-## <a name="DestinationFailure"></a>Afhandeling van bestemmingsfouten
+## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Afhandeling van bestemmingsfouten
 
 Meestal wordt een ER-indeling uitgevoerd binnen een specifiek bedrijfsproces. De levering van een uitgaand document dat tijdens het uitvoeren van een ER-indeling wordt gegenereerd, moet echter soms worden beschouwd als onderdeel van dat bedrijfsproces. Als in dit geval de levering van een gegenereerd uitgaand document naar een geconfigureerde bestemming mislukt, moet de uitvoering van het bedrijfsproces worden geannuleerd. Selecteer de optie **Verwerking stoppen bij fout** om de gewenste ER-bestemming te configureren.
 
@@ -124,7 +124,7 @@ U kunt bijvoorbeeld de verwerking van leveranciersbetalingen zodanig configurere
 
 Als u het selectievakje **Verwerking stoppen bij fout** hebt ingeschakeld voor het onderdeel **Begeleidende brief** in de bestemming, wordt een betaling als correct verwerkt beschouwd, zelfs als de begeleidende brief niet via e-mail is afgeleverd. De status van de betaling wordt gewijzigd van **Geen** in **Verzonden**, zelfs als de begeleidende brief niet kan worden verzonden, omdat bijvoorbeeld het e-mailadres van de ontvanger of afzender ontbreekt of onjuist is.
 
-## <a name="OutputConversionToPDF"></a>Uitvoerconversie naar PDF
+## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Uitvoerconversie naar PDF
 
 U kunt de optie PDF-conversie gebruiken om de uitvoer in Microsoft Office-indeling (Excel/Word) te converteren naar PDF-indeling.
 
@@ -157,6 +157,19 @@ De optie PDF-conversie kan alleen worden ingeschakeld voor bestandsonderdelen di
 Als u PDF-conversie voor een bestandsbestemming wilt inschakelen, schakelt u het selectievakje **Converteren naar PDF** in.
 
 [![PDF-conversie voor een bestandsbestemming inschakelen](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+
+### <a name=""></a><a name="SelectPdfPageOrientation">Een afdrukstand voor PDF-conversie selecteren</a>
+
+Als u een ER-configuratie genereert in Excel-indeling en deze wilt converteren naar PDF-indeling, kunt u de afdrukstand van de PDF opgeven. Wanneer u het selectievakje **Converteren naar PDF** inschakelt om PDF-conversie in te schakelen voor een bestandsbestemming die een uitvoerbestand produceert in Excel-indeling, wordt het veld **Afdrukstand** beschikbaar op het sneltabblad **Instellingen PDF-conversie**. Selecteer de gewenste afdrukstand in het veld **Afdrukstand**.
+
+[![Een afdrukstand voor PDF-conversie selecteren](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+
+> [!NOTE]
+> Als u de afdrukstand van de PDF wilt inschakelen, moet u Microsoft Dynamics 365 Finance versie 10.0.10 (mei 2020) of hoger installeren.
+>
+> De geselecteerde afdrukstand wordt toegepast op alle ER-configuraties die in de Excel-indeling worden gegenereerd en worden vervolgens geconverteerd naar de PDF-indeling.
+>
+> Als een geconverteerde PDF wordt gemaakt van een ER-configuratie in Word-indeling, wordt de afdrukstand van de PDF uit het Word-document opgehaald.
 
 ## <a name="security-considerations"></a>Beveiligingsoverwegingen
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9274a90ffbf6e5703d3ed97a8b974227b25c2a0
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 6383576302789d268d64edcbbe05305b03e956d0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924373"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148695"
 ---
 # <a name="confirm-sales-orders"></a>Verkooporders bevestigen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure demonstreert hoe verkooporders worden bevestigd. U ziet hoe u één order bevestigt en hoe u meerdere orders tegelijk bevestigt. Deze taken worden meestal uitgevoerd door een verkooporderverwerker. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens. Voordat u begint, moet u ervoor zorgen dat er meerdere openstaande verkooporders voor dezelfde klant zijn. Als u USMF gebruikt, kunt u klant US-027 gebruiken.
 

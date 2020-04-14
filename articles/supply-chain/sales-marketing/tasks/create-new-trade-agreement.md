@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58ad2a5571138f1a82b021af63cdae9d567b92d8
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a964b357ac9abb65cd097b084630a53f1553ad04
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835578"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146533"
 ---
 # <a name="create-a-new-trade-agreement"></a>Een nieuwe handelsovereenkomst maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe productverkoopprijs registreert die u met een specifieke klant bent overeengekomen. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Als u uw eigen gegevens gebruikt, moet u voordat u deze taakbegeleiding start ervoor zorgen dat er een handelsovereenkomstjournaal bestaat met de naam Standaard, waarvan de relatie is ingesteld op 'Prijs (verkoop)'.
+Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe productverkoopprijs registreert die u met een specifieke klant bent overeengekomen. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Als u uw eigen gegevens gebruikt, moet u voordat u deze taakbegeleiding start ervoor zorgen dat er een handelsovereenkomstjournaal bestaat met de naam Standaard, waarvan de relatie is ingesteld op "Prijs (verkoop)".
 
 
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Een nieuw handelsovereenkomstjournaal maken en boeken

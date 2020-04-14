@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 65b1d1a232558efbe05e83d51706a78b12439e47
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 524ae7b3062893ed07170227ea9b8908cd5858e1
+ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124134"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "3151292"
 ---
 # <a name="credit-management-setup"></a>Instellingen voor kredietbeheer 
 
@@ -40,13 +40,17 @@ Ga naar **Crediteringen en aanmaningen \> Instellen \> Kredietbeheerworkflows** 
 
 U kunt een verkooporder blokkeren als de betalingsvoorwaarden op de order niet overeenkomen met de standaard betalingsvoorwaarden voor de klant. Soms zijn de betalingsvoorwaarden echter verschillend, maar niet zo afwijkend dat de order niet hoeft te worden geblokkeerd. U kunt betalingsvoorwaarden rangschikken, zodat sommige dezelfde rang hebben, terwijl andere een hogere of lagere rang hebben.
 
-Als de rangschikking voor betalingsvoorwaarden is geactiveerd, worden de verkooporders geblokkeerd als de betalingsvoorwaarden voor de order een hogere rang hebben dan de standaard betalingsvoorwaarden voor de klant.
+Als de rangschikking voor betalingsvoorwaarden is geactiveerd en als de betalingsvoorwaarden voor de order een hogere rang hebben dan de standaard betalingsvoorwaarden voor de klant, worden de verkooporders geblokkeerd.
+
+Als u de positie van betalingsvoorwaarden wilt instellen, gaat u naar **Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \>Positie van betalingsvoorwaarden**  
 
 ### <a name="ranking-settlement-discounts"></a>Vereffeningskortingen rangschikken
 
 U kunt een verkooporder blokkeren als de contantkorting op de order niet overeenkomt met de standaard contantkorting voor de klant. Soms zijn de contantkortingen echter verschillend, maar niet zo afwijkend dat de order niet hoeft te worden geblokkeerd. U kunt contantkortingen rangschikken, zodat sommige dezelfde rang hebben, terwijl andere een hogere of lagere rang hebben.
 
-Als de rangschikking voor vereffeningskortingen is geactiveerd, worden de verkooporders geblokkeerd als de contantkorting voor de order een hogere rang heeft dan de standaard contantkorting voor de klant.
+Als de rangschikking voor vereffeningskortingen is geactiveerd en als de contantkorting voor de order een hogere rang heeft dan de standaard contantkorting voor de klant, worden de verkooporders geblokkeerd.
+
+Als u de positie van betalingsvoorwaarden wilt instellen, gaat u naar **Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \>Positie van vereffeningskortingen**  
 
 ## <a name="reasons"></a>Redenen
 
@@ -56,7 +60,7 @@ Er worden verschillende typen redenen gebruikt in kredietbeheer:
 - Vrijgaveredenen worden toegewezen aan een order wanneer deze wordt vrijgegeven.
 - Statusredenen geven aan waarom een rekeningstatus aan een klant is toegewezen.
 
-U kunt redenen instellen op de pagina **Redenen voor kredietbeheer** (**Kredietbeheer \> Instellen \> Kredietbeheer \> Redenen voor kredietbeheer**).
+U kunt redenen instellen op de pagina **Redenen voor kredietbeheer** (**Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \> Redenen voor kredietbeheer**).
 
 1. Selecteer in het veld **Type reden** welk type reden u wenst: **Blokkeren**, **Vrijgeven** of **Status**.
 2. Voer in het veld **Reden** een naam voor de reden in.
@@ -66,7 +70,7 @@ U kunt redenen instellen op de pagina **Redenen voor kredietbeheer** (**Kredietb
 
 Kredietbeheergroepen worden gebruikt om klanten of groepen klanten te identificeren die dezelfde eigenschappen voor het kredietbeheer hebben. Kredietbeheergroepen kunnen bijvoorbeeld worden gebruikt om de kredietbeheerregels voor blokkering en uitsluiting voor klanten te bepalen.
 
-U kunt kredietbeheergroepen instellen op de pagina **Kredietbeheergroepen** (**Kredietbeheer \> Instellen> Groepen instellen \> Kredietbeheergroepen**).
+U kunt kredietbeheergroepen instellen op de pagina **Kredietbeheergroepen** (**Crediteringen en aanmaningen \> Instellen> Kredietbeheer instellen \> Kredietbeheergroepen**).
 
 1. Selecteer **Nieuw** om een regel te maken.
 2. Voer een id voor de groep in. De id kan maximaal 10 tekens bevatten.
@@ -78,7 +82,7 @@ De kredietbeheergroep wordt toegewezen aan een klant op het sneltabblad **Credit
 
 U kunt rekeningstatussen maken om de kredietpositie van een klantrekening te identificeren. U kunt een status en het effect ervan voor de processen facturering en levering definiëren. Rekeningstatussen kunnen ook worden gebruikt om blokkeringsregels voor een klant te bepalen.
 
-U kunt rekeningstatussen maken op de pagina **Rekeningstatussen** (**Kredietbeheer \> Instellen > Groepen instellen \> Rekeningstatussen**).
+U kunt rekeningstatussen maken op de pagina **Rekeningstatussen** (**Crediteringen en aanmaningen \> Instellen > Kredietbeheer instellen \> Rekeningstatussen**).
 
 1. Voeg een rekeningstatus toe en voer een omschrijving in voor de kredietpositie van een klant. Gebruik bijvoorbeeld **Normaal** om aan te geven dat een klant een goede positie heeft en dat openstaande orders standaard worden verwerkt via standaard kredietbeheer.
 2. Selecteer in de velden **Facturering** en **Geblokkeerde levering** het type blokkering voor klanten die deze rekeningstatus hebben. U kunt alle verwerking, alleen factuurverwerking of geen verwerking blokkeren wanneer de kredietlimietregels worden toegepast.
@@ -87,7 +91,7 @@ U kunt rekeningstatussen maken op de pagina **Rekeningstatussen** (**Kredietbehe
 
 U kunt scoregroepen instellen om risicofactoren te definiëren en de criteria die worden gebruikt om ze te meten. Wanneer informatie over een klant wordt toegepast op een scoregroep, wordt voor elke risicofactor een score berekend en gebruikt om de klant in een risicogroep te plaatsen. De risicogroep kan worden gebruikt om kredietwaardigheid te identificeren en automatische kredietlimieten te berekenen.
 
-U kunt scoregroepen maken op de pagina **Scoregroepen** (**Kredietbeheer \> Instellen \> Risico instellen \>Scoregroepen**).
+U kunt scoregroepen maken op de pagina **Scoregroepen** (**Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \> Risico \> Scoregroepen**).
 
 1. Maak een scoregroep en voer een naam in.
 2. Voer een omschrijving in om de scoregroep nader te beschrijven.
@@ -108,11 +112,11 @@ U kunt scoregroepen maken op de pagina **Scoregroepen** (**Kredietbeheer \> Inst
     1. Voer in het veld **Waarde** de door de gebruiker gedefinieerde waarde in die bij de klantgegevens te vinden is.
     2. Voer in het veld **Score** de score in die moet worden toegewezen wanneer de opgegeven waarde zich binnen het "Begin"/"Eind"bereik bevindt.
 
-## <a name="risk-assessments"></a>Risicobeoordelingen
+## <a name="risk-classification"></a>Risicoclassificatie
 
 U kunt risicobeoordelingen definiëren die aan klanten kunnen worden toegewezen op basis van hun risicoscore. Een risicoscore wordt berekend door klantgegevens te vergelijken met de verschillende scoregroepen. De scores worden opgeteld en de totale score wordt vergeleken met de waarden in de instellingen van de risicogroep om de risicogroep te identificeren waartoe de klant behoort. De score van de risicogroep wordt vervolgens gebruikt voor het definiëren van blokkerings- en uitsluitingsregels voor kredietbeheer voor de klant.
 
-U kunt risicogroepen instellen op de pagina **Risicobeoordelingen** (**Kredietbeheer \> Instellen \> Risico instellen \> Risicobeoordelingen**).
+U kunt risicogroepen instellen op de pagina **Risicobeoordelingen** (**Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \> Risico \> Risicoclassificatie**).
 
 1. Voer een risico groep-id in.
 2. Voer een omschrijving in om de risicogroep nader te beschrijven.
@@ -121,7 +125,7 @@ U kunt risicogroepen instellen op de pagina **Risicobeoordelingen** (**Kredietbe
 
 ## <a name="guaranteeinsurance-types"></a>Typen garantie/verzekering
 
-U kunt garantie- en verzekeringstypen instellen op de pagina **Typen garantie/verzekering** (**Kredietbeheer \> Instellen \> Garantie/verzekering instellen \> Typen garantie/verzekering**).
+U kunt garantie- en verzekeringstypen instellen op de pagina **Typen garantie/verzekering** (**Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \> Garantie/verzekering \> Typen garantie/verzekering**).
 
 1. Voer een garantie- of verzekeringstype in dat de naam van de borg- of verzekeringsmakelaar aangeeft.
 2. Voer een omschrijving in om de borg-/verzekeringsmakelaar te beschrijven.
@@ -130,14 +134,14 @@ U kunt garantie- en verzekeringstypen instellen op de pagina **Typen garantie/ve
 
 Dekkingstypen kunnen worden gebruikt om verzekeringspolissen verder te classificeren. Ze kunnen niet met garanties worden gebruikt.
 
-U kunt dekkingstypen toevoegen op de pagina **Dekkingstypen** (**Kredietbeheer \> Instellen \> Garantie/verzekering instellen \> Dekkingstypen**).
+U kunt dekkingstypen toevoegen op de pagina **Dekkingstypen** (**Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \> Garantie/verzekering instellen \> Dekkingstypen**).
 
 1. Voer een dekkingstype in waarmee wordt aangegeven welk dekkingstype moet worden toegevoegd als verzekering of garantie.
 2. Voer een omschrijving in om het dekkingstype te beschrijven.
 
 ## <a name="automatic-credit-limits"></a>Automatische kredietlimieten
 
-U kunt criteria voor automatische kredietlimieten maken op de pagina **Automatische kredietlimieten** (**Kredietbeheer \> Instellen \> Risico instellen \> Automatische kredietlimieten**).
+U kunt criteria voor automatische kredietlimieten maken op de pagina **Automatische kredietlimieten** (**Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \> Risico \> Automatische kredietlimieten**).
 
 1. Selecteer een risicogroep waaraan de automatische kredietlimiet moet worden toegewezen.
 2. Selecteer de valuta voor de automatische kredietlimiet. U kunt meerdere automatische kredietlimieten maken in verschillende valuta's voor dezelfde risicogroep.

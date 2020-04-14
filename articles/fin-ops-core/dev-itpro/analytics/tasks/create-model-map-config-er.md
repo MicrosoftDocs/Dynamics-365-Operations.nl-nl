@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcfc258e7fe364779fd77cc79413e8d5e871e214
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c6ba23af5f7eb517cc58994e54e918b2a305da17
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182687"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142153"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Configuraties voor toewijzing van model voor elektronische rapportage (ER) maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Gebruik deze procedure voor het ontwerpen van een nieuwe ER-modeltoewijzingsconfiguratie (elektronische aangifte) en pas de ingebouwde ER-functies toe voor efficiënte statistische berekeningen. In deze procedure maakt u een configuratie voor voorbeeldbedrijf Litware, Inc. 
 
@@ -33,7 +33,7 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembehee
 Deze stappen kunnen worden voltooid met elke dataset. Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien.
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
-    * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als Actief. Als u deze configuratieprovider niet ziet, voert u eerst de stappen uit in de procedure 'Een configuratieprovider maken en deze als actief markeren'.  
+    * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als Actief. Als u deze configuratieprovider niet ziet, voert u eerst de stappen uit in de procedure "Een configuratieprovider maken en deze als actief markeren".  
 2. Klik op Rapportconfiguraties.
 3. Klik op Filters weergeven.
 4. Typ de filterwaarde 'Intrastat' in het veld Naam en gebruik de filteroperator 'begint met'.
@@ -48,7 +48,7 @@ Deze stappen kunnen worden voltooid met elke dataset. Als u deze stappen wilt ui
 5. Klik op Opslagplaatsen.
     * Klik op de Microsoft-providertegel op Opslagplaatsen.  
 6. Klik op Filters weergeven.
-7. Typ de filterwaarde 'resources' in het veld Naam en gebruik de filteroperator 'bevat'. 
+7. Typ de filterwaarde "resources" in het veld "Typenaam" en gebruik de filteroperator "bevat". 
 8. Klik op Openen.
 9. Selecteer in de structuur 'Intrastatmodel'.
 10. Klik op Importeren.

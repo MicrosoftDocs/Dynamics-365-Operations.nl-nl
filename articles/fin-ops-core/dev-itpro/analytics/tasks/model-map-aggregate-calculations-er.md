@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3084882dd4b51f067793b3a7999ce89cda1257d9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0912b620fc70f8ed33e336da9ecefacd1f4e376e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184595"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143172"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Modeltoewijzingsconfiguraties gebruiken voor samengevoegde berekeningen op databaseniveau gebruiken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure bevat informatie voor het ontwerpen van een nieuwe ER-modeltoewijzingsconfiguratie (elektronische aangifte) en past de ingebouwde ER-functies toe voor efficiënte statistische berekeningen. In deze procedure maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc. 
 
 Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembeheerder of Elektronische aangifteontwikkelaar. Deze stappen kunnen worden voltooid met elke dataset.
 
- Voordat u deze stappen uitvoert, voert u eerst de stappen uit in de procedure “ER verbetert de efficiency van aggregatieberekeningen door ze uit te voeren op databaseniveau (Deel 1: Configuraties voorbereiden).”
+ Voordat u deze stappen uitvoert, voert u de stappen uit in de procedure ER verbetert de efficiency van aggregatieberekeningen door ze uit te voeren op databaseniveau (Deel 1: Configuraties voorbereiden).
 
 1. Ga naar Organisatiebeheer > Elektronische rapportage > Configuraties.
 2. Vouw in de structuur 'Intrastat-model' uit.
@@ -52,7 +52,7 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembehee
     * Transactiegroepen  
 14. Klik op Groeperen op bewerken
 15. Selecteer "Transactions" in de structuur.
-    * Selecteer de toegevoegde gegevensbron van het type ‘Recordlijst’ die de records aangeeft die u wilt groeperen.  
+    * Selecteer de toegevoegde gegevensbron van het type Recordlijst die de records aangeeft die u wilt groeperen.  
 16. Klik op Veld toevoegen aan.
 17. Klik op Wat groeperen.
 18. Vouw "Transactions" uit in de structuur.
@@ -70,7 +70,7 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembehee
 27. Typ 'SumOfAmountMST' in het veld Naam
     * Geef de naam op van deze aggregatie in de geconfigureerde gegevensbron.  
 28. Klik op Opslaan.
-    * Houd er rekening mee dat het veld 'Uitvoering in' aangeeft dat deze groepering in runtime wordt uitgevoerd in de SQL-database.  
+    * Houd er rekening mee dat het veld Uitvoering in aangeeft dat deze groepering in runtime wordt uitgevoerd in de SQL-database.  
 29. Sluit de pagina.
 30. Klik op OK.
 31. Vouw in de structuur 'Totalen' uit.
@@ -79,7 +79,7 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembehee
 34. Selecteer in de structuur 'TransactionsGroups\aggregated\SumOfAmountMST'.
 35. Selecteer in de structuur 'Totalen\Totale factuurwaarde(TotalInvoiceValue) = IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded')'.
 36. Klik op Binden.
-    * Op basis van deze instelling berekent deze gegevensbron de som van de waarden van het veld 'AmountMST' voor elke transactiegroep. Deze aggregatieberekening is beschikbaar als het item TransactionsGroups.aggregated.TotalAmount.  
+    * Op basis van deze instelling berekent deze gegevensbron de som van de waarden van het veld AmountMST voor elke transactiegroep. Deze aggregatieberekening is beschikbaar als het item TransactionsGroups.aggregated.TotalAmount.  
 37. Vouw in de structuur 'TransactionsGroups' uit.
 38. Selecteer in de structuur 'TransactionsGroups'.
 39. Klik op Bewerken.
@@ -92,8 +92,8 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembehee
 46. Selecteer 'Max' in het veld Methode.
 47. Typ in het veld Naam 'MaxOfAmountMST'.
 48. Klik op Opslaan.
-    * De uitvoering van de GROUPBY-gegevensbronnen kan dan met een aantal beperkingen worden vertaald naar het niveau van de SQL-database. Vertaling is mogelijk voor gegevensbronnen van het type 'Recordlijst' of voor gegevensbronnen die als een expressie worden weergegeven met de FILTER-functie. Dit kan ook worden uitgevoerd wanneer slechts één aggregatie wordt geconfigureerd voor één veld met groeperingsrecords.  
-    * Houd er rekening mee dat hoewel er meer dan één aggregatie is geconfigureerd voor het veld AmountMST, het veld 'Uitvoering in' nog steeds aangeeft dat deze groepering in runtime wordt uitgevoerd in de SQL-database. Dit komt doordat slechts één aggregatie is gekoppeld aan het gegevensmodelitem en dat deze wordt gebruikt om in runtime gegevens op te halen uit deze gegevensbron.  
+    * De uitvoering van de GROUPBY-gegevensbronnen kan dan met een aantal beperkingen worden vertaald naar het niveau van de SQL-database. Vertaling is mogelijk voor gegevensbronnen van het type Recordlijst of voor gegevensbronnen die als een expressie worden weergegeven met de FILTER-functie. Dit kan ook worden uitgevoerd wanneer slechts één aggregatie wordt geconfigureerd voor één veld met groeperingsrecords.  
+    * Houd er rekening mee dat hoewel er meer dan één aggregatie is geconfigureerd voor het veld AmountMST, het veld Uitvoering in nog steeds aangeeft dat deze groepering in runtime wordt uitgevoerd in de SQL-database. Dit komt doordat slechts één aggregatie is gekoppeld aan het gegevensmodelitem en dat deze wordt gebruikt om in runtime gegevens op te halen uit deze gegevensbron.  
 49. Sluit de pagina.
 50. Klik op OK.
 51. Vouw in de structuur 'TransactionsGroups' uit.
@@ -105,7 +105,7 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembehee
 57. Selecteer in de structuur 'TransactionsGroups'.
 58. Klik op Bewerken.
 59. Klik op Groeperen op bewerken
-    * Houd er rekening mee dat het veld 'Uitvoering in' aangeeft dat deze groepering in runtime in het geheugen wordt uitgevoerd omdat beide aggregaties van hetzelfde veld zijn gekoppeld aan de gegevensmodelitems.   
+    * Houd er rekening mee dat het veld Uitvoering in aangeeft dat deze groepering in runtime in het geheugen wordt uitgevoerd omdat beide aggregaties van hetzelfde veld zijn gekoppeld aan de gegevensmodelitems.   
 60. Selecteer of deselecteer alle rijen in de lijst.
 61. Klik op Verwijderen.
 62. Klik op Ja.
@@ -115,5 +115,5 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembehee
 66. Klik op Wat groeperen.
 67. Vouw in de structuur 'Basisproductrecord(Intrastat)' uit.
 68. Klik op Opslaan.
-    * Het veld 'Uitvoering in' geeft aan dat deze groepering in runtime in het geheugen wordt uitgevoerd, hoewel er geen aggregaties zijn gedefinieerd en de geselecteerde gegevensbron van het type 'Tabelrecords' naar dezelfde Intrastat-tabel verwijst. Dit komt doordat de gegevensbron een aantal berekende velden bevat die nog niet kunnen worden omgezet naar het niveau van de SQL-database.  
+    * Het veld Uitvoering in geeft aan dat deze groepering in runtime in het geheugen wordt uitgevoerd, hoewel er geen aggregaties zijn gedefinieerd en de geselecteerde gegevensbron van het type Tabelrecords naar dezelfde Intrastat-tabel verwijst. Dit komt doordat de gegevensbron een aantal berekende velden bevat die nog niet kunnen worden omgezet naar het niveau van de SQL-database.  
 

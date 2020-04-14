@@ -3,7 +3,7 @@ title: Documentatie of training maken met Taakrecorder
 description: In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, hoe u taakregistraties maakt en hoe u Microsoft-taakbegeleidingen aanpast en opneemt in uw Help.
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 927f6475e60b5b93aac0e0c2840cb0b4fc7f0ac8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006190"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164553"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Documentatie of training maken met Taakrecorder
 
@@ -40,8 +40,6 @@ In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, 
 Taakrecorder is een hulpmiddel waarmee u de acties vast kunt leggen die u uitvoert in de gebruikersinterface (UI) van het product. Wanneer u Taakregistratie gebruikt, worden alle gebeurtenissen die u in de UI uitvoert die voor de server worden uitgevoerd, inclusief het toevoegen van waarden, wijzigen van instellingen, verwijderen van gegevens, vastgelegd. De stappen die u registreert worden samen een *taakregistratie* genoemd. Taakregistraties kunnen op verschillende manieren worden gebruikt:
 
 -   **Taakregistratie kunnen worden afgespeeld als taakbegeleidingen.** Taakbegeleidingen zijn een integraal onderdeel van de gebruikerservaring in de Help. Een taakbegeleiding is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. De gebruiker wordt door middel van een pop-upprompt (of ballon) om elke stap te voltooien, door de hele UI en het wijst naar het UI-element waarmee de gebruiker interactie aan moet gaan. De 'ballon' geeft ook informatie over het werken met het element, zoals 'Klik hier' of 'In dit veld een waarde invoeren'. Een taakbegeleiding wordt uitgevoerd op de huidige gegevensset van de gebruiker en de ingevoerde gegevens worden opgeslagen in de omgeving van de gebruiker.
--   **Taakregistraties kunnen als procedurestappen in het Help-deelvenster worden weergegeven.** U kunt het Help-deelvenster gebruiken om te zoeken naar Taakregistraties en deze weer te geven. U kunt het Help-deelvenster openen door te klikken op het pictogram **?** bovenin de navigatiebalk of u kunt de sneltoetscombinatie **Ctrl+Shift+?** gebruiken. U kunt de stappen van een taakregistratie in het Help-deelvenster lezen, of u kunt ervoor kiezen de registratie als een taakbegeleiding af te spelen zodat deze u door UI begeleidt.
--   **Taakregistraties kunnen worden opgeslagen in BPM.** U kunt uw taakregistratie opslaan op een regel van een hiërarchie in een BPM-bibliotheek in Lifecycle Services (LCS). Een lijst van stappen en een bedrijfsprocesstroomdiagram worden van de registratie gegenereerd. Taakregistraties die in een taak BPM-bibliotheek zijn opgeslagen, kunnen als Help worden weergegeven.
 -   **Taakregistraties kunnen als Word-documenten worden opgeslagen.** Zo kunt u eenvoudig afdrukbare trainingshandleidingen produceren.
 
 U kunt uw eigen taakregistraties maken, door Microsoft geleverde taakregistraties afspelen of wijzigen, zodat uw configuratie wordt weerspiegelt. Zie voor meer informatie over Taakrecorder het onderwerp [Taakrecorder](task-recorder.md).
@@ -114,10 +112,9 @@ U kunt de taakregistraties van Microsoft downloaden en bewerken om ze voor uw ei
 10. Nadat de registratie helemaal is afgespeeld, klikt u op **Stoppen** in de taakregistratiebalk boven aan het scherm.
 11. Geef op hoe u de taakregistratie wilt opslaan.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Uw taakregistraties opnemen in het Help-deelvenster
-Om uw eigen taakregistraties in het Help-deelvenster weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Zie voor meer informatie [Verbinding maken met het Help-systeem](../../fin-ops/get-started/help-connect.md).
 
-<a name="additional-resources"></a>Aanvullende resources
+
+<a name="additional-resources"></a>Aanvullende bronnen
 --------
 
 [Help-systeem](../../fin-ops/get-started/help-overview.md)

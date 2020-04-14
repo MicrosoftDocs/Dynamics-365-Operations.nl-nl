@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28a82ea8747fcbbceb835291ad5cd3d87091a736
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a087fa63bfdf4c2340f0fe9a8bdbd9195a7b90b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190690"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144059"
 ---
 # <a name="approve-application-inbox-records"></a>Sollicitatiepostvakrecords goedkeuren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure laat zien hoe u sollicitaties kunt controleren die zijn ontvangen via de pagina's Selfservice werknemer. Naast sollicitaties controleren kunt u de sollicitatie goedkeuren in vakrecords die u selecteert. Bij Postvak IN-sollicitatierecords gaat het om sollicitaties die ter overweging aan het bedrijf zijn voorgelegd. Nadat goedkeuring van een record wordt een sollicitantrecord gemaakt voor de persoon die de sollicitatie heeft ingediend. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

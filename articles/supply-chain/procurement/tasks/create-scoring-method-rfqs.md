@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cbbc941b810cd8e5db5ba15a23dc6bd72a29506
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e0e1fe2a27998c01012e40d80eacf13aa11f5689
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838065"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147337"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Een scoringsmethode maken voor offerteaanvragen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure laat zien hoe u een scoringsmethode maakt. Een scoringsmethode is een set van criteria die kan worden gebruikt om biedingen te vergelijken die in antwoord op een offerteaanvraag zijn verzonden. Zo kunt u bijvoorbeeld een leverancier beoordelen op vroegere prestaties of beoordelen of het bedrijf milieuvriendelijk is of goed meewerkt, of u kunt biedingen vergelijken op basis van de prijs. De scoringsmethode kan als standaardscoringsmethode aan een verzoektype worden gekoppeld voor offerteaanvragen van dat type. Deze taken worden meestal uitgevoerd door een inkoopmanager. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens.
 

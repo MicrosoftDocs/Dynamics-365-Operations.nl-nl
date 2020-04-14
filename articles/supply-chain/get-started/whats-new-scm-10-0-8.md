@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fb34ecc0ff5966ae09fdb00e80134a11eceb30a2
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: d62cf8be089eb8bccaf323041bf446b7f120b93f
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097445"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164530"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.8 (februari 2020)
 
@@ -32,13 +32,14 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 - **Preview-versie:** december 2019
 - **Algemene beschikbaarheid (zelfupdate):** januari 2020
-- **Automatische update:** februari 2020 
+- **Automatische update:** februari 2020
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
 Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](https://docs.microsoft.com/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. Een aantal van deze functies kan ook in een eerdere incrementele release zijn opgenomen, maar is niet aangekondigd in een eerder onderwerp *Nieuwe functies*. Daarom worden ze hier toegevoegd. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
 - [Extra locatiezone](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [Activabeheer](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management) - Zie voor meer informatie [Overzicht van activabeheer](../asset-management/index.md).
 - [Werk annuleren](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work) - Zie voor meer informatie [Magazijnwerk voor afhandeling van uitzonderingen annuleren](../warehousing/cancel-warehouse-work.md).
 - [Werkgroep voor werk wijzigen](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
 - [Clusterpositie vol](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)

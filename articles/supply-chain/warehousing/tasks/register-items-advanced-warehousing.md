@@ -17,20 +17,20 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec15a5d35c360ed8f8eddffc44d303df193ce3e7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2550e32db8b0d769f62c13654aa1dc1d201388ff
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847254"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148319"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure toont hoe u artikelen registreert via het artikelontvangstjournaal wanneer u de geavanceerde magazijnbeheerprocessen gebruikt. Dit wordt gewoonlijk uitgevoerd door een ontvangstadministrateur. 
 
-U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. U moet een bevestigde inkooporder met een openstaande inkooporderregel hebben voordat u deze handleiding start. Het artikel op de regel moet in voorraad zijn opgeslagen, er mogen geen productvarianten worden gebruikt en het mag geen traceringsdimensies hebben. En het artikel moet zijn gekoppeld aan een opslagdimensiegroep die gebruikmaakt van magazijnbeheerprocessen. Het magazijn dat wordt gebruikt moet zijn ingeschakeld voor magazijnbeheerprocessen en de locatie die u voor het ontvangen gebruikt moet worden gecontroleerd op nummerplaat. Als u USMF gebruikt, kunt u bedrijfsrekening 1001, Magazijn 51 en artikel M9200 gebruiken om de IO te maken. 
+U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. U moet een bevestigde inkooporder met een openstaande inkooporderregel hebben voordat u deze handleiding start. Het artikel op de regel moet in voorraad zijn opgeslagen, er mogen geen productvarianten worden gebruikt en het mag geen traceringsdimensies hebben. En het artikel moet zijn gekoppeld aan een opslagdimensiegroep die gebruikmaakt van magazijnbeheerprocessen. Het magazijn dat wordt gebruikt, moet zijn ingeschakeld voor magazijnbeheerprocessen en de locatie die u voor het ontvangen gebruikt, moet worden gecontroleerd op nummerplaat. Als u USMF gebruikt, kunt u bedrijfsrekening 1001, Magazijn 51 en artikel M9200 gebruiken om de IO te maken. 
 
 Noteer het nummer van de inkooporder die u maakt en noteer ook het artikelnummer en de site die u voor de inkooporderregel gebruikt.
 

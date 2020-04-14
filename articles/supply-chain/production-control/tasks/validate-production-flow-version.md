@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 523f6414ec212aef48eece487f4199ea2cf4b87e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5dfd5655ecdfa74d75490b0915c4cea609baebe3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836141"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146493"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Een productiestroom en -versie valideren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure toont aan hoe u een nieuwe productiestroom en een eerste versie voor lean manufacturing maakt. Vereisten: De productieparameters voor lean manufacturing en de maateenheden voor de klasse Tijd moeten worden gedefinieerd. U moet een Waardestroom en een Productiegroep definiëren. Raadpleeg de whitepapers over lean manufacturing om uzelf vertrouwd te maken met de concepten van productiestromen en activiteiten. Deze procedure verwijst naar de rechtspersoon USMF in demogegevens. Als we er echter van uitgaan dat de rechtspersoon voor lean manufacturing is geconfigureerd, kunnen andere rechtspersonen worden gebruikt.
 

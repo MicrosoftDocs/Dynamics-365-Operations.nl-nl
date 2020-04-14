@@ -3,7 +3,7 @@ title: ER-bestemmingstype voor printer
 description: Dit onderwerp bevat informatie over het configureren van een printerbestemming voor elke MAP- of BESTAND-component van een ER-indeling (elektronische rapportage) die wordt geconfigureerd voor het genereren van uitgaande documenten in PDF- of Microsoft Office-indeling (Excel\Word).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58e067baa130458e3a8e788d978604f208140a03
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 148da191ce4ea99c237895c40ec007a1aa0cd537
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019707"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150787"
 ---
-# <a name="PrinterDestinationType"></a>Printerbestemming
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Printerbestemming
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,7 +65,9 @@ De bestemming **Printer** is alleen geïmplementeerd voor cloudimplementaties.
 > [!NOTE]
 > De optie **Converteren naar PDF** hoeft niet ingeschakeld te zijn wanneer u de bestemming **Printer** configureert. De PDF-conversie wordt voor afdrukdoeleinden uitgevoerd, zelfs als de optie is uitgeschakeld.
 
-## <a name="additional-resources"></a>Aanvullende resources
+Als u een bepaalde [afdrukstand](electronic-reporting-destinations.md#SelectPdfPageOrientation) wilt gebruiken wanneer u een uitgaand document afdrukt in Excel-indeling, moet u de optie **Converteren naar PDF** inschakelen. Wanneer u de optie **Converteren naar PDF** instelt op **Ja**, wordt het veld **Afdrukstand** beschikbaar. Selecteer een afdrukstand in het veld **Afdrukstand**.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)

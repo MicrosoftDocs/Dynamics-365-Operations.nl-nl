@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 677aacb72d1c3f33bed8bb6c9cd32e5dbca677cc
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: de62c246e022a315852f9b1b21f3378b3408a00f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844916"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150153"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Een stuklijst maken voor een op dimensies gebaseerd productmodel
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Voor deze procedure moet u de vorige 4 begeleidingen in deze reeks van acht registraties hebben voltooid. Met de eerste 4 registraties zijn gegevens ingesteld die nodig zijn om deze procedure te voltooien. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze taak wordt doorgaans afgehandeld door de productontwerper.
 

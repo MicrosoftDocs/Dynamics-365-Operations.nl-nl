@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f61228d328521d0c6fe8e0ae704001a65d03151f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 207309e8be6c097cec187f3475a489330e1f6b6c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249222"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142680"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER-expressies ontwerpen om methoden voor toepassingsklassen aan te roepen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze handleiding bevat informatie over het opnieuw gebruiken van de bestaande toepassingslogica in ER-configuraties (elektronische rapportage) door vereiste methoden van toepassingsklassen aan te roepen in ER-expressies. Waarden van argumenten voor het aanroepen van klassen kunnen tijdens de uitvoering dynamisch worden gedefinieerd: bijvoorbeeld op basis van gegevens in het parseerdocument om de juistheid te waarborgen. In deze taakbegeleiding maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembeheerder of Elektronische aangifteontwikkelaar. 
 
@@ -41,7 +41,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "ER E
     * Selecteer de Microsoft-providertegel.  
 2. Klik op Opslagplaatsen.
 3. Klik op Filters weergeven.
-4. Voeg het filterveld ‘Typenaam’ toe. In het veld Naam voert u de waarde 'resources' in, selecteert u de filteroperator 'bevat' en klikt u vervolgens op Toepassen.
+4. Voeg het filterveld ‘Typenaam’ toe. In het veld Naam voert u de waarde "resources" in, selecteert u de filteroperator "bevat" en klikt u vervolgens op Toepassen.
 5. Klik op Openen.
 6. Selecteer Betalingsmodel in de structuur.
     * Als de knop Importeren in het sneltabblad Versies niet is ingeschakeld, hebt u versie 1 al geïmporteerd van de ER-configuratie 'Betalingsmodel'. U kunt de overige stappen in deze subtaak overslaan.   

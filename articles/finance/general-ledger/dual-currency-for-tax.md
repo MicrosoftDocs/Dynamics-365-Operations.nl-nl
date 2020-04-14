@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124088"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161587"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Ondersteuning van twee valuta's voor btw
 [!include [banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ De functie voor twee valuta's voor Dynamics 365 Finance werd geïntroduceerd in 
 
 In eerdere versies werden transacties in deze volgorde omgezet naar de aangiftevaluta: 
 
-Het transactietotaal werd berekend in de transactievaluta > het transactiebedrag werd omgerekend naar de valuta voor boekhouding > het bedrag van de valuta voor boekhouding werd omgerekend naar de aangiftevaluta
+- Het transactietotaal werd berekend in de transactievaluta > het transactiebedrag werd omgerekend naar de valuta voor boekhouding > het bedrag van de valuta voor boekhouding werd omgerekend naar de aangiftevaluta
 
 Na inschakeling van de functie voor twee valuta's werden transacties in deze volgorde omgezet naar de aangiftevaluta:
 
@@ -48,8 +48,6 @@ Als gevolg van de ondersteuning voor twee valuta's zijn er twee nieuwe functies 
 - Automatisch btw-vereffeningssaldo in aangiftevaluta (vrijgave in versie 10.0.11)
 
 Ondersteuning voor twee valuta's voor btw zorgt ervoor dat btw nauwkeurig wordt berekend in de belastingvaluta en dat het btw-vereffeningssaldo nauwkeurig wordt berekend in zowel de valuta voor boekhouding als de aangiftevaluta. 
-
-De nieuwe functies zijn momenteel ingeschakeld voor klanten die deelnemen aan beperkte preview. Als u de functies wilt inschakelen, dient u een serviceaanvraag bij Microsoft in via de juiste kanalen.
 
 ## <a name="sales-tax-conversion"></a>Btw-conversie
 

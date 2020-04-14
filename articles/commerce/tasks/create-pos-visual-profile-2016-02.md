@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc7d50805ec771d042732f36a42c2d9fb3c16cdf
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b265a94c6d8f9e2534e1509e4f33c6f8a05eded0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022126"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140926"
 ---
 # <a name="create-point-of-sale-pos-visual-profiles"></a>Visuele profielen voor verkooppunten (POS) maken
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Deze procedure doorloopt het maken van een nieuw visueel profiel voor een verkooppunt (POS). Een visueel profiel bevat basisinformatie die het uiterlijk van POS-registers bepaalt. U kunt meerdere weergaveprofielen maken en toewijzen welke profielen er op specifieke kassa's moeten worden geactiveerd. Deze procedure gebruikt het demobedrijf USRT.
 

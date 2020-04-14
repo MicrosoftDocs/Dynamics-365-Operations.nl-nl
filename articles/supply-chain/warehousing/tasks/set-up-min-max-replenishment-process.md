@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
-ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
+ms.openlocfilehash: e8210369139b3c3d4123deff5279abb26b1cbb17
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "2559184"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145957"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Een min./max. aanvullingsproces instellen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure laat zien hoe u een nieuw aanvullingsproces instelt waarin de strategie van min./max. aanvulling wordt gebruikt. Wanneer de voorraad onder het minimumniveau valt, wordt werk gemaakt om de locatie aan te vullen. De procedure laat ook zien hoe u vaste orderverzamellocaties kunt gebruiken om herbevoorrading mogelijk te maken zelfs als de voorraad onder het minimumniveau valt, en hoe het aanvullingsproces regelmatig kan worden uitgevoerd met een batchtaak. Deze taken worden meestal uitgevoerd door een magazijnmanager. U kunt deze procedure in het demobedrijf USMF uitvoeren met behulp van de onderstaande voorbeeldwaarden of u kunt de procedure op uw eigen gegevens uitvoeren. Als u uw eigen gegevens gebruikt, moet u ervoor zorgen dat u een magazijn hebt dat voor de magazijnbeheerprocessen is ingeschakeld.
 
@@ -35,7 +35,7 @@ Deze procedure laat zien hoe u een nieuw aanvullingsproces instelt waarin de str
 1. Ga naar **Navigatievenster > Modules > Magazijnbeheer > Instellingen > Magazijn > Vaste locaties**. Dit is een optionele taak voor min./max. aanvulling, maar als u vaste orderverzamellocatie gebruikt, kan de voorraad zelfs worden aangevuld als deze onder het minimumniveau valt, omdat het systeem kan bepalen welke artikelen moeten worden aangevuld, zelfs als er geen meer zijn.
 2. Klik op **Nieuw**.
 3. Typ of selecteer een waarde in het veld **Artikelnummer**. Als u USMF gebruikt, kunt u artikel A0001 selecteren.  
-4. Typ of selecteer een waarde in het veld **Locatie**. Als u USMF gebruikt, kunt u Vestiging 2 selecteren.  
+4. Typ of selecteer een waarde in het veld **Locatie**. Als u USMF gebruikt, kunt u locatie 2 selecteren.  
 5. Typ of selecteer een waarde In het veld **Magazijn**. Als u USMF gebruikt, kunt u magazijn 24 selecteren.  
 6. Typ of selecteer een waarde in het veld **Locatie**. Als u USMF gebruikt, kunt u CP-003 selecteren.  
 7. Sluit de pagina.
@@ -46,7 +46,7 @@ Deze procedure laat zien hoe u een nieuw aanvullingsproces instelt waarin de str
 3. Klik in het **actievenster** op **Nieuw**.
 4. Typ een waarde in het veld **Naam**.
 5. Selecteer 'Picken' in het veld **Werktype**.
-6. Typ of selecteer een waarde in het veld **Locatie**. Als u USMF gebruikt, kunt u Vestiging 2 selecteren.  
+6. Typ of selecteer een waarde in het veld **Locatie**. Als u USMF gebruikt, kunt u locatie 2 selecteren.  
 7. Typ of selecteer een waarde In het veld **Magazijn**. Als u USMF gebruikt, kunt u magazijn 24 selecteren.  
 8. Klik op **Opslaan**.
 9. Klik in de sectie **Regels** op **Nieuw**.
@@ -90,7 +90,7 @@ Deze procedure laat zien hoe u een nieuw aanvullingsproces instelt waarin de str
 9. Markeer in de lijst de geselecteerde rij.
 10. Typ of selecteer een waarde in het veld **Aanvullingseenheid**. Selecteer bijvoorbeeld stuks. Deze instelling moet worden opgegeven. Met deze instelling kunt u een andere maateenheid opgeven voor aanvullingswerk in vergelijking met de eenheid die is opgegeven voor de minimale en maximale voorraadniveaus in deze sjabloon.
 11. Typ of selecteer een waarde in het veld **Werksjabloon**. Kies de werksjabloon die u eerder hebt gemaakt.  
-12. Typ een getal in het veld **Minimumhoeveelheid**. Selecteer de minimumhoeveelheid die de aanvulling moet activeren. Stel dit bijvoorbeeld in op 50. Het is mogelijk om deze instelling op nul te laten staan, als u een vaste locatie aanvult en de optie **Lege vaste locaties aanvullen** is ingesteld op ´Ja´. Het wordt om prestatieredenen ook aanbevolen de optie **Alleen vaste locaties aanvullen** te selecteren.
+12. Typ een getal in het veld **Minimumhoeveelheid**. Selecteer de minimumhoeveelheid die de aanvulling moet activeren. Stel dit bijvoorbeeld in op 50. Het is mogelijk om deze instelling op nul te laten staan, als u een vaste locatie aanvult en de optie **Lege vaste locaties aanvullen** is ingesteld op Ja. Het wordt om prestatieredenen ook aanbevolen de optie **Alleen vaste locaties aanvullen** te selecteren.
 13. Typ een getal in het veld **Maximumhoeveelheid**. Stel dit bijvoorbeeld in op 100.  
 14. In het veld **Eenheid** typt of selecteert u een waarde. Wijs de eenheid voor de minimale en maximale hoeveelheden toe. Stel dit bijvoorbeeld in op stuks.  
 15. Schakel het selectievakje **Lege vaste locaties aanvullen** in. Schakel dit selectievakje in om vaste locaties aan te vullen wanneer ze leeg zijn. Anders worden alleen de locaties aangevuld waar er een hoeveelheid voorhanden is.

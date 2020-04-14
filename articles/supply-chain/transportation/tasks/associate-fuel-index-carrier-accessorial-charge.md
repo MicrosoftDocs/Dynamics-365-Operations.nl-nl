@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae0aa90cfd673704bcd8e19f795499283ff01d44
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0fbd58fb6b03f3c6eb5e54f811d98ad636e65a94
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560950"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146371"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Een brandstofindex aan een vervoerder koppelen als bijkomende toeslag
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze handleiding laat zien hoe u een bijkomende toewijzing, een bijkomende toeslag van vervoerder en een bijkomend model voor brandstoftoeslag kunt maken en een brandstofindex vervoerder kunt koppelen aan een vervoerder. U moet een brandstofindex van vervoerder instellen voordat u deze handleiding uitvoert. U kunt de handleiding "Brandstofindex van een vervoerder instellen" gebruiken om dit te doen. Deze instellingstaken worden gewoonlijk uitgevoerd door een logistiek manager. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

@@ -454,6 +454,8 @@
                   items:
                     - name: Geavanceerde automatische toeslagen configureren en gebruiken
                       href: omni-auto-charges.md
+                    - name: Automatische toeslagen per kanaal inschakelen en configureren
+                      href: auto-charges-by-channel.md
                     - name: Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels
                       href: pro-rate-charges-matching-lines.md
                 - name: Continuïteitsprogramma's beheren
@@ -525,7 +527,7 @@
                 - name: Een nieuw product maken
                   items:
                     - name: Een nieuw product maken in Commerce
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Productcategorieën en producten beheren
                       href: category-management-product-creation.md
                 - name: Productkenmerken
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Afmelden voor gepersonaliseerde aanbevelingen
                       href: personalization-gdpr.md
-                - name: Lijsten met productaanbevelingen toevoegen aan een e-commerce-site
-                  href: add-reco-list-to-page.md
                 - name: POS-ervaringen
                   items:
                     - name: Productaanbevelingen op POS toevoegen
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: Orderbevestigingsmodule
                       href: order-confirmation-module.md
+                    - name: Winkelselectiemodule
+                      href: store-selector.md
                 - name: Accountbeheermodules
                   items:
                     - name: Accountbeheerpagina's en -modules
@@ -2115,7 +2117,7 @@
                 - name: Gebruik van betalingsgegevens
                   href: payment-connector-data-fields.md
                 - name: Bescherming tegen dubbele betaling inschakelen voor betalingsconnector
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Betalingspakket maken voor Toepassingsverkenner in Service Fabric-implementaties
                   href: dev-itpro/payment-connector-package.md
             - name: Uitbreidbaarheid van e-commerce van derde

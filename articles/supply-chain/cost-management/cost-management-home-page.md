@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: df8552aab5f1566dccf0b905c2d5db372671ec09
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249627"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144106"
 ---
 # <a name="cost-management-home-page"></a>Startpagina Kostenbeheer
 
@@ -32,12 +32,13 @@ ms.locfileid: "2249627"
 
 Met [Kostenbeheer (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) kunt u werken met de waardering en boekhouding van grondstoffen, halffabricaten, eindproducten en onderhanden werk. Dit is het proces voor het definiëren, beheren en rapporteren van [voorraadboekhouding](cost-object.md) en [productieboekhouding](bom-calculations.md).
 
-U kunt kostenbeleid definiëren in de volgende gebieden: 
--  [Vooraf bepaalde kosten](costing-versions.md)
--  [Voorraadboekhouding](cost-object.md)
--  [Productieboekhouding](bom-calculations.md)
--  [Boekhouding indirecte kosten](costing-sheets.md)
--  [Grootboekintegratie](production-order-cost-analysis.md)
+U kunt kostenbeleid definiëren in de volgende gebieden:
+
+- [Vooraf bepaalde kosten](costing-versions.md)
+- [Voorraadboekhouding](cost-object.md)
+- [Productieboekhouding](bom-calculations.md)
+- [Boekhouding indirecte kosten](costing-sheets.md)
+- [Grootboekintegratie](production-order-cost-analysis.md)
 
 Zo kunt u opgeven welke methoden voor voorraadwaardering, zoals [FIFO](fifo-physical-value-marking.md), [Gewogen gemiddelde](weighted-average-physical-value-marking.md), [Standaardkosten](prerequisites-standard-costs.md) of [Zwevend gemiddelde](moving-average.md), moeten worden toegepast op producten in de [artikelmodelgroep](../inventory/reserve-inventory-quantities.md) in Voorraadboekhouding.
 
@@ -51,23 +52,16 @@ De [Power BI-inhoud voor Kostenbeheer](../../dev-itpro/analytics/cost-management
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
-Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om te zien welke nieuwe functies zijn vrijgegeven en welke nieuwe functies in ontwikkeling zijn. 
+Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om te zien welke nieuwe functies zijn vrijgegeven en welke nieuwe functies in ontwikkeling zijn.
 
 #### <a name="white-paper"></a>Whitepaper
-In [Stuklijstberekening aan de hand van kostprijsberekening](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) wordt het instellen van een kostenblad dat materiaal en productie omvat, evenals de invloed van de instellingen op de resultaten van de stuklijstberekening beschreven. Ter verduidelijking zijn hierin concrete scenario's en gegevens opgenomen waarmee het effect van de verschillende instellingen en configuraties wordt gedemonstreerd. We verwachten niet dat u al deze scenario's volgt, omdat dit document niet voldoende gegevens bevat om ze te configureren. Desondanks kunt u, als u over de basiskennis beschikt, de onderstaande taakbegeleidingen proberen af te spelen in de volgorde waarin ze worden weergegeven. Gebruik de informatie in dit document voor het uitvoeren van een analyse van de stuklijstberekening. 
 
--  [Een eindproduct maken](tasks/create-finished-product-2016-02.md)
--  [Een halffabricaat maken](tasks/create-semi-finished-product-2016-02.md)
--  [Grondstoffen maken](tasks/create-raw-materials-2016-02.md)
--  [Stuklijsten maken](tasks/create-boms-2016-02.md)
--  [Routes maken](tasks/create-routes-2016-02.md)
--  [Een stuklijst berekenen met behulp van een structuur met één niveau](tasks/calculate-bom-single-level-structure-2016-02.md)
--  [Een stuklijst berekenen met behulp van een structuur met meerdere niveaus](tasks/calculate-bom-multilevel-structure-2016-02.md)
-
+In [Stuklijstberekening aan de hand van kostprijsberekening](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) wordt het instellen van een kostenblad dat materiaal en productie omvat, evenals de invloed van de instellingen op de resultaten van de stuklijstberekening beschreven. Ter verduidelijking zijn hierin concrete scenario's en gegevens opgenomen waarmee het effect van de verschillende instellingen en configuraties wordt gedemonstreerd.
 
 #### <a name="blogs"></a>Weblogs
+
 U vindt meningen, nieuws en andere informatie over Kostenbeheer in de [blog van het R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) en de [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Kostenbeheer, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
 
 #### <a name="task-guides"></a>Taakbegeleidingen
-Extra informatie is beschikbaar als taakbegeleidingen. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
 
+Extra informatie is beschikbaar als taakbegeleidingen. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.

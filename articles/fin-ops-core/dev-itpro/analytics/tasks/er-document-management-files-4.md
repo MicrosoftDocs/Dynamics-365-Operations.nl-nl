@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f715be8c151f62a4bbb4cc295d3158fe5a17e084
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: f5639a46c105e735d028e903513b4fcfb1f0d968
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550804"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142611"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 4 - Indeling uitvoeren)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de Documentbeheerbestanden (bijlagen) in ER-uitvoer. Deze stappen kunnen in het DEMF-bedrijf worden uitgevoerd.
 
@@ -65,7 +65,7 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 7. Klik op Filter.
 8. Selecteer de rij van het Klantfacturenjournaal en het veld Verkooporder.
 9. Typ 000148 in het veld Criteria.
-    * Typ in het criteriaveld Verkooporder het ordernummer 000148.  
+    * Typ in het criteriaveld "Verkooporder" het ordernummer 000148.  
 10. Klik op OK.
 11. Klik op OK.
     * Controleer de gegenereerde uitvoer. Merk op dat voor elke bijlage één XML-knooppunt is gemaakt. De inhoud van de bijlage is gevuld met de XML-uitvoer in de tekstindeling MIME (base64).  

@@ -16,16 +16,16 @@ ms.search.region: Netherlands
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b0310312b46556181cf82dcd39666f791ca08218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3babf88211bfded0dc2aa0bc0d16d2ba444cf47d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174680"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140644"
 ---
 # <a name="nl-00003-semansys-xbrl-integration"></a>NL-00003 Semansys XBRL-integratie
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure begeleidt u door het gebruik van Nederlandse functionaliteit om financiële gegevens naar de XML-indeling te exporteren. Deze procedure is gemaakt met het demobedrijf DEMF, met het primaire adres van de rechtspersoon bijgewerkt zodat het in Nederland ligt.
 

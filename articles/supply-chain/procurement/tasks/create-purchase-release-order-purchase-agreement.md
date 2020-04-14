@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da161c9066c822f8c09e5eda90994e8b03af4681
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: da25486207319879a9acc8376f3f2c78f9b8d939
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916851"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149683"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Een vrijgaveorder maken voor inkoop van een inkoopovereenkomst
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Deze procedure laat zien hoe u een inkoopovereenkomst gebruikt wanneer u een inkooporder maakt. De inkoopovereenkomst moet worden toegepast wanneer u de inkooporder maakt omdat er algemene voorwaarden zijn die naar de koptekst van de inkooporder moeten worden gekopieerd. Deze taak worden meestal uitgevoerd door een inkoopagent. Als vereiste voor deze taakbegeleiding moet u een effectieve inkoopovereenkomst met een toezegging van een producthoeveelheid hebben voor een leverancier en voor artikelen. Dezelfde procedure kan worden gebruikt als u een inkoopovereenkomst met andere typen toezeggingen hebt. U kunt deze handleiding uitvoeren in het demobedrijf USMF. Als u USMF gebruikt, kunt u eerst de begeleiding 'Een inkoopovereenkomst maken' uitvoeren om de benodigde condities voor deze begeleiding in te stellen.
+Deze procedure laat zien hoe u een inkoopovereenkomst gebruikt wanneer u een inkooporder maakt. De inkoopovereenkomst moet worden toegepast wanneer u de inkooporder maakt omdat er algemene voorwaarden zijn die naar de koptekst van de inkooporder moeten worden gekopieerd. Deze taak worden meestal uitgevoerd door een inkoopagent. Als vereiste voor deze taakbegeleiding moet u een effectieve inkoopovereenkomst met een toezegging van een producthoeveelheid hebben voor een leverancier en voor artikelen. Dezelfde procedure kan worden gebruikt als u een inkoopovereenkomst met andere typen toezeggingen hebt. U kunt deze handleiding uitvoeren in het demobedrijf USMF. Als u USMF gebruikt, kunt u eerst de begeleiding "Een inkoopovereenkomst maken" uitvoeren om de benodigde condities voor deze begeleiding in te stellen.
 
 
 ## <a name="create-a-purchase-order"></a>Inkooporder maken

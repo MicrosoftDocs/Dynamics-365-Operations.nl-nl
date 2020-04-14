@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4a34a03dc5bb3cec37bbccdf913bee5088af6a0
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c5306d41ab91213fdc7de0d3dd23d6845c5b8657
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844604"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147728"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Een vrijgegeven product maken voor een enkel bedrijf
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure geeft aan hoe één vrijgegeven product kan worden gemaakt in de context van één juridische eenheid. Nadat het vrijgegeven product is gemaakt, is het onmiddellijk beschikbaar in alleen deze eenheid. U kunt deze procedure uitvoeren in demobedrijf USMF. Deze taak wordt gewoonlijk uitgevoerd door een productontwerper.
 

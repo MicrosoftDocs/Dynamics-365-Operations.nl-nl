@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77583232ee69819ea9ba28dd101326341d61c42d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a19d5b364305b817e3fd8e5e9001ed52db80c508
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177165"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137886"
 ---
 # <a name="define-cost-control-units"></a>Kostenbeheereenheden definiëren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure laat zien hoe u kostenbeheereenheden definieert in het grootboek van kostprijsboekhouding. U selecteert de kostenobjectdimensie waarvoor u kosten wilt beheren in het grootboek. De kostenobjectdimensieleden worden getransformeerd tot kostenobjecten van de kostenbeheereenheden. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USP2.
 

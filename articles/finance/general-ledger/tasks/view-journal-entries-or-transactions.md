@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c72ea9b7b706e1dbd8e4261534f098589535886
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f463b7764288918609cba364acf342eed28ad929
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185906"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144646"
 ---
 # <a name="view-journal-entries-or-transactions"></a>Journaalboekingen of transacties weergeven
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In deze procedure ziet u hoe u met het Boekstuktransactiesonderzoek kunt zoeken naar journaalboekingen of transacties.
 

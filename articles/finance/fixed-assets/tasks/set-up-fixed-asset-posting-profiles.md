@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 494af854d408f0b0c02d753ff3d24eb3d6216fd9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 07961d8613b6b5e0e1c5dc6a91b554305dcb17f5
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177133"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138156"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Boekingsprofielen voor vaste activa instellen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze taakbegeleiding stelt boekingsprofielen voor vaste activa in.  Het gebruikt de accountantsrol en demogegevens voor de USMF-rechtspersoon.  De voorbeelden in de taakbegeleiding zijn voor een basisboekingsprofiel, hoewel de boekingsprofielen voor uw specifieke rekeningschema en financiële rapportagebehoeften moeten worden gemaakt.
 
@@ -34,7 +34,7 @@ Deze taakbegeleiding stelt boekingsprofielen voor vaste activa in.  Het gebruikt
 3. Typ een waarde in het veld **Boekingsprofiel**.
 4. Typ een waarde in het veld **Beschrijving**. U moet een boekingsprofiel maken voor elk type vaste-activatransactie dat u gebruikt bij het werken met vaste activa. Deze taakbegeleiding start met het type Verwervingstransactie.  
 5. Klik in de werkbalk op **Toevoegen**.
-6. Typ of selecteer een waarde in het veld **Boek**. Met het veld **Groeperingen** kunt u het boekingsprofiel definiëren tot de Tabel (één rekening ingesteld voor elk vast activum) of Groep (één rekening ingesteld voor elke vaste-activagroep). Voor deze taakbegeleider laat u de waarde staan op 'Alle', om het toe te passen op alle vaste activa met het opgegeven boek.  
+6. Typ of selecteer een waarde in het veld **Boek**. Met het veld **Groeperingen** kunt u het boekingsprofiel definiëren tot de Tabel (één rekening ingesteld voor elk vast activum) of Groep (één rekening ingesteld voor elke vaste-activagroep). Voor deze taakbegeleider laat u de waarde staan op Alle, om het toe te passen op alle vaste activa met het opgegeven boek.  
 7. Geef in het veld **Hoofdrekening** de gewenste waarden op. Voor verwervingen kunt u een tegenrekening invoeren. U kunt het veld ook leeg laten, zodat dit later wordt ingevuld voor de specifieke transactie.    
 8. Selecteer in het vervolgkeuzemenu op het sneltabblad **Grootboekrekeningen** de optie Verwervingscorrectie. Voor verwervingscorrectietransacties worden dezelfde rekeningen als voor verwervingstransacties gebruikt.  
 9. Klik op **Toevoegen**.

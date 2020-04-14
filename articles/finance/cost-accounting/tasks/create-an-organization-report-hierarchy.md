@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5684c710b8e167a4a39f106eb3c0fd77e3011dbd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 02c87d25db447c82fd00042a37c040c52fa366a9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187838"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144431"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Een organisatierapporthiërarchie maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Gebruik deze procedure om een rapporthiërarchie te maken voor organisatierapportage. Het doel van deze registratie is u te helpen door de dimensiehiërarchie, zodat u door kunt gaan totdat de hele organisatierapportagestructuur is gemaakt. Deze registratie gebruikt het USP2-demogegevensbedrijf.
 

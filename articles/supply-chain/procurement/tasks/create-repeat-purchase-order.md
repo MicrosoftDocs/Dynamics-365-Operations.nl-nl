@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0abbce32e2fabe860077502875b92f93ea0ea95c
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 488fb1bea2d2ae06c92c20afdd98735928eee3b8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867072"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147291"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Een herhalingsinkooporder maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een herhalingsinkooporder (IO) kunt maken door regels vanuit een eerder inkooporderdocument naar een nieuwe inkooporder of naar een bestaande inkooporder te kopiëren. Er zijn twee methoden voor het maken van herhalingsorders. U kunt de acties die beschikbaar zijn op documentniveau gebruiken vanuit het actievenster of u kunt de regeldetailacties gebruiken. De acties op documentniveau zijn voornamelijk bedoeld voor het maken van een nieuwe inkooporder door regels en koptekstinformatie vanuit een andere order toe te voegen, terwijl de regeldetailsactie voornamelijk wordt gebruikt voor het toevoegen van regels aan een bestaande order. Het voorbeeld dat in deze handleiding wordt weergegeven, kan worden gebruikt in het USMF-demobedrijf. Deze taak wordt meestal uitgevoerd door een inkoopagent.
 
@@ -57,7 +57,7 @@ In dit onderwerp wordt beschreven hoe u een herhalingsinkooporder (IO) kunt make
 
 ## <a name="copy-lines-to-an-existing-purchase-order"></a>Regels kopiëren naar een bestaande inkooporder  
 
-In plaats van een volledige orderr te kopiëren, is het gebruikelijker om een nieuwe inkooporder te maken, informatie in te voeren in de IO-koptekst en vervolgens afzonderlijke regels te kopiëren vanuit bestaande orders.  
+In plaats van een volledige order te kopiëren, is het gebruikelijker om een nieuwe inkooporder te maken, informatie in te voeren in de IO-koptekst en vervolgens afzonderlijke regels te kopiëren vanuit bestaande orders.  
 
 1. Selecteer **Inkooporderregel**.
 2. Selecteer **Van alle**. De pagina die wordt geopend is identiek aan de eerder weergegeven pagina, maar er zijn andere opties geselecteerd wanneer deze wordt geopend vanuit de weergave van de orderregels. Laten we de parameters maar eens gaan bekijken.   

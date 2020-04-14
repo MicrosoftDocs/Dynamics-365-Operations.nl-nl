@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e35dbc489608c0aa3bfb13db5ae237f854612b1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 954bfe3972e46eac803681a5a09e85661999f1d6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844111"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149660"
 ---
 # <a name="create-a-request-for-quotation"></a>Een offerteaanvraag maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure laat u zien hoe u een offerteaanvraag maakt. Dit wordt gewoonlijk gedaan door een inkoper. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens. U moet de verzoektypen hebben ingesteld voordat u begint. Zodra u deze taak hebt voltooid en een offerteaanvraag hebt gemaakt en verzonden, kunt u de antwoorden per leverancier invoeren, deze vergelijken en het contract toekennen.
 

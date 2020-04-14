@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 164b347e1c929f60762793799a500a7203f0f72f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 38db4a5f93f4b755cfd6fee43eaef27672551077
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189885"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143829"
 ---
 # <a name="create-an-operating-unit"></a>Een operationele eenheid maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Een operationele eenheid is een organisatie die wordt gebruikt om het beheer van economische middelen en operationele processen in een bedrijf te verdelen. Personen in een operationele eenheid moeten optimaal gebruikmaken van schaarse middelen, processen verbeteren en rekenschap afleggen van hun prestaties. De typen operationele eenheden omvatten kostenplaatsen, bedrijfseenheden, afdelingen en waardestromen. Gebruik de volgende procedure om een operationele eenheid te maken. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

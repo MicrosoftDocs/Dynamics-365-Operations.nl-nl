@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 327f03435ab55551953fd998dd89c831c76c4c26
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 208b1be20a8833afbf4929a7ceda706aeb5bda3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182595"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142081"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER-configuraties ontwerpen om rapporten in Word-indeling te genereren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met een rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-indeling (elektronische rapportage) kan configureren, waarmee rapporten in de vorm van Microsoft Word-bestanden worden gegenereerd. Deze stappen kunnen in het GBSI-bedrijf worden uitgevoerd.
 
-Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de taakbegeleiding “Een ER-configuratie maken voor het genereren van rapporten in OPENXML-indeling“. U moet van tevoren ook de volgende sjablonen downloaden en lokaal opslaan voor het voorbeeldrapport:
+Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de taakbegeleiding "Een ER-configuratie maken voor het genereren van rapporten in OPENXML-indeling". U moet van tevoren ook de volgende sjablonen downloaden en lokaal opslaan voor het voorbeeldrapport:
 
 - [Sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266)
 - [Gebonden sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266)
@@ -68,7 +68,7 @@ Momenteel wordt het Excel-document gebruikt als sjabloon voor het genereren van 
 Open dit document in Word en doe het volgende:  
 1. Open het tabblad Word-ontwikkelaar (pas het lint aan als dat nog niet is ingeschakeld).
 2. Selecteer het deelvenster XML-toewijzing.
-3. Selecteer het aangepaste XML-onderdeel Rapport in de zoekopdracht.
+3. Selecteer het aangepaste XML-onderdeel 'Report' in de zoekopdracht.
 4. Voer de toewijzing uit van de elementen van het geselecteerde, aangepaste XML-onderdeel aan de inhoudsbesturingselementen van het Word-document.  5. Sla het bijgewerkte Word-document op een lokaal station op.  
 
 ## <a name="upload-the-word-template-with-custom-xml-part-bounded-to-content-controls"></a>De Word-sjabloon met aangepaste XML-onderdeel, dat is gebonden aan inhoudsbesturingselementen, uploaden

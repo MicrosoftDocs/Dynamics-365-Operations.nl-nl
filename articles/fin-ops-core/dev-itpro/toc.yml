@@ -162,24 +162,52 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Instellingen voor twee keer wegschrijven van Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
+                            - name: Initiële synchronisatie
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
+                              items:
+                                - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Systeemvereisten en vereisten vooraf
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: Uw omgevingen koppelen met behulp van de wizard Twee keer wegschrijven
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Entiteitstoewijzing voor twee keer wegschrijven inschakelen
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: Twee keer wegschrijven beheren
+                          items:
+                            - name: Entiteits- en veldtoewijzingen aanpassen
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Foutbeheer en waarschuwingsmeldingen
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Levenscyclusbeheer voor toepassing
+                              href: data-entities/dual-write/app-lifecycle-management.md
                         - name: Toewijzingsconcepten tussen apps
                           items:
-                            - name: Organisatiehiërarchie van Common Data Service
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Bedrijfsintegratie
-                              items:
-                                - name: Bedrijfsconcept in Common Data Services
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Automatisch laden met bedrijfsgegevens
-                                  href: data-entities/dual-write/bootstrap-company-data.md
                             - name: Model voor geïntegreerde klanten
                               href: data-entities/dual-write/customer-mapping.md
+                            - name: Integratie van leverancier
+                              items:
+                                - name: Model voor geïntegreerde leveranciers
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Schakelen tussen leverancierontwerpen
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Loyaliteitskaarten en beloningspunten voor klanten
+                              href: data-entities/dual-write/loyalty-mapping.md
                             - name: Productintegratie
                               items:
                                 - name: Uniforme productervaring
                                   href: data-entities/dual-write/product-mapping.md
                                 - name: Geïntegreerde sites en magazijnen
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Bedrijfsintegratie
+                              items:
+                                - name: Bedrijfsconcept in Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Opstarten met bedrijfsgegevens
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Organisatiehiërarchie van Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
                             - name: Financiële en belastinggegevens
                               items:
                                 - name: Toegang tot referentiegegevens voor financiën en belastingen
@@ -188,12 +216,8 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Model voor geïntegreerde belasting
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Integratie van leverancier
-                              items:
-                                - name: Model voor geïntegreerde leveranciers
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Schakelen tussen leverancierontwerpen
-                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Op verzoek synchroniseren met de Dynamics 365 Supply Chain Management-prijsengine
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Prospect naar contant geld in twee keer wegschrijven
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: Interne activa voor onderhoudsbeurten
@@ -204,11 +228,25 @@
                           items:
                             - name: Ondersteuning voor Field Service-oplossingen en oplossingen voor Project Service Automation
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Initiële synchronisatie
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: Problemen met gegevensintegratie oplossen
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Integratie met Power Platform Data Integrator
+                            - name: Problemen oplossen
+                              items:
+                                - name: Controleer of twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Common Data Service
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Problemen tijdens de initiële instelling oplossen
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Problemen tijdens de initiële synchronisatie oplossen
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Problemen met de module Twee keer wegschrijven in Finance and Operations-apps oplossen
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Problemen met live synchronisatie oplossen
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: Problemen met betrekking tot inzicht in de oplossing oplossen
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: Problemen met betrekking tot upgrades van Finance and Operations-apps oplossen
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Algemene probleemoplossing
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Integratie met Power Platform
                       items:
                         - name: Een scenario van prospect tot contant geld configureren
                           items:
@@ -392,6 +430,8 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: Databasevernieuwing maken
                       href: database/api/v1/reference-create-refresh.md
+                    - name: Een database-export maken
+                      href: database/api/v1/reference-create-export.md
                     - name: Status van bewerkingsactiviteit ophalen
                       href: database/api/v1/reference-get-status.md
         - name: Demogegevens
@@ -1032,6 +1072,8 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Controle en diagnose
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: Effectanalyserapport
+              href: lifecycle-services/impact-analysis-report.md
             - name: Omgevingsservices opnieuw starten
               href: lifecycle-services/restart-environment-services.md
             - name: Een storing in de productie rapporteren
@@ -1396,6 +1438,10 @@
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: Een storing in de productie rapporteren
               href: lifecycle-services/report-production-outage.md
+            - name: Databaselogboeken configureren en beheren
+              href: sysadmin/configure-manage-database-log.md
+            - name: Cache voor OData-metagegevens maken wanneer de AOS wordt gestart
+              href: sysadmin/odata-warmup.md
         - name: 'Upgrades, updates en hotfixes'
           items:
             - name: 'Resources voor upgrades, updates en hotfixes'

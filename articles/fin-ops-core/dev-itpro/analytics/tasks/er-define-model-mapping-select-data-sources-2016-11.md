@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46dc13416aa094f33879c017c1a1815fc791409d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185101"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142158"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>ER-modeltoewijzingen definiëren en gegevensbronnen hiervoor selecteren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage gegevensbronnen kan selecteren voor een ER-gegevensmodel (elektronische rapportage). De gegevensbronnen worden verbonden met afzonderlijke onderdelen van het geselecteerde gegevensmodel tijdens ontwerptijd en vullen zakelijke gegevens in dat gegevensmodel in tijdens de uitvoering. In dit voorbeeld selecteert u gegevensbronnen voor een bestaand gegevensmodel dat voor het voorbeeldbedrijf, Litware, Inc. is gemaakt. Als u deze stappen wilt uitvoeren, moet u de stappen in de procedure Een nieuw gegevensmodel maken eerst uitvoeren.
+In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage gegevensbronnen kan selecteren voor een ER-gegevensmodel (elektronische rapportage). De gegevensbronnen worden verbonden met afzonderlijke onderdelen van het geselecteerde gegevensmodel tijdens ontwerptijd en vullen zakelijke gegevens in dat gegevensmodel in tijdens de uitvoering. In dit voorbeeld selecteert u gegevensbronnen voor een bestaand gegevensmodel dat voor het voorbeeldbedrijf, Litware, Inc. is gemaakt. Als u deze stappen wilt uitvoeren, moet u de stappen in de procedure "Een nieuw gegevensmodel maken" eerst uitvoeren.
 
 
 ## <a name="open-the-electronic-reporting-configurations-tree"></a>De structuur met ER-configuraties openen
@@ -78,7 +78,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 17. Selecteer "Transactions\Voucher" in de structuur.
 18. Klik op Gegevensbron toevoegen.
 19. Typ in het veld Formule: 'CONCATENATE(Transactions.Voucher, "-", '. (Let op de spatie tussen komma en enkel aanhalingsteken.)
-    * Typ [ , "- ", ] aan het einde van de formule.  
+    * Typ [ , "-", ] aan het einde van de formule.  
 20. Selecteer "String\TEXT" in de structuur.
 21. Klik op Functie toevoegen.
 22. Selecteer "Transactions\Record-ID(RecId)" in de structuur.

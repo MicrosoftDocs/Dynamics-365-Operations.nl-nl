@@ -1,6 +1,6 @@
 ---
-title: Afschrijvingsboeken voor activa instellen (mei 2016)
-description: Deze taakbegeleiding maakt een nieuw afschrijvingsboek en koppelt dit aan een vaste-activagroep.
+title: Afschrijvingsboeken instellen
+description: In deze procedure doorloopt u het proces voor het maken van een nieuw afschrijvingsboek en leest u hoe u dit koppelt aan een vaste-activagroep.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6840e211847494598a81cd3228dbd3796447e18c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186895"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154593"
 ---
-# <a name="set-up-depreciation-books-may-2016"></a>Afschrijvingsboeken voor activa instellen (mei 2016)
+# <a name="set-up-depreciation-books"></a>Afschrijvingsboeken instellen 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Deze taakbegeleiding maakt een nieuw afschrijvingsboek en koppelt dit aan een vaste-activagroep.  Het gebruikt de accountantsrol en demogegevens voor de USMF-rechtspersoon.
-
+In deze procedure doorloopt u het proces voor het maken van een nieuw afschrijvingsboek en leest u hoe u dit koppelt aan een vaste-activagroep. 
 
 ## <a name="create-a-depreciation-book"></a>Maak een afschrijvingsboek
 1. Ga naar Vaste activa > Instellingen > Afschrijvingsboeken.

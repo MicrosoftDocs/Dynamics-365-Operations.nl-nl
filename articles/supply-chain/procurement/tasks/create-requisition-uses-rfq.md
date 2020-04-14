@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4429bda6efddbb4f1fa7da06e91e51d885919c05
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: abe6745682030766eabcd4411121866c9d890be0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914949"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149616"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Een bestelopdracht maken die een offerteaanvraag gebruikt
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In dit onderwerp wordt aangegeven hoe u prijs- en leveranciersgegevens kunt toevoegen aan een opdracht tot inkoop vanuit een offerteaanvraagproces. Het voorbeeld dat in deze taakbegeleiding wordt weergegeven kan worden gebruikt in het demobedrijf USMF, en u moet als beheerder zijn aangemeld om alle stappen te kunnen voltooien. De taken in deze taakbegeleiding worden doorgaans uitgevoerd door inkoopprofessionals.
 
@@ -56,7 +56,7 @@ De volgende taak is het maken van een offerteaanvraag om biedingen van leveranci
 2. Selecteer **Historie weergeven**.
 3. Vernieuw de pagina.
 4. Vouw de sectie **Details tracering** uit.
-5. Selecteer in de structuur de regel die begint met Workflow voor regelartikelen die is geactiveerd op.
+5. Selecteer in de structuur de regel die begint met "Workflow voor regel die is geactiveerd op".
 6. Selecteer **Workflowdetails weergeven**.
 7. Vouw de sectie **Werkitems** uit.
 8. Selecteer **Opnieuw toewijzen**.

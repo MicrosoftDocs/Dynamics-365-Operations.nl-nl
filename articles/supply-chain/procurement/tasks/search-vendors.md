@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfa5bfa2eba39b981c5dc1d029f4847651c8fc6f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1982c8dffbc7a65263babce7738045b744db2592
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844028"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149522"
 ---
 # <a name="search-for-vendors"></a>Zoeken naar leveranciers
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Leren hoe u leveranciers zoekt gebaseerd op specifieke criteria. Dit voorbeeld toont hoe u leveranciers zoekt die voor een bepaalde aanschaffingscategorie zijn goedgekeurd en hun primaire adres in een bepaald land hebben. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Deze taak wordt meestal uitgevoerd door een inkoopmedewerker.
 
@@ -34,7 +34,7 @@ Leren hoe u leveranciers zoekt gebaseerd op specifieke criteria. Dit voorbeeld t
 3. Selecteer in de structuur 'CORP PROCUREMENT CATEGORIES\OFFICE MACHINES'.
     * Als u deze procedure als taakbegeleiding uitvoert, moet u misschien op de knop Ontgrendelen klikken voordat u het juiste knooppunt kunt selecteren. Als u USMF niet gebruikt, selecteert u een van de categorieën die u hebt.  
 4. Klik op Toevoegen.
-    * Het is mogelijk om meer dan één categorie hier te selecteren. Als u dit doet, vindt de zoekopdracht alle leveranciers die voor tenminste één van de categorieën zijn goedgekeurd.  
+    * Het is mogelijk om hier meer dan één categorie te selecteren. Als u dit doet, vindt de zoekopdracht alle leveranciers die voor tenminste één van de categorieën zijn goedgekeurd.  
 5. Klik op OK.
 6. Typ een waarde in het veld Land/regio.
 7. Klik op OK.

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90c24e9d89c055ea95ca5f25cd85ef4042476a90
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 07337063c01f146c72ca6d9e0f9096907cdc9638
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187056"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142818"
 ---
 # <a name="create-a-depreciation-proposal"></a>Een afschrijvingsvoorstel maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Dit onderwerp beschrijft hoe afschrijvingsbatchvoorstellen werken en verklaart hoe u afschrijving kunt voorstellen voor vaste activa. Deze taak gebruikt het USMF-demobedrijf en de accountantsrol.
 
@@ -36,7 +36,7 @@ Dit onderwerp beschrijft hoe afschrijvingsbatchvoorstellen werken en verklaart h
 3. Voer een datum in het veld **Einddatum** in.
 
     - Selecteer de optie **Afschrijving samenvatten** als u maandelijkse afschrijvingen in één journaalregel wilt samenvatten.  
-    - Als de waarde van Einddatum bijvoorbeeld 31 maart 2015 is, kan de volgende beschrijving worden gegenereerd: 'Afschrijving sinds 31 januari 2015'. Het veld **Datum** op de voorgestelde journaalregels wordt dan ingesteld op 31 maart 2015.  
+    - Als de waarde van Einddatum bijvoorbeeld 31 maart 2015 is, kan de volgende beschrijving worden gegenereerd: "Afschrijving sinds 31 januari 2015". Het veld **Datum** op de voorgestelde journaalregels wordt dan ingesteld op 31 maart 2015.  
     - Het afschrijvingsvoorstel kan worden gefilterd op activa, activagroep, of andere criteria met de optie **Filteren**.  
     - Wanneer u het formulier **Verwervingsvoorstellen of afschrijvingsvoorstellen maken voor vaste activa** gebruikt, kunt u de afschrijving in batches voorstellen. Dit is wat we voorstellen voor grotere voorstellen die meer systeembronnen gebruiken. Als u de batchoptie selecteert, kunt u in die tijd nog andere taken voltooien. Wanneer u op deze manier afschrijving voorstelt, wordt de afschrijving berekend voor waardemodellen voor vaste activa.  
 

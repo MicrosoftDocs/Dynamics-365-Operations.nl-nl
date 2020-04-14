@@ -3,7 +3,7 @@ title: Product-id's
 description: Dit onderwerp bevat informatie over de verschillende typen product-id's en hierin wordt uitgelegd hoe u product-id's in de productgegevens kunt toevoegen.
 author: cvocph
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
-ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
+ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
+ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095612"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172020"
 ---
-# <a name="product-identifiers"></a>Product-id's 
+# <a name="product-identifiers"></a>Product-id's
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,6 +53,9 @@ Bovendien kan een productvariant niet uniek worden geïdentificeerd op basis van
 Veel pagina's hebben nog het artikelnummer en de productdimensies als de primaire id's. De productnummers kunnen echter worden gebruikt voor zoekopdrachten. Via **Verkoopbeheer en marketing** &gt; **Instellingen** &gt; **Zoeken** &gt; **Zoekparameters** kunt u de zoekopdracht zo wijzigen dat er als primaire zoekstrategie productnummers worden gebruikt in plaats van artikelnummers. Als u de optie **Zoekveld inschakelen om producten te zoeken** instelt op **Ja**, worden in de zoekresultaten niet alleen productmodellen, maar ook productvarianten weergegeven. Zie [Producten en productvarianten zoeken tijdens orderinvoer](search-products-product-variants.md) voor meer informatie.
 
 Daarnaast kunt u ook zoeken en filteren op het productnummer, de productnaam en -omschrijving, en de productdimensie-id's van de productvariant. Als u een variant selecteert, worden het bijbehorende artikelnummer en alle productdimensie-id's geselecteerd. Daarom kunt u de juiste variant gemakkelijker vinden en selecteren. Deze instelling wordt sterk aangeraden als u productvarianten en het unieke productnummer als de primaire id's voor producten gebruikt. De enige uitzondering is mogelijk de mode-industrie, waar de bedrijfsprocessen vaak vereisen dat u het productmodel selecteert voordat u een variant selecteert. U moet deze optie zorgvuldig evalueren voordat u het nummeringssysteem implementeert.
+
+> [!NOTE]
+> Het artikelnummer voor een product kan niet worden gewijzigd als er een of meer transacties voor dat product bestaan.
 
 ## <a name="product-name-and-description"></a>Productnaam en -omschrijving
 
@@ -123,7 +126,7 @@ Helaas is er geen standaardfunctionaliteit waarmee u op externe codes kunt zoeke
 | Producten V2 | Productnummer, zoeknaam voor product, productnaam, productomschrijving | Productnummer, zoeknaam voor product, productnaam, productomschrijving | Afhankelijk van de instellingen van de entiteit en de nummerreeks voor het productnummer, kan het productnummer automatisch worden gemaakt op het moment van importeren. |
 | Productvarianten | Productnummer, zoeknaam voor product, productnaam, productomschrijving | Productnummer, zoeknaam voor product, productnaam, productomschrijving | Afhankelijk van de sjabloon voor de nomenclatuur van producten, kan het productnummer automatisch worden gemaakt op het moment van importeren. U kunt echter elk uniek productnummer importeren en dat productnummer hoeft niet de structuur van de sjablonen voor de nomenclatuur van producten te volgen. |
 | Productvertalingen | Productnaam, productomschrijving | Productnaam, productomschrijving | Deze entiteit overschrijft elke taal. Wanneer de naam of omschrijving van de primaire taal voor een rechtspersoon wordt overschreven, worden de naam en omschrijving van het product zelf gewijzigd. |
-| Vrijgegeven producten V2 | Artikelnummer, productnummer, zoeknaam artikel| Artikelnummer, productnummer, zoeknaam artikel, zoeknaam voor product, productnaam | Deze entiteit kan lastig zijn als nummerreeksen worden gebruikt tijdens het maken van nieuwe vrijgegeven producten. Zowel de nummerreeks **Artikelnummer** als de nummerreeks **Productnummer** heeft invloed. De nummerreeks **Artikelnummer** geldt per rechtspersoon terwijl de nummerreeks **Productnummer** globaal geldt. Daarom raden we u niet aan de nummerreeks **Artikelnummer** te gebruiken wanneer u nieuwe vrijgegeven producten implementeert. Wanneer de entiteit wordt gebruikt voor het vrijgeven van een bestaand product, moet het productnummer vanzelfsprekend wel worden vermeld in de entiteit. Zie de sectie Product- en artikelnummerreeksen in dit onderwerp voor meer informatie. |
+| Vrijgegeven product maken V2 | Artikelnummer, productnummer, zoeknaam artikel| Artikelnummer, productnummer, zoeknaam artikel, zoeknaam voor product, productnaam | Deze entiteit kan lastig zijn als nummerreeksen worden gebruikt tijdens het maken van nieuwe vrijgegeven producten. Zowel de nummerreeks **Artikelnummer** als de nummerreeks **Productnummer** heeft invloed. De nummerreeks **Artikelnummer** geldt per rechtspersoon terwijl de nummerreeks **Productnummer** globaal geldt. Daarom raden we u niet aan de nummerreeks **Artikelnummer** te gebruiken wanneer u nieuwe vrijgegeven producten implementeert. Wanneer de entiteit wordt gebruikt voor het vrijgeven van een bestaand product, moet het productnummer vanzelfsprekend wel worden vermeld in de entiteit. Zie de sectie Product- en artikelnummerreeksen in dit onderwerp voor meer informatie. |
 | Vrijgegeven productvarianten | Artikelnummer, productdimensies, productnummer | Productnummer, zoeknaam voor product, productnaam, productomschrijving, productdimensies | Net als de entiteit **Productvarianten** kan deze entiteit worden gebruikt voor het maken van nieuwe producten die de sjabloon voor de nomenclatuur van producten volgen of hun eigen productnummers voor de variant gebruiken. |
 | Extern-artikelomschrijving voor klanten | Artikelnummer van klant, naam van klantartikel, klantomschrijving, klantrekening | Artikelnummer van klant, naam van klantartikel, klantomschrijving, klantrekening | Een groep klanten (bijvoorbeeld een kopersvereniging) kan worden samengevoegd tot één groep met behulp van de entiteit **Klantengroepen voor extern-artikelomschrijving**. |
 | Extern-artikelomschrijving voor leveranciers | Artikelnummer van leverancier, naam van leveranciersartikel, omschrijving van leverancier, leverancierrekening | Artikelnummer van leverancier, naam van leveranciersartikel, omschrijving van leverancier, leverancierrekening | Een groep leveranciers (bijvoorbeeld een leveranciersvereniging of een brancheorganisatie) kan worden samengevoegd tot één groep met behulp van de entiteit **Leveranciersgroepen voor extern-artikelomschrijving**. |
@@ -144,7 +147,7 @@ U kunt twee verschillende nummerreeksvolgordes definiëren:
 > [!NOTE]
 > Alleen als u verschillende rechtspersonen uit verschillende bronnen met verschillende nummeringssystemen migreert, moet u het artikelnummer als een afzonderlijke id gebruiken. U moet altijd proberen een product-id te gebruiken die uniek is voor alle rechtspersonen. U moet daarom de optie **Handmatig** op **Ja** instellen voor de nummerreeks **Artikelnummer**. Op deze manier volgt het artikelnummer het productnummer wanneer het wordt gemaakt. Als Supply Chain Management niet uw hoofdsysteem is voor nieuwe productnummers, stelt u de optie **Handmatig** in op **Ja** voor de nummerreeksen **Artikelnummer** en **Productnummer**.
 
-Als u werkt met de entiteit **Vrijgegeven product V2** voor het maken van producten, kunnen meerdere instellingen invloed hebben op hoe de nummerreeksen worden gebruikt voor het maken van het productnummer en artikelnummer:
+Als u werkt met de entiteit **Vrijgegeven product maken V2** voor het maken van producten, kunnen meerdere instellingen invloed hebben op hoe de nummerreeksen worden gebruikt voor het maken van het productnummer en artikelnummer:
 
 - Instellingen van de nummerreeks **Productnummer**
 - Instellingen van de nummerreeks **Artikelnummer**
@@ -155,9 +158,9 @@ De volgende tabel biedt een overzicht van de resultaten van het importeren en ha
 
 | Nummerreeks Productnummer | Nummerreeks Artikelnummer | Toewijzing van het artikelnummer | Toewijzing van het productnummer | Resultaat van entiteitsimport | Resultaat van handmatig maken | Conclusie |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
-| Handmatig = Nee | Handmatig = Nee | Geen toewijzing | Geen toewijzing | Productnummers gebruiken de nummerreeks **Productnummer**. Artikelnummers gebruiken de nummerreeks **Artikelnummer**. | Productnummers gebruiken de nummerreeks **Productnummer**. Artikelnummers gebruiken de nummerreeks **Artikelnummer**. | Deze instellingen kunnen worden gebruikt als u een ander nummer nodig hebt voor producten en artikelen. We raden u echter niet aan verschillende nummers te gebruiken voor artikelen en producten. |
-| Handmatig = Nee | Handmatig = Ja | Automatisch genereren | Geen toewijzing | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Artikelnummer**. | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Deze instellingen worden niet aanbevolen. Importeren en handmatig maken werken verschillend. |
-| Handmatig = Nee | Handmatig = Ja | Geen toewijzing | Geen toewijzing | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Deze instellingen worden aanbevolen als producten een consistente automatische nummering moeten hebben, ongeacht of importeren of handmatig maken is gebruikt. |
+| Handmatig = Nee | Handmatig = Nee | Geen toewijzing | Geen toewijzing | Productnummers gebruiken de nummerreeks **Productnummer**. Artikelnummers gebruiken de nummerreeks **Artikelnummer**. | Productnummers gebruiken de nummerreeks **Productnummer**. Artikelnummers gebruiken de nummerreeks **Artikelnummer**. | Met deze configuratie volgen de productnummers de productnummerreeks en artikelnummers de artikelnummerreeks. Deze configuratie werkt echter niet als er meer dan één artikel (rij) moet worden geïmporteerd. |
+| Handmatig = Nee | Handmatig = Ja | Automatisch genereren | Geen toewijzing | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Artikelnummer**. | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Zowel productnummers als artikelnummers gebruiken de productnummerreeks. Dit is de aanbevolen benadering voor het importeren van bulkproducten met de gegevensentiteit Vrijgegeven product maken V2. |
+| Handmatig = Nee | Handmatig = Ja | Geen toewijzing | Geen toewijzing | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Zowel productnummers als artikelnummers gebruiken de productnummerreeks. Deze configuratie werkt echter niet als er meer dan één artikel (rij) moet worden geïmporteerd. |
 | Handmatig = Ja | Niet van toepassing | Niet van toepassing | Automatisch genereren | U ontvangt het foutbericht Nummerreeks kan niet worden gevonden. | Op basis van de nummerreeks **Artikelnummer** | Deze instelling wordt niet ondersteund voor importeren. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Productentiteit-id (alle product-id's exporteren)

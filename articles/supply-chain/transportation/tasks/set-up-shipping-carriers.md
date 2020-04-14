@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a43a99e10b915f1265be14f2442069dae3a22e5
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: bb39d58336e7f867e19d7ba6d9f801200de5a0aa
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867022"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148550"
 ---
 # <a name="set-up-shipping-carriers"></a>Vervoerders instellen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een vervoerder instelt en details bepaalt zoals service, modus van zending, transportaanbesteding, transportbeperkingen en verzendtarief. Een transportcoördinator kan vervolgens een vervoerder toewijzen aan een inkomende of uitgaande lading.
 

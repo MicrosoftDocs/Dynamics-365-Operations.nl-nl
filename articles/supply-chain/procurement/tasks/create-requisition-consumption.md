@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2948282d8b40f7d34ffbae072a195cf954ab6e2
-ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
+ms.openlocfilehash: 6ca44b4793f61d1067b9e0740b9a447d3a2363c2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1738899"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147383"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Een bestelaanvraag voor verbruik maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In dit onderwerp wordt het proces van het maken van een bestelaanvraag beschreven. Het toont u verschillende manieren om producten in uw aanschaffingscatalogus te zoeken en hoe u een product toevoegt dat niet in uw catalogus staat. Voordat u deze procedure start, moet u een inkoopbeleid instellen met Verbruik als standaardtype bestelaanvraag. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken. De procedure kan alleen via een gebruikersprofiel worden uitgevoerd dat is ingesteld als werknemer. Deze taak moet doorgaans worden uitgevoerd door een werknemer. De werknemersrol **Werknemer** staat toe dat u de taken uitvoert. Als u USMF gebruikt, kunt u zich ook aanmelden als **Alicia**.
 
