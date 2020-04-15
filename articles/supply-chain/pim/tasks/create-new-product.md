@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 722414eee1e738e1438bbb40dbd9b8ca606f9245
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 611fc0cff7fe2d580e971149630e92afd16be228
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844796"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147843"
 ---
 # <a name="create-a-new-product"></a>Een nieuw product maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een gedeeld product maakt. Het wordt gewoonlijk uitgevoerd door een productontwerper. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.
 

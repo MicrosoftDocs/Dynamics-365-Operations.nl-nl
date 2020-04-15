@@ -3,7 +3,7 @@ title: De uitvoering van XML-elementen in ER-indelingen uitstellen
 description: In dit onderwerp wordt uitgelegd hoe u de uitvoering van een XML-element uitstelt in een ER-indeling (elektronische rapportage).
 author: NickSelin
 manager: kfend
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
+ms.openlocfilehash: 58381f491cda199d77e555e5d3da04714b6a5f8f
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3120873"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138918"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>De uitvoering van XML-elementen in ER-indelingen uitstellen
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Overzicht
 
