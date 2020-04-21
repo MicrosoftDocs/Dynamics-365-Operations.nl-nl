@@ -5,6 +5,12 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 13 april 2020
+          href: hr-whats-new-2020-04-13.md
+        - name: 3 april 2020
+          href: hr-whats-new-2020-04-03.md
+        - name: 24 maart 2020
+          href: hr-whats-new-2020-03-24.md
         - name: 19 maart 2020
           href: hr-whats-new-2020-03-19.md
         - name: 10 maart 2020
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: Vergoedingen beheren
           items:
-            - name: 'Previewfunctie: Vergoedingenbeheer'
+            - name: Vergoedingenbeheer
               items:
                 - name: Overzicht van Vergoedingenbeheer
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: Vergoedingsplannen instellen
                       href: hr-benefits-plans-setup.md
-                    - name: Vergoedingsplannen voor medewerkers maken
-                      href: hr-benefits-plans-worker.md
                     - name: Programma's voor flexibel krediet instellen
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: Toekomstige levensgebeurtenissen configureren
-                      href: hr-benefits-plans-future-life-events.md
                 - name: Vergoedingsplannen verwerken
                   items:
                     - name: Geschiktheid voor inschrijving verwerken
@@ -497,8 +499,10 @@
               href: hr-leave-and-absence-plans.md
             - name: Medewerkers toewijzen aan een verlofplan
               href: hr-leave-and-absence-enroll.md
-            - name: Plannen voor opbouwen van verlof en verzuim
+            - name: Verlof- en verzuimplannen toerekenen
               href: hr-leave-and-absence-accrue.md
+            - name: Verlof uitstellen
+              href: hr-leave-and-absence-suspend-leave.md
             - name: Analyses voor verlof en verzuim weergeven
               href: hr-leave-and-absence-analytics.md
             - name: Verlof- en verzuimaanvragen beheren
