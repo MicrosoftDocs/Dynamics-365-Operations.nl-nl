@@ -1,9 +1,9 @@
 ---
 title: Overzicht van Vergoedingenbeheer
-description: Overzicht van de preview-functie Vergoedingenbeheer in Dynamics 365 Human Resources. Bied uw werknemers uitgebreide vergoedingsopties met een gebruiksvriendelijke online ervaring.
+description: Overzicht van de functie Vergoedingenbeheer in Dynamics 365 Human Resources. Bied uw werknemers uitgebreide vergoedingsopties met een gebruiksvriendelijke online ervaring.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63db1b55bae9150dd87d9981136b96d72ffd0c59
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 91a4425b4f020f90843bb3b0b280b7ee28463670
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029458"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230149"
 ---
 # <a name="benefits-management-overview"></a>Overzicht van Vergoedingenbeheer
 
-[!include [banner](includes/preview-feature.md)]
-
-Om concurrerend te blijven, moet u een uitgebreide reeks vergoedingen bieden om goede werknemers aan te trekken en te behouden. Naast standaardvergoedingen, zoals medische en tandheelkundige dekking, kunt u ook uitgebreide services aanbieden, zoals hulp bij adoptie, recreatieprogramma's en kledingtoelagen. De preview-functie Vergoedingenbeheer in Microsoft Dynamics 365 Human Resources biedt u een flexibele oplossing die een breed scala aan vergoedingsopties ondersteunt. Human Resources bevat ook een gebruiksvriendelijke werknemerservaring waarin uw aanbod wordt gepresenteerd.
+Om concurrerend te blijven, moet u een uitgebreide reeks vergoedingen bieden om goede werknemers aan te trekken en te behouden. Naast standaardvergoedingen, zoals medische en tandheelkundige dekking, kunt u ook uitgebreide services aanbieden, zoals hulp bij adoptie, recreatieprogramma's en kledingtoelagen. De functie Vergoedingenbeheer in Microsoft Dynamics 365 Human Resources biedt u een flexibele oplossing die een breed scala aan vergoedingsopties ondersteunt. Human Resources bevat ook een gebruiksvriendelijke werknemerservaring waarin uw aanbod wordt gepresenteerd.
 
 - De verbeterde functionaliteit voor vergoedingsplannen biedt u de mogelijkheid om unieke vergoedingsplannen te maken en beheren en ondersteunt complexe vergoedingstarieftabellen en geneste niveaus. U kunt eenvoudig vergoedingsprogramma's, bundels en automatische inschrijvingsregels maken voor een gebruiksvriendelijker werknemerservaring.
 
@@ -39,30 +37,30 @@ Om concurrerend te blijven, moet u een uitgebreide reeks vergoedingen bieden om 
 
 - U kunt werknemers een gebruiksvriendelijke optie bieden om zich online in te schrijven voor vergoedingen.
 
-- De verwerking van levensgebeurtenissen die recht geven op bepaalde vergoedingen, is geïntegreerd in het werkgebied Werknemerselfservice en biedt ook ondersteuning voor toekomstige levensgebeurtenissen.
+- De verwerking van gekwalificeerde levensgebeurtenissen ondersteunt toekomstige levensgebeurtenissen.
 
 Als u toegang wilt tot de demogegevens, moet u de sandbox-omgeving opnieuw implementeren.
 
-U kunt direct feedback geven of problemen melden via: D365BenefitsPreview@microsoft.com.
-
 ## <a name="benefits-management-known-issues"></a>Bekende problemen met Vergoedingenbeheer
 
-### <a name="eligibility-processing"></a>Geschiktheidsverwerking
+### <a name="flex-credit-programs"></a>Programma's voor flexibele kredieten
 
-Bij het uitvoeren van de geschiktheidsverwerking voor vergoedingen met een dekkingsbedrag van 1-5X het salaris, % van salaris en een vast bedrag, moet de datum bij **Vergoedingsdetails** worden ingesteld op de **Begindatum voor werknemer** in **Historie dienstverband**. U moet ook **Gewerkte uren**, **Betalingsfrequentie** en **Jaarlijks salarisbedrag voor vergoedingen** opnemen. Als de medewerker vaste compensatie heeft, voert u de **Gewerkte uren** en de **Betalingsfrequentie** in. Het jaarlijkse salarisbedrag wordt berekend. Als de werknemer een vast salaris heeft, hoeft u **Gewerkte uren** niet in te voeren. Het is raadzaam eerst de vaste compensatie in te voeren wanneer u nieuwe medewerkers maakt. Als u de record met de vergoedingsdetails wilt bijwerken, gaat u naar **Medewerker > Medewerkershistorie > Dienstverbandgegevens**. Stel de datum in op de begindatum van de medewerker.
-
-### <a name="employee-self-service"></a>Werknemerselfservice
-
-Het bedrag van de werknemer wordt niet berekend wanneer het dekkingsbedrag voor de levensverzekering wordt bijgewerkt. Als aan een werknemer bijvoorbeeld een levensverzekeringsplan wordt aangeboden, kan deze maximaal €50.000 aan dekking selecteren tegen een kostprijs van €0,36 per €1.000 aan dekking.  Wanneer de werknemer het dekkingsbedrag bijwerkt, blijven de gekoppelde kosten van de werknemer nul.
-
-Voor een vergoedingsplan dat slechts één selectie van dat plantype toestaat, krijgt de gebruiker een foutmelding als deze een plan probeert af te wijzen na het selecteren van een plan. Een gebruiker selecteert bijvoorbeeld een medisch plan en plaatst dit in zijn of haar winkelwagen. De gebruiker selecteert vervolgens **Afwijzen** voor een ander medisch plan. De gebruiker krijgt een foutmelding.
+De totale kredietwaarde die voor een programma met flexibele kredieten wordt gedefinieerd, wordt niet weergegeven in het formulier **Medewerkervergoedingsplannen**. Als u een programma met flexibele kredieten instelt voor een verdelingsregel van **Geen**, verschijnt een fout in het formulier **Medewerkervergoedingsplannen** wanneer u plannen selecteert en bevestigt.
 
 ## <a name="enable-benefits-management"></a>Vergoedingenbeheer inschakelen
 
-Vergoedingenbeheer is een preview-functie die alleen beschikbaar is in **sandbox**-omgevingen. In deze artikelen wordt beschreven hoe u preview-functies inschakelt in Human Resources. U leest hierin ook welke bestaande functies in Human Resources door Vergoedingenbeheer worden vervangen of worden uitgeschakeld wanneer u Vergoedingenbeheer inschakelt.
+In dit artikel wordt beschreven hoe u functies inschakelt in Human Resources. U leest hier ook welke bestaande functies in Human Resources door Vergoedingenbeheer worden vervangen of worden uitgeschakeld wanneer u Vergoedingenbeheer inschakelt.
+
+> [!IMPORTANT]
+> Nadat u Vergoedingenbeheer in een **productie**omgeving hebt ingeschakeld, kunt u dit niet meer uitschakelen. U wordt aangeraden Vergoedingenbeheer in een **sandbox**-omgeving in te schakelen en te testen voordat u dit in een **productieomgeving** activeert. Er zijn belangrijke verschillen tussen de verouderde vergoedingsfunctionaliteit en de nieuwe functionaliteit voor Vergoedingenbeheer. Hiervoor zijn aanvullende instellingen nodig die moeten worden getest voordat ze in de productie worden gebracht.
 
 - [Functies beheren](hr-admin-manage-features.md)
-- [Preview-functie: Vergoedingenbeheer](hr-admin-manage-features.md?preview-feature-benefits-management)
+
+## <a name="configure-employee-information"></a>Werknemersgegevens configureren
+
+Voordat u werknemers voor vergoedingen kunt inschrijven, moet u de vereiste informatie opgeven. U moet een werknemer inschrijven voor **Plan met vaste compensatie** op de begindatum en u moet een **Betalingsfrequentie voor vergoedingen** selecteren in **Details dienstverband** op het formulier **Medewerker**.
+
+Wanneer u een vergoedingsplan maakt dat tarieven op basis van geslacht of leeftijd gebruikt, moet u een geboortedatum en geslacht invoeren voor de werknemer om de kosten van de vergoeding te berekenen.
 
 ## <a name="configure-benefits-management"></a>Vergoedingenbeheer configureren
 
@@ -70,13 +68,13 @@ Voordat u vergoedingsplannen voor uw werknemers kunt maken, moet u opties voor d
 
 - [Parameters voor Vergoedingenbeheer instellen](hr-benefits-setup-parameters.md)
 - [Geschiktheidsregels en -opties configureren](hr-benefits-setup-eligibility-rules.md)
-- [Geschiktheidsopties voor persoonlijke contactpersonen configureren](hr-benefits-setup-contact-eligibility-options.md)
-- [Dekkingsopties maken](hr-benefits-setup-coverage-options.md)
+- [Opties voor geschiktheid van persoonlijke contactpersonen configureren](hr-benefits-setup-contact-eligibility-options.md)
+- [Opties voor dekking maken](hr-benefits-setup-coverage-options.md)
 - [Betalingsfrequenties instellen](hr-benefits-setup-payment-frequencies.md)
 - [Typen levensgebeurtenissen configureren](hr-benefits-setup-life-event-types.md)
 - [Plantypen maken](hr-benefits-setup-plan-types.md)
 - [Redencodes instellen](hr-benefits-setup-reason-codes.md)
-- [Laagcodes instellen](hr-benefits-setup-tier-codes.md)
+- [Niveaucodes instellen](hr-benefits-setup-tier-codes.md)
 - [Tarieven configureren](hr-benefits-setup-rates.md)
 - [Inhoudingen configureren](hr-benefits-setup-deductions.md)
 - [Wachtdagen configureren](hr-benefits-setup-waiting-days.md)
@@ -91,11 +89,9 @@ Voordat u vergoedingsplannen voor uw werknemers kunt maken, moet u opties voor d
 In de volgende artikelen wordt uitgelegd hoe u vergoedingsplannen, waaronder bundels en flex-kredietprogramma's, kunt maken.
 
 - [Vergoedingsplannen instellen](hr-benefits-plans-setup.md)
-- [Vergoedingsplannen voor medewerkers maken](hr-benefits-plans-worker.md)
-- [Flex-kredietprogramma's instellen](hr-benefits-plans-flex-credit-programs.md)
-- [Toekomstige levensgebeurtenissen configureren](hr-benefits-plans-future-life-events.md)
+- [Programma's voor flexibel krediet instellen](hr-benefits-plans-flex-credit-programs.md)
 
-## <a name="process-benefit-plans"></a>Vergoedingenplannen verwerken
+## <a name="process-benefit-plans"></a>Vergoedingsplannen verwerken
 
 U moet enkele wijzigingen verwerken om deze actief te maken.
 

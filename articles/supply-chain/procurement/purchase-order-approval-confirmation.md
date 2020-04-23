@@ -1,30 +1,30 @@
 ---
 title: Inkooporders goedkeuren en bevestigen
-description: In dit onderwerp worden de statussen beschreven die een inkooporder (IO) doorloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO's.
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+description: In dit onderwerp worden de statussen beschreven die een inkooporder doorloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO's.
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813426"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207989"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Inkooporders goedkeuren en bevestigen
 
@@ -69,9 +69,10 @@ In sommige gevallen moet u mogelijk een IO wijzigen nadat deze de goedkeuringsst
 
 Als de IO is gemaakt met behulp van een proces voor wijzigingsbeheer, kunt u wijzigingen aanbrengen door de order in te trekken of, als de order al goedgekeurd is, door de actie **Wijziging aanvraag** te gebruiken. In dat geval wordt de goedkeuringsstatus terug gewijzigd in **Concept** en kunt u de order aanpassen. Nadat het aanbrengen van wijzigingen is voltooid, moet u wellicht de IO indienen om opnieuw te worden goedgekeurd. U kunt de typen wijzigingen configureren die hernieuwde goedkeuring vereisen door een beleidsregel **Regel voor het opnieuw goedkeuren van inkooporders** te gebruiken op de pagina **Inkoopbeleid**.
 
-Als een deel van de bestelde hoeveelheid voor een IO-regel is geleverd, kunt u de bestelde hoeveelheid niet meer wijzigen. U kunt echter wel de hoeveelheid voor **Nog te leveren** op de regel aanpassen. U kunt dan de actie **Voltooien** gebruiken om regels te annuleren en verdere verwerking te voorkomen. 
+Als een deel van de bestelde hoeveelheid voor een IO-regel is geleverd, kunt u de bestelde hoeveelheid niet meer wijzigen wanneer de inkooporder de status **Concept** heeft. U kunt de hoeveelheid voor **Nog te leveren** echter wijzigen op de regel voor de inkooporder met de status **Concept**.
 
-Nadat eeen order is bevestigd, kunt u deze niet langer verwijderen. U kunt echter wel de totale hoeveelheid of de eventuele resterende hoeveelheid voor een order annuleren, op voorwaarde dat de hoeveelheid nog niet is ontvangen of gefactureerd.
+Nadat eeen order is bevestigd, kunt u deze niet langer verwijderen. U kunt echter wel de totale hoeveelheid of de eventuele resterende hoeveelheid voor een order annuleren, op voorwaarde dat de hoeveelheid nog niet is ontvangen of gefactureerd. U kunt dan de actie **Voltooien** gebruiken om verdere verwerking te voorkomen. 
+
 
 ## <a name="canceling-purchase-orders"></a>Inkooporders annuleren
 

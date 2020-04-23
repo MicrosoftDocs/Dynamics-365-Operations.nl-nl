@@ -1,9 +1,9 @@
 ---
-title: Schermindelingen voor het verkooppunt (POS)
+title: Weergaveconfiguraties van POS-gebruikersinterface
 description: Dit onderwerp biedt informatie over schermindelingen voor Dynamics 365 Commerce.
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022180"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261462"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Schermindelingen voor het verkooppunt (POS)
+# <a name="pos-user-interface-visual-configurations"></a>Weergaveconfiguraties van POS-gebruikersinterface
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Dit onderwerp biedt informatie over schermindelingen voor Dynamics 365 Commerce.
-
-De gebruikersinterface (UI) van POS kan worden geconfigureerd met een combinatie van weergaveprofielen en schermindelingen die worden toegewezen aan winkels, kassa's en/of gebruikers.
+De gebruikersinterface van het Microsoft Dynamics 365 Commerce-POS kan worden geconfigureerd met een combinatie van weergaveprofielen en schermindelingen die worden toegewezen aan winkels, kassa's en/of gebruikers. Dit onderwerp bevat informatie over deze configuratieopties.
 
 In de volgende afbeelding worden de relaties weergegeven tussen de verschillende eenheden waaruit de configureerbare aspecten van de POS-gebruikersinterface bestaan.
 
@@ -40,7 +39,7 @@ In de volgende afbeelding worden de relaties weergegeven tussen de verschillende
 
 ## <a name="visual-profile"></a>Weergaveprofiel
 
-Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de weergave-elementen op te geven die specifiek zijn voor kassa's en worden gedeeld door gebruikers. Alle gebruikers die zich aanmelden bij de kassa krijgen hetzelfde thema en dezelfde kleuren en afbeeldingen te zien.
+Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de weergave-elementen op te geven die specifiek zijn voor kassa's en worden gedeeld door gebruikers. Alle gebruikers die zich aanmelden bij de kassa krijgen hetzelfde thema en dezelfde indeling, kleuren en afbeeldingen te zien.
 
 ![POS-welkomstscherm met licht thema](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de weergav
 
 - **Profielnummer**: het profielnummer is de unieke id van het weergaveprofiel.
 - **Beschrijving**: u kunt een beschrijvende naam opgeven om het juiste profiel voor uw situatie te identificeren.
-- **Thema**: u kunt kiezen tussen de lichte en donkere toepassingthema's. Het thema heeft invloed op de tekst- en achtergrondkleuren in de toepassing.
+- **Thema**: u kunt kiezen tussen de **lichte** en **donkere** toepassingthema's. Het thema heeft invloed op de tekst- en achtergrondkleuren in de toepassing.
 - **Accentkleur**: de accentkleur wordt overal in het POS gebruikt om bepaalde weergave-elementen, zoals tegels, opdrachtknoppen en hyperlinks, te onderscheiden of te markeren. Deze elementen zijn doorgaans uitvoerbaar.
-- **Koptekstkleur**: u kunt de kleur van de koptekst van de pagina configureren om te voldoen aan de huisstijlvereisten van de detailhandelaar. Deze functie is alleen beschikbaar in Retail versie 1611.
-- **Datum/tijd weergeven**: indien ingeschakeld worden de huidige datum en tijd weergegeven in de POS-koptekst.
-- **Aanmeldingsachtergrond**: u kunt een achtergrondafbeelding opgeven voor het aanmeldingsscherm. De bestandsgrootte van achtergrondafbeeldingen moet zo klein mogelijk worden gehouden omdat het opslaan en laden van grote bestanden het gedrag en de prestaties van de toepassing kunnen beïnvloeden.
-- **Achtergrond van de toepassing**: u kunt een achtergrondafbeelding kiezen om in de hele toepassing te gebruiken in plaats van de effen themakleur. Voor aanmeldingsachtergronden moet de bestandsgrootte zo klein mogelijk worden gehouden.
+- **Koptekstkleur**: u kunt de kleur van de koptekst van de pagina configureren om te voldoen aan de huisstijlvereisten van de detailhandelaar.
+- **Lettertypeschema**: u kunt kiezen uit de lettertypeschema's **Standaard** en **Groot**. Het lettertypeschema is van invloed op de tekengrootte in de hele toepassing. De standaardselectie is **Standaard**.
+- **Labels op toepassingsbalk altijd weergeven**: wanneer deze optie is ingeschakeld, is de labeltekst altijd zichtbaar onder de knoppen op de toepassingsbalk.
+- **Indeling**: u kunt kiezen tussen de indelingen **Gecentreerd** en **Recht**. De indeling is van invloed op de uitlijning van het aanmeldingsvenster in het aanmeldingsscherm. De standaardselectie is **Gecentreerd**.
+- **Datum/tijd weergeven**: als deze optie is ingeschakeld, worden de huidige datum en tijd weergegeven in de POS-koptekst en op het aanmeldingsscherm.
+- **Toetsenbord**: u kunt kiezen tussen **Standaard op OS-toetsenbord** en **Numeriek toetsenblok weergeven** om het standaardtoetsenbord op te geven dat wordt gebruikt voor invoer op het aanmeldingsscherm. Het numerieke toetsenblok is een virtueel toetsenbord dat hoofdzakelijk wordt gebruikt voor aanraakapparaten. De standaardselectie is **Standaard op OS-toetsenbord**.
+- **Logoafbeelding**: u kunt een logoafbeelding opgeven die wordt weergegeven op het aanmeldingsscherm. U kunt het beste een afbeelding met een transparante achtergrond gebruiken. De bestandsgrootte moet zo klein mogelijk worden gehouden omdat het opslaan en laden van grote bestanden het gedrag en de prestaties van de toepassing kunnen beïnvloeden.
+- **Aanmeldingsachtergrond**: u kunt een achtergrondafbeelding opgeven voor het aanmeldingsscherm. De bestandsgrootte voor achtergrondafbeeldingen moet zo klein mogelijk worden gehouden.
+- **Achtergrond**: u kunt een achtergrondafbeelding kiezen om in de hele toepassing te gebruiken in plaats van de effen themakleur. Net als bij achtergrondafbeeldingen voor het aanmeldingsscherm moet de bestandsgrootte zo klein mogelijk blijven.
+
+> [!NOTE]
+> De indeling **Recht** en de datum/tijdweergave zijn niet van toepassing op het aanmeldingsscherm in de compacte weergave.
 
 ## <a name="screen-layouts"></a>Schermindelingen
 
-Schermindelingsconfiguraties bepalen de acties, inhoud en plaatsing van de UI-besturingselementen in het POS-welkomstscherm en het scherm **Transactie**.
+Schermindelingsconfiguraties bepalen de acties, inhoud en plaatsing van de UI-besturingselementen in het POS-**welkomstscherm** en het scherm **Transactie**.
 
 ![Weergave POS-schermindeling](../commerce/media/POS-Screen-Layout-View.png)
 

@@ -3,7 +3,7 @@ title: Plantypen maken
 description: Een plantype in Microsoft Dynamics 365 Human Resources is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype heeft een plantypecode waarmee de regels voor het plantype worden bepaald.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d9bb490326c6dbfafa0f186cd05185ac01bad30
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 06a36f9f3fef54e7e06d616c9179374db4ce7115
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092357"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229689"
 ---
 # <a name="create-plan-types"></a>Plantypen maken
-
-[!include [banner](includes/preview-feature.md)]
 
 Een plantype in Microsoft Dynamics 365 Human Resources is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype heeft een plantypecode waarmee de regels voor het plantype worden bepaald. Het plantype Basis leven heeft bijvoorbeeld de plantypecode Leven, omdat het een type levensverzekering is en moet voldoen aan de regels die zijn vastgelegd voor de plantypecode Leven. Een ander plantype kan Aanvullend leven zijn, eveneens met plantypecode Leven.
 
@@ -45,23 +43,23 @@ Een plantype kan dekkingsopties definiëren. De dekkingsopties worden gedefiniee
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Plantype | Een unieke naam die het plantype aanduidt. |
-   | Beschrijving | Een beschrijving van het plantype. |
-   | Plantypecode | Selecteer een plantypecode in de vervolgkeuzelijst met waarden. In de lijst met plantypecodes worden alle plantypen weergegeven die in de huidige versie worden ondersteund. |
-   | Gelijktijdige inschrijving | Geeft aan of een werknemer zich kan inschrijven voor meerdere vergoedingsplannen van hetzelfde plantype of voor slechts één vergoedingsplan per plantype. |
-   | Type contact | Hiermee wordt de rol van de persoonlijke contactpersoon opgegeven. De waarden zijn leeg, Gezinslid en Begunstigde. U kunt Type contact leeg laten als het plantype geen gezinslid of begunstigde vereist op basis van de dekkingsoptie. |
+   | **Plantype** | Een unieke naam die het plantype aanduidt. |
+   | **Beschrijving** | Een beschrijving van het plantype. |
+   | **Code van plantype** | Selecteer een plantypecode in de vervolgkeuzelijst met waarden. In de lijst met plantypecodes worden alle plantypen weergegeven die in de huidige versie worden ondersteund. |
+   | **Gelijktijdige inschrijving** | Geeft aan of een werknemer zich kan inschrijven voor meerdere vergoedingsplannen van hetzelfde plantype of voor slechts één vergoedingsplan per plantype. |
+   | **Type contact** | Hiermee wordt de rol van de persoonlijke contactpersoon opgegeven. De waarden zijn leeg, Gezinslid en Begunstigde. U kunt **Type contact** leeg laten als het plantype geen gezinslid of begunstigde vereist op basis van de dekkingsoptie. |
 
 4. Als u opties voor levensgebeurtenissen wilt configureren, selecteert u **Acties** en vervolgens **Opties voor levensgebeurtenis**. Geef de waarden op voor de volgende velden:
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Plantype | Het plantype waarvoor u opties voor levensgebeurtenissen wilt configureren. |
-   | Type-id van levensgebeurtenis | De id van het type levensgebeurtenis. |
-   | Annulering toestaan | Hiermee wordt opgegeven of een werknemer een vergoedingsplan kan annuleren tijdens de levensgebeurtenis. |
-   |Dekkingsoptie wijzigen | Hiermee wordt opgegeven of een werknemer dekkingsopties kan wijzigen tijdens de levensgebeurtenis. |
-   | Wijzigen in een nieuw plan | Hiermee wordt opgegeven of een werknemer van plan kan veranderen tijdens de levensgebeurtenis. |
-   | Plan automatisch annuleren |Hiermee wordt aangegeven of het plan automatisch wordt geannuleerd tijdens de levensgebeurtenis. |
-   | Geschiktheidscontrole automatisch opnieuw openen | Hiermee wordt aangegeven of de geschiktheidscontrole voor de vergoedinginschrijving automatisch opnieuw wordt geopend tijdens de levensgebeurtenis. |
-   | Tijdsvenster voor rapportage | Geeft het tijdsvenster in dagen op voor de rapportage van de levensgebeurtenis. **Opmerking**: als u geen tijdsduur invoert, wordt aangenomen dat het rapportagevenster nul is en wordt de levensgebeurtenis niet verwerkt. |
+   | **Plantype** | Het plantype waarvoor u opties voor levensgebeurtenissen wilt configureren. |
+   | **Type-id van levensgebeurtenis** | De id van het type levensgebeurtenis. |
+   | **Annulering toestaan** | Hiermee wordt opgegeven of een werknemer een vergoedingsplan kan annuleren tijdens de levensgebeurtenis. |
+   | **Dekkingsoptie wijzigen** | Hiermee wordt opgegeven of een werknemer dekkingsopties kan wijzigen tijdens de levensgebeurtenis. |
+   | **Wijzigen in een nieuw plan** | Hiermee wordt opgegeven of een werknemer van plan kan veranderen tijdens de levensgebeurtenis. |
+   | **Plan automatisch annuleren** | Hiermee wordt aangegeven of het plan automatisch wordt geannuleerd tijdens de levensgebeurtenis. |
+   | **Geschiktheidscontrole automatisch opnieuw openen** | Hiermee wordt aangegeven of de geschiktheidscontrole voor de vergoedinginschrijving automatisch opnieuw wordt geopend tijdens de levensgebeurtenis. |
+   | **Tijdsvenster voor rapportage** | Geeft het tijdsvenster in dagen op voor de rapportage van de levensgebeurtenis. **Opmerking**: als u geen tijdsduur invoert, wordt aangenomen dat het rapportagevenster nul is en wordt de levensgebeurtenis niet verwerkt. |
 
 5. Selecteer **Opslaan**. 
