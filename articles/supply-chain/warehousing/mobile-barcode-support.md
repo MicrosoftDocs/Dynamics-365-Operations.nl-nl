@@ -2,7 +2,7 @@
 title: Ondersteuning mobiele streepjescodelezer
 description: In dit onderwerp wordt beschreven hoe u de app Magazijn voor mobiel scannen op Android-compatibele apparaten gebruikt.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BarcodeSetup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f4f61da42e02bfbf648bd5f6f5fe60c97abf532
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: cbaed4da3ccd17d83c002994f01829f76db0d36a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552181"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215741"
 ---
-# <a name="mobile-barcode-support"></a><span data-ttu-id="958b3-103">Ondersteuning mobiele streepjescodelezer</span><span class="sxs-lookup"><span data-stu-id="958b3-103">Mobile barcode support</span></span>
+# <a name="mobile-barcode-support"></a><span data-ttu-id="7d2e3-103">Ondersteuning mobiele streepjescodelezer</span><span class="sxs-lookup"><span data-stu-id="7d2e3-103">Mobile barcode support</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="958b3-104">Omdat Android een open-sourceproject is, kan elke hardwarefabrikant van streepjescodescanners voor magazijnen een apparaat maken waarop het Android-besturingssysteem kan worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="958b3-104">Because Android is an open source project, any manufacturer of hardware for warehouse bar code scanners can build a device to run the Android operating system.</span></span> <span data-ttu-id="958b3-105">Een apparaat is alleen Android-compatibel als er apps op kunnen worden uitgevoerd die zijn geschreven voor de uitvoeringsomgeving van Android.</span><span class="sxs-lookup"><span data-stu-id="958b3-105">A device is only Android-compatible if it can run apps that are written for the Android execution environment.</span></span>
-<span data-ttu-id="958b3-106">Een hardwareleverancier kan echter overlays wijzigen en maken voor de Android-versie die op hun hardware wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="958b3-106">However, a hardware vendor can modify and create overlays for the Android version that runs on their hardware.</span></span> <span data-ttu-id="958b3-107">Microsoft is op geen enkele manier verantwoordelijk voor de compatibiliteit van een mobiele app voor het scannen van streepjescodes voor Android met de hardware voor het scannen van streepjescodes van de fabrikant en de Android-versie die hierop wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="958b3-107">Microsoft cannot take any responsibility to ensure that a mobile bar code scanning app for Android is compatible with a manufacturer’s bar code scanning hardware and the Android version that runs on it.</span></span> 
+<span data-ttu-id="7d2e3-104">Omdat Android een open-sourceproject is, kan elke hardwarefabrikant van streepjescodescanners voor magazijnen een apparaat maken waarop het Android-besturingssysteem kan worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="7d2e3-104">Because Android is an open source project, any manufacturer of hardware for warehouse bar code scanners can build a device to run the Android operating system.</span></span> <span data-ttu-id="7d2e3-105">Een apparaat is alleen Android-compatibel als er apps op kunnen worden uitgevoerd die zijn geschreven voor de uitvoeringsomgeving van Android.</span><span class="sxs-lookup"><span data-stu-id="7d2e3-105">A device is only Android-compatible if it can run apps that are written for the Android execution environment.</span></span>
+<span data-ttu-id="7d2e3-106">Een hardwareleverancier kan echter overlays wijzigen en maken voor de Android-versie die op hun hardware wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="7d2e3-106">However, a hardware vendor can modify and create overlays for the Android version that runs on their hardware.</span></span> <span data-ttu-id="7d2e3-107">Microsoft is op geen enkele manier verantwoordelijk voor de compatibiliteit van een mobiele app voor het scannen van streepjescodes voor Android met de hardware voor het scannen van streepjescodes van de fabrikant en de Android-versie die hierop wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="7d2e3-107">Microsoft cannot take any responsibility to ensure that a mobile bar code scanning app for Android is compatible with a manufacturer’s bar code scanning hardware and the Android version that runs on it.</span></span> 
 
-<span data-ttu-id="958b3-108">De app Dynamics 365 Supply Chain Management - Magazijnbeheer is getest met een selectie van Android-apparaten voor het scannen van streepjescodes.</span><span class="sxs-lookup"><span data-stu-id="958b3-108">The Dynamics 365 Supply Chain Management - Warehousing app has been tested with a selection of Android powered devices for bar code scanning.</span></span> <span data-ttu-id="958b3-109">Deze tests hebben slechts betrekking op een aantal apparaten die beschikbaar zijn op de markt.</span><span class="sxs-lookup"><span data-stu-id="958b3-109">These tests only cover a sample of the devices that are available on the market.</span></span>
+<span data-ttu-id="7d2e3-108">De app Dynamics 365 Supply Chain Management - Magazijnbeheer is getest met een selectie van Android-apparaten voor het scannen van streepjescodes.</span><span class="sxs-lookup"><span data-stu-id="7d2e3-108">The Dynamics 365 Supply Chain Management - Warehousing app has been tested with a selection of Android powered devices for bar code scanning.</span></span> <span data-ttu-id="7d2e3-109">Deze tests hebben slechts betrekking op een aantal apparaten die beschikbaar zijn op de markt.</span><span class="sxs-lookup"><span data-stu-id="7d2e3-109">These tests only cover a sample of the devices that are available on the market.</span></span>
 
-<span data-ttu-id="958b3-110">Als klant wordt u aangeraden de app Magazijn voor mobiel scannen op bepaalde hardware te testen voordat u besluit welke hardware u wilt aanschaffen.</span><span class="sxs-lookup"><span data-stu-id="958b3-110">As a customer, we recommend that you test the Warehouse mobile scanning app on selected hardware before you decide on the hardware that you want to buy.</span></span>
+<span data-ttu-id="7d2e3-110">Als klant wordt u aangeraden de app Magazijn voor mobiel scannen op bepaalde hardware te testen voordat u besluit welke hardware u wilt aanschaffen.</span><span class="sxs-lookup"><span data-stu-id="7d2e3-110">As a customer, we recommend that you test the Warehouse mobile scanning app on selected hardware before you decide on the hardware that you want to buy.</span></span>
 

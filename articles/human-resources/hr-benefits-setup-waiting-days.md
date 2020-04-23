@@ -3,7 +3,7 @@ title: Wachtdagen configureren
 description: In Microsoft Dynamics 365 Human Resources vormen wachtdagen een maandelijkse mijlpaal voor gebruik voor vergoedingsplannen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,29 +18,27 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a46f296722317f4815bf6b2cb8960455cecee110
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: d85dafefb3b71c368dc3114bbf2524aee6196634
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092427"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229602"
 ---
-# <a name="configure-waiting-days"></a><span data-ttu-id="43d52-103">Wachtdagen configureren</span><span class="sxs-lookup"><span data-stu-id="43d52-103">Configure waiting days</span></span>
+# <a name="configure-waiting-days"></a><span data-ttu-id="e0dc8-103">Wachtdagen configureren</span><span class="sxs-lookup"><span data-stu-id="e0dc8-103">Configure waiting days</span></span>
 
-[!include [banner](includes/preview-feature.md)]
+<span data-ttu-id="e0dc8-104">In Microsoft Dynamics 365 Human Resources vormen wachtdagen een maandelijkse mijlpaal voor gebruik voor vergoedingsplannen.</span><span class="sxs-lookup"><span data-stu-id="e0dc8-104">In Microsoft Dynamics 365 Human Resources, waiting days establish a monthly milestone to use for benefit plans.</span></span> <span data-ttu-id="e0dc8-105">Een wachtdag van 15 vertegenwoordigt bijvoorbeeld de 15e van elke maand.</span><span class="sxs-lookup"><span data-stu-id="e0dc8-105">For example, a waiting day of 15 represents the 15th day of each month.</span></span> 
 
-<span data-ttu-id="43d52-104">In Microsoft Dynamics 365 Human Resources vormen wachtdagen een maandelijkse mijlpaal voor gebruik voor vergoedingsplannen.</span><span class="sxs-lookup"><span data-stu-id="43d52-104">In Microsoft Dynamics 365 Human Resources, waiting days establish a monthly milestone to use for benefit plans.</span></span> <span data-ttu-id="43d52-105">Een wachtdag van 15 vertegenwoordigt bijvoorbeeld de 15e van elke maand.</span><span class="sxs-lookup"><span data-stu-id="43d52-105">For example, a waiting day of 15 represents the 15th day of each month.</span></span> 
+1. <span data-ttu-id="e0dc8-106">Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Wachtdagen**.</span><span class="sxs-lookup"><span data-stu-id="e0dc8-106">In the **Benefits management** workspace, under **Setup**, select **Waiting days**.</span></span>
 
-1. <span data-ttu-id="43d52-106">Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Wachtdagen**.</span><span class="sxs-lookup"><span data-stu-id="43d52-106">In the **Benefits management** workspace, under **Setup**, select **Waiting days**.</span></span>
+2. <span data-ttu-id="e0dc8-107">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="e0dc8-107">Select **New**.</span></span>
 
-2. <span data-ttu-id="43d52-107">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="43d52-107">Select **New**.</span></span>
+3. <span data-ttu-id="e0dc8-108">Geef de waarden op voor de volgende velden:</span><span class="sxs-lookup"><span data-stu-id="e0dc8-108">Specify values for the following fields:</span></span>
 
-3. <span data-ttu-id="43d52-108">Geef de waarden op voor de volgende velden:</span><span class="sxs-lookup"><span data-stu-id="43d52-108">Specify values for the following fields:</span></span>
-
-   | <span data-ttu-id="43d52-109">Veld</span><span class="sxs-lookup"><span data-stu-id="43d52-109">Field</span></span> | <span data-ttu-id="43d52-110">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="43d52-110">Description</span></span> |
+   | <span data-ttu-id="e0dc8-109">Veld</span><span class="sxs-lookup"><span data-stu-id="e0dc8-109">Field</span></span> | <span data-ttu-id="e0dc8-110">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="e0dc8-110">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="43d52-111">Wachtdag</span><span class="sxs-lookup"><span data-stu-id="43d52-111">Waiting day</span></span> | <span data-ttu-id="43d52-112">Een unieke id voor de wachtdag.</span><span class="sxs-lookup"><span data-stu-id="43d52-112">A unique identifier for the waiting day.</span></span> |
-   | <span data-ttu-id="43d52-113">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="43d52-113">Description</span></span> | <span data-ttu-id="43d52-114">Een beschrijving van de wachtdag.</span><span class="sxs-lookup"><span data-stu-id="43d52-114">A description of the waiting day.</span></span> |
-   | <span data-ttu-id="43d52-115">Dag</span><span class="sxs-lookup"><span data-stu-id="43d52-115">Day</span></span> | <span data-ttu-id="43d52-116">De dag van de maand waarop het systeem de datum van de wachtperiode moet instellen.</span><span class="sxs-lookup"><span data-stu-id="43d52-116">The day of the month that the system should set the waiting period date to.</span></span> |
+   | <span data-ttu-id="e0dc8-111">**Wachtdag**</span><span class="sxs-lookup"><span data-stu-id="e0dc8-111">**Waiting day**</span></span> | <span data-ttu-id="e0dc8-112">Een unieke id voor de wachtdag.</span><span class="sxs-lookup"><span data-stu-id="e0dc8-112">A unique identifier for the waiting day.</span></span> |
+   | <span data-ttu-id="e0dc8-113">**Beschrijving**</span><span class="sxs-lookup"><span data-stu-id="e0dc8-113">**Description**</span></span> | <span data-ttu-id="e0dc8-114">Een beschrijving van de wachtdag.</span><span class="sxs-lookup"><span data-stu-id="e0dc8-114">A description of the waiting day.</span></span> |
+   | <span data-ttu-id="e0dc8-115">**Dag**</span><span class="sxs-lookup"><span data-stu-id="e0dc8-115">**Day**</span></span> | <span data-ttu-id="e0dc8-116">De dag van de maand waarop het systeem de datum van de wachtperiode moet instellen.</span><span class="sxs-lookup"><span data-stu-id="e0dc8-116">The day of the month that the system should set the waiting period date to.</span></span> |
    
-4. <span data-ttu-id="43d52-117">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="43d52-117">Select **Save**.</span></span>
+4. <span data-ttu-id="e0dc8-117">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="e0dc8-117">Select **Save**.</span></span>

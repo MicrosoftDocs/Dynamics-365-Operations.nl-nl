@@ -2,7 +2,7 @@
 title: Stuklijst voor een productconfiguratiemodel onderhouden
 description: Het uitvoeren van deze procedure vereist een bestaand productconfiguratiemodel.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,51 +10,51 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCBOMLineDetails, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bf4854b8c596abd45eb2cffd21cf03adff68982
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 1aa2a22056ff4435d4c66f13c170aeadc02fbe03
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147636"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203567"
 ---
-# <a name="maintain-bom-for-a-product-configuration-model"></a><span data-ttu-id="78168-103">Stuklijst voor een productconfiguratiemodel onderhouden</span><span class="sxs-lookup"><span data-stu-id="78168-103">Maintain BOM for a product configuration model</span></span>
+# <a name="maintain-bom-for-a-product-configuration-model"></a><span data-ttu-id="3b71b-103">Stuklijst voor een productconfiguratiemodel onderhouden</span><span class="sxs-lookup"><span data-stu-id="3b71b-103">Maintain BOM for a product configuration model</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="78168-104">Het uitvoeren van deze procedure vereist een bestaand productconfiguratiemodel.</span><span class="sxs-lookup"><span data-stu-id="78168-104">Running this procedure requires an existing product configuration model.</span></span> <span data-ttu-id="78168-105">Het model Geavanceerde luidspreker in het demobedrijf USMF wordt gebruikt voor het maken van deze procedure.</span><span class="sxs-lookup"><span data-stu-id="78168-105">The High end speaker model in the demo company USMF is used to create this procedure.</span></span>
+<span data-ttu-id="3b71b-104">Het uitvoeren van deze procedure vereist een bestaand productconfiguratiemodel.</span><span class="sxs-lookup"><span data-stu-id="3b71b-104">Running this procedure requires an existing product configuration model.</span></span> <span data-ttu-id="3b71b-105">Het model Geavanceerde luidspreker in het demobedrijf USMF wordt gebruikt voor het maken van deze procedure.</span><span class="sxs-lookup"><span data-stu-id="3b71b-105">The High end speaker model in the demo company USMF is used to create this procedure.</span></span>
 
 
-## <a name="add-a-bom-line"></a><span data-ttu-id="78168-106">Een stuklijstregel toevoegen</span><span class="sxs-lookup"><span data-stu-id="78168-106">Add a BOM line</span></span>
-1. <span data-ttu-id="78168-107">Klik op Definitie van productvariantmodel.</span><span class="sxs-lookup"><span data-stu-id="78168-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="78168-108">Klik op Productconfiguratiemodellen.</span><span class="sxs-lookup"><span data-stu-id="78168-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="78168-109">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="78168-109">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="78168-110">Selecteer de Geavanceerde luidspreker voor deze procedure.</span><span class="sxs-lookup"><span data-stu-id="78168-110">Select the High end speaker for this procedure.</span></span>  
-4. <span data-ttu-id="78168-111">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="78168-111">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="78168-112">Vouw de sectie Stuklijstregels uit.</span><span class="sxs-lookup"><span data-stu-id="78168-112">Expand the BOM lines section.</span></span>
-6. <span data-ttu-id="78168-113">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="78168-113">Click Add.</span></span>
-7. <span data-ttu-id="78168-114">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="78168-114">In the Name field, type a value.</span></span>
-8. <span data-ttu-id="78168-115">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="78168-115">In the Description field, type a value.</span></span>
-9. <span data-ttu-id="78168-116">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="78168-116">Click Save.</span></span>
+## <a name="add-a-bom-line"></a><span data-ttu-id="3b71b-106">Een stuklijstregel toevoegen</span><span class="sxs-lookup"><span data-stu-id="3b71b-106">Add a BOM line</span></span>
+1. <span data-ttu-id="3b71b-107">Klik op Definitie van productvariantmodel.</span><span class="sxs-lookup"><span data-stu-id="3b71b-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="3b71b-108">Klik op Productconfiguratiemodellen.</span><span class="sxs-lookup"><span data-stu-id="3b71b-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="3b71b-109">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="3b71b-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="3b71b-110">Selecteer de Geavanceerde luidspreker voor deze procedure.</span><span class="sxs-lookup"><span data-stu-id="3b71b-110">Select the High end speaker for this procedure.</span></span>  
+4. <span data-ttu-id="3b71b-111">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="3b71b-111">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="3b71b-112">Vouw de sectie Stuklijstregels uit.</span><span class="sxs-lookup"><span data-stu-id="3b71b-112">Expand the BOM lines section.</span></span>
+6. <span data-ttu-id="3b71b-113">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="3b71b-113">Click Add.</span></span>
+7. <span data-ttu-id="3b71b-114">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="3b71b-114">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="3b71b-115">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="3b71b-115">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="3b71b-116">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="3b71b-116">Click Save.</span></span>
 
-## <a name="add-bom-line-details"></a><span data-ttu-id="78168-117">Regeldetails van stuklijst toevoegen</span><span class="sxs-lookup"><span data-stu-id="78168-117">Add BOM line details</span></span>
-1. <span data-ttu-id="78168-118">Klik op Regeldetails van stuklijst.</span><span class="sxs-lookup"><span data-stu-id="78168-118">Click BOM line details.</span></span>
-2. <span data-ttu-id="78168-119">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="78168-119">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="78168-120">Zo kunt u bijvoorbeeld het artikel M0055 selecteren.</span><span class="sxs-lookup"><span data-stu-id="78168-120">For example, you can select the item M0055.</span></span>  
-    * <span data-ttu-id="78168-121">Voor elke regeleigenschap van de stuklijst kunt u selecteren of deze een vaste waarde heeft of aan een kenmerk is toegewezen.</span><span class="sxs-lookup"><span data-stu-id="78168-121">For each BOM line property, you can select if it takes a fixed value or is mapped to an attribute.</span></span>  
-3. <span data-ttu-id="78168-122">Schakel het selectievakje Instellen in.</span><span class="sxs-lookup"><span data-stu-id="78168-122">Select the Set check box.</span></span>
-4. <span data-ttu-id="78168-123">Selecteer Ja in het veld Berekening.</span><span class="sxs-lookup"><span data-stu-id="78168-123">Select Yes in the Calculation field.</span></span>
-    * <span data-ttu-id="78168-124">Het instellen van de eigenschap Berekening op Ja zorgt ervoor dat de stuklijstregel in kostenberekeningen wordt opgenomen.</span><span class="sxs-lookup"><span data-stu-id="78168-124">Setting the Calculation property to Yes ensures that the BOM line is included in cost calculations.</span></span>  
-5. <span data-ttu-id="78168-125">Klik op het tabblad Instellingen.</span><span class="sxs-lookup"><span data-stu-id="78168-125">Click the Setup tab.</span></span>
-6. <span data-ttu-id="78168-126">Schakel het selectievakje Instellen in.</span><span class="sxs-lookup"><span data-stu-id="78168-126">Select the Set check box.</span></span>
-7. <span data-ttu-id="78168-127">Voer in het veld Hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="78168-127">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="78168-128">Het hoeveelheidsveld bepaalt hoeveel van het artikel in de stuklijst wordt opgenomen.</span><span class="sxs-lookup"><span data-stu-id="78168-128">The quantity field determines how much of the item that will be included in the BOM.</span></span> <span data-ttu-id="78168-129">Dit moet een duidelijke kandidaat zijn voor een kenmerktoewijzing.</span><span class="sxs-lookup"><span data-stu-id="78168-129">This could be an obvious candidate for an attribute mapping.</span></span>  
-8. <span data-ttu-id="78168-130">Klik op het tabblad Dimensies.</span><span class="sxs-lookup"><span data-stu-id="78168-130">Click the Dimension tab.</span></span>
-    * <span data-ttu-id="78168-131">Controleer of een van de productdimensies actief is en daardoor een waarde of kenmerk moeten toegewezen krijgen.</span><span class="sxs-lookup"><span data-stu-id="78168-131">Verify if any of the product dimensions are active,  and therefore must have a value or attribute assigned.</span></span>  
-9. <span data-ttu-id="78168-132">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="78168-132">Click OK.</span></span>
+## <a name="add-bom-line-details"></a><span data-ttu-id="3b71b-117">Regeldetails van stuklijst toevoegen</span><span class="sxs-lookup"><span data-stu-id="3b71b-117">Add BOM line details</span></span>
+1. <span data-ttu-id="3b71b-118">Klik op Regeldetails van stuklijst.</span><span class="sxs-lookup"><span data-stu-id="3b71b-118">Click BOM line details.</span></span>
+2. <span data-ttu-id="3b71b-119">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="3b71b-119">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="3b71b-120">Zo kunt u bijvoorbeeld het artikel M0055 selecteren.</span><span class="sxs-lookup"><span data-stu-id="3b71b-120">For example, you can select the item M0055.</span></span>  
+    * <span data-ttu-id="3b71b-121">Voor elke regeleigenschap van de stuklijst kunt u selecteren of deze een vaste waarde heeft of aan een kenmerk is toegewezen.</span><span class="sxs-lookup"><span data-stu-id="3b71b-121">For each BOM line property, you can select if it takes a fixed value or is mapped to an attribute.</span></span>  
+3. <span data-ttu-id="3b71b-122">Schakel het selectievakje Instellen in.</span><span class="sxs-lookup"><span data-stu-id="3b71b-122">Select the Set check box.</span></span>
+4. <span data-ttu-id="3b71b-123">Selecteer Ja in het veld Berekening.</span><span class="sxs-lookup"><span data-stu-id="3b71b-123">Select Yes in the Calculation field.</span></span>
+    * <span data-ttu-id="3b71b-124">Het instellen van de eigenschap Berekening op Ja zorgt ervoor dat de stuklijstregel in kostenberekeningen wordt opgenomen.</span><span class="sxs-lookup"><span data-stu-id="3b71b-124">Setting the Calculation property to Yes ensures that the BOM line is included in cost calculations.</span></span>  
+5. <span data-ttu-id="3b71b-125">Klik op het tabblad Instellingen.</span><span class="sxs-lookup"><span data-stu-id="3b71b-125">Click the Setup tab.</span></span>
+6. <span data-ttu-id="3b71b-126">Schakel het selectievakje Instellen in.</span><span class="sxs-lookup"><span data-stu-id="3b71b-126">Select the Set check box.</span></span>
+7. <span data-ttu-id="3b71b-127">Voer in het veld Hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="3b71b-127">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="3b71b-128">Het hoeveelheidsveld bepaalt hoeveel van het artikel in de stuklijst wordt opgenomen.</span><span class="sxs-lookup"><span data-stu-id="3b71b-128">The quantity field determines how much of the item that will be included in the BOM.</span></span> <span data-ttu-id="3b71b-129">Dit moet een duidelijke kandidaat zijn voor een kenmerktoewijzing.</span><span class="sxs-lookup"><span data-stu-id="3b71b-129">This could be an obvious candidate for an attribute mapping.</span></span>  
+8. <span data-ttu-id="3b71b-130">Klik op het tabblad Dimensies.</span><span class="sxs-lookup"><span data-stu-id="3b71b-130">Click the Dimension tab.</span></span>
+    * <span data-ttu-id="3b71b-131">Controleer of een van de productdimensies actief is en daardoor een waarde of kenmerk moeten toegewezen krijgen.</span><span class="sxs-lookup"><span data-stu-id="3b71b-131">Verify if any of the product dimensions are active,  and therefore must have a value or attribute assigned.</span></span>  
+9. <span data-ttu-id="3b71b-132">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="3b71b-132">Click OK.</span></span>
 
