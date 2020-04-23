@@ -2,7 +2,7 @@
 title: De status van serviceorders weergeven
 description: U kunt het formulier Verzendbord gebruiken om de status van serviceactiviteiten in serviceorders weer te geven.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,39 +18,39 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67f8f9a24aeb88496d5b694dff550455bae6aa17
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 14f9132479bac8a6bfd632a91e0acb94b9bde4e5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742975"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206353"
 ---
-# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="bb678-103">De status van serviceorders weergeven</span><span class="sxs-lookup"><span data-stu-id="bb678-103">View the status of service orders</span></span> 
+# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="097b5-103">De status van serviceorders weergeven</span><span class="sxs-lookup"><span data-stu-id="097b5-103">View the status of service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="bb678-104">U kunt het formulier **Verzendbord** gebruiken om de status van serviceactiviteiten in serviceorders weer te geven.</span><span class="sxs-lookup"><span data-stu-id="bb678-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
+<span data-ttu-id="097b5-104">U kunt het formulier **Verzendbord** gebruiken om de status van serviceactiviteiten in serviceorders weer te geven.</span><span class="sxs-lookup"><span data-stu-id="097b5-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
 
-## <a name="more-information-about-service-orders"></a><span data-ttu-id="bb678-105">Meer informatie over serviceorders</span><span class="sxs-lookup"><span data-stu-id="bb678-105">More information about service orders</span></span>
+## <a name="more-information-about-service-orders"></a><span data-ttu-id="097b5-105">Meer informatie over serviceorders</span><span class="sxs-lookup"><span data-stu-id="097b5-105">More information about service orders</span></span>
 
-<span data-ttu-id="bb678-106">Het formulier biedt ook hulpmiddelen voor het bijhouden van de stroom serviceorders en bevat aanvullende gegevens voor het evalueren van de urgentie van een serviceorder, zoals de bijbehorende serviceovereenkomst.</span><span class="sxs-lookup"><span data-stu-id="bb678-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
+<span data-ttu-id="097b5-106">Het formulier biedt ook hulpmiddelen voor het bijhouden van de stroom serviceorders en bevat aanvullende gegevens voor het evalueren van de urgentie van een serviceorder, zoals de bijbehorende serviceovereenkomst.</span><span class="sxs-lookup"><span data-stu-id="097b5-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
 
-<span data-ttu-id="bb678-107">Het Gantt-diagram ondersteunt het gebruik van kleuren zodat u snel de urgentie van een serviceorder kunt meten.</span><span class="sxs-lookup"><span data-stu-id="bb678-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="bb678-108">Kleuren worden gebruikt om de prioriteit van een serviceoproep te onderscheiden.</span><span class="sxs-lookup"><span data-stu-id="bb678-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="bb678-109">Standaard zijn deze kleuren: rood voor hoge prioriteit, geel voor normale prioriteit en groen voor lage prioriteit.</span><span class="sxs-lookup"><span data-stu-id="bb678-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
+<span data-ttu-id="097b5-107">Het Gantt-diagram ondersteunt het gebruik van kleuren zodat u snel de urgentie van een serviceorder kunt meten.</span><span class="sxs-lookup"><span data-stu-id="097b5-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="097b5-108">Kleuren worden gebruikt om de prioriteit van een serviceoproep te onderscheiden.</span><span class="sxs-lookup"><span data-stu-id="097b5-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="097b5-109">Standaard zijn deze kleuren: rood voor hoge prioriteit, geel voor normale prioriteit en groen voor lage prioriteit.</span><span class="sxs-lookup"><span data-stu-id="097b5-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="bb678-110">U kunt de kleuren wijzigen op het tabblad <STRONG>Verzenden</STRONG> van het formulier <STRONG>Parameters voor servicebeheer</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="bb678-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
+> <P><span data-ttu-id="097b5-110">U kunt de kleuren wijzigen op het tabblad <STRONG>Verzenden</STRONG> van het formulier <STRONG>Parameters voor servicebeheer</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="097b5-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="bb678-111">Zie ook</span><span class="sxs-lookup"><span data-stu-id="bb678-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="097b5-111">Zie ook</span><span class="sxs-lookup"><span data-stu-id="097b5-111">See also</span></span>
 
-[<span data-ttu-id="bb678-112">De prioriteit van serviceorders instellen</span><span class="sxs-lookup"><span data-stu-id="bb678-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="097b5-112">De prioriteit van serviceorders instellen</span><span class="sxs-lookup"><span data-stu-id="097b5-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="bb678-113">Serviceactiviteiten bewaken</span><span class="sxs-lookup"><span data-stu-id="bb678-113">Monitor service activities</span></span>](monitor-service-activities.md)
+[<span data-ttu-id="097b5-113">Serviceactiviteiten bewaken</span><span class="sxs-lookup"><span data-stu-id="097b5-113">Monitor service activities</span></span>](monitor-service-activities.md)
 
-<span data-ttu-id="bb678-114">[Verzendbord (formulier)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="bb678-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="097b5-114">[Verzendbord (formulier)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="097b5-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
   
 
