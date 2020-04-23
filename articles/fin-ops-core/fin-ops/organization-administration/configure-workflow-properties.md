@@ -3,7 +3,7 @@ title: Workfloweigenschappen configureren
 description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een workflow configureert.
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190115"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199431"
 ---
 # <a name="configure-workflow-properties"></a>Workfloweigenschappen configureren
 
@@ -75,9 +75,11 @@ Het is mogelijk om instructies op te geven voor gebruikers die documenten voor v
     5. Als u de tekst wilt personaliseren, kunt u tijdelijke aanduidingen invoegen. Zie de stap 3 voor instructies voor het invoeren van een tijdelijke aanduiding.
     6. Klik op **Sluiten**.
 
-## <a name="specify-when-this-workflow-is-used"></a>Opgeven wanneer deze workflow wordt gebruikt
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Geef op wanneer deze workflow wordt gebruikt via activeringsvoorwaarden
 
-Het is mogelijk om op basis van hetzelfde type meerdere workflows te maken. U kunt bijvoorbeeld een workflow voor opdrachten tot inkoop maken voor elk land of elke regio waarin uw bedrijf actief is, zoals Inkoopbestelopdrachten Denemarken en Inkoopbestelopdrachten Spanje. Als u meerdere workflows op hetzelfde type hebt gebaseerd, moet u voor elke workflow opgeven wanneer deze wordt gebruikt. Voor het voorafgaande voorbeeld moet u dus de volgende voorwaarden opgeven:
+Het is mogelijk om op basis van hetzelfde workflowtype meerdere workflows te maken. Als u meerdere workflows op hetzelfde type hebt gebaseerd, moet u voor elke workflow opgeven wanneer deze wordt gebruikt met activeringsvoorwaarden. Als niet aan de activeringsvoorwaarden wordt voldaan, wordt de standaardworkflow gebruikt. Als er slechts één workflowconfiguratie is gedefinieerd voor een workflowtype, wordt die workflowconfiguratie gebruikt, ongeacht de activeringsvoorwaarden.
+
+U kunt bijvoorbeeld een workflow voor opdrachten tot inkoop maken voor elk land of elke regio waarin uw bedrijf actief is, zoals Inkoopbestelopdrachten Denemarken en Inkoopbestelopdrachten Spanje, met de volgende voorwaarden:
 
 - Opdrachten tot inkoop Denemarken wordt gebruikt als: land/regio = DK
 - Opdrachten tot inkoop Spanje wordt gebruikt als: land/regio = ES.

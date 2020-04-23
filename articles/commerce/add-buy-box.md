@@ -3,7 +3,7 @@ title: Module voor koopvak
 description: In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154058"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261393"
 ---
 # <a name="buy-box-module"></a>Module voor koopvak
 
@@ -46,7 +46,7 @@ Op een pagina met productgegevens is een koopvak onderverdeeld in twee gedeelten
 Met een koopvakmodule worden titel, omschrijving, prijs en waardering van een product weergegeven. Het biedt klanten ook de mogelijkheid om productvarianten te selecteren die andere productkenmerken hebben, zoals grootte, stijl en kleur. Wanneer een productvariant wordt geselecteerd, worden andere eigenschappen in het koopvak (bijvoorbeeld de productomschrijving en -afbeeldingen) bijgewerkt met de gegevens van de variant. 
 
 Er wordt een hoeveelheidsselectie weergegeven, zodat klanten kunnen opgeven hoeveel artikelen ze willen kopen. De maximumhoeveelheid die kan worden gekocht, kan worden gedefinieerd in de site-instellingen.
- 
+
 In het koopvak kunnen klanten ook acties uitvoeren, zoals het toevoegen van een product aan de winkelwagen, het toevoegen van een product aan hun verlanglijst en het selecteren van een ophaallocatie. Deze acties kunnen worden uitgevoerd voor een product of een productvariant. Om een product aan een verlanglijst toe te voegen, moet de klant zijn aangemeld.
 
 Met thema's kunnen producteigenschappen en actiecontroles uit het koopvak worden verwijderd of kan de volgorde ervan worden gewijzigd. 
@@ -65,7 +65,8 @@ Met thema's kunnen producteigenschappen en actiecontroles uit het koopvak worden
 Koopvakmodules hebben drie instellingen die kunnen worden geconfigureerd via **Site-instellingen \> Extensies**:
 
 - **Maximumhoeveelheid**: deze eigenschap wordt gebruikt om voor elk artikel het maximumaantal op te geven dat aan de winkelwagen kan worden toegevoegd. Een detailhandelaar kan bijvoorbeeld besluiten dat slechts 10 stuks van elk product in één transactie mogen worden verkocht.
-- **Voorraadcontrole**: wanneer de waarde is ingesteld op **True**, wordt een artikel alleen aan de winkelwagen toegevoegd nadat de koopvakmodule heeft gecontroleerd dat het op voorraad is. Deze voorraadcontrole wordt uitgevoerd voor scenario's waarin het artikel wordt verzonden en voor scenario's waarin het wordt opgehaald in de winkel. Als de waarde is ingesteld op **False**, wordt er geen voorraadcontrole uitgevoerd voordat een artikel aan de winkelwagen wordt toegevoegd en de order wordt geplaatst.
+- **Voorraadcontrole**: wanneer de waarde is ingesteld op **True**, wordt een artikel alleen aan de winkelwagen toegevoegd nadat de koopvakmodule heeft gecontroleerd dat het op voorraad is. Deze voorraadcontrole wordt uitgevoerd voor scenario's waarin het artikel wordt verzonden en voor scenario's waarin het wordt opgehaald in de winkel. Als de waarde is ingesteld op **False**, wordt er geen voorraadcontrole uitgevoerd voordat een artikel aan de winkelwagen wordt toegevoegd en de order wordt geplaatst. Zie [Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md) voor informatie over het configureren van voorraadinstellingen in de backoffice .
+
 - **Voorraadbuffer**: deze eigenschap wordt gebruikt om een bufferhoeveelheid op te geven voor de voorraad op te geven. Voorraad wordt in realtime bijgehouden en wanneer een groot aantal klanten orders plaatst, kan het lastig zijn om een nauwkeurige voorraadtelling bij te houden. Wanneer een voorraadcontrole wordt uitgevoerd en de voorraad kleiner is dan de bufferhoeveelheid, wordt het product verwerkt als niet op voorraad. Dus wanneer verkopen snel plaatsvinden via verschillende kanalen en de voorraadtelling niet volledig is gesynchroniseerd, is er minder risico dat een artikel wordt verkocht dat niet op voorraad is.
 
 ## <a name="commerce-scale-unit-interaction"></a>Interactie met Commerce Scale Unit
@@ -99,6 +100,8 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 
 [Winkelwagenmodule](add-cart-module.md)
 
+[Module winkelwagenpictogram](cart-icon-module.md)
+
 [Kassamodule](add-checkout-module.md)
 
 [Orderbevestigingsmodule](order-confirmation-module.md)
@@ -106,3 +109,5 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 [Koptekstmodule](author-header-module.md)
 
 [Voettekstmodule](author-footer-module.md)
+
+[Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md)

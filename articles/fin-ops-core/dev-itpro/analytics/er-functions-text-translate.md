@@ -3,7 +3,7 @@ title: De ER-functie TRANSLATE
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) TRANSLATE.
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fe19c5f66c33e336f76f3a72d3bbda0c7e8d86
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040912"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201107"
 ---
-# <a name="TRANSLATE">De ER-functie TRANSLATE</a>
+# <a name=""></a><a name="TRANSLATE">De ER-functie TRANSLATE</a>
 
 [!include [banner](../includes/banner.md)]
 
-De functie `TRANSLATE` retourneert de opgegeven tekenreeks als een waarde van het type *Tekenreeks* nadat deze geheel of gedeeltelijk is vervangen door een andere tekenreeks.
+De functie `TRANSLATE` retourneert een waarde voor een *Tekenreeks* die het resultaat bevat van de vervanging van de opgegeven tekst in tekens van een andere opgegeven set.
 
 ## <a name="syntax"></a>Syntaxis
 
@@ -57,10 +57,24 @@ De tekst die als vervanging moet worden gebruikt.
 
 De resulterende tekstwaarde.
 
-## <a name="example"></a>Voorbeeld
+## <a name="usage-notes"></a>Gebruiksaanwijzingen
 
-`TRANSLATE ("abcdef", "cd", "GH")` vervangt het patroon **cd** door de tekenreeks **GH** en retourneert **abGHef**.
+De functie `TRANSLATE` vervangt één teken per keer. Het eerste teken van het argument `text` wordt vervangen door het eerste teken van het argument `pattern`. Daarna volgt het tweede teken en wordt dezelfde stroom gebruikt totdat de taak is voltooid. Wanneer een teken van de argumenten `text` en `pattern` overeenkomt, wordt het vervangen door een teken uit het argument `replacement` dat zich op dezelfde positie bevindt als het teken uit het argument `pattern`. Als een teken meerdere keren voorkomt in het argument `pattern`, wordt de argumenttoewijzing `replacement` gebruikt die overeenkomt met de eerste instantie van dit teken.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="example-1"></a>Voorbeeld 1
+
+`TRANSLATE ("abcdef", "cd", "GH")` vervangt het teken **"c"** van de opgegeven tekst **"abcdef"** door het teken **"G** " van de tekst `replacement` omdat:
+-   Het teken **"c"** wordt weergegeven in de tekst `pattern` op de eerste positie.
+-   De eerste positie van de tekst `replacement` bevat het teken **"G"**.
+
+## <a name="example-2"></a>Voorbeeld 2
+
+`TRANSLATE ("abcdef", "ccd", "GH")` retourneert **"abGdef"**.
+
+## <a name="example-3"></a>Voorbeeld 3
+
+`TRANSLATE ("abccba", "abc", "123")` retourneert **123321**.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Tekstfuncties](er-functions-category-text.md)

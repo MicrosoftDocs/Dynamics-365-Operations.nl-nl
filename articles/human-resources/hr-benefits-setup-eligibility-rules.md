@@ -3,7 +3,7 @@ title: Geschiktheidsregels en -opties configureren
 description: Stel de geschiktheidsregels en -opties in voor vergoedingen in Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008681"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229896"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Geschiktheidsregels en -opties configureren
-
-[!include [banner](includes/preview-feature.md)]
 
 Nadat u de vereiste parameters voor vergoedingenbeheer hebt geconfigureerd in Microsoft Dynamics 365 Human Resources, kunt u geschiktheidsregels, bundels, perioden en programma's maken die u aan uw vergoedingsplannen gaat koppelen.
 
@@ -57,6 +55,7 @@ Tijdens open inschrijving kunnen werknemers vergoedingsplannen selecteren. Als z
    | **Aanstellingscategorie** | De aanstellingscategorie van de werknemer als de schakeloptie **Aanstellingscategorie gebruiken** is ingesteld op **Ja**. |
    | **Nieuwe aanstellingsregel gebruiken** | Geeft aan of de waarde voor een nieuwe aanstellingsperiode van een nieuw aangenomen werknemer wordt gebruikt als onderdeel van de geschiktheidsregel voor vergoedingen. |
    | **Inschrijvingsperiode** | De tijdsperiode waarin inschrijving van nieuw aangenomen werknemers is toegestaan. Als u dit ook instelt in parameters, heeft de parameterinstelling voorrang op deze waarde. |
+   | **Voormalige aanstellingsstatus gebruiken** | Geeft aan of het gebruik van een eerdere aanstellingsstatus van een werknemer moet worden gebruikt als onderdeel van de geschiktheidsregel voor vergoedingen. U kunt bijvoorbeeld een geschiktheidsregel opgeven die de wachttijd voor de dekking kwijtscheldt voor alle werknemers die zijn overgegaan van een status **Ontslagen** naar een status **Aangesteld** binnen 90 dagen na hun vorige aanstelling. |
 
 4. Selecteer onder **Aanvullende criteria** de volgende opties en voeg zo nodig informatie toe:
 

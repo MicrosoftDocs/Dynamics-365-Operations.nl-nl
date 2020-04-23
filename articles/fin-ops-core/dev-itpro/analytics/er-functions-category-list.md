@@ -3,7 +3,7 @@ title: Lijst met ER-functies in de lijstcategorie
 description: Dit onderwerp bevat informatie over de lijstfuncties die worden ondersteund in ER (Elektronische rapportage).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917759"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201038"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Lijst met ER-functies in de lijstcategorie
 
@@ -46,6 +46,7 @@ ER-lijstfuncties kunnen worden gebruikt om informatie te extraheren uit en bewer
 | [Index](er-functions-list-index.md)                       | Deze functie retourneert een waarde van het type *Container (record)* die wordt geselecteerd op basis van de opgegeven numerieke index in de opgegeven lijst. Er wordt een uitzondering gegenereerd als de index zich buiten het bereik van de records in de opgegeven lijst bevindt. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Deze functie retourneert de *Booleaanse* waarde **TRUE** als de opgegeven lijst geen records bevat. Anders wordt de *Booleaanse* waarde **FALSE** geretourneerd. |
 | [Weergeven](er-functions-list-list.md)                         | Deze functie retourneert een waarde van het type *Recordlijst* die bestaat uit een nieuwe lijst die wordt gemaakt op basis van de opgegeven argumenten.|
+| [ListJoin](er-functions-list-listjoin.md)                 | Deze functie retourneert een waarde van het type *Recordlijst* die een nieuwe gekoppelde lijst aangeeft die wordt gemaakt op basis van de opgegeven argumenten.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Deze functie retourneert een *recordlijstwaarde* die wordt gemaakt op basis van de structuur van het opgegeven argument van het type *Opsomming* of *Container (record)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Deze functie retourneert een waarde van het type *Recordlijst* die bestaat uit alleen de eerste record van de opgegeven lijst.|
 | [OrderBy](er-functions-list-orderby.md)                   | Deze functie retourneert de opgegeven lijst als een *recordlijstwaarde* nadat deze is gesorteerd op basis van de opgegeven argumenten. Deze argumenten kunnen worden gedefinieerd als een expressie. |

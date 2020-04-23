@@ -3,7 +3,7 @@ title: Een verlof- en verzuimplan maken
 description: Maak verlofplannen in Dynamics 365 Human Resources voor verschillende verloftypen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: 532d9b276692858c77e4de41018775e9520f1882
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087295"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197354"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Een verlof- en verzuimplan maken
 
@@ -42,6 +42,11 @@ U kunt ook verlof toekennen op basis van positie, zoals speciale verlofuren voor
 1. Selecteer op de pagina **Verlof en verzuim** de optie **Nieuw plan maken**.
 
 2. Voer onder **Details** de **naam**, de **begindatum**, de **beschrijving** en het **verloftype** voor uw plan in.
+
+Als de functie **Meerdere verloftypen configureren voor één verlof- en verzuimplan** is ingeschakeld, worden verloftypen geconfigureerd in het **Toerekeningsschema** in plaats van onder **Details**. Voor elke record in de tabel voor het toerekeningsschema kunt u een verloftype definiëren.
+
+ > [!IMPORTANT]
+   > Nadat u deze functie hebt ingeschakeld, kunt u deze niet meer uitschakelen.
 
 3. Definieer toerekeningen op het tabblad **Toerekeningen**. Toerekeningen bepalen wanneer en hoe vaak een werknemer verloftijd ontvangt. In deze stap definieert u het beleid voor wanneer toerekeningen moeten worden toegekend en het beleid met betrekking tot het naar rato toekennen van verlof.
 
@@ -95,8 +100,8 @@ U kunt ook verlof toekennen op basis van positie, zoals speciale verlofuren voor
    U kunt niveaus maken om verlof toe te kennen op basis van verschillende niveaus.
 
    Als u werknemers hebt die per uur worden betaald, kunt u verlof toekennen op basis van gewerkte uren in plaats van de diensttijd bij uw organisatie. De gewerkte uren worden doorgaans opgeslagen in een tijd- en aanwezigheidssysteem. U kunt normale en overuren importeren die zijn gewerkt vanuit het tijd- en aanwezigheidssysteem en deze gebruiken als basis voor de toekenning aan een werknemer.
-
-   1. Selecteer een optie in de vervolgkeuzelijst **Toerekeningstype**:
+   
+    1. Selecteer een optie in de vervolgkeuzelijst **Toerekeningstype**:
 
       - **Servicemaanden** : baseer het toerekeningsschema op de servicemaanden.
 
@@ -117,6 +122,13 @@ U kunt ook verlof toekennen op basis van positie, zoals speciale verlofuren voor
       - **Maximaal transport**: het toerekeningsproces past verlofsaldi aan die het maximale transportsaldo op de verjaardag van de begindatum overschrijden.
 
       - **Toewijzingshoeveelheid**: het oorspronkelijke aantal uren of dagen dat werknemers krijgen wanneer ze zich inschrijven voor het verlofplan. Deze hoeveelheid wordt niet voor elke toerekeningperiode verzameld.
+      
+Als de functie **Meerdere verloftypen configureren voor één verlof- en verzuimplan**, selecteert u een optie uit **Verloftype.** 
+
+   > [!IMPORTANT]
+   > Nadat u deze functie hebt ingeschakeld, kunt u deze niet meer uitschakelen.
+
+Als u de functie **Fulltime-equivalentie gebruiken** inschakelt, gebruikt Human Resource de fulltime-equivalentie (FTE) die is gedefinieerd voor de positie om de toerekening van een werknemer naar rato uit te voeren. Als het FTE bijvoorbeeld 0,5 is en het toerekeningsbedrag 10, bouwt de werknemer 5 op. U kunt deze functie alleen gebruiken als u meerdere verloftypen inschakelt.  
 
 5. Selecteer **Opslaan**.
 
@@ -357,19 +369,6 @@ Voorspeld saldo (30) = Toerekeningsbedrag (10 × 1) + Huidig saldo (40) – Getr
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3.00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1.00           | 9/1/2018        | 2.00    |
-
-## <a name="configure-preview-features"></a>Voorbeeldfuncties configureren
-
-Als u de voorbeeldfuncties voor verlof en verzuim hebt ingeschakeld, moet u ook de instellingen hiervoor configureren.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. **Preview-functie: Meerdere verloftypen configureren voor één verlof- en verzuimplan**. Voor elke record in de tabel voor het toerekeningsschema kunt u een verloftype definiëren.
-
-   > [!IMPORTANT]
-   > Nadat u deze functie hebt ingeschakeld, kunt u deze niet meer uitschakelen.
-
-2. **Preview-functie: Fulltime-equivalentie gebruiken**. Als u deze preview-functie inschakelt, gebruikt Hurman Resource de fulltime-equivalentie (FTE) die is gedefinieerd voor de positie om de toerekening van een werknemer naar rato uit te voeren. Als het FTE bijvoorbeeld 0,5 is en het toerekeningsbedrag 10, bouwt de werknemer 5 op. U kunt deze functie alleen gebruiken als u meerdere verloftypen inschakelt.
 
 ## <a name="see-also"></a>Zie ook
 

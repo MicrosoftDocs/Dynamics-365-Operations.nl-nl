@@ -2,7 +2,7 @@
 title: Raming van productieorderkosten
 description: Dit artikel biedt informatie over ramingen van productiekosten. Door de productiekosten te ramen, weet u wat de verwachte materiaal- en capaciteitverbruikskosten zijn van het fabriceren van een artikel in de geplande productieorderhoeveelheid.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcTrans, InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 80633
 ms.assetid: b4625d10-c852-4fda-b718-79df458de0d4
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93546fc170757ee2c39144842bae12d78400fd32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a101f82e60113941d389421b19cddc1ad123ce9
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547785"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214506"
 ---
 # <a name="production-order-cost-estimation"></a>Raming van productieorderkosten
 

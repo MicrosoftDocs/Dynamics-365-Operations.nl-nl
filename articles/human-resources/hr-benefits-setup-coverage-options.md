@@ -1,9 +1,9 @@
 ---
 title: Opties voor dekking maken
-description: Dekkingsopties in Microsoft Dynamics 365 Human Resources zijn dekkingsniveaus die een deelnemer aan een vergoedingsplan of -programma kan kiezen, zoals 'Alleen werknemer' voor een medisch plan of '2x salaris' voor een levensverzekeringsplan.
+description: Dekkingsopties in Microsoft Dynamics 365 Human Resources zijn dekkingsniveaus voor de selectie van een deelnemer in een vergoedingsplan of -programma.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092701"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230172"
 ---
 # <a name="create-coverage-options"></a>Opties voor dekking maken
 
-[!include [banner](includes/preview-feature.md)]
+Dekkingsopties in Microsoft Dynamics 365 Human Resources zijn dekkingsniveaus voor de selectie van een deelnemer in een vergoedingsplan of -programma. Dekkingsopties kunnen bijvoorbeeld **Alleen werknemer** zijn voor een medisch plan of **2x salaris** voor een levensverzekeringsplan. Nadat u dit hebt gedefinieerd, kunt u de dekkingsopties voor vergoedingen opnieuw gebruiken. U kunt een optie aan een of meer plannen koppelen.
 
-Dekkingsopties in Microsoft Dynamics 365 Human Resources zijn dekkingsniveaus die een deelnemer aan een vergoedingsplan of -programma kan kiezen, zoals 'Alleen werknemer' voor een medisch plan of '2x salaris' voor een levensverzekeringsplan. Nadat de opties voor vergoedingsdekking zijn gedefinieerd, worden deze opnieuw bruikbaar en kunt u een optie aan een of meer plannen koppelen.
-
-Zodra de dekkingsopties zijn gedefinieerd, koppelt u de dekkingsopties aan een type vergoedingsplan. Het plantype wordt vervolgens gekoppeld aan een vergoedingsplan of -programma. De dekkingsopties die aan een plantype zijn gekoppeld, zijn beschikbaar voor alle plannen die met dat plantype worden gemaakt. 
+Nadat u de dekkingsopties hebt gedefinieerd, koppelt u de dekkingsopties aan een type vergoedingsplan. Het plantype wordt vervolgens gekoppeld aan een vergoedingsplan of -programma. De dekkingsopties die aan een plantype zijn gekoppeld, zijn beschikbaar voor alle plannen die met dat plantype worden gemaakt. 
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Dekkingsopties**.
 

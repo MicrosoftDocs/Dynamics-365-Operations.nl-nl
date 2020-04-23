@@ -3,7 +3,7 @@ title: Statussen en levenscyclus document
 description: In dit onderwerp worden de verschillende documentstatussen van pagina-elementen in Microsoft Dynamics 365 Commerce beschreven.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4f1c462f734b2d58843308f0f877fe18a4d9af7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002976"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261508"
 ---
 # <a name="document-states-and-lifecycle"></a>Statussen en levenscyclus document
 
@@ -37,15 +37,15 @@ Het onderwerp [Pagina-elementen](page-elements-overview.md) geeft een overzicht 
 
 In de volgende tabel ziet u de mogelijke documentstatussen van pagina-elementen in Commerce.
 
-| Documentstatus | Beschrijving |
-|---|---|
-| Uitgecheckt | Wanneer een CMS-item naar u is uitgecheckt, kan het niet door andere geverifieerde systeemgebruikers worden bewerkt. Alle wijzigingen die u in het item aanbrengt, zijn alleen voor u zichtbaar. |
-| Ingecheckt | Wanneer een CMS-item is ingecheckt, zijn alle wijzigingen zichtbaar voor andere geverifieerde systeemgebruikers en kunnen deze gebruikers het item uitchecken en bewerken. Bij het inchecken wordt een documentversierecord gemaakt in de historie van het item. |
-| Gepubliceerd | Wanneer een CMS-item wordt gepubliceerd, wordt het op uw live site geplaatst en is het detecteerbaar voor niet-geverifieerde externe gebruikers op internet. Items kunnen alleen worden gepubliceerd als ze zijn ingecheckt. |
-| Opgeslagen | Wijzigingen die zijn aangebracht in een uitgecheckt CMS-item, kunnen in het CMS-item worden opgeslagen voordat het item wordt ingecheckt of gepubliceerd. Deze opgeslagen wijzigingen zijn pas zichtbaar voor andere geverifieerde systeemgebruikers als het item is ingecheckt. Het item is pas zichtbaar voor externe gebruikers als het is gepubliceerd. |
-| Verwijderde items uitchecken | Wanneer een uitgecheckt CMS-item wordt verwijderd, worden alle opgeslagen wijzigingen verwijderd en keert het item terug naar de versie die het laatst is ingecheckt. |
+| Documentstatus      | Site builder-actie        | Omschrijving                                                  |
+| ------------------- | -------------------------- | ------------------------------------------------------------ |
+| Uitgecheckt         | Selecteer **Bewerken**.           | Het desbetreffende document is naar u uitgecheckt. Terwijl een document in deze status is, kan het niet worden gewijzigd door andere geverifieerde systeemgebruikers en zijn wijzigingen die u in het document aanbrengt alleen voor u zichtbaar. |
+| Opgeslagen               | Selecteer **Opslaan**.           | Wijzigingen die zijn aangebracht in een uitgecheckt document, worden opgeslagen in de database, maar het document is nog niet ingecheckt of gepubliceerd. De opgeslagen wijzigingen zijn pas zichtbaar voor andere geverifieerde systeemgebruikers als de auteur **Bewerken voltooien** selecteert. Het item is pas zichtbaar voor externe gebruikers als het is gepubliceerd. |
+| Verwijderde items uitchecken | Selecteer **Bewerkingen negeren**.  | Alle wijzigingen in het uitgecheckte document worden genegeerd en het artikel wordt teruggezet naar de laatste versie die is ingecheckt. |
+| Ingecheckt          | Selecteer **Bewerken voltooien**. | Het bewerkte document wordt ingecheckt. Alle wijzigingen zijn zichtbaar voor andere geverifieerde systeemgebruikers en die gebruikers kunnen het document vervolgens bewerken. Bij het inchecken wordt een documentversierecord gemaakt in de historie van het item. |
+| Gepubliceerd           | Selecteer **Publiceren**.        | Het document wordt gepubliceerd en de wijzigingen worden op uw live site geplaatst en kunnen door externe gebruikers worden gedetecteerd. Artikelen kunnen alleen worden gepubliceerd als ze het eerst zijn ingecheckt door **Bewerken voltooien** te selecteren. |
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Manieren om inhoud toe te voegen](add-manage-content.md)
 

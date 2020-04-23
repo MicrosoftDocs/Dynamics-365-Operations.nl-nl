@@ -2,7 +2,7 @@
 title: Overzicht kwaliteitsbeheer
 description: In dit onderwerp wordt beschreven hoe u kwaliteitsbeheer in Dynamics 365 Supply Chain Management kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
+ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814393"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3224904"
 ---
 # <a name="quality-management-overview"></a>Overzicht kwaliteitsbeheer
 
@@ -302,122 +302,6 @@ Als u in de inkoop het veld **Gebeurtenistype** instelt op **Productontvangstbon
 
 - Als de optie **Per bijgewerkte hoeveelheid** is ingesteld op **Ja**, wordt voor elke ontvangst een kwaliteitsorder gegenereerd voor de inkooporder, op basis van de ontvangen hoeveelheid en instellingen in de artikelbemonstering. Telkens wanneer een hoeveelheid wordt ontvangen op basis van de inkooporder, worden nieuwe kwaliteitsorders gegenereerd op basis van de nieuw ontvangen hoeveelheid.
 - Als de optie **Per bijgewerkte hoeveelheid** is ingesteld op **Nee**, wordt voor de eerste ontvangst een kwaliteitsorder gegenereerd voor de inkooporder, op basis van de ontvangen hoeveelheid. Daarnaast worden een of meer kwaliteitsorders gemaakt op basis van de resterende hoeveelheid, afhankelijk van de traceringsdimensies. Er worden geen kwaliteitsorders gegenereerd voor volgende ontvangsten op de inkooporder.
-
-<table>
-<tbody>
-<tr>
-<th>Specificatie van kwaliteit</th>
-<th>Per bijgewerkte hoeveelheid</th>
-<th>Per traceringsdimensie</th>
-<th>Resultaat</th>
-</tr>
-<tr>
-<td>Percentage: 10%</td>
-<td>Ja</td>
-<td>
-<p>Batchnummer: Nee</p>
-<p>Serienummer: Nee</p>
-</td>
-<td>
-<p>Orderhoeveelheid: 100</p>
-<ol>
-<li>Gereedmelden voor 30
-<ul>
-<li>Kwaliteitsorder nr. 1 voor 3 (10% van 30)</li>
-</ul>
-</li>
-<li>Gereedmelden voor 70
-<ul>
-<li>Kwaliteitsorder nr. 2 voor 7 (10% van de resterende orderhoeveelheid, die gelijk is aan 70 in dit geval)</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Vaste hoeveelheid: 1</td>
-<td>Nee</td>
-<td>
-<p>Batchnummer: Nee</p>
-<p>Serienummer: Nee</p>
-</td>
-<td>Orderhoeveelheid: 100
-<ol>
-<li>Gereedmelden voor 30
-<ul>
-<li>Kwaliteitsorder nr. 1 wordt gemaakt voor 1 (voor de eerste gereedgemelde hoeveelheid, met de vaste waarde 1).</li>
-<li>Er worden geen kwaliteitsorders meer gemaakt voor de resterende hoeveelheid.</li>
-</ul>
-</li>
-<li>Gereedmelden voor 10
-<ul>
-<li>Er worden geen kwaliteitsorders gemaakt.</li>
-</ul>
-</li>
-<li>Gereedmelden voor 60
-<ul>
-<li>Er worden geen kwaliteitsorders gemaakt.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Vaste hoeveelheid: 1</td>
-<td>Ja</td>
-<td>
-<p>Batchnummer: Ja</p>
-<p>Serienummer: Ja</p>
-</td>
-<td>
-<p>Orderhoeveelheid: 10</p>
-<ol>
-<li>Gereedmelden voor 3
-<ul>
-<li>Kwaliteitsorder nr. 1 voor 1 van batchnr. b1, serienr. s1</li>
-<li>Kwaliteitsorder nr. 2 voor 1 van batchnr. b2, serienr. s2</li>
-<li>Kwaliteitsorder nr. 3 voor 1 van batchnr. b3, serienr. s3</li>
-</ul>
-</li>
-<li>Gereedmelden voor 2
-<ul>
-<li>Kwaliteitsorder nr. 4 voor 1 van batchnr. b4, serienr. s4</li>
-<li>Kwaliteitsorder nr. 5 voor 1 van batchnr. b5, serienr. s5</li>
-</ul>
-</li>
-</ol>
-<p><strong>Opmerking:</strong> de batch kan opnieuw worden gebruikt.</p>
-</td>
-</tr>
-<tr>
-<td>Vaste hoeveelheid: 2</td>
-<td>Nee</td>
-<td>
-<p>Batchnummer: Ja</p>
-<p>Serienummer: Ja</p>
-</td>
-<td>
-<p>Orderhoeveelheid: 10</p>
-<ol>
-<li>Gereedmelden voor 4
-<ul>
-<li>Kwaliteitsorder nr. 1 voor 1 van batchnr. b1, serienr. s1.</li>
-<li>Kwaliteitsorder nr. 2 voor 1 van batchnr. b2, serienr. s2.</li>
-<li>Kwaliteitsorder nr. 3 voor 1 van batchnr. b3, serienr. s3.</li>
-<li>Kwaliteitsorder nr. 4 voor 1 van batchnr. b4, serienr. s4.</li>
-<li>Er worden geen kwaliteitsorders meer gemaakt voor de resterende hoeveelheid.</li>
-</ul>
-</li>
-<li>Gereedmelden voor 6
-<ul>
-<li>Er worden geen kwaliteitsorders gemaakt.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### <a name="production"></a>Productie
 

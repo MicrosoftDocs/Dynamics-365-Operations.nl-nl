@@ -2,7 +2,7 @@
 title: Leveranciers onboarden
 description: In dit onderwerp wordt het proces voor het onboarden van nieuwe leveranciers beschreven. Hier wordt uitgelegd welke acties vereist zijn voor de verschillende rollen tijdens dit proces.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250134"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203406"
 ---
 # <a name="onboard-vendors"></a>Leveranciers onboarden
 [!include [banner](../includes/banner.md)]
@@ -48,7 +48,7 @@ In de volgende tabel worden de stappen en rollen beschreven die betrokken zijn b
 | Beheerder            | | | Een gebruiker maken in Supply Chain Management en Microsoft Azure. | | | |
 | Contactpersoon van leverancier    | | | Verzend e-mail naar de contactpersoon. | Registreer leveranciersgegevens. | | |
 
-Voor een snelle demonstratie van het leveranciersonboardingproces, bekijkt u deze korte YouTube-video: [Een nieuwe leverancier onboarden in Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Bekijk deze korte YouTube-video voor een snelle demonstratie van het onboardingproces voor leveranciers: [Een nieuwe leverancier onboarden in Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>De aanvraag voor registratie van potentiële leveranciers importeren
 

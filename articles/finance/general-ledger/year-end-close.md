@@ -3,7 +3,7 @@ title: Jaarafsluiting
 description: In dit onderwerp worden de vereiste instellingen en stappen beschreven voor het uitvoeren van het jaarafsluitingsproces van het grootboek.
 author: kweekley
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3071365640eb6c012cb9af5461e885bb3f135143
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175358"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259766"
 ---
 # <a name="year-end-close"></a>Jaarafsluiting
 
@@ -74,7 +74,7 @@ Het tabblad **Financiële dimensie** wordt gebruikt om te definiëren welke fina
 Bij het jaarafsluitingsproces worden geen rekeningstructuren aangehouden. Dit komt doordat rekeningstructuren gedurende een boekjaar kunnen veranderen en vanwege deze wijzigingen is het niet altijd mogelijk om de relevante rekeningstructuur aan te duiden.  Wanneer openingstransacties worden gemaakt, worden de saldi aangevoerd met financiële dimensies, zoals is gedefinieerd in de jaarafsluitingssjabloon. De beginsaldiposten kunnen financiële dimensies bevatten die niet meer in de huidige rekeningstructuur voorkomen en segmentcombinaties die niet meer geldig zijn in de huidige rekeningstructuur. Als uw organisatie een financiële dimensie wil uitsluiten voor het beginsaldo van ingehouden winsten, stelt u de financiële dimensie in op **Eén sluiten** en laat u de dimensiewaarde leeg.
 
 ## <a name="run-the-year-end-close-process"></a>Het jaarafsluitingsproces uitvoeren
-Nadat de sjablonen voor het jaarafsluitingsproces zijn gemaakt, wordt het jaarafsluitingsproces gestart door **Boekjaar uitvoeren** te kiezen in het actievenster. Selecteer alle rechtspersonen of een subset ervan in de sjabloon waarvoor de jaarafsluiting moet worden uitgevoerd. Wanneer de jaarafsluiting voor de eerste keer in een boekjaar wordt uitgevoerd, kiest u waarschijnlijk alle rechtspersonen om beginsaldi voor alle rechtspersonen te maken. Als u de jaarafsluiting opnieuw uitvoert, kunt u ervoor kiezen het proces uit te voeren voor alleen de rechtspersonen waarvoor correctieposten zijn geboekt. 
+Nadat de sjablonen voor het jaarafsluitingsproces zijn gemaakt, wordt het jaarafsluitingsproces gestart door **Boekjaar sluiten** te kiezen in het actievenster. Selecteer alle rechtspersonen of een subset ervan in de sjabloon waarvoor de jaarafsluiting moet worden uitgevoerd. Wanneer de jaarafsluiting voor de eerste keer in een boekjaar wordt uitgevoerd, kiest u waarschijnlijk alle rechtspersonen om beginsaldi voor alle rechtspersonen te maken. Als u de jaarafsluiting opnieuw uitvoert, kunt u ervoor kiezen het proces uit te voeren voor alleen de rechtspersonen waarvoor correctieposten zijn geboekt. 
 
 Selecteer het boekjaar waarvoor u het jaarafsluitingsproces wilt uitvoeren. Als er meer dan één afsluitperiode bestaat voor de laatste periode van het boekjaar, wordt het veld **Periodenaam** beschikbaar zodat u kunt aangeven naar welke afsluitperiode de afsluittransactie moet worden geboekt als de instelling is gedefinieerd om de afsluittransactie te maken. 
 
