@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42fcbeaadf0e8156cd72bee4328ca612c1abbaff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 058102b369ec7ed79874017e50a06d265b96b424
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008673"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198761"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Compensatieproces definiëren en resultaten berekenen
-
-
 
 Compensatieprocessen worden gebruikt om nieuwe compensatiebedragen en toekenningen voor werknemers te definiëren die in vaste en variabele compensatieplannen zijn ingeschreven. Compensatieprocessen kunnen meerdere keren worden uitgevoerd om een 'wat-als'-analyse uit te voeren, om te controleren of alle wijzigingen en instellingen correct zijn. Deze procedure maakt een compensatieproces, voert het proces uit en bekijkt de resultaten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

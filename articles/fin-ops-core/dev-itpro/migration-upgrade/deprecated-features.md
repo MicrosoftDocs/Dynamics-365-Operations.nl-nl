@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte functies in eerdere releases
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die gepland zijn om te verwijderen uit Dynamics 365 for Finance and Operations en eerdere versies van dat product.
 author: sericks007
 manager: AnnBe
-ms.date: 03/05/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124561"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225123"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
@@ -263,11 +263,11 @@ Ingesloten prestatie-indicatoren (KPI's) kunnen worden gemodelleerd in Visual St
 
 |   |  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Het is mogelijk dat tabelmetagegevensdefinities veldgroepen bevatten met verwijzingen naar ongeldige veldverwijzingen. Dit probleem wordt momenteel geclassificeerd als een *compilerwaarschuwing* in plaats van een *fout*, wat betekent dat het implementeerbare pakket kan worden gemaakt en geïmplementeerd zonder dat het probleem wordt opgelost. Bij implementatie kan dit probleem runtime-fouten veroorzaken in de financiële rapportage en SQL Server Reporting Services (SSRS). Ga als volgt te werk om dit probleem op te lossen:<br><br>1. Verwijder de ongeldige veldverwijzing uit de groepsdefinitie van het tabelveld.<br><br>2. Compileer opnieuw.<br><br>3. Zorg ervoor dat eventuele waarschuwingen of fouten worden opgelost. |
-| **Vervangen door een andere functie?**   | Deze waarschuwing wordt in de toekomst vervangen door een compilatiefout.  |
-| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's. |
-| **Implementatieoptie**              | Alle. |
-| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatietijdfout in de toekomst. Momenteel denken we dat dit in platformupdate 30 zal gebeuren. |
+| **Reden voor afschaffing/verwijdering** | Het is mogelijk dat tabelmetagegevensdefinities veldgroepen bevatten met verwijzingen naar ongeldige veldverwijzingen. Bij implementatie kan dit probleem runtime-fouten veroorzaken in de financiële rapportage en SQL Server Reporting Services (SSRS). Dit probleem wordt momenteel geclassificeerd als een *compilerwaarschuwing* in plaats van een *fout*, wat betekent dat het implementeerbare pakket kan worden gemaakt en geïmplementeerd zonder dat het probleem wordt opgelost. Ga als volgt te werk om dit probleem op te lossen:<br><br>1. Verwijder de ongeldige veldverwijzing uit de groepsdefinitie van het tabelveld.<br><br>2. Compileer opnieuw.<br><br>3. Zorg ervoor dat eventuele waarschuwingen of fouten worden opgelost. |
+| **Vervangen door een andere functie?**   | Deze waarschuwing wordt in de toekomst vervangen door een compilatiefout. |
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatietijdfout in de toekomst. Deze wijziging is gericht op platform updates voor versie 10.0.11 van Finance and Operations-apps. |
 
 #### <a name="complete-list"></a>Volledige lijst
 Raadpleeg voor toegang tot de volledige lijst met API's [Afschaffing van methoden en metagegevenselementen](deprecation-deletion-apis.md).

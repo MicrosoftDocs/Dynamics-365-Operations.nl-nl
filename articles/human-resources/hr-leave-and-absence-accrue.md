@@ -3,7 +3,7 @@ title: Verlof- en verzuimplannen toerekenen
 description: U kunt verlof en verzuim toerekenen in Dynamics 365 Human Resources voor meerdere werknemers of voor een individu.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092333"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197308"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Verlof- en verzuimplannen toerekenen
 
@@ -35,7 +35,7 @@ U kunt verlof en verzuim toerekenen in Dynamics 365 Human Resources voor meerder
 
 2. Selecteer onder **Verlof beheren** de optie **Verlof- en verzuimplannen toerekenen**.
 
-3. Selecteer in het dialoogvenster **Verlof- en verzuimplannen toerekenen**, in **Toerekenen vanaf** de optie **Datum van vandaag** of **Aangepaste datum** en voer een aangepaste datum in.
+3. Het dialoogvenster **Verlof- en verzuimplannen toerekenen** wordt weergegeven. Selecteer bij **Toerekenen vanaf** **Datum van vandaag** of **Aangepaste datum** en voer een aangepaste datum in.
 
 4. Als u het toerekeningsprocedure op de achtergrond wilt uitvoeren, selecteert u **Uitvoeren op de achtergrond** en voert u de volgende taken uit:
 
@@ -53,7 +53,7 @@ U kunt verlof en verzuim toerekenen in Dynamics 365 Human Resources voor meerder
 
 2. Selecteer **Verlof en verzuim toerekenen**.
 
-3. Selecteer in het dialoogvenster **Verlof- en verzuimplannen toerekenen**, in **Toerekenen vanaf** de optie **Datum van vandaag** of **Aangepaste datum** en voer een aangepaste datum in.
+3. Het dialoogvenster **Verlof- en verzuimplannen toerekenen** wordt weergegeven. Selecteer bij **Toerekenen vanaf** **Datum van vandaag** of **Aangepaste datum** en voer een aangepaste datum in.
 
 4. Als u het toerekeningsprocedure op de achtergrond wilt uitvoeren, selecteert u **Uitvoeren op de achtergrond** en voert u de volgende taken uit:
 
@@ -65,17 +65,45 @@ U kunt verlof en verzuim toerekenen in Dynamics 365 Human Resources voor meerder
 
    4. Selecteer **OK**. Het toerekeningsproces wordt uitgevoerd met de parameters die u instelt.
 
-## <a name="preview-features-for-leave-and-absence"></a>Preview-functies voor Verlof en verzuim
+## <a name="delete-leave-and-absence-accruals-for-multiple-employees"></a>Verlof- en verzuimtoerekeningen verwijderen voor meerdere werknemers
 
-[!include [banner](includes/preview-feature-leave-absence.md)]
+Opbouwrecords voor een specifiek plan en datumbereik verwijderen. Toerekeningsdatums moeten vandaag of in de toekomst gedateerd zijn.
 
-U kunt de volgende preview-functies inschakelen voor Verlof en verlof:
+1. Selecteer op de pagina **Verlof en verzuim** het tabblad **Koppelingen**.
 
-- **Verlof- en verzuimtoerekeningen verwijderen**. Opbouwrecords voor een specifiek plan en datumbereik verwijderen. Toerekeningsdatums moeten vandaag of in de toekomst gedateerd zijn.
+2. Selecteer onder **Verlof beheren** de optie **Verlof- en verzuimtoerekeningen verwijderen**.
 
-- **Controle van toerekening van verlof**. Hiermee wordt elke keer weergegeven dat iemand een toerekening uitvoert of verwijdert voor een of alle werknemers, samen met de datum en de persoon die de actie heeft uitgevoerd.
+3. Selecteer in het dialoogvenster **Verlof- en verzuimtoerekeningen verwijderen** de optie **Verlofplan**. 
+
+4. Kies **Saldocorrecties verwijderen** als dit van toepassing is.
+
+5. Voer een **Toerekeningsdatum voor verlof** in of selecteer deze. Deze datum moet vandaag zijn of in de toekomst liggen. 
+
+6. Selecteer **OK**. Door het toerekeningsproces worden de toerekeningen met de parameters die u hebt ingesteld, verwijderd. 
+
+## <a name="delete-leave-and-absence-accruals-for-a-single-employee"></a>Verlof- en verzuimtoerekeningen verwijderen voor één werknemer
+
+1. Selecteer **Verlof** in de record van de werknemer.
+
+2. Selecteer **Verlof- en verzuimtoerekeningen verwijderen**.
+
+3. Selecteer in het dialoogvenster **Verlof- en verzuimtoerekeningen verwijderen** de optie **Verlofplan**. 
+
+4. Kies **Saldocorrecties verwijderen** als dit van toepassing is.
+
+5. Voer een **Toerekeningsdatum voor verlof** in of selecteer deze. Deze datum moet vandaag zijn of in de toekomst liggen. 
+
+6. Selecteer **OK**. Door het toerekeningsproces worden de toerekeningen met de parameters die u hebt ingesteld, verwijderd. 
+
+## <a name="review-leave-accrual-and-deletion-processes"></a>Toerekenings- en verwijderprocessen voor verlof controleren
+
+**Controle van toerekening van verlof** wordt steeds weergegeven als u een toerekening uitvoert of verwijdert voor een of alle werk nemers. De datum en de persoon die de actie heeft uitgevoerd, worden ook weer gegeven.
+
+1. Selecteer op de pagina **Verlof en verzuim** het tabblad **Koppelingen**.
+
+2. Selecteer onder **Verlof beheren** de optie **Controle van toerekening van verlof verwijderen**.
 
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
-- [Een verlof- en verzuimplan maken](hr-leave-and-absence-plans.md)
+- [Een plan voor verlof en verzuim maken](hr-leave-and-absence-plans.md)

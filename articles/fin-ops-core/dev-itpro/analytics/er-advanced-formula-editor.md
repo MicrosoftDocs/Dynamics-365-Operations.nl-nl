@@ -3,7 +3,7 @@ title: Geavanceerde formule-editor voor elektronische rapporten
 description: In dit onderwerp wordt beschreven hoe de geavanceerde formule-editor kan worden gebruikt voor het configureren van expressies in ER-modeltoewijzing (elektronische rapportage) en indelingscomponenten.
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
+ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138893"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "3257056"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Geavanceerde formule-editor voor elektronische rapporten
 
@@ -157,7 +157,17 @@ Op dit moment worden verschillende kleuren gebruikt om de volgende onderdelen va
 
 [![ER-formule-editor](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="limitations"></a>Beperkingen
+
+De editor wordt momenteel ondersteund in de volgende webbrowsers:
+
+- Chrome
+- Edge
+- Firefox
+- Opera
+- Safari
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)

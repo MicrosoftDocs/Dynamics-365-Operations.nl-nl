@@ -3,7 +3,7 @@ title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. De nieuwe rasterfunctie moet zijn ingeschakeld als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036260"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260455"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -90,4 +90,23 @@ Als u het groeperen in een raster ongedaan wilt maken, klikt u met de rechtermui
 ## <a name="evaluating-math-expressions"></a>Wiskundige expressies evalueren
 Ter bevordering van de productiviteit kunnen gebruikers wiskundige formules invoeren in numerieke cellen in een raster. Zij hoeven de berekening niet uit te voeren in een app buiten het systeem. Als u bijvoorbeeld **= 15\*4** invoert en vervolgens op de **tabtoets** drukt om het veld te verlaten, wordt de expressie geëvalueerd en wordt de waarde **60** opgeslagen voor het veld.
 
-Als u wilt dat het systeem een waarde herkent als een expressie, start u de waarde met het gelijkteken (**=**). Zie [Ondersteunde wiskundige symbolen](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols)voor meer informatie over de ondersteunde operators en syntaxis.  
+Als u wilt dat het systeem een waarde herkent als een expressie, start u de waarde met het gelijkteken (**=**). Zie [Ondersteunde wiskundige symbolen](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols) voor meer informatie over de ondersteunde operators en syntaxis.
+
+## <a name="frequently-asked-questions"></a>Veelgestelde vragen
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hoe kan ik het nieuwe rasterbesturingselement inschakelen in mijn omgeving? 
+
+**10.0.9/platform update 33 en hoger** De functie **Nieuw rasterbesturingselement** is in alle omgevingen meteen beschikbaar in Functiebeheer. Net als andere openbare previewfuncties is het inschakelen van deze functie in productie afhankelijk [van de Aanvullende gebruiksrechtovereenkomst](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/platform update 32 en 10.0.7/platform update 31** De functie **Nieuw rasterbesturingselement** kan worden ingeschakeld in omgevingen in laag 1 (Dev/Test) en in laag 2 (Sandbox) om extra tests en ontwerpwijzigingen te kunnen doorvoeren, door de volgende stappen uit te voeren.
+
+1.  **De vlucht inschakelen**: voer de volgende SQL-instructie uit: 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. **IIS opnieuw instellen** om de statische flightingcache leeg te maken. 
+
+3.  **De functie zoeken**: ga naar het werkgebied **Functiebeheer**. Als **Nieuw rasterbesturingselement** niet wordt weergegeven in de lijst met alle functies, selecteert u **Controleren op updates**.   
+
+4.  **De functie inschakelen**: zoek de functie **Nieuw rasterbesturingselement** in de lijst met functies en selecteer **Nu inschakelen** in het detailvenster. U moet de browser vernieuwen. 
+
+Alle volgende gebruikerssessies worden gestart met het nieuwe rasterbesturingselement ingeschakeld.

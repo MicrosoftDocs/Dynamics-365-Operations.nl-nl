@@ -3,7 +3,7 @@ title: Geavanceerde automatische toeslagen voor meerdere kanalen
 description: Dit onderwerp beschrijft de mogelijkheden voor het beheren van extra toeslagen voor Commerce-kanaalorders met behulp van de geavanceerde functie voor automatische toeslagen.
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022193"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175149"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Geavanceerde automatische toeslagen voor meerdere kanalen
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat informatie over de configuratie en implementatie van de geavanceerde functie voor automatische-toeslagen die beschikbaar is in Dynamics 365 for Retail versie 10.0.
+Dit onderwerp bevat informatie over de configuratie en implementatie van de geavanceerde functies voor automatische-toeslagen die beschikbaar zijn in Dynamics 365 for Retail versie 10.0.
 
 Wanneer de geavanceerde functie voor automatische toeslagen is ingeschakeld, kunnen orders die zijn gemaakt in een ondersteund Commerce-afzetkanaal (verkooppunt (POS), callcenter en online), profiteren van de [automatische toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services)-configuraties gedefinieerd in de ERP-toepassing voor zowel toeslagen op koptekst als op regelniveau.
 
@@ -63,7 +63,7 @@ De nieuwe bewerkingen zijn als volgt.
 - **142 - toeslagen beheren**: u kunt deze bewerking gebruiken om POS-gebruikers de mogelijkheid te geven om diverse toeslagen voor de POS-transactie die handmatig of systematisch via berekeningen van automatische toeslagen zijn toegevoegd, weer te geven en te bewerken.
 - **141 - toeslagen koptekst toevoegen**: gebruik deze bewerking om de gebruiker de mogelijkheid te geven om handmatig diverse toeslagen op koptekstniveau toe te voegen aan een POS-verkooptransactie (en de toeslagencode die moet worden gebruikt te selecteren).
 - **140 - regeltoeslagen toevoegen**: gebruik deze bewerking om de gebruiker de mogelijkheid te geven om handmatig diverse toeslagen op regelniveau toe te voegen aan een POS-verkooptransactieregel (en de toeslagencode te selecteren die moet worden gebruikt).
-- **143 - toeslagen herberekenen**: gebruik deze bewerking om een volledige nieuwe berekening van de toeslagen voor de verkooptransactie uit te voeren. Eventuele eerdere door de gebruiker overschreven automatische toeslagen worden herberekend op basis van de huidige configuratie in de winkelwagen.
+- **143 - toeslagen herberekenen**: gebruik deze bewerking om een volledige nieuwe herberekening van de toeslagen voor de verkooptransactie uit te voeren. Eventuele eerdere door de gebruiker overschreven automatische toeslagen worden herberekend op basis van de huidige configuratie in de winkelwagen.
 
 Zoals bij alle POS-bewerkingen kunnen beveiligingsconfiguraties worden gemaakt zodat goedkeuring van een manager is vereist om de bewerking te kunnen uitvoeren.
 
@@ -77,7 +77,7 @@ In deze sectie zie u voorbeelden van gebruik die u helpen de configuratie en het
 
 #### <a name="use-case-scenario"></a>Voorbeeldscenario gebruiken
 
-Een retailer wil automatisch vrachtkosten in rekening brengen wanneer er transacties worden aangemaakt in een Commerce-kanaal die een verzending van producten naar de klant vereisen. De detailhandelaar biedt 2 methoden van levering: grond en lucht. Als een klant voor grondlevering kiest en de orderwaarde kleiner is dan € 100, wil de detailhandelaar de klant een vrachttoeslag van € 10 in rekening brengen. Als de order hoger is dan € 100 en de klant kiest voor grondverzending, dan worden geen extra vrachtkosten in rekening gebracht. Als de klant kiest voor luchtlevering voor alle orders dan gelden vrachtkosten van € 20, ongeacht hun totaalwaarde,
+Een retailer wil automatisch vrachtkosten in rekening brengen wanneer er transacties worden aangemaakt in een Commerce-kanaal die een verzending van producten naar de klant vereisen. De detailhandelaar biedt twee methoden van levering: grond en lucht. Als een klant voor grondlevering kiest en de orderwaarde kleiner is dan € 100, wil de detailhandelaar de klant een vrachttoeslag van € 10 in rekening brengen. Als de order hoger is dan € 100 en de klant kiest voor grondverzending, dan worden geen extra vrachtkosten in rekening gebracht. Als de klant kiest voor luchtlevering voor alle orders dan gelden vrachtkosten van € 20, ongeacht hun totaalwaarde,
 
 #### <a name="setup-and-configuration"></a>Instellingen en configuratie
 
@@ -215,3 +215,10 @@ Sommige organisaties kunnen er de voorkeur aan geven om te wachten totdat de geb
 ### <a name="charges-override-reports"></a>Rapporten voor overschrijven van toeslagen
 
 Als gebruikers de berekende toeslagen handmatig overschrijven of een handmatige toeslag aan de transactie toevoegen, zijn deze gegevens beschikbaar voor controle in het rapport **Geschiedenis toeslag overschrijven**. Het rapport is te vinden in **Retail en Commerce \> Query's en rapporten \> Geschiedenis toeslag overschrijven**. Het is belangrijk te weten dat de gegevens die nodig zijn voor dit rapport, vanuit de afzetkanaaldatabase in HQ worden geïmporteerd via de 'P'-distributieplanningstaken. Daarom is het mogelijk dat informatie over overschrijvingen die zojuist zijn uitgevoerd in het POS, pas direct beschikbaar zijn in dit rapport als met deze taak de transactiegegevens van de winkel naar HQ zijn geüpload.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+[Automatische toeslagen per kanaal inschakelen en configureren](auto-charges-by-channel.md)
+
+[Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels](pro-rate-charges-matching-lines.md)
+

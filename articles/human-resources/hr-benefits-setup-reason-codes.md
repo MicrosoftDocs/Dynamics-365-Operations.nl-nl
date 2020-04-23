@@ -3,7 +3,7 @@ title: Redencodes instellen
 description: Dynamics 365 Human Resources gebruikt redencodes om uit te leggen waarom de vergoedingen van een werknemer veranderen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f52d19f3d5303d59c560aa4c8cd45fe2b873c771
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 63f31e810d932cf7d08f5dd7af9bce68e4790a51
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092454"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229666"
 ---
 # <a name="set-up-reason-codes"></a>Redencodes instellen
-
-[!include [banner](includes/preview-feature.md)]
 
 Dynamics 365 Human Resources gebruikt redencodes om uit te leggen waarom de vergoedingen van een werknemer veranderen. 
 
@@ -39,7 +37,7 @@ Dynamics 365 Human Resources gebruikt redencodes om uit te leggen waarom de verg
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Redencode | Een unieke naam om de reden te identificeren die aangeeft waarom een werknemer een inschrijving van een vergoedingsplan wijzigt. |
-   | Beschrijving | Een beschrijving van de redencode. |
+   | **Redencode** | Een unieke naam om de reden te identificeren die aangeeft waarom een werknemer een inschrijving van een vergoedingsplan wijzigt. |
+   | **Beschrijving** | Een beschrijving van de redencode. |
 
 4. Selecteer **Opslaan**. 

@@ -2,7 +2,7 @@
 title: Verbruik registreren
 description: In dit onderwerp wordt uitgelegd hoe u verbruik registreert in Activabeheer.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: c59664346c07f5e74825de41870f6635ced24ebd
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812255"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216302"
 ---
 # <a name="register-consumption"></a>Verbruik registreren
 
@@ -93,5 +93,5 @@ Wanneer u verbruiksregistraties uitvoert, worden financiële dimensies met betre
 - *Uurregistraties:* eerst worden financiële dimensies uit de journaalkoptekst toegevoegd, indien van toepassing. Vervolgens worden financiële dimensies uit het gerelateerde werkorderproject toegevoegd. Vervolgens worden financiële dimensies van de site toegevoegd. Tot slot worden financiële dimensies van het artikel toegevoegd.
 
 >[!NOTE]
->Voor alle drie de registratietypen wordt de combinatie van financiële dimensies gevalideerd en ongeldige combinaties worden blanco gemaakt. Dit zijn standaardinstellingen in Finance and Operations-apps.
+>Voor alle drie de registratietypen wordt de combinatie van financiële dimensies gevalideerd en ongeldige combinaties worden blanco gemaakt. Dit is standaardinstelling bij andere Finance and Operations-apps.
 

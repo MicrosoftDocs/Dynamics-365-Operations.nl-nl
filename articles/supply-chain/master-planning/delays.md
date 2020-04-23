@@ -2,15 +2,15 @@
 title: Vertragingen
 description: Dit onderwerp geeft informatie over vertragingsdatums in de hoofdplanning. Een vertragingsdatum is een realistische vervaldatum waarop een transactie wordt ontvangen als de eerste afhandelingsdatum die de hoofdplanning plant, later is dan de aangevraagde datum.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 03/15/2019
+manager: tfehr
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34252e5cd9ee5151b1cba47975fc0cc612521a17
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522284"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203843"
 ---
 # <a name="delays"></a>Vertragingen
 
@@ -44,6 +44,12 @@ Op de pagina **Parameters hoofdplanning** kunt u de begintijd instellen voor de 
 
 > [!NOTE]
 > In eerdere versies stonden berekende vertragingen bekend als *vertragingsberichten*, werd de vertraagde datum *vertragingsdatum* genoemd en werd naar een vertraagde transactie verwezen als een *transactie die in de toekomst is ingesteld*.
+
+## <a name="limited-delays-in-production-setup-with-multiple-bom-levels"></a>Beperkte vertragingen in productie-instellingen met meerdere stuklijstniveaus
+Wanneer u met vertragingen werkt in een productie-instelling met meerdere stuklijstniveaus, is het belangrijk dat alleen de artikelen direct boven het artikel (in de stuklijststructuur) dat de vertraging veroorzaakt, worden bijgewerkt met een vertraging als onderdeel van de uitvoering van de hoofdplanning. Andere artikelen in de stuklijststructuur krijgen pas de vertraging bij de eerste uitvoering van de hoofdplanning, wanneer de geplande order voor het hoogste niveau wordt goedgekeurd of gefiatteerd. 
+
+Om deze bekende beperking te omzeilen, kunnen de productieorders boven aan de stuklijststructuur met vertragingen worden goedgekeurd (of gefiatteerd) voordat de volgende uitvoering van de hoofdplanning wordt uitgevoerd. Op deze manier wordt de vertraging van de vertraagde goedgekeurde geplande productieorder behouden en worden alle onderliggende onderdelen dienovereenkomstig bijgewerkt.
+Actieberichten kunnen ook worden gebruikt om geplande orders te identificeren die naar een latere datum kunnen worden verplaatst, vanwege andere vertragingen in de stuklijststructuur.
 
 ## <a name="desired-date"></a>Gewenste datum
 

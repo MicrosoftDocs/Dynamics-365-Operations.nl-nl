@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025849"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259627"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met Power BI Embedded
 
@@ -84,7 +84,7 @@ Volg deze stappen om de formulierdefinitie voor het werkgebied **Reserveringsbeh
 8. Klik met de rechtermuisknop en selecteer **Nieuwe tabbladpagina**.
 9. Wijzig de naam van de tabbladpagina in iets herkenbaars, zoals **Analyses**.
 10. Selecteer in de formulierontwerper **Analyses (tabbladpagina)**.
-11. Stel de eigenschap **Bijschrift** in op **Analyses**.
+11. Stel de eigenschap **Bijschrift** in op **Analyse** en stel de eigenschap **Automatische aangifte** inop **Ja**.
 12. Klik met de rechtermuisknop en selecteer vervolgens **Nieuw** \> **Groep** om een besturingselement voor een nieuwe formuliergroep toe te voegen.
 13. Wijzig de naam van de formuliergroepin iets herkenbaars, zoals **powerBIReportGroup**.
 14. Selecteer in de formulierontwerper **PanoramaBody (tabblad)** en sleep het besturingselement naar het tabblad **Werkgebied**.

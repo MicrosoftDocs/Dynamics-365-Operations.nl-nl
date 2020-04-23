@@ -3,7 +3,7 @@ title: Levensgebeurtenissen verwerken
 description: Tijdens de levenscyclus van werknemers in Microsoft Dynamics 365 Human Resources, kan iedere werknemer verschillende levensgebeurteniswijzigingen ondergaan.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 91812432ead4b0afccfba30f8023f014e216236a
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ba8d21482a18c6baa93437fc65c165907bdb515d
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008630"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229920"
 ---
 # <a name="process-life-events"></a>Levensgebeurtenissen verwerken
-
-[!include [banner](includes/preview-feature.md)]
 
 Tijdens de levenscyclus van werknemers in Microsoft Dynamics 365 Human Resources, kan iedere werknemer verschillende levensgebeurteniswijzigingen ondergaan. Bijvoorbeeld een huwelijk, verandering van werk of wijziging van gezinsleden of begunstigden. Als u levensgebeurtenissen wilt gebruiken, moet u levensgebeurtenissen inschakelen in het formulier voor parameters voor vergoedingen en opties voor de levensgebeurtenissen instellen voor plantypen.
 
@@ -43,10 +41,10 @@ Als het bijvoorbeeld vandaag 1 februari is, op 14 februari medewerker Joe Smith 
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Inschrijvingsperiode | De inschrijvingsperiode waarvoor de levensgebeurtenissen moeten worden verwerkt. |
-   | Rechtspersoon | De rechtspersoon waarvoor levensgebeurtenissen moeten worden verwerkt. |
-   | Datum van levensgebeurtenis | Het systeem verwerkt alle gebeurtenissen tijdens de inschrijvingsperiode die plaatsvinden tot en met deze datum. |
-   | Medewerker | De medewerker waarvoor levensgebeurtenissen moeten worden verwerkt. Als u dit veld leeg laat, worden de levensgebeurtenissen voor alle medewerkers verwerkt. |
+   | **Inschrijvingsperiode** | De inschrijvingsperiode waarvoor de levensgebeurtenissen moeten worden verwerkt. |
+   | **Rechtspersoon** | De rechtspersoon waarvoor levensgebeurtenissen moeten worden verwerkt. |
+   | **Datum van levensgebeurtenis** | Het systeem verwerkt alle gebeurtenissen tijdens de inschrijvingsperiode die plaatsvinden tot en met deze datum. |
+   | **Medewerker** | De medewerker waarvoor levensgebeurtenissen moeten worden verwerkt. Als u dit veld leeg laat, worden de levensgebeurtenissen voor alle medewerkers verwerkt. |
 
 3. Als u het proces op de achtergrond wilt uitvoeren, selecteert u **Uitvoeren op de achtergrond** en voert u de volgende taken uit:
 

@@ -3,7 +3,7 @@ title: Veelgestelde vragen over de Dynamics 365 Commerce-previewomgeving
 description: Dit onderwerp biedt antwoorden op veelgestelde vragen over de preview-omgeving van Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024747"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254719"
 ---
 # <a name="dynamics-365-commerce-preview-environment-faq"></a>Veelgestelde vragen over de Dynamics 365 Commerce-previewomgeving
 
@@ -78,9 +78,7 @@ We verlenen een quotum van één preview-omgeving van Commerce voor elke aanvraa
 
 Als u contact wilt opnemen met Microsoft of als u vragen of verzoeken hebt die betrekking hebben op de preview-omgeving van Commerce, bezoekt u de [Yammer-groep voor Microsoft Dynamics 365 Commerce-previews](https://aka.ms/Dynamics365CommercePreviewYammer) voor hulp.
 
-Als u problemen ondervindt wanneer u probeert toegang te krijgen tot de Yammer-groep, kunt u per e-mail contact opnemen met Microsoft via <Dynamics365Commerce@microsoft.com>. Dit e-mailadres wordt niet actief gecontroleerd. Verwacht daarom een vertraging in het antwoord.
-
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Omgevingsoverzicht Dynamics 365 Commerce-preview](cpe-overview.md)
 

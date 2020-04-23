@@ -2,7 +2,7 @@
 title: Verpakkingsmaterialen en -kosten
 description: Dit onderwerp bevat informatie over de kosten voor verpakkingsmateriaal die met specifieke intervallen worden betaald aan recyclingbedrijven.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2351cce9dc6e1a554800817f75591c4a4e24d43
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076242"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215695"
 ---
 # <a name="packing-materials-and-fees"></a>Verpakkingsmaterialen en -kosten
 
@@ -39,7 +39,7 @@ U kunt een of meer verpakkingseenheden definiëren voor een enkel artikel, voor 
 > [!NOTE]
 > Ook als er door uw bedrijf geen kosten voor verpakkingsmateriaal worden betaald, kunt u toch met deze functie statistieken voor het gewicht van het verpakkingsmateriaal berekenen.
 
-## <a name="allocations"></a>Toewijzing van verpakkingsmateriaal instellen
+## <a name="set-up-packing-material-allocation"></a><a name="allocations"></a>Toewijzing van verpakkingsmateriaal instellen
 
 Voordat u het gewicht van het verpakkingsmateriaal, kosten voor verpakkingsmateriaal of beide kunt berekenen, moet u de berekening inschakelen en definiëren welke materialen en kosten gelden voor welke artikelen.
 
