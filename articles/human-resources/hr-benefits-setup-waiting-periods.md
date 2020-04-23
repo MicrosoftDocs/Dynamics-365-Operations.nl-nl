@@ -3,7 +3,7 @@ title: Wachtperioden configureren
 description: In Microsoft Dynamics 365 Human Resources vormen wachtdagen een mijlpaal voor gebruik voor vergoedingsplannen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58d96469fc953c1bbabe8e29bf9df7a8fb4a0589
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: adb7842231e8092398b240a2f017c28821b13ee1
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092502"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229574"
 ---
 # <a name="configure-waiting-periods"></a>Wachtperioden configureren
-
-[!include [banner](includes/preview-feature.md)]
 
 In Microsoft Dynamics 365 Human Resources vormen wachtdagen een mijlpaal voor gebruik voor vergoedingsplannen. Voorbeelden zijn drie maanden vanaf de datum van indiensttreding, de eerste van elke maand of zes maanden.   
 
@@ -39,11 +37,11 @@ In Microsoft Dynamics 365 Human Resources vormen wachtdagen een mijlpaal voor ge
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Wachtcode | Een unieke id voor de wachtperiode. |
-   | Beschrijving | Een beschrijving van de wachtperiode. |
-   | Wachtmethode | Selecteer de desbetreffende wachtmethode in de vervolgkeuzelijst met waarden. De opties zijn Netto, Huidige maand, Huidig kwartaal, Huidig jaar en Huidige week. |
-   | Maanden | Het aantal maanden invoeren dat aan de wachtmethode moet worden toegevoegd om de wachtdatum te berekenen. |
-   | Days | Het aantal dagen invoeren dat aan de wachtmethode moet worden toegevoegd om de wachtdatum te berekenen. |
-   | Wachtdag | Selecteer de wachtdag die moet worden gebruikt voor de berekening van de wachtdatum. |
+   | **Wachtcode** | Een unieke id voor de wachtperiode. |
+   | **Beschrijving** | Een beschrijving van de wachtperiode. |
+   | **Wachtmethode** | Selecteer de desbetreffende wachtmethode in de vervolgkeuzelijst met waarden. De opties zijn Netto, Huidige maand, Huidig kwartaal, Huidig jaar en Huidige week. |
+   | **Maanden** | Het aantal maanden invoeren dat aan de wachtmethode moet worden toegevoegd om de wachtdatum te berekenen. |
+   | **Dagen** | Het aantal dagen invoeren dat aan de wachtmethode moet worden toegevoegd om de wachtdatum te berekenen. |
+   | **Wachtdag** | Selecteer de wachtdag die moet worden gebruikt voor de berekening van de wachtdatum. |
 
 4. Selecteer **Opslaan**.

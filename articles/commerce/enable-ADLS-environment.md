@@ -3,7 +3,7 @@ title: ADLS inschakelen in een Dynamics 365 Commerce-omgeving
 description: In dit onderwerp wordt uitgelegd hoe u Azure Data Lake Storage (ADLS) voor een Dynamics 365 Commerce-omgeving kunt inschakelen en testen. Dit is een vereiste voor het inschakelen van productaanbevelingen.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154431"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259743"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>ADLS inschakelen in een Dynamics 365 Commerce-omgeving
 
@@ -48,7 +48,8 @@ Zie [Officiële ADLS-documentatie](https://azure.microsoft.com/pricing/details/s
   
 ## <a name="configuration-steps"></a>Configuratiestappen
 
-In deze sectie worden de configuratiestappen beschreven die nodig zijn om ADLS in een omgeving in te schakelen.
+In deze sectie worden de configuratiestappen beschreven die nodig zijn om ADLS in een omgeving in te schakelen vanwege de samenhang met productaanbevelingen.
+Zie [Entiteitopslag beschikbaar maken als een Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md) voor een uitgebreidere beschrijving van de stappen die nodig zijn om ADLS in te schakelen.
 
 ### <a name="enable-adls-in-the-environment"></a>ADLS in de omgeving inschakelen
 
@@ -89,7 +90,9 @@ ADLS wordt nu geconfigureerd voor de omgeving.
 
 Als u nog niet klaar bent, voert u de stappen voor [productaanbevelingen en -aanpassingen inschakelen](enable-product-recommendations.md) voor de omgeving uit.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+[Entiteitopslag beschikbaar maken als een Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
@@ -110,5 +113,3 @@ Als u nog niet klaar bent, voert u de stappen voor [productaanbevelingen en -aan
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
-
-

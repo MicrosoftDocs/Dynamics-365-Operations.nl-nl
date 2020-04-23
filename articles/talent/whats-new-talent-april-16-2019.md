@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897920"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197262"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (16 april 2019)
 
@@ -46,10 +46,6 @@ Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.22
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Entiteiten Compensatieregio, Compensatieniveau, Vergoedingsoptie en Vaardigheidstype in Common Data Service bijgewerkt met ondersteuning voor klantveld
 
 In deze versie zijn deze Common Data Service-entiteiten bijgewerkt met de mogelijkheid om een aangepast veld op te nemen dat is toegevoegd via Talent: Core HR.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Ondersteuning voor nieuwe Common Data Service-entiteiten voor: Compensatie vestigingsregels, Variabelecompensatieplan, Variabele compensatie
-
-In deze release zijn de entiteiten Compensatie vestigingsregels, Variabelecompensatieplan, Variabele compensatie toegevoegd aan Common Data Service. Deze entiteiten ondersteunen ook aangepaste velden die zijn toegevoegd via Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Problemen met vernieuwing in PowerBI (314342)
 
@@ -93,6 +89,6 @@ Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invo
 
 ### <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
 
-Met Platformupdate 25 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd.
+Met Platform update 25 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer deze door een gebeurtenis worden geactiveerd.
 
 
