@@ -1,9 +1,9 @@
 ---
 title: Overzicht
-description: In Dynamics 365 Human Resources biedt het werkgebied **Verlof en verzuim** een flexibel raamwerk voor het maken van nieuwe verlofplannen, workflows voor het beheren van aanvragen en een intuïtieve selfservicepagina voor werknemers om verlof aan te vragen.
+description: In Dynamics 365 Human Resources biedt het werkgebied Verlof en verzuim een flexibel raamwerk voor het maken van nieuwe verlofplannen, workflows voor het beheren van aanvragen en een intuïtieve selfservicepagina voor werknemers om verlof aan te vragen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
+ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091743"
+ms.lasthandoff: 04/04/2020
+ms.locfileid: "3226225"
 ---
 # <a name="overview"></a>Overzicht
 
@@ -31,7 +31,7 @@ Dynamics 365 Human Resources helpt u uitstekende verlofvergoedingen aan uw werkn
 
 ## <a name="set-up-leave-and-absence"></a>Verlof en verzuim instellen
 
-Voordat u verlofplannen voor uw werknemers kunt maken, moet u enkele installatiestappen uitvoeren:
+Voordat u verlofplannen voor uw werknemers maakt, moet u enkele installatiestappen uitvoeren:
 
 - [Parameters voor verlof en verzuim configureren](hr-leave-and-absence-parameters.md)
 - [Een werktijdkalender maken](hr-leave-and-absence-working-time-calendar.md)
@@ -51,31 +51,35 @@ Voordat u plannen voor uw werknemers maakt, moet u verlof- en verzuimtypen maken
 
 Uw werknemers kunnen verlofaanvragen indienen en u kunt deze beheren in het werkgebied **Selfservice werknemer**.
 
-- [Vrije tijd aanvragen](hr-employee-self-service-request-time-off.md)
+- [Verlof aanvragen](hr-employee-self-service-request-time-off.md)
 - [Verlof- en verzuimaanvragen beheren](hr-employee-self-service-manage-requests.md)
+
+## <a name="leave-and-absence-known-issues"></a>Bekende problemen met verlof en verzuim
+
+### <a name="rounding-precision"></a>Afrondingsprecisie
+
+U kunt geen **Afrondingsprecisie** instellen wanneer u het **Afrondingstype** instelt. U kunt alleen een **Afrondingsprecisie** instellen met de entiteit **Verlof- en verzuimtype**. 
+
+1. Selecteer vanuit **Verlof- en verzuimtypen** de optie **Openen in Excel** om de entiteit **Verlof- en verzuimtype** te openen.
+
+2. Nadat het bestand is geopend en ingeschakeld, selecteert u **Ontwerpen**.
+
+3. Selecteer in de tabel **Verlof- en verzuimtype** de potloodoptie om te bewerken.
+
+4. Selecteer **RoundingPrecision** en **RoundingType** en vervolgens **Toevoegen** om deze aan de lijst met velden toe te voegen.
+
+5. Selecteer **Bijwerken** en vervolgens **Gereed**.
+
+6. Voer het **Afrondingstype** in of selecteer het voor elk verloftype als dat nog niet is ingesteld. 
+
+7. Voer de **Afrondingsprecisie** voor de toepasselijke typen in.
+
+8. Selecteer **Publiceren** om de wijzigingen door te voeren in Human Resources.
 
 ## <a name="leave-and-absence-preview-features"></a>Preview-functies voor verlof en verzuim
 
 U kunt nieuwe preview-functies voor Verlof en verzuim uitproberen in een **sandbox**-omgeving. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van preview-functies. De preview-functies omvatten:
 
-- **Verlof- en verzuimkalender** - verlof- en verzuimparameters zijn verplaatst van **Parameters personeel** naar een nieuw scherm met de naam **Parameters verlof en verzuim**. Het nieuwe scherm bevat een nieuw tabblad **Kalender**. In deze preview wordt alleen een subset van de parameters ingeschakeld. U kunt het nieuwe scherm openen via het tabblad **Koppelingen** van het werkgebied **Verlof en verzuim**. De kalenders omvatten:
-  - **Bedrijfskalender**: hierin worden alle verlofaanvragen voor werknemers weergegeven. Personen met de **Human resources**-rol hebben toegang tot deze kalender via het tabblad **Koppelingen** van het werkgebied **Verlof en verzuim**.
-  - **Managerteamkalender** - hier worden alle verlofaanvragen van ondergeschikten weergegeven. Managers hebben toegang tot de kalender via het tabblad **Mijn team** in Werknemerselfservice onder **Verlof en verzuim**. 
+- **Verlof opschorten**: u kunt verlof en verzuim in Human Resources opschorten voor een werknemer. Als u het verlof opschort, wordt het toegerekende verlof stopgezet voor de geselecteerde verloftypen. Als het opschorten plaatsvindt nadat een toerekening is verwerkt, wordt door het onderbreken van het verlof een evenredige correctie in het verlof van de werknemer gemaakt. 
 
-- **Vakantiekalenders voor verlof en verzuim** - tot de typen verlof behoort de nieuwe optie **Vakantie** die in combinatie met de werktijdkalender wordt gebruikt. Dagen die worden gedefinieerd als feestdagen en sluitingsdagen, worden nu aangemerkt als **Vakantie** wanneer werkdagen worden gegenereerd. Wanneer de opbouw van verlofdagen wordt verwerkt, worden correcties aangebracht in werknemers die aan de kalender zijn toegewezen voor vakantiedagen die op een werkdag vallen.
-
-- **Controle van verlofopbouw** - op een nieuw scherm kunt u controleren wanneer de verlofopbouw is verwerkt en verwijderd, zowel door alle werknemers als door individuele werknemers. U kunt dit nieuwe scherm openen via het tabblad **Koppelingen** van het werkgebied **Verlof en verzuim**.
-
-- **Verwijdering van verlofopbouw** - u kunt nu verlofopbouwrecords voor bepaalde verlofplannen verwijderen. U kunt toegang krijgen tot deze nieuwe optie via het tabblad **Koppelingen** van het werkgebied **Verlof en verzuim**. Voor afzonderlijke werknemers wordt deze optie weergegeven in de groep **Verlof en verzuim** in het werknemersprofiel. 
-
-- **Verlofopbouw afronden** - nieuwe opties voor **Verloftype** bepalen welk type afronding voor verlofopbouw moet worden gebruikt, plus de decimale nauwkeurigheid van de afronding tijdens het verlofopbouwproces. Wanneer de verlofopbouw wordt verwerkt, worden de afronding en de precisie toegepast op de verlofopbouwrecords. 
-
-- **Meerdere verloftypen configureren voor één verlofplan** - met een nieuwe kolom in het verlofopbouwschema kunt u meerdere verloftypen voor een verlof- en verzuimplan met verschillende verlofopbouwschema's definiëren. Het vorige veld **Verloftype** is verwijderd. Bij de inschrijving van de werknemers worden de saldi voor de typen verlof nu weergegeven in een tabel in plaats van boven aan het scherm.
-
-  > [!IMPORTANT]
-  > U kunt deze functie niet uitschakelen nadat u deze hebt ingeschakeld.
-
-- **De voltijdsequivalent (FTE) van een werknemer gebruiken voor verlofopbouw** : een nieuwe kolom in het verlofopbouwschema maakt het gebruik van de FTE voor de verlofopbouw mogelijk. Wanneer de verlofopbouw wordt verwerkt, gebruikt de toepassing de primaire positie van de werknemer en de ingestelde FTE om het van de evenredige bedrag van de verlofopbouw te bepalen.
-
-  > [!NOTE]
-  > Deze functie is alleen beschikbaar als u **Meerdere verloftypen per verlofplan configureren** inschakelt. 
+- **Regels voor transporteren**: u kunt een verloftype voor transporteren opgeven voor verlofsaldi waarvoor transportcorrecties worden overgeboekt. Als een werknemer bijvoorbeeld 10 dagen transporteert, kunt u voor deze 10 dagen een ander verloftype kiezen. 

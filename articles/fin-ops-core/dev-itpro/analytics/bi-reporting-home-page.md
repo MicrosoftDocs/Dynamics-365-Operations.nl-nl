@@ -1,5 +1,5 @@
 ---
-title: Startpagina BI en rapportage
+title: Rapportage en analyse met Power BI-startpagina
 description: In dit onderwerp wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de BI- en rapportagehulpmiddelen die beschikbaar zijn.
 author: sericks007
 manager: AnnBe
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 424da665f91820f3fe42c98b352a646dd3db72c5
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771559"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258575"
 ---
-# <a name="business-intelligence-bi-and-reporting-home-page"></a>Startpagina BI en rapportage
+# <a name="reporting-and-analytics-with-power-bi-home-page"></a>Rapportage en analyse met Power BI-startpagina
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de BI- (business intelligence) en rapportagehulpmiddelen die beschikbaar zijn.
 
 ## <a name="get-started"></a>Aan de slag
-- [Informatietoegang en -rapportage](information-access-reporting.md)
+- [Toegang tot informatie en rapportage](information-access-reporting.md)
 - [Tech Talk: Rapportageopties](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: Blog met Power BI-analyses en Reporting Services](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
+- [Finance and Operations: Blog over Power BI-analyse en rapportageservices](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Analytische werkgebieden
 In werkgebieden kan worden gebruikgemaakt van uitgebreide infographics en visuals die worden ondersteund door Microsoft Power BI. Deze infographics en visuals bevatten veel besturingselementen die worden geleverd door derden. Werkgebieden kunnen daarom een zeer visuele, interactieve ervaring bieden voor gebruikers.

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c89d27eb8b587e8936258aae3ec1fee4574ccfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 70fe3bb707f2f204cda92ec979fe9fe1a3b96bac
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180916"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143599"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Conflicten bij scheiding van taken identificeren en oplossen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u conflicten bij de scheiding van taken kunt identificeren en oplossen. U kunt regels instellen om taken te scheiden die door verschillende gebruikers moeten worden uitgevoerd. Dit concept wordt scheiding van taken genoemd. Wanneer de definitie van een beveiligingsrol of de roltoewijzingen van een gebruiker de regels overtreden, wordt het conflict vastgelegd. Alle conflicten moeten door de beheerder worden opgelost. Voer de volgende procedure uit om conflicten te identificeren en op te lossen. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

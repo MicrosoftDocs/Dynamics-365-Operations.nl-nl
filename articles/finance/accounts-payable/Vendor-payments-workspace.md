@@ -3,7 +3,7 @@ title: Werkgebied voor betalingen aan leveranciers
 description: Dit onderwerp biedt informatie over het werkgebied Leveranciersbetalingen. In het werkgebied Leveranciersbetalingen wordt informatie weergegeven die is gerelateerd aan de verwerking van leveranciersbetalingen.
 author: abruer
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 89ba0d68bd52413328dd583e87b09b01fd523d6f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177239"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225008"
 ---
 # <a name="vendor-payments-workspace"></a>Werkgebied voor betalingen aan leveranciers
 
@@ -36,7 +36,7 @@ De volgende instellingen moeten worden geconfigureerd om gegevens te kunnen weer
 1. Ga naar **Systeembeheer > Instellen > Systeemparameters** om **Systeemvaluta** en **Systeemwisselkoers** in te stellen.
 2. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in. 
 2. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, en valuta voor boekhouding en systeemvaluta. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
-3. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **VendPaymentBIMeasure** te vernieuwen. 
+3. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **VendPaymentBIMeasureV2** te vernieuwen. 
 
 ## <a name="my-work-view"></a>Weergave Mijn werk
 

@@ -3,7 +3,7 @@ title: Inhoudingen configureren
 description: Met inhoudingen in Microsoft Dynamics 365 Human Resources kunt u bepalen hoeveel er eventueel moet worden ingehouden op het salaris van een werknemer voor elke vergoeding.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a5287161f352b386ae4e13067f40228d7c1bce62
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 5e645c3f098163626cb686aba347897781d7ebc0
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092724"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230057"
 ---
 # <a name="configure-deductions"></a>Inhoudingen configureren
-
-[!include [banner](includes/preview-feature.md)]
 
 Met inhoudingen in Microsoft Dynamics 365 Human Resources kunt u bepalen hoeveel er eventueel moet worden ingehouden op het salaris van een werknemer voor elke vergoeding. Inhoudingen hebben een ingangsdatum, dus kunt u een historisch overzicht van de inhoudingen bijhouden. 
 
@@ -39,17 +37,17 @@ Met inhoudingen in Microsoft Dynamics 365 Human Resources kunt u bepalen hoeveel
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Aftrek | Een unieke id die wordt gebruikt om de vergoedingsinhouding te identificeren. |
-   | Beschrijving | Een omschrijving voor de inhouding. |
-   | Geldig vanaf | De begindatum. De standaardwaarde is de huidige systeemdatum. |
-   | Vervaldatum | De einddatum. De standaardwaarde is 12/31/2154, wat 'nooit' betekent. |
-   | Koptekst | De koptekstcode uit de salarisadministratie die bij deze inhouding wordt gebruikt voor het werknemersdeel van de inhouding bij de verwerking van de vergoedingen in de salarisadministratie. Deze code wordt gebruikt wanneer bij u een externe dienstverlener de salarisadministratie verzorgt. |
-   | Verwijzing van werknemer voor salarisinhouding | De inhoudingscode van de salarisadministratie die in deze inhouding wordt gebruikt voor het werknemergedeelte van de inhouding bij het verwerken van de vergoedingen voor de salarisadministratie. |
-   | Kop voor bedrag | De koptekstcode uit de salarisadministratie die bij dit inhoudingsbedrag wordt gebruikt voor het werknemersdeel van de inhouding bij de verwerking van de vergoedingen in de salarisadministratie. Deze code wordt gewoonlijk gebruikt wanneer bij u een externe dienstverlener de salarisadministratie verzorgt. |
-   | Kan verwijderen | Hiermee geeft u aan of een geëxporteerde waarde uit Dynamics 365 for Finance and Operations ertoe kan leiden dat de waarde in de salarisadministratie wordt verwijderd. |
-   | Gekoppelde kolommen | Hiermee geeft u aan of de koptekst en het inhoudingsbedrag in gekoppelde, aangrenzende kolommen naar de salarisadministratie moeten worden geëxporteerd. |
-   | Ingangsdatum wijzigen | De datum waarop de wijziging van de vergoedingsinhouding van kracht wordt. Op deze datum wordt de vergoedingsinhouding automatisch door het systeem gewijzigd en worden alle vergoedingsplannen die aan deze inhouding zijn gekoppeld, bijgewerkt zolang u de verwerking van de wijziging van de inhouding uitvoert. |
-   | Wijziging inhouding voltooid | Het selectievakje 'Wijziging van inhouding voltooid' wordt automatisch ingeschakeld nadat de wijzigingen in de vergoedingsinhouding zijn voltooid door de verwerking van de wijziging van de inhouding. |
+   | **Aftrek** | Een unieke id die wordt gebruikt om de vergoedingsinhouding te identificeren. |
+   | **Beschrijving** | Een omschrijving voor de inhouding. |
+   | **Geldig vanaf** | De begindatum. De standaardwaarde is de huidige systeemdatum. |
+   | **Vervaldatum** | De einddatum. De standaardwaarde is 12/31/2154, wat 'nooit' betekent. |
+   | **Koptekst** | De koptekstcode uit de salarisadministratie die bij deze inhouding wordt gebruikt voor het werknemersdeel van de inhouding bij de verwerking van de vergoedingen in de salarisadministratie. Deze code wordt gebruikt wanneer bij u een externe dienstverlener de salarisadministratie verzorgt. |
+   | **Verwijzing van werknemer voor salarisinhouding** | De inhoudingscode van de salarisadministratie die in deze inhouding wordt gebruikt voor het werknemergedeelte van de inhouding bij het verwerken van de vergoedingen voor de salarisadministratie. |
+   | **Kop voor bedrag** | De koptekstcode uit de salarisadministratie die bij dit inhoudingsbedrag wordt gebruikt voor het werknemersdeel van de inhouding bij de verwerking van de vergoedingen in de salarisadministratie. Deze code wordt gewoonlijk gebruikt wanneer bij u een externe dienstverlener de salarisadministratie verzorgt. |
+   | **Kan verwijderen** | Hiermee geeft u aan of een geëxporteerde waarde uit Dynamics 365 for Finance and Operations ertoe kan leiden dat de waarde in de salarisadministratie wordt verwijderd. |
+   | **Gekoppelde kolommen** | Hiermee geeft u aan of de koptekst en het inhoudingsbedrag in gekoppelde, aangrenzende kolommen naar de salarisadministratie moeten worden geëxporteerd. |
+   | **Ingangsdatum wijzigen** | De datum waarop de wijziging van de vergoedingsinhouding van kracht wordt. Op deze datum wordt de vergoedingsinhouding automatisch door het systeem gewijzigd en worden alle vergoedingsplannen die aan deze inhouding zijn gekoppeld, bijgewerkt zolang u de verwerking **Wijziging van de inhouding** uitvoert. |
+   | **Wijziging inhouding voltooid** | Het selectievakje **Wijziging van inhouding voltooid** wordt automatisch ingeschakeld nadat de wijzigingen in de vergoedingsinhouding zijn voltooid door de verwerking van de wijziging van de inhouding. |
    
 4. Als u wijzigingen in de instellingen van het vergoedingstarief wilt bijhouden en beheren, selecteert u **Acties** en selecteert u vervolgens **Versies onderhouden**.
 

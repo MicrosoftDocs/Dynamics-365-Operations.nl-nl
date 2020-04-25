@@ -1,9 +1,9 @@
 ---
 title: Aanbevelingen maken met voorbeeldgegevens
-description: Dit document biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
+description: Dit onderwerp biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 03/30/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59cb5e5c9b59ff2127149e3e47b6c30c9c938a27
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
+ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154244"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175544"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Aanbevelingen maken met voorbeeldgegevens
 
 [!include [banner](includes/banner.md)]
 
-Dit document biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
+Dit onderwerp biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
 
 Productaanbevelingen voor meerdere kanalen bieden een reeks redactioneel samengestelde of door het programma gegenereerde lijsten met producten. Deze lijsten kunnen worden gebruikt in verschillende scenario's, afhankelijk van de zakelijke behoefte. Meer informatie over lijsten met productaanbevelingen vindt u in [Overzicht van productaanbevelingen](product-recommendations.md).
 
@@ -42,22 +42,23 @@ Voor Tier 1-omgevingen zijn productaanbevelingen alleen gebaseerd op de statisch
 Voor het inschakelen van demogegevens voor productaanbevelingen moet u de demo-uitbreiding voor Dynamics 365 Commerce-preview implementeren in de respectievelijke omgeving. Als u dit doet, worden demogegevens van productaanbevelingen automatisch ingeschakeld.
 
 ## <a name="default-demo-data"></a>Standaard demogegevens
-Elke omgeving van het Onebox-type bevat een vooraf geladen set met productaanbevelingen die zijn opgeslagen in het bestand met door komma's gescheiden waarden 'reco_demo_data. csv' dat zich op de Commerce Scale Unit bevindt.
+Elke omgeving van het OneBox-type bevat een vooraf geladen set met productaanbevelingen die zijn opgeslagen in het bestand met door komma's gescheiden waarden 'reco_demo_data. csv' dat zich op de Commerce Scale Unit bevindt.
 
 De gegevens zijn onderverdeeld in de volgende kolommen.
 
-| Kolomnaam         | Verplicht          | Beschrijving                                                                                                                                 | Mogelijke waarden                                                              |
+| Kolomnaam         | Verplicht          | Omschrijving                                                                                                                                 | Mogelijke waarden                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | RecoList            | :heavy_check_mark: | Het specifieke lijsttype voor productaanbevelingen dat door het demogegevenspunt moet worden gegenereerd.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | Het specifieke nummer van de operationele eenheid waar de productaanbevelingen naar verwachting zullen worden opgehaald.                                        |                                                                              |
 | Categorie            |                    |    De categorie waarvoor de specifieke lijst moet worden geretourneerd. Als er geen categorie is opgegeven, wordt de lijst alleen boven de navigatiehiërarchie weergegeven.    |                                                                              |
 | SeedItemId          |                    |    Voor-lijsten waarvoor Seed (RecoPeopleAlsoBuy en RecoCart) is vereist, moeten in die lijsten extra producten worden weergegeven.            |                                                                              |
+| Klant-id          |                    |    Voor lijsten waarvoor een klant-id (RecoPicks) is vereist.  De standaardwaarde '0' is van toepassing op alle klanten.          |                                                                              |
 | ItemIds             | :heavy_check_mark: | Een of meer producten die als resultaat moeten worden geretourneerd, gescheiden door ';'.                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>Demogegevens aanpassen
 U kunt de standaard demogegevens bewerken met product- en categoriegegevens die in HQ zijn geconfigureerd. Zodra het .csv-bestand is bijgewerkt, worden de wijzigingen direct doorgevoerd in de productaanbevelingen die aan klanten zijn verstrekt.
 
-De extensie bevat een gegevensbestand met de naam RecoMockDataset.csv waarmee u de gegevensset kunt beheren die wordt gebruikt om de onechte aanbevelingsgegevens te leveren. De bestandsnaam kan via de extensieconfiguratie worden beheerd met de instelling **ext. Recommendations.DemoFilePath**. Hierdoor kunt u meerdere gegevenssets beschikbaar hebben waartussen gemakkelijk kan worden omgeschakeld via de configuratie.
+De extensie bevat een gegevensbestand met de naam RecoMockDataset.csv, waarmee u de gegevensset kunt beheren die wordt gebruikt om de onechte aanbevelingsgegevens te leveren. De bestandsnaam kan via de extensieconfiguratie worden beheerd met de instelling **ext. Recommendations.DemoFilePath**. Hierdoor kunt u meerdere gegevenssets beschikbaar hebben waartussen gemakkelijk kan worden omgeschakeld via de configuratie.
 
 
 ```xml

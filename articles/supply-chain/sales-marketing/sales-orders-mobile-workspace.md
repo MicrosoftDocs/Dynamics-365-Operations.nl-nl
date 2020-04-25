@@ -2,14 +2,14 @@
 title: Mobiel werkgebied voor verkooporders
 description: Dit onderwerp biedt informatie over het mobiele werkgebied Verkooporders. Via dit werkgebied kunt u overal en altijd op de hoogte blijven van uw verkooporders.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7e586496212c0cf5c964b434e442725fcdb25fca
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251616"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212935"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Mobiel werkgebied voor verkooporders
 
@@ -120,7 +120,7 @@ Als Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor 
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
-Download en installeer de mobiele app van Finance and Operations:
+Download en installeer de mobiele Finance and Operations-app:
 
 -   [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

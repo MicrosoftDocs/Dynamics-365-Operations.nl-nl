@@ -1,7 +1,7 @@
 ---
 title: De zelfstudie voor Regression Suite Automation Tool gebruiken
 description: In dit onderwerp wordt beschreven hoe u het hulpprogramma RSAT (Regression Suite Automation Tool) kunt gebruiken. Verschillende functies worden beschreven en u krijgt voorbeelden te zien waarin geavanceerde scripts worden gebruikt.
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 06/09/2019
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070815"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248731"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>De zelfstudie voor Regression Suite Automation Tool gebruiken
 
@@ -30,79 +30,13 @@ ms.locfileid: "3070815"
 > [!NOTE]
 > Gebruik uw internetbrowser om deze pagina als PDF-bestand te downloaden en op te slaan. 
 
-Deze zelfstudie doorloopt enkele van de geavanceerde functies van RSAT, bevat een demotoewijzing en een beschrijving van de strategie en belangrijke trainingspunten.
+Deze zelfstudie doorloopt enkele van de geavanceerde functies van RSAT, bevat een demotoewijzing en een beschrijving van de strategie en belangrijke trainingspunten. 
 
-## <a name="features-of-rsattask-recorder"></a>Functies van RSAT/Taakregistratie
+## <a name="notable-features-of-rsat-and-task-recorder"></a>De belangrijkste functies van RSAT en taakregistratie
 
 ### <a name="validate-a-field-value"></a>Een veldwaarde valideren
 
-Zie voor meer informatie over deze functie [Een nieuwe taakregistratie maken met een functie Valideren](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function).
-
-### <a name="saved-variable"></a>Opgeslagen variabele
-
-Zie voor meer informatie over deze functie [Een bestaande taakregistratie wijzigen om een opgeslagen variabele te maken](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable).
-
-### <a name="derived-test-case"></a>Afgeleide testcase
-
-1. Open RSAT en selecteer de beide testcases die u hebt gemaakt in [Zelfstudie over het instellen en installeren van Regression Suite Automation Tool](./hol-set-up-regression-suite-automation-tool.md).
-2. Selecteer **Nieuw \> Afgeleide testcase maken**.
-
-    ![De opdracht Afgeleide testcase maken in het menu Nieuw](./media/use_rsa_tool_01.png)
-
-3. U ontvangt een bericht waarin wordt aangegeven dat er een afgeleide testcase wordt gemaakt voor elke geselecteerde testcase in de huidige testsuite en dat elke afgeleide testcase een eigen exemplaar van het Excel-parameterbestand heeft. Selecteer **OK**.
-
-    > [!NOTE]
-    > Wanneer u een afgeleide testcase uitvoert, wordt de taakregistratie van de bovenliggende test en het eigen exemplaar van het Excel-parameterbestand gebruikt. Op deze manier kunt u dezelfde test uitvoeren met verschillende parameters, zonder dat u meer dan één taakregistratie hoeft te onderhouden. Een afgeleide testcase hoeft niet te worden opgenomen in dezelfde testsuite als de bovenliggende test.
-
-    ![Berichtvenster](./media/use_rsa_tool_02.png)
-
-    Er worden twee extra afgeleide testcases gemaakt en het selectievakje **Afgeleid?** is hiervoor ingeschakeld.
-
-    ![Gemaakte afgeleide testcases](./media/use_rsa_tool_03.png)
-
-    Er wordt automatisch een afgeleide testcase gemaakt in Azure DevOps. Het is een onderliggend item van de testcase **Een nieuw product maken** en deze wordt gelabeld met het speciale trefwoord: **RSAT:DerivedTestSteps**. Deze testcases worden ook automatisch toegevoegd aan het testplan in Azure DevOps.
-
-    ![Het trefwoord RSAT:DerivedTestSteps](./media/use_rsa_tool_04.png)
-
-    > [!NOTE]
-    > Als de afgeleide testcases die worden gemaakt niet in de juiste volgorde staan, gaat u naar Azure DevOps en stelt u de juiste volgorde in de testsuite in zodat RSAT deze in de juiste volgorde kan uitvoeren.
-
-4. Selecteer de afgeleide testcases en selecteer vervolgens **Bewerken** om de bijbehorende Excel-parameterbestanden te openen.
-5. Bewerk deze Excel-parameterbestanden op dezelfde manier als u de bovenliggende bestanden hebt bewerkt. Met andere woorden, zorg ervoor dat de product-id zo is ingesteld dat deze automatisch wordt gegenereerd. Zorg er ook voor dat de opgeslagen variabele naar de relevante velden wordt gekopieerd.
-6. Werk op het tabblad **Algemeen** van beide Excel-parameterbestanden de waarde van het veld **Bedrijf** bij naar **USSI**, zodat de afgeleide testcases worden uitgevoerd voor een andere rechtspersoon dan de bovenliggende testcase. Als u de testcases wilt uitvoeren voor een specifieke gebruiker (of de rol die aan een specifieke gebruiker is gekoppeld), kunt u de waarde van het veld **Gebruiker testen** bijwerken.
-7. Selecteer **Uitvoeren**en controleer of het product is gemaakt in de rechtspersonen USMF en USSI.
-
-### <a name="validate-notifications"></a>Meldingen valideren
-
-Deze functie kan worden gebruikt om te controleren of een actie is uitgevoerd. Als er bijvoorbeeld een productieorder is gemaakt, is geschat en vervolgens is gestart, wordt in de app het bericht 'Productie – begin' weergegeven om aan te geven dat de productieorder is gestart.
-
-![De melding Productie - begin](./media/use_rsa_tool_05.png)
-
-U kunt dit bericht valideren via RSAT door de berichttekst in te voeren op het tabblad **MessageValidation** van het Excel-parameterbestand voor de desbetreffende registratie.
-
-![Het tabblad Berichtvalidatie](./media/use_rsa_tool_06.png)
-
-Nadat de testcase is uitgevoerd, wordt het bericht in het Excel-parameterbestand vergeleken met het bericht dat wordt weergegeven. Als de berichten niet overeenkomen, mislukt de testcase.
-
-> [!NOTE]
-> U kunt meer dan één bericht invoeren op het tabblad **MessageValidation** in het Excel-parameterbestand. In plaats van informatieve berichten kunnen de berichten ook fout- of waarschuwingsberichten zijn.
-
-### <a name="validate-values-by-using-operators"></a>Waarden controleren met operatoren
-
-In eerdere versies van RSAT kon u waarden alleen valideren als een controlewaarde overeenkwam met een verwachte waarde. Met de nieuwe functie kunt u valideren of een variabele niet gelijk is aan, kleiner is dan of groter is dan een opgegeven waarde.
-
-- Als u deze functie wilt gebruiken, opent u het bestand **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** onder de RSAT-installatiemap (bijvoorbeeld **C:\\Program Files (x86)\\Regression Suite Automation Tool**) en wijzigt u de waarde in het volgende element van **false** in **true**.
-
-    ```xml
-    <add key="AddOperatorFieldsToExcelValidation" value="false" />
-    ```
-
-    In het Excel-parameterbestand wordt een nieuw veld **Operator** weergegeven.
-
-    > [!NOTE]
-    > Als u een oudere versie van RSAT hebt gebruikt, moet u nieuwe Excel-parameterbestanden genereren.
-
-    ![Het veld Operator](./media/use_rsa_tool_07.png)
+Met RSAT kunt u validatiestappen in uw testaanvraag opnemen om de verwachte waarden te valideren. Zie het artikel [Verwachte waarden valideren](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md) voor meer informatie over deze functie.
 
 In het volgende voorbeeld ziet u hoe u deze functie kunt gebruiken om te valideren of de voorhanden voorraad groter is dan 0 (nul).
 
@@ -115,7 +49,7 @@ In het volgende voorbeeld ziet u hoe u deze functie kunt gebruiken om te valider
     5. Markeer in de lijst de geselecteerde rij.
     6. Valideer of het veld **Totaal beschikbaar** de waarde **411,0000000000000000** bevat.
 
-2. Sla de taakregistratie op naar de BPM-bibliotheek in LCS en synchroniseer deze naar Azure DevOps.
+2. Sla de taakregistratie op en koppel deze aan de testcase in de Azure Devops.
 3. Voeg de testcase toe aan het testplan en laad de testcase in RSAT.
 4. Open het Excel-parameterbestand. Op het tabblad **InventOnhandItem** wordt de sectie **InventOnhandItem valideren** met het veld **Operator** weergegeven.
 
@@ -130,28 +64,32 @@ In het volgende voorbeeld ziet u hoe u deze functie kunt gebruiken om te valider
 
 Als de waarde van het veld **Totaal beschikbaar** voor het opgegeven artikel in voorraad groter is dan 0 (nul), slagen de tests, ongeacht de werkelijke waarde voor voorhanden voorraad.
 
-### <a name="generator-logs"></a>Generatorlogboeken
+### <a name="saved-variables-and-chaining-of-test-cases"></a>Opgeslagen variabelen en aaneenschakeling van testcases
 
-Met deze functie wordt een map gemaakt die de logboeken bevat van de testcases die zijn uitgevoerd.
+Eén van de belangrijkste functies van RSAT is dat testcases kunnen worden aaneengeschakeld, dat wil zeggen dat variabelen kunnen worden doorgegeven aan andere tests. Zie het artikel [Variabelen kopiëren om testcases aaneen te schakelen](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md) voor meer informatie.
 
-- Als u deze functie wilt gebruiken, opent u het bestand **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** onder de RSAT-installatiemap (bijvoorbeeld **C:\\Program Files (x86)\\Regression Suite Automation Tool**) en wijzigt u de waarde in het volgende element van **false** in **true**.
+### <a name="derived-test-case"></a>Afgeleide testcase
 
-    ```xml
-    <add key="LogGeneration" value="false" />
-    ```
+Met RSAT kunt u dezelfde taakregistratie gebruiken met meerdere testcases, zodat een taak kan worden uitgevoerd met verschillende gegevensconfiguraties. Zie het artikel [Afgeleide testcases](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md) voor meer informatie.
 
-Nadat de testcases zijn uitgevoerd, kunt u de logboekbestanden vinden onder **C:\\Users\\\<Gebruikersnaam\>\\AppData\\Roaming\\regressionTool\\generatorLogs**.
+### <a name="validate-notifications-and-messages"></a>Meldingen en berichten valideren
 
-![De map GeneratorLogs](./media/use_rsa_tool_10.png)
+Deze functie kan worden gebruikt om te controleren of een actie is uitgevoerd. Als er bijvoorbeeld een productieorder is gemaakt, is geschat en vervolgens is gestart, wordt in de app het bericht 'Productie – begin' weergegeven om aan te geven dat de productieorder is gestart.
+
+![De melding Productie - begin](./media/use_rsa_tool_05.png)
+
+U kunt dit bericht valideren via RSAT door de berichttekst in te voeren op het tabblad **MessageValidation** van het Excel-parameterbestand voor de desbetreffende registratie.
+
+![Het tabblad Berichtvalidatie](./media/use_rsa_tool_06.png)
+
+Nadat de testcase is uitgevoerd, wordt het bericht in het Excel-parameterbestand vergeleken met het bericht dat wordt weergegeven. Als de berichten niet overeenkomen, mislukt de testcase.
 
 > [!NOTE]
-> Als er bestaande testcases bestonden voordat u de waarde in het config-bestand wijzigde, worden er geen logboeken gegenereerd voor deze testcases totdat u nieuwe bestanden voor de testuitvoering genereert.
-> 
-> ![De opdracht Alleen testuitvoeringsbestanden genereren in het menu Nieuw](./media/use_rsa_tool_11.png)
+> U kunt meer dan één bericht invoeren op het tabblad **MessageValidation** in het Excel-parameterbestand. In plaats van informatieve berichten kunnen de berichten ook fout- of waarschuwingsberichten zijn.
 
 ### <a name="snapshot"></a>Momentopname
 
-Met deze functie maakt u schermafbeeldingen van de stappen die zijn uitgevoerd tijdens de taakregistratie.
+Met deze functie maakt u schermafbeeldingen van de stappen die zijn uitgevoerd tijdens de taakregistratie. Het is handig voor het controleren of debuggen van problemen.
 
 - Als u deze functie wilt gebruiken, opent u het bestand **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** onder de RSAT-installatiemap (bijvoorbeeld **C:\\Program Files (x86)\\Regression Suite Automation Tool**) en wijzigt u de waarde van het volgende element van **false** in **true**.
 
@@ -159,17 +97,11 @@ Met deze functie maakt u schermafbeeldingen van de stappen die zijn uitgevoerd t
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Onder **C:\\Users\\\<Gebruikersnaam\>\\AppData\\Roaming\\regressionTool\\playback** wordt een aparte map gemaakt voor elke testcase die wordt uitgevoerd.
-
-![Map voor momentopnamen voor een testcase](./media/use_rsa_tool_12.png)
-
-In al deze mappen vindt u momentopnamen van de stappen die tijdens het uitvoeren van de testcases zijn uitgevoerd.
-
-![Momentopnamebestanden](./media/use_rsa_tool_13.png)
+Wanneer de testaanvraag wordt uitgevoerd, genereert RSAT momentopnamen (installatiekopieën) van de afgespeelde stappen in de map voor testcases in de werkdirectory. Als u een oudere versie van RSAT gebruikt, worden de afbeeldingen opgeslagen in **C:\\Gebruikers\\\<Gebruikersnaam\>\\AppData\\Roaming\\regressionTool\\playback**, en er wordt een aparte map gemaakt voor elke testaanvraag die wordt uitgevoerd.
 
 ## <a name="assignment"></a>Toewijzing
 
-### <a name="scenario"></a>Scenario
+### <a name="scenario"></a>Scenario's
 
 1. De productontwerper maakt een nieuw vrijgegeven product.
 2. De productiemanager initieert een productieorder om het voorraadniveau naar twee stuks te brengen.
@@ -183,7 +115,7 @@ In de volgende afbeelding wordt de stroom voor dit scenario weergegeven.
 
 ![Stroom voor het demoscenario](./media/use_rsa_tool_14.png)
 
-In de volgende afbeelding ziet u de bedrijfsprocessen voor dit scenario in RSAT.
+In de volgende afbeelding wordt de hiërarchie van bedrijfsprocessen voor dit scenario weergegeven in de LCS Modelleertool bedrijfsprocessen.
 
 ![Bedrijfsprocessen voor het demoscenario](./media/use_rsa_tool_15.png)
 
@@ -377,7 +309,7 @@ U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuit
 
 
 #### <a name="help"></a>help
-Identiek aan de [?](####?) opdracht
+Identiek aan de [?](#section) opdracht
 
 
 #### <a name="list"></a>list
@@ -512,6 +444,8 @@ Hiermee worden twee manieren weergegeven om deze toepassing aan te roepen: een w
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell-voorbeelden
 
+[!IMPORTANT] De onderstaande voorbeeldscripts worden ter illustratie geleverd en worden niet door Microsoft ondersteund.
+
 #### <a name="run-a-test-case-in-a-loop"></a>Een testcase uitvoeren in een lus
 
 U hebt een testscript waarmee u een nieuwe klant kunt maken. Via scripts kan deze testcase in een lus worden uitgevoerd door de volgende gegevens in willekeurige volgorde te zetten voordat elke iteratie wordt uitgevoerd:
@@ -551,7 +485,7 @@ function RunTestCase
     $cmd = $cmd + $filename
     cmd /c $cmd
 }
-$excelFilename = "full path to excel file parameter file"
+$excelFilename = "full path to Excel parameter file"
 l$sheetName = "DirPartyQuickCreateForm"
 for ($i = $start; $i -lt $start + $nr; $i++ )
 {

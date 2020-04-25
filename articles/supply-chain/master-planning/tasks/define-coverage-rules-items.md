@@ -2,7 +2,7 @@
 title: Behoefteplanningsregels voor artikelen definiëren
 description: Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,22 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, ReqItemTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 680d7c9339b089a4da82bef18bae3af41e23af30
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fd44c458da03807ddc1dc9d652da29c1404dbe64
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845163"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209600"
 ---
 # <a name="define-coverage-rules-for-items"></a>Behoefteplanningsregels voor artikelen definiëren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure toont hoe u behoefteplanningsregels maakt en behoefteplanningsinstellingen voor een specifiek artikel overschrijft. Het toont ook hoe u standaardvoorraadinstellingen opgeeft.
 

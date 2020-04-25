@@ -3,7 +3,7 @@ title: Azure Active Directory-verificatie inschakelen voor POS-aanmelding
 description: In dit onderwerp wordt uitgelegd hoe u de aanmeldingservaring voor het Microsoft Dynamics 365 Commerce-verkooppunt (POS) zo configureert dat Azure Active Directory-verificatie wordt gebruikt.
 author: boycezhu
 manager: annbe
-ms.date: 03/04/2020
+ms.date: 03/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,16 +15,16 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: f030e8382627191dd32d855e15432fc85dca4bbd
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: dfc49585434383385b6b993893d93b95ef888384
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100375"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248935"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Azure Active Directory-verificatie inschakelen voor POS-aanmelding
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Veel klanten die Microsoft Dynamics 365 Commerce gebruiken, gebruiken ook andere Microsoft-cloudservices en ze kunnen Azure Active Directory (Azure AD) gebruiken om gebruikersreferenties voor deze services te beheren. In deze gevallen willen de klanten mogelijk dezelfde Azure AD-account gebruiken voor verschillende toepassingen. In dit onderwerp wordt uitgelegd hoe u de aanmeldingservaring voor het Commerce-verkooppunt (POS) zo configureert dat Azure AD-verificatie wordt gebruikt.
 

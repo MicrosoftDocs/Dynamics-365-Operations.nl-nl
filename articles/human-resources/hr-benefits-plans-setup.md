@@ -3,7 +3,7 @@ title: Een nieuw vergoedingsplan maken
 description: Vergoedingsplannen maken in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97c3acf1294b7a8c2496f23a32918152f50a9e5e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6e3822a1071023898e459a82c14ff648d8cdebed
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008634"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230103"
 ---
 # <a name="create-a-benefits-plan"></a>Een nieuw vergoedingsplan maken
-
-[!include [banner](includes/preview-feature.md)]
 
 In dit artikel wordt beschreven hoe u vergoedingsplannen in Dynamics 365 Human Resources instelt.
 
@@ -39,16 +37,16 @@ In dit artikel wordt beschreven hoe u vergoedingsplannen in Dynamics 365 Human R
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Plan | Een unieke id voor het plan. |
-   | Beschrijving | Een omschrijving van het plan. |
-   | Plantype | Wanneer u een nieuw plan maakt, moet u het plantype opgeven. Een plantype is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype geeft aan of een werknemer zich kan inschrijven voor meerdere plannen van dat type en of contactpersonen begunstigden of gezinsleden zijn. In het plantype worden ook de dekkingsopties gedefinieerd. U kunt nieuwe aangepaste plantypen maken die zijn afgestemd op de door u aangeboden vergoedingen. De belangrijkste typen vergoedingsplannen zijn: <ul><li>401K</li><li>ADD</li><li>Dental</li><li>Fitness</li><li>FSA</li><li>Life</li><li>LTD</li><li>Medical</li><li>PTO</li><li>STD</li><li>Vision</li></ul> |
-   | Code van plantype | De plantypecode van het plantype. |
-   | Programma | Geeft een programma aan waaraan u het plan desgewenst kunt toewijzen. |
-   | Bundel | Geeft een bundel aan waaraan u het plan desgewenst kunt toewijzen. |
-   | Master | Geeft aan of het plan het hoofdplan is binnen de bundel waaraan het is toegewezen. |
-   | Status | Geeft de huidige status van het vergoedingsplan aan. De standaardwaarde is Actief. Als u de status wijzigt in Inactief, is het plan niet beschikbaar als keuzemogelijkheid tijdens de inschrijving. |
-   | Geldig vanaf datum en tijd | De datum en het tijdstip waarop het plan start. De standaardwaarde is de huidige systeemdatum. |
-   | Geldig tot datum en tijd | De datum en het tijdstip waarop het plan eindigt (de status is ingesteld op inactief). De standaardwaarde is 12/31/2154, wat 'nooit' betekent. |
+   | **Plan** | Een unieke id voor het plan. |
+   | **Beschrijving** | Een omschrijving van het plan. |
+   | **Plantype** | Wanneer u een nieuw plan maakt, moet u het plantype opgeven. Een plantype is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype geeft aan of een werknemer zich kan inschrijven voor meerdere plannen van dat type en of contactpersonen begunstigden of gezinsleden zijn. In het plantype worden ook de dekkingsopties gedefinieerd. U kunt nieuwe aangepaste plantypen maken die zijn afgestemd op de door u aangeboden vergoedingen. De belangrijkste typen vergoedingsplannen zijn: <ul><li>401K</li><li>ADD</li><li>Dental</li><li>Fitness</li><li>FSA</li><li>Life</li><li>LTD</li><li>Medical</li><li>PTO</li><li>STD</li><li>Vision</li></ul> |
+   | **Code van plantype** | De plantypecode van het plantype. |
+   | **Programma** | Geeft een programma aan waaraan u het plan desgewenst kunt toewijzen. |
+   | **Bundel** | Geeft een bundel aan waaraan u het plan desgewenst kunt toewijzen. |
+   | **Master** | Geeft aan of het plan het hoofdplan is binnen de bundel waaraan het is toegewezen. |
+   | **Status** | Geeft de huidige status van het vergoedingsplan aan. De standaardwaarde is Actief. Als u de status wijzigt in Inactief, is het plan niet beschikbaar als keuzemogelijkheid tijdens de inschrijving. |
+   | **Geldig vanaf datum en tijd** | De datum en het tijdstip waarop het plan start. De standaardwaarde is de huidige systeemdatum. |
+   | **Geldig tot datum en tijd** | De datum en het tijdstip waarop het plan eindigt (de status is ingesteld op inactief). De standaardwaarde is 12/31/2154, wat 'nooit' betekent. |
 
 4. Geef op het tabblad **Configuratie** waarden op voor de volgende velden, afhankelijk van het type plan dat u gaat maken:
 
@@ -77,42 +75,42 @@ In dit artikel wordt beschreven hoe u vergoedingsplannen in Dynamics 365 Human R
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Inschrijving toestaan/voortzetten | Geeft aan of werknemers zich voor het plan kunnen inschrijven als ze voldoen aan de vereisten om in aanmerking te komen.</br></br>Als deze optie is ingesteld op Nee, is het plan niet beschikbaar voor werknemers wanneer u de geschiktheid verwerkt. |
-   | Automatisch inschrijven vanaf voorafgaand jaar | Geeft aan of een in aanmerking komende werknemer automatisch wordt ingeschreven in het plan bij inschrijving in het vorige jaar. |
-   | Standaard automatisch inschrijven | Geeft aan of het plan standaard wordt geselecteerd voor inschrijving. Het plan is niet verplicht, zodat de werknemer de standaardselectie kan wijzigen. |
-   | Gesloten voor nieuwe inschrijvingen | Geeft aan of het plan uitsluitend beschikbaar is voor in aanmerking komende werknemers die zich in het voorgaande jaar hebben ingeschreven. |
-   | Verplicht plan | Geeft aan of werknemers automatisch voor het plan moeten worden ingeschreven. Werknemers kunnen de inschrijvingsselectie niet wijzigen. |
-   | Begindatum | De datum waarop het plan is gemaakt in het bedrijf. |
-   | Leverancier (leverancier vergoedingsplan) | De leverancier aan wie het bedrijf de premies betaalt voor het plan. |
-   | Naam (leverancier vergoedingsplan) | De naam van de leverancier. |
-   | Leveranciersverwijzing (leverancier vergoedingsplan) | De verwijzing van de leverancier voor het plan. Bijvoorbeeld het groepsplannummer van het bedrijf. |
-   | Alternatieve verwijzing (leverancier vergoedingsplan) | De alternatieve verwijzing van de leverancier voor het plan. Bijvoorbeeld het rekeningnummer van het bedrijf. |
-   | Valuta (leverancier vergoedingsplan) | De valuta die wordt gebruikt om premies aan de leverancier te betalen. |
-   | Onkostenrekening (leverancier vergoedingsplan) | De grootboekrekening die wordt gebruikt als de onkostenrekening voor planpremies. |
-   | Leverancier (beheerder vergoedingsplan) | De leverancier die door het bedrijf wordt betaald om het plan te beheren. Als het een zelf beheerd plan is, laat u dit veld leeg. |
-   | Naam (beheerder vergoedingsplan) | De naam van de leverancier die de beheerder is van het vergoedingsplan. |
-   | Leveranciersverwijzing (beheerder vergoedingsplan) | De verwijzing voor het plan van de leverancier die de beheerder is. |
-   | Alternatieve verwijzing (beheerder vergoedingsplan) | De alternatieve verwijzing voor het plan van de leverancier die de beheerder is. |
-   | Valuta (beheerder vergoedingsplan) | De valuta die wordt gebruikt om de beheerder van het vergoedingsplan te betalen. |
-   | Onkostenrekening (beheerder vergoedingsplan) | De grootboekrekening die wordt gebruikt als de onkostenrekening voor de kosten die aan het beheer van het plan zijn gekoppeld. |
+   | **Inschrijving toestaan/voortzetten** | Geeft aan of werknemers zich voor het plan kunnen inschrijven als ze voldoen aan de vereisten om in aanmerking te komen.</br></br>Als deze optie is ingesteld op Nee, is het plan niet beschikbaar voor werknemers wanneer u de geschiktheid verwerkt. |
+   | **Automatisch inschrijven vanaf voorafgaand jaar** | Geeft aan of een in aanmerking komende werknemer automatisch wordt ingeschreven in het plan bij inschrijving in het vorige jaar. |
+   | **Standaard automatisch inschrijven** | Geeft aan of het plan standaard wordt geselecteerd voor inschrijving. Het plan is niet verplicht, zodat de werknemer de standaardselectie kan wijzigen. |
+   | **Gesloten voor nieuwe inschrijvingen** | Geeft aan of het plan uitsluitend beschikbaar is voor in aanmerking komende werknemers die zich in het voorgaande jaar hebben ingeschreven. |
+   | **Verplicht plan** | Geeft aan of werknemers automatisch voor het plan moeten worden ingeschreven. Werknemers kunnen de inschrijvingsselectie niet wijzigen. |
+   | **Begindatum** | De datum waarop het plan is gemaakt in het bedrijf. |
+   | **Leverancier** (leverancier vergoedingsplan) | De leverancier aan wie het bedrijf de premies betaalt voor het plan. |
+   | **Naam** (leverancier vergoedingsplan) | De naam van de leverancier. |
+   | **Leveranciersverwijzing** (leverancier vergoedingsplan) | De verwijzing van de leverancier voor het plan. Bijvoorbeeld het groepsplannummer van het bedrijf. |
+   | **Alternatieve verwijzing** (leverancier vergoedingsplan) | De alternatieve verwijzing van de leverancier voor het plan. Bijvoorbeeld het rekeningnummer van het bedrijf. |
+   | **Valuta** (leverancier vergoedingsplan) | De valuta die wordt gebruikt om premies aan de leverancier te betalen. |
+   | **Onkostenrekening** (leverancier vergoedingsplan) | De grootboekrekening die wordt gebruikt als de onkostenrekening voor planpremies. |
+   | **Leverancier** (beheerder vergoedingsplan) | De leverancier die door het bedrijf wordt betaald om het plan te beheren. Als het een zelf beheerd plan is, laat u dit veld leeg. |
+   | **Naam** (beheerder vergoedingsplan) | De naam van de leverancier die de beheerder is van het vergoedingsplan. |
+   | **Leveranciersverwijzing** (beheerder vergoedingsplan) | De verwijzing voor het plan van de leverancier die de beheerder is. |
+   | **Alternatieve verwijzing** (beheerder vergoedingsplan) | De alternatieve verwijzing voor het plan van de leverancier die de beheerder is. |
+   | **Valuta** (beheerder vergoedingsplan) | De valuta die wordt gebruikt om de beheerder van het vergoedingsplan te betalen. |
+   | **Onkostenrekening** (beheerder vergoedingsplan) | De grootboekrekening die wordt gebruikt als de onkostenrekening voor de kosten die aan het beheer van het plan zijn gekoppeld. |
 
 6. Filter de gegevens via het tabblad **Filters** indien nodig. U kunt filteren op de volgende velden:
 
-   - Bedrijfseenheid
-   - Departement
-   - Rechtspersoon
-   - Locatie
-   - Positie
+   - **Bedrijfseenheid**
+   - **Departement**
+   - **Rechtspersoon**
+   - **Locatie**
+   - **Positie**
 
 7. Geef op het tabblad **Geschiktheidsregels** waarden op voor de volgende velden:
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Regelnummer | Het regelnummer van de geschiktheidsregel. |
-   | Geschiktheidsregel | Een geschiktheidsregel die moet worden toegepast op het vergoedingsplan. Deze geschiktheidsregel wordt toegepast op het corresponderende actietype en gekoppeld aan de opgegeven wachttijd voor een dekking en inhoudingen. |
-   | Actietype | De actie voor het toepassen van de geschiktheidsregel op de inschrijving voor, of de vervaldatum van, een vergoedingsplan. |
-   | Wachtperiode voor dekking | Een waarde uit het formulier Wachttijden. De wachttijd voor de dekking bepaalt het aantal dagen of maanden dat een werknemer moet wachten voor deze aanspraak kan maken op de dekking van een vergoedingsplan of de vervaldatum van het vergoedingsplan op basis van de criteria in de geschiktheidsregel en het actietype. |
-   | Wachtperiode voor inhouding | Een waarde uit het formulier Wachttijden. De wachttijd voor inhoudingen bepaalt het aantal dagen of maanden dat een werknemer moet wachten voor inhoudingen op het salaris beginnen voor het vergoedingsplan op basis van de criteria in de geschiktheidsregel en het actietype. |
+   | **Regelnummer** | Het regelnummer van de geschiktheidsregel. |
+   | **Geschiktheidsregel** | Een geschiktheidsregel die moet worden toegepast op het vergoedingsplan. Deze geschiktheidsregel wordt toegepast op het corresponderende actietype en gekoppeld aan de opgegeven wachttijd voor een dekking en inhoudingen. |
+   | **Actietype** | De actie voor het toepassen van de geschiktheidsregel op de inschrijving voor, of de vervaldatum van, een vergoedingsplan. |
+   | **Wachtperiode voor dekking** | Een waarde uit het formulier Wachttijden. De wachttijd voor de dekking bepaalt het aantal dagen of maanden dat een werknemer moet wachten voor deze aanspraak kan maken op de dekking van een vergoedingsplan of de vervaldatum van het vergoedingsplan op basis van de criteria in de geschiktheidsregel en het actietype. |
+   | **Wachtperiode voor inhouding** | Een waarde uit het formulier Wachttijden. De wachttijd voor inhoudingen bepaalt het aantal dagen of maanden dat een werknemer moet wachten voor inhoudingen op het salaris beginnen voor het vergoedingsplan op basis van de criteria in de geschiktheidsregel en het actietype. |
 
 8. Selecteer **Opslaan**.
 

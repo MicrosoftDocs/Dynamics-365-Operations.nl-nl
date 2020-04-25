@@ -3,7 +3,7 @@ title: Overzicht van Beheer van bedrijfsdocumenten
 description: Dit onderwerp biedt informatie over het gebruiken van de functie Beheer van bedrijfsdocumenten van het ER-raamwerk.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117332"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258552"
 ---
 # <a name="business-document-management-overview"></a>Overzicht van Beheer van bedrijfsdocumenten
 
@@ -46,7 +46,7 @@ Als u Beheer van bedrijfsdocumenten wilt gebruiken voor het bewerken van sjablon
 
 ## <a name="business-document-availability"></a>Beschikbaarheid van bedrijfsdocumenten
 
-De volgende rapporten met Excel-sjablonen zijn beschikbaar in de release van de openbare preview:
+De volgende rapporten met Excel-sjablonen worden beschikbaar in de release van de openbare preview:
 
 **Klanten** (augustus 2019)
 
@@ -248,9 +248,18 @@ Met de volgende procedure kunt u sjablonen voor vrije-tekstfacturen bewerken in 
 1. Meld u als een gebruiker met toegang tot het werkgebied voor het beheer van bedrijfsdocumenten aan.
 2. Open het werkgebied van Beheer van bedrijfsdocumenten.
 
+Wanneer de functie **Office-achtige UI-ervaring voor Beheer van bedrijfsdocumenten** is uitgeschakeld in het werkgebied **Functiebeheer**, worden in **het hoofdraster** in het werkgebied Beheer van bedrijfsdocumenten de volgende sjablonen weergegeven:
+
+- Sjablonen die het eigendom zijn van uw ER-configuratieprovider (dat wil zeggen de provider die momenteel is gemarkeerd als actief in het werkgebied  **Elektronische rapportage**). Nadat u een van deze sjablonen hebt geselecteerd, kunt u de optie **Sjabloon bewerken** selecteren om deze te starten of te bewerken.
+- Sjablonen die eigendom zijn van andere ER-configuratieproviders. Nadat u een van deze sjablonen hebt geselecteerd, kunt u **Nieuw document** selecteren om een kopie van het document te maken dat het eigendom is van uw ER-configuratieprovider. Vervolgens start u de kopie.
+
 ![Pagina Werkgebied van Beheer van bedrijfsdocumenten](./media/BDM-Overview-EditingTemplate1.png)
 
 Op het tabblad **Sjabloon** wordt de inhoud van de geselecteerde sjabloon weergegeven. Selecteer het tabblad **Details** om de details van de geselecteerde sjabloon weer te geven, evenals details over de ER-indelingsconfiguratie waarin deze sjabloon zich bevindt. U ziet dat alle sjablonen de status **Gepubliceerd** hebben en geen details bevatten in de kolom **Revisie**. Dit betekent dat deze sjablonen momenteel niet worden bewerkt.
+
+Wanneer de functie **Office-achtige UI-ervaring voor Beheer van bedrijfsdocumenten** is ingeschakeld in het werkgebied **Functiebeheer**, worden in het hoofdraster van het werkgebied **Beheer van bedrijfsdocumenten** sjablonen weergegeven die het eigendom zijn van uw ER-configuratieprovider (de provider die momenteel is gemarkeerd als actief in het werkgebied **Elektronische rapportage**). Nadat u een van deze sjablonen hebt geselecteerd, kunt u de optie **Sjabloon bewerken** selecteren om deze te starten of te bewerken.
+
+Als u wilt werken met sjablonen die eigendom zijn van andere ER-configuratieproviders, selecteert u **Nieuw document** om een kopie te maken van de sjabloon die het eigendom is van uw ER-provider. Vervolgens kunt u de kopie bewerken. Zie [Nieuwe gebruikersinterface voor documenten in Beheer van bedrijfsdocumenten](er-business-document-management-new-template-ui.md) voor meer informatie.
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>Bewerking van sjablonen starten die eigendom zijn van uw configuratieprovider
 

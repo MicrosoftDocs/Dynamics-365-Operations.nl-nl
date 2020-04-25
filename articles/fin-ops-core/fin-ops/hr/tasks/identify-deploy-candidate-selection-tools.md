@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51200a67a51097c438370866cb9d0ccbebe8392c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190368"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143944"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Middelen voor selectie van kandidaten identificeren en implementeren
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Het zoeken van een gekwalificeerde pool kandidaten voor vacatures kan moeilijk zijn, met name als een positie een unieke set vaardigheden vereist.  Kandidaten met de vaardigheden u nodig hebt, kunnen echter al in uw organisatie werken. U kunt een specifieke kwalificatiereeks onder bestaande werknemers of nieuwe sollicitanten zoeken. Zo kan een werver snel sollicitanten verzamelen en controleren die voor een open positie nu of in het verleden hebben gesolliciteerd, of potentiële kandidaten in hun bestaande pool werknemers zoeken. Gebruik deze taakregistratie om te weten hoe de vaardigheidstoewijzingfunctionaliteit u kan helpen de juiste persoon voor een open positie te zoeken. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

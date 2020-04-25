@@ -3,7 +3,7 @@ title: De gebruikerservaring aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u de app kunt aanpassen.
 author: jasongre
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
-ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
+ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029357"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260501"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -80,7 +80,7 @@ Sommige van de meest gangbare en belangrijke wijzigingen die in een pagina kunne
 
 Bovendien zijn de meest algemene typen expliciete aanpassing beschikbaar door met de rechtermuisknop op een element te klikken en vervolgens **Aanpassen** te selecteren. (Houd er rekening mee dat niet alle elementen op uw pagina kunnen worden aangepast.) Wanneer u deze methode van aanpassing selecteert, ziet u het eigenschappenvenster van het element.
 
-![Eigenschappen van een element aanpassen](./media/personalization-element-properties.png)
+![Eigenschappen van een element aanpassen](./media/cli-element-property-window.png)
 
 U kunt het eigenschappenvenster gebruiken om een element op de volgende manieren aan te passen:
 
@@ -89,6 +89,7 @@ U kunt het eigenschappenvenster gebruiken om een element op de volgende manieren
 - De informatie in de samenvattingssectie van het sneltabblad opnemen (als het element zich op een sneltabblad bevindt).
 - Sla het veld over zodat het nooit de focus krijgt wanneer u door de pagina navigeert.
 - Voorkom dat gegevens in het veld (voor elke record) worden bewerkt.
+- Wijs een veld aan dat vereist is voor de gegevensinvoer. Als er in dit veld geen waarde is ingevoerd, wordt dit weergegeven met een rode rand en een sterretje om deze status aan te geven. Deze optie is alleen beschikbaar vanaf versie 10.0.11 als de functies [Opgeslagen weergaven](saved-views.md) en **Velden aanwijzen die vereist zijn voor persoonlijke instellingen** zijn ingeschakeld.
 
 Het eigenschappenvenster kan andere mogelijkheden voor aanpassing hebben, afhankelijk van het element. Met het eigenschappenvenster van een tegel kunt u de tegel bijvoorbeeld promoveren tot dashboard en met het eigenschappenvenster van een dashboard kunt u mogelijk een nieuw werkgebied maken op dat dashboard.
 
@@ -116,6 +117,7 @@ De volgende hulpmiddelen zijn beschikbaar op de werkbalk **Aanpassing**:
 - Gebruik het hulpmiddel **Verplaatsen** om een element te verplaatsen naar een andere locatie binnen de huidige groep elementen. U kunt een element niet buiten de bovenliggende groep verplaatsen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verplaatsen** op de werkbalk en selecteert u vervolgens het element dat u wilt verplaatsen. Wanneer u een element selecteert, bepaalt de app de locaties waar het element naartoe kan worden verplaatst. Deze locaties worden *neerzetzones*genoemd. Wanneer u het element binnen de huidige groep versleept, wordt elke neerzetzone weergegeven als een gekleurde vette lijn naast het gebied waar het element kan worden neergezet.
 - Gebruik het hulpmiddel **Overslaan** om een element te verwijderen uit de volgorde van de toetsenbordtoets Tab van de pagina. Wanneer u de knop **Overslaan** op de werkbalk selecteert, worden alle elementen die momenteel overgeslagen worden, weergegeven in een grijze container. U kunt velden interactief verwijderen of toevoegen aan de tabvolgorde.
 - Gebruik het hulpmiddel **Weergeven in koptekst** als u wilt dat een veld in de samenvattingssectie van het sneltabblad wordt weergegeven. Wanneer u de knop **Weergeven in koptekst** selecteert op de werkbalk, worden alle velden die zijn geselecteerd als overzichtsvelden, weergegeven in een grijze container. U kunt interactief velden toevoegen aan het sneltabbladoverzicht en velden eruit verwijderen door de velden te selecteren.
+- Gebruik het gereedschap **Vereisen** om een element aan te wijzen dat nodig is voor gegevensinvoer. Wanneer u de knop **Vereisen** op de werkbalk selecteert, worden alle elementen die momenteel zijn aangepast als vereist, weergegeven in een grijze container. U kunt ze vervolgens weer instellen op niet vereist. Deze optie is alleen beschikbaar in een toekomstige release als de functies [Opgeslagen weergaven](saved-views.md) en **Velden aanwijzen die vereist zijn voor persoonlijke instellingen** zijn ingeschakeld.
 - Gebruik het hulpmiddel **Vergrendelen** wanneer u een element als bewerkbaar of niet bewerkbaar wilt markeren. Wanneer u de knop **Vergrendelen** op de werkbalk selecteert, worden alle elementen die momenteel niet bewerkbaar zijn, weergegeven in een grijze container. U kunt deze vervolgens weer bewerkbaar maken. Merk op dat sommige velden verplicht zijn en niet niet-bewerkbaar kunnen worden gemaakt. Een hangslot wordt weergegeven naast deze velden.
 - Gebruik de knop **Een app toevoegen vanuit Power Apps** om een app in te sluiten die met Microsoft Power Apps op de pagina is gemaakt. Zie [Apps insluiten vanuit Power Apps](embed-power-apps.md) voor gedetailleerde informatie over het insluiten van een app op een pagina vanuit Power Apps. Deze optie is alleen beschikbaar als de functie [Opgeslagen weergaven](saved-views.md) is uitgeschakeld.  
 - Gebruik de **Een app toevoegen** om een app in te sluiten op de pagina. Dit kan een app zijn die is gemaakt in Microsoft Power Apps of een app van derden. Deze optie is alleen beschikbaar als de functie [Opgeslagen weergaven](saved-views.md) is ingeschakeld. 

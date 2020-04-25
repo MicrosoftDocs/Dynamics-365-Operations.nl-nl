@@ -3,7 +3,7 @@ title: Een preview-omgeving inrichten voor Dynamics 365 Commerce
 description: In dit onderwerp wordt uitgelegd hoe u een preview-omgeving van Microsoft Dynamics 365 Commerce inricht.
 author: psimolin
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024631"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254743"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Een preview-omgeving inrichten voor Dynamics 365 Commerce
 
@@ -234,8 +234,6 @@ Ga als volgt te werk om e-Commerce te initialiseren.
 ## <a name="commerce-preview-environment-support"></a>Ondersteuning voor preview-omgeving van Commerce
 
 Als u problemen ondervindt tijdens het uitvoeren van de inrichting, gaat u naar de [Microsoft Dynamics 365 Commerce Preview Yammer-groep](https://aka.ms/Dynamics365CommercePreviewYammer) voor hulp.
-
-Als u problemen ondervindt wanneer u probeert toegang te krijgen tot de Yammer-groep, kunt u per e-mail contact opnemen met Microsoft via <Dynamics365Commerce@microsoft.com>. Dit e-mailadres wordt niet actief gecontroleerd. Verwacht daarom een vertraging in het antwoord.
 
 ## <a name="next-steps"></a>Volgende stappen
 

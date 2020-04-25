@@ -2,30 +2,30 @@
 title: Een productiestroomversie maken
 description: Deze procedure is gericht op het maken van een nieuwe productstroomversie.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: da3b77ed459f42ef91d64066b18b07fece9efc8f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564081"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212130"
 ---
 # <a name="create-a-production-flow-version"></a>Een productiestroomversie maken
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Deze procedure is gericht op het maken van een nieuwe productstroomversie. Voor deze procedure moeten de productieparameters voor lean manufacturing en de maateenheden voor klassetijd worden gedefinieerd. U moet ook een waardestroom en een productiegroep definiëren. Als u meer wilt weten over productiestromen en activiteiten in lean manufacturing, raadpleegt u de whitepapers over lean manufacturing voor Microsoft Dynamics AX. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

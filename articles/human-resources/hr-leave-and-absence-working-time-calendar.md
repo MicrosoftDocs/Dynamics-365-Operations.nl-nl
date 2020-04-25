@@ -3,7 +3,7 @@ title: Een werktijdkalender maken
 description: Definieer een werktijdkalender, feestdagen en vrije tijd in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 641f66c75875cfba51af3753223a070d7cb7dc50
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: dc209b62836011b18362f78b63cdd3fcda884dc3
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008657"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198022"
 ---
 # <a name="create-a-working-time-calendar"></a>Een werktijdkalender maken
 
@@ -68,10 +68,6 @@ U kunt vrije tijd apart van een werktijdkalender toevoegen of wijzigen.
 1. Selecteer op de pagina **Organisatiebeheer** de optie **Vrije tijd**.
 
 2. Selecteer **Nieuw** en voer een naam en tijdbereik in voor de vrije tijd.
-
-## <a name="leave-and-absence-preview-feature"></a>Preview-functie voor verlof en verzuim
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
 
 Als u de preview-functie van Verlof en verzuim voor correcties voor feestdagen hebt ingeschakeld, gebruikt Human Resources feedsdagen en sluitingsdatums om het aantal dagen te bepalen dat moet worden aangepast voor werknemers die zijn ingeschreven in de kalender.
 

@@ -2,7 +2,7 @@
 title: Overzicht van de Magazijnbeheer-app installeren en configureren
 description: In dit onderwerp wordt beschreven hoe u de Dynamics 365 for Finance and Operations - Warehousing-app kunt installeren en configureren.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: df0bc9ff2405cc2f370ea777a70e005a1ff338a0
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 52882ef7542bfedebdae4a08de8404cddd01ed55
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814945"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205593"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>Overzicht van de Magazijnbeheer-app installeren en configureren
 
@@ -46,13 +46,13 @@ De app is beschikbaar op Android- en Windows-besturingssystemen. Als u deze toep
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0, 7.0, 8.0, 9.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (alle versies)                                                                                                                                                   |
-| Finance en Operations | Microsoft Dynamics 365 for Operations, versie 1611 <br>– of – <br>Microsoft Dynamics AX versie 7.0/7.0.1 en Microsoft Dynamics AX platform update 2 met hotfix KB 3210014 |
+| Finance and Operations | Microsoft Dynamics 365 for Operations, versie 1611 <br>– of – <br>Microsoft Dynamics AX versie 7.0/7.0.1 en Microsoft Dynamics AX platform update 2 met hotfix KB 3210014 |
 
 ## <a name="get-the-app"></a>De app verkrijgen
 -   Windows (UWP)
-     - [Finance and Operations - Warehousing via Windows Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+     - [Finance and Operations - Magazijnbeheer in de Windows Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 -   Android
-    - [Finance and Operations - Warehousing in de Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
+    - [Finance and Operations - Magazijnbeheer in de Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
 > [!NOTE]
 > De Zebra App Gallery is buiten gebruik gesteld, wat betekent dat de app Warehousing niet meer kan worden gedownload vanaf die locatie.

@@ -2,7 +2,7 @@
 title: Tijd toewijzen aan taken in een takenbundel
 description: In Productie-uitvoering kunt u taken bundelen. U kunt meerdere taken tegelijk starten op de pagina Taaklijst.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 55591
 ms.assetid: 358efce7-73c8-4d2a-a7f7-cb99b88ab6ee
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33d6bab9beb28d18e2094d7fb5e670e9425aac39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec07913e217cb3e33d5b58623643f02593c1eeae
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552971"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203360"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Tijd toewijzen aan taken in een takenbundel
 
@@ -99,7 +99,7 @@ Als u wilt dat de productiekosten worden berekend op basis van de werkelijke kos
 | Taak 2 | 3 uur     |
 | Taak 3 | 5 uur     |
 
-Stel dat de drie taken door een werknemer worden uitgevoerd voor een uurprijs van EUR 12,00. Bij de tijd die aan de taak wordt gespendeerd, worden geen premies of toeslagen voor overuren toegekend. De werknemer heeft in totaal zes uur aan deze gebundelde taken gewerkt. De salariskosten zijn dan 6 × EUR 12,00 = EUR 72,00. Wanneer u de toewijzing Realtime gebruikt, worden de kosten per uur herberekend met de factor uit de formule voor Nettotijd. De feitelijke tijd die aan elke taak werd gespendeerd, wordt vervolgens overgeboekt, samen met de gecorrigeerde kostprijs per uur. In het voorbeeld werden 6 uren gespendeerd, hoewel 10 uren waren toegewezen. De volgende tabel illustreert de formule voor de berekening van de kosten. Hier volgt de formule: Kosten per uur = (Totale bundeltijd per taak (Nettotijd) ÷ Feitelijke tijd per taak)) × Standaardkostprijs per uur
+Stel dat de drie taken door een werknemer worden uitgevoerd voor een uurprijs van EUR 12,00. Bij de tijd die aan de taak wordt gespendeerd, worden geen premies of toeslagen voor overuren toegekend. De werknemer heeft in totaal zes uur aan deze gebundelde taken gewerkt. De salariskosten zijn dan 6 × EUR 12,00 = EUR 72,00. Wanneer u de toewijzing Realtime gebruikt, worden de kosten per uur herberekend met de factor uit de formule voor Nettotijd. De feitelijke tijd die aan elke taak werd gespendeerd, wordt vervolgens overgeboekt, samen met de gecorrigeerde kostprijs per uur. In het voorbeeld werden 6 uren gespendeerd, hoewel 10 uren waren toegewezen. De volgende tabel illustreert de formule voor de berekening van de kosten. Hier volgt de formule: Kosten per uur = (Totale bundeltijd per taak (Nettotijd) ÷ Feitelijke tijd per taak) × Standaardkostprijs per uur
 
 | Functie   | Berekening van gecorrigeerde kosten per uur | Gecorrigeerde kosten per uur | Toegewezen tijd | Totale kosten taak |
 |-------|----------------------------------------|-------------------------|----------------|-------------------|

@@ -3,7 +3,7 @@ title: Parameters voor verlof en verzuim configureren
 description: Definieer Human resources-parameters voor verlof en verzuim in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2acb8502ebcab122a0a1ff21e9f5e23931026327
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: eb992cbfbed33f88e125d3a8b721f8815414599a
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008601"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197976"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Parameters voor verlof en verzuim configureren
 
@@ -50,18 +50,25 @@ Voordat u verlof- en verzuimplannen instelt in Dynamics 365 Human Resources, kun
 
 7. Selecteer **Opslaan**.
 
-## <a name="configure-calendar-parameters"></a>Kalenderparameters configureren
-
-Als u de preview-functie voor het verlof- en verzuimkalenders hebt ingeschakeld, moet u extra parameters configureren. 
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-> [!NOTE]
-> Voor de preview-versie van 3 februari 2020 zijn alleen **in behandeling zijnde verlofaanvragen** ingeschakeld.
+## <a name="view-and-change-leave-and-absence-parameters"></a>Parameters voor verlof en verzuim weergeven en aanpassen
 
 1. Selecteer op de pagina **Verlof en verzuim** het tabblad **Koppelingen**.
 
-2. Selecteer onder **Instellen** de optie **Human resources-parameters**.
+2. Selecteer onder **Instellingen** de optie **Parameters voor verlof en verzuim**.
+
+3. Stel op het tabblad **Algemeen** de volgende parameters in:
+ 
+    - Stel **Eenheid voor verlof en verzuim** in op uren of dagen. Bij dagen kunt u de optie **Definitie halve dag inschakelen** om werknemers in staat te stellen om de eerste of de tweede helft van de dag te kiezen in hun verlofaanvraag. 
+
+    - Selecteer **Ingangsdatum servicemaanden** om in te stellen wanneer de toerekeningspercentages van kracht worden voor verlofplannen met servicemaanden.
+
+    - Selecteer **Saldoberekening** om saldi weer te geven vanaf vandaag of vanaf de toerekeningsperiode. Als u vandaag **Saldo vanaf vandaag** selecteert, wordt in het saldo het totaal van alle transitorische posten, correcties en aanvragen vanaf vandaag weergegeven. Als u **Saldo vanaf toerekeningsperiode** selecteert, wordt in het saldo het totaal van alle transitorische posten, correcties en aanvragen weergegeven vanaf de toerekeningsperiode die is gedefinieerd door de frequentie in het verlofplan. 
+
+## <a name="configure-calendar-parameters"></a>Kalenderparameters configureren
+
+1. Selecteer op de pagina **Verlof en verzuim** het tabblad **Koppelingen**.
+
+2. Selecteer onder **Instellingen** de optie **Parameters voor verlof en verzuim**.
 
 3. Wijzig op het tabblad **Kalender** de kalenderinstellingen indien nodig.
 

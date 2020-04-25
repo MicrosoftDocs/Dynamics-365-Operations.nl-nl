@@ -2,7 +2,7 @@
 title: Leverancierscatalogi importeren
 description: Dit onderwerp beschrijft het importproces van leverancierscatalogusgegevens.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 35b8e2a87708c88b12c5c7605a7977712a35a0f4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017869"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207366"
 ---
 # <a name="import-vendor-catalogs"></a>Leverancierscatalogi importeren
 [!include[banner](../includes/banner.md)]
@@ -35,17 +35,16 @@ In Dynamics 365 Supply Chain Management kunnen inkoopprofessionals catalogi make
 U kunt catalogusgegevens die zijn ingediend door een leverancier uploaden vanuit de Microsoft Dynamics 365-client.
 
 De productgegevens die een leverancier bij u indient in het formulier van een CMR-bestand (Catalog Maintenance Request) moeten de XML-bestandsindeling hebben. Het CMR-bestand moet gegevens bevatten voor de producten die de leveranciers aan uw bedrijf levert.
-
+''''
 ## <a name="import-vendor-catalog-data"></a>Leverancierscatalogusgegevens importeren
-
-U moet de volgende taken uitvoeren om leverancierscatalogusgegevens te importeren:
+'' U moet de volgende taken uitvoeren om leverancierscatalogusgegevens te importeren:
 
 1.  Stel een project in in het werkgebied Gegevensbeheer waar u uw toewijzingsregels voor gegevens hebt gedefinieerd. Selecteer **Gegevensbeheer** en selecteer vervolgens **Rollen voor gegevensprojecten instellen**. 
-
+    ''
 2.  Stel een hiërarchie van aanschaffingscategorieën in en wijs uw leveranciers aan aanschaffingscategorieën toe. Als u basisproductcodes gebruikt, voegt u de basisproductcodes aan de aanschaffingscategorieën toe. Zie [Een hiërarchie van aanschaffingscategorieën instellen](../procurement/tasks/set-up-procurement-category-hierarchy.md) voor informatie over het instellen van een hiërarchie van aanschaffingscategorieën.
-
+    ''
 3.  Configureer de leveranciers voor het importeren van catalogi. Selecteer een leverancier en selecteer vervolgens **Inkoop** > **Instellen** > **Leverancier configureren voor importeren van catalogus**.
-
+''''
 4.  Configureer de workflow voor het importeren van catalogi. Maak een CMR-bestandssjabloon en deel deze met uw leverancier.
 
 5.  Selecteer **Inkoop en sourcing** \> **Algemeen** \> **Catalogi** \> **Leverancierscatalogi** voor het maken van een leverancierscatalogus. De catalog maintenance request (CMR)-bestanden die u van uw leverancier ontvangt, worden in deze catalogus gegroepeerd. 

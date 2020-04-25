@@ -2,7 +2,7 @@
 title: Automatische vrijgave van zending voor cross-docken
 description: In dit onderwerp wordt een strategie voor cross-docken beschreven waarmee u automatisch een vraagorder kunt vrijgeven aan het magazijn wanneer de productieorder die de vraaghoeveelheid levert is gereedgemeld, zodat de hoeveelheid rechtstreeks vanuit de locatie voor productie-uitvoer naar de uitgaande locatie kan worden verplaatst.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 849487134969144ec8d3c25023270f7e7a63d470
-ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
+ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2625856"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201474"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automatische vrijgave van zending voor cross-docken
 

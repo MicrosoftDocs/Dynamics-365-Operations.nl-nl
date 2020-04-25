@@ -3,7 +3,7 @@ title: Wachtdagen configureren
 description: In Microsoft Dynamics 365 Human Resources vormen wachtdagen een maandelijkse mijlpaal voor gebruik voor vergoedingsplannen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a46f296722317f4815bf6b2cb8960455cecee110
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: d85dafefb3b71c368dc3114bbf2524aee6196634
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092427"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229602"
 ---
 # <a name="configure-waiting-days"></a>Wachtdagen configureren
-
-[!include [banner](includes/preview-feature.md)]
 
 In Microsoft Dynamics 365 Human Resources vormen wachtdagen een maandelijkse mijlpaal voor gebruik voor vergoedingsplannen. Een wachtdag van 15 vertegenwoordigt bijvoorbeeld de 15e van elke maand. 
 
@@ -39,8 +37,8 @@ In Microsoft Dynamics 365 Human Resources vormen wachtdagen een maandelijkse mij
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Wachtdag | Een unieke id voor de wachtdag. |
-   | Beschrijving | Een beschrijving van de wachtdag. |
-   | Dag | De dag van de maand waarop het systeem de datum van de wachtperiode moet instellen. |
+   | **Wachtdag** | Een unieke id voor de wachtdag. |
+   | **Beschrijving** | Een beschrijving van de wachtdag. |
+   | **Dag** | De dag van de maand waarop het systeem de datum van de wachtperiode moet instellen. |
    
 4. Selecteer **Opslaan**.

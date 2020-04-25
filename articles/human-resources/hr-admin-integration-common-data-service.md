@@ -1,9 +1,9 @@
 ---
 title: Common Data Service-integratie configureren
-description: U kunt de integratie tussen Common Data Service en een exemplaar van Microsoft Dynamics 365 Human Resources in- of uitschakelen. U kunt ook de synchronisatiegegevens weergeven, traceringsgegevens wissen en een entiteit opnieuw synchroniseren als hulp bij het oplossen van problemen tussen de twee omgevingen.
+description: U kunt de integratie tussen Common Data Service en Dynamics 365 Human Resources in- of uitschakelen. U kunt ook synchronisatiegegevens weergeven, traceringsgegevens wissen en een entiteit opnieuw synchroniseren als hulp bij het oplossen van problemen tussen de twee omgevingen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,31 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
+ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008592"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198417"
 ---
 # <a name="configure-common-data-service-integration"></a>Common Data Service-integratie configureren
 
-U kunt de integratie tussen Common Data Service en een exemplaar van Microsoft Dynamics 365 Human Resources in- of uitschakelen. U kunt ook de synchronisatiegegevens weergeven, traceringsgegevens wissen en een entiteit opnieuw synchroniseren als hulp bij het oplossen van problemen tussen de twee omgevingen.
+U kunt de integratie tussen Common Data Service en Dynamics 365 Human Resources in- of uitschakelen. U kunt ook de synchronisatiegegevens weergeven, traceringsgegevens wissen en een entiteit opnieuw synchroniseren als hulp bij het oplossen van problemen tussen de twee omgevingen.
 
 Wanneer u integratie uitschakelt, kunnen gebruikers wijzigingen aanbrengen in Human Resources of Common Data Service, maar deze wijzigingen worden niet gesynchroniseerd tussen de twee omgevingen.
 
-De integratie tussen Human Resources en Common Data Service is standaard uitgeschakeld of ingeschakeld, afhankelijk van de aanwezigheid van demogegevens in de omgevingen:
-
-- **Uit** voor nieuwe omgevingen waarin geen demogegevens zijn opgenomen
-- **Aan** voor nieuwe omgevingen waarin demogegevens zijn opgenomen
-
-Nieuwe omgevingen die demogegevens bevatten, beginnen met het synchroniseren van gegevens wanneer ze worden ingericht.
+Integratie tussen Human Resources en Common Data Service is standaard uitgeschakeld.
 
 Mogelijk wilt u integratie in de volgende situaties uitschakelen:
 
 - U vult gegevens in via het Data Management Framework en u moet de gegevens meerdere keren importeren om de juiste status te krijgen.
 
-- Er zijn problemen met gegevens in Human Resources of Common Data Service. Als u integratie uitschakelt, kunt u een record in de ene omgeving verwijderen zonder deze in de andere omgeving te verwijderen. Wanneer u de integratie weer inschakelt, wordt de record in de omgeving waarin deze niet is verwijderd, opnieuw gesynchroniseerd naar de omgeving waarin deze was verwijderd. De synchronisatie begint de volgende keer dat de batchtaak **Gemiste aanvragen Common Data Service-integratie synchroniseren** wordt uitgevoerd.
+- Er zijn problemen met gegevens in Human Resources of Common Data Service. Als u integratie uitschakelt, kunt u een record in de ene omgeving verwijderen zonder deze in de andere omgeving te verwijderen. Wanneer u de integratie weer inschakelt, wordt de record in de omgeving waarin deze niet is verwijderd, gesynchroniseerd naar de omgeving waarin deze was verwijderd. De synchronisatie begint de volgende keer dat de batchtaak **Gemiste aanvragen Common Data Service-integratie synchroniseren** wordt uitgevoerd.
 
 > [!WARNING]
 > Wanneer u gegevensintegratie uitschakelt, moet u niet dezelfde record in beide omgevingen bewerken. Wanneer u de integratie weer inschakelt, wordt de record die u als laatste hebt bewerkt, gesynchroniseerd. Als u in beide omgevingen niet dezelfde wijzigingen in de record hebt aangebracht, kan er gegevensverlies optreden.
@@ -103,9 +98,17 @@ Zie de volgende procedure als u een volledige synchronisatie wilt uitvoeren op d
 
 ## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Een entiteit synchroniseren tussen Human Resources en Common Data Service
 
-Gebruik deze procedure als het te lang duurt voor wijzigingen in Common Data Service in Human Resources verschijnen, of als u de traceringstabel moet vernieuwen nadat u de traceringsgegevens hebt gewist.
+Gebruik deze procedure als:
 
-- Als u een volledige synchronisatie wilt uitvoeren voor een entiteit tussen Human Resources en Common Data Service, selecteert u de entiteit in het veld **CDS- entiteitsnaam** en selecteert u **Nu synchroniseren**.
+- De wijzigingen van Common Data Service te lang duren om te worden weergegeven in Human Resources.
+
+- U moet de traceringstabel vernieuwen nadat u de tracering hebt gewist.
+
+Een volledige synchronisatie uitvoeren voor een entiteit tussen Human Resources en Common Data Service:
+
+1. Selecteer de entiteit in het veld **CDS-entiteitsnaam**.
+
+2. Selecteer **Nu synchroniseren**.
 
 [![Een volledige synchronisatie uitvoeren](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 
