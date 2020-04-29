@@ -70,12 +70,12 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.11 (juli 2020)
+                      href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (mei 2020)
                       href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Management 10.0.9 (april 2020)
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: Supply Chain Management 10.0.8 (februari 2020)
-                      href: get-started/whats-new-scm-10-0-8.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
@@ -349,6 +349,8 @@
               items:
                 - name: 'Prognoses, werkorders en projecten'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+            - name: Beheer van bedrijfsmiddelen integreren met vaste activa
+              href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Preventief en reactief onderhoud
               items:
                 - name: Overzicht preventief onderhoud
@@ -565,6 +567,8 @@
                   href: cost-management/lifo-physical-value-marking.md
                 - name: Zwevend gemiddelde
                   href: cost-management/moving-average.md
+                - name: Zwevend gemiddelde terugvalkostenreeks
+                  href: cost-management/moving-average-fallback.md
                 - name: Fysieke en financiële updates
                   href: cost-management/physical-financial-updates.md
                 - name: Gemiddelde kostprijs gebruiken
@@ -579,7 +583,9 @@
                   href: cost-management/inventory-close.md
                 - name: Kostenwaarden voor voorhanden voorraad corrigeren
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Naar ouderdom gerangschikt voorraadrapport
+                - name: Rapport opslag van voorraadwaarden
+                  href: cost-management/inventory-value-report-storage.md
+                - name: Opslag naar ouderdom gerangschikt voorraadrapport
                   href: cost-management/inventory-aging-report-storage.md
             - name: Productieboekhouding
               items:
@@ -697,7 +703,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Financiële dimensies toevoegen aan samengevoegde metingen
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analytische rapporten maken met Power BI Desktop
+                - name: Analytische rapporten maken met PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1219,10 +1225,12 @@
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: Kwaliteitsbeheer
               items:
-                - name: Overzicht van Kwaliteitsbeheer
+                - name: Overzicht van kwaliteitsbeheer
                   href: inventory/enable-quality-management.md
                 - name: Processen voor kwaliteitsbeheer
                   href: inventory/quality-management-processes.md
+                - name: Kwaliteitsbeheer voor magazijnprocessen
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Beheer van niet-conformering
                   href: inventory/enable-nonconformance-management.md
                 - name: Vereisten voor beheer instellen
@@ -2549,6 +2557,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                 - name: Systeem groeperen op een geopende werklijst
                   href: warehousing/system-group-on-open-work-list.md
+                - name: Indeling van documentroutering voor nummerplaatlabels
+                  href: warehousing/document-routing-layout-for-license-plates.md
                 - name: Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations
                   href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: Ondersteuning mobiele streepjescodelezer
@@ -2653,6 +2663,8 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Mobiele apparaten instellen voor magazijnwerk
                   href: warehousing/configure-mobile-devices-warehouse.md
+                - name: Nummerplaat ontvangen met de mobiele app voor Magazijnbeheer
+                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
                   href: warehousing/tasks/set-up-mobile-device-menu.md
                 - name: Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren
@@ -2673,6 +2685,8 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Ontvangsten voor de registratie en opslag
               items:
+                - name: Magazijnverwerking van inkomende ladingen voor inkooporders
+                  href: warehousing/inbound-load-handling.md
                 - name: Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Artikelen registreren voor een artikel waarvoor basaal magazijnbeheer mogelijk is met een artikelontvangstjournaal
@@ -2682,6 +2696,7 @@
                 - name: Een locatie-instructie instellen voor wegzetten van inkooporders
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Een werksjabloon instellen voor inkooporders
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
         - name: Ontwikkeling Supply Chain Management
           items:
             - name: Handleiding voor ontwikkeling van Gantt-besturingselement

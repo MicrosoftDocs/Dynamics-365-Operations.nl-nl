@@ -44,6 +44,8 @@
                   href: provisioning-guide.md
                 - name: Een previewomgeving voor Dynamics 365 Commerce configureren
                   href: cpe-post-provisioning.md
+                - name: BOPIS configureren in een Dynamics 365 Commerce-omgeving
+                  href: cpe-bopis.md
                 - name: Optionele functies voor een Dynamics 365 Commerce-previewomgeving configureren
                   href: cpe-optional-features.md
                 - name: Veelgestelde vragen over de Dynamics 365 Commerce-previewomgeving
@@ -86,6 +88,8 @@
                   items:
                     - name: Startpagina van Nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.11 (juli 2020)
+                      href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (mei 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (april 2020)
@@ -206,6 +210,8 @@
                   href: retail-onprem.md
             - name: Implementatie en hotfixes
               items:
+                - name: Installatieprogramma's voor selfservice synchroniseren in Dynamics 365 Commerce
+                  href: dev-itpro/Synchronize-installers.md
                 - name: Commerce Scale Unit
                   href: dev-itpro/retail-store-system-begin.md
                 - name: Commerce Scale Unit configureren en installeren
@@ -226,6 +232,8 @@
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Een implementeerbaar pakket toepassen
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Seedgegevens in nieuwe Commerce-omgevingen initialiseren
+                  href: enable-configure-retail-functionality.md
             - name: Implementatie levenscyclusbeheer
               items:
                 - name: Startpagina van implementatie levenscyclusbeheer
@@ -378,7 +386,7 @@
                       items:
                         - name: Indelingen voor schermen met demonstratiegegevens in MPOS/CPOS
                           href: demo-data.md
-                        - name: Schermindelingen voor het POS
+                        - name: Weergaveconfiguraties van POS-gebruikersinterface
                           href: pos-screen-layouts.md
                         - name: De POS-indelingsontwerper installeren
                           href: install-pos-layout-designer.md
@@ -906,6 +914,8 @@
                   href: cookie-compliance.md
                 - name: Een pagina met het privacybeleid toevoegen
                   href: add-privacy-page.md
+                - name: Gebruikers-id's vervangen die zijn gekoppeld aan wijzigingen in bijgehouden inhoud
+                  href: replace-IDs-tracked-changes.md
             - name: Starterskit
               items:
                 - name: Overzicht starterskit
@@ -942,12 +952,16 @@
                   items:
                     - name: Winkelwagenmodule
                       href: add-cart-module.md
+                    - name: Module winkelwagenpictogram
+                      href: cart-icon-module.md
                     - name: Kassamodule
                       href: add-checkout-module.md
                     - name: Orderbevestigingsmodule
                       href: order-confirmation-module.md
                     - name: Winkelselectiemodule
                       href: store-selector.md
+                    - name: Geschenkbonmodule
+                      href: add-giftcard.md
                 - name: Accountbeheermodules
                   items:
                     - name: Accountbeheerpagina's en -modules
@@ -1124,7 +1138,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Financiële dimensies toevoegen aan samengevoegde metingen
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Analytische rapporten maken met Power BI Desktop
+                - name: Analytische rapporten maken met PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1940,6 +1954,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Thema-instellingen configureren
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Een thema uitbreiden
+                      href: e-commerce-extensibility/extend-theme.md
                 - name: Script injecteren
                   items:
                     - name: Script-injectors
@@ -1962,7 +1978,9 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: De build-systemen voor Commerce en Finance and Operations samenvoegen
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
-                - name: Voorbeelden voor de uitbreidbaarheid van de Retail SDK
+                - name: Retail SDK migreren van Visual Studio 2015 naar Visual Studio 2017
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
+                - name: Voorbeelden voor uitbreidbaarheid van Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Implementeerbare pakketten maken
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
