@@ -3,7 +3,7 @@ title: Metagegevens SEO beheren
 description: In dit onderwerp wordt beschreven hoe u SEO-metagegevens (Search Engine Optimization) in Microsoft Dynamics 365 Commerce kunt beheren.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003459"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270045"
 ---
 # <a name="manage-seo-metadata"></a>Metagegevens SEO beheren
 
@@ -72,13 +72,10 @@ Volg deze stappen om metagegevens te wijzigen.
 1. Selecteer onder **Sites** de naam **Fabrikam** (of de naam van uw site).
 1. Selecteer **Pagina's** in het navigatievenster aan de linkerkant.
 1. Selecteer de startpagina om deze te openen in de pagina-editor.
-1. Selecteer **Uitchecken** in het actievenster.
+1. Selecteer **Bewerken** op de opdrachtbalk.
 1. Vouw **Standaard metatags** uit in het eigenschappenvenster aan de rechterkant.
-1. Als u een nieuwe metatag wilt toevoegen, selecteert u **Toevoegen** en geeft u de tag op in het veld.
-
-    Als u een bestaande metatag wilt verwijderen, selecteert u het prullenbaksymbool rechts ervan.
-
-1. Selecteer **Opslaan** en vervolgens **Inchecken**.
+1. Als u een nieuwe metatag wilt toevoegen, selecteert u **Toevoegen** en geeft u de tag op in het veld. Als u een bestaande metatag wilt verwijderen, selecteert u het prullenbaksymbool rechts ervan.
+1. Selecteer **Opslaan** en vervolgens **Bewerken voltooien**.
 1. Voer in het veld **Opmerkingen** **Metatags bijgewerkt** in en selecteer vervolgens **OK**.
 1. Selecteer **Voorbeeld** om uw pagina te bekijken. Wanneer u klaar bent, sluit u het tabblad Voorbeeld om terug te keren naar het ontwerpgereedschap.
 1. Selecteer **Publiceren**.

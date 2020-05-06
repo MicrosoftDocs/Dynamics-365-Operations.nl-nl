@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: ef4465144155130087b078f9f96911df38b62c41
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173172"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270331"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Op aanvraag synchroniseren met de prijsengine van Dynamics 365 Supply Chain Management
 
@@ -50,6 +50,12 @@ Microsoft Dynamics 365 Supply Chain Management bevat een prijsengine waarmee han
     + Vrachtkosten
     + Totaal belasting
     + Totaalbedrag
+    
+5. Om ervoor te zorgen dat het systeem handel- en verkoopovereenkomsten meeneemt bij het berekenen van de prijs:
+    1. Ga naar uw Supply Chain Management-omgeving.
+    2. Navigeer naar **Klanten \> Instellen \> Parameters van Klanten**.
+    3. Selecteer het tabblad **Prijzen** op de navigatiebalk aan de zijkant.
+    4. Schakel de optie **Handmatige invoer** uit op het sneltabblad **Evaluatie van handelsovereenkomst**.
 
 ## <a name="how-it-works"></a>Hoe het werkt
 

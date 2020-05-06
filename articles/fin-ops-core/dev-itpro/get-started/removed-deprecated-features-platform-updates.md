@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0072ca507301fdb880f0595a06377ff01366ca20
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260524"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268742"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -46,7 +46,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Vervangen door een andere functie?**   | Deze compilerfout vervangt permanent de compilerwaarschuwing.  |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | **Afgeschaft**: de compilerwaarschuwing is nu een compilatiefout in platform updates voor versie 10.0.11 van Finance and Operations-apps. |
+| **Status**                         | **Afgeschaft**: de compilerwaarschuwing is een compilatiefout in platform updates voor versie 10.0.11 van Finance and Operations-apps. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV-licenties die zijn gemaakt met het SHA1-hashalgoritme
 

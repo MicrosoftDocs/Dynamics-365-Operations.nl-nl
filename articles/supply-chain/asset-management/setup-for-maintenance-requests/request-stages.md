@@ -3,7 +3,7 @@ title: Statussen van levenscyclus voor onderhoudsverzoeken
 description: In dit onderwerp wordt beschreven hoe u levenscyclusstatussen van onderhoudsverzoeken instelt in Activabeheer.
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209002"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275621"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Statussen van levenscyclus voor onderhoudsverzoeken
 
@@ -47,7 +47,7 @@ Levenscyclusstatussen van onderhoudsverzoeken bepalen de fasen die een verzoek k
 6. Stel de optie **Werkelijk einde instellen** in op **Ja** als een werkelijke einddatum en -tijd automatisch moeten worden ingevoerd op een onderhoudsverzoek dat zich in deze levenscyclusstatus bevindt.
 7. Stel de optie **Werkorder maken** in op **Ja** als een werkorder kan worden gemaakt op basis van een onderhoudsverzoek dat zich in deze levenscyclusstatus bevindt.
 8. Stel de optie **Verwijderen** in op **Ja** als een onderhoudsverzoek kan worden verwijderd terwijl deze zich in deze levenscyclusstatus bevindt.
-9. Op het sneltabblad **Bijwerken** zijn de opties **Inkomend** en **Uitgaand** in de sectie **Activa** relevant als u depotreparatie gebruikt. Stel de juiste optie in op **Ja** als de levenscyclusstatus van activa die zijn geselecteerd op een onderhoudsverzoek automatisch moeten worden bijgewerkt naar **Inkomend** of **Uitgaand** wanneer de levenscyclusstatus van dat onderhoudsverzoek is ingesteld op **Inkomend** of **Uitgaand**.
+9. Op het sneltabblad **Bijwerken** zijn de opties **Inkomend** en **Uitgaand** in de sectie **Activa** relevant als u depotreparatie gebruikt. Stel de optie in op **Ja** als de levenscyclusstatus van de activa in een onderhoudsverzoek automatisch wordt bijgewerkt naar **Inkomend** of **Uitgaand** wanneer de status van de levenscyclus van onderhoudsaanvraag is ingesteld op **Inkomend** of **Uitgaand**.
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Levenscyclusstatussen van onderhoudsverzoeken**.
 

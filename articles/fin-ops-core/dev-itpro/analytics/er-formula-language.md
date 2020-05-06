@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 79b4640a23d4fc78ade4de57e4071abe6c9ecb56
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042706"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284351"
 ---
 # <a name="electronic-reporting-formula-language"></a>Formuletaal in Elektronische rapportage
 
 [!include [banner](../includes/banner.md)]
 
-ER biedt een krachtige ervaring voor gegevenstransformatie. De taal die wordt gebruikt om de vereiste gegevensbewerkingen in de ER-formuleontwerper uit te drukken, lijkt op de formuletaal in Microsoft Excel.
+ER biedt een krachtige ervaring voor gegevenstransformatie. De taal die wordt gebruikt om de vereiste gegevensbewerkingen in de [ER-formuleontwerper](general-electronic-reporting-formula-designer.md) uit te drukken, lijkt op de formuletaal in Microsoft Excel.
 
 ## <a name="basic-syntax"></a>Basissyntaxis
 
@@ -41,13 +41,13 @@ ER-expressies kunnen een of alle van de volgende elementen bevatten:
 - [Paden](#Paths)
 - [Functies](#Functions)
 
-## <a name="Constants">Constanten</a>
+## <a name=""></a><a name="Constants">Constanten</a>
 
 Wanneer u expressies ontwerpt, kunt u tekst- en numerieke constanten (waarden die niet worden berekend) gebruiken. De expressie `VALUE ("100") + 20` gebruikt bijvoorbeeld de numerieke constante **20** en de tekenreeksconstante **'100'** en retourneert de numerieke waarde **120**.
 
 De ER-formuleontwerper ondersteunt escapereeksen. Daarom kunt u een expressiereeks opgeven die anders moet worden behandeld. De expressie `"Leo Tolstoy ""War and Peace"" Volume 1"` retourneert bijvoorbeeld de tekstreeks **Leo Tolstoy "War and Peace" Volume 1**.
 
-## <a name="Operators">Operatoren</a>
+## <a name=""></a><a name="Operators">Operatoren</a>
 
 De volgende tabel toont de rekenkundige operators die u kunt gebruiken om wiskundige basisbewerkingen uit te voeren, zoals optelling, aftrekking, deling en vermenigvuldiging.
 
@@ -91,7 +91,7 @@ De volgorde waarin de onderdelen van een samenstellingsexpressie worden geëvalu
 
 Als een expressie meerdere opeenvolgende operatoren met dezelfde prioriteit bevat, worden die bewerkingen van links naar rechts geëvalueerd. De expressie `1 + 6 / 2 \* 3 > 5` retourneert bijvoorbeeld **waar**. We raden aan haakjes te gebruiken om de gewenste evaluatievolgorde van bewerkingen in expressies expliciet aan te geven, zodat de expressies gemakkelijker te lezen en onderhouden zijn.
 
-## <a name="References">Verwijzingen</a>
+## <a name=""></a><a name="References">Verwijzingen</a>
 
 Alle gegevensbronnen van het huidige ER-onderdeel die tijdens het ontwerp van een expressie beschikbaar zijn, kunnen als benoemde verwijzingen worden gebruikt. Het huidige ER-onderdeel kan een modeltoewijzing of een indeling zijn. De huidige ER-modeltoewijzing bevat bijvoorbeeld de gegevensbron **ReportingDate** die een waarde van het gegevenstype *DateTime* retourneert. Om te zorgen dat deze waarde juist wordt opgemaakt in het genererende document kunt u als volgt verwijzen naar de gegevensbron in de expressie: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
@@ -112,7 +112,7 @@ U kunt de manier waarop waarden worden doorgegeven aan de parameters van dit typ
 - Alleen constanten kunnen worden doorgegeven aan methoden van dit type. De waarden van de constanten worden gedefinieerd in de ontwerpfase.
 - Alleen primitieve (basis) gegevenstypen worden voor parameters van dit type ondersteund. De primitieve gegevenstypen zijn *Geheel getal*, *Werkelijk*, *Booleaans* en *Tekenreeks*.
 
-## <a name="Paths">Paden</a>
+## <a name=""></a><a name="Paths">Paden</a>
 
 Wanneer een expressie naar een gestructureerde gegevensbron verwijst, kunt u de paddefinitie gebruiken om een specifiek primitief element van deze gegevensbron te selecteren. Een puntteken (.) wordt gebruikt om afzonderlijke individuele elementen van een gestructureerde gegevensbron te scheiden. De huidige ER-modeltoewijzing bevat bijvoorbeeld de gegevensbron **InvoiceTransactions** die een lijst met records retourneert. De recordstructuur **InvoiceTransactions** bevat de velden **AmountDebit** en **AmountCredit**, die beide numerieke waarden retourneren. U kunt daarom de volgende expressie ontwerpen om het gefactureerde bedrag te berekenen: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. De constructie `InvoiceTransactions.AmountDebit` in deze expressie is het pad dat wordt gebruikt voor toegang tot het veld **AmountDebit** van de gegevensbron **InvoiceTransactions** van het type *Recordlijst*.
 
@@ -130,7 +130,7 @@ Het resterende gedeelte van het absolute pad wordt ook weergegeven in de [ER-for
 
 ![Resterend gedeelte van het absolute pad op de pagina ER-formuleontwerper](./media/ER-FormulaLanguage-RelativePath2.png)
 
-## <a name="Functions">Functies</a>
+## <a name=""></a><a name="Functions">Functies</a>
 
 Ingebouwde ER-functies kunnen worden gebruikt in ER-expressies. Alle gegevensbronnen van de expressiecontext (de huidige ER-modeltoewijzing of de huidige ER-indeling) en ook constanten kunnen als parameters worden gebruikt van functieaanroepen volgens de lijst met argumenten voor functieaanroepen. Constanten kunnen ook worden gebruikt als parameters van het aanroepen van functies. De huidige ER-modeltoewijzing bevat bijvoorbeeld de gegevensbron **InvoiceTransactions** die een lijst met records retourneert. De recordstructuur **InvoiceTransactions** bevat de velden **AmountDebit** en **AmountCredit**, die beide numerieke waarden retourneren. Voor het berekenen van het gefactureerde bedrag kunt u daarom de volgende expressie ontwerpen die de ingebouwde ER-afrondingsfunctie gebruikt: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 

@@ -1,5 +1,5 @@
 ---
-title: Naar ouderdom gerangschikt voorraadrapport
+title: Opslag naar ouderdom gerangschikt voorraadrapport
 description: In dit onderwerp wordt de functionaliteit beschreven waarmee u een naar ouderdom gerangschikt voorraadrapport kunt uitvoeren en de uitvoer beschikbaar kunt maken als een formulier en een grafiek.
 author: AndersGirke
 manager: tfehr
@@ -19,24 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 790c8fe3a52bce652227f1cef97eff6496476100
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201613"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275574"
 ---
-# <a name="inventory-aging-report"></a>Naar ouderdom gerangschikt voorraadrapport
+# <a name="inventory-aging-report-storage"></a>Opslag naar ouderdom gerangschikt voorraadrapport
 
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-In Microsoft Dynamics 365 Supply Chain Management kunt u een rapport **Naar ouderdom rangschikken van voorraad** uitvoeren en de uitvoer beschikbaar maken als een formulier en een grafiek. In het formulier worden kolommen en samengevoegde balansen dynamisch aangepast, afhankelijk van de indeling die is geconfigureerd. De grafiek biedt een visueel overzicht dat filters ondersteunt en waarmee u op details kunt inzoomen. Daarnaast kunt u met de gegevensentiteit met de naam **Naar ouderdom gerangschikt voorraadrapport** de resultaten van een rapport **Naar ouderdom rangschikken van voorraad** uitvoeren naar een indeling zoals een Microsoft Excel-of PDF-bestand.
+In Microsoft Dynamics 365 Supply Chain Management kunt u een rapport **Opslag naar ouderdom gerangschikt voorraadrapport** uitvoeren en de uitvoer beschikbaar maken als een formulier en een grafiek. In het formulier worden kolommen en samengevoegde balansen dynamisch aangepast, afhankelijk van de indeling die is geconfigureerd. De grafiek biedt een visueel overzicht dat filters ondersteunt en waarmee u op details kunt inzoomen. Daarnaast kunt u met de gegevensentiteit met de naam **Naar ouderdom gerangschikt voorraadrapport** de resultaten van een rapport **Opslag naar ouderdom gerangschikt voorraadrapport** uitvoeren naar een indeling zoals een Microsoft Excel-of PDF-bestand.
 
-Deze methode voor het uitvoeren van een rapport **Naar ouderdom rangschikken van voorraad** is handig wanneer de uitvoer veel regels bevat. De uitvoer bevat bijvoorbeeld een groot aantal regels als u 50.000 artikelen en 300 winkels hebt die zijn gemaakt als magazijnen en u een naar ouderdom gerangschikte voorraad per artikel, locatie en magazijn aanvraagt.
+Deze methode voor het uitvoeren van een rapport **Opslag naar ouderdom gerangschikt voorraadrapport** is handig wanneer de uitvoer veel regels bevat. De uitvoer bevat bijvoorbeeld een groot aantal regels als u 50.000 artikelen en 300 winkels hebt die zijn gemaakt als magazijnen en u een naar ouderdom gerangschikte voorraad per artikel, locatie en magazijn aanvraagt.
 
-## <a name="run-an-inventory-aging-report"></a>Een naar ouderdom gerangschikt voorraadrapport uitvoeren
+## <a name="enable-the-inventory-value-storage-report-feature"></a>De functie Opslag naar ouderdom gerangschikt voorraadrapport inschakelen
+
+Voordat u deze functie kunt gebruiken, moet u deze inschakelen op uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in te schakelen. Hier ziet u de functie als:
+
+- **Module** - Kostenbeheer
+- **Functienaam**: Opslag naar ouderdom gerangschikt voorraadrapport
+
+## <a name="run-an-inventory-aging-report-storage"></a>Opslag naar ouderdom gerangschikt voorraadrapport uitvoeren
 
 1. Ga naar **Kostenbeheer \> Query's en rapporten \> Opslag naar ouderdom gerangschikt voorraadrapport**.
 1. Selecteer **Nieuw**.
@@ -51,4 +58,4 @@ Deze methode voor het uitvoeren van een rapport **Naar ouderdom rangschikken van
     > [!NOTE]
     > In het formulier worden geen subtotalen opgenomen die zijn gedefinieerd in de rapportindeling.
 
-Met de gegevensentiteit **Naar ouderdom gerangschikt voorraadrapport** kunt u de uitvoer van een rapport **Naar ouderdom rangschikken van voorraad** exporteren door een filter voor het veld **Proces-id – Naam** toe te passen op alle indelingen die door Gegevensbeheer worden ondersteund.
+Met de gegevensentiteit **Naar ouderdom gerangschikt voorraadrapport** kunt u de uitvoer van een **Opslag naar ouderdom gerangschikt voorraadrapport** exporteren door een filter voor het veld **Proces-id – Naam** toe te passen op alle indelingen die door Gegevensbeheer worden ondersteund.

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172872"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275459"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Problemen oplossen met betrekking tot upgrades van Finance and Operations-apps
 
@@ -85,9 +85,8 @@ Als het probleem nog steeds niet is opgelost, voert u de volgende stappen uit.
 > Deze stappen begeleiden u bij het verwijderen van een entiteit en het toevoegen ervan. U kunt problemen voorkomen door de stappen exact uit te voeren.
 
 1. Ga in de Finance and Operations-app naar **Werkruimten \> Gegevensbeheer** en selecteer de tegel **Gegevensentiteiten**.
-2. Zoek de entiteit waarvoor het veld ontbreekt. Noteer de doelentiteit, de faseringstabel, de naam van de entiteit en andere kolomwaarden.
-3. Als een van uw verwerkingsgroepen afhankelijk is van deze entiteit, neemt u de nodige actie voor de verwerkingsgroepen voordat u de entiteit verwijdert.
-4. Verwijder de entiteit waarvoor het veld ontbreekt.
-5. Selecteer **Nieuw** en voeg de entiteit weer toe. Geef in stap 2 de waarden op waarvoor u een notitie hebt gemaakt.
-6. Open de pagina **Entiteitstoewijzing** op de pagina **Twee keer wegschrijven** in de Finance and Operations-app.
-7. Selecteer **Entiteitslijst vernieuwen** om de velden in de entiteitstoewijzingen automatisch te vullen.
+2. Zoek de entiteit waarvoor het kenmerk ontbreekt. Klik op **Doeltoewijzing aanpassen** op de werkbalk.
+3. Klik in het deelvenster **Fasering aan doel toewijzen** op **Toewijzing genereren**.
+4. Open de pagina **Entiteitstoewijzing** op de pagina **Twee keer wegschrijven** in de Finance and Operations-app.
+5. Als het kenmerk niet automatisch wordt ingevuld op de toewijzing, voegt u dit handmatig toe door te klikken op de knop **Kenmerk toevoegen** en vervolgens op **Opslaan**. 
+6. Selecteer de toewijzing en klik op **Uitvoeren**.

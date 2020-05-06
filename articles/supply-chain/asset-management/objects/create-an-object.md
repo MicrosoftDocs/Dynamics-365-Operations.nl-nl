@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f734def69ff50549acae1506015ce9b23a1b8a93
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209899"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274160"
 ---
 # <a name="create-an-asset"></a>Een activum maken
 
@@ -38,13 +38,13 @@ In dit onderwerp wordt beschreven hoe u een activum maakt in Activabeheer.
 3. Voeg in het dialoogvenster **Activa maken** gegevens in met betrekking tot **Activum** (de activa-id) en de naam van het activum. Selecteer datum en tijd voor het activum in het veld **Geldig vanaf**. Vanaf die datum kunt u het activum op een functionele locatie installeren en het activum verplaatsen en vervangen in een activastructuur.
 4. Selecteer in het veld **Type activa** het activumtype voor het activum (verplicht veld). Selecteer indien nodig **Activafabrikant** en **Activamodel** voor het activum. Als er slechts één product is ingesteld, wordt dat product automatisch geselecteerd in het veld **Activafabrikant**. De selecties die beschikbaar zijn in de velden **Activafabrikant** en **Activamodel** zijn afhankelijk van de instellingen in [Activafabrikanten en -modellen](../setup-for-objects/product-and-model.md).
 5. In de groep **Bovenliggend activum** is het veld **Activum** standaard leeg. Indien nodig kunt u een bovenliggend activum selecteren en vervolgens worden alle velden in de groep **Bovenliggend activum** automatisch ingevuld.
->[!NOTE]  
->Wanneer u een bovenliggend activum selecteert, zijn er twee of drie tabbladen beschikbaar: het tabblad **Mijn activa** bevat activa die zijn gerelateerd aan de functionele locaties waaraan u (de onderhoudsmedewerker die is aangemeld bij het systeem) kan worden toegewezen. Als er geen functionele locaties zijn ingesteld voor een onderhoudsmedewerker in het formulier [Onderhoudsmedewerkers en groepen werknemers](../setup-for-objects/workers-and-worker-groups.md), is het tabblad **Mijn activa** niet zichtbaar. Het tabblad **Actieve activa** bevat een lijst met alle activa met de levenscyclusstatus 'Actief' voor activa. Op het tabblad **Activaweergave** wordt een structuurweergave getoond van functionele locaties en elementen die op die locaties zijn geïnstalleerd.
+    >[!NOTE]  
+    >Wanneer u een bovenliggend activum selecteert, zijn er twee of drie tabbladen beschikbaar: het tabblad **Mijn activa** bevat activa die zijn gerelateerd aan de functionele locaties waaraan u (de onderhoudsmedewerker die is aangemeld bij het systeem) kan worden toegewezen. Als er geen functionele locaties zijn ingesteld voor een onderhoudsmedewerker in het formulier [Onderhoudsmedewerkers en groepen werknemers](../setup-for-objects/workers-and-worker-groups.md), is het tabblad **Mijn activa** niet zichtbaar. Het tabblad **Actieve activa** bevat een lijst met alle activa met de levenscyclusstatus 'Actief' voor activa. Op het tabblad **Activaweergave** wordt een structuurweergave getoond van functionele locaties en elementen die op die locaties zijn geïnstalleerd.
 
 6. De standaard functionele locatie die u hebt ingesteld, wordt voorgesteld voor het activum in het veld **Activagroep** > **Functionele locatie** . Selecteer indien nodig een andere functionele locatie.
 
->[!NOTE]
->Nadat u een activum hebt gemaakt, kunt u dit op een andere functionele locatie installeren, indien nodig. Alleen activa van het hoogste niveau (activa zonder huidig bovenliggend activum) kunnen op een functionele locatie worden geïnstalleerd. Dit betekent dat u zowel het hoogste niveau als alle onderliggende activa op de geselecteerde functionele locatie installeert. Lees meer over het installeren van activa op functionele locaties in [Inleiding tot functionele locaties](../functional-locations/introduction-to-functional-locations.md).
+    >[!NOTE]
+    >Nadat u een activum hebt gemaakt, kunt u dit op een andere functionele locatie installeren, indien nodig. Alleen activa van het hoogste niveau (activa zonder huidig bovenliggend activum) kunnen op een functionele locatie worden geïnstalleerd. Dit betekent dat u zowel het hoogste niveau als alle onderliggende activa op de geselecteerde functionele locatie installeert. Lees meer over het installeren van activa op functionele locaties in [Inleiding tot functionele locaties](../functional-locations/introduction-to-functional-locations.md).
 
 7. Klik op **OK**.
 8. Selecteer het activum in de lijst **Alle activa** en klik op de knop **Bewerken** als u nadere informatie aan het activum wilt toevoegen.

@@ -3,7 +3,7 @@ title: Aangepaste antwoordpagina's bouwen voor fouten met de statuscode 4xx/5xx
 description: In dit onderwerp wordt beschreven hoe u aangepaste antwoordpagina's kunt maken voor de statusfoutcodes 4xx en 5xx met behulp van de ontwerpfuncties in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001114"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269539"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Aangepaste antwoordpagina's bouwen voor fouten met de statuscode 4xx/5xx
 
@@ -46,19 +46,21 @@ Ga als volgt te werk om een antwoordpagina voor een statusfoutcode te maken.
 
 Ga als volgt te werk om de sjabloon te maken voor een antwoordpagina voor de statusfoutcode.
 
-1. Ga naar **Sjablonen \> NIeuwe sjabloon**.
-1. Geef de nieuwe sjabloon een naam.
+1. Ga naar **Sjablonen**.
+1. Selecteer **Nieuw** om een paginasjabloon te maken.
+1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** een naam in voor de nieuwe sjabloon en selecteer **OK**.
 1. Bouw de sjabloon op basis van de gewenste structuur voor de antwoordpagina van de statusfoutcode.
-1. Check de sjabloon in en publiceer deze.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren. 
 
 ### <a name="build-the-status-code-error-response-page"></a>De antwoordpagina maken voor statusfoutcodes
 
 Ga als volgt te werk om de antwoordpagina voor een statusfoutcode te maken.
 
-1. Ga naar **Pagina's \> Nieuwe pagina**.
-1. Geef de antwoordpagina met de statusfoutcode een naam, maar stel **niet** het **URL**-veld in.
+1. Ga naar **Pagina's**.
+1. Selecteer **Nieuw** om een pagina te maken.
+1. Selecteer in het dialoogvenster **Een sjabloon kiezen** een sjabloon en voer vervolgens onder **Paginanaam** een naam in voor de pagina met de statusfoutcode. Laat het veld **Pagina-URL** leeg.
 1. Maak de pagina.
-1. Check de pagina in en publiceer deze.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
 
 > [!NOTE]
 > U kunt afzonderlijke antwoordpagina's maken voor fouten met de statuscodes 4xx en 5xx. U kunt ook dezelfde algemene antwoordpagina met de statusfoutcode gebruiken voor beide foutcategorieën.

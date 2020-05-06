@@ -3,7 +3,7 @@ title: Dubbele valuta
 description: Dit onderwerp biedt informatie over dubbele valuta, waar de aangiftevaluta wordt gebruikt als een tweede valuta voor boekhouding voor Microsoft Dynamics 365 Finance.
 author: kweekley
 manager: AnnBe
-ms.date: 08/07/2019
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249006"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270307"
 ---
 # <a name="dual-currency"></a>Twee valuta's
 
@@ -175,9 +175,9 @@ Bovendien zijn belangrijke wijzigingen aangebracht in het afschrijvingsproces. D
         | Vaste activa | Boek      | Transactietype | Transactiedatum | Valuta | Bedrag in transactievaluta | Bedrag  | Wisselkoers | Aangiftevalutabedrag |
         |-------------|-----------|------------------|------------------|----------|--------------------------------|---------|-----------|---------------------------|
         | BUIL-00001  | 200\_SLLT | Verwerving      | 6/3/2016         | DKK      | 1.000.000                      | 500,000 | 2.5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Afschrijving     | 6/3/2016         | DKK      | 50.000                         | 50.000  | 2.5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Afschrijving     | 6/3/2016         | DKK      | 50.000                         | 50.000  | 2.5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Afschrijving     | 6/3/2016         | DKK      | 50.000                         | 50.000  | 2.5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Afschrijving     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Afschrijving     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Afschrijving     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
 
     - Veel klanten hielden hun activatransactiedetails bij in werkmappen. Deze gegevens omvatten de wisselkoersen en bedragen. Als u deze gegevens in een werkmap hebt, kunt u een aangepast wisselkoerstype maken en bijwerken met de wisselkoersen van de werkmap. Dit wisselkoerstype wordt vervolgens gebruikt om een standaardwisselkoers in te voeren op de verwervingsdatum en het aangiftevalutabedrag te berekenen. Als geen wisselkoerstype is geselecteerd, gebruikt de wizard het wisselkoerstype dat voor het grootboek was gedefinieerd.
     - De wisselkoers en de aangiftevalutabedragen kunnen worden gewijzigd. Als de wisselkoers wordt gewijzigd, wordt het aangiftevalutabedrag opnieuw berekend met behulp van het nieuwe tarief.

@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte functies in eerdere releases
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die gepland zijn om te verwijderen uit Dynamics 365 for Finance and Operations en eerdere versies van dat product.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225123"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284009"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
@@ -230,7 +230,7 @@ Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het pro
 | **Vervangen door een andere functie?**   | Nr. |
 | **Betrokken productgebieden**         | Productgegevensbeheer |
 | **Implementatieoptie**              | Alle  |
-| **Status**                         | Verwijderd sinds Finance and Operations 10.0.0 met Platform update 24. (Alleen als u gegevens moet herstellen die zijn beschadigd door een eerdere naamswijziging van de primaire sleutel van een vrijgegeven product, neemt u contact op met Microsoft Support om deze beperking tijdelijk te verwijderen.) |
+| **Status**                         | Verwijderd sinds Finance and Operations 10.0.0 met Platform update 24.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 met platformupdate 23
@@ -267,7 +267,7 @@ Ingesloten prestatie-indicatoren (KPI's) kunnen worden gemodelleerd in Visual St
 | **Vervangen door een andere functie?**   | Deze waarschuwing wordt in de toekomst vervangen door een compilatiefout. |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: de waarschuwing wordt een compilatietijdfout in de toekomst. Deze wijziging is gericht op platform updates voor versie 10.0.11 van Finance and Operations-apps. |
+| **Status**                         | Afgeschaft: De waarschuwing is een compilatiefout in platform updates voor versie 10.0.11 van Finance and Operations-apps. |
 
 #### <a name="complete-list"></a>Volledige lijst
 Raadpleeg voor toegang tot de volledige lijst met API's [Afschaffing van methoden en metagegevenselementen](deprecation-deletion-apis.md).

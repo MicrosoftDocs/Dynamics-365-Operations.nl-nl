@@ -3,7 +3,7 @@ title: Een landingspagina voor een categorie verrijken
 description: In dit onderwerp wordt de verrijking van categoriepagina's in Dynamics 365 Commerce beschreven.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71348efba9fc1374b9e6599eb23f198d3851036e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003045"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269838"
 ---
 # <a name="enrich-a-category-landing-page"></a>Een landingspagina voor een categorie verrijken
 
@@ -39,7 +39,7 @@ In plaats van de standaardcategoriepagina te gebruiken kunt u echter een "verrij
 
 ![Verrijkte landingspagina voor categorie](./media/CategoryLandingPages.png)
 
-In het ontwerpprogramma bevat de pagina **Product** een lijst met categorieën uit het afzetkanaal die aan de site zijn toegewezen. Als de **verrijkte** status voor een categoriepagina is geselecteerd, is deze categoriepagina verrijkt. Anders worden de standaard categoriepagina en de inhoud van de categorie gebruikt. U kunt zowel verrijkte als niet-verrijkte categoriepagina's voor een categorie voorvertonen door een categorienaam te selecteren.
+In Commerce Site Builder bevat de pagina **Producten** een lijst met categorieën uit het afzetkanaal die aan de site zijn toegewezen. Als de **verrijkte** status voor een categoriepagina is geselecteerd, is deze categoriepagina verrijkt. Anders worden de standaard categoriepagina en de inhoud van de categorie gebruikt. U kunt zowel verrijkte als niet-verrijkte categoriepagina's voor een categorie voorvertonen door een categorienaam te selecteren.
 
 Ga als volgt te werk om een categoriepagina te verrijken.
 
@@ -48,9 +48,7 @@ Ga als volgt te werk om een categoriepagina te verrijken.
 3. Selecteer een sjabloon voor de verrijkte categoriepagina. Als u alleen kleine wijzigingen aanbrengt, kunt u de standaard categoriepagina selecteren. Anders kunt u een specifieke sjabloon voor een categoriepagina selecteren. Wanneer u de sjabloon selecteert, wordt de pagina-editor geopend en wordt de geselecteerde sjabloon gebruikt om een nieuwe categoriepagina te maken voor de geselecteerde categorie. De pagina wordt uitgecheckt naar u en u kunt wijzigingen aanbrengen.
 
 > [!NOTE]
-> In modules die gebruikmaken van de categoriespecificatiegegevens, worden de gegevens uit de geselecteerde categorie gebruikt.
->
-> De instellingen van de sjabloon die u selecteert, bepalen welke wijzigingen u kunt aanbrengen.
+> In modules die gebruikmaken van de categoriespecificatiegegevens, worden de gegevens uit de geselecteerde categorie gebruikt. De instellingen van de sjabloon die u selecteert, bepalen welke wijzigingen u kunt aanbrengen.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 

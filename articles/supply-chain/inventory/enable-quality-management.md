@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224904"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268811"
 ---
 # <a name="quality-management-overview"></a>Overzicht kwaliteitsbeheer
 
@@ -43,7 +43,11 @@ Kwaliteitsbeheer is flexibel en kan op verschillende manieren worden geïmplemen
 
 -   Start automatisch een kwaliteitscontroleproces, op basis van vooraf gedefinieerde criteria (bij magazijnregistratie van een inkooporder van een specifieke leverancier).
 -   Blokkeer voorraad tijdens inspectie om te voorkomen dat niet-goedgekeurde voorraad wordt gebruikt (volledig blokkeren van inkooporderhoeveelheden).
--   Gebruik artikelbemonstering als onderdeel van een kwaliteitskoppeling om te definiëren hoeveel fysieke actuele voorraad moet worden geïnspecteerd. Bemonstering kan betrekking hebben op een vaste hoeveelheid of een percentage.
+-   Gebruik artikelbemonstering als onderdeel van een kwaliteitskoppeling om te definiëren hoeveel fysieke actuele voorraad moet worden geïnspecteerd. Bemonstering kan betrekking hebben op een vaste hoeveelheid, een percentage of een volledige naamplaat.
+
+> [!NOTE]
+> De functie _Kwaliteitsbeheer voor magazijnprocessen_ vergroot de mogelijkheden van kwaliteitsbeheer. Als u deze functie gebruikt, zie [Kwaliteitsbeheer voor magazijnprocessen](quality-management-for-warehouses-processes.md) voor voorbeelden van hoe kwaliteitsbeheer werkt wanneer het is ingeschakeld.
+
 -   Maak kwaliteitsorders voor gedeeltelijke ontvangsten. Als u een kwaliteitsorder wilt maken die is gebaseerd op de hoeveelheid die fysiek is ontvangen met een order, moet u het selectievakje **Per bijgewerkte hoeveelheid** op het formulier **Artikelbemonstering** inschakelen.
 -   Maak testtypen die minimum-, maximum- en doeltestwaarden bevatten en voer vergelijkende kwalitatieve en kwantitatieve testen met vooraf gedefinieerde validatieresultaten uit.
 -   Geef een acceptabel kwaliteitsniveau op om kwaliteitsmetingstoleranties te beheren.
@@ -428,6 +432,9 @@ Als u in de productie het veld **Gebeurtenistype** instelt op **Rapporteren als 
 </tbody>
 </table>
 
+> [!NOTE]
+> Met de functie *Kwaliteitsbeheer voor magazijnprocessen* voegt u mogelijkheden toe voor het verwerken van kwaliteitsorders voor productie waarvan het **Gebeurtenistype** is ingesteld op *Gereedgemeld* en **Uitvoering** op *Na*, en voor inkopen waarvoor het **Gebeurtenistype** is ingesteld op *Registratie*. Zie [Kwaliteitsbeheer voor magazijnprocessen](quality-management-for-warehouses-processes.md) voor meer informatie.
+
 ## <a name="quality-management-pages"></a>Kwaliteitsbeheerpagina's
 <table>
 <colgroup>
@@ -438,7 +445,7 @@ Als u in de productie het veld **Gebeurtenistype** instelt op **Rapporteren als 
 <thead>
 <tr class="header">
 <th>Pagina</th>
-<th>Beschrijving</th>
+<th>Omschrijving</th>
 <th>Voorbeeld</th>
 </tr>
 </thead>
@@ -495,3 +502,5 @@ U moet een kwaliteitskoppeling opgeven voor elke afwijking in een bedrijfsproces
 [Processen voor kwaliteitsbeheer](quality-management-processes.md)
 
 [Beheer van niet-conformering](enable-nonconformance-management.md)
+
+[Kwaliteitsbeheer voor magazijnprocessen](quality-management-for-warehouses-processes.md)

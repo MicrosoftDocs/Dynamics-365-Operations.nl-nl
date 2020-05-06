@@ -3,7 +3,7 @@ title: Voorraad sluiten
 description: Als onderdeel van het proces voor uitgiftetransacties met ontvangsttransacties te vereffenen, kunt u ook het grootboek bijwerken om de aangebrachte correcties weer te geven.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c88a5fe52e41df5a0371d6666f544996bd3c76
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e9f0608c9afc25e7ca6657f6a2e87d088d4cbad
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201628"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3283985"
 ---
 # <a name="inventory-close"></a>Voorraad sluiten
 
@@ -59,11 +59,10 @@ Verschillende taken die u kunt voltooien op de pagina **Afsluiten en corrigeren*
 
 De grootboekrekeningen die vanwege deze taken worden bijgewerkt, worden gekoppeld aan de oorspronkelijke voorraadtransactie. Als bijvoorbeeld een verkooporder wordt vereffend met een inkooporder, worden de grootboekrekeningen die zijn gebruikt voor de oorspronkelijke verkooporder, gecorrigeerd. Dit geldt zelfs wanneer de grootboekrekeningen voor de artikelgroep die aan het artikel is toegewezen, zijn gewijzigd nadat de verkooporder is geboekt. Nadat door een voorraadafsluiting een vereffeningsbedrag is gemaakt, wordt het vereffeningsbedrag nog steeds naar de oorspronkelijke grootboekrekeningen geboekt, en niet naar de nieuwe grootboekrekeningen die aan het artikel zijn toegewezen. Het grootboek kan ook worden bijgewerkt door het omkeren van een voorraadafsluiting. 
 
-**Opmerkingen:**
-
--   De voorraad hoeft niet te worden afgesloten als u waarderen van de standaardkostprijs gebruikt.
--   Voordat u de afsluitingsprocedure uitvoert, kunt u een lijst met artikelen weergeven die tijdens de update niet kunnen worden vereffend.
--   Wij raden aan de voorraad buiten de kantoortijden af te sluiten om computerbronnen gelijkelijker te verdelen.
+> [!NOTE] 
+> - Voorraadafsluiting is een vereiste stap in de maandafsluitingsprocedure voor alle voorraadmodellen. Dit omvat de standaard- en zwevende gemiddelde kostprijsberekening. U kunt de financiële periode pas afsluiten als er een voorraadafsluiting is uitgevoerd vanaf de einddatum van de periode.
+> - Voordat u de afsluitingsprocedure uitvoert, kunt u een lijst met artikelen weergeven die tijdens de update niet kunnen worden vereffend.
+> - Wij raden aan de voorraad buiten de kantoortijden af te sluiten om computerbronnen gelijkelijker te verdelen.
 
 ## <a name="the-inventory-close-log"></a>Het voorraadafsluitingslogboek weergeven
 Nadat de voorraadafsluiting is voltooid, kan in het berichtencentrum een bericht worden aangegeven dat de kostprijs per eenheid wellicht onjuist is omdat een transactie niet volledig is vereffend. 
@@ -85,7 +84,6 @@ Er kunnen omstandigheden zijn waarin het niet mogelijk is om iets aan de waarsch
 ## <a name="reversing-a-completed-inventory-close"></a>Een voltooide voorraadafsluiting omkeren
 Soms zult u een voltooide voorraadafsluiting moeten omkeren en de vereffeningen weer moeten instellen zoals deze waren voordat er correcties werden doorgevoerd. Wanneer u een voltooide voorraadafsluiting omkeert, wordt de voorraad opnieuw geopend en kan die in de periode die door de voorraadafsluiting wordt gedekt, worden geboekt. U kunt ook gerelateerde wijzigingen maken in het grootboek. Nadat u de aanpassingen hebt gemaakt, kunt u de voorraadafsluiting nogmaals uitvoeren voor de periode waarmee u werkt. 
 
-**Opmerking:** alleen de laatste afgesloten voorraadperiode kan opnieuw worden geopend. Als u een eerdere voorraadafsluiting wilt omkeren, moet u de volgende voorraadafsluitingen een voor een omkeren, te beginnen met de meest recente afsluiting.
-
-
+> [!NOTE] 
+> Alleen de laatste afgesloten voorraadperiode kan opnieuw worden geopend. Als u een eerdere voorraadafsluiting wilt omkeren, moet u de volgende voorraadafsluitingen een voor een omkeren, te beginnen met de meest recente afsluiting.
 

@@ -3,7 +3,7 @@ title: Een welkomstbericht toevoegen
 description: In dit onderwerp wordt beschreven hoe u een welkomstbericht toevoegt aan uw Microsoft Dynamics 365 Commerce-omgeving.
 author: psimolin
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001249"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269608"
 ---
 # <a name="add-a-welcome-message"></a>Een welkomstbericht toevoegen
 
@@ -41,17 +41,14 @@ Wanneer een welkomstbericht wordt toegevoegd aan een gedeeld koptekstfragment, w
 
 Voer de volgende stappen uit om een welkomstbericht aan uw site toe te voegen.
 
-1. Ga in Dynamics 365 Commerce naar uw site.
+1. Ga naar uw site in Commerce Site Builder.
 1. Selecteer **Fragmenten**.
 1. Selecteer het koptekstfragment waaraan u het bericht wilt toevoegen.
 1. Vouw in de overzichtsstructuur **Fout-/informatieve berichten**uit.
-1. Selecteer de waarschuwingsmodule.
-
-    Als er nog geen waarschuwingsmodule bestaat, selecteert u de knop met hetweglatingsteken (**...**) naast **Fout-/informatieve berichten** en selecteer vervolgens **Module toevoegen**. Selecteer de waarschuwingsmodule en selecteer vervolgens **OK**.
-
+1. Selecteer de waarschuwingsmodule en selecteer vervolgens **OK**. Als er nog geen waarschuwingsmodule bestaat, selecteert u eerst de knop met het weglatingsteken (**...**) naast **Fout-/informatieve berichten** en selecteer vervolgens **Module toevoegen**.
 1. Selecteer in het eigenschappenvenster aan de rechterkant op het tabblad **Gegevens** de optie **Gegevensbron toevoegen** en selecteer vervolgens **Inhoud**.
 1. Voer in het veld **Invoertekst** de tekst van het welkomstbericht in.
-1. Sla het koptekstfragment op, check het in en publiceer het.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om het koptekstfragment te controleren en selecteer **Publiceren** om het te publiceren. 
 
 Het welkomstbericht verschijnt nu boven aan elke sitepagina die het geselecteerde koptekstfragment gebruikt.
 

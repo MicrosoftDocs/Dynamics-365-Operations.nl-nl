@@ -3,7 +3,7 @@ title: Een pagina opslaan, voorvertonen en publiceren
 description: In dit onderwerp wordt beschreven hoe u een pagina in Microsoft Dynamics 365 Commerce kunt opslaan, bekijken en publiceren.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 04200264fabca265484b5e66426810efe8028a50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002803"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269976"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Een pagina opslaan, voorvertonen en publiceren
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,7 +32,7 @@ In dit onderwerp wordt beschreven hoe u een pagina in Microsoft Dynamics 365 Com
 
 ## <a name="save-a-page"></a>Een pagina opslaan
 
-Als u een pagina wilt opslaan, moet u deze eerst naar uzelf uitchecken en in de pagina-editor openen. Sla een pagina onmiddellijk op nadat u deze hebt gewijzigd, zodat u zeker weet dat uw wijzigingen zijn opgeslagen.
+Als u een pagina wilt opslaan, moet u deze eerst naar uzelf uitchecken en in de pagina-editor openen. Selecteer op de opdrachtbalk de optie **Bewerken** om een pagina uit te checken. Sla een pagina onmiddellijk op nadat u deze hebt gewijzigd, zodat u zeker weet dat uw wijzigingen zijn opgeslagen.
 
 Wanneer u een pagina opslaat, zijn de wijzigingen alleen zichtbaar voor u. De opslagbewerking is in eerste instantie bedoeld om wijzigingen op te slaan terwijl de pagina nog niet klaar is om te worden ingecheckt. Wanneer u de pagina hebt gewijzigd, is het raadzaam deze in te checken, zodat de wijzigingen zichtbaar worden voor anderen. Op dat moment kan de pagina ook worden uitgecheckt door andere gebruikers die de pagina moeten wijzigen.
 
@@ -50,7 +49,7 @@ Wanneer u de pagina hebt gewijzigd, kunt u een voorbeeld weergeven om te zien wa
 
 ## <a name="publish-a-page"></a>Een pagina publiceren
 
-Wanneer de pagina gereed is, moet u de volgende stap publiceren, zodat externe gebruikers de inhoud kunnen weergeven. Voordat u een pagina kunt publiceren, moet u deze inchecken.
+Wanneer de pagina gereed is, moet u de volgende stap publiceren, zodat externe gebruikers de inhoud kunnen weergeven. Voordat u een pagina kunt publiceren, moet u deze inchecken door **Bewerken voltooien** te selecteren op de opdrachtbalk.
 
 U kunt pagina's publiceren en de publicatie ongedaan maken vanuit de paginacontrole of de pagina-editor. In de paginacontrole wordt een lijst met pagina's weergegeven en zijn bulkbewerkingen toegestaan. Met pagina-editor kunt u één geopende pagina publiceren of de publicatie ongedaan maken.
 
@@ -70,9 +69,9 @@ Voer de volgende stappen uit om een startpagina op te slaan, te bekijken en te p
 1. Selecteer onder **Sites** de naam **Fabrikam** (of de naam van uw site).
 1. Selecteer **Pagina's** in het navigatievenster aan de linkerkant.
 1. Zoek en selecteer de startpagina om deze te openen in de pagina-editor.
-1. Selecteer **Uitchecken**.
+1. Selecteer **Bewerken**.
 1. Pas de pagina naar wens aan.
-1. Selecteer **Opslaan** en vervolgens **Inchecken**.
+1. Selecteer **Opslaan** en vervolgens **Bewerken voltooien**.
 1. Voer in het veld **Opmerkingen** een notitie over de aangebrachte wijzigingen in en selecteer vervolgens **OK**.
 1. Selecteer **Voorbeeld** om uw pagina te bekijken. Wanneer u klaar bent, sluit u het tabblad Voorbeeld om terug te keren naar het ontwerpgereedschap.
 1. Selecteer **Publiceren**.

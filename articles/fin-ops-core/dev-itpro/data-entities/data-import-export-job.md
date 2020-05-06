@@ -3,7 +3,7 @@ title: Overzicht van gegevensimport- en exporttaken
 description: Gebruik het werkgebied Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124607"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278893"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -151,6 +151,18 @@ In uitvoeringsgegevens wordt de status weergegeven van elke gegevensentiteit die
 U kunt de faseringsgegevens in een bestand voor exporttaken downloaden of u kunt de gegevens downloaden als een pakket voor import- en exporttaken.
 
 Vanuit de uitvoeringsgegevens kunt u ook het uitvoeringslogboek openen.
+
+## <a name="parallel-imports"></a>Parallelle invoer
+Voor een snellere import van gegevens kan een parallelle verwerking van een bestand worden ingeschakeld als de entiteit parallelle invoer ondersteunt. Als u de parallelle import voor een entiteit wilt configureren, moet u de volgende stappen volgen.
+
+1. Ga naar **Systeembeheer \> Werkruimten \> Gegevensbeheer**.
+2. Selecteer in de sectie **Importeren/exporteren** de tegel **Raamwerkparameters** om de pagina **Raamwerkparameters voor het importeren/exporteren van gegevens** te openen.
+3. Selecteer op het tabblad **Entiteitsinstellingen** de optie **Uitvoeringsparameters voor entiteit configureren** om de pagina **Uitvoeringsparameters voor entiteit importeren** te openen.
+4. Stel de volgende velden in om parallelle import voor een entiteit te configureren:
+
+    - Selecteer de entiteit in het veld **Entiteit**.
+    - Voer in het veld **Drempel voor records importeren** het drempelaantal in voor records importeren. Hiermee wordt het aantal records bepaald dat door een thread moet worden verwerkt. Als een bestand 10.000 records bevat, wordt met een recordaantal van 2500 met het taakaantal van 4 bedoeld dat elke thread 2500 records verwerkt.
+    - Voer in het veld **Taakaantal importeren** het aantal importtaken in. Dit mag niet hoger zijn dan het maximum aantal batchthreads dat is toegewezen voor batchverwerking **Systeembeheer \> Serverconfiguratie**.
 
 ## <a name="clean-up-the-staging-tables"></a>De faseringstabellen opschonen
 Vanaf Platform update 29 is deze functionaliteit afgeschaft. Deze wordt vervangen door een nieuwe versie van de functie historie opschonen die hieronder wordt toegelicht.

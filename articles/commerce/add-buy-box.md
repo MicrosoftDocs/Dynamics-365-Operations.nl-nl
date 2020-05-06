@@ -3,7 +3,7 @@ title: Module voor koopvak
 description: In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261393"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269746"
 ---
 # <a name="buy-box-module"></a>Module voor koopvak
 
@@ -80,15 +80,15 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 1. Maak een fragment met de naam **koopvakfragment** en voeg hieraan een module toe.
 1. Voeg een module voor de mediagalerie toe aan het vak **Media** in de koopvakmodule.
 1. Voeg in de **Winkelselectie**-sleuf van de koopvakmodule een winkelselectiemodule toe.
-1. Check de pagina in en publiceer deze.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om het fragment te controleren en selecteer **Publiceren** om het te publiceren.
 1. Maak een sjabloon voor een pagina met productgegevens en noem deze **PDP-sjabloon**.
 1. Voeg een standaardpagina toe.
 1. Voeg in het **hoofdvak** van de standaardpagina een koopvakfragment toe.
-1. Sla de sjabloon op, voltooi de bewerking ervan en publiceer deze.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Gebruik de sjabloon die u zojuist hebt gemaakt om een pagina met de naam **PDP-pagina** te maken.
 1. Voeg in het **hoofdvak** van de nieuwe pagina een koopvakfragment toe.
 1. Sla de pagina op en bekijk een voorbeeld. Voeg de parameter voor de querytekenreeks **?productid=&lt;product id&gt;** toe aan de URL van de voorbeeldpagina. Op die manier wordt de productcontext gebruikt om de voorbeeldpagina te laden en weer te geven.
-1. Sla de pagina op, voltooi de bewerking ervan en publiceer deze. Op de pagina met productgegevens moet nu het koopvak worden weergegeven.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren. Op de pagina met productgegevens moet nu het koopvak worden weergegeven.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
