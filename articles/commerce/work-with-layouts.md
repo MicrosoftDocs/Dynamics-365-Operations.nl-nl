@@ -3,7 +3,7 @@ title: Werken met vooraf ingestelde indelingen
 description: In dit onderwerp wordt beschreven hoe u werkt met vooraf ingestelde indelingen in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c8149c6e443c77dabfa641a698c931176bedbc98
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002631"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269884"
 ---
 # <a name="work-with-preset-layouts"></a>Werken met vooraf ingestelde indelingen
 
@@ -44,7 +44,7 @@ Er zijn twee methoden voor het maken van een vooraf ingestelde indeling. U kunt 
 Voer deze stappen uit om een vooraf ingestelde indeling te maken op basis van een bestaande aangepaste indeling.
 
 1. Open een bestaande pagina waarin momenteel geen vooraf ingestelde indeling wordt gebruikt en die een modulestructuur heeft die u opnieuw wilt gebruiken voor andere pagina's op uw site.
-1. Selecteer **Uitchecken**.
+1. Selecteer **Bewerken** om de pagina uit te checken.
 1. Selecteer **Opslaan als nieuwe indeling**. Het dialoogvenster **Opslaan als nieuwe indeling** wordt geopend.
 1. Voer een naam en beschrijving voor de vooraf ingestelde indeling in. De waarden die u invoert, worden weergegeven voor andere ontwerpers wanneer ze nieuwe pagina's maken vanuit uw indeling of overschakelen naar deze pagina. Voer daarom waarden in die nuttig zijn voor pagina-ontwerpers.
 1. Selecteer **OK**.
@@ -91,14 +91,14 @@ Voer de volgende stappen uit om het thema in te stellen of te wijzigen voor alle
 Om een vooraf ingestelde indeling op te slaan en in te checken, volgt u deze stappen.
 
 1. Selecteer de optie **Opslaan** boven aan de indelingseditor. Opgeslagen wijzigingen zijn niet van invloed op vervolgpagina's totdat ze zijn ingecheckt.
-1. Selecteer **Inchecken**. Uw wijzigingen zijn nu detecteerbaar voor vervolgworkflows.
+1. Selecteer **Bewerken voltooien**. Uw wijzigingen zijn nu detecteerbaar voor vervolgworkflows.
 
 Als u de wijzigingen wilt bekijken, opent u een bestaande pagina die de vooraf ingestelde indeling gebruikt of maakt u een nieuwe pagina op basis van de indeling.
 
 Nadat u een voorbeeld van de wijzigingen in de vooraf ingestelde indeling hebt bekeken, volgt u een van deze stappen om de indeling naar uw live site te publiceren:
 
 * Ga naar **Indelingen**, selecteer de indeling en selecteer **Publiceren.**
-* Selecteer **Publiceren** in de indelingseditor.
+* Selecteer de indelingsnaam om de indelingseditor te openen en selecteer vervolgens **Publiceren**.
 * Publiceer een pagina die verwijst naar de niet-gepubliceerde indeling. De indeling wordt automatisch gepubliceerd.
 
 > [!WARNING]

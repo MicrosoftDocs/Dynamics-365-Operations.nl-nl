@@ -3,7 +3,7 @@ title: Btw-betalingen en afrondingsregels
 description: In dit artikel wordt uitgelegd hoe de instelling van afrondingregels voor de btw-dienst werkt en afronding van het btw-saldo tijdens de taak Btw vereffenen en boeken.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771747"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275669"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Btw-betalingen en afrondingsregels
 
@@ -43,26 +43,26 @@ De totale btw voor een periode toont een creditsaldo van -98.765,43. De rechtspe
 
 De rechtspersoon wil een afrondingsmethode gebruiken waarmee het saldo wordt afgerond naar de dichtstbijzijnde 1,00. De gebruiker die verantwoordelijk is voor de btw-boekhouding voert de volgende stappen uit.
 
-1.  Klik op Btw &gt; Indirecte belastingen &gt; Btw &gt; Btw-diensten
-2.  Selecteer op het sneltabblad Algemeen in het veld Afrondingstype de optie Normaal.
-3.  Typ 1,00 in het veld Afronden.
-4.  Wanneer het tijd is om de btw te betalen aan de belastingdienst, opent u de pagina Btw vereffenen en boeken. (Klik op Btw &gt; Aangiften &gt; Btw &gt; Btw vereffenen en boeken.)
-5.  Op de btw-vereffeningsrekening is het bedrag van uw btw-belastingschuld van 98.765,43 afgerond naar 98.765.
+1. Klik op **Belasting** > **Indirecte belastingen** > **Btw** > **Btw-dienst**.
+2. Selecteer op het sneltabblad **Algemeen** in het veld **Afrondingstype** de optie **Normaal**.
+3. Typ 1,00 in het veld **Afronden**.
+4. Wanneer het tijd is om de btw te betalen aan de belastingdienst, opent u de pagina **Belasting** > **Aangiften** > **Btw** > **Btw vereffenen en boeken**. Op de btw-vereffeningsrekening ziet u dat het bedrag van uw btw-belastingschuld van **98.765,43** is afgerond naar **98.765**.
 
-In de volgende tabel ziet u hoe een bedrag van 98.765,43 wordt afgerond met behulp van elke afrondingsmethode die beschikbaar is in het veld Afrondingstype op de pagina Btw-dienst.
+In de volgende tabel ziet u hoe een bedrag van 98.765,43 wordt afgerond met behulp van elke afrondingsmethode die beschikbaar is in het veld **Afrondingstype** op de pagina **Btw-dienst**.
 
-| Optie Afrondingstype                | Afrondingswaarde = 0,01 | Afrondingswaarde = 0,10 | Afrondingswaarde = 1,00 | Afrondingswaarde = 100,00 |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| Normaal                              | 98.765,43              | 98.765,40              | 98.765,00              | 98.800,00                |
-| Naar beneden afronden                            | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
-| Naar boven afronden                         | 98.765,43              | 98.765,50              | 98.766,00              | 98.800,00                |
-| Eigen voordeel, voor een creditsaldo | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
-| Eigen voordeel, voor een debitsaldo  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
+> [!NOTE]                                                                                  
+> Als de afrondingswaarde is ingesteld op 0,00, geldt het volgende:
+>
+> - Voor normale afronding werkt het afronden hetzelfde als voor **afronden = 0,01**.
+> - Voor de **opties Afrondingstype** **Omlaag**, **Omhoog** en **Eigen voordeel** is het gedrag hetzelfde als voor **Afronden = 1,00**.
 
-
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>Helemaal geen afronding, omdat de afronding 0,00 is
-
-afronding (1,0151, 0,00) = 1,0151 afronding (1,0149, 0,00) = 1,0149
+| Optie Afrondingstype                | Afrondingswaarde = 0,01 | Afrondingswaarde = 0,10 | Afrondingswaarde = 1,00 | Afrondingswaarde = 100,00 | Afrondingswaarde = 0,00   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| Normaal                              | 98,765.43              | 98,765.40              | 98,765.00              | 98,800.00                | 98,765.43                |
+| Naar beneden afronden                            | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Naar boven afronden                         | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
+| Eigen voordeel, voor een creditsaldo | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Eigen voordeel, voor een debitsaldo  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Normale afronding en afrondingsprecisie is 0,01
 
