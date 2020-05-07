@@ -3,7 +3,7 @@ title: Btw-betalingen en afrondingsregels
 description: In dit artikel wordt uitgelegd hoe de instelling van afrondingregels voor de btw-dienst werkt en afronding van het btw-saldo tijdens de taak Btw vereffenen en boeken.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,102 +18,102 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771747"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275669"
 ---
-# <a name="sales-tax-payments-and-rounding-rules"></a><span data-ttu-id="9ea6d-103">Btw-betalingen en afrondingsregels</span><span class="sxs-lookup"><span data-stu-id="9ea6d-103">Sales tax payments and rounding rules</span></span>
+# <a name="sales-tax-payments-and-rounding-rules"></a><span data-ttu-id="500c9-103">Btw-betalingen en afrondingsregels</span><span class="sxs-lookup"><span data-stu-id="500c9-103">Sales tax payments and rounding rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9ea6d-104">In dit artikel wordt uitgelegd hoe de instelling van afrondingregels voor de btw-dienst werkt en afronding van het btw-saldo tijdens de taak Btw vereffenen en boeken.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-104">This article explains how the rounding rule setup on the Sales tax authorities works and rounding the sales tax balance during the Settle and post sales tax job.</span></span>
+<span data-ttu-id="500c9-104">In dit artikel wordt uitgelegd hoe de instelling van afrondingregels voor de btw-dienst werkt en afronding van het btw-saldo tijdens de taak Btw vereffenen en boeken.</span><span class="sxs-lookup"><span data-stu-id="500c9-104">This article explains how the rounding rule setup on the Sales tax authorities works and rounding the sales tax balance during the Settle and post sales tax job.</span></span>
 
-<span data-ttu-id="9ea6d-105">Periodiek moet btw worden aangegeven en betaald aan de belastingdienst.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-105">Periodically, sales tax needs to be reported and paid to tax authorities.</span></span> <span data-ttu-id="9ea6d-106">Dit kan worden uitgevoerd door het proces Btw vereffenen en boeken op de pagina Btw.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-106">This can be done by running the settle and post sales tax process in the Sales tax page.</span></span> <span data-ttu-id="9ea6d-107">Btw voor een periode wordt vereffend voor de btw-rekeningen en het btw-saldo wordt naar de rekening Btw-vereffening geboekt.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-107">Sales tax for a period will be settled against the sales tax accounts and the sales tax balance will be posted to the Sales tax settlement account.</span></span> <span data-ttu-id="9ea6d-108">Het btw-saldo, dat op de rekening Btw-vereffening wordt geboekt, kan worden afgerond zoals vereist wordt door de belastingdienst door een afrondingregel in te stellen op de pagina Btw.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-108">The sales tax balance, which is posted on the Sales tax settlement account, can be rounded as required by tax authorities by setting up a rounding rule on the Sales tax page.</span></span> 
+<span data-ttu-id="500c9-105">Periodiek moet btw worden aangegeven en betaald aan de belastingdienst.</span><span class="sxs-lookup"><span data-stu-id="500c9-105">Periodically, sales tax needs to be reported and paid to tax authorities.</span></span> <span data-ttu-id="500c9-106">Dit kan worden uitgevoerd door het proces Btw vereffenen en boeken op de pagina Btw.</span><span class="sxs-lookup"><span data-stu-id="500c9-106">This can be done by running the settle and post sales tax process in the Sales tax page.</span></span> <span data-ttu-id="500c9-107">Btw voor een periode wordt vereffend voor de btw-rekeningen en het btw-saldo wordt naar de rekening Btw-vereffening geboekt.</span><span class="sxs-lookup"><span data-stu-id="500c9-107">Sales tax for a period will be settled against the sales tax accounts and the sales tax balance will be posted to the Sales tax settlement account.</span></span> <span data-ttu-id="500c9-108">Het btw-saldo, dat op de rekening Btw-vereffening wordt geboekt, kan worden afgerond zoals vereist wordt door de belastingdienst door een afrondingregel in te stellen op de pagina Btw.</span><span class="sxs-lookup"><span data-stu-id="500c9-108">The sales tax balance, which is posted on the Sales tax settlement account, can be rounded as required by tax authorities by setting up a rounding rule on the Sales tax page.</span></span> 
 
-<span data-ttu-id="9ea6d-109">Het afrondingsverschil wordt geboekt naar de rekening Btw-afronding die is geselecteerd in het veld Rekeningen voor automatische transacties in het Grootboek.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-109">The rounding difference is posted to the Sales tax rounding account that is selected in the Accounts for automatic transactions field in the General ledger.</span></span>
+<span data-ttu-id="500c9-109">Het afrondingsverschil wordt geboekt naar de rekening Btw-afronding die is geselecteerd in het veld Rekeningen voor automatische transacties in het Grootboek.</span><span class="sxs-lookup"><span data-stu-id="500c9-109">The rounding difference is posted to the Sales tax rounding account that is selected in the Accounts for automatic transactions field in the General ledger.</span></span>
 
-<span data-ttu-id="9ea6d-110">Het onderstaande voorbeeld illustreert hoe de afrondingregel op Btw-dienst werkt.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-110">The below example illustrates how the rounding rule on Sales tax authority works.</span></span>
+<span data-ttu-id="500c9-110">Het onderstaande voorbeeld illustreert hoe de afrondingregel op Btw-dienst werkt.</span><span class="sxs-lookup"><span data-stu-id="500c9-110">The below example illustrates how the rounding rule on Sales tax authority works.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="9ea6d-111">Voorbeelden</span><span class="sxs-lookup"><span data-stu-id="9ea6d-111">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="500c9-111">Voorbeelden</span><span class="sxs-lookup"><span data-stu-id="500c9-111">Examples</span></span>
 
-<span data-ttu-id="9ea6d-112">De totale btw voor een periode toont een creditsaldo van -98.765,43.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-112">The total sales tax for a period shows a credit balance of -98,765.43.</span></span> <span data-ttu-id="9ea6d-113">De rechtspersoon inde meer btw dan dat betaald werd.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-113">The legal entity collected more sales taxes than it paid.</span></span> <span data-ttu-id="9ea6d-114">Daarom is de rechtspersoon geld verschuldigd aan de belastingsdienst.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-114">Therefore, the legal entity owes money to the tax authority.</span></span> 
+<span data-ttu-id="500c9-112">De totale btw voor een periode toont een creditsaldo van -98.765,43.</span><span class="sxs-lookup"><span data-stu-id="500c9-112">The total sales tax for a period shows a credit balance of -98,765.43.</span></span> <span data-ttu-id="500c9-113">De rechtspersoon inde meer btw dan dat betaald werd.</span><span class="sxs-lookup"><span data-stu-id="500c9-113">The legal entity collected more sales taxes than it paid.</span></span> <span data-ttu-id="500c9-114">Daarom is de rechtspersoon geld verschuldigd aan de belastingsdienst.</span><span class="sxs-lookup"><span data-stu-id="500c9-114">Therefore, the legal entity owes money to the tax authority.</span></span> 
 
-<span data-ttu-id="9ea6d-115">De rechtspersoon wil een afrondingsmethode gebruiken waarmee het saldo wordt afgerond naar de dichtstbijzijnde 1,00.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-115">The legal entity wants to use a rounding method that rounds the balance to the nearest 1.00.</span></span> <span data-ttu-id="9ea6d-116">De gebruiker die verantwoordelijk is voor de btw-boekhouding voert de volgende stappen uit.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-116">The user who is responsible for sales tax accounting performs the following steps.</span></span>
+<span data-ttu-id="500c9-115">De rechtspersoon wil een afrondingsmethode gebruiken waarmee het saldo wordt afgerond naar de dichtstbijzijnde 1,00.</span><span class="sxs-lookup"><span data-stu-id="500c9-115">The legal entity wants to use a rounding method that rounds the balance to the nearest 1.00.</span></span> <span data-ttu-id="500c9-116">De gebruiker die verantwoordelijk is voor de btw-boekhouding voert de volgende stappen uit.</span><span class="sxs-lookup"><span data-stu-id="500c9-116">The user who is responsible for sales tax accounting performs the following steps.</span></span>
 
-1.  <span data-ttu-id="9ea6d-117">Klik op Btw &gt; Indirecte belastingen &gt; Btw &gt; Btw-diensten</span><span class="sxs-lookup"><span data-stu-id="9ea6d-117">Click Tax &gt; Indirect taxes &gt; Sales tax &gt; Sales tax authorities</span></span>
-2.  <span data-ttu-id="9ea6d-118">Selecteer op het sneltabblad Algemeen in het veld Afrondingstype de optie Normaal.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-118">On the General FastTab, select Normal in the Rounding form field.</span></span>
-3.  <span data-ttu-id="9ea6d-119">Typ 1,00 in het veld Afronden.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-119">In the Round-off field, enter 1.00.</span></span>
-4.  <span data-ttu-id="9ea6d-120">Wanneer het tijd is om de btw te betalen aan de belastingdienst, opent u de pagina Btw vereffenen en boeken.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-120">When it is time to pay the sales taxes to the tax authority, open the Settle and post sales tax page.</span></span> <span data-ttu-id="9ea6d-121">(Klik op Btw &gt; Aangiften &gt; Btw &gt; Btw vereffenen en boeken.)</span><span class="sxs-lookup"><span data-stu-id="9ea6d-121">(Click Tax &gt; Declarations &gt; Sales tax &gt; Settle and post sales tax.)</span></span>
-5.  <span data-ttu-id="9ea6d-122">Op de btw-vereffeningsrekening is het bedrag van uw btw-belastingschuld van 98.765,43 afgerond naar 98.765.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-122">On the sales tax settlement account, the tax liability amount of 98,765.43 is rounded to 98,765.</span></span>
+1. <span data-ttu-id="500c9-117">Klik op **Belasting** > **Indirecte belastingen** > **Btw** > **Btw-dienst**.</span><span class="sxs-lookup"><span data-stu-id="500c9-117">Click **Tax** > **Indirect taxes** > **Sales tax** > **Sales tax authorities**.</span></span>
+2. <span data-ttu-id="500c9-118">Selecteer op het sneltabblad **Algemeen** in het veld **Afrondingstype** de optie **Normaal**.</span><span class="sxs-lookup"><span data-stu-id="500c9-118">On the **General** FastTab, in the **Rounding form** field, select **Normal**.</span></span>
+3. <span data-ttu-id="500c9-119">Typ 1,00 in het veld **Afronden**.</span><span class="sxs-lookup"><span data-stu-id="500c9-119">In the **Round-off** field, enter 1.00.</span></span>
+4. <span data-ttu-id="500c9-120">Wanneer het tijd is om de btw te betalen aan de belastingdienst, opent u de pagina **Belasting** > **Aangiften** > **Btw** > **Btw vereffenen en boeken**.</span><span class="sxs-lookup"><span data-stu-id="500c9-120">When it is time to pay the sales taxes to the tax authority, go to **Tax** > **Declarations** > **Sales tax** > **Settle and post sale tax**.</span></span> <span data-ttu-id="500c9-121">Op de btw-vereffeningsrekening ziet u dat het bedrag van uw btw-belastingschuld van **98.765,43** is afgerond naar **98.765**.</span><span class="sxs-lookup"><span data-stu-id="500c9-121">On the sales tax settlement account, you can see that the tax liability amount of **98,765.43** is rounded to **98,765**.</span></span>
 
-<span data-ttu-id="9ea6d-123">In de volgende tabel ziet u hoe een bedrag van 98.765,43 wordt afgerond met behulp van elke afrondingsmethode die beschikbaar is in het veld Afrondingstype op de pagina Btw-dienst.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-123">The following table shows how an amount of 98,765.43 is rounded by using each rounding method that is available in the Rounding form field in the Sales tax authorities page.</span></span>
+<span data-ttu-id="500c9-122">In de volgende tabel ziet u hoe een bedrag van 98.765,43 wordt afgerond met behulp van elke afrondingsmethode die beschikbaar is in het veld **Afrondingstype** op de pagina **Btw-dienst**.</span><span class="sxs-lookup"><span data-stu-id="500c9-122">The following table shows how an amount of 98,765.43 is rounded by using each rounding method that is available in the **Rounding form** field in the **Sales tax authorities** page.</span></span>
 
-| <span data-ttu-id="9ea6d-124">Optie Afrondingstype</span><span class="sxs-lookup"><span data-stu-id="9ea6d-124">Rounding form option</span></span>                | <span data-ttu-id="9ea6d-125">Afrondingswaarde = 0,01</span><span class="sxs-lookup"><span data-stu-id="9ea6d-125">Round-off value = 0.01</span></span> | <span data-ttu-id="9ea6d-126">Afrondingswaarde = 0,10</span><span class="sxs-lookup"><span data-stu-id="9ea6d-126">Round-off value = 0.10</span></span> | <span data-ttu-id="9ea6d-127">Afrondingswaarde = 1,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-127">Round-off value = 1.00</span></span> | <span data-ttu-id="9ea6d-128">Afrondingswaarde = 100,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-128">Round-off value = 100.00</span></span> |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| <span data-ttu-id="9ea6d-129">Normaal</span><span class="sxs-lookup"><span data-stu-id="9ea6d-129">Normal</span></span>                              | <span data-ttu-id="9ea6d-130">98.765,43</span><span class="sxs-lookup"><span data-stu-id="9ea6d-130">98,765.43</span></span>              | <span data-ttu-id="9ea6d-131">98.765,40</span><span class="sxs-lookup"><span data-stu-id="9ea6d-131">98,765.40</span></span>              | <span data-ttu-id="9ea6d-132">98.765,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-132">98,765.00</span></span>              | <span data-ttu-id="9ea6d-133">98.800,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-133">98,800.00</span></span>                |
-| <span data-ttu-id="9ea6d-134">Naar beneden afronden</span><span class="sxs-lookup"><span data-stu-id="9ea6d-134">Downward</span></span>                            | <span data-ttu-id="9ea6d-135">98.765,43</span><span class="sxs-lookup"><span data-stu-id="9ea6d-135">98,765.43</span></span>              | <span data-ttu-id="9ea6d-136">98.765,40</span><span class="sxs-lookup"><span data-stu-id="9ea6d-136">98,765.40</span></span>              | <span data-ttu-id="9ea6d-137">98.765,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-137">98,765.00</span></span>              | <span data-ttu-id="9ea6d-138">98.700,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-138">98,700.00</span></span>                |
-| <span data-ttu-id="9ea6d-139">Naar boven afronden</span><span class="sxs-lookup"><span data-stu-id="9ea6d-139">Rounding-up</span></span>                         | <span data-ttu-id="9ea6d-140">98.765,43</span><span class="sxs-lookup"><span data-stu-id="9ea6d-140">98,765.43</span></span>              | <span data-ttu-id="9ea6d-141">98.765,50</span><span class="sxs-lookup"><span data-stu-id="9ea6d-141">98,765.50</span></span>              | <span data-ttu-id="9ea6d-142">98.766,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-142">98,766.00</span></span>              | <span data-ttu-id="9ea6d-143">98.800,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-143">98,800.00</span></span>                |
-| <span data-ttu-id="9ea6d-144">Eigen voordeel, voor een creditsaldo</span><span class="sxs-lookup"><span data-stu-id="9ea6d-144">Own advantage, for a credit balance</span></span> | <span data-ttu-id="9ea6d-145">98.765,43</span><span class="sxs-lookup"><span data-stu-id="9ea6d-145">98,765.43</span></span>              | <span data-ttu-id="9ea6d-146">98.765,40</span><span class="sxs-lookup"><span data-stu-id="9ea6d-146">98,765.40</span></span>              | <span data-ttu-id="9ea6d-147">98.765,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-147">98,765.00</span></span>              | <span data-ttu-id="9ea6d-148">98.700,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-148">98,700.00</span></span>                |
-| <span data-ttu-id="9ea6d-149">Eigen voordeel, voor een debitsaldo</span><span class="sxs-lookup"><span data-stu-id="9ea6d-149">Own advantage, for a debit balance</span></span>  | <span data-ttu-id="9ea6d-150">98,765.43</span><span class="sxs-lookup"><span data-stu-id="9ea6d-150">98,765.43</span></span>              | <span data-ttu-id="9ea6d-151">98,765.50</span><span class="sxs-lookup"><span data-stu-id="9ea6d-151">98,765.50</span></span>              | <span data-ttu-id="9ea6d-152">98,766.00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-152">98,766.00</span></span>              | <span data-ttu-id="9ea6d-153">98,800.00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-153">98,800.00</span></span>                |
+> [!NOTE]                                                                                  
+> <span data-ttu-id="500c9-123">Als de afrondingswaarde is ingesteld op 0,00, geldt het volgende:</span><span class="sxs-lookup"><span data-stu-id="500c9-123">If the round-off value is set as 0.00, then:</span></span>
+>
+> - <span data-ttu-id="500c9-124">Voor normale afronding werkt het afronden hetzelfde als voor **afronden = 0,01**.</span><span class="sxs-lookup"><span data-stu-id="500c9-124">For normal rounding, the rounding behavior is the same as for **Round-off = 0.01**.</span></span>
+> - <span data-ttu-id="500c9-125">Voor de **opties Afrondingstype** **Omlaag**, **Omhoog** en **Eigen voordeel** is het gedrag hetzelfde als voor **Afronden = 1,00**.</span><span class="sxs-lookup"><span data-stu-id="500c9-125">For the **Rounding form options**, **Downward**, **Rounding-up**, and **Own advantage**, the behavior is the same as for **Round-off = 1.00**.</span></span>
 
+| <span data-ttu-id="500c9-126">Optie Afrondingstype</span><span class="sxs-lookup"><span data-stu-id="500c9-126">Rounding form option</span></span>                | <span data-ttu-id="500c9-127">Afrondingswaarde = 0,01</span><span class="sxs-lookup"><span data-stu-id="500c9-127">Round-off value = 0.01</span></span> | <span data-ttu-id="500c9-128">Afrondingswaarde = 0,10</span><span class="sxs-lookup"><span data-stu-id="500c9-128">Round-off value = 0.10</span></span> | <span data-ttu-id="500c9-129">Afrondingswaarde = 1,00</span><span class="sxs-lookup"><span data-stu-id="500c9-129">Round-off value = 1.00</span></span> | <span data-ttu-id="500c9-130">Afrondingswaarde = 100,00</span><span class="sxs-lookup"><span data-stu-id="500c9-130">Round-off value = 100.00</span></span> | <span data-ttu-id="500c9-131">Afrondingswaarde = 0,00</span><span class="sxs-lookup"><span data-stu-id="500c9-131">Round-off value = 0.00</span></span>   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| <span data-ttu-id="500c9-132">Normaal</span><span class="sxs-lookup"><span data-stu-id="500c9-132">Normal</span></span>                              | <span data-ttu-id="500c9-133">98,765.43</span><span class="sxs-lookup"><span data-stu-id="500c9-133">98,765.43</span></span>              | <span data-ttu-id="500c9-134">98,765.40</span><span class="sxs-lookup"><span data-stu-id="500c9-134">98,765.40</span></span>              | <span data-ttu-id="500c9-135">98,765.00</span><span class="sxs-lookup"><span data-stu-id="500c9-135">98,765.00</span></span>              | <span data-ttu-id="500c9-136">98,800.00</span><span class="sxs-lookup"><span data-stu-id="500c9-136">98,800.00</span></span>                | <span data-ttu-id="500c9-137">98,765.43</span><span class="sxs-lookup"><span data-stu-id="500c9-137">98,765.43</span></span>                |
+| <span data-ttu-id="500c9-138">Naar beneden afronden</span><span class="sxs-lookup"><span data-stu-id="500c9-138">Downward</span></span>                            | <span data-ttu-id="500c9-139">98,765.43</span><span class="sxs-lookup"><span data-stu-id="500c9-139">98,765.43</span></span>              | <span data-ttu-id="500c9-140">98,765.40</span><span class="sxs-lookup"><span data-stu-id="500c9-140">98,765.40</span></span>              | <span data-ttu-id="500c9-141">98,765.00</span><span class="sxs-lookup"><span data-stu-id="500c9-141">98,765.00</span></span>              | <span data-ttu-id="500c9-142">98,700.00</span><span class="sxs-lookup"><span data-stu-id="500c9-142">98,700.00</span></span>                | <span data-ttu-id="500c9-143">98,765.00</span><span class="sxs-lookup"><span data-stu-id="500c9-143">98,765.00</span></span>                |
+| <span data-ttu-id="500c9-144">Naar boven afronden</span><span class="sxs-lookup"><span data-stu-id="500c9-144">Rounding-up</span></span>                         | <span data-ttu-id="500c9-145">98,765.43</span><span class="sxs-lookup"><span data-stu-id="500c9-145">98,765.43</span></span>              | <span data-ttu-id="500c9-146">98,765.50</span><span class="sxs-lookup"><span data-stu-id="500c9-146">98,765.50</span></span>              | <span data-ttu-id="500c9-147">98,766.00</span><span class="sxs-lookup"><span data-stu-id="500c9-147">98,766.00</span></span>              | <span data-ttu-id="500c9-148">98,800.00</span><span class="sxs-lookup"><span data-stu-id="500c9-148">98,800.00</span></span>                | <span data-ttu-id="500c9-149">98,766.00</span><span class="sxs-lookup"><span data-stu-id="500c9-149">98,766.00</span></span>                |
+| <span data-ttu-id="500c9-150">Eigen voordeel, voor een creditsaldo</span><span class="sxs-lookup"><span data-stu-id="500c9-150">Own advantage, for a credit balance</span></span> | <span data-ttu-id="500c9-151">98,765.43</span><span class="sxs-lookup"><span data-stu-id="500c9-151">98,765.43</span></span>              | <span data-ttu-id="500c9-152">98,765.40</span><span class="sxs-lookup"><span data-stu-id="500c9-152">98,765.40</span></span>              | <span data-ttu-id="500c9-153">98,765.00</span><span class="sxs-lookup"><span data-stu-id="500c9-153">98,765.00</span></span>              | <span data-ttu-id="500c9-154">98,700.00</span><span class="sxs-lookup"><span data-stu-id="500c9-154">98,700.00</span></span>                | <span data-ttu-id="500c9-155">98,765.00</span><span class="sxs-lookup"><span data-stu-id="500c9-155">98,765.00</span></span>                |
+| <span data-ttu-id="500c9-156">Eigen voordeel, voor een debitsaldo</span><span class="sxs-lookup"><span data-stu-id="500c9-156">Own advantage, for a debit balance</span></span>  | <span data-ttu-id="500c9-157">98,765.43</span><span class="sxs-lookup"><span data-stu-id="500c9-157">98,765.43</span></span>              | <span data-ttu-id="500c9-158">98,765.50</span><span class="sxs-lookup"><span data-stu-id="500c9-158">98,765.50</span></span>              | <span data-ttu-id="500c9-159">98,766.00</span><span class="sxs-lookup"><span data-stu-id="500c9-159">98,766.00</span></span>              | <span data-ttu-id="500c9-160">98,800.00</span><span class="sxs-lookup"><span data-stu-id="500c9-160">98,800.00</span></span>                | <span data-ttu-id="500c9-161">98,766.00</span><span class="sxs-lookup"><span data-stu-id="500c9-161">98,766.00</span></span>                |
 
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a><span data-ttu-id="9ea6d-154">Helemaal geen afronding, omdat de afronding 0,00 is</span><span class="sxs-lookup"><span data-stu-id="9ea6d-154">No rounding at all, since the round-off is 0.00</span></span>
-
-<span data-ttu-id="9ea6d-155">afronding (1,0151, 0,00) = 1,0151 afronding (1,0149, 0,00) = 1,0149</span><span class="sxs-lookup"><span data-stu-id="9ea6d-155">round(1.0151, 0.00) = 1.0151 round(1.0149, 0.00) = 1.0149</span></span>
-
-### <a name="normal-round-and-round-precision-is-001"></a><span data-ttu-id="9ea6d-156">Normale afronding en afrondingsprecisie is 0,01</span><span class="sxs-lookup"><span data-stu-id="9ea6d-156">Normal round, and round precision is 0.01</span></span>
+### <a name="normal-round-and-round-precision-is-001"></a><span data-ttu-id="500c9-162">Normale afronding en afrondingsprecisie is 0,01</span><span class="sxs-lookup"><span data-stu-id="500c9-162">Normal round, and round precision is 0.01</span></span>
 
 <table>
   <tr>
-    <td><span data-ttu-id="9ea6d-157">Afronding</span><span class="sxs-lookup"><span data-stu-id="9ea6d-157">Rounding</span></span>
+    <td><span data-ttu-id="500c9-163">Afronding</span><span class="sxs-lookup"><span data-stu-id="500c9-163">Rounding</span></span>
     </td>
-    <td><span data-ttu-id="9ea6d-158">Berekeningsproces</span><span class="sxs-lookup"><span data-stu-id="9ea6d-158">Calculation process</span></span>
+    <td><span data-ttu-id="500c9-164">Berekeningsproces</span><span class="sxs-lookup"><span data-stu-id="500c9-164">Calculation process</span></span>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="9ea6d-159">afronding (1,015, 0,01) = 1,02</span><span class="sxs-lookup"><span data-stu-id="9ea6d-159">round(1.015, 0.01) = 1.02</span></span>
+    <td><span data-ttu-id="500c9-165">afronding (1,015, 0,01) = 1,02</span><span class="sxs-lookup"><span data-stu-id="500c9-165">round(1.015, 0.01) = 1.02</span></span>
     </td>
     <td>
       <ol>
-        <li><span data-ttu-id="9ea6d-160">afronding (1,015 / 0,01, 0) = afronding (101,5, 0) = 102</span><span class="sxs-lookup"><span data-stu-id="9ea6d-160">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span></span>
+        <li><span data-ttu-id="500c9-166">afronding (1,015 / 0,01, 0) = afronding (101,5, 0) = 102</span><span class="sxs-lookup"><span data-stu-id="500c9-166">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span></span>
         </li>
-        <li><span data-ttu-id="9ea6d-161">102 \* 0,01 = 1,02</span><span class="sxs-lookup"><span data-stu-id="9ea6d-161">102 \* 0.01 = 1.02</span></span>
-        </li>
-      </ol>
-    </td>
-  </tr>
-    <tr>
-    <td><span data-ttu-id="9ea6d-162">afronding (1,014, 0,01) = 1,01</span><span class="sxs-lookup"><span data-stu-id="9ea6d-162">round(1.014, 0.01) = 1.01</span></span>
-    </td>
-    <td> <ol>
-        <li><span data-ttu-id="9ea6d-163">afronding (1,014 / 0,01, 0) = afronding (101,4, 0) = 101</span><span class="sxs-lookup"><span data-stu-id="9ea6d-163">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span></span>
-        </li>
-        <li><span data-ttu-id="9ea6d-164">101 \* 0,01 = 1,01</span><span class="sxs-lookup"><span data-stu-id="9ea6d-164">101 \* 0.01 = 1.01</span></span>
+        <li><span data-ttu-id="500c9-167">102 \* 0,01 = 1,02</span><span class="sxs-lookup"><span data-stu-id="500c9-167">102 \* 0.01 = 1.02</span></span>
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="9ea6d-165">afronding (1,011, 0,02) = 1,02</span><span class="sxs-lookup"><span data-stu-id="9ea6d-165">round(1.011, 0.02) = 1.02</span></span>
+    <td><span data-ttu-id="500c9-168">afronding (1,014, 0,01) = 1,01</span><span class="sxs-lookup"><span data-stu-id="500c9-168">round(1.014, 0.01) = 1.01</span></span>
     </td>
     <td> <ol>
-        <li><span data-ttu-id="9ea6d-166">afronding (1,011 / 0,02, 0) = afronding (50,55, 0) = 51</span><span class="sxs-lookup"><span data-stu-id="9ea6d-166">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span></span>
+        <li><span data-ttu-id="500c9-169">afronding (1,014 / 0,01, 0) = afronding (101,4, 0) = 101</span><span class="sxs-lookup"><span data-stu-id="500c9-169">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span></span>
         </li>
-        <li><span data-ttu-id="9ea6d-167">51 \* 0,02 = 1,02</span><span class="sxs-lookup"><span data-stu-id="9ea6d-167">51 \* 0.02 = 1.02</span></span>
+        <li><span data-ttu-id="500c9-170">101 \* 0,01 = 1,01</span><span class="sxs-lookup"><span data-stu-id="500c9-170">101 \* 0.01 = 1.01</span></span>
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="9ea6d-168">afronding (1,009, 0,02) = 1,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-168">round(1.009, 0.02) = 1.00</span></span>
+    <td><span data-ttu-id="500c9-171">afronding (1,011, 0,02) = 1,02</span><span class="sxs-lookup"><span data-stu-id="500c9-171">round(1.011, 0.02) = 1.02</span></span>
     </td>
     <td> <ol>
-        <li><span data-ttu-id="9ea6d-169">afronding (1,009 / 0,02, 0) = afronding (50,45, 0) = 50</span><span class="sxs-lookup"><span data-stu-id="9ea6d-169">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span></span>
+        <li><span data-ttu-id="500c9-172">afronding (1,011 / 0,02, 0) = afronding (50,55, 0) = 51</span><span class="sxs-lookup"><span data-stu-id="500c9-172">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span></span>
         </li>
-        <li><span data-ttu-id="9ea6d-170">50 \* 0,02 = 1,00</span><span class="sxs-lookup"><span data-stu-id="9ea6d-170">50 \* 0.02 = 1.00</span></span>
+        <li><span data-ttu-id="500c9-173">51 \* 0,02 = 1,02</span><span class="sxs-lookup"><span data-stu-id="500c9-173">51 \* 0.02 = 1.02</span></span>
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td><span data-ttu-id="500c9-174">afronding (1,009, 0,02) = 1,00</span><span class="sxs-lookup"><span data-stu-id="500c9-174">round(1.009, 0.02) = 1.00</span></span>
+    </td>
+    <td> <ol>
+        <li><span data-ttu-id="500c9-175">afronding (1,009 / 0,02, 0) = afronding (50,45, 0) = 50</span><span class="sxs-lookup"><span data-stu-id="500c9-175">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span></span>
+        </li>
+        <li><span data-ttu-id="500c9-176">50 \* 0,02 = 1,00</span><span class="sxs-lookup"><span data-stu-id="500c9-176">50 \* 0.02 = 1.00</span></span>
         </li>
       </ol>
     </td>
@@ -121,13 +121,13 @@ ms.locfileid: "2771747"
 </table>
 
 > [!NOTE]                                                                                  
-> <span data-ttu-id="9ea6d-171">Als u Eigen voordeel selecteert, is de afronding altijd in het voordeel van de rechtspersoon.</span><span class="sxs-lookup"><span data-stu-id="9ea6d-171">If you select Own advantage, the rounding is always to the advantage of the legal entity.</span></span> 
+> <span data-ttu-id="500c9-177">Als u Eigen voordeel selecteert, is de afronding altijd in het voordeel van de rechtspersoon.</span><span class="sxs-lookup"><span data-stu-id="500c9-177">If you select Own advantage, the rounding is always to the advantage of the legal entity.</span></span> 
 
-<span data-ttu-id="9ea6d-172">Zie de volgende onderwerpen voor meer informatie:</span><span class="sxs-lookup"><span data-stu-id="9ea6d-172">For more information, see the following topics:</span></span>
-- [<span data-ttu-id="9ea6d-173">Btw-overzicht</span><span class="sxs-lookup"><span data-stu-id="9ea6d-173">Sales tax overview</span></span>](indirect-taxes-overview.md)
-- [<span data-ttu-id="9ea6d-174">Een btw-betaling maken</span><span class="sxs-lookup"><span data-stu-id="9ea6d-174">Create a sales tax payment</span></span>](tasks/create-sales-tax-payment.md)
-- [<span data-ttu-id="9ea6d-175">Btw-transacties maken in documenten</span><span class="sxs-lookup"><span data-stu-id="9ea6d-175">Create sales tax transactions on documents</span></span>](tasks/create-sales-tax-transactions-documents.md)
-- [<span data-ttu-id="9ea6d-176">Geboekte btw-transacties weergeven</span><span class="sxs-lookup"><span data-stu-id="9ea6d-176">View posted sales tax transactions</span></span>](tasks/view-posted-sales-tax-transactions.md)
-- [<span data-ttu-id="9ea6d-177">Afrondingsfunctie</span><span class="sxs-lookup"><span data-stu-id="9ea6d-177">round Function</span></span>](https://msdn.microsoft.com/library/aa850656.aspx)
+<span data-ttu-id="500c9-178">Zie de volgende onderwerpen voor meer informatie:</span><span class="sxs-lookup"><span data-stu-id="500c9-178">For more information, see the following topics:</span></span>
+- [<span data-ttu-id="500c9-179">Btw-overzicht</span><span class="sxs-lookup"><span data-stu-id="500c9-179">Sales tax overview</span></span>](indirect-taxes-overview.md)
+- [<span data-ttu-id="500c9-180">Een btw-betaling maken</span><span class="sxs-lookup"><span data-stu-id="500c9-180">Create a sales tax payment</span></span>](tasks/create-sales-tax-payment.md)
+- [<span data-ttu-id="500c9-181">Btw-transacties maken in documenten</span><span class="sxs-lookup"><span data-stu-id="500c9-181">Create sales tax transactions on documents</span></span>](tasks/create-sales-tax-transactions-documents.md)
+- [<span data-ttu-id="500c9-182">Geboekte btw-transacties weergeven</span><span class="sxs-lookup"><span data-stu-id="500c9-182">View posted sales tax transactions</span></span>](tasks/view-posted-sales-tax-transactions.md)
+- [<span data-ttu-id="500c9-183">Afrondingsfunctie</span><span class="sxs-lookup"><span data-stu-id="500c9-183">round Function</span></span>](https://msdn.microsoft.com/library/aa850656.aspx)
 
 
