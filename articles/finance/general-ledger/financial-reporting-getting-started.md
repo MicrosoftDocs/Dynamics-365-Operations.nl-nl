@@ -3,7 +3,7 @@ title: Overzicht van financiële rapportage
 description: In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 Finance en hoe u de financiële rapportagemogelijkheden kunt gebruiken. Het bevat een omschrijving van de financiële standaardrapporten die worden geleverd.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01fcc7c4f3e1eb7aadfc93b120cd57e62077d0c0
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249055"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262644"
 ---
 # <a name="financial-reporting-overview"></a>Overzicht van Financiële rapportage
 
@@ -83,13 +83,15 @@ Nadat een gebruiker is toegevoegd of een rol is gewijzigd, moet de gebruiker bin
 ## <a name="report-deletions-and-expirations"></a>Verwijderde en verlopen rapporten
 Gebruikers die een rapport genereren, kunnen hun eigen rapporten verwijderen. Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** kunnen rapporten van anderen verwijderen. 
 
-Vanaf de 10.0.7-release is het concept van vervaldatums geïntroduceerd. Een nieuwe verplichte functie wordt ingeschakeld in het werkgebied voor functiebeheer. Deze functie omvat de volgende wijzigingen:
+In versie 10.0.8 is het concept van de vervaldatum geïntroduceerd. Een nieuwe vereiste functie wordt ingeschakeld op de pagina **Alles** binnen het werkgebied van Functiebeheer. De functie **Beleid voor het bewaren van financiële rapporten** bevat de volgende wijzigingen:
 * Nieuwe gegenereerde rapporten krijgen automatisch een vervaldatum van 90 dagen vanaf het moment dat ze worden gegenereerd
 * Alle bestaande rapporten van vóór de installatie van de functie krijgen een vervalperiode van 90 dagen. De datum kan gedurende een korte periode als leeg worden weergegeven totdat de service voor financiële rapportage wordt uitgevoerd, er een rapport wordt gegenereerd en de service de update uitvoert op bestaande rapporten met een lege vervaldatum. 
-* Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** hebben toegang tot deze functionaliteit. Elke gebruiker met de functie **Financiële rapporten onderhouden** met de bevoegdheid **Vervaldatum van financiële rapporten onderhouden** kan ook de vervalperiode wijzigen. Momenteel zijn er twee opties beschikbaar: 
-  * Een vervalperiode van 90 dagen
-  * Een optie om in te stellen dat het rapport nooit vervalt
-
+* Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** hebben toegang tot deze functionaliteit. Elke gebruiker met de functie **Financiële rapporten onderhouden** met de bevoegdheid **Vervaldatum van financiële rapporten onderhouden** kan ook de vervalperiode wijzigen. Momenteel zijn er twee opties beschikbaar. 
+  * Een vervalperiode van 90 dagen.
+  * Een optie om in te stellen dat het rapport nooit vervalt.
+  
+Aanvullende opties worden in toekomstige functies opgenomen. De vervalperiode van 90 dagen is de standaardwaarde en gebruikers met de juiste machtigingen kunnen de standaardwaarde op de lijstpagina **Financiële rapporten** overschrijven.    
+  
 Wanneer een vervalperiode zoals 90 dagen wordt geselecteerd, wordt deze 90 dagen vanaf vandaag verleend. Dit is anders dan de 90 dagen vanaf de oorspronkelijke generatiedatum ingesteld tijdens het genereren van rapporten. 
 
 ## <a name="default-reports"></a>Standaardrapporten

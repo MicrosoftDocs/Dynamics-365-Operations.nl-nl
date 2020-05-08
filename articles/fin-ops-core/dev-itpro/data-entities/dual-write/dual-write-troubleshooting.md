@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172686"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275645"
 ---
 # <a name="general-troubleshooting"></a>Algemene problemen oplossen
 
@@ -70,14 +70,12 @@ Voer de volgende stappen uit om het traceerlogboek in te schakelen.
 Voer de volgende stappen uit om het traceerlogboek weer te geven.
 
 1. Meld u aan bij de Finance and Operations-app, open de pagina **Instellingen** en selecteer vervolgens onder **Aanpassen** de optie **Traceerlogboek invoegtoepassing**.
-2. Zoek de traceerlogboeken waarvoor het veld **Type naam** is ingesteld op **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+2. Zoek de traceerlogboeken waarvoor het veld **Type naam** is ingesteld op **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Dubbelklik op een item om het volledige logboek weer te geven en controleer vervolgens op het sneltabblad **Uitvoering** de tekst **Bericht blokkeren**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>De modus Foutopsporing inschakelen om live synchronisatieproblemen in Finance and Operations-apps op te lossen
 
-**Vereiste rol om de fouten weer te geven:** systeembeheerder
-
-Fouten met twee keer wegschrijven die afkomstig zijn uit Common Data Service, kunnen worden weergegeven in de  Finance and Operations-app. In sommige gevallen is de volledige tekst van het foutbericht niet beschikbaar omdat het bericht te lang is of persoonlijke identificatie gegevens (PII) bevat. U kunt uitgebreide logboekregistratie voor fouten inschakelen door de volgende stappen uit te voeren.
+**Vereiste rol om de fouten weer te geven**: fouten van systeembeheerder met Twee keer wegschrijven die zijn ontstaan in Common Data Service, kunnen worden weergegeven in de Finance and Operations-app. In sommige gevallen is de volledige tekst van het foutbericht niet beschikbaar omdat het bericht te lang is of persoonlijke identificatie gegevens (PII) bevat. U kunt uitgebreide logboekregistratie voor fouten inschakelen door de volgende stappen uit te voeren.
 
 1. Alle projectconfiguraties in Finance and Operations-apps hebben een eigenschap **IsDebugMode** in de entiteit **DualWriteprojectConfiguration**. Open de entiteit **DualWriteProjectConfiguration** met de Excel-invoegtoepassing.
 
@@ -104,7 +102,7 @@ Fouten met twee keer wegschrijven die afkomstig zijn uit Common Data Service, ku
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Een Common Data Service-omgeving ontkoppelen en een andere omgeving uit een Finance and Operations-app koppelen
 
-**Vereiste referenties om de omgeving te ontkoppelen:** Azure AD-tenantbeheerder
+**De vereiste rol om de omgeving te ontkoppelen:** systeembeheerder voor de Finance and Operations-app of Common Data Service.
 
 1. Meld u aan bij de Finance and Operations-app.
 2. Ga naar **Werkruimten \> Gegevensbeheer** en selecteer de tegel **Twee keer wegschrijven**.
@@ -113,3 +111,13 @@ Fouten met twee keer wegschrijven die afkomstig zijn uit Common Data Service, ku
 5. Selecteer **Ja** om de bewerking te bevestigen.
 
 U kunt nu een nieuwe omgeving koppelen.
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>Informatieformulier met verkooporderregel kan niet worden weergegeven 
+
+Wanneer u een verkooporder maakt in Dynamics 365 Sales, kunt u door te klikken op **+ Producten toevoegen** worden omgeleid naar het formulier Dynamics 365 Project Operations-orderregel. U kunt vanuit dat formulier niet het **informatieformulier** over de verkooporderregel weergeven. De optie voor **informatie** wordt niet weergegeven in de vervolgkeuzelijst onder **Nieuwe orderregel**. Dit gebeurt omdat Project Operations in uw omgeving is geïnstalleerd.
+
+Ga als volgt te werk om de optie voor het formulier **Informatie** opnieuw in te schakelen:
+1. Ga naar de entiteit **Orderregel**.
+2. Zoek het formulier **Informatie** onder het knooppunt met formulieren. 
+3. Selecteer het formulier **Informatie** en klik op **Beveiligingsrollen inschakelen**. 
+4. Wijzig de beveiligingsinstelling in **Weergeven aan iedereen**.

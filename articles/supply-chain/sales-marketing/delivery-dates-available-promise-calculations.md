@@ -1,9 +1,9 @@
 ---
 title: Orderbelofte
-description: In dit artikel vindt u informatie over het uitvoeren van ordertoezeggingen (orderbeloftes). Als u gebruikt maakt van orderbeloftes, kunt u met zekerheid leveringsdatums aan uw klanten beloven en hebt u de flexibiliteit dat u deze datums ook haalt.
+description: In dit onderwerp vindt u informatie over het uitvoeren van ordertoezeggingen (orderbeloftes). Als u gebruikt maakt van orderbeloftes, kunt u met zekerheid leveringsdatums aan uw klanten beloven en hebt u de flexibiliteit dat u deze datums ook haalt.
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210044"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270022"
 ---
 # <a name="order-promising"></a>Orderbelofte
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel vindt u informatie over het uitvoeren van ordertoezeggingen (orderbeloftes). Als u gebruikt maakt van orderbeloftes, kunt u met zekerheid leveringsdatums aan uw klanten beloven en hebt u de flexibiliteit dat u deze datums ook haalt.
+In dit onderwerp vindt u informatie over het uitvoeren van ordertoezeggingen (orderbeloftes). Als u gebruikt maakt van orderbeloftes, kunt u met zekerheid leveringsdatums aan uw klanten beloven en hebt u de flexibiliteit dat u deze datums ook haalt.
 
 Met orderbelofte worden de vroegste verzend- en ontvangstdatum berekend. De functie is gebaseerd op de controlemethode voor de leveringsdatum en op de transportdagen. U kunt onder kiezen uit vier controlemethoden voor de leveringsdatum:
 
@@ -47,11 +47,13 @@ De vrije voorraad wordt berekend met de volgende formule:
 
 Vrije voorraad = vrije voorraad voor de vorige periode + ontvangsten voor de huidige periode - uitgiften voor de huidige periode - de netto-uitgiftehoeveelheid voor elke toekomstige periode totdat de periode waarvoor de som van de ontvangsten voor alle toekomstige perioden, tot en met de toekomstige periode, groter is dan de som van de uitgiften, tot en met de toekomstige periode.  
 
+De berekening van de vrije voorraad bevat geen informatie over de vervaldatum en na de ATP-time fence die het systeem verwacht voor het toezeggen van een hoeveelheid.
+
 Wanneer er geen uitgiften of ontvangsten meer zijn om te verwerken, is de hoeveelheid vrije voorraad gelijk aan de hoeveelheid die als laatste is berekend.  
 
 Als niet alle dimensies die voor een artikel worden gebruikt, zijn ingevoerd wanneer de vrijevoorraadcontrole wordt uitgevoerd, kunnen deze alsnog worden ingevoerd tijdens de uitgifte of ontvangst. In dit geval moeten de ontvangsten en uitgiften tijdens de berekening van de vrije voorraad worden opgeteld bij de bestaande dimensies om het aantal ontvangst- en uitgifteregels te beperken dat wordt gebruikt in de berekening van de vrije voorraad.  
 
-De hoeveelheid vrije voorraad die wordt weergegeven is altijd groter dan of gelijk aan 0 (nul). Als een negatieve hoeveelheid vrije voorraad wordt geretourneerd (bijvoorbeeld als de eerder toegezegde hoeveelheid groter is dan de beschikbare hoeveelheid), wordt de hoeveelheid automatisch ingesteld op **0**.
+De hoeveelheid vrije voorraad die wordt weergegeven is altijd groter dan of gelijk aan 0 (nul). Als een negatieve hoeveelheid vrije voorraad wordt geretourneerd (bijvoorbeeld als de eerder toegezegde hoeveelheid groter is dan de beschikbare hoeveelheid), wordt de hoeveelheid automatisch ingesteld op 0.
 
 ### <a name="example"></a>Voorbeeld
 

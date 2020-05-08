@@ -19,17 +19,16 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 54201de6b242f8100c19a78468476a6308b1b18a
-ms.sourcegitcommit: 5554b3abb4365666992efad692ae28e943faebd4
+ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3116551"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265573"
 ---
 # <a name="show-discounts-in-pos"></a>Kortingen weergeven in POS
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Promoties spelen een belangrijke rol bij het motiveren van klanten die inkoopbeslissingen nemen. Zo kunnen feestdagen bijvoorbeeld het hoogste aantal verkopen voor detailhandelaren genereren, omdat de gehele markt overstroomt van aantrekkelijke acties en kortingen. Als de winkelmedewerkers weten wat de beschikbare promoties zijn, kunnen ze eenvoudig profiteren van deze acties om meer artikelen te verkopen. In dit onderwerp wordt uitgelegd hoe Microsoft Dynamics 365 Commerce verkoopmedewerkers helpt met informatie over promoties en hoe deze kunnen worden gebruikt voor meerverkoop/bijverkoop.
 

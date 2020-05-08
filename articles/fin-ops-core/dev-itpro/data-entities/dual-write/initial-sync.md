@@ -19,22 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 4adb2c8d57ad8f67346b8d34212b7a4b0bd052ab
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 9ae14703941b97308bca5845eeac3eb9b181ae75
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173126"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275482"
 ---
 # <a name="entity-dependency-chain-synchronization-order"></a>Afhankelijkheidsketen van entiteiten (synchronisatievolgorde)
 
 [!include [banner](../../includes/banner.md)]
 
-
-
-In de volgende tabel worden de entiteiten vermeld in de volgorde waarin u ze moet inschakelen. Wanneer u een kaart voor initiële synchronisatie inschakelt, detecteert de functie voor twee keer wegschrijven andere toewijzingen die moeten worden ingeschakeld. U kunt de pagina **Twee keer wegschrijven** in Finance and Operations-apps gebruiken om de entiteiten te selecteren of de selectie te annuleren tijdens de initiële synchronisatie.
-
-In de meest recente versie van de functie voor twee keer wegschrijven kunt u ook slechts enkele entiteiten inschakelen en worden de afhankelijkheden voor u afgehandeld.
+In dit onderwerp wordt de volgorde van synchronisatie aangegeven die u moet volgen om de eerste gegevens te maken als u geen gebruikmaakt van de entiteitafhankelijkheden die worden geleverd door de functie **initiële synchronisatie**. Als u geen **initiële synchronisatie** gebruikt, moet u elke entiteitstoewijzing afzonderlijk uitvoeren.
 
 ## <a name="dynamics-365-supply-chain-management-entities"></a>Dynamics 365 Supply Chain Management-entiteiten
 

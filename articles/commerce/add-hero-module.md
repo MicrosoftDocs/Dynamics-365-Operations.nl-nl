@@ -3,7 +3,7 @@ title: Inhoudsblokmodule
 description: In dit onderwerp wordt beschreven wat inhoudsblokmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f91de93ce5ed4813f9f2adbe7678229189b5af2f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025753"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269677"
 ---
 # <a name="content-block-module"></a>Inhoudsblokmodule
 
@@ -81,8 +81,8 @@ Voer de volgende stappen uit om een heldmodule aan een nieuwe pagina toe te voeg
 
 1. Ga naar **Sjablonen** en maak een paginasjabloon met de naam **Inhoudsbloksjabloon**.
 1. Voeg in het **hoofdvak** van de standaardpagina een heldmodule toe.
-1. Check de sjabloon in en publiceer deze.
-1. Gebruik de hero-sjabloon die u zojuist hebt gemaakt om een pagina met de naam **Containerblokpagina** te maken.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
+1. Gebruik de hero-sjabloon die u zojuist hebt gemaakt om een pagina met de naam **Inhoudsblokpagina** te maken.
 1. Selecteer in het vak **Hoofd** van de standaardpagina de knop met het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** onder **Modules selecteren** een heldmodule en selecteer vervolgens **OK.**
 1. Selecteer in de overzichtsstructuur aan de linkerkant de inhoudsblokmodule.
@@ -93,14 +93,14 @@ Voer de volgende stappen uit om een heldmodule aan een nieuwe pagina toe te voeg
 1. Selecteer **Koppeling toevoegen**.
 1. Voeg in het dialoogvenster **Koppeling** de koppelingstekst, een koppelings-URL en een ARIA-label voor de koppeling toe en selecteer vervolgens **OK**.
 1. Selecteer de **Hero**-indeling.
-1. Sla de pagina op en bekijk uw wijzigingen.
-1. Check de pagina in en publiceer deze.
+1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken.
+1. Selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren. 
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht starterskit](starter-kit-overview.md)
 
-[Promospandoekmodule](add-alert.md)
+[Promotiebanner-module](add-alert.md)
 
 [Carrouselmodule](add-carousel.md)
 

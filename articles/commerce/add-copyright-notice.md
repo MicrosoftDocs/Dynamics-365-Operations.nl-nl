@@ -3,7 +3,7 @@ title: Een auteursrechtmelding toevoegen
 description: In dit onderwerp wordt beschreven hoe u copyrightgegevens kunt toevoegen aan uw e-commerce-website.
 author: psimolin
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025477"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269585"
 ---
 # <a name="add-a-copyright-notice"></a>Een auteursrechtmelding toevoegen
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,12 +50,12 @@ Voer de volgende stappen uit om copyrightgegevens toe te voegen onder aan elke p
 1. Selecteer in het dialoogvenster **Tekstblok** en selecteer vervolgens **OK**.
 1. Selecteer **Tekstblok**in het navigatievenster.
 1. Voeg in het deelvenster Eigenschappen rechts in het veld **Alinea** het copyrightbericht toe. Voer bijvoorbeeld **(C) Fabrikam 2019** in.
-1. Selecteer **Opslaan**, **Inchecken** en vervolgens **Publiceren**.
-1. Ga naar **Sjablonen**, selecteer de sjabloon en selecteer **Uitchecken**.
+1. Selecteer **Opslaan**, **Bewerken voltooien** en vervolgens **Publiceren**.
+1. Ga naar **Sjablonen**, selecteer de sjabloon en selecteer **Bewerken**.
 1. Vouw onder **Paginaoverzicht** **Hoofdtekst** uit en vouw vervolgens **Standaardpagina** uit.
 1. Selecteer de knop met het weglatingsteken voor het vak **Voettekst** en selecteer **Fragment toevoegen**.
 1. Selecteer het fragment dat u eerder hebt gemaakt en dan **Selecteren.**
-1. Check de sjabloon in en publiceer deze.
+1. Selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 
 De voettekst die de copyrightgegevens bevat, wordt automatisch weergegeven onder aan alle pagina's die de geselecteerde sjabloon gebruiken.
 

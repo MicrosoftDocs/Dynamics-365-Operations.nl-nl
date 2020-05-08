@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207828"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281504"
 ---
 # <a name="purchase-requisition-workflow"></a>Werkstroom voor opdrachten tot inkoop
 
@@ -85,6 +85,9 @@ In dit voorbeeld omvat het workflowproces voor de regels in de opdracht tot inko
 3.  De lijnmanager van de aanvrager controleert de regels in de opdracht tot inkoop en keurt deze goed. De goedkeuring kan naar de manager van de aanvrager worden gerouteerd als het bedrag op een regel in de opdracht tot inkoop de uitgavenlimiet van de aanvrager voor regels in een opdracht tot inkoop overschrijdt. De manager kan een van de of beide regels in de opdracht tot inkoop goedkeuren of afwijzen.
 4.  De afdelingsmanager voor de marketingafdeling controleert de regels in de opdracht tot inkoop voor zowel de posters als de t-shirts. De afdelingsmanager voor de verkoopafdeling controleert de regel in de opdracht tot inkoop alleen voor de posters, omdat dit de enige kost is die aan de verkoopafdeling wordt toegerekend.
 5.  De regel in de opdracht tot inkoop voor de t-shirts wordt alleen door de groepsmanager gecontroleerd en goedgekeurd als goedkeuring van de groepsmanager vereist is, bijvoorbeeld als het bedrag op de regel in de opdracht tot regel de goedkeuringslimiet van de afdelingsmanager overschrijdt. De groepmanager hoeft de regel in de opdracht tot inkoop voor de posters niet goed te keuren.
+
+> [!NOTE]
+> De systeemvaluta moet worden ingesteld als de koptekstworkflow voor een opdracht tot inkoop goedkeuringen vereist die zijn gerelateerd aan ondertekeningslimieten.
 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Een workflow voor opdrachten tot inkoop configureren
 Om een opdracht tot inkoop ter controle te routeren, moet u de workflowprocessen voor de opdracht tot inkoop configureren. Het workflowproces dat u definieert, controleert de interactie tussen de gebruiker die de artikelen heeft aangevraagd (de aanvrager) en de controleur en goedkeurder in de workflow. De route van de opdracht tot inkoop is afhankelijk van de voorwaarden die in de workflowconfiguratie zijn opgegeven. Bijvoorbeeld: deze voorwaarden definiëren wanneer de opdracht tot inkoop moet worden doorgestuurd, de gebruiker of rol waarnaar het moet worden doorgestuurd, en de acties die gebruikers kunnen uitvoeren.  

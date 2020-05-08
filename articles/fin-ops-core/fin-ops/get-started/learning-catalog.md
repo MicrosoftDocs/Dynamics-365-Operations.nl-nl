@@ -3,20 +3,20 @@ title: Trainingscatalogus voor Finance and Operations
 description: Zoek alle trainingsopties voor Finance and Operations.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3077988"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278956"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>Trainingscatalogus voor Finance and Operations
 
@@ -33,6 +33,10 @@ Zoek de juiste online training, persoonlijk workshops en evenementen voor uw rol
     Beslist u of u investeert in nieuwe technologieën? 
 
     [Trainingscatalogus voor zakelijke en technische besluitvormers](learning-catalog-bdm.md#)
+
+    [Aan de slag](learning-catalog-bdm.md#get-started)
+
+    [Examen](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ Zoek de juiste online training, persoonlijk workshops en evenementen voor uw rol
 
     [Financieel beheer](learning-catalog-business-user.md#financial-management)
 
+    [Examen](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>Implementatieprojectmanagers
+    ### <a name="implementation-project-managers"></a>Implementatieprojectmanagers
 
     Hebt u de leiding om ervoor te zorgen dat de implementatie van uw bedrijf soepel verloopt?
 
@@ -73,6 +79,9 @@ Zoek de juiste online training, persoonlijk workshops en evenementen voor uw rol
     [Productie](learning-catalog-project-manager.md#manufacturing)
 
     [Toeleveringsbeheer](learning-catalog-project-manager.md#supply-chain-management)
+
+    [Examens](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -86,11 +95,15 @@ Zoek de juiste online training, persoonlijk workshops en evenementen voor uw rol
 
     [Basiskennis van platforms](learning-catalog-administrator.md#core-platform-knowledge)
 
+    [Kernontwikkeling](learning-catalog-administrator.md#core-development)
+
     [Migratie en upgrade](learning-catalog-administrator.md#migration-and-upgrade)
 
     [Service](learning-catalog-administrator.md#servicing)
 
     [Bezig met testen](learning-catalog-administrator.md#testing)
+
+    [Examen](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ Zoek de juiste online training, persoonlijk workshops en evenementen voor uw rol
 
     [Toeleveringsbeheer](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [Examens](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ Zoek de juiste online training, persoonlijk workshops en evenementen voor uw rol
     Is het uw verantwoordelijkheid om uw klanten te helpen de juiste oplossing te kopen? 
 
     [Trainingscatalogus voor verkoop en marketing voor Microsoft-partners](learning-catalog-partner-sales.md)
+
+    [Aan de slag](learning-catalog-partner-sales.md#get-started)
+
+    [Examen](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

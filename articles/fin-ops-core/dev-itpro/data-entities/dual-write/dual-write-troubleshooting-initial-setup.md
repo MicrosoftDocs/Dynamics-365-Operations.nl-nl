@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172663"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275436"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemen tijdens eerste installatie oplossen
 
@@ -39,7 +39,7 @@ Dit onderwerp bevat informatie voor het oplossen van problemen voor de integrati
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>U kunt een Finance and Operations-app niet koppelen met Common Data Service
 
-**Vereiste referenties om twee keer wegschrijven in te stellen:** Azure AD-tenantbeheerder
+**Vereiste rol om twee keer wegschrijven in te stellen:** systeembeheerder in Finance and Operations-apps en Common Data Service.
 
 Fouten op de pagina **Koppeling instellen met Common Data Service** worden meestal veroorzaakt door problemen met onvolledige instellingen of machtigingen. Controleer of de volledige statuscontrole is geslaagd op de pagina **Koppeling instellen met Common Data Service**, zoals wordt weergegeven in de volgende afbeelding. U kunt twee keer wegschrijven niet koppelen, tenzij de hele statuscontrole is geslaagd.
 

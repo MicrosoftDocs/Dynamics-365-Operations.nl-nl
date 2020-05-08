@@ -22,32 +22,6 @@
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (februari 2020)
                   href: get-started/whats-new-platform-update-32.md
-                - name: Platform update 31 (januari 2020)
-                  href: get-started/whats-new-platform-update-31.md
-                - name: Platform update 30 (november 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: Platform update 29 (oktober 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: Platform update 28 (juli 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: Platform update 27 (juni 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: Platform update 26 (mei 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: Platform update 25 (april 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: Platform update 24 (maart 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: Platform update 23 (januari 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: Platform update 22 (december 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: Platform update 21 (november 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: Platform update 20 (september 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: Platform update 15 (maart 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Verwijderde of afgeschafte Platform-functies
@@ -104,6 +78,8 @@
               href: dev-tools/exclude-test-packages.md
             - name: Modellen van derden en runtime-pakketten beheren met bronbeheer
               href: dev-tools/manage-runtime-packages.md
+            - name: Alles-in-één implementeerbare pakketten
+              href: dev-tools/aio-deployable-packages.md
             - name: Modelversies bijwerken in de geautomatiseerde build
               href: dev-tools/version-models-build.md
         - name: Gegevensintegratie
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: On-premises implementaties opnieuw implementeren
                       href: deployment/redeploy-on-prem.md
-                    - name: Een AOS-knooppunt verwijderen en opnieuw installeren
+                    - name: 'Een AOS-knooppunt verwijderen en opnieuw installeren, of toevoegen'
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Hetzelfde AD FS-exemplaar hergebruiken voor meerdere omgevingen
                       href: deployment/onprem-reuseadfs.md

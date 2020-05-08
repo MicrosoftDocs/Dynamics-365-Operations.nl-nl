@@ -3,7 +3,7 @@ title: Een pagina met het privacybeleid toevoegen
 description: In dit onderwerp wordt beschreven hoe u een pagina met het privacybeleid toevoegt in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ee9a68f46c91299065732e5f65479906f9e06079
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 59a2d9712a73c607cf5521f8e79e8e2558854fc4
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001318"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274206"
 ---
 # <a name="add-a-privacy-policy-page"></a>Een pagina met het privacybeleid toevoegen
 
@@ -54,23 +54,20 @@ Ga om te beginnen in de ontwerphulpmiddelen naar de site waarvoor u een privacyb
 
 Volg deze stappen om een sjabloon te maken.
 
-1. Ga naar **Sjablonen \> NIeuwe sjabloon**.
-1. Voer de sjabloonnaam in en selecteer vervolgens **OK**.
-1. Voeg in de sjabloon alle vereiste modules toe aan de vereiste paginavakken. Beweeg de muisaanwijzer over de rode uitroeptekens voor hulp.
-
-    Het vak **HTML-kop** kan bijvoorbeeld een module **Standaard extern script** vereisen.
-
+1. Ga naar **Sjablonen** en selecteer **Nieuw** om een paginasjabloon te maken.
+1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **Sjabloon voor promobanner** in en selecteer vervolgens **OK**.
+1. Voeg in de sjabloon alle vereiste modules toe aan de vereiste paginavakken. Beweeg de muisaanwijzer over de rode uitroeptekens voor hulp. (Het vak **HTML-kop** kan bijvoorbeeld een module **Standaard extern script** vereisen.)
 1. Voeg in het vak **Hoofdtekst** een module **Standaardpagina** toe.
 1. Voeg in de module **Standaardpagina** in het vak **Hoofdonderdeel** een module **Blok met uitgebreide inhoud** toe.
 1. Voeg in de module **Blok met uitgebreide inhoud** een module **Blokitem met uitgebreide inhoud** toe.
-1. Check de sjabloon in en publiceer deze.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 
 ### <a name="build-a-privacy-policy-page"></a>Een privacybeleidspagina maken
 
 Ga als volgt te werk om een privacybeleidspagina te maken.
 
-1. Ga naar **Pagina's \> Nieuwe pagina**.
-1. Selecteer de sjabloon voor de privacybeleidspagina.
+1. Ga naar **Pagina's** en selecteer **Nieuw** om een pagina te maken.
+1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de sjabloon voor de privacybeleidpagina.
 1. Voer een paginanaam en -URL in en selecteer vervolgens **OK**. 
 1. Voeg in het vak **Hoofdonderdeel** van de pagina een module **Blok met uitgebreide inhoud** toe.
 1. Voeg in de module **Blok met uitgebreide inhoud** een module **Blokitem met uitgebreide inhoud** toe.
@@ -78,12 +75,12 @@ Ga als volgt te werk om een privacybeleidspagina te maken.
 1. Voer in de RTF-editor de inhoud voor de privacybeleidspagina in. Vouw de RTF-editor desgewenst uit naar het volledige scherm.
 1. Wanneer u klaar bent met het invoeren van inhoud, selecteert u **Voorbeeld** om de pagina in de webbrowser te bekijken.
 1. Voltooi alle resterende toevoegingen aan de pagina- en module-eigenschappen.
-1. Check de privacybeleidspagina in en publiceer deze.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
 
 Volg deze stappen om de URL voor de privacybeleidspagina te publiceren.
 
 1. Ga naar **URL's** en selecteer de URL voor de privacybeleidspagina.
-1. Publiceer de geselecteerde URL.
+1. Selecteer **Publiceren** om de geselecteerde URL te publiceren.
 
 ### <a name="create-a-link-to-the-privacy-policy-page-in-a-footer"></a>Een koppeling naar de privacybeleidspagina maken in een voettekst
 
@@ -91,15 +88,14 @@ U kunt aan een fragment een koppeling naar de privacybeleidspagina toevoegen. Op
 
 Ga als volgt te werk om een koppeling aan een voettekstfragment toe te voegen.
 
-1. Ga naar **Paginafragmenten \> Nieuw paginafragment**.
-1. Selecteer de module **Voettekst** en voer een naam in het veld **Naam van paginafragment** in.
+1. Ga naar **Paginafragmenten** en selecteer **Nieuw** om een paginafragment te maken.
+1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Voettekst**.
+1. Voer onder **Naam paginafragment** een naam in voor het fragment en selecteer **OK**.
 1. Voeg in het vak **Voettekstcategorie** een module **Voettekstitem** toe.
 1. Selecteer **Koppelingstekst** in het eigenschappenvenster aan de rechterkant.
 1. Voer in het dialoogvenster **Koppelingstekst** de koppelingstekst en het koppelingsdoel van de privacybeleidspagina in en klik op **OK**.
-
-    Voor de URL van de privacybeleidspagina gaat u naar **Pagina's**, naar de privacybeleidspagina en kopieert u de URL vanuit het deelvenster Eigenschappen.
-
-1. Sla het fragment op, check het in en publiceer het.
+1. Voor de URL van de privacybeleidspagina gaat u naar **Pagina's**, naar de privacybeleidspagina en kopieert u de URL vanuit het deelvenster Eigenschappen.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om het fragment te controleren en selecteer **Publiceren** om het te publiceren.
 1. Bekijk het fragment en test de koppeling naar de privacybeleidspagina.
 
 Naar het fragment kan nu worden verwezen in de sjabloon voor andere sitepagina's. Wanneer naar dit fragment wordt verwezen in de module **Voettekst** van een sjabloon, wordt de koppelingsverwijzing weergegeven op alle pagina's die zijn gemaakt met behulp van die sjabloon.
@@ -108,6 +104,8 @@ Naar het fragment kan nu worden verwezen in de sjabloon voor andere sitepagina's
 
 [Conformiteitsoverzicht](compliance-overview.md)
 
-[Toegankelijkheidsfuncties en -mogelijkheden](accessibility.md)
+[Toegankelijksfuncties en -voorzieningen](accessibility.md)
 
 [Conformiteit van cookie](cookie-compliance.md)
+
+[Gebruikers-id's vervangen die zijn gekoppeld aan wijzigingen in bijgehouden inhoud](replace-IDs-tracked-changes.md)
