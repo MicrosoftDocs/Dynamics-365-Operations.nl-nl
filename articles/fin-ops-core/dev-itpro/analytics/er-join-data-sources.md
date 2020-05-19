@@ -3,7 +3,7 @@ title: JOIN-gegevensbronnen gebruiken in ER-modeltoewijzingen om gegevens uit me
 description: In dit onderwerp wordt uitgelegd hoe u gegevensbronnen van het type JOIN kunt gebruiken in elektronische rapportage (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667949"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332317"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>JOIN-gegevensbronnen gebruiken om gegevens uit meerdere toepassingstabellen op te halen in ER-modeltoewijzingen (elektronische rapportage)
 
@@ -140,7 +140,7 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
 7.  Sluit de pagina.
 
-### <a name="review"></a> ER-modeltoewijzing controleren (deel 2)
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> ER-modeltoewijzing controleren (deel 2)
 
 Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderdeel is geconfigureerd om toegang te krijgen tot informatie over versies van ER-configuraties, details van configuraties en configuratieproviders door een gegevensbron van het type **Join** te gebruiken.
 
@@ -185,7 +185,7 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 9.  Sluit de pagina.
 10. Selecteer **Annuleren**.
 
-### <a name="executeERformat"></a> ER-indeling uitvoeren
+### <a name="execute-er-format"></a><a name="executeERformat"></a> ER-indeling uitvoeren
 
 1.  Open Finance of RCS in de tweede sessie van uw webbrowser met dezelfde referenties en hetzelfde bedrijf als bij de eerste sessie.
 2.  Ga naar **Organisatiebeheer \> Elektronische rapportage \> Configuraties**.
@@ -240,7 +240,7 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
     ![Pagina met ER-gebruikersdialoog](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a> Uitvoeringstracering van ER-indeling analyseren
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Uitvoeringstracering van ER-indeling analyseren
 
 1.  Selecteer **Ontwerper** in de eerste sessie van Finance of RCS.
 2.  Selecteer **Prestatietracering**.
@@ -257,7 +257,34 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
     ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-Set2Run3.PNG)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="limitations"></a>Beperkingen
+
+Zoals u kunt zien in het voorbeeld in dit onderwerp, kan de **JOIN**-gegevens bron worden opgebouwd uit verschillende gegevensbronnen waarin de afzonderlijke gegevenssets worden beschreven van de records die uiteindelijk moeten worden gekoppeld. U kunt deze gegevensbronnen configureren met de ingebouwde ER [FILTER](er-functions-list-filter.md)-functie. Wanneer u de gegevensbron zo configureert dat deze buiten de **JOIN**-gegevensbron wordt aangeroepen, kunt u bedrijfsbereikwaarden gebruiken als onderdeel van de voorwaarde voor het selecteren van gegevens. De eerste implementatie van de **JOIN**-gegevensbron biedt geen ondersteuning voor gegevensbronnen van dit type. Wanneer u bijvoorbeeld een gegevensbron op basis van een [FILTER](er-functions-list-filter.md) aanroept binnen het uitvoeringsbereik van een **JOIN**-gegevensbron, wordt een uitzondering gegenereerd als de aangeroepen gegevensbron bedrijfsreeksen bevat als onderdeel van de voorwaarde voor het selecteren van gegevens.
+
+In Microsoft Dynamics 365 Finance versie 10.0.12 (augustus 2020) kunt u bedrijfsbereikwaarden gebruiken als onderdeel van de voorwaarde voor gegevensselectie in op [FILTER](er-functions-list-filter.md) gebaseerde gegevensbronnen die worden aangeroepen binnen het uitvoeringsbereik van een **JOIN**-gegevensbron. Vanwege de beperkingen van de opbouwfunctie voor toepassings[query's](../dev-ref/xpp-library-objects.md#query-object-model), worden de bedrijfsbereikwaarden alleen ondersteund voor de eerste gegevensbron van een **JOIN**-gegevensbron.
+
+### <a name="example"></a>Voorbeeld
+
+U moet bijvoorbeeld één aanroep naar de toepassingsdatabase uitvoeren om de lijst met buitenlandse handelstransacties van meerdere bedrijven weer te geven, en de details van het voorraadartikel waarnaar wordt verwezen in die transacties.
+
+In dit geval configureert u de volgende artefacten in uw ER-modeltoewijzing:
+
+- **Intrastat**-hoofdgegevensbron die de **Intrastat**-tabel vertegenwoordigt.
+- **Items**-hoofdgegevensbron die de **InventTable**-tabel vertegenwoordigt.
+- Hoofdgegevensbron van **bedrijven** met als retourwaarde de lijst met bedrijven (**DEMF** en **GBSI** in dit voorbeeld) waar transacties moeten worden geopend. De bedrijfscode is beschikbaar via het veld **Companies.Code**.
+- **X1**-hoofdgegevensbron met de expressie `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))`. Als onderdeel van de voorwaarde voor het selecteren van gegevens bevat deze expressie de definitie van het bedrijfsbereik `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)`.
+- **X2**-gegevensbron als een genest item van de **X1**-gegevensbron. Deze bevat de expressie `FILTER (Items, Items.ItemId = X1.ItemId)`.
+
+Tot slot kunt u een **JOIN**-gegevensbron configureren waarbij **X1** de eerste gegevensbron is en **X2** de tweede gegevensbron. U kunt **Query** opgeven als de optie voor **Uitvoeren** zodat ER deze gegevensbron op databaseniveau uitvoert als een directe SQL-aanroep.
+
+Wanneer de geconfigureerde gegevensbron wordt uitgevoerd terwijl de ER-uitvoering wordt [getraceerd](trace-execution-er-troubleshoot-perf.md), wordt de volgende instructie weergegeven in de ontwerper voor ER-modeltoewijzingen als onderdeel van de prestatietracering.
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> Er treedt een fout op als u een **JOIN**-gegevensbron uitvoert die zo is geconfigureerd dat deze gegevensselectievoorwaarden bevat met bedrijfsbereiken voor extra gegevensbronnen van de uitgevoerde **JOIN**-gegevensbron.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 

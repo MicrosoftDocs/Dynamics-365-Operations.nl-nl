@@ -3,7 +3,7 @@ title: Aan de slag met Planningsoptimalisatie
 description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met de functionaliteit Planningsoptimalisatie.
 author: ChristianRytt
 manager: tfehr
-ms.date: 02/10/2020
+ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4f9124e824a0b6d5035b2567cb19c2c494390d55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ce1bbb18e9a448e84d001a4195421d2b0e4af5be
+ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213510"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339873"
 ---
 # <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 De functie Planningsoptimalisatie ondersteunt momenteel niet alle functies die beschikbaar zijn in de planningsengine die is ingebouwd in Microsoft Dynamics 365 Supply Chain Management. Het is daarom belangrijk dat u evalueert of de functieset die momenteel beschikbaar is in Planningsoptimalisatie voldoet aan uw behoeften. Standaard is de functionaliteit Planningsoptimalisatie niet ingeschakeld in Dynamics Lifecycle Services (LCS). Daarom hebt u de mogelijkheid om uw beoordeling uit te voeren voordat deze is ingeschakeld.
@@ -36,6 +35,11 @@ De functie Planningsoptimalisatie ondersteunt momenteel niet alle functies die b
 Uiteindelijk vervangt Planningsoptimalisatie de bestaande ingebouwde Supply Chain Management-planningsengine.
 
 Voordat u Planningsoptimalisatie inschakelt, kunt u het beste de resultaten van de analyse voor passende Planningsoptimalisatie evalueren. Zie [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md) voor meer informatie.
+
+### <a name="availability"></a>Beschikbaarheid
+Planningsoptimalisatie is momenteel beschikbaar in de volgende Azure-regio's: Verenigde Staten, Canada, Europa, Verenigd Koninkrijk en Australië. Als u de invoegtoepassing vanuit een andere geografische regio probeert te installeren, wordt in LCS een bericht weergegeven dat deze niet wordt ondersteund.
+
+Planningsoptimalisatie wordt niet ondersteund voor on-premises implementaties van Dynamics 365 Supply Chain Management.
 
 ### <a name="licensing"></a>Licenties
 
@@ -46,7 +50,7 @@ Als u de hoofdplanning kunt uitvoeren met uw huidige licentie, hoeft u geen extr
 Als u Planningsoptimalisatie wilt gebruiken, moet u de invoegtoepassing Planningsoptimalisatie voor Dynamics 365 Supply Chain Management gebruiken. U kunt de invoegtoepassing openen vanuit uw LCS-project en de functie Planningsoptimalisatie inschakelen via de gebruikersinterface van Supply Chain Management.
 
 > [!NOTE]
-> De vereiste voor Planningsoptimalisatie is een omgeving met grote beschikbaarheid voor LCS (geen OneBox-omgeving), met Dynamics 365 Supply Chain Management versie 10.0.7 of hoger.
+> De vereiste voor Planningsoptimalisatie is een omgeving met grote beschikbaarheid voor LCS, tier 2 of hoger (geen OneBox-omgeving), met Dynamics 365 Supply Chain Management versie 10.0.7 of hoger. Als u de invoegtoepassing in een OneBox-omgeving probeert te installeren, wordt de installatie niet voltooid en moet u de installatie annuleren.
 
 1. Meld u aan bij LCS en open de gewenste omgeving.
 1. Ga naar **Volledige details**.
@@ -88,7 +92,7 @@ De instelling van de optie **Planningsoptimalisatie gebruiken** bepaalt welke pl
 
 Als de Planningsoptimalisatie is ingeschakeld, wordt de hoofdplanning uitgevoerd met behulp van de invoegtoepassing Planningsoptimalisatie. In dit geval worden de resultaten en functies van de hoofdplanning beïnvloed.
 
-## <a name="related-resources"></a>Gerelateerde bronnen
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Algemene voorwaarden voor de preview](https://go.microsoft.com/fwlink/?linkid=2015274)
 

@@ -1,9 +1,9 @@
 ---
 title: Gebruikers aan beveiligingsrollen toewijzen
 description: Voor toegang tot Finance and Operations-apps moeten gebruikers zijn toegewezen aan beveiligingsrollen.
-author: ChrisGarty
+author: Peakerbl
 manager: AnnBe
-ms.date: 11/14/2019
+ms.date: 05/06/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,28 +16,29 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0744f45ac91dfb9b5aae35091e3675202c9144f9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f0421ad6c932f2c91de51169bda6c98f53d3bc65
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143535"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346440"
 ---
 # <a name="assign-users-to-security-roles"></a>Gebruikers aan beveiligingsrollen toewijzen
 
 [!include [banner](../../includes/banner.md)]
 
-Als u andere dan algemene mogelijkheden wilt gebruiken, moeten gebruikers aan beveiligingsrollen worden toegewezen. In deze procedure wordt beschreven hoe systeembeheerders gebruikers automatisch aan rollen kunnen toewijzen op basis van bedrijfsgegevens. 
+Als u andere dan algemene mogelijkheden in Finance and Operations-apps wilt gebruiken, moeten gebruikers aan beveiligingsrollen worden toegewezen. U kunt gebruikers automatisch aan rollen toewijzen op basis van regels en zakelijke gegevens, gebruikers uitsluiten van automatische roltoewijzing of gebruikers handmatig aan rollen toevoegen.
 
 ## <a name="automatically-assign-users-to-roles"></a>Gebruikers automatisch aan rollen toewijzen
+In deze procedure wordt beschreven hoe systeembeheerders gebruikers automatisch aan rollen kunnen toewijzen op basis van bedrijfsgegevens. 
 1. Ga naar **Navigatievenster >Modules > Systeembeheer > Beveiliging > Gebruikers aan rollen toewijzen**.
 2. Selecteer Supervisor boekhouding in de structuur. Selecteer de rol waarvoor u de regel wilt configureren Selecteer voor dit voorbeeld Supervisor boekhouding. 
-3. Klik op **Regel toevoegen** om het dialoogvenster voor beëindigen te openen.
+3. Klik op **Regel toevoegen** om het dialoogmenu te openen.
 4. Zoek en selecteer de gewenste record in de lijst **Selecteer een query**. Selecteer de query die u voor deze regel wilt gebruiken.  
 5. Klik in de lijst **Regelnaam lidmaatschap** op de koppeling in de geselecteerde rij.
-6. Klik op **Query bewerken**. Bewerk de query indien nodig.  
-7. Klik op **OK**.
-8. Klik op **Automatische roltoewijzing uitvoeren**.
+6. Selecteer **Query bewerken**. Bewerk de query indien nodig.  
+7. Selecteer **OK**.
+8. Selecteer **Automatische roltoewijzing uitvoeren**.
 9. Ga naar **Navigatiedeelvenster > modules > Systeembeheer > Gebruikers > Gebruikers** (in het ideale geval op een afzonderlijk tabblad van de browser).
 10. Controleer de rollen die aan verschillende gebruikers zijn toegewezen om te bevestigen dat de query voor roltoewijzing juist is. Pas aan en voer opnieuw uit, indien nodig.
 
@@ -48,5 +49,12 @@ Als u andere dan algemene mogelijkheden wilt gebruiken, moeten gebruikers aan be
 4. Selecteer in het menu **Gebruikers die aan rol zijn toegewezen** de optie **Gebruikers handmatig toewijzen / uitsluiten**.
 5. Markeer in de geselecteerde rij in de lijst **Gebruikers toewijzen aan of uitsluiten voor rol**. Selecteer een gebruiker.  
 6. Selecteer **Uitsluiten voor rol** in het **actievenster**.
-    
-    Klik op **Uitsluiten voor rol** om de geselecteerde gebruikers voor de rol uit te sluiten. Om uitsluitingen te verwijderen, selecteert u de gebruikers voor wie u uitsluitingen wilt verwijderen. Vervolgens klikt u op **Status opnieuw instellen**. Wanneer u een uitsluiting verwijdert door de status van de gebruiker opnieuw in te stellen, wordt de rol van de gebruiker automatisch opnieuw toegewezen. De gebruiker wordt echter niet onmiddellijk aan de rol toegewezen of van de rol uitgesloten wanneer u de status opnieuw instelt. In plaats daarvan wordt de gebruiker de volgende keer dat de regels voor automatische roltoewijzing worden uitgevoerd, aan de rol toegewezen of van de rol verwijderd.  
+7. Selecteer **Uitsluiten voor rol** om de geselecteerde gebruikers voor de rol uit te sluiten. Om uitsluitingen te verwijderen, selecteert u de gebruikers voor wie u uitsluitingen wilt verwijderen. Vervolgens klikt u op **Status opnieuw instellen**. Wanneer u een uitsluiting verwijdert door de status van de gebruiker opnieuw in te stellen, wordt de rol van de gebruiker automatisch toegewezen. De gebruiker wordt echter niet onmiddellijk aan de rol toegewezen of van de rol uitgesloten wanneer u de status opnieuw instelt. In plaats daarvan wordt de gebruiker de volgende keer dat de regels voor automatische roltoewijzing worden uitgevoerd, aan de rol toegewezen of van de rol verwijderd.  
+
+## <a name="manually-assign-users-to-roles"></a>Gebruikers handmatig aan rollen toewijzen
+Gebruikers die handmatig aan beveiligingsrollen zijn toegewezen, moeten ook handmatig door de beheerder worden verwijderd. Deze gebruikers worden niet verwijderd via regels voor automatische roltoewijzing.
+
+1. Ga naar **Navigatievenster >Modules > Systeembeheer > Beveiliging > Gebruikers aan rollen toewijzen**.
+2. Selecteer een rol in de structuur en in het menu **Gebruikers die aan rol zijn toegewezen** de optie **Gebruikers handmatig toewijzen/uitsluiten**.
+4. In **Gebruikers toewijzen aan of uitsluiten van rol** worden gebruikers aan wie de rol niet is toegewezen, weergegeven en wordt de **Toewijzingsmodus** ingesteld op **Geen**. Selecteer een of meer gebruikers waaraan u de rol wilt toewijzen.
+5. Selecteer **Toewijzen aan rol** in het **actievenster**. De **Toewijzingsmodus** wordt bijgewerkt naar **Handmatig** en aan de gebruikers wordt nu een nieuwe rol toegewezen.

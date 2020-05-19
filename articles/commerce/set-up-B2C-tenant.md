@@ -3,7 +3,7 @@ title: Een B2C-tenant instellen in Commerce
 description: In dit onderwerp wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 04/17 /2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
-ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
+ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270205"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295264"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Een B2C-tenant instellen in Commerce
 
@@ -87,7 +87,7 @@ Ga als volgt te werk om de B2C-toepassing te maken:
 
 ### <a name="reply-urls"></a>Antwoord-URL's
 
-Antwoord-URL's zijn belangrijk omdat ze een witte lijst van de retourdomeinen toestaan wanneer uw site Azure AD B2C aanroept om een gebruiker te verifiëren. Hierdoor kan de geverifieerde gebruiker worden geretourneerd naar het domein waarbij ze zich aanmelden (uw sitedomein). 
+Antwoord-URL's zijn belangrijk omdat ze een toegestane lijst van de retourdomeinen leveren wanneer uw site Azure AD B2C aanroept om een gebruiker te verifiëren. Hierdoor kan de geverifieerde gebruiker worden geretourneerd naar het domein waarbij ze zich aanmelden (uw sitedomein). 
 
 In het **Antwoord-URL** in het scherm **Azure AD B2C -Toepassingen \> Nieuwe toepassing** moet u afzonderlijke regels toevoegen voor uw sitedomein en (zodra uw omgeving is ingericht) de door Commerce gegenereerde URL. Deze URL's moeten altijd een geldige URL-indeling gebruiken en mogen alleen basis-URL's (geen navolgende slashes of paden) zijn. De tekenreeks ``/_msdyn365/authresp`` moet vervolgens worden toegevoegd aan de basis-URL's, zoals in de volgende voorbeelden.
 
@@ -121,7 +121,7 @@ Voer de volgende stappen uit om een gebruikersstroombeleid voor registreren en a
 
     | **Kenmerk verzamelen** | **Claim retourneren** |
     | ---------------------- | ----------------- |
-    |                        | E-mailadressen   |
+    | E-mailadres          | E-mailadressen   |
     | Voornaam             | Voornaam        |
     |                        | Identiteitsprovider |
     | Achternaam                | Achternaam           |
@@ -246,10 +246,6 @@ Voer de volgende stappen uit Headquarters bij te werken met de nieuwe Azure AD B
     1. Typ **Openbaar** in het vak **Type**.
     1. Typ **Klant** in het vak **Gebruikerstype**.
 1. Selecteer **Opslaan** in het actievenster.
-1. Zoek in het Commerce-zoekvak naar **Nummerreeksen** (Organisatiebeheer > Nummerreeksen).
-1. Selecteer onder het actievenster de optie **Bewerken** onder **Onderhouden**.
-1. Selecteer op het sneltabblad **Algemeen** de optie **Nee** voor **Handmatig**.
-1. Selecteer **Opslaan** in het actievenster. 
 1. Zoek in het Commerce-zoekvak naar **Distributieplanning**.
 1. Selecteer in het linkernavigatiemenu van de pagina **Distributieplanningen** de taak **1110 Algemene configuratie**.
 1. Selecteer **Nu uitvoeren** in het actievenster.
@@ -304,13 +300,14 @@ Ga als volgt te werk om uw toepassingsgegevens voor AAD B2C-tenants toe te voege
 1. Voer de volgende vereiste items in het weergegeven formulier in met waarden uit uw B2C-tenant en -toepassing. Velden die niet vereist zijn (zonder sterretje) kunnen leeg worden gelaten.
 
     - **Toepassingsnaam**: de naam voor uw B2C-toepassing, bijvoorbeeld Fabrikam B2C.
-    - **Tenantnaam**: de naam van uw B2C-tenant, bijvoorbeeld Fabrikam.
+    - **Tenantnaam**: de naam van uw B2C-tenant (gebruik bijvoorbeeld "fabrikam" als het domein wordt weergegeven als "fabrikam.onmicrosoft.com" voor de B2C-tenant). 
     - **Id beleid voor vergeten wachtwoorden**: de id van het beleid voor de gebruikersstroom voor vergeten wachtwoorden, bijvoorbeeld B2C_1_PasswordReset.
     - **Beleids-id voor aanmelden registreren**: de beleids-id voor registreren en aanmelden, bijvoorbeeld B2C_1_signup_signin.
     - **Client-GUID**: de B2C-toepassings-id, bijvoorbeeld 22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6.
     - **Profielbeleid-id bewerken**: de beleids-id voor het bewerken van gebruikersprofielen, bijvoorbeeld B2C_1A_ProfileEdit.
 
 1. Selecteer **OK**. De naam van de B2C-toepassing wordt nu weergegeven in de lijst.
+1. Klik op **Opslaan** om uw wijzigingen op te slaan.
 
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>De B2C-toepassing koppelen aan uw site en kanaal
 

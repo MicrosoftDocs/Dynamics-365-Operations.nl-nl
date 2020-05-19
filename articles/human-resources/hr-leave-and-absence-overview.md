@@ -3,7 +3,7 @@ title: Overzicht
 description: In Dynamics 365 Human Resources biedt het werkgebied Verlof en verzuim een flexibel raamwerk voor het maken van nieuwe verlofplannen, workflows voor het beheren van aanvragen en een intuïtieve selfservicepagina voor werknemers om verlof aan te vragen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
-ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
+ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
+ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/04/2020
-ms.locfileid: "3226225"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3325760"
 ---
 # <a name="overview"></a>Overzicht
 
@@ -78,8 +78,16 @@ U kunt geen **Afrondingsprecisie** instellen wanneer u het **Afrondingstype** in
 
 ## <a name="leave-and-absence-preview-features"></a>Preview-functies voor verlof en verzuim
 
-U kunt nieuwe preview-functies voor Verlof en verzuim uitproberen in een **sandbox**-omgeving. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van preview-functies. De preview-functies omvatten:
+U kunt nieuwe preview-functies voor Verlof en verzuim uitproberen in een **sandbox**-omgeving. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van preview-functies. 
 
-- **Verlof opschorten**: u kunt verlof en verzuim in Human Resources opschorten voor een werknemer. Als u het verlof opschort, wordt het toegerekende verlof stopgezet voor de geselecteerde verloftypen. Als het opschorten plaatsvindt nadat een toerekening is verwerkt, wordt door het onderbreken van het verlof een evenredige correctie in het verlof van de werknemer gemaakt. 
+[!include [banner](includes/preview-feature.md)]
+
+De preview-functies omvatten:
+
+- **Verlof opschorten**: u kunt verlof en verzuim in Human Resources opschorten voor een werknemer. Als u het verlof opschort, wordt het toegerekende verlof stopgezet voor de geselecteerde verloftypen. Als het opschorten plaatsvindt nadat een toerekening is verwerkt, wordt door het onderbreken van het verlof een evenredige correctie in het verlof van de werknemer gemaakt. U kunt ook redencodes opnemen bij het onderbreken van het verlof van een werknemer. De gebruikerservaring is bijgewerkt om de schorsing aan te geven. 
 
 - **Regels voor transporteren**: u kunt een verloftype voor transporteren opgeven voor verlofsaldi waarvoor transportcorrecties worden overgeboekt. Als een werknemer bijvoorbeeld 10 dagen transporteert, kunt u voor deze 10 dagen een ander verloftype kiezen. 
+
+- **Redencode en opmerkingen voor correcties opnemen**: u kunt een redencode en een opmerking opnemen wanneer u het eindsaldo van een werknemer wijzigt. 
+
+- **Overgang naar verlof- en verzuimparameters**: u kunt nu alleen verlof- en verzuimparameters gebruiken in plaats van HR-parameters te gebruiken. 

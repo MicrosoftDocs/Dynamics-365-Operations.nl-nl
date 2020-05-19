@@ -3,7 +3,7 @@ title: Een favicon toevoegen
 description: In dit onderwerp wordt uitgelegd hoe u een favicon aan uw site toevoegt.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 287663817232e7ce86e8fdb1fb5c2fcfeed33d20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
+ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001527"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295075"
 ---
 # <a name="add-a-favicon"></a>Een favicon toevoegen
-
 
 [!include [banner](includes/banner.md)]
 
@@ -41,25 +40,50 @@ Hoewel u meerdere favicons van verschillende grootten en bestandstypen kunt toev
 
 Volg deze stappen om een favicon te uploaden naar de verzameling met assets voor uw site.
 
-1. Ga naar **Activa \> Uploaden \> Activa uploaden**.
-1. Zoek en selecteer de favicon op het lokale bestandssysteem.
-1. Voer een titel in en selecteer vervolgens **OK**. 
-1. Kopieer in het eigenschappenvenster aan de rechterkant de openbare URL van de favicon.
+1. Selecteer **Mediabibliotheek** in het navigatievenster aan de linkerkant.
+1. Selecteer **Uploaden \> Media-items uploaden** in de opdrachtbalk.
+1. Blader in de bestandsverkenner naar het favicon-afbeeldingsbestand dat u wilt uploaden, selecteer het en selecteer vervolgens **Openen**.
+1. Voer in het dialoogvenster **Media-item uploaden** de vereiste titel en alternatieve tekst in.
+1. Als u de afbeelding direct na het uploaden wilt publiceren, schakelt u het selectievakje **Media-items publiceren na uploaden** in.
 
-> [!NOTE]
-> Als u niet de optie **Activa publiceren na upload** selecteert, moet u teruggaan naar de pagina **Activa** en de favicon later handmatig publiceren.
+    > [!NOTE]
+    > Als u niet de optie **Media-items publiceren na uploaden** selecteert, moet u teruggaan naar de pagina **Media-items** en de favicon later handmatig publiceren.
 
-## <a name="create-the-html-for-the-favicon"></a>De HTML voor de favicon maken
+1. Selecteer **OK**.
+1. Kopieer in het eigenschappenvenster aan de rechterkant de openbare URL van de favicon. U gebruikt deze URL later.
 
-Gebruik het volgende HTML-fragment om de HTML voor de favicon te maken. Vervang voor het kenmerk **href** de **"Openbare\_URL\_voor\_uw\_favicon"** door de openbare URL die u eerder hebt gekopieerd.
+## <a name="create-the-html-for-your-favicon"></a>De HTML voor uw favicon maken
+
+Gebruik de volgende HTML-tekenreeks om de HTML voor de favicon te maken. Vervang voor het kenmerk **href** de **Openbare\_URL\_voor\_uw\_favicon** door de openbare URL die u eerder hebt gekopieerd.
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="add-the-html-for-the-favicon-to-the-head-element-of-your-pages"></a>De HTML voor de favicon toevoegen aan het element \<head\> van uw pagina's
+## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Een paginafragment maken dat een metatag bevat voor uw favicon
 
-Als u een favicon aan uw site wilt toevoegen, gebruikt u dezelfde procedure als wordt gebruikt om elk type HTML of script toe te voegen aan het element **\<head\>** van de sitepagina's.
+Als u een paginafragment wilt maken dat een metatag bevat voor uw favicon, voert u deze stappen uit.
 
-## <a name="additional-resources"></a>Aanvullende resources
+1. Ga naar **Paginafragmenten** en selecteer **Nieuw**.
+1. Selecteer in het dialoogvenster **Nieuw paginafragment** de optie **Metatags** als de module waarop het paginafragment is gebaseerd.
+1. Voer een naam in voor het paginafragment en klik op **OK**.
+1. Selecteer in de structuur van de fragmenthiërarchie de onderliggende waarde **Standaard metatags**.
+1. Selecteer in het rechterdeelvenster onder **Metatags** de optie **Toevoegen** en voer vervolgens de HTML-reeks in die u eerder voor de favicon hebt gemaakt. 
+1. Selecteer **Bewerken voltooien** en **Publiceren** om het paginafragment te publiceren.
+
+## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Het metatag-paginafragment toevoegen aan de HTML-kopsectie van uw pagina's
+
+Als u het metatag-paginafragment wilt toevoegen aan de HTML-**kop**sectie van uw pagina's, voert u de volgende stappen uit.
+
+1. Ga naar **Sjablonen**, open de sjabloon voor de pagina's waaraan u uw favicon wilt toevoegen en selecteer **Bewerken**.
+1. Selecteer in de sjabloonhiërarchiestructuur de knop met het weglatingsteken (**...**) rechts van de container **HTML-kop** en selecteer **Paginafragment toevoegen**.
+1. Selecteer in het dialoogvenster **Nieuw paginafragment selecteren** het metatag-paginafragment dat u eerder hebt gemaakt, voer een naam in voor het paginafragment en selecteer vervolgens **OK**.
+1. Selecteer **Bewerken voltooien** en **Publiceren** om de sjabloon te publiceren.
+
+> [!NOTE]
+> Als op uw site meerdere sjablonen worden gebruikt, moet u het metatag-paginafragment aan al deze sjablonen toevoegen.
+
+Wanneer u een voorbeeld bekijkt van pagina's die zijn gebaseerd op de sjabloon waaraan u het metatag-paginafragment hebt toegevoegd, ziet u nu de favicon op het browsertabblad.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Een logo toevoegen](add-logo.md)
 

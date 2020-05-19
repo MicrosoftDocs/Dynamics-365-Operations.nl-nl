@@ -1,9 +1,9 @@
 ---
 title: Prestatiebeoordelingen maken
-description: In dit artikel leest u hoe u een prestatiebeoordeling maakt, met een beschrijving van het doel van elke sectie van de beoordeling.
+description: In dit onderwerp leest u hoe u een prestatiebeoordeling maakt, met een beschrijving van het doel van elke sectie van de beoordeling.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2019
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 50ef3f305756f1ab0db895854cd7e1c71237cb48
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 22f3e82e7a1ebba689c1aa1ebbe75603a5c09188
+ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008618"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334678"
 ---
 # <a name="create-performance-reviews"></a>Prestatiebeoordelingen maken
 
 
-
-In dit artikel leest u hoe u een prestatiebeoordeling maakt, met een beschrijving van het doel van elke sectie van de beoordeling. Deze procedure is gemaakt met het demogegevensbedrijf USMF.
+In dit onderwerp leest u hoe u een prestatiebeoordeling maakt, met een beschrijving van het doel van elke sectie van de beoordeling. Deze procedure is gemaakt met het demogegevensbedrijf USMF.
 
 1. Selecteer op de startpagina het werkgebied **Selfservice werknemer**.
 2. Selecteer **Nieuwe beoordeling** om een nieuwe beoordeling aan te maken.
@@ -37,7 +36,7 @@ In dit artikel leest u hoe u een prestatiebeoordeling maakt, met een beschrijvin
 6. Selecteer **OK**. U kunt ook een beoordeling maken op basis van een sjabloon. Dit is de beste manier om een beoordeling te maken, omdat elke sectie de informatie bevat die nodig is om een beoordeling te starten.  
 7. U kunt tabbladen weergeven of verbergen, zoals het tabblad Bijlagen:
 
-    1. Selecteer in het actievenster **Secties weergeven** om het dialoogvenster voor beëindigen te openen.
+    1. Selecteer in het actievenster **Secties weergeven** om het dialoogvenster te openen.
     1. Selecteer **Ja** of **Nee** in het veld **Bijlagen weergeven** om het tabblad met bijlagen weer te geven of te verbergen.
     1. Selecteer **Opslaan**.
 
@@ -51,7 +50,7 @@ In dit artikel leest u hoe u een prestatiebeoordeling maakt, met een beschrijvin
 15. Selecteer **Opmerking toevoegen**.
 16. Selecteer **Boeken**.
 17. Selecteer het tabblad **Metingen**.
-18. Klik op **Meting toevoegen** om het dialoogvenster te openen.
+18. Selecteer **Meting toevoegen** om het menu te openen.
 19. Typ of selecteer een waarde in het veld **Meting**.
 26. Typ een getal in het veld **Doelbedrag**.
 20. Selecteer **OK**.
@@ -67,13 +66,13 @@ In dit artikel leest u hoe u een prestatiebeoordeling maakt, met een beschrijvin
 30. Selecteer het tabblad **Beoordelingen**.  
 
     - Met het sneltabblad **Classificeringsdetails** kunnen werknemers zichzelf een waardering geven, en kan de manager de werknemer beoordelen. Als wegingen worden gebruikt, wordt automatisch de gewogen waarde van de scores berekend.  
-    - Als u deze sectie wilt zien, schakelt u de parameterinstellingen in voor het weergeven van werknemerbeoordelingen.  
+    - Als u deze sectie wilt weergeven, schakelt u de parameterinstellingen in voor het weergeven van werknemerbeoordelingen.  
 
 31. Selecteer het tabblad **Afmeldingen**. Als de beoordeling een workflow gebruikt, worden alleen afmeldingen weergegeven nadat de workflow is doorlopen. Als geen workflow wordt gebruikt, dan worden hier zowel de werknemer als de manager vermeld. Het vereiste selectievakje is geselecteerd op basis van de instellingen van het beoordelingstype.  
 32. Selecteer het tabblad **Algemeen**.
 
     - De prestatieperiode maakt de standaarddatums voor begin en einde aan. Deze datums kunnen worden bewerkt.  
-    - De status bepalen de toegang tot de beoordeling. Bij de status **Niet gestart** kan iedereen de beoordeling bewerken. Bij de status **In uitvoering** kan alleen de werknemer de beoordeling weergeven en bewerken. Bij de status Gereed voor beoordeling kan alleen de manager de beoordeling weergeven en bewerken. Bij de status Eindbeoordeling kunnen zowel de werknemer als de manager de beoordeling weergeven. Indien dit is ingesteld in het beoordelingstype, kunnen ze hem ook bewerken. Bij de statussen **Voltooid**, **Afgewezen** en **Geannuleerd** is de beoordeling alleen-lezen.  
+    - De status bepalen de toegang tot de beoordeling. Bij de status **Niet gestart** kan iedereen de beoordeling bewerken. Bij de status **In uitvoering** kan alleen de werknemer de beoordeling weergeven en bewerken. Bij de status **Gereed voor beoordeling** kan alleen de manager de beoordeling weergeven en bewerken. Bij de status **Eindbeoordeling** kunnen zowel de werknemer als de manager de beoordeling weergeven. Indien dit is ingesteld in het beoordelingstype, kunnen ze hem ook bewerken. Bij de statussen **Voltooid** en **Geannuleerd** is de beoordeling alleen-lezen. Als een controle wordt **Afgewezen** en teruggestuurd naar de werknemer, kunnen de werknemer en de manager de nodige wijzigingen aanbrengen die de werknemer opnieuw kan indienen.
 
 33. Typ een waarde in het veld **Overzicht**.
 34. Selecteer het tabblad **Beoordeling**. Bij elke status waarin de beoordeling zich bevindt, kunnen de werknemer en de manager opmerkingen toevoegen voor iedere doelstelling of competentie.  

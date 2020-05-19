@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
+ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658615"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331367"
 ---
 # <a name="project-invoicing"></a>Projectfacturering
 
@@ -112,6 +112,9 @@ Wanneer u een artikel van een leverancier bestelt en het artikel aan een project
 
 -   Het factureren van de klant van het project voor het artikel: stel de regeleigenschap voor het artikel in op een toerekenbare waarde op de inkooporder en factureer vervolgens de klant door de juiste projectfactureringsmethode te gebruiken.
 -   Factureer niet de projectklant voor het artikel: selecteert niet de regeleigenschap **Toerekenbaar** op de inkooporderregel voor het artikel. U kunt de inkooporder vervolgens factureren en verder hoeft u niets te doen.
+
+> [!NOTE] 
+> Het vrijgeven van inhoudingsregels is standaard niet-toerekenbaar. Dit betekent dat de mogelijkheid om een factuurvoorstel te maken voor de vrijgegeven inhouding niet is ingeschakeld.
 
 ## <a name="credit-notes"></a>Creditnota's
 Als een bedrag op een klantfactuur een negatieve waarde heeft, wordt de factuur geclassificeerd als creditnota. Wanneer het document wordt afgedrukt, heeft het de titel "Creditnota". 
