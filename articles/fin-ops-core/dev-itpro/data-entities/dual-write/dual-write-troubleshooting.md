@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 8cc7c11233c745719af72222eba02fb71d7a8944
+ms.sourcegitcommit: 4edc658448612afbf1c1663c166d12e08e4c4165
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275645"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3340925"
 ---
 # <a name="general-troubleshooting"></a>Algemene problemen oplossen
 
@@ -62,14 +62,14 @@ Nadat u het hulpprogramma Package Deployer hebt geïnstalleerd, installeert u he
 
 Voer de volgende stappen uit om het traceerlogboek in te schakelen.
 
-1. Meld u aan bij de Finance and Operations-app, open de pagina **Instellingen** en selecteer vervolgens onder **Systeem** de optie **Beheer**.
+1. Meld u aan bij de modelgestuurde-app in Dynamics 365, open de pagina **Instellingen** en selecteer vervolgens onder **Systeem** de optie **Beheer**.
 2. Selecteer op de pagina **Beheer** de optie **Systeeminstellingen**.
 3. Ga naar het tabblad **Aanpassen** en selecteer in het veld **Traceren van invoegtoepassing en aangepaste werkstroomactiviteit** **Alle** om het traceerlogboek voor invoegtoepassingen in te schakelen. Als u traceerlogboeken alleen wilt vastleggen wanneer er uitzonderingen optreden, kunt u in plaats daarvan **Uitzondering** selecteren.
 
 
 Voer de volgende stappen uit om het traceerlogboek weer te geven.
 
-1. Meld u aan bij de Finance and Operations-app, open de pagina **Instellingen** en selecteer vervolgens onder **Aanpassen** de optie **Traceerlogboek invoegtoepassing**.
+1. Meld u aan bij de modelgestuurde-app in Dynamics 365, open de pagina **Instellingen** en selecteer vervolgens onder **Systeem** de optie **Traceerlogboek invoegtoepassing**.
 2. Zoek de traceerlogboeken waarvoor het veld **Type naam** is ingesteld op **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Dubbelklik op een item om het volledige logboek weer te geven en controleer vervolgens op het sneltabblad **Uitvoering** de tekst **Bericht blokkeren**.
 

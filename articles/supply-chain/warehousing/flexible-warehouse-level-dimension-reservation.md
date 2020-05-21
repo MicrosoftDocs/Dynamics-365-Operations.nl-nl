@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205662"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346463"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Beleid voor flexibele dimensiereservering op magazijnniveau
 
@@ -233,7 +233,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Overschrijven locatie</strong> in de mobiele magazijnapp (WMA) wanneer u pickwerk start.</li>
+<li>Selecteer de menuoptie <strong>Overschrijven locatie</strong> in de magazijnbeheer-app wanneer u pickwerk start.</li>
 <li>Selecteer <strong>Voorstellen</strong>.</li>
 <li>Bevestig de nieuwe locatie die is voorgesteld op basis van de beschikbaarheid van de batchhoeveelheid.</li>
 </ol>
@@ -247,10 +247,10 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Niet van toepassing</td>
 </tr>
 <tr>
-<td>Nee</td>
+<td>No</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Overschrijven locatie</strong> in de mobiele magazijnapp wanneer u pickwerk start.</li>
+<li>Selecteer de menuoptie <strong>Overschrijven locatie</strong> in de magazijnbeheer-app wanneer u pickwerk start.</li>
 <li>Voer handmatig een locatie in.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Niet van toepassing</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Volledig</strong> in de mobiele magazijnapp wanneer u pickwerk verwerkt.</li>
+<li>Selecteer de menuoptie <strong>Volledig</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
 <li>Voer in het veld <strong>Verzamelhoeveelheid</strong> een gedeeltelijke hoeveelheid van de vereiste pick in om de volledige capaciteit aan te geven.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Start een mutatie in de mobiele magazijnapp.</li>
+<li>Start een mutatie in de magazijnbeheer-app.</li>
 <li>Voer een 'van'- en een 'naar'-locatie in.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele magazijnapp wanneer u pickwerk uitvoert.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Orderverzamelhoeveelheid</strong>.</li>
 <li>Voer in het veld <strong>Reden</strong> de tekst <strong>Geen hertoewijzing</strong> in.</li>
 </ol>
@@ -498,7 +498,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele magazijnapp wanneer u pickwerk uitvoert.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Orderverzamelhoeveelheid</strong>.</li>
 <li>Voer in het veld <strong>Reden</strong> de tekst <strong>Geen hertoewijzing</strong> in.</li>
 </ol>
@@ -522,7 +522,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele magazijnapp wanneer u pickwerk uitvoert.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Korte-verzamelhoeveelheid</strong>.</li>
 <li>Selecteer in het veld <strong>Reden</strong> de optie <strong>Kort orderverzamelen met handmatige hertoewijzing</strong>.</li>
 <li>Selecteer de locatie/nummerplaat in de lijst.</li>
@@ -545,10 +545,10 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 </tr>
 <tr>
 <td>Er wordt een werkuitzondering van het type <strong>Korte verzameling</strong> ingesteld, waarbij <strong>Artikelhertoewijzing</strong> = <strong>Handmatig</strong>, <strong>Voorraad aanpassen</strong> = <strong>Ja</strong> en <strong>Reserveringen verwijderen</strong> = <strong>Nee</strong>. Bovendien wordt de <strong>Handmatige artikelhertoewijzing toestaan</strong> ingeschakeld voor de werknemer.</td>
-<td>Nee</td>
+<td>No</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele magazijnapp wanneer u pickwerk uitvoert.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Korte-verzamelhoeveelheid</strong>.</li>
 <li>Selecteer in het veld <strong>Reden</strong> de optie <strong>Kort orderverzamelen met handmatige hertoewijzing</strong>.</li>
 </ol>
@@ -558,10 +558,10 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 </tr>
 <tr>
 <td>Er wordt een werkuitzondering van het type <strong>Korte verzameling</strong> ingesteld, waarbij <strong>Artikelhertoewijzing</strong> = <strong>Handmatig</strong>, <strong>Voorraad aanpassen</strong> = <strong>Ja</strong> en <strong>Reserveringen verwijderen</strong> = <strong>Ja</strong>. Bovendien wordt de <strong>Handmatige artikelhertoewijzing toestaan</strong> ingeschakeld voor de werknemer.</td>
-<td>Nee</td>
+<td>No</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele magazijnapp wanneer u pickwerk uitvoert.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Korte-verzamelhoeveelheid</strong>.</li>
 <li>Selecteer in het veld <strong>Reden</strong> de optie <strong>Kort orderverzamelen met handmatige hertoewijzing</strong>.</li>
 <li>Selecteer de locatie/nummerplaat in de lijst.</li>
@@ -585,7 +585,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Niet van toepassing</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele magazijnapp wanneer u pickwerk uitvoert.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Korte-verzamelhoeveelheid</strong>.</li>
 <li>Selecteer in het veld <strong>Reden</strong> de optie <strong>Kort orderverzamelen met automatische hertoewijzing</strong>.</li>
 </ol>

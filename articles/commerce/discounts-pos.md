@@ -3,7 +3,7 @@ title: Kortingen weergeven in POS
 description: In dit onderwerp wordt uitgelegd hoe Microsoft Dynamics 365 Commerce verkoopmedewerkers helpt met informatie over promoties en hoe deze kunnen worden gebruikt voor meerverkoop/bijverkoop.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/06/2020
+ms.date: 05/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
+ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265573"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334703"
 ---
 # <a name="show-discounts-in-pos"></a>Kortingen weergeven in POS
 
@@ -54,9 +54,9 @@ Op de pagina **Alle kortingen** kunnen verkoopmedewerkers ook kortingen op trefw
 
 Meerregelkortingen, zoals kwantumkortingen, combinatiekortingen en drempelkortingen, zijn een prima manier om klanten te motiveren om meer producten te kopen om grotere kortingen te krijgen. Daarom vergroten ze ook de omvang van de winkelwagen en de winkelopbrengst van de klant. Deze kortingen kunnen worden gepubliceerd op websites voor e-commerce, sociale media en banners in de winkel.
 
-Maar zelfs wanneer al deze reclamemethoden worden gebruikt, kunnen klanten de kans missen om gebruik te maken van promoties. Om te kunnen zien welke acties van toepassing zijn op een geselecteerde regel of zelfs op de hele winkelwagen, kunnen detailhandelaren de knop voor de bewerking Alle kortingen weergeven toevoegen aan elk knoppenraster in POS. U wordt aangeraden de knop toe te voegen aan het knoppenraster voor de pagina **Transactie**. Op die manier kan een verkoopmedewerker een transactieregel selecteren en vervolgens de knop selecteren om alle beschikbare kortingen voor de geselecteerde regel weer te geven. De verkoopmedewerker kan ook een ander tabblad selecteren om kortingen weer te geven die van toepassing zijn op de gehele transactie.
+Maar zelfs wanneer al deze reclamemethoden worden gebruikt, kunnen klanten de kans missen om gebruik te maken van promoties. Om te kunnen zien welke acties van toepassing zijn op een geselecteerde regel of zelfs op de hele winkelwagen, kunnen detailhandelaren de knop voor de bewerking Beschikbare kortingen weergeven toevoegen aan elk knoppenraster op de pagina **Transactie**. Op deze manier kan een verkoopmedewerker een transactieregel selecteren en vervolgens de knop selecteren om alle beschikbare kortingen voor de geselecteerde regel weer te geven. De verkoopmedewerker kan ook een ander tabblad selecteren om kortingen weer te geven die van toepassing zijn op de gehele transactie.
 
-Op de pagina **Alle kortingen** die eerder is vermeld, worden alleen kortingen weergegeven die niet concurreren met de vereffende kortingen. Dit zorgt ervoor dat, als een verkoopmedewerker een klant op de hoogte stelt over een korting, en de klant de vereiste actie kiest (de klant koopt bijvoorbeeld één artikel meer om 10 procent te krijgen), wordt de korting toegepast op de transactie. Zoals eerder vermeld, worden op coupon gebaseerde kortingen alleen weergegeven als de optie **Toepassen zonder couponcode** is ingeschakeld.
+Op de pagina **Alle kortingen** worden alleen kortingen weergegeven die niet concurreren met de vereffende kortingen. Dit zorgt ervoor dat, als een verkoopmedewerker een klant op de hoogte stelt over een korting, en de klant de vereiste actie kiest (de klant koopt bijvoorbeeld één artikel meer om 10 procent te krijgen), wordt de korting toegepast op de transactie. Op coupon gebaseerde kortingen worden alleen weergegeven als de optie **Toepassen zonder couponcode** is ingeschakeld.
 
 In een eenvoudig scenario waarin alle kortingen dezelfde prioriteit hebben, is de gelijktijdigheidsmodus voor korting **Samengesteld** en wordt het gelijktijdigheidsbeheer voor de korting ingesteld op **Beste prijs en samengestelde prijs binnen prioriteit, nooit voor verschillende prioriteiten**. Op de pagina **Alle kortingen** worden alle beschikbare kortingen voor een product weergegeven, omdat alle kortingen worden samengesteld en niet met elkaar concurreren.
 

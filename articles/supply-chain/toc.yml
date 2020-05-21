@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Onderhoudsstatus
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Beheer van bedrijfsmiddelen integreren met Dynamics 365 Guides
+              href: asset-management/asset-management-guides-integration.md
             - name: Mobiel werkgebied voor activabeheer
               href: asset-management/asset-management-mobile-workspace.md
         - name: Gegevensbeheer
@@ -703,7 +705,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Financiële dimensies toevoegen aan samengevoegde metingen
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analytische rapporten maken met PowerBI Desktop
+                - name: Analytische rapporten maken met Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: Overzicht van Planningsoptimalisatie
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Negatieve voorraad wordt behandeld als nul voorhanden voorraad
+                - name: Planning met negatieve voorhanden hoeveelheden
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Aan de slag met Planningsoptimalisatie
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Een min./max. aanvullingsproces instellen
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Een werksjabloon instellen voor inkooporders
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: De app voor magazijnbeheer installeren en configureren
               items:
                 - name: Overzicht van Installeren en configureren
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Mobiele apparaten instellen voor magazijnwerk
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Nummerplaat ontvangen met de mobiele app voor Magazijnbeheer
+                - name: Nummerplaat ontvangen met de app voor magazijnbeheer
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
                   href: warehousing/tasks/set-up-mobile-device-menu.md

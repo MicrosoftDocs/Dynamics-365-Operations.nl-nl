@@ -3,7 +3,7 @@ title: Bestemmingen van elektronische rapportage (ER)
 description: Dit onderwerp biedt informatie over het beheer van ER-bestemmingen (elektronische rapportage), de ondersteunde typen bestemmingen en beveiligingsoverwegingen.
 author: nselin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150810"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323687"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -52,7 +52,36 @@ Er is ook een bestemmingstype [Afdrukken](er-destination-type-print.md). Als u d
 
 ## <a name="overview"></a>Overzicht
 
-U kunt alleen bestemmingen instellen voor ER-configuraties die zijn [geïmporteerd](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) in het huidige Finance-exemplaar en voor de indelingen die beschikbaar zijn op de pagina **Configuraties van elektronische rapportage**. De functionaliteit voor het beheer van ER-bestemmingen is beschikbaar onder **Organisatiebeheer** \> **Elektronische rapportage** \>**Bestemming voor elektronische rapportage**. Op de pagina **Bestemming voor elektronische rapportage** kunt u het standaardgedrag voor een configuratie vervangen. Geïmporteerde configuraties worden op deze pagina niet weergegeven totdat u **Nieuw** selecteert en vervolgens in het veld **Verwijzing** een configuratie selecteert waarvoor u bestemmingsinstellingen wilt maken.
+U kunt alleen bestemmingen instellen voor ER-configuraties die zijn [geïmporteerd](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) in het huidige Finance-exemplaar en voor de indelingen die beschikbaar zijn op de pagina **Configuraties van elektronische rapportage**. De functionaliteit voor het beheer van ER-bestemmingen is beschikbaar onder **Organisatiebeheer** \> **Elektronische rapportage** \>**Bestemming voor elektronische rapportage**.
+
+### <a name="default-behavior"></a>Standaardgedrag
+
+Het standaardgedrag voor een ER-indelingsconfiguratie is afhankelijk van het type uitvoering dat u opgeeft wanneer een ER-indeling wordt gestart.
+
+Als u de optie voor **Batchverwerking** instelt op **Nee**, wordt in het dialoogvenster **Intrastat-rapport** op het sneltabblad **Op de achtergrond uitvoeren** een ER-indeling direct in de interactieve modus uitgevoerd. Wanneer deze uitvoering is voltooid, wordt een gegenereerd uitgaand document beschikbaar gemaakt voor downloaden.
+
+Als u de optie **Batchverwerking** instelt op **Ja**, wordt er een ER-indeling uitgevoerd in [batch](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview)modus. De desbetreffende batchtaak wordt gemaakt op basis van de parameters die u opgeeft op het tabblad **Op de achtergrond uitvoeren** van het dialoogvenster **ER-parameters**.
+
+> [!NOTE]
+> De taakomschrijving wordt gestart om u te informeren over de uitvoering van een ER-indelingstoewijzing. Het bevat ook de naam van de uitgevoerde ER-component.
+
+[![Een ER-indeling uitvoeren](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+
+U kunt op verschillende plaatsen informatie over deze taak vinden:
+
+- Ga naar **Algemeen** \> **Query's** \> **Batchtaken** \> **Mijn batchtaken** om de status van de geplande taak te controleren.
+- Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Elektronische rapportagetaken** om de status van de geplande taak en de uitvoeringsresultaten van de voltooide taak te controleren. Wanneer de taakuitvoering is voltooid, selecteert u **Bestanden weergeven** op de pagina **Elektronische rapportagetaken** om een gegenereerd uitgaand document op te halen.
+
+    > [!NOTE]
+    > Dit document wordt opgeslagen als een bijlage van de huidige taakrecord en wordt aangestuurd door het raamwerk voor [documentbeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Het [documenttype](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) dat wordt gebruikt voor het opslaan van ER-artefacten van dit type, wordt geconfigureerd in de [ER-parameters](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+
+- Selecteer op de pagina **Elektronische rapportagetaken** de optie **Bestanden weergeven** om de lijst met fouten en waarschuwingen weer te geven die tijdens de uitvoering van de taak zijn gegenereerd.
+
+    [![De lijst met ER-taken bekijken](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+
+### <a name="user-configured-behavior"></a>Door gebruiker geconfigureerd gedrag
+
+Op de pagina **Bestemming voor elektronische rapportage** kunt u het standaardgedrag voor een configuratie vervangen. Geïmporteerde configuraties worden op deze pagina niet weergegeven totdat u **Nieuw** selecteert en vervolgens in het veld **Verwijzing** een configuratie selecteert waarvoor u bestemmingsinstellingen wilt maken.
 
 [![Een configuratie in het veld Verwijzing selecteren](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
@@ -148,7 +177,7 @@ De optie PDF-conversie kan alleen worden ingeschakeld voor bestandsonderdelen di
 >
 > De geproduceerde PDF is beperkt tot een maximum van 300 pagina's.
 >
-> Op dit moment wordt alleen de liggende afdrukstand ondersteund in het PDF-document dat wordt gegenereerd uit een Excel-uitvoer.
+> In Microsoft Dynamics 365 Finance versie 10.0.9 (april 2020) wordt alleen de liggende afdrukstand ondersteund in het PDF-document dat wordt gegenereerd uit een Excel-uitvoer. Met de release van Dynamics 365 Finance versie 10.0.10 (mei 2020) kunt u [de afdrukstand opgeven](#SelectPdfPageOrientation) in het PDF-document dat wordt gemaakt op basis van de Excel-uitvoer als u de ER-bestemming configureert.
 >
 > Alleen de algemene systeemlettertypen van het Windows-besturingssysteem worden gebruikt voor de conversie van een uitvoer die geen ingesloten lettertypen bevat.
 

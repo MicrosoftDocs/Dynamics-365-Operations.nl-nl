@@ -1,6 +1,6 @@
 ---
 title: Veldnamen in magazijnapp configureren
-description: In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 Supply Chain Management.
+description: In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnbeheer-app kunt definiëren en configureren in Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 06/20/2017
@@ -19,23 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9b02b93895757580b323a4cd891909d5551ea55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0390900d97e74bb9fd8deac913b1606cb775aa7c
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205754"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346394"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Veldnamen in magazijnapp configureren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 Supply Chain Management. 
+In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnbeheer-app kunt definiëren en configureren in Dynamics 365 Supply Chain Management. 
 
 > [!NOTE]
-> Dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren en hoe ze worden gebruikt in Magazijnbeheer. Raadpleeg de zelfstudie [Overzicht van de Magazijnbeheer-app installeren en configureren](install-configure-warehousing-app.md) voor gedetailleerde informatie over het configureren van de verbinding met Magazijnbeheer.
+> Dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de magazijnbeheer-app kunt definiëren en configureren en hoe ze worden gebruikt in Magazijnbeheer. Raadpleeg de zelfstudie [Overzicht van de Magazijnbeheer-app installeren en configureren](install-configure-warehousing-app.md) voor gedetailleerde informatie over het configureren van de verbinding met Magazijnbeheer.
 
-## <a name="configure-warehouse-app-field-names"></a>Veldnamen van magazijnapp configureren
+## <a name="configure-warehousing-app-field-names"></a>Veldnamen in app voor magazijnbeheer configureren
 
 Wanneer u Magazijnbeheer op uw mobiele apparaat gebruikt, kunt u configureren hoe metagegevens moeten worden weergegeven op uw apparaat op de pagina **Veldnamen magazijnapp**. Selecteer in een nieuw bedrijf **Standaardinstelling maken** om alle veldnamen te genereren die worden gebruikt in de magazijnworkflows van het mobiele apparaat en wijs er vervolgens een gewenste invoermodus en invoertype aan toe. Nadat u alle veldnamen hebt gegenereerd, kunt u de volgende invoeropties selecteren.
 
@@ -68,7 +68,7 @@ Wanneer u Magazijnbeheer op uw mobiele apparaat gebruikt, kunt u configureren ho
 </tbody>
 </table>
 
-## <a name="configure-warehouse-app-field-priority"></a>Veldprioriteit van magazijnapp configureren
+## <a name="configure-warehousing-app-field-priority"></a>Veldprioriteit in app voor magazijnbeheer configureren
 
 Op de pagina **Veldprioriteit van magazijnapp** kunt u veldnamen in verschillende prioriteitsgroepen plaatsen. Hierdoor kunt u bepalen welke informatie moet worden weergegeven op de hoofdtaakpagina wanneer magazijnmedewerkers taken uitvoeren met de app. Als u op **Standaardinstelling maken** klikt, wordt een standaardset prioriteitsgroepen gegenereerd. Het is mogelijk zoveel prioriteitsgroepen te maken als nodig is, maar slechts drie prioriteitsgroepen worden op de taakpagina weergegeven. Als het systeem metagegevens naar de app verzendt, wordt aan elk veld een relatieve prioriteit toegewezen, afhankelijk van de bijbehorende prioriteitsgroep. In de app worden de eerste prioriteitsgroepen in de metagegevens op de taakpagina weergegeven. De rest van de overlopende metagegevens wordt weergegeven op een secundaire detailpagina. De volgende tabel bevat een voorbeeld van vijf prioriteitsgroepen.
 
@@ -132,7 +132,7 @@ Als een magazijnmedewerker bijvoorbeeld een taak uitvoert op een mobiel apparaat
 -   Artikelomschrijving.
 -   Grootte en locatie
 
-Op basis van de instellingen van de veldprioriteit van de magazijnapp in de bovenstaande tabel worden de volgende 3 rijen met gegevens weergegeven op de taakpagina:
+Op basis van de instellingen van de veldprioriteit van de magazijnbeheer-app in de bovenstaande tabel worden de volgende 3 rijen met gegevens weergegeven op de taakpagina:
 
 -   Rij 1: Artikel, Hoeveelheid, Maateenheid
 -   Rij 2: Artikelomschrijving

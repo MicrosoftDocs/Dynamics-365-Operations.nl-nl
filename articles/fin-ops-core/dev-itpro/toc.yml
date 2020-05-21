@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (april 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: Platform update 32 (februari 2020)
-                  href: get-started/whats-new-platform-update-32.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Verwijderde of afgeschafte Platform-functies
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Instellingen voor twee keer wegschrijven van Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Initiële synchronisatie
-                              href: data-entities/dual-write/initial-sync.md
                             - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
                               items:
                                 - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
@@ -556,7 +552,17 @@
                   href: dev-tools/development-system-requirements.md
             - name: 'Versiebeheer, metagegevens zoeken en navigatie'
               href: dev-tools/version-control-metadata-navigation.md
-            - name: Voorbeeldtoepassing voor wagenparkbeheer
+            - name: Automatisering bouwen met Azure
+              items:
+                - name: Automatisering bouwen met door Microsoft gehoste agents en Azure Pipelines
+                  href: dev-tools/hosted-build-automation.md
+                - name: Licentiebestanden toevoegen aan een implementeerbaar pakket in Azure Pipelines
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Implementeerbare pakketten maken in Azure Pipelines
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: Versiebeheer voor X++-modellen in Azure Pipelines
+                  href: dev-tools/pipeline-model-version.md
+            - name: Voorbeeldtoepassing voor Wagenparkbeheer
               items:
                 - name: Compleet scenario voor de voorbeeldtoepassing Wagenparkbeheer
                   href: dev-tools/fleet-management-sample.md
@@ -1396,6 +1402,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Gebruikers aan beveiligingsrollen toewijzen
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Beveiligingsdiagnose voor taakregistraties
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
             - name: Batchverwerking
               items:
                 - name: Overzicht van Batchverwerking

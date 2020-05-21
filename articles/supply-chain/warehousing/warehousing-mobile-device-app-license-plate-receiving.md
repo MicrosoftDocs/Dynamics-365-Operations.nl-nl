@@ -1,6 +1,6 @@
 ---
-title: Nummerplaat ontvangen via de Warehouse Mobile App
-description: In dit onderwerp wordt uitgelegd hoe u de Warehouse Mobile App kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
+title: Nummerplaat ontvangen via de magazijnbeheer-app
+description: In dit onderwerp wordt uitgelegd hoe u de magazijnbeheer-app kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
 author: perlynne
 manager: tfehr
 ms.date: 03/31/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 98cd608edea1d5365d0d3532244f1fcdb6293d3c
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261318"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346371"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-mobile-app"></a>Nummerplaat ontvangen via de Warehouse Mobile App
+# <a name="license-plate-receiving-via-the-warehousing-app"></a>Nummerplaat ontvangen via de magazijnbeheer-app
 
-In dit onderwerp wordt uitgelegd hoe u de Warehouse Mobile App kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
+In dit onderwerp wordt uitgelegd hoe u de magazijnbeheer-app kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
 
 Met deze functie kunt u snel de ontvangst van de inkomende voorraad vastleggen die is gerelateerd aan een voorschotbericht (advance shipping notice, ASN). Het systeem maakt automatisch een ASN wanneer magazijnbeheerprocessen worden gebruikt om een transferorder te verzenden. Voor het inkooporderproces kan een ASN handmatig worden vastgelegd of kan deze automatisch worden geïmporteerd met behulp van een inkomend ASN-gegevensentiteitproces.
 

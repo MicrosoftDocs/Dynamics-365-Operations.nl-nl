@@ -94,12 +94,12 @@
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (april 2020)
                       href: get-started/whats-new-10-0-9.md
-                    - name: Commerce 10.0.8 (februari 2020)
-                      href: get-started/whats-new-10-0-8.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                    - name: Verwijderde of afgeschafte functies in Dynamics 365 Commerce
+                      href: get-started/removed-deprecated-features-commerce.md
                 - name: AX 2012-functies die zijn uitgesteld
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
                 - name: Functies die niet worden geïmplementeerd in on-premises implementaties
@@ -644,6 +644,8 @@
                       href: work-with-store-inventory.md
                     - name: Werken met geserialiseerde artikelen
                       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Werken met geserialiseerde artikelen in POS
+                      href: pos-serialized-items.md
                     - name: Producten verzenden van distributiecentrum naar winkel via klantlevering
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: RegeIs en parameters instellen voor het cross-docken en klantlevering
@@ -1002,7 +1004,7 @@
               href: store-performance-information.md
             - name: 'Recency-, frequentie- en monetaire analyse (RFM) instellen'
               href: set-up-rfm-analysis.md
-        - name: Lokalisatie en wettelijk voorgeschreven functies
+        - name: Globalisatie
           items:
             - name: Overzicht fiscale integratie voor Commerce-afzetkanalen
               href: localizations/fiscal-integration-for-retail-channel.md
@@ -1014,18 +1016,26 @@
                   href: localizations/emea-aut-fi-sample.md
             - name: Oost-Europa
               items:
-                - name: Voorschotfacturen voor Commerce voor Oost-Europa
-                  href: localizations/emea-eeu-advance-invoices-for-retail.md
-                - name: Beheer kleine kas voor Commerce voor Oost-Europa
-                  href: localizations/emea-eeu-petty-cash-for-retail.md
-                - name: Klantfacturen en retourverkooporders in Oost-Europese landen
-                  href: localizations/emea-eeu-retail-invoices.md
-                - name: 'Implementatierichtlijnen voor kassa''s voor Tsjechië, Hongarije en Polen'
-                  href: localizations/emea-eeu-deployment.md
-                - name: Voorbeeld van integratie van fiscale printer voor Polen
-                  href: localizations/emea-pol-fpi-sample.md
-                - name: Voorbeeld van integratie van fiscale registratieservice voor Tsjechië
-                  href: localizations/emea-cze-fi-sample.md
+                - name: Algemeen
+                  items:
+                    - name: Voorschotfacturen voor Commerce voor Oost-Europa
+                      href: localizations/emea-eeu-advance-invoices-for-retail.md
+                    - name: Beheer kleine kas voor Commerce voor Oost-Europa
+                      href: localizations/emea-eeu-petty-cash-for-retail.md
+                    - name: Klantfacturen en retourverkooporders in Oost-Europese landen
+                      href: localizations/emea-eeu-retail-invoices.md
+                    - name: 'Implementatierichtlijnen voor kassa''s voor Tsjechië, Hongarije en Polen'
+                      href: localizations/emea-eeu-deployment.md
+                - name: Tsjechische Republiek
+                  items:
+                    - name: Voorbeeld van integratie van fiscale registratieservice voor Tsjechië
+                      href: localizations/emea-cze-fi-sample.md
+                - name: Polen
+                  items:
+                    - name: Voorbeeld van integratie van fiscale printer voor Polen
+                      href: localizations/emea-pol-fpi-sample.md
+                    - name: Beheer van klantgegevens voor Polen
+                      href: localizations/emea-pol-customer-information.md
             - name: Frankrijk
               items:
                 - name: Kassafunctionaliteit
@@ -1044,6 +1054,8 @@
               items:
                 - name: Voorbeeld van integratie van fiscale printer voor Italië
                   href: localizations/emea-ita-fpi-sample.md
+                - name: Beheer van klantgegevens voor Italië
+                  href: localizations/emea-ita-customer-information.md
             - name: Mexico
               items:
                 - name: Algemene CFDI-e-facturen voor Mexico
@@ -1058,7 +1070,9 @@
               items:
                 - name: Kassafunctionaliteit
                   href: localizations/emea-swe-cash-registers.md
-                - name: Voorbeeld voor POS-integratie met regeleenheden
+                - name: Regeleenheidintegratievoorbeeld voor Zweden
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Voorbeeld voor Retail POS-integratie met regeleenheden (verouderd)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Rapportage en Power BI-integratie
           items:
@@ -1138,7 +1152,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Financiële dimensies toevoegen aan samengevoegde metingen
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Analytische rapporten maken met PowerBI Desktop
+                - name: Analytische rapporten maken met Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json

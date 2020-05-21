@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 1e68833cc2b4430f66419a67b1cba5f6c8c209f4
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275574"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323618"
 ---
 # <a name="inventory-aging-report-storage"></a>Opslag naar ouderdom gerangschikt voorraadrapport
 
-
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 In Microsoft Dynamics 365 Supply Chain Management kunt u een rapport **Opslag naar ouderdom gerangschikt voorraadrapport** uitvoeren en de uitvoer beschikbaar maken als een formulier en een grafiek. In het formulier worden kolommen en samengevoegde balansen dynamisch aangepast, afhankelijk van de indeling die is geconfigureerd. De grafiek biedt een visueel overzicht dat filters ondersteunt en waarmee u op details kunt inzoomen. Daarnaast kunt u met de gegevensentiteit met de naam **Naar ouderdom gerangschikt voorraadrapport** de resultaten van een rapport **Opslag naar ouderdom gerangschikt voorraadrapport** uitvoeren naar een indeling zoals een Microsoft Excel-of PDF-bestand.
 
