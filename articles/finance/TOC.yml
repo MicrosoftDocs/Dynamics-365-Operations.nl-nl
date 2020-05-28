@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Verbinding maken met het Help-systeem
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: Verbinding maken met een aangepaste Help-site
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/finance/toc.json
+                - name: Overzicht van aangepaste Help
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Veldomschrijvingen weergeven en exporteren
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: Taakrecorder
@@ -1736,6 +1736,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Elektronische transmissie van btw-aangifte (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Btw-aangifte voor Duitsland
+                  href: localizations/emea-de-vat-declaration.md
                 - name: Journaallijstrapport
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Elektronische belastingaangiften instellen
@@ -2286,7 +2288,7 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL-integratie
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Auditfile (XML Auditfile Financieel, XAF)'
+                - name: 'Auditfile - XML Auditfile Financieel, XAF'
                   hred: localizations/emea-nl-audit-file.md
             - name: Noorwegen
               items:
@@ -2398,6 +2400,8 @@
                       href: localizations/rus-prepayments-management.md
                     - name: Inkomende btw herstellen
                       href: localizations/rus-incoming-VAT-restoring.md
+                    - name: Facturen voor exporthandel verwerken
+                      href: localizations/rus-export-trade.md
                 - name: Vaste activa
                   items:
                     - name: Overzicht van vaste activa
@@ -2496,6 +2500,12 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Voorraadrapporten
                       href: localizations/rus-inventory-reports.md
+                    - name: Overzicht van voorraadprofiel
+                      href: localizations/rus-inventory-profile-overview.md
+                    - name: Een voorraadprofiel instellen
+                      hreF: localizations/rus-set-up-inventory-profile.md
+                    - name: Een voorraadprofiel gebruiken in documenten en query's
+                      href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Rapportage
                   items:
                     - name: Financiële rapportage
@@ -3248,34 +3258,40 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: ER-indelingen ontwerpen voor het genereren van uitgaande elektronische documenten in verschillende indelingen
               items:
-                - name: (ER) Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: (ER) Configuraties ontwerpen om rapporten in Word-indeling te genereren
+                - name: Ontwerpconfiguraties om uitgaande documenten te genereren in Excel-indeling
+                  items:
+                    - name: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: Voorbeeld van het genereren van rapporten in OPENXML-indeling
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: ER-indelingen wijzigen door Excel-sjablonen opnieuw toe te passen
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Kolommen dynamisch toevoegen aan Excel-rapporten als horizontaal uitbreidbare bereiken
+                      items:
+                        - name: Indelingen ontwerpen om kolommen dynamisch toe te voegen aan Excel-rapporten
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Indelingen uitvoeren om kolommen dynamisch toe te voegen aan Excel-rapporten
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                - name: Configuraties ontwerpen om rapporten in Word-indeling te genereren
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Configuraties ontwerpen om PDF-sjablonen in te vullen
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-            - name: Afbeeldingen en vormen insluiten
-              items:
-                - name: (ER) Afbeeldingen en vormen insluiten in documenten die u genereert
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                - name: Voorbeeld van het insluiten van afbeeldingen en vormen
+                - name: Afbeeldingen en vormen insluiten
                   items:
-                    - name: Configuraties ontwerpen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: Configuraties beoordelen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Rapporten genereren in Office-indelingen met ingesloten afbeeldingen
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Indelingen voor elektronische rapportage wijzigen door Excel-sjablonen opnieuw toe te passen
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: (ER) Afbeeldingen en vormen insluiten in documenten die u genereert
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                    - name: Voorbeeld van het insluiten van afbeeldingen en vormen
+                      items:
+                        - name: Configuraties ontwerpen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties beoordelen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Rapporten genereren in Office-indelingen met ingesloten afbeeldingen
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Kolommen dynamisch toevoegen aan Excel-rapporten als horizontaal uitbreidbare bereiken
-              items:
-                - name: Indelingen ontwerpen voor het dynamisch toevoegen van kolommen aan Excel-rapporten als horizontaal uitbreidbare bereiken
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                - name: Indelingen uitvoeren voor het dynamisch toevoegen van kolommen aan Excel-rapporten als horizontaal uitbreidbare bereiken
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
             - name: Toepassingsgegevens bijwerken met behulp van elektronische rapportage
               items:
                 - name: Elektronische documenten genereren en toepassingsgegevens bijwerken
@@ -3306,8 +3322,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: ER-indelingen configureren voor het importeren van XML-bestanden met optionele kenmerken
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-            - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Levenscyclus van configuratie
               items:
                 - name: Levenscyclus van configuratie beheren
@@ -3327,7 +3341,11 @@
                     - name: ER-configuraties downloaden uit de ER-opslagplaats voor het RCS-type
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Configuraties importeren uit RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: ER-configuraties maken in RCS en ze uploaden naar de algemene opslagplaats
+                  href: localizations/rcs-global-repo-upload.md
+                - name: ER-configuraties in RCS delen met externe organisaties
+                  href: localizations/rcs-global-repo-share-configuration.md
             - name: Zelfstudies
               items:
                 - name: Informatie over het gebruik van gegevensbronnen
