@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Problemen met pakkettoepassingen oplossen
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Aangepaste Help implementeren
+              items:
+                - name: Overzicht van aangepaste Help
+                  href: help/custom-help-overview.md
+                - name: Inhoud voorbereiden voor gebruik met het Help-venster
+                  href: help/preparing-content.md
+                - name: Aangepaste Help voor Azure implementeren
+                  href: help/walkthrough-help-azure.md
+                - name: Aangepaste Help koppelen aan het Help-venster
+                  href: help/connect-help-pane.md
+                - name: Aangepaste Help-toolkit
+                  items:
+                    - name: Overzicht
+                      href: help/custom-help-toolkit.md
+                    - name: Het hulpprogramma HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: Het hulpprogramma Convert HTML To JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: Het hulpprogramma HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: Aangepaste Help bij Dynamics AX converteren voor gebruik in Dynamics 365
+                      href: help/migrate-dynamicsax2012.md
+                - name: Omschrijvingen van taal en landinstelling in verschillende producten en Help
+                  href: help/language-locale.md
+                - name: 'De Help uitbreiden, aanpassen en samenwerken'
+                  href: help/contributor-guide.md
         - name: Ontwikkelen en aanpassen
           items:
             - name: Startpagina van Ontwikkelen en aanpassen
@@ -835,7 +861,7 @@
                     - name: Uitbreidbaarheidswijzigingen versie 8.0.1
                       href: extensibility/extensibility-changes-801.md
                     - name: Uitbreidbaarheidswijzigingen in versie 8.0
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: Uitbreidbaarheidswijzigingen in versie 7.3
                       href: extensibility/extensibility-changes-73.md
                     - name: Uitbreidbaarheidswijzigingen juli 2017

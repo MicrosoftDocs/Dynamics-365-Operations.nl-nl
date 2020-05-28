@@ -5,6 +5,8 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 14 mei 2020
+          href: hr-whats-new-2020-05-14.md
         - name: 1 mei 2020
           href: hr-whats-new-2020-05-01.md
         - name: 13 april 2020
@@ -111,14 +113,16 @@
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: Lifecycle Services begrijpen
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Human Resources-app in Teams
+          href: hr-admin-teams-leave-app.md
         - name: Documentatiebronnen
           items:
             - name: Help-systeem
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Verbinding maken met het Help-systeem
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: Verbinding maken met een aangepaste Help-site
-              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Overzicht van aangepaste Help
+              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Veldomschrijvingen weergeven en exporteren
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
             - name: Taakrecorder
@@ -515,6 +519,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Team- en bedrijfsagenda's weergeven
               href: hr-employee-self-service-calendar.md
+        - name: Verlofaanvragen beheren in Teams
+          href: hr-teams-leave-app.md
         - name: Werknemers ontwikkelen
           items:
             - name: Overzicht van prestatiebeheer

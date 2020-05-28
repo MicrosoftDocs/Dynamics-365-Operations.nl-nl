@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: Startpagina van Dynamics 365 Commerce
           href: index.md
         - name: Aan de slag
           items:
@@ -79,7 +79,7 @@
                 - name: 'Gefaseerde implementatie (N-1) installeren, configureren en wijzigen'
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: De detailhandelafzetkanaaluitbreiding upgraden naar de meest recente Retail SDK
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: Nieuwe of gewijzigde functies
               items:
                 - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Verbinding maken met het Help-systeem
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: Verbinding maken met een aangepaste Help-site
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: Overzicht van aangepaste Help
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Veldomschrijvingen weergeven en exporteren
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Taakrecorder
@@ -499,7 +499,9 @@
                     - name: De Adyen-betalingsconnector
                       href: dev-itpro/adyen-connector.md
                     - name: Online betaalmiddelen opslaan met de Adyen-connector
-                      href: dev-itpro/adyen-connector-listpi.md
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: SCA (sterke klantverificatie) met de Adyen-connector
+                      href: adyen_redirect.md
                     - name: Naadloos overschakelen naar offline bewerkingen voor cadeaukaarten en creditnota's
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Scenario's voor het betalen van facturen instellen
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: Veelgestelde vragen over betalingen
                       href: dev-itpro/payments-retail.md
+                - name: Bing Kaarten voor uw organisatie beheren
+                  href: dev-itpro/manage-bing-maps.md
         - name: Uw producten en diensten aan de man brengen
           items:
             - name: 'Categorieën, producten en assortimenten'
@@ -824,6 +828,8 @@
                   href: search-engine-optimization-considerations.md
                 - name: Beveiligingsbeleid voor inhoud (CSP) beheren
                   href: manage-csp.md
+                - name: Afmelden voor verzamelen van gebeurtenissen voor webactiviteit
+                  href: web-activity-opt-out.md
             - name: Uw site-inhoud beheren
               items:
                 - name: Manieren om inhoud toe te voegen
@@ -1714,6 +1720,8 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: E-mail configureren en verzenden
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: E-mailsjablonen maken voor transactiegebeurtenissen
+              href: email-templates-transactions.md
             - name: E-mailervaringen ontwikkelen
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: Problemen met Office-integratie oplossen
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: Vooraf uitgebreide kolommen in de kanaaldatabase
                   href: dev-itpro/extended-columns.md
+                - name: Commerce Data Exchange - real-time service uitbreiden
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: Uitbreidbaarheid betalingsconnector
               items:
                 - name: Betalingsintegratie maken voor een betalingsterminal
