@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ae42c9012a430aeeed6adb78b33776c727e4a3f8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4ce9c9d5b5def386f159df581c87d48f3e0b0ad9
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551144"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367310"
 ---
-[!include [banner](../includes/banner.md)]
-
 # <a name="electronic-reporting-sample-vendor-checks"></a>Voorbeeldleverancierscheques voor elektronische rapportage
+
+[!include [banner](../includes/banner.md)]
 
 U kunt elektronische rapportage (ER) gebruiken voor het opmaken van cheques voor leveranciers. Veel bankspecifieke en cheque-aanbiedersspecifieke indelingen zijn beschikbaar op de markt. Er zijn voorbeeldcheque-indelingen opgenomen in het betalingschequemodel in de opslagplaats van het ER-hulpprogramma. Deze voorbeeldcheques hebben de naam **Check in the middle (US)** en **Check on top stub below (US)**.
 

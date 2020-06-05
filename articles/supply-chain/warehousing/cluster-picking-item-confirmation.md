@@ -17,26 +17,28 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e6493afb64acb4d7644aac8dad71a0917c76549
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205777"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367287"
 ---
+# <a name="product-confirmation-for-cluster-picking"></a>Productbevestiging voor clusterverzameling
+
 [!include [banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a>Productbevestiging voor clusterverzameling
 Met clusterverzameling kunt u artikelen verzamelen voor meerdere orders tegelijk. Wanneer clusterverzameling wordt toegepast, is artikelbevestiging van groot belang om de artikelen te controleren die aan clusters worden toegevoegd. U kunt artikelen in clusterverzameling controleren tijdens het clusterverzamelingsproces.
 
 ## <a name="where-it-applies"></a>Waar van toepassing
+
 Artikelverificatie voor clusterverzameling op dezelfde manier als wanneer u artikelen in een niet-clusterverzamelingsproces controleert. De instelling is gebaseerd op de instelling voor productstreepjescodes.
 
 ## <a name="set-up-item-verification-with-cluster-picking"></a>Artikelverificatie met clusterverzameling instellen
-1.  Open in een menuoptie voor mobiele apparaten het instellingsformulier voor werkbevestiging : **Magazijnbeheer** > **Magazijnbeheer** > **Instellingen** > **Mobiel apparaat** > **Menuopties voor mobiel apparaat**.
-2.  Open in de menuoptie voor het mobiele apparaat **Werkbevestigingsinstellingen**.
+
+1. Open in een menuoptie voor mobiele apparaten het instellingsformulier voor werkbevestiging : **Magazijnbeheer** > **Magazijnbeheer** > **Instellingen** > **Mobiel apparaat** > **Menuopties voor mobiel apparaat**.
+1. Open in de menuoptie voor het mobiele apparaat **Werkbevestigingsinstellingen**.
 
 |        Optie        |                                    Omschrijving                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Productbevestiging | Hiermee kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren. |
-

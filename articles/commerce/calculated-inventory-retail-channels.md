@@ -3,7 +3,7 @@ title: Beschikbaarheid van voorraad berekenen voor detailhandelskanalen
 description: In dit onderwerp worden de opties beschreven die beschikbaar zijn voor het weergeven van de voorhanden voorraad voor de winkel- en online kanalen.
 author: hhainesms
 manager: annbe
-ms.date: 02/25/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113915"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379231"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Beschikbaarheid van voorraad berekenen voor detailhandelskanalen
 
@@ -50,12 +50,7 @@ Beide API's halen gegevens op van de Commerce Server en geven een schatting van 
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Aan de slag met door e-Commerce berekende voorraadbeschikbaarheid
 
-Voordat u de twee API's gebruikt die eerder zijn genoemd, moet u een parameterwijziging aanbrengen in Commerce Headquarters om ervoor te zorgen dat de momentopname van voorraadwaarden die door Commerce Headquarters worden berekend met behulp van de taak **Beschikbaarheid product** gegevens in de juiste tabellen invoert.
-
-Volg deze stappen voor het instellen van de parameter.
-
-1. Ga naar **Detailhandel en commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde Commerce-parameters**.
-1. Selecteer op het tabblad **Voorraad** in de sectie **Taak Beschikbaarheid product** de optie **Taak Geoptimaliseerd proces voor productbeschikbaarheid gebruiken**. Deze instelling zorgt ervoor dat de optimale functieset wordt gebruikt om de beschikbare voorraad van het kanaal te berekenen via de Commerce Server.
+Voordat u de twee API's gebruikt die eerder zijn genoemd, moet u de functie **Geoptimaliseerde berekening voor productbeschikbaarheid** via het werkgebied **Functiebeheer** in Commerce Headquarters inschakelen.
 
 Voordat de API's de beste schatting van de voorraadbeschikbaarheid voor een artikel kunnen berekenen, moet er een periodieke momentopname van de voorraadbeschikbaarheid vanuit Commerce Headquarters worden verwerkt en naar de kanaaldatabase worden verzonden die door de Commerce Scale Unit van e-Commerce wordt gebruikt. De momentopname staat voor de informatie die in Commerce Headquarters beschikbaar is over de voorraadbeschikbaarheid voor een specifieke combinatie van een product of productvariant en een magazijn. Het kan voorraadcorrecties of mutaties bevatten die worden veroorzaakt door voorraadontvangsten of door zendingen of andere processen die in Commerce Headquarters worden uitgevoerd en die alleen informatie bevat over het e-Commerce-afzetkanaal vanwege het synchronisatieproces.
 
@@ -85,20 +80,15 @@ Wanneer de berekening aan kanaalzijde op de juiste manier wordt geconfigureerd e
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Aan de slag met door POS aan kanaalzijde berekende voorraadbeschikbaarheid
 
-Als u de berekeningslogica aan kanaalzijde wilt gebruiken en realtime serviceaanroepen wilt uitschakelen voor het zoekacties in voorraad vanuit de POS-toepassing, moet u eerst twee parameterwijzigingen doorvoeren. Vervolgens moet u de wijzigingen in het kanaal synchroniseren via het proces voor distributieplanning.
+Als u de berekeningslogica aan de kanaalzijde wilt gebruiken en aanroepen van real-time service wilt uitschakelen voor voorraadzoekopdrachten vanuit de POS-toepassing, moet u eerst de functie **Geoptimaliseerde berekening voor productbeschikbaarheid** inschakelen via het werkgebied **Functiebeheer** in Commerce Headquarters. U moet niet alleen de functie inschakelen, maar ook wijzigingen aanbrengen in het **functionaliteitsprofiel**.
 
-Volg deze stappen voor het instellen van de eerste parameter.
-
-1. Ga naar **Detailhandel en commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde Commerce-parameters**.
-1. Selecteer op het tabblad **Voorraad** in de sectie **Taak Beschikbaarheid product** de optie **Taak Geoptimaliseerd proces voor productbeschikbaarheid gebruiken**. Deze instelling zorgt ervoor dat de optimale functieset wordt gebruikt om de beschikbare voorraad van het kanaal te berekenen via de Commerce Server.
-
-Volg deze stappen voor het instellen van de tweede parameter.
+Volg deze stappen om het **functionaliteitsprofiel** te wijzigen:
 
 1. Ga naar **Retail en Commerce \> Kanaalinstellingen \> POS-instellingen \> POS-profielen \> Functionaliteitsprofielen**.
 1. Selecteer een functionaliteitsprofiel.
 1. Wijzig op het sneltabblad **Functies** in de sectie **Berekening van voorraadbeschikbaarheid** de waarde van het veld **Modus voor berekening van voorraadbeschikbaarheid** van **Realtime service** in **Kanaal**. Alle functionaliteitsprofielen gebruiken standaard realtime serviceaanroepen. Daarom moet u de waarde van dit veld wijzigen als u de berekeningslogica aan kanaalzijde wilt gebruiken. Elke detailhandelwinkel die is gekoppeld aan het geselecteerde functionaliteitsprofiel wordt beïnvloed door deze wijziging.
 
-Volg deze stappen voor het bijwerken van de servers.
+U moet vervolgens de wijzigingen via het distributieschemaproces naar het kanaal synchroniseren door de volgende stappen uit te voeren:
 
 1. Ga naar **Retail en Commerce \> Retail en Commerce IT \> Distributieplanning**.
 1. Voer de taak **1070** (**Kanaalconfiguratie**) uit.

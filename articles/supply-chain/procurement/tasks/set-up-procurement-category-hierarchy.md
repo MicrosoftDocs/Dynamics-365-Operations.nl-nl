@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaab2093eb2531b63f27717d828f7064a8f9ed1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207503"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383108"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Een hiërarchie van aanschaffingscategorieën instellen
 
@@ -31,8 +31,8 @@ Deze procedure laat zien hoe u nieuwe knooppunten in een hiërarchie van aanscha
 
 ## <a name="add-a-new-procurement-category"></a>Een nieuwe inkoopcategorie toevoegen
 1. Ga naar het **Navigatievenster > Modules > Inkoop en bronnen > Uitlevering > Aanschaffingscategorieën**.
-2. Klik in het actievenster op **Categoriehiërarchie**. De huidige hiërarchie van aanschaffingscategorieën wordt weergegeven aan de linkerkant van de pagina. U gaat de hiërarchie wijzigen.  
-3. Klik in het actievenster op **Nieuw categorieknooppunt**. Het systeem selecteert standaard het bovenste knooppunt. Als u deze procedure als taakbegeleiding uitvoert, kunt u op de knop Ontgrendelen klikken en een ander bovenliggend knooppunt selecteren om uw nieuw knooppunt in te plaatsen. Zodra dat is gedaan, vergrendelt u de taakbegeleiding opnieuw en klikt u op het categorieknooppunt Nieuw.  
+2. Selecteer in het actievenster de optie **Categoriehiërarchie bewerken**. De huidige hiërarchie van aanschaffingscategorieën wordt weergegeven aan de linkerkant van de pagina. U gaat de hiërarchie wijzigen.  
+3. Selecteer in het actievenster de optie **Nieuw categorieknooppunt**. Het systeem selecteert standaard het bovenste knooppunt. Als u deze procedure als taakbegeleiding uitvoert, kunt u op de knop Ontgrendelen klikken en een ander bovenliggend knooppunt selecteren om uw nieuw knooppunt in te plaatsen. Zodra dat is gedaan, vergrendelt u de taakbegeleiding opnieuw en klikt u op het categorieknooppunt Nieuw.  
 4. Typ een waarde in het veld **Naam**.
 5. Typ een waarde in het veld **Beschrijving**.
 6. In het veld **Beschrijvende naam** typt u een waarde. De beschrijvende naam is optioneel. Deze wordt in categoriezoekopdrachten met de categorienaam weergegeven.  

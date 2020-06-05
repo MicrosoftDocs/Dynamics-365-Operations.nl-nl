@@ -3,7 +3,7 @@ title: Verwerking van onkostenkwitanties
 description: Dit onderwerp biedt informatie over de verwerking van optische tekenherkenning (OCR) voor kwitanties. Deze functie is bedoeld om de gebruikerservaring te verbeteren bij het maken van onkostennota's in Microsoft Dynamics 365 Finance.
 author: stsporen
 manager: AnnBe
-ms.date: 11/20/2019
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248958"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378226"
 ---
 # <a name="expense-receipt-processing"></a>Verwerking van onkostenkwitanties
 
@@ -36,24 +36,24 @@ Onkosteninvoer is verbeterd via de introductie van de OCR-verwerking (Optical Ch
 
 ## <a name="usage-examples"></a>Voorbeelden van gebruik
 
-- **Kwitanties automatisch koppelen waarin creditcardtransacties zijn opgenomen wanneer een onkostennota wordt gemaakt.**
+Ga als volgt te werk om automatisch kwitanties te koppelen waarin creditcardtransacties zijn opgenomen wanneer een onkostennota wordt gemaakt:
 
-    1. Open het werkgebied **Onkostenbeheer**.
-    2. Controleer op het tabblad **Ontvangstbewijzen** of er niet-gekoppelde ontvangstbewijzen zijn. U kunt ook ontvangstbewijzen uploaden op het tabblad **Ontvangstbewijzen**.
-    3. Controleer op het tabblad **Onkosten** of er niet-gekoppelde onkosten zijn. De onkostenbeheerder importeert deze onkosten meestal van de creditcardprovider.
-    4. Selecteer **Nieuwe onkostennota**. Zoals u ziet, kunt u onkosten en ontvangsten nu ook opnemen wanneer u een onkostennota maakt. Als u zowel onkosten als ontvangsten toevoegt, wordt automatisch afstemmen van ontvangstbewijzen op onkosten geactiveerd.
+  1. Open het werkgebied **Onkostenbeheer**.
+  2. Controleer op het tabblad **Ontvangstbewijzen** of er niet-gekoppelde ontvangstbewijzen zijn. U kunt ook ontvangstbewijzen uploaden op het tabblad **Ontvangstbewijzen**.
+  3. Controleer op het tabblad **Onkosten** of er niet-gekoppelde onkosten zijn. De onkostenbeheerder importeert deze onkosten meestal van de creditcardprovider.
+  4. Selecteer **Nieuwe onkostennota**. Zoals u ziet, kunt u onkosten en ontvangsten nu ook opnemen wanneer u een onkostennota maakt. Als u zowel onkosten als ontvangsten toevoegt, wordt automatisch afstemmen van ontvangstbewijzen op onkosten geactiveerd.
 
-- **Maak onkosten of stem onkosten af op een ontvangstbewijs.**
+Ga als volgt te werk om onkosten te maken of af te stemmen op een ontvangstbewijs:
 
-    1. Voeg op het tabblad **Ontvangstbewijzen** van een onkostennota een ontvangstbewijs toe door **Ontvangstbewijzen toevoegen** te selecteren.
-    2. Onder de geüploade kopie van het ontvangstbewijs ziet u de opties **Maken** en **Afstemmen**.
+  1. Voeg op het tabblad **Ontvangstbewijzen** van een onkostennota een ontvangstbewijs toe door **Ontvangstbewijzen toevoegen** te selecteren.
+  2. Onder de geüploade kopie van het ontvangstbewijs ziet u de opties **Maken** en **Afstemmen**.
 
-        - Selecteer **Maken** om een handmatig ingevoerde onkostentransactie te maken en vul de waarden in die worden opgehaald uit het ontvangstbewijs.
-        - Als u **Afstemmen** selecteert, probeert het systeem de bestaande onkosten te koppelen aan het ontvangstbewijs.
+      - Selecteer **Maken** om een handmatig ingevoerde onkostentransactie te maken en vul de waarden in die worden opgehaald uit het ontvangstbewijs.
+      - Als u **Afstemmen** selecteert, probeert het systeem de bestaande onkosten te koppelen aan het ontvangstbewijs.
 
 ## <a name="installation"></a>Installatie
 
-Deze functie werkt in combinatie met de functie **Nieuwe invulling voor het begrip onkostennota's** om de onkostenervaring te vereenvoudigen.
+Deze functie werkt in combinatie met de functie **Nieuwe invulling voor het begrip onkostennota's** om de onkostenervaring te vereenvoudigen. Deze functie is alleen beschikbaar voor Tier 2-omgevingen (Sandbox en Productie).
 
 Als u deze geavanceerde onkostenmogelijkheden wilt gebruiken, installeert u de invoegtoepassing Service voor onkostenbeheer voor Microsoft Dynamics 365 Finance en schakelt u de functies in uw instantie in. U kunt de invoegtoepassing vanuit uw project openen in Microsoft Dynamics Lifecycle Services (LCS).
 

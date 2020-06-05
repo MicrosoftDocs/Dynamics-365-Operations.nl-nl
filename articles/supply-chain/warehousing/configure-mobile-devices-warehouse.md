@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 438e13d6887decc9867d474467efc06d7a2f3274
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205708"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383085"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten instellen voor magazijnwerk
 
@@ -257,7 +257,7 @@ Deze optie is bijvoorbeeld handig wanneer meerdere pallets voor een lading worde
 </tr>
 <tr class="even">
 <td>Groepering van cyclustelling</td>
-<td>De werknemer selecteert een zone, werkgroep of locatie, en Supply Chain Management wijst werk toe op basis van de selectie. Als u deze optie selecteert, kunt u ook klikken op <strong>Cyclustelling</strong> in het Actievenster om extra informatie weer te geven, en kunt u ook opgeven hoe vaak de werknemer de telling moet uitvoeren als een verschil is gevonden.</td>
+<td>De werknemer selecteert een zone, werkgroep of locatie, en Supply Chain Management wijst werk toe op basis van de selectie. Als u deze optie selecteert, kunt u ook klikken op <strong>Cyclustelling</strong> in het actievenster om extra informatie weer te geven. Daarnaast kunt u opgeven hoe vaak de werknemer de telling moet uitvoeren als een verschil is gevonden.</td>
 </tr>
  <tr class="odd">
 <td>Transportlading</td>

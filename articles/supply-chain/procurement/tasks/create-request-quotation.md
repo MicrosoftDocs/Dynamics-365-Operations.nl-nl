@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2c13ed20ec86108bcb9edc0d20d53ff98732b9d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 68624a0288f9eaaf8f74b361bb308b8ca3c03b29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204741"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383159"
 ---
 # <a name="create-a-request-for-quotation"></a>Een offerteaanvraag maken
 
@@ -67,7 +67,7 @@ Nadat u de basisgegevens over uw offerteaanvraag hebt opgegeven, geeft u de goed
 7. In het veld **Leveranciersrekening** typt of selecteert u een waarde. Zodra u een leverancier hebt geselecteerd, is de status gemaakt. Dat wil zeggen dat de leveranciersgegevens in de RFQ zijn opgeslagen, maar dat u de RFQ niet naar de leverancier hebt gezonden. U kunt een leverancier aan een RFQ toevoegen, ongeacht de status van de leverancier.  
 
 ## <a name="send-the-rfq-to-vendors"></a>Offerteaanvraag verzenden naar leveranciers
-1. In het **Actievenster** klikt u op **Verzenden**. Controleer op de pagina Offerteaanvraag verzenden of de leveranciers in de lijst de leveranciers zijn die de offerteaanvraag moeten ontvangen.  
+1. In het **actievenster** klikt u op **Verzenden**. Controleer op de pagina Offerteaanvraag verzenden of de leveranciers in de lijst de leveranciers zijn die de offerteaanvraag moeten ontvangen.  
 2. Klik op **Afdrukken**. In dit dialoogvenster kunt u de offerteaanvraag afdrukken. Als u ervoor kiest een antwoordblad af te drukken, wordt de inhoud hiervan gedefinieerd in Parameters voor Inkoopbeheer. Om te bepalen hoe u antwoordbladen afdrukt, klikt u op Geavanceerde afdrukopties zodra u het dialoogvenster Afdrukken hebt geopend. Er wordt voor elke leverancier een offerteaanvraag afgedrukt met de regels die de status Gemaakt of Verzonden hebben. Geannuleerde regels en regels met geregistreerde antwoorden worden niet afgedrukt.   
 3. Klik op **Annuleren**.
 4. Klik op **OK**.

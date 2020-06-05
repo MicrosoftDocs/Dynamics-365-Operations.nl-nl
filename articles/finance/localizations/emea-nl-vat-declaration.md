@@ -15,12 +15,12 @@ ms.search.scope: Core, Operations
 ms.search.region: Netherlands
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0bb3a92fdab2872ad0672798135c68761247305d
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 2fae23cc085fcd8db46426d831ac788c7617fd72
+ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249107"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339892"
 ---
 # <a name="vat-declaration-for-the-netherlands"></a>Btw-aangifte voor Nederland
 
@@ -106,7 +106,7 @@ Digipoort is de service die wordt gebruikt om aangiften naar de Nederlandse over
 
 ![Pagina Parameters voor sleutelkluis](media/2_Key_Vault_parameters.png)
 
-Zie [Client voor Azure-sleutelkluis instellen](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/KeyVault/articles/finance/localizations/setting-up-azure-key-vault-client.md) voor meer informatie over het instellen van sleutelkluisparameters.
+Zie [Client voor Azure-sleutelkluis instellen](setting-up-azure-key-vault-client.md) voor meer informatie over het instellen van sleutelkluisparameters.
 
 ### <a name="set-up-electronic-tax-declaration-parameters"></a>Parameters voor elektronische belastingaangifte instellen
 

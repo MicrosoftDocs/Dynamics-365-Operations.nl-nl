@@ -1,9 +1,9 @@
 ---
-title: Overzicht van de Magazijnbeheer-app installeren en configureren
-description: In dit onderwerp wordt beschreven hoe u de Dynamics 365 for Finance and Operations - Warehousing-app kunt installeren en configureren.
+title: De app voor magazijnbeheer installeren en verbinden
+description: In dit onderwerp wordt uitgelegd hoe u de app voor magazijnbeheer op elk van uw mobiele apparaten installeert en configureert om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
 author: MarkusFogelberg
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,132 +19,258 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 52882ef7542bfedebdae4a08de8404cddd01ed55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205593"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367077"
 ---
-# <a name="install-and-configure-the-warehousing-app-overview"></a>Overzicht van de Magazijnbeheer-app installeren en configureren
+# <a name="install-and-connect-the-warehousing-app"></a>De app voor magazijnbeheer installeren en verbinden
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> 
-> In dit onderwerp wordt beschreven hoe u magazijnbeheer voor cloudimplementaties configureert. Als u wilt weten hoe u magazijnbeheer configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> In dit onderwerp wordt beschreven hoe u magazijnbeheer voor cloudimplementaties configureert. Als u op zoek bent naar informatie over hoe u magazijnbeheer configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
+De app voor magazijnbeheer is beschikbaar in Google Play Store en Microsoft Store. Deze wordt als zelfstandig onderdeel geleverd. Daarom moet u de app op elk apparaat downloaden en vervolgens configureren om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving.
 
-In dit onderwerp wordt beschreven hoe u de Dynamics 365 for Finance and Operations - Warehousing-app kunt installeren en configureren.
+In dit onderwerp wordt uitgelegd hoe u de app voor magazijnbeheer op elk van uw mobiele apparaten installeert en configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
 
-De Warehousing-app is beschikbaar in Google Play Store en Windows Store. Voor de huidige versie van Dynamics 365 Supply Chain Management wordt deze app geleverd als een zelfstandig onderdeel. Dit betekent dat u het zelf moet implementeren op apparaten die worden gebruikt voor magazijntaken. Om de app te kunnen gebruiken, moet u de app downloaden op elk apparaat en configureren om verbinding te maken met uw Supply Chain Management-omgeving. In dit onderwerp wordt beschreven hoe u de app op uw apparaten installeert. Ook wordt uitgelegd hoe u de app configureert om verbinding te maken met uw Supply Chain Management-omgeving.
+## <a name="system-requirements"></a>Systeemvereisten
 
-## <a name="prerequisites"></a>Vereisten
-De app is beschikbaar op Android- en Windows-besturingssystemen. Als u deze toepassing wilt gebruiken, moet u een van de volgende ondersteunde besturingssystemen op uw apparaten hebben geïnstalleerd. U moet ook een van de volgende ondersteunde versies hebben. Gebruik de informatie in de volgende tabel om te evalueren of uw hardware- en softwareomgeving voorbereid is voor ondersteuning van de installatie.
+De app voor magazijnbeheer is beschikbaar op zowel Windows- als Android-besturingssystemen. Als u de meest recente versie van de app wilt gebruiken, moet u een van de volgende besturingssystemen op uw mobiele apparaten hebben geïnstalleerd:
 
-| Platform                    | Versie                                                                                                                                                                     |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0, 9.0                                                                                                                                                     |
-| Windows (UWP)               | Windows 10 (alle versies)                                                                                                                                                   |
-| Finance and Operations | Microsoft Dynamics 365 for Operations, versie 1611 <br>– of – <br>Microsoft Dynamics AX versie 7.0/7.0.1 en Microsoft Dynamics AX platform update 2 met hotfix KB 3210014 |
-
-## <a name="get-the-app"></a>De app verkrijgen
--   Windows (UWP)
-     - [Finance and Operations - Magazijnbeheer in de Windows Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
--   Android
-    - [Finance and Operations - Magazijnbeheer in de Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
+- Windows 10 (Universal Windows Platform \[UWP\]) makersupdate najaar 1709 (build 10.0.16299) of hoger
+- Android 4.4 of hoger
 
 > [!NOTE]
-> De Zebra App Gallery is buiten gebruik gesteld, wat betekent dat de app Warehousing niet meer kan worden gedownload vanaf die locatie.
+> Als u oudere Windows-apparaten moet ondersteunen waarop de meest recente versie van Windows niet kan worden uitgevoerd, kunt u nog steeds versie 1.6.3.0 van de app voor magazijnbeheer downloaden vanuit de Microsoft Store. Deze versie wordt uitgevoerd onder Windows 10 (UWP) update voor november 1511 (build 10.0.10586) of hoger. Houd er echter rekening mee dat deze versie van de app voor magazijnbeheer geen grootschalige implementatie van verbindingsinstellingen ondersteunt. Daarom moet u [de verbinding handmatig configureren](#config-manually) op elk apparaat waarop deze versie van de app wordt uitgevoerd.
 
-## <a name="create-a-web-service-application-in-azure-active-directory"></a>Een webservicetoepassing in Azure Active Directory maken
-Als u de app wilt inschakelen voor interactie met een specifieke Supply Chain Management-server, moet u een webservicetoepassing registreren in een Azure Active Directory voor de Supply Chain Management-tenant. Uit veiligheidsoverwegingen wordt aangeraden dat u een webservicetoepassing maakt voor elk apparaat dat u gebruikt. Als u een webservicetoepassing in Azure Active Directory (Azure AD) wilt maken, voert u de volgende stappen uit:
+## <a name="get-the-warehousing-app"></a>De app voor magazijnbeheer ophalen
 
-1.  Ga in een webbrowser naar <https://portal.azure.com>.
-2.  Voer de naam en het wachtwoord in voor de gebruiker die toegang heeft tot het Azure-abonnement.
-3.  Klik in Azure Portal in het linkernavigatievenster op **Azure Active Directory**.
+Gebruik een van de volgende koppelingen om de app te downloaden:
 
-    [![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+- **Windows (UWP):** [Dynamics 365 for Finance and Operations - Magazijnbeheer in de Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+- **Android:** [Warehousing - Dynamics 365 in de Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-4.  Controleer of het Active Directory-exemplaar het exemplaar is dat wordt gebruikt door Supply Chain Management.
-5.  Klik in de lijst op **App-registraties**. 
+Voor kleinere implementaties wilt u de app mogelijk vanuit de relevante store op elk apparaat installeren en vervolgens handmatig de verbinding configureren voor de omgevingen die u gebruikt. In versie 1.7.0.0 en hoger van de app voor magazijnbeheer kunt u echter ook de implementatie en/of configuratie van de app automatiseren. U zult deze aanpak wellicht handig vinden als u veel apparaten beheert en een oplossing voor beheer van mobiele apparaten gebruikt, zoals [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Zie [Apps aan Microsoft Intune toevoegen](https://docs.microsoft.com/mem/intune/apps/apps-add) voor informatie over het gebruik van Intune om toepassingen toe te voegen.
 
-    [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Een webservicetoepassing maken in Azure Active Directory
 
-6.  Klik in het bovenste deelvenster op **Nieuwe registratie**. De wizard **Een toepassing registreren** wordt gestart.
-7.  Voer een naam voor de toepassing in en selecteer **Alleen accounts in deze organisatieadreslijst**. Klik op **Registreren**.  
+Als u de app voor magazijnbeheer wilt inschakelen voor interactie met een specifieke Supply Chain Management-server, moet u een webservicetoepassing voor de Supply Chain Management-tenant registreren in Azure Active Directory (Azure AD). In de volgende procedure wordt één manier weergegeven om deze taak te voltooien. Zie de koppelingen na de procedure voor gedetailleerde informatie en alternatieven.
 
-    [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+1. Ga in een webbrowser naar [https://portal.azure.com](https://portal.azure.com/).
+1. Voer de naam en het wachtwoord in van de gebruiker die toegang heeft tot het Azure-abonnement.
+1. Selecteer in de Azure-portal in het linkernavigatievenster de optie **Azure Active Directory**.
 
-8.  Uw nieuwe app-registratie wordt geopend. 
+    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
 
-    [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+1. Controleer of u werkt met het exemplaar van Azure AD dat wordt gebruikt door Supply Chain Management.
+1. Selecteer in de lijst **Beheren** de optie **App-registraties**.
 
-9.  Vergeet de **toepassings-id** niet. U hebt deze later nodig. De **toepassings-id** wordt hierna aangeduid als de **client-id**.
-10. Klik op **Certificaat en geheimen** in het deelvenster **Beheer**. Klik op **Nieuw clientgeheim**. 
+    ![App-registraties](media/app-connect-azure-register.png "App-registraties")
 
-    [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
+1. Selecteer op de werkbalk de optie **Nieuwe registratie** om de wizard **Een toepassing registreren** te openen.
+1. Voer een naam voor de toepassing in, selecteer de optie **Alleen accounts in deze organisatieadreslijst** en selecteer vervolgens **Registreren**.
 
-11. Maak een sleutel door een sleutelomschrijving en een duur in te voeren in het gedeelte **Wachtwoorden**. Klik op **Toevoegen** en kopieer de sleutel. Naar deze sleutel wordt later verwezen als **Clientgeheim**. 
+    ![Wizard Een toepassing registreren](media/app-connect-azure-register-wizard.png "Wizard Een toepassing registreren")
 
-    [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
+1. Uw nieuwe app-registratie wordt geopend. Noteer de waarde in het veld **Toepassings-id (client)**. U hebt deze later nog nodig. Deze id wordt later in dit onderwerp aangeduid als de *client-id*.
+
+    ![Id van toepassing (client)](media/app-connect-azure-app-id.png "Id van toepassing (client)")
+
+1. Selecteer in de lijst **Beheren** de optie **Certificaat en geheimen**. Selecteer vervolgens een van de volgende knoppen, afhankelijk van hoe u de app wilt configureren voor verificatie. (Zie de sectie [Verifiëren via een certificaat of clientgeheim](#authenticate) verderop in dit onderwerp voor meer informatie.)
+
+    - **Certificaat uploaden**: upload een certificaat voor gebruik als geheim. We raden deze benadering aan, omdat het veiliger is en ook meer kan worden geautomatiseerd. Als u de app voor magazijnbeheer uitvoert op Windows-apparaten, noteert u de waarde voor **Vingerafdruk** die wordt weergegeven nadat u het certificaat hebt geüpload. U hebt deze waarde nodig wanneer u het certificaat op Windows-apparaten configureert.
+    - **Nieuw clientgeheim**: maak een sleutel door een beschrijving en een duur voor de sleutel in te voeren in de sectie **Wachtwoorden** en selecteer vervolgens **Toevoegen**. Maak een kopie van de sleutel en sla deze veilig op.
+
+    ![Certificaat en geheimen](media/app-connect-azure-authentication.png "Certificaat en geheimen")
+
+Zie de volgende bronnen voor meer informatie over het instellen van webservicetoepassingen in Azure AD.
+
+- Zie [Procedure: Azure PowerShell gebruiken om een service-principal te maken met een certificaat](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell) voor instructies voor het gebruik van Windows PowerShell om webservicetoepassingen in te stellen in Azure AD.
+- Zie de volgende onderwerpen voor gedetailleerde informatie over het handmatig maken van een webservicetoepassing in Azure AD.
+
+    - [Snelstart: Een toepassing registreren op het Microsoft-identiteitsplatform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
+    - [Procedure: de portal gebruiken om een Azure AD-toepassing en een service-principal te maken die toegang hebben tot bronnen](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Een gebruikersaccount in Supply Chain Management maken en configureren
-Als u Supply Chain Management wilt inschakelen om uw Azure AD-toepassing te gebruiken, moet u de volgende configuratiestappen uitvoeren:
 
-1.  Maak een gebruiker die met de gebruikersreferenties van de app Warehousing overeenkomt.
-    1.  Ga naar **Systeembeheer** &gt; **Algemeen** &gt; **Gebruikers**.
-    2.  Maak een nieuwe gebruiker.
-    3.  Wijs de gebruiker van het mobiele apparaat voor Magazijnbeheer toe, zoals in de volgende schermopname wordt weergegeven. 
-    
-        [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
+Voer de volgende stappen uit om Supply Chain Management in staat te stellen om uw Azure AD-toepassing te gebruiken.
 
-2.  Koppel uw Azure Active Directory-toepassing aan de gebruiker van de app voor magazijnbeheer.
-    1.  Ga in Supply Chain Management naar **Systeembeheer** &gt; **Instellen** &gt; **Azure Active Directory-toepassingen**.
-    2.  Maak een nieuwe regel.
-    3.  Voer de **Client-ID** in (verkregen in het laatste gedeelte), geef deze een naam en selecteer de eerder gemaakte gebruiker. Het is raadzaam al uw apparaten te labelen, zodat u eenvoudig de toegang ervan tot Supply Chain Management van deze pagina kunt verwijderen voor het geval u ze kwijt raakt. 
-    
-        [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
+1. Maak een gebruiker die met de gebruikersreferenties voor de app voor magazijnbeheer:
 
-## <a name="configure-the-application"></a>De toepassing configureren
-U moet de app configureren op het apparaat om verbinding te maken met de Supply Chain Management-server via de Azure AD-toepassing. Hiervoor moet u de volgende stappen uitvoeren.
+    1. Ga in Supply Chain Management naar **Systeembeheer \> Gebruikers \> Gebruikers**.
+    1. Maak een gebruiker.
+    1. Wijs de gebruiker van het mobiele apparaat voor magazijnbeheer toe.
 
-1.  Ga in de app naar **Verbindingsinstellingen**.
-2.  Schakel het veld **Demomodus** uit. <br>
+    ![De gebruiker van het mobiele apparaat voor magazijnbeheer toewijzen](media/app-connect-app-users.png "De gebruiker van het mobiele apparaat voor magazijnbeheer toewijzen")
 
-    [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+1. Koppel uw Azure AD-toepassing aan de gebruiker van de app voor magazijnbeheer:
 
-3.  Voer de volgende gegevens in: 
-    + **Client-id Azure Active Directory**: De client-id wordt verkregen in stap 9 in "Een webservicetoepassing maken in Active Directory". 
-    + **Clientgeheim Azure Active Directory**: Het clientgeheim wordt verkregen in stap 11 in "Een webservicetoepassing maken in Active Directory". 
-    + **Resource Azure Active Directory**: de resource van Azure AD toont de hoofd-URL van Supply Chain Management. 
-    
+    1. Ga naar **Systeembeheer \> Instellingen \> Azure Active Directory-toepassingen**.
+    1. Maak een regel.
+    1. Voer de client-id in waarvan u een notitie hebt gemaakt in de vorige sectie, geef deze een naam en selecteer de gebruiker die u zojuist hebt gemaakt. We adviseren u om al uw apparaten te labelen. Als u deze dan kwijtraakt, kunt u hun toegang tot Supply Chain Management eenvoudig verwijderen vanaf deze pagina.
+
+    ![Azure Active Directory-toepassingen](media/app-connect-aad-apps.png "Azure Active Directory-toepassingen")
+
+## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Verifiëren via een certificaat of clientgeheim
+
+Verificatie met Azure AD biedt een veilige manier om een mobiel apparaat te verbinden met Supply Chain Management. U kunt verifiëren via een clientgeheim of een certificaat. Als u verbindingsinstellingen gaat importeren, is het raadzaam een certificaat te gebruiken in plaats van een clientgeheim. Omdat het clientgeheim altijd veilig moet worden opgeslagen, kunt u het niet importeren vanuit een bestand met verbindingsinstellingen of een QR-code, zoals verderop in dit onderwerp wordt beschreven.
+
+Certificaten kunnen worden gebruikt als geheimen om de identiteit van de toepassing te bewijzen wanneer een token wordt aangevraagd. Het openbare gedeelte van het certificaat wordt geüpload naar de app-registratie in de Azure-portal, terwijl het volledige certificaat moet worden geïmplementeerd op elk apparaat waarop de app voor magazijnbeheer is geïnstalleerd. Uw organisatie is verantwoordelijk voor het beheer van het certificaat wat betreft rotatie en dergelijke. U kunt zelfondertekende certificaten gebruiken, maar u moet altijd met niet-exporteerbare certificaten werken.
+
+U moet het certificaat lokaal beschikbaar maken voor elk apparaat waarop u de app voor magazijnbeheer uitvoert. Zie [Certificaten voor verificatie gebruiken in Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure) voor informatie over het beheren van certificaten voor door Intune beheerde apparaten als u Intune gebruikt.
+
+## <a name="configure-the-application-by-importing-connection-settings"></a>De toepassing configureren door verbindingsinstellingen te importeren
+
+Om het gemakkelijker te maken om de toepassing op veel mobiele apparaten te onderhouden en te implementeren, kunt u de verbindingsinstellingen importeren in plaats van deze handmatig op elk apparaat in te voeren. In deze sectie wordt uitgelegd hoe u de instellingen maakt en importeert.
+
+### <a name="create-a-connection-settings-file-or-qr-code"></a>Een bestand met verbindingsinstellingen of QR-code maken
+
+U kunt verbindingsinstellingen importeren vanuit een bestand of een QR-code. Voor beide benaderingen moet u eerst een instellingenbestand maken dat gebruikmaakt van de JSON-indeling (JavaScript Object Notation) en -syntaxis. Het bestand moet een lijst met verbindingen bevatten met de afzonderlijke verbindingen die moeten worden toegevoegd. De volgende tabel bevat een overzicht van de parameters die u moet opgeven in het bestand met verbindingsinstellingen.
+
+| Parameter | Omschrijving |
+| --- | --- |
+| ConnectionName | Geef de naam op van de verbindingsinstelling. De tekst mag maximaal 20 tekens lang zijn. Omdat deze waarde de unieke id voor een verbindingsinstelling is, moet u ervoor zorgen dat deze uniek is in de lijst. Als er al een verbinding met dezelfde naam op het apparaat aanwezig is, wordt deze overschreven door de instellingen van het geïmporteerde bestand. |
+| ActiveDirectoryClientAppId | Geef de client-id op waarvan u een notitie hebt gemaakt terwijl u bezig was met het instellen van Azure AD in de sectie [Een webservicetoepassing maken in Azure Active Directory](#create-service). |
+| ActiveDirectoryResource | Geef de basis-URL van Supply Chain Management op. |
+| ActiveDirectoryTenant | Geef de Azure AD-tenant op die u gebruikt met de server voor Supply Chain Management. Deze waarde heeft de vorm `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Hier volgt een voorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
+| Bedrijf | Geef de rechtspersoon in Supply Chain Management op waarmee de toepassing verbinding moet maken. |
+| ConnectionType | (Optioneel) Geef op of de verbindingsinstelling een certificaat of clientgeheim moet gebruiken om verbinding te maken met een omgeving. Geldige waarden zijn *"certificate"* en *"clientsecret"*. De standaardwaarde is *"certificate"*.<p>**Opmerking:** clientgeheimen kunnen niet worden geïmporteerd.</p> |
+| IsEditable | (Optioneel) Geef op of de app-gebruiker de verbindingsinstelling moet kunnen bewerken. Geldige waarden zijn *"true"* en *"false"*. De standaardwaarde is *"true"*. |
+| IsDefault | (Optioneel) Geef op of de verbinding de standaardverbinding is. Een verbinding die is ingesteld als de standaardverbinding wordt automatisch ingeschakeld wanneer de app wordt geopend. U kunt slechts één verbinding instellen als de standaardverbinding. Geldige waarden zijn *"true"* en *"false"*. De standaardwaarde is *"false"*. |
+| CertificateThumbprint | (Optioneel) Voor Windows-apparaten kunt u de vingerafdruk van het certificaat voor de verbinding opgeven. Voor Android-apparaten moet de gebruiker van de app het certificaat selecteren wanneer een verbinding voor het eerst wordt gebruikt. |
+
+Het volgende voorbeeld toont een geldig bestand met verbindingsinstellingen dat twee verbindingen bevat. Zoals u ziet, is de lijst met verbindingen (met de naam *'ConnectionList'* in het bestand) een object dat een matrix heeft waarin elke verbinding als een object wordt opgeslagen. Elk object moet tussen accolades ({}) worden geplaatst en worden gescheiden door komma's, terwijl de matrix tussen vierkante haken (\[\]) moet staan.
+
+```json
+{
+    "ConnectionList": [
+        {
+            "ActiveDirectoryClientAppId":"aaaaaaaa-bbbb-ccccc-dddd-eeeeeeeeeeee",
+            "ConnectionName": "Connection1",
+            "ActiveDirectoryResource": "https://yourenvironment.cloudax.dynamics.com",
+            "ActiveDirectoryTenant": "https://login.windows.net/contosooperations.onmicrosoft.com",
+            "Company": "USMF",
+            "IsEditable": false,
+            "IsDefaultConnection": true,
+            "CertificateThumbprint": "aaaabbbbcccccdddddeeeeefffffggggghhhhiiiii",
+            "ConnectionType": "certificate"
+        },
+        {
+            "ActiveDirectoryClientAppId":"aaaaaaaa-bbbb-ccccc-dddd-eeeeeeeeeeee",
+            "ConnectionName": "Connection2",
+            "ActiveDirectoryResource": "https://yourenvironment2.cloudax.dynamics.com",
+            "ActiveDirectoryTenant": "https://login.windows.net/contosooperations.onmicrosoft.com",
+            "Company": "USMF",
+            "IsEditable": true,
+            "IsDefaultConnection": false,
+            "ConnectionType": "clientsecret"
+        }
+    ]
+}
+```
+
+U kunt de gegevens opslaan als een JSON-bestand of een QR-code met dezelfde inhoud genereren. Als u de gegevens als een bestand opslaat, is het aan te raden de standaardnaam, *connections.json* te gebruiken, met name als u de gegevens opslaat op de standaardlocatie op elk mobiel apparaat.
+
+### <a name="save-the-connection-settings-file-on-each-device"></a>Het bestand met de verbindingsinstellingen opslaan op elk apparaat
+
+Meestal gebruikt u een hulpprogramma voor apparaatbeheer of een script voor het distribueren van de bestanden met verbindingsinstellingen naar elk apparaat dat u beheert. Als u de standaardnaam en -locatie gebruikt wanneer u het bestand met verbindingsinstellingen opslaat op elk apparaat, wordt dit door de app voor magazijnbeheer automatisch geïmporteerd, zelfs tijdens de eerste uitvoering nadat de app is geïnstalleerd. Als u een aangepaste naam of locatie voor het bestand gebruikt, moet de app-gebruiker de waarden opgeven tijdens de eerste uitvoering. De opgegeven naam en locatie worden echter naderhand door de app gebruikt.
+
+Telkens wanneer de app wordt gestart, worden de verbindingsinstellingen van de vorige locatie opnieuw geïmporteerd om te bepalen of er wijzigingen zijn aangebracht. De app werkt alleen verbindingen bij die dezelfde naam hebben als de verbindingen in het bestand met verbindingsinstellingen. Door de gebruiker gemaakte verbindingen waarbij andere namen worden gebruikt, worden niet bijgewerkt.
+
+U kunt een verbinding niet verwijderen via het bestand met verbindingsinstellingen.
+
+Zoals aangegeven, is *connections.json* de standaardbestandsnaam. De standaardbestandslocatie is afhankelijk van het feit of u een Windows-apparaat of een Android-apparaat gebruikt:
+
+- **Windows:** `C:\Users\<User>\AppData\Local\Packages\Microsoft.Dynamics365forOperations-Warehousing_8wekyb3d8bbwe\LocalState`
+- **Android:** `Android\data\com.Microsoft.Dynamics365forOperationsWarehousing\files`
+
+Gewoonlijk worden de paden automatisch gemaakt na de eerste uitvoering van de app. U kunt ze echter handmatig maken als u het bestand met verbindingsinstellingen vóór de installatie naar het apparaat moet overzetten.
+
+> [!NOTE]
+> Als de app wordt verwijderd, worden het standaardpad en de inhoud hiervan verwijderd.
+
+### <a name="import-the-connection-settings"></a>De verbindingsinstellingen importeren
+
+Volg deze stappen om verbindingsinstellingen te importeren vanuit een bestand of een QR-code.
+
+1. Open de app voor magazijnbeheer op uw mobiele apparaat.
+1. Ga naar **Verbindingsinstellingen**.
+1. Stel de optie **Demomodus gebruiken** in op _Nee_.
+
+    ![Optie Demomodus gebruiken](media/app-connect-app-demo-mode.png "Optie Demomodus gebruiken")
+
+1. Selecteer **Bestand selecteren** of **QR-code scannen**, afhankelijk van hoe u de instellingen wilt importeren:
+
+    - Als u de verbindingsinstellingen vanuit een bestand importeert, kan de app het bestand mogelijk al hebben gevonden als de standaardnaam en de standaardlocatie zijn gebruikt bij het opslaan van het bestand. Selecteer anders **Bestand selecteren**, blader naar het bestand op het lokale apparaat en selecteer het. Als u een aangepaste locatie selecteert, wordt deze door de app opgeslagen en de volgende keer automatisch gebruikt.
+    - Als u de verbindingsinstellingen importeert door een QR-code te scannen, selecteert u **QR-code scannen**. De app vraagt u om toestemming om de camera van het apparaat te gebruiken. Nadat u toestemming hebt gegeven, wordt de camera gestart, zodat u deze kunt gebruiken voor het scannen. Afhankelijk van de kwaliteit van de camera van het apparaat en de complexiteit van de QR-code kan het lastig zijn om een correcte scan te krijgen. Probeer in dat geval de complexiteit van de QR-code te verminderen door slechts één verbinding per QR-code te genereren. (Momenteel kunt u alleen de camera van het apparaat gebruiken om de QR-code te scannen.)
+
+    ![Verbindingsinstellingen importeren](media/app-connect-app-select-file.png "Verbindingsinstellingen importeren")
+
+1. Wanneer de verbindingsinstellingen zijn geladen, selecteert u de knop **Vorige** (pijl naar links) in de linkerbovenhoek van de pagina.
+
+    ![Verbindingsinstellingen geladen](media/app-connect-app-settings-loaded.png "Verbindingsinstellingen geladen")
+
+1. Als u met een Android-apparaat werkt en een certificaat voor verificatie gebruikt, vraagt het apparaat u om het certificaat te selecteren.
+
+    ![Certificaatprompt kiezen op een Android-apparaat](media/app-connect-app-choose-cert.png "Certificaatprompt kiezen op een Android-apparaat")
+
+1. De app maakt verbinding met uw Supply Chain Management-server en geeft de aanmeldingspagina weer.
+
+    ![Aanmeldingspagina](media/app-connect-sign-in.png "Aanmeldingspagina")
+
+## <a name="manually-configure-the-application"></a><a name="config-manually"></a>De toepassing handmatig configureren
+
+U kunt de app handmatig configureren op het apparaat zodat deze verbinding maakt met de Supply Chain Management-server via de Azure AD-toepassing.
+
+1. Open de app voor magazijnbeheer op uw mobiele apparaat.
+1. Ga naar **Verbindingsinstellingen**.
+1. Stel de optie **Demomodus gebruiken** in op _Nee_.
+
+    ![Demomodus uitgeschakeld](media/app-connect-app-select-file.png "Demomodus uitgeschakeld")
+
+1. Tik op het veld **Verbinding selecteren** om de instellingen uit te vouwen die nodig zijn om de verbindingsgegevens handmatig in te voeren.
+
+    ![Handmatige verbindingsvelden](media/app-connect-manual-connect.png "Handmatige verbindingsvelden")
+
+1. Voer de volgende gegevens in:
+
+    - **Clientgeheim gebruiken**: stel deze optie in op _Ja_ als u een clientgeheim wilt gebruiken voor verificatie met Supply Chain Management. Stel deze in op _Nee_ om een certificaat voor verificatie te gebruiken. (Zie [Een webservicetoepassing maken in Azure Active Directory](#create-service) voor meer informatie.)
+    - **Verbindingsnaam**: voer een naam in voor de nieuwe verbinding. Deze naam wordt weergegeven in het veld **Verbinding selecteren** wanneer u de verbindingsinstellingen de volgende keer opent. De naam die u invoert, moet uniek zijn. (Met andere woorden, de naam moet verschillen van alle andere verbindingsnamen die op het apparaat zijn opgeslagen als er daar nog andere verbindingsnamen zijn opgeslagen.).
+    - **Client-id Active Directory**: geef de client-id op waarvan u een notitie hebt gemaakt terwijl u bezig was met het instellen van Azure AD in de sectie [Een webservicetoepassing maken in Azure Active Directory](#create-service).
+    - **Clientgeheim Active Directory**: dit veld is alleen beschikbaar wanneer de optie **Clientgeheim gebruiken** is ingesteld op _Ja_. Voer het clientgeheim in waarvan u een notitie hebt gemaakt terwijl u bezig was met het instellen van Azure AD in de sectie [Een webservicetoepassing maken in Azure Active Directory](#create-service).
+    - **Vingerafdruk Active Directory-certificaat**: dit veld is alleen beschikbaar voor Windows-apparaten wanneer de optie **Clientgeheim gebruiken** is ingesteld op _Nee_. Voer de vingerafdruk voor het certificaat in waarvan u een notitie hebt gemaakt terwijl u bezig was met het instellen van Azure AD in de sectie [Een webservicetoepassing maken in Azure Active Directory](#create-service).
+    - **Resource Active Directory**: geef de basis-URL op van Supply Chain Management.
+
         > [!NOTE]
-        > Dit veld mag niet met een slash (/) worden afgesloten. 
+        > Sluit deze waarde niet af met een slash (/).
 
-    + **Tenant Azure Active Directory**: de Azure AD-tenant die wordt gebruikt met de Supply Chain Management-server: `https://login.windows.net/your-AD-tenant-ID`. Voorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
-    
+    - **Tenant Active Directory**: voer de Azure AD-tenant in die u gebruikt met de Supply Chain Management-server. Deze waarde heeft de vorm `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Hier volgt een voorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+
         > [!NOTE]
-        > Dit veld mag niet met een slash (/) worden afgesloten. 
-    
-    + **Bedrijf**: voer de rechtspersoon in Supply Chain Management in waarmee de toepassing verbinding moet maken. <br>
-    
-    [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+        > Sluit deze waarde niet af met een slash (/).
 
-4.  Selecteer de knop **Terug** in de linkerbovenhoek van de toepassing. De toepassing maakt nu verbinding met uw Supply Chain Management-server en het aanmeldingsscherm wordt voor de magazijnmedewerker weergegeven.
+    - **Bedrijf**: voer de rechtspersoon in Supply Chain Management in waarmee u de toepassing verbinding wilt laten maken.
 
-    [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
-
-Meer informatie over het instellen van de app Warehousing om streepjescodes te scannen met behulp van een camera op een mobiel apparaat vindt u in [Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations – Warehousing-app](scan-bar-codes-using-a-camera.md).
+1. Selecteer de knop **Opslaan** in de rechterbovenhoek van de pagina.
+1. Als u met een Android-apparaat werkt en een certificaat voor verificatie gebruikt, vraagt het apparaat u om het certificaat te selecteren.
+1. De app maakt verbinding met uw Supply Chain Management-server en geeft de aanmeldingspagina weer.
 
 ## <a name="remove-access-for-a-device"></a>Toegang voor een apparaat verwijderen
-In geval van een verloren of beschadigd apparaat moet u de toegang tot Supply Chain Management voor het apparaat verwijderen. In de volgende stappen wordt het aanbevolen proces beschreven om toegang uit te schakelen.
 
-1.  Ga naar **Systeembeheer** &gt; **Instellen** &gt; **Azure Active Directory-toepassingen**.
-2.  Verwijder de regel die overeenkomt met het apparaat waarvoor u toegang wilt verwijderen. Vergeet de **client-id** niet die wordt gebruikt voor het verwijderde apparaat. U hebt deze later nodig.
-3.  Meld u aan bij de Azure-portal op <https://portal.azure.com>.
-4.  Klik op het pictogram **Active Directory** in het linkermenu en zorg dat u zich in de juiste map bevindt.
-5.  Klik in de lijst op **App-registraties** en klik vervolgens op de toepassing die u wilt configureren. De pagina **Instellingen** wordt weergegeven met informatie over de configuratie.
-6.  Zorg ervoor dat de **client-id** van de toepassing hetzelfde is als bij stap 2 in deze sectie.
-7.  Klik op de knop **Verwijderen** in het bovenste deelvenster.
-8.  Klik op **Ja** in het bevestigingsbericht.
+In geval van een verloren of beschadigd apparaat moet u de toegang tot Supply Chain Management voor het apparaat verwijderen. In de volgende stappen wordt het aanbevolen proces beschreven om de toegang uit te schakelen.
+
+1. Ga naar **Systeembeheer \> Instellingen \> Azure Active Directory-toepassingen**.
+1. Verwijder de regel die overeenkomt met het apparaat waarvoor u de toegang wilt verwijderen. Noteer de client-id die wordt gebruikt voor het verwijderde apparaat, omdat u deze later nodig hebt.
+
+    Als u slechts één client-id hebt geregistreerd en meerdere apparaten dezelfde client-id gebruiken, moet u de nieuwe verbindingsinstellingen naar die apparaten overbrengen. Anders raken zij de toegang kwijt.
+
+1. Meld u aan bij de Azure-portal op [https://portal.azure.com](https://portal.azure.com/).
+1. Selecteer in het linkernavigatievenster de optie **Active Directory** en controleer of u zich in de juiste map bevindt.
+1. Selecteer in de lijst **Beheren** de optie **App-registraties** en selecteer vervolgens de toepassing die u wilt configureren. De pagina **Instellingen** wordt weergegeven met informatie over de configuratie.
+1. Controleer of de client-id van de toepassing overeenkomt met de client-id waarvan u in stap 2 een notitie hebt gemaakt.
+1. Selecteer **Verwijderen** op de werkbalk.
+1. Selecteer **Ja** in het bevestigingsbericht dat wordt weergegeven.

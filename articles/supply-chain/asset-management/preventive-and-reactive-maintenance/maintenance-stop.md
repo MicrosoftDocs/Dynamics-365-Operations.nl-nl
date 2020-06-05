@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8946baa4597ad4b696bcb6bcc49d4202163a41a9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214850"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383522"
 ---
 # <a name="maintenance-downtime"></a>Uitvaltijd voor onderhoud
 
@@ -75,7 +75,7 @@ In de onderstaande afbeelding ziet u een voorbeeld van de detailweergave **Activ
 
 9. In het dialoogvenster **Capaciteitsbelasting berekenen** kunt u de begin- en eindtijden bewerken en selecteren of u werkorders en onderhoudsschema's in de berekening wilt opnemen. Gebruik het veld **Niveau** om aan te geven hoe gedetailleerd u de capaciteitsbelasting wilt berekenen met betrekking tot functionele locaties. Als u bijvoorbeeld het getal 1 in het veld invoegt en u een structuur met meerdere niveaus voor functionele locaties hebt, worden alle activa voor een functionele locatie die in de activiteit voor uitvaltijd voor onderhoud zijn geselecteerd, weergegeven op het hoogste niveau. Het is daarom mogelijk dat de uren op een regel worden opgeteld vanuit functionele locaties die zich op een lager niveau bevinden. Als u het getal 0 in het veld **Niveau** invoegt, ziet u een gedetailleerd resultaat met alle regels voor capaciteitsbelasting op alle niveaus voor functionele locaties waarop deze betrekking hebben.
 
-10. Klik op **OK** om de berekening te starten. Het totaal aantal uren wordt weergegeven in het overzicht **Capaciteitsbelasting**. Klik op het tabblad **Capaciteitsbelasting** > in de groepen in het actievenster **Groeperen op…** op de relevante knoppen voor een gedetailleerder overzicht van de toewijzing van geraamde uren. In de onderstaande afbeelding ziet u de resultaten van de berekening van de **Capaciteitsbelasting**.
+10. Klik op **OK** om de berekening te starten. Het totaal aantal uren wordt weergegeven in het overzicht **Capaciteitsbelasting**. Klik op het tabblad **Capaciteitsbelasting** > in de actievenstergroepen **Groeperen op…** op de relevante knoppen voor een gedetailleerder overzicht van de toewijzing van geraamde uren. In de onderstaande afbeelding ziet u de resultaten van de berekening van de **Capaciteitsbelasting**.
 
 ![Figuur 3](media/21-preventive-maintenance.png)
 
@@ -92,7 +92,7 @@ In de onderstaande afbeelding ziet u een voorbeeld van de detailweergave **Activ
 
 15. In het dialoogvenster **Artikelprognose berekenen** kunt u de begin- en eindtijden bewerken en selecteren of u werkorders en onderhoudsschema's in de berekening wilt opnemen. Gebruik het veld **Niveau** om aan te geven hoe gedetailleerd u de capaciteitsbelasting wilt berekenen met betrekking tot functionele locaties. Als u bijvoorbeeld het getal 1 in het veld invoegt en u een structuur met meerdere niveaus voor functionele locaties hebt, worden alle activa voor een functionele locatie die in de activiteit voor uitvaltijd voor onderhoud zijn geselecteerd, weergegeven op het hoogste niveau. Het is daarom mogelijk dat de uren op een regel worden opgeteld vanuit functionele locaties die zich op een lager niveau bevinden. Als u het getal 0 in het veld **Niveau** invoegt, ziet u een gedetailleerd resultaat met alle regels voor capaciteitsbelasting op alle niveaus voor functionele locaties waarop deze betrekking hebben.
 
-16. Klik op **OK** om de berekening te starten. Het totaal aantal artikelprognoses wordt weergegeven in het overzicht **Artikelprognose**. Klik op het tabblad **Artikelprognose** > in de groepen met actievensters **Groeperen op…** op de relevante knoppen voor een gedetailleerder overzicht van de toewijzing van geraamde artikelen. In de onderstaande afbeelding ziet u de resultaten van de berekening van een **Artikelprognose**.
+16. Klik op **OK** om de berekening te starten. Het totaal aantal artikelprognoses wordt weergegeven in het overzicht **Artikelprognose**. Klik op het tabblad **Artikelprognose** > in de actievenstergroepen **Groeperen op…** op de relevante knoppen voor een gedetailleerder overzicht van de toewijzing van geraamde artikelen. In de onderstaande afbeelding ziet u de resultaten van de berekening van een **Artikelprognose**.
 
 ![Figuur 4](media/22-preventive-maintenance.png)
 
