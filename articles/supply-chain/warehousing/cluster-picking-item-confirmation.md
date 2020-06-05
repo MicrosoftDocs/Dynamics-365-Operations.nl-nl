@@ -17,26 +17,28 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e6493afb64acb4d7644aac8dad71a0917c76549
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205777"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367287"
 ---
+# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="be5a4-103">Productbevestiging voor clusterverzameling</span><span class="sxs-lookup"><span data-stu-id="be5a4-103">Product confirmation for cluster picking</span></span>
+
 [!include [banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="49b48-103">Productbevestiging voor clusterverzameling</span><span class="sxs-lookup"><span data-stu-id="49b48-103">Product confirmation for cluster picking</span></span>
-<span data-ttu-id="49b48-104">Met clusterverzameling kunt u artikelen verzamelen voor meerdere orders tegelijk.</span><span class="sxs-lookup"><span data-stu-id="49b48-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="49b48-105">Wanneer clusterverzameling wordt toegepast, is artikelbevestiging van groot belang om de artikelen te controleren die aan clusters worden toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="49b48-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="49b48-106">U kunt artikelen in clusterverzameling controleren tijdens het clusterverzamelingsproces.</span><span class="sxs-lookup"><span data-stu-id="49b48-106">You can verify items in cluster picking during the cluster picking process.</span></span>
+<span data-ttu-id="be5a4-104">Met clusterverzameling kunt u artikelen verzamelen voor meerdere orders tegelijk.</span><span class="sxs-lookup"><span data-stu-id="be5a4-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="be5a4-105">Wanneer clusterverzameling wordt toegepast, is artikelbevestiging van groot belang om de artikelen te controleren die aan clusters worden toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="be5a4-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="be5a4-106">U kunt artikelen in clusterverzameling controleren tijdens het clusterverzamelingsproces.</span><span class="sxs-lookup"><span data-stu-id="be5a4-106">You can verify items in cluster picking during the cluster picking process.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="49b48-107">Waar van toepassing</span><span class="sxs-lookup"><span data-stu-id="49b48-107">Where it applies</span></span>
-<span data-ttu-id="49b48-108">Artikelverificatie voor clusterverzameling op dezelfde manier als wanneer u artikelen in een niet-clusterverzamelingsproces controleert.</span><span class="sxs-lookup"><span data-stu-id="49b48-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="49b48-109">De instelling is gebaseerd op de instelling voor productstreepjescodes.</span><span class="sxs-lookup"><span data-stu-id="49b48-109">The setup is based on the product bar code setup.</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="be5a4-107">Waar van toepassing</span><span class="sxs-lookup"><span data-stu-id="be5a4-107">Where it applies</span></span>
 
-## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="49b48-110">Artikelverificatie met clusterverzameling instellen</span><span class="sxs-lookup"><span data-stu-id="49b48-110">Set up item verification with cluster picking</span></span>
-1.  <span data-ttu-id="49b48-111">Open in een menuoptie voor mobiele apparaten het instellingsformulier voor werkbevestiging : **Magazijnbeheer** > **Magazijnbeheer** > **Instellingen** > **Mobiel apparaat** > **Menuopties voor mobiel apparaat**.</span><span class="sxs-lookup"><span data-stu-id="49b48-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
-2.  <span data-ttu-id="49b48-112">Open in de menuoptie voor het mobiele apparaat **Werkbevestigingsinstellingen**.</span><span class="sxs-lookup"><span data-stu-id="49b48-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
+<span data-ttu-id="be5a4-108">Artikelverificatie voor clusterverzameling op dezelfde manier als wanneer u artikelen in een niet-clusterverzamelingsproces controleert.</span><span class="sxs-lookup"><span data-stu-id="be5a4-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="be5a4-109">De instelling is gebaseerd op de instelling voor productstreepjescodes.</span><span class="sxs-lookup"><span data-stu-id="be5a4-109">The setup is based on the product bar code setup.</span></span>
 
-|        <span data-ttu-id="49b48-113">Optie</span><span class="sxs-lookup"><span data-stu-id="49b48-113">Option</span></span>        |                                    <span data-ttu-id="49b48-114">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="49b48-114">Description</span></span>                                    |
+## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="be5a4-110">Artikelverificatie met clusterverzameling instellen</span><span class="sxs-lookup"><span data-stu-id="be5a4-110">Set up item verification with cluster picking</span></span>
+
+1. <span data-ttu-id="be5a4-111">Open in een menuoptie voor mobiele apparaten het instellingsformulier voor werkbevestiging : **Magazijnbeheer** > **Magazijnbeheer** > **Instellingen** > **Mobiel apparaat** > **Menuopties voor mobiel apparaat**.</span><span class="sxs-lookup"><span data-stu-id="be5a4-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
+1. <span data-ttu-id="be5a4-112">Open in de menuoptie voor het mobiele apparaat **Werkbevestigingsinstellingen**.</span><span class="sxs-lookup"><span data-stu-id="be5a4-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
+
+|        <span data-ttu-id="be5a4-113">Optie</span><span class="sxs-lookup"><span data-stu-id="be5a4-113">Option</span></span>        |                                    <span data-ttu-id="be5a4-114">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="be5a4-114">Description</span></span>                                    |
 |----------------------|-----------------------------------------------------------------------------------|
-| <span data-ttu-id="49b48-115">Productbevestiging</span><span class="sxs-lookup"><span data-stu-id="49b48-115">Product confirmation</span></span> | <span data-ttu-id="49b48-116">Hiermee kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren.</span><span class="sxs-lookup"><span data-stu-id="49b48-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
-
+| <span data-ttu-id="be5a4-115">Productbevestiging</span><span class="sxs-lookup"><span data-stu-id="be5a4-115">Product confirmation</span></span> | <span data-ttu-id="be5a4-116">Hiermee kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren.</span><span class="sxs-lookup"><span data-stu-id="be5a4-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
