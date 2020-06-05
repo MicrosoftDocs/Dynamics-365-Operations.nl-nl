@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d307ceae85773feb58d11e575df27e74b065cd3
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a9b5bafb70883d9daf35a7d5a9107d7aee23469
+ms.sourcegitcommit: 98ef9178b28cd548f08f8c32255636e6e09b25f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773444"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "3395981"
 ---
 # <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
@@ -265,13 +265,13 @@ Het btw-overzicht voor elk land moet voldoen aan de vereisten van de wetgeving v
 | België        |                                                                                 |
 | Tsjechische Republiek |  [Btw-overzicht voor Tsjechië](emea-cze-vat-statement-details.md)   |
 | Estland        |  [Details btw-overzicht voor Estland](emea-est-vat-statement-details.md) |
-| Finland        |                                                                                 |
-| Duitsland        |                                                                                 |
+| Finland        | [Btw-rapport voor Finland](emea-fin-sales-tax-payment-report-finland.md)          |
+| Duitsland        | [Btw-aangifte voor Duitsland](emea-de-vat-declaration.md)                       |
 | Italië          | [Details btw-overzichten voor Italië](emea-ita-vat-statements-details.md)            |
 | Letland         | [Details btw-overzicht voor Letland](emea-lva-vat-statement-details.md)           |
 | Litouwen      | [Details btw-overzicht voor Litouwen](emea-ltu-vat-statement-details.md)         |
-| Nederland    |                                                                                 |
-| Zweden         |                                                                                 |
+| Nederland    | [Btw-aangifte voor Nederland](emea-nl-vat-declaration.md)           |
+| Zweden         | [Btw-rapport voor Zweden](emea-swe-sales-tax-payment-report-sweden.md)          |
 
 
 

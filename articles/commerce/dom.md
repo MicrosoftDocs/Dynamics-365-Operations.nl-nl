@@ -3,7 +3,7 @@ title: Gedistribueerd orderbeheer
 description: In dit onderwerp wordt de functionaliteit voor gedistribueerd orderbeheer in Dynamics 365 Commerce beschreven.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a584953b0f4961e25b59bca51aa3928b87b2c7c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1121cc89b278c3694d0bbd667f1a540d17f4d180
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004315"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396027"
 ---
 # <a name="distributed-order-management-dom"></a>Gedistribueerd orderbeheer
 
@@ -37,20 +37,20 @@ DOM-systemen optimaliseren de orderafhandeling in een complex netwerk van system
 
 In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-systeem weergegeven.
 
-![Levenscyclus van verkooporders in de context van DOM](./media/flow.png "Levenscyclus van verkooporders in de context van DOM")
+![![Levenscyclus van verkooporders in de context van DOM](./media/flow.png "Levenscyclus van verkooporders in de context van DOM")](./media/flow.png "Sales order lifecycle in the context of DOM")
 
 ## <a name="set-up-dom"></a>DOM instellen
 
 1. Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**.
 2. Vouw op het tabblad **Configuratiesleutels** het knooppunt **Commerce** uit en schakel het selectievakje **Gedistribueerd orderbeheer** in.
-3. Ga naar **Detailhandel en commerce \> Gedistribueerd orderbeheer \> Instellingen \> DOM-parameters**.
+3. Ga naar **Retail en Commerce \> Gedistribueerd orderbeheer \> Instellingen \> DOM-parameters**.
 4. Stel op het tabblad **Algemeen** de volgende waarden in:
 
     - **Gedistribueerd orderbeheer inschakelen**: stel deze optie in op **Ja**.
     - **Gebruik van Bing Kaarten voor DOM bevestigen**: stel deze optie in op **Ja**.
 
         > [!NOTE]
-        > U kunt deze optie alleen op **Ja** instellen als de optie **Bing Kaarten inschakelen** op het tabblad **Bing Kaarten** van de pagina **Gedeelde parameters commerce** (**Detailhandel en commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde parameters commerce**) ook is ingesteld op **Ja** en als een geldige sleutel is opgegeven in het veld **Bing Maps-sleutel**.
+        > U kunt deze optie alleen op **Ja** instellen als de optie **Bing Kaarten inschakelen** op het tabblad **Bing Kaarten** van de pagina **Gedeelde parameters commerce** (**Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde parameters commerce**) ook is ingesteld op **Ja** en als een geldige sleutel is opgegeven in het veld **Bing Kaarten-sleutel**.
 
     - **Bewaarperiode in dagen**: geef op hoe lang de door het DOM-systeem gegenereerde afhandelingsplannen in het systeem moeten worden bewaard. Met de batchtaak **Instelling van taak voor verwijdering van DOM-afhandelingsgegevens** worden de afhandelingsplannen verwijderd die ouder zijn dan het aantal dagen dat u hier opgeeft.
     - **Afwijzingsperiode (in dagen)**: geef op hoeveel tijd moet verstrijken voordat een afgewezen orderregel aan dezelfde locatie kan worden toegewezen.
@@ -71,7 +71,7 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
         >
         > Hoewel Vereenvoudigde oplossing dezelfde verzameling mogelijkheden biedt als Productieoplossing, gelden er wel enkele beperkingen met betrekking tot prestaties (het aantal orders en orderregels dat per keer kan worden verwerkt) en de convergentie van resultaten (een batch orders levert mogelijk niet het beste resultaat op in sommige scenario's).
      
-6. Ga terug naar **Detailhandel en commerce \> Gedistribueerd orderbeheer \> Instellingen \> DOM-parameters**.
+6. Ga terug naar **Retail en Commerce \> Gedistribueerd orderbeheer \> Instellingen \> DOM-parameters**.
 7. Wijs op het tabblad **Nummerreeksen** het vereiste aantal nummerreeksen toe aan de verschillende DOM-entiteiten.
 
     > [!NOTE]
@@ -79,12 +79,21 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
 
 8. De DOM-functie ondersteunt de definitie van verschillende typen DOM-regels. Organisaties kunnen meerdere regels configureren, afhankelijk van hun zakelijke behoeften. DOM-regels kunnen worden gedefinieerd voor een groep locaties of afzonderlijke locaties en voor een specifieke productcategorie, een specifiek product of een variant. Ga als volgt te werk om de locaties te groeperen die moeten worden gebruikt voor de DOM-regels:
 
-    1. Ga naar **Detailhandel en commerce \> Afzetkanaalinstellingen \> Uitvoeringsgroepen**.
+    1. Ga naar **Retail en Commerce \> Afzetkanaalinstellingen \> Uitvoeringsgroepen**.
     2. Selecteer **Nieuw** en geef een naam en beschrijving op voor de nieuwe groep.
     3. Selecteer **Opslaan**.
     4. Selecteer **Regel toevoegen** om één locatie toe te voegen aan de groep. Als u meerdere locaties wilt toevoegen, selecteert u **Regels toevoegen**.
+    
+    > [!NOTE]
+    > In Commerce versie 10.0.12 en hoger moet **Mogelijkheid om locaties op te geven als 'Verzenden ' of 'Ophalen' binnen Afhandelingsgroep** zijn ingeschakeld in het werkgebied **Functiebeheer**.
+    >
+    > Met deze functie kunt u nieuwe configuraties toevoegen op de pagina **Afhandelingsgroep**, zodat u kunt definiëren of het magazijn kan worden gebruikt voor verzending of dat de combinatie van magazijn en winkel kan worden gebruikt voor verzenden, ophalen of beide. 
+    >
+    > Als u de functie inschakelt, worden de opties die beschikbaar zijn voor de selectie van locaties bij het maken van orders voor ophalen of verzenden, in POS bijgewerkt.
+    >
+    > Als u deze functie inschakelt, worden ook de pagina's in POS bijgewerkt wanneer de bewerkingen 'Alles verzenden ' of 'Geselecteerd verzenden' zijn geselecteerd.
 
-9. Als u regels wilt opgeven, gaat u naar **Detailhandel en commerce \> Gedistribueerd orderbeheer \> Instellingen \> Regels beheren**. Momenteel worden de volgende DOM-regels ondersteund:
+9. Als u regels wilt opgeven, gaat u naar **Retail en Commerce \> Gedistribueerd orderbeheer \> Instellingen \> Regels beheren**. Momenteel worden de volgende DOM-regels ondersteund:
 
     - **Regel voor minimumvoorraad**: met dit regeltype kunnen organisaties een bepaalde hoeveelheid van een product op voorraad houden voor andere doeleinden dan orderafhandeling. Organisaties kunnen het bijvoorbeeld onwenselijk vinden als alle beschikbare voorraad in een winkel door het DOM-systeem wordt gebruikt voor orderafhandeling. In plaats daarvan willen ze mogelijk enige voorraad reserveren voor klanten die de winkel bezoeken. Wanneer dit regeltype wordt gebruikt, kunt u per locatie of groep locaties opgeven welke voorraad minimaal moet worden behouden voor een categorie producten, een afzonderlijk product of een productvariant.
     - **Prioriteitsregel voor afhandelingslocatie**: met dit regeltype kunnen organisaties een hiërarchie voor locaties opgeven om de prioriteit te bepalen die door de DOM-engine moet worden gebruikt bij het identificeren van afhandelingslocaties voor bepaalde producten. Het geldige prioriteitsbereik is 1 tot en met 10, waarbij 1 voor de hoogste prioriteit staat en 10 voor de laagste. Locaties met een hogere prioriteit komen in aanmerking vóór locaties met een lagere prioriteit. Als de regel is gedefinieerd als een vaste beperking, worden orders alleen bewerkstelligd en toegewezen aan locaties waarvoor prioriteiten zijn opgegeven.
@@ -112,7 +121,7 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
         \* Als **Gedeeltelijke orders vervullen** is ingesteld op **Nee**, wordt er altijd van uitgegaan dat **Gedeeltelijke regels vervullen** ook is ingesteld op **Nee**, ook als dit niet het geval is.
 
         > [!NOTE]
-        > In Retail versie 10.0.5 is de parameter is de pararmeter **Order afhandelen vanaf slechts één locatie** gewijzigd in **Maximum afhandelingslocaties**. In plaats van een gebruiker in staat te stellen om te bepalen of orders alleen kunnen worden afgehandeld vanuit één locatie of vanuit zoveel locaties als mogelijk is, kunnen gebruikers nu opgeven of het afhandelen kan worden uitgevoerd vanuit een bepaalde set locaties (maximaal 5) of vanuit zoveel locaties als mogelijk is. Dit biedt meer flexibiliteit als het gaat om het aantal locaties waar de order kan worden afgehandeld.
+        > In Retail versie 10.0.5 is de parameter **Order afhandelen vanaf slechts één locatie** gewijzigd in **Maximum afhandelingslocaties**. In plaats van een gebruiker in staat te stellen om te bepalen of orders alleen kunnen worden afgehandeld vanuit één locatie of vanuit zoveel locaties als mogelijk is, kunnen gebruikers nu opgeven of het afhandelen kan worden uitgevoerd vanuit een bepaalde set locaties (maximaal 5) of vanuit zoveel locaties als mogelijk is. Dit biedt meer flexibiliteit als het gaat om het aantal locaties waar de order kan worden afgehandeld.
 
    - **Regel voor offline afhandelingslocatie**: met deze regel kunnen organisaties een locatie of groep locaties als offline of niet beschikbaar instellen voor DOM, zodat orders niet aan die locaties kunnen worden toegewezen voor afhandeling.
     - **Regel voor maximale afwijzingen**: met deze regel kunnen organisaties een drempelwaarde voor afwijzingen opgeven. Wanneer de drempelwaarde wordt bereikt, wordt een order of orderregel door de DOM-processor als uitzondering gemarkeerd en wordt deze uitgesloten van verdere verwerking.
@@ -130,11 +139,21 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
 
 10. Afhandelingsprofielen worden gebruikt om een verzameling regels, rechtspersonen, oorsprongen van verkooporders en leveringsmethoden te groeperen. Elke DOM-uitvoering vindt plaats voor een bepaald afhandelingsprofiel. Op deze manier kunnen organisaties een verzameling regels opgeven en uitvoeren voor een verzameling rechtspersonen, voor orders met bepaalde oorsprongen van verkooporders en leveringsmethoden. Als er verschillende verzamelingen regels moeten worden uitgevoerd voor verschillende verzamelingen oorsprongen van verkooporders of leveringsmethoden, kunnen de afhandelingsprofielen overeenkomstig worden gedefinieerd. Ga als volgt te werk om afhandelingsprofielen in te stellen:  
 
-    1. Ga naar **Detailhandel en commerce \> Gedistribueerd orderbeheer \> Instellingen \> Afhandelingsprofielen**.
+    1. Ga naar **Retail en Commerce \> Gedistribueerd orderbeheer \> Instellingen \> Afhandelingsprofielen**.
     2. Selecteer **Nieuw**.
     3. Geef waarden op in de velden **Profiel** en **Beschrijving**.
     4. Stel de optie **Resultaat automatisch toepassen** in. Als u deze optie instelt op **Ja**, worden de resultaten van de DOM-uitvoering voor het profiel automatisch op de verkooporderregels toegepast. Stelt u **Nee** in, dan kunnen de resultaten alleen worden weergegeven in het afhandelingsplan. Deze worden niet toegepast op de verkooporderregels.
-    5. Als het DOM-profiel moet worden uitgevoerd voor orders met alle oorsprongen van verkooporders, zelfs orders waarvoor geen oorsprong van de verkooporder is opgegeven, stelt u de optie **Orders met lege verkoopoorsprong verwerken** in op **Ja**. Als u het profiel voor slechts een paar oorsprongen van verkooporders wilt uitvoeren, kunt u deze opgeven op de pagina **Verkoopoorsprongen**, zoals verderop wordt uitgelegd.
+    5. Als het DOM-profiel moet worden uitgevoerd voor orders met alle oorsprongen van verkooporders, inclusief orders waarvoor geen oorsprong van de verkooporder is opgegeven, stelt u de optie **Orders met lege verkoopoorsprong verwerken** in op **Ja**. Als u het profiel voor slechts een paar oorsprongen van verkooporders wilt uitvoeren, kunt u deze opgeven op de pagina **Verkoopoorsprongen**, zoals verderop wordt uitgelegd.
+
+    > [!NOTE]
+    > In Commerce versie 10.0.12 en hoger moet de functie **Mogelijkheid om afhandelingsgroep toe te wijzen aan een afhandelingsprofiel** zijn ingeschakeld in het werkgebied **Functiebeheer**. 
+    >
+    > Deze functie voegt een nieuwe configuratie toe op de pagina **Afhandelingsprofiel** die kan worden gekoppeld aan één afhandelingsgroep. 
+    >
+    > Als u de afhandelingsgroep selecteert, worden de DOM-regels voor dat afhandelingsprofiel efficiënt uitgevoerd op basis van de verzendmagazijnen die in de afhandelingsgroep zijn opgenomen. 
+    > 
+    > Als u deze functie effectief wilt gebruiken, moet u ervoor zorgen dat er één afhandelingsgroep is die alle verzendmagazijnen bevat en vervolgens die afhandelingsgroep aan het afhandelingsprofiel koppelen.
+    
     6. Selecteer op het sneltabblad **Rechtspersonen** de optie **Toevoegen** en selecteer vervolgens een rechtspersoon.
     7. Selecteer op het sneltabblad **Regels** de optie **Toevoegen** en selecteer de regel die u wilt koppelen aan het profiel.
     8. Herhaal de vorige twee stappen tot alle vereiste regels aan het profiel zijn gekoppeld.
@@ -157,7 +176,7 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
 
 DOM wordt alleen uitgevoerd in een batchtaak. Ga als volgt te werk om de batchtaak voor DOM-uitvoeringen te configureren.
 
-1. Ga naar **Detailhandel en commerce \> Gedistribueerd orderbeheer \> Batchverwerking \> Taakinstellingen voor DOM-processor**.
+1. Ga naar **Retail en Commerce \> Gedistribueerd orderbeheer \> Batchverwerking \> Taakinstellingen voor DOM-processor**.
 1. Selecteer op het sneltabblad **Parameters** in het veld **Afhandelingsprofiel** een profiel waarvoor DOM moet worden uitgevoerd.
 1. Selecteer een geconfigureerde batchgroep in het veld **Batchgroep** op het sneltabblad **Op de achtergrond uitvoeren**.
 1. Geef in het veld **Taakbeschrijving** een naam op voor de batchtaak.
@@ -179,7 +198,7 @@ De volgende orders en orderregels worden verwerkt in het DOM-systeem:
 
 Nadat de regels, voorraadbeperkingen en optimalisatie zijn toegepast, wordt de locatie gekozen die het dichtst bij het afleveradres van de klant ligt.
 
-![Criteria voor verkooporder](./media/ordercriteria.png "Criteria voor verkooporder")
+![![Criteria voor verkooporder](./media/ordercriteria.png "Criteria voor verkooporder")](./media/ordercriteria.png "Sales order criteria")
 
 ## <a name="results-of-dom-runs"></a>Resultaten van DOM-uitvoeringen
 
@@ -187,7 +206,7 @@ Als het afhandelingsprofiel is ingesteld op **Automatisch toepassen**, worden de
 
 Ga als volgt te werk om alle gegenereerde afhandelingsplannen weer te geven.
 
-1. Ga naar **Detailhandel en commerce \> Gedistribueerd orderbeheer \> Gedistribueerd orderbeheer**.
+1. Ga naar **Retail en Commerce \> Gedistribueerd orderbeheer \> Gedistribueerd orderbeheer**.
 2. In het werkgebied **Gedistribueerd orderbeheer** selecteert u de tegel **Afhandelingsplannen**.
 3. Selecteer de id van het betreffende orderafhandelingsplan.
 
@@ -201,7 +220,7 @@ Ga als volgt te werk om alle gegenereerde afhandelingsplannen weer te geven.
 
 ## <a name="order-line-actions-and-statuses"></a>Acties voor en statussen van orderregels
 
-Hieronder worden de instellingen beschreven die u kunt opgeven voor de orderregel. Als u de orderregel wilt openen, gaat u naar **Detailhandel en commerce \> Klanten \> Alle verkooporders**.
+Hieronder worden de instellingen beschreven die u kunt opgeven voor de orderregel. Als u de orderregel wilt openen, gaat u naar **Retail en Commerce \> Klanten \> Alle verkooporders**.
 - Als u de optie **Uitsluiten van DOM-verwerking** op het tabblad **Algemeen** van de verkooporderregel instelt op **Ja**, wordt de order of orderregel uitgesloten van DOM-verwerking.
 - Het veld **DOM-status** op het tabblad **Algemeen** van de verkooporderregel kan op een van de volgende waarden worden ingesteld:
 
@@ -221,7 +240,7 @@ Hieronder worden de instellingen beschreven die u kunt opgeven voor de orderrege
 
 Terwijl de DOM-verwerking wordt uitgevoerd, worden er afhandelingsplannen gemaakt. In het systeem worden talloze afhandelingsplannen bewaard. Als u beperkingen wilt stellen aan het aantal afhandelingsplannen dat in het systeem wordt bewaard, kunt u een batchtaak maken om oudere afhandelingsplannen te verwijderen, op basis van de waarde **Bewaarperiode in dagen**.
 
-1. Ga naar **Detailhandel en commerce \> Gedistribueerd orderbeheer \> Batchverwerking \> Instelling van taak voor verwijdering van DOM-afhandelingsgegevens**. 
+1. Ga naar **Retail en Commerce \> Gedistribueerd orderbeheer \> Batchverwerking \> Instelling van taak voor verwijdering van DOM-afhandelingsgegevens**. 
 1. Selecteer een geconfigureerde batchgroep in het veld **Batchgroep**.
 1. Selecteer **Terugkeer** en geef het terugkeerpatroon van de batchtaak op.
 1. Selecteer **OK**.

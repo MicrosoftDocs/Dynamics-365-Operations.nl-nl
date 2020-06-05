@@ -1,9 +1,9 @@
 ---
 title: Video's
-description: Op deze pagina worden door Microsoft gemaakte "how-to"- en Tech Talk-video's met betrekking tot Finance and Operations-apps weergegeven die beschikbaar zijn op YouTube en andere sites.
+description: Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Finance and Operations-apps weergegeven die beschikbaar zijn op YouTube en andere sites.
 author: josaw1
 manager: AnnBe
-ms.date: 11/11/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,28 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781845"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367124"
 ---
 # <a name="videos"></a>Video's 
 
 [!include [banner](../includes/banner.md)]
 
-Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) vindt u video's die zijn gemaakt door Microsoft die een breed scala van zakelijke oplossingen voor Dynamics 365-producten laten zien. In deze sectie worden de "how-to"-video's voor Finance and Operations-apps weergegeven die op het kanaal worden gehost.
+Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) vindt u video's die zijn gemaakt door Microsoft die een breed scala van zakelijke oplossingen voor Dynamics 365-producten laten zien. In deze sectie worden de procedurevideo's voor Finance and Operations-apps weergegeven die op het kanaal worden gehost.
 
 > [!Note]
 > Een aantal van de vermelde video's is gepubliceerd onder een eerdere productnaam, maar is nog steeds van toepassing.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Video's voor ontwikkeling en beheer voor Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Video's voor ontwikkeling en beheer in Finance and Operations
 
 ### <a name="data-integration"></a>Gegevensintegratie
 
 - [Integratie van prospect tot contant geld](https://youtu.be/AVV9x5x-XCg)
-- [Een werkorder synchroniseren tussen Dynamics 365 for Field Service en Finance and Operations-apps](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Een werkorder synchroniseren tussen Dynamics 365 for Field Service- en Finance and Operations-apps](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Gegevensbeheer
 
@@ -55,8 +55,8 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 ### <a name="intelligence"></a>Intelligence
 
 - [Een ingesloten rapport in een analytische werkruimte aanpassen](https://youtu.be/_8WlwmSggcQ)
-- [PowerBI.com rapporten insluiten in Finance and Operations-apps](https://youtu.be/gGWuNJDoi-M)
-- [Bring Your Own Database (BYOD) naar Finance and Operations-apps](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [PowerBI.com-rapporten insluiten in Finance and Operations-apps](https://youtu.be/gGWuNJDoi-M)
+- [Uw eigen database gebruiken (BYOD) voor Finance and Operations-apps](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Power BI-inhoud Kostenbeheer in Dynamics 365 gebruiken](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -76,6 +76,12 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 - [Gegevens vernieuwen in een productieomgeving](https://www.youtube.com/watch?v=VCd5SgkYPTw)
 - [Opname van een nieuwe platformrelease na Platformupdate 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Telemetrie gebruiken om belangrijke prestatietellers te controleren in Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+
+### <a name="regression-suite-automation-tool-rsat"></a>Regression Suite Automation Tool (RSAT)
+
+- [Taakrecorder gebruiken om een testcase te maken voor de Regression Suite Automation Tool (RSAT)](https://youtu.be/bBr4BXAxTNI)
+- [Een testplan maken in Azure DevOps voor gebruik met de Regression Suite Automation Tool (RSAT)](https://youtu.be/3jIuBleAnQk) 
+- [De Regression Suite Automation Tool (RSAT) gebruiken](https://youtu.be/uhN9JItzGAk)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Video's voor Dynamics 365 Finance

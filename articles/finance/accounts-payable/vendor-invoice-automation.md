@@ -3,7 +3,7 @@ title: Automatisering van leveranciersfacturen
 description: In dit onderwerp worden de functies beschreven die beschikbaar zijn voor end-to-end automatisering van leveranciersfacturen, zelfs facturen die bijlagen bevatten.
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177221"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396004"
 ---
 # <a name="vendor-invoice-automation"></a>Automatisering van leveranciersfacturen
 
@@ -61,7 +61,7 @@ Een gegevenspakket is de werkeenheid die moet worden verzonden, zodat factuurkop
 
 De documentbijlage van de leveranciersfactuur is een nieuwe gegevensentiteit die als onderdeel van deze functie wordt geïntroduceerd. De entiteit koptekst van leveranciersfactuur is gewijzigd, zodat deze bijlagen ondersteunt. De entiteit leveranciersfactuurregel is niet voor deze functie gewijzigd.
 
-In dit onderwerp vindt u geen gedetailleerde beschrijving van een gegevenspakket. Hierin wordt ook niet uitgelegd hoe u een gegevenspakket maakt. Deze informatie vindt u in het onderwerp [Framework voor gegevensentiteiten en pakketten](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Zie [Overzicht van Gegevensbeheer](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor gedetailleerde informatie over gegevenspakketten. Zie [Gegevenspakketten verwerken en verbruiken in de oplossing Dynamics 365 Finance and Operations-apps](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md) voor informatie over het maken van gegevenspakketten met het werkgebied voor gegevensbeheer.
 
 Als u snel testgegevens wilt genereren met facturen en bijlagen, voert u de volgende stappen uit.
 

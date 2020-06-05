@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8feea75bb223bdbd013b11cdf3a63d504afb04f5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 91c5b2e70ee083bf2741e245f1ca840ab939ad3f
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208197"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382970"
 ---
 # <a name="maintenance-schedule-cost"></a>Kosten onderhoudsschema
 
@@ -46,7 +46,7 @@ In Activabeheer kunt u budgetkosten berekenen op regels voor onderhoudsplanning.
 
 5. Klik op **OK** om de kostenberekening te starten.
 
-6. Klik op het tabblad **Kosten van onderhoudsplanning** > in de actieschermgroepen op **Groeperen op...**, klik op de relevante knoppen om het vereiste detailniveau van de kostenberekening weer te geven. De geselecteerde groepsknoppen in het actievenster zijn gemarkeerd. U kunt knoppen activeren of deactiveren door erop te klikken.
+6. Klik op het tabblad **Kosten van onderhoudsplanning** > in de actievenstergroepen op **Groeperen op...**, klik op de relevante knoppen om het vereiste detailniveau van de kostenberekening weer te geven. De geselecteerde knoppen voor actievenstergroepen zijn gemarkeerd. U kunt knoppen activeren of deactiveren door erop te klikken.
 
 7. Klik op de knop **kosten berekenen** als u een nieuwe kostenberekening wilt maken.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccaeea8d0494644b4d55c29a778d9a8239de10b9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207779"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383269"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Leveranciers voor specifieke producten goedkeuren
 
@@ -33,7 +33,7 @@ Deze procedure laat zien hoe u leveranciers voor specifieke producten goedkeurt.
 2. Zoek en selecteer de gewenste record in de lijst.
 3. Klik in de lijst op de koppeling in de geselecteerde rij.
 4. Vouw het sneltabblad **Inkoop** uit. Als er een primaire leverancier in het veld **Leverancier** wordt weergegeven, moet u deze leverancier als een goedgekeurde leverancier toevoegen in de volgende stappen. Maak een notitie van het leveranciersnummer, als er een wordt weergegeven.  
-5. Klik in het Actievenster op **Inkoop**.
+5. Klik in het actievenster op **Inkoop**.
 6. Klik op **Instellen**.
 7. Klik op **Toevoegen**.
 8. Typ of selecteer een waarde in het veld Leverancier. Selecteer de goedgekeurde leverancier. Ten minste een van de regels moet de primaire leverancier zijn als de productrecord er een bevatte. Als u eerder een notitie van het leveranciersnummer hebt gemaakt, selecteert u het hier.  

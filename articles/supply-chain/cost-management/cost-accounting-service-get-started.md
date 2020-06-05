@@ -1,5 +1,5 @@
 ---
-title: Aan de slag met de service kostprijsboekhouding
+title: Aan de slag met de service voor kostprijsboekhouding (particuliere preview)
 description: In dit onderwerp vindt u informatie over licenties en installatie-instructies voor de service kostprijsboekhouding.
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276904"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372731"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>Aan de slag met de service kostprijsboekhouding
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Aan de slag met de service voor kostprijsboekhouding (particuliere preview)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ De service kostprijsboekhouding is een invoegtoepassing. Om de functies beschikb
 
 De kostprijsboekhouding biedt momenteel geen ondersteuning voor alle functies voor kostenbeheer die in Dynamics 365 Supply Chain Management zijn ingebouwd. Het is daarom belangrijk dat u evalueert of de functieset die momenteel beschikbaar is, voldoet aan uw behoeften.
 
-## <a name="licensing"></a>Licenties
-
-De service voor kostprijsboekhouding wordt samengevoegd met de standaardfuncties van voorraadboekhouding die beschikbaar zijn voor Supply Chain Management. U hoeft geen extra licentie aan te schaffen voor het gebruik van de service kostprijsboekhouding.
-
-## <a name="install-the-add-in"></a>De invoegtoepassing installeren
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>Aan de slag met de service voor kostprijsboekhouding (particuliere preview)
 
 > [!IMPORTANT]
 > Als u de service kostprijsboekhouding wilt gebruiken, moet u beschikken over een omgeving met hoge beschikbaarheid voor LCS (geen OneBox-omgeving) en moet u Dynamics 365 Supply Chain Management versie 10.0.11 of hoger uitvoeren.
 
+Als u zich wilt inschrijven voor de particuliere preview van de service voor kostprijsboekhouding, verzendt u uw LCS-omgeving-id via e-mail naar [Service kostprijsboekhouding (particuliere preview)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29). Nadat u bent goedgekeurd voor het programma, ontvangt u een opvolgings-e-mailbericht met een bètasleutel voor de service voor kostprijsboekhouding. Wanneer u de bètasleutel ontvangt, kunt u doorgaan door [de invoegtoepassing](#install) te installeren.
+
+## <a name="licensing"></a>Licenties
+
+De service voor kostprijsboekhouding wordt samengevoegd met de standaardfuncties van voorraadboekhouding die beschikbaar zijn voor Supply Chain Management. U hoeft geen extra licentie aan te schaffen voor het gebruik van de service kostprijsboekhouding.
+
+## <a name="install-the-add-in"></a><a name="install"></a>De invoegtoepassing installeren
+
 Als u de service kostprijsboekhouding wilt gebruiken, installeert u de invoegtoepassing voor kostprijsboekhouding in Supply Chain Management, zoals wordt beschreven in de volgende procedure.
+
+1. [Meld u aan](#sign-up) voor de service voor kostprijsboekhouding (particuliere preview).
 
 1. Meld u aan bij LCS.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204879"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383223"
 ---
 # <a name="create-a-purchase-order"></a>Inkooporder maken
 
@@ -68,7 +68,7 @@ In dit onderwerp leest u hoe u een inkooporder handmatig maakt. Het is gebruikel
 ## <a name="review-order-totals"></a>Ordertotalen controleren
 1. Selecteer **Totalen**.
 
-    - Als u de actie **Totalen** niet ziet, selecteert u het tabblad **Inkooporder** op de actiebalk.  
+    - Als u de actie **Totalen** niet ziet, selecteert u het tabblad **Inkooporder** in het actievenster.  
     - Dit dialoogvenster bevat totalen voor de gehele order.  
     - Met het veld **Selectie** kunt u de basis wijzigen van de manier waarop totalen worden berekend. U kunt bijvoorbeeld **Productontvangstbonhoeveelheid** kiezen om totalen te tonen die gerelateerd zijn aan het bedrag van het product of de producten die is of zijn ontvangen, of u kunt **Bestelde hoeveelheid** kiezen om het bedrag van het bestelde product weer te geven.  
 

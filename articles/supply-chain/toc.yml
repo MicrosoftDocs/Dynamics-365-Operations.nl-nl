@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: Startpagina van Dynamics 365 Supply Chain Management
           href: index.md
         - name: Aan de slag
           items:
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Verbinding maken met het Help-systeem
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Verbinding maken met een aangepaste Help-site
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Overzicht van aangepaste Help
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Veldomschrijvingen weergeven en exporteren
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Taakrecorder
@@ -1313,6 +1313,22 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Lopende gemiddelde kosten per voorraaddimensie traceren
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: IoT-intelligentie
+          items:
+            - name: Startpagina van IoT-intelligentie
+              href: iot/iot-intelligence-home-page.md
+            - name: Azure-resources instellen
+              href: iot/iot-azure-setup.md
+            - name: Berichtschema-indelingen voor IoT-hub
+              href: iot/iot-schema-format.md
+            - name: De invoegtoepassing in LCS installeren
+              href: iot/iot-lcs-setup.md
+            - name: Metrische gegevens instellen
+              href: iot/iot-metrics-setup.md
+            - name: Scenario instellen
+              href: iot/iot-scenario-setup.md
+            - name: Controleren en beheren
+              href: iot/iot-management.md
         - name: Hoofdplanning
           items:
             - name: Startpagina van Hoofdplanning
@@ -1335,13 +1351,15 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Een planningstaak annuleren
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Problemen met Planningsoptimalisatie oplossen
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Hoofdplannen
               items:
                 - name: Overzicht van Hoofdplannen
                   href: master-planning/master-plans.md
                 - name: Hoofdplannen instellen
                   href: master-planning/master-planning-setup.md
-                - name: Wizard voor instellen van hoofdplanning
+                - name: Wizard voor instellen van Hoofdplanning
                   href: master-planning/master-planning-setup-wizard.md
                 - name: Behoefteplanningsinstellingen
                   href: master-planning/coverage-settings.md
@@ -2657,7 +2675,7 @@
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
             - name: De app voor magazijnbeheer installeren en configureren
               items:
-                - name: Overzicht van Installeren en configureren
+                - name: De app voor magazijnbeheer installeren en verbinden
                   href: warehousing/install-configure-warehousing-app.md
                 - name: Veldnamen in app voor magazijnbeheer configureren
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Een werksjabloon instellen voor inkooporders
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: Beleidsregels voor samenvoegen van zendingen
+              items:
+                - name: Beleidsregels voor samenvoegen van zendingen
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: Beleidsregels voor samenvoegen van zendingen configureren
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: 'Scenario 1: Zendingen samenvoegen wanneer deze aan het magazijn worden vrijgegeven met Automatische vrijgave van verkooporders'
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: 'Scenario 2: Zendingen samenvoegen wanneer het beleid voor consolidatie van de zending wordt overschreven vanaf de pagina Vrijgeven aan magazijn'
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: 'Scenario 3: Zendingen samenvoegen met Vrijgeven aan magazijn vanuit de workbench voor ladingplanning'
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: 'Scenario 4: Zendingen samenvoegen met behulp van de workbench voor zendingen samenvoegen'
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: 'Scenario 5: Zendingen handmatig samenvoegen met de pagina Zendingen samenvoegen'
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: Ontwikkeling Supply Chain Management
           items:
             - name: Handleiding voor ontwikkeling van Gantt-besturingselement

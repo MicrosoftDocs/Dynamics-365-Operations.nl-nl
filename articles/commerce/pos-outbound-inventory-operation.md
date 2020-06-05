@@ -3,7 +3,7 @@ title: Uitgaande voorraadbewerking in POS
 description: In dit onderwerp worden de mogelijkheden van uitgaande voorraadbewerking van het verkooppunt (POS) beschreven.
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123917"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384124"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Uitgaande voorraadbewerking in POS
 
@@ -117,6 +117,18 @@ In de weergave **Volledige orderlijst** kunt u handmatig een regel selecteren in
 ### <a name="over-delivery-shipping-validations"></a>Validaties van zendingen met meerlevering
 
 Tijdens het ontvangstproces voor de documentregels worden validaties uitgevoerd. Deze omvatten validaties voor meerlevering. Als een gebruiker meer voorraad probeert te ontvangen dan via een inkooporder is besteld, maar de meerlevering niet is geconfigureerd of de ontvangen hoeveelheid hoger is dan de tolerantie voor meerlevering die is geconfigureerd voor de inkooporderregel, ontvangt de gebruiker een fout en kan hij of zij de extra hoeveelheid niet ontvangen.
+
+### <a name="underdelivery-close-lines"></a>Sluitregels voor minderlevering
+
+In Commerce versie 10.0.12 is functionaliteit toegevoegd waarmee POS-gebruikers resterende hoeveelheden kunnen sluiten of annuleren tijdens de uitgaande orderverzending als het uitgaande magazijn vaststelt dat de volledige aangevraagde hoeveelheid niet kan worden verzonden. Hoeveelheden kunnen ook later worden gesloten of geannuleerd. Als u deze mogelijkheid wilt gebruiken, moet het bedrijf zo zijn geconfigureerd dat de minderlevering van transferorders is toegestaan. Daarnaast moet een minderleveringspercentage worden gedefinieerd voor de transferorderregel.
+
+Ga naar **Voorraadbeheer \> Instellingen \> Parameters voor voorraad- en magazijnbeheer** om het bedrijf zo te configureren dat minderlevering van transferorders in Commerce Headquarters is toegestaan. Schakel op de pagina **Parameters voor voorraad- en magazijnbeheer** op het tabblad **Transferorders** de parameter **Minderlevering accepteren** in. Voer vervolgens taak **1070** van de distributieplanner uit om de parameterwijzigingen te synchroniseren met uw winkelkanaal.
+
+Minderleveringspercentages voor een transferorderregel kunnen vooraf worden gedefinieerd voor producten als onderdeel van de productconfiguratie in Commerce Headquarters. U kunt ze ook instellen of overschrijven op een specifieke transferorderregel via commerce Headquarters.
+
+Nadat een organisatie het configureren van de minderlevering van transferorders heeft voltooid, zien gebruikers een nieuwe optie **Resterende hoeveelheid sluiten** in het deelvenster **Details** wanneer ze een uitgaande transferorderregel selecteren via de bewerking **Uitgaande bewerking** in het POS. Wanneer gebruikers de zending voltooien door de bewerking **Afhandeling voltooien** te gebruiken, kunnen ze een aanvraag naar Commerce Headquarters verzenden om de resterende niet-verzonden hoeveelheid te annuleren. Als een gebruiker de resterende hoeveelheid sluit, voert Commerce een validatie uit om te controleren of de hoeveelheid die wordt geannuleerd binnen het minderleveringspercentage valt dat is gedefinieerd voor de transferorderregel. Als de tolerantie voor minderleveringen wordt overschreden, ontvangt de gebruiker een foutbericht en kan de resterende hoeveelheid niet worden gesloten totdat de hoeveelheid die eerder is verzonden en de hoeveelheid die nu wordt verzonden, overeenkomt met de tolerantie voor minderlevering.
+
+Nadat de zending is gesynchroniseerd met Commerce Headquarters, worden de hoeveelheden die zijn gedefinieerd in het veld **Nu verzenden** voor de transferorderregel in het POS bijgewerkt naar de status Verzonden in Commerce Headquarters. Alle niet-verzonden hoeveelheden die voorheen als hoeveelheden voor "resterend verzenden" zouden werden beschouwd (dat wil zeggen, hoeveelheden die later zullen worden verzonden), worden in plaats daarvan als geannuleerde hoeveelheden beschouwd. De hoeveelheid "resterend verzenden" voor de transferorderregel wordt ingesteld op **0** (nul) en de regel wordt als volledig verzonden beschouwd.
 
 ### <a name="shipping-location-controlled-items"></a>Op locatie gecontroleerde artikelen verzenden
 

@@ -1,9 +1,9 @@
 ---
 title: Onkostenbeleid definiëren
 description: In Microsoft Dynamics 365 Finance kunt u een beleid of regels definiëren waaraan uw werknemers zich moeten houden bij het invoeren en indienen van onkostennota's en reisopdrachten.
-author: ryansandness
+author: suvaidya
 manager: AnnBe
-ms.date: 04/26/2019
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d3b4a8f6cf74bb1fe7e53a4dfdd607f604e16e3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22504e0e26c025d117f29dee3b59b41d508e7724
+ms.sourcegitcommit: 4f90b9ddedf312e75a714e0ec7f7ee5fd43cac6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187447"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "3389710"
 ---
 # <a name="define-expense-policies"></a>Onkostenbeleid definiëren
 
@@ -48,6 +48,7 @@ U kunt drie typen beleidsregels definiëren:
 Hier volgen enkele suggesties die u kunnen helpen bij het maken van nieuw beleid voor onkostenbeheer. 
 * Beleid heeft een ingangsdatum en wordt niet van kracht als het beleid wordt gemaakt met een datum na de datum waarop de onkosten zijn gemaakt. Als u bijvoorbeeld vandaag een nieuw beleid maakt om de maximale maaltijdkosten van $ 50 af te dwingen, worden eventuele bestaande onkosten tot en met gisteren die zijn ingevoerd niet gecontroleerd aan de hand van dit beleid.
 * Wanneer u een beleid maakt voor een onkostencategorie die kan worden gespecificeerd, kunt u overwegen een voorwaarde toe te voegen voor het type onkostenregel. Sommige beleidsregels, zoals het vereisen van een ontvangstbon, zijn mogelijk niet zinvol voor gespecificeerde regels en mogen alleen worden toegepast op de koptekstregel of een niet-gespecificeerde regel. 
+* Beleid voor onkostenbeheer wordt standaard geëvalueerd op basis van de bronentiteit. Voor intercompany-scenario's kunt u het beleid zo instellen dat het wordt geëvalueerd ten opzichte van de bestemmingsentiteit (lenende entiteit). Als u de beleidsregels wilt uitvoeren op basis van de doelentiteit, schakelt u de functie "Onkostenbeleid evalueren op basis van lenende rechtspersoon" in het werkgebied **Functiebeheer**.
 
 ## <a name="when-to-evaluate-policies"></a>Wanneer u beleid moet evalueren
 

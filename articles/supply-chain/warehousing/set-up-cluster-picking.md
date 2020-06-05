@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daf8bc65dc937962e2e08b6f25805ddd3b8ee3c5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 86aed1b2071875117b74309030ac5e9008babdaf
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204281"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367402"
 ---
-[!include[banner](../includes/banner.md)]
-
 # <a name="set-up-cluster-picking"></a>Clusterverzameling instellen
+
+[!include[banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u werknemers in staat kunt stellen hun mobiel apparaat te gebruiken om verzamelwerk te groeperen in clusters zodat ze artikelen van één locatie kunnen verzamelen voor meerdere werkorders tegelijkertijd. Dit wordt *clusterverzameling* genoemd.
 
@@ -36,35 +36,35 @@ Nadat werkorders worden vrijgegeven aan het magazijn, kan de werknemer een mobie
 
 Indien nodig kan een werknemer een cluster doorgeven aan een andere werknemer. Dit verandert de clusterstatus naar Doorgegeven. Wanneer de medewerker een mobiel apparaat gebruikt om aan te geven dat het picken en opslaan is voltooid, moet de zending of lading worden bevestigd in de client.
 
-## <a name="set-up-cluster-picking"></a>Clusterverzameling instellen
+## <a name="enable-cluster-picking"></a>Clusterverzameling inschakelen
 
 U moet het volgende instellen om clusterverzameling in te schakelen:
 
--   **Clusterprofielen**: geef aan of cluster-id's automatisch moeten worden gegenereerd, hoeveel posities moeten worden gebruikt, wanneer clusters moeten worden opgebroken, wat de volgorde is van het verzamelwerk en hoe dit wordt gecontroleerd.
+- **Clusterprofielen**: geef aan of cluster-id's automatisch moeten worden gegenereerd, hoeveel posities moeten worden gebruikt, wanneer clusters moeten worden opgebroken, wat de volgorde is van het verzamelwerk en hoe dit wordt gecontroleerd.
 
--   **Werksjablonen**: definieer hoe het verzamelwerk voor clusterverzameling moet worden gemaakt.
+- **Werksjablonen**: definieer hoe het verzamelwerk voor clusterverzameling moet worden gemaakt.
 
--   **Locatie-instructies**: geef op waaruit artikelen moeten worden verzameld en waar deze moeten worden geplaatst.
+- **Locatie-instructies**: geef op waaruit artikelen moeten worden verzameld en waar deze moeten worden geplaatst.
 
--   **Menuopties voor mobiel apparaat**: configureer een menu voor een mobiel apparaat om bestaand werk te gebruiken dat wordt geleid door clusterverzameling. U moet vervolgens het menuartikel toevoegen aan een menu voor een mobiel apparaat zodat het wordt weergegeven op mobiele apparaten.
+- **Menuopties voor mobiel apparaat**: configureer een menu voor een mobiel apparaat om bestaand werk te gebruiken dat wordt geleid door clusterverzameling. U moet vervolgens het menuartikel toevoegen aan een menu voor een mobiel apparaat zodat het wordt weergegeven op mobiele apparaten.
 
--   **Parameters voor magazijnbeheer**: geef de te gebruiken nummervolgorde op als u id's voor clusters wilt genereren.
+- **Parameters voor magazijnbeheer**: geef de te gebruiken nummervolgorde op als u id's voor clusters wilt genereren.
 
 ## <a name="set-up-a-cluster-profile"></a>Een clusterprofiel instellen
 
 Ga als volgt te werk om een clusterprofiel in te stellen:
 
-1.  Klik op **Magazijnbeheer** \> **Instellen** \> **Mobiel apparaat** \> **Clusterprofielen**.
+1. Klik op **Magazijnbeheer** \> **Instellen** \> **Mobiel apparaat** \> **Clusterprofielen**.
 
-2.  Klik op **Nieuw** om een nieuwe profiel te maken.
+1. Klik op **Nieuw** om een nieuwe profiel te maken.
 
-3.  Klik op **Cluster maken** en klik onder **Cluster sorteren** op **Nieuw** om de sorteercriteria voor het cluster in te stellen. De rangschikkingscriteria bepalen de volgorde waarin de werknemer het verzamelwerk zal uitvoeren. U kunt zoveel criteria toevoegen als nodig zijn.
+1. Klik op **Cluster maken** en klik onder **Cluster sorteren** op **Nieuw** om de sorteercriteria voor het cluster in te stellen. De rangschikkingscriteria bepalen de volgorde waarin de werknemer het verzamelwerk zal uitvoeren. U kunt zoveel criteria toevoegen als nodig zijn.
 
-4.  Voer in het veld **Volgnummer** een cijfer in om te bepalen in welke volgorde de sorteercriteria worden verwerkt.
+1. Voer in het veld **Volgnummer** een cijfer in om te bepalen in welke volgorde de sorteercriteria worden verwerkt.
 
-5.  Selecteer in het veld **Veldnaam** het veld dat de rangschikking zal bepalen. Als u bijvoorbeeld het veld **WMSLocationId** selecteert, zal het werk worden gerangschikt volgens locatie.
+1. Selecteer in het veld **Veldnaam** het veld dat de rangschikking zal bepalen. Als u bijvoorbeeld het veld **WMSLocationId** selecteert, zal het werk worden gerangschikt volgens locatie.
 
-6.  Selecteer een van de volgende opties in het veld **Sorteren**.
+1. Selecteer een van de volgende opties in het veld **Sorteren**.
 
 | **Optie**     | **Beschrijving**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,6 +77,6 @@ Wanneer clusterverzameling wordt toegepast, is artikelbevestiging van groot bela
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Artikelverificatie met clusterverzameling instellen
 
-1.  Open in een menu-item voor mobiele apparaten het instellingsformulier voor werkbevestiging: **Magazijnbeheer** \> **Magazijnbeheer** \> **Instellingen** \> **Mobiel apparaat** \> **Menuopties voor mobiel apparaat**.
+1. Open op een menu-item voor mobiele apparaten het instellingsformulier voor werkbevestiging: **Magazijnbeheer** \> **Magazijnbeheer** \> **Instellingen** \> **Mobiel apparaat** \> **Menuopties voor mobiel apparaat**.
 
-2.  Open in de menuoptie voor het mobiele apparaat **Werkbevestigingsinstellingen**. Met de optie **Productbevestiging** kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren.
+1. Open in de menuoptie voor het mobiele apparaat **Werkbevestigingsinstellingen**. Met de optie **Productbevestiging** kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren.

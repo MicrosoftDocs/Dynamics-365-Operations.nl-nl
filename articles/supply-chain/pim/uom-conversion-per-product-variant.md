@@ -1,9 +1,9 @@
 ---
 title: Conversie van maateenheid per productvariant
-description: In dit onderwerp wordt uitgelegd hoe conversies van maateenheden kunnen worden ingesteld voor productvarianten.
+description: In dit onderwerp wordt uitgelegd hoe conversies van maateenheden kunnen worden ingesteld voor productvarianten. Het bevat een voorbeeld van de instellingen.
 author: johanhoffmann
 manager: tfehr
-ms.date: 01/06/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,71 +17,93 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: e50be7fa6fa686a90b2dd5c5200c881e4629f019
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
+ms.sourcegitcommit: 92611ec276da6f7211d722cfcd66739b612296dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204488"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382792"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversie van maateenheid per productvariant
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe conversies van maateenheden kunnen worden ingesteld voor productvarianten. Het bevat een voorbeeld van de instellingen.
+In dit onderwerp wordt uitgelegd hoe conversies van maateenheden kunnen worden ingesteld voor verschillende productvarianten.
 
-Met deze functie kunnen bedrijven verschillende eenheidconversies tussen de varianten van hetzelfde product definiëren. Het volgende voorbeeld wordt gebruikt in dit onderwerp. Een bedrijf verkoopt T-shirts in de maten Small, Medium, Large en Extra large. Het T-shirt is gedefinieerd als een product en de verschillende maten zijn gedefinieerd als varianten van het product. De T-shirts zijn verpakt in dozen en er passen vijf T-shirts in een doos, met uitzondering van de T-shirts met de maat Extra large, waarvan er maar vier passen in een doos. Het bedrijf wil de verschillende varianten van de T-shirts in de eenheid **Stuks** bijhouden, maar verkoopt de T-shirts in de eenheid **Dozen**. De conversie tussen de voorraadeenheid en de verkoopeenheid is 1 doos = 5 stuks, met uitzondering van de variant Extra large waarvoor de conversie 1 doos = 4 stuks geldt.
+In plaats van meerdere afzonderlijke producten te maken die moeten worden onderhouden, kunt u productvarianten gebruiken om variaties te maken van een enkel product. Een productvariant kan bijvoorbeeld een t-shirt van een bepaalde maat en kleur zijn.
 
-### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Een product voor eenheidconversie per variant instellen
+Voorheen konden eenheidconversies alleen in het productmodel worden ingesteld. Daarom hadden alle productvarianten dezelfde regels voor eenheidsomrekening. Wanneer echter de functie *Maateenheid omrekeningen voor productvarianten* is ingeschakeld, en uw t-shirts in dozen wordt verkocht en het aantal t-shirts dan kan worden verpakt in een doos hafhankelijk is van de maat van de t-shirts. kunt u nu eenheidsomrekeningen instellen tussen de verschillende shirtmaten en de dozen die voor de verpakking worden gebruikt.
 
-Productvarianten kunnen alleen worden gemaakt voor producten van het **productsubtype** **Productmodel**. Zie [Een productmodel maken](tasks/create-product-master.md) voor meer informatie.
+## <a name="turn-on-the-feature-in-your-system"></a>De functie inschakelen in uw systeem
 
-De functie is niet ingeschakeld voor producten die zijn ingesteld voor processen van het type Variabel gewicht. 
+Als deze functie nog niet in uw systeem wordt weergegeven, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Maateenheid omrekeningen voor productvarianten* in.
 
-Wanneer het productmodel met vrijgegeven productvarianten is gemaakt, kunnen eenheidconversies per variant worden ingesteld. U kunt het menu-item voor het openen van de pagina voor eenheidconversie in de context van een product of productvariant vinden op de volgende pagina's.
+## <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Een product voor eenheidconversie per variant instellen
 
--   De pagina **Productgegevens**
--   De pagina **Details van vrijgegeven producten**
--   De pagina **Vrijgegeven productvarianten**
+Productvarianten kunnen alleen worden gemaakt voor producten die productmodellen zijn. Zie [Een productmodel maken](tasks/create-product-master.md) voor meer informatie. De functie *Maateenheid omrekeningen voor productvarianten* is niet beschikbaar voor producten die zijn ingesteld voor catch-weight-processen.
 
-Wanneer u de pagina **Eenheidsomrekening** in de context van een productmodel of vrijgegeven productvariant opent, kunt u opgeven of u de eenheidconversie voor het product of een productvariant wilt instellen. U doet dit door **Productvariant** of **Product** te selecteren in het veld **Conversie maken voor**.
+Voer de volgende stappen uit om een productmodel te configureren voor ondersteuning van eenheidsomrekening per variant.
 
-### <a name="product-variant"></a>Productvariant
+1. Ga naar **Productgegevensbeheer \> Producten \> Productmodellen**.
+1. Maak of open een productmodel om naar de pagina **Productgegevens** te gaan.
+1. Stel de optie **Maateenheidconversies inschakelen** in op *Ja*.
+1. Selecteer in het Actievenster op het tabblad **Product** in de groep **Instellen** de optie **Eenheidsomrekeningen**.
+1. De pagina **Eenheidsomrekeningen** wordt geopend. Selecteer een van de volgende tabbladen:
 
-Als u **Productvariant** selecteert, kunt u in het veld **Productvariant** opgeven voor welke variant u de eenheidconversie wilt instellen.
+    - **Omrekeningen binnen klasse**: selecteer dit tabblad om te converteren tussen eenheden die tot dezelfde eenheidsklasse behoren.
+    - **Omrekeningen tussen klassen**: selecteer dit tabblad om te converteren tussen eenheden die tot verschillende eenheidsklassen behoren.
 
-### <a name="product"></a>Artikel
+1. Selecteer **Nieuw** om een nieuwe eenheidsomrekening toe te voegen.
+1. Stel het veld **Conversie maken voor** in op een van de volgende waarden:
 
-Als u **Product** selecteert, kunt u een eenheidconversie instellen voor het productmodel. Deze eenheidconversie geldt voor alle productvarianten zonder gedefinieerde eenheidconversie.
+    - **Product**: als u deze waarde selecteert, kunt u een eenheidconversie instellen voor het productmodel. Deze eenheidsomrekening wordt gebruikt als terugval voor alle productvarianten waarvoor geen eenheidsomrekening is gedefinieerd.
+    - **Productvariant**: als u deze waarde selecteert, kunt u een eenheidconversie instellen voor een specifieke productvariant. Gebruik het veld **Productvariant** om de variant te selecteren.
 
-### <a name="example"></a>Voorbeeld
+    ![Een nieuwe eenheidsomrekening toevoegen](media/uom-new-conversion.png "Een nieuwe eenheidsomrekening toevoegen")
 
-Een productmodel, **T-Shirt**, heeft vier vrijgegeven productvarianten: Small, Medium, Large en Extra large. De T-shirts zijn verpakt in dozen en er passen vijf T-shirts in een doos, met uitzondering van de T-shirts met de maat Extra large, waarvan er maar vier passen in een doos.
+1. Gebruik de andere velden die zijn opgegeven om de eenheidsomrekening in te stellen.
+1. Selecteer **OK** om de nieuwe eenheidsomrekening op te slaan.
 
-Open eerst de pagina **Eenheidsomrekening** via de pagina met vrijgegeven productgegevens voor **T-shirt**.
+> [!TIP]
+> U kunt de pagina **Eenheidsomrekeningen** voor een product of een productvariant openen vanaf een van de volgende pagina's:
+> 
+> - Productgegevens
+> - Details van vrijgegeven producten
+> - Vrijgegeven productvarianten
 
-Stel op de pagina **Eenheidsomrekening** de eenheidconversie voor de productvariant Extra large in.
+## <a name="example-scenario"></a>Voorbeeldscenario
 
-| **Veld**             | **Instelling**             |
-|-----------------------|-------------------------|
-| Conversie maken voor | Productvariant         |
-| Productvariant       | T-Shirt : : Extra large : : |
-| Van eenheid             | Dozen                   |
-| Factor                | 4                       |
-| Naar eenheid               | Stuks                  |
+In dit scenario verkoopt een bedrijf t-shirts in de maten small, medium, large en extra large. Het t-shirt is gedefinieerd als een product en de verschillende maten zijn gedefinieerd als varianten van dat product. De shirts worden in dozen verpakt. Voor de maten small, medium en large passen er vijf shirts in elke doos. Voor de maat extra large is er echter ruimte voor slechts vier shirts in elke doos.
 
-Voor de vrijgegeven productvarianten Small, Medium en Large geldt dezelfde eenheidconversie tussen de eenheden Dozen en Stuks, wat betekent dat u de eenheidconversie voor deze productvarianten in het productmodel kunt definiëren.
+Het bedrijf wil de verschillende varianten van de t-shirts in de eenheid *Stuks* bijhouden, maar verkoopt de t-shirts in de eenheid *Dozen*. Voor de maten small, medium en large luidt de omrekening tussen de voorraadeenheid en de verkoopeenheid 1 doos = 5 stuks. Voor de maat extra large is de omrekening 1 doos = 4 stuks.
 
-| **Veld**             | **Instelling** |
-|-----------------------|-------------|
-| Conversie maken voor | Artikel     |
-| Artikel               | T-shirt     |
-| Van eenheid             | Dozen       |
-| Factor                | 5           |
-| Naar eenheid               | Stuks      |
+1. Ga naar de pagina **Details van vrijgegeven producten** voor het product **T-shirt** en open de pagina **Eenheidsomrekening**.
+1. Stel op de pagina **Eenheidsomrekeningen** de volgende eenheidsomrekening in voor de productvariant **Extra large**.
 
-### <a name="using-excel-to-update-the-unit-conversions"></a>De eenheidconversies bijwerken met Excel
+    | Veld                 | Instelling                 |
+    |-----------------------|-------------------------|
+    | Conversie maken voor | Productvariant         |
+    | Productvariant       | T-Shirt : : Extra large : : |
+    | Van eenheid             | Dozen                   |
+    | Factor                | 4                       |
+    | Naar eenheid               | Stuks                  |
 
-Als een product veel productvarianten met verschillende eenheidsconversies heeft, is het verstandig om de eenheidsconversies van de pagina **Eenheidsconversie** te exporteren naar een Excel-werkblad, de conversies bij te werken en deze vervolgens weer te publiceren naar Supply Chain Mangement.
+1. Aangezien de productvarianten **Small**, **Medium** en **Large** allemaal dezelfde eenheidsomrekening hebben tussen de eenheden *Doos* en *Stuks*, kunt u hiervoor de volgende eenheidsomrekening definiëren in het productmodel.
 
-De optie voor het exporteren naar Excel en het publiceren van de bewerkingen naar Supply Chain Mangement. kan worden ingeschakeld via het menu-item **Openen in Microsoft Office** in het actievenster op de pagina **Eenheidsconversie**.
+    | Veld                 | Instelling |
+    |-----------------------|---------|
+    | Conversie maken voor | Artikel |
+    | Artikel               | T-shirt |
+    | Van eenheid             | Dozen   |
+    | Factor                | 5       |
+    | Naar eenheid               | Stuks  |
+
+## <a name="using-excel-to-update-the-unit-conversions"></a>De eenheidconversies bijwerken met Excel
+
+Als een product veel productvarianten met verschillende eenheidsomrekeningen heeft, is het een goed idee om de eenheidsomrekeningen naar een Microsoft Excel-werkmap te exporteren, deze bij te werken en ze vervolgens terug te publiceren naar Dynamics 365 Supply Chain Management.
+
+Als u eenheidsomrekeningen naar Excel wilt exporteren, selecteert u op de pagina **Eenheidsomrekeningen** in het actievenster de optie **Openen in Microsoft Office**.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+[Maateenheid beheren](tasks/manage-unit-measure.md)
