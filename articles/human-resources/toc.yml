@@ -5,6 +5,8 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 mei 2020
+          href: hr-whats-new-2020-05-28.md
         - name: 14 mei 2020
           href: hr-whats-new-2020-05-14.md
         - name: 1 mei 2020
@@ -509,6 +511,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: Verlof uitstellen
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Verlofaanvraag
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Werknemerverlof beheren
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Analyses voor verlof en verzuim weergeven
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Team- en bedrijfsagenda's weergeven
               href: hr-employee-self-service-calendar.md
+            - name: Beleid voor verlof inkopen/verkopen beheren
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Verlof inkopen en verkopen
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: Verlofaanvragen beheren in Teams
           href: hr-teams-leave-app.md
         - name: Werknemers ontwikkelen

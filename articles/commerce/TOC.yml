@@ -88,6 +88,8 @@
                   items:
                     - name: Startpagina van Nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.12 (augustus 2020)
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (juli 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (mei 2020)
@@ -212,9 +214,9 @@
               items:
                 - name: Installatieprogramma's voor selfservice synchroniseren in Dynamics 365 Commerce
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit (zelfgehost)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: Commerce Scale Unit configureren en installeren
+                - name: Commerce Scale Unit configureren en installeren (zelfgehost)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: Configuratie en installatie van Modern POS
                   href: retail-modern-pos-device-activation.md
@@ -604,7 +606,7 @@
               items:
                 - name: Overzicht productaanbevelingen
                   href: product-recommendations.md
-                - name: ADLS inschakelen in een Dynamics 365 Commerce-omgeving
+                - name: Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving
                   href: enable-ADLS-environment.md
                 - name: Productaanbevelingen inschakelen
                   href: enable-product-recommendations.md
@@ -646,8 +648,8 @@
                   items:
                     - name: Voorraadbeheer winkel
                       href: work-with-store-inventory.md
-                    - name: Werken met geserialiseerde artikelen
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Voorraadbuffers en voorraadniveaus configureren
+                      href: inventory-buffers-levels.md
                     - name: Werken met geserialiseerde artikelen in POS
                       href: pos-serialized-items.md
                     - name: Producten verzenden van distributiecentrum naar winkel via klantlevering
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: Gebruikers en rollen beheren
                   href: manage-ecommerce-users-roles.md
+                - name: Voorraadinstellingen toepassen
+                  href: inventory-settings.md
                 - name: Overwegingen bij SEO (Search Engine Optimization) voor uw site
                   href: search-engine-optimization-considerations.md
                 - name: Beveiligingsbeleid voor inhoud (CSP) beheren
@@ -844,10 +848,12 @@
                   items:
                     - name: Een logo toevoegen
                       href: add-logo.md
-                    - name: Selecteer een thema voor de site
+                    - name: Een thema voor de site selecteren
                       href: select-site-theme.md
                     - name: Werken met CSS-overschrijvingsbestanden
                       href: css-override-files.md
+                    - name: Werken met vooraf ingestelde stijlen
+                      href: style-presets.md
                     - name: Een favicon toevoegen
                       href: add-favicon.md
                     - name: Een welkomstbericht toevoegen
@@ -932,6 +938,10 @@
                   items:
                     - name: Containermodule
                       href: add-container-module.md
+                    - name: Accordeonmodule
+                      href: add-accordion.md
+                    - name: Tabbladmodule
+                      href: add-tab.md
                 - name: Marketingmodules
                   items:
                     - name: Promotiebanner-module
@@ -978,6 +988,10 @@
                   items:
                     - name: Productverzamelingsmodules
                       href: product-collection-module-overview.md
+                - name: Navigatiemodules
+                  items:
+                    - name: Breadcrumb-module
+                      href: add-breadcrumb.md
             - name: Zoeken
               items:
                 - name: Standaard landingspagina voor categorieën en pagina met zoekresultaten
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: Implementatierichtlijnen voor kassa's
                   href: localizations/emea-fra-deployment.md
+            - name: Duitsland
+              items:
+                - name: Voorbeeld van integratie van fiscale registratieservice voor Duitsland
+                  href: localizations/emea-deu-fi-sample.md
             - name: India
               items:
                 - name: Integratie Belasting op goederen en diensten (GST) voor kassa's
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Thema-instellingen configureren
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: Een thema uitbreiden
+                    - name: Een thema uitbreiden om module-extensies toe te voegen
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Een thema uitbreiden vanaf een basisthema
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Script injecteren
                   items:
@@ -2072,11 +2092,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Uitbreidbaarheid van Retail Server
               items:
-                - name: Een Retail Server OData-controller uitbreiden
+                - name: Een Commerce Scale Unit OData-controller uitbreiden
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: Klanten- en consumenten-API's voor Retail Server
+                - name: Commerce Scale Unit klant- en consumenten-API's
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: De controller voor standaard Retail Server-metagegevens uitbreiden
+                - name: De standaardinstelling voor de Commerce Scale Unit-metagegevenscontroller uitbreiden
                   href: dev-itpro/extend-metadata.md
                 - name: De CRT-service aanroepen in de offline modus
                   href: dev-itpro/call-crt-service-offline.md
@@ -2096,8 +2116,6 @@
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: Geheimen voor detailhandelafzetkanalen beheren
                   href: dev-itpro/manage-secrets.md
-                - name: Eigenschappen toevoegen aan verkooporders
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: CRT-uitbreidbaarheid en activeringen
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Transacties blokkeren met triggers
