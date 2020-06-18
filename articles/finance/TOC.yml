@@ -2371,7 +2371,7 @@
                     - name: Overzicht van Voorschothouders voor Rusland
                       href: localizations/rus-advance-holders.md
                     - name: Een voorschothouder maken
-                      href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
+                      href: localizations/emea-advance-holders.md#create-an-advance-holder
                     - name: Dagelijkse bewerkingen voor voorschothouders
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: Geavanceerde rapporten voor budgetbeheer
@@ -3346,7 +3346,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services (RCS)
                   items:
-                    - name: Regulatory Configuration Service (RCS) - globalisatiefuncties
+                    - name: Regulatory Configuration Services (RCS) - globalisatiefuncties
                       href: localizations/rcs-globalization-feature.md
                     - name: ER-configuraties downloaden naar Finance
                       items:
