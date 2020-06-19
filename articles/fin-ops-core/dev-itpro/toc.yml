@@ -14,6 +14,8 @@
               items:
                 - name: Startpagina van nieuwe of gewijzigde functies in Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates voor 10.0.12 (augustus 2020)
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform updates voor 10.0.11 (juli 2020)
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platform updates voor 10.0.10 (mei 2020)
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Geïntegreerde medewerker, taak en functie'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Voorraadbeschikbaarheid
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: Ondersteuning voor twee keer wegschrijven
                           items:
                             - name: Ondersteuning voor Field Service-oplossingen en oplossingen voor Project Service Automation
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Updates toepassen op cloudomgevingen
                   href: deployment/apply-deployable-package-system.md
-                - name: Updates en uitbreidingen toepassen op in de cloud gehoste detailhandelafzetkanaalonderdelen
+                - name: Updates en uitbreidingen toepassen op Commerce Scale Unit (cloud)
                   href: deployment/Update-retail-channel.md
-                - name: Retail Cloud Scale Unit initialiseren
+                - name: Commerce Scale Unit initialiseren (cloud)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Gegevenslocatie voor Retail
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Internetverbinding voor client
                       href: user-interface/client-disconnected.md
+                    - name: AOS-knooppunten voor alleen batch en alleen interactief configureren in on-premises implementaties
+                      href: deployment/onprem-batchonly.md
                     - name: Proxy's voor on-premises omgevingen configureren
                       href: deployment/onprem-reverseproxy.md
                     - name: On-premises diagnoses
@@ -1048,6 +1054,8 @@
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Gebruikershandleiding Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
+            - name: Onboarding voor project
+              href: lifecycle-services/project-onboarding.md
             - name: Abonnementsschatting
               href: lifecycle-services/subscription-estimator.md
             - name: Beveiliging configureren
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Bestanden van vertaalgeheugen
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Integratie met Microsoft Power Platform
+          items:
+            - name: Integratie van Microsoft Power Platform met Finance and Operations
+              href: power-platform/overview.md
+            - name: Entiteitsmodellen
+              href: power-platform/entity-modeling.md
+            - name: Levenscyclusbeheer voor toepassing
+              href: power-platform/application-lifecycle-management.md
+            - name: Beheerdersreferentie voor Finance and Operations en Common Data Service
+              href: power-platform/admin-reference.md
+            - name: Power Apps-portals met Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: Veelgestelde vragen over virtuele Finance and Operations-entiteiten
+              href: power-platform/faq.md
         - name: Mobiel platform
           items:
             - name: Resources voor mobiel platform
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: Installatie en configuratie
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Gegevensonafhankelijk testen met Regression Suite Automation Tool
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Testcases uitvoeren
+            - name: Regression Suite Automation Tool gebruiken
               href: perf-test/rsat/rsat-run.md
             - name: Verwachte waarden valideren
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Afgeleide testcases
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: De zelfstudie voor Regression Suite Automation Tool gebruiken
+            - name: De zelfstudie en andere functies voor Regression Suite Automation Tool gebruiken
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
-            - name: Aanbevolen procedures
+            - name: Best practices
               href: perf-test/rsat/rsat-best-practices.md
+            - name: Gegevensonafhankelijk testen met Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Problemen oplossen
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Oplossingen vrijgeven via Lifecycle Services
@@ -1442,6 +1464,8 @@
                   href: sysadmin/copy-batch-job.md
                 - name: Actieve batchperioden
                   href: sysadmin/activeperiod.md
+                - name: Ondersteuning voor zomertijd voor actieve batchperioden
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Beveiligingsrol batchbeheerder
                   href: sysadmin/runby.md
                 - name: Batchtaak voor het verwerken van defragmentatie SQL-index

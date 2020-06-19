@@ -70,12 +70,12 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.12 (augustus 2020)
+                      href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (juli 2020)
                       href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (mei 2020)
                       href: get-started/whats-new-scm-10-0-10.md
-                    - name: Supply Chain Management 10.0.9 (april 2020)
-                      href: get-started/whats-new-scm-10-0-9.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
@@ -595,6 +595,8 @@
                   href: cost-management/bom-calculations.md
                 - name: Stuklijstberekeningsgroepen
                   href: cost-management/bom-calculation-groups.md
+                - name: Berekeningsniveau voor kosten
+                  href: cost-management/cost-calculation-level.md
                 - name: Kostprijsberekening via terugwaarts afboeken
                   href: cost-management/backflush-costing.md
                 - name: Veelvoorkomende oorzaken voor productieafwijkingen analyseren
@@ -1345,6 +1347,8 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Filters op een plan toepassen
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Hoofdplanning met inkoophandelsovereenkomsten
+                  href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Planhistorie en planningslogboeken weergeven
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Automatische fiattering met Planningsoptimalisatie
@@ -1989,7 +1993,9 @@
                       href: production-control/release-production-orders.md
                     - name: Productieorders als voltooid melden
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Gereedmelden bij een niet door nummerplaten beheerde locatie
+                    - name: Taakkaart configureren voor apparaten
+                      href: production-control/config-job-card-device.md
+                    - name: Gereedmelden vanaf het taakkaartapparaat
                       href: production-control/report-finished-job-device.md
                     - name: De productieorderstatus omkeren
                       href: production-control/reverse-production-order-status.md
@@ -2259,6 +2265,16 @@
                   href: sales-marketing/tasks/register-sales-commissions.md
                 - name: Regels voor verkoopprovisie instellen
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
+            - name: Klantportal voor Dynamics 365 Supply Chain Management
+              items:
+                - name: Overzicht van klantportal
+                  href: sales-marketing/customer-portal-overview.md
+                - name: 'De klantportal installeren, instellen en bijwerken'
+                  href: sales-marketing/customer-portal-setup.md
+                - name: Gebruikers van klantportal maken en beheren
+                  href: sales-marketing/customer-portal-user-admin.md
+                - name: De klantportal aanpassen en gebruiken
+                  href: sales-marketing/customer-portal-customize.md
             - name: Handelstoeslag
               href: sales-marketing/trade-allowance.md
             - name: Een nieuwe handelsovereenkomst maken
@@ -2655,6 +2671,8 @@
                   href: warehousing/partial-location-cycle-counting.md
                 - name: Gedeeltelijk locatieproces voor cyclustelling definiëren
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                - name: Opschoningstaak van voorhanden voorraadgegevens voor magazijnbeheer
+                  href: warehousing/onhand-cleanup.md
                 - name: Voorraadjournaal
                   href: inventory/inventory-journals.md
                 - name: Voorraadlocatie

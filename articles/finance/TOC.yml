@@ -70,12 +70,12 @@
                   items:
                     - name: Startpagina van Nieuwe of gewijzigde functies in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.12 (augustus 2020)
+                      href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (juli 2020)
                       href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10 (mei 2020)
                       href: get-started/whats-new-changed-10-0-10.md
-                    - name: Finance 10.0.9 (april 2020)
-                      href: get-started/whats-new-changed-10-0-9.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Verwijderde of afgeschafte functies in Dynamics 365 Finance
@@ -232,6 +232,8 @@
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
             - name: Leveranciersfactuurbeleid instellen
               href: accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Leveranciersbetalingsvoorstellen automatiseren
+              href: accounts-payable/automate-vendor-payment-proposal.md
             - name: Leveranciersfactuur vastleggen en met ontvangen hoeveelheid matchen
               href: accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Overzicht van positieve betalingen
@@ -324,14 +326,6 @@
               href: accounts-receivable/copy-customer.md
             - name: Klantenwerkstroom
               href: accounts-receivable/customer-workflow.md
-            - name: Crediteringen en aanmaningen in Klanten
-              href: accounts-receivable/collections-credit-accounts-receivable.md
-            - name: Klanten en crediteringen en aanmaningen configureren
-              href: accounts-receivable/accounts-receivables-set-up-overview.md
-            - name: Crediteringen en aanmaningen instellen
-              href: accounts-receivable/set-up-collections.md
-            - name: Incassogegevens controleren
-              href: accounts-receivable/tasks/review-collections-information.md
             - name: Overzicht van opbrengsten voor reserves
               href: accounts-receivable/revenue-recognition-overview.md
             - name: Instellingen opbrengsttoerekening
@@ -410,7 +404,15 @@
               items:
                 - name: Overzicht van crediteringen en aanmaningen
                   href: accounts-receivable/cm-credit-and-collections-overview.md
-                - name: Kredietbeheer instellen
+                - name: Aanmaningen in Klanten
+                  href: accounts-receivable/collections-credit-accounts-receivable.md
+                - name: Klanten en crediteringen en aanmaningen configureren
+                  href: accounts-receivable/accounts-receivables-set-up-overview.md
+                - name: Crediteringen en aanmaningen instellen
+                  href: accounts-receivable/set-up-collections.md
+                - name: Incassogegevens controleren
+                  href: accounts-receivable/tasks/review-collections-information.md
+                - name: Instellingen voor kredietbeheer
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Informatie voor het instellen van kredietbeheer
                   href: accounts-receivable/cm-setup-information.md
@@ -448,9 +450,11 @@
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Een afschrijvingsjournaal voor een klant maken
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
+            - name: Beheer van geavanceerde notities
+              href: localizations/emea-ita-exil-structured-notes.md
         - name: Budgettering
           items:
-            - name: Startpagina van Budgettering
+            - name: Startpagina van Budgetteren
               href: budgeting/budgeting-overview.md
             - name: Overzicht van Budgetplanning
               href: budgeting/budget-planning-overview-configuration.md
@@ -978,6 +982,8 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Standaardkosten voor arbeid en onkosten configureren
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Inhoudingstermijnen voor leveranciersbetalingen maken en toepassen
+              href: project-management/create-and-apply-vendor-payment-retention-terms.md
             - name: Betalen bij betaling instellen en gebruiken voor leveranciersbetalingen
               href: project-management/setup-manage-vendor-payments.md
             - name: Toerekening van inkoopontvangsten aan projectkosten
@@ -1000,6 +1006,10 @@
               href: project-management/project-purchase-orders.md
             - name: Projectoffertes
               href: project-management/project-quotations.md
+            - name: 'Een projectofferte bevestigen, bijwerken en verzenden'
+              href: project-management/confirm-update-send-project-quotation.md
+            - name: Een offerte overbrengen naar een project
+              href: project-management/transfer-quote-new-existing-project.md
             - name: Projectbronnen
               href: project-management/project-resourcing.md
             - name: Artikelen ontvangen op een inkooporder vanuit een artikelbehoefte
@@ -1022,9 +1032,11 @@
                   href: project-management/custom-fields-mobile.md
             - name: Projectsubsidies
               href: project-management/project-grants.md
+            - name: Een projectraming elimineren
+              href: project-management/eliminate-project-estimate.md
         - name: Openbare sector
           items:
-            - name: Startpagina Openbare sector
+            - name: Startpagina van Openbare sector
               href: public-sector/public-sector-functionality.md
             - name: Plan voor functionaliteit van openbare sector
               href: public-sector/plan-public-sector-functionality.md
@@ -1758,6 +1770,8 @@
                   href: localizations/emea-hun-tax-reimbursement-docs.md
                 - name: Jaarafsluiting
                   href: localizations/emea-cze-hun-year-end.md
+                - name: Online factureringssysteem
+                  href: localizations/emea-hun-online-invoicing.md
             - name: IJsland
               items:
                 - name: Overzicht IJsland
@@ -2008,8 +2022,6 @@
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: Diverse toeslagen per kilogram in een intrastat-aangifte
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
-                - name: Beheer van geavanceerde notities
-                  href: localizations/emea-ita-exil-structured-notes.md
                 - name: Intentieverklaring - gebruikelijke exporteurs factureren
                   href: localizations/emea-ita-exil-intent-letter.md
                 - name: Factuur met belasting voor gratis geleverde goederen
@@ -2288,8 +2300,8 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL-integratie
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Auditfile - XML Auditfile Financieel, XAF'
-                  hred: localizations/emea-nl-audit-file.md
+                - name: Auditfile (XML Auditfile Financieel XAF)
+                  href: localizations/emea-nl-audit-file.md
             - name: Noorwegen
               items:
                 - name: Overzicht Noorwegen
@@ -2359,7 +2371,7 @@
                     - name: Overzicht van Voorschothouders voor Rusland
                       href: localizations/rus-advance-holders.md
                     - name: Een voorschothouder maken
-                      href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
+                      href: localizations/emea-advance-holders.md#create-an-advance-holder
                     - name: Dagelijkse bewerkingen voor voorschothouders
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: Geavanceerde rapporten voor budgetbeheer
@@ -2970,6 +2982,8 @@
               items:
                 - name: Configuraties maken
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/finance/toc.json
+                - name: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Onderdelen van de oplossing voor elektronische rapportage voorbereiden
                   items:
                     - name: Domeinspecifiek gegevensmodel ontwerpen
@@ -3252,10 +3266,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'Tekst: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Definities voor gegevensmodel selecteren tijdens het maken van indelingen
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: ER-indelingen ontwerpen voor het genereren van uitgaande elektronische documenten in verschillende indelingen
               items:
                 - name: Ontwerpconfiguraties om uitgaande documenten te genereren in Excel-indeling
@@ -3290,8 +3300,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-            - name: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Toepassingsgegevens bijwerken met behulp van elektronische rapportage
               items:
                 - name: Elektronische documenten genereren en toepassingsgegevens bijwerken
@@ -3321,31 +3329,41 @@
                     - name: Bestanden in XML-indeling importeren met optionele kenmerken
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: ER-indelingen configureren voor het importeren van XML-bestanden met optionele kenmerken
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/finance/toc.json
             - name: Levenscyclus van configuratie
               items:
                 - name: Levenscyclus van configuratie beheren
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: Configuraties uploaden naar Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: Configuraties importeren uit Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: Configuraties downloaden uit Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
-                - name: Configuraties importeren
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Verbeterde filteropties voor het zoeken van configuraties in de algemene opslagplaats
-                  href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                - name: ER-configuraties downloaden uit de RCS-opslagplaats
+                - name: Lifecycle Services (LCS)
                   items:
-                    - name: ER-configuraties downloaden uit de ER-opslagplaats voor het RCS-type
-                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Configuraties importeren uit RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
-                - name: ER-configuraties maken in RCS en ze uploaden naar de algemene opslagplaats
-                  href: localizations/rcs-global-repo-upload.md
-                - name: ER-configuraties in RCS delen met externe organisaties
-                  href: localizations/rcs-global-repo-share-configuration.md
+                    - name: Configuraties uploaden naar LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: Configuraties importeren uit LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: Configuraties downloaden uit LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Configuraties importeren (LBD)
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory services (RCS)
+                  items:
+                    - name: Regulatory Configuration Services (RCS) - globalisatiefuncties
+                      href: localizations/rcs-globalization-feature.md
+                    - name: ER-configuraties downloaden naar Finance
+                      items:
+                        - name: Configuraties downloaden uit RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties importeren uit RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Algemene opslagplaats (GR)
+                      items:
+                        - name: Configuraties importeren uit GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Uitgebreid filteren om configuraties te vinden in GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties uploaden naar GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties delen in GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
             - name: Zelfstudies
               items:
                 - name: Informatie over het gebruik van gegevensbronnen
@@ -3392,18 +3410,26 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                         - name: Fouten oplossen in gegevensbronnen
                           href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
-                - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
-                - name: ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
-                - name: De parameters van een ER-indeling per rechtspersoon instellen
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                - name: De uitvoering van ER-opmaakelementen uitstellen
+                - name: Modeltoewijzingen configureren
                   items:
-                    - name: De uitvoering van een volgorde-element uitstellen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
-                    - name: De uitvoering van een XML-element uitstellen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                    - name: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: Indelingen configureren
+                  items:
+                    - name: ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                    - name: De parameters van een ER-indeling per rechtspersoon instellen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                    - name: Modeldefinities selecteren tijdens het maken van indelingen
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: De uitvoering van ER-opmaakelementen uitstellen
+                      items:
+                        - name: De uitvoering van een volgorde-element uitstellen
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                        - name: De uitvoering van een XML-element uitstellen
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                 - name: Relatief pad in gegevensbindingen
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Oplossingen voor elektronische rapportage gebruiken in Finance and Operations
