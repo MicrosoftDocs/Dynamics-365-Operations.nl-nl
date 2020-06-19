@@ -3,12 +3,12 @@ title: Overzicht
 description: In Dynamics 365 Human Resources biedt het werkgebied Verlof en verzuim een flexibel raamwerk voor het maken van nieuwe verlofplannen, workflows voor het beheren van aanvragen en een intuïtieve selfservicepagina voor werknemers om verlof aan te vragen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/30/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
-ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
+ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3325760"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428962"
 ---
 # <a name="overview"></a>Overzicht
 
@@ -84,10 +84,9 @@ U kunt nieuwe preview-functies voor Verlof en verzuim uitproberen in een **sandb
 
 De preview-functies omvatten:
 
-- **Verlof opschorten**: u kunt verlof en verzuim in Human Resources opschorten voor een werknemer. Als u het verlof opschort, wordt het toegerekende verlof stopgezet voor de geselecteerde verloftypen. Als het opschorten plaatsvindt nadat een toerekening is verwerkt, wordt door het onderbreken van het verlof een evenredige correctie in het verlof van de werknemer gemaakt. U kunt ook redencodes opnemen bij het onderbreken van het verlof van een werknemer. De gebruikerservaring is bijgewerkt om de schorsing aan te geven. 
+- **Verlofopbouw per bedrijf of plan**: u kunt het toerekeningsproces uitvoeren voor alle bedrijven of voor één bedrijf. U kunt het toerekeningsproces ook uitvoeren voor een specifiek verlofplan voor een specifiek bedrijf. 
 
-- **Regels voor transporteren**: u kunt een verloftype voor transporteren opgeven voor verlofsaldi waarvoor transportcorrecties worden overgeboekt. Als een werknemer bijvoorbeeld 10 dagen transporteert, kunt u voor deze 10 dagen een ander verloftype kiezen. 
+- **Verlof kopen**: u kunt beleid voor het kopen van verlof inschakelen en maken, zodat werknemers koopaanvragen kunnen indienen. Werknemers kunnen koopaanvragen indienen en saldi automatisch laten bijwerken asis van de aanvraag.  
 
-- **Redencode en opmerkingen voor correcties opnemen**: u kunt een redencode en een opmerking opnemen wanneer u het eindsaldo van een werknemer wijzigt. 
+- **Bijlagen toevoegen aan goedgekeurde verlofaanvragen**: u kunt een bijlage toevoegen aan een verlofaanvraag die al is goedgekeurd. 
 
-- **Overgang naar verlof- en verzuimparameters**: u kunt nu alleen verlof- en verzuimparameters gebruiken in plaats van HR-parameters te gebruiken. 

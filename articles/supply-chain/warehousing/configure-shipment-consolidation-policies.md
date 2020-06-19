@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383744"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403330"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Consolidatiebeleid voor zendingen configureren
 
@@ -270,7 +270,7 @@ In dit voorbeeld maakt u een beleid *Klanten die consolidatie toestaan* dat kan 
 
 - Met het beleid wordt een query voor een specifieke ordergroep uitgevoerd om klanten te identificeren die geconsolideerde zendingen accepteren.
 - Consolidatie met openstaande zendingen is uitgeschakeld.
-- Consolidatie wordt uitgevoerd tussen orders met de velden die zijn geselecteerd op basis van het standaardbeleid CrossOrder (om het selectievakje **Magazijn** eerder te repliceren).
+- Consolidatie wordt uitgevoerd tussen orders met de velden die zijn geselecteerd op basis van het standaardbeleid CrossOrder (om het eerdere selectievakje **Zending bij vrijgave naar magazijn consolideren** te repliceren).
 
 - U kunt de regel voor een verkooporder overschrijven door een andere order groep te selecteren.
 
@@ -306,7 +306,7 @@ In dit voorbeeld maakt u een beleid *Magazijnen die consolidatie toestaan* dat k
 
 - Met het beleid wordt een query voor een specifieke ordergroep uitgevoerd om magazijnen te identificeren die zendingen kunnen consolideren.
 - Consolidatie met openstaande zendingen is uitgeschakeld.
-- Consolidatie wordt uitgevoerd tussen orders met de velden die zijn geselecteerd op basis van het standaardbeleid CrossOrder (om het selectievakje **Magazijn** eerder te repliceren).
+- Consolidatie wordt uitgevoerd tussen orders met de velden die zijn geselecteerd op basis van het standaardbeleid CrossOrder (om het eerdere selectievakje **Zending bij vrijgave naar magazijn consolideren** te repliceren).
 
 Normaal gesproken kan voor dit bedrijfsscenario het standaardbeleid worden gebruikt dat u in [scenario 1](#scenario-1) hebt gemaakt. U kunt echter ook handmatig vergelijkbaar beleid maken door de volgende stappen uit te voeren.
 

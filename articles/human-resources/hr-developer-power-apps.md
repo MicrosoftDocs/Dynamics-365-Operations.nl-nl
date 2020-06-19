@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d4185b958ed35e9d2bc764db8ea77b3a2f53c37
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: 36b8145764338b91bfedf96c43a7137a89831742
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029860"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410099"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Uitbreiden met Power Apps en Power Automate
 
@@ -55,7 +55,6 @@ Geavanceerde query is geïntegreerd met Flow om gegevenstransformatie en increme
 
 Voor het downloaden van de sjabloon **Power Automate: verbinding maken met SQL en SQL-query´s uitvoeren** gaat u naar [Power Automate: verbinding maken met SQL en SQL-query´s uitvoeren](https://go.microsoft.com/fwlink/?linkid=2081789) in het Microsoft Downloadcentrum.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Het Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
-[App tussen tenants en omgevingen migreren](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

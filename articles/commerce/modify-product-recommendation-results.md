@@ -3,7 +3,7 @@ title: Resultaten van productaanbevelingen op basis van AI-ML aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u resultaten van productaanbevelingen kunt aanpassen op basis van kunstmatige intelligentie-machine learning (AI-ML) voor uw bedrijf.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afd9271c680b1f4248d6e60036f3e79d204dc3c2
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0b4228583c4a2b89d7139b51880cea0288d7fe49
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154336"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404366"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Resultaten van productaanbevelingen op basis van AI-ML aanpassen
 
@@ -102,7 +102,7 @@ Voer de volgende stappen uit om handmatig resultaten voor een seed product toe t
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
-[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+[Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
 
 [Productaanbevelingen inschakelen](enable-product-recommendations.md)
 

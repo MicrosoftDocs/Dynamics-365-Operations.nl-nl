@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c66b25e941d9492c9749043b65c929c9b81db641
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: ad0f33aae7651dff4f424a047eccabd691a99d83
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278964"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418561"
 ---
 # <a name="administrators-learning-catalog"></a>Trainingscatalogus voor beheerders
 
@@ -30,7 +30,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 |-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Grondbeginselen van Dynamics 365 en Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Wilt u graag meer weten over zakelijke toepassingen? Begin met dit leertraject om te zien hoe Dynamics 365-apps worden gebruikt. Lees over cloudconcepten, Power Platform en hoe u aan de slag gaat met Dynamics 365-apps.  | Gratis online leertraject voor zelfstudie  | 5.5 uur |
 | [Aan de slag met Finance and Operations-apps](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)      | Leer hoe Finance and Operations-apps bedrijven ondersteunen om hun algemene financiële systemen, operationele bedrijfsprocessen en gestroomlijnde toeleveringsketens te beheren om mensen te helpen snelle en gefundeerde beslissingen te nemen. Als eerste stap bij het werken met Finance and Operations-apps moet u vertrouwd raken met de voorzieningen en de functionaliteit, ongeacht uw gewenste rol. | Gratis online leertraject voor zelfstudie   | 2 uur   |
-| [Cursus MB-900T01-A: Grondbeginselen van Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)   | In deze cursus wordt de cursist vertrouwd gemaakt met de functionaliteit en de bedrijfswaarde van Dynamics 365. In de cursus komen Dynamics 365-toepassingen, het Power Platform, cloud concepten, het beveiligingsmodel en licentieoverwegingen aan de orde.  | Geleid door een docent of online training, kosten variëren per regio en partner | 1 dag     |
+
 
 
 ## <a name="core-platform-knowledge"></a>Basiskennis van platforms<a name="core-platform-knowledge"></a>

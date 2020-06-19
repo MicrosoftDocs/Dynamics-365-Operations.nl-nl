@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 03426e86186c6aa283531eb37ae26527e6891042
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276902"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413094"
 ---
 # <a name="inventory-value-storage-report"></a>Rapport opslag van voorraadwaarden
 
@@ -50,7 +50,7 @@ Volg deze stappen om een rapport **Opslag van voorraadwaarden** te genereren en 
 1. Selecteer **Nieuw**.
 1. In het dialoogvenster **Voorraadwaarde** dat wordt weergegeven, stelt u de volgende waarden in om aan te geven welke records in uw rapport moeten worden opgenomen:
 
-    - Voer op het sneltabblad **Parameters** een unieke naam voor het rapport in en gebruik de velden in de sectie **Datuminterval** om te definiëren welke records in het rapport worden opgenomen. Als u het datuminterval wilt definiëren, kunt u een vooraf ingesteld bereik (ten opzichte van de rapportaanmaakdatum) selecteren in het veld **Datumintervalcode** of specifieke datums selecteren in de velden **Begindatum** en **Einddatum**. <!-- KFM: What is the ID setting for here? What do its values mean? -->
+    - Voer op het sneltabblad **Parameters** een unieke naam voor het rapport in en gebruik de velden in de sectie **Datuminterval** om te definiëren welke records in het rapport worden opgenomen. Als u het datuminterval wilt definiëren, kunt u een vooraf ingesteld bereik (ten opzichte van de rapportaanmaakdatum) selecteren in het veld **Datumintervalcode** of specifieke datums selecteren in de velden **Begindatum** en **Einddatum**.
     - Stel op het sneltabblad **Op te nemen records** filters en beperkingen in om op te geven welke gegevens u in het rapport wilt opnemen.
     - Geef op het sneltabblad **Uitvoeren op de achtergrond** op hoe, wanneer en hoe vaak het rapport wordt gegenereerd.
 

@@ -3,7 +3,7 @@ title: Persoonlijke productaanbevelingen inschakelen
 description: In dit onderwerp wordt beschreven hoe u persoonlijke productaanbevelingen ter beschikking kunt stellen aan klanten in Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9b847a67306861052a360e0137e2e257b056888e
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0e49b4db17ffd792e8dd536a1671773253c74d71
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154267"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404135"
 ---
 # <a name="enable-personalized-recommendations"></a>Persoonlijke aanbevelingen inschakelen
 
@@ -110,7 +110,7 @@ Als u persoonlijke instellingen wilt toepassen op een bestaande aanbevelingslijs
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
-[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+[Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
 
 [Productaanbevelingen inschakelen](enable-product-recommendations.md)
 

@@ -3,12 +3,12 @@ title: Verlof- en verzuimtypen configureren
 description: Typen verlof instellen die werknemers kunnen aanvragen in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198045"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428588"
 ---
 # <a name="configure-leave-and-absence-types"></a>Verlof- en verzuimtypen configureren
 
@@ -56,7 +56,9 @@ Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werkne
 
 8. Kies onder **Toegang tot geselecteerde rollen beperken** of u de toegang wilt beperken. Selecteer vervolgens de beveiligingsrollen onder **Beveiligingsrollen voor dit verloftype**. De beveiligingsrollen worden gedefinieerd in de werkstroom die u onder **Werkstroom-id** eerder in deze procedure hebt geselecteerd.
 
-9. Selecteer **Opslaan**.
+9. Geef onder **Uitstelrelaties** op of u wilt dat dit verloftype een ander verloftype uitstelt of door een ander verloftype wordt uitgesteld. Wanneer een verlofaanvraag wordt ingediend voor het uitstellende verloftype, wordt er automatisch een verlofuitstel gemaakt voor het uitgestelde verloftype. 
+
+10. Selecteer **Opslaan**.
 
 ## <a name="configure-leave-type-rules"></a>Regels voor verloftypen configureren
 
@@ -66,16 +68,15 @@ Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werkne
 
    U kunt feestdage instellen in de werktijdkalender. Zie [Een werktijdenkalender maken](hr-leave-and-absence-working-time-calendar.md) voor meer informatie
    
-## <a name="configure-preview-features"></a>Voorbeeldfuncties configureren
-
-Als u de voorbeeldfuncties voor verlof en verzuim hebt ingeschakeld, moet u ook de instellingen hiervoor configureren.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. Kies het verloftype waarnaar transportsaldi moeten worden overgeboekt. U kunt ook een nieuw verloftype maken voor transporteren. 
-
+ 3. Stel **Verloftype voor transporteren** in voor het verloftype. Wanneer u deze optie selecteert, worden transportsaldi overgeboekt naar het opgegeven verloftype. Het verloftype voor transporteren moet ook worden opgenomen in het plan voor verlof en verzuim. 
+ 
+ 4. Definieer **vervalregels** voor het verloftype. Wanneer u deze optie configureert, kunt u als eenheid voor dagen of maanden kiezen en de duur instellen voor de vervaldatum. U kunt ook de ingangsdatum van de verloopregel instellen. Alle verlofsaldi die aanwezig zijn op het tijdstip van de vervaldatum, worden afgetrokken van het verloftype en worden weergegeven in het verlofsaldo. 
+ 
+ 
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
 - [Een plan voor verlof en verzuim maken](hr-leave-and-absence-plans.md)
-- [Een werktijdkalender maken](hr-leave-and-absence-working-time-calendar.md)
+- [Een werktijdenkalender maken](hr-leave-and-absence-working-time-calendar.md)
+- [Verlof uitstellen](hr-leave-and-absence-suspend-leave.md)
+

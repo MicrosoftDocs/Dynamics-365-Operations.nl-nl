@@ -1,6 +1,6 @@
 ---
-title: ADLS inschakelen in een Dynamics 365 Commerce-omgeving
-description: In dit onderwerp wordt uitgelegd hoe u Azure Data Lake Storage (ADLS) voor een Dynamics 365 Commerce-omgeving kunt inschakelen en testen. Dit is een vereiste voor het inschakelen van productaanbevelingen.
+title: Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving
+description: In dit onderwerp wordt uitgelegd hoe u Azure Data Lake Storage voor een Dynamics 365 Commerce-omgeving kunt inschakelen en testen. Dit is een vereiste voor het inschakelen van productaanbevelingen.
 author: bebeale
 manager: AnnBe
 ms.date: 04/13/2020
@@ -19,57 +19,57 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 83b829306c2da2d10924e547fd3cac6ae6781db3
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259743"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404181"
 ---
-# <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>ADLS inschakelen in een Dynamics 365 Commerce-omgeving
+# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u Azure Data Lake Storage (ADLS) voor een Dynamics 365 Commerce-omgeving kunt inschakelen en testen. Dit is een vereiste voor het inschakelen van productaanbevelingen.
+In dit onderwerp wordt uitgelegd hoe u Azure Data Lake Storage voor een Dynamics 365 Commerce-omgeving kunt inschakelen en testen. Dit is een vereiste voor het inschakelen van productaanbevelingen.
 
 ## <a name="overview"></a>Overzicht
 
-In de Dynamics 365 Commerce-oplossing worden alle product- en transactiegegevens bijgehouden in het entiteitsarchief van de omgeving. Als u deze gegevens toegankelijk wilt maken voor andere Dynamics 365-services, zoals gegevensanalyse, Business Intelligence en persoonlijke aanbevelingen, is het noodzakelijk de omgeving te verbinden met een Azure Data Lake Storage Gen 2-oplossing (ADLS) van de klant.
+In de Dynamics 365 Commerce-oplossing worden alle product- en transactiegegevens bijgehouden in het entiteitsarchief van de omgeving. Als u deze gegevens toegankelijk wilt maken voor andere Dynamics 365-services, zoals gegevensanalyse, Business Intelligence en persoonlijke aanbevelingen, is het noodzakelijk de omgeving te verbinden met een Azure Data Lake Storage Gen 2-oplossing van de klant.
 
-Aangezien ADLS in een omgeving is geconfigureerd, worden alle benodigde gegevens gespiegeld vanuit de entiteitsopslag en zijn deze nog steeds beveiligd en onder controle van de klant.
+Aangezien Azure Data Lake Storage in een omgeving is geconfigureerd, worden alle benodigde gegevens gespiegeld vanuit de entiteitsopslag en zijn deze nog steeds beveiligd en onder controle van de klant.
 
-Als er ook productaanbevelingen of persoonlijke aanbevelingen in de omgeving zijn ingeschakeld, wordt toegang verleend aan de productaanbevelingsstack tot de speciale map in ADLS om de gegevens van de klant op basis hiervan op te halen en aanbevelingen te berekenen.
+Als er ook productaanbevelingen of persoonlijke aanbevelingen in de omgeving zijn ingeschakeld, wordt toegang verleend aan de productaanbevelingsstack tot de speciale map in Azure Data Lake Storage om de gegevens van de klant op basis hiervan op te halen en aanbevelingen te berekenen.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Klanten moeten ADLS geconfigureerd hebben in een Azure-abonnement. Dit onderwerp geldt niet voor de aankoop van een Azure-abonnement of het instellen van een ADLS-opslagaccount.
+Klanten moeten Azure Data Lake Storage geconfigureerd hebben in een Azure-abonnement. Dit onderwerp geldt niet voor de aankoop van een Azure-abonnement of het instellen van een Azure Data Lake Storage-opslagaccount.
 
-Zie [Officiële ADLS-documentatie](https://azure.microsoft.com/pricing/details/storage/data-lake) voor meer informatie over ADLS.
+Zie [Officiële Azure Data Lake Storage Gen2-documentatie](https://azure.microsoft.com/pricing/details/storage/data-lake) voor meer informatie over Azure Data Lake Storage.
   
 ## <a name="configuration-steps"></a>Configuratiestappen
 
-In deze sectie worden de configuratiestappen beschreven die nodig zijn om ADLS in een omgeving in te schakelen vanwege de samenhang met productaanbevelingen.
-Zie [Entiteitopslag beschikbaar maken als een Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md) voor een uitgebreidere beschrijving van de stappen die nodig zijn om ADLS in te schakelen.
+In deze sectie worden de configuratiestappen beschreven die nodig zijn om Azure Data Lake Storage in een omgeving in te schakelen vanwege de samenhang met productaanbevelingen.
+Zie [Entiteitopslag beschikbaar maken als een Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md) voor een uitgebreidere beschrijving van de stappen die nodig zijn om Azure Data Lake Storage in te schakelen.
 
-### <a name="enable-adls-in-the-environment"></a>ADLS in de omgeving inschakelen
+### <a name="enable-azure-data-lake-storage-in-the-environment"></a>Azure Data Lake Storage in de omgeving inschakelen
 
 1. Meld u aan bij de backoffice-portal van de omgeving.
 1. Zoek **Systeemparameters** en navigeer naar het tabblad **Gegevensverbindingen**. 
 1. Stel **Data Lake-integratie inschakelen** in op **Ja**.
 1. Stel **Data Lake in kleine delen bijwerken** in op **Ja**.
 1. Voer dan de volgende vereiste informatie in:
-    1. **Toepassings-id** // **Toepassingsgeheim** // **DNS-naam**: vereist om verbinding te maken met KeyVault, waar het ADLS-geheim is opgeslagen.
-    1. **Geheime naam**: de geheime naam die in KeyVault is opgeslagen en die wordt gebruikt voor verificatie met ADLS.
+    1. **Toepassings-id** // **Toepassingsgeheim** // **DNS-naam**: vereist om verbinding te maken met KeyVault, waar het Azure Data Lake Storage-geheim is opgeslagen.
+    1. **Geheime naam**: de geheime naam die in KeyVault is opgeslagen en die wordt gebruikt voor verificatie met Azure Data Lake Storage.
 1. Sla uw wijzigingen op in de linkerbovenhoek van de pagina.
 
-In de volgende afbeelding ziet u een voorbeeld van een ADLS-configuratie.
+In de volgende afbeelding ziet u een voorbeeld van een Azure Data Lake Storage-configuratie.
 
-![Voorbeeld van ADLS-configuratie](./media/exampleADLSConfig1.png)
+![Voorbeeld van Azure Data Lake Storage-configuratie](./media/exampleADLSConfig1.png)
 
-### <a name="test-the-adls-connection"></a>De ADLS-verbinding testen
+### <a name="test-the-azure-data-lake-storage-connection"></a>De Azure Data Lake Storage-verbinding testen
 
 1. Test de verbinding met KeyVault via de koppeling **Azure KeyVault testen**.
-1. Test de verbinding met ADLS via de koppeling **Azure-opslag testen**.
+1. Test de verbinding met Azure Data Lake Storage via de koppeling **Azure-opslag testen**.
 
 > [!NOTE]
 > Als de tests mislukken, controleert u of alle bovenstaande informatie over KeyVault juist is en probeer het opnieuw.
@@ -86,7 +86,7 @@ De volgende afbeelding toont een voorbeeld van een entiteitsopslag waarvoor auto
 
 ![Voorbeeld van entiteitsopslag met automatisch vernieuwen ingeschakeld](./media/exampleADLSConfig2.png)
 
-ADLS wordt nu geconfigureerd voor de omgeving. 
+Azure Data Lake Storage wordt nu geconfigureerd voor de omgeving. 
 
 Als u nog niet klaar bent, voert u de stappen voor [productaanbevelingen en -aanpassingen inschakelen](enable-product-recommendations.md) voor de omgeving uit.
 

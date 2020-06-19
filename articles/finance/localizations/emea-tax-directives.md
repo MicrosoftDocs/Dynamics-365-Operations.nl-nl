@@ -3,7 +3,7 @@ title: Belastinginstructies voor Europa
 description: U kunt opgeven om een verklaring van de btw-codes op verkoopfacturen en projectfacturen op te nemen. U kunt referentienummers op verkoopfacturen, vrije-tekstfacturen en projectfacturen afdrukken.
 author: epodkolz
 manager: AnnBe
-ms.date: 05/12/2017
+ms.date: 06/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2d054a1bdcfb3d189b343b51de77b407335a7792
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 70c86d85b66f1b5c0bf72f80f93299c3848ca158
+ms.sourcegitcommit: c5d0bd90334e259e96df17a217b2eff03c265f07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183818"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3422988"
 ---
 # <a name="tax-directives-for-europe"></a>Belastinginstructies voor Europa
 
@@ -31,3 +31,5 @@ EU-richtlijn bevat voorschriften die moeten worden gevolgd door alle lidstaten m
 - Als u een omschrijving van de btw-codes wilt afdrukken op een verkoopfactuur, vrije-tekstfactuur of projectfactuurrapport, stelt u de verwijzingstekst van de belastinginstructies in de btw-codes in.
 - Voor creditnota´s worden het nummer en de datum van de oorspronkelijke factuur samen met de reden voor correctie afgedrukt.
 
+> [!NOTE]
+> Controleer op de pagina **Formulierinstelling** (**Klanten** > **Instellingen** > **Formulieren** > **Formulierinstelling** op het tabblad **Algemeen**) of het veld **Btw-specificatie** is ingesteld op **Registratievaluta** of **Registratie- en bedrijfsvaluta**.

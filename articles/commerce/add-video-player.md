@@ -3,7 +3,7 @@ title: Videospelermodule
 description: In dit onderwerp wordt beschreven wat videospelermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e94658eed12b12d6666e63d2c06b86646c81a120
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025639"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411154"
 ---
 # <a name="video-player-module"></a>Videospelermodule
 
@@ -47,9 +47,13 @@ De videospelermodule ondersteunt ook secundaire audiotracks. Wanneer een video w
 - Promotievideo's of video's over beleid op een marketingpagina
 - Marketingvideo's die productfuncties markeren op pagina's met productgegevens of marketingpagina's
 
+De volgende afbeelding toont een voorbeeld van een videospelermodule op een introductiepagina.
+
+![Voorbeeld van een videospelermodule](./media/ecommerce-videoplayer.PNG)
+
 ### <a name="video-player-module-properties"></a>Eigenschappen van videospelermodule
 
-| Naam van eigenschap.         | Waarde                               | Beschrijving |
+| Naam van eigenschap.         | Waarde                               | Omschrijving |
 |-----------------------|-------------------------------------|-------------|
 | Automatisch afspelen             | **True** of **False**               | Wanneer de waarde is ingesteld op **True**, wordt de video automatisch afgespeeld. |
 | Dempen                  | **True** of **False**               | Wanneer de waarde is ingesteld op **True**, wordt het geluid gedempt. Voor deze speler is de standaardwaarde **False**. In de Chrome-browser worden de automatische video's standaard gedempt en wordt de audio alleen afgespeeld als de gebruiker de video handmatig start. |
@@ -68,22 +72,34 @@ De videospelermodule ondersteunt ook secundaire audiotracks. Wanneer een video w
 
 Voer de volgende stappen uit om een videospelermodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
-1. Maak een paginasjabloon met de naam **videospelersjabloon**.
-1. Voeg in het **hoofdvak** van de standaardpagina een containermodule toe.
-1. Voeg in de containermodule modules voor de videospeler en omgevingsvideospeler toe.
-1. Voltooi het bewerken van de sjabloon en publiceer deze.
-1. Gebruik de videospelersjabloon die u hebt gemaakt om een pagina met de naam **Videospelerpagina** te maken.
-1. Voeg in het **hoofdvak** van de nieuwe pagina een videospelermodule toe.
-1. Selecteer **Een video toevoegen** in het eigenschappenvenster voor de videospelermodule.
+1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
+1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **Sjabloon voor videospeler** in en selecteer vervolgens **OK**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Hoofdtekst** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Standaardpagina** en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Videospeler** en selecteer vervolgens **OK**.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren. 
+1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
+1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de sjabloon van de videospeler die u hebt gemaakt. Voer onder **Paginanaam** **Videospelerpagina** in en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de nieuwe pagina het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Videospeler** en selecteer vervolgens **OK**.
+1. Selecteer **Een video toevoegen** in het eigenschappenvenster van de videospelermodule.
 1. Selecteer in het dialoogvenster **Mediakiezer** een video en selecteer **Nieuw media-item uploaden**.
-1. Sla de pagina op en bekijk een voorbeeld. Als het goed is, wordt de videomodule op de pagina weergegeven. U kunt extra instellingen wijzigen om het gedrag van de module aan te passen.
-1. Voltooi het bewerken van de pagina en publiceer deze.
+1. Selecteer in bestandsverkenner een videobestand en selecteer **Openen**.
+1. Voer in het dialoogvenster **Media-item uploaden** de gewenste titel en andere informatie in en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Mediakiezer** de optie **Sluiten**.
+1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken. Als het goed is, wordt de videomodule op de pagina weergegeven. U kunt extra instellingen wijzigen om het gedrag van de module aan te passen.
+1. Selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren. 
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht starterskit](starter-kit-overview.md)
 
-[Promospandoekmodule](add-alert.md)
+[Promotiebanner-module](add-alert.md)
 
 [Carrouselmodule](add-carousel.md)
 

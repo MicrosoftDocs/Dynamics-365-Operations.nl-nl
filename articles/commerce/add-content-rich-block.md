@@ -3,7 +3,7 @@ title: Tekstblokmodule
 description: In dit onderwerp wordt beschreven wat tekstblokmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fc5b2fa35633b1ce7f7ffefacec318e14fa8db3f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 93ad09a05d188a30b099b9a44c35e15839be80a7
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025592"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411130"
 ---
 # <a name="text-block-module"></a>Tekstblokmodule
 
@@ -46,9 +46,13 @@ Tekstblokmodules kunnen op de volgende manieren worden gebruikt:
 * Aangepaste berichten toevoegen aan een pagina met productgegevens. (bijvoorbeeld "gratis verzending voor bestellingen boven $50").
 * Voor disclaimers en contactgegevens op pagina's met productdetails, winkelwagens, kassa en andere pagina's (bijvoorbeeld "verzending en retouren vallen onder het winkelbeleid").
 
+De volgende afbeelding toont een voorbeeld van een tekstblokmodule die wordt gebruikt op een introductiepagina.
+
+![Voorbeeld van een tekstblokmodule](./media/ecommerce-textblock.PNG)
+
 ## <a name="text-block-module-properties"></a>Eigenschappen van tekstblokmodule
 
-| Naam van eigenschap.     | Value                                            | Beschrijving |
+| Naam van eigenschap.     | Waarde                                            | Omschrijving |
 |-------------------|--------------------------------------------------|-------------|
 | RTF         | RTF                                        | Alineatekst. Sommige basisfuncties voor tekstopmaak worden ondersteund, zoals vetgedrukte, onderstreepte en cursieve tekst. |
 | Naam van aangepaste klasse | Een naam voor een CSS-klasse (trapsgewijs opmaakmodel)        | De naam van een aangepaste CSS-klasse die een ontwikkelaar biedt om deze module te formatteren. De klassenaam moet worden gedefinieerd in het themapakket. |
@@ -58,21 +62,27 @@ Tekstblokmodules kunnen op de volgende manieren worden gebruikt:
 
 Voer de volgende stappen uit om een tekstblokmodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
-1. Maak een paginasjabloon met de naam **Inhoudsjabloon**. 
-1. Voeg in het vak **Hoofdtekst** een module **Standaardpagina** toe.
-1. Voltooi het bewerken van de sjabloon en publiceer deze.
-1. Gebruik de inhoudsjabloon die u zojuist hebt gemaakt om een pagina met de naam **Inhoudpagina** te maken.
-1. Voeg in het **hoofdvak** van de nieuwe pagina een containermodule toe.
+1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
+1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **Inhoudsjabloon** in.
+1. Selecteer het weglatingsteken (**...**) in het vak **Hoofdtekst** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Standaardpagina** en selecteer vervolgens **OK**.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
+1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
+1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de **Inhoudsjabloon**. Voer onder **Paginanaam** **Inhoudpagina** in en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de nieuwe pagina het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
 1. Stel in het eigenschappenvenster voor de containermodule de eigenschap **Breedte** in op **Container vullen**.
-1. Voeg een tekstblokmodule toe aan de containermodule. 
+1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Tekstblok** en selecteer vervolgens **OK**. 
 1. Voeg in het eigenschappenvenster van de tekstblokmodule tekst toe aan het veld **RTF**.
-1. Voltooi het bewerken van de pagina en publiceer deze.
+1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken.
+1. Selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht starterskit](starter-kit-overview.md)
 
-[Promospandoekmodule](add-alert.md)
+[Promotiebanner-module](add-alert.md)
 
 [Carrouselmodule](add-carousel.md)
 
