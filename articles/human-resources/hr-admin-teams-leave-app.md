@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388111"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431125"
 ---
 # <a name="human-resources-app-in-teams"></a>Human resources-app in Teams
 
@@ -45,6 +45,7 @@ Zie [Machtigingsbeleid voor apps beheren in Microsoft Teams](https://docs.micros
 
 | Uitgeven | Status |
 | --- | --- |
+| Fout: er is een probleem met het vinden van een omgeving om verbinding mee te maken. | Dit foutbericht kan ook worden weergegeven als u hebt gecontroleerd of de gebruiker toegang heeft tot een of meer HRM-omgevingen. Bovendien ziet u mogelijk niet alle omgevingen die u verwacht. Tot wij dit probleem oplossen, kunt u dit probleem oplossen door de gebruiker te verwijderen en vervolgens opnieuw te importeren. |
 | Het saldo is onjuist bij het indienen van verlof voor een toekomstige datum. | Prognose maken is nog niet beschikbaar. Het saldo wordt weergegeven voor de huidige datum. |
 | Bij het verminderen van het aantal uren in een bestaande aanvraag gaat het **Resterende saldo** omlaag in plaats van omhoog. | Dit bekende probleem wordt in de toekomst verholpen. De weergave is onjuist, maar de juiste bedragen worden aangepast bij het indienen. |
 | Twee kaarten **Aanstaand verlof** worden weergegeven voor dezelfde datums. | De kaarten vertegenwoordigen afzonderlijke indieningen. We blijven feedback accepteren en wijzigingen aanbrengen. |

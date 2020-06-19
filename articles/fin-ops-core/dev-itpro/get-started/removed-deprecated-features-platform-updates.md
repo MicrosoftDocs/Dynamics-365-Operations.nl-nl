@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
+ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268742"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "3433917"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -36,7 +36,39 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 > [!NOTE]
 > Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
 
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.12 van Finance and Operations-apps
+
+### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Formulieruitbreidingen voor raster- of groepsbesturingselementen met ongeldige veldverwijzingen
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De gegevensgroepeigenschap voor raster- of groepsbesturingselementen wordt gebruikt om automatisch alle velden van een veldgroep weer te geven. Een raster- of groepsbesturingselement dat door een uitbreiding wordt toegevoegd, kan velden bevatten die niet meer in de veldgroep zijn gedefinieerd of er kunnen velden ontbreken die zijn gedefinieerd voor de veldgroep. Dit kan inconsistent gedrag veroorzaken tijdens runtime. Platformupdates voor versie 10.0.12 van Finance and Operations-apps categoriseren dit probleem nu als een *waarschuwing*. U kunt dit probleem oplossen door de formulierextensie te openen en op te slaan.
+| **Vervangen door een andere functie?**   | Deze compilerwaarschuwing wordt vervangen door een compilerfout in een toekomstige update. |
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Een compilerwaarschuwing wordt geïntroduceerd in platformupdates voor versie 10.0.12 van Finance and Operations-apps. |
+
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.11 van Finance and Operations-apps
+
+### <a name="explicit-whitelisting-for-self-service-environments"></a>Expliciete whitelisting voor selfservice-omgevingen
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Het proces voor IP-whitelisting is gewijzigd. Selfservice biedt geen ondersteuning meer voor IP-whitelisting. |
+| **Vervangen door een andere functie?**   | Zie [Voorwaardelijke toegang voor Azure Active Directory configureren](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access) voor meer informatie.|
+| **Betrokken productgebieden**         | Beveiliging |
+| **Implementatieoptie**              | Cloud |
+| **Status**                         | **Afgeschaft:** deze functie is volledig afgeschaft voor selfservice-implementaties. |
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Ter ondersteuning van de meest recente versies van Visual Studio moeten enkele wijzigingen worden aangebracht in de X++-extensies voor Visual Studio. Deze wijzigingen zijn niet compatibel met Visual Studio 2015. |
+| **Vervangen door een andere functie?**   | Visual Studio 2017 vervangt Visual Studio 2015 als de geïmplementeerde en vereiste versie. |
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Zodra de beschikbaarheid van nieuwe virtuele machines (VM's) met Visual Studio 2017 wordt aangekondigd, moeten bestaande VM's met alleen Visual Studio 2015 opnieuw worden geïmplementeerd via releasewave 1 van 2021. |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Veldgroepen die ongeldige veldverwijzingen bevatten
 

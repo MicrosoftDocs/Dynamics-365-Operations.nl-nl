@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212498"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428395"
 ---
 # <a name="production-setup-requirements"></a>Behoeften voor productie-instellingen
 
@@ -71,7 +71,7 @@ Als u met routes werkt, moet u bewerkingen definiëren voor elke productieroute 
 2.  **Kostengroepen** – Stel kostengroepen in voor het maken en muteren van de verschillende typen kostprijsberekeningen.
 3.  **Routegroepen**– Stel routegroepen in voor het definiëren van parameters die betrekking op groepen routes hebben. U moet routegroepen instellen vóór het maken van productieroutes.
 4.  **Routes** - Stel productieroutes in en definieer standaardinstellingen voor het beheer van de planning, kostprijsberekening en prijzen van routebewerkingen en voor het beheer van voortgangsrapportage.
-5.  **Routes**– Instellen van routeversies voor het inschakelen van artikelvariaties in de productie.
+5.  **Routeversie** – Stel routeversies in voor het inschakelen van artikelvariaties in de productie.
 
 ## <a name="optional-advanced-settings"></a>Optionele, geavanceerde instellingen
 1.  **Productiegroepen** – Instellen van productiegroepen voor de totstandbrenging van relaties tussen de productieorder en grootboekrekeningen. De grootboekrekeningen worden gebruikt om orders voor rapportage te boeken of te groeperen.
