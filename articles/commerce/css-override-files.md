@@ -3,7 +3,7 @@ title: Werken met CSS-overschrijvingsbestanden
 description: In dit onderwerp wordt beschreven waarom, wanneer en hoe u CSS-overschrijvingsbestanden (Cascading Style Sheets) gebruikt in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3c40145ea76296c1b8df9284af820534e3c869d4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001847"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411242"
 ---
 # <a name="work-with-css-override-files"></a>Werken met CSS-overschrijvingsbestanden
 
@@ -97,11 +97,13 @@ Ga als volgt te werk om een CSS-overschrijvingsbestand op uw site te deactiveren
 > [!TIP]
 > Voor toegang tot extra opties voor CSS-overschrijvingsbestanden selecteert u het beletselteken (**...**) naast de CSS-bestandsnaam. De opties **Downloaden**, **Naam wijzigen** en **Vervangen** zijn handig voor snelle wijzigingen in een bestaand CSS-overschrijvingsbestand.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Een logo toevoegen](add-logo.md)
 
 [Selecteer een thema voor de site](select-site-theme.md)
+
+[Werken met vooraf ingestelde stijlen](style-presets.md)
 
 [Een favicon toevoegen](add-favicon.md)
 

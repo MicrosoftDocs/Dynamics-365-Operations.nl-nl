@@ -3,7 +3,7 @@ title: Module voor koopvak
 description: In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269746"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411337"
 ---
 # <a name="buy-box-module"></a>Module voor koopvak
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
@@ -38,6 +38,10 @@ De term *koopvak* verwijst doorgaans naar het gebied van een pagina met productg
 Een module voor koopvakken is een speciale container die wordt gebruikt voor het hosten van alle modules die worden weergegeven in het koopvakgebied van een pagina met productgegevens.
 
 De URL van een pagina met productgegevens bevat de product-id. Alle informatie die nodig is om een koopvakmodule te genereren, is afgeleid van deze product-id. Als er geen product-id is opgegeven, wordt de koopvakmodule niet correct weergegeven op een pagina. Dat betekent dat een koopvakmodule alleen kan worden gebruikt op pagina's met productcontext. Als u deze wilt gebruiken op een pagina die geen productcontext heeft (bijvoorbeeld een startpagina of marketingpagina), moet u aanvullende aanpassingen uitvoeren.
+
+De volgende afbeelding toont een voorbeeld van een koopvakmodule op een pagina met productgegevens.
+
+![Voorbeeld van een koopvakmodule](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Eigenschappen en vakken van de koopvakmodule 
 
@@ -62,12 +66,15 @@ Met thema's kunnen producteigenschappen en actiecontroles uit het koopvak worden
 
 ## <a name="buy-box-module-settings"></a>Instellingen voor koopvakmodule
 
-Koopvakmodules hebben drie instellingen die kunnen worden geconfigureerd via **Site-instellingen \> Extensies**:
+De volgende instellingen voor de koopvakmodule kunnen worden geconfigureerd via **Site-instellingen \> Extensies**:
 
-- **Maximumhoeveelheid**: deze eigenschap wordt gebruikt om voor elk artikel het maximumaantal op te geven dat aan de winkelwagen kan worden toegevoegd. Een detailhandelaar kan bijvoorbeeld besluiten dat slechts 10 stuks van elk product in één transactie mogen worden verkocht.
-- **Voorraadcontrole**: wanneer de waarde is ingesteld op **True**, wordt een artikel alleen aan de winkelwagen toegevoegd nadat de koopvakmodule heeft gecontroleerd dat het op voorraad is. Deze voorraadcontrole wordt uitgevoerd voor scenario's waarin het artikel wordt verzonden en voor scenario's waarin het wordt opgehaald in de winkel. Als de waarde is ingesteld op **False**, wordt er geen voorraadcontrole uitgevoerd voordat een artikel aan de winkelwagen wordt toegevoegd en de order wordt geplaatst. Zie [Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md) voor informatie over het configureren van voorraadinstellingen in de backoffice .
+- **Limiet hoeveelheid winkelwagenregel**: deze eigenschap wordt gebruikt om voor elk artikel het maximumaantal op te geven dat aan de winkelwagen kan worden toegevoegd. Een detailhandelaar kan bijvoorbeeld besluiten dat slechts 10 stuks van elk product in één transactie mogen worden verkocht.
+- **Voorraad**: zie [Voorraadinstellingen toepassen](inventory-settings.md) voor informatie over het toepassen van voorraadinstellingen.
+- **Toevoegen aan winkelwagen**: deze eigenschap wordt gebruikt om het gedrag op te geven nadat een artikel aan de winkel wagen is toegevoegd. De mogelijke waarden zijn **Navigeren naar winkelwagen**, **Niet navigeren naar winkelwagen** en **Meldingen weergeven**. Wanneer de waarde is ingesteld op **Navigeren naar winkelwagen**, worden gebruikers naar de pagina Winkelwagen gestuurd nadat ze een artikel hebben toegevoegd. Wanneer de waarde is ingesteld op **Niet navigeren naar winkelwagen**, worden gebruikers niet naar de pagina Winkelwagen gestuurd nadat ze een artikel hebben toegevoegd. Wanneer de waarde is ingesteld op **Meldingen weergeven**, zien gebruikers een bevestigingsbericht en kunnen ze doorgaan met zoeken op de pagina Productgegevens. 
 
-- **Voorraadbuffer**: deze eigenschap wordt gebruikt om een bufferhoeveelheid op te geven voor de voorraad op te geven. Voorraad wordt in realtime bijgehouden en wanneer een groot aantal klanten orders plaatst, kan het lastig zijn om een nauwkeurige voorraadtelling bij te houden. Wanneer een voorraadcontrole wordt uitgevoerd en de voorraad kleiner is dan de bufferhoeveelheid, wordt het product verwerkt als niet op voorraad. Dus wanneer verkopen snel plaatsvinden via verschillende kanalen en de voorraadtelling niet volledig is gesynchroniseerd, is er minder risico dat een artikel wordt verkocht dat niet op voorraad is.
+    De volgende afbeelding toont een voorbeeld van de bevestiging 'toegevoegd aan winkelwagen' op de Fabrikam-site.
+
+    ![Voorbeeld van een meldingsmodule](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interactie met Commerce Scale Unit
 
@@ -77,16 +84,25 @@ De koopvakmodule haalt productinformatie op met behulp van Commerce Scale Unit-A
 
 Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
-1. Maak een fragment met de naam **koopvakfragment** en voeg hieraan een module toe.
-1. Voeg een module voor de mediagalerie toe aan het vak **Media** in de koopvakmodule.
-1. Voeg in de **Winkelselectie**-sleuf van de koopvakmodule een winkelselectiemodule toe.
+1. Ga naar **Paginafragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
+1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Koopvak**.
+1. Voer onder **Naam paginafragment** de naam in voor het **Koopvakfragment** en selecteer **OK**.
+1. Selecteer in het vak **Mediagalerie** van de koopvakmodule het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de **Mediagalerie** en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Winkelselectie** van de koopvakmodule het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de **Winkelselectiemodule** en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om het fragment te controleren en selecteer **Publiceren** om het te publiceren.
-1. Maak een sjabloon voor een pagina met productgegevens en noem deze **PDP-sjabloon**.
-1. Voeg een standaardpagina toe.
-1. Voeg in het **hoofdvak** van de standaardpagina een koopvakfragment toe.
+1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
+1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **PDP-sjabloon** in en selecteer vervolgens **OK**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Hoofdtekst** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Standaardpagina** en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de standaardpagina de knop met het weglatingsteken (**...**) en vervolgens **Paginafragment toevoegen**.
+1. Selecteer in het dialoogvenster **Paginafragment selecteren** het **Koopvakfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
-1. Gebruik de sjabloon die u zojuist hebt gemaakt om een pagina met de naam **PDP-pagina** te maken.
-1. Voeg in het **hoofdvak** van de nieuwe pagina een koopvakfragment toe.
+1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
+1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de **PDP-sjabloon**. Voer onder **Paginanaam** **PDP-pagina** in en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de nieuwe pagina de knop met het weglatingsteken (**...**) en vervolgens **Paginafragment toevoegen**.
+1. Selecteer in het dialoogvenster **Paginafragment selecteren** het **Koopvakfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
 1. Sla de pagina op en bekijk een voorbeeld. Voeg de parameter voor de querytekenreeks **?productid=&lt;product id&gt;** toe aan de URL van de voorbeeldpagina. Op die manier wordt de productcontext gebruikt om de voorbeeldpagina te laden en weer te geven.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren. Op de pagina met productgegevens moet nu het koopvak worden weergegeven.
 

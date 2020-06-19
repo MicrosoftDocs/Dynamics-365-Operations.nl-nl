@@ -3,7 +3,7 @@ title: Overzicht productaanbevelingen
 description: Dit onderwerp biedt algemene informatie over het productaanbevelingen. Met productaanbevelingen kunnen klanten gemakkelijk en snel producten vinden die ze willen en zelfs producten die ze oorspronkelijk niet willen kopen.
 author: Moonma
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e61136ed296d673e14600762c6f6199093530546
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154221"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404343"
 ---
 # <a name="product-recommendations-overview"></a>Overzicht productaanbevelingen
 
@@ -40,7 +40,7 @@ In e-Commerce worden productaanbevelingen op grote schaal aangestuurd door machi
 
 De service voor productaanbevelingen maakt op de volgende manier gebruik van technologieën voor kunstmatige intelligentie en machines learning (AI-ML):
 
-- Gegevens in de door de aanbevelingsservice vereiste indeling worden opgehaald uit de operationele Commerce-database en naar ADLS (Azure Data Lake Storage) of de entiteitsopslag gezonden.
+- Gegevens in de door de aanbevelingsservice vereiste indeling worden opgehaald uit de operationele handelsdatabase en naar Azure Data Lake Storage of de entiteitsopslag gezonden.
 - De aanbevelingsservice gebruikt de opgeslagen gegevens voor het trainen van aanbevelingsmodellen voor de lijsten **Anderen vinden dit ook leuk**, **Vaak samen gekocht**, **Nieuw**, **Best verkocht** en **Trending**.
 
 ## <a name="scenarios"></a>Scenario's
@@ -67,7 +67,7 @@ In de volgende tabel worden verschillende typen automatische productaanbevelinge
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+[Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
 
 [Productaanbevelingen inschakelen](enable-product-recommendations.md)
 

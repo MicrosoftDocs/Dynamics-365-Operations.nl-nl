@@ -3,7 +3,7 @@ title: Opgeslagen weergaven
 description: In dit onderwerp wordt beschreven hoe u de functies voor opgeslagen weergaven gebruikt.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260478"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412326"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -137,7 +137,7 @@ Als de wijzigingen die u wilt aanbrengen in een gepubliceerde weergave alleen be
 7. [10.0.9/platform update 33 of hoger] Als u deze gepubliceerde weergave eerder had ingesteld als standaardweergave, wordt dit opnieuw de standaardweergave voor deze gebruikers nadat hij opnieuw is gepubliceerd.  
 
 Als de wijzigingen in de gepubliceerde weergave betrekking hebben op de persoonlijke instellingen of filters gekoppeld aan de weergave, gaat u als volgt te werk: 
-1.  Schakel over naar de gepubliceerde weergave die u wilt wijzigen. 
+1.  Laad de gepubliceerde weergave die u wilt wijzigen. 
 2.  Sla een kopie van de gepubliceerde weergave op om een lokaal concept van de gepubliceerde weergave te maken. 
 3.  Wijzig het lokale concept met de benodigde wijzigingen.
 4.  Publiceer de weergave onder de oorspronkelijke naam. 
@@ -150,13 +150,26 @@ Hoewel alle gebruikers het tabblad **Mijn weergaven** met hun persoonlijke weerg
 De volgende set acties is beschikbaar voor de lijst met alle gepubliceerde weergaven voor de pagina. 
 
 -    **Publiceren**: gebruik de actie **Publiceren** om een weergave opnieuw te publiceren nadat publicatieparameters (naam, omschrijving, beveiligingsrollen of rechtspersonen) zijn gewijzigd.
+-    **Opslaan als persoonlijk**: gebruik de actie **Opslaan als persoonlijk** om een persoonlijk conceptexemplaar van de gepubliceerde weergave te maken. Deze mogelijkheid helpt u de inhoud te begrijpen van een weergave die niet naar u is gepubliceerd of die nog niet is gepubliceerd. U kunt deze ook gebruiken om een weergave te bewerken en opnieuw te publiceren. Deze mogelijkheid is geïntroduceerd in versie 10.0.12.  
 -    **Verwijderen**: gebruik de actie **Verwijderen** om een gepubliceerde weergave definitief te verwijderen. Met deze actie verwijdert u de weergave voor alle gebruikers in het systeem. Het verwijderen van gepubliceerde weergaven wordt pas van kracht nadat u op de knop **Opslaan** hebt geklikt.
+
+## <a name="managing-views-globally"></a>Weergaven globaal beheren
+Hoewel sommige beheermogelijkheden op elke pagina zichtbaar zijn, zoals in dit onderwerp wordt aangegeven, kunnen weergaven door **systeembeheerders** en **beheerders van opgeslagen weergaven** op een meer holistische wijze voor het systeem worden beheerd via de pagina **Persoonlijke instellingen**. Deze pagina biedt de volgende secties en mogelijkheden: 
+
+- **Gepubliceerde weergaven**: in deze sectie worden alle weergaven vermeld die voor uw organisatie zijn gepubliceerd. Hier kunt u een weergave opnieuw publiceren nadat u de beveiligingsrollen of rechtspersonen in de weergave hebt aangepast. U kunt ook een of meer gepubliceerde weergaven exporteren of verwijderen. In versie 10.0.12 en hoger kunt u de actie **Opslaan als persoonlijk** gebruiken om een persoonlijke kopie van de weergave te maken, zodat u de weergave kunt bijwerken of een beter begrip van de inhoud kunt krijgen. 
+- **Niet-gepubliceerde weergaven**: alle weergaven die in uw systeem zijn geïmporteerd, maar nog niet zijn gepubliceerd. U kunt deze weergaven publiceren, exporteren of verwijderen. Met de actie **Snel publiceren** die is toegevoegd in versie 10.0.12, kunnen meerdere weergaven uit deze sectie in één actie worden gepubliceerd met behulp van de bestaande configuratie voor beveiligingsrollen en rechtspersonen. In versie 10.0.12 en hoger kunt u de actie **Opslaan als persoonlijk** gebruiken om een persoonlijke kopie van deze weergaven te maken, zodat u een beter begrip van de inhoud kunt krijgen.   
+- **Persoonlijke weergaven**: alle weergaven die zijn gemaakt door gebruikers in het systeem. U kunt hier een persoonlijke weergave voor de organisatie publiceren of een of meer van deze weergaven naar andere gebruikers kopiëren. U kunt deze weergaven ook publiceren, exporteren of verwijderen.
+- **Gebruikers**: selecteer een gebruiker om een lijst met de pagina's weer te geven die de gebruiker heeft bezocht. Vervolgens kunt u in- of uitschakelen of de gebruiker voor bepaalde pagina's of voor het hele systeem aanpassingen kan doorvoeren. U kunt ook een aanpassing importeren, exporteren of wissen voor de gebruiker. Daarnaast kunt u de functietoelichtingen voor de gebruiker opnieuw instellen. Als de gebruiker pop-upvensters voor nieuwe functies eerder heeft gesloten, worden deze opnieuw weergegeven wanneer de gebruiker de betreffende functie opnieuw tegenkomt.
+- **Systeem**: u kunt tijdelijk aanpassingen voor alle gebruikers in het systeem uitschakelen. In dat geval worden alle aanpassingen voor alle gebruikers verwijderd en worden alle pagina's opnieuw ingesteld op de standaardstatus. Als u aanpassingen later weer wilt inschakelen, worden alle aanpassingen opnieuw toegepast. U kunt alle aanpassingen voor alle gebruikers in het systeem ook permanent verwijderen. Er is geen enkele manier om aanpassingen terug te halen die zijn verwijderd. Voordat u deze taak uitvoert, moet u er daarom voor zorgen dat u aanpassingen hebt geëxporteerd die u later mogelijk wilt.
+
+Gebruikers die toegang hebben tot de pagina **Aanpassing** kunnen ook persoonlijke sjablonen of sjabloonweergaven importeren met de knop **Weergaven importeren** in het actievenster. In versie 10.0.12 en hoger is een mechanisme toegevoegd voor het onmiddellijk publiceren van weergaven wanneer deze worden geïmporteerd.  
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Hoe schakel ik opgeslagen weergaven in mijn omgeving in? 
-Opmerking: Voor de functie **Opgeslagen weergaven** moet het personalisatiesysteem in Finance and Operations zijn ingeschakeld. Als persoonlijke instellingen zijn uitgeschakeld voor de gehele omgeving, worden weergaven wel uitgeschakeld, ook als u de onderstaande stappen uitvoert. 
+> [!NOTE]
+> Voor de functie **Opgeslagen weergaven** moet het personalisatiesysteem in Finance and Operations zijn ingeschakeld. Als persoonlijke instellingen zijn uitgeschakeld voor de gehele omgeving, worden weergaven wel uitgeschakeld, ook als u de onderstaande stappen uitvoert. 
 
-**10.0.9/platform update 33 en hoger** De functie **Opgeslagen weergaven** is in alle omgevingen meteen beschikbaar in Functiebeheer. Net als andere openbare previewfuncties is het inschakelen van deze functie in productie afhankelijk [van de Aanvullende gebruiksrechtovereenkomst](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9/platform update 33 en hoger** De functie **Opgeslagen weergaven** is in alle omgevingen meteen beschikbaar in Functiebeheer. Net als bij andere previewfuncties is het inschakelen van deze functie in productie afhankelijk van de [aanvullende gebruiksrechtovereenkomst](https://go.microsoft.com/fwlink/?linkid=2105274).  
 
 **10.0.8/platform update 32 en eerder** De functie **Opgeslagen weergaven** kan worden ingeschakeld in omgevingen in laag 1 (Dev/Test) en in laag 2 (Sandbox) om extra tests en ontwerpwijzigingen te kunnen doorvoeren, door de volgende stappen uit te voeren.
 

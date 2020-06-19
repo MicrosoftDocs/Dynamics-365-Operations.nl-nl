@@ -3,7 +3,7 @@ title: 'ER Financiële dimensies gebruiken als gegevensbron (deel 3: het rapport
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan configureren om financiële dimensies te gebruiken als bron voor ER-rapporten.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bbbc81eaf8c13e8d13e30a0276e38453e07ead9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: cef61787e50561eaac4fd52741ab5f90d9c4171d
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142519"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406492"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Financiële dimensies gebruiken als gegevensbron (deel 3: het rapport ontwerpen)
 
@@ -95,6 +95,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 59. Klik op Kenmerk toevoegen.
 60. Typ Desc in het veld Naam.
 61. Klik op OK.
+![Pagina voor ER Operations-ontwerper](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Rapportelementen toewijzen aan gegevensbronnen
 1. Klik op het tabblad Toewijzing.
@@ -143,4 +144,5 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 44. Klik op Binden.
 45. Klik op Opslaan.
 46. Sluit de pagina.
+![Pagina voor ER Operations-ontwerper](../media/er-financial-dimensions-guides-format2.png)
 

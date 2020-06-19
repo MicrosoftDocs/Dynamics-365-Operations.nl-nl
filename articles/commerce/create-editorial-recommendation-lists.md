@@ -3,7 +3,7 @@ title: Handmatig gecureerde aanbevelingen maken
 description: In dit onderwerp wordt uitgelegd hoe verkoopadviseurs handmatig productlijsten voor klanten van Microsoft Dynamics 365 Commerce kunnen maken en beheren.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b00c83355850f6249068749096b011f805b37e3c
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0b866704b419fb07dcf1ddd386af2f7d6cfa02e2
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154313"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404111"
 ---
 # <a name="manually-create-curated-recommendations"></a>Handmatig gecureerde aanbevelingen maken
 
@@ -56,7 +56,7 @@ Voer de volgende stappen uit om een lijst met productaanbevelingen te maken.
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
-[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+[Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
 
 [Productaanbevelingen inschakelen](enable-product-recommendations.md)
 
