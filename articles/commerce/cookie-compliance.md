@@ -3,7 +3,7 @@ title: Conformiteit van cookie
 description: In dit onderwerp worden overwegingen voor compliance op het gebied van cookies en het standaardbeleid in Microsoft Dynamics 365 Commerce beschreven.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b25fd3fffe153e1a07a1f8b21f0cc96f633fb894
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
+ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275366"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3446908"
 ---
 # <a name="cookie-compliance"></a>Conformiteit van cookie
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,11 +32,31 @@ In dit onderwerp worden overwegingen voor compliance op het gebied van cookies e
 
 ## <a name="overview"></a>Overzicht
 
-Privacy is een belangrijke factor wanneer een trackingtechnologieën worden gebruikt die invloed hebben op e-Commerce-klanten. Vanwege normen voor privacycompliance, zoals de AVG (Algemene Verordening Gegevensbescherming) in de EU (Europese Unie), moeten elektronische privacyrichtlijnen worden overwogen voor elke site die nu actief is. Omdat veel e-Commerce-sites standaard wereldwijd toegankelijk zijn, is het belangrijk dat u de compliancenormen voor uw e-Commerce-site controleert.
+Privacy is een belangrijke factor wanneer trackingtechnologieën worden gebruikt die invloed hebben op e-Commerce-klanten. Vanwege normen voor privacycompliance, zoals de AVG (Algemene Verordening Gegevensbescherming) in de EU (Europese Unie), moeten elektronische privacyrichtlijnen worden overwogen voor elke site die nu actief is. Omdat veel e-Commerce-sites standaard wereldwijd toegankelijk zijn, is het belangrijk dat u de compliancenormen voor uw e-Commerce-site controleert.
 
 Bezoek het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trust-center) voor meer informatie over de basisbeginselen die Microsoft gebruikt voor cookiecompliance. Op die site vindt u ook meer informatie over de compliancegebieden en privacy.
 
-## <a name="additional-resources"></a>Aanvullende resources
+In de volgende tabel wordt de huidige verwijzingslijst van cookies weergegeven die door Dynamics 365 Commerce-sites zijn geplaatst.
+
+| Cookienaam                               | Gebruik                                                        |
+| ------------------------------------------- | ------------------------------------------------------------ |
+| .AspNet.Cookies                             | Microsoft Azure Active Directory (Azure AD)-verificatiecookies opslaan voor eenmalige aanmelding (SSO). Hiermee wordt gecodeerde informatie over gebruikers opgeslagen (naam, achternaam, e-mail). |
+| &#95;msdyn365___cart&#95;                           | Winkelwagen-id wordt gebruikt om lijst met producten op te halen die aan het winkelwagenexemplaar zijn toegevoegd. |
+| &#95;msdyn365___ucc&#95;                            | Toestemming bijhouden voor cookienaleving.                          |
+| ai_session                                  | Detecteert in hoeveel sessies met gebruikersactiviteit bepaalde pagina's en functies van de app zijn opgenomen. |
+| ai_user                                     | Detecteert hoeveel mensen de app en de bijbehorende functies hebben gebruikt. Gebruikers worden geteld met behulp van anonieme id's. |
+| b2cru                                       | De omleidings-URL wordt dynamisch opgeslagen.                              |
+| JSESSIONID                                  | Wordt gebruikt door betalingsconnector Adyen om gebruikerssessie op te slaan.       |
+| OpenIdConnect.nonce.&#42;                       | Authenticatie                                               |
+| x-ms-cpim-cache:.&#42;                          | Wordt gebruikt voor het onderhouden van de aanvraagstatus.                      |
+| x-ms-cpim-csrf                              | CRSF-token (aanvraagvervalsing op meerdere sites) wordt gebruikt voor de CRSF-beveiliging.     |
+| x-ms-cpim-dc                                | Wordt gebruikt om aanvragen naar het toepasselijke serverexemplaar voor productieverificatie te routeren. |
+| x-ms-cpim-rc.&#42;                              | Wordt gebruikt om aanvragen naar het toepasselijke serverexemplaar voor productieverificatie te routeren. |
+| x-ms-cpim-slice                             | Wordt gebruikt om aanvragen naar het toepasselijke serverexemplaar voor productieverificatie te routeren. |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Wordt gebruikt voor het onderhouden van de SSO-sessie.                        |
+| x-ms-cpim-trans                             | Wordt gebruikt voor het traceren van transacties (het aantal geopende tabbladen dat wordt geverifieerd tegen een Business-to-consumer-site (B2C)), inclusief de huidige transactie. |
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Toegankelijksfuncties en -voorzieningen](accessibility.md)
 

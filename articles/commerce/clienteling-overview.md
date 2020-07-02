@@ -3,7 +3,7 @@ title: Overzicht van clienteling
 description: Dit onderwerp biedt een overzicht van de nieuwe clienteling-functies die beschikbaar zijn in de winkeltoepassing.
 author: bebeale
 manager: AnnBe
-ms.date: 11/01/19
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4f045f8509a6b5027fd3cf8e5ca9e382457a5e83
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022092"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456502"
 ---
 # <a name="clienteling-overview"></a>Clientelingoverzicht
 
@@ -115,7 +115,7 @@ Volg deze stappen voor het instellen van de integratie.
 3. Maak een Azure-sleutelkluis en sla het toepassingsgeheim op. Zie [Snelstart: Een geheim instellen en ophalen vanuit Azure Key Vault via de Azure-portal](https://docs.microsoft.com/azure/key-vault/quick-create-portal) voor instructies.
 4. Schakel de toegang tot Azure Key Vault in vanuit Commerce. U kunt deze stap alleen uitvoeren als u een toepassings-id en een geheim hebt. De toepassing kan dezelfde toepassing zijn die u in stap 1 hebt gemaakt, maar kan ook een nieuwe toepassing zijn. (Met andere woorden, u kunt de toepassing die u in stap 1 hebt gemaakt, gebruiken voor zowel toegang tot de Key Vault als toegang tot de Customer Insights-service, of u kunt een unieke toepassing maken voor elk type toegang.) Zie [Referenties voor serviceprincipal opslaan in Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal)voor instructies.
 5. Ga in Headquarters naar **Systeembeheer \> Instellingen \> Parameters voor sleutelkluis** en voer de vereiste informatie voor de sleutelkluis in. Voer vervolgens in het veld **Client sleutelkluis** de toepassings-id in die u in stap 4 hebt gebruikt, zodat Commerce toegang kan krijgen tot de geheimen in de sleutelkluis.
-6. Als u de toepassing die u in stap 1 hebt gemaakt wilt toevoegen aan de lijst met veilige toepassingen (ook wel een whitelist genoemd), gaat u naar Customer Insights en verleent u de toegangsoptie **Weergeven** aan de toepassing. Zie [Machtigingen](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions) voor instructies.
+6. Als u de toepassing die u in stap 1 hebt gemaakt wilt toevoegen aan de lijst met veilige toepassingen (ook wel een veilige lijst genoemd), gaat u naar Customer Insights en verleent u de toegangsoptie **Weergeven** aan de toepassing. Zie [Machtigingen](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions) voor instructies.
 7. Ga in Commerce naar de pagina **Commerce-parameters** en voer de volgende stappen uit op het tabblad **Clienteling** op het sneltabblad **Dynamics 365 Customer Insights**:
 
     1. Voer in het veld **Toepassings-id** de toepassings-id in die u in stap 1 hebt gebruikt.

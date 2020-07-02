@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 10065039fce441d7f96f700ff826d959e96f2479
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410076"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443844"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Problemen tijdens eerste synchronisatie oplossen
 
@@ -39,7 +39,7 @@ Dit onderwerp bevat informatie voor het oplossen van problemen voor de integrati
 
 Nadat u de toewijzingssjablonen hebt ingeschakeld, moet de status van de toewijzingen **Wordt uitgevoerd** zijn. Als de status **Wordt niet uitgevoerd**, zijn er fouten opgetreden tijdens de initiële synchronisatie. Als u de fouten wilt weergeven , selecteert u het tabblad **Details initiële synchronisatie** op de pagina **Twee keer wegschrijven**.
 
-![Tabblad Details initiële synchronisatie](media/initial_sync_status.png)
+![Fout op het tabblad Details initiële synchronisatie](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>U kunt de initiële synchronisatie niet voltooien: 400 Ongeldige aanvraag
 
@@ -47,7 +47,7 @@ Nadat u de toewijzingssjablonen hebt ingeschakeld, moet de status van de toewijz
 
 Het volgende foutbericht kan worden weergegeven wanneer u probeert de toewijzing en de initiële synchronisatie uit te voeren:
 
-*De externe server heeft een fout geretourneerd: (400 Ongeldige aanvraag.), er is een fout opgetreden bij de AX-export*
+*(\[Ongeldige aanvraag\], De externe server heeft een fout geretourneerd: (400 Ongeldige aanvraag.), er is een fout opgetreden bij de AX-export*
 
 Hier volgt een voorbeeld van de volledige foutmelding.
 
@@ -86,130 +86,127 @@ Volg deze stappen om het probleem op te lossen.
 1. Meld u aan bij de Finance and Operations-app.
 2. Verwijder op de pagina **Azure Active Directory-toepassingen** de **DtAppID**-client en voeg deze vervolgens opnieuw toe.
 
-![Lijst met Azure AD-toepassingen](media/aad_applications.png)
+![DtAppID-client in de lijst met Azure AD-toepassingen](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Fouten met verwijzing naar zichzelf of circulaire verwijzingen tijdens initiële synchronisatie
 
 Er wordt mogelijk een foutberichten als een van uw toewijzingen naar zichzelf verwijst of kringverwijzingen bevat. De fouten vallen in deze categorieën:
 
-- [Entiteitstoewijzing van Leveranciers V2 aan msdyn_vendors](#error-vendor-map)
-- [Entiteitstoewijzing Klanten V3 aan Accounts](#error-customer-map)
+- [Fouten in de entiteitstoewijzing Vendors V2–to–msdyn_vendors](#error-vendor-map)
+- [Fouten in de  entiteitstoewijzing Customers V3–to–Accounts](#error-customer-map)
 
-## <a name="resolve-an-error-in-vendors-v2-to-msdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Een fout in Leveranciers v2 omzetten in een msdyn_vendors-entiteitstoewijzing
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Fouten in de entiteitstoewijzing Vendors V2–to–msdyn_vendors oplossen
 
-U kunt de volgende initiële synchronisatiefouten tegenkomen bij de toewijzing van **Leveranciers v2** aan **msdyn_vendors**, als de entiteiten bestaande records hebben met waarden in de velden **PrimaryContactPersonId** en **InvoiceVendorAccountNumber**. De reden is dat **InvoiceVendorAccountNumber** een veld is dat naar zichzelf verwijst en dat **PrimaryContactPersonId** een kringverwijzing in de leverancierstoewijzing is.
+U kunt de volgende initiële synchronisatiefouten tegenkomen bij de toewijzing van **Leveranciers v2** aan **msdyn\_vendors**, als de entiteiten bestaande records hebben met waarden in de velden **PrimaryContactPersonId** en **InvoiceVendorAccountNumber**. Deze fouten treden op omdat **InvoiceVendorAccountNumber** een veld is dat naar zichzelf verwijst en **PrimaryContactPersonId** een kringverwijzing is in de leverancierstoewijzing.
 
-*Kan de GUID voor het veld niet omzetten: <field>. De zoekopdracht is niet gevonden: <value>. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity> ?$select=<field>&$filter=<field> eq <value>*
+De foutberichten die worden weergegeven, hebben de volgende vorm.
 
-Hier volgen enkele voorbeelden:
+*Kan de GUID voor het veld niet omzetten: \<field\>. De zoekopdracht is niet gevonden: \<value\>. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
-- *Kan de GUID voor het veld niet omzetten: msdyn_vendorprimarycontactperson.msdyn_contactpersonid. De zoekopdracht is niet gevonden: 000056. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'*
-- *Kan de GUID voor het veld niet omzetten: msdyn_invoicevendoraccountnumber.msdyn_vendoraccountnumber. De zoekopdracht is niet gevonden: V24-1. Try this URL(s) to check if the reference data exists: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'*
+Hieronder volgen een aantal voorbeelden:
 
-Als u records met waarden in deze velden in de entiteit voor de leverancier hebt, volgt u de stappen in de volgende sectie om de initiële synchronisatie te voltooien.
+- *Kan de GUID voor het veld niet omzetten: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. De zoekopdracht is niet gevonden: 000056. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Kan de GUID voor het veld niet omzetten: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber De zoekopdracht is niet gevonden: V24-1. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-1. Verwijder in de app Finance and Operations de velden **PrimaryContactPersonId** en **InvoiceVendorAccountNumber** uit de toewijzing en sla de wijzigingen op.
+Als records in de entiteit leverancier waarden hebben in de velden **PrimaryContactPersonId** en **InvoiceVendorAccountNumber**, volgt u deze stappen om de initiële synchronisatie te voltooien.
 
-    1. Ga naar de pagina voor de toewijzing van twee keer wegschrijven voor **Leveranciers v2 (msdyn_vendors)** en selecteer het tabblad **Entiteits toewijzingen**. Selecteer in het linkerfilter de optie **Finance and Operations apps.Vendors V2**. Selecteer in het rechterfilter **Sales.Vendor**.
+1. Verwijder in de app Finance and Operations de velden **PrimaryContactPersonId** en **InvoiceVendorAccountNumber** uit de toewijzing en sla de toewijzing op.
 
+    1. Selecteer op de pagina voor de toewijzing van twee keer wegschrijven voor **Leveranciers v2 (msdyn\_vendors)**, op het tabblad **Entiteitstoewijzingen** in het linkerfilter de optie **Finance and Operations apps.Vendors V2**. Selecteer in het rechterfilter **Sales.Vendor**.
     2. Zoek naar **primarycontactperson** om het bronveld **PrimaryContactPersonId** te vinden.
-    
-    3. Klik op de knop **Acties** en selecteer **Verwijderen**.
-    
-        ![Zelf- of kringverwijzing 3](media/vend_selfref3.png)
-    
-    4. Herhaal dit om het veld **InvoiceVendorAccountNumber** te verwijderen.
-    
-        ![Zelf- of kringverwijzing 4](media/vend-selfref4.png)
-    
+    3. Selecteer **Acties** en vervolgens **Verwijderen**.
+
+        ![Het veld PrimaryContactPersonId verwijderen](media/vend_selfref3.png)
+
+    4. Herhaal deze stappen om het veld **InvoiceVendorAccountNumber** te verwijderen.
+
+        ![Het veld InvoiceVendorAccountNumber verwijderen](media/vend-selfref4.png)
+
     5. Sla de wijzigingen in de toewijzing op.
 
 2. Schakel het bijhouden van wijzigingen uit voor de entiteit **Leveranciers v2**.
 
-    1. Navigeer naar **Gegevens beheer \> Gegevensentiteiten**.
-    
+    1. Selecteer in de werkruimte **Gegevensbeheer** de tegel **Gegevensentiteiten**.
     2. Selecteer de entiteit **Leveranciers V2**.
-    
-    3. Klik op **Opties** in de menubalk en wijzig vervolgens **Wijzigingen bijhouden**.
-    
-        ![Zelf- of kringverwijzing 5](media/selfref_options.png)
-    
-    4. Klik op **Wijzigingen bijhouden uitschakelen**.
-    
-        ![Zelf- of kringverwijzing 6](media/selfref_tracking.png)
+    3. Selecteer in het actievenster **Opties** en selecteer **Wijzigingen bijhouden**.
 
-3. Voer de eerste synchronisatie uit van de toewijzing van **Leveranciers v2 (msdyn_vendors)**. De eerste synchronisatie moet zonder fouten worden uitgevoerd.
+        ![De optie Wijzigingen bijhouden selecteren](media/selfref_options.png)
 
-4. Voer de eerste synchronisatie uit voor de toewijzing **CDS Contactpersonen V2 (contacts)**. U moet deze toewijzing synchroniseren als u het veld voor de primaire contactpersoon in de entiteit leveranciers wilt synchroniseren omdat de records voor contactpersonen ook als eerste moeten worden gesynchroniseerd.
+    4. Selecteer **Wijzigingen bijhouden uitschakelen**.
 
-5. Voeg de velden **PrimaryContactPersonId** en **InvoiceVendorAccountNumber** weer toe aan de toewijzing **Leveranciers v2 (msdyn_vendors)** en sla de toewijzing op.
+        ![Selecteer Wijzigingen bijhouden uitschakelen](media/selfref_tracking.png)
 
-6. Voer de eerste synchronisatie opnieuw uit van de toewijzing van **Leveranciers v2 (msdyn_vendors)**. Alle records worden gesynchroniseerd omdat het bijhouden van wijzigingen is uitgeschakeld.
+3. Voer de initiële synchronisatie opnieuw uit van de toewijzing **Leveranciers v2 (msdyn\_vendors)**. De eerste synchronisatie moet zonder fouten worden uitgevoerd.
+4. Voer de eerste synchronisatie uit voor de toewijzing **CDS Contactpersonen V2 (contacts)**. U moet deze toewijzing synchroniseren als u het veld voor de primaire contactpersoon in de entiteit leveranciers wilt synchroniseren, omdat initiële synchronisatie ook moet worden uitgevoerd voor de records voor contactpersonen.
+5. Voeg de velden **PrimaryContactPersonId** en **InvoiceVendorAccountNumber** weer toe aan de toewijzing **Leveranciers v2 (msdyn\_vendors)** en sla de toewijzing op.
+6. Voer de initiële synchronisatie opnieuw uit van de toewijzing **Leveranciers v2 (msdyn\_vendors)**. Alle records worden gesynchroniseerd omdat het bijhouden van wijzigingen is uitgeschakeld.
+7. Schakel het bijhouden van wijzigingen weer in voor de entiteit **Leveranciers v2**.
 
-7. Schakel het bijhouden van wijzigingen in voor de entiteit **Leveranciers v2**.
+## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>Fouten oplossen in de entiteitstoewijzing Klanten V3–to–Accounts
 
-## <a name="resolve-an-error-in-customers-v3-to-accounts-entity-mapping"></a><a id="error-customer-map"></a>Een fout in Klanten v3 omzetten naar een entiteitstoewijzing voor Accounts
+U kunt de volgende initiële synchronisatiefouten tegenkomen bij de toewijzing van **Klanten v3** aan **Accounts**, als de entiteiten bestaande records hebben met waarden in de velden **ContactPersonID** en **InvoiceAccount**. Deze foutne treden op omdat **InvoiceAccount** een veld is dat naar zichzelf verwijst en **ContactPersonID** een kringverwijzing in de leverancierstoewijzing is.
 
-U kunt de volgende initiële synchronisatiefouten tegenkomen bij de toewijzing van **Klanten v3** aan **Accounts**, als de entiteiten bestaande records hebben met waarden in de velden **ContactPersonID** en **InvoiceAccount**. De reden is dat **InvoiceAccount** een veld is dat naar zichzelf verwijst en dat **ContactPersonID** een kringverwijzing in de leverancierstoewijzing is.
+De foutberichten die worden weergegeven, hebben de volgende vorm.
 
-*Kan de GUID voor het veld niet omzetten: <field>. De zoekopdracht is niet gevonden: <value>. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity> ?$select=<field>&$filter=<field> eq <value>*
+*Kan de GUID voor het veld niet omzetten: \<field\>. De zoekopdracht is niet gevonden: \<value\>. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
-- *Kan de GUID voor het veld niet omzetten: primarycontactid.msdyn_contactpersonid. De zoekopdracht is niet gevonden: 000056. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'*
-- *Kan de GUID voor het veld niet omzetten: msdyn_billingaccount.accountnumber. De zoekopdracht is niet gevonden: 1206-1. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'*
+Hieronder volgen een aantal voorbeelden:
 
-Als u records met waarden in deze velden in de entiteit voor de klant hebt, volgt u de stappen in de volgende sectie om de initiële synchronisatie te voltooien. U kunt deze methode gebruiken voor alle standaardentiteiten zoals accounts en contactpersonen.
+- *Kan de GUID voor het veld niet omzetten: primarycontactid.msdyn\_contactpersonid. De zoekopdracht is niet gevonden: 000056. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Kan de GUID voor het veld niet omzetten: msdyn\_billingaccount.accountnumber. De zoekopdracht is niet gevonden: 1206-1. Probeer deze URL's om te controleren of de verwijzingsgegevens bestaan: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
+
+Als records in de entiteit klant waarden hebben in de velden **ContactPersonID** en **InvoiceAccount**, volgt u deze stappen om de initiële synchronisatie te voltooien. U kunt deze methode gebruiken voor alle standaardentiteiten zoals **accounts** en **contactpersonen**.
 
 1. Verwijder in de app Finance and Operations de velden **ContactPersonID** en **InvoiceAccount** uit de toewijzing **Klanten V3 (accounts)** en sla de toewijzing op.
 
-    1. Ga naar de pagina voor de toewijzing van twee keer wegschrijven voor **Klanten v2 (accounts)** en selecteer het tabblad **Entiteits toewijzingen**. Selecteer in het linkerfilter de optie **Finance and Operations app.Customers V3**. Selecteer in het rechterfilter **Common Data Service.Account**.
-
+    1. Selecteer op de pagina voor de toewijzing van twee keer wegschrijven voor **Klanten v3 (accounts)** op het tabblad **Entiteitstoewijzingen** in het linkerfilter de optie **Finance and Operations app.Customers V3**. Selecteer in het rechterfilter **Common Data Service.Account**.
     2. Zoek naar **contactperson** om het bronveld **ContactPersonID** te vinden.
-    
-    3. Klik op de knop **Acties** en selecteer **Verwijderen**.
-    
-        ![Zelf- of kringverwijzing 3](media/cust_selfref3.png)
-    
-    4. Herhaal dit om het veld **InvoiceAccount** te verwijderen.
-    
-        ![Zelf- of kringverwijzing](media/cust_selfref4.png)
-    
+    3. Selecteer **Acties** en vervolgens **Verwijderen**.
+
+        ![Het veld ContactPersonID verwijderen](media/cust_selfref3.png)
+
+    4. Herhaal deze stappen om het veld **InvoiceAccount** te verwijderen.
+
+        ![Het veld InvoiceAccount verwijderen](media/cust_selfref4.png)
+
     5. Sla de wijzigingen in de toewijzing op.
 
 2. Schakel het bijhouden van wijzigingen uit voor de entiteit **Klanten v3**.
 
-    1. Navigeer naar **Gegevens beheer \> Gegevensentiteiten**.
-    
+    1. Selecteer in de werkruimte **Gegevensbeheer** de tegel **Gegevensentiteiten**.
     2. Selecteer de entiteit **Klanten V3**.
-    
-    3. Klik op **Opties** in de menubalk en wijzig vervolgens **Wijzigingen bijhouden**.
-    
-        ![Zelf- of kringverwijzing 5](media/selfref_options.png)
-    
-    4. Klik op **Wijzigingen bijhouden uitschakelen**.
-    
-        ![Zelf- of kringverwijzing 6](media/selfref_tracking.png)
+    3. Selecteer in het actievenster **Opties** en selecteer **Wijzigingen bijhouden**.
 
-3. Voer de eerste synchronisatie uit voor de toewijzing **Klanten V3 (Accounts)**. De eerste synchronisatie moet zonder fouten worden uitgevoerd.
+        ![De optie Wijzigingen bijhouden selecteren](media/selfref_options.png)
 
-4. Voer de eerste synchronisatie uit voor de toewijzing **CDS Contactpersonen V2 (contacts)**. Er zijn 2 toewijzingen met dezelfde naam. Selecteer de naam met de omschrijving **Sjabloon voor twee keer wegschrijven voor sync tussen FO.CDS Vendor Contacts V2 en CDS.Contacts. Vereist nieuw pakket \[Dynamics365SupplyChainExtended\].** op het tabblad **Details** van de toewijzing.
+    4. Selecteer **Wijzigingen bijhouden uitschakelen**.
 
-5. Voeg de velden **InvoiceAccount** en **ContactPersonId** weer toe uit de toewijzing **Klanten V3 (Accounts)** en sla de toewijzing op. Nu maken de velden **InvoiceAccount** en **ContactPersonId** weer deel uit van de live synchronisatiemodus. In de volgende stap voltooit u de initiële synchronisatie voor deze velden.
+        ![Selecteer Wijzigingen bijhouden uitschakelen](media/selfref_tracking.png)
 
-6. Voer de eerste synchronisatie opnieuw uit voor de toewijzing **Klanten V3 (Accounts)**. Omdat het bijhouden van wijzigingen is uitgeschakeld, synchroniseert u de gegevens voor **InvoiceAccount** en **ContactPersonId** van de Finance and Operations-app met Common Data Service.
+3. Voer de eerste synchronisatie opnieuw uit voor de toewijzing **Klanten V3 (Accounts)**. De eerste synchronisatie moet zonder fouten worden uitgevoerd.
+4. Voer de eerste synchronisatie uit voor de toewijzing **CDS Contactpersonen V2 (contacts)**.
 
-7. Voor het synchroniseren van de gegevens voor **InvoiceAccount** en **ContactPersonId** van Common Data Service met Finance and Operations, gebruikt u een gegevensintegratieproject.
+    > [!NOTE]
+    > Er zijn twee toewijzingen met dezelfde naam. Selecteer de toewijzing met de volgende omschrijving op het tabblad **Details**: **Sjabloon voor twee keer wegschrijven voor sync tussen FO.CDS Vendor Contacts V2 to CDS.Contacts. Vereist nieuw pakket \[Dynamics365SupplyChainExtended\].**
 
-    1. Maak in Power Apps een gegevensintegratieproject tussen de entiteiten **Sales.Account** en **Finance and Operations apps.Customers V3**. De gegevensrichting moet van Common Data Service naar de Finance and Operations-app gaan.  Omdat **InvoiceAccount** een nieuw kenmerk is voor twee keer wegschrijven, wilt u mogelijk de initiële synchronisatie voor dit kenmerk overslaan. Zie voor meer informatie [Gegevens integreren in Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
+5. Voeg de velden **InvoiceAccount** en **ContactPersonId** weer toe uit de toewijzing **Klanten V3 (Accounts)** en sla de toewijzing op. Nu maken de velden **InvoiceAccount** en **ContactPersonId** weer deel uit van de live synchronisatiemodus. In de volgende stap voert u de initiële synchronisatie uit voor deze velden.
+6. Voer de initiële synchronisatie opnieuw uit voor de toewijzing **Klanten V3 (Accounts)**. Omdat het bijhouden van wijzigingen is uitgeschakeld, worden de gegevens voor **InvoiceAccount** en **ContactPersonId** uit de Finance and Operations-app gesynchroniseerd met Common Data Service.
+7. Voor het synchroniseren van de gegevens voor **InvoiceAccount** en **ContactPersonId** van Common Data Service met de Finance and Operations-app, gebruikt u een gegevensintegratieproject.
+
+    1. Maak in Power Apps een gegevensintegratieproject tussen de entiteiten **Sales.Account** en **Finance and Operations apps.Customers V3**. De gegevensrichting moet van Common Data Service naar de Finance and Operations-app gaan. Omdat **InvoiceAccount** een nieuw kenmerk is voor twee keer wegschrijven, wilt u mogelijk de initiële synchronisatie voor dit kenmerk overslaan. Zie voor meer informatie [Gegevens integreren in Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
 
         In de volgende afbeelding ziet u een project waarmee **CustomerAccount** en **ContactPersonId** worden bijgewerkt.
 
-        ![Zelf- of kringverwijzing](media/cust_selfref6.png)
+        ![Gegevensintegratieproject voor het bijwerken van CustomerAccount en ContactPersonId](media/cust_selfref6.png)
 
-    2. Voeg de bedrijfscriteria toe in het filter aan de kant van Common Data Service, omdat alleen de records die aan filtercriteria voldoen, in de app Finance and Operations worden bijgewerkt. Klik op het filterpictogram om een filter toe te voegen. In het dialoogvenster **Query bewerken** kunt u een filterquery als **_msdyn_company_value eq '\<guid\>'** toevoegen. Als het filterpictogram niet aanwezig is, maakt u een ondersteuningsticket om aan het gegevensintegratieteam te vragen om de filtermogelijkheid voor uw tenant in te schakelen. Als u geen filterquery voor **_msdyn_company_value** invoert, worden alle records gesynchroniseerd.
+    2. Voeg de bedrijfscriteria toe in het filter aan de kant van Common Data Service, zodat alleen de records die aan de filtercriteria voldoen, in de app Finance and Operations worden bijgewerkt. Klik op de filterknop om een filter toe te voegen. Voeg vervolgens In het dialoogvenster **Query bewerken** een filterquery als **\_msdyn\_company\_value eq '\<guid\>'** toe. 
 
-        ![Zelf- of kringverwijzing](media/cust_selfref7.png)
+        > [OPMERKING] Als de filterknop niet aanwezig is, maakt u een ondersteuningsticket om aan het gegevensintegratieteam te vragen om de filtermogelijkheid voor uw tenant in te schakelen.
 
-        Hiermee is de initiële synchronisatie van de records voltooid.
+        Als u geen filterquery voor **\_msdyn\_company\_value** invoert, worden alle records gesynchroniseerd.
+
+        ![Een filterquery toevoegen](media/cust_selfref7.png)
+
+    De initiële synchronisatie van de records is nu voltooid.
 
 8. Schakel het bijhouden van wijzigingen in voor de entiteit **Klanten V3** in de Finance and Operations-app.
-

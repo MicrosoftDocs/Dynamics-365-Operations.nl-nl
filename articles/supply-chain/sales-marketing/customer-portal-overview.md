@@ -3,7 +3,7 @@ title: Overzicht van klantportal voor Dynamics 365 Supply Chain Management
 description: In dit onderwerp wordt de klantportal geïntroduceerd en wordt uitgelegd wie de portal moet gebruiken en hoe deze werkt.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413949"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456921"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Overzicht van klantportal voor Dynamics 365 Supply Chain Management
 
@@ -37,6 +37,12 @@ De klantportalsjabloon bevat alle aanpassingsfuncties die door de portalfunctie 
 
 > [!NOTE]
 > De documentatie van de klantportal is gericht op beheerders, aanpassers en systeemintegrators die de klantportal instellen voor een Supply Chain Management-installatie. De termen _klant_ en _gebruiker_ worden gebruikt om personen te beschrijven die klanten zijn van de organisatie die Supply Chain Management uitvoert en die de eindportal zelf zullen gebruiken.
+
+## <a name="video"></a>Video
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+De video [overzicht van de klantportalsjabloon in Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (zie hierboven) is opgenomen in de [Finance and Operations-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
 
 ## <a name="who-should-use-it"></a>Wie moet het gebruiken?
 
@@ -58,6 +64,6 @@ De klantportal wordt geleverd als Power Apps-portalsjabloon. Deze hangt af van P
 
 [Twee keer wegschrijven](https://docs.microsoft.com/powerapps/maker/portals/overview) is een kant-en-klaar infrastructuurproduct dat vrijwel realtime-interactie biedt tussen modelgestuurde apps in Dynamics 365 en Finance and Operations-apps. Twee keer wegschrijven biedt bidirectionele integratie tussen Finance and Operations-apps en Common Data Service. Daarom geeft dit een geïntegreerde gebruikerservaring over de apps heen. De klantportal is afhankelijk van entiteiten die met twee keer wegschrijven worden gesynchroniseerd. Voordat gegevens van Supply Chain Management kunnen worden afgelezen in de klantportal, moet twee keer wegschrijven zijn ingeschakeld voor alle relevante entiteiten.
 
-![![Afhankelijkheden van klantportal](media/customer-portal-elements.png "Afhankelijkheden van klantportal")](media/customer-portal-elements.png "Customer portal dependencies")
+![Afhankelijkheden van klantportal](media/customer-portal-elements.png "Afhankelijkheden van klantportal")
 
 De klantportal fungeert als uitgangspunt voor organisaties die Power Apps-portals willen gebruiken om een extern gerichte website te maken die gegevens uit hun Supply Chain Management-installatie gebruikt. Het helpt organisaties om twee keer wegschrijven, Supply Chain Management en Power Apps-portals te koppelen.

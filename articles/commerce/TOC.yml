@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Upgrade en ondersteuning voor N-1
               items:
-                - name: Upgrade en N-1-ondersteuning voor Retail
+                - name: Upgrade en N-1-ondersteuning voor Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Gefaseerde implementatie (N-1) installeren, configureren en wijzigen'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (mei 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: Commerce 10.0.9 (april 2020)
-                      href: get-started/whats-new-10-0-9.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Finance and Operations
@@ -504,6 +502,8 @@
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: SCA (sterke klantverificatie) met de Adyen-connector
                       href: adyen_redirect.md
+                    - name: Speciale betalingsterminals en -prompts voor een printer en kassalade
+                      href: pos-multi-hws.md
                     - name: Naadloos overschakelen naar offline bewerkingen voor cadeaukaarten en creditnota's
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Scenario's voor het betalen van facturen instellen
@@ -572,6 +572,10 @@
                       href: set-up-bar-codes.md
                     - name: Streepjescodemaskers instellen
                       href: set-up-bar-code-masks.md
+                - name: Garanties
+                  items:
+                    - name: Uitgebreide garanties maken en configureren
+                      href: extended-warranty.md
             - name: Prijzen en kortingen
               items:
                 - name: Kortingen
@@ -974,7 +978,7 @@
                       href: cart-icon-module.md
                     - name: Kassamodule
                       href: add-checkout-module.md
-                    - name: Orderbevestigingsmodule
+                    - name: Module voor orderdetails
                       href: order-confirmation-module.md
                     - name: Winkelselectiemodule
                       href: store-selector.md
@@ -1896,6 +1900,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Een ontwikkelomgevingsbestand (.env) configureren
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: Foutopsporing voor een Tier 1-ontwikkelomgeving voor Commerce
+                      href: e-commerce-extensibility/debug-tier-1.md
                     - name: Azure DevOps-code delen instellen en een build-pijplijn maken
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Platformoverzicht
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: Ontwikkelingen in dev-omgevingen met cloudhosting zonder beheerderstoegang
                   href: dev-itpro/cloud-dev-box.md
+                - name: Build-pipeline instellen voor Commerce SDK
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: Uitbreidbaarheid van verkooppunten
               items:
                 - name: POS-schermindelingen
@@ -2102,7 +2110,7 @@
                   href: dev-itpro/call-crt-service-offline.md
                 - name: Nieuwe uitbreiding voor Retail Server maken
                   href: dev-itpro/retail-server-extension.md
-                - name: 'Retail-typescript en C#-proxy''s'
+                - name: Retail-typescript en C#-proxy's
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: Uitbreidbaarheid Commerce Runtime (CRT)
               items:

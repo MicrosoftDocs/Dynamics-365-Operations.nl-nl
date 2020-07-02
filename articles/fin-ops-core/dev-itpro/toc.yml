@@ -20,11 +20,9 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platform updates voor 10.0.10 (mei 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33 (april 2020)
-                  href: get-started/whats-new-platform-update-33.md
             - name: Verwijderde of afgeschafte functies
               items:
-                - name: Verwijderde of afgeschafte Platform-functies
+                - name: Verwijderde of afgeschafte platform-functies
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Verwijderde of afgeschafte functies in eerdere releases
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: Entiteitstoewijzing voor twee keer wegschrijven inschakelen
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: Migratie van valutagegevenstype voor twee keer wegschrijven
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Twee keer wegschrijven beheren
                           items:
                             - name: Entiteits- en veldtoewijzingen aanpassen
@@ -364,6 +364,8 @@
           items:
             - name: Overzicht van Azure Data Lake
               href: data-entities/azure-data-lake-overview.md
+            - name: Export naar Azure Data Lake configureren
+              href: data-entities/configure-export-data-lake.md
             - name: Finance and Operations-apps in Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Entiteitopslag beschikbaar maken als een Data Lake
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: On-premises diagnoses
                       href: deployment/on-premises-diagnostics.md
+                    - name: Configuratie van on-premises herstel na noodgeval
+                      href: deployment/onprem-dr.md
                     - name: Integratie PowerBI.com met on-premises omgevingen
                       href: analytics/entity-store-on-prem.md
                     - name: Omgevingen configureren
@@ -652,11 +656,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: EventHandlerResult-klassen in aanvraag- of responsscenario's
                   href: dev-tools/event-handler-result-class.md
-                - name: 'Bedrijfslogica schrijven met C#- en X++-broncode'
+                - name: Bedrijfslogica schrijven met C#- en X++-broncode
                   href: dev-tools/write-business-logic.md
                 - name: Wijzigingen in X++ en de X++-compiler
                   href: dev-tools/programming-language-support.md
-                - name: 'LINQ-provider voor C#'
+                - name: LINQ-provider voor C#
                   href: dev-tools/linq-provider-c.md
                 - name: Best practice-regels schrijven
                   href: dev-tools/author-best-practice-rules.md
@@ -716,7 +720,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: X++-kenmerkklassen
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'Vergelijking van X++ en C#'
+                    - name: Vergelijking van X++ en C#
                       href: dev-ref/xpp-cs-comparison.md
                     - name: X++-syntaxis
                       href: dev-ref/xpp-syntax.md
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: Beveiligingsarchitectuur
                   href: sysadmin/security-architecture.md
+                - name: Versleuteling in Finance and Operations-apps
+                  href: sysadmin/encryption.md
                 - name: De time-out voor inactieve sessies instellen
                   href: sysadmin/session-idle-timeout.md
                 - name: Kant-en-klare beveiligingsrapporten

@@ -3,7 +3,7 @@ title: De klantportal installeren, instellen en bijwerken
 description: In dit onderwerp vindt u instructies voor licenties en instelling voor de klantportal.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413950"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435602"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>De klantportal installeren, instellen en bijwerken
 
@@ -35,7 +35,7 @@ Voor het implementeren van de klantportal hebt u de volgende licenties nodig:
 
 De klantportal is afhankelijk van Power Apps-portals en bewerkingen voor twee keer wegschrijven, zoals wordt weer gegeven in de volgende afbeelding.
 
-![![Afhankelijkheden van klantportal](media/customer-portal-elements.png "Afhankelijkheden van klantportal")](media/customer-portal-elements.png "Customer portal dependencies")
+![Afhankelijkheden van klantportal](media/customer-portal-elements.png "Afhankelijkheden van klantportal")
 
 In tegenstelling tot andere functies van Supply Chain Management, bevindt de klantportalsjabloon zich in Power Apps-portals. Daarom wordt de klantportal beperkt door de functionaliteit en capaciteiten die door Power Apps-portals en de entiteiten in twee keer wegschrijven worden geleverd.
 
@@ -59,7 +59,7 @@ Controleer voordat u begint of u de [vereiste instellingen](#required-setup) al 
 
 1. Ga naar [make.powerapps.com](https://make.powerapps.com/).
 2. Controleer of u de omgeving gebruikt waarin u twee keer wegschrijven hebt ingeschakeld.
-3. Ga naar het tabblad **Maken**, blader naar de sectie **Beginnen bij sjabloon** en selecteer de sjabloon met de naam **Supply Chain Management-klant**.
+3. Ga naar het tabblad **Maken**, blader naar de sectie **Beginnen bij sjabloon** en selecteer de sjabloon met de naam **Klantportal**.
 4. Volg de instructies op het scherm.
 
 Nadat de inrichting is voltooid, kunt u de klantportal openen via de sectie **Uw apps** op de **Startpagina**.
@@ -71,7 +71,7 @@ Nadat de inrichting is voltooid, kunt u de klantportal openen via de sectie **Uw
 
 Later wordt mogelijk meer functionaliteit aan de klantportal toegevoegd. Eventuele wijzigingen die Microsoft in de onderliggende oplossingsonderdelen aanbrengt, worden automatisch weergegeven in uw omgeving. Op de website die in uw omgeving wordt ingericht, worden echter niet automatisch wijzigingen weergegeven die in de configuratiegegevens zijn aangebracht. U moet deze wijzigingen handmatig toepassen door de code op te halen uit de nieuwe sjabloon en deze samen te voegen met de ingerichte website.
 
-## <a name="resources"></a>Bronnen
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 Als u wilt weten hoe u de klantportal kunt instellen en aanpassen, moet u eerst de volgende documentatie voor de onderliggende technologieën controleren:
 

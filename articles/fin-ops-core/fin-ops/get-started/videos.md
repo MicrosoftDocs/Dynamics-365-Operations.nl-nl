@@ -3,7 +3,7 @@ title: Video's
 description: Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Finance and Operations-apps weergegeven die beschikbaar zijn op YouTube en andere sites.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e4756e4d1697fdba40ad8a71a5d33594583a219a
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367124"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456944"
 ---
 # <a name="videos"></a>Video's 
 
@@ -122,6 +122,9 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 - [Het mobiele werkgebied Kostenbeheer](https://youtu.be/imsuTg8rUVk)
 - [Aan de slag met kostprijsboekhouding](https://youtu.be/1pUDtJQZ8FU)
 - [Kostenanalyse met Excel gebruiken](https://youtu.be/-HKHYdClvx8)
+
+### <a name="customer-portal"></a>Klantportal
+- [Overzicht van de klantportalsjabloon in Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8)
 
 ### <a name="help-system"></a>Help-systeem
 

@@ -3,7 +3,7 @@ title: FIFO met fysieke waarde en markering
 description: FIFO (First in, First out) is een voorraadmodel waarin de eerste ontvangsten het eerst worden uitgegeven. Financieel bijgewerkte uitgiften uit de voorraad worden vereffend met de eerste financieel bijgewerkte ontvangsten in de voorraad op basis van de financiële datum van de voorraadtransactie.
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201750"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454621"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO met fysieke waarde en markering
 
@@ -49,8 +49,8 @@ In dit voorbeeld is de artikelmodelgroep niet gemarkeerd voor het opnemen van de
 -   4a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
 -   4b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
 -   5a. Fysieke voorraaduitgifte voor de hoeveelheid 1 tegen een prijs van USD 20,00 per stuk (lopend gemiddelde van financieel bijgewerkte transacties).
--   5b. Financiële voorraaduitgifte voor de hoeveelheid 1 tegen een prijs van USD 20,00 per stuk (lopend gemiddelde van financieel bijgewerkte transacties).
--   6. Voorraadafsluiting is uitgevoerd. Op basis van de FIFO-methode wordt de eerste financieel bijgewerkte uitgifte vereffend met de eerste financieel bijgewerkte ontvangst. Op de uitgiftetransactie wordt een correctie van USD -10,00 doorgevoerd.
+-   5b. Financiële voorraaduitgifte voor de hoeveelheid 1 tegen een prijs van USD 15,00 per stuk (lopend gemiddelde van financieel bijgewerkte transacties).
+-   6. Voorraadafsluiting is uitgevoerd. Op basis van de FIFO-methode wordt de eerste financieel bijgewerkte uitgifte vereffend met de eerste financieel bijgewerkte ontvangst. Op de uitgiftetransactie wordt een correctie van USD -5,00 doorgevoerd.
 
 De nieuwe lopende gemiddelde kostprijs staat voor het gemiddelde van de bijgewerkte financiële transacties. In de volgende afbeeldingen worden de effecten van het FIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. 
 

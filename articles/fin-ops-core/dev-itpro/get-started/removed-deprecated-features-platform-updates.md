@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
 manager: AnnBe
-ms.date: 06/02/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
-ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "3433917"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457561"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -36,6 +36,22 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 > [!NOTE]
 > Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.13 van Finance and Operations-apps
+
+> [!NOTE]
+> Versie 10.0.13 is nog niet vrijgegeven. Deze gegevens worden verstrekt voor planningsdoeleinden. De inhoud en de functies voor versie 10.0.13 kunnen worden gewijzigd. Meer informatie over versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-ops/get-started/public-preview-releases.md).
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>Upgrade van drie jQuery-componentbibliotheken 
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Er worden drie jQuery-componentbibliotheken bijgewerkt voor beveiligingscorrecties en voor het onderhouden van de valuta.   
+| **Vervangen door een andere functie?**   | Dit betreft de volgende bibliotheken: jQuery (naar versie 3.5.0 van versie 2.1.4), jQuery UI (naar versie 1.12.1 van versie 1.11.4), jQuery qTip (naar versie 3.0.3 van 2.2.1). De migratierichtlijnen zijn online beschikbaar via jQuery.  |
+| **Betrokken productgebieden**         | Uitbreidbare besturingselementen, specifiek aangepaste JavaScript-code voor het gebruik van afgeschafte of verwijderde API's |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Met versie 10.0.13/Platform update 37 kunnen klanten optioneel overstappen op de meest recente bibliotheken door de functie 'Drie jQuery-componentbibliotheken bijwerken' in te schakelen. Het overstappen op de nieuwe bibliotheken is verplicht met de release van april 2021 zodat er tijd is voor de migratie van de betrokken API's.   |
+
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.12 van Finance and Operations-apps
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Formulieruitbreidingen voor raster- of groepsbesturingselementen met ongeldige veldverwijzingen
@@ -50,11 +66,11 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.11 van Finance and Operations-apps
 
-### <a name="explicit-whitelisting-for-self-service-environments"></a>Expliciete whitelisting voor selfservice-omgevingen
+### <a name="explicit-safe-lists-for-self-service-environments"></a>Expliciete veilige lijsten voor selfservice-omgevingen
 
 |   |  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Het proces voor IP-whitelisting is gewijzigd. Selfservice biedt geen ondersteuning meer voor IP-whitelisting. |
+| **Reden voor afschaffing/verwijdering** | Het proces voor het verplaatsen van IP naar veilige lijsten is gewijzigd. Selfservice biedt geen ondersteuning meer voor veilig IP-lijsten. |
 | **Vervangen door een andere functie?**   | Zie [Voorwaardelijke toegang voor Azure Active Directory configureren](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access) voor meer informatie.|
 | **Betrokken productgebieden**         | Beveiliging |
 | **Implementatieoptie**              | Cloud |

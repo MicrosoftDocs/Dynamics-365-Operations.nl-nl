@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 05/04/2020
+ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: c47c5430a8f5d67e13c95db609a95d5ad66933ae
-ms.sourcegitcommit: a8b6cd799eddaf5be9aec9ea3c2b55e2c3231652
+ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3335271"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443913"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 
@@ -35,6 +35,16 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > [!NOTE]
 > Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Verwijderde of verouderde functies in versie 10.0.11 van Commerce
+### <a name="data-action-hooks"></a>Gegevensactie-hooks
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De functie Gegevensactie-hooks is afgeschaft vanwege prestatieproblemen. |
+| **Vervangen door een andere functie?**   | U wordt aangeraden [gegevensacties te overschrijven](../e-commerce-extensibility/data-action-overrides.md) om bedrijfslogica in de gegevensactielaag te wijzigen.|
+| **Betrokken productgebieden**         | Uitbreidbaarheid van gegevensacties in e-commerce |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: vanaf versie 10.0.11. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>Verwijderde of verouderde functies in versie 10.0.10 van Commerce
 ### <a name="pos-operation-803---picking-and-receiving"></a>POS-bewerking 803 - Verzamelen en ontvangen
