@@ -3,7 +3,7 @@ title: Carrouselmodule
 description: In dit onderwerp worden carrouselmodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 35aaf35419a8c5b83b2a3e1136a02200bf347c6b
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269723"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411291"
 ---
 # <a name="carousel-module"></a>Carrouselmodule
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp worden carrouselmodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
@@ -44,9 +44,13 @@ U kunt inhoudsblokmodules in een carrouselmodule toevoegen. De eigenschappen van
 - Een carrousel met meerdere promotiemodules kan worden gebruikt op een pagina met productgegevens.
 - Een carrousel kan op elke marketingpagina worden gebruikt om meerdere promoties of producten te promoten.
 
+De volgende afbeelding toont een voorbeeld van een carrouselmodule die wordt gebruikt op een introductiepagina. Deze carrouselmodule bevat meerdere inhoudsblokitems.
+
+![Voorbeeld van een carrouselmodule](./media/Hero.PNG)
+
 ## <a name="carousel-module-properties"></a>Eigenschappen van carrouselmodules
 
-| Naam van eigenschap.             | Waarde                 | Beschrijving |
+| Naam van eigenschap.             | Waarde                 | Omschrijving |
 |---------------------------|-----------------------|-------------|
 | Automatisch afspelen                  | **True** of **False** | Als de waarde is ingesteld op **True**, vindt de overgang tussen items binnen de carrousel automatisch plaats. Als de waarde is ingesteld op **False**, vindt er geen overgang plaats tenzij de klant het toetsenbord of de muis gebruikt om van het ene naar het volgende item te gaan. |
 | Interval voor diaovergang | Een waarde in seconden    | Het interval voor overgangen tussen items. |
@@ -58,7 +62,7 @@ U kunt inhoudsblokmodules in een carrouselmodule toevoegen. De eigenschappen van
 
 Voer de volgende stappen uit om een carrouselmodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
-1. Selecteer **Nieuw** om een paginasjabloon te maken.
+1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **Carrouselsjabloon** in en selecteer vervolgens **OK**.
 1. Voeg in het vak **Hoofdtekst** een module **Standaardpagina** toe.
 1. Selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.  

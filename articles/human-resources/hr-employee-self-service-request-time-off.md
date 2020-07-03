@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EssWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d871bead89e48e65c411686e1bf3697b13b9a5aa
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: f4c2d082ebe7f97d5c649c38d2462a3c011aa0e7
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008665"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429584"
 ---
 # <a name="request-time-off"></a>Vrije tijd aanvragen
 
@@ -42,6 +42,12 @@ U kunt aanvragen voor vrije tijd indienen, uw vakantie- en verlofsaldi weergeven
 5. Voer zo nodig informatie in bij **Opmerking**.
 
 6. Selecteer **Indienen** wanneer u gereed bent om uw aanvraag in te dienen. Selecteer anders **Concept opslaan**.
+
+## <a name="add-an-attachment-to-an-existing-request"></a>Een bijlage toevoegen aan een bestaande aanvraag
+
+[!include [banner](includes/preview-feature.md)]
+
+Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U kunt ook alle gerelateerde aanvragen voor een bepaalde datum weergeven. 
 
 ## <a name="view-leave-balances"></a>Verlofsaldi weergeven
 

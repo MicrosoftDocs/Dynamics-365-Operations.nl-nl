@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248731"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410145"
 ---
-# <a name="use-the-regression-suite-automation-tool-tutorial"></a>De zelfstudie voor Regression Suite Automation Tool gebruiken
+# <a name="regression-suite-automation-tool-tutorial"></a>Zelfstudie voor Regression Suite Automation Tool
 
 [!include [banner](../includes/banner.md)]
 
@@ -97,7 +97,7 @@ Met deze functie maakt u schermafbeeldingen van de stappen die zijn uitgevoerd t
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Wanneer de testaanvraag wordt uitgevoerd, genereert RSAT momentopnamen (installatiekopieën) van de afgespeelde stappen in de map voor testcases in de werkdirectory. Als u een oudere versie van RSAT gebruikt, worden de afbeeldingen opgeslagen in **C:\\Gebruikers\\\<Gebruikersnaam\>\\AppData\\Roaming\\regressionTool\\playback**, en er wordt een aparte map gemaakt voor elke testaanvraag die wordt uitgevoerd.
+Wanneer de testaanvraag wordt uitgevoerd, genereert RSAT momentopnamen (installatiekopieën) van de afgespeelde stappen in de map voor testcases in de werkdirectory. Als u een oudere versie van RSAT gebruikt, worden de afbeeldingen opgeslagen in **C:\\Gebruikers\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback** en er wordt een aparte map gemaakt voor elke testaanvraag die wordt uitgevoerd.
 
 ## <a name="assignment"></a>Toewijzing
 
@@ -454,7 +454,7 @@ U hebt een testscript waarmee u een nieuwe klant kunt maken. Via scripts kan dez
 - Klantnaam
 - Klantadres
 
-De klant-id heeft de notatie *ATCUS\<nummer\>*, waarbij \<nummer\> voor een waarde tussen **000000001** en **999999999** staat.
+De klant-id heeft de notatie *ATCUS\<number\>*, waarbij \<number\> voor een waarde tussen **000000001** en **999999999** staat.
 
 In het volgende voorbeeld wordt één parameter, **start**, gebruikt om het eerste nummer te definiëren dat wordt gebruikt. Er wordt een tweede parameter, **nr**, gebruikt om het aantal klanten te definiëren dat moet worden gemaakt. Voor elke iteratie worden de parameters in het Excel-parameterbestand gewijzigd met behulp van een UpdateCustomer-functie. Vervolgens wordt de RSAT-opdrachtregel aangeroepen in een RunTestCase-functie.
 

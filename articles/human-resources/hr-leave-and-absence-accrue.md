@@ -3,12 +3,12 @@ title: Verlof- en verzuimplannen toerekenen
 description: U kunt verlof en verzuim toerekenen in Dynamics 365 Human Resources voor meerdere werknemers of voor een individu.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197308"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429054"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Verlof- en verzuimplannen toerekenen
 
@@ -103,7 +103,19 @@ Opbouwrecords voor een specifiek plan en datumbereik verwijderen. Toerekeningsda
 
 2. Selecteer onder **Verlof beheren** de optie **Controle van toerekening van verlof verwijderen**.
 
+## <a name="configure-preview-features"></a>Voorbeeldfuncties configureren
+
+[!include [banner](includes/preview-feature-leave-absence.md)]
+
+Als u de voorbeeldfuncties voor verlof en verzuim hebt ingeschakeld, moet u ook de instellingen hiervoor configureren.
+
+### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Verlof per bedrijf of per verlofplan toerekenen
+
+Bij het toerekenen van verlof- en verzuimplannen kunt u ervoor kiezen om voor alle bedrijven toe te rekenen. Als u alle bedrijven kiest, kunt u geen afzonderlijke verlofplannen selecteren. Als u ervoor kiest om niet toe te rekenen voor alle bedrijven, kunt u toerekenen voor een specifiek verlofplan. 
+
+Deze opties zijn beschikbaar wanneer u toerekent voor alle werknemers of voor afzonderlijke werknemers. 
+
 ## <a name="see-also"></a>Zie ook
 
-- [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
-- [Een plan voor verlof en verzuim maken](hr-leave-and-absence-plans.md)
+[Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)</br>
+[Een plan voor verlof en verzuim maken](hr-leave-and-absence-plans.md)

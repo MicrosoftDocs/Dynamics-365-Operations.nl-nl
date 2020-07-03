@@ -3,7 +3,7 @@ title: Overzicht van Hoofdplannen
 description: U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkzaamheden binnen uw bedrijf, voor het simuleren van verschillende planningsstrategieën die u in de gaten wilt houden, en voor het implementeren van een bedrijfsbeleid zoals een beleid over de interne resultaten of klanttevredenheid.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56c9c3f910c5c5386cdab25566b43198288eb419
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5b37347cf2d5b720ed7ac364800fb8cfe2d67ca
+ms.sourcegitcommit: ace6451fde3e4b20cbcaa6279fa1da4d7151ad1e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213533"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3409517"
 ---
 # <a name="master-plans-overview"></a>Overzicht van Hoofdplannen
 
@@ -35,7 +35,7 @@ U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkza
 U kunt hoofdplannen configureren op de pagina **Hoofdplannen**.
 
 Er zijn twee typen plannen:
--   **Statische plan** – Bij de berekening van het hoofdplan worden de huidige gegevens gebruikt om een plan met netto-eisen te maken. Dit plan verandert pas wanneer u de hoofdplanning opnieuw uitvoert. Het is een werkplan dat door medewerkers zoals inkopers of productieplanners kan worden gebruikt voor hun besluitvorming en voor het uitvoeren van hun dagelijkse werkzaamheden.
+-   **Statische plan** – Bij de berekening van het hoofdplan worden de huidige gegevens gebruikt om een plan met netto-eisen te maken. Dit plan verandert pas wanneer u de hoofdplanning opnieuw uitvoert of handmatig wijzigt. Dit is een werkplan dat door medewerkers zoals inkopers of productieplanners kan worden gebruikt voor hun besluitvorming en voor het uitvoeren van hun dagelijkse werkzaamheden.
 -   **Dynamisch plan** – Dit plan begint met hetzelfde nettobehoeftenplan dat door de hoofdplanning is gegenereerd. U kunt echter het dynamische plan bijwerken elke keer dat de hoofdgegevens wijzigen. Dit kan zijn wanneer u bijvoorbeeld een nieuwe verkooporder maakt. Hierdoor kunt u de wijzigende ordernetwerk- en artikelbeschikbaarheid controleren zonder het statische plan te verstoren dat anderen gebruiken voor hun werkprocessen.
 
 Een bedrijf kan ervoor kiezen alleen met een dynamisch plan te werken, maar kan ook met statische en dynamische plannen werken. Ook kunt u een hoofdplan voor een bepaalde strategie of voor het oplossen van een probleem opstellen. Dit zijn enkele voorbeelden:

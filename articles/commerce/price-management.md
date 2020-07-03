@@ -3,7 +3,7 @@ title: Verkoopprijsbeheer detailhandel
 description: Dit onderwerp beschrijft de concepten voor het maken en beheren van verkoopprijzen in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057482"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431996"
 ---
 # <a name="retail-sales-price-management"></a>Verkoopprijsbeheer van detailhandel
 
@@ -53,7 +53,9 @@ De volgende afbeelding laat zien hoe prijsgroepen worden gebruikt. In deze afbee
 
 Wanneer u prijsgroepen maakt, moet u niet één prijsgroep gebruiken voor meerdere soorten commerce-entiteiten. Anders kan het lastig zijn om te bepalen waarom een bepaalde prijs of korting op een transactie wordt toegepast.
 
-Zoals de rode streepjeslijn in de afbeelding laat zien, ondersteunt Commerce de basisfunctie van Microsoft Dynamics 365 van prijsgroepen die direct voor een klant zijn ingesteld. In dit geval krijgt u echter alleen verkoopprijshandelsovereenkomsten. Als u klantspecifieke prijzen wilt toepassen, raden wij aan dat u niet prijsgroepen rechtstreeks voor de klant instelt. In plaats daarvan moet u aansluitingen gebruiken.
+Zoals de rode streepjeslijn in de afbeelding laat zien, ondersteunt Commerce de basisfunctie van Microsoft Dynamics 365 van prijsgroepen die direct voor een klant zijn ingesteld. In dit geval krijgt u echter alleen verkoopprijshandelsovereenkomsten. Als u klantspecifieke prijzen wilt toepassen, raden wij aan dat u niet prijsgroepen rechtstreeks voor de klant instelt. In plaats daarvan moet u aansluitingen gebruiken. 
+
+Als de prijsgroep is ingesteld voor de klant, wordt deze prijsgroep gekoppeld aan de verkooporderkoptekst van de orders die voor deze klant zijn gemaakt. Als de gebruiker de prijsgroep in de orderkop wijzigt, wordt de oude prijsgroep alleen voor de huidige order vervangen door de nieuwe prijsgroep. De oude prijsgroep heeft bijvoorbeeld geen invloed op de huidige order, maar is nog steeds gekoppeld aan de klant voor toekomstige orders.
 
 De volgende secties bevatten meer informatie over de commerce-entiteiten die u kunt gebruiken om verschillende prijzen in te stellen wanneer prijsgroepen worden gebruikt. De configuratie van prijzen en kortingen voor alle entiteiten is een tweeledig proces. Deze stappen kunnen in een willekeurige volgorde worden uitgevoerd. De logische volgorde is echter om de prijsgroepen eerst in te stellen voor de entiteiten, omdat deze stap waarschijnlijk een eenmalige instelling is die wordt uitgevoerd tijdens de implementatie. Vervolgens kunt u, als prijzen en kortingen zijn gemaakt, de prijsgroepen afzonderlijk instellen voor deze prijzen en kortingen.
 
@@ -226,6 +228,7 @@ De prijsengine **biedt geen ondersteuning** voor de volgende prijsbepalingsfunct
 - Het instellen van prijzen op basis van de opslagdimensies van de vestiging of de vestiging en het magazijn wordt niet ondersteund. Als u alleen de vestigingsdimensie in de handelsovereenkomsten opgeeft, negeert de prijsengine de vestiging en wordt de handelsovereenkomst toegepast op alle vestigingen. Als u zowel vestiging als magazijn opgeeft, is het gedrag niet gedefinieerd/niet getest omdat wordt verwacht dat detailhandelaren de winkelprijsgroepen gebruiken om de prijzen voor elke winkel en elk magazijn te beheren.
 - Prijzen op basis van kenmerk worden niet ondersteund.
 - Leverancierskortingen worden niet ondersteund.
+- De standaard prijsengine voor Supply Chain Management ondersteunt de prijsberekening op basis van de gewenste verzenddatum en gewenste ontvangstdatum, samen met de huidige datum. Deze waarden worden momenteel echter niet ondersteund voor detailhandelprijzen. De reden is dat voor B2C-scenario's niet wordt verwacht dat de gewenste leveringsdatum de artikelprijs beïnvloedt. In sommige gevallen zijn detailhandelaren zowel op het gebied van B2B als B2C actief. Voor B2B-activiteiten is het gebruikelijk om prijzen te wijzigen op basis van de leveringsdatums. Deze detailhandelaren kunnen Supply Chain Management-prijzen gebruiken voor hun B2B-activiteiten en detailhandelprijzen voor hun B2C-activiteiten. Detailhandelprijzen worden alleen gebruikt als de gebruiker van de toepassing wordt toegevoegd als een callcenter-gebruiker, zodat de detailhandelaren bepaalde gebruikers kunnen toewijzen die met de Supply Chain Management-prijzen werken en een aantal gebruikers kunnen toewijzen die geschikt zijn voor de detailhandelprijs, dat wil zeggen dat deze gebruikers moeten worden toegevoegd als een callcenter-gebruiker. Daarnaast moet de eigenschap **Datum van vandaag gebruiken voor het berekenen van prijzen** in **Commerce-parameters > Prijzen en kortingen > Diversen** zijn ingeschakeld. Op deze manier kunnen ze de waarde van de klantparameterwaarde voor Gewenste verzenddatum of Gewenste ontvangstdatum voor de Supply Chain Management-prijs blijven gebruiken, maar blijft de datum van vandaag behouden voor de prijsberekening.
 
 Bovendien ondersteunt de prijsengine **alleen** de volgende prijsbepalingsfuncties:
 

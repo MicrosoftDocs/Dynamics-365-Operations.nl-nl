@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4da37d45698290b40f6c72148f1500bef72127a
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 69521ec8c664a7025050c94105eca58f7f2c5c00
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173080"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435555"
 ---
 # <a name="integrated-tax"></a>Geïntegreerde belasting
 
@@ -38,30 +38,30 @@ Belastinginstellingsgegevens bepalen de instellingen voor zowel indirecte belast
 
 Belastinggegevens omvatten een verzameling entiteitstoewijzingen die samenwerken tijdens de interactie van gegevens, zoals in de volgende tabel wordt weergegeven.
 
-| Finance and Operations-apps | Modelgestuurde apps in Dynamics 365 | Omschrijving |
--------------------------|---------------------------------
-Btw-codes                   | msdyn\_taxcodes.md | 
-Belastinggroepen                 | msdyn\_taxgroups.md | 
-Btw-artikelengroepen             | msdyn\_taxitemgroups.md | 
-Belastingvrijstellingen             | msdyn\_taxexemptcodes.md | 
-Belastingdienst             | msdyn\_taxauthorities.md | 
-Bronbelastingcodes       | msdyn\_withholdingtaxcodes.md | 
-Bronbelastinggroepen     | msdyn\_withholdingtaxgroups.md | 
-Grootboekrekeningsgroep voor belasting | msdyn\_taxpostinggroups     | 
+Finance and Operations-apps | Modelgestuurde apps in Dynamics 365 | Omschrijving |
+-------------------------|---------------------------------|----|
+Btw-groep voor artikel | msdyn_taxitemgroups |
+Btw-dienst | msdyn_taxauthorities |
+Entiteit btw-vrijstellingscode voor CDS | msdyn_taxexemptcodes |
+Btw-groepen | msdyn_taxgroups |
+Groepen van boekingen in btw-grootboek V2 | msdyn_taxpostinggroups |
+Bronbelastingcodes | msdyn_withholdingtaxcodes |
+Bronbelastinggroepen | msdyn_withholdingtaxgroups | 
+
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 
-[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
-
 [!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
+
+[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
 
 [!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
 
-[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
+[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
+
+[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
 
 [!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
 
 [!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
-
-[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
 

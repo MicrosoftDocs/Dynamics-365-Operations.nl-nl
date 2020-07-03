@@ -3,7 +3,7 @@ title: Productaanbevelingen inschakelen
 description: In dit onderwerp wordt uitgelegd hoe u productaanbevelingen kunt doen op basis van kunstmatige intelligentie-machine learning (AI-ML) die beschikbaar is voor klanten van Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259789"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404204"
 ---
 # <a name="enable-product-recommendations"></a>Productaanbevelingen inschakelen
 
@@ -34,11 +34,11 @@ In dit onderwerp wordt uitgelegd hoe u productaanbevelingen kunt doen op basis v
 
 ## <a name="recommendations-pre-check"></a>Aanbevelingen voor controle vooraf
 
-Houd er rekening mee dat productaanbevelingen alleen worden ondersteund voor Commerce-klanten die hun opslag hebben gemigreerd met behulp van Azure Data Lake Storage (ADLS). 
+Houd er rekening mee dat productaanbevelingen alleen worden ondersteund voor Commerce-klanten die hun opslag hebben gemigreerd met behulp van Azure Data Lake Storage. 
 
 De volgende configuraties moeten zijn ingeschakeld in de backoffice voordat u aanbevelingen kunt inschakelen:
 
-1. Zorg ervoor dat ADLS is aangeschaft en in de omgeving is geverifieerd. Zie [Zorg ervoor dat ADLS is aangeschaft en in de omgeving is geverifieerd](enable-ADLS-environment.md) voor meer informatie.
+1. Zorg ervoor dat Azure Data Lake Storage is aangeschaft en in de omgeving is geverifieerd. Zie [Zorg ervoor dat Azure Data Lake Storage is aangeschaft en in de omgeving is geverifieerd](enable-ADLS-environment.md) voor meer informatie.
 2. Zorg ervoor dat het vernieuwen van de entiteitsopslag is geautomatiseerd. Zie [Zorg ervoor dat het vernieuwen van de entiteitsopslag is geautomatiseerd](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md) voor meer informatie.
 3. Bevestig dat Azure AD-identiteitsconfiguratie een vermelding voor aanbevelingen bevat. Hieronder vindt u meer informatie over het uitvoeren van deze actie.
 
@@ -92,7 +92,7 @@ Zie [Persoonlijke aanbevelingen inschakelen](personalized-recommendations.md) vo
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
-[ADLS inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
+[Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
 
 [Gepersonaliseerde aanbevelingen inschakelen](personalized-recommendations.md)
 

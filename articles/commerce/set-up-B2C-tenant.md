@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
-ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
+ms.openlocfilehash: 9339b584c2d78e59f1a6b79d1610eef1581722c7
+ms.sourcegitcommit: 717346fb00c68a64ed58c846e89f41b80c7de9dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295264"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3488757"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Een B2C-tenant instellen in Commerce
 
@@ -91,7 +91,7 @@ Antwoord-URL's zijn belangrijk omdat ze een toegestane lijst van de retourdomein
 
 In het **Antwoord-URL** in het scherm **Azure AD B2C -Toepassingen \> Nieuwe toepassing** moet u afzonderlijke regels toevoegen voor uw sitedomein en (zodra uw omgeving is ingericht) de door Commerce gegenereerde URL. Deze URL's moeten altijd een geldige URL-indeling gebruiken en mogen alleen basis-URL's (geen navolgende slashes of paden) zijn. De tekenreeks ``/_msdyn365/authresp`` moet vervolgens worden toegevoegd aan de basis-URL's, zoals in de volgende voorbeelden.
 
-- ``https://fabrikam.com/_msdyn365/authresp``
+- ``https://www.fabrikam.com/_msdyn365/authresp``
 - ``https://fabrikam-prod.commerce.dynamics.com/_msdyn365/authresp``
 
 ## <a name="create-user-flow-policies"></a>Beleid voor gebruikersstromen maken

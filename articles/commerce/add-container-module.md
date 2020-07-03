@@ -3,7 +3,7 @@ title: Module Container
 description: In dit onderwerp wordt beschreven wat containermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025523"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417341"
 ---
 # <a name="container-module"></a>Module Container
-
 
 [!include [banner](includes/banner.md)]
 
@@ -46,9 +45,13 @@ Drie containermodules worden ondersteund: container, container met 2 vakken en c
 - Een auteur van een site wil een indeling met zes kolommen, waarbij zes modules naast elkaar worden weergegeven. Daarom gebruikt de auteur van de site een container van het type met zes kolommen.
 - Een auteur van een site wil een module op een pagina plaatsen, maar wil niet dat deze schermvullend is. Daarom voegt de auteur van de site de module toe aan een containermodule en wordt de eigenschap **Breedte** van de containeringesteld op **Passend in container**.
 
+De volgende afbeelding toont een voorbeeld van een containermodule die een carrouselmodule bevat in Commerce Site Builder. In dit voor beeld wordt de eigenschap **Breedte** van de containermodule ingesteld op **Scherm vullen**.
+
+![Voorbeeld van een containermodule](./media/ecommerce-container.PNG)
+
 ## <a name="container-module-properties"></a>Eigenschappen van containermodule
 
-| Naam van eigenschap.     | Waarden | Beschrijving |
+| Naam van eigenschap.     | Waarden | Omschrijving |
 |-------------------|--------|-------------|
 | Koptekst           | Koptekst en tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | Er kan een optionele koptekst voor de container worden opgegeven. Standaard wordt de kopteksttag **H2** gebruikt voor de koptekst. De tag kan echter worden gewijzigd om aan de toegankelijkheidsvereisten te voldoen. |
 | Breedte             | **Passen in container** of **Scherm vullen** | Als de waarde wordt ingesteld op **Passen in container** (de standaardwaarde), zijn de modules in de container beperkt tot de breedte van de container. Als de waarde is ingesteld op **Scherm vullen**, zijn de modules niet beperkt tot de breedte van de container maar kunnen ze het scherm vullen. |
@@ -99,27 +102,36 @@ U kunt aanvullende eigenschappen gebruiken om de indeling van verschillende view
 
 Voer de volgende stappen uit om een containerspelermodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
-1. Maak een paginasjabloon met de naam **containersjabloon**. 
-1. Voeg in het vak **Hoofdtekst** een module **Standaardpagina** toe.
-1. Voltooi het bewerken van de sjabloon en publiceer deze.
-1. Gebruik de containersjabloon die u zojuist hebt gemaakt om een pagina met de naam **containerpagina** te maken.
-1. Voeg in het **hoofdvak** van de nieuwe pagina een containermodule toe.
+1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
+1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **Containersjabloon** in en selecteer vervolgens **OK**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Hoofdtekst** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Standaardpagina** en selecteer vervolgens **OK**.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren. 
+1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
+1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de sjabloon van de videospeler die u hebt gemaakt. Voer onder **Paginanaam** **Containerpagina** in en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de nieuwe pagina het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
 1. Stel in het eigenschappenvenster voor de containermodule de eigenschap **Aantal kolommen** in op **1** en de eigenschap **Breedte** op **Container vullen**.
-1. Voeg in de containermodule een inhoudsblokmodule toe.
+1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Inhoudsblok** en selecteer vervolgens **OK**.
 1. Configureer in het eigenschappenvenster voor de inhoudsblokmodule de kop, de afbeelding en de indeling.
-1. Sla de pagina op en bekijk een voorbeeld. Er moet een functiemodule worden weergegeven die past binnen de breedte van de containermodule.
+1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken. Er moet een functiemodule worden weergegeven die past binnen de breedte van de containermodule.
 1. Wijzig in het eigenschappenvenster voor de containermodule de waarde van de eigenschap **Aantal kolommen** in **3**.
-1. Voeg nog twee inhoudsblokmodules toe aan de containermodule.
-1. Sla de pagina op en bekijk een voorbeeld. Er worden nu drie inhoudsblokmodules naast elkaar weergegeven.
-1. Nadat u de gewenste indeling hebt verkregen, voltooit u het bewerken van de pagina en publiceert u deze.
+1. Voeg twee extra inhoudsblokmodules toe aan de containermodule en configureer deze.
+1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken. Er worden nu drie inhoudsblokmodules naast elkaar weergegeven.
+1. Nadat u de gewenste indeling hebt gemaakt, selecteert u **Bewerken voltooien** om de pagina in te checken en vervolgens **Publiceren** om deze te publiceren.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht starterskit](starter-kit-overview.md)
 
+[Accordeonmodule](add-accordion.md)
+
+[Tabbladmodule](add-tab.md)
+
 [Carrouselmodule](add-carousel.md)
 
-[Tekstblokmodule](add-content-rich-block.md)
+[Text Block-module](add-content-rich-block.md)
 
 [Module met vakje voor kopen](add-buy-box.md)
 

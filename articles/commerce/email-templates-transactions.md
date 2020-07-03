@@ -3,7 +3,7 @@ title: E-mailsjablonen maken voor transactiegebeurtenissen
 description: In dit onderwerp wordt beschreven hoe u e-mailsjablonen kunt maken, uploaden en configureren voor transactiegebeurtenissen in Microsoft Dynamics 365 Commerce.
 author: stuharg
 manager: annbe
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5cd928e90654cca639ed1e163be9192c0dffd9ad
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: a02839088addfa9b405af486f3b795eace1671cc
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367170"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416574"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-mailsjablonen maken voor transactiegebeurtenissen
 
@@ -40,7 +40,7 @@ Voordat u een bepaalde transactiegebeurtenis aan een e-mailsjabloon kunt toewijz
 
 Volg deze stappen om een e-mailsjabloon te maken.
 
-1. Ga in Commerce Headquarters naar **Detailhandel en commerce \> Instelling van hoofdkantoor \> E-mailsjablonen van organisatie**.
+1. Ga in Commerce Headquarters naar **E-mailsjablonen van organisatie** onder **Retail en Commerce \> Instelling van hoofdkantoor \> E-mailsjablonen van organisatie** of **Organisatiebeheer \> Instellingen \> E-mailsjablonen van organisatie**.
 1. Selecteer **Nieuw**.
 1. Stel onder **Algemeen** de volgende velden in:
 

@@ -1,6 +1,6 @@
 ---
-title: Crediteringen en aanmaningen in Klanten
-description: De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Microsoft Dynamics 365 Finance Aanmaningen. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten.
+title: Aanmaningen in Klanten
+description: De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Microsoft Dynamics 365 Finance Aanmaningen. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit de pagina Klanten.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471de43bc0d171e60100613a6d779a249cd9e92f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189172"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426391"
 ---
-# <a name="credit-and-collections-in-accounts-receivable"></a>Crediteringen en aanmaningen in Klanten
+# <a name="collections-in-accounts-receivable"></a>Aanmaningen in Klanten
 
 [!include [banner](../includes/banner.md)]
 
@@ -52,7 +52,7 @@ De kop van de ouderdomsmomentopname bevat het totale verschuldigde bedrag, de kr
 
 Voor elke ouderdomsperiode in de ouderdomsperiodedefinitie wordt een ouderdomsmomentopnamedetailrecord gemaakt. Elke ouderdomsmomentopnamedetailrecord bevat de ouderdomsperiode-ID en het totaalbedrag van de transacties met datums die binnen de ouderdomsperiode vallen. Transacties worden toegewezen aan een ouderdomsperiode, zoals 30 dagen na de vervaldatum. De datum is relatief ten opzichte van de datum Ouderdom vanaf die wordt opgegeven als u de ouderdomsmomentopname maakt. Deze informatie wordt weergegeven op de lijstpagina Vervallen saldi en in het feitenvak Vervallen saldi.
 
-## <a name="collections-customer-pools"></a> Klantverzamelingen voor aanmaningen 
+## <a name="collections-customer-pools"></a>Klantverzamelingen voor Incasso's
 Klantverzamelingen zijn query's waarmee een groep klantrecords wordt gedefinieerd die kan worden weergegeven en beheerd voor aanmaningen of ouderdomsrangschikkingprocessen. Met klantverzamelingen kunt u gegevens filteren op de pagina's Vervallen saldi, Incassoactiviteiten en Aanmaningen. U kunt klantverzamelingen ook gebruiken om de klantrekeningen te filteren, die worden opgenomen bij de aanmaak van ouderdomsmomentopnamen.
 
 ## <a name="collections-agents"></a>Incassomedewerkers

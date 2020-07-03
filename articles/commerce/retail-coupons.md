@@ -3,7 +3,7 @@ title: Coupons voor detailhandelverkoop instellen
 description: In dit onderwerp vindt u een overzicht van coupons en uitleg over hoe u deze instelt.
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057366"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431973"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Coupons voor detailhandelverkoop instellen
 
@@ -48,8 +48,10 @@ Coupons kunnen worden geconfigureerd als coupons met gebruiksbeperkingen. Deze b
 
 De beperking wordt afgedwongen per couponcode op een coupon. Een coupon voor eenmalig gebruik met twee couponcodes kan bijvoorbeeld twee maal worden gebruikt: voor elke couponcode één keer. Elke code op een coupon kan afzonderlijk worden ingesteld om actief te zijn.
 
+De coupons kunnen voor elk verkoopkanaal worden gebruikt, maar voor callcenterorders kunnen de coupons met gebruiksbeperkingen alleen worden gebruikt voor callcentersorders waarvoor de instelling **Ordervoltooiing** voor het callcenter is ingeschakeld. Als dit niet is ingeschakeld, kunnen alleen coupons zonder gebruiksbeperkingen worden gebruikt in callcenterorders.
+
 > [!NOTE]
-> Zodra een couponcode de gebruikslimiet heeft bereikt, wordt *niet* automatisch de status van de couponcode gewijzigd in 'Gebruikt'. Het systeem staat echter verder gebruik niet toe van een couponcode waarvan de gebruikslimiet is bereikt. Als de status van een couponcode handmatig is ingesteld op iets anders dan 'Actief', kan deze couponcode niet worden gebruikt in een kanaal.
+> Zodra een couponcode de gebruikslimiet heeft bereikt, wordt de status van de couponcode *niet* automatisch gewijzigd in Gebruikt. De gebruikslimiet van de couponcode is echter bereikt en kan niet worden gebruikt. Als de status van een couponcode handmatig is ingesteld op iets anders dan **Actief**, kan deze couponcode niet worden gebruikt in een kanaal.  
 
 ## <a name="managing-coupons"></a>Coupons beheren
 

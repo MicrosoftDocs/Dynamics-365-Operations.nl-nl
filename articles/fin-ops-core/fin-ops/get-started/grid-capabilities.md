@@ -3,7 +3,7 @@ title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. De nieuwe rasterfunctie moet zijn ingeschakeld als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
 manager: AnnBe
-ms.date: 04/23/2020
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fd45f71fc15e467c461433682310ab7b7cc0158a
-ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
+ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284399"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431355"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -89,11 +89,11 @@ Als u het groeperen in een raster ongedaan wilt maken, klikt u met de rechtermui
 ## <a name="typing-ahead-of-the-system"></a>Voor het systeem uit typen
 In veel zakelijke scenario's is het heel belangrijk om snel gegevens in het systeem in te voeren. Voordat het nieuwe rasterbesturingselement werd geïntroduceerd, konden gebruikers alleen gegevens in de huidige rij wijzigen. Voordat ze een nieuwe rij kunnen maken of naar een andere rij kunnen overschakelen, moeten gebruikers wachten tot de wijzigingen zijn gevalideerd door het systeem. In een poging om de tijd te beperken dat gebruikers wachten op de voltooiing van deze validaties en om de productiviteit van gebruikers te verbeteren, worden deze validaties door het nieuwe raster zodanig aangepast dat ze asynchroon zijn. De gebruiker kan dus naar andere rijen gaan om wijzigingen aan te brengen terwijl de validatie van de vorige rij in behandeling is. 
 
-Ter ondersteuning van dit nieuwe gedrag is er een nieuwe kolom voor de rijnaam aan de bovenkant van het raster toegevoegd wanneer het raster in de bewerkingsmodus staat. Deze kolom geeft een van de volgende statussen aan:
+Ter ondersteuning van dit nieuwe gedrag is er een nieuwe kolom voor de rijstatus rechts van de rijselectiekolom toegevoegd wanneer het raster in de bewerkingsmodus staat. Deze kolom geeft een van de volgende statussen aan:
 
 - **Leeg**: geen statusafbeelding geeft aan dat de rij door het systeem is opgeslagen.
 - **Verwerking in behandeling:** deze status geeft aan dat de wijzigingen in de rij nog niet zijn opgeslagen door de server, maar zich in een wachtrij met wijzigingen bevinden die moeten worden verwerkt. Voordat u actie onderneemt buiten het raster, moet u wachten tot alle wijzigingen in behandeling zijn verwerkt. Bovendien wordt de tekst in deze rijen cursief gemaakt om de niet-opgeslagen status van de rijen aan te geven. 
-- **Validatiewaarschuwing**: deze status geeft aan dat het systeem de wijzigingen in de rij niet kan opslaan vanwege een validatieprobleem. In het oude raster moest u terug naar de rij om het probleem onmiddellijk op te lossen. In het nieuwe raster krijgt u echter een melding dat er een validatieprobleem is aangetroffen, maar u kunt zelf bepalen wanneer u de problemen in de rij wilt oplossen. Wanneer u klaar bent om het probleem op te lossen, kunt u de focus handmatig naar de rij verplaatsen. U kunt ook de actie **Dit probleem oplossen** selecteren. Met deze actie gaat u direct terug naar de rij met het probleem en kunt u de wijzigingen binnen of buiten het raster aanbrengen. De verwerking van volgende rijen in behandeling wordt gestopt totdat deze validatiewaarschuwing is opgelost. 
+- **Ongeldige status**: deze status geeft aan dat tijdens het verwerken van de rij een waarschuwing of een bericht is gegenereerd en dat het systeem hierdoor mogelijk de wijzigingen in die rij niet kan opslaan. In het oude raster moest u terug naar de rij om het probleem onmiddellijk op te lossen. In het nieuwe raster krijgt u echter een melding dat er een validatieprobleem is aangetroffen, maar u kunt zelf bepalen wanneer u de problemen in de rij wilt oplossen. Wanneer u klaar bent om een probleem op te lossen, kunt u de focus handmatig naar de rij verplaatsen. U kunt ook de actie **Dit probleem oplossen** selecteren. Met deze actie gaat u direct terug naar de rij met het probleem en kunt u de wijzigingen binnen of buiten het raster aanbrengen. De verwerking van volgende rijen in behandeling wordt gestopt totdat deze validatiewaarschuwing is opgelost. 
 - **Onderbroken**: deze status geeft aan dat de verwerking door de server is onderbroken omdat de validatie van de rij een pop-updialoogvenster heeft geactiveerd waarvoor invoer van de gebruiker nodig is. Omdat de gebruiker mogelijk gegevens in een andere rij invoert, wordt het pop-upvenster niet onmiddellijk aan die gebruiker weergegeven. In plaats daarvan wordt het weergegeven wanneer de gebruiker de verwerking wil hervatten. Deze status gaat vergezeld van een melding waarin de gebruiker wordt geïnformeerd over de situatie. De melding bevat een actie **Verwerking hervatten** waarmee het pop-updialoogvenster wordt geactiveerd.  
     
 Wanneer gebruikers gegevens invoeren voordat de server deze verwerkt, kunnen ze een verslechtering van de gegevensinvoer verwachten, zoals minder zoekacties, validatie op niveau van het besturingselement en de invoer van standaardwaarden. Gebruikers die een vervolgkeuzelijst nodig hebben om een waarde te zoeken, wordt geadviseerd te wachten tot de huidige rij door de server is verwerkt. Validatie en invoer van standaardwaarden op niveau van het besturingselement worden ook uitgevoerd wanneer de server deze rij verwerkt.   
@@ -135,55 +135,62 @@ In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe
 
 - Kaartlijsten die werden weergegeven als meerdere kolommen, worden nu als één kolom weergegeven.
 - Gegroepeerde lijsten worden niet weergegeven als groepen of in afzonderlijke kolommen.
-- Er worden geen knopinfo weergegeven voor afbeeldingen.
-- Het weergeven van rasterlijnen werkt niet voor alle veldtypen.
-- U kunt niet buiten het raster klikken wanneer u meerdere rijen selecteert.
-- De Taakrecorderopties **Valideren** en **Kopiëren** zijn niet beschikbaar voor datum- en nummercontroles.
+
+### <a name="fixed-as-part-of-10013"></a>Gecorrigeerd als onderdeel van 10.0.13
+
+> [!NOTE]
+> De volgende informatie wordt verstrekt, zodat u deze op de juiste manier kunt plannen. Meer informatie over de gerichte releaseplanning van versie 10.0.13 vindt u in [Beschikbaarheid van serviceupdate](../../fin-ops/get-started/public-preview-releases.md).
+
+- [KB 4563317] Er worden geen knopinfo weergegeven voor afbeeldingen.
 
 ### <a name="fixed-as-part-of-10012"></a>Gecorrigeerd als onderdeel van 10.0.12
 
-> [!Note]
-> De volgende informatie wordt verstrekt, zodat u deze op de juiste manier kunt plannen. Meer informatie over de gerichte releaseplanning van versie 10.0.12 vindt u in [Beschikbaarheid van serviceupdate](../../fin-ops/get-started/public-preview-releases.md).
-
-- [Probleem 429126] Besturingselementen buiten het raster worden niet bijgewerkt nadat de laatste record is verwijderd.
-- [Probleem 430575] De inhoud van weergegeven items wordt niet bijgewerkt door tabelbesturingselementen.
+- [KB 4558545] De inhoud van weergegeven items wordt niet bijgewerkt door tabelbesturingselementen.
 - [KB 4558570] Artikelen worden nog steeds weergegeven op de pagina nadat de record is verwijderd.
-- [KB 4558584] Negatieve getallen worden niet correct weergegeven.
-- [KB 4558575] Velden worden niet bijgewerkt nadat een wijziging in rijen/rasterverwerking is vastgelopen na het verwijderen van de rij.
-- [Probleem 436980] Opmaak die is gekoppeld aan het lijstpaneel **ExtendedStyle** wordt niet toegepast.
+- [KB 4558572] Opmaak die is gekoppeld aan het lijstpaneel **ExtendedStyle** wordt niet toegepast.
 - [KB 4558573] Validatiefouten kunnen niet worden hersteld als de vereiste wijziging buiten het raster valt.
-    
-### <a name="quality-update-for-10011"></a>Kwaliteitsupdate voor 10.0.11
-
-- [KB 4558381] Negatieve getallen worden niet correct gegenereerd/het programma loopt soms vast nadat er validatieproblemen zijn opgetreden.
+- [KB 4558584] Negatieve getallen worden niet correct weergegeven.
+- [KB 4560726] Er treedt een onverwachte clientfout op na het schakelen tussen lijsten met behulp van een besturingselement voor lijstweergave.
+- [KB 4562141] Rasterindexen zijn uitgeschakeld nadat een nieuwe record is toegevoegd.
+- [KB 4562151] De taakrecorderopties **Valideren** en **Kopiëren** zijn niet beschikbaar voor datum- en nummercontroles. 
+- [KB 4562153] Selectievakjes voor meerdere selecties zijn niet zichtbaar in lijst-/kaartrasters.
+- [KB 4562646] U kunt soms niet buiten het raster klikken wanneer u meerdere rijen in het raster selecteert.
+- [KB 4562647] De focus wordt opnieuw ingesteld op het eerste besturingselement in het dialoogvenster **Publiceren** nadat een nieuwe rij is toegevoegd in het raster met beveiligingsrollen.
+- [KB 4563310] Het uitgebreide voorbeeld wordt niet gesloten nadat een rij is gewijzigd.
+- [KB 4563313] Er treedt een onverwachte clientfout op in Internet Explorer wanneer een waarde wordt geselecteerd in een zoekopdracht.
+- [KB 4563324] Navigatie werkt niet nadat het werkgebied **Personeelsbeheer** is geopend.
 
 ### <a name="fixed-as-part-of-10011"></a>Gecorrigeerd als onderdeel van 10.0.11
 
+- [Probleem 432458] Lege of gedupliceerde regels worden aan het begin van bepaalde onderliggende verzamelingen weergegeven.
+- [KB 4549711] Regels in een betalingsvoorstel kunnen niet correct worden verwijderd nadat het nieuwe rasterbesturingselement is ingeschakeld.
 - [KB 4558374] Records waarvoor een polymorf selectiedialoogvenster vereist is, kunnen niet worden gemaakt.
-- [KB 4558382] Er zijn onverwachte clientfouten opgetreden.
 - [KB 4558375] In het nieuwe raster wordt geen Help-tekst weergegeven voor kolommen.
 - [KB 4558376] Rasters van lijstpaneel worden niet op de juiste hoogte weergegeven in Internet Explorer.
 - [KB 4558377] Kolommen met een keuzelijst met invoervak met breedte **SizeToAvailable** worden niet op alle pagina's weergegeven.
-- [KB 4549711] Regels in een betalingsvoorstel kunnen niet correct worden verwijderd nadat het nieuwe rasterbesturingselement is ingeschakeld.
 - [KB 4558378] Met detailanalyse wordt soms de verkeerde record geopend.
 - [KB 4558379] Er treedt een fout op wanneer zoekopdrachten worden geopend, als **ReplaceOnLookup**=**Nee** is.
 - [KB 4558380] De beschikbare ruimte in het raster wordt niet onmiddellijk opgevuld nadat een gedeelte van de pagina is samengevouwen.
-- [Probleem 432458] Lege of gedupliceerde regels worden aan het begin van bepaalde onderliggende verzamelingen weergegeven.
+- [KB 4558381] Negatieve getallen worden niet correct gegenereerd/het programma loopt soms vast nadat er validatieproblemen zijn opgetreden.
+- [KB 4558382] Er zijn onverwachte clientfouten opgetreden.
+- [KB 4558383] Besturingselementen buiten het raster worden niet bijgewerkt nadat de laatste record is verwijderd.
 - [KB 4558587] Voor verwijzingsgroepen die keuzelijsten met invoervak bevatten voor vervangingsvelden, worden geen waarden weergegeven.
+- [KB 4562143] Velden worden niet bijgewerkt nadat een wijziging in rijen/rasterverwerking is vastgelopen na het verwijderen van de rij.
+- [KB 4562645] Er treedt een uitzondering op wanneer een zoekopdracht wordt geopend terwijl er RSAT-tests (Remote Server Administration Tools) worden uitgevoerd.
 
 ### <a name="fixed-as-part-of-10010"></a>Gecorrigeerd als onderdeel van 10.0.10
 
 - [Probleem 414301] Sommige gegevens uit eerdere regels verdwijnen wanneer er nieuwe regels worden gemaakt.
-- [KB 4550367] Tijdwaarden zijn niet juist ingedeeld.
-- [KB 4549734] Actieve rijen worden niet behandeld als gemarkeerd als de kolommarkering verborgen is.
 - [Fout 417044] Er is geen leeg rasterbericht voor rasters in een lijststijl.
-- [KB 4558367] De tekstselectie is inconsistent wanneer rijen worden gewijzigd.
-- [KB 4558372] Het nieuwe raster loopt vast in de verwerkingsmodus als het aantal geplakte kolommen in de inhoud groter is dan het aantal resterende kolommen in het raster.
-- [KB 4558368] Meervoudige selectie via het toetsenbord is toegestaan in scenario's met één optie.
 - [KB 4539058] Sommige rasters (meestal op sneltabbladen) worden soms niet weergegeven (maar worden wel weergegeven als u uitzoomt).
+- [KB 4549734] Actieve rijen worden niet behandeld als gemarkeerd als de kolommarkering verborgen is.
+- [KB 4549796] Waarden kunnen niet worden bewerkt in een raster wanneer deze de weergavemodus hebben.
+- [KB 4558367] De tekstselectie is inconsistent wanneer rijen worden gewijzigd.
+- [KB 4558368] Meervoudige selectie via het toetsenbord is toegestaan in scenario's met één optie.
 - [KB 4558369] Statusafbeeldingen verdwijnen in het hiërarchische raster.
 - [KB 4558370] Een nieuwe rij schuift niet in de weergave.
-- [KB 4549796] Waarden kunnen niet worden bewerkt in een raster wanneer deze de weergavemodus hebben.
+- [KB 4558372] Het nieuwe raster loopt vast in de verwerkingsmodus als het aantal geplakte kolommen in de inhoud groter is dan het aantal resterende kolommen in het raster.
+- [KB 4562631] Tijdwaarden zijn niet juist ingedeeld.
 
 ### <a name="quality-update-for-1009platform-update-33"></a>Kwaliteitsupdate voor 10.0.9/Platform update 33
 

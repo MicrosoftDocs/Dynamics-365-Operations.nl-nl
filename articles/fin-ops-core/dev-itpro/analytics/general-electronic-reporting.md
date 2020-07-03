@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
+ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933927"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3421650"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -81,7 +81,7 @@ Een modeltoewijzing die ondersteuning biedt voor inkomende elektronische documen
 
 Een gegevensmodelonderdeel is ontworpen voor elk zakelijk domein dat moet worden gebruikt als centrale gegevensbron voor rapportage, waarmee rapportage wordt geïsoleerd van de fysieke implementatie van gegevensbronnen voor Finance and Operations. Het vertegenwoordigt domeinspecifieke zakelijke concepten en functionaliteit in een indeling die het initiële ontwerp en later onderhoud van een rapportageformulier efficiënter maakt.
 
-#### <a name="FormatComponentOutbound"></a>Indelingscomponent voor uitgaande elektronische documenten
+#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Indelingscomponent voor uitgaande elektronische documenten
 
 Een indelingsonderdeel is het schema van de rapportage-uitvoer die wordt gegenereerd tijdens de uitvoering. Een schema bestaat uit de volgende elementen:
 
@@ -107,7 +107,7 @@ In de volgende afbeelding ziet u hoe de gegevensstroomm voor deze indelingen ver
 
 Voor het uitvoeren van een enkele ER-indelingsconfiguratie en het genereren van een uitgaand elektronisch document moet u de toewijzing van de indelingsconfiguratie bepalen.
 
-#### <a name="FormatComponentInbound"></a>Indelingscomponent voor inkomende elektronische documenten
+#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Indelingscomponent voor inkomende elektronische documenten
 Een indelingscomponent is het schema van het inkomende document dat tijdens de uitvoering wordt geïmporteerd. Een schema bestaat uit de volgende elementen:
 
 - Een indeling die de structuur en de inhoud definieert van het inkomende elektronische document dat gegevens bevat die tijdens de uitvoering worden geïmporteerd. Een indelingscomponent wordt gebruikt om een inkomend document te parseren in verschillende indelingen, zoals tekst en XML.
@@ -144,7 +144,7 @@ Toegang tot ER-indelingsonderdelen is afhankelijk van de instelling voor de ISO 
 
 Verschillende versies van een gegevensindelingsonderdeel kunnen verschillende instellingen hebben voor ISO-land-/regiocodes.
 
-#### <a name="Configuration"></a>Configuratie
+#### <a name="configuration"></a><a name="Configuration"></a>Configuratie
 
 De ER-configuratie is de wrapper voor een bepaald ER-onderdeel. Dat onderdeel kan een gegevensmodelonderdeel zijn of een indelingscomponent. Een configuratie kan verschillende versies van een ER-onderdeel bevatten. Elke configuratie is gemarkeerd als eigendom van een bepaalde configuratieprovider. De **Concept**-versie van een onderdeel van een configuratie kan worden bewerkt als de eigenaar van de configuratie als een actieve provider is geselecteerd in de ER-instellingen in de toepassing.
 
@@ -154,26 +154,26 @@ De indelingsconfiguratie die wordt gemaakt bevat een indelingscomponent. Het geg
 
 Een ER-configuratie wordt gedeeld voor toepassingsbedrijven.
 
-#### <a name="Provider"></a>Provider
+#### <a name="provider"></a><a name="Provider"></a>Provider
 
 De ER-provider is de partij-id die wordt gebruikt om de auteur (eigenaar) van elke ER-configuratie aan te duiden. Via ER kunt u de lijst met configuratieproviders beheren. Indelingsconfiguraties die worden vrijgegeven voor elektronische documenten als onderdeel van de Finance and Operations-oplossing zijn gemarkeerd als het eigendom van de configuratieprovider **Microsoft**.
 
 Voor informatie over het registreren van een nieuwe ER-provider speelt u de taakbegeleiding **ER Een configuratieprovider maken en deze als actief markeren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen van IT-services/oplossingen ophalen/ontwikkelen (10677)**).
 
-#### <a name="Repository"></a>Opslagplaats
+#### <a name="repository"></a><a name="Repository"></a>Opslagplaats
 
 In een ER-opslagplaats worden ER-configuraties opgeslagen. De volgende typen ER-opslagplaatsen worden momenteel ondersteund: 
 
 - Gedeelde LCS-bibliotheek
 - LCS-project
 - Bestandssysteem
-- Regulatory Configuration Services (RCS)
-- Bronnen voor bedrijfsactiviteiten
-
+- RCS
+- Operations-resources
+- Algemene opslagplaats
 
 De opslagplaats **Gedeelde LCS-bibliotheek** biedt toegang tot de lijst met configuraties binnen de bibliotheek voor gedeelde activa in Lifecycle Services (LCS). Dit type ER-opslagplaats kan alleen worden geregistreerd voor de Microsoft-provider. Vanuit de LCS-bibliotheek voor gedeelde activa kunt u de meest recente versies van ER-configuraties importeren in het huidige exemplaar.
 
-Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd in de fase van registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van Finance and Operations.
+Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd tijdens de registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een opslagplaats **LCS-project** in het huidige exemplaar van uw Finance and Operations-apps.
 
 Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuraties die zich als XML-bestanden bevinden in de opgegeven map van het lokale bestandssysteem op de computer waarop de AOS-service wordt gehost. Vereiste map is geselecteerd in de fase van opslagplaatsregistratie. U kunt configuraties importeren vanuit een opslagplaats **Bestandssysteem** in het huidige exemplaar. 
 
@@ -184,9 +184,13 @@ Houd er rekening mee dat dit type opslagplaats toegankelijk is in de volgende om
 
 Zie [ER-configuraties (Elektronische rapportage) importeren](./electronic-reporting-import-ger-configurations.md) voor meer informatie.
 
-Een opslagplaats **RCS-exemplaar** biedt toegang tot de lijst met configuraties van een specifiek RCS-exemplaar dat is geselecteerd in de fase van registratie van de opslagplaats. Met ER kunt u voltooide of gedeelde configuraties vanuit het geselecteerde RCS-exemplaar importeren in het huidige exemplaar, zodat u ze kunt gebruiken voor elektronische rapportage.
+Een opslagplaats **RCS** biedt toegang tot de lijst met configuraties van een specifiek exemplaar van [Regulatory Configuration Service (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) dat is geselecteerd in de fase van registratie van de opslagplaats. Met ER kunt u voltooide of gedeelde configuraties vanuit het geselecteerde RCS-exemplaar importeren in het huidige exemplaar, zodat u ze kunt gebruiken voor elektronische rapportage.
 
-Zie voor meer informatie [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](./rcs-download-configurations.md).
+Zie [ER-configuraties (Elektronische rapportage) importeren vanuit RCS](./rcs-download-configurations.md) voor meer informatie.
+
+Een **algemene opslagplaats** biedt toegang tot de lijst met configuraties in de algemene opslagplaats in de [configuratieservice](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Dit type ER-opslagplaats kan alleen worden geregistreerd voor de Microsoft-provider. Vanuit de algemene opslagplaats kunt u de meest recente versies van ER-configuraties importeren in het huidige exemplaar.
+
+Zie voor meer informatie [Configuraties voor Elektronische rapportage (ER) importeren uit de algemene opslagplaats van de configuratieservice](./er-download-configurations-global-repo.md).
 
 De opslagplaats **Bronnen voor bedrijfsactiviteiten** biedt toegang tot de lijst met configuraties die Microsoft als ER-configuratieprovider aanvankelijk heeft vrijgegeven als onderdeel van de toepassingsoplossing. Deze configuraties kunnen worden geïmporteerd in het huidige exemplaar en worden gebruikt voor elektronische rapportage of voor het afspelen van voorbeeldtaakbegeleidingen. Zij kunnen ook worden gebruikt voor extra lokalisaties en aanpassingen. Houd er rekening mee dat de meest recente versies die door Microsoft ER-configuraties worden verschaft, moeten worden geïmporteerd vanuit de LCS-bibliotheek met behulp van de opslagplaats ER-opslagplaats.
 

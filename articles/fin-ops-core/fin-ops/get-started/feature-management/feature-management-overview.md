@@ -1,9 +1,9 @@
 ---
 title: Overzicht van functiebeheer
 description: Dit onderwerp bevat een beschrijving van de functie Functiebeheer en de manier waarop u deze kunt gebruiken.
-author: mikefalkner
+author: ChrisGarty
 manager: AnnBe
-ms.date: 09/12/2019
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,17 +13,17 @@ audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
-ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
+ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2778700"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456592"
 ---
 # <a name="feature-management-overview"></a>Overzicht van Functiebeheer
 
@@ -144,3 +144,34 @@ Met Functiebeheer kunt u de functies beheren die in elke release worden geleverd
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Functiebeheer gebruiken om ISV-functies of aangepaste functies in te schakelen
 
 Functiebeheer is momenteel niet beschikbaar voor functies van onafhankelijke softwareleveranciers (ISV's) en aangepaste functies. Microsoft voegt echter meer functionaliteit toe om het beheer van functies te verbeteren. Nadat deze verbeteringen zijn voltooid, maakt microsoft Functiebeheer beschikbaar voor alle functies en krijgt u instructies voor het bijwerken van uw functies om deze te gebruiken.
+
+## <a name="frequently-asked-questions-faq"></a>Veelgestelde vragen (FAQ)
+
+### <a name="when-are-features-added-removed-or-changed"></a>Wanneer worden functies toegevoegd, verwijderd of gewijzigd? 
+Functies worden toegevoegd, verwijderd en gewijzigd via codewijzigingen. Omgevingen moeten worden bijgewerkt om deze wijzigingen te kunnen ontvangen.
+
+### <a name="does-a-feature-become-mandatory-automatically"></a>Wordt een functie automatisch verplicht? 
+Nee, het is niet automatisch dat een functie verplicht wordt. De productteams moeten een codewijziging aanbrengen.
+
+### <a name="when-do-features-become-mandatory"></a>Wanneer worden functies verplicht? 
+Het beleid is dat alle nieuwe functies voor een periode van twaalf maanden in aanmerking komen en dat er geen wijzigingsbeheer nodig is totdat u de functie inschakelt. De productteams kunnen kiezen of een functie verplicht moet worden gesteld nadat deze periode is geëindigd. 
+
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Waarom is er geen specifieke verplichte datum voor inschakelen? 
+De timing van updateversies is variabel, timing van omgevingsupdates is variabel en klanten kunnen ervoor kiezen sommige updates over te slaan. Hierdoor zijn bepaalde datums moeilijk te bepalen. 
+
+### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Waar is de documentatie voor functies die verplicht worden gesteld? 
+Deze documentatie is afkomstig uit de toepassingsteams. Deze worden vaak vermeld in [Verwijderde of afgeschafte functies](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+
+### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Is er een melding of signaal in het product dat een functie verplicht wordt ingeschakeld? 
+Er bestaat op dit moment geen meldingsmechanisme voor het verplicht maken van een functie.
+
+### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Worden functies ooit ingeschakeld zonder dat de klant dit weet? 
+Ja, als functies geen functionele gevolgen hebben, kunnen ze standaard worden ingeschakeld.
+
+### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>Wat is functie-flighting en hoe is dit gerelateerd aan functiebeheer? 
+Functie-flights zijn real-time switches die door Microsoft worden bediend. Ze staan los van het besturingselement voor klanten dat door Functiebeheer wordt geleverd. 
+- Functies met beperkte preview worden niet weergegeven in Functiebeheer totdat ze zijn ingeschakeld. In productie moet de klant instemmen met deelname aan een speciaal programma voordat dit wordt uitgevoerd.
+- Openbare preview-functies en vrijgegeven (algemeen beschikbare) functies worden weergegeven in Functiebeheer, tenzij ze worden uitgeschakeld. Het uitschakelen van een functie wordt beschouwd als laatste redmiddel voor productteams als er een kritiek probleem wordt gevonden. Dit is normaal gesproken een bewerking per klant.
+
+### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Worden functies ooit uitgeschakeld zonder dat de klant dit weet? 
+Ja, als een functie van invloed is op de werking van een omgeving zonder functionele effecten, kunnen deze standaard worden ingeschakeld.

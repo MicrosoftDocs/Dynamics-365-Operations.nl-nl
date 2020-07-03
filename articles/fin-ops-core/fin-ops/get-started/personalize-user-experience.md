@@ -3,7 +3,7 @@ title: De gebruikerservaring aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u de app kunt aanpassen.
 author: jasongre
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260501"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412349"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -117,7 +117,11 @@ De volgende hulpmiddelen zijn beschikbaar op de werkbalk **Aanpassing**:
 - Gebruik het hulpmiddel **Verplaatsen** om een element te verplaatsen naar een andere locatie binnen de huidige groep elementen. U kunt een element niet buiten de bovenliggende groep verplaatsen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verplaatsen** op de werkbalk en selecteert u vervolgens het element dat u wilt verplaatsen. Wanneer u een element selecteert, bepaalt de app de locaties waar het element naartoe kan worden verplaatst. Deze locaties worden *neerzetzones*genoemd. Wanneer u het element binnen de huidige groep versleept, wordt elke neerzetzone weergegeven als een gekleurde vette lijn naast het gebied waar het element kan worden neergezet.
 - Gebruik het hulpmiddel **Overslaan** om een element te verwijderen uit de volgorde van de toetsenbordtoets Tab van de pagina. Wanneer u de knop **Overslaan** op de werkbalk selecteert, worden alle elementen die momenteel overgeslagen worden, weergegeven in een grijze container. U kunt velden interactief verwijderen of toevoegen aan de tabvolgorde.
 - Gebruik het hulpmiddel **Weergeven in koptekst** als u wilt dat een veld in de samenvattingssectie van het sneltabblad wordt weergegeven. Wanneer u de knop **Weergeven in koptekst** selecteert op de werkbalk, worden alle velden die zijn geselecteerd als overzichtsvelden, weergegeven in een grijze container. U kunt interactief velden toevoegen aan het sneltabbladoverzicht en velden eruit verwijderen door de velden te selecteren.
-- Gebruik het gereedschap **Vereisen** om een element aan te wijzen dat nodig is voor gegevensinvoer. Wanneer u de knop **Vereisen** op de werkbalk selecteert, worden alle elementen die momenteel zijn aangepast als vereist, weergegeven in een grijze container. U kunt ze vervolgens weer instellen op niet vereist. Deze optie is alleen beschikbaar in een toekomstige release als de functies [Opgeslagen weergaven](saved-views.md) en **Velden aanwijzen die vereist zijn voor persoonlijke instellingen** zijn ingeschakeld.
+- Gebruik het gereedschap **Vereisen** om een element aan te wijzen dat nodig is voor gegevensinvoer. Wanneer u de knop **Vereisen** op de werkbalk selecteert, worden alle elementen die momenteel zijn aangepast als vereist, weergegeven in een grijze container. U kunt ze vervolgens weer instellen op niet vereist. Deze optie is alleen beschikbaar vanaf versie 10.0.12 als de functie **Velden aanwijzen die vereist zijn voor persoonlijke instellingen** is ingeschakeld.
+
+    > [!IMPORTANT]
+    > Versie 10.0.12 is een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
 - Gebruik het hulpmiddel **Vergrendelen** wanneer u een element als bewerkbaar of niet bewerkbaar wilt markeren. Wanneer u de knop **Vergrendelen** op de werkbalk selecteert, worden alle elementen die momenteel niet bewerkbaar zijn, weergegeven in een grijze container. U kunt deze vervolgens weer bewerkbaar maken. Merk op dat sommige velden verplicht zijn en niet niet-bewerkbaar kunnen worden gemaakt. Een hangslot wordt weergegeven naast deze velden.
 - Gebruik de knop **Een app toevoegen vanuit Power Apps** om een app in te sluiten die met Microsoft Power Apps op de pagina is gemaakt. Zie [Apps insluiten vanuit Power Apps](embed-power-apps.md) voor gedetailleerde informatie over het insluiten van een app op een pagina vanuit Power Apps. Deze optie is alleen beschikbaar als de functie [Opgeslagen weergaven](saved-views.md) is uitgeschakeld.  
 - Gebruik de **Een app toevoegen** om een app in te sluiten op de pagina. Dit kan een app zijn die is gemaakt in Microsoft Power Apps of een app van derden. Deze optie is alleen beschikbaar als de functie [Opgeslagen weergaven](saved-views.md) is ingeschakeld. 
@@ -159,28 +163,21 @@ Als u het dashboard wilt aanpassen, klikt u met de rechtermuisknop op een tegel 
 - Als u het werkgebiedtegels opnieuw wilt ordenen, selecteert u **Deze pagina aanpassen** om de werkbalk **Aanpassing** te openen. U kunt vervolgens het hulpmiddel **Verplaatsen** gebruiken om de tegels anders te ordenen.
 - Voor meer informatie over het toevoegen van een nieuwe werkgebiedtegel in het eigenschappenvenster selecteert u **Een werkgebied toevoegen**. Een nieuwe werkgebiedtegel wordt onder aan het dashboard gemaakt. U kunt deze werkgebiedtegel desgewenst hernoemen. U kunt ook lijsten, tegels en koppelingen toevoegen aan het werkgebied, zoals beschreven in de sectie [Lijsten, tegels of koppelingen toevoegen aan werkgebieden](#adding-a-tile-list-or-link-to-a-workspace) van dit onderwerp.
 
+
+## <a name="sharing-personalizations"></a>Persoonlijke instellingen delen
+Nadat u een pagina hebt aangepast, kunt u uw aanpassingen delen met andere gebruikers door de aangepaste pagina te exporteren. U kunt vervolgens andere gebruikers vragen de aangepaste pagina te openen en het aanpassingsbestand te importeren dat u hebt gemaakt. U kunt ook uw aanpassingen geven aan een gebruiker die beheerdersrechten heeft. Die gebruiker kan het aanpassingsbestand vervolgens toepassen op veel gebruikers tegelijk via de beheerpagina **Persoonlijke instellingen**.
+
 ## <a name="administration-of-personalizations"></a>Beheer van aanpassingen
+De pagina **Persoonlijke instellingen** is de centrale hub voor het beheer van persoonlijke instellingen op een organisatieniveau. De inhoud van en mogelijkheden op deze pagina zijn afhankelijk van de vraag of de functie **Opgeslagen weergaven** is ingeschakeld.  
 
-Nadat u een pagina hebt aangepast, kunt u uw aanpassingen delen met andere gebruikers door de aangepaste pagina te exporteren. U kunt vervolgens andere gebruikers vragen de aangepaste pagina te openen en het aanpassingsbestand te importeren dat u hebt gemaakt. U kunt ook uw aanpassingen geven aan een gebruiker die beheerdersrechten heeft. Die gebruiker kan het aanpassingsbestand vervolgens toepassen op veel gebruikers tegelijk.
+Zie de sectie Weergaven globaal beheren in het onderwerp [Opgeslagen weergaven](saved-views.md) voor klanten die de functie **Opgeslagen weergaven** hebben ingeschakeld.  
 
-Gebruiker met beheerdersbevoegdheden kunnen ook aanpassingen voor andere gebruikers beheren op de pagina **Aanpassing**.
-
-Voor klanten die de functie [Opgeslagen weergaven](saved-views.md) niet hebben ingeschakeld, bevat deze pagina vier tabbladen:
+Voor klanten die de functie [Opgeslagen weergaven](saved-views.md) nog niet hebben ingeschakeld, bevat deze pagina vier tabbladen:
 
 - **Toepassen**: u kunt een aanpassing voor een of meer gebruikers importeren of selecteren. Als u een aanpassing wilt toepassen op een of meer gebruikers, selecteert u eerst een rol en gebruikers die deze rol hebben. Vervolgens selecteert u een bestaande aanpassing om toe te passen op geselecteerde gebruikers of importeert u een aanpassingsbestand. De aanpassing wordt gevalideerd en toegepast op alle geselecteerde gebruikers. Dit wordt van kracht bij de volgende keer dat ze de geselecteerde pagina openen.
 - **Wissen**: u kunt alle aanpassingen voor een pagina of werkgebied voor een of meer gebruikers wissen. Selecteer eerst een pagina of werkgebied voor een overzicht van de gebruikers die deze hebben aangepast. Kies vervolgens de gebruikers waarvoor de aanpassingen voor die pagina moeten worden gewist en selecteer **Wissen**. Alle aanpassingen die de geselecteerde gebruikers hebben toegepast op de geselecteerde pagina of het geselecteerde werkgebied, worden verwijderd. Deze actie kan niet ongedaan worden gemaakt. Als de pagina of het werkgebied echter een opgeslagen aanpassing heeft, kan die aanpassing opnieuw worden geïmporteerd.
 - **Gebruikers**: selecteer een gebruiker voor een lijst met de pagina's die de gebruiker heeft aangepast. Vervolgens kunt u in- of uitschakelen of de gebruiker voor bepaalde pagina's of voor het hele systeem aanpassingen kan doorvoeren. U kunt ook een aanpassing importeren, exporteren of wissen voor de gebruiker. Daarnaast kunt u de functietoelichtingen voor de gebruiker opnieuw instellen. Als de gebruiker pop-upvensters die nieuwe functies introduceren, eerder heeft gesloten, worden deze opnieuw weergegeven wanneer de gebruiker de volgende keer de desbetreffende functie tegenkomt.
 - **Systeem**: u kunt tijdelijk aanpassingen voor alle gebruikers in het systeem uitschakelen. In dat geval worden alle aanpassingen voor alle gebruikers verwijderd en worden alle pagina's opnieuw ingesteld op de standaardstatus. Als u aanpassingen later weer wilt inschakelen, worden alle aanpassingen opnieuw toegepast. U kunt alle aanpassingen voor alle gebruikers in het systeem ook permanent verwijderen. Er is geen enkele manier om aanpassingen terug te halen die zijn verwijderd. Voordat u deze taak uitvoert, moet u er daarom voor zorgen dat u aanpassingen hebt geëxporteerd die u later mogelijk wilt.
-
-Voor klanten die de functie [Opgeslagen weergaven](saved-views.md) niet hebben ingeschakeld, bevat de pagina **Aanpassing** vijf tabbladen:
-
-- **Gepubliceerde weergaven**: deze weergaven zijn voor uw organisatie gepubliceerd. Als u de gebruikers wilt wijzigen voor wie deze weergaven zijn bedoeld, kunt u de beveiligingsrollen of rechtspersonen wijzigen die aan elke weergave zijn gekoppeld. U kunt ook een of meer gepubliceerde weergaven exporteren of verwijderen.
-- **Niet-gepubliceerde weergaven**: deze weergaven zijn sjabloonweergaven die in uw systeem zijn geïmporteerd maar nog niet zijn gepubliceerd. U kunt deze weergaven publiceren, exporteren of verwijderen.
-- **Persoonlijke weergaven**: deze weergaven zijn gemaakt door gebruikers in het systeem. U kunt een persoonlijke weergave voor de organisatie publiceren of een of meer van deze weergaven naar andere gebruikers kopiëren. U kunt deze weergaven ook publiceren, exporteren of verwijderen.
-- **Gebruikers**: selecteer een gebruiker voor een lijst met de pagina's die de gebruiker heeft aangepast. Vervolgens kunt u in- of uitschakelen of de gebruiker voor bepaalde pagina's of voor het hele systeem aanpassingen kan doorvoeren. U kunt ook een aanpassing importeren, exporteren of wissen voor de gebruiker. Daarnaast kunt u de functietoelichtingen voor de gebruiker opnieuw instellen. Als de gebruiker pop-upvensters die nieuwe functies introduceren, eerder heeft gesloten, worden deze opnieuw weergegeven wanneer de gebruiker de volgende keer de desbetreffende functie tegenkomt.
-- **Systeem**: u kunt tijdelijk aanpassingen voor alle gebruikers in het systeem uitschakelen. In dat geval worden alle aanpassingen voor alle gebruikers verwijderd en worden alle pagina's opnieuw ingesteld op de standaardstatus. Als u aanpassingen later weer wilt inschakelen, worden alle aanpassingen opnieuw toegepast. U kunt alle aanpassingen voor alle gebruikers in het systeem ook permanent verwijderen. Er is geen enkele manier om aanpassingen terug te halen die zijn verwijderd. Voordat u deze taak uitvoert, moet u er daarom voor zorgen dat u aanpassingen hebt geëxporteerd die u later mogelijk wilt.
-
-Gebruikers die toegang hebben tot de pagina **Aanpassing** kunnen ook persoonlijke sjablonen of sjabloonweergaven importeren met de knop **Weergaven importeren** in het actievenster.
 
 ## <a name="personalizing-inventory-dimensions"></a>Voorraaddimensies aanpassen
 

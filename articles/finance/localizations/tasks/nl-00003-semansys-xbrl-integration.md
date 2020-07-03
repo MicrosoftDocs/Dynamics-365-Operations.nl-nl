@@ -3,7 +3,7 @@ title: Semansys XBRL-integratie
 description: Deze procedure begeleidt u door het gebruik van Nederlandse functionaliteit om financiële gegevens naar de XML-indeling te exporteren.
 author: mrolecki
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/28/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,26 +16,35 @@ ms.search.region: Netherlands
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ee46ecb0e2b4c2831faf1f9f3e486883c4ac0de
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 203495e51ba416e6034d40840fb7209c079180ac
+ms.sourcegitcommit: 3f344b841027c0025419c8c3958e0477d51eea36
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346342"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3409576"
 ---
-# <a name="semansys-xbrl-integration"></a>Semansys XBRL-integratie
+# <a name="deliver-xbrl-to-the-dutch-regulatory-body-via-semansys-xbrlone"></a>XBRL aan de Nederlandse regelgevende instantie bezorgen via Semansys XBRLOne
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure begeleidt u door het gebruik van Nederlandse functionaliteit om financiële gegevens naar de XML-indeling te exporteren. Deze procedure is gemaakt met het demobedrijf DEMF, met het primaire adres van de rechtspersoon bijgewerkt zodat het in Nederland ligt.
+Dit onderwerp begeleidt u door de stappen voor het toewijzen, exporteren en leveren van XBRL (eXtensible Business Reporting Language) aan de Nederlandse regelgevende instantie.  
 
-Opmerking: het importeren van de elektronische rapportageconfiguraties XBRL-integratiemodel en Semansys XBRL (NL) is een vereiste.
+Het proces op hoog niveau is een proces van systeem naar mens naar systeem. Het eerste systeem waarvoor dit gevolgen heeft, is Microsoft Dynamics 365 Finance. Dit systeem is verantwoordelijk voor het maken van alle benodigde vermeldingen, rekeningschema's en toewijzingen. Nadat dit is voltooid, exporteert een gebruiker de gegevens in de Semansys DataBridge-indeling. Deze geëxporteerde gegevens kunnen vervolgens naar de XBRLOne-portal worden geüpload om naar XBRL te worden geconverteerd en vervolgens worden gevalideerd en bij de juiste Nederlandse regelgevende instantie worden afgeleverd. 
 
-1. Ga naar Grootboek > Periodieke taken > Financiële gegevens naar XBRL exporteren.
-2. Voer een datum in het veld Begindatum in.
-    * Typ of selecteer bijvoorbeeld de datum 2012-11-01.  
-3. Voer een datum in het veld Einddatum in.
-    * Typ of selecteer bijvoorbeeld de datum 2012-11-30.  
-4. Typ of selecteer een waarde in het veld Indelingstoewijzing.
-5. Klik op OK.
+Voor dit proces zijn de volgende vereisten nodig:
 
+- De rapportgegevens zijn beschikbaar voor toewijzing via Grootboek in Finance.
+- Kennis van de juiste taxonomie waarvoor u rapporteert en de bevestiging dat u aan een Nederlandse regelgevende instantie levert.
+- Importeer de elektronische rapporteringsconfiguraties **Nederlands XBRL-integratiemodel** en **Semansys XBRL (NL)**.
+
+Zie voor meer informatie over het downloaden van ER-configuraties vanuit Microsoft Dynamics Lifecycle Services (LCS) [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+
+In het volgende voorbeeld ziet u welke stappen een gebruiker moet uitvoeren om de gegevens voor een jaarrapport voor 2019 te exporteren. 
+
+1. Ga naar **Grootboek** > **Periodieke taken** > **Financiële gegevens naar XBRL exporteren**.
+2. Voer een datum in het veld **Begindatum** in. Bijvoorbeeld *01/01/2019*.  
+3. Voer een datum in het veld **Einddatum** in. Bijvoorbeeld *31/12/2019*.
+4. Voer in het veld **Indelingstoewijzing** de juiste indelingen in.
+5. Selecteer **OK**.
+
+U kunt het Semansys DataBridge-indelingspakket nu naar de XBRLOne-portal overdragen voor de volgende stappen in het proces.

@@ -589,6 +589,8 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: Opslag naar ouderdom gerangschikt voorraadrapport
                   href: cost-management/inventory-aging-report-storage.md
+                - name: Voorbeelden en logica voor naar ouderdom gerangschikt voorraadrapport
+                  href: cost-management/inventory-aging-report.md
             - name: Productieboekhouding
               items:
                 - name: Stuklijstberekeningen

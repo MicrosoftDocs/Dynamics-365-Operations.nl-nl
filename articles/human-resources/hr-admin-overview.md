@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008573"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443413"
 ---
 # <a name="overview"></a>Overzicht
 
@@ -35,21 +35,23 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
   - [Human Resources inrichten](hr-admin-setup-provision.md)
   - [Een exemplaar kopiëren](hr-admin-setup-copy-instance.md)
   - [Een exemplaar verwijderen](hr-admin-setup-remove-instance.md)
-  - [Updateproces](hr-admin-setup-update-process.md)
+  - [Het updateproces](hr-admin-setup-update-process.md)
 
 - Gegevensintegratie instellen
   - [Een gegevensintegratietechnologie kiezen](hr-admin-integration-choose-technology.md)
   - [Integratie met Common Data Service configureren](hr-admin-integration-common-data-service.md)
   - [Integratie met Finance configureren](hr-admin-integration-finance.md)
   - [Integratie met Dayforce configureren](hr-admin-integration-dayforce.md)
-  - [Een app voor terugkerende gegevensexporten maken](hr-admin-integration-recurring-data-export.md)
+  - [Een app voor het exporteren van terugkerende gegevens maken](hr-admin-integration-recurring-data-export.md)
   - Integreren met Office
-    - [Zelfstudie Office-integratie](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Zelfstudie voor Office-integratie](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Entiteitsgegevens bijwerken in Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Ervaringen met Openen in Excel maken](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Problemen met Office-integratie oplossen](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Functies beheren](hr-admin-manage-features.md)
+
+- [Databaselogboeken configureren en beheren](hr-admin-database-logging.md)
 
 - De gebruikersinterface verkennen
   - [Gebruikersinterface-elementen](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
@@ -75,7 +77,6 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
 - Documentatiebronnen
   - [Help-systeem](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Verbinding maken met het Help-systeem](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [Verbinding maken met een aangepaste Help-site](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [Veldomschrijvingen weergeven en exporteren](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [Taakrecorder](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Documentatie of training maken met Taakrecorder](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
@@ -86,9 +87,9 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
   - [Analytische rapporten worden niet bijgewerkt](hr-admin-troubleshooting-analytic-reports.md)
   - [Kan geen omgeving maken in het Power Apps-beheercentrum](hr-admin-troubleshooting-power-apps.md)
   - [De verbinding met de client wordt verbroken](hr-admin-troubleshooting-disconnect.md)
-  - [Afgekapte tekst in de positiehiërarchie vermijden](hr-admin-troubleshooting-truncate.md)
+  - [Tekstafbreking in de positiehiërarchie vermijden](hr-admin-troubleshooting-truncate.md)
   - [Het compensatieproces uitvoeren](hr-admin-troubleshooting-compensation.md)
-  - [Een taakbegeleider opslaan in LCS](hr-admin-troubleshooting-task-guide.md)
+  - [Taakbegeleiders opslaan in LCS](hr-admin-troubleshooting-task-guide.md)
   - [Toegang tot privéadressen per beveiligingsrol](hr-admin-troubleshooting-private-addresses.md)
   - [Human Resources wordt niet weergegeven in Dynamics 365-apps](hr-admin-troubleshooting-not-in-apps.md)
   - [Rapportageopties](hr-admin-troubleshooting-reporting.md)

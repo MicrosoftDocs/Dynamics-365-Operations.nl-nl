@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
+ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131726"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410408"
 ---
 # <a name="set-up-a-call-center-channel"></a>Een callcenterkanaal instellen
 
@@ -34,7 +34,7 @@ In dit onderwerp wordt beschreven hoe u een nieuw callcenterkanaal maakt in Micr
 ## <a name="overview"></a>Overzicht
 
 
-In Dynamics 365 Commerce is een callcenter een type detailhandelafzetkanaal dat kan worden gedefinieerd in de toepassing. Door een afzetkanaal voor uw callcenter-entiteiten te definiëren, kan het systeem specifieke gegevens en orderverwerkingsinstellingen koppelen aan verkooporders. Een bedrijf kan meerdere callcenterkanalen in Commerce definiëren, maar het is belangrijk om te weten dat een individuele gebruiker slechts aan één callcenterkanaal kan worden gekoppeld. 
+In Dynamics 365 Commerce is een callcenter een type handelsafzetkanaal dat kan worden gedefinieerd in de toepassing. Door een afzetkanaal voor uw callcenter-entiteiten te definiëren, kan het systeem specifieke gegevens en orderverwerkingsinstellingen koppelen aan verkooporders. Een bedrijf kan meerdere callcenterkanalen in Commerce definiëren, maar het is belangrijk om te weten dat een individuele gebruiker slechts aan één callcenterkanaal kan worden gekoppeld. 
 
 Controleer vóór het maken van een nieuw callcenterkanaal of u de [Vereisten voor het instellen van kanalen](channels-prerequisites.md) hebt voltooid.
 
@@ -84,7 +84,7 @@ Volg deze stappen om betalingsmethoden in te stellen voor elk betalingstype dat 
 
 In de volgende afbeelding ziet u een voorbeeld van een contante betalingsgmethode.
 
-![Voorbeeldbetalingsmethoden](media/channel-setup-retail-5.png)
+![Voorbeeldbetalingsmethoden](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Leveringsmethoden instellen
 

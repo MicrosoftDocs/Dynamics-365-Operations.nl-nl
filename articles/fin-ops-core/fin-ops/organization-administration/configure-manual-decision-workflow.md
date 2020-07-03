@@ -3,7 +3,7 @@ title: Handmatige beslissingen configureren in een workflow
 description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige beslissing configureert.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177254"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455028"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Handmatige beslissingen configureren in een workflow
 
@@ -239,26 +239,6 @@ Voer de volgende stappen uit om op te geven aan wie de handmatige beslissing moe
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
     <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle gebruikers. Selecteer de gebruikers aan wie u de beslissing wilt toewijzen en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>Wachtrij</td>
-    <td>Een wachtrij voor werkitems</td>
-    <td>
-    <ol>
-    <li>Selecteer het tabblad <strong>Wachtrij</strong> en klik op het tabblad <strong>Wachtrijgebaseerd</strong>.</li>
-    <li>Voer deze stappen uit om de beslissing aan een specifieke wachtrij toe te wijzen: <ol>
-    <li>Selecteer in de lijst <strong>Wachtrijtype</strong> de waarde <strong>Wachtrijen voor werkitems</strong>.</li>
-    <li>Selecteer in de lijst <strong>Wachtrijnaam</strong> de gewenste wachtrij.</li>
-    </ol>
-    </li>
-    <li>Als een specifieke voorwaarde moet bepalen aan welke wachtrij de beslissing wordt toegewezen, volgt u deze stappen: <ol>
-    <li>Selecteer in de lijst <strong>Wachtrijtype</strong> de waarde <strong>Voorwaardelijke wachtrijen voor werkitems</strong>.</li>
-    <li>Selecteer in de lijst <strong>Wachtrijnaam</strong> de waarde <strong>Voorwaardelijke wachtrij</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Deze optie wordt alleen bij enkele workflows toegepast, zoals Aanvraagbeheer.</blockquote>
     </td>
     </tr>
     </tbody>

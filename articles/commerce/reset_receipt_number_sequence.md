@@ -19,17 +19,19 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: e3243a69b98aae25ad8514890fb984c8a0d9f694
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123941"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456568"
 ---
-# <a name="reset-receipt-numbers"></a>Ontvangstbewijsnummers opnieuw instellen 
+# <a name="reset-receipt-numbers"></a>Nummers voor ontvangstbewijzen opnieuw instellen 
 
 [!include [banner](includes/banner.md)]
 
+> [!NOTE]
+> Selecteer de eigenschap **Onafhankelijk volgnummer** voor alle ontvangstbewijstypen in het functionaliteitsprofiel voordat u deze functie gebruikt. Daarnaast moet de systeemtijdzone van het apparaat, waar het POS wordt gebruikt, overeenkomen met de bijbehorende tijdzone van de winkel. Wij proberen deze beperkingen in een toekomstige versie te verwijderen. Neem contact op met Microsoft Ondersteuning voordat u deze functie in productie gaat gebruiken.
 
 Detailhandelaren genereren ontvangstbewijsnummers voor verschillende acties in de winkel, zoals contante transacties, retourtransacties, klantorders, offertes en betalingen. Hoewel detailhandelaren hun eigen ontvangstbewijsindelingen definiëren, hebben sommige landen of regio's voorschriften die beperkingen opleggen aan de ontvangstbewijsindelingen. Deze voorschriften kunnen bijvoorbeeld het aantal tekens op het ontvangstbewijs beperken, opeenvolgende ontvangstbewijsnummers vereisen, het gebruik van bepaalde speciale tekens beperken of de eis stellen dat ontvangstbewijsnummers aan het begin van het jaar opnieuw worden ingesteld. Microsoft Dynamics 365 Commerce maakt het proces van het beheren van ontvangstbewijsnummers zeer flexibel, zodat detailhandelaren beter aan de wettelijke vereisten kunnen voldoen. In dit onderwerp wordt uitgelegd hoe u de functionaliteit gebruikt voor het opnieuw instellen van ontvangstbewijsnummers.
 
