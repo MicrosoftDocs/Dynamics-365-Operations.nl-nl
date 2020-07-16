@@ -74,8 +74,6 @@
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (juli 2020)
                       href: get-started/whats-new-changed-10-0-11.md
-                    - name: Finance 10.0.10 (mei 2020)
-                      href: get-started/whats-new-changed-10-0-10.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Verwijderde of afgeschafte functies in Dynamics 365 Finance
@@ -1184,6 +1182,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Kolomdefinities
               href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Rapportagestructuurdefinities in financiële rapporten
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
             - name: Rijdefinitiecellen wijzigen
               href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: De datamart voor financiële rapportage opnieuw instellen
@@ -3386,12 +3386,18 @@
                       items:
                         - name: Configuraties importeren uit GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Bijgewerkte versies van ER-configuraties importeren
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
                         - name: Uitgebreid filteren om configuraties te vinden in GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Configuraties uploaden naar GR
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Configuraties delen in GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+            - name: Snelstarthandleidingen
+              items:
+                - name: Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
             - name: Zelfstudies
               items:
                 - name: Informatie over het gebruik van gegevensbronnen

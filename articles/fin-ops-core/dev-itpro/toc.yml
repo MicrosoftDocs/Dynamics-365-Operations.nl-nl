@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform updates voor 10.0.11 (juli 2020)
                   href: get-started/whats-new-platform-update-35.md
-                - name: Platform updates voor 10.0.10 (mei 2020)
-                  href: get-started/whats-new-platform-update-34.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Verwijderde of afgeschafte platform-functies
@@ -713,9 +711,29 @@
                         - name: Gebeurtenissen
                           href: dev-ref/xpp-events.md
                     - name: X++-gegevens selecteren en bewerken
-                      href: dev-ref/xpp-data-query.md
-                    - name: Toegang tot gegevens via de SysDa-API
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: Overzicht van X++-gegevens selecteren en bewerken
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: Select-instructie
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: Gegevens selecteren
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: Gegevens invoegen
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: Gegevens bijwerken
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: Gegevens verwijderen
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: Tijdens select-instructie
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: Een select-instructie schrijven als een expressie
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: Transactionele integriteit
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: Conversie van bewerkingen van setgebaseerd naar record-voor-record
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: Toegang tot gegevens via de SysDa-API
+                          href: dev-ref/sysda.md
                     - name: X++-macro's
                       href: dev-ref/xpp-macros.md
                     - name: X++-kenmerkklassen
@@ -754,76 +772,58 @@
                   href: dev-ref/system-tables.md
                 - name: Systeemklassen
                   items:
-                    - name: A-klassen
-                      href: dev-ref/a-classes.md
-                    - name: B-klassen
-                      href: dev-ref/b-classes.md
-                    - name: C-klassen
-                      href: dev-ref/c-classes.md
-                    - name: D-klassen
-                      href: dev-ref/d-classes.md
-                    - name: E-klassen
-                      href: dev-ref/e-classes.md
-                    - name: F-klassen (FieldBinding tot FormBuildAnimateControl)
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: F-klassen (FormBuildButtonControl tot FormBuildFastTabSummarySeparator)
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: F-klassen (FormBuildFilterPaneControl tot FormBuildRealControl)
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: F-klassen (FormBuildReferenceControl tot FormButtonSeparatorControl)
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: F-klassen (FormChangeTracker tot FormControlEventArgs)
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: F-klassen (FormDataObject tot FormFastTabHeaderControl)
-                      href: dev-ref/formdataobject-classes.md
-                    - name: F-klassen (FormFastTabSummarySeparator tot FormGridControl)
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: F-klassen (FormGroupControl tot FormIntControl)
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: F-klassen (FormListBoxControl tot FormNotifyEventArgs)
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: F-klassen (FormObject tot FormRealControl)
-                      href: dev-ref/formobject-classes.md
-                    - name: F-klassen (FormReferenceControl tot FormStringControl)
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: F-klassen (FormTabControl tot FormWindowControl)
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: G-klassen
-                      href: dev-ref/g-classes.md
-                    - name: H-klassen
-                      href: dev-ref/h-classes.md
-                    - name: I-klassen
-                      href: dev-ref/i-classes.md
-                    - name: J-klassen
-                      href: dev-ref/j-classes.md
-                    - name: K-klassen
-                      href: dev-ref/k-classes.md
-                    - name: L-klassen
-                      href: dev-ref/l-classes.md
-                    - name: M-klassen
-                      href: dev-ref/m-classes.md
-                    - name: N-klassen
-                      href: dev-ref/n-classes.md
-                    - name: O-klassen
-                      href: dev-ref/o-classes.md
-                    - name: P-klassen
-                      href: dev-ref/p-classes.md
-                    - name: Q-klassen
-                      href: dev-ref/q-classes.md
-                    - name: R-klassen
-                      href: dev-ref/r-classes.md
-                    - name: S-klassen
-                      href: dev-ref/s-classes.md
-                    - name: T-klassen
-                      href: dev-ref/t-classes.md
-                    - name: U-klassen
-                      href: dev-ref/u-classes.md
-                    - name: V-klassen
-                      href: dev-ref/v-classes.md
-                    - name: W-klassen
-                      href: dev-ref/w-classes.md
-                    - name: X-klassen
-                      href: dev-ref/x-classes.md
+                    - name: Lijst met systeemklassen
+                      href: dev-ref/system-classes/toc.yml
+                    - name: Alfabetisch gegroepeerde systeemklassen
+                      items:
+                        - name: A-klassen
+                          href: dev-ref/a-classes.md
+                        - name: B-klassen
+                          href: dev-ref/b-classes.md
+                        - name: C-klassen
+                          href: dev-ref/c-classes.md
+                        - name: D-klassen
+                          href: dev-ref/d-classes.md
+                        - name: E-klassen
+                          href: dev-ref/e-classes.md
+                        - name: F-klassen
+                          href: dev-ref/f-classes.md
+                        - name: G-klassen
+                          href: dev-ref/g-classes.md
+                        - name: H-klassen
+                          href: dev-ref/h-classes.md
+                        - name: I-klassen
+                          href: dev-ref/i-classes.md
+                        - name: J-klassen
+                          href: dev-ref/j-classes.md
+                        - name: K-klassen
+                          href: dev-ref/k-classes.md
+                        - name: L-klassen
+                          href: dev-ref/l-classes.md
+                        - name: M-klassen
+                          href: dev-ref/m-classes.md
+                        - name: N-klassen
+                          href: dev-ref/n-classes.md
+                        - name: O-klassen
+                          href: dev-ref/o-classes.md
+                        - name: P-klassen
+                          href: dev-ref/p-classes.md
+                        - name: Q-klassen
+                          href: dev-ref/q-classes.md
+                        - name: R-klassen
+                          href: dev-ref/r-classes.md
+                        - name: S-klassen
+                          href: dev-ref/s-classes.md
+                        - name: T-klassen
+                          href: dev-ref/t-classes.md
+                        - name: U-klassen
+                          href: dev-ref/u-classes.md
+                        - name: V-klassen
+                          href: dev-ref/v-classes.md
+                        - name: W-klassen
+                          href: dev-ref/w-classes.md
+                        - name: X-klassen
+                          href: dev-ref/x-classes.md
             - name: Uitbreidbaarheid
               items:
                 - name: Startpagina voor Uitbreidbaarheid
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B-gebruikers naar Azure AD exporteren
               href: sysadmin/implement-b2b.md
+            - name: Procesautomatisering
+              href: sysadmin/process-automation.md
             - name: Beveiliging
               items:
                 - name: Op rollen gebaseerde beveiliging
@@ -1458,6 +1460,8 @@
                   href: sysadmin/tasks/assign-users-security-roles.md
                 - name: Beveiligingsdiagnose voor taakregistraties
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Procesautomatisering
+              href: /sysadmin/process-automation.md
             - name: Batchverwerking
               items:
                 - name: Overzicht van Batchverwerking
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: Upgrade van AX 2012 - Gegevens bijwerken in sandbox-omgevingen
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: Upgrade van AX 2012 - on-premises-omgevingen
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Upgrade van AX 2012 - Cutover testen
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: Upgrade van AX 2012 - Taken na gegevensupgrade
