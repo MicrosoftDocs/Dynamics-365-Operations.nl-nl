@@ -3,7 +3,7 @@ title: Overzicht van de startpagina
 description: In dit onderwerp vindt u een overzicht van de startpagina in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025966"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527574"
 ---
-# <a name="overview-of-the-home-page"></a>Overzicht van de startpagina
-
+# <a name="home-page-overview"></a>Overzicht van de startpagina
 
 [!include [banner](includes/banner.md)]
 
@@ -67,9 +66,7 @@ In de hoofdsectie van de startpagina kunt u producten, categorieën of promoties
 > [!NOTE]
 > Alle modules die hier worden vermeld, kunnen op elke sitepagina worden gebruikt. De plaats op de startpagina is echter belangrijk, omdat klanten op deze pagina de eerste keer kennismaken met uw site.
 
-## <a name="additional-resources"></a>Aanvullende resources
-
-[Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten](category-search-page-overview.md)
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van de pagina met productgegevens](quick-tour-pdp.md)
 

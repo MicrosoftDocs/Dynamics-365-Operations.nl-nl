@@ -15,11 +15,11 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 05e6ccdce21ccc5f3e83ad860163cccadcea2edc
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 1cc1040393d843f39ca8c741a7c51435c7169c00
+ms.sourcegitcommit: edb46dce498df42b09e8f5ad6de00f86c8022dfa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
+ms.lasthandoff: 07/03/2020
 ms.locfileid: "3346417"
 ---
 # <a name="subcontracting"></a>Werk uitbesteden
@@ -211,7 +211,7 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
 
     ![Twee soorten werk voor orderverzameling van grondstoffen op de pagina Werk](./media/subcontract22_work-page.png)
 
-26. Start de magazijnbeheer-app om het magazijnwerk voor bewerking 10 te starten.
+26. Start de magazijn-app om het magazijnwerk voor bewerking 10 te starten.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -229,7 +229,7 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
 
     De status van de productieorder is nu **Gestart**. De materialen voor bewerking 10 worden verbruikt door een automatische boeking van het orderverzamellijstjournaal. Het tijdverbruik voor bewerking 10 wordt verantwoord door een automatische boeking van een routekaartjournaal.
 
-32. Start de magazijnbeheer-app om het magazijnwerk voor bewerking 20 te starten.
+32. Start de magazijn-app om het magazijnwerk voor bewerking 20 te starten.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 

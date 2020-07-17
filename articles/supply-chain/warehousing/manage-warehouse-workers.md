@@ -1,6 +1,6 @@
 ---
 title: Magazijnmedewerkers beheren
-description: In dit artikel wordt beschreven hoe u de Warehouse App van Dynamics 365 Supply Chain Management kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
+description: In dit artikel wordt beschreven hoe u de magazijnapp kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
 author: perlynne
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b143051ba39c74869d2ec56203ee4f1cda7268a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d8e7790fa8ab8d60d0e5fd8eb470d86d6728091b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205570"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530024"
 ---
 # <a name="manage-warehouse-workers"></a>Magazijnmedewerkers beheren
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u de Warehouse App van Dynamics 365 Supply Chain Management kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
+In dit artikel wordt beschreven hoe u de magazijnapp kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
 
 Als u de functionaliteit in Magazijnbeheer gebruikt, wordt naar alle bewerkingen van magazijnwerknemers verwezen als *werk*. Werk zoals het orderverzamelen, verplaatsen en tellen van voorhanden voorraad wort geregistreerd door mobiele apparaten te gebruiken. Voordat een magazijnwerknemer werk kan uitvoeren, moet hij of zij aan een werknemer in Human resources worden gekoppeld. Aan elk **Werknemer**-account kunnen meerdere magazijnwerkgebruikers zijn gekoppeld. Deze werkgebruikers kunnen in verschillende magazijnen werken en kunnen verschillende niveaus van toegang tot de verschillende menu's voor mobiele apparaten hebben. U kunt de gebruikers van het magazijnwerk zien als meerdere aanmeldingen voor de geselecteerde werknemer. Elke werkgebruiker heeft een standaardmagazijn en de specifieke workflows worden beschikbaar gemaakt door de menuopties die voor die werkgebruiker beschikbaar zijn. 
 

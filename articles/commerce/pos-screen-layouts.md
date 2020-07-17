@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261462"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505629"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Weergaveconfiguraties van POS-gebruikersinterface
 
@@ -101,7 +101,7 @@ Bij het opstarten selecteert de POS-toepassing automatisch de indelingsgrootte d
 > [!TIP]
 > U kunt de vereiste indelingsgrootte voor een POS-scherm achterhalen door de resolutie in de app te bekijken. Start het POS en ga naar **Instellingen \> Sessie-informatie**. In het POS worden de momenteel geladen schermindeling, de indelingsgrootte en de resolutie van het app-venster weergegeven.
 
-![POS-indelingsgrootten](../commerce/media/POS-Session-Information.png)
+![Pagina met informatie voor de POS-sessie, met de momenteel geladen schermindeling, de indelingsgrootte en de resolutie van het app-venster](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Knoppenrasters
 

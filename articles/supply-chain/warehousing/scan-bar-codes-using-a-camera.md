@@ -1,6 +1,6 @@
 ---
-title: Streepjescodes scannen met een camera in de Dynamics 365 for Finance and Operations - Warehousing-app
-description: In dit onderwerp wordt uitgelegd hoe u Dynamics 365 for Finance and Operations – Warehousing-app instelt voor het scannen van streepjescodes met een camera op een mobiel apparaat.
+title: Streepjescodes scannen met een camera in de magazijnapp
+description: In dit onderwerp wordt uitgelegd hoe u magazijnapp instelt voor het scannen van streepjescodes met een camera op een mobiel apparaat.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 01/03/2018
@@ -17,26 +17,26 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 9d3b807b18a0a9c7d24763a2a2a7ea9eccf9c2bb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fd4818ab936e1c93000793da756c97df6d05b2a9
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205849"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530001"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Streepjescodes scannen met een camera in de Dynamics 365 Supply Chain Management - Warehousing-app
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Streepjescodes scannen met een camera in de magazijnapp
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u Dynamics 365 for Finance and Operations – Warehousing-app instelt voor het scannen van streepjescodes met een camera op een mobiel apparaat. 
+In dit onderwerp wordt uitgelegd hoe u magazijnapp instelt voor het scannen van streepjescodes met een camera op een mobiel apparaat. 
 
 ## <a name="prerequisites"></a>Vereisten
-Als u deze functie wilt gebruiken, moet u versie 1.2.0.0 van de Warehousing-app hebben geïnstalleerd en moet u over een apparaat met camera beschikken. Wanneer u de app opent nadat u deze hebt bijgewerkt, wordt u gevraagd om de app toe te staan de camera te gebruiken. Als uw apparaat geen camera heeft, wordt deze vraag niet weergegeven en kunt u geen camera als scanner gebruiken. 
+Als u deze functie wilt gebruiken, moet u versie 1.2.0.0 van de magazijnapp hebben geïnstalleerd en moet u over een apparaat met camera beschikken. Wanneer u de app opent nadat u deze hebt bijgewerkt, wordt u gevraagd om de app toe te staan de camera te gebruiken. Als uw apparaat geen camera heeft, wordt deze vraag niet weergegeven en kunt u geen camera als scanner gebruiken. 
 
-## <a name="setup"></a>Instelling
-In de weergave-instellingen van de toepassing Warehousing kunt u opgeven of de camera moet worden gebruikt voor het scannen van streepjescodes. Als u **De camera gebruiken als scanner** inschakelt, kunt u de camera gebruiken voor elk invoerveld waarvoor **Scannen** is ingesteld als voorkeursmethode voor invoer. 
+## <a name="setup"></a>Instellen
+In de weergave-instellingen van de magazijnapp kunt u opgeven of de camera moet worden gebruikt voor het scannen van streepjescodes. Als u **De camera gebruiken als scanner** inschakelt, kunt u de camera gebruiken voor elk invoerveld waarvoor **Scannen** is ingesteld als voorkeursmethode voor invoer. 
 
-U bepaalt of een invoerveld te scannen moet zijn door op de pagina **Veldnamen van Warehouse-app** de **Geprefereerde invoermethode** in te stellen op **Scannen**. Wanneer deze optie is geselecteerd, kan een camera als scanner worden gebruikt in de app Warehousing. Zie [Veldnamen in magazijnapp configureren](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse) voor meer informatie over het configureren van appveldnamen in Warehousing.
+U bepaalt of een invoerveld te scannen moet zijn door op de pagina **Veldnamen van Warehouse-app** de **Geprefereerde invoermethode** in te stellen op **Scannen**. Wanneer deze optie is geselecteerd, kan een camera als scanner worden gebruikt in de magazijnapp. Zie [Veldnamen in magazijnapp configureren](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse) voor meer informatie over het configureren van appveldnamen in de magazijnapp.
 
 ## <a name="supported-bar-code-formats"></a>Ondersteunde indelingen voor streepjescodes
 De meest gangbare streepjescode-indelingen worden ondersteund, waaronder Code 128, Code 39, Code 93, EAN-8, EAN-13, UPC-E, UPC-A en QR-codes. 

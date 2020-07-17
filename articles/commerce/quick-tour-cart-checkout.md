@@ -3,7 +3,7 @@ title: Overzicht van pagina's met winkelwagen en kassa
 description: In dit onderwerp vindt u een overzicht van de pagina's met winkelwagen en kassa in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002930"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527557"
 ---
-# <a name="overview-of-cart-and-checkout-pages"></a>Overzicht van pagina's met winkelwagen en kassa
-
+# <a name="cart-and-checkout-pages-overview"></a>Overzicht van pagina's met winkelwagen en kassa
 
 [!include [banner](includes/banner.md)]
 
@@ -101,11 +100,9 @@ Nadat een order is gemaakt, wordt een e-mailbericht voor een orderbevestiging na
 
 Zie [Een kassamodule aan een pagina toevoegen](add-checkout-module.md) voor informatie over het maken van een kassapagina.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van de startpagina](quick-tour-home-page.md)
-
-[Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten](category-search-page-overview.md)
 
 [Overzicht van de pagina met productgegevens](quick-tour-pdp.md)
 

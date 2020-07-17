@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025920"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527534"
 ---
-# <a name="overview-of-product-details-pages"></a>Overzicht van de pagina met productgegevens
-
+# <a name="product-details-pages-overview"></a>Overzicht van de pagina met productgegevens
 
 [!include [banner](includes/banner.md)]
 
@@ -80,11 +79,9 @@ Zie voor meer informatie [Overzicht beoordelingen en recensies](ratings-reviews-
 
 Als marketinginhoud uniek is voor een specifiek product, kan elke marketingmodule aan de PDP worden toegevoegd. U kunt marketingmodules toevoegen aan een PDP door de pagina te verrijken. Zie [Een productpagina verrijken](enrich-product-page.md) voor meer informatie.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van de startpagina](quick-tour-home-page.md)
-
-[Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten](category-search-page-overview.md)
 
 [Overzicht van pagina's met winkelwagen en kassa](quick-tour-cart-checkout.md)
 

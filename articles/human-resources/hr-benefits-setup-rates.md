@@ -3,7 +3,7 @@ title: Tarieven configureren
 description: Tarieven in Microsoft Dynamics 365 Human Resources bepalen hoeveel werkgevers en werknemers bijdragen voor een vergoeding.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c90a45b79f2a383f0ace0cb07e791f6613d7a3c3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
+ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429906"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497351"
 ---
 # <a name="configure-rates"></a>Tarieven configureren
 
@@ -75,15 +75,15 @@ U kunt ook dubbele niveaus gebruiken. Als u **Dubbel niveau** selecteert voor de
 
 3. Geef de waarden op voor de volgende velden:
 
-   | Veld | Beschrijving |
+   | Veld | Omschrijving |
    | --- | --- | 
-   | **Beschrijving** | De waarde van het veld Beschrijving wordt toegepast vanuit de beschrijving in de record met tariefinstellingen. Dit helpt u bij het vaststellen aan welke tariefinstellingen de niveautarieven zijn gekoppeld. |
+   | **Beschrijving** | De waarde van het veld **Beschrijving** wordt toegepast vanuit de beschrijving in de record met tariefinstellingen. Dit helpt u bij het vaststellen aan welke tariefinstellingen de niveautarieven zijn gekoppeld. |
    | **Laagcode** | Selecteer een laagcode. Laagcodes worden gedefinieerd in het formulier Laagcodes. Het systeem geeft automatisch de beschrijving weer van de laagcode in het raster aan de linkerkant. |
-   | **Niveautype** | Geeft aan welk veld moet worden gebruikt als een selectiecriterium voor het berekeningsproces van het niveautarief. Bijvoorbeeld:</br></br><ul><li>Als Leeftijd wordt gebruikt, gebruikt het systeem de geboortedatum van de werknemer in het berekeningsproces voor het vergoedingstarief.</li><li>Als Salaris wordt gebruikt, gebruikt het systeem het jaarlijks vergoedingssalaris van de werknemer in het berekeningsproces voor het vergoedingstarief.</li><li>Als Functietype wordt gebruikt, wordt in het systeem de huidige actieve positierecord van de werknemer gebruikt om het functietype te bepalen op basis van de functierecord die aan de positie is gekoppeld.</li></ul></br></br>De niveautypen zijn Leeftijd, Salaris, Fysiek, Geslacht, Voltijdse equivalent, Functietype, Compensatieregio en Niveau. | 
-   | **Niveau** | De waarde die moet worden gebruikt bij het niveautype tijdens het berekeningsproces voor het vergoedingstarief. Bijvoorbeeld:</br></br><ul><li>Als het niveautype Leeftijd is, is dit de leeftijdswaarde.</li><li>Als het niveautype Salaris is, is dit het salarisbedrag.</li><li> Als het niveautype Functietype is, is dit het functietype.</li></ul></br></br>Bij een niveautype Leeftijd of Salaris gebruikt het systeem een oplopende benadering bij het selecteren van het niveautarief. Dit betekent dat de waarde in het veld Niveau de ondergrens van het niveau vertegenwoordigt. Bij een nvieautype van Functietype gebruikt het systeem de exacte overeenkomst bij het selecteren van het niveautarief. |
+   | **Niveautype** | Geeft aan welk veld moet worden gebruikt als een selectiecriterium voor het berekeningsproces van het niveautarief. Bijvoorbeeld:</br></br><ul><li>Als **Leeftijd** wordt gebruikt, gebruikt het systeem de geboortedatum van de werknemer in het berekeningsproces voor het vergoedingstarief.</li><li>Als **Salaris** wordt gebruikt, gebruikt het systeem het jaarlijks vergoedingssalaris van de werknemer in het berekeningsproces voor het vergoedingstarief.</li><li>Als **Functietype** wordt gebruikt, wordt in het systeem de huidige actieve positierecord van de werknemer gebruikt om het functietype te bepalen op basis van de functierecord die aan de positie is gekoppeld.</li></ul></br></br>De niveautypen zijn **Leeftijd**, **Salaris**, **Fysiek**, **Geslacht**, **Voltijdse equivalent**, **Functietype**, **Compensatieregio** en **Niveau**. | 
+   | **Niveau** | De waarde die moet worden gebruikt bij het niveautype tijdens het berekeningsproces voor het vergoedingstarief. Bijvoorbeeld:</br></br><ul><li>Als het niveautype **Leeftijd** is, is dit de leeftijdswaarde.</li><li>Als het niveautype **Salaris** is, is dit het salarisbedrag.</li><li> Als het niveautype **Functietype** is, is dit het functietype.</li></ul></br></br>Met het niveautype **Leeftijd** of **Salaris** staat de waarde in het veld **Niveau** voor de bovengrens van het niveau. Bij een niveautype van **Functietype** gebruikt het systeem de exacte overeenkomst bij het selecteren van het niveautarief. |
    | **Berekeningstype** | Geeft aan hoe het bedrag in het veld voor het berekeningsbedrag moet worden gebruikt en welke formuleberekening moet worden uitgevoerd, indien nodig. Als het berekeningstype een vast bedrag is, gebruikt het systeem de bedragvelden in ongewijzigde vorm. Als het berekeningstype een bedrag per $ is van het salaris of de dekking, gebruikt het systeem het berekeningsbedrag en de berekeningsrichting bij de rekenkundige berekening.</br></br>Als het berekeningstype een bedrag per $ van het salaris is, gebruikt het systeem de volgende rekenkundige vergelijking:</br></br>Jaarlijks vergoedingssalaris gedeeld door het berekeningsbedrag (naar boven of naar beneden afgerond) maal de bedragen voor rokers of niet-rokers voor werknemer of werkgever.</br></br>Als het berekeningstype een bedrag per $ van de dekking is, gebruikt het systeem de volgende rekenkundige vergelijking:</br></br>Dekkingsbedrag gedeeld door het berekeningsbedrag (naar boven of naar beneden afgerond) maal de bedragen voor rokers of niet-rokers voor werknemer of werkgever.</br></br>In beide berekeningen wordt de berekeningsrichting gebruikt om te bepalen of het jaarlijkse vergoedingssalaris of het dekkingsbedrag gedeeld door het bedrag van de berekening naar boven of beneden moet worden afgerond. |
    | **Bedrag van berekening** | Het bedrag dat moet worden gebruikt tijdens het berekeningsproces van het vergoedingstarief. Dit bedrag is de deler tijdens de rekenkundige berekening van het niveautarief. |
-   | **Richting van berekening** | De richting (Verhogen of Verlagen) waarin het berekende resultaatbedrag moet worden afgerond. Het systeem ondersteunt drie berekeningsrichtingen: Leeg (exacte methode), Verhogen en Verlagen.</br></br><ul><li>Als dit veld leeg is, wordt de exacte berekening van het bedrag per salaris/dekkingsbedrag gebruikt, gedeeld door het bedrag van de berekening. Als deze waarde een breuk bevat, wordt deze door het systeem gebruikt in de berekening.</li><li>Bij Verhogen verhoogt het systeem de rekenkundige berekening van het salaris/dekkingsbedrag gedeeld door het bedrag van de berekening naar het volgende gehele getal, wat betekent dat 12,25 zou worden verhoogd naar 13.</li><li>Bij Verlagen verlaagt het systeem de rekenkundige berekening van het salaris/dekkingsbedrag gedeeld door het bedrag van de berekening naar het huidige gehele getal, wat betekent dat 12,25 zou worden verlaagd naar 12.</li></ul> |
+   | **Richting van berekening** | De richting waarin het berekende resultaatbedrag moet worden afgerond. Het systeem ondersteunt drie berekeningsrichtingen: leeg (exacte methode), **Verhogen** en **Verlagen**.</br></br><ul><li>Als dit veld leeg is, wordt de exacte berekening van het bedrag per salaris/dekkingsbedrag gebruikt, gedeeld door het bedrag van de berekening. Als deze waarde een breuk bevat, wordt deze door het systeem gebruikt in de berekening.</li><li>Bij **Verhogen** verhoogt het systeem de rekenkundige berekening van het salaris/dekkingsbedrag gedeeld door het bedrag van de berekening naar het volgende gehele getal, wat betekent dat 12,25 wordt verhoogd naar 13.</li><li>Bij **Verlagen** verlaagt het systeem de rekenkundige berekening van het salaris/dekkingsbedrag gedeeld door het bedrag van de berekening naar het huidige gehele getal, wat betekent dat 12,25 wordt verlaagd naar 12.</li></ul> |
    | **Werknemersbedrag niet-roker** | Het bedrag dat een vergoedingsprovider berekent voor een werknemer die niet rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dit moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |
    | **Werkgeversbedrag niet-roker** | Het bedrag dat een vergoedingsprovider berekent voor een werknemer die niet rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dit moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |
    | **Werknemersbedrag roker** | Het bedrag dat een vergoedingsprovider berekent voor een werknemer die niet rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dit moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |

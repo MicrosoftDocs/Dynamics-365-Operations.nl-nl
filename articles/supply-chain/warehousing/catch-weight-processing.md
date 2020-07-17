@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5a751b360b2da8f786dd7b8d139e1a0a44052894
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211969"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530530"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
@@ -107,7 +107,7 @@ En als een artikel labeltracering heeft, is er een parameter voor de **methode v
 **Als gebruik wordt gemaakt van het bijhouden van catch weight-labels**, moet altijd een label worden gemaakt voor elke catch weight-eenheid die wordt ontvangen, en elk label moet altijd worden gekoppeld aan een gewicht.
 
 Bijvoorbeeld: **Doos** is de catch weight-eenheid en u ontvangt een pallet van acht dozen. In dit geval moeten acht unieke catch weight-labels worden gemaakt en aan elk label moet een gewicht worden gekoppeld. Afhankelijk van het inkomende catch weight-label, kan het totale gewicht van alle acht dozen worden vastgelegd en het gemiddelde gewicht kan vervolgens toebedeeld worden aan elke doos, of er kan een uniek gewicht voor elke doos worden vastgelegd.
-Wanneer u de functie **Bestaande codes voor catch weight gebruiken bij het gereedmelden van productieorders** gebruikt terwijl het proces via een menuopdracht op een mobiel apparaat is ingeschakeld, wordt de voorraad bijgewerkt op basis van bestaande codegegevens voor catch weight. Hierdoor wordt in de Magazijnbeheer-app niet gevraagd om de catch weight-codegegevens vast te leggen als onderdeel van een productielijst voor voltooide bewerkingen.
+Wanneer u de functie **Bestaande codes voor catch weight gebruiken bij het gereedmelden van productieorders** gebruikt terwijl het proces via een menuopdracht op een mobiel apparaat is ingeschakeld, wordt de voorraad bijgewerkt op basis van bestaande codegegevens voor catch weight. Hierdoor wordt in de magazijnbeheer-app niet gevraagd om de catch weight-codegegevens vast te leggen als onderdeel van een productielijst voor voltooide bewerkingen.
 
 **Als geen gebruik wordt gemaakt van het bijhouden van catch weight-labels** dan kan het gewicht worden vastgelegd voor elke dimensieset (bijvoorbeeld voor elke nummerplaat en traceringsdimensie). Het gewicht kan ook worden vastgelegd op basis van een samengevoegd niveau, zoals vijf nummerplaten (pallets).
 
@@ -195,7 +195,7 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
 
 ### <a name="catch-weight-tags"></a>Catch weight-labels
 
-Een catch weight-label kan worden gemaakt via een magazijn-app-proces, het kan handmatig in het formulier worden gemaakt of het kan worden gemaakt met een gegevensentiteitproces. Als een catch weight-label is gekoppeld aan een documentregel van een inkomende bron, zoals een inkooporderregel, wordt het label geregistreerd. Als de regel wordt gebruikt voor uitgaande verwerking, wordt het label bijgewerkt als verzonden.
+Een catch weight-label kan worden gemaakt via een magazijnapp-proces, het kan handmatig in het formulier worden gemaakt of het kan worden gemaakt met een gegevensentiteitproces. Als een catch weight-label is gekoppeld aan een documentregel van een inkomende bron, zoals een inkooporderregel, wordt het label geregistreerd. Als de regel wordt gebruikt voor uitgaande verwerking, wordt het label bijgewerkt als verzonden.
 
 Naast de beperkingen die momenteel van toepassing zijn op catch weight-producten hebben gelabelde catch weight-producten nog andere beperkingen die momenteel van toepassing zijn.
 

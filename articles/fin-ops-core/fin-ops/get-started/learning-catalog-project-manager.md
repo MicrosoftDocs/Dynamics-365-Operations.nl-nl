@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7521784931cc4aac5a7e7729d045e501cba9460e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: b310b787906850a60c9e2a453ce2d13330dad212
+ms.sourcegitcommit: 26399aafe2b02732c79073455f5bc9ac07bab4b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278959"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "3502108"
 ---
 # <a name="implementation-project-manager-learning-catalog"></a>Trainingscatalogus voor projectmanager implementeren
 
@@ -29,7 +29,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | Inhoud | Omschrijving  | Indeling  | Lengte    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
 | [De bedrijfswaarde van Microsoft Dynamics 365 en Power Platform leren kennen](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Wilt u graag meer weten over zakelijke toepassingen? Misschien weet u niet waar u moet beginnen de toepassingen Microsoft Dynamics 365 en Power Platform? Lees hoe de kracht van zakelijke toepassingen uw bedrijf kan helpen transformeren. | Gratis online leertraject voor zelfstudie   | 7 uur   |
-| [Grondbeginselen van Dynamics 365 en Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/ | Wilt u graag meer weten over zakelijke toepassingen? Begin met dit leertraject om te zien hoe Dynamics 365-apps worden gebruikt. Lees over cloudconcepten, Power Platform en hoe u aan de slag gaat met Dynamics 365-apps. | Gratis online leertraject voor zelfstudie   | 5.5 uur |
+| [Grondbeginselen van Dynamics 365 en Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Wilt u graag meer weten over zakelijke toepassingen? Begin met dit leertraject om te zien hoe Dynamics 365-apps worden gebruikt. Lees over cloudconcepten, Power Platform en hoe u aan de slag gaat met Dynamics 365-apps. | Gratis online leertraject voor zelfstudie   | 5.5 uur |
 | [Aan de slag met Finance and Operations-apps](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)  | Leer hoe Finance and Operations-apps bedrijven ondersteunen om hun algemene financiële systemen, operationele bedrijfsprocessen en gestroomlijnde toeleveringsketens te beheren om mensen te helpen snelle en gefundeerde beslissingen te nemen. Als eerste stap bij het werken met Finance and Operations-apps moet u vertrouwd raken met de voorzieningen en de functionaliteit, ongeacht uw gewenste rol. | Gratis online leertraject voor zelfstudie   | 2 uur   |
 | [Voordat u gaat kopen](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy)  | Bekijk de stapsgewijze instructies opgesteld voor als u Finance and Operations nog aan het evalueren bent of al klaar bent om tot aanschaf over te gaan.| Documentatie  |           |
 | [Vrijgaveplan](https://docs.microsoft.com/dynamics365/release-plans/)  | Ontdek de nieuwste mogelijkheden en uitbreidingen van Dynamics 365  | Documentatie  |           |

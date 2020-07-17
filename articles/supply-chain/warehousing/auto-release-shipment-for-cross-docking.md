@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2d8d6e67040f19cac99f8e0164296ef49768496e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201474"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530231"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automatische vrijgave van zending voor cross-docken
 
@@ -164,7 +164,7 @@ Voer de volgende stappen uit om de hoeveelheid gereed product te cross-docken na
 8. Selecteer op de pagina **Productieorder** in het actievenster, op het tabblad **Productieorder** in de groep **Proces** de optie **Raming** en selecteer vervolgens **OK**. De order wordt geraamd en de hoeveelheid van de grondstof wordt gereserveerd voor de productie.
 9. Selecteer in het actievenster op het tabblad **Productieorder** in de groep **Proces** de optie **Vrijgave** en selecteer vervolgens **OK**. Er wordt verzamelwerk in het magazijn gemaakt voor de grondstoffen.
 10. Open en controleer het werk. Selecteer in het actievenster op het tabblad **Magazijn** in de groep **Algemeen** de optie **Werkgegevens**. Noteer de werk-id.
-11. Open en meld u aan bij de app Dynamics 365 for Finance and Operations – Magazijnbeheer om werkzaamheden uit te voeren in magazijn 51.
+11. Meld u aan bij de Magazijnbeheer-app om werkzaamheden uit te voeren in magazijn 51.
 12. Ga naar **Productie** \> **Productieverzamelen**.
 13. Voer de werk-id in om de orderverzameling van grondstoffen te starten en te voltooien. 
 

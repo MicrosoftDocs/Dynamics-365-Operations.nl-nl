@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346463"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530300"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Beleid voor flexibele dimensiereservering op magazijnniveau
 
@@ -186,7 +186,7 @@ Voor dit voorbeeld moeten demogegevens worden geïnstalleerd en moet u het **USM
 
     De hoeveelheid van **10** voor batchnummer **B11** wordt nu gepickt voor de verkooporderregel en geplaatst op de **Baydoor**-locatie. Het is nu klaar om te worden geladen op de vrachtwagen en naar het adres van de klant te worden verzonden.
 
-## <a name="exception-handling-of-warehouse-work-thas-has-order-committed-batch-numbers"></a>Afhandeling van uitzonderingen van magazijnwerk dat order-toegezegde batchnummers heeft
+## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Afhandeling van uitzonderingen van magazijnwerk dat aan orders toegezegde batchnummers heeft
 
 Magazijnwerk voor picken van order-toegezegde batchnummers valt onder dezelfde standaardverwerking van uitzonderingen en acties als regulier werk. In het algemeen kan het openstaande werk of de openstaande werkregel worden geannuleerd, kan het worden onderbroken omdat de locatie van een gebruiker vol is, kan het kort worden verzameld en kan het worden bijgewerkt als gevolg van een verplaatsing. De gepickte hoeveelheid werk die al is voltooid, kan ook worden verminderd of het werk kan ongedaan worden gemaakt.
 
@@ -233,7 +233,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Overschrijven locatie</strong> in de magazijnbeheer-app wanneer u pickwerk start.</li>
+<li>Selecteer de menuoptie <strong>Locatie overschrijven</strong> in de magazijnbeheer-app wanneer u pickwerk start.</li>
 <li>Selecteer <strong>Voorstellen</strong>.</li>
 <li>Bevestig de nieuwe locatie die is voorgesteld op basis van de beschikbaarheid van de batchhoeveelheid.</li>
 </ol>
@@ -250,7 +250,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>No</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Overschrijven locatie</strong> in de magazijnbeheer-app wanneer u pickwerk start.</li>
+<li>Selecteer de menuoptie <strong>Locatie overschrijven</strong> in de magazijnbeheer-app wanneer u pickwerk start.</li>
 <li>Voer handmatig een locatie in.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Niet van toepassing</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Volledig</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
+<li>Selecteer de menuoptie <strong>Volledig</strong> in de magazijnbeheer-app wanneer u verzamelwerk verwerkt.</li>
 <li>Voer in het veld <strong>Verzamelhoeveelheid</strong> een gedeeltelijke hoeveelheid van de vereiste pick in om de volledige capaciteit aan te geven.</li>
 </ol>
 </td>

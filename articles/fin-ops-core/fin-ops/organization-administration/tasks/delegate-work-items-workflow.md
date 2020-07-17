@@ -1,9 +1,9 @@
 ---
 title: Werkitems in een workflow delegeren
 description: Als u gedurende niet op kantoor aanwezig zult zijn of als u niet beschikbaar bent om werkitems op te volgen, kunt u uw werkitems aan andere gebruikers delegeren of toewijzen.
-author: jasongre
+author: ChrisGarty
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/23/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: jasongre
+ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aceafbe8dfcdac2ac7b97a4f77a9a30599c60c51
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
+ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140577"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3515759"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Werkitems in een workflow delegeren
 
@@ -30,6 +30,16 @@ ms.locfileid: "3140577"
 ## <a name="manually-delegate-a-work-item"></a>Een werkitem handmatig delegeren
 
 Als u een afzonderlijk werkitem wilt delegeren, selecteert u de optie **Delegeren** in het menu **Workflow** en voert u vervolgens de gebruiker in die moet worden gedelegeerd samen met een opmerking. Hiermee wordt het werkitem aan die gebruiker opnieuw toegewezen zodat het kan worden voltooid.
+
+## <a name="manually-delegate-multiple-work-items"></a>Meerdere werkitems handmatig delegeren
+
+U kunt meerdere werkitems delegeren via de pagina **Aan mij toegewezen werkitems**. De volgende werkstroomtypen komen in aanmerking voor bulkdelegering: Goedkeuringswerkstroom inkoopovereenkomst, Inkooporderwerkstroom, Controle inkoopbestelopdracht en Leveranciersfactuurwerkstroom. De functie **Meerdere werkitems delegeren** is standaard uitgeschakeld en kan worden ingeschakeld in **Werkruimten > Functiebeheer**. Neem contact op met uw systeembeheerder voor hulp bij het inschakelen van deze functie.
+1.  Naar **Algemeen > Algemeen > Werkitems > Aan mij toegewezen werkitems**.
+2.  Selecteer de werkitems die u wilt delegeren.
+3.  Klik op het menu **Werkitems delegeren**.
+4.  Selecteer in het veld **Gebruiker** de gebruiker aan wie u werkitems wilt delegeren.
+5.  Voer in het veld **Opmerking** tekst in met uw reden voor het delegeren van de werkitems.
+6.  Klik op de knop **Werkitems delegeren** om het delegeren van het werkitem te voltooien.
 
 ## <a name="automatically-delegate-work-items"></a>Werkitems automatisch delegeren
 
@@ -47,5 +57,5 @@ Als u van plan bent om buiten kantoor te zijn of anderszins niet beschikbaar ben
 6. Typ in het veld **Begindatum/-tijd** de datum en een tijd.
 7. Typ in het veld **Einddatum** de datum en een tijd.
 8. Schakel het selectievakje **Ingeschakeld** in om de machtigingsregel te activeren. Als u onder Bereik de waarde **Module** hebt geselecteerd, moet u de module selecteren in het veld Naam. Als u onder Bereik de waarde **Workflow** hebt geselecteerd, moet u in het veld Naam de workflow selecteren die u wilt delegeren.  
-9. Voer in het veld **Opmerking** tekst in waaruit uw reden voor het delegeren van de werkitems blijkt.
+9. Voer in het veld **Opmerking** tekst in met uw reden voor het delegeren van de werkitems.
 

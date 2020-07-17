@@ -1,6 +1,6 @@
 ---
-title: Nummerplaat ontvangen via de magazijnbeheer-app
-description: In dit onderwerp wordt uitgelegd hoe u de magazijnbeheer-app kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
+title: Nummerplaat ontvangen via de magazijnapp
+description: In dit onderwerp wordt uitgelegd hoe u de magazijnapp kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
 author: perlynne
 manager: tfehr
 ms.date: 04/29/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.openlocfilehash: 5330981bde98b80e81076a9b1416473135ebdac6
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410880"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530185"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-app"></a>Nummerplaat ontvangen via de magazijnbeheer-app
+# <a name="license-plate-receiving-via-the-warehouse-app"></a>Nummerplaat ontvangen via de magazijnapp
 
-In dit onderwerp wordt uitgelegd hoe u de magazijnbeheer-app kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
+In dit onderwerp wordt uitgelegd hoe u de magazijnapp kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
 
 Met deze functie kunt u snel de ontvangst van de inkomende voorraad vastleggen die is gerelateerd aan een voorschotbericht (advance shipping notice, ASN). Het systeem maakt automatisch een ASN wanneer magazijnbeheerprocessen worden gebruikt om een transferorder te verzenden. Voor het inkooporderproces kan een ASN handmatig worden vastgelegd of kan deze automatisch worden geïmporteerd met behulp van een inkomend ASN-gegevensentiteitproces.
 

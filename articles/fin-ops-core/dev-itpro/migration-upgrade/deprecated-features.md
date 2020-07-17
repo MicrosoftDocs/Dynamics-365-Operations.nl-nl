@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte functies in eerdere releases
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die gepland zijn om te verwijderen uit Dynamics 365 for Finance and Operations en eerdere versies van dat product.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
+ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284009"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3500407"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
@@ -182,7 +182,7 @@ Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het pro
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De functionaliteit wordt altijd ingeschakeld nadat de parameter is verwijderd. |
 | **Vervangen door een andere functie?**   | Nr. De functionaliteit om projectgebaseerde verkooporders met meerdere financieringsbronnen te ondersteunen, wordt altijd ingeschakeld.   |
-| **Betrokken productgebieden**         |De parameter **Verkooporders voor projecten met meerdere financieringsbronnen** wordt verwijderd. De volgende methoden worden gewijzigd wanneer de parameter wordt verwijderd: de methode **ctrlSalesOrderTable** in de klasse **ProjStatusType**, de methode **validate** voor het veld **ProjId** en de methode **run** in het formulier **SalescreateOrder**. De volgende methoden worden afgeschaft wanneer de parameter wordt verwijderd: **IsSalesOrderAllowedForMultipleFundingSources** in tabelbestand **ProjTable**, de methode **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** in tabelbestand **ProjTable**, het gegevensveld **AllowSalesOrdersForMultipleFundingSources** in het formulier **ProjParameters** en **ProjParameterEntity**-bestanden, de persoonlijke methode **IsAssociatedToMultipleFundingSourcesContract** in het tabelbestand**ProjTable**. |
+| **Betrokken productgebieden**         |De parameter **Verkooporders voor projecten met meerdere financieringsbronnen** wordt verwijderd. De volgende methoden worden gewijzigd wanneer de parameter wordt verwijderd: de methode **ctrlSalesOrderTable** in de klasse **ProjStatusType**, de methode **validate** voor het veld **ProjId** en de methode **run** in het formulier **SalescreateOrder**. De volgende methoden worden afgeschaft wanneer de parameter wordt verwijderd: **IsSalesOrderAllowedForMultipleFundingSources** in tabelbestand **ProjTable**, de methode **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** in tabelbestand **ProjTable**, het gegevensveld **AllowSalesOrdersForMultipleFundingSources** in het formulier **ProjParameters** en **ProjParameterEntity**-bestanden, de persoonlijke methode **IsAssociatedToMultipleFundingSourcesContract** in het tabelbestand **ProjTable**. |
 | **Implementatieoptie**              | Alle  |
 | **Status**                         | Afschaffinf is gepland voor rijving is voor de releasewave van april 2020. |
 
@@ -588,7 +588,7 @@ eGiro is gebaseerd op de internationale UN-standaard EDIFACT CREMUL (Multiple Cr
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De betalingsindeling wordt niet meer gebruikt.                                                     |
-| **Vervangen door een andere functie?**   | Nr. De indeling wordt vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
+| **Vervangen door een andere functie?**   | Ja, het importeren van ISO20022 Camt.054-meldingen. |
 | **Betrokken productgebieden**         | Debiteuren                                                                       |
 | **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie.                            |
 
@@ -621,7 +621,7 @@ U kunt een importindeling voor Finse betalingen selecteren om de transacties van
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De betalingsindeling wordt niet meer gebruikt.                                                     |
-| **Vervangen door een andere functie?**   | Nr. De indeling wordt vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
+| **Vervangen door een andere functie?**   | Ja, het importeren van ISO20022 Camt.054-meldingen. |
 | **Betrokken productgebieden**         | Debiteuren                                                                       |
 | **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie.                            |
 
@@ -632,7 +632,7 @@ Een indeling die specifiek is voor Finland, wordt gebruikt voor het importeren v
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De betalingsindeling wordt niet meer gebruikt.                                                     |
-| **Vervangen door een andere functie?**   | Nr. De indeling wordt vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
+| **Vervangen door een andere functie?**   | Ja, het importeren van ISO20022 Camt.053-bankafschriften met geavanceerde bankafstemming. |
 | **Betrokken productgebieden**         | Debiteuren                                                                       |
 | **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie.                            |
 
@@ -698,7 +698,7 @@ De indelingen Telehansa en TeleTeenus worden gebruikt voor het importeren van ba
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De betalingsindelingen worden niet meer gebruikt.                                                    |
-| **Vervangen door een andere functie?**   | Nr. De indelingen worden vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
+| **Vervangen door een andere functie?**   | Ja, het importeren van ISO20022 Camt.054-bankmeldingen. |
 | **Betrokken productgebieden**         | Debiteuren                                                                        |
 | **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie.                             |
 
@@ -784,7 +784,7 @@ De Telepay-betalingsindelingen omvatten export van leveranciersbetalingen (kredi
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De betalingsindelingen worden niet meer gebruikt.                                                        |
-| **Vervangen door een andere functie?**   | Ja, ISO20022-betalingsindeling voor kredietoverdracht en AvtaleGiro-klantbetalingen voor Noorwegen |
+| **Vervangen door een andere functie?**   | Ja, het importeren van de ISO20022-indeling voor kredietoverdrachtbetalingen en Indeling voor AvtaleGiro-klantbetalingen voor Noorwegen, evenals retourbestanden voor pain.002- en camt.054-bankmeldingen importeren. |
 | **Betrokken productgebieden**         | Leveranciers, Klanten                                                          |
 | **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie.                                 |
 
@@ -1125,13 +1125,13 @@ Het genereren van voorafmeldingen kan niet worden uitgevoerd door een batch te g
 | **Betrokken productgebieden**         | Alle modules  |
 | **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie. |
 
-### <a name="german-dtazv-payment-format"></a>Indeling van Duitse DTAZV-betalingen
+### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Indeling van Duitse DTAZV-betalingen in binnenlandse valuta
 
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De indeling is niet meer geldig in Duitsland omdat het is vervangen door de functionaliteit voor de gemeenschappelijke betalingsruimte voor de euro (SEPA). |
 | **Vervangen door een andere functie?**   | SEPA-betalingen exporteren    |
-| **Betrokken productgebieden**         | Alle modules   |
+| **Betrokken productgebieden**         | Crediteuren   |
 | **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie.    |
 
 ### <a name="german-mt940-import"></a>Duitse MT940-import

@@ -3,7 +3,7 @@ title: Bankafschriften afstemmen via geavanceerde bankafstemming
 description: Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 Finance. In dit onderwerp wordt het afstemmingsproces uitgelegd.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37cf8d83c7134ae65da6a885bffeb01d16f9f06
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177184"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497140"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Bankafschriften afstemmen via geavanceerde bankafstemming
 
@@ -41,9 +41,9 @@ U kunt een bankafschrift uploaden dat informatie bevat voor één rekening of vo
 -   Als u een enkel bankafschriftbestand wilt importeren voor een enkele rekening, stelt u de optie **Afschrift importeren voor meerdere bankrekeningen in alle rechtspersonen** in op **Nee** en selecteert u de bankrekening die is gekoppeld aan het afschrift. Klik op **Bladeren** om het bijbehorende bankafschriftbestand te selecteren en klik vervolgens op **Uploaden**.
 -   Als u een enkel bankafschriftbestand wilt importeren voor meerdere rekeningen, stelt u de optie **Afschrift importeren voor meerdere bankrekeningen in alle rechtspersonen** in op **Ja**. Klik op **Bladeren** om het bijbehorende bankafschriftbestand te selecteren en klik vervolgens op **Uploaden**.
 
-Als afschriften in het elektronisch bestand niet aan een bankrekening kunnen worden gekoppeld door middel van de identificatievelden, worden deze niet geïmporteerd. Andere afschriften in het bestand kunnen echter nog wel worden geïmporteerd. De gebruiker ontvangt een bericht waarin wordt gemeld dat het importeren van bankafschriften voor specifieke bankrekeningen niet is geslaagd. Let erop dat de gebruiker die het bankafschriftbestand importeert, toegang tot een rechtspersoon moet hebben om afschriften voor de bankrekeningen van die rechtspersoon te kunnen importeren. 
+Als afschriften in het elektronisch bestand niet aan een bankrekening kunnen worden gekoppeld, of als een afschrift is gekoppeld aan meerdere bankrekeningen door middel van de identificatievelden, worden deze niet geïmporteerd. Andere afschriften in het bestand kunnen echter nog wel worden geïmporteerd. De gebruiker ontvangt een bericht waarin wordt gemeld dat het importeren van bankafschriften voor specifieke bankrekeningen niet is geslaagd. Let erop dat de gebruiker die het bankafschriftbestand importeert, toegang tot een rechtspersoon moet hebben om afschriften voor de bankrekeningen van die rechtspersoon te kunnen importeren. 
 
-U kunt ook door middel van een zip-bestand in één proces meerdere afschriftbestanden uploaden naar Finance. Als u wilt meerdere bankafschriftbestanden wilt importeren voor meerdere rekeningen, combineert u alle bankafschriftbestanden in één zipbestand. Stel in het dialoogvenster **Bankafschriften importeren** de optie **Afschrift importeren voor meerdere bankrekeningen in alle rechtspersonen** in op **Ja**. Klik op **Bladeren** om het zip-bestand te selecteren dat de bankafschriftbestanden bevat en klik vervolgens op **Uploaden**. Het importproces herkent het zip-bestand en uploadt alle afschriften daaruit, ongeacht de rechtspersoon waaraan de bankrekening is gekoppeld. 
+U kunt ook door middel van een zip-bestand in één proces meerdere afschriftbestanden uploaden naar Finance. Als u wilt meerdere bankafschriftbestanden wilt importeren voor meerdere rekeningen, combineert u alle bankafschriftbestanden in één zipbestand. Stel in het dialoogvenster **Bankafschriften importeren** de optie **Afschrift importeren voor meerdere bankrekeningen in alle rechtspersonen** in op **Ja**. Klik op **Bladeren** om het zip-bestand te selecteren dat de bankafschriftbestanden bevat en klik vervolgens op **Uploaden**. Het importproces herkent het zip-bestand en uploadt alle afschriften daaruit, ongeacht de rechtspersoon waaraan de bankrekening is gekoppeld.
 
 Er is een optie **Afstemmen na importeren** beschikbaar. Als u deze optie instelt op **Ja**, valideert het systeem automatisch het bankafschrift, maakt een nieuwe bankafstemming en werkblad en voert de set met standaardregels voor afstemming uit als het bankafschrift wordt geüpload. Deze functie automatiseert het proces tot aan het punt waar transacties handmatig moeten worden afgestemd.
 
