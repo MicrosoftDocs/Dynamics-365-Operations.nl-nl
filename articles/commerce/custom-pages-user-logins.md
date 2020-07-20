@@ -3,7 +3,7 @@ title: Aangepaste pagina's voor gebruikersaanmeldingen instellen
 description: In dit onderwerp wordt beschreven hoe u aangepaste pagina's maakt in Microsoft Dynamics 365 Commerce voor het verwerken van aangepaste aanmeldingen voor gebruikers van B2C-tenants (business-to-consumers) met Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 06/16/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71c0f0b6969985b04262b522dd2165eb1475878d
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456967"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533454"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Aangepaste pagina's voor gebruikersaanmeldingen instellen
 
@@ -193,13 +193,11 @@ In het bestand global.json voor de aanmeldingsmodule van het startpakket kunt u 
 
 Nadat u het bestand Global.json hebt bijgewerkt en uw wijzigingen hebt gepubliceerd, wordt de tekst van de nieuwe koppeling weergegeven in de aanmeldingsmodule in Commerce en op de live aanmeldingspagina.
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Uw domeinnaam configureren](configure-your-domain-name.md)
 
 [Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
-
-[Een online winkelafzetkanaal instellen](online-stores.md)
 
 [Een e-commerce-site maken](create-ecommerce-site.md)
 

@@ -74,8 +74,6 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (juli 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (mei 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
@@ -2565,192 +2563,230 @@
           items:
             - name: Overzicht van Magazijnbeheer
               href: warehousing/warehouse-management-overview.md
-            - name: Magazijnconfiguratie
+            - name: Inkomende magazijnbewerkingen
               items:
-                - name: Overzicht van Magazijnconfiguratie
-                  href: warehousing/warehouse-configuration.md
-                - name: Een magazijn instellen op basis van een magazijnconfiguratiesjabloon
-                  href: inventory/warehouse-template.md
-                - name: Werk beheren met behulp van sjablonen en locatierichtlijnen
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: Wave-stapcodes
-                  href: warehousing/wave-step-codes.md
-                - name: Waveverwerking configureren
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: Zendingen automatisch bijwerken
-                  href: warehousing/auto-update-shipment.md
-                - name: Een locatieprofiel maken
-                  href: warehousing/tasks/create-location-profile.md
-                - name: Locaties in een WMS-magazijn configureren
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: Belastingsverbruik plannen
-                  href: warehousing/schedule-load-utilization.md
-                - name: Werkbelastingcapaciteit magazijn
-                  href: warehousing/schedule-workload-capacity.md
-                - name: Beschikkingscodes instellen
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: Maateenheid en opslagbeleid
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: Power BI-inhoud magazijn
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: Systeem groeperen op een geopende werklijst
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: Indeling van documentroutering voor nummerplaatlabels
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Ondersteuning mobiele streepjescodelezer
-                  href: warehousing/mobile-barcode-support.md
-                - name: Magazijn voor overboekingsorders instellen
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: Reserveringen in magazijnbeheer
+                - name: Ontvangsten voor de registratie en opslag
+                  items:
+                    - name: Magazijnverwerking van inkomende ladingen voor inkooporders
+                      href: warehousing/inbound-load-handling.md
+                    - name: Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: Artikelen registreren voor een artikel waarvoor basaal magazijnbeheer mogelijk is met een artikelontvangstjournaal
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: Producten cross-docken vanuit ontvangend magazijn naar winkels
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: Een locatie-instructie instellen voor wegzetten van inkooporders
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: Een werksjabloon instellen voor inkooporders
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: Locaties voor productdimensie combineren
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: Uitgaande magazijnbewerkingen
               items:
-                - name: Flexibel reseveringsbeleid voor dimensies op magazijnniveau
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: Werkbeleid magazijn
-              items:
-                - name: Overzicht van Werkbeleid magazijn
-                  href: warehousing/warehouse-work-policies.md
-                - name: Werkbeleid voor een magazijn instellen
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: Mutatie van voorraad met gekoppeld werk in Magazijnbeheer
-                  href: warehousing/move-inventory-associated-work.md
-                - name: Een werkklasse maken
-                  href: warehousing/tasks/create-work-class.md
-                - name: Magazijnmedewerkers beheren
-                  href: warehousing/manage-warehouse-workers.md
-                - name: Uitgestelde verwerking van magazijnwerk
-                  href: warehousing/deferred-put.md
-            - name: Cross-docken
-              items:
-                - name: Cross-docken van productieorders naar outbound docks
-                  href: production-control/cross-docking-opportunities.md
-                - name: Zending voor cross-docken automatisch vrijgeven
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: Gedeeltelijke vrijgave en gedeeltelijke verzending
-              items:
-                - name: Gedeeltelijke verzending van een transportlading
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: Batchvrijgave van gedeeltelijk gereserveerde transferorders
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: Verzamelen en verpakken
-              items:
-                - name: Clusterverzameling instellen
-                  href: warehousing/set-up-cluster-picking.md
-                - name: Containervorming instellen
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: Bevestiging van batch en nummerplaat
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: Afdrukken van nummerplaatlabel inschakelen
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Bevestiging van orderverzameling
-                  href: warehousing/piece-picking-confirmation.md
-                - name: Verpakkingsmaterialen en -kosten
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: Handmatig verpakken instellen (alleen versies van februari en mei 2016)
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: Artikelhertoewijzing voor kort orderverzamelen instellen
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: Magazijnwerk voor afhandeling van uitzonderingen annuleren
-                  href: warehousing/cancel-warehouse-work.md
-                - name: Door systeem gestuurde clusterverzameling
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: Orderverzamelregels groeperen
-                  href: warehousing/pick-line-grouping.md
-            - name: Voorraadtelling
-              items:
-                - name: Redencodes voor voorraadtelling
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: Voorraad blokkeren
-                  href: inventory/inventory-blocking.md
-                - name: Cyclustelling
-                  href: warehousing/cycle-counting.md
-                - name: Cyclustelling definiëren
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: Gedeeltelijke cyclustelling van locatie
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: Gedeeltelijk locatieproces voor cyclustelling definiëren
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: Opschoningstaak van voorhanden voorraadgegevens voor magazijnbeheer
-                  href: warehousing/onhand-cleanup.md
-                - name: Voorraadjournaal
-                  href: inventory/inventory-journals.md
-                - name: Voorraadlocatie
-                  href: inventory/inventory-locations.md
-                - name: Voorraadstatus
-                  href: inventory/inventory-statuses.md
-                - name: Voorraadlabeltelling
-                  href: inventory/inventory-tag-counting.md
-            - name: Aanvulling
-              items:
-                - name: Overzicht van Aanvulling
-                  href: warehousing/replenishment.md
-                - name: Directe aanvulling
-                  href: warehousing/immediate-replenishment.md
-                - name: Aanvulling met opnamekanbans
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: Een min./max. aanvullingsproces instellen
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: De app voor magazijnbeheer installeren en configureren
-              items:
-                - name: De app voor magazijnbeheer installeren en verbinden
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: Veldnamen in app voor magazijnbeheer configureren
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: Mobiele apparaten instellen voor magazijnwerk
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Nummerplaat ontvangen met de app voor magazijnbeheer
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: Gecombineerde nummerplaat ontvangen op een mobiel apparaat
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: Oudere batches binnen magazijn weergeven op een mobiel apparaat configureren
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: Oudste batch verzamelen op een mobiel apparaat
-                  href: warehousing/pick-oldest-batch.md
-                - name: Raamwerk voor verwerkingsinstructies
-                  href: warehousing/process-guide-framework.md
-            - name: Upgrade en migratie
-              items:
-                - name: Een upgrade van magazijnbeheerprocessen uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: Ontvangsten voor de registratie en opslag
-              items:
-                - name: Magazijnverwerking van inkomende ladingen voor inkooporders
-                  href: warehousing/inbound-load-handling.md
-                - name: Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: Artikelen registreren voor een artikel waarvoor basaal magazijnbeheer mogelijk is met een artikelontvangstjournaal
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Producten cross-docken vanuit ontvangend magazijn naar winkels
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: Een locatie-instructie instellen voor wegzetten van inkooporders
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Een werksjabloon instellen voor inkooporders
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: Beleidsregels voor samenvoegen van zendingen
-              items:
+                - name: Reserveringen in magazijnbeheer
+                  items:
+                    - name: Flexibel reseveringsbeleid voor dimensies op magazijnniveau
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: Gedeeltelijke vrijgave en gedeeltelijke verzending
+                  items:
+                    - name: Gedeeltelijke verzending van een transportlading
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: Batchvrijgave van gedeeltelijk gereserveerde transferorders
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: Verzamelen en verpakken
+                  items:
+                    - name: Clusterverzameling instellen
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: Containervorming instellen
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: Bevestiging van batch en nummerplaat
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: Afdrukken van nummerplaatlabel inschakelen
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Bevestiging van orderverzameling
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: Verpakkingsmaterialen en -kosten
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: Handmatig verpakken instellen (alleen versies van februari en mei 2016)
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Artikelhertoewijzing voor kort orderverzamelen instellen
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: Magazijnwerk voor afhandeling van uitzonderingen annuleren
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: Door systeem gestuurde clusterverzameling
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: Door systeem bestuurde werksequentiëring
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: Orderverzamelregels groeperen
+                      href: warehousing/pick-line-grouping.md
+                    - name: Magazijnvakken
+                      href: warehousing/warehouse-slotting.md
+                - name: Aanvulling
+                  items:
+                    - name: Overzicht van Aanvulling
+                      href: warehousing/replenishment.md
+                    - name: Directe aanvulling
+                      href: warehousing/immediate-replenishment.md
+                    - name: Aanvulling met opnamekanbans
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: Een min./max. aanvullingsproces instellen
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: Aanvulling zonedrempel
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: Ladingopbouw en zendingen
+                  items:
+                    - name: Bevestigen en overboeken
+                      href: warehousing/confirm-and-transfer.md
+                    - name: Geavanceerde ladingopbouw tijdens wave
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: Vrijgeven aan magazijnregel
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: Wave-sjabloongroepering
+                      href: warehousing/wave-template-grouping.md
                 - name: Beleidsregels voor samenvoegen van zendingen
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: Beleidsregels voor samenvoegen van zendingen configureren
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: 'Scenario 1: Zendingen samenvoegen wanneer deze aan het magazijn worden vrijgegeven met Automatische vrijgave van verkooporders'
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: 'Scenario 2: Zendingen samenvoegen wanneer het beleid voor consolidatie van de zending wordt overschreven vanaf de pagina Vrijgeven aan magazijn'
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: 'Scenario 3: Zendingen samenvoegen met Vrijgeven aan magazijn vanuit de workbench voor ladingplanning'
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: 'Scenario 4: Zendingen samenvoegen met behulp van de workbench voor zendingen samenvoegen'
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: 'Scenario 5: Zendingen handmatig samenvoegen met de pagina Zendingen samenvoegen'
-                  href: warehousing/consolidate-shipments-manual-form.md
+                  items:
+                    - name: Beleidsregels voor samenvoegen van zendingen
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: Beleidsregels voor samenvoegen van zendingen configureren
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: 'Scenario 1: Zendingen samenvoegen wanneer deze aan het magazijn worden vrijgegeven met Automatische vrijgave van verkooporders'
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: 'Scenario 2: Zendingen samenvoegen wanneer het beleid voor consolidatie van de zending wordt overschreven vanaf de pagina Vrijgeven aan magazijn'
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: 'Scenario 3: Zendingen samenvoegen met Vrijgeven aan magazijn vanuit de workbench voor ladingplanning'
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: 'Scenario 4: Zendingen samenvoegen met behulp van de workbench voor zendingen samenvoegen'
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: 'Scenario 5: Zendingen handmatig samenvoegen met de pagina Zendingen samenvoegen'
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: Binnen magazijnbewerkingen
+              items:
+                - name: Werkbeleid magazijn
+                  items:
+                    - name: Overzicht van Werkbeleid magazijn
+                      href: warehousing/warehouse-work-policies.md
+                    - name: Werkbeleid voor een magazijn instellen
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: Mutatie van voorraad met gekoppeld werk in Magazijnbeheer
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: Een werkklasse maken
+                      href: warehousing/tasks/create-work-class.md
+                    - name: Magazijnmedewerkers beheren
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: Uitgestelde verwerking van magazijnwerk
+                      href: warehousing/deferred-put.md
+                - name: Cross-docken
+                  items:
+                    - name: Cross-docken van productieorders naar outbound docks
+                      href: production-control/cross-docking-opportunities.md
+                    - name: Zending voor cross-docken automatisch vrijgeven
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: Gepland cross-docken
+                      href: warehousing/planned-cross-docking.md
+                - name: Voorraadtelling
+                  items:
+                    - name: Redencodes voor voorraadtelling
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: Voorraad blokkeren
+                      href: inventory/inventory-blocking.md
+                    - name: Cyclustelling
+                      href: warehousing/cycle-counting.md
+                    - name: Cyclustelling definiëren
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: Gedeeltelijke cyclustelling van locatie
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: Gedeeltelijk locatieproces voor cyclustelling definiëren
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Opschoningstaak van voorhanden voorraadgegevens voor magazijnbeheer
+                      href: warehousing/onhand-cleanup.md
+                    - name: Voorraadjournaal
+                      href: inventory/inventory-journals.md
+                    - name: Voorraadlocatie
+                      href: inventory/inventory-locations.md
+                    - name: Voorraadstatus
+                      href: inventory/inventory-statuses.md
+                    - name: Voorraadlabeltelling
+                      href: inventory/inventory-tag-counting.md
+                - name: Magazijnwerk
+                  items:
+                    - name: Details werkregel
+                      href: warehousing/work-line-details.md
+                    - name: Positionering van locatie nummerplaat
+                      href: warehousing/location-license-plate-positioning.md
+            - name: Magazijninstellingen
+              items:
+                - name: Magazijnconfiguratie
+                  items:
+                    - name: Overzicht van Magazijnconfiguratie
+                      href: warehousing/warehouse-configuration.md
+                    - name: Een magazijn instellen op basis van een magazijnconfiguratiesjabloon
+                      href: inventory/warehouse-template.md
+                    - name: Werk beheren met behulp van sjablonen en locatierichtlijnen
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: Wave-stapcodes
+                      href: warehousing/wave-step-codes.md
+                    - name: Waveverwerking configureren
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Zendingen automatisch bijwerken
+                      href: warehousing/auto-update-shipment.md
+                    - name: Een locatieprofiel maken
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: Locaties in een WMS-magazijn configureren
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: Status magazijnlocatie
+                      href: warehousing/warehouse-location-status.md
+                    - name: Extra locatiezones
+                      href: warehousing/additional-location-zones.md
+                    - name: Gebruikte capaciteit plannen
+                      href: warehousing/schedule-load-utilization.md
+                    - name: Werkbelastingcapaciteit plannen
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: Beschikkingscodes instellen
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: Maateenheid en opslagbeleid
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: Power BI-inhoud magazijn
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: Systeem groeperen op een geopende werklijst
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: Indeling van documentroutering voor nummerplaatlabels
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Ondersteuning mobiele streepjescodelezer
+                      href: warehousing/mobile-barcode-support.md
+                    - name: Magazijn voor overboekingsorders instellen
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: De app voor magazijnbeheer installeren en configureren
+                  items:
+                    - name: De app voor magazijnbeheer installeren en verbinden
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Veldnamen in app voor magazijnbeheer configureren
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobiele apparaten instellen voor magazijnwerk
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Nummerplaat ontvangen met de app voor magazijnbeheer
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Gecombineerde nummerplaat ontvangen op een mobiel apparaat
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Oudere batches binnen magazijn weergeven op een mobiel apparaat configureren
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Oudste batch verzamelen op een mobiel apparaat
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Raamwerk voor verwerkingsinstructies
+                      href: warehousing/process-guide-framework.md
+                - name: Upgrade en migratie
+                  items:
+                    - name: Een upgrade van magazijnbeheerprocessen uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Ontwikkeling Supply Chain Management
           items:
             - name: Handleiding voor ontwikkeling van Gantt-besturingselement

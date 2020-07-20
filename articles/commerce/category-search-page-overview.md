@@ -1,9 +1,9 @@
 ---
 title: Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
 description: In dit onderwerp vindt u een overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten in Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002491"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527463"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
 
 [!include [banner](includes/banner.md)]
 
@@ -96,7 +95,13 @@ De volgende onderdelen zijn essentieel voor een pagina met zoekresultaten:
 - **Paginering** zorgt dat websitebezoekers van de ene pagina met productresultaten naar een andere pagina worden verplaatst.
 - **Totaal aantal** bevat het totale aantal producten dat is gedefinieerd in een categorie en dat voldoet aan de zoekcriteria.
 
-## <a name="additional-resources"></a>Aanvullende resources
+>[!NOTE]
+>Deze zoekmogelijkheden via de cloud zijn beschikbaar vanaf versie 10.0.8. Zorg ervoor dat onder **Commerce-parameters > Configuratieparameters** een vermelding bestaat voor ProductSearch.UseAzureSearch die is ingesteld op true. 
+![Configuratieparameters voor zoekopdrachten via de cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+[Overzicht van zoekopdrachten via cloud](cloud-powered-search-overview.md)
 
 [Overzicht van de startpagina](quick-tour-home-page.md)
 

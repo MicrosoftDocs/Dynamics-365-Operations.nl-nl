@@ -3,7 +3,7 @@ title: Een previewomgeving voor Dynamics 365 Commerce configureren
 description: In dit onderwerp wordt uitgelegd hoe u een preview-omgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
+ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057712"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3534062"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Een previewomgeving voor Dynamics 365 Commerce configureren
 
@@ -116,7 +116,7 @@ Ga als volgt te werk om taken in Commerce in te schakelen.
 
 Voer de volgende stappen uit om een volledige gegevenssynchronisatie in Commerce uit te voeren.
 
-1. Ga in het menu links naar **Modules \> Detailhandel en commerce \> Instelling van hoofdkantoor \> Detailhandel planner \> Kanaaldatabase**.
+1. Ga in het menu links naar **Modules \> Detailhandel en commerce \> Instelling van hoofdkantoor \> Commerce-planner \> Kanaaldatabase**.
 1. In de lijst links is het kanaal **Standaard** geselecteerd. Selecteer het andere beschikbare kanaal. Dit kanaal heeft de naam **scXXXXXXXXX**.
 1. Selecteer **Volledige gegevenssynchronisatie** in het actievenster.
 1. Voer **9999** in als de distributieplanning.

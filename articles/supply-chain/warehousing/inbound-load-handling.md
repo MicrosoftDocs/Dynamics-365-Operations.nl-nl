@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261316"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530576"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Magazijnverwerking van inkomende ladingen voor inkooporders
 
@@ -66,7 +66,7 @@ Wanneer een inkomende lading voor het eerst in het magazijn arriveert, moeten ma
 
 - **Een menu op het mobiele apparaat dat is geconfigureerd om het ontvangen van ladingen te ondersteunen**
 
-    De [Dynamics 365 for Finance and Operations - Magazijnbeheer-app](install-configure-warehousing-app.md) voor mobiele apparaten ondersteunt de volgende processen voor het maken van werk:
+    De [magazijnapp](install-configure-warehousing-app.md) voor mobiele apparaten ondersteunt de volgende processen voor het maken van werk:
 
     - Artikelontvangst laden
     - Ontvangen en wegzetten van artikel laden
@@ -171,7 +171,7 @@ Voor het boeken van geregistreerde hoeveelheden voor productontvangsten vanaf de
 - De inkooporder die aan de lading is gekoppeld, moet de status _Bevestigd_ hebben.
 
 > [!NOTE]
-> Als de ladingsstatus nog niet is ingesteld op_Verzonden_, wordt de lading automatisch bevestigd voordat het bijwerken van de productontvangst wordt uitgevoerd. (De ladingsstatus wordt ingesteld op _Verzonden_ wanneer een gebruiker de inkomende zending van de lading registreert.)
+> Als de ladingsstatus nog niet is ingesteld op _Verzonden_, wordt de lading automatisch bevestigd voordat het bijwerken van de productontvangst wordt uitgevoerd. (De ladingsstatus wordt ingesteld op _Verzonden_ wanneer een gebruiker de inkomende zending van de lading registreert.)
 
 Voor het boeken van de productontvangst voor ontvangstregistraties die zijn gekoppeld aan een geselecteerde lading, selecteert de werknemer de actie **Productontvangst** op de pagina **Lading**. De pagina die wordt geopend, heeft de volgende belangrijke details:
 
@@ -285,7 +285,7 @@ Als u deze scenario's wilt doorlopen met de opgegeven voorbeeldrecords en -waard
 
 Voordat magazijnmedewerkers een mobiel apparaat kunnen gebruiken om een inkomende voorraad te registreren die aan een lading is gekoppeld, moet u hiervoor een menuopdracht van mobiel apparaat maken.
 
-In deze sectie maakt u een menuopdracht voor een mobiel apparaat en voegt u deze toe aan een bestaand menu. Een magazijnmedewerker kan vervolgens de menuoptie selecteren in de app Magazijnbeheer.
+In deze sectie maakt u een menuopdracht voor een mobiel apparaat en voegt u deze toe aan een bestaand menu. Een magazijnmedewerker kan vervolgens de menuoptie selecteren in de magazijnapp.
 
 1. Ga naar **Magazijnbeheer \> Instellingen \> Mobiel apparaat \> Menuopties voor mobiel apparaat** en zorg ervoor dat het menu met mobiele apparaten een menuoptie bevat met de volgende instellingen:
 
@@ -322,7 +322,7 @@ In deze procedure maakt u handmatig een inkooporder en een bijbehorende lading. 
 1. Selecteer in het actievenster op het tabblad **Inkoop** de optie **Acties \> Bevestigen**. De status van de order is nu _Bevestigd_.
 1. Selecteer in het actievenster op het tabblad **Magazijn** de optie **Acties \> Workbench ladingplanning**.
 1. Selecteer op de pagina **Workbench ladingplanning** in het actievenster op het tabblad **Vraag en aanbod** de optie **Toevoegen \> Aan nieuwe lading**.
-1. Stel in het dialoogvenster **Ladingsjabloon toewijzen** het veld **Ladingsjabloon-id** in op _20'-container_.
+1. Stel in het dialoogvenster **Ladingsslabloon toewijzen** het veld **Ladingsslabloon-id** in op _20'-container_.
 1. Selecteer **OK** om het dialoogvenster te sluiten en terug te gaan naar de workbench.
 1. Selecteer in de sectie **Ladingen** de optie **Lading-id** om de nieuwe lading te openen.
 1. Bekijk de koptekst en regeldetails van de lading en let op de volgende punten:
@@ -424,7 +424,7 @@ Verder leert u hoe u de inkooporderregel instelt, zodat u een hoeveelheid kunt o
 1. Selecteer in het actievenster op het tabblad **Inkoop** de optie **Acties \> Bevestigen**. De status van de order is nu _Bevestigd_.
 1. Selecteer in het actievenster op het tabblad **Magazijn** de optie **Acties \> Workbench ladingplanning**.
 1. Selecteer op de pagina **Workbench ladingplanning** in het actievenster op het tabblad **Vraag en aanbod** de optie **Toevoegen \> Aan nieuwe lading**.
-1. Stel in het dialoogvenster **Ladingsjabloon toewijzen** het veld **Ladingsjabloon-id** in op _20'-container_. Wijzig op het tabblad **Details** de **Hoeveelheid** van _10_ in _5_ om de hoeveelheid op de inkooporderregel gedeeltelijk toe te voegen.
+1. Stel in het dialoogvenster **Ladingsslabloon toewijzen** het veld **Ladingsslabloon-id** in op _20'-container_. Wijzig op het tabblad **Details** de **Hoeveelheid** van _10_ in _5_ om de hoeveelheid op de inkooporderregel gedeeltelijk toe te voegen.
 1. Selecteer **OK** om de instellingen toe te passen en het dialoogvenster te sluiten.
 1. Herhaal stap 8 tot en met 10 om een tweede lading te maken. Dit keer moet het veld **Hoeveelheid** al zijn ingesteld op _5_.
 1. Selecteer op de pagina **Workbench ladingplanning** in het raster **Ladingen** de waarde bij **Lading-id** voor de eerste lading die u hebt gemaakt. De pagina **Ladingdetails** wordt weergegeven en toont de geselecteerde lading. Volg vervolgens deze stappen:
