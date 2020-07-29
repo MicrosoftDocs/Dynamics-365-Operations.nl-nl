@@ -1434,8 +1434,6 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B-gebruikers naar Azure AD exporteren
               href: sysadmin/implement-b2b.md
-            - name: Procesautomatisering
-              href: sysadmin/process-automation.md
             - name: Beveiliging
               items:
                 - name: Op rollen gebaseerde beveiliging
@@ -1458,10 +1456,16 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Gebruikers aan beveiligingsrollen toewijzen
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Aangepaste beveiligingsconfiguratie importeren of exporteren met Gegevensbeheer
+                  href: sysadmin/import-export-customized-security.md
                 - name: Beveiligingsdiagnose voor taakregistraties
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: Uitbreidbare beleidsregels voor gegevensbeveiliging
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: Een beveiligingsbeleid maken
+                  href: sysadmin/create-simple-security-policy.md
             - name: Procesautomatisering
-              href: /sysadmin/process-automation.md
+              href: sysadmin/process-automation.md
             - name: Batchverwerking
               items:
                 - name: Overzicht van Batchverwerking
@@ -1582,7 +1586,7 @@
               items:
                 - name: Proces voor overschakeling naar de nieuwste update
                   href: migration-upgrade/upgrade-latest-update.md
-                - name: Paden naar één versie
+                - name: Paden naar One Version
                   items:
                     - name: Self-service-upgrade naar de meest recente versie
                       href: migration-upgrade/self-service-upgrade.md
@@ -1670,7 +1674,7 @@
                   href: user-interface/check-box-tree-controls.md
                 - name: Filteropties
                   href: user-interface/filtering.md
-                - name: PowerApps Hostbeheer
+                - name: Power Apps Hostbeheer
                   href: user-interface/powerapps-host-control.md
             - name: Vensterbeheer
               items:
