@@ -3,7 +3,7 @@ title: Overzicht van financiële rapportage
 description: In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 Finance en hoe u de financiële rapportagemogelijkheden kunt gebruiken. Het bevat een omschrijving van de financiële standaardrapporten die worden geleverd.
 author: aprilolson
 manager: AnnBe
-ms.date: 04/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
+ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262644"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "3609584"
 ---
 # <a name="financial-reporting-overview"></a>Overzicht van Financiële rapportage
 
@@ -45,10 +45,11 @@ U vindt het menu **Financiële rapportage** op de volgende locaties:
 Als u financiële rapporten voor een rechtspersoon wilt maken en genereren, moet u de volgende informatie voor die rechtspersoon instellen:
 
 -   Fiscale kalender
--   Grootboek
+-   Ledger
 -   Rekeningschema
 -   Valuta
 
+## <a name="granting-security-access-to-financial-reporting"></a>Beveiligingstoegang verlenen tot Financial Reporting
 De functies voor financiële rapportage zijn beschikbaar voor gebruikers aan wie de juiste bevoegdheden en functies zijn toegewezen via hun beveiligingsrollen. De volgende secties beschrijven bevoegdheden en functies, samen met de gekoppelde rollen.
 
 ### <a name="duties"></a>Functies
@@ -78,15 +79,26 @@ De functies voor financiële rapportage zijn beschikbaar voor gebruikers aan wie
 | Financiële rapporten genereren            | Financiële rapporten genereren            | CEO, CFO, accountant                                                            |
 | Financiële rapporten weergeven                | Financiële prestaties beoordelen          | Niet toegewezen                                                                   |
 
-Nadat een gebruiker is toegevoegd of een rol is gewijzigd, moet de gebruiker binnen enkele minuten toegang hebben tot financiële rapportage. **Opmerking:** de rol sysadmin wordt toegevoegd aan alle rollen in de financiële rapportage.
+Nadat een gebruiker is toegevoegd of een rol is gewijzigd, moet de gebruiker binnen enkele minuten toegang hebben tot financiële rapportage. 
+
+> [!NOTE]
+> De rol sysadmin wordt toegevoegd aan alle rollen in de financiële rapportage.
 
 ## <a name="report-deletions-and-expirations"></a>Verwijderde en verlopen rapporten
 Gebruikers die een rapport genereren, kunnen hun eigen rapporten verwijderen. Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** kunnen rapporten van anderen verwijderen. 
 
-In versie 10.0.8 is het concept van de vervaldatum geïntroduceerd. Een nieuwe vereiste functie wordt ingeschakeld op de pagina **Alles** binnen het werkgebied van Functiebeheer. De functie **Beleid voor het bewaren van financiële rapporten** bevat de volgende wijzigingen:
+Vanaf de release 10.0.7 is het concept van vervaldatums geïntroduceerd. Een nieuwe verplichte functie wordt ingeschakeld in het werkgebied voor functiebeheer. Deze functie omvat de volgende wijzigingen:
+
+* Nieuwe gegenereerde rapporten krijgen automatisch een vervaldatum van 90 dagen vanaf het moment dat ze worden gegenereerd.
+* Alle bestaande rapporten van vóór de installatie van de functie krijgen een vervalperiode van 90 dagen. De datum kan gedurende een korte periode als leeg worden weergegeven totdat de service voor financiële rapportage wordt uitgevoerd, er een rapport wordt gegenereerd en de service de update uitvoert op bestaande rapporten met een lege vervaldatum. 
+* Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** hebben toegang tot deze functionaliteit. Elke gebruiker met de functie **Financiële rapporten onderhouden** met de bevoegdheid **Vervaldatum van financiële rapporten onderhouden** kan ook de vervalperiode wijzigen. Momenteel zijn er twee opties beschikbaar:
+   * Een vervalperiode van 90 dagen
+   * Een optie om in te stellen dat het rapport nooit vervalt
+
+Wanneer een vervalperiode zoals 90 dagen wordt geselecteerd, wordt deze 90 dagen vanaf vandaag verleend. Dit is anders dan de 90 dagen vanaf de oorspronkelijke generatiedatum ingesteld bij het genereren van rapporten. In release 10.0.8 is het concept van de vervaldatum geïntroduceerd. Een nieuwe vereiste functie wordt ingeschakeld op de pagina **Alles** binnen het werkgebied van Functiebeheer. De functie **Beleid voor het bewaren van financiële rapporten** bevat de volgende wijzigingen:
 * Nieuwe gegenereerde rapporten krijgen automatisch een vervaldatum van 90 dagen vanaf het moment dat ze worden gegenereerd
 * Alle bestaande rapporten van vóór de installatie van de functie krijgen een vervalperiode van 90 dagen. De datum kan gedurende een korte periode als leeg worden weergegeven totdat de service voor financiële rapportage wordt uitgevoerd, er een rapport wordt gegenereerd en de service de update uitvoert op bestaande rapporten met een lege vervaldatum. 
-* Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** hebben toegang tot deze functionaliteit. Elke gebruiker met de functie **Financiële rapporten onderhouden** met de bevoegdheid **Vervaldatum van financiële rapporten onderhouden** kan ook de vervalperiode wijzigen. Momenteel zijn er twee opties beschikbaar. 
+* Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** hebben toegang tot deze functionaliteit. Elke gebruiker met de functie **Financiële rapporten onderhouden** met de bevoegdheid **Vervaldatum van financiële rapporten onderhouden** kan ook de vervalperiode wijzigen. Momenteel zijn er twee opties beschikbaar: 
   * Een vervalperiode van 90 dagen.
   * Een optie om in te stellen dat het rapport nooit vervalt.
   
@@ -125,16 +137,36 @@ Financiële rapportage bevat 22 standaard financiële rapporten. Elk rapport maa
 | Beschikbare budgetfondsen- Standaard                         | Een gedetailleerde vergelijking weergeven van het herziene budget, feitelijke uitgaven, budgetreserveringen en budgetfondsen die beschikbaar zijn voor alle rekeningen                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Financiële rapporten openen
-Wanneer u op het menu **Financiële rapportage** klikt, wordt de lijst van financiële rapporten voor het bedrijf weergegeven. U kunt een rapport vervolgens openen of wijzigen. Als u een van de standaardrapporten wilt openen, selecteert u de rapportnaam. De eerste keer dat een rapport wordt geopend, wordt het automatisch gegenereerd voor de vorige maand. Als u bijvoorbeeld een rapport voor de eerste keer opent in augustus 2016, wordt het rapport gegenereerd voor 31 juli 2016. Nadat een rapport is geopend, kunt u beginnen met het verkennen ervan door in te zoomen op specifieke gegevensitems en rapportopties te wijzigen.
+Wanneer u het menu **Financiële rapportage** selecteert, wordt de lijst van financiële rapporten voor het bedrijf weergegeven. U kunt een rapport vervolgens openen of wijzigen. Als u een van de standaardrapporten wilt openen, selecteert u de rapportnaam. De eerste keer dat een rapport wordt geopend, wordt het automatisch gegenereerd voor de vorige maand. Als u bijvoorbeeld een rapport voor de eerste keer opent in augustus 2019, wordt het rapport gegenereerd voor 31 juli 2019. Nadat een rapport is geopend, kunt u beginnen met het verkennen ervan door in te zoomen op specifieke gegevensitems en rapportopties te wijzigen.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Het maken en wijzigen van het financiële rapporten
-Via de financiële verslagenlijst kunt u een nieuw rapport maken of een bestaand rapport wijzigen. Als u de juiste machtigingen hebt, kunt u een nieuwe financieel rapport maken door te klikken op **Nieuw** in het actievenster. Er wordt een rapportontwerpersprogramma gedownload naar uw apparaat. Nadat de rapportontwerper is gestart, kunt u vervolgens het nieuwe rapport maken. Nadat u het nieuwe rapport hebt opgeslagen, verschijnt het in de lijst met financiële rapporten. De lijst bevat alleen rapporten die voor het bedrijf zijn gemaakt en die u in Finance gebruikt. 
+Via de financiële verslagenlijst kunt u een nieuw rapport maken of een bestaand rapport wijzigen. Als u de juiste machtigingen hebt, kunt u een nieuwe financieel rapport maken door **Nieuw** te selecteren in het actievenster. Er wordt een rapportontwerpersprogramma gedownload naar uw apparaat. Nadat de rapportontwerper is gestart, kunt u vervolgens het nieuwe rapport maken. Nadat u het nieuwe rapport hebt opgeslagen, verschijnt het in de lijst met financiële rapporten. De lijst bevat alleen rapporten die voor het bedrijf zijn gemaakt en die u in Dynamics 365 Finance gebruikt. 
 
-> [!NOTE] 
-> Op de computer waarop u de rapportontwerpersclient downloadt, moet versie 4.6.2 van Microsoft .NET Framework zijn geïnstalleerd. Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53345). Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de rapportontwerpersclient te downloaden. Als u in de incognito modus werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. U kunt ook een rapport wijzigen dat in de lijst met financiële rapporten verschijnt. Wanneer u het gebied rond de rapportnaam hebt geselecteerd, klikt u op **Bewerken** in het Actievenster. Het rapportontwerperprogramma wordt gestart.
+## <a name="troubleshooting-issues-opening-report-designer"></a>Problemen met het openen van Report Designer oplossen
+Er zijn enkele veelvoorkomende problemen wanneer u Report Designer opent. Deze problemen en de stappen om ze problemen op te lossen zijn als volgt.
 
-## <a name="additional-resources"></a>Aanvullende resources
+Probleem 1: Report Designer start niet wanneer u **Nieuw** of **Bewerken** selecteert.
+
+* Selecteer **Instellingen** in Internet Explorer en selecteer vervolgens **Internetopties**. Selecteer het tabblad **Beveiliging**. Selecteer Vertrouwde sites en vervolgens **Locaties**. Voer bij **Deze website aan de zone toevoegen** "\*\.dynamics.com" in (zonder de aanhalingstekens) en selecteer vervolgens **Toevoegen**. 
+* Selecteer **Instellingen** in Internet Explorer en selecteer vervolgens **Internetopties**. Selecteer het tabblad **Beveiliging**. Selecteer Vertrouwde sites. Wijzig de optie in het gebied Beveiligingsniveau voor deze zone in **Normaal-laag**.
+* Schakel de pop-upblokkering uit in de browser.
+* Voor werkstations is het installeren van Visual Studio .Net 4.6.2 of hoger vereist.
+
+Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53345).
+* Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u de incognitomodus gebruikt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognitomodus is ingeschakeld. Als u zich niet kunt aanmelden met Chrome, voert u de installatiestappen uit die worden beschreven in Probleem 1 met Internet Explorer of Edge. 
+
+Probleem 2: De gebruiker beschikt niet over de vereiste machtigingen om Financial Reporting te gebruiken. 
+
+* Als u wilt controleren of de gebruiker niet over de juiste machtigingen beschikt, selecteert u **Ja** in de fout "Kan geen verbinding maken met de Financial Reporting-server. Selecteer Ja als u wilt doorgaan en een ander serveradres wilt opgeven." Selecteer **Verbinding testen**. Als u niet over de juiste machtigingen beschikt, verschijnt er een bericht met de tekst "Poging tot verbinding is mislukt. De gebruiker beschikt niet over de juiste machtigingen om verbinding te maken met de server. Neem contact op met uw systeembeheerder voor ondersteuning."
+* De vereiste machtigingen worden hierboven vermeld bij [Beveiligingstoegang verlenen tot Financial Reporting](#granting-security-access-to-financial-reporting). De beveiliging van Financial Reporting is gebaseerd op deze bevoegdheden. U hebt geen toegang, tenzij deze bevoegdheden (of een andere beveiligingsrol die deze bevoegdheden bevat) aan u zijn toegewezen. 
+* De integratietaak **Provider bedrijfsgebruikers met bedrijf** (die ook verantwoordelijk is voor en bekend staat als gebruikersintegratie) wordt met een interval van 5 minuten uitgevoerd. Het kan 10 minuten duren voordat wijzigingen in de machtigingen van kracht worden in Financial Reporting. 
+  Als een andere gebruiker Report Designer kan openen, selecteert u **Extra** en vervolgens **Integratiestatus**. Controleer of de integratietoewijzing "Provider bedrijfsgebruikers met bedrijf" is uitgevoerd omdat aan u een machtiging is toegewezen voor het gebruik van Financial Reporting. 
+* Mogelijk is een andere fout opgetreden waardoor **Gebruikersintegratie van Dynamics-gebruiker met Financial Reporting** niet kan worden voltooid. Het is ook mogelijk dat een datamartreset is gestart en nog niet is voltooid, of dat er een andere systeemfout is opgetreden. Probeer het proces later opnieuw uit te voeren. Neem contact op met de systeembeheerder als het probleem zich blijft voordoen.
+
+Probleem 3: u kunt doorgaan na de aanmeldingspagina voor ClickOnce Report Designer, maar de aanmelding in Report Designer kan niet worden voltooid. 
+
+* De tijd die op uw lokale computer is ingesteld wanneer u uw aanmeldingsreferenties invoert, moet binnen vijf minuten zijn na de tijd op de Financial Reporting-server. Als er een verschil is van meer dan vijf minuten, is aanmelden niet toegestaan. 
+* In dit geval kunt u het beste de Windows-optie inschakelen om de tijd van uw pc automatisch in te stellen. 
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 - [Financiële rapporten weergeven](view-financial-reports.md)
-
-
-

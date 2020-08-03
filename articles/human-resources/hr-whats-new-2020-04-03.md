@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab732853a2c37338d8003c5f8911c011aa8ffc60
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 02243b2c75a4f50683a51c1d9d811f2e2a2d413f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225146"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555046"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (3 april 2020)
 
@@ -128,3 +128,10 @@ Als het documentvoorbeeld voor documenten opgeslagen in SharePoint niet werkt, v
 3. Open een bijlage in SharePoint om de voorbeeldweergave van documenten te starten.
 
 4. Meld u aan met een andere gebruikersaccount die toegang heeft tot bijlagen en controleer of het voorbeeld werkt zoals verwacht.
+
+## <a name="see-also"></a>Zie ook
+
+[Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Het updateproces](hr-admin-setup-update-process.md)</br>
+[Functies beheren](hr-admin-manage-features.md)

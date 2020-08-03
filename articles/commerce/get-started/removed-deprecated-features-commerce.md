@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 06/10/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443913"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539874"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 
@@ -42,7 +42,34 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De functie Gegevensactie-hooks is afgeschaft vanwege prestatieproblemen. |
 | **Vervangen door een andere functie?**   | U wordt aangeraden [gegevensacties te overschrijven](../e-commerce-extensibility/data-action-overrides.md) om bedrijfslogica in de gegevensactielaag te wijzigen.|
-| **Betrokken productgebieden**         | Uitbreidbaarheid van gegevensacties in e-commerce |
+| **Betrokken productgebieden**         | Uitbreidbaarheid van gegevensacties in e-Commerce |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: vanaf versie 10.0.11. |
+
+### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Ondersteuning van Retail SDK voor Visual Studio 2015, msbuild 14.0 en Retail SDK\naslagbibliotheken en hulpmiddelen
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De ondersteuning voor Retail SDK voor Visual Studio 2015 is afgeschaft en bijgewerkt tot ondersteuning van 2017, msbuild 15.0. Alle naslagbibliotheken en hulpmiddelen voor Commerce-proxygenerator in de map RetailSDK\References zijn verplaatst naar NuGet-pakketten om het uitbreidingsmodel en het SDK-upgradeproces te vereenvoudigen.|
+| **Vervangen door een andere functie?**   | We raden u aan de informatie in [De Retail SDK migreren van Visual Studio 2015 naar Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) te volgen om uw systeem bij te werken. |
+| **Betrokken productgebieden**         | Retail SDK-extensies |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: vanaf versie 10.0.11. |
+
+### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>Retail Server Extension met IEdmModelExtender en CommerceController
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De Retail Server-extensie met IEdmModelExtender en CommerceController is afgeschaft om een vereenvoudigd uitbreidingsmodel te leveren. De nieuwe implementatie bevat alleen de controllerklasse zonder implementatie van een extra IEdmModelExtender-klasse. Hierdoor wordt ook de afhankelijkheid van een bepaalde OData-versie voorkomen (als de OData-versie wordt bijgewerkt, worden de extensies mogelijk uitgeschakeld.) |
+| **Vervangen door een andere functie?**   |  We raden u aan om het uitbreidingsmodel voor de IController-klasse te gebruiken door het NuGet-pakket (Microsoft.Dynamics.Commerce.Hosting.Contracts) te importeren. |
+| **Betrokken productgebieden**         | Retail Server-extensies |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: vanaf versie 10.0.11. |
+
+### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Hardware Station-extensie met IHardwareStationController
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Hardware Station-extensie met IHardwareStationController is afgeschaft voor een vereenvoudigd uitbreidingsmodel. De nieuwe implementatie heeft alleen de IController-klasse zonder verdere implementatie van de klasse en om de afhankelijkheid van de kernbibliotheken voor Hardware Stations te voorkomen. Eerdere extensie verwees naar meerdere bibliotheken. |
+| **Vervangen door een andere functie?**   | We raden u aan om het uitbreidingsmodel voor de IController-klasse te gebruiken door het NuGet-pakket (Microsoft.Dynamics.Commerce.Hosting.Contracts) te importeren. |
+| **Betrokken productgebieden**         | Extensies van Hardware Station |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: vanaf versie 10.0.11. |
 

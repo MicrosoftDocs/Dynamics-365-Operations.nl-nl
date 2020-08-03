@@ -1,9 +1,9 @@
 ---
-title: Optionele functies voor een Dynamics 365 Commerce-previewomgeving configureren
-description: In dit onderwerp wordt uitgelegd hoe u optionele functies voor een preview-omgeving van Microsoft Dynamics 365 Commerce configureert.
+title: Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
+description: In dit onderwerp wordt uitgelegd hoe u optionele functies voor een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,28 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057735"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599815"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Optionele functies voor een Dynamics 365 Commerce-previewomgeving configureren
-
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u optionele functies voor een preview-omgeving van Microsoft Dynamics 365 Commerce configureert.
+In dit onderwerp wordt uitgelegd hoe u optionele functies voor een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert.
 
 ## <a name="prerequisites"></a>Vereisten
 
 Als u de transactionele e-mailfuncties wilt evalueren, moet aan de volgende voorwaarden worden voldaan:
 
-- U hebt een e-mailserver beschikbaar (\[SMTP\]-server), die kan worden gebruikt vanuit het Microsoft Azure-abonnement waarin u de preview-omgeving inricht.
+- U hebt een e-mailserver beschikbaar (\[SMTP\]-server), die kan worden gebruikt vanuit het Microsoft Azure-abonnement waarin u de evaluatieomgeving inricht.
 - U hebt het FQDN/IP-adres, het SMTP-poortnummer en de verificatiegegevens van de server beschikbaar.
-
-Als u functies voor beheer van digitale activa wilt evalueren door nieuwe Omnichannel-afbeeldingen op te nemen, moet u de naam van uw CMS-tenant (contentmanagementsysteem) beschikbaar hebben. Instructies voor het vinden van deze naam vindt u verderop in dit onderwerp. >>>(V: waar zijn de instructies?)
 
 ## <a name="configure-the-image-back-end"></a>De backend van de afbeelding configureren
 
@@ -47,9 +44,9 @@ Als u functies voor beheer van digitale activa wilt evalueren door nieuwe Omnich
 > [!NOTE]
 > Voordat u deze procedure kunt uitvoeren, moet u de stappen in [Uw site instellen in Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce) voltooien.
 
-1. Meld u aan bij het beheerhulpprogramma van de e-Commerce-site met de URL die u hebt genoteerd tijdens de initialisatie van e-Commerce tijdens het inrichten (zie [e-Commerce initialiseren](provisioning-guide.md#initialize-e-commerce)).
+1. Meld u aan bij de Commerce Site Builder met de URL die u hebt genoteerd tijdens de initialisatie van e-Commerce tijdens het inrichten (zie [e-Commerce initialiseren](provisioning-guide.md#initialize-e-commerce)).
 1. Open de site **Fabrikam**.
-1. Selecteer **Activa** in het linkermenu.
+1. Selecteer **Mediabibliotheek** in het linkermenu.
 1. Selecteer één afbeeldingsactivum.
 1. Zoek in de eigenschappencontrole aan de rechterkant de eigenschap **Openbare URL**. De waarde is een URL. Dit is een voorbeeld:
 
@@ -63,22 +60,22 @@ Als u functies voor beheer van digitale activa wilt evalueren door nieuwe Omnich
 
 ### <a name="update-the-media-base-url"></a>De basis-URL voor media bijwerken
 
-1. Meld u aan bij Dynamics 365 Commerce.
+1. Meld u aan bij Commerce Headquarters.
 1. Ga in het menu links naar **Modules \> Detailhandel en commerce \> Afzetkanaalinstellingen \> Afzetkanaalprofielen**.
 1. Selecteer **Bewerken**.
 1. Vervang onder **Profieleigenschappen** de waarde voor **Basis-URL voor mediaserver** door de basis-URL voor media die u eerder hebt gemaakt.
-1. Selecteer het andere kanaal in de lijst aan de linkerkant, onder het **standaardkanaal**.
+1. Selecteer het kanaal met de naam **scXXXXXXXXX**.
 1. Selecteer onder **Profieleigenschappen** de optie **Toevoegen**.
 1. Voor de eigenschap die is toegevoegd, selecteert **Basis-URL voor mediaserver** als de eigenschapssleutel. Voer als de waarde van de eigenschap de basis-URL voor de media in die u eerder hebt gemaakt.
 1. Selecteer **Opslaan**.
 
-## <a name="configure-the-email-server"></a>De e-mailserver configureren
+## <a name="configure-and-test-the-email-server"></a>De e-mailserver configureren en testen
 
 > [!NOTE]
 > De SMTP-server of e-mailservice die u hier invoert, moet toegankelijk zijn vanuit het Azure-abonnement dat u voor de omgeving gebruikt.
 
-1. Meld u aan bij Commerce.
-1. Ga in het menu links naar **Modules \> Systeembeheer \> Instellingen \> E-mail \> E-mailparameters**.
+1. Meld u aan bij Commerce Headquarters.
+1. Ga via het menu links naar **Modules \> Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> E-mailparameters**.
 1. Voer op het tabblad **SMTP-instellingen** in het veld **Naam SMTP-relaisserver** de FQDN-naam of het IP-adres in van de SMTP-server of e-mailservice.
 1. Voer in het veld **SMTP-poortnummer** het poortnummer in. (Als u SSL \[Secure Sockets Layer \] gebruikt, is het standaardpoortnummer **25**.)
 1. Als verificatie vereist is, voert u waarden in de velden **Gebruikersnaam** en **Wachtwoord** in.
@@ -92,8 +89,8 @@ Als u functies voor beheer van digitale activa wilt evalueren door nieuwe Omnich
 
 Voor elke transactionele gebeurtenis waarvoor u e-mailberichten wilt verzenden, moet u de e-mailsjabloon bijwerken met een geldig e-mailadres van de afzender.
 
-1. Meld u aan bij Commerce.
-1. Ga in het menu links naar **Modules \> Organisatiebeheer \> Instellingen \> E-mailsjablonen van organisatie**.
+1. Meld u aan bij Commerce Headquarters.
+1. Ga via het menu links naar **Modules \> Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> E-mailsjablonen van organisatie**.
 1. Selecteer **Lijst weergeven**.
 1. Volg deze stappen voor elke sjabloon in de lijst:
 
@@ -104,9 +101,9 @@ Voor elke transactionele gebeurtenis waarvoor u e-mailberichten wilt verzenden, 
 
 ## <a name="customize-email-templates"></a>E-mailsjablonen aanpassen
 
-Mogelijk wilt u de e-mailsjablonen aanpassen zodat deze verschillende afbeeldingen gebruiken. U kunt ook de koppelingen in de sjablonen bijwerken, zodat deze naar uw preview-omgeving leiden. In deze procedure wordt uitgelegd hoe u de standaardsjablonen kunt downloaden, aanpassen en bijwerken in het systeem.
+Mogelijk wilt u de e-mailsjablonen aanpassen zodat deze verschillende afbeeldingen gebruiken. U kunt ook de koppelingen in de sjablonen bijwerken, zodat deze naar uw evaluatieomgeving leiden. In deze procedure wordt uitgelegd hoe u de standaardsjablonen kunt downloaden, aanpassen en bijwerken in het systeem.
 
-1. Download via een webbrowser [het zipbestand met standaard e-mailsjablonen voor Microsoft Dynamics 365 Commerce Preview](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) naar uw lokale computer. Dit bestand bevat de volgende HTML-documenten:
+1. Download via een webbrowser [het zipbestand met standaard e-mailsjablonen voor Microsoft Dynamics 365 Commerce-evaluatie](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) naar uw lokale computer. Dit bestand bevat de volgende HTML-documenten:
 
     - Sjabloon voor orderbevestiging
     - Sjabloon voor uitgifte van geschenkbon
@@ -156,12 +153,12 @@ De volgende tokens worden voor elk product in de order vervangen door waarden.
 > [!NOTE]
 > Plaats het token **Productlijst - begin** aan het begin van het HTML-blok dat wordt herhaald voor elk product en plaats het token **Productlijst - eind** aan het einde van het blok.
 
-| Naam van token      | Token  |
+| Naam van token      | Token |
 |------------------------|-------|
 | Productlijst - begin   | \<!--%tablebegin.salesline% --\> |
 | Productlijst - eind     | \<!--%tableend.salesline%--\> |
 | Productnaam           | %lineproductname% |
-| Beschrijving            | %lineproductdescription% |
+| Omschrijving            | %lineproductdescription% |
 | Hoeveelheid               | %linequantity% |
 | Regel met eenheidsprijs        | %lineprice% (controleren) |
 | totaal regelartikel        | %linenetamount% |
@@ -171,15 +168,17 @@ De volgende tokens worden voor elk product in de order vervangen door waarden.
 | afleveradres       | %linedeliveryaddress% |
 | Verkoopeenheid van regel | %lineunit% |
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Omgevingsoverzicht Dynamics 365 Commerce-preview](cpe-overview.md)
+[Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce](cpe-overview.md)
 
-[Een previewomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
+[Een evaluatieomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
 
-[Een Dynamics 365 Commerce-preview-omgeving configureren](cpe-post-provisioning.md)
+[Een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-post-provisioning.md)
 
-[Veelgestelde vragen over Dynamics 365 Commerce-preview-omgeving](cpe-faq.md)
+[BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](cpe-bopis.md)
+
+[Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

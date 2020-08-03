@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431240"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554320"
 ---
 # <a name="copy-an-instance"></a>Een exemplaar kopiëren
 
@@ -68,7 +68,7 @@ Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich v
 
 4. Selecteer in het taak venster **Een exemplaar kopiëren** het exemplaar dat u wilt overschrijven en selecteer vervolgens **Kopiëren**. Wacht totdat de waarde in het veld **Kopieerstatus** is bijgewerkt naar **Voltooid**.
 
-   ![[Selecteer de instantie die u wilt overschrijven](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Selecteer het exemplaar dat u wilt overschrijven](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Selecteer **Power Platform** en meld u aan bij het Microsoft Power Platform-beheercentrum.
 
@@ -108,6 +108,6 @@ Bovendien worden de volgende statuswaarden gewijzigd wanneer u een exemplaar kop
 
 ## <a name="environment-admin"></a>Omgevingsbeheerder
 
-Alle gebruikers in de sandbox-doelomgeving, inclusief beheerders, worden vervangen door de gebruikers van de bronomgeving. Voordat u een exemplaar kopieert, moet u controleren of u een beheerder bent in de doelomgeving. Als u dat niet bent, kunt u zich niet aanmelden bij de sandbox-doelomgeving nadat de kopie is voltooid.
+Alle gebruikers in de sandbox-doelomgeving, inclusief beheerders, worden vervangen door de gebruikers van de bronomgeving. Voordat u een exemplaar kopieert, moet u controleren of u een beheerder bent in de bronomgeving. Als u dat niet bent, kunt u zich niet aanmelden bij de sandbox-doelomgeving nadat de kopie is voltooid.
 
 Alle gebruikers die geen beheerder zijn in de sandbox-doelomgeving, zijn uitgeschakeld om ongewenste aanmeldingen in de sandbox-omgeving te voorkomen. Beheerders kunnen gebruikers zo nodig opnieuw inschakelen.

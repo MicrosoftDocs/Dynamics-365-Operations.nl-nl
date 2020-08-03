@@ -3,7 +3,7 @@ title: Uitgaande voorraadbewerking in POS
 description: In dit onderwerp worden de mogelijkheden van uitgaande voorraadbewerking van het verkooppunt (POS) beschreven.
 author: hhaines
 manager: annbe
-ms.date: 05/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
-ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
+ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3384124"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551620"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Uitgaande voorraadbewerking in POS
 
@@ -58,6 +58,9 @@ Voer de volgende procedures uit om een asynchroon documentraamwerk te configurer
 7. Stel op het sneltabblad **Algemeen** in de sectie **Instellen** de optie **Continu** in op **Nee** om er zeker van te zijn dat er geen prestatieproblemen optreden.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Twee batchtaken maken en plannen voor de taken voor documentverwerking en -controle
+
+> [!NOTE]
+> In Commerce versie 10.0.13 en hoger hoeft u de batchtaken niet via het raamwerk van de batchtaak te configureren. De batchprocessen kunnen worden geconfigureerd vanuit het menu **Detailhandel en commerce > IT detailhandel en commerce**. Gebruik de menuopties **Controle bewerking detailhandelsdocument** en **Verwerking bewerking detailhandelsdocument** om de batchtaken te configureren
 
 De batchtaken die u maakt, worden gebruikt voor het verwerken van documenten die zijn mislukt of waarvoor een time-out is opgetreden. Ze worden ook gebruikt wanneer het aantal actieve voorraaddocumenten dat vanuit POS wordt verwerkt, groter is dan een door het systeem geconfigureerde waarde.
 

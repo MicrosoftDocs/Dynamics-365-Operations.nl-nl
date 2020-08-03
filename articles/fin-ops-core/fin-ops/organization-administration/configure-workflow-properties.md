@@ -3,7 +3,7 @@ title: Workfloweigenschappen configureren
 description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een workflow configureert.
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199431"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541104"
 ---
 # <a name="configure-workflow-properties"></a>Workfloweigenschappen configureren
 
@@ -91,12 +91,7 @@ Voer de volgende stappen uit om op te geven wanneer de workflow die u configuree
 3. Klik op **Voorwaarde toevoegen**.
 4. Een voorwaarde invoeren.
 5. Geef desgewenst vereiste extra voorwaarden op.
-6. Voer de volgende stappen uit om te controleren of de door u ingevoerde voorwaarden correct zijn ingesteld:
-
-    1. Klik op **Testen**.
-    2. Ga naar de pagina **Workflowvoorwaarde testen** en selecteer in het gebied **Voorwaarde valideren** een record.
-    3. Klik op **Testen**. Het systeem evalueert de registratie en bepaalt of het voldoet aan de voorwaarden die u hebt opgegeven. Als u bijvoorbeeld een workflow voor opdrachten tot inkoop voor Spanje maakt, wordt in het gebied **Voorwaarde valideren** van de pagina een lijst met opdrachten tot inkoop getoond. Als u op **Testen** klikt, wordt de geselecteerde opdracht tot inkoop door het systeem geëvalueerd om na te gaan of het land of de regio gelijk is aan ES.
-    4. Klik op **OK** of **Annuleren** om terug te gaan naar de pagina **Eigenschappen**.
+6. Voer de workflow uit met een aantal doelrecords om te controleren of de voorwaarde op de juiste manier records opneemt en uitsluit.
 
 ## <a name="specify-when-notifications-are-sent"></a>Opgeven wanneer meldingen worden verzonden
 

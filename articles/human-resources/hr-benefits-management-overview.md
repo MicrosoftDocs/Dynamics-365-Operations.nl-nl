@@ -3,7 +3,7 @@ title: Overzicht van Vergoedingenbeheer
 description: Overzicht van de functie Vergoedingenbeheer in Dynamics 365 Human Resources. Bied uw werknemers uitgebreide vergoedingsopties met een gebruiksvriendelijke online ervaring.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429250"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599375"
 ---
 # <a name="benefits-management-overview"></a>Overzicht van Vergoedingenbeheer
 
@@ -59,6 +59,8 @@ In dit artikel wordt beschreven hoe u functies inschakelt in Human Resources. U 
 ## <a name="configure-employee-information"></a>Werknemersgegevens configureren
 
 Voordat u werknemers voor vergoedingen kunt inschrijven, moet u de vereiste informatie opgeven. U moet een werknemer inschrijven voor **Plan met vaste compensatie** op de begindatum en u moet een **Betalingsfrequentie voor vergoedingen** selecteren in **Details dienstverband** op het formulier **Medewerker**.
+
+Als u een werknemer hebt die een aanvullende vergoeding krijgt, zoals provisies, kunt u een **Jaarlijks salarisbedrag voor vergoedingen** uit de werknemerrecord toevoegen. Human Resources gebruikt **het jaarlijkse salarisbedrag voor vergoedingen** om de dekkingsbedragen vast te stellen in plaats van het vaste jaarlijkse compensatiebedrag. Het **Jaarlijks salarisbedrag voor vergoedingen** moet geldig zijn vanaf de begindatum van de werknemer of het begin van de vergoedingsperiode, afhankelijk van het laatste. Als er voor een werknemer zowel een vast compensatiebedrag als een salarisbeloning wordt geregistreerd, wordt het jaarlijkse salaris voor vergoedingen gebruikt bij het bepalen van de bedragen van de dekking.
 
 Wanneer u een vergoedingsplan maakt dat tarieven op basis van geslacht of leeftijd gebruikt, moet u een geboortedatum en geslacht invoeren voor de werknemer om de kosten van de vergoeding te berekenen.
 

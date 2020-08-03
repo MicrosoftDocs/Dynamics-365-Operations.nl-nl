@@ -3,7 +3,7 @@ title: Werkitems in een workflow delegeren
 description: Als u gedurende niet op kantoor aanwezig zult zijn of als u niet beschikbaar bent om werkitems op te volgen, kunt u uw werkitems aan andere gebruikers delegeren of toewijzen.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
-ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
+ms.openlocfilehash: 96777b66645453bc909bd4053e2724a37771d5d6
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3515759"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541080"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Werkitems in een workflow delegeren
 
@@ -49,13 +49,15 @@ Als u van plan bent om buiten kantoor te zijn of anderszins niet beschikbaar ben
 1. Ga naar **Algemeen > Instellingen > Gebruikersopties**.
 2. Klik op het tabblad **Workflow**. Controleer of de sectie Delegatie is uitgevouwen. Om het systeem te configureren om uw werkitems automatisch te delegeren aan andere gebruikers, moet u delegatieregels maken die opgeven wanneer bepaalde typen werkitems worden gedelegeerd. Volg deze stappen om een delegatieregel te maken.  
 3. Klik op **Toevoegen**.
-4. Selecteer een optie in het veld **Bereik**.
+4. Selecteer een optie in het veld **Bereik**:
     - Alle – Alle taken of werkitems delegeren die aan u zijn toegewezen.
-    - Module: alleen de werkitems delegeren die verband houden met een specifiek workflowtype. Als u deze optie selecteert, moet u het workflowtype selecteren in het veld Naam.
-    - Workflow: alleen de werkitems delegeren die verband houden met een specifieke workflow. Als u deze optie selecteert, moet u de workflow selecteren het veld Naam.  
-5. Selecteer in het veld **Delegeren** de gebruiker aan wie u werkitems wilt delegeren. Met de velden Begindatum/-tijd en Einddatum/-tijd geeft u op wanneer de werkitems automatisch moeten worden gedelegeerd.  
-6. Typ in het veld **Begindatum/-tijd** de datum en een tijd.
-7. Typ in het veld **Einddatum** de datum en een tijd.
-8. Schakel het selectievakje **Ingeschakeld** in om de machtigingsregel te activeren. Als u onder Bereik de waarde **Module** hebt geselecteerd, moet u de module selecteren in het veld Naam. Als u onder Bereik de waarde **Workflow** hebt geselecteerd, moet u in het veld Naam de workflow selecteren die u wilt delegeren.  
-9. Voer in het veld **Opmerking** tekst in met uw reden voor het delegeren van de werkitems.
-
+    - Module: alleen de werkitems delegeren die verband houden met een specifiek workflowtype. Als u deze optie selecteert, moet u het workflowtype selecteren in het veld **Naam**.
+    - Workflow: alleen de werkitems delegeren die verband houden met een specifieke workflow. Als u deze optie selecteert, moet u de workflow selecteren het veld **Naam**.  
+5. Vul het veld **Naam** in:
+    - Selecteer de doelmodule voor het **Module**bereik.
+    - Selecteer de doelwerkstroom voor het **Werkstroom**bereik.
+6. Selecteer in het veld **Delegeren** de gebruiker aan wie u werkitems wilt delegeren. Met de velden **Begindatum/-tijd** en **Einddatum/-tijd** geeft u op wanneer de werkitems automatisch moeten worden gedelegeerd.  
+7. Typ in het veld **Begindatum/-tijd** de datum en een tijd.
+8. Typ in het veld **Einddatum** de datum en een tijd.
+9. Schakel het selectievakje **Ingeschakeld** in om de machtigingsregel te activeren. 
+10. Voer in het veld **Opmerking** tekst in met uw reden voor het delegeren van de werkitems.

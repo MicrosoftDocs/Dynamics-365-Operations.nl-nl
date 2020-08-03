@@ -3,7 +3,7 @@ title: Werkgebied voor betalingen aan leveranciers
 description: Dit onderwerp biedt informatie over het werkgebied Leveranciersbetalingen. In het werkgebied Leveranciersbetalingen wordt informatie weergegeven die is gerelateerd aan de verwerking van leveranciersbetalingen.
 author: abruer
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 86091e16712092086a641d79e49afbc5b205e934
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225008"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598104"
 ---
 # <a name="vendor-payments-workspace"></a>Werkgebied voor betalingen aan leveranciers
 
@@ -34,9 +34,10 @@ In het werkgebied **Leveranciersbetalingen** wordt informatie weergegeven die is
 
 De volgende instellingen moeten worden geconfigureerd om gegevens te kunnen weergeven in de visuele Power BI-elementen van **Leveranciersbetalingen**.
 1. Ga naar **Systeembeheer > Instellen > Systeemparameters** om **Systeemvaluta** en **Systeemwisselkoers** in te stellen.
-2. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in. 
-2. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, en valuta voor boekhouding en systeemvaluta. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
-3. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **VendPaymentBIMeasureV2** te vernieuwen. 
+2. Ga naar **Grootboek > Kalenders > Fiscale kalenders** om de boekjaarkalenderdatums te valideren die aan de actieve tijdsperiode zijn toegewezen.
+3. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in. 
+4. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, en valuta voor boekhouding en systeemvaluta. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
+5. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **VendPaymentBIMeasureV2** te vernieuwen.
 
 ## <a name="my-work-view"></a>Weergave Mijn werk
 

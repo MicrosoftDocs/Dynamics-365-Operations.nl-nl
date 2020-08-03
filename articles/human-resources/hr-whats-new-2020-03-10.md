@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124011"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555243"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (10 maart 2020)
 
@@ -97,3 +97,10 @@ De volgende voorbeeldfuncties zijn beschikbaar op 3 februari 2020:
 - Aanbevolen velden: gebruikers moeten vaak velden toevoegen aan een raster of pagina. Dit kan moeilijk zijn met zoveel beschikbare velden. In plaats van een grote lijst te hoeven doorzoeken, kan met deze functie het systeem een reeks aanbevolen velden weergeven op basis van wat andere gebruikers meestal in vergelijkbare scenario's toevoegen.
 
 - Standaardplakacties in rasters: deze functie zorgt ervoor dat de standaardactie in een raster wordt gekoppeld aan een specifieke kolom in een raster, ongeacht of die kolom wordt verplaatst of verborgen.
+
+## <a name="see-also"></a>Zie ook
+
+[Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Het updateproces](hr-admin-setup-update-process.md)</br>
+[Functies beheren](hr-admin-manage-features.md)

@@ -3,7 +3,7 @@ title: Overzicht vraagprognose
 description: Vraagprognoses worden gebruikt om onafhankelijke vraag van verkooporders en afhankelijke vraag op ontkoppelingspunten voor klantorders te voorspellen. De verbeterde vraagprognosereductieregels bevatten een ideale oplossing voor massa-aanpassing.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 01/07/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be60bb5c856020d76d185249fddf09493ea1d2ed
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1033432d0d820516d8c9b2f58f27241351e7c64b
+ms.sourcegitcommit: 2e7454c07adfc05164121307050f6f24303d36d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213878"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3550035"
 ---
 # <a name="demand-forecasting-overview"></a>Overzicht vraagprognose
 
@@ -48,7 +48,7 @@ Hier volgen enkele hoofdlijnen van vraagprognose:
 Drie belangrijke thema's zijn geïmplementeerd in vraagprognose:
 
 -   **Modulariteit** – Vraagprognose is modulair en eenvoudig te configureren. U kunt de functionaliteit in- en uitschakelen door de configuratiesleutel te wijzigen via **Handel** &gt; **Voorraadprognose** &gt; **Vraagprognose**.
--   **Hergebruik van de Microsoft-stack**: Microsoft heeft het Machine Learning-platform in februari 2015 uitgebracht. Met Machine Learning, dat nu deel uitmaakt van het pakket Microsoft Cortana Analytics, kunt u snel en eenvoudig voorspellende analyse-experimenten, zoals vraagschattingsexperimenten, maken door algoritmen R of Python-programmeertalen en een eenvoudige interface met slepen-en-neerzetten te gebruiken.
+-   **Hergebruik van de Microsoft-stack:** met Machine Learning, dat nu deel uitmaakt van het pakket Microsoft Cortana Analytics, kunt u snel en eenvoudig voorspellende analyse-experimenten, zoals vraagschattingsexperimenten, maken door algoritmen R of Python-programmeertalen en een eenvoudige interface met slepen-en-neerzetten te gebruiken.
     -   U kunt de experimenten voor vraagprognoses downloaden, ze aanpassen om uw bedrijfsbehoeften te voldoen, ze publiceren als een webservice op Azure, en ze gebruiken om vraagprognoses te genereren. De experimenten kunnen worden gedownload als u een Supply Chain Management-abonnement hebt aangeschaft voor een productieplanner als gebruiker op ondernemingsniveau.
     -   U kunt alle beschikbare experimenten voor vraagprognoses downloaden uit de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). De experimenten voor vraagprognose worden automatisch geïntegreerd met Supply Chain Management, maar klanten en partners moeten de experimenten die ze van [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) downloaden zelf integreren. Daarom zijn experimenten van de [Cortana Analytics Galleryy](https://gallery.cortanaanalytics.com/) niet zo gemakkelijk te gebruiken als de experimenten voor vraagprognose in Finance and Operations. U moet de code van de experimenten wijzigen zodat ze de API (Application Programming Interface) van Finance and Operations gebruiken.
     -   U kunt uw eigen experimenten maken in Microsoft Azure Machine Learning Studio (klassiek), ze publiceren als services op Azure en ze gebruiken om vraagprognoses te genereren.
@@ -71,7 +71,17 @@ U kunt Supply Chain Management gebruiken om de basislijnprognoses te visualisere
 ## <a name="limitations"></a>Beperkingen
 Vraagprognose is een hulpmiddel dat klanten helpt bij prognoseprocessen in de productie-industrie. De basisfunctionaliteit van een vraagprognoseoplossing wordt geboden en is zo ontworpen dat het gemakkelijk kan worden uitgebreid. Vraagprognose is mogelijk niet het meest geschikt voor klanten in bedrijfstakken zoals commerce, groothandel, magazijnbeheer, transport of andere professionele services.
 
-<a name="additional-resources"></a>Aanvullende resources
+### <a name="demand-forecast-variant-conversion-limitation"></a>Beperking voor variantconversie van de vraagprognose
+
+Maateenheid per variantconversie wordt niet volledig ondersteund bij het genereren van vraagprognose als de voorraadmaateenheid verschilt van de maateenheid van de vraagprognose.
+
+Prognose genereren (**Maateenheid voorraad > Eenheid vraagprognose**) gebruikt omrekening van de producteenheid. Bij het laden van historische gegevens voor het genereren van de vraagprognose wordt de eenheidsomrekening op productniveau altijd gebruikt bij de conversie van de voorraadmaateenheid naar de maateenheid van de vraagprognose, zelfs als er omrekeningen zijn gedefinieerd op het niveau van de variant.
+
+Het eerste deel van de autorisatie voor de prognose (**Eenheid vraagprognose > Voorraadeenheid**) gebruikt omrekening van de producteenheid. In het tweede gedeelte van autorisatie van de prognose (**Voorraadeenheid > Verkoopeenheid**) wordt omrekening van de varianteenheid gebruikt. Wanneer de gegenereerde vraagprognose wordt geautoriseerd, wordt de omrekening naar voorraadeenheden vanuit de maateenheid van de vraagprognose uitgevoerd met eenheidsomrekening op productniveau. Tegelijkertijd wordt bij de omrekening tussen de voorraadeenheid en de verkoopeenheid rekening gehouden met de gedefinieerde conversies van het variantniveau.
+
+De maateenheid van de vraagprognose hoeft geen specifieke betekenis te hebben. Deze kan worden gedefinieerd als 'eenheid vraagprognose'. Voor elk van de producten kunt u de omrekening 1:1 definiëren met de voorraadeenheid.
+
+<a name="additional-resources"></a>Aanvullende bronnen
 --------
 
 [Instelling van Vraagprognose](demand-forecasting-setup.md)

@@ -3,7 +3,7 @@ title: Power BI-inhoud - Crediterings- en aanmaningsbeheer
 description: In dit onderwerp wordt beschreven wat er is opgenomen in de Power BI-inhoud Crediterings- en aanmaningsbeheer. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278869"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598053"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI-inhoud - Crediterings- en aanmaningsbeheer
 
@@ -47,9 +47,10 @@ Standaard worden de gegevens over crediteringen en aanmaningen voor het huidige 
 De volgende instellingen moeten worden geconfigureerd om gegevens te kunnen weergeven in de visuele Power BI-elementen van **Klantcrediteringen en aanmaningen**.
 
 1. Ga naar **Systeembeheer > Instellen > Systeemparameters** om **Systeemvaluta** en **Systeemwisselkoers** in te stellen.
-2. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in.
-3. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, en valuta voor boekhouding en systeemvaluta. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
-4. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **CustCollectionsBIMeasurementsV2** te vernieuwen.
+2. Ga naar **Grootboek > Kalenders > Fiscale kalenders** om de boekjaarkalenderdatums te valideren die aan de actieve tijdsperiode zijn toegewezen.
+3. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in.
+4. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, en valuta voor boekhouding en systeemvaluta. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
+5. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **CustCollectionsBIMeasurementsV2** te vernieuwen.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 
