@@ -3,7 +3,7 @@ title: Power BI-inhoud - overzicht van contant geld
 description: In dit onderwerp wordt Power BI-inhoud - overzicht van contant geld besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 author: saraschi2
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553135"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598128"
 ---
 # <a name="cash-overview-power-bi-content"></a>Power BI-inhoud - overzicht van contant geld
 
@@ -38,10 +38,11 @@ Power BI-inhoud - **Overzicht van contant geld** is gemaakt voor personen die ve
 De volgende instellingen moeten worden geconfigureerd om gegevens te kunnen weergeven in de visuele Power BI-elementen van **Overzicht van contant geld** en **Bankbeheer**.
 
 1. Ga naar **Systeembeheer > Instellen > Systeemparameters** om **Systeemvaluta** en **Systeemwisselkoers** in te stellen.
-2. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in.
-2. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, valuta voor boekhouding en systeemvaluta, en valuta voor boekhouding en bankvaluta's. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
-3. Configureer Cashflowprognose en voer dit uit. Zie [Cashflowprognose](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting) voor meer informatie over het instellen van Cashflowprognose. 
-4. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **LedgerCovLiquidityMeasurement** te vernieuwen.
+2. Ga naar **Grootboek > Kalenders > Fiscale kalenders** om de boekjaarkalenderdatums te valideren die aan de actieve tijdsperiode zijn toegewezen.
+3. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in.
+4. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, valuta voor boekhouding en systeemvaluta, en valuta voor boekhouding en bankvaluta's. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
+5. Configureer Cashflowprognose en voer dit uit. Zie [Cashflowprognose](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting) voor meer informatie over het instellen van Cashflowprognose. 
+6. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **LedgerCovLiquidityMeasurement** te vernieuwen.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 

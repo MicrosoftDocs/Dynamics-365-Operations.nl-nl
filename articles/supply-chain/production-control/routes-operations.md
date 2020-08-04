@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a6d792a0e52d2b82b25de461dcec358fdc8f439
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f2422dcec1fb222f1be7162d7c799a13046329b4
+ms.sourcegitcommit: f0faa2929435cd1408c5925f0ee4d6636fec5da1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211072"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3552912"
 ---
 # <a name="routes-and-operations"></a>Routes en bewerkingen
 
@@ -225,7 +225,7 @@ Wanneer u deze methode gebruikt, wordt de pagina **Bewerkingsrelaties** uw prima
 Als u geen bron voor bedrijfsactiviteiten of resourcegroep opgeeft als onderdeel van de resourcevereisten voor een bewerking, kunnen de toepasselijke resources werken met verschillende snelheden. De tijd die nodig is voor het verwerken van een bewerking kan daardoor variëren. Om dit probleem op te lossen, kunt u met het veld **Formule** in de bewerkingsrelatie opgeven hoe de verwerkingstijd wordt berekend. De volgende opties zijn beschikbaar:
 
 -   **Standaard:** De standaardoptie. De berekening gebruikt alleen de velden uit de bewerkingsrelatie en vermenigvuldigt de opgegeven uitvoeringstijd met de orderhoeveelheid.
--   **Capaciteit:** De berekening omvat het veld **Capaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource. De waarde die is opgegeven voor de bron voor bedrijfsactiviteiten is de capaciteit per uur. Deze waarde wordt vermenigvuldigd met de orderhoeveelheid en de waarde in het veld **Factor** uit de bewerkingsrelatie.
+-   **Capaciteit:** De berekening omvat het veld **Capaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource. De waarde die is opgegeven voor de bron voor bedrijfsactiviteiten is de capaciteit per uur. De **Verwerkingstijd** wordt berekend als de **Orderhoeveelheid** gedeeld door **Capaciteit**.
 -   **Batch:** Een batchcapaciteit wordt berekend met behulp van gegevens uit de bewerkingsrelatie. Het aantal batches en daarmee de verwerkingstijd kan vervolgens worden berekend op basis van de orderhoeveelheid.
 -   **Resourcebatch:** Deze optie is eigenlijk hetzelfde als de optie **Batch**. De berekening omvat hierin echter het veld **Batchcapaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource.
 

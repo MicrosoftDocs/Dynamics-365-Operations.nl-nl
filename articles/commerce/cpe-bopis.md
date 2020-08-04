@@ -1,9 +1,9 @@
 ---
-title: BOPIS configureren in een Dynamics 365 Commerce-omgeving
-description: In dit onderwerp wordt uitgelegd hoe u online kopen, ophalen in winkel (BOPIS) kunt configureren, in een Microsoft Dynamics 365 Commerce-omgeving nadat deze is ingericht.
+title: BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving
+description: In dit onderwerp wordt uitgelegd hoe u online kopen, ophalen in winkel (BOPIS) kunt configureren, in een Microsoft Dynamics 365 Commerce-evaluatieomgeving nadat deze is ingericht.
 author: rubendel
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 956d66d09885d4d54655ce25b3aa7ba6a9c34cf4
-ms.sourcegitcommit: dfef2faf881b2db1bd0f016df36e2b838105312b
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3282791"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599791"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-environment"></a>BOPIS configureren in een Dynamics 365 Commerce-omgeving
-
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u online kopen, ophalen in winkel (BOPIS) kunt configureren, in een Microsoft Dynamics 365 Commerce-omgeving nadat deze is ingericht.
+In dit onderwerp wordt uitgelegd hoe u online kopen, ophalen in winkel (BOPIS) kunt configureren, in een Microsoft Dynamics 365 Commerce-evaluatieomgeving nadat deze is ingericht.
 
 ## <a name="prerequisite"></a>Vereiste
 
-Voltooi de procedures in dit onderwerp pas nadat uw preview-omgeving van Commerce is ingericht en geconfigureerd. Zie [Een preview-omgeving van Dynamics 365 Commerce inrichten](provisioning-guide.md) en [Een preview-omgeving van Dynamics 365 Commerce configureren](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning) voor meer informatie over het inrichten en configureren van uw omgeving.
+Voltooi de procedures in dit onderwerp pas nadat uw evaluatieomgeving van Commerce is ingericht en geconfigureerd. Zie [Een omgevingomgeving van Dynamics 365 Commerce inrichten](provisioning-guide.md) en [Een evaluatieomgeving van Dynamics 365 Commerce configureren](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning) voor meer informatie over het inrichten en configureren van uw omgeving.
 
 Nadat uw Commerce-omgeving is ingericht en volledig is geconfigureerd, kunt u dit onderwerp gebruiken om BOPIS-scenario's in te schakelen.
 
@@ -71,7 +70,7 @@ BOPIS-scenario's waarbij een creditcardbetaling nodig is, vereisen een hardwares
 5. Het verificatiedialoogvenster wordt weergegeven. Selecteer de rekening die gebruikmaakt van het e-mailadres dat eerder is gekoppeld aan werknemer **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Als u nog geen werknemer hebt gekoppeld aan uw identiteit, wordt de activering niet voltooid. Volg in dat geval de stappen onder de sectie "Een medewerker aan uw identiteit koppelen" in het onderwerp [Een Dynamics 365 Commerce-voorbeeldomgeving configureren](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Als u nog geen werknemer hebt gekoppeld aan uw identiteit, wordt de activering niet voltooid. Volg in dat geval de stappen onder de sectie "Een medewerker aan uw identiteit koppelen" in het onderwerp [Een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Selecteer **Alleen deze app** bij de vraag en laat uw organisatie het apparaat beheren.
 7. Wanneer de activering is voltooid, selecteert u **Aan de slag**.
@@ -144,13 +143,13 @@ Voor alle algemene problemen moet u de gebeurtenislogboeken voor Modern POS of I
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Omgevingsoverzicht Dynamics 365 Commerce-preview](cpe-overview.md)
+[Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce](cpe-overview.md)
 
-[Een previewomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
+[Een evaluatieomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
 
-[Optionele functies voor een Dynamics 365 Commerce-preview-omgeving configureren](cpe-optional-features.md)
+[Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-optional-features.md)
 
-[Veelgestelde vragen over Dynamics 365 Commerce-preview-omgeving](cpe-faq.md)
+[Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

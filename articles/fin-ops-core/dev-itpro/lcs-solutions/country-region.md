@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812083"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598176"
 ---
 # <a name="globalization-resources"></a>Globalisatieresources
 
 ## <a name="local-and-regional-deployments"></a>Lokale en regionale implementaties
 Als uw overheidsvoorschriften vereisen dat gegevens anders worden opgeslagen of anders worden onderhouden dan is vereist voor andere landen/regio's, moet u mogelijk rekening houden met vereisten voor het land of de regio tijdens de implementatiefase. De volgende resources zijn mogelijk relevant voor u:
 
-[Microsoft Dynamics 365 Finance and Operations -apps die worden geëxploiteerd door 21Vianet in China](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations -apps die worden geëxploiteerd door 21Vianet in China](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Lokalisatie en wettelijk voorgeschreven functies
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 Finance and Operations-apps bevatten functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](https://aka.ms/dynamics_365_international_availability_deck). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
+Finance and Operations-apps bevatten functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](https://aka.ms/dynamics_365_international_availability_deck). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
 
 Dit onderwerp bevat een lijst met resources waarmee u het volgende kunt doen: 
 - Meer informatie krijgen over het ontwikkelen van land-/regiospecifieke oplossingen.
@@ -66,8 +66,8 @@ De volgende resources bevatten informatie over geplande en nieuwe lokalisatiefun
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365-releaseplannen
 De [Dynamics 365-releaseplannen](https://docs.microsoft.com/business-applications-release-notes/) bevatten beschrijvingen van nieuwe en verbeterde functies die zijn gepland voor de zakelijke toepassingen en toepassingsplatforms van Dynamics 365. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Nieuw in Finance and Operations-apps
-Op de [startpagina Nieuw of gewijzigd in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) worden de functies vermeld die zijn opgenomen in specifieke releases van de Finance and Operations-apps.
+#### <a name="finance-and-operations-apps-whats-new"></a>Nieuwe functies in Finance and Operations-apps
+Op de [startpagina Nieuwe of gewijzigde functies in Finance and Operations-apps](../../fin-ops/get-started/whats-new-changed.md) worden de functies vermeld die zijn opgenomen in specifieke releases van de Finance and Operations-apps.
 
 ### <a name="electronic-reporting"></a>Elektronische rapportage
 Met het hulpmiddel voor elektronische rapportage (ER) kunt u indelingen voor elektronische documenten configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Met ER kunt u deze indelingen beheren gedurende hun hele levenscyclus. Raadpleeg een van de volgende onderwerpen voor meer informatie:

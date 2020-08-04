@@ -41,7 +41,7 @@ In een veelvoorkomend bedrijfsscenario voor Microsoft Dynamics 365-integraties m
 In deze zelfstudie worden de volgende technologieën gebruikt:
 
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)** – De hoofdgegevensbron voor medewerkers die worden geëxporteerd.
-- **[Logische apps van Azure](https://azure.microsoft.com/services/logic-apps/)** – De technologie waarmee de terugkerende exportbewerking kan worden georganiseerd en gepland.
+- **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** – De technologie waarmee de terugkerende exportbewerking kan worden georganiseerd en gepland.
 
     - **[Connectors](https://docs.microsoft.com/azure/connectors/apis-list)** – De technologie die wordt gebruikt om de logische app aan de vereiste eindpunten te koppelen.
 
@@ -83,7 +83,7 @@ Het grootste deel van de oefening bestaat uit het maken van de logische app.
 
     ![Pagina voor het maken van logische apps](media/integration-logic-app-creation-1.png)
 
-2. Start in de ontwerpfunctie voor logische apps met een lege logische app.
+2. Start in Logic Apps Designer met een lege logische app.
 3. Voeg een [trigger voor de planning met terugkeerpatroon](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) toe om de logische app elke 24 uur (of volgens een door u gewenste planning) uit te voeren.
 
     ![Dialoogvenster voor terugkeerpatroon](media/integration-logic-app-recurrence-step.png)
@@ -196,7 +196,7 @@ Als u de logische app wilt testen, selecteert u de knop **Uitvoeren** in de ontw
 
 Als er een fout wordt gerapporteerd voor een stap, selecteert u de mislukte stap in de ontwerpfunctie en bekijkt u de velden **Invoer** en **Uitvoer** voor deze stap. Spoor fouten op en pas de stap zo nodig aan om de fouten te corrigeren.
 
-In de volgende afbeelding ziet u hoe de de ontwerpfunctie voor logische apps eruitziet wanneer alle stappen van de logische app met succes zijn uitgevoerd.
+In de volgende afbeelding ziet u hoe de Logic Apps Designer eruitziet wanneer alle stappen van de logische app met succes zijn uitgevoerd.
 
 ![Geslaagde uitvoering van de logische app](media/integration-logic-app-successful-run.png)
 

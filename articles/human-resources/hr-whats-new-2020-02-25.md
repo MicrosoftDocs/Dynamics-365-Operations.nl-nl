@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 720b4e03549a059c8945bec9d27de9cdcaada488
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: e5bc232bef257e757086d37d56b0f68b80114749
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092747"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555070"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (25 februari 2020)
 
@@ -97,3 +97,10 @@ De volgende voorbeeldfuncties zijn beschikbaar vanaf 3 februari 2020:
 - **Preview-functies voor verlof en verzuim** - Zie [Preview-functies voor verlof en verzuim](hr-leave-and-absence-overview.md?leave-and-absence-preview-features) voor meer informatie.
 
 - **Preview-functie voor Vergoedingenbeheer** - Zie [Overzicht van Vergoedingenbeheer](hr-benefits-management-overview.md) voor meer informatie, inclusief bekende problemen.
+
+## <a name="see-also"></a>Zie ook
+
+[Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Het updateproces](hr-admin-setup-update-process.md)</br>
+[Functies beheren](hr-admin-manage-features.md)

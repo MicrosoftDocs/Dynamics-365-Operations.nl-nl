@@ -10,11 +10,11 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Aanmelden voor preview-abonnementen
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
-            - name: Updates van service met één versie
+            - name: Updates van One Version-service
               items:
-                - name: Overzicht van updates van service met één versie
+                - name: Overzicht van updates van One Version-service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Veelgestelde vragen over updates van service met één versie
+                - name: Veelgestelde vragen over updates van One Version-service
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
                 - name: Lifecycle-beleid voor software - cloud
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/finance/toc.json
@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Automatisering van gegevenstaak
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: ISV-oplossingen leveren met één versie
+                - name: ISV-oplossingen leveren met One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: Acceptatietests voor gebruikers maken en automatiseren
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -2540,12 +2540,14 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Voorraadrapporten
                       href: localizations/rus-inventory-reports.md
-                    - name: Overzicht van voorraadprofiel
-                      href: localizations/rus-inventory-profile-overview.md
-                    - name: Een voorraadprofiel instellen
-                      hreF: localizations/rus-set-up-inventory-profile.md
-                    - name: Een voorraadprofiel gebruiken in documenten en query's
-                      href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Voorraadprofiel
+                      items:
+                        - name: Overzicht van voorraadprofiel
+                          href: localizations/rus-inventory-profile-overview.md
+                        - name: Een voorraadprofiel instellen
+                          hreF: localizations/rus-set-up-inventory-profile.md
+                        - name: Een voorraadprofiel gebruiken in documenten en query's
+                          href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Rapportage
                   items:
                     - name: Financiële rapportage

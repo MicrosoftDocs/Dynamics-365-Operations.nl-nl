@@ -1,9 +1,9 @@
 ---
-title: Een previewomgeving voor Dynamics 365 Commerce configureren
-description: In dit onderwerp wordt uitgelegd hoe u een preview-omgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
+title: Een Dynamics 365 Commerce-evaluatieomgeving configureren
+description: In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 author: psimolin
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,25 +17,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
-ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
+ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3534062"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599719"
 ---
-# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Een previewomgeving voor Dynamics 365 Commerce configureren
-
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Een Dynamics 365 Commerce-evaluatieomgeving configureren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een preview-omgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
+In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 
 ## <a name="overview"></a>Overzicht
 
-Voltooi de procedures in dit onderwerp pas nadat uw preview-omgeving van Commerce is ingericht. Zie [Een preview-omgeving van Commerce inrichten](provisioning-guide.md) voor meer informatie over hoe u uw preview-omgeving van Commerce inricht.
+Voltooi de procedures in dit onderwerp pas nadat uw evaluatieomgeving van Commerce is ingericht. Zie [Een evaluatieomgeving van Commerce inrichten](provisioning-guide.md) voor meer informatie over hoe u uw evaluatieomgeving van Commerce inricht.
 
-Nadat uw preview-omgeving van Commerce end-to-end is ingericht, moeten extra configuratiestappen worden voltooid voordat u kunt beginnen met het evalueren van de omgeving. Als u deze stappen wilt uitvoeren, moet u Microsoft Dynamics Lifecycle Services (LCS) en Dynamics 365 Commerce gebruiken.
+Nadat uw evaluatieomgeving van Commerce end-to-end is ingericht, moeten extra configuratiestappen worden voltooid voordat u kunt beginnen met het evalueren van de omgeving. Als u deze stappen wilt uitvoeren, moet u Microsoft Dynamics Lifecycle Services (LCS) en Dynamics 365 Commerce gebruiken.
 
 ## <a name="before-you-start"></a>Voordat u begint
 
@@ -43,19 +42,20 @@ Nadat uw preview-omgeving van Commerce end-to-end is ingericht, moeten extra con
 1. Ga naar uw project.
 1. Selecteer in het bovenste menu de optie **Cloudomgevingen**.
 1. Selecteer uw omgeving in de lijst.
-1. Klik op **Volledige details** in de omgevingsgegevens rechts.
-1. Selecteer **Aanmelden** om een menu te openen en selecteer **Aanmelden bij omgeving**.
+1. Klik op **Aanmelden bij omgeving** in de omgevingsgegevens rechts. U wordt doorgestuurd naar Commerce Headquarters.
 1. Zorg ervoor dat de rechtspersoon **USRT** is geselecteerd rechtsboven.
 
-## <a name="configure-the-point-of-sale-in-lcs"></a>Het verkooppunt configureren in LCS
+Controleer tijdens het activiteiten na het inrichting in Commerce Headquarters of de rechtspersoon **USRT** altijd is geselecteerd.
+
+## <a name="configure-the-point-of-sale"></a>Het verkooppunt configureren
 
 ### <a name="associate-a-worker-with-your-identity"></a>Een medewerker aan uw identiteit koppelen
 
-Ga als volgt te werk om een medewerker te koppelen aan uw identiteit in LCS.
+Ga als volgt te werk om een medewerker te koppelen aan uw identiteit in Commerce Headquarters
 
 1. Ga in het menu links naar **Modules \> Detailhandel en commerce \> Werknemers \> Medewerkers**.
 1. Zoek en selecteer record **000713 - Andrew Collette**.
-1. Selecteer **Detailhandel** in het actievenster.
+1. Selecteer in het actievenster de optie **Commerce**.
 1. Selecteer **Bestaande identiteit koppelen**.
 1. Typ uw e-mailadres in het veld **E-mail** rechts van **Zoeken met behulp van e-mail**.
 1. Selecteer **Zoeken**.
@@ -69,21 +69,20 @@ Ga als volgt te werk om Cloud POS in LCS te activeren.
 
 1. Selecteer in het bovenste menu de optie **Cloudomgevingen**.
 1. Selecteer uw omgeving in de lijst.
-1. Klik op **Volledige details** in de omgevingsgegevens rechts.
-1. Selecteer **Aanmelden** om een menu te openen en selecteer **Aanmelden bij cloud-verkooppunt** om het verkooppunt (POS) te openen.
-1. Selecteer **Volgende**.
+1. Klik op **Aanmelden bij cloud-verkooppunt** in de omgevingsgegevens rechts.
+1. Klik op **Volgende** om het dialoogvenster **Voordat u begint** te openen.
+1. Laat het veld **Server-URL** ongewijzigd. Selecteer **Volgende**.
 1. Meld u aan met uw Microsoft Azure Active Directory (Azure AD)-account.
-1. Onder **Winkelnaam** selecteert u **San Francisco**.
-1. Selecteer **Volgende**.
+1. Selecteer onder **Winkelnaam** **San Francisco** en selecteer **Volgende**.
 1. Onder **Kassa en apparaat** selecteert u **SANFRAN-1**.
 1. Selecteer **Activeren**. U bent afgemeld en de POS-aanmeldingspagina wordt geopend.
 1. U kunt u nu aanmelden bij Cloud POS met operator-id **000713** en wachtwoord **123**.
 
 ## <a name="set-up-your-site-in-commerce"></a>Uw site instellen in Commerce
 
-Ga als volgt te werk om te beginnen met het instellen van uw voorbeeldsite in Commerce.
+Ga als volgt te werk om te beginnen met het instellen van uw evaluatiesite in Commerce.
 
-1. Meld u aan bij het beheerhulpprogramma van de site met de URL die u hebt genoteerd tijdens de initialisatie van e-Commerce tijdens het inrichten (zie [e-Commerce initialiseren](provisioning-guide.md#initialize-e-commerce)).
+1. Meld u aan bij de site builder met de URL die u hebt genoteerd tijdens de initialisatie van e-Commerce tijdens het inrichten (zie [e-Commerce initialiseren](provisioning-guide.md#initialize-e-commerce)).
 1. Selecteer **Fabrikam** om het dialoogvenster met instellingen voor de site te openen.
 1. Selecteer het domein dat u hebt ingevoerd bij het initialiseren van e-Commerce.
 1. Selecteer **Uitgebreide Fabrikam online winkel** als het standaardkanaal. Zorg ervoor dat u de **uitgebreide** online winkel selecteert.
@@ -106,18 +105,24 @@ Ga als volgt te werk om taken in Commerce in te schakelen.
     * Taak orders synchroniseren
 
 1. Gebruik het snelfilter om de taak te zoeken aan de hand van de naam.
-1. Als de status van de taak **Blokkeren** is, voert u de volgende stappen uit:
+1. Als de status van de taak **Uitvoeren** is, voert u de volgende stappen uit:
 
     1. Selecteer de record.
     1. Selecteer in het actievenster op het tabblad **Batchtaak** de optie **Status wijzigen**.
-    1. Selecteer **Wachten** en vervolgens **OK**.
+    1. Selecteer **Annuleren** en vervolgens **OK**.
+
+U kunt desgewenst ook het terugkeerinterval instellen op één (1) minuut voor de volgende taken:
+
+* E-mailmeldingtaak voor detailhandelorder verwerken
+* P-0001 taak
+* Taak orders synchroniseren
 
 ### <a name="run-full-data-synchronization"></a>Volledige gegevenssynchronisatie uitvoeren
 
-Voer de volgende stappen uit om een volledige gegevenssynchronisatie in Commerce uit te voeren.
+Voer de volgende stappen uit om een volledige gegevenssynchronisatie in Commerce Headquarters uit te voeren.
 
 1. Ga in het menu links naar **Modules \> Detailhandel en commerce \> Instelling van hoofdkantoor \> Commerce-planner \> Kanaaldatabase**.
-1. In de lijst links is het kanaal **Standaard** geselecteerd. Selecteer het andere beschikbare kanaal. Dit kanaal heeft de naam **scXXXXXXXXX**.
+1. Selecteer het kanaal met de naam **scXXXXXXXXX**.
 1. Selecteer **Volledige gegevenssynchronisatie** in het actievenster.
 1. Voer **9999** in als de distributieplanning.
 1. Selecteer **OK**.
@@ -136,19 +141,21 @@ Voor het uitvoeren van testtransacties op de site kunt u de volgende creditcardg
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Als de inrichtings- en configuratiestappen zijn voltooid, bent u klaar om uw preview-omgeving te evalueren. Gebruik de URL van het beheerhulpprogramma van de e-Commerce-site om naar de ontwerpomgeving te gaan. Gebruik de URL van de e-Commerce-site om naar de omgeving van de site van de detailhandelklant te gaan.
+Als de inrichtings- en configuratiestappen zijn voltooid, bent u klaar om uw evaluatieomgeving te gebruiken. Gebruik de site builder-URL voor de Commerce-site om naar de ontwerpomgeving te gaan. Gebruik de URL van de Commerce-site om naar de omgeving van de site van de detailhandelklant te gaan.
 
-Zie [Optionele functies voor een preview-omgeving van Commerce configureren](cpe-optional-features.md) voor meer informatie over hoe u optionele functies voor uw preview-omgeving van Commerce configureert.
+Zie [Optionele functies voor een evaluatieomgeving van Commerce configureren](cpe-optional-features.md) voor meer informatie over hoe u optionele functies voor uw evaluatieomgeving van Commerce configureert.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Omgevingsoverzicht Dynamics 365 Commerce-preview](cpe-overview.md)
+[Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce](cpe-overview.md)
 
-[Een previewomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
+[Een evaluatieomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
 
-[Optionele functies voor een Dynamics 365 Commerce-preview-omgeving configureren](cpe-optional-features.md)
+[Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-optional-features.md)
 
-[Veelgestelde vragen over Dynamics 365 Commerce-preview-omgeving](cpe-faq.md)
+[BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](cpe-bopis.md)
+
+[Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

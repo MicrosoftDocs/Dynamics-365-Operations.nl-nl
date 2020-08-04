@@ -10,11 +10,11 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: Aanmelden voor preview-abonnementen
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Updates van service met één versie
+            - name: Updates van One Version-service
               items:
-                - name: Overzicht van updates van service met één versie
+                - name: Overzicht van updates van One Version-service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Veelgestelde vragen over updates van service met één versie
+                - name: Veelgestelde vragen over updates van One Version-service
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Lifecycle-beleid voor software - cloud
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Automatisering van gegevenstaak
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ISV-oplossingen leveren met één versie
+                - name: ISV-oplossingen leveren met One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Acceptatietests voor gebruikers maken en automatiseren
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -74,6 +74,8 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (juli 2020)
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: Supply Chain Management 10.0.10 (mei 2020)
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
@@ -1355,6 +1357,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Een planningstaak annuleren
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Uitbreidbaarheid van Planningsoptimalisatie
+                  href: master-planning/planning-optimization/extensibility.md
                 - name: Problemen met Planningsoptimalisatie oplossen
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Hoofdplannen
@@ -1511,6 +1515,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nummerreeksen instellen met een wizard
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Nummerreeksen voor magazijnstromen configureren
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: Organisaties en organisatiehiërarchieën
               items:
                 - name: Overzicht van Organisaties en organisatiehiërarchieën
@@ -1817,6 +1823,10 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Producten uitsluiten van Hoofdplanning
                       href: pim/tasks/exclude-products-master-planning.md
+                - name: Goederen met twee toepassingen
+                  href: pim/dual-use.md
+                - name: Land van oorsprong
+                  href: pim/country-of-origin.md
                 - name: Een streepjescode voor een product maken
                   href: pim/tasks/create-bar-code-product.md
                 - name: De GTIN-code invoeren voor een product
@@ -2565,22 +2575,20 @@
               href: warehousing/warehouse-management-overview.md
             - name: Inkomende magazijnbewerkingen
               items:
-                - name: Ontvangsten voor de registratie en opslag
-                  items:
-                    - name: Magazijnverwerking van inkomende ladingen voor inkooporders
-                      href: warehousing/inbound-load-handling.md
-                    - name: Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: Artikelen registreren voor een artikel waarvoor basaal magazijnbeheer mogelijk is met een artikelontvangstjournaal
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: Producten cross-docken vanuit ontvangend magazijn naar winkels
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: Een locatie-instructie instellen voor wegzetten van inkooporders
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: Een werksjabloon instellen voor inkooporders
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: Locaties voor productdimensie combineren
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: Magazijnverwerking van inkomende ladingen voor inkooporders
+                  href: warehousing/inbound-load-handling.md
+                - name: Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: Artikelen registreren voor een artikel waarvoor basaal magazijnbeheer mogelijk is met een artikelontvangstjournaal
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Producten cross-docken vanuit ontvangend magazijn naar winkels
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: Een locatie-instructie instellen voor wegzetten van inkooporders
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: Een werksjabloon instellen voor inkooporders
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: Locaties voor productdimensie combineren
+                  href: warehousing/location-product-dimension-mixing.md
             - name: Uitgaande magazijnbewerkingen
               items:
                 - name: Reserveringen in magazijnbeheer
@@ -2597,15 +2605,15 @@
                   items:
                     - name: Clusterverzameling instellen
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Door systeem gestuurde clusterverzameling
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: Containervorming instellen
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Bevestiging van batch en nummerplaat
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Afdrukken van nummerplaatlabel inschakelen
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Bevestiging van orderverzameling
+                    - name: Bevestiging orderverzameling
                       href: warehousing/piece-picking-confirmation.md
                     - name: Verpakkingsmaterialen en -kosten
                       href: warehousing/pack-materials-packing-material-fees.md
@@ -2615,14 +2623,18 @@
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Magazijnwerk voor afhandeling van uitzonderingen annuleren
                       href: warehousing/cancel-warehouse-work.md
-                    - name: Door systeem gestuurde clusterverzameling
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: Door systeem bestuurde werksequentiëring
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Orderverzamelregels groeperen
                       href: warehousing/pick-line-grouping.md
                     - name: Magazijnvakken
                       href: warehousing/warehouse-slotting.md
+                    - name: Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Uitgaand sorteren
+                      href: warehousing/outbound-sorting.md
+                    - name: Put to wall - put to store
+                      href: warehousing/put-to-wall-put-to-store.md
                 - name: Aanvulling
                   items:
                     - name: Overzicht van Aanvulling
@@ -2645,6 +2657,8 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Wave-sjabloongroepering
                       href: warehousing/wave-template-grouping.md
+                    - name: Wavelabels opnieuw afdrukken en ongeldig maken
+                      href: warehousing/reprint-and-void-wave-labels.md
                 - name: Beleidsregels voor samenvoegen van zendingen
                   items:
                     - name: Beleidsregels voor samenvoegen van zendingen
@@ -2715,6 +2729,10 @@
                       href: warehousing/work-line-details.md
                     - name: Positionering van locatie nummerplaat
                       href: warehousing/location-license-plate-positioning.md
+                    - name: Werkgroep voor werk wijzigen
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: Artikelconsolidatie - locatiegebruik
+                      href: warehousing/item-consolidation-location-utilization.md
             - name: Magazijninstellingen
               items:
                 - name: Magazijnconfiguratie
@@ -2729,6 +2747,8 @@
                       href: warehousing/wave-step-codes.md
                     - name: Waveverwerking configureren
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Het afdrukken van wavelabels instellen en gebruiken
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Zendingen automatisch bijwerken
                       href: warehousing/auto-update-shipment.md
                     - name: Een locatieprofiel maken
@@ -2753,8 +2773,6 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Indeling van documentroutering voor nummerplaatlabels
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Ondersteuning mobiele streepjescodelezer
                       href: warehousing/mobile-barcode-support.md
                     - name: Magazijn voor overboekingsorders instellen
@@ -2767,6 +2785,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiele apparaten instellen voor magazijnwerk
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Streepjescodes scannen met een camera in de magazijnapp
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Nummerplaat ontvangen met de app voor magazijnbeheer
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder

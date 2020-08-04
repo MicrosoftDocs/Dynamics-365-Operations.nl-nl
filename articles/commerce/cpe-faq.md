@@ -1,9 +1,9 @@
 ---
-title: Veelgestelde vragen over de Dynamics 365 Commerce-previewomgeving
-description: Dit onderwerp biedt antwoorden op veelgestelde vragen over de preview-omgeving van Microsoft Dynamics 365 Commerce.
+title: Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce
+description: Dit onderwerp biedt antwoorden op veelgestelde vragen over de evaluatieomgeving van Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,73 +17,57 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254719"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599750"
 ---
-# <a name="dynamics-365-commerce-preview-environment-faq"></a>Veelgestelde vragen over de Dynamics 365 Commerce-previewomgeving
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp biedt antwoorden op veelgestelde vragen over de preview-omgeving van Microsoft Dynamics 365 Commerce.
+Dit onderwerp biedt antwoorden op veelgestelde vragen over de evaluatieomgeving van Microsoft Dynamics 365 Commerce.
 
-**Kan ik mijn uitnodiging voor de preview-omgeving van Commerce overzetten naar een andere tenant?**
+**Kunnen we de evaluatieomgeving van Commerce gebruiken als e-Commerce-winkel voor klanten die momenteel Retail implementeren?**
 
-Ja. Voor het overdragen van uitnodigingen kunt u het [overdrachtsformulier voor Commerce-previews](https://aka.ms/Dynamics365CommercePreviewTransferForm) gebruiken.
+Nr. De Commerce-evaluatieomgeving is alleen bedoeld voor evaluatie. Neem contact op met Microsoft als u een omgeving nodig hebt voor een klant die Retail implementeert.
 
-**Hoe lang duurt het overdragen van de uitnodiging?**
+**Kan de evaluatieomgeving van Commerce worden gebruikt om de e-Commerce-functies in te richten boven op een bestaande toepassing/omgeving die Retail implementeert?**
 
-De overdracht neemt gemiddeld ongeveer drie tot vijf werkdagen in beslag. Er kunnen echter uitzonderingen optreden.
+Nee (meestal). De onderdelen van Commerce-evaluatie zijn alleen beschikbaar voor omgevingen die overeenkomen met de configuraties die zijn opgegeven in de vereisten en inrichtingshandleiding. Bovendien zijn de vereiste basisdemogegevens niet beschikbaar in omgevingen die zijn geïmplementeerd met een oorspronkelijke release die ouder is dan 10.0.8. 
 
-**Werkt de preview-omgeving van Commerce met Dynamics 365 Finance- of Dynamics 365 Supply Chain-projecten?**
+**Wat zijn de kosten van het implementeren van de evaluatieomgeving van Commerce op Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**
 
-Nr. De preview-omgeving van Commerce werkt alleen met Dynamics 365 Retail-projecten.
+Een traditionele demo-omgeving voor Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce Headquarters (virtuele machine \[VM\]) wordt gehost in uw Azure-abonnement. U kunt de [Azure-prijscalculator](https://azure.microsoft.com/pricing/calculator/) gebruiken om deze kosten te schatten.
 
-**Kunnen we de preview-omgeving van Commerce gebruiken als e-commerce-winkel voor klanten die momenteel Retail implementeren?**
+Andere onderdelen, zoals Commerce Scale Unit, Commerce Site Builder en uw e-commerce-site zijn beschikbaar als software als een dienst (SaaS) en worden door Microsoft gehost.
 
-Nr. De preview-omgeving van Commerce is slechts de evaluatieomgeving. Neem contact op met Microsoft als u een omgeving nodig hebt voor een klant die Retail implementeert.
+**Welke Azure-regio's worden momenteel ondersteund voor de evaluatieomgeving van Commerce?**
 
-**Kan de preview-omgeving van Commerce worden gebruikt om de e-commerce-functies in te richten boven op een bestaande toepassing/omgeving die Retail implementeert?**
-
-Nr. De preview-omgeving van Commerce is momenteel alleen beschikbaar in nieuwe omgevingen die zijn geïmplementeerd op de Retail-SKU (Stock Keeping Unit) met demogegevens van versie 10.0.6.
-
-**Wat zijn de kosten van het implementeren van de preview-omgeving van Commerce op Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**
-
-Retail is het enige onderdeel dat wordt gehost in uw abonnement. Andere onderdelen, zoals Retail Cloud Scale Unit (RCSU) en e-Commerce worden gehost in Microsoft-abonnementen. U kunt de [Azure-prijscalculator](https://azure.microsoft.com/pricing/calculator/) gebruiken om deze kosten te schatten.
-
-**Welke Azure-regio's worden momenteel ondersteund voor de preview-omgeving van Commerce?**
-
-De preview-omgeving van Commerce kan alleen worden geïmplementeerd in de regio Noord-Amerika.
+De evaluatieomgeving van Commerce kan alleen worden geïmplementeerd in de regio Noord-Amerika.
 
 **Is er een downloadbare virtuele harde schijf (VHD) met de volledige OneBox VM-optie (virtuele machine)?**
 
-Dynamics 365 Retail Cloud Scale Unit (RCSU) en e-Commerce zijn volledig SaaS en moeten in de cloud worden gehost.
+Dynamics 365 Commerce en Commerce Scale Unit zijn volledig SaaS en moeten in de cloud worden gehost.
 
-**Hoe lang kan de preview-omgeving van Commerce worden gebruikt?**
+**Hoe lang kan de evaluatieomgeving van Commerce worden gebruikt?**
 
-De preview-omgeving van Commerce heeft een tijdslimiet van 30 dagen vanaf de datum waarop e-Commerce wordt ingericht.
+De Commerce-evaluatieomgeving heeft een tijdslimiet van 30 dagen na de datum waarop SaaS-componenten, zoals Commerce Scale Unit, Commerce Site Builder en uw e-commerce-site zijn ingericht.
 
-**Kan ik de tijdslimiet voor mijn preview-omgeving van Commerce verlengen?**
+**Kan ik de tijdslimiet voor mijn evaluatieomgeving van Commerce verlengen?**
 
-Ja. U contact opnemen met het ondersteuningsteam via het [formulier voor verlenging van de Commerce-preview](https://aka.ms/Dynamics365CommercePreviewExtensionForm).
-
-**Kunnen we meerdere aanvragen voor een preview-omgeving van Commerce indienen?**
-
-We verlenen een quotum van één preview-omgeving van Commerce voor elke aanvraag die wordt geaccepteerd. Neem contact op met Microsoft als u meer dan één preview-omgeving nodig hebt. Zie het volgende onderdeel voor contactgegevens.
-
-## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Contactgegevens voor preview-omgeving van Dynamics 365 Commerce
-
-Als u contact wilt opnemen met Microsoft of als u vragen of verzoeken hebt die betrekking hebben op de preview-omgeving van Commerce, bezoekt u de [Yammer-groep voor Microsoft Dynamics 365 Commerce-previews](https://aka.ms/Dynamics365CommercePreviewYammer) voor hulp.
+Verlenging van de tijds limiet wordt bij uitzondering verleend en wordt per geval beschouwd. Neem contact op met uw Microsoft-partner voor hulp.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Omgevingsoverzicht Dynamics 365 Commerce-preview](cpe-overview.md)
+[Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce](cpe-overview.md)
 
-[Een previewomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
+[Een evaluatieomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
 
-[Een Dynamics 365 Commerce-preview-omgeving configureren](cpe-post-provisioning.md)
+[Een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-post-provisioning.md)
 
-[Optionele functies voor een Dynamics 365 Commerce-preview-omgeving configureren](cpe-optional-features.md)
+[BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](cpe-bopis.md)
+
+[Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-optional-features.md)
