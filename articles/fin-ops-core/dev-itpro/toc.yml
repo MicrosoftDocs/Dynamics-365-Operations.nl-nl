@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina van nieuwe of gewijzigde functies in Platform updates
+                - name: Startpagina van nieuwe of gewijzigde functies in Platform-updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform-updates voor 10.0.13 (oktober 2020)
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform updates voor 10.0.12 (augustus 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform updates voor 10.0.11 (juli 2020)
@@ -82,6 +84,8 @@
           items:
             - name: Een strategie voor gegevensintegratie kiezen (importeren/exporteren)
               href: data-entities/integration-overview.md
+            - name: Op prioriteit gebaseerde aanvraagbeperking
+              hreF: data-entities/priority-based-throttling.md
             - name: Gegevensintegratie-API's
               items:
                 - name: REST API voor gegevensbeheerpakket
@@ -152,6 +156,8 @@
                           items:
                             - name: Entiteits- en veldtoewijzingen aanpassen
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Een rechtspersoon bewerken na instelling van twee keer wegschrijven
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: Foutbeheer en waarschuwingsmeldingen
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: Levenscyclusbeheer voor toepassing
