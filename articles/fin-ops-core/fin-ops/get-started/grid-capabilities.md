@@ -3,7 +3,7 @@ title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. De nieuwe rasterfunctie moet zijn ingeschakeld als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
 manager: AnnBe
-ms.date: 06/04/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431355"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651685"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -128,20 +128,47 @@ Als u wilt dat het systeem een waarde herkent als een expressie, start u de waar
 
 Alle volgende gebruikerssessies worden gestart met het nieuwe rasterbesturingselement ingeschakeld.
 
+## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Ontwikkelaar] Uitschakelen dat afzonderlijke pagina's het nieuwe raster gebruiken 
+Als uw organisatie een pagina vindt met problemen met het nieuwe raster, is er een API beschikbaar waarmee een afzonderlijk formulier het oude rasterbesturingselement kan gebruiken, terwijl de rest van het systeem nog steeds het nieuwe rasterbesturingselement kan gebruiken. Als u een afzonderlijke pagina van het nieuwe raster wilt afmelden, voegt u de volgende aanroep `super()` toe aan de methode `run()` van het formulier.
+
+        this.forceLegacyGrid();
+
+Deze API wordt uitgevoerd tot de release van oktober 2021 wanneer het nieuwe rasterbesturingselement verplicht wordt. Meld eventuele problemen aan Microsoft waarvoor deze API moet worden gebruikt. 
+
 ## <a name="known-issues"></a>Bekende problemen
 In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe rasterbesturingselement zolang de functie een previewstatus heeft.  
 
 ### <a name="open-issues"></a>Openstaande problemen
+-  Nadat de functie **Nieuw rasterbesturingselement** is ingeschakeld, blijven bepaalde pagina's het bestaande rasterbesturingselement gebruiken. Dit gebeurt in de volgende situaties:  
+    -  Er bestaat een kaartlijst op de pagina die wordt weergegeven in meerdere kolommen.
+    -  Er bestaat een gegroepeerde kaartlijst op de pagina.
+    -  Een rasterkolom met een niet-reagerend uitbreidbaar besturingselement.
 
-- Kaartlijsten die werden weergegeven als meerdere kolommen, worden nu als één kolom weergegeven.
-- Gegroepeerde lijsten worden niet weergegeven als groepen of in afzonderlijke kolommen.
+    Wanneer een gebruiker voor het eerst een van deze situaties aantreft, wordt een bericht weergegeven over het vernieuwen van de pagina. Nadat dit bericht is weergegeven, blijft de pagina het bestaande raster gebruiken voor alle gebruikers tot de volgende update van de productversie. Een betere afhandeling van deze scenario's zodat het nieuwe raster kan worden gebruikt, wordt overwogen voor een toekomstige update.     
 
 ### <a name="fixed-as-part-of-10013"></a>Gecorrigeerd als onderdeel van 10.0.13
 
-> [!NOTE]
-> De volgende informatie wordt verstrekt, zodat u deze op de juiste manier kunt plannen. Meer informatie over de gerichte releaseplanning van versie 10.0.13 vindt u in [Beschikbaarheid van serviceupdate](../../fin-ops/get-started/public-preview-releases.md).
-
-- [KB 4563317] Er worden geen knopinfo weergegeven voor afbeeldingen.
+-  [Bug 470173] Selectievakjes in inactieve rijen in-/uitschakelen als op de witruimte in de cel wordt geklikt
+-  [Bug 474848] Verbeterde voorbeelden met rasters worden niet weergegeven
+-  [Bug 474851] Hyperlinks in verwijzingsgroepbesturingselementen werken niet 
+-  [Bug 471777] U kunt in een raster geen velden selecteren om een mobiele app te bewerken of te maken
+-  [KB 4569441] Problemen met het weergeven van kaartlijsten met meerdere kolommen, knopinfo op afbeeldingen en weergaveopties in sommige velden
+-  [KB 4575279] Niet alle gemarkeerde rijen worden verwijderd in het algemene journaal
+-  [KB 4575233] Weergaveopties worden niet hersteld nadat naar een andere rij is verplaatst
+-  [KB 4571095] Boeking van productontvangst vindt plaats wanneer u per ongeluk op ENTER drukt (juiste verwerking van de standaardactie van een pagina)
+-  [KB 4575437] Zoekopdrachten met bewerkbare besturingselementen worden onverwacht gesloten
+-  [KB 4569418] Dubbele regel gemaakt in het leverschemaformulier
+-  [KB 4575435] Verbeterd voorbeeld blijft soms staan wanneer de muisaanwijzer zich niet bij het veld bevindt
+-  [KB 4575434] Opzoeken wordt niet gefilterd wanneer het veld is gewijzigd
+-  [KB 4575430] Waarden in wachtwoordvelden worden niet gemaskeerd in het raster
+-  [KB 4569438] 'Verwerking is gestopt vanwege een validatieprobleem' wordt weergegeven nadat regels zijn gemarkeerd tijdens het vereffenen van leverancierstransacties
+-  [KB 4569434] Het vernieuwen van het formulier rechtspersonen resulteert in minder records
+-  [KB 4575297] Focus gaat steeds naar taakregistratievenster bij het bewerken en met Tab doorlopen van een raster
+-  [KB 4566773] Correctietransacties die niet als negatief worden weergegeven op boekstuktransactiequery 
+-  [KB 4575288] Focus wordt opnieuw ingesteld op de actieve rij bij het selecteren van de rand tussen rijen in een eenvoudige lijst
+-  [KB 4575287] Focus keert niet terug naar de eerste kolom wanneer u de pijl-omlaag gebruikt om een nieuwe rij te maken in journalen
+-  [KB 4564819] Kan geen regels in een vrije-tekstfactuur verwijderen (omdat de gegevensbron ChangeGroupMode=ImplicitInnerOuter)
+-  [KB 4563317] Knopinfo/verbeterde voorbeelden worden niet weergegeven voor afbeeldingen
 
 ### <a name="fixed-as-part-of-10012"></a>Gecorrigeerd als onderdeel van 10.0.12
 
@@ -158,6 +185,7 @@ In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe
 - [KB 4562647] De focus wordt opnieuw ingesteld op het eerste besturingselement in het dialoogvenster **Publiceren** nadat een nieuwe rij is toegevoegd in het raster met beveiligingsrollen.
 - [KB 4563310] Het uitgebreide voorbeeld wordt niet gesloten nadat een rij is gewijzigd.
 - [KB 4563313] Er treedt een onverwachte clientfout op in Internet Explorer wanneer een waarde wordt geselecteerd in een zoekopdracht.
+- [KB 4564557] Zoekopdrachten en vervolgmenu's worden niet geopend in Internet Explorer
 - [KB 4563324] Navigatie werkt niet nadat het werkgebied **Personeelsbeheer** is geopend.
 
 ### <a name="fixed-as-part-of-10011"></a>Gecorrigeerd als onderdeel van 10.0.11

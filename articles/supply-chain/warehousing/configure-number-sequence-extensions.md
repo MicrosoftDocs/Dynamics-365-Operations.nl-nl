@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3ee74ba108008ccef53fe3b904c71ddf5f51afb7
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 2f4506d2c1808198d4b10e50f4635bcc21d934e1
+ms.sourcegitcommit: 0f877ee4b53cfb002b179a53a67c4f9adae354bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546419"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3640394"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Nummerreeksen voor magazijnstromen configureren
 
@@ -36,7 +36,7 @@ Dit functie voegt de volgende functionaliteit toe:
 - Vrachtbrief-id's (BOL) kunnen vooraf worden gegenereerd.
 - Een unieke nummerreeks kan worden gegenereerd voor SSCC-nummers (Serial Shipping Container Code).
 - Voor vrachtbrief- en SSCC-nummers kunnen GS1-nummerreeksen worden gemaakt. De functie voegt standaardondersteuning toe voor de nummerplaat-id's, container-id's, wavelabel-id's en vrachtbrief-Id's.
-- De configuratie van de id-nummers van nummerplaten is flexibel. U kunt bijvoorbeeld kunstmatige intelligentie (AI) opnemen of uitsluiten, zoals voorloopnullen (00).
+- De configuratie van de id-nummers van nummerplaten is flexibel. U kunt bijvoorbeeld toepassings-id's (AI) opnemen of uitsluiten, zoals voorloopnullen (00).
 
 Deze functionaliteit maakt het efficiënter om labels van dozen te ondersteunen en om nieuwe nummers aan te passen die door het systeem worden gegenereerd.
 

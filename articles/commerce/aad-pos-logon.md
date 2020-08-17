@@ -3,7 +3,7 @@ title: Azure Active Directory-verificatie inschakelen voor POS-aanmelding
 description: In dit onderwerp wordt uitgelegd hoe u de aanmeldingservaring voor het Microsoft Dynamics 365 Commerce-verkooppunt (POS) zo configureert dat Azure Active Directory-verificatie wordt gebruikt.
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410030"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641028"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Azure Active Directory-verificatie inschakelen voor POS-aanmelding
 [!include [banner](includes/banner.md)]
@@ -63,6 +63,9 @@ Voer de volgende stappen uit om een Azure AD-account aan een werknemer te koppel
 1. Selecteer de Azure AD- account die wordt geretourneerd en klik op **OK**.
 
 De velden **Alias**, **UPN** en **Externe sub-id** op het tabblad **Commerce** van de pagina met werknemersgegevens wordt ingevuld.
+
+> [!NOTE]
+> Nadat een werknemerrecord is bijgewerkt, bijvoorbeeld als een nieuwe Azure AD-account wordt gekoppeld, een wachtwoord wordt gewijzigd of een adresboek van een werknemer wordt bijgewerkt, wordt aangeraden om distributieplanning **1060** (**personeel**) uit te voeren om de meest recente personeelsgegevens naar het kanaal te synchroniseren. Op die manier kan de POS-toepassing de juiste gegevens ophalen voor gebruikersverificatie en verificatiecontrole.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

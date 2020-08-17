@@ -3,7 +3,7 @@ title: Parameters voor kredietbeheer instellen
 description: In dit onderwerp worden de opties beschreven die u kunt gebruiken om kredietbeheer te configureren om tegemoet te komen aan de vereisten van uw bedrijf.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: c4930d346ddc4679e6a3196c5f35adb598ed38c1
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154523"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651900"
 ---
 # <a name="credit-management-parameters-setup"></a>Parameters voor kredietbeheer instellen
 
@@ -34,7 +34,7 @@ Er zijn vier sneltabbladen in de sectie **Krediet** waar u de parameters voor kr
 
 ### <a name="credit-holds"></a>Kredietblokkeringen
 
-- Stel de optie **Toestaan dat verkooporderwaarde wordt bewerkt nadat orderwachtstand is vrijgegeven** in op **Ja** om te vereisen dat de boekingsregels opnieuw worden gecontroleerd als de verkooporderwaarde (de berekende prijs) wordt gewijzigd nadat de verkooporder is vrijgegeven vanuit de wachtstandenlijst. .
+- Stel de optie **Toestaan dat verkooporderwaarde wordt bewerkt nadat orderwachtstand is vrijgegeven** in op **Nee** om te vereisen dat de boekingsregels opnieuw worden gecontroleerd als de verkooporderwaarde (de berekende prijs) is verhoogd nadat de verkooporder is vrijgegeven vanuit de wachtstandenlijst. .
 - Selecteer in het veld **Redenen voor geannuleerde orders** de reden van de vrijgave die standaard wordt gebruikt wanneer een verkooporder wordt geannuleerd die in de wachtstand voor kredietbeheer stond.
 - Stel de optie **Kredietlimiet van kredietgroepen van klant controleren** in op **Ja** als u de kredietlimiet van een kredietgroep van klant wilt controleren wanneer de klant voor een verkooporder tot een kredietgroep van klant behoort. De kredietlimiet voor de groep wordt gecontroleerd en als deze voldoende is, wordt de kredietlimiet voor de klant gecontroleerd.
 - Stel de optie **Kredietlimiet controleren wanneer betalingsvoorwaarden veranderen** in op **Ja** als u wilt dat de classificatie van de betalingsvoorwaarden wordt gecontroleerd om na te gaan of de betalingsvoorwaarden op de verkooporder verschillen van de standaardbetalingsvoorwaarden voor de klant. Als de nieuwe betalingsvoorwaarden een hogere classificatie hebben dan de oorspronkelijke betalingsvoorwaarden, wordt de order in de wachtstand voor kredietbeheer geplaatst.

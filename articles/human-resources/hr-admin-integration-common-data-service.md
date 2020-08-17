@@ -3,7 +3,7 @@ title: Common Data Service-integratie configureren
 description: U kunt de integratie tussen Common Data Service en Dynamics 365 Human Resources in- of uitschakelen. U kunt ook synchronisatiegegevens weergeven, traceringsgegevens wissen en een entiteit opnieuw synchroniseren als hulp bij het oplossen van problemen tussen de twee omgevingen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431309"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621299"
 ---
 # <a name="configure-common-data-service-integration"></a>Common Data Service-integratie configureren
 
@@ -66,6 +66,9 @@ Mogelijk wilt u integratie in de volgende situaties uitschakelen:
 - Als u de integratie wilt uitschakelen, stelt u de optie in op **Nee**.
 
 [![De Common Data Service-integratie in- of uitschakelen](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> Het wordt nadrukkelijk aanbevolen om Common Data Service-integratie uit te schakelen tijdens het uitvoeren van gegevensmigratietaken. Grote gegevensuploads kunnen de prestaties aanzienlijk beïnvloeden. Het uploaden van 2000 werknemers kan bijvoorbeeld enkele uren duren wanneer integratie is ingeschakeld, en minder dan een uur wanneer het is uitgeschakeld. De getallen die in dit voorbeeld worden gegeven, zijn alleen voor demonstratiedoeleinden. De exacte hoeveelheid tijd die nodig is voor het importeren van records kan sterk variëren op basis van een groot aantal factoren.
 
 ## <a name="view-data-integration-details"></a>Details van de gegevensintegratie weergeven
 

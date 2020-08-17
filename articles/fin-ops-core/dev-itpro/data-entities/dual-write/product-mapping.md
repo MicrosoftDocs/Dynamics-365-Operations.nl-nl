@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173195"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621323"
 ---
 # <a name="unified-product-experience"></a>Uniforme productervaring
 
@@ -86,7 +86,7 @@ In dit model wordt het product vertegenwoordigd door de combinatie van twee enti
 Omdat het product als een SKU wordt voorgesteld, kunt u de concepten van afzonderlijke producten, productmodellen en productvarianten op de volgende manier vastleggen in Common Data Service:
 
 - **Producten met subtype product** zijn producten die door zichzelf worden gedefinieerd. Er hoeven geen dimensies te worden gedefinieerd. Een voorbeeld is een specifiek boek. Voor deze producten wordt één record gemaakt in de entiteit **Product** en één record in de entiteit **msdyn\_sharedproductdetails**. Er wordt geen record met een productfamilie gemaakt.
-- **Productmodellen** worden gebruikt als algemene producten die de definitie bevatten en regels die het gedrag in bedrijfsprocessen bepalen. Op basis van deze definities kunnen verschillende producten worden gegenereerd die productvarianten worden genoemd. T-shirt is bijvoorbeeld het productmodel dat kleur en maat als dimensies kan hebben. Er kunnen varianten worden vrijgegeven die verschillende combinaties van deze dimensies hebben, zoals een klein blauw T-shirt of een middelgroot groen T-shirt. Bij de integratie wordt één record per variant gemaakt in de producttabel. Deze record bevat de specifieke gegevens over varianten, zoals de verschillende dimensies. De algemene informatie voor het product wordt opgeslagen in de entiteit **msdyn\_sharedproductdetails**. (Deze algemene informatie wordt opgeslagen in het productmodel.) Daarnaast wordt één record met de productfamilie gemaakt per productmodel. De productmodelgegevens worden gesynchroniseerd met Common Data Service zodra het vrijgegeven productmodel wordt gemaakt (maar voordat varianten worden vrijgegeven).
+- **Productmodellen** worden gebruikt als algemene producten die de definitie bevatten en regels die het gedrag in bedrijfsprocessen bepalen. Op basis van deze definities kunnen verschillende producten worden gegenereerd die productvarianten worden genoemd. T-shirt is bijvoorbeeld het productmodel dat kleur en maat als dimensies kan hebben. Er kunnen varianten worden vrijgegeven die verschillende combinaties van deze dimensies hebben, zoals een klein blauw T-shirt of een middelgroot groen T-shirt. Bij de integratie wordt één record per variant gemaakt in de producttabel. Deze record bevat de specifieke gegevens over varianten, zoals de verschillende dimensies. De algemene informatie voor het product wordt opgeslagen in de entiteit **msdyn\_sharedproductdetails**. (Deze algemene informatie bevindt zich in het productmodel.) De productmodelgegevens worden gesynchroniseerd met Common Data Service zodra het vrijgegeven productmodel wordt gemaakt (maar voordat varianten worden vrijgegeven).
 - **Verschillende producten** verwijzen naar alle subtypeproducten van het product en alle productvarianten. 
 
 ![Gegevensmodel voor producten](media/dual-write-product.png)

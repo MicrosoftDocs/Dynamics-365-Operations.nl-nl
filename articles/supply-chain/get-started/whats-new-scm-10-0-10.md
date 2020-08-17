@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: e9ca2d2cd018777b4c5c01fb10d63505af3940c4
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268765"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652102"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.10 (mei 2020)
 
@@ -39,11 +39,11 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](https://docs.microsoft.com/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
 - [Verbetering in het gebruik van catch weight-labels met magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
-- [Verbeteringen in het beheer van binnenkomende ladingen voor magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement): zie [Magazijnverwerking van inkomende ladingen voor inkooporders](../warehousing/inbound-load-handling.md) voor meer informatie.
-- [Verbeteringen in etiketten afdrukken voor magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management): zie [Indeling van documentroutering voor nummerplaatlabels](../warehousing/document-routing-layout-for-license-plates.md) voor meer informatie.
+- [Verbeteringen in het beheer van binnenkomende ladingen voor magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Zie voor meer informatie [Magazijnverwerking van inkomende ladingen voor inkooporders](../warehousing/inbound-load-handling.md).
+- [Verbeteringen in etiketten afdrukken voor magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Zie voor meer informatie [Indeling van documentroutering voor nummerplaatlabels](../warehousing/document-routing-layout-for-license-plates.md).
 - [Hoofdplanning bevat artikelen met voorhanden voorraad wanneer voorverwerkingsfilters zijn ingeschakeld](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Nieuwe gegevensentiteiten voor het productiegebied](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Kwaliteitsbeheer voor magazijnprocessen:](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) zie [Kwaliteitsbeheer voor magazijnprocessen](../inventory/quality-management-for-warehouses-processes.md) voor meer informatie.
+- [Kwaliteitsbeheer voor magazijnprocessen](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Zie voor meer informatie [Kwaliteitsbeheer voor magazijnprocessen](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

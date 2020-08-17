@@ -3,7 +3,7 @@ title: Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 description: Dit onderwerp biedt een overzicht van verbeteringen die zijn aangebracht in de functies voor het zoeken van producten en klanten in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 2b4c17b41056a35c2d2caaedb4f52998179b3c3e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022076"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628904"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 
@@ -95,6 +95,9 @@ Bij een externe klantzoekopdracht wordt de klant-ID niet weergegeven voor klante
 
 Zoekopdrachten die zijn gebaseerd op het telefoonnummer zijn vereenvoudigd. Deze zoekopdrachten negeren nu speciale tekens, zoals spaties, afbreekstreepjes en haken, die mogelijk zijn toegevoegd wanneer de klant is gemaakt. Daarom kunnen kassiers de indeling negeren van het telefoonnummer dat ze zoeken. Ze kunnen ook zoeken naar klanten door een gedeeltelijk telefoonnummer te typen. Als een telefoonnummer speciale tekens bevat, kan het ook worden gevonden door te zoeken naar de nummers die worden weergegeven na de speciale tekens. Als een telefoonnummer van een klant bijvoorbeeld is ingevoerd als **123-456-7890**, kan een kassamedewerker de klant zoeken door **123**, **456**, **7890** of **1234567890** te typen of door de eerste paar cijfers van het telefoonnummer in te voeren.
 
+> [!NOTE]
+> Een klant kan meerdere telefoonnummers en meerdere e-mailadressen hebben. Het klantzoekalgoritme doorzoekt ook deze secundaire e-mailadressen en telefoonnummers, maar de primaire e-mail en het telefoonnummer worden alleen weergegeven op de pagina met klantzoekresultaten. Dit kan leiden tot verwarring omdat de geretourneerde klantresultaten niet het gezochte e-mailadres of telefoonnummer weergeven. In een toekomstige versie gaan we het scherm met klantzoekresultaten verbeteren om deze gegevens weer te geven.
+
 De traditionele zoekopdracht voor klanten kan tijdrovend zijn, omdat er meerdere velden worden doorzocht. Kassiers kunnen in plaats daarvan nu zoeken in één klanteigenschap, zoals de naam, het e-mailadres of het telefoonnummer. De eigenschappen waarvan het klantzoekalgoritme gebruikmaakt, staan bekend als de *klantzoekcriteria*. De systeembeheerer kan eenvoudig een of meer criteria configureren als snelkoppelingen die op het POS worden weergegeven. Omdat de zoekactie is beperkt tot één criteriu, worden alleen de relevante zoekresultaten weergegeven en zijn de prestaties veel beter dan met de standaard zoekopdracht voor klanten. In de volgende afbeelding ziet u de snelkoppelingen voor klant zoeken op het POS.
 
 ![Snelkoppelingen voor zoeken naar klant](./media/SearchShortcutsPOS.png "Snelkoppelingen voor zoeken naar klant")
@@ -114,3 +117,4 @@ Het veld **Weergavevolgorde** bepaalt de volgorde waarin de snelkoppelingen word
 In een aanstaande release van Commerce kunnen detailhandelaren de standaardzoekmodus voor klanten in POS instellen op **In alle winkels zoeken**. Deze configuratie kan handig zijn in scenario's waar klanten die buiten POS zijn gemaakt onmiddellijk moeten worden doorzocht (bijvoorbeeld zelfs voordat de distributietaak wordt uitgevoerd). De nieuwe optie **Standaardzoekmodus voor klanten** is beschikbaar in het POS-functionaliteitsprofiel. Stel deze optie in op **Aan** om de standaardzoekmodus in te stellen op **In alle winkels zoeken**. Bij elke zoekpoging van klanten wordt vervolgens een realtime aanroep naar het hoofdkantoor uitgevoerd.
 
 Om onverwachte problemen met prestaties te voorkomen, wordt deze configuratie verborgen achter een flighting-markering met de naam **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Als de instelling **Standaardzoekmodus voor klanten** in de gebruikersinterface moet worden weergegeven, moet de detailhandelaar dus een ondersteuningsticket maken voor de UAT- (User Acceptance Testing) en productieomgevingen. Nadat het ticket is ontvangen, werkt het technisch team samen met de detailhandelaar om ervoor te zorgen dat de detailhandelaar de tests uitvoert in de niet-productieomgeving om de prestaties te beoordelen en eventuele vereiste optimalisaties te implementeren.
+

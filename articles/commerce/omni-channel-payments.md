@@ -3,7 +3,7 @@ title: Overzicht van betalingen voor meerdere kanalen
 description: Dit onderwerp biedt een overzicht van betalingen voor meerdere kanalen in Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2251e523f7dfa3a06f0c45a4e156dbe097587f9a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022192"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613172"
 ---
 # <a name="omni-channel-payments-overview"></a>Overzicht van betalingen voor meerdere kanalen
 
@@ -68,11 +68,13 @@ De volgende onderdelen en installatiestappen zijn vereist:
 
 - **eCommerce-integratie:** een integratie met Commerce is vereist ter ondersteuning van scenario's waarin een order afkomstig is uit een online winkel. Zie [e-Commerce platform software development kit (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk) voor meer informatie over de SDK Retail e-Commerce. In een demo-omgeving ondersteunt de referentiewinkel scenario's voor betalingen voor meerdere kanalen. 
 - **Configuratie van online betalingen**: de instellingen van het online kanaal moeten een betalingsconnector bevatten die is bijgewerkt ter ondersteuning van betalingen voor meerdere kanalen. U kunt ook de kant-en-klare betalingsconnector gebruiken. Zie [Adyen-betalingsconnector](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce) voor informatie over het configureren van de Adyen-betalingsconnector voor online winkels. Naast de installatiestappen voor e-commerce die in dat onderwerp worden beschreven, moet de parameter **Opslaan van betalingsgegevens toestaan in e-commerce** zijn ingesteld op **Waar** in de instellingen voor de Adyen-connector. 
-- **Configuratie van betalingen voor meerdere kanalen**: ga in de back-office naar **Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde Commerce-parameters**. Stel vervolgens op het tabblad **Betalingen voor meerdere kanalen** de optie **Betalingen voor meerdere kanalen gebruiken** in op **Ja**.
+- **Configuratie van betalingen voor meerdere kanalen**: ga in de back-office naar **Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde Commerce-parameters**. Stel vervolgens op het tabblad **Betalingen voor meerdere kanalen** de optie **Betalingen voor meerdere kanalen gebruiken** in op **Ja**. In Commerce versies 10.0.12 en hoger bevindt deze instelling zich in het werkgebied **Functiebeheer**. Selecteer de functie **Betalingen voor meerdere kanalen** en klik op **Nu inschakelen**. 
 - **Betalingsservices:** het callcenter gebruikt de standaardbetalingsconnector op de pagina **Betalingsservices** om betalingen te verwerken. Ter ondersteuning van scenario's, zoals 'kopen in callcenter, ophalen in winkel' wilt ondersteunen, moet deze standaardbetalingsconnector de Adyen-betalingsconnector of een betalingsconnector zijn die voldoet aan de implementatievereisten voor betalingen voor meerdere kanalen.
 - **EFT-service** : betalingen via een betalingsterminal moeten worden ingesteld op het sneltabblad **EFT-service** van het hardwareprofiel. De Adyen-connector ondersteunt kant-en-klare betalingen voor meerdere kanalen. Andere betalingsconnectors die de interface **iNamedRequestHandler** ondersteunen, kunnen ook worden gebruikt als ze betalingen voor meerdere kanalen ondersteunen.
 - **Beschikbaarheid van betalingsconnector:** wanneer een order wordt ingetrokken, bevatten de regels van de betalingsmethode die met de order worden ingetrokken de naam van de betalingsconnector die is gebruikt voor het maken van de autorisaties die aan die order zijn gekoppeld. Wanneer de order wordt voltooid, probeert de SDK Betalingen dezelfde connector te gebruiken die is gebruikt om de oorspronkelijke autorisatie te maken. Daarom moet een betalingsconnector met dezelfde zakelijke eigenschappen beschikbaar zijn voor registratie. 
 - **Kaarttypen:** scenario's met betalingen voor meerdere kanalen werken alleen naar behoren als voor elk kanaal dezelfde typen betalingsmethoden zijn ingesteld die voor meerdere kanalen kunnen worden gebruikt. Hierbij gaat het onder andere om betalingsmethode-id' en kaarttype-id's. Als het type betalingsmethode **Kaarten** bijvoorbeeld de id **2** heeft in de instelling van de online winkel, moet deze dezelfde id hebben in de instelling van de detailhandelwinkel. Dezelfde vereiste geldt voor kaarttype-id's. Als kaartnummer **12** is ingesteld op **VISA** in de online winkel, moet dezelfde id worden ingesteld voor de detailhandelwinkel. 
+- Het Retail Modern POS voor Windows of Android met ingebouwd hardwarestation   -of-
+- Modern POS voor iOS of cloud-POS met verbonden, gedeeld hardwarestation. 
 
 ### <a name="basic-principle-supporting-omni-channel-payments"></a>Basisprincipe voor het ondersteunen van betalingen voor meerdere kanalen
 
@@ -100,8 +102,10 @@ In de volgende secties worden de stappen voor elk scenario beschreven en wordt a
 Voordat u begint, moet u ervoor zorgen dat aan de volgende voorwaarden wordt voldaan:
 
 - U hebt een referentiewinkel waar de Adyen-connector is geconfigureerd.
-- De optie **Betalingen voor meerdere kanalen** op de pagina **Gedeelde Commerce-parameters** wordt ingesteld op **Waar**.
+- De optie **Betalingen voor meerdere kanalen** op de pagina **Gedeelde Commerce-parameters** wordt ingesteld op **Waar**. In latere versies wordt deze instelling verplaatst naar het werkgebied **Functiebeheer**, waar u de functie **Betalingen voor meerdere kanalen** kunt selecteren en op **Nu inschakelen** kunt klikken. 
 - De Adyen-betalingsconnector is geconfigureerd voor de Houston POS-kassa.
+- Het Retail Modern POS voor Windows of Android met ingebouwd hardwarestation   -of-
+- Modern POS voor iOS of cloud-POS met verbonden, gedeeld hardwarestation. 
 
 Voer de volgende stappen uit om het scenario uit te voeren.
 
@@ -229,3 +233,5 @@ Wanneer een order met meerdere betalingsmethoden en meerdere regels wordt opgeha
 
 - [Veelgestelde vragen over betalingen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+

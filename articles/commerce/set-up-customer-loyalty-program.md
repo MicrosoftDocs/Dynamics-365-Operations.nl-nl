@@ -3,7 +3,7 @@ title: Loyaliteitsoverzicht
 description: In dit onderwerp worden de loyaliteitsmogelijkheden in Dynamics 365 Commerce en de bijbehorende instellingsstappen beschreven om de detailhandelaar te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 337ede63cb9175f2674bae8f2caaac5f1ba5f5cb
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fd0ceefe1890214ab5fe2f619f6bf8ce718dec11
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022168"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613198"
 ---
 # <a name="loyalty-overview"></a>Overzicht van loyaliteit
 
@@ -55,7 +55,7 @@ De volgende tabel beschrijft elke component en waar deze in de loyaliteitsinstel
 | Kortingen instellen (vereiste)                  | Stel de kortingen in die u aan uw loyaliteitsklanten aanbiedt. Bijvoorbeeld, u kunt 5 procent korting op alle kledingproducten bieden. | Kortingen moeten aan prijsgroepen worden toegevoegd voordat ze in een loyaliteitsprogramma kunnen worden opgenomen. Prijsgroepen worden toegewezen aan loyaliteitsprogramma's en loyaliteitsrijen. |
 | Prijsgroepen instellen (vereiste)               | Prijsgroepen worden gebruikt om prijzen en kortingen voor producten te maken en te beheren. Stel de prijsgroepen in die de kortingen bevatten die op uw loyaliteitsprogramma's van toepassing zijn. | Prijsgroepen worden toegewezen aan loyaliteitsprogramma's en loyaliteitsprogrammarijen. |
 | Kanalen instellen (vereiste)                   | Handelskanalen zijn de winkels die deelnemen aan uw loyaliteitsprogramma's, zoals een fysieke winkel, een online winkel of een callcenter. U moet uw kanalen instellen voordat u er loyaliteitsprogramma's kunt aan toewijzen. | U wijst kanalen toe aan een loyaliteitsprogramma als het kanaal aan het loyaliteitsprogramma deelneemt. |
-| De loyaliteitsbetalingsmethode instellen (vereiste) | Voordat een loyaliteitskaart kan worden gebruikt op een kassa en er loyaliteitspunten kunnen worden ingewisseld als onderdeel van een loyaliteitsprogramma, moet u een betalingsmethode instellen. U moet ook de loyaliteitsbetalingsmethode aan het kanaal toevoegen voordat klanten hun loyaliteitspunten kunnen inruilen als betaling voor producten. | Stel een betalingsmethode in van het type loyaliteit, en wijs vervolgens de loyaliteitsbetalingsmethode toe aan de kanalen die aan het loyaliteitsprogramma deelnemen. |
+| De loyaliteitsbetalingsmethode instellen (vereiste) | Om ervoor te zorgen dat de loyaliteitspunten in elk kanaal kunnen worden ingewisseld, zoals fysieke winkels, online winkels of call centers, moet u het opslaglocatiebereik instellen voor de loyaliteitskaarten op de pagina **Kaartnummers**. | Stel een betalingsmethode in van het type loyaliteit, en wijs vervolgens de loyaliteitsbetalingsmethode toe aan de kanalen die aan het loyaliteitsprogramma deelnemen. |
 | Datumintervallen instellen                            | De datumintervallen bieden een flexibele manier om de periode in te stellen die op loyaliteitsrijen van toepassing is. Gebruik datumintervallen om op te geven hoe lang een klant in een rij kan blijven of hoe lang een klant een activiteit moet uitvoeren om voor een rij in aanmerking te komen. | Datumintervallen zijn alleen van toepassing als u rijen in uw loyaliteitsprogramma's gebruikt. U selecteert het datuminterval dat van toepassing is op programmarijen, en ook de datumintervallen die gelden voor programmarijregels. |
 | Beloningspunten instellen                             | Beloningspunten zijn de types beloning die u uw klanten aanbiedt. Beloningenpunten kunnen inruilbaar of niet-inruilbaar zijn. Inruilbare beloningspunten kunnen worden ingeruild voor producten. Niet-inruilbare beloningspunten worden gebruikt om zaken bij te houden of om een klant in een andere rij in een loyaliteitsprogramma te plaatsen. | Er wordt verwezen naar beloningspunten in rijregels, en deze worden gebruikt om een klant aan een specifieke rij toe te wijzen. Er wordt ook naar de beloningspunten verwezen in loyaliteitsschema's voor verdien- en inruilregels. Bij verdienregels geeft u de beloningen op die een klant kan verdienen voor een specifieke activiteit. In inruilregels, geeft u de beloning op die de klant kan krijgen. |
 | Loyaliteitsprogramma's instellen                          | Loyaliteitsprogramma's zijn belangrijkste loyaliteitsrechtpersoon die u aanbiedt. Aan elk loyaliteitsprogramma kunnen ook loyaliteitsrijen zijn toegewezen. Kortingen en de prijsgroepen worden toegewezen aan de loyaliteitsprogramma's op programmaniveau of op rijniveau. | U maakt loyaliteitsschema's voor uw loyaliteitsprogramma's. U wijst loyaliteitskaarten toe aan uw loyaliteitsprogramma's, en loyaliteitskaarten kunnen aan een klant worden toegewezen. Kanalen nemen deel aan de loyaliteitsprogramma's die aan de loyaliteitsschema's worden toegewezen. Elke klant die een loyaliteitskaart heeft, kan deelnemen aan de loyaliteitsprogramma's die aan de kaart zijn toegewezen. |

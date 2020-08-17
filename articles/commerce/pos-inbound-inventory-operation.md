@@ -3,7 +3,7 @@ title: Inkomende voorraadbewerking in POS
 description: In dit onderwerp worden de mogelijkheden van inkomende voorraadbewerking van het verkooppunt (POS) beschreven.
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
+ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551596"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3627533"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Inkomende voorraadbewerking in POS
 
@@ -33,7 +33,7 @@ ms.locfileid: "3551596"
 In Microsoft Dynamics 365 Commerce versie 10.0.10 en hoger worden inkomende en uitgaande bewerkingen op het verkooppunt (POS) vervangen door de bewerking voor orderverzameling en ontvangst.
 
 > [!NOTE]
-> In versie 10.0.10 en hoger worden alle nieuwe functies in de POS-toepassing die verband houden met de ontvangst van winkelvoorraad op basis van inkooporders en transferorders, toegevoegd aan de POS-bewerking voor **Inkomende bewerking**. Als u momenteel orderverzameling en ontvangst in POS gebruikt, kunt u het beste een strategie ontwikkelen voor het overbrengen van deze bewerking naar de nieuwe inkomende en uitgaande bewerkingen. Hoewel de orderverzamelings- en ontvangstbewerking niet uit het product wordt verwijderd, vinden er geen verdere investeringen in die bewerking plaats, vanuit functioneel of prestatieperspectief, na versie 10.0.9.
+> In Commerce versie 10.0.10 en hoger worden alle nieuwe functies in de POS-toepassing die verband houden met de ontvangst van winkelvoorraad op basis van inkooporders en transferorders, toegevoegd aan de POS-bewerking voor **Inkomende bewerking**. Als u momenteel orderverzameling en ontvangst in POS gebruikt, kunt u het beste een strategie ontwikkelen voor het overbrengen van deze bewerking naar de nieuwe inkomende en uitgaande bewerkingen. Hoewel de orderverzamelings- en ontvangstbewerking niet uit het product wordt verwijderd, vinden er geen verdere investeringen in die bewerking plaats, vanuit functioneel of prestatieperspectief, na versie 10.0.9.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Vereiste: een asynchroon documentraamwerk configureren
 
@@ -153,6 +153,20 @@ Gebruik de functie **Ontvangst annuleren** op de appbalk alleen als u het docume
 Als u voorraad ontvangt, kunt u de functie **Ontvangst onderbreken** gebruiken als u het ontvangstproces tijdelijk wilt onderbreken. Mogelijk wilt u bijvoorbeeld een andere bewerking gaan uitvoeren vanaf het POS, zoals het bellen naar een klant of het vertragen van de boeking van de ontvangst.
 
 Wanneer u **Ontvangst onderbreken** selecteert, wordt de status van het document gewijzigd in **Onderbroken**. Gebruikers weten dan dat er gegevens voor het document zijn ingevoerd, maar dat het document nog niet is doorgevoerd. Wanneer u klaar bent om het ontvangstproces te hervatten, selecteert u het onderbroken document en selecteert u vervolgens **Orderdetails**. Alle hoeveelheden voor **Nu ontvangen** die eerder zijn opgeslagen, blijven behouden en kunnen worden bekeken in de weergave **Volledige orderlijst**.
+
+### <a name="review"></a>Controleren
+
+Vóór de definitieve verbintenis van de ontvangst naar Commerce Headquarters (HQ) kunt u de functie Controleren gebruiken om het inkomende document te valideren. Met deze functie wordt u gewaarschuwd voor mogelijk ontbrekende of onjuiste gegevens die een verwerkingsfout kunnen veroorzaken en krijgt u de kans om problemen op te lossen voordat u het ontvangstverzoek indient. Als u de functie **Controleren** wilt inschakelen op de app-balk, schakelt u de functie **Validatie inschakelen voor inkomende en uitgaande POS-voorraadbewerkingen** in via het werkgebied **Functiebeheer** in Commerce Headquarters (HQ).
+
+Met de functie **Controleren** worden de volgende problemen in een inkomend document gevalideerd:
+
+- **Over-ontvangst**: de Nu ontvangen-hoeveelheid is groter dan de bestelde hoeveelheid. De ernst van dit probleem wordt bepaald door de meerleveringconfiguratie in Commerce Headquarters (HQ).
+- **Onder-ontvangst**: de Nu ontvangen-hoeveelheid is kleiner dan de bestelde hoeveelheid. De ernst van dit probleem wordt bepaald door de onderleveringconfiguratie in Commerce Headquarters (HQ).
+- **Serienummer**: het serienummer is niet opgegeven of gevalideerd voor een geserialiseerd artikel waarvoor een serienummer moet worden geregistreerd in de voorraad.
+- **Locatie niet ingesteld**: de locatie is niet opgegeven voor een artikel dat door locatie wordt beheerd, waarbij de locatie niet leeg mag zijn.
+- **Verwijderde regels**: de order heeft regels die zijn verwijderd door een Commerce Headquarters (HQ)-gebruiker die niet bekend is bij de POS-toepassing.
+
+Stel de parameter **Automatische validatie inschakelen** in op **Ja** in **Commerce-parameters** > **Voorraad** > **Winkelvoorraad** om de validatie automatisch te laten uitvoeren wanneer u de functie **Ontvangst voltooien** selecteert.
 
 ### <a name="finish-receiving"></a>Ontvangst beëindigen
 

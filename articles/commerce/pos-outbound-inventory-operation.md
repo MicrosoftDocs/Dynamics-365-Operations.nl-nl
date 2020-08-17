@@ -3,7 +3,7 @@ title: Uitgaande voorraadbewerking in POS
 description: In dit onderwerp worden de mogelijkheden van uitgaande voorraadbewerking van het verkooppunt (POS) beschreven.
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551620"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646154"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Uitgaande voorraadbewerking in POS
 
@@ -38,9 +38,9 @@ In Microsoft Dynamics 365 Commerce versie 10.0.10 en hoger worden inkomende en u
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Vereiste: een asynchroon documentraamwerk configureren
 
-De uitgaande bewerking omvat prestatieverbeteringen om ervoor te zorgen dat gebruikers met grote hoeveelheden ontvangstboekingen in een groot aantal winkels of bedrijven en grote voorraaddocumenten deze documenten kunnen verwerken naar Commerce Headquarters zonder dat er time-outs of storingen optreden. Deze verbeteringen vereisen het gebruik van een asynchroon documentraamwerk.
+De uitgaande bewerking omvat prestatieverbeteringen om ervoor te zorgen dat gebruikers met grote hoeveelheden ontvangstboekingen in een groot aantal winkels of bedrijven en grote voorraaddocumenten deze documenten kunnen verwerken naar Commerce Headquarters (HQ) zonder dat er time-outs of storingen optreden. Deze verbeteringen vereisen het gebruik van een asynchroon documentraamwerk.
 
-Wanneer een asynchroon documentraamwerk wordt gebruikt, kunt u wijzigingen in uitgaande documenten doorvoeren vanuit POS naar Commerce Headquarters en vervolgens naar andere taken gaan terwijl de verwerking naar Commerce Headquarters op de achtergrond plaatsvindt. U kunt de status van het document controleren via de documentlijstpagina **Uitgaande bewerking** in POS om er zeker van te zijn dat de boeking is geslaagd. In de POS-toepassing kunt u ook de lijst met actieve documenten voor uitgaande bewerking gebruiken om documenten weer te geven die niet naar Commerce Headquarters konden worden geboekt. Als de verwerking van een document mislukt, kunnen POS-gebruikers hierin correcties aanbrengen en het document vervolgens opnieuw proberen te verwerken naar Commerce Headquarters.
+Wanneer een asynchroon documentraamwerk wordt gebruikt, kunt u wijzigingen in uitgaande documenten doorvoeren vanuit POS naar Commerce Headquarters (HQ) en vervolgens naar andere taken gaan terwijl de verwerking naar Commerce Headquarters (HQ) op de achtergrond plaatsvindt. U kunt de status van het document controleren via de documentlijstpagina **Uitgaande bewerking** in POS om er zeker van te zijn dat de boeking is geslaagd. In de POS-toepassing kunt u ook de lijst met actieve documenten voor uitgaande bewerking gebruiken om documenten weer te geven die niet naar Commerce Headquarters (HQ) konden worden geboekt. Als de verwerking van een document mislukt, kunnen POS-gebruikers hierin correcties aanbrengen en het document vervolgens opnieuw proberen te verwerken naar Commerce Headquarters (HQ).
 
 > [!IMPORTANT]
 > Het asynchrone documentraamwerk moet worden geconfigureerd voordat een bedrijf de uitgaande bewerking in POS probeert te gebruiken.
@@ -88,22 +88,22 @@ Wanneer de uitgaande bewerking vanuit de POS-toepassing wordt gestart, wordt er 
 
 De lijst met uitgaande voorraaddocumenten bestaat uit drie tabbladen.
 
-- **Actief**: dit tabblad bevat transferorders met de status **Aangevraagd** of **Gedeeltelijk verzonden**. De orders bevatten regels of hoeveelheden op regels die moeten worden verzonden door de huidige winkel van de gebruiker. Op dit tabblad worden ook orders weergegeven met de status **Verwerkt in HQ** (dat wil zeggen dat er wordt gewacht op bevestiging van een geslaagde boeking vanuit Commerce Headquarters) of **Verwerking mislukt** (dat wil zeggen dat de boeking naar Commerce Headquarters niet is geslaagd en dat de gebruiker gegevens moet corrigeren en de orders opnieuw moet indienen).
-- **Concept**: dit tabblad toont nieuwe aanvragen voor uitgaande transferorders die door de winkel van de gebruiker zijn gemaakt. De documenten zijn echter alleen lokaal opgeslagen. Ze zijn nog niet ingediend bij Commerce Headquarters voor verwerking.
+- **Actief**: dit tabblad bevat transferorders met de status **Aangevraagd** of **Gedeeltelijk verzonden**. De orders bevatten regels of hoeveelheden op regels die moeten worden verzonden door de huidige winkel van de gebruiker. Op dit tabblad worden ook orders weergegeven met de status **Verwerkt in HQ** (dat wil zeggen dat er wordt gewacht op bevestiging van een geslaagde boeking vanuit Commerce Headquarters (HQ)) of **Verwerking mislukt** (dat wil zeggen dat de boeking naar Commerce Headquarters (HQ) niet is geslaagd en dat de gebruiker gegevens moet corrigeren en de orders opnieuw moet indienen).
+- **Concept**: dit tabblad toont nieuwe aanvragen voor uitgaande transferorders die door de winkel van de gebruiker zijn gemaakt. De documenten zijn echter alleen lokaal opgeslagen. Ze zijn nog niet ingediend bij Commerce Headquarters (HQ) voor verwerking.
 - **Voltooid**: op dit tabblad wordt een lijst weergegeven met transferorderdocumenten die de winkel volledig heeft verzonden in de afgelopen zeven dagen. Dit tabblad is alleen bedoeld voor informatieve doeleinden. Alle gegevens over de documenten zijn alleen-lezen gegevens voor de winkel.
 
 Wanneer u documenten op een van de tabbladen bekijkt, kan het veld **Status** helpen beter inzicht te krijgen in de fase waarin het document zich bevindt.
 
-- **Concept**: het transferorderdocument is alleen lokaal opgeslagen in de kanaaldatabase van de winkel. Er is nog geen informatie over de aanvraag voor de transferorder ingediend bij Commerce Headquarters.
-- **Aangevraagd**: de inkooporder of transferorder is gemaakt in Commerce Headquarters en is volledig open. De huidige winkel van de gebruiker heeft nog geen verzendingen verwerkt in het document.
+- **Concept**: het transferorderdocument is alleen lokaal opgeslagen in de kanaaldatabase van de winkel. Er is nog geen informatie over de aanvraag voor de transferorder ingediend bij Commerce Headquarters (HQ).
+- **Aangevraagd**: de inkooporder of transferorder is gemaakt in Commerce Headquarters (HQ) en is volledig open. De huidige winkel van de gebruiker heeft nog geen verzendingen verwerkt in het document.
 - **Gedeeltelijk verzonden**: het transferorderdocument bevat een of meer regels of gedeeltelijke regelhoeveelheden die zijn geboekt als verzonden door het uitgaande magazijn. Deze verzonden regels kunnen via de inkomende bewerking worden ontvangen.
 - **Volledig verzonden**: de transferorder heeft alle regels en volledige regelhoeveelheden geboekt als verzonden door het uitgaande magazijn.
 - **In uitvoering**: deze status wordt gebruikt om gebruikers van het apparaat te informeren dat een andere gebruiker actief werkt aan het document.
 - **Onderbroken**: deze status wordt weergegeven nadat de optie **Ontvangen onderbreken** is geselecteerd om het ontvangstproces tijdelijk te stoppen.
-- **Verwerkt in HQ**: het document is vanuit de POS-toepassing ingediend bij Commerce Headquarters, maar het is nog niet geboekt naar Commerce Headquarters. Het document doorloopt het proces voor asynchrone documentboeking. Nadat het document is geboekt naar Commerce Headquarters, moet de status worden bijgewerkt naar **Volledig ontvangen** of **Gedeeltelijk ontvangen**.
-- **Verwerking mislukt**: het document is geboekt naar Commerce Headquarters en afgewezen. In het **detailvenster** wordt de reden voor de mislukte boeking weergegeven. Het document moet worden bewerkt om gegevensproblemen op te lossen en moet vervolgens opnieuw worden ingediend bij Commerce Headquarters voor verwerking.
+- **Verwerkt in HQ**: het document is vanuit de POS-toepassing ingediend bij Commerce Headquarters (HQ), maar het is nog niet geboekt naar Commerce Headquarters (HQ). Het document doorloopt het proces voor asynchrone documentboeking. Nadat het document is geboekt naar Commerce Headquarters (HQ), moet de status worden bijgewerkt naar **Volledig ontvangen** of **Gedeeltelijk ontvangen**.
+- **Verwerking mislukt**: het document is geboekt naar Commerce Headquarters (HQ) en afgewezen. In het **detailvenster** wordt de reden voor de mislukte boeking weergegeven. Het document moet worden bewerkt om gegevensproblemen op te lossen en moet vervolgens opnieuw worden ingediend bij Commerce Headquarters (HQ) voor verwerking.
 
-Wanneer u een documentregel in de lijst selecteert, wordt een **detailvenster** weergegeven. Dit deelvenster bevat aanvullende informatie over het document, zoals gegevens over zending en datum. Via een voortgangsbalk wordt aangegeven hoeveel artikelen nog moeten worden verwerkt. Als het document niet is verwerkt in Commerce Headquarters, worden in het **detailvenster** ook foutberichten weergegeven die betrekking hebben op de fout.
+Wanneer u een documentregel in de lijst selecteert, wordt een **detailvenster** weergegeven. Dit deelvenster bevat aanvullende informatie over het document, zoals gegevens over zending en datum. Via een voortgangsbalk wordt aangegeven hoeveel artikelen nog moeten worden verwerkt. Als het document niet is verwerkt in Commerce Headquarters (HQ), worden in het **detailvenster** ook foutberichten weergegeven die betrekking hebben op de fout.
 
 In de lijstpaginaweergave voor het document kunt u **Orderdetails** op de appbalk selecteren om de details van het document weer te geven. U kunt ook ontvangstverwerking activeren voor in aanmerking komende documentregels.
 
@@ -125,13 +125,13 @@ Tijdens het ontvangstproces voor de documentregels worden validaties uitgevoerd.
 
 In Commerce versie 10.0.12 is functionaliteit toegevoegd waarmee POS-gebruikers resterende hoeveelheden kunnen sluiten of annuleren tijdens de uitgaande orderverzending als het uitgaande magazijn vaststelt dat de volledige aangevraagde hoeveelheid niet kan worden verzonden. Hoeveelheden kunnen ook later worden gesloten of geannuleerd. Als u deze mogelijkheid wilt gebruiken, moet het bedrijf zo zijn geconfigureerd dat de minderlevering van transferorders is toegestaan. Daarnaast moet een minderleveringspercentage worden gedefinieerd voor de transferorderregel.
 
-Ga naar **Voorraadbeheer \> Instellingen \> Parameters voor voorraad- en magazijnbeheer** om het bedrijf zo te configureren dat minderlevering van transferorders in Commerce Headquarters is toegestaan. Schakel op de pagina **Parameters voor voorraad- en magazijnbeheer** op het tabblad **Transferorders** de parameter **Minderlevering accepteren** in. Voer vervolgens taak **1070** van de distributieplanner uit om de parameterwijzigingen te synchroniseren met uw winkelkanaal.
+Ga naar **Voorraadbeheer \> Instellingen \> Parameters voor voorraad- en magazijnbeheer** om het bedrijf zo te configureren dat minderlevering van transferorders in Commerce Headquarters (HQ) is toegestaan. Schakel op de pagina **Parameters voor voorraad- en magazijnbeheer** op het tabblad **Transferorders** de parameter **Minderlevering accepteren** in. Voer vervolgens taak **1070** van de distributieplanner uit om de parameterwijzigingen te synchroniseren met uw winkelkanaal.
 
-Minderleveringspercentages voor een transferorderregel kunnen vooraf worden gedefinieerd voor producten als onderdeel van de productconfiguratie in Commerce Headquarters. U kunt ze ook instellen of overschrijven op een specifieke transferorderregel via commerce Headquarters.
+Minderleveringspercentages voor een transferorderregel kunnen vooraf worden gedefinieerd voor producten als onderdeel van de productconfiguratie in Commerce Headquarters. U kunt ze ook instellen of overschrijven op een specifieke transferorderregel via commerce Headquarters (HQ).
 
-Nadat een organisatie het configureren van de minderlevering van transferorders heeft voltooid, zien gebruikers een nieuwe optie **Resterende hoeveelheid sluiten** in het deelvenster **Details** wanneer ze een uitgaande transferorderregel selecteren via de bewerking **Uitgaande bewerking** in het POS. Wanneer gebruikers de zending voltooien door de bewerking **Afhandeling voltooien** te gebruiken, kunnen ze een aanvraag naar Commerce Headquarters verzenden om de resterende niet-verzonden hoeveelheid te annuleren. Als een gebruiker de resterende hoeveelheid sluit, voert Commerce een validatie uit om te controleren of de hoeveelheid die wordt geannuleerd binnen het minderleveringspercentage valt dat is gedefinieerd voor de transferorderregel. Als de tolerantie voor minderleveringen wordt overschreden, ontvangt de gebruiker een foutbericht en kan de resterende hoeveelheid niet worden gesloten totdat de hoeveelheid die eerder is verzonden en de hoeveelheid die nu wordt verzonden, overeenkomt met de tolerantie voor minderlevering.
+Nadat een organisatie het configureren van de minderlevering van transferorders heeft voltooid, zien POS-gebruikers een nieuwe optie **Resterende hoeveelheid sluiten** in het deelvenster **Details** wanneer ze een uitgaande transferorderregel selecteren via de functie **Uitgaande bewerking**. Wanneer de gebruiker de zending voltooit door de bewerking **Afhandeling voltooien** te gebruiken, kan hij of zij een aanvraag naar Commerce Headquarters (HQ) verzenden om de resterende niet-verzonden hoeveelheid te annuleren. Als de gebruiker de resterende hoeveelheid sluit, voert Commerce een validatie uit om te controleren of de hoeveelheid die wordt geannuleerd binnen het minderleveringspercentage valt dat is gedefinieerd voor de transferorderregel. Als de tolerantie voor minderleveringen wordt overschreden, wordt een foutbericht weergegeven en kan de gebruiker de resterende hoeveelheid niet sluiten totdat de hoeveelheid die eerder is verzonden en de hoeveelheid die nu wordt verzonden, overeenkomt met de tolerantie voor minderlevering.
 
-Nadat de zending is gesynchroniseerd met Commerce Headquarters, worden de hoeveelheden die zijn gedefinieerd in het veld **Nu verzenden** voor de transferorderregel in het POS bijgewerkt naar de status Verzonden in Commerce Headquarters. Alle niet-verzonden hoeveelheden die voorheen als hoeveelheden voor "resterend verzenden" zouden werden beschouwd (dat wil zeggen, hoeveelheden die later zullen worden verzonden), worden in plaats daarvan als geannuleerde hoeveelheden beschouwd. De hoeveelheid "resterend verzenden" voor de transferorderregel wordt ingesteld op **0** (nul) en de regel wordt als volledig verzonden beschouwd.
+Nadat de zending is gesynchroniseerd met Commerce Headquarters (HQ), worden de hoeveelheden die zijn gedefinieerd in het veld **Nu verzenden** voor de transferorderregel in het POS bijgewerkt naar de status Verzonden in Commerce Headquarters (HQ). Alle niet-verzonden hoeveelheden die voorheen als hoeveelheden voor "resterend verzenden" zouden werden beschouwd (dat wil zeggen, hoeveelheden die later zullen worden verzonden), worden in plaats daarvan als geannuleerde hoeveelheden beschouwd. De hoeveelheid "resterend verzenden" voor de transferorderregel wordt ingesteld op **0** (nul) en de regel wordt als volledig verzonden beschouwd.
 
 ### <a name="shipping-location-controlled-items"></a>Op locatie gecontroleerde artikelen verzenden
 
@@ -149,9 +149,22 @@ Gebruik de functie **Afhandeling annuleren** op de appbalk alleen als u het docu
 
 ### <a name="pause-fulfillment"></a>Uitvoering onderbreken
 
-Als u de transferorder afhandelt, kunt u de functie **Afhandeling onderbreken** gebruiken als u het proces tijdelijk wilt onderbreken. Mogelijk wilt u bijvoorbeeld een andere bewerking gaan uitvoeren vanaf het POS, zoals het bellen naar een klant of het vertragen van de boeking van de verzending naar Commerce Headquarters.
+Als u de transferorder afhandelt, kunt u de functie **Afhandeling onderbreken** gebruiken als u het proces tijdelijk wilt onderbreken. Mogelijk wilt u bijvoorbeeld een andere bewerking gaan uitvoeren vanaf het POS, zoals het bellen naar een klant of het vertragen van de boeking van de verzending naar Commerce Headquarters (HQ).
 
 Wanneer u **Afhandeling onderbreken** selecteert, wordt de status van het document gewijzigd in **Onderbroken**. De gebruiker weet dan dat er gegevens in het document zijn ingevoerd, maar dat het document nog niet is doorgevoerd. Wanneer u klaar bent om het afhandelingsproces te hervatten, selecteert u het onderbroken document en selecteert u vervolgens **Orderdetails**. Alle hoeveelheden voor **Nu verzonden** die eerder zijn opgeslagen, blijven behouden en kunnen worden bekeken in de weergave **Volledige orderlijst**.
+
+### <a name="review"></a>Controleren
+
+Vóór de definitieve verbintenis van de afhandeling naar Commerce Headquarters (HQ) kunt u de functie **Controleren** gebruiken om het uitgaande document te valideren. Met deze functie wordt u gewaarschuwd voor mogelijk ontbrekende of onjuiste gegevens die een verwerkingsfout kunnen veroorzaken en krijgt u de kans om problemen op te lossen voordat u het verzoek tot uitvoering indient. Als u de functie **Controleren** wilt inschakelen op de app-balk, schakelt u de functie **Validatie inschakelen voor inkomende en uitgaande POS-voorraadbewerkingen** in via Functiebeheer in Commerce Headquarters (HQ).
+
+Met de functie **Controleren** worden de volgende problemen in een uitgaand document gevalideerd:
+- **Over-verzen ding**: de Nu verzonden-hoeveelheid is groter dan de bestelde hoeveelheid. De ernst van dit probleem wordt bepaald door de meerleveringconfiguratie in Commerce Headquarters (HQ).
+- **Onder-verzen ding**: de Nu verzonden-hoeveelheid is kleiner dan de bestelde hoeveelheid. De ernst van dit probleem wordt bepaald door de onderleveringconfiguratie in Commerce Headquarters (HQ).
+- **Serienummer**: serienummer is niet opgegeven of niet beschikbaar voor een geserialiseerd artikel waarvoor een serienummer moet worden geregistreerd in de voorraad.
+- **Locatie niet ingesteld**: locatie is niet opgegeven voor een artikel dat door locatie wordt beheerd, waarbij de locatie niet leeg mag zijn.
+- **Verwijderde regels**: de order heeft regels die zijn verwijderd door een Commerce Headquarters (HQ)-gebruiker die niet bekend is bij de POS-toepassing.
+
+Als u de parameter **Automatische validatie** op **Ja** instelt in **Commerce parameters** > **Voorraad** > **Winkelvoorraad**, wordt de validatie automatisch uitgevoerd wanneer u de functie **Uitvoering voltooien** selecteert.
 
 ### <a name="finish-fulfillment"></a>Uitvoering voltooien
 
@@ -163,15 +176,15 @@ Bij het gebruik van asynchrone documentverwerking wordt de ontvangst ingediend v
 
 Gebruikers kunnen vanuit POS nieuwe transferorderdocumenten maken. U kunt het proces starten door **Nieuw** te selecteren op de appbalk terwijl u zich in de hoofddocumentlijst **Uitgaande bewerking** bevindt. U wordt vervolgens gevraagd een magazijn of winkel te selecteren bij **Verplaatsen naar** waaraan uw huidige winkel voorraad zal leveren. De waarden zijn beperkt tot de selectie die is gedefinieerd in de configuratie van de afhandelingsgroep van de winkel. In een uitgaande transferaanvraag is uw huidige winkel altijd het magazijn bij **Verplaatsen naar** voor de transferorder. Die waarde kan niet worden gewijzigd.
 
-U kunt naar behoefte waarden invoeren in de velden **Verzenddatum**, **Ontvangstdatum** en **Leveringsmethode**. U kunt ook een notitie toevoegen die samen met de koptekst van de transferorder wordt opgeslagen als bijlage bij het document in Commerce Headquarters.
+U kunt naar behoefte waarden invoeren in de velden **Verzenddatum**, **Ontvangstdatum** en **Leveringsmethode**. U kunt ook een notitie toevoegen die samen met de koptekst van de transferorder wordt opgeslagen als bijlage bij het document in Commerce Headquarters (HQ).
 
 Nadat de kopregelgegevens zijn gemaakt, kunt u producten toevoegen aan de transferorder. Als u het toevoegen van artikelen en aangevraagde hoeveelheden wilt starten, scant u streepjescodes of selecteert u **Product toevoegen**.
 
-Nadat regels in de uitgaande transferorder zijn ingevoerd, moet u **Opslaan** selecteren om de wijzigingen in het document lokaal op te slaan of **Aanvraag indienen** om de orderdetails in te dienen bij Commerce Headquarters voor verdere verwerking. Als u **Opslaan** selecteert, wordt het conceptdocument opgeslagen in de kanaaldatabase en kan het uitgaande magazijn het document pas uitvoeren nadat het via **Aanvraag indienen** is verwerkt. Selecteer **Opslaan** alleen als u de aanvraag voor verwerking in Commerce Headquarters nog niet wilt doorvoeren.
+Nadat regels in de uitgaande transferorder zijn ingevoerd, moet u **Opslaan** selecteren om de wijzigingen in het document lokaal op te slaan of **Aanvraag indienen** om de orderdetails in te dienen bij Commerce Headquarters (HQ) voor verdere verwerking. Als u **Opslaan** selecteert, wordt het conceptdocument opgeslagen in de kanaaldatabase en kan het uitgaande magazijn het document pas uitvoeren nadat het via **Aanvraag indienen** is verwerkt. Selecteer **Opslaan** alleen als u de aanvraag voor verwerking in Commerce Headquarters (HQ) nog niet wilt doorvoeren.
 
 Als een document lokaal wordt opgeslagen, kunt u het vinden op het tabblad **Concepten** van de documentlijst **Inkomende bewerking**. Hoewel een document de status **Concept** heeft, kunt u het bewerken door **Bewerken** te selecteren. U kunt regels bijwerken, toevoegen of verwijderen als dat nodig is. U kunt ook het hele document verwijderen terwijl het de status **Concept** heeft door **Verwijderen** te selecteren op het tabblad **Concepten**.
 
-Nadat het conceptdocument is ingediend bij Commerce Headquarters, wordt het weergegeven op het tabblad **Actief** en heeft het de status **Aangevraagd**. Op dat moment kunnen alleen gebruikers in het uitgaande magazijn het document bewerken door **Uitgaande bewerking** te selecteren in de POS-toepassing. Gebruikers in het inkomende magazijn kunnen de transferorder weergeven op het tabblad **Actief** van de documentlijst **Inkomende bewerking**, maar ze kunnen deze niet bewerken of verwijderen. De bewerkingsvergrendeling zorgt ervoor dat er geen conflicten optreden omdat een inkomende aanvrager de transferorder wijzigt op het moment dat de uitgaande verzender bezig is en met het verzamelen en verzenden van de order. Als er wijzigingen vereist zijn vanuit de inkomende winkel of het inkomende magazijn nadat de transferorder is ingediend, moet contact met de uitgaande vervoerder worden opgenomen en moet worden gevraagd de wijzigingen in te voeren.
+Nadat het conceptdocument is ingediend bij Commerce Headquarters (HQ), wordt het weergegeven op het tabblad **Actief** en heeft het de status **Aangevraagd**. Op dat moment kunnen alleen gebruikers in het uitgaande magazijn het document bewerken door **Uitgaande bewerking** te selecteren in de POS-toepassing. Gebruikers in het inkomende magazijn kunnen de transferorder weergeven op het tabblad **Actief** van de documentlijst **Inkomende bewerking**, maar ze kunnen deze niet bewerken of verwijderen. De bewerkingsvergrendeling zorgt ervoor dat er geen conflicten optreden omdat een inkomende aanvrager de transferorder wijzigt op het moment dat de uitgaande verzender bezig is en met het verzamelen en verzenden van de order. Als er wijzigingen vereist zijn vanuit de inkomende winkel of het inkomende magazijn nadat de transferorder is ingediend, moet contact met de uitgaande vervoerder worden opgenomen en moet worden gevraagd de wijzigingen in te voeren.
 
 Nadat het document de status **Aangevraagd** heeft gekregen, is deze gereed voor afhandeling door het uitgaande magazijn. Wanneer de zending wordt verwerkt met behulp van de uitgaande bewerking, wordt de status van de transferorderdocumenten bijgewerkt van **Aangevraagd** naar **Volledig verzonden** of **Gedeeltelijk verzonden**. Nadat de documenten de status **Volledig verzonden** of **Gedeeltelijk verzonden** hebben gekregen, kan de inkomende winkel of het inkomende magazijn ontvangsten met deze documenten boeken door middel van het ontvangstproces voor inkomende bewerking.
 

@@ -3,7 +3,7 @@ title: Prestatiebeheer
 description: Met het prestatiebeheerproces kunnen werknemers hun prestaties met hun manager documenteren en bespreken. Managers kunnen vervolgens feedback en ondersteuning geven voor de werknemers.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
-ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
+ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3609767"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628448"
 ---
 # <a name="performance-management"></a>Prestatiebeheer
 
@@ -37,6 +37,7 @@ Zoals u in het volgende diagram ziet, zijn er drie pagina's waarmee u het proces
 Het volgende diagram laat zien hoe de primaire onderdelen van prestatiebeheer met elkaar samenhangen. [![Overzicht Prestatiebeheer](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Prestatiejournaal
+
 Voordat u als werknemer uw beoordeling afrondt, verzamelt u vaak informatie over activiteiten of gebeurtenissen die hebben bijgedragen aan uw succes tijdens een beoordelingsperiode. U kunt activiteiten en gebeurtenissen documenteren in het prestatiejournaal. Bovendien kunt u toekomstige activiteiten maken die u moet uitvoeren om een doel te bereiken en om te voldoen aan de vereisten van een ontwikkelingsplan of een prestatietoezegging. Prestatiejournalen zijn niet vereist om doelen of prestatiebeoordelingen te kunnen maken. 
 
 Er zijn twee versies van het prestatiejournaal: de versie van de werknemer, die toegankelijk is via het werkgebied **Selfservice werknemer** (**ESS**) en de versie van de manager, die toegankelijk is via het werkgebied **Selfservice manager** (**MSS**). Werknemers kunnen zelf journalen maken en deze delen met hun manager. Managers kunnen zelf journalen maken voor hun team en deze delen met hun werknemers. 
@@ -58,6 +59,7 @@ U kunt het prestatiejournaal ook koppelen aan een externe website door de URL va
 Het prestatiejournaal bevat een extra functie met de naam Feedback. Wanneer u op **Feedback verzenden** klikt, kunt u een werknemer selecteren en via e-mail feedback aan de werknemer geven. Het bericht wordt verzonden aan de werknemer die de feedback ontvangt, de manager van de werknemer, de werknemer die u de feedback verzendt en de manager van die werknemer. Er wordt in het prestatiejournaal een post gemaakt voor elke persoon die het bericht met de feedback ontvangt.
 
 ## <a name="goals"></a>Doelstellingen
+
 De pagina **Prestatiedoelstellingen** helpt u om de doelstellingen bij te houden die u en uw manager voor u hebben gemaakt. U kunt een onbeperkt aantal doelstellingen maken en deze doelstellingen kunnen gelden voor verschillende perioden en prestatiebeoordelingen. U kunt ook eenvoudige of complexe doelstellingen maken, afhankelijk van de hoeveelheid gegevens die u wilt invoeren over de doelstelling. Doelstellingen zijn niet vereist voor prestatiebeoordelingen. 
 
 Een algemene doelstelling moet de volgende gegevens bevatten:
@@ -80,6 +82,7 @@ Als u een document wilt koppelen aan de doelstelling, zoals een certificaat bij 
 U kunt een sjabloon maken van een doelstelling en vervolgens de sjabloon gebruiken voor het maken van nieuwe doelstellingen die zijn gebaseerd op de sjabloon. Wanneer u een sjabloon van een doelstelling maakt, worden de omschrijving, onderwerpen en doelmetingen opgeslagen. Alle werkelijke metingen, voltooiingsdatums en opmerkingen worden verwijderd.
 
 ## <a name="performance-reviews"></a>Prestatiebeoordelingen
+
 Prestatiebeoordelingen worden formeel discussies genoemd. Ze zijn nu flexibel genoeg om continue feedback, ontwikkelingsplannen en meer formele beoordelingen te ondersteunen. U kunt snel kleine bijeenkomsten voor twee personen opzetten, zoals een één-op-één bespreking of kunt u een complexere beoordeling opstellen die overeenkomt met het beoordelingsproces van uw bedrijf. 
 
 Een één-op-één bespreking is een eenvoudige beoordeling waarvoor een korte naam, een langere omschrijving van de inhoud van de vergadering en de datum van de vergadering vereist zijn. Een eenvoudige beoordeling bevat dezelfde informatie, plus de beoordelingsperiode die wordt besproken. Managers zien de naam van de persoon voor wie de beoordeling is gemaakt. 
@@ -92,7 +95,11 @@ U kunt nieuwe beoordelingen maken die zijn gebaseerd op sjablonen die u hebt gem
 
 Als u beoordelingen wilt afdrukken, selecteert u de knop **Beoordeling afdrukken**. Als u de knop niet ziet op de pagina **Beoordeling**, controleert u of u de functie hebt ingeschakeld in het werkgebied **Functiebeheer**. Zie [Overzicht Functiebeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)voor meer informatie over Functiebeheer.
 
+> [!NOTE]
+> De mogelijkheid om prestatiebeoordelingen af te drukken is alleen beschikbaar in human resources. Het is niet beschikbaar in Dynamics 365 Finance.
+
 ## <a name="components-you-can-include-in-performance-reviews"></a>Componenten die u in de prestatiebeoordelingen kunt opnemen
+
 U kunt verschillende soorten informatie opnemen in de prestatiebeoordelingen. Ze bevatten beoordelingsdetails, metingen, activiteiten, waarderingen, afmeldingen en bijlagen.
 
 ### <a name="review-detail"></a>Beoordelingsdetails
@@ -119,24 +126,30 @@ De werknemer en/of de manager worden vermeld op de beoordeling op basis van de i
 
 U kunt een document koppelen aan een beoordeling in het gedeelte **Bijlagen** van de pagina **Beoordelingen**. Er is een documentviewer waarmee u snel de inhoud van alle gekoppelde documenten kunt weergeven.
 
-### 
-
 ## <a name="workflow-for-performance-management"></a>Werkstroom voor prestatiebeheer
+
 Gebruik de werkstroom voor werknemerbeoordeling om de goedkeuring van een beoordeling te bepalen. U kunt ook de geautomatiseerde werkstroom overslaan en de status van de beoordeling handmatig wijzigen, zodat u eenvoudiger documenten voor bijvoorbeeld één-op-één gesprekken kunt maken buiten het werkstroomproces om. Toegang tot een beoordeling wordt bepaald door de status van de beoordeling.
 
 1.  Wanneer de beoordeling wordt gemaakt, wordt deze ingesteld op de status **Niet gestart**. De beoordeling kan door iedereen worden bewerkt.
+
 2.  Als de werknemer op de knop **Beoordeling starten** drukt, worden de beoordeling ingesteld op de status **In uitvoering**. De werknemer begint vervolgens inhoud toe te voegen. De manager kunt op dit moment het beoordelingsdocument niet meer bekijken.
+
 3.  De werknemer wijzigt de status in **Gereed voor beoordeling**.
+
 4.  De manager kan opmerkingen en waarderingen toevoegen. Op dit moment ziet alleen de manager de beoordeling.
+
 5.  De manager wijzigt de status in **Eindbeoordeling**, zodat zowel de manager als de werknemer de beoordeling kan zien en bespreken. U kunt in de parameters opgeven of de beoordeling al dan niet op dit moment kan worden bewerkt. Deze stap is ook optioneel als de manager gewoon de beoordeling wil delen met de werknemer en deze als **Volledig** markeert wanneer ze klaar zijn.
+
 6.  Nadat de afmeldingen zijn voltooid, wordt de status gewijzigd in **Volledig**. Op dit punt kan de beoordeling niet meer worden gewijzigd.
 
 De beoordeling van de werknemer bestaat uit twee elementen:
 
 1.  Beoordeling goedkeuren. Voeg dit element toe om de statuswijziging van **In uitvoering** naar **Gereed voor beoordeling** te verwerken. Wijzig de toewijzing voor het gebruiken van de organisatiehiërarchie waar het managerniveau van Employee.line = 1.
+
 2.  Eindbeoordeling. Voeg dit element toe om de statuswijziging van **In uitvoering** naar **Laatste beoordeling** te controleren. Wijzig de toewijzing voor het gebruiken van de organisatiehiërarchie waar het managerniveau van Employee.line = 1 als u wilt dat de manager de eindbeoordeling goedkeurt. Wijzig de toewijzing naar Werkstroomgebruiker als u wilt dat de werknemer dit goedkeurt. Als u wilt dat zowel de manager als werknemer hun goedkeuring geven, voegt u twee stappen toe aan de werkstroom en kiest u de juiste toewijzing voor elke stap in de volgorde waarin u de goedkeuringen wilt laten plaatsvinden.
 
 ## <a name="setup"></a>Instellen
+
 Er zijn drie pagina's waarmee u de informatie kunt instellen die vereist is om het prestatieproces te voltooien: de pagina **Metingen**, de pagina **Brontypen prestatiejournaal** en de pagina **Controletypen**.
 
 ### <a name="measurements"></a>Metingen
@@ -150,6 +163,3 @@ Brontypen prestatiejournaal beschrijven de herkomst van de prestatiejournalen. U
 ### <a name="review-types"></a>Controletypen
 
 Met de typen voor prestatiebeoordelingen kunt u de werking van een beoordeling bepalen. U kunt de werkstroom voor een beoordeling in- of uitschakelen. Als de beoordeling niet gebruikmaakt van de werkstroom, kunt u de standaardstatus definiëren die wordt gebruikt bij het maken van de beoordeling. U kunt ook bepalen of de werknemer, de manager of beide de beoordeling moeten afmelden.
-
-
-

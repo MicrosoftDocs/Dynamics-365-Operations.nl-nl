@@ -1,7 +1,7 @@
 ---
 title: Betalingsmethoden
 description: Elk betalingstype dat een detailhandelaar accepteert, moet worden geconfigureerd wanneer het systeem wordt ingesteld. In dit artikel wordt beschreven welke betalingstypen u kunt instellen en wordt het proces beschreven voor het instellen hiervan.
-author: sericks007
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/17/2020
 ms.topic: article
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 710c2f3bbe5b76af6d0bc0bf9a469e52c98c18d2
-ms.sourcegitcommit: 550006e6376815237c21b5b30e928353f62fd97c
+ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3463155"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641004"
 ---
 # <a name="payment-methods"></a>Betalingsmethoden
 

@@ -3,7 +3,7 @@ title: Werken met fragmenten
 description: In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten in gebruikt Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 7ae834f38fe380ce0a66f5b1968f1261af670979
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124354"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645986"
 ---
 # <a name="work-with-fragments"></a>Werken met fragmenten 
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten in gebruikt Microsoft Dynamics 365 Commerce.
 
@@ -62,9 +62,10 @@ U kunt een nieuw fragment maken of een bestaande moduleconfiguratie als fragment
 Voer de volgende stappen uit om een eerder geconfigureerde module te converteren naar een herbruikbaar fragment.
 
 1. Open een pagina of sjabloon die de module bevat die u naar een fragment wilt converteren.
-1. Selecteer in het overzichtsvenster aan de linkerkant de knop met het weglatingsteken (**...**) naast de naam van de module. 
-1. Selecteer **Delen als fragment**. 
-1. Er wordt een dialoogvenster weergegeven. Voer een naam en metagegevens voor het fragment in.
+1. Selecteer in het overzichtsvenster links of rechtstreeks op het hoofdtekenpapier de eerder geconfigureerde module.
+1. Selecteer het weglatingsteken (**...**) naast de naam van de module in het overzichtsvenster of op de werkbalk van de geselecteerde module op het tekenpapier. 
+1. Selecteer **Delen als paginafragment**. 
+1. Voer in het dialoogvenster **Paginafragment opslaan als** een naam voor het fragment in.
 1. Selecteer **OK** om de moduleconfiguratie op te slaan als een fragment dat aan andere pagina's kan worden toegevoegd.
 
 In de volgende afbeelding ziet u hoe u een moduleconfiguratie als fragment kunt opslaan.
@@ -94,15 +95,16 @@ In de volgende procedures wordt beschreven hoe u fragmenten toevoegt en verwijde
 
 Om een fragment aan een pagina toe te voegen, volgt u deze stappen.
 
-1. Selecteer in het overzichtsvenster aan de linkerkant een container of een vak waaraan onderliggende modules kunnen worden toegevoegd.
-1. Selecteer de knop met het weglatingsteken naast de naam van de container of het vak en selecteer **Fragment toevoegen**. Er wordt een dialoogvenster weergegeven.
+1. Selecteer in het overzichtsvenster links of rechtstreeks op het hoofdtekenpapier een container of vak waaraan onderliggende modules kunnen worden toegevoegd.
+1. Selecteer in het online deelvenster het weglatingsteken (**...**) naast de naam van de container of het vak.  Als alternatief kunt u, als u het hoofdtekenpapier gebruikt, het plusteken (**+**) selecteren.  
+1. Selecteer **Fragment toevoegen**.
 
     ![Een schermopname van hoe u een bestaand fragment toevoegt aan een vak of container](./media/add-fragment.png)
  
     > [!NOTE]
     > Als nieuwe onderliggende modules niet door de container of het vak worden ondersteund, is de optie **Fragment toevoegen** niet beschikbaar.
     
-1. Zoek in het dialoogvenster en selecteer een fragment dat u aan de pagina wilt toevoegen. Als er geen beschikbare fragmenten worden weergegeven, moet u mogelijk eerst een fragment maken van een moduletype dat door de geselecteerde container of of het geselecteerde vak wordt ondersteund.
+1. Zoek in het dialoogvenster **Fragment toevoegen** een fragment dat u wilt toevoegen en voeg het toe. Als er geen beschikbare fragmenten worden weergegeven, moet u mogelijk eerst een fragment maken van een moduletype dat door de geselecteerde container of of het geselecteerde vak wordt ondersteund.
 1. Selecteer het gewenste fragment en voeg het toe aan de container of het vak op uw pagina.
 
     ![Een schermopname van het modale venster voor de fragmentkiezer](./media/fragment-picker.png)
@@ -114,7 +116,7 @@ Om een fragment aan een pagina toe te voegen, volgt u deze stappen.
 
 Voer deze stappen uit om een fragment uit een vak of een container van een pagina te verwijderen.
 
-1. Selecteer in het overzichtsvenster aan de linkerkant de knop met het weglatingsteken naast de naam van het fragment die u wilt verwijderen en selecteer vervolgens de knop Prullenbak.
+1. Selecteer in het overzichtsvenster aan de linkerkant het weglatingsteken (**...**) naast het fragment dat u wilt verwijderen en selecteer vervolgens de knop Prullenbak.  U kunt ook het fragment op het tekenpapier selecteren en het symbool Prullenbak op de werkbalk van de fragment selecteren.
 1. Wanneer u wordt gevraagd te bevestigen dat u het fragment wilt verwijderen, selecteert u **OK**.
 
 > [!NOTE]

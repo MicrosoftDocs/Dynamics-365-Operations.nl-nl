@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0d5265079dd96b272d13b30436b83b94bdb7297f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530277"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652078"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.11 (juli 2020)
 
@@ -39,11 +39,11 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](https://docs.microsoft.com/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
 - [Opslag voor rapporten voorhanden voorraad](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) Zie [Nummerplaat ontvangen via magazijnapp](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) voor meer informatie.
-- [Verbeteringen voor regelreserveringen voor het formulier batchnummerreservering](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - Zie [Dezelfde batch reserveren voor een verkooporder](../sales-marketing/reserve-same-batch-sales-order.md) voor meer informatie
+- [Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Zie voor meer informatie [Nummerplaat ontvangen via de magazijnapp](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Verbeteringen voor regelreserveringen voor het formulier batchnummerreservering](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Zie voor meer informatie [Dezelfde batch reserveren voor een verkooporder](../sales-marketing/reserve-same-batch-sales-order.md).
 - [Nieuwe gegevensentiteiten voor het productiegebied](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Meerontvangst voor ladinghoeveelheden](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Zie [Magazijnverwerking van inkomende ladingen voor inkooporders](../warehousing/inbound-load-handling.md) voor meer informatie.
-- [Gereedmelding op basis van batchnummers vanaf het taakkaartapparaat](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device) - Zie [Gereedmelden vanaf het taakkaartapparaat](../production-control/report-finished-job-device.md)
+- [Te grote ontvangst van laadhoeveelheden](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Zie voor meer informatie [Magazijnverwerking van inkomende ladingen voor inkooporders](../warehousing/inbound-load-handling.md).
+- [Gereedmelden voor batchnummers van apparaat voor taakkaarten](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Zie voor meer informatie [Gereedmelden vanaf het taakkaartapparaat](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
