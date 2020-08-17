@@ -1,252 +1,302 @@
 ---
-title: Overzicht van Werkbeleid magazijn
-description: Magazijnwerkbeleid bepaalt of magazijnwerk wordt aangemaakt door magazijnprocessen in productie, op basis van het werkordertype, de voorraadlocatie en het product.
-author: johanhoffmann
+title: Werkbeleidsregels
+description: In dit onderwerp wordt uitgelegd u werkbeleidsregels instelt.
+author: perlynne
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
-ms.custom: 196561
-ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: johanho
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3fe22a92b445abbf6d1dcc67ead878db3f80d532
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.author: perlynne
+ms.search.validFrom: 2020-07-31
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204557"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652000"
 ---
-# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="403ba-103">Overzicht van Werkbeleid magazijn</span><span class="sxs-lookup"><span data-stu-id="403ba-103">Warehouse work policies overview</span></span>
+# <a name="work-policies"></a><span data-ttu-id="64a0b-103">Werkbeleidsregels</span><span class="sxs-lookup"><span data-stu-id="64a0b-103">Work policies</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="403ba-104">Magazijnwerkbeleid bepaalt of magazijnwerk wordt aangemaakt door magazijnprocessen in productie, op basis van het werkordertype, de voorraadlocatie en het product.</span><span class="sxs-lookup"><span data-stu-id="403ba-104">Warehouse work policies control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
+<span data-ttu-id="64a0b-104">In dit onderwerp wordt uitgelegd hoe u het systeem en de magazijn-app instelt zodat deze werkbeleidsregels ondersteunen.</span><span class="sxs-lookup"><span data-stu-id="64a0b-104">This topic explains how to set up the system and the warehouse app so that they support work policies.</span></span> <span data-ttu-id="64a0b-105">Met deze functie kunt u de voorraad snel registreren zonder wegzetwerk te maken wanneer u inkoop- of transferorders ontvangt of wanneer u productieprocessen voltooit.</span><span class="sxs-lookup"><span data-stu-id="64a0b-105">You can use this functionality to quickly register inventory without creating putaway work when you receive purchase or transfer orders, or when you complete manufacturing processes.</span></span> <span data-ttu-id="64a0b-106">Dit onderwerp biedt algemene informatie.</span><span class="sxs-lookup"><span data-stu-id="64a0b-106">This topic provides general information.</span></span> <span data-ttu-id="64a0b-107">Zie voor gedetailleerde informatie over de ontvangst van nummerplaten [Nummerplaat ontvangen via de magazijnapp](warehousing-mobile-device-app-license-plate-receiving.md).</span><span class="sxs-lookup"><span data-stu-id="64a0b-107">For detailed information that is related to license plate receiving, see [License plate receiving via the warehouse app](warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
 
-<span data-ttu-id="403ba-105">Dit werkbeleid bepaalt of er magazijnwerk wordt gemaakt voor magazijnprocessen in productie.</span><span class="sxs-lookup"><span data-stu-id="403ba-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="403ba-106">U kunt het werkbeleid instellen door een combinatie van **werkordertypen**, een **voorraadlocatie** en een **product** te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="403ba-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="403ba-107">Stel dat het product L0101 gereed wordt gemeld bij uitvoerlocatie 001.</span><span class="sxs-lookup"><span data-stu-id="403ba-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="403ba-108">Het eindproduct wordt later gebruikt in een andere productieorder op uitvoerlocatie 001.</span><span class="sxs-lookup"><span data-stu-id="403ba-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="403ba-109">In dit geval kunt u een werkbeleid instellen om te voorkomen dat het werk voor het wegzetten van het eindproduct wordt uitgevoerd wanneer u product L0101 gereedmeldt bij uitvoerlocatie 001.</span><span class="sxs-lookup"><span data-stu-id="403ba-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="403ba-110">Het werkbeleid is een afzonderlijke entiteit die kan worden beschreven aan de hand van de volgende informatie:</span><span class="sxs-lookup"><span data-stu-id="403ba-110">The work policy is an individual entity that can be described through the following information:</span></span>
+<span data-ttu-id="64a0b-108">Met een werkbeleid wordt bepaald of magazijnwerk wordt gemaakt wanneer een geproduceerd artikel wordt gereedgemeld of wanneer goederen worden ontvangen via de magazijn-app.</span><span class="sxs-lookup"><span data-stu-id="64a0b-108">A work policy controls whether warehouse work is created when a manufactured item is reported as finished, or when goods are received by using the warehouse app.</span></span> <span data-ttu-id="64a0b-109">U stelt elk werkbeleid in door de voorwaarden te definiëren waaronder het beleid van toepassing is: de werkordertypen en -processen, de voorraadlocatie en (optioneel) de producten.</span><span class="sxs-lookup"><span data-stu-id="64a0b-109">You set up each work policy by defining the conditions where it applies: the work order types and processes, the inventory location, and (optionally) the products.</span></span> <span data-ttu-id="64a0b-110">Een inkooporder voor product *A0001* moet bijvoorbeeld worden ontvangen op locatie *RECV* in magazijn *24*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-110">For example, a purchase order for product *A0001* must be received in location *RECV* in warehouse *24*.</span></span> <span data-ttu-id="64a0b-111">Later wordt het product verbruikt in een ander proces op locatie *RECV*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-111">Later, the product is consumed in another process at location *RECV*.</span></span> <span data-ttu-id="64a0b-112">In dat geval kunt u een werkbeleid instellen om te voorkomen dat wegzetwerk wordt gemaakt wanneer een werknemer product *A0001* meldt als ontvangen op de locatie *RECV*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-112">In this case, you can set up a work policy to prevent putaway work from being created when a worker reports product *A0001* as received in location *RECV*.</span></span>
 
--   <span data-ttu-id="403ba-111">**Werkbeleidsnaam**(de unieke id van het werkbeleid)</span><span class="sxs-lookup"><span data-stu-id="403ba-111">**Work policy name** (the unique identifier of the work policy)</span></span>
--   <span data-ttu-id="403ba-112">**Werkordertypen** en **Werkaanmaakmethode**</span><span class="sxs-lookup"><span data-stu-id="403ba-112">**Work order types** and **Work creation method**</span></span>
--   <span data-ttu-id="403ba-113">**Voorraadlocaties**</span><span class="sxs-lookup"><span data-stu-id="403ba-113">**Inventory locations**</span></span>
--   <span data-ttu-id="403ba-114">**Producten**</span><span class="sxs-lookup"><span data-stu-id="403ba-114">**Products**</span></span>
+> [!NOTE]
+> - <span data-ttu-id="64a0b-113">Voor een actief werkbeleid moet u minimaal één locatie definiëren op het sneltabblad **Voorraadlocaties** van de pagina **Werkbeleidsregels**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-113">For a work policy to be active, you must define at least one location for it on the **Inventory locations** FastTab of the **Work policies** page.</span></span> 
+> - <span data-ttu-id="64a0b-114">U kunt niet dezelfde locatie opgeven voor meerdere werkbeleidsregels.</span><span class="sxs-lookup"><span data-stu-id="64a0b-114">You can't specify the same location for multiple work policies.</span></span>
+> - <span data-ttu-id="64a0b-115">Met de optie **Etiket afdrukken** voor menuopdrachten van mobiele apparaten wordt een nummerplaat afgedrukt tenzij werk is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="64a0b-115">The **Print label** option for mobile device menu items won't print a license plate label unless work was created.</span></span>
 
-## <a name="work-order-types"></a><span data-ttu-id="403ba-115">Werkordertypen</span><span class="sxs-lookup"><span data-stu-id="403ba-115">Work order types</span></span>
-<span data-ttu-id="403ba-116">U kunt de volgende werkordertypen selecteren:</span><span class="sxs-lookup"><span data-stu-id="403ba-116">You can select the following work order types:</span></span>
+## <a name="activate-the-features-in-your-system"></a><span data-ttu-id="64a0b-116">De functies in uw systeem activeren</span><span class="sxs-lookup"><span data-stu-id="64a0b-116">Activate the features in your system</span></span>
 
--   <span data-ttu-id="403ba-117">Eindproducten wegzetten</span><span class="sxs-lookup"><span data-stu-id="403ba-117">Finished goods put away</span></span>
--   <span data-ttu-id="403ba-118">Coproducten en bijproducten wegzetten</span><span class="sxs-lookup"><span data-stu-id="403ba-118">Co-product and by-product put away</span></span>
--   <span data-ttu-id="403ba-119">Orderverzameling van grondstoffen</span><span class="sxs-lookup"><span data-stu-id="403ba-119">Raw material picking</span></span>
+<span data-ttu-id="64a0b-117">Schakel de volgende twee functies in het [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in om alle functies die in dit onderwerp worden beschreven, beschikbaar te maken in uw systeem:</span><span class="sxs-lookup"><span data-stu-id="64a0b-117">To make all the functionality that is described in this topic available in your system, turn on the following two features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):</span></span>
 
-<span data-ttu-id="403ba-120">Het veld **Werkaanmaakmethode** heeft de waarde **Nooit**.</span><span class="sxs-lookup"><span data-stu-id="403ba-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="403ba-121">Met deze waarde wordt aangegeven dat het werkbeleid voorkomt dat magazijnwerk wordt gemaakt voor het geselecteerde type werkorder.</span><span class="sxs-lookup"><span data-stu-id="403ba-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
+- <span data-ttu-id="64a0b-118">Verbeteringen voor ontvangen van nummerplaten</span><span class="sxs-lookup"><span data-stu-id="64a0b-118">License plate receiving enhancements</span></span>
+- <span data-ttu-id="64a0b-119">Verbeteringen in werkbeleid voor inkomend werk</span><span class="sxs-lookup"><span data-stu-id="64a0b-119">Work policy enhancements for inbound work</span></span>
 
-## <a name="inventory-locations"></a><span data-ttu-id="403ba-122">Voorraadlocaties</span><span class="sxs-lookup"><span data-stu-id="403ba-122">Inventory locations</span></span>
-<span data-ttu-id="403ba-123">U kunt een locatie selecteren waarop het werkbeleid van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="403ba-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="403ba-124">Als er geen locatie aan een werkbeleid wordt gekoppeld, is het werkbeleid niet van toepassing op enige processen.</span><span class="sxs-lookup"><span data-stu-id="403ba-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="403ba-125">Op de pagina **Locaties** kunt u ook werkbeleid voor een specifieke locatie selecteren of annuleren.</span><span class="sxs-lookup"><span data-stu-id="403ba-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
+## <a name="the-work-policies-page"></a><span data-ttu-id="64a0b-120">De pagina Werkbeleidsregels</span><span class="sxs-lookup"><span data-stu-id="64a0b-120">The Work policies page</span></span>
 
-## <a name="products"></a><span data-ttu-id="403ba-126">Producten</span><span class="sxs-lookup"><span data-stu-id="403ba-126">Products</span></span>
-<span data-ttu-id="403ba-127">U kunt een product selecteren waarop het werkbeleid van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="403ba-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="403ba-128">U kunt het werkbeleid op alle producten of bepaalde producten toepassen.</span><span class="sxs-lookup"><span data-stu-id="403ba-128">You can apply the work policy to either all products or selected products.</span></span>
+<span data-ttu-id="64a0b-121">Als u werkbeleid wilt instellen, gaat u naar **Magazijnbeheer \> Instellen \> Werk \> Werkbeleidsregels**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-121">To set up work policies, go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span> <span data-ttu-id="64a0b-122">Stel vervolgens op elk sneltabblad de velden in zoals beschreven in de volgende subsecties.</span><span class="sxs-lookup"><span data-stu-id="64a0b-122">Then, on each FastTab, set the fields as described in the following subsections.</span></span>
 
-## <a name="example"></a><span data-ttu-id="403ba-129">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="403ba-129">Example</span></span>
-<span data-ttu-id="403ba-130">In het volgende voorbeeld zijn er twee productieorders: PRD-001 en PRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="403ba-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="403ba-131">Productieorder PRD-001 heeft een bewerking met de naam **Assembly**, waarbij product SC1 aan locatie O1 wordt gereedgemeld.</span><span class="sxs-lookup"><span data-stu-id="403ba-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="403ba-132">Productieorder PRD-002 heeft een bewerking met de naam **Verven** en verbruikt product SC1 van locatie O1.</span><span class="sxs-lookup"><span data-stu-id="403ba-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="403ba-133">Productieorder PRD-002 verbruikt ook grondstof RM1 van locatie O1.</span><span class="sxs-lookup"><span data-stu-id="403ba-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="403ba-134">RM1 is opgeslagen in magazijnlocatie BULK-001 en wordt verzameld op locatie O1 door magazijnwerk voor het verzamelen van grondstoffen.</span><span class="sxs-lookup"><span data-stu-id="403ba-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="403ba-135">De orderverzameling wordt gegenereerd wanneer productie PRD-002 wordt vrijgegeven.</span><span class="sxs-lookup"><span data-stu-id="403ba-135">The picking work is generated when production PRD-002 is released.</span></span> 
+### <a name="the-work-order-types-fasttab"></a><span data-ttu-id="64a0b-123">Het sneltabblad Werkordertypen</span><span class="sxs-lookup"><span data-stu-id="64a0b-123">The Work order types FastTab</span></span>
 
-<span data-ttu-id="403ba-136">[![Werkbeleid magazijn](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="403ba-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
+<span data-ttu-id="64a0b-124">Voeg op het sneltabblad **Werkordertypen** alle werkordertypen en de bijbehorende werkprocessen toe waarop het werkbeleid van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="64a0b-124">On the **Work order types** FastTab, add all the work order types, and the related work processes, that the work policy applies to.</span></span> <span data-ttu-id="64a0b-125">De volgende typen werkorders en gerelateerde werkprocessen worden ondersteund voor werkbeleidsregels.</span><span class="sxs-lookup"><span data-stu-id="64a0b-125">The following work order types and related work processes are supported for work policies.</span></span>
 
-<span data-ttu-id="403ba-137">Wanneer u een werkbeleid voor magazijnen voor dit scenario configureert, moet u rekening houden met het volgende:</span><span class="sxs-lookup"><span data-stu-id="403ba-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
+| <span data-ttu-id="64a0b-126">Werkordertype</span><span class="sxs-lookup"><span data-stu-id="64a0b-126">Work order type</span></span> | <span data-ttu-id="64a0b-127">Werkproces</span><span class="sxs-lookup"><span data-stu-id="64a0b-127">Work process</span></span> |
+|---|---|
+| <span data-ttu-id="64a0b-128">Orderverzameling van grondstoffen</span><span class="sxs-lookup"><span data-stu-id="64a0b-128">Raw material picking</span></span>| <span data-ttu-id="64a0b-129">Alle gerelateerde processen</span><span class="sxs-lookup"><span data-stu-id="64a0b-129">All related processes</span></span> |
+| <span data-ttu-id="64a0b-130">Coproducten en bijproducten wegzetten</span><span class="sxs-lookup"><span data-stu-id="64a0b-130">Co-product and by-product put away</span></span> | <span data-ttu-id="64a0b-131">Alle gerelateerde processen</span><span class="sxs-lookup"><span data-stu-id="64a0b-131">All related processes</span></span> |
+| <span data-ttu-id="64a0b-132">Eindproducten wegzetten</span><span class="sxs-lookup"><span data-stu-id="64a0b-132">Finished goods putaway</span></span> | <span data-ttu-id="64a0b-133">Alle gerelateerde processen</span><span class="sxs-lookup"><span data-stu-id="64a0b-133">All related processes</span></span> |
+| <span data-ttu-id="64a0b-134">Ontvangstbewijs voor overboeking</span><span class="sxs-lookup"><span data-stu-id="64a0b-134">Transfer receipt</span></span> | <span data-ttu-id="64a0b-135">Nummerplaten ontvangen (en wegzetten)</span><span class="sxs-lookup"><span data-stu-id="64a0b-135">License plate receiving (and putaway)</span></span> |
+| <span data-ttu-id="64a0b-136">Inkooporders</span><span class="sxs-lookup"><span data-stu-id="64a0b-136">Purchase orders</span></span> | <ul><li><span data-ttu-id="64a0b-137">Nummerplaten ontvangen (en wegzetten)</span><span class="sxs-lookup"><span data-stu-id="64a0b-137">License plate receiving (and putaway)</span></span></li><li><span data-ttu-id="64a0b-138">Artikelontvangst laden (en wegzetten)</span><span class="sxs-lookup"><span data-stu-id="64a0b-138">Load item receiving (and putaway)</span></span></li><li><span data-ttu-id="64a0b-139">Inkooporderregels ontvangen (en wegzetten)</span><span class="sxs-lookup"><span data-stu-id="64a0b-139">Purchase order line receiving (and putaway)</span></span></li><li><span data-ttu-id="64a0b-140">Inkooporderartikelen ontvangen (en wegzetten)</span><span class="sxs-lookup"><span data-stu-id="64a0b-140">Purchase order item receiving (and putaway)</span></span></li></ul> |
 
--   <span data-ttu-id="403ba-138">Magazijnwerk voor weggezette afgewerkte goederen is niet vereist wanneer u product SC1 van productieorder PRD-001 gereedmeldt voor locatie O1.</span><span class="sxs-lookup"><span data-stu-id="403ba-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="403ba-139">De bewerking **Verven** voor productieorder PRD-002 verbruikt namelijk SC1 op dezelfde locatie.</span><span class="sxs-lookup"><span data-stu-id="403ba-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
--   <span data-ttu-id="403ba-140">Magazijnwerk voor het verzamelen van grondstoffen is vereist om grondstof RM1 van de magazijnlocatie BULK-001 naar locatie O1 te verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="403ba-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
+<span data-ttu-id="64a0b-141">Als u een werkbeleid zo wilt instellen dat het wordt toegepast op verschillende werkprocessen van hetzelfde type werkorder, voegt u een aparte regel voor elk werkproces toe aan het raster.</span><span class="sxs-lookup"><span data-stu-id="64a0b-141">To set up a work policy so that it applies to several work processes of the same work order type, add a separate line for each work process to the grid.</span></span>
 
-<span data-ttu-id="403ba-141">Hier is een voorbeeld van het werkbeleid dat u kunt instellen, op basis van deze overwegingen.</span><span class="sxs-lookup"><span data-stu-id="403ba-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
+<span data-ttu-id="64a0b-142">Voor elke regel in het raster stelt u het veld **Werkaanmaakmethode** in op een van de volgende waarden:</span><span class="sxs-lookup"><span data-stu-id="64a0b-142">For each line in the grid, set the **Work creation method** field to one of the following values:</span></span>
 
+- <span data-ttu-id="64a0b-143">**Nooit**: het werkbeleid voorkomt dat magazijnwerk wordt gemaakt voor het geselecteerde type werkorder en gerelateerde werkprocessen.</span><span class="sxs-lookup"><span data-stu-id="64a0b-143">**Never** – The work policy will prevent warehouse work from being created for the selected work order type and related work process.</span></span>
+- <span data-ttu-id="64a0b-144">**Cross-docken**: het werkbeleid maakt cross-docken mogelijk met behulp van het beleid dat u selecteert in het veld **Naam van beleid voor cross-docken**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-144">**Cross docking** – The work policy will create cross-docking work by using the policy that you select in the **Cross docking policy name** field.</span></span>
 
-|                                       |                                       |
-|---------------------------------------|---------------------------------------|
-| <span data-ttu-id="403ba-142"><strong>Werkbeleidsnaam</strong></span><span class="sxs-lookup"><span data-stu-id="403ba-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="403ba-143"><strong>Werkordertypen</strong></span><span class="sxs-lookup"><span data-stu-id="403ba-143"><strong>Work order types</strong></span></span><br> |
-|         <span data-ttu-id="403ba-144">Niet wegzetten 01     \`</span><span class="sxs-lookup"><span data-stu-id="403ba-144">No put away 01     \`</span></span>          |     <span data-ttu-id="403ba-145">- Eindproduct weggezet</span><span class="sxs-lookup"><span data-stu-id="403ba-145">- Finished good put away</span></span><br>      |
-|                                       |    <span data-ttu-id="403ba-146"><strong>Locaties</strong></span><span class="sxs-lookup"><span data-stu-id="403ba-146"><strong>Locations</strong></span></span><br>     |
-|                                       |                 <span data-ttu-id="403ba-147">- O1</span><span class="sxs-lookup"><span data-stu-id="403ba-147">- O1</span></span>                  |
-|                                       |    <span data-ttu-id="403ba-148"><strong>Producten</strong></span><span class="sxs-lookup"><span data-stu-id="403ba-148"><strong>Products</strong></span></span> <br>     |
-|                                       |                 <span data-ttu-id="403ba-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="403ba-149">- SC1</span></span>                 |
+### <a name="the-inventory-locations-fasttab"></a><span data-ttu-id="64a0b-145">Het sneltabblad Voorraadlocaties</span><span class="sxs-lookup"><span data-stu-id="64a0b-145">The Inventory locations FastTab</span></span>
 
-<span data-ttu-id="403ba-150">In de volgende procedures vindt u stapsgewijze instructies voor het instellen van het beleid voor magazijnwerk voor dit scenario.</span><span class="sxs-lookup"><span data-stu-id="403ba-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="403ba-151">Daarnaast wordt een voorbeeld gegeven van een configuratie om te laten zien hoe u een productieorder gereedmeldt voor een locatie die niet wordt gecontroleerd op nummerplaat.</span><span class="sxs-lookup"><span data-stu-id="403ba-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
+<span data-ttu-id="64a0b-146">Voeg op het sneltabblad **Voorraadlocaties** alle locaties toe waarop dit werkbeleid moet worden toegepast.</span><span class="sxs-lookup"><span data-stu-id="64a0b-146">On the **Inventory locations** FastTab, add all the locations where this work policy should be applied.</span></span> <span data-ttu-id="64a0b-147">Als er geen locatie aan een werkbeleid is gekoppeld, wordt het werkbeleid niet op enig proces toegepast.</span><span class="sxs-lookup"><span data-stu-id="64a0b-147">If no location is associated with a work policy, the work policy won't be applied to any process.</span></span>
 
-## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="403ba-152">Een magazijnwerkbeleid instellen</span><span class="sxs-lookup"><span data-stu-id="403ba-152">Set up a warehouse work policy</span></span>
-<span data-ttu-id="403ba-153">In magazijnprocessen wordt niet altijd magazijnwerk opgenomen.</span><span class="sxs-lookup"><span data-stu-id="403ba-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="403ba-154">Door een werkbeleid te definiëren kunt u voorkomen dat werk wordt gemaakt voor het verzamelen en wegzetten van grondstoffen voor afgewerkte goederen voor een reeks producten op specifieke locaties.</span><span class="sxs-lookup"><span data-stu-id="403ba-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="403ba-155">Voor deze procedure is gebruikgemaakt van het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="403ba-155">The USMF demo data company was used to create this procedure.</span></span> 
+<span data-ttu-id="64a0b-148">U kunt niet dezelfde locatie opgeven voor meerdere werkbeleidsregels.</span><span class="sxs-lookup"><span data-stu-id="64a0b-148">You can't specify the same location for multiple work policies.</span></span>
 
-<span data-ttu-id="403ba-156">STAPPEN (21)</span><span class="sxs-lookup"><span data-stu-id="403ba-156">STEPS (21)</span></span>
+<span data-ttu-id="64a0b-149">U kunt een magazijnlocatie gebruiken die aan een locatieprofiel is toegewezen als de optie **Bijhouden nummerplaat gebruiken** is uitgeschakeld.</span><span class="sxs-lookup"><span data-stu-id="64a0b-149">You can use a warehouse location that is assigned to a location profile where the **Use license plate tracking** option is turned off.</span></span> <span data-ttu-id="64a0b-150">In dit geval zullen werknemers de voorhanden voorraad rechtstreeks registreren.</span><span class="sxs-lookup"><span data-stu-id="64a0b-150">In this case, workers will directly register the on-hand inventory.</span></span>
 
-|     |                                                                            |
-|-----|----------------------------------------------------------------------------|
-| <span data-ttu-id="403ba-157">1.</span><span class="sxs-lookup"><span data-stu-id="403ba-157">1.</span></span>  | <span data-ttu-id="403ba-158">Ga naar Magazijnbeheer &gt; Instellen &gt; Werk &gt; Werkbeleid.</span><span class="sxs-lookup"><span data-stu-id="403ba-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
-| <span data-ttu-id="403ba-159">2.</span><span class="sxs-lookup"><span data-stu-id="403ba-159">2.</span></span>  | <span data-ttu-id="403ba-160">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="403ba-160">Click New.</span></span>                                                                 |
-| <span data-ttu-id="403ba-161">3.</span><span class="sxs-lookup"><span data-stu-id="403ba-161">3.</span></span>  | <span data-ttu-id="403ba-162">Typ in het veld Werkbeleidsnaam 'Geen weggezet werk'.</span><span class="sxs-lookup"><span data-stu-id="403ba-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
-| <span data-ttu-id="403ba-163">4.</span><span class="sxs-lookup"><span data-stu-id="403ba-163">4.</span></span>  | <span data-ttu-id="403ba-164">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="403ba-164">Click Save.</span></span>                                                                |
-| <span data-ttu-id="403ba-165">5.</span><span class="sxs-lookup"><span data-stu-id="403ba-165">5.</span></span>  | <span data-ttu-id="403ba-166">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="403ba-166">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="403ba-167">6.</span><span class="sxs-lookup"><span data-stu-id="403ba-167">6.</span></span>  | <span data-ttu-id="403ba-168">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="403ba-168">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="403ba-169">7.</span><span class="sxs-lookup"><span data-stu-id="403ba-169">7.</span></span>  | <span data-ttu-id="403ba-170">Selecteer in het veld Werkordertype 'Eindproducten wegzetten'.</span><span class="sxs-lookup"><span data-stu-id="403ba-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
-| <span data-ttu-id="403ba-171">8.</span><span class="sxs-lookup"><span data-stu-id="403ba-171">8.</span></span>  | <span data-ttu-id="403ba-172">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="403ba-172">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="403ba-173">9.</span><span class="sxs-lookup"><span data-stu-id="403ba-173">9.</span></span>  | <span data-ttu-id="403ba-174">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="403ba-174">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="403ba-175">10.</span><span class="sxs-lookup"><span data-stu-id="403ba-175">10.</span></span> | <span data-ttu-id="403ba-176">Selecteer in het veld Werkordertype 'Coproducten en bijproducten wegzetten'.</span><span class="sxs-lookup"><span data-stu-id="403ba-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
-| <span data-ttu-id="403ba-177">11.</span><span class="sxs-lookup"><span data-stu-id="403ba-177">11.</span></span> | <span data-ttu-id="403ba-178">Vouw de sectie Voorraadlocaties uit.</span><span class="sxs-lookup"><span data-stu-id="403ba-178">Expand the Inventory locations section.</span></span>                                    |
-| <span data-ttu-id="403ba-179">12.</span><span class="sxs-lookup"><span data-stu-id="403ba-179">12.</span></span> | <span data-ttu-id="403ba-180">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="403ba-180">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="403ba-181">13.</span><span class="sxs-lookup"><span data-stu-id="403ba-181">13.</span></span> | <span data-ttu-id="403ba-182">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="403ba-182">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="403ba-183">14.</span><span class="sxs-lookup"><span data-stu-id="403ba-183">14.</span></span> | <span data-ttu-id="403ba-184">Voer in de magazijnlijst '51' in.</span><span class="sxs-lookup"><span data-stu-id="403ba-184">In the Warehouse list, enter '51'.</span></span>                                         |
-| <span data-ttu-id="403ba-185">15.</span><span class="sxs-lookup"><span data-stu-id="403ba-185">15.</span></span> | <span data-ttu-id="403ba-186">Typ of selecteer '001' in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="403ba-186">In the Location field, enter or select '001'.</span></span>                              |
-| <span data-ttu-id="403ba-187">16.</span><span class="sxs-lookup"><span data-stu-id="403ba-187">16.</span></span> | <span data-ttu-id="403ba-188">Vouw de sectie Producten uit.</span><span class="sxs-lookup"><span data-stu-id="403ba-188">Expand the Products section.</span></span>                                               |
-| <span data-ttu-id="403ba-189">17.</span><span class="sxs-lookup"><span data-stu-id="403ba-189">17.</span></span> | <span data-ttu-id="403ba-190">Selecteer 'Geselecteerd' in het veld Productselectie.</span><span class="sxs-lookup"><span data-stu-id="403ba-190">In the Product selection field, select 'Selected'.</span></span>                         |
-| <span data-ttu-id="403ba-191">18.</span><span class="sxs-lookup"><span data-stu-id="403ba-191">18.</span></span> | <span data-ttu-id="403ba-192">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="403ba-192">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="403ba-193">19.</span><span class="sxs-lookup"><span data-stu-id="403ba-193">19.</span></span> | <span data-ttu-id="403ba-194">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="403ba-194">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="403ba-195">20.</span><span class="sxs-lookup"><span data-stu-id="403ba-195">20.</span></span> | <span data-ttu-id="403ba-196">Typ of selecteer 'L0101' in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="403ba-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
-| <span data-ttu-id="403ba-197">21.</span><span class="sxs-lookup"><span data-stu-id="403ba-197">21.</span></span> | <span data-ttu-id="403ba-198">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="403ba-198">Click Save.</span></span>                                                                |
+### <a name="the-products-fasttab"></a><span data-ttu-id="64a0b-151">Het sneltabblad Producten</span><span class="sxs-lookup"><span data-stu-id="64a0b-151">The Products FastTab</span></span>
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="403ba-199">Een productieorder gereedmelden voor een locatie die niet wordt gecontroleerd op nummerplaat</span><span class="sxs-lookup"><span data-stu-id="403ba-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
-<span data-ttu-id="403ba-200">Deze procedure toont een voorbeeld van gereedmelding bij een locatie waar geen nummerplaten worden gecontroleerd.</span><span class="sxs-lookup"><span data-stu-id="403ba-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="403ba-201">Een toepasselijk werkbeleid is de vereiste voor deze taak.</span><span class="sxs-lookup"><span data-stu-id="403ba-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="403ba-202">In de vorige procedure werd beschreven hoe het werkbeleid wordt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="403ba-202">The previous procedure shows the setup of the work policy.</span></span> 
+<span data-ttu-id="64a0b-152">Stel op het tabblad **Producten** het veld **Productselectie** in om te bepalen voor welke producten het beleid moet gelden:</span><span class="sxs-lookup"><span data-stu-id="64a0b-152">On the **Products** tab, set the **Product selection** field to control which products the policy should apply to:</span></span>
 
-<span data-ttu-id="403ba-203">STAPPEN (25)</span><span class="sxs-lookup"><span data-stu-id="403ba-203">STEPS (25)</span></span>
+- <span data-ttu-id="64a0b-153">**Alles**: het beleid moet van toepassing zijn op alle producten.</span><span class="sxs-lookup"><span data-stu-id="64a0b-153">**All** – The policy should apply to all products.</span></span>
+- <span data-ttu-id="64a0b-154">**Geselecteerd**: het beleid moet alleen van toepassing zijn op producten die worden vermeld in het raster.</span><span class="sxs-lookup"><span data-stu-id="64a0b-154">**Selected** – The policy should apply only to products that are listed in the grid.</span></span> <span data-ttu-id="64a0b-155">Gebruik de werkbalk op het sneltabblad **Producten** om producten aan het raster toe te voegen of ze uit het raster te verwijderen.</span><span class="sxs-lookup"><span data-stu-id="64a0b-155">Use the toolbar on the **Products** FastTab to add products to the grid or remove them from the grid.</span></span>
 
-<table>
-<tbody>
-<tr>
-<td colspan="3"><span data-ttu-id="403ba-204"><strong>Deeltaak: Een uitvoerlocatie instellen.</strong></span><span class="sxs-lookup"><span data-stu-id="403ba-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td><span data-ttu-id="403ba-205">Ga naar Organisatiebeheer &gt; Resources &gt; Resourcegroepen.</span><span class="sxs-lookup"><span data-stu-id="403ba-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td><span data-ttu-id="403ba-206">Selecteer resourcegroep &#39;5102&#39; in de lijst.</span><span class="sxs-lookup"><span data-stu-id="403ba-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td><span data-ttu-id="403ba-207">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="403ba-207">Click Edit.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td><span data-ttu-id="403ba-208">Voer &#39;51&#39; in het veld Uitvoermagazijn in.</span><span class="sxs-lookup"><span data-stu-id="403ba-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td><span data-ttu-id="403ba-209">Voer &#39;001&#39; in het veld Uitvoerlocatie in.</span><span class="sxs-lookup"><span data-stu-id="403ba-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td><span data-ttu-id="403ba-210">Locatie 001 is geen locatie waar nummerplaten worden gecontroleerd.</span><span class="sxs-lookup"><span data-stu-id="403ba-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="403ba-211">U kunt een uitvoerlocatie waar geen nummerplaten worden gecontroleerd alleen instellen als er een toepasselijk werkbeleid voor de locatie bestaat.</span><span class="sxs-lookup"><span data-stu-id="403ba-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
-</tr>
-<tr>
-<td colspan="3"><span data-ttu-id="403ba-212"><strong>Deeltaak: Een productieorder maken en gereedmelden.</strong></span><span class="sxs-lookup"><span data-stu-id="403ba-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td><span data-ttu-id="403ba-213">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="403ba-213">Close the page.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td><span data-ttu-id="403ba-214">Ga naar Productiebeheer &gt; Productieorders &gt; Alle productieorders.</span><span class="sxs-lookup"><span data-stu-id="403ba-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td><span data-ttu-id="403ba-215">Klik op Nieuwe productieorder.</span><span class="sxs-lookup"><span data-stu-id="403ba-215">Click New production order.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td><span data-ttu-id="403ba-216">Voer &#39;L0101&#39; in het veld Artikelnummer in.</span><span class="sxs-lookup"><span data-stu-id="403ba-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td><span data-ttu-id="403ba-217">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="403ba-217">Click Create.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td><span data-ttu-id="403ba-218">Klik in het actievenster op Productieorder.</span><span class="sxs-lookup"><span data-stu-id="403ba-218">On the Action Pane, click Production order.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>7.</td>
-<td><span data-ttu-id="403ba-219">Klik op Raming.</span><span class="sxs-lookup"><span data-stu-id="403ba-219">Click Estimate.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>8.</td>
-<td><span data-ttu-id="403ba-220">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="403ba-220">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>9.</td>
-<td><span data-ttu-id="403ba-221">Klik op Start.</span><span class="sxs-lookup"><span data-stu-id="403ba-221">Click Start.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>10.</td>
-<td><span data-ttu-id="403ba-222">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="403ba-222">Click the General tab.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>11.</td>
-<td><span data-ttu-id="403ba-223">Selecteer &#39;Nooit&#39; in het veld Automatisch stuklijstverbruik.</span><span class="sxs-lookup"><span data-stu-id="403ba-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>12.</td>
-<td><span data-ttu-id="403ba-224">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="403ba-224">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>13.</td>
-<td><span data-ttu-id="403ba-225">Klik op Gereedmelden.</span><span class="sxs-lookup"><span data-stu-id="403ba-225">Click Report as finished.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>14.</td>
-<td><span data-ttu-id="403ba-226">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="403ba-226">Click the General tab.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>15.</td>
-<td><span data-ttu-id="403ba-227">Selecteer Ja in het veld Fout accepteren.</span><span class="sxs-lookup"><span data-stu-id="403ba-227">Select Yes in the Accept error field.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>16.</td>
-<td><span data-ttu-id="403ba-228">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="403ba-228">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>17.</td>
-<td><span data-ttu-id="403ba-229">Klik in het actievenster op Magazijn.</span><span class="sxs-lookup"><span data-stu-id="403ba-229">On the Action Pane, click Warehouse.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>18.</td>
-<td><span data-ttu-id="403ba-230">Klik op Werkdetails.</span><span class="sxs-lookup"><span data-stu-id="403ba-230">Click Work details.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>19.</td>
-<td><span data-ttu-id="403ba-231">Toen de productieorder gereedgemeld werd, is er geen werk gegenereerd voor wegzetten.</span><span class="sxs-lookup"><span data-stu-id="403ba-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="403ba-232">Dit komt doordat er een werkbeleid is gedefinieerd waarmee wordt voorkomen dat werk wordt gegenereerd wanneer product L0101 wordt gereedgemeld bij locatie 001.</span><span class="sxs-lookup"><span data-stu-id="403ba-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
-</tr>
-</tbody>
-</table>
+## <a name="default-and-custom-to-locations"></a><span data-ttu-id="64a0b-156">Standaard en aangepaste "naar"-locaties</span><span class="sxs-lookup"><span data-stu-id="64a0b-156">Default and custom "to" locations</span></span>
 
+> [!NOTE]
+> <span data-ttu-id="64a0b-157">Om de functionaliteit die in deze sectie wordt beschreven beschikbaar te maken in uw systeem, moet u de functies *Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp* en *Verbeteringen in werkbeleid voor inkomend werk* inschakelen in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="64a0b-157">To make the functionality that is described in this section available in your system, you must turn on the *License plate receiving enhancements* and *Work policy enhancements for inbound work* features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
 
+<span data-ttu-id="64a0b-158">Voorheen bood het systeem alleen ondersteuning voor ontvangst op de standaardlocatie die voor elk magazijn is gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="64a0b-158">Previously, the system supported receiving only at the default location that is defined for each warehouse.</span></span> <span data-ttu-id="64a0b-159">In menuopdrachten op mobiele apparaten die de volgende processen voor het maken van werk gebruiken, wordt nu de optie **Standaardgegevens gebruiken** weergegeven.</span><span class="sxs-lookup"><span data-stu-id="64a0b-159">However, mobile device menu items that use the following work creation processes now provide the **Use default data** option.</span></span> <span data-ttu-id="64a0b-160">Met deze optie kunt u een aangepaste 'naar'-locatie toewijzen aan een of meer menuopdrachten.</span><span class="sxs-lookup"><span data-stu-id="64a0b-160">This option lets you assign a custom "to" location to one or more menu items.</span></span> <span data-ttu-id="64a0b-161">(Deze optie was al beschikbaar voor enkele andere typen menuopdrachten.)</span><span class="sxs-lookup"><span data-stu-id="64a0b-161">(This option was already available for some other types of menu items.)</span></span>
 
+- <span data-ttu-id="64a0b-162">Nummerplaten ontvangen (en wegzetten)</span><span class="sxs-lookup"><span data-stu-id="64a0b-162">License plate receiving (and putaway)</span></span>
+- <span data-ttu-id="64a0b-163">Artikelontvangst laden (en wegzetten)</span><span class="sxs-lookup"><span data-stu-id="64a0b-163">Load item receiving (and putaway)</span></span>
+- <span data-ttu-id="64a0b-164">Inkooporderregels ontvangen (en wegzetten)</span><span class="sxs-lookup"><span data-stu-id="64a0b-164">Purchase order line receiving (and putaway)</span></span>
+- <span data-ttu-id="64a0b-165">Inkooporderartikelen ontvangen (en wegzetten)</span><span class="sxs-lookup"><span data-stu-id="64a0b-165">Purchase order item receiving (and putaway)</span></span>
+
+<span data-ttu-id="64a0b-166">De **naar-locatie** voor een menuopdracht heeft voorrang op de standaardontvangstlocatie voor het magazijn, voor alle orders die met die menuoptie worden verwerkt.</span><span class="sxs-lookup"><span data-stu-id="64a0b-166">The **To location** setting for a menu item overrides the default receiving location for the warehouse, for all orders that are processed by using that menu item.</span></span>
+
+<span data-ttu-id="64a0b-167">Voer de volgende stappen uit om een menuopdracht voor een mobiel apparaat in te stellen voor ondersteuning van ontvangst op een aangepaste locatie.</span><span class="sxs-lookup"><span data-stu-id="64a0b-167">To set up a mobile device menu item to support receiving at a custom location, follow these steps.</span></span>
+
+1. <span data-ttu-id="64a0b-168">Ga naar **Magazijnbeheer \> Instellen \> Mobiel apparaat \> Menuopties voor mobiel apparaat**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-168">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="64a0b-169">Selecteer of maak een menuopdracht die gebruikmaakt van een van de werkprocessen die eerder in deze sectie zijn vermeld.</span><span class="sxs-lookup"><span data-stu-id="64a0b-169">Select or create a menu item that uses one of the work creation processes that are listed earlier in this section.</span></span>
+1. <span data-ttu-id="64a0b-170">Stel op het sneltabblad **Algemeen** de optie **Standaardgegevens gebruiken** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-170">On the **General** FastTab, set the **Use default data** option to **Yes**.</span></span>
+1. <span data-ttu-id="64a0b-171">Selecteer in het actiedeelvenster **Standaardgegevens**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-171">On the Action Pane, select **Default data**.</span></span>
+1. <span data-ttu-id="64a0b-172">Stel op de pagina **Standaardgegevens** de volgende waarden in:</span><span class="sxs-lookup"><span data-stu-id="64a0b-172">On the **Default data** page, set the following values:</span></span>
+
+    - <span data-ttu-id="64a0b-173">**Standaardgegevensveld:** stel dit veld in op *Naar locatie*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-173">**Default data field:** Set this field to *To location*.</span></span>
+    - <span data-ttu-id="64a0b-174">**Magazijn:** selecteer het doelmagazijn dat u wilt gebruiken met deze menuopdracht.</span><span class="sxs-lookup"><span data-stu-id="64a0b-174">**Warehouse:** Select the destination warehouse to use with this menu item.</span></span>
+    - <span data-ttu-id="64a0b-175">**Locatie:** dit veld bevat alle locatie-id's die beschikbaar zijn voor het geselecteerde magazijn.</span><span class="sxs-lookup"><span data-stu-id="64a0b-175">**Location:** This field lists all the location IDs that are available for the selected warehouse.</span></span> <span data-ttu-id="64a0b-176">De instelling van dit veld heeft echter geen effect.</span><span class="sxs-lookup"><span data-stu-id="64a0b-176">However, the setting of this field doesn't actually have any effect.</span></span> <span data-ttu-id="64a0b-177">U kunt dit veld daarom leeg laten.</span><span class="sxs-lookup"><span data-stu-id="64a0b-177">Therefore, you can leave it blank.</span></span> <span data-ttu-id="64a0b-178">U kunt echter de lijst gebruiken om de id te bevestigen die u moet invoeren in het veld **Hardgecodeerde waarde**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-178">Nevertheless, you can use the list to confirm the ID that you must enter in the **Hardcoded value** field.</span></span>
+    - <span data-ttu-id="64a0b-179">**Hardgecodeerde waarde:** hier kunt u de locatie-id invoeren voor de ontvangstlocatie die van toepassing is op deze menuopdracht.</span><span class="sxs-lookup"><span data-stu-id="64a0b-179">**Hardcoded value:** Enter the location ID for the receiving location that applies to this menu item.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="64a0b-180">Een werkbeleid kan alleen worden toegepast als alle ontvangstlocaties in de relevante instellingen van het werkbeleid worden vermeld.</span><span class="sxs-lookup"><span data-stu-id="64a0b-180">A work policy can be applied only if all the receiving locations are listed in the relevant work policy setup.</span></span> <span data-ttu-id="64a0b-181">Deze behoefte geldt ongeacht of u de standaardmagazijnontvangstlocatie of een aangepaste 'naar'-locatie gebruikt.</span><span class="sxs-lookup"><span data-stu-id="64a0b-181">This requirement applies regardless of whether you're using the default warehouse receiving location or a custom "to" location.</span></span>
+
+## <a name="example-scenario-warehouse-receiving"></a><span data-ttu-id="64a0b-182">Voorbeeldscenario: magazijnontvangsten</span><span class="sxs-lookup"><span data-stu-id="64a0b-182">Example scenario: Warehouse receiving</span></span>
+
+<span data-ttu-id="64a0b-183">Alle producten die worden ontvangen door het proces *Inkooporderartikelen ontvangen (en wegzetten)* moeten worden geregistreerd op locatie *FL-001* en ze moeten beschikbaar zijn in magazijn *24*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-183">All products that are received by the *Purchase order item receiving (and putaway)* process must be registered in location *FL-001*, and they must be available in warehouse *24*.</span></span> <span data-ttu-id="64a0b-184">Er moet echter geen werk worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="64a0b-184">However, work should not be created.</span></span> <span data-ttu-id="64a0b-185">Producten die worden ontvangen door een ander proces (dat wil zeggen via andere menu-items van het mobiele apparaat) moeten worden geregistreerd op de standaardmagazijnontvangstlocatie (*RECV*) en werk moet op de gebruikelijke manier worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="64a0b-185">Products that are received by any other process (that is, by using other mobile device menu items) should be registered at the default warehouse receiving location (*RECV*), and work should be created as usual.</span></span> <span data-ttu-id="64a0b-186">(In dit scenario worden de standaardinstellingen voor het ontvangen niet weergegeven.)</span><span class="sxs-lookup"><span data-stu-id="64a0b-186">(This scenario doesn't show the default receiving setup.)</span></span>
+
+<span data-ttu-id="64a0b-187">Voor dit scenario zijn de volgende elementen vereist:</span><span class="sxs-lookup"><span data-stu-id="64a0b-187">This scenario requires the following elements:</span></span>
+
+- <span data-ttu-id="64a0b-188">Een werkbeleid voor het proces *Inkooporderartikelen ontvangen (en wegzetten)* op locatie *FL-001*voor alle producten</span><span class="sxs-lookup"><span data-stu-id="64a0b-188">A work policy for the *Purchase order item receiving (and putaway)* process in location *FL-001*, for all products</span></span>
+- <span data-ttu-id="64a0b-189">Een menuopdracht voor een mobiel apparaat die standaardgegevens bevat en waarmee het veld **Naar locatie** wordt ingesteld op *FL-001*</span><span class="sxs-lookup"><span data-stu-id="64a0b-189">A mobile device menu item that has default data, and that sets the **To location** field to *FL-001*</span></span>
+
+### <a name="prerequisites"></a><span data-ttu-id="64a0b-190">Vereisten</span><span class="sxs-lookup"><span data-stu-id="64a0b-190">Prerequisites</span></span>
+
+<span data-ttu-id="64a0b-191">Om de functionaliteit die in dit scenario wordt beschreven beschikbaar te maken in uw systeem, moet u de functies *Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp* en *Verbeteringen in werkbeleid voor inkomend werk* inschakelen in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="64a0b-191">To make the functionality that is described in this scenario available in your system, you must turn on the *License plate receiving enhancements* and *Work policy enhancements for inbound work* features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
+
+<span data-ttu-id="64a0b-192">In dit scenario worden de standaarddemogegevens gebruikt.</span><span class="sxs-lookup"><span data-stu-id="64a0b-192">This scenario uses the standard demo data.</span></span> <span data-ttu-id="64a0b-193">Als u dit scenario wilt doorlopen met de waarden die hier worden gebruikt, moet u werken op een systeem waarop demogegevens zijn geïnstalleerd.</span><span class="sxs-lookup"><span data-stu-id="64a0b-193">Therefore, if you want to work through it by using the values that are provided here, you must work on a system where demo data is installed.</span></span> <span data-ttu-id="64a0b-194">U moet daarnaast ook de rechtspersoon **USMF** selecteren.</span><span class="sxs-lookup"><span data-stu-id="64a0b-194">Additionally, you must select the **USMF** legal entity.</span></span>
+
+### <a name="set-up-a-work-policy"></a><span data-ttu-id="64a0b-195">Een werkbeleid instellen</span><span class="sxs-lookup"><span data-stu-id="64a0b-195">Set up a work policy</span></span>
+
+1. <span data-ttu-id="64a0b-196">Ga naar **Magazijnbeheer \> Instellen \> Werk \> Werkbeleidsregels**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-196">Go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span>
+1. <span data-ttu-id="64a0b-197">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-197">Select **New**.</span></span>
+1. <span data-ttu-id="64a0b-198">Voer in het veld **Werkbeleidsnaam** *Geen wegzetwerk voor inkoopartikel* in.</span><span class="sxs-lookup"><span data-stu-id="64a0b-198">In the **Work policy name** field, enter *No purchase item putaway work*.</span></span>
+1. <span data-ttu-id="64a0b-199">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-199">Select **Save**.</span></span>
+1. <span data-ttu-id="64a0b-200">Selecteer op het sneltabblad **Werkordertypen** **Toevoegen** om een rij aan het raster toe te voegen en stel vervolgens de volgende waarden voor de nieuwe rij in:</span><span class="sxs-lookup"><span data-stu-id="64a0b-200">On the **Work order types** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="64a0b-201">**Werkordertype:** *Inkooporders*</span><span class="sxs-lookup"><span data-stu-id="64a0b-201">**Work order type:** *Purchase orders*</span></span>
+    - <span data-ttu-id="64a0b-202">**Werkproces:** *Inkooporderartikelen ontvangen (en wegzetten)*</span><span class="sxs-lookup"><span data-stu-id="64a0b-202">**Work process:** *Purchase order item receiving (and putaway)*</span></span>
+    - <span data-ttu-id="64a0b-203">**Werkaanmaakmethode:** *Nooit*</span><span class="sxs-lookup"><span data-stu-id="64a0b-203">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="64a0b-204">**Naam van beleid voor cross-docken:** laat dit veld leeg.</span><span class="sxs-lookup"><span data-stu-id="64a0b-204">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="64a0b-205">Selecteer op het sneltabblad **Voorraadlocaties** **Toevoegen** om een rij aan het raster toe te voegen en stel vervolgens de volgende waarden voor de nieuwe rij in:</span><span class="sxs-lookup"><span data-stu-id="64a0b-205">On the **Inventory locations** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="64a0b-206">**Magazijn:** *24*</span><span class="sxs-lookup"><span data-stu-id="64a0b-206">**Warehouse:** *24*</span></span>
+    - <span data-ttu-id="64a0b-207">**Locatie:** *FL-001*</span><span class="sxs-lookup"><span data-stu-id="64a0b-207">**Location:** *FL-001*</span></span>
+
+1. <span data-ttu-id="64a0b-208">Stel op het sneltabblad **Producten** het veld **Productselectie** in op *Alle*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-208">On the **Products** FastTab, set the **Product selection** field to *All*.</span></span>
+1. <span data-ttu-id="64a0b-209">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-209">Select **Save**.</span></span>
+
+### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a><span data-ttu-id="64a0b-210">Een menu-item voor een mobiel apparaat instellen om de locatie van de ontvangst te wijzigen</span><span class="sxs-lookup"><span data-stu-id="64a0b-210">Set up a mobile device menu item to change the receiving location</span></span>
+
+1. <span data-ttu-id="64a0b-211">Ga naar **Magazijnbeheer \> Instellen \> Mobiel apparaat \> Menuopties voor mobiel apparaat**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-211">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="64a0b-212">Selecteer de bestaande menuopdracht **Inkoop ontvangen** in het linkerdeelvenster.</span><span class="sxs-lookup"><span data-stu-id="64a0b-212">In the left pane, select the existing **Purchase receive** menu item.</span></span>
+1. <span data-ttu-id="64a0b-213">Stel op het sneltabblad **Algemeen** de optie **Standaardgegevens gebruiken** in op *Ja*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-213">On the **General** FastTab, set the **Use default data** option to *Yes*.</span></span>
+1. <span data-ttu-id="64a0b-214">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-214">Select **Save**.</span></span>
+1. <span data-ttu-id="64a0b-215">Selecteer in het actiedeelvenster **Standaardgegevens**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-215">On the Action Pane, select **Default data**.</span></span>
+1. <span data-ttu-id="64a0b-216">Selecteer op de pagina **Standaardgegevens** in het actievenster **Nieuw** om een rij aan het raster toe te voegen en stel vervolgens de volgende waarden voor de nieuwe rij in:</span><span class="sxs-lookup"><span data-stu-id="64a0b-216">On the **Default data** page, on the Action Pane, select **New** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="64a0b-217">**Standaardgegevensveld:** *Naar locatie*</span><span class="sxs-lookup"><span data-stu-id="64a0b-217">**Default data field:** *To location*</span></span>
+    - <span data-ttu-id="64a0b-218">**Magazijn:** *24*</span><span class="sxs-lookup"><span data-stu-id="64a0b-218">**Warehouse:** *24*</span></span>
+    - <span data-ttu-id="64a0b-219">**Locatie:** laat dit veld leeg.</span><span class="sxs-lookup"><span data-stu-id="64a0b-219">**Location:** Leave this field blank.</span></span>
+    - <span data-ttu-id="64a0b-220">**Hardgecodeerde waarde:** *FL-001*</span><span class="sxs-lookup"><span data-stu-id="64a0b-220">**Hardcoded value:** *FL-001*</span></span>
+
+1. <span data-ttu-id="64a0b-221">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-221">Select **Save**.</span></span>
+
+### <a name="receive-a-purchase-order-without-creating-work"></a><span data-ttu-id="64a0b-222">Een inkooporder ontvangen zonder werk te maken</span><span class="sxs-lookup"><span data-stu-id="64a0b-222">Receive a purchase order without creating work</span></span>
+
+<span data-ttu-id="64a0b-223">Het voorbeeld in deze sectie laat zien hoe u een inkooporderartikel ontvangt, zonder dat er werk wordt gemaakt op een locatie die verschilt van de standaardlocatie voor ontvangst die voor het magazijn is ingesteld.</span><span class="sxs-lookup"><span data-stu-id="64a0b-223">The example in this section shows how to receive a purchase order item, but without creating work, at a location that differs from the default receiving location that is set up for the warehouse.</span></span> <span data-ttu-id="64a0b-224">In dit voorbeeld worden het werkbeleid en de optie voor mobiele apparaten gebruikt die u eerder in dit scenario hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="64a0b-224">This example uses the work policy and mobile device item that you created earlier in this scenario.</span></span>
+
+#### <a name="create-a-purchase-order"></a><span data-ttu-id="64a0b-225">Inkooporder maken</span><span class="sxs-lookup"><span data-stu-id="64a0b-225">Create a purchase order</span></span>
+
+1. <span data-ttu-id="64a0b-226">Ga naar **Inkoop en sourcing \> Inkooporders \> Alle inkooporders**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-226">Go to **Procurement and sourcing \> Purchase orders \> All purchase orders**.</span></span>
+1. <span data-ttu-id="64a0b-227">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-227">Select **New**.</span></span>
+1. <span data-ttu-id="64a0b-228">Stel in het dialoogvenster **Inkooporder maken** de volgende waarden in:</span><span class="sxs-lookup"><span data-stu-id="64a0b-228">In the **Create purchase order** dialog box, set the following values:</span></span>
+
+    - <span data-ttu-id="64a0b-229">**Leveranciersrekening:** *US-101*</span><span class="sxs-lookup"><span data-stu-id="64a0b-229">**Vendor account:** *US-101*</span></span>
+    - <span data-ttu-id="64a0b-230">**Locatie:** *2*</span><span class="sxs-lookup"><span data-stu-id="64a0b-230">**Site:** *2*</span></span>
+    - <span data-ttu-id="64a0b-231">**Magazijn:** *24*</span><span class="sxs-lookup"><span data-stu-id="64a0b-231">**Warehouse:** *24*</span></span>
+
+1. <span data-ttu-id="64a0b-232">Selecteer **OK** om het dialoogvenster te sluiten en de nieuwe inkooporder te openen.</span><span class="sxs-lookup"><span data-stu-id="64a0b-232">Select **OK** to close the dialog box and open the new purchase order.</span></span>
+1. <span data-ttu-id="64a0b-233">Stel op het sneltabblad **Inkooporderregels** de volgende waarden in voor de lege rij:</span><span class="sxs-lookup"><span data-stu-id="64a0b-233">On the **Purchase order lines** FastTab, set the following values for the empty row:</span></span>
+
+    - <span data-ttu-id="64a0b-234">**Artikelnummer:** *A0001*</span><span class="sxs-lookup"><span data-stu-id="64a0b-234">**Item number:** *A0001*</span></span>
+    - <span data-ttu-id="64a0b-235">**Hoeveelheid:** *1*</span><span class="sxs-lookup"><span data-stu-id="64a0b-235">**Quantity:** *1*</span></span>
+
+1. <span data-ttu-id="64a0b-236">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-236">Select **Save**.</span></span>
+1. <span data-ttu-id="64a0b-237">Noteer het nummer van de inkooporder.</span><span class="sxs-lookup"><span data-stu-id="64a0b-237">Make a note of the purchase order number.</span></span>
+
+#### <a name="receive-a-purchase-order"></a><span data-ttu-id="64a0b-238">Een inkooporder ontvangen</span><span class="sxs-lookup"><span data-stu-id="64a0b-238">Receive a purchase order</span></span>
+
+1. <span data-ttu-id="64a0b-239">Meld u op het mobiele apparaat aan bij magazijn *24* met *24* als de gebruikersnaam en *1* als het wachtwoord.</span><span class="sxs-lookup"><span data-stu-id="64a0b-239">On the mobile device, sign in to warehouse *24* by using *24* as the user ID and *1* as the password.</span></span>
+1. <span data-ttu-id="64a0b-240">Selecteer **Inkomend**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-240">Select **Inbound**.</span></span>
+1. <span data-ttu-id="64a0b-241">Selecteer **Inkoop ontvangen**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-241">Select **Purchase receive**.</span></span> <span data-ttu-id="64a0b-242">Het veld **Locatie** moet worden ingesteld op *FL-001*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-242">The **Location** field should be set to *FL-001*.</span></span>
+1. <span data-ttu-id="64a0b-243">Voer het inkoopordernummer in voor de inkooporder die u hebt gemaakt in de vorige procedure.</span><span class="sxs-lookup"><span data-stu-id="64a0b-243">Enter the purchase order number for the purchase order that you created in the previous procedure.</span></span>
+1. <span data-ttu-id="64a0b-244">Voer in het veld **Artikelnummer** *A0001* in.</span><span class="sxs-lookup"><span data-stu-id="64a0b-244">In the **Item number** field, enter *A0001*.</span></span>
+1. <span data-ttu-id="64a0b-245">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-245">Select **OK**.</span></span>
+1. <span data-ttu-id="64a0b-246">Typ **1** in het veld *Hoeveelheid*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-246">In the **Quantity** field, enter *1*.</span></span>
+1. <span data-ttu-id="64a0b-247">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-247">Select **OK**.</span></span>
+
+<span data-ttu-id="64a0b-248">De inkooporder wordt nu ontvangen, maar er wordt geen werk aan gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="64a0b-248">The purchase order is now received, but no work is associated with it.</span></span> <span data-ttu-id="64a0b-249">De voorhanden voorraad is bijgewerkt en een hoeveelheid van *1* van artikel *A0001* is nu beschikbaar op locatie *FL-001*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-249">The on-hand inventory has been updated, and a quantity of *1* of item *A0001* is now available at location *FL-001*.</span></span>
+
+## <a name="example-scenario-manufacturing"></a><span data-ttu-id="64a0b-250">Voorbeeldscenario: productie</span><span class="sxs-lookup"><span data-stu-id="64a0b-250">Example scenario: Manufacturing</span></span>
+
+<span data-ttu-id="64a0b-251">In het volgende voorbeeld zijn er twee productieorders: *PRD-001* en *PRD-002*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-251">In the following example, there are two production orders, *PRD-001* and *PRD-002*.</span></span> <span data-ttu-id="64a0b-252">Productieorder *PRD-001* heeft een bewerking met de naam *Assembly*, waarbij product *SC1* aan locatie *001* wordt gereedgemeld.</span><span class="sxs-lookup"><span data-stu-id="64a0b-252">Production order *PRD-001* has an operation that is named *Assembly*, where product *SC1* is being reported as finished to location *001*.</span></span> <span data-ttu-id="64a0b-253">Productieorder *PRD-002* heeft een bewerking met de naam *Verven* en verbruikt product *SC1* van locatie *001*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-253">Production order *PRD-002* has an operation that is named *Painting* and consumes product *SC1* from location *001*.</span></span> <span data-ttu-id="64a0b-254">Productieorder *PRD-002* verbruikt ook grondstof *RM1* van locatie *001*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-254">Production order *PRD-002* also consumes raw material *RM1* from location *001*.</span></span> <span data-ttu-id="64a0b-255">Grondstof *RM1* is opgeslagen in magazijnlocatie *BULK-001* en wordt verzameld op locatie *001* door magazijnwerk voor het verzamelen van grondstoffen.</span><span class="sxs-lookup"><span data-stu-id="64a0b-255">Raw material *RM1* is stored in warehouse location *BULK-001* and will be picked to location *001* by warehouse work for raw material picking.</span></span> <span data-ttu-id="64a0b-256">Het verzamelwerk wordt gegenereerd wanneer productie *PRD-002* wordt vrijgegeven.</span><span class="sxs-lookup"><span data-stu-id="64a0b-256">The picking work is generated when production *PRD-002* is released.</span></span>
+
+<span data-ttu-id="64a0b-257">[![Werkbeleid magazijn](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="64a0b-257">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span>
+
+<span data-ttu-id="64a0b-258">Wanneer u de configuratie van een werkbeleid voor magazijnen voor dit scenario plant, moet u rekening houden met het volgende:</span><span class="sxs-lookup"><span data-stu-id="64a0b-258">When you're planning to configure a warehouse work policy for this scenario, you should consider the following points:</span></span>
+
+- <span data-ttu-id="64a0b-259">Magazijnwerk voor wegzetten van afgewerkte goederen is niet vereist wanneer u product *SC1* van productieorder *PRD-001* gereed meldt voor locatie *001*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-259">Warehouse work for putaway of finished goods isn't required when you report product *SC1* as finished from production order *PRD-001* to location *001*.</span></span> <span data-ttu-id="64a0b-260">De reden is dat de bewerking *Verven* voor productieorder *PRD-002* product *SC1* op dezelfde locatie verbruikt.</span><span class="sxs-lookup"><span data-stu-id="64a0b-260">The reason is that the *Painting* operation for production order *PRD-002* consumes product *SC1* at the same location.</span></span>
+- <span data-ttu-id="64a0b-261">Magazijnwerk voor het verzamelen van grondstoffen is vereist om grondstof *RM* 1 van magazijnlocatie *BULK-001* naar locatie *001* te verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="64a0b-261">Warehouse work for raw material picking is required to move raw material *RM1* from warehouse location *BULK-001* to location *001*.</span></span>
+
+<span data-ttu-id="64a0b-262">Hier is een voorbeeld van een werkbeleid dat u kunt instellen, op basis van deze overwegingen:</span><span class="sxs-lookup"><span data-stu-id="64a0b-262">Here is an example of a work policy that you can set up, based on these considerations:</span></span>
+
+- <span data-ttu-id="64a0b-263">**Werkbeleidsnaam:** *Geen wegzetwerk*</span><span class="sxs-lookup"><span data-stu-id="64a0b-263">**Work policy name:** *No putaway work*</span></span>
+- <span data-ttu-id="64a0b-264">**Werkordertypen**: *Afgewerkte goederen wegzetten* en *Coproducten en bijproducten wegzetten*</span><span class="sxs-lookup"><span data-stu-id="64a0b-264">**Work order types:** *Finished goods put away* and *Co-product and by-product put away*</span></span>
+- <span data-ttu-id="64a0b-265">**Voorraadlocaties:** magazijn *51* en locatie *001*</span><span class="sxs-lookup"><span data-stu-id="64a0b-265">**Inventory locations:** Warehouse *51* and location *001*</span></span>
+- <span data-ttu-id="64a0b-266">**Producten:** *SC1*</span><span class="sxs-lookup"><span data-stu-id="64a0b-266">**Products:** *SC1*</span></span>
+
+<span data-ttu-id="64a0b-267">In het volgende voorbeeldscenario vindt u stapsgewijze instructies voor het instellen van het beleid voor magazijnwerk voor dit scenario.</span><span class="sxs-lookup"><span data-stu-id="64a0b-267">The following example scenario provides step-by-step instructions for setting up the warehouse work policy for this scenario.</span></span>
+
+## <a name="example-scenario-report-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="64a0b-268">Voorbeeldscenario: gereedmelden naar een locatie die niet wordt beheerd op nummerplaat</span><span class="sxs-lookup"><span data-stu-id="64a0b-268">Example scenario: Report as finished to a location that isn't license plate–controlled</span></span>
+
+<span data-ttu-id="64a0b-269">Dit scenario toont een voorbeeld waarin een productieorder gereed wordt gemeld naar een locatie die niet wordt beheerd op nummerplaat.</span><span class="sxs-lookup"><span data-stu-id="64a0b-269">This scenario shows an example where a production order is reported as finished to a location that isn't license plate–controlled.</span></span>
+
+<span data-ttu-id="64a0b-270">In dit scenario worden de standaarddemogegevens gebruikt.</span><span class="sxs-lookup"><span data-stu-id="64a0b-270">This scenario uses the standard demo data.</span></span> <span data-ttu-id="64a0b-271">Als u dit scenario wilt doorlopen met de waarden die hier worden gebruikt, moet u werken op een systeem waarop demogegevens zijn geïnstalleerd.</span><span class="sxs-lookup"><span data-stu-id="64a0b-271">Therefore, if you want to work through it by using the values that are provided here, you must work on a system where demo data is installed.</span></span> <span data-ttu-id="64a0b-272">U moet daarnaast ook de rechtspersoon **USMF** selecteren.</span><span class="sxs-lookup"><span data-stu-id="64a0b-272">Additionally, you must select the **USMF** legal entity.</span></span>
+
+### <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="64a0b-273">Een magazijnwerkbeleid instellen</span><span class="sxs-lookup"><span data-stu-id="64a0b-273">Set up a warehouse work policy</span></span>
+
+<span data-ttu-id="64a0b-274">In magazijnprocessen wordt niet altijd magazijnwerk opgenomen.</span><span class="sxs-lookup"><span data-stu-id="64a0b-274">Warehouse processes don't always include warehouse work.</span></span> <span data-ttu-id="64a0b-275">Door een werkbeleid te definiëren kunt u voorkomen dat werk wordt gemaakt voor het verzamelen en wegzetten van grondstoffen voor afgewerkte goederen voor een reeks producten op specifieke locaties.</span><span class="sxs-lookup"><span data-stu-id="64a0b-275">By defining a work policy, you can prevent the creation of work for raw material picking and putaway of finished goods for a set of products at specific locations.</span></span>
+
+1. <span data-ttu-id="64a0b-276">Ga naar **Magazijnbeheer \> Instellen \> Werk \> Werkbeleidsregels**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-276">Go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span>
+1. <span data-ttu-id="64a0b-277">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-277">Select **New**.</span></span>
+1. <span data-ttu-id="64a0b-278">Voer in het veld **Werkbeleidsnaam** *Geen wegzetwerk* in.</span><span class="sxs-lookup"><span data-stu-id="64a0b-278">In the **Work policy name** field, enter *No putaway work*.</span></span>
+1. <span data-ttu-id="64a0b-279">Selecteer **Opslaan** in het actievenster.</span><span class="sxs-lookup"><span data-stu-id="64a0b-279">On the Action Pane, select **Save**.</span></span>
+1. <span data-ttu-id="64a0b-280">Selecteer op het sneltabblad **Werkordertypen** **Toevoegen** om een rij aan het raster toe te voegen en stel vervolgens de volgende waarden voor de nieuwe rij in:</span><span class="sxs-lookup"><span data-stu-id="64a0b-280">On the **Work order types** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="64a0b-281">**Werkordertype**: *afgewerkte producten wegzetten*</span><span class="sxs-lookup"><span data-stu-id="64a0b-281">**Work order type:** *Finished goods put away*</span></span>
+    - <span data-ttu-id="64a0b-282">**Werkproces:** *alle gerelateerde werkprocessen*</span><span class="sxs-lookup"><span data-stu-id="64a0b-282">**Work process:** *All related work processes*</span></span>
+    - <span data-ttu-id="64a0b-283">**Werkaanmaakmethode:** *Nooit*</span><span class="sxs-lookup"><span data-stu-id="64a0b-283">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="64a0b-284">**Naam van beleid voor cross-docken:** laat dit veld leeg.</span><span class="sxs-lookup"><span data-stu-id="64a0b-284">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="64a0b-285">Selecteer nogmaals **Toevoegen** om een tweede rij aan het raster toe te voegen en stel vervolgens de volgende waarden voor de nieuwe rij in:</span><span class="sxs-lookup"><span data-stu-id="64a0b-285">Select **Add** again to add a second row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="64a0b-286">**Werkordertype:** *Coproducten en bijproducten wegzetten*</span><span class="sxs-lookup"><span data-stu-id="64a0b-286">**Work order type:** *Co-product and by-product put away*</span></span>
+    - <span data-ttu-id="64a0b-287">**Werkproces:** *alle gerelateerde werkprocessen*</span><span class="sxs-lookup"><span data-stu-id="64a0b-287">**Work process:** *All related work processes*</span></span>
+    - <span data-ttu-id="64a0b-288">**Werkaanmaakmethode:** *Nooit*</span><span class="sxs-lookup"><span data-stu-id="64a0b-288">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="64a0b-289">**Naam van beleid voor cross-docken:** laat dit veld leeg.</span><span class="sxs-lookup"><span data-stu-id="64a0b-289">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="64a0b-290">Selecteer op het sneltabblad **Voorraadlocaties** **Toevoegen** om een rij aan het raster toe te voegen en stel vervolgens de volgende waarden voor de nieuwe rij in:</span><span class="sxs-lookup"><span data-stu-id="64a0b-290">On the **Inventory locations** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="64a0b-291">**Magazijn:** *51*</span><span class="sxs-lookup"><span data-stu-id="64a0b-291">**Warehouse:** *51*</span></span>
+    - <span data-ttu-id="64a0b-292">**Locatie:** *001*</span><span class="sxs-lookup"><span data-stu-id="64a0b-292">**Location:** *001*</span></span>
+
+1. <span data-ttu-id="64a0b-293">Stel op het sneltabblad **Producten** het veld **Productselectie** in op *Geselecteerd*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-293">On the **Products** FastTab, set the **Product selection** field to *Selected*.</span></span>
+1. <span data-ttu-id="64a0b-294">Selecteer op het sneltabblad **Producten** de optie **Toevoegen** om een regel toe te voegen aan het raster.</span><span class="sxs-lookup"><span data-stu-id="64a0b-294">On the **Products** FastTab, select **Add** to add a row to the grid.</span></span>
+1. <span data-ttu-id="64a0b-295">Stel op de nieuwe rij het veld **Artikelnummer** in op *L0101*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-295">In the new row, set the **Item number** field to *L0101*.</span></span>
+1. <span data-ttu-id="64a0b-296">Selecteer **Opslaan** in het actievenster.</span><span class="sxs-lookup"><span data-stu-id="64a0b-296">On the Action Pane, select **Save**.</span></span>
+
+### <a name="set-up-an-output-location"></a><span data-ttu-id="64a0b-297">Een uitvoerlocatie instellen</span><span class="sxs-lookup"><span data-stu-id="64a0b-297">Set up an output location</span></span>
+
+1. <span data-ttu-id="64a0b-298">Ga naar **Organisatiebeheer \> Resources \> Resourcegroepen**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-298">Go to **Organization administration \> Resources \> Resource groups**.</span></span>
+1. <span data-ttu-id="64a0b-299">Selecteer in het linkerdeelvenster resourcegroep **5102**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-299">In the left pane, select resource group **5102**.</span></span>
+1. <span data-ttu-id="64a0b-300">Stel op het sneltabblad **Algemeen** de volgende waarden in:</span><span class="sxs-lookup"><span data-stu-id="64a0b-300">On the **General** FastTab, set the following values:</span></span>
+
+    - <span data-ttu-id="64a0b-301">**Uitvoermagazijn:** *51*</span><span class="sxs-lookup"><span data-stu-id="64a0b-301">**Output warehouse:** *51*</span></span>
+    - <span data-ttu-id="64a0b-302">**Uitvoerlocatie:** *001*</span><span class="sxs-lookup"><span data-stu-id="64a0b-302">**Output location:** *001*</span></span>
+
+1. <span data-ttu-id="64a0b-303">Selecteer **Opslaan** in het actievenster.</span><span class="sxs-lookup"><span data-stu-id="64a0b-303">On the Action Pane, select **Save**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="64a0b-304">Locatie *001* is geen door nummerplaten beheerde locatie.</span><span class="sxs-lookup"><span data-stu-id="64a0b-304">Location *001* isn't a license plate–controlled location.</span></span> <span data-ttu-id="64a0b-305">U kunt een uitvoerlocatie die niet door nummerplaten wordt beheerd, alleen instellen als er een toepasselijk werkbeleid voor de locatie bestaat.</span><span class="sxs-lookup"><span data-stu-id="64a0b-305">You can set up an output location that isn't license plate–controlled only if an applicable work policy exists for the location.</span></span>
+
+### <a name="create-a-production-order-and-report-it-as-finished"></a><span data-ttu-id="64a0b-306">Een productieorder maken en gereedmelden</span><span class="sxs-lookup"><span data-stu-id="64a0b-306">Create a production order and report it as finished</span></span>
+
+1. <span data-ttu-id="64a0b-307">Ga naar **Productiebeheer \> Productieorders \> Alle productieorders**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-307">Go to **Production control \> Production orders \> All production orders**.</span></span>
+1. <span data-ttu-id="64a0b-308">Selecteer **Nieuwe productieorder** in het actievenster.</span><span class="sxs-lookup"><span data-stu-id="64a0b-308">On the Action Pane, select **New production order**.</span></span>
+1. <span data-ttu-id="64a0b-309">Stel in het dialoogvenster **Productieorder maken** het **artikelnummer** in op *L0101*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-309">In the **Create production order** dialog box, set the **Item number** field to *L0101*.</span></span>
+1. <span data-ttu-id="64a0b-310">Selecteer **Maken** om het dialoogvenster te sluiten en de verkooporder te maken.</span><span class="sxs-lookup"><span data-stu-id="64a0b-310">Select **Create** to create the order and close the dialog box.</span></span>
+
+    <span data-ttu-id="64a0b-311">Er wordt een nieuwe productieorder toegevoegd aan het raster op de pagina **Alle productieorders**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-311">A new production order is added to the grid on the **All production orders** page.</span></span>
+
+    <span data-ttu-id="64a0b-312">Houd de nieuwe productieorder geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="64a0b-312">Keep the new production order selected.</span></span>
+
+1. <span data-ttu-id="64a0b-313">Selecteer in het actievenster op het tabblad **Productieorder** in de groep **Proces** de optie **Raming**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-313">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Estimate**.</span></span>
+1. <span data-ttu-id="64a0b-314">Lees de raming in het dialoogvenster **Raming** en selecteer vervolgens **OK** om het dialoogvenster te sluiten.</span><span class="sxs-lookup"><span data-stu-id="64a0b-314">In the **Estimate** dialog box, read the estimate, and then select **OK** to close the dialog box.</span></span>
+1. <span data-ttu-id="64a0b-315">Selecteer in het actievenster op het tabblad **Productieorder** in de groep **Proces** de optie **Start**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-315">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Start**.</span></span>
+1. <span data-ttu-id="64a0b-316">Stel in het dialoogvenster **Start** op het tabblad **Algemeen** het veld **Automatisch stuklijstverbruik** in op *Nooit*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-316">In the **Start** dialog box, on the **General** tab, set the **Automatic BOM consumption** field to *Never*.</span></span>
+1. <span data-ttu-id="64a0b-317">Selecteer **OK** om de instelling op te slaan en het dialoogvenster te sluiten.</span><span class="sxs-lookup"><span data-stu-id="64a0b-317">Select **OK** to save your setting and close the dialog box.</span></span>
+1. <span data-ttu-id="64a0b-318">Selecteer in het actievenster op het tabblad **Productieorder** in de groep **Proces** de optie **Rapporteren als gereed**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-318">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Report as finished**.</span></span>
+1. <span data-ttu-id="64a0b-319">Stel in het dialoogvenster **Rapporteren als gereed** op het tabblad **Algemeen** de optie **Fout accepteren** in op *Ja*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-319">In the **Report as finished** dialog box, on the **General** tab, set the **Accept error** option to *Yes*.</span></span>
+1. <span data-ttu-id="64a0b-320">Selecteer **OK** om de instelling op te slaan en het dialoogvenster te sluiten.</span><span class="sxs-lookup"><span data-stu-id="64a0b-320">Select **OK** to save your setting and close the dialog box.</span></span>
+1. <span data-ttu-id="64a0b-321">Selecteer in het actievenster op het tabblad **Magazijn** in de groep **Algemeen** de optie **Werkgegevens**.</span><span class="sxs-lookup"><span data-stu-id="64a0b-321">On the Action Pane, on the **Warehouse** tab, in the **General** group, select **Work details**.</span></span>
+
+<span data-ttu-id="64a0b-322">Wanneer de productieorder gereedgemeld wordt, wordt er geen werk gegenereerd voor wegzetten.</span><span class="sxs-lookup"><span data-stu-id="64a0b-322">When the production order is reported as finished, no work is generated for putaway.</span></span> <span data-ttu-id="64a0b-323">Deze werking komt doordat er een werkbeleid is gedefinieerd waarmee wordt voorkomen dat werk wordt gegenereerd wanneer product *L0101* wordt gereedgemeld bij locatie *001*.</span><span class="sxs-lookup"><span data-stu-id="64a0b-323">This behavior occurs because a work policy is defined that prevents work from being generated when product *L0101* is reported as finished to location *001*.</span></span>
+
+## <a name="more-information"></a><span data-ttu-id="64a0b-324">Meer informatie</span><span class="sxs-lookup"><span data-stu-id="64a0b-324">More information</span></span>
+
+<span data-ttu-id="64a0b-325">Zie [Mobiele apparaten instellen voor magazijnwerk](configure-mobile-devices-warehouse.md) voor meer informatie over menuopties voor mobiele apparaten.</span><span class="sxs-lookup"><span data-stu-id="64a0b-325">For more information about mobile device menu items, see [Set up mobile devices for warehouse work](configure-mobile-devices-warehouse.md).</span></span>
+
+<span data-ttu-id="64a0b-326">Zie voor meer informatie over de ontvangst van nummerplaten en werkbeleid [Nummerplaat ontvangen via de magazijnapp](warehousing-mobile-device-app-license-plate-receiving.md).</span><span class="sxs-lookup"><span data-stu-id="64a0b-326">For more information about license plate receiving and work policies, see [License plate receiving via the warehouse app](warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
+
+<span data-ttu-id="64a0b-327">Zie [Magazijnverwerking van inkomende ladingen voor inkooporders](inbound-load-handling.md) voor meer informatie over het beheer van inkomende ladingen.</span><span class="sxs-lookup"><span data-stu-id="64a0b-327">For more information about inbound load management, see [Warehouse handling of inbound loads for purchase orders](inbound-load-handling.md).</span></span>
