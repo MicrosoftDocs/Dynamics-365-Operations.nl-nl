@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429652"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628424"
 ---
 # <a name="view-team-and-company-calendars"></a>Team- en bedrijfsagenda's weergeven
 
@@ -33,15 +33,13 @@ U kunt team- en bedrijfskalenders weergeven in Dynamics 365 Human Resources. In 
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Uw teamkalender als werknemer weergeven
 
-1. Selecteer in het werkgebied **Selfservice werknemer** de optie **Mijn team**.
-
-2. Selecteer **Verlof en verzuim** en selecteer vervolgens **Teamkalender weergeven**.
+1. Selecteer in het werkgebied **Selfservice werknemer** de optie **Teamverzuimkalender** onder **Overzicht**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Uw teamkalender als manager weergeven
 
 1. Selecteer in het werkgebied **Selfservice werknemer** de optie **Mijn team**.
 
-2. Selecteer **Verlof en verzuim** en selecteer vervolgens **Teamkalender weergeven**.
+2. Selecteer **Verlof en verzuim** en selecteer vervolgens **Verzuimkalender manager weergeven**.
 
 Managers kunnen ook toegang krijgen tot de teamkalender via **Uitstaande verlofaanvragen voor mijn team**, **Goedgekeurd verlof** en **Verlofaanvragen**. 
 

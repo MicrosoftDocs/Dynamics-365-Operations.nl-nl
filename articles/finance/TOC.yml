@@ -70,6 +70,8 @@
                   items:
                     - name: Startpagina van Nieuwe of gewijzigde functies in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13 (oktober 2020)
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (augustus 2020)
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (juli 2020)
@@ -107,23 +109,23 @@
             - name: Trainingscatalogus
               items:
                 - name: Startpagina trainingscatalogus
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Besluitvormers
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: Zakelijke gebruikers
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Implementatieprojectmanagers
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Beheerders
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Ontwikkelaars
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Verkoop- en marketing van partners
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Functionele consultants
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Oplossingsarchitecten
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: De gebruikersinterface verkennen
               items:
                 - name: Gebruikersinterface-elementen
@@ -846,6 +848,8 @@
                   href: accounts-payable/accounting-distributions.md
                 - name: Toewijzingen verwerken
                   href: general-ledger/process-allocations.md
+                - name: Toewijzingstermijn
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: Financiële dimensies
                   href: general-ledger/financial-dimensions.md
                 - name: Groep met consolidatierekeningen en extra consolidatierekeningen
@@ -1122,6 +1126,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Een geavanceerde grootboekpost in de openbare sector maken
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: Proefbalans met transactiedetailrapport
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Beheerlimieten voor contant geld gebruiken
                   href: public-sector/cash-control.md
                 - name: Jaarultimoverwerking in de openbare sector
@@ -1146,11 +1152,13 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Een certificaattype aan een leverancier in de openbare sector toevoegen
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
+            - name: Geharmoniseerde Canadese btw berekenen
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Financiële rapportage
           items:
             - name: Overzicht van Financiële rapportage
               href: general-ledger/financial-reporting-getting-started.md
-            - name: Overzicht van financiële rapportage
+            - name: Overzicht van Financiële rapportage
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Onderdelen van een financieel rapport
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
@@ -1846,6 +1854,8 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: Nieuwe of gewijzigde functies in 10.0.11
                           href: localizations/apac-ind-news-letter-10-0-11.md
+                        - name: Nieuwe of gewijzigde functies in 10.0.12
+                          href: localizations/apac-ind-news-letter-10-0-12.md
                     - name: GST-referentiegroepen India
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: GST-integratie voor kassa's
@@ -2630,12 +2640,16 @@
                   href: localizations/emea-esp-print-checks-with-spanish-layout.md
                 - name: Opties voor promessen
                   href: localizations/emea-esp-promissory-note-options.md
-                - name: Rapport 340
+                - name: 340-aangifte
                   href: localizations/emea-esp-report-340.md
+                - name: 347-aangifterapport
+                  href: localizations/emea-esp-declaration-347-report.md
                 - name: Verkoop- en inkoopcycli
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Speciale boekingen en openingsbladen
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: Onmiddellijke levering van gegevens over btw
+                  href: localizations/emea-esp-sii.md
             - name: Zweden
               items:
                 - name: Overzicht Zweden

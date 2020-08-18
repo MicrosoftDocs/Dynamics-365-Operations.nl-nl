@@ -3,7 +3,7 @@ title: Gebruikers van klantportal maken en beheren
 description: In dit onderwerp wordt uitgelegd hoe u gebruikersaccounts voor de klantportal maakt en machtigingen hiervoor instelt.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413951"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645308"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Gebruikers van klantportal maken en beheren
 
@@ -30,11 +30,16 @@ Voordat een gebruiker een website kan gebruiken, moet voor die gebruiker een con
 
 Wanneer gebruikers zichzelf registreren, worden er automatisch contactpersoonrecords gemaakt. U kunt dus niet garanderen dat een gebruiker het juiste klantaccount en de juiste rechtspersoon selecteert. De uitnodigingsprocedure zorgt er daarentegen voor dat een beheerder het juiste klantaccount en de juiste rechtspersoon aan de contactpersoonrecord toewijst voordat er een uitnodiging wordt verzonden. Als u de oplossing wilt aanpassen zodat gebruikers zichzelf kunnen registreren, moet u rekening houden met de mogelijke gevolgen.
 
+## <a name="video"></a>Video
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+De video [Klanten uitnodigen om uw klantenportal te registreren en te gebruiken](https://youtu.be/drGUYHX9QIQ) (zie hierboven) is opgenomen in de [Finance and Operations-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
+
 ## <a name="prerequisite-setup"></a>Instellingsvereisten
 
 Contactpersonen in Power Apps-portals worden als records opgeslagen in de entiteit **Contactpersonen** in Common Data Service. Met twee wegschrijven worden deze records vervolgens gesynchroniseerd in Microsoft Dynamics 365 Supply Chain Management, als dat nodig is.
 
-![![Systeemdiagram voor contactpersonen van klantportal](media/customer-portal-contacts.png "Systeemdiagram voor contactpersonen van klantportal")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![Systeemdiagram voor contactpersonen van klantportal](media/customer-portal-contacts.png "Systeemdiagram voor contactpersonen van klantportal")
 
 Voordat u nieuwe klanten gaat uitnodigen, moet u controleren of u de entiteitstoewijzing **Contactpersoon** hebt ingeschakeld bij Twee keer wegschrijven.
 

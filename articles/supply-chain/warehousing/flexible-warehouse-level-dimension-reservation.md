@@ -1,9 +1,9 @@
 ---
 title: Beleid voor flexibele dimensiereservering op magazijnniveau
 description: In dit onderwerp wordt het beleid voor voorraadreservering beschreven waarmee bedrijven die batch-getraceerde producten verkopen en hun logistiek uitvoeren als WMS-bewerkingen, specifieke batches kunnen reserveren voor klantverkooporders, hoewel de reserveringshiërarchie die aan de producten is gekoppeld, reservering van specifieke batches niet toestaat.
-author: omulvad
+author: perlynne
 manager: tfehr
-ms.date: 02/07/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,25 +13,29 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: perlynne
 ms.search.validFrom: 2020-01-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530300"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652174"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Beleid voor flexibele dimensiereservering op magazijnniveau
 
 [!include [banner](../includes/banner.md)]
 
-Wanneer een hiërarchie voor voorraadreservering van het type 'Batch-onder\[locatie\]' is gekoppeld aan producten, kunnen bedrijven die batch-getraceerde producten verkopen en hun logistiek uitvoeren als bewerkingen die zijn ingeschakeld voor het Microsoft Dynamics 365 WMS (Warehouse Management System), geen specifieke batches van die producten reserveren voor klantverkooporders. In dit onderwerp wordt het beleid voor voorraadreservering beschreven waarmee deze bedrijven specifieke batches kunnen reserveren, zelfs wanneer de producten zijn gekoppeld aan een 'Batch-onder\[locatie\]' reserveringshiërarchie.
+Wanneer een hiërarchie voor voorraadreservering van het type 'Batch-onder\[locatie\]' is gekoppeld aan producten, kunnen bedrijven die batch-getraceerde producten verkopen en hun logistiek uitvoeren als bewerkingen die zijn ingeschakeld voor het Microsoft Dynamics 365 WMS (Warehouse Management System), geen specifieke batches van die producten reserveren voor klantverkooporders.
+
+Op vergelijkbare wijze kunnen specifieke nummerplaten niet worden gereserveerd voor producten op verkooporders wanneer deze producten zijn gekoppeld aan de standaardreserveringshiërarchie.
+
+In dit onderwerp wordt het beleid voor voorraadreservering beschreven waarmee deze bedrijven specifieke batches of nummerplaten kunnen reserveren, zelfs wanneer de producten zijn gekoppeld aan een 'Batch-onder\[locatie\]' reserveringshiërarchie.
 
 ## <a name="inventory-reservation-hierarchy"></a>Hiërarchie voor voorraadreservering
 
-In deze sectie wordt de bestaande hiërarchie voor voorraadreservering samengevat. Het richt zich op de manier waarop batch-getraceerde en serieel getraceerde artikelen worden verwerkt.
+In deze sectie wordt de bestaande hiërarchie voor voorraadreservering samengevat.
 
 De hiërarchie voor voorraadreservering bepaalt dat de vraagorder, wat de opslagdimensies betreft, de verplichte dimensies van locatie, magazijn en voorraadstatus bevat, terwijl de magazijnlogica verantwoordelijk is voor het toewijzen van een locatie aan de gevraagde hoeveelheden en voor reservering van de locatie. Met andere woorden, in de interacties tussen de vraagorder en de magazijnbewerkingen wordt de vraagorder verwacht aan te geven van waaruit de order moet worden verzonden (dat wil zeggen welke locatie en welk magazijn). In het magazijn wordt vervolgens vertrouwd op de magazijnlogica om de vereiste hoeveelheid in het magazijn te vinden.
 
@@ -64,7 +68,7 @@ Wanneer het **Batchnummer**-niveau in de hiërarchie wordt geselecteerd, worden 
 > [!NOTE]
 > Het selectievakje **Reservering op vraagorder toestaan** is alleen van toepassing op reserveringshiërarchieniveaus die onder de magazijnlocatiedimensie liggen.
 >
-> **Batchnummer** is het enige niveau in de hiërarchie dat openstaat voor het flexibele reserveringsbeleid. Met andere woorden, u kunt het selectievakje **Reservering op vraagorder toestaan** niet inschakelen voor de niveaus **Locatie**, **Nummerplaat** of **Serienummer**.
+> **Batchnummer** en **Nummerplaat** zijn de enige niveaus in de hiërarchie die openstaan voor het flexibele reserveringsbeleid. Met andere woorden, u kunt het selectievakje **Reservering op vraagorder toestaan** niet inschakelen voor de niveaus **Locatie** of **Serienummer**.
 >
 > Als uw reserveringshiërarchie de serienummerdimensie bevat (die altijd onder het niveau **Batchnummer** moet liggen) en als u batchspecifieke reservering voor het batchnummer hebt ingeschakeld, blijft het systeem de reservering van serienummers en pickbewerkingen verwerken op basis van de regels die van toepassing zijn op het reserveringsbeleid 'Serienummer-onder\[locatie\]'.
 
@@ -90,11 +94,11 @@ De volgende set regels is geldig wanneer hoeveelheden worden verwerkt en een bat
 
 In het volgende voorbeeld wordt de end-to-end-stroom weergegeven.
 
-## <a name="example-scenario"></a>Voorbeeldscenario
+## <a name="example-scenario-batch-number-allocation"></a>Voorbeeldscenario: batchnummertoewijzing
 
 Voor dit voorbeeld moeten demogegevens worden geïnstalleerd en moet u het **USMF**-voorbeeldgegevensbedrijf gebruiken.
 
-### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a>Een hiërarchie voor voorraadreservering instellen om batch-specifieke reservering toe te staan
+### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a><a name="Example-batch-allocation"></a>Een hiërarchie voor voorraadreservering instellen om batch-specifieke reservering toe te staan
 
 1. Ga naar **Magazijnbeheer** \> **Instellen** \> **Voorraad \> Reserveringshiërarchie**.
 2. Selecteer **Nieuw**.
@@ -122,7 +126,7 @@ Voor dit voorbeeld moeten demogegevens worden geïnstalleerd en moet u het **USM
     | 24        | B11          | FL-001   | LP11          | 10       |
     | 24        | B22          | FL-002   | LP22          | 10       |
 
-### <a name="enter-sales-order-details"></a>Verkooporderdetails invoeren
+### <a name="enter-sales-order-details"></a><a name="sales-order-details"></a>Verkooporderdetails invoeren
 
 1. Ga naar **Verkoop en marketing** \> **Verkooporders** \> **Alle verkooporders**.
 2. Selecteer **Nieuw**.
@@ -186,6 +190,176 @@ Voor dit voorbeeld moeten demogegevens worden geïnstalleerd en moet u het **USM
 
     De hoeveelheid van **10** voor batchnummer **B11** wordt nu gepickt voor de verkooporderregel en geplaatst op de **Baydoor**-locatie. Het is nu klaar om te worden geladen op de vrachtwagen en naar het adres van de klant te worden verzonden.
 
+## <a name="flexible-license-plate-reservation"></a>Reservering van een flexibele nummerplaat
+
+### <a name="business-scenario"></a>Bedrijfsscenario
+
+In dit scenario maakt een bedrijf gebruik van magazijnbeheer en werkverwerking en verwerkt het de ladingplanning op het niveau van afzonderlijke pallets/containers buiten Supply Chain Management voordat het werk wordt gemaakt. Deze containers worden weergegeven in de vorm van nummerplaten in de voorraaddimensies. Voor deze benadering moeten specifieke nummerplaten vooraf worden toegewezen aan verkooporderregels voordat het verzamelwerk wordt uitgevoerd. Het bedrijf zoekt flexibiliteit op in de manier waarop de reserveringsregels voor nummerplaten worden afgehandeld, zodat de volgende werking optreedt:
+
+- Een nummerplaat kan worden geregistreerd en gereserveerd wanneer de order wordt opgenomen door de verkoopverwerker en kan niet door andere vraag worden gebruikt. Dit gedrag helpt te garanderen dat de nummerplaat die was gepland, naar de klant wordt verzonden.
+- Als de nummerplaat nog niet aan een verkooporderregel is toegewezen, kunnen magazijnmedewerkers tijdens het verzamelwerk een nummerplaat selecteren, nadat de registratie en reservering van de verkooporder zijn voltooid.
+
+### <a name="turn-on-flexible-license-plate-reservation"></a>Flexibele reservering van nummerplaten inschakelen
+
+Voordat u de functie voor flexibele reservering van nummerplaten kunt gebruiken, moeten twee functies zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functies te controleren en deze zo nodig in te schakelen. U moet de functies in de volgende volgorde inschakelen:
+
+1. **Functienaam:** *Flexibel reserveringsbeleid voor dimensies op magazijnniveau*
+1. **Functienaam:** *Flexibele reservering van order-toegezegde nummerplaten*
+
+### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Reserveer een specifieke nummerplaat op de verkooporder
+
+Als u de reservering van nummerplaten voor een order wilt inschakelen, moet u het selectievakje **Reservering op vraagorder toestaan** inschakelen voor het niveau van de **nummerplaat** op de pagina **Voorraadreserveringshiërarchieën** voor de hiërarchie die aan het relevante artikel is gekoppeld.
+
+![Pagina Voorraadreserveringshiërarchieën voor een flexibele nummerplaatreserveringshiërarchie](media/Flexible-LP-reservation-hierarchy.png)
+
+U kunt de reservering van licentieplaten voor de order op elk punt in uw implementatie inschakelen. Deze wijziging heeft geen invloed op reserveringen of open magazijnwerk die zijn gemaakt voordat de wijziging plaatsvond. U kunt het selectievakje **Reservering op vraagorder toestaan** echter niet wissen als er open, uitgaande voorraadtransacties met de uitgiftestatus *In bestelling*, *Besteld en gereserveerd* of *Fysiek gereserveerd* bestaan voor een of meer artikelen die aan die reserveringshiërarchie zijn gekoppeld.
+
+Zelfs als het selectievakje **Reservering op vraagorder toestaan** is ingeschakeld voor het niveau **Nummerplaat**, is het toch *niet* mogelijk een specifieke nummerplaat te reserveren voor de order. In dit geval geldt de standaardmagazijnbewerkingslogica die geldig is voor de reserveringshiërarchie.
+
+Als u een specifieke nummerplaat wilt reserveren, moet u een [OData-proces (Open Data Protocol)](../../fin-ops-core/dev-itpro/data-entities/odata.md) gebruiken. U kunt deze reservering rechtstreeks vanuit een verkooporder uitvoeren in de toepassing door de optie **Order-toegezegde reserveringen per nummerplaat** van de opdracht **Openen in Excel** te gebruiken. In de entiteitgegevens die worden geopend in de Excel-invoegtoepassing moet u de volgende gegevens over de reservering invoeren en vervolgens **Publiceren** selecteren om de gegevens terug te sturen naar Supply Chain Management:
+
+- Verwijzing (alleen de waarde *Verkooporder* wordt ondersteund.)
+- Het ordernummer (de waarde kan worden afgeleid van de partij)
+- Partij-ID
+- Nummerplaat
+- Hoeveelheid
+
+Als u een specifieke nummerplaat moet reserveren voor een batch-getraceerd artikel, gebruikt u de pagina **Batchreservering**, zoals beschreven in de sectie [Verkooporderdetails invoeren](#sales-order-details).
+
+Wanneer de verkooporderregel die gebruikmaakt van een order-toegezegde nummerplaatreservering, wordt verwerkt door magazijnbewerkingen, worden er geen locatie-instructies gebruikt.
+
+Als een magazijnwerkitem bestaat uit regels die gelijk zijn aan een volledige pallet en nummerplaat-toegezegde hoeveelheden hebben, kunt u het verzamelproces optimaliseren met behulp van een menuopdracht van het mobiele apparaat, waarbij de optie **Verwerken per nummerplaat** is ingesteld op *Ja*. Een magazijnmedewerker kan vervolgens een nummerplaat scannen om een verzameling te voltooien in plaats van de artikelen uit het werk een voor een te scannen.
+
+![Menuopdracht van mobiel apparaat waarbij de optie Verwerken per nummerplaat is ingesteld op Ja](media/Handle-by-LP-menu-item.png)
+
+Omdat de functionaliteit **Verwerken per nummerplaat** geen ondersteuning biedt voor werkzaamheden die meerdere pallets omvatten, is het beter om een afzonderlijk werkitem te hebben voor verschillende nummerplaten. Als u deze aanpak wilt gebruiken, voegt u het veld **Order-toegezegde nummerplaat-id** als werkkoptekstopsplitsing toe op de pagina **Werksjabloon**.
+
+## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Voorbeeldscenario: een order-toegezegde nummerplaatreservering instellen en verwerken
+
+Dit scenario toont hoe u een order-toegezegde nummerplaatreservering instelt en verwerkt.
+
+### <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
+
+Dit scenario verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Supply Chain Management worden geleverd. Als u dit scenario wilt doorlopen met de waarden die hier worden gebruikt, moet u werken in een omgeving waar de demogegevens zijn geïnstalleerd. U moet ook de rechtspersoon **USMF** instellen voordat u begint.
+
+### <a name="create-an-inventory-reservation-hierarchy-that-allows-for-license-plate-reservation"></a>Een hiërarchie voor voorraadreservering maken die nummerplaatreservering toestaat
+
+1. Ga naar **Magazijnbeheer \> Instellen \> Voorraad \> Reserveringshiërarchie**.
+1. Selecteer **Nieuw**.
+1. Voer in het veld **Naam** een waarde in (bijvoorbeeld *FlexibeleLP*).
+1. Voer in het veld **Beschrijving** een waarde in (bijvoorbeeld *Flexibele LP-reservering*).
+1. Selecteer in de lijst **Geselecteerd** **Batchnummer**, **Serienummer** en **Eigenaar**.
+1. Selecteer de knop **Verwijderen** ![terugwaartse pijl](media/backward-button.png) om de geselecteerde records te verplaatsen naar de lijst **Beschikbaar**.
+1. Selecteer **OK**.
+1. Schakel in de rij voor dimensieniveau **Nummerplaat** het selectievakje **Reservering op vraagorder toestaan** in. Het niveau **Locatie** wordt automatisch geselecteerd en u kunt het selectievakje hiervoor niet uitschakelen.
+1. Selecteer **Opslaan**.
+
+### <a name="create-two-released-products"></a>Twee vrijgegeven producten maken
+
+1. Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**.
+1. Selecteer **Nieuw** in het actievenster.
+1. Stel in het dialoogvenster **Nieuw vrijgegeven product** de volgende waarden in:
+
+    - **Productnummer:** *Artikel1*
+    - **Artikelnummer:** *Artikel1*
+    - **Artikelmodelgroep:** *FIFO*
+    - **Artikelgroep:** *Audio*
+    - **Opslagdimensiegroep:** *Artikelen*
+    - **Traceringsdimensiegroep:** *Geen*
+    - **Reserveringshiërarchie:** *FlexibeleLP*
+
+1. Selecteer **OK** om het product te maken en het dialoogvenster te sluiten.
+1. Het nieuwe product wordt geopend. Stel op het sneltabblad **Magazijn** het veld **Eenheidvolgordegroep-id** in op de waarde *ea*.
+1. Herhaal de vorige stappen om een tweede product met dezelfde instellingen te maken, maar stel de velden **Productnummer** en **Artikelnummer** in op *Artikel2*.
+1. Selecteer in het actievenster op het tabblad **Voorraad beheren** in de groep **Weergeven** de optie **Terhanden voorraad**. Selecteer vervolgens **Hoeveelheidscorrectie**.
+1. Pas de voorhanden voorraad van de nieuwe artikelen aan zoals is opgegeven in de volgende tabel.
+
+    | Artikel  | Magazijn | Locatie | Nummerplaat | Hoeveelheid |
+    |-------|-----------|----------|---------------|----------|
+    | Artikel1 | 24        | FL-010   | LP01          | 10       |
+    | Artikel1 | 24        | FL-011   | LP02          | 10       |
+    | Artikel2 | 24        | FL-010   | LP01          | 5        |
+    | Artikel2 | 24        | FL-011   | LP02          | 5        |
+
+    > [!NOTE]
+    > U moet de twee nummerplaten maken en locaties gebruiken voor gemengde artikelen, zoals *FL-010* en *FL-011*.
+
+### <a name="create-a-sales-order-and-reserve-a-specific-license-plate"></a>Een verkooporder maken en een specifieke nummerplaat reserveren
+
+1. Ga naar **Verkoop en marketing \> Verkooporders \> Alle verkooporders**.
+1. Selecteer **Nieuw**.
+1. Stel in het dialoogvenster **Verkooporder maken** de volgende waarden in:
+
+    - **Klantrekening:** *US-001*
+    - **Magazijn:** *24*
+
+1. Selecteer **OK** om het dialoogvenster **Verkooporder maken** te sluiten en de nieuwe verkooporder te maken.
+1. Voeg op het sneltabblad **Verkooporderregels** een regel toe met de volgende instellingen:
+
+    - **Artikelnummer:** *Artikel1*
+    - **Hoeveelheid:** *10*
+
+1. Voeg een tweede verkooporderregel met de volgende instellingen toe:
+
+    - **Artikelnummer:** *Artikel2*
+    - **Hoeveelheid:** *5*
+
+1. Selecteer **Opslaan**.
+1. Noteer op het sneltabblad **Regeldetails** op het tabblad **Instellen** de **partij-id**-waarde voor elke regel. Deze waarden zijn vereist tijdens de reservering van specifieke nummerplaten.
+
+    > [!NOTE]
+    > Als u een specifieke nummerplaat wilt reserveren, moet u de gegevensentiteit **Order-toegezegde reserveringen per nummerplaat** gebruiken. Als u een batch-getraceerd artikel wilt reserveren op een specifieke nummerplaat, kunt u ook de pagina **Batchreservering** gebruiken, zoals beschreven in de sectie [Verkooporderdetails invoeren](#sales-order-details).
+    >
+    > Als u de nummerplaat rechtstreeks op de verkooporderregel invoert en deze naar het systeem bevestigt, wordt magazijnbeheerverwerking niet voor de regel gebruikt.
+
+1. Selecteer **Openen in Microsoft Office**, selecteer **Orders-toegezegde reserveringen per nummerplaat** en download het bestand.
+1. Open het gedownloade bestand in Excel en selecteer **Bewerken inschakelen** om de invoegtoepassing voor Excel in te schakelen.
+1. Als u de Excel-invoegtoepassing voor het eerst uitvoert, selecteert u **Deze invoegtoepassing vertrouwen**.
+1. Als u wordt gevraagd om u aan te melden, selecteert u **Aanmelden**. Vervolgens meldt u zich aan met de referenties waarmee u zich ook hebt aangemeld bij Supply Chain Management.
+1. Als u een artikel op een specifieke nummerplaat wilt reserveren, selecteert u in de Excel-invoegtoepassing **Nieuw** om een reserveringsregel toe te voegen en stelt u de volgende waarden in:
+
+    - **Partij-id:** voer de **partij-id**-waarde in die u hebt gevonden voor de verkooporderregel voor *Artikel1*.
+    - **Nummerplaat:** *LP02*
+    - **Gereserveerde voorraadhoeveelheid:** *10*
+
+1. Selecteer **Nieuw** om nog een reserveringsregel toe te voegen en stel de volgende waarden in:
+
+    - **Partij-id:** voer de **partij-id**-waarde in die u hebt gevonden voor de verkooporderregel voor *Artikel2*.
+    - **Nummerplaat:** *LP02*
+    - **Gereserveerde voorraadhoeveelheid:** *5*
+
+1. Selecteer **Publiceren** in de Excel-invoegtoepassing om de gegevens terug te sturen naar Supply Chain Management.
+
+    > [!NOTE]
+    > De reserveringsregel wordt alleen in het systeem weergegeven als het publiceren zonder fouten is voltooid.
+
+1. Ga terug naar Supply Chain Management. 
+1. Als u de reservering van het artikel wilt controleren, selecteert u op het sneltabblad **Verkooporderregels** in het menu **Voorraad** **Onderhouden \> Reservering**. Zoals u ziet, is voor de verkooporderregel voor *Artikel1* voorraad van *10* gereserveerd en voor de verkooporderregel voor *Artikel2* voorraad van *5*.
+1. Als u voorraadtransacties wilt controleren die zijn gerelateerd aan verkooporderregelreservering, selecteert u op het sneltabblad **Verkooporderregels** in het menu **Voorraad** **Weergeven \> Transacties**. U ziet dat er twee transacties zijn die zijn gerelateerd aan de reservering: een waarbij het veld **Verwijzing** is ingesteld op *Verkooporder* en een waar het veld **Verwijzing** is ingesteld op *Order-toegezegde reservering*.
+
+    > [!NOTE]
+    > Een transactie waarbij het veld **Verwijzing** is ingesteld op *Verkooporder* vertegenwoordigt de orderregelreservering voor de voorraaddimensies boven het niveau **Locatie** (site, magazijn en voorraadstatus). Een transactie waarbij het veld **Verwijzing** is ingesteld op *Order-toegezegde reservering* vertegenwoordigt de orderregelreservering voor de specifieke nummerplaat en locatie.
+
+1. Als u de verkooporder wilt vrijgeven, selecteert u in het actievenster op het tabblad **Magazijn** in de groep **Acties** **Vrijgeven aan magazijn**.
+
+### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Magazijnwerkzaamheden controleren en verwerken waaraan order-toegezegde nummerplaten zijn toegewezen
+
+1. Selecteer op het sneltabblad **Verkooporderregels** in het menu **Magazijn** **Werkgegevens**.
+
+    Wanneer de reservering wordt uitgevoerd voor een specifieke batch, gebruikt het systeem geen locatie-instructies wanneer het werk wordt gemaakt voor de verkooporder die gebruikmaakt van nummerplaatreservering. Omdat de order-toegezegde reservering alle voorraaddimensies opgeeft, inclusief de locatie, hoeven er geen locatierichtlijnen te worden gebruikt, omdat deze voorraaddimensies net in het werk zijn ingevoerd. Deze worden weergegeven in de sectie **Van voorraaddimensies** op de pagina **Werkvoorraadtransacties**.
+
+    > [!NOTE]
+    > Nadat het werk is gemaakt, wordt de voorraadtransactie van het artikel waarvan het veld **Referentie** is ingesteld op *Order-toegezegde reservering*, verwijderd. De voorraadtransactie waarbij het veld **Verwijzing** is ingesteld op *Werk*, bevat nu de fysieke reservering voor alle voorraaddimensies van de hoeveelheid.
+
+1. Voltooi op het mobiele apparaat het verzamelen en zet het werk weg met behulp van een menuoptie waarbij het selectievakje **Verwerken per nummerplaat** is ingeschakeld.
+
+    > [!NOTE]
+    > Met de functionaliteit **Verwerken per nummerplaat** kunt u de volledige nummerplaat verwerken. Als u een deel van de nummerplaat moet verwerken, kunt u deze functionaliteit niet gebruiken.
+    >
+    > We raden aan afzonderlijke werkzaamheden voor elke nummerplaat te laten genereren. Als u dit wilt bereiken, gebruikt u de functie **Opsplitsingen voor werkkoptekst** op de pagina **Werksjabloon**.
+
+    De nummerplaat *LP02* wordt nu verzameld voor verkooporderregels en weggezet op de locatie *Baydoor*. Het is nu klaar om te worden geladen en naar de klant te worden verzonden.
+
 ## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Afhandeling van uitzonderingen van magazijnwerk dat aan orders toegezegde batchnummers heeft
 
 Magazijnwerk voor picken van order-toegezegde batchnummers valt onder dezelfde standaardverwerking van uitzonderingen en acties als regulier werk. In het algemeen kan het openstaande werk of de openstaande werkregel worden geannuleerd, kan het worden onderbroken omdat de locatie van een gebruiker vol is, kan het kort worden verzameld en kan het worden bijgewerkt als gevolg van een verplaatsing. De gepickte hoeveelheid werk die al is voltooid, kan ook worden verminderd of het werk kan ongedaan worden gemaakt.
@@ -194,7 +368,7 @@ De volgende hoofdregel wordt toegepast op al deze acties voor afhandeling van ui
 
 ### <a name="example-scenario"></a>Voorbeeldscenario
 
-Een voorbeeld van dit scenario is een situatie waarin picken van eerder uitgevoerd werk ongedaan wordt gemaakt met de functie **Opgenomen hoeveelheid reduceren**. In dit voorbeeld wordt het vorige voorbeeld in dit onderwerp voortgezet.
+Een voorbeeld van dit scenario is een situatie waarin picken van eerder uitgevoerd werk ongedaan wordt gemaakt met de functie **Opgenomen hoeveelheid reduceren**. In dit voorbeeld wordt ervan uitgegaan dat u de stappen in [Voorbeeldscenario: batchnummertoewijzing](#Example-batch-allocation) al hebt voltooid. Dit voorbeeld gaat verder.
 
 1. Ga naar **Magazijnbeheer** \> **Ladingen** \> **Actieve ladingen**.
 2. Selecteer de belasting die in verband met de verzending van uw verkooporder is gemaakt.

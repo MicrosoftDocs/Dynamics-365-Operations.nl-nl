@@ -3,7 +3,7 @@ title: Overzicht van financiële rapportage
 description: In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 Finance en hoe u de financiële rapportagemogelijkheden kunt gebruiken. Het bevat een omschrijving van de financiële standaardrapporten die worden geleverd.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/10/2020
+ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
-ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
+ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
+ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3609584"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3618033"
 ---
 # <a name="financial-reporting-overview"></a>Overzicht van Financiële rapportage
 
@@ -87,24 +87,16 @@ Nadat een gebruiker is toegevoegd of een rol is gewijzigd, moet de gebruiker bin
 ## <a name="report-deletions-and-expirations"></a>Verwijderde en verlopen rapporten
 Gebruikers die een rapport genereren, kunnen hun eigen rapporten verwijderen. Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** kunnen rapporten van anderen verwijderen. 
 
-Vanaf de release 10.0.7 is het concept van vervaldatums geïntroduceerd. Een nieuwe verplichte functie wordt ingeschakeld in het werkgebied voor functiebeheer. Deze functie omvat de volgende wijzigingen:
-
-* Nieuwe gegenereerde rapporten krijgen automatisch een vervaldatum van 90 dagen vanaf het moment dat ze worden gegenereerd.
-* Alle bestaande rapporten van vóór de installatie van de functie krijgen een vervalperiode van 90 dagen. De datum kan gedurende een korte periode als leeg worden weergegeven totdat de service voor financiële rapportage wordt uitgevoerd, er een rapport wordt gegenereerd en de service de update uitvoert op bestaande rapporten met een lege vervaldatum. 
-* Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** hebben toegang tot deze functionaliteit. Elke gebruiker met de functie **Financiële rapporten onderhouden** met de bevoegdheid **Vervaldatum van financiële rapporten onderhouden** kan ook de vervalperiode wijzigen. Momenteel zijn er twee opties beschikbaar:
-   * Een vervalperiode van 90 dagen
-   * Een optie om in te stellen dat het rapport nooit vervalt
-
-Wanneer een vervalperiode zoals 90 dagen wordt geselecteerd, wordt deze 90 dagen vanaf vandaag verleend. Dit is anders dan de 90 dagen vanaf de oorspronkelijke generatiedatum ingesteld bij het genereren van rapporten. In release 10.0.8 is het concept van de vervaldatum geïntroduceerd. Een nieuwe vereiste functie wordt ingeschakeld op de pagina **Alles** binnen het werkgebied van Functiebeheer. De functie **Beleid voor het bewaren van financiële rapporten** bevat de volgende wijzigingen:
+In release 10.0.8 is het concept van de vervaldatum geïntroduceerd. Een nieuwe vereiste functie wordt ingeschakeld op de pagina **Alles** binnen het werkgebied van Functiebeheer. De functie **Beleid voor het bewaren van financiële rapporten** bevat de volgende wijzigingen:
 * Nieuwe gegenereerde rapporten krijgen automatisch een vervaldatum van 90 dagen vanaf het moment dat ze worden gegenereerd
 * Alle bestaande rapporten van vóór de installatie van de functie krijgen een vervalperiode van 90 dagen. De datum kan gedurende een korte periode als leeg worden weergegeven totdat de service voor financiële rapportage wordt uitgevoerd, er een rapport wordt gegenereerd en de service de update uitvoert op bestaande rapporten met een lege vervaldatum. 
 * Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** hebben toegang tot deze functionaliteit. Elke gebruiker met de functie **Financiële rapporten onderhouden** met de bevoegdheid **Vervaldatum van financiële rapporten onderhouden** kan ook de vervalperiode wijzigen. Momenteel zijn er twee opties beschikbaar: 
   * Een vervalperiode van 90 dagen.
   * Een optie om in te stellen dat het rapport nooit vervalt.
   
-Aanvullende opties worden in toekomstige functies opgenomen. De vervalperiode van 90 dagen is de standaardwaarde en gebruikers met de juiste machtigingen kunnen de standaardwaarde op de lijstpagina **Financiële rapporten** overschrijven.    
+Wanneer een vervaldatum, bijvoorbeeld 90 dagen, is geselecteerd, wordt deze 90 dagen na vandaag toegepast. Dit is een andere werking dan de 90 dagen vanaf de oorspronkelijke datum van genereren die is ingesteld op het moment dat het rapport werd gegenereerd. 
   
-Wanneer een vervalperiode zoals 90 dagen wordt geselecteerd, wordt deze 90 dagen vanaf vandaag verleend. Dit is anders dan de 90 dagen vanaf de oorspronkelijke generatiedatum ingesteld tijdens het genereren van rapporten. 
+Aanvullende opties worden in toekomstige functies opgenomen. De vervalperiode van 90 dagen is de standaardwaarde en gebruikers met de juiste machtigingen kunnen de standaardwaarde op de lijstpagina **Financiële rapporten** overschrijven.    
 
 ## <a name="default-reports"></a>Standaardrapporten
 Financiële rapportage bevat 22 standaard financiële rapporten. Elk rapport maakt gebruik van de standaard hoofdrekeningcategorieën. U kunt deze rapporten ongewijzigd of als starpunt voor uw financiële rapportagevereisten gebruiken. Naast de normale financiële overzichten, zoals Inkomensoverzicht en Balans, bevatten deze standaardrapporten ook rapporten waarop de verschillende typen financiële rapporten die u kunt maken, worden weergegeven. 
@@ -153,7 +145,7 @@ Probleem 1: Report Designer start niet wanneer u **Nieuw** of **Bewerken** selec
 * Voor werkstations is het installeren van Visual Studio .Net 4.6.2 of hoger vereist.
 
 Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53345).
-* Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u de incognitomodus gebruikt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognitomodus is ingeschakeld. Als u zich niet kunt aanmelden met Chrome, voert u de installatiestappen uit die worden beschreven in Probleem 1 met Internet Explorer of Edge. 
+* Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u de incognitomodus gebruikt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognitomodus is ingeschakeld. Als u zich niet kunt aanmelden met Chrome, voert u de installatiestappen uit die worden beschreven in Probleem 1 met Internet Explorer of Microsoft Edge. 
 
 Probleem 2: De gebruiker beschikt niet over de vereiste machtigingen om Financial Reporting te gebruiken. 
 

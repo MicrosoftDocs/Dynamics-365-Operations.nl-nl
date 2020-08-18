@@ -3,7 +3,7 @@ title: Module voor koopvak
 description: In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411337"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645334"
 ---
 # <a name="buy-box-module"></a>Module voor koopvak
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -61,7 +61,7 @@ Met thema's kunnen producteigenschappen en actiecontroles uit het koopvak worden
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Modules die in de koopvakmodule kunnen worden gebruikt
 
-- **Mediagalerie** - wordt gebruikt om afbeeldingen van een product te presenteren op een pagina met productdetails. De module kan één tot veel afbeeldingen ondersteunen. Ook miniatuurafbeeldingen worden ondersteund. U kunt de miniatuurafbeeldingen horizontaal rangschikken (als een rij onder de afbeelding) of verticaal (als een kolom naast de afbeelding). De module voor de mediagalerie kan worden toegevoegd aan het vak **Media** in de koopvakmodule. Momenteel worden alleen afbeeldingen ondersteund. 
+- **Mediagalerie** - wordt gebruikt om afbeeldingen van een product te presenteren op een pagina met productdetails. Zie [Module Mediagalerie](mediagallery-module.md) voor meer informatie over deze module.
 - **Winkelselectie**: deze module toont een lijst met nabijgelegen winkels waar een artikel beschikbaar is voor ophalen. Hiermee kunnen gebruikers een locatie invoeren om te zoeken naar winkels in de buurt. Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over deze module.
 
 ## <a name="buy-box-module-settings"></a>Instellingen voor koopvakmodule
@@ -111,6 +111,8 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 [Overzicht starterskit](starter-kit-overview.md)
 
 [Winkelselectiemodule](store-selector.md)
+
+[Module Mediagalerie](media-gallery-module.md)
 
 [Containermodule](add-container-module.md)
 

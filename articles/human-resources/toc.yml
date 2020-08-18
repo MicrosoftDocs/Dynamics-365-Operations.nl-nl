@@ -1,10 +1,12 @@
 - name: Dynamics 365 Human Resources
   href: hr-welcome.md
   items:
-    - name: Nieuwe functies
+    - name: Nieuw
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 23 juli 2020
+          href: hr-whats-new-2020-07-23.md
         - name: 8 juli 2020
           href: hr-whats-new-2020-07-08.md
         - name: 25 juni 2020

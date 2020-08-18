@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 22ebe1640f17163351b63710534052ce3d810986
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3542119"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652054"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.12 (augustus 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management, previewversie 10.0.12. Deze versie heeft een buildnummer van 10.0.507 en is als volgt beschikbaar:
 
@@ -39,15 +38,15 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](https://docs.microsoft.com/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
-- [Vergrendeling van het touchscreen van het apparaat voor taakkaarten toestaan voor reiniging](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization) - Zie voor meer informatie [Taakkaart configureren voor apparaten](../production-control/config-job-card-device.md).
-- [Productvarianten en traceringsdimensies vastleggen in de magazijnapp tijdens het ontvangen van laaditems](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) - Zie voor meer informatie [Mobiele apparaten instellen voor magazijnwerk](../warehousing/configure-mobile-devices-warehouse.md).
-- Niveau voor kostenberekening (nieuw stuklijstniveau) - Zie voor meer informatie [Niveau voor kostenberekening](../cost-management/cost-calculation-level.md).
-- [Klantportal voor Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) - Zie voor meer informatie [Overzicht van klantportal voor Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
-- [Kerninzichten voor IoT-intelligentie](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights)  - Zie voor meer informatie [Startpagina van IoT-intelligentie](../iot/iot-intelligence-home-page.md).
-- [Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp (vervolg)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) Zie [Nummerplaat ontvangen via magazijnapp](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) voor meer informatie.
-- [Grootschalige implementatie voor Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) - Zie voor meer informatie [Overzicht van de magazijnapp installeren en configureren](../warehousing/install-configure-warehousing-app.md).
-- [Maximale uitvoeringstijd voor de opschoontaak voor voorhanden voorraad van magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) - Zie voor meer [Taak voor het opruimen van voorhanden artikelen in magazijnbeheer](../warehousing/onhand-cleanup.md).
-- [Ondersteuning van Planningsoptimalisatie voor inkoophandelsovereenkomsten](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) - Zie [Hoofdplanning met inkoophandelsovereenkomsten](../master-planning/planning-optimization/purchase-trade-agreement.md) voor meer informatie.
+- [Vergrendeling van het touchscreen van het apparaat voor taakkaarten toestaan voor reiniging](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Zie voor meer informatie [Taakkaart configureren voor apparaten](../production-control/config-job-card-device.md).
+- [Productvarianten en traceringsdimensies vastleggen in de magazijnapp tijdens het ontvangen van laaditems](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Zie voor meer informatie [Mobiele apparaten instellen voor magazijnwerk](../warehousing/configure-mobile-devices-warehouse.md).
+- Kostenberekeningsniveau (nieuw stuklijstniveau)<br> - Zie voor meer informatie [Berekeningsniveau voor kosten](../cost-management/cost-calculation-level.md).
+- [Klantportal voor Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Zie voor meer informatie [Overzicht van klantportal voor Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
+- [Kerninzichten voor IoT-intelligentie](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Zie voor meer informatie [Startpagina van IoT-intelligentie](../iot/iot-intelligence-home-page.md).
+- [Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp (vervolg)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Zie voor meer informatie [Nummerplaat ontvangen via de magazijnapp](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Grootschalige implementatie voor Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Zie voor meer informatie [Overzicht van installatie en configuratie van de magazijnapp](../warehousing/install-configure-warehousing-app.md).
+- [Maximale uitvoeringstijd voor het opschonen van de aanwezige vermeldingen voor magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Zie voor meer informatie [Opschoningstaak van voorhanden voorraadgegevens voor magazijnbeheer](../warehousing/onhand-cleanup.md).
+- [Ondersteuning van Planningsoptimalisatie voor inkoophandelsovereenkomsten](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Zie voor meer informatie [Hoofdplanning met inkoophandelsovereenkomsten](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte functies in eerdere releases
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die gepland zijn om te verwijderen uit Dynamics 365 for Finance and Operations en eerdere versies van dat product.
 author: sericks007
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500407"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645384"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
@@ -62,7 +62,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Ja |
 | **Betrokken productgebieden**         | Aanvraag |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf 1 april 2020 moeten ontwikkelaars de nieuwe API gebruiken. |
+| **Status**                         | Afgeschaft: vanaf 1 april 2020 moeten ontwikkelaars de platform-API's gebruiken uit de klasse **HasFunction**. |
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
 
@@ -72,7 +72,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Ja |
 | **Betrokken productgebieden**         | Platform |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf 1 april 2020 moeten ontwikkelaars de nieuwe API gebruiken. |
+| **Status**                         | Afgeschaft: vanaf 1 april 2020 moeten ontwikkelaars de platform-API's gebruiken uit de klasse **HasFunction**. |
 
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()

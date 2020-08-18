@@ -3,7 +3,7 @@ title: Cashflowprognose
 description: Dit onderwerp bevat een overzicht van het cashflowprognoseproces. Ook wordt uitgelegd hoe cashflowprognoses worden geïntegreerd met andere modules in het systeem.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9795758a60d7913d306488ae6fbbfb7f9865cfc4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
+ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188413"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3653771"
 ---
 # <a name="cash-flow-forecasting"></a>Cashflowprognose
 
@@ -104,6 +104,13 @@ Bereken de cashflowprognose met behulp van de pagina **Cashflowprognoses bereken
 
 Ook kunt u batchverwerking voor uw cashflowprognoses gebruiken. Om te garanderen dat uw prognoseanalyses regelmatig worden bijgewerkt, stelt u een terugkerend batchproces in voor berekening van cashflowprognoses.
 
+In versie 10.0.13 is een verbetering van het berekeningsproces uitgegeven waarbij het procesautomatiseringsraamwerk wordt gebruikt om de taak voor de berekening van de cashflow te plannen. Dit wordt ingeschakeld met de functie **Automatisering van cashflowprognoses** in het werkgebied **Functiebeheer**. Als deze optie is ingeschakeld, selecteert u de koppeling **Automatisering van cashflowprognoses** om de nieuwe automatiseringspagina weer te geven waar u het cashflowberekeningsproces kunt plannen. Als u een nieuwe cashflowprognoseplanning wilt maken, selecteert u **Nieuwe procesautomatisering maken** en selecteert u vervolgens **Automatisering van cashflowprognoses** in de vervolg keuzelijst **Planningstype**. U moet een planning instellen voor elk bedrijf waarvoor u de cashflowprognosegegevens bijwerkt.  Op deze pagina wordt ook weergegeven welke automatiseringstaken voor cashflowprognoses in behandeling zijn en wanneer de laatste taak is voltooid.  
+
+> [!NOTE] 
+> Als bestaande batchtaken al zijn gepland voor cashflowprognoses, wordt een foutbericht weergegeven en kunt u deze functie niet inschakelen. Bestaande batchtaken worden gewist voordat u deze functie kunt inschakelen. 
+
+Zie [Procesautomatisering](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md) voor meer informatie.
+
 ### <a name="reporting"></a>Rapportage
 
 Nadat de cashflowprognose is berekend, moet u de gekoppelde entiteitsinformatie voor analytische rapportage vernieuwen. Selecteer op de pagina **Entiteitopslag** de maateenheid **LedgerCovLiquidityMeasurement aggregate** in en klik vervolgens op **vernieuwen**.
@@ -128,7 +135,7 @@ Het werkgebied **Overzicht van contant geld - alle bedrijven** bevat analyses va
 
 Het werkgebied **Overzicht van contant geld - huidig bedrijf** bevat analyses van cashflowprognoses in de gedefinieerde valuta voor boekhouding van het bedrijf. De valuta voor boekhouding die wordt gebruikt voor de analyses wordt gedefinieerd op de pagina **Grootboek**. Dit werkgebied bevat een overzicht van cashflowprognoses en bankrekeningsaldi voor het huidige bedrijf. Een diagram van de kasinkomsten en -uitgaven bevat een overzicht van toekomstige verplaatsingen van contant geld en saldi in de valuta voor boekhouding, samen met gedetailleerde informatie over de voorspelde transacties. U kunt ook de voorspelde valutasaldi bekijken.
 
-Zie het onderwerp Power BI-inhoud - overzicht van contant geld voor meer informatie over de analyses van cashflowprognoses.
+Zie voor meer informatie over cashflowprognoseanalyses het onderwerp [Power BI-inhoud: overzicht van contant geld](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
 
 Bovendien kunt u gegevens van cashflowprognoses weergeven voor specifieke accounts, orders en artikelen op de volgende pagina's:
 

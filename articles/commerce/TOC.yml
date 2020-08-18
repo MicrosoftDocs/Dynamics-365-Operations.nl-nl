@@ -90,6 +90,8 @@
                   items:
                     - name: Startpagina van Nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.13 (oktober 2020)
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (augustus 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (juli 2020)
@@ -127,23 +129,23 @@
             - name: Trainingscatalogus
               items:
                 - name: Startpagina trainingscatalogus
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Besluitvormers
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: Zakelijke gebruikers
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Implementatieprojectmanagers
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Beheerders
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Ontwikkelaars
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Verkoop- en marketing van partners
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Functionele consultants
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Oplossingsarchitecten
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: De gebruikersinterface verkennen
               items:
                 - name: Gebruikersinterface-elementen
@@ -310,6 +312,8 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: Berekeningsopties Volledige bedrag en interval voor btw-codes
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: Berekening van btw-vrijstelling
+                          href: tax-exempt-price-inclusive.md
                     - name: Een profiel voor e-mailmeldingen instellen
                       href: email-notification-profiles.md
                     - name: Nummerreeksen
@@ -386,6 +390,8 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: Statuscontrole voor POS-randapparatuur en -services
                           href: pos-healthcheck.md
+                        - name: Ondersteuning voor netwerkrandapparatuur
+                          href: dev-itpro/network-peripherals.md
                     - name: Schermindelingen
                       items:
                         - name: Indelingen voor schermen met demonstratiegegevens in MPOS/CPOS
@@ -946,6 +952,8 @@
                       href: add-accordion.md
                     - name: Tabbladmodule
                       href: add-tab.md
+                    - name: Iframe-module
+                      href: iframe-module.md
                 - name: Marketingmodules
                   items:
                     - name: Promotiebanner-module
@@ -968,6 +976,8 @@
                   items:
                     - name: Module met vakje voor kopen
                       href: add-buy-box.md
+                    - name: Module Mediagalerie
+                      href: media-gallery-module.md
                     - name: Beoordelings- en recensiemodules
                       href: ratings-reviews-modules.md
                 - name: Inkoopmodules
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: Module voor orderdetails
                       href: order-confirmation-module.md
-                    - name: Winkelselectiemodule
-                      href: store-selector.md
                     - name: Geschenkbonmodule
                       href: add-giftcard.md
+                - name: Modules voor winkel zoeken
+                  items:
+                    - name: Kaartmodule
+                      href: map-module.md
+                    - name: Winkelselectiemodule
+                      href: store-selector.md
                 - name: Accountbeheermodules
                   items:
                     - name: Accountbeheerpagina's en -modules
@@ -1938,7 +1952,7 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Voorbeelden van modules weergeven en fouten in modules opsporen
                       href: e-commerce-extensibility/test-module.md
-                    - name: Modules testen met behulp van een dummy
+                    - name: Modules testen met behulp van dummy's
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Modules testen met behulp van dummypagina's
                       href: e-commerce-extensibility/test-page-mock.md

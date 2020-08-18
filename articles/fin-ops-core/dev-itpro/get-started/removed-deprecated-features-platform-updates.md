@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 50362ccd9df7a44961bd6e46fa16779829b1c408
-ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
+ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3606817"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651661"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -38,8 +38,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.13 van Finance and Operations-apps
 
 > [!NOTE]
-> Versie 10.0.13 is nog niet vrijgegeven. Deze gegevens worden verstrekt voor planningsdoeleinden. De inhoud en de functies voor versie 10.0.13 kunnen worden gewijzigd. Meer informatie over versies vindt u in [Beschikbaarheid van serviceupdate](../../fin-ops/get-started/public-preview-releases.md).
-
+> Versie 10.0.13 is een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Upgrade van drie jQuery-componentbibliotheken 
 
@@ -50,6 +49,27 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Betrokken productgebieden**         | Uitbreidbare besturingselementen, specifiek aangepaste JavaScript-code voor het gebruik van afgeschafte of verwijderde API's |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Met versie 10.0.13/Platform update 37 kunnen klanten optioneel overstappen op de meest recente bibliotheken door de functie 'Drie jQuery-componentbibliotheken bijwerken' in te schakelen. Het overstappen op de nieuwe bibliotheken is verplicht met de release van april 2021 zodat er tijd is voor de migratie van de betrokken API's.   |
+
+### <a name="existing-grid-controlforcelegacygrid-api"></a>Bestaand rasterbesturingselement/forceLegacyGrid() API
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Het bestaande rasterbesturingselement wordt vervangen door het nieuwe rasterbesturingselement. |
+| **Vervangen door een andere functie?**   | Het [nieuwe rasterbesturingselement](../..//fin-ops/get-started/grid-capabilities.md) |
+| **Betrokken productgebieden**         | Webclient |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | In versie 10.0.13 is het nieuwe rasterbesturingselement doorgaans beschikbaar en kunnen klanten deze functie eventueel inschakelen. Het nieuwe rasterbesturingselement wordt verplicht in de release van oktober 2021. Wanneer het nieuwe rasterbesturingselement verplicht wordt, wordt de **forceLegacyGrid()** API niet meer ondersteund. |
+
+### <a name="personalization-without-saved-views"></a>Persoonlijke instellingen zonder opgeslagen weergaven 
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Het personalisatiesubsysteem is opnieuw ontworpen met de functie Opgeslagen weergaven, zodat de prestaties beter zijn en er extra mogelijkheden zijn. |
+| **Vervangen door een andere functie?**   | Opgeslagen weergaven |
+| **Betrokken productgebieden**         | Webclient |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | In versie 10.0.13/platformupdate 37 is de functie Opgeslagen weergaven algemeen beschikbaar en kunnen klanten deze functie desgewenst inschakelen. De functie Opgeslagen weergaven wordt verplicht in de release van oktober 2021. |
+
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.12 van Finance and Operations-apps
 

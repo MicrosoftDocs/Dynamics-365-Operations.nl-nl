@@ -3,7 +3,7 @@ title: Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen
 description: In dit onderwerp wordt beschreven hoe u een CDN (Content Delivery Network) toevoegt aan uw Microsoft Dynamics 365 Commerce-omgeving.
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533339"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646034"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen
 
@@ -35,7 +35,7 @@ In dit onderwerp wordt beschreven hoe u een CDN (Content Delivery Network) toevo
 
 Wanneer u een e-commerce-omgeving instelt in Dynamics 365 Commerce, kunt u deze configureren om met uw CDN-service te werken. 
 
-Het aangepaste domein kan tijdens het inrichtingsproces voor uw e-commerce-omgeving worden ingeschakeld. U kunt ook een serviceaanvraag gebruiken om deze in te stellen nadat het inrichtingsproces is voltooid. Het inrichtingsproces voor de e-commerce-omgeving genereert een hostnaam die aan de omgeving wordt gekoppeld. Deze hostnaam heeft de volgende indeling, waarbij *e-commerce-tenant-name* de naam van uw omgeving is:
+Het aangepaste domein kan tijdens het inrichtingsproces voor uw e-commerce-omgeving worden ingeschakeld. U kunt ook een serviceaanvraag gebruiken om deze in te stellen nadat het inrichtingsproces is voltooid. Het inrichtingsproces voor de e-commerce-omgeving genereert een hostnaam die aan de omgeving wordt gekoppeld. Deze hostnaam heeft de volgende indeling, waarbij \<*e-commerce-tenant-name*\> de naam van uw omgeving is:
 
 &lt;e-commerce-tenant-name&gt;.commerce.dynamics.com
 
@@ -65,7 +65,7 @@ Een CDN-service kan met een Commerce-omgeving worden gebruikt. Hieronder vindt u
 Het CDN-installatieproces bestaat uit de volgende algemene stappen:
 
 1. Een front-endhost toevoegen.
-1. Een back-endgroep configureren.
+1. Een back-endpool configureren.
 1. Regels voor routering en caching instellen.
 
 ### <a name="add-a-front-end-host"></a>Een front-endhost toevoegen
@@ -74,18 +74,20 @@ U kunt elke CDN-service gebruiken, maar voor het voorbeeld in dit onderwerp word
 
 Voor informatie over het instellen van de Azure Front Door Service raadpleegt u [Beknopte gids voor Front Door Service voor een algemene webtoepassing met hoge beschikbaarheid](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
 
-### <a name="configure-a-back-end-pool-in-azure-front-door-service"></a>Een back-endgroep configureren in Azure Front Door Service
+### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Een back-endpool configureren in Azure Front Door Service
 
-Volg deze stappen om een back-endgroep te configureren in Azure Front Door Service.
+Volg deze stappen om een back-endpool te configureren in Azure Front Door Service.
 
-1. Voeg **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** toe aan een back-endgroep als een aangepaste host met een lege koptekst voor de back-endhost.
-1. Voer onder **Statusprobes** in het veld **Pad** **/keepalive** in.
-1. Voer in het veld **Intervallen (seconden)** **255** in.
+1. Voeg **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** toe aan een back-endpool als een aangepaste host met een lege koptekst voor de back-endhost.
 1. Laat de standaardwaarden staan onder **Taakverdeling**.
 
-In de volgende afbeelding ziet u het dialoogvenster **Een backend-groep toevoegen** in de Azure Front Door Service.
+In de volgende afbeelding ziet u het dialoogvenster **Een backend toevoegen** in de Azure Front Door Service met de naam van de back-endhost ingevuld.
 
 ![Het dialoogvenster Een backend-groep toevoegen](./media/CDN_BackendPool.png)
+
+In de volgende afbeelding ziet u het dialoogvenster **Een back-endpool toevoegen** in de Azure Front Door Service met de standaardwaarden voor taakverdeling.
+
+![Dialoogvenster Een back-endpool toevoegen (vervolg)](./media/CDN_BackendPool_2.png)
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Regels in de Azure Front Door Service instellen
 
@@ -121,20 +123,22 @@ In de volgende afbeelding ziet u het dialoogvenster **Een regel toevoegen** in d
 
 ![Het dialoogvenster Regel toevoegen](./media/CDN_CachingRule.png)
 
-Nadat deze eerste configuratie is geïmplementeerd, moet u uw aangepaste domein toevoegen aan de configuratie voor de Azure Front Door Service. Als u het aangepaste domein wilt toevoegen (bijvoorbeeld `www.fabrikam.com`), moet u een canonieke naam (CNAME) voor het domein configureren.
+> [!WARNING]
+> Als het domein dat u gaat gebruiken al actief en live is, maakt u een ondersteuningsticket vanuit de tegel **Ondersteuning** in [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) om hulp te krijgen bij uw volgende stappen. Zie [Ondersteuning voor Finance and Operations-apps of Lifecycle Services (LCS) krijgen voor meer informatie](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+
+Als uw domein nieuw is en geen reeds bestaand live domein is, kunt u uw aangepaste domein toevoegen aan de configuratie voor de Azure Front Door Service. Hierdoor wordt webverkeer via het Azure Front Door-exemplaar naar uw site geleid. Als u het aangepaste domein wilt toevoegen (bijvoorbeeld `www.fabrikam.com`), moet u een canonieke naam (CNAME) voor het domein configureren.
 
 In de volgende afbeelding ziet u het dialoogvenster **CNAME-configuratie** in de Azure Front Door Service.
 
 ![Dialoogvenster CNAME-configuratie](./media/CNAME_Configuration.png)
-
-> [!NOTE]
-> Als het domein dat u gaat gebruiken al actief en live is, neemt u contact op met de ondersteuning om dit domein als test in te schakelen met de Azure Front Door Service.
 
 U kunt de Azure Front Door Service gebruiken om het certificaat te beheren of u kunt uw eigen certificaat voor het aangepaste domein gebruiken.
 
 In de volgende afbeelding ziet u het dialoogvenster **Aangepast domein HTTPS** in de Azure Front Door Service.
 
 ![Dialoogvenster Aangepast domein HTTPS](./media/Custom_Domain_HTTPS.png)
+
+Zie voor gedetailleerde instructies voor het toevoegen van een aangepast domein aan uw Azure Front Door [Een aangepast domein toevoegen aan uw Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
 
 Uw CDN is nu correct geconfigureerd voor gebruik met uw Commerce-site.
 
