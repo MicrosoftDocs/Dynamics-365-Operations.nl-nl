@@ -408,12 +408,6 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: Clientafbeeldingen in POS
                           href: pos-image.md
-                    - name: Klantorders
-                      items:
-                        - name: Klantorders in MPOS
-                          href: customer-orders-overview.md
-                        - name: Hybride klantorders
-                          href: hybrid-customer-orders.md
                     - name: Verkoopmedewerkers
                       items:
                         - name: Provisie bijhouden in het POS via verkoopgroepen
@@ -630,6 +624,8 @@
                       href: personalized-recommendations.md
                     - name: Afmelden voor gepersonaliseerde aanbevelingen
                       href: personalization-gdpr.md
+                - name: Aanbevelingen voor vergelijkbare artikelen inschakelen
+                  href: shop-similar-looks.md
                 - name: POS-ervaringen
                   items:
                     - name: Productaanbevelingen op POS toevoegen
@@ -692,6 +688,12 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: Uw orders beheren
           items:
+            - name: Klantorders
+              items:
+                - name: Klantorders in MPOS
+                  href: customer-orders-overview.md
+                - name: Hybride klantorders
+                  href: hybrid-customer-orders.md
             - name: Verkooporders
               items:
                 - name: Een callcenterorder maken
@@ -984,10 +986,16 @@
                   items:
                     - name: Winkelwagenmodule
                       href: add-cart-module.md
-                    - name: Module winkelwagenpictogram
+                    - name: Module voor winkelwagenpictogram
                       href: cart-icon-module.md
                     - name: Kassamodule
                       href: add-checkout-module.md
+                    - name: Betalingsmodule
+                      href: payment-module.md
+                    - name: Module voor verzendadressen
+                      href: ship-address-module.md
+                    - name: Module voor leveringsopties
+                      href: delivery-options-module.md
                     - name: Module voor orderdetails
                       href: order-confirmation-module.md
                     - name: Geschenkbonmodule
@@ -1974,7 +1982,9 @@
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: Overzicht cookie-API's
                       href: e-commerce-extensibility/cookie-api-overview.md
-                    - name: Modules globaliseren met behulp van de klasse CultureInfoFormatter
+                    - name: Overzicht van interactieve onderdelen
+                      href: e-commerce-extensibility/interactive-components.md
+                    - name: Modules globaliseren met de klasse CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: Gegevensacties ontwikkelen
                   items:
@@ -2020,12 +2030,16 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: Een thema uitbreiden om module-extensies toe te voegen
                       href: e-commerce-extensibility/theme-module-extensions.md
-                    - name: Een thema uitbreiden vanaf een basisthema
+                    - name: Een thema uitbreiden op basis van een basisthema
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Script injecteren
                   items:
                     - name: Script-injectors
                       href: e-commerce-extensibility/script-injector.md
+                - name: Connectors
+                  items:
+                    - name: Connectors configureren en inschakelen
+                      href: e-commerce-extensibility/connectors.md
                 - name: Telemetrie en analyse
                   items:
                     - name: Logboekregistratie telemetrie
@@ -2042,6 +2056,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Verwachte wijzigingen in Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: Belangrijke ontwikkelings- en ALM-wijzigingen van versie 10.0.10 tot 10.0.13
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: De build-systemen voor Commerce en Finance and Operations samenvoegen
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Retail SDK migreren van Visual Studio 2015 naar Visual Studio 2017
@@ -2118,15 +2134,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Uitbreidbaarheid van Retail Server
               items:
-                - name: Een Commerce Scale Unit OData-controller uitbreiden
-                  href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: Commerce Scale Unit klant- en consumenten-API's
+                - name: Klanten- en consumenten-API's voor Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: De standaardinstelling voor de Commerce Scale Unit-metagegevenscontroller uitbreiden
-                  href: dev-itpro/extend-metadata.md
-                - name: De CRT-service aanroepen in de offline modus
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: Nieuwe uitbreiding voor Retail Server maken
+                - name: Nieuwe API voor Retail Server-uitbreiding maken (Retail SDK-versie 10.0.11 en hoger)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: Nieuwe API voor Retail Server-uitbreiding maken (Retail SDK-versie 10.0.11 en lager)
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail-typescript en C#-proxy's
                   href: dev-itpro/typescript-proxy-retail-pos.md
@@ -2138,16 +2150,12 @@
                   href: dev-itpro/crt-services.md
                 - name: Uitbreidbaarheid voor CRT en Retail Server
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: Voorkeurgegevens klant toevoegen aan een kanaaldatabases
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: Geheimen voor detailhandelafzetkanalen beheren
                   href: dev-itpro/manage-secrets.md
                 - name: CRT-uitbreidbaarheid en activeringen
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Transacties blokkeren met triggers
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: Een retourbeleid implementeren met triggers
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: Uitbreiding loyaliteit
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: Uitbreidingspunten voor pakbonnen

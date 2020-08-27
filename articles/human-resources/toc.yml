@@ -5,6 +5,8 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 6 augustus 2020
+          href: hr-whats-new-2020-08-06.md
         - name: 23 juli 2020
           href: hr-whats-new-2020-07-23.md
         - name: 8 juli 2020
@@ -23,16 +25,16 @@
           href: hr-whats-new-2020-04-13.md
         - name: 3 april 2020
           href: hr-whats-new-2020-04-03.md
-        - name: 24 maart 2020
-          href: hr-whats-new-2020-03-24.md
-        - name: 19 maart 2020
-          href: hr-whats-new-2020-03-19.md
-        - name: 10 maart 2020
-          href: hr-whats-new-2020-03-10.md
-        - name: 3 maart 2020
-          href: hr-whats-new-2020-03-03.md
         - name: Nieuwe functies in archieven 2020
           items:
+            - name: 24 maart 2020
+              href: hr-whats-new-2020-03-24.md
+            - name: 19 maart 2020
+              href: hr-whats-new-2020-03-19.md
+            - name: 10 maart 2020
+              href: hr-whats-new-2020-03-10.md
+            - name: 3 maart 2020
+              href: hr-whats-new-2020-03-03.md
             - name: 25 februari 2020
               href: hr-whats-new-2020-02-25.md
             - name: 18 februari 2020
@@ -223,10 +225,8 @@
           items:
             - name: Human Resources-parameters configureren
               href: hr-setup-parameters.md
-            - name: Gedeelde Human Resources-parameters onderhouden
+            - name: Gedeelde Human Resources-parameters configureren
               href: hr-setup-shared-parameters.md
-            - name: Werkstromen voor Human Resources instellen
-              href: hr-setup-workflows.md
             - name: Datum- en tijdvelden begrijpen
               href: hr-setup-date-time-fields.md
         - name: Organisatie-instellingen configureren
@@ -381,8 +381,10 @@
               href: hr-personnel-create-working-time-calendar.md
             - name: Veelgestelde vragen over personeelsacties
               href: hr-personnel-actions-faq.md
-            - name: Werknemersgegevens beheren met behulp van werkstromen
+            - name: Workflows gebruiken om werknemersgegevens te beheren
               href: hr-workflow-manage-employee-information.md
+            - name: Adreswijzigingen weergeven en beheren
+              href: hr-personnel-view-address-changes.md
             - name: Rapporteringsrelaties voor een positie wijzigen
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Gegevens medewerker invoeren
@@ -395,8 +397,6 @@
               href: hr-personnel-loan-items.md
             - name: Een opvolgingsplan ontwikkelen
               href: hr-personnel-develop-succession-plan.md
-            - name: Project Timesheets invoeren
-              href: hr-personnel-enter-project-timesheets.md
             - name: Projecten voor massaal aanstellen
               href: hr-personnel-mass-hire-projects.md
             - name: Een project voor massaal aanstellen maken

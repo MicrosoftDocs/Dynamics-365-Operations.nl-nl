@@ -1156,9 +1156,9 @@
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Financiële rapportage
           items:
-            - name: Overzicht van Financiële rapportage
+            - name: Aan de slag met financiële rapportage
               href: general-ledger/financial-reporting-getting-started.md
-            - name: Overzicht van Financiële rapportage
+            - name: Overzicht van financiële rapportage
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Onderdelen van een financieel rapport
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
@@ -2600,13 +2600,19 @@
                       href: localizations/rus-counting-deferrals.md
                     - name: Rapportage voor uitgestelde posten
                       href: localizations/rus-reporting-deferrals.md
-            - name: Saudi-Arabië
+                - name: Belastingboekhouding
+                  items:
+                    - name: Onkosten- en inkomstencodes
+                      href: localizations/rus-expense-and-income-codes.md
+                    - name: Belastingregisters voor activa
+                      href: localizations/rus-assets-tax-registers.md
+            - name: Saoedi-Arabië
               items:
-                - name: Overzicht Saudi-Arabië
+                - name: Overzicht Saoedi-Arabië
                   href: localizations/saudi-arabia.md
                 - name: Btw
                   href: localizations/apac-sau-sales-tax.md
-                - name: Zakat-rapportage voor Saudi-Arabië
+                - name: Zakat-rapportage voor Saoedi-Arabië
                   href: localizations/emea-sau-zakat-reporting.md
             - name: Singapore
               items:
@@ -3126,6 +3132,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
                         - name: Lijst
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
                         - name: ListOfFields
@@ -3413,7 +3421,9 @@
             - name: Snelstarthandleidingen
               items:
                 - name: Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
+                - name: Een nieuwe ER-oplossing ontwerpen om een aangepast rapport af te drukken
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: Zelfstudies
               items:
                 - name: Informatie over het gebruik van gegevensbronnen

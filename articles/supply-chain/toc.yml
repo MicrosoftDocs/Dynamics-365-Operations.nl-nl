@@ -2751,6 +2751,8 @@
                       href: inventory/warehouse-template.md
                     - name: Werk beheren met behulp van sjablonen en locatierichtlijnen
                       href: warehousing/control-warehouse-location-directives.md
+                    - name: Locatierichtlijnen maken
+                      href: warehousing/create-location-directive.md
                     - name: Wave-stapcodes
                       href: warehousing/wave-step-codes.md
                     - name: Waveverwerking configureren
@@ -2821,6 +2823,8 @@
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
             - name: Een nieuwe transportbeheerengine maken
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Gegevensentiteiten voor voorhanden voorraad uitbreiden
+              href: inventory/extend-on-hand-entities.md
     - name: Ontwikkeling en beheer voor Finance and Operations-apps
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
