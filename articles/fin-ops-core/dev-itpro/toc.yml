@@ -156,6 +156,8 @@
                           items:
                             - name: Entiteits- en veldtoewijzingen aanpassen
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Meerdere entiteitstoewijzingen verwerken
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: Een rechtspersoon bewerken na instelling van twee keer wegschrijven
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: Foutbeheer en waarschuwingsmeldingen
@@ -848,7 +850,7 @@
                       href: extensibility/customize-model-elements-extensions.md
                     - name: Aanpassen via extensies en overlayering
                       href: extensibility/customization-overlayering-extensions.md
-                - name: Nieuwe functies
+                - name: Nieuw
                   items:
                     - name: Nieuwe of gewijzigde functies voor uitbreidbaarheid
                       href: extensibility/extensibility-new.md
