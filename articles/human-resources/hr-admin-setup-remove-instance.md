@@ -3,7 +3,7 @@ title: Een exemplaar verwijderen
 description: In dit artikel wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Microsoft Dynamics 365 Human Resources geleid.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621375"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668320"
 ---
 # <a name="remove-an-instance"></a>Een exemplaar verwijderen
 
@@ -70,7 +70,7 @@ Als u een Human Resources-omgeving wilt verwijderen uit een bestaande Power Apps
 4. Meld u aan bij LCS met de account waarmee u zich hebt geabonneerd op Human Resources. 
 5. Selecteer het Human Resources-project dat de omgeving bevat. 
 6. Selecteer in uw LCS-project de tegel **Beheer Human Resources-app**. 
-7. Selecteer het exemplaar dat u wilt verwijderen. Dit zou gemarkeerd moeten zijn met de implementatiestatus **Mislukt**.
+7. Selecteer het exemplaar dat u wilt verwijderen. Dit zou gemarkeerd moeten zijn met de implementatiestatus **Verwijderd**.
 8. Selecteer **Exemplaar verwijderen** en bevestig uw keuze. 
 
 ## <a name="recover-a-soft-deleted-environment"></a>Een zacht verwijderde omgeving herstellen

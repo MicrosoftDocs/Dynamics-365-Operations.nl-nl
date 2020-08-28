@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645334"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686665"
 ---
 # <a name="buy-box-module"></a>Module voor koopvak
 
@@ -61,7 +61,7 @@ Met thema's kunnen producteigenschappen en actiecontroles uit het koopvak worden
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Modules die in de koopvakmodule kunnen worden gebruikt
 
-- **Mediagalerie** - wordt gebruikt om afbeeldingen van een product te presenteren op een pagina met productdetails. Zie [Module Mediagalerie](mediagallery-module.md) voor meer informatie over deze module.
+- **Mediagalerie** - wordt gebruikt om afbeeldingen van een product te presenteren op een pagina met productdetails. Zie [Module Mediagalerie](media-gallery-module.md) voor meer informatie over deze module.
 - **Winkelselectie**: deze module toont een lijst met nabijgelegen winkels waar een artikel beschikbaar is voor ophalen. Hiermee kunnen gebruikers een locatie invoeren om te zoeken naar winkels in de buurt. Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over deze module.
 
 ## <a name="buy-box-module-settings"></a>Instellingen voor koopvakmodule
@@ -84,7 +84,7 @@ De koopvakmodule haalt productinformatie op met behulp van Commerce Scale Unit-A
 
 Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
-1. Ga naar **Paginafragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
+1. Ga naar **Fragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
 1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Koopvak**.
 1. Voer onder **Naam paginafragment** de naam in voor het **Koopvakfragment** en selecteer **OK**.
 1. Selecteer in het vak **Mediagalerie** van de koopvakmodule het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.

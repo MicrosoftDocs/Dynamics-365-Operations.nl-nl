@@ -3,7 +3,7 @@ title: Beschikbaarheid van voorraad berekenen voor detailhandelskanalen
 description: In dit onderwerp worden de opties beschreven die beschikbaar zijn voor het weergeven van de voorhanden voorraad voor de winkel- en online kanalen.
 author: hhainesms
 manager: annbe
-ms.date: 05/15/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
+ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379231"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3694917"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Beschikbaarheid van voorraad berekenen voor detailhandelskanalen
 
@@ -66,7 +66,7 @@ Nadat de taak **Beschikbaarheid product** is voltooid, moeten de opgenomen gegev
 1. Ga naar **Retail en Commerce \> Retail en Commerce IT \> Distributieplanning**.
 1. Voer de taak **1130** (**Beschikbaarheid product**) uit om de momentopnamegegevens te synchroniseren die met de taak **Beschikbaarheid product** zijn gemaakt vanuit Commerce Headquarters naar uw kanaaldatabases.
 
-Wanneer de beschikbaarheid van voorraad wordt opgevraagd vanuit de API **GetEstimatedAvailabilty** of **ProductWarehouseInventoryAvailabilities**, wordt een berekening uitgevoerd om de best mogelijke schatting van de voorraad voor het product te krijgen. De berekening verwijst naar alle e-Commerce-klantorders die zich in de kanaaldatabase bevinden, maar die niet zijn opgenomen in de gegevens voor de momentopname die de taak 1130 heeft geleverd. Deze logica wordt uitgevoerd door de laatste verwerkte voorraadtransactie van Commerce Headquarters te traceren en deze te vergelijken met de transacties in de kanaaldatabase. Het biedt een basislijn voor de berekeningslogica aan de kanaalzijde, zodat de extra voorraadmutaties die zijn opgetreden voor verkooptransacties van klantorders in de e-commerce-kanaaldatabase kunnen worden meegenomen in de geschatte voorraadwaarde die de API levert.
+Wanneer de beschikbaarheid van voorraad wordt opgevraagd vanuit de API **GetEstimatedAvailabilty** of **GetEstimatedProductWarehouseAvailability**, wordt een berekening uitgevoerd om de best mogelijke schatting van de voorraad voor het product te krijgen. De berekening verwijst naar alle e-Commerce-klantorders die zich in de kanaaldatabase bevinden, maar die niet zijn opgenomen in de gegevens voor de momentopname die de taak 1130 heeft geleverd. Deze logica wordt uitgevoerd door de laatste verwerkte voorraadtransactie van Commerce Headquarters te traceren en deze te vergelijken met de transacties in de kanaaldatabase. Het biedt een basislijn voor de berekeningslogica aan de kanaalzijde, zodat de extra voorraadmutaties die zijn opgetreden voor verkooptransacties van klantorders in de e-commerce-kanaaldatabase kunnen worden meegenomen in de geschatte voorraadwaarde die de API levert.
 
 De berekeningslogica aan de kanaalzijde retourneert een geschatte fysieke beschikbaarheidswaarde en een totale beschikbaarheidswaarde voor het aangevraagde product en magazijn. De waarden kunnen op uw e-Commerce-site worden weergegeven als u dat wilt, of ze kunnen worden gebruikt om andere bedrijfslogica op uw e-Commerce-site te activeren. U kunt bijvoorbeeld een bericht 'niet-voorradig' weergeven in plaats van de werkelijke voorhanden hoeveelheid die door de API is doorgegeven.
 
@@ -107,6 +107,8 @@ Voor een optimale schatting van de voorraad is het van het grootste belang dat u
 - **Transactionele overzichten boeken in batch**: deze taak is ook vereist voor groepsgewijs boeken. Het volgt de taak **Transactieoverzichten berekenen in batch**. Met deze taak worden de berekende overzichten systematisch geboekt, zodat verkooporders voor contante verkopen in Commerce Headquarters en Commerce Headquarters nauwkeuriger worden weergegeven in de voorraad van uw winkel.
 - **Beschikbaarheid product**: deze taak maakt de momentopname van voorraad vanuit Commerce Headquarters.
 - **1130 (Beschikbaarheid product)**: deze taak bevindt zich op de pagina **Distributieschema's** en moet direct na de taak **Beschikbaarheid product** worden uitgevoerd. Met deze taak worden de momentopnamegegevens voor de voorraad vanuit Commerce Headquarters naar de kanaaldatabases overgebracht.
+
+Het wordt aangeraden om deze batchtaken niet te vaak uitvoeren (om de paar minuten). Met frequente uitvoeringen wordt Commerce Headquarters (HQ) overbelast en kunnen de prestaties hierdoor worden beïnvloed. Over het algemeen kunt u het beste de productbeschikbaarheid en 1130-taken op elk uur uitvoeren en P-taken, orders synchroniseren en taken voor groepsgewijs boeken met dezelfde of een hogere frequentie plannen.
 
 > [!NOTE]
 > Om prestatieredenen wordt bij gebruik van berekeningen van de voorraadbeschikbaarheid aan kanaalzijde om een beschikbaarheidsaanvraag voor voorraad te maken via de API's van e-Commerce of de nieuwe POS-voorraadlogica aan kanaalzijde, een cache gebruikt bij de berekening om vast te stellen of er voldoende de tijd is verstreken om het opnieuw uitvoeren van de berekeningslogica te rechtvaardigen. De standaardcache is ingesteld op 60 seconden. U hebt bijvoorbeeld de berekening aan kanaalzijde voor uw winkel ingeschakeld en de voorhanden voorraad voor een product bekeken op de pagina **Zoeken in voorraad**. Als vervolgens één eenheid van het product wordt verkocht, wordt op de pagina **Zoeken in voorraad** de gereduceerde voorraad pas weergegeven nadat de cache is leeggemaakt. Nadat gebruikers transacties in POS hebben geboekt, moeten ze 60 seconden wachten voordat ze controleren of de voorhanden voorraad is verminderd.

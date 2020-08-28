@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464925"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661167"
 ---
 # <a name="order-details-module"></a>Module voor orderdetails
-
 
 [!include [banner](includes/banner.md)]
 
@@ -72,16 +71,16 @@ Voer de volgende stappen uit om een module voor orderdetails aan een nieuwe pagi
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
-
-[Containermodule](add-container-module.md)
-
-[Koopvakmodule](add-buy-box.md)
-
 [Winkelwagenmodule](add-cart-module.md)
+
+[Module winkelwagenpictogram](cart-icon-module.md)
 
 [Kassamodule](add-checkout-module.md)
 
-[Koptekstmodule](author-header-module.md)
+[Betalingsmodule](payment-module.md)
 
-[Voettekstmodule](author-footer-module.md)
+[Module voor verzendadressen](ship-address-module.md)
+
+[Module voor leveringsopties](delivery-options-module.md)
+
+[Geschenkbonmodule](add-giftcard.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411084"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661142"
 ---
 # <a name="cart-icon-module"></a>Module winkelwagenpictogram
 
@@ -42,22 +42,22 @@ De volgende afbeelding toont een voorbeeld van een winkelwagenpictogrammodule wa
 
 - **Minikar weergeven**: indien waar, kan met deze eigenschap een winkelwagenoverzicht (minikar) worden weergegeven wanneer de cursor boven het winkelwagenpictogram wordt gehouden. Deze functionaliteit wordt alleen ondersteund voor viewports op een bureaublad.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Een module winkelwagenpictogram toevoegen aan een pagina
 
 Zie [Koptekstmodule](author-header-module.md) om een module winkelwagenpictogram toe te voegen.
 
-
 ## <a name="additional-resources"></a>Aanvullende bronnen
-
-[Module met vakje voor kopen](add-buy-box.md)
 
 [Winkelwagenmodule](add-cart-module.md)
 
 [Kassamodule](add-checkout-module.md)
 
-[Orderbevestigingsmodule](order-confirmation-module.md)
+[Betalingsmodule](payment-module.md)
 
-[Koptekstmodule](author-header-module.md)
+[Module voor verzendadressen](ship-address-module.md)
 
-[Voettekstmodule](author-footer-module.md)
+[Module voor leveringsopties](delivery-options-module.md)
+
+[Module voor orderdetails](order-confirmation-module.md)
+
+[Geschenkbonmodule](add-giftcard.md)

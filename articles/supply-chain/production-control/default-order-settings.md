@@ -3,7 +3,7 @@ title: Standaardorderinstellingen voor dimensies en productvarianten
 description: Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte.
 author: t-benebo
 manager: tfehr
-ms.date: 07/27/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,13 +18,13 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13df8eb7873495847d994922be1acd77e57f8f23
-ms.sourcegitcommit: dfe5916d982eaa879e2afef7440c30b1d0f4380a
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
+ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "3637751"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "3657335"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Standaard orderinstellingen voor dimensies en productvarianten
 
@@ -32,7 +32,16 @@ ms.locfileid: "3637751"
 
 Standaardorderinstellingen in Dynamics 365 Supply Chain Management definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte. Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, transferorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders. Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.
 
-U definieert de standaardinstellingen voor orders op de pagina **Standaard orderinstellingen**. Als u deze pagina wilt openen, gaat u naar **Productgegevensbeheer** &gt; **Producten** &gt; **Vrijgegeven producten** &gt; **Een vrijgegeven product selecteren** &gt; voor de **Planning**. U kunt ook naar **Voorraad beheren** &gt; **Orderinstellingen** &gt; **Standaard orderinstellingen** gaan.
+Voer de volgende stappen uit om de standaardorderinstellingen voor een product te definiëren.
+
+1. Ga naar **Productgegevensbeheer** &gt; **Producten** &gt; **Vrijgegeven producten**.
+1. Selecteer het relevante product in het raster.
+1. Voer in het actievenster een van de volgende stappen uit om de pagina **Standaardorderinstellingen** voor het geselecteerde product te openen:
+
+    - Selecteer op het tabblad **Plan** in de groep **Orderinstellingen** de optie **Standaardorderinstellingen**.
+    - Selecteer op het tabblad **Voorraadbeheer** in de groep **Orderinstellingen** de optie **Standaardorderinstellingen**.
+
+1. Configureer de instellingen zoals beschreven in de rest van dit onderwerp.
 
 ## <a name="default-order-settings"></a>Standaard orderinstellingen
 
@@ -74,7 +83,7 @@ De standaardorderinstellingen voor voorraad worden ook toegepast wanneer u de vo
 
 ## <a name="full-definition-of-a-released-product"></a>Volledige definitie van een vrijgegeven product
 
-Wanneer u een transactie maakt, moet u de volledige definitie van een vrijgegeven product op de regel opgeven voordat Supply Chain Management de standaardorderinstellingen probeert vast te stellen. De volledige definitie van vrijgegeven producten betekent dat het artikelnummer en alle actieve productdimensies, zoals configuratie, grootte, stijl en kleur, worden opgegeven in de transactie. Als u bijvoorbeeld handmatig een inkooporderregel voor een vrijgegeven productvariant maakt, moet u alle vereiste productdimensies opgeven voordat de locatie, het magazijn, hoeveelheden en de levertijd standaard op de orderregel worden weergegeven. 
+Wanneer u een transactie maakt, moet u de volledige definitie van een vrijgegeven product op de regel opgeven zodat Supply Chain Management de standaardorderinstellingen kan vaststellen. De volledige definitie van een vrijgegeven producten betekent dat het artikelnummer en alle actieve productdimensies, zoals configuratie, grootte, stijl, versie en kleur, worden opgegeven in de transactie. Als u bijvoorbeeld handmatig een inkooporderregel voor een vrijgegeven productvariant maakt, moet u alle vereiste productdimensies opgeven voordat de locatie, het magazijn, hoeveelheden en de levertijd standaard op de orderregel worden weergegeven. 
 
 Niet alle parameters van de standaardorderinstellingen worden toegepast wanneer u een order of journaalregels maakt. Hoeveelheden en levertijden worden alleen standaard weergegeven wanneer dat kan. Bijvoorbeeld bij het tellen van een journaalregel worden alleen de locatie en het magazijn standaard weergegeven wanneer de regel wordt gemaakt. Daarom worden geen standaardhoeveelheid of controles op meerdere items en minimumhoeveelheden uitgevoerd wanneer de regel wordt gemaakt of het journaal wordt geboekt. 
 
@@ -96,7 +105,7 @@ Voor bepaalde vrijgegeven producten kunt u de algemene orderinstellingen of loca
 
 ### <a name="site-specific-order-settings"></a>Locatiespecifieke orderinstellingen
 
-Als u locatiespecifieke orderinstellingen wilt maken, selecteert u **Nieuw**. Vul in de **Detailweergave** de locatie in het veld **Instellingen die van toepassing zijn op** &gt; **Locatie** in. Vul in de **Rasterweergave** de locatie in in de kolom **Locatie**. De nieuwe regel krijgt automatisch een nieuwe rangwaarde die hoger is dan nul. U kunt zoveel locatiespecifieke regels maken als nodig en u kunt alle aan locatiespecifieke regels dezelfde rang toewijzen om aan te geven dat ze even belangrijk zijn. 
+Als u locatiespecifieke orderinstellingen wilt maken, selecteert u **Nieuw**. Vul in de **Detailweergave** de locatie in het veld **Locatie** in van de sectie **Instellingen van toepassing op**. Vul in de **Rasterweergave** de locatie in in de kolom **Locatie**. Aan de nieuwe regel wordt automatisch een nieuwe rangwaarde toegewezen die groter is dan 0 (nul). U kunt zoveel locatiespecifieke regels maken als nodig zijn. Om aan te geven dat ze even belangrijk zijn, kunt u dezelfde rangwaarde toewijzen aan alle locatiespecifieke regels.
 
 Als u in de **Detailweergave** werkt, kunt u niet het overzicht van de regels krijgen die voor het artikel zijn gemaakt. Gebruik de knop **Lijst weergeven/verbergen** om overzichtsgegevens te zien. Wanneer een orderregel van een van de beschikbare typen wordt gemaakt en er geen locatie voor is opgegeven, zoekt Supply Chain Management naar een regel waarvoor geen locatie is opgegeven. Dit helpt bij het bepalen van een standaardlocatie op de orderregel. Deze locatie wordt vervolgens gebruikt om te zoeken naar een locatiespecifieke regel, waarin een standaardmagazijn kan zijn ingesteld. Dit magazijn wordt dan toegepast op de orderregel.
 
@@ -111,41 +120,41 @@ Hier volgt een voorbeeldproduct.
 | **Productnaam**                                    | Foto-elektrische sensor                    |
 | **Artikelnummer**                                     | XW56                                    |
 | **Configuratie** (gebruikt om het type licht te modelleren) | C1-zichtbaar rood licht, C2-infrarood licht |
-| **Stijl** (gebruikt om de technische revisieniveau te modelleren)  | R1, R2, R3                              |
+| **Versie** | V1, V2, V3                              |
 
 Stel dat dit product niet is geproduceerd maar aangeschaft. Verder nemen we aan dat configuratie C1 vaker wordt gebruikt, zodat deze kortere levertijden heeft. 
 
 Maak de volgende standaardorderinstellingen aan om dit scenario te modelleren.
 
-| Positie | Vestiging | Configuratie | Opmaakmodel | Inkoop: Standaardinstellingen overschrijven | Inkoopdoorlooptijd | Inkoop: Gestopt | Verkoop: Standaardinstellingen overschrijven | Verkoop: Gestopt |
+| Positie | Locatie | Configuratie | Versie | Inkoop: Standaardinstellingen overschrijven | Inkoopdoorlooptijd | Inkoop: Gestopt | Verkoop: Standaardinstellingen overschrijven | Verkoop: Gestopt |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
 | 10   |      | C1            |       | Ja                                  | 2                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-Wanneer een inkooporderregel of een geplande inkooporder wordt aangemaakt voor XW56, configuratie C1, wordt aangenomen dat de levertijd 2 is, ongeacht de revisie of de locatie waarbij de regel is geplaatst. Stel dat alle revisies zijn gestopt, met uitzondering van R3.
+Wanneer een inkooporderregel of een geplande inkooporder wordt aangemaakt voor artikel XW56, configuratie C1, wordt aangenomen dat de levertijd 2 is, ongeacht de versie of de locatie waar de regel is geplaatst. Stel dat alle versies zijn gestopt, met uitzondering van V3.
 
 U kunt de volgende regels voor standaardorderinstellingen maken.
 
-| Positie | Vestiging | Configuratie | Opmaakmodel | Inkoop: Standaardinstellingen overschrijven | Inkoopdoorlooptijd | Inkoop: Gestopt | Verkoop: Standaardinstellingen overschrijven | Verkoop: Gestopt |
+| Positie | Locatie | Configuratie | Versie | Inkoop: Standaardinstellingen overschrijven | Inkoopdoorlooptijd | Inkoop: Gestopt | Verkoop: Standaardinstellingen overschrijven | Verkoop: Gestopt |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 20   |      |               | R2    | Ja                                  |                    | Ja                | Ja                               | Ja             |
-| 20   |      |               | R1    | Ja                                  |                    | Ja                | Ja                               | Ja             |
+| 20   |      |               | V2    | Ja                                  |                    | Ja                | Ja                               | Ja             |
+| 20   |      |               | V1    | Ja                                  |                    | Ja                | Ja                               | Ja             |
 | 10   |      | C1            |       | Ja                                  | 2                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-De twee regels voor het stoppen van de oude revisies hebben dezelfde rang, dus zijn ze even belangrijk. Ze hebben beide een hogere rang dan de regel voor configuratie C1, wat betekent dat ze voorrang krijgen op de regel voor configuratie C1. 
+De twee regels voor het stoppen van de oude versies hebben dezelfde rang. Daarom zijn ze even belangrijk. Omdat beide regels een hogere rang hebben dan de regel voor configuratie C1, hebben ze voorrang op de regel voor configuratie C1. 
 
-In dit voorbeeld wordt uitgelegd waarom de ran noodzakelijk is. Als u een inkooporder voor configuratie C1 en revisie R2 maakt, zouden de twee regels voor R2 en C1 dubbelzinnig zijn als er geen rangen waren toegekend. Om de dubbelzinnigheid op te lossen, doorzoekt Supply Chain Management de regels in aflopende volgorde van rang en past de eerste toepasselijke regel toe die wordt gevonden. In het huidige voorbeeld krijgt de gebruiker een waarschuwing wanneer een inkooporderregel voor configuratie C1 en revisie R2 wordt gemaakt. De melding zegt dat het artikel in de wachtstand is gezet vanwege de revisiewaarde. Als de regel voor de configuratie een hogere rang zou hebben dan de regel voor revisie, zou het maken van een inkooporderregel voor configuratie C1 en revisie R2 slagen en krijgt de gebruiker geen melding dat het artikel in de wachtstand staat. 
+In dit voorbeeld wordt uitgelegd waarom de ran noodzakelijk is. Als de rang niet wordt gebruikt als u een inkooporder voor configuratie C1 en versie V2 maakt, zijn de twee regels voor V2 en C1 dubbelzinnig. Om de dubbelzinnigheid op te lossen, doorzoekt Supply Chain Management de regels in aflopende volgorde van rang en past de eerste toepasselijke regel toe die wordt gevonden. In het huidige voorbeeld krijgt de gebruiker een waarschuwing wanneer een inkooporderregel voor configuratie C1 en versie V2 wordt gemaakt. De melding zegt dat het artikel in de wachtstand is gezet vanwege de versiewaarde. Als de regel voor de configuratie een hogere rang zou hebben dan de regel voor de versie, zou het maken van een inkooporderregel voor configuratie C1 en versie V2 slagen en krijgt de gebruiker geen melding dat het artikel in de wachtstand staat. 
 
 Bekijk de volgende regels voor standaardorderinstellingen eens.
 
-| Positie | Vestiging | Configuratie | Opmaakmodel | Standaardsite | Standaardmagazijn | Inkoop: Standaard opslagdimensies overschrijven | Inkoopmagazijn |
+| Positie | Locatie | Configuratie | Versie | Standaardsite | Standaardmagazijn | Inkoop: Standaard opslagdimensies overschrijven | Inkoopmagazijn |
 |------|------|---------------|-------|--------------|-------------------|------------------------------------------------|--------------------|
 | 20   | 2    |               |       |              |                   | Ja                                            | 22                 |
-| 10   |      | C1            |  R2   |  2           |  21               |                                                |                    |
+| 10   |      | C1            |  V2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11                |                                                |                    |
 
-Het systeem onderzoekt de set regels twee keer om de locatie en het magazijn te bepalen. Wanneer een inkooporderregel wordt gemaakt voor de configuratie van C1, stijl R2, kan de locatie worden bepaald op basis van de regel met positie 10. Vervolgens wordt gezocht naar een regel voor locatie 2 om een magazijn te bepalen. Regel 20 wordt gevonden en omdat deze een hogere rang heeft, wordt het magazijn voor de inkooporderregel ingesteld op 22 in plaats van 21.
+Het systeem onderzoekt de set regels twee keer om de locatie en het magazijn te bepalen. Wanneer een inkooporderregel wordt gemaakt voor de configuratie van C1,versie V2, kan de locatie worden bepaald op basis van de regel met rang 10. Vervolgens wordt gezocht naar een regel voor locatie 2 om een magazijn te bepalen. Regel 20 wordt gevonden en omdat deze een hogere rang heeft, wordt het magazijn voor de inkooporderregel ingesteld op 22 en niet op 21.
 
 Algemeen gesproken worden hogere rangen toegekend aan specifieke regels en regels voor dimensies die belangrijker dan andere dimensies zijn. Meer algemene regels krijgen lagere rangen. 
 
@@ -159,14 +168,14 @@ Er kunnen veel regels worden aangemaakt voor een vrijgegeven product. Om beter t
 
 Als het systeem van regels voor de standaardorderinstellingen te omslachtig wordt, is er de optie om voor elke productvariant standaardorderinstellingen te definiëren. In het volgende voorbeeld wordt getoond hoe dit eruit ziet voor het hierboven beschreven product en de verschillende scenario's.
 
-| Positie | Vestiging | Configuratie | Opmaakmodel | Inkoop: Standaardinstellingen overschrijven | Inkoopdoorlooptijd | Inkoop: Gestopt | Verkoop: Standaardinstellingen overschrijven | Verkoop: Gestopt |
+| Positie | Locatie | Configuratie | Versie | Inkoop: Standaardinstellingen overschrijven | Inkoopdoorlooptijd | Inkoop: Gestopt | Verkoop: Standaardinstellingen overschrijven | Verkoop: Gestopt |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 10   |      | C2            | R3    | Ja                                  | 5                  |                    |                                   |                 |
-| 10   |      | C2            | R2    | Ja                                  | 5                  | Ja                | Ja                               | Ja             |
-| 10   |      | C2            | R1    | Ja                                  | 5                  | Ja                | Ja                               | Ja             |
-| 10   |      | C1            | R3    | Ja                                  | 2                  |                    |                                   |                 |
-| 10   |      | C1            | R2    | Ja                                  | 2                  | Ja                | Ja                               | Ja             |
-| 10   |      | C1            | R1    | Ja                                  | 2                  | Ja                | Ja                               | Ja             |
+| 10   |      | C2            | V3    | Ja                                  | 5                  |                    |                                   |                 |
+| 10   |      | C2            | V2    | Ja                                  | 5                  | Ja                | Ja                               | Ja             |
+| 10   |      | C2            | V1    | Ja                                  | 5                  | Ja                | Ja                               | Ja             |
+| 10   |      | C1            | V3    | Ja                                  | 2                  |                    |                                   |                 |
+| 10   |      | C1            | V2    | Ja                                  | 2                  | Ja                | Ja                               | Ja             |
+| 10   |      | C1            | V1    | Ja                                  | 2                  | Ja                | Ja                               | Ja             |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 De rang is in dit geval niet echt van belang, en u kunt ervoor kiezen om dit te verbergen. Deze oplossing brengt mogelijk problemen op gebied van onderhoud met zich mee. Het kan echter zinvol zijn om deze configuratie te overwegen, als u bijvoorbeeld ook een integratie met systemen voor productlevenscyclusbeheer als optie ziet.

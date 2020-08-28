@@ -1,9 +1,9 @@
 ---
 title: Overzicht van financiële rapportage
-description: In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 Finance en hoe u de financiële rapportagemogelijkheden kunt gebruiken. Het bevat een omschrijving van de financiële standaardrapporten die worden geleverd.
+description: In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 Finance en hoe u de financiële rapportagemogelijkheden kunt gebruiken.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618033"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696683"
 ---
-# <a name="financial-reporting-overview"></a>Overzicht van Financiële rapportage
+# <a name="get-started-with-financial-reporting"></a>Aan de slag met Financial Reporting 
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,7 +88,7 @@ Nadat een gebruiker is toegevoegd of een rol is gewijzigd, moet de gebruiker bin
 Gebruikers die een rapport genereren, kunnen hun eigen rapporten verwijderen. Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** kunnen rapporten van anderen verwijderen. 
 
 In release 10.0.8 is het concept van de vervaldatum geïntroduceerd. Een nieuwe vereiste functie wordt ingeschakeld op de pagina **Alles** binnen het werkgebied van Functiebeheer. De functie **Beleid voor het bewaren van financiële rapporten** bevat de volgende wijzigingen:
-* Nieuwe gegenereerde rapporten krijgen automatisch een vervaldatum van 90 dagen vanaf het moment dat ze worden gegenereerd
+* Nieuwe gegenereerde rapporten krijgen automatisch een vervaldatum van 90 dagen vanaf het moment dat ze worden gegenereerd.
 * Alle bestaande rapporten van vóór de installatie van de functie krijgen een vervalperiode van 90 dagen. De datum kan gedurende een korte periode als leeg worden weergegeven totdat de service voor financiële rapportage wordt uitgevoerd, er een rapport wordt gegenereerd en de service de update uitvoert op bestaande rapporten met een lege vervaldatum. 
 * Gebruikers met de functie **Beveiliging van financiële rapporten onderhouden** hebben toegang tot deze functionaliteit. Elke gebruiker met de functie **Financiële rapporten onderhouden** met de bevoegdheid **Vervaldatum van financiële rapporten onderhouden** kan ook de vervalperiode wijzigen. Momenteel zijn er twee opties beschikbaar: 
   * Een vervalperiode van 90 dagen.
@@ -134,6 +134,12 @@ Wanneer u het menu **Financiële rapportage** selecteert, wordt de lijst van fin
 ## <a name="creating-and-modifying-financial-reports"></a>Het maken en wijzigen van het financiële rapporten
 Via de financiële verslagenlijst kunt u een nieuw rapport maken of een bestaand rapport wijzigen. Als u de juiste machtigingen hebt, kunt u een nieuwe financieel rapport maken door **Nieuw** te selecteren in het actievenster. Er wordt een rapportontwerpersprogramma gedownload naar uw apparaat. Nadat de rapportontwerper is gestart, kunt u vervolgens het nieuwe rapport maken. Nadat u het nieuwe rapport hebt opgeslagen, verschijnt het in de lijst met financiële rapporten. De lijst bevat alleen rapporten die voor het bedrijf zijn gemaakt en die u in Dynamics 365 Finance gebruikt. 
 
+## <a name="reporting-tree-definitions"></a>Rapportagestructuurdefinities 
+Een van de onderdelen die wordt gebruikt om financiële rapporten te maken, is een definitie van een rapportagestructuur. Een rapportagestructuurdefinitie helpt bij het definiëren van de structuur en hiërarchie van uw organisatie. Het is een hiërarchische structuur over meerdere dimensies heen die is gebaseerd op de dimensionale relaties in uw financiële gegevens zijn gebaseerd. Het biedt informatie op het niveau van de rapportage-eenheid en op overzichtsniveau voor alle eenheden in de structuur.
+
+U kunt een onbeperkt aantal rapportagestructuren maken om de gegevens van uw organisatie op verschillende manieren weer te geven. Elke rapportagestructuur kan een willekeurige combinatie van afdelingen en overzichtseenheden bevatten, maar een rapportdefinitie kan slechts aan één rapportagestructuur tegelijk worden gekoppeld. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Problemen met het openen van Report Designer oplossen
 Er zijn enkele veelvoorkomende problemen wanneer u Report Designer opent. Deze problemen en de stappen om ze problemen op te lossen zijn als volgt.
 
@@ -162,3 +168,4 @@ Probleem 3: u kunt doorgaan na de aanmeldingspagina voor ClickOnce Report Design
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 - [Financiële rapporten weergeven](view-financial-reports.md)
+- [Rapportagestructuurdefinities in financiële rapporten](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
