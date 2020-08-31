@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
-ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
+ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295075"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686785"
 ---
 # <a name="add-a-favicon"></a>Een favicon toevoegen
 
@@ -62,7 +62,7 @@ Gebruik de volgende HTML-tekenreeks om de HTML voor de favicon te maken. Vervang
 
 Als u een paginafragment wilt maken dat een metatag bevat voor uw favicon, voert u deze stappen uit.
 
-1. Ga naar **Paginafragmenten** en selecteer **Nieuw**.
+1. Ga naar **Fragmenten** en selecteer **Nieuw**.
 1. Selecteer in het dialoogvenster **Nieuw paginafragment** de optie **Metatags** als de module waarop het paginafragment is gebaseerd.
 1. Voer een naam in voor het paginafragment en klik op **OK**.
 1. Selecteer in de structuur van de fragmenthiërarchie de onderliggende waarde **Standaard metatags**.
@@ -75,7 +75,7 @@ Als u het metatag-paginafragment wilt toevoegen aan de HTML-**kop**sectie van uw
 
 1. Ga naar **Sjablonen**, open de sjabloon voor de pagina's waaraan u uw favicon wilt toevoegen en selecteer **Bewerken**.
 1. Selecteer in de sjabloonhiërarchiestructuur de knop met het weglatingsteken (**...**) rechts van de container **HTML-kop** en selecteer **Paginafragment toevoegen**.
-1. Selecteer in het dialoogvenster **Nieuw paginafragment selecteren** het metatag-paginafragment dat u eerder hebt gemaakt, voer een naam in voor het paginafragment en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Paginafragment selecteren** het metatag-paginafragment dat u eerder hebt gemaakt, voer een naam in voor het paginafragment en selecteer vervolgens **OK**.
 1. Selecteer **Bewerken voltooien** en **Publiceren** om de sjabloon te publiceren.
 
 > [!NOTE]

@@ -3,7 +3,7 @@ title: Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type
 description: Dit onderwerp biedt informatie over het gebruik van het type Berekend veld voor ER-gegevensbronnen.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771324"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665605"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type Berekend veld
 
@@ -39,20 +39,20 @@ Om de voorbeelden in dit onderwerp te kunnen voltooien, moet u toegang tot het v
     - Functioneel consultant elektronische rapportage
     - Systeembeheerder
 
-- Start RCS (Regulatory Configuration Services) die zijn ingericht voor dezelfde tenant als Finance and Operations voor een van de volgende rollen:
+- Toegang tot RCS (Regulatory Configuration Services) die zijn ingericht voor dezelfde tenant als Finance and Operations voor een van de volgende rollen:
 
     - Ontwikkelaar elektronische rapportage
     - Functioneel consultant elektronische rapportage
     - Systeembeheerder
 
-Download vanuit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=874684) het gecomprimeerde (gecomprimeerde) bestand **Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type Berekend veld**. Deze bevat de volgende ER-configuraties die lokaal moeten worden uitgepakt en opgeslagen.
+U moet ook de volgende bestanden downloaden en lokaal opslaan.
 
 | **Inhoud**                           | **Bestandsnaam**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Voorbeeldconfiguratie van model voor ER-gegevens    | Model voor het leren van parameteraanroepen.versie.1.xml     |
-| Voorbeeldconfiguratie van ER-metagegevens      | Metagegevens voor het leren van parameteraanroepen.versie.1.xml  |
-| Voorbeeldconfiguratie van ER-modeltoewijzing | Toewijzing voor het leren van parameteraanroepen.versie.1.xml |
-| Voorbeeldconfiguratie van ER-indeling        | Indeling voor het leren van parameteraanroepen.versie.1.xml  |
+| Voorbeeldconfiguratie van model voor ER-gegevens    | [Model voor het leren van parameteraanroepen.versie.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| Voorbeeldconfiguratie van ER-metagegevens      | [Metagegevens voor het leren van parameteraanroepen.versie.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Voorbeeldconfiguratie van ER-modeltoewijzing | [Toewijzing voor het leren van parameteraanroepen.versie.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Voorbeeldconfiguratie van ER-indeling        | [Indeling voor het leren van parameteraanroepen.versie.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Meld u aan bij uw RCS-exemplaar
 In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc. Eerst moet u in RCS de stappen uitvoeren in de procedure [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md):

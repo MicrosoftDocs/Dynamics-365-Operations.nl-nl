@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411107"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661237"
 ---
 # <a name="gift-card-module"></a>Geschenkbonmodule
 
@@ -63,8 +63,18 @@ Zie [Kassamodule](add-checkout-module.md) voor instructies over het toevoegen va
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Winkelwagenmodule](add-cart-module.md)
+
+[Module winkelwagenpictogram](cart-icon-module.md)
 
 [Kassamodule](add-checkout-module.md)
+
+[Betalingsmodule](payment-module.md)
+
+[Module voor verzendadressen](ship-address-module.md)
+
+[Module voor leveringsopties](delivery-options-module.md)
+
+[Module voor orderdetails](order-confirmation-module.md)
 
 [Ondersteuning voor externe geschenkbonnen](./dev-itpro/gift-card.md)

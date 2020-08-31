@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: dd1df355d39065d6959915cc916987d3c58b15a6
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 93c9f2bebd038723d50e64bdaa0e0992c003f88d
+ms.sourcegitcommit: cec5de2dcfc7210a86a220e308f80ab204f12383
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570189"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665837"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Btw-berekening voor algemene journaalregels
 [!include [banner](../includes/banner.md)]
@@ -64,23 +64,6 @@ In het volgende diagram wordt de regel grafisch weergeven.
 
 Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Leverancier**is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. De volgende punten tonen de mogelijke belastingrichtingen voor leveranciersrekeningen. 
 
-• Als de btw-code vrijgesteld van belasting is, is de btw-richting Belastingvrije Aankoop.
-
-• Als de btw-code intracommunautaire btw is, is de btw-richting Te Ontvangen Btw.
-
-• Als de btw-code verlegd is, is de btw-richting Te Ontvangen Btw.
-
-
-Anders is de btw-richting Verschuldigde Btw.
-
-In het volgende diagram wordt de regel grafisch weergeven.
-
-![Mogelijke belastingrichtingen voor leveranciersrekeningen](media/Sales-Tax-Direction-Vendor.jpg)
-
-### <a name="account-type-is-customer"></a>Het rekeningtype is Klant
-
-Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Klant**is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. De volgende punten tonen de mogelijke belastingrichtingen voor klantentrekeningen.
-
 • Als de btw-code gebruiksbelasting is, is de btw-richting Gebruiksbelasting.
 
 • Als de btw-code vrijgesteld van belasting is, is de btw-richting Belastingvrije Aankoop.
@@ -90,6 +73,22 @@ Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Klant**is, 
 • Als de btw-code verlegd is, is de btw-richting Verschuldigde Btw.
 
 Anders is de btw-richting Te Ontvangen Btw.
+
+In het volgende diagram wordt de regel grafisch weergeven.
+
+![Mogelijke belastingrichtingen voor leveranciersrekeningen](media/Sales-Tax-Direction-Vendor.jpg)
+
+### <a name="account-type-is-customer"></a>Het rekeningtype is Klant
+
+Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Klant**is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. De volgende punten tonen de mogelijke belastingrichtingen voor klantentrekeningen.
+
+• Als de btw-code vrijgesteld van belasting is, is de btw-richting Belastingvrije Aankoop.
+
+• Als de btw-code intracommunautaire btw is, is de btw-richting Te Ontvangen Btw.
+
+• Als de btw-code verlegd is, is de btw-richting Te Ontvangen Btw.
+
+Anders is de btw-richting Verschuldigde Btw.
 
 In het volgende diagram wordt de regel grafisch weergeven.
 

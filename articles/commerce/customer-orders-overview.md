@@ -3,7 +3,7 @@ title: Klantorders in Modern POS (MPOS)
 description: Dit onderwerp biedt informatie over klantorders in Modern POS (MPOS). Klantorders worden ook wel speciale orders genoemd. In dit onderwerp worden de gerelateerde parameters en transactiestromen besproken.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b8ea8339c2ad25ceed2415eb5ccf5e2048c612fa
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
+ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022089"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699364"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Klantorders in Modern POS (MPOS)
 
@@ -53,6 +53,8 @@ Hierna vindt u enkele parameters die kunnen worden ingesteld op de pagina **Comm
 
     - Kosten worden toegepast op het niveau van de verkooporderkoptekst en wanneer een bepaalde hoeveelheid van een productregel wordt geretourneerd, kan de maximale restitutie van verzendkosten die is toegestaan voor de producten en de hoeveelheid, niet worden bepaald op een manier die werkt voor alle klanten.
     - Verzendkosten worden voor elke verzending gemaakt. Als een klant producten meerdere keren retourneert en de detailhandelaar volgens het detailhandelaarsbeleid de kosten van gerestitueerde verzendkosten voor rekening neemt, zijn de gerestitueerde verzendkosten hoger dan de werkelijke verzendkosten.
+    
+- **Btw-berekeningsgedrag** - **Opnieuw berekenen** is de standaardwaarde en de traditionele instelling voor de manier waarop btw wordt herberekend wanneer de order wordt geïmporteerd in het back-office. Met **Niet opnieuw berekenen** wordt de btw niet opnieuw berekend tot of tenzij de order wordt bewerkt in het back-office, wanneer de herberekening wordt geactiveerd. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Transactiestroom voor klantorders
 

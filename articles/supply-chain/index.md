@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: d601ca9b28bb720fd05e25ef66df7be12a08f7e0
+ms.sourcegitcommit: e2a953bea055611023c00a55c00391d14daaca25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530254"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696125"
 ---
 # <a name="supply-chain-management-home-page"></a>Startpagina Supply Chain Management
 
@@ -89,8 +89,6 @@ In de volgende opnamen van technische conferenties worden de functies voor Suppl
   - [Productconfigurator in Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Magazijnbeheer:**
   - [Het beste uit uw magazijnbeheersysteem halen](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [Geavanceerd R3-magazijnbeheer - Inkomende verwerking en minimale/maximale aanvulling](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
-  - [Geavanceerd R3-magazijnbeheer - Een dag in het leven van uitgaande verwerking en vraagaanvulling](https://youtu.be/Og0gLlVp7jA)
   - [Labels in het nieuwe Microsoft Dynamics AX 2012 R3-magazijnbeheer](https://youtu.be/5w1MngVchBA)
   - [Dynamics AX 2012 R3: Geavanceerd magazijnbeheer - Een dag in het leven van procesfabricage](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Video's over Productiebeheer**

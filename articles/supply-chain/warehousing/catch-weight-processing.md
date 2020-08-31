@@ -3,7 +3,7 @@ title: Verwerking van catch weight-producten bij magazijnbeheer
 description: In dit onderwerp wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt gedaan in het magazijn.
 author: perlynne
 manager: tfehr
-ms.date: 03/03/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: b1d106fa6fe5072eb74813495253731dd988c376
+ms.sourcegitcommit: 9a0be1ceee90e80f4c75f241aba847547b5032e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530530"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693274"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
@@ -168,7 +168,7 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
 
 - De functie voor clusterverzamelen wordt niet ondersteund voor catch weight-producten.
 - De magazijnverwerking verzamelen en inpakken wordt niet ondersteund voor catch weight-producten.
-- Voor catch weight-producten kan werk dat is gedefinieerd in een werksjabloon automatisch worden uitgevoerd.
+- Voor catch weight-producten kan werk dat is gedefinieerd in een werksjabloon niet automatisch worden uitgevoerd.
 - Voor catch weight-producten biedt het systeem geen ondersteuning voor de verwerking op handmatige inpakstations waar werk voor het verzamelen uit verpakte containers wordt gecreëerd nadat containers zijn gesloten.
 - De functie voor stuk voor stuk scannen wordt niet ondersteund voor catch weight-producten.
 

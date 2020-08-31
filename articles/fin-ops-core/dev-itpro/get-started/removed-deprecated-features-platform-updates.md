@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
+ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651661"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3678217"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -39,6 +39,16 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 > [!NOTE]
 > Versie 10.0.13 is een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="custom-code-defined-in-ssrs-report-properties"></a>Aangepaste code gedefinieerd in SSRS-rapporteigenschappen 
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | In het algemeen biedt aangepaste code beperkte voordelen, terwijl er tegelijkertijd aanzienlijke resources en berekeningen nodig zijn. Aangepaste code wordt voornamelijk gebruikt door rapportauteurs om openbare methoden aan te roepen vanuit aangepaste code-assembly's. De cloudservice biedt echter geen ondersteuning voor verwijzingen naar aangepaste assembly's voor SSRS-rapporten. |
+| **Vervangen door een andere functie?**   | Rapportauteurs kunnen ervoor kiezen om door te gaan met het verwijzen naar openbare .NET API's voor wiskundige, conversie- en opmaakbewerkingen van willekeurige tekstvakexpressies. Zie [Code toevoegen aan een rapport (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15) voor meer informatie.  |
+| **Betrokken productgebieden**         | Subset van ontwerpen voor toepassingsrapporten die in RDL zijn gedefinieerd en aangepaste code bevatten. |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Met versie 10.0.13 wordt door de compiler een waarschuwing gegeven voor gevallen waarin aangepaste code wordt aangetroffen in een SSRS-rapportdefinitie. U kunt het probleem oplossen door de ontwerpdefinitie van het rapport te openen en alle aangepaste code te verwijderen. Deze waarschuwing wordt vervangen door een compilerfout in een toekomstige update.   |
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Upgrade van drie jQuery-componentbibliotheken 
 

@@ -3,7 +3,7 @@ title: Winkelwagenmodule
 description: In dit onderwerp wordt beschreven wat winkelwagenmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f21268ed4cffed1d5c789f722796cdf05e965819
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621031"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686761"
 ---
 # <a name="cart-module"></a>Winkelwagenmodule
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven wat winkelwagenmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -42,9 +43,17 @@ De volgende afbeelding toont een voorbeeld van een winkelwagenpagina module op d
 
 ![Voorbeeld van een winkelwagenmodule](./media/cart2.PNG)
 
+De volgende afbeelding toont een voorbeeld van een winkelwagenpagina module op de Fabrikam-site. In dit voorbeeld zijn er verwerkingskosten voor een regelartikel.
+
+![Voorbeeld van een winkelwagenmodule](./media/ecommerce-handling-fee.png)
+
 ## <a name="cart-module-properties-and-slots"></a>Eigenschappen en vakken van de winkelwagenmodule
 
-De winkelwagenmodule heeft een eigenschap **Koptekst** die kan worden ingesteld op waarden als **Boodschappentas** en **Artikelen in uw winkelwagen**. 
+| Eigenschap | Waarden | Beschrijving |
+|----------------|--------|-------------|
+| Kop | Koptekst en een tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | De kop voor de winkelwagen zoals Boodschappentas of Artikelen in uw winkelwagen. |
+| Fouten voor niet op voorraad weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, worden op de pagina Winkelwagen fouten met betrekking tot de voorraad weergegeven. We raden u aan deze eigenschap in te stellen op **Waar** als voorraadcontrole wordt toegepast op de locatie. |
+| Verzendkosten voor regelartikelen weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, worden de verzendkosten voor de artikelen op de winkelwagenregels weergegeven als deze informatie beschikbaar is. Deze functie wordt niet ondersteund in het thema Fabrikam omdat gebruikers alleen verzending in de kassastroom selecteren. Deze functie kan echter worden ingeschakeld in andere werkstromen als dat van toepassing is. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Modules die in de winkelwagenmodule kunnen worden gebruikt
 
@@ -67,7 +76,7 @@ De winkelwagenmodule haalt productinformatie op met behulp van Commerce Scale Un
 
 Voer de volgende stappen uit om een winkelwagenmodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
-1. Ga naar **Paginafragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
+1. Ga naar **Fragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
 1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Winkelwagen**.
 1. Voer onder **Naam paginafragment** de naam in voor het **Winkelwagenfragment** en selecteer **OK**.
 1. Selecteer het vak **Winkelwagen**.
@@ -77,7 +86,7 @@ Voer de volgende stappen uit om een winkelwagenmodule aan een nieuwe pagina toe 
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om het fragment te controleren en selecteer **Publiceren** om het te publiceren.
 1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** een naam voor de sjabloon in.
-1. Selecteer in de overzichtsstructuur het vak **Hoofdtekst**, selecteer de knop met het weglatingsteken (**...**) en vervolgens **Fragment toevoegen**.
+1. Selecteer in de overzichtsstructuur het vak **Hoofdtekst**, selecteer de knop met het weglatingsteken (**...**) en vervolgens **Paginafragment toevoegen**.
 1. Selecteer in het dialoogvenster **Paginafragment selecteren** het **Winkelwagenfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
@@ -87,22 +96,18 @@ Voer de volgende stappen uit om een winkelwagenmodule aan een nieuwe pagina toe 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
-
-[Containermodule](add-container-module.md)
-
-[Winkelselectiemodule](store-selector.md)
-
-[Module met vakje voor kopen](add-buy-box.md)
-
 [Module winkelwagenpictogram](cart-icon-module.md)
 
 [Kassamodule](add-checkout-module.md)
 
-[Orderbevestigingsmodule](order-confirmation-module.md)
+[Betalingsmodule](payment-module.md)
 
-[Koptekstmodule](author-header-module.md)
+[Module voor verzendadressen](ship-address-module.md)
 
-[Voettekstmodule](author-footer-module.md)
+[Module voor leveringsopties](delivery-options-module.md)
+
+[Module voor orderdetails](order-confirmation-module.md)
+
+[Geschenkbonmodule](add-giftcard.md)
 
 [Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md)

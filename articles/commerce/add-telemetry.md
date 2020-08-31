@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154081"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686809"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie
 
@@ -32,7 +32,7 @@ In dit onderwerp wordt beschreven hoe u scriptcode op de client toevoegt aan de 
 
 ## <a name="overview"></a>Overzicht
 
-Webanalyses zijn een essentieel hulpmiddel om inzicht te krijgen in de manier waarop uw klanten met uw site communiceren en om beslissingen te nemen die de ervaring voor een maximale conversie optimaliseren. Er zijn veel webanalysepakketten beschikbaar om u te helpen deze doelstellingen te verwezenlijken, zoals Google Analytics, Clicky, Moz Analytics en KISSMetrics. Voor de meeste webanalysepakketten moet u scriptcode op de client toevoegen in het element **\<Head\>** van de HTML-code op uw sitepagina's.
+Webanalyses zijn een essentieel hulpmiddel om inzicht te krijgen in de manier waarop uw klanten met uw site communiceren en om beslissingen te nemen die de ervaring voor een maximale conversie optimaliseren. Er zijn veel webanalysepakketten beschikbaar om u te helpen deze doelstellingen te verwezenlijken, zoals Google Analytics, Clicky, Moz Analytics en KISSMetrics. Voor de meeste webanalysepakketten moet u scriptcode op de client toevoegen in het element **\<head\>** van de HTML-code op uw sitepagina's.
 
 > [!NOTE]
 > De instructies in dit onderwerp gelden ook voor andere aangepaste clientfunctionaliteit die Microsoft Dynamics 365 Commerce niet zelf aanbiedt.
@@ -45,7 +45,7 @@ Met een paginafragment kunt u inline of externe scriptcode opnieuw gebruiken voo
 
 Voer de volgende stappen uit om een herbruikbaar paginafragment te maken voor de inline scriptcode in Site builder.
 
-1. Ga naar **Paginafragmenten** en selecteer **Nieuw**.
+1. Ga naar **Fragmenten** en selecteer **Nieuw**.
 1. Selecteer **Inline script** in het dialoogvenster **Nieuw paginafragment**.
 1. Voer onder **Naam paginafragment** een naam in voor het fragment en selecteer **OK**.
 1. Selecteer onder het paginafragment dat u hebt gemaakt de module **Standaard inline script**.
@@ -57,7 +57,7 @@ Voer de volgende stappen uit om een herbruikbaar paginafragment te maken voor de
 
 Voer de volgende stappen uit om een herbruikbaar paginafragment te maken voor de externe scriptcode in Site builder.
 
-1. Ga naar **Paginafragmenten** en selecteer **Nieuw**.
+1. Ga naar **Fragmenten** en selecteer **Nieuw**.
 1. Selecteer **Extern script** in het dialoogvenster **Nieuw paginafragment**.
 1. Voer onder **Naam paginafragment** een naam in voor het fragment en selecteer **OK**.
 1. Selecteer onder het paginafragment dat u hebt gemaakt de module **Standaard extern script**.
