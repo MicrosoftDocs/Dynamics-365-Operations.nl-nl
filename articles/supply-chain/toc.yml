@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Maken en werken met aangepaste velden
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: PowerApps-apps insluiten
+                - name: Microsoft Power Apps insluiten
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Informatie vinden met zoekopdrachten
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,13 +633,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Toegang tot informatie en rapportage
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Aanpassingsopties met PowerBI.com
+            - name: Aanpassingsopties met Power BI
               items:
-                - name: Functies die beschikbaar zijn via integratie van PowerBI.com
+                - name: Functies die beschikbaar zijn via integratie van Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Inhoud PowerBI.com vastmaken
+                - name: Power BI-inhoud vastmaken
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analytische werkgebieden selecteren uit PowerBI.com
+                - name: Analytische werkgebieden selecteren vanuit Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Power BI-inhoud
               items:
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Producten uitsluiten van Hoofdplanning
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Goederen met twee toepassingen
-                  href: pim/dual-use.md
-                - name: Land van oorsprong
-                  href: pim/country-of-origin.md
                 - name: Een streepjescode voor een product maken
                   href: pim/tasks/create-bar-code-product.md
                 - name: De GTIN-code invoeren voor een product
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: Een afbeelding aan een product toevoegen
                   href: pim/tasks/add-image-product.md
+                - name: Land van oorsprong
+                  href: pim/country-of-origin.md
+                - name: Goederen met twee toepassingen
+                  href: pim/dual-use.md
+                - name: Gevaarlijke materialen
+                  items:
+                    - name: Overzicht van gevaarlijke materialen
+                      href: pim/hazmat-overview.md
+                    - name: Gevaarlijke materialen instellen
+                      href: pim/hazmat-setup.md
+                    - name: 'Gevaarlijke materialen in producten, orders, zendingen en ladingen'
+                      href: pim/hazmat-items.md
+                    - name: Vragen en rapporten over gevaarlijke materialen
+                      href: pim/hazmat-reports.md
                 - name: Vertaling van veelgestelde vragen over productinformatie
                   href: pim/translations-product-related-information.md
                 - name: Zoeken naar product tijdens orderinvoer
