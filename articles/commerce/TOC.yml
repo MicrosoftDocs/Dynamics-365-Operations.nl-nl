@@ -68,6 +68,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance + Operations (on-premises) aanschaffen
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce Data Exchange-implementatierichtlijnen
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: Finance and Operations-apps die worden geëxploiteerd door 21Vianet in China
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations-apps in Frankrijk
@@ -178,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Maken en werken met aangepaste velden
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: PowerApps-apps insluiten
+                - name: Microsoft Power Apps insluiten
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Informatie vinden met zoekopdrachten
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -202,8 +204,14 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: Een topologie voor de winkel selecteren
                   href: dev-itpro/retail-in-store-topology.md
-                - name: Commerce Data Exchange en communicatie via handelkanalen
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Aanbevolen procedures voor Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange en communicatie via handelskanalen
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Problemen met Commerce Data Exchange oplossen
+                      href: dev-itpro/CDX-Troubleshooting.md
                 - name: De architectuur van Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: De architectuur van het publiceren van online winkels
@@ -516,6 +524,8 @@
                       href: duplicate-payment-protection.md
                     - name: Overzicht van betalingen voor meerdere kanalen
                       href: omni-channel-payments.md
+                    - name: Handelsorderbetalingen voor meerdere kanalen
+                      href: dev-itpro/commerce-payments.md
                     - name: Veelgestelde vragen over betalingen
                       href: dev-itpro/payments-retail.md
                 - name: Bing Kaarten voor uw organisatie beheren
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: Transacties detailhandelwinkel bewerken en controleren
               href: edit-audit-retail-transactions.md
-            - name: 'Overzichten maken, berekenen en boeken voor een detailhandelwinkel'
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: Groepsgewijs orders voor detailhandeltransacties maken
               href: trickle-feed.md
             - name: 'Overzichten maken, berekenen en boeken voor een detailhandelwinkel'
@@ -1130,13 +1138,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: Toegang tot informatie en rapportage
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Aanpassingsopties met PowerBI.com
+            - name: Aanpassingsopties met Power BI
               items:
-                - name: Functies die beschikbaar zijn via integratie van PowerBI.com
+                - name: Functies die beschikbaar zijn via integratie van Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: Inhoud PowerBI.com vastmaken
+                - name: Power BI-inhoud vastmaken
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Analytische werkgebieden selecteren uit PowerBI.com
+                - name: Analytische werkgebieden selecteren vanuit Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: Power BI-inhoud
               items:
@@ -1188,7 +1196,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: Problemen oplossen na onderhoud van Entiteitopslag
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: Integratie van PowerBI.com configureren
+                - name: De Power BI-integratie configureren
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Uw eigen database gebruiken
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -2048,11 +2056,11 @@
                   items:
                     - name: Pakketconfiguraties en deze implementeren in een online omgeving
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: Updates voor SDK's en kernbibliotheken
+                    - name: Updates voor SDK en startpakket voor winkels
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
-                - name: Retail SDK-architectuur
+                - name: Architectuur van Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Verwachte wijzigingen in Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
@@ -2186,6 +2194,8 @@
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: Betalingsconnectors implementeren
                   href: dev-itpro/deploy-payment-connector.md
+                - name: Incrementeel registreren voor backoffice-facturering
+                  href: dev-itpro/incremental-capture.md
                 - name: Aangepaste vertaalde foutberichten voor uitbreidingen van betalingsterminal maken
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: Windows-installatieprogramma's maken voor betalingsconnectors

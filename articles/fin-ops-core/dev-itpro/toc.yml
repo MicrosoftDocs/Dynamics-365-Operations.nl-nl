@@ -130,6 +130,8 @@
                       items:
                         - name: Startpagina voor twee keer wegschrijven
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Nieuwe of gewijzigde functies in twee keer wegschrijven
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: Overzicht van twee keer wegschrijven
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Instellingen voor twee keer wegschrijven
@@ -1472,11 +1474,13 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: Een beveiligingsbeleid maken
                   href: sysadmin/create-simple-security-policy.md
+            - name: Blijven voldoen aan de licentievereisten voor gebruikers
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: Procesautomatisering
               href: sysadmin/process-automation.md
             - name: Batchverwerking
               items:
-                - name: Overzicht van Batchverwerking
+                - name: Overzicht van batchverwerking
                   href: sysadmin/batch-processing-overview.md
                 - name: Batchverwerking en batchservers
                   href: sysadmin/batch-server-overview.md
