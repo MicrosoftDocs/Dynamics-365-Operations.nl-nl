@@ -3,7 +3,7 @@ title: Persoonlijke productaanbevelingen inschakelen
 description: In dit onderwerp wordt beschreven hoe u persoonlijke productaanbevelingen ter beschikking kunt stellen aan klanten in Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664853"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700861"
 ---
 # <a name="enable-personalized-recommendations"></a>Persoonlijke aanbevelingen inschakelen
 
@@ -49,11 +49,13 @@ Zie [Overzicht van productaanbevelingen](product-recommendations.md) voor meer i
 
 Voer de volgende stappen uit om persoonlijke instellingen in te schakelen.
 
-1. Ga naar **Retail en commerce \> Productaanbevelingen \> Aanbevelingsparameters**.
-1. Selecteer **Aanbevelingslijsten** in de lijst met gedeelde parameters voor de detailhandel.
-1. Stel de optie **Persoonlijke instellingen inschakelen** in op **Ja**.
+1. Zoek in Commerce-hoofdkantoren naar **Functiebeheer**.
+1. Selecteer **Alles** om een lijst met beschikbare functies weer te geven. 
+1. Typ **Aanbevelingen** in het zoekvak.
+1. Selecteer de functie **Gepersonaliseerde productaanbevelingen**.
+1. Selecteer in het eigenschappenvenster **Gepersonaliseerde productaanbevelingen** de optie **Nu inschakelen**.
 
-![Persoonlijke instellingen inschakelen](./media/enablepersonalization.png)
+![Persoonlijke instellingen inschakelen](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Wanneer u persoonlijke instellingen inschakelt, wordt het proces voor het genereren van persoonlijke productaanbevelingslijsten gestart. Mogelijk is maximaal één dag vereist voordat deze lijsten online en op het POS beschikbaar en zichtbaar zijn.

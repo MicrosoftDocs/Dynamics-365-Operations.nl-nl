@@ -3,7 +3,7 @@ title: Beleid voor het kopen en verkopen van verlof beheren
 description: In Dynamics 365 Human Resources kunt u instellen dat werknemers verlof kunnen kopen en verkopen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,24 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 859445f2b6e980b5960e512e69129f6a8fc6df2b
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429008"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712105"
 ---
-# <a name="manage-buy-and-sell-leave-policies"></a>Beleid voor het kopen en verkopen van verlof beheren
+# <a name="manage-buy-and-sell-leave-policies"></a>Beleid voor verlof inkopen/verkopen beheren
 
-[!include [banner](includes/preview-feature.md)]
-
-U kunt instellen dat werknemers verlof kunnen kopen door een beleid voor het kopen van verlof te maken.  
+U kunt werknemers in staat stellen om verlof te kopen en te verkopen door een beleid voor het kopen en verkopen van verlof te maken. U kunt dit beleid configureren om een werkstroom voor goedkeuringen te gebruiken, maximumbedragen en -tarieven in te stellen en tarieven voor kopen en verkopen in te stellen. 
 
 ## <a name="enable-employees-to-buy-and-sell-leave"></a>Toestaan dat werknemers verlof kopen en verkopen
 
-1. Op de pagina **Verlof- en verzuimparameters** selecteert u **Ja** voor **Werknemers toestaan om verlof te kopen**. 
+1. Op de pagina **Verlof- en verzuimparameters** selecteert u **Ja** voor **Werknemers toestaan om verlof te kopen** en **Werknemers toestaan om verlof te verkopen**.
 
-## <a name="create-a-buy-leave-policy"></a>Een beleid voor het kopen van verlof maken
+## <a name="create-a-buy-and-sell-leave-policy"></a>Een beleid voor het kopen en verkopen van verlof maken
 
 1. Selecteer op de pagina **Verlof en verzuim** het tabblad **Koppelingen**. 
 
@@ -51,19 +49,23 @@ U kunt instellen dat werknemers verlof kunnen kopen door een beleid voor het kop
 
 6. Selecteer een **begindatum** en **einddatum** voor het beleid. Aanvragen om verlof te kopen of verkopen zijn alleen beschikbaar voor verzending tijdens dit tijdsbestek. 
 
-7. Selecteer onder **Beleid voor kopen** de optie **Fulltime-equivalentie** (FTE) om het maximumbedrag te aan te passen aan de gedefinieerde FTE voor de functie van de werknemer. Als het type beleid **Bedrag** is, voert u een **vast maximumbedrag** in. 
+7. Selecteer een **Werkstroom-id** voor het beleid. Bij koop- en verkoopaanvragen wordt deze werkstroom gebruikt voor controle en goedkeuring. 
 
-8. Selecteer **Toevoegen** om de verloftypen toe te voegen die werknemers kunnen kopen. U kunt meerdere verloftypen aan het beleid toevoegen. 
+8. Selecteer onder **Beleid voor kopen** de optie **Fulltime-equivalentie** (FTE) om het maximumbedrag te aan te passen aan de gedefinieerde FTE voor de functie van de werknemer. Als het type beleid **Bedrag** is, voert u een **vast maximumbedrag** in. 
 
-9. Voer de **servicemaanden** voor het verloftype in om verschillende servicemaanden in te schakelen om het maximumbedrag te bepalen dat een werknemer kan kopen. 
+9. Selecteer **Toevoegen** om de verloftypen toe te voegen die werknemers kunnen kopen. U kunt meerdere verloftypen aan het beleid toevoegen. 
 
-10. Voer het **maximale bedrag** in voor het verloftype. 
+10. Voer de **servicemaanden** voor het verloftype in om verschillende servicemaanden in te schakelen om het maximumbedrag te bepalen dat een werknemer kan kopen. 
 
-11. Hier kunt u de **snelheid** invoeren waarmee de werknemer het verlof koopt. 
+11. Voer het **maximale bedrag** in voor het verloftype. 
 
-12. Voer desgewenst de **inkomstencode** in die moet worden gebruikt voor het kopen van verlof. 
+12. Hier kunt u de **snelheid** invoeren waarmee de werknemer het verlof koopt. 
 
-13. U kunt ook instellen of FTE moet worden gebruikt om het maximumbedrag voor het verloftype te bepalen. 
+13. Voer desgewenst de **inkomstencode** in die moet worden gebruikt voor het kopen van verlof. 
+
+14. U kunt ook instellen of FTE moet worden gebruikt om het maximumbedrag voor het verloftype te bepalen. 
+
+15. Volg de stappen 8 tot en met 14 onder **Verkoopbeleid** om een verkoopbeleid te maken. 
 
 ## <a name="add-the-buy-and-sell-leave-policy-to-a-leave-and-absence-plan"></a>Het beleid voor kopen en verkopen van verlof toevoegen aan een plan voor verlof en verzuim
 

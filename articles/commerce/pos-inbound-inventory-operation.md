@@ -3,7 +3,7 @@ title: Inkomende voorraadbewerking in POS
 description: In dit onderwerp worden de mogelijkheden van inkomende voorraadbewerking van het verkooppunt (POS) beschreven.
 author: hhaines
 manager: annbe
-ms.date: 07/27/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
-ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
+ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3627533"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710304"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Inkomende voorraadbewerking in POS
 
@@ -143,6 +143,20 @@ De bewerking houdt rekening met de configuratie **Lege ontvangst is toegestaan**
 ### <a name="receive-all"></a>Alles ontvangen
 
 U kunt zo nodig **Alles ontvangen** selecteren op de appbalk om snel de hoeveelheid voor **Nu ontvangen** bij te werken voor alle documentregels naar de maximumwaarde die beschikbaar is voor het ontvangen van deze regels.
+
+### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Ontvangst van ongeplande artikelen op inkooporders
+
+In Commerce versie 10.0.14 en hoger kunnen gebruikers een product ontvangen dat oorspronkelijk niet op de inkooporder stond. Als u deze functie wilt inschakelen, schakelt u **Regels aan inkooporder toevoegen tijdens POS-ontvangst**.  
+
+Deze functie werkt alleen voor de ontvangst van inkooporders. Het is niet mogelijk om artikelen te ontvangen op overboekingsorders wanneer de artikelen niet eerder zijn besteld en verzonden vanuit het uitgaande magazijn.
+
+Gebruikers kunnen geen nieuwe producten aan een inkooporder toevoegen tijdens POS-ontvangst als de [werkstroom voor wijzigingsbeheer](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) van inkooporders is ingeschakeld in Commerce Headquarters (HQ). Als u wijzigingsbeheer wilt inschakelen, moeten alle wijzigingen in een inkooporder eerst worden goedgekeurd voordat ontvangst wordt toegestaan. Aangezien een ontvanger door dit proces nieuwe regels aan de inkooporder kan toevoegen, mislukt de ontvangst als de werkstroom voor wijzigingsbeheer is ingeschakeld. Als wijzigingsbeheer is ingeschakeld voor alle inkooporders of voor de leverancier die is gekoppeld aan de inkooporder die actief is in POS, kan de gebruiker geen nieuwe producten aan de inkooporder toevoegen tijdens POS-ontvangst.
+
+De functionaliteit waarmee het toevoegen van regels is ingeschakeld, kan niet worden gebruikt als tijdelijke oplossing voor het ontvangen van extra hoeveelheden producten die al op de inkooporder staan. Meerontvangsten worden beheerd via de standaardinstellingen voor [meerontvangsten](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) voor de productregel op de inkooporder.
+
+Als **Regels aan inkooporder toevoegen tijdens POS-ontvangst** is ingeschakeld en een gebruiker ontvangt met de **Inkomende bewerking** in POS, dan ontvangt de gebruiker een bericht over het toevoegen van het artikel aan de inkooporder wanneer hij of zij de streepjescode scant of het productnummer invoert van een product dat niet wordt herkend als een artikel op de huidige inkooporder, maar wel wordt herkend als een geldig artikel. Als de gebruiker het artikel toevoegt aan de inkooporder, wordt de hoeveelheid die is ingevoerd in **Nu ontvangen** beschouwd als de bestelde hoeveelheid voor de inkooporderregel.
+
+Wanneer het ontvangstbewijs van de inkooporder is voltooid en bij HQ is ingediend voor verwerking, worden de toegevoegde regels in het hoofddocument van de inkooporder gemaakt. Aan de inkooporderregel in HQ wordt de markering **Toegevoegd via POS** toegevoegd op het tabblad **Algemeen** van de inkooporderregel. De markering **Toegevoegd via POS** geeft aan dat de inkooporderregel is toegevoegd via het POS-ontvangstproces en dat vóór de ontvangst geen regel op de inkooporder was.
 
 ### <a name="cancel-receiving"></a>Ontvangst annuleren
 

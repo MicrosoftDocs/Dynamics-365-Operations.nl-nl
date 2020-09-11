@@ -3,7 +3,7 @@ title: Een exemplaar kopiëren
 description: U kunt Microsoft Dynamics Lifecycle Services (LCS) gebruiken om een Microsoft Dynamics 365 Human Resources-database naar een sandbox-omgeving te kopiëren.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
-ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
+ms.openlocfilehash: 6b52b696d323df6bafead2418ae322d1a9cdf64a
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3554320"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706223"
 ---
 # <a name="copy-an-instance"></a>Een exemplaar kopiëren
 
 U kunt Microsoft Dynamics Lifecycle Services (LCS) gebruiken om een Microsoft Dynamics 365 Human Resources-database naar een sandbox-omgeving te kopiëren. Als u nog een sandbox-omgeving hebt, kunt u de database ook vanuit die omgeving kopiëren naar een specifieke sandbox-omgeving.
 
-Voor het kopiëren van een exemplaar moet u het volgende controleren:
+Houd rekening met de volgende tips als u een exemplaar wilt kopiëren:
 
 - Het Human Resources-exemplaar dat u wilt overschrijven, moet een sandbox-omgeving zijn.
 
@@ -37,7 +37,9 @@ Voor het kopiëren van een exemplaar moet u het volgende controleren:
 
 - U moet een beheerder zijn in de doelomgeving, zodat u zich kunt aanmelden nadat u het exemplaar hebt gekopieerd.
 
-- Wanneer u de Human Resources-database kopieert, kopieert u niet de elementen (apps of gegevens) die zijn opgenomen in een Microsoft PowerApps-omgeving. Zie [Een omgeving kopiëren](https://docs.microsoft.com/power-platform/admin/copy-environment) voor informatie over het kopiëren van elementen in een PowerApps-omgeving. De PowerApps-omgeving die u wilt overschrijven, moet een sandbox-omgeving zijn. U moet een globale tenantbeheerder zijn om een PowerApps-productieomgeving te wijzigen in een sandbox-omgeving. Zie [Schakelen tussen exemplaren](https://docs.microsoft.com/dynamics365/admin/switch-instance) voor meer informatie over het wijzigen van een PowerApps-omgeving.
+- Wanneer u de Human Resources-database kopieert, kopieert u niet de elementen (apps of gegevens) die zijn opgenomen in een Microsoft Power Apps-omgeving. Zie [Een omgeving kopiëren](https://docs.microsoft.com/power-platform/admin/copy-environment) voor informatie over het kopiëren van elementen in een Power Apps-omgeving. De Power Apps-omgeving die u wilt overschrijven, moet een sandbox-omgeving zijn. U moet een globale tenantbeheerder zijn om een Power Apps-productieomgeving te wijzigen in een sandbox-omgeving. Zie [Schakelen tussen exemplaren](https://docs.microsoft.com/dynamics365/admin/switch-instance) voor meer informatie over het wijzigen van een Power Apps-omgeving.
+
+- Als u een exemplaar in uw sandbox-omgeving kopieert en u de sandbox-omgeving wilt integreren met Common Data Service, moet u aangepaste velden opnieuw toepassen op Common Data Service-entiteiten. Zie [Aangepaste velden toepassen op Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>De gevolgen van het kopiëren van een Human Resources-database
 
@@ -47,15 +49,15 @@ De volgende gebeurtenissen treden op wanneer u een Human Resources-database kopi
 
 - De doelomgeving is pas weer beschikbaar als de kopieerbewerking is voltooid.
 
-- Documenten in de Microsoft Azure Blob-opslag worden niet van de ene omgeving naar de andere gekopieerd. Daarom worden documenten en sjablonen die zijn gekoppeld, niet gekopieerd en blijven deze in de bronomgeving.
+- Documenten in de Microsoft Azure Blob-opslag worden niet van de ene omgeving naar de andere gekopieerd. Het resultaat is dat documenten en sjablonen die zijn gekoppeld, niet worden gekopieerd en in de bronomgeving blijven staan.
 
-- Alle gebruikers behalve de gebruiker met beheerdersrechten en andere interne servicegebruikersaccounts worden uitgeschakeld. De gebruiker met beheerdersrechten kan de gegevens dus verwijderen of onleesbaar maken voordat andere gebruikers weer toegang hebben tot het systeem.
+- Alle gebruikers behalve de gebruiker met beheerdersrechten en andere interne servicegebruikersaccounts worden uitgeschakeld. De gebruiker met beheerdersrechten kan de gegevens verwijderen of onleesbaar maken voordat andere gebruikers weer toegang hebben tot het systeem.
 
 - De gebruiker met beheerdersrechten moet de vereiste configuratiewijzigingen aanbrengen, zoals het opnieuw verbinden van integratie-eindpunten met specifieke services of URL's.
 
 ## <a name="copy-the-human-resources-database"></a>De Human Resources-database kopiëren
 
-Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich vervolgens aan bij het Microsoft Power Platform-beheercentrum om uw PowerApps-omgeving te kopiëren.
+Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich vervolgens aan bij het Microsoft Power Platform-beheercentrum om uw Power Apps-omgeving te kopiëren.
 
 > [!WARNING]
 > Wanneer u een exemplaar kopieert, wordt de database gewist in het doelexemplaar. Het doelexemplaar is niet beschikbaar tijdens dit proces.
@@ -74,7 +76,7 @@ Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich v
 
    ![[Selecteer Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. Selecteer de PowerApps-omgeving die u wilt kopiëren en selecteer vervolgens **Kopiëren**.
+6. Selecteer de Power Apps-omgeving die u wilt kopiëren en selecteer vervolgens **Kopiëren**.
 
 7. Wanneer het kopieerproces is voltooid, meldt u zich aan bij het doelexemplaar en schakelt u Common Data Service-integratie in. Zie voor meer informatie en instructies [Common Data Service-integratie configureren](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
@@ -98,7 +100,13 @@ De volgende gegevenselementen worden niet gekopieerd wanneer u een Human Resourc
 
 - De verbindingsreeks in de tabel **PersonnelIntegrationConfiguration**
 
-Sommige van deze elementen worden niet gekopieerd omdat ze omgevingsspecifiek zijn. Voorbeelden zijn de **BatchServerConfig**- en **SysCorpNetPrinters**-records. Andere elementen worden niet gekopieerd vanwege het volume van de ondersteuningstickets. Er kunnen bijvoorbeeld dubbele e-mailberichten worden verzonden omdat SMTP nog steeds is ingeschakeld in de omgeving voor acceptatietests voor gebruikers (sandbox-omgeving), er kunnen ongeldige integratieberichten worden verzonden omdat batchtaken nog steeds zijn ingeschakeld en er kunnen gebruikers worden ingeschakeld voordat beheerders opruimacties na vernieuwing kunnen uitvoeren.
+Sommige van deze elementen worden niet gekopieerd omdat ze specifiek zijn voor de omgeving. Voorbeelden zijn de **BatchServerConfig**- en **SysCorpNetPrinters**-records. Andere elementen worden niet gekopieerd vanwege het volume van de ondersteuningstickets. Bijvoorbeeld:
+
+- Er kunnen dubbele e-mails worden verzonden omdat SMTP nog steeds is ingeschakeld in de omgeving voor acceptatietests voor gebruikers (sandbox).
+
+- Er worden mogelijk berichten over een ongeldige integratie verzonden omdat batchtaken nog steeds zijn ingeschakeld.
+
+- Gebruikers kunnen zijn ingeschakeld voordat beheerders de opruimacties na vernieuwen kunnen uitvoeren.
 
 Bovendien worden de volgende statuswaarden gewijzigd wanneer u een exemplaar kopieert:
 
@@ -108,6 +116,35 @@ Bovendien worden de volgende statuswaarden gewijzigd wanneer u een exemplaar kop
 
 ## <a name="environment-admin"></a>Omgevingsbeheerder
 
-Alle gebruikers in de sandbox-doelomgeving, inclusief beheerders, worden vervangen door de gebruikers van de bronomgeving. Voordat u een exemplaar kopieert, moet u controleren of u een beheerder bent in de bronomgeving. Als u dat niet bent, kunt u zich niet aanmelden bij de sandbox-doelomgeving nadat de kopie is voltooid.
+Alle gebruikers in de sandbox-doelomgeving, inclusief beheerders, worden vervangen door de gebruikers van de bronomgeving. Voordat u een exemplaar kopieert, moet u controleren of u een beheerder bent in de bronomgeving. Als u nog niet bij de sandbox-doelomgeving bent aangemeld, kunt u dat doen nadat de kopie is voltooid.
 
 Alle gebruikers die geen beheerder zijn in de sandbox-doelomgeving, zijn uitgeschakeld om ongewenste aanmeldingen in de sandbox-omgeving te voorkomen. Beheerders kunnen gebruikers zo nodig opnieuw inschakelen.
+
+## <a name="apply-custom-fields-to-common-data-service"></a>Aangepaste velden toepassen op Common Data Service
+
+Als u een exemplaar in uw sandbox-omgeving kopieert en u de sandbox-omgeving wilt integreren met Common Data Service, moet u aangepaste velden opnieuw toepassen op Common Data Service-entiteiten.
+
+Voer de volgende stappen uit voor elk aangepast veld dat wordt weergegeven in Common Data Service-entiteiten:
+
+1. Ga naar het aangepaste veld en selecteer **Bewerken**.
+
+2. Schakel het selectievakje **Ingeschakeld** uit voor elke cdm_*-entiteit waarvoor het aangepaste veld is ingeschakeld.
+
+3. Selecteer **Wijzigingen toepassen**.
+
+4. Selecteer opnieuw **Bewerken**.
+
+5. Schakel het selectievakje **Ingeschakeld** in voor elke cdm_*-entiteit waarvoor het aangepaste veld is uitgeschakeld.
+
+6. Selecteer opnieuw **Wijzigingen toepassen**.
+
+Door het proces van uitschakelen, wijzigingen toepassen, opnieuw inschakelen en wijzigingen weer toepassen, wordt het schema in Common Data Service bijgewerkt met de aangepaste velden.
+
+Meer informatie over aangepaste velden vindt u in [Aangepaste velden maken en gebruiken](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+
+## <a name="see-also"></a>Zie ook
+
+[Human resources inrichten](hr-admin-setup-provision.md)</br>
+[Een exemplaar verwijderen](hr-admin-setup-remove-instance.md)</br>
+[Het updateproces](hr-admin-setup-update-process.md)
+

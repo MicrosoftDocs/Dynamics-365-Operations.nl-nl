@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429054"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712154"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Verlof- en verzuimplannen toerekenen
 
@@ -37,7 +37,9 @@ U kunt verlof en verzuim toerekenen in Dynamics 365 Human Resources voor meerder
 
 3. Het dialoogvenster **Verlof- en verzuimplannen toerekenen** wordt weergegeven. Selecteer bij **Toerekenen vanaf** **Datum van vandaag** of **Aangepaste datum** en voer een aangepaste datum in.
 
-4. Als u het toerekeningsprocedure op de achtergrond wilt uitvoeren, selecteert u **Uitvoeren op de achtergrond** en voert u de volgende taken uit:
+4. Als u transitorische posten voor alle bedrijven wilt uitvoeren, selecteert u **Alle bedrijven**. Als u transitorische posten voor één verlofplan wilt verwerken, selecteert u **Nee** voor **Alle plannen** en selecteert u vervolgens een **Verlofplan**. Als u alle bedrijven selecteert, kunt u geen afzonderlijk verlofplan selecteren. 
+
+5. Als u het toerekeningsprocedure op de achtergrond wilt uitvoeren, selecteert u **Uitvoeren op de achtergrond** en voert u de volgende taken uit:
 
    1. Informatie over het toerekeningsproces invoeren.
 
@@ -55,7 +57,9 @@ U kunt verlof en verzuim toerekenen in Dynamics 365 Human Resources voor meerder
 
 3. Het dialoogvenster **Verlof- en verzuimplannen toerekenen** wordt weergegeven. Selecteer bij **Toerekenen vanaf** **Datum van vandaag** of **Aangepaste datum** en voer een aangepaste datum in.
 
-4. Als u het toerekeningsprocedure op de achtergrond wilt uitvoeren, selecteert u **Uitvoeren op de achtergrond** en voert u de volgende taken uit:
+4. Als u transitorische posten voor alle bedrijven wilt uitvoeren, selecteert u **Alle bedrijven**. Als u transitorische posten voor één verlofplan wilt verwerken, selecteert u **Nee** voor **Alle plannen** en selecteert u vervolgens een **Verlofplan**. Als u alle bedrijven selecteert, kunt u geen afzonderlijk verlofplan selecteren. 
+
+5. Als u het toerekeningsprocedure op de achtergrond wilt uitvoeren, selecteert u **Uitvoeren op de achtergrond** en voert u de volgende taken uit:
 
    1. Informatie over het toerekeningsproces invoeren.
 
@@ -102,18 +106,6 @@ Opbouwrecords voor een specifiek plan en datumbereik verwijderen. Toerekeningsda
 1. Selecteer op de pagina **Verlof en verzuim** het tabblad **Koppelingen**.
 
 2. Selecteer onder **Verlof beheren** de optie **Controle van toerekening van verlof verwijderen**.
-
-## <a name="configure-preview-features"></a>Voorbeeldfuncties configureren
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-Als u de voorbeeldfuncties voor verlof en verzuim hebt ingeschakeld, moet u ook de instellingen hiervoor configureren.
-
-### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Verlof per bedrijf of per verlofplan toerekenen
-
-Bij het toerekenen van verlof- en verzuimplannen kunt u ervoor kiezen om voor alle bedrijven toe te rekenen. Als u alle bedrijven kiest, kunt u geen afzonderlijke verlofplannen selecteren. Als u ervoor kiest om niet toe te rekenen voor alle bedrijven, kunt u toerekenen voor een specifiek verlofplan. 
-
-Deze opties zijn beschikbaar wanneer u toerekent voor alle werknemers of voor afzonderlijke werknemers. 
 
 ## <a name="see-also"></a>Zie ook
 

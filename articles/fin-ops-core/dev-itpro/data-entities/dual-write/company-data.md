@@ -3,7 +3,7 @@ title: Bedrijfsconcept in Common Data Service
 description: In dit onderwerp wordt de integratie van bedrijfsgegevens tussen Finance and Operations en Common Data Service beschreven.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172895"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728408"
 ---
 # <a name="company-concept-in-common-data-service"></a>Bedrijfsconcept in Common Data Service
 
@@ -72,3 +72,32 @@ Common Data Service-integratie bewerkstelligt bedrijfspariteit door een bedrijfs
 + De waarde voor records wordt alleen-lezen nadat een bedrijf is toegevoegd en opgeslagen. Dat betekent dat gebruikers ervoor moeten zorgen dat ze het juiste bedrijf selecteren.
 + Alleen records met bedrijfsgegevens komen in aanmerking voor Twee keer wegschrijven tussen de toepassing en Common Data Service.
 + Voor bestaande Common Data Service-gegevens zal binnenkort een door de beheerder geleide bootstrap-ervaring beschikbaar zijn.
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>Bedrijfsnaam automatisch invullen in Customer Engagement-apps
+
+Er zijn verschillende manieren waarop u de bedrijfsnaam in Customer Engagement-apps automatisch kunt laten invullen.
+
++ Als u een systeembeheerder bent, kunt u het standaardbedrijf instellen door te navigeren naar **Geavanceerde instellingen > Systeem > Beveiliging > Gebruikers**. Open het formulier **Gebruikers** en stel in de sectie **Organisatiegegevens** de waarde van **Standaardbedrijf in formulieren** in.
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Sectie Standaardbedrijf instellen in Organisatiegegevens.":::
+
++ Als u **schrijf**toegang hebt tot de entiteit **SystemUser** op het niveau van **Bedrijfseenheid**, kunt u het standaardbedrijf op elk willekeurig formulier wijzigen door een bedrijf te selecteren in de vervolgkeuzelijst **Bedrijf**.
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="De bedrijfsnaam wijzigen voor een nieuw account.":::
+
++ Als u **schrijf**toegang hebt tot gegevens in meerdere bedrijven, kunt u het standaardbedrijf wijzigen door een record te kiezen die tot een ander bedrijf behoort.
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Als u een record kiest, wordt het standaardbedrijf gewijzigd.":::
+
++ Als u een systeemconfigurator of -beheerder bent en u de bedrijfsgegevens in een aangepast formulier automatisch wilt laten invullen, dan kunt u [formuliergebeurtenissen](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) gebruiken. Voeg een JavaScript-verwijzing toe aan **msdyn_/DefaultCompany.js** en gebruik de volgende gebeurtenissen. U kunt elk kant-en-klaar formulier gebruiken, bijvoorbeeld het formulier **Account**.
+
+    + **OnLoad**-gebeurtenissen voor het formulier: stel het veld **defaultCompany** in.
+    + **OnChange**-gebeurtenis voor het veld **Bedrijf**: stel het veld **updateDefaultCompany** in.
+
+## <a name="apply-filtering-based-on-the-company-context"></a>Filters toepassen op basis van de bedrijfscontext
+
+Als u filters op basis van de bedrijfscontext wilt toepassen op uw aangepaste formulieren of op aangepaste opzoekvelden die zijn toegevoegd aan de standaardformulieren, open dan het formulier en gebruik de sectie **Gerelateerde records filteren** om het bedrijfsfilter toe te passen. U moet dit instellen voor elk opzoekveld dat een filter op basis van het onderliggende bedrijf voor een bepaalde record vereist. In de volgende afbeelding wordt de instelling weergegeven voor **Account**.
+
+:::image type="content" source="media/apply-company-context.png" alt-text="Bedrijfscontext toepassen":::
+

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208453"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699531"
 ---
 # <a name="hazardous-materials"></a>Gevaarlijke materialen
 
@@ -35,7 +35,7 @@ Informatie over gevaarlijke materialen wordt ingesteld in Productgegevensbeheer.
 Wanneer u materialen verzendt die zijn geclassificeerd als gevaarlijke goederen, moeten extra documenten bij de zendingen worden gevoegd. Met de functionaliteit voor gevaarlijke materialen kunnen klanten classificatiegegevens opslaan en deze relateren aan vrijgaveartikelen. Deze informatie kan vervolgens worden gebruikt om verzenddocumentatie voor te bereiden.
 
 > [!IMPORTANT]
-> Voor het beheren van zendingen van gevaarlijke goederen kunt u met Microsoft Dynamics 365 Supply Chain Management aanvullende verwijzingsgegevens instellen die betrekking hebben op producten. U kunt ook extra verzendingsdocumenten instellen. Het systeem voldoet echter niet automatisch aan de voorschriften van uw land of regio. In plaats daarvan is het een hulpprogramma dat uw algehele programma kan ondersteunen.
+> De functies voor gevaarlijke stoffen in Microsoft Dynamics 365 Supply Chain Management bevatten een verzameling nuttige productgegevensvelden en gerelateerde functies die u kunnen helpen bij het registreren van en verwijzen naar informatie met betrekking tot uw gevaarlijke producten. Deze functies kunnen u ook helpen bij het ontwerpen en afdrukken van vervoersdocumenten met dezelfde informatie over gevaarlijke stoffen die u verzendt. Het gebruik van dit systeem betekent echter niet dat u automatisch voldoet aan alle toepasselijke voorschriften uw land of regio. Hoewel deze hulpmiddelen zijn bedoeld om u te helpen te voldoen aan algemene regelgeving, zijn ze niet voldoende en geven ze geen garanties. Uw organisatie is moet er zelf voor zorgen dat men op de hoogte is van alle toepasselijke regelgeving en dat alle nodige maatregelen worden genomen om daaraan te voldoen.
 
 Voordat u deze functionaliteit kunt gebruiken, moet u de volgende instellingen opgeven:
 

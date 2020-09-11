@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699364"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710254"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Klantorders in Modern POS (MPOS)
 
@@ -54,7 +54,10 @@ Hierna vindt u enkele parameters die kunnen worden ingesteld op de pagina **Comm
     - Kosten worden toegepast op het niveau van de verkooporderkoptekst en wanneer een bepaalde hoeveelheid van een productregel wordt geretourneerd, kan de maximale restitutie van verzendkosten die is toegestaan voor de producten en de hoeveelheid, niet worden bepaald op een manier die werkt voor alle klanten.
     - Verzendkosten worden voor elke verzending gemaakt. Als een klant producten meerdere keren retourneert en de detailhandelaar volgens het detailhandelaarsbeleid de kosten van gerestitueerde verzendkosten voor rekening neemt, zijn de gerestitueerde verzendkosten hoger dan de werkelijke verzendkosten.
     
-- **Btw-berekeningsgedrag** - **Opnieuw berekenen** is de standaardwaarde en de traditionele instelling voor de manier waarop btw wordt herberekend wanneer de order wordt geïmporteerd in het back-office. Met **Niet opnieuw berekenen** wordt de btw niet opnieuw berekend tot of tenzij de order wordt bewerkt in het back-office, wanneer de herberekening wordt geactiveerd. 
+
+## <a name="disable-option-to-pay-later"></a>Optie voor achteraf betalen uitschakelen
+
+In Commerce versie 10.0.12 en hoger kunnen handelaars de optie om achteraf te betalen uitschakelen wanneer een klantorder is gemaakt op het POS. U schakelt de optie om achteraf te betalen uit door het **functionaliteitsprofiel** te openen voor het kanaal waarin achteraf betalen niet is toegestaan, en **Bewerken** te selecteren. Selecteer op het tabblad **Algemeen** de vervolgkeuzelijst voor **Betaling voor afhandeling vereisen**. Als achteraf betalen niet mag worden toegestaan op het POS, selecteert u **Kaart vereist** en vervolgens **Opslaan**. Voer de distributieplanning **1070** uit om deze wijziging te synchroniseren naar het kanaal. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Transactiestroom voor klantorders
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443890"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719259"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect naar contant geld in twee keer wegschrijven
 
@@ -79,7 +79,7 @@ Als u ook de Field Service-oplossing gebruikt, moet u de parameter **Snel offert
 
 Verkooporders kunnen worden gemaakt in Sales of Supply Chain Management. Als u een verkooporder maakt in Sales, wordt deze in realtime gesynchroniseerd met Supply Chain Management. Als u een verkooporder maakt in Supply Chain Management, wordt deze in realtime gesynchroniseerd met Sales. Let op de volgende punten:
 
-+ U kunt orders alleen activeren en synchroniseren vanuit Sales als alle producten op de order afkomstig zijn uit Finance and Operations-apps. Er kunnen dus geen toe te voegen producten zijn.
++ Ad-hoc-producten in Dynamics 365 Sales worden weergegeven als productcategorieën in Dynamics 365 Supply Chain Management.
 + Berekening en afronding van korting:
 
     - Het model voor het berekenen van korting in Sales wijkt af van het model voor het berekenen van korting in Supply Chain Management. In Supply Chain Management kan het uiteindelijke kortingsbedrag op een verkoopregel het resultaat zijn van een combinatie van kortingsbedragen en -percentages. Als dit uiteindelijke kortingsbedrag wordt gedeeld door de hoeveelheid op de regel, kan er afronding plaatsvinden. Deze afronding wordt echter niet gebruikt als een afgerond kortingsbedrag per eenheid wordt gesynchroniseerd naar Sales. Het volledige kortingsbedrag op een verkoopregel in Supply Chain Management kan alleen correct worden gesynchroniseerd naar Sales als het volledige bedrag wordt gesynchroniseerd, zonder het te delen door de regelhoeveelheid. Daarom moet u in Sales de berekeningsmethode voor de korting instellen op **Regelartikel**.
