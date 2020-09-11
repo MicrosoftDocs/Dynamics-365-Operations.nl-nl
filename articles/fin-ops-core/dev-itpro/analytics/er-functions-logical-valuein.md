@@ -3,7 +3,7 @@ title: De ER-functie VALUEIN
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) VALUEIN.
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041694"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705114"
 ---
-# <a name="VALUEIN">De ER-functie VALUEIN</a>
+# <a name=""></a><a name="VALUEIN">De ER-functie VALUEIN</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ De resulterende *Booleaanse* waarde.
 
 ## <a name="usage-notes"></a>Gebruiksaanwijzingen
 
-In het algemeen wordt de functie `VALUEIN` omgezet in een reeks **OF**-voorwaarden.
+In het algemeen wordt de functie `VALUEIN` omgezet in een reeks **OF**-voorwaarden. Als de lijst met **OR**-voorwaarden groot is en de maximale totale lengte van een SQL-instructie mogelijk wordt overschreden, kunt u de functie [`VALUEINLARGE`](er-functions-logical-valueinlarge.md) gebruiken.
 
 ```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
@@ -77,13 +77,13 @@ Wanneer een gegevensbron wordt aangeroepen die is geconfigureerd als de expressi
 
 De bovengrens voor het aantal tekens in de tekst van een dergelijke voorwaarde is 32.768 tekens. Daarom moet u geen gegevensbronnen maken die deze limiet tijdens de uitvoering mogelijk overschrijden. Als de limiet wordt overschreden, stopt de uitvoering van de toepassing en treedt een uitzondering op. Deze situatie kan zich bijvoorbeeld voordoen als de gegevensbron is geconfigureerd als `WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)` en de lijsten **List1** en **List2** een groot aantal records bevatten.
 
-In sommige gevallen moet de functie `VALUEIN` worden omgezet in een database-instructie met behulp van de operator `EXISTS JOIN`. Dit probleem treedt op wanneer de functie [FILTER](er-functions-list-filter.md) wordt gebruikt en aan de volgende voorwaarden wordt voldaan:
+In sommige gevallen moet de functie `VALUEIN` worden omgezet in een database-instructie met behulp van de operator `EXISTS JOIN`. Dit probleem treedt op wanneer de functie [`FILTER`](er-functions-list-filter.md) wordt gebruikt en aan de volgende voorwaarden wordt voldaan:
 
 - De optie **VRAGEN OM QUERY** is uitgeschakeld voor de gegevensbron van de functie `VALUEIN` die naar de lijst met records verwijst. Er worden tijdens de uitvoering geen extra voorwaarden op deze gegevensbron toegepast.
 - Er worden geen geneste expressies geconfigureerd voor de gegevensbron van de functie `VALUEIN` die naar de lijst met records verwijst.
 - Een item in de lijst van de functie `VALUEIN` verwijst naar een veld van de opgegeven gegevensbron, niet een expressie of een methode van die gegevensbron.
 
-Overweeg deze optie te gebruiken in plaats van de functie [WHERE](er-functions-list-where.md), die eerder in dit voorbeeld wordt beschreven.
+Overweeg deze optie te gebruiken in plaats van de functie [`WHERE`](er-functions-list-where.md), die eerder in dit voorbeeld is beschreven.
 
 ## <a name="example-2"></a>Voorbeeld 2
 
@@ -115,6 +115,8 @@ Wanneer een gegevensbron wordt aangeroepen die is geconfigureerd als de expressi
 Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 ```
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Logische functies](er-functions-category-logical.md)
+
+[VALUEINLARGE-functies](er-functions-logical-valueinlarge.md)

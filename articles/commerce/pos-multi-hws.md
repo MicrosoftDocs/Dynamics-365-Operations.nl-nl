@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 41b0faa7ef24bdae229f7e6760d22357cb87eb0d
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658353"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719209"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Speciale betalingsterminals en -prompts voor een printer en kassalade
 
@@ -78,8 +78,8 @@ Voer de volgende stappen uit om het hardwareprofiel in te stellen dat aan de kas
 
     | Apparaat | Type | Apparaatnaam | Extra gegevens |
     |---|---|---|---|
-    | Printer | Terugval | **Epson** of **Star** | De apparaatnaam is hoofdlettergevoelig. De **id van het ontvangstbewijsprofiel** moet gelijk zijn aan de **id van het ontvangstbewijsprofiel** die is toegewezen aan de netwerkprinter die is ingesteld in het hardwareprofiel dat is toegewezen aan het hardwarestation op kanaalniveau. |
-    | Kassalade | Terugval | **Epson** of **Star** | De apparaatnaam is hoofdlettergevoelig. Stel de optie **Gebruik van gedeelde ploeg toestaan** in op **Ja**. |
+    | Printer | Terugval | *Alle* | De apparaatnaam is hoofdlettergevoelig. De **id van het ontvangstbewijsprofiel** moet gelijk zijn aan de **id van het ontvangstbewijsprofiel** die is toegewezen aan de netwerkprinter die is ingesteld in het hardwareprofiel dat is toegewezen aan het hardwarestation op kanaalniveau. |
+    | Kassalade | Terugval | *Alle* | De apparaatnaam is hoofdlettergevoelig. Stel de optie **Gebruik van gedeelde ploeg toestaan** in op **Ja**. |
     | EFT-service | Adyen | Niet van toepassing | Raadpleeg [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3) voor informatie over het configureren van de kant-en-klare Adyen-betalingsconnector. Andere betalingsconnectors kunnen worden ondersteund via de [Commerce-SDK voor betalingen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
     | Pinapparaat | Netwerk | **MicrosoftAdyenDeviceV001** | Geen. |
 
@@ -103,7 +103,7 @@ Voer de volgende stappen uit om het hardwareprofiel in te stellen dat wordt gebr
     | Apparaat | Type | Omschrijving | Extra gegevens |
     |---|---|---|---|
     | Printer | Netwerk | **Epson** of **Star** | De apparaatnaam is hoofdlettergevoelig. De **id van het ontvangstbewijsprofiel** moet gelijk zijn aan de **id van het ontvangstbewijsprofiel** die is toegewezen aan de printer die is ingesteld in het hardwareprofiel dat is toegewezen aan de kassa. |
-    | Kassalade | Terugval | **Epson** of **Star** | De apparaatnaam is hoofdlettergevoelig. Stel de optie **Gebruik van gedeelde ploeg toestaan** in op **Ja**. |
+    | Kassalade | Netwerk | **Epson** of **Star** | De apparaatnaam is hoofdlettergevoelig. Stel de optie **Gebruik van gedeelde ploeg toestaan** in op **Ja**. |
 
 5. Selecteer **Opslaan**.
 

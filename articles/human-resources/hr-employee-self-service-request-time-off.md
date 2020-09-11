@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f4c2d082ebe7f97d5c649c38d2462a3c011aa0e7
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429584"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712347"
 ---
 # <a name="request-time-off"></a>Vrije tijd aanvragen
 
@@ -44,8 +44,6 @@ U kunt aanvragen voor vrije tijd indienen, uw vakantie- en verlofsaldi weergeven
 6. Selecteer **Indienen** wanneer u gereed bent om uw aanvraag in te dienen. Selecteer anders **Concept opslaan**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Een bijlage toevoegen aan een bestaande aanvraag
-
-[!include [banner](includes/preview-feature.md)]
 
 Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U kunt ook alle gerelateerde aanvragen voor een bepaalde datum weergeven. 
 

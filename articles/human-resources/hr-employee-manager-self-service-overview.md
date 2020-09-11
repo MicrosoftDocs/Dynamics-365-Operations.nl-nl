@@ -3,7 +3,7 @@ title: Overzicht van Selfservice werknemer en Selfservice manager
 description: Dit artikel bevat een overzicht van de werkgebieden Selfservice werknemer en Selfservice manage.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5934b6a1a1a8aa30aa18d9be26845c84acfa2fd0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429791"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712227"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Overzicht van Selfservice werknemer en Selfservice manager
 
@@ -32,6 +32,25 @@ Dit artikel bevat een overzicht van de werkgebieden Selfservice werknemer en Sel
 ## <a name="edit-personal-details"></a>Persoonlijke gegevens bewerken
 
 Zie [Persoonlijke gegevens bewerken](hr-employee-manager-self-service-edit-personal-information.md) als u persoonlijke gegevens wilt toevoegen of wijzigen.
+
+## <a name="user-not-assigned-to-a-worker-record"></a>Gebruiker is niet toegewezen aan een medewerkersrecord
+
+Als u de gebruiker op de pagina **Gebruikers** niet aan een **Medewerker**srecord hebt gekoppeld, wordt het volgende bericht weergegeven:
+
+**Uw gebruikers-id is niet gekoppeld aan uw werknemerregistratie in het systeem. U kunt uw gegevens niet weergeven of bijwerken tot dit wel is gekoppeld. Neem contact op met uw manager of ondersteuningsteam voor assistentie.**
+
+Als u een gebruiker aan een **Medewerker**srecord wilt koppelen, gaat u naar **Gebruikers** en selecteert u de gebruiker. Selecteer **Bewerken**, voeg de bijbehorende medewerker toe aan het veld **Persoon** op het formulier en selecteer **Opslaan**. U zou nu toegang moeten hebben tot selfservice voor werknemers.
+
+## <a name="security-requirements-for-employee-and-manager-self-service"></a>Beveiligingsvereisten voor Selfservice voor werknemers en manager
+
+Voor Selfservice voor werknemers en manager zijn twee beveiligingsrollen vereist:
+
+- Werknemers hebben de rol van Werknemer nodig.
+- Managers hebben zowel de rol van Werknemer als van Manager nodig.
+
+>[!NOTE]
+>U kunt aangepaste rollen ook gebruiken voor toegang tot de Selfservice voor werknemers en managers zolang deze toegang hebben tot werkruimten voor werknemer en manager.<br>
+>De toegang van een manager tot werknemersgegevens is gebaseerd op de huidige positieregelhiërarchie die is gedefinieerd in Human Resources.
 
 ## <a name="employee-self-service"></a>Selfservice werknemer
 

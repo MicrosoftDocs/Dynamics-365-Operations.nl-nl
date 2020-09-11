@@ -3,7 +3,7 @@ title: Productaanbevelingen inschakelen
 description: In dit onderwerp wordt uitgelegd hoe u productaanbevelingen kunt doen op basis van kunstmatige intelligentie-machine learning (AI-ML) die beschikbaar is voor klanten van Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665021"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700837"
 ---
 # <a name="enable-product-recommendations"></a>Productaanbevelingen inschakelen
 
@@ -65,11 +65,13 @@ De pagina opslaan en sluiten
 
 Volg deze stappen om productaanbevelingen in te schakelen.
 
-1. Ga naar **Retail en Commerce &gt; Productaanbevelingen &gt; Aanbevelingsparameters**.
-1. Selecteer **Aanbevelingslijsten** in de lijst met gedeelde parameters.
-1. Stel de optie **Aanbevelingen inschakelen** in op **Ja**.
+1. Zoek in Commerce-hoofdkantoren naar **Functiebeheer**.
+1. Selecteer **Alles** om een lijst met beschikbare functies weer te geven. 
+1. Typ **Aanbevelingen** in het zoekvak.
+1. Selecteer de functie **Productaanbevelingen**.
+1. Selecteer in het eigenschappenvenster **Productaanbevelingen** de optie **Nu inschakelen**.
 
-![Aanbevelingen inschakelen](./media/enablepersonalization.png)
+![Aanbevelingen inschakelen](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Met deze procedure start u het genereren van lijsten voor productaanbevelingen. Het kan enkele uren duren voordat de lijsten beschikbaar zijn en kunnen worden weergegeven op het verkooppunt (POS) of in Dynamics 365 Commerce.

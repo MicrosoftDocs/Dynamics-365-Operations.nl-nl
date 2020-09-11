@@ -3,7 +3,7 @@ title: Garantieovereenkomsten
 description: In dit onderwerp worden garantieovereenkomsten in Activabeheer uitgelegd.
 author: josaw1
 manager: tfehr
-ms.date: 08/30/2019
+ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e9cbb9068101f3004179f338da18af0369190807
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f049165fd12dfae672293e0c30ddb186ad3ed12c
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215373"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719233"
 ---
 # <a name="warranty-agreements"></a>Garantieovereenkomsten
 
@@ -42,12 +42,12 @@ Een garantieovereenkomst kan meerdere overeenkomstregels bevatten om de garantie
 
 1. Selecteer **Activabeheer** \> **Instellen** \> **Activa** \> **Garantie**.
 2. Selecteer **Nieuw** om een product te maken.
-3. Voer in het veld **Garantie** een garantie-id in.
+3. Voer in het veld **Garantie** een garantie-id in. 
 4. Voer in het veld **Naam** een beschrijving in.
 
     Het Sneltabblad **Details** geeft het veld **Activa** het aantal actieve activa weer dat de garantieovereenkomst gebruikt.
 
-5. Voer op de Sneltabbladen **Urengarantie** en **Artikelgarantie** de volgende stappen uit om regels toe te voegen die moeten worden opgenomen in een garantieovereenkomst die betrekking heeft op uren of artikelen:
+5. Voer op het sneltabblad **Garantieregels** de volgende stappen uit om regels toe te voegen die moeten worden opgenomen in een garantieovereenkomst:
 
     1. Selecteer **Regel toevoegen** om een nieuwe voorwaarde toe te voegen aan de groep. In het veld **Regel** wordt automatisch een volgnummer voor de regel ingevoerd.
     2. Selecteer in het veld **Periode** het type garantieperiode.

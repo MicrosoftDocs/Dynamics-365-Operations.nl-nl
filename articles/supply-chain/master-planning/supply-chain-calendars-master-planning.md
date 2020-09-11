@@ -3,7 +3,7 @@ title: Kalenders en hoofdplanning
 description: Dit onderwerp biedt een overzicht van toeleveringskalenders en hoe deze de hoofdplanning beïnvloeden.
 author: t-benebo
 manager: tfehr
-ms.date: 05/08/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 373af2e7bdcbf6860f21e049403fdf174d5e8ca7
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213487"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710328"
 ---
 # <a name="calendars-and-master-planning"></a>Kalenders en hoofdplanning
 
@@ -105,28 +105,28 @@ De orderdatum in een geplande inkooporder geeft de datum aam waarop de order is 
 
 ### <a name="delivery-date-of-a-planned-purchase-order"></a>Leveringsdatum van een geplande inkooporder
 De ontvangstdatum van een inkoop geeft de datum aan waarop u de goederen ontvangt. Dit is een open datum in de kalender. De kalender die in aanmerking worden genomen om aan te geven op welke dagen de inkooporders kunnen worden ontvangen, zijn de volgende, op volgorde van hoogste naar laagste prioriteit: 
-    1. Kalender van leverancier
-    2. Kalender van behoefteplanningsgroep
-    3. Magazijnkalender voor het ontvangende magazijn
+1. Kalender van leverancier
+1. Kalender van behoefteplanningsgroep
+1. Magazijnkalender voor het ontvangende magazijn
 
 Houd er rekening mee dat de kalender van de behoefteplanningsgroep kan worden ingesteld op verschillende pagina's en prioriteit heeft in deze volgorde:
-    1. Artikelbehoefteplanningsgroep op de pagina **Details van vrijgegeven producten**
-    2. Artikelbehoefteplanningsgroep op de pagina **Artikelbehoefteplanning**
-    3. Standaard artikelbehoefteplanningsgroep in **Parameters hoofdplanning**
+1. Artikelbehoefteplanningsgroep op de pagina **Artikelbehoefteplanning**
+1. Artikelbehoefteplanningsgroep op de pagina **Details van vrijgegeven producten**
+1. Standaard artikelbehoefteplanningsgroep in **Parameters hoofdplanning**
 
 ### <a name="shipping-date-of-a-planned-transfer-order"></a>Verzenddatum van een geplande transferorder
 Bij het maken van een transferorder tussen twee magazijnen worden de verzenddatum en de ontvangstdatum opgenomen in de transferorderkop, samen met het 'Van'-magazijn en het 'Naar'-magazijn. Het verschil tussen deze twee datums is de verwachte transporttijd (in dagen) tussen de magazijnen.
 
 De verzenddatum van een geplande transferorder geeft de datum aan waarop de goederen worden verzonden vanuit het 'Van'-magazijn. De kalenders die worden gebruikt voor het opgeven van de beschikbare verzenddatum, worden op prioriteit weergegeven: 
-    1. Magazijnkalender van het 'Van'-magazijn
-    2. Behoefteplanningsgroepskalender (zie terugvalorder voor deze kalender hierboven); als er een magazijnkalenderset is, is de verzenddatum een open datum in de kalender. Als er geen magazijnkalender is, wordt de kalender van de behoefteplanningsgroep gebruikt. 
+1. Magazijnkalender van het 'Van'-magazijn
+1. Behoefteplanningsgroepskalender (zie terugvalorder voor deze kalender hierboven); als er een magazijnkalenderset is, is de verzenddatum een open datum in de kalender. Als er geen magazijnkalender is, wordt de kalender van de behoefteplanningsgroep gebruikt. 
 
 ### <a name="receipt-date-of-a-planned-transfer-order"></a>Ontvangstdatum van een geplande transferorder
 De ontvangstdatum van een transferorder geeft de datum aan waarop de goederen worden ontvangen in het 'Naar'-magazijn.
 
 De kalenders die worden gebruikt voor het opgeven van de ontvangstdatum, worden op prioriteit weergegeven: 
-    1. Kalender van behoefteplanningsgroep 
-    2. Magazijnkalender van het 'Naar'-magazijn; als er een behoefteplanningskalenderset is, is de ontvangstdatum een open datum in de kalender. Als er geen behoefteplanningsgroepskalender is, wordt de magazijnkalender gebruikt. 
+1. Kalender van behoefteplanningsgroep 
+1. Magazijnkalender van het 'Naar'-magazijn; als er een behoefteplanningskalenderset is, is de ontvangstdatum een open datum in de kalender. Als er geen behoefteplanningsgroepskalender is, wordt de magazijnkalender gebruikt. 
 
 Wanneer de verzend- en ontvangstdatum voor de geplande transfer wordt gezocht, wordt ook rekening gehouden met de marges die door de gebruiker zijn ingesteld voor verzending en ontvangst. 
 
