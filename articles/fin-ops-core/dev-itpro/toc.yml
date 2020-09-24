@@ -14,15 +14,15 @@
               items:
                 - name: Startpagina van nieuwe of gewijzigde functies in Platform-updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform-updates voor 10.0.14 (november 2020)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platform-updates voor 10.0.13 (oktober 2020)
                   href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: Platform updates voor 10.0.12 (augustus 2020)
+                - name: Platform-updates voor 10.0.12 (augustus 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: Platform updates voor 10.0.11 (juli 2020)
-                  href: get-started/whats-new-platform-update-35.md
             - name: Verwijderde of afgeschafte functies
               items:
-                - name: Verwijderde of afgeschafte platform-functies
+                - name: Verwijderde of afgeschafte Platform-functies
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Verwijderde of afgeschafte functies in eerdere releases
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -606,7 +606,15 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: Versiebeheer voor X++-modellen in Azure Pipelines
                   href: dev-tools/pipeline-model-version.md
-            - name: Voorbeeldtoepassing voor Wagenparkbeheer
+                - name: Activa downloaden met Azure Pipelines
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Activa uploaden met Azure Pipelines
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Activa implementeren met Azure Pipelines
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Een LCS-connector (Lifecycle Services) maken in Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
+            - name: Voorbeeldtoepassing voor wagenparkbeheer
               items:
                 - name: Compleet scenario voor de voorbeeldtoepassing Wagenparkbeheer
                   href: dev-tools/fleet-management-sample.md
