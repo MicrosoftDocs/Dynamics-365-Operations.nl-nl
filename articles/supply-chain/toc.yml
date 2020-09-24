@@ -70,12 +70,12 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.14 (november 2020)
+                      href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (oktober 2020)
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (augustus 2020)
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: Supply Chain Management 10.0.11 (juli 2020)
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
@@ -333,7 +333,7 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: Onderhoudscontrolelijsten
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: Uitvaltijd voor onderhoud
+                - name: Downtime van onderhoud voor werkorders
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: Fout aan werkorder toevoegen
                   href: asset-management/work-orders/add-fault-to-work-order.md
@@ -341,7 +341,7 @@
                   href: asset-management/work-orders/work-order-report.md
                 - name: Werkordergroepen
                   href: asset-management/work-orders/work-order-pools.md
-                - name: Actieve onderhoudstaken voor werkorder
+                - name: Actieve onderhoudstaken voor werkorders
                   href: asset-management/work-orders/active-work-order-jobs-overview.md
                 - name: Werkorders en vaste activa
                   href: asset-management/work-orders/work-orders-and-fixed-assets.md
@@ -367,7 +367,7 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
                 - name: Werkorders maken
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: Uitvaltijd voor onderhoud
+                - name: Activiteiten tijdens uitvaltijd voor onderhoud
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
             - name: Capaciteitsplanning
               items:
@@ -841,7 +841,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Terugboeken
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Splitsen
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/supply-chain/toc.json
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/supply-chain/toc.json
@@ -895,9 +895,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Char
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Samenvoegen
+                        - name: Concatenate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Opmaak
+                        - name: Format
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/supply-chain/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/supply-chain/toc.json
@@ -997,7 +997,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Datum en tijd: DateValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Lijst: Lijst'
+                        - name: 'Lijst: List'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Lijst: ListOfFields'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/supply-chain/toc.json
@@ -1345,8 +1345,6 @@
               items:
                 - name: Overzicht van Planningsoptimalisatie
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Planning met negatieve voorhanden hoeveelheden
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Aan de slag met Planningsoptimalisatie
                   href: master-planning/planning-optimization/get-started.md
                 - name: Analyse aanpassen aan Planningsoptimalisatie
@@ -1355,23 +1353,29 @@
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Hoofdplanning met inkoophandelsovereenkomsten
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Planhistorie en planningslogboeken weergeven
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Veiligheidsmarges
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: Geplande orders goedkeuren
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Automatische fiattering met Planningsoptimalisatie
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Planning met negatieve voorhanden hoeveelheden
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: Planhistorie en planningslogboeken weergeven
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Een planningstaak annuleren
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Uitbreidbaarheid van Planningsoptimalisatie
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: Problemen met Planningsoptimalisatie oplossen
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Uitbreidbaarheid van Planningsoptimalisatie
+                  href: master-planning/planning-optimization/extensibility.md
             - name: Hoofdplannen
               items:
                 - name: Overzicht van Hoofdplannen
                   href: master-planning/master-plans.md
                 - name: Hoofdplannen instellen
                   href: master-planning/master-planning-setup.md
-                - name: Wizard voor instellen van Hoofdplanning
+                - name: Wizard voor instellen van hoofdplanning
                   href: master-planning/master-planning-setup-wizard.md
                 - name: Behoefteplanningsinstellingen
                   href: master-planning/coverage-settings.md
@@ -2621,6 +2625,8 @@
                   items:
                     - name: Clusterverzameling instellen
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Clusterpositie vol
+                      href: warehousing/cluster-position-full.md
                     - name: Door systeem gestuurde clusterverzameling
                       href: warehousing/system-directed-cluster-pick.md
                     - name: Containervorming instellen
