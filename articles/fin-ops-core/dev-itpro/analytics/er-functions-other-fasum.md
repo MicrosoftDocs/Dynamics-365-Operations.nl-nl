@@ -18,53 +18,53 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03bed091350b39601edb22b5af6bda5a83af47eb
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: fccd318a8ab67528f0ce048fc770a2037f625d7a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041349"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744128"
 ---
-# <span data-ttu-id="d8da0-103"><a name="FA_SUM">De ER-functie FA_SUM</a></span><span class="sxs-lookup"><span data-stu-id="d8da0-103"><a name="FA_SUM">FA_SUM ER function</a></span></span>
+# <a name="fa_sum-er-function"></a><span data-ttu-id="106f0-103">De ER-functie FA_SUM</span><span class="sxs-lookup"><span data-stu-id="106f0-103">FA_SUM ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d8da0-104">De functie `FA_SUM` retourneert een waarde van het type *Container (record)* die bestaat uit gegevens voor de vaste-activabedragen voor het opgegeven vaste-activa-artikel, de waardemodelcode en de periode van datums.</span><span class="sxs-lookup"><span data-stu-id="d8da0-104">The `FA_SUM` function returns a *Container (record)* value that consists of data for the fixed asset amounts for the specified fixed asset item, value model code, and period of dates.</span></span>
+<span data-ttu-id="106f0-104">De functie `FA_SUM` retourneert een waarde van het type *Container (record)* die bestaat uit gegevens voor de vaste-activabedragen voor het opgegeven vaste-activa-artikel, de waardemodelcode en de periode van datums.</span><span class="sxs-lookup"><span data-stu-id="106f0-104">The `FA_SUM` function returns a *Container (record)* value that consists of data for the fixed asset amounts for the specified fixed asset item, value model code, and period of dates.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d8da0-105">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="d8da0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="106f0-105">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="106f0-105">Syntax</span></span>
 
 ```vb
 FA_SUM (fixed asset code, value model code, start date, end date)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="d8da0-106">Argumenten</span><span class="sxs-lookup"><span data-stu-id="d8da0-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="106f0-106">Argumenten</span><span class="sxs-lookup"><span data-stu-id="106f0-106">Arguments</span></span>
 
-<span data-ttu-id="d8da0-107">`fixed asset code`: *Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="d8da0-107">`fixed asset code`: *String*</span></span>
+<span data-ttu-id="106f0-107">`fixed asset code`: *Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="106f0-107">`fixed asset code`: *String*</span></span>
 
-<span data-ttu-id="d8da0-108">Een *tekenreekswaarde* die de code vertegenwoordigt van een vaste-activa-artikel waarvoor het saldo wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="d8da0-108">A *String* value that represents the code of a fixed asset item that the balance is calculated for.</span></span>
+<span data-ttu-id="106f0-108">Een *tekenreekswaarde* die de code vertegenwoordigt van een vaste-activa-artikel waarvoor het saldo wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="106f0-108">A *String* value that represents the code of a fixed asset item that the balance is calculated for.</span></span>
 
-<span data-ttu-id="d8da0-109">`value model code`: *Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="d8da0-109">`value model code`: *String*</span></span>
+<span data-ttu-id="106f0-109">`value model code`: *Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="106f0-109">`value model code`: *String*</span></span>
 
-<span data-ttu-id="d8da0-110">Een *tekenreekswaarde* die de code vertegenwoordigt van een waardemodel waarvoor het saldo wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="d8da0-110">A *String* value that represents the code of a value model that the balance is calculated for.</span></span>
+<span data-ttu-id="106f0-110">Een *tekenreekswaarde* die de code vertegenwoordigt van een waardemodel waarvoor het saldo wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="106f0-110">A *String* value that represents the code of a value model that the balance is calculated for.</span></span>
 
-<span data-ttu-id="d8da0-111">`start date`: *Datum*</span><span class="sxs-lookup"><span data-stu-id="d8da0-111">`start date`: *Date*</span></span>
+<span data-ttu-id="106f0-111">`start date`: *Datum*</span><span class="sxs-lookup"><span data-stu-id="106f0-111">`start date`: *Date*</span></span>
 
-<span data-ttu-id="d8da0-112">Een *datumwaarde* die de begindatum vertegenwoordigt van een periode waarvoor de vaste-activabedragen worden berekend.</span><span class="sxs-lookup"><span data-stu-id="d8da0-112">A *Date* value that represents the start date of a period that the fixed asset amounts are calculated for.</span></span>
+<span data-ttu-id="106f0-112">Een *datumwaarde* die de begindatum vertegenwoordigt van een periode waarvoor de vaste-activabedragen worden berekend.</span><span class="sxs-lookup"><span data-stu-id="106f0-112">A *Date* value that represents the start date of a period that the fixed asset amounts are calculated for.</span></span>
 
-<span data-ttu-id="d8da0-113">`end date`: *Datum*</span><span class="sxs-lookup"><span data-stu-id="d8da0-113">`end date`: *Date*</span></span>
+<span data-ttu-id="106f0-113">`end date`: *Datum*</span><span class="sxs-lookup"><span data-stu-id="106f0-113">`end date`: *Date*</span></span>
 
-<span data-ttu-id="d8da0-114">Een *datumwaarde* die de einddatum vertegenwoordigt van een periode waarvoor de vaste-activabedragen worden berekend.</span><span class="sxs-lookup"><span data-stu-id="d8da0-114">A *Date* value that represents the end date of a period that the fixed asset amounts are calculated for.</span></span>
+<span data-ttu-id="106f0-114">Een *datumwaarde* die de einddatum vertegenwoordigt van een periode waarvoor de vaste-activabedragen worden berekend.</span><span class="sxs-lookup"><span data-stu-id="106f0-114">A *Date* value that represents the end date of a period that the fixed asset amounts are calculated for.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="d8da0-115">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="d8da0-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="106f0-115">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="106f0-115">Return values</span></span>
 
-<span data-ttu-id="d8da0-116">*Container (record)*</span><span class="sxs-lookup"><span data-stu-id="d8da0-116">*Container (record)*</span></span>
+<span data-ttu-id="106f0-116">*Container (record)*</span><span class="sxs-lookup"><span data-stu-id="106f0-116">*Container (record)*</span></span>
 
-<span data-ttu-id="d8da0-117">De resulterende recordwaarde.</span><span class="sxs-lookup"><span data-stu-id="d8da0-117">The resulting record value.</span></span>
+<span data-ttu-id="106f0-117">De resulterende recordwaarde.</span><span class="sxs-lookup"><span data-stu-id="106f0-117">The resulting record value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d8da0-118">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="d8da0-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="106f0-118">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="106f0-118">Example</span></span>
 
-<span data-ttu-id="d8da0-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` retourneert de voorbereide gegevenscontainer van het vaste activum **COMP-000001** met het waardemodel **Current** voor een periode van **Date1** tot **Date2**.</span><span class="sxs-lookup"><span data-stu-id="d8da0-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` returns the data container for fixed asset **COMP-000001** that has been prepared for the **Current** value model and for a period from **Date1** to **Date2**.</span></span>
+<span data-ttu-id="106f0-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` retourneert de voorbereide gegevenscontainer van het vaste activum **COMP-000001** met het waardemodel **Current** voor een periode van **Date1** tot **Date2**.</span><span class="sxs-lookup"><span data-stu-id="106f0-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` returns the data container for fixed asset **COMP-000001** that has been prepared for the **Current** value model and for a period from **Date1** to **Date2**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d8da0-120">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="d8da0-120">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="106f0-120">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="106f0-120">Additional resources</span></span>
 
-[<span data-ttu-id="d8da0-121">Andere functies (voor specifiek zakelijk domein)</span><span class="sxs-lookup"><span data-stu-id="d8da0-121">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="106f0-121">Andere functies (voor specifiek zakelijk domein)</span><span class="sxs-lookup"><span data-stu-id="106f0-121">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)

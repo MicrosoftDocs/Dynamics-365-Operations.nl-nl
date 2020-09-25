@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c90772ca1e93500ac45cc52ba92d4169c4d29bad
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: ecbffb7e39d7f2f2bccdfe32d593512a65da163c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042614"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745508"
 ---
-# <span data-ttu-id="7bc2a-103"><a name="VALUE">De ER-functie VALUE</a></span><span class="sxs-lookup"><span data-stu-id="7bc2a-103"><a name="VALUE">VALUE ER function</a></span></span>
+# <a name="value-er-function"></a><span data-ttu-id="dee9e-103">De ER-functie VALUE</span><span class="sxs-lookup"><span data-stu-id="dee9e-103">VALUE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7bc2a-104">De functie `VALUE` retourneert een *werkelijke* waarde die is geconverteerd op basis van de opgegeven tekenreeks.</span><span class="sxs-lookup"><span data-stu-id="7bc2a-104">The `VALUE` function returns a *Real* value that is converted from the specified string.</span></span>
+<span data-ttu-id="dee9e-104">De functie `VALUE` retourneert een *werkelijke* waarde die is geconverteerd op basis van de opgegeven tekenreeks.</span><span class="sxs-lookup"><span data-stu-id="dee9e-104">The `VALUE` function returns a *Real* value that is converted from the specified string.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7bc2a-105">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="7bc2a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dee9e-105">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="dee9e-105">Syntax</span></span>
 
 ```vb
 VALUE (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="7bc2a-106">Argumenten</span><span class="sxs-lookup"><span data-stu-id="7bc2a-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="dee9e-106">Argumenten</span><span class="sxs-lookup"><span data-stu-id="dee9e-106">Arguments</span></span>
 
-<span data-ttu-id="7bc2a-107">`text`: *Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="7bc2a-107">`text`: *String*</span></span>
+<span data-ttu-id="dee9e-107">`text`: *Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="dee9e-107">`text`: *String*</span></span>
 
-<span data-ttu-id="7bc2a-108">Een tekenreekswaarde die moet worden geconverteerd naar een numerieke waarde.</span><span class="sxs-lookup"><span data-stu-id="7bc2a-108">A string value that must be converted to a numeric value.</span></span>
+<span data-ttu-id="dee9e-108">Een tekenreekswaarde die moet worden geconverteerd naar een numerieke waarde.</span><span class="sxs-lookup"><span data-stu-id="dee9e-108">A string value that must be converted to a numeric value.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="7bc2a-109">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="7bc2a-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="dee9e-109">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="dee9e-109">Return values</span></span>
 
-<span data-ttu-id="7bc2a-110">*Real-modus*</span><span class="sxs-lookup"><span data-stu-id="7bc2a-110">*Real*</span></span>
+<span data-ttu-id="dee9e-110">*Real-modus*</span><span class="sxs-lookup"><span data-stu-id="dee9e-110">*Real*</span></span>
 
-<span data-ttu-id="7bc2a-111">De resulterende numerieke waarde.</span><span class="sxs-lookup"><span data-stu-id="7bc2a-111">The resulting numeric value.</span></span>
+<span data-ttu-id="dee9e-111">De resulterende numerieke waarde.</span><span class="sxs-lookup"><span data-stu-id="dee9e-111">The resulting numeric value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="7bc2a-112">Gebruiksaanwijzingen</span><span class="sxs-lookup"><span data-stu-id="7bc2a-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="dee9e-112">Gebruiksaanwijzingen</span><span class="sxs-lookup"><span data-stu-id="dee9e-112">Usage notes</span></span>
 
-<span data-ttu-id="7bc2a-113">De komma's en punttekens (.) worden beschouwd als decimale scheidingstekens en er wordt een koppelteken (-) vooraan gebruikt als minteken.</span><span class="sxs-lookup"><span data-stu-id="7bc2a-113">Commas and dot characters (.) are considered decimal separators, and a leading hyphen (-) is used as a negative sign.</span></span> <span data-ttu-id="7bc2a-114">Tijdens runtime treedt een uitzondering op als andere niet-numerieke tekens worden aangetroffen in de opgegeven tekenreeks.</span><span class="sxs-lookup"><span data-stu-id="7bc2a-114">An exception is thrown at runtime if the specified string contains other non-numeric characters.</span></span>
+<span data-ttu-id="dee9e-113">De komma's en punttekens (.) worden beschouwd als decimale scheidingstekens en er wordt een koppelteken (-) vooraan gebruikt als minteken.</span><span class="sxs-lookup"><span data-stu-id="dee9e-113">Commas and dot characters (.) are considered decimal separators, and a leading hyphen (-) is used as a negative sign.</span></span> <span data-ttu-id="dee9e-114">Tijdens runtime treedt een uitzondering op als andere niet-numerieke tekens worden aangetroffen in de opgegeven tekenreeks.</span><span class="sxs-lookup"><span data-stu-id="dee9e-114">An exception is thrown at runtime if the specified string contains other non-numeric characters.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="7bc2a-115">Voorbeeld 1</span><span class="sxs-lookup"><span data-stu-id="7bc2a-115">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="dee9e-115">Voorbeeld 1</span><span class="sxs-lookup"><span data-stu-id="dee9e-115">Example 1</span></span>
 
-<span data-ttu-id="7bc2a-116">`VALUE ("1 234,56")` leidt tot een uitzondering.</span><span class="sxs-lookup"><span data-stu-id="7bc2a-116">`VALUE ("1 234,56")` throws an exception.</span></span>
+<span data-ttu-id="dee9e-116">`VALUE ("1 234,56")` leidt tot een uitzondering.</span><span class="sxs-lookup"><span data-stu-id="dee9e-116">`VALUE ("1 234,56")` throws an exception.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="7bc2a-117">Voorbeeld 2</span><span class="sxs-lookup"><span data-stu-id="7bc2a-117">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="dee9e-117">Voorbeeld 2</span><span class="sxs-lookup"><span data-stu-id="dee9e-117">Example 2</span></span>
 
-<span data-ttu-id="7bc2a-118">`VALUE ("1234,56")` retourneert **1234,56**.</span><span class="sxs-lookup"><span data-stu-id="7bc2a-118">`VALUE ("1234,56")` returns **1234.56**.</span></span>
+<span data-ttu-id="dee9e-118">`VALUE ("1234,56")` retourneert **1234,56**.</span><span class="sxs-lookup"><span data-stu-id="dee9e-118">`VALUE ("1234,56")` returns **1234.56**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="7bc2a-119">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="7bc2a-119">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="dee9e-119">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="dee9e-119">Additional resources</span></span>
 
-[<span data-ttu-id="7bc2a-120">Type conversiefuncties</span><span class="sxs-lookup"><span data-stu-id="7bc2a-120">Type conversion functions</span></span>](er-functions-category-type-conversion.md)
+[<span data-ttu-id="dee9e-120">Type conversiefuncties</span><span class="sxs-lookup"><span data-stu-id="dee9e-120">Type conversion functions</span></span>](er-functions-category-type-conversion.md)
