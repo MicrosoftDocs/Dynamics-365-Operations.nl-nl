@@ -3,7 +3,7 @@ title: Omgekeerde toeslag
 description: In dit onderwerp wordt uitgelegd hoe u de omgekeerde toeslag instelt voor Europese landen, Saudi-Arabië en Singapore.
 author: epodkolz
 manager: AnnBe
-ms.date: 07/16/2019
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,24 +11,25 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 530ff52abb1dd36c473ae436d61ea925c5696a30
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a58ae689a6185316854bf8f01d1237a487d3981
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183820"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760228"
 ---
 # <a name="reverse-charge-vat"></a>Omgekeerde toeslag
 
-
 [!include [banner](../includes/banner.md)]
 
+In dit onderwerp wordt een generieke aanpak beschreven voor het instellen van de omgekeerde toeslag voor de EU- en GCC-landen en Singapore.
 
-In dit onderwerp wordt een generieke aanpak beschreven voor het instellen van de omgekeerde toeslag voor Saudi-Arabië, Singapore en Europese landen.
+> [!NOTE]                                                                                  
+> Voor Bahrein, Koeweit, Oman en Qatar moet een functie **Beschikbaarheid van terugboeking voor extra landen** worden ingeschakeld in de werkruimte **Functiebeheer**. 
 
 Omgelegde toeslag is een btw-schema dat de verantwoordelijkheid voor de boekhouding en aangifte van btw verlegt van de verkoper naar de koper van goederen en/of diensten. Daarom geven ontvangers van goederen en/of diensten zowel de te betalen btw (in de rol van verkoper) en de te vorderen btw (in de rol van inkoper) in hun btw-aangifte aan.
 
@@ -85,7 +86,7 @@ Op de pagina **Artikelgroepen omgekeerde toeslag** (**Belasting** &gt; **Instell
 Op de pagina **Regels omgekeerde toeslag** (**Belasting** &gt; **Instellen** &gt; **Btw** &gt; **Regels omgekeerde toeslag**) kunt u de toepasbaarheidsregels voor inkoop- en verkoopdoeleinden definiëren. U kunt een set toepasbaarheidsregels voor omgekeerde toeslag configureren. Stel voor elke regel de volgende velden in:
 
 - **Documenttype**: selecteer **Inkooporder**, **Leveranciersfactuurjournaal**, **Verkooporder**, **Vrije-tekstfactuur**, **Klantfactuurjournaal** en/of **Leveranciersfactuur**.
-- **Type land/regio van partner**: selecteer **Binnenlands**, **EU** of **Buitenlands**. U kunt ook **Alle** selecteren als de regel kan worden toegepast op alle handelspartners, ongeacht het land of regio van hun adres.
+- **Type land/regio van partner**: selecteer **Binnenlands**, **EU**, **GCC** of **Buitenlands**. U kunt ook **Alle** selecteren als de regel kan worden toegepast op alle handelspartners, ongeacht het land of regio van hun adres.
 - **Binnenlands afleveradres**: schakel dit selectievakje in als u de regel wilt toepassen op leveringen binnen hetzelfde land of dezelfde regio. Dit selectievakje kan niet worden ingeschakeld voor de documenttypen **Leveranciersfactuurjournaal** en **Klantfactuurjournaal**.
 - **Artikelgroep omgekeerde toeslag**: selecteer de groep waarop de regel kan worden toegepast.
 - **Drempelbedrag** : het schema voor omgekeerde toeslag wordt alleen toegepast op een factuur als de waarde van artikelen en/of diensten die zijn opgenomen in de artikelgroep voor omgekeerde toeslag de limiet overschrijdt die u hier opgeeft.
@@ -98,13 +99,16 @@ U kunt bovendien opgeven of een melding wordt weergegeven en de documentregel wo
 - **Vragen**: er wordt een melding weergegeven om te bevestigen dat de omgekeerde toeslag kan worden toegepast.
 - **Instellen**: de documentregel wordt bijgewerkt zonder aanvullende melding.
 
+## <a name="set-up-countryregion-properties"></a>Land-/regio-eigenschappen instellen
+Stel op de pagina **Parameters buitenlandse handel** (**Belasting** &gt; **Instellen** &gt; **Btw** &gt; **Buitenlandse handel** &gt; **Parameters buitenlandse handel**) op het tabblad **Land-/regio-eigenschappen** het land/de regio van de huidige rechtspersoon in op *Binnenlands*. Stel het **land-/regiotype** van de landen/regio's in de EU die deelnemen aan de EU-handel met de huidige rechtspersoon in op *EU*. Stel het **land-/regiotype** van de landen/regio's in de GCC die deelnemen aan de GCC-handel met de huidige rechtspersoon in op *GCC*.
+
 ## <a name="set-up-default-parameters"></a>Standaardparameters instellen
 Als u de functionaliteit voor omgekeerde toeslag wilt inschakelen, stelt u op de pagina **Grootboekparameters** op het tabblad **Omgekeerde toeslag** de optie **Omgekeerde toeslag inschakelen** in op **Ja**. Selecteer in de velden **Btw-groep van inkooporder** en **Btw-groep van verkooporder** de standaard-btw-groepen in. Wanneer aan een toepasbaarheidsvoorwaarde voor omgekeerde toeslag wordt voldaan, wordt de verkoop- of inkooporderregel bijgewerkt met deze btw-groepen.
 
 ## <a name="reverse-charge-on-a-sales-invoice"></a>Omgekeerde toeslag op een verkoopfactuur
 Voor verkoop op basis van het schema Omgekeerde toeslag brengt de verkoper geen btw in rekening. In plaats daarvan worden op de factuur zowel de artikelen waarop de btw voor omgekeerde toeslag van toepassing is, als het totaalbedrag van de btw voor omgekeerde toeslag aangegeven.
 
-Wanneer een verkoopfactuur met omgekeerde toeslag wordt geboekt, hebben de btw-transacties een btw-richting en nul btw van **Te betalen btw** en is het selectievakje **Omgekeerde toeslag** ingeschakeld.
+Wanneer een verkoopfactuur met omgekeerde toeslag wordt geboekt, hebben de btw-transacties een btw-richting en nul btw van **Te betalen btw** en zijn de selectievakjes **Omgekeerde toeslag** en **Vrijgesteld** ingeschakeld.
 
 ## <a name="reverse-charge-on-a-purchase-invoice"></a>Omgekeerde toeslag op een inkoopfactuur
 Voor inkopen op basis van het schema Omgekeerde toeslag fungeert de inkoper die de factuur met de omgekeerde toeslag ontvangt, als koper en verkoper voor btw-boekhouddoeleinden.

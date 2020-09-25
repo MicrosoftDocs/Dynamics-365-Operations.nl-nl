@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
-ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
+ms.openlocfilehash: 035bf720a892e987ff9fc073ab8ed6f6cc6ea18e
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3740658"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745100"
 ---
-# <a name=""></a><a name="LISTJOIN">De ER-functie LISTJOIN</a>
+# <a name="listjoin-er-function"></a>De ER-functie LISTJOIN
 
 [!include [banner](../includes/banner.md)]
 
@@ -73,11 +73,11 @@ U voert vervolgens gegevensbron **Record 2** van het type `Container` in. Deze g
 
 In dit geval retourneert de expressie `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` een nieuwe lijst die twee records bevat.
 
-![Pagina voor ontwerper van ER-modeltoewijzingen](./media/er-functions-list-listjoin-image2.gif)
+![Pagina voor ontwerper van ER-modeltoewijzingen met twee records](./media/er-functions-list-listjoin-image2.gif)
 
 De structuur van deze lijst bestaat uit één veld **Bedrag** van het type `Real`, omdat dit veld het enige veld is dat in elk argument van de aangeroepen functie wordt weergegeven.
 
-![Pagina voor ontwerper van ER-modeltoewijzingen](./media/er-functions-list-listjoin-image3.gif)
+![Veld voor bedrag op pagina voor ontwerper van ER-modeltoewijzingen](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

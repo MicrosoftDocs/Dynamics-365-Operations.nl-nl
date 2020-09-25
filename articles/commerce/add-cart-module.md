@@ -3,7 +3,7 @@ title: Winkelwagenmodule
 description: In dit onderwerp wordt beschreven wat winkelwagenmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686761"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761124"
 ---
 # <a name="cart-module"></a>Winkelwagenmodule
 
@@ -77,8 +77,8 @@ De winkelwagenmodule haalt productinformatie op met behulp van Commerce Scale Un
 Voer de volgende stappen uit om een winkelwagenmodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
-1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Winkelwagen**.
-1. Voer onder **Naam paginafragment** de naam in voor het **Winkelwagenfragment** en selecteer **OK**.
+1. Selecteer in het dialoogvenster **Nieuw fragment** de module **Winkelwagen**.
+1. Voer onder **Naam fragment** de naam **Winkelwagenfragment** in en selecteer **OK**.
 1. Selecteer het vak **Winkelwagen**.
 1. Selecteer in het venster Eigenschappen rechts het potloodsymbool, voer de koptekst in het veld in en selecteer vervolgens het symbool voor het selectievinkje.
 1. Selecteer het weglatingsteken (**...**) in het vak **Winkelwagen** en selecteer **Module toevoegen**.
@@ -86,8 +86,8 @@ Voer de volgende stappen uit om een winkelwagenmodule aan een nieuwe pagina toe 
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om het fragment te controleren en selecteer **Publiceren** om het te publiceren.
 1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** een naam voor de sjabloon in.
-1. Selecteer in de overzichtsstructuur het vak **Hoofdtekst**, selecteer de knop met het weglatingsteken (**...**) en vervolgens **Paginafragment toevoegen**.
-1. Selecteer in het dialoogvenster **Paginafragment selecteren** het **Winkelwagenfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
+1. Selecteer in de overzichtsstructuur het vak **Hoofdtekst**, selecteer de knop met het weglatingsteken (**...**) en vervolgens **Fragment toevoegen**.
+1. Selecteer in het dialoogvenster **Fragment selecteren** het fragment **Winkelwagenfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
 1. Selecteer in het dialoogvenster **Sjabloon kiezen** de sjabloon die u eerder hebt gemaakt, voer een paginanaam in en selecteer vervolgens **OK**.
