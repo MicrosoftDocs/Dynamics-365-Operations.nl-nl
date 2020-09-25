@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86c8a0ae21ffeb6268efbbd198f7c709c2ad54f6
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e360812c5b0dbfb8df4ab279bf3e0050acebbb25
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042108"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745193"
 ---
-# <span data-ttu-id="b385a-103"><a name="FIRSTORNULL">De ER-functie FIRSTORNULL</a></span><span class="sxs-lookup"><span data-stu-id="b385a-103"><a name="FIRSTORNULL">FIRSTORNULL ER function</a></span></span>
+# <a name="firstornull-er-function"></a><span data-ttu-id="ef1ec-103">De ER-functie FIRSTORNULL</span><span class="sxs-lookup"><span data-stu-id="ef1ec-103">FIRSTORNULL ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b385a-104">De functie `FIRSTORNULL` retourneert de eerste record van de opgegeven lijst als een waarde van het type *Container (record)*, als die record niet leeg is.</span><span class="sxs-lookup"><span data-stu-id="b385a-104">The `FIRSTORNULL` function returns the first record of the specified list as a *Container (record)* value, if that record isn't empty.</span></span> <span data-ttu-id="b385a-105">Als de record leeg is, retourneert deze functie een nulwaarde voor *Container (record)*.</span><span class="sxs-lookup"><span data-stu-id="b385a-105">If the record is empty, this function returns a null *Container (record)* value.</span></span>
+<span data-ttu-id="ef1ec-104">De functie `FIRSTORNULL` retourneert de eerste record van de opgegeven lijst als een waarde van het type *Container (record)*, als die record niet leeg is.</span><span class="sxs-lookup"><span data-stu-id="ef1ec-104">The `FIRSTORNULL` function returns the first record of the specified list as a *Container (record)* value, if that record isn't empty.</span></span> <span data-ttu-id="ef1ec-105">Als de record leeg is, retourneert deze functie een nulwaarde voor *Container (record)*.</span><span class="sxs-lookup"><span data-stu-id="ef1ec-105">If the record is empty, this function returns a null *Container (record)* value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b385a-106">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="b385a-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ef1ec-106">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="ef1ec-106">Syntax</span></span>
 
 ```vb
 FIRSTORNULL (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="b385a-107">Argumenten</span><span class="sxs-lookup"><span data-stu-id="b385a-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="ef1ec-107">Argumenten</span><span class="sxs-lookup"><span data-stu-id="ef1ec-107">Arguments</span></span>
 
-<span data-ttu-id="b385a-108">`list`: *Recordlijst*</span><span class="sxs-lookup"><span data-stu-id="b385a-108">`list`: *Record list*</span></span>
+<span data-ttu-id="ef1ec-108">`list`: *Recordlijst*</span><span class="sxs-lookup"><span data-stu-id="ef1ec-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="b385a-109">Het geldige pad van een gegevensbron van het gegevenstype *Recordlijst*.</span><span class="sxs-lookup"><span data-stu-id="b385a-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="ef1ec-109">Het geldige pad van een gegevensbron van het gegevenstype *Recordlijst*.</span><span class="sxs-lookup"><span data-stu-id="ef1ec-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="b385a-110">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="b385a-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ef1ec-110">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="ef1ec-110">Return values</span></span>
 
-<span data-ttu-id="b385a-111">*Container (record)*</span><span class="sxs-lookup"><span data-stu-id="b385a-111">*Container (record)*</span></span>
+<span data-ttu-id="ef1ec-111">*Container (record)*</span><span class="sxs-lookup"><span data-stu-id="ef1ec-111">*Container (record)*</span></span>
 
-<span data-ttu-id="b385a-112">De resulterende recordwaarde.</span><span class="sxs-lookup"><span data-stu-id="b385a-112">The resulting record value.</span></span>
+<span data-ttu-id="ef1ec-112">De resulterende recordwaarde.</span><span class="sxs-lookup"><span data-stu-id="ef1ec-112">The resulting record value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b385a-113">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="b385a-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ef1ec-113">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="ef1ec-113">Example</span></span>
 
-<span data-ttu-id="b385a-114">De expressie `FIRSTORNULL(SPLIT("",1)).Value` retourneert een lege tekenreeks (**""**).</span><span class="sxs-lookup"><span data-stu-id="b385a-114">The expression `FIRSTORNULL(SPLIT("",1)).Value` returns an empty string (**""**).</span></span>
+<span data-ttu-id="ef1ec-114">De expressie `FIRSTORNULL(SPLIT("",1)).Value` retourneert een lege tekenreeks (**""**).</span><span class="sxs-lookup"><span data-stu-id="ef1ec-114">The expression `FIRSTORNULL(SPLIT("",1)).Value` returns an empty string (**""**).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="b385a-115">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="b385a-115">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ef1ec-115">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="ef1ec-115">Additional resources</span></span>
 
-[<span data-ttu-id="b385a-116">Lijstfuncties</span><span class="sxs-lookup"><span data-stu-id="b385a-116">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="ef1ec-116">Lijstfuncties</span><span class="sxs-lookup"><span data-stu-id="ef1ec-116">List functions</span></span>](er-functions-category-list.md)
