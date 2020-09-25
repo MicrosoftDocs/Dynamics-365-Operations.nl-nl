@@ -3,7 +3,7 @@ title: Meertalige rapporten ontwerpen in Elektronische rapportage
 description: In dit onderwerp wordt uitgelegd hoe u labels voor elektronische rapporten (ER) kunt gebruiken om meertalige rapporten te ontwerpen en genereren.
 author: NickSelin
 manager: AnnBe
-ms.date: 04/24/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65efb8dbec925b5238acaa5d6769f3085e9715b9
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3444616"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810662"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Meertalige rapporten ontwerpen in Elektronische rapportage
 
@@ -33,7 +33,7 @@ ms.locfileid: "3444616"
 
 Zakelijke gebruikers gebruiken het raamwerk van [ER (Elektronische rapportage)](general-electronic-reporting.md) om indelingen voor uitgaande documenten te configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Wanneer dit vereist dat uitgaande documenten worden gegenereerd in verschillende talen voor verschillende landen of regio's, kunt u één ER-[indeling](general-electronic-reporting.md#FormatComponentOutbound) configureren die taalafhankelijke bronnen bevat. Op die manier kunt u de indeling opnieuw gebruiken om uitgaande documenten voor verschillende landen of regio's te genereren. U kunt ook één ER-indeling gebruiken om een uitgaand document in verschillende talen te genereren voor overeenkomende klanten, leveranciers, dochtermaatschappijen of andere partijen.
 
-U kunt gegevensmodellen en modeltoewijzingen voor ER configureren als de gegevensbronnen van geconfigureerde ER-indelingen om de gegevensstroom te definiëren waarmee wordt aangegeven welke toepassingsgegevens in gegenereerde documenten worden opgeslagen. Als [provider](general-electronic-reporting.md#Provider) van een ER-configuratie [publiceert](tasks/er-upload-configuration-into-lifecycle-services.md#upload-configuration-into-lcs) u geconfigureerde [gegevensmodellen](general-electronic-reporting.md#data-model-and-model-mapping-components), [modeltoewijzingen](general-electronic-reporting.md#data-model-and-model-mapping-components) en [indelingen](general-electronic-reporting.md#FormatComponentOutbound) als onderdelen van een ER-oplossing om specifieke uitgaande documenten te genereren. U kunt klanten ook toestaan de gepubliceerde ER-oplossing te [uploaden](general-electronic-reporting-manage-configuration-lifecycle.md) zodat deze kan worden gebruikt en aangepast. Als u verwacht dat klanten andere talen spreken, kunt u de ER-onderdelen zo configureren dat deze taalafhankelijke bronnen bevatten. Op die manier kan de inhoud van een bewerkbaar ER-onderdeel in de voorkeurstaal van de klant worden gepresenteerd tijdens het ontwerpen.
+U kunt gegevensmodellen en modeltoewijzingen voor ER configureren als de gegevensbronnen van geconfigureerde ER-indelingen om de gegevensstroom te definiëren waarmee wordt aangegeven welke toepassingsgegevens in gegenereerde documenten worden opgeslagen. Als [provider](general-electronic-reporting.md#Provider) van een ER-configuratie [publiceert](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) u geconfigureerde [gegevensmodellen](general-electronic-reporting.md#data-model-and-model-mapping-components), [modeltoewijzingen](general-electronic-reporting.md#data-model-and-model-mapping-components) en [indelingen](general-electronic-reporting.md#FormatComponentOutbound) als onderdelen van een ER-oplossing om specifieke uitgaande documenten te genereren. U kunt klanten ook toestaan de gepubliceerde ER-oplossing te [uploaden](general-electronic-reporting-manage-configuration-lifecycle.md) zodat deze kan worden gebruikt en aangepast. Als u verwacht dat klanten andere talen spreken, kunt u de ER-onderdelen zo configureren dat deze taalafhankelijke bronnen bevatten. Op die manier kan de inhoud van een bewerkbaar ER-onderdeel in de voorkeurstaal van de klant worden gepresenteerd tijdens het ontwerpen.
 
 U kunt taalafhankelijke bronnen als ER-labels configureren. Vervolgens kunt u deze labels gebruiken om de ER-onderdelen te configureren voor de volgende doelen:
 

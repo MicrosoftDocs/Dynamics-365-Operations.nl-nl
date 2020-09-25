@@ -1,9 +1,9 @@
 ---
-title: Een ER-configuratie naar Lifecycle Services uploaden
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken en uploaden.
+title: Een configuratie in Lifecycle Services uploaden
+description: In dit onderwerp wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken en uploaden in Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c43bad3ee2530a454de718a0a7da4d1e468a4af4
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143276"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810686"
 ---
-# <a name="er-upload-a-configuration-into-lifecycle-services"></a>Een ER-configuratie naar Lifecycle Services uploaden
+# <a name="upload-a-configuration-into-lifecycle-services"></a>Een configuratie in Lifecycle Services uploaden
 
 [!include [banner](../../includes/banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken en uploaden.
+In dit onderwerp wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe [configuratie voor elektronische rapportage (ER)](../general-electronic-reporting.md#Configuration) kan maken en uploaden in de [activabibliotheek op projectniveau](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).
 
-In dit voorbeeld maakt u een configuratie en uploadt u deze naar LCS voor het voorbeeldbedrijf, Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd aangezien ER-configuraties tussen bedrijven worden gedeeld. Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien. Om deze stappen te kunnen uitvoeren is ook toegang tot LCS vereist.
+In dit voorbeeld maakt u een configuratie en uploadt u deze in LCS voor het voorbeeldbedrijf, Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd aangezien ER-configuraties tussen bedrijven worden gedeeld. Als u deze stappen wilt uitvoeren, moet u eerst de stappen voltooien in [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md). Ook is toegang tot LCS vereist.
 
-1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
-2. Selecteer 'Litware, Inc.' en stel het in als actief.
-3. Klik op Configuraties.
+1. Meld u aan bij de toepassing met een van de volgende rollen:
+
+    - Ontwikkelaar elektronische rapportage
+    - Systeembeheerder
+
+2. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
+3. Selecteer **Litware, Inc.** en markeer dit als **Actief**.
+4. Selecteer **Configuraties**.
+
+<a name="accessconditions"></a>
+> [!NOTE]
+> Zorg ervoor dat de huidige Dynamics 365 Finance-gebruiker lid is van het LCS-project dat de [activabibliotheek](../../lifecycle-services/asset-library.md#asset-library-support) bevat die wordt gebruikt voor het importeren van ER-configuraties.
+>
+> U hebt geen toegang tot een LCS-project vanuit een ER-opslagplaats voor een ander domein dan het domein dat in Finance wordt gebruikt. Als u het probeert, wordt een lege lijst met LCS-projecten weergegeven en kunt u geen ER-configuraties importeren uit de activabibliotheek op projectniveau in LCS. Als u activabibliotheken op projectniveau wilt openen vanuit een ER-opslagplaats die wordt gebruikt voor het importeren van ER-configuraties, meldt u zich aan bij Finance met de referenties van een gebruiker die hoort bij de tenant (domein) waarvoor het huidige Finance-exemplaar is ingericht.
 
 ## <a name="create-a-new-data-model-configuration"></a>Een nieuwe gegevensmodelconfiguratie maken
-1. Klik op Configuratie maken om het dialoogvenster voor beëindigen te openen.
-    * U maakt een configuratie die een voorbeeldgegevensmodel voor elektronische documenten bevat. Deze gegevensmodelconfiguratie wordt later in LCS geüpload.  
-2. Typ 'Voorbeeldmodelconfiguratie' in het veld Naam.
-    * Voorbeeldmodelconfiguratie  
-3. Typ 'Voorbeeldmodelconfiguratie' in het veld Omschrijving.
-    * Voorbeeldmodelconfiguratie  
-4. Klik op Configuratie maken.
-5. Klik op Modelontwerper.
-6. Klik op Nieuw.
-7. Typ 'Invoerpunt' in het veld Naam.
-    * Invoerpunt  
-8. Klik op Toevoegen.
-9. Klik op Opslaan.
-10. Sluit de pagina.
-11. Klik op Status wijzigen.
-12. Klik op Voltooien.
-13. Klik op OK.
 
-## <a name="register-a-new--repository"></a>Een nieuwe opslagplaats registreren
-1. Sluit de pagina.
-2. Klik op Opslagplaatsen.
-    * Hiermee kunt u de lijst met opslagplaatsen voor de configuratieprovider Litware, Inc openen.  
-3. Klik op Toevoegen om het dialoogvenster te openen.
-    * Hiermee kunt u een nieuwe opslagplaats toevoegen.  
-4. Selecteer LCS in het veld Type opslagplaats van configuratie.
-5. Klik op Opslagplaats maken.
-6. Typ of selecteer een waarde in het veld Project.
-    * Selecteer het gewenste LCS-project. U moet toegang tot het project hebben.  
-7. Klik op OK.
-    * Voer een nieuwe opslagplaats in.  
-8. Markeer in de lijst de geselecteerde rij.
-    * Selecteer de LCS-opslagplaatsrecord.  
-    * Een geregistreerde opslagplaats wordt door de huidige provide gemarkeerd, wat betekent dat de enige configuraties in bezit van die provider in deze opslagplaats kunnen worden geplaatst en daarom naar het geselecteerde LCS-project kunnen worden geüpload.  
-9. Klik op Openen.
-    * Open de opslagplaats om de lijst met ER-configuraties weer te geven. De lijst is leeg als dit project nog niet voor delen van ER-configuraties is gebruikt.  
-10. Sluit de pagina.
+1. Ga naar **Organisatiebeheer \> Elektronische rapportage \> Configuraties**.
+2. Selecteer op de pagina **Configuraties** de optie **Configuratie maken** om het dialoogvenster met de vervolgkeuzelijst te openen.
+
+    In dit voorbeeld maakt u een configuratie die een voorbeeldgegevensmodel voor elektronische documenten bevat. Deze gegevensmodelconfiguratie wordt later in LCS geüpload.
+
+3. Typ **Voorbeeldmodelconfiguratie** in het veld **Naam**.
+4. Typ **Voorbeeldmodelconfiguratie** in het veld **Beschrijving**.
+5. Selecteer **Configuratie maken**.
+6. Selecteer **Modelontwerper**.
+7. Selecteer **Nieuw**.
+8. Voer in het veld **Naam** de waarde **Invoerpunt** in.
+9. Selecteer **Toevoegen**.
+10. Selecteer **Opslaan**.
 11. Sluit de pagina.
+12. Selecteer **Status wijzigen**.
+13. Selecteer **Voltooien**.
+14. Selecteer **OK**.
+15. Sluit de pagina.
 
-## <a name="upload-configuration-into-lcs"></a>Configuratie naar LCS uploaden
-1. Klik op Configuraties.
-2. Selecteer 'Voorbeeldmodelconfiguratie' in de structuur.
-    * Selecteer een gemaakte configuratie die al is voltooid.  
+## <a name="register-a-new-repository"></a>Een nieuwe opslagplaats registreren
+
+1. Ga naar **Organisatiebeheer \> Werkgebieden \> Elektronische rapportage**.
+
+2. Selecteer in de sectie **Configuratieproviders** de tegel **Litware, Inc.**
+
+3. Klik op de tegel **Litware, Inc.** op **Opslagplaatsen**.
+
+    U kunt nu de lijst met opslagplaatsen voor de configuratieprovider Litware, Inc. openen.
+
+4. Selecteer **Toevoegen** om het dialoogvenster met vervolgkeuzemenu te openen.
+
+    U kunt nu een nieuwe opslagplaats toevoegen.
+
+5. Selecteer **LCS** in het veld **Opslagplaats van configuratie**.
+6. Selecteer **Opslagplaats maken**.
+7. Typ of selecteer een waarde in het veld **Project**.
+
+    Selecteer voor dit voorbeeld het gewenste LCS-project. U moet [toegang](#accessconditions) tot het project hebben.
+
+8. Selecteer **OK**.
+
+    Voer een nieuwe opslagplaats in.
+
+9. Markeer in de lijst de geselecteerde rij.
+
+    Selecteer voor dit voorbeeld de opslaglocatierecord **LCS**.
+
+    Een geregistreerde opslagplaats wordt gemarkeerd door de huidige provider. Met andere woorden, alleen configuraties die eigendom van die provider zijn, kunnen in deze opslagplaats worden geplaatst en dus naar het geselecteerde LCS-project worden geüpload.
+
+10. Selecteer **Openen**.
+
+    U opent de opslagplaats om de lijst met ER-configuraties weer te geven. Als het geselecteerde project nog niet voor delen van ER-configuraties is gebruikt, is de lijst leeg.
+
+11. Sluit de pagina.
+12. Sluit de pagina.
+
+## <a name="upload-a-configuration-into-lcs"></a>Een configuratie uploaden naar LCS
+
+1. Ga naar **Organisatiebeheer \> Elektronische rapportage \> Configuraties**.
+2. Selecteer op de pagina **Configuraties** in de configuratiestructuur het item **Voorbeeldmodelconfiguratie**.
+
+    U moet een gemaakte configuratie selecteren die al is voltooid.
+
 3. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer de versie van de geselecteerde configuratie met de status 'Voltooid'.  
-4. Klik op Status wijzigen.
-5. Klik op Delen.
-    * De configuratiestatus wordt gewijzigd van 'Voltooid' in 'Gedeeld' wanneer deze wordt gepubliceerd in LCS.  
-6. Klik op OK.
-7. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer de configuratieversie met de status ‘Gedeeld’.  
-    * De status van de geselecteerde versie is gewijzigd van 'Voltooid' in 'Gedeeld'.  
-8. Sluit de pagina.
-9. Klik op Opslagplaatsen.
-    * Hiermee kunt u de lijst met opslagplaatsen voor de configuratieprovider Litware, Inc openen.  
-10. Klik op Openen.
-    * Selecteer de LCS-opslagplaats en open deze.  
-    * De geselecteerde configuratie wordt getoond als een activum van het geselecteerde LCS-project.  
-    * LCS openen met https://lcs.dynamics.com. Open een project dat eerder is gebruikt voor opslagplaatsregistratie, open de 'Activabibliotheek' van dit project en vouw de inhoud van het activumtype 'GER-configuratie' uit; de geüploade ER-configuratie is beschikbaar. De geüploade LCS-configuratie kan naar een ander exemplaar worden geïmporteerd als providers toegang tot dit LCS-project hebben.  
 
+    Selecteer voor dit voorbeeld de versie van de geselecteerde configuratie met de status **Voltooid**.
+
+4. Selecteer **Status wijzigen**.
+5. Selecteer **Delen**.
+
+    De status van de configuratie wordt gewijzigd van **Voltooid** in **Gedeeld** wanneer de configuratie wordt gepubliceerd in LCS.
+
+6. Selecteer **OK**.
+7. Zoek en selecteer de gewenste record in de lijst.
+
+    Selecteer voor dit voorbeeld de versie van de configuratie die de status **Gedeeld** heeft.
+
+    De status van de geselecteerde versie is gewijzigd van **Voltooid** in **Gedeeld**.
+
+8. Sluit de pagina.
+9. Selecteer **Opslagplaatsen**.
+
+    U kunt nu de lijst met opslagplaatsen voor de configuratieprovider Litware, Inc. openen.
+
+10. Selecteer **Openen**.
+
+    Selecteer voor dit voorbeeld de opslaglocatierecord **LCS** en open deze.
+
+    De geselecteerde configuratie wordt getoond als een activum van het geselecteerde LCS-project.
+
+11. Open LCS door naar <https://lcs.dynamics.com> te gaan.
+12. Open een project dat eerder is gebruikt voor de registratie van de opslagplaats.
+13. Open de activabibliotheek van het project.
+14. Selecteer het activumtype **GER-configuratie**.
+
+    De ER-configuratie die u hebt geüpload, moet worden vermeld.
+
+    De geüploade LCS-configuratie kan naar een ander exemplaar worden geïmporteerd als providers toegang tot dit LCS-project hebben.

@@ -3,7 +3,7 @@ title: Het updateproces
 description: Microsoft Dynamics 365 Human Resources is echt software in de vorm van een service (SaaS) die voortdurende 'touchless' updates verzorgt met wijzigingen in toepassingen en platforms.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 006f3c7218436c1c70e29e51f8b1b784ae36b2dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: be9be5509f933ecbda5bf6d040027a7bac8b666d
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431171"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759954"
 ---
 # <a name="update-process"></a>Het updateproces
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 Human Resources is echt software in de vorm van een servi
 
 Er worden regelmatig updates uitgebracht voor alle omgevingen. Human Resources wordt ondersteund volgens het [Microsoft Support Lifecycle-beleid](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy), dat consistente en voorspelbare richtlijnen bevat voor de beschikbaarheid van ondersteuning.
 
-## <a name="release-cadence"></a>Releasetempo
+## <a name="release-cadence"></a>Releasetempo 
 
 Human Resources-updates worden automatisch op alle omgevingen toegepast. Human Resources biedt twee typen releases:
 
@@ -56,14 +56,12 @@ Releases worden beoordeeld, getest en gevalideerd in een interne omgeving. Nadat
 
 ## <a name="release-cadence-exceptions-in-2020"></a>Uitzonderingen in releasetempo in 2020
 
-De volgende datums zijn uitzonderingen op de normale releaseplanning:
+Om rekening te houden met feestdagen, is de releaseplanning voor november en december 2020 als volgt:
 
-| Datum | Omschrijving |
-| --- | --- |
-| Week van 23 november | Geen updates |
-| Week van 14 december | Alleen kleine updates |
-| Week van 21 december | Geen updates |
-| Week van 28 december | Geen updates |
+- Release van november: 2 november - 13 november
+- Release van december: 30 november - 11 december
+ 
+Her releasetempo van een keer per twee weken wordt op de gebruikelijke manier hervat op 11 januari 2021.
 
 ## <a name="communications"></a>Berichtgeving
 

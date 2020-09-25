@@ -1,6 +1,6 @@
 ---
 title: Sneltoetsen
-description: Met de volgende sneltoetsen kunt u snel en efficiënt gegevens invoeren.
+description: Dit onderwerp biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met Finance and Operations-apps werkt.
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811550"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761616"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
 [!include [banner](../includes/banner.md)]
 
-Met de volgende sneltoetsen kunt u snel en efficiënt gegevens invoeren.
+Met de volgende sneltoetsen kunt u snel en efficiënt gegevens invoeren in Finance and Operations-apps.
 
 > [!NOTE]
 > De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
@@ -236,6 +236,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Een rij omhoog/omlaag verplaatsen in de zoekopdracht                                                                                        | Pijl-omlaag/Pijl-omhoog            |
 | Een pagina omhoog/omlaag verplaatsen in de zoekopdracht                                                                                       | Page Up/Page Down              |
 | Naar de bovenkant/onderkant van de zoekopdracht gaan                                                                                    | Home/End                       |
+
 ## <a name="additional-resources"></a>Aanvullende resources
 
 - [Sneltoetsen voor ontbrekende rekeninganalyse](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

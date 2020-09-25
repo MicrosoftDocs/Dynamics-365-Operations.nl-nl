@@ -3,7 +3,7 @@ title: Gedeeltelijke cyclustelling van locatie
 description: Cyclustellingsplannen sturen de werkelijke telbewerkingen aan. U kunt verzoeken dat alleen specifieke producten en productvarianten worden geteld, in plaats van alle voorhanden voorraad op een locatie.
 author: perlynne
 manager: tfehr
-ms.date: 11/02/2017
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f07c7754dbe36334e8972d49edf9fb84a78f5d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215672"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760002"
 ---
 # <a name="partial-location-cycle-counting"></a>Gedeeltelijke cyclustelling van locatie
 
@@ -45,7 +45,7 @@ Als u cyclustellingsplannen koppelt aan werksjablonen met behulp van de optie **
 
 Voordat gedeeltelijk cyclustellingswerk kan worden verwerkt, moet u ten minste **Artikelnummer weergeven** selecteren voor het mobiele menuonderdeel als onderdeel van de instellingen voor cyclustelling. De magazijnoperator wordt gevraagd om alleen telinformatie vast te leggen die is gekoppeld aan de tellingsregels (artikelnummers en productdimensies). Alle overige voorhanden voorraad wordt voor dit telproces genegeerd. 
 
-Voor het gedeeltelijke cyclustellingsproces wordt de datum/tijd **Laatste cyclustelling** voor de locatie niet bijgewerkt.
+Voor het gedeeltelijke cyclustellingsproces wordt de datum/tijd **Laatste cyclustelling** voor de locatie niet bijgewerkt, ook niet als alle voorhanden artikelen op een bepaalde locatie worden geteld. De gedeeltelijke cyclustelling houdt geen rekening met de parameter **Dagen tussen cyclustellingen** op de pagina **Cyclustelplannen**. Gedeeltelijke cyclustelling biedt geen ondersteuning voor gelijktijdige telling van meerdere artikelen op dezelfde locatie. De functionaliteit voor gedeeltelijke cyclustellingen kan ertoe leiden dat dezelfde locatie meerdere keren wordt geteld voor een artikel wanneer **Cyclustellingsplan verwerken** wordt uitgevoerd. Geef filters op in het veld **Locaties selecteren** om dat scenario te vermijden.
 
 ## <a name="example"></a>Voorbeeld
 In dit voorbeeld moet alleen artikelnummer A0001 in magazijn 61 worden geteld.

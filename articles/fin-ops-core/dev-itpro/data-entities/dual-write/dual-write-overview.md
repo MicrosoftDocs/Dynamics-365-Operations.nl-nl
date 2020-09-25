@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 64626ebdd7fbad3d47a4b4c6bbc45bf3bc0c8277
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 8957065bcadc3f33adb60c2a8f2be78710289631
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172779"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775142"
 ---
 # <a name="dual-write-overview"></a>Overzicht van twee keer wegschrijven
 
@@ -34,7 +34,7 @@ ms.locfileid: "3172779"
 
 ## <a name="what-is-dual-write"></a>Wat is twee keer wegschrijven?
 
-Twee keer wegschrijven is een kant-en-klare infrastructuur die vrijwel-realtime interactie biedt tussen modelgestuurde apps in Microsoft Dynamics 365 en Finance and Operations-apps. Wanneer gegevens over klanten, producten, personen en bewerkingen over de grenzen van toepassingen heen stromen, zijn alle afdelingen in een organisatie gemachtigd.
+Twee keer wegschrijven is een kant-en-klare infrastructuur die near-realtime interactie biedt tussen Customer Engagement- en Finance and Operations-apps. Wanneer gegevens over klanten, producten, personen en bewerkingen over de grenzen van toepassingen heen stromen, zijn alle afdelingen in een organisatie gemachtigd.
 
 Twee keer wegschrijven biedt nauw gekoppelde, bidirectionele integratie tussen Finance and Operations-apps en Common Data Service. Alle gegevenswijzigingen in Finance and Operations-apps leiden tot schrijfbewerkingen naar Common Data Service en alle gegevenswijzigingen in Common Data Service resulteren in schrijfbewerkingen naar Finance and Operations-apps. Deze geautomatiseerde gegevensstroom biedt een geïntegreerde gebruikerservaring over de apps heen.
 
@@ -49,7 +49,7 @@ De infrastructuur voor twee keer wegschrijven is uitbreidbaar en betrouwbaar en 
 + Synchrone en bidirectionele gegevensstroom tussen toepassingen
 + Synchronisatie, samen met de modi voor afspelen, onderbreken en inhalen, om het systeem te ondersteunen tijdens online en offline/asynchrone modi.
 + Mogelijkheid om initiële gegevens tussen de toepassingen te synchroniseren
-+ Geconsolideerde weergave van activiteiten- en foutlogbestanden voor gegevensbeheerders
++ Gecombineerde weergave van activiteiten- en foutlogbestanden voor gegevensbeheerders
 + Mogelijkheid om aangepaste waarschuwingen en drempels te configureren en om zich te abonneren op meldingen
 + Intuïtieve gebruikersinterface (UI) voor filtering en transformaties
 + Mogelijkheid om afhankelijkheden en relaties tussen entiteiten in te stellen en weer te geven
@@ -59,7 +59,7 @@ De infrastructuur voor twee keer wegschrijven is uitbreidbaar en betrouwbaar en 
 
 ### <a name="application"></a>Aanvraag
 
-Met twee keer wegschrijven worden concepten in Finance and Operations-apps gekoppeld aan concepten in modelgestuurde apps in Dynamics 365. Deze integratie ondersteunt de volgende scenario's:
+Met twee keer wegschrijven worden concepten in Finance and Operations-apps gekoppeld aan concepten in Customer Engagement-apps. Deze integratie ondersteunt de volgende scenario's:
 
 + Model voor geïntegreerde klanten
 + Toegang tot loyaliteitskaarten en beloningspunten van klanten
@@ -86,23 +86,25 @@ Met twee keer wegschrijven worden concepten in Finance and Operations-apps gekop
 Twee keer wegschrijven biedt gegevensintegratie tussen Microsoft Dynamics 365-toepassingen. Dit robuuste raamwerk koppelt omgevingen en zorgen ervoor dat verschillende bedrijfstoepassingen samenwerken. Dit zijn de belangrijkste redenen voor het gebruik van twee keer wegschrijven:
 
 + Met twee keer wegschrijven beschikt u over een strak gekoppelde, bijna realtime en bidirectionele integratie tussen Finance and Operations-apps en modelgestuurde apps in Dynamics 365. Door deze integratie is Microsoft Dynamics 365 de plek voor al uw zakelijke oplossingen. Klanten die gebruikmaken van Dynamics 365 Finance en Dynamics 365 Supply Chain Management, maar die niet-Microsoft-oplossingen voor Customer Relationship Management (CRM) gebruiken, stappen over op Dynamics 365 vanwege de ondersteuning voor twee keer wegschrijven.
-+ Gegevens van klanten, producten, transacties, projecten en het Internet of Things (IoT) stromen automatisch naar Common Data Service via twee keer wegschrijven. Deze verbinding is heel nuttig voor bedrijven die geïnteresseerd zijn in Microsoft Power Platform-uitbreidingen.
++ Gegevens van klanten, producten, transacties, projecten en het Internet of Things (IoT) stromen automatisch naar Common Data Service via twee keer wegschrijven. Deze verbinding is nuttig voor bedrijven die geïnteresseerd zijn in Microsoft Power Platform-uitbreidingen.
 + De infrastructuur voor twee keer wegschrijven volgt het principe van geen code/weinig code. Er is minimale technische inspanning vereist om de standaardtoewijzingen van tabel naar tabel uit te breiden en aangepaste toewijzingen op te nemen.
 + Twee keer wegschrijven ondersteunt zowel de online modus als de offline modus. Microsoft is het enige bedrijf dat ondersteuning biedt voor online en offline modi.
 
-## <a name="what-does-dual-write-mean-for-users-and-architects-of-crm-products"></a>Wat betekent twee keer wegschrijven voor gebruikers en architecten van CRM-producten?
+## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Wat houdt Twee keer wegschrijven in voor ontwikkelaars en architecten van Customer Engagement-apps?
 
-Met twee keer wegschrijven wordt de gegevensstroom tussen Finance and Operations-apps en Common Data Service geautomatiseerd. In toekomstige releases worden concepten in modelgestuurde apps in Dynamics 365 (zoals klant, contactpersoon, prijsopgave en order) geschaald naar klanten in de middenmarkt en hogere middenmarkt.
+Met Twee keer wegschrijven wordt de gegevensstroom tussen Finance and Operations-apps en Customer Engagement-apps geautomatiseerd. Twee keer wegschrijven bestaat uit twee AppSource-oplossingen die in Common Data Service worden geïnstalleerd. De oplossingen vergroten het entiteitsschema, invoegtoepassingen en workflows in Common Data Service, zodat deze kunnen worden aangepast aan de ERP-grootte. Voor een succesvolle implementatie moeten ontwikkelaars en architecten van Customer Engagement-apps deze wijzigingen begrijpen en samenwerken met hun tegenhangers in Finance and Operations-apps.
 
-In de eerste release wordt de meeste automatisering verzorgd door oplossingen voor twee keer wegschrijven. In toekomstige releases worden deze oplossingen onderdeel van Common Data Service. Door de aanstaande wijzigingen in Common Data Service te begrijpen, kunt u uw inspanningen op lange termijn beperken. Hier volgen enkele van de belangrijke wijzigingen:
+Om pariteit met Finance and Operations-toepassingen tot stand te brengen, brengt Twee keer wegschrijven een aantal belangrijke wijzigingen in het Common Data Service-schema aan. Als u het plan begrijpt, kunt u voorkomen dat u ontwerp- en ontwikkelingsproblemen in de toekomst voorkomen.
 
-+ Common Data Service krijgt nieuwe concepten, zoals bedrijf en partij. Deze concepten zijn van invloed op alle apps die op Common Data Service zijn gebouwd, zoals Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service en Dynamics 365 Field Service.
++ Wanneer het AppSource-pakket voor Twee keer wegschrijven is geïnstalleerd, bevat Common Data Service nieuwe concepten, zoals een bedrijf en partij. Met deze concepten kunnen toepassingen gebouwd op Common Data Service, zoals Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service en Dynamics 365 Field Service, naadloos met Finance and Operations-apps communiceren.
+
 + Activiteiten en notities worden gecombineerd en uitgebreid om zowel C1's (gebruikers van het systeem) als C2's (klanten van het systeem) te ondersteunen.
-+ Hier volgen enkele van de komende wijzigingen in Common Data Service:
 
-    - Het gegevenstype decimaal vervangt het gegevenstype geld.
-    - Datumeffectiviteit biedt ondersteuning voor vroegere, huidige en toekomstige datums op dezelfde locatie.
-    - Er wordt meer ondersteuning geboden voor valuta en wisselkoersen en API (Application Programming Interface) voor **Wisselkoers** wordt herzien.
-    - Eenheidsomrekeningen worden ondersteund.
++ Als u gegevensverlies tijdens de valutaoverdracht tussen Finance and Operations-apps en Common Data Service wilt voorkomen, kunt u het aantal decimalen in het valutagegevenstype van Customer Engagement-apps uitbreiden. Met deze functie worden bestaande records automatisch omgezet in de nieuwe uitgebreide status in de metagegevenslaag. Tijdens deze procedure wordt de valutawaarde omgezet in decimale gegevens in plaats van geldgegevens en de valutawaarde ondersteunt 10 decimalen. Deze functie is optioneel en organisaties die niet meer dan vier decimalen nodig hebben, hoeven zich niet aan te melden. Zie [Migratie van valutagegevenstype voor twee keer wegschrijven](currrency-decimal-places.md) voormeer informatie.
 
-Zie [Gegevens in Common Data Service – fase 1 en 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/finance-operations-crossapp-capabilities/data-common-data-service-phase-1) voor meer informatie over aanstaande wijzigingen.
++ [Ingangsdatum](../../dev-tools/date-effectivity.md) wordt toegevoegd aan Common Data Service. Hiermee wordt ondersteuning geboden voor vroegere, huidige en toekomstige datums in dezelfde entiteit.
+
++ [Omrekeningen van producteenheden](../../../../supply-chain/pim/tasks/manage-unit-measure.md) worden ondersteund voor producten, offertes, orders en facturen.
+
+Zie [Nieuwe of gewijzigde functies in twee keer wegschrijven](whats-new-dual-write.md) voor meer informatie over aanstaande wijzigingen.
+

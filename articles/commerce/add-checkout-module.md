@@ -3,7 +3,7 @@ title: Betalingsmodule
 description: In dit onderwerp wordt beschreven hoe u een betalingsmodule aan een pagina toevoegt en de vereiste eigenschappen instelt.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 389e3e9d631574eac499f7c6146e2776b8126a52
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686737"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761100"
 ---
 # <a name="checkout-module"></a>Betalingsmodule
 
@@ -97,8 +97,8 @@ De meeste uitcheckgegevens, zoals het verzendadres en de verzendmethode, worden 
 Voer de volgende stappen uit om een betalingsmodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
-1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Betaling**.
-1. Voer onder **Naam paginafragment** de naam in voor het **Betalingsfragment** en selecteer **OK**.
+1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Kassa**.
+1. Voer onder **Naam fragment** de naam **Uitcheckfragment** in en selecteer **OK**.
 1. Selecteer het vak **Betalingsmodule**.
 1. Selecteer in het venster Eigenschappen rechts het potloodsymbool, voer de koptekst in het veld in en selecteer vervolgens het symbool voor het selectievinkje.
 1. Selecteer het weglatingsteken (**...**) in het vak **Betalingsgegevens** en selecteer **Module toevoegen**.

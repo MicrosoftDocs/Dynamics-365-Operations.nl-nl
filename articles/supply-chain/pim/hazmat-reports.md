@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: a67c8d0795d31464d900eb5aa82a6d93b689950c
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699600"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803010"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Informatie en rapporten voor gevaarlijke stoffen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management biedt diverse rapporten die betrekking hebben op gevaarlijke stoffen. Veel van deze rapporten zijn vereist, zodat u tijdens de verzending en opslag voldoet aan de diverse voorschriften voor gevaarlijke stoffen.
 
