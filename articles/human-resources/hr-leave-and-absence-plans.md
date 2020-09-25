@@ -3,7 +3,7 @@ title: Een verlof- en verzuimplan maken
 description: Maak verlofplannen in Dynamics 365 Human Resources voor verschillende verloftypen.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 75a70c5784e7032cfebbe58c1d173923a3023507
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428704"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796492"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Een verlof- en verzuimplan maken
 
@@ -43,7 +43,15 @@ U kunt ook verlof toekennen op basis van positie, zoals speciale verlofuren voor
 
 2. Voer onder **Details** de **naam**, de **begindatum**, de **beschrijving** en het **verloftype** voor uw plan in.
 
-Als de functie **Meerdere verloftypen configureren voor één verlof- en verzuimplan** is ingeschakeld, worden verloftypen geconfigureerd in het **Toerekeningsschema** in plaats van onder **Details**. Voor elke record in de tabel voor het toerekeningsschema kunt u een verloftype definiëren.
+Als de functie **Meerdere verloftypen configureren voor één verlof- en verzuimplan** is ingeschakeld, worden verloftypen geconfigureerd in het **Toerekeningsschema** in plaats van onder **Details**. Voor elke record in de tabel voor het toerekeningsschema kunt u een verloftype definiëren. Wanneer deze functie is ingeschakeld, moet u ook nieuwe gegevensentiteiten gebruiken voor integraties of andere scenario's waarin u entiteiten moet gebruiken. 
+
+De nieuwe entiteiten zijn:
+
+- Verlof- en verzuimbanktransactie V2
+- Inschrijving voor verlof en verzuim V2
+- Niveau van verlof- en verzuimplan V2
+- Verlof- en verzuimplan V2
+- Verlofaanvraag V2
 
  > [!IMPORTANT]
    > Nadat u deze functie hebt ingeschakeld, kunt u deze niet meer uitschakelen.

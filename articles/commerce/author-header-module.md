@@ -3,7 +3,7 @@ title: Koptekstmodule
 description: In dit onderwerp wordt beschreven wat koptekstmodules zijn en hoe u paginakopteksten maakt in Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,24 +17,25 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: eb440a8fb67888c9411ad5998fead4d00982b436
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686617"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761219"
 ---
 # <a name="header-module"></a>Koptekstmodule
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven wat koptekstmodules zijn en hoe u paginakopteksten maakt in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Overzicht
 
-In Dynamics 365 Commerce bestaat een paginakoptekst uit meerdere modules, zoals modules voor de koptekst, het navigatiemenu, zoeken, promotiebanner en cookietoestemming. 
+In Dynamics 365 Commerce wordt een paginakoptekst geconfigureerd als een paginafragment dat de modules voor koptekst, promotiebanner en cookietoestemming bevat. 
 
-De koptekstmodule bevat een sitelogo, koppelingen naar de navigatiehiërarchie, koppelingen naar andere pagina's op de site, een winkelwagensymbool, een verlanglijstsymbool, aanmeldingsopties en de zoekbalk. Een koptekstmodule wordt automatisch geoptimaliseerd voor het apparaat waarop de site wordt weergegeven (met andere woorden, voor een desktopapparaat of een mobiel apparaat). Op een mobiel apparaat wordt de navigatiebalk bijvoorbeeld samengevouwen in een **Menu**-knop (soms een *hamburgermenu* genoemd).
+De koptekstmodule bevat een sitelogo, koppelingen naar de navigatiehiërarchie, koppelingen naar andere pagina's op de site, een winkelwagenpictogrammodule, een verlanglijstsymbool, aanmeldingsopties en de zoekbalk. Een koptekstmodule wordt automatisch geoptimaliseerd voor het apparaat waarop de site wordt weergegeven (met andere woorden, voor een desktopapparaat of een mobiel apparaat). Op een mobiel apparaat wordt de navigatiebalk bijvoorbeeld samengevouwen in een **Menu**-knop (soms een *hamburgermenu* genoemd).
 
 De volgende afbeelding toont een voorbeeld van een koptekstmodule op een introductiepagina.
 
@@ -48,33 +49,36 @@ De eigenschappen **Logoafbeelding** en **Logokoppeling** worden gebruikt om een 
 
 De eigenschap **Mijn accounts-koppeling** kan worden gebruikt om accountpagina's te definiëren waarop de site-eigenaar snelkoppelingen wil weergeven in de koptekst.
 
-## <a name="modules-that-are-available-in-a-header-module"></a>Modules die beschikbaar zijn in een koptekstmodule
+## <a name="modules-that-are-available-within-a-header-module"></a>Modules die beschikbaar zijn in een koptekstmodule
 
 De volgende modules kunnen in een koptekstmodule worden gebruikt:
 
-- **Navigatiemenu** : het navigatiemenu vertegenwoordigt de navigatiehiërarchie in het afzetkanaal en andere statische navigatiekoppelingen. De navigatiehiërarchie voor het afzetkanaal kan worden geconfigureerd in Dynamics 365 Commerce. Het navigatiemenu heeft een eigenschap **Navigatiebron** die wordt gebruikt om menuopdrachten voor Retail Server-navigatie en statische menu-opdrachten op te geven als een bron. Als statische menu-items als bron zijn opgegeven, kunnen er relatieve koppelingen naar andere pagina's op de site worden gegeven. Geconfigureerde artikelen worden vervolgens weergegeven als koptekstnavigatie. 
+- **Navigatiemenu** : het navigatiemenu vertegenwoordigt de navigatiehiërarchie in het afzetkanaal en andere statische navigatiekoppelingen. Zie [Navigatiemenumodule](nav-menu-module.md) voor meer informatie.
 
 - **Zoeken** : met de zoekbalkmodule kunnen gebruikers zoekwoorden invoeren om naar producten te zoeken. De URL van de standaardzoekpagina en de zoekqueryparameters moeten worden opgegeven via **Site-instellingen \> Extensies**. De zoekmodule bevat eigenschappen waarmee u de zoekknop of het zoeklabel kunt onderdrukken zoals u dat nodig acht. De zoekmodule ondersteunt ook opties voor automatisch suggesties, zoals zoekresultaten voor product, trefwoord en categorie.
 
 - **Pictogram winkelwagen**: de module winkelwagenpictogram vertegenwoordigt dat het aantal artikelen in de winkelwagen op een bepaald moment weergeeft. Zie [Module winkelwagenpictogram](cart-icon-module.md) voor meer informatie.
 
-## <a name="create-a-header-module-for-a-page"></a>Een koptekstmodule maken voor een pagina
+## <a name="create-a-header-fragment-for-a-page"></a>Een koptekstfragment maken voor een pagina
 
-Volg deze stappen om een koptekstmodule te maken.
+Volg deze stappen om een koptekstfragment te maken.
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
-1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Container**, voer een naam in voor het paginafragment en selecteer vervolgens **OK**.
-1. Selecteer het vak **Standaardcontainer** en stel vervolgens in het deelvenster Eigenschappen rechts de eigenschap **Breedte** in op **Container vullen**.
+1. Selecteer in het dialoogvenster **Nieuw fragment** de module **Container**, voer een naam in voor het fragment en selecteer vervolgens **OK**.
+1. Selecteer het vak **Standaardcontainer** en stel vervolgens in het deelvenster Eigenschappen rechts de eigenschap **Breedte** in op **Scherm vullen**.
 1. Selecteer het weglatingsteken (**...**) in het vak **Standaardcontainer** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de modules **Promotiebanner** en **Cookietoestemming** en selecteer vervolgens **OK**.
-1. Selecteer het weglatingsteken (**...**) in het vak **Standaardcontainer** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
-1. Selecteer het vak **Container** en stel vervolgens in het deelvenster Eigenschappen rechts de eigenschap **Breedte** in op **Container vullen**.
-1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de **Koptekstmodule** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de modules **Cookietoestemming**, **Koptekst** en **Promotiebanner** en selecteer vervolgens **OK**.
+1. Selecteer **Bericht toevoegen** in het deelvenster Eigenschappen van de module **Promotiebanner** en selecteer vervolgens **Bericht**.
+1. Voeg in het dialoogvenster **Bericht** tekst en koppelingen voor de promotie-inhoud toe en selecteer vervolgens **OK**.
+1. Voeg in het deelvenster Eigenschappen van de module **Cookietoestemming** tekst en een koppeling naar de privacypagina van de site toe en configureer deze.
 1. Selecteer in het vak **Navigatiemenu** van de koptekstmodule het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de module **Navigatiemenu** en selecteer vervolgens **OK**.
-1. Configureer desgewenst de eigenschappen van de navigatiemenumodule in het eigenschappenvenster.
+1. Selecteer in het deelvenster Eigenschappen voor de navigatiemenumodule de optie **Detailhandelserver** onder **Bron voor navigatiemenu**.
+1. Selecteer in het deelvenster Eigenschappen voor de navigatiemenumodule onder **Statische menuopdrachten** de optie **Menuopdracht toevoegen** en **Menuopdracht**. 
+1. Typ in het dialoogvenster **Menuopdracht** onder **Tekst van menuopdracht** de tekst Contact.
+1. Selecteer in het dialoogvenster **Menuopdracht** onder **Koppelingsdoel menuopdracht** de optie **Een koppeling toevoegen**.
+1. Selecteer in het dialoogvenster **Een koppeling toevoegen** de URL voor de pagina Contact van de site en selecteer vervolgens **OK.**  
+1. Selecteer **OK** in het dialoogvenster **Menuopdracht**.
 1. Selecteer in het vak **Zoeken** van de koptekstmodule het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de module **Zoeken** en selecteer vervolgens **OK**.
 1. Configureer desgewenst de eigenschappen van de zoekmodule in het eigenschappenvenster.
@@ -94,16 +98,12 @@ Volg deze stappen op elke paginasjabloon die voor de site wordt gemaakt om te ga
 
 [Containermodule](add-container-module.md)
 
-[Module met vakje voor kopen](add-buy-box.md)
+[Module voor winkelwagenpictogram](cart-icon-module.md)
 
-[Winkelwagenmodule](add-cart-module.md)
+[Promotiebanner-module](add-alert.md)
 
-[Module winkelwagenpictogram](cart-icon-module.md)
+[Navigatiemenumodule](nav-menu-module.md) 
 
-[Kassamodule](add-checkout-module.md)
-
-[Orderbevestigingsmodule](order-confirmation-module.md)
-
-[Koptekstmodule](author-header-module.md)
+[Toestemming voor cookies](cookie-consent-module.md)
 
 [Voettekstmodule](author-footer-module.md)

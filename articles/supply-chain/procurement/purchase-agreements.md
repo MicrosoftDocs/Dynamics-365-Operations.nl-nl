@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208012"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803158"
 ---
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Dit artikel biedt informatie over inkoopovereenkomsten. Een inkoopovereenkomst is een contract dat een organisatie ertoe verbindt een opgegeven aantal of bedrag in te kopen via meerdere inkooporders in een bepaalde periode. De koper ontvangt in ruil voor deze toezegging speciale prijzen en kortingen. 
 
@@ -42,8 +41,13 @@ Als u wilt voorkomen dat uw inkoopovereenkomst wordt gebruikt en bevestigd, mark
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>Verantwoordelijke medewerkers in inkoopovereenkomsten
 
-U kunt een primaire verantwoordelijke medewerker en secundaire verantwoordelijke medewerker identificeren in de classificatie van de inkoopovereenkomst. Deze waarden worden overgenomen door de resulterende inkoopovereenkomst. U bent niet verplicht om verantwoordelijke medewerkers toe te voegen aan de inkoopovereenkomst en ze kunnen rechtstreeks per geval worden gewijzigd in de inkoopovereenkomst zelf. U kunt geen secundaire verantwoordelijke medewerker zonder een primaire verantwoordelijke medewerker opgeven, hoewel u geen secundaire verantwoordelijke medewerker hoeft te hebben. U kunt dezelfde werknemer niet opgeven als primaire en secundaire verantwoordelijke medewerker. 
+U kunt een primaire verantwoordelijke medewerker en secundaire verantwoordelijke medewerker identificeren in de classificatie van de inkoopovereenkomst. Deze waarden worden overgenomen door de resulterende inkoopovereenkomst. U bent niet verplicht om verantwoordelijke medewerkers toe te voegen aan de inkoopovereenkomst en ze kunnen rechtstreeks per geval worden gewijzigd in de inkoopovereenkomst zelf. U kunt geen secundaire verantwoordelijke medewerker zonder een primaire verantwoordelijke medewerker opgeven, hoewel u geen secundaire verantwoordelijke medewerker hoeft te hebben. U kunt dezelfde werknemer niet opgeven als primaire en secundaire verantwoordelijke medewerker.
 
+> [!IMPORTANT]
+> Voordat u de functie voor de verantwoordelijke partij kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+> 
+> - **Module:** *Inkoopbeheer*
+> - **Functienaam:** *Verantwoordelijke partij voor inkoopovereenkomst*
 
 ## <a name="commitment-types"></a>Toezeggingstypen
 Elke regel in een inkoopovereenkomst staat voor een toezegging om iets te kopen. U kunt regels uit meerdere inkooporders gebruiken om te voldoen aan de verbintenis. Er zijn vier typen toezeggingen:

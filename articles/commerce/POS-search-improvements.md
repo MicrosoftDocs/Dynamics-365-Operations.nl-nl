@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628904"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759930"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 
@@ -93,7 +93,7 @@ Bij een externe klantzoekopdracht wordt de klant-ID niet weergegeven voor klante
 
 ### <a name="enhancements-to-local-customer-search"></a>Verbeteringen in lokale klantzoekopdracht
 
-Zoekopdrachten die zijn gebaseerd op het telefoonnummer zijn vereenvoudigd. Deze zoekopdrachten negeren nu speciale tekens, zoals spaties, afbreekstreepjes en haken, die mogelijk zijn toegevoegd wanneer de klant is gemaakt. Daarom kunnen kassiers de indeling negeren van het telefoonnummer dat ze zoeken. Ze kunnen ook zoeken naar klanten door een gedeeltelijk telefoonnummer te typen. Als een telefoonnummer speciale tekens bevat, kan het ook worden gevonden door te zoeken naar de nummers die worden weergegeven na de speciale tekens. Als een telefoonnummer van een klant bijvoorbeeld is ingevoerd als **123-456-7890**, kan een kassamedewerker de klant zoeken door **123**, **456**, **7890** of **1234567890** te typen of door de eerste paar cijfers van het telefoonnummer in te voeren.
+Zoekopdrachten die zijn gebaseerd op het telefoonnummer zijn vereenvoudigd. Deze zoekopdrachten negeren nu speciale tekens, zoals spaties, afbreekstreepjes en haken, die mogelijk zijn toegevoegd wanneer de klant is gemaakt. Daarom kunnen kassiers de indeling negeren van het telefoonnummer dat ze zoeken. Als een telefoonnummer van een klant bijvoorbeeld is ingevoerd als **123-456-7890**, kan een kassamedewerker de klant zoeken door **1234567890** te typen of door de eerste paar cijfers van het telefoonnummer in te voeren.
 
 > [!NOTE]
 > Een klant kan meerdere telefoonnummers en meerdere e-mailadressen hebben. Het klantzoekalgoritme doorzoekt ook deze secundaire e-mailadressen en telefoonnummers, maar de primaire e-mail en het telefoonnummer worden alleen weergegeven op de pagina met klantzoekresultaten. Dit kan leiden tot verwarring omdat de geretourneerde klantresultaten niet het gezochte e-mailadres of telefoonnummer weergeven. In een toekomstige versie gaan we het scherm met klantzoekresultaten verbeteren om deze gegevens weer te geven.

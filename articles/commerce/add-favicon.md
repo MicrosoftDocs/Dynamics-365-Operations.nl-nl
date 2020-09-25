@@ -3,7 +3,7 @@ title: Een favicon toevoegen
 description: In dit onderwerp wordt uitgelegd hoe u een favicon aan uw site toevoegt.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686785"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761148"
 ---
 # <a name="add-a-favicon"></a>Een favicon toevoegen
 
@@ -58,30 +58,30 @@ Gebruik de volgende HTML-tekenreeks om de HTML voor de favicon te maken. Vervang
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Een paginafragment maken dat een metatag bevat voor uw favicon
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>Een fragment maken dat een metatag bevat voor uw favicon
 
-Als u een paginafragment wilt maken dat een metatag bevat voor uw favicon, voert u deze stappen uit.
+Als u een fragment wilt maken dat een metatag bevat voor uw favicon, voert u deze stappen uit.
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw**.
-1. Selecteer in het dialoogvenster **Nieuw paginafragment** de optie **Metatags** als de module waarop het paginafragment is gebaseerd.
-1. Voer een naam in voor het paginafragment en klik op **OK**.
+1. Selecteer in het dialoogvenster **Nieuw fragment** de optie **Metatags** als de module waarop het fragment is gebaseerd.
+1. Voer een naam in voor het fragment en klik op **OK**.
 1. Selecteer in de structuur van de fragmenthiërarchie de onderliggende waarde **Standaard metatags**.
 1. Selecteer in het rechterdeelvenster onder **Metatags** de optie **Toevoegen** en voer vervolgens de HTML-reeks in die u eerder voor de favicon hebt gemaakt. 
-1. Selecteer **Bewerken voltooien** en **Publiceren** om het paginafragment te publiceren.
+1. Selecteer **Bewerken voltooien** en **Publiceren** om het fragment te publiceren.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Het metatag-paginafragment toevoegen aan de HTML-kopsectie van uw pagina's
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Het metatagfragment toevoegen aan de HTML-sectie head van uw pagina's
 
-Als u het metatag-paginafragment wilt toevoegen aan de HTML-**kop**sectie van uw pagina's, voert u de volgende stappen uit.
+Als u het metatagfragment wilt toevoegen aan de HTML-sectie **head** van uw pagina's, voert u de volgende stappen uit.
 
 1. Ga naar **Sjablonen**, open de sjabloon voor de pagina's waaraan u uw favicon wilt toevoegen en selecteer **Bewerken**.
-1. Selecteer in de sjabloonhiërarchiestructuur de knop met het weglatingsteken (**...**) rechts van de container **HTML-kop** en selecteer **Paginafragment toevoegen**.
-1. Selecteer in het dialoogvenster **Paginafragment selecteren** het metatag-paginafragment dat u eerder hebt gemaakt, voer een naam in voor het paginafragment en selecteer vervolgens **OK**.
+1. Selecteer in de sjabloonhiërarchiestructuur de knop met het weglatingsteken (**...**) rechts van de container **HTML-kop** en selecteer **Fragment toevoegen**.
+1. Selecteer in het dialoogvenster **Fragment selecteren** het metatagfragment dat u eerder hebt gemaakt, voer een naam in voor het paginafragment en selecteer vervolgens **OK**.
 1. Selecteer **Bewerken voltooien** en **Publiceren** om de sjabloon te publiceren.
 
 > [!NOTE]
-> Als op uw site meerdere sjablonen worden gebruikt, moet u het metatag-paginafragment aan al deze sjablonen toevoegen.
+> Als op uw site meerdere sjablonen worden gebruikt, moet u het metatagfragment aan al deze sjablonen toevoegen.
 
-Wanneer u een voorbeeld bekijkt van pagina's die zijn gebaseerd op de sjabloon waaraan u het metatag-paginafragment hebt toegevoegd, ziet u nu de favicon op het browsertabblad.
+Wanneer u een voorbeeld bekijkt van pagina's die zijn gebaseerd op de sjabloon waaraan u het metatagfragment hebt toegevoegd, ziet u nu de favicon op het browsertabblad.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

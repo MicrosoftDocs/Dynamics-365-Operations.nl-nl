@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 227111f4703d9dc381270382dcb796874d7de937
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699601"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802744"
 ---
 # <a name="hazardous-materials-overview"></a>Overzicht van gevaarlijke stoffen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Om te voldoen aan de verzend- en transportregels, moeten organisaties die materialen verzenden die zijn geclassificeerd als gevaarlijke goederen, aanvullende documenten opnemen in de zending. Met de functie voor gevaarlijke goederen kunnen klanten gegevens opslaan die betrekking hebben op vrijgegeven artikelen. Deze informatie kan vervolgens worden gebruikt om verzenddocumentatie voor te bereiden. Een organisatie die gevaarlijke goederen verzendt, moet zijn eigen processen en procedures hebben voor het beheer van het verzendproces. Microsoft Dynamics 365 Supply Chain Management is slechts een hulpmiddel waarmee u de vereiste documenten kunt genereren.
 

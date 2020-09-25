@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 7dfa6353653c41330dba179331ccbd2373aef774
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
+ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651952"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3801453"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.8 (februari 2020)
 
@@ -41,10 +41,10 @@ Deze versie bevat de volgende functies. De functietitels verwijzen naar extra in
 - [Extra locatiezone](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 - [Activabeheer](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Zie voor meer informatie [Overzicht van activabeheer](../asset-management/index.md).
 - [Werk annuleren](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Zie voor meer informatie [Magazijnwerk voor afhandeling van uitzonderingen annuleren](../warehousing/cancel-warehouse-work.md).
-- [Werkgroep voor werk wijzigen](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
-- [Clusterpositie vol](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)
-- [Bevestigen en overboeken](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)
-- [Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)
+- [Werkgroep voor werk wijzigen](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Zie [Werkgroep voor werk wijzigen](../warehousing/change-work-pool-on-work.md) voor meer informatie.
+- [Clusterpositie vol](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) - Zie [Clusterpositie vol](../warehousing/cluster-position-full.md) voor meer informatie.
+- [Bevestigen en overboeken](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Zie [Bevestigen en overboeken](../warehousing/confirm-and-transfer.md) voor meer informatie.
+- [Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Zie [Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling](../warehousing/location-directive-inventory-picking-aging.md) voor meer informatie.
 - [Locatiestatus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
 - [Orderverzamelregels groeperen](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Zie voor meer informatie [Orderverzamelregels groeperen](../warehousing/pick-line-grouping.md).
 - [Automatische updates van zendingen](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Zie voor meer informatie [Zendingen automatisch bijwerken](../warehousing/auto-update-shipment.md).
@@ -54,9 +54,9 @@ Deze versie bevat de volgende functies. De functietitels verwijzen naar extra in
 - [Taakvalidatie in de magazijn-app met RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Regel voor vrijgave naar magazijn](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Visualisatie van wavestatus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [Wave-sjabloongroepering](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
-- [Details werkregel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Zie voor meer informatie de video [Work line details](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
-- [Aanvulling zonedrempel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)
+- [Wave-sjabloongroepering](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - Zie [Wave-sjabloongroepering](../warehousing/wave-template-grouping.md) voor meer informatie.
+- [Details werkregel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Zie [Details werkregel](../warehousing/work-line-details.md) en de video [Details werkregel](https://www.microsoft.com/videoplayer/embed/RE4fcYN) voor meer informatie.
+- [Aanvulling zonedrempel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - Zie [Aanvulling zonedrempel](../warehousing/zone-threshold-replenishment.md) voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

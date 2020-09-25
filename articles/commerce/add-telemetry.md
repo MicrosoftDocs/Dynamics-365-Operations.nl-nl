@@ -3,7 +3,7 @@ title: Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie
 description: In dit onderwerp wordt beschreven hoe u scriptcode op de client toevoegt aan de sitepagina's om de verzameling telemetrie aan clientzijde te ondersteunen.
 author: bicyclingfool
 manager: annbe
-ms.date: 03/20/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686809"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761244"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie
 
@@ -37,48 +37,48 @@ Webanalyses zijn een essentieel hulpmiddel om inzicht te krijgen in de manier wa
 > [!NOTE]
 > De instructies in dit onderwerp gelden ook voor andere aangepaste clientfunctionaliteit die Microsoft Dynamics 365 Commerce niet zelf aanbiedt.
 
-## <a name="create-a-reusable-page-fragment-for-your-script-code"></a>Een herbruikbare pagina maken voor uw scriptcode
+## <a name="create-a-reusable-fragment-for-your-script-code"></a>Een herbruikbaar fragment maken voor uw scriptcode
 
-Met een paginafragment kunt u inline of externe scriptcode opnieuw gebruiken voor alle pagina's van uw site, ongeacht de sjabloon die ze gebruiken.
+Met een fragment kunt u inline of externe scriptcode opnieuw gebruiken voor alle pagina's van uw site, ongeacht de sjabloon die ze gebruiken.
 
-### <a name="create-a-reusable-page-fragment-for-your-inline-script-code"></a>Een herbruikbare pagina maken voor uw inline scriptcode
+### <a name="create-a-reusable-fragment-for-your-inline-script-code"></a>Een herbruikbaar fragment maken voor uw inline scriptcode
 
-Voer de volgende stappen uit om een herbruikbaar paginafragment te maken voor de inline scriptcode in Site builder.
+Voer de volgende stappen uit om een herbruikbaar fragment te maken voor de inline scriptcode in Site Builder.
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw**.
-1. Selecteer **Inline script** in het dialoogvenster **Nieuw paginafragment**.
-1. Voer onder **Naam paginafragment** een naam in voor het fragment en selecteer **OK**.
-1. Selecteer onder het paginafragment dat u hebt gemaakt de module **Standaard inline script**.
+1. Selecteer **Inline script** in het dialoogvenster **Nieuw fragment**.
+1. Voer onder **Naam fragment** een naam in voor het fragment en selecteer **OK**.
+1. Selecteer onder het fragment dat u hebt gemaakt de module **Standaard inline script**.
 1. Voer in het eigenschappenvenster rechts onder **Inline script** uw script op de client in. Configureer vervolgens de overige opties naar wens.
 1. Selecteer **Opslaan** en vervolgens **Bewerken voltooien**.
 1. Selecteer **Publiceren**.
 
-### <a name="create-a-reusable-page-fragment-for-your-external-script-code"></a>Een herbruikbare pagina maken voor uw externe scriptcode
+### <a name="create-a-reusable-fragment-for-your-external-script-code"></a>Een herbruikbaar fragment maken voor uw externe scriptcode
 
-Voer de volgende stappen uit om een herbruikbaar paginafragment te maken voor de externe scriptcode in Site builder.
+Voer de volgende stappen uit om een herbruikbaar fragment te maken voor de externe scriptcode in Site Builder.
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw**.
-1. Selecteer **Extern script** in het dialoogvenster **Nieuw paginafragment**.
-1. Voer onder **Naam paginafragment** een naam in voor het fragment en selecteer **OK**.
-1. Selecteer onder het paginafragment dat u hebt gemaakt de module **Standaard extern script**.
+1. Selecteer **Extern script** in het dialoogvenster **Nieuw fragment**.
+1. Voer onder **Naam fragment** een naam in voor het fragment en selecteer **OK**.
+1. Selecteer onder het fragment dat u hebt gemaakt de module **Standaard extern script**.
 1. Voeg in het eigenschappenvenster aan de rechterkant onder **Scriptbron** een externe of relatieve URL toe voor de externe scriptbron. Configureer vervolgens de overige opties naar wens.
 1. Selecteer **Opslaan** en vervolgens **Bewerken voltooien**.
 1. Selecteer **Publiceren**.
 
-## <a name="add-a-page-fragment-that-includes-script-code-to-a-template"></a>Een paginafragment met scriptcode aan een sjabloon toevoegen
+## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Een fragment met scriptcode aan een sjabloon toevoegen
 
-Voer de volgende stappen uit om een paginafragment met scriptcode toe te voegen aan een sjabloon in Site builder.
+Voer de volgende stappen uit om een fragment met scriptcode toe te voegen aan een sjabloon in Site Builder.
 
 1. Ga naar **Sjablonen** en open de sjabloon voor de pagina's waaraan u de scriptcode wilt toevoegen.
 1. Vouw in het linkerdeelvenster de sjabloonhiërarchie uit om het vak **HTML-koptekst** weer te geven.
-1. Selecteer de knop met het weglatingsteken (**...**) in het vak **HTML-koptekst** en selecteer **Paginafragment toevoegen**.
+1. Selecteer de knop met het weglatingsteken (**...**) in het vak **HTML-koptekst** en selecteer **Fragment toevoegen**.
 1. Selecteer het fragment dat u voor de scriptcode hebt gemaakt.
 1. Selecteer **Opslaan** en vervolgens **Bewerken voltooien**.
 1. Selecteer **Publiceren**.
 
 ## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a>Een extern script of inline script rechtstreeks aan een sjabloon toevoegen
 
-Als u een inline of extern script rechtstreeks wilt invoegen in een set pagina's die wordt aangestuurd door één sjabloon, hoeft u niet eerst een paginafragment te maken.
+Als u een inline of extern script rechtstreeks wilt invoegen in een set pagina's die wordt aangestuurd door één sjabloon, hoeft u niet eerst een fragment te maken.
 
 ### <a name="add-an-inline-script-directly-to-a-template"></a>Een inline script rechtstreeks aan een sjabloon toevoegen
 

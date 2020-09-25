@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 785797af0fe62fa6d0ee40fb4df45bcec47780c7
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: b01162f034a948a94139aed66b7ec8d2e861ee9b
+ms.sourcegitcommit: 4b63e71fb031d8f47bd9e72dd9cdfb9bc7ef2efc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598079"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789743"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -42,6 +42,12 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 
 |Land/regio|Geplande vrijgavedatum:|Versie van release|Wettelijke update|
 |--------------------|---------------|-------|-------|
+|      Oostenrijk         |   2020 september      | 10.0.15      |   Indeling van btw-aangifte U30 is bijgewerkt voor 2020-aangifte   |
+|      Bahrein         |   Juli 2020      | 10.0.12      |   Terugboeking   |
+|      Bahrein         |   Juli 2020      | 10.0.12      |   Deadline voor uitgeven van facturen (GCC)   |
+|      Bahrein         |   Juli 2020      | 10.0.12      |   Btw-aangifte voor Bahrein   |
+|      Bahrein         |   Juli 2020      | 10.0.12      |   Verkoopfacturen voor Bahrein   |
+|      Brazilië         |   Augustus 2020      | 10.0.14, 10.0.13, 10.0.12      |   ADRCST-declaratie PR   |
 |      Brazilië         |   2020 maart      | 10.0.11      |   SPED ECD indeling 8   |
 |      Brazilië         |   2020 april      | 10.0.11      |   Technische notitie NT2019.001 v1.40   |
 |      Brazilië         |   mei 2020      | 10.0.12, 10.0.11HF      |   ADCR ICMS-ST-instructie voor de staat Parana   |
@@ -50,21 +56,35 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 |      Tsjechische Republiek      |   Juli 2020      | 10.0.13      |   Wijzigingen btw-controleoverzicht in XML-schema (lijst met facturen)   |
 |      Tsjechische Republiek         |   Juli 2020      | 10.0.13      |   Btw-aangifte in XML, voorbeeld van btw-aangifte in Excel en XML-indeling van btw-controleoverzicht gebaseerd op belastingaangiftemodel   |
 |      Estland         |   mei 2020       | 10.0.11      |   Elektronische facturering in Estland: klantenfacturen worden geëxporteerd in specifieke Estse indelingsversie 1.2.  |
+|      Europa        |   Augustus 2020       | 10.0.14      |   Btw-id van partner overbrengen naar Intrastat  |
+|      Finland         |   Juli 2020       | 10.0.13      |   Ondersteuning van elektronische facturen voor Finland  |
 |      Duitsland         |   mei 2020       | 10.0.12      |   Duitsland - Retail - Kassavereisten    |
 |      Hongarije         |   2020 maart       | 10.0.11     |   Online factureringssysteem v2.0 in Finance and Operations    |
+|      India         |   Augustus 2020, juli 2020      | 10.0.3, 10.0.12HF      |   TCS op verkoop van goederen als per sectie 206C (1H) - Drempelwaarde als per PAN-gebaseerde samenvoeging van transacties.  |
+|      India         |   Augustus 2020, juni 2020      | 10.0.13, 10.0.12HF      |   Credit-/debetnota voor exportfactuur  |
+|      India         |   Augustus 2020      | 10.0.13, 10.0.12HF, 10.0.11HF      |   Elektronische factuur onder GST  |
+|      India         |   mei 2020      | 10.0.13, 10.0.12      |   Nieuwe GSTR-1- en GSTR-2-retourindeling  |
+|      India         |   Juli 2020      | 10.0.13      |   Nieuwe offline GSTR-tool (ANX-1 & ANX-2) (bètaversie)  |
 |      India         |   mei 2020      | 10.0.12      |   Verbeteringen in de eenheidsprijs en de kostprijsverwerking in voorraadoverboekingsorders  |
 |      India         |   mei 2020      | 10.0.12      |   Op voorraadoverdracht is hetzelfde belastingtarief van toepassing op het moment van verzending en ontvangst (inclusief gedeeltelijke ontvangst)  |
 |      Italië         |   mei 2020      | 10.0.12, 10.0.11      |   Modello 770/indelingswijziging van 2019 |
 |      Italië         |   Juli 2020      | 10.0.13, 10.0.12HF      |   Wijzigingen in de indeling van Italiaanse elektronische facturen - FatturaPA |
+|      Koeweit         |   Juli 2020      | 10.0.12      |   Terugboeking |
+|      Maleisië         |   Juli 2020      | 10.0.13      |   SST-rapport |
+|      Mexico         |   2020 september      | 10.0.13HF, 10.0.12HF, 10.0.11HF      |   CFDI URL-schemalocatie op basis van Anexo 20-document |
 |      Noorwegen          |   mei 2020   | 10.0.12     |   Vernieuwd SAF-T-rapport: beginsaldi op basis van 'operationeel' het transactietype en btw-gegevens in de valuta van btw-code in Finance (versie 10) |
 |      Noorwegen          |   mei 2020   | 10.0.12     |   Wijziging in dialoogvenster in SAF-T-rapport: om de mogelijkheid te bieden om contactpersonen te selecteren voor meerdere bedrijven |
 |      Noorwegen          |   mei 2020   | 10.0.12     |   Naamruimte voor SAF-T-aangiften op elke regel in plaats van alleen in de koptekst |
+|      Oman         |   Juli 2020      | 10.0.12H      |   Terugboeking |
+|      Polen          |   2020 september     | 10.0.14     |   Polen: JPK-V7M (VDEK) Excel-indeling - ter vervanging van SSRS-rapport  |
 |      Polen          |   mei 2020     | 10.0.11     |   Splits het in AP/AR gerealiseerde verschilbedrag in wisselkoersverschil van nettowaarde van factuur en btw-bedrag  |
 |      Polen          |   mei 2020     | 10.0.11     |   SAF-boekhouding – verbeteringen in de boekingslagen filteren |
 |      Polen          |   2020 maart     | 10.0.11     |   JPK_VDEK aanvullingspakket I |
 |      Polen          |   mei 2020     | 10.0.12     |   JPK_VDEK-aanvullingspakket II |
 |      Polen          |   2020 maart     | 10.0.11     |   Gedeeltelijke creditnota voor verkooporder met voorschotfactuur |
 |      Polen          |   Juli 2020     | 10.0.13     |   Verbeteringen in verplichte gesplitste betaling |
+|      Qatar         |   Juli 2020      | 10.0.12H      |   Terugboeking |
+|      Rusland          |   Augustus 2020     | 10.0.14    |   Indeling van boekhoudrapporten wordt gewijzigd vanaf 2020  |
 |      Rusland          |   Juli 2020     | 10.0.13    |   Afschrijvingsberekening op basis van aanschafkosten en grote reparaties voor toepassing van de afschrijvingsbonus in de belastingboekhouding  |
 
 
