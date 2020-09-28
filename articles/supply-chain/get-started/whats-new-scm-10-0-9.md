@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a127fcf2bf429299dc73e338cbfc3fbf8f5f2d9f
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 936bd88faad0d24c8cd72bc153cf55c38b4a4825
+ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651976"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763426"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.9 (april 2020)
 
@@ -38,7 +38,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](https://docs.microsoft.com/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. Een aantal van deze functies kan ook in een eerdere incrementele release zijn opgenomen, maar is niet aangekondigd in een eerder onderwerp *Nieuwe functies*. Daarom worden ze hier toegevoegd. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
-- [Geavanceerde belastingopbouw tijdens een wave](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)
+- [Geavanceerde belastingopbouw tijdens een wave](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Zie [Geavanceerde ladingopbouw tijdens wave](../warehousing/advanced-load-building-during-wave.md) voor meer informatie.
 - [Zending voor cross-docken automatisch vrijgeven](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/auto-release-shipment-cross-dock)<br> - Zie voor meer informatie [Zending voor cross-docken automatisch vrijgeven](../warehousing/auto-release-shipment-for-cross-docking.md).
 - [Leveringsdatums voor inkooporders berekenen op basis van doorlooptijden en werkdagen (publieke sector)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/calculate-po-delivery-date-based-lead-times-working-days-public-sector)
 - [Productverwerking van catch weight met magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/catch-weight-product-processing-warehouse-management)<br> - Zie voor meer informatie [Verwerking van catch weight-producten bij magazijnbeheer](../warehousing/catch-weight-processing.md) en de video [Catch weight product improvements](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
@@ -51,21 +51,21 @@ Deze versie bevat de volgende functies. De functietitels verwijzen naar extra in
 - [Verbeterd taakkaartapparaat](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device)<br> - Zie voor meer informatie [Voortgang rapporteren op een mobiel taakapparaat](../production-control/tasks/report-progress-mobile-job-device.md) en [Gereedmelden vanaf het taakkaartapparaat](../production-control/report-finished-job-device.md).
 - [Kwaliteitscontrole binnenkomst](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
 - [Opslag naar ouderdom gerangschikt voorraadrapport](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-aging-report-storage)
-- [Opslag voorraadwaardenrapport](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)
+- [Opslag voorraadwaardenrapport](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)<br> - Zie [Rapport opslag van voorraadwaarden](../cost-management/inventory-value-report-storage.md) voor meer informatie
 - [Gantt-diagram met voortgang van hoofdplanning](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/master-planning-progress-gantt-chart)<br> - Zie voor meer informatie [Een hoofdplanningsuitvoering controleren](../master-planning/tasks/monitor-master-planning-run.md) en de video [MRP performance and usability improvements](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 - [Nieuwe gegevensentiteiten voor het productiegebied](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Uitgaand sorteren](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/outbound-sorting)
+- [Uitgaand sorteren](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/outbound-sorting)<br> - Zie [Uitgaand sorteren](../warehousing/outbound-sorting.md) voor meer informatie.
 - [Afmetingen voor verpakking en opslag](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 - [Parallel fiatteren van geplande orders](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Zie voor meer informatie [Fiattering parallel uitvoeren](../master-planning/maintain-planned-orders.md#parallelize-firming) en de video [MRP performance and usability improvements](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 - [Planningsoptimalisatie voor distributie](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Zie voor meer informatie [Overzicht van Planningsoptimalisatie](../master-planning/planning-optimization/planning-optimization-overview.md).
 - [Verbeteringen in inkoopovereenkomsten](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements)<br> - Zie voor meer informatie [Inkoopovereenkomsten](../procurement/purchase-agreements.md).
 - [Wegzetclusters](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters) <br> - Zie voor meer informatie de video [Put away clustering](https://www.microsoft.com/videoplayer/embed/RE4f5aB).
-- [Put to wall/put to store](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-wallput-store)
+- [Put to wall/put to store](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-wallput-store)<br> - Zie [Put to wall - put to store](../warehousing/put-to-wall-put-to-store.md) voor meer informatie.
 - [Sorteren bij ontvangst](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
 - [Verzending van kleine pakketten (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [Biedingen van leveranciers: vragen van leveranciers en samengevatte reacties](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
 - [Visuele planning van werkorders in Activabeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management)<br> - Zie voor meer informatie [Werken met geplande werkorders met behulp van een Gantt-diagram](../asset-management/work-order-scheduling/schedule-work-orders.md#gantt).
-- [Magazijnvakken](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
+- [Magazijnvakken](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)<br> - Zie [Magazijnvakken](../warehousing/warehouse-slotting.md) voor meer informatie.
 - [Verbeteringen in afdrukken van labels tijdens een wave](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [Stapcode wave](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)<br> - Zie voor meer informatie [Wave-stapcodes](../warehousing/wave-step-codes.md).
 

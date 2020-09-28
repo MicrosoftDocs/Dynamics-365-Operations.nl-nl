@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209209"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813829"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Startpagina Inkoopbeheer
 
@@ -55,7 +55,7 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 -   [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md)
 -   [Samenwerking met leveranciers instellen en onderhouden](set-up-maintain-vendor-collaboration.md)
--   [Demoscript Inkomende consignatievoorraad voor Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(whitepaper)
+-   [Demoscript Inkomende consignatievoorraad voor Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(whitepaper)
 -   [Consignmentvoorraad bewaken door middel van leverancierssamenwerking](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Samenwerken met leveranciers via de portal Leveranciers](collaborate-vendors-vendor-portal.md) (alleen versies van Dynamics AX van februari 2016 en mei 2016)
 -   [Gebruikersbeveiliging in leveranciersportal](configure-security-vendor-portal-users.md) (alleen versies van Finance and Operations van 2016 en mei 2016)
@@ -98,7 +98,7 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 -   [Workflows voor inkoopbeheer](procurement-sourcing-workflows.md)
 -   [De ontvangst van goederen registreren voor de inkooporder](tasks/record-receipt-goods-purchase-order.md)
 -   [Workflow voor opdracht tot inkoop](purchase-requisitions-workflow.md)
--   [Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (whitepaper)
+-   [Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren](https://www.microsoft.com/download/details.aspx?id=101821) (whitepaper)
 -   [Overzicht van Aanschafbeleid](purchase-policies.md)
 -   [Een aanschafbeleid maken](tasks/create-purchasing-policies.md)
 

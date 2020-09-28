@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Deze functionaliteit is beschikbaar als een openbare preview in een sandbox- of proefomgeving. Het is niet beschikbaar in productieomgevingen. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over previewfuncties vindt u in [Functies beheren](../hr-admin-manage-features.md).
+> Deze functionaliteit is geheel of gedeeltelijk beschikbaar als een openbare preview in een sandbox- of proefomgeving. Het is niet beschikbaar in productieomgevingen. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over previewfuncties vindt u in [Functies beheren](../hr-admin-manage-features.md).

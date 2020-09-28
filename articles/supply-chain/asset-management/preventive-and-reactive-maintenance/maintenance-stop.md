@@ -1,6 +1,6 @@
 ---
-title: Uitvaltijd voor onderhoud
-description: In dit onderwerp wordt uitvaltijd voor onderhoud in Activabeheer uitgelegd.
+title: Activiteiten tijdens uitvaltijd voor onderhoud
+description: In dit onderwerp wordt uitgelegd hoe uitvaltijd voor onderhoud wordt gebruikt om een overzicht te krijgen van de capaciteit die nodig is voor het uitvoeren van onderhoudstaken voor bepaalde activa gedurende een bepaalde periode.
 author: josaw1
 manager: tfehr
 ms.date: 08/27/2019
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 2f864e7fe0129f8487cddadc99b32f75a2b6d9ca
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383522"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802816"
 ---
-# <a name="maintenance-downtime"></a>Uitvaltijd voor onderhoud
+# <a name="maintenance-downtime-activities"></a>Activiteiten tijdens uitvaltijd voor onderhoud
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Uitvaltijd voor onderhoud wordt gebruikt om een overzicht te krijgen van de capaciteit die nodig is voor het uitvoeren van onderhoudstaken voor bepaalde activa gedurende een bepaalde periode. U kunt bijvoorbeeld de uitvaltijd voor onderhoud registreren voor Productieregel 10 in Productiezaal 29-A op productielocatie 02. De registratie van uitvaltijd voor onderhoud heeft een begin- en eindtijd die de periode aangeeft waarin de activa voor de onderhoudsstop niet beschikbaar zijn voor productie.
 

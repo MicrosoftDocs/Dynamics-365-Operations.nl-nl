@@ -5,6 +5,8 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 3 september 2020
+          href: hr-whats-new-2020-09-03.md
         - name: 20 augustus 2020
           href: hr-whats-new-2020-08-20.md
         - name: 6 augustus 2020
@@ -23,12 +25,12 @@
           href: hr-whats-new-2020-05-14.md
         - name: 1 mei 2020
           href: hr-whats-new-2020-05-01.md
-        - name: 13 april 2020
-          href: hr-whats-new-2020-04-13.md
-        - name: 3 april 2020
-          href: hr-whats-new-2020-04-03.md
         - name: Nieuwe functies in archieven 2020
           items:
+            - name: 13 april 2020
+              href: hr-whats-new-2020-04-13.md
+            - name: 3 april 2020
+              href: hr-whats-new-2020-04-03.md
             - name: 24 maart 2020
               href: hr-whats-new-2020-03-24.md
             - name: 19 maart 2020
@@ -55,7 +57,7 @@
           href: hr-admin-system-requirements.md
         - name: Exemplaren instellen en producten beheren
           items:
-            - name: Human resources inrichten
+            - name: Human Resources inrichten
               href: hr-admin-setup-provision.md
             - name: Een exemplaar kopiëren
               href: hr-admin-setup-copy-instance.md

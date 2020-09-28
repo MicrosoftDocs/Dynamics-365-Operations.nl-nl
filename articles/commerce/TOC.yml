@@ -92,6 +92,8 @@
                   items:
                     - name: Startpagina van Nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.14 (november 2020)
+                      href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (oktober 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (augustus 2020)
@@ -242,7 +244,7 @@
                   href: retail-hardware-station-configuration-installation.md
                 - name: Grootschalige implementatie van selfservicecomponenten
                   href: dev-itpro/retail-mass-deployment.md
-                - name: Retail-componentgebeurtenissen voor diagnostiek en probleemoplossing
+                - name: Commerce-componentgebeurtenissen voor diagnostiek en probleemoplossing
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Een implementeerbaar pakket toepassen
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
@@ -524,8 +526,10 @@
                       href: duplicate-payment-protection.md
                     - name: Overzicht van betalingen voor meerdere kanalen
                       href: omni-channel-payments.md
-                    - name: Handelsorderbetalingen voor meerdere kanalen
+                    - name: Commerce-orderbetalingen voor meerdere kanalen
                       href: dev-itpro/commerce-payments.md
+                    - name: Creditcards verwerken zonder hardwarestation
+                      href: dev-itpro/cnp-pos.md
                     - name: Veelgestelde vragen over betalingen
                       href: dev-itpro/payments-retail.md
                 - name: Bing Kaarten voor uw organisatie beheren
@@ -700,7 +704,7 @@
           items:
             - name: Klantorders
               items:
-                - name: Klantorders in MPOS
+                - name: Klantorders op het verkooppunt (POS)
                   href: customer-orders-overview.md
                 - name: Hybride klantorders
                   href: hybrid-customer-orders.md
@@ -826,6 +830,8 @@
                   href: custom-pages-user-logins.md
                 - name: Meerdere B2C-tenants configureren in een Commerce-omgeving
                   href: configure-multi-B2C-tenants.md
+                - name: Domeinen in Dynamics 365 Commerce
+                  href: domains-commerce.md
                 - name: Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen
                   href: add-cdn-support.md
                 - name: Detectie van winkels op basis van de locatie inschakelen
@@ -990,6 +996,8 @@
                       href: media-gallery-module.md
                     - name: Beoordelings- en recensiemodules
                       href: ratings-reviews-modules.md
+                    - name: Module voor sociaal delen
+                      href: social-share-module.md
                 - name: Inkoopmodules
                   items:
                     - name: Winkelwagenmodule
@@ -1026,6 +1034,12 @@
                   items:
                     - name: Breadcrumb-module
                       href: add-breadcrumb.md
+                    - name: Navigatiemenumodule
+                      href: nav-menu-module.md
+                - name: Conformiteitsmodules
+                  items:
+                    - name: Module voor cookietoestemming
+                      href: cookie-consent-module.md
             - name: Zoeken
               items:
                 - name: Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
@@ -1342,7 +1356,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/commerce/toc.json
                         - name: Terugboeken
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/commerce/toc.json
-                        - name: Splitsen
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/commerce/toc.json
@@ -1396,9 +1410,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/commerce/toc.json
                         - name: Char
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
-                        - name: Samenvoegen
+                        - name: Concatenate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/commerce/toc.json
-                        - name: Opmaak
+                        - name: Format
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/commerce/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/commerce/toc.json
@@ -1498,7 +1512,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Datum en tijd: DateValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Lijst: Lijst'
+                        - name: 'Lijst: List'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Lijst: ListOfFields'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
@@ -1652,9 +1666,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: De uitvoering van ER-opmaakelementen uitstellen
                   items:
-                    - name: De uitvoering van een volgorde-element uitstellen
+                    - name: De uitvoering van reekselementen in ER-indelingen uitstellen
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                    - name: De uitvoering van een XML-element uitstellen
+                    - name: De uitvoering van XML-elementen in ER-indelingen uitstellen
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
             - name: Oplossingen voor elektronische rapportage gebruiken in Finance and Operations
               items:

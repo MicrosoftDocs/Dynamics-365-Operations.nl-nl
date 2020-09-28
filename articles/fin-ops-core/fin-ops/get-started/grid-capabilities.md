@@ -3,7 +3,7 @@ title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. De nieuwe rasterfunctie moet zijn ingeschakeld als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
 manager: AnnBe
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651685"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760394"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Het nieuwe rasterbesturingselement biedt een aantal handige en krachtige functies die kunnen worden gebruikt om de productiviteit van gebruikers te verbeteren, interessantere weergaven van uw gegevens te maken en inzicht te krijgen in uw gegevens. In dit artikel worden de volgende mogelijkheden besproken: 
 
 -  Totalen worden berekend
--  Gegevens groeperen
 -  Voor het systeem uit typen
 -  Wiskundige expressies evalueren 
+-  Tabelgegevens groeperen (afzonderlijk ingeschakeld met de functie **(Preview) Groeperen in rasters**)
 
 ## <a name="calculating-totals"></a>Totalen worden berekend
 In Finance and Operations-apps kunnen gebruikers totalen weergeven onder aan numerieke kolommen in rasters. Deze totalen worden weergegeven in een voettekstsectie onder in het raster. 
@@ -71,21 +70,6 @@ Als de berekening te lang duurt, kunt u de bewerking annuleren door de knop **An
 
 Totalen worden automatisch bijgewerkt wanneer u rijen bijwerkt, verwijdert of maakt in de gegevensset.  
 
-## <a name="grouping-data"></a>Gegevens groeperen
-Zakelijke gebruikers moeten vaak ad hoc gegevensanalyse uitvoeren. U kunt dit doen door gegevens te exporteren naar Microsoft Excel en draaitabellen te gebruiken, maar met de functie **Groepering** in tabelrasters kunnen gebruikers hun gegevens op interessante manieren ordenen in Finance and Operations-apps. Aangezien deze functie de functie **Totalen** uitbreidt, kunt u met **Groepering** ook duidelijke inzichten krijgen in de gegevens door subtotalen op te geven op groepsniveau.
-
-Als u deze functie wilt gebruiken, klikt u met de rechtermuisknop op de kolom waarop u wilt groeperen en selecteert u **Groeperen op deze kolom**. Met deze actie sorteert u de gegevens op de geselecteerde kolom, voegt u een nieuwe Groeperen op-kolom toe aan het begin van het raster en voegt u 'koptekstrijen' toe aan het begin van elke groep. Deze koptekstrijen bevatten de volgende informatie over elke groep: 
--  Gegevenswaarde voor de groep 
--  Kolomlabel (Deze informatie wordt vooral nuttig wanneer meerdere groeperingsniveaus worden ondersteund.)
--  Aantal gegevensrijen in deze groep
--  Subtotalen voor alle kolommen die zijn geconfigureerd voor weergave van totalen
-
-Als [Opgeslagen weergaven](saved-views.md) is ingeschakeld, kan deze groepering worden opgeslagen als onderdeel van een weergave voor snelle toegang, de volgende keer dat u de pagina bezoekt.  
-
-Als u **Groeperen op deze kolom** selecteert voor een andere kolom, wordt de oorspronkelijke groepering vervangen omdat er slechts één groeperingsniveau wordt ondersteund in versie 10.0.9 met Platform update 33.
-
-Als u het groeperen in een raster ongedaan wilt maken, klikt u met de rechtermuisknop op de groepeerkolom en selecteert u **Groepering opheffen**.  
-
 ## <a name="typing-ahead-of-the-system"></a>Voor het systeem uit typen
 In veel zakelijke scenario's is het heel belangrijk om snel gegevens in het systeem in te voeren. Voordat het nieuwe rasterbesturingselement werd geïntroduceerd, konden gebruikers alleen gegevens in de huidige rij wijzigen. Voordat ze een nieuwe rij kunnen maken of naar een andere rij kunnen overschakelen, moeten gebruikers wachten tot de wijzigingen zijn gevalideerd door het systeem. In een poging om de tijd te beperken dat gebruikers wachten op de voltooiing van deze validaties en om de productiviteit van gebruikers te verbeteren, worden deze validaties door het nieuwe raster zodanig aangepast dat ze asynchroon zijn. De gebruiker kan dus naar andere rijen gaan om wijzigingen aan te brengen terwijl de validatie van de vorige rij in behandeling is. 
 
@@ -109,6 +93,32 @@ Ter bevordering van de productiviteit kunnen gebruikers wiskundige formules invo
 
 Als u wilt dat het systeem een waarde herkent als een expressie, start u de waarde met het gelijkteken (**=**). Zie [Ondersteunde wiskundige symbolen](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols) voor meer informatie over de ondersteunde operators en syntaxis.
 
+## <a name="grouping-tabular-data"></a>Tabelgegevens groeperen
+[!include [preview banner](../includes/preview-banner.md)]
+
+Zakelijke gebruikers moeten vaak ad hoc gegevensanalyse uitvoeren. U kunt dit doen door gegevens te exporteren naar Microsoft Excel en draaitabellen te gebruiken, maar met de functie **(Preview) Groepering in rasters**, die afhankelijk is van de functie Nieuw rasterbesturingselement, kunnen gebruikers hun tabelgegevens op interessante manieren ordenen in Finance and Operations-apps. Aangezien deze functie de functie **Totalen** uitbreidt, kunt u met **Groepering** duidelijke inzichten krijgen in de gegevens door subtotalen op te geven op groepsniveau.
+
+Als u deze functie wilt gebruiken, klikt u met de rechtermuisknop op de kolom waarop u wilt groeperen en selecteert u **Groeperen op deze kolom**. Met deze actie sorteert u de gegevens op de geselecteerde kolom, voegt u een nieuwe **Groeperen op-kolom** toe aan het begin van het raster en voegt u 'koptekstrijen' toe aan het begin van elke groep. Deze koptekstrijen bevatten de volgende informatie over elke groep: 
+-  Gegevenswaarde voor de groep 
+-  Kolomnaam (Deze informatie wordt vooral nuttig wanneer meerdere groeperingsniveaus worden ondersteund.)  
+-  Aantal gegevensrijen in deze groep
+-  Subtotalen voor alle kolommen die zijn geconfigureerd voor weergave van totalen
+
+Als [Opgeslagen weergaven](saved-views.md) is ingeschakeld, kan deze groepering worden opgeslagen als onderdeel van een weergave voor snelle toegang, de volgende keer dat u de pagina bezoekt.  
+
+Als u **Groeperen op deze kolom** selecteert voor een andere kolom, wordt de oorspronkelijke groepering vervangen omdat er slechts één groeperingsniveau wordt ondersteund vanaf versie 10.0.9/platformupdate 33.
+
+Als u het groeperen in een raster ongedaan wilt maken, klikt u met de rechtermuisknop op de groepeerkolom en selecteert u **Groepering opheffen**.  
+
+### <a name="expanding-and-collapsing-groups"></a>Groepen uitvouwen en samenvouwen
+Bij de eerste groepering van gegevens worden zijn alle groepen uitgevouwen. U kunt samengevatte weergaven van de gegevens maken door afzonderlijke groepen samen te vouwen of u kunt de functie voor het uit- en samenvouwen van groepen gebruiken om te helpen bij het navigeren door de gegevens. Als u een groep wilt uitvouwen of samenvouwen, selecteert u de punthaakknop (>) in de desbetreffende rij van de groepskoptekst. De status voor uitvouwen/samenvouwen van afzonderlijke groepen wordt **niet** opgeslagen bij personalisatie.
+
+### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Rijen op groepsniveau selecteren en de selectie ervan opheffen
+Op dezelfde manier waarop u alle rijen in het raster kunt selecteren (of deselecteren) door het selectievakje boven aan de eerste kolom in het raster in te schakelen, kunt u ook snel alle rijen in een groep selecteren (of deselecteren) door het selectievakje in de desbetreffende rij van de groepskop tekst in te schakelen. Het selectievakje in de rij van de groepskoptekst komt altijd overeen met de huidige selectiestatus van rijen in die groep, ongeacht of alle rijen zijn geselecteerd, er geen rijen zijn geselecteerd of er slechts enkele rijen zijn geselecteerd.
+
+### <a name="hiding-column-names"></a>Kolomnamen verbergen
+Wanneer u gegevens groepeert, wordt standaard de kolomnaam weergegeven in de rij van de groepskoptekst. Vanaf versie 10.0.14/platformupdate 38 kunt u de kolomnaam in groepskoprijen onderdrukken door **Rasteropties** > **Groepskolomnaam verbergen** te selecteren.
+
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hoe kan ik het nieuwe rasterbesturingselement inschakelen in mijn omgeving? 
 
@@ -131,7 +141,7 @@ Alle volgende gebruikerssessies worden gestart met het nieuwe rasterbesturingsel
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Ontwikkelaar] Uitschakelen dat afzonderlijke pagina's het nieuwe raster gebruiken 
 Als uw organisatie een pagina vindt met problemen met het nieuwe raster, is er een API beschikbaar waarmee een afzonderlijk formulier het oude rasterbesturingselement kan gebruiken, terwijl de rest van het systeem nog steeds het nieuwe rasterbesturingselement kan gebruiken. Als u een afzonderlijke pagina van het nieuwe raster wilt afmelden, voegt u de volgende aanroep `super()` toe aan de methode `run()` van het formulier.
 
-        this.forceLegacyGrid();
+ ```this.forceLegacyGrid();```
 
 Deze API wordt uitgevoerd tot de release van oktober 2021 wanneer het nieuwe rasterbesturingselement verplicht wordt. Meld eventuele problemen aan Microsoft waarvoor deze API moet worden gebruikt. 
 

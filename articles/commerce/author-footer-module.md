@@ -3,7 +3,7 @@ title: Voettekstmodule
 description: In dit onderwerp wordt beschreven wat voettekstmodules zijn en hoe u ze ontwerpt in Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686713"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761196"
 ---
 # <a name="footer-module"></a>Voettekstmodule  
 
@@ -51,7 +51,7 @@ Net als de meeste containers ondersteunt een voettekstmodule de eigenschappen vo
 ## <a name="create-a-footer-module"></a>Een voettekstmodule maken
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
-1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Container**, voer een naam in voor het paginafragment en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Nieuw fragment** de module **Container**, voer een naam in voor het fragment en selecteer vervolgens **OK**.
 1. Selecteer het weglatingsteken (**...**) in het vak **Standaardcontainer** en selecteer **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de **Voettekstcategoriemodule** en selecteer vervolgens **OK**.
 1. Selecteer het weglatingsteken (**...**) in het vak **Voettekstcategorie** en selecteer **Module toevoegen**.
@@ -68,7 +68,7 @@ Volg deze stappen op elke paginasjabloon die voor de site wordt gemaakt om te ga
 1. Voeg in het vak **Voettekst** van de module **Standaardpagina** in de voettekstmodule het voettekstfragment toe dat u hebt gemaakt.
 1. Selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 
-Door het paginafragment aan de paginasjablonen toe te voegen zorgt u dat de voettekst op elke pagina wordt weergegeven.
+Door het fragment aan de paginasjablonen toe te voegen, zorgt u dat de voettekst op elke pagina wordt weergegeven.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 

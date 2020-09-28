@@ -3,7 +3,7 @@ title: Een teamkalender maken
 description: Geef teamkalenders weer en maak deze in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712203"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796464"
 ---
 # <a name="view-team-and-company-calendars"></a>Team- en bedrijfsagenda's weergeven
 
@@ -43,13 +43,29 @@ Managers kunnen ook toegang krijgen tot de teamkalender via **Uitstaande verlofa
 
 ## <a name="view-a-company-calendar"></a>Een bedrijfskalender weergeven
 
-Mensen in Human resources-rollen kunnen bedrijfskalenders weergeven. In bedrijfs kalenders worden alle werknemers weergegeven. Standaard wordt in de kalender de datum van vandaag plus 28 dagen weergegeven, maar u kunt het datumbereik wijzigen. U kunt de kalender ook filteren op **naam**, **personeelsnummer**en **verloftype**.
+Mensen in Human Resources-rollen kunnen bedrijfskalenders weergeven. In bedrijfs kalenders worden alle werknemers weergegeven. Standaard wordt in de kalender de datum van vandaag plus 28 dagen weergegeven, maar u kunt het datumbereik wijzigen. U kunt de kalender ook filteren op **naam**, **personeelsnummer**en **verloftype**.
 
 1. Selecteer in het werkgebied **Verlof en verzuim** de optie **Koppelingen**.
 
 2. Selecteer **Verlof- en verzuimkalender**.
 
 Rollen van Human Resources kunnen ook toegang krijgen tot de bedrijfskalender via **Aanvragen voor verlof en verzuim**, **Goedgekeurd verlof** en **Verlofaanvragen**. 
+
+[!include [banner](includes/preview-feature.md)]
+
+Kalenders bevatten nu extra filters en opties. Alle kalenders bevatten weergaveopties voor:
+
+- Goedgekeurde aanvragen
+- Aanvragen in behandeling
+- Werknemers met verlofaanvragen
+- Werknemers zonder verlofaanvragen
+- Verjaardagen van werknemers
+- Verlofaanvragen 
+- Verlofaanvragen
+
+Kalenderconfiguratie in Verlof- en verzuimparameters bepalen beschikbare weergaveopties.
+
+U kunt kalenders ook filteren op manager of afdeling. De primaire positietoewijzing bepaalt welke werknemers worden weergegeven wanneer deze filters zijn ingesteld. 
 
 Zie [Kalenderparameters configureren](hr-leave-and-absence-parameters.md?configure-calendar-parameters) voor meer informatie over kalenderinstellingen.
 

@@ -1,9 +1,9 @@
 ---
 title: Nieuwe of gewijzigde functies in Human Resources
-description: Elke week brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De artikelen die in deze sectie worden vermeld, beschrijven de wijzigingen die elke week worden aangebracht.
+description: Elke week brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De onderwerpen die hier worden vermeld, beschrijven de wijzigingen die elke week worden aangebracht.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f814395405003464e9f101fb0f46b64e64971b68
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712163"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760296"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Nieuwe of gewijzigde functies in Human Resources
 
-Elke twee weken brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De artikelen in deze sectie beschrijven de wijzigingen die met elke release worden aangebracht.
+Elke twee weken brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De onderwerpen die hier worden vermeld, beschrijven de wijzigingen in elke versie.
 
-Zie het volgende artikel voor meer informatie over geplande nieuwe functies of het updateproces voor Human Resources:
+>[!NOTE]
+>Om rekening te houden met feestdagen, is de releaseplanning voor november en december 2020 als volgt:
+>
+>- Release van november: 2 november - 13 november
+>- Release van december: 30 november - 11 december
+> 
+>Her releasetempo van een keer per twee weken wordt op de gebruikelijke manier hervat op 11 januari 2021.
+
+Zie het volgende artikel voor meer informatie over geplande nieuwe functies of het updateproces voor Human Resources: 
 
 - [Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
@@ -41,6 +49,7 @@ Zie het volgende artikel voor meer informatie over geplande nieuwe functies of h
 
 Zie de volgende artikelen voor wat er nieuw of gewijzigd is in elke tweewekelijkse versies van Human Resources:
 
+[3 september 2020](hr-whats-new-2020-09-03.md)</br>
 [20 augustus 2020](hr-whats-new-2020-08-20.md)</br>
 [6 augustus 2020](hr-whats-new-2020-08-06.md)</br>
 [23 juli 2020](hr-whats-new-2020-07-23.md)</br>

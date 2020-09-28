@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6585e44701160bf31c107c07226f992b12cf035e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 207783f5a44d5c6432539ac27a8c491bca811da4
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550643"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760026"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
 
@@ -101,7 +101,7 @@ Stel dat u bent begonnen met het ontwerpen van een nieuwe ER-oplossing om een ni
 
 Stel dat u klaar bent met het ontwerpen van de eerste versie van de ER-oplossing. U moet deze nu testen in uw exemplaar en de uitvoeringsprestaties analyseren.
 
-### <a id='import-configuration'></a>Een ER-configuratie uit RCS importeren in Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Een ER-configuratie uit RCS importeren in Finance and Operations
 
 1. Meld u aan bij uw exemplaat van de toepassing.
 2. Voor deze zelfstudie importeert u configuraties vanuit uw RCS-exemplaar (waarin u de ER-onderdelen ontwerpt) in uw exemplaar (waar u ze test en uiteindelijk gebruikt). Daarom moet u ervoor zorgen dat alle vereiste artefacten zijn voorbereid. Zie voor meer instructies de procedure [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
@@ -146,7 +146,7 @@ De bijbehorende versies van de gegevensmodel- en modeltoewijzingsconfiguraties w
 
     ![Dialoogvenster voor gebruikersparameters](./media/GER-PerfTrace-GER-UserParameters.png)
 
-### <a id='run-format'></a>De ER-indeling uitvoeren
+### <a name="run-the-er-format"></a><a id='run-format'></a>De ER-indeling uitvoeren
 
 1. Selecteer het bedrijf **DEMF**.
 2. Ga naar **Organisatiebeheer \> Elektronische rapportage \> Configuraties**.
@@ -157,7 +157,7 @@ Het bestand dat wordt gegenereerd, bevat informatie over 265 transacties voor ze
 
 ## <a name="review-the-execution-trace"></a>De uitvoeringstracering controleren
 
-### <a id='export-trace'></a>De gegenereerde tracering vanuit de toepassing exporteren
+### <a name="export-the-generated-trace-from-the-application"></a><a id='export-trace'></a>De gegenereerde tracering vanuit de toepassing exporteren
 
 Prestatietraceringen worden losgekoppeld van de ER-bronindeling en kunnen worden geserialiseerd naar een extern zipbestand.
 
@@ -176,7 +176,7 @@ Prestatietraceringen worden losgekoppeld van de ER-bronindeling en kunnen worden
 
 De koppeling tussen de prestatietracering die is gegenereerd voor de uitgevoerde ER-indeling en de ER-modeltoewijzing is gebaseerd op de gebruikte basisdescriptor en het gemeenschappelijke gegevensmodel. Er wordt geen rekening gehouden met de versienummers van de indelings- en modeltoewijzing. Ook de instelling van de markering **Standaard voor modeltoewijzing** voor de modeltoewijzing wordt niet in overweging genomen.
 
-### <a id='import-trace'></a>De gegenereerde tracering in RCS importeren
+### <a name="import-the-generated-trace-into-rcs"></a><a id='import-trace'></a>De gegenereerde tracering in RCS importeren
 
 1. Selecteer in RCS in het werkgebied **Elektronische rapportage** de tegel **Rapportconfiguraties**.
 2. Vouw op de pagina **Configuraties** in de configuratiestructuur het item **Prestatietraceringsmodel** uit en selecteer het item **Indeling voor prestatietracering**.
@@ -201,7 +201,7 @@ De koppeling tussen de prestatietracering die is gegenereerd voor de uitgevoerde
 
 2. Sluit de pagina **Indelingsontwerper**.
 
-### <a id='use-trace'></a>De prestatietracering gebruiken voor analyse in RCS – Modeltoewijzing
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a><a id='use-trace'></a>De prestatietracering gebruiken voor analyse in RCS – Modeltoewijzing
 
 1. Selecteer in RCS op de pagina **Configuraties** in de configuratiestructuur het item **Toewijzing voor prestatietracering**.
 2. Selecteer **Ontwerper** in het actievenster.
@@ -301,7 +301,7 @@ Herhaal de stappen uit het gedeelte [Een ER-configuratie uit RCS importeren in F
 
 Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit onderwerp om een nieuwe prestatietracering te genereren.
 
-## <a name="review-the-execution-trace"></a>De uitvoeringstracering controleren
+## <a name="work-with-the-execution-trace"></a>Werken met de uitvoeringstracering
 
 ### <a name="export-the-generated-trace-from-the-application"></a>De gegenereerde tracering exporteren vanuit de toepassing
 
@@ -347,7 +347,7 @@ Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerd
 
 U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat de prestatietracering in PerfView-indeling. Vervolgens kunt u het PerfView-hulpprogramma voor prestatieanalyse gebruiken om de details van de ER-indelingsuitvoering te analyseren.
 
-![Traceringsgegeven voor de uitgevoerde ER-indeling in PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Prestatietraceringsgegevens in PerfView-indeling](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Externe hulpprogramma's gebruiken om een uitvoeringstracering met databasequery's te controleren.
 
@@ -363,7 +363,7 @@ Vanwege verbeteringen in het ER-raamwerk biedt de prestatietracering die in de P
     - Stel de optie **Statistieken voor query's verzamelen** in op **Ja**.
     - Stel de optie **Query traceren** in op **Ja**.
 
-    ![Dialoogvenster voor gebruikersparameters](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![De sectie Uitvoeringstracering, dialoogvenster Gebruikersparameters](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>De ER-indeling uitvoeren
 
@@ -372,3 +372,8 @@ Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerd
 U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat de prestatietracering in PerfView-indeling. Vervolgens kunt u het PerfView-hulpprogramma voor prestatieanalyse gebruiken om de details van de ER-indelingsuitvoering te analyseren. Deze tracering bevat nu de details van SQL-databasetoegang tijdens de uitvoering van de ER-indeling.
 
 ![Traceringsgegeven voor de uitgevoerde ER-indeling in PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+- [Overzicht van elektronische rapportage](general-electronic-reporting.md)
+- [De prestaties van ER-oplossingen verbeteren door BEREKEND VELD-gegevensbronnen met parameters toe te voegen](er-calculated-field-ds-performance.md)

@@ -3,7 +3,7 @@ title: Een pagina met het privacybeleid toevoegen
 description: In dit onderwerp wordt beschreven hoe u een pagina met het privacybeleid toevoegt in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686690"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761268"
 ---
 # <a name="add-a-privacy-policy-page"></a>Een pagina met het privacybeleid toevoegen
 
@@ -89,8 +89,8 @@ U kunt aan een fragment een koppeling naar de privacybeleidspagina toevoegen. Op
 Ga als volgt te werk om een koppeling aan een voettekstfragment toe te voegen.
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw** om een paginafragment te maken.
-1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Voettekst**.
-1. Voer onder **Naam paginafragment** een naam in voor het fragment en selecteer **OK**.
+1. Selecteer in het dialoogvenster **Nieuw fragment** de module **Voettekst**.
+1. Voer onder **Naam fragment** een naam in voor het fragment en selecteer **OK**.
 1. Voeg in het vak **Voettekstcategorie** een module **Voettekstitem** toe.
 1. Selecteer **Koppelingstekst** in het eigenschappenvenster aan de rechterkant.
 1. Voer in het dialoogvenster **Koppelingstekst** de koppelingstekst en het koppelingsdoel van de privacybeleidspagina in en klik op **OK**.

@@ -3,7 +3,7 @@ title: Module voor koopvak
 description: In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686665"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761292"
 ---
 # <a name="buy-box-module"></a>Module voor koopvak
 
@@ -59,10 +59,13 @@ Met thema's kunnen producteigenschappen en actiecontroles uit het koopvak worden
 
 - **Koptekstlabel**: deze eigenschap bepaalt het koptekstlabel voor de producttitel. Als het koopvak bovenaan de pagina staat, moet deze eigenschap worden ingesteld op **h1** om te voldoen aan toegankelijkheidsstandaarden. 
 
+- **Aanbevelingen voor vergelijkbare artikelen inschakelen**: met deze eigenschap kan het koopvak koppelingen naar producten bevatten die lijken op het weergegeven artikel. Deze functie is beschikbaar in Commerce-versies 10.0.13 en hoger.
+
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Modules die in de koopvakmodule kunnen worden gebruikt
 
 - **Mediagalerie** - wordt gebruikt om afbeeldingen van een product te presenteren op een pagina met productdetails. Zie [Module Mediagalerie](media-gallery-module.md) voor meer informatie over deze module.
 - **Winkelselectie**: deze module toont een lijst met nabijgelegen winkels waar een artikel beschikbaar is voor ophalen. Hiermee kunnen gebruikers een locatie invoeren om te zoeken naar winkels in de buurt. Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over deze module.
+- **Sociale delen**: deze module kan worden toegevoegd aan het koopvak, zodat gebruikers productinformatie kunnen delen op sociale media. Zie [Module voor sociaal delen](social-share-module.md) voor meer informatie.
 
 ## <a name="buy-box-module-settings"></a>Instellingen voor koopvakmodule
 
@@ -85,8 +88,8 @@ De koopvakmodule haalt productinformatie op met behulp van Commerce Scale Unit-A
 Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
-1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Koopvak**.
-1. Voer onder **Naam paginafragment** de naam in voor het **Koopvakfragment** en selecteer **OK**.
+1. Selecteer in het dialoogvenster **Nieuw fragment** de module **Koopvak**.
+1. Voer onder **Naam fragment** de naam **Koopvakfragment** in en selecteer **OK**.
 1. Selecteer in het vak **Mediagalerie** van de koopvakmodule het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de **Mediagalerie** en selecteer vervolgens **OK**.
 1. Selecteer in het vak **Winkelselectie** van de koopvakmodule het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
@@ -96,13 +99,13 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **PDP-sjabloon** in en selecteer vervolgens **OK**.
 1. Selecteer het weglatingsteken (**...**) in het vak **Hoofdtekst** en selecteer **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de module **Standaardpagina** en selecteer vervolgens **OK**.
-1. Selecteer in het vak **Hoofd** van de standaardpagina de knop met het weglatingsteken (**...**) en vervolgens **Paginafragment toevoegen**.
-1. Selecteer in het dialoogvenster **Paginafragment selecteren** het **Koopvakfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de standaardpagina de knop met het weglatingsteken (**...**) en vervolgens **Fragment toevoegen**.
+1. Selecteer in het dialoogvenster **Fragment selecteren** het fragment **Koopvakfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
 1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de **PDP-sjabloon**. Voer onder **Paginanaam** **PDP-pagina** in en selecteer vervolgens **OK**.
-1. Selecteer in het vak **Hoofd** van de nieuwe pagina de knop met het weglatingsteken (**...**) en vervolgens **Paginafragment toevoegen**.
-1. Selecteer in het dialoogvenster **Paginafragment selecteren** het **Koopvakfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de nieuwe pagina de knop met het weglatingsteken (**...**) en vervolgens **Fragment toevoegen**.
+1. Selecteer in het dialoogvenster **Fragment selecteren** het fragment **Koopvakfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
 1. Sla de pagina op en bekijk een voorbeeld. Voeg de parameter voor de querytekenreeks **?productid=&lt;product id&gt;** toe aan de URL van de voorbeeldpagina. Op die manier wordt de productcontext gebruikt om de voorbeeldpagina te laden en weer te geven.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren. Op de pagina met productgegevens moet nu het koopvak worden weergegeven.
 
@@ -118,8 +121,6 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 
 [Winkelwagenmodule](add-cart-module.md)
 
-[Module winkelwagenpictogram](cart-icon-module.md)
-
 [Kassamodule](add-checkout-module.md)
 
 [Orderbevestigingsmodule](order-confirmation-module.md)
@@ -127,5 +128,7 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 [Koptekstmodule](author-header-module.md)
 
 [Voettekstmodule](author-footer-module.md)
+
+[Module voor sociaal delen](social-share-module.md)
 
 [Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md)
