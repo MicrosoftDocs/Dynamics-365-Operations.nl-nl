@@ -1,10 +1,12 @@
 - name: Dynamics 365 Human Resources
   href: hr-welcome.md
   items:
-    - name: Nieuw
+    - name: Nieuwe functies
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 16 september 2020
+          href: hr-whats-new-2020-09-16.md
         - name: 3 september 2020
           href: hr-whats-new-2020-09-03.md
         - name: 20 augustus 2020
@@ -201,7 +203,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Maken en werken met aangepaste velden
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: PowerApps-apps insluiten
+            - name: Canvas-apps uit Power Apps insluiten
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: Informatie vinden met zoekopdrachten
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json

@@ -150,7 +150,7 @@
           href: modular-app-tech-faq.md
         - name: Gegevens exporteren uit Attract en Onboard
           href: attract-onboard-export-data.md
-        - name: Microsoft Power Apps insluiten
+        - name: Canvas-apps uit Power Apps insluiten
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Ondersteuning voor Talent
           href: talent-support.md
@@ -250,5 +250,7 @@
           href: attract-troubleshoot-linkedin.md
         - name: 'Gebruiker heeft toegang tot Human Resources, maar niet tot de app Onboard of Attract'
           href: user-access-core-hr.md
-        - name: Azure Active Directory-gebruikers niet gevonden in personenkiezer
+        - name: Azure Active Directory-gebruikers niet gevonden in Personen selecteren
           href: people-picker-user-not-found.md
+        - name: Attract-gebruikers kunnen niet solliciteren op banen in de vacatureportal
+          href: attract-troubleshoot-career-portal.md

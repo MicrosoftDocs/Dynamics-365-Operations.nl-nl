@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: Op prioriteit gebaseerde aanvraagbeperking
               hreF: data-entities/priority-based-throttling.md
+            - name: Veelgestelde vragen over Op prioriteit gebaseerde aanvraagbeperking
+              href: data-entities/throttling-faq.md
             - name: Gegevensintegratie-API's
               items:
                 - name: REST API voor gegevensbeheerpakket
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: Migratie van valutagegevenstype voor twee keer wegschrijven
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: De toewijzing instellen voor de verkooporderstatusvelden
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: Twee keer wegschrijven beheren
                           items:
                             - name: Entiteits- en veldtoewijzingen aanpassen
@@ -522,7 +526,7 @@
                       href: deployment/onprem-reuseadfs.md
                 - name: Lokale agent
                   items:
-                    - name: AD FS Office 365-compatibiliteit
+                    - name: AD FS Microsoft 365-compatibiliteit
                       href: deployment/onprem-adfscompatibility.md
                     - name: Scripts voor vóór en na de implementatie voor lokale agenten
                       href: lifecycle-services/pre-post-scripts.md
@@ -627,9 +631,7 @@
                 - name: Zelfstudie ontwikkelingshulpmiddelen
                   href: dev-tools/introduction-visual-studio.md
                 - name: Toepassingscontrole
-                  items:
-                    - name: BaseX voor Toepassingscontrole installeren
-                      href: dev-tools/install-basex.md
+                  href: dev-tools/application-checker.md
                 - name: Toepassingsverkenner
                   href: dev-tools/application-explorer.md
                 - name: Projecten bouwen en fouten opsporen
@@ -860,7 +862,7 @@
                       href: extensibility/customize-model-elements-extensions.md
                     - name: Aanpassen via extensies en overlayering
                       href: extensibility/customization-overlayering-extensions.md
-                - name: Nieuw
+                - name: Nieuwe functies
                   items:
                     - name: Nieuwe of gewijzigde functies voor uitbreidbaarheid
                       href: extensibility/extensibility-new.md
@@ -1368,6 +1370,24 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: Type ValueMetadata
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: Raamwerk voor procesautomatisering
+          items:
+            - name: Ontwikkeling van raamwerk voor procesautomatisering
+              href: process-automation/process-automation-framework.md
+            - name: Type registratie
+              href: process-automation/type-registration.md
+            - name: Serieregistratie
+              href: process-automation/series-registration.md
+            - name: Procesparameters
+              href: process-automation/process-parameters.md
+            - name: Door gebruiker te configureren query's
+              href: process-automation/user-queries.md
+            - name: Het proces uitvoeren
+              href: process-automation/run-process.md
+            - name: Resultaten en berichten registreren
+              href: process-automation/log-results.md
+            - name: De gebruikersinterface aanpassen
+              href: process-automation/ui-customization.md
         - name: Regression Suite Automation Tool
           items:
             - name: Overzicht van Regression Suite Automation Tool
@@ -1395,7 +1415,7 @@
             - name: Ontwikkelen en vrijgeven
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: Uitbrengen en publiceren
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: Methodologieën toevoegen
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: Modelleertool bedrijfsprocessen instellen voor bibliotheken
