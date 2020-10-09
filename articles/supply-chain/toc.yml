@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Maken en werken met aangepaste velden
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft Power Apps insluiten
+                - name: Canvas-apps uit Power Apps insluiten
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Informatie vinden met zoekopdrachten
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -1655,6 +1655,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Werkstroom voor Inkoopbeheer
               href: procurement/procurement-sourcing-workflows.md
+            - name: Problemen oplossen met werkstromen voor inkoopbeheer
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Aanschaffingscatalogi
               items:
                 - name: Overzicht van Aanschaffingscatalogi
@@ -1695,6 +1697,8 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: De ontvangst van goederen registreren voor de inkooporder
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Problemen oplossen met inkooporders
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Inkooporder maken
               items:
                 - name: Inkooporders handmatig maken
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Leverancierskortingen
                   href: procurement/vendor-rebates.md
+                - name: 'Problemen oplossen met prijzen, kortingen en overeenkomsten'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Aanschafbeleid
               items:
                 - name: Overzicht van Aanschafbeleid
@@ -1739,6 +1745,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Overzicht van leveranciersfacturen
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Problemen oplossen met productontvangsten en -facturering
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Leveranciersbeheer en samenwerking
               items:
                 - name: Samenwerking met leveranciers instellen en onderhouden
@@ -1765,6 +1773,8 @@
                   href: procurement/vendor-catalogs-import.md
                 - name: Externe catalogus instellen voor PunchOut eProcurement
                   href: procurement/set-up-external-catalog-for-punchout.md
+                - name: Verbeteringen inkoop-cXML
+                  href: procurement/purchasing-cxml-enhancements.md
                 - name: Externe catalogi gebruiken voor PunchOut eProcurement
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: Mobiel werkgebied voor leverancierssamenwerking
@@ -2261,9 +2271,11 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Verkooporders bevestigen
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Problemen oplossen met verkooporders
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Verkoopovereenkomsten
               items:
-                - name: Overzicht van Verkoopovereenkomsten
+                - name: Overzicht van verkoopovereenkomsten
                   href: sales-marketing/sales-agreements.md
                 - name: Verkoopovereenkomsten invoeren
                   href: sales-marketing/tasks/enter-sales-agreements.md
@@ -2279,10 +2291,12 @@
               items:
                 - name: Prijssimulatie
                   href: sales-marketing/price-simulation.md
-                - name: Massaal verkoopoffertes maken
+                - name: Verkoopoffertes massaal maken
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Verkoopoffertes maken en bewerken
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Problemen oplossen met verkoopoffertes
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Retouren
               items:
                 - name: Verkoopretouren
@@ -2807,18 +2821,20 @@
                   items:
                     - name: De app voor magazijnbeheer installeren en verbinden
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Streepjescodes scannen met een camera in de magazijnapp
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Veldnamen in app voor magazijnbeheer configureren
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiele apparaten instellen voor magazijnwerk
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Streepjescodes scannen met een camera in de magazijnapp
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Nummerplaat ontvangen met de app voor magazijnbeheer
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Een menuopdracht voor een mobiel apparaat instellen om een overzicht van een orderverzamelregel te geven
+                      href: warehousing/pick-line-overview.md
                     - name: Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Gecombineerde nummerplaat ontvangen op een mobiel apparaat
