@@ -3,7 +3,7 @@ title: Geschenkbonmodule
 description: In dit onderwerp worden geschenkbonmodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4cc947b9d6f3cfa51bce2155170c49e9529d0f7d
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: fc47d590789c79c08af7555222aa7cc9409da23c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761076"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817421"
 ---
 # <a name="gift-card-module"></a>Geschenkbonmodule
 
@@ -35,10 +35,16 @@ In dit onderwerp worden geschenkbonmodules voor functies beschreven en hoe u ze 
 
 Geschenkbonmodules kunnen worden gebruikt in kasmodules om geschenkbonnen te accepteren, een algemene betalingswijze voor e-Commerce-transacties. De geschenkbonmodule ondersteunt Dynamics 365, SVS en Givex-geschenkbonnen. SVS- en Givex geschenkbonnen worden ingewisseld via de Adyen-betalingsprovider. Zie [Ondersteuning voor externe geschenkbonnen](./dev-itpro/gift-card.md) voor meer informatie over ondersteuning voor externe geschenkbonnen, zoals SVS en Givex.
 
+> [!NOTE]
+> Ondersteuning voor het inwisselen van SVS- en Givex-geschenkbonnen tijdens de afrekenstroom is beschikbaar in Dynamics 365 Commerce versie 10.0.11. 
+
 Er zijn twee geschenkbonmodules beschikbaar:
 
 - **Geschenkbon**: deze module kan worden gebruikt op een kassapagina om een geschenkbon als betalingsmethode in te wisselen. 
 - **Saldocontrole geschenkbon**: deze module kan op elke pagina worden gebruikt om het saldo op een geschenkbon te controleren. Deze module is beschikbaar in Commerce-versies 10.0.14 en hoger.
+
+> [!NOTE]
+> Ondersteuning voor de module saldocontrole voor geschenkbonnen is beschikbaar in Dynamics 365 Commerce versie 10.0.14.
 
 De volgende afbeelding toont een voorbeeld van een geschenkbonmodule op een betalingspagina.
 
@@ -61,6 +67,9 @@ In Commerce Site Builder onder **Site-instellingen \> Uitbreidingen** is er een 
 - **SVS- en Givex-geschenkbonnen**: wanneer deze instelling wordt toegepast, staat de geschenkbonmodule alleen toe dat er SVS- en Givex-geschenkbonnen worden ingewisseld. Deze instelling wordt alleen ondersteund voor aangemelde en anonieme gebruikers op de e-Commerce-site.
 - **Dynamics 365-, SVS- en Givex-geschenkbonnen**: wanneer deze instelling wordt toegepast, staat de geschenkbonmodule alleen toe dat er Dynamics 365-, SVS- en Givex-geschenkbonnen worden ingewisseld. Deze instelling wordt alleen ondersteund voor aangemelde gebruikers op de e-Commerce-site.
 
+> [!IMPORTANT]
+> Deze instellingen zijn beschikbaar in Dynamics 365 Commerce versie 10.0.11 en zijn alleen vereist als u ondersteuning nodig hebt voor SVS- of Givex-geschenkbonnen. Als u een oudere versie van Dynamics 365 Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor instructies voor het bijwerken van het appsettings.json. 
+
 ## <a name="add-a-gift-card-module-to-a-page"></a>Een geschenkbonmodule toevoegen aan een pagina
 
 Zie [Kassamodule](add-checkout-module.md) voor instructies over het toevoegen van een geschenkbonmodule aan een uitcheckpagina en het instellen van de vereiste eigenschappen.
@@ -82,3 +91,5 @@ Zie [Kassamodule](add-checkout-module.md) voor instructies over het toevoegen va
 [Module voor orderdetails](order-confirmation-module.md)
 
 [Ondersteuning voor externe geschenkbonnen](./dev-itpro/gift-card.md)
+
+[Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md)

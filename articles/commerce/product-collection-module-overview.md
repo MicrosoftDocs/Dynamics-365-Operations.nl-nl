@@ -3,7 +3,7 @@ title: Productverzamelingsmodules
 description: In dit onderwerp vindt u een overzicht van de productverzamelingmodules in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464948"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817568"
 ---
 # <a name="product-collection-modules"></a>Productverzamelingsmodules
 
@@ -96,9 +96,9 @@ In de volgende tabel worden de lijsttypen weergegeven die beschikbaar zijn voor 
 | Wat mensen ook leuk vinden           | Een lijst die gebruikmaakt van machine learning voor het analyseren van inkooppatronen van consumenten en het aanbevelen van artikelen die samenhangen met een bepaald product. | Dit type lijst wordt gebruikt op PDP's om producten weer te geven die andere klanten hebben gekocht. | Productcontext van de pagina | Het product dat door de site-auteur wordt geleverd | Ondersteund |
 | Selectie voor u              | Een lijst die gebruikmaakt van machine learning om de voorkeuren van de klant te bepalen. | Dit type lijst kan op elke pagina worden gebruikt. | Niet van toepassing| Niet van toepassing | Ondersteund | 
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Carrouselmodule](add-carousel.md)
 
