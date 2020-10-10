@@ -18,22 +18,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a022f8297066793080d254baa01410884a3fafd9
-ms.sourcegitcommit: 55b729361ea852e38531c51972c6730e3d9c2b45
+ms.openlocfilehash: 33322b9b553076125695f257b201463e9d8275c6
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3776303"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828909"
 ---
 # <a name="human-resources-app-in-teams"></a>Human resources-app in Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-Met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams kunnen werknemers snel verlof aanvragen en informatie over hun verlofsaldo bekijken in Microsoft Teams. Werknemers kunnen communiceren met een bot om informatie aan te vragen. Het tabblad **Verlof** bevat meer gedetailleerde informatie.
+Met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams kunnen werknemers snel verlof aanvragen en informatie over hun verlofsaldo bekijken in Microsoft Teams. Werknemers kunnen communiceren met een bot om informatie aan te vragen. Het tabblad **Verlof** bevat gedetailleerdere informatie. Bovendien kan aan mensen informatie worden verzonden over gepland verlof in teams en chats buiten de app Human Resources.
 
 ![Bot voor verlof-app in Human Resources Teams](./media/hr-admin-teams-leave-app-bot.png)
 
 ![Tabblad Verlof in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
+
+![Verlofaanvraagkaart Human Resources](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Installeren en instellen
 
@@ -85,7 +87,6 @@ Nadat u meldingen voor de Teams-app Human Resources teams hebt ingeschakeld, kun
 | Uitgeven | Status |
 | --- | --- |
 | Horizontaal schuiven werkt niet op Android-telefoons | Horizontaal schuiven is geen probleem op iOS- of bureaubladapparaten. Wij werken aan een oplossing voor Android. |
-| Fout: er is een probleem met het vinden van een omgeving om verbinding mee te maken. | Dit foutbericht kan ook worden weergegeven als u hebt gecontroleerd of de gebruiker toegang heeft tot een of meer HRM-omgevingen. Ook ziet u mogelijk niet alle omgevingen die u verwacht. Tot wij dit probleem oplossen, kunt u dit probleem oplossen door de gebruiker te verwijderen en vervolgens opnieuw te importeren. |
 | Het saldo is onjuist bij het indienen van verlof voor een toekomstige datum. | Prognose maken is nog niet beschikbaar. Het saldo wordt weergegeven voor de huidige datum. |
 | Kan een aanvraag **Wordt gecontroleerd** niet annuleren. | Deze functionaliteit wordt momenteel niet ondersteund en wordt in een toekomstige versie toegevoegd. |
 | Saldogegevens worden vanaf vandaag berekend. | Het systeem geeft momenteel geen saldi weer voor de toerekeningsperiode, zelfs als deze is geconfigureerd in de parameters voor verlof en verzuim. |
@@ -102,9 +103,15 @@ De inhoud van de query's en berichten van de gebruiker wordt gedurende maximaal 
 
 Als u beheerinstellingen voor apps wilt beheren in Microsoft Teams, gaat u naar het [Microsoft Teams-beheercentrum](https://admin.teams.microsoft.com/).
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure Event Grid en Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid en Azure Cosmos DB
 
-Wanneer u de meldingenfunctie voor de Dynamics 365 Human Resources-app in Teams gebruikt, stromen bepaalde klantgegevens buiten het geografische gebied waar de Human Resources-service van uw tenant is geïmplementeerd. Dynamics 365 Human Resources verzendt het verlofverzoek van de werknemer en de werkstroomtaakgegevens naar Microsoft Azure Event Grid en Microsoft Teams. Deze gegevens kunnen maximaal 24 uur worden opgeslagen en worden verwerkt in de Verenigde Staten, worden in transit en in rusttoestand versleuteld en worden niet door Microsoft of haar subverwerkers gebruikt voor opleidings- of serviceverbeteringen.
+Bij gebruik van de app Dynamics 365 Human Resources in Microsoft Teams kunnen bepaalde klantgegevens buiten het geografische gebied stromen waarin de Human Resources-service van de tenant is geïmplementeerd.
+
+Dynamics 365 Human Resources verzendt het verlofverzoek van de werknemer en de werkstroomtaakgegevens naar Microsoft Azure Event Grid en Microsoft Teams. Deze gegevens kunnen maximaal 24 uur worden opgeslagen in Microsoft Azure Event Grid en worden verwerkt in de Verenigde Staten, worden in transit en in rusttoestand versleuteld en worden niet door Microsoft of haar subverwerkers gebruikt voor opleidings- of serviceverbeteringen. Zie [Locatie van gegevens in Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true) voor meer informatie over de opslag van uw gegevens in Teams.
+
+Tijdens een conversatie met de chatbot in de app Human Resources kan de inhoud van de conversatie worden opgeslagen in Azure Cosmos DB en worden verzonden naar Microsoft Teams. Deze gegevens kunnen maximaal 24 uur in Azure Cosmos DB worden opgeslagen en kunnen worden verwerkt buiten het geografische gebied waar de Human Resources-service van uw tenant is geïmplementeerd, worden in transit en in rusttoestand versleuteld en worden niet gebruikt door Microsoft of haar subverwerkers voor opleidings- of serviceverbeteringen. Zie [Locatie van gegevens in Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true) voor meer informatie over de opslag van uw gegevens in Teams.
+ 
+Als u toegang tot de app Human Resources in Microsoft Teams wilt beperken voor uw organisatie of gebruikers in uw organisatie, raadpleegt u [Machtigingsbeleid voor apps beheren in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Zie ook 
 

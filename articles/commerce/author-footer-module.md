@@ -1,9 +1,9 @@
 ---
 title: Voettekstmodule
 description: In dit onderwerp wordt beschreven wat voettekstmodules zijn en hoe u ze ontwerpt in Microsoft Dynamics 365 Commerce.
-author: anupamar
+author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761196"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3816956"
 ---
 # <a name="footer-module"></a>Voettekstmodule  
 
@@ -70,17 +70,17 @@ Volg deze stappen op elke paginasjabloon die voor de site wordt gemaakt om te ga
 
 Door het fragment aan de paginasjablonen toe te voegen, zorgt u dat de voettekst op elke pagina wordt weergegeven.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Overzicht van modulebibliotheek](starter-kit-overview.md)
 
-[Module Container](add-container-module.md)
+[Containermodule](add-container-module.md)
 
-[Koopvakmodule](add-buy-box.md)
+[Module met vakje voor kopen](add-buy-box.md)
 
 [Winkelwagenmodule](add-cart-module.md)
 
-[Betalingsmodule](add-checkout-module.md)
+[Kassamodule](add-checkout-module.md)
 
 [Orderbevestigingsmodule](order-confirmation-module.md)
 

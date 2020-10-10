@@ -1,9 +1,9 @@
 ---
 title: Werken met modules
 description: In dit onderwerp wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
-author: v-chgri
+author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,20 +14,19 @@ ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: phinneyridge
+ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da430857801d8007244c04aadd325e99c0b882c5
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646010"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818417"
 ---
 # <a name="work-with-modules"></a>Werken met modules
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
 
@@ -35,7 +34,7 @@ In dit onderwerp wordt beschreven hoe en wanneer u modules in Microsoft Dynamics
 
 Modules zijn logische bouwstenen die de paginastructuur vormen en verschillende doeleinden en bereiken hebben. Sommige modules zijn containers op een hoog niveau en zijn alleen bedoeld voor het vasthouden en organiseren van andere modules (onderliggende modules). Andere modules, zoals een eenvoudige afbeeldingsmodule, hebben een specifiek doel. Modules, zoals carrouselmodules, vallen ergens tussen deze twee categorieën.
 
-Standaard bevat uw site Dynamics 365 Commerce een bibliotheekmodule uit het startpakket waarmee u de meeste elementaire e-commerce-scenario's kunt realiseren. U kunt een complete e-commerce-site samenstellen met behulp van deze modules. U kunt deze modules echter ook aanpassen of nieuwe aangepaste modules maken voor specifieke behoeften. Als u aangepaste modules wilt maken, is er een module-ontwerp-SDK (Software Development Kit) beschikbaar om u te helpen bij het maken van een aangepaste modulebibliotheek.
+Standaard bevat uw Dynamics 365 Commerce-site een bibliotheekmodule waarmee u de meeste elementaire e-commerce-scenario's kunt realiseren. U kunt een complete e-commerce-site samenstellen met behulp van deze modules. U kunt deze modules echter ook aanpassen of nieuwe aangepaste modules maken voor specifieke behoeften. Als u aangepaste modules wilt maken, is er een module-ontwerp-SDK (Software Development Kit) beschikbaar om u te helpen bij het maken van een aangepaste modulebibliotheek.
 
 ## <a name="container-modules-and-slots"></a>Containermodules en vakken
 

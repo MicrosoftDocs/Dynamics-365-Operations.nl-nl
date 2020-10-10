@@ -3,7 +3,7 @@ title: Module Mediagalerie
 description: In dit onderwerp wordt beschreven wat mediagaleriemodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9df2b91b0a57c73e395242f840c423fa8c7f2c9f
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811153"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817177"
 ---
 # <a name="media-gallery-module"></a>Module Mediagalerie
 
@@ -97,7 +97,7 @@ Voer deze stappen uit om een mediagaleriemodule aan een marketingpagina toe te v
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Module met vakje voor kopen](add-buy-box.md)
 

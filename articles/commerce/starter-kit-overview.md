@@ -1,9 +1,9 @@
 ---
-title: Overzicht starterskit
-description: In dit onderwerp vindt u een overzicht van het startpakket voor Microsoft Dynamics 365 Commerce.
+title: Overzicht van modulebibliotheek
+description: In dit onderwerp vindt u een overzicht van de modulebibliotheek voor Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025897"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817821"
 ---
-# <a name="starter-kit-overview"></a>Overzicht starterskit
-
+# <a name="module-library-overview"></a>Overzicht van modulebibliotheek
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp vindt u een overzicht van het startpakket voor Microsoft Dynamics 365 Commerce.
+In dit onderwerp vindt u een overzicht van de modulebibliotheek voor Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Overzicht
 
-Het startpakket voor Dynamics 365 Commerce is een verzameling modules die u kunt gebruiken voor het bouwen van een e-commerce-website. Modules bevatten zowel aspecten van de gebruikersinterface (UI) als functionaliteit.
+De modulebibliotheek voor Dynamics 365 Commerce is een verzameling modules die u kunt gebruiken voor het bouwen van een e-commerce-website. Modules bevatten zowel aspecten van de gebruikersinterface (UI) als functionaliteit.
 
-Thema's kunnen worden toegepast op de modules in het startpakket om het uiterlijk te wijzigen. De thema's gebruiken Cascading Style Sheets (CSS). Een thema voor een fictieve e-commerce-site met de naam "Fabrikam" wordt meegeleverd als onderdeel van het startpakket en kan worden gebruikt als referentie.
+Thema's kunnen worden toegepast op de modules in de modulebibliotheek om het uiterlijk te wijzigen. De thema's gebruiken Cascading Style Sheets (CSS). Een thema voor een fictieve e-commerce-site met de naam "Fabrikam" wordt meegeleverd als onderdeel van de modulebibliotheek en kan worden gebruikt als referentie.
 
-## <a name="starter-kit-modules"></a>Modules in startpakket
+## <a name="module-library-modules"></a>Modulebibliotheekmodules
 
-De volgende typen modules zijn beschikbaar in het startpakket:
+De volgende typen modules zijn beschikbaar in de modulebibliotheek:
 
 - **Containermodule**: een containermodule is een eenvoudige module die fungeert als host voor andere modules. Hiermee wordt de indeling bepaald van de onderliggende modules.
 - **Marketingmodules**: marketingmodules zijn voorzien van modules voor inhoudsblokken, tekstblokken, videospelers en carrousels. Al deze modules kunnen worden gebruikt om inhoud te presenteren. Ze worden aangestuurd door gegevens van het Content Management System (CMS) en kunnen op elke willekeurige pagina worden geplaatst.

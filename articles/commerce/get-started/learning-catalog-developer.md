@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 565ff2ca0475ec8a41f1d9606f7bd81403bb678c
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: 398bc231870a8573103ee7c7c63e96322b0b62a1
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793316"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821148"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Trainingscatalogus voor Dynamics 365 Commerce-ontwikkelaars
 
@@ -37,8 +37,8 @@ Zie voor training over functies die worden gedeeld met andere Finance and Operat
 | [Aan de slag met Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/)                                                              | Dynamics 365 Commerce, gebaseerd op de beproefde mogelijkheden van Dynamics 365 Retail, biedt een allesomvattende oplossing voor meer kanalen die een universele ervaring biedt voor de backoffice, in de winkel, in het callcenter en bij digitale activiteiten. Met Dynamics 365 Commerce kunt u merkloyaliteit opbouwen via aangepaste klantafspraken, de omzet verhogen door verbeterde werknemerproductiviteit, de activiteiten optimaliseren om de kosten te verlagen en de toeleveringsketen efficiënter te maken. Dit leidt tot betere bedrijfsresultaten. | Gratis online leertraject voor zelfstudie | 2 uur   |
 | [Aan de slag met Dynamics 365 Fraud Protection](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection is een op een cloud gebaseerde oplossing die is ontworpen voor e-commerce, fysieke winkels en verkopers voor alle kanalen, om hun inkomsten en reputatie te beschermen door tools en mogelijkheden te bieden om fraude en misbruik te beperken, operationele kosten te verlagen en acceptatiepercentages te verhogen, terwijl gebruikersaccounts worden beschermd tegen fraude. | Gratis online leertraject voor zelfstudie | 35 minuten |
 
-## <a name="commerce"></a>Handel<a name="commerce"></a>
+## <a name="commerce"></a>Commerce<a name="commerce"></a>
 
-| Inhoud  | Omschrijving  | Indeling  | Lengte    |
+| Inhoud  | Beschrijving  | Format  | Lengte    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Dynamics 365 Commerce implementeren](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | In dit leertraject wordt beschreven hoe u Dynamics 365 Commerce-omgevingen implementeert en stappen na inrichting uitvoert voor succesvolle Commerce-implementaties met de juiste topologie voor de bedrijfsbehoeften van de detailhandelaar. | Gratis online leertraject voor zelfstudie | 5 uur |
+| [Dynamics 365 Commerce implementeren en uitbreiden](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | In dit leertraject wordt beschreven hoe u Dynamics 365 Commerce-omgevingen implementeert en stappen na inrichting uitvoert voor succesvolle Commerce-implementaties met de juiste topologie voor de bedrijfsbehoeften van de detailhandelaar. | Gratis online leertraject voor zelfstudie | 5 uur |

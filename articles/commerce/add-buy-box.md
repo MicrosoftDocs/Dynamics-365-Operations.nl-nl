@@ -3,7 +3,7 @@ title: Module voor koopvak
 description: In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761292"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817080"
 ---
 # <a name="buy-box-module"></a>Module voor koopvak
 
@@ -75,9 +75,12 @@ De volgende instellingen voor de koopvakmodule kunnen worden geconfigureerd via 
 - **Voorraad**: zie [Voorraadinstellingen toepassen](inventory-settings.md) voor informatie over het toepassen van voorraadinstellingen.
 - **Toevoegen aan winkelwagen**: deze eigenschap wordt gebruikt om het gedrag op te geven nadat een artikel aan de winkel wagen is toegevoegd. De mogelijke waarden zijn **Navigeren naar winkelwagen**, **Niet navigeren naar winkelwagen** en **Meldingen weergeven**. Wanneer de waarde is ingesteld op **Navigeren naar winkelwagen**, worden gebruikers naar de pagina Winkelwagen gestuurd nadat ze een artikel hebben toegevoegd. Wanneer de waarde is ingesteld op **Niet navigeren naar winkelwagen**, worden gebruikers niet naar de pagina Winkelwagen gestuurd nadat ze een artikel hebben toegevoegd. Wanneer de waarde is ingesteld op **Meldingen weergeven**, zien gebruikers een bevestigingsbericht en kunnen ze doorgaan met zoeken op de pagina Productgegevens. 
 
-    De volgende afbeelding toont een voorbeeld van de bevestiging 'toegevoegd aan winkelwagen' op de Fabrikam-site.
+> [!IMPORTANT]
+> De site-instellingen voor **Toevoegen aan winkelwagen** zijn beschikbaar in Dynamics 365 Commerce versie 10.0.11. Als u een oudere versie van Dynamics 365 Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor instructies voor het bijwerken van het appsettings.json. 
 
-    ![Voorbeeld van een meldingsmodule](./media/ecommerce-addtocart-notifications.PNG)
+De volgende afbeelding toont een voorbeeld van de bevestiging 'toegevoegd aan winkelwagen' op de Fabrikam-site.
+
+![Voorbeeld van een meldingsmodule](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interactie met Commerce Scale Unit
 
@@ -111,7 +114,7 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Winkelselectiemodule](store-selector.md)
 
@@ -132,3 +135,5 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 [Module voor sociaal delen](social-share-module.md)
 
 [Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md)
+
+[Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md)
