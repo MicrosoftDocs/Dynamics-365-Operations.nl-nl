@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqCreatePlanWorkspace
+ms.search.form: ReqCreatePlanWorkspace, ReqProcessList
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,37 +19,37 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1e38b1bb84414dde603dbf5bcda0e8253a12e40b
-ms.sourcegitcommit: 78a1aa37f9a1565135b139e36501b759e7b2f849
+ms.openlocfilehash: 6f5ce460cc2915d1d4d9b5699723a62ed7f94599
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "3374791"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3886866"
 ---
-# <a name="cancel-a-master-planning-job"></a><span data-ttu-id="15622-103">Een hoofdplanningstaak annuleren</span><span class="sxs-lookup"><span data-stu-id="15622-103">Cancel a master planning job</span></span>
+# <a name="cancel-a-master-planning-job"></a><span data-ttu-id="8cb61-103">Een hoofdplanningstaak annuleren</span><span class="sxs-lookup"><span data-stu-id="8cb61-103">Cancel a master planning job</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="15622-104">In Microsoft Dynamics 365 Supply Chain Management zijn er meerdere opties voor het annuleren van een hoofdplanningstaak.</span><span class="sxs-lookup"><span data-stu-id="15622-104">In Microsoft Dynamics 365 Supply Chain Management, there are multiple options for canceling a master planning job.</span></span> <span data-ttu-id="15622-105">U kunt bijvoorbeeld een hoofdplanningstaak annuleren als deze per ongeluk is gestart of langer duurt dan verwacht en u deze wilt beëindigen.</span><span class="sxs-lookup"><span data-stu-id="15622-105">For example, you may want to cancel a master planning job if it was started by mistake or is running longer than expected and you want to end it.</span></span> <span data-ttu-id="15622-106">U kunt een planningstaak het beste annuleren via de de pagina **Onvoltooide planningsprocessen**.</span><span class="sxs-lookup"><span data-stu-id="15622-106">The best way to cancel a planning job is from  the **Unfinished planning processes** page.</span></span> <span data-ttu-id="15622-107">Alternatieve opties op de pagina's **Batchtaken** en **Verbeterde batchtaken** mogen alleen worden gebruikt als het annuleren van de hoofdplanningstaak via de pagina **Onvoltooide planningsprocessen** niet binnen enkele minuten is voltooid.</span><span class="sxs-lookup"><span data-stu-id="15622-107">Alternative options from the **Batch jobs** and **Batch jobs enhanced** pages should only be used if canceling the master planning job from the **Unfinished planning processes** page did not complete within a few minutes.</span></span>
+<span data-ttu-id="8cb61-104">In Microsoft Dynamics 365 Supply Chain Management zijn er meerdere opties voor het annuleren van een hoofdplanningstaak.</span><span class="sxs-lookup"><span data-stu-id="8cb61-104">In Microsoft Dynamics 365 Supply Chain Management, there are multiple options for canceling a master planning job.</span></span> <span data-ttu-id="8cb61-105">U kunt bijvoorbeeld een hoofdplanningstaak annuleren als deze per ongeluk is gestart of langer duurt dan verwacht en u deze wilt beëindigen.</span><span class="sxs-lookup"><span data-stu-id="8cb61-105">For example, you may want to cancel a master planning job if it was started by mistake or is running longer than expected and you want to end it.</span></span> <span data-ttu-id="8cb61-106">U kunt een planningstaak het beste annuleren via de de pagina **Onvoltooide planningsprocessen**.</span><span class="sxs-lookup"><span data-stu-id="8cb61-106">The best way to cancel a planning job is from  the **Unfinished planning processes** page.</span></span> <span data-ttu-id="8cb61-107">Alternatieve opties op de pagina's **Batchtaken** en **Verbeterde batchtaken** mogen alleen worden gebruikt als het annuleren van de hoofdplanningstaak via de pagina **Onvoltooide planningsprocessen** niet binnen enkele minuten is voltooid.</span><span class="sxs-lookup"><span data-stu-id="8cb61-107">Alternative options from the **Batch jobs** and **Batch jobs enhanced** pages should only be used if canceling the master planning job from the **Unfinished planning processes** page did not complete within a few minutes.</span></span>
 
-## <a name="preferred-cancel-option"></a><span data-ttu-id="15622-108">Voorkeursoptie voor annuleren</span><span class="sxs-lookup"><span data-stu-id="15622-108">Preferred cancel option</span></span>
-### <a name="cancel-master-planning-job-from-unfinished-planning-processes-page"></a><span data-ttu-id="15622-109">Hoofdplanningstaak annuleren via de de pagina **Onvoltooide planningsprocessen**</span><span class="sxs-lookup"><span data-stu-id="15622-109">Cancel master planning job from **Unfinished planning processes** page</span></span>
-1. <span data-ttu-id="15622-110">Ga naar **Hoofdplanning > Query's en rapporten > Hoofdplanning > Onvoltooide planningsprocessen**.</span><span class="sxs-lookup"><span data-stu-id="15622-110">Go to **Master planning > Inquiries and reports > Master planning > Unfinished planning processes**.</span></span>
-2. <span data-ttu-id="15622-111">Selecteer de regel met het planningsproces dat u wilt annuleren.</span><span class="sxs-lookup"><span data-stu-id="15622-111">Select the line with the planning process that you want to cancel.</span></span>
-3. <span data-ttu-id="15622-112">Klik op **Annuleren**.</span><span class="sxs-lookup"><span data-stu-id="15622-112">Click **Cancel**.</span></span>
+## <a name="preferred-cancel-option"></a><span data-ttu-id="8cb61-108">Voorkeursoptie voor annuleren</span><span class="sxs-lookup"><span data-stu-id="8cb61-108">Preferred cancel option</span></span>
+### <a name="cancel-master-planning-job-from-unfinished-planning-processes-page"></a><span data-ttu-id="8cb61-109">Hoofdplanningstaak annuleren via de de pagina **Onvoltooide planningsprocessen**</span><span class="sxs-lookup"><span data-stu-id="8cb61-109">Cancel master planning job from **Unfinished planning processes** page</span></span>
+1. <span data-ttu-id="8cb61-110">Ga naar **Hoofdplanning > Query's en rapporten > Hoofdplanning > Onvoltooide planningsprocessen**.</span><span class="sxs-lookup"><span data-stu-id="8cb61-110">Go to **Master planning > Inquiries and reports > Master planning > Unfinished planning processes**.</span></span>
+2. <span data-ttu-id="8cb61-111">Selecteer de regel met het planningsproces dat u wilt annuleren.</span><span class="sxs-lookup"><span data-stu-id="8cb61-111">Select the line with the planning process that you want to cancel.</span></span>
+3. <span data-ttu-id="8cb61-112">Klik op **Annuleren**.</span><span class="sxs-lookup"><span data-stu-id="8cb61-112">Click **Cancel**.</span></span>
 
-## <a name="additional-cancel-options"></a><span data-ttu-id="15622-113">Overige annuleringsopties</span><span class="sxs-lookup"><span data-stu-id="15622-113">Additional cancel options</span></span>
-<span data-ttu-id="15622-114">Deze moeten alleen worden gebruikt als het annuleren van de hoofdplanningstaak via de pagina **Onvoltooide planningsprocessen** niet binnen enkele minuten is voltooid.</span><span class="sxs-lookup"><span data-stu-id="15622-114">These should only be used if canceling the master planning job from the **Unfinished planning processes** page did not complete within a few minutes.</span></span>
+## <a name="additional-cancel-options"></a><span data-ttu-id="8cb61-113">Overige annuleringsopties</span><span class="sxs-lookup"><span data-stu-id="8cb61-113">Additional cancel options</span></span>
+<span data-ttu-id="8cb61-114">Deze moeten alleen worden gebruikt als het annuleren van de hoofdplanningstaak via de pagina **Onvoltooide planningsprocessen** niet binnen enkele minuten is voltooid.</span><span class="sxs-lookup"><span data-stu-id="8cb61-114">These should only be used if canceling the master planning job from the **Unfinished planning processes** page did not complete within a few minutes.</span></span>
 
-### <a name="delete-master-planning-job-from-the-batch-jobs-page"></a><span data-ttu-id="15622-115">Hoofdplanningstaak verwijderen via de pagina **Batchtaken**</span><span class="sxs-lookup"><span data-stu-id="15622-115">Delete master planning job from the **Batch jobs** page</span></span>
-1. <span data-ttu-id="15622-116">Ga naar **Systeembeheer > Query's > Batchtaken**.</span><span class="sxs-lookup"><span data-stu-id="15622-116">Go to **System administration > Inquiries > Batch jobs**.</span></span>
-2. <span data-ttu-id="15622-117">Selecteer de regel met de planningstaak die u wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="15622-117">Select the line with the planning job that you want to delete.</span></span>
-3. <span data-ttu-id="15622-118">Klik op **Verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="15622-118">Click **Delete**.</span></span>
+### <a name="delete-master-planning-job-from-the-batch-jobs-page"></a><span data-ttu-id="8cb61-115">Hoofdplanningstaak verwijderen via de pagina **Batchtaken**</span><span class="sxs-lookup"><span data-stu-id="8cb61-115">Delete master planning job from the **Batch jobs** page</span></span>
+1. <span data-ttu-id="8cb61-116">Ga naar **Systeembeheer > Query's > Batchtaken**.</span><span class="sxs-lookup"><span data-stu-id="8cb61-116">Go to **System administration > Inquiries > Batch jobs**.</span></span>
+2. <span data-ttu-id="8cb61-117">Selecteer de regel met de planningstaak die u wilt verwijderen.</span><span class="sxs-lookup"><span data-stu-id="8cb61-117">Select the line with the planning job that you want to delete.</span></span>
+3. <span data-ttu-id="8cb61-118">Klik op **Verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="8cb61-118">Click **Delete**.</span></span>
 
-### <a name="abort-master-planning-job-task-from-the-batch-jobs-enhanced-page"></a><span data-ttu-id="15622-119">Hoofdplanningstaak afbreken via de pagina **Verbeterde batchtaken**</span><span class="sxs-lookup"><span data-stu-id="15622-119">Abort master planning job task from the **Batch jobs enhanced** page</span></span>
-1. <span data-ttu-id="15622-120">Ga naar **Systeembeheer > Query's > Batchtaken**.</span><span class="sxs-lookup"><span data-stu-id="15622-120">Go to **System administration > Inquiries > Batch jobs**.</span></span>
-2. <span data-ttu-id="15622-121">Als de taak-id niet in de lijst wordt weergegeven, klikt u op **Overschakelen naar uitgebreid formulier** of gaat u verder met de volgende stap.</span><span class="sxs-lookup"><span data-stu-id="15622-121">If the job ID is not shown in the list, click **Switch to enhanced form**, otherwise proceed with the next step.</span></span>
-3. <span data-ttu-id="15622-122">Open de batchtaak.</span><span class="sxs-lookup"><span data-stu-id="15622-122">Open the batch job.</span></span> <span data-ttu-id="15622-123">Klik op de **taak-id** voor de batchtaak met taken die u wilt beëindigen.</span><span class="sxs-lookup"><span data-stu-id="15622-123">Click the **Job ID** for the batch job with tasks that you want to end.</span></span>
-4. <span data-ttu-id="15622-124">Selecteer bij **Batchtaken** de taken die u wilt beëindigen.</span><span class="sxs-lookup"><span data-stu-id="15622-124">In **Batch tasks**, select the tasks to end.</span></span>
-5. <span data-ttu-id="15622-125">Klik op **Status wijzigen**, kies **Annuleren** en klik op **OK**.</span><span class="sxs-lookup"><span data-stu-id="15622-125">Click **Change status**, choose **Canceling** and click **OK**.</span></span>
-6. <span data-ttu-id="15622-126">Klik op het sneltabblad **Batchtaken** op **Afbreken**.</span><span class="sxs-lookup"><span data-stu-id="15622-126">On the **Batch tasks** FastTab, click **Abort**.</span></span>
+### <a name="abort-master-planning-job-task-from-the-batch-jobs-enhanced-page"></a><span data-ttu-id="8cb61-119">Hoofdplanningstaak afbreken via de pagina **Verbeterde batchtaken**</span><span class="sxs-lookup"><span data-stu-id="8cb61-119">Abort master planning job task from the **Batch jobs enhanced** page</span></span>
+1. <span data-ttu-id="8cb61-120">Ga naar **Systeembeheer > Query's > Batchtaken**.</span><span class="sxs-lookup"><span data-stu-id="8cb61-120">Go to **System administration > Inquiries > Batch jobs**.</span></span>
+2. <span data-ttu-id="8cb61-121">Als de taak-id niet in de lijst wordt weergegeven, klikt u op **Overschakelen naar uitgebreid formulier** of gaat u verder met de volgende stap.</span><span class="sxs-lookup"><span data-stu-id="8cb61-121">If the job ID is not shown in the list, click **Switch to enhanced form**, otherwise proceed with the next step.</span></span>
+3. <span data-ttu-id="8cb61-122">Open de batchtaak.</span><span class="sxs-lookup"><span data-stu-id="8cb61-122">Open the batch job.</span></span> <span data-ttu-id="8cb61-123">Klik op de **taak-id** voor de batchtaak met taken die u wilt beëindigen.</span><span class="sxs-lookup"><span data-stu-id="8cb61-123">Click the **Job ID** for the batch job with tasks that you want to end.</span></span>
+4. <span data-ttu-id="8cb61-124">Selecteer bij **Batchtaken** de taken die u wilt beëindigen.</span><span class="sxs-lookup"><span data-stu-id="8cb61-124">In **Batch tasks**, select the tasks to end.</span></span>
+5. <span data-ttu-id="8cb61-125">Klik op **Status wijzigen**, kies **Annuleren** en klik op **OK**.</span><span class="sxs-lookup"><span data-stu-id="8cb61-125">Click **Change status**, choose **Canceling** and click **OK**.</span></span>
+6. <span data-ttu-id="8cb61-126">Klik op het sneltabblad **Batchtaken** op **Afbreken**.</span><span class="sxs-lookup"><span data-stu-id="8cb61-126">On the **Batch tasks** FastTab, click **Abort**.</span></span>
