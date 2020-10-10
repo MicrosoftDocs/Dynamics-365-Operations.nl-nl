@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: OpResLifeCycleManagementWorkspace, WorkTimeTable, WorkTimeCopyDayDialog
+ms.search.form: OpResLifeCycleManagementWorkspace, WorkTimeTable, WorkTimeCopyDayDialog, WorkPeriodTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,65 +17,65 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f41ae891625fea77eed6650a5bc1fb800a08ee8f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b5bd1b384fe66dd7d59b776bdf1154cc5b8262ce
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210704"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826519"
 ---
-# <a name="create-working-time-templates"></a><span data-ttu-id="d93e1-103">Werktijdsjablonen maken</span><span class="sxs-lookup"><span data-stu-id="d93e1-103">Create working time templates</span></span>
+# <a name="create-working-time-templates"></a><span data-ttu-id="43056-103">Werktijdsjablonen maken</span><span class="sxs-lookup"><span data-stu-id="43056-103">Create working time templates</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d93e1-104">Werktijdsjablonen de definiëren de werkuren door een week en worden gebruikt om werktijden voor een periode te genereren.</span><span class="sxs-lookup"><span data-stu-id="d93e1-104">Working time templates define the working hours throughout a week and are used to generate working times for a period of time.</span></span> <span data-ttu-id="d93e1-105">Deze procedure toont hoe u een werktijdsjabloon bepaalt met behulp van eigenschappen van werktijdplanningen om werktijdsintervallen te categoriseren.</span><span class="sxs-lookup"><span data-stu-id="d93e1-105">This procedure shows you how to define a working time template using working time scheduling properties for categorizing working time intervals.</span></span> <span data-ttu-id="d93e1-106">U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.</span><span class="sxs-lookup"><span data-stu-id="d93e1-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="43056-104">Werktijdsjablonen de definiëren de werkuren door een week en worden gebruikt om werktijden voor een periode te genereren.</span><span class="sxs-lookup"><span data-stu-id="43056-104">Working time templates define the working hours throughout a week and are used to generate working times for a period of time.</span></span> <span data-ttu-id="43056-105">Deze procedure toont hoe u een werktijdsjabloon bepaalt met behulp van eigenschappen van werktijdplanningen om werktijdsintervallen te categoriseren.</span><span class="sxs-lookup"><span data-stu-id="43056-105">This procedure shows you how to define a working time template using working time scheduling properties for categorizing working time intervals.</span></span> <span data-ttu-id="43056-106">U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.</span><span class="sxs-lookup"><span data-stu-id="43056-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="d93e1-107">Ga naar Alle werkruimten > Levenscyclusbeheer bron.</span><span class="sxs-lookup"><span data-stu-id="d93e1-107">Go to All workspaces > Resource lifecycle management.</span></span>
-2. <span data-ttu-id="d93e1-108">Klik op Werktijdsjablonen.</span><span class="sxs-lookup"><span data-stu-id="d93e1-108">Click Working time templates.</span></span>
+1. <span data-ttu-id="43056-107">Ga naar Alle werkruimten > Levenscyclusbeheer bron.</span><span class="sxs-lookup"><span data-stu-id="43056-107">Go to All workspaces > Resource lifecycle management.</span></span>
+2. <span data-ttu-id="43056-108">Klik op Werktijdsjablonen.</span><span class="sxs-lookup"><span data-stu-id="43056-108">Click Working time templates.</span></span>
 
-## <a name="create-working-time-template"></a><span data-ttu-id="d93e1-109">Werktijdsjabloon maken</span><span class="sxs-lookup"><span data-stu-id="d93e1-109">Create working time template</span></span>
-1. <span data-ttu-id="d93e1-110">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d93e1-110">Click New.</span></span>
-2. <span data-ttu-id="d93e1-111">Typ een waarde in het veld Werktijdsjabloon.</span><span class="sxs-lookup"><span data-stu-id="d93e1-111">In the Working time template field, type a value.</span></span>
-3. <span data-ttu-id="d93e1-112">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d93e1-112">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="d93e1-113">Vouw de sectie Maandag uit.</span><span class="sxs-lookup"><span data-stu-id="d93e1-113">Expand the Monday section.</span></span>
-5. <span data-ttu-id="d93e1-114">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d93e1-114">Click Add.</span></span>
-6. <span data-ttu-id="d93e1-115">Voer in het veld Van een tijd in.</span><span class="sxs-lookup"><span data-stu-id="d93e1-115">In the From field, enter a time.</span></span>
-    * <span data-ttu-id="d93e1-116">Geef de tijd op waarop het werk 's ochtends begint.</span><span class="sxs-lookup"><span data-stu-id="d93e1-116">Specify the time when work begins in the morning.</span></span>  
-7. <span data-ttu-id="d93e1-117">Voer in het veld Tot een tijd in.</span><span class="sxs-lookup"><span data-stu-id="d93e1-117">In the To field, enter a time.</span></span>
-    * <span data-ttu-id="d93e1-118">Geef de tijd op waarop medewerkers lunchpauze hebben.</span><span class="sxs-lookup"><span data-stu-id="d93e1-118">Specify the time when workers break for lunch.</span></span>  
-8. <span data-ttu-id="d93e1-119">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d93e1-119">Click Add.</span></span>
-9. <span data-ttu-id="d93e1-120">Voer in het veld Van een tijd in.</span><span class="sxs-lookup"><span data-stu-id="d93e1-120">In the From field, enter a time.</span></span>
-    * <span data-ttu-id="d93e1-121">Geef de tijd op waarop het werk na de lunch hervat.</span><span class="sxs-lookup"><span data-stu-id="d93e1-121">Specify the time when work resumes after lunch.</span></span>  
-10. <span data-ttu-id="d93e1-122">Voer in het veld Tot een tijd in.</span><span class="sxs-lookup"><span data-stu-id="d93e1-122">In the To field, enter a time.</span></span>
-    * <span data-ttu-id="d93e1-123">Geef het einde van de werkdag op.</span><span class="sxs-lookup"><span data-stu-id="d93e1-123">Specify the end of the work day.</span></span>  
+## <a name="create-working-time-template"></a><span data-ttu-id="43056-109">Werktijdsjabloon maken</span><span class="sxs-lookup"><span data-stu-id="43056-109">Create working time template</span></span>
+1. <span data-ttu-id="43056-110">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="43056-110">Click New.</span></span>
+2. <span data-ttu-id="43056-111">Typ een waarde in het veld Werktijdsjabloon.</span><span class="sxs-lookup"><span data-stu-id="43056-111">In the Working time template field, type a value.</span></span>
+3. <span data-ttu-id="43056-112">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="43056-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="43056-113">Vouw de sectie Maandag uit.</span><span class="sxs-lookup"><span data-stu-id="43056-113">Expand the Monday section.</span></span>
+5. <span data-ttu-id="43056-114">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="43056-114">Click Add.</span></span>
+6. <span data-ttu-id="43056-115">Voer in het veld Van een tijd in.</span><span class="sxs-lookup"><span data-stu-id="43056-115">In the From field, enter a time.</span></span>
+    * <span data-ttu-id="43056-116">Geef de tijd op waarop het werk 's ochtends begint.</span><span class="sxs-lookup"><span data-stu-id="43056-116">Specify the time when work begins in the morning.</span></span>  
+7. <span data-ttu-id="43056-117">Voer in het veld Tot een tijd in.</span><span class="sxs-lookup"><span data-stu-id="43056-117">In the To field, enter a time.</span></span>
+    * <span data-ttu-id="43056-118">Geef de tijd op waarop medewerkers lunchpauze hebben.</span><span class="sxs-lookup"><span data-stu-id="43056-118">Specify the time when workers break for lunch.</span></span>  
+8. <span data-ttu-id="43056-119">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="43056-119">Click Add.</span></span>
+9. <span data-ttu-id="43056-120">Voer in het veld Van een tijd in.</span><span class="sxs-lookup"><span data-stu-id="43056-120">In the From field, enter a time.</span></span>
+    * <span data-ttu-id="43056-121">Geef de tijd op waarop het werk na de lunch hervat.</span><span class="sxs-lookup"><span data-stu-id="43056-121">Specify the time when work resumes after lunch.</span></span>  
+10. <span data-ttu-id="43056-122">Voer in het veld Tot een tijd in.</span><span class="sxs-lookup"><span data-stu-id="43056-122">In the To field, enter a time.</span></span>
+    * <span data-ttu-id="43056-123">Geef het einde van de werkdag op.</span><span class="sxs-lookup"><span data-stu-id="43056-123">Specify the end of the work day.</span></span>  
 
-## <a name="replicate-working-times-to-all-week-days"></a><span data-ttu-id="d93e1-124">Werktijden repliceren naar alle weekdagen</span><span class="sxs-lookup"><span data-stu-id="d93e1-124">Replicate working times to all week days</span></span>
-1. <span data-ttu-id="d93e1-125">Klik op Dag kopiëren.</span><span class="sxs-lookup"><span data-stu-id="d93e1-125">Click Copy day.</span></span>
-    * <span data-ttu-id="d93e1-126">Kopieer de definities van werktijden van maandag naar dinsdag.</span><span class="sxs-lookup"><span data-stu-id="d93e1-126">Copy the working times definitions from Monday to Tuesday.</span></span>  
-2. <span data-ttu-id="d93e1-127">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="d93e1-127">Click OK.</span></span>
-3. <span data-ttu-id="d93e1-128">Klik op Dag kopiëren.</span><span class="sxs-lookup"><span data-stu-id="d93e1-128">Click Copy day.</span></span>
-    * <span data-ttu-id="d93e1-129">Kopieer de definities van werktijden van maandag naar woensdag.</span><span class="sxs-lookup"><span data-stu-id="d93e1-129">Copy the working times definitions from Monday to Wednesday.</span></span>  
-4. <span data-ttu-id="d93e1-130">Selecteer een optie in het veld Tot weekdag.</span><span class="sxs-lookup"><span data-stu-id="d93e1-130">In the To weekday field, select an option.</span></span>
-5. <span data-ttu-id="d93e1-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="d93e1-131">Click OK.</span></span>
-6. <span data-ttu-id="d93e1-132">Klik op Dag kopiëren.</span><span class="sxs-lookup"><span data-stu-id="d93e1-132">Click Copy day.</span></span>
-    * <span data-ttu-id="d93e1-133">Kopieer de definities van werktijden van maandag naar donderdag.</span><span class="sxs-lookup"><span data-stu-id="d93e1-133">Copy the working times definitions from Monday to Thursday.</span></span>  
-7. <span data-ttu-id="d93e1-134">Selecteer een optie in het veld Tot weekdag.</span><span class="sxs-lookup"><span data-stu-id="d93e1-134">In the To weekday field, select an option.</span></span>
-8. <span data-ttu-id="d93e1-135">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="d93e1-135">Click OK.</span></span>
-9. <span data-ttu-id="d93e1-136">Klik op Dag kopiëren.</span><span class="sxs-lookup"><span data-stu-id="d93e1-136">Click Copy day.</span></span>
-    * <span data-ttu-id="d93e1-137">Kopieer de definities van werktijden van maandag naar vrijdag.</span><span class="sxs-lookup"><span data-stu-id="d93e1-137">Copy the working times definitions from Monday to Friday.</span></span>  
-10. <span data-ttu-id="d93e1-138">Selecteer een optie in het veld Tot weekdag.</span><span class="sxs-lookup"><span data-stu-id="d93e1-138">In the To weekday field, select an option.</span></span>
-11. <span data-ttu-id="d93e1-139">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="d93e1-139">Click OK.</span></span>
+## <a name="replicate-working-times-to-all-week-days"></a><span data-ttu-id="43056-124">Werktijden repliceren naar alle weekdagen</span><span class="sxs-lookup"><span data-stu-id="43056-124">Replicate working times to all week days</span></span>
+1. <span data-ttu-id="43056-125">Klik op Dag kopiëren.</span><span class="sxs-lookup"><span data-stu-id="43056-125">Click Copy day.</span></span>
+    * <span data-ttu-id="43056-126">Kopieer de definities van werktijden van maandag naar dinsdag.</span><span class="sxs-lookup"><span data-stu-id="43056-126">Copy the working times definitions from Monday to Tuesday.</span></span>  
+2. <span data-ttu-id="43056-127">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="43056-127">Click OK.</span></span>
+3. <span data-ttu-id="43056-128">Klik op Dag kopiëren.</span><span class="sxs-lookup"><span data-stu-id="43056-128">Click Copy day.</span></span>
+    * <span data-ttu-id="43056-129">Kopieer de definities van werktijden van maandag naar woensdag.</span><span class="sxs-lookup"><span data-stu-id="43056-129">Copy the working times definitions from Monday to Wednesday.</span></span>  
+4. <span data-ttu-id="43056-130">Selecteer een optie in het veld Tot weekdag.</span><span class="sxs-lookup"><span data-stu-id="43056-130">In the To weekday field, select an option.</span></span>
+5. <span data-ttu-id="43056-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="43056-131">Click OK.</span></span>
+6. <span data-ttu-id="43056-132">Klik op Dag kopiëren.</span><span class="sxs-lookup"><span data-stu-id="43056-132">Click Copy day.</span></span>
+    * <span data-ttu-id="43056-133">Kopieer de definities van werktijden van maandag naar donderdag.</span><span class="sxs-lookup"><span data-stu-id="43056-133">Copy the working times definitions from Monday to Thursday.</span></span>  
+7. <span data-ttu-id="43056-134">Selecteer een optie in het veld Tot weekdag.</span><span class="sxs-lookup"><span data-stu-id="43056-134">In the To weekday field, select an option.</span></span>
+8. <span data-ttu-id="43056-135">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="43056-135">Click OK.</span></span>
+9. <span data-ttu-id="43056-136">Klik op Dag kopiëren.</span><span class="sxs-lookup"><span data-stu-id="43056-136">Click Copy day.</span></span>
+    * <span data-ttu-id="43056-137">Kopieer de definities van werktijden van maandag naar vrijdag.</span><span class="sxs-lookup"><span data-stu-id="43056-137">Copy the working times definitions from Monday to Friday.</span></span>  
+10. <span data-ttu-id="43056-138">Selecteer een optie in het veld Tot weekdag.</span><span class="sxs-lookup"><span data-stu-id="43056-138">In the To weekday field, select an option.</span></span>
+11. <span data-ttu-id="43056-139">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="43056-139">Click OK.</span></span>
 
-## <a name="define-time-slots-for-special-operations"></a><span data-ttu-id="d93e1-140">Tijdsleuven voor specifieke acties definiëren</span><span class="sxs-lookup"><span data-stu-id="d93e1-140">Define time slots for special operations</span></span>
-1. <span data-ttu-id="d93e1-141">Vouw de sectie Vrijdag uit.</span><span class="sxs-lookup"><span data-stu-id="d93e1-141">Expand the Friday section.</span></span>
-2. <span data-ttu-id="d93e1-142">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d93e1-142">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="d93e1-143">Typ of selecteer een waarde in het veld Eigenschap.</span><span class="sxs-lookup"><span data-stu-id="d93e1-143">In the Property field, enter or select a value.</span></span>
-4. <span data-ttu-id="d93e1-144">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d93e1-144">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="d93e1-145">Typ of selecteer een waarde in het veld Eigenschap.</span><span class="sxs-lookup"><span data-stu-id="d93e1-145">In the Property field, enter or select a value.</span></span>
+## <a name="define-time-slots-for-special-operations"></a><span data-ttu-id="43056-140">Tijdsleuven voor specifieke acties definiëren</span><span class="sxs-lookup"><span data-stu-id="43056-140">Define time slots for special operations</span></span>
+1. <span data-ttu-id="43056-141">Vouw de sectie Vrijdag uit.</span><span class="sxs-lookup"><span data-stu-id="43056-141">Expand the Friday section.</span></span>
+2. <span data-ttu-id="43056-142">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="43056-142">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="43056-143">Typ of selecteer een waarde in het veld Eigenschap.</span><span class="sxs-lookup"><span data-stu-id="43056-143">In the Property field, enter or select a value.</span></span>
+4. <span data-ttu-id="43056-144">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="43056-144">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="43056-145">Typ of selecteer een waarde in het veld Eigenschap.</span><span class="sxs-lookup"><span data-stu-id="43056-145">In the Property field, enter or select a value.</span></span>
 
-## <a name="mark-weekend-days-as-closed-for-pickup"></a><span data-ttu-id="d93e1-146">Weekenddagen markeren als Gesloten voor ophalen</span><span class="sxs-lookup"><span data-stu-id="d93e1-146">Mark weekend days as closed for pickup</span></span>
-1. <span data-ttu-id="d93e1-147">Vouw de sectie Zaterdag uit.</span><span class="sxs-lookup"><span data-stu-id="d93e1-147">Expand the Saturday section.</span></span>
-2. <span data-ttu-id="d93e1-148">Selecteer Ja in het veld Gesloten voor ophalen.</span><span class="sxs-lookup"><span data-stu-id="d93e1-148">Select Yes in the Closed for pickup field.</span></span>
-3. <span data-ttu-id="d93e1-149">Vouw de sectie Zondag uit.</span><span class="sxs-lookup"><span data-stu-id="d93e1-149">Expand the Sunday section.</span></span>
-4. <span data-ttu-id="d93e1-150">Selecteer Ja in het veld Gesloten voor ophalen.</span><span class="sxs-lookup"><span data-stu-id="d93e1-150">Select Yes in the Closed for pickup field.</span></span>
+## <a name="mark-weekend-days-as-closed-for-pickup"></a><span data-ttu-id="43056-146">Weekenddagen markeren als Gesloten voor ophalen</span><span class="sxs-lookup"><span data-stu-id="43056-146">Mark weekend days as closed for pickup</span></span>
+1. <span data-ttu-id="43056-147">Vouw de sectie Zaterdag uit.</span><span class="sxs-lookup"><span data-stu-id="43056-147">Expand the Saturday section.</span></span>
+2. <span data-ttu-id="43056-148">Selecteer Ja in het veld Gesloten voor ophalen.</span><span class="sxs-lookup"><span data-stu-id="43056-148">Select Yes in the Closed for pickup field.</span></span>
+3. <span data-ttu-id="43056-149">Vouw de sectie Zondag uit.</span><span class="sxs-lookup"><span data-stu-id="43056-149">Expand the Sunday section.</span></span>
+4. <span data-ttu-id="43056-150">Selecteer Ja in het veld Gesloten voor ophalen.</span><span class="sxs-lookup"><span data-stu-id="43056-150">Select Yes in the Closed for pickup field.</span></span>
 
