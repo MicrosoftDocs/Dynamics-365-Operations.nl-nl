@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383085"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837258"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten instellen voor magazijnwerk
 
@@ -399,6 +399,9 @@ Deze opties worden in de onderstaande tabel beschreven.
 <tr class="odd">
 <td>Code werksjabloon</td>
 <td>Selecteer het werksjabloon die het werk voor een proces maken zal. Als u bijvoorbeeld een artikel voor een inkooporder ontvangt, wordt het weggezette werk gegenereerd op basis van de werksjabloon Als u niet een werksjabloon selecteert, zal Supply Chain Management een sjabloon toewijzen op basis van zoekcriteria. Zie voor meer informatie over werksjablonen het onderwerp <a href="control-warehouse-location-directives.md">Magazijnwerk beheren met werksjablonen en locatierichtlijnen</a>.</td>
+<tr class="even">
+<td>Lijst met werkregels weergeven</td>
+<td>Selecteer een optie voor de manier waarop medewerkers de regels voor het momenteel geselecteerde orderverzamelingswerk kunnen weergeven en gebruiken. Zie <a href="pick-line-overview.md">Een menuoptie voor een mobiel apparaat instellen om een overzicht van orderverzamelregels te bieden</a> voor meer informatie over deze optie.</td>
 </tr>
 </tbody>
 </table>

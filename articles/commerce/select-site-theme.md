@@ -3,7 +3,7 @@ title: Selecteer een thema voor de site
 description: In dit onderwerp wordt beschreven hoe u het thema van uw site kunt instellen of wijzigen in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002746"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817701"
 ---
 # <a name="select-a-site-theme"></a>Selecteer een thema voor de site
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +34,7 @@ In dit onderwerp wordt beschreven hoe u het thema van uw site kunt instellen of 
 
 De indeling en stijl van een site (bijvoorbeeld lettertypen, afmetingen en kleuren) worden gedefinieerd door het thema dat u selecteert en op de site toepast. Een thema wordt gemaakt en geïmplementeerd door een ontwikkelaar in uw bedrijf. Zie [Overzicht van thema's](http://) voor een overzicht van thema's. Zie [Een nieuw thema maken](http://) voor meer informatie over het maken en implementeren van regels.
 
-Wanneer u voor het eerst een site maakt, wordt standaard een thema met de naam **Fabrikam** gebruikt. Dit standaardthema wordt geleverd als onderdeel van het startpakket. Nadat u extra thema's hebt geïmplementeerd voor uw site, kunt u de site zo configureren dat een van uw thema's wordt gebruikt.
+Wanneer u voor het eerst een site maakt, wordt standaard een thema met de naam **Fabrikam** gebruikt. Dit standaardthema wordt geleverd als onderdeel van de Commerce-modulebibliotheek. Nadat u extra thema's hebt geïmplementeerd voor uw site, kunt u de site zo configureren dat een van uw thema's wordt gebruikt.
 
 ## <a name="select-the-site-theme"></a>Het thema voor de site selecteren
 

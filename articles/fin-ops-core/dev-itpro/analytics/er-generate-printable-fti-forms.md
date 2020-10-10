@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771278"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893358"
 ---
 # <a name="generate-printable-fti-forms"></a>Afdrukbare FTI-formulieren genereren
 
@@ -111,7 +111,7 @@ U kunt ook FTI-formulieren genereren wanneer u een FTI boekt door **Factuur afdr
 Het ER-raamwerk ondersteunt momenteel de volgende bestemmingen voor gegenereerde documenten:
 
 - **Gedownload bestand** – Gegenereerde formulieren worden aangeboden als downloads die u kunt opslaan met de browser.
-- **Scherm** – Microsoft Office 365 Excel wordt gebruikt voor het weergeven van een voorbeeld van gegenereerde FTI-formulieren in Excel-indeling.
+- **Scherm** – Microsoft 365 Excel wordt gebruikt voor het weergeven van een voorbeeld van gegenereerde FTI-formulieren in Excel-indeling.
 - **SharePoint-map** – Gegenereerde formulieren worden opgeslagen op basis van de instellingen van het raamwerk voor documentbeheer.
 - **Toepassingsarchief** – Gegenereerde formulieren worden opgeslagen als bijlagen van records in het uitvoeringslogboek in de Microsoft Azure-opslag.
 - **E-mail** – Gegenereerde formulieren worden verzonden als e-mailbijlagen.

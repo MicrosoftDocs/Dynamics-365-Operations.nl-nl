@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ms.search.form: MCRBrokerClaims, MCRBrokerWriteOffReasonPrompt, MCRRoyaltyVendTable, MCRRoyaltyVendTrans, PdsCustRebateGroup, PdsRebateAgreement, TAMCopyTradePromotions, TAMDeduction, TAMDeductionCreate, TAMDeductionDenyReason, TAMDeductionParmDeny, TAMDeductionParmMassUpdate, TAMDeductionParmMatch, TAMDeductionParmSplit, TAMDeductionParmWriteOff, TAMDeductionType, TAMDeductionWriteOffReason, TAMFundManagement, TAMFundUsage, TAMListPage, TAMMarketingObjective, TAMMerchEventType, TAMOneTimePromotion, TAMPromoCompareGraph, TAMPromoStatistic, TAMPromotionAnalysisSummary, TAMPromotionParameters, TAMPromotionPeriod, TAMTemplateListPage, TAMTradePromotionAnalysis, TAMTradePromotions, TAMWhatIfPromotionAnalysis
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7fdcf8a7294d8c7579f35bc108bdd3804da9a837
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 411d815f7f8ed7844c328e83cb3877081a517b06
+ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203236"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830070"
 ---
 # <a name="trade-allowance-management"></a>Beheer van handelstoeslag
 
@@ -152,7 +153,7 @@ Nadat de herberekening is voltooid, wordt de status van de vorderingen gewijzigd
 
 De vorderingen zijn nu gereed voor verwerking van Klanten. Als u ze wilt verwerken, selecteert u in het actievenster **Verwerken**. 
 
-Bij het verwerken van de vorderingen is de status in **Markeren** en geeft dit aan dat een journaalboeking (het journaal dat wordt geboekt, is het Kortingstoenamejournaal), zoals opgegeven in de parameters voor Klanten) ervoor heeft gezorgd dat de volgende gebeurtenissen optreden: 
+Bij het verwerken van de vorderingen is de status in **Markeren** en geeft dit aan dat een journaalboeking (het journaal dat wordt geboekt, is het Kortingstoenamejournaal), zoals opgegeven in de parameters voor Klanten ervoor heeft gezorgd dat de volgende gebeurtenissen optreden: 
 
 - De vorderingen zijn overgeboekt naar het tijdelijke klantsaldo als inhoudingen.
 - De kortingstoenamerekening is gecrediteerd als aanduiding van de toekomstige verplichting voor de klant.

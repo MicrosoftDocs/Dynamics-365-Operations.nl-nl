@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 44c8f3ed76698bb4b70d767d9c8881024699552f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: acf7df09b467e0b0b0463946be018ff199d7153e
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203440"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834255"
 ---
 # <a name="vendor-rebates"></a>Leverancierskortingen
+
 [!include [banner](../includes/banner.md)]
 
 Met leverancierskortingen kunnen bedrijven hun kortingsprogramma's voor leveranciers beter beheren door taken te automatiseren die vereist zijn om verdiende kortingen te beheren, bij te houden en te claimen.
@@ -50,6 +51,7 @@ Mensen in deze posities zijn op zoek naar manieren om verschillende doelstelling
 - Een gekwantificeerde basis voor lopende en toekomstige onderhandelingen met leveranciers over kortingen hebben.
 
 ## <a name="review-details-of-a-vendor-rebate-agreement"></a>De gegevens van een kortingsovereenkomst voor een leverancier controleren
+
 Een kortingsovereenkomst voor een leverancier is een record van een contract met een leverancier met de overeengekomen voorwaarden waaronder het bedrijf in aanmerking komt voor een monetaire compensatie als tegenprestatie voor het halen van vooraf gestelde aankoopdoelen. Kortingsovereenkomsten voor leveranciers worden vastgelegd op de pagina **Kortingsovereenkomsten**.
 
 U opent de pagina **Kortingsovereenkomsten van leverancier** door **Inkoopbeheer** &gt; **Leverancierskortingen** &gt; **Kortingsovereenkomsten** te selecteren.
@@ -60,7 +62,9 @@ Op de pagina **Kortingsovereenkomsten van leverancier** kunt u details over de a
 
 De koptekst van de overeenkomst bevat de algemene voorwaarden op basis waarvan een bedrijf in aanmerking komt voor kortingen. In feite wordt in de koptekst aangegeven dat een leverancier korting geeft wanneer een bepaald product in een bepaalde hoeveelheid wordt gekocht. In de koptekst geeft u ook de optie voor de maateenheid van de korting en het berekeningsdatumtype op.
 
-- Op het tabblad **Algemeen** kunt u in het veld **Maateenheidoptie voor korting** opgeven of een maateenheid een voorwaarde voor de inkooporderregel moet zijn om in aanmerking te komen voor een kortingsclaim. 
+- Als u op het tabblad **Overzicht** regels hebt waarvoor **Artikelcode** is ingesteld op *Tabel* om het artikel op te geven, dan is de overeenkomst voor dat specifieke artikel. Als u regels hebt waarvoor **Artikelcode** is ingesteld op *Groep* of *Alle* om de artikelen op te geven, dan wordt de overeenkomst voor de leverancierskorting afzonderlijk verwerkt per artikel dat in aanmerking komt voor de artikelcode, niet voor alle artikelen die in aanmerking komen voor de artikelcode.
+
+- Op het tabblad **Algemeen** kunt u in het veld **Maateenheidoptie voor korting** opgeven of een maateenheid een voorwaarde voor de inkooporderregel moet zijn om in aanmerking te komen voor een kortingsclaim.
 
     - **Omzetten**: een inkooporderregel komt in aanmerking voor een leverancierskorting volgens de kortingsovereenkomst. U ontvangt een korting, ongeacht de maateenheid die wordt toegepast op de regel.
     - **Exacte overeenkomst**: om in aanmerking te komen voor een korting, moet een inkoopregel de maateenheid bevatten die is opgegeven in de overeenkomst.
@@ -97,6 +101,7 @@ U kunt meer informatie over de kortingsovereenkomst voor leveranciers opgeven in
 Wanneer inkooporders worden geplaatst bij een leverancier waarmee het bedrijf een kortingsovereenkomst heeft afgesloten, identificeert het programma alle toekomstige leveranciersbetalingen. Als de inkooporders in aanmerking komen voor korting, wordt een kortingsclaim voor elke orderregel gegenereerd zodra een inkoopfactuur is geboekt. Dit is een automatisch proces. Later kunt u de verwachte kortingen bekijken en zien wat het effect van deze kortingen is op de kosten en winstmarge van het product.
 
 ### <a name="view-details-of-rebates-that-are-applied-to-a-purchase-order-line-per-the-vendor-rebate-agreement"></a>Gegevens van kortingen weergeven die op basis van de kortingsovereenkomst voor de leverancier worden toegepast op een inkooporderregel
+
 1. Selecteer op de pagina **Inkooporder** een orderregel en selecteer vervolgens **Inkooporderregel** &gt; **Weergeven** &gt; **Prijsgegevens**.
 2. Selecteer op de pagina **Prijsgegevens** het sneltabblad **Kortingen**.
 
@@ -106,15 +111,18 @@ De kortingsgegevens worden ook weergegeven in het veld **Leverancierskorting** i
 > Controleer op de pagina **Parameters voor inkoopbeheer** op tabblad **Prijzen** of de optie **Prijsdetails inschakelen** is ingesteld op **Ja**. Als de optie is ingesteld op **Nee**, kunt u de kortingen niet weergeven.
 
 ## <a name="review-and-approve-claims"></a>Claims controleren en goedkeuren
+
 Gegenereerde kortingsclaims vertegenwoordigen de toekomstige betalingen die van de leverancier kunnen worden verwacht. Voordat een creditnota wordt verstuurd naar de leverancier, wil de eigenaar van de overeenkomst normaal gesproken de claims controleren en goedkeuren. De status van een claim bepaalt echter of de claim gereed is voor het goedkeuringsproces.
 
 ### <a name="the-status-of-claims-and-the-effect-on-the-approval-process"></a>De status van claims en het effect op het goedkeuringsproces
+
 Wanneer een claim wordt gegenereerd, wordt de status ingesteld op **Te berekenen** als de korting op cumulatieve basis wordt verleend of **Berekend** als de korting wordt verleend per factuur. Als de status van een claim **Te berekenen** is, moet de claim een berekeningsproces doorlopen dat wordt afgehandeld door de functie Cumuleren. Alleen claims met de status **Berekend** kunnen worden opgenomen in het goedkeuringsproces.
 
 > [!NOTE]
 > Als de optie **Goedkeuring vereist** voor een kortingsovereenkomst van een leverancier is ingesteld op **Nee**, krijgen gegenereerde claims de status **Goedgekeurd**. De goedkeuring is verplicht voor claims die op cumulatieve basis worden verleend.
 
 ### <a name="approve-claims-and-view-postings-and-invoice-details"></a>Claims goedkeuren en boekingen en factuurgegevens weergeven
+
 Wanneer claims zijn goedgekeurd, kunnen ze worden verwerkt door Leveranciers. Een creditnota (leveranciersfactuur) voor het kortingsbedrag van de claim wordt automatisch gegenereerd. Het krediet kan vervolgens worden toegevoegd aan het saldo van de leverancier en de betaling kan vervolgens worden opgenomen in de normale vereffeningsprocedure.
 
 1. Selecteer **Inkoopbeheer** &gt; **Leverancierskortingen** &gt; **Kortingsclaims** om een kortingsclaim te openen.
@@ -153,6 +161,7 @@ Wanneer claims zijn goedgekeurd, kunnen ze worden verwerkt door Leveranciers. Ee
 9. Op de pagina **Alle leveranciers** selecteert u de leverancier waarvan u een korting ontvangt en selecteer vervolgens **Transacties** in het actievenster. Vind de regel voor de factuur. Het kortingsbedrag is nu toegevoegd aan het leverancierssaldo.
 
 ## <a name="summary"></a>Overzicht
+
 Het proces voor het verwerken van leverancierskortingen omvat meerdere, vaak saaie handmatige traceringstaken. Door deze taken te automatiseren, kan de functie voor het beheer van leveringskorting u helpen de volgende processen te doorlopen:
 
 - Nauwkeurige kortingsclaims genereren

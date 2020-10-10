@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761124"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818270"
 ---
 # <a name="cart-module"></a>Winkelwagenmodule
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven wat winkelwagenmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -41,11 +40,11 @@ In de winkelwagenmodule worden gegevens weergegeven op basis van de winkelwagen-
 
 De volgende afbeelding toont een voorbeeld van een winkelwagenpagina module op de Fabrikam-site.
 
-![Voorbeeld van een winkelwagenmodule](./media/cart2.PNG)
+![Voorbeeld van een winkelwagenmodule op de Fabrikam-site](./media/cart2.PNG)
 
 De volgende afbeelding toont een voorbeeld van een winkelwagenpagina module op de Fabrikam-site. In dit voorbeeld zijn er verwerkingskosten voor een regelartikel.
 
-![Voorbeeld van een winkelwagenmodule](./media/ecommerce-handling-fee.png)
+![Voorbeeld van een winkelwagenmodule met verwerkingskosten voor een regelartikel](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Eigenschappen en vakken van de winkelwagenmodule
 

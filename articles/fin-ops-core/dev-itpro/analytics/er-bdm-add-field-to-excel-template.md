@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d6e0f2c914b8d348ef6eac42557fb46c53df04a9
-ms.sourcegitcommit: d16d370dab734e09312cb06711beca9cca52d4c9
+ms.openlocfilehash: 8c3a905c90f5dd4ad3487f004a958c0dcd52115d
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809515"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893242"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Nieuwe velden toevoegen aan een sjabloon voor bedrijfsdocumenten in Microsoft Excel
 
@@ -67,7 +67,7 @@ Zie [De levenscyclus van de configuratie van elektronische rapportage beheren](g
 5.  Voer in het veld **Titel** de tekst **Vrije-tekstfactuur (Excel) Contoso** in als de titel van de nieuwe sjabloon.
 6.  Selecteer **OK** om het begin van het bewerkingsproces te bevestigen.
 
-De pagina BDM-sjablooneditor wordt weergegeven. U kunt Microsoft Office 365 gebruiken om de geselecteerde sjabloon online te bewerken in het ingesloten besturingselement.
+De pagina BDM-sjablooneditor wordt weergegeven. U kunt Microsoft 365 gebruiken om de geselecteerde sjabloon online te bewerken in het ingesloten besturingselement.
 
 ![De pagina BDM-sjablooneditor](./media/BDM-AddFldExcel-EditableTemplate.png)
 

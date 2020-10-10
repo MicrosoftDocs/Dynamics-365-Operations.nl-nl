@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2ea87e4147757a584e38b819faa8a0423ec0028
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216067"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893156"
 ---
 # <a name="set-up-vendor-accounts"></a>Leveranciersaccounts instellen
 
@@ -66,7 +66,7 @@ U kunt leverancierscontactpersonen helemaal nieuw aanmaken. Maar u kunt ook deta
 
 U kunt een contactpersoon niet verwijderen als in een document naar deze contactpersoon wordt verwezen. In plaats daarvan kunt u de contactpersoon inactief maken.  
 
-U kunt contactpersonen aan uw persoonlijke contacten in Microsoft Office 365 toevoegen. U moet echter eerst de synchronisatie instellen tussen Supply Chain Management en Office 365, zowel in de Microsoft Exchange Server-synchronisatie als in de Microsoft Outlook-installatiewizard.
+U kunt contactpersonen van leveranciers aan uw persoonlijke contacten in Microsoft 365 toevoegen. U moet echter eerst de synchronisatie instellen tussen Supply Chain Management en Microsoft 365, zowel in de Microsoft Exchange Server-synchronisatie als in de Microsoft Outlook-installatiewizard.
 
 ## <a name="vendors-in-different-legal-entities"></a>Leveranciers in verschillende rechtspersonen
 Als een leverancier voor slechts één rechtspersoon in uw organisatie is geregistreerd en andere rechtspersonen dezelfde leverancier moeten registreren, kunt u op de pagina **Leverancier toevoegen aan andere rechtspersoon** de leverancier configureren om zaken te doen met een andere rechtspersoon. U moet een leveranciersgroep, valuta en wachtstand voor de leverancier selecteren in de geselecteerde rechtspersoon.  

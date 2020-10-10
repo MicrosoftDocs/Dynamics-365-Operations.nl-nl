@@ -3,7 +3,7 @@ title: Overzicht van pagina's met winkelwagen en kassa
 description: In dit onderwerp vindt u een overzicht van de pagina's met winkelwagen en kassa in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527557"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817773"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Overzicht van pagina's met winkelwagen en kassa
 
@@ -40,7 +40,7 @@ De kassapagina van een e-commerce-website vormt een stapsgewijze stroom die klan
 
 De winkelwagenpagina fungeert als boodschappentas en bevat alle artikelen die aan de winkelwagen zijn toegevoegd.
 
-In de volgende afbeelding ziet u een voorbeeld van een winkelwagenpagina die is gemaakt met het online startpakket en het thema 'Fabrikam'.
+In de volgende afbeelding ziet u een voorbeeld van een winkelwagenpagina die is gemaakt met de modulebibliotheek en het thema 'Fabrikam'.
 
 ![Voorbeeld van een winkelwagenpagina](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ Zie [Een winkelwagenmodule aan een pagina toevoegen](add-cart-module.md) voor in
 
 De kassapagina is de locatie waar klanten de informatie invoeren die nodig is om een order te plaatsen.
 
-In de volgende afbeelding ziet u een voorbeeld van een kassapagina die is gemaakt met het online startpakket.
+In de volgende afbeelding ziet u een voorbeeld van een kassapagina die is gemaakt met de modulebibliotheek.
 
 ![Voorbeeld van een kassapagina](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ De hoofdtekst van de kassapagina omvat alle ordergegevens. Deze informatie omvat
 
 Een verzendadres is vereist als artikelen moeten worden verzonden. De indeling van de verzendadressen voor elke landinstelling kan worden geconfigureerd in Dynamics 365 Commerce. Als de artikelen bijvoorbeeld naar de Verenigde Staten worden verzonden, moet het verzendadres een straat, provincie en postcode bevatten. Sommige basisvalidaties worden uitgevoerd voor velden met verzendadressen, zoals validatie van alfanumerieke tekens, maximale lengte en getallen. Hoewel de geldigheid van het adres zelf niet wordt gecontroleerd, kan deze verificatie worden uitgevoerd met behulp van aangepaste services van derden.
 
-Het verzendadres wordt toegepast op alle artikelen in de winkelwagen waarvoor de optie verzenden is geselecteerd. Als u de uitcheckstroom gebruikt die is opgenomen in het online startpakket, kunnen afzonderlijke winkelwagenartikelen niet naar verschillende adressen worden verzonden. Als u deze mogelijkheid nodig hebt, kunt u deze implementeren door de kassamodules aan te passen.
+Het verzendadres wordt toegepast op alle artikelen in de winkelwagen waarvoor de optie verzenden is geselecteerd. Als u de uitcheckstroom gebruikt die is opgenomen in de modulebibliotheek, kunnen afzonderlijke winkelwagenartikelen niet naar verschillende adressen worden verzonden. Als u deze mogelijkheid nodig hebt, kunt u deze implementeren door de kassamodules aan te passen.
 
 Wanneer het verzendadres is opgegeven, worden de verzendmethoden weergegeven die beschikbaar zijn in de online winkel van Dynamics 365 Commerce. De verzendmethoden en de ondersteunde adressen kunnen in Commerce worden geconfigureerd.
 
@@ -80,7 +80,7 @@ Tijdens de uitcheckstroom kan een klant die lid is van een loyaliteitsprogramma 
 
 #### <a name="gift-cards"></a>Geschenkbonnen
 
-In het online startpakket kunnen interne geschenkbonnen worden ingewisseld voor een bestelling. Voor het toepassen van een interne geschenkbon moet de klant zijn aangemeld. Voor extra beveiliging is het raadzaam de stroom aan te passen met een persoonlijk identificatienummer (PIN) voor interne geschenkbonnen.
+In de modulebibliotheek kunnen interne geschenkbonnen worden ingewisseld voor een bestelling. Voor het toepassen van een interne geschenkbon moet de klant zijn aangemeld. Voor extra beveiliging is het raadzaam de stroom aan te passen met een persoonlijk identificatienummer (PIN) voor interne geschenkbonnen.
 
 ### <a name="signed-in-and-guest-users"></a>Aangemelde en gastgebruikers
 

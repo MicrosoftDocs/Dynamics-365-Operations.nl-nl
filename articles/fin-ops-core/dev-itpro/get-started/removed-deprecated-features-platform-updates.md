@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803134"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819884"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -34,6 +34,22 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de v
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.14 van Finance and Operations-apps
+
+> [!NOTE]
+> Versie 10.0.14 is een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+
+### <a name="online-users-page"></a>Online gebruikers (pagina) 
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Dit is een verouderde pagina die is gemaakt voor de vorige client/serverarchitectuur. De informatie op deze pagina is niet altijd nauwkeurig, wat verwarrend en misleidend kan zijn. |
+| **Vervangen door een andere functie?**   | In een toekomstige update wordt een nieuwe pagina geleverd.|
+| **Betrokken productgebieden**         | Systeembeheer |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | In oktober 2021 wordt dit formulier verwijderd.   |
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.13 van Finance and Operations-apps
 
@@ -103,7 +119,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Implementatieoptie**              | Cloud |
 | **Status**                         | **Afgeschaft:** deze functie is volledig afgeschaft voor selfservice-implementaties. |
 
-### <a name="visual-studio-2015"></a>Visual Studio2015
+### <a name="visual-studio-2015"></a>Visual Studio 2015
 
 |   |  |
 |------------|--------------------|
