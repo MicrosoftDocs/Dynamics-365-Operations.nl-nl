@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771840"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823450"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Overzicht van Financiële consolidaties en valutaomzetting
 
@@ -103,6 +103,7 @@ Als u de resultaten van de consolidatie wilt bekijken, hebt u meerdere opties:
     ![Consolidatietransacties op de pagina Consolidaties](./media/managing-consolidation-transactions.png "Consolidatietransacties op de pagina Consolidaties")
 
 Als u de consolidatie opnieuw wilt uitvoeren, kunt u de consolidatie gewoon verwerken. U kunt ook eerst **Transacties verwijderen** op de pagina **Consolidaties** selecteren.
+Als de saldi op uw geconsolideerde rekening niet nauwkeurig zijn, kunnen deze saldi worden gecorrigeerd met de pagina **Correcties van afsluitperiode**.
 
 ## <a name="consolidate-with-import"></a>Consolidatie met import
 De functionaliteit Consolidatie met import werkt net als de functionaliteit Online consolideren. Wanneer u de rechtspersonen selecteert, bladert u naar het bronbestand dat de gegevens bevat.
@@ -156,6 +157,7 @@ Zie voor meer informatie over de werking van herwaardering van valuta in de modu
 - Schrappingsjournalen kunnen alleen naar de huidige laag worden geboekt.
 - Alleen operationele saldi worden geconsolideerd. Daarom moet u om beginsaldi te zien, nog steeds een jaarafsluiting in het consolidatiebedrijf uitvoeren.
 - U kunt een dagelijks journaal in een eliminatiebedrijf boeken, maar niet in een consolidatiebedrijf.
+- Correcties in saldi in een consolidatiebedrijf kunnen alleen worden aangebracht met de pagina **Correcties van afsluitperiode**. 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Voordelen van het gebruik van Financiële rapportage voor financiële consolidaties en valutaomrekening of ter aanvulling van Online consolideren voor geconsolideerde rapportage
 Klanten die Financiële rapportage voor financiële consolidaties en valutaomrekening gebruiken of ter aanvulling van Online consolideren voor geconsolideerde rapportage, hebben verschillende voordelen:

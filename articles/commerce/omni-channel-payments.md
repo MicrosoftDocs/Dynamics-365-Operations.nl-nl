@@ -3,7 +3,7 @@ title: Overzicht van betalingen voor meerdere kanalen
 description: Dit onderwerp biedt een overzicht van betalingen voor meerdere kanalen in Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613172"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819808"
 ---
 # <a name="omni-channel-payments-overview"></a>Overzicht van betalingen voor meerdere kanalen
 
@@ -92,6 +92,9 @@ De volgende scenario's voor betalingen voor meerdere kanalen worden ondersteund:
 - Kopen in callcenter, ophalen in winkel
 - Kopen in winkel A, ophalen in winkel B
 - Kopen in winkel A, verzenden naar klant
+
+    > [!NOTE]
+    > Betalingen in het callcenter die worden toegewezen aan de "normale" betalingsfunctie, moeten worden gemarkeerd als **Vooruitbetalen** = **Ja** zodat ze worden weerspiegeld in het verschuldigde bedrag wanneer de order in het POS wordt ingetrokken. Betalingen van het type "Normaal" die geen vooruitbetaling zijn, worden niet herkend wanneer de order wordt ingetrokken in POS. 
 
 Variaties op deze scenario's worden ook ondersteund. Een online order kan bijvoorbeeld regels bevatten die worden verzonden naar de klant en regels die worden opgehaald in een winkel. Alle opties voor orderafhandeling worden ondersteund via betalingen voor meerdere kanalen. 
 
@@ -190,8 +193,8 @@ Voer de volgende stappen uit om het scenario uit te voeren.
 2. Voeg op de pagina **Transactie** Karen Berg toe aan de transactie door met het numerieke toetsenblok **2001** in te voeren.
 3. Voeg een of meer regels toe aan de transactie.
 4. Selecteer **Orders** om de orderopties weer te geven.
-5. Selecteer **Alles verzamelen** en selecteer vervolgens de optie **Klantorder** wanneer u daarom wordt gevraagd.
-6. Voer **Seattle** in de zoekbalk in en selecteer de winkel in **Seattle** voor ophalen. 
+5. Selecteer **Alles verzenden** en selecteer vervolgens de optie **Klantorder** wanneer daarom wordt gevraagd.
+6. Selecteer op de pagina met de verzendmethode **Standaard één dag** en selecteer vervolgens **OK** om de huidige datum als de verzenddatum te accepteren. 
 7. Selecteer **OK** om de huidige datum te accepteren als datum van ophalen.
 8. Selecteer **Betaalkaart** om de betalingsreferentie te initiëren.
 9. Wijs de kaartbetaling toe voor het verschuldigde bedrag voor het deposito. 
@@ -233,5 +236,5 @@ Wanneer een order met meerdere betalingsmethoden en meerdere regels wordt opgeha
 
 - [Veelgestelde vragen over betalingen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

@@ -15,12 +15,12 @@ ms.search.region: belgium
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6cb8ab8e2e257113bbe8b076d8daa811e2a730f6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: d54dddc5d2f1383933def2e8741d0911cf3427ae
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772870"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819753"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 
@@ -32,7 +32,7 @@ In dit onderwerp vindt u informatie en koppelingen naar resources die moeten wor
 CODA is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt. Zie [CODA-bankafschrift](emea-bel-coda-bank-statement-import.md) voor meer informatie.
 
 ## <a name="export-ledger-transactions"></a>Export grootboektransacties
-Met dit formulier exporteert u grootboektransacties voor een bepaald interval, bijvoorbeeld een boekjaar als een ASCII-bestand in CED-indeling. U kunt transacties in batches exporteren. Als u batchverwerking instelt, gaat u naar **Grootboek** > **Periodiek** > **Grootboektransacties exporteren**.
+Met dit formulier exporteert u grootboektransacties voor een bepaald interval, bijvoorbeeld een boekjaar als een ASCII-bestand in CED-indeling. U kunt transacties in batches exporteren. Als u batchverwerking instelt, gaat u naar **Grootboek** > **Periodiek** > **Grootboektransacties exporteren**. Zie [Grootboektransacties exporteren](emea-bel-export-ledger-transactions.md) voor meer informatie.
 
 ## <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 Voor informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen alleen in België, raadpleegt u [INTERVAT-belastingaangifte](emea-bel-intervat-tax-declaration.md). Voor informatie over de standaardrapporten die u helpen bij de analyse van INTERVAT-belastingaangifte en afstemming raadpleegt u [Afstemmingsrapporten voor België](emea-bel-reconciliation-reports.md).

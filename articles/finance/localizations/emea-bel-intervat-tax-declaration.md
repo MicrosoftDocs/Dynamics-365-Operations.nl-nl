@@ -17,12 +17,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: ac59959451bf4267d1347db29d3326605c9121e6
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 7c95a3f84ac95b51bc329d92150d6a7bf3796256
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621338"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819853"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
@@ -668,7 +668,7 @@ U kunt de belastingperiode ook afsluiten door een btw-betaling te genereren (**B
 4.  Selecteer **OK**. Het systeem genereert de INTERVAT-belastingaangifteregel en een INTERVAT XML-bestand.
 5.  Bekijk de gegevens in de aangifte.
 
-![](media/2_Intervat_tax declaration.png)
+![Pagina INTERVAT-belastingaangifte](media/2_Intervat_tax%20declaration.png)
 
 6.  Controleer de volgende velden op het tabblad **Algemeen**: **INTERVAT-id**, **Datum**, **Periode**, **Begindatum**, **Einddatum**, **Periodefrequentie**, **Status** en **Bestandsnaam**.
 7.  Controleer de volgende velden op het tabblad **Frame I: Algemene informatie**. U kunt deze velden bewerken, zelfs als de periode is afgesloten. De uitzonderingen zijn de velden in de sectie **Omslagpercentages**. Deze velden zijn alleen-lezen.

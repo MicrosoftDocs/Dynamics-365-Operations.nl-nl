@@ -3,7 +3,7 @@ title: Sitenavigatie aanpassen
 description: In dit onderwerp wordt beschreven hoe u een aangepaste online navigatiehiërarchie kunt maken om uw producten te ordenen op uw Microsoft Dynamics 365 Commerce-site.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: c2b6a7a3b35873e80be391c627d0397fd6398a99
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269654"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817225"
 ---
 # <a name="customize-site-navigation"></a>Sitenavigatie aanpassen
 
@@ -81,7 +81,7 @@ Voer de volgende stappen uit om de navigatiehiërarchie beschikbaar te maken voo
 Als u de categoriehiërarchie wilt weergeven in uw online winkel, moet u de navigatiemenumodule toevoegen aan de desbetreffende locatie in een sjabloon of fragment. Vervolgens wordt de navigatiehiërarchie in de navigatiemenumodule weergegeven, als u uw navigatiehiërarchie hebt gepubliceerd in het kanaal waaraan uw site is gekoppeld.
 
 > [!NOTE]
-> Met de navigatiemenumodule die is opgenomen in het startpakket voor winkels kunnen gebruikers alleen navigeren naar categorieën zonder subcategorieën. Als u wilt dat uw klanten kunnen navigeren naar categorieën met subcategorieën, moet u de navigatiemenumodule aanpassen.
+> Met de navigatiemenumodule die is opgenomen in de modulebibliotheek kunnen gebruikers alleen navigeren naar categorieën zonder subcategorieën. Als u wilt dat uw klanten kunnen navigeren naar categorieën met subcategorieën, moet u de navigatiemenumodule aanpassen.
 
 ## <a name="add-custom-navigation-options"></a>Aangepaste navigatieopties toevoegen
 

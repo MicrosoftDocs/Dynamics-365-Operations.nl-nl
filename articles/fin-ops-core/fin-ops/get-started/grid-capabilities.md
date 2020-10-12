@@ -3,7 +3,7 @@ title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. De nieuwe rasterfunctie moet zijn ingeschakeld als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760394"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835081"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -33,6 +33,7 @@ Het nieuwe rasterbesturingselement biedt een aantal handige en krachtige functie
 -  Voor het systeem uit typen
 -  Wiskundige expressies evalueren 
 -  Tabelgegevens groeperen (afzonderlijk ingeschakeld met de functie **(Preview) Groeperen in rasters**)
+-  Vastgemaakte systeemkolommen
 
 ## <a name="calculating-totals"></a>Totalen worden berekend
 In Finance and Operations-apps kunnen gebruikers totalen weergeven onder aan numerieke kolommen in rasters. Deze totalen worden weergegeven in een voettekstsectie onder in het raster. 
@@ -119,12 +120,19 @@ Op dezelfde manier waarop u alle rijen in het raster kunt selecteren (of deselec
 ### <a name="hiding-column-names"></a>Kolomnamen verbergen
 Wanneer u gegevens groepeert, wordt standaard de kolomnaam weergegeven in de rij van de groepskoptekst. Vanaf versie 10.0.14/platformupdate 38 kunt u de kolomnaam in groepskoprijen onderdrukken door **Rasteropties** > **Groepskolomnaam verbergen** te selecteren.
 
+## <a name="pinned-system-columns"></a>Vastgemaakte systeemkolommen
+De kolom voor rijselectie en de kolom voor rijstatus in het nieuwe raster worden aan het meest linkse deel van het raster vastgemaakt (of bevroren). Als deze kolommen in een raster worden opgenomen, zijn deze dus altijd zichtbaar voor de gebruiker, ongeacht de horizontale schuifpositie in het raster.   
+
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hoe kan ik het nieuwe rasterbesturingselement inschakelen in mijn omgeving? 
 
-**10.0.9/platform update 33 en hoger** De functie **Nieuw rasterbesturingselement** is in alle omgevingen meteen beschikbaar in Functiebeheer. Net als andere openbare previewfuncties is het inschakelen van deze functie in productie afhankelijk [van de Aanvullende gebruiksrechtovereenkomst](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9/platformupdate 33 en later**
 
-**10.0.8/platform update 32 en 10.0.7/platform update 31** De functie **Nieuw rasterbesturingselement** kan worden ingeschakeld in omgevingen in laag 1 (Dev/Test) en in laag 2 (Sandbox) om extra tests en ontwerpwijzigingen te kunnen doorvoeren, door de volgende stappen uit te voeren.
+De functie **Nieuw rasterbesturingselement** is in elke omgeving rechtstreeks beschikbaar in Functiebeheer. Net als andere openbare previewfuncties is het inschakelen van deze functie in productie afhankelijk [van de Aanvullende gebruiksrechtovereenkomst](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/platformupdate 32 en 10.0.7/platformupdate 31**
+
+De functie **Nieuw rasterbesturingselement** kan worden ingeschakeld in omgevingen van Laag 1 (Dev/Test) en Laag 2 (Sandbox) voor extra tests en ontwerpwijzigingen door de volgende stappen uit te voeren.
 
 1.  **De vlucht inschakelen**: voer de volgende SQL-instructie uit: 
 
@@ -139,11 +147,14 @@ Wanneer u gegevens groepeert, wordt standaard de kolomnaam weergegeven in de rij
 Alle volgende gebruikerssessies worden gestart met het nieuwe rasterbesturingselement ingeschakeld.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Ontwikkelaar] Uitschakelen dat afzonderlijke pagina's het nieuwe raster gebruiken 
-Als uw organisatie een pagina vindt met problemen met het nieuwe raster, is er een API beschikbaar waarmee een afzonderlijk formulier het oude rasterbesturingselement kan gebruiken, terwijl de rest van het systeem nog steeds het nieuwe rasterbesturingselement kan gebruiken. Als u een afzonderlijke pagina van het nieuwe raster wilt afmelden, voegt u de volgende aanroep `super()` toe aan de methode `run()` van het formulier.
+Als uw organisatie op een pagina problemen ondervindt met het nieuwe raster, is er een API beschikbaar vanaf versie 10.0.13/platformupdate 37 waarmee op een afzonderlijk formulier het oude rasterbesturingselement kan worden gebruikt terwijl de rest van het systeem het nieuwe rasterbesturingselement kan blijven gebruiken. Als u een afzonderlijke pagina voor het nieuwe raster wilt afmelden, voegt u de volgende aanroep `super()` toe aan de methode `run()` van het formulier.
 
  ```this.forceLegacyGrid();```
 
-Deze API wordt uitgevoerd tot de release van oktober 2021 wanneer het nieuwe rasterbesturingselement verplicht wordt. Meld eventuele problemen aan Microsoft waarvoor deze API moet worden gebruikt. 
+Deze API wordt ondersteund tot de release van oktober 2021 wanneer het nieuwe rasterbesturingselement verplicht wordt. Als er problemen optreden waarvoor deze API moet worden gebruikt, meldt u deze bij Microsoft.
+
+## <a name="developer-size-to-available-width-columns"></a>[Ontwikkelaar]: kolomformaat aangepast aan beschikbare breedte
+Als een ontwikkelaar de eigenschap **WidthMode** instelt op **SizeToAvailable** voor kolommen binnen het nieuwe raster, hebben deze kolommen in eerste instantie dezelfde breedte als ze zouden hebben als de eigenschap is ingesteld op **SizeToContent**. De kolommen worden echter uitgerekt zodat alle extra beschikbare breedte binnen het raster wordt gebruikt. Als de eigenschap is ingesteld op **SizeToAvailable** voor meerdere kolommen, delen al deze kolommen de extra beschikbare breedte binnen het raster. Als een gebruiker echter een van deze kolommen handmatig aanpast, wordt de kolom statisch. De kolom behoudt die breedte en wordt niet meer uitgerekt tot extra beschikbare rasterbreedte.  
 
 ## <a name="known-issues"></a>Bekende problemen
 In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe rasterbesturingselement zolang de functie een previewstatus heeft.  

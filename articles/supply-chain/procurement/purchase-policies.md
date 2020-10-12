@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207897"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830744"
 ---
 # <a name="purchasing-policies-overview"></a>Overzicht van Aanschafbeleid
 
@@ -102,9 +102,9 @@ De offerteaanvraagregel voor opdracht tot inkoop definieert criteria voor het aa
 
 ### <a name="purchase-requisition-control-rule"></a>Regel voor beheer van opdracht tot inkoop
 
-De beheerregel voor de opdracht tot inkoop is een optionele regel. Wanneer u regels van dit type maakt, kunt u opties op verschillende tabbladen instellen:
+De regel voor beheer van de opdracht tot inkoop voor opdrachten van het type **Verbruik** is een optionele regel. Wanneer u regels van dit type maakt, kunt u opties op verschillende tabbladen instellen:
 
--   Op het tabblad **Indienen bij workflow** kunt u de velden configureren die moeten worden ingevoerd op de bestelopdrachtregel opdat de bestelopdracht ter goedkeuring wordt ingediend wanneer het bestelopdrachtdoel **Verbruik** is.
+-   Op het tabblad **Indienen bij workflow** kunt u de velden configureren die moeten worden ingevoerd op de opdrachtregel zodat de opdracht ter goedkeuring kan worden ingediend.
 -   Op het tabblad **Orderhoeveelheden** kunt u de velden configureren die onder bepaalde voorwaarden op de opdracht tot inkoop zijn vereist. U kunt ook orderhoeveelheden afdwingen.
 -   Op het tabblad **Datums** kunt u instellen of de boekingsdatum dezelfde als de aanvraagdatum is
 -   Op het tabblad **Adres** kunt u bepalen of de gebruiker nieuwe adressen in het systeem mag maken om op de opdracht tot inkoop toe te passen.

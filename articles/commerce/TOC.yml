@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (augustus 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
-                    - name: Commerce 10.0.11 (juli 2020)
-                      href: get-started/whats-new-commerce-10-0-11.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Finance and Operations
@@ -182,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Maken en werken met aangepaste velden
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft Power Apps insluiten
+                - name: Canvas-apps uit Power Apps insluiten
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Informatie vinden met zoekopdrachten
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -956,9 +954,9 @@
                   href: add-privacy-page.md
                 - name: Gebruikers-id's vervangen die zijn gekoppeld aan wijzigingen in bijgehouden inhoud
                   href: replace-IDs-tracked-changes.md
-            - name: Starterskit
+            - name: Modulebibliotheek
               items:
-                - name: Overzicht starterskit
+                - name: Overzicht van modulebibliotheek
                   href: starter-kit-overview.md
                 - name: Containermodules
                   items:
@@ -1976,7 +1974,7 @@
                   items:
                     - name: Een nieuwe module maken
                       href: e-commerce-extensibility/create-new-module.md
-                    - name: Een starterskit voor een module klonen
+                    - name: Een module van de modulebibliotheek klonen
                       href: e-commerce-extensibility/clone-starter-module.md
                     - name: Configuratievelden voor een module toevoegen
                       href: e-commerce-extensibility/add-module-config-fields.md
@@ -2070,7 +2068,7 @@
                   items:
                     - name: Pakketconfiguraties en deze implementeren in een online omgeving
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: Updates voor SDK en startpakket voor winkels
+                    - name: Updates voor SDK's en modulebibliotheken
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
@@ -2148,6 +2146,8 @@
                   href: implementation-considerations-devices.md
                 - name: Gebeurtenissen en afhandelingroutines voor POS-winkelwagenweergave
                   href: dev-itpro/cart-view-handlers.md
+                - name: Aangepaste knoppen toevoegen in POS-koptekstbalk
+                  href: dev-itpro/pos-header-bar.md
             - name: Uitbreidbaarheid van Hardware Station
               items:
                 - name: Hardware Station en uitbreidbaarheid

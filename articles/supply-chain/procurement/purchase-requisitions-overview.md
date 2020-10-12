@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3b365bf99fcb5c97a1afe1675ddcf34a0db8f07
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e09c4ebd3ee978076ac4f1d0b71041e7c1e954be
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207851"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826895"
 ---
 # <a name="purchase-requisition-overview"></a>Overzicht opdracht tot inkoop
 
@@ -157,7 +157,7 @@ In sommige gevallen moet u een proces voor offerteaanvraag (RFQ) opstarten om de
 U kunt een opdracht tot inkoop in de wachtstand plaatsen door het selecteren van het selectievakje **In wachtstand** op de pagina **Details opdracht tot inkoop**. Verwerking van de opdracht tot inkoop kan alleen worden voortgezet nadat u de blokkering hebt verwijderd door het selectievakje uit te schakelen.  
 
 > [!NOTE]
-> In eProcurement kan de offerteaanvraag voor uw opdracht tot inkoop leveranciers mogelijk toestaan om alternatieve regels toe te voegen. In dit geval geeft uw opdracht tot inkoop goedgekeurd alternatieven weer.
+> In eProcurement kan de offerteaanvraag voor uw opdracht tot inkoop leveranciers toestaan om alternatieve regels toe te voegen. In dit geval geeft uw opdracht tot inkoop goedgekeurd alternatieven weer.
 
 ## <a name="demand-consolidation"></a>Vraagconsolidatie
 Door inkoopbestelopdrachtregels van meerdere inkoopbestelopdrachten samen te voegen, kunt u uw onderhandelingspositie met uw leveranciers verstevigen om betere prijzen, lagere verzendkosten en lagere overheadkosten te verkrijgen.  

@@ -3,7 +3,7 @@ title: Overzicht van de startpagina
 description: In dit onderwerp vindt u een overzicht van de startpagina in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527574"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817749"
 ---
 # <a name="home-page-overview"></a>Overzicht van de startpagina
 
@@ -34,7 +34,7 @@ In dit onderwerp vindt u een overzicht van de startpagina in Microsoft Dynamics 
 
 De startpagina is de standaardpagina waarop bezoekers terechtkomen wanneer ze naar een e-commerce-site gaan. Op deze pagina worden producten en promoties gepresenteerd met een combinatie van marketingmodules. De startpagina moet veel afbeeldingen en tekst bevatten om kopers aan te trekken.
 
-In de volgende afbeelding ziet u een voorbeeld van een startpagina die is gemaakt met het online startpakket en het thema 'Fabrikam'.
+In de volgende afbeelding ziet u een voorbeeld van een startpagina die is gemaakt met de modulebibliotheek en het thema 'Fabrikam'.
 
 ![Voorbeeld van een startpagina](./media/Homepage2.PNG)
 

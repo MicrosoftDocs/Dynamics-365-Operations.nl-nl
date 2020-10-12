@@ -3,7 +3,7 @@ title: Iframe-module
 description: In dit onderwerp wordt beschreven wat de iframe-module is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0616a772a416a7c9d9756a840c93b8601c08c3d0
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646901"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818193"
 ---
 # <a name="iframe-module"></a>Iframe-module
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven wat de iframe-module is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -37,6 +36,9 @@ In dit onderwerp wordt beschreven wat de iframe-module is en hoe u deze toevoegt
 Een iframe-module biedt een iframe (inline frame) dat de host is van externe inhoud op een site. Het kan bijvoorbeeld worden gebruikt om een YouTube-video of PDF-bestandsviewer te hosten op een sitepagina. 
 
 Voor een iframe-module is een doel-URL vereist. Vervolgens wordt de inhoud van de doelpagina binnen een HTML **iframe**-element gehost. Externe URL's moeten worden vermeld in de toegestane lijst (ook wel 'whitelist' genoemd) volgens de CSP-instructies (Content Security Policy) van de site. Voor iframe-inhoud moeten URL's worden toegestaan met behulp van de instructie **frame-ancestor**. Zie voor meer informatie [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md).
+
+> [!NOTE]
+> De iframe-module is beschikbaar in de Dynamics 365 Commerce versie 10.0.13.
 
 De volgende afbeelding laat voorbeelden van iframe-modules zien waarin externe video's op sitepagina's worden weergegeven.
 
@@ -72,6 +74,6 @@ Voer de volgende stappen uit om een iframe-module aan een pagina toe te voegen o
  
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md)

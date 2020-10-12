@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f7a784e6a66c0c2df9043468e9878de161c3be0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: adeffa101aa5a17543ca531aacde2130a07086e9
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207411"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826799"
 ---
-# <a name="use-external-catalogs-for-punchout-eprocurement"></a>Externe catalogi gebruiken voor PunchOut eProcurement
+# <a name="use-external-catalogs-for-punchout-e-procurement"></a>Externe catalogi gebruiken voor PunchOut eProcurement
 
 [!include [banner](../includes/banner.md)]
 
@@ -50,3 +50,8 @@ Als er meerdere opties voor aanschaffingscategorieën zijn, selecteert u de juis
 Nadat de regels zijn toegevoegd aan een inkoopopdracht, kunt u meer regels toevoegen zonder externe catalogi te hoeven gebruiken. U kunt ook doorgaan met het toevoegen van regels vanuit externe catalogi.
 
 Wanneer de inkoopopdracht klaar is, gebruikt u de actie **Workflow** > **Verzenden** om de opdracht ter goedkeuring aan te bieden.
+
+### <a name="additional-resources"></a>Aanvullende bronnen
+
+- [Een externe catalogus instellen voor PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
+- [Verbeteringen inkoop-cXML](purchasing-cxml-enhancements.md)

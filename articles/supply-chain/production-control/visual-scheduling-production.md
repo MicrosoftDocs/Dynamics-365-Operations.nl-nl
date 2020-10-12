@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210152"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887235"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Een gantt-diagram voor het plannen van taken
 
@@ -38,7 +38,7 @@ Een Gantt-diagram is een visuele weergave van geplande activiteiten binnen een g
 -   Taken uit geplande productieorders.
 -   In taken geplande projectactiviteiten van het type Uurprognose.
 
-Het Gantt-diagram kan worden geopend in twee verschillende weergaven: **Orderweergave** en **Bronweergave**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). In **Orderweergave** worden activiteiten gegroepeerd onder productieorders. Dit kan bijvoorbeeld handig zijn als u een overzicht wilt bijhouden van alle taken die behoren tot dezelfde orders. In de weergave **Bron** zijn alle taken gegroepeerd onder de afzonderlijke resources. Deze weergave kan nuttig zijn bij het optimaliseren van het plan op het resourceniveau, bijvoorbeeld een machine of een groep machines. De Gantt-diagrammen in de afbeeldingen hieronder geven de weergaven **Order** en **Bron** weer met de volgende belangrijke elementen:
+Het Gantt-diagram kan worden geopend in twee verschillende weergaven: **Orderweergave** en **Bronweergave**. In **Orderweergave** worden activiteiten gegroepeerd onder productieorders. Dit kan bijvoorbeeld handig zijn als u een overzicht wilt bijhouden van alle taken die behoren tot dezelfde orders. In de weergave **Bron** zijn alle taken gegroepeerd onder de afzonderlijke resources. Deze weergave kan nuttig zijn bij het optimaliseren van het plan op het resourceniveau, bijvoorbeeld een machine of een groep machines. De Gantt-diagrammen in de afbeeldingen hieronder geven de weergaven **Order** en **Bron** weer met de volgende belangrijke elementen:
 
 1.  Activiteit in Gantt-diagram
 2.  Pictogram Materiaaltekort

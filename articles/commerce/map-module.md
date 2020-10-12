@@ -3,7 +3,7 @@ title: Module Kaarten
 description: In dit onderwerp worden kaartmodules beschreven en hoe u ze configureert in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811179"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817201"
 ---
 # <a name="map-module"></a>Module Kaarten
 
@@ -38,7 +38,8 @@ Een kaartmodule toont de locaties van winkels op een interactieve kaart die word
 
 Een kaartmodule werkt samen met de winkelselectiemodule om de geografische locaties van winkels te bepalen die moeten worden weergegeven op een kaart. Winkelselectie- en kaartmodules communiceren wanneer een gebruiker een winkel selecteert in een van deze modules op een sitepagina. Kaartmodules kunnen worden uitgebreid voor andere scenario's, naast interactie met winkelselectiemodules. Het aanpassen van modules is echter vereist.
 
-De kaartmodule is geïntroduceerd in Commerce versie 10.0.13.
+> [!NOTE]
+> De kaartmodule is beschikbaar in de Dynamics 365 Commerce versie 10.0.13.
 
 De volgende afbeelding toont een voorbeeld van een kaartmodule die wordt gebruikt op winkellocatiepagina.
 
@@ -70,7 +71,7 @@ Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over het conf
  
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Module met vakje voor kopen](add-buy-box.md)
 

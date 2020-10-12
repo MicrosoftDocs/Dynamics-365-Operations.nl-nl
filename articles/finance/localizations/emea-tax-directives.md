@@ -3,7 +3,7 @@ title: Belastinginstructies voor Europa
 description: U kunt opgeven om een verklaring van de btw-codes op verkoopfacturen en projectfacturen op te nemen. U kunt referentienummers op verkoopfacturen, vrije-tekstfacturen en projectfacturen afdrukken.
 author: epodkolz
 manager: AnnBe
-ms.date: 06/03/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 70c86d85b66f1b5c0bf72f80f93299c3848ca158
-ms.sourcegitcommit: c5d0bd90334e259e96df17a217b2eff03c265f07
+ms.openlocfilehash: 2f0da36e2be20d5ae8c838ed73c6e8aa1c19b621
+ms.sourcegitcommit: 814476906187480262b390ca49e487eb91738deb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "3422988"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819100"
 ---
 # <a name="tax-directives-for-europe"></a>Belastinginstructies voor Europa
 
@@ -32,4 +32,4 @@ EU-richtlijn bevat voorschriften die moeten worden gevolgd door alle lidstaten m
 - Voor creditnota´s worden het nummer en de datum van de oorspronkelijke factuur samen met de reden voor correctie afgedrukt.
 
 > [!NOTE]
-> Controleer op de pagina **Formulierinstelling** (**Klanten** > **Instellingen** > **Formulieren** > **Formulierinstelling** op het tabblad **Algemeen**) of het veld **Btw-specificatie** is ingesteld op **Registratievaluta** of **Registratie- en bedrijfsvaluta**.
+> Controleer of het veld **Btw-specificatie** is ingesteld op **Registratievaluta** of **Registratie- en bedrijfsvaluta** op de pagina **Formulierinstelling** op het tabblad **Algemeen** (**Klanten > Instellen > Formulieren > Formulierinstelling** of **Projectbeheer en boekhouding > Instellen > Formulieren > Formulierinstelling**).

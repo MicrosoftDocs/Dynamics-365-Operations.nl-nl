@@ -3,7 +3,7 @@ title: Veelgestelde vragen workflow
 description: In dit onderwerp worden antwoorden op veelgestelde vragen over het workflowsysteem gegeven.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076081"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826185"
 ---
 # <a name="workflow-faq"></a>Veelgestelde vragen over werkstromen
 
@@ -58,3 +58,5 @@ Wanneer de workfloweditor wordt uitgevoerd onder AD FS (Active Directory Federat
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Waarom krijg ik SQL-impasses bij het verwerken van werkstromen? 
 De standaardveldwaarde voor **Aantal werkstroomartikelen per batchtaak** op de pagina **Werkstroomparameters** is 0. De waarde 0 geeft aan dat de standaardwaarde 20 artikelen per batch wordt gewijzigd. Wees voorzichtig met het aanpassen van deze waarde omdat een groot aantal artikelen per batch (> 40) SQL-impasses kan veroorzaken.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>Wat is de Verbeterde werkstroomfoutmelding?
+Met de verbeterde werkstroomfoutmelding in versie 10.0.13 worden foutcodes toegevoegd om verschillende klassen van werkstroomfouten van elkaar te onderscheiden. De weergegeven foutberichten komen grotendeels overeen, maar bevatten kleine verschillen om ze duidelijker te maken.

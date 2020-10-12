@@ -3,7 +3,7 @@ title: Overzicht van Vergoedingenbeheer
 description: Overzicht van de functie Vergoedingenbeheer in Dynamics 365 Human Resources. Bied uw werknemers uitgebreide vergoedingsopties met een gebruiksvriendelijke online ervaring.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599375"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819760"
 ---
 # <a name="benefits-management-overview"></a>Overzicht van Vergoedingenbeheer
 
@@ -41,15 +41,9 @@ Om concurrerend te blijven, moet u een uitgebreide reeks vergoedingen bieden om 
 
 Als u toegang wilt tot de demogegevens, moet u de sandbox-omgeving opnieuw implementeren.
 
-## <a name="benefits-management-known-issues"></a>Bekende problemen met Vergoedingenbeheer
-
-### <a name="flex-credit-programs"></a>Programma's voor flexibele kredieten
-
-De totale kredietwaarde die voor een programma met flexibele kredieten wordt gedefinieerd, wordt niet weergegeven in het formulier **Medewerkervergoedingsplannen**. Als u een programma met flexibele kredieten instelt voor een verdelingsregel van **Geen**, verschijnt een fout in het formulier **Medewerkervergoedingsplannen** wanneer u plannen selecteert en bevestigt.
-
 ## <a name="enable-benefits-management"></a>Vergoedingenbeheer inschakelen
 
-In dit artikel wordt beschreven hoe u functies inschakelt in Human Resources. U leest hier ook welke bestaande functies in Human Resources door Vergoedingenbeheer worden vervangen of worden uitgeschakeld wanneer u Vergoedingenbeheer inschakelt.
+In dit onderwerp wordt beschreven hoe u functies inschakelt in Human Resources. U leest hier ook welke bestaande functies in Human Resources door Vergoedingenbeheer worden vervangen of worden uitgeschakeld wanneer u Vergoedingenbeheer inschakelt.
 
 > [!IMPORTANT]
 > Nadat u Vergoedingenbeheer in een **productie**omgeving hebt ingeschakeld, kunt u dit niet meer uitschakelen. U wordt aangeraden Vergoedingenbeheer in een **sandbox**-omgeving in te schakelen en te testen voordat u dit in een **productieomgeving** activeert. Er zijn belangrijke verschillen tussen de verouderde vergoedingsfunctionaliteit en de nieuwe functionaliteit voor Vergoedingenbeheer. Hiervoor zijn aanvullende instellingen nodig die moeten worden getest voordat ze in de productie worden gebracht.

@@ -3,7 +3,7 @@ title: Overzicht van pagina's voor accountbeheer
 description: In dit onderwerp wordt een overzicht gegeven van de pagina's voor accountbeheer in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 03a2ebd07c2a95198f506df3fd94c967ad0315e8
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: d0e066428e8c4717b5a50144f63e59b87089d286
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527603"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817797"
 ---
 # <a name="account-management-pages-overview"></a>Overzicht van pagina's voor accountbeheer
 
@@ -46,7 +46,7 @@ In de volgende afbeelding ziet u een voorbeeld van de landingspagina voor accoun
 
 Op de pagina **Mijn profiel** worden de accountgegevens van de klant weergegeven, zoals zijn of haar naam en telefoonnummer. De klant kan zijn of haar profielgegevens op deze pagina bijwerken. Deze pagina kan zodanig worden aangepast dat er extra voorkeuren voor het klantaccount zijn, zoals een optie om te kiezen voor marketing via e-mail.
 
-In de volgende afbeelding ziet u een voorbeeld van een pagina **Mijn profiel** die is gemaakt met het online startpakket.
+In de volgende afbeelding ziet u een voorbeeld van een pagina **Mijn profiel** die is gemaakt met de modulebibliotheek.
 
 ![Voorbeeld van een pagina Mijn profiel](./media/Account-Management-MyProfile.PNG)
 

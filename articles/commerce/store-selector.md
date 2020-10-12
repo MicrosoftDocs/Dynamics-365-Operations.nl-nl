@@ -3,7 +3,7 @@ title: Winkelselectiemodule
 description: In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646130"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818245"
 ---
 # <a name="store-selector-module"></a>Winkelselectiemodule
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -65,7 +64,7 @@ Het scenario werkt alleen als producten zijn geconfigureerd zodat de leveringsmo
 
 De volgende afbeelding toont een voorbeeld van een winkelselectiemodule die wordt gebruikt voor een pagina met productgegevens.
 
-![Voorbeeld van een winkelselectiemodule](./media/BOPIS.PNG)
+![Voorbeeld van een winkelselectiemodule die wordt gebruikt in een PDP](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>De modus winkels zoeken
 
@@ -73,7 +72,7 @@ De module winkelselectie ondersteunt ook de modus **Winkels zoeken**. Deze modus
 
 In de volgende afbeelding ziet u een voorbeeld van een winkelselectiemodule die in combinatie met een kaartmodule op de winkellocatiepagina wordt gebruikt.
 
-![Voorbeeld van een winkelselectiemodule](./media/ecommerce-Storelocator.PNG)
+![Voorbeeld van een winkelkiezermodule en een kaartmodule op een winkellocatiepagina](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Een kaart genereren
 
@@ -127,7 +126,7 @@ Voer de volgende stappen uit om de winkelselectiemodule te configureren voor de 
  
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Module met vakje voor kopen](add-buy-box.md)
 

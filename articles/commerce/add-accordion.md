@@ -3,7 +3,7 @@ title: Accordeonmodule
 description: In dit onderwerp worden accordeonmodules beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1097289d339b84aa477752934afe8192e56c5ce5
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621079"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817129"
 ---
 # <a name="accordion-module"></a>Accordeonmodule
 
@@ -80,7 +80,7 @@ Voer de volgende stappen uit om een accordeonmodule aan een pagina met veelgeste
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Containermodule](add-container-module.md)
 

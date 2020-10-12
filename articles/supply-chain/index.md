@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 95cf53cbbd7863590f08afa72143effaa80ba8de
-ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
+ms.openlocfilehash: 9255640240ae07c3857c0b6f55a7ee27ba3bf85b
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3813804"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887083"
 ---
 # <a name="supply-chain-management-home-page"></a>Startpagina Supply Chain Management
 
@@ -107,4 +107,4 @@ Er zijn veel onderwerpen over productie en Supply Chain Management beschikbaar i
 
 ## <a name="elearning-courses"></a>eLearning-cursussen
 
-Zie [Dynamics 365 op Microsoft Learn](https://docs.microsoft.com/learn/dynamics365/) voor informatie over online cursussen en training.
+Zie [Dynamics 365 Supply Chain Management op Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path) voor informatie over online cursussen en training.

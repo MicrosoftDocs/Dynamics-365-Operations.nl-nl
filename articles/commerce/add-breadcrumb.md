@@ -3,7 +3,7 @@ title: Breadcrumb-module
 description: In dit onderwerp worden breadcrumb-modules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 38efc3a60ae0ba49db2036dc84c49e4896727d94
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 7c6f215c3a7539cc16b0d72594702e6bdde7c58e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621055"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817105"
 ---
 # <a name="breadcrumb-module"></a>Breadcrumb-module
 
@@ -37,6 +37,9 @@ Breadcrumb-modules worden gebruikt om secundaire navigatie uit te voeren op site
 
 Op pagina's met een productcategoriecontext, zoals PDP's en categoriepagina's, wordt in breadcrumb-modules de categoriehiërarchie weergegeven. Op pagina's zonder categoriecontext worden in breadcrumb-modules standaard de **&lt;Hoofdmap van de site&gt; / &lt;Huidige pagina&gt;** weergegeven. Breadcrumb-modules kunnen ook handmatig op andere typen sitepagina's worden geconfigureerd om koppelingen naar specifieke pagina's op de site weer te geven.
 
+> [!NOTE]
+> De breadcrumb-module is beschikbaar in Dynamics 365 Commerce versie 10.0.12.
+
 De volgende afbeelding toont een voorbeeld van een breadcrumb-module waarin de categoriehiërarchie op een PDP wordt weergegeven.
 
 ![Voorbeeld van een breadcrumb-module](./media/ecommerce-breadcrumb.PNG)
@@ -49,9 +52,12 @@ De breadcrumb-module is gebaseerd op de instelling **Breadcrumb-weergavetype voo
 - **Terug naar resultaten weergeven**: wanneer deze waarde wordt geselecteerd, wordt in de breadcrumb-module de koppeling "Terug naar resultaten" weergegeven op een PDP als de gebruiker de PDP opent vanuit een module die de koppeling "Terug naar resultaten" toestaat. Deze functie is beschikbaar wanneer gebruikers navigeren vanuit de pagina's categorie, zoeken, lijst en aanbevelingslijsten. Ter ondersteuning van deze functionaliteit hebben modules voor productverzameling en zoekresultaten een eigenschap met de naam **Terug naar resultaten van PDP toestaan**. Deze eigenschap geeft u de flexibiliteit om te bepalen welke modules de koppelingsfunctionaliteit "Terug naar resultaten" op de PDP moeten ondersteunen. Wanneer bijvoorbeeld **Terug naar resultaten weergeven** wordt geselecteerd voor de instelling **Breadcrumb-weergavetype voor PDP** van de breadcrumb-module, en **Terug naar resultaten van PDP toestaan** is geselecteerd voor de zoekmodule van de zoekpagina, wordt de koppeling Terug naar resultaten weergegeven wanneer gebruikers navigeren vanaf de zoekpagina naar een PDP.
 - **Categoriehiërarchie weergeven en terug naar resultaten**: deze waarde is een combinatie van de voorgaande twee. Wanneer deze waarde wordt geselecteerd, worden in de breadcrumb-module zowel de hiërarchie van de volledige categorie als de koppeling Terug naar resultaten weergegeven (als deze is geconfigureerd) op een PDP.
 
+> [!IMPORTANT]
+> Deze instellingen zijn beschikbaar in Dynamics 365 Commerce versie 10.0.12. Als u een oudere versie van Dynamics 365 Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor instructies voor het bijwerken van het appsettings.json.
+
 ## <a name="breadcrumb-module-properties"></a>Eigenschappen van Breadcrumb-module
 
-| Naam van eigenschap. | Waarden | Omschrijving |
+| Naam van eigenschap. | Waarden | Beschrijving |
 |---------------|--------|-------------|
 | Basis | Tekst of koppeling| Deze optionele eigenschap specificeert de koppelingstekst en een koppelingsdoel voor de hoofdmap van de breadcrumb-site. Als deze eigenschap niet is geconfigureerd, wordt er geen hoofdmap gedefinieerd. |
 | Breadcrumb-koppeling | Koppelen | Deze optionele eigenschap geeft koppelingen aan voor een handmatig geconfigureerde breadcrumb als deze koppelingen vereist zijn. Koppelingen worden weergegeven in de volgorde waarin ze worden vermeld. |
@@ -76,10 +82,12 @@ Voer de volgende stappen uit om een breadcrumb-module aan een PDP toe te voegen 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten](category-search-page-overview.md)
 
 [Productverzamelingsmodules](product-collection-module-overview.md)
 
 [Module met vakje voor kopen](add-buy-box.md)
+
+[Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md)

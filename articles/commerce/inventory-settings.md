@@ -3,7 +3,7 @@ title: Voorraadinstellingen toepassen
 description: In dit onderwerp worden voorraadinstellingen beschreven en wordt beschreven hoe u deze toepast in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621216"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817604"
 ---
 # <a name="apply-inventory-settings"></a>Voorraadinstellingen toepassen
 
@@ -38,6 +38,9 @@ Met voorraadinstellingen wordt opgegeven of voorraad moet worden gecontroleerd v
 Dynamics 365 Commerce biedt schattingen van voorhanden voorraad voor producten. Zie [Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md) voor informatie over de berekening van geschatte voorhanden voorraad .
 
 In Commerce Site Builder kunt u voorraaddrempels en -bereiken definiëren voor een product of een categorie. Ze bepalen of voorraad kan worden geclassificeerd als in voorraad, weinig voorraad of niet op vorraad. Zie [Voorraadbuffers en voorraadniveaus configureren](inventory-buffers-levels.md) voor meer informatie
+
+> [!NOTE]
+> Ondersteuning voor voorraaddrempels en -bereiken is beschikbaar in de release van Dynamics 365 Commerce 10.0.12.
 
 ## <a name="inventory-settings"></a>Voorraadinstellingen
 
@@ -55,6 +58,9 @@ In Commerce worden voorraadinstellingen gedefinieerd via **Site-instellingen \> 
     - Wanneer **Niet op voorraad** is geselecteerd, wordt alleen het bericht Niet op vooraad weergegeven.
 
 - **Drempelwaarde voor niet op voorraad**: deze oude numerieke instelling wordt alleen van kracht als de waarde **Drempelwaarde voor niet op voorraad** is geselecteerd voor de instelling **Voorraadniveau gebaseerd op**.
+
+> [!IMPORTANT] 
+> Deze instellingen zijn beschikbaar in Dynamics 365 Commerce versie 10.0.12. Als u een oudere versie van Dynamics 365 Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor instructies voor het bijwerken van het appsettings.json.
 
 ## <a name="modules-that-use-inventory-settings"></a>Modules die voorraadinstellingen gebruiken
 
@@ -74,7 +80,7 @@ De volgende afbeelding toont een voorbeeld van een winkelwagen met het bericht B
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht starterskit](starter-kit-overview.md)
+[Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Voorraadbuffers en voorraadniveaus configureren](inventory-buffers-levels.md)
 
@@ -85,3 +91,5 @@ De volgende afbeelding toont een voorbeeld van een winkelwagen met het bericht B
 [Accountbeheerpagina's en -modules](account-management.md)
 
 [Winkelselectiemodule](store-selector.md)
+
+[Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md)
