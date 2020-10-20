@@ -68,8 +68,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: Nieuwe of gewijzigde functies in Finance
                   items:
-                    - name: Startpagina van Nieuwe of gewijzigde functies in Finance
+                    - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.15 (januari 2021)
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: Finance 10.0.14 (november 2020)
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (oktober 2020)
@@ -194,6 +196,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: LCS-implementatieprojecten verplaatsen naar verschillende Azure AD-tenants
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
+                - name: LCS-implementatieprojecten verplaatsen van on-premises naar de cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: Meerdere LCS-projecten en productieomgevingen op één Azure AD-tenant
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Leveranciers
@@ -222,10 +226,20 @@
               href: accounts-payable/three-way-matching-policies.md
             - name: Factuurvereffening voor leveranciers
               items:
-                - name: Overzicht van Factuurvereffening voor leveranciers
+                - name: Overzicht van factuurvereffening voor leveranciers
                   href: accounts-payable/accounts-payable-invoice-matching.md
-                - name: Validatie voor factuurvereffening instellen voor leveranciers
+                - name: Factuurvereffeningsvalidatie voor leveranciers instellen
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Automatisering van leveranciersfacturering
+              items:
+                - name: Overzicht van geautomatiseerde processen voor leveranciersfacturering
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: Instellingsopties voor de automatisering van leveranciersfacturering
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Facturen indienen bij het werkstroomsysteem en productontvangstbonregels aan factuurregels koppelen
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: Resultaten van de automatisering van leveranciersfacturering weergeven
+                  href: accounts-payable/view-automated-vendor-invoice.md
             - name: Boekhoudingsverdelingen en journaals in de subadministratie voor leveranciersfacturen
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Factuurvereffening en intercompany-inkooporders
@@ -256,9 +270,9 @@
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Mobiele factuurgoedkeuringen
               href: accounts-payable/mobile-invoice-approvals.md
-            - name: Werkgebied voor samenwerkingsfacturering van leveranciers
+            - name: Werkgebied voor facturering via leverancierssamenwerking
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: Automatisering van leveranciersfacturen
+            - name: Factuurautomatisering voor gescande documenten
               href: accounts-payable/vendor-invoice-automation.md
             - name: Beheer van tussenpersooncontracten
               href: accounts-payable/broker-contract.md
@@ -448,8 +462,10 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: Aanmaningen verwerken
               href: accounts-receivable/tasks/process-collection-letters.md
-            - name: Informatie over ouderdom van klanten instellen en genereren
+            - name: De ouderdomsrangschikking van vorderingen instellen en genereren
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Rapport van naar ouderdom gerangschikte door klanten verschuldigde saldi
+              href: accounts-receivable/customer-aging.md
             - name: Een afschrijvingsjournaal voor een klant maken
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Beheer van geavanceerde notities
@@ -788,17 +804,21 @@
                   href: fixed-assets/reduce-balance-depreciation.md
                 - name: Afgerond bedrag voor afschrijvingsberekeningen
                   href: fixed-assets/round-off-amount-depreciation-calculations.md
-                - name: Lineaire afschrijving restlevensduur
+                - name: Lineaire afschrijving van restlevensduur
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Lineaire afschrijving van levensduur
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: Activa leasen
+          items:
+            - name: Aan de slag met het leasen van activa
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: Grootboek
           items:
-            - name: Overzicht van Grootboek
+            - name: Overzicht van grootboek
               href: general-ledger/general-ledger.md
             - name: Rekeningen
               items:
-                - name: Overzicht van Transitorische posten
+                - name: Overzicht van transitorische posten
                   href: general-ledger/accruals-overview.md
                 - name: Schrappingregels
                   href: general-ledger/elimination-rules.md
@@ -1880,11 +1900,11 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Overboeking van kapitaalitems naar het vaste activum
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: India GST
+                - name: GST India
                   items:
-                    - name: GST-overzicht India
+                    - name: Overzicht van GST in India
                       href: localizations/apac-ind-gst.md
-                    - name: Nieuwe of gewijzigde functies voor APAC India GST-lokalisatie
+                    - name: Nieuwe of gewijzigde functies in de GST-lokalisatie voor India
                       items:
                         - name: Nieuwe of gewijzigde functies in 10.0.0
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: Nieuwe of gewijzigde functies in 10.0.12
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: Nieuwe of gewijzigde functies in 10.0.13
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: GST-referentiegroepen India
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: GST-integratie voor kassa's
@@ -2018,11 +2040,13 @@
                           href: localizations/apac-ind-import-services-gst.md
                         - name: Van btw vrijgestelde goederen exporteren
                           href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                        - name: Van btw vrijgestelde services exporteren
+                        - name: Van belasting vrijgestelde services exporteren
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: Voorraadtransactie
                       items:
-                        - name: Voorraadoverboekingsorders met btw op de overboekingsprijs
+                        - name: Voorraadtransferorders
+                          href: localizations/apac-ind-stock-transfer.md
+                        - name: Voorraadtransferorders met belasting op de transferprijs
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: Klantbetalingstransactie
                       items:
@@ -2068,21 +2092,19 @@
                       href: general-ledger/tax-engine-applicability.md
                     - name: Belastingonderdelen maken
                       href: localizations/tax-engine-create-tax-component.md
-                    - name: Integratie van belastingberekenfunctie
+                    - name: Integratie van belastingengine
                       href: general-ledger/tax-engine-integration.md
-                    - name: De belastingberekenfunctie uitbreiden
+                    - name: De belastingengine uitbreiden
                       href: general-ledger/extend-tax-engine-configurations.md
-                    - name: Problemen oplossen GTE
+                    - name: Problemen met GTE oplossen
                       href: localizations/tax-engine-trouble-shooting.md
-                - name: Veelgestelde vragen over btw-drempels
+                - name: Veelgestelde vragen over belastingdrempels
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: Voorraadoverboekingen
-                  href: localizations/apac-ind-stock-transfer.md
             - name: Italië
               items:
                 - name: Overzicht Italië
                   href: localizations/italy.md
-                - name: Details btw-overzichten
+                - name: Details btw-aangiftes
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Zwarte-lijstrapport
                   href: localizations/emea-ita-black-list-report.md

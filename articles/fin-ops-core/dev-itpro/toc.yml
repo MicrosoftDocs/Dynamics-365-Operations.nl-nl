@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina van nieuwe of gewijzigde functies in Platform-updates
+                - name: Startpagina van nieuwe of gewijzigde functies in platform-updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform-updates voor 10.0.15 (januari 2021)
+                  href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platform-updates voor 10.0.14 (november 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platform-updates voor 10.0.13 (oktober 2020)
@@ -236,11 +238,13 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Algemene probleemoplossing
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Veelgestelde vragen over twee keer wegschrijven
+                          href: data-entities/dual-write/dual-write-faq.md
                     - name: Integratie met Power Platform
                       items:
                         - name: Een scenario van prospect tot contant geld configureren
                           items:
-                            - name: Van prospect naar contant geld
+                            - name: Van prospect tot contant geld
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
                             - name: Rekeningen in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
@@ -382,10 +386,12 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Entiteitopslag beschikbaar maken als een Data Lake
               href: data-entities/entity-store-data-lake.md
-        - name: Bewerkingen voor databasemutaties
+        - name: Databasemutatiebewerkingen
           items:
             - name: Overzicht
               href: database/dbmovement-operations.md
+            - name: Toolkit voor databasemutaties
+              href: database/database-movement-toolkit.md
             - name: Snelstarthandleidingen
               items:
                 - name: Database vernieuwen
@@ -396,7 +402,7 @@
                   href: database/import-database.md
                 - name: Tijdgebonden databaseherstel
                   href: database/database-point-in-time-restore.md
-                - name: Tijdgebonden herstel van de productiedatabase naar een sandbox-omgeving
+                - name: Tijdgebonden herstel van de productiedatabase naar een sandboxomgeving
                   href: database/database-pitr-prod-sandbox.md
             - name: Zelfstudies
               items:
@@ -1564,9 +1570,11 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: Upgrade van AX 2012 - Controlelijst voor gegevensupgrade vóór upgrade
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: Upgrade van AX 2012 - Gegevens bijwerken in sandbox-omgevingen
+                - name: Upgrade van AX 2012 - Gegevensupgrade in sandboxomgevingen met behulp van het dacpac-proces
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: Upgrade van AX 2012 - Gegevensupgrade in sandboxomgevingen
                   href: migration-upgrade/upgrade-data-sandbox.md
-                - name: Upgrade van AX 2012 - on-premises-omgevingen
+                - name: Upgrade van AX 2012 - On-premises omgevingen
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Upgrade van AX 2012 - Cutover testen
                   href: migration-upgrade/upgrade-cutover-testing.md
