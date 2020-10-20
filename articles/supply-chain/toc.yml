@@ -70,12 +70,12 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.15 (december 2020)
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (november 2020)
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (oktober 2020)
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: Supply Chain Management 10.0.12 (augustus 2020)
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
@@ -194,6 +194,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: LCS-implementatieprojecten verplaatsen naar verschillende Azure AD-tenants
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: LCS-implementatieprojecten verplaatsen van on-premises naar de cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Meerdere LCS-projecten en productieomgevingen op één Azure AD-tenant
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Globalisatie
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Wettelijk voorgeschreven updates
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: India
+              items:
+                - name: Voorraadtransferorders
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Rusland
               items:
                 - name: Overzicht Rusland
@@ -1407,9 +1413,11 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: Prestaties van hoofdplanning verbeteren
                   href: master-planning/master-planning-performance.md
+                - name: Prestaties van planningsengine verbeteren
+                  href: master-planning/scheduling-engine-performance.md
                 - name: Hoofdplannen en functionaliteit voor meerdere locaties
                   items:
-                    - name: Overzicht van Hoofdplannen en functionaliteit voor meerdere locaties
+                    - name: Overzicht van de hoofdplanning en functionaliteit voor meerdere locaties
                       href: master-planning/master-plan-multisite-functionality.md
                     - name: 'Hoofdplanning voor locatiebehoefte, magazijn verplicht'
                       href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
@@ -1747,7 +1755,7 @@
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Problemen oplossen met productontvangsten en -facturering
                   href: procurement/troubleshooting-productreceiptinvoicing.md
-            - name: Leveranciersbeheer en samenwerking
+            - name: Leveranciersbeheer en -samenwerking
               items:
                 - name: Samenwerking met leveranciers instellen en onderhouden
                   href: procurement/set-up-maintain-vendor-collaboration.md
@@ -1935,13 +1943,15 @@
                       href: pim/tasks/add-expression-constraint-product-configuration-model.md
                     - name: Een berekening toevoegen aan een productconfiguratiemodel
                       href: pim/tasks/add-calculation-product-configuration-model.md
-                    - name: Stuklijst voor een productconfiguratiemodel onderhouden
+                    - name: Stuklijst onderhouden voor een productconfiguratiemodel
                       href: pim/tasks/maintain-bom-product-configuration-model.md
-                    - name: Een route voor een productmodel onderhouden
+                    - name: Een route onderhouden voor een productmodel
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: Op kenmerken gebaseerde verkoopprijzen voor een op beperkingen gebaseerde productconfiguratie
+                      href: pim/attribute-based-product-configurator.md
                     - name: Een productconfiguratiemodel goedkeuren
                       href: pim/tasks/approve-product-configuration-model.md
-                    - name: Gegevens voor productmodellen overboeken
+                    - name: Gegevens overbrengen voor productmodellen
                       href: pim/tasks/transfer-data-product-models.md
         - name: Productiebeheer
           items:
@@ -2035,6 +2045,8 @@
                       href: production-control/config-job-card-device.md
                     - name: Gereedmelden vanaf het taakkaartapparaat
                       href: production-control/report-finished-job-device.md
+                    - name: Productiemedewerkers voorzien van mixed reality-guides
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: De productieorderstatus omkeren
                       href: production-control/reverse-production-order-status.md
                     - name: Inzicht in materiaaluitzonderingen
@@ -2649,7 +2661,11 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Afdrukken van nummerplaatlabel inschakelen
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: Bevestiging orderverzameling
+                    - name: Transferorders maken vanuit de magazijnapp
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: Verwerking van gebeurtenissen in de magazijnapp
+                      href: warehousing/warehouse-app-events.md
+                    - name: Bevestiging van orderverzameling
                       href: warehousing/piece-picking-confirmation.md
                     - name: Verpakkingsmaterialen en -kosten
                       href: warehousing/pack-materials-packing-material-fees.md
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Raamwerk voor verwerkingsinstructies
                       href: warehousing/process-guide-framework.md
+                    - name: Verbindingsproblemen in de magazijnapp oplossen
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Upgrade en migratie
                   items:
                     - name: Een upgrade van magazijnbeheerprocessen uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
