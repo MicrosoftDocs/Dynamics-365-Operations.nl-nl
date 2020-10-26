@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895372"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989236"
 ---
 # <a name="routes-and-operations"></a>Routes en bewerkingen
 
@@ -37,10 +37,10 @@ In dit onderwerp vindt u informatie over routes en bewerkingen. Een route defini
 
 Met een route wordt de volgorde van bewerkingen beschreven die nodig is om een product of de productvariant te produceren. Voor elke bewerking definieert de route ook de bronnen voor bedrijfsactiviteiten die vereist zijn, de tijd die nodig is om de bewerking in te stellen en uit te voeren en hoe de kosten moet worden berekend. U kunt met één en dezelfde route meerdere producten produceren of kunt u een unieke route definiëren voor elk product of productvariant. U kunt zelfs meerdere routes voor hetzelfde product hebben. In dit geval kunnen verschillende routes worden gebruikt, afhankelijk van factoren zoals de hoeveelheid die moet worden geproduceerd. De definitie van een route in Supply Chain Management bestaat uit vier afzonderlijke elementen die samen het productieproces beschrijven:
 
--   **Route:** Een route definieert de structuur van het productieproces. Met andere woorden, de route definieert de volgorde van bewerkingen.
--   **Bewerking:** Een bewerking identificeert een benoemde stap in een route, zoals **Montage**. Dezelfde bewerking kan voorkomen in meerdere routes en verschillende bewerkingsnummers hebben.
--   **Bewerkingsrelatie:** Een bewerkingsrelatie definieert de operationele eigenschappen van een bewerking, zoals de insteltijd en uitvoeringstijd, kostencategorieën, verbruiksparameters en resourcevereisten. Dankzij de bewerkingsrelatie kunnen de operationele eigenschappen van een bewerking variëren, afhankelijk van route waarin de bewerking wordt gebruikt of de producten die worden geproduceerd.
--   **Routeversie:** Een routeversie bepaalt de route die wordt gebruikt voor het produceren van een product of de productvariant. Routeversies maken het mogelijk om routes opnieuw te gebruiken voor verschillende producten of in de loop van de tijd te wijzigen. Ze maken het ook mogelijk om verschillende routes te gebruiken om één en hetzelfde product te produceren. In dit geval is de gebruikte route afhankelijk van factoren zoals de locatie of de hoeveelheid die moet worden geproduceerd.
+- **Route:** Een route definieert de structuur van het productieproces. Met andere woorden, de route definieert de volgorde van bewerkingen.
+- **Bewerking:** Een bewerking identificeert een benoemde stap in een route, zoals **Montage**. Dezelfde bewerking kan voorkomen in meerdere routes en verschillende bewerkingsnummers hebben.
+- **Bewerkingsrelatie:** Een bewerkingsrelatie definieert de operationele eigenschappen van een bewerking, zoals de insteltijd en uitvoeringstijd, kostencategorieën, verbruiksparameters en resourcevereisten. Dankzij de bewerkingsrelatie kunnen de operationele eigenschappen van een bewerking variëren, afhankelijk van route waarin de bewerking wordt gebruikt of de producten die worden geproduceerd.
+- **Routeversie:** Een routeversie bepaalt de route die wordt gebruikt voor het produceren van een product of de productvariant. Routeversies maken het mogelijk om routes opnieuw te gebruiken voor verschillende producten of in de loop van de tijd te wijzigen. Ze maken het ook mogelijk om verschillende routes te gebruiken om één en hetzelfde product te produceren. In dit geval is de gebruikte route afhankelijk van factoren zoals de locatie of de hoeveelheid die moet worden geproduceerd.
 
 ## <a name="routes"></a>Routes
 Met een route wordt de volgorde van bewerkingen beschreven die gebruikt wordt om een product of de productvariant te produceren. Aan elke bewerking wordt een bewerkingsnummer toegewezen en een volgende bewerking. De volgorde van bewerkingen vormt een routenetwerk, dat kan worden voorgesteld door een gericht diagram met een of meer beginpunten en een enkel eindpunt. In Supply Chain Management wordt onderscheid gemaakt tussen routes op basis van het type structuur. De twee typen routes zijn eenvoudige routes en routenetwerken. In de parameters van Productiebeheer kunt u opgeven of alleen eenvoudige routes kunnen worden gebruikt of dat de meer complexe routenetwerken kunnen worden gebruikt.
@@ -60,9 +60,9 @@ Als u de meer complexe routenetwerken in de parameters van productiebeheer insch
 [![Routenetwerk](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
-> -   Elke bewerking mag slechts één opvolgende bewerking hebben en de gehele route moet eindigen met één bewerking.
-> -   Dit garandeert niet dat meerdere bewerkingen met dezelfde opvolgende bewerking (in het bovenstaande voorbeeld bijvoorbeeld bewerkingen 30 en 40) werkelijk gelijktijdig worden uitgevoerd. De beschikbaarheid en capaciteit van resources leveren mogelijk beperkingen op voor de wijze waarop bewerkingen worden gepland.
-> -   U kunt 0 (nul) niet gebruiken als het bewerkingsnummer. Dit nummer is gereserveerd en wordt gebruikt om op te geven dat de laatste bewerking in de route geen opvolgende bewerking heeft.
+> - Elke bewerking mag slechts één opvolgende bewerking hebben en de gehele route moet eindigen met één bewerking.
+> - Dit garandeert niet dat meerdere bewerkingen met dezelfde opvolgende bewerking (in het bovenstaande voorbeeld bijvoorbeeld bewerkingen 30 en 40) werkelijk gelijktijdig worden uitgevoerd. De beschikbaarheid en capaciteit van resources leveren mogelijk beperkingen op voor de wijze waarop bewerkingen worden gepland.
+> - U kunt 0 (nul) niet gebruiken als het bewerkingsnummer. Dit nummer is gereserveerd en wordt gebruikt om op te geven dat de laatste bewerking in de route geen opvolgende bewerking heeft.
 
 ### <a name="parallel-operations"></a>Parallelle bewerkingen
 
@@ -99,12 +99,12 @@ De operationele eigenschappen van een bewerking, zoals de insteltijd en uitvoeri
 ## <a name="operation-relations"></a>Bewerkingsrelaties
 De volgende operationele eigenschappen van een bewerking worden op de bewerkingsrelatie onderhouden:
 
--   Kostencategorieën
--   Verbruiksparameters
--   Verwerkingstijden
--   Verwerkte hoeveelheden
--   Resourcevereisten
--   Notities en instructies
+- Kostencategorieën
+- Verbruiksparameters
+- Verwerkingstijden
+- Verwerkte hoeveelheden
+- Resourcevereisten
+- Notities en instructies
 
 U kunt meerdere bewerkingsrelaties voor dezelfde bewerking definiëren. Elke bewerkingsrelatie is echter specifiek voor een bewerking. Hierin worden eigenschappen opgeslagen die specifiek zijn voor een route, een vrijgegeven product of een reeks vrijgegeven producten die zijn gerelateerd aan een artikelengroep. Daarom kan dezelfde bewerking worden gebruikt in meerdere routes die verschillende operationele eigenschappen hebben. Daarnaast kunt u uw hoofdgegevens gemakkelijker beheren als u standaardbewerkingen met dezelfde operationele eigenschappen gebruikt, ongeacht de gebruikte route en het te produceren product. Het bereik van de bewerkingsrelatie wordt gedefinieerd door de eigenschappen **Artikelcode**, **Artikelrelatie**, **Routecode** en **Routerelatie**, zoals in de volgende tabel wordt weergegeven.
 
@@ -166,12 +166,13 @@ Wanneer Supply Chain Management de meest relevante bewerkingsrelatie zoekt voor 
 Een bewerking kan daarom het beste slechts één keer voor elke route worden gebruikt. Als de bewerking meerdere keren in dezelfde route voorkomt, hebben alle exemplaren van die bewerking dezelfde bewerkingsrelatie. U kunt dan niet verschillende eigenschappen (bijvoorbeeld uitvoeringstijden) instellen voor elk exemplaar.
 
 ## <a name="route-versions"></a>Routeversies
+
 Routeversies worden gebruikt om variaties mogelijk te maken in de productie van producten of om meer controle te hebben over het productieproces. Ze definiëren welke route moet worden gebruikt wanneer een bepaald vrijgegeven product of vrijgegeven productvariant wordt geproduceerd. Om te bepalen welke route wordt gebruikt voor een vrijgegeven product kunt u de volgende beperkingen gebruiken:
 
--   Productdimensies (grootte, kleur, stijl of configuratie)
--   Productiehoeveelheid
--   Productielocatie
--   Productiedatum
+- Productdimensies (grootte, kleur, stijl of configuratie)
+- Productiehoeveelheid
+- Productielocatie
+- Productiedatum
 
 Wanneer u het product op een bepaalde locatie produceert, in een specifieke hoeveelheid of in een bepaalde periode, kunt u een specifieke routeversie aanwijzen als de standaardversie van de route. Bedenk wel dat slechts één actieve route is toegestaan voor een bepaald vrijgegeven product en een bepaalde reeks beperkingen.  
 
@@ -194,6 +195,7 @@ Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routeversies 
 De productwijzigingscase voor goedkeuring en activering van nieuwe of gewijzigde routes en routeversies biedt een gemakkelijke manier om een overzicht van de routeversiebeperkingen te bekijken. U kunt ook in één bewerking alle routes goedkeuren en activeren die zijn gerelateerd aan een specifieke wijziging en de resultaten in de productwijzigingscase vastleggen.
 
 ## <a name="maintaining-routes"></a>Routes onderhouden
+
 Afhankelijk van uw bedrijfsbehoeften kunt u mogelijk het werk reduceren dat het beheer van uw procesdefinities vereist.
 
 ### <a name="making-routes-independent-of-resources"></a>Routes onafhankelijk van resources maken
@@ -224,10 +226,10 @@ Wanneer u deze methode gebruikt, wordt de pagina **Bewerkingsrelaties** uw prima
 
 Als u geen bron voor bedrijfsactiviteiten of resourcegroep opgeeft als onderdeel van de resourcevereisten voor een bewerking, kunnen de toepasselijke resources werken met verschillende snelheden. De tijd die nodig is voor het verwerken van een bewerking kan daardoor variëren. Om dit probleem op te lossen, kunt u met het veld **Formule** in de bewerkingsrelatie opgeven hoe de verwerkingstijd wordt berekend. De volgende opties zijn beschikbaar:
 
--   **Standaard:** De standaardoptie. De berekening gebruikt alleen de velden uit de bewerkingsrelatie en vermenigvuldigt de opgegeven uitvoeringstijd met de orderhoeveelheid.
--   **Capaciteit:** De berekening omvat het veld **Capaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource. De waarde die is opgegeven voor de bron voor bedrijfsactiviteiten is de capaciteit per uur. De **Verwerkingstijd** wordt berekend als de **Orderhoeveelheid** gedeeld door **Capaciteit**.
--   **Batch:** Een batchcapaciteit wordt berekend met behulp van gegevens uit de bewerkingsrelatie. Het aantal batches en daarmee de verwerkingstijd kan vervolgens worden berekend op basis van de orderhoeveelheid.
--   **Resourcebatch:** Deze optie is eigenlijk hetzelfde als de optie **Batch**. De berekening omvat hierin echter het veld **Batchcapaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource.
+- **Standaard:** De standaardoptie. De berekening gebruikt alleen de velden uit de bewerkingsrelatie en vermenigvuldigt de opgegeven uitvoeringstijd met de orderhoeveelheid.
+- **Capaciteit:** De berekening omvat het veld **Capaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource. De waarde die is opgegeven voor de bron voor bedrijfsactiviteiten is de capaciteit per uur. De **Verwerkingstijd** wordt berekend als de **Orderhoeveelheid** gedeeld door **Capaciteit**.
+- **Batch:** Een batchcapaciteit wordt berekend met behulp van gegevens uit de bewerkingsrelatie. Het aantal batches en daarmee de verwerkingstijd kan vervolgens worden berekend op basis van de orderhoeveelheid.
+- **Resourcebatch:** Deze optie is eigenlijk hetzelfde als de optie **Batch**. De berekening omvat hierin echter het veld **Batchcapaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource.
 
 ### <a name="set-up-route-groups"></a>Routegroepen instellen
 
