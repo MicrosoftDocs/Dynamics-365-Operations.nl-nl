@@ -1,6 +1,6 @@
 ---
 title: Brandstofindex van een vervoerder instellen
-description: Deze handleiding geeft aan hoe een regio voor de brandstofindex, een brandstofindex en een index van de vervoerder kan worden gemaakt.
+description: Deze guide laat zien hoe een regio voor de brandstofindex, een brandstofindex en een index van de vervoerder kan worden gemaakt.
 author: ShylaThompson
 manager: tfehr
 ms.date: 11/14/2016
@@ -13,21 +13,21 @@ ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69bf6e3a896e560b1dbb96c8f997f6ee8dbb9ec1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 44eda7ff8ddad881e32f7eef1ef4d9203449e19d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214913"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986669"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Brandstofindex van een vervoerder instellen
 
 [!include [banner](../../includes/banner.md)]
 
-Deze handleiding geeft aan hoe een regio voor de brandstofindex, een brandstofindex en een index van de vervoerder kan worden gemaakt. De regio van de brandstofindex bepaalt in welke regio de brandstofindex moet worden toegepast en de brandstofindex geeft een brandstofprijs op voor een bepaalde periode. U kunt de wijziging in brandstofprijzen in de loop van de tijd weerspiegelen door meerdere brandstofindexen aan een vervoerder te koppelen.  Deze taken worden gewoonlijk uitgevoerd door een transportcoördinator. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens.
+Deze guide laat zien hoe een regio voor de brandstofindex, een brandstofindex en een index van de vervoerder kan worden gemaakt. De regio van de brandstofindex bepaalt in welke regio de brandstofindex moet worden toegepast en de brandstofindex geeft een brandstofprijs op voor een bepaalde periode. U kunt de wijziging in brandstofprijzen in de loop van de tijd weerspiegelen door meerdere brandstofindexen aan een vervoerder te koppelen.  Deze taken worden gewoonlijk uitgevoerd door een transportcoördinator. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens.
 
 
 ## <a name="create-a-fuel-index-region"></a>Een brandstofindexregio maken

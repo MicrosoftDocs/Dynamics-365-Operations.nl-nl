@@ -12,21 +12,21 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab8c4e02a064fe84446fa54cc05b9a6a902c1860
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2c644f118e0bdb46b296cec7e4a3ea89031f2d52
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213142"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981129"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>Een status voor de productlevenscyclus toewijzen aan een vrijgegeven productmodel
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure laat zien hoe u een status van productlevenscyclus toewijst aan een vrijgegeven productmodel en de bijbehorende varianten. Vereiste: U moet eerst de taakbegeleiding "Een nieuwe status voor de productlevenscyclus maken" afspelen om ervoor te zorgen dat er minimaal één status van productlevenscyclus is gemaakt voordat u deze taakbegeleiding kunt afspelen.
+Deze procedure laat zien hoe u een status van productlevenscyclus toewijst aan een vrijgegeven productmodel en de bijbehorende varianten. Vereiste: U moet eerst de guide "Een nieuwe status voor de productlevenscyclus maken" afspelen om ervoor te zorgen dat er minimaal één status van productlevenscyclus is gemaakt voordat u deze guide kunt afspelen.
 
 
 ## <a name="find-a-released-product-master"></a>Een vrijgegeven productmodel zoeken
