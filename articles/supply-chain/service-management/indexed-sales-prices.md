@@ -15,30 +15,30 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b6b2607d8400ea80d25473ad4183362d4a3bcad
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f7f8c466df0b877c3f664acff2b431b3098fe2e6
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202371"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981637"
 ---
-# <a name="indexed-sales-prices"></a><span data-ttu-id="cc5c5-103">Geïndexeerde verkoopprijzen</span><span class="sxs-lookup"><span data-stu-id="cc5c5-103">Indexed sales prices</span></span>  
+# <a name="indexed-sales-prices"></a><span data-ttu-id="99f89-103">Geïndexeerde verkoopprijzen</span><span class="sxs-lookup"><span data-stu-id="99f89-103">Indexed sales prices</span></span>  
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="cc5c5-104">Bij het maken van abonnementskosten kunt u de index voor een abonnementsverkoopprijs instellen.</span><span class="sxs-lookup"><span data-stu-id="cc5c5-104">You set up the index for a subscription sales price when you create a subscription fee.</span></span>
+<span data-ttu-id="99f89-104">Bij het maken van abonnementskosten kunt u de index voor een abonnementsverkoopprijs instellen.</span><span class="sxs-lookup"><span data-stu-id="99f89-104">You set up the index for a subscription sales price when you create a subscription fee.</span></span>
 
-<span data-ttu-id="cc5c5-105">In het formulier **Abonnementskosten maken** stelt u het veld **Methode prijscalculatie** in op **Geïndexeerde basisprijs** en vervolgens vermenigvuldigt u de basisprijs met het percentage in het veld **Percentage prijswijziging** om de verkoopprijs voor de abonnementstransactie op te halen.</span><span class="sxs-lookup"><span data-stu-id="cc5c5-105">In the **Create subscription fee** form, set the **Get pricing from** field to **Indexed base price**, and then multiply the base price by the percentage in the **Percent price change** field to get the sales price of the subscription transaction.</span></span>
+<span data-ttu-id="99f89-105">In het formulier **Abonnementskosten maken** stelt u het veld **Methode prijscalculatie** in op **Geïndexeerde basisprijs** en vervolgens vermenigvuldigt u de basisprijs met het percentage in het veld **Percentage prijswijziging** om de verkoopprijs voor de abonnementstransactie op te halen.</span><span class="sxs-lookup"><span data-stu-id="99f89-105">In the **Create subscription fee** form, set the **Get pricing from** field to **Indexed base price**, and then multiply the base price by the percentage in the **Percent price change** field to get the sales price of the subscription transaction.</span></span>
 
-<span data-ttu-id="cc5c5-106">Als de basisprijs bijvoorbeeld EUR 1.000 is en de index 110, dan is de verkoopprijs EUR 1.100.</span><span class="sxs-lookup"><span data-stu-id="cc5c5-106">For example, if the base price is EUR 1,000, and the index is 110, the sales price is EUR 1,100.</span></span>
+<span data-ttu-id="99f89-106">Als de basisprijs bijvoorbeeld EUR 1.000 is en de index 110, dan is de verkoopprijs EUR 1.100.</span><span class="sxs-lookup"><span data-stu-id="99f89-106">For example, if the base price is EUR 1,000, and the index is 110, the sales price is EUR 1,100.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="cc5c5-107">Zie ook</span><span class="sxs-lookup"><span data-stu-id="cc5c5-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="99f89-107">Zie ook</span><span class="sxs-lookup"><span data-stu-id="99f89-107">See also</span></span>
 
-[<span data-ttu-id="cc5c5-108">Tarieftransacties abonnement maken</span><span class="sxs-lookup"><span data-stu-id="cc5c5-108">Create subscription fee transactions</span></span>](create-subscription-fee-transactions.md)
+[<span data-ttu-id="99f89-108">Tarieftransacties abonnement maken</span><span class="sxs-lookup"><span data-stu-id="99f89-108">Create subscription fee transactions</span></span>](create-subscription-fee-transactions.md)
 
   
 
