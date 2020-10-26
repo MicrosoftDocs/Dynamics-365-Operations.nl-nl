@@ -15,36 +15,36 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb0333950525c4e05a63f0dc99fec7d2d52e4477
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7a98d096c0eec6b1d585856b63113fd6dd60c0a4
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206721"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984890"
 ---
-# <a name="set-up-subscription-groups"></a><span data-ttu-id="6aa7a-103">Abonnementsgroepen instellen</span><span class="sxs-lookup"><span data-stu-id="6aa7a-103">Set up subscription groups</span></span> 
+# <a name="set-up-subscription-groups"></a><span data-ttu-id="b5ecd-103">Abonnementsgroepen instellen</span><span class="sxs-lookup"><span data-stu-id="b5ecd-103">Set up subscription groups</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="6aa7a-104">Klik op **Servicebeheer** \> **Instellen** \> **Serviceabonnementen** \> **Abonnementsgroepen**.</span><span class="sxs-lookup"><span data-stu-id="6aa7a-104">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
+1.  <span data-ttu-id="b5ecd-104">Klik op **Servicebeheer** \> **Instellen** \> **Serviceabonnementen** \> **Abonnementsgroepen**.</span><span class="sxs-lookup"><span data-stu-id="b5ecd-104">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
 
-2.  <span data-ttu-id="6aa7a-105">Druk op CTRL+N of klik op **Nieuw** om een nieuwe abonnementsgroep te maken.</span><span class="sxs-lookup"><span data-stu-id="6aa7a-105">Press Ctrl+N or click **New** to create a new subscription group.</span></span>
+2.  <span data-ttu-id="b5ecd-105">Druk op CTRL+N of klik op **Nieuw** om een nieuwe abonnementsgroep te maken.</span><span class="sxs-lookup"><span data-stu-id="b5ecd-105">Press Ctrl+N or click **New** to create a new subscription group.</span></span>
 
-3.  <span data-ttu-id="6aa7a-106">Voer in het veld **Abonnementsgroep** een naam in voor de nieuwe abonnementsgroep.</span><span class="sxs-lookup"><span data-stu-id="6aa7a-106">In the **Subscription group** field, enter a name for the new subscription group.</span></span>
+3.  <span data-ttu-id="b5ecd-106">Voer in het veld **Abonnementsgroep** een naam in voor de nieuwe abonnementsgroep.</span><span class="sxs-lookup"><span data-stu-id="b5ecd-106">In the **Subscription group** field, enter a name for the new subscription group.</span></span>
 
-4.  <span data-ttu-id="6aa7a-107">Selecteer een factuurfrequentie voor het abonnement in het veld **Facturering**.</span><span class="sxs-lookup"><span data-stu-id="6aa7a-107">In the **Invoicing** field, select an invoicing frequency for the subscription.</span></span> <span data-ttu-id="6aa7a-108">De factuurfrequentie wordt aangegeven door een periodecode die is ingesteld in het formulier **Periodetypen**.</span><span class="sxs-lookup"><span data-stu-id="6aa7a-108">The invoicing frequency is indicated by a period code that is set up in the **Period types** form.</span></span>
+4.  <span data-ttu-id="b5ecd-107">Selecteer een factuurfrequentie voor het abonnement in het veld **Facturering**.</span><span class="sxs-lookup"><span data-stu-id="b5ecd-107">In the **Invoicing** field, select an invoicing frequency for the subscription.</span></span> <span data-ttu-id="b5ecd-108">De factuurfrequentie wordt aangegeven door een periodecode die is ingesteld in het formulier **Periodetypen**.</span><span class="sxs-lookup"><span data-stu-id="b5ecd-108">The invoicing frequency is indicated by a period code that is set up in the **Period types** form.</span></span>
 
-5.  <span data-ttu-id="6aa7a-109">Als u opbrengst wilt samenvoegen voor abonnementstransacties, schakelt u het selectievakje **Opbrengst samenvoegen** in en selecteert u vervolgens een frequentie in het veld **Toerekening**.</span><span class="sxs-lookup"><span data-stu-id="6aa7a-109">To accrue revenue for subscription transactions, select the **Accrue revenue** check box, and then in the **Accrual** field, select a frequency.</span></span> <span data-ttu-id="6aa7a-110">De toerekeningsfrequentie is gebaseerd op een periodecode die is ingesteld in het formulier **Perioden**.</span><span class="sxs-lookup"><span data-stu-id="6aa7a-110">The accrual frequency is based on a period code that is set up in the **Periods** form.</span></span>
+5.  <span data-ttu-id="b5ecd-109">Als u opbrengst wilt samenvoegen voor abonnementstransacties, schakelt u het selectievakje **Opbrengst samenvoegen** in en selecteert u vervolgens een frequentie in het veld **Toerekening**.</span><span class="sxs-lookup"><span data-stu-id="b5ecd-109">To accrue revenue for subscription transactions, select the **Accrue revenue** check box, and then in the **Accrual** field, select a frequency.</span></span> <span data-ttu-id="b5ecd-110">De toerekeningsfrequentie is gebaseerd op een periodecode die is ingesteld in het formulier **Perioden**.</span><span class="sxs-lookup"><span data-stu-id="b5ecd-110">The accrual frequency is based on a period code that is set up in the **Periods** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="6aa7a-111">Zie ook</span><span class="sxs-lookup"><span data-stu-id="6aa7a-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b5ecd-111">Zie ook</span><span class="sxs-lookup"><span data-stu-id="b5ecd-111">See also</span></span>
 
-<span data-ttu-id="6aa7a-112">[Abonnementsgroepen (formulier)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="6aa7a-112">[Subscription groups (form)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span></span>
+<span data-ttu-id="b5ecd-112">[Abonnementsgroepen (formulier)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="b5ecd-112">[Subscription groups (form)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span></span>
 
-[<span data-ttu-id="6aa7a-113">Abonnementsgroepen</span><span class="sxs-lookup"><span data-stu-id="6aa7a-113">Subscription groups</span></span>](subscription-groups.md)
+[<span data-ttu-id="b5ecd-113">Abonnementsgroepen</span><span class="sxs-lookup"><span data-stu-id="b5ecd-113">Subscription groups</span></span>](subscription-groups.md)
 
   
 

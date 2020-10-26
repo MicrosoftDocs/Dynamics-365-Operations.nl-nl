@@ -13,41 +13,41 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab158a9f96054f7478a331b6165c01432311eb7d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c43d7f768069c5ef201a2823a9aa626b38220073
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213372"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986474"
 ---
-# <a name="add-an-expression-constraint-to-a-product-configuration-model"></a><span data-ttu-id="63b50-103">Een expressiebeperking toevoegen aan een productconfiguratiemodel</span><span class="sxs-lookup"><span data-stu-id="63b50-103">Add an expression constraint to a product configuration model</span></span>
+# <a name="add-an-expression-constraint-to-a-product-configuration-model"></a><span data-ttu-id="7813a-103">Een expressiebeperking toevoegen aan een productconfiguratiemodel</span><span class="sxs-lookup"><span data-stu-id="7813a-103">Add an expression constraint to a product configuration model</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="63b50-104">Deze procedure toont hoe u een nieuwe expressie voor beperking toevoegt aan een productconfiguratiemodel.</span><span class="sxs-lookup"><span data-stu-id="63b50-104">This procedure shows how you can add a new constraint expression to a product configuration model.</span></span> <span data-ttu-id="63b50-105">Deze geeft aan hoe u kunt verplicht dat de hoekbescherming moet worden toegepast op een luidspreker als de gebruiker een grill in metaal heeft geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="63b50-105">It shows how you can mandate that corner protection must be applied to a speaker if the user has selected a front grill in metal.</span></span> <span data-ttu-id="63b50-106">De procedure gebruikt het onderdeel Geavanceerde luidspreker in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="63b50-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
+<span data-ttu-id="7813a-104">Deze procedure toont hoe u een nieuwe expressie voor beperking toevoegt aan een productconfiguratiemodel.</span><span class="sxs-lookup"><span data-stu-id="7813a-104">This procedure shows how you can add a new constraint expression to a product configuration model.</span></span> <span data-ttu-id="7813a-105">Deze geeft aan hoe u kunt verplicht dat de hoekbescherming moet worden toegepast op een luidspreker als de gebruiker een grill in metaal heeft geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="7813a-105">It shows how you can mandate that corner protection must be applied to a speaker if the user has selected a front grill in metal.</span></span> <span data-ttu-id="7813a-106">De procedure gebruikt het onderdeel Geavanceerde luidspreker in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="7813a-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
 
 
-## <a name="create-an-expression-constraint"></a><span data-ttu-id="63b50-107">Maak een expressiebeperking</span><span class="sxs-lookup"><span data-stu-id="63b50-107">Create an expression constraint</span></span>
-1. <span data-ttu-id="63b50-108">Klik op Definitie van productvariantmodel.</span><span class="sxs-lookup"><span data-stu-id="63b50-108">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="63b50-109">Klik op Productconfiguratiemodellen.</span><span class="sxs-lookup"><span data-stu-id="63b50-109">Click Product configuration models.</span></span>
-3. <span data-ttu-id="63b50-110">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="63b50-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="63b50-111">In dit voorbeeld wordt het model Geavanceerde luidspreker gebruikt.</span><span class="sxs-lookup"><span data-stu-id="63b50-111">This example uses the high end speaker model.</span></span>  
-4. <span data-ttu-id="63b50-112">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="63b50-112">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="63b50-113">Vouw de sectie Beperkingen uit.</span><span class="sxs-lookup"><span data-stu-id="63b50-113">Expand the Constraints section.</span></span>
-6. <span data-ttu-id="63b50-114">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="63b50-114">Click Add.</span></span>
-7. <span data-ttu-id="63b50-115">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="63b50-115">Click Create.</span></span>
-8. <span data-ttu-id="63b50-116">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="63b50-116">In the Name field, type a value.</span></span>
+## <a name="create-an-expression-constraint"></a><span data-ttu-id="7813a-107">Maak een expressiebeperking</span><span class="sxs-lookup"><span data-stu-id="7813a-107">Create an expression constraint</span></span>
+1. <span data-ttu-id="7813a-108">Klik op Definitie van productvariantmodel.</span><span class="sxs-lookup"><span data-stu-id="7813a-108">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="7813a-109">Klik op Productconfiguratiemodellen.</span><span class="sxs-lookup"><span data-stu-id="7813a-109">Click Product configuration models.</span></span>
+3. <span data-ttu-id="7813a-110">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7813a-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7813a-111">In dit voorbeeld wordt het model Geavanceerde luidspreker gebruikt.</span><span class="sxs-lookup"><span data-stu-id="7813a-111">This example uses the high end speaker model.</span></span>  
+4. <span data-ttu-id="7813a-112">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="7813a-112">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="7813a-113">Vouw de sectie Beperkingen uit.</span><span class="sxs-lookup"><span data-stu-id="7813a-113">Expand the Constraints section.</span></span>
+6. <span data-ttu-id="7813a-114">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="7813a-114">Click Add.</span></span>
+7. <span data-ttu-id="7813a-115">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="7813a-115">Click Create.</span></span>
+8. <span data-ttu-id="7813a-116">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="7813a-116">In the Name field, type a value.</span></span>
 
-## <a name="enter-expression"></a><span data-ttu-id="63b50-117">Expressie invoeren</span><span class="sxs-lookup"><span data-stu-id="63b50-117">Enter expression</span></span>
-1. <span data-ttu-id="63b50-118">Klik op Expressie bewerken.</span><span class="sxs-lookup"><span data-stu-id="63b50-118">Click Edit expression.</span></span>
-    * <span data-ttu-id="63b50-119">Als u de gebruikersinterface in de taakregistratie in deze fase ontgrendelt, kunt u IntelliSense en de lijst van symbolen gebruiken om de expressie voor de beperking te maken.</span><span class="sxs-lookup"><span data-stu-id="63b50-119">If you unlock the user interface in the task recording at this stage, you can use IntelliSense and the list of symbols to build the constraint expression .</span></span>  
-2. <span data-ttu-id="63b50-120">Typ 'Implies[FrontGrill=="Metal", CornerProtection] ' in het veld ConstraintBody.</span><span class="sxs-lookup"><span data-stu-id="63b50-120">In the ConstraintBody field, enter 'Implies[FrontGrill=="Metal", CornerProtection] '.</span></span>
-    * <span data-ttu-id="63b50-121">Deze expressielogica meldt: Als de grill van metaal is, moet de optie voor hoekbescherming worden geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="63b50-121">This expression logic states: If the Front grill is  metal, then the corner protection option must be selected.</span></span>  
-3. <span data-ttu-id="63b50-122">Klik op Valideren.</span><span class="sxs-lookup"><span data-stu-id="63b50-122">Click Validate.</span></span>
-    * <span data-ttu-id="63b50-123">De validatiefunctie wordt uitgevoerd op de expressie voor de beperking en controleert op syntaxisfouten.</span><span class="sxs-lookup"><span data-stu-id="63b50-123">The validate function runs through the constraint expression and checks for syntax errors.</span></span>  
-4. <span data-ttu-id="63b50-124">Klik op Sluiten.</span><span class="sxs-lookup"><span data-stu-id="63b50-124">Click Close.</span></span>
-5. <span data-ttu-id="63b50-125">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="63b50-125">Click OK.</span></span>
+## <a name="enter-expression"></a><span data-ttu-id="7813a-117">Expressie invoeren</span><span class="sxs-lookup"><span data-stu-id="7813a-117">Enter expression</span></span>
+1. <span data-ttu-id="7813a-118">Klik op Expressie bewerken.</span><span class="sxs-lookup"><span data-stu-id="7813a-118">Click Edit expression.</span></span>
+    * <span data-ttu-id="7813a-119">Als u de gebruikersinterface in de taakregistratie in deze fase ontgrendelt, kunt u IntelliSense en de lijst van symbolen gebruiken om de expressie voor de beperking te maken.</span><span class="sxs-lookup"><span data-stu-id="7813a-119">If you unlock the user interface in the task recording at this stage, you can use IntelliSense and the list of symbols to build the constraint expression .</span></span>  
+2. <span data-ttu-id="7813a-120">Typ 'Implies[FrontGrill=="Metal", CornerProtection] ' in het veld ConstraintBody.</span><span class="sxs-lookup"><span data-stu-id="7813a-120">In the ConstraintBody field, enter 'Implies[FrontGrill=="Metal", CornerProtection] '.</span></span>
+    * <span data-ttu-id="7813a-121">Deze expressielogica meldt: Als de grill van metaal is, moet de optie voor hoekbescherming worden geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="7813a-121">This expression logic states: If the Front grill is  metal, then the corner protection option must be selected.</span></span>  
+3. <span data-ttu-id="7813a-122">Klik op Valideren.</span><span class="sxs-lookup"><span data-stu-id="7813a-122">Click Validate.</span></span>
+    * <span data-ttu-id="7813a-123">De validatiefunctie wordt uitgevoerd op de expressie voor de beperking en controleert op syntaxisfouten.</span><span class="sxs-lookup"><span data-stu-id="7813a-123">The validate function runs through the constraint expression and checks for syntax errors.</span></span>  
+4. <span data-ttu-id="7813a-124">Klik op Sluiten.</span><span class="sxs-lookup"><span data-stu-id="7813a-124">Click Close.</span></span>
+5. <span data-ttu-id="7813a-125">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7813a-125">Click OK.</span></span>
 

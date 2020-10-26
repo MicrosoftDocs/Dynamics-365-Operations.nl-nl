@@ -14,46 +14,46 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4c80ca7e06d8a6753363c0da3e6eb001ae4a06ad
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 3a553add531da9a8117af0830efb2d1b68e9b2e3
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212291"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983417"
 ---
-# <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="1da25-103">Een formule maken door uit een bestaande formule te kopiëren</span><span class="sxs-lookup"><span data-stu-id="1da25-103">Create a formula by copying from an existing formula</span></span>
+# <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="9162b-103">Een formule maken door uit een bestaande formule te kopiëren</span><span class="sxs-lookup"><span data-stu-id="9162b-103">Create a formula by copying from an existing formula</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1da25-104">Deze procedure toont hoe u snel een nieuwe formule maakt door uit een bestaande formule te kopiëren.</span><span class="sxs-lookup"><span data-stu-id="1da25-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="1da25-105">U kunt de demobedrijven USMF, USP2 of USPI gebruiken om deze procedure te maken.</span><span class="sxs-lookup"><span data-stu-id="1da25-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
+<span data-ttu-id="9162b-104">Deze procedure toont hoe u snel een nieuwe formule maakt door uit een bestaande formule te kopiëren.</span><span class="sxs-lookup"><span data-stu-id="9162b-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="9162b-105">U kunt de demobedrijven USMF, USP2 of USPI gebruiken om deze procedure te maken.</span><span class="sxs-lookup"><span data-stu-id="9162b-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
 
 
-## <a name="create-a-new-formula"></a><span data-ttu-id="1da25-106">Een nieuwe formule maken</span><span class="sxs-lookup"><span data-stu-id="1da25-106">Create a new formula</span></span>
-1. <span data-ttu-id="1da25-107">Ga naar Formules.</span><span class="sxs-lookup"><span data-stu-id="1da25-107">Go to Formulas.</span></span>
-2. <span data-ttu-id="1da25-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="1da25-108">Click New.</span></span>
-3. <span data-ttu-id="1da25-109">Typ een waarde in het veld Formule.</span><span class="sxs-lookup"><span data-stu-id="1da25-109">In the Formula field, type a value.</span></span>
-4. <span data-ttu-id="1da25-110">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="1da25-110">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="1da25-111">Typ of selecteer een waarde in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="1da25-111">In the Site field, enter or select a value.</span></span>
-6. <span data-ttu-id="1da25-112">Typ of selecteer een waarde in het veld Artikelgroep.</span><span class="sxs-lookup"><span data-stu-id="1da25-112">In the Item group field, enter or select a value.</span></span>
-7. <span data-ttu-id="1da25-113">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="1da25-113">Click Save.</span></span>
+## <a name="create-a-new-formula"></a><span data-ttu-id="9162b-106">Een nieuwe formule maken</span><span class="sxs-lookup"><span data-stu-id="9162b-106">Create a new formula</span></span>
+1. <span data-ttu-id="9162b-107">Ga naar Formules.</span><span class="sxs-lookup"><span data-stu-id="9162b-107">Go to Formulas.</span></span>
+2. <span data-ttu-id="9162b-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="9162b-108">Click New.</span></span>
+3. <span data-ttu-id="9162b-109">Typ een waarde in het veld Formule.</span><span class="sxs-lookup"><span data-stu-id="9162b-109">In the Formula field, type a value.</span></span>
+4. <span data-ttu-id="9162b-110">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="9162b-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="9162b-111">Typ of selecteer een waarde in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="9162b-111">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="9162b-112">Typ of selecteer een waarde in het veld Artikelgroep.</span><span class="sxs-lookup"><span data-stu-id="9162b-112">In the Item group field, enter or select a value.</span></span>
+7. <span data-ttu-id="9162b-113">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="9162b-113">Click Save.</span></span>
 
-## <a name="copy-from-an-existing-formula"></a><span data-ttu-id="1da25-114">Uit een bestaande formule kopiëren</span><span class="sxs-lookup"><span data-stu-id="1da25-114">Copy from an existing formula</span></span>
-1. <span data-ttu-id="1da25-115">Klik op Kopiëren.</span><span class="sxs-lookup"><span data-stu-id="1da25-115">Click Copy.</span></span>
-2. <span data-ttu-id="1da25-116">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="1da25-116">In the Item number field, enter or select a value.</span></span>
-3. <span data-ttu-id="1da25-117">Typ of selecteer een waarde in het veld Formuleversie.</span><span class="sxs-lookup"><span data-stu-id="1da25-117">In the Formula version field, enter or select a value.</span></span>
-4. <span data-ttu-id="1da25-118">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="1da25-118">Click OK.</span></span>
+## <a name="copy-from-an-existing-formula"></a><span data-ttu-id="9162b-114">Uit een bestaande formule kopiëren</span><span class="sxs-lookup"><span data-stu-id="9162b-114">Copy from an existing formula</span></span>
+1. <span data-ttu-id="9162b-115">Klik op Kopiëren.</span><span class="sxs-lookup"><span data-stu-id="9162b-115">Click Copy.</span></span>
+2. <span data-ttu-id="9162b-116">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="9162b-116">In the Item number field, enter or select a value.</span></span>
+3. <span data-ttu-id="9162b-117">Typ of selecteer een waarde in het veld Formuleversie.</span><span class="sxs-lookup"><span data-stu-id="9162b-117">In the Formula version field, enter or select a value.</span></span>
+4. <span data-ttu-id="9162b-118">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="9162b-118">Click OK.</span></span>
 
-## <a name="revise-the-copied-formula"></a><span data-ttu-id="1da25-119">De gekopieerde formule controleren</span><span class="sxs-lookup"><span data-stu-id="1da25-119">Revise the copied formula</span></span>
-1. <span data-ttu-id="1da25-120">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="1da25-120">In the list, find and select the desired record.</span></span>
-2. <span data-ttu-id="1da25-121">Klik op Verwijderen.</span><span class="sxs-lookup"><span data-stu-id="1da25-121">Click Delete.</span></span>
-3. <span data-ttu-id="1da25-122">Klik op Ja.</span><span class="sxs-lookup"><span data-stu-id="1da25-122">Click Yes.</span></span>
+## <a name="revise-the-copied-formula"></a><span data-ttu-id="9162b-119">De gekopieerde formule controleren</span><span class="sxs-lookup"><span data-stu-id="9162b-119">Revise the copied formula</span></span>
+1. <span data-ttu-id="9162b-120">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="9162b-120">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="9162b-121">Klik op Verwijderen.</span><span class="sxs-lookup"><span data-stu-id="9162b-121">Click Delete.</span></span>
+3. <span data-ttu-id="9162b-122">Klik op Ja.</span><span class="sxs-lookup"><span data-stu-id="9162b-122">Click Yes.</span></span>
 
-## <a name="approve-formula"></a><span data-ttu-id="1da25-123">Formule goedkeuren</span><span class="sxs-lookup"><span data-stu-id="1da25-123">Approve formula</span></span>
-1. <span data-ttu-id="1da25-124">Klik op Formule goedkeuren.</span><span class="sxs-lookup"><span data-stu-id="1da25-124">Click Approve formula.</span></span>
-2. <span data-ttu-id="1da25-125">Typ of selecteer een waarde in het veld Goedgekeurd door.</span><span class="sxs-lookup"><span data-stu-id="1da25-125">In the Approved by field, enter or select a value.</span></span>
-3. <span data-ttu-id="1da25-126">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="1da25-126">Click OK.</span></span>
-4. <span data-ttu-id="1da25-127">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="1da25-127">Close the page.</span></span>
+## <a name="approve-formula"></a><span data-ttu-id="9162b-123">Formule goedkeuren</span><span class="sxs-lookup"><span data-stu-id="9162b-123">Approve formula</span></span>
+1. <span data-ttu-id="9162b-124">Klik op Formule goedkeuren.</span><span class="sxs-lookup"><span data-stu-id="9162b-124">Click Approve formula.</span></span>
+2. <span data-ttu-id="9162b-125">Typ of selecteer een waarde in het veld Goedgekeurd door.</span><span class="sxs-lookup"><span data-stu-id="9162b-125">In the Approved by field, enter or select a value.</span></span>
+3. <span data-ttu-id="9162b-126">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="9162b-126">Click OK.</span></span>
+4. <span data-ttu-id="9162b-127">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="9162b-127">Close the page.</span></span>
 
