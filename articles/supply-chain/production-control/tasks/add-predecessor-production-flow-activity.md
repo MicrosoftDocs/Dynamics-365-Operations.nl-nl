@@ -14,41 +14,41 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a373a251569f0bbd10a69a4ccd63db3ea030f49
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c39cef1174439b42a072bd7fc1ac29ef31ecf864
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212406"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979179"
 ---
-# <a name="add-a-predecessor-to-a-production-flow-activity"></a><span data-ttu-id="3e818-103">Een voorafgaande taak toevoegen aan een productiestroomactiviteit</span><span class="sxs-lookup"><span data-stu-id="3e818-103">Add a predecessor to a production flow activity</span></span>
+# <a name="add-a-predecessor-to-a-production-flow-activity"></a><span data-ttu-id="cd5db-103">Een voorafgaande taak toevoegen aan een productiestroomactiviteit</span><span class="sxs-lookup"><span data-stu-id="cd5db-103">Add a predecessor to a production flow activity</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="3e818-104">In een productiestroomversie moeten alle activiteiten worden gerangschikt.</span><span class="sxs-lookup"><span data-stu-id="3e818-104">In a production flow version, all activities must be sequenced.</span></span> <span data-ttu-id="3e818-105">Een activiteit kan een of meerdere voorafgaande taken of opvolgende taken hebben.</span><span class="sxs-lookup"><span data-stu-id="3e818-105">An activity can have one or multiple predecessors or successors.</span></span> 
+<span data-ttu-id="cd5db-104">In een productiestroomversie moeten alle activiteiten worden gerangschikt.</span><span class="sxs-lookup"><span data-stu-id="cd5db-104">In a production flow version, all activities must be sequenced.</span></span> <span data-ttu-id="cd5db-105">Een activiteit kan een of meerdere voorafgaande taken of opvolgende taken hebben.</span><span class="sxs-lookup"><span data-stu-id="cd5db-105">An activity can have one or multiple predecessors or successors.</span></span> 
 
-<span data-ttu-id="3e818-106">Deze procedure laat zien hoe u een voorafgaande taak aan een activiteit koppelt.</span><span class="sxs-lookup"><span data-stu-id="3e818-106">This procedure shows how to associate a predecessor to an activity.</span></span> 
+<span data-ttu-id="cd5db-106">Deze procedure laat zien hoe u een voorafgaande taak aan een activiteit koppelt.</span><span class="sxs-lookup"><span data-stu-id="cd5db-106">This procedure shows how to associate a predecessor to an activity.</span></span> 
 
-<span data-ttu-id="3e818-107">Voor deze taak hebt u een productiestroom nodig met de Conceptversie waaraan minimaal twee activiteiten kunnen worden gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="3e818-107">To perform this task, you need a production flow that has the Draft version with at least two activities that can be connected.</span></span> 
+<span data-ttu-id="cd5db-107">Voor deze taak hebt u een productiestroom nodig met de Conceptversie waaraan minimaal twee activiteiten kunnen worden gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="cd5db-107">To perform this task, you need a production flow that has the Draft version with at least two activities that can be connected.</span></span> 
 
-<span data-ttu-id="3e818-108">Zie voor meer informatie de whitepaper "Production flows and activities in lean manufacturing".</span><span class="sxs-lookup"><span data-stu-id="3e818-108">To learn more, read the white paper "Production flows and activities in lean manufacturing."</span></span>
+<span data-ttu-id="cd5db-108">Zie voor meer informatie de whitepaper "Production flows and activities in lean manufacturing".</span><span class="sxs-lookup"><span data-stu-id="cd5db-108">To learn more, read the white paper "Production flows and activities in lean manufacturing."</span></span>
 
 
-## <a name="find-the-production-flow-and-version"></a><span data-ttu-id="3e818-109">De productiestroom en versie vinden</span><span class="sxs-lookup"><span data-stu-id="3e818-109">Find the production flow and version</span></span>
-1. <span data-ttu-id="3e818-110">Ga naar Productiebeheer > Instellingen > Lean productiestroom > Productiestromen.</span><span class="sxs-lookup"><span data-stu-id="3e818-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
-2. <span data-ttu-id="3e818-111">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="3e818-111">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="3e818-112">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="3e818-112">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="3e818-113">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="3e818-113">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="3e818-114">Klik op Activiteiten.</span><span class="sxs-lookup"><span data-stu-id="3e818-114">Click Activities.</span></span>
+## <a name="find-the-production-flow-and-version"></a><span data-ttu-id="cd5db-109">De productiestroom en versie vinden</span><span class="sxs-lookup"><span data-stu-id="cd5db-109">Find the production flow and version</span></span>
+1. <span data-ttu-id="cd5db-110">Ga naar Productiebeheer > Instellingen > Lean productiestroom > Productiestromen.</span><span class="sxs-lookup"><span data-stu-id="cd5db-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="cd5db-111">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="cd5db-111">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="cd5db-112">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="cd5db-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="cd5db-113">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="cd5db-113">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="cd5db-114">Klik op Activiteiten.</span><span class="sxs-lookup"><span data-stu-id="cd5db-114">Click Activities.</span></span>
 
-## <a name="select-an-activity-and-add-a-predecessor"></a><span data-ttu-id="3e818-115">Een activiteit selecteren en een voorafgaande taak toevoegen</span><span class="sxs-lookup"><span data-stu-id="3e818-115">Select an activity and add a predecessor</span></span>
-1. <span data-ttu-id="3e818-116">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="3e818-116">In the list, find and select the desired record.</span></span>
-2. <span data-ttu-id="3e818-117">Klik op Voorafgaande taak toevoegen.</span><span class="sxs-lookup"><span data-stu-id="3e818-117">Click Add predecessor.</span></span>
-3. <span data-ttu-id="3e818-118">Typ of selecteer een waarde in het veld Activiteit.</span><span class="sxs-lookup"><span data-stu-id="3e818-118">In the Activity field, enter or select a value.</span></span>
-4. <span data-ttu-id="3e818-119">Voer in het veld Cyclusduurverhouding een nummer in.</span><span class="sxs-lookup"><span data-stu-id="3e818-119">In the Cycle time ratio field, enter a number.</span></span>
-    * <span data-ttu-id="3e818-120">De standaard cyclusduurverhouding van een activiteitrelatie is 1.</span><span class="sxs-lookup"><span data-stu-id="3e818-120">The default cycle time ratio of an activity relation is 1.</span></span> <span data-ttu-id="3e818-121">Hierbij wordt ervan uitgegaan dat beide activiteiten op dezelfde snelheid of takttijd worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="3e818-121">This assumes that both activities run at the same pace or takt time.</span></span> <span data-ttu-id="3e818-122">Als de voorafgaande taak met een hoger tempo (lagere takttijd) wordt uitgevoerd, moet de verhouding lager zijn dan 1. Als de voorafgaande taak met een langzamer tempo (hogere takttijd) wordt uitgevoerd, is de cyclusduurverhouding groter is dan 1.</span><span class="sxs-lookup"><span data-stu-id="3e818-122">If the predecessor runs at a higher pace (lower takt time), the ratio should be lower than 1, if the predecessor runs at a slower pace (higher takt time) the cycle time ratio is greater than 1.</span></span>  
-5. <span data-ttu-id="3e818-123">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="3e818-123">Click OK.</span></span>
+## <a name="select-an-activity-and-add-a-predecessor"></a><span data-ttu-id="cd5db-115">Een activiteit selecteren en een voorafgaande taak toevoegen</span><span class="sxs-lookup"><span data-stu-id="cd5db-115">Select an activity and add a predecessor</span></span>
+1. <span data-ttu-id="cd5db-116">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="cd5db-116">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="cd5db-117">Klik op Voorafgaande taak toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cd5db-117">Click Add predecessor.</span></span>
+3. <span data-ttu-id="cd5db-118">Typ of selecteer een waarde in het veld Activiteit.</span><span class="sxs-lookup"><span data-stu-id="cd5db-118">In the Activity field, enter or select a value.</span></span>
+4. <span data-ttu-id="cd5db-119">Voer in het veld Cyclusduurverhouding een nummer in.</span><span class="sxs-lookup"><span data-stu-id="cd5db-119">In the Cycle time ratio field, enter a number.</span></span>
+    * <span data-ttu-id="cd5db-120">De standaard cyclusduurverhouding van een activiteitrelatie is 1.</span><span class="sxs-lookup"><span data-stu-id="cd5db-120">The default cycle time ratio of an activity relation is 1.</span></span> <span data-ttu-id="cd5db-121">Hierbij wordt ervan uitgegaan dat beide activiteiten op dezelfde snelheid of takttijd worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="cd5db-121">This assumes that both activities run at the same pace or takt time.</span></span> <span data-ttu-id="cd5db-122">Als de voorafgaande taak met een hoger tempo (lagere takttijd) wordt uitgevoerd, moet de verhouding lager zijn dan 1. Als de voorafgaande taak met een langzamer tempo (hogere takttijd) wordt uitgevoerd, is de cyclusduurverhouding groter is dan 1.</span><span class="sxs-lookup"><span data-stu-id="cd5db-122">If the predecessor runs at a higher pace (lower takt time), the ratio should be lower than 1, if the predecessor runs at a slower pace (higher takt time) the cycle time ratio is greater than 1.</span></span>  
+5. <span data-ttu-id="cd5db-123">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="cd5db-123">Click OK.</span></span>
 

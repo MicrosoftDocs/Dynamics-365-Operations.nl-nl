@@ -12,63 +12,63 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3d80171ec524e3401d7971cb743d73abdda87ff
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cb5c8e615302cba05fbd14a47af6578bca7bc16e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217029"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976945"
 ---
-# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="5b246-103">Gedeeltelijk locatieproces voor cyclustelling definiëren </span><span class="sxs-lookup"><span data-stu-id="5b246-103">Define partial location cycle counting process</span></span> 
+# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="f8a03-103">Gedeeltelijk locatieproces voor cyclustelling definiëren </span><span class="sxs-lookup"><span data-stu-id="f8a03-103">Define partial location cycle counting process</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5b246-104">Wanneer u cyclustellingsplannen gebruikt om telwerk te maken, kunt u de werkelijke telbewerkingen leiden door aan te vragen dat alleen specifieke producten en productvarianten worden geteld in plaats van alle voorhanden voorraad op de locatie.</span><span class="sxs-lookup"><span data-stu-id="5b246-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="5b246-105">Door te filteren op specifieke producten kan de magazijnbeheerder de overhead voor controle helpen verminderen, fouten bij consolidatie vermijden en tijd besparen.</span><span class="sxs-lookup"><span data-stu-id="5b246-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="5b246-106">Normaal gesproken voert een magazijnbeheerder de instellingstaken uit.</span><span class="sxs-lookup"><span data-stu-id="5b246-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="5b246-107">U kunt deze procedure doorlopen in het demobedrijf USMF of in uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="5b246-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
+<span data-ttu-id="f8a03-104">Wanneer u cyclustellingsplannen gebruikt om telwerk te maken, kunt u de werkelijke telbewerkingen leiden door aan te vragen dat alleen specifieke producten en productvarianten worden geteld in plaats van alle voorhanden voorraad op de locatie.</span><span class="sxs-lookup"><span data-stu-id="f8a03-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="f8a03-105">Door te filteren op specifieke producten kan de magazijnbeheerder de overhead voor controle helpen verminderen, fouten bij consolidatie vermijden en tijd besparen.</span><span class="sxs-lookup"><span data-stu-id="f8a03-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="f8a03-106">Normaal gesproken voert een magazijnbeheerder de instellingstaken uit.</span><span class="sxs-lookup"><span data-stu-id="f8a03-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="f8a03-107">U kunt deze procedure doorlopen in het demobedrijf USMF of in uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="f8a03-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 
 
-## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="5b246-108">Een cyclustelwerksjabloon maken</span><span class="sxs-lookup"><span data-stu-id="5b246-108">Create a cycle counting work template</span></span>
-1. <span data-ttu-id="5b246-109">Ga naar Magazijnbeheer > Instellingen > Werk > Werksjablonen.</span><span class="sxs-lookup"><span data-stu-id="5b246-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
-2. <span data-ttu-id="5b246-110">Selecteer 'Cyclustelling' in het veld Werkordertype.</span><span class="sxs-lookup"><span data-stu-id="5b246-110">In the Work order type field, select 'Cycle counting'.</span></span>
-3. <span data-ttu-id="5b246-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="5b246-111">Click New.</span></span>
-4. <span data-ttu-id="5b246-112">Voer een getal in het veld Volgnummer in.</span><span class="sxs-lookup"><span data-stu-id="5b246-112">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="5b246-113">De sorteervolgorde is van het kleinste getal naar het grootste getal.</span><span class="sxs-lookup"><span data-stu-id="5b246-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="5b246-114">De waarde moet groter zijn dan 0 (nul).</span><span class="sxs-lookup"><span data-stu-id="5b246-114">The value must be more than 0 (zero).</span></span>  
-5. <span data-ttu-id="5b246-115">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="5b246-115">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="5b246-116">Typ een waarde in het veld Werksjabloon.</span><span class="sxs-lookup"><span data-stu-id="5b246-116">In the Work template field, type a value.</span></span>
-7. <span data-ttu-id="5b246-117">Typ een waarde in het veld Omschrijving van werksjabloon.</span><span class="sxs-lookup"><span data-stu-id="5b246-117">In the Work template description field, type a value.</span></span>
-8. <span data-ttu-id="5b246-118">Typ of selecteer een waarde in het veld Werkgroep-id.</span><span class="sxs-lookup"><span data-stu-id="5b246-118">In the Work pool ID field, enter or select a value.</span></span>
-9. <span data-ttu-id="5b246-119">Voer een getal in het veld Werkprioriteit in.</span><span class="sxs-lookup"><span data-stu-id="5b246-119">In the Work priority field, enter a number.</span></span>
-10. <span data-ttu-id="5b246-120">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5b246-120">Click Save.</span></span>
-11. <span data-ttu-id="5b246-121">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="5b246-121">Click New.</span></span>
-12. <span data-ttu-id="5b246-122">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="5b246-122">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="5b246-123">Selecteer 'Tellen' in het veld Werktype.</span><span class="sxs-lookup"><span data-stu-id="5b246-123">In the Work type field, select 'Counting'.</span></span>
-14. <span data-ttu-id="5b246-124">Typ of selecteer een waarde in het veld Werkklasse-id.</span><span class="sxs-lookup"><span data-stu-id="5b246-124">In the Work class ID field, enter or select a value.</span></span>
-15. <span data-ttu-id="5b246-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5b246-125">Click Save.</span></span>
-16. <span data-ttu-id="5b246-126">Klik op Werkregelopsplitsingen.</span><span class="sxs-lookup"><span data-stu-id="5b246-126">Click Work line breaks.</span></span>
-17. <span data-ttu-id="5b246-127">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="5b246-127">Click New.</span></span>
-18. <span data-ttu-id="5b246-128">Voer een getal in het veld Volgnummer in.</span><span class="sxs-lookup"><span data-stu-id="5b246-128">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="5b246-129">De sorteervolgorde is van het kleinste getal naar het grootste getal.</span><span class="sxs-lookup"><span data-stu-id="5b246-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="5b246-130">De waarde moet groter zijn dan 0 (nul).</span><span class="sxs-lookup"><span data-stu-id="5b246-130">The value must be more than 0 (zero).</span></span>  
-19. <span data-ttu-id="5b246-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5b246-131">Click Save.</span></span>
-20. <span data-ttu-id="5b246-132">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="5b246-132">Close the page.</span></span>
-21. <span data-ttu-id="5b246-133">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="5b246-133">Close the page.</span></span>
+## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="f8a03-108">Een cyclustelwerksjabloon maken</span><span class="sxs-lookup"><span data-stu-id="f8a03-108">Create a cycle counting work template</span></span>
+1. <span data-ttu-id="f8a03-109">Ga naar Magazijnbeheer > Instellingen > Werk > Werksjablonen.</span><span class="sxs-lookup"><span data-stu-id="f8a03-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+2. <span data-ttu-id="f8a03-110">Selecteer 'Cyclustelling' in het veld Werkordertype.</span><span class="sxs-lookup"><span data-stu-id="f8a03-110">In the Work order type field, select 'Cycle counting'.</span></span>
+3. <span data-ttu-id="f8a03-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f8a03-111">Click New.</span></span>
+4. <span data-ttu-id="f8a03-112">Voer een getal in het veld Volgnummer in.</span><span class="sxs-lookup"><span data-stu-id="f8a03-112">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="f8a03-113">De sorteervolgorde is van het kleinste getal naar het grootste getal.</span><span class="sxs-lookup"><span data-stu-id="f8a03-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="f8a03-114">De waarde moet groter zijn dan 0 (nul).</span><span class="sxs-lookup"><span data-stu-id="f8a03-114">The value must be more than 0 (zero).</span></span>  
+5. <span data-ttu-id="f8a03-115">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f8a03-115">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="f8a03-116">Typ een waarde in het veld Werksjabloon.</span><span class="sxs-lookup"><span data-stu-id="f8a03-116">In the Work template field, type a value.</span></span>
+7. <span data-ttu-id="f8a03-117">Typ een waarde in het veld Omschrijving van werksjabloon.</span><span class="sxs-lookup"><span data-stu-id="f8a03-117">In the Work template description field, type a value.</span></span>
+8. <span data-ttu-id="f8a03-118">Typ of selecteer een waarde in het veld Werkgroep-id.</span><span class="sxs-lookup"><span data-stu-id="f8a03-118">In the Work pool ID field, enter or select a value.</span></span>
+9. <span data-ttu-id="f8a03-119">Voer een getal in het veld Werkprioriteit in.</span><span class="sxs-lookup"><span data-stu-id="f8a03-119">In the Work priority field, enter a number.</span></span>
+10. <span data-ttu-id="f8a03-120">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f8a03-120">Click Save.</span></span>
+11. <span data-ttu-id="f8a03-121">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f8a03-121">Click New.</span></span>
+12. <span data-ttu-id="f8a03-122">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f8a03-122">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="f8a03-123">Selecteer 'Tellen' in het veld Werktype.</span><span class="sxs-lookup"><span data-stu-id="f8a03-123">In the Work type field, select 'Counting'.</span></span>
+14. <span data-ttu-id="f8a03-124">Typ of selecteer een waarde in het veld Werkklasse-id.</span><span class="sxs-lookup"><span data-stu-id="f8a03-124">In the Work class ID field, enter or select a value.</span></span>
+15. <span data-ttu-id="f8a03-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f8a03-125">Click Save.</span></span>
+16. <span data-ttu-id="f8a03-126">Klik op Werkregelopsplitsingen.</span><span class="sxs-lookup"><span data-stu-id="f8a03-126">Click Work line breaks.</span></span>
+17. <span data-ttu-id="f8a03-127">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f8a03-127">Click New.</span></span>
+18. <span data-ttu-id="f8a03-128">Voer een getal in het veld Volgnummer in.</span><span class="sxs-lookup"><span data-stu-id="f8a03-128">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="f8a03-129">De sorteervolgorde is van het kleinste getal naar het grootste getal.</span><span class="sxs-lookup"><span data-stu-id="f8a03-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="f8a03-130">De waarde moet groter zijn dan 0 (nul).</span><span class="sxs-lookup"><span data-stu-id="f8a03-130">The value must be more than 0 (zero).</span></span>  
+19. <span data-ttu-id="f8a03-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f8a03-131">Click Save.</span></span>
+20. <span data-ttu-id="f8a03-132">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f8a03-132">Close the page.</span></span>
+21. <span data-ttu-id="f8a03-133">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f8a03-133">Close the page.</span></span>
 
-## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="5b246-134">Een cyclustellingsplan maken</span><span class="sxs-lookup"><span data-stu-id="5b246-134">Create a cycle counting plan</span></span>
-1. <span data-ttu-id="5b246-135">Ga naar Magazijnbeheer > Instellingen > Cyclustelling > Cyclustelplannen.</span><span class="sxs-lookup"><span data-stu-id="5b246-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
-2. <span data-ttu-id="5b246-136">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="5b246-136">Click New.</span></span>
-3. <span data-ttu-id="5b246-137">Typ een waarde in het veld Id cyclustelplan.</span><span class="sxs-lookup"><span data-stu-id="5b246-137">In the Cycle counting plan ID field, type a value.</span></span>
-4. <span data-ttu-id="5b246-138">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="5b246-138">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="5b246-139">Voer een getal in het veld Maximumaantal cyclustellingen in.</span><span class="sxs-lookup"><span data-stu-id="5b246-139">In the Maximum number of cycle counts field, enter a number.</span></span>
-6. <span data-ttu-id="5b246-140">Typ of selecteer een waarde in het veld Werksjabloon.</span><span class="sxs-lookup"><span data-stu-id="5b246-140">In the Work template field, enter or select a value.</span></span>
-7. <span data-ttu-id="5b246-141">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="5b246-141">Click New.</span></span>
-8. <span data-ttu-id="5b246-142">Voer een getal in het veld Volgnummer in.</span><span class="sxs-lookup"><span data-stu-id="5b246-142">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="5b246-143">De sorteervolgorde is van het kleinste getal naar het grootste getal.</span><span class="sxs-lookup"><span data-stu-id="5b246-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="5b246-144">De waarde moet groter zijn dan 0 (nul).</span><span class="sxs-lookup"><span data-stu-id="5b246-144">The value must be more than 0 (zero).</span></span>  
-9. <span data-ttu-id="5b246-145">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="5b246-145">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="5b246-146">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5b246-146">Click Save.</span></span>
-11. <span data-ttu-id="5b246-147">Klik op Productquery definiëren.</span><span class="sxs-lookup"><span data-stu-id="5b246-147">Click Define product query.</span></span>
-12. <span data-ttu-id="5b246-148">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="5b246-148">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="5b246-149">Typ of selecteer een waarde in het veld Criteria.</span><span class="sxs-lookup"><span data-stu-id="5b246-149">In the Criteria field, enter or select a value.</span></span>
-14. <span data-ttu-id="5b246-150">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="5b246-150">Click OK.</span></span>
-15. <span data-ttu-id="5b246-151">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="5b246-151">Close the page.</span></span>
+## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="f8a03-134">Een cyclustellingsplan maken</span><span class="sxs-lookup"><span data-stu-id="f8a03-134">Create a cycle counting plan</span></span>
+1. <span data-ttu-id="f8a03-135">Ga naar Magazijnbeheer > Instellingen > Cyclustelling > Cyclustelplannen.</span><span class="sxs-lookup"><span data-stu-id="f8a03-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
+2. <span data-ttu-id="f8a03-136">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f8a03-136">Click New.</span></span>
+3. <span data-ttu-id="f8a03-137">Typ een waarde in het veld Id cyclustelplan.</span><span class="sxs-lookup"><span data-stu-id="f8a03-137">In the Cycle counting plan ID field, type a value.</span></span>
+4. <span data-ttu-id="f8a03-138">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="f8a03-138">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f8a03-139">Voer een getal in het veld Maximumaantal cyclustellingen in.</span><span class="sxs-lookup"><span data-stu-id="f8a03-139">In the Maximum number of cycle counts field, enter a number.</span></span>
+6. <span data-ttu-id="f8a03-140">Typ of selecteer een waarde in het veld Werksjabloon.</span><span class="sxs-lookup"><span data-stu-id="f8a03-140">In the Work template field, enter or select a value.</span></span>
+7. <span data-ttu-id="f8a03-141">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f8a03-141">Click New.</span></span>
+8. <span data-ttu-id="f8a03-142">Voer een getal in het veld Volgnummer in.</span><span class="sxs-lookup"><span data-stu-id="f8a03-142">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="f8a03-143">De sorteervolgorde is van het kleinste getal naar het grootste getal.</span><span class="sxs-lookup"><span data-stu-id="f8a03-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="f8a03-144">De waarde moet groter zijn dan 0 (nul).</span><span class="sxs-lookup"><span data-stu-id="f8a03-144">The value must be more than 0 (zero).</span></span>  
+9. <span data-ttu-id="f8a03-145">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="f8a03-145">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="f8a03-146">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f8a03-146">Click Save.</span></span>
+11. <span data-ttu-id="f8a03-147">Klik op Productquery definiëren.</span><span class="sxs-lookup"><span data-stu-id="f8a03-147">Click Define product query.</span></span>
+12. <span data-ttu-id="f8a03-148">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f8a03-148">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="f8a03-149">Typ of selecteer een waarde in het veld Criteria.</span><span class="sxs-lookup"><span data-stu-id="f8a03-149">In the Criteria field, enter or select a value.</span></span>
+14. <span data-ttu-id="f8a03-150">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f8a03-150">Click OK.</span></span>
+15. <span data-ttu-id="f8a03-151">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f8a03-151">Close the page.</span></span>
 

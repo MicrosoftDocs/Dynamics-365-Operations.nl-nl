@@ -15,27 +15,27 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 736eaba0c62b7347ed7db0abfb5a77f68f989400
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 58af71c56d1db3f5856a0104da9ac1435dd8e7ae
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202625"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978672"
 ---
-# <a name="create-a-service-template-group"></a><span data-ttu-id="e5f57-103">Een servicesjabloongroep maken</span><span class="sxs-lookup"><span data-stu-id="e5f57-103">Create a service template group</span></span>  
+# <a name="create-a-service-template-group"></a><span data-ttu-id="a0dc7-103">Een servicesjabloongroep maken</span><span class="sxs-lookup"><span data-stu-id="a0dc7-103">Create a service template group</span></span>  
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e5f57-104">Met servicesjabloongroepen kunt u servicesjablonen sorteren en filteren.</span><span class="sxs-lookup"><span data-stu-id="e5f57-104">You can use service template groups to sort and filter service templates.</span></span>
+<span data-ttu-id="a0dc7-104">Met servicesjabloongroepen kunt u servicesjablonen sorteren en filteren.</span><span class="sxs-lookup"><span data-stu-id="a0dc7-104">You can use service template groups to sort and filter service templates.</span></span>
 
-1. <span data-ttu-id="e5f57-105">Klik op **Servicebeheer** \> **Instellen** \> **Serviceovereenkomsten** \> **Servicesjabloongroepen**.</span><span class="sxs-lookup"><span data-stu-id="e5f57-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Service template groups**.</span></span>
-2. <span data-ttu-id="e5f57-106">Maak een nieuwe servicesjabloongroep.</span><span class="sxs-lookup"><span data-stu-id="e5f57-106">Create a new service template group.</span></span>
-3. <span data-ttu-id="e5f57-107">Geef de ID en een omschrijving voor de groep op en, indien van toepassing, een bovenliggende servicesjabloongroep.</span><span class="sxs-lookup"><span data-stu-id="e5f57-107">Enter the group ID, a description, and a parent service template group, if there is one.</span></span>
-4. <span data-ttu-id="e5f57-108">Sla de servicesjabloongroep op.</span><span class="sxs-lookup"><span data-stu-id="e5f57-108">Save the service template group.</span></span>
-5. <span data-ttu-id="e5f57-109">Stel de schuifregelaar voor **Structuurbesturingselement** in op **Ja** om de structuurweergave te openen en de servicesjabloongroepen als een hiërarchie in een structuurweergave of in een overzicht weer te geven.</span><span class="sxs-lookup"><span data-stu-id="e5f57-109">Set the **Tree control** slider to **Yes** to open the tree view and view the service template groups either as a hierarchy in a tree view or as an overview.</span></span>
+1. <span data-ttu-id="a0dc7-105">Klik op **Servicebeheer** \> **Instellen** \> **Serviceovereenkomsten** \> **Servicesjabloongroepen**.</span><span class="sxs-lookup"><span data-stu-id="a0dc7-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Service template groups**.</span></span>
+2. <span data-ttu-id="a0dc7-106">Maak een nieuwe servicesjabloongroep.</span><span class="sxs-lookup"><span data-stu-id="a0dc7-106">Create a new service template group.</span></span>
+3. <span data-ttu-id="a0dc7-107">Geef de ID en een omschrijving voor de groep op en, indien van toepassing, een bovenliggende servicesjabloongroep.</span><span class="sxs-lookup"><span data-stu-id="a0dc7-107">Enter the group ID, a description, and a parent service template group, if there is one.</span></span>
+4. <span data-ttu-id="a0dc7-108">Sla de servicesjabloongroep op.</span><span class="sxs-lookup"><span data-stu-id="a0dc7-108">Save the service template group.</span></span>
+5. <span data-ttu-id="a0dc7-109">Stel de schuifregelaar voor **Structuurbesturingselement** in op **Ja** om de structuurweergave te openen en de servicesjabloongroepen als een hiërarchie in een structuurweergave of in een overzicht weer te geven.</span><span class="sxs-lookup"><span data-stu-id="a0dc7-109">Set the **Tree control** slider to **Yes** to open the tree view and view the service template groups either as a hierarchy in a tree view or as an overview.</span></span>
 
 
 

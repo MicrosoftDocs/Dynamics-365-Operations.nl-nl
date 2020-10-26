@@ -13,57 +13,57 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ec8fed2094025ef31114a229c35bee1cd1033b
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: ad95752ce40faaa84747dac9bfbf2887f7a5af42
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759323"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976206"
 ---
-# <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a><span data-ttu-id="3be26-103">Een kostentoewijzingsbeleid maken en toewijzen aan een kostenbeheereenheid</span><span class="sxs-lookup"><span data-stu-id="3be26-103">Create and assign a cost allocation policy to a cost control unit</span></span>
+# <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a><span data-ttu-id="45c0b-103">Een kostentoewijzingsbeleid maken en toewijzen aan een kostenbeheereenheid</span><span class="sxs-lookup"><span data-stu-id="45c0b-103">Create and assign a cost allocation policy to a cost control unit</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="3be26-104">Gebruik deze procedure om een kostentoewijzingsbeleid en de corresponderende regels te maken en toe te wijzen aan een kostenbeheereenheid.</span><span class="sxs-lookup"><span data-stu-id="3be26-104">Use this procedure to create and assign a cost allocation policy and the corresponding rules to a cost control unit.</span></span> <span data-ttu-id="3be26-105">Deze registratie gebruikt het USP2-demogegevensbedrijf.</span><span class="sxs-lookup"><span data-stu-id="3be26-105">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="45c0b-104">Gebruik deze procedure om een kostentoewijzingsbeleid en de corresponderende regels te maken en toe te wijzen aan een kostenbeheereenheid.</span><span class="sxs-lookup"><span data-stu-id="45c0b-104">Use this procedure to create and assign a cost allocation policy and the corresponding rules to a cost control unit.</span></span> <span data-ttu-id="45c0b-105">Deze registratie gebruikt het USP2-demogegevensbedrijf.</span><span class="sxs-lookup"><span data-stu-id="45c0b-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="create-a-policy"></a><span data-ttu-id="3be26-106">Een beleid maken</span><span class="sxs-lookup"><span data-stu-id="3be26-106">Create a policy</span></span>
-1. <span data-ttu-id="3be26-107">Ga naar Kostprijsboekhouding > Beleid > Beleidslijnen voor kostprijstoewijzing.</span><span class="sxs-lookup"><span data-stu-id="3be26-107">Go to Cost accounting > Policies > Cost allocation policies.</span></span>
-2. <span data-ttu-id="3be26-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="3be26-108">Click New.</span></span>
-3. <span data-ttu-id="3be26-109">Typ een waarde in het veld Beleid.</span><span class="sxs-lookup"><span data-stu-id="3be26-109">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="3be26-110">Typ of selecteer een waarde in het veld Dimensiehiërarchie van een kostenobject.</span><span class="sxs-lookup"><span data-stu-id="3be26-110">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="3be26-111">Selecteer Organisatie.</span><span class="sxs-lookup"><span data-stu-id="3be26-111">Select Organization.</span></span>  
-5. <span data-ttu-id="3be26-112">Typ of selecteer een waarde in het veld Statistische dimensie.</span><span class="sxs-lookup"><span data-stu-id="3be26-112">In the Statistical dimension field, enter or select a value.</span></span>
-6. <span data-ttu-id="3be26-113">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="3be26-113">Click Save.</span></span>
+## <a name="create-a-policy"></a><span data-ttu-id="45c0b-106">Een beleid maken</span><span class="sxs-lookup"><span data-stu-id="45c0b-106">Create a policy</span></span>
+1. <span data-ttu-id="45c0b-107">Ga naar Kostprijsboekhouding > Beleid > Beleidslijnen voor kostprijstoewijzing.</span><span class="sxs-lookup"><span data-stu-id="45c0b-107">Go to Cost accounting > Policies > Cost allocation policies.</span></span>
+2. <span data-ttu-id="45c0b-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="45c0b-108">Click New.</span></span>
+3. <span data-ttu-id="45c0b-109">Typ een waarde in het veld Beleid.</span><span class="sxs-lookup"><span data-stu-id="45c0b-109">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="45c0b-110">Typ of selecteer een waarde in het veld Dimensiehiërarchie van een kostenobject.</span><span class="sxs-lookup"><span data-stu-id="45c0b-110">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="45c0b-111">Selecteer Organisatie.</span><span class="sxs-lookup"><span data-stu-id="45c0b-111">Select Organization.</span></span>  
+5. <span data-ttu-id="45c0b-112">Typ of selecteer een waarde in het veld Statistische dimensie.</span><span class="sxs-lookup"><span data-stu-id="45c0b-112">In the Statistical dimension field, enter or select a value.</span></span>
+6. <span data-ttu-id="45c0b-113">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="45c0b-113">Click Save.</span></span>
 
-## <a name="create-allocation-rules"></a><span data-ttu-id="3be26-114">Toewijzingsregels maken</span><span class="sxs-lookup"><span data-stu-id="3be26-114">Create allocation rules</span></span>
-1. <span data-ttu-id="3be26-115">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="3be26-115">Click New.</span></span>
-2. <span data-ttu-id="3be26-116">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="3be26-116">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="3be26-117">Typ of selecteer een waarde in het veld Dimensiehiërarchieknooppunt van een kostenobject.</span><span class="sxs-lookup"><span data-stu-id="3be26-117">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-4. <span data-ttu-id="3be26-118">Selecteer 'Totaal' in het veld Kostengedrag.</span><span class="sxs-lookup"><span data-stu-id="3be26-118">In the Cost behavior field, select 'Total'.</span></span>
-5. <span data-ttu-id="3be26-119">Typ of selecteer een waarde in het veld Toewijzingsgrondslag.</span><span class="sxs-lookup"><span data-stu-id="3be26-119">In the Allocation base field, enter or select a value.</span></span>
-6. <span data-ttu-id="3be26-120">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="3be26-120">Click New.</span></span>
-7. <span data-ttu-id="3be26-121">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="3be26-121">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="3be26-122">Typ of selecteer een waarde in het veld Dimensiehiërarchieknooppunt van een kostenobject.</span><span class="sxs-lookup"><span data-stu-id="3be26-122">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-9. <span data-ttu-id="3be26-123">Selecteer 'Totaal' in het veld Kostengedrag.</span><span class="sxs-lookup"><span data-stu-id="3be26-123">In the Cost behavior field, select 'Total'.</span></span>
-10. <span data-ttu-id="3be26-124">Typ of selecteer een waarde in het veld Toewijzingsgrondslag.</span><span class="sxs-lookup"><span data-stu-id="3be26-124">In the Allocation base field, enter or select a value.</span></span>
-11. <span data-ttu-id="3be26-125">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="3be26-125">Click New.</span></span>
-12. <span data-ttu-id="3be26-126">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="3be26-126">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="3be26-127">Typ of selecteer een waarde in het veld Dimensiehiërarchieknooppunt van een kostenobject.</span><span class="sxs-lookup"><span data-stu-id="3be26-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-14. <span data-ttu-id="3be26-128">Selecteer 'Totaal' in het veld Kostengedrag.</span><span class="sxs-lookup"><span data-stu-id="3be26-128">In the Cost behavior field, select 'Total'.</span></span>
-15. <span data-ttu-id="3be26-129">Typ of selecteer een waarde in het veld Toewijzingsgrondslag.</span><span class="sxs-lookup"><span data-stu-id="3be26-129">In the Allocation base field, enter or select a value.</span></span>
-    * <span data-ttu-id="3be26-130">Ga door totdat u alle regels hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="3be26-130">Continue until you've created all the rules.</span></span>  
-16. <span data-ttu-id="3be26-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="3be26-131">Click Save.</span></span>
+## <a name="create-allocation-rules"></a><span data-ttu-id="45c0b-114">Toewijzingsregels maken</span><span class="sxs-lookup"><span data-stu-id="45c0b-114">Create allocation rules</span></span>
+1. <span data-ttu-id="45c0b-115">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="45c0b-115">Click New.</span></span>
+2. <span data-ttu-id="45c0b-116">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="45c0b-116">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="45c0b-117">Typ of selecteer een waarde in het veld Dimensiehiërarchieknooppunt van een kostenobject.</span><span class="sxs-lookup"><span data-stu-id="45c0b-117">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+4. <span data-ttu-id="45c0b-118">Selecteer 'Totaal' in het veld Kostengedrag.</span><span class="sxs-lookup"><span data-stu-id="45c0b-118">In the Cost behavior field, select 'Total'.</span></span>
+5. <span data-ttu-id="45c0b-119">Typ of selecteer een waarde in het veld Toewijzingsgrondslag.</span><span class="sxs-lookup"><span data-stu-id="45c0b-119">In the Allocation base field, enter or select a value.</span></span>
+6. <span data-ttu-id="45c0b-120">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="45c0b-120">Click New.</span></span>
+7. <span data-ttu-id="45c0b-121">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="45c0b-121">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="45c0b-122">Typ of selecteer een waarde in het veld Dimensiehiërarchieknooppunt van een kostenobject.</span><span class="sxs-lookup"><span data-stu-id="45c0b-122">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+9. <span data-ttu-id="45c0b-123">Selecteer 'Totaal' in het veld Kostengedrag.</span><span class="sxs-lookup"><span data-stu-id="45c0b-123">In the Cost behavior field, select 'Total'.</span></span>
+10. <span data-ttu-id="45c0b-124">Typ of selecteer een waarde in het veld Toewijzingsgrondslag.</span><span class="sxs-lookup"><span data-stu-id="45c0b-124">In the Allocation base field, enter or select a value.</span></span>
+11. <span data-ttu-id="45c0b-125">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="45c0b-125">Click New.</span></span>
+12. <span data-ttu-id="45c0b-126">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="45c0b-126">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="45c0b-127">Typ of selecteer een waarde in het veld Dimensiehiërarchieknooppunt van een kostenobject.</span><span class="sxs-lookup"><span data-stu-id="45c0b-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+14. <span data-ttu-id="45c0b-128">Selecteer 'Totaal' in het veld Kostengedrag.</span><span class="sxs-lookup"><span data-stu-id="45c0b-128">In the Cost behavior field, select 'Total'.</span></span>
+15. <span data-ttu-id="45c0b-129">Typ of selecteer een waarde in het veld Toewijzingsgrondslag.</span><span class="sxs-lookup"><span data-stu-id="45c0b-129">In the Allocation base field, enter or select a value.</span></span>
+    * <span data-ttu-id="45c0b-130">Ga door totdat u alle regels hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="45c0b-130">Continue until you've created all the rules.</span></span>  
+16. <span data-ttu-id="45c0b-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="45c0b-131">Click Save.</span></span>
 
-## <a name="assign-the-policy-to-a-cost-control-unit"></a><span data-ttu-id="3be26-132">Het beleid toewijzen aan een kostenbeheereenheid</span><span class="sxs-lookup"><span data-stu-id="3be26-132">Assign the policy to a cost control unit</span></span>
-1. <span data-ttu-id="3be26-133">Klik op Beleidstoewijzingen voor kostenbeheereenheid.</span><span class="sxs-lookup"><span data-stu-id="3be26-133">Click Policy assignments for cost control unit.</span></span>
-2. <span data-ttu-id="3be26-134">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="3be26-134">Click New.</span></span>
-3. <span data-ttu-id="3be26-135">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="3be26-135">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="3be26-136">Typ een datum in het veld Geldig vanaf boekhouddatum.</span><span class="sxs-lookup"><span data-stu-id="3be26-136">In the Valid from accounting date field, enter a date.</span></span>
-    * <span data-ttu-id="3be26-137">De regels zijn datumregels.</span><span class="sxs-lookup"><span data-stu-id="3be26-137">The rules are date-effective.</span></span> <span data-ttu-id="3be26-138">Een gebruiker of het systeem kan de regels laten vervallen wanneer een nieuwere versie wordt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="3be26-138">A user or the system can expire the rules if a newer version is created.</span></span>  
-5. <span data-ttu-id="3be26-139">Typ of selecteer een waarde in het veld Kostenbeheer.</span><span class="sxs-lookup"><span data-stu-id="3be26-139">In the Cost control unit field, enter or select a value.</span></span>
-6. <span data-ttu-id="3be26-140">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="3be26-140">Click Save.</span></span>
+## <a name="assign-the-policy-to-a-cost-control-unit"></a><span data-ttu-id="45c0b-132">Het beleid toewijzen aan een kostenbeheereenheid</span><span class="sxs-lookup"><span data-stu-id="45c0b-132">Assign the policy to a cost control unit</span></span>
+1. <span data-ttu-id="45c0b-133">Klik op Beleidstoewijzingen voor kostenbeheereenheid.</span><span class="sxs-lookup"><span data-stu-id="45c0b-133">Click Policy assignments for cost control unit.</span></span>
+2. <span data-ttu-id="45c0b-134">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="45c0b-134">Click New.</span></span>
+3. <span data-ttu-id="45c0b-135">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="45c0b-135">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="45c0b-136">Typ een datum in het veld Geldig vanaf boekhouddatum.</span><span class="sxs-lookup"><span data-stu-id="45c0b-136">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="45c0b-137">De regels zijn datumregels.</span><span class="sxs-lookup"><span data-stu-id="45c0b-137">The rules are date-effective.</span></span> <span data-ttu-id="45c0b-138">Een gebruiker of het systeem kan de regels laten vervallen wanneer een nieuwere versie wordt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="45c0b-138">A user or the system can expire the rules if a newer version is created.</span></span>  
+5. <span data-ttu-id="45c0b-139">Typ of selecteer een waarde in het veld Kostenbeheer.</span><span class="sxs-lookup"><span data-stu-id="45c0b-139">In the Cost control unit field, enter or select a value.</span></span>
+6. <span data-ttu-id="45c0b-140">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="45c0b-140">Click Save.</span></span>
 
