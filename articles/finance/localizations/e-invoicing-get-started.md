@@ -3,7 +3,7 @@ title: Aan de slag met de invoegtoepassing voor elektronische facturering
 description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 61933bb846383932d7dd73e9c4d3c2db7a515a98
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835934"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971467"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Aan de slag met de invoegtoepassing voor elektronische facturering
 
@@ -62,7 +62,7 @@ U kunt de invoegtoepassing Elektronische facturering gebruiken met uw huidige li
 Voordat u de stappen in dit onderwerp voltooit, moet u aan de volgende vereisten voldoen:
 
 - Toegang tot uw LCS-account.
-- Een LCS-implementatieproject dat Finance of Supply Chain Management versie 10.0.12 of hoger bevat.
+- Een LCS-implementatieproject dat Finance of Supply Chain Management versie 10.0.13 of hoger bevat.
 - Toegang tot uw RCS-account.
 - Schakel de globalisatiefunctie voor uw RCS-account in via de module **Functiebeheer**. Zie [Regulatory Configuration Services (RCS) - Globalisatiefuncties](rcs-globalization-feature.md) voor meer informatie
 - Maak een Key Vault-resource en een opslagaccount in Azure. Zie [Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
@@ -85,16 +85,18 @@ In de volgende afbeelding ziet u de vijf belangrijkste stappen die u in dit onde
 ## <a name="lcs-setup"></a>LCS-instellingen
 
 1. Meld u aan bij uw LCS-account.
-2. Selecteer het LCS-implementatieproject. Voordat u het project kunt selecteren, moet het actief zijn.
-3. Selecteer op het sneltabblad **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
-4. Selecteer **Zakelijk document indienen**.
-5. Voer in het dialoogvenster **Invoegtoepassing instellen** in het veld **AAD-toepassings-id** het volgende in: **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Dit is een vaste waarde.
-6. Voer in het veld **AAD-tenant-id** de id van uw Azure-abonnementsaccount in.
+2. Selecteer de tegel **Beheer van previewfuncties** en selecteer in **Functies van openbare previews** **BusinessdocumentSubmission**.
+3. Markeer het veld **Previewfunctie ingeschakeld**.
+4. Selecteer het LCS-implementatieproject. Voordat u het project kunt selecteren, moet het actief zijn.
+5. Selecteer op het sneltabblad **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
+6. Selecteer **Zakelijk document indienen**.
+7. Voer in het dialoogvenster **Invoegtoepassing instellen** in het veld **AAD-toepassings-id** het volgende in: **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Dit is een vaste waarde.
+8. Voer in het veld **AAD-tenant-id** de id van uw Azure-abonnementsaccount in.
 
     ![Het dialoogvenster Invoegtoepassing instellen in LCS](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
-7. Schakel het selectievakje in om de voorwaarden te accepteren.
-8. Selecteer **Installeren**.
+9. Schakel het selectievakje in om de voorwaarden te accepteren.
+10. Selecteer **Installeren**.
 
 ## <a name="rcs-setup"></a>RCS-instellingen
 
@@ -124,7 +126,7 @@ Tijdens de RCS-instelling voert u de volgende taken uit:
 
     ![Het veld Key Vault-URI](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Selecteer op het sneltabblad **Certificaten** de optie **Toevoegen** en voer de namen van de digitale certificaten en de sleutelkluisgeheimen in. Beide waardensets worden geconfigureerd in de sleutelkluis-resource in Azure.
+7. Selecteer op het sneltabblad **Certificaten** **Toevoegen** om alle namen van digitale certificaten en sleutelkluisgeheimen in te voeren die nodig zijn om betrouwbare verbindingen tot stand te brengen. In de kolom **Type** kunt u opgeven of het een certificaat of een geheim is. Beide waardensets worden geconfigureerd in de sleutelkluis-resource in Azure.
 
     ![Certificaten toevoegen](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -132,9 +134,9 @@ Tijdens de RCS-instelling voert u de volgende taken uit:
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>De RCS-integratie met de server van de invoegtoepassing voor elektronisch factureren instellen
 
-1. Selecteer in het werkgebied **Globalisatiefuncties** in de sectie **Verwante koppelingen** de koppeling **Parameters van elektronische rapportage**.
+1. Selecteer in de werkruimte **Globalisatiefuncties** in de sectie **Verwante instellingen** de koppeling **Parameters van elektronische rapportage**.
 2. Selecteer **Klik hier om verbinding te maken met Lifecycle Services**. Als u geen verbinding wilt maken met LCS, selecteert u **Annuleren**.
-3. Op het tabblad **Invoegtoepassing Elektronische facturering** in het veld **Service-eindpunt-URI** voert u `https://businessdocumentsubmission.us.operations365.dynamics.com/` in.
+3. Voer op het tabblad **Services voor elektronische facturering** in het veld **URI van service-eindpunt** de waarde in die in overeenstemming is met de beschikbare regio´s: `https://businessdocumentsubmission.us.operations365.dynamics.com/` of `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. Controleer of in het veld **Toepassings-id** de id **0cdb527f-a8d1-4bf8-9436-b352c68682b2** wordt weergegeven. Dit is een vaste waarde.
 5. Voer in het veld **LCS-omgevings-id** de id van uw LCS-abonnementsaccount in.
 

@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819884"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971440"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -34,6 +34,22 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de v
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.15 van Finance and Operations-apps
+
+> [!NOTE]
+> Versie 10.0.15 is een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Veelgestelde vragen over updates van service met één versie](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio-invoegtoepassing voor het toepassen van hotfixes voor metagegevens
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Hotfixes voor metagegevens worden niet meer ondersteund met de updates van de [One Version](../../fin-ops/get-started/one-version.md)-service die zijn geïntroduceerd in juli 2018 en versie 8.1. |
+| **Vervangen door een andere functie?**   | Er zijn geen afzonderlijke hotfixes voor metagegevens beschikbaar voor ondersteunde versies. In plaats hiervan worden cumulatieve kwaliteitsupdates toegepast. |
+| **Betrokken productgebieden**         | Visual Studio-invoegtoepassingen |
+| **Implementatieoptie**              | Virtuele machines voor ontwikkeling |
+| **Status**                         | Met versie 10.0.15 wordt de invoegtoepassing niet meer in de Visual Studio-hulpprogramma's opgenomen. |
+
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.14 van Finance and Operations-apps
 
@@ -50,6 +66,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Betrokken productgebieden**         | Systeembeheer |
 | **Implementatieoptie**              | Alles |
 | **Status**                         | In oktober 2021 wordt dit formulier verwijderd.   |
+
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.13 van Finance and Operations-apps
 

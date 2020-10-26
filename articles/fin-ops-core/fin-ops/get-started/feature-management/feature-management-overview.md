@@ -3,7 +3,7 @@ title: Overzicht van functiebeheer
 description: Dit onderwerp bevat een beschrijving van de functie Functiebeheer en de manier waarop u deze kunt gebruiken.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
-ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
+ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499614"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967329"
 ---
 # <a name="feature-management-overview"></a>Overzicht van Functiebeheer
 
@@ -179,3 +179,24 @@ Functie-flights zijn real-time switches die door Microsoft worden bediend. Ze st
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Worden functies ooit uitgeschakeld zonder dat de klant dit weet? 
 Ja, als een functie van invloed is op de werking van een omgeving zonder functionele effecten, kunnen deze standaard worden ingeschakeld.
+
+### <a name="how-can-feature-enablement-be-checked-in-code"></a>Hoe kan de inschakeling van een functie worden gecontroleerd in code?
+Gebruik de **isFeatureEnabled** van de klasse **FeatureStateProvider**, waarbij deze een instantie van de functieklasse doorgeeft. Voorbeeld: 
+
+    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+
+### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Hoe kan de inschakeling van een functie worden gecontroleerd in metagegevens?
+De eigenschap **FeatureClass** kan worden gebruikt om aan te geven dat sommige metagegevens aan een functie zijn gekoppeld. De klassenaam die voor de functie moet worden gebruikt, bijvoorbeeld **BatchContentionPreventionFeature**. Deze metagegevens zijn alleen zichtbaar in die functie. De eigenschap **FeatureClass** is beschikbaar in menu's, menu-items, opsommingswaarden en tabel- en weergavevelden.
+
+### <a name="what-is-a-feature-class"></a>Wat is een functieklasse?
+Functies in Functiebeheer zijn gedefinieerd als *functieklassen*. Met een functieklasse **worden IFeatureMetadata geïmplementeerd** en wordt het kenmerk functieklasse gebruikt om zichzelf te identificeren bij de werkruimte Functiebeheer. Er zijn talloze voorbeelden van functieklassen beschikbaar die kunnen worden gecontroleerd op inschakeling in code met behulp van de API **FeatureStateProvider** en in metagegevens met de eigenschap **FeatureClass**. Voorbeeld: 
+
+    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+    
+### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Wat is de IFeatureLifecycle die door sommige functieklassen is geïmplementeerd?
+IFeatureLifecycle is een intern Microsoft-mechanisme voor het aangeven van de levenscyclus van de functie. Hierbij kan het om de volgende functies gaan:
+- PrivatePreview - heeft een flight nodig om zichtbaar te zijn.
+- PublicPreview - wordt standaard weergegeven, maar met een waarschuwing dat het bij de functie nog om een voorbeeld gaat.
+- Released - volledig vrijgegeven.
+

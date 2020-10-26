@@ -3,7 +3,7 @@ title: Inkomende voorraadbewerking in POS
 description: In dit onderwerp worden de mogelijkheden van inkomende voorraadbewerking van het verkooppunt (POS) beschreven.
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710304"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971492"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Inkomende voorraadbewerking in POS
 
@@ -133,6 +133,18 @@ De weergave **Nu ontvangen** biedt gebruikers een gerichte manier om te zien wel
 Tijdens het ontvangstproces voor de documentregels worden validaties uitgevoerd. Deze omvatten validaties voor meerlevering. Als een gebruiker meer voorraad probeert te ontvangen dan via een inkooporder is besteld, maar de meerlevering niet is geconfigureerd of de ontvangen hoeveelheid hoger is dan de tolerantie voor meerlevering die is geconfigureerd voor de inkooporderregel, ontvangt de gebruiker een fout en kan hij of zij de extra hoeveelheid niet ontvangen.
 
 Meerontvangst is niet toegestaan voor transferorderdocumenten. Gebruikers ontvangen altijd fouten als ze meer proberen te ontvangen dan voor de transferorderregel is verzonden.
+
+### <a name="close-purchase-order-lines"></a>Inkooporderregels sluiten
+
+U kunt de resterende hoeveelheid op een inkomende inkooporder tijdens het ontvangstproces sluiten als de vervoerder heeft bevestigd dat deze niet de volledige gevraagde hoeveelheid kan verzenden. Hiertoe moet het bedrijf zo zijn geconfigureerd dat de minderlevering van inkooporders is toegestaan. Daarnaast moet een tolerantiepercentage voor minderlevering worden gedefinieerd voor de inkooporderregel.
+
+Ga naar **Inkoopbeheer** > **Instellen** > **Parameters voor Inkoopbeheer** om het bedrijf te configureren voor het toestaan van minderlevering van inkooporders in Commerce Headquarters . Schakel op het tabblad **Levering** de parameter **Minderlevering accepteren** in. Voer vervolgens distributieplanningstaak **1070** (**Kanaalconfiguratie**) uit om de instellingswijzigingen toe te passen op kanalen.
+
+Tolerantiepercentages voor minderlevering voor een inkoopregel kunnen vooraf worden gedefinieerd voor producten als onderdeel van de productconfiguraties in Commerce Headquarters. U kunt ze ook instellen of overschrijven op een specifieke inkoopregel in Commerce Headquarters.
+
+Nadat een organisatie de configuraties voor minderlevering van inkooporders heeft voltooid, zien POS-gebruikers een nieuwe optie **Resterende hoeveelheid sluiten** in het deelvenster **Details** wanneer ze een binnenkomende inkooporderregel selecteren in de bewerking **Binnenkomende voorraadbewerking**. Als de gebruiker de resterende hoeveelheid sluit, voert POS een validatie uit om te controleren of de hoeveelheid die wordt gesloten binnen het tolerantiepercentage voor minderlevering valt dat is gedefinieerd voor de inkooporderregel. Als de tolerantie voor minderleveringen wordt overschreden, wordt een foutbericht weergegeven en kan de gebruiker de resterende hoeveelheid niet sluiten totdat de eerder ontvangen hoeveelheid plus de hoeveelheid **Nu ontvangen** gelijk is aan of hoger is dan de minimale hoeveelheid die moet worden ontvangen, op basis van het tolerantiepercentage voor minderlevering. 
+
+Met de optie **Resterende hoeveelheid sluiten** ingeschakeld voor een inkooporderregel, wanneer de gebruiker de ontvangst voltooit via de actie **Ontvangst voltooien**, wordt er ook een sluitingsverzoek verzonden naar Commerce Headquarters en worden eventuele niet ontvangen hoeveelheden van deze orderregel geannuleerd. Op dat moment wordt de regel als volledig ontvangen beschouwd. 
 
 ### <a name="receiving-location-controlled-items"></a>Op locatie gecontroleerde artikelen ontvangen
 

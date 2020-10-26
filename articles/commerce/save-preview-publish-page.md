@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269976"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961605"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Een pagina opslaan, voorvertonen en publiceren
 
@@ -38,9 +38,9 @@ Wanneer u een pagina opslaat, zijn de wijzigingen alleen zichtbaar voor u. De op
 
 ## <a name="preview-a-page"></a>Een voorbeeld bekijken van een pagina
 
-Het ontwerphulpprogramma biedt twee soorten voorbeeldfuncties: "wat u ziet is wat u krijgt" (WYSIWYG) in de pagina-editor en een afzonderlijk voorbeeldvenster.
+Het ontwerphulpprogramma biedt twee soorten preview-functies: visuele paginabouwer, een WYSIWYG "wat u ziet is wat u krijgt"-voorbeelddeelvenster in de pagina-editor en een afzonderlijk voorbeeldvenster.
 
-Als u de pagina-editor gebruikt, ziet u een WYSIWYG-weergave in het middelste venster. Dit voorbeeld wordt automatisch bijgewerkt wanneer u de pagina opslaat. U kunt het ook handmatig bijwerken door **Vernieuwen** te selecteren op de opdrachtbalk. In het WYSIWYG-voorbeeld wordt de pagina net zo weergegeven als de gebruikers deze zien, maar de ontwerphulpmiddelen worden bovenop deze pagina weergegeven.
+Als u de pagina-editor gebruikt, ziet u een WYSIWYG-weergave in het middelste venster. Dit voorbeeld wordt automatisch bijgewerkt wanneer u de pagina opslaat. U kunt het ook handmatig bijwerken door **Vernieuwen** te selecteren op de opdrachtbalk. In het voorbeeld wordt de pagina net zo weergegeven als de gebruikers deze te zien krijgen, maar de ontwerphulpmiddelen worden bovenop deze pagina weergegeven.
 
 Wanneer u de pagina hebt gewijzigd, kunt u een voorbeeld weergeven om te zien wat klanten te zien krijgen. Als u een voorbeeld van een pagina wilt weergeven, selecteert u **Voorbeeld** op de opdrachtbalk. Het voorbeeld wordt weergegeven in een apart browservenster. De pagina in het voorbeeldvenster wordt weergegeven zoals de gebruikers deze zien. U kunt het formaat van het venster wijzigen zodat de reactiemodules in alle viewports correct worden weergegeven.
 
