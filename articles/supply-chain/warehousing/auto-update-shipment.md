@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677333"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3900981"
 ---
 # <a name="shipment-auto-updates"></a>Zendingen automatisch bijwerken
 
@@ -39,7 +39,7 @@ De functie voor het automatisch bijwerken van zendingen is van toepassing op zow
 
 De functie voor het automatisch bijwerken van zendingen is met name afhankelijk van de verzendstatus om te bepalen of de hoeveelheid op een laadregel moet worden gewijzigd wanneer een wijziging wordt aangebracht op een verkooporderregel of transferorderregel. De functie werk ook primair met de status van de zending om te bepalen wanneer een nieuwe laadregel automatisch moet worden toegevoegd aan een bestaande lading. Wanneer de status van de zending **In wave** of hoger is, vindt er geen automatische update plaats.
 
-Er wordt ook rekening gehouden met de wavestatus voor automatische updates. Wanneer de wave die betrekking heeft op de ladingsregel, de status **Geblokkeerd**, **In uitvoering**, **Vrijgegeven**, **Orderverzameld** of **Verzonden** heeft, en een gebruiker de hoeveelheid op een ladingsregel probeert te verminderen ( via een vermindering van de hoeveelheid op de verkooporder regel of de transferorderregel), wordt het volgende foutbericht weer gegeven: "Reserveringen kunnen niet worden verwijderd omdat er werk is gemaakt dat afhankelijk is van de reserveringen". Ook wanneer de wave een van de eerder vermelde statussen heeft en een gebruiker de hoeveelheid van de ladingsregel indirect probeert te vergroten door de hoeveelheid op de verkooporder regel of de transferorderregel te verlagen, wordt de hoeveelheid op de ladingsregel niet automatisch verhoogd. In dit geval moet de ladingsregel handmatig worden bijgewerkt.
+Er wordt ook rekening gehouden met de wavestatus voor automatische updates. Wanneer de wave die betrekking heeft op de ladingsregel, de status **Geblokkeerd**, **In uitvoering**, **Vrijgegeven**, **Orderverzameld** of **Verzonden** heeft, en een gebruiker de hoeveelheid op een ladingsregel probeert te verminderen ( via een vermindering van de hoeveelheid op de verkooporder regel of de transferorderregel), wordt het volgende foutbericht weer gegeven: "Reserveringen kunnen niet worden verwijderd omdat er werk is gemaakt dat afhankelijk is van de reserveringen". Ook wanneer de wave een van de eerder vermelde statussen heeft en een gebruiker de hoeveelheid van de ladingsregel indirect probeert te vergroten door de hoeveelheid op de verkooporderregel of de transferorderregel te verhogen, wordt de hoeveelheid op de ladingsregel niet automatisch verhoogd. In dit geval moet de ladingsregel handmatig worden bijgewerkt.
 
 ## <a name="scenarios"></a>Scenario's
 

@@ -14,15 +14,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
-ms.author: shylaw
+ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 4db6d56d72b9c3e4c9040c791e0cca279f794633
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.openlocfilehash: 032677d434e847920fa837287df11df036ab5aa9
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819998"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981855"
 ---
 # <a name="export-ledger-transactions"></a>Export grootboektransacties
 

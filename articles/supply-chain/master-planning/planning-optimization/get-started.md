@@ -3,7 +3,7 @@ title: Aan de slag met Planningsoptimalisatie
 description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met de functionaliteit Planningsoptimalisatie.
 author: ChristianRytt
 manager: tfehr
-ms.date: 05/06/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,20 +19,25 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04b39469ccf4f088bb33bdfc73ce40eece6f5f2e
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887259"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973471"
 ---
 # <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
 [!include [banner](../../includes/banner.md)]
 
-De functie Planningsoptimalisatie ondersteunt momenteel niet alle functies die beschikbaar zijn in de planningsengine die is ingebouwd in Microsoft Dynamics 365 Supply Chain Management. Het is daarom belangrijk dat u evalueert of de functieset die momenteel beschikbaar is in Planningsoptimalisatie voldoet aan uw behoeften. Standaard is de functionaliteit Planningsoptimalisatie niet ingeschakeld in Dynamics Lifecycle Services (LCS). Daarom hebt u de mogelijkheid om uw beoordeling uit te voeren voordat deze is ingeschakeld.
+Zoals [eerder aangekondigd](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios) is Planningsoptimalisatie gepland om de bestaande ingebouwde hoofdplanningsengine te vervangen.
 
-Uiteindelijk vervangt Planningsoptimalisatie de bestaande ingebouwde Supply Chain Management-planningsengine.
+Als u momenteel de ingebouwde hoofdplanningsengine gebruikt, moet u nu beginnen met het plannen van uw migratie naar Planningsoptimalisatie. Het is belangrijk dat u het migratieproces onmiddellijk start, omdat de bewerkingen kunnen worden beïnvloed wanneer afschaffing wordt afgedwongen. We raden u dringend aan de migratie vóór 1 december 2020 te voltooien om te voorkomen dat zich op het laatste moment problemen voordoen wanneer de afschaffing wordt afgedwongen. 
+
+De functie Planningsoptimalisatie biedt momenteel geen ondersteuning voor alle functies die beschikbaar zijn in de planningsengine die in Supply Chain Management is ingebouwd. Het is daarom belangrijk dat u evalueert of de functieset die momenteel beschikbaar is in Planningsoptimalisatie voldoet aan uw behoeften. De functie Planningsoptimalisatie is momenteel niet standaard ingeschakeld in Dynamics Lifecycle Services (LCS), zodat u de evaluatie kunt uitvoeren voordat de functie wordt ingeschakeld.
+
+> [!NOTE]
+> U moet een uitzondering van de migratie naar Planningsoptimalisatie aanvragen als uw hoofdplanningsproces geen productie (door hoofdplanning gegenereerde geplande productieorders) bevat en u een hogere versie van de ingebouwde hoofdplanningsengine nodig hebt dan versie 10.0.15. Vanaf versie 10.0.16 wordt er een fout weergegeven in omgevingen wanneer de ingebouwde hoofdplanning wordt uitgevoerd zonder dat er geplande productieorders worden gegenereerd. Optimalisatieplanning moet worden gebruikt voor alle nieuwe implementaties waarmee geen geplande productieorders worden gegenereerd tijdens de hoofdplanning. Eigenaren van bestaande omgevingen die de ingebouwde hoofdplanningsengine uitvoeren zonder geplande productieorders te genereren, ontvangen een e-mail met details over het uitzonderingsproces. We raden u aan met een partner samen te werken om de migratie naar Planningsoptimalisatie te evalueren en te plannen.
 
 Voordat u Planningsoptimalisatie inschakelt, kunt u het beste de resultaten van de analyse voor passende Planningsoptimalisatie evalueren. Zie [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md) voor meer informatie.
 

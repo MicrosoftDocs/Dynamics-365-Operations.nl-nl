@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: d75e6a8b48447a33156e03d50e990b8514bacda9
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652174"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970698"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Beleid voor flexibele dimensiereservering op magazijnniveau
 
@@ -233,6 +233,9 @@ Als een magazijnwerkitem bestaat uit regels die gelijk zijn aan een volledige pa
 ![Menuopdracht van mobiel apparaat waarbij de optie Verwerken per nummerplaat is ingesteld op Ja](media/Handle-by-LP-menu-item.png)
 
 Omdat de functionaliteit **Verwerken per nummerplaat** geen ondersteuning biedt voor werkzaamheden die meerdere pallets omvatten, is het beter om een afzonderlijk werkitem te hebben voor verschillende nummerplaten. Als u deze aanpak wilt gebruiken, voegt u het veld **Order-toegezegde nummerplaat-id** als werkkoptekstopsplitsing toe op de pagina **Werksjabloon**.
+
+> [!NOTE]
+> Voor het proces van het maken van order-toegezegde werkzaamheden wordt er een waarde voor een order-toegezegde voorraaddimensie toegewezen aan de regels voor orderverzameling en kan de waarde van de nummerplaat niet rechtstreeks worden weergegeven. Alleen het proces *Door gebruiker bestuurd* wordt ondersteund bij het instellen van een menuopdracht voor een mobiel apparaat.
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Voorbeeldscenario: een order-toegezegde nummerplaatreservering instellen en verwerken
 

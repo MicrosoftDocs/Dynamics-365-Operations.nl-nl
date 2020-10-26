@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 671caf1feeb7ac9e7d5a166c5de12540ab9b9792
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818345"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961653"
 ---
 # <a name="work-with-fragments"></a>Werken met fragmenten 
 
@@ -61,8 +61,8 @@ U kunt een nieuw fragment maken of een bestaande moduleconfiguratie als fragment
 Voer de volgende stappen uit om een eerder geconfigureerde module te converteren naar een herbruikbaar fragment.
 
 1. Open een pagina of sjabloon die de module bevat die u naar een fragment wilt converteren.
-1. Selecteer in het overzichtsvenster links of rechtstreeks op het hoofdtekenpapier de eerder geconfigureerde module.
-1. Selecteer het weglatingsteken (**...**) naast de naam van de module in het overzichtsvenster of op de werkbalk van de geselecteerde module op het tekenpapier. 
+1. Selecteer de eerder geconfigureerde module in het overzichtsvenster links of rechtstreeks in de visuele paginabouwer.
+1. Selecteer het beletselteken (**...**) naast de naam van de module in het overzichtsvenster of op de werkbalk van de geselecteerde module in visuele paginabouwer. 
 1. Selecteer **Delen als paginafragment**. 
 1. Voer in het dialoogvenster **Paginafragment opslaan als** een naam voor het fragment in.
 1. Selecteer **OK** om de moduleconfiguratie op te slaan als een fragment dat aan andere pagina's kan worden toegevoegd.
@@ -94,8 +94,8 @@ In de volgende procedures wordt beschreven hoe u fragmenten toevoegt en verwijde
 
 Om een fragment aan een pagina toe te voegen, volgt u deze stappen.
 
-1. Selecteer in het overzichtsvenster links of rechtstreeks op het hoofdtekenpapier een container of vak waaraan onderliggende modules kunnen worden toegevoegd.
-1. Selecteer in het online deelvenster het weglatingsteken (**...**) naast de naam van de container of het vak.  Als alternatief kunt u, als u het hoofdtekenpapier gebruikt, het plusteken (**+**) selecteren.  
+1. Selecteer in het overzichtsvenster links of rechtstreeks in visuele paginabouwer een container of vak waaraan onderliggende modules kunnen worden toegevoegd.
+1. Selecteer in het online deelvenster het weglatingsteken (**...**) naast de naam van de container of het vak.  Als alternatief kunt u, als u visuele paginabouwer gebruikt, het plusteken (**+**) selecteren.  
 1. Selecteer **Fragment toevoegen**.
 
     ![Een schermopname van hoe u een bestaand fragment toevoegt aan een vak of container](./media/add-fragment.png)
@@ -115,7 +115,7 @@ Om een fragment aan een pagina toe te voegen, volgt u deze stappen.
 
 Voer deze stappen uit om een fragment uit een vak of een container van een pagina te verwijderen.
 
-1. Selecteer in het overzichtsvenster aan de linkerkant het weglatingsteken (**...**) naast het fragment dat u wilt verwijderen en selecteer vervolgens de knop Prullenbak.  U kunt ook het fragment op het tekenpapier selecteren en het symbool Prullenbak op de werkbalk van de fragment selecteren.
+1. Selecteer in het overzichtsvenster aan de linkerkant het weglatingsteken (**...**) naast het fragment dat u wilt verwijderen en selecteer vervolgens de knop Prullenbak.  U kunt ook het fragment in visuele paginabouwer selecteren en het symbool Prullenbak op de werkbalk van de fragment selecteren.
 1. Wanneer u wordt gevraagd te bevestigen dat u het fragment wilt verwijderen, selecteert u **OK**.
 
 > [!NOTE]
