@@ -13,23 +13,23 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83cea952f4883d49621a9f7d16440927a8eddb98
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 57e3b95cb1f4a13b49ddcd336efaeabb12e5defc
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830550"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979521"
 ---
 # <a name="register-sales-commissions"></a>Verkoopprovisies registreren
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe verkoopprovisies worden berekend en geregistreerd. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Voordat u deze handleiding start, voert u de handleiding 'Regels voor verkoopprovisie instellen' uit om ervoor te zorgen dat u alle vereiste instellingen van de provisieberekening hebt.
+In dit onderwerp wordt beschreven hoe verkoopprovisies worden berekend en geregistreerd. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Voordat u deze guide start, voert u de guide 'Regels voor verkoopprovisie instellen' uit om ervoor te zorgen dat u alle vereiste instellingen van de provisieberekening hebt.
 
-Noteer de klant- en artikelnummers die u voor het provisieproces hebt geselecteerd en gebruik deze wanneer u wordt aangevraagd om een verkooporder in deze handleiding te maken.
+Noteer de klant- en artikelnummers die u voor het provisieproces hebt geselecteerd en gebruik deze wanneer u wordt aangevraagd om een verkooporder in deze guide te maken.
 
 
 ## <a name="invoice-a-sales-order-that-qualifies-a-salesperson-for-a-commission"></a>Een verkooporder factureren die een verkoper in aanmerking brengt voor provisie
@@ -66,7 +66,7 @@ Noteer de klant- en artikelnummers die u voor het provisieproces hebt geselectee
 2. Selecteer **Factuur** in het actievenster en selecteer vervolgens **Provisietransacties**.
 
     - Het tabblad **Overzicht** geeft regels weer die de provisiebedragen vertegenwoordigen die aan vertegenwoordigers moeten worden betaald die aan de gefactureerde verkooporder zijn gekoppeld. Laten we de gegevens bekijken.  
-    - Als u de handleiding 'Regels voor verkoopprovisie instellen' gebruikte om de groep **Provisieverkoop** in te stellen, zullen twee verkopers een verkoopprovisie ontvangen en is de provisie onder hen gelijk verdeeld.  
+    - Als u de guide 'Regels voor verkoopprovisie instellen' gebruikte om de groep **Provisieverkoop** in te stellen, zullen twee verkopers een verkoopprovisie ontvangen en is de provisie onder hen gelijk verdeeld.  
     - In dit voorbeeld wordt het totaalbedrag van de provisie berekend als een percentage van de verkoopopbrengst (het nettobedrag van de orderregel).  
 3. Sluit de pagina.
 4. Selecteer **Boekstuk**. U kunt de boekstuktransacties voor de provisiebedragen controleren die op de vooraf gedefinieerde rekeningen voor provisie-uitgave en te betalen provisie zijn geboekt.  

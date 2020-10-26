@@ -14,21 +14,21 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a3e91fe67ed97b37bfb89f5f487e2bc59c3f7bb8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6628936a56619de255ca7dc7b332b5819918c310
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216753"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980581"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Een werksjabloon instellen voor inkooporders
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een eenvoudige werksjabloon instelt die u kunt gebruiken wanneer u ontvangen artikelen wegzet. Werksjablonen bepalen de reeks instructies die op een mobiel apparaat aan de magazijnmedewerker worden voorgesteld wanneer deze artikelen van het ontvangende gebied verplaatst. U kunt deze procedure gebruiken met de opgegeven gegevens van het demogegevensbedrijf USMF. Maak voordat u deze handleiding start een werkgroep-id. In dit voorbeeld wordt een werkgroep-id met de naam Binnenkomend gebruikt. Deze procedure is bedoeld voor de magazijnbeheerder.
+In dit onderwerp wordt beschreven hoe u een eenvoudige werksjabloon instelt die u kunt gebruiken wanneer u ontvangen artikelen wegzet. Werksjablonen bepalen de reeks instructies die op een mobiel apparaat aan de magazijnmedewerker worden voorgesteld wanneer deze artikelen van het ontvangende gebied verplaatst. U kunt deze procedure gebruiken met de opgegeven gegevens van het demogegevensbedrijf USMF. Maak voordat u deze guide start een werkgroep-id. In dit voorbeeld wordt een werkgroep-id met de naam Binnenkomend gebruikt. Deze procedure is bedoeld voor de magazijnbeheerder.
 
 1. Ga in het navigatievenster naar **Modules > Magazijnbeheer > Instellingen > Werk >Werksjablonen**.
 2. Selecteer **Inkooporders** in het veld **Werkordertype**.

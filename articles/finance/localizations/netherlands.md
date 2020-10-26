@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Netherlands
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80bffe71501f1487ffec4cebf3f258bd725ce1de
-ms.sourcegitcommit: ff716c5c4a2f24d16b8bfc002c2f388a450e72dd
+ms.openlocfilehash: d48d59910a97f59e0a3d9c3c6008d5fb8eeff9ca
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3340989"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981467"
 ---
 # <a name="netherlands-overview"></a>Overzicht Nederland
 
