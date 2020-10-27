@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cf056f9c8f1f24bb6eb0f619c476b1095a854bb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428634"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958838"
 ---
 # <a name="develop-succession-plan"></a>Opvolgingsplan ontwikkelen
 
@@ -38,7 +38,7 @@ Als uw organisatie groeit, en u opvolgingsplanning overweegt, wilt u misschien i
 7. Klik op Persoon.
 8. Typ in het veld Persoon een naam in, of selecteer de vervolgkeuzelijst.  Voorbeeld: Carla Hicks.
 9. Klik op OK.
-10. Vouw het certificatensneltabblad uit om de certificaten van de vaardigheidstoewijzing weer te geven of te bewerken.
+10. Vouw het sneltabblad Certificaten uit om de certificaten in de vaardigheidstoewijzing weer te geven of te bewerken.
 11. Vouw het sneltabblad Vaardigheden uit om de vaardigheden weer te geven of te bewerken.
 12. Markeer in de lijst de eerste rij.  Voorbeeld: Boekhouding.
 13. Klik op het selectievakje Optioneel.

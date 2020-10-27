@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: conradv
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 7889f1d21bf38a9063fff6a64da50febd15df5d6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 20d472c399c75dbbef5e197e8f7f495e81b14ca2
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209439"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980859"
 ---
 # <a name="product-lifecycle-state-overview"></a>Overzicht van Levenscyclusstatus van producten
 
@@ -36,9 +36,9 @@ Een vrijgegeven product of productvariant kan worden gekoppeld aan een status vo
 
 ## <a name="create-a-new-product-lifecycle-state"></a>Een nieuwe status voor de productlevenscyclus maken 
 
-- Als u een nieuwe status voor de productlevenscyclus wilt maken, kunt u de taakbegeleiding **Een nieuwe status voor de productlevenscyclus maken** afspelen of lezen. 
+- Als u een nieuwe status voor de productlevenscyclus wilt maken, kunt u de taakbegeleider **Een nieuwe status voor de productlevenscyclus maken** afspelen of lezen. 
 
--  Als u een standaardstatus voor de productlevenscyclus wilt maken, kunt u de taakbegeleiding **Een standaardstatus voor de productlevenscyclus maken** afspelen of lezen.   
+-  Als u een standaardstatus voor de productlevenscyclus wilt maken, kunt u de taakbegeleider **Een standaardstatus voor de productlevenscyclus maken** afspelen of lezen.   
 
 ## <a name="associate-product-lifecycle-states-to-released-products"></a>Statussen voor de productlevenscyclus koppelen aan vrijgegeven producten  
 
@@ -54,11 +54,11 @@ U kunt de status voor de productlevenscyclus handmatig bijwerken via:
 -  De lijstpagina **Vrijgegeven productvarianten** of **Detailweergave**. 
 -  Zoek de verouderde producten of productvarianten op basis van vraag en koppel een levenscyclusstatus.  
 
-Voor gedetailleerde informatie over het koppelen van statussen voor de productlevenscyclus kunt u de volgende twee taakbegeleidingen afspelen of lezen.
+Voor gedetailleerde informatie over het koppelen van statussen voor de productlevenscyclus kunt u de volgende twee taakbegeleiders afspelen of lezen.
 
--  Als u de status van een productlevenscyclus wilt koppelen aan een vrijgegeven productmodel, kunt u de taakbegeleiding **De status van een productlevenscyclus toewijzen aan een vrijgegeven productmodel** afspelen of lezen. 
+-  Als u de status van een productlevenscyclus wilt koppelen aan een vrijgegeven productmodel, kunt u de taakbegeleider **De status van een productlevenscyclus toewijzen aan een vrijgegeven productmodel** afspelen of lezen. 
 
--  Als u de status van een productlevenscyclus wilt koppelen aan een vrijgegeven product, kunt u de taakbegeleiding **De status van een productlevenscyclus toewijzen aan een vrijgegeven product** afspelen of lezen. 
+-  Als u de status van een productlevenscyclus wilt koppelen aan een vrijgegeven product, kunt u de taakbegeleider **De status van een productlevenscyclus toewijzen aan een vrijgegeven product** afspelen of lezen. 
 
 ## <a name="impact-on-master-planning"></a>Effect op hoofdplanning 
 
@@ -67,7 +67,7 @@ De status van een productlevenscyclus heeft maar één controlemarkering: **Is a
 -  Uitgesloten van de hoofdplanning. 
 -  Uitgesloten van berekeningen op stuklijstniveau. 
 
-Voor gedetailleerde informatie over het gebruik van de status van een productlevenscyclus om producten uit te sluiten van de hoofdplanning en berekeningen op stuklijstniveau kunt u de taakbegeleiding **Een status voor de productlevenscyclus maken om producten uit te sluiten van Hoofdplanning** afspelen of lezen.
+Voor gedetailleerde informatie over het gebruik van de status van een productlevenscyclus om producten uit te sluiten van de hoofdplanning en berekeningen op stuklijstniveau kunt u de taakbegeleider **Een status voor de productlevenscyclus maken om producten uit te sluiten van Hoofdplanning** afspelen of lezen.
 
 > [!NOTE]
 > Uit prestatieoverwegingen is het raadzaam om alle verouderde vrijgegeven producten of productvarianten te koppelen, vooral wanneer u werkt met niet-herbruikbare productconfiguratievarianten, met een status voor de productlevenscyclus die is gedeactiveerd voor de hoofdplanning.  
@@ -78,7 +78,7 @@ De statussen voor productlevenscycli worden ondersteund door gegevensentiteiten 
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Verouderde producten en productvarianten zoeken 
 
-U kunt een simulatieanalyse uitvoeren om te zoeken naar de verouderde vrijgegeven producten of productvarianten, en om de status van de productlevenscyclus bij te werken. Als u verouderde producten wilt vinden, kunt u de taakbegeleiding **Verouderde productvarianten zoeken en een status voor de productlevenscyclus toewijzen** afspelen en lezen. In deze taakbegeleiding wordt aangegeven hoe u verouderde vrijgegeven producten of productvarianten kunt vinden en de status van een productlevenscyclus kunt koppelen aan de verouderde producten. U ziet ook hoe u de simulatieresultaten kunt bekijken en kunt bepalen hoeveel producten en productvarianten worden gekoppeld aan een nieuwe status voor de productlevenscyclus wanneer u de update zonder simulatie uitvoert.  
+U kunt een simulatieanalyse uitvoeren om te zoeken naar de verouderde vrijgegeven producten of productvarianten, en om de status van de productlevenscyclus bij te werken. Als u verouderde producten wilt vinden, kunt u de taakbegeleider **Verouderde productvarianten zoeken en een status voor de productlevenscyclus toewijzen** afspelen en lezen. In deze taakbegeleider wordt aangegeven hoe u verouderde vrijgegeven producten of productvarianten kunt vinden en de status van een productlevenscyclus kunt koppelen aan de verouderde producten. U ziet ook hoe u de simulatieresultaten kunt bekijken en kunt bepalen hoeveel producten en productvarianten worden gekoppeld aan een nieuwe status voor de productlevenscyclus wanneer u de update zonder simulatie uitvoert.  
 
 Wanneer u de analyse in een simulatiemodus uitvoert, worden de als verouderd aangeduide producten en productvarianten weergegeven in een specifiek formulier, waar ze eenvoudig kunnen worden gecontroleerd. Met de analyse wordt gezocht naar transacties en bepaalde hoofdgegevens ter identificatie van producten waarvoor geen vraag bestaat in een variabele periode en er geen hoofdgegevens zijn die kunnen resulteren in vraag. Nieuw vrijgegeven producten in een variabele periode kunnen worden uitgesloten van de analyse. Wanneer de analysesimulatie het verwachte resultaat retourneert, kan de gebruiker de analyse uitvoeren en een nieuwe status voor de productlevenscyclus instellen voor alle producten die door de analyse als verouderd zijn aangeduid.  
 

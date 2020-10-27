@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269999"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961629"
 ---
 # <a name="modify-an-existing-site-page"></a>Een bestaande sitepagina wijzigen
 
@@ -47,7 +47,7 @@ De volgende stap is het aanbrengen van de wijzigingen. Vaak gebruikt u de overzi
 Door uw wijziging kunnen echter soms modellen of fragmenten worden toegevoegd of verwijderd. Als u een fragment of module wilt toevoegen, gebruikt u de overzichtsstructuur om het vak te vinden waaraan u de module of het fragment wilt toevoegen. Selecteer vervolgens de knop met het weglatings teken (**...**) voor dat vak. Er wordt een menu weergegeven met opdrachten voor het toevoegen van een module of fragment. Als u een module of fragment wilt verwijderen, gaat u ernaartoe en selecteert u het in de overzichtsstructuur. Selecteer de knop met het weglatingsteken en de opdracht om de module of het fragment te verwijderen.
 
 > [!TIP]
-> U kunt ook de eigenschappen van de modules weergeven en bewerken door ze direct te selecteren in het WYSIWYG-voorbeeld.
+> U kunt ook de eigenschappen van de modules weergeven en bewerken door ze direct te selecteren in het voorbeeld van de visuele paginabouwer.
 
 Nadat u de gewenste wijzigingen hebt aangebracht en het effect hiervan hebt bekeken, schakelt u **Bewerken voltooien** op de opdrachtbalk in. 
 

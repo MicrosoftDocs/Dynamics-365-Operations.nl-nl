@@ -13,21 +13,21 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: debfce7eb5e6dcf64830475db53f719cf56525c9
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: a8ebc281036842bdc8965e062990438e1fb466ff
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830593"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986859"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Klantkortingen genereren en verwerken
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure demonstreert hoe u klantkortingen verwerkt van het genereren van de claim tot het doorgeven ervan als toerekeningen aan Debiteuren. U wordt geleid door een specifiek voorbeeld om uit te leggen hoe de verschillende voorwaarden van de kortingsregels van invloed zijn op de uiteindelijke bedragen die aan de klant worden gecrediteerd. U moet het demobedrijf USMF gebruiken en de volgende taken uitvoeren voordat u de begeleiding start: (1) Ga naar de pagina Parameters van module Klanten en vouw het tabblad Prijzen en vervolgens het tabblad Prijsgegevens uit en controleer of de optie Prijsdetails inschakelen is ingesteld op Ja. (2) Ga naar de pagina Kortingsovereenkomsten en selecteer de kortingsovereenkomst van de klant: USMF-000001. Als het veld Goedkeuringsstatus workflow niet is ingesteld op Goedgekeurd, moet u in het actievenster op Validatie klikken om deze goed te keuren.
+Deze procedure demonstreert hoe u klantkortingen verwerkt van het genereren van de claim tot het doorgeven ervan als toerekeningen aan Debiteuren. U wordt geleid door een specifiek voorbeeld om uit te leggen hoe de verschillende voorwaarden van de kortingsregels van invloed zijn op de uiteindelijke bedragen die aan de klant worden gecrediteerd. U moet het demobedrijf USMF gebruiken en de volgende taken uitvoeren voordat u de guide start: (1) Ga naar de pagina Parameters van module Klanten en vouw het tabblad Prijzen en vervolgens het tabblad Prijsgegevens uit en controleer of de optie Prijsdetails inschakelen is ingesteld op Ja. (2) Ga naar de pagina Kortingsovereenkomsten en selecteer de kortingsovereenkomst van de klant: USMF-000001. Als het veld Goedkeuringsstatus workflow niet is ingesteld op Goedgekeurd, moet u in het actievenster op Validatie klikken om deze goed te keuren.
 
 
 ## <a name="review-a-customer-rebate-agreement"></a>Een klantkortingsovereenkomst controleren

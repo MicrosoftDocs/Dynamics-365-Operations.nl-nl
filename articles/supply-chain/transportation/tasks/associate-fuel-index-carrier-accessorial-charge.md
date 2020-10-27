@@ -1,6 +1,6 @@
 ---
 title: Een brandstofindex aan een vervoerder koppelen als bijkomende toeslag
-description: Deze handleiding laat zien hoe u een bijkomende toewijzing, een bijkomende toeslag van vervoerder en een bijkomend model voor brandstoftoeslag kunt maken en een brandstofindex vervoerder kunt koppelen aan een vervoerder.
+description: Deze guide laat zien hoe u een bijkomende toewijzing, een bijkomende toeslag van vervoerder en een bijkomend model voor brandstoftoeslag kunt maken en een brandstofindex vervoerder kunt koppelen aan een vervoerder.
 author: ShylaThompson
 manager: tfehr
 ms.date: 11/14/2016
@@ -13,21 +13,21 @@ ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43b3267122594329444fc4b0458db6b14aa5c672
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bfecdbd8ca2d6124906ef664493602a1d0ac0baf
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206191"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981916"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Een brandstofindex aan een vervoerder koppelen als bijkomende toeslag
 
 [!include [banner](../../includes/banner.md)]
 
-Deze handleiding laat zien hoe u een bijkomende toewijzing, een bijkomende toeslag van vervoerder en een bijkomend model voor brandstoftoeslag kunt maken en een brandstofindex vervoerder kunt koppelen aan een vervoerder. U moet een brandstofindex van vervoerder instellen voordat u deze handleiding uitvoert. U kunt de handleiding "Brandstofindex van een vervoerder instellen" gebruiken om dit te doen. Deze instellingstaken worden gewoonlijk uitgevoerd door een logistiek manager. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+Deze guide laat zien hoe u een bijkomende toewijzing, een bijkomende toeslag van vervoerder en een bijkomend model voor brandstoftoeslag kunt maken en een brandstofindex vervoerder kunt koppelen aan een vervoerder. U moet een brandstofindex van vervoerder instellen voordat u deze guide uitvoert. U kunt de guide 'Brandstofindex van een vervoerder instellen' gebruiken om dit te doen. Deze instellingstaken worden gewoonlijk uitgevoerd door een logistiek manager. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 
 
 ## <a name="create-an-accessorial-master"></a>Een model van extra's maken

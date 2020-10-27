@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c7afed8e4620d5fe49ead47eb6c17d97d7492ad
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002793"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961581"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Overwegingen bij SEO (Search Engine Optimization) voor uw site
 
@@ -47,7 +47,7 @@ Om de indexering van zoekmachines te optimaliseren, wordt bij de weergave zowel 
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>SEO-instellingen voor een interne voorvertoning, beperkte doelgroepen en alle doelgroepen
 
-Omdat Dynamics 365 Commerce ondersteuning biedt voor WYSIWYG, kunnen ontwerpers de pagina-inhoud voorbereiden zonder dat de informatie zichtbaar wordt voor bezoekers van de site. Als een pagina moet worden gepubliceerd voor een beperkte doelgroep, moet deze de metatag **NOINDEX** hebben, zodat de pagina niet door zoekmachines wordt geïndexeerd. Wanneer de pagina vervolgens gereed is voor alle doelgroepen, moeten alle basis SEO-metagegevens aanwezig zijn om de efficiëntie van de indexering van de zoekmachine te optimaliseren. Bovendien moet de metatag **NOLIMIT** worden verwijderd.
+Omdat Dynamics 365 Commerce ondersteuning biedt voor WYSIWYG-voorbeelden in visuele paginabouwer, kunnen ontwerpers de pagina-inhoud voorbereiden zonder dat de informatie zichtbaar wordt voor bezoekers van de site. Als een pagina moet worden gepubliceerd voor een beperkte doelgroep, moet deze de metatag **NOINDEX** hebben, zodat de pagina niet door zoekmachines wordt geïndexeerd. Wanneer de pagina vervolgens gereed is voor alle doelgroepen, moeten alle basis SEO-metagegevens aanwezig zijn om de efficiëntie van de indexering van de zoekmachine te optimaliseren. Bovendien moet de metatag **NOLIMIT** worden verwijderd.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 

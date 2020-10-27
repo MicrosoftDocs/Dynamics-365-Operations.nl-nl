@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3379f5899fedbe8944585388bdb98c4d810c2e26
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 914400d2e8acff0bfa762708ba421812c31be32b
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204350"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982084"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Een inkooporder maken op basis van een verkooporder
 
@@ -49,7 +49,7 @@ Deze procedure toont u hoe u een inkooporder maakt op basis van een verkooporder
 16. Klik op **Inkooporder**. De pagina **Inkooporder maken** toont alle openstaande verkooporderregels die van de verkooporder zijn gekopieerd. U kunt de orderdetails controleren en, zo nodig, geselecteerde details zoals inkoophoeveelheid de prijsvoorwaarden wijzigen voordat u de inkopen maakt. 
 17. Selecteer de optie **Alles opnemen**.
     - Als u inkooporders wilt genereren voor slechts een subset van de verkooporderregels, selecteert u deze afzonderlijk.  
-    - Het veld **Leveranciersaccount** is mogelijk al ingevuld met een leveranciersnummer. Als de standaardleverancier is ingesteld voor het product (op de gekoppelde Artikelbehoefteplanning), wordt deze leverancier naar de regel gekopieerd. Anders moet u handmatig een leverancier invoeren.  Ongeacht of het veld **Leveranciersrekening** al een waarde bevat, begeleiden de volgende stappen in deze handleiding u bij het selecteren van een nieuwe leverancier die voor elke regel verschillend is.  
+    - Het veld **Leveranciersaccount** is mogelijk al ingevuld met een leveranciersnummer. Als de standaardleverancier is ingesteld voor het product (op de gekoppelde Artikelbehoefteplanning), wordt deze leverancier naar de regel gekopieerd. Anders moet u handmatig een leverancier invoeren.  Ongeacht of het veld **Leveranciersrekening** al een waarde bevat, begeleiden de volgende stappen in deze guide u bij het selecteren van een nieuwe leverancier die voor elke regel verschillend is.  
 18. Klik in het veld **Leverancier** op de vervolgkeuzeknop om de zoekopdracht te openen.
 19. Zoek en selecteer het gewenste record in de lijst.
 20. Klik in de lijst op de koppeling in de geselecteerde rij.

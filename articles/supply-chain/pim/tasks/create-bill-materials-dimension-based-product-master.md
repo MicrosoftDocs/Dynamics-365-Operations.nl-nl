@@ -1,6 +1,6 @@
 ---
 title: Een stuklijst maken voor een op dimensies gebaseerd productmodel
-description: Voor deze procedure moet u de vorige 4 begeleidingen in deze reeks van acht registraties hebben voltooid.
+description: Voor deze procedure moet u de vorige 4 guides in deze reeks van acht registraties hebben voltooid.
 author: ShylaThompson
 manager: tfehr
 ms.date: 08/29/2018
@@ -13,28 +13,28 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: acac36a1078e3f45f59989e62accbc63d596cc26
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e7961cfb4ad0e20c49d327d83f56c08811598ac1
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209278"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986282"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Een stuklijst maken voor een op dimensies gebaseerd productmodel
 
 [!include [banner](../../includes/banner.md)]
 
-Voor deze procedure moet u de vorige 4 begeleidingen in deze reeks van acht registraties hebben voltooid. Met de eerste 4 registraties zijn gegevens ingesteld die nodig zijn om deze procedure te voltooien. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze taak wordt doorgaans afgehandeld door de productontwerper.
+Voor deze procedure moet u de vorige 4 guides in deze reeks van acht registraties hebben voltooid. Met de eerste 4 registraties zijn gegevens ingesteld die nodig zijn om deze procedure te voltooien. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze taak wordt doorgaans afgehandeld door de productontwerper.
 
 
 ## <a name="select-the-product"></a>Het product selecteren
 1. Klik op Vrijgegeven productonderhoud.
 2. Klik op Vrijgegeven producten.
 3. Markeer in de lijst de geselecteerde rij.
-    * Zoek het vrijgegeven productmodel met op dimensies gebaseerde configuratietechnologie die u in de eerste taakbegeleiding in deze reeks hebt gemaakt.  
+    * Zoek het vrijgegeven productmodel met op dimensies gebaseerde configuratietechnologie die u in de eerste taakbegeleider in deze reeks hebt gemaakt.  
 4. Klik op Technicus in het actievenster.
 5. Klik op Stuklijstversies.
 
@@ -51,7 +51,7 @@ Voor deze procedure moet u de vorige 4 begeleidingen in deze reeks van acht regi
 7. Typ of selecteer een waarde in het veld Artikelnummer.
     * Selecteer artikelnummer A0001, HDMI 6' kabels.  
 8. Typ of selecteer een waarde in het veld Configuratiegroep.
-    * Selecteer de kabelconfiguratiegroep die is gemaakt in begeleiding 4 in deze reeks.  
+    * Selecteer de kabelconfiguratiegroep die is gemaakt in guide 4 in deze reeks.  
 9. Klik op Nieuw.
     * Selecteer artikelnummer A0002, HDMI 12' kabels.  
 10. Markeer in de lijst de geselecteerde rij.

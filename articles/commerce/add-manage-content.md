@@ -3,7 +3,7 @@ title: Manieren om inhoud toe te voegen
 description: Dit onderwerp bevat een overzicht en specifieke koppelingen voor waar en hoe u kunt beginnen met het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
 author: phinneyridge
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 916e28c2628613332246d19af0fae81f258404b0
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 802a41b8c55e65eee58d26137c2f160b69847010
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025710"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973975"
 ---
 # <a name="ways-to-add-content"></a>Manieren om inhoud toe te voegen
-
 
 [!include [banner](includes/banner.md)]
 
@@ -49,8 +48,12 @@ Selecteer een van de volgende onderwerpen om aan de slag te gaan.
 - Zie [Sitenavigatie aanpassen](customize-site-navigation.md) als u navigatie-opties opnieuw wilt ordenen of nieuwe wilt toevoegen.
 - Zie [Werken met publicatiegroepen](publish-groups.md) voor informatie over de fasering, preview en publicatie van een grote set gelijktijdige wijzigingen in de webcontent.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van pagina schrijven](authoring-home-overview.md)
 
+[Woordenlijst voor paginamodellen](page-elements-overview.md)
+
 [Statussen en levenscyclus van document](document-states-overview.md)
+
+[Het delen van inhoud door meerdere kanalen inschakelen en gebruiken](cross-channel-sharing.md)

@@ -14,21 +14,21 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 905094ae4e76fadbebea1892ec20427f32e3e71d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 86ccc39cb243354db337a5747701e9731c5ad775
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216815"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986921"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Een menuopdracht van mobiel apparaat instellen voor het voltooien van werkzaamheden van het type Inkooporder
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp laat zien hoe u een menuopdracht Mobiel apparaat instelt. In dit voorbeeld, wordt de menuopdracht gebruikt voor het uitvoeren van werkzaamheden van het type Inkooporder. De werkklasse die aan de menuopdracht is gekoppeld, bepaalt welk werk geldig is. U kunt deze begeleiding gebruiken in het demobedrijf USMF. Doorgaans wordt deze procedure uitgevoerd door een magazijnbeheerder.
+Dit onderwerp laat zien hoe u een menuopdracht Mobiel apparaat instelt. In dit voorbeeld, wordt de menuopdracht gebruikt voor het uitvoeren van werkzaamheden van het type Inkooporder. De werkklasse die aan de menuopdracht is gekoppeld, bepaalt welk werk geldig is. U kunt deze guide gebruiken in het demobedrijf USMF. Doorgaans wordt deze procedure uitgevoerd door een magazijnbeheerder.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Een menuopdracht van mobiel apparaat maken

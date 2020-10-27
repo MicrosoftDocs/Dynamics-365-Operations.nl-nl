@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdf83c3595691937a3c0f3863cf28753f12b957
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ec7203506d7fa3e71211bd1547dc8474f5d17dc
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209830"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984221"
 ---
 # <a name="master-planning-home-page"></a>Startpagina Hoofdplanning
 
@@ -73,8 +73,8 @@ Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om
 ### <a name="blogs"></a>Weblogs
 U vindt meningen, nieuws en andere informatie over Hoofdplanning en andere oplossingen in het [blog van het R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) en het [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
-### <a name="task-guides"></a>Taakbegeleidingen
-Extra informatie is beschikbaar als taakbegeleidingen. U kunt op elke pagina op de knop **Help** klikken als u een taakbegeleiding wilt openen.
+### <a name="task-guides"></a>Taakbegeleiders
+Extra informatie is beschikbaar in de vorm van taakbegeleiders. U kunt op elke pagina op de knop **Help** klikken als u een taakbegeleider wilt openen.
 
 ### <a name="webinars"></a>Webinars
 [Azure Machine Learning gebruiken voor vraagprognose](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

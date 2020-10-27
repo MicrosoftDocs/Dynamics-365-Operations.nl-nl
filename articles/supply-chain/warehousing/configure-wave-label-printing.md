@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: v-olbara
+ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 49e0ef1b3020cd1236203c0f243f145dd7a7c10d
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: e3b04eea7bd7dd689f8a918820ffdb4a72d813dc
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546420"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986018"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Afdrukken van wavelabels instellen en gebruiken
 
@@ -95,7 +95,7 @@ De labelindeling bepaalt welke informatie op het label wordt afgedrukt en hoe de
 1. Maak een record met de volgende instellingen:
 
     - **Labelindeling-id:** *Doos*
-    - **Omschrijving:** *Doos (SSCC)*
+    - **Omschrijving:** *doos (SSCC)*
 
 1. Selecteer **Opslaan** in het actievenster.
 1. Selecteer in het actievenster **Instellingen voor wavelabelrijen**.
@@ -354,7 +354,7 @@ Met wavesjablonen kunt u specifieke exemplaren van wavemethoden koppelen aan een
 1. Maak een record met de volgende instellingen:
 
     - **Labelindeling-id:** *Doos*
-    - **Omschrijving:** *Doos (SSCC)*
+    - **Omschrijving:** *doos (SSCC)*
 
 1. Selecteer **Opslaan** in het actievenster.
 1. Selecteer in het actievenster **Instellingen voor wavelabelrijen**.

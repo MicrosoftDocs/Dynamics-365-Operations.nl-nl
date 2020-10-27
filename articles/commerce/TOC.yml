@@ -74,9 +74,9 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations-apps in Frankrijk
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: Ondersteuning krijgen voor Dynamics 365 Commerce
-              href: retail-support.md
-            - name: Upgrade en ondersteuning voor N-1
+            - name: Ondersteuning
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
+            - name: Upgrade en N-1-ondersteuning
               items:
                 - name: Upgrade en N-1-ondersteuning voor Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
@@ -90,8 +90,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Nieuwe of gewijzigde functies in Commerce
                   items:
-                    - name: Startpagina van Nieuwe of gewijzigde functies in Commerce
+                    - name: Startpagina van nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.15 (januari 2021)
+                      href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14 (november 2020)
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (oktober 2020)
@@ -274,6 +276,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
                 - name: LCS-implementatieprojecten verplaatsen naar verschillende Azure AD-tenants
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS-implementatieprojecten verplaatsen van on-premises naar de cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Meerdere LCS-projecten en productieomgevingen op één Azure AD-tenant
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce-projecten voor Finance and Operations implementeren
@@ -706,6 +710,8 @@
                   href: customer-orders-overview.md
                 - name: Hybride klantorders
                   href: hybrid-customer-orders.md
+                - name: Orderbewerking in POS intrekken
+                  href: enhancedorderrecall.md
             - name: Verkooporders
               items:
                 - name: Een callcenterorder maken
@@ -780,15 +786,13 @@
               href: statement-posting-eod.md
             - name: Verbeterde afhandeling van artikelen met batchtracering
               href: batch.md
-            - name: Commerce-parameters configureren die gevolgen hebben voor overzichten
-              href: tasks/parameter-configurations-retail-statements.md
-            - name: Instellingen voor betalingsmethoden configureren die gevolgen hebben voor detailhandeloverzichten
+            - name: Instellingen voor betalingsmethoden configureren die gevolgen hebben voor detailhandelsoverzichten
               href: tasks/payment-configurations-retail-statements.md
             - name: Een taak configureren en uitvoeren om overzichten te berekenen
               href: tasks/run-job-calculate-statements.md
             - name: Een taak configureren en uitvoeren om overzichten te boeken
               href: tasks/run-job-post-statements.md
-            - name: Instellingen voor winkels configureren die gevolgen hebben voor detailhandeloverzichten
+            - name: Instellingen voor winkels configureren die gevolgen hebben voor detailhandelsoverzichten
               href: tasks/store-configurations-retail-statements.md
             - name: Online verkopen en betalingen boeken
               href: tasks/posting-online-sales-payments.md
@@ -866,8 +870,10 @@
                   href: page-elements-overview.md
                 - name: Statussen en levenscyclus van document
                   href: document-states-overview.md
-                - name: Werken met groepen publiceren
+                - name: Werken met publicatiegroepen
                   href: publish-groups.md
+                - name: Het delen van inhoud door meerdere kanalen inschakelen en gebruiken
+                  href: cross-channel-sharing.md
                 - name: De naamsbekendheid van uw site vergroten en winkelgegevens toevoegen
                   items:
                     - name: Een logo toevoegen
@@ -1046,8 +1052,26 @@
                   href: cloud-powered-search-overview.md
             - name: Rapportage
               items:
-                - name: Rapporten van online kanalen genereren
+                - name: Rapporten voor online kanalen genereren
                   href: generate-reports.md
+            - name: Experimenten
+              items:
+                - name: Experimenten in Dynamics 365 Commerce
+                  href: experimentation-overview.md
+                - name: Een hypothese opstellen en metrische gegevens bepalen voor een experiment
+                  href: experimentation-identify.md
+                - name: Een experiment opzetten
+                  href: experimentation-setup.md
+                - name: Een experiment verbinden en bewerken
+                  href: experimentation-connect-edit.md
+                - name: Een preview van experimentvarianten weergeven en een experiment publiceren
+                  href: experimentation-preview-publish.md
+                - name: Een experiment uitvoeren en controleren
+                  href: experimentation-run-monitor.md
+                - name: Een variant promoveren en een experiment voltooien
+                  href: experimentation-review-complete.md
+                - name: De status van een experiment controleren
+                  href: experimentation-status.md
             - name: Foutverwerking
               items:
                 - name: Aangepaste antwoordpagina's bouwen voor fouten met de statuscode 4xx/5xx
@@ -1076,10 +1100,16 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Fiscale integratie voor Commerce-afzetkanalen instellen
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Door gebruiker gedefinieerde certificaatprofielen voor winkels
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: Oostenrijk
               items:
                 - name: Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
                   href: localizations/emea-aut-fi-sample.md
+            - name: Brazilië
+              items:
+                - name: Commerce-lokalisatie voor Brazilië
+                  href: localizations/latam-bra-commerce-localization.md
             - name: Oost-Europa
               items:
                 - name: Algemeen
@@ -2052,6 +2082,8 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Een thema uitbreiden op basis van een basisthema
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: Aangepaste resources toevoegen aan uw aanpassingscode
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: Script injecteren
                   items:
                     - name: Script-injectors
@@ -2164,6 +2196,8 @@
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail-typescript en C#-proxy's
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: Retail Server-API's gebruiken in externe toepassingen
+                  href: dev-itpro/consume-retail-server-api
             - name: Uitbreidbaarheid Commerce Runtime (CRT)
               items:
                 - name: CRT-architectuur en -configuratie

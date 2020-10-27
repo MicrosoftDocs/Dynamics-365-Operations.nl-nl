@@ -3,7 +3,7 @@ title: Human resources-app in Teams
 description: In dit onderwerp maakt u kennis met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/01/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33322b9b553076125695f257b201463e9d8275c6
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828909"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3930012"
 ---
 # <a name="human-resources-app-in-teams"></a>Human resources-app in Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-Met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams kunnen werknemers snel verlof aanvragen en informatie over hun verlofsaldo bekijken in Microsoft Teams. Werknemers kunnen communiceren met een bot om informatie aan te vragen. Het tabblad **Verlof** bevat gedetailleerdere informatie. Bovendien kan aan mensen informatie worden verzonden over gepland verlof in teams en chats buiten de app Human Resources.
+Met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams kunnen werknemers snel verlof aanvragen en informatie over hun verlofsaldo bekijken in Microsoft Teams. Werknemers kunnen communiceren met een bot om informatie aan te vragen. Het tabblad **Verlof** bevat meer gedetailleerde informatie. Daarnaast kunnen ze mensen informatie sturen over uw aanstaande verlof in teams en chats buiten de Human Resources-app.
 
 ![Bot voor verlof-app in Human Resources Teams](./media/hr-admin-teams-leave-app-bot.png)
 
@@ -90,6 +90,22 @@ Nadat u meldingen voor de Teams-app Human Resources teams hebt ingeschakeld, kun
 | Het saldo is onjuist bij het indienen van verlof voor een toekomstige datum. | Prognose maken is nog niet beschikbaar. Het saldo wordt weergegeven voor de huidige datum. |
 | Kan een aanvraag **Wordt gecontroleerd** niet annuleren. | Deze functionaliteit wordt momenteel niet ondersteund en wordt in een toekomstige versie toegevoegd. |
 | Saldogegevens worden vanaf vandaag berekend. | Het systeem geeft momenteel geen saldi weer voor de toerekeningsperiode, zelfs als deze is geconfigureerd in de parameters voor verlof en verzuim. |
+
+## <a name="troubleshooting"></a>Problemen oplossen
+
+Als een gebruiker problemen heeft met het aanmelden bij of het gebruik van de Human Resources Teams-app, volgt u de onderstaande instructies voor het oplossen van problemen. Als u na het oplossen van problemen nog steeds problemen ondervindt, neemt u contact op met de ondersteuning. Zie voor meer informatie [Ondersteuning krijgen](hr-admin-troubleshooting-support.md).
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Kan me niet aanmelden bij de Human Resources-app in Teams
+
+Als een gebruiker contact met u opneemt omdat deze zich niet kan aanmelden bij de app, controleert u of de gebruiker een bijbehorende werknemersrecord heeft in Human Resources.
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Fout bij het goedkeuren van verlofaanvragen in de Human Resources-app in Teams
+
+Als gebruikers een foutmelding krijgen tijdens het goedkeuren van verlofaanvragen in de Teams-app, voert u de volgende stappen uit voor het oplossen van problemen:
+
+1. Controleer of hun Teams-account dezelfde is als de account die ze voor toegang tot Human Resources gebruiken.
+
+2. Controleer of ze een geldige fiatteur zijn voor de aanvraag door de werkstroominstellingen te controleren op verlofgoedkeuring. Zie [Een werkstroom voor een verlofaanvraag maken](hr-leave-and-absence-workflow.md) voor meer informatie over werkstromen voor verlofaanvragen.
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 

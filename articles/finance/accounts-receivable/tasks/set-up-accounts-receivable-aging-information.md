@@ -1,6 +1,6 @@
 ---
 title: Informatie over ouderdom van klanten instellen en genereren
-description: Deze taakbegeleiding helpt u bij de instelling van een ouderdomsperiodedefinitie, ouderdom van klantsaldi te berekenen en saldi weer te geven in de lijst Ouderdomssaldi en de pagina Aanmaningen.
+description: Deze guide helpt u bij de instelling van een ouderdomsperiodedefinitie, ouderdom van klantsaldi te berekenen en saldi weer te geven in de lijst Ouderdomssaldi en de pagina Aanmaningen.
 author: mikefalkner
 manager: AnnBe
 ms.date: 07/11/2019
@@ -13,21 +13,21 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e3c1ec73da27a08aa7a6cd859d1adac772916e4
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 439be64a864056cc19fd156f664a4b90601be040
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140167"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977834"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Informatie over ouderdom van klanten instellen en genereren
 
 [!include [banner](../../includes/banner.md)]
 
-Deze taakbegeleiding helpt u bij de instelling van een ouderdomsperiodedefinitie, ouderdom van klantsaldi te berekenen en saldi weer te geven in de lijst Ouderdomssaldi en de pagina Aanmaningen. Bij deze registratie wordt het demobedrijf USMF gebruikt.
+Deze guide helpt u bij de instelling van een ouderdomsperiodedefinitie, ouderdom van klantsaldi te berekenen en saldi weer te geven in de lijst Ouderdomssaldi en de pagina Aanmaningen. Bij deze registratie wordt het demobedrijf USMF gebruikt.
 
 
 ## <a name="create-an-aging-period-definition"></a>Een ouderdomsperiodedefinitie maken

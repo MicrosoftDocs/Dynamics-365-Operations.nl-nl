@@ -3,7 +3,7 @@ title: Overzicht van Offerteaanvragen
 description: Dit onderwerp bevat een overzicht van offerteaanvragen. Organisaties geven offerteaanvragen uit wanneer ze concurrerende aanbiedingen van verschillende leveranciers willen ontvangen voor de artikelen of services die ze moeten kopen.
 author: mkirknel
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eedf6b08ef9a4b7f164db60433dd16922a8ec807
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: 4aec0ce03d438f8153b9555a079b6fd97f6a95a5
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895615"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973495"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Overzicht van Offerteaanvragen
 
@@ -34,23 +34,21 @@ U kunt leveranciers ook vragen om op te geven of er bijkomende kosten zijn, zoal
 
 Het proces voor offerteaanvragen bestaat uit de volgende taken:
 
-1.  Een offerteaanvraag maken en verzenden naar een of meer leveranciers.
-
-2.  Biedingen ontvangen en registreren (antwoorden op de offerteaanvraag).
-
-3.  Geaccepteerde biedingen overboeken naar een inkooporder, inkoopovereenkomst of opdracht tot inkoop.
+1. Een offerteaanvraag maken en verzenden naar een of meer leveranciers.
+1. Biedingen ontvangen en registreren (antwoorden op de offerteaanvraag).
+1. Geaccepteerde biedingen overboeken naar een inkooporder, inkoopovereenkomst of opdracht tot inkoop.
 
 De volgende afbeelding biedt een overzicht van het proces voor offerteaanvragen.
 
 [![RFQ-proces](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
-U kunt een offerteaanvraagcase maken op basis van geplande orders, een opdracht tot inkoop of handmatige invoer. De offerteaanvraagcase is het basisdocument waarmee u een offerteaanvraag uitgeeft aan elke leverancier.+
+U kunt een offerteaanvraagcase maken op basis van geplande orders, een opdracht tot inkoop of handmatige invoer. De offerteaanvraagcase is het basisdocument waarmee u een offerteaanvraag uitgeeft aan elke leverancier.
 
 Nadat u de offerteaanvraagcase hebt voorbereid en leveranciers hebt toegevoegd, selecteert u **Verzenden** (**Verzenden en publiceren** voor de openbare sector) op de offerteaanvraagcase. Er wordt een offerteaanvraagjournaal gemaakt voor elke leverancier waarnaar u een offerteaanvraag verzendt. U kunt afdrukopties configureren voor de actie Verzenden om een rapport voor elke leverancier af te drukken naar een archief of om een rapport te verzenden naar het e-mailadres van elke leverancier. Bovendien kunt u het offerteaanvraagjournaal voor elke leverancier gebruiken om een rapport te genereren dat u later kunt verzenden of opnieuw kunt verzenden naar een leverancier. U kunt de actie Verzenden ook zo configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.
 
 Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Supply Chain Management. Meer informatie vindt u in [Leverancierssamenwerking met klanten](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
 
-Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de offerteaanvraag na voltooiing opnieuw verzenden naar leveranciers met de twee aanpassingsacties: Maken en Voltooien.+
+Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de offerteaanvraag na voltooiing opnieuw verzenden naar leveranciers met de twee aanpassingsacties: Maken en Voltooien.
 
 Wanneer u biedingen per e-mail ontvangt, moet u deze biedingen verwerken via de pagina **Offerteaanvragen**.
 
@@ -68,15 +66,10 @@ De statussen worden verderop in dit onderwerp nader beschreven.
 
 Voordat u een offerteaanvraagcase kunt maken, moet u offerteaanvraaggegevens instellen op de pagina **Parameters voor inkoop en sourcing**. Wanneer u een offerteaanvraagcase maakt, kunt u standaardwaarden opgeven die naar de offerteaanvraag worden gekopieerd. U kunt de volgende standaardwaarden opgeven:
 
--   Het inkooptype van nieuwe offerteaanvragen: **Inkooporder** of **Inkoopovereenkomst**
-
--   De verschuiving van vervaldatum en -tijd ten opzichte van de dag waarop de offerteaanvraagcase wordt gemaakt.
-
--   Aanvraag voor dit type, die standaard wordt ingesteld op een specifieke scoremethode voor de offerteaanvraagcase
-
--   Leveringsgegevens en betalingsvoorwaarden
-
--   Velden die in het antwoord op het bod moeten worden opgenomen.
+- Het inkooptype van nieuwe offerteaanvragen: **Inkooporder** of **Inkoopovereenkomst**
+- De verschuiving van vervaldatum en -tijd ten opzichte van de dag waarop de offerteaanvraagcase wordt gemaakt.
+- Verzoektype, dat standaard wordt ingesteld op een specifieke scoremethode voor de offerteaanvraagcase.
+- Leveringsgegevens en betalingsvoorwaarden.
 
 U kunt deze waarden negeren voor een specifieke offerteaanvraagcase.
 
@@ -84,37 +77,25 @@ Configureer tevens het aanpassingsproces. Als onderdeel van deze configuratie, k
 
 U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzonden op de pagina **Parameters voor inkoop en sourcing**. Als een sjabloon wordt gemaakt in **E-mailsjablonen**, kan deze de volgende vervangingstokens bevatten:
 
--   %Offerteaanvraagcase%
-
--   %Reden voor retour van bieding%
-
--   %Reden voor aanpassing%
-
--   %Aanpassing voorbereid door%
-
--   %Bedrijf%
-
--   %Naam offerteaanvraagcase%
-
--   %Vervaldatum/-tijd%
-
--   %Datum%
+- %Offerteaanvraagcase%
+- %Reden voor retour van bieding%
+- %Reden voor aanpassing%
+- %Aanpassing voorbereid door%
+- %Bedrijf%
+- %Naam offerteaanvraagcase%
+- %Vervaldatum/-tijd%
+- %Datum%
 
 De tokens %Reden voor retour van biedng% en %Reden voor aanpassing% worden vervangen door tekst die de inkoopmedewerker kan invoeren wanneer hij of zij de aanpassing voltooid in de wizard **Aanpassing**. De waarden voor de tokens %Aanpassing voorbereid door% en %Bedrijf% worden automatisch opgehaald uit de offerteaanvraag. De token %Datum% wordt vervangen door de huidige datum.
 
 Als u een offerteaanvraag annuleren wilt nadat deze verzonden, kunt u dat doen vanuit de offerteaanvraagcase. Voor het annuleren moet de e-mailsjabloon de annuleringsmelding verzenden naar contactpersonen van de leverancier. De sjabloon moet zijn geselecteerd op de pagina **Parameters voor inkoopbeheer**. Als de sjabloon wordt gemaakt, kan deze de volgende vervangingstokens bevatten:
 
--   %Annuleringsreden%
-
--   %Offerteaanvraagcase%
-
--   %Offerteaanvraag geannuleerd door%
-
--   %Bedrijf%
-
--   %Naam offerteaanvraagcase%
-
--   %Datum%
+- %Annuleringsreden%
+- %Offerteaanvraagcase%
+- %Offerteaanvraag geannuleerd door%
+- %Bedrijf%
+- %Naam offerteaanvraagcase%
+- %Datum%
 
 De token %Annuleringsreden% wordt vervangen door tekst die de inkoopmedewerker kan invoeren in de wizard **Annulering**. De token %Datum% wordt vervangen door de huidige datum.
 
@@ -130,6 +111,19 @@ Wanneer u een offerteaanvraagcase van het type inkooporder maakt en een voorraad
 
 Een inkoopmanager of inkoper kan verzoektypen maken en onderhouden om deze af te stemmen op de inkoopvereisten van uw organisatie. Elk verzoektype kan worden gekoppeld aan een scoringsmethode. Scoringsmethoden bestaan uit een set van criteria die kan worden gebruikt bij het toekennen van scores aan biedingen. U moet verzoektypen, scoringsmethoden en scoringscriteria instellen op de pagina's **Verzoektype** en **Scoringsmethode**.
 
+## <a name="choose-default-fields-to-include-in-vendor-rfq-reply-forms"></a><a name="default-reply-fields"></a>Standaardvelden kiezen om op te nemen in antwoordformulieren voor offerteaanvragen van leveranciers
+
+U kunt specifieke typen informatie opgeven die u wilt ontvangen van leveranciers wanneer deze op offerteaanvragen reageren (bieden). De velden die u als standaardwaarde markeert, worden opgenomen op het online formulier dat voor samenwerking met de leverancier is verstrekt. Voer de volgende instellingen uit:
+
+1. Als u dit nog niet hebt gedaan, gebruikt u de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functie *Offerteaanvraagvelden selecteren om op te nemen in antwoordformulieren voor offerteaanvragen van leveranciers* in te schakelen.
+1. Ga naar **Inkoop en sourcing > Instellen > Parameters voor Inkoopbeheer**.
+1. Open het tabblad **Offerteaanvraag**.
+1. Selecteer de koppeling voor antwoordvelden **Standaard offerteaanvragen** onder de kop **Standaardwaarden instellen voor offerteaanvragen**.
+1. Het dialoogvenster **Standaard antwoordvelden voor offerteaanvragen** wordt geopend.
+1. De sectie **Offerteaanvraagvelden die zijn opgenomen in antwoordformulieren voor offerteaanvragen van leveranciers** bevat een schuif regelaar voor elk veld dat kan worden gebruikt in antwoordformulieren voor offerteaanvragen. Velden die zijn ingesteld op *Ja* in deze sectie worden opgenomen (samen met de bijbehorende waarden) in antwoordformulieren voor offerteaanvragen. Stel voor elk veld de schuifregelaar in op *Nee* als u wilt voorkomen dat leveranciers gegevens zien bij het bekijken van een bod. Hierdoor kunt u geraamde of verwachte waarden invoeren tijdens het invoeren van een offerteaanvraag voor interne doeleinden zonder dat de leverancier ziet wat er is ingevoerd.
+
+U kunt deze instellingen desgewenst negeren voor afzonderlijke offerteaanvraagcases.
+
 ## <a name="creating-and-sending-an-rfq"></a>Een offerteaanvraag maken en verzenden
 
 U maakt een offerteaanvraagcase, selecteert de leveranciers die op de offerteaanvraagcase moeten reageren en verzendt de offerteaanvraag vervolgens naar de leveranciers. Met afdrukinstellingen kunt u de route voor het offerteaanvraagrapport instellen en rapporten naar de gewenste bestemming verzenden.
@@ -138,15 +132,13 @@ U kunt handmaitg een offerteaanvraagcase maken van het inkooptype **Inkooporder*
 
 Als de offerteaanvraagcase van het type **inkooporder** is, gebeurt het volgende wat afwijkt van andere soorten offerteaanvraagcases:
 
--   Wanneer regels voor een offerteaanvraagcase worden gemaakt, worden voorraadtransacties gegenereerd die een ontvangststatus hebben van **Offerte-ontvangst**.
-
--   Als u een bieding accepteert, wordt een inkooporder gegenereerd.
+- Wanneer regels voor een offerteaanvraagcase worden gemaakt, worden voorraadtransacties gegenereerd die een ontvangststatus hebben van **Offerte-ontvangst**.
+- Als u een bieding accepteert, wordt een inkooporder gegenereerd.
 
 Als de offerteaanvraagcase van het type **inkoopovereenkomst** is, gebeurt het volgende wat afwijkt van andere soorten offerteaanvraagcases:
 
--   De offerteaanvraagcase wordt gebruikt voor een overeenkomst voor aankoop van een specifieke hoeveelheid of waarde van een product in een bepaalde periode. U moet het datumbereik selecteren dat van toepassing is op de koopovereenkomst en de naam van de persoon die de koopovereenkomst beheert.
-
--   Als u een bieding accepteert, wordt een inkoopovereenkomst gegenereerd.
+- De offerteaanvraagcase wordt gebruikt voor een overeenkomst voor aankoop van een specifieke hoeveelheid of waarde van een product in een bepaalde periode. U moet het datumbereik selecteren dat van toepassing is op de koopovereenkomst en de naam van de persoon die de koopovereenkomst beheert.
+- Als u een bieding accepteert, wordt een inkoopovereenkomst gegenereerd.
 
 Als de offerteaanvraagcase wordt gegenereerd vanuit een inkoopaanvraag wordt automatisch het type **Opdracht tot inkoop** toegewezen. U kunt geen offerteaanvraagcase van het type **Opdracht tot inkoop** handmatig maken.
 
@@ -156,6 +148,7 @@ Wanneer u een offerteaanvraagcase maakt, kunt u een verzoektype selecteren. Het
 
 U kunt een vragenlijst toevoegen aan een offerteaanvraagcase. Deze vragenlijst wordt vervolgens op alle antwoorden op de offerteaanvraag weergegeven nadat u de offerteaanvraag hebt verzonden. De voltooiing van de vragenlijst is een verplichte taak voordat het bod kan worden aangeboden.
 
+Hoewel er standaardwaarden worden opgegeven, kunt u desgewenst de instellingen **Offerteaanvraagvelden die zijn opgenomen in antwoordformulieren voor offerteaanvragen van leveranciers** voor elke afzonderlijke offerteaanvraag wijzigen. Hiertoe maakt of opent u een offerteaanvraagcase. Open vervolgens in het actievenster het tabblad **Offerte** en selecteer in de sectie **Antwoorden** de optie **Standaardinstellingen voor antwoorden op offerteaanvragen instellen**. Het dialoogvenster **Standaard antwoordvelden voor offerteaanvragen** wordt geopend. Dit werkt op dezelfde manier als wanneer u de standaardwaarden voor antwoordformulieren voor offertes van leveranciers instelt, behalve dat uw wijzigingen alleen van invloed zijn op de huidige offerteaanvraagcase. Zie [Standaardvelden kiezen om op te nemen in antwoordformulieren voor offerteaanvragen van leveranciers](#default-reply-fields) voor meer informatie over het inschakelen van deze functionaliteit en hoe deze werkt.
 
 Er zijn drie manieren om de leveranciers te selecteren die u wilt toevoegen aan een offerteaanvraagcase:
 
@@ -166,7 +159,6 @@ Er zijn drie manieren om de leveranciers te selecteren die u wilt toevoegen aan 
 Wanneer de offerteaanvraagcase gereed is, selecteert u **Verzenden**. De actie Verzenden genereert journalen en rapporten die worden afgedrukt, gearchiveerd en verzonden, afhankelijk van uw afdrukinstellingen.
 
 Als u tijdens het verzenden van de aanvraag naar een leverancier **Leverancier gebruiken voor herberekenen van prijzen** en **Leverancierspecifieke artikelgegevens gebruiken** op **Ja** instelt op de pagina **Offerteaanvraag verzenden**, wordt bepaalde leverancierspecifieke informatie automatisch ingevoerd in de offerteaanvraag voor die leverancier.
-
 
 ## <a name="amending-an-rfq-case"></a>Een offerteaanvraagcase aanpassen
 
@@ -179,7 +171,6 @@ Als u het minder beperkende aanpassingsproces wilt gebruiken, hoeft u **Maken** 
 Als leveranciers de interface voor leverancierssamenwerking gebruiken om biedingen in te voeren, moet u het aanpassingsproces altijd gebruiken om leveranciers op de hoogte brengen van wijzigingen in de offerteaanvraagcase. Dit proces voorkomt een situatie waarin leveranciers bieden op een verouderde offerteaanvraagcase terwijl hun bod wordt uitgevoerd. Meer informatie over de nieuwe functionaliteit voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met externe leveranciers](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Als u extra leveranciers wilt uitnodigen om te bieden en er geen wijzigingen zijn aangebracht in de offerteaanvraagcase, kunt u de knop **Verzenden** gebruiken. De leveranciers die u hebt toegevoegd, worden weergegeven op de pagina **Verzenden** en ontvangen de e-mailuitnodiging.
-
 
 ## <a name="receiving-and-registering-rfq-replies"></a>Antwoorden op een offerteaanvraag ontvangen en registreren
 
@@ -208,29 +199,20 @@ In het antwoord kunt u een redencode toevoegen om uit te leggen waarom u een bie
 
 Wanneer u een bod accepteert van het type **Opdracht tot inkoop**, worden de regels van de opdracht tot inkoop bijgewerkt met de volgende informatie die de gegevens van het geaccepteerde bod weergeven:
 
--   Eenheidsprijs
-
--   Kortingspercentage
-
--   Kortingsbedrag
-
--   Toeslagen op inkoop
-
--   Regelkosten
-
--   Leverancier
-
--  Extern nummer
-
--   Externe omschrijving
-
+- Eenheidsprijs
+- Kortingspercentage
+- Kortingsbedrag
+- Toeslagen op inkoop
+- Regelkosten
+- Leverancier
+- Extern nummer
+- Externe omschrijving
 
 De volgende tabel laat zien hoe de offerteaanvraagstatus verandert als u biedingen van leveranciers accepteert en afwijst.
 
-<a name="statuses--highest-and-lowest"></a>Status: hoogste en laagste.
------------------------------
+## <a name="statuses--highest-and-lowest"></a>Status: hoogste en laagste.
 
-Op het tabblad Leverancier van de offerteaanvraagcase ziet u de regels met de hoogste en laagste status voor een bepaalde leverancier. Wanneer de leverancier wordt toegevoegd en er nog geen regels zijn verzonden, zijn de laagste en hoogste status beide <strong>Gemaakt</strong>. Wanneer de offerteaanvraag wordt verzonden naar de leverancier met alle regels, is de status van de twee regels <strong>Verzonden</strong>. Als sommige regels in een bod van een leverancier worden geaccepteerd en andere worden geweigerd, krijgen de afgewezen regels de laagste status van <strong>Afgewezen</strong> en krijgen de geaccepteerde regels de hoogste status <strong>Geaccepteerd</strong>.
+Op het tabblad Leverancier van de offerteaanvraagcase ziet u de regels met de hoogste en laagste status voor een bepaalde leverancier. Wanneer de leverancier wordt toegevoegd en er nog geen regels zijn verzonden, wordt zowel de laagste als de hoogste status ingesteld op <strong>Gemaakt</strong>. Wanneer de offerteaanvraag naar de leverancier wordt verzonden met alle regels, verandert de status van de twee regels in <strong>Verzonden</strong>. Als sommige regels in een bod van een leverancier worden geaccepteerd en andere worden geweigerd, krijgen de afgewezen regels de laagste status van <strong>Afgewezen</strong> en krijgen de geaccepteerde regels de hoogste status <strong>Geaccepteerd</strong>.
 
 Op de regels van de offerteaanvraagcase ziet u de hoogste en de laagste status per regel voor alle leveranciers. Als u een regel hebt verzonden naar alle leveranciers in de offerteaanvraagcase en nog niemand heeft gereageerd, is de laagste en de hoogste status **Verzonden.** Wanneer ten minste één leverancier reageert, wordt de hoogste status gewijzigd in **Ontvangen**. Als u een nieuwe leverancier aan de case toevoegt, wordt de laagste status gewijzigd in **Gemaakt**
 

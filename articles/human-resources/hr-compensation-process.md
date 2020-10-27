@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 05f7be778857380d40a73d068e2b0b4fc7d1d1f6
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 979a4f311d59cb51cdf0fc6ce85d5b3338ffa870
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008621"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958712"
 ---
 # <a name="process-compensation"></a>Compensatie verwerken
 
@@ -44,7 +44,7 @@ Klik op de knop **Toevoegen** op het tabblad **Plannen** om een compensatieplan 
 
 Sla de record op en klik vervolgens op de knop **Toevoegen** op het tabblad **Acties** om vaste-compensatieacties voor het geselecteerde plan toe te voegen. Gebruik de optie **Aanbevelingen inschakelen**, als u een bedrag wilt kunnen invoeren dat afwijkt van de berekende richtlijnverhoging voor de actie. Als u een actie wilt berekenen op basis van het resultaat van de vorige actie om zo meerdere compensatieacties aan elkaar te koppelen, schakel dan de optie **Vorig resultaat gebruiken** in. Vaste-compensatieacties zijn typen compensatielogica waaraan u een beschrijvende naam kunt geven. Bij Schaal- en Bandplannen kunt u alleen vaste-compensatieacties van de volgende typen toevoegen:
 
-| Type vaste-compensatieactie | Functionaliteit                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Type vastecompensatieactie | Functionaliteit                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Eigen vermogen                        | Salarisaanpassingsacties vergelijken de het salaristarief van de werknemer op de einddatum van de cyclus met het laagste referentiepunt voor het niveau dat is aangegeven voor de functie van de werknemer. Als het salaristarief van de werknemer lager is dan het minimum referentiepunt, wordt de verhoging berekend die nodig is om de werknemer naar het laagste punt in dat bereik te krijgen.                                                                                |
 | Verdienste                         | Acties voor verdienste berekenen een verhoging op basis van het salaristarief van de werknemer vanaf de einddatum van de cyclus en het verhogingspercentage in de vaste-budgetverhoging voor de afdeling, de vakbond en de locatie van de werknemer.                                                                                                                                                                                         |

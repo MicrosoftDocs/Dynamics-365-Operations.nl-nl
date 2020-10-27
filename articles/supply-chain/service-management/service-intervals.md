@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5766d8ce1fa382f3f014e160d311b2dfab2bf774
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1027a6a1ddb1057ba039382d394522d6f9538a90
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216270"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979131"
 ---
 # <a name="service-intervals"></a>Service-intervallen
 
@@ -88,7 +88,7 @@ Omdat er geen groepering voor de serviceorder beschikbaar is (gedefinieerd via d
 
 ### <a name="service-orders-created"></a>Gemaakte serviceorders
 
-Er zijn drie serviceorderregels gemaakt binnen het tijdsbestek dat u hebt opgegeven in het dialoogvenster **Serviceorders maken**. U kunt de serviceorderregels bekijken op de pagina **Serviceovereenkomsten** (**actievenster** \> **Leveren** (tabblad) \>**Weergeven** (knop).
+Er zijn drie serviceorderregels gemaakt binnen het tijdsbestek dat u hebt opgegeven in het dialoogvenster **Serviceorders maken**. U kunt de serviceorderregels bekijken op de pagina **Serviceovereenkomsten** (**actievenster** \> **Leveren** (tabblad) \>**Weergeven** (knop)).
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

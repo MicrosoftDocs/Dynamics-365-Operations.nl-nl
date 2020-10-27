@@ -3,7 +3,7 @@ title: Sneltoetsen
 description: Dit onderwerp biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met Finance and Operations-apps werkt.
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761616"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962515"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
@@ -32,6 +32,8 @@ Met de volgende sneltoetsen kunt u snel en efficiënt gegevens invoeren in Finan
 
 > [!NOTE]
 > De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
+
+Sommige van de snelkoppelingen op deze pagina zijn *toetsreeksen*, wat betekent dat er twee opeenvolgende toetsencombinaties nodig zijn (gescheiden door een komma) die afzonderlijk moeten worden ingedrukt om de vereiste actie te activeren. Met de sneltoets "Alt+M,A" moet de gebruiker bijvoorbeeld eerst op ALT+M drukken, de toetsen loslaten en vervolgens op A drukken. 
 
 ## <a name="finding-a-shortcut"></a>Een snelkoppeling vinden
 
@@ -193,7 +195,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Naar de hoofdpaginainhoud gaan (met de focus in een ander deelvenster)                    | Alt+M, M                    |
 | Naar het feitenvak gaan (of dit venster openen, indien van toepassing)                       | Alt+M, B of Ctrl+F2         |
 
-## <a name="personalization-shortcuts"></a>Sneltoetsen voor aanpassen
+## <a name="personalization-shortcuts"></a>Sneltoetsen voor [aanpassing](personalize-user-experience.md) 
 
 | Gewenste bewerking                                                                                                             | Druk op                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Een pagina omhoog/omlaag verplaatsen in de zoekopdracht                                                                                       | Page Up/Page Down              |
 | Naar de bovenkant/onderkant van de zoekopdracht gaan                                                                                    | Home/End                       |
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="task-recordershortcuts"></a>Sneltoetsen voor [taakregistratie](../../dev-itpro/user-interface/task-recorder.md) 
 
-- [Sneltoetsen voor ontbrekende rekeninganalyse](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+| Gewenste bewerking                                                                    | Druk op                       |
+|-------------------------------------------------------------------------------|----------------------------|
+| Opname stoppen (tijdens opnemen)                                          | Alt+R,S                    |
+| De zichtbaarheid van het venster voor taakregistratie in- of uitschakelen (tijdens opnemen)             | Alt+R,T                    |
+| De modus Rails in-/uitschakelen (tijdens het afspelen van een taakbegeleider)                                | Alt+R,L                    |
+| Naar de vorige stap gaan (tijdens het afspelen van een taakbegeleider)                          | Alt+R,P                    |
+| Naar de volgende stap gaan (tijdens het afspelen van een taakbegeleider)                              | Alt+R,N                    |
+| Schakelen tussen de pagina en de pop-upvenster met animatie (tijdens het afspelen van een taakbegeleider) | Alt+R,F               |
+| De pop-upprompt met animatie uit- of samenvouwen (tijdens het afspelen van een taakbegeleider)              | Alt+R,C                    |
+| Meer/minder gegevens weergeven in de pop-upvenster met animatie (tijdens het afspelen van een taakbegeleider) | Alt+R,M                    |
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+[Sneltoetsen voor ontbrekende rekeninganalyse](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 

@@ -14,15 +14,15 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 146eb0822566a9bae59d486e39c8227938eb2375
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 25fabeeb9bcedd888cdebc1ffeee9f0aef5b43cd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216845"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980835"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren
 
@@ -30,7 +30,7 @@ ms.locfileid: "3216845"
 
 Dit onderwerp is gericht op de instelling van een menuopdracht voor een mobiel apparaat. Deze menuopdracht wordt gebruikt voor de registratie van de ontvangst van artikelen die via inkooporders werden besteld. 
 
-U kunt deze begeleiding gebruiken in het demobedrijf USMF. Deze procedure is bedoeld voor de magazijnbeheerder.
+U kunt deze guide gebruiken in het demobedrijf USMF. Deze procedure is bedoeld voor de magazijnbeheerder.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Een menuopdracht van mobiel apparaat maken

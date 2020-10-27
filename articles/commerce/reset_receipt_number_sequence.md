@@ -3,7 +3,7 @@ title: Ontvangstbewijsnummers opnieuw instellen
 description: In dit onderwerp wordt beschreven hoe u de ontvangstbewijsnummers opnieuw kunt instellen die worden gebruikt voor verschillende acties op een gewenste datum (bijvoorbeeld het boekjaar of het kalenderjaar).
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,19 +19,19 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e3243a69b98aae25ad8514890fb984c8a0d9f694
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456568"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967281"
 ---
 # <a name="reset-receipt-numbers"></a>Nummers voor ontvangstbewijzen opnieuw instellen 
 
 [!include [banner](includes/banner.md)]
 
 > [!NOTE]
-> Selecteer de eigenschap **Onafhankelijk volgnummer** voor alle ontvangstbewijstypen in het functionaliteitsprofiel voordat u deze functie gebruikt. Daarnaast moet de systeemtijdzone van het apparaat, waar het POS wordt gebruikt, overeenkomen met de bijbehorende tijdzone van de winkel. Wij proberen deze beperkingen in een toekomstige versie te verwijderen. Neem contact op met Microsoft Ondersteuning voordat u deze functie in productie gaat gebruiken.
+> Selecteer de eigenschap **Onafhankelijk volgnummer** voor alle ontvangstbewijstypen in het functionaliteitsprofiel voordat u deze functie gebruikt. Daarnaast moet de systeemtijdzone van het apparaat, waar het POS wordt gebruikt, overeenkomen met de bijbehorende tijdzone van de winkel. Vanwege deze beperkingen wordt u aangeraden deze functie niet te gebruiken tijdens de productie terwijl wij proberen deze problemen in een toekomstige versie op te lossen. 
 
 Detailhandelaren genereren ontvangstbewijsnummers voor verschillende acties in de winkel, zoals contante transacties, retourtransacties, klantorders, offertes en betalingen. Hoewel detailhandelaren hun eigen ontvangstbewijsindelingen definiëren, hebben sommige landen of regio's voorschriften die beperkingen opleggen aan de ontvangstbewijsindelingen. Deze voorschriften kunnen bijvoorbeeld het aantal tekens op het ontvangstbewijs beperken, opeenvolgende ontvangstbewijsnummers vereisen, het gebruik van bepaalde speciale tekens beperken of de eis stellen dat ontvangstbewijsnummers aan het begin van het jaar opnieuw worden ingesteld. Microsoft Dynamics 365 Commerce maakt het proces van het beheren van ontvangstbewijsnummers zeer flexibel, zodat detailhandelaren beter aan de wettelijke vereisten kunnen voldoen. In dit onderwerp wordt uitgelegd hoe u de functionaliteit gebruikt voor het opnieuw instellen van ontvangstbewijsnummers.
 

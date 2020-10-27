@@ -3,7 +3,7 @@ title: Waarschuwingsregels maken
 description: Dit onderwerp bevat informatie over waarschuwingen en uitleg over het maken van een waarschuwingsregel zodat u een bericht ontvangt over gebeurtenissen zoals een datum of een specifieke wijziging.
 author: tjvass
 manager: AnnBe
-ms.date: 02/19/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075919"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970674"
 ---
 # <a name="create-alert-rules"></a>Waarschuwingsregels maken
 
@@ -92,3 +92,14 @@ Waarschuwingen kunnen extern worden verzonden via het raamwerk voor zakelijke ge
 7. Accepteer op het sneltabblad **Waarschuw mij met** in het veld **Onderwerp** de standaard onderwerpkoptekst voor het e-mailbericht of voer een nieuw onderwerp in. De tekst wordt gebruikt als de onderwerpkoptekst voor het e-mailbericht dat u ontvangt als er een waarschuwing wordt geactiveerd. Als u de waarschuwing als een zakelijke gebeurtenis wilt verzenden, stelt u **Extern verzenden** in op **Ja**.
 8. Voer desgewenst een bericht in het veld **Bericht** in. De tekst wordt gebruikt als het bericht dat u ontvangt als er een waarschuwing wordt geactiveerd.
 9. Selecteer **OK** om de instellingen op te slaan en de waarschuwingsregel te maken.
+
+## <a name="limitations-and-workarounds"></a>Beperkingen en oplossingen
+
+### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Oplossing voor het maken van waarschuwingen voor de secundaire gegevensbronnen van een formulier
+Er kunnen geen waarschuwingen worden gemaakt voor bepaalde secundaire gegevensbronnen op formulieren. Wanneer u bijvoorbeeld waarschuwingen maakt voor het formulier voor boekingsprofielen van klanten of leveranciers, zijn alleen de velden in de koptekst (CustLedger of VendLedger) beschikbaar en niet de dimensierekeningen. De oplossing voor deze beperking is het gebruik van **SysTableBrowser** om die tabel als primaire gegevensbron te openen. 
+1. Open de tabel in het formulier **SysTableBrowser**.
+    ```
+        https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
+    ```
+2. Maak een waarschuwing in het formulier SysTableBrowser.
+

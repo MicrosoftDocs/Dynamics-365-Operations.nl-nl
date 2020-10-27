@@ -16,15 +16,15 @@ ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c56d80dca9bf7753585532dffd57552ce2ee7a3f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203820"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982840"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Een statistische basislijnprognose genereren
 
@@ -68,9 +68,9 @@ De intercompany-planninggroep, de artikeltoewijzingssleutels, en andere filters 
 Als de prognose niet wordt gegenereerd voor een grote set artikelen, maar bijvoorbeeld voor één artikel of artikeltoewijzingssleutel tegelijk, kunt u om betere prestaties te krijgen het selectievakje **Aanvraagreactiemodus gebruiken** op het tabblad **Hoofdplanning - Instellingen - Vraagprognose** - **Parameters voor vraagprognose - Azure Machine Learning** inschakelen.
 
 > [!NOTE]
-> Een potentieel vlakke prognose kan het gevolg zijn van de historische gegevens die een langere historische periode moeten omvatten (minimaal drie tijdsperioden om patronen te kunnen zien, bijvoorbeeld 3 jaar met maandelijkse prognose). Om een beter resultaat te krijgen, kunt u proberen de nauwkeurigheid van het tijdsbereik te wijzigen of het tijdsbereik te vergroten.
+> Een potentieel vlakke prognose kan het gevolg zijn van de historische gegevens die een langere historische periode moeten omvatten (minimaal drie tijdsperioden om patronen te kunnen zien, bijvoorbeeld 3 jaar met maandelijkse prognose). U kunt proberen de nauwkeurigheid van het tijdsbereik te wijzigen of het tijdsbereik te vergroten om een beter resultaat te krijgen.
 
-<a name="additional-resources"></a>Aanvullende resources
+<a name="additional-resources"></a>Aanvullende bronnen
 --------
 
 - [Instelling van Vraagprognose](demand-forecasting-setup.md)

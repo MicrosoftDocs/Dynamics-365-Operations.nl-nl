@@ -13,21 +13,21 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: vstehman
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 135cca434a1689bf22ee468894dcf8746071e7ca
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: bfa1b9e43a5745eb5b5c442998597319f196f23f
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144692"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976740"
 ---
 # <a name="set-up-withholding-tax"></a>Bronbelasting instellen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe bronbelasting instelt. *Bronbelasting* is belasting op leveranciers waarbij geen btw-transacties worden gemaakt. Bronbelasting die is berekend over betalingen van leveranciers is een schuld. Daarom zijn alleen balansrekeningen of schuldenrekeningen geldige rekeningen voor het boeken van bronbelasting. Deze taakbegeleiding toont hoe u bronbelasting instelt.
+In dit onderwerp wordt uitgelegd hoe bronbelasting instelt. *Bronbelasting* is belasting op leveranciers waarbij geen btw-transacties worden gemaakt. Bronbelasting die is berekend over betalingen van leveranciers is een schuld. Daarom zijn alleen balansrekeningen of schuldenrekeningen geldige rekeningen voor het boeken van bronbelasting. Deze taakbegeleider toont hoe u bronbelasting instelt.
 
 1. Ga naar **Navigatievenster > Modules > Belasting > Indirecte belastingen> Bronbelasting > Bronbelastingscodes**.
 2. Selecteer **Nieuw**.

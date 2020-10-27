@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: belgium
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: d54dddc5d2f1383933def2e8741d0911cf3427ae
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.openlocfilehash: c90ede8d5e7d1625be07f77b3cf36473d3165089
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819753"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981881"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 

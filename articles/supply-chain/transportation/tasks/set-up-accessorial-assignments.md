@@ -13,21 +13,21 @@ ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c86461f980112e2d759dfd0c905ae2ef05e7041
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 3f0ea4a3914b7214dcceb22595809eaa3118a0ca
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214982"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987275"
 ---
 # <a name="set-up-accessorial-assignments"></a>Bijkomende opdrachten instellen
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure laat zien hoe u een bijkomende toewijzing instelt. Dit wordt gewoonlijk gedaan door een transportcoördinator. Voordat u deze handleiding gebruikt, moet u de handleiding "Bijkomende toeslagen van hub en modellen voor extra's instellen" uitvoeren.
+Deze procedure laat zien hoe u een bijkomende toewijzing instelt. Dit wordt gewoonlijk gedaan door een transportcoördinator. Voordat u deze guide gebruikt, moet u de guide 'Bijkomende toeslagen van hub en modellen voor extra's instellen' uitvoeren.
 
 
 ## <a name="set-up-accessorial-assignment"></a>Toewijzing van extra's instellen
@@ -36,7 +36,7 @@ Deze procedure laat zien hoe u een bijkomende toewijzing instelt. Dit wordt gewo
 3. Typ een waarde in het veld Naam.
 4. Schakel de uitbreiding van de sectie Details om.
 5. Klik in het veld Hub op de vervolgkeuzeknop om de zoekopdracht te openen.
-6. Selecteer in de lijst de hub waarvoor u een bijkomend model hebt gemaakt bij het uitvoeren van de handleiding "Bijkomende toeslagen van hub en modellen voor extra's instellen". 
+6. Selecteer in de lijst de hub waarvoor u een bijkomend model hebt gemaakt bij het uitvoeren van de guide 'Bijkomende toeslagen van hub en modellen voor extra's instellen'. 
 7. Klik in het veld Id extra's hub op de vervolgkeuzeknop om de zoekopdracht te openen.
 8. Klik in de lijst op de koppeling in de geselecteerde rij.
 9. Schakel de uitbreiding van de sectie Criteria om.

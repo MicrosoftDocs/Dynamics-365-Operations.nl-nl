@@ -3,7 +3,7 @@ title: Analyse voor passende Planningsoptimalisatie
 description: In dit onderwerp wordt uitgelegd hoe u uw huidige instellingen en gegevens kunt controleren op basis van de mogelijkheden van de functionaliteit Optimalisatieplanning.
 author: ChristianRytt
 manager: tfehr
-ms.date: 09/23/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 73549097eed6d9418d5ff73e108d1dbae7ed66b3
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887133"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973447"
 ---
-# <a name="planning-optimization-fit-analysis"></a>Analyse voor passende Planningsoptimalisatie
+# <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
 [!include [banner](../../includes/banner.md)]
 
-Als u wilt zien hoe compatibel uw huidige instellingen en gegevens zijn met de functie Planningsoptimalisatie, gaat u naar **Hoofdplanning** \> **Instellingen** \> **Analyse voor passende Planningsoptimalisatie** en selecteert u **Analyse uitvoeren**. Als in de analyse inconsistenties worden gevonden, worden deze op dezelfde pagina weergegeven. (Het kan enkele minuten duren voordat de analyse is uitgevoerd.)
+U moet het resultaat van Analyse aanpassen aan Planningsoptimalisatie analyseren als onderdeel van het migratieproces. Het bereik van Planningsoptimalisatie is niet gelijk aan de huidige ingebouwde hoofdplanningsfunctionaliteit. We raden u aan met uw partner te werken en de documentatie te lezen om de migratie voor te bereiden. 
+
+Analyse aanpassen aan Planningsoptimalisatie helpt u bepalen waar het resultaat kan verschillen tussen de ingebouwde engine voor hoofdplanning en Planningsoptimalisatie. Deze analyse wordt uitgevoerd op basis van uw huidige instellingen en gegevens. 
+
+Voor een overzicht van het resultaat van Analyse aanpassen aan Planningsoptimalisatie gaat u naar de **Hoofdplanning** \> **Instellen** \> **Analyse aanpassen aan Planningsoptimalisatie** en selecteert u vervolgens **Analyse uitvoeren**. Als in de analyse inconsistenties worden gevonden, worden deze op dezelfde pagina weergegeven. (Het kan enkele minuten duren voordat de analyse is uitgevoerd.)
 
 > [!NOTE]
 > Als er inconsistenties worden gevonden, kunt u Planningsoptimalisatie nog steeds gebruiken. De resultaten van de aanpassingsanalyse geven alleen de plaatsen aan waar de planningsservice de huidige instellingen niet kan inwilligen. Met andere woorden, de plaatsen worden weergegeven waar bepaalde processen mogelijk worden genegeerd of niet worden ondersteund.
@@ -63,7 +67,7 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Fiattering | Hoofdplannen met automatische fiattering ingesteld: _\#_ | In versie 10.0.7 en hoger wordt automatisch fiatteren als een afzonderlijke batchtaak voor fiattering ondersteund nadat de hoofdplanning is voltooid (mits de functie _Automatisch fiatteren voor Planningsoptimalisatie_ is ingeschakeld in [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Het automatisch fiatteren voor planningsoptimalisatie is gebaseerd op de orderdatum (begin datum), niet op de behoeftedatum (einddatum). Dit gedrag zorgt ervoor dat geplande orders op tijd worden gefiatteerd, zonder dat de levertijd in de time fence voor fiattering moet worden opgenomen. | Ondersteund |
 | FitAnalysisPlanningItems | Planningsartikelen: _\#_ | Deze functie wordt verwerkt. Momenteel worden planningsartikelen op dezelfde manier verwerkt als normale artikelen wanneer Planningsoptimalisatie is ingeschakeld. | 2021 oktober |
 | Prognose | Behoefteplanningsgroepen met "Intercompany-orders opnemen" ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel omvat hoofdplanning geen downstream geplande vraag wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. De vrijgegeven/gefiatteerde orders werken nog steeds met de normale intercompany-functionaliteit en zullen de meeste scenario's dekken. | 2020 oktober |
-| Prognose | Behoefteplanningsgroepen waarvoor de instelling "Prognose reduceren met" op een andere waarde is ingesteld dan "Orders": _\#_ | Voor Planningsoptimalisatie wordt standaard "Prognose reduceren met" voor orders gebruikt, ongeacht deze instelling. | 2020 oktober |
+| Prognose | Behoefteplanningsgroepen waarvoor de instelling "Prognose reduceren met" op een andere waarde is ingesteld dan "Orders": _\#_ | Voor Planningsoptimalisatie wordt standaard "Prognose reduceren met" voor orders gebruikt, ongeacht deze instelling. | november 2020 |
 | Prognose | Prognosemodellen met submodellen: _\#_ | Deze functie wordt verwerkt. Momenteel worden prognoses die submodellen gebruiken, niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | 2021 april |
 | Prognose | Hoofdplannen met de "Aanbodprognose opnemen" ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel worden aanbodprognoses die submodellen gebruiken, niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | 2021 oktober |
 | Time fence voor blokkering | Behoefteplanningsgroepen met time fence voor blokkering ingesteld: _\#_ | De time fence voor blokkering wordt niet vaak gebruikt en er zijn momenteel geen plannen om de time fence op te nemen voor Planningsoptimalisatie. Momenteel wordt de instelling voor time fence voor blokkering genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | N.v.t. |
@@ -72,7 +76,7 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Intercompany | Hoofdplannen inclusief geplande downstreamvraag: _\#_ | Deze functie wordt verwerkt. Momenteel omvat hoofdplanning geen downstream geplande vraag wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. De vrijgegeven/gefiatteerde orders werken nog steeds met de normale intercompany-functionaliteit en zullen de meeste scenario's dekken. | 2020 oktober |
 | Kanban | Artikelbehoefteplanningsrecords met gepland ordertype kanban: _\#_ | Deze functie wordt verwerkt. Momenteel wordt de artikelbehoefteplanning die is ingesteld op kanban, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Tijdens de hoofdplanning wordt door het met kanban geplande ordertype een waarschuwing gemaakt en er worden geplande inkooporders gemaakt om de gerelateerde vraag te dekken. | 2021 oktober |
 | Kanban | Artikelen met standaardordertype kanban: _\#_ | Momenteel wordt een standaardordertype dat is ingesteld op kanban, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Tijdens de hoofdplanning wordt door het standaardordertype een waarschuwing gemaakt en er worden geplande inkooporders gemaakt om de gerelateerde vraag te dekken. | 2021 oktober |
-| Levenscyclusstatus van product   | Levenscyclusstatussen van product niet actief voor planning: _\#_ | Deze functie is in behandeling. Momenteel wordt de Productlevenscyclusstatus genegeerd en is Planningsoptimalisatie ingeschakeld. U kunt het productfilter op planniveau aanpassen om te voorkomen dat producten worden opgenomen waar de productlevenscyclusstatus is uitgeschakeld voor planning. | 2020 oktober |
+| Levenscyclusstatus van product   | Levenscyclusstatussen van product niet actief voor planning: _\#_ | Deze functie is in behandeling. Momenteel wordt de Productlevenscyclusstatus genegeerd en is Planningsoptimalisatie ingeschakeld. U kunt het productfilter op planniveau aanpassen om te voorkomen dat producten worden opgenomen waar de productlevenscyclusstatus is uitgeschakeld voor planning. | november 2020 |
 | Productie | Stuklijstregels met afronding of meerdere instellingen: _\#_ | Deze functie wordt verwerkt. Momenteel worden afronding en meerdere instellingen genegeerd op stuklijstregels wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2021 april |
 | Productie | Stuklijst-/formuleregels met formulemeting: _\#_ | Deze functie wordt verwerkt. Momenteel wordt formulemeting genegeerd op stuklijst- en formuleregels wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2021 oktober |
 | Productie | Stuklijst-/formuleregels met artikelvervanging (planningsgroepen): _\#_ | Deze functie wordt verwerkt. Momenteel wordt artikelvervanging (planningsgroepen) genegeerd op stuklijst- en formuleregels wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2021 oktober |

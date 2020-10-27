@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826401"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958736"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Visuele planning voor lean manufacturing
 
@@ -61,7 +61,7 @@ De pagina **Kanbanplanningsbord** bevat zeven belangrijke elementen, zoals afgeb
 
 ### <a name="view-the-time-scale"></a>De tijdschaal weergeven
 
-Het bord is verdeeld in perioden, die worden vertegenwoordigd door knooppunten (4). De periodeknooppunten worden vermeld op de verticale as en de horizontale as vertegenwoordigt een tijdschaal (7) die de lengte van de periode weergeeft. Een periode heeft een lengte van één dag of één week. De lengte van de periode wordt bepaald door de configuratie van de werkcel die is geselecteerd voor het kanbanplanningsbord (2). Voor elk periodeknooppunt geeft het kanbanplanningsbord aan hoeveel de geplande kanbantaken de periode beladen. Het wordt ook aangegeven wat de maximale doorvoercapaciteit voor de periode is. Als de geplande doorvoercapaciteit groter is dan de maximale doorvoercapaciteit, wordt de periode beschouwd als overbelast en wordt een rood waarschuwingssymbool getoond. Een geplande kanbantaak wordt weergegeven in een periode met geplande begin- en eindtijden (5). De lengte van de taak is gelijk aan de activiteitstijd. Kanbantaken worden weergegeven als overlappend in een periode, als hun activiteitstijden groter zijn dan de takttijd van de werkcel.
+Het bord is verdeeld in perioden, die worden vertegenwoordigd door knooppunten (4). De periodeknooppunten worden vermeld op de verticale as en de horizontale as vertegenwoordigt een tijdschaal (7) die de lengte van de periode weergeeft. Een periode heeft een lengte van één dag of één week. De lengte van de periode wordt bepaald door de configuratie van de werkcel die is geselecteerd voor het kanbanplanningsbord (2). Voor elk periodeknooppunt geeft het kanbanplanningsbord aan hoeveel de geplande kanbantaken de periode beladen. Het wordt ook aangegeven wat de maximale doorvoercapaciteit voor de periode is. Als de geplande doorvoercapaciteit groter is dan de maximale doorvoercapaciteit, wordt de periode beschouwd als overbelast en wordt een rood waarschuwingssymbool getoond. Een geplande kanbantaak wordt weergegeven in een periode met geplande begin- en eindtijden (5). De lengte van de taak is gelijk aan de activiteitstijd. Kanbantaken worden weergegeven als overlappend in een periode, als hun activiteitstijden groter zijn dan de taaktijd van de werkcel.
 
 ### <a name="view-job-status"></a>De taakstatus weergeven
 

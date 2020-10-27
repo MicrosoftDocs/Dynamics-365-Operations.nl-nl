@@ -13,21 +13,21 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b489add43bb523a7684115b942395b0d830f3c4a
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 7d3a35c7140b886f931df48e583b1582201b6547
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830204"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982012"
 ---
 # <a name="fulfill-sales-agreements"></a>Verkoopovereenkomsten afhandelen
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure toont hoe u een verkoopovereenkomst vervult door er verkooporders aan te koppelen. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Voordat u deze handleiding start, moet u ervoor zorgen u een effectieve verkoopovereenkomst van het type 'Toezegging productwaarde' hebt. Anders kunt u de taakhandleiding met de naam 'Verkoopovereenkomsten maken' uitvoeren.  
+Deze procedure toont hoe u een verkoopovereenkomst vervult door er verkooporders aan te koppelen. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Voordat u deze guide start, moet u ervoor zorgen u een effectieve verkoopovereenkomst van het type 'Toezegging productwaarde' hebt. Anders kunt u de taakbegeleider met de naam 'Verkoopovereenkomsten maken' uitvoeren.  
 
 
 
@@ -38,7 +38,7 @@ Deze procedure toont hoe u een verkoopovereenkomst vervult door er verkooporders
 3. Klik in het actievenster op Verkoopovereenkomst.
 4. Klik op Vrijgaveorder.
     * Zoals de tekst bovenaan de pagina Vrijgaveorder maken aangeeft, verschillen de details die vereist zijn voor de verkooporderregels, afhankelijk van of de overeenkomst is gebaseerd op hoeveelheid of waarde.  
-    * De overeenkomst in deze handleiding is van het type 'Toezegging productwaarde'. Daarom is de sectie Regels van deze pagina leeg. Als de toezegging was gebaseerd op hoeveelheid, zou de regelinformatie vanuit de overeenkomst worden gekopieerd.  
+    * De overeenkomst in deze guide is van het type 'Toezegging productwaarde'. Daarom is de sectie Regels van deze pagina leeg. Als de toezegging was gebaseerd op hoeveelheid, zou de regelinformatie vanuit de overeenkomst worden gekopieerd.  
 5. Klik op Maken.
     * Het bericht meldt u dat er nu een verkooporder is gemaakt. Omdat de order geen regels bevat, moet u orderregeldetails toevoegen om het vrijgaveproces te voltooien.   
 6. Sluit de pagina.

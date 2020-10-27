@@ -3,7 +3,7 @@ title: Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie
 description: In dit onderwerp wordt beschreven hoe u scriptcode op de client toevoegt aan de sitepagina's om de verzameling telemetrie aan clientzijde te ondersteunen.
 author: bicyclingfool
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
+ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761244"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3901491"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie
 
@@ -64,6 +64,9 @@ Voer de volgende stappen uit om een herbruikbaar fragment te maken voor de exter
 1. Voeg in het eigenschappenvenster aan de rechterkant onder **Scriptbron** een externe of relatieve URL toe voor de externe scriptbron. Configureer vervolgens de overige opties naar wens.
 1. Selecteer **Opslaan** en vervolgens **Bewerken voltooien**.
 1. Selecteer **Publiceren**.
+
+> [!NOTE]
+> Als CSP (Content Security Policy) is ingeschakeld voor uw site, moet u ervoor zorgen dat alle externe URL's worden toegevoegd aan de CSP-instructie **script-src** in Commerce Site Builder. Zie voor meer informatie [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md).
 
 ## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Een fragment met scriptcode aan een sjabloon toevoegen
 

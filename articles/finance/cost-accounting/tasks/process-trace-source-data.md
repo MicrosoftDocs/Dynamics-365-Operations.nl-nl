@@ -12,21 +12,21 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34cd29c4c31e1941c4e4acdbc1609210ea46934f
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 6a23443c985ac681c8c31956ae5ea3e513337577
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142289"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977546"
 ---
 # <a name="process-and-trace-source-data"></a>Brongegevens verwerken en traceren
 
 [!include [banner](../../includes/banner.md)]
 
-Alle gegevensverwerking wordt uitgevoerd door taken. Voor elke taak en gegevensprovider wordt een journaal gemaakt om te documenteren dat het proces is uitgevoerd en dat de posten zijn verwerkt in de huidige taak. Met deze procedure kunt u een gegevensbron instellen en vervolgens de oorsprong van een bepaalde kostenpost traceren. Deze registratie gebruikt het USP2-demogegevensbedrijf USP2. Zorg voordat u deze taak voltooit dat u de volgende taakbegeleiders afspeelt: 'Een grootboek van kostprijsboekhouding maken', 'Kostenbeheereenheden definiëren' en 'Gegevensbron beheren voor het grootboek van kostprijsboekhouding'.
+Alle gegevensverwerking wordt uitgevoerd door taken. Voor elke taak en gegevensprovider wordt een journaal gemaakt om te documenteren dat het proces is uitgevoerd en dat de posten zijn verwerkt in de huidige taak. Met deze procedure kunt u een gegevensbron instellen en vervolgens de oorsprong van een bepaalde kostenpost traceren. Deze registratie gebruikt het USP2-demogegevensbedrijf USP2. Zorg voordat u deze taak voltooit dat u de volgende guides afspeelt: 'Een grootboek van kostprijsboekhouding maken', 'Kostenbeheereenheden definiëren' en 'Gegevensbron beheren voor het grootboek van kostprijsboekhouding'.
 
 1. Ga naar Kostprijsboekhouding  >Grootboek instellen > Grootboeken van kostprijsboekhouding.
 2. Zoek en selecteer de gewenste record in de lijst.

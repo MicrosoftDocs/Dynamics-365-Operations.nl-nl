@@ -3,7 +3,7 @@ title: Consistentiecontrole voor detailhandeltransacties
 description: In dit onderwerp wordt de functie voor de consistentiecontrole voor transacties in Dynamics 365 Commerce beschreven.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 10/07/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 3c7ca41b9e8a4c3127c98c756348959530a87996
+ms.sourcegitcommit: 1631296acce118c51c182c989e384e4863b03f10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265613"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968767"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Consistentiecontrole voor detailhandeltransacties
 
@@ -45,26 +45,27 @@ Het volgende diagram biedt inzicht in het boekingsproces met de consistentiecont
 
 Met het batchproces **Winkeltransacties valideren** wordt de consistentie van de tabellen met handeltransacties gecontroleerd voor de volgende scenario's.
 
-- **Klantrekening**: hiermee wordt gevalideerd of de klantrekening in de tabellen met handeltransacties bestaat in het HQ-klantmodel.
-- **Regeltelling**: hiermee wordt gevalideerd of het aantal regels, zoals vastgelegd in de transactiekopteksttabel, overeenkomt met het aantal regels in de verkooptransactietabellen.
-- **Prijs inclusief belasting**: hiermee wordt gevalideerd of de parameter **Prijs inclusief belasting** consistent is binnen de transactieregels.
-- **Betalingsbedrag**: hiermee wordt gevalideerd of de betalingsrecords overeenkomen met het betalingsbedrag in de koptekst.
-- **Brutobedrag**: hiermee wordt gevalideerd of het brutobedrag in de kop het totaal is van de nettobedragen op de regels plus het bedrag van de belasting.
-- **Nettobedrag**: hiermee wordt gevalideerd of het nettobedrag in de kop het totaal is van de nettobedragen op de regels.
-- **Over-/onderbetaling**: hiermee wordt gevalideerd of het verschil tussen het brutobedrag in de kop en het betalingsbedrag niet hoger is dan het maximum voor de configuratie voor over-/onderbetaling.
-- **Kortingsbedrag**: hiermee wordt gevalideerd of het kortingsbedrag in de kortingstabellen en het kortingsbedrag in de tabellen met de handelstransactieregels consistent zijn, of het kortingsbedrag in de kop het totaal is van de kortingsbedragen op de regels.
-- **Regelkorting**: hiermee wordt gevalideerd dat de regelkorting op de transactieregel het totaal is van alle regels in de kortingstabel die overeenkomt met de transactieregel.
+- **Klantrekening**: hiermee wordt gecontroleerd of de klantrekening in de tabellen met handeltransacties bestaat in het HQ-klantmodel.
+- **Regeltelling**: hiermee wordt gecontroleerd of het aantal regels, zoals vastgelegd in de transactiekopteksttabel, overeenkomt met het aantal regels in de verkooptransactietabellen.
+- **Prijs inclusief belasting**: hiermee wordt gecontroleerd of de parameter **Prijs inclusief belasting** consistent is op de verschillende transactieregels en of de prijs op de verkoopregel in overeenstemming is met de prijs inclusief belasting en de configuratie voor belastingvrijstelling.
+- **Betalingsbedrag**: hiermee wordt gecontroleerd of de betalingsrecords overeenkomen met het betalingsbedrag in de kop, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.
+- **Brutobedrag**: hiermee wordt gecontroleerd of het brutobedrag in de kop de som is van de nettobedragen op de regels plus het belastingbedrag, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.
+- **Nettobedrag**: hiermee wordt gecontroleerd of het nettobedrag in de kop de som is van de nettobedragen op de regels, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.
+- **Over-/onderbetaling**: hiermee wordt gecontroleerd of het verschil tussen het brutobedrag in de kop en het betalingsbedrag niet hoger is dan de maximumwaarde van de configuratie voor over-/onderbetaling, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.
+- **Kortingsbedrag**: hiermee wordt gecontroleerd of het kortingsbedrag in de kortingstabellen en het kortingsbedrag in de tabellen met transactieregels consistent zijn en of het kortingsbedrag in de kop het totaal is van de kortingsbedragen op de regels, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.
+- **Regelkorting**: hiermee wordt gecontroleerd of de regelkorting op de transactieregel het totaal is van alle regels in de kortingstabel die overeenkomt met de transactieregel.
 - **Geschenkbonartikel**: Commerce ondersteunt niet het retourneren van geschenkbonartikelen. Het saldo op een geschenkbon kan echter wel contant worden uitbetaald. Geschenkbonartikelen die worden verwerkt als een retourregel in plaats van een uitbetalingsregel mislukken voor het boekingsproces voor overzichten. Het validatieproces voor geschenkbonartikelen zorgt dat de enige retourregels voor geschenkbonartikelen in de transactietabellen uitbetalingsregels voor de geschenkbon zijn.
 - **Negatieve prijs**: hiermee wordt gevalideerd of er geen transactieregels met een negatieve prijs zijn.
 - **Artikel en variant**: hiermee wordt gevalideerd of artikelen en varianten op de transactieregels bestaan in het stambestand met artikelen en varianten.
-- **Belastingbedrag**: hiermee wordt gevalideerd of belastingrecords overeenkomen met de belastingbedragen op de regels.
+- **Belastingbedrag**: hiermee wordt gecontroleerd of belastingrecords overeenkomen met de belastingbedragen op de regels.
 - **Serienummer**: hiermee wordt gevalideerd of het serienummer aanwezig is in de transactieregels voor artikelen die worden gecontroleerd op serienummer.
 - **Ondertekenen**: hiermee wordt gevalideerd of het teken op de hoeveelheid en het nettobedrag hetzelfde zijn in alle transactieregels.
-- **Zakelijke datum**: hiermee wordt gevalideerd of de financiële perioden voor alle zakelijke datums voor de transacties openstaan.
+- **Zakelijke datum**: hiermee wordt gecontroleerd of de financiële perioden voor alle zakelijke datums voor de transacties openstaan.
+- **Toeslagen**: hiermee wordt gecontroleerd of het bedrag van de toeslag in de kop en op de regels in overeenstemming is met de prijs, inclusief belasting en de configuratie voor belastingvrijstelling.
 
 ## <a name="set-up-the-consistency-checker"></a>De consistentiecontrole instellen
 
-Configureer het batchproces Winkeltransacties valideren via **Detailhandel en commerce \> IT detailhandel en commerce \> POS-boekingen** voor periodieke uitvoering. De batchtaak kan worden gepland op basis van de organisatiehiërarchie van de winkel, op dezelfde wijze als de processen Overzichten in batch berekenen en Overzichten in batch boeken zijn ingesteld. We raden u aan dit batchproces zo te configureren dat het meerdere keren per dag wordt uitgevoerd en zo te plannen dat het na elke P-taak wordt uitgevoerd.
+Configureer het batchproces 'Winkeltransacties valideren' via **Retail en Commerce \> IT Retail en Commerce \> POS-boekingen** voor periodieke uitvoering. De batchtaak kan worden gepland op basis van de organisatiehiërarchie van de winkel, op dezelfde wijze als de processen Overzichten in batch berekenen en Overzichten in batch boeken zijn ingesteld. We raden u aan dit batchproces zo te configureren dat het meerdere keren per dag wordt uitgevoerd en zo te plannen dat het na elke P-taak wordt uitgevoerd.
 
 ## <a name="results-of-validation-process"></a>Resultaten van validatieproces
 
