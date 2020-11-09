@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: ec91174f291bcfa7027a93ca344823561cc29e3f
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383223"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018144"
 ---
 # <a name="create-a-purchase-order"></a>Inkooporder maken
 
@@ -60,7 +60,7 @@ In dit onderwerp leest u hoe u een inkooporder handmatig maakt. Het is gebruikel
     - Het veld **Eenheidsprijs** bevat meestal een waarde van een inkoopovereenkomst of een handelsovereenkomst. Het is mogelijk de eenheidsprijs op afzonderlijke orderregels te wijzigen, bijvoorbeeld als een unieke prijs met de leverancier is overeengekomen.  
     - Het veld **Korting** bevat een kortingsbedrag per eenheid. Met deze korting wordt daarom de eenheidsprijs verlaagd. Deze korting wordt over het algemeen automatisch op basis van inkoopovereenkomsten of handelsovereenkomsten verschaft, maar het is mogelijk deze op afzonderlijke regels te overschrijven als unieke kortingen met de leverancier zijn overeengekomen.  
     - Er kan een kortingspercentage worden ingevoerd waarmee het nettobedrag dienovereenkomstig voor de regel wordt verlaagd. Het kortingspercentage wordt vaak automatisch op basis van inkoopovereenkomsten of handelsovereenkomsten verschaft, maar het is mogelijk het op afzonderlijke regels te overschrijven als een unieke korting met de leverancier is overeengekomen.  
-    - De waarde in het veld **Nettobedrag** wordt berekend op basis van andere velden op de regel, inclusief hoeveelheid, eenheidsprijs, korting en kortingspercentage. Het is mogelijk om het nettobedrag te wijzigen, maar dan zijn de velden **Eenheidsprijs**, **Korting** en **Kortingspercentage** leeg en wanneer u naar de regel boekt, is het geboekte bedrag evenredig aan het nettobedrag. Meestal wordt het veld **Nettobedrag** alleen gebruikt voor het weergeven van het nettobedrag van de regel.  
+    - De waarde in het veld **Nettobedrag** wordt berekend op basis van andere velden op de regel, inclusief hoeveelheid, eenheidsprijs, korting en kortingspercentage. Het is mogelijk om het nettobedrag te wijzigen, maar dan zijn de velden **Eenheidsprijs** , **Korting** en **Kortingspercentage** leeg en wanneer u naar de regel boekt, is het geboekte bedrag evenredig aan het nettobedrag. Meestal wordt het veld **Nettobedrag** alleen gebruikt voor het weergeven van het nettobedrag van de regel.  
 
 8. Vouw de sectie **Regeldetails** uit.
 9. Selecteer het tabblad **Levering**. Er kan een unieke leveringsdatum aan elke orderregel worden toegewezen. De datum wordt overgenomen van het veld in de koptekst van de inkooporder, maar u kunt dit wijzigen.  

@@ -19,15 +19,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08e6a521818c919b364033e22643b9ee4ce0ec65
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024655"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107156"
 ---
 # <a name="commerce-home-page"></a>Startpagina Commerce
-
 
 [!include [banner](includes/banner.md)]
 
@@ -49,8 +48,8 @@ Met deze versie kunt u digitale ervaringen maken met ingebouwde webontwerpprogra
 Selecteer een functiegebied voor meer informatie hierover.
 - [Een Commerce preview-omgeving configureren](provisioning-guide.md)
 - [Commerce-architectuur](retail-components.md)
-- [Uw kanalen instellen](channels-overview.md)
-- [Merchandising van uw producten en diensten](set-up-retail-products.md)
+- [Uw afzetkanalen instellen](channels-overview.md)
+- [Uw producten en diensten aan de man brengen](set-up-retail-products.md)
 - [Uw orders beheren](Order-fulfillment-overview.md)
 - [Uw klanten beheren](set-up-customer-loyalty-program.md)
 - [Uw financiële items beheren](retail-statements.md)

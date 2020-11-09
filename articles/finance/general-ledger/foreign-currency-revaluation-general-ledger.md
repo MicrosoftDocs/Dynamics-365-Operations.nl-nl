@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bf61aa839d4d59b2c93eee9931eef0e6c51d4ac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177119"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006208"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Herwaardering van vreemde valuta voor Grootboek
 
@@ -41,15 +41,15 @@ Wanneer u het herwaarderingsproces uitvoert, wordt het saldo in elke hoofdrekeni
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Voorbereiding van herwaardering van vreemde valuta
 Voordat u het herwaarderingsproces kunt uitvoeren, zijn de volgende instellingen vereist.
 
--   Op de pagina **Hoofdrekening**:
+-   Op de pagina **Hoofdrekening** :
 -   Selecteer **Herwaardering van vreemde valuta** als de hoofdrekening moet worden geherwaardeerd in het grootboek. Schakel deze optie uit als de hoofdrekening niet moet worden geherwaardeerd (zoals voor AR en AP indien geherwaardeerd in de subjournalen).
 -   Voer het **Wisselkoerstype** in als de hoofdrekening voor herwaardering is gemarkeerd. Dit type wisselkoers wordt gebruikt voor de herwaardering van de hoofdrekening. Er is een afzonderlijk veld **Wisselkoerstype voor financiële rapportage** beschikbaar voor financiële rapportage. De twee velden worden niet gesynchroniseerd dat verschillende wisselkoerstypen kunnen worden gebruikt voor herwaardering en financiële rapportage.
 
--   Op de pagina **Grootboek**:
+-   Op de pagina **Grootboek** :
 -   Geef het **Wisselkoerstype** op. Als het wisselkoerstype niet is gedefinieerd voor de hoofdrekening, wordt dit wisselkoerstype gebruikt tijdens de herwaardering van vreemde valuta.
 -   Geef de rekeningen op voor gerealiseerde winst, gerealiseerd verlies, niet-gerealiseerde winst en niet-gerealiseerd verlies voor herwaardering van valuta. Rekeningen voor gerealiseerde winst en gerealiseerd verlies worden gebruikt voor het vereffenen van AR- en AP-transacties en rekeningen voor niet-gerealiseerde winst en niet-gerealiseerd verlies worden gebruikt voor het herwaarderen van openstaande transacties en grootboekhoofdrekeningen.
 
--   Op de pagina **Rekeningen voor valutaherwaardering**:
+-   Op de pagina **Rekeningen voor valutaherwaardering** :
 -   Selecteer verschillende valutaherwaarderingsrekeningen voor elke valuta en elk bedrijf. Als u geen rekeningen hebt gedefinieerd, worden rekeningen van de pagina **Grootboek** gebruikt.
 
 ## <a name="process-foreign-currency-revaluation"></a>Herwaardering van vreemde valuta verwerken
@@ -76,38 +76,33 @@ De niet-gerealiseerde winst- of verliestransacties worden voor de grootboekherwa
 
 **Voorbeeld** De volgende saldi zijn aanwezig voor hoofdrekening 110110.
 
-|            |                    |                        |                       |
+| Datum   | Grootboekrekening| Transactiebedrag | Boekhoudingsbedrag |
 |------------|--------------------|------------------------|-----------------------|
-| **Datum**   | **Grootboekrekening** | **Transactiebedrag** | **Boekhoudingsbedrag** |
 | 20 januari | 110110 (Kas)      | EUR 500 (Debet)        | USD 1000 (Debet)      |
 
 De hoofdrekening wordt geherwaardeerd op 31 januari.  De niet-gerealiseerde winst/verlies wordt als volgt berekend.
 
-|                                             |                                            |                                  |                                    |                             |
+| Huidig saldo in transactievaluta | Huidig saldo in valuta voor boekhouding | Wisselkoers voor herwaardering | Nieuw bedrag in valuta voor boekhouding | Niet-gerealiseerde winst/verlies    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Huidig saldo in transactievaluta** | **Huidig saldo in valuta voor boekhouding** | **Wisselkoers voor herwaardering** | **Nieuw bedrag in valuta voor boekhouding** | **Niet-gerealiseerde winst/verlies**    |
 | EUR 500                                     | USD 1000                                   | 166.6667                         | EUR 833,33 (500 x 1,666667)        | 166,67 verlies (833,33 – 1000) |
 
 De volgende vermelding in de boekhouding wordt gemaakt.
 
-|            |                          |           |            |
+| Datum   | Grootboekrekening       | Debet | Krediet |
 |------------|--------------------------|-----------|------------|
-| **Datum**   | **Grootboekrekening**       | **Debet** | **Krediet** |
 | 31 januari | 110110 (Kas)            |           | 166.67     |
 | 31 januari | 801400 (Niet-gerealiseerd verlies) | 166.67    |            |
 
 Er worden geen nieuwe transacties geboekt voor de maand februari.  De hoofdrekening wordt geherwaardeerd op 28 februari.
 
-|                                             |                                            |                                  |                                    |                             |
+| Huidig saldo in transactievaluta | Huidig saldo in valuta voor boekhouding | Wisselkoers voor herwaardering | Nieuw bedrag in valuta voor boekhouding | Niet-gerealiseerde winst/verlies    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Huidig saldo in transactievaluta** | **Huidig saldo in valuta voor boekhouding** | **Wisselkoers voor herwaardering** | **Nieuw bedrag in valuta voor boekhouding** | **Niet-gerealiseerde winst/verlies**    |
 | EUR 500                                     | USD 833,33 (1000 - 166,67)                 | 250.0000                         | USD 1250 (500 x 2,5)               | 416,67 winst (1250 – 833,33) |
 
 De volgende vermelding in de boekhouding wordt gemaakt.
 
-|             |                          |           |            |
+| Datum    | Grootboekrekening       | Debet | Krediet |
 |-------------|--------------------------|-----------|------------|
-| **Datum**    | **Grootboekrekening**       | **Debet** | **Krediet** |
 | 28 februari | 110110 (Kas)            | 416.67    |            |
 | 28 februari | 801600 (Niet-gerealiseerde winst) |           | 416.67     |
 

@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 49b90037c182e10d0cc9d449649e8501537fdc4f
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802938"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012385"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.13 (oktober 2020)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management, previewversie 10.0.13. Deze versie heeft een buildnummer van 10.0.569 en is als volgt beschikbaar:
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.13. Deze versie heeft een buildnummer van 10.0.569 en is als volgt beschikbaar:
 
 - **Preview-versie:** april 2020
 - **Algemene beschikbaarheid (zelfupdate):** september 2020
@@ -49,8 +49,6 @@ Deze versie bevat de volgende functies. De functietitels verwijzen naar extra in
 - [Nieuwe voorraaddimensies voor het bijhouden van productversies en uitgebreide uitbreidbaarheid](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Zie voor meer informatie [Productdimensies](../pim/product-dimensions.md).
 
 - [Op order toegezegde reservering op basis van nummerplaten](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Zie voor meer informatie [Reservering van een flexibele nummerplaat](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
-
-- [Visualisatie van uitgaande workload](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)
 
 - [Overzicht van werkorderverzamelregel](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 

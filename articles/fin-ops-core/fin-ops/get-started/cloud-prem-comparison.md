@@ -3,7 +3,7 @@ title: Vergelijking van functies tussen cloud en on-premises
 description: In dit onderwerp ziet u welke functies worden ondersteund in de cloud en on-premises.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100277"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040094"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Vergelijking van functies tussen cloud en on-premises
 
@@ -58,10 +58,10 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |                                      | ER: integratie met LCS                                                                  | Ja       | Nee              |
 |                                      | ER: integratie met SharePoint                                                           | Ja       | Nee              |
 |                                      | ER: integratie met Regulatory Configuration Services (RCS)                              | Ja       | Nee              |
-|                                      | ER: gebruikt het lokale bestandssysteem als de opslag van ER-configuraties die toegankelijk zijn via ER-opslaglocaties | Nee        | Ja             |
-|                                      | Integratie met PowerBI.com                                                              | Ja       | Nee              |
-|                                      | Integratie met PowerBI Desktop                                                          | Nee        | Ja             |
-|                                      | Analytische werkgebieden                                                                     | Ja       | Nee              |
+|                                      | ER: gebruikt het lokale bestandssysteem als de opslag van ER-configuraties die toegankelijk zijn via ER-opslaglocaties | No        | Ja             |
+|                                      | Integratie met PowerBI.com                                                              | Ja       | No              |
+|                                      | Integratie met PowerBI Desktop                                                          | No        | Ja             |
+|                                      | Analytische werkgebieden                                                                     | Ja       | No              |
 |                                      | Intelligent bedrijfsproces: Aanbevelingen                                             | Ja       | Nee              |
 |                                      | Power BI-rapporten met OData opstellen met Power BI Desktop- of Excel PowerQuery-hulpprogramma's    | Ja       | Nee              |
 |                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Nee              |
@@ -81,12 +81,13 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |                                      | Taakregistratie: taakregistraties opslaan of laden uit de BPM-bibliotheek                         | Ja       | Nee              |
 | Ondersteuning                              |                                                                                           | Ja       | Ja             |
 |                                      | Toegang tot ondersteuning via het menu Help en ondersteuning                                             | Ja       | Nee              |
-|                                      | Zakelijke gebeurtenissen                                                                           | Ja       | Ja (er is een internetverbinding vereist of aangepaste eindpunten moeten worden geïmplementeerd voor het verzenden/ontvangen van zakelijke gebeurtenissen binnen het intranet)              |
+|                                      | Zakelijke gebeurtenissen                                                                           | Ja       | Ja (er is een internetverbinding vereist of er moeten aangepaste eindpunten worden geïmplementeerd voor het verzenden/ontvangen van zakelijke gebeurtenissen binnen het intranet)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
 | **Gebied**                | **Functie**             | **Cloud** | **On-premises** |
 |-------------------------|-------------------|-----------|-----------------|
+| Activabeheer                     |                                                                                           | Ja       | No |
 | Conformiteit en certificaten        |                                                                                           | Ja       | Ja             |
 |                                      | SOC 1-certificering van type 1                                                                | Ja       | Nee              |
 | Kostprijsboekhouding                      |                                                                                           | Ja       | Ja             |
@@ -106,10 +107,10 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |                                      | ER: integratie met LCS                                                                  | Ja       | Nee              |
 |                                      | ER: integratie met SharePoint                                                           | Ja       | Nee              |
 |                                      | ER: integratie met Regulatory Configuration Services (RCS)                              | Ja       | Nee              |
-|                                      | ER: gebruikt het lokale bestandssysteem als de opslag van ER-configuraties die toegankelijk zijn via ER-opslaglocaties | Nee        | Ja             |
-|                                      | Integratie met PowerBI.com                                                              | Ja       | Nee              |
-|                                      | Integratie met PowerBI Desktop                                                          | Nee        | Ja             |
-|                                      | Analytische werkgebieden                                                                     | Ja       | Nee              |
+|                                      | ER: gebruikt het lokale bestandssysteem als de opslag van ER-configuraties die toegankelijk zijn via ER-opslaglocaties | No        | Ja             |
+|                                      | Integratie met PowerBI.com                                                              | Ja       | No              |
+|                                      | Integratie met PowerBI Desktop                                                          | No        | Ja             |
+|                                      | Analytische werkgebieden                                                                     | Ja       | No              |
 |                                      | Intelligent bedrijfsproces: Aanbevelingen                                             | Ja       | Nee              |
 |                                      | Power BI-rapporten met OData opstellen met Power BI Desktop- of Excel PowerQuery-hulpprogramma's    | Ja       | Nee              |
 |                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Nee              |

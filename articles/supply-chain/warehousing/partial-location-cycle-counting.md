@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
+ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.openlocfilehash: 5d69b1e9444785058a2b3e62b9a76cb6e70abf03
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760002"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017593"
 ---
 # <a name="partial-location-cycle-counting"></a>Gedeeltelijke cyclustelling van locatie
 
@@ -41,7 +41,7 @@ U kunt een **werksjabloon** aan een cyclustellingsplan koppelen, om te definiër
 
 Wanneer u de gegevens van de werksjabloon definieert, kunt u met de optie **Werkregelopsplitsingen** opgeven of de telwerkregels moeten worden gegroepeerd op artikelnummer of op productvariantnummer. Deze instelling is vereist als u alleen voorhanden voorraad wilt tellen voor bepaalde producten op een locatie. De cyclustellingswerkregels die zijn gemaakt, hebben het niveau van de informatie die u hier definieert en de begeleide telbewerking worden afgewerkt op basis van dit niveau. 
 
-Als u cyclustellingsplannen koppelt aan werksjablonen met behulp van de optie **Werkregels afbreken**, wordt het veld **Gedeeltelijke cyclustelling** ingeschakeld voor het cyclustellingswerk dat is gemaakt en meerdere cyclustellingswerkregels worden gemaakt op basis van de definitie van de werksjabloon. 
+Als u cyclustellingsplannen koppelt aan werksjablonen met behulp van de optie **Werkregels afbreken** , wordt het veld **Gedeeltelijke cyclustelling** ingeschakeld voor het cyclustellingswerk dat is gemaakt en meerdere cyclustellingswerkregels worden gemaakt op basis van de definitie van de werksjabloon. 
 
 Voordat gedeeltelijk cyclustellingswerk kan worden verwerkt, moet u ten minste **Artikelnummer weergeven** selecteren voor het mobiele menuonderdeel als onderdeel van de instellingen voor cyclustelling. De magazijnoperator wordt gevraagd om alleen telinformatie vast te leggen die is gekoppeld aan de tellingsregels (artikelnummers en productdimensies). Alle overige voorhanden voorraad wordt voor dit telproces genegeerd. 
 
@@ -51,7 +51,7 @@ Voor het gedeeltelijke cyclustellingsproces wordt de datum/tijd **Laatste cyclus
 In dit voorbeeld moet alleen artikelnummer A0001 in magazijn 61 worden geteld.
 
 1.  Een nieuwe werksjabloon voor cyclustelling wordt gemaakt. Met de optie **Opsplitsing werkregels** worden telwerkregels gegroepeerd op artikelnummer. Daarom heeft het aangemaakte cyclustellingswerk regels op artikelnummer. U kunt de regels ook groeperen op productvariantnummer.
-2.  Een nieuw cyclustellingsplan wordt gemaakt, dat verwijst naar de zojuist gemaakte werksjabloon. Het cyclustellingsplan bevat alle locaties in magazijn 61 (query **Locaties selecteren**) die voorraad bevatten voor artikelnummer A0001. De selectie van specifieke producten wordt gedefinieerd in de sectie **Productselecties voor cyclustellingsplan**.
+2.  Een nieuw cyclustellingsplan wordt gemaakt, dat verwijst naar de zojuist gemaakte werksjabloon. Het cyclustellingsplan bevat alle locaties in magazijn 61 (query **Locaties selecteren** ) die voorraad bevatten voor artikelnummer A0001. De selectie van specifieke producten wordt gedefinieerd in de sectie **Productselecties voor cyclustellingsplan**.
 3.  U kunt producten voor cyclustellingsplannen selecteren door het veld **Lege locaties** in te stellen op **Lege uitsluiten**. Wanneer het cyclustellingsplan wordt verwerkt, wordt gedeeltelijk cyclustellingswerk aangemaakt voor artikelnummer A0001. Het werkelijke telproces kan worden uitgevoerd via een mobiel menu-item voor geleide cyclustelling.
 
 

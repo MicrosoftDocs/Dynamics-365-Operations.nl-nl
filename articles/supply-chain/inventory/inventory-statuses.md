@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
+ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96ed6d01e22ee2cbc5b3b2be8168fbb43904c89
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 07426eee2a79f21d7e91a82a1832cfdb35fd8683
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212705"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017339"
 ---
 # <a name="inventory-statuses"></a>Voorraadstatussen
 
@@ -42,7 +42,7 @@ Hieronder staan enkele voorbeelden van manieren waarop u voorraadstatussen kunt 
 
 Een voorraadstatus is een van de dimensies in de opslagdimensiegroep. Voorraadstatussen kunnen worden gecategoriseerd als beschikbaar of als niet-beschikbaar en u kunt de parameter **Voorraadblokkering** gebruiken om artikelen te blokkeren met een niet-beschikbare voorraadstatus. De artikelen met een geblokkeerde status worden beschouwd als fysieke voorraad en kunnen niet op een productieorder, een verkooporder, een transferorder of een uitgaande transactie worden gebruikt.
 
-U kunt magazijnartikelen met beschikbare of niet-beschikbare voorraadstatussen voor inkomend werk gebruiken. U maakt bijvoorbeeld een beschikbare status met de naam **Gereed**, een niet-beschikbare status met de naam **Beschadigd** en een geblokkeerde status met de naam **Geblokkeerd**. Wanneer u een inkooporder voor ontvangen of geretourneerde artikelen maakt als er artikelen gebroken zijn of beschadigd, kunt u de voorraadstatus van deze artikelen wijzigen in **Beschadigd** op de inkooporderregel. Nadat deze artikelen zijn ontvangen, wordt de status automatisch ingesteld op **Geblokkeerd**. Als u de beschadigde artikelen met een mobiel apparaat scant, kan Supply Chain Management locatierichtlijnen en werksjablonen gebruiken om informatie over een geschikte locatie of een bereik met locaties weer te geven waar u die artikelen kunt wegzetten. Voor geretourneerde artikelen wordt een uitgiftetype van **Reservering** gemaakt op de pagina **Voorraadtransacties**.
+U kunt magazijnartikelen met beschikbare of niet-beschikbare voorraadstatussen voor inkomend werk gebruiken. U maakt bijvoorbeeld een beschikbare status met de naam **Gereed** , een niet-beschikbare status met de naam **Beschadigd** en een geblokkeerde status met de naam **Geblokkeerd**. Wanneer u een inkooporder voor ontvangen of geretourneerde artikelen maakt als er artikelen gebroken zijn of beschadigd, kunt u de voorraadstatus van deze artikelen wijzigen in **Beschadigd** op de inkooporderregel. Nadat deze artikelen zijn ontvangen, wordt de status automatisch ingesteld op **Geblokkeerd**. Als u de beschadigde artikelen met een mobiel apparaat scant, kan Supply Chain Management locatierichtlijnen en werksjablonen gebruiken om informatie over een geschikte locatie of een bereik met locaties weer te geven waar u die artikelen kunt wegzetten. Voor geretourneerde artikelen wordt een uitgiftetype van **Reservering** gemaakt op de pagina **Voorraadtransacties**.
 
 Gebruik voor uitgaand werk artikelen met een beschikbare voorraadstatus. Als u artikelen met de status van **Gebroken** hebt en de hoofdplanning op deze artikelen wordt uitgevoerd, worden de artikelen als ontbrekend beschouwd en wordt de voorraad automatisch aangevuld.
 

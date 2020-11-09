@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4792cf982b9d5be3b30755483a5185a6d5a5a21
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cfb35d6db74f965911329dbd6215d1108149fa6c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207920"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018762"
 ---
 # <a name="purchase-order-overview"></a>Overzicht van inkooporders
 
@@ -33,7 +33,7 @@ Dit artikel bevat algemene informatie over inkooporders (IO's) en koppelingen na
 
 Een inkooporder (IO) is een document dat een overeenkomst met een leverancier voor het kopen van goederen of diensten vertegenwoordigt. Het document helpt ook bij het bijhouden van productontvangsten die plaatsvinden op basis van de order en, later, bij de administratieve afhandeling van facturen van leveranciers die de leverancier in rekening brengt op basis van de order.  
 
-De pagina **Inkooporders** bevat een overzicht van de beschikbare orders en biedt u de mogelijkheid deze orders te wijzigen. Wanneer u een inkooporder opent, kunt u de **koptekstweergave** selecteren. Deze bevat gegevens die slechts één keer voor elke inkooporder worden opgegeven, zoals de details van de leverancier. U kunt ook de **regelweergave** selecteren, waarin u orderregels kunt wijzigen. Normaal gesproken schakelt u tussen deze twee weergaven terwijl u inkooporders wijzigt. Toeslagen worden niet rechtstreeks vermeld op de pagina **Inkooporders**, maar kunnen worden geopend via de menu's op de orderkoptekst en -regels.  
+De pagina **Inkooporders** bevat een overzicht van de beschikbare orders en biedt u de mogelijkheid deze orders te wijzigen. Wanneer u een inkooporder opent, kunt u de **koptekstweergave** selecteren. Deze bevat gegevens die slechts één keer voor elke inkooporder worden opgegeven, zoals de details van de leverancier. U kunt ook de **regelweergave** selecteren, waarin u orderregels kunt wijzigen. Normaal gesproken schakelt u tussen deze twee weergaven terwijl u inkooporders wijzigt. Toeslagen worden niet rechtstreeks vermeld op de pagina **Inkooporders** , maar kunnen worden geopend via de menu's op de orderkoptekst en -regels.  
 
 Er zijn vele rapporten waarin u informatie over inkooporders, productontvangstbonnen en leveranciersfacturen kunt bekijken. Deze rapporten zijn te vinden in de modules **Inkoop en sourcing** en **Leveranciers**.  
 
@@ -73,7 +73,7 @@ Het veld **Documentstatus** helpt u om snel de voortgang van de order te control
 
 Het veld **Goedkeuringsstatus** wordt gebruikt wanneer een inkooporder een controleproces of workflow doorloopt. De volgende waarden zijn beschikbaar:
 
--   **Concept**, **Wordt gecontroleerd** en **Afgewezen** – Deze statussen worden alleen gebruikt wanneer een goedkeuringsworkflow wordt gebruikt voor de inkooporder.
+-   **Concept** , **Wordt gecontroleerd** en **Afgewezen** – Deze statussen worden alleen gebruikt wanneer een goedkeuringsworkflow wordt gebruikt voor de inkooporder.
 -   **Goedgekeurd** – Deze status is toegewezen aan orders die de goedkeuringsworkflow hebben voltooid. Orders die zijn gemaakt zonder gebruik van een goedkeuringsworkflow, krijgen onmiddellijk de status **Goedgekeurd**.
 -   **Bij externe herziening** – dDeze status wordt gebruikt in scenario's waarin een inkooponderzoek is verzonden naar de leverancier, zodat de leverancier de voorwaarden van de inkooporder kan bevestigen. Deze status wordt ook gebruikt in het proces dat wordt geïnitieerd door de actie **Bevestigingsaanvraag**. De leverancier wordt bij dit proces gevraagd om voorwaarden van de inkooporder te bevestigen door verbinding met uw systeem en registratie van de bevestiging of afwijzing van de order.
 -   **Bevestigd** – Deze status wordt toegekend nadat de order is bevestigd. Deze status is meestal de laatste goedkeuringsstatus die wordt toegewezen aan een order.

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 889337560f073708fb16b2dc173f9872593dd570
-ms.sourcegitcommit: be4fcf8f19c55e852a729b215a16e24e971ff5b7
+ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456809"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997473"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migratie Valuta-gegevenstype voor Twee keer wegschrijven
 
@@ -71,8 +70,8 @@ Wanneer de migratie is voltooid, kunt u in Common Data Service getallen met meer
 
 Als u deze wijziging wilt aanbrengen, moet u de volgende instellingen bijwerken in Power Apps:
 
-+ **Systeeminstellingen: valutanauwkeurigheid voor prijzen**: het veld **Valutanauwkeurigheid instellen die in het systeem voor prijzen wordt gebruikt** bepaalt de manier waarop de valuta wordt berekend in de organisatie wanneer **Prijsprecisie** wordt geselecteerd.
-+ **Bedrijfsbeheer: Valuta's**: in het veld **Valutaprecisie** kunt u een aangepast aantal decimalen voor een bepaalde valuta opgeven. Er is een terugval voor de instelling voor de gehele organisatie.
++ **Systeeminstellingen: valutanauwkeurigheid voor prijzen** : het veld **Valutanauwkeurigheid instellen die in het systeem voor prijzen wordt gebruikt** bepaalt de manier waarop de valuta wordt berekend in de organisatie wanneer **Prijsprecisie** wordt geselecteerd.
++ **Bedrijfsbeheer: Valuta's** : in het veld **Valutaprecisie** kunt u een aangepast aantal decimalen voor een bepaalde valuta opgeven. Er is een terugval voor de instelling voor de gehele organisatie.
 
 Er zijn enkele beperkingen:
 
@@ -81,13 +80,13 @@ Er zijn enkele beperkingen:
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Systeeminstellingen: Valutanauwkeurigheid voor prijzen
 
-Beheerders kunnen de valutanauwkeurigheid instellen nadat de migratie is voltooid. Ga naar **Instellingen \> Beheer** en selecteer **Systeeminstellingen**. Wijzig vervolgens op het tabblad **Algemeen** de waarde van het veld **Valutanauwkeurigheid instellen die in het systeem voor prijzen wordt gebruikt**, zoals in de volgende afbeelding wordt weergegeven.
+Beheerders kunnen de valutanauwkeurigheid instellen nadat de migratie is voltooid. Ga naar **Instellingen \> Beheer** en selecteer **Systeeminstellingen**. Wijzig vervolgens op het tabblad **Algemeen** de waarde van het veld **Valutanauwkeurigheid instellen die in het systeem voor prijzen wordt gebruikt** , zoals in de volgende afbeelding wordt weergegeven.
 
 ![Systeeminstellingen voor valuta](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Bedrijfsbeheer: Valuta's
 
-Als u wilt dat de valutanauwkeurigheid voor een bepaalde valuta afwijkt van de valutanauwkeurigheid die voor prijzen wordt gebruikt, kunt u deze wijzigen. Ga naar **Instellingen \> Bedrijfsbeheer**, selecteer **Valuta's** en selecteer de valuta die u wilt wijzigen. Vervolgens stelt u het veld **Valutanauwkeurigheid** in op het gewenste aantal decimalen, zoals wordt weergegeven in de volgende afbeelding.
+Als u wilt dat de valutanauwkeurigheid voor een bepaalde valuta afwijkt van de valutanauwkeurigheid die voor prijzen wordt gebruikt, kunt u deze wijzigen. Ga naar **Instellingen \> Bedrijfsbeheer** , selecteer **Valuta's** en selecteer de valuta die u wilt wijzigen. Vervolgens stelt u het veld **Valutanauwkeurigheid** in op het gewenste aantal decimalen, zoals wordt weergegeven in de volgende afbeelding.
 
 ![Valuta-instellingen voor een bepaalde landinstelling](media/specific-currency.png)
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976374"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006161"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Beleid voor totalisering van kosten en overheadberekening 
 
@@ -76,7 +76,7 @@ Een dimensiehiërarchie die voldoet aan de rapportagevereisten van de organisati
 
 **Dimensiehiërarchie**
 
-|              | Bereiken van dimensieleden |                     |
+|    &nbsp;    | Bereiken van dimensieleden | &nbsp;              |
 |--------------|-------------------------|---------------------|
 | **Knooppunten**        | **Van dimensielid**   | **Tot dimensielid** |
 | Organisatie |                         |                     |
@@ -97,7 +97,7 @@ Een dimensiehiërarchie die voldoet aan de beleidsvereiste kan als volgt worden 
 
 **Dimensiehiërarchie**
 
-|                         | Bereiken van dimensieleden |                     |
+|      &nbsp;             | Bereiken van dimensieleden |      &nbsp;         |
 |-------------------------|-------------------------|---------------------|
 | Knooppunten                   | Van dimensielid   | Tot dimensielid |
 | Winst- en verliesrekening |                         |                     |
@@ -105,7 +105,7 @@ Een dimensiehiërarchie die voldoet aan de beleidsvereiste kan als volgt worden 
 
 Nadat de grootboekposten zijn verwerkt, ziet het kosteninvoersaldo per kostenobject er als volgt uit.
 
-|                      | **Kostenobject** |           |           |           | **Totaal**     |
+|      &nbsp;          | **Kostenobject** | &nbsp;    |  &nbsp;   |  &nbsp;   | **Totaal**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Kostenelement**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
 | **1001 Elektriciteit** | 100,00          | 200.000    | 6.000,00  | 2.000,00  | **8.300,00**  |
@@ -159,7 +159,7 @@ Als u wilt weten hoe kosten stromen tussen de kostenplaatsen in de organisatie, 
 
 Kostenelementdimensieleden kunnen als volgt worden ingesteld.
 
-| Kostenelementen | Type          |               |
+| Kostenelementen | Type          |     &nbsp;    |
 |---------------|---------------|---------------|
 | 1001          | Elektriciteit   | Primair       |
 | 1002          | Salarissen      | Primair       |
@@ -179,7 +179,7 @@ De dimensiehiërarchie **Winst- en verliesrekening** moet worden bijgewerkt met 
 
 **Dimensiehiërarchie**
 
-|                         | Bereiken van dimensieleden |                     |
+|      &nbsp;             | Bereiken van dimensieleden |  &nbsp;             |
 |-------------------------|-------------------------|---------------------|
 | Knooppunten                   | Van dimensielid   | Tot dimensielid |
 | Winst- en verliesrekening |                         |                     |
@@ -258,7 +258,7 @@ Met de dimensiehiërarchieën kunt u gegevens weergeven op verschillende samenvo
 
 Hier volgt een voorbeeld van een Power Pivot-rapportage in Excel.
 
-| **Winst- en verliesrekening** | **Kostenobject** |                |               |               |  **Totaal**    |
+| **Winst- en verliesrekening** | **Kostenobject** |      &nbsp;    |   &nbsp;      |     &nbsp;    |  **Totaal**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Primaire kosten**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -276,7 +276,7 @@ Met behulp van **Beleid voor totalisering van kosten** en **Kostenelementen van 
 
 Als hetzelfde voorbeeld zou zijn uitgevoerd zonder het **Beleid voor totalisering van kosten** te maken, zou het rapportageresultaat zijn zoals hieronder wordt weergegeven. De kostenstromen zijn correct, maar de traceerbaarheid en het inzicht in hoe kosten stromen tussen de kostenplaatsen gaan verloren.
 
-| **Winst- en verliesrekening** | **Kostenobject** |           |               |               |          **Totaal**  |
+| **Winst- en verliesrekening** | **Kostenobject** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Totaal**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002** | **CC003**     | **CC004**     |               |
 | **Primaire kosten**            | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |

@@ -8,7 +8,7 @@ ms.topic: configure-number-sequence-extensions
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSNumberSequenceExtension
+ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 2512fc9b530530a9f82995a9eefcd59bbd518d96
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: cee5047a8c80aa850d9dd1bb872188a822ba8328
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975387"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016120"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Nummerreeksen voor magazijnstromen configureren
 
@@ -64,7 +64,7 @@ Voer de volgende stappen uit om nummerreeksuitbreidingen in uw systeem in te ste
     Zie het volgende gedeelte voor meer informatie over het aanpassen van deze standaard nummerreeksen en/of het toevoegen van nieuwe reeksen. U kunt deze reeksen ook verwijderen als u ze niet nodig hebt.
 
 1. Ga terug naar **Magazijnbeheer \> Instellingen \> Parameters voor magazijnbeheer**.
-1. Selecteer op het tabblad **Nummerreeksen** de relevante nummerreeksuitbreiding die u wilt gebruiken om nummers te genereren voor uw nummerplaat-id's, wavelabel-id's, container-id's (selecteer in dit geval de juiste **SSCC-18** nummerreeks) en/of vrachtbrief-id's (selecteer in dit geval de **vrachtbrief**reeks). Standaard worden nummerreeksuitbreidingen alleen voor deze vier typen id's ondersteund.
+1. Selecteer op het tabblad **Nummerreeksen** de relevante nummerreeksuitbreiding die u wilt gebruiken om nummers te genereren voor uw nummerplaat-id's, wavelabel-id's, container-id's (selecteer in dit geval de juiste **SSCC-18** nummerreeks) en/of vrachtbrief-id's (selecteer in dit geval de **vrachtbrief** reeks). Standaard worden nummerreeksuitbreidingen alleen voor deze vier typen id's ondersteund.
 
 De volgende keer dat een nieuw nummer wordt gegenereerd voor een van deze nummerreeksen, wordt de nieuwe logica gebruikt.
 
@@ -85,10 +85,10 @@ Voer de volgende stappen uit om nummerreeksen te maken en te bewerken.
     | Segmenttype | Omschrijving |
     |---|---|
     | Constant | Dit segmenttype voegt dezelfde constante tekst toe voor elk gegenereerd nummer in de reeks. Voer in het veld **Waarde** de vereiste tekst in. Het veld **Lengte** wordt automatisch bijgewerkt naar de lengte van de tekst die u in het veld **Waarde** hebt ingevoerd. |
-    | Nummerreeks | Voer in het veld **Waarde** een hekje (*\#*) in voor elk teken dat in de gegenereerde reeks moet worden weergegeven. De nummerreeks zelf kan langere getallen genereren, maar alleen de meest rechtse tekens worden weergegeven. Het veld **Lengte** wordt automatisch bijgewerkt naar het aantal hekjes dat u in het veld **Waarde** hebt ingevoerd.<p>Als u wilt voldoen aan GS1-vereisten voor SSCC-18-nummers, moet u ervoor zorgen dat de lengte van dit segment 16 min de lengte van het GS1-voorvoegsel is.</p> |
-    | GS1-voorvoegsel | Dit segmenttype voegt de waarde toe die is ingesteld in het veld **GS1-voorvoegsel bedrijf** op de pagina **Parameters voor magazijnbeheer**. In het veld **Waarde** wordt de waarde weergegeven die is ingesteld op de pagina **Parameters voor magazijnbeheer**, en in het veld **Lengte** wordt het aantal tekens in de waarde weergegeven. Zowel het veld **Waarde** als het veld **Lengte** zijn alleen-lezen. |
+    | Nummerreeks | Voer in het veld **Waarde** een hekje ( *\#* ) in voor elk teken dat in de gegenereerde reeks moet worden weergegeven. De nummerreeks zelf kan langere getallen genereren, maar alleen de meest rechtse tekens worden weergegeven. Het veld **Lengte** wordt automatisch bijgewerkt naar het aantal hekjes dat u in het veld **Waarde** hebt ingevoerd.<p>Als u wilt voldoen aan GS1-vereisten voor SSCC-18-nummers, moet u ervoor zorgen dat de lengte van dit segment 16 min de lengte van het GS1-voorvoegsel is.</p> |
+    | GS1-voorvoegsel | Dit segmenttype voegt de waarde toe die is ingesteld in het veld **GS1-voorvoegsel bedrijf** op de pagina **Parameters voor magazijnbeheer**. In het veld **Waarde** wordt de waarde weergegeven die is ingesteld op de pagina **Parameters voor magazijnbeheer** , en in het veld **Lengte** wordt het aantal tekens in de waarde weergegeven. Zowel het veld **Waarde** als het veld **Lengte** zijn alleen-lezen. |
     | Toepassings-id | Voer in het veld **Waarde** een toepassings-id in die is opgegeven met het relevante GS1-beleid voor dit type nummerreeks. Voer bijvoorbeeld *00* in voor SSCC of *420* voor vrachtbrieven (BOL). Het veld **Lengte** wordt automatisch bijgewerkt naar de lengte van de id die u in het veld **Waarde** hebt ingevoerd. |
-    | Verpakkingstype | Voor artikelen die duidelijk kunnen worden geïdentificeerd, wordt met dit segmenttype een veldwaarde uit de relevante eenheidsvolgordegroep (van de pagina **Eenheidvolgordegroepen**) toegevoegd. (Dit komt overeen met de bestaande logica voor de nummerplaat-id's.) Voor nummerplaten met meerdere SKU's (Stock Keeping Units) wordt voor dit segmenttype standaard *0* (nul) toegevoegd. Voor dit segmenttype wordt het veld **Waarde** altijd ingesteld op *P* en wordt het veld **Lengte** altijd ingesteld op *1*.|
-    | Controlecijfer | Dit segmenttype voegt een controlecijfer toe. Dit is een modulo 10-berekening. (Dit komt overeen met de bestaande logica voor nummerplaat-id's.) Voor dit segmenttype wordt het veld **Waarde** altijd ingesteld op een caret (*^*) en wordt het veld **Lengte** altijd ingesteld op *1*. |
+    | Verpakkingstype | Voor artikelen die duidelijk kunnen worden geïdentificeerd, wordt met dit segmenttype een veldwaarde uit de relevante eenheidsvolgordegroep (van de pagina **Eenheidvolgordegroepen** ) toegevoegd. (Dit komt overeen met de bestaande logica voor de nummerplaat-id's.) Voor nummerplaten met meerdere SKU's (Stock Keeping Units) wordt voor dit segmenttype standaard *0* (nul) toegevoegd. Voor dit segmenttype wordt het veld **Waarde** altijd ingesteld op *P* en wordt het veld **Lengte** altijd ingesteld op *1*.|
+    | Controlecijfer | Dit segmenttype voegt een controlecijfer toe. Dit is een modulo 10-berekening. (Dit komt overeen met de bestaande logica voor nummerplaat-id's.) Voor dit segmenttype wordt het veld **Waarde** altijd ingesteld op een caret ( *^* ) en wordt het veld **Lengte** altijd ingesteld op *1*. |
 
 1. Als u een voorbeeld wilt weergeven van de uiteindelijke getalnotatie, bekijkt u het veld **Indeling** onderaan het sneltabblad **Segmenten**.

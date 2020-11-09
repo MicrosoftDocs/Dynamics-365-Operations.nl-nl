@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
+ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
-ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
+ms.openlocfilehash: 00200bc79f83e9d072ff8220c89a6aaa70cb07a5
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830744"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018716"
 ---
 # <a name="purchasing-policies-overview"></a>Overzicht van Aanschafbeleid
 
@@ -127,7 +127,7 @@ De regels voor het maken van inkooporders en consolidatie van de vraag bepaalt d
 
 -   Op het tabblad **Inkooporder splitsen** kunt u criteria definiëren voor het splitsen van regels in een opdracht tot inkoop in afzonderlijke inkooporders.
 -   Op het tabblad **Overboeking prijs/korting** kunt u definiëren wanneer u de prijsafspraak opnieuw wilt berekenen wanneer een inkooporder is gemaakt:
-    -   **Alleen bij geen handelsovereenkomst**- Prijzen en kortingen worden alleen overdragen van de opdracht tot inkoop als er geen geldende handelsovereenkomst of basisprijs is. Als er een handelsovereenkomst of basisprijs is voor het artikel of de leveranciers, worden de prijzen en kortingen herberekend op basis van de handelsovereenkomst of de basisprijs en worden deze toegepast op de inkooporder. Tenzij anders opgegeven, is dit het standaardgedrag.
+    -   **Alleen bij geen handelsovereenkomst** - Prijzen en kortingen worden alleen overdragen van de opdracht tot inkoop als er geen geldende handelsovereenkomst of basisprijs is. Als er een handelsovereenkomst of basisprijs is voor het artikel of de leveranciers, worden de prijzen en kortingen herberekend op basis van de handelsovereenkomst of de basisprijs en worden deze toegepast op de inkooporder. Tenzij anders opgegeven, is dit het standaardgedrag.
     -   **Altijd** – Prijzen en kortingen worden altijd overgenomen van de opdracht tot inkoop.
 
     U kunt ook toestaan dat de aanvrager de overdrachtmethode voor prijs en korting wijzigt voor afzonderlijke regels van opdrachten tot inkoop, ongeacht de overdrachtregel die is bepaald voor prijs/korting. Selecteer de optie **Handmatig overschrijven toestaan per opdracht tot inkoopregel** indien u deze functie wilt inschakelen.
@@ -145,7 +145,7 @@ De regels voor het maken van inkooporders en consolidatie van de vraag bepaalt d
     Als u automatisch inkooporders van goedgekeurde opdrachten tot inkoop wilt genereren wanneer de batchtaak voor het genereren van inkooporders wordt uitgevoerd, selecteert u de optie **Het automatisch maken van inkooporders als batchtaak uitvoeren**. Deze optie is alleen van toepassing op opdrachten tot inkoop die geen handmatige verwerking vereisen. Als u een batchtaak voor het automatisch genereren van inkooporders uitvoert, kunt u deze activiteit plannen op een tijdstip waarop resources minder zwaar worden belast. Als de optie **Vooruitbetaling vereist** is geselecteerd op de regels van de opdracht tot inkoop, selecteert u de optie **Wanneer de aanvraag is ingesteld op vooruitbetaling** om goedgekeurde opdrachten tot inkoop vast te houden voor handmatige verwerking. Opdrachten tot inkoop die worden vastgehouden voor handmatige verwerking, kunnen worden gefilterd om alleen die regels van de opdracht tot inkoop weer te geven waarvoor vooruitbetaling is vereist.
 -   Op het tabblad **Vraagconsolidatie** kunt u de parameters definiëren die bepalen of opdrachten tot inkoop die handmatig zijn verwerkt, in aanmerking kunnen worden genomen voor consolidatie van opdrachten tot inkoop. De parameters kunnen van toepassing zijn op interne-catalogusartikelen, externe-catalogusartikelen of niet-catalogusartikelen. Een van de volgende opties selecteren:
     -   **Vraagconsolidatie niet toestaan** - Geen goedgekeurde regels in opdrachten tot inkoop komen in aanmerking voor consolidatie van de vraag. Deze optie wordt standaard geselecteerd en is alleen van toepassing op regels van een opdracht tot inkoop waarvoor handmatige verwerking is vereist bij het maken van inkooporders.
-    -   **Vraagconsolidatie altijd toestaan** - Alle goedgekeurde regels in opdrachten tot inkoop komen in aanmerking voor consolidatie van de vraag. **Opmerking:** Als u de optie **Vraagconsolidatie altijd toestaan** op het tabblad **Vraagconsolidatie** selecteert, maar ook de optie **Automatisch inkooporders maken** op het tabblad **Handmatig inkooporders maken**, worden alle opdrachten tot inkoop vastgehouden voor handmatige verwerking.
+    -   **Vraagconsolidatie altijd toestaan** - Alle goedgekeurde regels in opdrachten tot inkoop komen in aanmerking voor consolidatie van de vraag. **Opmerking:** Als u de optie **Vraagconsolidatie altijd toestaan** op het tabblad **Vraagconsolidatie** selecteert, maar ook de optie **Automatisch inkooporders maken** op het tabblad **Handmatig inkooporders maken** , worden alle opdrachten tot inkoop vastgehouden voor handmatige verwerking.
     -   **Vraagconsolidatie toestaan in deze omstandigheden** - Definieer de criteria die bepalen of goedgekeurde regels op opdrachten tot inkoop in aanmerking komen voor consolidatie van de vraag. U kunt de criteria per aanschaffingscategorie en leverancier instellen voor elke type regel van een opdracht tot inkoop. Als u **Vraagconsolidatie toestaan in deze omstandigheden** selecteert, kunt u de criteria per aanschaffingscategorie en leverancier instellen voor elke type regel van een opdracht tot inkoop. Wanneer u een aanschaffingscategorie selecteert, worden alle subcategorieën voor deze categorie eveneens geselecteerd. Als u de optie **Alle** selecteert voor een bepaald regeltype, komen alle regels van de opdracht tot inkoop met dit regeltype in aanmerking voor vraagconsolidatie.
 
 

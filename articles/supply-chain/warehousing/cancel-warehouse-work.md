@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSTroubIeshootingSeIfService
+ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88c94306eda4eb462f6b3fae73e0cdb05ed647a1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984029"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016235"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Magazijnwerk voor afhandeling van uitzonderingen annuleren
 
@@ -40,7 +40,7 @@ In tegenstelling tot de normale annuleringsfunctionaliteit die toegankelijk is v
 > [!NOTE]
 > Voor werk dat om operationele redenen moet worden geannuleerd, moeten magazijngebruikers de normale annuleringsfunctionaliteit op de werkpagina blijven gebruiken.
 
-Alleen werk van het type **Verkoop**, **Overboekingsuitgifte**, **Orderverzameling van grondstoffen** of **Aanvulling** kan worden geannuleerd met de functie Werk annuleren. De annuleringslogica wordt niet uitgevoerd voor orderverzameling van bevroren grondstoffen of werk dat kan worden geannuleerd met behulp van de normale functie Annuleren (zie de voorgaande opmerking).
+Alleen werk van het type **Verkoop** , **Overboekingsuitgifte** , **Orderverzameling van grondstoffen** of **Aanvulling** kan worden geannuleerd met de functie Werk annuleren. De annuleringslogica wordt niet uitgevoerd voor orderverzameling van bevroren grondstoffen of werk dat kan worden geannuleerd met behulp van de normale functie Annuleren (zie de voorgaande opmerking).
 
 Om het werk te deblokkeren, worden eventuele resterende werkregels door het systeem geannuleerd en worden de magazijngegevens hersteld die aan de werk-id zijn gekoppeld die de gebruiker heeft opgegeven. Normale magazijnverwerkingsactiviteiten voor de desbetreffende artikelhoeveelheid kunnen vervolgens worden hervat.
 

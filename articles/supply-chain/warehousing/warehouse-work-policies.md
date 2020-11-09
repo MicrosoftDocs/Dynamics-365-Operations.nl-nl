@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652000"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017662"
 ---
 # <a name="work-policies"></a>Werkbeleidsregels
 
@@ -62,8 +63,8 @@ Als u een werkbeleid zo wilt instellen dat het wordt toegepast op verschillende 
 
 Voor elke regel in het raster stelt u het veld **Werkaanmaakmethode** in op een van de volgende waarden:
 
-- **Nooit**: het werkbeleid voorkomt dat magazijnwerk wordt gemaakt voor het geselecteerde type werkorder en gerelateerde werkprocessen.
-- **Cross-docken**: het werkbeleid maakt cross-docken mogelijk met behulp van het beleid dat u selecteert in het veld **Naam van beleid voor cross-docken**.
+- **Nooit** : het werkbeleid voorkomt dat magazijnwerk wordt gemaakt voor het geselecteerde type werkorder en gerelateerde werkprocessen.
+- **Cross-docken** : het werkbeleid maakt cross-docken mogelijk met behulp van het beleid dat u selecteert in het veld **Naam van beleid voor cross-docken**.
 
 ### <a name="the-inventory-locations-fasttab"></a>Het sneltabblad Voorraadlocaties
 
@@ -77,8 +78,8 @@ U kunt een magazijnlocatie gebruiken die aan een locatieprofiel is toegewezen al
 
 Stel op het tabblad **Producten** het veld **Productselectie** in om te bepalen voor welke producten het beleid moet gelden:
 
-- **Alles**: het beleid moet van toepassing zijn op alle producten.
-- **Geselecteerd**: het beleid moet alleen van toepassing zijn op producten die worden vermeld in het raster. Gebruik de werkbalk op het sneltabblad **Producten** om producten aan het raster toe te voegen of ze uit het raster te verwijderen.
+- **Alles** : het beleid moet van toepassing zijn op alle producten.
+- **Geselecteerd** : het beleid moet alleen van toepassing zijn op producten die worden vermeld in het raster. Gebruik de werkbalk op het sneltabblad **Producten** om producten aan het raster toe te voegen of ze uit het raster te verwijderen.
 
 ## <a name="default-and-custom-to-locations"></a>Standaard en aangepaste "naar"-locaties
 
@@ -112,11 +113,11 @@ Voer de volgende stappen uit om een menuopdracht voor een mobiel apparaat in te 
 
 ## <a name="example-scenario-warehouse-receiving"></a>Voorbeeldscenario: magazijnontvangsten
 
-Alle producten die worden ontvangen door het proces *Inkooporderartikelen ontvangen (en wegzetten)* moeten worden geregistreerd op locatie *FL-001* en ze moeten beschikbaar zijn in magazijn *24*. Er moet echter geen werk worden gemaakt. Producten die worden ontvangen door een ander proces (dat wil zeggen via andere menu-items van het mobiele apparaat) moeten worden geregistreerd op de standaardmagazijnontvangstlocatie (*RECV*) en werk moet op de gebruikelijke manier worden gemaakt. (In dit scenario worden de standaardinstellingen voor het ontvangen niet weergegeven.)
+Alle producten die worden ontvangen door het proces *Inkooporderartikelen ontvangen (en wegzetten)* moeten worden geregistreerd op locatie *FL-001* en ze moeten beschikbaar zijn in magazijn *24*. Er moet echter geen werk worden gemaakt. Producten die worden ontvangen door een ander proces (dat wil zeggen via andere menu-items van het mobiele apparaat) moeten worden geregistreerd op de standaardmagazijnontvangstlocatie ( *RECV* ) en werk moet op de gebruikelijke manier worden gemaakt. (In dit scenario worden de standaardinstellingen voor het ontvangen niet weergegeven.)
 
 Voor dit scenario zijn de volgende elementen vereist:
 
-- Een werkbeleid voor het proces *Inkooporderartikelen ontvangen (en wegzetten)* op locatie *FL-001*voor alle producten
+- Een werkbeleid voor het proces *Inkooporderartikelen ontvangen (en wegzetten)* op locatie *FL-001* voor alle producten
 - Een menuopdracht voor een mobiel apparaat die standaardgegevens bevat en waarmee het veld **Naar locatie** wordt ingesteld op *FL-001*
 
 ### <a name="prerequisites"></a>Vereisten
@@ -200,7 +201,7 @@ De inkooporder wordt nu ontvangen, maar er wordt geen werk aan gekoppeld. De voo
 
 ## <a name="example-scenario-manufacturing"></a>Voorbeeldscenario: productie
 
-In het volgende voorbeeld zijn er twee productieorders: *PRD-001* en *PRD-002*. Productieorder *PRD-001* heeft een bewerking met de naam *Assembly*, waarbij product *SC1* aan locatie *001* wordt gereedgemeld. Productieorder *PRD-002* heeft een bewerking met de naam *Verven* en verbruikt product *SC1* van locatie *001*. Productieorder *PRD-002* verbruikt ook grondstof *RM1* van locatie *001*. Grondstof *RM1* is opgeslagen in magazijnlocatie *BULK-001* en wordt verzameld op locatie *001* door magazijnwerk voor het verzamelen van grondstoffen. Het verzamelwerk wordt gegenereerd wanneer productie *PRD-002* wordt vrijgegeven.
+In het volgende voorbeeld zijn er twee productieorders: *PRD-001* en *PRD-002*. Productieorder *PRD-001* heeft een bewerking met de naam *Assembly* , waarbij product *SC1* aan locatie *001* wordt gereedgemeld. Productieorder *PRD-002* heeft een bewerking met de naam *Verven* en verbruikt product *SC1* van locatie *001*. Productieorder *PRD-002* verbruikt ook grondstof *RM1* van locatie *001*. Grondstof *RM1* is opgeslagen in magazijnlocatie *BULK-001* en wordt verzameld op locatie *001* door magazijnwerk voor het verzamelen van grondstoffen. Het verzamelwerk wordt gegenereerd wanneer productie *PRD-002* wordt vrijgegeven.
 
 [![Werkbeleid magazijn](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
@@ -212,7 +213,7 @@ Wanneer u de configuratie van een werkbeleid voor magazijnen voor dit scenario p
 Hier is een voorbeeld van een werkbeleid dat u kunt instellen, op basis van deze overwegingen:
 
 - **Werkbeleidsnaam:** *Geen wegzetwerk*
-- **Werkordertypen**: *Afgewerkte goederen wegzetten* en *Coproducten en bijproducten wegzetten*
+- **Werkordertypen** : *Afgewerkte goederen wegzetten* en *Coproducten en bijproducten wegzetten*
 - **Voorraadlocaties:** magazijn *51* en locatie *001*
 - **Producten:** *SC1*
 
@@ -234,7 +235,7 @@ In magazijnprocessen wordt niet altijd magazijnwerk opgenomen. Door een werkbele
 1. Selecteer **Opslaan** in het actievenster.
 1. Selecteer op het sneltabblad **Werkordertypen** **Toevoegen** om een rij aan het raster toe te voegen en stel vervolgens de volgende waarden voor de nieuwe rij in:
 
-    - **Werkordertype**: *afgewerkte producten wegzetten*
+    - **Werkordertype** : *afgewerkte producten wegzetten*
     - **Werkproces:** *alle gerelateerde werkprocessen*
     - **Werkaanmaakmethode:** *Nooit*
     - **Naam van beleid voor cross-docken:** laat dit veld leeg.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
-ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410408"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107179"
 ---
 # <a name="set-up-a-call-center-channel"></a>Een callcenterkanaal instellen
 
@@ -46,7 +46,7 @@ Voer de volgende stappen uit om een nieuw callcenterafzetkanaal te maken en te c
 1. Selecteer **Nieuw** in het actievenster.
 1. Typ in het veld **Naam** een naam voor het nieuwe kanaal.
 1. Selecteer de juiste **Rechtspersoon** in de vervolgkeuzelijst.
-1. Selecteer de juiste **Magazijn**locatie in de vervolgkeuzelijst. Deze locatie wordt gebruikt als standaardwaarde voor verkooporders die zijn gemaakt voor dit callcenterkanaal, tenzij er andere standaardwaarden zijn gedefinieerd op het niveau van de klant of het artikel.
+1. Selecteer de juiste **Magazijn** locatie in de vervolgkeuzelijst. Deze locatie wordt gebruikt als standaardwaarde voor verkooporders die zijn gemaakt voor dit callcenterkanaal, tenzij er andere standaardwaarden zijn gedefinieerd op het niveau van de klant of het artikel.
 1. Geef in het veld **Standaardklant** een geldige standaardklant op. Deze gegevens worden gebruikt om te helpen bij het automatisch vullen van standaardwaarden wanneer er nieuwe klantrecords worden gemaakt. Bij het maken van callcenterorders is het niet raadzaam orders voor de standaardklant te maken.
 1. Geef in het veld **Profiel voor e-mailmelding** een geldig profiel voor e-mailmeldingen op. Wanneer orders in het callcenter worden gemaakt en verwerkt, wordt het e-mailprofiel gebruikt om automatische e-mailmeldingen naar klanten te activeren met informatie over hun orderstatus.
 1. Geef een infocode op voor **Prijsoverschrijving**. Mogelijk moet u hiervoor eerst een informatiecode maken. Deze informatiecode bevat de set met redencodes die de gebruiker moet kiezen bij het gebruik van de functie voor prijsoverschrijving op een callcenterorder.

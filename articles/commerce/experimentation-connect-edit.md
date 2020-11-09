@@ -3,7 +3,7 @@ title: Een experiment verbinden en variaties bewerken
 description: In dit onderwerp wordt beschreven hoe u een experiment in een service van derden verbindt met Dynamics 365 Commerce en hoe u variaties voor het experiment bewerkt.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,16 +18,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ea1da0a7dc90b7197f3ee532bccc55d2ddbe4ddd
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930174"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096962"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Een experiment verbinden en variaties bewerken
 
-In dit onderwerp wordt beschreven hoe u uw experiment in Commerce verbindt en hoe u wijzigingen in uw variaties kunt aanpassen zodat u ze op één lijn kunt brengen met uw hypothese. In het volgende diagram ziet u alle stappen voor het instellen en uitvoeren van een experiment op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke onderwerpen behandeld.
+In dit onderwerp wordt beschreven hoe u uw experiment in Commerce verbindt en hoe u wijzigingen in uw variaties kunt aanpassen zodat u ze kunt afstemmen met uw hypothese. 
+
+In het volgende diagram ziet u alle stappen voor het instellen en uitvoeren van een experiment op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke onderwerpen behandeld.
 
 [ ![Traject van gebruiker voor experimenten - verbinden en bewerken](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
@@ -40,7 +42,7 @@ Voordat u uw experiment in Commerce verbindt, moet u enkele beslissingen nemen d
 ### <a name="determine-the-scope-of-your-experiment"></a>Het bereik van uw experiment bepalen
 Wanneer u een experiment verbindt, wordt u gevraagd het bereik van het experiment te definiëren. Experimenten worden gedefinieerd als een **gedeeltelijk** bereik of een **volledig** bereik.
 - Kies **gedeeltelijk** als u een experiment wilt uitvoeren op een specifiek gedeelte van een pagina. Als u deze optie selecteert, moet u bepalen welke modules in het experiment worden opgenomen. Wijzigingen die worden aangebracht in delen van de standaardpagina of het fragment die niet zijn gerelateerd aan het experiment, worden automatisch gesynchroniseerd in verschillende variaties.
-- Kies **volledig** als u een experiment wilt uitvoeren op een volledige pagina of in een volledig fragment. Er worden afzonderlijke kopieën van de standaardpagina of het standaardfragment gemaakt. U hoeft niet te selecteren welke modules in het experiment worden opgenomen, omdat het gehele bewerkingsoppervlak kan worden gewijzigd. U kunt modules naar behoefte toevoegen, verwijderen en opnieuw rangschikken. Als er echter wijzigingen zijn aangebracht in de standaardpagina of het standaardfragment waaraan het experiment is gekoppeld, moeten deze wijzigingen handmatig worden gesynchroniseerd in alle variaties.
+- Kies **volledig** als u een experiment wilt uitvoeren op een volledige pagina of in een volledig fragment. Er worden afzonderlijke kopieën van de standaardpagina of het standaardfragment gemaakt. U hoeft niet te selecteren welke modules in het experiment worden opgenomen, omdat het gehele bewerkingsoppervlak kan worden gewijzigd. U kunt modules naar behoefte toevoegen, verwijderen of opnieuw rangschikken. Als er echter wijzigingen zijn aangebracht in de standaardpagina of het standaardfragment waaraan het experiment is gekoppeld, moeten deze wijzigingen handmatig worden gesynchroniseerd in alle variaties.
 
 <!-- not to editors, we're adding an image here to illustrate the difference. it will help.) -->
 
@@ -56,13 +58,15 @@ Zie [Werken met publicatiegroepen](publish-groups.md) voor meer informatie over 
 ## <a name="connect-your-experiment"></a>Uw experiment verbinden
 Als u uw experiment wilt verbinden, start u de wizard **Experiment verbinden**. De wizard leidt u door de stappen die nodig zijn om uw experiment te verbinden. Wanneer u de wizard voltooit, wordt uw experiment verbonden en worden variaties gemaakt en kunnen ze worden bewerkt.
 
-1. Als u de wizard wilt starten, selecteert u het tabblad **Experimenten** in Site Builder en selecteert u vervolgens **Verbinden**. U kunt de wizard ook openen via een pagina- of fragmenteditor. Selecteer **Experiment verbinden** op de opdrachtbalk in de bewerkingsmodus.
+Voer de volgende stappen uit om aan de slag te gaan met uw experiment in Commerce Site Builder.
 
-> [!NOTE]
-> Een pagina kan slechts met één experiment tegelijk worden verbonden. Als u een pagina wilt verbinden met een ander experiment, verwijdert u eerst het experiment waarmee de pagina momenteel is verbonden.
+1. Selecteer **Experimenten** in het linkernavigatievenster en om de wizard **Experiment verbinden** te starten en selecteer vervolgens **Verbinden**. U kunt de wizard ook openen vanaf een pagina of fragmenteditor door deze te bewerken en **Experiment verbinden** te selecteren op de opdrachtbalk.
+
+    > [!NOTE]
+    > Een pagina kan slechts met één experiment tegelijk worden verbonden. Als u een pagina wilt verbinden met een ander experiment, verwijdert u eerst het experiment waarmee de pagina momenteel is verbonden.
 
 1. Kies de pagina of het fragment waarop u het experiment wilt uitvoeren.
-1. Stel het experimentbereik in op **gedeeltelijk** of **volledig**, afhankelijk van de keuze die u hebt gemaakt in de sectie [Het bereik van uw experiment bepalen](#determine-the-scope-of-your-experiment).
+1. Stel het experimentbereik in op **gedeeltelijk** of **volledig** , afhankelijk van de keuze die u hebt gemaakt in de sectie [Het bereik van uw experiment bepalen](#determine-the-scope-of-your-experiment).
     > [!NOTE]
     > De functievlag **Experimenten op pagina's of fragmenten** moet zijn ingeschakeld als u een experiment op een volledige pagina of in een volledig fragment wilt uitvoeren. Raadpleeg het onderwerp [Experimenten in Dynamics 365 Commerce](experimentation-overview.md) voor meer informatie.
     

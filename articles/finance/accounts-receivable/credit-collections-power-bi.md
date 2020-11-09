@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598053"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040048"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI-inhoud - Crediterings- en aanmaningsbeheer
 
@@ -51,6 +51,9 @@ De volgende instellingen moeten worden geconfigureerd om gegevens te kunnen weer
 3. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in.
 4. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, en valuta voor boekhouding en systeemvaluta. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
 5. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **CustCollectionsBIMeasurementsV2** te vernieuwen.
+
+>[!NOTE] 
+> Ouderdomsperiodedefinities moeten worden ingesteld in **Parameters van module Klanten > Incasso's > Standaardwaarden incasso** om ouderdomsgegevens in de inhoud van Power BI in te schakelen.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 

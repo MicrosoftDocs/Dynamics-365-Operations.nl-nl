@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate
+ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3bc82c3af2b99303a650f672f2b2ccd48c9889a9
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fb47498cfb3756b0e180fe9e5500255c7312a92
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677429"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016327"
 ---
 # <a name="advanced-load-building-during-wave"></a>Geavanceerde ladingopbouw tijdens een wave
 
@@ -59,7 +59,7 @@ U kunt deze demo ook gebruiken als instructie voor het gebruik van deze functie 
 
 ### <a name="make-sure-that-the-scenario-setup-includes-enough-available-inventory"></a>Controleren of in de scenarioconfiguratie voldoende voorhanden voorraad is opgenomen
 
-Als u werkt met de **USMF-** voorbeeldgegevens, moet u eerst controleren of uw systeem zo is geconfigureerd dat op elke relevante locatie voldoende voorraad aanwezig is. Voor deze demo wordt er vanuit gegaan dat de volgende voorraad beschikbaar is in magazijn *62*:
+Als u werkt met de **USMF-** voorbeeldgegevens, moet u eerst controleren of uw systeem zo is geconfigureerd dat op elke relevante locatie voldoende voorraad aanwezig is. Voor deze demo wordt er vanuit gegaan dat de volgende voorraad beschikbaar is in magazijn *62* :
 
 - **Artikel A0001:** 10 stuks
 - **Artikel A0002:** 10 stuks
@@ -116,7 +116,7 @@ Artikel **M9200** moet aan het magazijn worden toegevoegd. Voer de procedures in
 
 ### <a name="regenerate-wave-process-methods"></a>Waveverwerkingsmethoden opnieuw genereren
 
-Mogelijk moet u uw waveverwerkingsmethoden opnieuw genereren om de methode voor ladingopbouw (**buildLoads**) beschikbaar te maken.
+Mogelijk moet u uw waveverwerkingsmethoden opnieuw genereren om de methode voor ladingopbouw ( **buildLoads** ) beschikbaar te maken.
 
 1. Ga naar **Magazijnbeheer** \> **Instellen** \> **Waves** \> **Methoden voor verwerking van waves**.
 2. Controleer of **buildLoads** in de lijst staat. Als deze niet aanwezig is, selecteert u **Methoden opnieuw genereren** in het actievenster om deze toe te voegen.
@@ -128,12 +128,12 @@ Als u wilt profiteren van de voordelen van geavanceerde wave-ladingopbouw, moet 
 1. Ga naar **Magazijnbeheer** \> **Instellen** \> **Waves** \> **Wavesjablonen**.
 1. Selecteer een wavesjabloon.
 
-    Als u werkt met de **USMF**-voorbeeldgegevens, selecteert u de sjabloon **62 Shipping Default**.
+    Als u werkt met de **USMF** -voorbeeldgegevens, selecteert u de sjabloon **62 Shipping Default**.
 
 1. Selecteer in het actievenster de optie **Bewerken** om de pagina in de bewerkingsmodus te openen.
 1. Selecteer op het sneltabblad **Methoden** in het raster **Resterende methoden** de methode **buildLoads**.
 1. Selecteer de knop pijl-rechts om de methode **buildLoads** te verplaatsen naar het raster **Geselecteerde methoden**.
-1. Als u een waarde van **Wavestapcode** wilt toewijzen aan de methode **buildLoads**, moet u eerst een code maken op de pagina **Wavestapcodes**. U kunt elke gewenste waarde gebruiken, maar u moet deze wel even noteren omdat u deze later nog nodig hebt. Volg deze stappen om de code **WSC2112** te maken:
+1. Als u een waarde van **Wavestapcode** wilt toewijzen aan de methode **buildLoads** , moet u eerst een code maken op de pagina **Wavestapcodes**. U kunt elke gewenste waarde gebruiken, maar u moet deze wel even noteren omdat u deze later nog nodig hebt. Volg deze stappen om de code **WSC2112** te maken:
 
     1. Klik in de rij voor de methode **buildLoads** met de rechter muisknop op de pijl-omlaag in het veld **Wavestapcode** en selecteer **Details weergeven**.
     1. Ga naar de pagina **Wavestapcodes** en selecteer in het actievenster de optie **Nieuw**.
@@ -142,7 +142,7 @@ Als u wilt profiteren van de voordelen van geavanceerde wave-ladingopbouw, moet 
     1. Selecteer in het veld **Wavestaptype** de optie *Lading opbouwen*.
 
 1. Selecteer **Opslaan** en sluit de pagina.
-1. Selecteer in de rij voor de methode **buildLoads** in het veld **Wavestapcode** de code die u zojuist hebt gemaakt (**WSC2112**).
+1. Selecteer in de rij voor de methode **buildLoads** in het veld **Wavestapcode** de code die u zojuist hebt gemaakt ( **WSC2112** ).
 1. Selecteer **Opslaan** in het actievenster.
 
 > [!NOTE]
@@ -160,7 +160,7 @@ Met gemengde ladingsgroepen stelt u regels in voor de typen artikelen die in é�
 1. Selecteer in het actievenster **Nieuw** om een ladingsgroep te maken.
 1. Voer in het veld **Id gemengde ladingsgroep** een naam in voor de nieuwe groep.
 
-    Als u werkt met de **USMF**-voorbeeldgegevens, stelt u de volgende waarden in:
+    Als u werkt met de **USMF** -voorbeeldgegevens, stelt u de volgende waarden in:
 
     - **Id gemengde ladingsgroep:** *TV*
     - **Beschrijving:** *TV*
@@ -169,20 +169,20 @@ Met gemengde ladingsgroepen stelt u regels in voor de typen artikelen die in é�
 1. Selecteer op het sneltabblad **Criteria voor gemengde ladingsgroepen** de optie **Nieuw** om een rij toe te voegen aan het raster.
 1. Stel in de nieuwe rij in elk veld de gewenste waarden in. Deze waarden bepalen de artikelengroepen die in aanmerking komen voor de gemengde lading.
 
-    Als u werkt met de **USMF**-voorbeeld gegevens, selecteert u *TV & video* in het veld **Artikelgroep**.
+    Als u werkt met de **USMF** -voorbeeld gegevens, selecteert u *TV & video* in het veld **Artikelgroep**.
 
 1. Selecteer in het actievenster de optie **Opslaan** om het sneltabblad **Beperkingen voor gemengde ladingsgroepen** beschikbaar te maken.
 1. Selecteer op het sneltabblad **Beperkingen voor gemengde ladingsgroepen** de optie **Nieuw** om een rij toe te voegen aan het raster.
 1. Stel in de nieuwe rij in elk veld de gewenste waarden in.
 
-    Als u werkt met de **USMF**-voorbeeldgegevens, stelt u de volgende waarden in:
+    Als u werkt met de **USMF** -voorbeeldgegevens, stelt u de volgende waarden in:
 
     - **Artikelgroep:** *CarAudio*
     - **Ladingopbouwactie:** *Beperken* (deze waarde voorkomt dat artikelen die horen tot de artikelengroep **CarAudio** aan dezelfde lading worden toegevoegd als de artikelen die deel uitmaken van de artikelengroep **TV & video**.)
 
 1. Ga verder met de regels totdat u alle criteria en beperkingen hebt toegevoegd die u nodig hebt voor de gemengde ladingsgroep.
 
-Als u werkt met de **USMF**-voorbeeldgegevens, hebt u deze configuratie nu voltooid.
+Als u werkt met de **USMF** -voorbeeldgegevens, hebt u deze configuratie nu voltooid.
 
 ### <a name="set-up-load-build-templates"></a>Ladingopbouwsjablonen instellen
 
@@ -200,10 +200,10 @@ U kunt zo veel ladingopbouwsjablonen instellen als nodig. Voor het gebruik van g
     | Ladingssjabloon-id | Selecteer de ladingssjabloon waarmee nieuwe ladingen worden gemaakt en waarmee wordt vergeleken bij het toewijzen van bestaande ladingen. De ladingssjabloon definieert het maximale gewicht en volume dat voor de gehele lading is toegestaan. | *Standaardladingssjabloon* |
     | Apparatuur | De apparatuur waartegen wordt afgestemd bij het toewijzen van bestaande ladingen en die wordt ingevuld bij nieuw gemaakte ladingen. | Laat dit veld leeg. |
     | Id gemengde ladingsgroep | Selecteer de gemengde ladinggroep die wordt gebruikt als het artikel is toegestaan in de lading. Met de gemengde ladinggroep stelt u regels in voor de typen artikelen die in één lading kunnen worden gecombineerd. U moet een van de gemengde groepen selecteren die u eerder in deze configuratie hebt gemaakt. | *TV* |
-    | Openstaande ladingen gebruiken | Geef aan of bestaande openstaande ladingen moeten worden toegevoegd. De volgende opties zijn beschikbaar:<ul><li>**Geen**: Voeg geen openstaande landingen toe aan bestaande ladingen.</li><li>**Elke**: Openstaande ladingen worden toegevoegd aan bestaande ladingen die geldig zijn voor de regel.</li><li>**Toegewezen**: Openstaande ladingen worden toegevoegd aan de lading die is toegewezen aan de wave.</li></ul> | *Elke* |
-    | Ladingen maken | Geef op of nieuwe ladingen moeten worden gemaakt als geen bestaande lading aan de criteria voldoet. | Geselecteerd (= *Ja*) |
-    | Splitsen van verzendregel toestaan | Geef op of een enkele ladingregel kan worden gesplitst over meerdere ladingen als deze groter is dan de maximale capaciteit van de ladingssjabloon. | Uitgeschakeld (= *Nee*) |
-    | Volumemaatstaven valideren | Geef op of ladingopbouw het gewicht en het volume moet controleren wanneer een ladingregel wordt toegevoegd, om ervoor te zorgen dat de volumelimieten van de ladingssjabloon in acht worden genomen. | Uitgeschakeld (= *Nee*) |
+    | Openstaande ladingen gebruiken | Geef aan of bestaande openstaande ladingen moeten worden toegevoegd. De volgende opties zijn beschikbaar:<ul><li>**Geen** : Voeg geen openstaande landingen toe aan bestaande ladingen.</li><li>**Elke** : Openstaande ladingen worden toegevoegd aan bestaande ladingen die geldig zijn voor de regel.</li><li>**Toegewezen** : Openstaande ladingen worden toegevoegd aan de lading die is toegewezen aan de wave.</li></ul> | *Elke* |
+    | Ladingen maken | Geef op of nieuwe ladingen moeten worden gemaakt als geen bestaande lading aan de criteria voldoet. | Geselecteerd (= *Ja* ) |
+    | Splitsen van verzendregel toestaan | Geef op of een enkele ladingregel kan worden gesplitst over meerdere ladingen als deze groter is dan de maximale capaciteit van de ladingssjabloon. | Uitgeschakeld (= *Nee* ) |
+    | Volumemaatstaven valideren | Geef op of ladingopbouw het gewicht en het volume moet controleren wanneer een ladingregel wordt toegevoegd, om ervoor te zorgen dat de volumelimieten van de ladingssjabloon in acht worden genomen. | Uitgeschakeld (= *Nee* ) |
 
 1. Selecteer in het actievenster de optie **Opslaan** om de optie **Query bewerken** beschikbaar te maken.
 1. Selecteer in het actievenster de optie **Query bewerken** om een dialoogvenster te openen waarin u de query kunt bewerken.
@@ -216,14 +216,14 @@ U kunt zo veel ladingopbouwsjablonen instellen als nodig. Voor het gebruik van g
     - **Zoekrichting:** *Oplopend*
 
 1. Selecteer **OK** om de wijzigingen op te slaan en het dialoogvenster te sluiten.
-1. Stel op het sneltabblad **Opbreken op** regels in om te bepalen hoe u de lading wilt laten opsplitsen. Normaal gesproken kunt u opbreken op aangepaste velden die zijn uitgebreid naar de ladingregel, zoals **Route**, **Tour** of **Uitvoeren**. Als u bijvoorbeeld één lading per ordernummer wilt maken, schakelt u het selectievakje **Opbreken op** in voor de rij met de volgende waarden:
+1. Stel op het sneltabblad **Opbreken op** regels in om te bepalen hoe u de lading wilt laten opsplitsen. Normaal gesproken kunt u opbreken op aangepaste velden die zijn uitgebreid naar de ladingregel, zoals **Route** , **Tour** of **Uitvoeren**. Als u bijvoorbeeld één lading per ordernummer wilt maken, schakelt u het selectievakje **Opbreken op** in voor de rij met de volgende waarden:
 
     - **Naam verwijzingstabel:** *Gegevens lading*
     - **Naam verwijzingsveld:** *Ordernummer*
 
 ## <a name="scenario"></a>Scenario's
 
-In dit scenario wordt toegelicht hoe de instellingen die eerder in dit onderwerp zijn beschreven, van invloed zijn op magazijnbewerkingen terwijl een verkooporder wordt verwerkt. In dit scenario worden de **USMF**-voorbeeldgegevens gebruikt, samen met andere voorbeeldwaarden die in de configuratie-instructies zijn opgenomen.
+In dit scenario wordt toegelicht hoe de instellingen die eerder in dit onderwerp zijn beschreven, van invloed zijn op magazijnbewerkingen terwijl een verkooporder wordt verwerkt. In dit scenario worden de **USMF** -voorbeeldgegevens gebruikt, samen met andere voorbeeldwaarden die in de configuratie-instructies zijn opgenomen.
 
 ### <a name="create-sales-orders"></a>Verkooporders maken
 
@@ -238,15 +238,15 @@ In dit scenario wordt toegelicht hoe de instellingen die eerder in dit onderwerp
 1. De nieuwe verkooporder wordt geopend. Deze moet een nieuwe, lege regel bevatten in het raster op het sneltabblad **Verkooporderregels**. Stel op deze nieuwe regel het veld **Artikelnummer** in op *A0001* en het veld **Hoeveelheid** op *1*.
 1. Selecteer in het menu **Voorraad** boven het raster de waarde **Reservering**.
 1. Ga naar de pagina **Reservering** en selecteer in het actievenster de optie **Partij reserveren**.
-1. Klik op de knop **Sluiten** (**X**) in de rechterbovenhoek van de pagina om terug te gaan naar de verkooporder.
+1. Klik op de knop **Sluiten** ( **X** ) in de rechterbovenhoek van de pagina om terug te gaan naar de verkooporder.
 1. Selecteer in het actievenster op het tabblad **Magazijn** in de groep **Acties** de optie **Vrijgeven aan magazijn**. Het systeem maakt een zending aan en voegt deze toe aan een nieuwe lading, omdat geen bestaande lading de laadregels met dit ordernummer bevat.
 
     U ontvangt informatieve berichten waarin het werk, de wave en de zending worden vermeld die voor deze order zijn gemaakt.
 
-1. Om de details van de lading, de zending en het werk te bevestigen op de verkoopregel, selecteert u de regel en selecteert u in het menu **Magazijn** boven het raster de optie **Gegevens lading**, **Details van zending** of **Werkdetails**.
+1. Om de details van de lading, de zending en het werk te bevestigen op de verkoopregel, selecteert u de regel en selecteert u in het menu **Magazijn** boven het raster de optie **Gegevens lading** , **Details van zending** of **Werkdetails**.
 1. Selecteer in de verkooporder die u zojuist hebt gemaakt op het sneltabblad **Verkooporderregels** de optie **Regel toevoegen** om nog een regel toe te voegen.
 1. Stel op de nieuwe regel het veld **Artikelnummer** in op *A0002* en het veld **Hoeveelheid** op *1*.
 1. Herhaal regels 6 tot en met 9 om de regel te reserveren en vrij te geven naar het magazijn. Het systeem maakt een **nieuwe** zending aan voor de regel die u hebt toegevoegd. Omdat u echter gebruik maakt van geavanceerde waveladingopbouw, voegt het systeem deze zending en ladingregel toe aan de bestaande wave. Als u geen gebruik maakt van geavanceerde waveladingopbouw, zou het systeem een nieuwe lading maken voor de zending.
 1. Selecteer in de verkooporder die u zojuist hebt gemaakt op het sneltabblad **Verkooporderregels** de optie **Regel toevoegen** om nog een regel toe te voegen.
 1. Stel op de nieuwe regel het veld **Artikelnummer** in op *M9200* en het veld **Hoeveelheid** op *1*.
-1. Herhaal regels 6 tot en met 9 om de regel te reserveren en vrij te geven naar het magazijn. Net zoals eerder maakt het systeem een **nieuwe** zending aan voor de regel die u hebt toegevoegd. Maaromdat het artikel afkomstig is van de artikel groep **CarAudio**, **kan het niet de beperkingen doorgeven die u hebt ingesteld voor de gemengde ladingsgroep**. Daarom wordt deze **toegevoegd aan een nieuwe lading**. Als u geen gemengde ladingsgroep had opgegeven op de ladingsopbouwsjabloon, zou deze zending zijn toegevoegd aan de eerste lading.
+1. Herhaal regels 6 tot en met 9 om de regel te reserveren en vrij te geven naar het magazijn. Net zoals eerder maakt het systeem een **nieuwe** zending aan voor de regel die u hebt toegevoegd. Maaromdat het artikel afkomstig is van de artikel groep **CarAudio** , **kan het niet de beperkingen doorgeven die u hebt ingesteld voor de gemengde ladingsgroep**. Daarom wordt deze **toegevoegd aan een nieuwe lading**. Als u geen gemengde ladingsgroep had opgegeven op de ladingsopbouwsjabloon, zou deze zending zijn toegevoegd aan de eerste lading.

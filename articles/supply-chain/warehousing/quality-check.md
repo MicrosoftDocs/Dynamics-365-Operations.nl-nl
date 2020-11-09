@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSQualityCheckTemplate,WHSWorkClass,WHSWorkTemplateTable.WHSLocDirTable
+ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a4694281f3dd53581c9d8245a0105b37b2b155
-ms.sourcegitcommit: 7dc2ff9461c310324937bea2fc160ff056fefd8a
+ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686352"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016626"
 ---
 # <a name="quality-check"></a>Kwaliteitscontrole
 
@@ -77,8 +77,8 @@ Met de sjabloon voor kwaliteitscontrole worden de regels gedefinieerd voor het u
 
         Selecteer het beleid dat moet worden gebruikt bij het afwijzen van de kwaliteit van de voorraad. De volgende opties zijn beschikbaar:
 
-        - *Alleen werk maken*: alleen werk maken om de voorraadverplaatsing te vergemakkelijken.
-        - *Kwaliteitsorder maken*: een kwaliteitsorder maken om kwaliteitstests te vergemakkelijken.
+        - *Alleen werk maken* : alleen werk maken om de voorraadverplaatsing te vergemakkelijken.
+        - *Kwaliteitsorder maken* : een kwaliteitsorder maken om kwaliteitstests te vergemakkelijken.
 
     - **Testgroep:** *Monster*
 
@@ -204,10 +204,10 @@ De locatierichtlijnen zijn regels die verzamelings- en wegzetlocaties identifice
     - **Tot hoeveelheid:** *1000000*
 
 1. Selecteer in het actievenster **Opslaan** om de nieuwe regel op te slaan en het sneltabblad **Locatie-instructieacties** beschikbaar te maken.
-1. Terwijl de nieuwe regel nog steeds is geselecteerd op het sneltabblad **Regels**, selecteert u **Nieuw** op het sneltabblad **Locatie-instructieacties** om een rij toe te voegen aan het raster daar, zodat u een actie voor de regel kunt instellen.
+1. Terwijl de nieuwe regel nog steeds is geselecteerd op het sneltabblad **Regels** , selecteert u **Nieuw** op het sneltabblad **Locatie-instructieacties** om een rij toe te voegen aan het raster daar, zodat u een actie voor de regel kunt instellen.
 1. Stel op de nieuwe rij het veld **Naam** in op *Kwaliteit*. Accepteer de standaardwaarden voor de overige velden.
 1. Selecteer in het actievenster **Opslaan** om de knop **Query bewerken** op het sneltabblad **Locatie-instructieacties** beschikbaar te maken.
-1. Terwijl de regel die u zojuist hebt toegevoegd nog steeds is geselecteerd op het sneltabblad **Locatie-instructieacties**, selecteert u **Query bewerken** om een dialoogvenster te openen waarin u de query voor de actie kunt bewerken.
+1. Terwijl de regel die u zojuist hebt toegevoegd nog steeds is geselecteerd op het sneltabblad **Locatie-instructieacties** , selecteert u **Query bewerken** om een dialoogvenster te openen waarin u de query voor de actie kunt bewerken.
 1. Selecteer op het tabblad **Bereik** de optie **Toevoegen** om een rij toe te voegen aan de query.
 1. Stel in de nieuwe rij de volgende waarden in:
 
@@ -216,7 +216,7 @@ De locatierichtlijnen zijn regels die verzamelings- en wegzetlocaties identifice
     - **Veld:** *Locatie*
     - **Criteria:** *QMS*
 
-    De *QMS*-locatie is een magazijnlocatie voor kwaliteit.
+    De *QMS* -locatie is een magazijnlocatie voor kwaliteit.
 
 1. Selecteer **OK** om het dialoogvenster te sluiten.
 1. U moet nu de volgorde van de bestaande inkooporderlocatierichtlijnen wijzigen voor magazijn *51*. Sla de nieuwe locatierichtlijn *51 Naar kwaliteit* op, vernieuw de pagina en selecteer de locatierichtlijn in de lijst. Gebruik vervolgens de knoppen **Omhoog verplaatsen** en **Omlaag verplaatsen** in het actievenster om de locatie-instructie voor magazijn *51* in de volgende volgorde te plaatsen. (Voordat u **Omhoog verplaatsen** of **Omlaag verplaatsen** selecteert, moet u een locatierichtlijn selecteren in de lijst.)
@@ -308,10 +308,10 @@ Nadat de inkooporder is gemaakt, kunt u deze ontvangen met de menuopdracht **IO-
 1. Bevestig het inkoopordernummer.
 1. Voer in het veld **Regelnummer** het regelnummer in van de inkooporderregel die u ontvangt. Aangezien de order slechts één regel bevat in dit scenario, voert u *1* in het veld **Regelnummer** in voor elke ontvangststap.
 1. Controleer het regelnummer.
-1. Voer in het veld **Hoeveelheid** de te ontvangen hoeveelheid in. Aangezien de inkooporder voor drie pallets (*PL*) is in dit scenario en er drie ontvangststappen zijn, voert u *1* in het veld **Hoeveelheid** in voor elke ontvangststap.
+1. Voer in het veld **Hoeveelheid** de te ontvangen hoeveelheid in. Aangezien de inkooporder voor drie pallets ( *PL* ) is in dit scenario en er drie ontvangststappen zijn, voert u *1* in het veld **Hoeveelheid** in voor elke ontvangststap.
 1. Bevestig de hoeveelheid.
 
-    De pagina **Kwaliteitscontrole** die wordt weergegeven, bevat geen invoervelden. De pagina bevat alleen de bevestigingsknop (vinkje) onderaan en de menuknop (**≡**) bovenaan. (De menuknop wordt ook wel de hamburger of de hamburgerknop genoemd.) Om het proces voor de kwaliteitscontrole te versnellen, bevestigt de gebruiker alleen de pagina **Kwaliteitscontrole** wanneer de pallet langs de kwaliteitscontrole komt.
+    De pagina **Kwaliteitscontrole** die wordt weergegeven, bevat geen invoervelden. De pagina bevat alleen de bevestigingsknop (vinkje) onderaan en de menuknop ( **≡** ) bovenaan. (De menuknop wordt ook wel de hamburger of de hamburgerknop genoemd.) Om het proces voor de kwaliteitscontrole te versnellen, bevestigt de gebruiker alleen de pagina **Kwaliteitscontrole** wanneer de pallet langs de kwaliteitscontrole komt.
 
     ![Pagina Kwaliteitscontrole](media/quality-check.png "Pagina Kwaliteitscontrole")
 
@@ -342,10 +342,10 @@ Voor dit scenario wordt pallet 2 afgewezen.
 
     De pagina **Kwaliteitscontrole** wordt weergegeven. Voor deze ontvangst wordt de pallet afgewezen voor kwaliteit en wordt deze op de kwaliteitslocatie *QMS* weggezet.
 
-1. Selecteer de menuknop (**≡**) boven aan de pagina en selecteer vervolgens in het menu de optie **Weigeren**.
-1. Voer op de pagina **Taak** die verschijnt **QMS** in als de *wegzet*locatie voor het verzenden van de pallet voor verdere inspectie.
+1. Selecteer de menuknop ( **≡** ) boven aan de pagina en selecteer vervolgens in het menu de optie **Weigeren**.
+1. Voer op de pagina **Taak** die verschijnt **QMS** in als de *wegzet* locatie voor het verzenden van de pallet voor verdere inspectie.
 
-    Op de pagina **Kwaliteit in kwaliteitscontrole: Wegzetten**, die wordt weergegeven, staan details van het wegzetwerk.
+    Op de pagina **Kwaliteit in kwaliteitscontrole: Wegzetten** , die wordt weergegeven, staan details van het wegzetwerk.
 
     - **LOC:** *QMS*
 
@@ -394,6 +394,6 @@ Voor dit scenario wordt pallet 3 geaccepteerd.
 
     Op de pagina **Taak** voor het ontvangen van inkooporderregels wordt het bericht 'Werk voltooid' weergegeven. Het veld **Regelnummer** is beschikbaar zodat u de volgende pallet kunt ontvangen.
 
-1. Selecteer de menuknop (**≡**) boven aan de pagina en selecteer vervolgens in het menu de optie **Annuleren** om terug te keren naar het menu.
+1. Selecteer de menuknop ( **≡** ) boven aan de pagina en selecteer vervolgens in het menu de optie **Annuleren** om terug te keren naar het menu.
 
 U kunt nu de mobiele app sluiten.

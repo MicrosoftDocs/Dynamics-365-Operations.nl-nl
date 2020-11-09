@@ -3,7 +3,7 @@ title: Betalingsmodule
 description: In dit onderwerp wordt de betalingsmodule beschreven en uitgelegd hoe u deze configureert in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4267391edaf70ec645933b2c5c08a72735f52894
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 894ac35973927c193d6e9c54e326daefb8a3f4a5
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818321"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055376"
 ---
 # <a name="payment-module"></a>Betalingsmodule
 
@@ -42,6 +42,9 @@ De betalingsmodule omvat alle orderkosten die nog niet zijn gedekt door loyalite
 
 De Adyen-betalingsconnector ondersteunt ook sterke klantverificatie (SCA). Als onderdeel van de EU-richtlijn voor betalingsdiensten 2.0 (PSD 2.0) van de Europese Unie is vereist dat online klanten worden geverifieerd buiten hun online winkelervaring wanneer ze een elektronische betalingsmethode gebruiken. Tijdens het afhandelingsverkeer worden klanten omgeleid naar hun banksite. Na de verificatie worden ze vervolgens omgeleid naar de Commerce-afhandelingsstroom. Tijdens deze omleiding blijft de informatie behouden die een klant heeft ingevoerd in de checkoutstroom (bijvoorbeeld het verzendadres, de leveringsopties, informatie over geschenkbonnen en loyaliteitsgegevens). Voordat u deze functie kunt inschakelen, moet de betalingsconnector worden geconfigureerd voor SCA in Commerce Headquarters. Zie voor meer informatie [Sterke klantverificatie met Adyen](adyen_redirect.md).
 
+> [!NOTE]
+> Voor de Adyen-betalingsconnector kan de iframe-module in de betalingsmodule alleen worden weergegeven als u de Adyen-URL toevoegt aan de toegestane lijst van uw site. Als u deze stap wilt uitvoeren, voegt u **\*adyen.com** toe aan de richtlijnen **child-src** , **connect-src** , **img-src** , **script-src** en **style-src** van het inhoudsbeveiligingsbeleid van uw site. Zie [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md) voor meer informatie. 
+
 De volgende afbeelding toont een voorbeeld van de modules voor geschenkbon, loyaliteitspunten en betaling op een uitcheckpagina.
 
 ![Voorbeeld van modules voor geschenkbonnen, loyaliteitspunten en betalingen op een uitcheckpagina](./media/ecommerce-payments.PNG)
@@ -52,12 +55,12 @@ De volgende afbeelding toont een voorbeeld van de modules voor geschenkbon, loya
 |---------------|--------|-------------|
 | Kop | Koptekst | Een optionele koptekst voor de betalingsmodule. |
 | De hoogte van het iFrame. | Pixel | De hoogte van het iFrame, in pixels. De hoogte kan zo nodig worden aangepast. |
-| Factureringsadres weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, wordt het factuuradres door Adyen geleverd binnen het iFrame van de betalingsmodule. Als de eigenschap is ingesteld op **Onwaar**, wordt het factuuradres niet aangeleverd door Adyen en moet een Commerce-gebruiker een module configureren om het factuuradres op de uitcheckpagina weer te geven. |
+| Factureringsadres weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar** , wordt het factuuradres door Adyen geleverd binnen het iFrame van de betalingsmodule. Als de eigenschap is ingesteld op **Onwaar** , wordt het factuuradres niet aangeleverd door Adyen en moet een Commerce-gebruiker een module configureren om het factuuradres op de uitcheckpagina weer te geven. |
 | Betalingsstijl overschrijven | Cascading Style Sheets-code (CSS) | Omdat de betalingsmodule wordt gehost in een iFrame, zijn er beperkte opmaakmogelijkheden. U kunt opmaak aanbrengen met behulp van deze eigenschap. Als u sitestijlen wilt overschrijven, plakt u de CSS-code als waarde voor deze eigenschap. Overschrijvingen en stijlen van site builder-CSS zijn niet van toepassing op deze module. |
 
 ## <a name="billing-address"></a>Factureringsadres
 
-De betalingsmodule laat klanten een factuuradres opgeven voor hun betalingsgegevens. Ook kunnen ze hun verzendadres gebruiken als het factuuradres, zodat de afhandelingsprocedure eenvoudiger en sneller wordt. Als de eigenschap **Factureringsadres weergeven** is ingesteld op **Onwaar**, moet de betalingsmodule worden geconfigureerd op de uitcheckpagina.
+De betalingsmodule laat klanten een factuuradres opgeven voor hun betalingsgegevens. Ook kunnen ze hun verzendadres gebruiken als het factuuradres, zodat de afhandelingsprocedure eenvoudiger en sneller wordt. Als de eigenschap **Factureringsadres weergeven** is ingesteld op **Onwaar** , moet de betalingsmodule worden geconfigureerd op de uitcheckpagina.
 
 ## <a name="add-a-payment-module-to-a-checkout-page-and-set-the-required-properties"></a>Een betalingsmodule aan een uitcheckpagina toevoegen en de vereiste eigenschappen instellen
 

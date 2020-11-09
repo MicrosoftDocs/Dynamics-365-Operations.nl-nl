@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
-ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
+ms.openlocfilehash: 31216c24f54f22ec928eb143d4a913aabcd50cf8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3775169"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016005"
 ---
 # <a name="warehouse-location-status"></a>Status magazijnlocatie
 
@@ -69,16 +69,16 @@ Voor het voorbeeldscenario moet u twee locatieprofielen voorbereiden.
 1. Selecteer het profieltype **BULK-06**.
 1. Stel op het sneltabblad **Algemeen** de volgende waarden in:
 
-    - **Artikel in locatie inschakelen**: Stel deze optie in op _Ja_.
+    - **Artikel in locatie inschakelen** : Stel deze optie in op _Ja_.
     - **Locatie voor activiteitsdatum en -tijd inschakelen:** Stel deze optie in op _Ja_.
-    - **Locatiestatus inschakelen**: Stel deze optie in op _Ja_.
+    - **Locatiestatus inschakelen** : Stel deze optie in op _Ja_.
 
     Met deze opties bepaalt u of de verwijzingsvelden op de locatie actief zijn.
 
 1. Herhaal de stappen 3 tot en met 4 voor het profiel **PICK-06**.
 
 > [!NOTE]
-> Wanneer de parameters in het locatieprofiel (**Artikel in locatie inschakelen**, **Locatieactiviteit inschakelen**, **Locatiestatus inschakelen**) op *Ja* zijn ingesteld, worden de relevante locaties onmiddellijk bijgewerkt met taak *Consistentiecontrole status magazijnlocatie*.
+> Wanneer de parameters in het locatieprofiel ( **Artikel in locatie inschakelen** , **Locatieactiviteit inschakelen** , **Locatiestatus inschakelen** ) op *Ja* zijn ingesteld, worden de relevante locaties onmiddellijk bijgewerkt met taak *Consistentiecontrole status magazijnlocatie*.
 
 ### <a name="scenario"></a>Scenario's
 
@@ -94,22 +94,22 @@ Voor het voorbeeldscenario moet u twee locatieprofielen voorbereiden.
 
 1. Ga in het actievenster naar het tabblad **Inkoop** en selecteer in de groep **Acties** de optie **Bevestigen** om de inkooporder te bevestigen.
 1. Ga op het mobiele apparaat naar **Inkomend \> Inkoop ontvangen**.
-1. Selecteer het veld **PONUM**, voer het verkoopordernummer in en bevestig.
-1. Selecteer het veld **ARTIKEL**, voer *A0002* in als het artikelnummer en bevestig.
+1. Selecteer het veld **PONUM** , voer het verkoopordernummer in en bevestig.
+1. Selecteer het veld **ARTIKEL** , voer *A0002* in als het artikelnummer en bevestig.
 1. Ga naar de pagina **Hoeveelheid** en voer *5* in als de hoeveelheid en bevestig.
 
     U kunt de hoeveelheid op een van de volgende manieren invoeren:
 
-    - Selecteer de knop met het plusteken (**+**) of het minteken (**–**) om een numerieke waarde te verhogen of te verlagen.
-    - Selecteer het lege veld tussen de knoppen met het plusteken (**+**) en het minteken (**–**) om het numerieke toetsenblok te openen.
+    - Selecteer de knop met het plusteken ( **+** ) of het minteken ( **–** ) om een numerieke waarde te verhogen of te verlagen.
+    - Selecteer het lege veld tussen de knoppen met het plusteken ( **+** ) en het minteken ( **–** ) om het numerieke toetsenblok te openen.
 
 1. Bevestig de selectie van artikelnummer *A0002* en de hoeveelheid *5*. Onderin de pagina wordt het bericht "Werk voltooid" getoond.
 1. Selecteer de menuknop (ook wel de hamburger of hamburgerknop genoemd) in de rechterbovenhoek en selecteer **Annuleren** om **Inkoop ontvangen** af te sluiten en terug te keren naar het menu **Inkomend**.
 1. Selecteer op de pagina Inkooporder de optie **Werkdetails** boven het raster **Inkooporderregels**.
 1. Merk op dat op het tabblad **Algemeen** waarden zijn aangemaakt in de velden **Werk-id** en de **Doelnummerplaat-id**.
-1. In de sectie **Regels** ziet u de **Locatie**-waarden voor de Werktypen *Orderverzamelen* en *Wegzetten*.
+1. In de sectie **Regels** ziet u de **Locatie** -waarden voor de Werktypen *Orderverzamelen* en *Wegzetten*.
 1. Ga op het mobiele apparaat naar **Inkomend \> Inkoop wegzetten**.
-1. Selecteer het veld **Id**, voer het werk-id in en bevestig.
+1. Selecteer het veld **Id** , voer het werk-id in en bevestig.
 1. Bevestig nogmaals om de invoer voor *Orderverzamelen* te voltooien.
 1. Selecteer de Menu-knop in de rechterbovenhoek en selecteer vervolgens **Gereed** om het *orderverzamelwerk* te voltooien.
 1. Noteer de locatie waarop de artikelen zijn weggezet en bevestig. Onderin de pagina wordt het bericht "Werk voltooid" getoond.
@@ -143,24 +143,24 @@ Voor het voorbeeldscenario moet u twee locatieprofielen voorbereiden.
     - **Hoeveelheid:** _1_
 
 1. Selecteer op het sneltabblad **Verkooporderregels** in het menu **Voorraad** boven het raster de waarde **Reservering**.
-1. Selecteer op de pagina **Reservering** de waarde **Partij reserveren** om de orderregel te reserveren. Sluit de pagina door te klikken op de **sluitknop** (**X**) in de rechterbovenhoek.
+1. Selecteer op de pagina **Reservering** de waarde **Partij reserveren** om de orderregel te reserveren. Sluit de pagina door te klikken op de **sluitknop** ( **X** ) in de rechterbovenhoek.
 1. Selecteer in het actievenster op het tabblad **Magazijn** in de groep **Acties** de optie **Vrijgeven aan magazijn**.
 1. Selecteer in de sectie **Verkooporderregels** in het menu **Magazijn** de waarde **Werkdetails**.
 1. Kopieer de gemaakte **werk-id**.
 1. Ga op het mobiele apparaat naar **Uitgaand \> Verkooporder**.
-1. Selecteer het veld **Id**, voer de werk-id in die u eerder hebt gekopieerd en bevestig.
+1. Selecteer het veld **Id** , voer de werk-id in die u eerder hebt gekopieerd en bevestig.
 1. Op de pagina **Verkooporders: orderverzamelen** wordt met het veld **Loc** de orderverzamellocatie voorgesteld als de wegzetlocatie die eerder is gemaakt. Noteer de locatie.
-1. Selecteer het veld **Loc**, voer de locatie in en bevestig.
-1. Selecteer het veld **NP**, voer de nummerplaat in die u hebt genoteerd tijdens de activiteit Mutatie en bevestig.
-1. Selecteer het veld **Artikel**, voer *A0002* in als het artikelnummer en bevestig.
+1. Selecteer het veld **Loc** , voer de locatie in en bevestig.
+1. Selecteer het veld **NP** , voer de nummerplaat in die u hebt genoteerd tijdens de activiteit Mutatie en bevestig.
+1. Selecteer het veld **Artikel** , voer *A0002* in als het artikelnummer en bevestig.
 1. Ga naar de pagina **Hoeveelheid** en voer *1* in als de hoeveelheid en bevestig.
 
     U kunt de hoeveelheid op een van de volgende manieren invoeren:
 
-    - Selecteer de knop met het plusteken (**+**) of het minteken (**–**) om een numerieke waarde te verhogen of te verlagen.
-    - Selecteer het lege veld tussen de knoppen met het plusteken (**+**) en het minteken (**–**) om het numerieke toetsenblok te openen.
+    - Selecteer de knop met het plusteken ( **+** ) of het minteken ( **–** ) om een numerieke waarde te verhogen of te verlagen.
+    - Selecteer het lege veld tussen de knoppen met het plusteken ( **+** ) en het minteken ( **–** ) om het numerieke toetsenblok te openen.
 
-1. Selecteer het veld **Doel-NP**, voer een door de gebruiker gedefinieerde doelnummerplaat-id in en bevestig.
+1. Selecteer het veld **Doel-NP** , voer een door de gebruiker gedefinieerde doelnummerplaat-id in en bevestig.
 1. Bevestig nogmaals om het orderverzamelwerk te voltooien. Onderin de pagina wordt het bericht "Werk voltooid" getoond.
 1. Selecteer de menuknop in de rechterbovenhoek en selecteer **Annuleren** om het verzamelwerk af te sluiten en terug te keren naar het menu **Uitgaand**.
 1. Ga in Dynamics 365 Supply Chain Management naar **Magazijnbeheer \> Instellingen \> Magazijn \> Locaties**.

@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 5052957a2f4e59791ef02c12bc2aef5ed36e95c7
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3816932"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022071"
 ---
 # <a name="social-share-module"></a>Module voor sociaal delen
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp worden modules voor sociaal delen beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -54,7 +53,7 @@ In de volgende afbeelding wordt een voorbeeld van een module voor sociaal delen 
 ## <a name="social-share-item-module-properties"></a>Eigenschappen van module voor items voor sociaal delen
 | Naam van eigenschap.             | Waarde                 | Beschrijving |
 |---------------------------|-----------------------|-------------|
-| Sociale media              | **Facebook**, **Twitter**, **Pinterest**, **LinkedIn**, **Mail** | Een vervolgkeuzemenu met een lijst met sociale-mediaplatforms. |
+| Sociale media              | **Facebook** , **Twitter** , **Pinterest** , **LinkedIn** , **Mail** | Een vervolgkeuzemenu met een lijst met sociale-mediaplatforms. |
 | Pictogram |Afbeelding    | Dit is de afbeelding die voor de respectieve sociale media wordt weergegeven. Voor elk platform kunt u het beste de SDK van het platform voor sociale media raadplegen voor de aanbevolen afbeelding voor elk platform. |
 
 ## <a name="add-a-social-share-module-to-a-buy-box-module"></a>Een module voor sociaal delen toevoegen aan een koopvakmodule
@@ -62,17 +61,17 @@ In de volgende afbeelding wordt een voorbeeld van een module voor sociaal delen 
 Ga als volgt te werk om een module voor sociaal delen toe te voegen aan een koopvakmodule.
 
 1. Selecteer op de Fabrikam-site de optie **Pagina's** en selecteer vervolgens de pagina **DefaultPDP** om de pagina met productgegevens te openen. 
-1. Selecteer het weglatingsteken (**...**) in het vak **Koopvak (vereist)** en selecteer **Module toevoegen**.
+1. Selecteer het weglatingsteken ( **...** ) in het vak **Koopvak (vereist)** en selecteer **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de module **Sociaal delen** en selecteer vervolgens **OK**.
-1. Selecteer het weglatingsteken (**...**) in het vak **Sociaal delen** en selecteer **Module toevoegen**.
+1. Selecteer het weglatingsteken ( **...** ) in het vak **Sociaal delen** en selecteer **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de module **SocialShare** en selecteer vervolgens **OK**.
 1. Selecteer **Horizontaal** in het deelvenster Eigenschappen van de module **SocialShare** onder **Afdrukstand**. Voeg zo nodig een bijschrift toe.
-1. Selecteer het weglatingsteken (**...**) in het vak **SocialShare** en selecteer **Module toevoegen**.
+1. Selecteer het weglatingsteken ( **...** ) in het vak **SocialShare** en selecteer **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de module **SocialShareItem** en selecteer vervolgens **OK**.
 1. Selecteer **Facebook** in het deelvenster Eigenschappen van de module **SocialShareItem** onder **Sociale media**.
 1. Selecteer **+ Een afbeelding toevoegen** in het deelvenster Eigenschappen van de module **SocialShareItem** onder **Pictogram**.
 1. Selecteer in het dialoogvenster **Mediakiezer** de afbeelding van het Facebook-logo en selecteer vervolgens **OK**. Als er geen Facebook-logo aanwezig is, selecteert **Nieuw media-item uploaden** om een item te uploaden.
-1. Voeg zo nodig extra **SocialShareItem**-modules toe en configureer deze.
+1. Voeg zo nodig extra **SocialShareItem** -modules toe en configureer deze.
 1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken. Op de pagina wordt de module voor sociaal delen weergegeven.
 1. Selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
 

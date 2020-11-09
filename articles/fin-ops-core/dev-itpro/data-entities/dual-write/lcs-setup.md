@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172987"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998103"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Instellingen voor twee keer wegschrijven van Lifecycle Services
 
@@ -50,7 +49,7 @@ Voer de onderstaande stappen uit om de verbinding voor twee keer wegschrijven in
 3. Selecteer de versie. 
 4. Selecteer de topologie. Als er slechts één topologie beschikbaar is, wordt deze automatisch geselecteerd.
 5. Voer de eerste stappen in de wizard **Implementatie-instellingen** uit.
-6. Voer een van deze stappen uit op het tabblad **Common Data Service**:
+6. Voer een van deze stappen uit op het tabblad **Common Data Service** :
 
     - Als al een Common Data Service-omgeving is ingericht voor uw tenant, kunt u deze selecteren.
 

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
-ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
+ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3728408"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997521"
 ---
 # <a name="company-concept-in-common-data-service"></a>Bedrijfsconcept in Common Data Service
 
@@ -33,7 +32,7 @@ ms.locfileid: "3728408"
 
 In Finance and Operations is het concept *bedrijf* zowel een juridische constructie als een bedrijfsconstructie. Het is ook een beveiligings- en zichtbaarheidsgrens voor gegevens. Gebruikers werken altijd in de context van één bedrijf en de meeste gegevens zijn verdeeld per bedrijf.
 
-Common Data Service heeft geen gelijkwaardig concept. Het concept dat het meest overeenkomt, is *bedrijfseenheid*, wat in de eerste plaats een beveiligings- en zichtbaarheidsgrens is voor gebruikersgegevens. Dit concept heeft niet dezelfde juridische of zakelijke implicaties als het bedrijfsconcept.
+Common Data Service heeft geen gelijkwaardig concept. Het concept dat het meest overeenkomt, is *bedrijfseenheid* , wat in de eerste plaats een beveiligings- en zichtbaarheidsgrens is voor gebruikersgegevens. Dit concept heeft niet dezelfde juridische of zakelijke implicaties als het bedrijfsconcept.
 
 Omdat bedrijfseenheid en bedrijf geen gelijkwaardige concepten zijn, is het niet mogelijk om een 1:1-toewijzing (één-op-één) tussen beide te forceren met het oog op Common Data Service-integratie. Maar omdat gebruikers standaard in de toepassing dezelfde records moeten kunnen zien als in Common Data Service, heeft Microsoft een nieuwe entiteit in Common Data Service geïntroduceerd met de naam cdm\_Company. Deze entiteit is gelijk aan de entiteit Bedrijf in de toepassing. Om te garanderen dat de zichtbaarheid van records out of the box equivalent is tussen de toepassing en Common Data Service, raden we de volgende instellingen voor Common Data Service-gegevens aan:
 
@@ -82,18 +81,18 @@ Er zijn verschillende manieren waarop u de bedrijfsnaam in Customer Engagement-a
 
     :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Sectie Standaardbedrijf instellen in Organisatiegegevens.":::
 
-+ Als u **schrijf**toegang hebt tot de entiteit **SystemUser** op het niveau van **Bedrijfseenheid**, kunt u het standaardbedrijf op elk willekeurig formulier wijzigen door een bedrijf te selecteren in de vervolgkeuzelijst **Bedrijf**.
++ Als u **schrijf** toegang hebt tot de entiteit **SystemUser** op het niveau van **Bedrijfseenheid** , kunt u het standaardbedrijf op elk willekeurig formulier wijzigen door een bedrijf te selecteren in de vervolgkeuzelijst **Bedrijf**.
 
     :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="De bedrijfsnaam wijzigen voor een nieuw account.":::
 
-+ Als u **schrijf**toegang hebt tot gegevens in meerdere bedrijven, kunt u het standaardbedrijf wijzigen door een record te kiezen die tot een ander bedrijf behoort.
++ Als u **schrijf** toegang hebt tot gegevens in meerdere bedrijven, kunt u het standaardbedrijf wijzigen door een record te kiezen die tot een ander bedrijf behoort.
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Als u een record kiest, wordt het standaardbedrijf gewijzigd.":::
 
 + Als u een systeemconfigurator of -beheerder bent en u de bedrijfsgegevens in een aangepast formulier automatisch wilt laten invullen, dan kunt u [formuliergebeurtenissen](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) gebruiken. Voeg een JavaScript-verwijzing toe aan **msdyn_/DefaultCompany.js** en gebruik de volgende gebeurtenissen. U kunt elk kant-en-klaar formulier gebruiken, bijvoorbeeld het formulier **Account**.
 
-    + **OnLoad**-gebeurtenissen voor het formulier: stel het veld **defaultCompany** in.
-    + **OnChange**-gebeurtenis voor het veld **Bedrijf**: stel het veld **updateDefaultCompany** in.
+    + **OnLoad** -gebeurtenissen voor het formulier: stel het veld **defaultCompany** in.
+    + **OnChange** -gebeurtenis voor het veld **Bedrijf** : stel het veld **updateDefaultCompany** in.
 
 ## <a name="apply-filtering-based-on-the-company-context"></a>Filters toepassen op basis van de bedrijfscontext
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ
+ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4aec0ce03d438f8153b9555a079b6fd97f6a95a5
-ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
+ms.openlocfilehash: cd0ee376da52dc3b36ec32859283a410e5b71854
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973495"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018394"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Overzicht van Offerteaanvragen
 
@@ -44,7 +44,7 @@ De volgende afbeelding biedt een overzicht van het proces voor offerteaanvragen.
 
 U kunt een offerteaanvraagcase maken op basis van geplande orders, een opdracht tot inkoop of handmatige invoer. De offerteaanvraagcase is het basisdocument waarmee u een offerteaanvraag uitgeeft aan elke leverancier.
 
-Nadat u de offerteaanvraagcase hebt voorbereid en leveranciers hebt toegevoegd, selecteert u **Verzenden** (**Verzenden en publiceren** voor de openbare sector) op de offerteaanvraagcase. Er wordt een offerteaanvraagjournaal gemaakt voor elke leverancier waarnaar u een offerteaanvraag verzendt. U kunt afdrukopties configureren voor de actie Verzenden om een rapport voor elke leverancier af te drukken naar een archief of om een rapport te verzenden naar het e-mailadres van elke leverancier. Bovendien kunt u het offerteaanvraagjournaal voor elke leverancier gebruiken om een rapport te genereren dat u later kunt verzenden of opnieuw kunt verzenden naar een leverancier. U kunt de actie Verzenden ook zo configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.
+Nadat u de offerteaanvraagcase hebt voorbereid en leveranciers hebt toegevoegd, selecteert u **Verzenden** ( **Verzenden en publiceren** voor de openbare sector) op de offerteaanvraagcase. Er wordt een offerteaanvraagjournaal gemaakt voor elke leverancier waarnaar u een offerteaanvraag verzendt. U kunt afdrukopties configureren voor de actie Verzenden om een rapport voor elke leverancier af te drukken naar een archief of om een rapport te verzenden naar het e-mailadres van elke leverancier. Bovendien kunt u het offerteaanvraagjournaal voor elke leverancier gebruiken om een rapport te genereren dat u later kunt verzenden of opnieuw kunt verzenden naar een leverancier. U kunt de actie Verzenden ook zo configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.
 
 Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Supply Chain Management. Meer informatie vindt u in [Leverancierssamenwerking met klanten](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
 
@@ -75,7 +75,7 @@ U kunt deze waarden negeren voor een specifieke offerteaanvraagcase.
 
 Configureer tevens het aanpassingsproces. Als onderdeel van deze configuratie, kunt u veldvergrendeling inschakelen. Wanneer veldvergrendeling is ingeschakeld, moet een inkoopmedewerker die een offerteaanvraag wil aanpassen, eerst **Maken** selecteren in de sectie **Aanpassing** van het tabblad **Offerte** van de offerteaanvraagcase. Nadat de offerteaanvraagcase is bijgewerkt met de wijziging, beëindigt de inkoper het proces door **Voltooien**  te selecteren. Door de actie Voltooien wordt een e-mail gegenereerd waarin aan de leveranciers de gewijzigde offerteaanvraag wordt gemeld.
 
-U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzonden op de pagina **Parameters voor inkoop en sourcing**. Als een sjabloon wordt gemaakt in **E-mailsjablonen**, kan deze de volgende vervangingstokens bevatten:
+U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzonden op de pagina **Parameters voor inkoop en sourcing**. Als een sjabloon wordt gemaakt in **E-mailsjablonen** , kan deze de volgende vervangingstokens bevatten:
 
 - %Offerteaanvraagcase%
 - %Reden voor retour van bieding%
@@ -158,7 +158,7 @@ Er zijn drie manieren om de leveranciers te selecteren die u wilt toevoegen aan 
 
 Wanneer de offerteaanvraagcase gereed is, selecteert u **Verzenden**. De actie Verzenden genereert journalen en rapporten die worden afgedrukt, gearchiveerd en verzonden, afhankelijk van uw afdrukinstellingen.
 
-Als u tijdens het verzenden van de aanvraag naar een leverancier **Leverancier gebruiken voor herberekenen van prijzen** en **Leverancierspecifieke artikelgegevens gebruiken** op **Ja** instelt op de pagina **Offerteaanvraag verzenden**, wordt bepaalde leverancierspecifieke informatie automatisch ingevoerd in de offerteaanvraag voor die leverancier.
+Als u tijdens het verzenden van de aanvraag naar een leverancier **Leverancier gebruiken voor herberekenen van prijzen** en **Leverancierspecifieke artikelgegevens gebruiken** op **Ja** instelt op de pagina **Offerteaanvraag verzenden** , wordt bepaalde leverancierspecifieke informatie automatisch ingevoerd in de offerteaanvraag voor die leverancier.
 
 ## <a name="amending-an-rfq-case"></a>Een offerteaanvraagcase aanpassen
 
@@ -184,7 +184,7 @@ Wanneer u de biedingsinformatie invoert en de offerteaanvraagcase alternatieve r
 
 Als u een antwoord hebt opgegeven maar een nieuwe offerte van de leverancier nodig hebt, kunt u de offerteaanvraag terugsturen. Er worden een nieuw journaal en een nieuw rapport gegenereerd, die naar de leverancier kunnen worden verzonden.
 
-U kunt een overzicht bekijken van alle offerteaanvragen en hun statussen (**verzonden, ontvangen, geaccepteerd, afgewezen, geannuleerd, geweigerd**) op de pagina **Opvolging van offerteaanvraag**.
+U kunt een overzicht bekijken van alle offerteaanvragen en hun statussen ( **verzonden, ontvangen, geaccepteerd, afgewezen, geannuleerd, geweigerd** ) op de pagina **Opvolging van offerteaanvraag**.
 
 ### <a name="accepting-and-rejecting-bids-and-transferring-accepted-bids-to-downstream-documents"></a>Biedingen accepteren en afwijzen en geaccepteerde biedingen overbrengen naar documenten verderop in het traject
 
@@ -197,7 +197,7 @@ Als u een bod of een of meer regels in een bod accepteert, wordt er automatisch 
 
 In het antwoord kunt u een redencode toevoegen om uit te leggen waarom u een bieding hebt geaccepteerd of afgewezen.
 
-Wanneer u een bod accepteert van het type **Opdracht tot inkoop**, worden de regels van de opdracht tot inkoop bijgewerkt met de volgende informatie die de gegevens van het geaccepteerde bod weergeven:
+Wanneer u een bod accepteert van het type **Opdracht tot inkoop** , worden de regels van de opdracht tot inkoop bijgewerkt met de volgende informatie die de gegevens van het geaccepteerde bod weergeven:
 
 - Eenheidsprijs
 - Kortingspercentage

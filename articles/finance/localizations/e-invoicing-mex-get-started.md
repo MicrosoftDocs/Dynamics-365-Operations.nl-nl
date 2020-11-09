@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d719c3ba68458130d415c50319fdcdeafcfc783e
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: a30f5a9b585c826222108563ea10ac4194ee441c
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835932"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039817"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > De invoegtoepassing Elektronische facturering voor Mexico ondersteunt momenteel mogelijk niet alle functies die beschikbaar zijn in het document Comprobante Fiscal Digital por Internet (CFDI) en in de gerelateerde integratie die in Microsoft Dynamics 365 Finance of Dynamics 365 Supply Chain Management is ingebouwd.
@@ -96,7 +95,7 @@ U kunt een nieuwe versie maken als bijvoorbeeld URL's moeten worden bijgewerkt. 
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>De instellingen voor de functie e-Facturering beheren
 
-- Selecteer op de pagina **Functies voor e-Facturering** op het tabblad **Instellingen** de optie **Toevoegen**, **Verwijderen** of **Bewerken** om de instellingen van de functie e-Facturering te beheren.
+- Selecteer op de pagina **Functies voor e-Facturering** op het tabblad **Instellingen** de optie **Toevoegen** , **Verwijderen** of **Bewerken** om de instellingen van de functie e-Facturering te beheren.
 
 ![De instellingen voor de functie e-Facturering beheren](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
@@ -124,7 +123,7 @@ Voor het indienen van een annulering van een CFDI-factuur, moet u de functie **A
 
 ### <a name="set-up-the-url-for-mexican-pac-web-services"></a>De URL voor Mexicaanse PAC-webservices instellen 
 
-1. Ga naar de pagina **Instellingen functieversie** en selecteer op het tabblad **Acties**, op het sneltabblad **Acties** de optie **Mexicaanse PAC-service aanroepen**.
+1. Ga naar de pagina **Instellingen functieversie** en selecteer op het tabblad **Acties** , op het sneltabblad **Acties** de optie **Mexicaanse PAC-service aanroepen**.
 2. Voer op het sneltabblad **Parameters** in het veld **URL-adres** de URL van de webservice voor het indienen van CFDI-facturen in.
 
 > [!NOTE]
@@ -168,7 +167,7 @@ Als u de invoegtoepassing voor elektronische facturering in Finance wilt instell
 2. Selecteer in de werkruimte **Elektronische rapportage** in de sectie **Configuratieaanbieders** de tegel **Microsoft**. Controleer of deze configuratieaanbieder is ingesteld op **Actief**. Zie [Aanbieders van configuraties maken en deze als actief markeren](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11) voor informatie over de manier waarop u een aanbieder als deze als **Actief** kunt instellen.
 3. Selecteer **Opslagplaatsen**.
 4. Selecteer **Algemene resource \> Openen**.
-5. Importeer **Factuurmodel**, **Factuurmodeltoewijzing**, **CFDI-factuurindeling (MX)**, **Indeling annuleringsverzoek CFDI-factuur (MX)** en **Indeling annulering CFDI-factuur (MX)**.
+5. Importeer **Factuurmodel** , **Factuurmodeltoewijzing** , **CFDI-factuurindeling (MX)** , **Indeling annuleringsverzoek CFDI-factuur (MX)** en **Indeling annulering CFDI-factuur (MX)**.
 
 ### <a name="turn-on-the-feature-for-processing-cfdi-invoices"></a>De functie voor de verwerking van CFDI-facturen inschakelen
 
@@ -184,7 +183,7 @@ Als u de invoegtoepassing voor elektronische facturering in Finance wilt instell
 1. Selecteer in de werkruimte **Elektronische rapportage** in de sectie **Configuratieaanbieders** de tegel **Microsoft**.
 3. Selecteer **Opslagplaatsen**.
 4. Selecteer **Algemene resource \> Openen**.
-5. Importeer **Model responsbericht**, **CFDI-foutenlogboek importeren (MX)**, **CFDI-foutenlogboek importeren (MX)** en **CFDI-responsbericht importeren (MX)**.
+5. Importeer **Model responsbericht** , **CFDI-foutenlogboek importeren (MX)** , **CFDI-foutenlogboek importeren (MX)** en **CFDI-responsbericht importeren (MX)**.
 
 #### <a name="set-up-the-response-types"></a>De responstypen instellen
 
@@ -216,7 +215,7 @@ Tijdens de verwerking van CFDI-facturen in Finance via de invoegtoepassing voor 
 
 ### <a name="submit-cfdi-invoices"></a>CFDI-facturen indienen
 
-Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** hebt ingeschakeld, kunt u het proces **Elektronische factuur exporteren/importeren** (**Klanten \> Facturen \> E-facturen**) voor het indienen van CFDI-facturen niet meer gebruiken. Het wordt vervangen door een nieuw proces met de naam **Elektronische documenten indienen**.
+Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** hebt ingeschakeld, kunt u het proces **Elektronische factuur exporteren/importeren** ( **Klanten \> Facturen \> E-facturen** ) voor het indienen van CFDI-facturen niet meer gebruiken. Het wordt vervangen door een nieuw proces met de naam **Elektronische documenten indienen**.
 
 > [!NOTE]
 > Voordat u het nieuwe proces **Elektronische documenten indienen** gebruikt, moet u controleren of de instellingen die nodig zijn voor de Mexicaanse e-facturen zijn voltooid. Zie [CFDI-indeling versie 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3) voor meer informatie.
@@ -249,9 +248,9 @@ Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronis
 
 De informatie in de indieningslogboeken wordt verdeeld over drie sneltabbladen:
 
-- **Verwerkingsacties**: dit sneltabblad toont het uitvoeringslogboek voor de acties die zijn geconfigureerd in de functieversie die is ingesteld in RCS. De kolom **Status** geeft aan of de actie met goed gevolg is uitgevoerd.
-- **Actiebestanden**: dit sneltabblad toont de tussenliggende bestanden die zijn gegenereerd tijdens de uitvoering van de acties. U kunt **Weergave** selecteren om het bestand te downloaden en weer te geven.
-- **Logboek verwerkingsacties**: dit sneltabblad toont de resultaten van de communicatie tussen de invoegtoepassing voor elektronische facturering en de doelwebservice. Het toont ook wat er is geretourneerd door de verwerking vanuit de webservice. De kolom **Foutcode** geeft de retourcode weer die is geretourneerd door de autorisatie-webservice.
+- **Verwerkingsacties** : dit sneltabblad toont het uitvoeringslogboek voor de acties die zijn geconfigureerd in de functieversie die is ingesteld in RCS. De kolom **Status** geeft aan of de actie met goed gevolg is uitgevoerd.
+- **Actiebestanden** : dit sneltabblad toont de tussenliggende bestanden die zijn gegenereerd tijdens de uitvoering van de acties. U kunt **Weergave** selecteren om het bestand te downloaden en weer te geven.
+- **Logboek verwerkingsacties** : dit sneltabblad toont de resultaten van de communicatie tussen de invoegtoepassing voor elektronische facturering en de doelwebservice. Het toont ook wat er is geretourneerd door de verwerking vanuit de webservice. De kolom **Foutcode** geeft de retourcode weer die is geretourneerd door de autorisatie-webservice.
 
 Wanneer de ingediende CFDI-factuur is geautoriseerd, wordt de status ervan gewijzigd in **Goedgekeurd**.
 

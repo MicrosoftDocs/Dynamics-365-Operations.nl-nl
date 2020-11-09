@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974856"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013048"
 ---
 # <a name="customer-aging-report"></a>Naar ouderdom gerangschikt rapport voor klanten 
 
@@ -48,7 +48,7 @@ Wanneer u dit rapport genereert, worden de volgende standaardparameters weergege
 <td><p>Selecteer een of meer factureringsclassificaties die u in het rapport wilt opnemen.</p>
 <div class="alert">
 
-**Opmerking**: dit besturingselement is alleen beschikbaar als de configuratiesleutel <STRONG>Openbare sector</STRONG> is geselecteerd.</P>
+**Opmerking** : dit besturingselement is alleen beschikbaar als de configuratiesleutel <STRONG>Openbare sector</STRONG> is geselecteerd.</P>
 
 
 </div></td>
@@ -58,7 +58,7 @@ Wanneer u dit rapport genereert, worden de volgende standaardparameters weergege
 <td><p>Als dit selectievakje is ingeschakeld, worden alle transacties waaraan geen factureringsclassificatie is toegewezen, weergegeven in het rapport.</p>
 <div class="alert">
 
-**Opmerking**: dit besturingselement is alleen beschikbaar als de configuratiesleutel <STRONG>Openbare sector</STRONG> is geselecteerd.</P>
+**Opmerking** : dit besturingselement is alleen beschikbaar als de configuratiesleutel <STRONG>Openbare sector</STRONG> is geselecteerd.</P>
 
 </div></td>
 </tr>
@@ -89,7 +89,7 @@ Wanneer u dit rapport genereert, worden de volgende standaardparameters weergege
 <p>Ouderdomsperiodedefinities met meer dan zes ouderdomsperioden kunnen niet worden gebruikt in het afgedrukte rapport.</p>
 <div class="alert">
 
-**Opmerking**: u kunt ouderdomsperioden instellen op de pagina <STRONG>Ouderdomsperiodedefinities</STRONG>.</P>
+**Opmerking** : u kunt ouderdomsperioden instellen op de pagina <STRONG>Ouderdomsperiodedefinities</STRONG>.</P>
 
 
 </div></td>
@@ -115,8 +115,9 @@ Wanneer u dit rapport genereert, worden de volgende standaardparameters weergege
 <tr class="even">
 <td><p><strong>Afdrukrichting</strong></p></td>
 <td><p>Geef aan of saldi moeten worden berekend en het naar ouderdom gerangschikte rapport moet worden afgedrukt voor perioden in het verleden of in de toekomst. De datums zijn relatief ten opzichte van de datum die in het veld <strong>Saldo vanaf</strong> is geselecteerd. Selecteer <strong>Achterwaarts</strong> om informatie voor perioden in het verleden weer te geven. Selecteer <strong>Voorwaarts</strong> om informatie voor perioden in de toekomst weer te geven.</p>
-
-**Opmerking:** de informatie die u in dit veld invoert, wordt alleen gebruikt als u geen ouderdomsperiodedefinitie hebt geselecteerd.</P>
+<div class="alert">
+  
+<STRONG>Opmerking:</STRONG> de informatie die u in dit veld invoert, wordt alleen gebruikt als u geen ouderdomsperiodedefinitie hebt geselecteerd.</P>
 
 
 </div></td>

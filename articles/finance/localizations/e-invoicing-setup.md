@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 92ffd2076497325fb986478328c4b2584929881d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835933"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039887"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>De invoegtoepassing voor elektronische facturering instellen
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 Het instellen van de functie van de invoegtoepassing voor elektronische facturering betreft het proces om de vereiste configuratie te maken via de RCS-omgeving (Regulatory Configuration Services) en die configuratie te publiceren naar de server van de invoegtoepassing voor elektronische facturering. Met de instelling kunt u de configureerbare regels maken waarmee de invoegtoepassing voor elektronische facturering een beveiligd protocol via internet kan gebruiken om met een externe entiteit te communiceren en gegevens uit te wisselen via webservices.
 
@@ -194,7 +194,7 @@ De beschikbare parameters verschillen, afhankelijk van de actie die is geselecte
 |-----------------------------|-------------|
 | Webservice-URL             | De URL waarnaar aanvragen moeten worden verzonden. |
 | Time-out webaanvraag         | De maximale tijd (in milliseconden) die moet worden gewacht op een reactie van een webservice. |
-| Bewerkingstype aanvraag      | Het type van de HTTP-aanvraagbewerking (bijvoorbeeld **GET**, **POST** of **DELETE**). |
+| Bewerkingstype aanvraag      | Het type van de HTTP-aanvraagbewerking (bijvoorbeeld **GET** , **POST** of **DELETE** ). |
 | Certificaatnamen           | De certificaatnamen. |
 | Codering van reactietekst      | De verwachte codering van de HTTP-reactietekst, zodat deze juist kan worden gedecodeerd. |
 | Inhoudstype van HTTP-aanvragen   | De headerinvoer van het inhoudstype van de HTTP-aanvraag. |

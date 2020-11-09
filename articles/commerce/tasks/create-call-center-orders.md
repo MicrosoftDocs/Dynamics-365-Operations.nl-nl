@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ec10e0f79e4eca7f51ba48c679dcf6fe745eb29
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141425"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107347"
 ---
 # <a name="create-call-center-orders"></a> Callcenterorders maken
 
@@ -30,29 +30,29 @@ ms.locfileid: "3141425"
 
 Deze procedure doorloopt het opzoeken van een klant, het maken van een nieuwe order, het zoeken naar een product en het innen van betaling van de klant. Deze procedure gebruikt het demobedrijf USRT en is bedoeld voor de verkoopordermedewerker. Vereisten: de gebruiker die de procedure uitvoert, is ingesteld als een callcentergebruiker en de halfjaarlijkse catalogus van Fabrikam wordt gepubliceerd met minimaal één broncode.
 
-1. Ga naar Detailhandel en commerce > Klanten > Klantenservice.
-2. Voer in het veld Zoektekst de zoekcriteria in om de klant te zoeken.
-    * Voor deze voorbeeldprocedure typt u 'karen' en drukt u op Tab.  
-3. Klik op Zoeken.
-    * Aangezien er slechts één klant met de naam Karen voorkomt in de demogegevens, wordt zij automatisch geselecteerd.  
-4. Klik op Nieuwe verkooporder.
-5. Vouw de sectie Koptekst van verkooporder uit of samen.
+1. Ga naar **Retail en Commerce \> Klanten \> Klantenservice**.
+2. Voer bij **Zoektekst** de zoekcriteria in om de klant te zoeken.
+    * Voor deze voorbeeldprocedure voert u 'Karen' in en selecteert u **Tab**.  
+3. Selecteer Zoeken.
+    * Aangezien er slechts één klant met de naam Karen voorkomt in de demogegevens, wordt het resultaat automatisch geselecteerd.  
+4. Selecteer **Nieuwe verkooporder**.
+5. Vouw de koptekstsectie **Verkooporder** uit of samen.
 6. Selecteer de broncode voor de catalogus.
-    * Als er geen actieve broncodes zijn, kunt u het veld Bron sluiten en deze stap overslaan.  
-7. Klik op Regel toevoegen.
-8. Voer in het veld Artikelnummer de zoekterm voor het artikel in.
+    * Als er geen actieve broncodes zijn, kunt u deze stap overslaan.  
+7. Selecteer **Regel toevoegen**.
+8. Voer voor **Artikelnummer** de zoekterm voor het artikel in.
     * Voor deze voorbeeldprocedure voert u het gedeeltelijke artikelnummer 8111 in en drukt u op Tab. Het venster voor het zoeken van artikelen wordt dan weergegeven.  
 9. Selecteer het product dat aan de verkooporder moet worden toegevoegd.
 10. Voer de verkoophoeveelheid in.
-11. Klik op Maken.
-12. Klik op Voltooien om de betaling van de klant vast te leggen.
-13. Klik op Toevoegen.
+11. Selecteer **Maken**.
+12. Selecteer **Voltooien** om de betaling van de klant vast te leggen.
+13. Selecteer **Toevoegen**.
     * De koppeling Toevoegen bevindt zich op het tabblad Betalingen. Vouw het tabblad Betalingen uit als het is samengevouwen.  
 14. Selecteer de betalingsmethode.
     * Selecteer voor deze procedure de contante betalingsmethode.  
 15. Sluit de pagina.
 16. Geef het bedrag op.
-    * Voor deze procedure voert u een bedrag in gelijk aan de orderbalans die wordt weergegeven op de pagina Overzicht van verkooporder, links van het bedragveld. U kunt de order dan voltooien als volledig betaald.  
-17. Klik op OK.
-18. Klik op Aanbieden.
+    * Voor deze procedure voert u een bedrag in dat gelijk is aan het ordersaldo dat wordt weergegeven op de pagina Overzicht van verkooporder, links van het bedragveld. U kunt de order dan voltooien als volledig betaald.  
+17. Selecteer **OK**.
+18. Selecteer **Indienen**.
 

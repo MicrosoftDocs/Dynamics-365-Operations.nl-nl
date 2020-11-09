@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 85ccf187e77faf338ac29452d823c3652b806a21
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 40703622bc8c7a21451d31e7606596c5edbe90f7
+ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138110"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4000288"
 ---
 # <a name="split-a-fixed-asset"></a>Een vast activum splitsen
 
@@ -29,17 +29,20 @@ ms.locfileid: "3138110"
 
 In dit onderwerp wordt uitgelegd hoe u een percentage van één activumboek opsplitst naar een nieuw activumboek. Het gebruikt de accountantsrol en USMF-demogegevens.
 
-
 ## <a name="create-a-new-fixed-asset"></a>Nieuwe vaste activa maken
-1. Ga in het navigatievenster naar **Modules > Vaste activa > Vaste activa > Vaste activa**.
+
+1. Ga in het navigatievenster naar **Modules \> Vaste activa \> Vaste activa \> Vaste activa**.
 2. Selecteer **Nieuw**.
-3. Typ of selecteer een waarde in het veld **Groep vaste activa**. Noteer het vaste-activanummer om het later in het splitsingsproces te gebruiken.  
-4. Typ een waarde in het veld **Naam**.
+3. Typ of selecteer een waarde in het veld **Groep vaste activa**. Noteer het vaste-activanummer om het later in het splitsingsproces te gebruiken.
+4. Voer een waarde in het veld **Naam** in.
 5. Het formulier sluiten.
 
 ## <a name="split-a-fixed-asset"></a>Een vast activum splitsen
+
+Voordat een volledig afgeschreven activum wordt gesplitst, moet de status van het activaboek handmatig worden gewijzigd van **Afgesloten** in **Openstaand**. Deze stap is vereist omdat de status van het boek **Openstaand** moet zijn als u transacties voor het activum moet boeken (bijvoorbeeld voor een afboekingsverkoop). Nadat de status van het activaboek is gewijzigd, voert u de volgende stappen uit om het activum te splitsen.
+
 1. Zoek en selecteer in de lijst de koppeling naar het vaste activum om te splitsen.
-2. Selecteer **Boeken**. Selecteer het boek dat u wilt opsplitsen naar het nieuwe activum.  
+2. Selecteer **Boeken**. Selecteer het boek dat u wilt opsplitsen naar het nieuwe activum.
 3. Selecteer **Functies**.
 4. Selecteer **Vast activum splitsen**.
 5. Typ of selecteer een waarde in het veld **Naar vaste activa**.
@@ -50,13 +53,13 @@ In dit onderwerp wordt uitgelegd hoe u een percentage van één activumboek opsp
 10. Selecteer **OK**.
 
 ## <a name="post-the-journal-transaction"></a>De journaaltransactie boeken
-1. Ga in het navigatievenster naar **Modules > Vaste activa > Journaalboekingen > Vaste-activajournaal**.
+
+1. Ga in het navigatievenster naar **Modules \> Vaste activa \> Journaalboekingen \> Vaste-activajournaal**.
 2. Selecteer in de lijst het journaal dat met het splitsingsproces is gemaakt.
 3. Selecteer **Regels**
 
-    - Controleer de gemaakte journaalregels.  
-    - Een bijboekingscorrectietransactie wordt gemaakt voor het oorspronkelijke activum om de waarde te verlagen door het percentage dat is opgegeven tijdens het opsplitsingsproces.  
-    - Een bijboekingstransactie wordt gemaakt voor het nieuwe activum voor hetzelfde bedrag.  
+    - Controleer de gemaakte journaalregels.
+    - Een bijboekingscorrectietransactie wordt gemaakt voor het oorspronkelijke activum om de waarde te verlagen door het percentage dat is opgegeven tijdens het opsplitsingsproces.
+    - Een bijboekingstransactie wordt gemaakt voor het nieuwe activum voor hetzelfde bedrag.
 
 4. Selecteer **Boeken**.
-

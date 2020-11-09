@@ -1,5 +1,5 @@
 ---
-title: Preview-functies in Dynamics 365 Supply Chain Management versie 10.0.14 (oktober 2020)
+title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.14 (oktober 2020)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.14.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22d0dfb44bb999f466eca216e7390488fef33618
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: de159549da9ff8cbcdb69ae0e3131cd1726bc323
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763568"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4038104"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Preview-functies in Dynamics 365 Supply Chain Management 10.0.14 (november 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.14 (november 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management, previewversie 10.0.14. Deze versie heeft een buildnummer van 10.0.605 en is als volgt beschikbaar:
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.14. Deze versie heeft een buildnummer van 10.0.605 en is als volgt beschikbaar:
 
 - **Preview-versie:** september 2020
 - **Algemene beschikbaarheid (zelfupdate):** oktober 2020

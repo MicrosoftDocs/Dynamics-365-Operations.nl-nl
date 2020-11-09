@@ -3,7 +3,7 @@ title: Het delen van inhoud door meerdere kanalen inschakelen en gebruiken
 description: In dit onderwerp wordt beschreven hoe u de functie voor het delen van inhoud door meerdere kanalen in Microsoft Dynamics 365 Commerce Site Builder kunt inschakelen en gebruiken.
 author: psimolin
 manager: annbe
-ms.date: 10/09/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5dad866250bc57a9b158ee73948da509ecccd52c
-ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
+ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974074"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019513"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Het delen van inhoud door meerdere kanalen inschakelen en gebruiken
 
@@ -72,10 +72,10 @@ U kunt inhoud voor meerdere kanalen op verschillende manieren maken en gebruiken
 Voer de volgende stappen uit om een fragment voor meerdere kanalen te maken in Commerce Site Builder.
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
-1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Promotiebanner** en voer vervolgens onder **Naam paginafragment** een naam in (bijvoorbeeld **Banner voor meerdere kanalen**). Selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Nieuw fragment** de module **Promotiebanner** en voer vervolgens onder **Naam fragment** een naam in (bijvoorbeeld **Banner voor meerdere kanalen** ). Selecteer vervolgens **OK**.
 1. Selecteer in het eigenschappenvenster voor de module **Promotiebanner** **Bericht toevoegen** en selecteer vervolgens **Bericht**.
 1. Voer in het dialoogvenster **Bericht** onder **Tekst** **Meerdere kanalen** en selecteer vervolgens **OK**. 
-1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
+1. Selecteer **Opslaan** , selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
 
 Dit fragment voor meerdere kanalen kan worden gebruikt op pagina´s voor meerdere kanalen of kanaalspecifieke pagina's die in een willekeurig sitekanaal worden gemaakt.
 
@@ -87,9 +87,9 @@ Voer de volgende stappen uit om een pagina voor meerdere kanalen te maken in Com
 
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
 1. Selecteer in het dialoogvenster **Een sjabloon kiezen** een sjabloon zoals **Marketing**.
-1. Voer onder **Paginanaam** een paginanaam in (bijvoorbeeld **Pagina van meerdere kanalen**).
-1. Voer onder **Pagina-URL** een pagina-URL in (bijvoorbeeld **examplepage**) en selecteer vervolgens **OK**.
-1. Selecteer in het vak **Hoofd** van de nieuwe pagina de knop met het weglatingsteken (**...**) en selecteer vervolgens **Fragment toevoegen**.
+1. Voer onder **Paginanaam** een paginanaam in (bijvoorbeeld **Pagina van meerdere kanalen** ).
+1. Voer onder **Pagina-URL** een pagina-URL in (bijvoorbeeld **examplepage** ) en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de nieuwe pagina de knop met het weglatingsteken ( **...** ) en vervolgens **Fragment toevoegen**.
 1. Selecteer in het dialoogvenster **Fragment toevoegen** het fragment voor meerdere kanalen dat u eerder hebt gemaakt met een promotiebanner, en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken. U ziet dan de promotiebanner met de titel "Meerdere kanalen".
 1. Selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
@@ -102,9 +102,9 @@ Voer de volgende stappen uit om een kanaalspecifieke pagina te maken in Commerce
 
 1. Vanuit een bepaald kanaal, zoals **Uitgebreide onlinewinkel van Fabrikam** gaat u naar **Pagina's** en selecteert u **Nieuw** om een nieuwe pagina te maken.
 1. Selecteer in het dialoogvenster **Een sjabloon kiezen** een sjabloon zoals **Marketing**.
-1. Voer onder **Paginanaam** een paginanaam in (bijvoorbeeld **Kanaalspecifieke pagina**).
-1. Voer onder **Pagina-URL** een pagina-URL in (bijvoorbeeld **channelspecificpage**) en selecteer vervolgens **OK**.
-1. Selecteer in het vak **Hoofd** van de nieuwe pagina de knop met het weglatingsteken (**...**) en selecteer vervolgens **Fragment toevoegen**.
+1. Voer onder **Paginanaam** een paginanaam in (bijvoorbeeld **Kanaalspecifieke pagina** ).
+1. Voer onder **Pagina-URL** een pagina-URL in (bijvoorbeeld **channelspecificpage** ) en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de nieuwe pagina de knop met het weglatingsteken ( **...** ) en vervolgens **Fragment toevoegen**.
 1. Selecteer in het dialoogvenster **Fragment toevoegen** onder **Kanaal** de optie **Onlinewinkel voor meerdere kanalen**. Het eerder door u gemaakte fragment voor meerdere kanalen wordt weergegeven in de lijst. Selecteer het fragment en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken. U ziet dan de promotiebanner met de titel "Meerdere kanalen".
 1. Selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
@@ -119,7 +119,7 @@ Voer de volgende stappen uit om een kanaalspecifieke versie van een pagina voor 
 1. Open de eerder gemaakte pagina voor meerdere kanalen.
 1. Selecteer in het veld **Kanaal** rechtsboven het kanaal dat specifieke inhoud moet bevatten. In de pagina-editor wordt een bericht weergegeven waarin u wordt gevraagd een nieuwe paginavariant te maken.
 1. Selecteer **Paginavariant maken**.
-1. Selecteer in het vak **Hoofd** van de paginavariant het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het vak **Hoofd** van de paginavariant het weglatingsteken ( **...** ) en vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de module **Promotiebanner** en selecteer vervolgens **OK**.
 1. Selecteer in het eigenschappenvenster voor de module **Promotiebanner** **Bericht toevoegen** en selecteer vervolgens **Bericht**.
 1. Voer in het dialoogvenster **Bericht** onder **Tekst** **Kanaalspecifiek** in en selecteer vervolgens **OK**.
