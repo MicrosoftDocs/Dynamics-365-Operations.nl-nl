@@ -1735,9 +1735,11 @@
                   href: procurement/purchase-agreements.md
                 - name: Een inkoopovereenkomst maken
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Automatische toewijzing van toeslagen
+                  href: procurement/automatic-charges-allocation.md
                 - name: Leverancierskortingen
                   href: procurement/vendor-rebates.md
-                - name: 'Problemen oplossen met prijzen, kortingen en overeenkomsten'
+                - name: 'Problemen met prijzen, kortingen en overeenkomsten oplossen'
                   href: procurement/troubleshooting-pricediscountagreements.md
             - name: Aanschafbeleid
               items:
@@ -2039,8 +2041,16 @@
                           href: production-control/tasks/end-production-order.md
                     - name: Productieorders vrijgeven
                       href: production-control/release-production-orders.md
-                    - name: Productieorders als voltooid melden
+                    - name: Productieorders gereedmelden
                       href: production-control/report-production-orders-as-finished.md
+                    - name: De uitvoeringsinterface voor de werkvloer instellen en gebruiken
+                      items:
+                        - name: De uitvoeringsinterface voor de werkvloer configureren
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken
+                          href: production-control/production-floor-execution-use.md
                     - name: Taakkaart configureren voor apparaten
                       href: production-control/config-job-card-device.md
                     - name: Gereedmelden vanaf het taakkaartapparaat
@@ -2275,6 +2285,8 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Verkooporders verzenden zonder magazijn
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
+                - name: Automatische toewijzing van toeslagen
+                  href: procurement/automatic-charges-allocation.md
                 - name: Een inkooporder maken op basis van een verkooporder
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Verkooporders maken
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Transferorders maken vanuit de magazijnapp
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Verwerking van gebeurtenissen in de magazijnapp
-                      href: warehousing/warehouse-app-events.md
                     - name: Bevestiging van orderverzameling
                       href: warehousing/piece-picking-confirmation.md
                     - name: Verpakkingsmaterialen en -kosten
@@ -2839,11 +2849,13 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Streepjescodes scannen met een camera in de magazijnapp
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Veldnamen in app voor magazijnbeheer configureren
+                    - name: Veldnamen in magazijnapp configureren
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiele apparaten instellen voor magazijnwerk
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Nummerplaat ontvangen met de app voor magazijnbeheer
+                    - name: Verwerking van gebeurtenissen in magazijnapp
+                      href: warehousing/warehouse-app-events.md
+                    - name: Nummerplaat ontvangen met de magazijnapp
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
                       href: warehousing/tasks/set-up-mobile-device-menu.md

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates
+ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be7b1142b011b805c78a3b9380d12085e4b7d28f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c53596f9b11b1a7be4b8f1e18d58a202c74acd4
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204972"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016511"
 ---
 # <a name="replenishment-overview"></a>Overzicht van Aanvulling
 
@@ -37,7 +37,7 @@ De volgende aanvullingsstrategieën zijn beschikbaar:
 - **Aanvulling voor wave-vraag** – Deze strategie maakt aanvullingswerk voor uitgaande orders of ladingen als geen voorraad beschikbaar is wanneer werk wordt gemaakt door de wave. Zo kan bijvoorbeeld aanvullingswerk worden gemaakt als de hoeveelheid die is vereist voor een verkooporder niet beschikbaar is wanneer een wave wordt verwerkt.
 - **Min./max. aanvulling** – Deze strategie gebruikt minimum- en maximumopslaglimieten om te bepalen wanneer locaties moeten worden aangevuld. De artikel- en locatiecriteria definiëren de voorraad die voor aanvulling wordt beoordeeld. Sjablonen voor Min/Max aanvulling zijn het belangrijkste mechanisme voor het onderhouden van optimale niveaus op orderverzamellocaties. Om te garanderen dat voldoende voorraad voor orderverzamelen beschikbaar is om te voldoen aan wave-vraag, kunt u vraagaanvulling gebruiken als aanvulling tussen cycli voor Min/Max aanvulling.
 - **Vraag voor aanvulling laden** – Bij deze strategie wordt de vraag voor verschillende ladingen opgeteld en wordt het aanvullingswerk gemaakt dat is vereist om de relevante orderverzamellocaties te bevoorraden. Deze strategie helpt te garanderen dat de ladingen die zijn gemaakt kunnen worden verzameld in het magazijn nadat ze zijn vrijgegeven.
-- **Directe aanvulling**: met deze strategie wordt voorraad aangevuld vóór het uitvoeren van een wave als toewijzing mislukt voor een locatie-instructieregel met een aanvullingssjabloon. 
+- **Directe aanvulling** : met deze strategie wordt voorraad aangevuld vóór het uitvoeren van een wave als toewijzing mislukt voor een locatie-instructieregel met een aanvullingssjabloon. 
 
 Alle vier de strategieën maken aanvullingswerk, op basis van een sjabloon voor aanvulling.
 

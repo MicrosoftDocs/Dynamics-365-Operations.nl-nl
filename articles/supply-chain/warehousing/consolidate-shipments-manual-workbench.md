@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8320c8aab82a39a8a5565e6b3e805e1065c67453
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986810"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016811"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Zendingen consolideren met de workbench voor het consolideren van zendingen
 
@@ -238,7 +238,7 @@ Met de volgende procedure kunt u de zendingen controleren die zijn gemaakt of bi
 Er moeten twee zendingen zijn gemaakt:
 
 - De eerste zending bevat drie regels en is gemaakt met het consolidatiebeleid voor zendingen *CustomerMode*.
-- De tweede zending, die geen gebruikmaakt van de leveringsmethode *Airways*, is gemaakt met het consolidatiebeleid voor zending *CustomerOrderNo*.
+- De tweede zending, die geen gebruikmaakt van de leveringsmethode *Airways* , is gemaakt met het consolidatiebeleid voor zending *CustomerOrderNo*.
 
 ### <a name="related-shipments-for-order-set-2"></a>Gerelateerde zendingen voor orderset 2
 

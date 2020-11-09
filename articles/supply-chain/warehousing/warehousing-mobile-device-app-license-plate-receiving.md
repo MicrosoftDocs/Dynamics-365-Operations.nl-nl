@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 60e69fd62d6d15a1fcb17644ef4710b8764ce924
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651709"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016557"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Nummerplaat ontvangen via de magazijnapp
 
@@ -30,7 +31,7 @@ In dit onderwerp wordt uitgelegd hoe u de magazijnapp kunt instellen om het ontv
 
 Met deze functie kunt u snel de ontvangst van de inkomende voorraad vastleggen die is gerelateerd aan een voorschotbericht (advance shipping notice, ASN). Het systeem maakt automatisch een ASN wanneer magazijnbeheerprocessen worden gebruikt om een transferorder te verzenden. Voor het inkooporderproces kan een ASN handmatig worden vastgelegd of kan deze automatisch worden geïmporteerd met behulp van een inkomend ASN-gegevensentiteitproces.
 
-De ASN-gegevens worden gekoppeld aan ladingen en zendingen via *de verpakkingsstructuren*, waarbij pallets (bovenliggende nummerplaten) dozen kunnen bevatten (geneste nummerplaten).
+De ASN-gegevens worden gekoppeld aan ladingen en zendingen via *de verpakkingsstructuren* , waarbij pallets (bovenliggende nummerplaten) dozen kunnen bevatten (geneste nummerplaten).
 
 > [!NOTE]
 > Om het aantal voorraadtransacties te verminderen wanneer de verpakkingsstructuren met geneste nummerplaten worden gebruikt, registreert het systeem de fysieke voorhanden voorraad op de bovenliggende nummerplaat. Om de verplaatsing van de fysieke voorhanden voorraad van de bovenliggende nummerplaat naar de geneste nummerplaat te activeren, op basis van de verpakkingsstructuurgegevens, moet het mobiele apparaat een menuopdracht geven die is gebaseerd op het werkaanmaakproces *Verpakken naar geneste nummerplaten*.
@@ -41,7 +42,7 @@ Wanneer een werknemer een binnenkomende nummerplaat-id scant, initialiseert het 
 
 ## <a name="work-policies"></a>Werkbeleidsregels
 
-Net als met (bijvoorbeeld) het proces voor de menuopdracht voor mobiele apparaten *Gereedmelden*, ondersteunt het proces voor nummerplaatontvangst verschillende workflows op basis van de gedefinieerde instellingen.
+Net als met (bijvoorbeeld) het proces voor de menuopdracht voor mobiele apparaten *Gereedmelden* , ondersteunt het proces voor nummerplaatontvangst verschillende workflows op basis van de gedefinieerde instellingen.
 
 ### <a name="work-policies-with-work-creation"></a>Werkbeleid waarbij werk wordt gemaakt
 
@@ -76,8 +77,8 @@ U kunt de functie *Bepalen of de pagina met het ontvangstoverzicht wordt weergeg
 
 Als deze functie is ingeschakeld, bevatten de menuopdrachten van het mobiele apparaat voor het ontvangen en opslaan van nummerplaten de instelling **Pagina met het ontvangstoverzicht weergeven**. Deze instelling heeft de volgende opties:
 
-- **Een gedetailleerd overzicht weergeven**: tijdens het ontvangen van een nummerplaat krijgen de werknemers een extra pagina te zien waarop de volledige ASN-informatie wordt weergegeven.
-- **Het overzicht overslaan**: werknemers kunnen de volledige ASN-informatie niet zien. Magazijnmedewerkers kunnen ook geen beschikkingscode instellen of uitzonderingen toevoegen tijdens het ontvangstproces.
+- **Een gedetailleerd overzicht weergeven** : tijdens het ontvangen van een nummerplaat krijgen de werknemers een extra pagina te zien waarop de volledige ASN-informatie wordt weergegeven.
+- **Het overzicht overslaan** : werknemers kunnen de volledige ASN-informatie niet zien. Magazijnmedewerkers kunnen ook geen beschikkingscode instellen of uitzonderingen toevoegen tijdens het ontvangstproces.
 
 Om deze functionaliteit beschikbaar te maken op uw systeem, moet u de functie *Bepalen of de pagina met het ontvangstoverzicht wordt weergegeven op mobiele apparaten* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) inschakelen.
 
@@ -94,8 +95,8 @@ Voer de volgende stappen uit om de functionaliteit te beheren wanneer deze funct
 1. Ga naar **Magazijnbeheer \> Instellingen \> Parameters voor magazijnbeheer**.
 1. Stel op het tabblad **Algemeen** op het sneltabblad **Nummerplaten** het veld **Beleid voor nummerplaten transitmagazijn** in op een van de volgende waarden:
 
-    - **Hergebruik toestaan van niet-getraceerde nummerplaat**: het systeem werkt op dezelfde manier als wanneer functie de *Verhinderen dat met transferorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* niet beschikbaar is. Deze waarde is de standaardinstelling wanneer u de functie voor het eerst activeert.
-    - **Hergebruik verhinderen van niet-getraceerde nummerplaat**: alleen voorhanden updates die zijn gerelateerd aan een geleverde nummerplaat worden toegestaan in het doelmagazijn totdat de transferorder is ontvangen.
+    - **Hergebruik toestaan van niet-getraceerde nummerplaat** : het systeem werkt op dezelfde manier als wanneer functie de *Verhinderen dat met transferorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* niet beschikbaar is. Deze waarde is de standaardinstelling wanneer u de functie voor het eerst activeert.
+    - **Hergebruik verhinderen van niet-getraceerde nummerplaat** : alleen voorhanden updates die zijn gerelateerd aan een geleverde nummerplaat worden toegestaan in het doelmagazijn totdat de transferorder is ontvangen.
 
 ## <a name="more-information"></a>Meer informatie
 

@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 46095e4ec21aac7cbf98dc1265ea7c8de27148ab
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967329"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015038"
 ---
 # <a name="feature-management-overview"></a>Overzicht van Functiebeheer
 
@@ -37,20 +37,20 @@ U kunt het werkgebied **Functiebeheer** openen door de gewenste tegel te selecte
 
 De lijst met functies bevat de volgende informatie:
 
-- **Functienaam**: een beschrijving van de functie die is toegevoegd.
-- **Inschakelstatus**: een symbool geeft aan of een functie is ingeschakeld (vinkje), niet is ingeschakeld (leeg), ingepland is voor inschakeling (klok), verplicht is ingeschakeld (slot), aandacht vereist vóór inschakelen (waarschuwing) of niet kan worden ingeschakeld (X). De instelling die wordt weergegeven, wordt gebruikt voor alle rechtspersonen. Houd er rekening mee dat zelfs wanneer een functie is ingeschakeld, deze nog steeds aan de beveiliging moet voldoen. Daarom is de functie alleen beschikbaar voor gebruikers die toegang hebben tot de functie op basis van hun beveiligingsrol. Deze is ook alleen beschikbaar voor rechtspersonen waartoe de gebruiker toegang heeft.
-- **Inschakeldatum**: de datum waarop de functie is ingeschakeld of gepland staat om te worden ingeschakeld.
-- **Toegevoegde functie**: de datum waarop de functie aan uw omgeving is toegevoegd. Deze datum wordt automatisch ingevoerd wanneer u uw omgeving bijwerkt tijdens de maandelijkse releasecycli.
-- **Module**: de module waarop de nieuwe functie van invloed is.
+- **Functienaam** : een beschrijving van de functie die is toegevoegd.
+- **Inschakelstatus** : een symbool geeft aan of een functie is ingeschakeld (vinkje), niet is ingeschakeld (leeg), ingepland is voor inschakeling (klok), verplicht is ingeschakeld (slot), aandacht vereist vóór inschakelen (waarschuwing) of niet kan worden ingeschakeld (X). De instelling die wordt weergegeven, wordt gebruikt voor alle rechtspersonen. Houd er rekening mee dat zelfs wanneer een functie is ingeschakeld, deze nog steeds aan de beveiliging moet voldoen. Daarom is de functie alleen beschikbaar voor gebruikers die toegang hebben tot de functie op basis van hun beveiligingsrol. Deze is ook alleen beschikbaar voor rechtspersonen waartoe de gebruiker toegang heeft.
+- **Inschakeldatum** : de datum waarop de functie is ingeschakeld of gepland staat om te worden ingeschakeld.
+- **Toegevoegde functie** : de datum waarop de functie aan uw omgeving is toegevoegd. Deze datum wordt automatisch ingevoerd wanneer u uw omgeving bijwerkt tijdens de maandelijkse releasecycli.
+- **Module** : de module waarop de nieuwe functie van invloed is.
 
 Wanneer u een functie selecteert, wordt aanvullende informatie weergegeven in het detailvenster rechts van de lijst met functies. Boven aan het deelvenster ziet u de functienaam, de datum waarop het onderdeel is toegevoegd, de module waarvoor de functie geldt en een koppeling **Meer informatie**. Selecteer deze koppeling om de documentatie voor de functie weer te geven. Als er geen documentatie beschikbaar is, wordt u naar een tijdelijke pagina geleid. Het detailvenster bevat ook een veld **Opmerkingen** waarin u uw eigen opmerkingen over de functie kunt toevoegen.
 
 Het werkgebied **Functiebeheer** bevat tevens diverse tabbladen, elk met een lijst met functies.
 
-- **Nieuw**: de tabblad bevat alle functies die zijn toegevoegd sinds de laatste maandelijkse update. Als u maandelijkse updates hebt overgeslagen, worden op het tabblad alle nieuwe functies weergegeven die zijn toegevoegd sinds u voor het laatst hebt bijgewerkt. De nieuwste functies worden boven aan de lijst weergegeven. Het totale aantal nieuwe functies wordt ook weergegeven in een tegel boven aan de pagina.
-- **Niet ingeschakeld**: op dit tabblad worden alle functies weergegeven die niet zijn ingeschakeld. De nieuwste functies worden boven aan de lijst weergegeven. Het totale aantal nieuwe functies dat niet is ingeschakeld, wordt ook weergegeven in een tegel boven aan de pagina.
-- **Gepland**: dit tabblad toont alle functies die zijn gepland voor inschakeling op een toekomstige datum. De functies met de vroegste geplande datum worden boven aan de lijst weergegeven. Het totale aantal geplande nieuwe functies wordt ook weergegeven in een tegel boven aan de pagina.
-- **Alle**: op dit tabblad worden alle functies weergegeven. De nieuwste functies worden boven aan de lijst weergegeven.
+- **Nieuw** : de tabblad bevat alle functies die zijn toegevoegd sinds de laatste maandelijkse update. Als u maandelijkse updates hebt overgeslagen, worden op het tabblad alle nieuwe functies weergegeven die zijn toegevoegd sinds u voor het laatst hebt bijgewerkt. De nieuwste functies worden boven aan de lijst weergegeven. Het totale aantal nieuwe functies wordt ook weergegeven in een tegel boven aan de pagina.
+- **Niet ingeschakeld** : op dit tabblad worden alle functies weergegeven die niet zijn ingeschakeld. De nieuwste functies worden boven aan de lijst weergegeven. Het totale aantal nieuwe functies dat niet is ingeschakeld, wordt ook weergegeven in een tegel boven aan de pagina.
+- **Gepland** : dit tabblad toont alle functies die zijn gepland voor inschakeling op een toekomstige datum. De functies met de vroegste geplande datum worden boven aan de lijst weergegeven. Het totale aantal geplande nieuwe functies wordt ook weergegeven in een tegel boven aan de pagina.
+- **Alle** : op dit tabblad worden alle functies weergegeven. De nieuwste functies worden boven aan de lijst weergegeven.
 
 ## <a name="turn-on-a-feature"></a>Een functie inschakelen
 
@@ -130,11 +130,11 @@ Met een gegevensentiteit met de naam **Functiebeheer** kunt u de instellingen vo
 
 In de volgende voorbeelden wordt beschreven wat er gebeurt wanneer u de entiteit **Functiebeheer** gebruikt om gegevens te importeren.
 
-- Als u de waarde van het veld **Ingeschakeld** wijzigt in **Ja**, wordt de functie ingeschakeld en wordt het veld **Inschakeldatum** ingesteld op de huidige datum.
+- Als u de waarde van het veld **Ingeschakeld** wijzigt in **Ja** , wordt de functie ingeschakeld en wordt het veld **Inschakeldatum** ingesteld op de huidige datum.
 - Als u de waarde van het veld **Ingeschakeld** wijzigt in **Nee** of het veld **EnableDate** leeg laat, wordt de functie uitgeschakeld en wordt het veld **Inschakeldatum** gewist. U kunt een verplichte functie of een functie die niet meer kan worden uitgeschakeld na het inschakelen, niet uitschakelen.
 - Als u de waarde van het veld **EnableDate** in een toekomstige datum wijzigt, wordt de functie voor die datum gepland.
 - Als u de waarde van het veld **Ingeschakeld** wijzigt in **Ja** en de waarde van het veld **EnableDate** op een toekomstige datum instelt, wordt de functie voor die datum gepland. 
-- Als u de waarde van het veld **Ingeschakeld** wijzigt in **Nee**, maar ook de waarde van het veld **EnableDate** op een toekomstige datum instelt, wordt de functie voor die datum gepland.
+- Als u de waarde van het veld **Ingeschakeld** wijzigt in **Nee** , maar ook de waarde van het veld **EnableDate** op een toekomstige datum instelt, wordt de functie voor die datum gepland.
 - Als een functie is ingeschakeld en u een veld **EnableDate** toevoegt dat op een toekomstige datum is ingesteld, blijft de functie ingeschakeld. Als u de functie opnieuw wilt plannen, moet u het veld **Ingeschakeld** in **Nee** wijzigen.
 
 ## <a name="feature-management-and-flighting"></a>Functiebeheer en flighting
@@ -181,9 +181,11 @@ Functie-flights zijn real-time switches die door Microsoft worden bediend. Ze st
 Ja, als een functie van invloed is op de werking van een omgeving zonder functionele effecten, kunnen deze standaard worden ingeschakeld.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Hoe kan de inschakeling van een functie worden gecontroleerd in code?
-Gebruik de **isFeatureEnabled** van de klasse **FeatureStateProvider**, waarbij deze een instantie van de functieklasse doorgeeft. Voorbeeld: 
+Gebruik de **isFeatureEnabled** van de klasse **FeatureStateProvider** , waarbij deze een instantie van de functieklasse doorgeeft. Voorbeeld: 
 
-    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```xpp
+if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```
 
 ### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Hoe kan de inschakeling van een functie worden gecontroleerd in metagegevens?
 De eigenschap **FeatureClass** kan worden gebruikt om aan te geven dat sommige metagegevens aan een functie zijn gekoppeld. De klassenaam die voor de functie moet worden gebruikt, bijvoorbeeld **BatchContentionPreventionFeature**. Deze metagegevens zijn alleen zichtbaar in die functie. De eigenschap **FeatureClass** is beschikbaar in menu's, menu-items, opsommingswaarden en tabel- en weergavevelden.
@@ -191,9 +193,11 @@ De eigenschap **FeatureClass** kan worden gebruikt om aan te geven dat sommige m
 ### <a name="what-is-a-feature-class"></a>Wat is een functieklasse?
 Functies in Functiebeheer zijn gedefinieerd als *functieklassen*. Met een functieklasse **worden IFeatureMetadata geïmplementeerd** en wordt het kenmerk functieklasse gebruikt om zichzelf te identificeren bij de werkruimte Functiebeheer. Er zijn talloze voorbeelden van functieklassen beschikbaar die kunnen worden gecontroleerd op inschakeling in code met behulp van de API **FeatureStateProvider** en in metagegevens met de eigenschap **FeatureClass**. Voorbeeld: 
 
-    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
-    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
-    
+```xpp
+[ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+```
+
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Wat is de IFeatureLifecycle die door sommige functieklassen is geïmplementeerd?
 IFeatureLifecycle is een intern Microsoft-mechanisme voor het aangeven van de levenscyclus van de functie. Hierbij kan het om de volgende functies gaan:
 - PrivatePreview - heeft een flight nodig om zichtbaar te zijn.

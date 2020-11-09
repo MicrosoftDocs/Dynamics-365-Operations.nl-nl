@@ -3,7 +3,7 @@ title: Werken met fragmenten
 description: In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten in gebruikt Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961653"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019559"
 ---
 # <a name="work-with-fragments"></a>Werken met fragmenten 
 
@@ -58,31 +58,27 @@ U kunt een nieuw fragment maken of een bestaande moduleconfiguratie als fragment
 
 ### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Een bestaande module configuratie als fragment opslaan
 
-Voer de volgende stappen uit om een eerder geconfigureerde module te converteren naar een herbruikbaar fragment.
+Voer de volgende stappen uit om een eerder geconfigureerde module te converteren naar een herbruikbaar fragment in Commerce Site Builder.
 
 1. Open een pagina of sjabloon die de module bevat die u naar een fragment wilt converteren.
 1. Selecteer de eerder geconfigureerde module in het overzichtsvenster links of rechtstreeks in de visuele paginabouwer.
-1. Selecteer het beletselteken (**...**) naast de naam van de module in het overzichtsvenster of op de werkbalk van de geselecteerde module in visuele paginabouwer. 
-1. Selecteer **Delen als paginafragment**. 
-1. Voer in het dialoogvenster **Paginafragment opslaan als** een naam voor het fragment in.
+1. Selecteer het beletselteken ( **...** ) naast de naam van de module in het overzichtsvenster of op de werkbalk van de geselecteerde module in visuele paginabouwer. 
+1. Selecteer **Delen als fragment**. 
+1. Voer in het dialoogvenster **Fragment opslaan als** een naam voor het fragment in.
 1. Selecteer **OK** om de moduleconfiguratie op te slaan als een fragment dat aan andere pagina's kan worden toegevoegd.
-
-In de volgende afbeelding ziet u hoe u een moduleconfiguratie als fragment kunt opslaan.
-
-![Een schermopname van het opslaan van een moduleconfiguratie als fragment](./media/save-as-fragment.png)
+<!-- The following image shows how to save a module configuration as a fragment.-->
+<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>Een nieuw fragment maken
 
-Volg deze stappen om een nieuw fragment te maken.
+Voer de volgende stappen uit om een nieuw fragment te maken in Commerce Site Builder.
 
 1. Selecteer **Fragmenten** in het navigatievenster aan de linkerkant.
-1. Selecteer **Nieuw paginafragment**. Er wordt een dialoogvenster weergegeven waarin alle beschikbare moduletypen worden weergegeven. Zoals eerder is vermeld, kunnen fragmenten vanuit elk type module worden gemaakt.
+1. Selecteer **Nieuw**. Het dialoogvenster **Nieuw fragment** verschijnt waarin alle beschikbare moduletypen worden weergegeven. Zoals eerder is vermeld, kunnen fragmenten vanuit elk type module worden gemaakt.
 1. Selecteer een moduletype voor het fragment.
 
-In de volgende afbeelding ziet u waar u een nieuw fragment kunt maken.
-
-![Een schermopname van waar u een nieuw fragment kunt maken](./media/fragment-nav-menu.png)
-
+<!-- The following image shows where to create a new fragment.-->
+<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Selecteer een algemeen containermoduletype voor de meeste flexibiliteit wanneer u het fragment later moet bijwerken en configureren.
 
@@ -92,30 +88,28 @@ In de volgende procedures wordt beschreven hoe u fragmenten toevoegt en verwijde
 
 ### <a name="add-a-fragment"></a>Een fragment toevoegen
 
-Om een fragment aan een pagina toe te voegen, volgt u deze stappen.
+Voer de volgende stappen uit om een fragment aan een pagina toe te voegen in Commerce Site Builder.
 
 1. Selecteer in het overzichtsvenster links of rechtstreeks in visuele paginabouwer een container of vak waaraan onderliggende modules kunnen worden toegevoegd.
-1. Selecteer in het online deelvenster het weglatingsteken (**...**) naast de naam van de container of het vak.  Als alternatief kunt u, als u visuele paginabouwer gebruikt, het plusteken (**+**) selecteren.  
+1. Selecteer het weglatingsteken ( **...** ) naast de naam van de container of het vak.  Als alternatief kunt u, als u visuele paginabouwer gebruikt, het plusteken ( **+** ) selecteren.  
 1. Selecteer **Fragment toevoegen**.
-
-    ![Een schermopname van hoe u een bestaand fragment toevoegt aan een vak of container](./media/add-fragment.png)
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Als nieuwe onderliggende modules niet door de container of het vak worden ondersteund, is de optie **Fragment toevoegen** niet beschikbaar.
     
-1. Zoek in het dialoogvenster **Fragment toevoegen** een fragment dat u wilt toevoegen en voeg het toe. Als er geen beschikbare fragmenten worden weergegeven, moet u mogelijk eerst een fragment maken van een moduletype dat door de geselecteerde container of of het geselecteerde vak wordt ondersteund.
+1. Zoek in het dialoogvenster **Fragment selecteren** een fragment dat u wilt toevoegen en selecteer het. Als er geen beschikbare fragmenten worden weergegeven, moet u mogelijk eerst een fragment maken van een moduletype dat door de geselecteerde container of of het geselecteerde vak wordt ondersteund.
 1. Selecteer het gewenste fragment en voeg het toe aan de container of het vak op uw pagina.
-
-    ![Een schermopname van het modale venster voor de fragmentkiezer](./media/fragment-picker.png)
+<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > De modules die in een container of vak zijn toegestaan, worden gedefinieerd door de paginasjabloon of de eigen definities van de modules.
 
 ### <a name="remove-a-fragment"></a>Een fragment verwijderen
 
-Voer deze stappen uit om een fragment uit een vak of een container van een pagina te verwijderen.
+Voer de volgende stappen uit om een fragment te verwijderen uit een vak of container op een pagina in Commerce Site Builder.
 
-1. Selecteer in het overzichtsvenster aan de linkerkant het weglatingsteken (**...**) naast het fragment dat u wilt verwijderen en selecteer vervolgens de knop Prullenbak.  U kunt ook het fragment in visuele paginabouwer selecteren en het symbool Prullenbak op de werkbalk van de fragment selecteren.
+1. Selecteer in het overzichtsvenster aan de linkerkant het weglatingsteken ( **...** ) naast het fragment dat u wilt verwijderen en selecteer vervolgens de knop Prullenbak.  U kunt ook het fragment in visuele paginabouwer selecteren en het symbool Prullenbak op de werkbalk van de fragment selecteren.
 1. Wanneer u wordt gevraagd te bevestigen dat u het fragment wilt verwijderen, selecteert u **OK**.
 
 > [!NOTE]
@@ -125,7 +119,7 @@ Voer deze stappen uit om een fragment uit een vak of een container van een pagin
 
 Als u fragmenten wilt bewerken, moet u de gebruikersinterface voor de fragmenteditor gebruiken. Dit is zo ontworpen. Hierdoor kunnen ontwerpers het proces van het bewerken van modules voor een bepaalde pagina niet verwarren met het proces voor het bewerken van fragmenten die op veel pagina's kunnen worden gedeeld.
 
-Volg deze stappen om een fragment te bewerken.
+Voer de volgende stappen uit om een fragment te bewerken in Commerce Site Builder.
 
 1. Selecteer **Fragmenten** in het navigatievenster aan de linkerkant.
 1. Selecteer onder **Fragmenten** het fragment dat u wilt bewerken.

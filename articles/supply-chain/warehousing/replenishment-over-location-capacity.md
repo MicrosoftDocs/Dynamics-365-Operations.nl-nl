@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5591af5fce4eb3fc901919b98f654faa5e160c54
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652222"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016603"
 ---
 # <a name="replenishment-over-location-capacity"></a>Aanvulling boven locatiecapaciteit
 
@@ -62,13 +63,13 @@ Schakel de functionaliteit voor aanvulling boven capaciteit in het locatieprofie
 
         Dit veld bepaalt de methode die wordt gebruikt om te bepalen wanneer meer werk moet worden vrijgegeven. U kunt vrijgeven op hoeveelheid of percentage:
 
-        - *Percentage*: selecteer deze optie om percentagecapaciteit te gebruiken die is gebaseerd op voorraadlimieten of volumes. Als u deze optie selecteert , wordt het veld **Overschrijdingspercentage** ingeschakeld en worden de twee hoeveelheidsvelden, **Overschrijdingshoeveelheid** en **Overschrijdingseenheid** uitgeschakeld.
+        - *Percentage* : selecteer deze optie om percentagecapaciteit te gebruiken die is gebaseerd op voorraadlimieten of volumes. Als u deze optie selecteert , wordt het veld **Overschrijdingspercentage** ingeschakeld en worden de twee hoeveelheidsvelden, **Overschrijdingshoeveelheid** en **Overschrijdingseenheid** uitgeschakeld.
 
             U kunt deze optie gebruiken als de verzamellocaties volumes gebruiken.
 
             Als deze optie is geselecteerd, stelt u het veld **Overschrijdingspercentage** in op het percentage waarbij meer aanvullingswerk beschikbaar wordt gemaakt.
 
-        - *Hoeveelheid*: selecteer deze optie om een specifieke hoeveelheidswaarde te gebruiken. Als u deze optie selecteert , wordt het veld **Overschrijdingspercentage** uitgeschakeld en worden de twee hoeveelheidsvelden, **Overschrijdingshoeveelheid** en **Overschrijdingseenheid** ingeschakeld.
+        - *Hoeveelheid* : selecteer deze optie om een specifieke hoeveelheidswaarde te gebruiken. Als u deze optie selecteert , wordt het veld **Overschrijdingspercentage** uitgeschakeld en worden de twee hoeveelheidsvelden, **Overschrijdingshoeveelheid** en **Overschrijdingseenheid** ingeschakeld.
 
             Gebruik deze optie wanneer u geen volumes gebruikt voor de locaties die worden aangevuld, of wanneer u consistente hoeveelheden hebt waarbij meer voorraad naar de locatie moet worden gebracht.
 
@@ -227,8 +228,8 @@ Nadat u alle eerder beschreven voorbeeldgegevens hebt gemaakt en ingesteld, kunt
 1. Filter in de sectie **Overzicht** de kolom **Magazijn** voor magazijn *61*.
 1. U ziet dat er zeven werk-id's zijn gemaakt voor de drie vraagverkooporders.
 
-    - Drie van de zeven werk-id's hebben de **werkordertype**-waarde *Aanvulling* en vier hebben de **werkordertype**-waarde *Verkooporders*.
-    - Alle drie de werk-id's met een **werkordertype**-waarde van *Aanvulling* hebben dezelfde *verzamel-* en *wegzet*-locaties in de sectie **Regels**:
+    - Drie van de zeven werk-id's hebben de **werkordertype** -waarde *Aanvulling* en vier hebben de **werkordertype** -waarde *Verkooporders*.
+    - Alle drie de werk-id's met een **werkordertype** -waarde van *Aanvulling* hebben dezelfde *verzamel-* en *wegzet* -locaties in de sectie **Regels** :
 
         - **Verzamelen:** *02A01R5S1B*
         - **Wegzetten:** *06A01R2S1B*
@@ -278,7 +279,7 @@ U voert de magazijnlocatieaanvulling uit voor de eerste twee werk-Id's. Werk aan
 
 1. Selecteer **OK** om de waarde te bevestigen.
 
-    Er wordt wegzetwerk weergegeven dat de gebruiker instrueert de doelnummerplaat op de aanvullingslocatie weg te zetten. De *wegzet*locatie moet **06A01R2S1B** zijn.
+    Er wordt wegzetwerk weergegeven dat de gebruiker instrueert de doelnummerplaat op de aanvullingslocatie weg te zetten. De *wegzet* locatie moet **06A01R2S1B** zijn.
 
 1. Bevestig de wegzetgegevens en klik op **OK**.
 
@@ -288,7 +289,7 @@ U voert de magazijnlocatieaanvulling uit voor de eerste twee werk-Id's. Werk aan
 
 Nadat het tweede aanvullingswerk is voltooid, wordt het bericht 'Werk voltooid' weergegeven. Het mobiele apparaat informeert u ook dat er geen werk beschikbaar is, zelfs als enig aanvullingswerk resteert. Deze werking treedt op omdat het aanvullingswerk de beschikbaarheidsstatus *Geblokkeerd* heeft en daarom is gemarkeerd als **Geblokkeerd**.
 
-De status *Geblokkeerd* is ingeschakeld omdat het locatieprofiel voor de verzamellocatie waaraan het werk wordt toegewezen, een **Overschrijdingshoeveelheid**-waarde van *0,65 PL* heeft. De twee eerdere aanvullingswerktaken hebben de locatie bijna tot op de overschrijdingslimiet gevuld voor artikel *T0100*. (De eenheidsomrekening voor het artikel is *1 PL = 100 stuks*.) Het resterende aanvullingswerk zou daarom de locatie de limiet doen overschrijden.
+De status *Geblokkeerd* is ingeschakeld omdat het locatieprofiel voor de verzamellocatie waaraan het werk wordt toegewezen, een **Overschrijdingshoeveelheid** -waarde van *0,65 PL* heeft. De twee eerdere aanvullingswerktaken hebben de locatie bijna tot op de overschrijdingslimiet gevuld voor artikel *T0100*. (De eenheidsomrekening voor het artikel is *1 PL = 100 stuks*.) Het resterende aanvullingswerk zou daarom de locatie de limiet doen overschrijden.
 
 Dit aanvullingswerk blijft geblokkeerd tot er voldoende voorraad is verzameld vanaf deze locatie om de locatie onder de werkvrijgavedrempel te brengen in de menuopdracht van het mobiele apparaat.
 
@@ -375,7 +376,7 @@ U kunt dit aanvullingswerk nu uitvoeren via het mobiele apparaat.
 
 1. Selecteer **OK** om de waarde te bevestigen.
 
-    Er wordt wegzetwerk weergegeven dat de gebruiker instrueert de doelnummerplaat op de aanvullingslocatie weg te zetten. De *wegzet*locatie moet **06A01R2S1B** zijn.
+    Er wordt wegzetwerk weergegeven dat de gebruiker instrueert de doelnummerplaat op de aanvullingslocatie weg te zetten. De *wegzet* locatie moet **06A01R2S1B** zijn.
 
 1. Bevestig de wegzetgegevens en klik op **OK**.
 

@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bd741cdf86ef73742a75bac910d7560cb380cfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189540"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006231"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Enkel boekstuk met meerdere klant- of leveranciersrecords
 
@@ -50,9 +50,8 @@ Wanneer u een boekstuk boekt dat meerdere klant- of leverancierrecords bevat, wo
 
 In het volgende voorbeeld zijn meerdere leveranciersfacturen geregistreerd in het grootboek op één boekstuk op de pagina **Algemeen journaal**. Deze facturen zijn verdeeld over meerdere rekeningdimensies.
 
-|             |                  |              |                 |           |            |
+| Boekstuk | Rekeningtype | Rekening  | Beschrijving | Debet | Krediet |
 |-------------|------------------|--------------|-----------------|-----------|------------|
-| **Boekstuk** | **Rekeningtype** | **Rekening**  | **Omschrijving** | **Debet** | **Krediet** |
 | GNJL001     | Leverancier           | 1001         | INV1            |           | 100,00     |
 | GNJL001     | Leverancier           | 1001         | INV2            |           | 200,00     |
 | GNJL001     | Leverancier           | 1001         | INV3            |           | 300,00     |
@@ -63,9 +62,8 @@ In het volgende voorbeeld zijn meerdere leveranciersfacturen geregistreerd in he
 
 Na het boeken wordt één boekstuk gemaakt.
 
-|             |              |                  |                                    |
+| Boekstuk | Rekening  | Boekingstype | Bedrag in transactievaluta |
 |-------------|--------------|------------------|------------------------------------|
-| **Boekstuk** | **Rekening**  | **Boekingstype** | **Bedrag in transactievaluta** |
 | GNJL001     | 606300-001-- | Grootboekjournaal   | 50,00                              |
 | GNJL001     | 606300-002-- | Grootboekjournaal   | 50,00                              |
 | GNJL001     | 606300-003-- | Grootboekjournaal   | 200,00                             |
@@ -78,9 +76,8 @@ Merk op dat hier drie vermeldingen voorkomen voor het boekingstype Leverancierss
 
 Met dit voorbeeld kunnen we het effect analyseren dat een enkel boekstuk heeft op de vereffeningboekhouding later in het proces. Stel dat u van de factuur van 200,00 een bedrag van 197,00 betaalt en een contantkorting van 3,00 neemt. Merk op dat de waarde van de contantkortingsrekening over alle dimensies van kostenrekeningen van het factuurboekstuk is toegewezen. Dit komt doordat één boekstuk werd gebruikt om de bovenstaande factuur te boeken, zonder aan te geven hoe de gebruiker de kostenverdelingen wilde laten correleren met het leverancierssaldo in het enkele boekstuk.
 
-|             |              |                      |           |            |
+| Boekstuk | Rekening  | Boekingstype     | Debet | Krediet |
 |-------------|--------------|----------------------|-----------|------------|
-| **Boekstuk** | **Rekening**  | **Boekingstype**     | **Debet** | **Krediet** |
 | APPAYM001   | 200110-001-  | Leveranciersaldo       | 197.00    |            |
 | APPAYM001   | 110110-001-  | Bank                 |           | 197.00     |
 | 14000056    | 520200-001-- | Contantkorting van leverancier |           | 0.25       |
@@ -91,9 +88,8 @@ Met dit voorbeeld kunnen we het effect analyseren dat een enkel boekstuk heeft o
 
 Als de gebruiker niet wil dat de contantkorting wordt toegewezen over de volledige uitgavenverdeling van de oorspronkelijke factuur, in plaats van één boekstuk, moeten meerdere boekstukken worden gebruikt om de facturen te registreren. In het volgende voorbeeld ziet u hoe meerdere boekstukken kunnen worden ingevoerd in het grootboek, in plaats een enkel boekstuk te gebruiken zoals aan het begin van dit voorbeeld wordt getoond.
 
-|             |                  |              |                 |           |            |                 |                    |
+| Boekstuk | Rekeningtype | Rekening  | Beschrijving | Debet | Krediet | Type tegenrekening | Tegenrekening |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Boekstuk** | **Rekeningtype** | **Rekening**  | **Omschrijving** | **Debet** | **Krediet** | **Type tegenrekening** | **Tegenrekening** |
 | GNJL001     | Leverancier           | 1001         | INV1            |           | 100,00     | Grootboek          | &lt;leeg&gt;      |
 | GNJL001     | Grootboek           | 606300-001-- | INV1            |   50,00   |            | Grootboek          | &lt;leeg&gt;      |
 | GNJL001     | Grootboek           | 606300-002-- | INV1            |   50,00   |            | Grootboek          | &lt;leeg&gt;      |
@@ -102,9 +98,8 @@ Als de gebruiker niet wil dat de contantkorting wordt toegewezen over de volledi
 
 Wanneer nu INV2 wordt betaald, wordt de volgende vermelding aangemaakt. Merk op dat de financiële dimensies van de contantkorting de financiële dimensies van de bijbehorende uitgaven volgen.
 
-|             |              |                      |           |            |
+| Boekstuk | Rekening  | Boekingstype     | Debet | Krediet |
 |-------------|--------------|----------------------|-----------|------------|
-| **Boekstuk** | **Rekening**  | **Boekingstype**     | **Debet** | **Krediet** |
 | APPAYM001   | 200110-001-  | Leveranciersaldo       | 197.00    |            |
 | APPAYM001   | 110110-001-  | Bank                 |           | 197.00     |
 | 14000056    | 520200-003-- | Contantkorting van leverancier |           | 3,00       |
@@ -112,17 +107,15 @@ Wanneer nu INV2 wordt betaald, wordt de volgende vermelding aangemaakt. Merk op 
 
 ### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-realized-gainloss-accounting"></a>Eén boekstuk met meerdere leveranciers en het effect op de boekhouding voor gerealiseerde winsten/verliezen
 
-|             |                  |             |                 |           |            |                  |              |
+| Boekstuk | Rekeningtype | Rekening | Beschrijving | Debet | Krediet | Rekeningtype | Rekening  |
 |-------------|------------------|-------------|-----------------|-----------|------------|------------------|--------------|
-| **Boekstuk** | **Rekeningtype** | **Rekening** | **Omschrijving** | **Debet** | **Krediet** | **Rekeningtype** | **Rekening**  |
 | GNJL001     | Leverancier           | 1001        | INV1            |           | 100,00     | Grootboek           | 606300-001-- |
 | GNJL001     | Leverancier           | 1001        | INV2            |           | 200,00     | Grootboek           | 606300-002-- |
 
 In het volgende voorbeeld zijn er meerdere leveranciersfacturen geregistreerd in het grootboek op één boekstuk op de pagina **Algemeen journaal**. Deze facturen zijn verdeeld over meerdere rekeningdimensies. Na het boeken wordt één boekstuk gemaakt.
 
-|             |              |                  |                                          |                                         |
+| Boekstuk | Rekening  | Boekingstype | Bedrag in transactievaluta (EUR) | Bedrag in boekhoudingsvaluta (USD) |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|
-| **Boekstuk** | **Rekening**  | **Boekingstype** | **Bedrag in transactievaluta (EUR)** | **Bedrag in boekhoudingsvaluta (USD)** |
 | GNJL001     | 606300-001-- | Grootboekjournaal   | 100,00                                   | 114.00                                  |
 | GNJL001     | 606300-002-- | Grootboekjournaal   | 200,00                                   | 228.00                                  |
 | GNJL001     | 200110-001-  | Leveranciersaldo   | -100,00                                  | -114.00                                 |
@@ -132,9 +125,8 @@ Merk op dat hier twee vermeldingen voorkomen voor het boekingstype Leverancierss
 
 Met dit voorbeeld kunnen we het effect analyseren dat een enkel boekstuk heeft op de vereffeningboekhouding later in het proces. Stel dat uw valuta voor boekhouding USD is en de bovenstaande transacties werden geboekt in de transactievaluta EUR. Stel dat u de factuur van EUR 200,00 volledig betaalt maar u een gerealiseerd verlies tegenkomt vanweg een verschil in de wisselkoersen op het tijdstip waarop de factuur werd geboekt en het moment waarop de betaling werd geboekt. Merk op dat de waarde van de rekening voor gerealiseerde verliezen over alle dimensies van kostenrekeningen van het factuurboekstuk is toegewezen. In dit geval werden de twee dimensie 001 en 002 beide toegewezen, zelfs als de gebruiker van mening kan zijn dat alleen 002 behoort tot de onkostenrekening van de factuur die wordt vereffend. Dit komt doordat één boekstuk werd gebruikt om de bovenstaande factuur te boeken, waardoor er geen manier is om aan te geven hoe de gebruiker de kostenverdelingen wilde laten correleren met het leverancierssaldo in het enkele boekstuk.
 
-|             |             |                    |                                          |                                         |
+| Boekstuk | Rekening | Boekingstype   | Bedrag in transactievaluta (EUR) | Bedrag in boekhoudingsvaluta (USD) |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Boekstuk** | **Rekening** | **Boekingstype**   | **Bedrag in transactievaluta (EUR)** | **Bedrag in boekhoudingsvaluta (USD)** |
 | APPAYM001   | 200110-001- | Leveranciersaldo     | 200,00                                   | 230.00                                  |
 | APPAYM001   | 110110-001- | Bank               | -200,00                                  | -230.00                                 |
 | 14000056    | 801300-001- | Wisselkoersverlies | 0,00                                     | 0.67                                    |
@@ -143,17 +135,15 @@ Met dit voorbeeld kunnen we het effect analyseren dat een enkel boekstuk heeft o
 
 Als de gebruiker niet wil dat het wisselkoersverlies wordt toegewezen over de volledige uitgavenverdeling van de oorspronkelijke factuur in plaats van één boekstuk, moeten meerdere boekstukken worden gebruikt om de facturen te registreren. In het volgende voorbeeld ziet u hoe meerdere boekstukken kunnen worden ingevoerd in het grootboek, in plaats een enkel boekstuk te gebruiken zoals aan het begin van dit voorbeeld wordt getoond.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Boekstuk | Rekeningtype | Rekening | Beschrijving | Debet | Krediet | Type tegenrekening | Tegenrekening |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Boekstuk** | **Rekeningtype** | **Rekening** | **Omschrijving** | **Debet** | **Krediet** | **Type tegenrekening** | **Tegenrekening** |
 | GNJL002     | Leverancier           | 1001        | INV1            |           | 100,00     | Grootboek          | 606300-001--       |
 | GNJL003     | Leverancier           | 1001        | INV2            |           | 200,00     | Grootboek          | 606300-002--       |
 
 Wanneer nu INV2 wordt betaald, wordt de volgende vermelding aangemaakt. Merk op dat de financiële dimensies van het wisselkoersverlies de financiële dimensies van de bijbehorende uitgaven volgen.
 
-|             |             |                    |                                          |                                         |
+| Boekstuk | Rekening | Boekingstype   | Bedrag in transactievaluta (EUR) | Bedrag in boekhoudingsvaluta (USD) |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Boekstuk** | **Rekening** | **Boekingstype**   | **Bedrag in transactievaluta (EUR)** | **Bedrag in boekhoudingsvaluta (USD)** |
 | APPAYM001   | 200110-001- | Leveranciersaldo     | 200,00                                   | 230.00                                  |
 | APPAYM001   | 110110-001- | Bank               | -200,00                                  | -230.00                                 |
 | 14000056    | 801300-002- | Wisselkoersverlies | 0,00                                     | 2.00                                    |
@@ -168,64 +158,56 @@ In dit voorbeeld wordt uitgegaan van een verkoop waarbij de klant in aanmerking 
 
 Laten we aannemen dat de onderstaande verkoop wordt uitgevoerd aan klant ACME. De volgende boekhoudboekingen vertegenwoordigen de verkoop.
 
-|                    |                  |           |            |
+| Grootboekrekening | Boekingstype | Debet | Krediet |
 |--------------------|------------------|-----------|------------|
-| **Grootboekrekening** | **Boekingstype** | **Debet** | **Krediet** |
 | 401100-002-023-    | Opbrengst          |           | 100        |
 | 130100-002-        | Klantsaldo | 100       |            |
 
 Vervolgens boekt de gebruiker het te betalen saldo van ACME naar de verzekeringsmaatschappij, in een enkel boekstuk in het journaal voor klantbetalingen. De verzekeringsmaatschappij is ingesteld als klantverzekering.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Boekstuk | Rekeningtype | Rekening | Beschrijving | Debet | Krediet | Type tegenrekening | Tegenrekening |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Boekstuk** | **Rekeningtype** | **Rekening** | **Omschrijving** | **Debet** | **Krediet** | **Type tegenrekening** | **Tegenrekening** |
 | ARPAYM001   | Klant         | ACME        | Overboeking        |           | 100,00     | Klant        | Verzekering          |
 
 Merk op dat de bovenstaande vermelding is opgenomen in een enkel boekstuk. Dit boekstuk bevat twee klantenrecords. Het volgende boekstuk wordt gemaakt wanneer de bovenstaande grootboekvermelding wordt geboekt.
 
-|             |             |                  |                                    |
+| Boekstuk | Rekening | Boekingstype | Bedrag in transactievaluta |
 |-------------|-------------|------------------|------------------------------------|
-| **Boekstuk** | **Rekening** | **Boekingstype** | **Bedrag in transactievaluta** |
 | ARPAYM001   | 130100-002- | Klantsaldo | 100,00                             |
 | ARPAYM001   | 130100-002- | Klantsaldo | -100,00                            |
 
 Stel vervolgens dat u een betaling van 98,00 ontvangt van de klant Verzekering en u ervoor kiest de betaling te vereffenen met de factuur die door de saldo-overboeking is aangemaakt. Het resultaat is het onderstaande boekstuk. U verwacht mogelijk dat vereffening de financiële dimensies uit de oorspronkelijke factuur gebruikt, maar dat is niet mogelijk omdat er geen factuurdocument is voor de klant Verzekering. Merk op dat standaard de distributiedimensies op de contantkorting komen van de klanttransactie die voor de overboeking is gemaakt en niet van de opbrengstrekening van de oorspronkelijke factuur. De standaard is een resultaat van het gebruik van een enkel boekstuk om de saldi over te boeken.
 
-|             |             |                  |           |            |
+| Boekstuk | Rekening | Boekingstype | Debet | Krediet |
 |-------------|-------------|------------------|-----------|------------|
-| **Boekstuk** | **Rekening** | **Boekingstype** | **Debet** | **Krediet** |
 | ARPAYM002   | 110110-002- | Bank             | 98.00     |            |
 | ARPAYM002   | 130100-002- | Klantsaldo |           | 98.00      |
 
 Op het gerelateerde boekstuk voor contantkorting komt de standaardwaarde voor de financiële dimensie van de klanttransactie die op basis van de overboeking is gemaakt, omdat de overboeking meer dan één klant heeft.
 
-|             |             |                        |           |            |
+| Boekstuk | Rekening | Boekingstype       | Debet | Krediet |
 |-------------|-------------|------------------------|-----------|------------|
-| **Boekstuk** | **Rekening** | **Boekingstype**       | **Debet** | **Krediet** |
 | ARP-00001   | 403300-002- | Contantkorting van klant | 2.00      |            |
 | ARP-00001   | 130100-002- | Klantsaldo       |           | 2.00       |
 
 Als de gebruiker niet de standaardinstellingen voor de financiële dimensies van de contantkorting accepteert, moeten in plaats van één boekstuk meerdere boekstukken worden gebruikt om de saldo-overdracht te registreren. Dit scenario moet worden gerealiseerd door een creditnota voor de klant te maken VANWAAR het saldo wordt verplaatst en een debetnota of factuur te maken voor de klant WAARNAAR het saldo wordt verplaatst. In het volgende voorbeeld ziet u hoe meerdere boekstukken in het journaal met klantbetalingen kunnen worden ingevoerd om het saldo over te boeken, in plaats van één boekstuk te gebruiken zoals eerder in dit voorbeeld werd getoond.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Boekstuk | Rekeningtype | Rekening | Beschrijving | Debet | Krediet | Type tegenrekening | Tegenrekening |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Boekstuk** | **Rekeningtype** | **Rekening** | **Omschrijving** | **Debet** | **Krediet** | **Type tegenrekening** | **Tegenrekening** |
 | ARPAYM001   | Klant         | ACME        |                 |           | 100,00     | Grootboek          | 401100-002-023-    |
 | ARPAYM002   | Klant         | Verzekering   |                 | 100,00    |            | Grootboek          | 401100-002-023-    |
 
 Dit betekent dat wanneer de klant Verzekering 98,00 met boekstuk ARPAYM02 betaalt, de correcte financiële dimensies van de vermelding worden gebruikt in de grootboekrekening van boekstuk ARPAYM002.
 
-|             |             |                  |           |            |
+| Boekstuk | Rekening | Boekingstype | Debet | Krediet |
 |-------------|-------------|------------------|-----------|------------|
-| **Boekstuk** | **Rekening** | **Boekingstype** | **Debet** | **Krediet** |
 | ARPAYM003   | 110110-002- | Bank             | 98.00     |            |
 | ARPAYM003   | 130100-002  | Klantsaldo |           | 98.00      |
 
 Op het gerelateerde boekstuk voor contantkorting worden de financiële dimensies gebruikt van de opbrengstrekening die als tegenrekening dient en die op het boekstuk van ARPAYM002 wordt getoond.
 
-|             |                 |                        |           |            |
+| Boekstuk | Rekening     | Boekingstype       | Debet | Krediet |
 |-------------|-----------------|------------------------|-----------|------------|
-| **Boekstuk** | **Rekening**     | **Boekingstype**       | **Debet** | **Krediet** |
 | ARP-00001   | 403300-002-023- | Contantkorting van klant | 2.00      |            |
 | ARP-00001   | 130100-002-     | Klantsaldo       |           | 2.00       |
 
@@ -236,16 +218,14 @@ Verrekenen kan nuttig zijn wanneer een organisatie aan hetzelfde bedrijf verkoop
 
 Dit lichten we als volgt toe: stel dat leverancier 1001 en klant US-008 dezelfde rechtspersoon zijn. Uw organisatie wil de te betalen en te ontvangen saldi vereffenen voordat het resterende saldo wordt betaald of ontvangen. Stel dat de klantrecord u EUR 75,00 verschuldigd is en u de leveranciersrecord EUR 100,00 schuldig bent. Dit betekent dat u de saldi wilt vereffenen en alleen EUR 25,00 betaalt aan de leverancier. Stel dat verder dat de valuta voor boekhouding USD is. In dit geval wordt een verrekeningstransactie ingevoerd in een boekstuk in het leveranciersbetalingsjournaal.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Boekstuk | Rekeningtype | Rekening | Beschrijving | Debet | Krediet | Type tegenrekening | Tegenrekening |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Boekstuk** | **Rekeningtype** | **Rekening** | **Omschrijving** | **Debet** | **Krediet** | **Type tegenrekening** | **Tegenrekening** |
 | APPAYM001   | Leverancier           | 1001        | Verrekening         |  75,00    |            | Klant        | US-008             |
 
 Om ongewenste problemen met toekomstige vereffeningen voor deze transactie te vermijden, zou u in plaats van één boekstuk meerdere boekstukken moeten invoeren in het journaal om de verrekeningstransactie te registreren. Merk op dat de klant- en leverancierssaldi met één speciale vereffeningsrekening worden vereffend, zodat u niet een enkel boekstuk hoeft te gebruiken dat meerdere klant- en leverancierssaldi bevat.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Boekstuk | Rekeningtype | Rekening | Beschrijving | Debet | Krediet | Type tegenrekening | Tegenrekening |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Boekstuk** | **Rekeningtype** | **Rekening** | **Omschrijving** | **Debet** | **Krediet** | **Type tegenrekening** | **Tegenrekening** |
 | 001         | Klant         | US-008      |                 |           |  75,00     | Grootboek          | 999999---          |
 | 002         | Leverancier           | 1001        |                 |  75,00    |            | Grootboek          | 999999---          |
 

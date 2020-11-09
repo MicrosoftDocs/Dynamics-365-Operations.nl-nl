@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 3c564d580d2743d8a80cdf5667b1f95e00736d60
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835849"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000759"
 ---
 # <a name="unified-product-experience"></a>Uniforme productervaring
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Wanneer een zakelijk ecosysteem bestaat uit Dynamics 365-toepassingen, zoals Finance, Supply Chain Management en Sales, gebruiken bedrijven deze toepassingen vaak als bron voor productgegevens. Deze apps bieden namelijk een robuuste productinfrastructuur, aangevuld met geavanceerde prijsbegrippen en nauwkeurige voorraadgegevens. Bedrijven die een extern PLM-systeem (Product Lifecycle Management) gebruiken voor de productgegevens, kunnen producten van Finance and Operations-apps doorsturen naar andere Dynamics 365-apps. De geïntegreerde productervaring brengt het geïntegreerde productgegevensmodel over naar Common Data Service, zodat alle gebruikers, inclusief Power Platform-gebruikers, kunnen profiteren van de uitgebreide productgegevens die afkomstig zijn van Finance and Operations-apps.
 
@@ -93,7 +90,7 @@ Omdat het product als een SKU wordt voorgesteld, kunt u de concepten van afzonde
 
 Als de functie voor twee keer wegschrijven is ingeschakeld, worden de producten van Finance and Operations gesynchroniseerd in andere Dynamics 365-producten in de status **Concept**. Ze worden toegevoegd aan de eerste prijslijst met dezelfde valuta. Met andere woorden ze worden toegevoegd aan de eerste prijslijst in een Dynamics 365-app die overeenkomt met de valuta van uw rechtspersoon waar het product wordt vrijgegeven in een Finance and Operations-app. 
 
-Standaard worden producten van Finance and Operations-apps gesynchroniseerd met andere Dynamics 365-app in de status **Concept**. Om het product te synchroniseren met de status **Actief**, zodat u het rechtstreeks in verkooporderoffertes kunt gebruiken, moet u bijvoorbeeld de volgende instelling kiezen: ga naar **Systeem > Beheer > Systeembeheer > Systeeminstellingen > tabblad Verkoop** en selecteer **Producten maken in actieve status = Ja**. 
+Standaard worden producten van Finance and Operations-apps gesynchroniseerd met andere Dynamics 365-app in de status **Concept**. Om het product te synchroniseren met de status **Actief** , zodat u het rechtstreeks in verkooporderoffertes kunt gebruiken, moet u bijvoorbeeld de volgende instelling kiezen: ga naar **Systeem > Beheer > Systeembeheer > Systeeminstellingen > tabblad Verkoop** en selecteer **Producten maken in actieve status = Ja**. 
 
 De synchronisatie van producten gebeurt vanuit Finance and Operations-apps naar Common Data Service. Dit betekent dat de waarden van de velden van de productentiteit weliswaar kunnen worden gewijzigd in Common Data Service, maar dat bij activering van de synchronisatie (wanneer een productveld wordt gewijzigd in een Finance and Operations-app), de waarden in Common Data Service worden overschreven. 
 
@@ -109,7 +106,7 @@ De synchronisatie van producten gebeurt vanuit Finance and Operations-apps naar 
 
 Productdimensies zijn kenmerken die de variant van een product identificeren. De vier productdimensies (kleur, maat, stijl en configuratie) worden ook toegewezen aan Common Data Service voor het definiëren van de productvarianten. In de volgende afbeelding wordt het gegevensmodel voor de productdimensie Kleur weergegeven. Hetzelfde model wordt toegepast op maten, stijlen en configuraties. 
 
-![Gegevensmodel voor producten](media/dual-write-product-two.png)
+![Gegevensmodel voor productdimensies](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +142,7 @@ Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de art
 
 De maateenheden en de bijbehorende conversie zijn beschikbaar in Common Data Service conform het gegevensmodel dat in het diagram wordt weergegeven.
 
-![Gegevensmodel voor producten](media/dual-write-product-three.png)
+![Gegevensmodel voor maateenheid](media/dual-write-product-three.png)
 
 Het concept voor maateenheden is geïntegreerd tussen de Finance and Operations-apps en de andere Dynamics 365-apps. Voor elke eenheidsklasse in een Finance and Operations-app wordt een eenhedengroep gemaakt in een Dynamics 365-app, die de eenheden bevat die bij de eenheidsklasse horen. Er wordt ook een standaard basiseenheid voor elke eenhedengroep gemaakt. 
 
@@ -203,9 +200,9 @@ Het productbeleid is een set beleidsregels die wordt gebruikt voor het definiër
 
 Voor unieke identificatie van producten tussen Dynamics 365 for Finance and Operations en producten in Common Data Service worden de integratiesleutels gebruikt. Voor producten is **(productnumber)** de unieke sleutel waarmee een product wordt geïdentificeerd in Common Data Service. Het wordt samengesteld door samenvoeging van: **(company, msdyn_productnumber)**. Met **company** wordt de rechtspersoon in Finance and Operations aangegeven en met **msdyn_productnumber** wordt het productnummer aangegeven voor het specifieke product in Finance and Operations. 
 
-Voor gebruikers van andere Dynamics 365-apps wordt het product in de gebruikersinterface geïdentificeerd met **msdyn_productnumber** (het label van het veld is **Productnummer**). In het productformulier worden zowel het bedrijf als msydn_productnumber weergegeven. Het veld (productNumber), de unieke sleutel voor een product, wordt echter niet weergegeven. 
+Voor gebruikers van andere Dynamics 365-apps wordt het product in de gebruikersinterface geïdentificeerd met **msdyn_productnumber** (het label van het veld is **Productnummer** ). In het productformulier worden zowel het bedrijf als msydn_productnumber weergegeven. Het veld (productNumber), de unieke sleutel voor een product, wordt echter niet weergegeven. 
 
-Als u apps bouwt op Common Data Service, moet u aandacht besteden aan het gebruik van **productnumber** (de unieke product-id) als integratiesleutel. Maak geen gebruik van **msdyn_productnumber**, omdat dit niet uniek is. 
+Als u apps bouwt op Common Data Service, moet u aandacht besteden aan het gebruik van **productnumber** (de unieke product-id) als integratiesleutel. Maak geen gebruik van **msdyn_productnumber** , omdat dit niet uniek is. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Initiële synchronisatie van producten en migratie van gegevens van Common Data Service naar Finance and Operations
 

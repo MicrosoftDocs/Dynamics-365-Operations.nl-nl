@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: aa5786df72f87da992f1020bbaaa1c2185adf043
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216707"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017478"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Magazijnen voor overboekingsorders instellen 
 
@@ -50,5 +51,5 @@ Met magazijnniveaus kunt u een hiërarchie maken die transferorders tussen magaz
 U moet ook de doorlooptijd voor het transport tussen de magazijnen instellen op de pagina **Transportdagen**. 
 1. Ga naar **Voorraadbeheer > instellingen > Distributie > Transportdagen**.
 2. Selecteer in het veld **Plaats van ontvangst** **Magazijn**.
-3. Selecteer het **Magazijn van verzending**, **Magazijn van ontvangst**, en **Transportdagen**. 
+3. Selecteer het **Magazijn van verzending** , **Magazijn van ontvangst** , en **Transportdagen**. 
 4. (Optioneel) U kunt ook de transporttijd, afhankelijk van de leveringsmethode, onder het tabblad **Transportdagen per leveringsmethode** instellen.

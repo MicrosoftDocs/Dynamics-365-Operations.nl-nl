@@ -142,8 +142,10 @@
                           items:
                             - name: Systeemvereisten voor twee keer wegschrijven
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Ondersteunde scenario's met instellingen voor twee keer wegschrijven
+                            - name: Richtlijnen voor het instellen van twee keer wegschrijven
                               href: data-entities/dual-write/connection-setup.md
+                            - name: Overwegingen voor initiële synchronisatie
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: Instellingen voor twee keer wegschrijven van Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
                             - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
@@ -404,11 +406,13 @@
                   href: database/database-point-in-time-restore.md
                 - name: Tijdgebonden herstel van de productiedatabase naar een sandboxomgeving
                   href: database/database-pitr-prod-sandbox.md
+                - name: Just-In-Time-databasetoegang inschakelen
+                  href: database/database-just-in-time-jit-access.md
             - name: Zelfstudies
               items:
                 - name: Vernieuwen voor opleidingsdoeleinden
                   href: database/dbmovement-scenario-general-refresh.md
-                - name: Foutopsporing in een kopie van een productiedatabase
+                - name: Foutopsporing in een kopie van de productiedatabase
                   href: database/dbmovement-scenario-debugdiag.md
                 - name: Een kopie van de database met standaard gebruikeracceptatietest (UAT) exporteren
                   href: database/dbmovement-scenario-exportuat.md
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: Commerce Scale Unit initialiseren (cloud)
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Kanalen migreren naar een ander exemplaar van Commerce Scale Unit
+                  href: deployment/Reassign-CSU.md
                 - name: Gegevenslocatie voor Retail
                   href: deployment/retail-data-residency.md
             - name: On-premises implementatie
@@ -1456,17 +1462,17 @@
               href: lifecycle-services/lcs-support.md
             - name: Overzicht van Dynamics 365-ondersteuning
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: Ondersteuning verkrijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
+            - name: Ondersteuning krijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
               href: lifecycle-services/21vianet-support.md
-            - name: Technische ondersteuning instellen voor Finance and Operations
+            - name: Technische ondersteuning instellen voor Finance and Operations-apps
               href: lifecycle-services/support-experience.md
-            - name: Ervaringen met Finance and Operations-ondersteuning beheren
+            - name: Ervaringen met ondersteuning voor Finance and Operations-apps beheren
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Systeembeheer
           items:
             - name: Startpagina van Systeembeheer
               href: sysadmin/system-administration-home-page.md
-            - name: Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring
+            - name: Koppelingen naar uw juridische voorwaarden en privacyverklaring toevoegen
               href: sysadmin/legal-terms-privacy-statement.md
             - name: Rapport Licentiecodes en configuratiesleutels
               href: sysadmin/license-codes-configuration-keys-report.md

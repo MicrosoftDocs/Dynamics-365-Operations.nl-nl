@@ -3,7 +3,7 @@ title: Een auteursrechtmelding toevoegen
 description: In dit onderwerp wordt beschreven hoe u copyrightgegevens kunt toevoegen aan uw e-commerce-website.
 author: psimolin
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019536"
 ---
 # <a name="add-a-copyright-notice"></a>Een auteursrechtmelding toevoegen
 
@@ -41,17 +41,17 @@ Voordat u een copyrightbericht aan uw site kunt toevoegen, moet u beschikken ove
 
 Voer de volgende stappen uit om copyrightgegevens toe te voegen onder aan elke pagina die een specifieke sjabloon gebruikt.
 
-1. Ga naar **Fragmenten** en selecteer **Nieuw paginafragment**.
-1. Selecteer in het dialoogvenster de module **Voettekst** en geef het fragment een naam. Voer bijvoorbeeld **Voettekst-copyright** in.
+1. Ga naar **Fragmenten** en selecteer **Nieuw**.
+1. Selecteer in het dialoogvenster **Nieuw fragment** de module **Voettekst** en geef het fragment een naam. Voer bijvoorbeeld **Voettekst-copyright** in.
 1. Selecteer **OK**.
-1. Selecteer in de navigatiepagina de knop met het weglatingsteken (**...**) naast **Voettekst** en vervolgens **Module toevoegen**.
+1. Selecteer in de navigatiepagina de knop met het weglatingsteken ( **...** ) naast **Voettekst** en vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Voettekstcategorie** en selecteer vervolgens **OK**.
 1. Selecteer in de navigatiepagina de knop met het weglatingsteken naast **Voettekstcategorie** en vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Tekstblok** en selecteer vervolgens **OK**.
-1. Selecteer **Tekstblok**in het navigatievenster.
+1. Selecteer **Tekstblok** in het navigatievenster.
 1. Voeg in het deelvenster Eigenschappen rechts in het veld **Alinea** het copyrightbericht toe. Voer bijvoorbeeld **(C) Fabrikam 2019** in.
-1. Selecteer **Opslaan**, **Bewerken voltooien** en vervolgens **Publiceren**.
-1. Ga naar **Sjablonen**, selecteer de sjabloon en selecteer **Bewerken**.
+1. Selecteer **Opslaan** , **Bewerken voltooien** en vervolgens **Publiceren**.
+1. Ga naar **Sjablonen** , selecteer de sjabloon en selecteer **Bewerken**.
 1. Vouw onder **Paginaoverzicht** **Hoofdtekst** uit en vouw vervolgens **Standaardpagina** uit.
 1. Selecteer de knop met het weglatingsteken voor het vak **Voettekst** en selecteer **Fragment toevoegen**.
 1. Selecteer het fragment dat u eerder hebt gemaakt en dan **Selecteren.**

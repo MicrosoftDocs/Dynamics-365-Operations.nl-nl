@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829207"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997395"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect naar contant geld in twee keer wegschrijven
 
@@ -63,9 +62,9 @@ De nummerreeks in Supply Chain Management is bijvoorbeeld **1, 2, 3, 4, 5, ...**
 
 Verkoopoffertes kunnen worden gemaakt in Sales of Supply Chain Management. Als u een offerte maakt in Sales, wordt deze in realtime gesynchroniseerd met Supply Chain Management. Als u een offerte maakt in Supply Chain Management, wordt deze in realtime gesynchroniseerd met Sales. Let op de volgende punten:
 
-+ U kunt een korting toevoegen aan het product op de offerte. In dit geval wordt de korting gesynchroniseerd met Supply Chain Management. De velden **Korting**, **Toeslagen** en **Btw** in de koptekst worden bepaald door een configuratie in Supply Chain Management. Deze instelling biedt momenteel geen ondersteuning voor integratietoewijzing. In het huidige ontwerp worden de velden **Prijs**, **Korting**, **Toeslagen** en **Btw** bijgehouden en verwerkt in Supply Chain Management.
-+ De velden **Kortingspercentage**, **Korting** en **Vrachtkosten** zijn in de koptekst van de verkoopofferte alleen-lezenvelden.
-+ De velden **Leveringscondities**, **Leveringsvoorwaarden**, **Verzendmethode** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
++ U kunt een korting toevoegen aan het product op de offerte. In dit geval wordt de korting gesynchroniseerd met Supply Chain Management. De velden **Korting** , **Toeslagen** en **Btw** in de koptekst worden bepaald door een configuratie in Supply Chain Management. Deze instelling biedt momenteel geen ondersteuning voor integratietoewijzing. In het huidige ontwerp worden de velden **Prijs** , **Korting** , **Toeslagen** en **Btw** bijgehouden en verwerkt in Supply Chain Management.
++ De velden **Kortingspercentage** , **Korting** en **Vrachtkosten** zijn in de koptekst van de verkoopofferte alleen-lezenvelden.
++ De velden **Leveringscondities** , **Leveringsvoorwaarden** , **Verzendmethode** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
 
 Als u ook de Field Service-oplossing gebruikt, moet u de parameter **Snel offerteregel maken** opnieuw inschakelen. Als u de parameter opnieuw inschakelt, kunt u doorgaan met het maken van offerteregels met de functie Snel maken.
 1. Ga naar uw Dynamics 365 Sales-toepassing.
@@ -111,7 +110,7 @@ Verkoopfacturen worden gemaakt in Supply Chain Management en gesynchroniseerd me
 + Het veld **Factuurnummer** is aan de entiteit **Factuur** toegevoegd en wordt weergegeven op de pagina.
 + De knop **Factuur maken** op de pagina **Verkooporder** is verborgen omdat facturen in Supply Chain Management worden gemaakt en worden gesynchroniseerd naar Sales. De pagina **Factuur** kan niet worden bewerkt omdat facturen vanuit Supply Chain Management worden gesynchroniseerd.
 + De waarde voor **Verkooporderstatus** wordt automatisch in **Gefactureerd** gewijzigd wanneer de bijbehorende factuur vanuit Supply Chain Management is gesynchroniseerd naar Sales. Daarnaast wordt de eigenaar van de verkooporder op basis waarvan de factuur is gemaakt, aangewezen als de eigenaar van de factuur. De eigenaar van de verkooporder kan de factuur dus weergeven.
-+ De velden **Leveringscondities**, **Leveringsvoorwaarden** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
++ De velden **Leveringscondities** , **Leveringsvoorwaarden** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
 
 ## <a name="templates"></a>Sjablonen
 

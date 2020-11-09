@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 336fb51dc5fb66dfbe14091d121e0a4471b9662b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978888"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006254"
 ---
 # <a name="price-simulation"></a>Prijssimulatie
 
@@ -53,10 +53,10 @@ Kortingen en prijzen moeten correct worden berekend. Let daarom goed op als u pr
 
 In handelsovereenkomsten in Supply Chain Management kunnen vier typen prijskortingen worden gebruikt. Deze kortingen kunnen worden ingesteld voor verschillende artikelen, klanten of prijsgroepen. De geldigheid ervan kan worden beperkt op datum. U moet bij het uitvoeren van prijssimulaties rekening houden met handelsovereenkomsten om fouten in berekeningen te voorkomen. In handelsovereenkomsten komen de volgende vier typen kortingen voor:
 
--   **Verkoopprijs**: Het is mogelijk om afzonderlijke verkoopprijzen op te geven voor artikelen. Bij het maken van offerteregels wordt gezocht naar de juiste verkoopprijs voor een artikel, die vervolgens in de offerteregels wordt opgenomen. Daarom is een handelsovereenkomst met dit kortingstype niet van invloed op de prijssimulatie. De verkoopprijs die in de offerteregel wordt gebruikt, is in overeenstemming met de handelsovereenkomst.
--   **Regelkorting**: Afhankelijk van de bestelde hoeveelheden worden speciale kortingen opgegeven voor artikelen. De regelkorting wordt meestal van de regelbedragen afgetrokken vóór het uitvoeren van de prijssimulatie. Daarom is een handelsovereenkomst met dit kortingstype van invloed op de prijssimulatie.
--   **Meerregelkorting**: Als de bij elkaar opgetelde hoeveelheden van vooraf gedefinieerde combinaties van bestelde artikelen hoger zijn dan de door u gedefinieerde limiet, wordt een korting toegepast op de gehele order. De regelkorting wordt meestal van de regelbedragen afgetrokken vóór het uitvoeren van de prijssimulatie. Daarom is een handelsovereenkomst met dit kortingstype van invloed op de prijssimulatie.
--   **Eindkorting**: Als de bij elkaar opgetelde bedragen van vooraf gedefinieerde bestelde artikelen hoger zijn dan de door u gedefinieerde limiet, wordt een korting toegepast op de gehele order. De eindkorting wordt gegenereerd door de offerteregels. Omdat de eindkorting echter wordt toegepast op het offertetotaal, wordt het totaalbedrag van de offerte verlaagd. Daarom is een handelsovereenkomst met dit kortingstype van invloed op de prijssimulatie.
+-   **Verkoopprijs** : Het is mogelijk om afzonderlijke verkoopprijzen op te geven voor artikelen. Bij het maken van offerteregels wordt gezocht naar de juiste verkoopprijs voor een artikel, die vervolgens in de offerteregels wordt opgenomen. Daarom is een handelsovereenkomst met dit kortingstype niet van invloed op de prijssimulatie. De verkoopprijs die in de offerteregel wordt gebruikt, is in overeenstemming met de handelsovereenkomst.
+-   **Regelkorting** : Afhankelijk van de bestelde hoeveelheden worden speciale kortingen opgegeven voor artikelen. De regelkorting wordt meestal van de regelbedragen afgetrokken vóór het uitvoeren van de prijssimulatie. Daarom is een handelsovereenkomst met dit kortingstype van invloed op de prijssimulatie.
+-   **Meerregelkorting** : Als de bij elkaar opgetelde hoeveelheden van vooraf gedefinieerde combinaties van bestelde artikelen hoger zijn dan de door u gedefinieerde limiet, wordt een korting toegepast op de gehele order. De regelkorting wordt meestal van de regelbedragen afgetrokken vóór het uitvoeren van de prijssimulatie. Daarom is een handelsovereenkomst met dit kortingstype van invloed op de prijssimulatie.
+-   **Eindkorting** : Als de bij elkaar opgetelde bedragen van vooraf gedefinieerde bestelde artikelen hoger zijn dan de door u gedefinieerde limiet, wordt een korting toegepast op de gehele order. De eindkorting wordt gegenereerd door de offerteregels. Omdat de eindkorting echter wordt toegepast op het offertetotaal, wordt het totaalbedrag van de offerte verlaagd. Daarom is een handelsovereenkomst met dit kortingstype van invloed op de prijssimulatie.
 
 ### <a name="quotation-lines-and-trade-agreements"></a>Offerteregels en handelsovereenkomsten
 
@@ -74,7 +74,7 @@ U maakt een offerte met de volgende regels:
 
 De volgende tabel bevat de offerteregels:
 
-|                            | Berekening                          | Resultaat   |
+|    &nbsp;                  | Berekening                          | Resultaat   |
 |----------------------------|--------------------------------------|----------|
 | Verkoophoeveelheid             | 10 eenheden + 12 eenheden                  | 22 eenheden |
 | Verkoopwaarde in EUR         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
@@ -84,7 +84,7 @@ De volgende tabel bevat de offerteregels:
 
 U voert een prijssimulatie uit en past een eindkorting van 15 procent toe op de volledige offerte of de offertekoptekst. De volgende tabel bevat de nieuwe totalen van de offerte nadat de prijssimulatie is uitgevoerd.
 
-|                                                      | Berekening                               | Resultaat   |
+|     &nbsp;                                           | Berekening                               | Resultaat   |
 |------------------------------------------------------|-------------------------------------------|----------|
 | Verkoophoeveelheid                                       | 10 eenheden + 12 eenheden                       | 22 eenheden |
 | Oude verkoopwaarde in EUR                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
@@ -105,7 +105,7 @@ U maakt een offerte met de volgende regels:
 
 De volgende tabel bevat de offerteregels:
 
-|                                      | Berekening                          | Resultaat   |
+|      &nbsp;                          | Berekening                          | Resultaat   |
 |--------------------------------------|--------------------------------------|----------|
 | Verkoophoeveelheid                       | 10 eenheden + 12 eenheden                  | 22 eenheden |
 | Verkoopwaarde in EUR voor BR-12         | 10 × 15,32                           | 153,20   |
@@ -123,7 +123,7 @@ De volgende tabel bevat de offerteregels:
 
 U voert een prijssimulatie uit en past een eindkorting van 10 procent toe op de eenheden van artikel BR-12. De volgende tabel bevat de nieuwe totalen van de offerte nadat de prijssimulatie is uitgevoerd voor de afzonderlijke regel met artikelen.
 
-|                                                   | Berekening                             | Resultaat   |
+|    &nbsp;                                         | Berekening                             | Resultaat   |
 |---------------------------------------------------|-----------------------------------------|----------|
 | Verkoophoeveelheid                                    | 10 eenheden + 12 eenheden                     | 22 eenheden |
 | Oude verkoopwaarde in EUR voor BR-12                  | 10 × 15,32                              | 153,20   |

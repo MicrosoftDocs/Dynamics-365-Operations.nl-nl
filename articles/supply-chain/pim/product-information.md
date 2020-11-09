@@ -1,7 +1,7 @@
 ---
 title: Overzicht met productinformatie
 description: Dit onderwerp biedt informatie over productgegevensbeheer. Productgegevensbeheer werkt met een gedeelde productdefinitie, categorisatie en id's in alle rechtspersonen en specifieke configuraties van een product, zodat deze past in de bedrijfsprocessen.
-author: benebotg
+author: t-benebo
 manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c118bc37a26d6d3a65905f2fd955ceb3554e9557
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980883"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015124"
 ---
 # <a name="product-information-overview"></a>Overzicht met productinformatie
 
@@ -89,7 +89,7 @@ De producten die zijn vrijgegeven aan een specifieke rechtspersoon worden ook aa
 
 U kunt het werkgebied **Vrijgegeven productonderhoud** configureren vanuit de menuopdracht **Mijn werkgebied configureren**. Selecteer een categoriehiërarchie en categorie waarop u het werkgebied wilt filteren Om de relevante productgegevens in het werkgebied aan te passen, kunt u ook definiëren (in dagen) de timefences voor **Onlangs vrijgegeven producten** en **Gestopte vrijgegeven producten**.
 
-Het werkgebied bestaat uit een overzicht van de tegels en twee lijsten. De lijst **Openstaande aanvragen** laat aanvragen voor productwijzigingen zien, die producten bevatten uit de geselecteerde productcategoriehiërarchie die niet zijn voltooid en afgesloten. De lijst **Onlangs vrijgegeven** bevat producten die zijn vrijgegeven binnen de timefence die is ingesteld in de werkgebiedconfiguratie. Validatie wordt uitgevoerd voor elk artikel in de lijst en de validatiestatus wordt weergegeven. Deze status kan aangeven dat de vereiste configuraties voor de rechtspersoon niet zijn voltooid. Vanuit de lijst hebt u rechtstreeks toegang tot de pagina's **Vrijgegeven productdetails**, **Onderhoud productkenmerken**, **Onderhoud productcategorie**, **Standaard orderinstellingen** en **Tekstvertalingen** waarmee u de vereiste configuratie van het product kunt voltooien.
+Het werkgebied bestaat uit een overzicht van de tegels en twee lijsten. De lijst **Openstaande aanvragen** laat aanvragen voor productwijzigingen zien, die producten bevatten uit de geselecteerde productcategoriehiërarchie die niet zijn voltooid en afgesloten. De lijst **Onlangs vrijgegeven** bevat producten die zijn vrijgegeven binnen de timefence die is ingesteld in de werkgebiedconfiguratie. Validatie wordt uitgevoerd voor elk artikel in de lijst en de validatiestatus wordt weergegeven. Deze status kan aangeven dat de vereiste configuraties voor de rechtspersoon niet zijn voltooid. Vanuit de lijst hebt u rechtstreeks toegang tot de pagina's **Vrijgegeven productdetails** , **Onderhoud productkenmerken** , **Onderhoud productcategorie** , **Standaard orderinstellingen** en **Tekstvertalingen** waarmee u de vereiste configuratie van het product kunt voltooien.
 
 ### <a name="manually-creating-a-new-released-product"></a>Handmatig een nieuw vrijgegeven product maken
 

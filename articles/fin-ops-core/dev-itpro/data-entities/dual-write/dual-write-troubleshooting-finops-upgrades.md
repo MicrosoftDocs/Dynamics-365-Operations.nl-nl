@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 07d6bd0bab796d7839daa2bad91f7e88c2e881b5
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275459"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997913"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Problemen oplossen met betrekking tot upgrades van Finance and Operations-apps
 
@@ -67,15 +66,15 @@ Volg deze stappen om het probleem op te lossen.
 
 Op de pagina **Twee keer wegschrijven** kan een foutbericht van de volgende strekking worden weergegeven:
 
-*\<veldnaam\> van bronveld ontbreekt in het schema.*
+*Ontbrekend bronveld \<field name\> in het schema.*
 
 ![Voorbeeld van foutbericht met ontbrekende bronvelden](media/error_missing_field.png)
 
 Als u het probleem wilt verhelpen, voert u eerst deze stappen uit om te controleren of de velden in de entiteit aanwezig zijn.
 
 1. Meld u aan bij de VM voor de Finance and Operations-app.
-2. Ga naar **Werkruimten \> Gegevensbeheer**, selecteer de tegel **Raamwerkparameters** en selecteer vervolgens op het tabblad **Entiteitsinstellingen** de optie **Entiteitslijst vernieuwen** om de entiteiten te vernieuwen.
-3. Ga naar **Werkruimten \> Gegevensbeheer**, selecteer het tabblad **Gegevensentiteiten** en controleer of de entiteit wordt weergegeven. Als de entiteit niet wordt weergegeven, meldt u zich aan bij de VM voor de Finance and Operations-app en controleert u of de entiteit beschikbaar is.
+2. Ga naar **Werkruimten \> Gegevensbeheer** , selecteer de tegel **Raamwerkparameters** en selecteer vervolgens op het tabblad **Entiteitsinstellingen** de optie **Entiteitslijst vernieuwen** om de entiteiten te vernieuwen.
+3. Ga naar **Werkruimten \> Gegevensbeheer** , selecteer het tabblad **Gegevensentiteiten** en controleer of de entiteit wordt weergegeven. Als de entiteit niet wordt weergegeven, meldt u zich aan bij de VM voor de Finance and Operations-app en controleert u of de entiteit beschikbaar is.
 4. Open de pagina **Entiteitstoewijzing** op de pagina **Twee keer wegschrijven** in de Finance and Operations-app.
 5. Selecteer **Entiteitslijst vernieuwen** om de velden in de entiteitstoewijzingen automatisch te vullen.
 

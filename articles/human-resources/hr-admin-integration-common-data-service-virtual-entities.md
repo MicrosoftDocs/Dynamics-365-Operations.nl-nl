@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0848b7556100fba38fcab0aa2a1a109e2e055fc9
-ms.sourcegitcommit: b89baab13e530b5b1f079231619c628309a4742d
+ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
+ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3959570"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4058149"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Virtuele Common Data Service-entiteiten configureren
 
@@ -124,9 +124,9 @@ In de volgende stap configureert u de gegevensbron van de virtuele entiteit in d
 8. Voer de vereiste informatie in voor de gegevensbronconfiguratie.
 
    - **Doel-URL** : de URL van uw Human Resources-naamruimte.
-   - **Tenant-id**: de tenant-id van Azure Active Directory (Azure AD).
+   - **Tenant-id** : de tenant-id van Azure Active Directory (Azure AD).
    - **AAD-toepassings-id** : de toepassings-id (client) die is gemaakt voor de toepassing die in de Microsoft Azure-portal is geregistreerd. U hebt deze gegevens eerder ontvangen tijdens de stap [De app registreren in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **AAD-toepassingsgeheim**: het clientgeheim dat is gemaakt voor de toepassing die in de Microsoft Azure-portal is geregistreerd. U hebt deze gegevens eerder ontvangen tijdens de stap [De app registreren in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **AAD-toepassingsgeheim** : het clientgeheim dat is gemaakt voor de toepassing die in de Microsoft Azure-portal is geregistreerd. U hebt deze gegevens eerder ontvangen tijdens de stap [De app registreren in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
 9. Selecteer **Opslaan en sluiten**.
 
@@ -149,39 +149,40 @@ Verleen als volgt machtigingen voor de twee Azure AD-toepassingen in Human Resou
 
 3. Selecteer **Nieuw** om een tweede toepassingsrecord te maken.
 
-    - **Client-id**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Naam**: Dynamics 365 HR Virtual Entity
+    - **Client-id** : f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Naam** : Dynamics 365 HR Virtual Entity
     - Selecteer in het veld **Gebruikers-id** de gebruikers-id van een gebruiker met beheerdersmachtigingen in Human Resources en de Power Apps-omgeving.
 
 ## <a name="generate-virtual-entities"></a>Virtuele entiteiten genereren
 
 Wanneer het instellen is voltooid, kunt u de virtuele entiteiten selecteren die u in uw Common Data Service-exemplaar wilt genereren en inschakelen.
 
-1. Open het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com).
+1. Open in Human Resources de pagina **Integratie met Common Data Service (CDS)**.
 
-2. Selecteer in de lijst **Omgevingen** de Power Apps-omgeving die aan uw Human Resources-exemplaar is gekoppeld.
-
-3. Selecteer de **Omgevings-URL** in het gedeelte **Details** van de pagina.
-
-4. Selecteer in de **Oplossingsstatushub** het pictogram **Geavanceerd zoeken** in de rechtsbovenhoek van de pagina.
-
-5. Selecteer op de pagina **Geavanceerd zoeken** in de vervolgkeuzelijst **Zoeken naar** de optie **Beschikbare HR-entiteiten**.
-
-6. Gebruik de filteropties om naar de entiteit of entiteiten te zoeken die u wilt inschakelen.
-
-7. Selecteer een entiteit in de lijst.
-
-8. Wijzig op de entiteitpagina de eigenschap **Is gegenereerd** in **Ja** voor de entiteit.
-
-9. Sla de entiteitpagina op en sluit de pagina.
+2. Selecteer het tabblad **Virtuele entiteiten**.
 
 > [!NOTE]
-> U kunt meerdere virtuele entiteiten tegelijk genereren op de pagina **Meerdere records wijzigen**. Selecteer meerdere records op de pagina en selecteer **Bewerken** op het lint. U kunt vervolgens de eigenschap **Is gegenereerd** wijzigen voor alle geselecteerde records.
+> De wisselknop **De virtuele entiteit inschakelen** wordt automatisch ingesteld op **Ja** als alle vereiste instellingen zijn voltooid. Als de wisselknop is ingesteld op **Nee** , controleert u de stappen in vorige secties van dit document om ervoor te zorgen dat alle vereiste instellingen worden voltooid.
 
-![Beschikbare HR-entiteiten](./media/hr-admin-integration-virtual-entities-available.jpg)
+3. Selecteer de entiteit of entiteiten die u wilt genereren in Common Data Service.
 
-> [!NOTE]
-> Om het proces van het genereren van virtuele entiteiten in toekomstige versies te stroom lijnen, wordt het proces uitgevoerd op een pagina in Human Resources.
+4. Selecteer **Genereren/vernieuwen**.
+
+![Integratie met Common Data Service](./media/hr-admin-integration-common-data-service-integration.jpg)
+
+## <a name="check-entity-generation-status"></a>Status van het genereren van entiteiten controleren
+
+Virtuele entiteiten worden gegenereerd in Common Data Service via een asynchroon achtergrondproces. Updates in de procesweergave in het actiecentrum. Details over het proces, waaronder foutlogboeken, worden weergegeven op de pagina **Procesautomatiseringen**.
+
+1. Open in Human Resources de pagina **Procesautomatiseringen**.
+
+2. Selecteer het tabblad **Achtergrondprocessen**.
+
+3. Selecteer **Achtergrondproces voor asynchrone bewerking van controle van virtuele entiteit**.
+
+4. Selecteer **Meest recente resultaten weergeven**.
+
+In het uitschuifvenster worden de meest recente uitvoeringsresultaten voor het proces weergegeven. U kunt het logboek voor het proces weergeven, inclusief eventuele fouten die worden geretourneerd van Common Data Service.
 
 ## <a name="see-also"></a>Zie ook
 

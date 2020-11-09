@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d274eae4ad3ba60eadb18ca8de22d4b2d10fe727
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205685"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016696"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Uitgestelde verwerking van magazijnwerk
 
@@ -44,7 +44,7 @@ Beleid wordt geconfigureerd op de pagina **Werkverwerkingsbeleid**. In de volgen
 | Naam van verwerkingsbeleid voor werk     | De naam van het werkverwerkingsbeleid. |
 | Werkordertype                 | Het type werkorder waarop het beleid wordt toegepast. |
 | Bewerking                       | De bewerking die wordt verwerkt met behulp van het beleid. |
-| Methode voor werkverwerking          | De methode die wordt gebruikt om de werkregel te verwerken. Als de methode is ingesteld op **Direct**, lijkt het erop dat er geen werkverwerkingsbeleid wordt gebruikt om de regel te verwerken. Als de methode is ingesteld op **Uitgesteld**, wordt uitgestelde verwerking gebruikt die gebruikmaakt van het batchframework. |
+| Methode voor werkverwerking          | De methode die wordt gebruikt om de werkregel te verwerken. Als de methode is ingesteld op **Direct** , lijkt het erop dat er geen werkverwerkingsbeleid wordt gebruikt om de regel te verwerken. Als de methode is ingesteld op **Uitgesteld** , wordt uitgestelde verwerking gebruikt die gebruikmaakt van het batchframework. |
 | Drempel voor uitgestelde verwerking   | De waarde **0** (nul) betekent dat er geen drempel is. In dit geval wordt uitgestelde verwerking gebruikt waar dat kan. Als de specifieke drempelberekening onder de drempelwaarde ligt, wordt de methode Direct gebruikt. Anders wordt de methode Uitgesteld gebruikt waar dat kan. Voor verkoop- en overdrachtsgerelateerd werk wordt de drempel berekend als het aantal gekoppelde bronbelastingsregels dat voor het werk wordt verwerkt. Voor aanvullingswerk wordt de drempel berekend als het aantal werkregels dat door het werk wordt aangevuld. Door een drempelwaarde van bijvoorbeeld **5** in te stellen voor verkoop, gebruiken kleinere werken met minder dan vijf oorspronkelijke bronbelastingsregels geen uitgestelde verwerking, maar grotere werken gebruiken deze wel. De drempelwaarde heeft alleen effect als de werkverwerkingsmethode is ingesteld op **Uitgesteld**. |
 | Batchgroep voor uitgestelde verwerking |De batchgroep die wordt gebruikt voor verwerking. |
 

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172918"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997571"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Veelgestelde vragen over automatisch laden met bedrijfsgegevens
  
@@ -57,11 +56,11 @@ Nadat u de oplossing hebt uitgepakt en geopend in Visual Studio en de NuGet-pakk
 De voorbeeldcode toont slechts één van de vele manieren waarop u entiteitsrecords per bedrijf kunt categoriseren. Door de logica in de sectie **TODO** te wijzigen, kunt u uw aangepaste categorisatie maken. 
  
 ## <a name="what-should-i-expect"></a>Wat kan ik verwachten?
-Standaard kunt u met de voorbeeldtoepassing een woordenboek met codetoewijzingen van bedrijfseenheid naar bedrijf opgeven. Elke entiteit die u automatisch laadt met een veld **OwningBusinessUnit**, wordt automatisch ingesteld voor gebruik van het opgegeven bedrijf. Elke entiteit zonder een veld **OwningBusinessUnit**, zoals product, stelt het bedrijf in op basis van de toewijzing met een lege waarde voor bedrijfseenheid.
+Standaard kunt u met de voorbeeldtoepassing een woordenboek met codetoewijzingen van bedrijfseenheid naar bedrijf opgeven. Elke entiteit die u automatisch laadt met een veld **OwningBusinessUnit** , wordt automatisch ingesteld voor gebruik van het opgegeven bedrijf. Elke entiteit zonder een veld **OwningBusinessUnit** , zoals product, stelt het bedrijf in op basis van de toewijzing met een lege waarde voor bedrijfseenheid.
 
-De consoletoepassing verwacht één parameter. Dit kan **–simulate** of **–apply** zijn. Als u de opdrachtregelparameter **–simulate** gebruikt, worden er geen gegevens bijgewerkt. Alleen **simulation_<entityname>.csv**-bestanden worden in dezelfde map gegenereerd als het hulpprogramma, één voor elke entiteit die zou zijn bijgewerkt. U kunt deze bestanden iteratief controleren tijdens het werken om te controleren of de bedrijfswaarden volgens verwachting worden bijgewerkt door de code. 
+De consoletoepassing verwacht één parameter. Dit kan **–simulate** of **–apply** zijn. Als u de opdrachtregelparameter **–simulate** gebruikt, worden er geen gegevens bijgewerkt. Alleen **simulation_<entityname>.csv** -bestanden worden in dezelfde map gegenereerd als het hulpprogramma, één voor elke entiteit die zou zijn bijgewerkt. U kunt deze bestanden iteratief controleren tijdens het werken om te controleren of de bedrijfswaarden volgens verwachting worden bijgewerkt door de code. 
 
-Wanneer u klaar bent met de gesimuleerde updates, gebruikt u de parameter **–apply**. Hiermee worden alle records bijgewerkt die op dit moment een onjuiste bedrijfswaarde hebben, in batches van 1000 records tegelijk (standaard). De code is idempotent zoals opgegeven, wat betekent dat u deze opnieuw kunt uitvoeren en dat alleen de onjuist toegewezen bedrijven worden bijgewerkt. Wanneer de code wordt uitgevoerd met **–apply**, worden CSV-bestanden van de aangebrachte wijzigingen uitgevoerd door de code met de naam **applied_<entityname>.csv**. 
+Wanneer u klaar bent met de gesimuleerde updates, gebruikt u de parameter **–apply**. Hiermee worden alle records bijgewerkt die op dit moment een onjuiste bedrijfswaarde hebben, in batches van 1000 records tegelijk (standaard). De code is idempotent zoals opgegeven, wat betekent dat u deze opnieuw kunt uitvoeren en dat alleen de onjuist toegewezen bedrijven worden bijgewerkt. Wanneer de code wordt uitgevoerd met **–apply** , worden CSV-bestanden van de aangebrachte wijzigingen uitgevoerd door de code met de naam **applied_<entityname>.csv**. 
 
  ```csharp
  using Microsoft.Crm.Sdk.Messages;

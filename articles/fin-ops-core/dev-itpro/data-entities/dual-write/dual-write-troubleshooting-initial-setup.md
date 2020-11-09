@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 6fb71a17d767a1e84511743794d85523db25eba8
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275436"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997345"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemen tijdens eerste installatie oplossen
 
@@ -41,7 +40,7 @@ Dit onderwerp bevat informatie voor het oplossen van problemen voor de integrati
 
 **Vereiste rol om twee keer wegschrijven in te stellen:** systeembeheerder in Finance and Operations-apps en Common Data Service.
 
-Fouten op de pagina **Koppeling instellen met Common Data Service** worden meestal veroorzaakt door problemen met onvolledige instellingen of machtigingen. Controleer of de volledige statuscontrole is geslaagd op de pagina **Koppeling instellen met Common Data Service**, zoals wordt weergegeven in de volgende afbeelding. U kunt twee keer wegschrijven niet koppelen, tenzij de hele statuscontrole is geslaagd.
+Fouten op de pagina **Koppeling instellen met Common Data Service** worden meestal veroorzaakt door problemen met onvolledige instellingen of machtigingen. Controleer of de volledige statuscontrole is geslaagd op de pagina **Koppeling instellen met Common Data Service** , zoals wordt weergegeven in de volgende afbeelding. U kunt twee keer wegschrijven niet koppelen, tenzij de hele statuscontrole is geslaagd.
 
 ![Geslaagde statuscontrole](media/health_check.png)
 
@@ -55,7 +54,7 @@ Mogelijk wordt het volgende foutbericht weergegeven wanneer u de pagina **Koppel
 
 *Statuscode van antwoord geeft geen positief resultaat: 404 (niet gevonden).*
 
-Deze fout treedt op wanneer de goedkeuringsstap niet is voltooid. Als u wilt controleren of de goedkeuringsstap is voltooid, meldt u zich aan bij portal.Azure.com met behulp van het Azure AD-tenantbeheerdersaccount en controleert u of de app van de andere leverancier met de id **33976c19-1db5-4c02-810e-c243db79efde** verschijnt in de lijst met Azure AD-**ondernemingstoepassingen**. Als dat niet zo is, moet u de app goedkeuren.
+Deze fout treedt op wanneer de goedkeuringsstap niet is voltooid. Als u wilt controleren of de goedkeuringsstap is voltooid, meldt u zich aan bij portal.Azure.com met behulp van het Azure AD-tenantbeheerdersaccount en controleert u of de app van de andere leverancier met de id **33976c19-1db5-4c02-810e-c243db79efde** verschijnt in de lijst met Azure AD- **ondernemingstoepassingen**. Als dat niet zo is, moet u de app goedkeuren.
 
 Voer de volgende stappen uit om een app goed te keuren.
 

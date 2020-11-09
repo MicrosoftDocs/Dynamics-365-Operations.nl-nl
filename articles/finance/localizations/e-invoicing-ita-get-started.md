@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ea0408f4ef72bf77a0659799075338e4e6b2aa30
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: c513141f820c95fe3842478361693701f1e3641b
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835931"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039787"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Aan de slag met de invoegtoepassing voor elektronische facturering voor Italië
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 > [!IMPORTANT]
 > De invoegtoepassing elektronische facturering voor Italië ondersteunt momenteel mogelijk niet alle functies die beschikbaar zijn voor elektronische facturen in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management. 
 
-Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering voor Italië. U wordt door de configuratiestappen geleid die landafhankelijk zijn in de Regulatory Configuration Services (RCS) en Finance. Verder wordt u door het proces voor het indienen van elektronische facturen geleid die worden gegenereerd in de Italiaanse **FatturaPA**-indeling via de service, en hierin wordt uitgelegd hoe u de resultaten van de verwerking kunt controleren.
+Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering voor Italië. U wordt door de configuratiestappen geleid die landafhankelijk zijn in de Regulatory Configuration Services (RCS) en Finance. Verder wordt u door het proces voor het indienen van elektronische facturen geleid die worden gegenereerd in de Italiaanse **FatturaPA** -indeling via de service, en hierin wordt uitgelegd hoe u de resultaten van de verwerking kunt controleren.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -43,7 +43,7 @@ Voordat u de stappen in dit onderwerp uitvoert, moet u de stappen uitvoeren in [
 
 Tijdens de RCS-instelling voert u de volgende taken uit:
 
-1. Importeer de functie e-Facturering voor het exporteren van elektronische facturen van klanten in de **FatturaPA**-indeling.
+1. Importeer de functie e-Facturering voor het exporteren van elektronische facturen van klanten in de **FatturaPA** -indeling.
 2. Controleer de indelingsconfiguraties die nodig zijn voor het genereren, indienen en ontvangen van respons op elektronische facturen.
 3. Configureer die de gebeurtenissen die scenario's voor het indienen van elektronische facturen ondersteunen.
 4. Publiceer de functie e-Facturering.
@@ -96,11 +96,11 @@ Wanneer u de functie **E-facturen exporteren (IT)** uit de algemene opslagplaats
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>De instellingen voor de functie e-Facturering beheren
 
-- Selecteer op de pagina **Functies voor e-Facturering** op het tabblad **Instellingen** de optie **Toevoegen**, **Verwijderen** of **Bewerken** om de instellingen van de functie e-Facturering te beheren.
+- Selecteer op de pagina **Functies voor e-Facturering** op het tabblad **Instellingen** de optie **Toevoegen** , **Verwijderen** of **Bewerken** om de instellingen van de functie e-Facturering te beheren.
 
 ![De instellingen voor de functie e-Facturering beheren](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
-In deze stap configureert u de gebeurtenissen die van toepassing zijn op elektronische facturen, waaronder het genereren van de XML-uitvoerbestanden in **FatturaPA**-indeling en digitale handtekening (indien nodig).
+In deze stap configureert u de gebeurtenissen die van toepassing zijn op elektronische facturen, waaronder het genereren van de XML-uitvoerbestanden in **FatturaPA** -indeling en digitale handtekening (indien nodig).
 
 ### <a name="configure-the-sales-invoice-feature-setup"></a>De instellingen van de functie Verkoopfactuur configureren
 
@@ -112,7 +112,7 @@ In deze stap configureert u de gebeurtenissen die van toepassing zijn op elektro
 
     | Actie-ID | Naam actie        | Omschrijving van de actie                                     |
     |-----------|--------------------|--------------------------------------------------------|
-    | 1         | Document transformeren | Maak het XML-bestand van de e-factuur in **FatturaPA**-indeling. |
+    | 1         | Document transformeren | Maak het XML-bestand van de e-factuur in **FatturaPA** -indeling. |
     | 2         | Document ondertekenen      | Pas een digitale handtekening toe op het XML-bestand.             |
 
 4. Selecteer het tabblad **Toepasbaarheidsregels** om de toepasbaarheidsregels weer te geven en te onderhouden. Regels voor toepasbaarheid definiëren de context waarin de actie wordt uitgevoerd.
@@ -166,7 +166,7 @@ Tijdens de instelling van Finance voert u de volgende taken uit:
 1. Controleer in de werkruimte **Elektronische rapportage** of de configuratieaanbieder **Bedrijfsdocumentenservice** is ingesteld op **Actief**.
 2. Selecteer **Opslagplaatsen**.
 3. Selecteer **Algemene resource \> Openen**.
-4. Importeer **Factuurmodel**, **Toewijzing factuurmodellen** en **Contextmodel klantfactuur**.
+4. Importeer **Factuurmodel** , **Toewijzing factuurmodellen** en **Contextmodel klantfactuur**.
 
 #### <a name="turn-on-the-feature-for-exporting-customer-electronic-invoices-for-italy"></a>De functie voor het exporteren van elektronische klantfacturen voor Italië inschakelen
 
@@ -239,7 +239,7 @@ U kunt de indieningslogboeken voor alle ingediende documenten weergeven.
     ![Details van indieningslogboeken weergeven](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. Op het sneltabblad **Verwerkingsacties** kunt u het uitvoeringslogboek weergeven voor de acties die zijn geconfigureerd in de functieversie die is ingesteld in RCS. De kolom **Status** geeft aan of de actie met goed gevolg is uitgevoerd.
-5. Op het sneltabblad **Actiebestanden** kunt u de tussenliggende bestanden weergeven die zijn gegenereerd tijdens de uitvoering van de acties. U kunt **Weergeven** selecteren om het uitvoer-XML-bestand in **FatturaPA**-indeling te downloaden en de inhoud weer te geven.
+5. Op het sneltabblad **Actiebestanden** kunt u de tussenliggende bestanden weergeven die zijn gegenereerd tijdens de uitvoering van de acties. U kunt **Weergeven** selecteren om het uitvoer-XML-bestand in **FatturaPA** -indeling te downloaden en de inhoud weer te geven.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

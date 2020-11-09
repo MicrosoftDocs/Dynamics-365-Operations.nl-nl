@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fb535b1f20d97042e6205b680de1cc687350f071
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975142"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107202"
 ---
 # <a name="store-order-fulfillment"></a>Winkelorderafhandeling
 
@@ -58,7 +58,7 @@ Regels kunnen worden geselecteerd met de functie **Selecteren** in het actievens
 
 ## <a name="line-details"></a>Regeldetails
 
-Regeldetails kunnen worden weergegeven via het fly-outmenu voor regeldetails. Wanneer u dit menu gebruikt, worden er drie tabbladen met aanvullende informatie over de geselecteerde regel weergegeven. Het eerste tabblad, **Regeldetails**, bevat informatie over de regel zelf, zoals de bestelde en de resterende hoeveelheid. Daarnaast vindt u hier informatie over verzamelde, verpakte en gefactureerde aantallen en de leveringsmethode en het afleveradres. Het tabblad **Orderdetails** bevat gegevens uit de orderkoptekst, zoals de klant, de klant-id, het ordernummer, het ordertotaal en het saldo. Het tabblad **Voorraad** bevat informatie voor de geselecteerde regel in de vorm van fysiek beschikbare voorraad, gereserveerde voorraad en bestelde voorraad.
+Regeldetails kunnen worden weergegeven via het fly-outmenu voor regeldetails. Wanneer u dit menu gebruikt, worden er drie tabbladen met aanvullende informatie over de geselecteerde regel weergegeven. Het eerste tabblad, **Regeldetails** , bevat informatie over de regel zelf, zoals de bestelde en de resterende hoeveelheid. Daarnaast vindt u hier informatie over verzamelde, verpakte en gefactureerde aantallen en de leveringsmethode en het afleveradres. Het tabblad **Orderdetails** bevat gegevens uit de orderkoptekst, zoals de klant, de klant-id, het ordernummer, het ordertotaal en het saldo. Het tabblad **Voorraad** bevat informatie voor de geselecteerde regel in de vorm van fysiek beschikbare voorraad, gereserveerde voorraad en bestelde voorraad.
 
 Als er meerdere regels zijn geselecteerd, wordt in het fly-outmenu voor orderregeldetails alleen aangeven dat er meerdere regels zijn geselecteerd. Als u details wilt weergeven voor één regel, maakt u de selectie van de overige regels ongedaan.
 
@@ -84,14 +84,14 @@ De actiecategorie **Orderverzamelen** is beschikbaar om u te helpen bij het verz
 
 **Actie: Orderverzamelen**
 
-- **Resulterende POS-status**: Orderverzamelen
+- **Resulterende POS-status** : Orderverzamelen
 - **Resulterende status backoffice:** Geen wijziging
 
 Nadat een order is geaccepteerd, kunnen regels worden geselecteerd en gemarkeerd als **Orderverzamelen**. Door een regel als **Orderverzamelen** te markeren, kunt u aangeven dat de orderverzameling al wordt uitgevoerd voor een regel. Zo wordt voorkomen dat twee werknemers op hetzelfde moment dezelfde orderregels verzamelen.
 
 **Actie: Orderverzamellijst afdrukken**
 
-- **Resulterende status**: Orderverzamelen
+- **Resulterende status** : Orderverzamelen
 - **Resulterende status backoffice:** Geen wijziging
 
 Orderverzamellijsten kunnen bij het verkooppunt worden afgedrukt om werknemers te ondersteunen tijdens het orderverzamelproces. Een afgedrukte orderverzamellijst kan door de werknemer verantwoordelijk voor het verzamelen van artikelen worden meegenomen en handmatig worden bijgewerkt tijdens het werk.
@@ -105,13 +105,13 @@ Als er regels zijn geselecteerd en er een orderverzamellijst is afgedrukt voor d
 - **Resulterende status:** Opgenomen of gedeeltelijk verzameld
 - **Resulterende status backoffice:** Opgenomen of gedeeltelijk verzameld
 
-Nadat het fysieke orderverzamelproces is uitgevoerd, kunnen regels worden gemarkeerd als **Opgenomen**. Wanneer een regel wordt geselecteerd en gemarkeerd als **Opgenomen**, wordt de functie voor het bijwerken van de orderregel in realtime aangeroepen. Nadat de regel is gemarkeerd als **Opgenomen** bij het verkooppunt, wordt de status in de backoffice ook bijgewerkt naar **Opgenomen** en wordt in voorraadtransacties aangeven dat de opgegeven hoeveelheid is afgetrokken van de totale hoeveelheid.
+Nadat het fysieke orderverzamelproces is uitgevoerd, kunnen regels worden gemarkeerd als **Opgenomen**. Wanneer een regel wordt geselecteerd en gemarkeerd als **Opgenomen** , wordt de functie voor het bijwerken van de orderregel in realtime aangeroepen. Nadat de regel is gemarkeerd als **Opgenomen** bij het verkooppunt, wordt de status in de backoffice ook bijgewerkt naar **Opgenomen** en wordt in voorraadtransacties aangeven dat de opgegeven hoeveelheid is afgetrokken van de totale hoeveelheid.
 
 Wanneer orders na verloop van tijd zijn verwerkt, kunnen er gedeeltelijke hoeveelheden voor een bepaalde regel worden verwerkt. Als een regel is geselecteerd, de actie **Markeren als opgenomen** is ondernomen en de hoeveelheid groter dan 1 is, wordt de gebruiker gevraagd naar de hoeveelheid. De resterende hoeveelheid die moet worden verzameld, wordt dan automatisch ingevuld. Als minder dan de resterende hoeveelheid wordt opgegeven, wordt de status van de regel **Gedeeltelijk verzameld**. Wanneer de orderregel wordt bijgewerkt in de backoffice, is hierin ook de status Gedeeltelijk verzameld verwerkt. De door de gebruiker ingevoerde hoeveelheid word gebruikt voor de voorraadupdate.
 
 Als een orderregel ten onrechte wordt opgenomen, moet het proces voor het ongedaan maken van de opname voor de orderregel worden uitgevoerd in de backoffice. Voor verkooppunten bestaan nog geen ondersteunde acties voor het ongedaan maken van een opname.
 
-Orderregels uit verschillende orders kunnen worden geselecteerd en gemarkeerd als **Orderverzamelen**, worden afgedrukt in dezelfde orderverzamellijst of worden gemarkeerd als **Opgenomen**.
+Orderregels uit verschillende orders kunnen worden geselecteerd en gemarkeerd als **Orderverzamelen** , worden afgedrukt in dezelfde orderverzamellijst of worden gemarkeerd als **Opgenomen**.
 
 ### <a name="pack"></a>Verpakking
 
@@ -194,17 +194,17 @@ En als er 200 platen zijn gemarkeerd als verpakt en Verzending wordt geselecteer
 
 Orderregels in het verkooppunt hebben verschillende statussen om de status van de orderregel aan te geven. De statussen in het verkooppunt en de backoffice komen niet in alle gevallen overeen. De orderregelstatus kan via het verkooppunt worden weergegeven met de orderafhandelingsbewerkingen. In de backoffice kunnen orderregels worden weergegeven vanuit de orderdetails. Orderdetails zijn toegankelijk via **Retail en Commerce** \> **Klanten** \> **Alle klantorders**. Selecteer de **order-id** om de orderdetails te bekijken. Selecteer vanuit de orderdetails het tabblad **Verkooporder** en selecteer vervolgens **Gedetailleerde status** onder de subkop **Weergave**.
 
-- **In behandeling**: orderregels die zijn toegewezen aan een winkel, maar nog niet zijn geaccepteerd, hebben de status **In behandeling** wanneer ze worden weergegeven bij het verkooppunt. Regels in afwachting van goedkeuring in het verkooppunt hebben de status **Orderverwerking** in de backoffice.
-- **Geaccepteerd**: orderregels die handmatig of automatisch zijn geaccepteerd, hebben de status **Geaccepteerd** wanneer deze worden weergegeven bij het verkooppunt. Regels met de status **Geaccepteerd** worden weergegeven als **Orderverwerking** in de backoffice.
-- **Orderverzameling**: regels die momenteel worden verzameld op winkelniveau hebben de status **Orderverzameling**. Dezelfde regels worden in de backoffice weergegeven als **Orderverwerking**.
-- **Verzameld** en **Gedeeltelijk verzameld**: regels die zijn verzameld of gedeeltelijk zijn verzameld bij het verkooppunt krijgen de status **Verzameld** of **Gedeeltelijk verzameld**. Dezelfde regels worden in de backoffice ook weergegeven als **Verzameld** of **Gedeeltelijk verzameld**.
-- **Verpakt** en **Gedeeltelijk verpakt**: regels die zijn verpakt of gedeeltelijk zijn verpakt bij het verkooppunt krijgen de status **Verpakt** of **Gedeeltelijk verpakt**. Dezelfde regels worden in de backoffice ook weergegeven als **Geleverd** of **Gedeeltelijk geleverd**.
-- **Gedeeltelijk gefactureerd**: regels die gedeeltelijk zijn verzameld of gedeeltelijk zijn verzonden, krijgen de status **Gedeeltelijk gefactureerd** bij het verkooppunt en in de backoffice.
-- **Gefactureerd**: regels die volledig zijn gefactureerd bij het verkooppunt worden niet meer weergegeven voor afhandeling. In de backoffice is de status voor deze regels **Gefactureerd**.
+- **In behandeling** : orderregels die zijn toegewezen aan een winkel, maar nog niet zijn geaccepteerd, hebben de status **In behandeling** wanneer ze worden weergegeven bij het verkooppunt. Regels in afwachting van goedkeuring in het verkooppunt hebben de status **Orderverwerking** in de backoffice.
+- **Geaccepteerd** : orderregels die handmatig of automatisch zijn geaccepteerd, hebben de status **Geaccepteerd** wanneer deze worden weergegeven bij het verkooppunt. Regels met de status **Geaccepteerd** worden weergegeven als **Orderverwerking** in de backoffice.
+- **Orderverzameling** : regels die momenteel worden verzameld op winkelniveau hebben de status **Orderverzameling**. Dezelfde regels worden in de backoffice weergegeven als **Orderverwerking**.
+- **Verzameld** en **Gedeeltelijk verzameld** : regels die zijn verzameld of gedeeltelijk zijn verzameld bij het verkooppunt krijgen de status **Verzameld** of **Gedeeltelijk verzameld**. Dezelfde regels worden in de backoffice ook weergegeven als **Verzameld** of **Gedeeltelijk verzameld**.
+- **Verpakt** en **Gedeeltelijk verpakt** : regels die zijn verpakt of gedeeltelijk zijn verpakt bij het verkooppunt krijgen de status **Verpakt** of **Gedeeltelijk verpakt**. Dezelfde regels worden in de backoffice ook weergegeven als **Geleverd** of **Gedeeltelijk geleverd**.
+- **Gedeeltelijk gefactureerd** : regels die gedeeltelijk zijn verzameld of gedeeltelijk zijn verzonden, krijgen de status **Gedeeltelijk gefactureerd** bij het verkooppunt en in de backoffice.
+- **Gefactureerd** : regels die volledig zijn gefactureerd bij het verkooppunt worden niet meer weergegeven voor afhandeling. In de backoffice is de status voor deze regels **Gefactureerd**.
 
 ## <a name="order-fulfillment-filtering"></a>Filteren van orderafhandeling
 
-Orderafhandeling in het verkooppunt omvat allerlei filters, zodat gebruikers gemakkelijk vinden wat ze nodig hebben. Filters kunnen via het actievenster onder in het scherm **Verkooppunt** worden gewijzigd. Standaard wordt een filter **Leveringstype** toegepast, afhankelijk van hoe de bewerking is ingesteld. Als de bewerking is ingesteld met de parameter **Alle orders**, wordt dit filter toegepast bij het openen van Orderafhandeling. Hetzelfde geldt voor de parameters **Ophalen in de winkel** en **Verzenden uit winkel**. Andere filters die kunnen worden toegepast op de weergave Orderafhandeling zijn onder andere:
+Orderafhandeling in het verkooppunt omvat allerlei filters, zodat gebruikers gemakkelijk vinden wat ze nodig hebben. Filters kunnen via het actievenster onder in het scherm **Verkooppunt** worden gewijzigd. Standaard wordt een filter **Leveringstype** toegepast, afhankelijk van hoe de bewerking is ingesteld. Als de bewerking is ingesteld met de parameter **Alle orders** , wordt dit filter toegepast bij het openen van Orderafhandeling. Hetzelfde geldt voor de parameters **Ophalen in de winkel** en **Verzenden uit winkel**. Andere filters die kunnen worden toegepast op de weergave Orderafhandeling zijn onder andere:
 
 - Klantnummer
 - Klantnaam

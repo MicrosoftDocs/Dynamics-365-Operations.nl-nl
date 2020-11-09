@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 816bfc8b93f52fe91192874bcc1c8e605e41b582
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7091e8ba7940e358d77c69c63e26c8f3d9337713
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022097"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107251"
 ---
 # <a name="call-center-sales-functionality"></a>Verkoopfunctionaliteit callcenter
 
@@ -35,7 +35,7 @@ In Dynamics 365 Commerce is een callcenter een type afzetkanaal dat kan worden g
 
 Callcenterfuncties bevatten geavanceerde prijzen en promoties, catalogi, geschenkbonnen, loyaliteitsprogramma's en coupons. Callcenterorders worden ook gebruikt door de POS-toepassing (Point of Sales) ter ondersteuning van afhandelingsscenario's van orders tussen afzetkanalen.
 
-Het is belangrijk te weten dat de callcentermodule kan worden gebruikt door andere bedrijfstakken dan Commerce, maar de huidige versie van de toepassing -callcenter is niet geoptimaliseerd voor gebruik in B2B-orderverwerkingsscenario's of scenario's waarin orders een grote hoeveelheid verkoopregels hebben. Het is raadzaam dat gebruikers die gebruik willen maken van de callcenterfuncties voor orderverwerking buiten de verwerking van rechtstreekse transacties met de consument, voldoende tijd nemen om te testen en te valideren of activering van de callcenterfunctionaliteit voldoet aan functionele en prestatievereisten.
+Het is belangrijk te weten dat de callcentermodule kan worden gebruikt door andere bedrijfstakken dan Commerce, maar de huidige versie van de toepassing -callcenter is niet geoptimaliseerd voor gebruik in B2B-orderverwerkingsscenario's of scenario's waarin orders een groot aantal verkoopregels hebben. Het is raadzaam dat gebruikers die gebruik willen maken van de callcenterfuncties voor orderverwerking buiten de verwerking van rechtstreekse transacties met de consument, voldoende tijd nemen om te testen en te valideren of activering van de callcenterfunctionaliteit voldoet aan functionele en prestatievereisten.
 
 Met de callcentermodule kunnen orders worden gemaakt en wordt een gebruiksvriendelijke klantservicetoepassing geleverd die het eenvoudiger maakt voor gebruikers om klantaccounts te vinden en om alle gerelateerde klantordergegevens en -kenmerken te controleren. Het klantservicescherm is ontworpen om een gebruiker snel toegang te verschaffen tot ordergerelateerde gegevens waarmee de meest voorkomende ordergerelateerde vragen worden beantwoord die van klanten worden ontvangen.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 5dbc856f21b6398109ab1ac4da409252050385df
+ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071585"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4011574"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Geavanceerde opmaakopties in financiële rapportage
 
 [!include [banner](../includes/banner.md)]
 
-Wanneer u een rapport in financiële rapportage maakt, zijn aanvullende opmaakfuncties beschikbaar, zoals filters voor dimensies, beperkingen voor kolommen en rapporteringseenheden, niet-afdrukbare rijen en IF/THEN/ELSE-instructies in berekeningen. 
+Wanneer u een rapport in financiële rapportage maakt, zijn aanvullende opmaakfuncties beschikbaar, zoals filters voor dimensies, beperkingen voor kolommen en rapporteringseenheden, niet-afdrukbare rijen en IF/THEN/ELSE-instructies in berekeningen.
 
 In de volgende tabel worden de geavanceerde opmaakfuncties uitgelegd die beschikbaar zijn wanneer u rapporten ontwerpt.
 
@@ -44,6 +44,7 @@ In de volgende tabel worden de geavanceerde opmaakfuncties uitgelegd die beschik
 | Enkele aanhalingstekens (' ') en een ampersand (&) gebruiken voor dimensiewaarden | U kunt dimensiewaarden gebruiken, inclusief het &-teken voor het ontwerpen van een rapport. |
 
 ## <a name="advanced-cell-placement"></a>Geavanceerde celplaatsing
+
 Geavanceerde celplaatsing, of *forcering* is het plaatsen van specifieke waarden in specifieke cellen. Forcering wordt bijvoorbeeld vaak gebruikt om het juiste saldo in een cashflowoverzicht te plaatsen. U kunt forcering voor de volgende doeleinden gebruiken:
 
 - Waarden te verplaatsen vanuit Microsoft Excel in specifieke cellen.
@@ -52,11 +53,12 @@ Geavanceerde celplaatsing, of *forcering* is het plaatsen van specifieke waarden
 
 > [!NOTE]
 > In veel gevallen moet u uw rapportdefinitie configureren zodat de kolomberekeningen vóór rijberekeningen worden uitgevoerd. Volg deze stappen om deze configuratie te voltooien.
-> 
+>
 > 1. Open in Report Designer de rapportdefinitie.
-> 2. Selecteer op het tabblad **Instellingen**, onder **Berekeningsprioriteit** de optie **Eerst kolomberekening en daarna rij uitvoeren**.
+> 2. Selecteer op het tabblad **Instellingen** , onder **Berekeningsprioriteit** de optie **Eerst kolomberekening en daarna rij uitvoeren**.
 
 ## <a name="designing-the-report"></a>Het rapport ontwerpen
+
 Wanneer u een rapport ontwerpt, moet u alle detailrijen eerst maken om ervoor te zorgen dat de waarden er zoals u verwacht in worden getrokken. Voeg vervolgens opmaakopheffingen van het type **NP** (No Print) toe om het detail te onderdrukken dat de eindwaarden bevat.
 
 > [!IMPORTANT]
@@ -65,6 +67,7 @@ Wanneer u een rapport ontwerpt, moet u alle detailrijen eerst maken om ervoor te
 Voor forcering gebruiken formules de volgende opmaak: &lt;bestemmingskolom&gt;=&lt;oorspronkelijke kolom&gt;.&lt;rijcode&gt; Scheid eventuele aanvullende plaatsingen voor een rij door een komma en een spatie. Een voorbeeld: D=C.190,E=C.100
 
 ## <a name="examples-of-advanced-formatting-options"></a>Voorbeelden van geavanceerde opmaakopties
+
 De volgende voorbeelden geven aan hoe u de rijdefinitie en kolomdefinitie opmaakt om een basiscashflowrapport (voorbeeld 1) en een statistisch rapport (voorbeeld 2) te forceren.
 
 ### <a name="example-1-basic-forcing"></a>Voorbeeld 1: Basisfocering
@@ -78,15 +81,15 @@ De volgende tabel toont een voorbeeld van een rijdefinitie die basisforcering ge
 | 160      |                                  |             |                             |                            |                              |
 | 190      |                                  |             |                             |                            |                              |
 
-> [!NOTE] 
+> [!NOTE]
 > Lege kolommen zijn verwijderd uit de vorige tabel voor presentatiedoeleinden: de kolommen Opmaak negeren, Normaal saldo, Afdrukbeheer, Kolombeperking worden niet weergegeven.
 
 De volgende tabel toont een voorbeeld van een kolomdefinitie die basisforcering in de rij gebruikt.
 
-|                              | A   | B    | C        | D      | E      | F    |
+|           Format             | V   | B    | C        | D      | E      | Vr    |
 |------------------------------|-----|------|----------|--------|--------|------|
 | Koptekst 1                     |     |      |          |        |        |      |
-| Koptekst 2                     | A   | B    | C        | D      | E      | F    |
+| Koptekst 2                     | V   | B    | C        | D      | E      | Vr    |
 | Koptekst 3                     |     |      |          |        |        |      |
 | Kolomtype                  | ROW | DESC | FD       | FD     | FD     | CALC |
 | Categorie boekcode/-kenmerk |     |      | WERKELIJK   | WERKELIJK | WERKELIJK |      |
@@ -113,15 +116,15 @@ De volgende tabel toont een voorbeeld van een rijdefinitie die forcering voor ee
 | 310      | Verkoop VS                  | CAL         | D=C.190,E=C.100,F=(C.100/C.190) |                      |                |                                            |
 | 340      | Internationale verkoop       | CAL         | D=C.220,E=C115,F=(C.220/C.115)  |                      |                |                                            |
 
-> [!NOTE] 
+> [!NOTE]
 > Lege kolommen zijn verwijderd uit de vorige tabel voor presentatiedoeleinden: de kolommen Opmaak negeren, Kolombeperking en Rijmodificator worden niet weergegeven.
 
 De volgende tabel toont een voorbeeld van een kolomdefinitie die forcering voor een statistisch rapport gebruikt.
 
-|                              | A   | B    | C      | D            | E     | F            |
+|    Format                    | V   | B    | C      | D            | E     | Vr            |
 |------------------------------|-----|------|--------|--------------|-------|--------------|
-| Koptekst 1                     | A   | B    | C      | D            | E     | F            |
-| Koptekst 2                     | -   | -    | JTD    | Jaarlijkse verkoop | Personeel | $ per persoon |
+| Koptekst 1                     | V   | B    | C      | D            | E     | Vr            |
+| Koptekst 2                     | -   | -    | JTD    | Jaarlijkse verkoop | Medewerker | $ per persoon |
 | Koptekst 3                     |     |      |        |              |       |              |
 | Kolomtype                  | ROW | DESC | FD     | CALC         | CALC  | CALC         |
 | Categorie boekcode/-kenmerk |     |      | WERKELIJK |              |       |              |
@@ -132,6 +135,7 @@ De volgende tabel toont een voorbeeld van een kolomdefinitie die forcering voor 
 | Kolombreedte                 | 5   | 30   | 14     | 14           | 14    | 14           |
 
 ## <a name="restricting-a-row-to-a-specific-reporting-unit"></a>Een rij beperken tot een specifieke rapportage-eenheid
+
 Wanneer een rapportrij beperkt is tot een specifieke rapportage-eenheid, geeft die rij alleen de bijbehorende gegevens voor de genoemde rapportage-eenheid weer en negeert deze de gegevens voor andere rapportage-eenheden in de rapportagestructuur. U kunt bijvoorbeeld een rij maken die gegevens voor de totale bedrijfskosten voor een specifieke afdeling bevat. Uw rapport bevat mogelijk dubbele gegevens als het rapport zowel een rapportagestructuur als een rijdefinitie bevat met meer dan alleen de natuurlijke rekening. U hebt bijvoorbeeld een rapportagestructuur van de zes afdelingen in uw organisatie en u hebt ook een rijdefinitie die een specifieke combinatie van een rekening en een afdeling in de rij vermeldt. Wanneer u het rapport genereert, wordt de specifieke combinatie van een rekening en een afdeling afgedrukt op elk niveau van de rapportagestructuur, hoewel die afdeling misschien niet overeenkomt met wat zich in de structuur bevindt. Dit gedrag treedt op doordat de rij negeert wat meestal door de rapportdefinitie wordt uitgefilterd. Een manier waarop u verdubbeling van gegevens kunt voorkomen is door een rij te beperken tot een specifieke rapportage-eenheid.
 
 > [!NOTE]
@@ -146,6 +150,7 @@ Wanneer een rapportrij beperkt is tot een specifieke rapportage-eenheid, geeft d
 5. Dubbelklik op de cel in de kolom **Koppeling naar financiële dimensies** van de beperkte rij en voer vervolgens een koppeling naar het financiële gegevenssysteem in.
 
 ## <a name="selecting-print-control-in-a-row-definition"></a>Afdrukbeheer in een rijdefinitie selecteren
+
 U kunt voor elke kolom afdrukbeheercodes opgeven met de cel **Afdrukbeheer**.
 
 ### <a name="add-print-control-codes-to-a-report-row"></a>Afdrukcontrolecodes toevoegen aan een rapportrij
@@ -182,17 +187,19 @@ De volgende tabel beschrijft de voorwaardelijke afdrukbeheercodes voor een rijde
 | CR                 | Druk alleen de creditsaldi voor deze rij af. |
 
 ## <a name="column-restriction-cell-in-a-row-definition"></a>Cel Kolombeperking in een rijdefinitie
+
 De cel **Kolombeperking** in een rijdefinitie heeft meerdere doeleinden. Afhankelijk van het type van rij kunt u de cel **Kolombeperking** gebruiken om een van de volgende functies op te geven:
 
 - De cel kan de afdruk van rijbedragen beperken tot een specifieke kolom. Deze functie is handig als u een balans in tabelvorm maakt.
 - De cel kan de kolom van bedragen opgeven die moet worden gesorteerd.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Een berekeningsformule gebruiken in een rijdefinitie
-Een berekeningsformule in een rijdefinitie kan de operatoren **+**, **-**, **\*** en **/** bevatten en ook **IF/THEN/ELSE**-constructies. Bovendien kan een berekening afzonderlijke cellen en absolute bedragen (werkelijke cijfers die in de formule zijn opgenomen) bevatten. De formule kan maximaal 1024 tekens bevatten. De berekeningen kunnen niet worden toegepast op rijen die cellen bevatten van het type ( **Koppeling naar financiële dimensies** (FD). U kunt echter berekeningen in opeenvolgende rijen opnemen, het afdrukken van die rijen onderdrukken en vervolgens het totaal van de berekeningsrijen berekenen.
+
+Een berekeningsformule in een rijdefinitie kan de operatoren **+** , **-** , **\*** en **/** bevatten en ook **IF/THEN/ELSE** -constructies. Bovendien kan een berekening afzonderlijke cellen en absolute bedragen (werkelijke cijfers die in de formule zijn opgenomen) bevatten. De formule kan maximaal 1024 tekens bevatten. De berekeningen kunnen niet worden toegepast op rijen die cellen bevatten van het type **Koppeling naar financiële dimensies** (FD). U kunt echter berekeningen in opeenvolgende rijen opnemen, het afdrukken van die rijen onderdrukken en vervolgens het totaal van de berekeningsrijen berekenen.
 
 ### <a name="operators-in-a-calculation-formula"></a>Operatoren in een berekeningsformule
 
-Een berekeningsformule gebruikt complexere operatoren dan een rijtotaalformule. U kunt echter de operatoren **\*** en **/** samen met de extra operatoren gebruiken om bedragen te vermenigvuldigen (\*) en te delen (/). Om een bereik of som in een berekeningsformule te gebruiken, moet u een @-teken gebruiken voor de rijcode, tenzij u een kolom in de rijdefinitie gebruikt. Om bijvoorbeeld het bedrag in rij 100 op te tellen bij het bedrag in rij 330, kunt u de rijtotaalformule **100+330** of de berekeningsformule **@100+@330**gebruiken.
+Een berekeningsformule gebruikt complexere operatoren dan een rijtotaalformule. U kunt echter de operatoren **\*** en **/** samen met de extra operatoren gebruiken om bedragen te vermenigvuldigen (\*) en te delen (/). Om een bereik of som in een berekeningsformule te gebruiken, moet u een @-teken gebruiken voor de rijcode, tenzij u een kolom in de rijdefinitie gebruikt. Om bijvoorbeeld het bedrag in rij 100 op te tellen bij het bedrag in rij 330, kunt u de rijtotaalformule **100+330** of de berekeningsformule **@100+@330** gebruiken.
 
 > [!NOTE]
 > U moet een @-teken gebruiken voor elke rijcode die u in een berekeningsformule gebruikt. Anders wordt het cijfer gelezen als een absoluut bedrag. De formule **@100+330** voegt bijvoorbeeld EUR 330 toe aan het bedrag in rij 100. Wanneer u verwijst naar een kolom in een berekeningsformule, is een @-teken niet vereist.
@@ -216,7 +223,7 @@ In dit voorbeeld betekent de berekeningsformule **@100+@330** dat het bedrag in 
 Wanneer de rij in een rijdefinitie de opmaakcode **CAL** heeft en u een rekenkundige berekening in de cel **Gerelateerde formules/rijen/eenheden** invoert, moet u de letter van de gekoppelde kolom en rij ook invoeren op het rapport. Voer bijvoorbeeld **A.120** in voor kolom A, rij 120. U kunt ook een apenstaartje (@) gebruiken om alle kolommen aan te geven. Voer bijvoorbeeld **@120** in voor alle kolommen in rij 120. Een wiskundige berekening die geen kolomletter of een apenstaartje (@) bevat, wordt beschouwd als een reëel getal.
 
 > [!NOTE]
-> Als u een labelrijcode gebruikt om naar een rij te verwijzen, moet u een punt (.) gebruiken als scheidingsteken tussen de kolomletter en het label (bijvoorbeeld **A.GROSSMARGIN\_A.SALES**). Als u een @-teken gebruikt, is een scheidingsteken niet vereist (bijvoorbeeld **\@GROSS\_MARGIN/@SALES**).
+> Als u een labelrijcode gebruikt om naar een rij te verwijzen, moet u een punt (.) gebruiken als scheidingsteken tussen de kolomletter en het label (bijvoorbeeld **A.GROSSMARGIN\_A.SALES** ). Als u een @-teken gebruikt, is een scheidingsteken niet vereist (bijvoorbeeld **\@GROSS\_MARGIN/@SALES** ).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Voorbeeld van een berekeningsformule voor een specifieke kolom
 
@@ -235,8 +242,8 @@ In dit voorbeeld houdt de berekeningsformule **E=C.340** in dat de berekening in
 
 Als u een cijfer of berekening in een kolom van een bepaalde rij wijzigt, zonder invloed op andere kolommen op het rapport, kunt u **CAL** (Berekening) opgeven in de kolom **Opmaakcode** van de rijdefinitie.
 
-- Als u een berekening wilt uitvoeren voor alle kolommen (**FD**) van het rapport, voert u geen kolomtoewijzing in.
-- Als u een formule tot specifieke kolommen wilt beperken, voert u de kolomletter, een gelijkteken (**=**) en de formule in.
+- Als u een berekening wilt uitvoeren voor alle kolommen ( **FD** ) van het rapport, voert u geen kolomtoewijzing in.
+- Als u een formule tot specifieke kolommen wilt beperken, voert u de kolomletter, een gelijkteken ( **=** ) en de formule in.
 - U kunt meerdere kolommen opgeven. Wanneer u een @-teken met specifieke kolomplaatsing gebruikt, wordt het @-teken gekoppeld aan de rij.
 - U kunt meerdere kolomformules in één rij invoeren. Scheid de formules met behulp van komma's.
 
@@ -250,37 +257,37 @@ Als u een cijfer of berekening in een kolom van een bepaalde rij wijzigt, zonder
 
 ### <a name="ifthenelse-statements-in-a-row-definition"></a>IF/THEN/ELSE-constructies in een rijdefinitie
 
-**IF/THEN/ELSE**-constructies kunnen aan elke geldige berekening worden toegevoegd en met de **CAL**-opmaak worden gebruikt. U voert **IF/THEN/ELSE**-berekeningsformules in de cel in de kolom **Gerelateerde formules/rijen/eenheden** in. **IF/THEN/ELSE**-berekeningsformules gebruiken de volgende opmaak: IF &lt;true/false statement&gt; THEN &lt;formula&gt; ELSE &lt;formula&gt;. Het gedeelte **ELSE &lt;formula&gt;** van de constructie is optioneel.
+**IF/THEN/ELSE** -constructies kunnen aan elke geldige berekening worden toegevoegd en met de **CAL** -opmaak worden gebruikt. U voert **IF/THEN/ELSE** -berekeningsformules in de cel in de kolom **Gerelateerde formules/rijen/eenheden** in. **IF/THEN/ELSE** -berekeningsformules gebruiken de volgende opmaak: IF &lt;true/false statement&gt; THEN &lt;formula&gt; ELSE &lt;formula&gt;. Het gedeelte **ELSE &lt;formula&gt;** van de constructie is optioneel.
 
 #### <a name="if-statements"></a>IF-constructies
 
-De constructie die de **IF**-constructie volgt kan elke constructie zijn die kan worden beoordeeld als waar of onwaar. De constructie die de **IF**-constructie volgt kan een eenvoudige evaluatie bevatten of kan een complexe constructie zijn die meerdere expressies bevat. Hieronder vindt u enkele voorbeelden:
+De constructie die de **IF** -constructie volgt kan elke constructie zijn die kan worden beoordeeld als waar of onwaar. De constructie die de **IF** -constructie volgt kan een eenvoudige evaluatie bevatten of kan een complexe constructie zijn die meerdere expressies bevat. Hieronder vindt u enkele voorbeelden:
 
 - **IF A.200&gt;0** (Eenvoudige evaluatie)
 - **IF A.200&gt;0 AND A.200&lt;10.000** (Complexe constructie)
 - **IF A.200&gt;10000 OR ((A.340/B.1200)\*2 &lt;1200)** (Complexe constructie die meerdere expressies bevat)
 
-De term **Perioden** in een **IF**-constructie geeft het aantal perioden voor het rapport weer. Deze term wordt meestal gebruikt om een jaar-tot-datum gemiddelde te berekenen. Wanneer u bijvoorbeeld een rapport voor periode 7 JTD uitvoert, betekent de **B.150/Periods**-constructie dat de waarde in rij 150 van kolom B is gedeeld door 7.
+De term **Perioden** in een **IF** -constructie geeft het aantal perioden voor het rapport weer. Deze term wordt meestal gebruikt om een jaar-tot-datum gemiddelde te berekenen. Wanneer u bijvoorbeeld een rapport voor periode 7 JTD uitvoert, betekent de **B.150/Periods** -constructie dat de waarde in rij 150 van kolom B is gedeeld door 7.
 
 #### <a name="then-and-else-formulas"></a>THEN- en ELSE-formules
 
-De **THEN**- en **ELSE**-formules kunnen elke geldige berekening zijn, van zeer eenvoudige waardetoewijzingen tot complexe formules. De constructie **IF A.200&gt;0 THEN A=B.200** betekent bijvoorbeeld: 'Als de waarde in de cel in kolom A van rij 200 meer is dan 0 (nul), plaats dan de waarde van de cel in kolom B van rij 200 in de cel in kolom A van de huidige rij.' De voorafgaande **IF/THEN**-constructie plaatst een waarde in één kolom van de huidige rij. U kunt echter ook een @-teken gebruiken in waar/onwaar-evaluaties of de formule om alle kolommen te vertegenwoordigen. Hier volgen enkele voorbeelden die in de volgende secties worden beschreven:
+De **THEN** - en **ELSE** -formules kunnen elke geldige berekening zijn, van zeer eenvoudige waardetoewijzingen tot complexe formules. De constructie **IF A.200&gt;0 THEN A=B.200** betekent bijvoorbeeld: 'Als de waarde in de cel in kolom A van rij 200 meer is dan 0 (nul), plaats dan de waarde van de cel in kolom B van rij 200 in de cel in kolom A van de huidige rij.' De voorafgaande **IF/THEN** -constructie plaatst een waarde in één kolom van de huidige rij. U kunt echter ook een @-teken gebruiken in waar/onwaar-evaluaties of de formule om alle kolommen te vertegenwoordigen. Hier volgen enkele voorbeelden die in de volgende secties worden beschreven:
 
-- **IF A.200 &gt;0 THEN B.200**: Als de waarde in cel A.200 positief is, wordt de waarde van cel B.200 in elke kolom van de huidige rij geplaatst.
-- **IF A.200 &gt;0 THEN @200**: Als de waarde in cel A.200 positief is, wordt de waarde van elke kolom in rij 200 in de overeenkomstige kolom in de huidige rij geplaatst.
-- **IF @200 &gt;0 THEN @200**: Als de waarde in rij 200 van de huidige kolom positief is, wordt de waarde van rij 200 in dezelfde kolom in de huidige rij geplaatst.
+- **IF A.200 &gt;0 THEN B.200** : Als de waarde in cel A.200 positief is, wordt de waarde van cel B.200 in elke kolom van de huidige rij geplaatst.
+- **IF A.200 &gt;0 THEN @200** : Als de waarde in cel A.200 positief is, wordt de waarde van elke kolom in rij 200 in de overeenkomstige kolom in de huidige rij geplaatst.
+- **IF @200 &gt;0 THEN @200** : Als de waarde in rij 200 van de huidige kolom positief is, wordt de waarde van rij 200 in dezelfde kolom in de huidige rij geplaatst.
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Een berekening beperken tot een rapportage-eenheid in een rijdefinitie
 
-Als u een berekening wilt beperken tot één rapportage-eenheid in een rapportagestructuur, zodat het resulterende bedrag niet wordt opgeteld bij een eenheid op een hoger niveau, kunt u de **@Unit**-code in de cel **Gerelateerde formules/rijen/eenheden** gebruiken in de rijdefinitie. De **@Unit**-code wordt vermeld in kolom B van de rapportagestructuur, **Naam van eenheid**. Wanneer u de **@Unit**-code gebruikt, worden de waarden niet opgeteld, maar wordt de berekening beoordeeld op elk niveau van de rapportagestructuur.
+Als u een berekening wilt beperken tot één rapportage-eenheid in een rapportagestructuur, zodat het resulterende bedrag niet wordt opgeteld bij een eenheid op een hoger niveau, kunt u de **@Unit** -code in de cel **Gerelateerde formules/rijen/eenheden** gebruiken in de rijdefinitie. De **@Unit** -code wordt vermeld in kolom B van de rapportagestructuur, **Naam van eenheid**. Wanneer u de **@Unit** -code gebruikt, worden de waarden niet opgeteld, maar wordt de berekening beoordeeld op elk niveau van de rapportagestructuur.
 
 > [!NOTE]
 > Als u deze functie wilt gebruiken, moet u een rapportagestructuur koppelen aan de rijdefinitie.
 
-De berekeningsrij kan naar een berekeningsrij of een financiële gegevensrij verwijzen. De berekening is geregistreerd in de cel **Gerelateerde formules/rijen/eenheden** van de rijdefinitie en de beperking van het type Financiële gegevens. De berekening moet een voorwaardelijke berekening gebruiken die begint met een **IF @Unit**-constructie. Een voorbeeld: IF @Unit(SALES) THEN @100 ELSE 0 Deze berekening bevat het bedrag van rij 100 in elke kolom van het rapport, maar alleen voor de verkoopeenheid. Als meerdere eenheden de naam VERKOOP hebben, wordt het bedrag in elk van die eenheden weergegeven. Bovendien kan rij 100 een financiële gegevensrij zijn en als niet af te drukken rij worden gedefinieerd. In dit geval wordt voorkomen dat het bedrag in alle eenheden in de structuur wordt weergeven. U kunt het bedrag ook beperken tot één kolom van het rapport, zoals kolom H, door een kolombeperking te gebruiken om de waarde alleen in die kolom van het rapport af te drukken. U kunt **OR**-combinaties opnemen in een **IF**-constructie. Een voorbeeld: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 U kunt een eenheid in een beperking van het type Berekening opgeven op een van de volgende manieren:
+De berekeningsrij kan naar een berekeningsrij of een financiële gegevensrij verwijzen. De berekening is geregistreerd in de cel **Gerelateerde formules/rijen/eenheden** van de rijdefinitie en de beperking van het type Financiële gegevens. De berekening moet een voorwaardelijke berekening gebruiken die begint met een **IF @Unit** -constructie. Een voorbeeld: IF @Unit(SALES) THEN @100 ELSE 0 Deze berekening bevat het bedrag van rij 100 in elke kolom van het rapport, maar alleen voor de verkoopeenheid. Als meerdere eenheden de naam VERKOOP hebben, wordt het bedrag in elk van die eenheden weergegeven. Bovendien kan rij 100 een financiële gegevensrij zijn en als niet af te drukken rij worden gedefinieerd. In dit geval wordt voorkomen dat het bedrag in alle eenheden in de structuur wordt weergeven. U kunt het bedrag ook beperken tot één kolom van het rapport, zoals kolom H, door een kolombeperking te gebruiken om de waarde alleen in die kolom van het rapport af te drukken. U kunt **OR** -combinaties opnemen in een **IF** -constructie. Een voorbeeld: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 U kunt een eenheid in een beperking van het type Berekening opgeven op een van de volgende manieren:
 
 - Voer een eenheidsnaam in om eenheden op te nemen die overeenkomen. Zo schakelt **IF @Unit(SALES)** de berekening in voor elke eenheid met de naam VERKOOP, zelfs als er verschillende verkoopeenheden in de rapportagestructuur zijn.
-- Voer de naam van het bedrijf en de eenheidnaam in om de berekening te beperken tot specifieke eenheden in een specifiek bedrijf. Voer bijvoorbeeld **IF @Unit(ACME:SALES**) in om de berekening in verkoopeenheden in het ACME-bedrijf te beperken.
+- Voer de naam van het bedrijf en de eenheidnaam in om de berekening te beperken tot specifieke eenheden in een specifiek bedrijf. Voer bijvoorbeeld **IF @Unit(ACME:SALES** ) in om de berekening in verkoopeenheden in het ACME-bedrijf te beperken.
 - Voer de volledige hiërarchiecode van de rapportagestructuur in om de berekening te beperken tot een specifieke eenheid. Voer bijvoorbeeld **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)** in.
 
 > [!NOTE]
@@ -290,17 +297,17 @@ De berekeningsrij kan naar een berekeningsrij of een financiële gegevensrij ver
 
 1. Klik in Rapportontwerper op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2. Dubbelklik op de cel **Opmaakcode** en selecteer vervolgens **CAL**.
-3. Klik op de cel **Gerelateerde formules/rijen/eenheden** en voer vervolgens een voorwaardelijke berekening in die begint met een **IF @Unit**-constructie.
+3. Klik op de cel **Gerelateerde formules/rijen/eenheden** en voer vervolgens een voorwaardelijke berekening in die begint met een **IF @Unit** -constructie.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>IF/THEN/ELSE-constructies in een kolomdefinitie
 
-Een **IF/THEN/ELSE**-constructie zorgt ervoor dat elke berekening kan afhangen van de resultaten van een andere kolom. U kunt naar andere kolommen verwijzen, maar u kunt niet naar een rapportcel in de **IF**-constructie verwijzen. Elke berekening moet op de hele kolom worden toegepast. De constructie **IF B&gt;100 THEN B ELSE C\*1.25** betekent bijvoorbeeld 'als het bedrag in kolom B meer is dan 100, plaats dan de waarde van kolom B in de kolom **CALC**. Als het bedrag in kolom B niet meer dan 100 is, vermenigvuldig de waarde in kolom C met 1,25 en plaats het resultaat in de kolom **CALC**.' Volg altijd de **IF**-instructie met een logische instructie die kan worden beoordeeld als waar of onwaar. Formules die u voor zowel de **THEN**-constructie als de **ELSE**-constructie kunt gebruiken, bevat verwijzingen naar elk cijfer van de kolommen. Deze formules kunnen zo complex zijn als u ze wilt maken.
+Een **IF/THEN/ELSE** -constructie zorgt ervoor dat elke berekening kan afhangen van de resultaten van een andere kolom. U kunt naar andere kolommen verwijzen, maar u kunt niet naar een rapportcel in de **IF** -constructie verwijzen. Elke berekening moet op de hele kolom worden toegepast. De constructie **IF B&gt;100 THEN B ELSE C\*1.25** betekent bijvoorbeeld 'als het bedrag in kolom B meer is dan 100, plaats dan de waarde van kolom B in de kolom **CALC**. Als het bedrag in kolom B niet meer dan 100 is, vermenigvuldig de waarde in kolom C met 1,25 en plaats het resultaat in de kolom **CALC**.' Volg altijd de **IF** -instructie met een logische instructie die kan worden beoordeeld als waar of onwaar. Formules die u voor zowel de **THEN** -constructie als de **ELSE** -constructie kunt gebruiken, bevat verwijzingen naar elk cijfer van de kolommen. Deze formules kunnen zo complex zijn als u ze wilt maken.
 
 > [!NOTE]
 > U kunt de resultaten van een berekening niet in een andere kolom plaatsen. De resultaten moeten in de kolom zijn die de formule bevat.
 
 #### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Enkele aanhalingstekens en een ampersand gebruiken voor dimensiewaarden in een rij, kolom of structuur
 
-U kunt rapporten ontwerpen met behulp van dimensiewaarden die een ampersand (&) bevatten. 
+U kunt rapporten ontwerpen met behulp van dimensiewaarden die een ampersand (&) bevatten.
 
-In een veld **Koppeling naar financiële dimensies** kunt u een waarde invoeren zoals **'W&V'**. Het opnemen van enkele aanhalingstekens (' ') aan beide zijden van de dimensiewaarde geeft aan dat u de letterlijke waarde gebruikt, zoals bijvoorbeeld het ampersand-teken (&). 
+In een veld **Koppeling naar financiële dimensies** kunt u een waarde invoeren zoals **'W&V'**. Het opnemen van enkele aanhalingstekens (' ') aan beide zijden van de dimensiewaarde geeft aan dat u de letterlijke waarde gebruikt, zoals bijvoorbeeld het ampersand-teken (&).

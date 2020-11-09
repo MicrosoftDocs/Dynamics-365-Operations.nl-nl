@@ -1,10 +1,16 @@
 - name: Dynamics 365 Human Resources
   href: hr-welcome.md
   items:
-    - name: Nieuwe functies
+    - name: Nieuw
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 oktober 2002
+          href: hr-whats-new-2020-10-22.md
+        - name: 6 oktober 2020
+          href: hr-whats-new-2020-10-06.md
+        - name: 26 september 2020
+          href: hr-whats-new-2020-09-26.md
         - name: 16 september 2020
           href: hr-whats-new-2020-09-16.md
         - name: 3 september 2020
@@ -83,6 +89,8 @@
               href: hr-admin-integration-dayforce.md
             - name: Een app voor het exporteren van terugkerende gegevens maken
               href: hr-admin-integration-recurring-data-export.md
+            - name: Integreren met LinkedIn Talent Hub
+              href: hr-admin-integration-linkedin.md
             - name: Integreren met Office
               items:
                 - name: Zelfstudie voor Office-integratie
@@ -217,6 +225,10 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
         - name: Human Resources-app in Teams
           href: hr-admin-teams-leave-app.md
+        - name: Voorbereiden voor go-live
+          href: hr-admin-go-live-prepare.md
+        - name: Veelgestelde vragen over go-live
+          href: hr-admin-go-live-faq.md
         - name: Documentatiebronnen
           items:
             - name: Help-systeem
@@ -665,11 +677,13 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Een afhankelijke vraag maken
               href: hr-learning-depending-question.md
-        - name: Selfservice instellen voor werknemer en manager
+        - name: Selfservice werknemer en Selfservice manager instellen
           items:
-            - name: Overzicht van selfservice instellen voor werknemer en manager
+            - name: Overzicht van Selfservice werknemer en Selfservice manager
               href: hr-employee-manager-self-service-overview.md
-            - name: Naam van werkgebied voor Werknemerselfservice wijzigen
+            - name: Aangepaste koppelingen maken in Selfservice manager
+              href: hr-employee-manager-self-service-custom-links.md
+            - name: Naam van werkgebied Selfservice werknemer wijzigen
               href: hr-employee-self-service-workspace-name.md
             - name: Persoonlijke gegevens bewerken
               href: hr-employee-manager-self-service-edit-personal-information.md

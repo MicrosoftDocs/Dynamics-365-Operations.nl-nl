@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (oktober 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: Commerce 10.0.12 (augustus 2020)
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Finance and Operations
@@ -1040,6 +1038,8 @@
                       href: add-breadcrumb.md
                     - name: Navigatiemenumodule
                       href: nav-menu-module.md
+                    - name: Siteselectiemodule
+                      href: site-selector.md
                 - name: Conformiteitsmodules
                   items:
                     - name: Module voor cookietoestemming
@@ -1980,15 +1980,17 @@
                   items:
                     - name: Architectuuroverzicht
                       href: e-commerce-extensibility/architectural-overview.md
-                    - name: Onlineonderdelen
+                    - name: Online onderdelen
                       href: e-commerce-extensibility/ecommerce-components.md
                     - name: Verwijzing CLI-opdrachten
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: De anatomie van een module
                   items:
-                    - name: Moduledefinitiebestand
+                    - name: Overzicht van modules
+                      href: e-commerce-extensibility/modules-overview.md
+                    - name: Bestand voor definitie van module
                       href: e-commerce-extensibility/module-definition-file.md
-                    - name: Het bestand voor module React-onderdeel
+                    - name: Bestand met React-onderdeel voor module
                       href: e-commerce-extensibility/module-react-file.md
                     - name: Bestand voor moduleweergave
                       href: e-commerce-extensibility/module-view-file.md
@@ -2030,17 +2032,23 @@
                       href: e-commerce-extensibility/app-settings.md
                     - name: Een moduledefinitie uitbreiden
                       href: e-commerce-extensibility/extend-module-definition.md
-                    - name: Overzicht cookie-API's
+                    - name: Overzicht van cookie-API's
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: Overzicht van interactieve onderdelen
                       href: e-commerce-extensibility/interactive-components.md
+                    - name: De aangemelde status imiteren tijdens lokale ontwikkeling
+                      href: e-commerce-extensibility/mock-sign-in.md
                     - name: Modules globaliseren met de klasse CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: Azure Key Vault instellen voor beveiligd sleutelbeheer
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: Gegevensacties ontwikkelen
                   items:
-                    - name: Overzicht gegevensacties
+                    - name: Overzicht van gegevensacties
                       href: e-commerce-extensibility/data-actions.md
-                    - name: Gegevensacties testen met behulp dummy's
+                    - name: Cacheopties voor gegevensactie
+                      href: e-commerce-extensibility/data-action-cache.md
+                    - name: Gegevensacties testen met dummy's
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: Gegevensacties voor het laden van pagina's
                       href: e-commerce-extensibility/page-load-data-action.md
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: Een thema uitbreiden om module-extensies toe te voegen
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Een modulebibliotheekonderdeel in een thema overschrijven
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: Een thema uitbreiden op basis van een basisthema
                       href: e-commerce-extensibility/extend-theme.md
                     - name: Aangepaste resources toevoegen aan uw aanpassingscode
@@ -2098,10 +2108,14 @@
                       href: e-commerce-extensibility/telemetry-logger.md
                 - name: Implementatie en onderhoud
                   items:
-                    - name: Pakketconfiguraties en deze implementeren in een online omgeving
+                    - name: Configuraties verpakken en implementeren in een online omgeving
                       href: e-commerce-extensibility/package-deploy.md
                     - name: Updates voor SDK's en modulebibliotheken
                       href: e-commerce-extensibility/sdk-updates.md
+                - name: Best practices
+                  items:
+                    - name: Best practices voor de ontwikkeling van Dynamics 365 Commerce
+                      href: e-commerce-extensibility/best-practices-dev.md
             - name: Retail SDK
               items:
                 - name: Architectuur van Retail SDK
@@ -2197,7 +2211,7 @@
                 - name: Retail-typescript en C#-proxy's
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Retail Server-API's gebruiken in externe toepassingen
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: Uitbreidbaarheid Commerce Runtime (CRT)
               items:
                 - name: CRT-architectuur en -configuratie

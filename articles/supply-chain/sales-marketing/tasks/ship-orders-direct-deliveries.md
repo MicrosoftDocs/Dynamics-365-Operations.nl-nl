@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchEditLines, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98ce5584f869fef57b542e6aa364045554ef0fde
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984173"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018509"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Orders verzenden als rechtstreekse leveringen
 
@@ -34,7 +34,7 @@ Dit onderwerp toont hoe een rechtstreekse levering voor een verkooporder wordt g
 2. Selecteer **Nieuw**.
 3. Typ of selecteer een waarde in het veld **Klantaccount** en selecteer **OK**.
 4. Typ of selecteer waarden in de velden **Artikelnummer** en **Vestiging** en selecteer **Opslaan**.
-5. Selecteer in het actievenster de optie **Verkooporder**en vervolgens **Directe levering**. De pagina Levering maken toont alle openstaande verkooporderregels zoals die van de verkooporder zijn gekopieerd. U kunt de orderdetails controleren en, zo nodig, details zoals inkoophoeveelheid de prijsvoorwaarden wijzigen voordat u de rechtstreekse levering maakt.  
+5. Selecteer in het actievenster de optie **Verkooporder** en vervolgens **Directe levering**. De pagina Levering maken toont alle openstaande verkooporderregels zoals die van de verkooporder zijn gekopieerd. U kunt de orderdetails controleren en, zo nodig, details zoals inkoophoeveelheid de prijsvoorwaarden wijzigen voordat u de rechtstreekse levering maakt.  
 6. Selecteer **Ja** in het veld **Alles opnemen**.
     - Als u een directe levering voor een subset van de verkooporderregels wilt genereren, selecteert u deze afzonderlijk.  
     - Het veld **Leveranciersaccount** is mogelijk al ingevuld met een leveranciersnummer. Als de standaardleverancier is ingesteld voor het product (op de gekoppelde Artikelbehoefteplanning), wordt deze leverancier naar de regel gekopieerd. Anders moet u handmatig een leverancier invoeren. In dit voorbeeld selecteren we een nieuwe leverancier in de volgende stap, zelfs als er al één is ingevuld.   

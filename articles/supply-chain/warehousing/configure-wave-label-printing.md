@@ -8,7 +8,7 @@ ms.topic: configure-wave-label-printing
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate
+ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: e3b04eea7bd7dd689f8a918820ffdb4a72d813dc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1f51ed9f05caede3d4f320ddb6b705e67df9aa1f
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986018"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016949"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Afdrukken van wavelabels instellen en gebruiken
 
@@ -134,7 +134,7 @@ De labelindeling bepaalt welke informatie op het label wordt afgedrukt en hoe de
 
 1. Als u de vrachtbrief-id wilt kunnen afdrukken, selecteert u op het tabblad **Joins** de tabel **Werkregels** en voegt u de tabel **Zendingen** eraan toe.
 1. Sluit het dialoogvenster Query-editor.
-1. Het sneltabblad **Printertekstindeling** bevat drie secties waarin u printercode kunt schrijven: **koptekstsectie**, **hoofdsectie** en **voettekstsectie**. Voer in de **Koptekstsectie** in het veld **Labelkoptekst** de code in voor de vereiste koptekst. Als u bijvoorbeeld Zebra-printers gebruikt, kunt u de volgende code gebruiken.
+1. Het sneltabblad **Printertekstindeling** bevat drie secties waarin u printercode kunt schrijven: **koptekstsectie** , **hoofdsectie** en **voettekstsectie**. Voer in de **Koptekstsectie** in het veld **Labelkoptekst** de code in voor de vereiste koptekst. Als u bijvoorbeeld Zebra-printers gebruikt, kunt u de volgende code gebruiken.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -391,7 +391,7 @@ Met wavesjablonen kunt u specifieke exemplaren van wavemethoden koppelen aan een
 
 1. Als u de vrachtbrief-id wilt kunnen afdrukken, selecteert u op het tabblad **Joins** de tabel **Werkregels** en voegt u de tabel **Zendingen** eraan toe.
 1. Sluit het dialoogvenster Query-editor.
-1. Het sneltabblad **Printertekstindeling** bevat drie secties waarin u printercode kunt schrijven: **koptekstsectie**, **hoofdsectie** en **voettekstsectie**. Voer in de **Koptekstsectie** in het veld **Labelkoptekst** de code in voor de vereiste koptekst. Als u bijvoorbeeld Zebra-printers gebruikt, kunt u de volgende code gebruiken.
+1. Het sneltabblad **Printertekstindeling** bevat drie secties waarin u printercode kunt schrijven: **koptekstsectie** , **hoofdsectie** en **voettekstsectie**. Voer in de **Koptekstsectie** in het veld **Labelkoptekst** de code in voor de vereiste koptekst. Als u bijvoorbeeld Zebra-printers gebruikt, kunt u de volgende code gebruiken.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -534,9 +534,9 @@ Voor dit scenario moeten demogegevens zijn geïnstalleerd en moet u de rechtsper
 1. Ga naar **Magazijnbeheer \> Instellen \> Waves \> Wavesjablonen**.
 2. Selecteer een sjabloon zoals **62 Standaardverzending**.
 3. Verplaats op het sneltabblad **Methoden** de methode **Wavelabels afdrukken** naar de kolom **Geselecteerde methoden**.
-4. Wijs in de kolom **Geselecteerde methoden** een **wavestapcode** toe, zoals *doos*, aan de **Afdrukmethode voor wavelabels**. Zie [Wavestapcodes](wave-step-codes.md) voor meer informatie.
+4. Wijs in de kolom **Geselecteerde methoden** een **wavestapcode** toe, zoals *doos* , aan de **Afdrukmethode voor wavelabels**. Zie [Wavestapcodes](wave-step-codes.md) voor meer informatie.
 5. Verplaats de methode **Wavelabels afdrukken** nogmaals naar de kolom **Geselecteerde methoden**.
-6. Wijs in de kolom **Geselecteerde methoden** een andere **wavestapcode** toe, zoals *pallet*, aan de tweede **Afdrukmethode voor wavelabels**. Zie [Wavestapcodes](wave-step-codes.md) voor meer informatie.
+6. Wijs in de kolom **Geselecteerde methoden** een andere **wavestapcode** toe, zoals *pallet* , aan de tweede **Afdrukmethode voor wavelabels**. Zie [Wavestapcodes](wave-step-codes.md) voor meer informatie.
 
 ### <a name="create-three-wave-label-layouts"></a>Drie wavelabelindelingen maken
 
@@ -583,7 +583,7 @@ Voor dit scenario moeten demogegevens zijn geïnstalleerd en moet u de rechtsper
 
 1. Als u de vrachtbrief-id wilt kunnen afdrukken, selecteert u op het tabblad **Joins** de tabel **Werkregels** en voegt u de tabel **Zendingen** eraan toe. 
 1. Sluit het dialoogvenster Query-editor.
-1. Het sneltabblad **Printertekstindeling** bevat drie secties waarin u printercode kunt schrijven: **koptekstsectie**, **hoofdsectie** en **voettekstsectie**. Voer in de **Koptekstsectie** in het veld **Labelkoptekst** de code in voor de vereiste koptekst. Als u bijvoorbeeld Zebra-printers gebruikt, kunt u de volgende code gebruiken.
+1. Het sneltabblad **Printertekstindeling** bevat drie secties waarin u printercode kunt schrijven: **koptekstsectie** , **hoofdsectie** en **voettekstsectie**. Voer in de **Koptekstsectie** in het veld **Labelkoptekst** de code in voor de vereiste koptekst. Als u bijvoorbeeld Zebra-printers gebruikt, kunt u de volgende code gebruiken.
 
 
     ```plaintext
@@ -695,7 +695,7 @@ Voor dit scenario moeten demogegevens zijn geïnstalleerd en moet u de rechtsper
 
 1. Als u de vrachtbrief-id wilt kunnen afdrukken, selecteert u op het tabblad **Joins** de tabel **Werkregels** en voegt u de tabel **Zendingen** eraan toe.
 1. Sluit het dialoogvenster Query-editor.
-1. Het sneltabblad **Printertekstindeling** bevat drie secties waarin u printercode kunt schrijven: **koptekstsectie**, **hoofdsectie** en **voettekstsectie**. Voer in de **Koptekstsectie** in het veld **Labelkoptekst** de code in voor de vereiste koptekst. Als u bijvoorbeeld Zebra-printers gebruikt, kunt u de volgende code gebruiken.
+1. Het sneltabblad **Printertekstindeling** bevat drie secties waarin u printercode kunt schrijven: **koptekstsectie** , **hoofdsectie** en **voettekstsectie**. Voer in de **Koptekstsectie** in het veld **Labelkoptekst** de code in voor de vereiste koptekst. Als u bijvoorbeeld Zebra-printers gebruikt, kunt u de volgende code gebruiken.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -733,7 +733,7 @@ Voor dit scenario moeten demogegevens zijn geïnstalleerd en moet u de rechtsper
     - **Beschrijving:** *Onderbrekingslabel*
 
 1. Selecteer **Opslaan** in het actievenster.
-1. Het sneltabblad **Printertekstindeling** bevat drie secties waarin u printercode kunt schrijven: **koptekstsectie**, **hoofdsectie** en **voettekstsectie**. Voer in de **Koptekstsectie** in het veld **Labelkoptekst** de ZPL-code in voor de vereiste koptekst. Hier volgt een voorbeeld.
+1. Het sneltabblad **Printertekstindeling** bevat drie secties waarin u printercode kunt schrijven: **koptekstsectie** , **hoofdsectie** en **voettekstsectie**. Voer in de **Koptekstsectie** in het veld **Labelkoptekst** de ZPL-code in voor de vereiste koptekst. Hier volgt een voorbeeld.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -818,7 +818,7 @@ Voor dit scenario moeten demogegevens zijn geïnstalleerd en moet u de rechtsper
 1. Selecteer **OK** om het dialoogvenster Query-editor te sluiten.
 1. U wordt gevraagd om de bewerking voor het opnieuw instellen van de groepering te bevestigen. Selecteer **Ja** om door te gaan.
 1. Selecteer in het actievenster **Sjabloongroep voor wavelabel**.
-1. Stel in het dialoogvenster **Sjabloongroep voor wavelabel** de volgende waarden in voor de rij waarin het veld **Naam verwijzingsveld** is ingesteld op *Zending-id*:
+1. Stel in het dialoogvenster **Sjabloongroep voor wavelabel** de volgende waarden in voor de rij waarin het veld **Naam verwijzingsveld** is ingesteld op *Zending-id* :
 
     - **Onderbrekingslabel afdrukken:** schakel dit selectievakje in.
     - **Labelindelings-id:** selecteer een onderbrekingslabel. (Selecteer bijvoorbeeld de indeling *Onderbrekingslabel* die u eerder in dit scenario hebt gemaakt.)
@@ -872,7 +872,7 @@ Voor dit scenario moeten demogegevens zijn geïnstalleerd en moet u de rechtsper
 1. Selecteer **OK** om het dialoogvenster Query-editor te sluiten.
 1. U wordt gevraagd om de bewerking voor het opnieuw instellen van de groepering te bevestigen. Selecteer **Ja** om door te gaan.
 1. Selecteer in het actievenster **Sjabloongroep voor wavelabel**.
-1. Stel in het dialoogvenster **Sjabloongroep voor wavelabel** de volgende waarden in voor de rij waarin het veld **Naam verwijzingsveld** is ingesteld op *Zending-id*:
+1. Stel in het dialoogvenster **Sjabloongroep voor wavelabel** de volgende waarden in voor de rij waarin het veld **Naam verwijzingsveld** is ingesteld op *Zending-id* :
 
     - **Onderbrekingslabel afdrukken:** schakel dit selectievakje in.
     - **Labelindelings-id:** selecteer een onderbrekingslabel. (Selecteer bijvoorbeeld de indeling *Onderbrekingslabel* die u eerder in dit scenario hebt gemaakt.)

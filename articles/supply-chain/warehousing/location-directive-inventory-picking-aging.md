@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 56a3a838374bb1cd0f4b839124ada7114205c1e7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597283"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017130"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
 
@@ -119,14 +120,14 @@ De FIFO-strategie zoekt naar de locatie die de oudste ouderdomsdatum bevat en wi
 1. Selecteer op de pagina **Verkooporder** in het actievenster op het tabblad **Magazijn** in de groep **Acties** de optie **Vrijgave naar magazijn**. U ontvangt meldingen. Het systeem maakt een zending, voegt deze toe aan een nieuwe lading en maakt het vereiste werk.
 1. Selecteer op het sneltabblad **Verkooporderregels** in het menu **Magazijn** de optie **Werkdetails** om het werk dat voor deze verkooporder is gemaakt, te openen. De regel waar het veld **Werktype** de waarde *Orderverzamelen* bevat, geeft een **Locatie** weer met de waarde *FL-002*. Deze locatie bevat de nummer plaat met de oudste ouderdomsdatum (FIFO).
 1. Selecteer **Magazijn \> Details van zending**.
-1. Op het sneltabblad ***Algemeen** noteert u de wave-id zodat u deze kunt gebruiken in scenario 2.
+1. Op het sneltabblad * **Algemeen** noteert u de wave-id zodat u deze kunt gebruiken in scenario 2.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Scenario 2: LIFO-locatie instellen en gebruiken
 
 De LIFO-strategie zoekt naar de locatie die de nieuwste ouderdomsdatum bevat en wijst op basis van die ouderdomsdatum orderverzamelen toe. In scenario 2 bewerkt u de instelling voor scenario 1 (FIFO) en hergebruikt u de verkooporder en de wave die tijdens dat scenario zijn gemaakt.
 
 1. Voordat u dit scenario start, moet u het volledige FIFO-scenario instellen en voltooien, zoals wordt beschreven in de [vorige sectie](#fifo-demo). In dit scenario maakt u opnieuw gebruik van de wave en de meeste instellingen die voor dat scenario zijn gemaakt.
-1. Bewerk de locatierichtlijn **63 Containers voor orderverzamelen** zodat deze gebruikmaakt van de strategie *Ouderdom locatie LIFO*, zoals wordt beschreven in het eerste deel van de procedure [De scenario's configureren](#demo-set-up).
+1. Bewerk de locatierichtlijn **63 Containers voor orderverzamelen** zodat deze gebruikmaakt van de strategie *Ouderdom locatie LIFO* , zoals wordt beschreven in het eerste deel van de procedure [De scenario's configureren](#demo-set-up).
 
     Vervolgens wijzigt u de wave die voor de verkooporder in scenario 1 is gemaakt, zodat de strategie *Ouderdom locatie LIFO* wordt gebruikt.
 
@@ -135,7 +136,7 @@ De LIFO-strategie zoekt naar de locatie die de nieuwste ouderdomsdatum bevat en 
 1. Selecteer in het actievenster op het tabblad **Werk** de optie **Annuleren** om het werk te annuleren dat u hebt gemaakt voor het FIFO-scenario.
 1. Selecteer in het actievenster op het tabblad **Wave** in de groep **Wave** de optie **Verwerken**.
 1. Wanneer de verwerking is voltooid, selecteert u in het actievenster op het tabblad **Wave** in de groep **Verwante informatie** de optie **Werk** om het werk te openen dat voor deze wave is gemaakt.
-1. Op de pagina **Werk**, op het tabblad **Overzicht**, moeten u twee regels zien. Selecteer de regel waarin het veld **Werkstatus** is ingesteld op *Open*.
+1. Op de pagina **Werk** , op het tabblad **Overzicht** , moeten u twee regels zien. Selecteer de regel waarin het veld **Werkstatus** is ingesteld op *Open*.
 1. De regel waar het veld **Werktype** de waarde *Orderverzamelen* bevat, geeft een **Locatie** weer met de waarde *FL-001*. Deze locatie bevat de nummer plaat met de nieuwste ouderdomsdatum (LIFO).
 
 In deze scenario's hebt u gezien hoe de de locatiestrategie op basis van ouderdom werk naar de voorraadlocatie stuurt met de oudste voorraad of met de nieuwste voorraad, afhankelijk van de geselecteerde strategie.

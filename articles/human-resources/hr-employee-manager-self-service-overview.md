@@ -2,8 +2,8 @@
 title: Overzicht van Selfservice werknemer en Selfservice manager
 description: Dit artikel bevat een overzicht van de werkgebieden Selfservice werknemer en Selfservice manage.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/17/2020
+manager: tfehr
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
+ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712227"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4057047"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Overzicht van Selfservice werknemer en Selfservice manager
 
@@ -35,11 +35,11 @@ Zie [Persoonlijke gegevens bewerken](hr-employee-manager-self-service-edit-perso
 
 ## <a name="user-not-assigned-to-a-worker-record"></a>Gebruiker is niet toegewezen aan een medewerkersrecord
 
-Als u de gebruiker op de pagina **Gebruikers** niet aan een **Medewerker**srecord hebt gekoppeld, wordt het volgende bericht weergegeven:
+Als u de gebruiker op de pagina **Gebruikers** niet aan een **Medewerker** srecord hebt gekoppeld, wordt het volgende bericht weergegeven:
 
 **Uw gebruikers-id is niet gekoppeld aan uw werknemerregistratie in het systeem. U kunt uw gegevens niet weergeven of bijwerken tot dit wel is gekoppeld. Neem contact op met uw manager of ondersteuningsteam voor assistentie.**
 
-Als u een gebruiker aan een **Medewerker**srecord wilt koppelen, gaat u naar **Gebruikers** en selecteert u de gebruiker. Selecteer **Bewerken**, voeg de bijbehorende medewerker toe aan het veld **Persoon** op het formulier en selecteer **Opslaan**. U zou nu toegang moeten hebben tot selfservice voor werknemers.
+Als u een gebruiker aan een **Medewerker** srecord wilt koppelen, gaat u naar **Gebruikers** en selecteert u de gebruiker. Selecteer **Bewerken** , voeg de bijbehorende medewerker toe aan het veld **Persoon** op het formulier en selecteer **Opslaan**. U zou nu toegang moeten hebben tot selfservice voor werknemers.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Beveiligingsvereisten voor Selfservice voor werknemers en manager
 
@@ -80,7 +80,7 @@ Op de kaart **Certificaten** worden het certificaat en de vervaldatum weergegeve
 
 Op de kaart **Volgende geplande beoordeling** wordt uw volgende prestatiebeoordeling weergegeven. U kunt een nieuwe beoordeling starten vanaf deze kaart. Uw manager of HR-vertegenwoordiger kan ook beoordelingen starten. Afhankelijk van de instellingen van uw organisatie, kunt u via deze kaart mogelijk ook beoordelingen weergeven, bijwerken en verzenden.
 
-U kunt uw doelstellingen beheren met de kaart **Prestatiedoelstellingen**. Op deze kaart wordt het aantal doelstellingen weergegeven dat u voor elke status hebt (**Niet gestart**, **Op schema** en **Moet worden verbeterd**). U kunt doelstellingen maken, bijwerken en verwijderen, afhankelijk van uw toegewezen beveiliging op basis van rollen. U kunt desgewenst nieuwe doelstellingen toevoegen vanuit groepen of sjablonen. Managers en HR kunnen ook doelstellingen maken namens werknemers en bepalen hoe gedetailleerd elke doelstelling is. Managers en werknemers kunnen samenwerken aan doelstellingen en activiteiten, metingen en statussen bijwerken. U kunt ook bijlagen toevoegen.
+U kunt uw doelstellingen beheren met de kaart **Prestatiedoelstellingen**. Op deze kaart wordt het aantal doelstellingen weergegeven dat u voor elke status hebt ( **Niet gestart** , **Op schema** en **Moet worden verbeterd** ). U kunt doelstellingen maken, bijwerken en verwijderen, afhankelijk van uw toegewezen beveiliging op basis van rollen. U kunt desgewenst nieuwe doelstellingen toevoegen vanuit groepen of sjablonen. Managers en HR kunnen ook doelstellingen maken namens werknemers en bepalen hoe gedetailleerd elke doelstelling is. Managers en werknemers kunnen samenwerken aan doelstellingen en activiteiten, metingen en statussen bijwerken. U kunt ook bijlagen toevoegen.
 
 U kunt uw bestaande vaardigheden weergeven op de kaart **Vaardigheden**. U kunt vaardigheden bijwerken, nieuwe vaardigheden toevoegen of vaardigheden verwijderen die u niet meer relevant vindt. Afhankelijk van de instellingen van uw organisatie, moeten wijzigingen in uw vaardigheden mogelijk worden goedgekeurd.
 
@@ -96,7 +96,7 @@ Meld u aan voor vergoedingen via de koppeling **Vergoedingen**. Zie [Overzicht v
 
 Onder **Prestaties** kunt u **Prestatiejournalen** selecteren om prestatiejournaalitems te maken die u kunt gebruiken voor prestatiedoelstellingen en -beoordelingen. U kunt **Feedback verzenden** selecteren om feedback te geven voor andere werknemers in uw organisatie. Afhankelijk van de instellingen van uw organisatie worden e-mails mogelijk naar de ontvanger, de afzender en managers verzonden. U kunt feedback verzenden naar alle werknemers binnen de organisatie. Het verzenden van feedback is niet beperkt per bedrijf.
 
-Onder **Competenties** kunt u wijzigingen aanbrengen in **Cursussen**, **Opleiding**, **Vertrouwensposities** en **Beroepservaring.** Afhankelijk van de instellingen van uw organisatie, moeten updates voor deze vaardigheden mogelijk worden goedgekeurd.
+Onder **Competenties** kunt u wijzigingen aanbrengen in **Cursussen** , **Opleiding** , **Vertrouwensposities** en **Beroepservaring.** Afhankelijk van de instellingen van uw organisatie, moeten updates voor deze vaardigheden mogelijk worden goedgekeurd.
 
 U kunt taakdetails weergeven onder **Organisatie**. Functiedetails zijn onder andere vaardigheden, certificaten en verantwoordelijkheidsgebieden voor uw primaire positie. U kunt ook alle geleende uitrustingen bekijken die naar u is uitgecheckt. Afhankelijk van de instellingen van uw organisatie, moeten wijzigingen in geleende uitrusting mogelijk worden goedgekeurd.
 
@@ -112,7 +112,7 @@ Op het tabblad **Mijn team** wordt de volgende informatie weergegeven voor de se
 
 ### <a name="personnel-actions"></a>Personeelsacties
 
-Personeelsacties worden weergegeven op basis van de configuratieopties in **Gedeelde HRM-parameters** en **Parameters personeel**. Indien ingeschakeld voor **Medewerkers**, kunnen personeelsacties nieuwe menuopties instellen, waaronder:
+Personeelsacties worden weergegeven op basis van de configuratieopties in **Gedeelde HRM-parameters** en **Parameters personeel**. Indien ingeschakeld voor **Medewerkers** , kunnen personeelsacties nieuwe menuopties instellen, waaronder:
 
 - **Nieuwe werknemer aanvragen**
 - **Nieuwe contractant aanvragen**
@@ -184,18 +184,18 @@ Afhankelijk van de instellingen van uw organisatie kunt u alleen wijzigingen aan
 
 Op het tabblad **Posities** vindt u een overzicht van werknemers op hun primaire positie. Naam, tegel en afdeling worden weergegeven in het koptekstgebied van elke kaart. Deze kaart bevat:
 
-- **Anciënniteitsdatum**: wordt weergegeven uit de sectie met het medewerkersoverzicht van het medewerkersformulier.
-- **Dienstjaren**: wordt berekend op basis van de begindatum van het dienstverband van de werknemer
-- **Aantal eerdere posities**: op basis van de positiegeschiedenis wordt bij selectie van deze waarde het gedetailleerde overzicht van alle eerder beklede posities.
-- **Geboortedatum**: de maand en dag van de geboortedatum van de werknemer.
+- **Anciënniteitsdatum** : wordt weergegeven uit de sectie met het medewerkersoverzicht van het medewerkersformulier.
+- **Dienstjaren** : wordt berekend op basis van de begindatum van het dienstverband van de werknemer
+- **Aantal eerdere posities** : op basis van de positiegeschiedenis wordt bij selectie van deze waarde het gedetailleerde overzicht van alle eerder beklede posities.
+- **Geboortedatum** : de maand en dag van de geboortedatum van de werknemer.
 
 U kunt positiegegevens voor directe en indirecte ondergeschikten weergeven.
 
 #### <a name="compensation-tab"></a>Het tabblad Compensatie
 
-Op het tabblad **Compensatie** wordt het jaarsalaris van de werknemer weergegeven. Er wordt een bedrijfs-id weer gegeven onder het salarisbedrag. Als een werknemer meerdere dienstverbanden heeft en door meerdere rechts personen wordt betaald, heeft de werknemer meerdere compensatiekaarten. Het laatste verhogingsbedrag en -percentage worden weergegeven, op basis van het bedrijf waar de werknemer in dienst is.
+Op het tabblad **Compensatie** wordt het jaarsalaris van de werknemer weergegeven. Er wordt een bedrijfs-id weer gegeven onder het salarisbedrag. Als een werknemer meerdere dienstverbanden heeft en door meerdere rechts personen wordt betaald, heeft de werknemer meerdere compensatieplannen. Als u alle compensatieplannen voor rechtspersonen wilt weergeven zonder van bedrijf te wisselen, moet u compensatie voor meerdere bedrijven inschakelen onder **Human Resources > Gedeelde parameters > Geavanceerde toegang > Compensatie voor meerdere bedrijven inschakelen**.
 
-Als u de compensatiegeschiedenis wilt weergeven, selecteert u het salarisbedrag om het formulier **Details** te openen. Alleen huidige en historische records voor vaste en variabele compensatie worden weergegeven in het formulier **Compensatie**. Als een werknemer meerdere dienstverbanden heeft, kunt u tussen bedrijven schakelen om de compensatiegeschiedenis in elk bedrijf weer te geven.
+Als u de compensatiegeschiedenis wilt weergeven, selecteert u het salarisbedrag om het formulier **Details** te openen. Alleen huidige en historische records voor vaste en variabele compensatie worden weergegeven in het formulier **Compensatie**. Als een werknemer meer dan één dienstverband heeft, kunt u tussen bedrijven schakelen om de compensatiehistorie in elk bedrijf weer te geven of om compensatie voor meerdere bedrijven in te schakelen in Gedeelde parameters voor Human Resources om alle compensatieplannen weer te geven.
 
 U kunt de compensatie voor directe en indirecte ondergeschikten weergeven.
 
@@ -211,6 +211,6 @@ Managers kunnen alle doelstellingen voor hun team bekijken via de tegel **Teampr
 
 #### <a name="reviews-tab"></a>Het tabblad Recensies
 
-Het tabblad **Recensies** bevat een overzicht van de recensies die de werknemer in elke staat heeft: **In uitvoering**, **Gereed voor beoordeling** en **Eindbeoordeling**. Als u de recensie van een werknemer wilt openen, selecteert u de knop **Details** en vervolgens recensies om samen aan te werken. Afhankelijk van waar een recensie zich in het werkstroomproces bevindt, kunt u zien of de recensie beschikbaar is om te worden bijgewerkt. 
+Het tabblad **Recensies** bevat een overzicht van de recensies die de werknemer in elke staat heeft: **In uitvoering** , **Gereed voor beoordeling** en **Eindbeoordeling**. Als u de recensie van een werknemer wilt openen, selecteert u de knop **Details** en vervolgens recensies om samen aan te werken. Afhankelijk van waar een recensie zich in het werkstroomproces bevindt, kunt u zien of de recensie beschikbaar is om te worden bijgewerkt. 
 
 U kunt alle recensies voor uw team bekijken via de tegel **Beoordelingen van teamprestaties** in de sectie **Overzicht** van **Mijn team**.

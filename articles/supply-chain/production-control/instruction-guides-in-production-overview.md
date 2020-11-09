@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: d8c2da17d4e3df37c55844f0aad00f883725f741
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
+ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989266"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000973"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Productiemedewerkers voorzien van mixed reality-guides
 
@@ -124,9 +124,9 @@ Als u wilt configureren hoe guides worden weergegeven op de werkvloer, gaat u na
 
 Stel de volgende velden in:
 
-- **Subdomein van CDS-omgeving**: dit veld moet al een waarde bevatten. Dit veld bevat het subdomein voor de Common Data Service-omgeving waarin u uw guides maakt. Het subdomein is het eerste deel van de URL en heeft meestal de naam van uw organisatie. Als uw Common Data Service-URL bijvoorbeeld 'contoso.crm4.dynamics.com' is, moet u hier *contoso* invoeren. Deze waarde wordt gebruikt om adressen voor uw guides samen te stellen en wordt gecodeerd in de QR-codes.
-- **Grootte van QR-code**: stel de grootte van de gegenereerde QR-code in. Het is raadzaam om een grootte te kiezen waarbij uw beeldscherm grotendeels gevuld is, maar niet meer. Meestal is *15* een goede waarde.
-- **Foutcorrectieniveau QR-code**: stel de gedetailleerdheid van de QR-code in. Een hogere mate van gedetailleerdheid kan de betrouwbaarheid van de code helpen verhogen, maar uw **grootte van de QR-code** moet groot genoeg zijn om het detailniveau voor uw geselecteerde correctieniveau te ondersteunen.
+- Subdomein van **Common Data Service** : dit veld moet al een waarde bevatten. Dit veld bevat het subdomein voor de Common Data Service-omgeving waarin u uw guides maakt. Het subdomein is het eerste deel van de URL en heeft meestal de naam van uw organisatie. Als uw Common Data Service-URL bijvoorbeeld 'contoso.crm4.dynamics.com' is, moet u hier *contoso* invoeren. Deze waarde wordt gebruikt om adressen voor uw guides samen te stellen en wordt gecodeerd in de QR-codes.
+- **Grootte van QR-code** : stel de grootte van de gegenereerde QR-code in. Het is raadzaam om een grootte te kiezen waarbij uw beeldscherm grotendeels gevuld is, maar niet meer. Meestal is *15* een goede waarde.
+- **Foutcorrectieniveau QR-code** : stel de gedetailleerdheid van de QR-code in. Een hogere mate van gedetailleerdheid kan de betrouwbaarheid van de code helpen verhogen, maar uw **grootte van de QR-code** moet groot genoeg zijn om het detailniveau voor uw geselecteerde correctieniveau te ondersteunen.
 
 
 > [!TIP]
@@ -368,7 +368,7 @@ U kunt als volgt een guide toevoegen aan een routebewerkingsrelatie:
 1. Open in het actievenster het tabblad **Route** en selecteer in de groep **Onderhouden** de optie **Routedetails**.
 1. De pagina **Routedetails** wordt geopend voor de geselecteerde route.
 1. Selecteer in het bovenste raster de bewerking waarvoor u richtlijnen wilt opgeven.
-1. Selecteer in het onderste raster een specifieke relatie (of de algemene relatie **Alle**).
+1. Selecteer in het onderste raster een specifieke relatie (of de algemene relatie **Alle** ).
     ![Een bewerking en vervolgens een relatie selecteren](media/instruction-guides-RouteOperationRelation.png "Een bewerking en vervolgens een relatie selecteren")
 1. Open boven het onderste raster het tabblad **Gekoppelde guides**. ![Het tabblad Gekoppelde guides](media/instruction-guides-RouteOperationRelation-AddGuide.png "Het tabblad Gekoppelde guides")
 1. Selecteer **Toevoegen** in de werkbalk boven aan het onderste raster om een nieuwe regel aan het raster toe te voegen.

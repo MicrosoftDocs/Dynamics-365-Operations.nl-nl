@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533316"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107225"
 ---
 # <a name="set-up-an-online-channel"></a>Een online afzetkanaal instellen
 
@@ -72,11 +72,11 @@ Als uw e-Commerce site ondersteuning biedt voor meerdere talen, vouwt u de secti
 
 In de sectie **Betalingsrekening** kunt u een externe betalingsverschaffer toevoegen. Zie [Dynamics 365-betalingsconnector voor Adyen](../retail/dev-itpro/adyen-connector.md) voor meer informatie over het instellen van een Adyen-betalingsconnector.
 
-## <a name="additional-channel-set-up"></a>Aanvullende kanaalinstellingen
+## <a name="additional-channel-setup"></a>Aanvullende afzetkanaalinstellingen
 
 Aanvullende taken die nodig zijn voor het instellen van online kanalen, zijn onder andere het instellen van betalingsmethoden, leveringsmethoden en de toewijzing van afhandelingsgroepen.
 
-De volgende afbeelding toont de instellingsopties voor **Leveringsmethoden**, **Betalingsmethoden** en **Toewijzing van afhandelingsgroepen** op het tabblad **Instellingen**.
+De volgende afbeelding toont de instellingsopties voor **Leveringsmethoden** , **Betalingsmethoden** en **Toewijzing van afhandelingsgroepen** op het tabblad **Instellingen**.
 
 ![Aanvullende acties voor het instellen van een online kanaal](media/channel-setup-online-3.png)
 

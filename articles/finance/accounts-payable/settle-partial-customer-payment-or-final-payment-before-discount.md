@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c378a424d89a884d1f3f0f14e1d544b3af178b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177229"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006110"
 ---
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Een gedeeltelijke klantenbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum
 
@@ -31,7 +31,7 @@ ms.locfileid: "2177229"
 
 Dit artikel geeft scenario's die laten zien hoe gedeeltelijke betalingen voor een klant worden vastgelegd en hoe contantkortingen worden verkregen in de contantkortingsperiode.
 
-Fabrikam verkoopt goederen aan klant 4028. Fabrikam biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald. Facturen moeten worden betaald binnen 30 dagen. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Leveranciersparameters**.
+Fabrikam verkoopt goederen aan klant 4028. Fabrikam biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald. Facturen moeten worden betaald binnen 30 dagen. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina  **Leveranciersparameters**.
 
 ## <a name="customer-invoice"></a>Klantfactuur
 Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 4028. Arnie kan deze transactie bekijken op de pagina **Klanttransacties**.
@@ -48,7 +48,7 @@ Op de pagina **Klant** of **Klanttransacties** kan Arnie de pagina **Transacties
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven voor de gemarkeerde factuur.
 
-|                              |           |
+|    &nbsp;                    |  &nbsp;   |
 |------------------------------|-----------|
 | Datum van contantkorting           | 09-07-2015 |
 | Contantkortingsbedrag         | 10,00     |
@@ -71,7 +71,7 @@ Klant 4028 verzendt op 1 juli een betaling van 500,00. Om deze betaling in te vo
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Gedeeltelijke betaling door de journaalregels te gebruiken
-In plaats van in het betalingsjournaal de pagina **Klantbetalingen invoeren** te openen, kan Arnie ook klikken op **Regels** om een betaling uit te voeren. Het betalingsjournaal wordt weergegeven waar Arnie een regel in kan voeren voor klant 4028. Arnie opent vervolgens de pagina **Transacties vereffenen**, zodat hij de factuur kan markeren voor vereffening. Arnie markeert de factuur en wijzigt de waarde in het veld **Bedrag om te vereffenen** naar **500,00**. Nogmaals ziet hij dat de waarde in het veld **Contantkortingsbedrag** voor de volledige factuur **10,00** is en de waarde in het veld **Contantkortingsbedrag dat moet worden toegepast** **5,05** is. Daarom vereffent Arnie 505,05 van deze factuur.
+In plaats van in het betalingsjournaal de pagina **Klantbetalingen invoeren** te openen, kan Arnie ook klikken op **Regels** om een betaling uit te voeren. Het betalingsjournaal wordt weergegeven waar Arnie een regel in kan voeren voor klant 4028. Arnie opent vervolgens de pagina **Transacties vereffenen** , zodat hij de factuur kan markeren voor vereffening. Arnie markeert de factuur en wijzigt de waarde in het veld **Bedrag om te vereffenen** naar **500,00**. Nogmaals ziet hij dat de waarde in het veld **Contantkortingsbedrag** voor de volledige factuur **10,00** is en de waarde in het veld **Contantkortingsbedrag dat moet worden toegepast** **5,05** is. Daarom vereffent Arnie 505,05 van deze factuur.
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -79,7 +79,7 @@ In plaats van in het betalingsjournaal de pagina **Klantbetalingen invoeren** te
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+|        &nbsp;                | &nbsp;    |
 |------------------------------|-----------|
 | Datum van contantkorting           | 09-07-2015 |
 | Contantkortingsbedrag         | 10,00     |
@@ -95,7 +95,7 @@ Als de klant precies de helft van de factuur wil vereffenen, doet de klant een b
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+|     &nbsp;                   | &nbsp;    |
 |------------------------------|-----------|
 | Datum van contantkorting           | 09-07-2015 |
 | Contantkortingsbedrag         | 10,00     |
@@ -112,9 +112,9 @@ Arnie sluit de pagina **Transacties vereffenen**. Een betalingsregel voor 495,00
 | DISC-10010 |  Contantkorting   | 01-07-2015  |         |                                      | 5,00                                  | 0,00    | USD      |
 
 ## <a name="payment-for-the-remaining-amount"></a>Betaling voor het resterende bedrag
-Klant 4028 betaalt de rest van het bedrag van 495,00 op 8 juli, wat binnen de periode van de contantkorting valt. Arnie maakt op 8 juli het betalingsjournaal en markeert de transactie voor vereffening. Hij ziet dat het bedrag dat moet worden vereffend 495,00 is. De waarde in het veld **Geraamde contantkorting** is **5,00**, omdat de korting van 5,00 eerder is toegepast.
+Klant 4028 betaalt de rest van het bedrag van 495,00 op 8 juli, wat binnen de periode van de contantkorting valt. Arnie maakt op 8 juli het betalingsjournaal en markeert de transactie voor vereffening. Hij ziet dat het bedrag dat moet worden vereffend 495,00 is. De waarde in het veld **Geraamde contantkorting** is **5,00** , omdat de korting van 5,00 eerder is toegepast.
 
-|                         |        |
+|   &nbsp;                | &nbsp; |
 |-------------------------|--------|
 | Gemarkeerd totaal            | 495,00 |
 | Geraamde contantkorting | 5,00   |
@@ -127,7 +127,7 @@ Informatie over de gemarkeerde transactieregel wordt weergegeven in het raster o
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Datum van contantkorting           | 09-07-2015 |
 | Contantkortingsbedrag         | 10,00     |

@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: beb705852be99ce817997d7017c41a0159f75419
+ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022024"
 ---
 # <a name="buy-box-module"></a>Module voor koopvak
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -57,23 +56,23 @@ Met thema's kunnen producteigenschappen en actiecontroles uit het koopvak worden
 
 ## <a name="module-properties"></a>Module-eigenschappen
 
-- **Koptekstlabel**: deze eigenschap bepaalt het koptekstlabel voor de producttitel. Als het koopvak bovenaan de pagina staat, moet deze eigenschap worden ingesteld op **h1** om te voldoen aan toegankelijkheidsstandaarden. 
+- **Koptekstlabel** : deze eigenschap bepaalt het koptekstlabel voor de producttitel. Als het koopvak bovenaan de pagina staat, moet deze eigenschap worden ingesteld op **h1** om te voldoen aan toegankelijkheidsstandaarden. 
 
-- **Aanbevelingen voor vergelijkbare artikelen inschakelen**: met deze eigenschap kan het koopvak koppelingen naar producten bevatten die lijken op het weergegeven artikel. Deze functie is beschikbaar in Commerce-versies 10.0.13 en hoger.
+- **Aanbevelingen voor vergelijkbare artikelen inschakelen** : met deze eigenschap kan het koopvak koppelingen naar producten bevatten die lijken op het weergegeven artikel. Deze functie is beschikbaar in Commerce-versies 10.0.13 en hoger.
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Modules die in de koopvakmodule kunnen worden gebruikt
 
 - **Mediagalerie** - wordt gebruikt om afbeeldingen van een product te presenteren op een pagina met productdetails. Zie [Module Mediagalerie](media-gallery-module.md) voor meer informatie over deze module.
-- **Winkelselectie**: deze module toont een lijst met nabijgelegen winkels waar een artikel beschikbaar is voor ophalen. Hiermee kunnen gebruikers een locatie invoeren om te zoeken naar winkels in de buurt. Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over deze module.
-- **Sociale delen**: deze module kan worden toegevoegd aan het koopvak, zodat gebruikers productinformatie kunnen delen op sociale media. Zie [Module voor sociaal delen](social-share-module.md) voor meer informatie.
+- **Winkelselectie** : deze module toont een lijst met nabijgelegen winkels waar een artikel beschikbaar is voor ophalen. Hiermee kunnen gebruikers een locatie invoeren om te zoeken naar winkels in de buurt. Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over deze module.
+- **Sociale delen** : deze module kan worden toegevoegd aan het koopvak, zodat gebruikers productinformatie kunnen delen op sociale media. Zie [Module voor sociaal delen](social-share-module.md) voor meer informatie.
 
 ## <a name="buy-box-module-settings"></a>Instellingen voor koopvakmodule
 
-De volgende instellingen voor de koopvakmodule kunnen worden geconfigureerd via **Site-instellingen \> Extensies**:
+De volgende instellingen voor de koopvakmodule kunnen worden geconfigureerd via **Site-instellingen \> Extensies** :
 
-- **Limiet hoeveelheid winkelwagenregel**: deze eigenschap wordt gebruikt om voor elk artikel het maximumaantal op te geven dat aan de winkelwagen kan worden toegevoegd. Een detailhandelaar kan bijvoorbeeld besluiten dat slechts 10 stuks van elk product in één transactie mogen worden verkocht.
-- **Voorraad**: zie [Voorraadinstellingen toepassen](inventory-settings.md) voor informatie over het toepassen van voorraadinstellingen.
-- **Toevoegen aan winkelwagen**: deze eigenschap wordt gebruikt om het gedrag op te geven nadat een artikel aan de winkel wagen is toegevoegd. De mogelijke waarden zijn **Navigeren naar winkelwagen**, **Niet navigeren naar winkelwagen** en **Meldingen weergeven**. Wanneer de waarde is ingesteld op **Navigeren naar winkelwagen**, worden gebruikers naar de pagina Winkelwagen gestuurd nadat ze een artikel hebben toegevoegd. Wanneer de waarde is ingesteld op **Niet navigeren naar winkelwagen**, worden gebruikers niet naar de pagina Winkelwagen gestuurd nadat ze een artikel hebben toegevoegd. Wanneer de waarde is ingesteld op **Meldingen weergeven**, zien gebruikers een bevestigingsbericht en kunnen ze doorgaan met zoeken op de pagina Productgegevens. 
+- **Limiet hoeveelheid winkelwagenregel** : deze eigenschap wordt gebruikt om voor elk artikel het maximumaantal op te geven dat aan de winkelwagen kan worden toegevoegd. Een detailhandelaar kan bijvoorbeeld besluiten dat slechts 10 stuks van elk product in één transactie mogen worden verkocht.
+- **Voorraad** : zie [Voorraadinstellingen toepassen](inventory-settings.md) voor informatie over het toepassen van voorraadinstellingen.
+- **Toevoegen aan winkelwagen** : deze eigenschap wordt gebruikt om het gedrag op te geven nadat een artikel aan de winkel wagen is toegevoegd. De mogelijke waarden zijn **Navigeren naar winkelwagen** , **Niet navigeren naar winkelwagen** en **Meldingen weergeven**. Wanneer de waarde is ingesteld op **Navigeren naar winkelwagen** , worden gebruikers naar de pagina Winkelwagen gestuurd nadat ze een artikel hebben toegevoegd. Wanneer de waarde is ingesteld op **Niet navigeren naar winkelwagen** , worden gebruikers niet naar de pagina Winkelwagen gestuurd nadat ze een artikel hebben toegevoegd. Wanneer de waarde is ingesteld op **Meldingen weergeven** , zien gebruikers een bevestigingsbericht en kunnen ze doorgaan met zoeken op de pagina Productgegevens. 
 
 > [!IMPORTANT]
 > De site-instellingen voor **Toevoegen aan winkelwagen** zijn beschikbaar in Dynamics 365 Commerce versie 10.0.11. Als u een oudere versie van Dynamics 365 Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor instructies voor het bijwerken van het appsettings.json. 
@@ -93,24 +92,24 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 1. Ga naar **Fragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
 1. Selecteer in het dialoogvenster **Nieuw fragment** de module **Koopvak**.
 1. Voer onder **Naam fragment** de naam **Koopvakfragment** in en selecteer **OK**.
-1. Selecteer in het vak **Mediagalerie** van de koopvakmodule het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het vak **Mediagalerie** van de koopvakmodule het weglatingsteken ( **...** ) en selecteer vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de **Mediagalerie** en selecteer vervolgens **OK**.
-1. Selecteer in het vak **Winkelselectie** van de koopvakmodule het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het vak **Winkelselectie** van de koopvakmodule het weglatingsteken ( **...** ) en selecteer vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de **Winkelselectiemodule** en selecteer vervolgens **OK**.
-1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om het fragment te controleren en selecteer **Publiceren** om het te publiceren.
+1. Selecteer **Opslaan** , selecteer **Bewerken voltooien** om het fragment te controleren en selecteer **Publiceren** om het te publiceren.
 1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **PDP-sjabloon** in en selecteer vervolgens **OK**.
-1. Selecteer het weglatingsteken (**...**) in het vak **Hoofdtekst** en selecteer **Module toevoegen**.
+1. Selecteer het weglatingsteken ( **...** ) in het vak **Hoofdtekst** en selecteer **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de module **Standaardpagina** en selecteer vervolgens **OK**.
-1. Selecteer in het vak **Hoofd** van de standaardpagina de knop met het weglatingsteken (**...**) en vervolgens **Fragment toevoegen**.
+1. Selecteer in het vak **Hoofd** van de standaardpagina de knop met het weglatingsteken ( **...** ) en vervolgens **Fragment toevoegen**.
 1. Selecteer in het dialoogvenster **Fragment selecteren** het fragment **Koopvakfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
-1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
+1. Selecteer **Opslaan** , selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
 1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de **PDP-sjabloon**. Voer onder **Paginanaam** **PDP-pagina** in en selecteer vervolgens **OK**.
-1. Selecteer in het vak **Hoofd** van de nieuwe pagina de knop met het weglatingsteken (**...**) en vervolgens **Fragment toevoegen**.
+1. Selecteer in het vak **Hoofd** van de nieuwe pagina de knop met het weglatingsteken ( **...** ) en vervolgens **Fragment toevoegen**.
 1. Selecteer in het dialoogvenster **Fragment selecteren** het fragment **Koopvakfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
 1. Sla de pagina op en bekijk een voorbeeld. Voeg de parameter voor de querytekenreeks **?productid=&lt;product id&gt;** toe aan de URL van de voorbeeldpagina. Op die manier wordt de productcontext gebruikt om de voorbeeldpagina te laden en weer te geven.
-1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren. Op de pagina met productgegevens moet nu het koopvak worden weergegeven.
+1. Selecteer **Opslaan** , selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren. Op de pagina met productgegevens moet nu het koopvak worden weergegeven.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

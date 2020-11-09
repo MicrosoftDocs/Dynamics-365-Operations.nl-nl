@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventOnhandItem, InventOnHandItemListPage
+ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 275a37cd76715ab9909e057ec759c66c4f9c617b
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829844"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017386"
 ---
 # <a name="inventory-on-hand-list"></a>Lijst met voorhanden voorraad
 
@@ -53,7 +53,7 @@ Voor elk overeenkomend artikel bevat het raster **Voorhanden** de volgende kolom
 | Totaal van order | De totale hoeveelheid die is opgenomen op inkomende orders of die een positieve hoeveelheid in verschillende voorraadjournalen heeft. |
 | In bestelling | De totale hoeveelheid die is opgenomen op uitgaande orders of die een negatieve hoeveelheid in verschillende voorraadjournalen heeft. |
 | Besteld en gereserveerd | De totale hoeveelheid die is gereserveerd op bestelde ontvangsten. De waarde in dit veld staat voor de totale hoeveelheid artikelen in uitgaande transacties met de status _Besteld en gereserveerd_. Artikelen die zijn gereserveerd als besteld, zijn niet fysiek beschikbaar in de voorraad. Daarom kunnen ze niet rechtstreeks worden verzameld en geleverd. |
-| Beschikbaar voor reservering | De totale hoeveelheid voorhanden voorraad kan worden gereserveerd.<p>**Opmerking:** als het selectievakje **Bestelde artikelen reserveren** is ingeschakeld op de pagina **Parameters voor voorraad- en magazijnbeheer**, bevat de waarde in dit veld verwachte ontvangsten. Als het selectievakje is uitgeschakeld, worden verwachte ontvangsten uitgesloten van de waarde.</p> |
+| Beschikbaar voor reservering | De totale hoeveelheid voorhanden voorraad kan worden gereserveerd.<p>**Opmerking:** als het selectievakje **Bestelde artikelen reserveren** is ingeschakeld op de pagina **Parameters voor voorraad- en magazijnbeheer** , bevat de waarde in dit veld verwachte ontvangsten. Als het selectievakje is uitgeschakeld, worden verwachte ontvangsten uitgesloten van de waarde.</p> |
 | Totaal beschikbaar | De totale beschikbare hoeveelheid.<p>**Totaal beschikbaar** is een berekend veld. De waarde is gelijk aan de **beschikbare fysieke** waarde plus de waarde **Totaal van order** min de waarde **In bestelling**.</p> |
 
 ## <a name="apply-filters-to-find-the-records-that-youre-looking-for"></a><a name="filters-pane"></a>Filters toepassen om de records te vinden die u zoekt
@@ -61,7 +61,7 @@ Voor elk overeenkomend artikel bevat het raster **Voorhanden** de volgende kolom
 Gebruik het deelvenster **Filters** om de voorhanden voorraad te filteren zodat alleen records worden opgenomen waarin de veldwaarden voldoen aan de filtercriteria. Volg deze stappen om een filter te definiëren.
 
 1. Zoek in het deelvenster **Filters** het veld waarop u wilt filteren.
-2. Selecteer in het veld onder de naam van het doelveld een logische operator (bijvoorbeeld *begint met*, *gelijk aan* of *groter dan*).
+2. Selecteer in het veld onder de naam van het doelveld een logische operator (bijvoorbeeld *begint met* , *gelijk aan* of *groter dan* ).
 3. Typ of selecteer de waarde waarnaar moet worden gezocht.
 
 > [!IMPORTANT]
@@ -73,7 +73,7 @@ Gebruik het deelvenster **Filters** om de voorhanden voorraad te filteren zodat 
 
 U kunt de set filters die beschikbaar zijn, in het deelvenster **Filters** wijzigen door de volgende stappen uit te voeren.
 
-- Als u een filter uit het deelvenster wilt verwijderen, selecteert u de knop **Sluiten** (**X**) ervan.
+- Als u een filter uit het deelvenster wilt verwijderen, selecteert u de knop **Sluiten** ( **X** ) ervan.
 - Als u een filter wilt toevoegen, selecteert u boven aan het deelvenster **Filters** **Toevoegen**. Het dialoogvenster **Filter toevoegen** dat verschijnt, bevat een lijst met de beschikbare velden. Ook wordt informatie weergegeven over het gegevenstype en de tabel voor elk veld. Gebruik de kolomkoppen om de lijst te filteren en te sorteren zoals u wilt en schakel vervolgens het selectievakje in voor elk veld dat u aan het deelvenster **Filter** wilt toevoegen. Wanneer u klaar bent, selecteert u **Invoegen** om de wijzigingen toe te passen.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Selecteer de dimensies die u wilt weergeven

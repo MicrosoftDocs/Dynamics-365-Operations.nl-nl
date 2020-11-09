@@ -236,11 +236,13 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Instellingsopties voor de automatisering van leveranciersfacturering
                   href: accounts-payable/vnd-invoice-set-up-options.md
-                - name: Facturen indienen bij het werkstroomsysteem en productontvangstbonregels aan factuurregels koppelen
+                - name: Facturen indienen bij het werkstroomsysteem en productontvangstbonregels koppelen
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Resultaten van de automatisering van leveranciersfacturering weergeven
                   href: accounts-payable/view-automated-vendor-invoice.md
-            - name: Boekhoudingsverdelingen en journaals in de subadministratie voor leveranciersfacturen
+                - name: Werkgebied voor invoer van leveranciersfacturen
+                  href: accounts-payable/vendor-invoices-workspace.md
+            - name: Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Factuurvereffening en intercompany-inkooporders
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -920,8 +922,10 @@
                   href: general-ledger/subledger-transfer.md
                 - name: Journaalregels en documenten publiceren vanuit Excel
                   href: general-ledger/open-lines-excel-journals-documents.md
-                - name: Journaalboekingen en transacties weergeven
+                - name: Journaalposten en transacties weergeven
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: Proefbalans met transactiedetailrapport
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Geboekte journaalposten journaliseren
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Valutaherwaardering in een consolidatiebedrijf
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Een geavanceerde grootboekpost in de openbare sector maken
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Proefbalans met transactiedetailrapport
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Beheerlimieten voor contant geld gebruiken
                   href: public-sector/cash-control.md
                 - name: Jaarultimoverwerking in de openbare sector
@@ -1394,10 +1396,12 @@
                       href: localizations/latam-bra-nf-e-process.md
                     - name: Automatische transmissie van fiscale NF-e-documenten
                       href: localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
-                    - name: E-mails genereren voor goedgekeurde NF-e- en DANFE PDF-bestanden en NF-e-XML-bestanden koppelen aan de e-mailberichten
+                    - name: E-mails voor goedgekeurde NF-e- genereren en DANFE PDF- en NF-e-XML-bestanden koppelen aan de e-mailberichten
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: NF-e-certificaten
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: Validatie van aangepast certificaat NF-e
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'NF-e-XML-documenten en DANFE instellen, importeren en controleren'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: Federale NF-e-parameters instellen
@@ -2080,9 +2084,11 @@
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Belastingquery
                       href: localizations/apac-ind-GST-tax-inquiry.md
-                - name: Belastingberekenfunctie
+                    - name: De tabel TaxDocumentJSON opschonen
+                      href: localizations/gte-clean-up-tax-document-json-table.md
+                - name: Belastingengine
                   items:
-                    - name: Overzicht van Belastingberekenfunctie
+                    - name: Overzicht van belastingengine
                       href: general-ledger/tax-engine.md
                     - name: Configuratie importeren
                       href: general-ledger/tax-engine-import-configuration.md
@@ -2651,7 +2657,7 @@
                         - name: Overzicht van voorraadprofiel
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Een voorraadprofiel instellen
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: Een voorraadprofiel gebruiken in documenten en query's
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Rapportage

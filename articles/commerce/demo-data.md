@@ -1,7 +1,7 @@
 ---
 title: Schermindelingen met demonstratiegegevens in Modern POS (MPOS) en Cloud POS
 description: Dit onderwerp bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Dynamics 365 Commerce.
-author: zlinster
+author: josaw1
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: zlinster
+ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 7956eece1a77951795a3f5f66067a2ecfacf3450
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022085"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014881"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Schermindelingen met demonstratiegegevens in Modern POS (MPOS) en Cloud POS
 
@@ -89,8 +89,8 @@ In de volgende afbeelding wordt een voorbeeld van het welkomstscherm voor een wi
 
 Een schermindeling kan configuraties voor zowel volledige als compacte apparaten bevatten. Daarom kan een gebruiker worden toegewezen aan één schermindeling die werkt op verschillende afmetingen en vormfactoren in de winkel.
 
-- **Modern POS - volledig**: volledige indelingen zijn normaal gesproken het meest geschikt voor grotere beeldschermen, zoals computerbeeldschermen en tablets. Gebruikers kunnen de UI-elementen in de indeling selecteren, de grootte en positie van die elementen opgeven en hun gedetailleerde eigenschappen configureren. Volledige indelingen ondersteunen zowel staande (portrait) als liggende (landscape) configuraties.
-- **Modern POS - compact**: compacte indelingen zijn normaal gesproken het meest geschikt voor telefoons of kleine tablets. De ontwerpmogelijkheden zijn beperkt voor compacte apparaten. Gebruikers kunnen de kolommen en velden voor de deelvensters Ontvangstbewijs en Totalen configureren.
+- **Modern POS - volledig** : volledige indelingen zijn normaal gesproken het meest geschikt voor grotere beeldschermen, zoals computerbeeldschermen en tablets. Gebruikers kunnen de UI-elementen in de indeling selecteren, de grootte en positie van die elementen opgeven en hun gedetailleerde eigenschappen configureren. Volledige indelingen ondersteunen zowel staande (portrait) als liggende (landscape) configuraties.
+- **Modern POS - compact** : compacte indelingen zijn normaal gesproken het meest geschikt voor telefoons of kleine tablets. De ontwerpmogelijkheden zijn beperkt voor compacte apparaten. Gebruikers kunnen de kolommen en velden voor de deelvensters Ontvangstbewijs en Totalen configureren.
 
 ### <a name="screen-resolutions-that-are-provided"></a>Geleverde schermresoluties
 

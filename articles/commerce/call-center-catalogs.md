@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e4d2b1f4b7fb9394f54674f9622c8a8edd435311
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022098"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107274"
 ---
 # <a name="call-center-catalogs"></a>Callcentercatalogi
 
@@ -32,7 +32,7 @@ ms.locfileid: "3022098"
 
 In dit onderwerp wordt de callcenterspecifieke functionaliteit beschreven die is gekoppeld aan de catalogusmogelijkheden in Dynamics 365 Commerce.
 
-De catalogusfuncties van Commerce kunnen worden gebruikt voor meerdere doeleinden. De catalogusfuncties zijn in eerste instantie gemaakt ter ondersteuning van e-commerce-integraties van derden. Met catalogusinstelling konden bedrijven een groepering van producten en kenmerken maken die extern kunnen worden gepubliceerd voor gebruik door een e-commerceoplossing van derden.
+De catalogusfuncties van Commerce kunnen worden gebruikt voor meerdere doeleinden. De catalogusfuncties zijn in eerste instantie gemaakt ter ondersteuning van e-Commerce-integraties van derden. Met catalogusinstelling konden bedrijven een groepering van producten en kenmerken maken die extern kunnen worden gepubliceerd voor gebruik door een e-Commerce-oplossing van derden.
 
 Toen ondersteuning van callcenterkanalen werd toegevoegd, werd het catalogusconcept uitgebreid met extra mogelijkheden voor de ondersteuning en het beheer van functies die gerelateerd zijn aan traditionele consumentenmarketingcatalogi. Een direct-to-consumer bedrijf produceert vaak afgedrukte catalogi die dan naar een of meer klantensegmenten worden verzonden. Deze catalogussen hebben meestal bepaalde acties of aanbiedingen die alleen worden gehonoreerd als de klant een catalogusidentificatiecode verstrekt op het moment van maken van de order.
 
@@ -64,11 +64,11 @@ Klik op het tabblad **Broncodes** op **Toevoegen** om een of meer **Broncode-ID'
 
 ## <a name="use-the-source-id-to-track-costs-and-response-rates"></a>De bron-ID gebruiken voor het bijhouden van kosten en responspercentages
 
-Wanneer u de **Broncode-ID** definieert, kunt u desgewenst deze ID koppelen aan een **Doelmarkt-id**. De **Doelmarkt-id** kan worden gedefinieerd in **Retail en Commerce** \> **Klanten** \> **Doelmarkt**. De doelmarkt is een lijst met klanten en/of potentiële klanten die tot een door de gebruiker gedefinieerd segment behoren. Door de gegevens van klanten of potentiële klanten te koppelen aan de broncode-ID ontstaat betere zichtbaarheid van ontvangers van de catalogus. Als een klant is gekoppeld aan een doelmarkt en die doelmarkt is gekoppeld aan een actieve broncode-ID/catalogus, kunnen callcentergebruikers zien welke catalogi een klant heeft ontvangen door de menuoptie **Broncodes** te selecteren op het menutabblad **Klanten** van de pagina **Klantenservice**. Tijdens orderinvoer kunnen callcentergebruikers ook de specifieke catalogi zien die naar een klant zijn verzonden, in de vervolgkeuzelijst **Bron** in de verkooporderkop. Als het filter wordt gewijzigd van **Alle** in **Beoogde**, kan de gebruiker de specifieke actieve catalogi zien die naar de klant zijn verzonden. Dit is handig in situaties waarin de klant zijn of haar catalogus mogelijk niet kan vinden of de cataloguscode niet kan vinden of lezen wanneer hij of zij belt om een verkooporder te maken.
+Wanneer u de **Broncode-ID** definieert, kunt u desgewenst deze ID koppelen aan een **Doelmarkt-id**. De **Doelmarkt-id** kan worden gedefinieerd in **Retail en Commerce** \> **Klanten** \> **Doelmarkt**. De doelmarkt is een lijst met klanten en/of potentiële klanten die tot een door de gebruiker gedefinieerd segment behoren. Door de gegevens van klanten of potentiële klanten te koppelen aan de broncode-ID ontstaat betere zichtbaarheid van ontvangers van de catalogus. Als een klant is gekoppeld aan een doelmarkt en die doelmarkt is gekoppeld aan een actieve broncode-ID/catalogus, kunnen callcentergebruikers zien welke catalogi een klant heeft ontvangen door de menuoptie **Broncodes** te selecteren op het menutabblad **Klanten** van de pagina **Klantenservice**. Tijdens orderinvoer kunnen callcentergebruikers ook de specifieke catalogi zien die naar een klant zijn verzonden, in de vervolgkeuzelijst **Bron** in de verkooporderkop. Als het filter wordt gewijzigd van **Alle** in **Beoogde** , kan de gebruiker de specifieke actieve catalogi zien die naar de klant zijn verzonden. Dit is handig in situaties waarin de klant zijn of haar catalogus mogelijk niet kan vinden of de cataloguscode niet kan vinden of lezen wanneer hij of zij belt om een verkooporder te maken.
 
 Het is mogelijk meerdere broncode-id's te koppelen aan een catalogus. Dit is vaak vereist wanneer een bedrijf het responspercentage van verschillende segmenten wil bijhouden. Het bedrijf geeft een unieke cataloguscode aan verschillende klantsegmenten, zodat het responspercentage kan worden bijgehouden, tot aan het segmentniveau, binnen een bepaalde catalogusgebeurtenis.
 
-Als een bepaalde **Broncode-ID**-record wordt geselecteerd en op de optie **Details** wordt geklikt op het sneltabblad **Broncodes**, krijgt u extra velden waar verkoopprognoses, verzendkosten en verzenddatums kunnen worden vastgelegd. Deze gegevens zijn handig voor het uitvoeren van gedetailleerde analyses van de effectiviteit van de catalogus. Gebruikers kunnen na verloop van tijd terugkeren naar deze pagina en de knoppen **Broncodeanalyse** en **Promoties vergelijken** gebruiken om analytische rapporten te activeren op basis van huidige verkoopgegevens en kosten en budgetten te vergelijken met werkelijke bedragen.
+Als een bepaalde **Broncode-ID** -record wordt geselecteerd en op de optie **Details** wordt geklikt op het sneltabblad **Broncodes** , krijgt u extra velden waar verkoopprognoses, verzendkosten en verzenddatums kunnen worden vastgelegd. Deze gegevens zijn handig voor het uitvoeren van gedetailleerde analyses van de effectiviteit van de catalogus. Gebruikers kunnen na verloop van tijd terugkeren naar deze pagina en de knoppen **Broncodeanalyse** en **Promoties vergelijken** gebruiken om analytische rapporten te activeren op basis van huidige verkoopgegevens en kosten en budgetten te vergelijken met werkelijke bedragen.
 
 ## <a name="configure-catalog-specific-order-and-item-scripts"></a>Catalogusspecifieke order- en artikelscripts configureren
 
@@ -76,7 +76,7 @@ Wanneer een callcentergebruiker een verkooporder maakt, kan hij of zij scripts o
 
 Het is vaak handig om verschillende reeksen scripts voor verschillende catalogi te hebben. Op het tabblad **Scripts** kunnen vooraf gedefinieerde scripts worden gekoppeld aan een catalogus. Gebruik het veld **Timing** veld om te bepalen of het script verschijnt aan het begin van de order (zodra de broncode-ID wordt ingevoerd in de orderkop) of aan het einde van de order (in het overzichtsformulier van de verkooporder).
 
-Wanneer een knooppunt wordt geselecteerd in de hiërarchie van de catalogus en wordt gewerkt met de gegevens op het sneltabblad **Producten**, kunnen gebruikers met de actie **Scripts** ook scripts koppelen die specifiek voor catalogi of artikelen zijn.
+Wanneer een knooppunt wordt geselecteerd in de hiërarchie van de catalogus en wordt gewerkt met de gegevens op het sneltabblad **Producten** , kunnen gebruikers met de actie **Scripts** ook scripts koppelen die specifiek voor catalogi of artikelen zijn.
 
 ## <a name="configure-catalog-specific-up-sell-and-cross-sell-items"></a>Catalogusspecifieke upsell- en cross-sell-artikelen configureren
 
@@ -92,7 +92,7 @@ Bij het configureren van de producten in de catalogus gebruikt u de actie **Prod
 
 ## <a name="catalog-requests"></a>Catalogusaanvragen
 
-Wanneer catalogi worden geconfigureerd en gepubliceerd in Commerce, kan de functie **Catalogus verzenden** worden gebruikt. Deze functie is beschikbaar op de pagina's **Klant zoeken** en **Klantenservice**. Na het selecteren van een klantrecord via **Klant zoeken** of tijdens het bekijken van een geselecteerde klantaccount vanuit **Klantenservice** kunnen gebruikers de optie **Catalogus verzenden** selecteren om een dialoogvenster te openen waarin de gebruiker kan kiezen uit een lijst met gepubliceerde en actieve catalogi. Een gebruiker kan een catalogus en een hoeveelheid selecteren en een bepaalde broncode-ID om te verzenden. Wanneer ze klikken op de knop **Verzenden**, wordt een aanvraag opgeslagen die vervolgens kan worden beheerd door het afdrukken van het rapport **Catalogusaanvragen**. U vindt dit rapport door te navigeren naar **Retail en Commerce** \> **Callcenterrapporten** \> **Rapport Catalogusaanvragen**. Hiermee worden alle catalogusverzoeken weergegeven, met inbegrip van de klantgegevens voor naam en adres van de klant die de catalogus heeft aangevraagd. Dit rapport kan intern worden gebruikt of de gegevens kunnen worden overgebracht naar een extern ondersteunend proces van derden voor het fysiek verzenden van de catalogus naar de klant.
+Wanneer catalogi worden geconfigureerd en gepubliceerd in Commerce, kan de functie **Catalogus verzenden** worden gebruikt. Deze functie is beschikbaar op de pagina's **Klant zoeken** en **Klantenservice**. Na het selecteren van een klantrecord via **Klant zoeken** of tijdens het bekijken van een geselecteerde klantaccount vanuit **Klantenservice** kunnen gebruikers de optie **Catalogus verzenden** selecteren om een dialoogvenster te openen waarin de gebruiker kan kiezen uit een lijst met gepubliceerde en actieve catalogi. Een gebruiker kan een catalogus en een hoeveelheid selecteren en een bepaalde broncode-ID om te verzenden. Wanneer ze klikken op de knop **Verzenden** , wordt een aanvraag opgeslagen die vervolgens kan worden beheerd door het afdrukken van het rapport **Catalogusaanvragen**. U vindt dit rapport door te navigeren naar **Retail en Commerce** \> **Callcenterrapporten** \> **Rapport Catalogusaanvragen**. Hiermee worden alle catalogusverzoeken weergegeven, met inbegrip van de klantgegevens voor naam en adres van de klant die de catalogus heeft aangevraagd. Dit rapport kan intern worden gebruikt of de gegevens kunnen worden overgebracht naar een extern ondersteunend proces van derden voor het fysiek verzenden van de catalogus naar de klant.
 
 ## <a name="additional-features"></a>Extra functies
 
@@ -100,4 +100,4 @@ Op het tabblad **Catalogi** zijn ook opties beschikbaar voor het configureren va
 
 ## <a name="additional-notes"></a>Verdere notities
 
-Momenteel, wanneer een broncode-ID wordt toegepast op een verkooporder in een callcenter, wordt deze gebruikt voor prijzen, promoties, scripts en upsells/cross-sells die catalogusspecifiek zijn. Het systeem verbiedt of voorkomt niet dat een product dat niet in de catalogus staat, wordt besteld op de verkooporder. Als een artikel wordt besteld dat geen deel uitmaakt van de catalogus, probeert het systeem eerst de **prijsgroep** te gebruiken die is gedefinieerd in het callcenterkanaal (**Retail en Commerce** \> **Afzetkanalen** \> **Callcenters** \> **Alle callcenters**) voor artikelprijs of promoties. Als er geen specifieke kanaalprijs wordt gevonden, wordt de basisverkoopprijs van het artikel gebruikt.
+Momenteel, wanneer een broncode-ID wordt toegepast op een verkooporder in een callcenter, wordt deze gebruikt voor prijzen, promoties, scripts en upsells/cross-sells die catalogusspecifiek zijn. Het systeem verbiedt of voorkomt niet dat een product dat niet in de catalogus staat, wordt besteld op de verkooporder. Als een artikel wordt besteld dat geen deel uitmaakt van de catalogus, probeert het systeem eerst de **prijsgroep** te gebruiken die is gedefinieerd in het callcenterkanaal ( **Retail en Commerce** \> **Afzetkanalen** \> **Callcenters** \> **Alle callcenters** ) voor artikelprijs of promoties. Als er geen specifieke kanaalprijs wordt gevonden, wordt de basisverkoopprijs van het artikel gebruikt.
