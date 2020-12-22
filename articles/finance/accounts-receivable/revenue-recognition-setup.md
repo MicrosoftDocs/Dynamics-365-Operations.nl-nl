@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570328"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458759"
 ---
 # <a name="revenue-recognition-setup"></a>Instellingen opbrengsttoerekening
 [!include [banner](../includes/banner.md)]
@@ -117,7 +117,7 @@ U kunt de instellingen starten op het sneltabblad **Opbrengsttoerekening** van d
 
 ### <a name="define-the-revenue-schedule"></a>Het opbrengstschema definiëren
 
-Opbrengst op de verkooporderregel wordt uitgesteld als er een opbrengstschema wordt gedefinieerd voor het vrijgegeven product en standaard op de verkooporderregel wordt gebruikt. Als de instelling standaard voor het product moet worden gebruikt, kunt u het opbrengstschema definiëren op het sneltabblad **Opbrengsttoerekening** van de pagina **Artikelgroep** (**Opbrengsttoerekening \> Instellingen \> Voorraad- en productinstellingen \> Artikelgroep**. U kunt ook de instelling voor het vrijgegeven product definiëren op het sneltabblad **Opbrengsttoerekening** van de pagina **Vrijgegeven producten** (**Opbrengsttoerekening \> Instellingen \> Voorraadinstellingen \> Vrijgegeven producten**).
+Opbrengst op de verkooporderregel wordt uitgesteld als er een opbrengstschema wordt gedefinieerd voor het vrijgegeven product en standaard op de verkooporderregel wordt gebruikt. Als de instelling standaard voor het product moet worden gebruikt, kunt u het opbrengstschema definiëren op het sneltabblad **Opbrengsttoerekening** van de pagina **Artikelgroep** (**Opbrengsttoerekening \> Instellingen \> Voorraad- en productinstellingen \> Artikelgroep**). U kunt ook de instelling voor het vrijgegeven product definiëren op het sneltabblad **Opbrengsttoerekening** van de pagina **Vrijgegeven producten** (**Opbrengsttoerekening \> Instellingen \> Voorraadinstellingen \> Vrijgegeven producten**).
 
 Selecteer in het veld **Opbrengstschema** het opbrengstschema dat de periode aanduidt waarvoor de opbrengst moet worden uitgesteld. Het opbrengstschema wordt automatisch ingevoerd op de verkooporderregel en de schemadetails worden gemaakt op het moment dat de verkooporderfactuur wordt geboekt.
 

@@ -1,11 +1,13 @@
 - name: Dynamics 365 Human Resources
   href: hr-welcome.md
   items:
-    - name: Nieuw
+    - name: Nieuwe functies
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
-        - name: 22 oktober 2002
+        - name: 2 december 2020
+          href: hr-whats-new-2020-12-02.md
+        - name: 22 oktober 2020
           href: hr-whats-new-2020-10-22.md
         - name: 6 oktober 2020
           href: hr-whats-new-2020-10-06.md
@@ -477,9 +479,11 @@
               href: hr-personnel-define-jobs.md
             - name: Een werktijdenkalender maken
               href: hr-personnel-create-working-time-calendar.md
+            - name: Kandidaten werven
+              href: hr-personnel-recruit.md
             - name: Veelgestelde vragen over personeelsacties
               href: hr-personnel-actions-faq.md
-            - name: Workflows gebruiken om werknemersgegevens te beheren
+            - name: Werknemersgegevens beheren met behulp van werkstromen
               href: hr-workflow-manage-employee-information.md
             - name: Adreswijzigingen weergeven en beheren
               href: hr-personnel-view-address-changes.md
@@ -533,7 +537,9 @@
                   href: hr-benefits-management-overview.md
                 - name: Vergoedingenbeheer configureren
                   items:
-                    - name: Parameters voor Vergoedingenbeheer instellen
+                    - name: Parameters voor Vergoedingenbeheer per bedrijf configureren
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: Vergoedingenbeheer en selfserviceparameters voor werknemers instellen voor alle bedrijven
                       href: hr-benefits-setup-parameters.md
                     - name: Regels en opties voor geschiktheid configureren
                       href: hr-benefits-setup-eligibility-rules.md

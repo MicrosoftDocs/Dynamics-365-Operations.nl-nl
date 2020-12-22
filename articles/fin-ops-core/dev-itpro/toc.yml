@@ -12,26 +12,22 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina van nieuwe of gewijzigde functies in platform-updates
+                - name: Startpagina van nieuwe of gewijzigde functies in Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform-updates voor 10.0.16 (februari 2021)
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: Platform-updates voor 10.0.15 (januari 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platform-updates voor 10.0.14 (november 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: Platform-updates voor 10.0.13 (oktober 2020)
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: Platform-updates voor 10.0.12 (augustus 2020)
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: Verwijderde of afgeschafte functies
               items:
-                - name: Verwijderde of afgeschafte Platform-functies
+                - name: Verwijderde of afgeschafte platform-functies
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Verwijderde of afgeschafte functies in eerdere releases
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: AX 2012-functies die zijn uitgesteld
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Functies die niet worden geïmplementeerd in on-premises implementaties
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Zakelijke gebeurtenissen
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: De toewijzing instellen voor de verkooporderstatusvelden
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: Intercompany-orders filteren om synchronisatie van Orders en OrderLines te voorkomen
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: Twee keer wegschrijven beheren
                           items:
                             - name: Entiteits- en veldtoewijzingen aanpassen
@@ -208,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Model voor geïntegreerde belasting
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Op verzoek synchroniseren met de Dynamics 365 Supply Chain Management-prijsengine
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: Prospect naar contant geld in twee keer wegschrijven
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Op verzoek synchroniseren met de Dynamics 365 Supply Chain Management-prijsengine
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: Dynamics 365 Commerce-prijsengine gebruiken met Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: Interne activa voor onderhoudsbeurten
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Geïntegreerde medewerker, taak en functie'
@@ -500,6 +500,8 @@
                       href: deployment/plan-onprem-deployment.md
                     - name: Vereisten voor omvang hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: Verificatie in Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/authentication-onprem.md
                 - name: On-premises omgevingen instellen en implementeren
                   items:
                     - name: On-premises projecten instellen in LCS
@@ -630,7 +632,9 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Een LCS-connector (Lifecycle Services) maken in Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
-            - name: Voorbeeldtoepassing voor wagenparkbeheer
+                - name: Een oudere pijplijn bijwerken in Azure Pipelines
+                  href: dev-tools/pipeline-msbuild-update.md
+            - name: Voorbeeldtoepassing voor Wagenparkbeheer
               items:
                 - name: Compleet scenario voor de voorbeeldtoepassing Wagenparkbeheer
                   href: dev-tools/fleet-management-sample.md
@@ -766,6 +770,8 @@
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: Toegang tot gegevens via de SysDa-API
                           href: dev-ref/sysda.md
+                        - name: Een aanval met SQL-injectie voorkomen
+                          href: dev-ref/query-with-parameters.md
                     - name: X++-macro's
                       href: dev-ref/xpp-macros.md
                     - name: X++-kenmerkklassen
@@ -1498,6 +1504,8 @@
                   href: sysadmin/security-reports.md
                 - name: Nieuwe gebruikers maken
                   href: sysadmin/tasks/create-new-users.md
+                - name: Beheer van gebruikerssessies
+                  href: sysadmin/user-session-management.md
                 - name: Gebruikers bulksgewijs importeren
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Scheiding van taken instellen
@@ -1558,6 +1566,8 @@
               href: sysadmin/odata-warmup.md
             - name: Client Azure Key Vault instellen
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: Opschoningsroutines
+              href: sysadmin/cleanuproutines.md
         - name: 'Upgrades, updates en hotfixes'
           items:
             - name: 'Resources voor upgrades, updates en hotfixes'
@@ -1696,7 +1706,7 @@
                   href: user-interface/build-customer-form.md
                 - name: Navigatie maken
                   href: user-interface/build-navigation.md
-                - name: Werkgebieden maken
+                - name: Een werkgebied wijzigen
                   href: user-interface/build-workspace.md
             - name: Formulieren
               items:

@@ -14,8 +14,10 @@
               items:
                 - name: Overzicht van updates van One Version-service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Veelgestelde vragen over updates van One Version-service
+                - name: Veelgestelde vragen over updates van service met één versie
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Updates en de levenscyclus van aangepaste code beheren, waaronder Dynamics 365 Commerce'
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Lifecycle-beleid voor software - cloud
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Lifecycle-beleid voor software - on-premises
@@ -70,12 +72,12 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.15 (december 2020)
+                    - name: Supply Chain Management 10.0.16 (februari 2021)
+                      href: get-started/whats-new-scm-10-0-16.md
+                    - name: Supply Chain Management 10.0.15 (januari 2021)
                       href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (november 2020)
                       href: get-started/whats-new-scm-10-0-14.md
-                    - name: Supply Chain Management 10.0.13 (oktober 2020)
-                      href: get-started/whats-new-scm-10-0-13.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
@@ -84,8 +86,6 @@
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: AX 2012-functies die zijn uitgesteld
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Functies die niet worden geïmplementeerd in on-premises implementaties
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Documentatiebronnen
@@ -216,6 +216,14 @@
                   items:
                     - name: Goederen in transit vanaf leverancier
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Cloud en rand
+          items:
+            - name: Cloud- en randschaaleenheden voor werkbelasting van productie- en magazijnbeheer
+              href: cloud-edge/cloud-edge-landing-page.md
+            - name: Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden
+              href: cloud-edge/cloud-edge-workload-manufacturing.md
+            - name: Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
+              href: cloud-edge/cloud-edge-workload-warehousing.md
         - name: Activabeheer
           items:
             - name: Overzicht van activabeheer
@@ -230,9 +238,9 @@
                 - name: Status van levenscyclus voor functionele locaties
                   href: asset-management/setup-for-functional-locations/functional-location-stages.md
                 - name: Kenmerktypen voor onderhoud
-                  href: asset-management/setup-for-functional-locations/functional-location-types.md
-                - name: Functionele locatietypen
                   href: asset-management/setup-for-functional-locations/specification-types.md
+                - name: Functionele locatietypen
+                  href: asset-management/setup-for-functional-locations/functional-location-types.md
             - name: Functionele locaties
               items:
                 - name: Inleiding tot functionele locaties
@@ -633,6 +641,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Power BI-inhoudpakket voor kostenbeheer
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Problemen met kostenbeheer oplossen
+              href: cost-management/troubleshoot-costmanagement.md
         - name: Rapportage en Power BI-integratie
           items:
             - name: Rapportage en analyse met Power BI
@@ -1327,6 +1337,8 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Lopende gemiddelde kosten per voorraaddimensie traceren
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Invoegtoepassing voorraadzichtbaarheid
+              href: inventory/inventory-visibility.md
         - name: IoT-intelligentie
           items:
             - name: Startpagina van IoT-intelligentie
@@ -1347,6 +1359,8 @@
           items:
             - name: Startpagina van Hoofdplanning
               href: master-planning/master-planning-home-page.md
+            - name: Migratie naar planningsoptimalisatie voor hoofdplanning
+              href: master-planning/new-master-planning-engine.md
             - name: Planningsoptimalisatie
               items:
                 - name: Overzicht van Planningsoptimalisatie
@@ -1357,10 +1371,18 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Filters op een plan toepassen
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Hoofdplanning met vraagprognose
+                  href: master-planning/planning-optimization/demand-forecast.md
                 - name: Hoofdplanning met inkoophandelsovereenkomsten
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Veiligheidsmarges
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Voorraadmarkering met planningsoptimalisatie
+                  href: master-planning/planning-optimization/marking.md
+                - name: Intercompany-planning
+                  href: master-planning/planning-optimization/Intercompany-planning.md
+                - name: Producten uitsluiten met bepaalde productlevenscyclusstatussen
+                  href: master-planning/planning-optimization/product-lifecycle-state.md
                 - name: Geplande orders goedkeuren
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Automatische fiattering met Planningsoptimalisatie
@@ -1463,6 +1485,8 @@
                   href: master-planning/tasks/create-baseline-forecast.md
                 - name: Handmatig een vraagprognose wijzigen
                   href: master-planning/tasks/modify-demand-forecast-manually.md
+            - name: Problemen met hoofdplanning oplossen
+              href: master-planning/troubleshoot-masterplanning.md
         - name: Mobiele app
           items:
             - name: Startpagina mobiele app
@@ -1895,6 +1919,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: Stuklijstberekeningen
                   href: cost-management/bom-calculations.md
+                - name: Problemen met productinformatie oplossen
+                  href: pim/troubleshooting-productinformation.md
             - name: Productconfiguratie
               items:
                 - name: Overzicht van Productconfiguratie
@@ -1955,6 +1981,34 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Gegevens overbrengen voor productmodellen
                       href: pim/tasks/transfer-data-product-models.md
+                - name: Problemen met de productconfiguratie oplossen
+                  href: pim/troubleshooting-productconfigurator.md
+        - name: Beheer voor technische wijzigingen
+          items:
+            - name: Overzicht van technisch wijzigingsbeheer
+              href: engineering-change-management/product-engineering-overview.md
+            - name: Overzicht van functies voor technisch wijzigingsbeheer
+              href: engineering-change-management/engineering-scenarios.md
+            - name: Parameters voor het beheer van technische wijzigingen
+              href: engineering-change-management/engineering-parameters.md
+            - name: Veelgebruikte waarden voor technisch wijzigingsbeheer opstellen
+              href: engineering-change-management/engineering-change-management-setup.md
+            - name: Technische organisaties en regels voor gegevenseigendom
+              href: engineering-change-management/engineering-org-data-ownership-rules.md
+            - name: Producteigenaar
+              href: engineering-change-management/product-owner.md
+            - name: Technische kenmerken en zoekopdracht voor technische kenmerken
+              href: engineering-change-management/engineering-attributes-and-search.md
+            - name: Technische versies en technische productcategorieën
+              href: engineering-change-management/engineering-versions-product-category.md
+            - name: Productlevenscyclusstatus en transacties
+              href: engineering-change-management/product-lifecycle-state-transactions.md
+            - name: Wijzigingen in technische producten beheren
+              href: engineering-change-management/engineering-change-management.md
+            - name: Productgereedheid
+              href: engineering-change-management/product-readiness.md
+            - name: Productstructuur vrijgeven
+              href: engineering-change-management/release-product-structure.md
         - name: Productiebeheer
           items:
             - name: Overzicht van Productieproces
@@ -2047,6 +2101,8 @@
                       items:
                         - name: De uitvoeringsinterface voor de werkvloer configureren
                           href: production-control/production-floor-execution-configure.md
+                        - name: De uitvoeringsinterface voor de werkvloer ontwerpen
+                          href: production-control/production-floor-execution-tabs.md
                         - name: Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
                           href: production-control/production-floor-execution-setup.md
                         - name: Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken
@@ -2105,6 +2161,8 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Flexgroepen
                       href: production-control/time-attendance-flex-groups.md
+                - name: Problemen met afzonderlijke productie oplossen
+                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: Lean manufacturing
               items:
                 - name: Overzicht van lean manufacturing
@@ -2257,6 +2315,8 @@
                       href: production-control/consumption.md
                     - name: Productieboeking
                       href: cost-management/production-posting.md
+                - name: Problemen met procesfabricage oplossen
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Verkoop en marketing
           items:
             - name: Overzicht van Verkoop en marketing
@@ -2589,6 +2649,8 @@
               href: transportation/create-new-transportation-management-engine.md
             - name: Een brandstofindex aan een vervoerder koppelen als bijkomende toeslag
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
+            - name: USMCA-certificering van oorsprong
+              href: transportation/usmca-certification-of-origin.md
             - name: Een vrachtbrief maken
               href: transportation/create-bill-of-lading.md
             - name: Vrachttransportroutes plannen
@@ -2607,6 +2669,26 @@
               href: transportation/reconcile-freight-transportation-management.md
             - name: Het in- en uitchecken van een chauffeur voor een afspraak registreren
               href: transportation/tasks/register-driver-check-check-out-appointment.md
+            - name: Kortingen
+              href: transportation/transportation-management-discount.md
+            - name: Diverse toeslagen
+              href: transportation/transportation-management-misc-charge.md
+            - name: Modi en methoden
+              href: transportation/transportation-management-modes-methods.md
+            - name: Nummerreeksen
+              href: transportation/transportation-management-number-sequence.md
+            - name: Status
+              href: transportation/transportation-management-status.md
+            - name: Zonemodel
+              href: transportation/transportation-management-zone-master.md
+            - name: Vervoerdersgroepen
+              href: transportation/tasks/carrier-groups.md
+            - name: Workbench voor ladingopbouw
+              href: transportation/tasks/load-building-workbench.md
+            - name: Sjablonen laden
+              href: transportation/tasks/load-template.md
+            - name: Classificatieprofielen
+              href: transportation/tasks/setup-a-rating-profile.md
             - name: Brandstofindex van een vervoerder instellen
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Een transportbetalingsmethode instellen
@@ -2645,20 +2727,28 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Locaties voor productdimensie combineren
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Wegzetclusters
+                  href: warehousing/putaway-clusters.md
                 - name: Kwaliteitscontrole
                   href: warehousing/quality-check.md
+                - name: Problemen met inkomende magazijnbewerkingen oplossen
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Uitgaande magazijnbewerkingen
               items:
                 - name: Reserveringen in magazijnbeheer
                   items:
                     - name: Flexibel reseveringsbeleid voor dimensies op magazijnniveau
                       href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: Problemen met reserveringen in magazijnbeheer oplossen
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: Gedeeltelijke vrijgave en gedeeltelijke verzending
                   items:
                     - name: Gedeeltelijke verzending van een transportlading
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Batchvrijgave van gedeeltelijk gereserveerde transferorders
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: Problemen met gedeeltelijke vrijgaven en gedeeltelijke verzendingen oplossen
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Verzamelen en verpakken
                   items:
                     - name: Clusterverzameling instellen
@@ -2697,6 +2787,10 @@
                       href: warehousing/outbound-sorting.md
                     - name: Put to wall - put to store
                       href: warehousing/put-to-wall-put-to-store.md
+                    - name: Visualisatie van uitgaande workload
+                      href: warehousing/outbound-workload-visualization.md
+                    - name: Problemen met verzamelen en verpakken oplossen
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Aanvulling
                   items:
                     - name: Overzicht van Aanvulling
@@ -2709,8 +2803,12 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Aanvulling zonedrempel
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Aanvullingsstrategieën
+                      href: warehousing/replenishment-strategies.md
                     - name: Aanvulling boven locatiecapaciteit
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: Problemen met magazijnaanvulling oplossen
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Ladingopbouw en zendingen
                   items:
                     - name: Bevestigen en overboeken
@@ -2725,9 +2823,11 @@
                       href: warehousing/wave-template-grouping.md
                     - name: Wavelabels opnieuw afdrukken en ongeldig maken
                       href: warehousing/reprint-and-void-wave-labels.md
-                - name: Beleidsregels voor samenvoegen van zendingen
+                    - name: Problemen met ladingopbouw en zendingen oplossen
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
+                - name: Beleidsregels voor consolidatie van zendingen
                   items:
-                    - name: Beleidsregels voor samenvoegen van zendingen
+                    - name: Beleidsregels voor consolidatie van zendingen
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Beleidsregels voor samenvoegen van zendingen configureren
                       href: warehousing/configure-shipment-consolidation-policies.md
@@ -2741,6 +2841,8 @@
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: 'Scenario 5: Zendingen handmatig samenvoegen met de pagina Zendingen samenvoegen'
                       href: warehousing/consolidate-shipments-manual-form.md
+                - name: Problemen met uitgaande magazijnbewerkingen oplossen
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Binnen magazijnbewerkingen
               items:
                 - name: Werkbeleid magazijn
@@ -2797,6 +2899,10 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: Artikelconsolidatie - locatiegebruik
                       href: warehousing/item-consolidation-location-utilization.md
+                    - name: Problemen met magazijnwerk oplossen
+                      href: warehousing/troubleshoot-warehouse-work.md
+                    - name: Werk splitsen
+                      href: warehousing/work-split.md
             - name: Magazijninstellingen
               items:
                 - name: Magazijnconfiguratie
@@ -2807,8 +2913,10 @@
                       href: inventory/warehouse-template.md
                     - name: Werk beheren met behulp van sjablonen en locatierichtlijnen
                       href: warehousing/control-warehouse-location-directives.md
-                    - name: Locatierichtlijnen maken
+                    - name: Werken met locatie-instructies
                       href: warehousing/create-location-directive.md
+                    - name: Opslaglimieten van locatie
+                      href: warehousing/location-stocking-limits.md
                     - name: Wave-stapcodes
                       href: warehousing/wave-step-codes.md
                     - name: Waveverwerking configureren
@@ -2843,6 +2951,8 @@
                       href: warehousing/mobile-barcode-support.md
                     - name: Magazijn voor overboekingsorders instellen
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: Problemen met magazijnconfiguratie oplossen
+                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: De app voor magazijnbeheer installeren en configureren
                   items:
                     - name: De app voor magazijnbeheer installeren en verbinden
@@ -2879,6 +2989,10 @@
                   items:
                     - name: Een upgrade van magazijnbeheerprocessen uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: Problemen met upgrade en migratie naar geavanceerd magazijnbeheer oplossen
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: Problemen met magazijninstellingen oplossen
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Ontwikkeling Supply Chain Management
           items:
             - name: Handleiding voor ontwikkeling van Gantt-besturingselement

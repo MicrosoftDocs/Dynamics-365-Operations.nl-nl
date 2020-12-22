@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f6bf4b6c946ebc63d3d84140f762cd4b789deb03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458753"
+---
 Bij het kopiëren van een database tussen omgevingen moet u het inrichtingshulpprogramma voor de omgeving opnieuw uitvoeren voordat de gekopieerde database volledig functioneel is, om ervoor te zorgen dat alle Commerce-onderdelen bijgewerkt zijn.
 
 > [!IMPORTANT]
