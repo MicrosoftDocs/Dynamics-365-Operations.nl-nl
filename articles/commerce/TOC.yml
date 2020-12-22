@@ -1,0 +1,2320 @@
+- name: Dynamics 365 Commerce
+  items:
+    - name: Dynamics 365 Commerce
+      items:
+        - name: Startpagina van Dynamics 365 Commerce
+          href: index.md
+        - name: Aan de slag
+          items:
+            - name: Voordat u gaat kopen
+              href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
+            - name: Updates van One Version-service
+              items:
+                - name: Overzicht van updates van One Version-service
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Veelgestelde vragen over updates van service met één versie
+                  href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Updates en de levenscyclus van aangepaste code beheren, waaronder Dynamics 365 Commerce'
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/commerce/toc.json
+                - name: Lifecycle-beleid voor software - cloud
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
+                - name: Lifecycle-beleid voor software - on-premises
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/commerce/toc.json
+                - name: Beschikbaarheid van serviceupdate
+                  href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
+                - name: Updates toepassen op cloudomgevingen
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Updates toepassen op on-premises implementaties
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Serviceupdates configureren
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: Serviceupdates onderbreken
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: Bericht ontvangen over serviceupdates
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: Automatisering van gegevenstaak
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
+                - name: ISV-oplossingen leveren met One Version
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
+                - name: Acceptatietests voor gebruikers maken en automatiseren
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
+            - name: Een evaluatieomgeving voor Dynamics 365 Commerce instellen
+              items:
+                - name: Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce
+                  href: cpe-overview.md
+                - name: Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
+                  href: provisioning-guide.md
+                - name: Een Dynamics 365 Commerce-evaluatieomgeving configureren
+                  href: cpe-post-provisioning.md
+                - name: BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving
+                  href: cpe-bopis.md
+                - name: Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
+                  href: cpe-optional-features.md
+                - name: Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce
+                  href: cpe-faq.md
+            - name: Overwegingen bij de implementatie
+              items:
+                - name: Implementatieopties
+                  href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/commerce/toc.json
+                - name: Vergelijking van functies tussen cloud en on-premises
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/finance/toc.json
+                - name: Cloudimplementatie
+                  href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Systeemvereisten voor cloudimplementaties
+                  href: get-started/system-requirements.md
+                - name: On-premises implementatie
+                  href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
+                - name: Systeemvereisten voor on-premises implementaties
+                  href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
+                - name: Installatiestappen voor onderdelen van detailhandelskanaal in een on-premises omgeving
+                  href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
+                - name: Finance + Operations (on-premises) aanschaffen
+                  href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce Data Exchange-implementatierichtlijnen
+                  href: dev-itpro/implementation-considerations-cdx.md
+                - name: Finance and Operations-apps die worden geëxploiteerd door 21Vianet in China
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
+                - name: Finance and Operations-apps in Frankrijk
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: Ondersteuning
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
+            - name: Upgrade en N-1-ondersteuning
+              items:
+                - name: Upgrade en N-1-ondersteuning voor Commerce
+                  href: dev-itpro/overview-upgrade-n-minus1.md
+                - name: 'Gefaseerde implementatie (N-1) installeren, configureren en wijzigen'
+                  href: dev-itpro/n-1-installation-configuration.md
+                - name: De detailhandelafzetkanaaluitbreiding upgraden naar de meest recente Retail SDK
+                  href: dev-itpro/RetailSDK-update.md
+            - name: Nieuwe of gewijzigde functies
+              items:
+                - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
+                - name: Nieuwe of gewijzigde functies in Commerce
+                  items:
+                    - name: Startpagina van nieuwe of gewijzigde functies in Commerce
+                      href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.16 (februari 2021)
+                      href: get-started/whats-new-commerce-10-0-16.md
+                    - name: Commerce 10.0.15 (januari 2021)
+                      href: get-started/whats-new-commerce-10-0-15.md
+                    - name: Commerce 10.0.14 (november 2020)
+                      href: get-started/whats-new-commerce-10-0-14.md
+                - name: Verwijderde of afgeschafte functies
+                  items:
+                    - name: Verwijderde of afgeschafte functies in Finance and Operations
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                    - name: Verwijderde of afgeschafte functies in Dynamics 365 Commerce
+                      href: get-started/removed-deprecated-features-commerce.md
+                - name: AX 2012-functies die zijn uitgesteld
+                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
+                - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
+                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
+            - name: Documentatiebronnen
+              items:
+                - name: Help-systeem
+                  href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Verbinding maken met het Help-systeem
+                  href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
+                - name: Overzicht van aangepaste Help
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Veldomschrijvingen weergeven en exporteren
+                  href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
+                - name: Taakrecorder
+                  href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/commerce/toc.json
+                - name: Documentatie of training maken met Taakrecorder
+                  href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
+                - name: Video's
+                  href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
+                - name: Woordenlijst
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
+            - name: Trainingscatalogus
+              items:
+                - name: Startpagina trainingscatalogus
+                  href: ./get-started/learning-catalog.md
+                - name: Besluitvormers
+                  href: ./get-started/learning-catalog-bdm.md?
+                - name: Zakelijke gebruikers
+                  href: ./get-started/learning-catalog-business-user.md
+                - name: Implementatieprojectmanagers
+                  href: ./get-started/learning-catalog-project-manager.md
+                - name: Beheerders
+                  href: ./get-started/learning-catalog-administrator.md
+                - name: Ontwikkelaars
+                  href: ./get-started/learning-catalog-developer.md
+                - name: Verkoop- en marketing van partners
+                  href: ./get-started/learning-catalog-partner-sales.md
+                - name: Functionele consultants
+                  href: ./get-started/learning-catalog-functional-consultant.md
+                - name: Oplossingsarchitecten
+                  href: ./get-started/learning-catalog-solution-architect.md
+            - name: De gebruikersinterface verkennen
+              items:
+                - name: Gebruikersinterface-elementen
+                  href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/commerce/toc.json
+                - name: Toegankelijkheidsopties
+                  href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/commerce/toc.json
+                - name: Overzicht van Functiebeheer
+                  href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: FAQ client
+                  href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Actiezoekopdracht
+                  href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/commerce/toc.json
+                - name: Geavanceerde filter- en querysyntaxis
+                  href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/commerce/toc.json
+                - name: Werkgebieden configureren en filteren
+                  href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
+                  href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/commerce/toc.json
+                - name: Sneltoetsen
+                  href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/commerce/toc.json
+                - name: De banners of logo's voor rechtspersonen wijzigen
+                  href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/commerce/toc.json
+                - name: Navigatiezoekfunctie
+                  href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/commerce/toc.json
+                - name: De gebruikerservaring aanpassen
+                  href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
+                - name: Opgeslagen weergaven
+                  href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: Rastermogelijkheden
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
+                - name: Maken en werken met aangepaste velden
+                  href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
+                - name: Canvas-apps uit Power Apps insluiten
+                  href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: Informatie vinden met zoekopdrachten
+                  href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
+                - name: De datum van een sessie wijzigen
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/commerce/toc.json
+                - name: De voorkeurstijdzone van een gebruiker instellen
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
+                - name: Lifecycle Services begrijpen
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+        - name: Architectuuroverzicht
+          items:
+            - name: Architectuur
+              items:
+                - name: Architectuuroverzicht Dynamics 365 Commerce
+                  href: commerce-architecture.md
+                - name: Dynamics 365 Commerce-verificatiestromen
+                  href: arch-auth-flow.md
+                - name: Versievereisten voor Dynamics 365 Commerce-onderdelen
+                  href: arch-component-versioning.md
+                - name: De architectuur van Commerce Scale Unit
+                  href: dev-itpro/retail-server-architecture.md
+                - name: Een topologie voor de winkel selecteren
+                  href: dev-itpro/retail-in-store-topology.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Aanbevolen procedures voor Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange en communicatie via handelskanalen
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Problemen met Commerce Data Exchange oplossen
+                      href: dev-itpro/CDX-Troubleshooting.md
+                - name: De architectuur van Modern POS
+                  href: dev-itpro/retail-modern-pos-architecture.md
+                - name: De architectuur van het publiceren van online winkels
+                  href: dev-itpro/retail-online-store-publishing-architecture.md
+                - name: Power BI-inhoud voor Retail Channel Performance
+                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
+                - name: Certificering Payment Application Data Security Standards (PA-DSS)
+                  href: dev-itpro/PA-DSS-Certification.md
+                - name: Functies in Commerce voor on-premises implementaties
+                  href: retail-onprem.md
+            - name: Implementatie en hotfixes
+              items:
+                - name: Installatieprogramma's voor selfservice synchroniseren in Dynamics 365 Commerce
+                  href: dev-itpro/Synchronize-installers.md
+                - name: Commerce Scale Unit (zelfgehost)
+                  href: dev-itpro/retail-store-system-begin.md
+                - name: Commerce Scale Unit configureren en installeren (zelfgehost)
+                  href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+                - name: Configuratie en installatie van Modern POS
+                  href: retail-modern-pos-device-activation.md
+                - name: Accounts en apparaten beheren vanuit Headquarters
+                  href: set-up-activation-accounts-validate-devices-hq.md
+                - name: POS-apparaat activeren
+                  href: dev-itpro/retail-device-activation.md
+                - name: Help Veilige Cloud POS in gedeelde omgevingen
+                  href: dev-itpro/secure-retail-cloud-pos.md
+                - name: Configuratie en installatie van Retail Hardware Station
+                  href: retail-hardware-station-configuration-installation.md
+                - name: Grootschalige implementatie van selfservicecomponenten
+                  href: dev-itpro/retail-mass-deployment.md
+                - name: Commerce-componentgebeurtenissen voor diagnostiek en probleemoplossing
+                  href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+                - name: Een implementeerbaar pakket toepassen
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Seedgegevens in nieuwe Commerce-omgevingen initialiseren
+                  href: enable-configure-retail-functionality.md
+            - name: Implementatie levenscyclusbeheer
+              items:
+                - name: Startpagina van implementatie levenscyclusbeheer
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: Architectuur voor Finance and Operations-apps
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack for Finance and Operations
+                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Een implementatieproject onboarden
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: Omgevingsplanning
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: Voorbereiden voor go-live
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: Veelgestelde vragen over go-live
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Een serviceaanvraag indienen
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Veelgestelde vragen over abonnementen, LCS-projecten en Azure AD-tenants'
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Omgevingen verplaatsen tussen datacenters
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: Licenties verplaatsen tussen typen overeenkomsten
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS-implementatieprojecten verplaatsen naar verschillende Azure AD-tenants
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS-implementatieprojecten verplaatsen van on-premises naar de cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: Meerdere LCS-projecten en productieomgevingen op één Azure AD-tenant
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce-projecten voor Finance and Operations implementeren
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: 'Nieuwe omgevingen, Azure DevOps en vertakkingen voor Commerce-projecten instellen'
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: Code en omgevingen voor Commerce-projecten bijwerken
+                  href: dev-itpro/updating-environments.md
+                - name: Problemen met testen en werking
+                  href: dev-itpro/retail-implementation-testing-performance.md
+        - name: Uw afzetkanalen instellen
+          items:
+            - name: Overzicht van kanalen
+              href: channels-overview.md
+            - name: Vereisten voor kanalen
+              items:
+                - name: Vereisten voor het instellen van kanalen
+                  href: channels-prerequisites.md
+                - name: Algemene vereisten
+                  items:
+                    - name: Organisaties en organisatiehiërarchieën
+                      items:
+                        - name: Overzicht van Organisaties en organisatiehiërarchieën
+                          href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
+                        - name: Uw organisatiehiërarchie plannen
+                          href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                        - name: Rechtspersonen maken
+                          href: channels-legal-entities.md
+                        - name: Organisatiehiërarchieën instellen
+                          href: channels-org-hierarchies.md
+                        - name: Een operationele eenheid maken
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json
+                        - name: De relaties tussen organisatie-eenheden definiëren
+                          href: tasks/design-relationships-between-organizational-units.md
+                    - name: Magazijninstellingen
+                      href: channels-setup-warehouse.md
+                    - name: Instelling van btw
+                      items:
+                        - name: Btw-overzicht
+                          href: ../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json
+                        - name: Methoden voor btw-berekening
+                          href: ../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=/dynamics365/commerce/toc.json
+                        - name: Btw-toewijzingen en -overschrijvingen
+                          href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
+                        - name: Berekeningsopties Volledige bedrag en interval voor btw-codes
+                          href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: Berekening van btw-vrijstelling
+                          href: tax-exempt-price-inclusive.md
+                        - name: Btw voor online orders configureren
+                          href: sales-tax-config.md
+                    - name: Een profiel voor e-mailmeldingen instellen
+                      href: email-notification-profiles.md
+                    - name: Nummerreeksen
+                      items:
+                        - name: Overzicht van Nummerreeksen
+                          href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/retail/toc.json
+                        - name: Nummerreeksen instellen op een individuele basis
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/retail/toc.json
+                        - name: Een nummerreeks instellen met een wizard
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/retail/toc.json
+                    - name: Een standaardklant en standaardadresboek instellen
+                      href: default-customer.md
+                - name: Vereisten voor detailhandelkanalen
+                  items:
+                    - name: Informatiecodes en informatiecodegroepen
+                      href: info-codes-retail.md
+                    - name: Een functionaliteitsprofiel voor detailhandel maken
+                      href: retail-functionality-profile.md
+                    - name: Een nieuw adresboek maken
+                      href: new-address-book.md
+                    - name: Overzicht van schermindelingen
+                      href: pos-screen-layouts.md
+                - name: Vereisten voor online kanalen
+                  items:
+                    - name: Een online functionaliteitsprofiel maken
+                      href: online-functionality-profile.md
+            - name: Een detailhandelafzetkanaal instellen
+              items:
+                - name: Een detailhandelafzetkanaal instellen
+                  href: channel-setup-retail.md
+                - name: Detailhandelmedewerkers configureren
+                  href: tasks/worker.md
+                - name: MPOS (Modern Point Of Sale) en Cloud POS
+                  items:
+                    - name: Kiezen tussen MPOS en Cloud POS
+                      href: MPOS-or-CPOS.md
+                    - name: Online en offline POS-bewerkingen
+                      href: pos-operations.md
+                    - name: Apparaatactivering van een aangepaste Modern POS
+                      href: dev-itpro/retail-POS-activation-changes.md
+                    - name: Authenticatie in Azure Active Directory voor POS-aanmelding inschakelen
+                      href: aad-pos-logon.md
+                    - name: Producten en klanten zoeken in het POS
+                      href: POS-search-improvements.md
+                    - name: Producten en productvarianten zoeken tijdens orderinvoer
+                      href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
+                    - name: Verbeteringen kasbeheer
+                      href: cash-mgmt.md
+                    - name: Zoeken in voorraad in POS
+                      href: product-variants-POS.md
+                    - name: Transacties in POS onderbreken en hervatten
+                      href: pos-suspend-recall-transactions.md
+                    - name: Offline POS-functionaliteit
+                      href: pos-offline-functionality.md
+                    - name: Ploeg- en kasladebeheer
+                      href: shift-drawer-management.md
+                    - name: Contant geld voor geschenkbonsaldo
+                      href: dev-itpro/gift-card-cash-out.md
+                    - name: Orders verzenden uit een andere winkel
+                      href: charge-send.md
+                    - name: Leveringsmethoden van niet-vervoerder verbergen in het dialoogvenster POS-verzending
+                      href: hide-non-carrier-modes.md
+                    - name: Taakrecorder en Help voor MPOS en cloudCloud POS
+                      href: task-recorder-retail-pos.md
+                    - name: Hardware randapparatuur
+                      items:
+                        - name: Randapparaten
+                          href: retail-peripherals-overview.md
+                        - name: Randapparatuursimulator
+                          href: dev-itpro/retail-peripheral-simulator.md
+                        - name: Randapparaten aansluiten op het POS
+                          href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: Statuscontrole voor POS-randapparatuur en -services
+                          href: pos-healthcheck.md
+                        - name: Ondersteuning voor netwerkrandapparatuur
+                          href: dev-itpro/network-peripherals.md
+                    - name: Schermindelingen
+                      items:
+                        - name: Indelingen voor schermen met demonstratiegegevens in MPOS/CPOS
+                          href: demo-data.md
+                        - name: Weergaveconfiguraties van POS-gebruikersinterface
+                          href: pos-screen-layouts.md
+                        - name: De POS-indelingsontwerper installeren
+                          href: install-pos-layout-designer.md
+                        - name: Meldingsinstellingen kiezen
+                          href: Notifications-POS.md
+                        - name: De taalinstellingen van de POS-toepassing en gebruiker
+                          href: pos-application-user-language-settings.md
+                        - name: Instellen en beheren van afbeeldingen voor MPOS
+                          href: set-up-manage-images-retail-mpos.md
+                        - name: Clientafbeeldingen in POS
+                          href: pos-image.md
+                    - name: Verkoopmedewerkers
+                      items:
+                        - name: Provisie bijhouden in het POS via verkoopgroepen
+                          href: pos-sales-groups-track-commissions.md
+                    - name: Apparaatactivering
+                      items:
+                        - name: 'MPOS configureren, installeren en activeren'
+                          href: retail-modern-pos-device-activation.md
+                        - name: Uitgebreide aanmeldingsfunctionaliteit instellen voor MPOS en Cloud POS
+                          href: extended-logon.md
+                        - name: Activeringsaccounts beheren en apparaten valideren
+                          href: set-up-activation-accounts-validate-devices-hq.md
+                    - name: Financiële dimensies maken voor POS-kassa's en dimensiewaarden configureren voor kassa's
+                      href: tasks/create-financial-dimensions-pos.md
+                    - name: POS-machtigingsgroepen maken
+                      href: tasks/create-pos-permission-groups.md
+                    - name: Visuele POS-profielen maken
+                      href: tasks/create-pos-visual-profile-2016-02.md
+                - name: Retail Hardware Station configureren en installeren
+                  href: retail-hardware-station-configuration-installation.md
+                - name: Ontvangstbewijzen
+                  items:
+                    - name: Ontvangstbewijsindelingen instellen en ontwerpen
+                      href: receipt-templates-printing.md
+                    - name: E-mailontvangstbewijzen verzenden vanuit Modern POS
+                      href: email-receipts.md
+                    - name: Nummers voor ontvangstbewijzen opnieuw instellen
+                      href: reset_receipt_number_sequence.md
+                    - name: Creditcardontvangsten van processor insluiten in ontvangstbewijzen klant
+                      href: dev-itpro/embed-cc-receipt.md
+                - name: Functionaliteitsprofielen maken voor verkoopvertegenwoordigers
+                  href: tasks/configure-functionality-profile-sales-representative.md
+                - name: Financiële dimensies maken voor Retail-kanalen en waarden configureren voor winkels
+                  href: tasks/create-financial-dimensions-retail-channels.md
+            - name: Een online afzetkanaal instellen
+              items:
+                - name: Een online afzetkanaal instellen
+                  href: channel-setup-online.md
+            - name: Een callcenterkanaal instellen
+              items:
+                - name: Verkoopfunctionaliteit callcenter
+                  href: call-center-functionality.md
+                - name: Een callcenterkanaal instellen
+                  href: channel-setup-callcenter.md
+                - name: Callcentercatalogi
+                  href: call-center-catalogs.md
+                - name: Opties voor orderverwerking in callcenters instellen
+                  href: set-up-order-processing-options.md
+                - name: Leveringsmethoden en toeslagen van callcenters configureren
+                  href: configure-call-center-delivery.md
+                - name: Fraudewaarschuwingen instellen en ermee werken
+                  href: set-up-fraud-alerts.md
+            - name: Aanvullende configuratie van afzetkanalen
+              items:
+                - name: Een afzetkanaal toevoegen aan een organisatiehiërarchie
+                  href: channel-add-to-org-hierarchy.md
+                - name: Geavanceerde automatische toeslagen
+                  items:
+                    - name: Geavanceerde automatische toeslagen configureren en gebruiken
+                      href: omni-auto-charges.md
+                    - name: Automatische toeslagen per kanaal inschakelen en configureren
+                      href: auto-charges-by-channel.md
+                    - name: Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels
+                      href: pro-rate-charges-matching-lines.md
+                - name: Continuïteitsprogramma's beheren
+                  items:
+                    - name: Continuïteitsprogramma's instellen voor callcenters
+                      href: set-up-continuity-program.md
+                    - name: Continuïteitsplanningen definiëren
+                      href: tasks/define-continuity-schedules.md
+                - name: Beheer van detailhandelwinkel
+                  items:
+                    - name: Openingstijden maken en wijzigen
+                      href: dev-itpro/store-hours.md
+                    - name: Commerce Scale Unit
+                      href: dev-itpro/retail-store-system-begin.md
+                - name: Callcenters beheren
+                  items:
+                    - name: Configureren en werken met orderwachtstanden voor callcenters
+                      href: work-with-order-holds.md
+                - name: Betalingen
+                  items:
+                    - name: Betalingsmethoden
+                      href: payment-methods.md
+                    - name: Betalingsmethoden in callcenters
+                      href: work-with-payments.md
+                    - name: 'Creditcards instellen, autoriseren en registreren'
+                      href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Denominaties voor contant geld configureren voor het POS
+                      href: cash-denominations.md
+                    - name: Creditcardverwerking configureren
+                      href: tasks/configure-credit-card-processing.md
+                    - name: Het dialoogvenster Vervaldatum wijzigen overslaan in POS
+                      href: dev-itpro/skip-change-due.md
+                    - name: De Adyen-betalingsconnector
+                      href: dev-itpro/adyen-connector.md
+                    - name: Online betaalmiddelen opslaan met de Adyen-connector
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: SCA (sterke klantverificatie) met de Adyen-connector
+                      href: adyen_redirect.md
+                    - name: Speciale betalingsterminals en -prompts voor een printer en kassalade
+                      href: pos-multi-hws.md
+                    - name: Naadloos overschakelen naar offline bewerkingen voor cadeaukaarten en creditnota's
+                      href: dev-itpro/seamless-offline-improvements.md
+                    - name: Scenario's voor het betalen van facturen instellen
+                      href: payinvoice.md
+                    - name: Voorkomen van dubbele betalingen
+                      href: duplicate-payment-protection.md
+                    - name: Overzicht van betalingen voor meerdere kanalen
+                      href: omni-channel-payments.md
+                    - name: Commerce-orderbetalingen voor meerdere kanalen
+                      href: dev-itpro/commerce-payments.md
+                    - name: Creditcards verwerken zonder hardwarestation
+                      href: dev-itpro/cnp-pos.md
+                    - name: Dynamics 365 Payment Connector voor PayPal
+                      href: paypal.md
+                    - name: Ondersteuning voor walletbetaling
+                      href: wallets.md
+                    - name: Veelgestelde vragen over betalingen
+                      href: dev-itpro/payments-retail.md
+                - name: Bing Kaarten voor uw organisatie beheren
+                  href: dev-itpro/manage-bing-maps.md
+                - name: Tijdvakken voor afhalen door klant maken en bijwerken
+                  href: dev-itpro/pickup-timeslots.md
+        - name: Uw producten en diensten aan de man brengen
+          items:
+            - name: 'Categorieën, producten en assortimenten'
+              items:
+                - name: Overzicht van Productgegevens
+                  href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
+                - name: Detailhandelproducten instellen
+                  href: set-up-retail-products.md
+                - name: Producthiërarchie
+                  items:
+                    - name: Commerce-hiërarchieën
+                      href: retail-hierarchies.md
+                    - name: Een nieuwe producthiërarchie maken
+                      href: create-product-hierarchy.md
+                    - name: Productcategorieën en producten beheren
+                      href: category-management-product-creation.md
+                    - name: De sorteervolgorde voor entiteiten voor merchandising wijzigen
+                      href: custom-order-categories-nav-retail-prod-hierarchy.md
+                - name: Productdimensies
+                  items:
+                    - name: Productdimensies
+                      href: ../supply-chain/pim/product-dimensions.md?toc=/dynamics365/retail/toc.json
+                    - name: Een variantgroep maken
+                      href: create-variant-group.md
+                - name: Een nieuw product maken
+                  items:
+                    - name: Een nieuw product maken in Commerce
+                      href: create-new-product-commerce.md
+                    - name: Productcategorieën en producten beheren
+                      href: category-management-product-creation.md
+                - name: Productkenmerken
+                  items:
+                    - name: Kenmerken en kenmerkgroepen
+                      href: attribute-attributegroups-lifecycle.md
+                    - name: Kanaalkenmerken definiëren
+                      href: tasks/define-channel-attributes.md
+                - name: Hiërarchieën van afzetkanalen
+                  items:
+                    - name: Een afzetkanaalnavigatiehiërarchie maken
+                      href: create-channel-hierarchy.md
+                    - name: Een kanaal configureren om een kanaalnavigatiehiërarchie te gebruiken
+                      href: configure-channel-hierarchy.md
+                - name: Assortimenten
+                  items:
+                    - name: Assortimentsbeheer
+                      href: assortments.md
+                    - name: Assortimenten instellen
+                      href: set-up-assortments.md
+                    - name: Assortimenten beheren
+                      href: tasks/manage-assortments-2016-11.md
+                - name: Streepjescodes
+                  items:
+                    - name: Streepjescodes instellen
+                      href: set-up-bar-codes.md
+                    - name: Streepjescodemaskers instellen
+                      href: set-up-bar-code-masks.md
+                - name: Garanties
+                  items:
+                    - name: Uitgebreide garanties maken en configureren
+                      href: extended-warranty.md
+            - name: Prijzen en kortingen
+              items:
+                - name: Kortingen
+                  href: retail-discounts-overview.md
+                - name: Verkoopprijzen beheren
+                  href: price-management.md
+                - name: Acties en kortingen
+                  href: price-adjustments-discounts.md
+                - name: Meerdere kortingen toepassen op een product
+                  href: apply-multiple-retail-discounts.md
+                - name: De optimale combinatie van overlappende kortingen bepalen
+                  href: optimal-combination-overlapping-discounts.md
+                - name: Kanaalspecifieke kortingen definiëren
+                  href: define-channel-specific-discounts.md
+                - name: Opties voor het voorkomen van kortingen voor detailhandelproducten
+                  href: prevent-discounts.md
+                - name: Kortingen op basis van betalingsmethode
+                  href: tender_based_discounts.md
+                - name: Kortingoverzicht voor verzending
+                  href: retail-shipping-discount.md
+                - name: Coupons instellen
+                  href: retail-coupons.md
+                - name: Kortingen weergeven in POS
+                  href: discounts-pos.md
+                - name: Prijsrapporten
+                  href: price-report.md
+                - name: Kanaalspecifieke handelsovereenkomsten maken
+                  href: tasks/base-price-trade-agreements.md
+                - name: Handelsovereenkomsten maken met categorieprijsregels
+                  href: tasks/category-pricing-rules-trade-agreements.md
+            - name: Aanbevelingen
+              items:
+                - name: Overzicht productaanbevelingen
+                  href: product-recommendations.md
+                - name: Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving
+                  href: enable-ADLS-environment.md
+                - name: Productaanbevelingen inschakelen
+                  href: enable-product-recommendations.md
+                - name: Gepersonaliseerde aanbevelingen
+                  items:
+                    - name: Gepersonaliseerde aanbevelingen inschakelen
+                      href: personalized-recommendations.md
+                    - name: Afmelden voor gepersonaliseerde aanbevelingen
+                      href: personalization-gdpr.md
+                - name: Aanbevelingen voor vergelijkbare artikelen inschakelen
+                  href: shop-similar-looks.md
+                - name: POS-ervaringen
+                  items:
+                    - name: Productaanbevelingen op POS toevoegen
+                      href: product.md
+                    - name: Aanbevelingen toevoegen aan het transactiescherm
+                      href: add-recommendations-control-pos-screen.md
+                - name: Resultaten van productaanbevelingen op basis van AI-ML aanpassen
+                  href: modify-product-recommendation-results.md
+                - name: Handmatig gecureerde productaanbevelingen maken
+                  href: create-editorial-recommendation-lists.md
+                - name: Aanbevelingen maken met behulp van demogegevens
+                  href: product-recommendations-demo-data.md
+                - name: Veelgestelde vragen over productaanbevelingen
+                  href: faq-recommendations.md
+            - name: Beoordelingen en recensies
+              items:
+                - name: Overzicht beoordelingen en recensies
+                  href: ratings-reviews-overview.md
+                - name: Aanmelden om beoordelingen en recensies te gebruiken
+                  href: opt-in-ratings-reviews.md
+                - name: Beoordelingen en recensies beheren
+                  href: manage-reviews.md
+                - name: Beoordelingen en recensies configureren
+                  href: configure-ratings-reviews.md
+                - name: Productbeoordelingen synchroniseren
+                  href: sync-product-ratings.md
+            - name: Uw voorraad beheren
+              items:
+                - name: Voorraad
+                  items:
+                    - name: Voorraadbeheer winkel
+                      href: work-with-store-inventory.md
+                    - name: Voorraadbuffers en voorraadniveaus configureren
+                      href: inventory-buffers-levels.md
+                    - name: Werken met geserialiseerde artikelen in POS
+                      href: pos-serialized-items.md
+                    - name: Producten verzenden van distributiecentrum naar winkel via klantlevering
+                      href: tasks/push-products-distribution-center-store-buyers-push.md
+                    - name: RegeIs en parameters instellen voor het cross-docken en klantlevering
+                      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: Binnenkomende voorraadbewerking in POS
+                      href: pos-inbound-inventory-operation.md
+                    - name: Uitgaande voorraadbewerking in POS
+                      href: pos-outbound-inventory-operation.md
+                    - name: Voorraadbeschikbaarheid voor Retail-kanalen berekenen
+                      href: calculated-inventory-retail-channels.md
+                - name: Inkooporders
+                  items:
+                    - name: Overzicht van inkooporders
+                      href: ../supply-chain/procurement/purchase-order-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: Inkooporders maken
+                      href: ../supply-chain/procurement/purchase-order-creation.md?toc=/dynamics365/commerce/toc.json
+                    - name: Productontvangst tegen inkooporders
+                      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?toc=/dynamics365/commerce/toc.json
+                    - name: Inkooporders goedkeuren en bevestigen
+                      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?toc=/dynamics365/commerce/toc.json
+                    - name: Mobiel werkgebied voor goedkeuring van inkooporders
+                      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                    - name: Productpakketten voor inkooporders maken
+                      href: tasks/create-product-packages-purchase-orders.md
+        - name: Uw orders beheren
+          items:
+            - name: Klantorders
+              items:
+                - name: Klantorders op het verkooppunt (POS)
+                  href: customer-orders-overview.md
+                - name: Hybride klantorders
+                  href: hybrid-customer-orders.md
+                - name: Orderbewerking in POS intrekken
+                  href: enhancedorderrecall.md
+                - name: Meerdere leveringsmethoden voor afhalen inschakelen
+                  href: multiple-pickup-modes.md
+            - name: Verkooporders
+              items:
+                - name: Callcenterorders maken
+                  href: tasks/create-call-center-orders.md
+                - name: Transactionele e-mails aanpassen per leveringsmethode
+                  href: customize-email-delivery-mode.md
+                - name: Leveringsmethode wijzigen in POS
+                  href: POS-change-delivery-mode.md
+            - name: Gedistribueerd orderbeheer
+              items:
+                - name: DOM-overzicht
+                  href: dom.md
+                - name: Kostenconfiguratie
+                  href: cost.md
+            - name: Afhandeling en verwerking van orders
+              items:
+                - name: Winkelorderafhandeling
+                  href: order-fulfillment-overview.md
+                - name: Orderafhandeling voor winkels instellen
+                  href: order-fulfillment-pos-setup.md
+                - name: Ordermeldingen weergeven in POS
+                  href: notifications-pos.md
+                - name: Continuïteitsprogramma's verkopen en verkooporders verwerken
+                  href: tasks/use-continuity-program.md
+            - name: Retouren
+              items:
+                - name: Gekoppelde restituties
+                  href: dev-itpro/linked-refunds.md
+                - name: Producten verkopen en terugsturen die niet zijn opgenomen in een winkelassortiment
+                  href: sell-return-outside-assortments.md
+                - name: Een uitwisseling voor een retourorder configureren en verwerken
+                  href: orderexchanges.md
+                - name: Betalingsmethoden voor retouren zonder ontvangstbewijs beperken
+                  href: payment-methods-restrictions.md
+                - name: Artikelen voor meerdere klantorders en facturen retourneren
+                  href: multireturn.md
+                - name: Beleid voor retouren en restituties voor een afzetkanaal maken en bijwerken
+                  href: refund_policy_returns.md
+        - name: Uw klanten beheren
+          items:
+            - name: Clienteling
+              items:
+                - name: Overzicht van clienteling
+                  href: clienteling-overview.md
+            - name: Loyaliteit
+              items:
+                - name: Loyaliteitsoverzicht
+                  href: set-up-customer-loyalty-program.md
+                - name: Loyaliteitsprogramma's definiëren
+                  href: tasks/define-loyalty-programs.md
+                - name: Beloningspunten voor loyaliteit definiëren
+                  href: tasks/define-loyalty-reward-points.md
+                - name: Loyaliteitsschema's definiëren
+                  href: tasks/define-loyalty-schemes.md
+                - name: Correcties van beloningspunten voor loyaliteit verwerken
+                  href: tasks/process-loyalty-reward-point-adjustments.md
+        - name: Uw financiële zaken beheren
+          items:
+            - name: Overzicht van overzichten
+              href: retail-statements.md
+            - name: Consistentiecontrole voor transacties
+              href: valid-checker.md
+            - name: Regels in consistentiecontrole voor detailhandeltransacties uitschakelen
+              href: disable-consistency-check-rule.md
+            - name: Transacties detailhandelwinkel bewerken en controleren
+              items:
+                - name: Contante transacties en beheertransacties voor contant geld bewerken en controleren
+                  href: edit-cash-trans.md
+                - name: Online orders en asynchrone ordertransacties van klanten bewerken en controleren
+                  href: edit-order-trans.md
+                - name: Financiële dimensies voor detailhandelstransacties bewerken
+                  href: edit-financial-dim.md
+                - name: Een Excel-werkmap maken om detailhandelstransacties te bewerken
+                  href: create-excel-edit.md
+                - name: Velden toevoegen aan een Excel-werkmap om detailhandelstransacties te bewerken
+                  href: add-fields-excel.md
+            - name: Groepsgewijs orders voor detailhandeltransacties maken
+              href: trickle-feed.md
+            - name: 'Overzichten maken, berekenen en boeken voor een detailhandelwinkel'
+              href: tasks/create-calculate-post-statement-retail-store.md
+            - name: Financiële afstemming in detailhandels
+              href: fin-recon.md
+            - name: Verbeteringen van boekingsfunctionaliteit voor overzichten
+              href: statement-posting-eod.md
+            - name: Verbeterde afhandeling van artikelen met batchtracering
+              href: batch.md
+            - name: Instellingen voor betalingsmethoden configureren die gevolgen hebben voor detailhandelsoverzichten
+              href: tasks/payment-configurations-retail-statements.md
+            - name: Een taak configureren en uitvoeren om overzichten te berekenen
+              href: tasks/run-job-calculate-statements.md
+            - name: Een taak configureren en uitvoeren om overzichten te boeken
+              href: tasks/run-job-post-statements.md
+            - name: Instellingen voor winkels configureren die gevolgen hebben voor detailhandelsoverzichten
+              href: tasks/store-configurations-retail-statements.md
+            - name: Online verkopen en betalingen boeken
+              href: tasks/posting-online-sales-payments.md
+        - name: Medewerkerstaken beheren
+          items:
+            - name: Overzicht van Taakbeheer
+              href: task-mgmt-overview.md
+            - name: Taakbeheer configureren
+              href: task-mgmt-configure.md
+            - name: Takenlijsten maken en taken toevoegen
+              href: task-mgmt-create-lists.md
+            - name: Takenlijsten toewijzen aan winkels of werknemers
+              href: task-mgmt-assign-lists.md
+            - name: Taakbeheer in POS
+              href: task-mgmt-pos.md
+        - name: Uw e-commercesite beheren
+          items:
+            - name: Overzicht van e-commercesite
+              href: online-store-overview.md
+            - name: Een e-commercesite maken
+              items:
+                - name: Uw domeinnaam configureren
+                  href: configure-your-domain-name.md
+                - name: Een nieuwe e-commercetenant implementeren
+                  href: deploy-ecommerce-site.md
+                - name: Een e-commercesite maken
+                  href: create-ecommerce-site.md
+                - name: Een Dynamics 365 Commerce-site koppelen aan een online kanaal
+                  href: associate-site-online-store.md
+                - name: robots.txt-bestanden beheren
+                  href: manage-robots-txt-files.md
+                - name: URL-omleidingen in bulk uploaden
+                  href: upload-bulk-redirects.md
+                - name: Een B2C-tenant instellen in Commerce
+                  href: set-up-B2C-tenant.md
+                - name: Aangepaste pagina's voor gebruikersaanmeldingen instellen
+                  href: custom-pages-user-logins.md
+                - name: Meerdere B2C-tenants configureren in een Commerce-omgeving
+                  href: configure-multi-B2C-tenants.md
+                - name: Domeinen in Dynamics 365 Commerce
+                  href: domains-commerce.md
+                - name: Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen
+                  href: add-cdn-support.md
+                - name: Detectie van winkels op basis van de locatie inschakelen
+                  href: enable-store-detection.md
+            - name: Voorbeeld site-overzicht
+              items:
+                - name: Overzicht introductiepagina
+                  href: quick-tour-home-page.md
+                - name: Overzicht van pagina's met productgegevens
+                  href: quick-tour-pdp.md
+                - name: Overzicht van pagina's met winkelwagen en kassa
+                  href: quick-tour-cart-checkout.md
+                - name: Overzicht van pagina's voor rekeningbeheer
+                  href: quick-tour-account-management.md
+            - name: Uw site-instellingen beheren
+              items:
+                - name: Overzicht van pagina schrijven
+                  href: authoring-home-overview.md
+                - name: Gebruikers en rollen beheren
+                  href: manage-ecommerce-users-roles.md
+                - name: Voorraadinstellingen toepassen
+                  href: inventory-settings.md
+                - name: Overwegingen bij SEO (Search Engine Optimization) voor uw site
+                  href: search-engine-optimization-considerations.md
+                - name: Beveiligingsbeleid voor inhoud (CSP) beheren
+                  href: manage-csp.md
+                - name: Afmelden voor verzamelen van gebeurtenissen voor webactiviteit
+                  href: web-activity-opt-out.md
+            - name: Uw site-inhoud beheren
+              items:
+                - name: Manieren om inhoud toe te voegen
+                  href: add-manage-content.md
+                - name: Woordenlijst voor paginamodellen
+                  href: page-elements-overview.md
+                - name: Statussen en levenscyclus van document
+                  href: document-states-overview.md
+                - name: Werken met publicatiegroepen
+                  href: publish-groups.md
+                - name: Het delen van inhoud door meerdere kanalen inschakelen en gebruiken
+                  href: cross-channel-sharing.md
+                - name: De naamsbekendheid van uw site vergroten en winkelgegevens toevoegen
+                  items:
+                    - name: Een logo toevoegen
+                      href: add-logo.md
+                    - name: Een thema voor de site selecteren
+                      href: select-site-theme.md
+                    - name: Werken met CSS-overschrijvingsbestanden
+                      href: css-override-files.md
+                    - name: Werken met vooraf ingestelde stijlen
+                      href: style-presets.md
+                    - name: Een favicon toevoegen
+                      href: add-favicon.md
+                    - name: Een welkomstbericht toevoegen
+                      href: add-welcome-message.md
+                    - name: Een auteursrechtmelding toevoegen
+                      href: add-copyright-notice.md
+                    - name: Talen toevoegen
+                      href: add-languages-to-site.md
+                    - name: Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie
+                      href: add-telemetry.md
+                - name: Modules
+                  items:
+                    - name: Werken met modules
+                      href: work-with-modules.md
+                - name: Fragmenten
+                  items:
+                    - name: Werken met fragmenten
+                      href: work-with-fragments.md
+                - name: Sjablonen
+                  items:
+                    - name: Overzicht sjablonen en indelingen
+                      href: templates-layouts-overview.md
+                    - name: Werken met sjablonen
+                      href: work-with-templates.md
+                    - name: Werken met vooraf ingestelde indelingen
+                      href: work-with-layouts.md
+                - name: Pagina's
+                  items:
+                    - name: Een bestaande sitepagina wijzigen
+                      href: modify-existing-page.md
+                    - name: Een nieuwe sitepagina toevoegen
+                      href: add-new-page.md
+                    - name: Pagina-indelingen selecteren
+                      href: select-page-layouts.md
+                    - name: Metagegevens SEO beheren
+                      href: manage-seo-metadata.md
+                    - name: 'Een pagina opslaan, voorvertonen en publiceren'
+                      href: save-preview-publish-page.md
+                    - name: Een productpagina verrijken
+                      href: enrich-product-page.md
+                    - name: Een landingspagina voor een categorie verrijken
+                      href: enrich-category-page.md
+                    - name: Toegankelijkheid van pagina-inhoud controleren
+                      href: verify-accessibility.md
+                - name: Sitenavigatie
+                  items:
+                    - name: Sitenavigatie aanpassen
+                      href: customize-site-navigation.md
+                    - name: Een pagina-URL maken
+                      href: create-page-URL.md
+            - name: Digitale activa beheren
+              items:
+                - name: Overzicht van digitaal activabeheer
+                  href: dam-overview.md
+                - name: Afbeeldingen uploaden
+                  href: dam-upload-images.md
+                - name: Video uploaden
+                  href: dam-upload-video.md
+                - name: Andere bestanden uploaden dan afbeeldingen en video's
+                  href: dam-upload-files.md
+                - name: Afbeeldingen bijsnijden
+                  href: dam-crop-images.md
+                - name: Focuspunten van afbeelding aanpassen
+                  href: dam-custom-focal-point.md
+                - name: Statische bestanden uploaden en verwerken
+                  href: upload-serve-static-files.md
+            - name: Zorgen dat uw site aan de regels voldoet
+              items:
+                - name: Conformiteitsoverzicht
+                  href: compliance-overview.md
+                - name: Toegankelijksfuncties en -voorzieningen
+                  href: accessibility.md
+                - name: Conformiteit van cookie
+                  href: cookie-compliance.md
+                - name: Een pagina met het privacybeleid toevoegen
+                  href: add-privacy-page.md
+                - name: Gebruikers-id's vervangen die zijn gekoppeld aan wijzigingen in bijgehouden inhoud
+                  href: replace-IDs-tracked-changes.md
+            - name: Modulebibliotheek
+              items:
+                - name: Overzicht van modulebibliotheek
+                  href: starter-kit-overview.md
+                - name: Containermodules
+                  items:
+                    - name: Containermodule
+                      href: add-container-module.md
+                    - name: Accordeonmodule
+                      href: add-accordion.md
+                    - name: Tabbladmodule
+                      href: add-tab.md
+                    - name: Iframe-module
+                      href: iframe-module.md
+                - name: Marketingmodules
+                  items:
+                    - name: Promotiebanner-module
+                      href: add-alert.md
+                    - name: Carrouselmodule
+                      href: add-carousel.md
+                    - name: Text Block-module
+                      href: add-content-rich-block.md
+                    - name: Inhoudsblokkenmodule
+                      href: add-hero-module.md
+                    - name: Videospelermodule
+                      href: add-video-player.md
+                - name: Koptekst- en voettekstmodules
+                  items:
+                    - name: Koptekstmodule
+                      href: author-header-module.md
+                    - name: Voettekstmodule
+                      href: author-footer-module.md
+                - name: Modules voor productdetailpagina
+                  items:
+                    - name: Module met vakje voor kopen
+                      href: add-buy-box.md
+                    - name: Module Mediagalerie
+                      href: media-gallery-module.md
+                    - name: Beoordelings- en recensiemodules
+                      href: ratings-reviews-modules.md
+                    - name: Module voor sociaal delen
+                      href: social-share-module.md
+                - name: Inkoopmodules
+                  items:
+                    - name: Winkelwagenmodule
+                      href: add-cart-module.md
+                    - name: Module voor winkelwagenpictogram
+                      href: cart-icon-module.md
+                    - name: Kassamodule
+                      href: add-checkout-module.md
+                    - name: Betalingsmodule
+                      href: payment-module.md
+                    - name: Module voor verzendadressen
+                      href: ship-address-module.md
+                    - name: Module voor leveringsopties
+                      href: delivery-options-module.md
+                    - name: Module met afhaalinformatie
+                      href: pickup-info-module.md
+                    - name: Module voor orderdetails
+                      href: order-confirmation-module.md
+                    - name: Geschenkbonmodule
+                      href: add-giftcard.md
+                - name: Modules voor winkel zoeken
+                  items:
+                    - name: Kaartmodule
+                      href: map-module.md
+                    - name: Winkelselectiemodule
+                      href: store-selector.md
+                - name: Accountbeheermodules
+                  items:
+                    - name: Accountbeheerpagina's en -modules
+                      href: account-management.md
+                - name: Productverzamelingsmodules
+                  items:
+                    - name: Productverzamelingsmodules
+                      href: product-collection-module-overview.md
+                - name: Navigatiemodules
+                  items:
+                    - name: Breadcrumb-module
+                      href: add-breadcrumb.md
+                    - name: Navigatiemenumodule
+                      href: nav-menu-module.md
+                    - name: Siteselectiemodule
+                      href: site-selector.md
+                - name: Conformiteitsmodules
+                  items:
+                    - name: Module voor cookietoestemming
+                      href: cookie-consent-module.md
+            - name: Zoeken
+              items:
+                - name: Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
+                  href: category-search-page-overview.md
+                - name: Overzicht van zoekopdrachten via cloud
+                  href: cloud-powered-search-overview.md
+            - name: Rapportage
+              items:
+                - name: Rapporten voor online kanalen genereren
+                  href: generate-reports.md
+            - name: Experimenten
+              items:
+                - name: Experimenten in Dynamics 365 Commerce
+                  href: experimentation-overview.md
+                - name: Een hypothese opstellen en metrische gegevens bepalen voor een experiment
+                  href: experimentation-identify.md
+                - name: Een experiment opzetten
+                  href: experimentation-setup.md
+                - name: Een experiment verbinden en bewerken
+                  href: experimentation-connect-edit.md
+                - name: Een preview van experimentvarianten weergeven en een experiment publiceren
+                  href: experimentation-preview-publish.md
+                - name: Een experiment uitvoeren en controleren
+                  href: experimentation-run-monitor.md
+                - name: Een variant promoveren en een experiment voltooien
+                  href: experimentation-review-complete.md
+                - name: De status van een experiment controleren
+                  href: experimentation-status.md
+            - name: Foutverwerking
+              items:
+                - name: Aangepaste antwoordpagina's bouwen voor fouten met de statuscode 4xx/5xx
+                  href: build-pages-400-500-errors.md
+        - name: Fraud Protection
+          items:
+            - name: Integratie van Dynamics 365 Fraud Protection met Dynamics 365 Commerce
+              href: dev-itpro/DFP.md
+        - name: Bewaking en analyse
+          items:
+            - name: Verkoop- en margeprestaties bewaken
+              href: monitor-sales-margin-performance.md
+            - name: Verkooptrends en patronen analyseren
+              href: analyze-sales-trends-patterns.md
+            - name: Verkoopprestaties beoordelen per product
+              href: sales-performance-products.md
+            - name: Winstgevendheid van klanten en producten beoordelen
+              href: assess-customer-product-profitability.md
+            - name: Winkelprestaties analyseren
+              href: store-performance-information.md
+            - name: 'Recency-, frequentie- en monetaire analyse (RFM) instellen'
+              href: set-up-rfm-analysis.md
+        - name: Globalisatie
+          items:
+            - name: Overzicht fiscale integratie voor Commerce-afzetkanalen
+              href: localizations/fiscal-integration-for-retail-channel.md
+            - name: Fiscale integratie voor Commerce-afzetkanalen instellen
+              href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Door gebruiker gedefinieerde certificaatprofielen voor winkels
+              href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Oostenrijk
+              items:
+                - name: Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
+                  href: localizations/emea-aut-fi-sample.md
+            - name: Brazilië
+              items:
+                - name: Commerce-lokalisatie voor Brazilië
+                  href: localizations/latam-bra-commerce-localization.md
+            - name: Oost-Europa
+              items:
+                - name: Algemeen
+                  items:
+                    - name: Voorschotfacturen voor Commerce voor Oost-Europa
+                      href: localizations/emea-eeu-advance-invoices-for-retail.md
+                    - name: Beheer kleine kas voor Commerce voor Oost-Europa
+                      href: localizations/emea-eeu-petty-cash-for-retail.md
+                    - name: Klantfacturen en retourverkooporders in Oost-Europese landen
+                      href: localizations/emea-eeu-retail-invoices.md
+                    - name: 'Implementatierichtlijnen voor kassa''s voor Tsjechië, Hongarije en Polen'
+                      href: localizations/emea-eeu-deployment.md
+                - name: Tsjechische Republiek
+                  items:
+                    - name: Voorbeeld van integratie van fiscale registratieservice voor Tsjechië
+                      href: localizations/emea-cze-fi-sample.md
+                - name: Polen
+                  items:
+                    - name: Voorbeeld van integratie van fiscale printer voor Polen
+                      href: localizations/emea-pol-fpi-sample.md
+                    - name: Beheer van klantgegevens voor Polen
+                      href: localizations/emea-pol-customer-information.md
+            - name: Frankrijk
+              items:
+                - name: Kassafunctionaliteit
+                  href: localizations/emea-fra-cash-registers.md
+                - name: Implementatierichtlijnen voor kassa's
+                  href: localizations/emea-fra-deployment.md
+            - name: Duitsland
+              items:
+                - name: Voorbeeld van integratie van fiscale registratieservice voor Duitsland
+                  href: localizations/emea-deu-fi-sample.md
+            - name: India
+              items:
+                - name: Integratie Belasting op goederen en diensten (GST) voor kassa's
+                  href: localizations/apac-ind-cash-registers.md
+                - name: Implementatierichtlijnen voor kassa's
+                  href: localizations/apac-ind-loc-deployment-guidelines.md
+                - name: Ondersteuning voor upgrade en N-1 voor India
+                  href: localizations/apac-ind-n-1-for-india.md
+            - name: Italië
+              items:
+                - name: Voorbeeld van integratie van fiscale printer voor Italië
+                  href: localizations/emea-ita-fpi-sample.md
+                - name: Beheer van klantgegevens voor Italië
+                  href: localizations/emea-ita-customer-information.md
+            - name: Mexico
+              items:
+                - name: Algemene CFDI-e-facturen voor Mexico
+                  href: ../finance/localizations/latam-mex-global-cfdi-3-3.md?toc=/dynamics365/commerce/toc.json
+            - name: Noorwegen
+              items:
+                - name: Kassafunctionaliteit
+                  href: localizations/emea-nor-cash-registers.md
+                - name: Implementatierichtlijnen voor kassa's
+                  href: localizations/emea-nor-loc-deployment-guidelines.md
+            - name: Zweden
+              items:
+                - name: Kassafunctionaliteit
+                  href: localizations/emea-swe-cash-registers.md
+                - name: Regeleenheidintegratievoorbeeld voor Zweden
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Voorbeeld voor Retail POS-integratie met regeleenheden (verouderd)
+                  href: localizations/retail-sdk-control-unit-sample.md
+        - name: Rapportage en Power BI-integratie
+          items:
+            - name: Rapportage en analyse met Power BI
+              href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
+            - name: Toegang tot informatie en rapportage
+              href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: Aanpassingsopties met Power BI
+              items:
+                - name: Functies die beschikbaar zijn via integratie van Power BI
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: Power BI-inhoud vastmaken
+                  href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
+                - name: Analytische werkgebieden selecteren vanuit Power BI
+                  href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
+            - name: Power BI-inhoud
+              items:
+                - name: Startpagina van Power BI-inhoud
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/commerce/toc.json
+                - name: Leren
+                  href: ../fin-ops-core/dev-itpro/analytics/learning-power-bi.md?toc=/dynamics365/commerce/toc.json
+                - name: Organisatietraining
+                  href: ../fin-ops-core/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
+                - name: Prestaties detailhandelafzetkanaal
+                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
+            - name: Analytische werkgebieden
+              items:
+                - name: Analytische werkgebieden (met Power BI Embedded)
+                  href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: Integratie met Power BI Embedded
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: Ingesloten rapporten in Analytische werkgebieden aanpassen
+                  href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
+            - name: Documenten rapporteren en afdrukken
+              items:
+                - name: Overzicht van Documentrapportservices
+                  href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Ondersteunde lettertypen
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
+                - name: SSRS configureren voor on-premises implementaties
+                  href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Afdrukken
+                  items:
+                    - name: Overzicht van Documenten afdrukken
+                      href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/commerce/toc.json
+                    - name: De documentrouteringsagent installeren om afdrukken via het netwerk in te schakelen
+                      href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/commerce/toc.json
+                    - name: De documentrouteringsagent upgraden
+                      href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/commerce/toc.json
+                    - name: Netwerkprinterapparaten installeren in on-premises omgevingen
+                      href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/commerce/toc.json
+                    - name: 'Mogelijkheden voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties'
+                      href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/commerce/toc.json
+                    - name: De documentrouteringsagent uitvoeren als Windows-service
+                      href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/commerce/toc.json
+                - name: Beschikbare SQL Server Reporting Services-rapporten
+                  href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/commerce/toc.json
+                - name: Rapportontwerpsjablonen installeren
+                  href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/commerce/toc.json
+            - name: Hulpmiddelen voor hoofdgebruikersbeheer
+              items:
+                - name: Power BI-integratie met Entiteitopslag
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
+                - name: Problemen oplossen na onderhoud van Entiteitopslag
+                  href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
+                - name: De Power BI-integratie configureren
+                  href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: Uw eigen database gebruiken
+                  href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
+                - name: Voorbeeld van PDF-documenten weergeven met PDF-Viewer
+                  href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/commerce/toc.json
+            - name: Ontwikkelprogramma's voor het maken en uitbreiden van oplossingen
+              items:
+                - name: 'Analyses, samengevoegde metingen en KPI-model'
+                  href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/commerce/toc.json
+                - name: Samengevoegde gegevens modelleren
+                  href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
+                - name: Financiële dimensies toevoegen aan samengevoegde metingen
+                  href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
+                - name: Analytische rapporten maken met Power BI Desktop
+                  href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
+                - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
+                  href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: Analytische werkgebieden en rapporten beveiligen met Power BI Embedded
+                  href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: Rapportageoplossingen maken
+                  href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/commerce/toc.json
+                - name: App Suite-rapporten aanpassen met extensies
+                  href: ../fin-ops-core/dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/dynamics365/commerce/toc.json
+                - name: Gegevenssets in App Suite-rapport uitvouwen
+                  href: ../fin-ops-core/dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/dynamics365/commerce/toc.json
+                - name: Rapportmenu-items uitbreiden om gebruikersnavigatie om te leiden
+                  href: ../fin-ops-core/dev-itpro/analytics/extend-report-menu-items.md?toc=/dynamics365/commerce/toc.json
+                - name: Aangepaste ontwerpen voor bedrijfsdocumenten maken
+                  href: ../fin-ops-core/dev-itpro/analytics/custom-designs-business-docs.md?toc=/dynamics365/commerce/toc.json
+                - name: Voorkomen dat er een time-out optreedt voor rapporten met een lange uitvoeringstijd
+                  href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/commerce/toc.json
+        - name: Elektronische rapportage
+          items:
+            - name: Overzicht van elektronische rapportage
+              href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: Configuraties
+              items:
+                - name: Configuraties maken
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/commerce/toc.json
+                - name: Onderdelen van de oplossing voor elektronische rapportage voorbereiden
+                  items:
+                    - name: Domeinspecifiek gegevensmodel ontwerpen
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/commerce/toc.json
+                    - name: Toepassingsspecifieke metagegevens voorbereiden
+                      items:
+                        - name: (ER) Toepassingsmetagegevens voor gebruik in RCS voorbereiden
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
+                        - name: (RCS) Toepassingsmetagegevens openen door gebruik van ER-configuratie
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: (RCS) Toepassingsmetagegevens openen door gebruik van verbonden toepassingen
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/commerce/toc.json
+                        - name: Modeltoewijzingen definiëren en gegevensbronnen selecteren
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/commerce/toc.json
+                        - name: Gegevensmodel aan geselecteerde gegevensbronnen toewijzen
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/dynamics365/commerce/toc.json
+                        - name: Een indelingsconfiguratie maken
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/commerce/toc.json
+                        - name: De onderdelen van de gemaakte indeling toewijzen aan gegevensmodelelementen
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/commerce/toc.json
+                    - name: De voorbereide ER-oplossing testen in de doeltoepassing
+                      items:
+                        - name: (ER) Configuraties importeren uit RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                        - name: Elektronische documenten genereren voor betalingen met een indelingsconfiguratie
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/commerce/toc.json
+                    - name: Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/commerce/toc.json
+            - name: Formuleontwerpers in elektronische rapportage
+              items:
+                - name: Formuleontwerper
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/commerce/toc.json
+                - name: Geavanceerde formuleontwerper
+                  href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/commerce/toc.json
+            - name: Formuletaal en -functies
+              items:
+                - name: Formuletaal
+                  href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: Functies
+                  items:
+                    - name: Datum en tijd
+                      items:
+                        - name: Datum- en tijdfuncties
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: AddDays
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateTimeFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateTimeValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateToDateTime
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: DayOfYear
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dayofyear.md?toc=/dynamics365/commerce/toc.json
+                        - name: Days
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-days.md?toc=/dynamics365/commerce/toc.json
+                        - name: Now
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-now.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullDate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldate.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullDateTime
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: SessionNow
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/commerce/toc.json
+                        - name: SessionToday
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
+                    - name: Lijst
+                      items:
+                        - name: Lijstfuncties
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: AllItems
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitems.md?toc=/dynamics365/commerce/toc.json
+                        - name: AllItemsQuery
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitemsquery.md?toc=/dynamics365/commerce/toc.json
+                        - name: Count
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/commerce/toc.json
+                        - name: EmptyList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/commerce/toc.json
+                        - name: Opsommen
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/commerce/toc.json
+                        - name: Filteren
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/commerce/toc.json
+                        - name: Eerste
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/commerce/toc.json
+                        - name: FirstOrNull
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/commerce/toc.json
+                        - name: Index
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/commerce/toc.json
+                        - name: IsEmpty
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/commerce/toc.json
+                        - name: Lijst
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListJoin
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListOfFields
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListOfFirstItem
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/commerce/toc.json
+                        - name: OrderBy
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/commerce/toc.json
+                        - name: Terugboeken
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/commerce/toc.json
+                        - name: Split
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
+                        - name: SplitList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/commerce/toc.json
+                        - name: SplitListByLimit
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?toc=/dynamics365/commerce/toc.json
+                        - name: StringJoin
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: Where
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/commerce/toc.json
+                    - name: Logische
+                      items:
+                        - name: Logische functies
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/commerce/toc.json
+                        - name: And
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/commerce/toc.json
+                        - name: Case
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/commerce/toc.json
+                        - name: If
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/commerce/toc.json
+                        - name: Not
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/commerce/toc.json
+                        - name: Or
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/commerce/toc.json
+                        - name: ValueIn
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/commerce/toc.json
+                    - name: Wiskundig
+                      items:
+                        - name: Wiskundige functies
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/commerce/toc.json
+                        - name: Abs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/commerce/toc.json
+                        - name: Power
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/commerce/toc.json
+                        - name: Round
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundDown
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-rounddown.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundUp
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-roundup.md?toc=/dynamics365/commerce/toc.json
+                    - name: Records
+                      items:
+                        - name: Registratiefuncties
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/commerce/toc.json
+                        - name: EmptyRecord
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/commerce/toc.json
+                    - name: Text
+                      items:
+                        - name: Tekstfuncties
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/commerce/toc.json
+                        - name: Char
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
+                        - name: Concatenate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/commerce/toc.json
+                        - name: Format
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/commerce/toc.json
+                        - name: GetEnumValueByName
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/commerce/toc.json
+                        - name: GuidValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: JsonValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-jsonvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: Left
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-left.md?toc=/dynamics365/commerce/toc.json
+                        - name: Len
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-len.md?toc=/dynamics365/commerce/toc.json
+                        - name: Lower
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
+                        - name: Mid
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumberFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumeralsToText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numeralstotext.md?toc=/dynamics365/commerce/toc.json
+                        - name: PadLeft
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-padleft.md?toc=/dynamics365/commerce/toc.json
+                        - name: QrCode
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
+                        - name: Replace
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/commerce/toc.json
+                        - name: Right
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/commerce/toc.json
+                        - name: Text
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
+                        - name: Translate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/commerce/toc.json
+                        - name: Trim
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-trim.md?toc=/dynamics365/commerce/toc.json
+                        - name: Upper
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-upper.md?toc=/dynamics365/commerce/toc.json
+                    - name: Gegevensverzameling
+                      items:
+                        - name: Functies voor gegevensverzameling
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-data-collection.md?toc=/dynamics365/commerce/toc.json
+                        - name: CollectedList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-collectedlist.md?toc=/dynamics365/commerce/toc.json
+                        - name: CountIF
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countif.md?toc=/dynamics365/commerce/toc.json
+                        - name: CountIFs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countifs.md?toc=/dynamics365/commerce/toc.json
+                        - name: FormatElementName
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-formatelementname.md?toc=/dynamics365/commerce/toc.json
+                        - name: SumIF
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumif.md?toc=/dynamics365/commerce/toc.json
+                        - name: SumIFs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumifs.md?toc=/dynamics365/commerce/toc.json
+                    - name: Andere
+                      items:
+                        - name: Andere functies (voor specifiek zakelijk domein)
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-other.md?toc=/dynamics365/commerce/toc.json
+                        - name: CH_Bank_Mod_10
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/commerce/toc.json
+                        - name: CN_GBT_AdditionalDimensionID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-cngbtadditionaldimensionid.md?toc=/dynamics365/commerce/toc.json
+                        - name: ConvertCurrency
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-convertcurrency.md?toc=/dynamics365/commerce/toc.json
+                        - name: CurCredRef
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/commerce/toc.json
+                        - name: FA_Balance
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/commerce/toc.json
+                        - name: FA_Sum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/commerce/toc.json
+                        - name: GetCurrentCompany
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-getcurrentcompany.md?toc=/dynamics365/commerce/toc.json
+                        - name: ISOCredRef
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isocredref.md?toc=/dynamics365/commerce/toc.json
+                        - name: IsValidCharacterISO7064
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isvalidchariso7064.md?toc=/dynamics365/commerce/toc.json
+                        - name: Mod_97
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-mod97.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumSeqValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-numseqvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundAmount
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-roundamount.md?toc=/dynamics365/commerce/toc.json
+                        - name: TableName2ID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-tablename2id.md?toc=/dynamics365/commerce/toc.json
+                    - name: Type conversie
+                      items:
+                        - name: Type conversiefuncties
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Type: Int64Value'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Type: IntValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Type: NumberValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Type: Value'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Datum en tijd: DateTimeValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Datum en tijd: DateToDateTime'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Datum en tijd: DateValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Lijst: List'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Lijst: ListOfFields'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Lijst: Split'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Lijst: StringJoin'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tekst: Char'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tekst: GuidValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tekst: NumberFormat'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tekst: QRCode'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tekst: Text'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
+            - name: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: Definities voor gegevensmodel selecteren tijdens het maken van indelingen
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: Verbeterde filteropties voor het zoeken van configuraties in de algemene opslagplaats
+              href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+            - name: Rapporten genereren door inhoud toe te voegen als onbewerkte XML
+              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
+            - name: (ER) Gegevensbronnen voor het hele bedrijf in de elektronische aangifte
+              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
+            - name: ER-indelingen ontwerpen voor het genereren van uitgaande elektronische documenten in verschillende indelingen
+              items:
+                - name: (ER) Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: (ER) Configuraties ontwerpen om rapporten in Word-indeling te genereren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: Configuraties ontwerpen om PDF-sjablonen in te vullen
+                  href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/commerce/toc.json
+            - name: Afbeeldingen en vormen insluiten
+              items:
+                - name: (ER) Afbeeldingen en vormen insluiten in documenten die u genereert
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/commerce/toc.json
+                - name: Voorbeeld van het insluiten van afbeeldingen en vormen
+                  items:
+                    - name: Configuraties ontwerpen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/commerce/toc.json
+                    - name: Configuraties beoordelen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Rapporten genereren in Office-indelingen met ingesloten afbeeldingen
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
+            - name: Indelingen voor elektronische rapportage wijzigen door Excel-sjablonen opnieuw toe te passen
+              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
+            - name: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: Een ER-oplossing ontwerpen voor het gebruik van financiële dimensies
+              items:
+                - name: Gegevensmodellen ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/commerce/toc.json
+                - name: Modellen toewijzen voor gebruik van financiële dimensies als gegevensbronnen
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/commerce/toc.json
+                - name: Rapporten ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/commerce/toc.json
+                - name: Rapporten uitvoeren die financiële dimensies gebruiken als gegevensbronnen
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/commerce/toc.json
+            - name: ER-indelingen ontwerpen voor tellen en totaliseren van gegevens uit gegenereerde uitvoer
+              items:
+                - name: Indelingen maken voor tellen en totaliseren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/commerce/toc.json
+                - name: Indeling configureren voor tellen en totaliseren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/commerce/toc.json
+                - name: Berekeningen gebruiken voor het generen van de uitvoer voor tellen en totaliseren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/commerce/toc.json
+                - name: Indelingen uitvoeren voor tellen en totaliseren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/commerce/toc.json
+            - name: Kolommen dynamisch toevoegen aan Excel-rapporten als horizontaal uitbreidbare bereiken
+              items:
+                - name: Indelingen ontwerpen voor het dynamisch toevoegen van kolommen aan Excel-rapporten als horizontaal uitbreidbare bereiken
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
+                - name: Indelingen uitvoeren voor het dynamisch toevoegen van kolommen aan Excel-rapporten als horizontaal uitbreidbare bereiken
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
+            - name: Documentbeheerbestanden gebruiken in uitvoer van indelingen
+              items:
+                - name: Gegevensmodellen voorbereiden voor het gebruik van documentbeheerbestanden in ER-uitvoer
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/commerce/toc.json
+                - name: Gegevensmodellen uitbreiden voor het gebruik van documentbeheerbestanden in ER-uitvoer
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/commerce/toc.json
+                - name: Indelingen maken voor gebruik van documentbeheerbestanden in ER-uitvoer
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/commerce/toc.json
+                - name: Indelingen uitvoeren voor gebruik van documentbeheerbestanden in ER-uitvoer
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
+                - name: Indelingen wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in ER-uitvoer
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
+            - name: Toepassingsgegevens bijwerken met behulp van elektronische rapportage
+              items:
+                - name: Elektronische documenten genereren en toepassingsgegevens bijwerken
+                  href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/commerce/toc.json
+                - name: Configuraties importeren voor het genereren van documenten met toepassingsgegevens
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: Configuraties ontwerpen voor het genereren van documenten met toepassingsgegevens
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/commerce/toc.json
+                - name: Modellen en toewijzingen wijzigen voor het genereren van documenten met toepassingsgegevens
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/dynamics365/commerce/toc.json
+                - name: Indelingen wijzigen voor het genereren van documenten met toepassingsgegevens
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/commerce/toc.json
+                - name: Documenten genereren die toepassingsgegevens bevatten
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/commerce/toc.json
+            - name: Gegevens importeren uit binnenkomende bestanden met ER-oplossingen
+              items:
+                - name: Inkomende documenten in verschillende indelingen parseren
+                  href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/commerce/toc.json
+                - name: Gegevensimport configureren voor handmatig geselecteerde bestanden
+                  items:
+                    - name: Configuraties maken om gegevens te importeren uit een extern XML-bestand
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
+                - name: Gegevensimport configureren in batchmodus op basis van in SharePoint gevonden bestanden
+                  href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
+                - name: Bestanden importeren in XML-indeling
+                  items:
+                    - name: Bestanden in XML-indeling importeren met optionele kenmerken
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER-indelingen configureren voor het importeren van XML-bestanden met optionele kenmerken
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
+            - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
+              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
+            - name: Ondersteuning bieden voor parameteraanroepen van ER-gegevensbronnen van een Berekende veld-type
+              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/commerce/toc.json
+            - name: Levenscyclus van configuratie
+              items:
+                - name: Levenscyclus van configuratie beheren
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: Configuraties uploaden naar Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Configuraties importeren uit Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Configuraties downloaden uit Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
+                - name: Configuraties importeren
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: ER-configuraties downloaden uit de RCS-opslagplaats
+                  items:
+                    - name: ER-configuraties downloaden uit de ER-opslagplaats voor het RCS-type
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Configuraties importeren uit RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+            - name: Zelfstudies
+              items:
+                - name: JOIN-gegevensbronnen gebruiken om gegevens uit meerdere toepassingstabellen op te halen
+                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
+                - name: ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
+                - name: De parameters van een ER-indeling per rechtspersoon instellen
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
+                - name: De uitvoering van ER-opmaakelementen uitstellen
+                  items:
+                    - name: De uitvoering van reekselementen in ER-indelingen uitstellen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                    - name: De uitvoering van XML-elementen in ER-indelingen uitstellen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
+            - name: Oplossingen voor elektronische rapportage gebruiken in Finance and Operations
+              items:
+                - name: Het raamwerk configureren
+                  items:
+                    - name: Raamwerk elektronische rapportage configureren
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/commerce/toc.json
+                    - name: Back-ups van ER-sjablonen maken en deze herstellen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/commerce/toc.json
+                    - name: Aanbieders van configuraties maken en deze als actief markeren
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: Bestemmingen
+                  items:
+                    - name: Overzicht van bestemmingen
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Bestemmingstypen
+                      items:
+                        - name: Bestemming voor archieven
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/commerce/toc.json
+                        - name: Bestemming voor e-mail
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/commerce/toc.json
+                        - name: Bestemming voor bestanden
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/commerce/toc.json
+                        - name: Bestemming voor Power BI
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/commerce/toc.json
+                        - name: Bestemming voor printers
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/commerce/toc.json
+                        - name: Bestemming voor scherm
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/commerce/toc.json
+                    - name: Bestemmingen configureren
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: Een verwijzing naar een ER-indeling instellen
+                  href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
+                - name: Gegenereerde rapporten automatisch valideren
+                  items:
+                    - name: Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commerce/toc.json
+                    - name: Verbeteringen in de traceringsresultaten van gegenereerde ER-rapporten en vergelijkingen met basislijnwaarden
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
+                    - name: Testen automatiseren met elektronische rapportage
+                      href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
+                - name: Bedrijfsprocessen automatiseren met behulp van configuraties voor elektronische rapportage
+                  items:
+                    - name: Elektronische rapportage configureren om gegevens op te halen in Power BI
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
+                    - name: Formulieren genereren voor afdrukbare vrije-tekstfacturen (FTI)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
+                - name: Uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: Beheer van bedrijfsdocumenten
+                  items:
+                    - name: Overzicht van Beheer van bedrijfsdocumenten
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/commerce/toc.json
+                    - name: Nieuwe gebruikersinterface voor documenten in beheer van bedrijfsdocumenten
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/commerce/toc.json
+                    - name: Nieuwe velden toevoegen aan een sjabloon voor bedrijfsdocumenten in Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/commerce/toc.json
+            - name: API ER-raamwerk
+              items:
+                - name: De lijst met functies voor elektronische rapportage uitbreiden
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/commerce/toc.json
+                - name: Wijzigingen in API voor raamwerk voor elektronische rapportage in Application update 7.3
+                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
+                - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
+        - name: De mobiele app Finance and Operations (Dynamics 365)
+          items:
+            - name: Startpagina mobiele app
+              href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
+            - name: Mobiele werkgebieden
+              items:
+                - name: Beschikbare mobiele werkgebieden
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/dynamics365/commerce/toc.json
+                - name: Activabeheer
+                  href: ../supply-chain/asset-management/asset-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Adresboek van bedrijf
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Kostenbeheer
+                  href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Onkostenbeheer
+                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Voorhanden voorraad
+                  href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Factuurgoedkeuringen
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Mijn team
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Overzicht van Mobiele Project-toepassingen
+                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Projecttijdinvoer
+                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Project Timesheet
+                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/commerce/toc.json
+                - name: Goedkeuring van inkooporder
+                  href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Verkooporders
+                  href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Leverancierssamenwerking
+                  href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+            - name: Mobiele werkgebieden publiceren
+              href: ../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+        - name: Office-integratie
+          items:
+            - name: Overzicht van Office-integratie
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/commerce/toc.json
+            - name: Zelfstudie voor Office-integratie
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
+            - name: Entiteitsgegevens in Excel openen en bijwerken met de Excel-invoegtoepassing
+              href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
+            - name: Ervaringen met Openen in Excel maken
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
+            - name: Sjablonen toevoegen aan het menu Regels openen in Excel
+              href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
+            - name: Het menu Openen in Microsoft Office aanpassen
+              href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
+            - name: E-mail configureren en verzenden
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: E-mailsjablonen maken voor transactiegebeurtenissen
+              href: email-templates-transactions.md
+            - name: E-mailervaringen ontwikkelen
+              href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
+            - name: Problemen met Office-integratie oplossen
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/commerce/toc.json
+        - name: Organisatiebeheer
+          items:
+            - name: Startpagina van Organisatiebeheer
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/commerce/toc.json
+            - name: Nummerreeksen
+              items:
+                - name: Overzicht van Nummerreeksen
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Nummerreeksen instellen op een individuele basis
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/commerce/toc.json
+                - name: Nummerreeksen instellen met een wizard
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/commerce/toc.json
+            - name: Organisaties en organisatiehiërarchieën
+              items:
+                - name: Overzicht van Organisaties en organisatiehiërarchieën
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
+                - name: Uw organisatiehiërarchie plannen
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                - name: Een organisatiehiërarchie maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                - name: Rechtspersonen maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/commerce/toc.json
+                - name: Operationele eenheden maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json
+            - name: Globaal adresboek
+              items:
+                - name: Overzicht van Globaal adresboek
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Het globale adresboek en andere adresboeken plannen
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
+                - name: Het globale adresboek configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Veelgestelde vragen over adresboeken
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
+                - name: Adresboeken configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/commerce/toc.json
+            - name: Werkstroomsysteem
+              items:
+                - name: Overzicht van Werkstroomsysteem
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Werkstroomsysteemarchitectuur
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/commerce/toc.json
+                - name: Werkstroomelementen
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/commerce/toc.json
+                - name: Werkstroomacties
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/commerce/toc.json
+                - name: Werkstromen maken
+                  items:
+                    - name: Overzicht van Werkstromen maken
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Werkstroomeigenschappen configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/commerce/toc.json
+                    - name: Handmatige taken configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Geautomatiseerde taken configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Goedkeuringsprocessen configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Goedkeuringsstappen configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Handmatige beslissingen configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Voorwaardelijke beslissingen configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Parallelle activiteiten configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Parallelle vertakkingen configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Werkstromen voor regelitems configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/commerce/toc.json
+                - name: De batchtaak voor Werkstroomberichtverwerking configureren als kritiek
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/commerce/toc.json
+                - name: Werkitems in een werkstroom delegeren
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/commerce/toc.json
+                - name: Werkstroomhistorie bekijken
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/commerce/toc.json
+                - name: Het systeem configureren om werkstroomberichten te verzenden naar gebruikers
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/commerce/toc.json
+                - name: Werkstroomtypen
+                  items:
+                    - name: Een werkstroomtype maken
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/commerce/toc.json
+                    - name: Controlelijst voor werkstroomtype
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/commerce/toc.json
+                    - name: Een werkstroomcategorie maken
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/commerce/toc.json
+                    - name: Een query voor een werkstroomtype maken
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/commerce/toc.json
+                    - name: Een nieuw werkstroomtype maken
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/commerce/toc.json
+                    - name: Een werkstroomdocumentklasse maken
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/commerce/toc.json
+                    - name: Een SubmitToworkflow-klasse maken
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Een werkstroomdocumentklasse koppelen aan een werkstroomtype
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/commerce/toc.json
+                - name: Rapport over werkstroomtypen
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/commerce/toc.json
+                - name: Veelgestelde vragen over werkstromen
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/commerce/toc.json
+            - name: Waarschuwingen
+              items:
+                - name: Overzicht van Waarschuwingen
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Waarschuwingsregels maken
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/commerce/toc.json
+                - name: Batchverwerking van waarschuwingen
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/commerce/toc.json
+                - name: Clientwaarschuwingen per e-mail
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/commerce/toc.json
+            - name: Elektronische handtekeningen
+              items:
+                - name: Overzicht van Elektronische handtekeningen
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Elektronische handtekeningen instellen
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/commerce/toc.json
+            - name: Casebeheer
+              items:
+                - name: Overzicht van Casebeheer
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Casebeveiliging, -processen en -categorieën plannen'
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/commerce/toc.json
+            - name: Recordsjablonen
+              items:
+                - name: Overzicht van Recordsjablonen
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/commerce/toc.json
+                - name: Een recordsjabloon maken
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/commerce/toc.json
+                - name: Een nieuwe record maken met een recordsjabloon
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/commerce/toc.json
+            - name: Documentbeheer configureren
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/commerce/toc.json
+            - name: E-mail configureren en verzenden
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: Datum-/tijdgegevens en tijdzones
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
+        - name: Uitbreidbaarheid
+          items:
+            - name: Ontwikkeling en uitbreidbaarheid van handel
+              href: dev-itpro/dev-retail-home-page.md
+            - name: Uitbreidbaarheid van online afzetkanaal
+              items:
+                - name: Overzicht van uitbreidbaarheid van online afzetkanaal
+                  href: e-commerce-extensibility/overview.md
+                - name: Aan de slag
+                  items:
+                    - name: Aan de slag met ontwikkeling van online uitbreiding van e-commerce
+                      href: e-commerce-extensibility/sdk-getting-started.md
+                    - name: Systeemvereisten
+                      href: e-commerce-extensibility/system-requirements.md
+                    - name: Een ontwikkelomgeving instellen
+                      href: e-commerce-extensibility/setup-dev-environment.md
+                    - name: Een ontwikkelomgevingsbestand (.env) configureren
+                      href: e-commerce-extensibility/configure-env-file.md
+                    - name: Een e-commerce-ontwikkelomgeving configureren voor een Commerce-cloudomgeving
+                      href: e-commerce-extensibility/debug-tier-1.md
+                    - name: Azure DevOps-code delen instellen en een build-pijplijn maken
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
+                - name: Platformoverzicht
+                  items:
+                    - name: Architectuuroverzicht van e-commerce
+                      href: e-commerce-extensibility/architectural-overview.md
+                    - name: E-commerce-onderdelen
+                      href: e-commerce-extensibility/ecommerce-components.md
+                    - name: Verwijzing CLI-opdrachten
+                      href: e-commerce-extensibility/cli-command-reference.md
+                - name: De anatomie van een module
+                  items:
+                    - name: Overzicht van modules
+                      href: e-commerce-extensibility/modules-overview.md
+                    - name: Bestand voor definitie van module
+                      href: e-commerce-extensibility/module-definition-file.md
+                    - name: Bestand met React-onderdeel voor module
+                      href: e-commerce-extensibility/module-react-file.md
+                    - name: Bestand voor moduleweergave
+                      href: e-commerce-extensibility/module-view-file.md
+                    - name: Bestand voor modulegegevens
+                      href: e-commerce-extensibility/module-data-file.md
+                    - name: Bestand met dummymodule
+                      href: e-commerce-extensibility/module-mock-file.md
+                    - name: Bestand met moduletest
+                      href: e-commerce-extensibility/module-test-file.md
+                    - name: Bestand met props.autogenerated.ts voor module
+                      href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                - name: Modules ontwikkelen
+                  items:
+                    - name: Een nieuwe module maken
+                      href: e-commerce-extensibility/create-new-module.md
+                    - name: Een module van de modulebibliotheek klonen
+                      href: e-commerce-extensibility/clone-starter-module.md
+                    - name: Configuratievelden voor een module toevoegen
+                      href: e-commerce-extensibility/add-module-config-fields.md
+                    - name: Voorbeelden van modules weergeven en fouten in modules opsporen
+                      href: e-commerce-extensibility/test-module.md
+                    - name: Modules testen met behulp van dummy's
+                      href: e-commerce-extensibility/test-module-mock.md
+                    - name: Modules testen met behulp van dummypagina's
+                      href: e-commerce-extensibility/test-page-mock.md
+                    - name: Containermodules
+                      href: e-commerce-extensibility/container-modules.md
+                    - name: Een indelingscontainermodule maken
+                      href: e-commerce-extensibility/create-layout-container.md
+                    - name: Een paginacontainermodule maken
+                      href: e-commerce-extensibility/create-page-containers.md
+                    - name: Een module lokaliseren
+                      href: e-commerce-extensibility/localize-module.md
+                - name: Onderwerpen over geavanceerde modules
+                  items:
+                    - name: Object eigenschappen aanvragen
+                      href: e-commerce-extensibility/request-properties-object.md
+                    - name: App-instellingen
+                      href: e-commerce-extensibility/app-settings.md
+                    - name: Een moduledefinitie uitbreiden
+                      href: e-commerce-extensibility/extend-module-definition.md
+                    - name: Overzicht van cookie-API's
+                      href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Overzicht van interactieve onderdelen
+                      href: e-commerce-extensibility/interactive-components.md
+                    - name: De aangemelde status imiteren tijdens lokale ontwikkeling
+                      href: e-commerce-extensibility/mock-sign-in.md
+                    - name: Modules globaliseren met de klasse CultureInfoFormatter
+                      href: e-commerce-extensibility/globalize-modules.md
+                    - name: Azure Key Vault instellen voor beveiligd sleutelbeheer
+                      href: e-commerce-extensibility/set-up-key-vault.md
+                - name: Gegevensacties ontwikkelen
+                  items:
+                    - name: Overzicht van gegevensacties
+                      href: e-commerce-extensibility/data-actions.md
+                    - name: Cacheopties voor gegevensactie
+                      href: e-commerce-extensibility/data-action-cache.md
+                    - name: Gegevensacties testen met dummy's
+                      href: e-commerce-extensibility/test-data-action-mocks.md
+                    - name: Gegevensacties voor het laden van pagina's
+                      href: e-commerce-extensibility/page-load-data-action.md
+                    - name: Op gebeurtenissen gebaseerde gegevensacties
+                      href: e-commerce-extensibility/event-based-data-actions.md
+                    - name: Kerngegevensacties
+                      href: e-commerce-extensibility/core-data-actions.md
+                    - name: Retail Server-API's aanroepen
+                      href: e-commerce-extensibility/call-retail-server-apis.md
+                    - name: API's voor Retail Server-uitbreidingen aanroepen
+                      href: e-commerce-extensibility/call-retail-extension-api.md
+                - name: Onderwerpen over geavanceerde gegevensacties
+                  items:
+                    - name: Gegevensacties voor keten
+                      href: e-commerce-extensibility/chain-data-actions.md
+                    - name: Gegevensacties voor batch
+                      href: e-commerce-extensibility/batch-data-actions.md
+                    - name: Waarneembare gegevensacties
+                      href: e-commerce-extensibility/create-observable-data-action.md
+                    - name: Status delen tussen modules
+                      href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Cache-instellingen voor gegevensactie
+                      href: e-commerce-extensibility/data-action-cache-settings.md
+                    - name: Overschrijvingen van gegevensactie
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: Gegevensactie-hooks
+                      href: e-commerce-extensibility/data-action-hooks.md
+                - name: Thema's ontwikkelen
+                  items:
+                    - name: Overzicht van thema's
+                      href: e-commerce-extensibility/theming.md
+                    - name: Een thema maken
+                      href: e-commerce-extensibility/create-theme.md
+                    - name: Thema-instellingen configureren
+                      href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Vooraf ingestelde themastijlen configureren
+                      href: e-commerce-extensibility/theme-style-presets.md
+                    - name: Een thema uitbreiden om module-extensies toe te voegen
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Een modulebibliotheekonderdeel in een thema overschrijven
+                      href: e-commerce-extensibility/override-theme-component.md
+                    - name: Een thema uitbreiden op basis van een basisthema
+                      href: e-commerce-extensibility/extend-theme.md
+                    - name: Aangepaste resources toevoegen aan uw aanpassingscode
+                      href: e-commerce-extensibility/add-custom-resources.md
+                - name: Script injecteren
+                  items:
+                    - name: Script-injectors
+                      href: e-commerce-extensibility/script-injector.md
+                - name: Connectors
+                  items:
+                    - name: Connectors configureren en inschakelen
+                      href: e-commerce-extensibility/connectors.md
+                - name: Telemetrie en analyse
+                  items:
+                    - name: Logboekregistratie telemetrie
+                      href: e-commerce-extensibility/telemetry-logger.md
+                - name: Implementatie en onderhoud
+                  items:
+                    - name: Configuraties verpakken en implementeren in een online omgeving
+                      href: e-commerce-extensibility/package-deploy.md
+                    - name: Updates voor SDK's en modulebibliotheken
+                      href: e-commerce-extensibility/sdk-updates.md
+                - name: Best practices en veelgestelde vragen
+                  items:
+                    - name: Best practices voor de ontwikkeling van Dynamics 365 Commerce
+                      href: e-commerce-extensibility/best-practices-dev.md
+                    - name: Veelgestelde vragen over Dynamics 365 Commerce online SDK
+                      href: e-commerce-extensibility/sdk-faq.md
+            - name: Retail SDK
+              items:
+                - name: Architectuur van Retail SDK
+                  href: dev-itpro/retail-sdk/retail-sdk-overview.md
+                - name: Verwachte wijzigingen in Retail SDK
+                  href: dev-itpro/UpcomingSDKChanges.md
+                - name: Belangrijke ontwikkelings- en ALM-wijzigingen van versie 10.0.10 tot 10.0.13
+                  href: dev-itpro/dev-changes-10-13.md
+                - name: De build-systemen voor Commerce en Finance and Operations samenvoegen
+                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                - name: Retail SDK migreren van Visual Studio 2015 naar Visual Studio 2017
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
+                - name: Voorbeelden voor uitbreidbaarheid van Retail SDK
+                  href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+                - name: Implementeerbare pakketten maken
+                  href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+                - name: Ontwikkelingen in dev-omgevingen met cloudhosting zonder beheerderstoegang
+                  href: dev-itpro/cloud-dev-box.md
+                - name: Build-pipeline instellen voor Commerce SDK
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: Voorbeelden en pakketten van GitHub en NuGet downloaden
+                  href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Veelgestelde vragen over Retail SDK
+                  href: dev-itpro/retail-sdk/sdk-faq.md
+            - name: Uitbreidbaarheid van verkooppunten
+              items:
+                - name: POS-schermindelingen
+                  href: pos-screen-layouts.md
+                - name: URL openen in POS
+                  href: Open-URL-in-POS.md
+                - name: De POS-indelingsontwerper installeren
+                  href: install-pos-layout-designer.md
+                - name: De weergave van POS Dual-scherm uitbreiden
+                  href: dev-itpro/pos-dual-display-extension.md
+                - name: Aangepaste besturingselementen toevoegen aan POS-weergaven
+                  href: dev-itpro/pos-custom-control.md
+                - name: POS-bewerkingen toevoegen aan POS-indelingen met de ontwerpfunctie van het knoppenraster
+                  href: dev-itpro/add-POS-operations.md
+                - name: POS-API's
+                  href: dev-itpro/POS-APIs.md
+                - name: Uitbreiding van POS-betaling
+                  href: dev-itpro/pos-payment-extension.md
+                - name: Ondersteuning voor fooien in de SDK voor POS-betalingen
+                  href: dev-itpro/tipping.md
+                - name: Ondersteuning voor externe geschenkbonnen
+                  href: dev-itpro/gift-card.md
+                - name: Branding maken en toepassen op de Retail Experience-app
+                  href: dev-itpro/create-retail-experience-app.md
+                - name: POS Hybrid-app instellen in Android en iOS
+                  href: dev-itpro/hybridApp.md
+                - name: POS-aanvraaghandler overschrijven
+                  href: dev-itpro/pos-handler.md
+                - name: Gegevens van POS-uitbreidingspakket weergeven
+                  href: dev-itpro/view-pos-extension-package-details.md
+                - name: Recorder en Regression Suite Automation Tool voor Cloud POS testen
+                  href: dev-itpro/pos-rsat.md
+                - name: Aangepaste velden toevoegen aan het POS-deelvenster Totalen
+                  href: dev-itpro/custom-field-pos-totals.md
+                - name: Aangepaste meldingen in POS weergeven
+                  href: dev-itpro/extend-pos-notification.md
+                - name: MPOS ondertekenen met certificaat voor ondertekening van programmacode
+                  href: dev-itpro/pos-app-signing-certificate.md
+                - name: POS-weergaven uitbreiden om aangepaste kolommen en knoppen op de appbalk toe te voegen
+                  href: dev-itpro/pos-view-extension.md
+                - name: Aangepaste besturingselementen toevoegen aan transactiepagina's van Modern POS
+                  href: dev-itpro/pos-custom-transaction.md
+                - name: Aangepaste kolommen toevoegen aan een POS-transactieraster
+                  href: dev-itpro/pos-custom-transaction-column.md
+                - name: POS-API's of -bewerkingen aanroepen vanuit de POS-uitbreidingen
+                  href: dev-itpro/pos-api-extension.md
+                - name: Modern POS-triggers (MPOS) en afdrukken
+                  href: dev-itpro/pos-trigger-printing.md
+                - name: Aangepaste besturingselementen toevoegen aan niet-schermontwerpweergaven voor POS
+                  href: dev-itpro/pos-control-non-screen.md
+                - name: De POS-voorbeelden uitvoeren
+                  href: dev-itpro/pos-run-samples.md
+                - name: Implementatierichtlijnen voor apparaatbeheer
+                  href: implementation-considerations-devices.md
+                - name: Gebeurtenissen en afhandelingroutines voor POS-winkelwagenweergave
+                  href: dev-itpro/cart-view-handlers.md
+                - name: Aangepaste knoppen toevoegen in POS-koptekstbalk
+                  href: dev-itpro/pos-header-bar.md
+            - name: Uitbreidbaarheid van Hardware Station
+              items:
+                - name: Hardware Station en uitbreidbaarheid
+                  href: dev-itpro/hardware-station-extensibility.md
+                - name: POS integreren met een nieuw hardwareapparaat
+                  href: dev-itpro/hardware-device-extension.md
+            - name: Uitbreidbaarheid van Retail Server
+              items:
+                - name: Klanten- en consumenten-API's voor Commerce Scale Unit
+                  href: dev-itpro/retail-server-customer-consumer-api.md
+                - name: Nieuwe API voor Retail Server-uitbreiding maken (Retail SDK-versie 10.0.11 en hoger)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: Nieuwe API voor Retail Server-uitbreiding maken (Retail SDK-versie 10.0.11 en lager)
+                  href: dev-itpro/retail-server-extension.md
+                - name: Retail-typescript en C#-proxy's
+                  href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: Retail Server-API's gebruiken in externe toepassingen
+                  href: dev-itpro/consume-retail-server-api.md
+            - name: Uitbreidbaarheid Commerce Runtime (CRT)
+              items:
+                - name: CRT-architectuur en -configuratie
+                  href: dev-itpro/commerce-runtime-overview.md
+                - name: CRT-services
+                  href: dev-itpro/crt-services.md
+                - name: CRT-uitbreidingspatroon
+                  href: dev-itpro/commerce-runtime-extensibility.md
+                - name: Geheimen voor Retail-kanalen beheren
+                  href: dev-itpro/manage-secrets.md
+                - name: CRT-uitbreidbaarheid en activeringen
+                  href: dev-itpro/commerce-runtime-extensibility-trigger.md
+                - name: Transacties blokkeren met triggers
+                  href: dev-itpro/trigger-example-blocking-transaction.md
+                - name: Uitbreiding loyaliteit
+                  href: dev-itpro/retail-sdk/loyalty-extension-sample.md
+                - name: Uitbreidingspunten voor pakbonnen
+                  href: dev-itpro/extensions-shipping-carrier-integration.md
+                - name: Uitbreidingen voor kanaaldatabase
+                  href: dev-itpro/channel-db-extensions.md
+                - name: Aangepaste CDX-synchronisatie via uitbreiding inschakelen
+                  href: dev-itpro/cdx-extensibility.md
+                - name: Orderkenmerken definiëren en instellen
+                  href: dev-itpro/order-attributes.md
+                - name: Klantkenmerken
+                  href: dev-itpro/customer-attributes.md
+                - name: CRT SDK-voorbeelden
+                  href: dev-itpro/retail-sdk/retail-sdk-samples.md
+                - name: Uitbreidingsgebeurtenissen vastleggen in Application Insights
+                  href: dev-itpro/commerce-application-insights.md
+                - name: Async Commerce-API's (CRT) maken in uw bedrijfslogica
+                  href: dev-itpro/async-commerce-extension.md
+                - name: Vooraf uitgebreide kolommen in de kanaaldatabase
+                  href: dev-itpro/extended-columns.md
+                - name: Commerce Data Exchange - real-time service uitbreiden
+                  href: dev-itpro/extend-commerce-data-exchange.md
+            - name: Uitbreidbaarheid betalingsconnector
+              items:
+                - name: Betalingsintegratie maken voor een betalingsterminal
+                  href: dev-itpro/end-to-end-payment-extension.md
+                - name: Een betalingsconnector en betalingsapparaat implementeren (whitepaper)
+                  href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
+                - name: Betalingsconnectors implementeren
+                  href: dev-itpro/deploy-payment-connector.md
+                - name: Incrementeel registreren voor backoffice-facturering
+                  href: dev-itpro/incremental-capture.md
+                - name: Aangepaste vertaalde foutberichten voor uitbreidingen van betalingsterminal maken
+                  href: dev-itpro/payment-custom-error-messages.md
+                - name: Windows-installatieprogramma's maken voor betalingsconnectors
+                  href: dev-itpro/create-windows-installer-payment-connector.md
+                - name: Gebruik van betalingsgegevens
+                  href: payment-connector-data-fields.md
+                - name: Bescherming tegen dubbele betaling inschakelen voor betalingsconnector
+                  href: dev-itpro/duplicate-payments-protection.md
+                - name: Betalingspakket maken voor Toepassingsverkenner in Service Fabric-implementaties
+                  href: dev-itpro/payment-connector-package.md
+            - name: Uitbreidbaarheid van e-commerce van derde
+              items:
+                - name: Online winkels configureren
+                  href: dev-itpro/configure-online-store.md
+                - name: Verificatieproviders configureren
+                  href: dev-itpro/configure-authentication-providers.md
+                - name: SDK e-Commerce-platform
+                  href: dev-itpro/ecommerce-platform-sdk.md
+            - name: Resources voor Commerce-uitbreidingen en labelbestanden lokaliseren
+              href: dev-itpro/extension-resource-localization.md
+    - name: Ontwikkeling en beheer voor Finance and Operations-apps
+      href: ../fin-ops-core/dev-itpro/index.md
+    - name: Dynamics 365 Finance
+      href: ../finance/index.md
+    - name: Dynamics 365 Supply Chain Management
+      href: ../supply-chain/index.md
